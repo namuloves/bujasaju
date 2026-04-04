@@ -1,63 +1,124 @@
-import Image from "next/image";
+'use client';
+
+import { useState, useMemo } from 'react';
+import Header from '@/components/Header';
+import FilterPanel, { Filters } from '@/components/FilterPanel';
+import PersonGrid from '@/components/PersonGrid';
+import {
+  enrichedPeople,
+  getUniqueNationalities,
+  getUniqueIndustries,
+  getUniqueGyeokguks,
+  getUniqueIljus,
+} from '@/lib/data/enriched';
+
+const defaultFilters: Filters = {
+  ilgan: '',
+  ilju: '',
+  wolji: '',
+  gyeokguk: '',
+  search: '',
+  nationality: 'KR',
+  industry: '',
+  gender: '',
+  sort: 'netWorth_desc',
+};
 
 export default function Home() {
+  const [filters, setFilters] = useState<Filters>(defaultFilters);
+
+  const filteredPeople = useMemo(() => {
+    const filtered = enrichedPeople.filter((person) => {
+      if (filters.search) {
+        const q = filters.search.toLowerCase();
+        if (!person.name.toLowerCase().includes(q) &&
+            !(person.nameKo && person.nameKo.includes(filters.search))) return false;
+      }
+      if (filters.gender && person.gender !== filters.gender) return false;
+      if (filters.ilju && person.saju.ilju !== filters.ilju) return false;
+      if (filters.ilgan && person.saju.saju.day.stem !== filters.ilgan) return false;
+      if (filters.wolji && person.saju.wolji !== filters.wolji) return false;
+      if (filters.gyeokguk && person.saju.gyeokguk !== filters.gyeokguk) return false;
+      if (filters.nationality && !person.nationality.includes(filters.nationality)) return false;
+      if (filters.industry && person.industry !== filters.industry) return false;
+      return true;
+    });
+
+    // Sort
+    const sorted = [...filtered];
+    switch (filters.sort) {
+      case 'netWorth_asc':
+        sorted.sort((a, b) => a.netWorth - b.netWorth);
+        break;
+      case 'name_asc':
+        sorted.sort((a, b) => a.name.localeCompare(b.name));
+        break;
+      case 'netWorth_desc':
+      default:
+        sorted.sort((a, b) => b.netWorth - a.netWorth);
+        break;
+    }
+    return sorted;
+  }, [filters]);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+    <div className="min-h-screen bg-gray-50">
+      <Header />
+      <main className="max-w-7xl mx-auto px-4 py-6">
+        <div className="flex flex-col lg:flex-row gap-6">
+          {/* Sidebar Filters */}
+          <aside className="w-full lg:w-72 flex-shrink-0">
+            <div className="lg:sticky lg:top-4">
+              <FilterPanel
+                filters={filters}
+                onChange={setFilters}
+                availableGyeokguks={getUniqueGyeokguks()}
+                availableNationalities={getUniqueNationalities()}
+                availableIndustries={getUniqueIndustries()}
+                availableIljus={getUniqueIljus()}
+                totalCount={enrichedPeople.length}
+                filteredCount={filteredPeople.length}
+              />
+
+              {/* Stats summary */}
+              <div className="mt-4 bg-white rounded-xl border border-gray-200 p-4">
+                <h3 className="text-xs font-medium text-gray-500 mb-2">격국 분포</h3>
+                <div className="space-y-1">
+                  {getUniqueGyeokguks().map((guk) => {
+                    const baseSet = filters.nationality
+                      ? enrichedPeople.filter((p) => p.nationality.includes(filters.nationality))
+                      : enrichedPeople;
+                    const count = baseSet.filter((p) => p.saju.gyeokguk === guk).length;
+                    const pct = baseSet.length > 0 ? ((count / baseSet.length) * 100).toFixed(1) : '0';
+                    return (
+                      <div key={guk} className="flex items-center justify-between text-xs">
+                        <button
+                          className="text-gray-600 hover:text-indigo-600 transition-colors"
+                          onClick={() => setFilters({ ...filters, gyeokguk: filters.gyeokguk === guk ? '' : guk })}
+                        >
+                          {guk}
+                        </button>
+                        <div className="flex items-center gap-2">
+                          <div className="w-16 bg-gray-100 rounded-full h-1.5">
+                            <div
+                              className="bg-indigo-500 h-1.5 rounded-full"
+                              style={{ width: `${pct}%` }}
+                            />
+                          </div>
+                          <span className="text-gray-400 w-12 text-right">{count}명</span>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          {/* Main Grid */}
+          <div className="flex-1">
+            <PersonGrid people={filteredPeople} />
+          </div>
         </div>
       </main>
     </div>
