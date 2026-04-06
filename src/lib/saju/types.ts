@@ -49,6 +49,8 @@ export interface Person {
   photoUrl: string;
   gender: Gender;
   source?: string; // Company or source of wealth
+  bio?: string; // One-sentence neutral summary of who they are and how they made their fortune
+  wealthOrigin?: 'self-made' | 'inherited' | 'mixed'; // mixed = inherited a business and substantially grew it
 }
 
 export interface EnrichedPerson extends Person {
