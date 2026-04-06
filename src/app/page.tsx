@@ -18,7 +18,7 @@ const defaultFilters: Filters = {
   wolji: '',
   gyeokguk: '',
   search: '',
-  nationality: 'KR',
+  nationality: '',
   industry: '',
   gender: '',
   sort: 'netWorth_desc',
@@ -80,38 +80,6 @@ export default function Home() {
                 filteredCount={filteredPeople.length}
               />
 
-              {/* Stats summary */}
-              <div className="mt-4 bg-white rounded-xl border border-gray-200 p-4">
-                <h3 className="text-xs font-medium text-gray-500 mb-2">격국 분포</h3>
-                <div className="space-y-1">
-                  {getUniqueGyeokguks().map((guk) => {
-                    const baseSet = filters.nationality
-                      ? enrichedPeople.filter((p) => p.nationality.includes(filters.nationality))
-                      : enrichedPeople;
-                    const count = baseSet.filter((p) => p.saju.gyeokguk === guk).length;
-                    const pct = baseSet.length > 0 ? ((count / baseSet.length) * 100).toFixed(1) : '0';
-                    return (
-                      <div key={guk} className="flex items-center justify-between text-xs">
-                        <button
-                          className="text-gray-600 hover:text-indigo-600 transition-colors"
-                          onClick={() => setFilters({ ...filters, gyeokguk: filters.gyeokguk === guk ? '' : guk })}
-                        >
-                          {guk}
-                        </button>
-                        <div className="flex items-center gap-2">
-                          <div className="w-16 bg-gray-100 rounded-full h-1.5">
-                            <div
-                              className="bg-indigo-500 h-1.5 rounded-full"
-                              style={{ width: `${pct}%` }}
-                            />
-                          </div>
-                          <span className="text-gray-400 w-12 text-right">{count}명</span>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
             </div>
           </aside>
 

@@ -37,6 +37,15 @@ const OHAENG_EMOJI: Record<string, string> = {
   '목': '🌳', '화': '🔥', '토': '🏔️', '금': '⚔️', '수': '💧',
 };
 
+// Per-stem emoji overrides. Falls back to OHAENG_EMOJI when not set.
+const STEM_EMOJI: Record<string, string> = {
+  '을': '🌷',
+  '병': '🌅',
+  '기': '🖼️',
+  '신': '💎',
+  '임': '🌊',
+};
+
 export default function FilterPanel({
   filters,
   onChange,
@@ -134,7 +143,7 @@ export default function FilterPanel({
                     : 'bg-gray-50 text-gray-600 hover:bg-gray-100'
                 }`}
               >
-                {OHAENG_EMOJI[ohaeng]} {stem}
+                {STEM_EMOJI[stem] || OHAENG_EMOJI[ohaeng]} {stem}
               </button>
             );
           })}
@@ -238,6 +247,11 @@ export default function FilterPanel({
             필터 초기화
           </button>
         )}
+      </div>
+
+      {/* Data sources */}
+      <div className="text-[10px] text-gray-400 leading-relaxed">
+        Sources: Forbes Real-Time Billionaires 2026, Wikipedia, Wikidata, DuckDuckGo
       </div>
     </div>
   );
