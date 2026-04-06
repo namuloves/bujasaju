@@ -138,3 +138,106 @@ To process: 873
 [225/873] Carlos Rodriguez-Pastor -> wikipedia-direct (self-made)
 [250/873] Weng Xianding -> forbes (self-made)
 [275/873] Lance Gokongwei -> wikipedia-direct (self-made)
+[300/873] William Li -> wikipedia-direct (self-made)
+=== Bio Fetcher ===
+
+Parsed 3313 billionaire entries
+
+Already attempted: 2175
+Already found: 2129
+To process: 1511
+
+[1/1511] Carlos Slim Helu -> forbes (self-made)
+[2/1511] Giancarlo Devasini -> wikipedia-direct (self-made)
+[3/1511] Andrea Pignataro -> wikipedia-direct (self-made)
+[4/1511] Jean-Louis van der Velde -> forbes (self-made)
+[5/1511] Paolo Ardoino -> wikipedia-direct (self-made)
+[6/1511] Thomas Frist Jr -> wikipedia-search (self-made)
+[7/1511] Alexey Mordashov -> forbes (self-made)
+[8/1511] Colin Huang -> wikipedia-direct (self-made)
+[9/1511] Marilyn Simons -> forbes (self-made)
+[10/1511] Lyndal Stephens Greth -> forbes (self-made)
+[11/1511] Elaine Marshall -> wikipedia-direct (self-made)
+[12/1511] François Pinault -> wikipedia-direct (self-made)
+[13/1511] Todd Graves -> wikipedia-search (self-made)
+[14/1511] Prince Alwaleed Bin Talal Alsaud -> forbes (self-made)
+[15/1511] Ernest Garcia II -> wikipedia-direct (self-made)
+[16/1511] Henry Nicholas III -> wikipedia-direct (self-made)
+[17/1511] Brett Adcock -> wikipedia-direct (self-made)
+[18/1511] Beate Heister -> wikipedia-direct (mixed)
+[19/1511] Karl Albrecht Jr. -> wikipedia-direct (self-made)
+[25/1511] Robert Pender -> forbes (self-made)
+[50/1511] Zong Fuli -> forbes (self-made)
+[75/1511] Christian Boehringer -> forbes (self-made)
+[100/1511] Cai Haoyu -> wikipedia-direct (self-made)
+[125/1511] Gaye Farncombe -> forbes (self-made)
+[150/1511] Chen Weiliang -> not found
+[175/1511] Gao Guangrong -> forbes (self-made)
+[200/1511] Liu Wei -> not found
+[225/1511] Peter Beck -> wikipedia-direct (self-made)
+[250/1511] Qiu Wensheng -> forbes (self-made)
+[275/1511] Sam Gance -> forbes (self-made)
+[300/1511] Cho Hyun-joon -> wikipedia-direct (self-made)
+[325/1511] Byunghoon Kim -> forbes (self-made)
+[350/1511] Zeng Chaoyi -> forbes (self-made)
+[375/1511] Bent Wilhelmsen -> forbes (self-made)
+[400/1511] Mehmet Sinan & Family Tara -> forbes (self-made)
+[425/1511] Ami Luttwak -> forbes (self-made)
+[450/1511] Somsri Lamsam -> forbes (self-made)
+[475/1511] Ibrahim Al Muhaidib -> forbes (self-made)
+[500/1511] Jiang Yintai -> forbes (self-made)
+[525/1511] Stephen Orenstein -> forbes (self-made)
+[550/1511] Chu Mang Yee -> forbes (self-made)
+[575/1511] Li Zhiyuan -> forbes (self-made)
+[600/1511] Ralph Winterhalter -> forbes (self-made)
+[625/1511] Zbigniew Juroszek -> forbes (self-made)
+[650/1511] Zsolt Felcsuti -> wikipedia-direct (self-made)
+[675/1511] Ruslan Rahimkulov -> forbes (self-made)
+[700/1511] Renu Munjal -> forbes (self-made)
+[725/1511] Mariana Voigt Schwartz Gomes -> forbes (self-made)
+[750/1511] Li Qiong -> forbes (self-made)
+[775/1511] Carsten Koerl -> forbes (self-made)
+[800/1511] Lee Jay-hyun -> wikipedia-direct (self-made)
+[825/1511] Bachtiar Karim -> wikipedia-direct (self-made)
+[850/1511] Premchand Godha -> forbes (self-made)
+[875/1511] Chen Kaichen -> forbes (self-made)
+[900/1511] Vitali Machitski -> forbes (self-made)
+[925/1511] Zhao Tongtong -> not found
+[950/1511] Chirayu Amin -> wikipedia-direct (self-made)
+[975/1511] Song Fei -> forbes (self-made)
+[1000/1511] Hans-Otto Kromberg -> forbes (self-made)
+[1025/1511] Onkar Kanwar -> wikipedia-direct (self-made)
+[1050/1511] Hans Schmid -> forbes (self-made)
+[1075/1511] Li Hongjing -> forbes (self-made)
+[1100/1511] Thomas Bailey -> forbes (self-made)
+[1125/1511] Xavier Rubiralta -> forbes (self-made)
+[1150/1511] Chaitanya Desai -> forbes (self-made)
+[1175/1511] Lee Sang-hoon -> wikipedia-search (self-made)
+[1200/1511] Sheila Johnson -> wikipedia-direct (self-made)
+[1225/1511] Mathias Kamprad -> forbes (self-made)
+[1250/1511] Takaya Awata -> forbes (self-made)
+[1275/1511] Xie Yi -> forbes (self-made)
+[1300/1511] Cao Yuhua -> forbes (self-made)
+[1325/1511] Oliver Samwer -> forbes (self-made)
+[1350/1511] Ye Shanqun -> forbes (self-made)
+[1375/1511] Aditya Khemka -> forbes (self-made)
+[1400/1511] Chen Jinghong -> forbes (self-made)
+[1425/1511] Zhang Cheng Fei -> forbes (self-made)
+[1450/1511] Caspar Callerström -> not found
+[1475/1511] Bob Muglia -> wikipedia-direct (self-made)
+[1500/1511] Shayne Coplan -> wikipedia-direct (self-made)
+
+=== Writing bios into billionaires.ts ===
+
+Wrote bios for 1426 entries
+
+=== Summary ===
+Total entries: 3313
+Bios found: 3555
+Attempted: 3686
+
+By strategy:
+  forbes: 962
+  wikipedia-direct: 402
+  wikipedia-search: 62
+  none: 85
