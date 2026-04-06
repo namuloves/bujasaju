@@ -55,6 +55,15 @@ function formatBirthday(dateStr: string): string {
   return `${y}.${m}.${d}`;
 }
 
+const WEALTH_ORIGIN_STYLES: Record<
+  NonNullable<EnrichedPerson['wealthOrigin']>,
+  { label: string; className: string }
+> = {
+  'self-made': { label: 'Self-made', className: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
+  'inherited': { label: 'Inherited', className: 'bg-amber-50 text-amber-700 border-amber-200' },
+  'mixed': { label: 'Mixed', className: 'bg-sky-50 text-sky-700 border-sky-200' },
+};
+
 export default function PersonCard({ person }: PersonCardProps) {
   const [showChart, setShowChart] = useState(false);
   const { saju } = person;
@@ -99,6 +108,24 @@ export default function PersonCard({ person }: PersonCardProps) {
 
         {/* Birthplace */}
         <p className="text-xs text-gray-400 mt-0.5">{getBirthplace(person.nationality)}</p>
+
+        {/* Wealth origin badge */}
+        {person.wealthOrigin && (
+          <div className="mt-2">
+            <span
+              className={`inline-block text-[10px] font-medium px-1.5 py-0.5 rounded border ${WEALTH_ORIGIN_STYLES[person.wealthOrigin].className}`}
+            >
+              {WEALTH_ORIGIN_STYLES[person.wealthOrigin].label}
+            </span>
+          </div>
+        )}
+
+        {/* Bio */}
+        {person.bio && (
+          <p className="text-xs text-gray-600 mt-2 leading-snug line-clamp-3">
+            {person.bio}
+          </p>
+        )}
 
         {/* Saju Info */}
         <div className="mt-3 space-y-2">

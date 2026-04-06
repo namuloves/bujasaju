@@ -173,19 +173,69 @@ function stripHtml(s: string): string {
     .replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 }
 
-function firstSentence(text: string): string {
+// Split text into sentences, respecting common abbreviations.
+function splitSentences(text: string): string[] {
   const cleaned = text.replace(/\s+/g, ' ').trim();
-  // Find the first `. ` that isn't preceded by common abbreviations.
   const abbrev = ['Mr', 'Mrs', 'Ms', 'Dr', 'Jr', 'Sr', 'St', 'Mt', 'vs', 'Inc', 'Ltd', 'Co', 'Corp', 'U.S', 'U.K'];
+  const sentences: string[] = [];
+  let start = 0;
   for (let i = 0; i < cleaned.length - 1; i++) {
     if (cleaned[i] !== '.') continue;
     if (cleaned[i + 1] !== ' ') continue;
     const before = cleaned.slice(Math.max(0, i - 5), i);
     if (abbrev.some(a => before.endsWith(a))) continue;
-    return cleaned.slice(0, i + 1);
+    sentences.push(cleaned.slice(start, i + 1).trim());
+    start = i + 2;
   }
-  // No sentence boundary found — cap length.
-  return cleaned.length > 280 ? cleaned.slice(0, 277) + '...' : cleaned;
+  if (start < cleaned.length) {
+    const tail = cleaned.slice(start).trim();
+    if (tail) sentences.push(tail);
+  }
+  return sentences;
+}
+
+// Tests whether a sentence is substantive enough to be a bio on its own.
+// A "thin" sentence is e.g. "X is an American businessman." — grammatically fine
+// but doesn't tell you anything about how they made their money.
+function isSubstantiveBio(sentence: string): boolean {
+  if (sentence.length < 80) return false;
+  const lower = sentence.toLowerCase();
+  const concreteMarkers = [
+    'founder', 'co-founder', 'cofounder', 'founded', 'co-founded',
+    'ceo', 'chairman', 'chairwoman', 'chair of', 'president of',
+    'chief executive', 'owner', 'heir', 'heiress', 'inherited',
+    'investor in', 'invested in', 'hedge fund', 'private equity',
+    'made his fortune', 'made her fortune', 'built', 'created',
+    'through his', 'through her', 'is best known for', 'known for',
+  ];
+  // Or mentions a specific industry/company noun.
+  const industryMarkers = [
+    'technology', 'software', 'pharmaceutical', 'oil', 'gas', 'energy',
+    'real estate', 'retail', 'banking', 'finance', 'manufacturing',
+    'automotive', 'textile', 'mining', 'steel', 'construction',
+    'e-commerce', 'media', 'telecom', 'logistics', 'food', 'beverage',
+    'fashion', 'luxury', 'hotel', 'casino', 'shipping', 'biotech',
+  ];
+  return concreteMarkers.some(m => lower.includes(m)) ||
+    industryMarkers.some(m => lower.includes(m));
+}
+
+// Build the bio from an extract: prefer the first substantive sentence,
+// otherwise combine the first two sentences so the reader learns something
+// concrete about how the person made their money.
+function buildBio(extract: string): string {
+  const sentences = splitSentences(extract);
+  if (sentences.length === 0) {
+    const capped = extract.replace(/\s+/g, ' ').trim();
+    return capped.length > 280 ? capped.slice(0, 277) + '...' : capped;
+  }
+  const first = sentences[0];
+  if (isSubstantiveBio(first)) return first;
+  if (sentences.length >= 2) {
+    const combined = first + ' ' + sentences[1];
+    if (combined.length <= 320) return combined;
+  }
+  return first;
 }
 
 function escapeForSingleQuoted(s: string): string {
@@ -206,19 +256,71 @@ function looksLikePerson(text: string): boolean {
   return PERSON_TERMS.some(t => lower.includes(t));
 }
 
+// Strict: title must equal the person's name (ignoring disambiguation suffix
+// like "(businessman)"). This prevents matching e.g. "Errol Musk" for "Elon Musk".
 function titleMatchesName(title: string, name: string): boolean {
-  const t = title.toLowerCase();
-  const n = name.toLowerCase();
-  if (t.includes(n)) return true;
-  const parts = n.split(' ');
-  const last = parts[parts.length - 1];
-  return last.length > 2 && t.includes(last);
+  const norm = (s: string) =>
+    s.toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') // strip combining accents
+      .replace(/\s*\([^)]*\)\s*$/, '') // strip trailing "(businessman)" etc.
+      .replace(/[.\u2019']/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  const t = norm(title);
+  const n = norm(name);
+  if (t === n) return true;
+  // Also accept if title is the name minus a suffix (Jr, Sr, III, etc.)
+  const nNoSuffix = n.replace(/\s+(jr|sr|ii|iii|iv)$/i, '').trim();
+  if (t === nNoSuffix) return true;
+  return false;
+}
+
+// Detects Wikipedia pages that are about a creative work ABOUT the person,
+// not the person themselves — e.g. the "Elon Musk" page that's the Isaacson
+// biography book. These pages share the exact title with the subject.
+function looksLikeCreativeWork(description: string, extract: string): boolean {
+  const d = (description || '').toLowerCase();
+  const e = (extract || '').toLowerCase().slice(0, 300);
+  const workTerms = [
+    'book by', 'biography by', 'film by', 'documentary', 'song by',
+    'album by', 'novel by', 'memoir by',
+    'is a biography', 'is a book', 'is a film', 'is a documentary',
+    'is a novel', 'is an album', 'is a song',
+    'is an authorized biography', 'is an unauthorized biography',
+    'biographical film', 'biographical book', 'biographical novel',
+    'published in', 'directed by', 'released in',
+  ];
+  if (workTerms.some(w => d.includes(w) || e.includes(w))) return true;
+  // General "is an? ... biography of <Name>" pattern — catches "authorized",
+  // "unauthorized", "2023" etc. between "a[n]" and "biography".
+  if (/\bis an?\s+[a-z0-9-]*\s*biography of\b/.test(e)) return true;
+  if (/\bis an?\s+[a-z0-9-]*\s*(book|film|novel|documentary)\s+(about|by)\b/.test(e)) return true;
+  return false;
+}
+
+// Looser match for search results where titles may include extra middle names.
+// Accepts if every space-separated token of the query name appears in the title.
+function titleContainsAllNameTokens(title: string, name: string): boolean {
+  const t = title.toLowerCase().replace(/[.\u2019']/g, '');
+  const tokens = name.toLowerCase().replace(/[.\u2019']/g, '').split(/\s+/).filter(Boolean);
+  if (tokens.length < 2) return false;
+  return tokens.every(tok => t.includes(tok));
 }
 
 // ---------- wealth-origin classifier ----------
 
 // Run classification over (bio + fuller extract when available).
-function classifyWealthOrigin(bio: string, extract: string, forbesSelfMade?: number): WealthOrigin {
+// `sourceField` is the billionaire's `source` column, e.g. "Walmart" or
+// "LVMH". Used as an additional signal — if the extract says the person
+// founded that exact company, strong self-made; if it says they inherited
+// it, strong inherited.
+function classifyWealthOrigin(
+  bio: string,
+  extract: string,
+  forbesSelfMade?: number,
+  sourceField?: string,
+): WealthOrigin {
   // Forbes self-made score is the strongest signal. 1–5 = inherited, 6–10 = self-made,
   // with 6–7 being "grew the inherited fortune significantly" → mixed.
   if (forbesSelfMade !== undefined) {
@@ -230,18 +332,20 @@ function classifyWealthOrigin(bio: string, extract: string, forbesSelfMade?: num
   const text = (bio + ' ' + extract).toLowerCase();
 
   const inheritedSignals = [
-    'inherited', 'heiress', 'heir to', 'heir of',
+    'inherited', 'heiress', 'heir to', 'heir of', 'heirs of',
     'daughter of the founder', 'son of the founder',
-    'daughter of', 'son of', // weaker — guarded below
     'granddaughter of', 'grandson of',
     'family fortune', 'family business', 'family-owned',
     'fourth-generation', 'third-generation', 'second-generation',
+    'took over the', 'took over her', 'took over his',
+    'widow of', 'inherit',
   ];
   const selfMadeSignals = [
-    'founded', 'co-founded', 'cofounded', 'started the company', 'started his', 'started her',
-    'established', 'created the', 'built the company', 'first-generation',
-    'self-made', 'from humble', 'born into a working', 'born into a poor',
-    'dropped out', 'bootstrapped',
+    'founded', 'co-founded', 'cofounded', 'founder of', 'co-founder of',
+    'started the company', 'started his own', 'started her own',
+    'established', 'created the', 'built the company',
+    'first-generation', 'self-made', 'from humble', 'bootstrapped',
+    'dropped out',
   ];
 
   let inheritedScore = 0;
@@ -250,17 +354,40 @@ function classifyWealthOrigin(bio: string, extract: string, forbesSelfMade?: num
   for (const s of inheritedSignals) if (text.includes(s)) inheritedScore++;
   for (const s of selfMadeSignals) if (text.includes(s)) selfMadeScore++;
 
-  // "son of" / "daughter of" alone is weak; only count if paired with "founder", "chairman", etc.
-  if (text.includes('son of') || text.includes('daughter of')) {
-    if (/(son|daughter) of .{0,40}(founder|chairman|ceo|magnate|industrialist|tycoon|billionaire)/.test(text)) {
-      inheritedScore++;
+  // "son of" / "daughter of" alone is weak; only count if paired with
+  // founder/chairman/etc.
+  if (/(son|daughter) of .{0,50}(founder|chairman|ceo|magnate|industrialist|tycoon|billionaire|owner)/.test(text)) {
+    inheritedScore++;
+  }
+
+  // Use the `source` field (company name) when available.
+  if (sourceField) {
+    // Pull the primary company token — e.g. "LVMH" from "LVMH", "Walmart" from "Walmart",
+    // "Reliance" from "Reliance Industries", "Mars" from "Mars Inc.".
+    const primaryCompany = sourceField
+      .split(/[,(]/)[0]
+      .replace(/\b(inc|ltd|co|corp|corporation|group|industries|technologies|llc)\.?\b/gi, '')
+      .trim()
+      .toLowerCase();
+    if (primaryCompany.length >= 3) {
+      const companyEscaped = primaryCompany.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      // "founded <Company>" or "co-founded <Company>"
+      if (new RegExp(`(founded|co-founded|cofounded|founder of|co-founder of)\\s+(the\\s+)?${companyEscaped}`).test(text)) {
+        selfMadeScore += 2;
+      }
+      // "inherited <Company>" or "heir to <Company>"
+      if (new RegExp(`(inherited|heir to|heiress to)\\s+(the\\s+)?(.{0,30}\\s)?${companyEscaped}`).test(text)) {
+        inheritedScore += 2;
+      }
     }
   }
 
   if (inheritedScore > 0 && selfMadeScore > 0) return 'mixed';
   if (inheritedScore > 0) return 'inherited';
   if (selfMadeScore > 0) return 'self-made';
-  // Default: when source mentions a well-known founder-company and no inheritance signal, lean self-made.
+  // Default when no signal: self-made (most Forbes billionaires are self-made
+  // by count, and the Wikipedia first-sentence often just lists roles without
+  // a founder/heir word).
   return 'self-made';
 }
 
@@ -279,10 +406,11 @@ async function strategy_wikipedia(person: BillionaireEntry): Promise<BioResult |
       if (data.type === 'disambiguation') continue;
       if (!data.title || !titleMatchesName(data.title, person.name)) continue;
       const descAndExtract = ((data.description || '') + ' ' + (data.extract || ''));
+      if (looksLikeCreativeWork(data.description || '', data.extract || '')) continue;
       if (!looksLikePerson(descAndExtract)) continue;
       if (!data.extract) continue;
-      const bio = firstSentence(data.extract);
-      const wealthOrigin = classifyWealthOrigin(bio, data.extract);
+      const bio = buildBio(data.extract);
+      const wealthOrigin = classifyWealthOrigin(bio, data.extract, undefined, person.source);
       return { bio, wealthOrigin, strategy: 'wikipedia-direct' };
     } catch {}
 
@@ -294,29 +422,30 @@ async function strategy_wikipedia(person: BillionaireEntry): Promise<BioResult |
         const resp = await rateLimitedGet(url);
         const data = JSON.parse(resp);
         if (data.type === 'disambiguation' || !data.extract) continue;
-        const bio = firstSentence(data.extract);
-        const wealthOrigin = classifyWealthOrigin(bio, data.extract);
+        if (looksLikeCreativeWork(data.description || '', data.extract || '')) continue;
+        const bio = buildBio(data.extract);
+        const wealthOrigin = classifyWealthOrigin(bio, data.extract, undefined, person.source);
         return { bio, wealthOrigin, strategy: 'wikipedia-disambig' };
       } catch {}
     }
   }
 
-  // Fallback: search
+  // Fallback: search — accept only pages whose title contains ALL of the name's tokens.
   try {
     const query = encodeURIComponent(person.name + (person.source ? ' ' + person.source : ' billionaire'));
-    const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${query}&gsrlimit=3&prop=extracts&exintro=1&explaintext=1&format=json`;
+    const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${query}&gsrlimit=5&prop=extracts&exintro=1&explaintext=1&format=json`;
     const resp = await rateLimitedGet(searchUrl);
     const data = JSON.parse(resp);
     const pages = data.query?.pages;
     if (pages) {
-      const lastName = person.name.split(' ').pop()?.toLowerCase() || '';
       for (const page of Object.values(pages) as any[]) {
-        const title = (page.title || '').toLowerCase();
-        if (lastName.length > 2 && !title.includes(lastName)) continue;
+        const title = page.title || '';
+        if (!titleContainsAllNameTokens(title, person.name)) continue;
         const extract = page.extract || '';
         if (!extract || !looksLikePerson(extract)) continue;
-        const bio = firstSentence(extract);
-        const wealthOrigin = classifyWealthOrigin(bio, extract);
+        if (looksLikeCreativeWork('', extract)) continue;
+        const bio = buildBio(extract);
+        const wealthOrigin = classifyWealthOrigin(bio, extract, undefined, person.source);
         return { bio, wealthOrigin, strategy: 'wikipedia-search' };
       }
     }
@@ -373,8 +502,8 @@ async function strategy_forbes(person: BillionaireEntry): Promise<BioResult | nu
       if (!source || source.length < 30) continue;
       if (!looksLikePerson(source) && !/worth|billion|fortune/i.test(source)) continue;
 
-      const bio = firstSentence(source);
-      const wealthOrigin = classifyWealthOrigin(bio, source, selfMadeScore);
+      const bio = buildBio(source);
+      const wealthOrigin = classifyWealthOrigin(bio, source, selfMadeScore, person.source);
       return { bio, wealthOrigin, strategy: selfMadeScore !== undefined ? 'forbes-scored' : 'forbes' };
     } catch {}
   }
