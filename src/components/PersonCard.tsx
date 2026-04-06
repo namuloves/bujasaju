@@ -64,10 +64,19 @@ const WEALTH_ORIGIN_STYLES: Record<
   'mixed': { label: 'Mixed', className: 'bg-sky-50 text-sky-700 border-sky-200' },
 };
 
+// Take the first N words of a bio and append an ellipsis if truncated.
+function bioTeaser(bio: string, maxWords = 12): { text: string; truncated: boolean } {
+  const words = bio.split(/\s+/);
+  if (words.length <= maxWords) return { text: bio, truncated: false };
+  return { text: words.slice(0, maxWords).join(' ') + '…', truncated: true };
+}
+
 export default function PersonCard({ person }: PersonCardProps) {
   const [showChart, setShowChart] = useState(false);
+  const [showBio, setShowBio] = useState(false);
   const { saju } = person;
   const hanja = GYEOKGUK_NAMES[saju.gyeokguk] || '';
+  const teaser = person.bio ? bioTeaser(person.bio) : null;
 
   return (
     <div className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg hover:border-gray-300 transition-all duration-200">
@@ -98,7 +107,20 @@ export default function PersonCard({ person }: PersonCardProps) {
         ) : (
           <h3 className="font-semibold text-gray-900 text-sm truncate">{person.name}</h3>
         )}
-        <p className="text-xs text-gray-500 mt-0.5 truncate">{person.source || person.industry}</p>
+        {/* Source + wealth-origin badge on one line */}
+        <div className="flex items-center justify-between gap-2 mt-0.5">
+          <p className="text-xs text-gray-500 truncate flex-1 min-w-0">
+            {person.source || person.industry}
+          </p>
+          {person.wealthOrigin && (
+            <span
+              title={WEALTH_ORIGIN_STYLES[person.wealthOrigin].label}
+              className={`shrink-0 text-[10px] font-medium px-1.5 py-0.5 rounded border ${WEALTH_ORIGIN_STYLES[person.wealthOrigin].className}`}
+            >
+              {WEALTH_ORIGIN_STYLES[person.wealthOrigin].label}
+            </span>
+          )}
+        </div>
 
         {/* Birthday */}
         <p className="text-xs text-gray-400 mt-1">{formatBirthday(person.birthday)}</p>
@@ -109,22 +131,21 @@ export default function PersonCard({ person }: PersonCardProps) {
         {/* Birthplace */}
         <p className="text-xs text-gray-400 mt-0.5">{getBirthplace(person.nationality)}</p>
 
-        {/* Wealth origin badge */}
-        {person.wealthOrigin && (
+        {/* Bio teaser + expand toggle */}
+        {teaser && (
           <div className="mt-2">
-            <span
-              className={`inline-block text-[10px] font-medium px-1.5 py-0.5 rounded border ${WEALTH_ORIGIN_STYLES[person.wealthOrigin].className}`}
-            >
-              {WEALTH_ORIGIN_STYLES[person.wealthOrigin].label}
-            </span>
+            <p className="text-xs text-gray-600 leading-snug">
+              {showBio ? person.bio : teaser.text}
+            </p>
+            {teaser.truncated && (
+              <button
+                onClick={() => setShowBio(!showBio)}
+                className="text-[11px] text-indigo-500 hover:text-indigo-700 font-medium mt-0.5 transition-colors"
+              >
+                {showBio ? '접기 ▲' : '더 보기 ▼'}
+              </button>
+            )}
           </div>
-        )}
-
-        {/* Bio */}
-        {person.bio && (
-          <p className="text-xs text-gray-600 mt-2 leading-snug line-clamp-3">
-            {person.bio}
-          </p>
         )}
 
         {/* Saju Info */}
