@@ -83,6 +83,13 @@ type Dict = {
   directIljuLabel: string;
   directWoljiLabel: string;
   directGyeokgukLabel: string;
+  hourPillarLabel: string;
+  dayPillarLabel: string;
+  monthPillarLabel: string;
+  yearPillarLabel: string;
+  revealReading: string;
+  revealMatching: string;
+  revealFound: (n: number) => string;
 };
 
 const ko: Dict = {
@@ -153,10 +160,17 @@ const ko: Dict = {
   group3Title: '같은 일주',
   groupEmpty: '해당하는 부자가 없습니다',
   countPeople: (n) => `${n.toLocaleString('ko-KR')}명`,
-  resetMyBirthday: '생일 다시 입력',
+  resetMyBirthday: '다시 하기',
   directIljuLabel: '일주 (六十甲子)',
   directWoljiLabel: '월지 (12 지지)',
   directGyeokgukLabel: '격국',
+  hourPillarLabel: '시주',
+  dayPillarLabel: '일주',
+  monthPillarLabel: '월주',
+  yearPillarLabel: '년주',
+  revealReading: '사주를 읽는 중…',
+  revealMatching: '같은 기운을 찾는 중…',
+  revealFound: (n) => `${n.toLocaleString('ko-KR')}명의 부자를 찾았습니다`,
 };
 
 const en: Dict = {
@@ -228,10 +242,17 @@ const en: Dict = {
   group3Title: 'Same 일주',
   groupEmpty: 'No billionaires in this group',
   countPeople: (n) => `${n.toLocaleString('en-US')} people`,
-  resetMyBirthday: 'Change birthday',
+  resetMyBirthday: 'Try again',
   directIljuLabel: '일주 (Day Pillar)',
   directWoljiLabel: '월지 (Month Branch)',
   directGyeokgukLabel: '격국 (Pattern)',
+  hourPillarLabel: '시주 (Hour)',
+  dayPillarLabel: '일주 (Day)',
+  monthPillarLabel: '월주 (Month)',
+  yearPillarLabel: '년주 (Year)',
+  revealReading: 'Reading your 사주…',
+  revealMatching: 'Finding kindred spirits…',
+  revealFound: (n) => `Found ${n.toLocaleString('en-US')} billionaires`,
 };
 
 const dictionaries: Record<Lang, Dict> = { ko, en };

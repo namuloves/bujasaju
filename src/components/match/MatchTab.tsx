@@ -4,10 +4,12 @@ import { useEffect, useState } from 'react';
 import BirthdayForm, { MatchInput } from './BirthdayForm';
 import SajuConfirmCard from './SajuConfirmCard';
 import MatchResults from './MatchResults';
+import RevealAnimation from './RevealAnimation';
 import { calculateSaju } from '@/lib/saju/index';
-import type { SajuResult, GyeokGuk, JiJi, CheonGan } from '@/lib/saju/types';
+import { determineGyeokguk } from '@/lib/saju/gyeokguk';
+import type { SajuResult, JiJi, CheonGan } from '@/lib/saju/types';
 
-type Step = 'form' | 'confirm' | 'results';
+type Step = 'form' | 'confirm' | 'revealing' | 'results';
 
 const STORAGE_KEY = 'bujasaju.matchInput';
 
@@ -23,22 +25,32 @@ function computeSaju(input: MatchInput): SajuResult {
     );
     return calculateSaju(date, { includeHour: input.hour !== null });
   }
-  // Direct mode — synthesize a SajuResult from the three fields. The day
-  // pillar is derived from `ilju` (e.g. '갑진' → stem='갑', branch='진').
-  // Year/month/hour pillars are left as blanks — they aren't used by
-  // the matching logic (which only looks at ilju, wolji, gyeokguk).
-  const stem = input.ilju[0] as CheonGan;
-  const branch = input.ilju[1] as JiJi;
+  // Direct mode — synthesize a SajuResult from the 4 user-entered pillars.
+  // Each pillar is a 2-char 갑자 string (stem + branch). The hour pillar is
+  // optional. 격국 is derived from 일간 + 월지, same as the birthday path.
+  const dayStem = input.dayPillar[0] as CheonGan;
+  const dayBranch = input.dayPillar[1] as JiJi;
+  const monthStem = input.monthPillar[0] as CheonGan;
+  const monthBranch = input.monthPillar[1] as JiJi;
+  const yearStem = input.yearPillar[0] as CheonGan;
+  const yearBranch = input.yearPillar[1] as JiJi;
+  const hour =
+    input.hourPillar && input.hourPillar.length === 2
+      ? {
+          stem: input.hourPillar[0] as CheonGan,
+          branch: input.hourPillar[1] as JiJi,
+        }
+      : null;
   return {
     saju: {
-      year: { stem: '갑', branch: '자' }, // placeholder
-      month: { stem: '갑', branch: input.wolji },
-      day: { stem, branch },
-      hour: null,
+      year: { stem: yearStem, branch: yearBranch },
+      month: { stem: monthStem, branch: monthBranch },
+      day: { stem: dayStem, branch: dayBranch },
+      hour,
     },
-    gyeokguk: input.gyeokguk,
-    ilju: input.ilju,
-    wolji: input.wolji,
+    gyeokguk: determineGyeokguk(dayStem, monthBranch),
+    ilju: input.dayPillar,
+    wolji: monthBranch,
   };
 }
 
@@ -71,7 +83,7 @@ export default function MatchTab() {
     } catch {
       // ignore
     }
-    setStep('results');
+    setStep('revealing');
   };
 
   const handleEdit = () => {
@@ -97,6 +109,9 @@ export default function MatchTab() {
       )}
       {step === 'confirm' && saju && (
         <SajuConfirmCard saju={saju} onConfirm={handleConfirm} onEdit={handleEdit} />
+      )}
+      {step === 'revealing' && saju && (
+        <RevealAnimation saju={saju} onDone={() => setStep('results')} />
       )}
       {step === 'results' && saju && (
         <MatchResults me={saju} onReset={handleReset} />

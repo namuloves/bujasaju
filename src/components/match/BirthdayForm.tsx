@@ -3,9 +3,10 @@
 import { useState } from 'react';
 import { useLanguage } from '@/lib/i18n';
 import { CHEON_GAN, JI_JI } from '@/lib/saju/constants';
-import type { CheonGan, JiJi, GyeokGuk } from '@/lib/saju/types';
+import type { CheonGan, JiJi } from '@/lib/saju/types';
 
 // Build the real 60갑자 sequence (the version in constants.ts is buggy).
+// Runs j from 0..59 by stem/branch sexagenary rule: (stem+branch) both advance.
 const SIXTY_GAPJA: string[] = (() => {
   const out: string[] = [];
   for (let i = 0; i < 60; i++) {
@@ -14,11 +15,14 @@ const SIXTY_GAPJA: string[] = (() => {
   return out;
 })();
 
-const ALL_GYEOKGUKS: GyeokGuk[] = [
-  '정관격', '편관격', '정재격', '편재격',
-  '식신격', '상관격', '정인격', '편인격',
-  '건록격', '양인격',
-];
+const SIXTY_GAPJA_SET = new Set(SIXTY_GAPJA);
+
+// A pillar is valid if it's exactly 2 chars: a valid stem + a valid branch,
+// AND forms one of the 60갑자 (stems and branches combine in a fixed cycle —
+// e.g. 갑축 is not a real pillar).
+function isValidPillar(s: string): boolean {
+  return SIXTY_GAPJA_SET.has(s);
+}
 
 export interface BirthdayInput {
   mode: 'birthday';
@@ -28,11 +32,17 @@ export interface BirthdayInput {
   hour: number | null; // null = unknown
 }
 
+/**
+ * Direct input mode: user enters the full 4 pillars (시주 · 일주 · 월주 · 년주).
+ * 시주 is optional — pass null if the user doesn't know their hour.
+ * 격국 is derived from 일간 + 월지 in the consumer, not asked for here.
+ */
 export interface DirectInput {
   mode: 'direct';
-  ilju: string;   // e.g. '갑진'
-  wolji: JiJi;
-  gyeokguk: GyeokGuk;
+  hourPillar: string | null; // e.g. '갑자' or null
+  dayPillar: string;         // e.g. '병인'
+  monthPillar: string;       // e.g. '경인'
+  yearPillar: string;        // e.g. '갑자'
 }
 
 export type MatchInput = BirthdayInput | DirectInput;
@@ -58,21 +68,41 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
   const [day, setDay] = useState<number>(birthInit?.day ?? 1);
   const [hour, setHour] = useState<number | null>(birthInit?.hour ?? null);
 
-  // Direct mode state
+  // Direct mode state — 4 pillars in 시주/일주/월주/년주 order
   const directInit = initial?.mode === 'direct' ? initial : null;
-  const [directOpen, setDirectOpen] = useState<boolean>(initial?.mode === 'direct');
-  const [ilju, setIlju] = useState<string>(directInit?.ilju ?? '갑자');
-  const [wolji, setWolji] = useState<JiJi>(directInit?.wolji ?? '인');
-  const [gyeokguk, setGyeokguk] = useState<GyeokGuk>(directInit?.gyeokguk ?? '정관격');
+  const [hourPillar, setHourPillar] = useState<string | null>(directInit?.hourPillar ?? null);
+  const [dayPillar, setDayPillar] = useState<string>(directInit?.dayPillar ?? '');
+  const [monthPillar, setMonthPillar] = useState<string>(directInit?.monthPillar ?? '');
+  const [yearPillar, setYearPillar] = useState<string>(directInit?.yearPillar ?? '');
 
   const handleBirthdaySubmit = (e: React.FormEvent) => {
     e.preventDefault();
     onSubmit({ mode: 'birthday', year, month, day, hour });
   };
 
+  // Validation: day/month/year pillars are required; hour is optional (empty = unknown).
+  // Empty strings render neutrally (no red border); only non-empty invalid input turns red.
+  const dayValid = isValidPillar(dayPillar);
+  const monthValid = isValidPillar(monthPillar);
+  const yearValid = isValidPillar(yearPillar);
+  const hourValid = hourPillar === null || hourPillar === '' || isValidPillar(hourPillar);
+  const dayShowError = dayPillar !== '' && !dayValid;
+  const monthShowError = monthPillar !== '' && !monthValid;
+  const yearShowError = yearPillar !== '' && !yearValid;
+  const hourShowError = !hourValid;
+  const directFormValid = dayValid && monthValid && yearValid && hourValid;
+  const anyError = dayShowError || monthShowError || yearShowError || hourShowError;
+
   const handleDirectSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onSubmit({ mode: 'direct', ilju, wolji, gyeokguk });
+    if (!directFormValid) return;
+    onSubmit({
+      mode: 'direct',
+      hourPillar: hourPillar && hourPillar !== '' ? hourPillar : null,
+      dayPillar,
+      monthPillar,
+      yearPillar,
+    });
   };
 
   return (
@@ -153,75 +183,86 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
         </button>
       </div>
 
-      {/* Direct saju input — collapsible section for users who know their saju */}
+      {/* Direct saju input — always visible for users who know their 사주 */}
       <div className="mt-8 pt-6 border-t border-gray-200 max-w-xl mx-auto">
-        <button
-          type="button"
-          onClick={() => setDirectOpen((v) => !v)}
-          className="w-full flex items-center justify-between text-left text-xs font-medium text-gray-500 hover:text-gray-800 transition-colors"
-          aria-expanded={directOpen}
-        >
-          <span>{t.inputModeDirect}</span>
-          <span className={`transition-transform ${directOpen ? 'rotate-180' : ''}`}>▾</span>
-        </button>
-
-        {directOpen && (
-          <div className="mt-4 space-y-3">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div className="text-xs font-medium text-gray-500 mb-3">{t.inputModeDirect}</div>
+        <div className="space-y-3">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               <label className="flex flex-col">
-                <span className="text-xs text-gray-500 mb-1">{t.directIljuLabel}</span>
-                <select
-                  value={ilju}
-                  onChange={(e) => setIlju(e.target.value)}
-                  className="px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                >
-                  {SIXTY_GAPJA.map((g) => (
-                    <option key={g} value={g}>
-                      {g}
-                    </option>
-                  ))}
-                </select>
+                <span className="text-xs text-gray-500 mb-1">{t.hourPillarLabel}</span>
+                <input
+                  type="text"
+                  inputMode="text"
+                  maxLength={2}
+                  placeholder="예: 갑자"
+                  value={hourPillar ?? ''}
+                  onChange={(e) =>
+                    setHourPillar(e.target.value === '' ? null : e.target.value)
+                  }
+                  className={`px-3 py-2 text-sm border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
+                    hourShowError ? 'border-red-400' : 'border-gray-300'
+                  }`}
+                />
               </label>
               <label className="flex flex-col">
-                <span className="text-xs text-gray-500 mb-1">{t.directWoljiLabel}</span>
-                <select
-                  value={wolji}
-                  onChange={(e) => setWolji(e.target.value as JiJi)}
-                  className="px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                >
-                  {JI_JI.map((j) => (
-                    <option key={j} value={j}>
-                      {j}
-                    </option>
-                  ))}
-                </select>
+                <span className="text-xs text-gray-500 mb-1">{t.dayPillarLabel}</span>
+                <input
+                  type="text"
+                  inputMode="text"
+                  maxLength={2}
+                  placeholder="예: 병인"
+                  value={dayPillar}
+                  onChange={(e) => setDayPillar(e.target.value)}
+                  className={`px-3 py-2 text-sm border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
+                    dayShowError ? 'border-red-400' : 'border-gray-300'
+                  }`}
+                />
               </label>
               <label className="flex flex-col">
-                <span className="text-xs text-gray-500 mb-1">{t.directGyeokgukLabel}</span>
-                <select
-                  value={gyeokguk}
-                  onChange={(e) => setGyeokguk(e.target.value as GyeokGuk)}
-                  className="px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                >
-                  {ALL_GYEOKGUKS.map((g) => (
-                    <option key={g} value={g}>
-                      {g}
-                    </option>
-                  ))}
-                </select>
+                <span className="text-xs text-gray-500 mb-1">{t.monthPillarLabel}</span>
+                <input
+                  type="text"
+                  inputMode="text"
+                  maxLength={2}
+                  placeholder="예: 경인"
+                  value={monthPillar}
+                  onChange={(e) => setMonthPillar(e.target.value)}
+                  className={`px-3 py-2 text-sm border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
+                    monthShowError ? 'border-red-400' : 'border-gray-300'
+                  }`}
+                />
+              </label>
+              <label className="flex flex-col">
+                <span className="text-xs text-gray-500 mb-1">{t.yearPillarLabel}</span>
+                <input
+                  type="text"
+                  inputMode="text"
+                  maxLength={2}
+                  placeholder="예: 갑자"
+                  value={yearPillar}
+                  onChange={(e) => setYearPillar(e.target.value)}
+                  className={`px-3 py-2 text-sm border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
+                    yearShowError ? 'border-red-400' : 'border-gray-300'
+                  }`}
+                />
               </label>
             </div>
+            {anyError && (
+              <p className="text-xs text-red-500 text-center">
+                60갑자에 해당하는 기둥을 입력해 주세요 (예: 갑자, 병인, 경오)
+              </p>
+            )}
             <div className="flex justify-center pt-2">
               <button
                 type="button"
                 onClick={handleDirectSubmit}
-                className="px-5 py-2 text-sm font-semibold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-colors"
+                disabled={!directFormValid}
+                className="px-5 py-2 text-sm font-semibold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 {t.submit}
               </button>
             </div>
-          </div>
-        )}
+        </div>
       </div>
     </form>
   );

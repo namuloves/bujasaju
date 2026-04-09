@@ -288,14 +288,17 @@ function PieChart({ title, items, onClick, activeKey }: PieChartProps) {
 
   function arcPath(start: number, end: number, ri: number, ro: number): string {
     const large = end - start > Math.PI ? 1 : 0;
-    const x1 = cx + ro * Math.cos(start);
-    const y1 = cy + ro * Math.sin(start);
-    const x2 = cx + ro * Math.cos(end);
-    const y2 = cy + ro * Math.sin(end);
-    const x3 = cx + ri * Math.cos(end);
-    const y3 = cy + ri * Math.sin(end);
-    const x4 = cx + ri * Math.cos(start);
-    const y4 = cy + ri * Math.sin(start);
+    // Round to 3 decimals so server-rendered and client-rendered strings match
+    // exactly (avoids React hydration mismatches from float serialization drift).
+    const f = (n: number) => n.toFixed(3);
+    const x1 = f(cx + ro * Math.cos(start));
+    const y1 = f(cy + ro * Math.sin(start));
+    const x2 = f(cx + ro * Math.cos(end));
+    const y2 = f(cy + ro * Math.sin(end));
+    const x3 = f(cx + ri * Math.cos(end));
+    const y3 = f(cy + ri * Math.sin(end));
+    const x4 = f(cx + ri * Math.cos(start));
+    const y4 = f(cy + ri * Math.sin(start));
     return [
       `M ${x1} ${y1}`,
       `A ${ro} ${ro} 0 ${large} 1 ${x2} ${y2}`,
