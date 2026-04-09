@@ -103,6 +103,7 @@ export default function RevealAnimation({ saju, onDone }: Props) {
     if (enrichedPeople.length === 0) return 0;
     const groups = matchBillionaires(saju, enrichedPeople);
     return (
+      groups.iljuPlusMonthJu.length +
       groups.chartTwins.length +
       groups.iljuPlusWolji.length +
       groups.iljuPlusGyeokguk.length

@@ -2,21 +2,18 @@ import type { EnrichedPerson, SajuResult, Ju } from './types';
 
 export interface MatchGroups {
   /**
-   * 🥇 Same 일주 AND at least one additional pillar (월주 · 년주 · 시주)
-   * completely matches stem+branch. Sorted by number of shared pillars
-   * (desc) so the most chart-similar person is first, then by net worth.
-   * People in this group always include 일주, so a 2/4 match means
-   * "일주 + one other", a 4/4 means all four pillars identical.
-   */
-  chartTwins: EnrichedPerson[];
-  /**
-   * Same 일주 AND exactly-matching 월주 (stem+branch). Strictly a subset
-   * of chartTwins that guarantees the month pillar (not just 월지) lines
-   * up. Kept as its own section so we can surface "같은 일주 · 같은 월주"
-   * even when chartTwins is dominated by 월지-only matches.
+   * 🏅 Strictest tier: same 일주 AND exactly-matching 월주 (stem+branch).
+   * This is the most specific "chart twin" you can get from two pillars
+   * alone, so we promote it above the more general chartTwins group.
    */
   iljuPlusMonthJu: EnrichedPerson[];
-  /** 🥈 Same 일주 AND same 월지 (excluding chartTwins / monthJu) */
+  /**
+   * 🥇 Same 일주 AND at least one additional pillar (년주 · 시주, or
+   * 월지-only) matches — excluding people already in iljuPlusMonthJu
+   * so each person appears in exactly one section.
+   */
+  chartTwins: EnrichedPerson[];
+  /** 🥈 Same 일주 AND same 월지 (excluding above) */
   iljuPlusWolji: EnrichedPerson[];
   /** 🥉 Same 일주 AND same 격국 (excluding above) */
   iljuPlusGyeokguk: EnrichedPerson[];
@@ -61,8 +58,8 @@ export function matchBillionaires(
   me: SajuResult,
   everyone: EnrichedPerson[],
 ): MatchGroups {
-  const twins: Array<{ person: EnrichedPerson; shared: number }> = [];
   const monthJu: EnrichedPerson[] = [];
+  const twins: Array<{ person: EnrichedPerson; shared: number }> = [];
   const g1: EnrichedPerson[] = [];
   const g2: EnrichedPerson[] = [];
   const g3: EnrichedPerson[] = [];
@@ -70,11 +67,12 @@ export function matchBillionaires(
   for (const p of everyone) {
     if (p.saju.ilju !== me.ilju) continue;
 
-    // Strictest additional match: full 월주 (both stem and branch). This
-    // is a subset of chartTwins but we track it separately so the UI can
-    // always show a dedicated "같은 일주 · 같은 월주" section.
+    // Strictest tier first: exact 월주 match (stem AND branch). If a
+    // person lands here we DON'T also add them to chartTwins/월지/etc —
+    // each person appears in exactly one section.
     if (pillarsEqual(me.saju.month, p.saju.saju.month)) {
       monthJu.push(p);
+      continue;
     }
 
     const extra = countExtraPillarMatches(me, p);
@@ -103,8 +101,8 @@ export function matchBillionaires(
   g3.sort(byNetWorth);
 
   return {
-    chartTwins: twins.map((t) => t.person),
     iljuPlusMonthJu: monthJu,
+    chartTwins: twins.map((t) => t.person),
     iljuPlusWolji: g1,
     iljuPlusGyeokguk: g2,
     iljuOnly: g3,

@@ -24,14 +24,12 @@ export default function MatchResults({ me, onReset }: Props) {
   );
 
   // Rendered sections — 일주-only is intentionally hidden here and surfaced
-  // via a dedicated button below (we'll decide later whether to open it on
-  // a separate page or inline it). The data still flows through `groups`.
+  // via a dedicated button below. The tiers are mutually exclusive (each
+  // person lives in exactly one group), so no double-counting.
   //
-  // `iljuPlusMonthJu` is a subset of `chartTwins` (월주 is the strictest
-  // possible addition after 일주), but we call it out as its own section
-  // because "같은 월주" is a conceptually important tier in 사주 that
-  // deserves a dedicated headline — and when it's empty, we want to
-  // explicitly say so instead of silently hiding it.
+  // The "같은 일주 · 같은 월주" tier is always rendered even when empty,
+  // so users get an explicit "정확히 같은 월주를 가진 부자는 없습니다"
+  // instead of the section silently disappearing.
   const sections: Array<{
     key: string;
     title: string;
@@ -40,23 +38,24 @@ export default function MatchResults({ me, onReset }: Props) {
     emptyMessage?: string;
     alwaysShow?: boolean;
   }> = [
-    { key: 'twins', title: t.chartTwinsTitle, medal: '🥇', people: groups.chartTwins },
     {
       key: 'monthJu',
       title: t.monthJuTitle,
-      medal: '🏅',
+      medal: '🥇',
       people: groups.iljuPlusMonthJu,
       emptyMessage: t.monthJuEmpty,
       alwaysShow: true,
     },
+    { key: 'twins', title: t.chartTwinsTitle, medal: '🏅', people: groups.chartTwins },
     { key: 'g1', title: t.group1Title, medal: '🥈', people: groups.iljuPlusWolji },
     { key: 'g2', title: t.group2Title, medal: '🥉', people: groups.iljuPlusGyeokguk },
   ];
 
-  // Summary count only counts what's rendered (excludes the hidden 일주-only
-  // group since it's behind a button). iljuPlusMonthJu is already counted
-  // inside chartTwins, so don't double-count it here.
+  // Summary count covers every rendered section. iljuOnly is behind a
+  // button so it's excluded. All tiers are mutually exclusive now, so
+  // simple addition is correct.
   const totalMatches =
+    groups.iljuPlusMonthJu.length +
     groups.chartTwins.length +
     groups.iljuPlusWolji.length +
     groups.iljuPlusGyeokguk.length;
