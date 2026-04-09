@@ -24,7 +24,12 @@ const MatchResults = dynamic(() => import('./MatchResults'), {
 import { determineGyeokguk } from '@/lib/saju/gyeokguk';
 import type { SajuResult, JiJi, CheonGan } from '@/lib/saju/types';
 
-type Step = 'form' | 'confirm' | 'revealing' | 'results';
+type Step = 'form' | 'calculating' | 'confirm' | 'revealing' | 'results';
+
+// Brief synthetic delay so submitting a birthday feels like "computing your
+// chart" instead of instantly popping the confirm card. The saju calculation
+// itself is synchronous and takes <1ms.
+const CALCULATING_MS = 900;
 
 const STORAGE_KEY = 'bujasaju.matchInput';
 
@@ -91,7 +96,10 @@ export default function MatchTab() {
 
   const handleFormSubmit = (next: MatchInput) => {
     setInput(next);
-    setStep('confirm');
+    setStep('calculating');
+    // Short beat before landing on the confirm card so users feel the
+    // system "doing something" with their birthday.
+    window.setTimeout(() => setStep('confirm'), CALCULATING_MS);
   };
 
   const handleConfirm = () => {
@@ -124,6 +132,13 @@ export default function MatchTab() {
     <div className="max-w-5xl mx-auto">
       {step === 'form' && (
         <BirthdayForm initial={input ?? undefined} onSubmit={handleFormSubmit} />
+      )}
+      {step === 'calculating' && (
+        <div className="bg-white rounded-2xl border border-gray-200 p-8 sm:p-12 min-h-[320px] flex flex-col items-center justify-center">
+          <div className="w-10 h-10 rounded-full border-[3px] border-indigo-100 border-t-indigo-600 animate-spin mb-5" />
+          <div className="text-sm font-medium text-gray-700">사주를 계산하는 중…</div>
+          <div className="text-xs text-gray-400 mt-1.5">잠시만 기다려 주세요</div>
+        </div>
       )}
       {step === 'confirm' && saju && (
         <SajuConfirmCard saju={saju} onConfirm={handleConfirm} onEdit={handleEdit} />

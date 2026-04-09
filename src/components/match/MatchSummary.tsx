@@ -224,9 +224,9 @@ export default function MatchSummary({ saju, matches }: Props) {
   const text = state.text;
 
   return (
-    <div className="relative rounded-2xl border border-indigo-100 bg-gradient-to-br from-indigo-50/80 via-white to-purple-50/60 p-5 sm:p-6">
+    <div className="relative rounded-2xl bg-white p-5 sm:p-6">
       <div className="flex items-center gap-2 mb-3">
-        <span className="text-xs font-semibold text-indigo-600 uppercase tracking-wide">
+        <span className="text-xs font-semibold text-gray-700 uppercase tracking-wide">
           ✨ 사주 풀이
         </span>
         {isStreaming && (
