@@ -26,19 +26,36 @@ export default function MatchResults({ me, onReset }: Props) {
   // Rendered sections — 일주-only is intentionally hidden here and surfaced
   // via a dedicated button below (we'll decide later whether to open it on
   // a separate page or inline it). The data still flows through `groups`.
+  //
+  // `iljuPlusMonthJu` is a subset of `chartTwins` (월주 is the strictest
+  // possible addition after 일주), but we call it out as its own section
+  // because "같은 월주" is a conceptually important tier in 사주 that
+  // deserves a dedicated headline — and when it's empty, we want to
+  // explicitly say so instead of silently hiding it.
   const sections: Array<{
     key: string;
     title: string;
     medal: string;
     people: EnrichedPerson[];
+    emptyMessage?: string;
+    alwaysShow?: boolean;
   }> = [
     { key: 'twins', title: t.chartTwinsTitle, medal: '🥇', people: groups.chartTwins },
+    {
+      key: 'monthJu',
+      title: t.monthJuTitle,
+      medal: '🏅',
+      people: groups.iljuPlusMonthJu,
+      emptyMessage: t.monthJuEmpty,
+      alwaysShow: true,
+    },
     { key: 'g1', title: t.group1Title, medal: '🥈', people: groups.iljuPlusWolji },
     { key: 'g2', title: t.group2Title, medal: '🥉', people: groups.iljuPlusGyeokguk },
   ];
 
   // Summary count only counts what's rendered (excludes the hidden 일주-only
-  // group since it's behind a button).
+  // group since it's behind a button). iljuPlusMonthJu is already counted
+  // inside chartTwins, so don't double-count it here.
   const totalMatches =
     groups.chartTwins.length +
     groups.iljuPlusWolji.length +
@@ -52,11 +69,11 @@ export default function MatchResults({ me, onReset }: Props) {
       <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} />
 
       {sections.map((section) => {
-        if (section.people.length === 0) return null;
-        // The top tier ("차트가 가장 비슷한 사람") auto-expands its saju chart
-        // so the user can immediately see how similar the charts are without
-        // having to click into each card.
-        const autoOpenChart = section.key === 'twins';
+        const isEmpty = section.people.length === 0;
+        if (isEmpty && !section.alwaysShow) return null;
+        // Auto-expand the saju chart on the strictest tiers so similarity
+        // is immediately visible without extra clicks.
+        const autoOpenChart = section.key === 'twins' || section.key === 'monthJu';
         return (
           <section key={section.key}>
             <div className="flex items-baseline gap-2 mb-3">
@@ -66,15 +83,21 @@ export default function MatchResults({ me, onReset }: Props) {
                 {t.countPeople(section.people.length)}
               </span>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
-              {section.people.map((person) => (
-                <PersonCard
-                  key={person.id}
-                  person={person}
-                  defaultShowChart={autoOpenChart}
-                />
-              ))}
-            </div>
+            {isEmpty ? (
+              <div className="rounded-xl border border-dashed border-gray-200 bg-gray-50/50 px-4 py-6 text-center text-sm text-gray-500">
+                {section.emptyMessage}
+              </div>
+            ) : (
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                {section.people.map((person) => (
+                  <PersonCard
+                    key={person.id}
+                    person={person}
+                    defaultShowChart={autoOpenChart}
+                  />
+                ))}
+              </div>
+            )}
           </section>
         );
       })}

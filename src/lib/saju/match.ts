@@ -9,7 +9,14 @@ export interface MatchGroups {
    * "일주 + one other", a 4/4 means all four pillars identical.
    */
   chartTwins: EnrichedPerson[];
-  /** 🥈 Same 일주 AND same 월지 (excluding chartTwins) */
+  /**
+   * Same 일주 AND exactly-matching 월주 (stem+branch). Strictly a subset
+   * of chartTwins that guarantees the month pillar (not just 월지) lines
+   * up. Kept as its own section so we can surface "같은 일주 · 같은 월주"
+   * even when chartTwins is dominated by 월지-only matches.
+   */
+  iljuPlusMonthJu: EnrichedPerson[];
+  /** 🥈 Same 일주 AND same 월지 (excluding chartTwins / monthJu) */
   iljuPlusWolji: EnrichedPerson[];
   /** 🥉 Same 일주 AND same 격국 (excluding above) */
   iljuPlusGyeokguk: EnrichedPerson[];
@@ -55,12 +62,21 @@ export function matchBillionaires(
   everyone: EnrichedPerson[],
 ): MatchGroups {
   const twins: Array<{ person: EnrichedPerson; shared: number }> = [];
+  const monthJu: EnrichedPerson[] = [];
   const g1: EnrichedPerson[] = [];
   const g2: EnrichedPerson[] = [];
   const g3: EnrichedPerson[] = [];
 
   for (const p of everyone) {
     if (p.saju.ilju !== me.ilju) continue;
+
+    // Strictest additional match: full 월주 (both stem and branch). This
+    // is a subset of chartTwins but we track it separately so the UI can
+    // always show a dedicated "같은 일주 · 같은 월주" section.
+    if (pillarsEqual(me.saju.month, p.saju.saju.month)) {
+      monthJu.push(p);
+    }
+
     const extra = countExtraPillarMatches(me, p);
     if (extra >= 1) {
       twins.push({ person: p, shared: extra });
@@ -81,12 +97,14 @@ export function matchBillionaires(
     return b.person.netWorth - a.person.netWorth;
   });
 
+  monthJu.sort(byNetWorth);
   g1.sort(byNetWorth);
   g2.sort(byNetWorth);
   g3.sort(byNetWorth);
 
   return {
     chartTwins: twins.map((t) => t.person),
+    iljuPlusMonthJu: monthJu,
     iljuPlusWolji: g1,
     iljuPlusGyeokguk: g2,
     iljuOnly: g3,

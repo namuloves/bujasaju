@@ -75,6 +75,8 @@ type Dict = {
   yourWolji: string;
   seeResults: string;
   chartTwinsTitle: string; // 차트가 가장 비슷한 사람
+  monthJuTitle: string;  // 같은 일주 · 같은 월주
+  monthJuEmpty: string;  // 정확히 같은 월주를 가진 부자는 없습니다
   group1Title: string;   // 같은 일주 · 같은 월지
   group2Title: string;   // 같은 일주 · 같은 격국
   group3Title: string;   // 같은 일주
@@ -167,6 +169,8 @@ const ko: Dict = {
   yourWolji: '월지',
   seeResults: '결과 보기',
   chartTwinsTitle: '차트가 가장 비슷한 사람',
+  monthJuTitle: '같은 일주 · 같은 월주',
+  monthJuEmpty: '정확히 같은 월주를 가진 부자는 없습니다',
   group1Title: '같은 일주 · 같은 월지',
   group2Title: '같은 일주 · 같은 격국',
   group3Title: '같은 일주',
@@ -260,6 +264,8 @@ const en: Dict = {
   yourWolji: '월지',
   seeResults: 'See results',
   chartTwinsTitle: 'Most similar chart',
+  monthJuTitle: 'Same 일주 · same 월주',
+  monthJuEmpty: 'No billionaires share your exact 월주',
   group1Title: 'Same 일주 · same 월지',
   group2Title: 'Same 일주 · same 격국',
   group3Title: 'Same 일주',
