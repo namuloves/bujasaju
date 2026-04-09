@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { EnrichedPerson } from '@/lib/saju/types';
 import { GYEOKGUK_NAMES, STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS } from '@/lib/saju/constants';
 import SajuBadge from './SajuBadge';
+import { useLanguage } from '@/lib/i18n';
 
 interface PersonCardProps {
   person: EnrichedPerson;
@@ -55,17 +56,14 @@ function formatBirthday(dateStr: string): string {
   return `${y}.${m}.${d}`;
 }
 
-const WEALTH_ORIGIN_STYLES: Record<
-  NonNullable<EnrichedPerson['wealthOrigin']>,
-  { label: string; className: string }
-> = {
-  'self-made': { label: 'Self-made', className: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
-  'inherited': { label: 'Inherited', className: 'bg-amber-50 text-amber-700 border-amber-200' },
-  'mixed': { label: 'Mixed', className: 'bg-sky-50 text-sky-700 border-sky-200' },
-};
-
 // Take the first N words of a bio and append an ellipsis if truncated.
-function bioTeaser(bio: string, maxWords = 12): { text: string; truncated: boolean } {
+// For Korean text (no spaces between words), fall back to a character cap.
+function bioTeaser(bio: string, maxWords = 12, maxKoChars = 40): { text: string; truncated: boolean } {
+  const hasHangul = /[\uAC00-\uD7AF]/.test(bio);
+  if (hasHangul) {
+    if (bio.length <= maxKoChars) return { text: bio, truncated: false };
+    return { text: bio.slice(0, maxKoChars) + '…', truncated: true };
+  }
   const words = bio.split(/\s+/);
   if (words.length <= maxWords) return { text: bio, truncated: false };
   return { text: words.slice(0, maxWords).join(' ') + '…', truncated: true };
@@ -74,9 +72,12 @@ function bioTeaser(bio: string, maxWords = 12): { text: string; truncated: boole
 export default function PersonCard({ person }: PersonCardProps) {
   const [showChart, setShowChart] = useState(false);
   const [showBio, setShowBio] = useState(false);
+  const { t, lang } = useLanguage();
   const { saju } = person;
   const hanja = GYEOKGUK_NAMES[saju.gyeokguk] || '';
-  const teaser = person.bio ? bioTeaser(person.bio) : null;
+  // Prefer Korean bio when in KO mode, fall back to English if not yet translated.
+  const displayBio = lang === 'ko' ? (person.bioKo ?? person.bio) : person.bio;
+  const teaser = displayBio ? bioTeaser(displayBio) : null;
 
   return (
     <div className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg hover:border-gray-300 transition-all duration-200">
@@ -102,25 +103,15 @@ export default function PersonCard({ person }: PersonCardProps) {
         {person.nameKo ? (
           <>
             <h3 className="font-semibold text-gray-900 text-sm truncate">{person.nameKo}</h3>
-            <p className="text-xs text-gray-400 truncate">{person.name}</p>
+            <p className="text-[11px] text-gray-400 truncate">{person.name}</p>
           </>
         ) : (
           <h3 className="font-semibold text-gray-900 text-sm truncate">{person.name}</h3>
         )}
-        {/* Source + wealth-origin badge on one line */}
-        <div className="flex items-center justify-between gap-2 mt-0.5">
-          <p className="text-xs text-gray-500 truncate flex-1 min-w-0">
-            {person.source || person.industry}
-          </p>
-          {person.wealthOrigin && (
-            <span
-              title={WEALTH_ORIGIN_STYLES[person.wealthOrigin].label}
-              className={`shrink-0 text-[10px] font-medium px-1.5 py-0.5 rounded border ${WEALTH_ORIGIN_STYLES[person.wealthOrigin].className}`}
-            >
-              {WEALTH_ORIGIN_STYLES[person.wealthOrigin].label}
-            </span>
-          )}
-        </div>
+        {/* Source */}
+        <p className="text-xs text-gray-500 truncate mt-0.5">
+          {person.source || person.industry}
+        </p>
 
         {/* Birthday */}
         <p className="text-xs text-gray-400 mt-1">{formatBirthday(person.birthday)}</p>
@@ -135,14 +126,14 @@ export default function PersonCard({ person }: PersonCardProps) {
         {teaser && (
           <div className="mt-2">
             <p className="text-xs text-gray-600 leading-snug">
-              {showBio ? person.bio : teaser.text}
+              {showBio ? displayBio : teaser.text}
             </p>
             {teaser.truncated && (
               <button
                 onClick={() => setShowBio(!showBio)}
                 className="text-[11px] text-indigo-500 hover:text-indigo-700 font-medium mt-0.5 transition-colors"
               >
-                {showBio ? '접기 ▲' : '더 보기 ▼'}
+                {showBio ? `${t.showLess} ▲` : `${t.showMore} ▼`}
               </button>
             )}
           </div>
@@ -152,13 +143,13 @@ export default function PersonCard({ person }: PersonCardProps) {
         <div className="mt-3 space-y-2">
           {/* 일주 */}
           <div className="flex items-center justify-between">
-            <span className="text-xs text-gray-400">일주</span>
+            <span className="text-xs text-gray-400">{t.cardDayPillar}</span>
             <SajuBadge stem={saju.saju.day.stem} branch={saju.saju.day.branch} size="sm" />
           </div>
 
           {/* 격국 */}
           <div className="flex items-center justify-between">
-            <span className="text-xs text-gray-400">격국</span>
+            <span className="text-xs text-gray-400">{t.cardPattern}</span>
             <span className="text-xs font-medium text-gray-700">
               {saju.gyeokguk} <span className="text-gray-400">{hanja}</span>
             </span>
@@ -166,7 +157,7 @@ export default function PersonCard({ person }: PersonCardProps) {
 
           {/* 월지 */}
           <div className="flex items-center justify-between">
-            <span className="text-xs text-gray-400">월지</span>
+            <span className="text-xs text-gray-400">{t.cardMonthBranch}</span>
             <SajuBadge branch={saju.wolji} size="sm" />
           </div>
 
@@ -175,7 +166,7 @@ export default function PersonCard({ person }: PersonCardProps) {
             onClick={() => setShowChart(!showChart)}
             className="w-full text-xs text-indigo-500 hover:text-indigo-700 font-medium pt-1 border-t border-gray-100 transition-colors flex items-center justify-center gap-1"
           >
-            사주 확인 {showChart ? '▲' : '▼'}
+            {t.viewChart} {showChart ? '▲' : '▼'}
           </button>
 
           {/* 사주팔자 Chart (3 columns: 년주, 월주, 일주) */}
@@ -184,10 +175,10 @@ export default function PersonCard({ person }: PersonCardProps) {
               <table className="w-full text-center text-xs">
                 <thead>
                   <tr className="bg-gray-50">
-                    <th className="py-1 text-gray-400 font-normal">시주</th>
-                    <th className="py-1 text-gray-400 font-normal bg-indigo-50">일주</th>
-                    <th className="py-1 text-gray-400 font-normal">월주</th>
-                    <th className="py-1 text-gray-400 font-normal">년주</th>
+                    <th className="py-1 text-gray-400 font-normal">{t.hourPillar}</th>
+                    <th className="py-1 text-gray-400 font-normal bg-indigo-50">{t.cardDayPillar}</th>
+                    <th className="py-1 text-gray-400 font-normal">{t.monthPillar}</th>
+                    <th className="py-1 text-gray-400 font-normal">{t.yearPillar}</th>
                   </tr>
                 </thead>
                 <tbody>

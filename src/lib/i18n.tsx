@@ -1,0 +1,201 @@
+'use client';
+
+import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+
+export type Lang = 'ko' | 'en';
+
+type Dict = {
+  // Header
+  siteTagline: string;
+  siteSubTagline: string;
+  // FilterPanel
+  searchPlaceholder: string;
+  gender: string;
+  all: string;
+  male: string;
+  female: string;
+  dayPillar: string;
+  allDayPillars: string;
+  dayMaster: string;
+  monthBranch: string;
+  pattern: string;
+  allNationalities: string;
+  allIndustries: string;
+  sort: string;
+  sortNetWorthDesc: string;
+  sortNetWorthAsc: string;
+  sortNameAsc: string;
+  resultsOf: (total: number) => string;
+  clearFilters: string;
+  // PersonGrid
+  noResults: string;
+  adjustFilters: string;
+  // PersonCard
+  cardDayPillar: string;
+  cardPattern: string;
+  cardMonthBranch: string;
+  viewChart: string;
+  showMore: string;
+  showLess: string;
+  hourPillar: string;
+  monthPillar: string;
+  yearPillar: string;
+  // Language toggle
+  languageLabel: string;
+  // Analytics panel
+  analyticsHeadlineWelcome: (total: number) => string;
+  analyticsHeadlineFiltered: (count: number, pct: string) => string;
+  analyticsTopDayMaster: string;        // "Top day masters" / "가장 많은 일간"
+  analyticsTopDayPillar: string;        // "가장 많은 일주"
+  analyticsTopPattern: string;          // "가장 많은 격국"
+  analyticsTopNationality: string;      // "국적 TOP 5"
+  analyticsTopIndustry: string;         // "업종 TOP 5"
+  lastUpdated: string;
+  creditsThanks: string;
+};
+
+const ko: Dict = {
+  siteTagline: '세계 부자들의 사주 분석',
+  siteSubTagline: '나와 비슷한 사주 구조를 가진 부자는?',
+  searchPlaceholder: '궁금한 부자사주 이름을 검색해 보세요',
+  gender: '성별',
+  all: '전체',
+  male: '남성 ♂',
+  female: '여성 ♀',
+  dayPillar: '일주 (六十甲子)',
+  allDayPillars: '전체 일주',
+  dayMaster: '일간',
+  monthBranch: '월지',
+  pattern: '격국',
+  allNationalities: '모든 국적',
+  allIndustries: '모든 업종',
+  sort: '정렬',
+  sortNetWorthDesc: '자산 높은순',
+  sortNetWorthAsc: '자산 낮은순',
+  sortNameAsc: '이름순',
+  resultsOf: (t) => `/ ${t}명`,
+  clearFilters: '필터 초기화',
+  noResults: '해당하는 사람이 없습니다',
+  adjustFilters: '필터를 조정해 보세요',
+  cardDayPillar: '일주',
+  cardPattern: '격국',
+  cardMonthBranch: '월지',
+  viewChart: '사주 확인',
+  showMore: '더 보기',
+  showLess: '접기',
+  hourPillar: '시주',
+  monthPillar: '월주',
+  yearPillar: '년주',
+  languageLabel: '언어',
+  analyticsHeadlineWelcome: (total) => `전체 ${total.toLocaleString('ko-KR')}명`,
+  analyticsHeadlineFiltered: (count, pct) =>
+    `${count.toLocaleString('ko-KR')}명 · 전체의 ${pct}%`,
+  analyticsTopDayMaster: '가장 많은 일간',
+  analyticsTopDayPillar: '가장 많은 일주',
+  analyticsTopPattern: '가장 많은 격국',
+  analyticsTopNationality: '국적 TOP 5',
+  analyticsTopIndustry: '업종 TOP 5',
+  lastUpdated: '최종 업데이트 2026년 4월 8일',
+  creditsThanks: '도움주신 내친이님 감사합니다',
+};
+
+const en: Dict = {
+  siteTagline: 'Saju analysis of the world\u2019s billionaires',
+  siteSubTagline: 'Which billionaires share your 사주 structure?',
+  searchPlaceholder: 'Search by name...',
+  gender: 'Gender',
+  all: 'All',
+  male: 'Male ♂',
+  female: 'Female ♀',
+  dayPillar: 'Day Pillar (일주 · 六十甲子)',
+  allDayPillars: 'All day pillars',
+  dayMaster: 'Day Master (일간)',
+  monthBranch: 'Month Branch (월지)',
+  pattern: 'Pattern (격국)',
+  allNationalities: 'All nationalities',
+  allIndustries: 'All industries',
+  sort: 'Sort',
+  sortNetWorthDesc: 'Net worth, high to low',
+  sortNetWorthAsc: 'Net worth, low to high',
+  sortNameAsc: 'Name (A–Z)',
+  resultsOf: (t) => `of ${t}`,
+  clearFilters: 'Clear filters',
+  noResults: 'No one matches these filters',
+  adjustFilters: 'Try adjusting your filters',
+  cardDayPillar: 'Day Pillar',
+  cardPattern: 'Pattern',
+  cardMonthBranch: 'Month Branch',
+  viewChart: 'View chart',
+  showMore: 'Show more',
+  showLess: 'Show less',
+  hourPillar: 'Hour',
+  monthPillar: 'Month',
+  yearPillar: 'Year',
+  languageLabel: 'Language',
+  analyticsHeadlineWelcome: (total) => `${total.toLocaleString('en-US')} billionaires`,
+  analyticsHeadlineFiltered: (count, pct) =>
+    `${count.toLocaleString('en-US')} · ${pct}% of all`,
+  analyticsTopDayMaster: 'Top day masters',
+  analyticsTopDayPillar: 'Top day pillars',
+  analyticsTopPattern: 'Top patterns',
+  analyticsTopNationality: 'Top 5 nationalities',
+  analyticsTopIndustry: 'Top 5 industries',
+  lastUpdated: 'Last updated Apr 8, 2026',
+  creditsThanks: 'Thanks to 내친이 for the help',
+};
+
+const dictionaries: Record<Lang, Dict> = { ko, en };
+
+interface LanguageContextValue {
+  lang: Lang;
+  setLang: (lang: Lang) => void;
+  t: Dict;
+}
+
+const LanguageContext = createContext<LanguageContextValue | null>(null);
+
+const STORAGE_KEY = 'bujasaju.lang';
+
+export function LanguageProvider({ children }: { children: ReactNode }) {
+  const [lang, setLangState] = useState<Lang>('ko');
+
+  // Load persisted preference on mount
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem(STORAGE_KEY);
+      if (stored === 'ko' || stored === 'en') {
+        setLangState(stored);
+      }
+    } catch {
+      // ignore
+    }
+  }, []);
+
+  // Sync <html lang> and persist
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, lang);
+    } catch {
+      // ignore
+    }
+    if (typeof document !== 'undefined') {
+      document.documentElement.lang = lang;
+    }
+  }, [lang]);
+
+  const value: LanguageContextValue = {
+    lang,
+    setLang: setLangState,
+    t: dictionaries[lang],
+  };
+
+  return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>;
+}
+
+export function useLanguage(): LanguageContextValue {
+  const ctx = useContext(LanguageContext);
+  if (!ctx) {
+    throw new Error('useLanguage must be used within a LanguageProvider');
+  }
+  return ctx;
+}

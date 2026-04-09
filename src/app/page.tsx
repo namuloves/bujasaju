@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react';
 import Header from '@/components/Header';
 import FilterPanel, { Filters } from '@/components/FilterPanel';
 import PersonGrid from '@/components/PersonGrid';
+import AnalyticsPanel from '@/components/AnalyticsPanel';
 import {
   enrichedPeople,
   getUniqueNationalities,
@@ -85,6 +86,12 @@ export default function Home() {
 
           {/* Main Grid */}
           <div className="flex-1">
+            <AnalyticsPanel
+              filteredPeople={filteredPeople}
+              totalCount={enrichedPeople.length}
+              filters={filters}
+              onChange={setFilters}
+            />
             <PersonGrid people={filteredPeople} />
           </div>
         </div>

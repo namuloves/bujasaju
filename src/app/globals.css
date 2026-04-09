@@ -10,6 +10,14 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Brand color scale (base: #0C45A7) — overrides Tailwind's indigo palette */
+  --color-indigo-50: #e8eef8;
+  --color-indigo-100: #d1ddf1;
+  --color-indigo-500: #1557c7;
+  --color-indigo-600: #0c45a7;
+  --color-indigo-700: #093788;
+  --color-indigo-800: #072a69;
 }
 
 @media (prefers-color-scheme: dark) {

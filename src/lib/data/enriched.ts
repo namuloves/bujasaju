@@ -1,6 +1,13 @@
 import { EnrichedPerson } from '../saju/types';
 import { calculateSaju, parseBirthday } from '../saju/index';
 import { billionaires } from './billionaires';
+import { nameKoMap } from './nameKoMap';
+import { GABIA_60 } from '../saju/constants';
+
+// Canonical 60갑자 ordering: 갑자 → 을축 → 병인 → ... → 계해
+const GABIA_ORDER = new Map<string, number>(
+  GABIA_60.map((g, i) => [g.stem + g.branch, i])
+);
 
 // De-duplicate by name (case-insensitive)
 const uniqueBillionaires = billionaires.filter(
@@ -19,6 +26,9 @@ export const enrichedPeople: EnrichedPerson[] = uniqueBillionaires
     const saju = calculateSaju(birthday);
     return {
       ...person,
+      // Fall back to a curated transliteration map when the source record
+      // doesn't already provide a Korean name.
+      nameKo: person.nameKo ?? nameKoMap[person.name],
       id: String(index + 1),
       saju,
     };
@@ -28,7 +38,10 @@ export const enrichedPeople: EnrichedPerson[] = uniqueBillionaires
 // Get unique values for filters
 export function getUniqueIljus(): string[] {
   const set = new Set(enrichedPeople.map((p) => p.saju.ilju));
-  return Array.from(set).sort();
+  // Sort by canonical 60갑자 order so users see 갑자 → 을축 → 병인 → … → 계해
+  return Array.from(set).sort(
+    (a, b) => (GABIA_ORDER.get(a) ?? 999) - (GABIA_ORDER.get(b) ?? 999)
+  );
 }
 
 export function getUniqueGyeokguks(): string[] {
