@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, useDeferredValue } from 'react';
 import FilterPanel, { Filters } from '@/components/FilterPanel';
 import PersonGrid from '@/components/PersonGrid';
 import AnalyticsPanel from '@/components/AnalyticsPanel';
@@ -31,6 +31,11 @@ export default function BrowseTab() {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const { people: enrichedPeople, loading } = useEnrichedPeople();
 
+  // Defer the filter object so that typing in the search box is always
+  // instant — the heavy 3,300-row filter/sort runs at lower priority and
+  // React will interrupt it if another keystroke arrives first.
+  const deferredFilters = useDeferredValue(filters);
+
   // Reset pagination whenever filters change so the user always sees the
   // top of the new result set.
   useEffect(() => {
@@ -38,27 +43,28 @@ export default function BrowseTab() {
   }, [filters]);
 
   const filteredPeople = useMemo(() => {
+    const f = deferredFilters;
     const filtered = enrichedPeople.filter((person) => {
-      if (filters.search) {
-        const q = filters.search.toLowerCase();
+      if (f.search) {
+        const q = f.search.toLowerCase();
         if (
           !person.name.toLowerCase().includes(q) &&
-          !(person.nameKo && person.nameKo.includes(filters.search))
+          !(person.nameKo && person.nameKo.includes(f.search))
         )
           return false;
       }
-      if (filters.gender && person.gender !== filters.gender) return false;
-      if (filters.ilju && person.saju.ilju !== filters.ilju) return false;
-      if (filters.ilgan && person.saju.saju.day.stem !== filters.ilgan) return false;
-      if (filters.wolji && person.saju.wolji !== filters.wolji) return false;
-      if (filters.gyeokguk && person.saju.gyeokguk !== filters.gyeokguk) return false;
-      if (filters.nationality && !person.nationality.includes(filters.nationality)) return false;
-      if (filters.industry && person.industry !== filters.industry) return false;
+      if (f.gender && person.gender !== f.gender) return false;
+      if (f.ilju && person.saju.ilju !== f.ilju) return false;
+      if (f.ilgan && person.saju.saju.day.stem !== f.ilgan) return false;
+      if (f.wolji && person.saju.wolji !== f.wolji) return false;
+      if (f.gyeokguk && person.saju.gyeokguk !== f.gyeokguk) return false;
+      if (f.nationality && !person.nationality.includes(f.nationality)) return false;
+      if (f.industry && person.industry !== f.industry) return false;
       return true;
     });
 
     const sorted = [...filtered];
-    switch (filters.sort) {
+    switch (f.sort) {
       case 'netWorth_asc':
         sorted.sort((a, b) => a.netWorth - b.netWorth);
         break;
@@ -71,7 +77,7 @@ export default function BrowseTab() {
         break;
     }
     return sorted;
-  }, [filters, enrichedPeople]);
+  }, [deferredFilters, enrichedPeople]);
 
   return (
     <div className="flex flex-col lg:flex-row gap-6">

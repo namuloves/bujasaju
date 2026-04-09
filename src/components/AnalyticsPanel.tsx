@@ -13,7 +13,7 @@
  * - Bar items are click-to-filter: clicking "갑진" sets filters.ilju = '갑진'.
  */
 
-import { useMemo } from 'react';
+import { useDeferredValue, useMemo } from 'react';
 import type { EnrichedPerson } from '@/lib/saju/types';
 import type { Filters } from './FilterPanel';
 import { useLanguage } from '@/lib/i18n';
@@ -104,6 +104,12 @@ export default function AnalyticsPanel({
 }: Props) {
   const { t, lang } = useLanguage();
 
+  // Defer the expensive tallies so typing in the search box stays snappy.
+  // React will keep the old bars on screen while it recomputes the new ones
+  // in the background, instead of blocking every keystroke on a 3,300-item
+  // tally. The visible headline count still updates immediately.
+  const deferredPeople = useDeferredValue(filteredPeople);
+
   // Is any filter active? (sort and search don't count as "filtering" the
   // analytics — sort doesn't change the set, and search is its own thing).
   const hasFilter =
@@ -126,7 +132,7 @@ export default function AnalyticsPanel({
   const primaryItems = useMemo<BreakdownItem[]>(() => {
     if (primary === 'ilgan') {
       const counts = new Map<string, number>();
-      for (const p of filteredPeople) {
+      for (const p of deferredPeople) {
         const k = PICKERS.ilgan(p);
         if (!k) continue;
         counts.set(k, (counts.get(k) ?? 0) + 1);
@@ -137,26 +143,26 @@ export default function AnalyticsPanel({
         count: counts.get(stem) ?? 0,
       }));
     }
-    const sorted = tallyBy(filteredPeople, PICKERS[primary]);
+    const sorted = tallyBy(deferredPeople, PICKERS[primary]);
     return sorted.slice(0, 6).map(([k, count]) => ({
       key: k,
       label: labelFor(primary, k),
       count,
     }));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filteredPeople, primary, lang]);
+  }, [deferredPeople, primary, lang]);
 
   // Build the secondary breakdown (top 5). Only when filtered.
   const secondaryItems = useMemo<BreakdownItem[]>(() => {
     if (!hasFilter || !secondary) return [];
-    const sorted = tallyBy(filteredPeople, PICKERS[secondary]);
+    const sorted = tallyBy(deferredPeople, PICKERS[secondary]);
     return sorted.slice(0, 5).map(([k, count]) => ({
       key: k,
       label: labelFor(secondary, k),
       count,
     }));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filteredPeople, secondary, hasFilter, lang]);
+  }, [deferredPeople, secondary, hasFilter, lang]);
 
   // Don't render if there's nothing to show.
   if (filteredPeople.length === 0) return null;

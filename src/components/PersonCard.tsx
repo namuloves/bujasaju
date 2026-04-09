@@ -148,8 +148,21 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
         <img
           src={person.photoUrl}
           alt={person.name}
+          // Intrinsic size matches our aspect-square container. Declaring
+          // width/height lets the browser reserve space and avoids layout
+          // shift as images stream in. Most source photos are 416×416 from
+          // Forbes' CDN, so this is a natural fit.
+          width={200}
+          height={200}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           loading="lazy"
+          decoding="async"
+          // Hint to the browser that off-screen card images aren't critical
+          // for first paint. The first row (above the fold) will still be
+          // fetched promptly because browsers ignore `low` for in-viewport
+          // images.
+          // @ts-expect-error – not yet in React's typings
+          fetchpriority="low"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=200&background=random&bold=true`;
