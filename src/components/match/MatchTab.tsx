@@ -73,14 +73,17 @@ export default function MatchTab() {
   const [input, setInput] = useState<MatchInput | null>(null);
   const [step, setStep] = useState<Step>('form');
 
-  // Hydrate from localStorage on mount
+  // Hydrate from localStorage on mount. Return visits run the reveal
+  // animation too — it's short (~2.7s) and it doubles as cover time for
+  // the Claude summary stream, so users always see a satisfying loading
+  // beat instead of the chart popping into place instantly.
   useEffect(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return;
       const parsed = JSON.parse(raw) as MatchInput;
       setInput(parsed);
-      setStep('results'); // skip straight to results on return visits
+      setStep('revealing');
     } catch {
       // ignore
     }
