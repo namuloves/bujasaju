@@ -18,6 +18,8 @@ import type { EnrichedPerson } from '@/lib/saju/types';
 import type { Filters } from './FilterPanel';
 import { useLanguage } from '@/lib/i18n';
 import { nationalityToKorean, industryToKorean } from './FilterPanel';
+import { CHEON_GAN, STEM_TO_OHAENG } from '@/lib/saju/constants';
+import type { CheonGan } from '@/lib/saju/types';
 
 interface Props {
   filteredPeople: EnrichedPerson[];
@@ -118,8 +120,23 @@ export default function AnalyticsPanel({
     return key; // saju keys are already in Korean
   };
 
-  // Build the primary breakdown (top 6).
+  // Build the primary breakdown.
+  // Special case: for 일간 we show ALL 10 천간 in canonical order (갑을병정무기경신임계)
+  // so the pie chart is stable and memorable. For everything else, top 6.
   const primaryItems = useMemo<BreakdownItem[]>(() => {
+    if (primary === 'ilgan') {
+      const counts = new Map<string, number>();
+      for (const p of filteredPeople) {
+        const k = PICKERS.ilgan(p);
+        if (!k) continue;
+        counts.set(k, (counts.get(k) ?? 0) + 1);
+      }
+      return CHEON_GAN.map((stem) => ({
+        key: stem,
+        label: stem,
+        count: counts.get(stem) ?? 0,
+      }));
+    }
     const sorted = tallyBy(filteredPeople, PICKERS[primary]);
     return sorted.slice(0, 6).map(([k, count]) => ({
       key: k,
@@ -181,12 +198,21 @@ export default function AnalyticsPanel({
     <div className="bg-white rounded-xl border border-gray-200 p-4 mb-4">
       <div className="text-sm font-semibold text-gray-900 mb-3">{headline}</div>
       <div className={`grid gap-4 ${secondaryItems.length > 0 ? 'sm:grid-cols-2' : 'sm:grid-cols-1'}`}>
-        <BarChart
-          title={primaryTitle}
-          items={primaryItems}
-          onClick={(key) => handleBarClick(primary, key)}
-          activeKey={filters[FILTER_KEY[primary]]}
-        />
+        {primary === 'ilgan' ? (
+          <PieChart
+            title={primaryTitle}
+            items={primaryItems}
+            onClick={(key) => handleBarClick('ilgan', key)}
+            activeKey={filters.ilgan}
+          />
+        ) : (
+          <BarChart
+            title={primaryTitle}
+            items={primaryItems}
+            onClick={(key) => handleBarClick(primary, key)}
+            activeKey={filters[FILTER_KEY[primary]]}
+          />
+        )}
         {secondaryItems.length > 0 && secondary && secondaryTitle && (
           <BarChart
             title={secondaryTitle}
@@ -207,6 +233,175 @@ interface BarChartProps {
   items: BreakdownItem[];
   onClick: (key: string) => void;
   activeKey: string;
+}
+
+// ─── Pie chart (SVG, no library) ────────────────────────────────────────────
+// Used for the 일간 breakdown: 10 slices in canonical 갑을병정무기경신임계 order,
+// colored by 오행 with 양(+) slightly darker than 음(−).
+
+const OHAENG_COLORS: Record<string, { yang: string; eum: string }> = {
+  // 목 (green), 화 (red), 토 (yellow/brown), 금 (gray), 수 (blue)
+  '목': { yang: '#16a34a', eum: '#4ade80' }, // 갑 / 을
+  '화': { yang: '#dc2626', eum: '#f87171' }, // 병 / 정
+  '토': { yang: '#ca8a04', eum: '#facc15' }, // 무 / 기
+  '금': { yang: '#64748b', eum: '#cbd5e1' }, // 경 / 신
+  '수': { yang: '#0c45a7', eum: '#60a5fa' }, // 임 / 계
+};
+
+// 갑(양) 을(음) 병(양) 정(음) 무(양) 기(음) 경(양) 신(음) 임(양) 계(음)
+function stemColor(stem: string): string {
+  const oh = STEM_TO_OHAENG[stem as CheonGan];
+  if (!oh) return '#9ca3af';
+  const idx = CHEON_GAN.indexOf(stem as CheonGan);
+  const isYang = idx % 2 === 0;
+  return isYang ? OHAENG_COLORS[oh].yang : OHAENG_COLORS[oh].eum;
+}
+
+interface PieChartProps {
+  title: string;
+  items: BreakdownItem[];
+  onClick: (key: string) => void;
+  activeKey: string;
+}
+
+function PieChart({ title, items, onClick, activeKey }: PieChartProps) {
+  const total = items.reduce((sum, it) => sum + it.count, 0);
+  const size = 180;
+  const cx = size / 2;
+  const cy = size / 2;
+  const r = 78;
+  const innerR = 44; // donut hole
+  const hasActive = !!activeKey;
+
+  // Build slices. Skip zero-count items.
+  let angle = -Math.PI / 2; // start at 12 o'clock
+  const slices = items.map((item) => {
+    const frac = total > 0 ? item.count / total : 0;
+    const sweep = frac * Math.PI * 2;
+    const start = angle;
+    const end = angle + sweep;
+    angle = end;
+    // midpoint angle for label placement
+    const mid = (start + end) / 2;
+    return { item, start, end, sweep, mid, frac };
+  });
+
+  function arcPath(start: number, end: number, ri: number, ro: number): string {
+    const large = end - start > Math.PI ? 1 : 0;
+    const x1 = cx + ro * Math.cos(start);
+    const y1 = cy + ro * Math.sin(start);
+    const x2 = cx + ro * Math.cos(end);
+    const y2 = cy + ro * Math.sin(end);
+    const x3 = cx + ri * Math.cos(end);
+    const y3 = cy + ri * Math.sin(end);
+    const x4 = cx + ri * Math.cos(start);
+    const y4 = cy + ri * Math.sin(start);
+    return [
+      `M ${x1} ${y1}`,
+      `A ${ro} ${ro} 0 ${large} 1 ${x2} ${y2}`,
+      `L ${x3} ${y3}`,
+      `A ${ri} ${ri} 0 ${large} 0 ${x4} ${y4}`,
+      'Z',
+    ].join(' ');
+  }
+
+  return (
+    <div>
+      <div className="text-xs font-medium text-gray-500 mb-2">{title}</div>
+      <div className="flex items-center gap-4">
+        <svg
+          width={size}
+          height={size}
+          viewBox={`0 0 ${size} ${size}`}
+          className="shrink-0"
+          role="img"
+          aria-label={title}
+        >
+          {total === 0 ? (
+            <circle cx={cx} cy={cy} r={r} fill="#f3f4f6" />
+          ) : (
+            slices.map(({ item, start, end, sweep }) => {
+              if (sweep <= 0) return null;
+              const isActive = activeKey === item.key;
+              const dimmed = hasActive && !isActive;
+              // Tiny gap between slices using a slight inward shrink
+              const gap = 0.01;
+              const s = start + gap / 2;
+              const e = end - gap / 2;
+              return (
+                <path
+                  key={item.key}
+                  d={arcPath(s, e, innerR, r)}
+                  fill={stemColor(item.key)}
+                  opacity={dimmed ? 0.25 : 1}
+                  stroke="#fff"
+                  strokeWidth={1}
+                  className="cursor-pointer transition-opacity hover:opacity-80"
+                  onClick={() => onClick(item.key)}
+                >
+                  <title>{`${item.label} · ${item.count}`}</title>
+                </path>
+              );
+            })
+          )}
+          {/* center total */}
+          <text
+            x={cx}
+            y={cy - 2}
+            textAnchor="middle"
+            className="fill-gray-900"
+            style={{ fontSize: 16, fontWeight: 700 }}
+          >
+            {total.toLocaleString()}
+          </text>
+          <text
+            x={cx}
+            y={cy + 14}
+            textAnchor="middle"
+            className="fill-gray-400"
+            style={{ fontSize: 10 }}
+          >
+            일간
+          </text>
+        </svg>
+        {/* Legend — all 10 stems in canonical order */}
+        <ul className="flex-1 grid grid-cols-2 gap-x-3 gap-y-1 min-w-0">
+          {items.map((item) => {
+            const isActive = activeKey === item.key;
+            const dimmed = hasActive && !isActive;
+            const pct = total > 0 ? ((item.count / total) * 100).toFixed(1) : '0.0';
+            return (
+              <li key={item.key}>
+                <button
+                  type="button"
+                  onClick={() => onClick(item.key)}
+                  className={`w-full flex items-center gap-1.5 rounded px-1 py-0.5 text-left transition-colors ${
+                    isActive ? 'bg-indigo-50' : 'hover:bg-gray-50'
+                  } ${dimmed ? 'opacity-50' : ''}`}
+                >
+                  <span
+                    className="inline-block h-2.5 w-2.5 rounded-sm shrink-0"
+                    style={{ backgroundColor: stemColor(item.key) }}
+                  />
+                  <span
+                    className={`text-xs font-medium ${
+                      isActive ? 'text-indigo-700' : 'text-gray-800'
+                    }`}
+                  >
+                    {item.label}
+                  </span>
+                  <span className="ml-auto text-[10px] tabular-nums text-gray-500">
+                    {item.count}
+                    <span className="text-gray-400"> · {pct}%</span>
+                  </span>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
+  );
 }
 
 function BarChart({ title, items, onClick, activeKey }: BarChartProps) {
