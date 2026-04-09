@@ -1,10 +1,19 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import dynamic from 'next/dynamic';
 import Header from '@/components/Header';
 import TabBar, { TabKey } from '@/components/TabBar';
 import MatchTab from '@/components/match/MatchTab';
-import BrowseTab from '@/components/BrowseTab';
+
+// BrowseTab pulls in the full 3,300-person dataset + saju calc. Lazy-load it
+// so the default Match tab stays tiny.
+const BrowseTab = dynamic(() => import('@/components/BrowseTab'), {
+  ssr: false,
+  loading: () => (
+    <div className="text-center py-16 text-sm text-gray-400">불러오는 중…</div>
+  ),
+});
 
 function getInitialTab(): TabKey {
   if (typeof window === 'undefined') return 'match';

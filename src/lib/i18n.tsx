@@ -74,6 +74,7 @@ type Dict = {
   yourGyeokguk: string;
   yourWolji: string;
   seeResults: string;
+  chartTwinsTitle: string; // 차트가 가장 비슷한 사람
   group1Title: string;   // 같은 일주 · 같은 월지
   group2Title: string;   // 같은 일주 · 같은 격국
   group3Title: string;   // 같은 일주
@@ -90,6 +91,16 @@ type Dict = {
   revealReading: string;
   revealMatching: string;
   revealFound: (n: number) => string;
+  seeSameIljuButton: (n: number) => string;
+  heroMatchTagline: string;
+  shareTitle: string;
+  shareCopyLink: string;
+  shareCopied: string;
+  shareMore: string;
+  shareSms: string;
+  shareInstagramHint: string;
+  shareKakaoNotice: string;
+  shareDefaultText: string;
 };
 
 const ko: Dict = {
@@ -155,6 +166,7 @@ const ko: Dict = {
   yourGyeokguk: '격국',
   yourWolji: '월지',
   seeResults: '결과 보기',
+  chartTwinsTitle: '차트가 가장 비슷한 사람',
   group1Title: '같은 일주 · 같은 월지',
   group2Title: '같은 일주 · 같은 격국',
   group3Title: '같은 일주',
@@ -171,6 +183,16 @@ const ko: Dict = {
   revealReading: '사주를 읽는 중…',
   revealMatching: '같은 기운을 찾는 중…',
   revealFound: (n) => `${n.toLocaleString('ko-KR')}명의 부자를 찾았습니다`,
+  seeSameIljuButton: (n) => `나랑 일주 같은 부자 보기 (${n.toLocaleString('ko-KR')}명)`,
+  heroMatchTagline: '의 부자가 당신과 비슷한 기운을 가졌습니다',
+  shareTitle: '친구한테도 가르쳐주기',
+  shareCopyLink: '링크 복사',
+  shareCopied: '복사됨!',
+  shareMore: '더보기',
+  shareSms: '문자',
+  shareInstagramHint: '링크가 복사됐어요! 인스타 스토리나 DM에 붙여넣기 하세요',
+  shareKakaoNotice: '카카오톡 공유 기능은 추후에 추가될 예정입니다.',
+  shareDefaultText: '내 사주랑 비슷한 부자는? 부자사주에서 확인해 보세요',
 };
 
 const en: Dict = {
@@ -237,6 +259,7 @@ const en: Dict = {
   yourGyeokguk: '격국',
   yourWolji: '월지',
   seeResults: 'See results',
+  chartTwinsTitle: 'Most similar chart',
   group1Title: 'Same 일주 · same 월지',
   group2Title: 'Same 일주 · same 격국',
   group3Title: 'Same 일주',
@@ -253,6 +276,16 @@ const en: Dict = {
   revealReading: 'Reading your 사주…',
   revealMatching: 'Finding kindred spirits…',
   revealFound: (n) => `Found ${n.toLocaleString('en-US')} billionaires`,
+  seeSameIljuButton: (n) => `See billionaires with my 일주 (${n.toLocaleString('en-US')})`,
+  heroMatchTagline: ' billionaires share your energy',
+  shareTitle: 'Share with friends',
+  shareCopyLink: 'Copy link',
+  shareCopied: 'Copied!',
+  shareMore: 'More',
+  shareSms: 'Text',
+  shareInstagramHint: 'Link copied! Paste it into your Instagram story or DM',
+  shareKakaoNotice: 'KakaoTalk sharing is coming soon.',
+  shareDefaultText: 'Which billionaires share your 사주? Find out on 부자사주',
 };
 
 const dictionaries: Record<Lang, Dict> = { ko, en };

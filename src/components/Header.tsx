@@ -47,9 +47,6 @@ export default function Header() {
               <p className="text-[10px] text-gray-400 whitespace-nowrap leading-tight">
                 {t.lastUpdated}
               </p>
-              <p className="text-[10px] text-gray-400 whitespace-nowrap leading-tight">
-                {t.creditsThanks}
-              </p>
             </div>
           </div>
         </div>

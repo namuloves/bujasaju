@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { EnrichedPerson } from '@/lib/saju/types';
 import { GYEOKGUK_NAMES, STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS } from '@/lib/saju/constants';
 import SajuBadge from './SajuBadge';
@@ -9,6 +9,8 @@ import { nationalityToKorean } from './FilterPanel';
 
 interface PersonCardProps {
   person: EnrichedPerson;
+  /** If true, the 사주 chart starts expanded instead of hidden behind "사주 확인". */
+  defaultShowChart?: boolean;
 }
 
 const FLAG_MAP: Record<string, string> = {
@@ -47,14 +49,73 @@ function getBirthplace(nationality: string): string {
   return parts.map((code) => COUNTRY_NAME[code] || code).join(' / ');
 }
 
-function formatNetWorth(netWorth: number): string {
+// USD to KRW conversion. Hardcoded ballpark rate — we're showing order of
+// magnitude, not a live ticker. Bump this once a year if it drifts far.
+const USD_TO_KRW = 1470;
+
+function formatNetWorthUsd(netWorth: number): string {
   if (netWorth >= 1) return `$${netWorth.toFixed(1)}B`;
   return `$${(netWorth * 1000).toFixed(0)}M`;
+}
+
+// Format billions-USD as a Korean-language net worth string. Uses 조 (trillion
+// KRW) when ≥1조, otherwise 억 (hundred-million KRW). Billionaires always
+// clear the 1조 threshold in practice (1B USD ≈ 1.47조) but we handle both
+// for safety.
+function formatNetWorthKrw(netWorthBillionsUsd: number): string {
+  const krwBillions = netWorthBillionsUsd * USD_TO_KRW; // KRW in units of 10억
+  // 1조 = 10,000억. `krwBillions` is already in 억, so /10000 → 조.
+  const trillions = krwBillions / 10000;
+  if (trillions >= 1) {
+    // Show 1 decimal for <10조, no decimal for ≥10조 to avoid noise.
+    const fixed = trillions >= 10 ? trillions.toFixed(0) : trillions.toFixed(1);
+    return `${fixed}조 원`;
+  }
+  // Under 1조: show in 억 원, comma-separated and rounded to nearest 100억.
+  const eok = Math.round(krwBillions / 100) * 100;
+  return `${eok.toLocaleString('ko-KR')}억 원`;
 }
 
 function formatBirthday(dateStr: string): string {
   const [y, m, d] = dateStr.split('-');
   return `${y}.${m}.${d}`;
+}
+
+// Render a bio string with links. Supports two forms, processed in order:
+//   1. `[label](https://…)` — markdown-style link; only the label is shown
+//   2. raw `https://…` URLs — fallback, shown as-is but clickable
+// Used only for the expanded view. Keeps bios readable without showing
+// ugly full URLs inline.
+function renderBioWithLinks(text: string): React.ReactNode[] {
+  // Single regex that matches either form. Group 1/2 = label/url for
+  // markdown links, group 3 = bare URL.
+  const combined = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)|(https?:\/\/[^\s)]+)/g;
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+  while ((match = combined.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    const label = match[1] ?? match[3];
+    const url = match[2] ?? match[3];
+    parts.push(
+      <a
+        key={`link-${key++}`}
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-indigo-500 hover:text-indigo-700 underline"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {label}
+      </a>,
+    );
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) parts.push(text.slice(lastIndex));
+  return parts;
 }
 
 // Take the first N words of a bio and append an ellipsis if truncated.
@@ -70,8 +131,8 @@ function bioTeaser(bio: string, maxWords = 12, maxKoChars = 40): { text: string;
   return { text: words.slice(0, maxWords).join(' ') + '…', truncated: true };
 }
 
-export default function PersonCard({ person }: PersonCardProps) {
-  const [showChart, setShowChart] = useState(false);
+export default function PersonCard({ person, defaultShowChart = false }: PersonCardProps) {
+  const [showChart, setShowChart] = useState(defaultShowChart);
   const [showBio, setShowBio] = useState(false);
   const { t, lang } = useLanguage();
   const { saju } = person;
@@ -118,7 +179,9 @@ export default function PersonCard({ person }: PersonCardProps) {
         <p className="text-xs text-gray-400 mt-1">{formatBirthday(person.birthday)}</p>
 
         {/* Net Worth */}
-        <p className="text-xs text-gray-400 mt-0.5">{formatNetWorth(person.netWorth)}</p>
+        <p className="text-xs text-gray-400 mt-0.5">
+          {lang === 'ko' ? formatNetWorthKrw(person.netWorth) : formatNetWorthUsd(person.netWorth)}
+        </p>
 
         {/* Birthplace */}
         <p className="text-xs text-gray-400 mt-0.5">
@@ -129,7 +192,7 @@ export default function PersonCard({ person }: PersonCardProps) {
         {teaser && (
           <div className="mt-2">
             <p className="text-xs text-gray-600 leading-snug">
-              {showBio ? displayBio : teaser.text}
+              {showBio ? renderBioWithLinks(displayBio!) : teaser.text}
             </p>
             {teaser.truncated && (
               <button

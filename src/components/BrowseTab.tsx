@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import FilterPanel, { Filters } from '@/components/FilterPanel';
 import PersonGrid from '@/components/PersonGrid';
 import AnalyticsPanel from '@/components/AnalyticsPanel';
@@ -24,8 +24,17 @@ const defaultFilters: Filters = {
   sort: 'netWorth_desc',
 };
 
+const PAGE_SIZE = 60;
+
 export default function BrowseTab() {
   const [filters, setFilters] = useState<Filters>(defaultFilters);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+
+  // Reset pagination whenever filters change so the user always sees the
+  // top of the new result set.
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [filters]);
 
   const filteredPeople = useMemo(() => {
     const filtered = enrichedPeople.filter((person) => {
@@ -87,7 +96,18 @@ export default function BrowseTab() {
           filters={filters}
           onChange={setFilters}
         />
-        <PersonGrid people={filteredPeople} />
+        <PersonGrid people={filteredPeople.slice(0, visibleCount)} />
+        {visibleCount < filteredPeople.length && (
+          <div className="flex justify-center mt-8">
+            <button
+              type="button"
+              onClick={() => setVisibleCount((v) => v + PAGE_SIZE)}
+              className="px-6 py-2.5 bg-white border border-gray-200 hover:border-gray-300 text-sm font-semibold text-gray-700 rounded-lg transition-colors"
+            >
+              더 보기 ({filteredPeople.length - visibleCount}명 남음)
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

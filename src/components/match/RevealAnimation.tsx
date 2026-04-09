@@ -93,9 +93,15 @@ export default function RevealAnimation({ saju, onDone }: Props) {
   const [phase, setPhase] = useState<'reading' | 'matching' | 'results'>('reading');
 
   // Pre-compute match count so the final number is ready when we show it.
+  // Count only the groups actually rendered on the results page
+  // (일주-only is behind a separate button, so exclude it from the headline).
   const totalMatches = useMemo(() => {
     const groups = matchBillionaires(saju, enrichedPeople);
-    return groups.iljuPlusWolji.length + groups.iljuPlusGyeokguk.length + groups.iljuOnly.length;
+    return (
+      groups.chartTwins.length +
+      groups.iljuPlusWolji.length +
+      groups.iljuPlusGyeokguk.length
+    );
   }, [saju]);
 
   useEffect(() => {
