@@ -8,6 +8,7 @@ import type { EnrichedPerson, SajuResult } from '@/lib/saju/types';
 import PersonCard from '@/components/PersonCard';
 import SajuHero from './SajuHero';
 import ShareButtons from './ShareButtons';
+import MatchSummary from './MatchSummary';
 
 interface Props {
   me: SajuResult;
@@ -60,12 +61,30 @@ export default function MatchResults({ me, onReset }: Props) {
     groups.iljuPlusWolji.length +
     groups.iljuPlusGyeokguk.length;
 
+  // Flattened list fed to the Claude summary — strongest tiers first so
+  // the prompt's "top N" slice naturally picks the most relevant people.
+  const summaryMatches = useMemo(
+    () => [
+      ...groups.iljuPlusMonthJu,
+      ...groups.chartTwins,
+      ...groups.iljuPlusWolji,
+      ...groups.iljuPlusGyeokguk,
+    ],
+    [groups],
+  );
+
   const sameIljuCount = groups.iljuOnly.length;
 
   return (
     <div className="space-y-8">
       {/* Quiz-result hero: 4 pillars + key stats + match count */}
       <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} />
+
+      {/* Claude-generated 사주 풀이 — streams in while the user scans
+          the hero. Uses the shared client cache + prefetch kicked off by
+          the reveal animation, so it's usually already arriving by the
+          time this component mounts. */}
+      <MatchSummary saju={me} matches={summaryMatches} />
 
       {sections.map((section) => {
         const isEmpty = section.people.length === 0;

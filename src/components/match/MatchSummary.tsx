@@ -1,0 +1,252 @@
+'use client';
+
+import { useEffect, useMemo, useRef, useState } from 'react';
+import type { EnrichedPerson, SajuResult } from '@/lib/saju/types';
+
+/**
+ * MatchSummary — streams a Claude-generated 사주 summary that describes the
+ * user's 일주 and what's striking about the matched billionaires.
+ *
+ * Design notes:
+ * - The request is fired the moment this component (or `useSajuSummary`)
+ *   mounts, which happens at the start of the reveal animation. By the time
+ *   results land on screen the stream is usually already complete.
+ * - Client-side cache is keyed on the user's saju + the exact set of
+ *   matched ids, so coming back to the same result reuses the stream.
+ * - If the stream errors, we fall back to a short static template derived
+ *   from the same data. The user still gets *something*.
+ */
+
+interface UseSummaryArgs {
+  user: {
+    ilju: string;
+    wolji: string;
+    gyeokguk: string;
+    ilgan: string;
+  };
+  matches: EnrichedPerson[];
+  /**
+   * If false, skip the fetch entirely. Used to defer fetching until we
+   * actually have data to send (e.g. while enriched people are still loading).
+   */
+  enabled?: boolean;
+}
+
+type SummaryState =
+  | { status: 'idle' }
+  | { status: 'streaming'; text: string }
+  | { status: 'done'; text: string }
+  | { status: 'error'; text: string };
+
+// Simple module-level cache so toggling between views / navigating back
+// doesn't re-charge the API. Keyed on user saju + matched ids.
+const cache = new Map<string, string>();
+
+function cacheKey(
+  user: UseSummaryArgs['user'],
+  matches: EnrichedPerson[],
+): string {
+  const ids = matches
+    .map((m) => m.id)
+    .slice(0, 12)
+    .join(',');
+  return `${user.ilju}|${user.wolji}|${user.gyeokguk}|${user.ilgan}|${ids}`;
+}
+
+/**
+ * Very small static fallback when the API fails — enough that the user
+ * sees *something* meaningful and not an empty card.
+ */
+function staticFallback(user: UseSummaryArgs['user'], matches: EnrichedPerson[]): string {
+  if (matches.length === 0) {
+    return `${user.ilju} 일주인 당신의 사주 구조와 정확히 일치하는 부자는 아직 데이터에 없네요. 다른 기운의 매칭을 살펴보세요.`;
+  }
+  const top = matches[0];
+  const industries = new Set(matches.slice(0, 8).map((m) => m.industry));
+  const selfMade = matches.slice(0, 8).filter((m) => m.wealthOrigin === 'self-made').length;
+  const total = Math.min(matches.length, 8);
+  return `${user.ilju} 일주인 당신은 ${user.gyeokguk}의 기운을 품고 있네요. 비슷한 사주 구조를 가진 부자 ${matches.length}명 중 ${top.nameKo ?? top.name} 같은 인물이 대표적이고, 주요 분야는 ${Array.from(industries).slice(0, 3).join(' · ')}이에요. 상위 ${total}명 중 ${selfMade}명이 자수성가형이라는 점이 인상적이네요.`;
+}
+
+export function useSajuSummary({ user, matches, enabled = true }: UseSummaryArgs): SummaryState {
+  const [state, setState] = useState<SummaryState>({ status: 'idle' });
+  // Hold on to the latest matches ids via a ref so we only re-fire when
+  // the key actually changes — not every render.
+  const lastKeyRef = useRef<string | null>(null);
+
+  // Memoized cache key. Recomputes only when its inputs actually change,
+  // which is what drives the effect below. We deliberately avoid putting
+  // `matches` (the array reference) in deps; the stable id-string is what
+  // matters.
+  const key = useMemo(
+    () => cacheKey(user, matches),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [user.ilju, user.wolji, user.gyeokguk, user.ilgan, matches.length, matches[0]?.id],
+  );
+
+  useEffect(() => {
+    if (!enabled || matches.length === 0) return;
+
+    if (lastKeyRef.current === key) return;
+    lastKeyRef.current = key;
+
+    const cached = cache.get(key);
+    if (cached) {
+      setState({ status: 'done', text: cached });
+      return;
+    }
+
+    const controller = new AbortController();
+    setState({ status: 'streaming', text: '' });
+
+    (async () => {
+      try {
+        const res = await fetch('/api/saju-summary', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            user,
+            matches: matches.slice(0, 12).map((m) => ({
+              name: m.name,
+              nameKo: m.nameKo,
+              industry: m.industry,
+              nationality: m.nationality,
+              netWorth: m.netWorth,
+              wealthOrigin: m.wealthOrigin,
+              ilju: m.saju.ilju,
+              wolji: m.saju.wolji,
+              gyeokguk: m.saju.gyeokguk,
+            })),
+          }),
+          signal: controller.signal,
+        });
+
+        if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
+
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let acc = '';
+        while (true) {
+          const { value, done } = await reader.read();
+          if (done) break;
+          acc += decoder.decode(value, { stream: true });
+          setState({ status: 'streaming', text: acc });
+        }
+        acc += decoder.decode(); // flush
+        cache.set(key, acc);
+        setState({ status: 'done', text: acc });
+      } catch (err) {
+        if ((err as Error).name === 'AbortError') return;
+        console.error('[MatchSummary] stream failed, using fallback:', err);
+        const fallback = staticFallback(user, matches);
+        cache.set(key, fallback);
+        setState({ status: 'error', text: fallback });
+      }
+    })();
+
+    return () => controller.abort();
+    // We intentionally do NOT depend on `matches` by reference — only on
+    // the memoized cache key. Re-running on every render would re-fire the
+    // API call constantly.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [enabled, key]);
+
+  return state;
+}
+
+/**
+ * Shared helper so both the hook consumers and the reveal animation can
+ * kick off the fetch with the same payload + cache.
+ */
+export function prefetchSajuSummary(
+  user: UseSummaryArgs['user'],
+  matches: EnrichedPerson[],
+): void {
+  if (matches.length === 0) return;
+  const key = cacheKey(user, matches);
+  if (cache.has(key)) return;
+
+  fetch('/api/saju-summary', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      user,
+      matches: matches.slice(0, 12).map((m) => ({
+        name: m.name,
+        nameKo: m.nameKo,
+        industry: m.industry,
+        nationality: m.nationality,
+        netWorth: m.netWorth,
+        wealthOrigin: m.wealthOrigin,
+        ilju: m.saju.ilju,
+        wolji: m.saju.wolji,
+        gyeokguk: m.saju.gyeokguk,
+      })),
+    }),
+  })
+    .then(async (res) => {
+      if (!res.ok || !res.body) return;
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let acc = '';
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        acc += decoder.decode(value, { stream: true });
+      }
+      acc += decoder.decode();
+      cache.set(key, acc);
+    })
+    .catch(() => {
+      // Silent — the consumer hook will retry or fall back.
+    });
+}
+
+interface Props {
+  saju: SajuResult;
+  matches: EnrichedPerson[];
+}
+
+export default function MatchSummary({ saju, matches }: Props) {
+  const state = useSajuSummary({
+    user: {
+      ilju: saju.ilju,
+      wolji: saju.wolji,
+      gyeokguk: saju.gyeokguk,
+      ilgan: saju.saju.day.stem,
+    },
+    matches,
+  });
+
+  if (state.status === 'idle') return null;
+
+  const isStreaming = state.status === 'streaming';
+  const text = state.text;
+
+  return (
+    <div className="relative rounded-2xl border border-indigo-100 bg-gradient-to-br from-indigo-50/80 via-white to-purple-50/60 p-5 sm:p-6">
+      <div className="flex items-center gap-2 mb-3">
+        <span className="text-xs font-semibold text-indigo-600 uppercase tracking-wide">
+          ✨ 사주 풀이
+        </span>
+        {isStreaming && (
+          <span className="inline-flex gap-1">
+            <span className="w-1 h-1 rounded-full bg-indigo-400 animate-pulse" />
+            <span
+              className="w-1 h-1 rounded-full bg-indigo-400 animate-pulse"
+              style={{ animationDelay: '150ms' }}
+            />
+            <span
+              className="w-1 h-1 rounded-full bg-indigo-400 animate-pulse"
+              style={{ animationDelay: '300ms' }}
+            />
+          </span>
+        )}
+      </div>
+      <p className="text-[15px] leading-relaxed text-gray-800 whitespace-pre-wrap">
+        {text}
+        {isStreaming && <span className="inline-block w-[2px] h-4 bg-indigo-500 ml-0.5 animate-pulse align-middle" />}
+      </p>
+    </div>
+  );
+}

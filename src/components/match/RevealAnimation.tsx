@@ -6,6 +6,7 @@ import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS } from '@/lib/saju/cons
 import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
 import { useLanguage } from '@/lib/i18n';
+import { prefetchSajuSummary } from './MatchSummary';
 
 interface Props {
   saju: SajuResult;
@@ -99,16 +100,40 @@ export default function RevealAnimation({ saju, onDone }: Props) {
   // While the data is still loading, totalMatches falls back to 0 and will
   // update once the fetch resolves (usually well before the reveal lands on
   // the 'results' phase).
-  const totalMatches = useMemo(() => {
-    if (enrichedPeople.length === 0) return 0;
+  const { totalMatches, summaryMatches } = useMemo(() => {
+    if (enrichedPeople.length === 0) return { totalMatches: 0, summaryMatches: [] };
     const groups = matchBillionaires(saju, enrichedPeople);
-    return (
-      groups.iljuPlusMonthJu.length +
-      groups.chartTwins.length +
-      groups.iljuPlusWolji.length +
-      groups.iljuPlusGyeokguk.length
-    );
+    return {
+      totalMatches:
+        groups.iljuPlusMonthJu.length +
+        groups.chartTwins.length +
+        groups.iljuPlusWolji.length +
+        groups.iljuPlusGyeokguk.length,
+      summaryMatches: [
+        ...groups.iljuPlusMonthJu,
+        ...groups.chartTwins,
+        ...groups.iljuPlusWolji,
+        ...groups.iljuPlusGyeokguk,
+      ],
+    };
   }, [saju, enrichedPeople]);
+
+  // Kick off the Claude summary call the moment the reveal starts. This
+  // gives it ~2.7s of cover time from the animation — usually enough for
+  // the stream to complete before MatchResults even mounts. The call is
+  // idempotent: MatchSummary will pull from the same module-level cache.
+  useEffect(() => {
+    if (summaryMatches.length === 0) return;
+    prefetchSajuSummary(
+      {
+        ilju: saju.ilju,
+        wolji: saju.wolji,
+        gyeokguk: saju.gyeokguk,
+        ilgan: saju.saju.day.stem,
+      },
+      summaryMatches,
+    );
+  }, [saju, summaryMatches]);
 
   useEffect(() => {
     const t1 = setTimeout(() => setPhase('matching'), MATCHING_DELAY_MS);
