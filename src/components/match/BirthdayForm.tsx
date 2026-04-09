@@ -106,7 +106,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
   };
 
   return (
-    <form onSubmit={handleBirthdaySubmit} className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8">
+    <form onSubmit={handleBirthdaySubmit} className="bg-white rounded-2xl p-6 sm:p-8">
       <div className="text-center mb-6">
         <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-1">
           {t.matchHeadline}

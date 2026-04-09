@@ -42,6 +42,86 @@ type SummaryState =
 // doesn't re-charge the API. Keyed on user saju + matched ids.
 const cache = new Map<string, string>();
 
+// In-flight streams, keyed the same way. Each entry broadcasts text deltas
+// to any number of subscribers so prefetch + hook share a single fetch.
+interface InFlight {
+  text: string;
+  done: boolean;
+  error: boolean;
+  subscribers: Set<(text: string, done: boolean, error: boolean) => void>;
+}
+const inflight = new Map<string, InFlight>();
+
+function startStream(
+  key: string,
+  user: UseSummaryArgs['user'],
+  matches: EnrichedPerson[],
+): InFlight {
+  const existing = inflight.get(key);
+  if (existing) return existing;
+
+  const entry: InFlight = {
+    text: '',
+    done: false,
+    error: false,
+    subscribers: new Set(),
+  };
+  inflight.set(key, entry);
+
+  const notify = () => {
+    for (const cb of entry.subscribers) cb(entry.text, entry.done, entry.error);
+  };
+
+  (async () => {
+    try {
+      const res = await fetch('/api/saju-summary', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          user,
+          matches: matches.slice(0, 12).map((m) => ({
+            name: m.name,
+            nameKo: m.nameKo,
+            industry: m.industry,
+            nationality: m.nationality,
+            netWorth: m.netWorth,
+            wealthOrigin: m.wealthOrigin,
+            ilju: m.saju.ilju,
+            wolji: m.saju.wolji,
+            gyeokguk: m.saju.gyeokguk,
+          })),
+        }),
+      });
+      if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        entry.text += decoder.decode(value, { stream: true });
+        notify();
+      }
+      entry.text += decoder.decode();
+      entry.done = true;
+      cache.set(key, entry.text);
+      notify();
+    } catch (err) {
+      console.error('[MatchSummary] stream failed, using fallback:', err);
+      entry.text = staticFallback(user, matches);
+      entry.done = true;
+      entry.error = true;
+      cache.set(key, entry.text);
+      notify();
+    } finally {
+      // Leave entry in the map briefly so late subscribers can still read
+      // the final text, but clear inflight flag so a future retry works.
+      setTimeout(() => inflight.delete(key), 0);
+    }
+  })();
+
+  return entry;
+}
+
 function cacheKey(
   user: UseSummaryArgs['user'],
   matches: EnrichedPerson[],
@@ -96,58 +176,28 @@ export function useSajuSummary({ user, matches, enabled = true }: UseSummaryArgs
       return;
     }
 
-    const controller = new AbortController();
     setState({ status: 'streaming', text: '' });
+    const entry = startStream(key, user, matches);
 
-    (async () => {
-      try {
-        const res = await fetch('/api/saju-summary', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            user,
-            matches: matches.slice(0, 12).map((m) => ({
-              name: m.name,
-              nameKo: m.nameKo,
-              industry: m.industry,
-              nationality: m.nationality,
-              netWorth: m.netWorth,
-              wealthOrigin: m.wealthOrigin,
-              ilju: m.saju.ilju,
-              wolji: m.saju.wolji,
-              gyeokguk: m.saju.gyeokguk,
-            })),
-          }),
-          signal: controller.signal,
-        });
+    // Seed with whatever the stream has already buffered.
+    if (entry.text) {
+      setState({
+        status: entry.done ? (entry.error ? 'error' : 'done') : 'streaming',
+        text: entry.text,
+      });
+    }
 
-        if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
+    const cb = (text: string, done: boolean, error: boolean) => {
+      setState({
+        status: done ? (error ? 'error' : 'done') : 'streaming',
+        text,
+      });
+    };
+    entry.subscribers.add(cb);
 
-        const reader = res.body.getReader();
-        const decoder = new TextDecoder();
-        let acc = '';
-        while (true) {
-          const { value, done } = await reader.read();
-          if (done) break;
-          acc += decoder.decode(value, { stream: true });
-          setState({ status: 'streaming', text: acc });
-        }
-        acc += decoder.decode(); // flush
-        cache.set(key, acc);
-        setState({ status: 'done', text: acc });
-      } catch (err) {
-        if ((err as Error).name === 'AbortError') return;
-        console.error('[MatchSummary] stream failed, using fallback:', err);
-        const fallback = staticFallback(user, matches);
-        cache.set(key, fallback);
-        setState({ status: 'error', text: fallback });
-      }
-    })();
-
-    return () => controller.abort();
-    // We intentionally do NOT depend on `matches` by reference — only on
-    // the memoized cache key. Re-running on every render would re-fire the
-    // API call constantly.
+    return () => {
+      entry.subscribers.delete(cb);
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [enabled, key]);
 
@@ -164,42 +214,8 @@ export function prefetchSajuSummary(
 ): void {
   if (matches.length === 0) return;
   const key = cacheKey(user, matches);
-  if (cache.has(key)) return;
-
-  fetch('/api/saju-summary', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      user,
-      matches: matches.slice(0, 12).map((m) => ({
-        name: m.name,
-        nameKo: m.nameKo,
-        industry: m.industry,
-        nationality: m.nationality,
-        netWorth: m.netWorth,
-        wealthOrigin: m.wealthOrigin,
-        ilju: m.saju.ilju,
-        wolji: m.saju.wolji,
-        gyeokguk: m.saju.gyeokguk,
-      })),
-    }),
-  })
-    .then(async (res) => {
-      if (!res.ok || !res.body) return;
-      const reader = res.body.getReader();
-      const decoder = new TextDecoder();
-      let acc = '';
-      while (true) {
-        const { value, done } = await reader.read();
-        if (done) break;
-        acc += decoder.decode(value, { stream: true });
-      }
-      acc += decoder.decode();
-      cache.set(key, acc);
-    })
-    .catch(() => {
-      // Silent — the consumer hook will retry or fall back.
-    });
+  if (cache.has(key) || inflight.has(key)) return;
+  startStream(key, user, matches);
 }
 
 interface Props {

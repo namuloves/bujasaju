@@ -142,7 +142,7 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
   const teaser = displayBio ? bioTeaser(displayBio) : null;
 
   return (
-    <div className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg hover:border-gray-300 transition-all duration-200">
+    <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
       {/* Photo */}
       <div className="relative aspect-square bg-gradient-to-br from-gray-100 to-gray-50 overflow-hidden">
         <img
@@ -154,7 +154,7 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
           // Forbes' CDN, so this is a natural fit.
           width={200}
           height={200}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-full object-cover"
           loading="lazy"
           decoding="async"
           // Hint to the browser that off-screen card images aren't critical

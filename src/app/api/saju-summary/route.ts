@@ -48,19 +48,32 @@ interface SummaryInput {
 // focused. The top N by net worth is almost always what's interesting.
 const MAX_MATCHES_IN_PROMPT = 12;
 
+// Format a USD billion net worth into Korean won (조/억 원).
+// Uses a fixed 1 USD = 1400 KRW to keep the prompt deterministic.
+function formatKrw(netWorthUsdB: number): string {
+  const krwBillion = netWorthUsdB * 1400; // in 억 원
+  if (krwBillion >= 10000) {
+    const jo = krwBillion / 10000;
+    return `${jo.toFixed(1)}조 원`;
+  }
+  return `${Math.round(krwBillion).toLocaleString('ko-KR')}억 원`;
+}
+
 function buildPrompt(input: SummaryInput): string {
   const { user, matches } = input;
   const topMatches = matches.slice(0, MAX_MATCHES_IN_PROMPT);
 
   const matchLines = topMatches
     .map((m) => {
-      const name = m.nameKo ? `${m.name} (${m.nameKo})` : m.name;
+      // Prefer the Korean name. If it's missing, ask the model to use
+      // the commonly-known Korean transliteration of the English name.
+      const name = m.nameKo ?? `${m.name} (한국어 이름으로 표기)`;
       const origin = m.wealthOrigin === 'self-made' ? '자수성가' : '상속';
-      return `- ${name} · ${m.industry} · ${m.nationality} · 순자산 ${m.netWorth}B USD · ${origin} · ${m.ilju}일주 ${m.wolji}월지 ${m.gyeokguk}`;
+      return `- ${name} · ${m.industry} · ${m.nationality} · 순자산 ${formatKrw(m.netWorth)} · ${origin} · ${m.ilju}일주 ${m.wolji}월지 ${m.gyeokguk}`;
     })
     .join('\n');
 
-  return `당신은 한국의 사주명리학 전문가입니다. 아래 사용자의 일주와, 그 사용자와 사주 구조가 비슷한 세계 부자들의 목록을 바탕으로 2단락짜리 한국어 요약을 작성해 주세요.
+  return `당신은 한국의 사주명리학 전문가입니다. 아래 사용자의 격국과, 그 사용자와 사주 구조가 비슷한 부자들의 목록을 바탕으로 짧은 한국어 요약을 작성해 주세요.
 
 # 사용자 사주
 - 일주: ${user.ilju}
@@ -68,13 +81,13 @@ function buildPrompt(input: SummaryInput): string {
 - 월지: ${user.wolji}
 - 격국: ${user.gyeokguk}
 
-# 비슷한 사주 구조를 가진 부자들 (${topMatches.length}명 중 상위 ${topMatches.length})
+# 비슷한 사주 구조를 가진 부자들
 ${matchLines}
 
 # 작성 지침
-1. **첫 단락 (2-3문장)**: ${user.ilju} 일주의 기운을 시적이되 구체적으로 묘사하세요. 일간 ${user.ilgan}의 오행과 음양, 지지 ${user.ilju[1]}과의 관계에서 나오는 성향을 자연스럽게 풀어주세요. 서두는 "${user.ilju} 일주인 당신은..." 또는 비슷하게 시작하세요.
-2. **두 번째 단락 (3-4문장)**: 위 부자들의 **실제 데이터에서 보이는 공통점**을 관찰해서 풀어주세요. 구체적인 숫자, 직업 분야, 국적, 자수성가 비율, 같은 격국 등을 근거로 들고, 이름을 1-2명 언급하세요. 일반론이 아니라 진짜 데이터를 읽고 쓴 것처럼 작성하세요.
-3. 전체 4-7문장 이내. 마크다운 없이 순수 한국어 문장만. 친근하되 명리학적 깊이가 있는 톤으로. 과장된 예언이나 운세 단정은 피하세요.
+1. **첫 문장 (1문장)**: ${user.gyeokguk}의 기운과 성향을 한 문장으로 풀어주세요. "${user.gyeokguk}인 당신은..." 또는 비슷하게 시작하세요. 격국 자체의 특성(어떤 성향·재능·운의 흐름인지)에 집중하세요.
+2. **두 번째 단락 (3-4문장)**: 위 부자들의 **실제 데이터에서 보이는 공통점**을 관찰해서 풀어주세요. 구체적인 숫자, 직업 분야, 국적, 자수성가 비율 등을 근거로 들고, 이름은 반드시 **한국어로만** 표기하세요 (예: 스티븐 스필버그, 네이선 커시). 영어 이름이나 괄호 표기는 절대 쓰지 마세요. 순자산도 반드시 **원(조 원, 억 원)** 단위로만 표기하고, 달러는 절대 쓰지 마세요.
+3. 전체 3-4문장 이내 (첫 단락 1문장 + 둘째 단락 2-3문장). 마크다운 없이 순수 한국어 문장만. 짧고 핵심만. 친근하되 명리학적 깊이가 있는 톤으로.
 4. "...답네요", "...이네요" 같은 자연스러운 맺음말 사용.
 
 이제 요약문만 출력하세요. 다른 설명이나 서문은 넣지 마세요.`;
@@ -107,7 +120,7 @@ export async function POST(req: NextRequest) {
       try {
         const stream = client.messages.stream({
           model: 'claude-haiku-4-5',
-          max_tokens: 600,
+          max_tokens: 500,
           messages: [{ role: 'user', content: prompt }],
         });
 

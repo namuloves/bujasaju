@@ -76,16 +76,16 @@ export default function MatchResults({ me, onReset }: Props) {
   const sameIljuCount = groups.iljuOnly.length;
 
   return (
-    <div className="space-y-8">
-      {/* Quiz-result hero: 4 pillars + key stats + match count */}
-      <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} />
+    <div className="md:grid md:grid-cols-[minmax(0,340px)_minmax(0,1fr)] md:gap-6 lg:gap-8 md:items-start space-y-8 md:space-y-0">
+      {/* Left column (md+): hero + 사주 풀이 stick to the side. On mobile
+          it stacks above the matches like before. */}
+      <div className="md:sticky md:top-4 space-y-6">
+        <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} />
+      </div>
 
-      {/* Claude-generated 사주 풀이 — streams in while the user scans
-          the hero. Uses the shared client cache + prefetch kicked off by
-          the reveal animation, so it's usually already arriving by the
-          time this component mounts. */}
+      {/* Right column: 사주 풀이 on top, then matched billionaire photos/cards */}
+      <div className="space-y-8 min-w-0">
       <MatchSummary saju={me} matches={summaryMatches} />
-
       {sections.map((section) => {
         const isEmpty = section.people.length === 0;
         if (isEmpty && !section.alwaysShow) return null;
@@ -106,7 +106,7 @@ export default function MatchResults({ me, onReset }: Props) {
                 {section.emptyMessage}
               </div>
             ) : (
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {section.people.map((person) => (
                   <PersonCard
                     key={person.id}
@@ -146,6 +146,7 @@ export default function MatchResults({ me, onReset }: Props) {
       {/* Footer share — second chance to share after scrolling through results */}
       <div className="bg-white rounded-xl border border-gray-200 mt-4">
         <ShareButtons title={t.shareTitle} variant="footer" />
+      </div>
       </div>
     </div>
   );
