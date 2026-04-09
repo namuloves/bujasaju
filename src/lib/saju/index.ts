@@ -24,18 +24,32 @@ function parsePillar(hanjaStr: string): Ju {
 }
 
 // === Main Saju Calculator using lunar-javascript ===
-export function calculateSaju(birthday: Date): SajuResult {
+// If the `birthday` Date has a non-default time component (hour !== 0), we
+// pass that hour into lunar-javascript so it can compute the 시주 (hour pillar).
+// Callers that only know the birth date should pass a Date at midnight — the
+// hour pillar will simply be the 00시(자시) pillar, which is the established
+// convention when hour of birth is unknown... so callers who want "no hour"
+// should explicitly pass `includeHour: false` and we'll return hour: null.
+export function calculateSaju(
+  birthday: Date,
+  opts: { includeHour?: boolean } = {},
+): SajuResult {
   const y = birthday.getFullYear();
   const m = birthday.getMonth() + 1;
   const d = birthday.getDate();
+  const h = birthday.getHours();
+  const mi = birthday.getMinutes();
 
-  const solar = Solar.fromYmd(y, m, d);
+  const solar = opts.includeHour
+    ? Solar.fromYmdHms(y, m, d, h, mi, 0)
+    : Solar.fromYmd(y, m, d);
   const lunar = solar.getLunar();
   const bazi = lunar.getEightChar();
 
   const yearPillar = parsePillar(bazi.getYear());
   const monthPillar = parsePillar(bazi.getMonth());
   const dayPillar = parsePillar(bazi.getDay());
+  const hourPillar = opts.includeHour ? parsePillar(bazi.getTime()) : null;
 
   // Determine 격국 from 일간 and 월지
   const gyeokguk = determineGyeokguk(dayPillar.stem, monthPillar.branch);
@@ -48,7 +62,7 @@ export function calculateSaju(birthday: Date): SajuResult {
       year: yearPillar,
       month: monthPillar,
       day: dayPillar,
-      hour: null,
+      hour: hourPillar,
     },
     gyeokguk,
     ilju,

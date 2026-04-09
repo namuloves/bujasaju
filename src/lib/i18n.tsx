@@ -52,6 +52,37 @@ type Dict = {
   analyticsTopIndustry: string;         // "업종 TOP 5"
   lastUpdated: string;
   creditsThanks: string;
+  // Tabs
+  tabMatch: string;
+  tabBrowse: string;
+  // Match flow
+  matchHeadline: string;
+  matchSubhead: string;
+  inputModeBirthday: string;
+  inputModeDirect: string;
+  year: string;
+  month: string;
+  day: string;
+  hour: string;
+  hourOptional: string;
+  hourUnknown: string;
+  submit: string;
+  edit: string;
+  confirmTitle: string;
+  yourSaju: string;
+  yourIlju: string;
+  yourGyeokguk: string;
+  yourWolji: string;
+  seeResults: string;
+  group1Title: string;   // 같은 일주 · 같은 월지
+  group2Title: string;   // 같은 일주 · 같은 격국
+  group3Title: string;   // 같은 일주
+  groupEmpty: string;    // 일치하는 사람이 없습니다
+  countPeople: (n: number) => string; // "N명"
+  resetMyBirthday: string;
+  directIljuLabel: string;
+  directWoljiLabel: string;
+  directGyeokgukLabel: string;
 };
 
 const ko: Dict = {
@@ -97,6 +128,35 @@ const ko: Dict = {
   analyticsTopIndustry: '업종 TOP 5',
   lastUpdated: '최종 업데이트 2026년 4월 8일',
   creditsThanks: '도움주신 내친이님 감사합니다',
+  tabMatch: '매치',
+  tabBrowse: '전체 부자',
+  matchHeadline: '나와 비슷한 사주를 가진 부자는?',
+  matchSubhead: '생년월일을 입력하면 같은 일주·월지·격국을 가진 부자들을 찾아드립니다',
+  inputModeBirthday: '생년월일로',
+  inputModeDirect: '사주 직접 입력',
+  year: '년',
+  month: '월',
+  day: '일',
+  hour: '시',
+  hourOptional: '시 (선택)',
+  hourUnknown: '모름',
+  submit: '사주 보기',
+  edit: '수정',
+  confirmTitle: '당신의 사주가 맞나요?',
+  yourSaju: '당신의 사주',
+  yourIlju: '일주',
+  yourGyeokguk: '격국',
+  yourWolji: '월지',
+  seeResults: '결과 보기',
+  group1Title: '같은 일주 · 같은 월지',
+  group2Title: '같은 일주 · 같은 격국',
+  group3Title: '같은 일주',
+  groupEmpty: '해당하는 부자가 없습니다',
+  countPeople: (n) => `${n.toLocaleString('ko-KR')}명`,
+  resetMyBirthday: '생일 다시 입력',
+  directIljuLabel: '일주 (六十甲子)',
+  directWoljiLabel: '월지 (12 지지)',
+  directGyeokgukLabel: '격국',
 };
 
 const en: Dict = {
@@ -142,6 +202,36 @@ const en: Dict = {
   analyticsTopIndustry: 'Top 5 industries',
   lastUpdated: 'Last updated Apr 8, 2026',
   creditsThanks: 'Thanks to 내친이 for the help',
+  // Tab labels stay in Korean by user request
+  tabMatch: '매치',
+  tabBrowse: '전체 부자',
+  matchHeadline: 'Which billionaires share your 사주?',
+  matchSubhead: 'Enter your birthday to find billionaires with the same 일주, 월지, and 격국',
+  inputModeBirthday: 'By birthday',
+  inputModeDirect: 'Enter saju directly',
+  year: 'Year',
+  month: 'Month',
+  day: 'Day',
+  hour: 'Hour',
+  hourOptional: 'Hour (optional)',
+  hourUnknown: 'Unknown',
+  submit: 'Calculate my 사주',
+  edit: 'Edit',
+  confirmTitle: 'Is this your 사주?',
+  yourSaju: 'Your 사주',
+  yourIlju: '일주',
+  yourGyeokguk: '격국',
+  yourWolji: '월지',
+  seeResults: 'See results',
+  group1Title: 'Same 일주 · same 월지',
+  group2Title: 'Same 일주 · same 격국',
+  group3Title: 'Same 일주',
+  groupEmpty: 'No billionaires in this group',
+  countPeople: (n) => `${n.toLocaleString('en-US')} people`,
+  resetMyBirthday: 'Change birthday',
+  directIljuLabel: '일주 (Day Pillar)',
+  directWoljiLabel: '월지 (Month Branch)',
+  directGyeokgukLabel: '격국 (Pattern)',
 };
 
 const dictionaries: Record<Lang, Dict> = { ko, en };

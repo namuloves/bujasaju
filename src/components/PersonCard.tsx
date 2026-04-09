@@ -5,6 +5,7 @@ import { EnrichedPerson } from '@/lib/saju/types';
 import { GYEOKGUK_NAMES, STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS } from '@/lib/saju/constants';
 import SajuBadge from './SajuBadge';
 import { useLanguage } from '@/lib/i18n';
+import { nationalityToKorean } from './FilterPanel';
 
 interface PersonCardProps {
   person: EnrichedPerson;
@@ -120,7 +121,9 @@ export default function PersonCard({ person }: PersonCardProps) {
         <p className="text-xs text-gray-400 mt-0.5">{formatNetWorth(person.netWorth)}</p>
 
         {/* Birthplace */}
-        <p className="text-xs text-gray-400 mt-0.5">{getBirthplace(person.nationality)}</p>
+        <p className="text-xs text-gray-400 mt-0.5">
+          {lang === 'ko' ? nationalityToKorean(person.nationality) : getBirthplace(person.nationality)}
+        </p>
 
         {/* Bio teaser + expand toggle */}
         {teaser && (

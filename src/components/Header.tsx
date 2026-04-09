@@ -30,11 +30,11 @@ export default function Header() {
             <p className="text-xs text-gray-500 mt-0.5 truncate">
               {t.siteTagline}
             </p>
-          </div>
-          <div className="flex items-center gap-3 shrink-0">
-            <p className="text-xs text-gray-400 hidden sm:block">
+            <p className="text-xs text-gray-400 mt-0.5 truncate">
               {t.siteSubTagline}
             </p>
+          </div>
+          <div className="flex items-center gap-3 shrink-0">
             <div className="flex flex-col items-end gap-1">
               <div
                 role="group"
