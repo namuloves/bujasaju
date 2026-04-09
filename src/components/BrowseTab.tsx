@@ -5,7 +5,7 @@ import FilterPanel, { Filters } from '@/components/FilterPanel';
 import PersonGrid from '@/components/PersonGrid';
 import AnalyticsPanel from '@/components/AnalyticsPanel';
 import {
-  enrichedPeople,
+  useEnrichedPeople,
   getUniqueNationalities,
   getUniqueIndustries,
   getUniqueGyeokguks,
@@ -29,6 +29,7 @@ const PAGE_SIZE = 60;
 export default function BrowseTab() {
   const [filters, setFilters] = useState<Filters>(defaultFilters);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const { people: enrichedPeople, loading } = useEnrichedPeople();
 
   // Reset pagination whenever filters change so the user always sees the
   // top of the new result set.
@@ -70,7 +71,7 @@ export default function BrowseTab() {
         break;
     }
     return sorted;
-  }, [filters]);
+  }, [filters, enrichedPeople]);
 
   return (
     <div className="flex flex-col lg:flex-row gap-6">
@@ -79,10 +80,10 @@ export default function BrowseTab() {
           <FilterPanel
             filters={filters}
             onChange={setFilters}
-            availableGyeokguks={getUniqueGyeokguks()}
-            availableNationalities={getUniqueNationalities()}
-            availableIndustries={getUniqueIndustries()}
-            availableIljus={getUniqueIljus()}
+            availableGyeokguks={getUniqueGyeokguks(enrichedPeople)}
+            availableNationalities={getUniqueNationalities(enrichedPeople)}
+            availableIndustries={getUniqueIndustries(enrichedPeople)}
+            availableIljus={getUniqueIljus(enrichedPeople)}
             totalCount={enrichedPeople.length}
             filteredCount={filteredPeople.length}
           />
@@ -90,6 +91,11 @@ export default function BrowseTab() {
       </aside>
 
       <div className="flex-1">
+        {loading && enrichedPeople.length === 0 && (
+          <div className="text-center py-16 text-gray-400 text-sm">
+            불러오는 중…
+          </div>
+        )}
         <AnalyticsPanel
           filteredPeople={filteredPeople}
           totalCount={enrichedPeople.length}

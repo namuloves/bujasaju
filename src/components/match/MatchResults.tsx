@@ -2,9 +2,9 @@
 
 import { useMemo } from 'react';
 import { useLanguage } from '@/lib/i18n';
-import { enrichedPeople } from '@/lib/data/enriched';
+import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
-import type { SajuResult } from '@/lib/saju/types';
+import type { EnrichedPerson, SajuResult } from '@/lib/saju/types';
 import PersonCard from '@/components/PersonCard';
 import SajuHero from './SajuHero';
 import ShareButtons from './ShareButtons';
@@ -16,8 +16,12 @@ interface Props {
 
 export default function MatchResults({ me, onReset }: Props) {
   const { t } = useLanguage();
+  const { people: enrichedPeople } = useEnrichedPeople();
 
-  const groups = useMemo(() => matchBillionaires(me, enrichedPeople), [me]);
+  const groups = useMemo(
+    () => matchBillionaires(me, enrichedPeople),
+    [me, enrichedPeople],
+  );
 
   // Rendered sections — 일주-only is intentionally hidden here and surfaced
   // via a dedicated button below (we'll decide later whether to open it on
@@ -26,7 +30,7 @@ export default function MatchResults({ me, onReset }: Props) {
     key: string;
     title: string;
     medal: string;
-    people: typeof enrichedPeople;
+    people: EnrichedPerson[];
   }> = [
     { key: 'twins', title: t.chartTwinsTitle, medal: '🥇', people: groups.chartTwins },
     { key: 'g1', title: t.group1Title, medal: '🥈', people: groups.iljuPlusWolji },

@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import Header from '@/components/Header';
 import TabBar, { TabKey } from '@/components/TabBar';
 import MatchTab from '@/components/match/MatchTab';
+import { loadEnrichedPeople } from '@/lib/data/enriched';
 
 // BrowseTab pulls in the full 3,300-person dataset + saju calc. Lazy-load it
 // so the default Match tab stays tiny.
@@ -28,6 +29,10 @@ export default function Home() {
   // Hydrate from URL on mount
   useEffect(() => {
     setTab(getInitialTab());
+    // Pre-warm the 2MB billionaire payload the instant the shell mounts so
+    // it's downloading in parallel with the user reading/filling in the
+    // Match form. By the time they hit "결과 보기" the data is ready.
+    void loadEnrichedPeople();
   }, []);
 
   // Sync URL with tab

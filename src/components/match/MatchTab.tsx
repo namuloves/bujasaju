@@ -4,11 +4,17 @@ import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
 import BirthdayForm, { MatchInput } from './BirthdayForm';
 import SajuConfirmCard from './SajuConfirmCard';
-import RevealAnimation from './RevealAnimation';
 import { calculateSaju } from '@/lib/saju/index';
 
-// MatchResults imports the full billionaire dataset + saju calc for all 3,300
-// people. Lazy-load it so the form step stays tiny.
+// Both RevealAnimation and MatchResults pull in the matcher + (transitively)
+// the enriched-people hook. They only render after the user confirms their
+// saju, so lazy-load both to keep the form step tiny.
+const RevealAnimation = dynamic(() => import('./RevealAnimation'), {
+  ssr: false,
+  loading: () => (
+    <div className="text-center py-16 text-sm text-gray-400">불러오는 중…</div>
+  ),
+});
 const MatchResults = dynamic(() => import('./MatchResults'), {
   ssr: false,
   loading: () => (

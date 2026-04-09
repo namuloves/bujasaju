@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { SajuResult, Ju, CheonGan, JiJi } from '@/lib/saju/types';
 import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS } from '@/lib/saju/constants';
-import { enrichedPeople } from '@/lib/data/enriched';
+import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
 import { useLanguage } from '@/lib/i18n';
 
@@ -91,18 +91,23 @@ function PillarCard({
 export default function RevealAnimation({ saju, onDone }: Props) {
   const { t } = useLanguage();
   const [phase, setPhase] = useState<'reading' | 'matching' | 'results'>('reading');
+  const { people: enrichedPeople } = useEnrichedPeople();
 
   // Pre-compute match count so the final number is ready when we show it.
   // Count only the groups actually rendered on the results page
   // (일주-only is behind a separate button, so exclude it from the headline).
+  // While the data is still loading, totalMatches falls back to 0 and will
+  // update once the fetch resolves (usually well before the reveal lands on
+  // the 'results' phase).
   const totalMatches = useMemo(() => {
+    if (enrichedPeople.length === 0) return 0;
     const groups = matchBillionaires(saju, enrichedPeople);
     return (
       groups.chartTwins.length +
       groups.iljuPlusWolji.length +
       groups.iljuPlusGyeokguk.length
     );
-  }, [saju]);
+  }, [saju, enrichedPeople]);
 
   useEffect(() => {
     const t1 = setTimeout(() => setPhase('matching'), MATCHING_DELAY_MS);
