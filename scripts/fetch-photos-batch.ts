@@ -7,7 +7,7 @@ function httpsGet(url: string): Promise<string> {
   return new Promise((resolve, reject) => {
     const req = https.get(url, {
       headers: {
-        'User-Agent': 'SajubujaBot/1.0 (https://sajubuja.com; contact@sajubuja.com)',
+        'User-Agent': 'BujasajuBot/1.0 (https://bujasaju.com; contact@bujasaju.com)',
         'Accept': 'application/sparql-results+json'
       }
     }, (res) => {

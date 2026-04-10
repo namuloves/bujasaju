@@ -55,7 +55,7 @@ function httpsGet(url: string, acceptHtml = false): Promise<string> {
   return new Promise((resolve, reject) => {
     const protocol = url.startsWith('https') ? https : http;
     const headers: Record<string, string> = {
-      'User-Agent': 'SajubujaBot/1.0 (https://sajubuja.com; photo-fetcher)',
+      'User-Agent': 'BujasajuBot/1.0 (https://bujasaju.com; photo-fetcher)',
     };
     headers['Accept'] = acceptHtml
       ? 'text/html,application/xhtml+xml'

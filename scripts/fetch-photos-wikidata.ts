@@ -6,7 +6,7 @@ import * as https from 'https';
 
 function httpsGet(url: string): Promise<string> {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { 'User-Agent': 'SajubujaBot/1.0', 'Accept': 'application/json' } }, (res) => {
+    const req = https.get(url, { headers: { 'User-Agent': 'BujasajuBot/1.0', 'Accept': 'application/json' } }, (res) => {
       if (res.statusCode === 301 || res.statusCode === 302 || res.statusCode === 303) {
         if (res.headers.location) {
           httpsGet(res.headers.location).then(resolve).catch(reject);

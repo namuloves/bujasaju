@@ -25,7 +25,7 @@ async function rateLimitDelay(): Promise<void> {
 function httpsGet(url: string): Promise<string> {
   return new Promise((resolve, reject) => {
     const headers: Record<string, string> = {
-      'User-Agent': 'SajubujaBot/1.0 (https://sajubuja.com; photo-fetcher)',
+      'User-Agent': 'BujasajuBot/1.0 (https://bujasaju.com; photo-fetcher)',
       Accept: 'application/json',
     };
     const req = https.get(url, { headers }, (res) => {

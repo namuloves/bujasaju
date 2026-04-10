@@ -6,7 +6,7 @@ import * as https from 'https';
 
 function httpsGet(url: string): Promise<string> {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'SajubujaBot/1.0 (photo-fetcher)' } }, (res) => {
+    https.get(url, { headers: { 'User-Agent': 'BujasajuBot/1.0 (photo-fetcher)' } }, (res) => {
       let data = '';
       res.on('data', (chunk) => data += chunk);
       res.on('end', () => resolve(data));

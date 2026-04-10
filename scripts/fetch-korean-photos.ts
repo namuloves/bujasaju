@@ -5,11 +5,11 @@ import * as https from 'https';
 
 function httpsGet(url: string): Promise<string> {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'SajubujaBot/1.0 (photo-fetcher)' } }, (res) => {
+    https.get(url, { headers: { 'User-Agent': 'BujasajuBot/1.0 (photo-fetcher)' } }, (res) => {
       if (res.statusCode === 301 || res.statusCode === 302) {
         const redirectUrl = res.headers.location;
         if (redirectUrl) {
-          https.get(redirectUrl, { headers: { 'User-Agent': 'SajubujaBot/1.0' } }, (res2) => {
+          https.get(redirectUrl, { headers: { 'User-Agent': 'BujasajuBot/1.0' } }, (res2) => {
             let data = '';
             res2.on('data', (chunk) => data += chunk);
             res2.on('end', () => resolve(data));

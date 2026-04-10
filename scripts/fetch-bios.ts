@@ -41,7 +41,7 @@ function httpsGet(url: string, acceptHtml = false, maxRedirects = 5): Promise<st
     if (maxRedirects <= 0) { reject(new Error('Too many redirects')); return; }
     const protocol = url.startsWith('https') ? https : http;
     const headers: Record<string, string> = {
-      'User-Agent': 'SajubujaBot/1.0 (https://sajubuja.com; bio-fetcher)',
+      'User-Agent': 'BujasajuBot/1.0 (https://bujasaju.com; bio-fetcher)',
       'Accept': acceptHtml ? 'text/html,application/xhtml+xml' : 'application/json',
     };
     const req = protocol.get(url, { headers }, (res) => {
