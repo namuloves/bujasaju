@@ -123,7 +123,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
             <select
               value={year}
               onChange={(e) => setYear(Number(e.target.value))}
-              className="px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="px-3 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               {YEARS.map((y) => (
                 <option key={y} value={y}>
@@ -137,7 +137,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
             <select
               value={month}
               onChange={(e) => setMonth(Number(e.target.value))}
-              className="px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="px-3 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               {MONTHS.map((m) => (
                 <option key={m} value={m}>
@@ -151,7 +151,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
             <select
               value={day}
               onChange={(e) => setDay(Number(e.target.value))}
-              className="px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="px-3 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               {DAYS.map((d) => (
                 <option key={d} value={d}>
@@ -165,7 +165,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
             <select
               value={hour ?? ''}
               onChange={(e) => setHour(e.target.value === '' ? null : Number(e.target.value))}
-              className="px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="px-3 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               <option value="">{t.hourUnknown}</option>
               {HOURS.map((h) => (
@@ -181,7 +181,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
               value={minute}
               disabled={hour === null}
               onChange={(e) => setMinute(Number(e.target.value))}
-              className="px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:bg-gray-50 disabled:text-gray-400"
+              className="px-3 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:bg-gray-50 disabled:text-gray-400"
             >
               {MINUTES.map((m) => (
                 <option key={m} value={m}>
