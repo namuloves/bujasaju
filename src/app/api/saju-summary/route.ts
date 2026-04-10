@@ -1,12 +1,15 @@
-import Anthropic from '@anthropic-ai/sdk';
+import OpenAI from 'openai';
 import type { NextRequest } from 'next/server';
 
 /**
  * POST /api/saju-summary
  *
- * Streams a 2-paragraph Korean 사주 summary from Claude Haiku:
+ * Streams a 2-paragraph Korean 사주 summary from OpenAI gpt-4o-mini:
  *   (1) what this 일주's energy is like (오행 + 음양 feel)
  *   (2) what's striking about the matched billionaires' commonalities
+ *
+ * Switched from Claude Haiku 4.5 to gpt-4o-mini for cost: roughly 5–8x
+ * cheaper for the same Korean prose quality at ~200-word output length.
  *
  * Request body:
  * {
@@ -94,8 +97,8 @@ ${matchLines}
 }
 
 export async function POST(req: NextRequest) {
-  if (!process.env.ANTHROPIC_API_KEY) {
-    return new Response('ANTHROPIC_API_KEY not configured', { status: 500 });
+  if (!process.env.OPENAI_API_KEY) {
+    return new Response('OPENAI_API_KEY not configured', { status: 500 });
   }
 
   let body: SummaryInput;
@@ -109,27 +112,26 @@ export async function POST(req: NextRequest) {
     return new Response('Missing user or matches', { status: 400 });
   }
 
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
   const prompt = buildPrompt(body);
 
-  // Wrap the Anthropic stream in a ReadableStream of plain text deltas.
+  // Wrap the OpenAI stream in a ReadableStream of plain text deltas.
   // No SSE framing — the client just reads chunks and appends to state.
   const encoder = new TextEncoder();
   const readable = new ReadableStream<Uint8Array>({
     async start(controller) {
       try {
-        const stream = client.messages.stream({
-          model: 'claude-haiku-4-5',
+        const stream = await client.chat.completions.create({
+          model: 'gpt-4o-mini',
           max_tokens: 500,
+          stream: true,
           messages: [{ role: 'user', content: prompt }],
         });
 
-        for await (const event of stream) {
-          if (
-            event.type === 'content_block_delta' &&
-            event.delta.type === 'text_delta'
-          ) {
-            controller.enqueue(encoder.encode(event.delta.text));
+        for await (const chunk of stream) {
+          const delta = chunk.choices[0]?.delta?.content;
+          if (delta) {
+            controller.enqueue(encoder.encode(delta));
           }
         }
         controller.close();

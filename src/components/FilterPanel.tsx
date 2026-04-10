@@ -161,10 +161,38 @@ export default function FilterPanel({
     onChange({ ilgan: '', ilju: '', wolji: '', gyeokguk: '', search: '', nationality: '', industry: '', gender: '', sort: 'netWorth_desc' });
   };
 
-  const hasFilters = Object.values(filters).some((v) => v !== '');
+  // "Has filters" = anything narrowing the set is active. Sort always has
+  // a value (default 'netWorth_desc') so it doesn't count as a filter.
+  const hasFilters =
+    !!filters.ilgan ||
+    !!filters.ilju ||
+    !!filters.wolji ||
+    !!filters.gyeokguk ||
+    !!filters.search ||
+    !!filters.nationality ||
+    !!filters.industry ||
+    !!filters.gender;
 
   return (
     <div className="bg-white rounded-xl border border-gray-200 p-4 space-y-4">
+      {/* Top row: filtered count + clear button (also exists at the bottom
+          of the panel; putting it here makes it reachable without scrolling
+          past 8 filter sections). */}
+      <div className="flex items-center justify-between">
+        <span className="text-xs text-gray-500">
+          <strong className="text-gray-900">{filteredCount.toLocaleString()}</strong>{' '}
+          {t.resultsOf(totalCount)}
+        </span>
+        {hasFilters && (
+          <button
+            onClick={clearAll}
+            className="text-xs font-medium text-indigo-600 hover:text-indigo-800"
+          >
+            {t.clearFilters}
+          </button>
+        )}
+      </div>
+
       {/* Search */}
       <div>
         <input

@@ -164,6 +164,20 @@ export default function AnalyticsPanel({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [deferredPeople, secondary, hasFilter, lang]);
 
+  // Welcome-state companion: top 10 일주 shown next to the 일간 donut.
+  // Only computed on the unfiltered landing view (where the donut is shown
+  // and the secondary slot is otherwise empty).
+  const welcomeIljuItems = useMemo<BreakdownItem[]>(() => {
+    if (hasFilter || primary !== 'ilgan') return [];
+    const sorted = tallyBy(deferredPeople, PICKERS.ilju);
+    return sorted.slice(0, 10).map(([k, count]) => ({
+      key: k,
+      label: labelFor('ilju', k),
+      count,
+    }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [deferredPeople, hasFilter, primary, lang]);
+
   // Don't render if there's nothing to show.
   if (filteredPeople.length === 0) return null;
   if (primaryItems.length === 0) return null;
@@ -203,7 +217,13 @@ export default function AnalyticsPanel({
   return (
     <div className="bg-white rounded-xl border border-gray-200 p-4 mb-4">
       <div className="text-sm font-semibold text-gray-900 mb-3">{headline}</div>
-      <div className={`grid gap-4 ${secondaryItems.length > 0 ? 'sm:grid-cols-2' : 'sm:grid-cols-1'}`}>
+      <div
+        className={`grid gap-4 ${
+          secondaryItems.length > 0 || welcomeIljuItems.length > 0
+            ? 'sm:grid-cols-2'
+            : 'sm:grid-cols-1'
+        }`}
+      >
         {primary === 'ilgan' ? (
           <PieChart
             title={primaryTitle}
@@ -225,6 +245,15 @@ export default function AnalyticsPanel({
             items={secondaryItems}
             onClick={(key) => handleBarClick(secondary, key)}
             activeKey={filters[FILTER_KEY[secondary]]}
+          />
+        )}
+        {/* Welcome-state: top 10 일주 alongside the 일간 donut. */}
+        {welcomeIljuItems.length > 0 && (
+          <BarChart
+            title={t.analyticsTopDayPillar}
+            items={welcomeIljuItems}
+            onClick={(key) => handleBarClick('ilju', key)}
+            activeKey={filters.ilju}
           />
         )}
       </div>
@@ -272,12 +301,25 @@ interface PieChartProps {
 
 function PieChart({ title, items, onClick, activeKey }: PieChartProps) {
   const total = items.reduce((sum, it) => sum + it.count, 0);
-  const size = 180;
+  // Extra horizontal room for the outer labels ("갑 343 · 10.4%") that
+  // replace the old legend list. The donut itself stays centered.
+  const size = 320;
+  const height = 220;
   const cx = size / 2;
-  const cy = size / 2;
+  const cy = height / 2;
   const r = 78;
   const innerR = 44; // donut hole
+  const labelR = r + 16; // where outer labels anchor
   const hasActive = !!activeKey;
+
+  // Rank items by count (highest = 1). Ties share the same rank is overkill
+  // here — stems are only 10 items and ties are fine to break by canonical
+  // order (갑을병정...) which is also the incoming items order.
+  const rankByKey = new Map<string, number>();
+  [...items]
+    .map((it, i) => ({ key: it.key, count: it.count, order: i }))
+    .sort((a, b) => b.count - a.count || a.order - b.order)
+    .forEach((it, idx) => rankByKey.set(it.key, idx + 1));
 
   // Build slices. Skip zero-count items.
   let angle = -Math.PI / 2; // start at 12 o'clock
@@ -317,139 +359,135 @@ function PieChart({ title, items, onClick, activeKey }: PieChartProps) {
   return (
     <div>
       <div className="text-xs font-medium text-gray-500 mb-2">{title}</div>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center justify-start pl-6 sm:pl-8">
         <svg
-          width={size}
-          height={size}
-          viewBox={`0 0 ${size} ${size}`}
-          className="shrink-0"
+          width="100%"
+          height={height}
+          viewBox={`0 0 ${size} ${height}`}
+          preserveAspectRatio="xMinYMid meet"
+          className="max-w-[420px]"
           role="img"
           aria-label={title}
         >
           {total === 0 ? (
             <circle cx={cx} cy={cy} r={r} fill="#f3f4f6" />
           ) : (
-            slices.map(({ item, start, end, sweep }) => {
-              if (sweep <= 0) return null;
-              const isActive = activeKey === item.key;
-              const dimmed = hasActive && !isActive;
-              // Tiny gap between slices using a slight inward shrink
-              const gap = 0.01;
-              const s = start + gap / 2;
-              const e = end - gap / 2;
-              return (
-                <path
-                  key={item.key}
-                  d={arcPath(s, e, innerR, r)}
-                  fill={stemColor(item.key)}
-                  opacity={dimmed ? 0.25 : 1}
-                  stroke="#fff"
-                  strokeWidth={1}
-                  className="cursor-pointer transition-opacity hover:opacity-80"
-                  onClick={() => onClick(item.key)}
-                >
-                  <title>{`${item.label} · ${item.count}`}</title>
-                </path>
-              );
-            })
-          )}
-          {/* center total */}
-          <text
-            x={cx}
-            y={cy - 2}
-            textAnchor="middle"
-            className="fill-gray-900"
-            style={{ fontSize: 16, fontWeight: 700 }}
-          >
-            {total.toLocaleString()}
-          </text>
-          <text
-            x={cx}
-            y={cy + 14}
-            textAnchor="middle"
-            className="fill-gray-400"
-            style={{ fontSize: 10 }}
-          >
-            일간
-          </text>
-        </svg>
-        {/* Legend — all 10 stems in canonical order */}
-        <ul className="flex-1 grid grid-cols-2 gap-x-3 gap-y-1 min-w-0">
-          {items.map((item) => {
-            const isActive = activeKey === item.key;
-            const dimmed = hasActive && !isActive;
-            const pct = total > 0 ? ((item.count / total) * 100).toFixed(1) : '0.0';
-            return (
-              <li key={item.key}>
-                <button
-                  type="button"
-                  onClick={() => onClick(item.key)}
-                  className={`w-full flex items-center gap-1.5 rounded px-1 py-0.5 text-left transition-colors ${
-                    isActive ? 'bg-indigo-50' : 'hover:bg-gray-50'
-                  } ${dimmed ? 'opacity-50' : ''}`}
-                >
-                  <span
-                    className="inline-block h-2.5 w-2.5 rounded-sm shrink-0"
-                    style={{ backgroundColor: stemColor(item.key) }}
-                  />
-                  <span
-                    className={`text-xs font-medium ${
-                      isActive ? 'text-indigo-700' : 'text-gray-800'
-                    }`}
+            <>
+              {slices.map(({ item, start, end, sweep }) => {
+                if (sweep <= 0) return null;
+                const isActive = activeKey === item.key;
+                const dimmed = hasActive && !isActive;
+                // Tiny gap between slices using a slight inward shrink
+                const gap = 0.01;
+                const s = start + gap / 2;
+                const e = end - gap / 2;
+                return (
+                  <path
+                    key={item.key}
+                    d={arcPath(s, e, innerR, r)}
+                    fill={stemColor(item.key)}
+                    opacity={dimmed ? 0.25 : 1}
+                    stroke="#fff"
+                    strokeWidth={1}
+                    className="cursor-pointer transition-opacity hover:opacity-80"
+                    onClick={() => onClick(item.key)}
                   >
-                    {item.label}
-                  </span>
-                  <span className="ml-auto text-[10px] tabular-nums text-gray-500">
-                    {item.count}
-                    <span className="text-gray-400"> · {pct}%</span>
-                  </span>
-                </button>
-              </li>
-            );
-          })}
-        </ul>
+                    <title>{`${item.label} · ${item.count}`}</title>
+                  </path>
+                );
+              })}
+              {slices.map(({ item, mid, sweep }) => {
+                if (sweep <= 0) return null;
+                const isActive = activeKey === item.key;
+                const dimmed = hasActive && !isActive;
+                const pct = ((item.count / total) * 100).toFixed(1);
+                const lx = cx + labelR * Math.cos(mid);
+                const ly = cy + labelR * Math.sin(mid);
+                // Anchor left/right of the donut based on which half the
+                // slice midpoint sits in. Text is drawn outward from the
+                // slice so it reads naturally.
+                const onRightHalf = Math.cos(mid) >= 0;
+                const anchor = onRightHalf ? 'start' : 'end';
+                return (
+                  <text
+                    key={`lbl-${item.key}`}
+                    x={lx.toFixed(2)}
+                    y={ly.toFixed(2)}
+                    textAnchor={anchor}
+                    dominantBaseline="middle"
+                    opacity={dimmed ? 0.35 : 1}
+                    className="cursor-pointer select-none"
+                    onClick={() => onClick(item.key)}
+                  >
+                    <tspan
+                      style={{ fontSize: 10, fontVariantNumeric: 'tabular-nums' }}
+                      className="fill-gray-400"
+                    >
+                      {rankByKey.get(item.key)}.
+                    </tspan>
+                    <tspan
+                      dx={3}
+                      style={{ fontSize: 12, fontWeight: 600 }}
+                      className={isActive ? 'fill-indigo-700' : 'fill-gray-800'}
+                    >
+                      {item.label}
+                    </tspan>
+                    <tspan
+                      dx={4}
+                      style={{ fontSize: 11, fontVariantNumeric: 'tabular-nums' }}
+                      className="fill-gray-500"
+                    >
+                      {item.count}
+                    </tspan>
+                    <tspan
+                      dx={3}
+                      style={{ fontSize: 11, fontVariantNumeric: 'tabular-nums' }}
+                      className="fill-gray-400"
+                    >
+                      · {pct}%
+                    </tspan>
+                  </text>
+                );
+              })}
+            </>
+          )}
+        </svg>
       </div>
     </div>
   );
 }
 
 function BarChart({ title, items, onClick, activeKey }: BarChartProps) {
-  const max = Math.max(...items.map((i) => i.count), 1);
   return (
     <div>
       <div className="text-xs font-medium text-gray-500 mb-2">{title}</div>
       <ul className="space-y-1.5">
         {items.map((item, idx) => {
-          const pct = (item.count / max) * 100;
           const isActive = activeKey === item.key;
           return (
             <li key={item.key}>
               <button
                 type="button"
                 onClick={() => onClick(item.key)}
-                className={`group w-full flex items-center gap-2 rounded-md px-1 py-0.5 text-left transition-colors ${
+                className={`w-full flex items-baseline gap-2 rounded-md px-1 py-0.5 text-left transition-colors ${
                   isActive ? 'bg-indigo-50' : 'hover:bg-gray-50'
                 }`}
               >
-                <span className="w-4 text-[10px] tabular-nums text-gray-400">
+                <span className="text-[10px] tabular-nums text-gray-400">
                   {idx + 1}.
                 </span>
                 <span
-                  className={`w-14 truncate text-xs font-medium ${
+                  className={`text-xs font-medium ${
                     isActive ? 'text-indigo-700' : 'text-gray-800'
                   }`}
                 >
                   {item.label}
                 </span>
-                <span className="flex-1 h-2 rounded-full bg-gray-100 overflow-hidden">
-                  <span
-                    className={`block h-full rounded-full transition-colors ${
-                      isActive ? 'bg-indigo-500' : 'bg-indigo-300 group-hover:bg-indigo-400'
-                    }`}
-                    style={{ width: `${pct}%` }}
-                  />
-                </span>
-                <span className="w-10 text-right text-[11px] tabular-nums text-gray-500">
+                <span
+                  aria-hidden="true"
+                  className="flex-1 border-b border-dotted border-gray-300 translate-y-[-3px]"
+                />
+                <span className="text-[11px] tabular-nums text-gray-500">
                   {item.count}
                 </span>
               </button>

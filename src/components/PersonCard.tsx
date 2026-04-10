@@ -51,6 +51,21 @@ function getBirthplace(nationality: string): string {
 
 // USD to KRW conversion. Hardcoded ballpark rate — we're showing order of
 // magnitude, not a live ticker. Bump this once a year if it drifts far.
+/**
+ * Forbes URLs in the dataset are often stored protocol-relative
+ * (`//specials-images.forbesimg.com/...`). That works in most browsers
+ * but is unreliable in some contexts (e.g. SSR, file://). Force https.
+ * Also falls back to a generated avatar if the url is missing entirely.
+ */
+function normalizePhotoUrl(url: string | undefined | null, name: string): string {
+  if (!url) {
+    return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=200&background=random&bold=true`;
+  }
+  if (url.startsWith('//')) return `https:${url}`;
+  if (url.startsWith('http://')) return url.replace(/^http:/, 'https:');
+  return url;
+}
+
 const USD_TO_KRW = 1470;
 
 function formatNetWorthUsd(netWorth: number): string {
@@ -146,7 +161,7 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
       {/* Photo */}
       <div className="relative aspect-square bg-gradient-to-br from-gray-100 to-gray-50 overflow-hidden">
         <img
-          src={person.photoUrl}
+          src={normalizePhotoUrl(person.photoUrl, person.name)}
           alt={person.name}
           // Intrinsic size matches our aspect-square container. Declaring
           // width/height lets the browser reserve space and avoids layout

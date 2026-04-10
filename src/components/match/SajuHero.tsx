@@ -1,7 +1,8 @@
 'use client';
 
 import type { SajuResult, Ju, CheonGan, JiJi } from '@/lib/saju/types';
-import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS, GYEOKGUK_NAMES } from '@/lib/saju/constants';
+import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS, GYEOKGUK_NAMES, getBongi } from '@/lib/saju/constants';
+import { getSipSin } from '@/lib/saju/tenGods';
 import { useLanguage } from '@/lib/i18n';
 import ShareButtons from './ShareButtons';
 
@@ -11,17 +12,29 @@ interface Props {
   onReset: () => void;
 }
 
-function HeroPillar({ label, ju }: { label: string; ju: Ju | null }) {
+function HeroPillar({
+  label,
+  ju,
+  ilgan,
+  isDayPillar,
+}: {
+  label: string;
+  ju: Ju | null;
+  ilgan: CheonGan;
+  isDayPillar?: boolean;
+}) {
   if (!ju) {
     return (
       <div className="flex flex-col items-center">
         <div className="text-xs text-gray-400 mb-1.5 font-medium">{label}</div>
+        <div className="text-[10px] text-gray-300 mb-1 h-3">·</div>
         <div className="w-[56px] h-[56px] sm:w-16 sm:h-16 rounded-xl border border-dashed border-gray-300 flex items-center justify-center text-gray-300 text-2xl">
           ?
         </div>
         <div className="w-[56px] h-[56px] sm:w-16 sm:h-16 rounded-xl border border-dashed border-gray-300 mt-1.5 flex items-center justify-center text-gray-300 text-2xl">
           ?
         </div>
+        <div className="text-[10px] text-gray-300 mt-1 h-3">·</div>
       </div>
     );
   }
@@ -29,9 +42,21 @@ function HeroPillar({ label, ju }: { label: string; ju: Ju | null }) {
   const branchOh = BRANCH_TO_OHAENG[ju.branch as JiJi];
   const stemColor = OHAENG_COLORS[stemOh];
   const branchColor = OHAENG_COLORS[branchOh];
+
+  // 십성 labels. The day stem itself is the 일간 (the reference point),
+  // so it's marked as 일간/본원 rather than a 십성 relationship.
+  const stemSipsin = isDayPillar
+    ? '일간'
+    : getSipSin(ilgan, ju.stem as CheonGan);
+  const branchBongi = getBongi(ju.branch as JiJi);
+  const branchSipsin = getSipSin(ilgan, branchBongi);
+
   return (
     <div className="flex flex-col items-center">
       <div className="text-xs text-gray-400 mb-1.5 font-medium">{label}</div>
+      <div className={`text-[10px] mb-1 font-medium ${isDayPillar ? 'text-indigo-500' : 'text-gray-500'}`}>
+        {stemSipsin}
+      </div>
       <div
         className={`w-[56px] h-[56px] sm:w-16 sm:h-16 rounded-xl border flex items-center justify-center text-3xl sm:text-4xl font-bold shadow-sm ${stemColor.bg} ${stemColor.text} ${stemColor.border}`}
       >
@@ -41,6 +66,9 @@ function HeroPillar({ label, ju }: { label: string; ju: Ju | null }) {
         className={`w-[56px] h-[56px] sm:w-16 sm:h-16 rounded-xl border mt-1.5 flex items-center justify-center text-3xl sm:text-4xl font-bold shadow-sm ${branchColor.bg} ${branchColor.text} ${branchColor.border}`}
       >
         {ju.branch}
+      </div>
+      <div className="text-[10px] text-gray-500 mt-1 font-medium">
+        {branchSipsin}
       </div>
     </div>
   );
@@ -60,12 +88,12 @@ export default function SajuHero({ saju, totalMatches, onReset }: Props) {
           </div>
         </div>
 
-        {/* 4 pillars */}
+        {/* 4 pillars with 십성 labels on stem (above) and 지장간 본기 (below) */}
         <div className="flex justify-center gap-2 sm:gap-3 mb-5">
-          <HeroPillar label="時" ju={saju.saju.hour} />
-          <HeroPillar label="日" ju={saju.saju.day} />
-          <HeroPillar label="月" ju={saju.saju.month} />
-          <HeroPillar label="年" ju={saju.saju.year} />
+          <HeroPillar label="時" ju={saju.saju.hour} ilgan={saju.saju.day.stem as CheonGan} />
+          <HeroPillar label="日" ju={saju.saju.day} ilgan={saju.saju.day.stem as CheonGan} isDayPillar />
+          <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} />
+          <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} />
         </div>
 
         {/* Key stats: 일주 · 월지 · 격국 */}

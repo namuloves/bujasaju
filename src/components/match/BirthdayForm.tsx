@@ -30,6 +30,7 @@ export interface BirthdayInput {
   month: number;
   day: number;
   hour: number | null; // null = unknown
+  minute: number; // ignored when hour === null; defaults to 0 otherwise
 }
 
 /**
@@ -57,6 +58,7 @@ const YEARS = Array.from({ length: CURRENT_YEAR - 1900 + 1 }, (_, i) => CURRENT_
 const MONTHS = Array.from({ length: 12 }, (_, i) => i + 1);
 const DAYS = Array.from({ length: 31 }, (_, i) => i + 1);
 const HOURS = Array.from({ length: 24 }, (_, i) => i);
+const MINUTES = Array.from({ length: 60 }, (_, i) => i);
 
 export default function BirthdayForm({ initial, onSubmit }: Props) {
   const { t } = useLanguage();
@@ -67,6 +69,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
   const [month, setMonth] = useState<number>(birthInit?.month ?? 1);
   const [day, setDay] = useState<number>(birthInit?.day ?? 1);
   const [hour, setHour] = useState<number | null>(birthInit?.hour ?? null);
+  const [minute, setMinute] = useState<number>(birthInit?.minute ?? 0);
 
   // Direct mode state — 4 pillars in 시주/일주/월주/년주 order
   const directInit = initial?.mode === 'direct' ? initial : null;
@@ -77,7 +80,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
 
   const handleBirthdaySubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onSubmit({ mode: 'birthday', year, month, day, hour });
+    onSubmit({ mode: 'birthday', year, month, day, hour, minute });
   };
 
   // Validation: day/month/year pillars are required; hour is optional (empty = unknown).
@@ -114,7 +117,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
         <p className="text-sm text-gray-500">{t.matchSubhead}</p>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 max-w-xl mx-auto">
           <label className="flex flex-col">
             <span className="text-xs text-gray-500 mb-1">{t.year}</span>
             <select
@@ -167,7 +170,22 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
               <option value="">{t.hourUnknown}</option>
               {HOURS.map((h) => (
                 <option key={h} value={h}>
-                  {h.toString().padStart(2, '0')}:00
+                  {h.toString().padStart(2, '0')}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="flex flex-col">
+            <span className="text-xs text-gray-500 mb-1">{t.minute}</span>
+            <select
+              value={minute}
+              disabled={hour === null}
+              onChange={(e) => setMinute(Number(e.target.value))}
+              className="px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:bg-gray-50 disabled:text-gray-400"
+            >
+              {MINUTES.map((m) => (
+                <option key={m} value={m}>
+                  {m.toString().padStart(2, '0')}
                 </option>
               ))}
             </select>

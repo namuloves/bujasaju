@@ -66,6 +66,7 @@ type Dict = {
   hour: string;
   hourOptional: string;
   hourUnknown: string;
+  minute: string;
   submit: string;
   edit: string;
   confirmTitle: string;
@@ -160,6 +161,7 @@ const ko: Dict = {
   hour: '시',
   hourOptional: '시 (선택)',
   hourUnknown: '모름',
+  minute: '분',
   submit: '사주 보기',
   edit: '수정',
   confirmTitle: '당신의 사주가 맞나요?',
@@ -255,6 +257,7 @@ const en: Dict = {
   hour: 'Hour',
   hourOptional: 'Hour (optional)',
   hourUnknown: 'Unknown',
+  minute: 'Minute',
   submit: 'Calculate my 사주',
   edit: 'Edit',
   confirmTitle: 'Is this your 사주?',

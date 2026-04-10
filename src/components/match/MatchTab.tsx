@@ -35,12 +35,15 @@ const STORAGE_KEY = 'bujasaju.matchInput';
 
 function computeSaju(input: MatchInput): SajuResult {
   if (input.mode === 'birthday') {
+    // Old localStorage entries (pre-minute) won't have a `minute` field;
+    // default to 0 in that case so saved inputs still hydrate cleanly.
+    const minute = input.hour !== null ? (input.minute ?? 0) : 0;
     const date = new Date(
       input.year,
       input.month - 1,
       input.day,
       input.hour ?? 0,
-      0,
+      minute,
       0,
     );
     return calculateSaju(date, { includeHour: input.hour !== null });
