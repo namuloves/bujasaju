@@ -25,7 +25,9 @@ export default function Header() {
         <div className="flex items-center justify-between gap-4">
           <div className="min-w-0">
             <h1 className="text-xl font-bold text-gray-900">
-              부자사주 <span className="text-indigo-600">富者四柱</span>
+              <a href="/" className="hover:text-indigo-700 transition-colors">
+                부자사주 <span className="text-indigo-600">富者四柱</span>
+              </a>
             </h1>
             <p className="text-xs text-gray-500 mt-0.5 truncate">
               {t.siteTagline}
