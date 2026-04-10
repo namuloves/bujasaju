@@ -117,31 +117,73 @@ export async function POST(req: NextRequest) {
 
   // Wrap the OpenAI stream in a ReadableStream of plain text deltas.
   // No SSE framing — the client just reads chunks and appends to state.
+  //
+  // Two things this has to handle correctly:
+  //   1. Client disconnect mid-stream (HMR, navigation, refresh). When this
+  //      happens the downstream ReadableStream is already cancelled, so any
+  //      further `controller.enqueue` throws "Invalid state: Controller is
+  //      already closed". We track a `closed` flag and stop enqueuing.
+  //   2. Aborting the upstream OpenAI call the moment the client goes away,
+  //      so we don't keep billing tokens into a socket nobody's reading.
   const encoder = new TextEncoder();
+  const upstreamAbort = new AbortController();
+  let closed = false;
+
+  // Fire upstreamAbort as soon as the client disconnects. `req.signal` is
+  // the incoming request's AbortSignal in Next.js route handlers.
+  req.signal.addEventListener('abort', () => {
+    closed = true;
+    upstreamAbort.abort();
+  });
+
   const readable = new ReadableStream<Uint8Array>({
     async start(controller) {
       try {
-        const stream = await client.chat.completions.create({
-          model: 'gpt-4o-mini',
-          max_tokens: 500,
-          stream: true,
-          messages: [{ role: 'user', content: prompt }],
-        });
+        const stream = await client.chat.completions.create(
+          {
+            model: 'gpt-4o-mini',
+            max_tokens: 500,
+            stream: true,
+            messages: [{ role: 'user', content: prompt }],
+          },
+          { signal: upstreamAbort.signal },
+        );
 
         for await (const chunk of stream) {
+          if (closed) break;
           const delta = chunk.choices[0]?.delta?.content;
           if (delta) {
             controller.enqueue(encoder.encode(delta));
           }
         }
-        controller.close();
+        if (!closed) {
+          controller.close();
+          closed = true;
+        }
       } catch (err) {
-        // Surface a short error line then close. The client will fall back
-        // to its static template if the stream errors.
-        const msg = err instanceof Error ? err.message : 'stream error';
-        console.error('[saju-summary] stream failed:', msg);
-        controller.error(err);
+        // A client-initiated abort is expected and not worth logging as an
+        // error. Everything else is a real failure the client should fall
+        // back on via its static template.
+        const isAbort =
+          (err instanceof Error && err.name === 'AbortError') || closed;
+        if (!isAbort) {
+          const msg = err instanceof Error ? err.message : 'stream error';
+          console.error('[saju-summary] stream failed:', msg);
+        }
+        if (!closed) {
+          try {
+            controller.error(err);
+          } catch {
+            // Controller was already torn down — nothing to do.
+          }
+          closed = true;
+        }
       }
+    },
+    cancel() {
+      // Downstream (the Response body) was cancelled — propagate to upstream.
+      closed = true;
+      upstreamAbort.abort();
     },
   });
 

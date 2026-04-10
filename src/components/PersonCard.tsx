@@ -2,7 +2,9 @@
 
 import React, { useState } from 'react';
 import { EnrichedPerson } from '@/lib/saju/types';
-import { GYEOKGUK_NAMES, STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS } from '@/lib/saju/constants';
+import { GYEOKGUK_NAMES, BRANCH_TO_OHAENG, OHAENG_COLORS, getBongi } from '@/lib/saju/constants';
+import { getSipSin } from '@/lib/saju/tenGods';
+import type { CheonGan, JiJi } from '@/lib/saju/types';
 import SajuBadge from './SajuBadge';
 import { useLanguage } from '@/lib/i18n';
 import { nationalityToKorean } from './FilterPanel';
@@ -276,6 +278,19 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
                   </tr>
                 </thead>
                 <tbody>
+                  {/* 천간 십성 row — day column is 일간 (self) */}
+                  <tr>
+                    <td className="pt-1.5 text-[9px] text-gray-400">?</td>
+                    <td className="pt-1.5 text-[9px] text-indigo-500 font-medium bg-indigo-50/30">
+                      일간
+                    </td>
+                    <td className="pt-1.5 text-[9px] text-gray-500 font-medium">
+                      {getSipSin(saju.saju.day.stem as CheonGan, saju.saju.month.stem as CheonGan)}
+                    </td>
+                    <td className="pt-1.5 text-[9px] text-gray-500 font-medium">
+                      {getSipSin(saju.saju.day.stem as CheonGan, saju.saju.year.stem as CheonGan)}
+                    </td>
+                  </tr>
                   {/* 천간 row */}
                   <tr>
                     <td className="py-1.5 text-gray-300">?</td>
@@ -300,6 +315,19 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
                     </td>
                     <td className="py-1.5">
                       <SajuBadge branch={saju.saju.year.branch} size="sm" />
+                    </td>
+                  </tr>
+                  {/* 지지 본기 십성 row */}
+                  <tr>
+                    <td className="pb-1.5 text-[9px] text-gray-400">?</td>
+                    <td className="pb-1.5 text-[9px] text-gray-500 font-medium bg-indigo-50/30">
+                      {getSipSin(saju.saju.day.stem as CheonGan, getBongi(saju.saju.day.branch as JiJi))}
+                    </td>
+                    <td className="pb-1.5 text-[9px] text-gray-500 font-medium">
+                      {getSipSin(saju.saju.day.stem as CheonGan, getBongi(saju.saju.month.branch as JiJi))}
+                    </td>
+                    <td className="pb-1.5 text-[9px] text-gray-500 font-medium">
+                      {getSipSin(saju.saju.day.stem as CheonGan, getBongi(saju.saju.year.branch as JiJi))}
                     </td>
                   </tr>
                 </tbody>

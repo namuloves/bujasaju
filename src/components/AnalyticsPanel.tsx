@@ -302,8 +302,12 @@ interface PieChartProps {
 function PieChart({ title, items, onClick, activeKey }: PieChartProps) {
   const total = items.reduce((sum, it) => sum + it.count, 0);
   // Extra horizontal room for the outer labels ("갑 343 · 10.4%") that
-  // replace the old legend list. The donut itself stays centered.
-  const size = 320;
+  // replace the old legend list. The donut itself stays centered, but the
+  // viewBox is extended 60px on each side so long right/left-anchored labels
+  // don't get clipped when the SVG is rendered at narrow widths.
+  const labelPad = 60;
+  const donutSize = 320;
+  const size = donutSize + labelPad * 2;
   const height = 220;
   const cx = size / 2;
   const cy = height / 2;
@@ -359,13 +363,13 @@ function PieChart({ title, items, onClick, activeKey }: PieChartProps) {
   return (
     <div>
       <div className="text-xs font-medium text-gray-500 mb-2">{title}</div>
-      <div className="flex items-center justify-start pl-6 sm:pl-8">
+      <div className="flex items-center justify-start">
         <svg
           width="100%"
           height={height}
           viewBox={`0 0 ${size} ${height}`}
-          preserveAspectRatio="xMinYMid meet"
-          className="max-w-[420px]"
+          preserveAspectRatio="xMidYMid meet"
+          className="max-w-[480px]"
           role="img"
           aria-label={title}
         >
@@ -459,9 +463,9 @@ function PieChart({ title, items, onClick, activeKey }: PieChartProps) {
 
 function BarChart({ title, items, onClick, activeKey }: BarChartProps) {
   return (
-    <div>
+    <div className="max-w-xs">
       <div className="text-xs font-medium text-gray-500 mb-2">{title}</div>
-      <ul className="space-y-1.5">
+      <ul className="space-y-0.5">
         {items.map((item, idx) => {
           const isActive = activeKey === item.key;
           return (
@@ -469,7 +473,7 @@ function BarChart({ title, items, onClick, activeKey }: BarChartProps) {
               <button
                 type="button"
                 onClick={() => onClick(item.key)}
-                className={`w-full flex items-baseline gap-2 rounded-md px-1 py-0.5 text-left transition-colors ${
+                className={`w-full flex items-baseline gap-1 rounded-md px-1 py-0.5 text-left transition-colors ${
                   isActive ? 'bg-indigo-50' : 'hover:bg-gray-50'
                 }`}
               >
