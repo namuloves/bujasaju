@@ -1,0 +1,255 @@
+{
+  "id": "6",
+  "name": "Larry Ellison",
+  "childhood": {
+    "birthPlace": "Bronx, New York, United States",
+    "birthPlaceKo": "미국 뉴욕 브롱크스",
+    "familyBackground": "Born Lawrence Joseph Ellison on August 17, 1944. Biological mother Florence Spellman (Jewish) sent him to Chicago at nine months old due to pneumonia. Adopted and raised by aunt and uncle Lillian and Louis Ellison in modest two-bedroom apartment on South Side of Chicago. Biological father was Italian-American United States Army Air Corps pilot. Close relationship with adoptive mother Lillian; difficult relationship with adoptive father Louis, who told him he would never amount to anything.",
+    "familyBackgroundKo": "1944년 8월 17일 로렌스 조셉 엘리슨으로 태어났다. 생모 플로렌스 스펠만(유대인)은 폐렴으로 인해 생후 9개월일 때 그를 시카고로 보냈다. 친모와 친부 릴리안과 루이 엘리슨에게 입양되어 시카고 남쪽의 소박한 2침실 아파트에서 자랐다. 생부는 이탈리아계 미국인 미 육군 항공대 조종사였다. 양모 릴리안과는 친밀한 관계였으나, 양부 루이와는 어려운 관계를 맺었으며 루이는 그가 절대 성공하지 못할 것이라고 말했다.",
+    "education": "Attended University of Illinois in Urbana-Champaign from 1962, where he showed exceptional aptitude in science and premed studies, earning science student of the year in 1962. Dropped out in 1964 after adoptive mother Lillian's death, to whom he was very close. Briefly attended University of Chicago in 1966. Self-educated through programming and technology work; no formal computer science degree despite founding one of the world's largest software companies.",
+    "educationKo": "1962년부터 일리노이 대학교 어바나-샴페인 캠퍼스에 입학하여 과학 및 의학 전 과정에서 뛰어난 적성을 보였으며, 1962년 과학 학생상을 수상했다. 1964년 매우 가까웠던 양모 릴리안의 사망 이후 중퇴했다. 1966년 시카고 대학교에 잠시 입학했다. 프로그래밍 및 기술 업무를 통해 자가 교육을 받았으며, 세계에서 가장 큰 소프트웨어 회사 중 하나를 창립했음에도 불구하고 정식 컴퓨터 과학 학위가 없다.",
+    "earlyLife": "After brief stint at Amdahl Corporation, worked at Ampex Corporation in the late 1960s-early 1970s where his first major project was a database for the CIA, code-named 'Oracle'. Spent several years as a computer programmer for various companies in California after leaving University of Chicago. Early career shaped by poverty, lack of formal credentials, and need to prove himself—experiences that fueled his ambition and competitive drive.",
+    "earlyLifeKo": "Amdahl 주식회사에서 짧은 근무 후, 1960년대 후반-1970년대 초반 Ampex 주식회사에서 일했으며, 첫 번째 주요 프로젝트는 'Oracle'이라는 암호명의 CIA 데이터베이스였다. 시카고 대학교를 떠난 후 캘리포니아의 여러 회사에서 컴퓨터 프로그래머로 수년 동안 일했다. 초기 경력은 빈곤, 공식 자격 부족, 자신을 증명해야 할 필요성으로 형성되었으며, 이러한 경험들이 그의 야망과 경쟁적 열정을 촉발했다.",
+    "source": "Wikipedia, Biography.com, Academy of Achievement, NotableBiographies.com, Press.farm"
+  },
+  "careerTimeline": [
+    {
+      "year": 1969,
+      "event": "Worked at Ampex Corporation as computer programmer; first major project was database for CIA code-named 'Oracle', which inspired the future company name",
+      "eventKo": "Ampex 주식회사에서 컴퓨터 프로그래머로 일함; 첫 번째 주요 프로젝트는 'Oracle'이라는 암호명의 CIA 데이터베이스였으며 이는 향후 회사명에 영감을 줌"
+    },
+    {
+      "year": 1977,
+      "event": "Co-founded Software Development Laboratories (SDL) with Ed Oates, Bruce Scott, and Bob Miner, investing $2,000 to develop relational database software",
+      "eventKo": "Ed Oates, Bruce Scott, Bob Miner과 함께 소프트웨어 개발 연구소(SDL) 공동 설립, 관계형 데이터베이스 소프트웨어 개발을 위해 2,000달러 투자"
+    },
+    {
+      "year": 1978,
+      "event": "Company renamed to Relational Software Inc. (RSI); released first commercial SQL-based database product 'Oracle Version 2' for business customers",
+      "eventKo": "회사명을 관계형 소프트웨어 주식회사(RSI)로 변경; 사업 고객을 위한 첫 번째 상용 SQL 기반 데이터베이스 제품 'Oracle Version 2' 출시"
+    },
+    {
+      "year": 1979,
+      "event": "Company renamed to Oracle Corporation; focused on developing relational database management systems for business applications",
+      "eventKo": "회사명을 오라클 주식회사로 변경; 비즈니스 애플리케이션을 위한 관계형 데이터베이스 관리 시스템 개발에 초점"
+    },
+    {
+      "year": 1981,
+      "event": "IBM signed on to use Oracle database; game-changing deal allowing sales to double every year for next seven years",
+      "eventKo": "IBM이 오라클 데이터베이스 사용에 서명; 향후 7년 동안 매년 판매량을 두 배로 늘릴 수 있게 한 판도를 바꾸는 거래"
+    },
+    {
+      "year": 1986,
+      "event": "Oracle Corporation held its IPO; however, accounting irregularities and fraud discovered, wiping out majority of market capitalization and pushing company to brink of bankruptcy",
+      "eventKo": "오라클 주식회사가 IPO 시행; 그러나 회계 부정과 사기가 적발되어 시장 자본의 대부분이 사라지고 회사가 파산 직전에 몰림"
+    },
+    {
+      "year": 1989,
+      "event": "Released Oracle 7 database product after management restructuring and product refresh; swept industry and established Oracle as database leader",
+      "eventKo": "경영진 구조 조정 및 제품 개선 후 Oracle 7 데이터베이스 제품 출시; 산업을 휩쓸고 Oracle을 데이터베이스 선도 기업으로 확립"
+    },
+    {
+      "year": 1992,
+      "event": "Oracle solidified market leadership position as dominant force in database-management software industry; stock regained much of its previous value from 1986 crisis",
+      "eventKo": "오라클이 데이터베이스 관리 소프트웨어 산업의 주도적 세력으로 시장 리더십 위치 견고히 함; 주가가 1986년 위기 이전 대부분의 가치를 회복"
+    },
+    {
+      "year": 2004,
+      "event": "Began strategic acquisition strategy; acquired PeopleSoft at end of 2004 for $10.3 billion after fierce bidding competition",
+      "eventKo": "전략적 인수 전략 시작; 2004년 말 치열한 입찰 경쟁 끝에 PeopleSoft를 103억 달러에 인수"
+    },
+    {
+      "year": 2010,
+      "event": "Completed acquisition of Sun Microsystems after regulatory approval; continued massive expansion through acquisitions totaling over $25 billion in three years",
+      "eventKo": "규제 승인 후 Sun Microsystems 인수 완료; 3년 동안 총 250억 달러 이상의 인수를 통해 대규모 확장 계속"
+    },
+    {
+      "year": 2014,
+      "event": "Stepped down as CEO of Oracle after 37 years; appointed as executive chairman and chief technology officer, maintaining strategic control",
+      "eventKo": "37년 후 오라클의 CEO직에서 물러남; 전략적 통제를 유지하면서 회장 겸 최고 기술 책임자로 임명"
+    },
+    {
+      "year": 2020,
+      "event": "Oracle shifted strategic focus toward cloud infrastructure and artificial intelligence; began securing major AI contracts with tech leaders",
+      "eventKo": "오라클이 클라우드 인프라 및 인공지능으로 전략적 초점 전환; 기술 리더들과 주요 AI 계약 확보 시작"
+    },
+    {
+      "year": 2025,
+      "event": "Oracle secured over $300 billion in multiyear cloud infrastructure contracts with OpenAI, Meta Platforms, NVIDIA, and xAI, positioning as major AI infrastructure provider",
+      "eventKo": "오라클이 OpenAI, Meta Platforms, NVIDIA, xAI와 3년 이상의 클라우드 인프라 계약에서 3,000억 달러 이상 확보, 주요 AI 인프라 제공자로 위치 정립"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1986,
+      "description": "Oracle held its IPO in 1986, but massive accounting scandal revealed fraud and aggressive revenue overstating. Stock plummeted 80%, employees were laid off, and the company teetered on brink of bankruptcy. The crisis resulted from 'up-front' marketing strategy where salespeople pushed customers to buy maximum software all at once, artificially inflating revenues.",
+      "descriptionKo": "1986년 오라클이 IPO를 시행했으나, 대규모 회계 스캔들로 사기 및 공격적인 수익 부풀리기가 적발되었다. 주가가 80% 급락했고, 직원들이 해고되었으며, 회사는 파산 직전에 흔들렸다. 이 위기는 판매자들이 고객에게 최대한의 소프트웨어를 한꺼번에 구매하도록 강요하여 수익을 인위적으로 부풀리는 '선결제' 마케팅 전략에서 비롯되었다.",
+      "lesson": "Took full responsibility for crisis despite not discovering fraud himself. Fired executives he had promoted, brought in seasoned financial leadership, and completely restructured Oracle's operations. Released Oracle 7 database in 1992 which swept industry and restored company to market leadership. Learned importance of financial controls, honest accounting, and management discipline. Recovery in two years demonstrated resilience and ability to transform organizational culture.",
+      "lessonKo": "자신이 사기를 발견하지 못했음에도 불구하고 위기에 대한 전적인 책임을 졌다. 자신이 승진시킨 경영진들을 해고하고 경험 많은 재무 리더십을 들여와 오라클의 운영을 완전히 재구조화했다. 1992년 업계를 휩쓸고 회사를 시장 리더십으로 복구한 Oracle 7 데이터베이스를 출시했다. 재무 통제, 정직한 회계, 경영 규율의 중요성을 배웠다. 2년 내 회복은 회복력과 조직 문화를 변환할 수 있는 능력을 입증했다.",
+      "source": "Wikipedia, Achievement.org, Press.farm"
+    },
+    {
+      "year": 1995,
+      "description": "Network Computer (NC) project failed as prices of PCs dropped and NC technology development stalled. Ellison had become convinced that client-server computing was dead and that everything would move to Internet-based applications. His own sales team and customers opposed the strategy with research showing resistance to change, but Ellison pushed forward anyway, nearly betting entire Oracle engineering effort on the concept.",
+      "descriptionKo": "네트워크 컴퓨터(NC) 프로젝트는 PC 가격이 하락하고 NC 기술 개발이 정체되면서 실패했다. 엘리슨은 클라이언트-서버 컴퓨팅이 죽었고 모든 것이 인터넷 기반 애플리케이션으로 이동할 것이라고 확신했다. 자신의 판매 팀과 고객들이 변화에 대한 저항을 보이는 연구로 전략에 반대했음에도 불구하고 엘리슨은 계속 추진했으며, 거의 전체 오라클 엔지니어링 노력을 이 개념에 걸었다.",
+      "lesson": "Later admitted that technology to support NC was premature and acknowledged strategic miscalculation. Learned the importance of listening to market feedback and customer resistance, even when personally convinced of strategic vision. Balanced his visionary thinking with pragmatic market realities. This failure informed more measured approach to future technology bets.",
+      "lessonKo": "나중에 NC를 지원하는 기술이 시기상조였음을 인정하고 전략적 오판을 인정했다. 개인적으로 전략적 비전을 확신했더라도 시장 피드백과 고객 저항에 귀 기울이는 것의 중요성을 배웠다. 자신의 선견적 사고를 실용적인 시장 현실과 균형 있게 유지했다. 이 실패는 향후 기술 베팅에 대한 더 신중한 접근 방식을 알려주었다.",
+      "source": "Press.farm, Inc.com"
+    },
+    {
+      "year": 2001,
+      "description": "Made controversial public offer to donate software to federal government post-September 11 that would enable building national identification database and issuing ID cards. Proposal faced significant public backlash and privacy concerns, ultimately rejected by government. Demonstrates miscalculation of social and political sensibilities.",
+      "descriptionKo": "9/11 이후 연방 정부에 소프트웨어를 기부하여 국가 식별 데이터베이스 구축 및 신분증 발급을 가능하게 하는 논란의 여지가 있는 공개 제안을 했다. 제안은 상당한 공개 역풍과 개인정보 보호 우려에 직면했으며 결국 정부에 의해 거절되었다. 사회적, 정치적 감수성에 대한 오판을 보여준다.",
+      "lesson": "Learned that technological solutions must consider broader social, political, and privacy implications. Recognized limits of technocratic thinking in governance and public trust issues. Became more cautious about controversial government technology initiatives, though maintained involvement in Oracle's government contracts.",
+      "lessonKo": "기술적 해결책은 더 광범위한 사회적, 정치적, 개인정보 보호 함의를 고려해야 한다는 것을 배웠다. 거버넌스와 공공 신뢰 문제에 대한 기술주의적 사고의 한계를 인식했다. 정부 기술 이니셔티브에 대해 더욱 신중해졌지만 오라클의 정부 계약 관여는 유지했다.",
+      "source": "Wikipedia"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2005,
+      "netWorth": 20.0
+    },
+    {
+      "year": 2010,
+      "netWorth": 35.0
+    },
+    {
+      "year": 2015,
+      "netWorth": 55.0
+    },
+    {
+      "year": 2019,
+      "netWorth": 61.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 70.0
+    },
+    {
+      "year": 2021,
+      "netWorth": 92.0
+    },
+    {
+      "year": 2022,
+      "netWorth": 80.0
+    },
+    {
+      "year": 2023,
+      "netWorth": 150.0
+    },
+    {
+      "year": 2024,
+      "netWorth": 190.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 247.0
+    },
+    {
+      "year": 2026,
+      "netWorth": 201.0
+    }
+  ],
+  "quotes": [
+    {
+      "text": "When you innovate, you've got to be prepared for everyone telling you you're nuts.",
+      "textKo": "혁신할 때, 모든 사람이 당신을 미쳤다고 말할 준비가 되어 있어야 한다.",
+      "context": "Explaining necessity for bold vision and willingness to pursue unconventional strategies despite skepticism from others",
+      "contextKo": "대담한 비전의 필요성과 다른 사람들의 회의에도 불구하고 비정통적 전략을 추구할 의지 설명"
+    },
+    {
+      "text": "We have been doing things that are contrary; the things that people tell us won't work from the beginning. In fact, the only way to get ahead is to find errors in conventional wisdom.",
+      "textKo": "우리는 처음부터 사람들이 작동하지 않을 것이라고 말하는 반대의 일들을 해왔다. 실제로 앞서 나가는 유일한 방법은 일반적인 지혜의 오류를 발견하는 것이다.",
+      "context": "Reflecting on Oracle's philosophy of challenging industry norms and established thinking",
+      "contextKo": "업계 규범 및 기존 사고 방식에 도전하는 오라클의 철학을 반영"
+    },
+    {
+      "text": "I have had all of the disadvantages required for success.",
+      "textKo": "나는 성공에 필요한 모든 불이익을 경험했다.",
+      "context": "Acknowledging how childhood poverty, lack of formal credentials, and personal struggles became assets in building determination and resilience",
+      "contextKo": "어린 시절 빈곤, 공식 자격 부족, 개인적 어려움이 결단력과 회복력을 구축하는 자산이 되었음을 인정"
+    },
+    {
+      "text": "I'm addicted to winning. The more you win, the more you want to win.",
+      "textKo": "나는 이기는 것에 중독되어 있다. 이길수록 더 많이 이기고 싶어진다.",
+      "context": "Expressing his fundamental competitive drive and achievement motivation that defines his business approach",
+      "contextKo": "그의 사업 접근 방식을 정의하는 근본적인 경쟁적 열정과 성취 동기 표현"
+    },
+    {
+      "text": "When I do something, it is all about self-discovery. I want to learn and discover my own limits.",
+      "textKo": "내가 무언가를 할 때, 그것은 모두 자기 발견에 관한 것이다. 나는 배우고 나 자신의 한계를 발견하고 싶다.",
+      "context": "Explaining his approach to challenges and personal growth through testing boundaries and capabilities",
+      "contextKo": "경계와 능력을 테스트하여 도전 및 개인 성장에 대한 그의 접근 방식 설명"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": "eBusiness or Out of Business",
+        "note": "Oracle's roadmap for profiting in the new Internet-based economy during late 1990s tech boom; reflects Ellison's vision of digital transformation",
+        "noteKo": "1990년대 후반 기술 붐 중 새로운 인터넷 기반 경제에서 수익을 올리기 위한 오라클의 로드맵; 엘리슨의 디지털 혁신 비전 반영"
+      },
+      {
+        "title": "Passive Income",
+        "note": "Business guide offering tips on generating passive income streams; published as part of his broader business education publishing",
+        "noteKo": "소극적 소득 흐름을 생성하기 위한 팁을 제공하는 사업 가이드; 그의 광범위한 사업 교육 출판의 일부로 발행"
+      },
+      {
+        "title": null,
+        "note": "Various other business guides on email marketing, business adventures, and business marketing network; reflect his entrepreneurial philosophy",
+        "noteKo": "이메일 마케팅, 사업 모험, 사업 마케팅 네트워크에 대한 다양한 다른 사업 가이드; 그의 기업가 철학 반영"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "Lone Survivor",
+        "author": "Marcus Luttrell",
+        "why": "Ellison's favorite book; resonates with his admiration for overcoming adversity, survival, discipline, and triumph against impossible odds",
+        "whyKo": "엘리슨의 즐겨 읽는 책; 역경 극복, 생존, 규율, 불가능한 확률에 대한 승리에 대한 그의 경탄과 공명함"
+      },
+      {
+        "title": "The Mythical Man-Month",
+        "author": "Frederick P. Brooks Jr.",
+        "why": "Ellison considers this his bible on management concepts; distributed to all software executives at Oracle; fundamental to his understanding of software engineering and team dynamics",
+        "whyKo": "엘리슨은 이를 경영 개념에 대한 자신의 성경으로 간주함; 오라클의 모든 소프트웨어 경영진에게 배포됨; 소프트웨어 엔지니어링 및 팀 역학에 대한 그의 이해의 기본"
+      },
+      {
+        "title": "The Fountainhead",
+        "author": "Ayn Rand",
+        "why": "Influenced his worldview as a child wanting to be architect; embodies themes of individual achievement, visionary thinking, and resistance to mediocrity that shaped his philosophy",
+        "whyKo": "건축가가 되고 싶었던 어린 시절 그의 세계관에 영향을 미쳤으며, 그의 철학을 형성한 개인적 성취, 선견적 사고, 평범함에 대한 저항의 테마를 체현"
+      },
+      {
+        "title": "High Output Management",
+        "author": "Andrew Grove",
+        "why": "Strategic management framework applicable to scaling organizations and maximizing efficiency; influenced Oracle's operational philosophy",
+        "whyKo": "조직 확장 및 효율성 극대화에 적용 가능한 전략적 경영 프레임워크; 오라클의 운영 철학에 영향을 미침"
+      },
+      {
+        "title": "The Story of Civilization: The Age of Napoleon",
+        "author": "Will & Ariel Durant",
+        "why": "Explores strategic leadership and transformative vision of historical figure; appeals to Ellison's interest in ambitious historical actors and competitive winners",
+        "whyKo": "역사적 인물의 전략적 리더십과 변혁적 비전을 탐구; 야심 찬 역사적 배우와 경쟁적 승자에 대한 엘리슨의 관심에 어필"
+      },
+      {
+        "title": "Fate Is The Hunter",
+        "author": "Ernest K. Gann",
+        "why": "Explores themes of skill, preparation, and fate in aviation; resonates with Ellison's passion for aviation, aerobatics, and pushing personal limits",
+        "whyKo": "항공에서의 기술, 준비, 운명의 테마를 탐구; 항공, 곡예, 개인적 한계를 밀어붙이는 엘리슨의 열정과 공명함"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Co-founding Oracle and building it into one of the world's largest software companies through relentless innovation and acquisitions. Known for autocratic leadership style, binary worldview (allies vs. adversaries), and ruthless competitive drive described as 'addicted to winning.' Brilliant strategist with technical vision, pragmatism, and personal salesmanship. Described as insecure, arrogant, brilliant, sleazy, funny, cool, and ruthless—a paradoxical combination. Intense communicator and inspiring leader who didn't practice textbook management. Relentless optimism even during Oracle's worst crises. Long-time enthusiast of strenuous activities: serious body surfer, mountain biker, yacht racer (won Sydney-to-Hobart 1998 with yacht Sayonara), and aerobatics pilot.",
+    "knownForKo": "오라클을 공동 설립하고 무자비한 혁신 및 인수를 통해 세계에서 가장 큰 소프트웨어 회사 중 하나로 구축했다. 독재적 리더십 스타일, 이분법적 세계관(동맹 대 적), '이기는 것에 중독된' 것으로 묘사되는 무자비한 경쟁적 열정으로 알려져 있다. 기술적 비전, 실용주의, 개인적 판매능력을 갖춘 뛰어난 전략가. 불안정하고, 거만하고, 뛰어나고, 악랄하고, 재미있고, 멋있고, 무자비한 것으로 묘사되는 역설적 조합. 교과서적 경영을 실행하지 않는 강렬한 의사소통가이자 영감을 주는 리더. 오라클의 최악의 위기 중에서도 끊임없는 낙관주의. 오랫동안 힘든 활동에 열정을 가진 사람: 진지한 보디서퍼, 산악 자전거 선수, 요트 레이서(1998년 요트 사요나라로 시드니-호바트 우승), 곡예 조종사.",
+    "philanthropy": "Pledged to donate 95% of wealth through Giving Pledge in 2010. Donated $200 million to University of Southern California for cancer research center in May 2016. Committed approximately $1 billion to Ellison Medical Foundation (now closed), primarily for medical research. Establishing Ellison Institute of Technology with major new campus in Oxford worth approximately $1.3 billion, focusing on healthcare, food insecurity, climate change, and AI advancements. Recently pledged $40 billion to underpin Paramount media merger with son, representing shift from traditional nonprofits to for-profit model for social impact.",
+    "philanthropyKo": "2010년 기빙 플래지를 통해 재산의 95%를 기부하겠다고 약속했다. 2016년 5월 암 연구 센터를 위해 남캘리포니아 대학교에 2억 달러를 기부했다. 주로 의학 연구를 위해 엘리슨 의료재단(현재 폐쇄됨)에 약 10억 달러를 기여했다. 보건, 식량 부족, 기후 변화 및 AI 발전에 초점을 맞춘 옥스포드의 주요 새로운 캠퍼스가 있는 엘리슨 기술 연구소를 약 13억 달러 규모로 설립 중이다. 최근 아들과의 파라마운트 미디어 합병을 지원하기 위해 400억 달러를 약속했으며, 이는 전통적 비영리에서 사회적 영향의 영리 모델로의 전환을 나타낸다.",
+    "controversies": "Criticized for gap between philanthropic pledges and actual giving; Giving Pledge commitment of 95% wealth donation largely unfulfilled relative to stated intentions. Controversial 2001 post-9/11 offer to donate national identification database software rejected by government due to privacy concerns. Critics argue his philanthropic model blurs line between charity and self-interest, especially given lavish lifestyle (yachts, luxury purchases, tennis tournaments). Oracle's government contracts with ICE (Immigration and Customs Enforcement) criticized as misaligned with philanthropic mission. Questioned for preferring for-profit models over traditional nonprofits, raising concerns about accountability and power when $40 billion pledges influence major media acquisitions. Unfulfilled promises regarding traditional charitable giving despite immense wealth.",
+    "controversiesKo": "자선 기부 약속과 실제 기부 사이의 격차로 비판을 받았다; 기빙 플래지 재산의 95% 기부 약속이 명시된 의도에 비해 대부분 충족되지 않았다. 2001년 논란이 많은 9/11 이후 국가 식별 데이터베이스 소프트웨어 기부 제안은 개인정보 보호 우려로 정부에 거절되었다. 비평가들은 그의 자선 모델이 자선과 자기 이익의 경계를 흐리게 한다고 주장하며, 특히 호화로운 생활 방식(요트, 럭셔리 구매, 테니스 토너먼트)을 감안할 때 비판한다. 오라클의 ICE(이민세관단속국)와의 정부 계약은 자선 미션과 부정합한 것으로 비판받았다. 400억 달러 약속이 주요 미디어 인수에 영향을 미칠 때 책임성과 권력에 대한 우려를 제기하면서 영리 모델을 전통적 비영리보다 선호하는 것에 대해 의문을 받았다. 막대한 부에도 불구하고 전통적 자선 기부에 대한 약속 미충족."
+  },
+  "sajuConnection": {
+    "note": "This field will be written by us. Leave null.",
+    "value": null
+  }
+}

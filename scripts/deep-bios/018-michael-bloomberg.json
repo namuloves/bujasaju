@@ -1,0 +1,288 @@
+{
+  "id": "17",
+  "name": "Michael Rubens Bloomberg",
+  "childhood": {
+    "birthPlace": "Boston, Massachusetts",
+    "birthPlaceKo": "보스턴, 매사추세츠",
+    "familyBackground": "Middle-class family with Russian immigrant heritage. Father William Bloomberg worked as bookkeeper for small dairy company. Mother Charlotte was 1929 NYU graduate who initially worked at same dairy but quit after marriage to become full-time wife and mother. Instilled values of education, hard work, and meritocracy.",
+    "familyBackgroundKo": "러시아계 이민 배경의 중산층 가정. 아버지 윌리엄 블룸버그는 소규모 낙농 회사의 회계사로 일했다. 어머니 샬롯은 1929년 뉴욕대학(NYU) 졸업생으로 처음에는 같은 낙농 회사에서 일했지만 결혼 후 전업주부가 되었다. 교육, 근면, 실력주의의 가치를 주입했다.",
+    "education": "Graduated Medford High School with excellent academic record. Attended Johns Hopkins University, pursuing electrical engineering degree while paying tuition through loans and working as parking lot attendant. Graduated Johns Hopkins University. Earned MBA from Harvard Business School in Boston, Massachusetts (graduated 1966). Demonstrated exceptional aptitude in mathematics and technical subjects.",
+    "educationKo": "우수한 학업 기록으로 메드포드 고등학교 졸업. 존스 홉킨스 대학교에 입학하여 대출과 주차장 관리원으로 일하며 학비를 낸다. 존스 홉킨스 대학교 졸업. 매사추세츠 보스턴의 하버드 경영대학원에서 MBA 취득(1966년 졸업). 수학과 기술 과목에 뛰어난 능력을 보였다.",
+    "earlyLife": "매사추세츠 메드포드에서 성장했으며, 보스턴 북서쪽으로 약 8km 떨어진 미스틱 강변에 위치. 스카우트 중 상위 5%에만 주어지는 이글 스카우트가 되어 초기 인격 발달을 보여줌. 대학교를 통해 여러 일을 하며 교육 자금을 조달하여 주도성과 금전 의식을 입증. 제2차 세계대전 이후 미국의 번영과 기술 발전 시대를 맞이하며 성장.",
+    "source": "Wikipedia; Biography.com; EBSCO Research; Johns Hopkins; Harvard Business School",
+    "earlyLifeKo": "매사추세츠 메드포드에서 성장했으며, 보스턴 북서쪽으로 약 8km 떨어진 미스틱 강변에 위치. 스카우트 중 상위 5%에만 주어지는 이글 스카우트가 되어 초기 인격 발달을 보여줌. 대학교를 통해 여러 일을 하며 교육 자금을 조달하여 주도성과 금전 의식을 입증. 제2차 세계대전 이후 미국의 번영과 기술 발전 시대를 맞이하며 성장."
+  },
+  "careerTimeline": [
+    {
+      "year": 1966,
+      "event": "Graduates from Harvard Business School with MBA; joins Salomon Brothers as security counting clerk earning $9,000 annually",
+      "eventKo": "하버드 경영대학원에서 MBA 취득 후 졸업; 솔로몬 브라더스에 증권 계산 업무 담당자로 입사, 연봉 9,000달러"
+    },
+    {
+      "year": 1968,
+      "event": "Promoted to bond trader at Salomon Brothers; begins work in trading operations",
+      "eventKo": "솔로몬 브라더스의 채권 거래자로 승진; 거래 운영 업무 시작"
+    },
+    {
+      "year": 1972,
+      "event": "Becomes chief of equity trading operation at Salomon Brothers by early 1970s; accelerates career trajectory",
+      "eventKo": "1970년대 초 솔로몬 브라더스의 주식 거래 부門의 최고 책임자 됨; 경력 상승 가속화"
+    },
+    {
+      "year": 1976,
+      "event": "Named partner at Salomon Brothers; placed in charge of developing firm's computerized in-house financial systems",
+      "eventKo": "솔로몬 브라더스의 파트너로 임명; 회사의 컴퓨터화된 사내 금융 시스템 개발 책임"
+    },
+    {
+      "year": 1981,
+      "event": "Fired from Salomon Brothers after 15-year career following firm's merger with Phibro Corporation; receives $10 million partnership settlement as severance package",
+      "eventKo": "피브로 코퍼레이션과의 합병 이후 15년의 경력 후 솔로몬 브라더스에서 해고; 퇴직금으로 1,000만 달러의 파트너십 정산금 받음"
+    },
+    {
+      "year": 1981,
+      "event": "Founds Innovative Market Systems (IMS) the day after Salomon Brothers termination with co-founders Thomas Secunda, Duncan MacMillan, Charles Zegar; Merrill Lynch invests $30 million for 30% equity stake and becomes first customer",
+      "eventKo": "솔로몬 브라더스 해고 다음 날 공동창업자 토마스 세쿤다, 던칸 맥밀란, 찰스 제가르와 함께 혁신 시장 시스템(IMS) 설립; 머릴 린치가 30% 지분에 3,000만 달러 투자, 첫 고객이 됨"
+    },
+    {
+      "year": 1982,
+      "event": "Releases Market Master terminal (later renamed Bloomberg Terminal) in December; Merrill Lynch purchases 20 terminals as anchor customer, validating product-market fit",
+      "eventKo": "12월에 마켓 마스터 터미널(이후 블룸버그 터미널로 이름 변경) 출시; 머릴 린치가 20개 터미널 구매, 제품-시장 적합성 입증"
+    },
+    {
+      "year": 1986,
+      "event": "Company officially rebrands as Bloomberg L.P., consolidating identity around Bloomberg name and brand recognition",
+      "eventKo": "회사가 공식적으로 블룸버그 L.P.로 브랜드 변경, 블룸버그 이름과 브랜드 인지도 중심으로 정체성 통합"
+    },
+    {
+      "year": 1990,
+      "event": "Co-founds Bloomberg News with Matthew Winkler to deliver financial news reporting to Bloomberg terminal subscribers; establishes media division",
+      "eventKo": "매튜 윙클러와 함께 블룸버그 뉴스 공동 설립, 블룸버그 터미널 구독자들에게 금융 뉴스 제공; 미디어 부문 설립"
+    },
+    {
+      "year": 2001,
+      "event": "Steps down as CEO of Bloomberg L.P.; brings in professional management while remaining company ownership majority",
+      "eventKo": "블룸버그 L.P.의 CEO 사임; 전문 경영진 영입하며 회사 지분 대부분 유지"
+    },
+    {
+      "year": 2002,
+      "event": "Elected Mayor of New York City; serves three consecutive terms until 2013 while maintaining Bloomberg L.P. involvement",
+      "eventKo": "뉴욕시장으로 당선; 2013년까지 3연임 재직하며 블룸버그 L.P. 관여 유지"
+    },
+    {
+      "year": 2008,
+      "event": "During financial crisis, Merrill Lynch sells remaining 20% stake back to Bloomberg Inc. for $4.43 billion, valuing Bloomberg L.P. at approximately $22.5 billion",
+      "eventKo": "금융 위기 중 머릴 린치가 남은 20% 지분을 블룸버그 주식회사에 43억 3천만 달러에 판매, 블룸버그 L.P. 가치 약 225억 달러로 평가"
+    },
+    {
+      "year": 2014,
+      "event": "Returns as CEO of Bloomberg L.P., resuming active leadership of company after 13-year absence",
+      "eventKo": "블룸버그 L.P.의 CEO로 복귀, 13년의 공백 후 회사 활동적 리더십 재개"
+    },
+    {
+      "year": 2020,
+      "event": "Runs for U.S. Presidential office as Democratic candidate; campaign lasts four months, ending after disappointing Super Tuesday performance; finances campaign with personal wealth exceeding $900 million",
+      "eventKo": "민주당 후보로 미국 대선에 출마; 4개월간의 캠페인, 슈퍼 화요일 부진 후 종료; 9억 달러 초과의 개인 자산으로 캠페인 자금 조달"
+    },
+    {
+      "year": 2023,
+      "event": "Steps down again as CEO of Bloomberg L.P.; establishes Bloomberg Philanthropies as major vehicle for charitable giving and social impact",
+      "eventKo": "블룸버그 L.P.의 CEO 재사임; 자선 기부 및 사회적 영향을 위한 주요 수단으로 블룸버그 필란스로피 설립"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1981,
+      "description": "Fired from Salomon Brothers partnership after 15 years of dedicated service due to office politics, executive conflicts, and merger dynamics following Phibro acquisition; passed over for employment in merged entity despite partner status",
+      "descriptionKo": "15년의 헌신적 서비스 후 사무실 정치, 경영진 충돌, 피브로 인수 후 합병 역학관계로 인해 솔로몬 브라더스 파트너십에서 해고; 파트너 지위에도 불구하고 합병된 회사의 고용에서 제외",
+      "lesson": "Learned that job security depends on continuously demonstrating value and building external opportunities; recognized that working for others inherently carries termination risk; transformed setback into catalyst for entrepreneurship, stating 'Every setback is an opportunity'; this failure became most formative event in his business career",
+      "lessonKo": "직업 보안은 지속적으로 가치를 입증하고 외부 기회를 구축하는 데 달려 있음을 배움; 타인을 위해 일하는 것이 본질적으로 해고 위험을 안고 있음을 인식; 'Every setback is an opportunity'라고 말하며 좌절을 기업가정신의 촉매제로 변환; 이 실패가 사업 경력의 가장 교육적인 사건이 됨",
+      "source": "Fortune; Entrepreneur Magazine; Bloomberg by Bloomberg"
+    },
+    {
+      "year": 2011,
+      "description": "Bloomberg company invested millions in social media platform called 'The Grid' attempting to compete with Facebook and Twitter; platform failed to gain meaningful traction and was shut down after approximately one year",
+      "descriptionKo": "블룸버그 회사가 페이스북과 트위터와 경쟁하려던 '더 그리드'라는 소셜 미디어 플랫폼에 수백만 달러 투자; 플랫폼은 의미 있는 견인력을 얻지 못했고 약 1년 후 종료",
+      "lesson": "Recognized company's core strength lay in financial data and information, not consumer social networking; learned that not every market opportunity matches corporate competencies; used failure as learning opportunity for future digital product development strategy",
+      "lessonKo": "회사의 핵심 강점은 소비자 소셜 네트워킹이 아닌 금융 데이터 및 정보에 있음을 인식; 모든 시장 기회가 기업 역량과 일치하지는 않음을 배움; 실패를 향후 디지털 제품 개발 전략의 학습 기회로 활용",
+      "source": "Bloomberg; various tech reporting sources"
+    },
+    {
+      "year": 2020,
+      "description": "2020 U.S. Presidential campaign failed dramatically; entered race late after Super Tuesday, spending over $900 million of personal wealth with minimal return; campaign ended after less than four months with disappointing electoral performance",
+      "descriptionKo": "2020년 미국 대선 캠페인 극적 실패; 슈퍼 화요일 후 늦게 출마하여 9억 달러 이상의 개인 자산 지출, 최소한의 수익; 4개월 미만으로 부진한 선거 성적 후 종료",
+      "lesson": "Demonstrated that financial resources alone cannot guarantee success in politics; learned that political skill set differs fundamentally from business acumen; recognized importance of early organizational building and grassroots engagement in electoral politics",
+      "lessonKo": "재정적 자원만으로는 정치에서 성공을 보장할 수 없음을 입증; 정치 기술 세트가 사업 능력과 근본적으로 다름을 배움; 선거 정치에서 초기 조직 구축과 풀뿌리 참여의 중요성을 인식",
+      "source": "CNN Politics; Bloomberg; various political analysis sources"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 1981,
+      "netWorth": 10000000
+    },
+    {
+      "year": 1990,
+      "netWorth": 100000000
+    },
+    {
+      "year": 2000,
+      "netWorth": 2500000000
+    },
+    {
+      "year": 2005,
+      "netWorth": 11000000000
+    },
+    {
+      "year": 2009,
+      "netWorth": 16000000000
+    },
+    {
+      "year": 2015,
+      "netWorth": 40000000000
+    },
+    {
+      "year": 2019,
+      "netWorth": 55500000000
+    },
+    {
+      "year": 2020,
+      "netWorth": 48000000000
+    },
+    {
+      "year": 2021,
+      "netWorth": 106000000000
+    },
+    {
+      "year": 2026,
+      "netWorth": 109400000000
+    }
+  ],
+  "quotes": [
+    {
+      "text": "You're entitled to your own opinions, but not your own facts.",
+      "textKo": "자신의 의견은 소유할 수 있지만 자신의 사실은 소유할 수 없다.",
+      "context": "Core philosophy about truth, evidence, and data-driven decision making; reflects Bloomberg's emphasis on objective reality over partisan rhetoric",
+      "contextKo": "진실, 증거, 데이터 기반 의사결정에 대한 핵심 철학; 당파적 수사학보다 객관적 현실에 대한 블룸버그의 강조를 반영",
+      "source": "BrainyQuote; multiple biographical sources"
+    },
+    {
+      "text": "What you've got to do is be honest. Say what you believe. Give it to them straight. Just don't wuss out.",
+      "textKo": "해야 할 일은 정직함이다. 당신이 믿는 것을 말하라. 그들에게 솔직하게 말하라. 흔들리지 말라.",
+      "context": "Advice on authentic leadership and communication; emphasizes directness and conviction even when unpopular",
+      "contextKo": "진정한 리더십과 커뮤니케이션에 대한 조언; 인기가 없을 때에도 직설성과 신념을 강조",
+      "source": "Inspirational Quotes compilations"
+    },
+    {
+      "text": "Progress is not inevitable. It's up to us to create it.",
+      "textKo": "진보는 필연적이지 않다. 그것은 우리에게 달려 있다.",
+      "context": "Statement about agency and responsibility in driving positive change, both in business and civic life",
+      "contextKo": "사업과 시민 생활 모두에서 긍정적 변화를 주도하는 것에 대한 주도권과 책임성에 관한 성명",
+      "source": "Bloomberg quotations database"
+    },
+    {
+      "text": "Working collectively and collaboratively is the difference between mediocrity by yourself or success as a team. You have to share the pain and the responsibility and if you do then you will also share in the rewards.",
+      "textKo": "집단적으로 그리고 협력적으로 일하는 것은 혼자서의 평범함과 팀으로서의 성공 사이의 차이다. 고통과 책임을 공유해야 하고, 그렇게 하면 보상도 공유하게 된다.",
+      "context": "Philosophy on teamwork, distributed leadership, and shared accountability in organizational success",
+      "contextKo": "팀워크, 분산된 리더십, 조직적 성공에서 공유된 책임성에 대한 철학",
+      "source": "Bloomberg L.P. company materials; leadership talks"
+    },
+    {
+      "text": "Neither party has God on its side, a monopoly on good ideas, or a lock on any single fiscal, social, or moral philosophy.",
+      "textKo": "어느 정당도 신을 자신의 편에 두지 못하고, 좋은 아이디어를 독점하거나, 어떤 재정적, 사회적, 도덕적 철학의 독점권도 없다.",
+      "context": "Political philosophy statement explaining his evolution from Democrat to Republican to Independent, rejecting partisan tribalism",
+      "contextKo": "민주당에서 공화당을 거쳐 무소속으로의 진화를 설명하며 당파적 종파주의를 거부하는 정치 철학 성명",
+      "source": "Political speeches and interviews"
+    },
+    {
+      "text": "If you never fail, you're not setting your sights high enough.",
+      "textKo": "실패하지 않으면 목표를 충분히 높게 설정하지 않은 것이다.",
+      "context": "Entrepreneurial philosophy embracing failure as necessary component of innovation and ambitious goal-setting",
+      "contextKo": "혁신과 야심 찬 목표 설정의 필수 요소로 실패를 받아들이는 기업가정신 철학",
+      "source": "Leadership talks; Bloomberg by Bloomberg"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": "Bloomberg by Bloomberg",
+        "note": "Autobiography published 1997; co-authored with Matthew Winkler; describes early Wall Street career, being fired, founding Bloomberg L.P., and path to becoming media mogul and NYC mayor",
+        "noteKo": "1997년 발표된 자서전; 매튜 윙클러와 공동 저술; 월스트리트 초기 경력, 해고, 블룸버그 L.P. 설립, 미디어 거인 및 뉴욕시장이 되는 과정 설명"
+      },
+      {
+        "title": "Bloomberg by Bloomberg: Revised and Updated",
+        "note": "Updated edition published 2019; includes additional chapters on mayoral tenure, philanthropic work, and continued Bloomberg L.P. expansion; all royalties donated to Committee to Protect Journalists",
+        "noteKo": "2019년 발표된 개정판; 시장 재임, 자선 활동, 블룸버그 L.P. 지속적 확장에 대한 추가 장 포함; 모든 인세는 기자보호위원회에 기부"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "The Man Who Made It: The Remarkable Life of Michael Bloomberg",
+        "author": "Eleanor Randolph",
+        "why": "Comprehensive unauthorized biography exploring Bloomberg's personal life, business decisions, political career, and philanthropic impact",
+        "whyKo": "블룸버그의 개인 생활, 사업 결정, 정치 경력, 자선 영향을 탐구하는 포괄적인 비공인 전기"
+      },
+      {
+        "title": "Good to Great",
+        "author": "Jim Collins",
+        "why": "Bloomberg frequently cites this business analysis work; aligns with his philosophy on execution, data-driven decisions, and sustained organizational excellence",
+        "whyKo": "블룸버그가 자주 인용하는 사업 분석 저작; 실행, 데이터 기반 의사결정, 지속적인 조직 우수성에 대한 그의 철학과 일치"
+      },
+      {
+        "title": "Moneyball",
+        "author": "Michael Lewis",
+        "why": "Reflects Bloomberg's belief in quantitative analysis and data-driven decision making across domains including business and civic management",
+        "whyKo": "사업 및 시민 관리를 포함한 영역 전반에 걸친 정량 분석 및 데이터 기반 의사결정에 대한 블룸버그의 믿음을 반영"
+      },
+      {
+        "title": "Leaders: Myth and Reality",
+        "author": "Warren Bennis",
+        "why": "Influenced Bloomberg's thinking on authentic leadership, transparency, and the personal qualities required for leading large organizations",
+        "whyKo": "진정한 리더십, 투명성, 대규모 조직을 이끌기 위해 필요한 개인적 자질에 대한 블룸버그의 생각에 영향을 미침"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Pioneering financial information technology, transforming data journalism, exceptional work ethic and discipline, data-driven decision making, creating egalitarian corporate culture with no titles or executive offices, direct and honest communication style, political independence and pragmatism, substantial philanthropic engagement through Bloomberg Philanthropies, expertise in applying business principles to civic governance",
+    "knownForKo": "금융 정보 기술 개척, 데이터 저널리즘 혁신, 뛰어난 근무 윤리와 규율, 데이터 기반 의사결정, 직책이나 임원 사무실이 없는 평등주의 기업 문화 조성, 직설적이고 정직한 커뮤니케이션 스타일, 정치적 독립성과 실용주의, 블룸버그 필란스로피를 통한 실질적인 자선 참여, 시민 거버넌스에 사업 원칙을 적용하는 전문성",
+    "philanthropy": "Massive philanthropic footprint through Bloomberg Philanthropies; primary focuses include public health initiatives (pandemic preparedness, smoking cessation), climate change and environmental action, education (education innovation, public school funding), arts and culture, social advancement. Signed Giving Pledge committing to give away majority of wealth. Donated hundreds of millions to Johns Hopkins University, Harvard Business School, and other educational institutions. Global reach across multiple continents with emphasis on evidence-based program effectiveness.",
+    "philanthropyKo": "블룸버그 필란스로피를 통한 광범위한 자선 활동; 주요 초점은 공중 보건 계획(팬데믹 대비, 금연), 기후 변화 및 환경 조치, 교육(교육 혁신, 공립학교 자금), 예술 및 문화, 사회 진출. 대부분의 부를 기부하겠다는 기부 서약 서명. 존스 홉킨스 대학교, 하버드 경영대학원 및 기타 교육 기관에 수억 달러 기부. 증거 기반 프로그램 효과성 강조하며 여러 대륙에 걸친 글로벌 영향력.",
+    "controversies": "Controversial stop-and-frisk policing policy during NYC mayoralty criticized for racial profiling; later apologized but faced accusations of insufficient contrition. Controversial 2020 presidential campaign criticized for attempting to buy election through massive spending. Past comments on gender and minorities criticized as insensitive, though he has acknowledged evolution on these issues. Some criticism of Bloomberg L.P. connections to authoritarian governments seeking financial information. Environmental and labor critics point out Bloomberg L.P. financial data terminals serve extractive industries and problematic governments.",
+    "controversiesKo": "뉴욕시장 재임 중 논란이 되는 스탑앤프리스크 경찰 정책이 인종 차별로 비판받음; 나중에 사과했지만 불충분한 참회 혐의에 직면. 논란이 되는 2020년 대선 캠페인이 막대한 지출을 통해 선거를 사려고 한다고 비판. 과거 성별과 소수자에 대한 언론이 무분별하다고 비판받았지만 이 문제들에 대해 입장 변화 인정. 권위주의 정부의 금융 정보 추구와의 블룸버그 L.P. 연결에 대한 일부 비판. 환경 및 노동 비평가들은 블룸버그 L.P. 금융 데이터 터미널이 추출 산업 및 문제적 정부에 사용된다고 지적"
+  },
+  "additionalInsights": {
+    "pivotalMentors": [
+      {
+        "name": "Father (William Bloomberg)",
+        "relationship": "Early influence through bookkeeper career and work ethic",
+        "influence": "Instilled values of financial discipline, precision with numbers, and steady professional commitment"
+      },
+      {
+        "name": "Mother (Charlotte Bloomberg)",
+        "relationship": "Educational emphasis and values foundation",
+        "influence": "Emphasized importance of education and intellectual development; NYU graduate herself, modeled value of learning"
+      },
+      {
+        "name": "Harvard Business School Faculty",
+        "relationship": "MBA education during transformative 1960s period",
+        "influence": "Provided frameworks for analytical thinking, strategic planning, and business fundamentals that shaped entrepreneurial approach"
+      },
+      {
+        "name": "Salomon Brothers Partners and Mentors",
+        "relationship": "15-year institutional learning in Wall Street culture",
+        "influence": "Taught financial markets expertise, trading operations, systems building, and importance of meritocracy and execution"
+      }
+    ],
+    "dailyRoutine": "Early riser, joining exclusive billionaire group with consistent morning discipline. Runs on treadmill for approximately one hour daily, supplemented by golf and other physical activities, maintaining rigorous fitness regimen. Prioritizes reading extensively in morning routine—tech industry practice of staying current with latest news and developments across finance, technology, and policy domains. Works structured business day with focus on data analysis and evidence-based decision making. Highly disciplined schedule reflecting military-like precision; incorporates both quantitative analysis and public engagement depending on role. As NYC Mayor, maintained active public schedule balancing administrative work with frequent speaking engagements, panels, and media appearances. Discipline extends to decision-making approach: heavily relies on data analytics, statistics, and empirical evidence rather than intuition or emotion.",
+    "keyAnecdotes": [
+      "Sold first 20 Bloomberg terminals to Merrill Lynch through extraordinary persistence—for approximately one year, Bloomberg brought coffee and tea each morning to Merrill Lynch employees, introducing himself at their desks with simple pitch: 'Hi, I am Mike Bloomberg. I brought you a cup of coffee. Can I talk to you?' This grassroots sales approach demonstrated hustle and relationship-building skills crucial to early success",
+      "Applied to U.S. Armed Forces Officer Candidate School in 1966 at height of Vietnam War but was rejected for having flat feet (fallen arches)—a seemingly minor medical disqualification that proved transformative, keeping Bloomberg in civilian life where he built his business empire instead of military career",
+      "Frequently told family story about seeing Harry Truman give whistle-stop campaign speech from back of train in 1948, inspiring his political interests; years later family photo surfaced revealing the speaker was actually Adlai Stevenson, probably in 1952—demonstrating how even billionaires' cherished personal narratives can contain misremembered details"
+    ],
+    "turningPoint": "Getting fired from Salomon Brothers in 1981 after 15 years of climbing corporate ladder. Bloomberg received $10 million severance package the same day, but the humiliation of being let go despite partner status proved more significant than the financial compensation. He founded Bloomberg L.P. literally the next morning, transforming what appeared to be career failure into catalyst for building $109 billion empire. Bloomberg himself emphasized this moment: 'Getting fired from Salomon Brothers drove home a lesson that I've carried with me throughout my career in business, government, and philanthropy: Every setback is an opportunity.'",
+    "managementStyle": "Technocratic, data-driven, execution-focused leadership emphasizing results over process. Created egalitarian corporate culture with minimal hierarchy—no titles, no executive offices, everyone has identically sized desks, promoting transparency and accessibility. Focuses on collaboration and transparency over command-and-control. Excellent talent evaluator, known for surrounding himself with driven, ambitious individuals ('doers' with 'fire in their bellies' and no 'notions of social caste'). Values delegation while holding people accountable; gives teams authority to own their work. Emphasizes speed of decision-making and rapid execution. Applies lessons from Wall Street experience and two decades building Bloomberg L.P. to civic governance—views NYC as corporation with citizens as customers. Data-driven decision-making permeates everything—strong reliance on analytics, statistics, and empirical evidence. Less ideologically driven, more pragmatically focused on measurable outcomes. Known for willingness to change positions when evidence warrants; emphasizes intellectual honesty over ego protection."
+  },
+  "sajuConnection": {
+    "note": "Leave null.",
+    "value": null
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "id": "10",
+  "name": "Steve Jobs",
+  "childhood": {
+    "birthPlace": "San Francisco, California",
+    "birthPlaceKo": "미국 캘리포니아 샌프란시스코",
+    "familyBackground": "Born February 24, 1955 to Joanne Schieble (speech therapist) and Abdulfattah 'John' Jandali (Syrian political science professor), both University of Wisconsin graduate students. Adopted as an infant by Clara (accountant) and Paul Jobs (Coast Guard veteran and machinist). Grew up in Mountain View, California in area that would later become Silicon Valley. Had one adopted sister, Patty.",
+    "familyBackgroundKo": "1955년 2월 24일 조앤 쉬블(언어치료사)과 압둘파따 '존' 잔달리(시리아 정치학 교수)의 아들로 태어났으며, 둘 다 위스콘신 대학교 대학원 학생이었다. 유아로서 회계사 클라라와 해안경비대 퇴역군인이자 기계공인 폴 조브스에게 입양되었다. 나중에 실리콘 밸리가 될 지역인 캘리포니아 마운틴 뷰에서 성장했다. 입양 누나 패티가 있었다.",
+    "education": "Attended Reed College in Portland in 1972 but withdrew after six months. Did not have direction initially. Dropped in on creative classes at Reed, particularly calligraphy course that developed his love of typography. Later discovered he was adopted at age 27 and researched his biological parents. Traveled to India in 1974 seeking enlightenment and studied Zen Buddhism.",
+    "educationKo": "1972년 포틀랜드의 리드 칼리지에 입학했으나 6개월 후 중퇴했다. 초기에 명확한 방향이 없었다. 리드의 창의 수업, 특히 타이포그래피에 대한 사랑을 키운 서예 수업에 청강했다. 27세에 자신이 입양되었다는 것을 발견하고 생부모를 조사했다. 깨달음을 추구하기 위해 1974년 인도로 여행했고 선불교를 공부했다.",
+    "earlyLife": "Grew up surrounded by engineers working on electronics in garages, which shaped his interest in the field. One of favorite hobbies was working with electronics in garage with adoptive father, taking apart and reassembling radios and other electronics. Met Steve Wozniak (future Apple co-founder) at Hewlett-Packard as a teenager. Influenced heavily by counterculture and Zen Buddhism philosophy throughout youth.",
+    "earlyLifeKo": "차고에서 전자 제품에 관한 일을 하는 엔지니어들에 둘러싸여 성장했으며, 이는 그의 해당 분야에 대한 관심을 형성했다. 즐겨 하는 취미 중 하나는 양부와 함께 차고에서 전자 제품으로 일하면서 라디오 및 기타 전자 제품을 분해하고 재조립하는 것이었다. 십대 때 휴렛팩커드에서 미래의 애플 공동 설립자인 스티브 워즈니악을 만났다. 청년 시절 내내 반문화 및 선불교 철학의 영향을 많이 받았다.",
+    "source": "Wikipedia, Biography.com, Britannica, Ducksters, Notable Biographies"
+  },
+  "careerTimeline": [
+    {
+      "year": 1971,
+      "event": "Met Steve Wozniak at Hewlett-Packard, beginning the partnership that would lead to Apple's founding",
+      "eventKo": "휴렛팩커드에서 스티브 워즈니악을 만남, 애플 설립으로 이어질 파트너십 시작"
+    },
+    {
+      "year": 1976,
+      "event": "Co-founded Apple Computer Company on April 1, 1976 with Steve Wozniak and Ronald Wayne. Launched Apple I computer for $666.66 - first single-board computer with video interface and onboard ROM",
+      "eventKo": "1976년 4월 1일 스티브 워즈니악과 로널드 웨인과 함께 애플 컴퓨터 회사 공동 설립. 비디오 인터페이스와 내장 ROM을 갖춘 첫 번째 단일 보드 컴퓨터인 애플 I을 $666.66에 출시"
+    },
+    {
+      "year": 1977,
+      "event": "Released Apple II, the world's first widely used personal computer. Jobs focused on marketing and business while Wozniak designed the computer",
+      "eventKo": "세계 최초의 광범위하게 사용된 개인용 컴퓨터인 애플 II 출시. 잡스는 마케팅과 비즈니스에 집중하고 워즈니악은 컴퓨터를 설계함"
+    },
+    {
+      "year": 1980,
+      "event": "Apple Computer went public in December 1980. Jobs' 20% stake made him worth $250 million at age 25",
+      "eventKo": "1980년 12월 애플 컴퓨터 상장. 잡스의 20% 지분이 25세에 2억 5천만 달러의 가치를 만듦"
+    },
+    {
+      "year": 1984,
+      "event": "Introduced revolutionary Macintosh in January at Flint Center auditorium in Cupertino with brilliantly choreographed demonstration",
+      "eventKo": "쿠퍼티노 플린트 센터 극장에서 1월에 혁신적인 매킨토시를 영리하게 안무된 시연으로 소개"
+    },
+    {
+      "year": 1985,
+      "event": "Forced out as CEO of Apple following power struggle with board of directors. Sold 99.999% of his Apple shares (retaining one share), netting approximately $100 million",
+      "eventKo": "이사진과의 권력 싸움으로 애플의 CEO직에서 축출됨. 애플 주식의 99.999%를 매각(1주 보유), 약 1억 달러 순수익"
+    },
+    {
+      "year": 1985,
+      "event": "Founded NeXT Computer Company after leaving Apple, aimed at revolutionizing education and business sectors",
+      "eventKo": "애플을 떠난 후 교육 및 비즈니스 분야를 혁신하는 것을 목표로 NeXT 컴퓨터 회사 설립"
+    },
+    {
+      "year": 1986,
+      "event": "Purchased Pixar from Lucasfilm for $10 million, becoming chairman and majority shareholder. Built it into major animation studio",
+      "eventKo": "루카스필름에서 픽사를 1천만 달러에 구입하여 회장 및 주요 주주가 됨. 주요 애니메이션 스튜디오로 구축"
+    },
+    {
+      "year": 1995,
+      "event": "Pixar released Toy Story, the first full-length feature film to be completely computer-animated, becoming massive critical and commercial success",
+      "eventKo": "픽사가 완전히 컴퓨터 애니메이션으로 제작된 첫 번째 장편 영화인 토이스토리를 출시하여 엄청난 비평적, 상업적 성공을 거둠"
+    },
+    {
+      "year": 1997,
+      "event": "Apple purchased NeXT Computer for $400 million. Jobs named interim CEO in place of ousted Gil Amelio and installed NeXT executive team at Apple",
+      "eventKo": "애플이 NeXT 컴퓨터를 4억 달러에 인수. 잡스가 축출된 길 아멜리오를 대신하여 임시 CEO로 임명되고 NeXT 경영진 팀이 애플에 배치됨"
+    },
+    {
+      "year": 1998,
+      "event": "Introduced iMac at Flint Center, a revolutionary all-in-one computer that revived Apple with sleek design and focused product line",
+      "eventKo": "플린트 센터에서 세련된 디자인과 집중된 제품 라인으로 애플을 부활시킨 혁명적 일체형 컴퓨터 iMac 소개"
+    },
+    {
+      "year": 2001,
+      "event": "Introduced first iPod in October, revolutionizing how people listen to music. Became foundation for Apple's digital lifestyle strategy",
+      "eventKo": "10월 첫 번째 아이팟을 소개하여 사람들이 음악을 듣는 방식에 혁명을 일으킴. 애플의 디지털 라이프스타일 전략의 기초가 됨"
+    },
+    {
+      "year": 2003,
+      "event": "Diagnosed with rare islet-cell pancreatic neuroendocrine tumor (cancer). Following year announced he had undergone surgery to remove tumor",
+      "eventKo": "드문 섬세포 췌장신경내분비종양(암) 진단받음. 다음 해 종양 제거 수술을 받았다고 발표"
+    },
+    {
+      "year": 2007,
+      "event": "Sold Pixar to Disney for $7.4 billion in all-stock deal. Received 138 million Disney shares, becoming Disney's largest individual shareholder. Became member of Disney's board",
+      "eventKo": "픽사를 디즈니에 전주식 거래로 74억 달러에 매각. 1억 3,800만 주의 디즈니 주식을 받아 디즈니의 최대 개인 주주가 됨. 디즈니 이사회 회원이 됨"
+    },
+    {
+      "year": 2007,
+      "event": "Introduced revolutionary iPhone on January 9, changing mobile industry forever. Launched App Store ecosystem in 2008",
+      "eventKo": "1월 9일 혁명적인 아이폰을 소개하여 모바일 산업을 영원히 변경. 2008년 앱스토어 생태계 출시"
+    },
+    {
+      "year": 2010,
+      "event": "Introduced iPad tablet computer in April, creating entire new product category that transformed computing",
+      "eventKo": "4월에 아이패드 태블릿 컴퓨터를 소개하여 컴퓨팅을 변환한 완전히 새로운 제품 카테고리 창설"
+    },
+    {
+      "year": 2011,
+      "event": "Resigned as CEO of Apple in August due to declining health. Tim Cook became new CEO. Jobs died October 5, 2011 at age 56 from pancreatic cancer complications",
+      "eventKo": "건강 악화로 8월에 애플 CEO직 사퇴. 팀 쿡이 새로운 CEO가 됨. 잡스는 2011년 10월 5일 56세의 나이에 췌장암 합병증으로 사망"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1985,
+      "description": "Removed as CEO of Apple Computer following power struggle with board of directors. Lost control of company he co-founded. Forced to sell nearly all Apple shares, retaining only one symbolic share.",
+      "descriptionKo": "이사진과의 권력 싸움으로 애플 컴퓨터의 CEO직에서 제거됨. 공동 설립한 회사의 통제권 상실. 애플 주식의 거의 대부분을 매각하도록 강요되어 상징적인 1주만 보유.",
+      "lesson": "Learned that visionary leadership alone isn't enough without strong board support and business acumen. This setback led him to build stronger teams at NeXT and later at returning to Apple. Demonstrated that failure can redirect you to better opportunities - the NeXT experience and Pixar acquisition proved invaluable. Later described being fired as 'the best thing that could have ever happened' to him.",
+      "lessonKo": "선견적 리더십만으로는 강한 이사회 지원과 사업 감각 없이는 충분하지 않다는 것을 배웠다. 이 좌절은 NeXT에서 그리고 나중에 애플로 돌아갈 때 더 강한 팀을 구축하도록 이끌었다. 실패가 더 나은 기회로 당신을 리디렉션할 수 있음을 입증했고, NeXT 경험과 픽사 인수가 매우 귀중하다는 것을 증명했다. 나중에 해고되는 것을 '자신에게 일어날 수 있는 가장 좋은 일'이라고 설명했다.",
+      "source": "Medium, Entrepreneur, Wikipedia"
+    },
+    {
+      "year": 1985,
+      "description": "NeXT Computer Company struggled significantly in the market. Despite visionary ideas and innovative design, the company failed to capture significant market share. NeXT computers were expensive and faced fierce competition. Took until 1997 for Apple to acquire NeXT, acquiring its technology rather than the product line.",
+      "descriptionKo": "NeXT 컴퓨터 회사는 시장에서 상당히 어려움을 겪었다. 선견적인 아이디어와 혁신적인 디자인에도 불구하고 회사는 유의미한 시장 점유율을 확보하지 못했다. NeXT 컴퓨터는 비싸고 치열한 경쟁에 직면했다. 2007년까지 애플이 NeXT를 인수하기까지 4년이 걸렸으며, 제품 라인이 아닌 기술을 인수했다.",
+      "lesson": "Jobs learned that design and vision alone don't guarantee commercial success without proper business planning and market positioning. Recognized importance of understanding cost constraints and customer needs. Later applied these lessons at Apple, focusing on simplicity, cost-effectiveness, and user experience. NeXT served crucial function of preserving his reputation and providing valuable lessons in business viability.",
+      "lessonKo": "디자인과 비전만으로는 적절한 사업 계획 및 시장 포지셔닝 없이 상업적 성공을 보장하지 못한다는 것을 배웠다. 비용 제약과 고객 요구 사항을 이해하는 것의 중요성을 인식했다. 나중에 애플에서 단순성, 비용 효율성, 사용자 경험에 초점을 맞추면서 이러한 교훈을 적용했다. NeXT는 그의 명성을 보존하고 사업 실행 가능성에 대한 귀중한 교훈을 제공하는 결정적 역할을 했다.",
+      "source": "Medium, Press Farm, Entrepreneur"
+    },
+    {
+      "year": 1984,
+      "description": "Apple Lisa computer, which Jobs championed, was a commercial failure. High price point and limited software availability hindered adoption. Jobs later wished to forget about the Lisa project, reflecting on personal and professional struggles during that period.",
+      "descriptionKo": "잡스가 주도한 애플 리사 컴퓨터는 상업적 실패였다. 높은 가격대와 제한된 소프트웨어 가용성이 채택을 방해했다. 잡스는 나중에 리사 프로젝트를 잊고 싶어 하며 그 시기의 개인적, 전문적 어려움을 반영했다.",
+      "lesson": "Learned importance of pricing strategy and software ecosystem in product success. Applied these lessons to Macintosh and later products, ensuring robust software support and competitive pricing. Recognized that great design must be paired with practical business considerations.",
+      "lessonKo": "제품 성공에서 가격 책정 전략과 소프트웨어 생태계의 중요성을 배웠다. 매킨토시 및 이후 제품에 이러한 교훈을 적용하여 강력한 소프트웨어 지원 및 경쟁력 있는 가격 책정을 보장했다. 우수한 디자인은 실용적인 비즈니스 고려 사항과 쌍을 이루어야 한다는 것을 인식했다.",
+      "source": "Press Farm, Vocal Media"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 1978,
+      "netWorth": 0.001
+    },
+    {
+      "year": 1980,
+      "netWorth": 0.25
+    },
+    {
+      "year": 1985,
+      "netWorth": 0.1
+    },
+    {
+      "year": 1990,
+      "netWorth": 1.2
+    },
+    {
+      "year": 1995,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2000,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2005,
+      "netWorth": 3.2
+    },
+    {
+      "year": 2007,
+      "netWorth": 5.5
+    },
+    {
+      "year": 2010,
+      "netWorth": 8.3
+    },
+    {
+      "year": 2011,
+      "netWorth": 10.2
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do",
+      "textKo": "당신의 일은 인생의 큰 부분을 차지할 것이고, 진정으로 만족하는 유일한 방법은 당신이 위대한 일이라고 믿는 일을 하는 것이다. 위대한 일을 하는 유일한 방법은 당신이 하는 일을 사랑하는 것이다.",
+      "context": "Statement about importance of passion and meaning in work. Often cited as core philosophy guiding his product development and leadership approach",
+      "contextKo": "일의 열정과 의미의 중요성에 대한 성명. 그의 제품 개발 및 리더십 접근을 안내하는 핵심 철학으로 자주 인용됨"
+    },
+    {
+      "text": "Innovation distinguishes between a leader and a follower",
+      "textKo": "혁신은 리더와 추종자를 구별한다",
+      "context": "Core principle guiding Apple's product strategy and explaining philosophy behind constant pursuit of breakthrough products rather than incremental improvements",
+      "contextKo": "애플의 제품 전략을 안내하는 핵심 원칙이며 점진적 개선보다는 획기적인 제품 추구를 설명하는 철학"
+    },
+    {
+      "text": "People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are",
+      "textKo": "사람들은 집중이 집중해야 할 것에 '예'라고 말하는 것이라고 생각한다. 하지만 그건 전혀 의미가 아니다. 그것은 그곳에 있는 다른 백 개의 좋은 아이디어에 '아니오'라고 말하는 것을 의미한다.",
+      "context": "Explaining Apple's product line simplification strategy and philosophy about choosing what NOT to build as important as what to build",
+      "contextKo": "애플의 제품 라인 단순화 전략 및 무엇을 구축하지 않을 것인지 선택하는 것이 구축할 것만큼 중요하다는 철학 설명"
+    },
+    {
+      "text": "You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future",
+      "textKo": "미래를 보면서 점들을 연결할 수 없으며, 뒤돌아봐서만 연결할 수 있다. 그러므로 점들이 어떻게 든 당신의 미래에서 연결될 것이라고 믿어야 한다.",
+      "context": "Reflective statement about how seemingly unrelated experiences (like calligraphy, spirituality, etc.) eventually inform your life's work in unexpected ways. Often cited in commencement speeches",
+      "contextKo": "겉으로 보기에 관련 없는 경험(서예, 영성 등)이 결국 예상치 못한 방식으로 삶의 일에 영향을 미치는 방식에 대한 성찰적 성명. 졸업식 연설에서 자주 인용됨"
+    },
+    {
+      "text": "Stay hungry, stay foolish",
+      "textKo": "배고픔을 유지하고, 어리석음을 유지하라",
+      "context": "Closing exhortation in his famous Stanford commencement speech in 2005. Became iconic summary of his philosophy about continuous growth and taking risks",
+      "contextKo": "2005년 그의 유명한 스탠포드 졸업식 연설에서의 마지막 권장사항. 지속적인 성장 및 위험 감수에 대한 그의 철학의 상징적 요약이 됨"
+    },
+    {
+      "text": "Great things in business are never done by one person. They're done by a team of people",
+      "textKo": "사업에서의 위대한 일은 절대 한 사람에 의해 이루어지지 않는다. 그것은 사람들의 팀에 의해 이루어진다.",
+      "context": "Statement emphasizing importance of collaboration and team building, lessons learned from building teams at Apple, NeXT, and Pixar",
+      "contextKo": "협력 및 팀 구축의 중요성을 강조하는 성명으로, 애플, NeXT, 픽사에서 팀을 구축하면서 배운 교훈"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": null,
+        "note": "Steve Jobs did not author any books during his lifetime. After his death, his biography was compiled into 'Make Something Wonderful' (2023) using his own words and communications",
+        "noteKo": "스티브 잡스는 생전에 책을 저술하지 않았다. 그의 사망 후, 그의 전기가 자신의 말과 의사소통을 사용하여 '무엇인가 경이로운 것을 만들어라'(2023)로 편집되었다."
+      }
+    ],
+    "recommended": [
+      {
+        "title": "Autobiography of a Yogi",
+        "author": "Paramahansa Yogananda",
+        "why": "Jobs read it annually and gifted copies at his memorial. Captivated him deeply and reflected his spiritual interests and influence on his philosophy",
+        "whyKo": "잡스는 매년 읽고 그의 추도식에서 사본을 선물했다. 깊게 사로잡았으며 그의 영적 관심과 그의 철학에 대한 영향을 반영했다."
+      },
+      {
+        "title": "Zen Mind, Beginner's Mind",
+        "author": "Shunryu Suzuki",
+        "why": "Jobs attended classes by Shunryu Suzuki and considered Zen a deep influence on his life since those formative experiences. Influenced his design philosophy and approach to simplicity",
+        "whyKo": "잡스는 순류 스즈키의 수업에 참석했으며 선을 그 형성 경험 이후 삶에 깊은 영향을 미친 것으로 간주했다. 그의 디자인 철학과 단순성에 대한 접근 방식에 영향을 미쳤다."
+      },
+      {
+        "title": "Cutting Through Spiritual Materialism",
+        "author": "Chogyam Trungpa",
+        "why": "One of Jobs' favorite books that he shared with friends and highly recommended. Aligned with his spiritual and philosophical interests",
+        "whyKo": "잡스가 친구들과 공유하고 높이 추천한 즐겨 읽는 책 중 하나. 그의 영적, 철학적 관심과 일치했다."
+      },
+      {
+        "title": "Be Here Now",
+        "author": "Ram Dass",
+        "why": "Explored mindfulness and importance of living in present moment, concepts Jobs valued and incorporated into his philosophy about design and user experience",
+        "whyKo": "마음챙김과 현재 순간에 사는 것의 중요성을 탐구했으며, 잡스가 디자인 및 사용자 경험에 관한 자신의 철학에 소중히 여기고 포함시킨 개념"
+      },
+      {
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "why": "Jobs told Walter Isaacson he loved this book and reread it frequently as a teenager. Reflected his literary interests beyond just technical reading",
+        "whyKo": "잡스는 월터 아이작슨에게 이 책을 사랑하고 십대 때 자주 다시 읽었다고 말했다. 기술 독서 이상의 그의 문학적 관심을 반영했다."
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Visionary product designer and innovative thinker who revolutionized multiple industries (personal computers, animated films, digital music, mobile devices). Obsessed with simplicity, elegance, and user experience. Perfectionist with legendary attention to detail. Charismatic presenter and storyteller. Combination of artistic sensibility with technical understanding. Known for cutting-edge thinking about intersection of technology and liberal arts.",
+    "knownForKo": "여러 산업을 혁신한 비전 있는 제품 디자이너이자 혁신적 사상가(개인용 컴퓨터, 애니메이션 영화, 디지털 음악, 모바일 장치). 단순성, 우아함, 사용자 경험에 집착했다. 세부 사항에 대한 전설적인 주의력을 가진 완벽주의자. 카리스마적 발표자이자 스토리텔러. 예술적 감수성과 기술적 이해의 조합. 기술과 인문 과학의 교차점에 대한 첨단 사고로 알려져 있다.",
+    "philanthropy": "Jobs was notably less philanthropic than many billionaires during his lifetime, preferring to redirect wealth into business ventures. Did not believe in generational wealth - explicitly left minimal inheritances to his children. Most charitable giving came through his companies' initiatives rather than personal foundations. Donated Pixar stock to charitable causes after Disney acquisition. Estate planning reflected philosophy that wealth should be earned rather than inherited.",
+    "philanthropyKo": "잡스는 생전에 많은 억만장자들보다 눈에 띄게 자선적이지 않았으며, 부를 사업 벤처로 리디렉션하는 것을 선호했다. 세대 간 부의 이전을 믿지 않았으며, 자녀들에게 명시적으로 최소한의 상속금을 남겼다. 대부분의 자선 기부는 개인 재단보다는 그의 회사 이니셔티브를 통해 이루어졌다. 디즈니 인수 후 픽사 주식을 자선 사업에 기부했다. 재산 계획은 부가 상속되기보다는 벌어져야 한다는 철학을 반영했다.",
+    "controversies": "Removed from Apple in power struggle, creating perception of arrogance. NeXT Computer failure demonstrated limits of his vision in real market conditions. Struggled with authoritarian leadership style that alienated some employees. Had complex personal life including denying paternity of daughter Lisa for years. Resigned from Apple's board in 2006 and refused medical treatment initially for cancer (chose alternative medicine), potentially delaying effective treatment. Some criticized his perfectionism as creating unrealistic pressure on teams.",
+    "controversiesKo": "권력 싸움으로 애플에서 제거되어 거만함의 인식을 창출했다. NeXT 컴퓨터 실패는 실제 시장 조건에서 그의 비전의 한계를 입증했다. 일부 직원들을 疎외시킨 권위주의적 리더십 스타일로 어려움을 겪었다. 딸 리사의 부계를 수년간 부인하는 것을 포함한 복잡한 개인생활을 가졌다. 2006년 애플 이사회에서 사직했으며 처음에 암에 대한 의료 치료를 거부(대체 의학 선택)하여 효과적인 치료를 잠재적으로 지연시켰다. 일부는 그의 완벽주의가 팀에 비현실적인 압력을 만드는 것으로 비판했다."
+  },
+  "sajuConnection": {
+    "note": "This field will be written by us. Leave null.",
+    "value": null
+  }
+}

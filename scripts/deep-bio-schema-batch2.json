@@ -1,0 +1,146 @@
+{
+  "$schema": "Deep biography schema for billionaire profiles on 부자사주 — BATCH 2 (Bilingual EN/KO)",
+  "$instructions": "For each billionaire listed below, research and fill in as many fields as possible. Use Wikipedia, Forbes, Bloomberg, and reliable news sources. IMPORTANT: Every text field must have BOTH English AND Korean versions. English fields keep their original names; Korean fields add a 'Ko' suffix (e.g., 'earlyLife' for English, 'earlyLifeKo' for Korean). Korean text should be natural, fluent Korean — not machine-translated. Save each file in scripts/deep-bios/ with the naming convention shown below.",
+
+  "example": {
+    "id": "16",
+    "name": "Steve Ballmer",
+
+    "childhood": {
+      "birthPlace": "Detroit, Michigan, USA",
+      "birthPlaceKo": "미국 미시간주 디트로이트",
+      "familyBackground": "Father was a Swiss immigrant who worked as a manager at Ford Motor Company...",
+      "familyBackgroundKo": "아버지는 포드 자동차에서 관리자로 일한 스위스 이민자...",
+      "education": "Attended Detroit Country Day School, graduated from Harvard University magna cum laude...",
+      "educationKo": "디트로이트 컨트리 데이 스쿨을 졸업하고 하버드 대학교를 마그나 쿰 라우데로 졸업...",
+      "earlyLife": "Grew up in a middle-class family in the Detroit suburb of Farmington Hills...",
+      "earlyLifeKo": "디트로이트 교외 파밍턴 힐스의 중산층 가정에서 성장...",
+      "source": "Wikipedia, Forbes"
+    },
+
+    "careerTimeline": [
+      { "year": 1980, "event": "Joined Microsoft as its 30th employee and first business manager", "eventKo": "마이크로소프트의 30번째 직원이자 첫 비즈니스 매니저로 입사" },
+      { "year": 2000, "event": "Became CEO of Microsoft, succeeding Bill Gates", "eventKo": "빌 게이츠의 뒤를 이어 마이크로소프트 CEO 취임" }
+    ],
+
+    "failures": [
+      {
+        "year": 2013,
+        "description": "Description of the failure or setback in English",
+        "descriptionKo": "실패나 좌절에 대한 한국어 설명",
+        "lesson": "What they learned or how they recovered",
+        "lessonKo": "배운 점이나 극복 과정에 대한 한국어 설명",
+        "source": "Source"
+      }
+    ],
+
+    "wealthHistory": [
+      { "year": 2010, "netWorth": 14.5 },
+      { "year": 2015, "netWorth": 21.5 },
+      { "year": 2020, "netWorth": 69.0 },
+      { "year": 2025, "netWorth": 121.5 }
+    ],
+
+    "quotes": [
+      {
+        "text": "The exact quote in English",
+        "textKo": "한국어로 번역된 명언",
+        "context": "When/why they said it",
+        "contextKo": "언제/왜 이 말을 했는지 한국어 설명",
+        "source": "Where the quote was published"
+      }
+    ],
+
+    "books": {
+      "authored": [
+        { "title": "Book title or null if none", "note": "Optional note", "noteKo": "선택적 메모 (한국어)" }
+      ],
+      "recommended": [
+        { "title": "Book title", "author": "Author name", "why": "Why they recommend it", "whyKo": "추천 이유 (한국어)" }
+      ]
+    },
+
+    "personalTraits": {
+      "knownFor": "What they are most known for in English",
+      "knownForKo": "이 인물이 가장 잘 알려진 특징 (한국어)",
+      "philanthropy": "Charitable work description",
+      "philanthropyKo": "자선 활동 설명 (한국어)",
+      "controversies": "Brief mention of controversies",
+      "controversiesKo": "논란 요약 (한국어)"
+    },
+
+    "sajuConnection": {
+      "note": "This field will be written by us. Leave null.",
+      "value": null
+    }
+  },
+
+  "targetList": [
+    { "file": "051-rob-walton.json", "id": "10", "name": "Rob Walton", "netWorth": "$144.1B" },
+    { "file": "052-jim-walton.json", "id": "12", "name": "Jim Walton", "netWorth": "$141.4B" },
+    { "file": "053-alice-walton.json", "id": "13", "name": "Alice Walton", "netWorth": "$132.2B" },
+    { "file": "054-steve-ballmer.json", "id": "16", "name": "Steve Ballmer", "netWorth": "$121.5B" },
+    { "file": "055-changpeng-zhao.json", "id": "18", "name": "Changpeng Zhao (CZ)", "netWorth": "$108.7B" },
+    { "file": "056-giancarlo-devasini.json", "id": "22", "name": "Giancarlo Devasini", "netWorth": "$89.3B" },
+    { "file": "057-thomas-peterffy.json", "id": "24", "name": "Thomas Peterffy", "netWorth": "$79.1B" },
+    { "file": "058-charles-koch.json", "id": "25", "name": "Charles Koch", "netWorth": "$73.8B" },
+    { "file": "059-jeff-yass.json", "id": "28", "name": "Jeff Yass", "netWorth": "$67.4B" },
+    { "file": "060-dieter-schwarz.json", "id": "29", "name": "Dieter Schwarz", "netWorth": "$62.6B" },
+    { "file": "061-robin-zeng.json", "id": "30", "name": "Robin Zeng (曾毓群)", "netWorth": "$59.6B" },
+    { "file": "062-german-larrea.json", "id": "32", "name": "Germán Larrea Mota Velasco", "netWorth": "$58.8B" },
+    { "file": "063-tadashi-yanai.json", "id": "33", "name": "Tadashi Yanai", "netWorth": "$57.6B" },
+    { "file": "064-ken-griffin.json", "id": "35", "name": "Ken Griffin", "netWorth": "$49.2B" },
+    { "file": "065-lukas-walton.json", "id": "36", "name": "Lukas Walton", "netWorth": "$48.3B" },
+    { "file": "066-giovanni-ferrero.json", "id": "37", "name": "Giovanni Ferrero", "netWorth": "$47.7B" },
+    { "file": "067-jacqueline-mars.json", "id": "39", "name": "Jacqueline Mars", "netWorth": "$46.2B" },
+    { "file": "068-john-mars.json", "id": "40", "name": "John Mars", "netWorth": "$46.2B" },
+    { "file": "069-mark-mateschitz.json", "id": "42", "name": "Mark Mateschitz", "netWorth": "$44.8B" },
+    { "file": "070-iris-fontbona.json", "id": "43", "name": "Iris Fontbona", "netWorth": "$44.5B" },
+    { "file": "071-gianluigi-aponte.json", "id": "44", "name": "Gianluigi Aponte", "netWorth": "$43.8B" },
+    { "file": "072-rafaela-aponte-diamant.json", "id": "45", "name": "Rafaela Aponte-Diamant", "netWorth": "$43.8B" },
+    { "file": "073-andrea-pignataro.json", "id": "46", "name": "Andrea Pignataro", "netWorth": "$41.7B" },
+    { "file": "074-klaus-michael-kuehne.json", "id": "47", "name": "Klaus-Michael Kuehne", "netWorth": "$40B" },
+    { "file": "075-alain-wertheimer.json", "id": "48", "name": "Alain Wertheimer", "netWorth": "$39.4B" },
+    { "file": "076-gerard-wertheimer.json", "id": "49", "name": "Gerard Wertheimer", "netWorth": "$39.4B" },
+    { "file": "077-stephen-schwarzman.json", "id": "50", "name": "Stephen Schwarzman", "netWorth": "$38.2B" },
+    { "file": "078-jean-louis-van-der-velde.json", "id": "51", "name": "Jean-Louis van der Velde", "netWorth": "$38B" },
+    { "file": "079-paolo-ardoino.json", "id": "52", "name": "Paolo Ardoino", "netWorth": "$38B" },
+    { "file": "080-william-ding.json", "id": "53", "name": "William Ding (丁磊)", "netWorth": "$37.3B" },
+    { "file": "081-thomas-frist-jr.json", "id": "54", "name": "Thomas Frist Jr", "netWorth": "$37.1B" },
+    { "file": "082-alexey-mordashov.json", "id": "55", "name": "Alexey Mordashov", "netWorth": "$36.9B" },
+    { "file": "083-miriam-adelson.json", "id": "56", "name": "Miriam Adelson", "netWorth": "$36.6B" },
+    { "file": "084-savitri-jindal.json", "id": "57", "name": "Savitri Jindal", "netWorth": "$35.6B" },
+    { "file": "085-colin-huang.json", "id": "58", "name": "Colin Huang (黄峥)", "netWorth": "$35.6B" },
+    { "file": "086-eric-schmidt.json", "id": "59", "name": "Eric Schmidt", "netWorth": "$34.1B" },
+    { "file": "087-zheng-shuliang.json", "id": "60", "name": "Zheng Shuliang", "netWorth": "$34.1B" },
+    { "file": "088-eyal-ofer.json", "id": "61", "name": "Eyal Ofer", "netWorth": "$33.8B" },
+    { "file": "089-marilyn-simons.json", "id": "62", "name": "Marilyn Simons", "netWorth": "$32.5B" },
+    { "file": "090-he-xiangjian.json", "id": "63", "name": "He Xiangjian (何享健)", "netWorth": "$32.2B" },
+    { "file": "091-lyndal-stephens-greth.json", "id": "64", "name": "Lyndal Stephens Greth", "netWorth": "$32.1B" },
+    { "file": "092-eduardo-saverin.json", "id": "65", "name": "Eduardo Saverin", "netWorth": "$32B" },
+    { "file": "093-robert-pera.json", "id": "66", "name": "Robert Pera", "netWorth": "$31.7B" },
+    { "file": "094-idan-ofer.json", "id": "67", "name": "Idan Ofer", "netWorth": "$31.5B" },
+    { "file": "095-len-blavatnik.json", "id": "68", "name": "Len Blavatnik", "netWorth": "$31.2B" },
+    { "file": "096-elaine-marshall.json", "id": "70", "name": "Elaine Marshall", "netWorth": "$30.9B" },
+    { "file": "097-shiv-nadar.json", "id": "71", "name": "Shiv Nadar", "netWorth": "$30.5B" },
+    { "file": "098-michal-strnad.json", "id": "72", "name": "Michal Strnad", "netWorth": "$30.4B" },
+    { "file": "099-henry-samueli.json", "id": "73", "name": "Henry Samueli", "netWorth": "$30.4B" },
+    { "file": "100-melinda-french-gates.json", "id": "74", "name": "Melinda French Gates", "netWorth": "$29.9B" }
+  ],
+
+  "outputFormat": "Save as individual JSON files in scripts/deep-bios/ following the file names in the targetList above. One file per person. Each file must have the 'id' field matching the id shown in the targetList.",
+
+  "qualityGuidelines": [
+    "BILINGUAL: Every text field MUST have both English AND Korean versions. Add 'Ko' suffix for Korean fields.",
+    "Korean text should be natural, fluent Korean — NOT literal machine translation. Write as if for a Korean audience.",
+    "Include at least 5-8 career timeline events per person",
+    "Include at least 2-3 failures/setbacks per person (every billionaire has had them)",
+    "Include at least 5 data points in wealthHistory spanning their career (use Forbes/Bloomberg historical data)",
+    "Include at least 3 notable quotes with proper attribution",
+    "For books: check if they authored any books AND list books they've publicly recommended",
+    "personalTraits.knownFor should be 2-3 sentences, specific and vivid, not generic",
+    "For less-documented billionaires (heirs, private figures), still fill what you can and mark unknowns as null",
+    "All monetary values in wealthHistory are in billions USD",
+    "Cite sources for each section — this helps us verify accuracy"
+  ]
+}

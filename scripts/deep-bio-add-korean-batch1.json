@@ -1,0 +1,31 @@
+{
+  "$instructions": "Add Korean translations to existing deep biography files in scripts/deep-bios/. Each file (001 through 050) already has English content. Your job is to ADD Korean fields alongside the English ones. Do NOT change any existing English fields. Only ADD new fields with the 'Ko' suffix.",
+
+  "fieldsToAdd": {
+    "childhood.birthPlaceKo": "출생지 한국어",
+    "childhood.familyBackgroundKo": "가정 배경 한국어",
+    "childhood.educationKo": "학력 한국어",
+    "childhood.earlyLifeKo": "성장 과정 한국어",
+    "careerTimeline[].eventKo": "각 타임라인 이벤트의 한국어 버전",
+    "failures[].descriptionKo": "각 실패/좌절의 한국어 설명",
+    "failures[].lessonKo": "각 교훈의 한국어 설명",
+    "quotes[].textKo": "각 명언의 한국어 번역",
+    "quotes[].contextKo": "각 명언 맥락의 한국어 설명",
+    "books.authored[].noteKo": "저서 메모 한국어 (있는 경우)",
+    "books.recommended[].whyKo": "추천 이유 한국어",
+    "personalTraits.knownForKo": "특징 한국어",
+    "personalTraits.philanthropyKo": "자선 활동 한국어",
+    "personalTraits.controversiesKo": "논란 한국어"
+  },
+
+  "guidelines": [
+    "Korean text should be natural, fluent Korean — NOT literal machine translation",
+    "Write as if for a Korean audience who may not be familiar with Western business figures",
+    "Keep the same tone and detail level as the English version",
+    "For quotes: translate the meaning, not word-for-word. Korean readers should feel the impact",
+    "DO NOT modify any existing English fields — only ADD new Korean fields",
+    "Process all 50 files (001-elon-musk.json through 050-sam-altman.json)"
+  ],
+
+  "example": "For a file that currently has:\n\"earlyLife\": \"Taught himself programming at age 10\"\n\nAdd alongside it:\n\"earlyLifeKo\": \"10살 때 독학으로 프로그래밍을 배웠다\""
+}

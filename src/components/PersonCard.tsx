@@ -1,7 +1,10 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, lazy, Suspense } from 'react';
 import { EnrichedPerson } from '@/lib/saju/types';
+
+const DeepBioModal = lazy(() => import('./deep-bio/DeepBioModal'));
+import { hasDeepBioSync } from '@/lib/deepBio';
 import { GYEOKGUK_NAMES, BRANCH_TO_OHAENG, OHAENG_COLORS, getBongi } from '@/lib/saju/constants';
 import { getSipSin } from '@/lib/saju/tenGods';
 import type { CheonGan, JiJi } from '@/lib/saju/types';
@@ -151,6 +154,7 @@ function bioTeaser(bio: string, maxWords = 12, maxKoChars = 40): { text: string;
 export default function PersonCard({ person, defaultShowChart = false }: PersonCardProps) {
   const [showChart, setShowChart] = useState(defaultShowChart);
   const [showBio, setShowBio] = useState(false);
+  const [showDeepBio, setShowDeepBio] = useState(false);
   const { t, lang } = useLanguage();
   const { saju } = person;
   const hanja = GYEOKGUK_NAMES[saju.gyeokguk] || '';
@@ -335,7 +339,28 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
             </div>
           )}
         </div>
+
+        {/* Deep bio button */}
+        {hasDeepBioSync(person.id) ? (
+          <button
+            onClick={() => setShowDeepBio(true)}
+            className="w-full mt-3 py-2 text-xs font-medium text-indigo-600 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-colors"
+          >
+            {lang === 'ko' ? '자세히 보기 →' : 'View profile →'}
+          </button>
+        ) : (
+          <div className="w-full mt-3 py-2 text-xs font-medium text-gray-400 bg-gray-50 rounded-lg text-center cursor-default">
+            {lang === 'ko' ? '상세 프로필 준비 중' : 'Profile coming soon'}
+          </div>
+        )}
       </div>
+
+      {/* Deep bio modal */}
+      {showDeepBio && (
+        <Suspense fallback={null}>
+          <DeepBioModal person={person} onClose={() => setShowDeepBio(false)} />
+        </Suspense>
+      )}
     </div>
   );
 }

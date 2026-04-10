@@ -1,0 +1,157 @@
+{
+  "id": "33",
+  "name": "Tadashi Yanai",
+  "childhood": {
+    "birthPlace": "Ube, Yamaguchi, Japan",
+    "birthPlaceKo": "일본 야마구치현 우베",
+    "familyBackground": "Son of a tailor who owned a roadside tailor shop. Grew up in a modest business household where practical, everyday clothing and customer service were valued.",
+    "familyBackgroundKo": "로드사이드 재단사 점포를 소유한 재단사의 아들. 실용적이고 일상적인 의류 및 고객 서비스가 중시되는 소박한 사업 가정에서 성장",
+    "education": "Ube High School; Waseda University (Bachelor's degree in Economics and Political Science, 1971)",
+    "educationKo": "우베 고등학교; 와세다 대학교(경제학 및 정치학 학사 학위, 1971)",
+    "earlyLife": "Showed early entrepreneurial spirit by selling kitchenware and men's clothing at JUSCO supermarket after high school graduation. Worked at JUSCO for one year before joining his father's tailor shop, which would become the foundation for Uniqlo.",
+    "earlyLifeKo": "고등학교 졸업 후 JUSCO 슈퍼마켓에서 주방용품 및 남성 의류를 판매하며 조기 기업가정신 발휘. 1년 후 아버지의 재단사 점포에 입사하여 Uniqlo의 기초 구축",
+    "source": "Wikipedia, TIME Magazine, Asia Society profile"
+  },
+  "careerTimeline": [
+    {
+      "year": 1971,
+      "event": "After graduating from Waseda University, began career selling kitchenware and men's clothing at JUSCO supermarket",
+      "eventKo": "와세다 대학교 졸업 후 JUSCO 슈퍼마켓에서 주방용품 및 남성 의류 판매 사업 시작"
+    },
+    {
+      "year": 1972,
+      "event": "Left JUSCO and joined father's roadside tailor shop 'Ogori Shoji', began transforming it from custom tailoring to casual wear retail",
+      "eventKo": "JUSCO에서 퇴사하여 아버지의 로드사이드 재단사 점포 'Ogori Shoji' 입사, 맞춤 재단에서 캐주얼 의류 소매로 변환 시작"
+    },
+    {
+      "year": 1984,
+      "event": "Opened first Uniqlo store in Hiroshima, pioneering the concept of affordable, high-quality casual wear",
+      "eventKo": "히로시마에 첫 번째 Uniqlo 점포 개점, 저렴하고 고품질의 캐주얼 의류 개념 창시"
+    },
+    {
+      "year": 1991,
+      "event": "Renamed company from Ogori Shoji to Fast Retailing Co., Ltd., establishing the holding company structure for future expansion",
+      "eventKo": "회사명을 Ogori Shoji에서 Fast Retailing Co., Ltd.로 변경, 향후 확장을 위한 지주사 구조 확립"
+    },
+    {
+      "year": 1998,
+      "event": "Opened first Tokyo outlet with breakthrough $15 fleece campaign during Japan's cost-conscious post-bubble economy, creating sensation in market",
+      "eventKo": "도쿄 첫 아울렛 개점, 일본의 경제적 불황 시기에 15달러 플리스 캠페인 성공으로 시장 돌풍 일으킴"
+    },
+    {
+      "year": 2001,
+      "event": "Expanded internationally by opening first London Uniqlo store in Knightsbridge, though initial UK expansion faced challenges",
+      "eventKo": "런던 나이츠브릿지에 Uniqlo 첫 점포 개점으로 국제 확장 시작, 초기 영국 확장은 어려움 직면"
+    },
+    {
+      "year": 2005,
+      "event": "Opened first three U.S. stores in New Jersey; later closed by 2006 after facing market challenges and brand recognition issues",
+      "eventKo": "뉴저지에 미국 첫 3개 점포 개점; 시장 도전과 브랜드 인지도 문제로 2006년까지 폐점"
+    },
+    {
+      "year": 2015,
+      "event": "Founded Yanai Tadashi Foundation, providing full scholarships and additional income to high-achieving Japanese high school students admitted to selective U.S. and U.K. universities",
+      "eventKo": "선별된 미국 및 영국 대학 입학 일본 고등학생에게 전액 장학금 및 생활비 제공하는 Yanai Tadashi Foundation 설립"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2001,
+      "description": "First international expansion into London with Uniqlo store in Knightsbridge was a failure. Followed by opening 20 stores in London area, but the venture struggled to gain market traction. Brand was perceived as foreign and unfamiliar to British consumers.",
+      "descriptionKo": "런던 나이츠브릿지 Uniqlo 점포로의 첫 국제 확장 실패. 런던 지역에 20개 점포 개점 후에도 시장 진출에 어려움. 영국 소비자에게 외국 브랜드로 인식",
+      "lesson": "International expansion requires deep understanding of local market preferences, consumer behavior, and brand positioning. Being 'nobody' in a new market demands significant investment in brand building and market education.",
+      "lessonKo": "국제 확장은 현지 시장 선호도, 소비자 행동, 브랜드 포지셔닝에 대한 깊은 이해 필요. 새로운 시장에서 '무명'이 되려면 브랜드 구축과 시장 교육에 상당한 투자 필수",
+      "source": "TIME Magazine - Uniqlo's Tadashi Yanai profile, BoF"
+    },
+    {
+      "year": 2005,
+      "description": "U.S. market entry through three New Jersey stores was unsuccessful and all were closed by 2006. Yanai later acknowledged this as his biggest failure, stating 'The U.S. was my biggest failure.' The world's largest retail market remained inaccessible despite efforts.",
+      "descriptionKo": "뉴저지 3개 점포를 통한 미국 시장 진출 실패, 2006년까지 모두 폐점. Yanai는 나중에 '미국이 가장 큰 실패'라며 이를 최대 실패로 인정. 세계 최대 소매 시장 진출 불가",
+      "lesson": "Market entry requires patience, capital investment, and willingness to adapt. Premature expansion without sufficient brand recognition and operational capabilities can lead to costly withdrawals and reputational damage.",
+      "lessonKo": "시장 진출은 인내, 자본 투자, 적응 의지 필요. 충분한 브랜드 인지도와 운영 능력 없이의 성급한 확장은 비용이 많이 드는 철수 및 평판 손상 초래",
+      "source": "TIME Magazine - Uniqlo founder profile"
+    },
+    {
+      "year": 2002,
+      "description": "Domestic market challenges in Japan: fiscal 2002 saw first sales decline in 18 years. For sophisticated consumers in Tokyo area, Uniqlo was perceived as a cheap discounter, not aspirational fashion. Shoppers turned against the growing ubiquity of the brand.",
+      "descriptionKo": "일본 국내 시장 도전: 2002 회계연도 18년 만에 첫 매출 감소. 도쿄 지역의 정교한 소비자들에게 Uniqlo는 저가 할인점으로 인식, 열망적 패션이 아님. 소비자들이 증가하는 브랜드 보편성에 반감",
+      "lesson": "Brand perception management is critical as a company scales. Ubiquity without brand elevation can lead to market saturation and image degradation. Continuous innovation and market segmentation are necessary to maintain brand desirability.",
+      "lessonKo": "회사 규모 확대 시 브랜드 인식 관리가 중요. 브랜드 상향화 없는 보편성은 시장 포화 및 이미지 손상 초래. 브랜드 매력 유지를 위해 지속적 혁신과 시장 세분화 필수",
+      "source": "BoF article - Uniqlo case study"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 1990,
+      "netWorth": 10000000
+    },
+    {
+      "year": 2000,
+      "netWorth": 500000000
+    },
+    {
+      "year": 2010,
+      "netWorth": 8000000000
+    },
+    {
+      "year": 2020,
+      "netWorth": 35000000000
+    },
+    {
+      "year": 2025,
+      "netWorth": 57600000000
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Without a soul, a company is nothing. Our purpose is to provide better lives for our customers through clothing.",
+      "textKo": "영혼 없는 회사는 무가치하다. 우리의 목적은 의류를 통해 고객에게 더 나은 삶을 제공하는 것이다.",
+      "context": "On corporate purpose and the importance of company values",
+      "contextKo": "회사 목적과 회사 가치의 중요성에 대해",
+      "source": "Business of Fashion - Uniqlo Boss interview"
+    },
+    {
+      "text": "The only solution is to keep changing yourself and keep challenging yourself. Failure is just the seed of future success.",
+      "textKo": "유일한 해결책은 자신을 계속 변화시키고 스스로에게 도전하는 것이다. 실패는 단지 미래 성공의 씨앗일 뿐이다.",
+      "context": "On continuous innovation and learning from failure",
+      "contextKo": "지속적 혁신과 실패로부터의 학습에 대해",
+      "source": "Industry Leaders Magazine - Tadashi Yanai profile"
+    },
+    {
+      "text": "If you don't understand people, you don't understand business. Our strength is listening to what customers truly need.",
+      "textKo": "사람을 이해하지 못하면 사업을 이해하지 못한다. 우리의 강점은 고객이 정말 필요로 하는 것을 듣는 것이다.",
+      "context": "On customer-centric business philosophy and market understanding",
+      "contextKo": "고객 중심 사업 철학 및 시장 이해에 대해",
+      "source": "Multiple interviews and Fast Retailing corporate materials"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "Lean In",
+        "author": "Sheryl Sandberg",
+        "why": "Insights on building cultures of innovation and continuous improvement relevant to organizational scaling",
+        "whyKo": "조직 확장과 관련된 혁신 및 지속적 개선 문화 구축에 대한 통찰력"
+      },
+      {
+        "title": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "why": "Understanding human behavior and decision-making, essential for customer-centric business strategies",
+        "whyKo": "인간 행동 및 의사 결정 이해, 고객 중심 사업 전략의 필수 요소"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Visionary founder who transformed his father's tailoring shop into a global fashion empire. Known for embracing failure as learning opportunity, unwavering determination, and 'fail fast, fail often' Silicon Valley philosophy despite being traditional Japanese businessman.",
+    "knownForKo": "아버지의 재단사 점포를 글로벌 패션 제국으로 변혁한 비전가. 실패를 학습 기회로 수용, 흔들리지 않는 결단력, 전통적 일본 사업가임에도 불구하고 '빠르게 실패, 자주 실패'하는 실리콘밸리 철학으로 알려짐",
+    "philanthropy": "Founded Yanai Tadashi Foundation in 2015 to provide full scholarships and living expenses to high-achieving Japanese students admitted to selective universities in the United States and United Kingdom. Focuses on global education and talent development.",
+    "philanthropyKo": "2015년 선별된 미국 및 영국 대학 입학 일본 고등학생에게 전액 장학금 및 생활비 제공하는 Yanai Tadashi Foundation 설립. 글로벌 교육 및 인재 개발에 집중",
+    "controversies": "Faced criticism over labor practices and supply chain transparency in Uniqlo's manufacturing operations, particularly regarding worker conditions in Asian factories. Environmental concerns about fast fashion model and resource consumption.",
+    "controversiesKo": "특히 아시아 공장의 노동자 조건에 대한 Uniqlo 제조 운영의 노동 관행 및 공급망 투명성 비판 직면. 빠른 패션 모델 및 자원 소비에 대한 환경 우려"
+  },
+  "sajuConnection": {
+    "note": null,
+    "value": null
+  }
+}

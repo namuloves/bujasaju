@@ -13,7 +13,7 @@
  * - Bar items are click-to-filter: clicking "갑진" sets filters.ilju = '갑진'.
  */
 
-import { useDeferredValue, useMemo } from 'react';
+import { useDeferredValue, useMemo, useState } from 'react';
 import type { EnrichedPerson } from '@/lib/saju/types';
 import type { Filters } from './FilterPanel';
 import { useLanguage } from '@/lib/i18n';
@@ -170,13 +170,27 @@ export default function AnalyticsPanel({
   const welcomeIljuItems = useMemo<BreakdownItem[]>(() => {
     if (hasFilter || primary !== 'ilgan') return [];
     const sorted = tallyBy(deferredPeople, PICKERS.ilju);
-    return sorted.slice(0, 10).map(([k, count]) => ({
+    return sorted.slice(0, 8).map(([k, count]) => ({
       key: k,
       label: labelFor('ilju', k),
       count,
     }));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [deferredPeople, hasFilter, primary, lang]);
+
+  // Full 일주 list for the modal (all 60)
+  const allIljuItems = useMemo<BreakdownItem[]>(() => {
+    if (hasFilter || primary !== 'ilgan') return [];
+    const sorted = tallyBy(deferredPeople, PICKERS.ilju);
+    return sorted.map(([k, count]) => ({
+      key: k,
+      label: labelFor('ilju', k),
+      count,
+    }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [deferredPeople, hasFilter, primary, lang]);
+
+  const [showFullIljuModal, setShowFullIljuModal] = useState(false);
 
   // Don't render if there's nothing to show.
   if (filteredPeople.length === 0) return null;
@@ -218,9 +232,9 @@ export default function AnalyticsPanel({
     <div className="bg-white rounded-xl border border-gray-200 p-4 mb-4">
       <div className="text-sm font-semibold text-gray-900 mb-3">{headline}</div>
       <div
-        className={`grid gap-4 ${
+        className={`grid gap-x-8 gap-y-4 items-start ${
           secondaryItems.length > 0 || welcomeIljuItems.length > 0
-            ? 'sm:grid-cols-2'
+            ? `sm:grid-cols-[auto_auto] ${hasFilter ? 'sm:justify-center' : 'sm:justify-start'}`
             : 'sm:grid-cols-1'
         }`}
       >
@@ -247,16 +261,37 @@ export default function AnalyticsPanel({
             activeKey={filters[FILTER_KEY[secondary]]}
           />
         )}
-        {/* Welcome-state: top 10 일주 alongside the 일간 donut. */}
+        {/* Welcome-state: top 8 일주 alongside the 일간 donut. */}
         {welcomeIljuItems.length > 0 && (
-          <BarChart
-            title={t.analyticsTopDayPillar}
-            items={welcomeIljuItems}
-            onClick={(key) => handleBarClick('ilju', key)}
-            activeKey={filters.ilju}
-          />
+          <div>
+            <BarChart
+              title={t.analyticsTopDayPillar}
+              items={welcomeIljuItems}
+              onClick={(key) => handleBarClick('ilju', key)}
+              activeKey={filters.ilju}
+              total={totalCount}
+            />
+            <button
+              onClick={() => setShowFullIljuModal(true)}
+              className="mt-2 text-[11px] text-indigo-500 hover:text-indigo-700 font-medium transition-colors"
+            >
+              {lang === 'ko' ? '전체 보기 →' : 'See all →'}
+            </button>
+          </div>
         )}
       </div>
+
+      {/* Full 일주 modal */}
+      {showFullIljuModal && (
+        <FullListModal
+          title={t.analyticsTopDayPillar}
+          items={allIljuItems}
+          onClick={(key) => { handleBarClick('ilju', key); setShowFullIljuModal(false); }}
+          activeKey={filters.ilju}
+          onClose={() => setShowFullIljuModal(false)}
+          total={totalCount}
+        />
+      )}
     </div>
   );
 }
@@ -268,6 +303,7 @@ interface BarChartProps {
   items: BreakdownItem[];
   onClick: (key: string) => void;
   activeKey: string;
+  total?: number;
 }
 
 // ─── Pie chart (SVG, no library) ────────────────────────────────────────────
@@ -461,13 +497,14 @@ function PieChart({ title, items, onClick, activeKey }: PieChartProps) {
   );
 }
 
-function BarChart({ title, items, onClick, activeKey }: BarChartProps) {
+function BarChart({ title, items, onClick, activeKey, total }: BarChartProps) {
   return (
-    <div className="max-w-xs">
+    <div className="max-w-[200px]">
       <div className="text-xs font-medium text-gray-500 mb-2">{title}</div>
       <ul className="space-y-0.5">
         {items.map((item, idx) => {
           const isActive = activeKey === item.key;
+          const pct = total ? ((item.count / total) * 100).toFixed(1) : null;
           return (
             <li key={item.key}>
               <button
@@ -492,13 +529,75 @@ function BarChart({ title, items, onClick, activeKey }: BarChartProps) {
                   className="flex-1 border-b border-dotted border-gray-300 translate-y-[-3px]"
                 />
                 <span className="text-[11px] tabular-nums text-gray-500">
-                  {item.count}
+                  {item.count}{pct && <span className="text-gray-400 ml-0.5">({pct}%)</span>}
                 </span>
               </button>
             </li>
           );
         })}
       </ul>
+    </div>
+  );
+}
+
+// ─── Full list modal ───────────────────────────────────────────────────────
+
+interface FullListModalProps {
+  title: string;
+  items: BreakdownItem[];
+  onClick: (key: string) => void;
+  activeKey: string;
+  onClose: () => void;
+  total?: number;
+}
+
+function FullListModal({ title, items, onClick, activeKey, onClose, total }: FullListModalProps) {
+  return (
+    <div
+      className="fixed inset-0 z-50 bg-black/40 flex items-center justify-center"
+      onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
+    >
+      <div className="bg-white rounded-2xl shadow-2xl w-[90vw] max-w-sm max-h-[80vh] flex flex-col overflow-hidden">
+        <div className="flex items-center justify-between px-5 py-3 border-b border-gray-200 shrink-0">
+          <h3 className="text-sm font-bold text-gray-900">{title}</h3>
+          <button
+            onClick={onClose}
+            className="w-7 h-7 flex items-center justify-center rounded-full bg-gray-100 text-gray-500 hover:bg-gray-200 transition-colors"
+          >
+            ✕
+          </button>
+        </div>
+        <div className="overflow-y-auto px-5 py-3">
+          <ul className="space-y-0.5">
+            {items.map((item, idx) => {
+              const isActive = activeKey === item.key;
+              const pct = total ? ((item.count / total) * 100).toFixed(1) : null;
+              return (
+                <li key={item.key}>
+                  <button
+                    type="button"
+                    onClick={() => onClick(item.key)}
+                    className={`w-full flex items-baseline gap-1 rounded-md px-1 py-0.5 text-left transition-colors ${
+                      isActive ? 'bg-indigo-50' : 'hover:bg-gray-50'
+                    }`}
+                  >
+                    <span className="text-[10px] tabular-nums text-gray-400 w-5 text-right shrink-0">
+                      {idx + 1}.
+                    </span>
+                    <span className={`text-xs font-medium ${isActive ? 'text-indigo-700' : 'text-gray-800'}`}>
+                      {item.label}
+                    </span>
+                    <span aria-hidden="true" className="flex-1 border-b border-dotted border-gray-300 translate-y-[-3px]" />
+                    <span className="text-[11px] tabular-nums text-gray-500">
+                      {item.count}{pct && <span className="text-gray-400 ml-0.5">({pct}%)</span>}
+                    </span>
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

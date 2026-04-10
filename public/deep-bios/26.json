@@ -1,0 +1,234 @@
+{
+  "id": "26",
+  "name": "Zhang Yiming",
+  "childhood": {
+    "birthPlace": "Longyan, Fujian Province, China",
+    "birthPlaceKo": "중국 푸젠성 룽옌",
+    "familyBackground": "Born on April 1, 1983, to parents who were civil servants. He was an only son, raised in an environment that valued education and hard work.",
+    "familyBackgroundKo": "1983년 4월 1일 공무원 부모에게서 태어났으며, 외아들로서 교육과 근면을 중시하는 환경에서 성장했다.",
+    "education": "Graduated from Nankai University in Tianjin in 2005 with a degree in Software Engineering, after majoring in microelectronics engineering and software engineering.",
+    "educationKo": "천진 난카이 대학교에서 미세전자공학 및 소프트웨어공학을 전공한 후 2005년 소프트웨어공학 학위로 졸업했다.",
+    "earlyLife": "Grew up as an only child with parents who were government officials. His upbringing instilled a strong work ethic and thirst for knowledge, foundational to his future success.",
+    "earlyLifeKo": "정부 관료 부모 아래 외아들로 성장했으며, 그의 양육 환경은 강한 근무 윤리와 지식에 대한 욕구를 심어주었고 이는 훗날 성공의 기초가 되었다.",
+    "source": "Wikipedia, BuildD.co, StartupTalky"
+  },
+  "careerTimeline": [
+    {
+      "year": 2005,
+      "event": "Graduated from Nankai University with a degree in Software Engineering",
+      "eventKo": "난카이 대학교에서 소프트웨어공학 학위로 졸업했다"
+    },
+    {
+      "year": 2009,
+      "event": "Founded 99fang.com, a real estate search portal startup",
+      "eventKo": "부동산 검색 포털 스타트업인 99fang.com을 설립했다"
+    },
+    {
+      "year": 2009,
+      "event": "Worked at Kuxun, a travel startup later acquired by TripAdvisor",
+      "eventKo": "나중에 TripAdvisor에 인수된 여행 스타트업 Kuxun에서 근무했다"
+    },
+    {
+      "year": 2009,
+      "event": "Worked at Fanfou, a Chinese social networking service",
+      "eventKo": "중국 소셜 네트워킹 서비스인 Fanfou에서 근무했다"
+    },
+    {
+      "year": 2010,
+      "event": "Worked at Microsoft",
+      "eventKo": "마이크로소프트에서 근무했다"
+    },
+    {
+      "year": 2011,
+      "event": "Hired a CEO to run 99fang.com, freeing himself to pursue new ventures",
+      "eventKo": "99fang.com을 운영할 CEO를 고용하여 새로운 사업을 추진할 수 있는 여유를 확보했다"
+    },
+    {
+      "year": 2012,
+      "event": "Founded ByteDance with co-founder Liang Rubo in a four-bedroom apartment in March",
+      "eventKo": "공동창업자 량루보(Liang Rubo)와 함께 3월에 4베드룸 아파트에서 바이트댄스(ByteDance)를 설립했다"
+    },
+    {
+      "year": 2012,
+      "event": "Launched Toutiao news app in August; achieved 13 million daily users within two years",
+      "eventKo": "8월에 토타오(Toutiao) 뉴스 앱을 출시했고 2년 내에 일일 1,300만 사용자를 달성했다"
+    },
+    {
+      "year": 2016,
+      "event": "Launched Douyin (domestic version of TikTok) in September, featuring short video creation and AI-driven recommendations",
+      "eventKo": "9월에 도우인(Douyin, 국내 TikTok 버전)을 출시했으며 단편 비디오 창작과 AI 기반 추천 기능을 특징으로 했다"
+    },
+    {
+      "year": 2017,
+      "event": "Launched TikTok internationally in September to expand beyond Chinese market",
+      "eventKo": "9월에 중국 시장을 넘어 확대하기 위해 TikTok을 국제적으로 출시했다"
+    },
+    {
+      "year": 2018,
+      "event": "ByteDance acquired Musical.ly for US$800 million and integrated it into TikTok",
+      "eventKo": "바이트댄스가 Musical.ly를 8억 미국 달러에 인수하여 TikTok에 통합했다"
+    },
+    {
+      "year": 2021,
+      "event": "Stepped down as CEO, transitioning leadership to co-founder Liang Rubo while remaining deeply involved in strategy",
+      "eventKo": "CEO직에서 물러나 공동창업자 량루보에게 경영권을 이양했으나 전략 수립에 깊이 관여하고 있다"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2009,
+      "description": "99fang.com real estate portal failed to achieve significant market traction and was eventually abandoned after he hired a CEO to run it",
+      "descriptionKo": "99fang.com 부동산 포털은 유의미한 시장 점유율을 확보하지 못했으며, CEO를 고용한 후 결국 중단되었다",
+      "lesson": "Early ventures taught him the importance of focusing resources on the right opportunity; he learned to recognize when to pivot and pursue stronger market opportunities",
+      "lessonKo": "초기 사업은 올바른 기회에 자원을 집중시키는 것의 중요성을 가르쳤고, 언제 방향을 바꾸고 더 강한 시장 기회를 추구해야 하는지 인식하게 되었다",
+      "source": "StartupTalky, Wikipedia"
+    },
+    {
+      "year": 2020,
+      "description": "TikTok faced significant regulatory challenges in India, where the Indian government banned TikTok and several other Chinese apps due to geopolitical tensions",
+      "descriptionKo": "TikTok은 지정학적 긴장으로 인해 인도 정부가 TikTok과 여러 중국 앱을 금지한 인도에서 심각한 규제 문제에 직면했다",
+      "lesson": "Demonstrated the critical importance of understanding geopolitical dynamics and the limitations of app dominance in politically sensitive markets; taught him that technological innovation alone cannot overcome regulatory barriers",
+      "lessonKo": "지정학적 역학 관계를 이해하는 것의 중요성과 정치적으로 민감한 시장에서 앱 지배력의 한계를 보여주었으며, 기술 혁신만으로는 규제 장벽을 극복할 수 없다는 것을 깨닫게 했다",
+      "source": "South China Morning Post, Press.Farm"
+    },
+    {
+      "year": 2020,
+      "description": "Faced severe challenges navigating US-China geopolitical tensions, with the US government threatening to ban TikTok unless ByteDance sold it to a US company; Beijing simultaneously restricted ByteDance from selling the company",
+      "descriptionKo": "미국 정부가 바이트댄스가 미국 회사에 TikTok을 판매하지 않는 한 금지하겠다고 위협하는 동시에 베이징은 바이트댄스의 판매를 제한하여 미중 지정학적 긴장 속에서 심각한 도전에 직면했다",
+      "lesson": "Revealed the vulnerability of tech companies caught between superpowers and the limits of pure business strategy when facing unprecedented political pressure from multiple directions",
+      "lessonKo": "초강대국 사이에 낀 기술 기업의 취약성과 여러 방향에서의 전례 없는 정치적 압력에 직면했을 때 순수한 비즈니스 전략의 한계를 드러냈다",
+      "source": "Deccan Herald, Press.Farm"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2018,
+      "netWorth": 4000000000
+    },
+    {
+      "year": 2020,
+      "netWorth": 35000000000
+    },
+    {
+      "year": 2024,
+      "netWorth": 49300000000
+    },
+    {
+      "year": 2025,
+      "netWorth": 65500000000
+    }
+  ],
+  "quotes": [
+    {
+      "text": "When hungry, eat; when tired, sleep",
+      "textKo": "배고프면 먹고, 피곤하면 자라",
+      "context": "Zhang's definition of keeping an 'ordinary mind' - focusing on the present moment without anxiety about the past or future",
+      "contextKo": "현재 순간에 집중하고 과거와 미래에 대한 불안 없이 '평상심'을 유지하는 것에 대한 정의",
+      "source": "Interconnected, KR-Asia"
+    },
+    {
+      "text": "We can only achieve extraordinary things if we have an ordinary mind. Only if we have an ordinary mind can we strengthen our roots and from then on have the courage and imagination to take on more difficult things.",
+      "textKo": "우리는 평상심을 가져야만 비범한 것을 이룰 수 있다. 평상심을 가져야만 우리의 뿌리를 강화하고 그로부터 더 어려운 것들에 도전할 용기와 상상력을 갖출 수 있다.",
+      "context": "From his 9th anniversary ByteDance speech, emphasizing the Buddhist concept of mental clarity and groundedness",
+      "contextKo": "바이트댄스 9주년 기념 연설에서, 정신적 명확성과 안정성에 대한 불교 개념을 강조했다",
+      "source": "KR-Asia"
+    },
+    {
+      "text": "The truth is, I lack some of the skills that make an ideal manager. I'm more interested in analysing organisational and market principles, and leveraging these theories to further reduce management work, rather than actually managing people.",
+      "textKo": "솔직히 말해서 나는 이상적인 매니저가 되는 데 필요한 일부 기술이 부족하다. 나는 조직 원리와 시장 원리를 분석하고 이러한 이론을 활용하여 관리 업무를 줄이는 데 더 관심이 있으며, 실제로 사람을 관리하는 데는 덜 관심 있다.",
+      "context": "Self-aware reflection on his leadership style and preference for systems over interpersonal management",
+      "contextKo": "자신의 리더십 스타일과 대인관계 관리보다 시스템을 선호하는 것에 대한 자기인식적 반성",
+      "source": "Press.Farm"
+    },
+    {
+      "text": "All negativity is caused by an accumulation of psychological time and denial of the present moment",
+      "textKo": "모든 부정성은 심리적 시간의 축적과 현재 순간의 부정에서 비롯된다",
+      "context": "Quote from Eckhart Tolle's 'The Power of Now' that Zhang Yiming frequently references in his philosophy",
+      "contextKo": "장이밍이 자신의 철학에서 자주 인용하는 에크하르트 톨레의 '지금의 힘'에서의 인용구",
+      "source": "Sohu"
+    },
+    {
+      "text": "Bring Outside in and Avoid Managing up - How to Protect the Company from Diseconomies of Scale",
+      "textKo": "외부의 관점을 도입하고 상향식 관리를 피하라 - 규모의 불경제로부터 회사를 보호하는 방법",
+      "context": "Core principle to prevent organizational dysfunction as ByteDance grew, maintaining external perspectives and avoiding internal politics",
+      "contextKo": "바이트댄스가 성장하면서 조직 기능장애를 방지하기 위한 핵심 원칙으로, 외부 관점을 유지하고 내부 정치를 피한다",
+      "source": "Source Code Capital"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": "No major authored books",
+        "note": "Zhang Yiming has not written a book, but his speeches and letters to employees have been compiled and circulated extensively",
+        "noteKo": "장이밍은 저서를 출간하지 않았지만, 그의 연설과 직원 편지들은 광범위하게 편집되고 배포되었다"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "The Power of Now: A Guide to Spiritual Enlightenment",
+        "author": "Eckhart Tolle",
+        "why": "Zhang has repeatedly recommended this book, citing its impact on understanding presence and eliminating psychological suffering through mindfulness",
+        "whyKo": "장이밍은 현재에 대한 이해를 높이고 마음챙김을 통해 심리적 고통을 제거하는 데 미치는 영향을 언급하며 이 책을 여러 번 추천했다"
+      },
+      {
+        "title": "The Courage to Be Disliked: Dialogues on Freedom and Happiness",
+        "author": "Ichiro Kishimi and Fumitake Koga",
+        "why": "Addresses the essence of life and reconstruction of values, aligning with Zhang's philosophical approach to business and personal development",
+        "whyKo": "삶의 본질과 가치관의 재구성을 다루며, 사업과 개인 발전에 대한 장이밍의 철학적 접근 방식과 일치한다"
+      },
+      {
+        "title": "Steve Jobs",
+        "author": "Walter Isaacson",
+        "why": "Zhang considers Steve Jobs a major influence and has studied his biography for insights on product vision and innovation",
+        "whyKo": "장이밍은 스티브 잡스를 주요 영향인물로 여기며 제품 비전과 혁신에 대한 통찰력을 얻기 위해 그의 전기를 연구했다"
+      },
+      {
+        "title": "Winning",
+        "author": "Jack Welch",
+        "why": "Zhang frequently references Welch's management principles and strategic thinking",
+        "whyKo": "장이밍은 웰치의 경영 원칙과 전략적 사고를 자주 인용한다"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Quiet genius behind ByteDance's global tech empire. Known for his analytical mind, preference for solitude, and deep philosophical approach to business. Extremely private individual who avoids media attention and public appearances. Focuses on long-term thinking, AI-driven innovation, and market observation rather than leadership charisma. Competitive at a systemic level rather than personally aggressive.",
+    "knownForKo": "바이트댄스의 글로벌 기술 제국 뒤의 조용한 천재. 분석적 사고, 고독함의 선호, 사업에 대한 깊은 철학적 접근으로 알려져 있다. 언론의 관심과 공개 활동을 피하는 극도로 개인적인 인물. 리더십 카리스마보다는 장기적 사고, AI 기반 혁신, 시장 관찰에 집중한다. 개인적 공격성보다는 시스템 수준의 경쟁력을 추구한다.",
+    "philanthropy": "Limited public philanthropic activities compared to other tech billionaires. Focus has been primarily on ByteDance's social responsibility initiatives and impact on digital culture. Maintains low profile in charitable giving, preferring to concentrate on business strategy and innovation.",
+    "philanthropyKo": "다른 기술 재벌들에 비해 제한적인 공개 자선 활동. 주로 바이트댄스의 사회 책임 이니셔티브와 디지털 문화에 미치는 영향에 집중하고 있다. 자선 기부에서 낮은 프로필을 유지하며 사업 전략과 혁신에 집중하는 것을 선호한다.",
+    "controversies": "TikTok ban threats in the United States due to national security concerns and alleged data privacy issues. Geopolitical conflicts between US and China regarding ByteDance ownership and TikTok's algorithm. Allegations of data collection practices and content moderation policies. Criticism from child safety advocates regarding TikTok's impact on youth. Indian government ban in 2020 due to border tensions with China. Controversies regarding app algorithm and youth mental health impacts.",
+    "controversiesKo": "국가 안보 우려와 의혹 있는 데이터 프라이버시 문제로 인한 미국의 TikTok 금지 위협. 바이트댄스 소유권과 TikTok 알고리즘에 관한 미중 지정학적 갈등. 데이터 수집 관행과 콘텐츠 중재 정책에 대한 의혹. TikTok이 청소년에 미치는 영향에 대한 아동 안전 옹호자들의 비판. 중국과의 국경 긴장으로 인한 2020년 인도 정부의 금지. 앱 알고리즘과 청소년 정신 건강 영향에 관한 논쟁."
+  },
+  "additionalInsights": {
+    "pivotalMentors": [
+      {
+        "name": "Steve Jobs",
+        "relationship": "Studied through biography and philosophy rather than direct mentorship",
+        "influence": "Inspired Zhang's focus on product excellence, user experience design, and long-term vision over short-term profits"
+      },
+      {
+        "name": "Jack Welch",
+        "relationship": "Learned through Welch's writings and management theories",
+        "influence": "Influenced Zhang's approach to organizational structure, efficiency, and strategic decision-making in scaling ByteDance"
+      },
+      {
+        "name": "Liang Rubo",
+        "relationship": "Co-founder and long-time business partner since 2012",
+        "influence": "Provided operational and execution expertise, complementing Zhang's strategic vision and allowing for leadership transition"
+      }
+    ],
+    "dailyRoutine": "Zhang Yiming maintains a preference for solitary activities. His typical day involves deep work on strategic thinking, reading and learning from diverse sources, listening to music, and contemplating future possibilities. He is not sociable and avoids excessive meetings or public appearances. Instead of traditional management activities, he focuses on analyzing organizational principles, observing market dynamics and user behavior, and developing long-term strategic direction. He maintains minimal social media presence and avoids the public spotlight despite being one of the world's richest individuals.",
+    "keyAnecdotes": [
+      "When stepping down as CEO in 2021, Zhang cited that he lacked some ideal manager skills and preferred analytical thinking over people management",
+      "During ByteDance's 9th anniversary speech, Zhang quoted Buddhist verses and advocated for an 'ordinary mind' approach, comparing it to a meditation retreat philosophy rather than typical CEO address",
+      "Zhang was so focused on building the right product that he hand-coded early versions of ByteDance's algorithms himself before scaling the team",
+      "Despite becoming China's richest person, Zhang maintains extreme privacy, rarely giving interviews and avoiding public events",
+      "Zhang observed that many business leaders overuse jargon and complexity when simplicity and observation are more powerful"
+    ],
+    "turningPoint": "The critical turning point came in 2012 when Zhang founded ByteDance at age 29. Having experienced early startup failures with 99fang.com and Fanfou, he synthesized his learnings to identify a massive opportunity: Chinese smartphone users needed better information consumption. His insight about using AI algorithms to push relevant content instead of relying on search marked the pivot that led to Toutiao's success. The real transformation occurred when ByteDance launched Douyin in 2016, recognizing that short-form video combined with AI recommendations represented the future of digital engagement. This shift from content aggregation to content creation fundamentally changed ByteDance's trajectory and ultimately created a global phenomenon with TikTok.",
+    "managementStyle": "Zhang Yiming employs a highly unconventional management approach centered on systems thinking and organizational principles rather than traditional people management. He advocates for 'Bring Outside in' philosophy to prevent organizational stagnation and avoid 'managing up' internal politics. His approach emphasizes reducing management work through better systems, structures, and theories rather than through more managers. Zhang prefers observation and data-driven decision making over intuition, focusing on user behavior analysis and market dynamics. He encourages his team to maintain an 'ordinary mind' - staying grounded, avoiding jargon, and focusing on present moment effectiveness. His management style is fundamentally introverted and analytical; he delegates people management to others while he focuses on product vision, strategic direction, and long-term thinking. He believes in leveraging organizational and market principles to create self-regulating systems that require minimal hierarchical management."
+  },
+  "sajuConnection": {
+    "note": "Leave null.",
+    "value": null
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "18",
+  "name": "Changpeng Zhao",
+  "childhood": {
+    "birthPlace": "Lianyungang, Jiangsu Province, China",
+    "birthPlaceKo": "중국 장쑤성 롄윈강",
+    "familyBackground": "Born in 1977 into academic family. Father was university professor, mother was teacher. Father labeled 'pro-bourgeois intellect' and exiled after birth due to Chinese political upheaval, forcing family to seek better life elsewhere.",
+    "familyBackgroundKo": "1977년 학계 가정에서 출생. 아버지는 대학 교수, 어머니는 교사. 중국 정치 격변으로 아버지가 '부르주아 지식인'으로 낙인찍혀 유배당해 가족이 더 나은 삶을 찾게 됨.",
+    "education": "One semester at McGill University in Canada, pivoted to computer science after recognizing stronger opportunities in tech. Completed computer science degree from McGill University.",
+    "educationKo": "캐나다 맥길 대학교 1학기 후 기술업계의 더 강한 기회를 인식하여 컴퓨터 과학으로 전향. 맥길 대학교 컴퓨터 과학 학위 취득.",
+    "earlyLife": "Immigrated to Vancouver, Canada at age 12 with family. Grew up with strong interest in computers and programming. First computer was a 286 DOS model costing $7,000. Started working at age 14 at McDonald's in British Columbia earning CAD $5.50/hour. Became self-sufficient early, avoiding major student loans. Later moved to Shanghai to launch business career.",
+    "earlyLifeKo": "12살 때 가족과 함께 캐나다 밴쿠버로 이민. 컴퓨터와 프로그래밍에 대한 강한 관심으로 성장. 첫 컴퓨터는 $7,000짜리 286 DOS 모델. 14살 때 브리티시컬럼비아 맥도날드에서 시간당 CAD $5.50을 받으며 일 시작. 조기에 자립, 대출금 최소화. 나중에 상하이로 이주해 비즈니스 경력 시작.",
+    "source": "Wikipedia, Medium CZ interview, Binance company history"
+  },
+  "careerTimeline": [
+    {
+      "year": 2005,
+      "event": "Moved to Shanghai to launch business career, founded technology startup company Fusion Systems.",
+      "eventKo": "상하이로 이주해 비즈니스 경력 시작, 기술 스타트업 Fusion Systems 설립."
+    },
+    {
+      "year": 2013,
+      "event": "Discovered Bitcoin while playing poker. Bobby Lee advised him to invest 10% of money into Bitcoin. This moment catalyzed his entry into cryptocurrency.",
+      "eventKo": "포커 게임 중 비트코인 발견. 바비 리가 자신의 자산 10%를 비트코인에 투자하라고 조언. 암호화폐 진입의 촉발점."
+    },
+    {
+      "year": 2014,
+      "event": "August - Began career at OKCoin, launching Bitcoin futures trading. Worked at cryptocurrency exchange gaining deep understanding of crypto markets.",
+      "eventKo": "8월 - OKCoin에서 경력 시작, 비트코인 선물 거래 런칭. 암호화폐 거래소에서 일하며 암호화폐 시장에 대한 깊은 이해 쌓음."
+    },
+    {
+      "year": 2015,
+      "event": "February - Left OKCoin. Sold Shanghai apartment, used proceeds to purchase Bitcoin. September - Founded BijieTech.",
+      "eventKo": "2월 - OKCoin 퇴사. 상하이 아파트 판매, 수익금으로 비트코인 구매. 9월 - BijieTech 설립."
+    },
+    {
+      "year": 2017,
+      "event": "July - Left BijieTech to found Binance.com in Hong Kong. Binance launched as a cryptocurrency exchange and rapidly became world's largest by trading volume.",
+      "eventKo": "7월 - BijieTech 퇴사, 홍콩에서 Binance.com 설립. 암호화폐 거래소로 출발, 빠르게 세계 최대 거래량 거래소로 성장."
+    },
+    {
+      "year": 2021,
+      "event": "Binance reaches peak dominance. Bloomberg valued Zhao at US $96 billion, briefly Asia's richest self-made figure. Binance handles billions in daily trading volume.",
+      "eventKo": "바이낸스가 최대 지배력 도달. 블룸버그가 자오를 미화 960억 달러로 평가, 잠시 아시아 최고 자수성가 부자 됨. 바이낸스 일일 거래량 수십억 달러 처리."
+    },
+    {
+      "year": 2022,
+      "event": "Binance wealth drops from $97 billion peak in January to $11 billion by May due to crypto market crash and regulatory pressures.",
+      "eventKo": "바이낸스 자산이 1월 최고 970억 달러에서 5월 110억 달러로 급락. 암호화폐 시장 붕괴와 규제 압박 때문."
+    },
+    {
+      "year": 2023,
+      "event": "November 21 - Pled guilty to violating Bank Secrecy Act by failing to implement effective anti-money laundering program. Resigned as CEO of Binance.",
+      "eventKo": "11월 21일 - 효과적인 자금세탁방지 프로그램 미이행으로 은행보안법 위반 혐의 자백. 바이낸스 CEO 사임."
+    },
+    {
+      "year": 2024,
+      "event": "April 30 - Sentenced to 4 months in prison for money laundering violations. Completed prison term by September. October 2025 - Received presidential pardon from President Donald Trump.",
+      "eventKo": "4월 30일 - 자금세탁 위반으로 4개월 징역형 선고. 9월까지 형기 마침. 2025년 10월 - 도널드 트럼프 대통령으로부터 사면 받음."
+    }
+  ],
+  "failures": [
+    {
+      "year": 2023,
+      "description": "Critical regulatory failure - Binance pleaded guilty to violating Bank Secrecy Act by deliberately hiding customers' U.S. locations to avoid AML compliance. Prioritized growth over legal compliance.",
+      "descriptionKo": "심각한 규제 실패 - 바이낸스가 자금세탁방지(AML) 준수를 피하기 위해 의도적으로 미국 고객 위치 은폐로 은행보안법 위반 자백. 법적 준수보다 성장 우선시.",
+      "lesson": "Explosive growth without regulatory foundation is unsustainable. Ignoring compliance requirements eventually leads to criminal liability, loss of leadership, and billion-dollar penalties.",
+      "lessonKo": "규제 기반 없는 폭발적 성장은 지속 불가능. 준수 요건 무시는 결국 형사 책임, 리더십 상실, 수십억 달러 벌금으로 귀결."
+    },
+    {
+      "year": 2022,
+      "description": "FTX contagion mishandling - Binance's acquisition and rapid withdrawal from FTX deal triggered FTX collapse and crypto market crisis. Zhao's decision to expose FTX's insolvency caused crypto winter.",
+      "descriptionKo": "FTX 전염 오류 처리 - 바이낸스의 FTX 인수 및 빠른 거래 철수로 FTX 붕괴, 암호화폐 시장 위기 초래. 자오의 FTX 부도 노출 결정으로 암호화폐 겨울 발생.",
+      "lesson": "Market dominance brings responsibility. Actions of major players can trigger systemic effects. Need for transparency and careful decision-making in crisis situations.",
+      "lessonKo": "시장 지배력은 책임을 낳음. 주요 플레이어의 행동은 시스템 전체 영향 초래 가능. 위기 상황에서 투명성과 신중한 의사결정 필요."
+    },
+    {
+      "year": 2024,
+      "description": "Prison sentence and leadership loss - Spent 4 months in U.S. federal prison for enabling money laundering. Loss of reputation as founder and direct control of company. $4.3 billion in penalties and ongoing compliance monitoring.",
+      "descriptionKo": "징역형 및 리더십 상실 - 미국 연방 교도소에서 자금세탁 무혐의로 4개월 복역. 창업자로서 평판과 회사 직접 통제 상실. 43억 달러 벌금 및 지속적 준수 감시.",
+      "lesson": "Even founders are not above law. No amount of wealth or business success protects against criminal liability for enabling financial crimes. Consequences are personal, financial, and professional.",
+      "lessonKo": "창업자도 법 위에 있지 않음. 금융 범죄 무혐의에 대한 어떤 부의 또는 사업 성공도 형사 책임으로부터 보호 안 함. 결과는 개인적, 재정적, 전문적 피해."
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2013,
+      "netWorth": 100000
+    },
+    {
+      "year": 2018,
+      "netWorth": 1500000000
+    },
+    {
+      "year": 2021,
+      "netWorth": 96000000000
+    },
+    {
+      "year": 2022,
+      "netWorth": 11000000000
+    },
+    {
+      "year": 2024,
+      "netWorth": 61000000000
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I intend to donate most of my wealth, as many other entrepreneurs or founders have done. I intend to donate 90%, 95%, or 99% of my wealth.",
+      "textKo": "많은 다른 기업가나 창업자들처럼 나는 대부분의 부를 기부할 계획이다. 내 부의 90%, 95%, 또는 99%를 기부할 계획이다.",
+      "context": "Statement on philanthropy and wealth distribution, referencing the giving pledge and legacy of other billionaires like Bill Gates.",
+      "contextKo": "자선활동과 부의 분배에 대한 성명, 빌 게이츠 같은 다른 억만장자의 기부 서약과 유산 참고."
+    },
+    {
+      "text": "We will stop talking about 'crypto' within five years. It will become just part of everyday financial life.",
+      "textKo": "우리는 5년 안에 '암호화폐'에 대해 이야기하기를 멈플 것이다. 그것은 단지 일상의 금융 생활의 일부가 될 것이다.",
+      "context": "Vision for cryptocurrency mainstream adoption and integration into traditional finance.",
+      "contextKo": "암호화폐 주류 채택과 전통 금융 통합에 대한 비전."
+    },
+    {
+      "text": "I am not a complete libertarian, I'm not an anarchist. I don't believe human civilization is advanced enough to live in a world with no rules.",
+      "textKo": "나는 완전한 자유지상주의자가 아니고 무정부주의자도 아니다. 인류 문명이 규칙 없는 세계에서 살기에 충분히 발전했다고 믿지 않는다.",
+      "context": "Statement on political philosophy and regulatory framework need, made in Singapore 2021.",
+      "contextKo": "정치 철학 및 규제 체계 필요성에 대한 성명, 2021년 싱가포르에서 발표."
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": "Freedom of Money",
+        "note": "Memoir released April 8, 2026",
+        "noteKo": "2026년 4월 8일 출시된 회고록"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "The Age of Cryptocurrency",
+        "author": "Paul Vigna and Michael J. Casey",
+        "why": "Explains evolution of digital money and blockchain technology, foundational for understanding crypto revolution Zhao led.",
+        "whyKo": "디지털 화폐와 블록체인 기술의 진화 설명, 자오가 주도한 암호화폐 혁명을 이해하기 위한 기초."
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Visionary entrepreneur who built world's largest cryptocurrency exchange from scratch in 4 years. Known for aggressive growth strategy, quick decision-making, and resilience. Built Binance from startup to handling billions in daily crypto trading.",
+    "knownForKo": "4년 안에 세계 최대 암호화폐 거래소를 무에서 유로 구축한 비전 있는 기업가. 공격적 성장 전략, 빠른 의사결정, 회복력으로 유명. 바이낸스를 스타트업에서 일일 수십억 달러 암호화폐 거래 처리 기업으로 구축.",
+    "philanthropy": "Plans to donate 90-99% of wealth to philanthropy following model of Gates, Buffett. Released 'Freedom of Money' memoir April 2026 exploring crypto's role in financial inclusion. Focus on blockchain adoption in developing nations.",
+    "philanthropyKo": "게이츠, 버핏 모델을 따라 자산의 90-99% 기부 계획. 2026년 4월 금융 포용에 대한 암호화폐의 역할을 탐구하는 '화폐의 자유' 회고록 출시. 개발도상국의 블록체인 채택에 초점.",
+    "controversies": "Changpeng Zhao and Binance have faced significant regulatory scrutiny and legal challenges globally, with accusations of money laundering facilitation, insufficient KYC procedures, and improper market manipulation. Zhao pleaded guilty to violating anti-money laundering laws and agreed to significant financial penalties. Additionally, there are ongoing concerns about Binance's compliance with various international financial regulations.",
+    "controversiesKo": "창펑 자오와 바이낸스는 자금세탁 촉진, 불충분한 KYC 절차, 부적절한 시장 조작에 대한 혐의로 전 세계적으로 상당한 규제 감시와 법적 도전에 직면했음. 자오는 자금세탁 방지법 위반으로 유죄를 인정하고 상당한 금전적 벌금에 동의했음. 또한 다양한 국제 금융 규정을 준수하는 바이낸스에 관해 지속적인 우려가 있음."
+  },
+  "sajuConnection": {
+    "note": null,
+    "value": null
+  }
+}

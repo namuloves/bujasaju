@@ -1,0 +1,150 @@
+{
+  "id": "35",
+  "name": "Ken Griffin",
+  "fullName": "Kenneth Cordele Griffin",
+  "childhood": {
+    "birthPlace": "Daytona Beach, Florida, USA",
+    "birthPlaceKo": "미국 플로리다 데이토나 비치",
+    "familyBackground": "Middle-class American family background. Father was businessman; family valued education and intellectual achievement. Supportive environment for developing analytical and mathematical skills.",
+    "familyBackgroundKo": "중산층 미국 가정 배경. 아버지는 사업가; 가족은 교육과 지적 성취를 중시. 분석 및 수학 능력 개발을 위한 지원적 환경",
+    "education": "Harvard University (Bachelor's degree in Economics, 1989). Began investing and trading during undergraduate years, showing exceptional aptitude for quantitative analysis.",
+    "educationKo": "하버드 대학교(경제학 학사 학위, 1989). 학부 시절부터 투자 및 거래 시작, 정량 분석에 대한 탁월한 능력 입증",
+    "earlyLife": "Precocious investor who started trading at age 16 while in high school. At Harvard, launched his first hedge fund from his dorm room at age 19. Installed satellite dish on Harvard dorm roof to obtain real-time market data. Demonstrated exceptional risk tolerance and entrepreneurial drive from early age.",
+    "earlyLifeKo": "고등학생 16세에 거래 시작한 조숙한 투자자. 하버드에서 19세에 기숙사에서 첫 헤지펀드 설립. 실시간 시장 데이터 획득을 위해 하버드 기숙사 지붕에 위성 접시 설치. 조기부터 탁월한 위험 허용도 및 기업가 정신 입증",
+    "source": "Wikipedia, Stanford GSB profile, CNBC interviews"
+  },
+  "careerTimeline": [
+    {
+      "year": 1986,
+      "event": "At age 18, began investing and trading from Harvard dorm room using quantitative strategies and emerging market data analytics",
+      "eventKo": "18세에 하버드 기숙사에서 정량 전략 및 신흥 시장 데이터 분석을 사용한 투자 및 거래 시작"
+    },
+    {
+      "year": 1987,
+      "event": "Launched first hedge fund from Harvard dorm room at age 19 with initial capital; installed satellite dish for real-time market data access",
+      "eventKo": "19세에 초기 자본으로 하버드 기숙사에서 첫 헤지펀드 설립; 실시간 시장 데이터 접근을 위해 위성 접시 설치"
+    },
+    {
+      "year": 1989,
+      "event": "Graduated from Harvard University with degree in Economics; relocated to Chicago to establish formal trading operation",
+      "eventKo": "하버드 대학교에서 경제학 학위 졸업; 공식 거래 운영 설립을 위해 시카고로 이전"
+    },
+    {
+      "year": 1989,
+      "event": "Worked with Frank Meyer of Glenwood Capital Investments; Meyer allocated $1 million in capital for Griffin to trade; Griffin achieved 70% return in first year",
+      "eventKo": "Glenwood Capital Investments의 Frank Meyer와 협력; Meyer가 Griffin의 거래를 위해 100만 달러 자본 배분; Griffin 첫해 70% 수익률 달성"
+    },
+    {
+      "year": 1990,
+      "event": "Founded Citadel LLC with initial assets under management of $4.6 million; strategy focused on quantitative analysis and proprietary trading algorithms",
+      "eventKo": "초기 운용자산 460만 달러로 Citadel LLC 설립; 정량 분석 및 자체 거래 알고리즘 중심 전략"
+    },
+    {
+      "year": 1991,
+      "event": "Citadel funds generated 43% return, demonstrating exceptional performance during market volatility",
+      "eventKo": "Citadel 펀드 43% 수익률 달성, 시장 변동성 중 탁월한 성과 입증"
+    },
+    {
+      "year": 1992,
+      "event": "Continued strong performance with 40% returns; Citadel established itself as leading quantitative hedge fund amid competitive market",
+      "eventKo": "40% 수익률로 지속적 강성 성과; Citadel 경쟁 시장에서 선도적 정량 헤지펀드 확립"
+    },
+    {
+      "year": 2021,
+      "event": "Citadel Securities and Citadel LLC attracted public scrutiny during GameStop short squeeze; invested $2 billion into Melvin Capital to stabilize market; became target of criticism regarding market manipulation allegations",
+      "eventKo": "GameStop 숏스퀴즈 중 Citadel Securities 및 Citadel LLC 공개 심사 대상; Melvin Capital에 20억 달러 투자로 시장 안정화; 시장 조종 의혹에 관한 비판 대상 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Citadel faced significant losses during the 2008 financial crisis. Despite superior risk management systems, the hedge fund experienced substantial drawdowns during global market collapse, requiring significant capital infusions and restructuring.",
+      "descriptionKo": "2008년 금융 위기 중 Citadel은 상당한 손실 직면. 우수한 리스크 관리 시스템에도 불구하고 글로벌 시장 붕괴 중 상당한 손실률 경험, 상당한 자본 투입 및 구조 조정 필요",
+      "lesson": "Even with advanced quantitative models and superior risk management, systematic market shocks can overwhelm any individual hedge fund. Diversification and macro-hedging are essential for managing tail risks.",
+      "lessonKo": "고급 정량 모델과 우수한 리스크 관리에도 불구하고 체계적 시장 충격은 모든 헤지펀드를 압도할 수 있음. 꼬리 위험 관리를 위해 다각화 및 거시 헤징 필수",
+      "source": "Financial press, hedge fund performance records 2008-2009"
+    },
+    {
+      "year": 2021,
+      "description": "GameStop short squeeze controversy: Citadel Securities' role in routing retail orders through Robinhood and subsequent trading restrictions raised questions about market fairness. Citadel had significant short positions in GameStop but also profited from Melvin Capital stabilization investment.",
+      "descriptionKo": "GameStop 숏스퀴즈 논란: Citadel Securities의 Robinhood를 통한 소매 주문 라우팅 및 후속 거래 제한이 시장 공정성에 대한 의문 제기. Citadel은 GameStop에서 중요한 숏 포지션이 있으나 Melvin Capital 안정화 투자에서도 수익",
+      "lesson": "Market maker roles can create conflicts of interest and perception of impropriety. Transparency in market operations and clear separation of trading and market-making functions are critical for maintaining market integrity and public trust.",
+      "lessonKo": "시장 조성자 역할은 이해 상충과 부정행위 인식 초래 가능. 시장 운영 투명성과 거래 및 시장 조성 기능의 명확한 분리가 시장 무결성과 공중 신뢰 유지에 중요",
+      "source": "Bloomberg, CNBC, Congressional testimony and hearings"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 1995,
+      "netWorth": 100000000
+    },
+    {
+      "year": 2005,
+      "netWorth": 2500000000
+    },
+    {
+      "year": 2010,
+      "netWorth": 8000000000
+    },
+    {
+      "year": 2020,
+      "netWorth": 29000000000
+    },
+    {
+      "year": 2026,
+      "netWorth": 49200000000
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The key in finance is to learn from both successes and failures. If you focus all your time on the nos, you're not focusing on what it takes to win.",
+      "textKo": "금융의 핵심은 성공과 실패 모두로부터 배우는 것이다. 거절에만 집중하면 승리를 위해 필요한 것에 집중하지 못한다.",
+      "context": "On learning philosophy and winning mindset in trading",
+      "contextKo": "거래의 학습 철학과 승리 마인드에 대해",
+      "source": "Stanford GSB - Ken Griffin on Investing"
+    },
+    {
+      "text": "People often fail to study their winning trades to learn what they did right. Making money in finance comes from having winners, not just avoiding losers.",
+      "textKo": "사람들은 종종 무엇을 올바르게 했는지 배우기 위해 성공한 거래를 연구하지 못한다. 금융에서 돈을 버는 것은 패자를 피하는 것이 아니라 승자를 갖는 것에서 나온다.",
+      "context": "On performance analysis and trading discipline",
+      "contextKo": "성과 분석 및 거래 규율에 대해",
+      "source": "Duke Finance, various hedge fund interviews"
+    },
+    {
+      "text": "I try to surround myself with people who disagree with me. Successful people tend to be very overconfident about what they know, and it leads to tragic mistakes.",
+      "textKo": "나는 나와 의견이 다른 사람들로 둘러싸려고 노력한다. 성공한 사람들은 자신이 아는 것에 대해 매우 자신감 있는 경향이 있고, 이는 비극적인 실수로 이어진다.",
+      "context": "On decision-making, team building, and avoiding overconfidence bias",
+      "contextKo": "의사 결정, 팀 구성, 과신 편향 회피에 대해",
+      "source": "CNBC interviews, quoted in finance publications"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "A Man for All Markets",
+        "author": "Edward O. Thorp",
+        "why": "Pioneering quantitative trader's memoir; influenced modern hedge fund strategies and risk management approaches",
+        "whyKo": "개척적 정량 거래자의 회고록; 현대 헤지펀드 전략 및 리스크 관리 접근 영향"
+      },
+      {
+        "title": "Market Wizards",
+        "author": "Jack D. Schwager",
+        "why": "Interviews with successful traders revealing decision-making frameworks and winning strategies applicable to finance",
+        "whyKo": "성공한 거래자들의 인터뷰로 금융에 적용 가능한 의사 결정 프레임워크 및 승리 전략 공개"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Visionary quantitative trader who built Citadel into one of the world's most successful hedge funds. Known for exceptional intellect, risk tolerance, competitive drive, and ability to attract top talent. Also known for significant philanthropic commitments.",
+    "knownForKo": "세계에서 가장 성공한 헤지펀드 중 하나인 Citadel을 구축한 비전적 정량 거래자. 탁월한 지능, 위험 허용도, 경쟁 추진력, 최고 인재 유치 능력으로 알려짐. 중요한 자선 기여로도 알려짐",
+    "philanthropy": "Donated over $2.5 billion to advance initiatives including expanding access to high-quality education at every level, advancing medical research, enhancing communities, and strengthening freedom and democracy. Major patron of Chicago cultural institutions.",
+    "philanthropyKo": "교육 접근성 확대, 의학 연구 선진화, 커뮤니티 강화, 자유 및 민주주의 강화 등 25억 달러 이상 기부. 시카고 문화 기관의 주요 후원자",
+    "controversies": "GameStop short squeeze incident raised concerns about potential market manipulation and conflicts of interest between Citadel Securities' market-making operations and Citadel's proprietary trading activities. Faced Congressional scrutiny and public backlash.",
+    "controversiesKo": "GameStop 숏스퀴즈 사건은 Citadel Securities의 시장 조성 운영과 Citadel의 자체 거래 활동 간 잠재적 시장 조종 및 이해 상충 우려 야기. 의회 심사 및 공중 반발 직면"
+  },
+  "sajuConnection": {
+    "note": null,
+    "value": null
+  }
+}

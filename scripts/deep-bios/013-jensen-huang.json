@@ -1,0 +1,264 @@
+{
+  "id": "7",
+  "name": "Jensen Huang",
+  "childhood": {
+    "birthPlace": "San Jose, California, USA",
+    "birthPlaceKo": "캘리포니아주 산호세, 미국",
+    "familyBackground": "Son of Huang Hsing-tai (chemical engineer at an oil refinery) and Lo Tsai-hsiu (schoolteacher). Taiwanese American immigrants from a middle-class family. Has one older brother. Spent early childhood in Taiwan, then Thailand for approximately 4 years before moving to the United States.",
+    "familyBackgroundKo": "석유 정제소 화학 공학자인 황싱타이(부)와 학교 교사인 로채서(모) 사이의 아들. 중산층 가정의 대만계 미국 이민자. 형이 한 명 있음. 대만에서 어린 시절을 보낸 후, 약 4년간 태국에서 생활한 후 미국으로 이주.",
+    "education": "Mistakenly enrolled at Oneida Baptist Institute in Kentucky (parents thought it was prestigious; it was actually a reform academy). Attended Oneida Elementary School in Kentucky, enduring bullying as an undersized Asian immigrant with long hair and accented English. Family relocated to Portland, Oregon suburbs where he attended Aloha High School (1977-1981). Played competitive table tennis with national ranking. Earned bachelor's degree in electrical engineering from Oregon State University (1984). Obtained master's degree in electrical engineering from Stanford University (graduated 1992).",
+    "educationKo": "켄터키의 오니데 침례교 학교에 실수로 입학(부모가 명문이라고 생각했으나 실제로는 교화 학교). 켄터키의 오니데 초등학교 다니며 체격이 작은 아시안 이민자이자 영어 발음이 있는 학생으로서 따돌림을 받음. 가족이 오리건주 포틀랜드 교외로 이주하여 알로하 고등학교 입학(1977-1981). 국가 랭킹에 있는 탁구 선수로 활약. 오리건 주립 대학교에서 전기 공학 학사 학위 취득(1984). 스탠퍼드 대학교에서 전기 공학 석사 학위 취득(1992년 졸업).",
+    "earlyLife": "Childhood marked by cultural displacement and adversity. Parents sold nearly all possessions to afford boarding school tuition. Bullied extensively in Kentucky due to appearance and accent. Found confidence through competitive table tennis. Met future wife Lori Mills (fellow engineering student) at Oregon State. Moved to Silicon Valley for engineering career, initially working at Advanced Micro Devices for about one year, then at LSI Logic Corporation where he rose through ranks to become division director before pursuing master's degree.",
+    "earlyLifeKo": "문화적 이주와 역경으로 특징지어진 어린 시절. 부모는 보딩스쿨 학비를 감당하기 위해 거의 모든 재산을 팔았음. 켄터키에서 외모와 억양 때문에 광범위한 왕따를 경험. 탁구 선수 활동을 통해 자신감 찾음. 오리건 주립에서 미래의 아내 로리 밀스(공학 전공 학생)를 만남. 엔지니어링 경력을 위해 실리콘 밸리로 이주, 처음에는 어드밴스드 마이크로 디바이시스에서 약 1년 근무한 후, LSI Logic 회사에서 직급을 올려 부서 이사가 된 후 석사 학위 추구.",
+    "source": "Wikipedia (https://en.wikipedia.org/wiki/Jensen_Huang); Computer History Museum (https://computerhistory.org/profile/jensen-huang/); NVIDIA Newsroom (https://nvidianews.nvidia.com/bios/jensen-huang)"
+  },
+  "careerTimeline": [
+    {
+      "year": 1986,
+      "event": "Began work at Advanced Micro Devices (AMD) in Silicon Valley as microchip designer",
+      "eventKo": "실리콘 밸리의 어드밴스드 마이크로 디바이시스에서 마이크로칩 설계자로 근무 시작"
+    },
+    {
+      "year": 1987,
+      "event": "Joined LSI Logic Corporation as microchip designer; steadily rose through company ranks",
+      "eventKo": "LSI Logic 회사에 마이크로칩 설계자로 입사; 회사 내에서 계속 직급 상승"
+    },
+    {
+      "year": 1990,
+      "event": "Enrolled at Stanford University for master's degree in electrical engineering while continuing to work",
+      "eventKo": "일을 계속하면서 스탠퍼드 대학교 전기 공학 석사 과정 등록"
+    },
+    {
+      "year": 1992,
+      "event": "Completed master's degree in electrical engineering from Stanford University",
+      "eventKo": "스탠퍼드 대학교 전기 공학 석사 학위 취득"
+    },
+    {
+      "year": 1993,
+      "event": "Founded NVIDIA on April 5 at a Denny's restaurant in San Jose with co-founders Chris Malachowsky and Curtis Priem; selected as CEO. Received $20 million in venture capital funding from Sequoia Capital and Sutter Hill Ventures.",
+      "eventKo": "공동 설립자 크리스 말라코스키, 커티스 프리엠과 함께 4월 5일 산호세의 데니스 식당에서 NVIDIA 설립; CEO로 선임. Sequoia Capital과 Sutter Hill Ventures로부터 2,000만 달러의 벤처 캐피탈 자금 획득"
+    },
+    {
+      "year": 1996,
+      "event": "NVIDIA faced critical product failure with NV1 (250,000 units manufactured, 249,000 returned); decisive action to lay off 60% of staff (from 100 to 40 employees) and refocus on new graphics accelerator product",
+      "eventKo": "NVIDIA가 NV1으로 치명적인 제품 실패 경험(250,000 유닛 제조, 249,000 유닛 반품); 직원 60% 감축(100명에서 40명) 및 새로운 그래픽 가속기 제품으로 재초점 결정"
+    },
+    {
+      "year": 1997,
+      "event": "RIVA 128 graphics accelerator launched in August 1997; sold approximately 1 million units within 4 months, saving the company from bankruptcy",
+      "eventKo": "1997년 8월 RIVA 128 그래픽 가속기 출시; 4개월 이내에 약 100만 유닛 판매하여 회사를 파산에서 구함"
+    },
+    {
+      "year": 1998,
+      "event": "Released RIVA TNT, solidifying NVIDIA's reputation as leader in graphics technology",
+      "eventKo": "RIVA TNT 출시, 그래픽 기술 분야의 리더로서 NVIDIA의 평판 확립"
+    },
+    {
+      "year": 1999,
+      "event": "NVIDIA went public on January 22, 1999; GeForce line launched, establishing the company as dominant graphics processor manufacturer",
+      "eventKo": "1999년 1월 22일 NVIDIA 기업공개; GeForce 라인 출시, 지배적인 그래픽 프로세서 제조사로 회사 확립"
+    },
+    {
+      "year": 2006,
+      "event": "Launched CUDA (Compute Unified Device Architecture), revolutionary software platform enabling GPUs as general-purpose parallel processors for scientific and analytical workloads",
+      "eventKo": "CUDA(Compute Unified Device Architecture) 출시, GPU를 과학 및 분석 작업용 범용 병렬 프로세서로 활성화하는 혁신적인 소프트웨어 플랫폼"
+    },
+    {
+      "year": 2011,
+      "event": "NVIDIA expanded CUDA ecosystem significantly as deep learning research accelerated; positioned GPUs as essential for AI training",
+      "eventKo": "심층 학습 연구가 가속화되면서 NVIDIA가 CUDA 생태계를 크게 확장; GPU를 AI 훈련에 필수적으로 위치 지어짐"
+    },
+    {
+      "year": 2016,
+      "event": "NVIDIA became the de facto standard for AI/deep learning workloads as the field exploded globally",
+      "eventKo": "분야가 전 세계적으로 폭발하면서 NVIDIA가 AI/심층 학습 작업의 사실상의 표준이 됨"
+    },
+    {
+      "year": 2022,
+      "event": "ChatGPT's viral success validated NVIDIA's AI platform strategy; demand for NVIDIA GPUs skyrocketed",
+      "eventKo": "ChatGPT의 바이럴 성공이 NVIDIA의 AI 플랫폼 전략을 검증; NVIDIA GPU에 대한 수요가 급증"
+    },
+    {
+      "year": 2024,
+      "event": "NVIDIA market cap exceeded $3 trillion; company became world's most valuable; Huang's net worth exceeded $150 billion",
+      "eventKo": "NVIDIA 시가총액이 3조 달러 초과; 회사가 세계에서 가장 가치 있는 회사가 됨; 황의 순자산이 1,500억 달러 초과"
+    },
+    {
+      "year": 2025,
+      "event": "NVIDIA became the first company to reach $5 trillion market capitalization (October 2025); Jensen Huang's net worth reached $178+ billion, making him among the world's wealthiest",
+      "eventKo": "NVIDIA가 5조 달러 시가총액에 도달한 첫 번째 회사가 됨(2025년 10월); 젠슨 황의 순자산이 1,780억 달러 이상에 도달하여 세계에서 가장 부유한 사람 중 한 명이 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1994,
+      "description": "NV1 graphics chip failed spectacularly in the market. NVIDIA manufactured 250,000 chips but 249,000 were returned by Diamond Multimedia due to poor performance and market mismatch. This created a severe cash crunch with only approximately 6 months of operating runway remaining.",
+      "descriptionKo": "NV1 그래픽 칩이 시장에서 극적인 실패를 함. NVIDIA는 250,000 칩을 제조했으나 Diamond Multimedia에 의해 249,000개가 성능 부족과 시장 부적응으로 인해 반품됨. 이로 인해 약 6개월의 운영 자금만 남겨둔 심각한 현금 위기 발생.",
+      "lesson": "Learned the critical importance of product-market fit and the necessity of ruthless prioritization. Made the extremely difficult decision to lay off over 60% of staff (from 100 to 40) to preserve cash. This pivot toward graphics accelerators and the decisive layoff prevented complete company failure and established a template for crisis management.",
+      "lessonKo": "제품-시장 적합성의 중요성과 냉정한 우선순위 지정의 필요성을 학습. 현금을 보존하기 위해 60% 이상의 직원 감축(100명에서 40명)이라는 극도로 어려운 결정을 내림. 그래픽 가속기로의 전환과 과감한 감원이 회사의 완전한 실패를 방지했고 위기 관리의 템플릿 확립.",
+      "source": "Press Farm (https://press.farm/the-6-failures-of-nvidias-jensen-huang/); Quartr Insights (https://quartr.com/insights/edge/the-story-of-jensen-huang-and-nvidia)"
+    },
+    {
+      "year": 2003,
+      "description": "GeForce FX series suffered from performance issues and excessive power consumption, falling short of market expectations against competitor AMD's offerings.",
+      "descriptionKo": "GeForce FX 시리즈가 성능 문제와 과도한 전력 소비로 고통받으며 경쟁사 AMD의 제품에 비해 시장 기대에 미치지 못함.",
+      "lesson": "Learned the importance of thermal and power efficiency in chip design. Reinforced need for continuous technical innovation and competitive benchmarking.",
+      "lessonKo": "칩 설계에서 열 및 전력 효율의 중요성 학습. 지속적인 기술 혁신과 경쟁적 벤치마킹의 필요성 재강조.",
+      "source": "Press Farm (https://press.farm/jensen-huangs-failures-on-his-way-to-success/)"
+    },
+    {
+      "year": 2008,
+      "description": "NVIDIA faced severe market demand collapse during the global financial crisis. GPU demand plummeted as PC gaming slowed and graphics-intensive industries contracted.",
+      "descriptionKo": "NVIDIA가 글로벌 금융 위기 중 심각한 시장 수요 붕괴에 직면. PC 게이밍이 둔화되고 그래픽 집약적 산업이 축소되면서 GPU 수요가 급락.",
+      "lesson": "Understood the cyclical nature of technology markets and importance of diversification. Began exploring non-graphics applications for GPU compute power, which eventually led to focus on data centers and AI.",
+      "lessonKo": "기술 시장의 순환적 성질과 다양화의 중요성 인식. GPU 컴퓨팅 파워의 비그래픽 응용 프로그램 탐색 시작, 이는 결국 데이터 센터와 AI에 대한 집중으로 이어짐.",
+      "source": "Inc.com (https://www.inc.com/carmine-gallo/why-jensen-huang-keeps-talking-about-pain-and-suffering-when-nvidia-is-worth-5-trillion/91261743)"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 1999,
+      "netWorth": 0.01
+    },
+    {
+      "year": 2005,
+      "netWorth": 0.5
+    },
+    {
+      "year": 2010,
+      "netWorth": 2.0
+    },
+    {
+      "year": 2015,
+      "netWorth": 8.0
+    },
+    {
+      "year": 2019,
+      "netWorth": 3.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 20.0
+    },
+    {
+      "year": 2021,
+      "netWorth": 35.0
+    },
+    {
+      "year": 2022,
+      "netWorth": 60.0
+    },
+    {
+      "year": 2023,
+      "netWorth": 110.0
+    },
+    {
+      "year": 2024,
+      "netWorth": 158.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 178.0
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I don't do one-on-ones. Almost everything that I say, I say to everybody at the same time. I don't believe there's any information that only 1-2 people should hear about.",
+      "textKo": "나는 일대일 미팅을 하지 않습니다. 내가 말하는 거의 모든 것을 모두에게 동시에 말합니다. 1-2명만 알아야 할 정보가 있다고 생각하지 않습니다.",
+      "context": "Leadership philosophy on transparency and communication",
+      "contextKo": "투명성과 커뮤니케이션에 대한 리더십 철학",
+      "source": "Creator Economy (https://creatoreconomy.so/p/15-life-and-work-principles-from-jensen)"
+    },
+    {
+      "text": "Smart people focus on the right things.",
+      "textKo": "똑똑한 사람들은 올바른 일에 집중합니다.",
+      "context": "On strategic decision-making and prioritization",
+      "contextKo": "전략적 의사결정과 우선순위 지정에 대하여",
+      "source": "Inc.com (https://www.inc.com/peter-economy/17-jensen-huang-quotes-to-inspire-your-creativity-success.html)"
+    },
+    {
+      "text": "I think that's what's thrilling about leadership - when you're holding onto literally the worst possible hand on the planet and you know you're still going to win...Because that's when the character of the company really comes out.",
+      "textKo": "리더십의 스릴은 지구상에서 최악의 상황을 가지고 있으면서도 여전히 승리할 것을 알 때입니다...왜냐하면 그때가 회사의 진정한 성격이 드러나기 때문입니다.",
+      "context": "On resilience and leadership during adversity",
+      "contextKo": "역경 중 회복력과 리더십에 대하여",
+      "source": "Creator Economy (https://creatoreconomy.so/p/15-life-and-work-principles-from-jensen)"
+    },
+    {
+      "text": "The best way to predict the future is to invent it.",
+      "textKo": "미래를 예측하는 최고의 방법은 그것을 발명하는 것입니다.",
+      "context": "On innovation and taking action",
+      "contextKo": "혁신과 행동에 대하여",
+      "source": "Global Advisors Quotes (https://globaladvisors.biz/2026/04/04/quote-jensen-huang-nvidia-ceo-11/)"
+    },
+    {
+      "text": "Leadership is about empowering people to do their life's work.",
+      "textKo": "리더십은 사람들이 그들의 삶의 일을 할 수 있도록 권능을 주는 것입니다.",
+      "context": "On organizational leadership and employee empowerment",
+      "contextKo": "조직 리더십과 직원 권능에 대하여",
+      "source": "Creator Economy (https://creatoreconomy.so/p/15-life-and-work-principles-from-jensen)"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": null,
+        "note": "Jensen Huang has not authored any published books",
+        "noteKo": "젠슨 황은 출판된 책을 저술하지 않았습니다"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "The Innovator's Dilemma",
+        "author": "Clayton M. Christensen",
+        "why": "Explores how companies can disrupt their industries and the paradox of innovation; directly relevant to NVIDIA's strategy of pivoting to new markets (AI, data centers) while remaining dominant in graphics",
+        "whyKo": "기업이 자신의 산업을 어떻게 파괴할 수 있는지와 혁신의 역설을 탐구; NVIDIA가 그래픽 분야에서 우위를 유지하면서 새로운 시장(AI, 데이터 센터)으로 전환하는 전략과 직접적으로 관련"
+      },
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "why": "Details rapid experimentation, MVP development, and iterative innovation - methodologies Huang has employed throughout NVIDIA's evolution and pivots",
+        "whyKo": "빠른 실험, MVP 개발, 반복 혁신을 자세히 설명 - NVIDIA의 진화와 전환 과정에서 황이 사용한 방법론"
+      },
+      {
+        "title": "Good to Great",
+        "author": "Jim Collins",
+        "why": "Examines how companies transition from good to exceptional performance; aligns with Huang's philosophy of continuous excellence and transformation",
+        "whyKo": "기업이 좋은 성과에서 탁월한 성과로 어떻게 전환하는지 검토; 지속적인 우수성과 변환에 대한 황의 철학과 일치"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Relentless focus on innovation in GPU computing; 33+ years as CEO of NVIDIA without successor; unwavering conviction in technology trends (particularly AI); intense work ethic; emphasis on transparency and direct communication; ability to pivot company strategy based on emerging opportunities; resilience through multiple industry downturns; maintaining 'paranoia' about competition despite massive success",
+    "knownForKo": "GPU 컴퓨팅의 혁신에 대한 불굴의 초점; NVIDIA CEO로 33년 이상 후임자 없이 재임; 기술 동향(특히 AI)에 대한 흔들리지 않는 신념; 강렬한 업무 윤리; 투명성과 직접 소통 강조; 새로운 기회에 따른 회사 전략 전환 능력; 여러 산업 침체 기간의 회복력; 엄청난 성공에도 불구하고 경쟁에 대한 '편집증' 유지",
+    "philanthropy": "Donated significant sums to Stanford University engineering programs; supported educational initiatives in AI and computer science; contributed to Immigrant Learning Center recognizing immigrant entrepreneurs; established scholarship programs for computer science students",
+    "philanthropyKo": "스탠퍼드 대학교 공학 프로그램에 상당한 기금 기부; AI 및 컴퓨터 과학 교육 이니셔티브 지원; 이민자 기업가를 인정하는 이민자 학습 센터에 기여; 컴퓨터 과학 학생을 위한 장학금 프로그램 설립",
+    "controversies": "Minimal major controversies; sometimes criticized for aggressive competitive tactics during NVIDIA's rise; faced scrutiny over chip export restrictions to China and geopolitical tensions; occasional criticism for aggressive acquisition strategies and market dominance in AI computing",
+    "controversiesKo": "주요 논란은 최소함; NVIDIA의 성장 과정에서 공격적인 경쟁 전술로 비판받기도 함; 중국으로의 칩 수출 제한 및 지정학적 긴장에 대한 조사에 직면; AI 컴퓨팅에서의 공격적인 인수 전략 및 시장 지배력에 대한 간헐적 비판"
+  },
+  "additionalInsights": {
+    "pivotalMentors": [
+      {
+        "name": "Don Valentine",
+        "relationship": "Venture capitalist at Sequoia Capital who took the initial investment risk on NVIDIA",
+        "influence": "Provided critical early funding ($20M) and believed in Huang's vision when the odds were against NVIDIA. Valentine's decision to 'give this kid money' was transformative for the company's survival and growth."
+      },
+      {
+        "name": "Dhirubhai Ambani (indirectly through observation)",
+        "relationship": "Distant contemporary in tech industry",
+        "influence": "While not a formal mentor, Ambani represented the possibility of building transformative technology businesses in Asia, providing implicit evidence that founders could build trillion-dollar enterprises outside Silicon Valley."
+      }
+    ],
+    "dailyRoutine": "Wakes at 4 AM (previously; now around 6 AM to avoid disturbing dogs) to exercise before family time. Starts workday with highest-priority tasks first. Insists on extremely brief email replies (5-6 lines maximum for clarity). Works 14-hour days regularly. Operates under self-imposed 'paranoia' that NVIDIA is 30 days from bankruptcy - a mental framework driving constant innovation. Works every weekday and holiday. Values morning exercise as essential for mental clarity. Relaxes by evening time with family, though blurs work-life boundaries significantly.",
+    "keyAnecdotes": [
+      "Founded NVIDIA in a Denny's restaurant booth in San Jose, 1993. The booth later received a commemorative plaque inscribed 'The NVIDIA Booth' - a reminder of the company's humble origins that contrasts sharply with its current trillion-dollar valuation.",
+      "In 1996 during the NV1 crisis, Huang made the wrenching decision to lay off 60% of NVIDIA's staff (from 100 to 40 people) to preserve cash. He personally managed this crisis and redirected remaining resources to develop RIVA 128 in a last-ditch effort. This 'bet the company' moment demonstrated his crisis leadership and willingness to make devastating decisions for survival.",
+      "When RIVA 128 was the company's final shot before bankruptcy, Huang told the engineering team: 'We only got one shot. And if you have one shot, that chip has to be perfect.' The chip succeeded magnificently, selling 1 million units in 4 months and saving the company. Huang personally delivered the first DGX supercomputer to OpenAI years later, describing it as 'a fun day' - showing his hands-on approach even at massive scale."
+    ],
+    "turningPoint": "The 1996-1997 period during the NV1 failure and RIVA 128 recovery. This moment tested Huang's resolve to its absolute limit - the company had one month's payroll left, massive debts, and only one final product chance. His decision to radically restructure, lay off most staff, and bet everything on RIVA 128's perfection defined both his leadership style and set the template for NVIDIA's survival through multiple cycles. Success here established Huang's credibility and the company's culture of 'paranoid' excellence that would later position NVIDIA perfectly for the AI revolution.",
+    "managementStyle": "Radical transparency combined with hierarchical decision-making. Huang communicates in large group forums rather than one-on-ones to ensure information consistency. Demands brevity and clarity from executives. Maintains high standards and expects execution excellence at all levels. Empowers teams by giving them clear context for decisions but expects accountability for results. Uses 'paranoia' about competition as a motivational tool. Personally involved in major strategic decisions despite massive scale. Values intuition in technology decisions (his technology intuition has proven remarkably prescient). Focuses on long-term technology bets while maintaining flexibility on short-term execution through 'continuous planning' rather than rigid 5-year plans. Creates a culture of calculated risk-taking and embraces failure as essential to learning."
+  },
+  "sajuConnection": {
+    "note": "Leave null.",
+    "value": null
+  }
+}

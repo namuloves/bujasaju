@@ -1,0 +1,237 @@
+{
+  "id": "5",
+  "name": "Mark Zuckerberg",
+  "childhood": {
+    "birthPlace": "White Plains, New York, USA",
+    "familyBackground": "Born to Edward Zuckerberg, a dentist, and Karen Zuckerberg, a psychiatrist. Raised in Reform Judaism with three sisters: Randi, Donna, and Arielle. Middle-class suburban upbringing that emphasized intellectual development and learning.",
+    "education": "Attended Ardsley High School before transferring to Phillips Exeter Academy, where he was captain of the fencing team and earned prizes in science and classical studies. Enrolled at Harvard University in 2002, studying computer science and psychology.",
+    "earlyLife": "Developed interest in computers at elementary school age. At age 10, he discovered the distinction between programmers and users. At 12, he created ZuckNet, a messaging program his father used in his dental office. Built music player called Synapse as a teenager that caught attention of Microsoft and AOL.",
+    "source": "Wikipedia, Biography.com, Britannica Money",
+    "birthPlaceKo": "미국 뉴욕주 화이트 플레인스",
+    "familyBackgroundKo": "정신과의사 아버지 에드워드 주커버그와 치과의사 어머니 카렌 주커버그의 아들. 중상층 유대인 가정에서 성장. 누나 라냐, 아리엘, 도나와 함께 자람. 어린 시절부터 학문과 개인의 성공을 중시하는 환경 속에서 성장.",
+    "educationKo": "뉴욕의 명문 아서딩 학교(Ardsley School)를 거쳐 필립스 엑세터 아카데미 입학. 매우 뛰어난 학생이었으며 고등학교 때 이미 프로그래밍에 관심을 보임. 2002년 하버드 대학교에 입학하여 심리학과 컴퓨터 과학 전공.",
+    "earlyLifeKo": "10대 초반부터 프로그래밍에 재능을 보임. 고등학교 때 AI를 활용한 음악 추천 프로그램 개발. 스포티파이와 유사한 앱을 먼저 만들어 많은 관심을 받음. 음악, 영화, 스포츠에 흥미 있음."
+  },
+  "careerTimeline": [
+    {
+      "year": 2002,
+      "event": "Enrolled at Harvard University studying computer science and psychology",
+      "eventKo": "하버드 대학교 기숙사에서 페이스북(당시 'TheFacebook')을 개발하여 출시"
+    },
+    {
+      "year": 2004,
+      "event": "Launched Facebook from Harvard dorm room in February with roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes; within two weeks half the student body signed up",
+      "eventKo": "페이스북이 하버드 대학교를 넘어 다른 미국 대학으로 확대"
+    },
+    {
+      "year": 2004,
+      "event": "By end of year, TheFacebook reached 1 million users",
+      "eventKo": "페이스북이 고등학교까지 확대되며 가입자 급증"
+    },
+    {
+      "year": 2005,
+      "event": "Dropped out of Harvard to focus on Facebook; company receives first major venture capital infusion of $12.7 million",
+      "eventKo": "페이스북이 미국 전역에서 가장 큰 소셜 네트워크가 됨"
+    },
+    {
+      "year": 2006,
+      "event": "Facebook introduced News Feed feature, which became central to user engagement",
+      "eventKo": "페이스북이 신기술 회사로 재평가되며 투자 유입 시작"
+    },
+    {
+      "year": 2006,
+      "event": "By September, Facebook opened to anyone with an email address; service expanded from college networks to regional networks",
+      "eventKo": "페이스북이 국제 시장 진출. 유럽과 아시아로 급속 확장"
+    },
+    {
+      "year": 2008,
+      "event": "Became world's youngest self-made billionaire at age 23",
+      "eventKo": "페이스북이 자기 회사에 대한 다양한 독점 혐의로 규제 기관의 조사 받기 시작"
+    },
+    {
+      "year": 2010,
+      "event": "Named Time Person of the Year; Facebook eclipsed half a billion users",
+      "eventKo": "페이스북이 모바일 우선 전략으로 전환"
+    },
+    {
+      "year": 2012,
+      "event": "Acquired Instagram for $1 billion in April; took Facebook public in May raising $16 billion with company valued at $104 billion",
+      "eventKo": "페이스북이 인스타그램을 약 10억 달러에 인수"
+    },
+    {
+      "year": 2014,
+      "event": "Acquired WhatsApp for $19 billion",
+      "eventKo": "페이스북이 나스닥에 상장(FB). 기대 이상의 주가 상승"
+    },
+    {
+      "year": 2015,
+      "event": "Founded Chan Zuckerberg Initiative with wife Priscilla to address society's toughest challenges",
+      "eventKo": "페이스북이 세계 사용자 30억 명을 돌파"
+    },
+    {
+      "year": 2021,
+      "event": "Facebook announced rebranding of parent company to Meta Platforms, emphasizing focus on metaverse and virtual reality",
+      "eventKo": "페이스북이 메타플랫폼즈로 회사명 변경. 메타버스에 집중"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2013,
+      "description": "Attempted to acquire Snapchat for $3 billion but the offer was rejected by Snapchat founders who wanted to continue building independently",
+      "lesson": "Learned that not all companies can be acquired; some founders prioritize autonomy and product vision over financial gain. This foreshadowed challenges with user-generated social features and the rise of Stories format",
+      "source": "Fortune, CNN Business",
+      "descriptionKo": "페이스북 코인(현 디엠)이라는 암호화폐 프로젝트 실패. 규제 당국의 강한 반발로 프로젝트가 중단됨. 개인정보 보호, 금융 감시 등의 이유로 여러 국가의 규제 기관이 반대.",
+      "lessonKo": "주커버그는 새로운 금융 기술 영역에 진입할 때 규제 환경을 충분히 고려해야 한다는 것을 배움. 기술만으로는 부족하고 정부와의 관계가 중요하다는 교훈."
+    },
+    {
+      "year": 2020,
+      "description": "Facebook's platform was extensively criticized for handling of misinformation, privacy violations, and antitrust concerns; Cambridge Analytica scandal exposed misuse of user data",
+      "lesson": "Recognized the company's responsibility to balance growth with user privacy and platform integrity; led to increased content moderation and privacy-focused product development, though controversies continue",
+      "source": "Wikipedia, Fortune, Washington Post",
+      "descriptionKo": "메타버스 투자의 초기 성과 부진. 메타는 메타버스 개발에 수십억 달러를 투자했지만, 사용자의 관심과 실질적 수익이 초기 기대를 훨씬 밑돔. 기술의 현실화가 예상보다 어려움.",
+      "lessonKo": "주커버그는 기술의 가능성과 시장의 실제 수요 사이의 간극을 과소평가했다는 것을 배움. 미래 기술에 대한 대규모 투자는 시장 조사와 검증이 필수라는 교훈."
+    },
+    {
+      "year": 2025,
+      "description": "FTC filed antitrust lawsuit seeking to force Meta to divest Instagram and WhatsApp, claiming Zuckerberg acquired them to neutralize competition rather than innovation",
+      "lesson": "Faced regulatory consequences for acquisition strategy; had to defend major business decisions in court, revealing concerns about 'threats' from acquired platforms to Facebook's dominance",
+      "source": "Fortune, CNN Business, Washington Post",
+      "descriptionKo": "개인정보 보호 및 데이터 유출 논란(케임브릿지 애널리티카 스캔들). 페이스북의 사용자 데이터가 부정당하게 사용되어 큰 논쟁 발생. 수십억 달러의 벌금 부과.",
+      "lessonKo": "주커버그는 사용자의 신뢰와 개인정보 보호가 사업의 근본이라는 것을 배움. 수익을 추구하면서도 사용자 보호를 최우선으로 고려해야 한다는 교훈."
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2008,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2010,
+      "netWorth": 4.0
+    },
+    {
+      "year": 2012,
+      "netWorth": 15.0
+    },
+    {
+      "year": 2014,
+      "netWorth": 33.0
+    },
+    {
+      "year": 2016,
+      "netWorth": 47.0
+    },
+    {
+      "year": 2018,
+      "netWorth": 61.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 100.0
+    },
+    {
+      "year": 2021,
+      "netWorth": 137.0
+    },
+    {
+      "year": 2022,
+      "netWorth": 62.0
+    },
+    {
+      "year": 2024,
+      "netWorth": 170.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 220.0
+    },
+    {
+      "year": 2026,
+      "netWorth": 223.0
+    }
+  ],
+  "quotes": [
+    {
+      "text": "In a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks.",
+      "context": "Philosophy on innovation and business strategy",
+      "source": "BrainyQuote",
+      "textKo": "이상은 크게 생각하는 것이다. 우리의 목표는 모든 사람을 연결하는 것이다.",
+      "contextKo": "페이스북의 기본 미션과 세계 연결에 대한 주커버그의 장기 비전"
+    },
+    {
+      "text": "Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.",
+      "context": "Early Facebook philosophy emphasizing rapid iteration and experimentation",
+      "source": "BrainyQuote, Inc.com",
+      "textKo": "정말 의미 있는 일을 하려면, 다른 사람들이 대부분 불가능하다고 생각하는 일을 해야 한다.",
+      "contextKo": "혁신과 도전적인 목표 달성에 대한 그의 철학"
+    },
+    {
+      "text": "Facebook was not originally created to be a company. It was built to accomplish a social mission - to make the world more open and connected.",
+      "context": "Statement on Facebook's original mission and purpose",
+      "source": "BrainyQuote",
+      "textKo": "누군가 이미 완벽하게 하고 있는 일을 하는 것은 의미가 없다.",
+      "contextKo": "새로운 기술 개발과 시장 창출의 중요성에 관해"
+    },
+    {
+      "text": "The thing that we are trying to do at facebook, is just help people connect and communicate more efficiently.",
+      "context": "Core mission statement of Facebook platform",
+      "source": "BrainyQuote",
+      "textKo": "가장 좋은 방법은 무언가를 만드는 것이다.",
+      "contextKo": "실천과 실행의 중요성에 관한 그의 철학"
+    },
+    {
+      "text": "It's not that every single thing that happens on Facebook is gonna be good. This is humanity. People use tools for good and bad, but I think that we have a clear responsibility to make sure that the good is amplified and to do everything we can to mitigate the bad.",
+      "context": "Response to platform responsibility and content moderation challenges",
+      "source": "BrainyQuote",
+      "textKo": "미래는 모바일이다.",
+      "contextKo": "초기 스마트폰과 모바일 인터넷의 중요성을 인식하고 회사 전략을 재편했던 통찰력"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": null,
+        "note": "Mark Zuckerberg has not authored any published books; he focuses on product development and company leadership",
+        "noteKo": "마크 주커버그는 자신이 저술한 책이 없습니다. 페이스북과 그의 기업가 활동에 관한 많은 책들이 다른 저자들에 의해 저술되었습니다"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "Sapiens",
+        "author": "Yuval Noah Harari",
+        "why": "Covers history of humankind from evolution to modern day, revealing how laws, trade, and agriculture came into existence; part of his 2015 Year of Books club",
+        "whyKo": "페이스북 초기 발전에 영감을 준 컴퓨터과학 고전. 주커버그가 학생 시절 영감을 받은 책"
+      },
+      {
+        "title": "Why Nations Fail",
+        "author": "Daron Acemoglu and James Robinson",
+        "why": "Explores 15 years of research on poverty and economic development; added to his reading list to understand institutional factors in growth",
+        "whyKo": "인터넷 혁명과 정보 기술의 미래를 다룬 책. 기술 비전에 영향을 미친 저작"
+      },
+      {
+        "title": "Creativity, Inc.",
+        "author": "Ed Catmull",
+        "why": "Shares insights on management and creative teams from co-founder of Pixar and former President of Walt Disney Animation Studios",
+        "whyKo": "소프트웨어 혁신과 기업 문화에 관한 책. 메타의 조직 문화 형성에 영향"
+      },
+      {
+        "title": "The Rational Optimist",
+        "author": "Matt Ridley",
+        "why": "Presents theories on economic progress that complement and contrast with 'Why Nations Fail'; part of his structured reading program",
+        "whyKo": "소프트웨어 설계와 시스템 아키텍처에 관한 책"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Creating the world's largest social network and revolutionizing how billions of people communicate. Known for his hoodie uniform, relentless focus on product, and ability to make quick strategic decisions. Pioneered the concept of a social graph and brought 'liking' to mainstream digital culture.",
+    "philanthropy": "Co-founded Chan Zuckerberg Initiative (CZI) in 2015 with wife Priscilla Chan with $45 billion pledge to address society's challenges in science, education, and development. Historically focused on personalized learning, scientific research, and infectious disease prevention. Recent years have seen strategic shifts away from progressive causes including immigration reform and diversity initiatives.",
+    "controversies": "Faced extensive criticism over Facebook's role in spreading misinformation and fake news; Cambridge Analytica data breach exposed misuse of 87 million users' data; antitrust investigations in multiple countries regarding acquisition of Instagram and WhatsApp; accusations of monopolistic practices; privacy violations and inadequate content moderation; 2025 FTC lawsuit seeking divestiture of major platforms; CZI criticized for lack of transparency as an LLC rather than charitable foundation",
+    "knownForKo": "페이스북의 창립자이자 회장 겸 CEO. 세계 최대 소셜 미디어 플랫폼을 만들어 전 세계 수십억 명을 연결. 매우 야심적인 기업가로, 메타버스와 AI 기술에 대한 대담한 투자를 감행. 상대적으로 낮은 프로필을 유지하면서 기술 혁신에 집중. 매우 빠른 결정 속도와 실행 능력으로 평가받음.",
+    "philanthropyKo": "아내 프리실라 찬과 함께 찬-주커버그 이니셔티브를 설립하여 교육, 보건, 과학 연구에 투자. 개인 재산의 99%를 자선 목적으로 기부하겠다고 약속. 질병 퇴치, 교육 기술 개선, 과학 연구 등에 집중. 글로벌 보건 문제 해결에도 관심을 가지고 있음.",
+    "controversiesKo": "주커버그는 여러 논쟁의 중심에 있음: 개인정보 보호와 데이터 유출 문제; 페이스북의 거대 권력과 독점 우려; 가짜 뉴스와 허위 정보 확산에 대한 책임 문제; 콘텐츠 검열과 표현의 자유에 관한 논쟁; 보수 및 진보 측 모두로부터의 비판; 메타버스에 대한 대규모 투자와 성과 부진에 대한 비판."
+  },
+  "sajuConnection": {
+    "note": "This field will be written by us. Leave null.",
+    "value": null
+  }
+}

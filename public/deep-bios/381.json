@@ -1,0 +1,245 @@
+{
+  "id": "381",
+  "name": "Brian Joseph Chesky",
+  "childhood": {
+    "birthPlace": "Niskayuna, New York",
+    "familyBackground": "Both parents were social workers. Blue-collar values emphasizing community service and empathy. Father known for tough-love parenting style—never gave compliments, forcing Chesky to develop intrinsic motivation",
+    "education": "Rhode Island School of Design (RISD), 1999-2004. Bachelor of Fine Arts (BFA) in Industrial Design. Cited Leonardo da Vinci as childhood inspiration. Served as captain of RISD hockey team and commencement speaker at graduation.",
+    "earlyLife": "Developed passion for art and design as teenager, drawing replicas of paintings and redesigning toys and shoes. Studied how products and experiences were designed. Early interest in product design and human experience would shape entire career trajectory.",
+    "source": "Wikipedia; RISD; Airbnb Newsroom; Fortune; Medium",
+    "birthPlaceKo": "뉴욕, 미국",
+    "familyBackgroundKo": "1983년 8월 29일 미국 뉴욕의 중산층 가정에서 태어남. 아버지는 학교 교사, 어머니는 심리 사회 복지 전문가. 창의적 사고와 독립적인 문제 해결을 장려하는 온기 있는 가정 환경에서 성장.",
+    "educationKo": "뉴욕 공립학교, 로드아일랜드 미술 대학교(건축학 및 미술 디자인, 2005년 졸업)",
+    "earlyLifeKo": "어린 시절부터 디자인과 창의성에 열정. 미술 대학에서 건축과 디자인의 기초 습득. 대학 재학 중 디자인 문제 해결의 가능성을 발견하고 스타트업의 꿈 구체화."
+  },
+  "careerTimeline": [
+    {
+      "year": 2007,
+      "event": "Moved to San Francisco in October to live with RISD classmate Joe Gebbia; unable to afford rent independently",
+      "eventKo": "에어비앤비(Airbnb) 설립; 주택 공유 개념의 온라인 플랫폼 시작"
+    },
+    {
+      "year": 2008,
+      "event": "Opened apartment to short-term renters during Democratic National Convention, providing air mattresses and Pop-Tarts for breakfast; co-founded AirBed & Breakfast with Joe Gebbia (August 11, 2008)",
+      "eventKo": "Y Combinator 수락 및 시드 펀딩 확보; 샌프란시스코로 이주"
+    },
+    {
+      "year": 2009,
+      "event": "Nathan Blecharczyk joined as CTO and third co-founder (February 2008). Company joined Y Combinator, received $20,000 seed funding and training from Paul Graham. Sequoia Capital invested $585,000 at end of Y Combinator course",
+      "eventKo": "Y Combinator 인수, 초기 펀딩 확보; 샌프란시스코에 본사 설립"
+    },
+    {
+      "year": 2010,
+      "event": "Airbnb began rapid expansion; rebranded from AirBed & Breakfast to Airbnb; reached significant milestone of thousands of listings",
+      "eventKo": "에어비앤비 첫 백만 건 예약 달성; 글로벌 확장 시작"
+    },
+    {
+      "year": 2011,
+      "event": "Faced major trust crisis after guest property damage; introduced $1 million Host Guarantee to rebuild host confidence and establish trust foundation",
+      "eventKo": "에어비앤비 첫 백만 건 예약 달성; 글로벌 확장 본격화"
+    },
+    {
+      "year": 2015,
+      "event": "Airbnb continued explosive growth; company achieved major scaling milestones with presence in 190+ countries",
+      "eventKo": "에어비앤비 홈쉐어링 프로그램 확대; 숙박뿐 아니라 경험 공유 서비스 추가"
+    },
+    {
+      "year": 2020,
+      "event": "COVID-19 pandemic devastated travel. Airbnb lost 80% of business within 8 weeks. Chesky made difficult decision to lay off 25% of workforce (1,900 employees), calling it 'most harrowing decision' of his career. Company pivoted to domestic travel",
+      "eventKo": "COVID-19 팬데믹으로 인한 여행 수요 급락; 에어비앤비 구조 조정 단행"
+    },
+    {
+      "year": 2020,
+      "event": "Airbnb IPO in December 2020. Stock debuted strong; company valued at $100 billion on first day. Chesky's 10% ownership stake valued at ~$11 billion on paper",
+      "eventKo": "COVID-19 팬데믹으로 인한 여행 수요 급락; 에어비앤비 구조 조정 단행"
+    },
+    {
+      "year": 2022,
+      "event": "Donated $100 million to Obama Foundation for Voyager Scholarship Program supporting students pursuing public service careers",
+      "eventKo": "자신의 설립자 철학을 바탕으로 '창립자 모드' 리더십 철학 추진"
+    },
+    {
+      "year": 2024,
+      "event": "Implemented 'Founder Mode' leadership philosophy publicly; focused on hands-on CEO approach with direct involvement in product and company culture",
+      "eventKo": "에어비앤비 CEO로서 지속적 혁신과 기업 문화 강화 추진"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Airbnb nearly collapsed during founding phase. Chesky and Gebbia had $20,000 debt each. Company could not raise meaningful capital. Nearly abandoned due to lack of investor belief in 'strangers trusting strangers' model",
+      "lesson": "Learned resilience and unconventional problem-solving. Created presidential-themed cereals (Obama O's and Cap'n McCains) selling at $40 each to keep company afloat. Demonstrated that creative hustle and user-first thinking could overcome investor skepticism",
+      "source": "Press Farm; Medium; Wikipedia",
+      "descriptionKo": "초기 에어비앤비는 투자 유치의 어려움과 사용자 신뢰 부족으로 성장 정체",
+      "lessonKo": "새로운 비즈니스 모델은 초기에 시장의 심한 저항과 신뢰 부족에 직면; 인내심과 커뮤니티 신뢰 구축이 핵심"
+    },
+    {
+      "year": 2011,
+      "description": "Major trust crisis when guest caused significant property damage to host property. Company reputation damaged as users lost confidence in host safety protections",
+      "lesson": "Realized that trust was foundation of entire business model. Introduced $1 million Host Guarantee to rebuild confidence. Shifted focus to platform safety and accountability mechanisms as core competitive advantage",
+      "source": "Press Farm; Wikipedia",
+      "descriptionKo": "미국 시장 진출 초반 주요 음악사와의 라이센스 비용 협상 지연; 서비스 확대 속도 저하",
+      "lessonKo": "음악 산업이라는 기존 기득권 산업과의 협력 방식 재고 필요. 적절한 타이밍과 협상 전략의 중요성"
+    },
+    {
+      "year": 2020,
+      "description": "COVID-19 pandemic caused Airbnb to lose 80% of business within 8 weeks. Travel demand collapsed overnight. Company forced to lay off 25% of workforce (1,900 employees). Revenue projections slashed dramatically",
+      "lesson": "Learned importance of business model adaptability and decisive leadership under crisis. Pivoted to domestic travel and safety protocols. Demonstrated that design-thinking and empathy could guide recovery strategy. Set foundation for strong IPO comeback",
+      "source": "Press Farm; Wikipedia; Fortune",
+      "descriptionKo": "COVID-19 팬데믹으로 인한 여행 수요 급락; 에어비앤비 구조 조정 단행",
+      "lessonKo": "예측 불가능한 시장 위기에 신속한 대응 능력이 생존을 좌우; 비상 자금과 유연한 경영 전략 필요"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2008,
+      "netWorth": -20000
+    },
+    {
+      "year": 2015,
+      "netWorth": 1000000000
+    },
+    {
+      "year": 2020,
+      "netWorth": 3000000000
+    },
+    {
+      "year": 2020,
+      "netWorth": 11000000000
+    },
+    {
+      "year": 2023,
+      "netWorth": 12000000000
+    },
+    {
+      "year": 2024,
+      "netWorth": 9200000000
+    }
+  ],
+  "quotes": [
+    {
+      "text": "If you want to be autonomous, start your own company.",
+      "context": "On founder-mode leadership philosophy and hands-on CEO approach",
+      "source": "Fortune; Medium",
+      "textKo": "자율적이고 싶다면 자신의 회사를 창립하세요.",
+      "contextKo": "기업가 정신과 독립적 의사결정의 중요성을 강조"
+    },
+    {
+      "text": "It's not that you shouldn't hire great people or empower them, but you have to be in the details. You have to be close with them. You have to, as a CEO, set not only the vision but the rhythm. I review all the work. Now, before it ships, I am the chief editor of the company.",
+      "context": "Defining his hands-on leadership approach and emphasis on quality control",
+      "source": "Fortune; Medium",
+      "textKo": "훌륭한 사람을 고용하지 말아야 한다는 게 아니라, 그들을 제대로 지원해야 합니다.",
+      "contextKo": "리더십의 핵심은 팀 멤버들이 최선을 다할 수 있는 환경 조성"
+    },
+    {
+      "text": "Design is not just how something looks; it's how it fundamentally works.",
+      "context": "Core design philosophy influenced by Steve Jobs approach",
+      "source": "Figma Blog; Medium",
+      "textKo": "좋은 디자인은 인간의 필요를 이해하는 것에서 시작됩니다.",
+      "contextKo": "사용자 중심의 디자인 철학과 공감 능력의 중요성을 강조"
+    },
+    {
+      "text": "I think the key that makes Airbnb is the fact that we're a community, not just a series of commodities.",
+      "context": "On Airbnb's fundamental value proposition and mission",
+      "source": "Airbnb Leadership",
+      "textKo": "에어비앤비를 만드는 핵심은 사람들 간의 신뢰와 연결입니다.",
+      "contextKo": "기술보다 인간관계와 신뢰가 비즈니스의 중심"
+    },
+    {
+      "text": "Travel is the physical pursuit of happiness, but we are so blinded by our haste that we look at everything and see nothing.",
+      "context": "Quoting Alain de Botton's 'The Art of Travel' to reflect on Airbnb's purpose",
+      "source": "Chesky Reading Recommendations",
+      "textKo": "여행은 단순히 이동이 아니라 문화 교류와 인간 관계의 경험입니다.",
+      "contextKo": "에어비앤비를 단순 숙박 플랫폼이 아닌 문화 교류 플랫폼으로 보는 그의 관점"
+    },
+    {
+      "text": "Metrics are not a strategy. You had to put yourself in the shoes of the patient or the person using your product. If you're only doing A/B tests, you're never designing with empathy.",
+      "context": "On importance of empathy in product design over pure data optimization",
+      "source": "Medium",
+      "textKo": "지표는 전략이 아닙니다. 자신을 어떻게 표현할지가 중요합니다.",
+      "contextKo": "정량적 수치보다 기업의 비전과 정체성 표현의 중요성"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "High Output Management",
+        "author": "Andy Grove",
+        "why": "Primary management philosophy source; influenced Chesky's approach to operational excellence and process thinking",
+        "whyKo": "효율적인 조직 관리와 리더십 원칙을 배우는 경영 필독서"
+      },
+      {
+        "title": "Steve Jobs",
+        "author": "Walter Isaacson",
+        "context": "Chesky stated: 'I was living one life, kind of going down the predictable road, and I read this biography. That had a huge impact on me.' Inspired design-driven thinking and attention to detail",
+        "why": "Foundational to Chesky's leadership philosophy; inspired focus on experience design and perfectionism",
+        "whyKo": "기술과 인문학의 만남, 디자인 중심의 혁신을 배우는 전기"
+      },
+      {
+        "title": "The Art of Travel",
+        "author": "Alain de Botton",
+        "why": "Reflects Airbnb's core mission about travel as pursuit of happiness and human connection",
+        "whyKo": "여행의 미학과 인간관계에서 배우는 삶의 가치를 탐구하는 에세이"
+      },
+      {
+        "title": "The Third Wave",
+        "author": "Steve Case",
+        "why": "Provides strategic context for understanding internet evolution and building transformational businesses",
+        "whyKo": "기술 혁명이 사회에 미치는 영향과 미래 예측을 제시하는 미래학 저작"
+      },
+      {
+        "title": "Walt Disney biography",
+        "author": "Multiple sources",
+        "why": "Source of inspiration for experience design and building memorable customer moments",
+        "whyKo": "창의성과 사업가 정신, 꿈의 구현을 배우는 기업가 전기"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Design-driven innovation, product perfectionism, founder-mode leadership. Known for hands-on CEO approach with direct involvement in all company decisions. Emphasis on empathy, community building, and long-term thinking ('building for 100 years'). Former RISD industrial design student who brings design thinking to organizational structure.",
+    "philanthropy": "$100 million donation to Obama Foundation (2022) for Voyager Scholarship Program supporting students in public service. Pledged $100 million to Airbnb Host Endowment to support hosts. Funded refugee housing for Ukrainians during 2022 crisis. Signed Giving Pledge in 2016 committing to give majority of wealth to charitable causes.",
+    "controversies": "Known for rigorous and sometimes demanding management style that doesn't suit all employees. Decisions to lay off 25% of workforce during COVID-19 were painful but defended as necessary. Regulatory challenges in multiple cities (NYC, San Francisco) over short-term rental restrictions. Criticism from some quarters about disruption of rental markets and housing availability. Some perceived as overly design-obsessed and detail-oriented to point of micromanagement.",
+    "knownForKo": "혁신적 사업 모델 개발, 공유 경제 선도, 사용자 경험 중심 디자인, 어려운 규제 환경 극복, 글로벌 확장 비전, 젊은 기업가의 상징, 창의적 문제 해결 능력",
+    "philanthropyKo": "에어비앤비 호스트 보호 기금 설립; 관광지역 공동체 발전 지원; COVID-19 팬데믹 시 호스트 지원 프로그램; 난민 지원 및 주택 빈곤층 돕기",
+    "controversiesKo": "주택 공급 감소로 인한 젠트리피케이션 우려; 호스트의 세금 회피 문제; 도시 주택 시장에 부정적 영향 논란; 소수 공동체의 차별 논의"
+  },
+  "additionalInsights": {
+    "pivotalMentors": [
+      {
+        "name": "Joe Gebbia",
+        "relationship": "Co-founder, best friend, RISD classmate, housemate",
+        "influence": "Co-creator of Airbnb concept; shared design sensibility and vision for community-driven travel. Partnership provided emotional and creative support through company's near-death experiences"
+      },
+      {
+        "name": "Paul Graham",
+        "relationship": "Y Combinator founder, startup mentor",
+        "influence": "Provided crucial early mentorship through Y Combinator (2009). Advised focus on passionate user base (100 enthusiasts vs. million lukewarm users). Influenced Chesky's thinking about founder-mode leadership"
+      },
+      {
+        "name": "Steve Jobs",
+        "relationship": "Inspirational figure (studied biography and Apple's approach)",
+        "influence": "Profoundly shaped Chesky's design philosophy. Inspired focus on experience design, product perfectionism, and viewing design as how something works, not just looks"
+      },
+      {
+        "name": "Laurene Powell Jobs",
+        "relationship": "Mentor figure",
+        "influence": "Provided guidance on thoughtful leadership and building meaningful experiences; reinforced values-driven approach"
+      }
+    ],
+    "dailyRoutine": "Rises around 8:30 a.m. (intentionally later to ease into day with clarity). Avoids meetings before 10 a.m. to preserve morning for creative work. Morning fitness routine includes cardio on StairMaster or walks with dog (Sophie Supernova, 3-year-old golden retriever) on empty stomach. Prefers high-protein, healthy-fat, complex-carbohydrate meals for sustained energy. Most creative work peaks at night, starting around 10 p.m. Non-negotiable: 7+ hours of sleep nightly (believes loss of hour makes entire next day less productive). Recently implemented transcendental meditation (20 minutes, twice daily) to manage stress. Personally reviews all company work before shipping—serves as 'chief editor' of Airbnb.",
+    "keyAnecdotes": [
+      "In 2008, Chesky and Gebbia created limited-edition 'Obama O's and Cap'n McCains' breakfast cereals during Democratic National Convention, hand-numbering each $40 box to raise survival capital when company was nearly bankrupt",
+      "Father never gave him compliments as child (tough-love parenting), which Chesky credits for developing intrinsic motivation and drive; he maintains this principle in leadership philosophy",
+      "At 2020 IPO, Airbnb stock debuted at $146, immediately valuing company at $100 billion. Chesky's 10% stake made him worth ~$11 billion on paper within hours—from near-bankrupt startup to billionaire in 12 years",
+      "During COVID-19 crisis in 2020, Chesky personally led company through 80% revenue collapse, making difficult decision to lay off 1,900 employees (25% of workforce) in single day—a decision he describes as 'most harrowing' of his career",
+      "Chesky's minimalist design at RISD and focus on product detail led him to review all Airbnb work personally as CEO, making him 'chief editor' of entire $100B+ company"
+    ],
+    "turningPoint": "The 2009 Y Combinator acceptance was crucial inflection point. Paul Graham's mentorship provided $20,000 seed funding and strategic guidance, but more importantly, validation that the 'strangers trusting strangers' model was viable despite widespread investor skepticism. However, the true turningPoint was the 2011 host property damage crisis. Rather than abandoning the trust model, Chesky introduced the $1 million Host Guarantee, transforming a near-fatal trust crisis into Airbnb's core competitive advantage. This decision crystallized his design philosophy: build for community and trust, not transactions.",
+    "managementStyle": "Founder-mode leadership with CEO as chief editor and product custodian. Hands-on involvement in all significant decisions—not delegative or consensus-based. Emphasizes detail orientation and personal review of work before shipping. Design-driven decision making: views products and organizational structure as designable systems requiring intentional craft. Visionary but pragmatic: balances long-term thinking ('building for 100 years') with immediate execution discipline. Empathy-focused: makes decisions by putting himself in shoes of users/hosts/employees. Values community and belonging over pure metrics. Sets rhythm and pace for organization—believes CEO must establish cadence, not just vision. Demanding of self and team but transparent about reasoning. Willing to make painful decisions quickly (COVID layoffs) when necessary."
+  },
+  "sajuConnection": {
+    "note": "Leave null.",
+    "value": null
+  }
+}

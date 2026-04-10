@@ -1,0 +1,224 @@
+{
+  "id": "19",
+  "name": "Bill Gates",
+  "childhood": {
+    "birthPlace": "Seattle, Washington, USA",
+    "familyBackground": "Middle child of William H. Gates II, a prominent Seattle lawyer, and Mary Gates, a teacher and civic volunteer. Had older sister Kristi and younger sister Libby. Mother heavily involved in philanthropy and business, father instilled values of civic duty.",
+    "education": "Attended exclusive Lakeside School preparatory, where he developed computing interests at age 13. Scored 1590 out of 1600 on SAT as a National Merit Scholar. Enrolled at Harvard University in 1973, took Math 55 and graduate-level computer science courses.",
+    "earlyLife": "Bright and competitive child who read encyclopedias for fun starting at age 8. Wrote first computer program (tic-tac-toe) at Lakeside School. Befriended Paul Allen in prep school and developed shared interest in microcomputers and software development.",
+    "source": "Wikipedia, Biography.com, Britannica Kids, Vedantu",
+    "birthPlaceKo": "미국 워싱턴주 시애틀",
+    "familyBackgroundKo": "유명한 은행 변호사이자 실업가인 윌리엄 헨리 게이츠 시니어와 교육 선구자이자 자선가인 메리 맥스웰 게이츠의 아들. 상류층 가정에서 자라며 교육과 공공 봉사의 가치를 강하게 배움. 누나 크리스티 게이츠와 막내 누이 리비 게이츠가 있음.",
+    "educationKo": "워싱턴주의 명문 사립학교 레이크사이드 스쿨 졸업. 1973년 하버드 대학교에 입학하여 수학과 컴퓨터 과학을 전공. 1975년 대학을 중퇴하고 마이크로소프트를 설립하기 위해 사업에 집중.",
+    "earlyLifeKo": "어린 나이부터 컴퓨터에 재능을 보임. 레이크사이드 스쿨에서 처음 컴퓨터를 다루게 되었고, 13세부터 프로그래밍을 시작함. 폴 앨런과 함께 학교의 일정표 작성 프로그램을 작성하여 처음 수익을 올림."
+  },
+  "careerTimeline": [
+    {
+      "year": 1975,
+      "event": "Co-founded Microsoft with Paul Allen on April 4 in Albuquerque, New Mexico. Dropped out of Harvard to focus on the company. Gates served as CEO.",
+      "eventKo": "폴 앨런과 함께 마이크로소프트 설립. 초기에는 알테어 8800 컴퓨터를 위한 BASIC 해석기 개발"
+    },
+    {
+      "year": 1979,
+      "event": "Microsoft relocated from Albuquerque to Bellevue, Washington to recruit top programming talent.",
+      "eventKo": "마이크로소프트가 IBM과 계약 체결. PC용 MS-DOS 운영 체제 개발"
+    },
+    {
+      "year": 1980,
+      "event": "Steve Ballmer joined Microsoft as employee #30 on June 11, eventually becoming the company's president.",
+      "eventKo": "IBM PC가 MS-DOS와 함께 출시되며 대성공. 마이크로소프트의 기반 확립"
+    },
+    {
+      "year": 1981,
+      "event": "Microsoft incorporated and Gates became both president and chairman of the board.",
+      "eventKo": "마이크로소프트가 나스닥에 상장(MSFT). 공개 주가는 주당 21달러"
+    },
+    {
+      "year": 1985,
+      "event": "Released Windows 1.0, marking a major step toward Gates' vision of personal computers in homes and offices.",
+      "eventKo": "마이크로소프트 윈도우 1.0 출시"
+    },
+    {
+      "year": 1986,
+      "event": "Microsoft went public on March 13, with initial public offering at $21 per share. Stock price surge made Gates the world's youngest billionaire at age 31.",
+      "eventKo": "마이크로소프트 윈도우 3.0 출시로 큰 상업적 성공 거둠"
+    },
+    {
+      "year": 1987,
+      "event": "Gates' net worth exceeded $1 billion, securing his position as world's youngest billionaire.",
+      "eventKo": "마이크로소프트 윈도우 95 출시로 개인 컴퓨터 산업의 표준 확립"
+    },
+    {
+      "year": 2000,
+      "event": "Stepped down as CEO, succeeded by Steve Ballmer. Transitioned to chief software architect role while remaining chairman.",
+      "eventKo": "마이크로소프트가 인터넷 익스플로러를 윈도우에 통합. 웹 브라우저 전쟁 시작"
+    },
+    {
+      "year": 2006,
+      "event": "Announced intention to transition out of daily Microsoft operations to focus on Bill & Melinda Gates Foundation philanthropy.",
+      "eventKo": "마이크로소프트가 세계 가장 가치 있는 회사가 됨"
+    },
+    {
+      "year": 2008,
+      "event": "Stepped down from daily work at Microsoft to focus full-time on Gates Foundation as co-chair.",
+      "eventKo": "빌과 멜린다 게이츠 재단 설립. 글로벌 보건과 교육에 집중하는 자선 활동 시작"
+    },
+    {
+      "year": 2020,
+      "event": "Resigned from Microsoft board of directors to focus entirely on philanthropic work through Gates Foundation.",
+      "eventKo": "마이크로소프트 CEO 직에서 물러남. 스티브 발머를 후임으로 임명"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1972,
+      "description": "Traf-O-Data venture with Paul Allen, a company selling traffic-counting systems to local governments, failed due to flawed business model. The company lost $3,494 between 1974-1980 with no successful market penetration.",
+      "lesson": "Gates and Allen learned critical lessons about market research, capital formation, and the importance of understanding customer needs. This failure taught them the difference between a good idea and a viable business, contributing to Microsoft's success.",
+      "source": "Medium, FasterCapital, Failfection",
+      "descriptionKo": "마이크로소프트의 모바일 시장 진출 실패. 윈도우 모바일은 아이폰과 안드로이드에 밀려 시장 점유율이 지속적으로 감소. 수십억 달러의 노키아 인수도 예상 수익을 올리지 못함.",
+      "lessonKo": "게이츠는 기술 산업의 트렌드 변화에 빠르게 대응하지 못한 것이 전략적 실패임을 배움. 스마트폰 혁명에 뒤처진 것은 마이크로소프트가 한때 누리던 시장 지배력을 약화시킴."
+    },
+    {
+      "year": 1995,
+      "description": "Microsoft's TV-style internet shows on MSN failed to gain traction. The company's approach to interactive entertainment and web content was unsuccessful and did not achieve expected audience or revenue.",
+      "lesson": "Gates learned that not all ventures aligned with core competencies would succeed, and that timing and execution matter significantly in new markets. This failure helped refine Microsoft's focus on software platforms.",
+      "source": "CNBC, FasterCapital",
+      "descriptionKo": "1990년대 인터넷 브라우저 시장에서의 경쟁. 마이크로소프트는 인터넷 익스플로러를 밀어붙였지만, 나중에 모질라 파이어폭스, 구글 크롬 등의 더 나은 대안으로 인해 시장 점유율을 잃음.",
+      "lessonKo": "게이츠는 독점 시장에 의존하면 장기적 성공이 보장되지 않음을 배움. 끊임없는 혁신이 필요하다는 교훈을 얻음."
+    },
+    {
+      "year": 1998,
+      "description": "Microsoft faced major antitrust lawsuits and regulatory scrutiny starting in 1998, with the landmark United States v. Microsoft case challenging the company's business practices and alleged monopolistic behavior in the 1990s-early 2000s.",
+      "lesson": "This regulatory challenge forced Microsoft to reconsider business practices and taught Gates valuable lessons about corporate responsibility, ethical business conduct, and the importance of balanced market competition. The experience influenced his later philanthropic approach.",
+      "source": "Wikipedia, CNBC",
+      "descriptionKo": "비스타 운영 체제의 실패. 윈도우 비스타는 출시 후 사용자들과 개발자 커뮤니티에서 부정적인 반응을 받음. 보안 기능이 과도하여 사용 편의성이 떨어지고, 성능 문제도 있었음.",
+      "lessonKo": "사용자 경험의 중요성을 다시 한 번 배움. 기술적 기능이 많다고 해서 좋은 제품이 되는 것이 아니라는 것을 깨달음."
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2000,
+      "netWorth": 60.0
+    },
+    {
+      "year": 2005,
+      "netWorth": 50.0
+    },
+    {
+      "year": 2008,
+      "netWorth": 58.0
+    },
+    {
+      "year": 2010,
+      "netWorth": 53.0
+    },
+    {
+      "year": 2015,
+      "netWorth": 79.0
+    },
+    {
+      "year": 2018,
+      "netWorth": 90.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 113.0
+    },
+    {
+      "year": 2023,
+      "netWorth": 118.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 125.0
+    },
+    {
+      "year": 2026,
+      "netWorth": 107.7
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It's fine to celebrate success but it is more important to heed the lessons of failure.",
+      "context": "Gates emphasizing the importance of learning from mistakes rather than becoming complacent about successes. Reflects his philosophy on continuous improvement.",
+      "source": "BrainyQuote, Medium",
+      "textKo": "성공은 훌륭한 교사가 아니다. 실패는 당신을 겸손하게 만든다.",
+      "contextKo": "실패를 통한 배움의 중요성과 실패로부터 배워야 한다는 게이츠의 철학"
+    },
+    {
+      "text": "Success is a lousy teacher. It seduces smart people into thinking they can't lose.",
+      "context": "Gates warning against the dangers of complacency that success can bring. He stresses the need to remain vigilant and adaptable even when things are going well.",
+      "source": "BrainyQuote",
+      "textKo": "당신이 태어나지 않은 부자라면, 당신의 성공은 열심히 일하고, 영리하게 생각하고, 운이 좋은 것에 달려 있다.",
+      "contextKo": "성공의 요소들에 관한 그의 현실적인 관점"
+    },
+    {
+      "text": "I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.",
+      "context": "Gates' unconventional management philosophy emphasizing efficiency and problem-solving. He reframes laziness as a driver of innovation and efficiency.",
+      "source": "BrainyQuote, Gracious Quotes",
+      "textKo": "미래는 매우 흥미롭다.",
+      "contextKo": "기술과 혁신의 미래에 대한 그의 낙관적 태도"
+    },
+    {
+      "text": "As we look ahead into the next century, leaders will be those who empower others.",
+      "context": "Gates articulating his vision of future leadership focused on empowerment and enablement rather than top-down control.",
+      "source": "BrainyQuote",
+      "textKo": "혁신이 없으면, 성공한 제품도 시간이 지나면서 구식이 된다.",
+      "contextKo": "기술 산업에서의 지속적인 혁신의 필요성에 관해"
+    },
+    {
+      "text": "Your most unhappy customers are your greatest source of learning. You've got to want to be in this incredible feedback loop where you get the world-class people to tell you what you're doing wrong.",
+      "context": "Gates emphasizing the value of critical feedback and customer input in driving business improvement.",
+      "source": "CNBC",
+      "textKo": "지식과 생산성은 당신의 최고의 자산이다.",
+      "contextKo": "교육과 기술의 가치에 관한 그의 신념"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": "The Road Ahead",
+        "note": "Co-authored with Nathan Myhrvold and Peter Rinearson in 1995. Autobiographical work providing Gates' thoughts on technology and its societal impact.",
+        "noteKo": "윤리적 자본주의와 글로벌 불평등 해소에 관한 서적"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "What If? Serious Scientific Answers to Absurd Hypothetical Questions",
+        "author": "Randall Munroe (xkcd)",
+        "why": "Gates appreciates books offering scientific or mathematical frameworks for understanding the world. Munroe's humorous yet scientifically rigorous approach appeals to his analytical mind.",
+        "whyKo": "과학과 합리적 사고의 가치에 대해 믹스가 강조하는 저작"
+      },
+      {
+        "title": "Books by Vaclav Smil",
+        "author": "Vaclav Smil",
+        "why": "Smil is the author Gates has mentioned most frequently on GatesNotes.com. Smil's prolific works on energy, public policy, and systemic analysis align with Gates' global health and environmental interests.",
+        "whyKo": "전 지구적 보건 문제의 해결책에 관한 책"
+      },
+      {
+        "title": "Biographies and Historical Accounts",
+        "author": "Various",
+        "why": "Gates reads extensively across biography and history genres to understand human achievement, leadership, and historical patterns that inform his philanthropic work.",
+        "whyKo": "경제 발전과 빈곤 퇴치에 관한 데이터 기반 분석"
+      },
+      {
+        "title": "Scientific and Academic Works",
+        "author": "Various",
+        "why": "Gates maintains a robust reading practice on biology, physics, and other scientific disciplines to stay informed on topics relevant to global health and development initiatives.",
+        "whyKo": "과학적 사고와 합리성에 관한 저작"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Visionary entrepreneur who transformed the personal computer industry and created Microsoft, one of the world's most valuable companies. Known for intense competitiveness, intellectual rigor, intellectual curiosity, and detail-oriented management style. Transitioned from technology entrepreneur to world's largest private philanthropist.",
+    "philanthropy": "Co-founded Bill & Melinda Gates Foundation in 2000, which became the world's largest private charitable organization. Foundation focuses on global health, disease eradication (polio, malaria), global development, and education initiatives. By 2026, Gates had committed to giving away the majority of his wealth to the foundation. Pledged in 2010 to donate more than 99% of wealth to philanthropy during lifetime or at death.",
+    "controversies": "Associations with Jeffrey Epstein (met with him multiple times 2011-2013 regarding philanthropic strategies). Criticized for using philanthropy to advance personal interests and influence public policy, particularly in education (Common Core, charter schools) and global health. Concerns about Gates Foundation's influence on international media outlets and policy. Environmental contradictions regarding foundation investments. Former employees describe Gates as 'somewhat awkward socially' and note 'ruthlessness' in business dealings. Relationship with Bill & Melinda Gates Foundation strained after 2021 divorce.",
+    "knownForKo": "마이크로소프트 공동 설립자이자 PC 혁명의 주도자. 소프트웨어 산업을 주도적으로 발전시킨 기업인. 현재는 빌과 멜린다 게이츠 재단을 통해 글로벌 보건, 교육, 빈곤 퇴치를 위한 자선 활동으로 더 잘 알려짐. 데이터 기반의 의사 결정과 낙관적 미래관으로 유명.",
+    "philanthropyKo": "빌과 멜린다 게이츠 재단은 전 세계에서 가장 큰 자선 재단 중 하나. 말라리아, 에이즈, 결핵 등 전염병 퇴치, 백신 개발 및 보급, 교육 개선, 농업 생산성 향상 등에 수십억 달러를 기부. 팬데믹 예방과 대비에도 큰 관심. 개인 재산의 대부분을 자선 활동에 헌신하기로 약속.",
+    "controversiesKo": "게이츠는 다양한 논쟁에 직면함: 백신 정책과 공중 보건 입장에 대한 비판; 의약품 특허와 접근성 논쟁; 농업과 환경 정책에 대한 의견 차이; 재단 자금의 영향력에 대한 우려; 마이크로소프트 시대의 독점 관행에 대한 비판; 멜린다와의 이혼 후 재단 방향성에 대한 논쟁."
+  },
+  "sajuConnection": {
+    "note": "This field will be written by us. Leave null.",
+    "value": null
+  }
+}

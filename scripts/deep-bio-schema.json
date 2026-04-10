@@ -1,0 +1,89 @@
+{
+  "$schema": "Deep biography schema for billionaire profiles on 부자사주",
+  "$instructions": "For each billionaire, research and fill in as many fields as possible. Use Wikipedia, Forbes, Bloomberg, and reliable news sources. Mark 'source' for each section so we can verify. If information is not available, use null.",
+
+  "example": {
+    "id": "1",
+    "name": "Elon Musk",
+
+    "childhood": {
+      "birthPlace": "Pretoria, South Africa",
+      "familyBackground": "Father was an electromechanical engineer, mother was a model and dietitian from Canada",
+      "education": "Attended Pretoria Boys High School, then Queen's University in Canada, transferred to UPenn (BS Economics, BS Physics), briefly attended Stanford PhD before dropping out",
+      "earlyLife": "Taught himself programming at age 10, sold his first game (Blastar) at 12. Moved to Canada at 17 to avoid South African military service.",
+      "source": "Wikipedia, Ashlee Vance biography"
+    },
+
+    "careerTimeline": [
+      { "year": 1995, "event": "Co-founded Zip2 (city guide software for newspapers)" },
+      { "year": 1999, "event": "Sold Zip2 to Compaq for $307M, founded X.com (online banking)" },
+      { "year": 2000, "event": "X.com merged with Confinity to form PayPal" },
+      { "year": 2002, "event": "eBay acquired PayPal for $1.5B. Founded SpaceX." },
+      { "year": 2004, "event": "Led Tesla's Series A funding, became chairman" },
+      { "year": 2008, "event": "Tesla and SpaceX both nearly went bankrupt. Invested last $35M." },
+      { "year": 2012, "event": "SpaceX Dragon became first commercial spacecraft to dock with ISS" },
+      { "year": 2020, "event": "Became world's richest person" }
+    ],
+
+    "failures": [
+      {
+        "year": 2008,
+        "description": "Both Tesla and SpaceX were on the verge of bankruptcy. First three Falcon 1 launches failed. Tesla was burning through cash. Musk was sleeping on friends' couches and borrowing money for rent.",
+        "lesson": "Invested his last $35M to save both companies. SpaceX's 4th launch succeeded, NASA awarded a $1.6B contract.",
+        "source": "Ashlee Vance biography, multiple interviews"
+      }
+    ],
+
+    "wealthHistory": [
+      { "year": 2012, "netWorth": 2.4 },
+      { "year": 2015, "netWorth": 12.0 },
+      { "year": 2018, "netWorth": 19.9 },
+      { "year": 2020, "netWorth": 24.6 },
+      { "year": 2021, "netWorth": 151.0 },
+      { "year": 2022, "netWorth": 219.0 },
+      { "year": 2023, "netWorth": 180.0 },
+      { "year": 2024, "netWorth": 195.0 },
+      { "year": 2025, "netWorth": 330.0 },
+      { "year": 2026, "netWorth": 809.0 }
+    ],
+
+    "quotes": [
+      {
+        "text": "When something is important enough, you do it even if the odds are not in your favor.",
+        "context": "On pursuing SpaceX despite three failed launches",
+        "source": "60 Minutes interview"
+      },
+      {
+        "text": "I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better.",
+        "context": null,
+        "source": "Interview"
+      }
+    ],
+
+    "books": {
+      "authored": [
+        { "title": null, "note": "Has not authored a book" }
+      ],
+      "recommended": [
+        { "title": "The Hitchhiker's Guide to the Galaxy", "author": "Douglas Adams", "why": "Shaped his worldview — 'the answer is asking the right question'" },
+        { "title": "Structures: Or Why Things Don't Fall Down", "author": "J.E. Gordon", "why": "Self-taught rocket engineering" },
+        { "title": "Benjamin Franklin: An American Life", "author": "Walter Isaacson", "why": "Entrepreneurship role model" }
+      ]
+    },
+
+    "personalTraits": {
+      "knownFor": "극단적인 업무 집중력, 주 80-120시간 근무, First Principles Thinking",
+      "philanthropy": "Signed the Giving Pledge, donated to renewable energy research, XPRIZE",
+      "controversies": "Twitter/X acquisition, management style, public statements"
+    },
+
+    "sajuConnection": {
+      "note": "This field will be written by us (connecting their 사주 to their life story). Leave null for now.",
+      "value": null
+    }
+  },
+
+  "targetList": "Start with the top 50 most recognizable billionaires. Prioritize those with rich public stories (founders, self-made, dramatic rises/falls). Examples: Elon Musk, Jeff Bezos, Bill Gates, Warren Buffett, Mark Zuckerberg, Jack Ma, Bernard Arnault, Larry Ellison, Steve Jobs (deceased but iconic), Masayoshi Son, etc.",
+
+  "outputFormat": "Save as individual JSON files: deep-bios/001-elon-musk.json, deep-bios/002-jeff-bezos.json, etc. One file per person following the schema above."
+}
