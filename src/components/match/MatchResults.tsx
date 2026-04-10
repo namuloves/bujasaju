@@ -73,8 +73,8 @@ export default function MatchResults({ me, onReset }: Props) {
       <div className="md:sticky md:top-4 space-y-4">
         <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} />
 
-        {/* Share + email + reset — second box below the chart */}
-        <div className="bg-white rounded-2xl px-4 sm:px-6 py-5">
+        {/* Share + email — desktop only (on mobile, shown after first result group) */}
+        <div className="hidden md:block bg-white rounded-2xl px-4 sm:px-6 py-5">
           <ShareButtons title={t.shareTitle} variant="hero" />
           <div className="mt-4">
             <EmailCaptureCard />
@@ -85,32 +85,46 @@ export default function MatchResults({ me, onReset }: Props) {
       {/* Right column: 사주 풀이 on top, then matched billionaire photos/cards */}
       <div className="space-y-8 min-w-0">
       <MatchSummary saju={me} matches={summaryMatches} />
-      {sections.map((section) => {
-        if (section.people.length === 0) return null;
-        // Auto-expand the saju chart on the strictest tiers so similarity
-        // is immediately visible without extra clicks.
-        const autoOpenChart = section.key === 'twins' || section.key === 'monthJu';
-        return (
-          <section key={section.key}>
-            <div className="flex items-baseline gap-2 mb-3">
-              <span className="text-xl">{section.medal}</span>
-              <h3 className="text-base font-bold text-gray-900">{section.title}</h3>
-              <span className="text-xs text-gray-400">
-                {t.countPeople(section.people.length)}
-              </span>
+      {(() => {
+        let firstRendered = false;
+        return sections.map((section) => {
+          if (section.people.length === 0) return null;
+          const autoOpenChart = section.key === 'twins' || section.key === 'monthJu';
+          const isFirst = !firstRendered;
+          firstRendered = true;
+          return (
+            <div key={section.key}>
+              <section>
+                <div className="flex items-baseline gap-2 mb-3">
+                  <span className="text-xl">{section.medal}</span>
+                  <h3 className="text-base font-bold text-gray-900">{section.title}</h3>
+                  <span className="text-xs text-gray-400">
+                    {t.countPeople(section.people.length)}
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {section.people.map((person) => (
+                    <PersonCard
+                      key={person.id}
+                      person={person}
+                      defaultShowChart={autoOpenChart}
+                    />
+                  ))}
+                </div>
+              </section>
+              {/* Mobile only: share + email after first result group */}
+              {isFirst && (
+                <div className="md:hidden bg-white rounded-2xl px-4 py-5 mt-8">
+                  <ShareButtons title={t.shareTitle} variant="hero" />
+                  <div className="mt-4">
+                    <EmailCaptureCard />
+                  </div>
+                </div>
+              )}
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
-              {section.people.map((person) => (
-                <PersonCard
-                  key={person.id}
-                  person={person}
-                  defaultShowChart={autoOpenChart}
-                />
-              ))}
-            </div>
-          </section>
-        );
-      })}
+          );
+        });
+      })()}
 
       {totalMatches === 0 && sameIljuCount === 0 && (
         <div className="text-center py-16 bg-white rounded-xl border border-gray-200">

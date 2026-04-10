@@ -120,8 +120,8 @@ type Dict = {
 };
 
 const ko: Dict = {
-  siteTagline: '세계 부자들의 사주 분석',
-  siteSubTagline: '나와 비슷한 사주 구조를 가진 부자는?',
+  siteTagline: '세상은 넓고 부자는 많다!',
+  siteSubTagline: '나와 비슷한 사주 구조를 가진 부자는 누가 있을까?',
   searchPlaceholder: '궁금한 부자사주 이름을 검색해 보세요',
   gender: '성별',
   all: '전체',

@@ -217,7 +217,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
                   onChange={(e) =>
                     setHourPillar(e.target.value === '' ? null : e.target.value)
                   }
-                  className={`px-3 py-2 text-sm border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
+                  className={`px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
                     hourShowError ? 'border-red-400' : 'border-gray-300'
                   }`}
                 />
@@ -231,7 +231,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
                   placeholder="예: 병인"
                   value={dayPillar}
                   onChange={(e) => setDayPillar(e.target.value)}
-                  className={`px-3 py-2 text-sm border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
+                  className={`px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
                     dayShowError ? 'border-red-400' : 'border-gray-300'
                   }`}
                 />
@@ -245,7 +245,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
                   placeholder="예: 경인"
                   value={monthPillar}
                   onChange={(e) => setMonthPillar(e.target.value)}
-                  className={`px-3 py-2 text-sm border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
+                  className={`px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
                     monthShowError ? 'border-red-400' : 'border-gray-300'
                   }`}
                 />
@@ -259,7 +259,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
                   placeholder="예: 갑자"
                   value={yearPillar}
                   onChange={(e) => setYearPillar(e.target.value)}
-                  className={`px-3 py-2 text-sm border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
+                  className={`px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 border rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
                     yearShowError ? 'border-red-400' : 'border-gray-300'
                   }`}
                 />
