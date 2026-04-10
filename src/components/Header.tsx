@@ -35,18 +35,13 @@ export default function Header() {
             </p>
           </div>
           <div className="flex items-center gap-3 shrink-0">
-            <div className="flex flex-col items-end gap-1">
-              <div
-                role="group"
-                aria-label={t.languageLabel}
-                className="inline-flex rounded-md border border-gray-200 overflow-hidden"
-              >
-                <LangButton value="ko" label="KO" />
-                <LangButton value="en" label="EN" />
-              </div>
-              <p className="text-[10px] text-gray-400 whitespace-nowrap leading-tight">
-                {t.lastUpdated}
-              </p>
+            <div
+              role="group"
+              aria-label={t.languageLabel}
+              className="inline-flex rounded-md border border-gray-200 overflow-hidden"
+            >
+              <LangButton value="ko" label="KO" />
+              <LangButton value="en" label="EN" />
             </div>
           </div>
         </div>
