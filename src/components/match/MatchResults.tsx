@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { useLanguage } from '@/lib/i18n';
 import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
@@ -9,6 +9,7 @@ import PersonCard from '@/components/PersonCard';
 import SajuHero from './SajuHero';
 import ShareButtons from './ShareButtons';
 import MatchSummary from './MatchSummary';
+import EmailCaptureCard from './EmailCaptureCard';
 
 interface Props {
   me: SajuResult;
@@ -74,6 +75,7 @@ export default function MatchResults({ me, onReset }: Props) {
   );
 
   const sameIljuCount = groups.iljuOnly.length;
+  const [showSameIlju, setShowSameIlju] = useState(false);
 
   return (
     <div className="md:grid md:grid-cols-[minmax(0,340px)_minmax(0,1fr)] md:gap-6 lg:gap-8 md:items-start space-y-8 md:space-y-0">
@@ -126,22 +128,44 @@ export default function MatchResults({ me, onReset }: Props) {
         </div>
       )}
 
-      {/* "같은 일주" group surfaced as a CTA button. Destination TBD —
-          for now it's a no-op so we can iterate on where it leads. */}
+      {/* "같은 일주" group — hidden by default behind a CTA, expands inline on click. */}
       {sameIljuCount > 0 && (
-        <div className="flex justify-center pt-2">
-          <button
-            type="button"
-            // TODO: decide whether this opens a new page, a modal, or inlines the list.
-            onClick={() => {
-              /* intentionally a no-op for now */
-            }}
-            className="px-5 py-2.5 text-sm font-semibold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-colors"
-          >
-            {t.seeSameIljuButton(sameIljuCount)}
-          </button>
-        </div>
+        <>
+          <div className="flex justify-center pt-2">
+            <button
+              type="button"
+              onClick={() => setShowSameIlju((v) => !v)}
+              aria-expanded={showSameIlju}
+              aria-controls="same-ilju-section"
+              className="px-5 py-2.5 text-sm font-semibold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-colors"
+            >
+              {showSameIlju
+                ? t.hideSameIljuButton
+                : t.seeSameIljuButton(sameIljuCount)}
+            </button>
+          </div>
+          {showSameIlju && (
+            <section id="same-ilju-section">
+              <div className="flex items-baseline gap-2 mb-3">
+                <span className="text-xl">🎖️</span>
+                <h3 className="text-base font-bold text-gray-900">{t.group3Title}</h3>
+                <span className="text-xs text-gray-400">
+                  {t.countPeople(sameIljuCount)}
+                </span>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                {groups.iljuOnly.map((person) => (
+                  <PersonCard key={person.id} person={person} />
+                ))}
+              </div>
+            </section>
+          )}
+        </>
       )}
+
+      {/* Email capture — after the user has seen all the results, ask
+          them to opt in for updates about new billionaires / features. */}
+      <EmailCaptureCard />
 
       {/* Footer share — second chance to share after scrolling through results */}
       <div className="bg-white rounded-xl border border-gray-200 mt-4">

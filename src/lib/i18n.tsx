@@ -95,15 +95,28 @@ type Dict = {
   revealMatching: string;
   revealFound: (n: number) => string;
   seeSameIljuButton: (n: number) => string;
+  hideSameIljuButton: string;
   heroMatchTagline: string;
   shareTitle: string;
   shareCopyLink: string;
   shareCopied: string;
   shareMore: string;
   shareSms: string;
+  shareInstagram: string;
   shareInstagramHint: string;
   shareKakaoNotice: string;
   shareDefaultText: string;
+  // Email capture — shown after match results
+  emailCaptureTitle: string;
+  emailCaptureSubtitle: string;
+  emailCapturePlaceholder: string;
+  emailCaptureSubmit: string;
+  emailCaptureSubmitting: string;
+  emailCaptureConsent: string;
+  emailCaptureSuccess: string;
+  emailCaptureErrorInvalid: string;
+  emailCaptureErrorConsent: string;
+  emailCaptureErrorGeneric: string;
 };
 
 const ko: Dict = {
@@ -190,15 +203,27 @@ const ko: Dict = {
   revealMatching: '같은 기운을 찾는 중…',
   revealFound: (n) => `${n.toLocaleString('ko-KR')}명의 부자를 찾았습니다`,
   seeSameIljuButton: (n) => `나랑 일주 같은 부자 보기 (${n.toLocaleString('ko-KR')}명)`,
+  hideSameIljuButton: '접기',
   heroMatchTagline: '의 부자가 당신과 비슷한 기운을 가졌습니다',
   shareTitle: '친구한테도 가르쳐주기',
   shareCopyLink: '링크 복사',
   shareCopied: '복사됨!',
   shareMore: '더보기',
   shareSms: '문자',
+  shareInstagram: '인스타그램',
   shareInstagramHint: '링크가 복사됐어요! 인스타 스토리나 DM에 붙여넣기 하세요',
   shareKakaoNotice: '카카오톡 공유 기능은 추후에 추가될 예정입니다.',
   shareDefaultText: '내 사주랑 비슷한 부자는? 부자사주에서 확인해 보세요',
+  emailCaptureTitle: '새로운 부자가 추가되면 알려드릴까요?',
+  emailCaptureSubtitle: '이메일을 남겨주시면 새 기능과 새 부자사주가 업데이트될 때 알려드립니다.',
+  emailCapturePlaceholder: '이메일 주소',
+  emailCaptureSubmit: '알림 받기',
+  emailCaptureSubmitting: '저장 중…',
+  emailCaptureConsent: '마케팅 정보 수신에 동의합니다 (언제든지 구독 취소 가능)',
+  emailCaptureSuccess: '감사합니다! 업데이트가 있을 때 알려드릴게요.',
+  emailCaptureErrorInvalid: '올바른 이메일 주소를 입력해주세요.',
+  emailCaptureErrorConsent: '수신 동의에 체크해주세요.',
+  emailCaptureErrorGeneric: '저장에 실패했어요. 잠시 후 다시 시도해주세요.',
 };
 
 const en: Dict = {
@@ -286,15 +311,27 @@ const en: Dict = {
   revealMatching: 'Finding kindred spirits…',
   revealFound: (n) => `Found ${n.toLocaleString('en-US')} billionaires`,
   seeSameIljuButton: (n) => `See billionaires with my 일주 (${n.toLocaleString('en-US')})`,
+  hideSameIljuButton: 'Hide',
   heroMatchTagline: ' billionaires share your energy',
   shareTitle: 'Share with friends',
   shareCopyLink: 'Copy link',
   shareCopied: 'Copied!',
   shareMore: 'More',
   shareSms: 'Text',
+  shareInstagram: 'Instagram',
   shareInstagramHint: 'Link copied! Paste it into your Instagram story or DM',
   shareKakaoNotice: 'KakaoTalk sharing is coming soon.',
   shareDefaultText: 'Which billionaires share your 사주? Find out on 부자사주',
+  emailCaptureTitle: 'Want to know when new billionaires are added?',
+  emailCaptureSubtitle: 'Leave your email and I\u2019ll let you know when new features and new billionaire charts are added.',
+  emailCapturePlaceholder: 'Email address',
+  emailCaptureSubmit: 'Notify me',
+  emailCaptureSubmitting: 'Saving\u2026',
+  emailCaptureConsent: 'I agree to receive updates (unsubscribe anytime)',
+  emailCaptureSuccess: 'Thanks! I\u2019ll let you know when there are updates.',
+  emailCaptureErrorInvalid: 'Please enter a valid email address.',
+  emailCaptureErrorConsent: 'Please check the consent box.',
+  emailCaptureErrorGeneric: 'Something went wrong. Please try again in a moment.',
 };
 
 const dictionaries: Record<Lang, Dict> = { ko, en };
