@@ -241,10 +241,9 @@ export default function MatchSummary({ saju, matches }: Props) {
 
   return (
     <div className="relative rounded-2xl bg-white p-5 sm:p-6">
-      <div className="flex items-center gap-2 mb-3">
-        <span className="text-xs font-semibold text-gray-700 uppercase tracking-wide">
-          ✨ 사주 풀이
-        </span>
+      <div className="flex items-baseline gap-2 mb-3">
+        <span className="text-xl">✨</span>
+        <h3 className="text-base font-bold text-gray-900">사주 풀이</h3>
         {isStreaming && (
           <span className="inline-flex gap-1">
             <span className="w-1 h-1 rounded-full bg-indigo-400 animate-pulse" />

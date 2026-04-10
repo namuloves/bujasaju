@@ -156,9 +156,17 @@ export async function POST(req: NextRequest) {
             controller.enqueue(encoder.encode(delta));
           }
         }
+        // Always close the controller so the client gets a proper stream-end
+        // signal. The `closed` flag only guards `enqueue` (to avoid writing
+        // into a cancelled controller), but we still need to close even if
+        // req.signal fired — the client may still be reading.
         if (!closed) {
-          controller.close();
           closed = true;
+        }
+        try {
+          controller.close();
+        } catch {
+          // Controller already closed/errored — nothing to do.
         }
       } catch (err) {
         // A client-initiated abort is expected and not worth logging as an

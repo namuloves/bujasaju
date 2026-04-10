@@ -96,11 +96,11 @@ export default function EmailCaptureCard() {
   }
 
   return (
-    <div className="rounded-xl border border-gray-200 bg-white px-5 py-5">
-      <h3 className="text-base font-bold text-gray-900">
+    <div>
+      <h3 className="text-sm font-bold text-gray-900">
         {t.emailCaptureTitle}
       </h3>
-      <p className="mt-1 text-sm text-gray-600">{t.emailCaptureSubtitle}</p>
+      <p className="mt-0.5 text-xs text-gray-500">{t.emailCaptureSubtitle}</p>
 
       <form onSubmit={handleSubmit} className="mt-4 space-y-3" noValidate>
         <div className="flex flex-col sm:flex-row gap-2">
@@ -120,13 +120,13 @@ export default function EmailCaptureCard() {
             placeholder={t.emailCapturePlaceholder}
             aria-label={t.emailCapturePlaceholder}
             aria-invalid={status === 'error'}
-            className="flex-1 min-w-0 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+            className="flex-1 min-w-0 rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-xs text-gray-900 placeholder:text-gray-400 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
             disabled={status === 'submitting'}
           />
           <button
             type="submit"
             disabled={status === 'submitting'}
-            className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700 disabled:bg-indigo-400 transition-colors"
+            className="rounded-lg bg-indigo-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-indigo-700 disabled:bg-indigo-400 transition-colors"
           >
             {status === 'submitting' ? t.emailCaptureSubmitting : t.emailCaptureSubmit}
           </button>

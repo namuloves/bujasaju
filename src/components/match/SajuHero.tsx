@@ -4,7 +4,6 @@ import type { SajuResult, Ju, CheonGan, JiJi } from '@/lib/saju/types';
 import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS, GYEOKGUK_NAMES, getBongi } from '@/lib/saju/constants';
 import { getSipSin } from '@/lib/saju/tenGods';
 import { useLanguage } from '@/lib/i18n';
-import ShareButtons from './ShareButtons';
 
 interface Props {
   saju: SajuResult;
@@ -26,15 +25,15 @@ function HeroPillar({
   if (!ju) {
     return (
       <div className="flex flex-col items-center">
-        <div className="text-xs text-gray-400 mb-1.5 font-medium">{label}</div>
-        <div className="text-[10px] text-gray-300 mb-1 h-3">·</div>
-        <div className="w-[56px] h-[56px] sm:w-16 sm:h-16 rounded-xl border border-dashed border-gray-300 flex items-center justify-center text-gray-300 text-2xl">
+        <div className="text-[10px] text-gray-400 mb-1 font-medium">{label}</div>
+        <div className="text-[9px] text-gray-300 mb-0.5 h-3">·</div>
+        <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-lg border border-dashed border-gray-300 flex items-center justify-center text-gray-300 text-lg">
           ?
         </div>
-        <div className="w-[56px] h-[56px] sm:w-16 sm:h-16 rounded-xl border border-dashed border-gray-300 mt-1.5 flex items-center justify-center text-gray-300 text-2xl">
+        <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-lg border border-dashed border-gray-300 mt-1 flex items-center justify-center text-gray-300 text-lg">
           ?
         </div>
-        <div className="text-[10px] text-gray-300 mt-1 h-3">·</div>
+        <div className="text-[9px] text-gray-300 mt-0.5 h-3">·</div>
       </div>
     );
   }
@@ -53,21 +52,21 @@ function HeroPillar({
 
   return (
     <div className="flex flex-col items-center">
-      <div className="text-xs text-gray-400 mb-1.5 font-medium">{label}</div>
-      <div className={`text-[10px] mb-1 font-medium ${isDayPillar ? 'text-indigo-500' : 'text-gray-500'}`}>
+      <div className="text-[10px] text-gray-400 mb-1 font-medium">{label}</div>
+      <div className={`text-[9px] mb-0.5 font-medium ${isDayPillar ? 'text-indigo-500' : 'text-gray-500'}`}>
         {stemSipsin}
       </div>
       <div
-        className={`w-[56px] h-[56px] sm:w-16 sm:h-16 rounded-xl border flex items-center justify-center text-3xl sm:text-4xl font-bold shadow-sm ${stemColor.bg} ${stemColor.text} ${stemColor.border}`}
+        className={`w-10 h-10 sm:w-11 sm:h-11 rounded-lg border flex items-center justify-center text-2xl font-bold shadow-sm ${stemColor.bg} ${stemColor.text} ${stemColor.border}`}
       >
         {ju.stem}
       </div>
       <div
-        className={`w-[56px] h-[56px] sm:w-16 sm:h-16 rounded-xl border mt-1.5 flex items-center justify-center text-3xl sm:text-4xl font-bold shadow-sm ${branchColor.bg} ${branchColor.text} ${branchColor.border}`}
+        className={`w-10 h-10 sm:w-11 sm:h-11 rounded-lg border mt-1 flex items-center justify-center text-2xl font-bold shadow-sm ${branchColor.bg} ${branchColor.text} ${branchColor.border}`}
       >
         {ju.branch}
       </div>
-      <div className="text-[10px] text-gray-500 mt-1 font-medium">
+      <div className="text-[9px] text-gray-500 mt-0.5 font-medium">
         {branchSipsin}
       </div>
     </div>
@@ -80,16 +79,16 @@ export default function SajuHero({ saju, totalMatches, onReset }: Props) {
 
   return (
     <div className="relative bg-white rounded-2xl overflow-hidden">
-      <div className="px-5 sm:px-7 py-6 sm:py-8">
+      <div className="px-4 sm:px-6 py-5 sm:py-6">
         {/* Headline */}
-        <div className="text-center mb-4">
+        <div className="text-center mb-3">
           <div className="text-xs font-semibold text-indigo-500 tracking-widest uppercase">
             {t.yourSaju}
           </div>
         </div>
 
         {/* 4 pillars with 십성 labels on stem (above) and 지장간 본기 (below) */}
-        <div className="flex justify-center gap-2 sm:gap-3 mb-5">
+        <div className="flex justify-center gap-2 sm:gap-3 mb-4">
           <HeroPillar label="時" ju={saju.saju.hour} ilgan={saju.saju.day.stem as CheonGan} />
           <HeroPillar label="日" ju={saju.saju.day} ilgan={saju.saju.day.stem as CheonGan} isDayPillar />
           <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} />
@@ -97,7 +96,7 @@ export default function SajuHero({ saju, totalMatches, onReset }: Props) {
         </div>
 
         {/* Key stats: 일주 · 월지 · 격국 */}
-        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm mb-5">
+        <div className="flex flex-wrap justify-center gap-x-5 gap-y-1.5 text-sm mb-4">
           <div>
             <span className="text-gray-500">{t.yourIlju}</span>
             <span className="mx-1.5 text-gray-300">·</span>
@@ -119,7 +118,7 @@ export default function SajuHero({ saju, totalMatches, onReset }: Props) {
         </div>
 
         {/* Match count — the "quiz result" payoff line */}
-        <div className="text-center mb-6">
+        <div className="text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full">
             <span className="text-indigo-400">✨</span>
             <span className="text-sm">
@@ -131,23 +130,6 @@ export default function SajuHero({ saju, totalMatches, onReset }: Props) {
               </span>
             </span>
           </div>
-        </div>
-
-        {/* Share widget — "친구한테도 가르쳐주기" (ShareButtons renders the
-            Kakao coming-soon notice at its footer) */}
-        <ShareButtons title={t.shareTitle} variant="hero" />
-
-        {/* Reset button sits below the Kakao notice so users scan the
-            share options first, then find the "다시 하기" as a secondary
-            action. */}
-        <div className="flex justify-center mt-4">
-          <button
-            type="button"
-            onClick={onReset}
-            className="text-xs font-medium text-gray-500 hover:text-indigo-600 transition-colors underline underline-offset-4 decoration-gray-300"
-          >
-            {t.resetMyBirthday}
-          </button>
         </div>
       </div>
     </div>

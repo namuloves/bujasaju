@@ -27,27 +27,16 @@ export default function MatchResults({ me, onReset }: Props) {
 
   // Rendered sections — 일주-only is intentionally hidden here and surfaced
   // via a dedicated button below. The tiers are mutually exclusive (each
-  // person lives in exactly one group), so no double-counting.
-  //
-  // The "같은 일주 · 같은 월주" tier is always rendered even when empty,
-  // so users get an explicit "정확히 같은 월주를 가진 부자는 없습니다"
-  // instead of the section silently disappearing.
+  // person lives in exactly one group), so no double-counting. Empty
+  // sections are hidden entirely (including 같은 월주) — an empty-state
+  // card here just adds noise without giving the user anything useful.
   const sections: Array<{
     key: string;
     title: string;
     medal: string;
     people: EnrichedPerson[];
-    emptyMessage?: string;
-    alwaysShow?: boolean;
   }> = [
-    {
-      key: 'monthJu',
-      title: t.monthJuTitle,
-      medal: '🥇',
-      people: groups.iljuPlusMonthJu,
-      emptyMessage: t.monthJuEmpty,
-      alwaysShow: true,
-    },
+    { key: 'monthJu', title: t.monthJuTitle, medal: '🥇', people: groups.iljuPlusMonthJu },
     { key: 'twins', title: t.chartTwinsTitle, medal: '🏅', people: groups.chartTwins },
     { key: 'g1', title: t.group1Title, medal: '🥈', people: groups.iljuPlusWolji },
     { key: 'g2', title: t.group2Title, medal: '🥉', people: groups.iljuPlusGyeokguk },
@@ -79,18 +68,48 @@ export default function MatchResults({ me, onReset }: Props) {
 
   return (
     <div className="md:grid md:grid-cols-[minmax(0,340px)_minmax(0,1fr)] md:gap-6 lg:gap-8 md:items-start space-y-8 md:space-y-0">
-      {/* Left column (md+): hero + 사주 풀이 stick to the side. On mobile
+      {/* Left column (md+): hero + share/email stick to the side. On mobile
           it stacks above the matches like before. */}
-      <div className="md:sticky md:top-4 space-y-6">
+      <div className="md:sticky md:top-4 space-y-4">
         <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} />
+
+        {/* Share + email + reset — second box below the chart */}
+        <div className="bg-white rounded-2xl px-4 sm:px-6 py-5">
+          <ShareButtons title={t.shareTitle} variant="hero" />
+          <div className="mt-4">
+            <EmailCaptureCard />
+          </div>
+          <div className="flex justify-center mt-4">
+            <button
+              type="button"
+              onClick={onReset}
+              className="inline-flex items-center gap-1 text-xs font-medium text-gray-500 hover:text-indigo-600 transition-colors underline underline-offset-4 decoration-gray-300"
+            >
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                width="12"
+                height="12"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                <path d="M3 3v5h5" />
+              </svg>
+              {t.resetMyBirthday}
+            </button>
+          </div>
+        </div>
       </div>
 
       {/* Right column: 사주 풀이 on top, then matched billionaire photos/cards */}
       <div className="space-y-8 min-w-0">
       <MatchSummary saju={me} matches={summaryMatches} />
       {sections.map((section) => {
-        const isEmpty = section.people.length === 0;
-        if (isEmpty && !section.alwaysShow) return null;
+        if (section.people.length === 0) return null;
         // Auto-expand the saju chart on the strictest tiers so similarity
         // is immediately visible without extra clicks.
         const autoOpenChart = section.key === 'twins' || section.key === 'monthJu';
@@ -103,21 +122,15 @@ export default function MatchResults({ me, onReset }: Props) {
                 {t.countPeople(section.people.length)}
               </span>
             </div>
-            {isEmpty ? (
-              <div className="rounded-xl border border-dashed border-gray-200 bg-gray-50/50 px-4 py-6 text-center text-sm text-gray-500">
-                {section.emptyMessage}
-              </div>
-            ) : (
-              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                {section.people.map((person) => (
-                  <PersonCard
-                    key={person.id}
-                    person={person}
-                    defaultShowChart={autoOpenChart}
-                  />
-                ))}
-              </div>
-            )}
+            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              {section.people.map((person) => (
+                <PersonCard
+                  key={person.id}
+                  person={person}
+                  defaultShowChart={autoOpenChart}
+                />
+              ))}
+            </div>
           </section>
         );
       })}
@@ -163,14 +176,6 @@ export default function MatchResults({ me, onReset }: Props) {
         </>
       )}
 
-      {/* Email capture — after the user has seen all the results, ask
-          them to opt in for updates about new billionaires / features. */}
-      <EmailCaptureCard />
-
-      {/* Footer share — second chance to share after scrolling through results */}
-      <div className="bg-white rounded-xl border border-gray-200 mt-4">
-        <ShareButtons title={t.shareTitle} variant="footer" />
-      </div>
       </div>
     </div>
   );
