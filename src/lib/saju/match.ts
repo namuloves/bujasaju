@@ -8,9 +8,8 @@ export interface MatchGroups {
    */
   iljuPlusMonthJu: EnrichedPerson[];
   /**
-   * 🥇 Same 일주 AND at least one additional pillar (년주 · 시주, or
-   * 월지-only) matches — excluding people already in iljuPlusMonthJu
-   * so each person appears in exactly one section.
+   * 🥇 Same 일주 AND same 월지 AND at least one additional pillar
+   * (년주 · 시주) matches — excluding people already in iljuPlusMonthJu.
    */
   chartTwins: EnrichedPerson[];
   /** 🥈 Same 일주 AND same 월지 (excluding above) */
@@ -45,10 +44,15 @@ function countExtraPillarMatches(me: SajuResult, p: EnrichedPerson): number {
  * at the narrowest tier they qualify for.
  *
  * Tier priority (a person enters the first group they qualify for):
- *   1. chartTwins       : same 일주 + ≥1 other full pillar matches
- *   2. iljuPlusWolji    : same 일주 + same 월지
- *   3. iljuPlusGyeokguk : same 일주 + same 격국
- *   4. iljuOnly         : same 일주 only
+ *   1. iljuPlusMonthJu  : same 일주 + exact 월주 match (stem+branch)
+ *   2. chartTwins       : same 일주 + ≥1 other full pillar AND same 월지
+ *   3. iljuPlusWolji    : same 일주 + same 월지
+ *   4. iljuPlusGyeokguk : same 일주 + same 격국
+ *   5. iljuOnly         : same 일주 only
+ *
+ * 월지 (month branch) is the most important factor in 사주 after 일주,
+ * so 같은 월지 always outranks matches that only share 년주 or 시주.
+ * chartTwins captures people who share 월지 PLUS additional pillars.
  *
  * Within chartTwins, people are sorted by number of shared pillars (desc)
  * so a 4/4 identical chart always lands at the very top. Others are sorted
@@ -67,18 +71,22 @@ export function matchBillionaires(
   for (const p of everyone) {
     if (p.saju.ilju !== me.ilju) continue;
 
-    // Strictest tier first: exact 월주 match (stem AND branch). If a
-    // person lands here we DON'T also add them to chartTwins/월지/etc —
-    // each person appears in exactly one section.
-    if (pillarsEqual(me.saju.month, p.saju.saju.month)) {
+    const sameMonthJu = pillarsEqual(me.saju.month, p.saju.saju.month);
+    const sameWolji = p.saju.wolji === me.wolji;
+
+    // Strictest tier: exact 월주 match (stem AND branch).
+    if (sameMonthJu) {
       monthJu.push(p);
       continue;
     }
 
+    // Chart twins: same 월지 AND at least one other pillar (년주/시주).
+    // 월지 is the most important factor, so people who only share
+    // 년주/시주 without 월지 fall to lower tiers.
     const extra = countExtraPillarMatches(me, p);
-    if (extra >= 1) {
+    if (sameWolji && extra >= 1) {
       twins.push({ person: p, shared: extra });
-    } else if (p.saju.wolji === me.wolji) {
+    } else if (sameWolji) {
       g1.push(p);
     } else if (p.saju.gyeokguk === me.gyeokguk) {
       g2.push(p);
