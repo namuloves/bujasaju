@@ -81,17 +81,16 @@ export default function MatchTab() {
   const [input, setInput] = useState<MatchInput | null>(null);
   const [step, setStep] = useState<Step>('form');
 
-  // Hydrate from localStorage on mount. Return visits run the reveal
-  // animation too — it's short (~2.7s) and it doubles as cover time for
-  // the Claude summary stream, so users always see a satisfying loading
-  // beat instead of the chart popping into place instantly.
+  // On reload, always start fresh at the form. localStorage still holds the
+  // last input so BirthdayForm can pre-fill fields, but the user must
+  // explicitly submit again.
   useEffect(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return;
       const parsed = JSON.parse(raw) as MatchInput;
       setInput(parsed);
-      setStep('revealing');
+      // Stay on 'form' — don't auto-advance.
     } catch {
       // ignore
     }

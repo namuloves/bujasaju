@@ -79,29 +79,6 @@ export default function MatchResults({ me, onReset }: Props) {
           <div className="mt-4">
             <EmailCaptureCard />
           </div>
-          <div className="flex justify-center mt-4">
-            <button
-              type="button"
-              onClick={onReset}
-              className="inline-flex items-center gap-1 text-xs font-medium text-gray-500 hover:text-indigo-600 transition-colors underline underline-offset-4 decoration-gray-300"
-            >
-              <svg
-                aria-hidden="true"
-                viewBox="0 0 24 24"
-                width="12"
-                height="12"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                <path d="M3 3v5h5" />
-              </svg>
-              {t.resetMyBirthday}
-            </button>
-          </div>
         </div>
       </div>
 
