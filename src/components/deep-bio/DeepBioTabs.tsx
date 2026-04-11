@@ -120,7 +120,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
               <div className="relative pl-5 border-l-2 border-indigo-100 space-y-3">
                 {bio.careerTimeline.map((event, i) => (
                   <div key={i} className="relative">
-                    <div className="absolute -left-[23px] w-3 h-3 rounded-full bg-indigo-500 border-2 border-white" />
+                    <div className="absolute -left-[27px] top-0.5 w-3 h-3 rounded-full bg-indigo-500 border-2 border-white" />
                     <div className="text-[10px] font-bold text-indigo-600">{event.year}</div>
                     <div className="text-[13px] text-gray-700 mt-0.5">{ko(lang, event.event, event.eventKo)}</div>
                   </div>
@@ -146,12 +146,12 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
               <h3 className="text-sm font-bold text-gray-900 mb-3">
                 {lang === 'ko' ? '📈 커리어 타임라인' : '📈 Career Timeline'}
               </h3>
-              <div className="relative pl-5 border-l-2 border-indigo-100 space-y-3">
+              <div className="relative pl-6 border-l-2 border-indigo-100 space-y-4">
                 {bio.careerTimeline.map((event, i) => (
                   <div key={i} className="relative">
-                    <div className="absolute -left-[23px] w-3 h-3 rounded-full bg-indigo-500 border-2 border-white" />
-                    <div className="text-[10px] font-bold text-indigo-600">{event.year}</div>
-                    <div className="text-[13px] text-gray-700 mt-0.5">{ko(lang, event.event, event.eventKo)}</div>
+                    <div className="absolute -left-[31px] top-1 w-3 h-3 rounded-full bg-indigo-500 border-2 border-white" />
+                    <div className="text-xs font-bold text-indigo-600">{event.year}</div>
+                    <div className="text-[15px] leading-snug text-gray-700 mt-0.5">{ko(lang, event.event, event.eventKo)}</div>
                   </div>
                 ))}
               </div>

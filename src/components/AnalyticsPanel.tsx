@@ -375,15 +375,15 @@ function PieChart({ title, items, onClick, activeKey }: PieChartProps) {
   // replace the old legend list. The donut itself stays centered, but the
   // viewBox is extended 60px on each side so long right/left-anchored labels
   // don't get clipped when the SVG is rendered at narrow widths.
-  const labelPad = 60;
+  const labelPad = 80;
   const donutSize = 320;
   const size = donutSize + labelPad * 2;
-  const height = 220;
+  const height = 240;
   const cx = size / 2;
   const cy = height / 2;
   const r = 78;
   const innerR = 44; // donut hole
-  const labelR = r + 16; // where outer labels anchor
+  const labelR = r + 20; // where outer labels anchor
   const hasActive = !!activeKey;
 
   // Rank items by count (highest = 1). Ties share the same rank is overkill
@@ -494,28 +494,28 @@ function PieChart({ title, items, onClick, activeKey }: PieChartProps) {
                     onClick={() => onClick(item.key)}
                   >
                     <tspan
-                      style={{ fontSize: 10, fontVariantNumeric: 'tabular-nums' }}
+                      style={{ fontSize: 13, fontVariantNumeric: 'tabular-nums' }}
                       className="fill-gray-400"
                     >
                       {rankByKey.get(item.key)}.
                     </tspan>
                     <tspan
                       dx={3}
-                      style={{ fontSize: 12, fontWeight: 600 }}
+                      style={{ fontSize: 15, fontWeight: 600 }}
                       className={isActive ? 'fill-indigo-700' : 'fill-gray-800'}
                     >
                       {item.label}
                     </tspan>
                     <tspan
                       dx={4}
-                      style={{ fontSize: 11, fontVariantNumeric: 'tabular-nums' }}
+                      style={{ fontSize: 14, fontVariantNumeric: 'tabular-nums' }}
                       className="fill-gray-500"
                     >
                       {item.count}
                     </tspan>
                     <tspan
                       dx={3}
-                      style={{ fontSize: 11, fontVariantNumeric: 'tabular-nums' }}
+                      style={{ fontSize: 14, fontVariantNumeric: 'tabular-nums' }}
                       className="fill-gray-400"
                     >
                       · {pct}%
