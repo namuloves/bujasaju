@@ -39,7 +39,7 @@ interface Props {
 function useIsDesktop() {
   const [desktop, setDesktop] = useState(false);
   useEffect(() => {
-    const mq = window.matchMedia('(min-width: 768px)');
+    const mq = window.matchMedia('(min-width: 1024px)');
     setDesktop(mq.matches);
     const handler = (e: MediaQueryListEvent) => setDesktop(e.matches);
     mq.addEventListener('change', handler);
@@ -214,17 +214,17 @@ export default function DeepBioModal({ person, onClose }: Props) {
 
   // -- Header content (shared between both layouts) --
   const header = (
-    <div className="relative px-4 md:px-6 py-3 md:py-4 shrink-0">
+    <div className="relative px-4 lg:px-6 py-3 lg:py-4 shrink-0">
       <button
         onClick={handleClose}
-        className="absolute top-2 right-3 md:top-3 md:right-4 w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-500 hover:bg-gray-200 transition-colors z-10"
+        className="absolute top-2 right-3 lg:top-3 lg:right-4 w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-500 hover:bg-gray-200 transition-colors z-10"
         aria-label="Close"
       >
         ✕
       </button>
 
-      {/* Mobile: portrait left + stacked info */}
-      <div className="flex gap-4 items-start md:hidden">
+      {/* Mobile/tablet: portrait left + stacked info */}
+      <div className="flex gap-4 items-start lg:hidden">
         <div className="shrink-0">
           <div className="w-24 h-32 rounded-xl overflow-hidden bg-gray-200 shadow">
             <img
@@ -271,7 +271,7 @@ export default function DeepBioModal({ person, onClose }: Props) {
       </div>
 
       {/* Desktop: photo | bio | saju — three columns */}
-      <div className="hidden md:flex items-start gap-5 pr-10">
+      <div className="hidden lg:flex items-start gap-5 pr-10">
         {/* Photo */}
         <div className="shrink-0">
           <div className="w-36 h-44 rounded-lg overflow-hidden bg-gray-200 shadow">

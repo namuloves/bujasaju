@@ -85,7 +85,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
     <div className="space-y-6">
       {/* Mobile: early life section (on desktop it's in the modal header) */}
       {bio.childhood && (
-        <section className="md:hidden">
+        <section className="lg:hidden">
           <h3 className="text-sm font-bold text-gray-900 mb-2">
             {lang === 'ko' ? '🧒 성장 배경' : '🧒 Early Life'}
           </h3>
@@ -101,7 +101,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
 
       {/* Mobile: wealth chart */}
       {bio.wealthHistory.length >= 2 && (
-        <section className="md:hidden">
+        <section className="lg:hidden">
           <h3 className="text-sm font-bold text-gray-900 mb-2">
             {lang === 'ko' ? '💰 자산 변화' : '💰 Wealth History'}
           </h3>
@@ -111,7 +111,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
 
       {/* Desktop: career timeline (left) + wealth chart (right) side by side */}
       {(bio.careerTimeline.length > 0 || bio.wealthHistory.length >= 2) && (
-        <div className="hidden md:grid md:grid-cols-2 md:gap-6">
+        <div className="hidden lg:grid lg:grid-cols-2 lg:gap-6">
           {bio.careerTimeline.length > 0 && (
             <section>
               <h3 className="text-sm font-bold text-gray-900 mb-3">
@@ -142,7 +142,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
 
       {/* Mobile: career timeline */}
           {bio.careerTimeline.length > 0 && (
-            <section className="md:hidden">
+            <section className="lg:hidden">
               <h3 className="text-sm font-bold text-gray-900 mb-3">
                 {lang === 'ko' ? '📈 커리어 타임라인' : '📈 Career Timeline'}
               </h3>
