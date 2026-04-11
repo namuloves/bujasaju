@@ -67,17 +67,23 @@
     {
       "year": 2021,
       "description": "VinFast faced significant production delays and supply chain issues; failed to meet initial US market entry timelines and production targets",
-      "descriptionKo": "빈패스트가 심각한 생산 지연 및 공급망 문제에 직면; 초기 미국 시장 진출 일정 및 생산 목표 미충족"
+      "descriptionKo": "빈패스트가 심각한 생산 지연 및 공급망 문제에 직면; 초기 미국 시장 진출 일정 및 생산 목표 미충족",
+      "lesson": "Automotive manufacturing requires exponentially more complex supply chains than consumer electronics; geographic distance between manufacturing and target market creates logistical challenges; aggressive timelines must account for unforeseen manufacturing complexities",
+      "lessonKo": "자동차 제조는 소비자 전자제품보다 훨씬 더 복잡한 공급망이 필요함; 제조지와 목표 시장 간 지리적 거리는 물류 문제 초래; 공격적 일정은 예상치 못한 제조 복잡성을 고려해야 함"
     },
     {
       "year": 2023,
       "description": "VinFast incurred massive losses of $2.4 billion in 2023; company's aggressive US expansion proved unsustainable; closed US showrooms and postponed factory construction",
-      "descriptionKo": "빈패스트가 2023년 $24억의 막대한 손실을 기록; 회사의 공격적인 미국 확장이 지속 불가능한 것으로 판명됨; 미국 쇼룸 폐쇄 및 공장 건설 연기"
+      "descriptionKo": "빈패스트가 2023년 $24억의 막대한 손실을 기록; 회사의 공격적인 미국 확장이 지속 불가능한 것으로 판명됨; 미국 쇼룸 폐쇄 및 공장 건설 연기",
+      "lesson": "Success in established industries requires more capital and patience than in emerging markets; financial runway must account for extended market development cycles; expansion decisions must be grounded in realistic market adoption timelines, not aspirational projections",
+      "lessonKo": "기성 산업에서의 성공은 신흥 시장보다 더 많은 자본과 인내가 필요함; 자금 한도는 확대된 시장 개발 주기를 고려해야 함; 확장 결정은 포부 있는 전망이 아니라 현실적 시장 채택 일정에 기반해야 함"
     },
     {
       "year": 2024,
       "description": "VinFast reported nearly $3.2 billion in losses for 2024; SEC investigations into accounting errors that inflated revenues by $33.9 million; rapid market pivots revealed flawed business strategy",
-      "descriptionKo": "빈패스트가 2024년 거의 $32억의 손실 보고; 매출을 $3,390만 만큼 과장한 회계 오류에 대한 SEC 조사; 빠른 시장 전환이 결함이 있는 비즈니스 전략을 드러냄"
+      "descriptionKo": "빈패스트가 2024년 거의 $32억의 손실 보고; 매출을 $3,390만 만큼 과장한 회계 오류에 대한 SEC 조사; 빠른 시장 전환이 결함이 있는 비즈니스 전략을 드러냄",
+      "lesson": "Accounting integrity and corporate governance discipline become critical as companies pursue public markets; revenue recognition practices must withstand regulatory scrutiny; business pivots driven by desperation undermine investor confidence and expose poor strategic planning",
+      "lessonKo": "회계 무결성과 기업 지배구조 규율은 회사가 공개 시장을 추구할 때 중요해짐; 매출 인식 관행은 규제 정밀 검토를 견뎌내야 함; 절망으로 인한 사업 방향 전환은 투자자 신뢰를 훼손하고 형편없는 전략 계획을 노출시킴"
     }
   ],
   "wealthHistory": [
@@ -147,13 +153,11 @@
   },
   "personalTraits": {
     "knownFor": "Vietnam's richest person; founder and chairman of VinGroup, Vietnam's largest conglomerate; pioneering entrepreneur who built business empire across continents; visionary in entering electric vehicle market",
-    "knownForKo": "베트남의 가장 부유한 인물; 빈그룹의 창립자이자 회장, 베트남의 최대 컨설로머릿; 여러 대륙에 걸쳐 비즈니스 제국을 구축한 개척 기업가; 전기차 시장 진입의 선구자"
-  },
-  "philanthropy": "Established VinFuture Prize (alongside Lei Jun) supporting global scientific research; donor to Vietnamese educational institutions; supporter of technology and innovation initiatives across Vietnam; involved in various social development programs",
-    "philanthropyKo": "글로벌 과학 연구를 지원하는 빈퓨처 상 설립(레이 준과 함께); 베트남 교육 기관에 기부; 베트남 전역의 기술 및 혁신 이니셔티브 지원자; 다양한 사회 개발 프로그램에 참여"
-  },
-  "controversies": "VinFast's massive financial losses ($2.4B in 2023, $3.2B in 2024) raised questions about business sustainability; SEC investigations into VinFast accounting errors that inflated revenues; criticized for overambitious US expansion; rapid pivots suggest strategic missteps; concerns about Vingroup's debt-heavy business model",
-  "controversiesKo": "빈패스트의 막대한 재정 손실(2023년 $24억, 2024년 $32억)이 비즈니스 지속 가능성에 대한 의문을 제기; 매출을 과장한 빈패스트 회계 오류에 대한 SEC 조사; 과도한 미국 확장으로 비난받음; 빠른 방향 전환이 전략적 실수를 시사; 빈그룹의 부채 중심 비즈니스 모델에 대한 우려"
+    "knownForKo": "베트남의 가장 부유한 인물; 빈그룹의 창립자이자 회장, 베트남의 최대 컨설로머릿; 여러 대륙에 걸쳐 비즈니스 제국을 구축한 개척 기업가; 전기차 시장 진입의 선구자",
+    "philanthropy": "Established VinFuture Prize (alongside Lei Jun) supporting global scientific research; donor to Vietnamese educational institutions; supporter of technology and innovation initiatives across Vietnam; involved in various social development programs",
+    "philanthropyKo": "글로벌 과학 연구를 지원하는 빈퓨처 상 설립(레이 준과 함께); 베트남 교육 기관에 기부; 베트남 전역의 기술 및 혁신 이니셔티브 지원자; 다양한 사회 개발 프로그램에 참여",
+    "controversies": "VinFast's massive financial losses ($2.4B in 2023, $3.2B in 2024) raised questions about business sustainability; SEC investigations into VinFast accounting errors that inflated revenues; criticized for overambitious US expansion; rapid pivots suggest strategic missteps; concerns about Vingroup's debt-heavy business model",
+    "controversiesKo": "빈패스트의 막대한 재정 손실(2023년 $24억, 2024년 $32억)이 비즈니스 지속 가능성에 대한 의문을 제기; 매출을 과장한 빈패스트 회계 오류에 대한 SEC 조사; 과도한 미국 확장으로 비난받음; 빠른 방향 전환이 전략적 실수를 시사; 빈그룹의 부채 중심 비즈니스 모델에 대한 우려"
   },
   "sajuConnection": {
     "note": null,

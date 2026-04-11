@@ -1,0 +1,165 @@
+{
+  "id": "18",
+  "name": "Changpeng Zhao",
+  "childhood": {
+    "birthPlace": "Lianyungang, Jiangsu Province, China",
+    "birthPlaceKo": "중국 장쑤성 연운항시",
+    "familyBackground": "Born February 5, 1977, into academic family. Father was a professor and mother was a teacher. Family sought better opportunities amid political tensions in China during the 1980s and immigrated to Canada, settling in Vancouver. Grew up in modest circumstances, working part-time jobs including flipping burgers at McDonald's and working at gas stations to support family",
+    "familyBackgroundKo": "1977년 2월 5일 학계 가정에 출생. 아버지는 교수, 어머니는 교사였음. 1980년대 중국의 정치적 긴장 속에서 더 나은 기회를 찾아 캐나다로 이민하여 밴쿠버에 정착. 맥도날드에서 햄버거를 뒤집고 주유소에서 근무하는 등 부업으로 가족을 부양하며 소박한 환경에서 성장",
+    "education": "McGill University, Montreal (Computer Science degree); developed early interest in computers and programming during childhood",
+    "educationKo": "맥길 대학교, 몬트리올(컴퓨터 과학 학위); 어린 시절부터 컴퓨터와 프로그래밍에 대한 관심 발달",
+    "earlyLife": "Immigrated to Canada at age 8-9 during political turmoil in China. Adapted to Canadian culture and education system. Part-time work experience in fast food and service industries taught him work ethic and customer service fundamentals. Developed strong technical skills through self-study and university education. Passion for technology and problem-solving evident from early age",
+    "earlyLifeKo": "8-9세 때 중국의 정치적 혼란 중 캐나다로 이민. 캐나다 문화와 교육 시스템에 적응. 패스트푸드 및 서비스 산업에서의 부업 경험이 근무 윤리와 고객 서비스 기초를 가르침. 자기학습과 대학 교육을 통해 강한 기술 능력 개발. 어린 나이부터 기술과 문제 해결에 대한 열정을 드러냈다",
+    "source": "Wikipedia, Kanga University, Leader Biography"
+  },
+  "careerTimeline": [
+    {
+      "year": 2013,
+      "event": "Leaves Fusion Systems in December; joins Blockchain.info as Head of Development, working on Bitcoin technology infrastructure",
+      "eventKo": "12월 Fusion Systems 퇴사; Blockchain.info에 개발 책임자로 입사하여 비트코인 기술 인프라 개발 업무 담당"
+    },
+    {
+      "year": 2014,
+      "event": "Joins OKCoin (Chinese Bitcoin exchange) as Chief Technical Officer in June; launches Bitcoin futures trading in August",
+      "eventKo": "6월 OKCoin(중국 비트코인 거래소)에 최고 기술 책임자로 입사; 8월 비트코인 선물 거래 출시"
+    },
+    {
+      "year": 2015,
+      "event": "Leaves OKCoin citing 'differences'; founds BijieTech; continues developing expertise in crypto trading technology and platform architecture",
+      "eventKo": "'이견'을 이유로 OKCoin 퇴사; BijieTech 설립; 암호화폐 거래 기술 및 플랫폼 아키텍처 전문성 개발 지속"
+    },
+    {
+      "year": 2017,
+      "event": "Leaves BijieTech in July; founds Binance.com cryptocurrency exchange with vision to become world's largest crypto platform",
+      "eventKo": "7월 BijieTech 퇴사; Binance.com 암호화폐 거래소 설립, 세계 최대 암호화폐 플랫폼이 되기 위한 비전 제시"
+    },
+    {
+      "year": 2017,
+      "event": "On July 8, Binance issues 100 million BNB tokens through ICO; trading launches 11 days later. Daily trading volume reaches $1 billion within 6 months",
+      "eventKo": "7월 8일 Binance가 ICO를 통해 1억 개의 BNB 토큰 발행; 11일 후 거래 개시. 6개월 내 일일 거래량 10억 달러 도달"
+    },
+    {
+      "year": 2018,
+      "event": "In less than 8 months, Binance becomes world's largest cryptocurrency exchange by trading volume (April 2018); Zhao's net worth reaches approximately $13 billion",
+      "eventKo": "8개월 미만 만에 Binance가 거래량으로 세계 최대 암호화폐 거래소가 됨(2018년 4월); 자오의 순자산이 약 130억 달러에 도달"
+    },
+    {
+      "year": 2021,
+      "event": "Bloomberg values Zhao at approximately $96.9 billion (peak wealth); briefly becomes Asia's richest self-made billionaire; Binance serves 300+ million users globally",
+      "eventKo": "Bloomberg가 자오를 약 969억 달러로 평가(순자산 최고치); 아시아 최부자 자수성가 억만장자로 잠시 등극; Binance가 전 세계 3억 명 이상의 사용자 서비스"
+    },
+    {
+      "year": 2023,
+      "event": "In November, Zhao resigns as CEO and pleads guilty to violating Bank Secrecy Act and anti-money laundering requirements; agrees to pay $50 million personal fine; Binance pays $4.3 billion total penalties",
+      "eventKo": "11월 자오가 CEO에서 사임하고 은행보안법 및 자금세탁방지법 위반으로 유죄 인정; 개인적으로 5천만 달러 벌금 합의; Binance가 총 43억 달러 벌금 지불"
+    },
+    {
+      "year": 2024,
+      "event": "In April, sentenced to four months in prison after guilty plea; released from custody on September 27; later receives presidential pardon from President Trump in October 2025",
+      "eventKo": "4월 유죄 인정 후 4개월 징역형 선고; 9월 27일 석방; 이후 2025년 10월 트럼프 대통령으로부터 대통령 사면장 수여"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2023,
+      "description": "Massive compliance failure at Binance. Prioritized growth and market share over anti-money laundering compliance. Failed to implement adequate Know Your Customer protocols, suspicious activity reporting mechanisms, and region-specific regulatory safeguards across 100+ countries. Bank Secrecy Act violations resulted in $4.3 billion in penalties and 4-month prison sentence",
+      "descriptionKo": "Binance의 대규모 컴플라이언스 실패. 자금세탁방지 컴플라이언스보다 성장과 시장 점유율을 우선시. 100개국 이상에 걸쳐 적절한 고객확인(KYC) 절차, 의심거래 보고 메커니즘, 지역별 규제 보호장치 미구현. 은행보안법 위반으로 43억 달러 벌금과 4개월 징역형 초래",
+      "lesson": "Regulatory compliance and risk management cannot be sacrificed for growth. Operating on a 'Wild West' model in global financial markets invites regulatory crackdown. Long-term sustainability requires building compliance infrastructure proportional to business scale. Founders must balance ambition with responsibility",
+      "lessonKo": "규제 컴플라이언스와 위험 관리는 성장을 위해 포기될 수 없다. 글로벌 금융 시장에서 '무법 지대' 모델 운영은 규제 단속을 초래한다. 장기적 지속성은 사업 규모에 비례하는 컴플라이언스 인프라 구축을 요구한다. 창업자는 야망과 책임의 균형을 맞춰야 한다",
+      "source": "DOJ, CFTC, Washington Post, CNBC"
+    },
+    {
+      "year": 2022,
+      "description": "Failure to properly manage FTX relationship and contagion risk. Binance held significant FTX token exposure; when FTX collapsed in November 2022, Binance and Zhao faced reputational damage and questions about risk management practices. Subsequent investigations revealed systemic issues in crypto industry oversight",
+      "descriptionKo": "FTX 관계 및 전염 위험 관리 실패. Binance가 FTX 토큰에 상당한 익스포저 보유; 2022년 11월 FTX 붕괴 시 Binance와 자오는 평판 손상 및 위험 관리 관행에 대한 의문 직면. 이후 조사로 암호화폐 산업 감시의 구조적 문제 드러남",
+      "lesson": "Diversification of exposure and counterparty risk assessment are critical in financial platforms. Concentration in related assets creates systemic risk. Proper due diligence and separation of concerns protect platform integrity. Leaders must implement robust risk management frameworks",
+      "lessonKo": "익스포저 분산과 상대방 위험 평가는 금융 플랫폼에서 중요하다. 관련 자산 집중은 시스템 위험을 조성한다. 적절한 실사와 업무 분리가 플랫폼 무결성을 보호한다. 지도자는 견고한 위험 관리 프레임워크를 구현해야 한다",
+      "source": "Various crypto news sources"
+    },
+    {
+      "year": 2018,
+      "description": "Early scalability and operational challenges. While Binance grew explosively to $1 billion daily volume, it faced technical issues, security concerns, and regulatory scrutiny across multiple jurisdictions. Rapid expansion outpaced development of proper compliance and security infrastructure",
+      "descriptionKo": "초기 확장성 및 운영 문제. Binance가 일일 10억 달러 거래량으로 폭발적 성장했지만, 여러 지역의 기술 문제, 보안 우려, 규제 감시에 직면. 급속한 확장이 적절한 컴플라이언스 및 보안 인프라 개발을 초과",
+      "lesson": "Rapid growth must be managed with equal emphasis on infrastructure, compliance, and security. Speed without proper foundations creates vulnerabilities. Scaling requires building organizational capacity in parallel with user growth. Early-stage discipline prevents later-stage crises",
+      "lessonKo": "급속한 성장은 인프라, 컴플라이언스, 보안에 동등한 강조를 두고 관리되어야 한다. 기초 없는 속도는 취약성을 만든다. 확장은 사용자 성장과 병행하여 조직 역량 구축을 요구한다. 초기 규율이 후기 위기를 예방한다",
+      "source": "Protos, DL News"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2017,
+      "netWorth": 1000000000
+    },
+    {
+      "year": 2018,
+      "netWorth": 13000000000
+    },
+    {
+      "year": 2021,
+      "netWorth": 96900000000
+    },
+    {
+      "year": 2023,
+      "netWorth": 33000000000
+    },
+    {
+      "year": 2026,
+      "netWorth": 65700000000
+    }
+  ],
+  "quotes": [
+    {
+      "text": "If you want to help a person for a day, give them crypto. If you want to help a person for a lifetime, teach them crypto.",
+      "textKo": "하루를 돕고 싶으면 암호화폐를 주세요. 평생을 돕고 싶으면 암호화폐를 가르쳐주세요.",
+      "context": "On crypto education and financial empowerment; emphasizes Zhao's belief in cryptocurrency's transformative potential for global financial inclusion",
+      "contextKo": "암호화폐 교육과 재정 권한 부여에 대해; 글로벌 금융 포용을 위한 암호화폐의 변혁적 잠재력에 대한 자오의 믿음을 강조"
+    },
+    {
+      "text": "The best opportunity was yesterday, the next best one is today. Keep building.",
+      "textKo": "최고의 기회는 어제였고, 그 다음 최고는 오늘이다. 계속 건설하세요.",
+      "context": "On entrepreneurial persistence and seizing current opportunities; reflects Zhao's focus on continuous improvement and action",
+      "contextKo": "기업가적 끈기와 현재 기회 포착에 대해; 자오의 지속적 개선 및 행동 초점을 반영"
+    },
+    {
+      "text": "The future of crypto depends not on speculation, but on usability, security, education, and responsible engagement with policymakers.",
+      "textKo": "암호화폐의 미래는 투기가 아니라 사용성, 보안, 교육, 그리고 정책 입안자와의 책임감 있는 소통에 달려 있다.",
+      "context": "On sustainable crypto ecosystem development; spoken after legal troubles, showing maturity and understanding of regulatory necessity",
+      "contextKo": "지속 가능한 암호화폐 생태계 발전에 대해; 법적 문제 이후 발언, 성숙함과 규제 필요성에 대한 이해 표시"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": "Freedom of Money: A Memoir of Protecting Users, Resilience, and the Founding of Binance",
+        "note": "Released in 2026; 364-page autobiography written during U.S. federal prison sentence; covers childhood in rural China, immigration to Canada, founding of Binance, FTX collapse, DOJ prosecution, and redemption; 100% of author royalties donated to charity",
+        "noteKo": "2026년 발행; 미국 연방 감옥에서 작성한 364쪽 자서전; 농촌 중국 어린 시절, 캐나다 이민, Binance 창립, FTX 붕괴, DOJ 기소, 구원을 다룸; 저자료 100% 자선단체에 기부"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "The Bitcoin Standard: The Decentralized Alternative to Central Banking",
+        "author": "Saifedean Ammous",
+        "why": "Explores economic philosophy behind cryptocurrency and decentralized finance; aligns with Zhao's vision of financial freedom",
+        "whyKo": "암호화폐 및 분산 금융 뒤의 경제 철학 탐색; 자오의 금융 자유 비전과 일치"
+      },
+      {
+        "title": "The Age of Cryptocurrency: How Bitcoin and the Blockchain Are Challenging the Global Economic Order",
+        "author": "Paul Vigna and Michael J. Casey",
+        "why": "Discusses crypto's role in reshaping global finance and its societal implications; relevant to Zhao's mission of financial inclusion",
+        "whyKo": "암호화폐가 글로벌 금융 재편 및 사회적 영향에 대해 논의; 자오의 금융 포용 미션과 관련"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Technical expertise and visionary leadership in crypto space. Rapid decision-making and growth-focused mindset. Humble demeanor despite billion-dollar success. Work-focused lifestyle with minimal media presence. Entrepreneurial resilience and ability to build from scratch. Community-oriented approach to Binance's ecosystem. Candor about failures and willingness to accept responsibility",
+    "knownForKo": "암호화폐 공간에서의 기술 전문성과 비전적 리더십. 빠른 의사결정과 성장 지향적 사고방식. 억만장자 성공에도 겸손한 태도. 최소한의 미디어 노출로 업무 집중. 기업가적 회복력과 무에서 유를 창조하는 능력. Binance 생태계에 대한 커뮤니티 지향적 접근. 실패에 대한 솔직함과 책임 수용 의지",
+    "philanthropy": "CZ pledged to give away '90-99%' of his fortune to charitable causes and social impact initiatives. Established Binance Charity Foundation focused on blockchain technology for social good. Donated to education and poverty alleviation programs, particularly in developing countries. In prison memoir, committed to donating 100% of royalties to charity. Emphasizes crypto's role in financial inclusion for underbanked populations",
+    "philanthropyKo": "CZ가 재산의 '90-99%'를 자선 사업 및 사회 영향 이니셔티브에 기부하겠다고 다짐. 사회 선을 위한 블록체인 기술에 중점을 둔 Binance 자선 재단 설립. 교육 및 빈곤 완화 프로그램에 기부, 특히 개발도상국. 감옥 회고록에서 저자료 100%를 자선단체에 기부하겠다고 다짐. 금융 서비스를 받지 못하는 인구를 위한 암호화폐의 역할 강조",
+    "controversies": "Pleaded guilty to Bank Secrecy Act violations and enabling money laundering. Sentenced to four months in federal prison (served 2024). Binance received $4.3 billion in penalties, making it one of the largest regulatory fines in history. Faced criticism for building platform without adequate compliance infrastructure. Accused of prioritizing growth over user protection and regulatory adherence. Some view him as reckless and irresponsible; others see him as visionary disrupting broken financial system. Subsequent presidential pardon (2025) remains controversial",
+    "controversiesKo": "은행보안법 위반 및 자금세탁 방조로 유죄 인정. 연방 감옥 4개월 징역형 선고(2024년 복역). Binance가 43억 달러 벌금 수여, 역사상 최대 규제 벌금 중 하나. 적절한 컴플라이언스 인프라 없이 플랫폼 구축으로 비판받음. 사용자 보호 및 규제 준수보다 성장을 우선시한 혐의. 일부는 무모하고 무책임하다고 봄; 다른 이들은 깨진 금융 시스템을 파괴하는 비전가로 봄. 이후 대통령 사면(2025)은 여전히 논쟁적"
+  },
+  "sajuConnection": {
+    "note": null,
+    "value": null
+  }
+}

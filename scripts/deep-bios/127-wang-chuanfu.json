@@ -1,0 +1,163 @@
+{
+  "id": "106",
+  "name": "Wang Chuanfu",
+  "nameKo": "왕촨푸",
+  "childhood": {
+    "birthPlace": "Anhui Province, China; born into poor farmer family",
+    "birthPlaceKo": "중국 안휘성; 빈곤한 농부 가정에 태어남",
+    "familyBackground": "Born April 8, 1966. Orphaned as a teenager and raised by elder brother and sister despite difficult circumstances. Family experienced rural poverty but emphasized education and perseverance.",
+    "familyBackgroundKo": "1966년 4월 8일 생. 십대에 고아가 되어 형과 누나에게 양육받았다. 가족은 농촌 빈곤을 겪었지만 교육과 인내를 강조했다.",
+    "education": "Studied metallurgical physical chemistry at Central South Industrial University (now Central South University), graduated 1987. Earned master's degree in materials from Beijing General Research Institute of Nonferrous Metals. Worked as deputy director at research institute.",
+    "educationKo": "중남공업대학교(현 중남대학교)에서 금속 물리 화학을 전공하여 1987년 졸업했다. 베이징 비철금속 종합연구소에서 재료 석사학위를 취득했다. 연구소의 부국장으로 근무했다.",
+    "earlyLife": "Mid-level government researcher focused on rare-earth metals crucial to batteries and electronics. Worked in Beijing during the rise of China's technological sector in the early 1990s.",
+    "earlyLifeKo": "배터리 및 전자제품에 필수적인 희토류 금속에 중점을 둔 중간 수준의 정부 연구원으로 근무했다. 1990년대 초 중국의 기술 부문 상승기 동안 베이징에서 일했다.",
+    "source": "Wikipedia, South China Morning Post, Our China Story"
+  },
+  "careerTimeline": [
+    {
+      "year": 1987,
+      "event": "Graduated from Central South Industrial University with degree in metallurgical physical chemistry.",
+      "eventKo": "중남공업대학교에서 금속 물리 화학 학위로 졸업했다."
+    },
+    {
+      "year": 1990,
+      "event": "Earned master's degree in materials from Beijing General Research Institute of Nonferrous Metals and became deputy director at institute.",
+      "eventKo": "베이징 비철금속 종합연구소에서 재료 석사학위를 취득하고 연구소 부국장이 되었다."
+    },
+    {
+      "year": 1993,
+      "event": "Joined battery company established by research institute in Shenzhen as general manager, leading business operations and product development.",
+      "eventKo": "연구소가 설립한 심천의 배터리 회사에 사장으로 입사하여 사업 운영과 제품 개발을 주도했다."
+    },
+    {
+      "year": 1995,
+      "event": "Founded BYD Company with approximately $400,000 borrowed from cousin. Started with 20 employees as battery manufacturer, focusing on mobile phone batteries.",
+      "eventKo": "사촌으로부터 차용한 약 40만 달러로 BYD 회사를 설립했다. 20명의 직원으로 시작하여 휴대폰 배터리에 중점을 둔 배터리 제조업체로 시작했다."
+    },
+    {
+      "year": 2003,
+      "event": "Pivoted BYD into automotive industry by acquiring Tsinchuan Automobile Company. Declared mission: 'We want to use our technological innovations to help solve the world's energy problems.'",
+      "eventKo": "징촨 자동차 회사를 인수하여 BYD를 자동차 산업으로 전환했다. '우리는 기술 혁신을 통해 세계 에너지 문제를 해결하고 싶다'고 선언했다."
+    },
+    {
+      "year": 2008,
+      "event": "Set goal for BYD to become leader in Chinese automotive market by 2015 and largest car manufacturer globally by 2025. Warren Buffett's Berkshire Hathaway invests $230 million for 9.89% stake.",
+      "eventKo": "2015년까지 중국 자동차 시장의 리더, 2025년까지 전 세계 최대 자동차 제조업체가 되겠다고 목표를 설정했다. 워렌 버핏의 버크셔 해서웨이가 9.89% 지분을 위해 2억 3천만 달러를 투자했다."
+    },
+    {
+      "year": 2015,
+      "event": "BYD becomes world's largest plug-in electric vehicle manufacturer. Company generates record battery production and begins expanding international markets.",
+      "eventKo": "BYD는 세계 최대 플러그인 전기차 제조업체가 되었다. 회사는 기록적인 배터리 생산을 생성하고 국제 시장 확장을 시작했다."
+    },
+    {
+      "year": 2020,
+      "event": "Developed and launched revolutionary Blade Battery (LFP technology), a safer and more efficient lithium iron phosphate battery becoming cornerstone of BYD's competitive advantage.",
+      "eventKo": "혁신적인 블레이드 배터리(LFP 기술)를 개발 및 출시했으며, 더 안전하고 효율적인 인산철 리튬 배터리로 BYD의 경쟁 우위의 초석이 되었다."
+    },
+    {
+      "year": 2023,
+      "event": "BYD Q4 records 526,000 battery-only EV sales, surpassing Tesla's 484,000 vehicles, marking achievement of global EV leadership.",
+      "eventKo": "BYD Q4는 526,000대의 배터리 전용 EV 판매를 기록하여 테슬라의 484,000대를 초과했으며, 글로벌 EV 리더십 달성을 표시했다."
+    }
+  ],
+  "failures": [
+    {
+      "year": 2010,
+      "description": "Strategic overexpansion crisis. Wang drastically reduced investment in traditional car development to fund new energy vehicles, losing control of sales system and experiencing dealer withdrawals. Q2 2010 revenue declined 8%, net profits plummeted 58%.",
+      "descriptionKo": "전략적 과잉 확장 위기. 왕은 신에너지 차량 자금을 조달하기 위해 전통 자동차 개발 투자를 대폭 줄여 판매 시스템에 대한 통제력을 잃고 딜러 철수를 경험했다. 2010년 2분기 수익은 8% 감소, 순이익은 58% 급락했다.",
+      "lesson": "Learned that aggressive expansion without maintaining core operations infrastructure leads to system failure; need to balance innovation with operational excellence and stakeholder retention.",
+      "lessonKo": "핵심 운영 인프라를 유지하지 않고 공격적으로 확장하면 시스템 실패로 이어진다는 것을 배웠으며, 혁신과 운영 우수성 및 이해관계자 유지의 균형을 맞춰야 함을 깨달았다.",
+      "source": "Medium, South China Morning Post, Rational Walk"
+    },
+    {
+      "year": 2011,
+      "description": "Continuation of 2010 crisis with severe deterioration. Profits dropped 88.6% in first half of 2011. Sales General Manager Xia Zhibing resigned, widespread layoffs occurred, quality issues plagued products. Negative press titled 'The Great Defeat of BYD' went viral.",
+      "descriptionKo": "2010년 위기의 연속으로 심각하게 악화되었다. 2011년 상반기 이익이 88.6% 하락했다. 영업 총괄 마이클 샤가 사임했고, 광범위한 대량 해고가 발생했으며, 제품 품질 문제가 심각했다. '베이디의 큰 패배'라는 부정적인 언론이 바이럴되었다.",
+      "lesson": "Public acknowledgment of mistakes in 2012: BYD pursued scale without quality; key failures were dealership networks, media relations, and quality control. Led to complete operational restructuring and recommitment to excellence.",
+      "lessonKo": "2012년 실수에 대한 공개 인정: BYD는 품질 없이 규모를 추구했다; 주요 실패는 딜러 네트워크, 미디어 관계, 품질 관리였다. 완전한 운영 재구성과 우수성에 대한 재약속으로 이어졌다.",
+      "source": "Medium, South China Morning Post"
+    },
+    {
+      "year": 2014,
+      "description": "Tesla's entry into China market disrupted BYD's competitive position. Tesla offered brand premium, social status, and high performance with solid range that BYD could not match at time. Market share erosion and sales pressure intensified.",
+      "descriptionKo": "테슬라의 중국 시장 진출이 BYD의 경쟁 위치를 붕괴시켰다. 테슬라는 당시 BYD가 대응할 수 없는 브랜드 프리미엄, 사회적 지위, 우수한 성능을 제공했다. 시장 점유율 침식과 판매 압력이 심화되었다.",
+      "lesson": "Recognized need to compete on both quality and innovation; led to increased investment in R&D for battery technology and vehicle design; proved importance of brand positioning in premium market.",
+      "lessonKo": "품질과 혁신 모두에서 경쟁할 필요성을 인식했으며, 배터리 기술 및 차량 설계 R&D 투자 증가로 이어졌다; 프리미엄 시장에서 브랜드 포지셔닝의 중요성을 입증했다.",
+      "source": "South China Morning Post, Rational Walk"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 1995,
+      "netWorth": 0.05
+    },
+    {
+      "year": 2008,
+      "netWorth": 3.4
+    },
+    {
+      "year": 2015,
+      "netWorth": 12.8
+    },
+    {
+      "year": 2021,
+      "netWorth": 23.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 23.6
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We want to use our technological innovations to help solve the world's energy problems.",
+      "textKo": "우리는 기술 혁신을 통해 세계의 에너지 문제를 해결하고 싶다.",
+      "context": "Statement when BYD entered automotive industry in 2003, articulating the company's mission beyond profit.",
+      "contextKo": "2YD가 2003년 자동차 산업에 진출할 때의 성명으로, 이윤을 넘어선 회사의 사명을 표현했다.",
+      "source": "EV Magazine, Manufacturing Digital"
+    },
+    {
+      "text": "Technology is the main force to solve problems in the world. We strive to help people realize their longing for a better life through technical innovation.",
+      "textKo": "기술은 세계 문제를 해결하는 주요 힘이다. 우리는 기술 혁신을 통해 사람들이 더 나은 삶에 대한 그들의 갈망을 실현할 수 있도록 돕기 위해 노력한다.",
+      "context": "Reflects Wang's philosophy on the role of technology in sustainable development and social progress.",
+      "contextKo": "지속 가능한 발전 및 사회 진보에서 기술의 역할에 대한 왕의 철학을 반영한다.",
+      "source": "EV Magazine, CEO Journal Magazine"
+    },
+    {
+      "text": "One must disrupt their own technology before others do.",
+      "textKo": "다른 사람이 하기 전에 자신의 기술을 파괴해야 한다.",
+      "context": "Encapsulates his innovation philosophy, exemplified by development of revolutionary Blade Battery that displaced earlier BYD battery designs.",
+      "contextKo": "이전 BYD 배터리 설계를 대체한 혁신적인 블레이드 배터리 개발로 예시된 그의 혁신 철학을 집약한다.",
+      "source": "International Finance, Green.org"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Rise of the Chinese Companies and Their Lessons",
+        "author": "Chen Wei",
+        "why": "Provides context on business challenges and strategies for Chinese enterprises competing globally.",
+        "whyKo": "중국 기업이 글로벌하게 경쟁하기 위한 사업 과제와 전략에 대한 맥락을 제공한다."
+      },
+      {
+        "title": "Innovation in Electric Vehicles",
+        "author": "David Bailey & Gary Gereffi",
+        "why": "Explores technology disruption and competitive dynamics in EV industry where BYD emerged as leader.",
+        "whyKo": "BYD가 리더로 떠오른 EV 산업의 기술 혁신과 경쟁 역학을 탐구한다."
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Visionary founder of BYD transforming batteries to electric vehicles; nicknamed 'genius' by Warren Buffett's Charlie Munger; hands-on technical expertise in battery innovation; resilient recovery from major crises; leading BYD to overtake Tesla in global EV sales.",
+    "knownForKo": "배터리를 전기차로 변환하는 BYD의 비전 창립자; 워렌 버핏의 찰리 뮌거가 '천재'라고 별명을 붙임; 배터리 혁신의 실무적 기술 전문성; 주요 위기로부터의 회복력; BYD를 전 세계 EV 판매에서 테슬라를 추월하도록 주도.",
+    "philanthropy": "Active in philanthropic initiatives through BYD's focus on sustainable energy and environmental protection. Company invests heavily in research and development benefiting clean energy transitions globally.",
+    "philanthropyKo": "BYD의 지속 가능한 에너지 및 환경 보호에 대한 초점을 통한 자선 활동에 활동적이다. 회사는 전 세계 청정 에너지 전환에 혜택을 주는 연구 개발에 대량으로 투자한다.",
+    "controversies": "Faced recalls and quality control issues in recent years; Q4 2025 recalled 115,783 vehicles due to design and manufacturing problems. Second quarter 2025 saw nearly 30% year-on-year profit decline, marking first quarterly decline since 2022. Sales forecast for 2025 lowered 16% from 5.5 to 4.6 million units.",
+    "controversiesKo": "최근 몇 년 동안 리콜 및 품질 관리 문제에 직면했다. 2025년 Q4에는 설계 및 제조 문제로 115,783대 차량을 리콜했다. 2025년 2분기는 전년 동기대비 약 30% 순이익 감소를 기록했으며, 2022년 이후 첫 분기 이익 감소를 나타냈다. 2025년 판매 예측이 전년 예측인 550만 대에서 460만 대로 16% 하향 조정되었다."
+  },
+  "sajuConnection": {
+    "note": null,
+    "value": null
+  }
+}

@@ -69,17 +69,23 @@
     {
       "year": 1970,
       "description": "Overly aggressive European expansion combined with global economic slowdown created working capital challenges. Some new subsidiaries underperformed expectations despite careful planning",
-      "descriptionKo": "과도한 유럽 확장과 글로벌 경기 둔화의 결합으로 운영자금 문제 발생. 신중한 계획에도 불구하고 일부 자회사가 기대에 미달"
+      "descriptionKo": "과도한 유럽 확장과 글로벌 경기 둔화의 결합으로 운영자금 문제 발생. 신중한 계획에도 불구하고 일부 자회사가 기대에 미달",
+      "lesson": "Rapid international expansion requires balanced capital management and market research; underestimating integration challenges can drain resources even with good intentions",
+      "lessonKo": "빠른 국제 확장은 균형 잡힌 자본 관리와 시장 조사를 요구함; 통합 과제를 과소평가하면 좋은 의도에도 불구하고 자원을 소진할 수 있음"
     },
     {
       "year": 1985,
       "description": "Early digitalization efforts proved costly and complex. First attempts at inventory management systems failed to deliver expected efficiency gains in supply chain operations",
-      "descriptionKo": "초기 디지털화 노력이 비용이 크고 복잡함. 공급망 운영의 효율성을 기대하던 초기 재고 관리 시스템이 실패"
+      "descriptionKo": "초기 디지털화 노력이 비용이 크고 복잡함. 공급망 운영의 효율성을 기대하던 초기 재고 관리 시스템이 실패",
+      "lesson": "Technology adoption requires careful change management and training; rushing digitalization without organizational readiness can waste investment and create operational friction",
+      "lessonKo": "기술 도입은 신중한 변화 관리와 훈련이 필요함; 조직 준비 없이 디지털화를 서두르면 투자를 낭비하고 운영상 마찰을 초래할 수 있음"
     },
     {
       "year": 2008,
       "description": "Tax evasion allegation surfaced in late March, creating legal and reputational challenges. Required significant management attention and legal resources to address",
-      "descriptionKo": "2008년 3월 말 탈세 혐의가 제기되어 법적, 평판상 문제 발생. 대응을 위해 상당한 경영 주의와 법적 자원 필요"
+      "descriptionKo": "2008년 3월 말 탈세 혐의가 제기되어 법적, 평판상 문제 발생. 대응을 위해 상당한 경영 주의와 법적 자원 필요",
+      "lesson": "Compliance and transparent tax practices are non-negotiable regardless of business success; legal vulnerabilities can damage reputation and distract from strategic priorities",
+      "lessonKo": "준법 태도와 투명한 세무 관행은 사업 성공과 관계없이 필수 불가결함; 법적 취약성은 평판을 훼손하고 전략적 우선순위에서 주의를 분산시킬 수 있음"
     }
   ],
   "wealthHistory": [
@@ -155,7 +161,11 @@
   },
   "personalTraits": {
     "knownFor": "Founder and chairman of Würth Group, one of the world's largest privately-held companies. Known for strategic vision, hands-on leadership, and commitment to employee welfare. Built a fastener empire from 2 employees and EUR 80,000 annual sales into a global €19.9B+ revenue operation in 80+ countries. Recognized as visionary entrepreneur who combines German engineering precision with customer-focused innovation. Also a major art collector with personal collection of 18,300+ artworks.",
-    "knownForKo": "뷔르트 그룹의 창립자이자 회장. 세계 최대 규모의 비상장 회사 중 하나. 전략적 비전, 실무적 리더십, 직원 복지 헌신으로 알려짐. 2명 종업원과 EUR 80,000 연간 매출에서 80개국 이상의 글로벌 €19.9B+ 매출 사업으로 나사 제국 구축. 독일 공학 정밀성과 고객 중심 혁신을 결합한 비전 기업가로 인정. 18,300개 이상 미술품의 개인 소장품을 보유한 주요 미술품 수집가"
+    "knownForKo": "뷔르트 그룹의 창립자이자 회장. 세계 최대 규모의 비상장 회사 중 하나. 전략적 비전, 실무적 리더십, 직원 복지 헌신으로 알려짐. 2명 종업원과 EUR 80,000 연간 매출에서 80개국 이상의 글로벌 €19.9B+ 매출 사업으로 나사 제국 구축. 독일 공학 정밀성과 고객 중심 혁신을 결합한 비전 기업가로 인정. 18,300개 이상 미술품의 개인 소장품을 보유한 주요 미술품 수집가",
+    "philanthropy": "Extensive art collection and patronage. Since the 1960s, accumulated one of Europe's significant private art collections with over 18,300 works specializing in late 19th century to contemporary art. Founder of Würth Foundation supporting cultural and educational initiatives. Major contributor to preserving cultural heritage and advancing arts education in Germany.",
+    "philanthropyKo": "광범위한 미술품 수집 및 후원. 1960년대부터 19세기 후반부터 현대 미술까지 전문으로 하는 18,300개 이상 미술품의 유럽 주요 개인 미술 수집품 중 하나 축적. 문화 및 교육 이니셔티브를 지원하는 뷔르트 재단 설립자. 독일의 문화유산 보존 및 미술 교육 발전의 주요 기여자",
+    "controversies": "Tax evasion allegations and legal challenges in 2008; questions about business practices during rapid international expansion; concerns raised regarding corporate governance and compliance management",
+    "controversiesKo": "2008년 탈세 혐의 및 법적 도전; 빠른 국제 확장 중 사업 관행에 대한 의문; 기업 지배 구조 및 준법 관리에 대한 우려 제기"
   },
   "philanthropy": {
     "note": "Extensive art collection and patronage. Since the 1960s, accumulated one of Europe's significant private art collections with over 18,300 works specializing in late 19th century to contemporary art. Founder of Würth Foundation supporting cultural and educational initiatives. Major contributor to preserving cultural heritage and advancing arts education in Germany.",

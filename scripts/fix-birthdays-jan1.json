@@ -1,0 +1,3408 @@
+{
+  "$instructions": "These 492 billionaires all have January 1 birthdays, which are almost certainly PLACEHOLDER dates (Forbes uses Jan 1 when the real birthday is unknown). For each person, search Google for their actual birthday. If you find a confirmed date, update the birthday field. If you cannot find a confirmed birthday, set birthday to null.\n\nSearch query format: \"[Name] birthday\" or \"[Name] date of birth\" or \"[Name] 생년월일\"\n\nIMPORTANT:\n- Only update if you find a CONFIRMED date from a reliable source (Wikipedia, Bloomberg, Forbes profile, etc.)\n- If the date is uncertain or conflicting across sources, leave as null\n- Format: YYYY-MM-DD\n- Update the file: public/billionaires.json — find each person by their id field and update the birthday\n- Keep a count of how many you confirmed vs left as null",
+  "totalToCheck": 486,
+  "people": [
+    {
+      "id": "30",
+      "name": "Robin Zeng",
+      "netWorth": 59.6,
+      "nationality": "HK",
+      "currentBirthday": "1969-01-01"
+    },
+    {
+      "id": "43",
+      "name": "Iris Fontbona",
+      "netWorth": 44.5,
+      "nationality": "CL",
+      "currentBirthday": "1943-01-01"
+    },
+    {
+      "id": "60",
+      "name": "Zheng Shuliang",
+      "netWorth": 34.1,
+      "nationality": "CN",
+      "currentBirthday": "1946-01-01"
+    },
+    {
+      "id": "84",
+      "name": "Huang Shilin",
+      "netWorth": 27.3,
+      "nationality": "CN",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "117",
+      "name": "Zhong Huijuan",
+      "netWorth": 20.9,
+      "nationality": "CN",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "137",
+      "name": "Beate Heister",
+      "netWorth": 18.4,
+      "nationality": "DE",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "138",
+      "name": "Karl Albrecht Jr.",
+      "netWorth": 18.4,
+      "nationality": "DE",
+      "currentBirthday": "1948-01-01"
+    },
+    {
+      "id": "141",
+      "name": "James Ratcliffe",
+      "netWorth": 18,
+      "nationality": "GB",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "146",
+      "name": "Eric Smidt",
+      "netWorth": 17.9,
+      "nationality": "US",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "148",
+      "name": "Chen Tianshi",
+      "netWorth": 17.9,
+      "nationality": "CN",
+      "currentBirthday": "1985-01-01"
+    },
+    {
+      "id": "149",
+      "name": "Chen Jianhua",
+      "netWorth": 17.7,
+      "nationality": "CN",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "156",
+      "name": "Theo Albrecht Jr",
+      "netWorth": 17.4,
+      "nationality": "DE",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "157",
+      "name": "Radhakishan Damani",
+      "netWorth": 17.2,
+      "nationality": "IN",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "158",
+      "name": "Ludwig Merckle",
+      "netWorth": 17.2,
+      "nationality": "DE",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "172",
+      "name": "Pei Zhenhua",
+      "netWorth": 15.7,
+      "nationality": "CN",
+      "currentBirthday": "1959-01-01"
+    },
+    {
+      "id": "176",
+      "name": "Zhang Zhidong",
+      "netWorth": 15.3,
+      "nationality": "CN",
+      "currentBirthday": "1972-01-01"
+    },
+    {
+      "id": "236",
+      "name": "Liu Debing",
+      "netWorth": 12.4,
+      "nationality": "CN",
+      "currentBirthday": "1976-01-01"
+    },
+    {
+      "id": "244",
+      "name": "Francine von Finck",
+      "netWorth": 11.9,
+      "nationality": "DE",
+      "currentBirthday": "1945-01-01"
+    },
+    {
+      "id": "258",
+      "name": "Liang Wenfeng",
+      "netWorth": 11.5,
+      "nationality": "CN",
+      "currentBirthday": "1985-01-01"
+    },
+    {
+      "id": "259",
+      "name": "Carrie Perrodo",
+      "netWorth": 11.5,
+      "nationality": "FR",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "260",
+      "name": "Wang Ning",
+      "netWorth": 11.5,
+      "nationality": "CN",
+      "currentBirthday": "1987-01-01"
+    },
+    {
+      "id": "262",
+      "name": "Li Ping",
+      "netWorth": 11.4,
+      "nationality": "HK",
+      "currentBirthday": "1968-01-01"
+    },
+    {
+      "id": "263",
+      "name": "Finn Rausing",
+      "netWorth": 11.2,
+      "nationality": "SE",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "264",
+      "name": "Jorn Rausing",
+      "netWorth": 11.2,
+      "nationality": "SE",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "278",
+      "name": "Sulaiman Al Habib",
+      "netWorth": 11,
+      "nationality": "SA",
+      "currentBirthday": "1952-01-01"
+    },
+    {
+      "id": "284",
+      "name": "Lin Muqin",
+      "netWorth": 10.8,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "291",
+      "name": "Gong Hongjia",
+      "netWorth": 10.7,
+      "nationality": "HK",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "321",
+      "name": "Pauline MacMillan Keinath",
+      "netWorth": 10,
+      "nationality": "US",
+      "currentBirthday": "1934-01-01"
+    },
+    {
+      "id": "329",
+      "name": "Zhang Hejun",
+      "netWorth": 9.8,
+      "nationality": "CN",
+      "currentBirthday": "1952-01-01"
+    },
+    {
+      "id": "330",
+      "name": "Magdalena Martullo-Blocher",
+      "netWorth": 9.8,
+      "nationality": "CH",
+      "currentBirthday": "1969-01-01"
+    },
+    {
+      "id": "332",
+      "name": "Li Xiting",
+      "netWorth": 9.8,
+      "nationality": "SG",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "371",
+      "name": "Yan Junjie",
+      "netWorth": 9,
+      "nationality": "CN",
+      "currentBirthday": "1989-01-01"
+    },
+    {
+      "id": "378",
+      "name": "Wu Jianshu",
+      "netWorth": 8.9,
+      "nationality": "HK",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "404",
+      "name": "Xu Gaoming",
+      "netWorth": 8.4,
+      "nationality": "CN",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "413",
+      "name": "Massimiliana Landini Aleotti",
+      "netWorth": 8.3,
+      "nationality": "IT",
+      "currentBirthday": "1943-01-01"
+    },
+    {
+      "id": "421",
+      "name": "Sofie Kirk Kristiansen",
+      "netWorth": 8.1,
+      "nationality": "DK",
+      "currentBirthday": "1976-01-01"
+    },
+    {
+      "id": "422",
+      "name": "Thomas Kirk Kristiansen",
+      "netWorth": 8.1,
+      "nationality": "DK",
+      "currentBirthday": "1979-01-01"
+    },
+    {
+      "id": "454",
+      "name": "Zhang Congyuan",
+      "netWorth": 7.8,
+      "nationality": "TW",
+      "currentBirthday": "1948-01-01"
+    },
+    {
+      "id": "466",
+      "name": "Zong Fuli",
+      "netWorth": 7.7,
+      "nationality": "CN",
+      "currentBirthday": "1982-01-01"
+    },
+    {
+      "id": "478",
+      "name": "Li Ge",
+      "netWorth": 7.6,
+      "nationality": "US",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "492",
+      "name": "Dona Bertarelli",
+      "netWorth": 7.4,
+      "nationality": "CH",
+      "currentBirthday": "1968-01-01"
+    },
+    {
+      "id": "493",
+      "name": "Juergen Blickle",
+      "netWorth": 7.4,
+      "nationality": "DE",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "494",
+      "name": "Xu Shihui",
+      "netWorth": 7.4,
+      "nationality": "CN",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "496",
+      "name": "Rahel Blocher",
+      "netWorth": 7.3,
+      "nationality": "CH",
+      "currentBirthday": "1976-01-01"
+    },
+    {
+      "id": "500",
+      "name": "Jorge Moll Filho",
+      "netWorth": 7.3,
+      "nationality": "BR",
+      "currentBirthday": "1945-01-01"
+    },
+    {
+      "id": "517",
+      "name": "Li Hua",
+      "netWorth": 7.2,
+      "nationality": "CN",
+      "currentBirthday": "1978-01-01"
+    },
+    {
+      "id": "529",
+      "name": "Philip Ng",
+      "netWorth": 7,
+      "nationality": "SG",
+      "currentBirthday": "1959-01-01"
+    },
+    {
+      "id": "535",
+      "name": "Dario Amodei",
+      "netWorth": 7,
+      "nationality": "US",
+      "currentBirthday": "1983-01-01"
+    },
+    {
+      "id": "540",
+      "name": "Edythe Broad",
+      "netWorth": 7,
+      "nationality": "US",
+      "currentBirthday": "1936-01-01"
+    },
+    {
+      "id": "543",
+      "name": "Yang Shaopeng",
+      "netWorth": 7,
+      "nationality": "CN",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "546",
+      "name": "Robert Ng",
+      "netWorth": 6.9,
+      "nationality": "SG",
+      "currentBirthday": "1952-01-01"
+    },
+    {
+      "id": "553",
+      "name": "Alain Merieux",
+      "netWorth": 6.9,
+      "nationality": "FR",
+      "currentBirthday": "1938-01-01"
+    },
+    {
+      "id": "554",
+      "name": "Zhang Daocai",
+      "netWorth": 6.9,
+      "nationality": "CN",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "562",
+      "name": "Liu Hanyuan",
+      "netWorth": 6.8,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "564",
+      "name": "Cai Huabo",
+      "netWorth": 6.8,
+      "nationality": "CN",
+      "currentBirthday": "1976-01-01"
+    },
+    {
+      "id": "565",
+      "name": "Ding Shijia",
+      "netWorth": 6.8,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "566",
+      "name": "Gopikishan Damani",
+      "netWorth": 6.7,
+      "nationality": "IN",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "570",
+      "name": "Taylor Thomson",
+      "netWorth": 6.7,
+      "nationality": "CA",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "584",
+      "name": "Matthew Prince",
+      "netWorth": 6.5,
+      "nationality": "US",
+      "currentBirthday": "1975-01-01"
+    },
+    {
+      "id": "609",
+      "name": "Ulrike von Baumbach",
+      "netWorth": 6.5,
+      "nationality": "DE",
+      "currentBirthday": "1942-01-01"
+    },
+    {
+      "id": "616",
+      "name": "Fan Hongwei",
+      "netWorth": 6.4,
+      "nationality": "CN",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "624",
+      "name": "Peter Gilgan",
+      "netWorth": 6.3,
+      "nationality": "CA",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "631",
+      "name": "Lee Thiam Wah",
+      "netWorth": 6.3,
+      "nationality": "MY",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "634",
+      "name": "Emanuele (Lino) Saputo",
+      "netWorth": 6.3,
+      "nationality": "CA",
+      "currentBirthday": "1937-01-01"
+    },
+    {
+      "id": "646",
+      "name": "Ma Jianrong",
+      "netWorth": 6.1,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "652",
+      "name": "Wolfgang Herz",
+      "netWorth": 6.1,
+      "nationality": "DE",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "662",
+      "name": "Sky Xu",
+      "netWorth": 6,
+      "nationality": "CN",
+      "currentBirthday": "1984-01-01"
+    },
+    {
+      "id": "667",
+      "name": "Carlos Alberto Sicupira",
+      "netWorth": 6,
+      "nationality": "BR",
+      "currentBirthday": "1948-01-01"
+    },
+    {
+      "id": "690",
+      "name": "Chip Wilson",
+      "netWorth": 5.8,
+      "nationality": "CA",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "707",
+      "name": "Wu Yajun",
+      "netWorth": 5.7,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "711",
+      "name": "Tomas Olivo Lopez",
+      "netWorth": 5.6,
+      "nationality": "ES",
+      "currentBirthday": "1974-01-01"
+    },
+    {
+      "id": "716",
+      "name": "Renuka Jagtiani",
+      "netWorth": 5.6,
+      "nationality": "IN",
+      "currentBirthday": "1954-01-01"
+    },
+    {
+      "id": "719",
+      "name": "Matthias Reinhart",
+      "netWorth": 5.6,
+      "nationality": "CH",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "721",
+      "name": "Zhang Hongchao",
+      "netWorth": 5.6,
+      "nationality": "CN",
+      "currentBirthday": "1976-01-01"
+    },
+    {
+      "id": "722",
+      "name": "Zhang Hongfu",
+      "netWorth": 5.6,
+      "nationality": "CN",
+      "currentBirthday": "1984-01-01"
+    },
+    {
+      "id": "724",
+      "name": "Christiane Schoeller",
+      "netWorth": 5.5,
+      "nationality": "DE",
+      "currentBirthday": "1968-01-01"
+    },
+    {
+      "id": "736",
+      "name": "Wang Xin",
+      "netWorth": 5.5,
+      "nationality": "CN",
+      "currentBirthday": "1973-01-01"
+    },
+    {
+      "id": "747",
+      "name": "Bulat Utemuratov",
+      "netWorth": 5.4,
+      "nationality": "KZ",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "775",
+      "name": "Gaye Farncombe",
+      "netWorth": 5.3,
+      "nationality": "CA",
+      "currentBirthday": "1952-01-01"
+    },
+    {
+      "id": "776",
+      "name": "Linda Campbell",
+      "netWorth": 5.3,
+      "nationality": "CA",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "792",
+      "name": "Bert Beveridge",
+      "netWorth": 5.2,
+      "nationality": "US",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "796",
+      "name": "Forrest Li",
+      "netWorth": 5.2,
+      "nationality": "SG",
+      "currentBirthday": "1978-01-01"
+    },
+    {
+      "id": "800",
+      "name": "Shaul Shani",
+      "netWorth": 5.2,
+      "nationality": "IL",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "811",
+      "name": "Georg Nemetschek",
+      "netWorth": 5.1,
+      "nationality": "DE",
+      "currentBirthday": "1934-01-01"
+    },
+    {
+      "id": "813",
+      "name": "Joao Moreira Salles",
+      "netWorth": 5.1,
+      "nationality": "BR",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "818",
+      "name": "Ruan Xueping",
+      "netWorth": 5.1,
+      "nationality": "HK",
+      "currentBirthday": "1972-01-01"
+    },
+    {
+      "id": "831",
+      "name": "Martin Haefner",
+      "netWorth": 5,
+      "nationality": "CH",
+      "currentBirthday": "1954-01-01"
+    },
+    {
+      "id": "835",
+      "name": "Thomas Hagen",
+      "netWorth": 4.9,
+      "nationality": "US",
+      "currentBirthday": "1936-01-01"
+    },
+    {
+      "id": "853",
+      "name": "Lin Tsung-Chi",
+      "netWorth": 4.8,
+      "nationality": "TW",
+      "currentBirthday": "1941-01-01"
+    },
+    {
+      "id": "856",
+      "name": "Markus Blocher",
+      "netWorth": 4.8,
+      "nationality": "CH",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "877",
+      "name": "Abdulla Al Futtaim",
+      "netWorth": 4.7,
+      "nationality": "AE",
+      "currentBirthday": "1940-01-01"
+    },
+    {
+      "id": "879",
+      "name": "Hansjoerg Wyss",
+      "netWorth": 4.7,
+      "nationality": "CH",
+      "currentBirthday": "1935-01-01"
+    },
+    {
+      "id": "896",
+      "name": "Yang Chang-Chih",
+      "netWorth": 4.6,
+      "nationality": "TW",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "898",
+      "name": "Lee Yeow Chor",
+      "netWorth": 4.6,
+      "nationality": "MY",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "899",
+      "name": "Zhu Yan",
+      "netWorth": 4.6,
+      "nationality": "CN",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "900",
+      "name": "Tomasz Biernacki",
+      "netWorth": 4.6,
+      "nationality": "PL",
+      "currentBirthday": "1973-01-01"
+    },
+    {
+      "id": "903",
+      "name": "Liang Zhaoxian",
+      "netWorth": 4.5,
+      "nationality": "CN",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "916",
+      "name": "Xia Zuoquan",
+      "netWorth": 4.5,
+      "nationality": "CN",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "922",
+      "name": "Fabien Pinckaers",
+      "netWorth": 4.4,
+      "nationality": "BE",
+      "currentBirthday": "1979-01-01"
+    },
+    {
+      "id": "927",
+      "name": "Carlo Fidani",
+      "netWorth": 4.4,
+      "nationality": "CA",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "932",
+      "name": "Julia Thiele-Schuerhoff",
+      "netWorth": 4.4,
+      "nationality": "DE",
+      "currentBirthday": "1972-01-01"
+    },
+    {
+      "id": "934",
+      "name": "Xu Jinfu",
+      "netWorth": 4.4,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "942",
+      "name": "Xiang Guangda",
+      "netWorth": 4.3,
+      "nationality": "CN",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "944",
+      "name": "Jason Jiang",
+      "netWorth": 4.3,
+      "nationality": "SG",
+      "currentBirthday": "1973-01-01"
+    },
+    {
+      "id": "961",
+      "name": "Yeung Kin-man",
+      "netWorth": 4.3,
+      "nationality": "HK",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "964",
+      "name": "Zhang Jianzhong",
+      "netWorth": 4.3,
+      "nationality": "CN",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "972",
+      "name": "Kuok Khoon Hong",
+      "netWorth": 4.3,
+      "nationality": "SG",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "976",
+      "name": "Hu Kaijun",
+      "netWorth": 4.2,
+      "nationality": "CN",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "978",
+      "name": "Rodger Riney",
+      "netWorth": 4.2,
+      "nationality": "US",
+      "currentBirthday": "1946-01-01"
+    },
+    {
+      "id": "986",
+      "name": "Baiju Bhatt",
+      "netWorth": 4.2,
+      "nationality": "US",
+      "currentBirthday": "1985-01-01"
+    },
+    {
+      "id": "991",
+      "name": "Willy Michel",
+      "netWorth": 4.1,
+      "nationality": "CH",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "995",
+      "name": "Lam Wai-ying",
+      "netWorth": 4.1,
+      "nationality": "HK",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "999",
+      "name": "Cai Kui",
+      "netWorth": 4.1,
+      "nationality": "CN",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "1000",
+      "name": "Patrizio Bertelli",
+      "netWorth": 4.1,
+      "nationality": "IT",
+      "currentBirthday": "1946-01-01"
+    },
+    {
+      "id": "1002",
+      "name": "Abdulla bin Ahmad Al Ghurair",
+      "netWorth": 4.1,
+      "nationality": "AE",
+      "currentBirthday": "1929-01-01"
+    },
+    {
+      "id": "1027",
+      "name": "Patrick Lee",
+      "netWorth": 4,
+      "nationality": "HK",
+      "currentBirthday": "1942-01-01"
+    },
+    {
+      "id": "1040",
+      "name": "Chan Laiwa",
+      "netWorth": 4,
+      "nationality": "CN",
+      "currentBirthday": "1941-01-01"
+    },
+    {
+      "id": "1045",
+      "name": "Otto Philipp Braun",
+      "netWorth": 4,
+      "nationality": "DE",
+      "currentBirthday": "1978-01-01"
+    },
+    {
+      "id": "1055",
+      "name": "Jed McCaleb",
+      "netWorth": 3.9,
+      "nationality": "US",
+      "currentBirthday": "1975-01-01"
+    },
+    {
+      "id": "1061",
+      "name": "Nadir Godrej",
+      "netWorth": 3.9,
+      "nationality": "IN",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "1082",
+      "name": "Lee Yeow Seng",
+      "netWorth": 3.8,
+      "nationality": "MY",
+      "currentBirthday": "1978-01-01"
+    },
+    {
+      "id": "1085",
+      "name": "Kwek Leng Beng",
+      "netWorth": 3.8,
+      "nationality": "SG",
+      "currentBirthday": "1941-01-01"
+    },
+    {
+      "id": "1099",
+      "name": "August Troendle",
+      "netWorth": 3.8,
+      "nationality": "US",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "1117",
+      "name": "Taha Mikati",
+      "netWorth": 3.7,
+      "nationality": "LB",
+      "currentBirthday": "1945-01-01"
+    },
+    {
+      "id": "1120",
+      "name": "David Wertheim",
+      "netWorth": 3.7,
+      "nationality": "IL",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "1127",
+      "name": "Ren Xiaoqing",
+      "netWorth": 3.7,
+      "nationality": "CN",
+      "currentBirthday": "1981-01-01"
+    },
+    {
+      "id": "1135",
+      "name": "Wu Kai",
+      "netWorth": 3.7,
+      "nationality": "CN",
+      "currentBirthday": "1968-01-01"
+    },
+    {
+      "id": "1142",
+      "name": "Issad Rebrab",
+      "netWorth": 3.6,
+      "nationality": "DZ",
+      "currentBirthday": "1944-01-01"
+    },
+    {
+      "id": "1147",
+      "name": "Dan Olsson",
+      "netWorth": 3.6,
+      "nationality": "SE",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "1155",
+      "name": "Zhao Fenggang",
+      "netWorth": 3.6,
+      "nationality": "CN",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "1175",
+      "name": "Sol Daurella",
+      "netWorth": 3.5,
+      "nationality": "ES",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "1193",
+      "name": "April Goh",
+      "netWorth": 3.5,
+      "nationality": "SG",
+      "currentBirthday": "1991-01-01"
+    },
+    {
+      "id": "1199",
+      "name": "Wang Yun'an",
+      "netWorth": 3.5,
+      "nationality": "CN",
+      "currentBirthday": "1986-01-01"
+    },
+    {
+      "id": "1200",
+      "name": "Li Zhenguo",
+      "netWorth": 3.5,
+      "nationality": "CN",
+      "currentBirthday": "1968-01-01"
+    },
+    {
+      "id": "1205",
+      "name": "Hilton Schlosberg",
+      "netWorth": 3.4,
+      "nationality": "GB",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "1215",
+      "name": "Eva Maria Bucher-Haefner",
+      "netWorth": 3.4,
+      "nationality": "CH",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "1230",
+      "name": "Xie Weitong",
+      "netWorth": 3.4,
+      "nationality": "TW",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "1231",
+      "name": "Peter Beck",
+      "netWorth": 3.4,
+      "nationality": "NZ",
+      "currentBirthday": "1977-01-01"
+    },
+    {
+      "id": "1243",
+      "name": "B. Partha Saradhi Reddy",
+      "netWorth": 3.3,
+      "nationality": "IN",
+      "currentBirthday": "1954-01-01"
+    },
+    {
+      "id": "1246",
+      "name": "Chao Chung-Hsin",
+      "netWorth": 3.3,
+      "nationality": "TW",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "1258",
+      "name": "Shiv Kishan Agrawal",
+      "netWorth": 3.3,
+      "nationality": "IN",
+      "currentBirthday": "1941-01-01"
+    },
+    {
+      "id": "1263",
+      "name": "Xue Min",
+      "netWorth": 3.3,
+      "nationality": "CN",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "1280",
+      "name": "John Dorrance III",
+      "netWorth": 3.2,
+      "nationality": "IE",
+      "currentBirthday": "1944-01-01"
+    },
+    {
+      "id": "1291",
+      "name": "C.C. Leung",
+      "netWorth": 3.2,
+      "nationality": "TW",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "1293",
+      "name": "William Chisholm",
+      "netWorth": 3.2,
+      "nationality": "US",
+      "currentBirthday": "1969-01-01"
+    },
+    {
+      "id": "1296",
+      "name": "Qiu Wensheng",
+      "netWorth": 3.2,
+      "nationality": "CN",
+      "currentBirthday": "1973-01-01"
+    },
+    {
+      "id": "1307",
+      "name": "Travis Boersma",
+      "netWorth": 3.2,
+      "nationality": "US",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "1317",
+      "name": "Sophie Luise Fielmann",
+      "netWorth": 3.1,
+      "nationality": "DE",
+      "currentBirthday": "1995-01-01"
+    },
+    {
+      "id": "1318",
+      "name": "Kwon Hyuk-bin",
+      "netWorth": 3.1,
+      "nationality": "KR",
+      "currentBirthday": "1974-01-01"
+    },
+    {
+      "id": "1320",
+      "name": "Chao Yung-Tsang",
+      "netWorth": 3.1,
+      "nationality": "TW",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "1336",
+      "name": "Wu Xiangdong",
+      "netWorth": 3.1,
+      "nationality": "CN",
+      "currentBirthday": "1969-01-01"
+    },
+    {
+      "id": "1343",
+      "name": "Caroline Hagen Kjos",
+      "netWorth": 3.1,
+      "nationality": "NO",
+      "currentBirthday": "1984-01-01"
+    },
+    {
+      "id": "1346",
+      "name": "Marcel Erni",
+      "netWorth": 3.1,
+      "nationality": "CH",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "1351",
+      "name": "Miriam Baumann-Blocher",
+      "netWorth": 3.1,
+      "nationality": "CH",
+      "currentBirthday": "1975-01-01"
+    },
+    {
+      "id": "1352",
+      "name": "Lin Ming-hsiung",
+      "netWorth": 3.1,
+      "nationality": "TW",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "1361",
+      "name": "Zhou Xiaoping",
+      "netWorth": 3,
+      "nationality": "CN",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "1368",
+      "name": "Richard Chandler",
+      "netWorth": 3,
+      "nationality": "NZ",
+      "currentBirthday": "1959-01-01"
+    },
+    {
+      "id": "1375",
+      "name": "Wang Junshi",
+      "netWorth": 3,
+      "nationality": "CN",
+      "currentBirthday": "1949-01-01"
+    },
+    {
+      "id": "1380",
+      "name": "Wu Yingming",
+      "netWorth": 3,
+      "nationality": "CN",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "1383",
+      "name": "Zhang Jian",
+      "netWorth": 3,
+      "nationality": "CN",
+      "currentBirthday": "1969-01-01"
+    },
+    {
+      "id": "1386",
+      "name": "Yan Zhou",
+      "netWorth": 2.9,
+      "nationality": "CN",
+      "currentBirthday": "1988-01-01"
+    },
+    {
+      "id": "1396",
+      "name": "Tali Griffel",
+      "netWorth": 2.9,
+      "nationality": "IL",
+      "currentBirthday": "1986-01-01"
+    },
+    {
+      "id": "1406",
+      "name": "Kei Hoi Pang",
+      "netWorth": 2.9,
+      "nationality": "CN",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "1408",
+      "name": "Sebastian Glaser",
+      "netWorth": 2.9,
+      "nationality": "DE",
+      "currentBirthday": "1979-01-01"
+    },
+    {
+      "id": "1421",
+      "name": "Zhang Li",
+      "netWorth": 2.9,
+      "nationality": "CN",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "1423",
+      "name": "T.Y. Tsai",
+      "netWorth": 2.9,
+      "nationality": "TW",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "1424",
+      "name": "Chang Kuo-Hua",
+      "netWorth": 2.9,
+      "nationality": "TW",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "1432",
+      "name": "Firoz Mistry",
+      "netWorth": 2.8,
+      "nationality": "IE",
+      "currentBirthday": "1997-01-01"
+    },
+    {
+      "id": "1433",
+      "name": "Zahan Mistry",
+      "netWorth": 2.8,
+      "nationality": "IE",
+      "currentBirthday": "1999-01-01"
+    },
+    {
+      "id": "1434",
+      "name": "Marcel Herrmann Telles",
+      "netWorth": 2.8,
+      "nationality": "BR",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "1440",
+      "name": "Philip Niarchos",
+      "netWorth": 2.8,
+      "nationality": "GR",
+      "currentBirthday": "1954-01-01"
+    },
+    {
+      "id": "1449",
+      "name": "Maja Oeri",
+      "netWorth": 2.8,
+      "nationality": "CH",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "1458",
+      "name": "Su Hua",
+      "netWorth": 2.8,
+      "nationality": "CN",
+      "currentBirthday": "1982-01-01"
+    },
+    {
+      "id": "1463",
+      "name": "Brett Hildebrand",
+      "netWorth": 2.8,
+      "nationality": "US",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "1464",
+      "name": "David Peñaloza Alanís",
+      "netWorth": 2.8,
+      "nationality": "MX",
+      "currentBirthday": "1974-01-01"
+    },
+    {
+      "id": "1465",
+      "name": "Kwek Leng Kee",
+      "netWorth": 2.8,
+      "nationality": "SG",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "1468",
+      "name": "Abdullah bin Sulaiman Al Rajhi",
+      "netWorth": 2.8,
+      "nationality": "SA",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "1474",
+      "name": "Herb Chambers",
+      "netWorth": 2.8,
+      "nationality": "US",
+      "currentBirthday": "1942-01-01"
+    },
+    {
+      "id": "1477",
+      "name": "Madhukar Parekh",
+      "netWorth": 2.7,
+      "nationality": "IN",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "1485",
+      "name": "Chen Hua",
+      "netWorth": 2.7,
+      "nationality": "CN",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "1495",
+      "name": "Alexandra Daitch",
+      "netWorth": 2.7,
+      "nationality": "US",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "1496",
+      "name": "Lucy Stitzer",
+      "netWorth": 2.7,
+      "nationality": "US",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "1497",
+      "name": "Sarah MacMillan",
+      "netWorth": 2.7,
+      "nationality": "US",
+      "currentBirthday": "1954-01-01"
+    },
+    {
+      "id": "1506",
+      "name": "Leng Youbin",
+      "netWorth": 2.7,
+      "nationality": "CN",
+      "currentBirthday": "1969-01-01"
+    },
+    {
+      "id": "1508",
+      "name": "Zhao Yan",
+      "netWorth": 2.7,
+      "nationality": "CN",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "1514",
+      "name": "Tran Dinh Long",
+      "netWorth": 2.7,
+      "nationality": "VN",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "1519",
+      "name": "Chi Yufeng",
+      "netWorth": 2.7,
+      "nationality": "CN",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "1524",
+      "name": "Tang Jie",
+      "netWorth": 2.7,
+      "nationality": "CN",
+      "currentBirthday": "1977-01-01"
+    },
+    {
+      "id": "1527",
+      "name": "Zheng Jianjiang",
+      "netWorth": 2.7,
+      "nationality": "CN",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "1537",
+      "name": "Zadik Bino",
+      "netWorth": 2.6,
+      "nationality": "IL",
+      "currentBirthday": "1944-01-01"
+    },
+    {
+      "id": "1553",
+      "name": "Chen Zhiping",
+      "netWorth": 2.6,
+      "nationality": "CN",
+      "currentBirthday": "1976-01-01"
+    },
+    {
+      "id": "1554",
+      "name": "Wee Ee Cheong",
+      "netWorth": 2.6,
+      "nationality": "SG",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "1557",
+      "name": "Hong Feng",
+      "netWorth": 2.6,
+      "nationality": "CN",
+      "currentBirthday": "1977-01-01"
+    },
+    {
+      "id": "1558",
+      "name": "Francois Feuillet",
+      "netWorth": 2.6,
+      "nationality": "FR",
+      "currentBirthday": "1949-01-01"
+    },
+    {
+      "id": "1566",
+      "name": "William Young",
+      "netWorth": 2.6,
+      "nationality": "US",
+      "currentBirthday": "1941-01-01"
+    },
+    {
+      "id": "1578",
+      "name": "Xie Liangzhi",
+      "netWorth": 2.6,
+      "nationality": "CN",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "1602",
+      "name": "Roger Wang",
+      "netWorth": 2.5,
+      "nationality": "US",
+      "currentBirthday": "1949-01-01"
+    },
+    {
+      "id": "1606",
+      "name": "Maren Otto",
+      "netWorth": 2.5,
+      "nationality": "DE",
+      "currentBirthday": "1942-01-01"
+    },
+    {
+      "id": "1607",
+      "name": "Alain Taravella",
+      "netWorth": 2.5,
+      "nationality": "FR",
+      "currentBirthday": "1948-01-01"
+    },
+    {
+      "id": "1613",
+      "name": "Huang Xiaofen",
+      "netWorth": 2.5,
+      "nationality": "CN",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "1620",
+      "name": "David Booth",
+      "netWorth": 2.5,
+      "nationality": "US",
+      "currentBirthday": "1946-01-01"
+    },
+    {
+      "id": "1621",
+      "name": "Fan Daidi",
+      "netWorth": 2.5,
+      "nationality": "CN",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "1624",
+      "name": "Zhang Xinghai",
+      "netWorth": 2.5,
+      "nationality": "CN",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "1625",
+      "name": "Michael Polsky",
+      "netWorth": 2.5,
+      "nationality": "US",
+      "currentBirthday": "1949-01-01"
+    },
+    {
+      "id": "1632",
+      "name": "Zhuo Jun",
+      "netWorth": 2.5,
+      "nationality": "HK",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "1646",
+      "name": "Stefan Olsson",
+      "netWorth": 2.4,
+      "nationality": "SE",
+      "currentBirthday": "1949-01-01"
+    },
+    {
+      "id": "1653",
+      "name": "Zhu Gongshan",
+      "netWorth": 2.4,
+      "nationality": "CN",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "1655",
+      "name": "Katharina Otto-Bernstein",
+      "netWorth": 2.4,
+      "nationality": "DE",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "1659",
+      "name": "Ren Jinsheng",
+      "netWorth": 2.4,
+      "nationality": "CN",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "1668",
+      "name": "Arne Alexander Wilhelmsen",
+      "netWorth": 2.4,
+      "nationality": "NO",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "1670",
+      "name": "Peter Preben Wilhelmsen",
+      "netWorth": 2.4,
+      "nationality": "NO",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "1677",
+      "name": "Henry Sy Jr",
+      "netWorth": 2.4,
+      "nationality": "PH",
+      "currentBirthday": "1954-01-01"
+    },
+    {
+      "id": "1681",
+      "name": "Wee Ee Lim",
+      "netWorth": 2.4,
+      "nationality": "SG",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "1685",
+      "name": "Paul Lee",
+      "netWorth": 2.4,
+      "nationality": "US",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "1695",
+      "name": "Luis Enrique Yarur Rey",
+      "netWorth": 2.4,
+      "nationality": "CL",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "1706",
+      "name": "Wei Yin-Heng",
+      "netWorth": 2.3,
+      "nationality": "TW",
+      "currentBirthday": "1959-01-01"
+    },
+    {
+      "id": "1708",
+      "name": "Cai Jianyong",
+      "netWorth": 2.3,
+      "nationality": "CN",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "1715",
+      "name": "Shi Yonghong",
+      "netWorth": 2.3,
+      "nationality": "CN",
+      "currentBirthday": "1969-01-01"
+    },
+    {
+      "id": "1718",
+      "name": "Du Jinhao",
+      "netWorth": 2.3,
+      "nationality": "CN",
+      "currentBirthday": "1954-01-01"
+    },
+    {
+      "id": "1729",
+      "name": "David Teoh",
+      "netWorth": 2.3,
+      "nationality": "AU",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "1748",
+      "name": "Richard Chang",
+      "netWorth": 2.3,
+      "nationality": "HK",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "1751",
+      "name": "Devi Shetty",
+      "netWorth": 2.3,
+      "nationality": "IN",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "1755",
+      "name": "Jannie Mouton",
+      "netWorth": 2.3,
+      "nationality": "ZA",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "1763",
+      "name": "Xue Jiping",
+      "netWorth": 2.3,
+      "nationality": "CN",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "1779",
+      "name": "Peter Leibinger",
+      "netWorth": 2.3,
+      "nationality": "DE",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "1780",
+      "name": "Regine Leibinger",
+      "netWorth": 2.3,
+      "nationality": "DE",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "1783",
+      "name": "Mao Geping",
+      "netWorth": 2.3,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "1788",
+      "name": "Dong Wei",
+      "netWorth": 2.3,
+      "nationality": "CN",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "1791",
+      "name": "Zhang Bangxin",
+      "netWorth": 2.3,
+      "nationality": "CN",
+      "currentBirthday": "1980-01-01"
+    },
+    {
+      "id": "1794",
+      "name": "Ed Craven",
+      "netWorth": 2.2,
+      "nationality": "AU",
+      "currentBirthday": "1996-01-01"
+    },
+    {
+      "id": "1801",
+      "name": "Clayton Zekelman",
+      "netWorth": 2.2,
+      "nationality": "CA",
+      "currentBirthday": "1969-01-01"
+    },
+    {
+      "id": "1804",
+      "name": "Wong Luen Hei",
+      "netWorth": 2.2,
+      "nationality": "CN",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "1807",
+      "name": "Abdullah Al Othaim",
+      "netWorth": 2.2,
+      "nationality": "SA",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "1811",
+      "name": "Phongthep Chiaravanont",
+      "netWorth": 2.2,
+      "nationality": "TH",
+      "currentBirthday": "1952-01-01"
+    },
+    {
+      "id": "1828",
+      "name": "Lyu Yixiong",
+      "netWorth": 2.2,
+      "nationality": "CN",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "1830",
+      "name": "Cheng Yixiao",
+      "netWorth": 2.2,
+      "nationality": "CN",
+      "currentBirthday": "1984-01-01"
+    },
+    {
+      "id": "1837",
+      "name": "Liang Rubo",
+      "netWorth": 2.2,
+      "nationality": "CN",
+      "currentBirthday": "1983-01-01"
+    },
+    {
+      "id": "1845",
+      "name": "Bijan Tehrani",
+      "netWorth": 2.2,
+      "nationality": "US",
+      "currentBirthday": "1994-01-01"
+    },
+    {
+      "id": "1851",
+      "name": "Cho Jyh-jer",
+      "netWorth": 2.2,
+      "nationality": "TW",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "1856",
+      "name": "Ma Bin",
+      "netWorth": 2.2,
+      "nationality": "CN",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "1862",
+      "name": "Wu Lanlan",
+      "netWorth": 2.2,
+      "nationality": "CN",
+      "currentBirthday": "1974-01-01"
+    },
+    {
+      "id": "1870",
+      "name": "Tibor Veres",
+      "netWorth": 2.2,
+      "nationality": "HU",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "1872",
+      "name": "Joaquin del Pino y Calvo-Sotelo",
+      "netWorth": 2.2,
+      "nationality": "ES",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "1883",
+      "name": "Beda Diethelm",
+      "netWorth": 2.2,
+      "nationality": "CH",
+      "currentBirthday": "1941-01-01"
+    },
+    {
+      "id": "1896",
+      "name": "Ye Guofu",
+      "netWorth": 2.1,
+      "nationality": "CN",
+      "currentBirthday": "1978-01-01"
+    },
+    {
+      "id": "1899",
+      "name": "Nicholas Pritzker",
+      "netWorth": 2.1,
+      "nationality": "US",
+      "currentBirthday": "1944-01-01"
+    },
+    {
+      "id": "1905",
+      "name": "Drorit Wertheim",
+      "netWorth": 2.1,
+      "nationality": "IL",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "1906",
+      "name": "Li Jianquan",
+      "netWorth": 2.1,
+      "nationality": "HK",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "1933",
+      "name": "Walter Wang",
+      "netWorth": 2.1,
+      "nationality": "US",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "1936",
+      "name": "Ji Wei",
+      "netWorth": 2.1,
+      "nationality": "CN",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "1940",
+      "name": "Athanasios Martinos",
+      "netWorth": 2.1,
+      "nationality": "GR",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "1946",
+      "name": "Hamdi Akin",
+      "netWorth": 2.1,
+      "nationality": "TR",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "1949",
+      "name": "Abdullah Amer Al Nahdi",
+      "netWorth": 2.1,
+      "nationality": "SA",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "1950",
+      "name": "Heikki Herlin",
+      "netWorth": 2.1,
+      "nationality": "FI",
+      "currentBirthday": "1987-01-01"
+    },
+    {
+      "id": "1956",
+      "name": "Wee Ee Chao",
+      "netWorth": 2,
+      "nationality": "SG",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "1962",
+      "name": "Bernhard Braun-Luedicke",
+      "netWorth": 2,
+      "nationality": "DE",
+      "currentBirthday": "1977-01-01"
+    },
+    {
+      "id": "1963",
+      "name": "Eva Maria Braun-Luedicke",
+      "netWorth": 2,
+      "nationality": "DE",
+      "currentBirthday": "1987-01-01"
+    },
+    {
+      "id": "1964",
+      "name": "Friederike Braun-Luedicke",
+      "netWorth": 2,
+      "nationality": "DE",
+      "currentBirthday": "1984-01-01"
+    },
+    {
+      "id": "1977",
+      "name": "Karl Scheufele III",
+      "netWorth": 2,
+      "nationality": "CH",
+      "currentBirthday": "1939-01-01"
+    },
+    {
+      "id": "1984",
+      "name": "Wichai Thongtang",
+      "netWorth": 2,
+      "nationality": "TH",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "1993",
+      "name": "Wu Shaoxun",
+      "netWorth": 2,
+      "nationality": "CN",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "2005",
+      "name": "Tom Persson",
+      "netWorth": 2,
+      "nationality": "SE",
+      "currentBirthday": "1985-01-01"
+    },
+    {
+      "id": "2009",
+      "name": "Hao Hong",
+      "netWorth": 2,
+      "nationality": "US",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "2010",
+      "name": "An Kang",
+      "netWorth": 2,
+      "nationality": "CN",
+      "currentBirthday": "1949-01-01"
+    },
+    {
+      "id": "2021",
+      "name": "Michael Ashcroft",
+      "netWorth": 2,
+      "nationality": "GB",
+      "currentBirthday": "1946-01-01"
+    },
+    {
+      "id": "2022",
+      "name": "Ilkka Herlin",
+      "netWorth": 2,
+      "nationality": "FI",
+      "currentBirthday": "1959-01-01"
+    },
+    {
+      "id": "2024",
+      "name": "Gao Mingqing",
+      "netWorth": 2,
+      "nationality": "CN",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "2025",
+      "name": "Chu Mang Yee",
+      "netWorth": 2,
+      "nationality": "CN",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "2029",
+      "name": "Mark Coombs",
+      "netWorth": 2,
+      "nationality": "GB",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "2032",
+      "name": "Amy Wyss",
+      "netWorth": 2,
+      "nationality": "US",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "2033",
+      "name": "Charlotte Soderstrom",
+      "netWorth": 2,
+      "nationality": "SE",
+      "currentBirthday": "1977-01-01"
+    },
+    {
+      "id": "2036",
+      "name": "Pan Dong",
+      "netWorth": 2,
+      "nationality": "CA",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "2041",
+      "name": "Stephane Bonvin",
+      "netWorth": 2,
+      "nationality": "CH",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "2042",
+      "name": "Zhao Tao",
+      "netWorth": 2,
+      "nationality": "SG",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "2044",
+      "name": "Edir Macedo",
+      "netWorth": 2,
+      "nationality": "BR",
+      "currentBirthday": "1945-01-01"
+    },
+    {
+      "id": "2045",
+      "name": "Philippe Ginestet",
+      "netWorth": 2,
+      "nationality": "FR",
+      "currentBirthday": "1954-01-01"
+    },
+    {
+      "id": "2055",
+      "name": "Gary Fegel",
+      "netWorth": 2,
+      "nationality": "CH",
+      "currentBirthday": "1974-01-01"
+    },
+    {
+      "id": "2057",
+      "name": "Yao Kuizhang",
+      "netWorth": 2,
+      "nationality": "CN",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "2060",
+      "name": "J. Frank Harrison III",
+      "netWorth": 2,
+      "nationality": "US",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "2065",
+      "name": "Zhao Lixin",
+      "netWorth": 2,
+      "nationality": "CN",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "2066",
+      "name": "Christopher Goldsbury",
+      "netWorth": 2,
+      "nationality": "US",
+      "currentBirthday": "1943-01-01"
+    },
+    {
+      "id": "2178",
+      "name": "Zhao Ding",
+      "netWorth": 2,
+      "nationality": "CN",
+      "currentBirthday": "1990-01-01"
+    },
+    {
+      "id": "2073",
+      "name": "Alfred Oetker",
+      "netWorth": 1.9,
+      "nationality": "DE",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "2077",
+      "name": "Li Zhiyuan",
+      "netWorth": 1.9,
+      "nationality": "CN",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "2088",
+      "name": "Xu Yingzhuo",
+      "netWorth": 1.9,
+      "nationality": "CN",
+      "currentBirthday": "1968-01-01"
+    },
+    {
+      "id": "2089",
+      "name": "Ilona Herlin",
+      "netWorth": 1.9,
+      "nationality": "FI",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "2091",
+      "name": "Li Jinyang",
+      "netWorth": 1.9,
+      "nationality": "CN",
+      "currentBirthday": "1983-01-01"
+    },
+    {
+      "id": "2099",
+      "name": "Zhang Jingzhang",
+      "netWorth": 1.9,
+      "nationality": "CN",
+      "currentBirthday": "1936-01-01"
+    },
+    {
+      "id": "2115",
+      "name": "Charlwin Mao",
+      "netWorth": 1.9,
+      "nationality": "CN",
+      "currentBirthday": "1985-01-01"
+    },
+    {
+      "id": "2119",
+      "name": "Miranda Qu",
+      "netWorth": 1.9,
+      "nationality": "CN",
+      "currentBirthday": "1985-01-01"
+    },
+    {
+      "id": "2142",
+      "name": "Alex Shevchenko",
+      "netWorth": 1.9,
+      "nationality": "CA",
+      "currentBirthday": "1980-01-01"
+    },
+    {
+      "id": "2143",
+      "name": "Max Lytvyn",
+      "netWorth": 1.9,
+      "nationality": "CA",
+      "currentBirthday": "1980-01-01"
+    },
+    {
+      "id": "2144",
+      "name": "Gideon Hamburger",
+      "netWorth": 1.9,
+      "nationality": "IL",
+      "currentBirthday": "1945-01-01"
+    },
+    {
+      "id": "2145",
+      "name": "Nurit Manor",
+      "netWorth": 1.9,
+      "nationality": "IL",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "2146",
+      "name": "Yair Hamburger",
+      "netWorth": 1.9,
+      "nationality": "IL",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "2151",
+      "name": "Gao Jifan",
+      "netWorth": 1.9,
+      "nationality": "CN",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "2157",
+      "name": "Xu Chuanhua",
+      "netWorth": 1.9,
+      "nationality": "CN",
+      "currentBirthday": "1935-01-01"
+    },
+    {
+      "id": "2168",
+      "name": "Li Weiguo",
+      "netWorth": 1.8,
+      "nationality": "CN",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "2181",
+      "name": "Yin Yee Lee",
+      "netWorth": 1.8,
+      "nationality": "CN",
+      "currentBirthday": "1952-01-01"
+    },
+    {
+      "id": "2183",
+      "name": "Lai Shixian",
+      "netWorth": 1.8,
+      "nationality": "CN",
+      "currentBirthday": "1975-01-01"
+    },
+    {
+      "id": "2186",
+      "name": "John Phillips",
+      "netWorth": 1.8,
+      "nationality": "CA",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "2189",
+      "name": "Jane Lauder",
+      "netWorth": 1.8,
+      "nationality": "US",
+      "currentBirthday": "1973-01-01"
+    },
+    {
+      "id": "2193",
+      "name": "Michael Hsing",
+      "netWorth": 1.8,
+      "nationality": "US",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "2194",
+      "name": "Michael Minhong Yu",
+      "netWorth": 1.8,
+      "nationality": "CN",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "2201",
+      "name": "Kwee Liong Keng",
+      "netWorth": 1.8,
+      "nationality": "SG",
+      "currentBirthday": "1946-01-01"
+    },
+    {
+      "id": "2202",
+      "name": "Kwee Liong Phing",
+      "netWorth": 1.8,
+      "nationality": "SG",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "2203",
+      "name": "Kwee Liong Seen",
+      "netWorth": 1.8,
+      "nationality": "SG",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "2204",
+      "name": "Kwee Liong Tek",
+      "netWorth": 1.8,
+      "nationality": "SG",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "2205",
+      "name": "Marius Nacht",
+      "netWorth": 1.8,
+      "nationality": "IL",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "2206",
+      "name": "Wang Wenmo",
+      "netWorth": 1.8,
+      "nationality": "CN",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "2234",
+      "name": "Ruan Hongliang",
+      "netWorth": 1.8,
+      "nationality": "CN",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "2241",
+      "name": "Yigal Dimri",
+      "netWorth": 1.8,
+      "nationality": "IL",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "2243",
+      "name": "Lou Jing",
+      "netWorth": 1.8,
+      "nationality": "CN",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "2246",
+      "name": "Jean-Pierre Cayard",
+      "netWorth": 1.8,
+      "nationality": "FR",
+      "currentBirthday": "1943-01-01"
+    },
+    {
+      "id": "2262",
+      "name": "Carmen Riu Guell",
+      "netWorth": 1.8,
+      "nationality": "ES",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "2263",
+      "name": "Luis Riu",
+      "netWorth": 1.8,
+      "nationality": "ES",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "2267",
+      "name": "Anna Maria Braun",
+      "netWorth": 1.8,
+      "nationality": "DE",
+      "currentBirthday": "1979-01-01"
+    },
+    {
+      "id": "2268",
+      "name": "Johanna Braun",
+      "netWorth": 1.8,
+      "nationality": "DE",
+      "currentBirthday": "1980-01-01"
+    },
+    {
+      "id": "2269",
+      "name": "Karl Friedrich Braun",
+      "netWorth": 1.8,
+      "nationality": "DE",
+      "currentBirthday": "1983-01-01"
+    },
+    {
+      "id": "2278",
+      "name": "Bernd Freier",
+      "netWorth": 1.7,
+      "nationality": "DE",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "2285",
+      "name": "José Coppel Luken",
+      "netWorth": 1.7,
+      "nationality": "MX",
+      "currentBirthday": "1959-01-01"
+    },
+    {
+      "id": "2289",
+      "name": "Harvey Jones",
+      "netWorth": 1.7,
+      "nationality": "US",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "2294",
+      "name": "Christine Franken",
+      "netWorth": 1.7,
+      "nationality": "DE",
+      "currentBirthday": "1945-01-01"
+    },
+    {
+      "id": "2295",
+      "name": "Ulrike Baro",
+      "netWorth": 1.7,
+      "nationality": "DE",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "2303",
+      "name": "Emre Tezmen",
+      "netWorth": 1.7,
+      "nationality": "TR",
+      "currentBirthday": "1973-01-01"
+    },
+    {
+      "id": "2307",
+      "name": "Mariana Voigt Schwartz Gomes",
+      "netWorth": 1.7,
+      "nationality": "BR",
+      "currentBirthday": "1986-01-01"
+    },
+    {
+      "id": "2312",
+      "name": "Faisal Bin Qassim Al Thani",
+      "netWorth": 1.7,
+      "nationality": "QA",
+      "currentBirthday": "1948-01-01"
+    },
+    {
+      "id": "2319",
+      "name": "Wang Chaobin",
+      "netWorth": 1.7,
+      "nationality": "CN",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "2321",
+      "name": "Guy Laliberté",
+      "netWorth": 1.7,
+      "nationality": "CA",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "2325",
+      "name": "Zong Yanmin",
+      "netWorth": 1.7,
+      "nationality": "CN",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "2338",
+      "name": "Adam Forste",
+      "netWorth": 1.7,
+      "nationality": "US",
+      "currentBirthday": "1978-01-01"
+    },
+    {
+      "id": "2339",
+      "name": "Kevin Marchetti",
+      "netWorth": 1.7,
+      "nationality": "US",
+      "currentBirthday": "1978-01-01"
+    },
+    {
+      "id": "2341",
+      "name": "Melchior Oeri",
+      "netWorth": 1.7,
+      "nationality": "CH",
+      "currentBirthday": "1994-01-01"
+    },
+    {
+      "id": "2353",
+      "name": "Fang Hongbo",
+      "netWorth": 1.7,
+      "nationality": "CN",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "2360",
+      "name": "Mrudula Parekh",
+      "netWorth": 1.7,
+      "nationality": "IN",
+      "currentBirthday": "1948-01-01"
+    },
+    {
+      "id": "2362",
+      "name": "Li Weiwei",
+      "netWorth": 1.7,
+      "nationality": "CN",
+      "currentBirthday": "1977-01-01"
+    },
+    {
+      "id": "3316",
+      "name": "Kim Jung-yoon",
+      "netWorth": 1.7,
+      "nationality": "KR",
+      "currentBirthday": "2004-01-01"
+    },
+    {
+      "id": "2371",
+      "name": "Ludwig Theodor Braun",
+      "netWorth": 1.6,
+      "nationality": "DE",
+      "currentBirthday": "1990-01-01"
+    },
+    {
+      "id": "2375",
+      "name": "Jeffrey Gundlach",
+      "netWorth": 1.6,
+      "nationality": "US",
+      "currentBirthday": "1959-01-01"
+    },
+    {
+      "id": "2376",
+      "name": "Zhang Yubo",
+      "netWorth": 1.6,
+      "nationality": "CN",
+      "currentBirthday": "1985-01-01"
+    },
+    {
+      "id": "2378",
+      "name": "Samuel Chen",
+      "netWorth": 1.6,
+      "nationality": "TW",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "2383",
+      "name": "Yang Qiumei",
+      "netWorth": 1.6,
+      "nationality": "HK",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "2393",
+      "name": "Leo Huang",
+      "netWorth": 1.6,
+      "nationality": "TW",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "2398",
+      "name": "Huang Yi",
+      "netWorth": 1.6,
+      "nationality": "HK",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "2400",
+      "name": "Wirastuty Fangiono",
+      "netWorth": 1.6,
+      "nationality": "ID",
+      "currentBirthday": "1973-01-01"
+    },
+    {
+      "id": "2403",
+      "name": "Sze Man Bok",
+      "netWorth": 1.6,
+      "nationality": "CN",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "2406",
+      "name": "Li Xiaohua",
+      "netWorth": 1.6,
+      "nationality": "CN",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "2414",
+      "name": "Scott Lin",
+      "netWorth": 1.6,
+      "nationality": "TW",
+      "currentBirthday": "1933-01-01"
+    },
+    {
+      "id": "2417",
+      "name": "Gloria Joseph",
+      "netWorth": 1.6,
+      "nationality": "US",
+      "currentBirthday": "1924-01-01"
+    },
+    {
+      "id": "2418",
+      "name": "Ronald Perelman",
+      "netWorth": 1.6,
+      "nationality": "US",
+      "currentBirthday": "1943-01-01"
+    },
+    {
+      "id": "2420",
+      "name": "Dean Solon",
+      "netWorth": 1.6,
+      "nationality": "US",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "2429",
+      "name": "Zhao Jianhui",
+      "netWorth": 1.6,
+      "nationality": "US",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "2437",
+      "name": "Zeng Kaitian",
+      "netWorth": 1.6,
+      "nationality": "CN",
+      "currentBirthday": "1975-01-01"
+    },
+    {
+      "id": "2438",
+      "name": "Aziz Akhannouch",
+      "netWorth": 1.6,
+      "nationality": "MA",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "2441",
+      "name": "Fernando Espinosa Abdalá",
+      "netWorth": 1.6,
+      "nationality": "MX",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "2442",
+      "name": "Chris Lin",
+      "netWorth": 1.6,
+      "nationality": "TW",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "2444",
+      "name": "Cao Ji",
+      "netWorth": 1.6,
+      "nationality": "CN",
+      "currentBirthday": "1952-01-01"
+    },
+    {
+      "id": "2445",
+      "name": "Yves-Loic Martin",
+      "netWorth": 1.6,
+      "nationality": "FR",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "2449",
+      "name": "Kwek Leng Keow",
+      "netWorth": 1.6,
+      "nationality": "SG",
+      "currentBirthday": "1952-01-01"
+    },
+    {
+      "id": "2450",
+      "name": "Kwek Leng Peck",
+      "netWorth": 1.6,
+      "nationality": "SG",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "2465",
+      "name": "Winai Teawsomboonkij",
+      "netWorth": 1.6,
+      "nationality": "TH",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "2472",
+      "name": "Zhang Shilong",
+      "netWorth": 1.6,
+      "nationality": "CN",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "2479",
+      "name": "Robert Mouawad",
+      "netWorth": 1.5,
+      "nationality": "LB",
+      "currentBirthday": "1945-01-01"
+    },
+    {
+      "id": "2481",
+      "name": "Georg Haub",
+      "netWorth": 1.5,
+      "nationality": "DE",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "2490",
+      "name": "Chen Wenyuan",
+      "netWorth": 1.5,
+      "nationality": "CN",
+      "currentBirthday": "1968-01-01"
+    },
+    {
+      "id": "2494",
+      "name": "Lai Guogui",
+      "netWorth": 1.5,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "2501",
+      "name": "Liu Ming Chung",
+      "netWorth": 1.5,
+      "nationality": "BR",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "2506",
+      "name": "Sekar Vembu",
+      "netWorth": 1.5,
+      "nationality": "IN",
+      "currentBirthday": "1972-01-01"
+    },
+    {
+      "id": "2517",
+      "name": "Premchand Godha",
+      "netWorth": 1.5,
+      "nationality": "IN",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "2522",
+      "name": "George Christ",
+      "netWorth": 1.5,
+      "nationality": "US",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "2529",
+      "name": "Kim Jung-youn",
+      "netWorth": 1.5,
+      "nationality": "KR",
+      "currentBirthday": "2004-01-01"
+    },
+    {
+      "id": "2530",
+      "name": "Kim Jung-min",
+      "netWorth": 1.5,
+      "nationality": "KR",
+      "currentBirthday": "2002-01-01"
+    },
+    {
+      "id": "2532",
+      "name": "Ingrid Wu",
+      "netWorth": 1.5,
+      "nationality": "US",
+      "currentBirthday": "1972-01-01"
+    },
+    {
+      "id": "2546",
+      "name": "Thomas Crowley Jr",
+      "netWorth": 1.5,
+      "nationality": "US",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "2548",
+      "name": "Chen Kaichen",
+      "netWorth": 1.5,
+      "nationality": "CN",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "2570",
+      "name": "Richard Warke",
+      "netWorth": 1.5,
+      "nationality": "CA",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "2575",
+      "name": "Yu Kai",
+      "netWorth": 1.5,
+      "nationality": "CN",
+      "currentBirthday": "1977-01-01"
+    },
+    {
+      "id": "2600",
+      "name": "Swift Xie",
+      "netWorth": 1.4,
+      "nationality": "CN",
+      "currentBirthday": "1980-01-01"
+    },
+    {
+      "id": "2611",
+      "name": "Rubens Ometto Silveira Mello",
+      "netWorth": 1.4,
+      "nationality": "BR",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "2612",
+      "name": "Lu Ruibo",
+      "netWorth": 1.4,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "2615",
+      "name": "Yao Hsiao Tung",
+      "netWorth": 1.4,
+      "nationality": "SG",
+      "currentBirthday": "1940-01-01"
+    },
+    {
+      "id": "2616",
+      "name": "Zhao Tongtong",
+      "netWorth": 1.4,
+      "nationality": "CA",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "2630",
+      "name": "David Xueling Li",
+      "netWorth": 1.4,
+      "nationality": "CN",
+      "currentBirthday": "1973-01-01"
+    },
+    {
+      "id": "2632",
+      "name": "Zhang Liguo",
+      "netWorth": 1.4,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "2638",
+      "name": "Itamar Locks",
+      "netWorth": 1.4,
+      "nationality": "BR",
+      "currentBirthday": "1955-01-01"
+    },
+    {
+      "id": "2646",
+      "name": "Daniel Calugar",
+      "netWorth": 1.4,
+      "nationality": "US",
+      "currentBirthday": "1954-01-01"
+    },
+    {
+      "id": "2647",
+      "name": "Elly Reisman",
+      "netWorth": 1.4,
+      "nationality": "CA",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "2657",
+      "name": "Chris Wallin",
+      "netWorth": 1.4,
+      "nationality": "AU",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "2662",
+      "name": "Ed Park",
+      "netWorth": 1.4,
+      "nationality": "US",
+      "currentBirthday": "1975-01-01"
+    },
+    {
+      "id": "2664",
+      "name": "Todd Park",
+      "netWorth": 1.4,
+      "nationality": "US",
+      "currentBirthday": "1973-01-01"
+    },
+    {
+      "id": "2684",
+      "name": "Warren Chen",
+      "netWorth": 1.4,
+      "nationality": "TW",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "2689",
+      "name": "Wang Jilei",
+      "netWorth": 1.4,
+      "nationality": "CN",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "2695",
+      "name": "Chang Chung-Hsing",
+      "netWorth": 1.4,
+      "nationality": "TW",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "2703",
+      "name": "Zhang Wenzhong",
+      "netWorth": 1.4,
+      "nationality": "CN",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "2704",
+      "name": "Tan Yu Yeh",
+      "netWorth": 1.4,
+      "nationality": "MY",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "2717",
+      "name": "Josef Boquoi",
+      "netWorth": 1.4,
+      "nationality": "DE",
+      "currentBirthday": "1934-01-01"
+    },
+    {
+      "id": "2720",
+      "name": "Mu Rongjun",
+      "netWorth": 1.4,
+      "nationality": "CN",
+      "currentBirthday": "1980-01-01"
+    },
+    {
+      "id": "2722",
+      "name": "Oguz Tezmen",
+      "netWorth": 1.4,
+      "nationality": "TR",
+      "currentBirthday": "1948-01-01"
+    },
+    {
+      "id": "2728",
+      "name": "Huang Chulong",
+      "netWorth": 1.4,
+      "nationality": "CA",
+      "currentBirthday": "1959-01-01"
+    },
+    {
+      "id": "2732",
+      "name": "Qin Hua",
+      "netWorth": 1.3,
+      "nationality": "CN",
+      "currentBirthday": "1968-01-01"
+    },
+    {
+      "id": "2736",
+      "name": "Jose Ignacio Comenge",
+      "netWorth": 1.3,
+      "nationality": "ES",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "2747",
+      "name": "Yao Runhao",
+      "netWorth": 1.3,
+      "nationality": "CN",
+      "currentBirthday": "1988-01-01"
+    },
+    {
+      "id": "2752",
+      "name": "Stefan Kaluzny",
+      "netWorth": 1.3,
+      "nationality": "US",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "2758",
+      "name": "Georgios Peristeris",
+      "netWorth": 1.3,
+      "nationality": "GR",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "2761",
+      "name": "Samih Sawiris",
+      "netWorth": 1.3,
+      "nationality": "EG",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "2764",
+      "name": "Simón Pedro Barceló Vadell",
+      "netWorth": 1.3,
+      "nationality": "ES",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "2766",
+      "name": "Yu Peidi",
+      "netWorth": 1.3,
+      "nationality": "HK",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "2769",
+      "name": "Daniel Dines",
+      "netWorth": 1.3,
+      "nationality": "RO",
+      "currentBirthday": "1972-01-01"
+    },
+    {
+      "id": "2771",
+      "name": "Bahari Karim",
+      "netWorth": 1.3,
+      "nationality": "ID",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "2772",
+      "name": "Burhan Karim",
+      "netWorth": 1.3,
+      "nationality": "ID",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "2782",
+      "name": "Richard Kayne",
+      "netWorth": 1.3,
+      "nationality": "US",
+      "currentBirthday": "1946-01-01"
+    },
+    {
+      "id": "2815",
+      "name": "Steven Hao",
+      "netWorth": 1.3,
+      "nationality": "US",
+      "currentBirthday": "1996-01-01"
+    },
+    {
+      "id": "2822",
+      "name": "Chen Xuehua",
+      "netWorth": 1.3,
+      "nationality": "CN",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "2829",
+      "name": "Michael Andlauer",
+      "netWorth": 1.3,
+      "nationality": "CA",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "2838",
+      "name": "Thomas Bailey",
+      "netWorth": 1.3,
+      "nationality": "US",
+      "currentBirthday": "1937-01-01"
+    },
+    {
+      "id": "2850",
+      "name": "Jet Jie Li",
+      "netWorth": 1.3,
+      "nationality": "CN",
+      "currentBirthday": "1975-01-01"
+    },
+    {
+      "id": "2852",
+      "name": "Tsao Ter-fung",
+      "netWorth": 1.3,
+      "nationality": "TW",
+      "currentBirthday": "1947-01-01"
+    },
+    {
+      "id": "2854",
+      "name": "Chang Kuo-Ming",
+      "netWorth": 1.3,
+      "nationality": "TW",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "2861",
+      "name": "Jorge Feffer",
+      "netWorth": 1.3,
+      "nationality": "BR",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "2872",
+      "name": "Yu Lili",
+      "netWorth": 1.3,
+      "nationality": "CN",
+      "currentBirthday": "1968-01-01"
+    },
+    {
+      "id": "2891",
+      "name": "Lim Kaling",
+      "netWorth": 1.2,
+      "nationality": "SG",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "2901",
+      "name": "Charles Liang",
+      "netWorth": 1.2,
+      "nationality": "US",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "2904",
+      "name": "Huang Yimeng",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1982-01-01"
+    },
+    {
+      "id": "2919",
+      "name": "Zhu Weisong",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1982-01-01"
+    },
+    {
+      "id": "2923",
+      "name": "Lee Sang-hoon",
+      "netWorth": 1.2,
+      "nationality": "US",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "2925",
+      "name": "Qian Ying",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "2933",
+      "name": "Wang Chou-hsiong",
+      "netWorth": 1.2,
+      "nationality": "TW",
+      "currentBirthday": "1941-01-01"
+    },
+    {
+      "id": "2935",
+      "name": "Eric Ya Shen",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "2950",
+      "name": "Huang Jian",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "2968",
+      "name": "Howard Huang",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1980-01-01"
+    },
+    {
+      "id": "2971",
+      "name": "Xu Wanmao",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1945-01-01"
+    },
+    {
+      "id": "2984",
+      "name": "Michael Kum",
+      "netWorth": 1.2,
+      "nationality": "SG",
+      "currentBirthday": "1945-01-01"
+    },
+    {
+      "id": "2990",
+      "name": "Xiong Haitao",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "2992",
+      "name": "Kim Hyoung-nyon",
+      "netWorth": 1.2,
+      "nationality": "KR",
+      "currentBirthday": "1976-01-01"
+    },
+    {
+      "id": "2993",
+      "name": "Cheng Zhangwen",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "3001",
+      "name": "Nicole Grogg-Hotzer",
+      "netWorth": 1.2,
+      "nationality": "CH",
+      "currentBirthday": "1973-01-01"
+    },
+    {
+      "id": "3005",
+      "name": "He Zhaoxi",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1974-01-01"
+    },
+    {
+      "id": "3006",
+      "name": "Rui Chen",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1978-01-01"
+    },
+    {
+      "id": "3014",
+      "name": "Yu De-Chao",
+      "netWorth": 1.2,
+      "nationality": "US",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "3016",
+      "name": "Clelia Haji-Ioannou",
+      "netWorth": 1.2,
+      "nationality": "CY",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "3022",
+      "name": "Wang Shih-Chung",
+      "netWorth": 1.2,
+      "nationality": "TW",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "3027",
+      "name": "Axel Oberwelland",
+      "netWorth": 1.2,
+      "nationality": "DE",
+      "currentBirthday": "1967-01-01"
+    },
+    {
+      "id": "3035",
+      "name": "Charlotte Goh",
+      "netWorth": 1.2,
+      "nationality": "SG",
+      "currentBirthday": "1990-01-01"
+    },
+    {
+      "id": "3036",
+      "name": "Henrietta Goh",
+      "netWorth": 1.2,
+      "nationality": "SG",
+      "currentBirthday": "1993-01-01"
+    },
+    {
+      "id": "3037",
+      "name": "Johan Lavoo",
+      "netWorth": 1.2,
+      "nationality": "SG",
+      "currentBirthday": "1992-01-01"
+    },
+    {
+      "id": "3039",
+      "name": "Victoria Goh",
+      "netWorth": 1.2,
+      "nationality": "SG",
+      "currentBirthday": "1996-01-01"
+    },
+    {
+      "id": "3042",
+      "name": "Qiao Zhiyong",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1964-01-01"
+    },
+    {
+      "id": "3043",
+      "name": "Qian Jinghong",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1973-01-01"
+    },
+    {
+      "id": "3048",
+      "name": "Xu Jiangnan",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "3055",
+      "name": "Pan Shiyi",
+      "netWorth": 1.2,
+      "nationality": "CN",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "3056",
+      "name": "Lia Maria Aguiar",
+      "netWorth": 1.2,
+      "nationality": "BR",
+      "currentBirthday": "1938-01-01"
+    },
+    {
+      "id": "3063",
+      "name": "Su Qingcan",
+      "netWorth": 1.1,
+      "nationality": "CN",
+      "currentBirthday": "1969-01-01"
+    },
+    {
+      "id": "3067",
+      "name": "Yvonne Lo",
+      "netWorth": 1.1,
+      "nationality": "HK",
+      "currentBirthday": "1945-01-01"
+    },
+    {
+      "id": "3072",
+      "name": "Veronica Squinzi",
+      "netWorth": 1.1,
+      "nationality": "IT",
+      "currentBirthday": "1972-01-01"
+    },
+    {
+      "id": "3080",
+      "name": "Li Xuechun",
+      "netWorth": 1.1,
+      "nationality": "CN",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "3100",
+      "name": "Mehmet Kazanci",
+      "netWorth": 1.1,
+      "nationality": "TR",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "3103",
+      "name": "Xie Juhua",
+      "netWorth": 1.1,
+      "nationality": "CN",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "3105",
+      "name": "Madeleine Olsson Eriksson",
+      "netWorth": 1.1,
+      "nationality": "SE",
+      "currentBirthday": "1945-01-01"
+    },
+    {
+      "id": "3110",
+      "name": "Wu Jinzi",
+      "netWorth": 1.1,
+      "nationality": "US",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "3118",
+      "name": "Cheng Lili",
+      "netWorth": 1.1,
+      "nationality": "CN",
+      "currentBirthday": "1965-01-01"
+    },
+    {
+      "id": "3122",
+      "name": "Guillermo Fierro",
+      "netWorth": 1.1,
+      "nationality": "ES",
+      "currentBirthday": "1961-01-01"
+    },
+    {
+      "id": "3132",
+      "name": "Xiong Xiaochuan",
+      "netWorth": 1.1,
+      "nationality": "CN",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "3137",
+      "name": "Weijian Shan",
+      "netWorth": 1.1,
+      "nationality": "HK",
+      "currentBirthday": "1954-01-01"
+    },
+    {
+      "id": "3143",
+      "name": "Antonio Luiz Seabra",
+      "netWorth": 1.1,
+      "nationality": "BR",
+      "currentBirthday": "1943-01-01"
+    },
+    {
+      "id": "3164",
+      "name": "Patokh Chodiev",
+      "netWorth": 1.1,
+      "nationality": "BE",
+      "currentBirthday": "1953-01-01"
+    },
+    {
+      "id": "3169",
+      "name": "Prayudh Mahagitsiri",
+      "netWorth": 1.1,
+      "nationality": "TH",
+      "currentBirthday": "1946-01-01"
+    },
+    {
+      "id": "3174",
+      "name": "Li San Yim",
+      "netWorth": 1.1,
+      "nationality": "CN",
+      "currentBirthday": "1950-01-01"
+    },
+    {
+      "id": "3176",
+      "name": "Ngo Chi Dung",
+      "netWorth": 1.1,
+      "nationality": "VN",
+      "currentBirthday": "1968-01-01"
+    },
+    {
+      "id": "3185",
+      "name": "Denise Prenosil",
+      "netWorth": 1.1,
+      "nationality": "US",
+      "currentBirthday": "1960-01-01"
+    },
+    {
+      "id": "3191",
+      "name": "Quek Leng Chye",
+      "netWorth": 1.1,
+      "nationality": "SG",
+      "currentBirthday": "1944-01-01"
+    },
+    {
+      "id": "3193",
+      "name": "Wu Jianbin",
+      "netWorth": 1.1,
+      "nationality": "CN",
+      "currentBirthday": "1980-01-01"
+    },
+    {
+      "id": "3194",
+      "name": "Tulay Kazanci",
+      "netWorth": 1.1,
+      "nationality": "TR",
+      "currentBirthday": "1956-01-01"
+    },
+    {
+      "id": "3195",
+      "name": "Ma Hong",
+      "netWorth": 1.1,
+      "nationality": "CN",
+      "currentBirthday": "1971-01-01"
+    },
+    {
+      "id": "3203",
+      "name": "Chang Kuo-Cheng",
+      "netWorth": 1.1,
+      "nationality": "TW",
+      "currentBirthday": "1962-01-01"
+    },
+    {
+      "id": "3212",
+      "name": "Wee Wei Chi",
+      "netWorth": 1.1,
+      "nationality": "SG",
+      "currentBirthday": "1958-01-01"
+    },
+    {
+      "id": "3213",
+      "name": "Wee Wei Ling",
+      "netWorth": 1.1,
+      "nationality": "SG",
+      "currentBirthday": "1951-01-01"
+    },
+    {
+      "id": "3220",
+      "name": "Lou Guoqiang",
+      "netWorth": 1,
+      "nationality": "CN",
+      "currentBirthday": "1957-01-01"
+    },
+    {
+      "id": "3237",
+      "name": "Farhad Ebrahimi",
+      "netWorth": 1,
+      "nationality": "US",
+      "currentBirthday": "1939-01-01"
+    },
+    {
+      "id": "3252",
+      "name": "Bhaskara Rao Bollineni",
+      "netWorth": 1,
+      "nationality": "IN",
+      "currentBirthday": "1954-01-01"
+    },
+    {
+      "id": "3253",
+      "name": "Hua Shen",
+      "netWorth": 1,
+      "nationality": "US",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "3262",
+      "name": "Xiong Wu",
+      "netWorth": 1,
+      "nationality": "CN",
+      "currentBirthday": "1976-01-01"
+    },
+    {
+      "id": "3263",
+      "name": "Wei Lidong",
+      "netWorth": 1,
+      "nationality": "CN",
+      "currentBirthday": "1976-01-01"
+    },
+    {
+      "id": "3265",
+      "name": "Zhou Liangzhang",
+      "netWorth": 1,
+      "nationality": "CN",
+      "currentBirthday": "1963-01-01"
+    },
+    {
+      "id": "3276",
+      "name": "Cyrus Madon",
+      "netWorth": 1,
+      "nationality": "CA",
+      "currentBirthday": "1966-01-01"
+    },
+    {
+      "id": "3282",
+      "name": "Zhu Zhaojiang",
+      "netWorth": 1,
+      "nationality": "CN",
+      "currentBirthday": "1974-01-01"
+    },
+    {
+      "id": "3309",
+      "name": "Shintaro Tsuji",
+      "netWorth": 0.3,
+      "nationality": "JP",
+      "currentBirthday": "1928-01-01"
+    }
+  ]
+}

@@ -319,7 +319,7 @@ export default function DeepBioModal({ person, onClose }: Props) {
             {saju.saju.day.stem}{saju.saju.day.branch}일주 · {saju.gyeokguk}
           </div>
           {bio?.childhood && (
-            <div className="mt-2 text-sm text-gray-600 leading-relaxed line-clamp-3">
+            <div className="mt-2 text-xs text-gray-500 leading-relaxed">
               {ko(lang, bio.childhood.earlyLife, bio.childhood.earlyLifeKo)}
             </div>
           )}

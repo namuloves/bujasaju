@@ -1,0 +1,169 @@
+{
+  "id": "22",
+  "name": "Giancarlo Devasini",
+  "childhood": {
+    "birthPlace": "Turin, Italy",
+    "birthPlaceKo": "이탈리아 토리노",
+    "familyBackground": "Born in 1964 in Turin, Italy. Grew up in Northern Italy during post-war economic recovery period. Family background not extensively documented, but Devasini is described as coming from modest circumstances. Developed early interest in technology and business entrepreneurship",
+    "familyBackgroundKo": "1964년 이탈리아 토리노에서 출생. 전후 경제 회복 기간 북부 이탈리아에서 성장. 가족 배경은 광범위하게 기록되지 않았지만, 데바시니는 소박한 환경에서 온 것으로 설명됨. 기술과 비즈니스 기업가 정신에 대한 조기 관심 발달",
+    "education": "University of Milan (Medical degree, graduated 1990); specialized training in cosmetic and plastic surgery; medical degree provided foundation for career pivot into technology and business",
+    "educationKo": "밀라노 대학교(의학 학위, 1990년 졸업); 정형외과 및 미용 수술 전문 교육; 의학 학위는 기술 및 비즈니스로의 경력 전환을 위한 기초 제공",
+    "earlyLife": "Spent two years as a cosmetic surgeon performing plastic surgery procedures. Described his medical practice as exploitation of a whim. Left medicine after realizing it was not his passion. Transitioned to IT industry in early 1990s. Founded several companies in computer components distribution. Launched Delitzia, a food delivery company with organic food blog focus. Developed business acumen and entrepreneurial experience across multiple sectors",
+    "earlyLifeKo": "미용 성형외과의로 2년 근무하며 성형 수술 시술. 의료 행위를 '변덕의 착취'로 표현. 의료가 자신의 열정이 아님을 깨닫고 의료 분야 떠남. 1990년대 초 IT 산업으로 전환. 컴퓨터 부품 유통 분야에 여러 회사 설립. 유기농 음식 블로그 중심의 음식 배달 서비스 Delitzia 출시. 여러 부문에 걸쳐 비즈니스 안목 및 기업가적 경험 개발",
+    "source": "Wikipedia, BBNT Times, Medium, Grokipedia"
+  },
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "event": "Graduates from University of Milan with medical degree; begins practice as cosmetic and plastic surgeon",
+      "eventKo": "밀라노 대학교에서 의학 학위 취득; 미용 및 정형외과 의사로 개업 시작"
+    },
+    {
+      "year": 1992,
+      "event": "Leaves medical profession after two years; transitions to IT industry; begins founding computer component distribution companies",
+      "eventKo": "2년 의료 경력 후 의료 분야 떠남; IT 산업으로 전환; 컴퓨터 부품 유통 회사 설립 시작"
+    },
+    {
+      "year": 1995,
+      "event": "Faces Microsoft product piracy accusations; agrees to pay 1 million Italian lira fine to avoid prosecution; resolves dispute and continues business operations",
+      "eventKo": "마이크로소프트 제품 불법복제 혐의 적발; 기소를 피하기 위해 100만 이탈리아 리라 벌금 지불로 합의; 분쟁 해결 및 사업 계속"
+    },
+    {
+      "year": 1999,
+      "event": "Founds Delitzia, food delivery and organic products company with associated blog; expands into e-commerce and online services",
+      "eventKo": "음식 배달 및 유기농 제품 회사 Delitzia 설립, 블로그 동반; 전자상거래 및 온라인 서비스로 확대"
+    },
+    {
+      "year": 2012,
+      "event": "Becomes involved with Bitfinex cryptocurrency exchange founding; works on establishing banking relationships and attracting key personnel",
+      "eventKo": "Bitfinex 암호화폐 거래소 창립에 참여; 은행 관계 설립 및 핵심 인력 영입 업무 담당"
+    },
+    {
+      "year": 2013,
+      "event": "Becomes formal partner in Bitfinex in early 2013; manages operations, banking relationships, and strategic partnerships; re-domiciles Bitfinex to Hong Kong",
+      "eventKo": "2013년 초 Bitfinex의 공식 파트너가 됨; 운영, 은행 관계, 전략 파트너십 관리; Bitfinex를 홍콩으로 재등록"
+    },
+    {
+      "year": 2014,
+      "event": "Co-founds Tether (USDT) with Paolo Ardoino; launches world's first major stablecoin tied to U.S. dollar; becomes Chief Financial Officer of Bitfinex and strategic leader in Tether",
+      "eventKo": "파올로 아르도이노와 함께 Tether(USDT) 공동 설립; 미 달러와 연동된 세계 최초 주요 스테이블코인 출시; Bitfinex의 최고 재무 책임자 및 Tether의 전략적 리더가 됨"
+    },
+    {
+      "year": 2015,
+      "event": "Tether grows to become dominant stablecoin; Devasini and Potter acquire Brock Pierce and Reeve Collins' stakes; consolidates control with 45% ownership stake",
+      "eventKo": "Tether가 지배적 스테이블코인으로 성장; 데바시니와 포터가 브록 피어스와 리브 콜린스의 지분 인수; 45% 소유권으로 통제력 통합"
+    },
+    {
+      "year": 2018,
+      "event": "Bitfinex faces $850 million loss from payment processor Crypto Capital; Devasini draws Tether reserves to keep Bitfinex afloat, controversial decision creating conflict of interest",
+      "eventKo": "Bitfinex가 결제 프로세서 Crypto Capital로부터 8억 5천만 달러 손실 직면; 데바시니가 Bitfinex를 지속하기 위해 Tether 준비금 인출, 이해 충돌을 초래하는 논쟁적 결정"
+    },
+    {
+      "year": 2021,
+      "event": "Settles with New York Attorney General; Tether and Bitfinex pay $18.5 million fine for allegedly hiding losses and misrepresenting reserves; no admission of wrongdoing; Devasini continues operational control",
+      "eventKo": "뉴욕 법무장관과 합의; Tether와 Bitfinex가 손실 은폐 및 준비금 허위 표시로 1천 8백 5십만 달러 벌금 지불; 잘못 인정 없음; 데바시니가 운영 통제 지속"
+    },
+    {
+      "year": 2023,
+      "event": "Tether market capitalization exceeds $80 billion; Devasini's net worth estimated at $65-89 billion; establishes Tether Holdings with majority stake; maintains very low public profile from Lugano office",
+      "eventKo": "Tether 시가총액 800억 달러 초과; 데바시니의 순자산 650억-890억 달러로 추정; Tether Holdings를 주요 지분으로 설립; 루가노 사무실에서 매우 낮은 공개 프로필 유지"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2018,
+      "description": "Critical cash flow crisis at Bitfinex. Payment processor Crypto Capital froze $850 million of Bitfinex's funds, creating severe liquidity crisis. Devasini's decision to use Tether reserves (customer funds essentially) to stabilize Bitfinex was a massive failure in financial controls and fiduciary responsibility. This action directly benefited Bitfinex operations while potentially compromising Tether's reserve backing",
+      "descriptionKo": "Bitfinex의 심각한 현금 흐름 위기. 결제 프로세서 Crypto Capital이 Bitfinex의 8억 5천만 달러 자산을 동결, 심각한 유동성 위기 초래. 데바시니가 Bitfinex를 안정화하기 위해 Tether 준비금(본질적으로 고객 자금)을 사용하기로 한 결정은 재무 통제 및 신탁 책임의 거대한 실패였다. 이 행동은 Bitfinex 운영에 직접 이익을 주면서 Tether의 준비금 지원을 손상시킬 수 있었다",
+      "lesson": "Separation of concerns is critical in managing multiple related entities. Using one entity's reserves to bail out another violates fundamental fiduciary principles. Management of exchange platforms and stablecoin issuers must maintain strict firewalls. Conflicts of interest must be transparently disclosed and mitigated through governance structures",
+      "lessonKo": "관심사 분리는 여러 관련 기관 관리에 중요하다. 한 기관의 준비금을 다른 기관 구제에 사용하는 것은 기본적인 신탁 원칙을 위반한다. 거래소 플랫폼 및 스테이블코인 발행자 관리는 엄격한 방화벽을 유지해야 한다. 이해 충돌은 투명하게 공개되고 지배 구조를 통해 완화되어야 한다",
+      "source": "New York Attorney General, Bloomberg, BBNT Times"
+    },
+    {
+      "year": 2021,
+      "description": "Reserve backing misrepresentation and transparency failures. Tether and Bitfinex faced allegations of hiding losses backing the stablecoin and providing inaccurate information about dollar reserves. In 2021, Tether was fined by CFTC for claiming minted USDT were 100% backed by fiat USD when they were not. Only maintained full reserves 27.6% of days from 2016-2018. Failure to conduct regular independent audits of reserves",
+      "descriptionKo": "준비금 지원 허위 표시 및 투명성 실패. Tether와 Bitfinex는 스테이블코인 지원 손실을 은폐하고 달러 준비금에 대한 부정확한 정보 제공 혐의 직면. 2021년 Tether는 발행된 USDT가 법정화폐 USD 100% 지원받는다고 주장했으나 실제로는 그렇지 않아 CFTC로부터 벌금. 2016-2018년 기간 동안 27.6%의 날짜만 전체 준비금 유지. 정기적 독립 감사 실시 실패",
+      "lesson": "Transparency in financial reserves is non-negotiable for stablecoin issuers. Regular independent audits are essential for maintaining market confidence. False claims about backing destroy credibility and invite regulatory action. Stablecoin stability depends entirely on genuine reserve backing and transparent reporting",
+      "lessonKo": "금융 준비금의 투명성은 스테이블코인 발행자에게 협상 불가능하다. 정기적 독립 감사는 시장 신뢰 유지에 필수적이다. 지원에 대한 거짓 주장은 신뢰성을 파괴하고 규제 조치를 초래한다. 스테이블코인 안정성은 전적으로 진정한 준비금 지원과 투명한 보고에 달려 있다",
+      "source": "CFTC, New York Attorney General, Bloomberg"
+    },
+    {
+      "year": 2012,
+      "description": "Underestimation of regulatory risks in cryptocurrency space. When Devasini entered crypto with Bitfinex founding, he underestimated the complexity of building compliant operations across jurisdictions. Tether's stablecoin model was novel and created regulatory uncertainty not fully appreciated. Early decisions to prioritize speed and growth over regulatory readiness set foundation for later compliance issues",
+      "descriptionKo": "암호화폐 분야의 규제 위험 과소평가. 데바시니가 Bitfinex 설립으로 암호화폐에 진입했을 때, 여러 지역에 걸친 준법 운영 구축의 복잡성을 과소평가했다. Tether의 스테이블코인 모델은 새로웠고 충분히 평가되지 않은 규제 불확실성을 초래했다. 규제 준비 대신 속도와 성장을 우선시하기로 한 초기 결정이 나중의 컴플라이언스 문제의 기초를 설정했다",
+      "lesson": "Operating in emerging regulatory environments requires proactive compliance building, not reactive crisis management. Novel financial instruments need regulatory guidance from inception. Early investment in legal and compliance teams pays dividends long-term. Underestimating regulatory complexity invites fines and reputational damage",
+      "lessonKo": "신흥 규제 환경에서 운영하려면 사후 대응 위기 관리가 아니라 사전 준수 구축이 필요하다. 새로운 금융 상품은 초기부터 규제 지도를 필요로 한다. 법률 및 컴플라이언스 팀에 초기 투자는 장기적으로 배당금을 창출한다. 규제 복잡성 과소평가는 벌금과 평판 손상을 초래한다",
+      "source": "Various regulatory sources, Crunchbase"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2014,
+      "netWorth": 500000000
+    },
+    {
+      "year": 2018,
+      "netWorth": 3000000000
+    },
+    {
+      "year": 2021,
+      "netWorth": 15000000000
+    },
+    {
+      "year": 2023,
+      "netWorth": 65000000000
+    },
+    {
+      "year": 2026,
+      "netWorth": 89300000000
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I left plastic surgery because it was just the exploitation of a whim.",
+      "textKo": "성형외과를 떠났다. 그것은 단지 변덕의 착취일 뿐이었다.",
+      "context": "On leaving medical profession; reflects Devasini's pragmatic view of career decisions and focus on meaningful work",
+      "contextKo": "의료 분야를 떠난 것에 대해; 데바시니의 경력 결정에 대한 실용적 관점과 의미 있는 일에 대한 집중을 반영"
+    },
+    {
+      "text": "Tether's vision extends beyond a stablecoin to part of a broader ecosystem that could revolutionize global finance, from remittances to cross-border payments.",
+      "textKo": "Tether의 비전은 스테이블코인을 넘어 송금부터 국경 간 결제까지 글로벌 금융을 혁신할 수 있는 더 큰 생태계의 일부이다.",
+      "context": "On Tether's long-term strategic mission; describes ambition to transform global financial infrastructure through blockchain technology",
+      "contextKo": "Tether의 장기 전략적 미션에 대해; 블록체인 기술을 통해 글로벌 금융 인프라 변환에 대한 야심을 설명"
+    },
+    {
+      "text": "The best businesses are built slowly with careful attention to fundamentals, not hype.",
+      "textKo": "최고의 사업은 과대광고가 아닌 기본 사항에 신중한 주의를 기울여 천천히 구축된다.",
+      "context": "On business philosophy and patient capital; reflects Devasini's approach to building Tether despite market pressures",
+      "contextKo": "비즈니스 철학과 인내심 있는 자본에 대해; 시장 압박 속에서 Tether 구축에 대한 데바시니의 접근 방식을 반영"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Changing Nature of Payment Systems",
+        "author": "David Laidler & Donna Sommers",
+        "why": "Explores history and evolution of monetary systems; relevant to understanding stablecoin innovation and blockchain-based financial infrastructure",
+        "whyKo": "화폐 시스템의 역사와 진화를 탐색; 스테이블코인 혁신과 블록체인 기반 금융 인프라 이해에 관련"
+      },
+      {
+        "title": "The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World",
+        "author": "Pedro Domingos",
+        "why": "Discusses computational systems and algorithms; relevant to building scalable financial technology platforms like Tether and Bitfinex",
+        "whyKo": "컴퓨터 시스템과 알고리즘 논의; Tether 및 Bitfinex와 같은 확장 가능한 금융 기술 플랫폼 구축에 관련"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Extremely secretive and reclusive figure. Very low media presence and public visibility. Strong technical and operational skills. Financial acumen and ability to navigate complex business structures. Pragmatic decision-making focused on business continuity. Persistence in building Tether despite controversies. Sophisticated understanding of global finance and regulatory landscapes. Command of multiple languages (Italian, English, others)",
+    "knownForKo": "극도로 비밀 유지하며 폐쇄적인 인물. 매우 낮은 미디어 노출 및 공개 활동. 강한 기술 및 운영 능력. 재정 안목 및 복잡한 비즈니스 구조 탐색 능력. 사업 지속을 중심으로 한 실용적 의사결정. 논쟁에도 불구하고 Tether 구축 지속. 글로벌 금융 및 규제 환경에 대한 정교한 이해. 여러 언어 능력(이탈리아어, 영어, 기타)",
+    "philanthropy": "Very limited public information about charitable giving or philanthropic activities. Unlike other billionaires, Devasini has not established well-known foundations or made high-profile donations. Focus appears to be on business operations rather than philanthropy. Some involvement with local Lugano community during 2017-2023 residency, including contacts with local politicians, but extent and nature of charitable work not widely documented",
+    "philanthropyKo": "자선 기부 또는 자선 활동에 대한 매우 제한적인 공개 정보. 다른 억만장자와 달리 데바시니는 잘 알려진 재단을 설립하거나 높은 프로필 기부를 하지 않았다. 초점은 자선사업보다는 사업 운영에 있는 것으로 보임. 2017-2023년 루가노 거주 중 지역 정치인과의 접촉을 포함한 루가노 지역 사회와의 일부 관여가 있으나, 자선 사업의 범위와 성격은 광범위하게 기록되지 않음",
+    "controversies": "Central figure in major stablecoin backing and reserve scandal. Allegations of hiding losses, misrepresenting reserves, and compromising Tether's integrity. Conflict of interest in using Tether reserves to bail out Bitfinex. $18.5 million settlement with New York Attorney General and $41.6 million CFTC fine for reserve misrepresentation. Accused of running operations from secrecy with minimal accountability. Tether and Bitfinex remain controversial in crypto community. Questions about true composition of Tether's reserves persist despite settlements. Some view him as architect of greatest financial fraud in crypto; others see him as legitimate financial innovator navigating murky regulatory environment",
+    "controversiesKo": "주요 스테이블코인 지원 및 준비금 스캔들의 중심 인물. 손실 은폐, 준비금 허위 표시, Tether 무결성 손상 혐의. Tether 준비금을 사용하여 Bitfinex를 구제하는 이해 충돌. 뉴욕 법무장관과의 1천 8백 5십만 달러 합의 및 CFTC 4천 1백 6십만 달러 준비금 허위 표시 벌금. 최소한의 책임으로 비밀스럽게 운영하는 혐의. Tether와 Bitfinex는 암호화폐 커뮤니티에서 여전히 논쟁적. 합의에도 불구하고 Tether 준비금의 진정한 구성에 대한 의문 지속. 일부는 그를 암호화폐 최대 금융 사기의 설계자로 봄; 다른 이들은 그를 모호한 규제 환경을 탐색하는 정당한 금융 혁신가로 봄"
+  },
+  "sajuConnection": {
+    "note": null,
+    "value": null
+  }
+}

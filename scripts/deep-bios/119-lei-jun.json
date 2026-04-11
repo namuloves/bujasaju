@@ -62,17 +62,23 @@
     {
       "year": 2015,
       "description": "Xiaomi overexpanded supply chain to over 100 suppliers; company grew too fast without proper operational infrastructure; online-only strategy ignored 80% of China's smartphone market dominated by retail",
-      "descriptionKo": "샤오미는 100개 이상의 공급업체로 공급망을 과잉 확장했으며, 적절한 운영 인프라 없이 너무 빠르게 성장했으며, 온라인 전용 전략은 소매로 지배되는 중국 스마트폰 시장의 80%를 무시"
+      "descriptionKo": "샤오미는 100개 이상의 공급업체로 공급망을 과잉 확장했으며, 적절한 운영 인프라 없이 너무 빠르게 성장했으며, 온라인 전용 전략은 소매로 지배되는 중국 스마트폰 시장의 80%를 무시",
+      "lesson": "Rapid expansion without proper operational infrastructure creates critical vulnerabilities; online-only channels cannot dominate markets where retail distribution is entrenched; supply chain management must scale proportionally with business growth",
+      "lessonKo": "적절한 운영 인프라 없는 급속 확장은 심각한 취약점 초래; 온라인 전용 채널은 소매 유통이 자리 잡은 시장을 지배할 수 없음; 공급망 관리는 사업 성장에 비례하여 확대되어야 함"
     },
     {
       "year": 2016,
       "description": "Xiaomi's market share collapsed from top position to fifth place; smartphone shipments declined from 70 million units (2015) to 41 million (2016); competitors Oppo and Vivo captured market with 200,000+ retail stores and 20% retailer margins",
-      "descriptionKo": "샤오미의 시장점유율이 최상위 위치에서 5위로 붕괴; 스마트폰 출하량이 2015년 7천만 대에서 2016년 4천1백만 대로 감소; 경쟁사 오포와 비보가 200,000개 이상의 소매점과 20% 소매점 마진으로 시장 장악"
+      "descriptionKo": "샤오미의 시장점유율이 최상위 위치에서 5위로 붕괴; 스마트폰 출하량이 2015년 7천만 대에서 2016년 4천1백만 대로 감소; 경쟁사 오포와 비보가 200,000개 이상의 소매점과 20% 소매점 마진으로 시장 장악",
+      "lesson": "Market leadership built on novel business models can evaporate quickly when competitors neutralize the advantage; underestimating traditional retail channel partner margins creates competitive disadvantage; market share gains must be defended through continuous operational excellence",
+      "lessonKo": "독신 사업 모델로 구축된 시장 리더십은 경쟁사가 우위를 제거하면 빠르게 사라질 수 있음; 전통 소매 채널 파트너 마진을 과소평가하면 경쟁 열위 초래; 시장점유율 증가는 지속적 운영 우월성으로 방어되어야 함"
     },
     {
       "year": 2017,
       "description": "Supply chain management challenges resulted in delays and production shortages; admitted company grew too fast without proper management systems",
-      "descriptionKo": "공급망 관리 문제로 지연 및 생산 부족 초래; 적절한 관리 시스템 없이 회사가 너무 빠르게 성장했음을 인정"
+      "descriptionKo": "공급망 관리 문제로 지연 및 생산 부족 초래; 적절한 관리 시스템 없이 회사가 너무 빠르게 성장했음을 인정",
+      "lesson": "Growth must be managed with proportional investment in operational infrastructure and management systems; lack of process discipline during expansion creates cascading failures; humility in acknowledging mistakes enables strategic course correction",
+      "lessonKo": "성장은 운영 인프라 및 관리 시스템에 비례한 투자와 함께 관리되어야 함; 확장 중 프로세스 규율 부족은 연쇄 실패 초래; 실수를 인정하는 겸허함은 전략적 방향 수정을 가능하게 함"
     }
   ],
   "wealthHistory": [
@@ -142,13 +148,11 @@
   },
   "personalTraits": {
     "knownFor": "Founder and CEO of Xiaomi; known as 'China's Steve Jobs'; visionary technology entrepreneur; champion of online retail innovation; speaker at global technology forums",
-    "knownForKo": "샤오미 창립자 및 CEO; '중국의 스티브 잡스'로 알려짐; 선견지명 있는 기술 기업가; 온라인 소매 혁신의 챔피언; 글로벌 기술 포럼의 연사"
-  },
-  "philanthropy": "Established VinFuture Prize (alongside Pham Nhat Vuong) supporting global scientific research and innovation; founder of various technology education initiatives; supporter of technology accessibility in developing regions",
-    "philanthropyKo": "글로벌 과학 연구 및 혁신을 지원하는 빈퓨처 상 설립(팜 냣 브엉과 함께); 다양한 기술 교육 이니셔티브의 설립자; 개발 도상국의 기술 접근성 지원자"
-  },
-  "controversies": "Faced accusations of copying Apple's design philosophy; criticized for aggressive market tactics early in Xiaomi's history; challenged over labor practices in manufacturing facilities; public disputes about technology patents",
-  "controversiesKo": "애플의 디자인 철학을 복사했다는 비난에 직면; 샤오미 초기의 공격적인 시장 전술로 비난받음; 제조 시설의 노동 관행에 대해 도전; 기술 특허에 대한 공개적 분쟁"
+    "knownForKo": "샤오미 창립자 및 CEO; '중국의 스티브 잡스'로 알려짐; 선견지명 있는 기술 기업가; 온라인 소매 혁신의 챔피언; 글로벌 기술 포럼의 연사",
+    "philanthropy": "Established VinFuture Prize (alongside Pham Nhat Vuong) supporting global scientific research and innovation; founder of various technology education initiatives; supporter of technology accessibility in developing regions",
+    "philanthropyKo": "글로벌 과학 연구 및 혁신을 지원하는 빈퓨처 상 설립(팜 냣 브엉과 함께); 다양한 기술 교육 이니셔티브의 설립자; 개발 도상국의 기술 접근성 지원자",
+    "controversies": "Faced accusations of copying Apple's design philosophy; criticized for aggressive market tactics early in Xiaomi's history; challenged over labor practices in manufacturing facilities; public disputes about technology patents",
+    "controversiesKo": "애플의 디자인 철학을 복사했다는 비난에 직면; 샤오미 초기의 공격적인 시장 전술로 비난받음; 제조 시설의 노동 관행에 대해 도전; 기술 특허에 대한 공개적 분쟁"
   },
   "sajuConnection": {
     "note": null,
