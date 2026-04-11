@@ -1,5 +1,6 @@
 import { Redis } from '@upstash/redis';
 import type { NextRequest } from 'next/server';
+import { rateLimit, getIp } from '@/lib/rateLimit';
 
 /**
  * POST /api/subscribe
@@ -52,6 +53,12 @@ interface SubscribeBody {
 }
 
 export async function POST(req: NextRequest) {
+  // Rate limit: 5 subscribe attempts per hour per IP
+  const { allowed } = await rateLimit('subscribe', getIp(req), 5, 3600);
+  if (!allowed) {
+    return Response.json({ error: 'too_many_requests' }, { status: 429 });
+  }
+
   let body: SubscribeBody;
   try {
     body = (await req.json()) as SubscribeBody;

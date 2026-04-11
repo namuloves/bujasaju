@@ -1,5 +1,6 @@
 import OpenAI from 'openai';
 import type { NextRequest } from 'next/server';
+import { rateLimit, getIp } from '@/lib/rateLimit';
 
 /**
  * POST /api/saju-summary
@@ -97,6 +98,13 @@ ${matchLines}
 }
 
 export async function POST(req: NextRequest) {
+  // Rate limit: 10 requests per minute per IP
+  const ip = getIp(req);
+  const { allowed } = await rateLimit('saju-summary', ip, 10, 60);
+  if (!allowed) {
+    return new Response('Too many requests — please wait a moment', { status: 429 });
+  }
+
   if (!process.env.OPENAI_API_KEY) {
     return new Response('OPENAI_API_KEY not configured', { status: 500 });
   }
