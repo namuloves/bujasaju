@@ -71,9 +71,9 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
   // Sort by year for display
   topAnnotations.sort((a, b) => a.year - b.year);
 
-  const W = 320;
-  const H = topAnnotations.length > 0 ? 260 : 160;
-  const PAD = { top: 60, right: 16, bottom: 28, left: 48 };
+  const W = 400;
+  const H = topAnnotations.length > 0 ? 300 : 180;
+  const PAD = { top: 64, right: 20, bottom: 32, left: 52 };
   const plotW = W - PAD.left - PAD.right;
   const plotH = H - PAD.top - PAD.bottom;
 
@@ -107,7 +107,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
     <div className={className}>
       <svg
         viewBox={`0 0 ${W} ${H}`}
-        className="w-full h-auto max-h-[240px] lg:max-h-[280px]"
+        className="w-full h-auto max-h-[300px] lg:max-h-[360px]"
         aria-label="Net worth over time"
       >
         <defs>
@@ -139,7 +139,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
           if (idx <= 0) return null;
           const prev = sorted[idx - 1];
           const curr = sorted[idx];
-          const color = ann.type === 'jump' ? '#22c55e' : '#ef4444';
+          const color = ann.type === 'jump' ? '#15803d' : '#ef4444';
           return (
             <line
               key={`seg-${i}`}
@@ -160,7 +160,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
         {/* Data points */}
         {sorted.map((d, i) => {
           const ann = topAnnotations.find(a => a.year === d.year);
-          const color = ann ? (ann.type === 'jump' ? '#22c55e' : '#ef4444') : '#0c45a7';
+          const color = ann ? (ann.type === 'jump' ? '#15803d' : '#ef4444') : '#0c45a7';
           const r = ann ? 4 : 3;
           return (
             <circle
@@ -187,7 +187,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
             const pctLabel = ann.pctChange >= 0
               ? `+${Math.round(ann.pctChange * 100)}%`
               : `${Math.round(ann.pctChange * 100)}%`;
-            const color = ann.type === 'jump' ? '#16a34a' : '#dc2626';
+            const color = ann.type === 'jump' ? '#166534' : '#dc2626';
             const eventText = lang === 'ko' && ann.eventKo ? ann.eventKo : ann.event;
             const shortEvent = eventText.length > 30 ? eventText.slice(0, 30) + '…' : eventText;
             const labelX = Math.min(Math.max(cx, PAD.left + 50), W - PAD.right - 50);
@@ -303,7 +303,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
       {topAnnotations.length > 0 && (
         <div className="mt-2 space-y-1 md:hidden">
           {topAnnotations.map((ann, i) => {
-            const color = ann.type === 'jump' ? 'text-green-600' : 'text-red-500';
+            const color = ann.type === 'jump' ? 'text-green-800' : 'text-red-500';
             const bg = ann.type === 'jump' ? 'bg-green-50' : 'bg-red-50';
             const arrow = ann.type === 'jump' ? '↑' : '↓';
             const pctLabel = ann.type === 'jump'
