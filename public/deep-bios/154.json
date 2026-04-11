@@ -1,0 +1,128 @@
+{
+  "id": "154",
+  "name": "Jan Koum",
+  "childhood": {
+    "birthPlace": "Kyiv, Ukrainian SSR, Soviet Union (now Ukraine)",
+    "birthPlaceKo": "소련 우크라이나 소비에트 사회주의 공화국 키이우 (현 우크라이나)",
+    "familyBackground": "Born on February 24, 1976, into a Jewish family. Grew up in Fastiv, a small town outside Kyiv. His father was a construction manager and his mother was a homemaker. The family lived in a modest three-room apartment without reliable hot water or electricity. His parents avoided phone calls, fearing government surveillance under the Soviet regime.",
+    "familyBackgroundKo": "1976년 2월 24일 유대인 가정에서 태어남. 키이우 외곽의 소도시 파스티우에서 성장. 아버지는 건설 관리자, 어머니는 전업주부였으며, 온수와 전기도 불안정한 소박한 3칸짜리 아파트에서 거주. 소련 체제의 감시를 우려해 부모는 전화 통화를 꺼렸음.",
+    "education": "Enrolled at San Jose State University while simultaneously working at Ernst & Young as a security tester. Dropped out of university around 1997 to take a full-time position as an infrastructure engineer at Yahoo!.",
+    "educationKo": "산호세 주립대학교에 재학하면서 어니스트 앤 영에서 보안 테스터로 일함. 1997년경 야후!에 인프라 엔지니어로 풀타임 취직하기 위해 대학을 중퇴함.",
+    "earlyLife": "Immigrated to Mountain View, California in 1992 at age 16 with his mother and grandmother, fleeing anti-Semitic persecution. They survived on food stamps and government assistance. His mother worked as a babysitter while Jan cleaned floors at a grocery store. His father was unable to join them due to illness and died in Ukraine in 1997. His mother died of cancer in 2000. By 18, Koum had taught himself computer networking from used manuals purchased at a thrift store.",
+    "earlyLifeKo": "1992년 16세 때 반유대주의 박해를 피해 어머니, 할머니와 함께 캘리포니아 마운틴뷰로 이민. 푸드 스탬프와 정부 지원으로 생활하며, 어머니는 아이 돌보는 일을, 본인은 식료품점 청소 일을 함. 아버지는 병으로 합류하지 못하고 1997년 우크라이나에서 사망. 어머니도 2000년 암으로 세상을 떠남. 18세에 중고서점에서 산 교재로 독학하여 컴퓨터 네트워킹을 익힘.",
+    "source": "Wikipedia, The Famous People, Forbes, Inc."
+  },
+  "careerTimeline": [
+    {
+      "year": 1997,
+      "event": "Joined Yahoo! as an infrastructure engineer after dropping out of San Jose State; met future co-founder Brian Acton while working at Ernst & Young",
+      "eventKo": "산호세 주립대를 중퇴하고 야후!에 인프라 엔지니어로 입사. 어니스트 앤 영에서 일하며 미래의 공동 창업자 브라이언 액턴을 만남"
+    },
+    {
+      "year": 2007,
+      "event": "Left Yahoo! after nine years along with Brian Acton; traveled and took time off",
+      "eventKo": "9년 근무 후 브라이언 액턴과 함께 야후!를 퇴사하고 여행하며 휴식"
+    },
+    {
+      "year": 2009,
+      "event": "Incorporated WhatsApp Inc. on his 33rd birthday (February 24); initially conceived as a status-display app for phone contacts",
+      "eventKo": "33세 생일인 2월 24일에 WhatsApp Inc.를 설립. 처음에는 연락처의 상태를 표시하는 앱으로 구상"
+    },
+    {
+      "year": 2009,
+      "event": "After Apple added push notifications to iOS, WhatsApp pivoted to become a messaging platform, gaining rapid user adoption",
+      "eventKo": "애플이 iOS에 푸시 알림 기능을 추가한 후 WhatsApp이 메시징 플랫폼으로 전환하면서 사용자가 급증"
+    },
+    {
+      "year": 2011,
+      "event": "Sequoia Capital invested $8 million in WhatsApp; the app reached tens of millions of active users",
+      "eventKo": "세쿼이아 캐피털이 WhatsApp에 800만 달러를 투자하고, 앱 사용자 수가 수천만 명에 달함"
+    },
+    {
+      "year": 2014,
+      "event": "Facebook acquired WhatsApp for $19 billion — one of the largest tech acquisitions in history; Koum joined Facebook's board of directors",
+      "eventKo": "페이스북이 WhatsApp을 190억 달러에 인수 — 기술 업계 역사상 최대 규모의 인수 중 하나. 페이스북 이사회에 합류"
+    },
+    {
+      "year": 2018,
+      "event": "Left WhatsApp and resigned from Facebook's board of directors due to disagreements over data privacy and the use of user data for advertising",
+      "eventKo": "데이터 프라이버시와 사용자 데이터의 광고 활용에 대한 의견 충돌로 WhatsApp을 떠나고 페이스북 이사회에서도 사임"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2009,
+      "description": "In its early months, WhatsApp repeatedly crashed and Koum seriously considered giving up the project and looking for a regular job. Brian Acton convinced him to persevere.",
+      "descriptionKo": "초창기 WhatsApp은 반복적으로 다운되었고, 쿰은 프로젝트를 포기하고 일반 직장을 구하려고 심각하게 고민함. 브라이언 액턴이 계속할 것을 설득함.",
+      "lesson": "Persistence through technical failures in the early stages can make the difference between a failed side project and a billion-dollar company.",
+      "lessonKo": "초기 기술적 실패를 견뎌내는 끈기가 실패한 사이드 프로젝트와 수십억 달러 기업의 차이를 만듦.",
+      "source": "Forbes, The Famous People"
+    },
+    {
+      "year": 2009,
+      "description": "Both Koum and Acton applied for jobs at Facebook and Twitter and were rejected by both companies, shortly before starting WhatsApp.",
+      "descriptionKo": "쿰과 액턴 모두 페이스북과 트위터에 입사 지원했으나 두 회사 모두에서 거절당했으며, 그 직후 WhatsApp을 시작함.",
+      "lesson": "Rejection from established companies can become the catalyst for creating something far more impactful and valuable.",
+      "lessonKo": "기존 대기업으로부터의 거절이 훨씬 더 영향력 있고 가치 있는 것을 만들어내는 촉매가 될 수 있음.",
+      "source": "Inc., Forbes"
+    },
+    {
+      "year": 2018,
+      "description": "Left WhatsApp and Facebook's board after clashing with Mark Zuckerberg over plans to weaken WhatsApp's encryption and use personal data for ad targeting — sacrificing approximately $850 million in unvested stock.",
+      "descriptionKo": "WhatsApp의 암호화 약화 및 개인 데이터의 광고 타겟팅 활용 계획을 두고 마크 저커버그와 충돌한 후 WhatsApp과 페이스북 이사회를 떠남 — 미확정 주식 약 8억 5천만 달러를 포기함.",
+      "lesson": "Staying true to core principles may come at an enormous financial cost, but can preserve one's integrity and legacy.",
+      "lessonKo": "핵심 원칙을 지키는 것은 막대한 재정적 대가를 치를 수 있지만, 자신의 진정성과 유산을 보존할 수 있음.",
+      "source": "Washington Post, Forbes"
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2014, "netWorth": 7.5 },
+    { "year": 2016, "netWorth": 9.6 },
+    { "year": 2019, "netWorth": 11.3 },
+    { "year": 2020, "netWorth": 10.0 },
+    { "year": 2024, "netWorth": 16.8 }
+  ],
+  "quotes": [
+    {
+      "text": "Nobody should have the right to eavesdrop, or you become a totalitarian state — the kind of state I escaped as a kid to come to this country where you have democracy and freedom of speech.",
+      "textKo": "누구도 도청할 권리를 가져선 안 된다. 그렇지 않으면 전체주의 국가가 된다 — 내가 어린 시절 민주주의와 언론의 자유가 있는 이 나라로 오기 위해 탈출했던 그런 국가 말이다.",
+      "context": "On why privacy is a core value of WhatsApp, drawing from his Soviet childhood",
+      "contextKo": "소련 시절 어린 시절 경험을 바탕으로 WhatsApp의 핵심 가치로서 프라이버시를 강조하며",
+      "source": "BrainyQuote"
+    },
+    {
+      "text": "I want to do one thing and do it well.",
+      "textKo": "한 가지 일을 하되 제대로 하고 싶다.",
+      "context": "On WhatsApp's philosophy of focused simplicity and avoiding feature bloat",
+      "contextKo": "기능 과잉을 피하고 집중된 단순함을 추구하는 WhatsApp의 철학에 대해",
+      "source": "BrainyQuote"
+    },
+    {
+      "text": "When advertising is involved, you, the user, are the product.",
+      "textKo": "광고가 개입되면, 사용자인 당신이 곧 상품이 된다.",
+      "context": "Explaining WhatsApp's early decision to charge a small annual fee rather than rely on advertising",
+      "contextKo": "광고에 의존하지 않고 소액의 연간 사용료를 부과하기로 한 WhatsApp 초기 결정을 설명하며",
+      "source": "BrainyQuote"
+    },
+    {
+      "text": "We focus a lot on the quality of experience, speed, reliability. It's not sexy from a lot of people's perspective, it's not glitzy in the feature set, but it's what people come to rely on.",
+      "textKo": "우리는 사용자 경험의 질, 속도, 신뢰성에 많이 집중한다. 많은 사람들이 보기에 화려하지 않고 기능도 번지르르하지 않지만, 사람들이 의지하게 되는 것은 바로 그런 것이다.",
+      "context": "On WhatsApp's product philosophy emphasizing reliability over flashy features",
+      "contextKo": "화려한 기능보다 신뢰성을 강조하는 WhatsApp의 제품 철학에 대해",
+      "source": "BrainyQuote"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Intensely private and minimalist lifestyle despite billions in wealth. Strong advocate for user privacy and encryption. Known for his immigrant work ethic and deep personal connection to the mission of keeping communication private and accessible. Signed the Giving Pledge to donate the majority of his wealth to charity.",
+    "knownForKo": "수십억 달러의 재산에도 불구하고 극도로 사적이고 미니멀한 생활 방식을 유지함. 사용자 프라이버시와 암호화의 강력한 옹호자. 이민자 특유의 근면함과 통신의 프라이버시 및 접근성을 지키겠다는 사명에 대한 깊은 개인적 유대로 알려져 있음. 기빙 플레지에 서명하여 재산의 대부분을 기부하기로 약속.",
+    "philanthropy": "Signed the Giving Pledge in 2014, committing to donate the majority of his wealth. Donated $556 million to the Silicon Valley Community Foundation in 2014, one of the largest charitable donations in that year.",
+    "philanthropyKo": "2014년 기빙 플레지에 서명하여 재산의 대부분을 기부하기로 약속. 같은 해 실리콘밸리 커뮤니티 재단에 5억 5,600만 달러를 기부하여 당해 최대 규모의 자선 기부 중 하나를 기록.",
+    "controversies": "Departure from Facebook in 2018 highlighted tensions between WhatsApp's privacy-first ethos and Facebook's data-driven advertising model. Some critics questioned whether selling to Facebook in the first place contradicted his privacy principles.",
+    "controversiesKo": "2018년 페이스북 퇴사는 WhatsApp의 프라이버시 우선 철학과 페이스북의 데이터 기반 광고 모델 간의 갈등을 부각시킴. 일부 비평가들은 처음에 페이스북에 매각한 것 자체가 프라이버시 원칙과 모순된다고 지적함."
+  },
+  "sajuConnection": null
+}

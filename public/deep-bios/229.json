@@ -1,0 +1,119 @@
+{
+  "id": "229",
+  "name": "Chris Larsen",
+  "childhood": {
+    "birthPlace": "San Francisco, California, United States",
+    "birthPlaceKo": "미국 캘리포니아주 샌프란시스코",
+    "familyBackground": "Born in 1960 in San Francisco. His father worked as an aircraft mechanic for United Airlines at San Francisco International Airport, and his mother was a freelance illustrator. Grew up in a working-class household in the San Francisco Bay Area.",
+    "familyBackgroundKo": "1960년 샌프란시스코에서 태어남. 아버지는 샌프란시스코 국제공항에서 유나이티드 항공의 항공기 정비사로 일했고, 어머니는 프리랜서 일러스트레이터였음. 샌프란시스코 베이 에어리어의 노동자 가정에서 성장.",
+    "education": "Earned a B.S. in international business and accounting from San Francisco State University in 1984. Worked for several years at Chevron doing financial audits in Brazil, Ecuador, and Indonesia. Graduated with an MBA from Stanford Graduate School of Business in 1991.",
+    "educationKo": "1984년 샌프란시스코 주립대학교에서 국제경영 및 회계학 학사 학위 취득. 이후 셰브론에서 수년간 브라질, 에콰도르, 인도네시아에서 재무 감사 업무를 수행. 1991년 스탠포드 경영대학원에서 MBA 취득.",
+    "earlyLife": "Grew up as the son of a mechanic in working-class San Francisco, far from the world of Silicon Valley technology and finance. His international experience at Chevron — auditing operations across South America and Southeast Asia — gave him a firsthand view of the inefficiencies in cross-border finance, which would later drive his passion for building technology to improve financial systems.",
+    "earlyLifeKo": "실리콘밸리의 기술과 금융 세계와는 거리가 먼 샌프란시스코 노동자 계층에서 정비사의 아들로 성장. 셰브론에서 남미와 동남아시아의 감사 업무를 수행하며 국제 금융의 비효율성을 직접 목격했고, 이 경험이 이후 금융 시스템 개선 기술을 구축하겠다는 열정의 동력이 됨.",
+    "source": "Wikipedia, SF State Magazine, Stanford GSB"
+  },
+  "careerTimeline": [
+    {
+      "year": 1984,
+      "event": "Graduated from San Francisco State University; joined Chevron as a financial auditor working across Brazil, Ecuador, and Indonesia",
+      "eventKo": "샌프란시스코 주립대학교 졸업 후 셰브론에 입사하여 브라질, 에콰도르, 인도네시아에서 재무 감사로 근무"
+    },
+    {
+      "year": 1991,
+      "event": "Graduated from Stanford Business School with an MBA, laying the groundwork for a career in fintech entrepreneurship",
+      "eventKo": "스탠포드 경영대학원에서 MBA를 취득하며 핀테크 창업 경력의 기반을 마련"
+    },
+    {
+      "year": 1996,
+      "event": "Co-founded E-Loan, one of the first online mortgage lenders; became the first company to freely provide consumers with their FICO credit scores",
+      "eventKo": "최초의 온라인 모기지 대출 업체 중 하나인 E-Loan을 공동 설립. 소비자에게 FICO 신용점수를 최초로 무료 공개한 기업이 됨"
+    },
+    {
+      "year": 2000,
+      "event": "E-Loan reached a market value of approximately $1 billion during the dot-com boom",
+      "eventKo": "닷컴 붐 시기 E-Loan의 시가총액이 약 10억 달러에 도달"
+    },
+    {
+      "year": 2005,
+      "event": "Left E-Loan after it was sold to Banco Popular for $300 million",
+      "eventKo": "E-Loan이 방코 포퓰러에 3억 달러에 매각된 후 회사를 떠남"
+    },
+    {
+      "year": 2006,
+      "event": "Co-founded Prosper Marketplace, one of the first peer-to-peer lending platforms in the US, serving as CEO until 2012",
+      "eventKo": "미국 최초의 P2P 대출 플랫폼 중 하나인 프로스퍼 마켓플레이스를 공동 설립하고 2012년까지 CEO로 재직"
+    },
+    {
+      "year": 2012,
+      "event": "Co-founded OpenCoin (later renamed Ripple Labs), developing the Ripple payment protocol for instant cross-border money transfers",
+      "eventKo": "오픈코인(후에 리플 랩스로 개명)을 공동 설립하여 즉각적인 국제 송금을 위한 리플 결제 프로토콜을 개발"
+    },
+    {
+      "year": 2018,
+      "event": "Briefly became one of the ten richest people in the world when XRP peaked at $3.84 in January, with a paper net worth estimated near $60 billion",
+      "eventKo": "1월에 XRP가 3.84달러로 최고가를 기록하면서 장부상 순자산이 약 600억 달러에 달해 잠시 세계 10대 부호 반열에 오름"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Prosper Marketplace ran into regulatory opposition from the SEC, which forced the platform to halt lending operations and file a prospectus. The company had to fundamentally change its business model from auction-based rates to pre-set rates based on credit risk formulas.",
+      "descriptionKo": "프로스퍼 마켓플레이스가 SEC의 규제 반대에 부딪혀 대출 운영을 중단하고 투자 설명서를 제출해야 했음. 회사는 경매 기반 금리에서 신용 위험 공식 기반의 사전 설정 금리로 비즈니스 모델을 근본적으로 변경해야 했음.",
+      "lesson": "Regulatory frameworks lag behind innovation — fintech startups must proactively engage with regulators rather than assume existing rules don't apply to new technology.",
+      "lessonKo": "규제 체계는 혁신보다 뒤처짐 — 핀테크 스타트업은 기존 규정이 새 기술에 적용되지 않는다고 가정하기보다 규제 당국과 선제적으로 소통해야 함.",
+      "source": "Wikipedia, PANews"
+    },
+    {
+      "year": 2018,
+      "description": "After briefly becoming one of the world's richest people in January 2018 when XRP peaked, the cryptocurrency lost over 80% of its value within a month, wiping out the vast majority of Larsen's paper wealth.",
+      "descriptionKo": "2018년 1월 XRP 최고가 시 세계 최고 부호 반열에 잠시 올랐으나, 한 달 만에 암호화폐 가치가 80% 이상 급락하며 장부상 자산의 대부분이 증발함.",
+      "lesson": "Cryptocurrency wealth can be extraordinarily volatile — paper billions can vanish overnight, underscoring the difference between liquid and illiquid wealth.",
+      "lessonKo": "암호화폐 자산은 극도로 변동성이 높음 — 장부상 수십억 달러가 하루아침에 사라질 수 있으며, 유동 자산과 비유동 자산의 차이를 극명히 보여줌.",
+      "source": "Forbes, Money Magazine"
+    },
+    {
+      "year": 2020,
+      "description": "The SEC filed a lawsuit against Ripple, Larsen, and CEO Brad Garlinghouse, alleging they raised $1.3 billion through unregistered securities sales of XRP tokens. The case lasted over three years before personal claims against Larsen were dismissed in October 2023.",
+      "descriptionKo": "SEC가 리플, 라슨, CEO 브래드 갈링하우스를 상대로 XRP 토큰의 미등록 증권 판매를 통해 13억 달러를 조달했다며 소송을 제기. 라슨에 대한 개인 소송은 3년 이상 지속된 후 2023년 10월에 기각됨.",
+      "lesson": "Even with a clear vision for disrupting finance, operating in regulatory gray areas carries enormous legal and financial risk that can overshadow the underlying innovation.",
+      "lessonKo": "금융을 혁신하겠다는 명확한 비전이 있더라도 규제의 회색 지대에서 운영하는 것은 근본적인 혁신을 압도할 수 있는 막대한 법적·재정적 위험을 수반함.",
+      "source": "Wikipedia, SEC.gov"
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2018, "netWorth": 7.5 },
+    { "year": 2019, "netWorth": 2.7 },
+    { "year": 2021, "netWorth": 3.4 },
+    { "year": 2024, "netWorth": 3.2 },
+    { "year": 2025, "netWorth": 12.2 }
+  ],
+  "quotes": [
+    {
+      "text": "This is essentially a second internet, but instead of an information internet, it's an internet of value.",
+      "textKo": "이것은 본질적으로 제2의 인터넷이다. 다만 정보의 인터넷이 아닌, 가치의 인터넷이다.",
+      "context": "Describing blockchain technology's potential to transform global finance",
+      "contextKo": "블록체인 기술이 글로벌 금융을 변혁할 잠재력에 대해 설명하며",
+      "source": "Nob Hill Gazette"
+    },
+    {
+      "text": "We're making global payments that can move in seconds instead of days with no failure rates and extremely low costs so everybody can participate.",
+      "textKo": "우리는 며칠이 아닌 몇 초 만에 이동하고, 실패율이 없으며 극도로 낮은 비용으로 누구나 참여할 수 있는 글로벌 결제를 만들고 있다.",
+      "context": "On Ripple's mission to make cross-border payments faster and more inclusive",
+      "contextKo": "국제 결제를 더 빠르고 포용적으로 만들겠다는 리플의 사명에 대해",
+      "source": "Alliance for Innovative Regulation"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Serial fintech entrepreneur who has disrupted financial services three times — online mortgages with E-Loan, peer-to-peer lending with Prosper, and cross-border payments with Ripple. Strong advocate for financial transparency, consumer rights, and the democratization of financial services. Known for making FICO scores freely available to consumers for the first time.",
+    "knownForKo": "E-Loan으로 온라인 모기지, 프로스퍼로 P2P 대출, 리플로 국제 결제를 혁신하며 금융 서비스를 세 번이나 변혁한 연쇄 핀테크 창업가. 금융 투명성, 소비자 권리, 금융 서비스 민주화의 강력한 옹호자. 소비자에게 처음으로 FICO 신용점수를 무료로 공개한 것으로도 유명함.",
+    "philanthropy": "Active supporter of environmental causes and San Francisco community organizations. Has advocated for blockchain-based solutions to improve financial access in developing regions.",
+    "philanthropyKo": "환경 관련 활동과 샌프란시스코 지역 사회 조직을 적극 지원. 개발도상국의 금융 접근성 개선을 위한 블록체인 기반 솔루션을 옹호해 왔음.",
+    "controversies": "The SEC lawsuit (2020-2023) was the most significant controversy, alleging unregistered securities sales of XRP. The case raised fundamental questions about how cryptocurrencies should be classified. Larsen's personal claims were ultimately dismissed, but the Ripple case became a landmark in crypto regulation debates.",
+    "controversiesKo": "가장 큰 논란은 XRP의 미등록 증권 판매를 주장한 SEC 소송(2020~2023)이었으며, 암호화폐의 분류 방식에 대한 근본적인 질문을 제기함. 라슨에 대한 개인 소송은 최종적으로 기각되었으나, 리플 사건은 암호화폐 규제 논쟁에서 이정표적 사례가 됨."
+  },
+  "sajuConnection": null
+}
