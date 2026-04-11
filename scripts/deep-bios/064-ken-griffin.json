@@ -76,23 +76,23 @@
   "wealthHistory": [
     {
       "year": 1995,
-      "netWorth": 100000000
+      "netWorth": 0.1
     },
     {
       "year": 2005,
-      "netWorth": 2500000000
+      "netWorth": 2.5
     },
     {
       "year": 2010,
-      "netWorth": 8000000000
+      "netWorth": 8.0
     },
     {
       "year": 2020,
-      "netWorth": 29000000000
+      "netWorth": 29.0
     },
     {
       "year": 2026,
-      "netWorth": 49200000000
+      "netWorth": 49.2
     }
   ],
   "quotes": [

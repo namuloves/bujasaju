@@ -18,7 +18,7 @@ export function TabBar({ tab, setTab, lang }: { tab: Tab; setTab: (t: Tab) => vo
     <div className="flex border-b border-gray-200 shrink-0">
       {([
         { key: 'story' as Tab, label: lang === 'ko' ? '스토리' : 'Story' },
-        { key: 'quotes' as Tab, label: lang === 'ko' ? '명언' : 'Quotes' },
+        { key: 'quotes' as Tab, label: lang === 'ko' ? '어록' : 'Quotes' },
         { key: 'books' as Tab, label: lang === 'ko' ? '도서' : 'Books' },
       ]).map(t => (
         <button
@@ -200,32 +200,24 @@ function QuotesTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: 
   if (bio.quotes.length === 0) {
     return (
       <div className="text-center py-12 text-sm text-gray-400">
-        {lang === 'ko' ? '등록된 명언이 없습니다.' : 'No quotes available.'}
+        {lang === 'ko' ? '등록된 어록이 없습니다.' : 'No quotes available.'}
       </div>
     );
   }
 
-  const freeQuotes = bio.quotes.slice(0, 1);
-  const paidQuotes = bio.quotes.slice(1);
-
   return (
     <div className="space-y-4">
-      {freeQuotes.map((q, i) => (
+      {bio.quotes.map((q, i) => (
         <QuoteCard key={i} quote={q} lang={lang} />
       ))}
-      {!unlocked && paidQuotes.length > 0 ? (
-        <PaywallGate onUnlock={onUnlock} lang={lang} extra={`+${paidQuotes.length} ${lang === 'ko' ? '개 더' : 'more'}`} />
-      ) : (
-        paidQuotes.map((q, i) => <QuoteCard key={i + 1} quote={q} lang={lang} />)
-      )}
     </div>
   );
 }
 
 function QuoteCard({ quote, lang }: { quote: Quote; lang: string }) {
   return (
-    <blockquote className="bg-gray-50 rounded-xl p-4 border-l-4 border-indigo-300">
-      <p className="text-sm text-gray-800 italic leading-relaxed">&ldquo;{ko(lang, quote.text, quote.textKo)}&rdquo;</p>
+    <blockquote className="bg-gray-50 rounded-xl p-4 border-l-4 border-gray-300">
+      <p className="text-sm text-gray-800 font-medium leading-relaxed">&ldquo;{ko(lang, quote.text, quote.textKo)}&rdquo;</p>
       {quote.context && (
         <p className="text-xs text-gray-500 mt-2">— {ko(lang, quote.context, quote.contextKo)}</p>
       )}

@@ -123,31 +123,31 @@
   "wealthHistory": [
     {
       "year": 1984,
-      "netWorth": 100000000
+      "netWorth": 0.1
     },
     {
       "year": 2000,
-      "netWorth": 3000000000
+      "netWorth": 3.0
     },
     {
       "year": 2007,
-      "netWorth": 5000000000
+      "netWorth": 5.0
     },
     {
       "year": 2008,
-      "netWorth": 2000000000
+      "netWorth": 2.0
     },
     {
       "year": 2010,
-      "netWorth": 2500000000
+      "netWorth": 2.5
     },
     {
       "year": 2020,
-      "netWorth": 3500000000
+      "netWorth": 3.5
     },
     {
       "year": 2024,
-      "netWorth": 2800000000
+      "netWorth": 2.8
     }
   ],
   "quotes": [

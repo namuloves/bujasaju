@@ -75,23 +75,23 @@
   "wealthHistory": [
     {
       "year": 1994,
-      "netWorth": 50000000
+      "netWorth": 0.1
     },
     {
       "year": 1999,
-      "netWorth": 800000000
+      "netWorth": 0.8
     },
     {
       "year": 2008,
-      "netWorth": 14000000000
+      "netWorth": 14.0
     },
     {
       "year": 2015,
-      "netWorth": 19000000000
+      "netWorth": 19.0
     },
     {
       "year": 2024,
-      "netWorth": 30500000000
+      "netWorth": 30.5
     }
   ],
   "quotes": [
@@ -145,8 +145,8 @@
     "knownForKo": "인도 IT 산업의 개척자, HCL을 하드웨어에서 소프트웨어 서비스 모델로 변혁한 선견지명 있는 기업가, 교육 자선가, 교육을 통한 능력주의 및 사회 이동성의 강한 신봉자, 저명도의 리더십 스타일.",
     "philanthropy": "Founded Shiv Nadar Foundation in 1994 with focus on education as primary vehicle for social change. Invested over $1.5 billion through the Foundation as of June 2024, impacting 39,000+ students directly. Established Shiv Nadar University in Greater Noida and Chennai with comprehensive scholarship programs. VidyaGyan Leadership Academy provides education to rural students. Strong commitment to creating educational infrastructure for disadvantaged communities.",
     "philanthropyKo": "1994년 사회 변화의 주요 수단으로 교육에 초점을 맞춘 시브 나다르 재단 설립. 2024년 6월 현재 재단을 통해 15억 달러 이상 투자하여 39,000명 이상의 학생에게 직접 영향. 광범위한 장학 프로그램을 갖춘 그레이터 노이다 및 첸나이에 시브 나다르 대학 설립. 비디야기안 리더십 아카데미는 농촌 학생에게 교육 제공. 소외 지역사회를 위한 교육 인프라 구축에 강한 헌신.",
-    "controversies": "Relatively low-profile regarding personal controversies. Some business debates regarding HCL's competitive strategies during market downturns, but generally well-regarded as ethical businessman. Minor controversies around philanthropic strategy effectiveness in education sector, though foundation maintains strong track record."
-    ,"controversiesKo": "개인적 논쟁과 관련하여 상대적으로 저명도 낮음. 시장 침체 중 HCL의 경쟁 전략에 관한 일부 사업 논쟁이 있으나 일반적으로 윤리적 사업가로 평가됨. 교육 부문에서 자선적 전략 효과에 관한 경미한 논쟁이지만 재단은 강력한 실적 유지."
+    "controversies": "Relatively low-profile regarding personal controversies. Some business debates regarding HCL's competitive strategies during market downturns, but generally well-regarded as ethical businessman. Minor controversies around philanthropic strategy effectiveness in education sector, though foundation maintains strong track record.",
+    "controversiesKo": "개인적 논쟁과 관련하여 상대적으로 저명도 낮음. 시장 침체 중 HCL의 경쟁 전략에 관한 일부 사업 논쟁이 있으나 일반적으로 윤리적 사업가로 평가됨. 교육 부문에서 자선적 전략 효과에 관한 경미한 논쟁이지만 재단은 강력한 실적 유지."
   },
   "sajuConnection": {
     "note": "Leave null.",

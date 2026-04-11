@@ -12,6 +12,25 @@ import { getSipSin } from '@/lib/saju/tenGods';
 import type { CheonGan, JiJi } from '@/lib/saju/types';
 import SajuBadge from '../SajuBadge';
 
+const USD_TO_KRW = 1480.71;
+const USD_TO_KRW_DATE = '2026.04.09';
+
+function formatNetWorth(netWorth: number, lang: string): string {
+  if (lang === 'ko') {
+    // netWorth is in billions USD. 1 billion = 10억 KRW-units.
+    const eokKrw = netWorth * 10 * USD_TO_KRW; // total in 억 원
+    const trillions = eokKrw / 10000; // 1조 = 10,000억
+    if (trillions >= 1) {
+      const fixed = trillions >= 10 ? Math.round(trillions).toLocaleString() : trillions.toFixed(1);
+      return `${fixed}조 원`;
+    }
+    const eok = Math.round(eokKrw / 100) * 100;
+    return `${eok.toLocaleString('ko-KR')}억 원`;
+  }
+  if (netWorth >= 1) return `$${netWorth.toFixed(1)}B`;
+  return `$${(netWorth * 1000).toFixed(0)}M`;
+}
+
 interface Props {
   person: EnrichedPerson;
   onClose: () => void;
@@ -228,7 +247,12 @@ export default function DeepBioModal({ person, onClose }: Props) {
             <p className="text-xs text-gray-400 mt-0.5">{person.nameKo}</p>
           )}
           <div className="flex items-center gap-2 mt-1.5 text-xs text-gray-600">
-            <span className="font-semibold text-indigo-600">${person.netWorth}B</span>
+            <span className="font-semibold text-indigo-600">
+              {lang === 'ko' ? formatNetWorth(person.netWorth, 'ko') : `$${person.netWorth}B`}
+            </span>
+            {lang === 'ko' && (
+              <span className="text-[10px] text-gray-400">(${person.netWorth}B)</span>
+            )}
             {person.source && (
               <>
                 <span className="text-gray-300">·</span>
@@ -274,7 +298,12 @@ export default function DeepBioModal({ person, onClose }: Props) {
             )}
           </div>
           <div className="flex items-center gap-2 mt-1 text-sm text-gray-500 flex-wrap">
-            <span className="font-semibold text-indigo-600">${person.netWorth}B</span>
+            <span className="font-semibold text-indigo-600">
+              {lang === 'ko' ? `${formatNetWorth(person.netWorth, 'ko')}` : `$${person.netWorth}B`}
+            </span>
+            {lang === 'ko' && (
+              <span className="text-xs text-gray-400">(${person.netWorth}B)</span>
+            )}
             <span className="text-gray-300">·</span>
             <span>{person.source || person.industry}</span>
             <span className="text-gray-300">·</span>
@@ -286,6 +315,9 @@ export default function DeepBioModal({ person, onClose }: Props) {
               </>
             )}
           </div>
+          <div className="mt-1.5 text-xs text-gray-500">
+            {saju.saju.day.stem}{saju.saju.day.branch}일주 · {saju.gyeokguk}
+          </div>
           {bio?.childhood && (
             <div className="mt-2 text-sm text-gray-600 leading-relaxed line-clamp-3">
               {ko(lang, bio.childhood.earlyLife, bio.childhood.earlyLifeKo)}
@@ -294,10 +326,6 @@ export default function DeepBioModal({ person, onClose }: Props) {
         </div>
         {/* Saju mini chart */}
         <div className="shrink-0 w-52">
-          <div className="text-[10px] text-gray-400 mb-1 flex items-center justify-between">
-            <span>{saju.gyeokguk} {hanja}</span>
-            <span className="text-indigo-500 font-medium">{saju.saju.day.stem}{saju.saju.day.branch}</span>
-          </div>
           <div className="border border-gray-200 rounded-lg overflow-hidden">
             <table className="w-full text-center text-[10px]">
               <thead>

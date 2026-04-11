@@ -70,23 +70,23 @@
   "wealthHistory": [
     {
       "year": 2018,
-      "netWorth": 2000000000
+      "netWorth": 2.0
     },
     {
       "year": 2020,
-      "netWorth": 6000000000
+      "netWorth": 6.0
     },
     {
       "year": 2023,
-      "netWorth": 18000000000
+      "netWorth": 18.0
     },
     {
       "year": 2025,
-      "netWorth": 30400000000
+      "netWorth": 30.4
     },
     {
       "year": 2026,
-      "netWorth": 37700000000
+      "netWorth": 37.7
     }
   ],
   "quotes": [
@@ -134,8 +134,8 @@
     "knownForKo": "젊은 억만장자 기업가, 선견지명 있는 국방 산업 전략가, 빠른 의사결정자, 유럽 국방 주권의 옹호자, 공격적이면서도 계산된 사업 확장, 지정학적 역학의 예리한 이해.",
     "philanthropy": "Limited public information on formal philanthropic initiatives. Focus remains primarily on business expansion and defense industry development. However, CSG has committed to supporting European defense and industrial capacity as a form of social contribution to regional security.",
     "philanthropyKo": "정식 자선 이니셔티브에 대한 공개 정보 제한적. 초점은 주로 사업 확장 및 국방 산업 개발에 집중. 그러나 CSG는 지역 보안에 대한 사회적 기여 형태로 유럽 국방 및 산업 능력 지원을 약속.",
-    "controversies": "The Kinetic Group acquisition faced significant political controversy in the United States, with concerns about foreign control of American ammunition manufacturing. Some criticism regarding rapid expansion strategy and integration challenges. Defense industry scrutiny regarding military exports and NATO alignment, though Strnad has generally maintained strong relationships with Western governments."
-    ,"controversiesKo": "킹네틱 그룹 인수는 미국 탄약 제조의 외국 통제에 대한 우려로 미국에서 중대한 정치적 논쟁에 직면. 빠른 확장 전략 및 통합 도전에 관한 비판. 군사 수출 및 NATO 정렬과 관련된 국방 산업 정밀 조사이지만 스트나드는 일반적으로 서방 국가와의 강력한 관계를 유지."
+    "controversies": "The Kinetic Group acquisition faced significant political controversy in the United States, with concerns about foreign control of American ammunition manufacturing. Some criticism regarding rapid expansion strategy and integration challenges. Defense industry scrutiny regarding military exports and NATO alignment, though Strnad has generally maintained strong relationships with Western governments.",
+    "controversiesKo": "킹네틱 그룹 인수는 미국 탄약 제조의 외국 통제에 대한 우려로 미국에서 중대한 정치적 논쟁에 직면. 빠른 확장 전략 및 통합 도전에 관한 비판. 군사 수출 및 NATO 정렬과 관련된 국방 산업 정밀 조사이지만 스트나드는 일반적으로 서방 국가와의 강력한 관계를 유지."
   },
   "sajuConnection": {
     "note": "Leave null.",

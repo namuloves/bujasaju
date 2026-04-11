@@ -70,23 +70,23 @@
   "wealthHistory": [
     {
       "year": 2006,
-      "netWorth": 15000000000
+      "netWorth": 15.0
     },
     {
       "year": 2010,
-      "netWorth": 22000000000
+      "netWorth": 22.0
     },
     {
       "year": 2015,
-      "netWorth": 25000000000
+      "netWorth": 25.0
     },
     {
       "year": 2020,
-      "netWorth": 28000000000
+      "netWorth": 28.0
     },
     {
       "year": 2025,
-      "netWorth": 30900000000
+      "netWorth": 30.9
     }
   ],
   "quotes": [
@@ -134,8 +134,8 @@
     "knownForKo": "저명하지 않은 억만장자 상속녀, 코크 인더스트리의 전략적 이사회 멤버, 미국 최대 규모 가족 재산의 수호자, 부의 관리에 대한 신중한 접근 방식.",
     "philanthropy": "While detailed public information is limited, the Marshall family has engaged in charitable giving through various foundations and community initiatives, maintaining focus on business continuity and family legacy.",
     "philanthropyKo": "공개적인 상세 정보는 제한적이지만, 마샬 가족은 다양한 재단과 지역사회 이니셔티브를 통해 자선 기부에 참여했으며 사업 연속성과 가족 유산에 초점을 유지함.",
-    "controversies": "The Marshall family's ownership of Koch Industries has been associated with environmental and political controversy, including debates about lobbying activities and environmental impact of petroleum-related businesses."
-    ,"controversiesKo": "마샬 가족의 코크 인더스트리 소유권은 로비 활동 및 석유 관련 사업의 환경 영향에 대한 논쟁을 포함하여 환경 및 정치적 논쟁과 관련되어 있음."
+    "controversies": "The Marshall family's ownership of Koch Industries has been associated with environmental and political controversy, including debates about lobbying activities and environmental impact of petroleum-related businesses.",
+    "controversiesKo": "마샬 가족의 코크 인더스트리 소유권은 로비 활동 및 석유 관련 사업의 환경 영향에 대한 논쟁을 포함하여 환경 및 정치적 논쟁과 관련되어 있음."
   },
   "sajuConnection": {
     "note": "Leave null.",

@@ -96,14 +96,38 @@
     }
   ],
   "wealthHistory": [
-    { "year": 1987, "netWorth": 500000000 },
-    { "year": 1992, "netWorth": 2000000000 },
-    { "year": 1997, "netWorth": 6000000000 },
-    { "year": 2002, "netWorth": 10000000000 },
-    { "year": 2007, "netWorth": 14000000000 },
-    { "year": 2012, "netWorth": 17000000000 },
-    { "year": 2014, "netWorth": 20000000000 },
-    { "year": 2020, "netWorth": 21000000000 }
+    {
+      "year": 1987,
+      "netWorth": 0.5
+    },
+    {
+      "year": 1992,
+      "netWorth": 2.0
+    },
+    {
+      "year": 1997,
+      "netWorth": 6.0
+    },
+    {
+      "year": 2002,
+      "netWorth": 10.0
+    },
+    {
+      "year": 2007,
+      "netWorth": 14.0
+    },
+    {
+      "year": 2012,
+      "netWorth": 17.0
+    },
+    {
+      "year": 2014,
+      "netWorth": 20.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 21.0
+    }
   ],
   "quotes": [
     {

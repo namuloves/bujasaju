@@ -75,23 +75,23 @@
   "wealthHistory": [
     {
       "year": 1991,
-      "netWorth": 5000000
+      "netWorth": 0.0
     },
     {
       "year": 1998,
-      "netWorth": 800000000
+      "netWorth": 0.8
     },
     {
       "year": 2005,
-      "netWorth": 8000000000
+      "netWorth": 8.0
     },
     {
       "year": 2015,
-      "netWorth": 15000000000
+      "netWorth": 15.0
     },
     {
       "year": 2025,
-      "netWorth": 30400000000
+      "netWorth": 30.4
     }
   ],
   "quotes": [
@@ -139,8 +139,8 @@
     "knownForKo": "기술 개척자 및 반도체 혁신자, 브로드컴 공동 설립자, 다작 발명가, 유대교 및 교육을 지원하는 자선가, 홀로코스트 기억 옹호자, 기술 및 혁신에 대한 열정으로 이끌림, 회복력 있는 문제 해결자.",
     "philanthropy": "In 1999, made major donations to UCLA School of Engineering and Applied Science, which was subsequently named the UCLA Samueli School of Engineering. Also donated significantly to UC Irvine School of Engineering, renamed the Henry Samueli School of Engineering. Founded the Sala and Aron Samueli Holocaust Memorial Library at Chapman University honoring his parents. Committed over $200 million to education and Jewish cultural preservation. Active supporter of engineering education and scientific research.",
     "philanthropyKo": "1999년 UCLA 공학 및 응용과학 학교에 대규모 기부를 하여 나중에 UCLA 사무엘리 공학 학교로 개명됨. UC 어바인 공학 학교에도 상당한 기부를 하여 헨리 사무엘리 공학 학교로 개명됨. 부모를 기리기 위해 채프먼 대학교에 살라와 아론 사무엘리 홀로코스트 추도관 설립. 교육 및 유대교 문화 보존에 2억 달러 이상 약속. 공학 교육 및 과학 연구의 적극적 지원자.",
-    "controversies": "The 2008 stock option backdating scandal created significant legal and reputational challenges, though charges were ultimately dismissed in 2009 due to prosecutorial misconduct. This case became notable in legal circles as an example of aggressive prosecution. The Mighty Ducks ownership has been subject to routine sports business scrutiny but no major controversies."
-    ,"controversiesKo": "2008년 스톡 옵션 역추적 스캔들이 상당한 법률 및 평판 도전을 야기했으나, 2009년 검찰 비위로 인해 혐의가 결국 기각됨. 이 사건은 법률 원에서 공격적 기소의 예로 주목받게 됨. 마이티 덕스 소유권은 정기적 스포츠 비즈니스 정밀 조사의 대상이 되었지만 주요 논쟁은 없음."
+    "controversies": "The 2008 stock option backdating scandal created significant legal and reputational challenges, though charges were ultimately dismissed in 2009 due to prosecutorial misconduct. This case became notable in legal circles as an example of aggressive prosecution. The Mighty Ducks ownership has been subject to routine sports business scrutiny but no major controversies.",
+    "controversiesKo": "2008년 스톡 옵션 역추적 스캔들이 상당한 법률 및 평판 도전을 야기했으나, 2009년 검찰 비위로 인해 혐의가 결국 기각됨. 이 사건은 법률 원에서 공격적 기소의 예로 주목받게 됨. 마이티 덕스 소유권은 정기적 스포츠 비즈니스 정밀 조사의 대상이 되었지만 주요 논쟁은 없음."
   },
   "sajuConnection": {
     "note": "Leave null.",

@@ -71,7 +71,8 @@ function normalizePhotoUrl(url: string | undefined | null, name: string): string
   return url;
 }
 
-const USD_TO_KRW = 1470;
+const USD_TO_KRW = 1480.71;
+const USD_TO_KRW_DATE = '2026.04.09';
 
 function formatNetWorthUsd(netWorth: number): string {
   if (netWorth >= 1) return `$${netWorth.toFixed(1)}B`;
@@ -83,16 +84,14 @@ function formatNetWorthUsd(netWorth: number): string {
 // clear the 1조 threshold in practice (1B USD ≈ 1.47조) but we handle both
 // for safety.
 function formatNetWorthKrw(netWorthBillionsUsd: number): string {
-  const krwBillions = netWorthBillionsUsd * USD_TO_KRW; // KRW in units of 10억
-  // 1조 = 10,000억. `krwBillions` is already in 억, so /10000 → 조.
-  const trillions = krwBillions / 10000;
+  // netWorth is in billions USD. 1 billion = 10억 KRW-units.
+  const eokKrw = netWorthBillionsUsd * 10 * USD_TO_KRW; // total in 억 원
+  const trillions = eokKrw / 10000; // 1조 = 10,000억
   if (trillions >= 1) {
-    // Show 1 decimal for <10조, no decimal for ≥10조 to avoid noise.
-    const fixed = trillions >= 10 ? trillions.toFixed(0) : trillions.toFixed(1);
+    const fixed = trillions >= 10 ? Math.round(trillions).toLocaleString() : trillions.toFixed(1);
     return `${fixed}조 원`;
   }
-  // Under 1조: show in 억 원, comma-separated and rounded to nearest 100억.
-  const eok = Math.round(krwBillions / 100) * 100;
+  const eok = Math.round(eokKrw / 100) * 100;
   return `${eok.toLocaleString('ko-KR')}억 원`;
 }
 

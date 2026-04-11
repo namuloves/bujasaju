@@ -117,7 +117,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
         <p className="text-sm text-gray-500">{t.matchSubhead}</p>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 max-w-xl mx-auto">
+      <div className="grid grid-cols-3 sm:grid-cols-5 gap-3 max-w-xl mx-auto">
           <label className="flex flex-col">
             <span className="text-xs text-gray-500 mb-1">{t.year}</span>
             <select

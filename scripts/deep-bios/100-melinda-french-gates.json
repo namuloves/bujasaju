@@ -75,23 +75,23 @@
   "wealthHistory": [
     {
       "year": 1994,
-      "netWorth": 1000000000
+      "netWorth": 1.0
     },
     {
       "year": 2000,
-      "netWorth": 15000000000
+      "netWorth": 15.0
     },
     {
       "year": 2010,
-      "netWorth": 25000000000
+      "netWorth": 25.0
     },
     {
       "year": 2020,
-      "netWorth": 35000000000
+      "netWorth": 35.0
     },
     {
       "year": 2024,
-      "netWorth": 29900000000
+      "netWorth": 29.9
     }
   ],
   "quotes": [
@@ -150,8 +150,8 @@
     "knownForKo": "여성 권능 부여 및 성별 평등에 초점을 맞춘 자선가, 사회 변화에 대한 체계적 데이터 기반 접근, 개발 문제의 명확한 커뮤니케이터, 세계 최대 자선 재단 중 하나의 공동 설립자, 여성의 권리 및 가족 계획 접근성의 옹호자.",
     "philanthropy": "Co-chaired Bill & Melinda Gates Foundation from 2000-2024 as co-chair alongside Bill Gates, overseeing distribution of tens of billions in global health, development, and education grants. Founded Pivotal Ventures in 2015 with $12.5 billion commitment to advance women's power and influence in the United States, focusing on economic security, reproductive rights, family-friendly policies, and caregiving. Created Moment of Lift Books imprint. Personally engaged in vaccine development, family planning expansion, and girls' education initiatives. Co-author of annual Gates Notes letters addressing global challenges.",
     "philanthropyKo": "2000-2024년 빌 게이츠와 함께 공동 회장으로 빌 & 멜린다 게이츠 재단 공동 회장을 역임하여 글로벌 보건, 개발 및 교육 보조금의 수십억 달러 배분 감독. 미국 내 여성의 권력 및 영향력 증진을 위해 125억 달러를 약속하는 피보탈 벤처스를 2015년에 설립하여 경제 보안, 생식 건강, 가족 친화 정책 및 돌봄에 초점. 모먼트 오브 리프트 북스 임프린트 창설. 백신 개발, 가족 계획 확대 및 여학생 교육 이니셔티브에 개인적으로 참여. 글로벌 도전을 다루는 연례 게이츠 노트 편지의 공동 저자.",
-    "controversies": "Gates Foundation's philanthropic approach faced criticism for perpetuating Western-centric development models and sometimes paternalistic attitudes toward developing nations. Vaccine advocacy has attracted scrutiny from vaccine skeptics, though scientific consensus strongly supports vaccine safety. Divorce from Bill Gates generated significant media speculation about personal relationship dynamics. Some criticism of foundation's tax benefits and lack of democratic accountability in directing massive charitable resources. Questions raised about the concentration of philanthropic power in private foundations."
-    ,"controversiesKo": "게이츠 재단의 자선적 접근은 서방 중심의 개발 모델을 지속하고 때때로 개발도상국에 대해 부족적 태도를 취한다는 비판에 직면. 백신 옹호는 백신 회의론자로부터 정밀 조사를 받았으나 과학적 합의는 백신 안전성을 강력히 지지. 빌 게이츠와의 이혼은 개인적 관계 역학에 대한 상당한 미디어 추측 생성. 재단의 세금 이점 및 막대한 자선 자원을 지시하는 민주적 책임 부재에 대한 비판. 민간 재단에서의 자선적 권력 집중에 대한 의문 제기."
+    "controversies": "Gates Foundation's philanthropic approach faced criticism for perpetuating Western-centric development models and sometimes paternalistic attitudes toward developing nations. Vaccine advocacy has attracted scrutiny from vaccine skeptics, though scientific consensus strongly supports vaccine safety. Divorce from Bill Gates generated significant media speculation about personal relationship dynamics. Some criticism of foundation's tax benefits and lack of democratic accountability in directing massive charitable resources. Questions raised about the concentration of philanthropic power in private foundations.",
+    "controversiesKo": "게이츠 재단의 자선적 접근은 서방 중심의 개발 모델을 지속하고 때때로 개발도상국에 대해 부족적 태도를 취한다는 비판에 직면. 백신 옹호는 백신 회의론자로부터 정밀 조사를 받았으나 과학적 합의는 백신 안전성을 강력히 지지. 빌 게이츠와의 이혼은 개인적 관계 역학에 대한 상당한 미디어 추측 생성. 재단의 세금 이점 및 막대한 자선 자원을 지시하는 민주적 책임 부재에 대한 비판. 민간 재단에서의 자선적 권력 집중에 대한 의문 제기."
   },
   "sajuConnection": {
     "note": "Leave null.",
