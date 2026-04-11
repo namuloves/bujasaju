@@ -140,11 +140,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
         </div>
       )}
 
-      {!unlocked ? (
-        <PaywallGate onUnlock={onUnlock} lang={lang} />
-      ) : (
-        <>
-          {/* Mobile: career timeline (behind paywall on mobile) */}
+      {/* Mobile: career timeline */}
           {bio.careerTimeline.length > 0 && (
             <section className="md:hidden">
               <h3 className="text-sm font-bold text-gray-900 mb-3">
@@ -194,8 +190,6 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
               </div>
             </section>
           )}
-        </>
-      )}
     </div>
   );
 }
