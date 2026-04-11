@@ -1,0 +1,98 @@
+{
+  "id": "139",
+  "name": "Edwin Chen",
+  "nameKo": "에드윈 첸",
+  "netWorth": "$18B",
+  "nationality": "TW",
+  "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Crystal River, Florida, United States (parents from Taiwan)",
+    "birthPlaceKo": "미국 플로리다주 크리스탈 리버 (부모는 대만 출신)",
+    "familyBackground": "Born to Chinese immigrant parents from Taiwan who ran a modest Chinese-Thai restaurant in Crystal River, Florida",
+    "familyBackgroundKo": "플로리다주 크리스탈 리버에서 소규모 중국-태국 식당을 운영하는 대만 출신 이민자 부모 사이에서 출생",
+    "education": "Massachusetts Institute of Technology (MIT) — degrees in Mathematics, Linguistics, and Computer Science",
+    "educationKo": "매사추세츠 공과대학(MIT) — 수학, 언어학, 컴퓨터과학 학위",
+    "earlyLife": "Edwin Chen grew up in Crystal River, Florida, where his immigrant parents from Taiwan ran a small Chinese-Thai restaurant. Despite humble beginnings, he excelled academically and attended MIT, where he studied mathematics, linguistics, and computer science, graduating around 2010. His multidisciplinary education uniquely positioned him to understand both the technical and linguistic aspects of AI data labeling.",
+    "earlyLifeKo": "에드윈 첸은 대만에서 이민 온 부모가 작은 중국-태국 식당을 운영하던 플로리다주 크리스탈 리버에서 성장했다. 겸손한 환경에서 자랐지만 학업에서 뛰어난 성과를 보이며 MIT에 진학하여 수학, 언어학, 컴퓨터과학을 전공하고 2010년경에 졸업했다. 그의 다학제적 교육은 AI 데이터 라벨링의 기술적, 언어적 측면을 모두 이해하는 데 독특한 강점이 되었다.",
+    "source": "VnExpress, Wall Street Herald, Lenny's Newsletter"
+  },
+  "careerTimeline": [
+    {
+      "year": 2010,
+      "event": "Graduated from MIT with degrees in Mathematics, Linguistics, and Computer Science",
+      "eventKo": "MIT에서 수학, 언어학, 컴퓨터과학 학위를 취득하고 졸업"
+    },
+    {
+      "year": 2012,
+      "event": "Worked at Clarium Capital Management in algorithmic trading and at MIT CSAIL in NLP research",
+      "eventKo": "클라리움 캐피탈 매니지먼트에서 알고리즘 트레이딩, MIT CSAIL에서 자연어처리 연구"
+    },
+    {
+      "year": 2015,
+      "event": "Served as Director of Data Science at Dropbox",
+      "eventKo": "드롭박스에서 데이터 사이언스 디렉터로 근무"
+    },
+    {
+      "year": 2017,
+      "event": "Joined Twitter as a data scientist, later worked at Google and Facebook as a research scientist",
+      "eventKo": "트위터에 데이터 사이언티스트로 입사, 이후 구글과 페이스북에서 연구 과학자로 근무"
+    },
+    {
+      "year": 2020,
+      "event": "Left a seven-figure salary to found Surge AI, a data labeling company for AI model training, using personal savings",
+      "eventKo": "7자리 연봉을 포기하고 개인 저축으로 AI 모델 훈련용 데이터 라벨링 회사 Surge AI를 설립"
+    },
+    {
+      "year": 2023,
+      "event": "Surge AI grew to over $1.2 billion in annual revenue without external funding, entirely through organic growth",
+      "eventKo": "Surge AI가 외부 자금 없이 유기적 성장만으로 연매출 12억 달러 이상 달성"
+    },
+    {
+      "year": 2025,
+      "event": "Named to Forbes 400 as the youngest member at age 37, with $18 billion net worth; Surge AI valued at $24 billion",
+      "eventKo": "37세의 나이로 포브스 400 최연소 멤버에 선정, 순자산 180억 달러; Surge AI 가치 240억 달러 평가"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2020,
+      "description": "Leaving a prestigious, high-paying career at major tech companies (Google, Facebook, Twitter) to start a bootstrapped company during the uncertainty of the COVID-19 pandemic was considered a major risk by peers.",
+      "descriptionKo": "구글, 페이스북, 트위터 등 주요 테크 기업에서의 명성 있는 고소득 경력을 떠나 COVID-19 팬데믹의 불확실성 속에서 자력으로 회사를 시작한 것은 주변에서 큰 위험으로 여겨졌다.",
+      "lesson": "His conviction that AI data quality was the bottleneck for model performance proved prescient, as demand for high-quality data labeling exploded with the generative AI boom.",
+      "lessonKo": "AI 데이터 품질이 모델 성능의 병목이라는 그의 확신은 생성형 AI 붐과 함께 고품질 데이터 라벨링 수요가 폭발적으로 증가하면서 선견지명으로 입증되었다.",
+      "source": "Lenny's Newsletter, Forbes"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2020,
+      "netWorth": 0.01
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.0
+    },
+    {
+      "year": 2024,
+      "netWorth": 9.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 18.0
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Building the world's leading AI data labeling company without any external funding; youngest person on the Forbes 400; bootstrapping Surge AI from zero to $24 billion valuation",
+    "knownForKo": "외부 자금 없이 세계 최고의 AI 데이터 라벨링 회사를 구축; 포브스 400 최연소 인물; Surge AI를 제로에서 240억 달러 가치 평가까지 자력으로 성장시킴",
+    "philanthropy": "Details of philanthropic activities not widely documented as of 2025",
+    "philanthropyKo": "2025년 기준 자선 활동에 대한 세부 사항은 널리 알려지지 않음",
+    "controversies": "Limited public controversy; some questions about the rapid valuation growth of Surge AI given its bootstrapped nature",
+    "controversiesKo": "공개적 논란은 제한적; 자력으로 성장한 회사치고는 급격한 가치 평가 성장에 대한 일부 의문"
+  },
+  "sajuConnection": null
+}
