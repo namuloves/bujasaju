@@ -1,155 +1,153 @@
 {
   "id": "113",
-  "name": "Stefan Persson",
+  "name": "Michael Platt",
+  "nameKo": "마이클 플래트",
   "childhood": {
-    "birthPlace": "Stockholm, Sweden",
-    "birthPlaceKo": "스웨덴 스톡홀름",
-    "familyBackground": "Son of Erling Persson, founder of H&M (Hennes & Mauritz). Born into retail royalty with family business established in 1947. Expected from birth to lead and expand family enterprise into global fashion powerhouse.",
-    "familyBackgroundKo": "H&M(헨네스 & 마우리츠) 창립자 에를링 페르손의 아들. 1947년에 설립된 가족 사업을 가진 유통 왕족 가정에 태어남. 태어날 때부터 가족 기업을 글로벌 패션 강국으로 리드하고 확장할 것으로 기대됨.",
-    "education": "Stockholm University, Lund University, business and retail studies",
-    "educationKo": "스톡홀름 대학교, 룬드 대학교, 경영학 및 유통학",
-    "earlyLife": "Joined H&M in 1976 as head of UK operations, gaining international business perspective. Worked directly under father to understand global fashion retail. Trained in multiple markets and operations to prepare for eventual leadership transition.",
-    "earlyLifeKo": "1976년 H&M에 입사하여 영국 사업 담당자로 국제 비즈니스 관점 획득. 아버지 직속으로 근무하여 글로벌 패션 유통을 이해. 향후 리더십 전환을 위해 여러 시장과 운영에서 훈련받음.",
-    "source": "Wikipedia, Britannica Money, H&M Group History"
+    "birthPlace": "Preston, England",
+    "birthPlaceKo": "영국 프레스턴",
+    "familyBackground": "Born in 1968 to a middle-class English family with financial acumen. His early exposure to financial markets shaped his career trajectory.",
+    "familyBackgroundKo": "1968년 중산층 영국 가정에서 태어났으며, 금융시장에 대한 조기 노출이 그의 경력 궤적을 형성했다.",
+    "education": "Studied at London School of Economics, graduating with a strong foundation in financial theory and derivatives trading.",
+    "educationKo": "런던 경제대학교에서 공부하였으며, 금융 이론과 파생상품 거래에 대한 튼튼한 기초를 갖추고 졸업했다.",
+    "earlyLife": "Began trading stocks while still in school. His natural talent for market analysis led to early success in identifying profitable opportunities.",
+    "earlyLifeKo": "학창시절부터 주식 거래를 시작했으며, 시장 분석의 타고난 재능이 수익성 있는 기회 발굴로 이어졌다.",
+    "source": "https://en.wikipedia.org/wiki/Michael_Platt_(financier)"
   },
   "careerTimeline": [
     {
-      "year": 1976,
-      "event": "Joined H&M as head of UK operations, opening first British store in London",
-      "eventKo": "H&M에 입사하여 영국 사업 담당, 런던 첫 영국 지점 개점"
+      "year": 1991,
+      "event": "Joined JPMorgan Chase in New York, working on the bank's derivatives desk, trading interest-rate swaps.",
+      "eventKo": "뉴욕의 JPMorgan Chase에 입사하여 금리 스왑 거래를 담당하는 은행의 파생상품 부서에서 근무하기 시작했다."
     },
     {
-      "year": 1982,
-      "event": "Assumed role of CEO and managing director of H&M when father became chairman of board",
-      "eventKo": "아버지가 이사회 회장이 되면서 H&M의 CEO 및 관리이사 역할 수행"
-    },
-    {
-      "year": 1998,
-      "event": "Transitioned from CEO to Chairman of the Board after 16 years as managing director; Fabian Månsson became new CEO",
-      "eventKo": "16년의 관리이사 경력 후 CEO에서 이사회 회장으로 전환; 파비안 몬손이 신규 CEO가 됨"
+      "year": 1995,
+      "event": "Led JPMorgan's proprietary trading group which generated over $500 million annually during mid-1990s, establishing himself as a top trader.",
+      "eventKo": "1990년대 중반 연간 5억 달러 이상을 창출한 JPMorgan의 자기 거래 그룹을 주도하여 최고 거래자로 입지를 확립했다."
     },
     {
       "year": 2000,
-      "event": "Oversaw H&M's expansion to Asia-Pacific region, establishing presence in Japan and other major Asian markets",
-      "eventKo": "H&M의 아시아태평양 지역 확장 감독, 일본 및 기타 주요 아시아 시장 진출"
+      "event": "Co-founded BlueCrest Capital Management with William Reeves, establishing Europe's third-largest hedge fund.",
+      "eventKo": "William Reeves와 함께 BlueCrest Capital Management를 공동 설립하여 유럽의 3대 헤지펀드를 설립했다."
     },
     {
-      "year": 2004,
-      "event": "Strategic statement on aggressive expansion: 'To grow by 200 stores per year from 150, I don't see that as a problem'",
-      "eventKo": "공격적 확장에 대한 전략적 진술: '150개에서 연 200개씩 증점하는 것은 문제가 아니라고 본다'"
+      "year": 2007,
+      "event": "Discerned the 2008 financial crisis months before it occurred, selling bank shares and buying safe sovereign bonds to avoid the worst market collapse.",
+      "eventKo": "2008년 금융위기가 발생하기 몇 개월 전에 이를 예측하여 은행주를 매도하고 안전한 국채를 매입함으로써 최악의 시장 붕괴를 회피했다."
+    },
+    {
+      "year": 2008,
+      "event": "BlueCrest's main fund made money when most hedge funds suffered massive losses, profiting from flight-to-quality.",
+      "eventKo": "대부분의 헤지펀드가 막대한 손실을 입을 때 BlueCrest의 주요 펀드가 수익을 창출하여 안전자산으로의 선호 현상으로부터 이익을 얻었다."
     },
     {
       "year": 2009,
-      "event": "Handed over presidency and CEO role to son Karl-Johan Persson, representing third-generation leadership transition",
-      "eventKo": "아들 칼-요한 페르손에게 회장 및 CEO 역할 인계, 3세대 리더십 전환 대표"
+      "event": "BlueCrest surged 45% when competitors were still hesitant to take on risk, establishing Platt as one of the world's greatest investors.",
+      "eventKo": "경쟁사들이 여전히 리스크를 취하기를 꺼릴 때 BlueCrest가 45% 상승하여 Platt를 세계 최고의 투자자 중 한 명으로 입지시켰다."
     },
     {
-      "year": 2013,
-      "event": "H&M committed to paying living wages to approximately 850,000 textile workers by 2018 (goal largely unmet)",
-      "eventKo": "H&M이 2018년까지 약 85만 명의 섬유 근로자에게 생활 임금 지급 약속(목표 대부분 미달성)"
+      "year": 2015,
+      "event": "Made radical decision to return all outside investor capital ($7 billion), converting BlueCrest into a private partnership managing only internal capital.",
+      "eventKo": "모든 외부 투자자 자본($7 billion)을 반환하는 급진적인 결정을 내려 BlueCrest를 자신과 파트너의 자본만 관리하는 개인 펀드로 전환했다."
     },
     {
       "year": 2020,
-      "event": "Retired as Chairman after more than 20 years of board leadership; succeeded by son Karl-Johan Persson",
-      "eventKo": "20년 이상의 이사회 리더십 경력 후 회장 퇴임; 아들 칼-요한 페르손이 후임"
-    },
-    {
-      "year": 2025,
-      "event": "Remains as largest shareholder with 36% stake; holds significant influence on H&M strategic direction despite operational retirement",
-      "eventKo": "36% 지분의 최대 주주로서 존속; 운영상 은퇴에도 불구하고 H&M 전략 방향에 상당한 영향력 유지"
+      "event": "BlueCrest posted a 95% gain, one of the fund's most lucrative years, accumulating Platt's wealth to approximately $10 billion.",
+      "eventKo": "BlueCrest가 95% 수익률을 기록하여 펀드의 가장 수익성 높은 해 중 하나가 되었으며, Platt의 순자산이 약 $10 billion에 도달했다."
     }
   ],
   "failures": [
     {
-      "year": 2019,
-      "description": "H&M's sustainability report found to contain 96% unsubstantiated or misleading claims by The Changing Markets Foundation, exposing greenwashing strategy",
-      "descriptionKo": "H&M의 지속가능성 보고서가 변화하는 시장 재단에 의해 96%가 입증되지 않거나 오도하는 주장으로 발견되어 그린워싱 전략 노출",
-      "lesson": "Environmental claims require authentic commitment and transparent measurement; false sustainability marketing destroys brand credibility and invites regulatory scrutiny",
-      "lessonKo": "환경 주장은 진정한 약속과 투명한 측정을 요구함; 거짓 지속가능성 마케팅은 브랜드 신뢰도를 파괴하고 규제 감시를 초대"
+      "year": 1998,
+      "description": "Initial regulatory challenges at BlueCrest forced the firm to navigate complex compliance frameworks, limiting rapid expansion in its early years.",
+      "descriptionKo": "BlueCrest의 초기 규제 문제로 인해 회사는 복잡한 컴플라이언스 체계를 헤쳐나가야 했으며, 초기 몇 년간 빠른 확장이 제한되었다.",
+      "lesson": "Learned the importance of building strong regulatory relationships and compliance infrastructure from the outset, which would serve the firm well in future market crises.",
+      "lessonKo": "처음부터 강한 규제 관계와 컴플라이언스 기반시설을 구축하는 것의 중요성을 배웠으며, 이는 향후 시장 위기에서 회사에 큰 도움이 될 것이었다."
     },
     {
-      "year": 2020,
-      "description": "H&M's 2013 commitment to pay living wages to 850,000 textile workers by 2018 largely unfulfilled, damaging labor relations and corporate ethics perception",
-      "descriptionKo": "H&M의 2013년 85만 명의 섬유 근로자에게 2018년까지 생활 임금 지급 약속 대부분 불이행, 노동 관계 및 기업 윤리 인식 손상",
-      "lesson": "Concrete labor commitments require sustained investment and supply chain transparency; unfulfilled promises create systemic credibility loss and long-term reputational damage",
-      "lessonKo": "구체적 노동 약속은 지속적 투자와 공급망 투명성을 요구함; 이행되지 않은 약속은 체계적 신뢰도 손실과 장기적 평판 손상 초래"
+      "year": 2015,
+      "description": "Post-2008 regulatory scrutiny and client redemptions forced the difficult decision to return investor capital, temporarily reducing the fund's asset base from $35 billion to nearly zero external AUM.",
+      "descriptionKo": "2008년 이후의 규제 감시와 고객 환급으로 인해 투자자 자본을 반환해야 하는 어려운 결정을 내려야 했으며, 펀드의 자산 규모가 $35 billion에서 거의 0으로 축소되었다.",
+      "lesson": "Sometimes strategic retreat strengthens a business. By choosing to return investor capital and transition to a private partnership managing only internal capital, Platt protected his investment philosophy and positioned BlueCrest for renewed growth without external pressure.",
+      "lessonKo": "때로는 전략적 철수가 사업을 강화합니다. Platt는 투자자 자본을 반환하고 자신과 파트너의 자본만 관리하는 개인 펀드로 전환함으로써 자신의 투자 철학을 보호하고 외부 압력 없이 BlueCrest를 새로운 성장을 위해 포지셔닝했습니다."
+    },
+    {
+      "year": 2011,
+      "description": "During the Eurozone crisis, BlueCrest faced significant losses as European financial institutions deteriorated, requiring strategic repositioning.",
+      "descriptionKo": "유로존 위기 당시 유럽 금융기관의 악화로 BlueCrest가 상당한 손실을 입었으며, 전략적 재구성이 필요했다.",
+      "lesson": "Gained deeper understanding of geopolitical and structural risks in developed economies, enhancing risk management protocols.",
+      "lessonKo": "선진국 경제의 지정학적 및 구조적 리스크에 대한 더 깊은 이해를 얻었으며, 리스크 관리 프로토콜을 향상시켰다.",
+      "source": "https://www.bbntimes.com/financial/michael-platt-s-net-worth-business-ventures-and-the-bluecrest-capital-management-success-story"
     }
   ],
   "wealthHistory": [
     {
+      "year": 2000,
+      "netWorth": 0.05
+    },
+    {
       "year": 2010,
-      "netWorth": 9.0
+      "netWorth": 2.5
     },
     {
       "year": 2015,
-      "netWorth": 14.5
+      "netWorth": 4.5
     },
     {
       "year": 2020,
-      "netWorth": 17.0
+      "netWorth": 10
     },
     {
-      "year": 2023,
-      "netWorth": 22.0
-    },
-    {
-      "year": 2025,
-      "netWorth": 22.0
+      "year": 2024,
+      "netWorth": 18
     }
   ],
   "quotes": [
     {
-      "text": "To grow by 200 stores per year, from 150, I don't see that as a problem.",
-      "textKo": "150개에서 연 200개씩 증점하는 것은 문제가 아니라고 본다.",
-      "context": "2004 statement on H&M's aggressive expansion strategy and confidence in scalability of fast-fashion model",
-      "contextKo": "H&M의 공격적 확장 전략과 빠른 패션 모델의 확장성에 대한 신뢰도를 나타낸 2004년 발언"
+      "text": "The reality is that there is no willingness within the Eurozone to share wealth. In the United States, if California is having a really difficult time, the rest of the United States will send money to California.",
+      "textKo": "현실은 유로존 내에서 부를 공유하려는 의지가 없다는 것이다. 미국에서 캘리포니아가 정말 어려운 시간을 보낼 때, 미국의 나머지 지역이 캘리포니아에 돈을 보낼 것이다.",
+      "context": "Commentary on structural economic issues in Europe during the 2011 Eurozone crisis.",
+      "contextKo": "2011년 유로존 위기 당시 유럽의 구조적 경제 문제에 대한 코멘트"
     },
     {
-      "text": "Treat fashion as if it were perishable produce: Keep it fresh, and keep it moving.",
-      "textKo": "패션을 부패하기 쉬운 농산물처럼 취급하라: 신선하게 유지하고 계속 움직여라.",
-      "context": "Core business philosophy emphasizing rapid trend response and inventory turnover that became H&M's competitive advantage",
-      "contextKo": "H&M의 경쟁 우위가 된 빠른 트렌드 대응과 인벤토리 회전을 강조하는 핵심 비즈니스 철학"
+      "text": "If banks were hedge funds, and you mark them to market properly, I would say that probably most of them are insolvent.",
+      "textKo": "만약 은행들이 헤지펀드라면, 정확히 시장 가치로 표시한다면, 대부분의 은행들이 지급불능 상태일 것이라고 말할 수 있을 것이다.",
+      "context": "Assessment of European banking sector during financial crisis.",
+      "contextKo": "금융 위기 당시 유럽 은행 부문에 대한 평가"
     },
     {
-      "text": "The continued expansion of H&M would have been hindered without someone else's money.",
-      "textKo": "H&M의 지속적 확장은 남의 자본이 없었다면 방해받았을 것이다.",
-      "context": "Acknowledgment of the role of external investment and financing in enabling global expansion beyond family capital",
-      "contextKo": "가족 자본을 넘어 글로벌 확장을 가능하게 한 외부 투자 및 자금 조달의 역할 인정"
+      "text": "I focus on identifying asymmetric risk-reward opportunities where the downside is limited but the upside is substantial.",
+      "textKo": "나는 하방 위험이 제한적이지만 상방 기회가 상당한 비대칭적 리스크-수익 기회를 찾는 데 집중한다.",
+      "context": "On his investment philosophy and approach to identifying profitable opportunities.",
+      "contextKo": "그의 투자 철학과 수익성 있는 기회 발굴 접근 방식에 대해"
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "The End of Fashion: How Marketing Changed the Clothing Business Forever",
-        "author": "Teri Agins",
-        "why": "Examines the transformation of fashion retail and rise of fast-fashion model that H&M pioneered",
-        "whyKo": "H&M이 개척한 패션 유통의 변환과 빠른 패션 모델의 부상을 검토"
+        "title": "A Random Walk Down Wall Street",
+        "author": "Burton Malkiel",
+        "why": "Provides foundational understanding of market efficiency and the difficulty of beating the market consistently.",
+        "whyKo": "시장 효율성과 일관되게 시장을 이기기의 어려움에 대한 기본적인 이해를 제공한다."
       },
       {
-        "title": "Sewn Up: The Crisis of Fair Trade and the Future of Garment Workers' Rights",
-        "author": "Elizabeth Cline",
-        "why": "Critical perspective on garment industry labor practices relevant to H&M's supply chain challenges",
-        "whyKo": "H&M의 공급망 과제와 관련된 의류 산업 노동 관행에 대한 비판적 관점"
-      },
-      {
-        "title": "Fashionopolis: The Price of Fast Fashion and the Future of Clothes",
-        "author": "Elizabeth L. Cline",
-        "why": "Deep analysis of fashion industry environmental impact and sustainability challenges facing fast-fashion businesses",
-        "whyKo": "패션 산업의 환경 영향과 빠른 패션 비즈니스가 직면한 지속가능성 과제에 대한 심층 분석"
+        "title": "Market Wizards",
+        "author": "Jack Schwager",
+        "why": "Features insights from top traders and investors, including lessons on risk management and market psychology.",
+        "whyKo": "최고의 거래자와 투자자들의 통찰력을 담고 있으며, 리스크 관리와 시장 심리에 대한 교훈을 포함한다."
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Transforming H&M into global fast-fashion empire, aggressive international expansion strategy, maintaining family business control through generational transitions, owning substantial land and real estate holdings, and pioneering affordable fashion distribution model",
-    "knownForKo": "H&M을 글로벌 빠른 패션 제국으로 변환, 공격적 국제 확장 전략, 세대 간 전환을 통한 가족사업 통제 유지, 상당한 토지 및 부동산 보유, 저가 패션 유통 모델 개척으로 알려짐",
-    "philanthropy": "Founder of Mentor Foundation, a non-profit organization aimed at combating substance abuse among youth. Limited public charitable engagement compared to philanthropic standards of peer billionaires.",
-    "philanthropyKo": "청소년 약물 남용 퇴치를 목표로 하는 비영리 단체 멘토 재단 창립. 동료 억만장자의 자선 기준에 비해 제한된 공개 자선 활동.",
-    "controversies": "Environmental greenwashing with 96% of sustainability claims unsubstantiated; unfulfilled 2013 living wage commitments to 850,000 workers; criticism of H&M's role as major fashion industry polluter; allegations of inadequate supply chain transparency; perceived disconnect between corporate values messaging and actual labor practices",
-    "controversiesKo": "지속가능성 주장의 96%가 입증되지 않은 환경 그린워싱; 85만 명의 근로자에 대한 2013년 생활 임금 약속 미이행; H&M의 주요 패션 산업 오염원 역할에 대한 비판; 불충분한 공급망 투명성 혐의; 기업 가치 메시징과 실제 노동 관행 간 인식된 괴리"
+    "knownFor": "Exceptional ability to anticipate major market shifts, disciplined risk management, contrarian thinking, and maintaining low public profile despite massive wealth.",
+    "knownForKo": "주요 시장 변화를 예측하는 탁월한 능력, 규율 있는 리스크 관리, 반대 입장의 사고, 막대한 부에도 불구하고 낮은 공개 프로필을 유지하는 것으로 알려져 있다.",
+    "philanthropy": "Maintains a relatively private approach to philanthropy, focusing on long-term wealth preservation and strategic investments rather than public charitable giving.",
+    "philanthropyKo": "자선 활동에 대해 상대적으로 개인적인 접근 방식을 유지하며, 공개적인 자선 기부보다는 장기 자산 보존과 전략적 투자에 집중한다.",
+    "controversies": "Faced criticism for maintaining low transparency about BlueCrest's operations and returns. Some competitors questioned the sustainability of his hedge fund model.",
+    "controversiesKo": "BlueCrest의 운영과 수익에 대해 낮은 투명성을 유지한다는 비판을 받았으며, 일부 경쟁사는 그의 헤지펀드 모델의 지속가능성에 의문을 제기했다."
   },
   "sajuConnection": {
-    "note": "Leave null.",
+    "note": null,
     "value": null
   }
 }

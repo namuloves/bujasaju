@@ -1,150 +1,153 @@
 {
   "id": "114",
-  "name": "Todd Graves",
+  "name": "Eric Li (Li Shufu)",
+  "nameKo": "에릭 리 (리 슈푸)",
   "childhood": {
-    "birthPlace": "New Orleans, Louisiana, United States",
-    "birthPlaceKo": "미국 루이지애나주 뉴올리언스",
-    "familyBackground": "Grew up in Baton Rouge, Louisiana in a middle-class family. Parents did not have business entrepreneurial background. Exposed to restaurant culture through Louisiana's food tradition. No inherited wealth or business connections; success built entirely through personal effort and determination.",
-    "familyBackgroundKo": "루이지애나주 배턴루주의 중산층 가정에서 성장. 부모는 사업 기업가 배경이 없음. 루이지애나의 음식 전통을 통해 레스토랑 문화에 노출됨. 상속된 부의 또는 비즈니스 인맥 없이 개인의 노력과 결단으로 전적으로 성공을 이룸.",
-    "education": "University of Georgia, business degree",
-    "educationKo": "조지아 대학교, 경영학 학위",
-    "earlyLife": "Worked summers as boilermaker in California oil refineries and salmon fisherman in Alaska to fund business dreams. Developed strong work ethic and persistence through manual labor. Partnered with childhood friend Craig Silvey to develop chicken finger restaurant concept.",
-    "earlyLifeKo": "캘리포니아 석유 정제소에서 보일러 제작자로, 알래스카에서 연어 어부로 여름 동안 일하여 사업 꿈 자금 조성. 육체 노동을 통해 강한 직업 윤리와 인내심 개발. 어린 시절 친구 크레이그 실비와 협력하여 닭 너겟 레스토랑 개념 개발.",
-    "source": "Wikipedia, CNBC, Inc Magazine"
+    "birthPlace": "Taizhou, Zhejiang Province, China",
+    "birthPlaceKo": "중국 절강성 태주시",
+    "familyBackground": "Born on June 25, 1963, to a humble family with limited financial resources. His father was a skilled craftsman who inspired his mechanical aptitude.",
+    "familyBackgroundKo": "1963년 6월 25일 재정적 자원이 제한된 평범한 가정에서 태어났으며, 그의 아버지는 그의 기계적 적성에 영감을 준 숙련된 장인이었다.",
+    "education": "Holds a master's degree from Yanshan University with focus on mechanical engineering and business administration.",
+    "educationKo": "기계 공학 및 경영학에 중점을 두고 옌산대학교에서 석사 학위를 취득했다.",
+    "earlyLife": "As a boy, made toy cars from sand and scrap materials due to financial constraints, displaying early entrepreneurial spirit and mechanical creativity.",
+    "earlyLifeKo": "소년 시절 재정적 제약으로 인해 모래와 폐기물 재료로 장난감 자동차를 만들었으며, 조기 기업가 정신과 기계적 창의성을 보였다.",
+    "source": "https://en.wikipedia.org/wiki/Li_Shufu"
   },
   "careerTimeline": [
     {
-      "year": 1996,
-      "event": "Opened first Raising Cane's restaurant near Louisiana State University on August 28, 1996; named after his yellow Labrador",
-      "eventKo": "1996년 8월 28일 루이지애나 주립대학교 근처에 첫 번째 레이징 케인스 레스토랑 개점; 그의 노란 래브라도 개 이름으로 명명"
+      "year": 1986,
+      "event": "Founded Geely in Ningbo, Zhejiang as a refrigerator parts manufacturer with borrowed funds from family, starting from scratch with determination.",
+      "eventKo": "가족으로부터 빌린 자금으로 절강성 닝보에서 냉장고 부품 제조업체로 Geely를 설립하여 결단력 있게 처음부터 시작했다."
     },
     {
-      "year": 1996,
-      "event": "Initially rejected by every bank in Baton Rouge; funded with $150,000 from personal savings, SBA loan, and money from friends and family",
-      "eventKo": "배턴루주의 모든 은행으로부터 거절받음; 개인 저축, SBA 대출, 친구 및 가족의 돈으로 15만 달러로 자금 조성"
+      "year": 1998,
+      "event": "Transitioned Geely from refrigerator parts to motorcycle manufacturing, demonstrating business adaptability and market awareness.",
+      "eventKo": "Geely을 냉장고 부품에서 오토바이 제조로 전환하여 사업 적응력과 시장 인식을 보였다."
     },
     {
-      "year": 2014,
-      "event": "AJ Kumaran, seasoned restaurant executive, joined as Chief Operating Officer, bringing professional operational expertise",
-      "eventKo": "노련한 레스토랑 임원 AJ 쿠마란이 최고운영책임자로 입사, 전문적 운영 전문성 제공"
+      "year": 2001,
+      "event": "Launched Geely automobile brand with first car model, entering the highly competitive automotive industry with determination.",
+      "eventKo": "첫 자동차 모델로 Geely 자동차 브랜드를 출시하여 매우 경쟁이 치열한 자동차 산업에 진출했다."
     },
     {
-      "year": 2017,
-      "event": "AJ Kumaran promoted to co-CEO alongside Todd Graves, sharing leadership for larger-scale operations",
-      "eventKo": "AJ 쿠마란이 토드 그레이브스와 함께 공동 CEO로 승진, 대규모 운영을 위한 리더십 공유"
+      "year": 2005,
+      "event": "Listed Geely Automobile Holdings on the Hong Kong Stock Exchange, marking major milestone in company's growth.",
+      "eventKo": "Geely Automobile Holdings을 홍콩 증권거래소에 상장하여 회사 성장의 주요 이정표를 기록했다."
+    },
+    {
+      "year": 2010,
+      "event": "Acquired Volvo Cars from Ford for $1.8 billion, transforming Geely into a global automotive powerhouse and Chinese Henry Ford.",
+      "eventKo": "Ford에서 Volvo Cars를 $1.8 billion에 인수하여 Geely를 글로벌 자동차 강국으로 전환하고 중국의 Henry Ford가 되었다."
+    },
+    {
+      "year": 2018,
+      "event": "Acquired 9.69% stake in Mercedes-Benz Group, becoming company's largest single shareholder and expanding into premium automotive sector.",
+      "eventKo": "Mercedes-Benz Group의 9.69% 지분을 인수하여 회사의 최대 단일 주주가 되고 프리미엄 자동차 부문으로 확장했다."
     },
     {
       "year": 2020,
-      "event": "COVID-19 pandemic forced shift from dine-in to pick-up and take-out only; company adapted quickly and maintained business continuity",
-      "eventKo": "COVID-19 팬데믹으로 인해 매장 내 식사에서 픽업 및 테이크아웃으로 전환; 회사가 빠르게 적응하여 사업 연속성 유지"
+      "event": "Pursued merger of Volvo and Geely engine production units to create integrated global automotive platform.",
+      "eventKo": "Volvo와 Geely 엔진 생산 부서의 합병을 추진하여 통합된 글로벌 자동차 플랫폼을 만들었다."
     },
     {
-      "year": 2024,
-      "event": "Expanded to Dubai, marking significant international expansion beyond North America; nearly 900 restaurants operating",
-      "eventKo": "두바이로 확장, 북미 이외의 국제 확장 표시; 약 900개 레스토랑 운영 중"
-    },
-    {
-      "year": 2025,
-      "event": "Reached approximately 1,000 restaurants milestone; estimated net worth $22 billion, making him 111th wealthiest person globally",
-      "eventKo": "약 1,000개 레스토랑 마일스톤 달성; 순자산 약 220억 달러로 추정되어 세계에서 111번째로 부유한 인물이 됨"
-    },
-    {
-      "year": 2025,
-      "event": "Plans for nearly 100 new restaurants in 2026 and continued international expansion into London and Mexico",
-      "eventKo": "2026년에 거의 100개의 신규 레스토랑 개점 계획 및 런던, 멕시코로의 지속적 국제 확장"
+      "year": 2022,
+      "event": "Expanded to Aston Martin with 7.6% stake acquisition, later increasing stake to 17%, becoming third-largest shareholder.",
+      "eventKo": "Aston Martin에 7.6% 지분 인수로 확장했으며, 나중에 17%로 지분을 증가시켜 3대 주주가 되었다."
     }
   ],
   "failures": [
     {
-      "year": 1996,
-      "description": "Business proposal received the worst grade in startup pitching assignment for LSU business class; mocked by professors and peers as unrealistic",
-      "descriptionKo": "비즈니스 제안이 LSU 비즈니스 수업의 스타트업 피칭 과제에서 최악의 등급을 받음; 교수와 동료들로부터 비현실적이라고 조롱받음",
-      "lesson": "Institutional criticism and negative validation from experts should not deter visionary entrepreneurs; focus and execution can overcome intellectual skepticism and social doubt",
-      "lessonKo": "제도적 비판 및 전문가의 부정적 평가는 비전을 가진 기업가를 막아서는 안 됨; 집중력과 실행이 지적 회의론과 사회적 의심을 극복할 수 있음"
+      "year": 1995,
+      "description": "Early photography business failed due to inability to secure government approval, forcing him to pivot to manufacturing.",
+      "descriptionKo": "초기 사진 사업은 정부 승인 획득 능력 부족으로 실패했으며, 제조업으로 전환을 강요받았다.",
+      "lesson": "Learned the importance of navigating regulatory environments and the need to be flexible in business direction when circumstances change.",
+      "lessonKo": "규제 환경을 탐색하는 것의 중요성과 상황이 변할 때 사업 방향에서 유연성의 필요성을 배웠다."
     },
     {
-      "year": 1996,
-      "description": "Rejected by every bank in Baton Rouge for financing; forced to work dangerous jobs in oil fields and fishing to accumulate $150,000 capital",
-      "descriptionKo": "배턴루주의 모든 은행으로부터 자금 조달 거절; 석유 채굴과 어획 분야에서 위험한 일을 하여 15만 달러 자본 축적을 강요당함",
-      "lesson": "Traditional institutional finance gatekeepers often miss innovative opportunities; alternative funding sources (personal labor, friends/family, SBA) can enable visionary entrepreneurs when banks fail",
-      "lessonKo": "전통적 금융 기관 관문 담당자들은 혁신적 기회를 종종 놓침; 은행이 실패할 때 대체 자금 출처(개인 노동, 친구/가족, SBA)가 비전을 가진 기업가를 가능하게 할 수 있음"
+      "year": 2005,
+      "description": "Early Geely automobiles faced quality and safety concerns, with international media criticism of cheap manufacturing standards and reputation damage.",
+      "descriptionKo": "초기 Geely 자동차는 품질과 안전 문제에 직면했으며, 저가 제조 기준에 대한 국제 미디어의 비판과 평판 피해가 발생했다.",
+      "lesson": "Recognized that quality improvement and brand rehabilitation were essential for long-term growth, spurring investment in R&D and manufacturing standards.",
+      "lessonKo": "품질 개선과 브랜드 재활이 장기 성장을 위해 필수적이라는 것을 인식하여 R&D 및 제조 기준 투자를 촉진했다.",
+      "source": "https://carnewschina.com/2023/11/29/who-is-volvos-owner-geely-who-sells-china-made-evs-in-the-u-s/"
+    },
+    {
+      "year": 2015,
+      "description": "Faced global overcapacity in automotive industry and increasing competition from EV makers, requiring strategic repositioning.",
+      "descriptionKo": "자동차 산업의 글로벌 과잉 공급과 EV 제조업체의 증가하는 경쟁에 직면했으며, 전략적 재구성이 필요했다.",
+      "lesson": "Understood that traditional automotive dominance alone was insufficient, leading to strategic pivot toward electric vehicles and autonomous driving technology.",
+      "lessonKo": "전통적인 자동차 우위만으로는 불충분하다는 것을 이해하여 전기 자동차 및 자율주행 기술로의 전략적 전환을 이끌었다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 2005,
-      "netWorth": 0.15
+      "year": 1995,
+      "netWorth": 0.01
     },
     {
-      "year": 2015,
-      "netWorth": 1.5
+      "year": 2005,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2010,
+      "netWorth": 3.5
     },
     {
       "year": 2020,
-      "netWorth": 5.0
+      "netWorth": 13.2
     },
     {
-      "year": 2023,
-      "netWorth": 18.0
-    },
-    {
-      "year": 2025,
-      "netWorth": 22.0
+      "year": 2024,
+      "netWorth": 20.7
     }
   ],
   "quotes": [
     {
-      "text": "I believe in doing one thing, and doing it better than anybody else.",
-      "textKo": "나는 한 가지를 하되 다른 누구보다 더 잘하는 것을 믿는다.",
-      "context": "Core business philosophy explaining Raising Cane's razor-focused menu approach with only chicken fingers, sides, and drinks",
-      "contextKo": "닭 너겟, 사이드, 음료만으로 구성된 레이징 케인스의 집중된 메뉴 접근 방식을 설명하는 핵심 비즈니스 철학"
+      "text": "The global automotive industry is facing serious overcapacity. We need to stop building new plants and focus on technological capabilities.",
+      "textKo": "글로벌 자동차 산업은 심각한 과잉 공급에 직면하고 있다. 우리는 새로운 플랜트 건설을 중단하고 기술 능력에 집중해야 한다.",
+      "context": "Statement on industry challenges and Geely's strategic response to overcapacity.",
+      "contextKo": "산업 과제와 과잉 공급에 대한 Geely의 전략적 대응에 대한 진술"
     },
     {
-      "text": "Find your one love and stay true. My one love is chicken fingers, and I strive to be the best at that.",
-      "textKo": "당신의 한 가지 사랑을 찾고 진실하게 지켜라. 나의 한 가지 사랑은 닭 너겟이고, 나는 그것에 최고가 되기 위해 노력한다.",
-      "context": "Leadership advice emphasizing focused specialization as the path to excellence and sustainable business growth",
-      "contextKo": "우수성과 지속 가능한 비즈니스 성장의 길로서 집중된 특화를 강조하는 리더십 조언"
+      "text": "I am the Chinese Henry Ford. I came from nothing and built an automotive empire through hard work and vision.",
+      "textKo": "나는 중국의 Henry Ford이다. 나는 아무것도 없는 곳에서 시작했고 노력과 비전을 통해 자동차 제국을 구축했다.",
+      "context": "Reflecting on his journey from poverty to becoming a global automotive magnate.",
+      "contextKo": "빈곤에서 글로벌 자동차 재벌이 되기까지의 여정을 반추함"
     },
     {
-      "text": "When I became a billionaire, my wife brought our kids to my office for playtime, then I went back to work.",
-      "textKo": "내가 억만장자가 되었을 때, 아내가 아이들을 내 사무실에 데려와 놀게 한 후 나는 일로 돌아갔다.",
-      "context": "Statement reflecting maintained work focus and family balance perspective despite extreme wealth accumulation",
-      "contextKo": "극도의 부 축적에도 불구하고 유지된 일의 집중도와 가족 균형 관점을 반영하는 발언"
+      "text": "Technology continues to reshape every industry. Those who fail to adapt to electric vehicles and autonomous driving will be left behind.",
+      "textKo": "기술은 계속 모든 산업을 재편하고 있다. 전기 자동차와 자율주행 기술에 적응하지 못하는 자들은 뒤처질 것이다.",
+      "context": "On the importance of technological innovation in the future of automotive industry.",
+      "contextKo": "자동차 산업의 미래에 있어서 기술 혁신의 중요성에 대해"
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "Built to Last: Successful Habits of Visionary Companies",
-        "author": "Jim Collins, Jerry I. Porras",
-        "why": "Framework for building enduring companies through focused values and disciplined strategy, directly applicable to Raising Cane's model",
-        "whyKo": "집중된 가치와 훈련된 전략을 통해 지속되는 회사를 구축하는 프레임워크, 레이징 케인스 모델에 직접 적용 가능"
-      },
-      {
-        "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+        "title": "The Lean Startup",
         "author": "Eric Ries",
-        "why": "Methodology for resource-constrained entrepreneurship and rapid iteration, mirrors Graves' early constraints and adaptation",
-        "whyKo": "자원 제약 기업가 정신과 빠른 반복의 방법론, 그레이브스의 초기 제약과 적응을 반영"
+        "why": "Provides insights on building businesses from minimal resources through rapid iteration and learning.",
+        "whyKo": "최소한의 자원에서 빠른 반복과 학습을 통해 사업을 구축하는 방법에 대한 통찰력을 제공한다."
       },
       {
-        "title": "Good to Great: Why Some Companies Make the Leap and Others Don't",
-        "author": "Jim Collins",
-        "why": "Analysis of how focused discipline and commitment to core values enable extraordinary business growth from modest beginnings",
-        "whyKo": "집중된 훈련과 핵심 가치에 대한 약속이 적은 시작에서 비범한 비즈니스 성장을 가능하게 하는 방식 분석"
+        "title": "Competing Against Luck",
+        "author": "Clayton M. Christensen",
+        "why": "Explores how companies can understand customer needs and create competitive advantage through innovation.",
+        "whyKo": "회사가 고객 요구를 이해하고 혁신을 통해 경쟁 우위를 창출하는 방법을 탐색한다."
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Unwavering focus on single product (chicken fingers), extreme work ethic, persistence despite massive early rejection, rapid restaurant chain growth, democratizing premium fast food quality at affordable prices, and building company to 1,000 restaurants maintaining consistent quality",
-    "knownForKo": "단일 제품(닭 너겟)에 대한 흔들리지 않는 집중, 극도의 직업 윤리, 대규모 초기 거절에도 불구한 인내심, 빠른 레스토랑 체인 성장, 저가에 프리미엄 패스트푸드 품질 민주화, 일관된 품질을 유지하면서 1,000개 레스토랑까지 회사 구축으로 알려짐",
-    "philanthropy": "Limited public philanthropic initiatives; primarily focused on business expansion and community engagement through restaurant operations and employment creation",
-    "philanthropyKo": "제한된 공개 자선 이니셔티브; 주로 비즈니스 확장과 레스토랑 운영 및 고용 창출을 통한 지역사회 참여에 집중",
-    "controversies": "Minimal public controversies; perceived as apolitical and focused purely on business; some criticism of fast food industry environmental impact and labor practices typical to sector; no major scandals or legal issues affecting reputation",
-    "controversiesKo": "최소한의 공개 논란; 순수하게 비즈니스에만 집중하는 정치적 중립적 인물로 인식; 섹터에 전형적인 패스트푸드 산업의 환경 영향과 노동 관행에 대한 일부 비판; 평판에 영향을 미치는 주요 스캔들이나 법적 문제 없음"
+    "knownFor": "Transforming Geely from small refrigerator parts maker to global automotive powerhouse, acquiring Volvo, building integrated automotive ecosystem, visionary leadership in emerging technologies.",
+    "knownForKo": "Geely을 작은 냉장고 부품 제조업체에서 글로벌 자동차 강국으로 변환, Volvo 인수, 통합 자동차 생태계 구축, 신흥 기술의 비전 있는 리더십으로 알려져 있다.",
+    "philanthropy": "Founded Beijing Geely College (now Geely University), China's largest private university in 1999, and established University of Sanya in 2005, emphasizing education and social responsibility.",
+    "philanthropyKo": "1999년 중국 최대 사립대학인 Beijing Geely College(현 Geely University)를 설립했고, 2005년 University of Sanya를 설립하여 교육과 사회 책임을 강조했다.",
+    "controversies": "Faced criticism regarding quality standards of early Geely vehicles and concerns about labor practices. Also criticized for aggressive acquisition strategy and market consolidation attempts.",
+    "controversiesKo": "초기 Geely 자동차의 품질 기준과 노동 관행에 대한 비판을 받았으며, 공격적인 인수 전략과 시장 통합 시도에 대해서도 비판을 받았다."
   },
   "sajuConnection": {
-    "note": "Leave null.",
+    "note": null,
     "value": null
   }
 }

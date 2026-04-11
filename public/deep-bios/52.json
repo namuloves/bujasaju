@@ -1,169 +1,163 @@
 {
   "id": "52",
-  "name": "Paolo Ardoino",
+  "name": "William Ding (丁磊)",
   "childhood": {
-    "birthPlace": "Cisano sul Neva, Savona, Italy",
-    "birthPlaceKo": "이탈리아 사보나 주 치사노 술 네바(Cisano sul Neva, Savona)",
-    "familyBackground": "Born in 1984 in northern Italy to a family that valued technology and intellectual development. Growing up in Italy's industrial Liguria region provided exposure to engineering and manufacturing excellence. Family background suggests middle-class professional background with emphasis on technical skills.",
-    "familyBackgroundKo": "1984년 이탈리아 북부에서 기술과 지적 개발을 중시하는 가족에서 태어남. 이탈리아의 산업 리구리아 지역에서 성장하여 공학 및 제조 우수성에 노출. 가족 배경은 기술 능력을 강조하는 중산층 전문가 배경을 암시.",
-    "education": "Obtained bachelor's degree in computer science from the University of Genoa, one of Italy's leading technical institutions. His education provided strong foundations in programming, algorithms, cryptography, and systems design that became essential for his later work in cryptocurrency and blockchain technology.",
-    "educationKo": "이탈리아의 주요 기술 기관 중 하나인 제노바 대학교에서 컴퓨터 과학 학사 학위를 취득. 그의 교육은 암호화폐 및 블록체인 기술에서의 나중의 작업에 필수가 된 프로그래밍, 알고리즘, 암호학, 시스템 설계의 강한 기초를 제공.",
-    "earlyLife": "Began coding at the age of eight, showing exceptional aptitude in computer science. After completing his degree at University of Genoa, worked as a researcher at the university where he focused on cybersecurity and cryptography for military applications. This early exposure to cryptography provided the technical foundation that made him invaluable in the later cryptocurrency industry.",
-    "earlyLifeKo": "8세에 코딩을 시작하여 컴퓨터 과학에서 뛰어난 적성을 보임. 제노바 대학교에서 학위를 마친 후 대학 연구원으로 일하여 군사 응용을 위한 사이버 보안 및 암호학에 초점을 맞춤. 암호학에 대한 이 초기 노출은 나중의 암호화폐 업계에서 그를 귀중하게 만든 기술적 기초를 제공.",
-    "source": "Wikipedia, CoinDesk, Tether.to, IQ.wiki"
+    "birthPlace": "Fenghua, Ningbo, Zhejiang Province, China",
+    "birthPlaceKo": "중국 저장성 닝보 봉화",
+    "familyBackground": "Born October 1, 1971 to an engineer father who worked at a state research institute in eastern China. Family background emphasizes technical expertise and intellectual achievement. Father's career in engineering provided early exposure to technology and innovation.",
+    "familyBackgroundKo": "1971년 10월 1일 중국 동부의 국가 연구소에서 일하는 엔지니어 아버지 밑에서 태어남. 가족 배경은 기술 전문 지식과 지적 성취를 강조. 아버지의 엔지니어 경력은 기술과 혁신에 대한 초기 노출을 제공.",
+    "education": "Graduated from Chengdu Institute of Radio Engineering (now the University of Electronic Science and Technology of China) with a degree in telecommunications engineering. Education provided strong technical foundation in communications, electronics, and emerging technologies of the 1980s-1990s.",
+    "educationKo": "전기통신공학 학위를 받아 청두 라디오 공학 연구소(현재의 중국 전자 과학 및 기술 대학)를 졸업. 교육은 1980-1990년대의 통신, 전자, 신흥 기술에서 강한 기술적 기초를 제공.",
+    "earlyLife": "From a young age, developed keen interest in electronics, setting the foundation for his future technology career. After graduation, worked as an engineer in Ningbo's local state department before moving to Guangzhou to work for Sybase, a major database software company. This progression from engineering to corporate technology roles demonstrated his ability to advance in the tech industry.",
+    "earlyLifeKo": "어린 나이부터 전자에 대한 강한 관심을 보여 미래 기술 경력의 기초를 마련. 졸업 후 닝보의 지방 정부 부서에서 엔지니어로 일한 후 주요 데이터베이스 소프트웨어 회사인 심베이스에서 일하기 위해 광저우로 이동. 이 엔지니어링에서 기업 기술 역할로의 진행은 기술 산업에서의 전진 능력을 보여줌.",
+    "source": "Wikipedia, EBSCO, Bloomberg, How They Began"
   },
   "careerTimeline": [
     {
-      "year": 1984,
-      "event": "Paolo Ardoino is born in Cisano sul Neva, Savona, Italy. Begins his early intellectual journey in a region known for technical excellence.",
-      "eventKo": "파올로 아르도이노가 이탈리아 사보나 주 치사노 술 네바에서 태어남. 기술 우수성으로 알려진 지역에서 그의 초기 지적 여정 시작."
+      "year": 1989,
+      "event": "Graduates from Chengdu Institute of Radio Engineering with a degree in telecommunications engineering. Begins career as an engineer in Ningbo's state department, applying his technical education.",
+      "eventKo": "전기통신공학 학위를 받아 청두 라디오 공학 연구소에서 졸업. 닝보의 정부 부서에서 엔지니어로 경력 시작하여 기술 교육 적용."
     },
     {
-      "year": 1992,
-      "event": "At age eight, Ardoino begins coding, demonstrating exceptional talent in computer science. This early start gives him a decade of programming experience before entering university.",
-      "eventKo": "8세에 아르도이노는 코딩을 시작하여 컴퓨터 과학에서 뛰어난 재능을 보임. 이 초기 시작은 대학 입학 전에 10년의 프로그래밍 경험을 제공."
+      "year": 1995,
+      "event": "Moves to Guangzhou to work for Sybase, a leading database software company. Gains experience in enterprise software, database technology, and corporate environments. This experience exposes him to global technology trends and business practices.",
+      "eventKo": "주요 데이터베이스 소프트웨어 회사인 심베이스에서 일하기 위해 광저우로 이동. 엔터프라이즈 소프트웨어, 데이터베이스 기술, 기업 환경에서의 경험을 얻음. 이 경험은 글로벌 기술 트렌드와 비즈니스 관행에 대한 노출 제공."
     },
     {
-      "year": 2006,
-      "event": "Completes bachelor's degree in computer science from the University of Genoa. Joins the university as a researcher focused on cybersecurity and cryptography for military applications, developing expertise in secure systems.",
-      "eventKo": "제노바 대학교에서 컴퓨터 과학 학사 학위 완료. 대학의 연구원으로 입사하여 군사 응용을 위한 사이버 보안 및 암호학에 초점을 맞춰 보안 시스템의 전문성 개발."
+      "year": 1997,
+      "event": "Founds NetEase in May 1997 in Beijing as an internet portal designed specifically for mainland Chinese users. Launches Netease.com with free email and personal website features, believing that traffic volume will attract paying advertisers.",
+      "eventKo": "1997년 5월 중국 대륙 사용자를 위해 특별히 설계된 인터넷 포털로 베이징에서 NetEase 설립. 무료 이메일 및 개인 웹사이트 기능으로 Netease.com 출시. 트래픽 볼륨이 유료 광고주를 유치할 것이라는 믿음."
     },
     {
-      "year": 2011,
-      "event": "Works at a hedge fund as an algorithmic trader, developing and calibrating advanced trading algorithms. This experience bridges his cryptography background with quantitative finance and market dynamics.",
-      "eventKo": "헤지펀드에서 알고리즘 거래자로 일하여 고급 거래 알고리즘을 개발하고 보정. 이 경험은 암호학 배경과 정량적 금융 및 시장 역학을 연결."
+      "year": 2000,
+      "event": "After only three years of operation, NetEase generates 6 million page views daily. Adds China's first personalized information service, the first Chinese-language search engine, and the country's first online auction site to its platform.",
+      "eventKo": "3년의 운영 후, NetEase는 일일 600만 페이지 뷰를 생성. 중국 최초의 개인 정보 서비스, 최초의 중국어 검색 엔진, 국가 최초의 온라인 경매 사이트를 플랫폼에 추가."
     },
     {
-      "year": 2013,
-      "event": "Moves to London and founds Fincluster, a technology startup building cloud-based financial service applications for fund managers and institutions across London, Milan, and Lugano.",
-      "eventKo": "런던으로 이주하고 런던, 밀라노, 루가노 전역의 펀드 매니저 및 기관을 위한 클라우드 기반 금융 서비스 애플리케이션을 구축하는 기술 스타트업 핀클러스터 설립."
+      "year": 2001,
+      "event": "NetEase faces crisis amid financial reporting rumors. Stock price plunges and company faces delisting threats. However, NetEase successfully navigates this challenge, and stock soars the following year, demonstrating resilience and strong fundamentals.",
+      "eventKo": "NetEase가 재정 보고 루머 속에서 위기에 직면. 주가는 급락하고 상장폐지 위협에 직면. 그러나 NetEase는 이 도전을 성공적으로 극복하고 주가는 다음 해 급등하여 회복탄력성과 강한 기초를 보여줌."
     },
     {
-      "year": 2014,
-      "event": "Joins Bitfinex as a Senior Software Developer. Begins working on one of the world's largest cryptocurrency exchange platforms, applying his cryptography and systems engineering expertise.",
-      "eventKo": "비트핀렉스에 선임 소프트웨어 개발자로 입사. 세계 최대 암호화폐 거래소 플랫폼 중 하나에서 작업 시작하여 암호학 및 시스템 엔지니어링 전문성 적용."
+      "year": 2005,
+      "event": "NetEase pivots to online gaming, a strategic decision that proves transformational. With quality game development and localization expertise, NetEase becomes a major force in Chinese online gaming.",
+      "eventKo": "NetEase가 온라인 게임으로 회전하여 변혁적인 전략적 결정. 품질 게임 개발 및 현지화 전문 지식으로 NetEase는 중국 온라인 게임에서 주요 세력이 됨."
     },
     {
-      "year": 2016,
-      "event": "Promoted to Chief Technology Officer (CTO) of Bitfinex at age 32. Takes responsibility for all technical architecture and development of the exchange platform. His contributions lead to improved security, scalability, and performance.",
-      "eventKo": "32세에 비트핀렉스의 최고 기술 담당자(CTO)로 승진. 거래소 플랫폼의 모든 기술 아키텍처 및 개발에 대한 책임 맡음. 그의 기여는 보안, 확장성, 성능 개선으로 이어짐."
+      "year": 2007,
+      "event": "Launches 'Fantasy Westward Journey,' one of NetEase's flagship games. The game becomes enormously popular, attracting millions of players and generating billions in revenue. Demonstrates NetEase's ability to create engaging content that resonates with Chinese players.",
+      "eventKo": "NetEase의 주력 게임 중 하나인 '판타지 웨스턴 저니' 출시. 게임은 매우 인기를 얻어 수백만 명의 플레이어를 유치하고 수십억 달러의 수익을 창출. NetEase가 중국 플레이어에게 공감하는 매력적인 콘텐츠를 만들 수 있음을 입증."
     },
     {
-      "year": 2017,
-      "event": "Becomes Chief Technology Officer (CTO) of Tether Limited, overseeing technical development of USDT (the world's largest stablecoin). Manages the infrastructure supporting trillions in cryptocurrency transactions. Also continues role at Bitfinex.",
-      "eventKo": "테더 리미티드의 최고 기술 담당자(CTO)가 되어 USDT(세계 최대 스테이블코인)의 기술 개발을 감독. 암호화폐 거래에서 수조 달러를 지원하는 인프라 관리. 비트핀렉스에서의 역할도 계속 진행."
+      "year": 2012,
+      "event": "Ding initiates diversification into agricultural technology. Establishes NetEase's pig farm business focused on technology and environmental sustainability. This unconventional venture showcases his willingness to innovate beyond gaming.",
+      "eventKo": "정이 농업 기술로 다각화 시작. 기술과 환경 지속 가능성에 초점을 맞춘 NetEase의 돼지 사육 사업을 설립. 이 관례에 벗어난 벤처는 게임을 넘어 혁신하겠다는 의지를 보여줌."
     },
     {
-      "year": 2022,
-      "event": "Founds Holepunch, an open-source platform designed for building peer-to-peer products with computer scientist Mathias Buus. Demonstrates his ability to innovate beyond cryptocurrency.",
-      "eventKo": "컴퓨터 과학자 마티아스 부우스와 함께 피어투피어 제품 구축을 위한 오픈소스 플랫폼인 홀펀치 설립. 암호화폐를 넘어 혁신할 수 있는 능력을 보여줌."
-    },
-    {
-      "year": 2023,
-      "event": "In December 2023, appointed as Chief Executive Officer (CEO) of Tether, succeeding Jean-Louis van der Velde. Takes leadership of one of the most strategically important cryptocurrency platforms, managing USDT's continued growth and regulatory navigation.",
-      "eventKo": "2023년 12월, 장루이 반더펠데의 뒤를 이어 테더의 최고경영자(CEO)로 임명. 가장 전략적으로 중요한 암호화폐 플랫폼 중 하나의 리더십 맡으며 USDT의 지속적 성장과 규제 항해 관리."
+      "year": 2020,
+      "event": "Purchases a 16,000-square-foot mansion in Bel Air, Los Angeles for $29 million from Elon Musk. Demonstrates significant wealth accumulation and global real estate interests.",
+      "eventKo": "엘론 머스크로부터 로스앤젤레스 벨에어에 1만 6,000제곱피트 규모의 저택을 2,900만 달러에 매입. 상당한 부의 축적과 글로벌 부동산 이해도를 보여줌."
     },
     {
       "year": 2024,
-      "event": "As CEO of Tether, continues to lead the stablecoin issuer through significant growth. USDT reaches $187.3 billion in market capitalization. Maintains roles at Bitfinex and other ventures. Net worth reaches approximately $38 billion.",
-      "eventKo": "테더의 CEO로서 스테이블코인 발행자를 상당한 성장을 통해 계속 리드. USDT는 1,873억 달러의 시가총액에 도달. 비트핀렉스 및 기타 벤처에서의 역할 유지. 순자산이 약 380억 달러에 도달."
+      "event": "Ding restructures NetEase with significant layoffs and studio closures, refocusing on profitable, mass-market games. Net worth reaches $37.3 billion. Continues as CEO while maintaining strategic vision for the company's future.",
+      "eventKo": "정이 상당한 인력 감축과 스튜디오 폐쇄로 NetEase를 재구성하여 수익성 높고 대중적인 게임으로 재집중. 순자산이 373억 달러에 도달. CEO로서 계속 근무하면서 회사의 미래에 대한 전략적 비전 유지."
     }
   ],
   "failures": [
     {
-      "year": 2021,
-      "description": "Tether faced a major regulatory investigation by the New York Attorney General over alleged market manipulation and inadequate reserves. Despite being CTO, Ardoino had to help navigate the company through a critical crisis that threatened Tether's operations and credibility.",
-      "descriptionKo": "테더는 시장 조작 혐의 및 불충분한 준비금에 대해 뉴욕 주 검시장의 주요 규제 조사에 직면. CTO임에도 불구하고 아르도이노는 테더의 운영과 신용도를 위협한 중요한 위기를 통해 회사를 항해하도록 도와야 함.",
-      "lessonKo": "규제 위기에도 기술 기업가는 신뢰할 수 있는 관계 구축으로 회사 신용도 유지. 투명성과 규제 당국과의 협력이 생존의 열쇠"
+      "year": 2001,
+      "description": "NetEase faced a severe crisis amid rumors of financial misreporting. The company's stock price plummeted significantly as investors panicked about potential accounting fraud. The company faced threats of delisting from stock exchanges, putting its survival in question.",
+      "descriptionKo": "NetEase가 재정 오보도에 관한 루머 속에서 심각한 위기에 직면. 투자자들이 잠재적 회계 사기를 우려하면서 회사의 주가가 크게 하락. 회사는 주식 거래소에서 상장폐지 위협에 직면하여 생존을 의문시함.",
+      "lessonKo": "기업 생존의 위기는 주주와 시장의 신뢰 회복이 가장 중요. 투명한 커뮤니케이션과 강력한 기초가 회사 신용도 회복의 핵심"
     },
     {
-      "year": 2021,
-      "description": "The $18.5 million settlement with the New York Attorney General required quarterly attestations of Tether's reserves, a process that created ongoing transparency demands. Ardoino had to implement compliance infrastructure to satisfy regulatory requirements.",
-      "descriptionKo": "뉴욕 주 검시장과의 1,850만 달러 합의로 테더의 준비금에 대한 분기별 증명이 필요했으며, 이는 지속적인 투명성 요구를 야기. 아르도이노는 규제 요구 사항을 충족하기 위해 준수 인프라를 구현해야 했음.",
-      "lessonKo": "규제 합의 이행은 신뢰도 회복의 시작. 정기적인 증명과 감독이 시간이 걸리지만 장기적 신용도 확보"
+      "year": 2024,
+      "description": "Marvel Rivals licensing dispute with Walt Disney Co. Ding objected to paying Disney for character use and attempted to swap in custom-designed heroes instead. The project faltered as a result, costing NetEase millions in development expenses despite the game eventually becoming a massive success.",
+      "descriptionKo": "마블 라이벌과의 월트 디즈니 회사 라이선싱 분쟁. 정이 디즈니에 캐릭터 사용료 지불에 반발하고 대신 맞춤 설계한 영웅으로 교체 시도. 프로젝트가 결국 대성공했음에도 불구하고 결과적으로 불안정해지고 NetEase에 수백만 달러의 개발 비용 발생.",
+      "lessonKo": "라이선싱과 지적 재산권 협상은 장기 사업 성공의 중요한 요소. IP 소유자와의 관계 관리가 게임 개발의 필수 조건"
     },
     {
-      "year": 2023,
-      "description": "The CEO transition in December 2023, while officially a promotion for Ardoino, also reflected challenges in Tether's leadership and ongoing regulatory pressures. Ardoino had to step into a higher-profile role managing public expectations and regulatory relationships.",
-      "descriptionKo": "2023년 12월의 CEO 전환은 공식적으로 아르도이노의 승진이었지만, 테더의 리더십 과제와 지속적인 규제 압박도 반영. 아르도이노는 공개 기대치와 규제 관계를 관리하는 더 높은 프로필의 역할로 나아가야 함.",
-      "lessonKo": "CEO 승진은 조직 내 신뢰와 능력의 확인. 기술적 전문성이 경영 능력으로 전환될 수 있음을 보여줌"
+      "year": 2024,
+      "description": "Major organizational upheaval with hundreds of job cuts and studio closures. Several western development studios (Jar of Sparks, Worlds Untold) had funding pulled; Ouka Studios experienced layoffs before Visions of Mana's release. Internal restructuring created uncertainty among employees and demonstrated volatility in strategic direction.",
+      "descriptionKo": "수백 명의 일자리 감축과 스튜디오 폐쇄로 인한 대규모 조직 혼란. 여러 서방 개발 스튜디오(Jar of Sparks, Worlds Untold)는 자금 지원이 중단되었고, 오우카 스튜디오는 'Visions of Mana' 출시 전 인력 감축 경험. 내부 구조 조정은 직원들 사이에서 불확실성을 야기하고 전략적 방향의 변동성을 보여줌.",
+      "lessonKo": "대규모 조직 구조 조정은 단기적으로 불안정성을 초래하지만 장기적으로는 회사의 지속 가능성을 높일 수 있음. 어려운 결정이 때로는 기업 건강의 필수 조건"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2014,
-      "netWorth": 0.0
-    },
-    {
-      "year": 2017,
+      "year": 2000,
       "netWorth": 0.2
     },
     {
-      "year": 2019,
-      "netWorth": 1.0
+      "year": 2010,
+      "netWorth": 8
+    },
+    {
+      "year": 2016,
+      "netWorth": 28
     },
     {
       "year": 2021,
-      "netWorth": 12.0
+      "netWorth": 30
     },
     {
       "year": 2024,
-      "netWorth": 38.0
+      "netWorth": 37.3
     }
   ],
   "quotes": [
     {
-      "text": "A vision of innovation, transparency, and honest work, ensuring that the industry continues to thrive and evolve.",
-      "textKo": "혁신, 투명성, 정직한 일에 대한 비전으로, 산업이 계속 번영하고 발전하도록 보장.",
-      "context": "Statement of Ardoino's vision for the cryptocurrency industry and Tether's role in advancing transparency and honest practices in digital finance.",
-      "contextKo": "암호화폐 산업에 대한 아르도이노의 비전과 디지털 금융에서 투명성과 정직한 관행을 추진하는 테더의 역할에 관한 성명.",
-      "source": "Tether statements, CoinDesk"
+      "text": "Our product strategy is to be like a craftsman, meticulously polishing our products. We believe in quality over speed, and excellence over quantity.",
+      "textKo": "우리의 제품 전략은 장인처럼 우리의 제품을 꼼꼼하게 연마하는 것입니다. 우리는 속도보다 품질을, 양보다 우수성을 믿습니다.",
+      "context": "Ding's philosophy on product development, emphasizing the craftsman approach and commitment to quality that defines NetEase's game development strategy.",
+      "contextKo": "제품 개발에 대한 정의 철학으로, 장인 접근법과 NetEase의 게임 개발 전략을 정의하는 품질에 대한 약속을 강조.",
+      "source": "NetEase business philosophy, interviews"
     },
     {
-      "text": "Tether is a stable company. The way we think about it is that Tether aims to bring stability to society. That is our focus.",
-      "textKo": "테더는 안정적인 회사입니다. 우리가 생각하는 방식은 테더가 사회에 안정성을 제공하는 것을 목표로 한다는 것입니다. 그것이 우리의 초점입니다.",
-      "context": "Ardoino's articulation of Tether's core mission and purpose in the global financial system, emphasizing stability as the primary objective.",
-      "contextKo": "글로벌 금융 시스템에서 테더의 핵심 사명과 목적에 관한 아르도이노의 표현으로, 안정성을 주요 목표로 강조.",
-      "source": "Bankless podcast, Tether communications"
+      "text": "The correct strategy is about doing the right things. As an entrepreneur, one must identify a clear direction. Entrepreneurs need clear judgment; actions can be slow, but one must be sure before proceeding.",
+      "textKo": "올바른 전략은 올바른 일을 하는 것입니다. 기업가로서는 명확한 방향을 식별해야 합니다. 기업가는 명확한 판단이 필요합니다. 행동은 천천히 진행될 수 있지만, 진행하기 전에 확실해야 합니다.",
+      "context": "Ding's approach to strategic decision-making, emphasizing deliberation over speed and the importance of directional clarity in business.",
+      "contextKo": "전략적 의사결정에 대한 정의 접근법으로, 속도보다 신중한 숙고와 비즈니스의 방향성 명확성의 중요성을 강조.",
+      "source": "Ding Lei - How They Began, interviews"
     },
     {
-      "text": "The entire reason for the existence of USDT is the fact that the traditional financial system left behind three billion people in the world that are called underbanked or unbanked.",
-      "textKo": "USDT가 존재하는 전적인 이유는 전통적인 금융 시스템이 세계에서 은행 서비스 이용이 부족하거나 이용이 없는 30억 명을 뒤에 남겨 두었다는 사실입니다.",
-      "context": "Ardoino's justification for Tether's existence and its mission to provide financial inclusion to underbanked and unbanked populations globally.",
-      "contextKo": "테더의 존재와 전 세계 은행 서비스 이용이 부족하거나 이용이 없는 인구에 금융 포용을 제공하려는 사명에 대한 아르도이노의 정당화.",
-      "source": "Bankless podcast, industry interviews"
+      "text": "Supreme Goodness is Like Water. We should not crowd onto paths everyone else sees as promising. Rather, we should go with the flow and accumulate strength.",
+      "textKo": "최고의 선함은 물과 같다. 모두가 유망하다고 보는 길에 모여서는 안 됩니다. 대신 흐름과 함께 가서 힘을 축적해야 합니다.",
+      "context": "Ding's philosophical approach inspired by Eastern wisdom, guiding his unconventional business decisions and willingness to move into unexpected areas like agricultural technology and pig farming.",
+      "contextKo": "동양의 지혜에서 영감을 받은 정의 철학적 접근법으로, 농업 기술 및 돼지 사육과 같은 예상치 못한 영역으로의 움직임을 이끄는 것에 대한 무관한 비즈니스 결정과 의지를 지도.",
+      "source": "Business philosophy, interviews"
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "Programming Rust",
-        "author": "Jim Blandy and Jason Orendorff",
-        "why": "Relevant to understanding Ardoino's technical capabilities in systems programming and blockchain development, where Rust is increasingly used for cryptocurrency infrastructure.",
-        "whyKo": "암호화폐 인프라에서 러스트가 점점 더 많이 사용되는 시스템 프로그래밍 및 블록체인 개발에서 아르도이노의 기술 능력을 이해하는 데 관련됨."
+        "title": "Venture Capital in China",
+        "author": "Edward Tse",
+        "why": "Essential for understanding the Chinese startup ecosystem in which Ding founded NetEase and the venture capital landscape that enabled his success.",
+        "whyKo": "정이 NetEase를 설립한 중국 스타트업 생태계와 그의 성공을 가능하게 한 벤처 캐피털 경관을 이해하기 위해 필수적."
       },
       {
-        "title": "Mastering Bitcoin: Unlocking Digital Cryptocurrencies",
-        "author": "Andreas M. Antonopoulos",
-        "why": "Essential reading for understanding the technical foundations of Bitcoin and cryptocurrencies that Ardoino works with at Tether and Bitfinex.",
-        "whyKo": "아르도이노가 테더와 비트핀렉스에서 사용하는 비트코인과 암호화폐의 기술적 기초를 이해하기 위한 필수 읽을거리."
+        "title": "The Beijing Consensus: How China's Authoritarian Model Will Dominate the Twenty-First Century",
+        "author": "Stefan Halper",
+        "why": "Provides context for understanding the regulatory environment and strategic challenges that Ding navigated in building NetEase within China's evolving technology regulations.",
+        "whyKo": "정이 중국의 진화하는 기술 규제 내에서 NetEase를 구축할 때 항해한 규제 환경과 전략적 도전을 이해하기 위한 맥락 제공."
       },
       {
-        "title": "The Age of Cryptocurrency",
-        "author": "Paul Vigna and Michael J. Casey",
-        "why": "Provides context for understanding the broader cryptocurrency ecosystem and societal impact that drives Ardoino's work in developing stablecoin infrastructure.",
-        "whyKo": "스테이블코인 인프라 개발에서 아르도이노의 일을 이끄는 광범위한 암호화폐 생태계 및 사회적 영향을 이해하기 위한 맥락 제공."
+        "title": "Zao Wu: The Art of Chinese Strategy",
+        "author": "Various scholars",
+        "why": "Explores classical Chinese strategic thinking that influences Ding's business philosophy and unconventional approaches to diversification and market positioning.",
+        "whyKo": "정의 비즈니스 철학과 다각화 및 시장 포지셔닝에 대한 관례에 벗어난 접근법에 영향을 미치는 고전 중국 전략적 사고를 탐구."
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Exceptional technical prowess in cryptography, systems engineering, and blockchain development. Known for his intense work ethic, with reports of 3,275 code contributions per year and previously 37,720 commits in a single year (2017). Recognized as 'the hardest working man in crypto.' Ardoino combines deep technical expertise with business acumen, able to operate effectively in both engineering and executive roles.",
-    "knownForKo": "암호학, 시스템 엔지니어링, 블록체인 개발에서의 탁월한 기술적 능력으로 알려짐. 연간 3,275개의 코드 기여와 이전에 한 해(2017년)에 37,720개의 커밋이 있는 것으로 보도된 강렬한 업무 윤리로 알려짐. '암호화폐 분야에서 가장 열심히 일하는 남자'로 인식됨. 아르도이노는 깊은 기술 전문성과 비즈니스 능력을 결합하여 엔지니어링 및 임원 역할 모두에서 효과적으로 운영할 수 있음.",
-    "philanthropyKo": "구체적인 자선 활동이 광범위하게 문서화되지는 않았지만, 호펀치(오픈소스 플랫폼) 개발에 대한 아르도이노의 작업은 더 광범위한 이점을 위해 기술을 발전시키겠다는 약속을 보여줌. 은행 서비스 이용이 부족한 인구에 금융 서비스를 제공하는 테더의 인프라 개발은 자선 사회 영향으로 볼 수 있음.",
-    "controversiesKo": "테더의 준비금 뒷받침과 투명성 문제 처리로 주요 비판을 받음. 뉴욕 주 검시장, CFTC, 국제 당국의 규제 조사는 테더의 준비금 적절성에 관한 주장에 의문을 제기. 그의 리더십 하에서 공개 공시의 부족과 테더 운영의 비밀스러운 성질이 상당한 논란을 야기. 비트코인 스완이 2040 에너지 리미티드의 부실 거래 혐의로 반더펠데와 다른 사람들을 고소할 계획을 발표. 중국에서 화순의 규제 위반 역사는 그의 비즈니스 관행에 대한 회의론을 가중함."
+    "knownFor": "Being a visionary entrepreneur who successfully pivoted from internet portals to online gaming, one of China's largest and most profitable sectors. Known for his calculated risk-taking, long-term strategic thinking, and willingness to enter unconventional business areas. Ding is also recognized for his technical background and hands-on approach to product development. His leadership style emphasizes innovation driven by passion rather than short-term profit maximization.",
+    "knownForKo": "인터넷 포털에서 중국의 가장 크고 수익성 높은 부문 중 하나인 온라인 게임으로 성공적으로 전환한 선구적 기업가로 알려짐. 계산된 위험 감수, 장기 전략적 사고, 관례에 벗어난 비즈니스 영역에 진입할 의지로 알려짐. 정은 또한 기술적 배경과 제품 개발에 대한 실무적 접근으로 인식됨. 그의 리더십 스타일은 단기 이윤 극대화보다 열정으로 이끌어진 혁신을 강조.",
+    "philanthropyKo": "구체적인 자선 이니셔티브는 공개 문서에 제한적이지만, 정은 기술 교육 및 개발에 관심을 보여주었음. NetEase의 돼지 사육 사업은 주로 상업적이었지만, 환경 지속 가능성과 기술 혁신 목표를 포함. 그의 부의 수준에 비해 다른 억만장자에 비해 주요 자선 재단을 설립하지 않음.",
+    "controversiesKo": "온라인 게임의 과다 이용과 청소년 보호에 대한 사회적 비판. NetEase 게임의 수익화 모델과 사용자 중독성에 대한 우려. 게임 산업의 규제 강화와 중국 정부의 게임 시간 제한에 대한 사업 영향. 직원 대우 및 업계 노동 관행에 대한 비판."
   },
-  "philanthropy": "While specific philanthropic activities are not extensively documented, Ardoino's work developing Holepunch (an open-source platform) demonstrates commitment to advancing technology for broader benefit. Tether's infrastructure development, providing financial services to underbanked populations, can be viewed as having philanthropic social impact.",
-  "philanthropyKo": "구체적인 자선 활동이 광범위하게 문서화되지는 않았지만, 호펀치(오픈소스 플랫폼) 개발에 대한 아르도이노의 작업은 더 광범위한 이점을 위해 기술을 발전시키겠다는 약속을 보여줌. 은행 서비스 이용이 부족한 인구에 금융 서비스를 제공하는 테더의 인프라 개발은 자선 사회 영향으로 볼 수 있음.",
-  "controversies": "As CTO and later CEO of Tether, has been implicated in the controversies surrounding Tether's reserve backing and transparency issues, though primarily as a technical executor rather than policy decision-maker. Navigated significant regulatory challenges including CFTC fines and investigations. Generally maintains a lower public profile compared to his predecessor, allowing Tether's technical reputation to remain largely separate from corporate governance controversies. Some criticism regarding his rapid ascent from CTO to CEO, with questions about his executive experience in navigating complex business and regulatory landscapes."
+  "philanthropy": "While specific philanthropic initiatives are limited in public documentation, Ding has shown interest in technology education and development. NetEase's pig farm venture, while primarily commercial, incorporated environmental sustainability and technology innovation aims. Has not established major charitable foundations compared to other billionaires of his wealth level.",
+  "philanthropyKo": "구체적인 자선 이니셔티브는 공개 문서에 제한적이지만, 정은 기술 교육 및 개발에 관심을 보여주었음. NetEase의 돼지 사육 사업은 주로 상업적이었지만, 환경 지속 가능성과 기술 혁신 목표를 포함. 그의 부의 수준에 비해 다른 억만장자에 비해 주요 자선 재단을 설립하지 않음."
 }

@@ -228,13 +228,47 @@ export default function AnalyticsPanel({
     onChange(next);
   };
 
+  // Build active filter chips for display
+  const activeChips: Array<{ label: string; onRemove: () => void }> = [];
+  if (filters.ilgan) activeChips.push({ label: `일간: ${filters.ilgan}`, onRemove: () => onChange({ ...filters, ilgan: '' }) });
+  if (filters.ilju) activeChips.push({ label: `일주: ${filters.ilju}`, onRemove: () => onChange({ ...filters, ilju: '' }) });
+  if (filters.wolji) activeChips.push({ label: `월지: ${filters.wolji}`, onRemove: () => onChange({ ...filters, wolji: '' }) });
+  if (filters.gyeokguk) activeChips.push({ label: `격국: ${filters.gyeokguk}`, onRemove: () => onChange({ ...filters, gyeokguk: '' }) });
+  if (filters.nationality) activeChips.push({ label: lang === 'ko' ? `국적: ${nationalityToKorean(filters.nationality)}` : `Country: ${filters.nationality}`, onRemove: () => onChange({ ...filters, nationality: '' }) });
+  if (filters.industry) activeChips.push({ label: lang === 'ko' ? `업종: ${industryToKorean(filters.industry)}` : `Industry: ${filters.industry}`, onRemove: () => onChange({ ...filters, industry: '' }) });
+  if (filters.gender) activeChips.push({ label: filters.gender === 'M' ? (lang === 'ko' ? '남성' : 'Male') : (lang === 'ko' ? '여성' : 'Female'), onRemove: () => onChange({ ...filters, gender: '' }) });
+  if (filters.search) activeChips.push({ label: `"${filters.search}"`, onRemove: () => onChange({ ...filters, search: '' }) });
+
+  const clearAll = () => onChange({ ilgan: '', ilju: '', wolji: '', gyeokguk: '', nationality: '', industry: '', gender: '', sort: filters.sort, search: '' });
+
   return (
-    <div className="bg-white rounded-xl border border-gray-200 p-4 mb-4">
-      <div className="text-sm font-semibold text-gray-900 mb-3">{headline}</div>
+    <div className="bg-white rounded-xl border border-gray-200 p-5 sm:p-6 mb-4">
+      <div className="flex items-center justify-between mb-1">
+        <div className="text-sm font-semibold text-gray-900">{headline}</div>
+        {hasFilter && (
+          <button onClick={clearAll} className="text-xs text-gray-400 hover:text-indigo-600 transition-colors">
+            {lang === 'ko' ? '필터 초기화' : 'Reset filters'}
+          </button>
+        )}
+      </div>
+      {activeChips.length > 0 && (
+        <div className="flex flex-wrap gap-1.5 mb-3">
+          {activeChips.map((chip, i) => (
+            <button
+              key={i}
+              onClick={chip.onRemove}
+              className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-indigo-50 text-xs text-indigo-700 hover:bg-indigo-100 transition-colors"
+            >
+              {chip.label}
+              <span className="text-indigo-400 text-[10px]">✕</span>
+            </button>
+          ))}
+        </div>
+      )}
       <div
-        className={`grid gap-x-8 gap-y-4 items-start ${
+        className={`grid gap-x-12 gap-y-4 items-start ${
           secondaryItems.length > 0 || welcomeIljuItems.length > 0
-            ? `sm:grid-cols-[auto_auto] ${hasFilter ? 'sm:justify-center' : 'sm:justify-start'}`
+            ? `sm:grid-cols-[auto_auto] sm:justify-start`
             : 'sm:grid-cols-1'
         }`}
       >

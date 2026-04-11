@@ -393,8 +393,8 @@ export default function DeepBioModal({ person, onClose }: Props) {
             visible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
           }`}
           style={{
-            width: '65vw',
-            maxWidth: '900px',
+            width: '75vw',
+            maxWidth: '1100px',
             height: '92vh',
             maxHeight: '92vh',
           }}

@@ -122,7 +122,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
                   <div key={i} className="relative">
                     <div className="absolute -left-[23px] w-3 h-3 rounded-full bg-indigo-500 border-2 border-white" />
                     <div className="text-[10px] font-bold text-indigo-600">{event.year}</div>
-                    <div className="text-sm text-gray-700 mt-0.5">{ko(lang, event.event, event.eventKo)}</div>
+                    <div className="text-[13px] text-gray-700 mt-0.5">{ko(lang, event.event, event.eventKo)}</div>
                   </div>
                 ))}
               </div>
@@ -151,7 +151,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
                   <div key={i} className="relative">
                     <div className="absolute -left-[23px] w-3 h-3 rounded-full bg-indigo-500 border-2 border-white" />
                     <div className="text-[10px] font-bold text-indigo-600">{event.year}</div>
-                    <div className="text-sm text-gray-700 mt-0.5">{ko(lang, event.event, event.eventKo)}</div>
+                    <div className="text-[13px] text-gray-700 mt-0.5">{ko(lang, event.event, event.eventKo)}</div>
                   </div>
                 ))}
               </div>
@@ -167,7 +167,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
                 {bio.failures.map((f, i) => (
                   <div key={i} className="bg-amber-50 rounded-lg p-3">
                     <div className="text-xs font-bold text-amber-700">{f.year}</div>
-                    <p className="text-sm text-gray-700 mt-1">{ko(lang, f.description, f.descriptionKo)}</p>
+                    <p className="text-[13px] text-gray-700 mt-1">{ko(lang, f.description, f.descriptionKo)}</p>
                     {f.lesson && (
                       <p className="text-xs text-amber-600 mt-1.5 italic">→ {ko(lang, f.lesson, f.lessonKo)}</p>
                     )}

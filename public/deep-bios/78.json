@@ -1,241 +1,155 @@
 {
   "id": "78",
-  "name": "MacKenzie Scott",
+  "name": "Leonid Mikhelson",
   "childhood": {
-    "birthPlace": "San Francisco, California",
-    "birthPlaceKo": "샌프란시스코, 캘리포니아",
-    "familyBackground": "Born MacKenzie Scott Tuttle on April 7, 1970. Father: Jason Baker Tuttle, a financial planner. Mother: Holiday Robin (née Cuming), a homemaker. Had two brothers. Family was wealthy with homes in San Francisco's Pacific Heights and rural Marion County. Family experienced financial difficulties when father filed for bankruptcy in 1987 during her time at Hotchkiss School.",
-    "familyBackgroundKo": "1970년 4월 7일 맥켄지 스콧 터틀로 태어났다. 아버지: 제이슨 베이커 터틀, 재무계획가. 어머니: 홀리데이 로빈(구밍 출생), 주부. 형제가 둘 있다. 샌포란시스코의 퍼시픽 하이츠와 시골 마리온 카운티에 집을 가진 부유한 가정. 핫칙키스 스쿨 재학 중 1987년 아버지가 파산을 신청하면서 가족이 경제적 어려움을 겪음.",
-    "education": "Hotchkiss School in Lakeville, Connecticut (graduated 1988). Princeton University (B.A. in English, 1992), studied under Nobel Laureate Toni Morrison and served as her research assistant on the novel Jazz during senior year.",
-    "educationKo": "코네티컷 레이크빌의 핫칙키스 스쿨(1988년 졸업). 프린스턴 대학(영어 학사, 1992), 노벨상 수상자 토니 모리슨 밑에서 공부했고, 4학년 때 그녀의 소설 '재즈'의 연구 조수로 봉사.",
-    "earlyLife": "Began writing seriously at age six, completing a 142-page book called The Book Worm (later destroyed in a flood). Early passion for literature and reading shaped her worldview. Close mentorship with Toni Morrison at Princeton profoundly influenced her approach to learning, teaching, and later philanthropy.",
-    "earlyLifeKo": "6세부터 진지하게 글쓰기를 시작하여 '책벌레'라는 142페이지 책을 완성(나중에 홍수로 파괴). 문학과 독서에 대한 초기의 열정은 그녀의 세계관을 형성. 프린스턴에서 토니 모리슨과의 밀접한 멘토십은 그녀의 학습, 교육, 그리고 나중의 자선 사업에 대한 접근 방식에 깊은 영향을 미침.",
-    "source": "Wikipedia, Britannica, Princeton Alumni Weekly, Fortune"
+    "birthPlace": "Kaspiysk, Caspian Sea region, Russian SFSR",
+    "birthPlaceKo": "러시아 SFSR, 카스피해 지역 카스피스크",
+    "familyBackground": "Born to an Ashkenazi Jewish family; father Viktor Mikhelson worked in engineering sector",
+    "familyBackgroundKo": "아슈케나지 유대인 가정에서 태어남; 아버지 빅토르 미헬손은 공학 분야에서 근무",
+    "education": "Graduated from Samara Institute of Civil Engineering with degree in Industrial Civil Engineering in 1977",
+    "educationKo": "1977년 사마라 토목공학대학교에서 산업토목공학 학위 취득",
+    "earlyLife": "Began career as an engineer and foreman at construction company in Tyumen, Siberia; worked on Urengoi-Chelyabinsk gas pipeline projects",
+    "earlyLifeKo": "엔지니어 및 감독으로 시베리아 튜멘의 건설회사에서 근무 시작; 우렌고이-첼랴빈스크 가스 파이프라인 프로젝트에 참여",
+    "source": "Wikipedia, Bloomberg, international biographical sources"
   },
   "careerTimeline": [
     {
-      "year": 1992,
-      "event": "Graduated from Princeton University with B.A. in English. Began working as a research associate at D.E. Shaw investment firm in New York.",
-      "eventKo": "프린스턴 대학에서 영어 학사로 졸업. 뉴욕의 D.E. Shaw 투자 회사에서 연구원으로 일하기 시작"
+      "year": 1977,
+      "event": "Graduated with degree in Industrial Civil Engineering from Samara Institute of Civil Engineering; began career as engineer",
+      "eventKo": "사마라 토목공학대학교에서 산업토목공학 학위 취득 및 엔지니어로 경력 시작"
     },
     {
-      "year": 1993,
-      "event": "Married Jeff Bezos at D.E. Shaw. Played instrumental role in founding Amazon as accountant and negotiated the company's first freight contract.",
-      "eventKo": "D.E. Shaw에서 제프 베조스와 결혼. 회계사로서 아마존 창립에 중추적 역할을 했고 회사의 첫 번째 화물 계약을 협상"
+      "year": 1985,
+      "event": "Became chief engineer of Ryazantruboprovodstroy trust, a gas pipeline construction company",
+      "eventKo": "가스 파이프라인 건설회사 료잔투보프로보드스트로이 트러스트의 수석 엔지니어 임명"
     },
     {
       "year": 1994,
-      "event": "Amazon officially launched. Scott was one of the first employees and early contributors to the company's foundational business operations.",
-      "eventKo": "아마존 공식 출범. 스콧은 최초 직원 중 한 명이자 회사의 기초 비즈니스 운영의 초기 기여자"
-    },
-    {
-      "year": 1997,
-      "event": "Amazon went public with an IPO. Scott's early stake in the company began accumulating substantial value.",
-      "eventKo": "아마존 기업공개(IPO). 스콧의 초기 회사 지분이 상당한 가치를 축적하기 시작"
+      "event": "Founded Novafinivest (later renamed Novatek), positioned as main private competitor to state-owned Gazprom",
+      "eventKo": "노바피니베스트(후에 노바텍으로 개명) 설립, 국영 가즈프롬의 주요 민간 경쟁사로 위치"
     },
     {
       "year": 2005,
-      "event": "Published debut novel The Testing of Luther Albright, which won the American Book Award. Novel traced the travails of a dam engineer and his family.",
-      "eventKo": "아메리칸 북 어워드를 수상한 데뷔 소설 '루터 알브라이트의 시험'을 발행. 소설은 댐 엔지니어와 그의 가족의 시련을 추적"
+      "event": "Novatek goes public on London Stock Exchange; IPO raises $879 million, making Mikhelson a billionaire with 7% stake yielding over $300 million",
+      "eventKo": "노바텍이 런던증권거래소에 상장; IPO로 8억 7900만 달러 조달, 7% 지분으로 3억 달러 이상 수익 창출로 억만장자 달성"
     },
     {
-      "year": 2013,
-      "event": "Published second novel Traps, a suspenseful tale about how the lives of four women intersect over four days.",
-      "eventKo": "네 명의 여성의 삶이 4일간 어떻게 얽히는지에 대한 흥미진진한 이야기인 두 번째 소설 'Traps' 발행"
+      "year": 2010,
+      "event": "Acquired controlling stake in Sibur petrochemical company from Gazprombank; diversifies into chemicals alongside natural gas",
+      "eventKo": "가즈프롬뱅크로부터 시부르 석유화학회사 지배 지분 인수; 천연가스와 함께 화학산업으로 다각화"
     },
     {
-      "year": 2019,
-      "event": "Divorced Jeff Bezos. Settlement granted her approximately 25% of Amazon equity (3.5M shares worth $35.6 billion). Became world's third-richest woman. Signed the Giving Pledge in May, committing to give away majority of wealth to charity.",
-      "eventKo": "제프 베조스와 이혼. 합의로 아마존 지분의 약 25%(35억 6천만 달러 가치의 350만 주)를 획득. 세계에서 가장 부유한 여성 3위가 됨. 5월 기빙 플레지에 서명, 자산의 대부분을 자선에 기부할 것을 약속"
+      "year": 2011,
+      "event": "Completed acquisition of majority stake in Sibur petrochemical company; becomes leading figure in Russian energy and chemicals",
+      "eventKo": "시부르 석유화학회사 다수 지분 인수 완료; 러시아 에너지 및 화학산업의 주도적 인물로 부상"
     },
     {
-      "year": 2020,
-      "event": "Announced $1.7 billion in donations to 116 nonprofits in July. By year-end, had donated record $5.8 billion to working charities, focusing on racial equity, LGBTQ+ equality, and climate change. Named world's richest woman by September.",
-      "eventKo": "7월 116개 비영리단체에 17억 달러 기부 발표. 연말까지 기록적인 58억 달러를 일하는 자선단체에 기부, 인종 평등, LGBTQ+ 평등, 기후 변화에 초점. 9월 세계 최고 부유 여성으로 지명"
+      "year": 2017,
+      "event": "Arctic LNG project development accelerates; Mikhelson leads expansion of Arctic natural gas production capacity",
+      "eventKo": "북극 LNG 프로젝트 개발 가속화; 미헬손이 북극 천연가스 생산 능력 확장 주도"
     },
     {
-      "year": 2021,
-      "event": "Announced $2.7 billion in gifts to 286 organizations in June. Forbes reported $8.5 billion given across 780 organizations over 12-month period. Co-launched Equality Can't Wait Challenge with Melinda French Gates.",
-      "eventKo": "6월 286개 조직에 27억 달러 기부 발표. 포브스는 12개월 동안 780개 조직에 걸쳐 85억 달러를 기부했다고 보도. 멜린다 프렌치 게이츠와 함께 Equality Can't Wait Challenge 공동 출시"
-    },
-    {
-      "year": 2022,
-      "event": "Divorced second husband Dan Jewett after 18 months of marriage. Donated $3 million to Howard University to create Toni Morrison Endowed Chair in Arts and Humanities.",
-      "eventKo": "18개월의 결혼 후 두 번째 남편 댄 주엣과 이혼. 하워드 대학에 300만 달러를 기부하여 토니 모리슨 예술&인문학 기금 설립 의자 창설"
-    },
-    {
-      "year": 2024,
-      "event": "Continued aggressive philanthropic giving. Total cumulative donations surpassed $20 billion to over 1,400 charitable organizations focused on education, health care, and equity.",
-      "eventKo": "적극적인 자선 활동 계속. 총 누적 기부금이 교육, 의료, 형평성에 초점을 맞춘 1,400개 이상의 자선단체에 200억 달러를 초과"
-    },
-    {
-      "year": 2025,
-      "event": "Donated $7.1 billion to charitable causes, the most money given in a single year. HBCU donations alone exceeded $1 billion, reflecting influence of Toni Morrison mentorship. Shifted approach to prioritize repeat grants to previous grantees.",
-      "eventKo": "자선 사업에 71억 달러를 기부, 한 해에 기부한 가장 많은 금액. HBCU 기부만 10억 달러를 초과, 토니 모리슨 멘토십의 영향을 반영. 이전 수혜자에 대한 반복 기부를 우선시하도록 접근 방식 변경"
+      "year": 2023,
+      "event": "Despite international sanctions, maintains position as chairman of Novatek and largest private energy producer in Russia",
+      "eventKo": "국제 제재에도 불구하고 노바텍 회장 및 러시아 최대 민간 에너지 생산업체 지위 유지"
     }
   ],
   "failures": [
     {
-      "year": 2019,
-      "description": "Public divorce from Jeff Bezos marked by humiliation and media scrutiny. Bezos' affair with news anchor Lauren Sánchez emerged publicly during divorce proceedings, detailed in National Enquirer, leading to widespread coverage and emotional turmoil for Scott despite her dignified public response.",
-      "descriptionKo": "제프 베조스와의 공개 이혼은 굴욕과 언론의 집중으로 표시되었다. 베조스의 뉴스 앵커 로렌 산체스와의 바람이 이혼 진행 중에 공개적으로 드러났으며, 내셔널 인콰이어러에 자세히 기술되어 광범위한 보도와 스콧을 위한 정서적 혼란을 초래했지만 그녀의 품위 있는 공개 대응에도 불구하고.",
-      "lesson": "Personal setbacks, however public and painful, can be catalysts for greater purpose. The divorce, though difficult, freed Scott to pursue philanthropic impact aligned with her values rather than institutional constraints. Learned the importance of redirecting pain into purposeful action.",
-      "lessonKo": "개인적 실패는 아무리 공개적이고 고통스러워도 더 큰 목적의 촉매가 될 수 있다. 이혼은 어려웠지만 스콧이 제도적 제약보다는 자신의 가치에 맞춘 자선 영향을 추구할 수 있도록 해방시켰다. 고통을 목적 있는 행동으로 바꾸는 것의 중요성을 배움.",
-      "source": "Fortune, National Law Review, Wikipedia"
-    },
-    {
       "year": 2022,
-      "description": "Second marriage to Dan Jewett collapsed after only 18 months. Divorce represented another personal failure and required significant emotional resilience. Also faced criticism regarding her philanthropic methods and approach from traditional philanthropy establishment.",
-      "descriptionKo": "댄 주엣과의 두 번째 결혼은 단 18개월 후 붕괴되었다. 이혼은 또 다른 개인적 실패를 나타내고 상당한 정서적 회복력을 필요로 했다. 또한 전통 자선 설립에서 그녀의 자선 방법과 접근 방식에 대한 비판을 받았다.",
-      "lesson": "Personal relationships and romantic partnerships proved less stable than her commitment to charitable work. Recognized that romantic partnership may not be central to her identity or fulfillment. Learned to refocus energy on work that provides meaning and purpose.",
-      "lessonKo": "개인적 관계와 로맨틱한 파트너십은 자선 사업에 대한 그녀의 헌신보다 덜 안정적임이 입증되었다. 로맨틱한 파트너십이 그녀의 정체성이나 충만함의 중심이 아닐 수 있음을 인식했다. 의미와 목적을 제공하는 일에 에너지를 재초점하도록 배움.",
-      "source": "Wikipedia, Fortune"
+      "description": "Arctic LNG 2 project heavily disrupted by Western sanctions following Russia's invasion of Ukraine; international partners withdrew, equipment supplies cut off, financing frozen",
+      "descriptionKo": "러시아의 우크라이나 침략 이후 서방 제재로 북극 LNG 2 프로젝트 심각한 차질; 국제 파트너 철수, 장비 공급 단절, 자금 동결",
+      "lesson": "Geopolitical risks and international relations can disrupt even the most advanced energy projects; heavy reliance on Western technology and partnerships creates vulnerability",
+      "lessonKo": "지정학적 위험과 국제관계는 가장 첨단의 에너지 프로젝트도 중단시킬 수 있음; 서방 기술과 파트너십에 대한 과도한 의존성은 취약성 초래",
+      "source": "Bloomberg, international news reports, Reuters"
     },
     {
-      "year": 2020,
-      "description": "Faced criticism from traditional philanthropic institutions and some nonprofit leaders who questioned her rapid deployment of funds, lack of formal vetting procedures, and perceived disruption of established grant-making hierarchies. Some accused her of creating instability in the nonprofit sector.",
-      "descriptionKo": "전통적인 자선 기관과 일부 비영리 리더들로부터 그녀의 빠른 기금 배치, 공식적인 검증 절차 부족, 확립된 보조금 제공 계층 구조의 인지된 파괴에 대해 의문을 제기하는 비판에 직면했다. 일부는 그녀가 비영리 부문에 불안정성을 야기했다고 비난했다.",
-      "lesson": "Established approaches to philanthropy carry built-in gatekeeping and power structures that may not serve the actual needs of communities. Her rapid, trust-based approach, though unconventional, proved more effective and equitable than traditional vetting processes. Learned to trust local organizations' expertise.",
-      "lessonKo": "확립된 자선 접근 방식은 커뮤니티의 실제 필요를 충족하지 못할 수 있는 내재된 게이트키핑과 권력 구조를 가지고 있다. 그녀의 빠르고 신뢰 기반의 접근 방식은 비록 비관례적이지만 전통적인 검증 프로세스보다 더 효과적이고 공평함이 입증되었다. 지역 조직의 전문성을 신뢰하도록 배움.",
-      "source": "Chronicle of Philanthropy, Fortune, Philanthropy Magazine"
+      "year": 2014,
+      "description": "Earlier Crimea annexation and initial sanctions forced Novatek to seek alternative financing and partnerships; challenged Mikhelson's assumption of stable Western relationship",
+      "descriptionKo": "2014년 크림 병합 및 초기 제재로 노바텍이 대체 자금조달 및 파트너십 모색 강요; 미헬손의 안정적인 서방 관계 가정에 도전",
+      "lesson": "Political instability and government relations can threaten business continuity; need to develop alternative strategies and partnerships independent of geopolitical alignment",
+      "lessonKo": "정치 불안정과 정부 관계는 사업 연속성을 위협할 수 있음; 지정학적 정렬과 무관한 대체 전략 및 파트너십 개발 필요",
+      "source": "Financial times, Bloomberg, energy industry reports"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2019,
-      "netWorth": 35.6
+      "year": 2005,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2010,
+      "netWorth": 12.8
+    },
+    {
+      "year": 2015,
+      "netWorth": 18.5
     },
     {
       "year": 2020,
-      "netWorth": 62.0
-    },
-    {
-      "year": 2021,
-      "netWorth": 54.0
-    },
-    {
-      "year": 2022,
-      "netWorth": 47.0
-    },
-    {
-      "year": 2023,
-      "netWorth": 42.0
-    },
-    {
-      "year": 2024,
-      "netWorth": 41.0
+      "netWorth": 22
     },
     {
       "year": 2025,
-      "netWorth": 40.0
+      "netWorth": 28.3
     }
   ],
   "quotes": [
     {
-      "text": "Last year I pledged to give the majority of my wealth back to the society that helped generate it, to do it thoughtfully, to get started soon, and to keep at it until the safe is empty. There's no question in my mind that anyone's personal wealth is the product of a collective effort, and of social structures which present opportunities to some people, and obstacles to countless others.",
-      "textKo": "지난해 나는 나의 자산의 대부분을 그것을 생성하는 데 도움이 된 사회에 돌려주기로 약속했다. 신중하게 시작하고 금고가 비워질 때까지 계속할 것이다. 개인 자산은 집단의 노력과 일부 사람들에게는 기회를 제시하고 수많은 다른 사람들에게는 장애물을 제시하는 사회 구조의 산물이라는 데 의심의 여지가 없다.",
-      "context": "Explaining her decision to sign the Giving Pledge and commit to philanthropic work",
-      "contextKo": "기빙 플레지에 서명하고 자선 활동에 헌신하기로 한 결정을 설명",
-      "source": "BrainyQuote, Giving Pledge"
+      "text": "Without international cooperation, the development of the Arctic zone is practically impossible.",
+      "textKo": "국제 협력 없이는 북극 지역의 개발은 거의 불가능합니다.",
+      "context": "Speaking about Arctic LNG expansion and the necessity of global partnerships",
+      "contextKo": "북극 LNG 확장 및 세계 파트너십의 필요성에 대해 언급",
+      "source": "TASS, international economic forums"
     },
     {
-      "text": "The greatest gift you can give someone is your time. Because when you give your time, you are giving a portion of your life that you can never get back.",
-      "textKo": "당신이 누군가에게 줄 수 있는 최고의 선물은 당신의 시간이다. 당신이 시간을 주면 절대 돌아올 수 없는 당신의 인생의 일부를 주는 것이기 때문이다.",
-      "context": "On the value of personal connection and presence",
-      "contextKo": "개인적 연결과 현존의 가치에 대해",
-      "source": "BrainyQuote"
+      "text": "Of course, sanctions have affected us. We have made efforts not only in terms of industry and engineering solutions, but we have also managed to obtain the main equipment for all three trains of the Arctic LNG-2 project.",
+      "textKo": "물론 제재는 우리에게 영향을 미쳤습니다. 우리는 산업 및 공학 솔루션뿐만 아니라 북극 LNG-2 프로젝트의 세 개 트레인 모두의 주요 장비를 확보하려고 노력했습니다.",
+      "context": "Responding to Western sanctions and demonstrating resilience in project development",
+      "contextKo": "서방 제재에 대응하고 프로젝트 개발의 탄력성을 보여줌",
+      "source": "Reuters, Verona Eurasian Economic Forum remarks"
     },
     {
-      "text": "Writing is such a 'pretend' profession. Nobody is counting on you at all. You can't 'pretend' to be a lawyer or a teacher. It takes a lot of grit to continue.",
-      "textKo": "글쓰기는 '가짜' 직업이다. 아무도 당신을 기대하지 않는다. 변호사나 교사인 '척할' 수 없다. 계속하려면 많은 용기가 필요하다.",
-      "context": "On the challenges of pursuing a literary career and the importance of persistence",
-      "contextKo": "문학 경력을 추구하는 어려움과 끈기의 중요성에 대해",
-      "source": "BrainyQuote"
-    },
-    {
-      "text": "The key to being happy is knowing you have the power to choose what to accept and what to let go.",
-      "textKo": "행복해지기 위한 열쇠는 무엇을 받아들이고 무엇을 놓아줄 것인지 선택할 권력이 있다는 것을 아는 것이다.",
-      "context": "On personal agency and emotional resilience",
-      "contextKo": "개인적 대행성과 정서적 회복력에 대해",
-      "source": "BrainyQuote"
-    },
-    {
-      "text": "She was an amazingly supportive teacher, really good at bringing out the best and guiding you through that [writing] process and very supportive after I left school too. Morrison's effectiveness as a teacher in addition to her prowess as a writer and editor showed her that you can have an impact in multiple ways.",
-      "textKo": "그녀는 놀랍도록 지지하는 선생님이었고 최선을 끌어내고 그 [글쓰기] 과정을 통해 당신을 안내하는 데 정말 좋았으며 학교를 떠난 후에도 매우 지지적이었다. 작가이자 편집자로서의 능력과 더불어 교사로서의 모리슨의 효과는 당신이 여러 방식으로 영향을 미칠 수 있다는 것을 보여주었다.",
-      "context": "Speaking to Charlie Rose in 2013 about Toni Morrison's influence on her approach to education and giving",
-      "contextKo": "2013년 찰리 로즈와의 교육과 기부에 대한 자신의 접근 방식에 대한 토니 모리슨의 영향에 대해 대화",
-      "source": "Fortune, Princeton Alumni Weekly"
+      "text": "Novatek produces 12% of Russia's natural gas and is the largest non-state-owned natural gas company in the country.",
+      "textKo": "노바텍은 러시아 천연가스의 12%를 생산하며 러시아 최대의 민간 천연가스 회사입니다.",
+      "context": "Describing Novatek's dominant market position and significance in Russian energy sector",
+      "contextKo": "노바텍의 지배적 시장 지위와 러시아 에너지 부문에서의 중요성 설명",
+      "source": "Bloomberg Billionaires Index, company reports"
     }
   ],
   "books": {
     "authored": [
       {
-        "title": "The Testing of Luther Albright",
-        "note": "Debut novel published in 2005. Traces the travails of a dam engineer and his family. Won the American Book Award. Early critical success established her as a serious literary author.",
-        "noteKo": "2005년 발행된 데뷔 소설. 댐 엔지니어와 그의 가족의 시련을 추적. 아메리칸 북 어워드 수상. 초기 비평의 성공은 그녀를 진지한 문학 작가로 확립했다."
-      },
-      {
-        "title": "Traps",
-        "note": "Second novel published in 2013. Suspenseful narrative about how the lives of four women intersect over four days. Showcases her development as a novelist.",
-        "noteKo": "2013년 발행된 두 번째 소설. 네 명의 여성의 삶이 4일에 걸쳐 어떻게 얽히는지에 대한 흥미진진한 이야기. 소설가로서의 그녀의 발전을 보여준다."
+        "title": "None published",
+        "note": "Mikhelson has not authored books; focus is on business operations and energy industry leadership",
+        "noteKo": "미헬손이 저술한 책은 없음; 사업 운영 및 에너지 산업 리더십에 집중"
       }
     ],
     "recommended": [
       {
-        "title": "Jazz",
-        "author": "Toni Morrison",
-        "why": "Scott served as research assistant on this novel during her senior year at Princeton. Morrison's masterwork on African-American history and identity deeply influenced Scott's understanding of literature, education, and later her commitment to HBCUs and racial equity philanthropy.",
-        "whyKo": "스콧은 프린스턴 4학년 때 이 소설의 연구 조수로 봉사했다. 아프리카계 미국인의 역사와 정체성에 대한 모리슨의 걸작은 문학, 교육에 대한 스콧의 이해와 나중에 HBCU와 인종 평등 자선에 대한 그녀의 헌신에 깊은 영향을 미쳤다."
+        "title": "The Prize: The Epic Quest for Oil, Money & Power",
+        "author": "Daniel Yergin",
+        "why": "Comprehensive history of oil industry geopolitics; essential for understanding global energy markets and politics affecting companies like Novatek",
+        "whyKo": "석유 산업 지정학의 포괄적 역사; 노바텍 같은 회사에 영향을 미치는 글로벌 에너지 시장과 정치 이해에 필수"
       },
       {
-        "title": "Beloved",
-        "author": "Toni Morrison",
-        "why": "One of Morrison's most celebrated works. The novel's exploration of trauma, freedom, and human dignity aligns with Scott's philanthropic focus on addressing systemic inequities and supporting historically marginalized communities.",
-        "whyKo": "모리슨의 가장 유명한 작품 중 하나. 소설의 트라우마, 자유, 인간 존엄에 대한 탐구는 체계적 불형평성을 다루고 역사적으로 소외된 커뮤니티를 지원하는 스콧의 자선 초점과 일치한다."
-      },
-      {
-        "title": "The Will to Change: Men, Masculinity, and Love",
-        "author": "bell hooks",
-        "why": "Explores themes of gender equity and transformative love, directly aligned with Scott's philanthropic priorities around gender equality and social justice initiatives, including her Equality Can't Wait Challenge.",
-        "whyKo": "성 평등과 변환적 사랑의 테마를 탐구하며, 성 평등과 사회 정의 이니셔티브(Equality Can't Wait Challenge 포함)에 대한 스콧의 자선 우선순위와 직접 일치한다."
+        "title": "Russia's Energy Policies: National, Interregional and Global Levels",
+        "author": "Various energy policy analysts",
+        "why": "Explores Russia's strategic energy policies and international relations in the energy sector",
+        "whyKo": "러시아의 전략적 에너지 정책과 에너지 부문의 국제관계 탐구"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Being the world's fastest-giving philanthropist, dedicating herself to radical redistribution of wealth at unprecedented speed and scale. Known for her quiet, methodical approach to giving—announcing donations through medium posts rather than seeking publicity. Described as thoughtful, reflective, and deeply committed to equity. Maintains strong literary sensibility and intellectual curiosity. Recognized as exceptionally intelligent and principled, with a focus on supporting organizations led by people from marginalized communities.",
-    "knownForKo": "세계에서 가장 빠르게 기부하는 자선가로서, 전례 없는 속도와 규모로 부의 급진적 재분배에 헌신. 중간 포스트를 통해 기부를 발표하고 공개성을 추구하지 않는 조용하고 체계적인 기부 접근으로 알려짐. 사려깊고 반성적이며 형평성에 깊이 헌신하는 것으로 묘사됨. 강한 문학적 감성과 지적 호기심을 유지. 특히 지능적이고 원칙적이며, 소외된 커뮤니티 출신의 리더들에 의해 주도되는 조직을 지원하는 데 초점을 맞춘 것으로 인식됨.",
-    "philanthropy": "Has given away over $26 billion since 2019, more than any other individual philanthropist in U.S. history. Focus areas include: racial equity, gender equity, LGBTQ+ equity, public health, climate change, education, disaster recovery, and support for Historically Black Colleges and Universities (HBCUs). Pioneered trust-based philanthropy that bypasses traditional gatekeeping and vetting processes. In 2025 alone donated $7.1 billion. Signatory to the Giving Pledge, committed to giving majority of wealth to charity. Designed her giving to support organizations led by and serving communities typically overlooked by traditional philanthropy.",
-    "philanthropyKo": "2019년 이후 260억 달러 이상을 기부, 미국 역사상 다른 개별 자선가보다 많음. 초점 영역: 인종 평등, 성 평등, LGBTQ+ 평등, 공중 보건, 기후 변화, 교육, 재난 복구, 역사적 흑인 대학(HBCU) 지원. 전통적 게이트키핑과 검증 프로세스를 우회하는 신뢰 기반 자선을 개척. 2025년만 해도 71억 달러를 기부. 기빙 플레지 서명자, 자산의 대부분을 자선에 기부할 것을 약속. 기부를 전통 자선에 의해 일반적으로 간과되는 커뮤니티에 의해 주도되고 봉사하는 조직을 지원하도록 설계.",
-    "controversies": "Faced criticism from traditional philanthropy establishment for rapid deployment of funds without extensive vetting procedures. Some wealthy philanthropists and established foundations viewed her approach as disruptive to established hierarchies. Her second marriage to Dan Jewett, a science teacher, and subsequent divorce generated tabloid coverage. Received some criticism over the scale of her giving relative to her remaining wealth. Political controversy arose around certain grantees, with some conservatives questioning her support for DEI (Diversity, Equity, Inclusion) initiatives, though these criticisms intensified after 2023.",
-    "controversiesKo": "광범위한 검증 절차 없이 빠른 기금 배치로 전통 자선 설립으로부터 비판받음. 일부 부유한 자선가들과 확립된 재단은 그녀의 접근을 확립된 계층 구조에 대한 파괴적으로 봄. 과학 교사 댄 주엣과의 두 번째 결혼과 그 이후의 이혼은 타블로이드 보도를 생성. 그녀의 기부 규모가 남은 자산에 비해 상당하다는 비판을 받음. 특정 수혜자 주변의 정치적 논쟁이 발생, 일부 보수파가 DEI(다양성, 형평성, 포용성) 이니셔티브에 대한 그녀의 지원에 의문을 제기했으나 이러한 비판은 2023년 이후 심화됨."
-  },
-  "additionalInsights": {
-    "pivotalMentors": [
-      {
-        "name": "Toni Morrison",
-        "relationship": "Nobel Laureate English professor and senior thesis advisor at Princeton University. Served as Scott's writing mentor and intellectual guide during formative college years (1988-1992). Maintained relationship decades after graduation.",
-        "influence": "Morrison's modeling of intellectual excellence, emotional intelligence, and commitment to amplifying marginalized voices profoundly shaped Scott's worldview. Morrison helped Scott land her job at D.E. Shaw through a recommendation. Scott's $3 million donation to Howard University to create the Toni Morrison Endowed Chair in Arts and Humanities directly reflects this influence. Scott has stated that Morrison's ability to impact in multiple ways (as writer, teacher, editor) inspired her approach to philanthropy as a vehicle for creating systemic change."
-      },
-      {
-        "name": "Jeff Bezos",
-        "relationship": "Ex-husband (married 1993-2019). Colleague at D.E. Shaw before co-founding Amazon together. Primary professional and personal partner for 26 years.",
-        "influence": "Bezos provided the pathway to extraordinary wealth that enabled Scott's philanthropic work. Their collaboration on Amazon's founding shaped her understanding of business, innovation, and value creation. However, Scott has emphasized that her giving philosophy diverges significantly from Bezos's approach, reflecting her independent values around wealth distribution and social responsibility."
-      }
-    ],
-    "dailyRoutine": "Limited public information available about daily routine. Scott is known to maintain a private, low-profile lifestyle despite her wealth and prominence. She spends considerable time researching nonprofit organizations, reading grant proposals, and corresponding with grantees. Known for reading extensively, including grant requests and organizational materials. Maintains active presence on Medium, where she announces giving initiatives and reflects on philanthropic philosophy. Reportedly dedicates significant time to learning about communities and organizations before making giving decisions.",
-    "keyAnecdotes": [
-      "At age six, Scott wrote a 142-page book titled The Book Worm that was destroyed in a flood, but this early creative effort foreshadowed her future as an author and her commitment to supporting creative institutions.",
-      "During her senior year at Princeton, Scott worked as a research assistant to Nobel Laureate Toni Morrison on the novel Jazz. Morrison later called her 'one of the best students I've ever had in my creative-writing classes.'",
-      "Morrison made a crucial phone call recommending Scott for a job at D.E. Shaw investment firm, where she would meet Jeff Bezos. This introduction indirectly led to the founding of Amazon and Scott's eventual wealth.",
-      "Scott has spoken about watching her spouse have adventures with genuine delight, reflecting her capacity for joy in others' success beyond her own achievements. This perspective shaped her approach to enabling others through philanthropic funding.",
-      "In 2020, at the height of the COVID-19 pandemic, Scott made rapid donations to organizations serving vulnerable populations like Meals on Wheels and the YWCA, demonstrating her commitment to meeting urgent needs quickly rather than following traditional philanthropic timelines.",
-      "Scott's December 2025 giving announcement revealed a strategic shift: for the first time, the majority of her gifts went to previous grantees rather than new organizations, reflecting her belief in deepening impact through sustained partnerships rather than one-off grants."
-    ],
-    "turningPoint": "The 2019 divorce from Jeff Bezos served as the watershed moment in Scott's life. At age 49, she received approximately $35.6 billion in Amazon stock, becoming the world's third-richest woman and 22nd-richest person overall. This financial windfall coincided with personal heartbreak—the public humiliation of her husband's affair with news anchor Lauren Sánchez, which was exposed by the National Enquirer. However, rather than retreating or seeking revenge, Scott transformed her pain into purpose. Within weeks of the divorce settlement, she signed the Giving Pledge. Within months, she began the unprecedented systematic redistribution of her wealth. The divorce—ostensibly a personal failure—became the catalyst for redefining modern philanthropy and challenging the gatekeeping structures of traditional charitable giving. Scott's response to this crisis demonstrated that personal setback could fuel systemic change at historical scale.",
-    "managementStyle": "Scott operates through a philosophy of radical trust and humility. Rather than creating a large foundation with traditional hierarchical structures, she conducts independent research on organizations and communities. Her giving decisions are informed by deep engagement with nonprofit leaders and community members rather than formal application processes. She practices what is known as 'trust-based philanthropy'—believing that organizations serving communities understand their own needs better than external funders. Scott delegates authority to the people doing the work, providing substantial unrestricted grants. Her approach emphasizes speed over caution, equity over gatekeeping, and the wisdom of communities over the preferences of wealthy donors. She avoids seeking credit or publicity for her gifts, announcing donations through Medium posts with minimal fanfare. Scott's management of her philanthropy reflects her intellectual background—thoughtful, evidence-based, reflective, and deeply committed to learning from mistakes."
+    "knownFor": "Building Russia's largest private natural gas company; pioneering Arctic LNG development; strategic expansion into petrochemicals through Sibur acquisition; maintaining business through international sanctions; visionary leadership in Russian energy independence",
+    "knownForKo": "러시아 최대 민간 천연가스 회사 건설; 북극 LNG 개발 선도; 시부르 인수를 통한 석유화학 전략적 확장; 국제 제재 속 사업 유지; 러시아 에너지 자립 비전 리더십",
+    "philanthropy": "Founded V-A-C Foundation (Victoria, Art, Contemporary), a major contemporary art nonprofit organization; stated that 99% of personal interest is in Russian and contemporary art; significant supporter of cultural initiatives in Russia",
+    "philanthropyKo": "현대 미술 비영리단체 V-A-C 재단(빅토리아, 미술, 현대) 설립; 개인적 관심의 99%가 러시아 및 현대 미술에 있다고 명시; 러시아 문화 이니셔티브의 주요 후원자",
+    "controversies": "Novatek received significant government support and favorable contracts; questions about political connections to Putin administration; Arctic LNG 2 project became focal point of international controversy due to geopolitical tensions and sanctions evasion attempts; debates over environmental impact of Arctic resource extraction",
+    "controversiesKo": "노바텍이 상당한 정부 지원과 유리한 계약 획득; 푸틴 행정부와의 정치적 관계에 대한 의문; 북극 LNG 2 프로젝트가 지정학적 긴장과 제재 우회 시도로 국제 논쟁의 초점이 됨; 북극 자원 채취의 환경 영향에 대한 논쟁"
   },
   "sajuConnection": {
-    "note": "Leave null.",
+    "note": null,
     "value": null
   }
 }

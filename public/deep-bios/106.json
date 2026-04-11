@@ -1,163 +1,251 @@
 {
   "id": "106",
-  "name": "Wang Chuanfu",
-  "nameKo": "왕촨푸",
+  "name": "Rupert Murdoch",
   "childhood": {
-    "birthPlace": "Anhui Province, China; born into poor farmer family",
-    "birthPlaceKo": "중국 안휘성; 빈곤한 농부 가정에 태어남",
-    "familyBackground": "Born April 8, 1966. Orphaned as a teenager and raised by elder brother and sister despite difficult circumstances. Family experienced rural poverty but emphasized education and perseverance.",
-    "familyBackgroundKo": "1966년 4월 8일 생. 십대에 고아가 되어 형과 누나에게 양육받았다. 가족은 농촌 빈곤을 겪었지만 교육과 인내를 강조했다.",
-    "education": "Studied metallurgical physical chemistry at Central South Industrial University (now Central South University), graduated 1987. Earned master's degree in materials from Beijing General Research Institute of Nonferrous Metals. Worked as deputy director at research institute.",
-    "educationKo": "중남공업대학교(현 중남대학교)에서 금속 물리 화학을 전공하여 1987년 졸업했다. 베이징 비철금속 종합연구소에서 재료 석사학위를 취득했다. 연구소의 부국장으로 근무했다.",
-    "earlyLife": "Mid-level government researcher focused on rare-earth metals crucial to batteries and electronics. Worked in Beijing during the rise of China's technological sector in the early 1990s.",
-    "earlyLifeKo": "배터리 및 전자제품에 필수적인 희토류 금속에 중점을 둔 중간 수준의 정부 연구원으로 근무했다. 1990년대 초 중국의 기술 부문 상승기 동안 베이징에서 일했다.",
-    "source": "Wikipedia, South China Morning Post, Our China Story"
+    "birthPlace": "Melbourne, Victoria, Australia",
+    "birthPlaceKo": "호주 빅토리아 멜버른",
+    "familyBackground": "Son of Sir Keith Arthur Murdoch (1885-1952, war correspondent and regional newspaper magnate) and Dame Elisabeth Joy Greene (1909-2012). Second of four children: two sisters and one brother. Five generations of family descended from Scottish immigrants Reverend James Murdoch (1818-1884) and Helen Garden (1826-1905) from Pitsligo, Aberdeenshire, Scotland who migrated to Victoria in 1884.",
+    "familyBackgroundKo": "전쟁 특파원이자 지역 신문 재벌인 아버지 키스 아서 머독(1885-1952)과 어머니 엘리자베스 조이 그린(1909-2012)의 아들. 4명의 자녀 중 차남(누나 2명, 남동생 1명). 스코틀랜드 스코틀랜드 피츠리고에서 나온 스코틀랜드 이민자 제임스 머독 목사(1818-1884)와 헬렌 가든(1826-1905)으로부터 5대가 1884년 빅토리아로 이민한 자손",
+    "education": "목장에서 고전 문학과 음악(거실의 그랜드 피아노)에 둘러싸여 양육. 질롱 그래머 스쿨 재학(The Corian 교지 공동편집자, If Revived 학생 저널 편집자). 옥스포드 대학 우스터 칼리지에서 철학, 정치학, 경제학 공부. 방에 레닌 흉상을 두어 '붉은 루퍼트'로 불림. 옥스포드 대학 노동당 회원. 노동당 클럽 후보 비서. 옥스포드 학생 출판사 및 처웰 출판사 관리",
+    "educationKo": "목장에서 고전 문학과 음악(거실의 그랜드 피아노)에 둘러싸여 양육. 질롱 그래머 스쿨 재학(The Corian 교지 공동편집자, If Revived 학생 저널 편집자). 옥스포드 대학 우스터 칼리지에서 철학, 정치학, 경제학 공부. 방에 레닌 흉상을 두어 '붉은 루퍼트'로 불림. 옥스포드 대학 노동당 회원. 노동당 클럽 후보 비서. 옥스포드 학생 출판사 및 처웰 출판사 관리",
+    "earlyLife": "Learned to ride horses at age five. Ideal childhood on farm. Worked part-time at Melbourne Herald under father's supervision while groomed to take over family business. Father died when Murdoch was 21, requiring him to return from Oxford. Inherited decimated News Limited after father's estate taxes; company established in 1923.",
+    "earlyLifeKo": "5세에 승마 배움. 목장에서 이상적 어린 시절을 보냄. 아버지 감독 하에 멜버른 헤럴드에서 파트타임으로 일하며 가족 사업을 인수하도록 준비. 머독이 21세일 때 아버지 사망하여 옥스포드에서 돌아와야 함. 아버지의 유산 세금 이후 1923년에 설립된 뉴스 리미티드를 상속받음",
+    "source": "https://en.wikipedia.org/wiki/Rupert_Murdoch; https://www.britannica.com/biography/Rupert-Murdoch; https://www.thefamouspeople.com/profiles/keith-rupert-murdoch-2771.php"
   },
   "careerTimeline": [
     {
-      "year": 1987,
-      "event": "Graduated from Central South Industrial University with degree in metallurgical physical chemistry.",
-      "eventKo": "중남공업대학교에서 금속 물리 화학 학위로 졸업했다."
+      "year": 1952,
+      "event": "Returned from Oxford to take charge of News Limited following father's death",
+      "eventKo": "아버지 사망 후 옥스포드에서 돌아와 뉴스 리미티드 경영 인수"
     },
     {
-      "year": 1990,
-      "event": "Earned master's degree in materials from Beijing General Research Institute of Nonferrous Metals and became deputy director at institute.",
-      "eventKo": "베이징 비철금속 종합연구소에서 재료 석사학위를 취득하고 연구소 부국장이 되었다."
+      "year": 1954,
+      "event": "Took over News Limited and began expansion strategy",
+      "eventKo": "뉴스 리미티드 완전 인수 및 확장 전략 시작"
     },
     {
-      "year": 1993,
-      "event": "Joined battery company established by research institute in Shenzhen as general manager, leading business operations and product development.",
-      "eventKo": "연구소가 설립한 심천의 배터리 회사에 사장으로 입사하여 사업 운영과 제품 개발을 주도했다."
+      "year": 1960,
+      "event": "Acquired Sydney Daily Mirror and Sunday Mirror, establishing national footprint",
+      "eventKo": "시드니 데일리 미러와 선데이 미러 인수, 전국적 기반 확립"
     },
     {
-      "year": 1995,
-      "event": "Founded BYD Company with approximately $400,000 borrowed from cousin. Started with 20 employees as battery manufacturer, focusing on mobile phone batteries.",
-      "eventKo": "사촌으로부터 차용한 약 40만 달러로 BYD 회사를 설립했다. 20명의 직원으로 시작하여 휴대폰 배터리에 중점을 둔 배터리 제조업체로 시작했다."
+      "year": 1964,
+      "event": "Launched The Australian, Australia's first national newspaper",
+      "eventKo": "호주 첫 번째 국가 신문 'The Australian' 창간"
     },
     {
-      "year": 2003,
-      "event": "Pivoted BYD into automotive industry by acquiring Tsinchuan Automobile Company. Declared mission: 'We want to use our technological innovations to help solve the world's energy problems.'",
-      "eventKo": "징촨 자동차 회사를 인수하여 BYD를 자동차 산업으로 전환했다. '우리는 기술 혁신을 통해 세계 에너지 문제를 해결하고 싶다'고 선언했다."
+      "year": 1969,
+      "event": "Gained control of UK's News of the World and The Sun newspapers",
+      "eventKo": "영국의 News of the World와 The Sun 신문 인수"
     },
     {
-      "year": 2008,
-      "event": "Set goal for BYD to become leader in Chinese automotive market by 2015 and largest car manufacturer globally by 2025. Warren Buffett's Berkshire Hathaway invests $230 million for 9.89% stake.",
-      "eventKo": "2015년까지 중국 자동차 시장의 리더, 2025년까지 전 세계 최대 자동차 제조업체가 되겠다고 목표를 설정했다. 워렌 버핏의 버크셔 해서웨이가 9.89% 지분을 위해 2억 3천만 달러를 투자했다."
+      "year": 1970,
+      "event": "Expanded to United States; acquired New York Post, New York Magazine, and The Village Voice",
+      "eventKo": "미국으로 확장. 뉴욕 포스트, 뉴욕 매거진, The Village Voice 인수"
+    },
+    {
+      "year": 1979,
+      "event": "Founded News Corporation Ltd., global media holding company",
+      "eventKo": "글로벌 미디어 지주회사 뉴스 코퍼레이션 리미티드 설립"
+    },
+    {
+      "year": 1985,
+      "event": "Acquired Twentieth Century Fox Film Corporation and Metromedia television stations; consolidated into Fox, Inc., major US broadcast television network",
+      "eventKo": "20세기 폭스 필름 코퍼레이션과 메트로미디어 텔레비전 방송국 인수. 미국 주요 지상파 방송 네트워크인 폭스사로 통합"
+    },
+    {
+      "year": 1996,
+      "event": "Launched Fox News Channel, 24-hour cable news station, entering cable news market",
+      "eventKo": "24시간 케이블 뉴스 방송국 폭스 뉴스 채널 출범, 케이블 뉴스 시장 진출"
+    },
+    {
+      "year": 2007,
+      "event": "Acquired Dow Jones Company for $5.6 billion, gaining control of Wall Street Journal",
+      "eventKo": "다우존스 컴퍼니를 56억 달러에 인수하여 월스트리트 저널 통제"
     },
     {
       "year": 2015,
-      "event": "BYD becomes world's largest plug-in electric vehicle manufacturer. Company generates record battery production and begins expanding international markets.",
-      "eventKo": "BYD는 세계 최대 플러그인 전기차 제조업체가 되었다. 회사는 기록적인 배터리 생산을 생성하고 국제 시장 확장을 시작했다."
+      "event": "Stepped down as CEO of 21st Century Fox but retained ownership",
+      "eventKo": "21세기 폭스 회장직 퇴임하나 소유권 유지"
     },
     {
-      "year": 2020,
-      "event": "Developed and launched revolutionary Blade Battery (LFP technology), a safer and more efficient lithium iron phosphate battery becoming cornerstone of BYD's competitive advantage.",
-      "eventKo": "혁신적인 블레이드 배터리(LFP 기술)를 개발 및 출시했으며, 더 안전하고 효율적인 인산철 리튬 배터리로 BYD의 경쟁 우위의 초석이 되었다."
+      "year": 2019,
+      "event": "Sold 21st Century Fox to Disney; maintained control of Fox Corporation and News Corp",
+      "eventKo": "21세기 폭스를 디즈니에 매각. 폭스 코퍼레이션과 뉴스 코퍼레이션 통제 유지"
     },
     {
       "year": 2023,
-      "event": "BYD Q4 records 526,000 battery-only EV sales, surpassing Tesla's 484,000 vehicles, marking achievement of global EV leadership.",
-      "eventKo": "BYD Q4는 526,000대의 배터리 전용 EV 판매를 기록하여 테슬라의 484,000대를 초과했으며, 글로벌 EV 리더십 달성을 표시했다."
+      "event": "Stepped down as chairman of Fox and News Corp in September; son Lachlan succeeded him as leader of media empire",
+      "eventKo": "9월 폭스 및 뉴스 코퍼레이션 회장직 퇴임. 아들 라클란이 미디어 제국의 지도자로 승계"
     }
   ],
   "failures": [
     {
-      "year": 2010,
-      "description": "Strategic overexpansion crisis. Wang drastically reduced investment in traditional car development to fund new energy vehicles, losing control of sales system and experiencing dealer withdrawals. Q2 2010 revenue declined 8%, net profits plummeted 58%.",
-      "descriptionKo": "전략적 과잉 확장 위기. 왕은 신에너지 차량 자금을 조달하기 위해 전통 자동차 개발 투자를 대폭 줄여 판매 시스템에 대한 통제력을 잃고 딜러 철수를 경험했다. 2010년 2분기 수익은 8% 감소, 순이익은 58% 급락했다.",
-      "lesson": "Learned that aggressive expansion without maintaining core operations infrastructure leads to system failure; need to balance innovation with operational excellence and stakeholder retention.",
-      "lessonKo": "핵심 운영 인프라를 유지하지 않고 공격적으로 확장하면 시스템 실패로 이어진다는 것을 배웠으며, 혁신과 운영 우수성 및 이해관계자 유지의 균형을 맞춰야 함을 깨달았다.",
-      "source": "Medium, South China Morning Post, Rational Walk"
+      "year": 2011,
+      "description": "Phone hacking scandal at News of the World: revelations that newspaper hacked phones of murdered schoolgirl Milly Dowler, families of deceased soldiers, and 7/7 bombing victims (5,795 people total likely victims). Generated massive public outcry and advertiser boycotts.",
+      "descriptionKo": "News of the World 휴대폰 도청 스캔들: 신문이 살해당한 초등학생 밀리 다울러의 휴대폰, 전사 가족들의 휴대폰, 7/7 테러 피해자들의 휴대폰을 도청한 사실 폭로(총 5,795명이 도청 피해 가능성). 막대한 대중적 분노와 광고주 불매운동 초래",
+      "lesson": "Aggressive competitive practices without adequate oversight and ethical guardrails create legal, financial, and reputational catastrophe. Corporate culture of 'do whatever it takes' eventually fractures under scrutiny.",
+      "lessonKo": "적절한 감시와 윤리적 기준 없는 공격적 경쟁 관행은 법적, 재정적, 평판 관련 재앙을 초래. '어떻게든 해내라'는 기업 문화는 결국 집중력 있는 심사 하에서 분열됨",
+      "source": "https://en.wikipedia.org/wiki/News_International_phone_hacking_scandal; https://www.washingtonpost.com/lifestyle/style/phone-hacking-scandal-is-biggest-pr-disaster-of-murdochs-career/2011/07/07/gIQALAKm2H_story.html"
     },
     {
       "year": 2011,
-      "description": "Continuation of 2010 crisis with severe deterioration. Profits dropped 88.6% in first half of 2011. Sales General Manager Xia Zhibing resigned, widespread layoffs occurred, quality issues plagued products. Negative press titled 'The Great Defeat of BYD' went viral.",
-      "descriptionKo": "2010년 위기의 연속으로 심각하게 악화되었다. 2011년 상반기 이익이 88.6% 하락했다. 영업 총괄 마이클 샤가 사임했고, 광범위한 대량 해고가 발생했으며, 제품 품질 문제가 심각했다. '베이디의 큰 패배'라는 부정적인 언론이 바이럴되었다.",
-      "lesson": "Public acknowledgment of mistakes in 2012: BYD pursued scale without quality; key failures were dealership networks, media relations, and quality control. Led to complete operational restructuring and recommitment to excellence.",
-      "lessonKo": "2012년 실수에 대한 공개 인정: BYD는 품질 없이 규모를 추구했다; 주요 실패는 딜러 네트워크, 미디어 관계, 품질 관리였다. 완전한 운영 재구성과 우수성에 대한 재약속으로 이어졌다.",
-      "source": "Medium, South China Morning Post"
+      "description": "Forced closure of News of the World after 168 years of publication due to phone hacking fallout. Multiple high-profile resignations including Murdoch as News International director, son James as executive chairman, Rebekah Brooks, and others.",
+      "descriptionKo": "휴대폰 도청 여파로 168년 발행 후 News of the World 강제 폐간. 머독이 뉴스 인터내셔널 회장직을 사임하고 아들 제임스가 경영진 회장직, 레베카 브룩스 등 여러 고위 인사의 사퇴",
+      "lesson": "Organizational reputation damage can require sacrificing flagship properties and executives. Delayed response to misconduct compounds problem exponentially.",
+      "lessonKo": "조직의 평판 손상은 기함 사업과 경영진 희생을 요구할 수 있음. 비위에 대한 지연된 대응은 문제를 기하급수적으로 악화시킴",
+      "source": "https://en.wikipedia.org/wiki/News_International_phone_hacking_scandal"
     },
     {
-      "year": 2014,
-      "description": "Tesla's entry into China market disrupted BYD's competitive position. Tesla offered brand premium, social status, and high performance with solid range that BYD could not match at time. Market share erosion and sales pressure intensified.",
-      "descriptionKo": "테슬라의 중국 시장 진출이 BYD의 경쟁 위치를 붕괴시켰다. 테슬라는 당시 BYD가 대응할 수 없는 브랜드 프리미엄, 사회적 지위, 우수한 성능을 제공했다. 시장 점유율 침식과 판매 압력이 심화되었다.",
-      "lesson": "Recognized need to compete on both quality and innovation; led to increased investment in R&D for battery technology and vehicle design; proved importance of brand positioning in premium market.",
-      "lessonKo": "품질과 혁신 모두에서 경쟁할 필요성을 인식했으며, 배터리 기술 및 차량 설계 R&D 투자 증가로 이어졌다; 프리미엄 시장에서 브랜드 포지셔닝의 중요성을 입증했다.",
-      "source": "South China Morning Post, Rational Walk"
+      "year": 2011,
+      "description": "Withdrew $12+ billion bid for full control of BSkyB subscription television broadcaster due to regulatory concerns arising from phone hacking scandal fallout",
+      "descriptionKo": "휴대폰 도청 스캔들로 인한 규제 우려로 인해 BSkyB 위성방송사에 대한 120억 달러 이상의 인수 제안 철회",
+      "lesson": "Even powerful moguls cannot overcome regulatory obstacles when public trust is shattered. Timing of major acquisitions matters; some deals cannot be salvaged once public opinion turns.",
+      "lessonKo": "강력한 재벌도 대중적 신뢰가 깨졌을 때 규제 장벽을 극복할 수 없음. 대규모 인수의 시기 중요. 일단 여론이 바뀌면 회복할 수 없는 거래들이 있음",
+      "source": "https://www.britannica.com/biography/Rupert-Murdoch/Scandal-and-reorganization"
     }
   ],
   "wealthHistory": [
     {
-      "year": 1995,
-      "netWorth": 0.05
+      "year": 1952,
+      "netWorth": 0
     },
     {
-      "year": 2008,
-      "netWorth": 3.4
+      "year": 1985,
+      "netWorth": 0.3
     },
     {
-      "year": 2015,
-      "netWorth": 12.8
+      "year": 2000,
+      "netWorth": 5
     },
     {
-      "year": 2021,
-      "netWorth": 23.5
+      "year": 2014,
+      "netWorth": 13.7
+    },
+    {
+      "year": 2017,
+      "netWorth": 13.1
+    },
+    {
+      "year": 2022,
+      "netWorth": 21.7
+    },
+    {
+      "year": 2024,
+      "netWorth": 19.5
     },
     {
       "year": 2025,
-      "netWorth": 23.6
+      "netWorth": 23.1
     }
   ],
   "quotes": [
     {
-      "text": "We want to use our technological innovations to help solve the world's energy problems.",
-      "textKo": "우리는 기술 혁신을 통해 세계의 에너지 문제를 해결하고 싶다.",
-      "context": "Statement when BYD entered automotive industry in 2003, articulating the company's mission beyond profit.",
-      "contextKo": "2YD가 2003년 자동차 산업에 진출할 때의 성명으로, 이윤을 넘어선 회사의 사명을 표현했다.",
-      "source": "EV Magazine, Manufacturing Digital"
+      "text": "The world is changing very fast. Big will not beat small anymore. It will be the fast beating the slow.",
+      "textKo": "세상이 매우 빠르게 변하고 있다. 이제는 크다는 것이 작은 것을 이기지 못한다. 빠른 것이 느린 것을 이길 것이다.",
+      "context": "On business philosophy and competitive advantage in changing markets",
+      "contextKo": "변화하는 시장에서의 기업 철학과 경쟁 우위에 대하여"
     },
     {
-      "text": "Technology is the main force to solve problems in the world. We strive to help people realize their longing for a better life through technical innovation.",
-      "textKo": "기술은 세계 문제를 해결하는 주요 힘이다. 우리는 기술 혁신을 통해 사람들이 더 나은 삶에 대한 그들의 갈망을 실현할 수 있도록 돕기 위해 노력한다.",
-      "context": "Reflects Wang's philosophy on the role of technology in sustainable development and social progress.",
-      "contextKo": "지속 가능한 발전 및 사회 진보에서 기술의 역할에 대한 왕의 철학을 반영한다.",
-      "source": "EV Magazine, CEO Journal Magazine"
+      "text": "All media are one.",
+      "textKo": "모든 미디어는 하나이다.",
+      "context": "Core philosophy on integrated media strategy and cross-platform synergies",
+      "contextKo": "통합 미디어 전략 및 교차 플랫폼 시너지에 관한 핵심 철학"
     },
     {
-      "text": "One must disrupt their own technology before others do.",
-      "textKo": "다른 사람이 하기 전에 자신의 기술을 파괴해야 한다.",
-      "context": "Encapsulates his innovation philosophy, exemplified by development of revolutionary Blade Battery that displaced earlier BYD battery designs.",
-      "contextKo": "이전 BYD 배터리 설계를 대체한 혁신적인 블레이드 배터리 개발로 예시된 그의 혁신 철학을 집약한다.",
-      "source": "International Finance, Green.org"
+      "text": "I try to give the public what they want, not what some academic thinks they ought to want.",
+      "textKo": "나는 대중이 원하는 것을 제공하려고 노력한다. 어떤 학자가 그들이 원해야 한다고 생각하는 것이 아니라.",
+      "context": "On editorial philosophy and audience-first approach to journalism",
+      "contextKo": "편집 철학과 저널리즘의 대중 우선 접근법에 대하여"
+    },
+    {
+      "text": "In motivating people, you've got to engage their minds and their hearts. I motivate people, I hope, by example - and perhaps by excitement, by having productive ideas to make others feel involved.",
+      "textKo": "사람들을 동기부여할 때 그들의 마음과 감정을 움직여야 한다. 나는 사람들을 본보기로, 그리고 다른 사람들이 참여하도록 하는 생산적인 아이디어와 흥미로 동기부여한다고 희망한다.",
+      "context": "On leadership and team motivation philosophy",
+      "contextKo": "리더십과 팀 동기부여 철학에 대하여"
+    },
+    {
+      "text": "You can't build a strong corporation with a lot of committees and a board that has to be consulted every turn. You have to be able to make decisions on your own.",
+      "textKo": "많은 위원회와 매번 문의해야 하는 이사회로는 강력한 기업을 만들 수 없다. 자신이 결정을 내릴 수 있어야 한다.",
+      "context": "On decision-making authority and organizational structure",
+      "contextKo": "의사결정 권한과 조직 구조에 대하여"
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "The Rise of the Chinese Companies and Their Lessons",
-        "author": "Chen Wei",
-        "why": "Provides context on business challenges and strategies for Chinese enterprises competing globally.",
-        "whyKo": "중국 기업이 글로벌하게 경쟁하기 위한 사업 과제와 전략에 대한 맥락을 제공한다."
+        "title": "Zero to One: Notes on Startups, or How to Build the Future",
+        "author": "Peter Thiel with Blake Masters",
+        "why": "Murdoch found the work 'brilliant, often provocative' and stated he would 'buy many and distribute to all senior execs' - indicating alignment with Thiel's thinking on innovation and monopoly",
+        "whyKo": "머독은 이 책이 '뛰어나고 도발적'이라고 평가하고 '많이 사서 모든 고위 임원진에게 배포하겠다'고 밝혀, 혁신과 독점에 관한 틸의 사고와 일치함을 보여줌"
       },
       {
-        "title": "Innovation in Electric Vehicles",
-        "author": "David Bailey & Gary Gereffi",
-        "why": "Explores technology disruption and competitive dynamics in EV industry where BYD emerged as leader.",
-        "whyKo": "BYD가 리더로 떠오른 EV 산업의 기술 혁신과 경쟁 역학을 탐구한다."
+        "title": "Civilization: The West and the Rest",
+        "author": "Niall Ferguson",
+        "why": "Reflects Murdoch's interest in historical analysis of Western dominance and cultural/economic power structures",
+        "whyKo": "서구의 지배력과 문화/경제적 권력 구조의 역사적 분석에 관한 머독의 관심을 반영"
+      },
+      {
+        "title": "The Man Who Owns the News: Inside the Secret World of Rupert Murdoch",
+        "author": "Michael Wolff",
+        "note": "Biography based on 50+ hours of interviews with Murdoch himself. Wolff gained unprecedented access to Murdoch, his associates, and family, chronicling growth of $70 billion media empire. Described as critical and 'snide' in tone, reportedly dissuading Murdoch from giving such extensive access again.",
+        "noteKo": "머독과 50시간 이상의 인터뷰에 기반한 전기. 볼프가 머독, 그의 동료, 가족에게 전무후무한 접근 권한을 얻어 700억 달러 미디어 제국의 성장을 기록. 비판적이고 '조소적' 톤으로 표현되어 머독이 다시는 이렇게 광범위한 접근을 허락하지 않으려 한 것으로 알려짐"
+      },
+      {
+        "title": "Rupert Murdoch: The Untold Story of the World's Greatest Media Wizard",
+        "author": "Neil Chenoweth",
+        "note": "Comprehensive biography exploring Murdoch's rise to media dominance and strategies",
+        "noteKo": "머독의 미디어 지배력 상승과 전략을 탐구하는 종합 전기"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Visionary founder of BYD transforming batteries to electric vehicles; nicknamed 'genius' by Warren Buffett's Charlie Munger; hands-on technical expertise in battery innovation; resilient recovery from major crises; leading BYD to overtake Tesla in global EV sales.",
-    "knownForKo": "배터리를 전기차로 변환하는 BYD의 비전 창립자; 워렌 버핏의 찰리 뮌거가 '천재'라고 별명을 붙임; 배터리 혁신의 실무적 기술 전문성; 주요 위기로부터의 회복력; BYD를 전 세계 EV 판매에서 테슬라를 추월하도록 주도.",
-    "philanthropy": "Active in philanthropic initiatives through BYD's focus on sustainable energy and environmental protection. Company invests heavily in research and development benefiting clean energy transitions globally.",
-    "philanthropyKo": "BYD의 지속 가능한 에너지 및 환경 보호에 대한 초점을 통한 자선 활동에 활동적이다. 회사는 전 세계 청정 에너지 전환에 혜택을 주는 연구 개발에 대량으로 투자한다.",
-    "controversies": "Faced recalls and quality control issues in recent years; Q4 2025 recalled 115,783 vehicles due to design and manufacturing problems. Second quarter 2025 saw nearly 30% year-on-year profit decline, marking first quarterly decline since 2022. Sales forecast for 2025 lowered 16% from 5.5 to 4.6 million units.",
-    "controversiesKo": "최근 몇 년 동안 리콜 및 품질 관리 문제에 직면했다. 2025년 Q4에는 설계 및 제조 문제로 115,783대 차량을 리콜했다. 2025년 2분기는 전년 동기대비 약 30% 순이익 감소를 기록했으며, 2022년 이후 첫 분기 이익 감소를 나타냈다. 2025년 판매 예측이 전년 예측인 550만 대에서 460만 대로 16% 하향 조정되었다."
+    "knownFor": "Building global media empire through aggressive acquisitions, understanding audience preferences and tabloid appeal, strategic vision spanning decades, speed of decision-making, direct hands-on management, willingness to enter new media markets (print, TV, cable, digital), political influence, navigating regulatory barriers, vertical integration across content and distribution",
+    "knownForKo": "공격적 인수를 통한 글로벌 미디어 제국 구축, 대중의 선호도와 타블로이드 매력에 대한 이해, 수십 년에 걸친 전략적 비전, 신속한 의사결정, 직접적이고 실질적인 경영, 새로운 미디어 시장 진출 의지(인쇄, TV, 케이블, 디지털), 정치적 영향력, 규제 장벽 극복, 콘텐츠와 유통 전반에 걸친 수직 통합",
+    "philanthropy": "Less documented extensive philanthropy compared to other billionaires. Primary focus has been on media empire expansion and influence rather than traditional charitable giving. Some contributions to educational institutions and conservative causes.",
+    "philanthropyKo": "다른 억만장자 대비 광범위한 자선 활동 기록이 미흡. 전통적 자선 기부보다는 미디어 제국 확장과 영향력에 주로 집중. 교육 기관 및 보수 진영에 일부 기여",
+    "controversies": "Phone hacking scandal (largest PR disaster of career, affecting thousands of victims including murdered schoolgirl Milly Dowler). Alleged personal knowledge and cover-up of hacking extending back decades. Accusations of prioritizing business interests over journalistic ethics. Parliamentary panel ruled him 'not a fit person to exercise stewardship of major international company' with 'willful blindness' to misconduct. Paid estimated $1.5 billion in settlements and costs. Accused of manipulative and demagogic practices. Criticism for editorial influence over political processes. Concerns about media monopoly concentration.",
+    "controversiesKo": "휴대폰 도청 스캔들(경력 최대의 PR 재앙으로 살해당한 초등학생 밀리 다울러를 포함한 수천 명의 피해자에 영향). 수십 년에 걸친 도청에 대한 개인적 인지 및 은폐 혐의. 저널리즘 윤리보다 사업 이익을 우선시했다는 비난. 영국 의회 위원회는 그를 '주요 국제 회사의 관리에 적합하지 않은 인물'이자 비위에 대해 '의도적 무지'를 보인 인물이라고 판정. 약 15억 달러의 합의금 및 비용 지불. 조종적이고 선동적 관행 혐의. 언론이 정치 과정에 미친 영향에 대한 비판. 미디어 독점 집중화에 대한 우려"
+  },
+  "additionalInsights": {
+    "pivotalMentors": [
+      {
+        "name": "Keith Arthur Murdoch (father)",
+        "relationship": "Father, war correspondent and newspaper magnate; groomed Rupert from childhood",
+        "influence": "Foundational training in newspaper business, competitive instincts, and media empire building. Death at Rupert's age 21 created circumstances forcing him to lead at young age"
+      },
+      {
+        "name": "Lord Northcliffe",
+        "relationship": "Historical newspaper figure and inspiration (studied after Oxford)",
+        "influence": "Murdoch modeled success of newspapers on Northcliffe's approach emphasizing news content and coverage. Influenced vision of integrated print media strategy"
+      },
+      {
+        "name": "Lord Beaverbrook",
+        "relationship": "Mentor during Daily Express stint after Oxford graduation",
+        "influence": "Taught tabloid approach to news, mass audience appeal, and aggressive competitive tactics"
+      },
+      {
+        "name": "Ted Pickering",
+        "relationship": "Mentor during Daily Express tenure",
+        "influence": "Contributed to Murdoch's understanding of tabloid journalism and sensationalist news approach"
+      }
+    ],
+    "dailyRoutine": "Consistently wakes at 5:00 AM, a habit maintained throughout entire career. Begins day by reading multiple newspapers comprehensively, staying informed on news, competitors, and market trends. This disciplined approach enables data-driven strategic decision-making. Maintains regular exercise and mindfulness practices to manage stress and sustain mental clarity. Directly intervenes in editorial decisions, frequently communicating pleasure or displeasure directly to reporters and editors. Remains intensely involved in strategic planning and market analysis. Proactive management style with focus on competitive positioning and opportunity identification.",
+    "keyAnecdotes": [
+      "At age 21, returned from Oxford to manage decimated News Limited after father's death, forced to take leadership of media company during formative years",
+      "Known as 'Red Rupert' at Oxford for keeping Lenin bust in rooms and active participation in Labour Club, showing intellectual curiosity and contrarian views in youth",
+      "Acquired The Sun newspaper and transformed it into mass-circulation tabloid, demonstrating ability to identify audience preferences and repositioning strategy",
+      "Launched Fox News Channel in 1996 despite cable market maturity, proving willingness to enter established markets with differentiated strategy",
+      "Acquired Wall Street Journal for $5.6 billion in 2007 at peak of influence, boldest major acquisition demonstrating continued empire-building ambition even late in career",
+      "Phone hacking scandal forced closure of 168-year-old News of the World flagship property, demonstrating consequences of aggressive competitive tactics without adequate ethical safeguards",
+      "Appointed son Lachlan as successor in 2023 (at age 92), managing intergenerational transition of $70+ billion media empire"
+    ],
+    "turningPoint": "The acquisition of News of the World and The Sun newspapers in 1969 marked transformation of Murdoch from regional Australian publisher to global media competitor. This successful UK entry (despite initial skepticism from established British press) validated his model of identifying undervalued properties and repositioning them through tabloid appeal and mass audience focus. The 1985 acquisition of Twentieth Century Fox and Metromedia stations cemented his transition to integrated media-entertainment company spanning print, broadcast, and film. Each geographic and sectoral expansion (US, cable, etc.) reinforced his confidence in replicable model of aggressive acquisition, operational control, and audience-driven programming.",
+    "managementStyle": "Highly directive and detail-oriented autocrat who maintains tight personal control over editorial decisions and strategic direction. Decentralized structure with intense monitoring - editors have autonomy but know Murdoch will directly intervene on important stories. Intolerant of indecision and slow bureaucracy; prefers rapid decision-making authority concentrated in hands of capable leaders who align with his vision. Uses personal relationships and direct communication with senior staff and reporters to shape coverage. Creates competitive internal culture where managers remain 'on their toes' knowing Murdoch will communicate directly about performance. Willing to make bold, contrarian strategic bets (Fox News entry, WSJ acquisition). Ruthlessly pragmatic about sacrificing short-term relationships for long-term competitive advantage. Values speed, audience understanding, and execution excellence over committee consensus. Intense focus on competitive positioning and market dominance rather than stakeholder harmony."
   },
   "sajuConnection": {
-    "note": null,
+    "note": "Leave null.",
     "value": null
   }
 }

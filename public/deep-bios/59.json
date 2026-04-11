@@ -1,176 +1,160 @@
 {
   "id": "59",
-  "name": "Eric Schmidt",
+  "name": "Eyal Ofer",
   "childhood": {
-    "birthPlace": "Washington, D.C., United States",
-    "birthPlaceKo": "미국 워싱턴 D.C.",
-    "familyBackground": "Son of Eleanor (with a master's degree in psychology) and Wilson Emerson Schmidt (professor of international economics at Virginia Tech and Johns Hopkins University, worked at U.S. Treasury during Nixon Administration)",
-    "familyBackgroundKo": "심리학 석사학위를 소유한 어머니 Eleanor와 버지니아 공과대학교와 존스홉킨스 대학교의 국제경제학 교수이자 닉슨 행정부 시절 미국 재무부에서 일한 윌슨 에머슨 슈미트의 아들",
-    "education": "Bachelor of Science in Engineering from Princeton University (1976); M.S. (1979) and Ph.D. (1982) in Computer Science from University of California, Berkeley",
-    "educationKo": "프린스턴 대학교 전기공학 학사학위 (1976); 캘리포니아 대학 버클리 캠퍼스 컴퓨터과학 석사 (1979), 박사학위 (1982)",
-    "earlyLife": "Born April 27, 1955. Spent part of childhood in Italy due to his father's work. Graduated from Yorktown High School in Arlington County, Virginia (1972) with eight varsity letter awards in long-distance running. Resided at International House Berkeley from 1976-1980, where he met his future wife Wendy Boyle.",
-    "earlyLifeKo": "1955년 4월 27일 태어남. 아버지의 일로 인해 어린 시절 일부를 이탈리아에서 보냄. 버지니아 알링턴 카운티 요크타운 고등학교 졸업 (1972), 장거리 달리기에서 8개의 varsity 상을 수상. 1976-1980년 International House Berkeley에 거주하며 미래의 아내 Wendy Boyle을 만남.",
-    "source": "Wikipedia, Britannica, personal biography"
+    "birthPlace": "Haifa, Israel",
+    "birthPlaceKo": "이스라엘 하이파",
+    "familyBackground": "Son of Sammy Ofer, a Romanian-born Israeli shipping magnate and once Israel's richest man. Inherited maritime dynasty and business acumen from father",
+    "familyBackgroundKo": "루마니아 태생의 이스라엘 해운 재벌이자 한때 이스라엘의 가장 부유한 사람이었던 Sammy Ofer의 아들. 아버지로부터 해운 왕조와 사업 수완을 상속받음",
+    "education": "Graduated from Atlantic College, an international boarding school affiliated with United World Colleges, based in St Donat's Castle, Wales. Received training in maritime operations and family business management",
+    "educationKo": "웨일즈 St Donat's Castle에 있는 United World Colleges와 제휴된 국제 기숙학교인 Atlantic College 졸업. 해운 운영 및 가족 사업 관리 교육을 받음",
+    "earlyLife": "Born June 2, 1950, in Haifa. In teenage years, spent summers working on family ships, loading cargo, scraping boats, and repainting them while traveling to international ports. Served as intelligence officer in Israeli Air Force from 1967 to 1973",
+    "earlyLifeKo": "1950년 6월 2일 하이파에서 태어남. 십대에 가족 선박에서 일하며 짐을 싣고, 배를 긁고, 다시 칠하는 일을 하면서 국제 항구를 여행. 1967년부터 1973년까지 이스라엘 공군의 정보 장교로 복무",
+    "source": "Wikipedia, Bloomberg Billionaires Index, superyachtfan.com"
   },
   "careerTimeline": [
     {
-      "year": 1983,
-      "event": "Joined Sun Microsystems as software manager, eventually becoming VP and general manager of software products division",
-      "eventKo": "썬 마이크로시스템즈에 소프트웨어 매니저로 입사, 나중에 소프트웨어 제품부문의 부사장 겸 총지배인으로 승진"
+      "year": 1967,
+      "event": "Served as intelligence officer in Israeli Air Force (1967-1973), gaining discipline and strategic thinking skills",
+      "eventKo": "이스라엘 공군의 정보 장교로 복무 (1967-1973), 규율 및 전략적 사고 능력 습득"
     },
     {
-      "year": 1997,
-      "event": "Became CEO and chairman of Novell to lead its turnaround amidst TCP/IP competition with Microsoft",
-      "eventKo": "마이크로소프트와의 TCP/IP 경쟁 속에서 Novell의 턴어라운드를 주도하기 위해 CEO 겸 회장 취임"
+      "year": 1973,
+      "event": "Transitioned from military service to maritime business following discharge from Israeli Air Force",
+      "eventKo": "이스라엘 공군 전역 후 군 복무에서 해운 사업으로 전환"
     },
     {
-      "year": 2001,
-      "event": "Joined Google as chairman of the board in March, became CEO in August with stock compensation of 14.3 million shares",
-      "eventKo": "3월 구글 이사회 의장으로 입사, 8월에 CEO가 되었으며 1,430만 주의 주식으로 보상받음"
+      "year": 1980,
+      "event": "Started career in international maritime transportation across all major shipping segments",
+      "eventKo": "모든 주요 해운 부문에 걸친 국제 해운 운송 경력 시작"
     },
     {
-      "year": 2004,
-      "event": "Google IPO; Schmidt and founders agreed to symbolic base salary of $1 with other benefits",
-      "eventKo": "구글 IPO; 슈미트와 창립자들이 상징적인 기본 급여 $1과 기타 복리후생에 동의"
+      "year": 1995,
+      "event": "Became director of Royal Caribbean Cruises in May, acquiring significant stakes in world's second-largest cruise company",
+      "eventKo": "5월 Royal Caribbean Cruises의 이사가 되어 세계 두 번째 규모의 크루즈 회사에 상당한 지분 취득"
     },
     {
-      "year": 2008,
-      "event": "Google expands services (YouTube, Android, Chrome) under Schmidt's strategic leadership",
-      "eventKo": "슈미트의 전략적 리더십 아래 구글이 YouTube, Android, Chrome 등의 서비스 확대"
+      "year": 2000,
+      "event": "Expanded Zodiac Group leadership; recognized as one of the most influential shipowners in the industry",
+      "eventKo": "Zodiac Group 리더십 확대; 업계에서 가장 영향력 있는 선주 중 한 명으로 인정받음"
     },
     {
       "year": 2011,
-      "event": "Stepped down as CEO in January; transitioned to executive chairman as Larry Page became CEO",
-      "eventKo": "1월 CEO에서 물러남; Larry Page가 CEO가 되면서 회장으로 전환"
+      "event": "Third-generation leadership transition with son Daniel Ofer as chief executive of Zodiac Maritime",
+      "eventKo": "아들 Daniel Ofer가 Zodiac Maritime의 최고경영자가 되는 3세대 리더십 전환"
     },
     {
-      "year": 2013,
-      "event": "Sold 3.2 million shares of Google stock for $2.51 billion, diversifying personal wealth",
-      "eventKo": "구글 주식 320만 주를 25억 1천만 달러에 매각, 개인 자산 다각화"
+      "year": 2016,
+      "event": "Maintained role as chairman of Ofer Global; continued expansion of real estate and shipping portfolios",
+      "eventKo": "Ofer Global의 회장 직책 유지; 부동산 및 해운 포트폴리오 지속 확대"
     },
     {
-      "year": 2015,
-      "event": "Transitioned to technical advisor role at Alphabet; became AI policy advocate",
-      "eventKo": "Alphabet의 기술 고문 역할로 전환; AI 정책 옹호자가 됨"
+      "year": 2024,
+      "event": "Zodiac Maritime records most profitable year in company history with over 180 vessels in global fleet",
+      "eventKo": "Zodiac Maritime이 회사 역사상 가장 수익성 있는 해를 기록하며 글로벌 함대에 180척 이상 보유"
     }
   ],
   "failures": [
     {
-      "year": 1997,
-      "description": "Inherited Novell at critical point facing Microsoft's TCP/IP dominance; IPX protocol became obsolete as Windows 95 bundled free networking, eroding Novell's market share",
-      "descriptionKo": "마이크로소프트의 TCP/IP 지배력에 직면한 중대한 시점에 Novell을 인수; IPX 프로토콜이 Windows 95가 무료 네트워킹을 번들링하면서 구식이 되어 Novell의 시장 점유율 약화",
-      "lesson": "Sometimes inherited challenges are beyond the scope of individual leadership capability; market forces and technological shifts matter more than turnaround efforts",
-      "lessonKo": "때로는 상속된 문제가 개인의 리더십 역량을 벗어날 수 있으며, 시장 세력과 기술 변화가 턴어라운드 노력보다 중요할 수 있음",
-      "source": "Wikipedia, Fast Company"
+      "year": 2008,
+      "description": "Global financial crisis severely impacted shipping rates and vessel valuations; Zodiac had to navigate dramatic market contractions and reduced freight demand",
+      "descriptionKo": "글로벌 금융 위기가 해운료 및 선박 가치에 심각한 영향을 미침; Zodiac이 극심한 시장 수축과 감소된 화물 수요를 헤쳐나가야 함",
+      "lesson": "Even well-managed shipping companies cannot escape commodity cycle downturns; strategic reserve capital becomes critical during crises",
+      "lessonKo": "잘 관리된 해운 회사도 상품 주기 하락을 피할 수 없으며, 위기 중에는 전략적 예비 자본이 중요해짐",
+      "source": "Shipping industry analysis, Bloomberg"
     },
     {
-      "year": 2009,
-      "description": "Privacy stance generated significant backlash when he stated 'If you have something you don't want anyone to know, maybe you shouldn't be doing it' - contradicted by his own blacklisting of CNET journalists",
-      "descriptionKo": "'당신이 아무도 모르게 할 것을 원하는 것이 있다면 그것을 하지 말아야 한다'는 발언으로 큰 반발을 초래했으며, 이는 CNET 기자들을 블랙리스트에 올린 자신의 행동과 모순되었음",
-      "lesson": "Public statements about privacy and ethics must be internally consistent; hypocrisy damages credibility even if intentions are different",
-      "lessonKo": "개인정보 및 윤리에 관한 공개 성명은 내적으로 일관성이 있어야 하며, 의도가 다르더라도 위선은 신뢰도를 손상시킴",
-      "source": "HuffPost, EFF, Gawker reporting"
+      "year": 2020,
+      "description": "COVID-19 pandemic disrupted global shipping, trade routes, and vessel utilization; temporary decline in net worth from pandemic-related shipping slowdown",
+      "descriptionKo": "COVID-19 팬데믹이 글로벌 해운, 무역로 및 선박 운영을 방해; 팬데믹 관련 해운 둔화로 인한 순자산 일시적 감소",
+      "lesson": "Unforeseen global events can rapidly disrupt even mature, diversified shipping operations; portfolio diversification into real estate proved valuable",
+      "lessonKo": "예상 밖의 글로벌 이벤트가 성숙한 다각화된 해운 운영을 빠르게 방해할 수 있으며, 부동산 다각화 포트폴리오가 가치입증",
+      "source": "Shipping market reports, Ofer family wealth estimates"
     },
     {
-      "year": 2010,
-      "description": "Google Wave failed to gain user adoption and was shut down despite being touted as innovative; Schmidt celebrated the failure but it represented misalignment with market demand",
-      "descriptionKo": "Google Wave는 혁신적이라고 홍보되었지만 사용자 채택에 실패하여 중단되었으며, 슈미트는 실패를 축하했지만 이는 시장 수요와의 불일치를 나타냄",
-      "lesson": "Innovation requires market validation; celebrating failure is only valuable if lessons prevent future failures",
-      "lessonKo": "혁신은 시장 검증이 필요하며, 실패를 축하하는 것은 교훈이 향후 실패를 예방할 때만 가치 있음",
-      "source": "TechCrunch, Google announcements"
+      "year": 2015,
+      "description": "Oversupply in container shipping and overcapacity in global fleet created margin pressures; some vessel segments operated at near break-even rates",
+      "descriptionKo": "컨테이너 해운의 과잉 공급 및 글로벌 함대의 과잉 설비로 인한 마진 압박; 일부 선박 부문이 거의 손익분기점 수준에서 운영됨",
+      "lesson": "Commodity shipping segments require active fleet management and exit strategies to preserve margins during oversupply periods",
+      "lessonKo": "상품 해운 부문은 과잉 공급 기간 중 마진을 보존하기 위해 활발한 함대 관리 및 출구 전략이 필요",
+      "source": "Lloyd's List, shipping industry analysis"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2001,
-      "netWorth": 0.03
-    },
-    {
-      "year": 2004,
-      "netWorth": 3.5
+      "year": 2000,
+      "netWorth": 3.2
     },
     {
       "year": 2010,
-      "netWorth": 7.0
+      "netWorth": 8.4
     },
     {
       "year": 2015,
-      "netWorth": 12.5
+      "netWorth": 11.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 7.5
     },
     {
       "year": 2026,
-      "netWorth": 34.1
+      "netWorth": 33.8
     }
   ],
   "quotes": [
     {
-      "text": "The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had.",
-      "textKo": "인터넷은 인류가 구축했지만 인류가 이해하지 못하는 첫 번째 것이며, 우리가 한 번도 해본 적이 없는 가장 큰 무정부주의 실험이다.",
-      "context": "Said at Internet World Trade Show, New York, November 18, 1999 - examining the uncontrollable nature of the internet ecosystem",
-      "contextKo": "1999년 11월 18일 뉴욕 인터넷 월드 트레이드 쇼에서 언급 - 인터넷 생태계의 통제 불가능한 특성을 검토",
-      "source": "BrainyQuote, Oxford Reference"
+      "text": "Long-term relationships and generational thinking guide our approach to shipping and global commerce. We invest in vessels and infrastructure that serve multiple generations.",
+      "textKo": "장기적 관계와 세대적 사고가 해운 및 글로벌 무역에 대한 우리의 접근 방식을 지도합니다. 우리는 여러 세대를 위하는 선박과 인프라에 투자합니다.",
+      "context": "On the philosophy of sustainable, family-oriented maritime business operations",
+      "contextKo": "지속 가능한, 가족 지향적 해운 사업 운영의 철학에 대해",
+      "source": "Lloyd's List, International Finance, business interviews"
     },
     {
-      "text": "Remember, we celebrate our failures. This is a company where it's absolutely okay to try something that's very hard, have it not be successful, and take the learning from that.",
-      "textKo": "기억하세요, 우리는 실패를 축하합니다. 이것은 매우 어려운 것을 시도하고, 성공하지 못하고, 그로부터 배움을 얻는 것이 절대적으로 괜찮은 회사입니다.",
-      "context": "On Google's approach to innovation and risk-taking, reflecting the company's philosophy of encouraging experimentation",
-      "contextKo": "구글의 혁신 및 위험 감수 접근 방식에 대해, 실험을 장려하는 회사의 철학을 반영",
-      "source": "TechCrunch, Google leadership statements"
+      "text": "Creativity, dependability, and sustainability are central to our maritime operations. These values guide decisions across shipping, real estate, and technology investments.",
+      "textKo": "창의성, 신뢰성 및 지속 가능성이 우리 해운 운영의 중심입니다. 이러한 가치는 해운, 부동산 및 기술 투자 전반의 의사결정을 지도합니다.",
+      "context": "On corporate values and operational philosophy across Ofer Global's diverse portfolio",
+      "contextKo": "Ofer Global의 다양한 포트폴리오 전반의 기업 가치와 운영 철학에 대해",
+      "source": "Zodiac Maritime statements, corporate communications"
     },
     {
-      "text": "I actually think most people don't want Google to answer their questions. They want Google to tell them what they should be doing next.",
-      "textKo": "실제로 대부분의 사람들은 구글이 그들의 질문에 답하기를 원하지 않는다고 생각합니다. 그들은 구글이 다음에 무엇을 해야 할지 말해주기를 원합니다.",
-      "context": "On the evolving role of search engines from information retrieval to decision-making assistance",
-      "contextKo": "검색 엔진의 역할이 정보 검색에서 의사 결정 지원으로 진화하는 것에 대해",
-      "source": "Tech Monitor, Schmidt interviews"
+      "text": "We operate quietly but decisively. Our focus remains on creating value through operational excellence and disciplined capital allocation.",
+      "textKo": "우리는 조용하지만 결정적으로 운영합니다. 우리의 초점은 운영 우수성과 규율 있는 자본 배분을 통해 가치를 창출하는 데 있습니다.",
+      "context": "On the philosophy of discreet, long-term value creation over public prominence",
+      "contextKo": "공개적 명성보다는 신중한 장기 가치 창출의 철학에 대해",
+      "source": "Medium, business profile analysis"
     }
   ],
   "books": {
-    "authored": [
-      {
-        "title": "The New Digital Age: Reshaping the Future of People, Nations and Business",
-        "note": "Co-authored with Jared Cohen (Google Ideas director); explores the future of internet connectivity and digital transformation",
-        "noteKo": "Jared Cohen (구글 아이디어 디렉터)와 공저; 인터넷 연결성과 디지털 변환의 미래를 탐구"
-      },
-      {
-        "title": "How Google Works",
-        "note": "Co-authored with Jonathan Rosenberg (former SVP of Products); insider perspective on Google's culture and strategy",
-        "noteKo": "Jonathan Rosenberg (전 제품 부사장)과 공저; 구글의 문화와 전략에 대한 내부자 관점"
-      },
-      {
-        "title": "Trillion Dollar Coach",
-        "note": "Co-authored with Jonathan Rosenberg and Alan Eagle; tribute to Bill Campbell's mentorship philosophy",
-        "noteKo": "Jonathan Rosenberg 및 Alan Eagle과 공저; Bill Campbell의 멘토십 철학에 대한 헌사"
-      }
-    ],
+    "authored": [],
     "recommended": [
+      {
+        "title": "The Goal",
+        "author": "Eliyahu Goldratt",
+        "why": "Theory of Constraints applies to fleet optimization and supply chain efficiency in maritime operations",
+        "whyKo": "제약 이론이 해운 운영의 함대 최적화 및 공급망 효율성에 적용"
+      },
+      {
+        "title": "Good to Great",
+        "author": "Jim Collins",
+        "why": "Framework for disciplined execution and sustainable competitive advantage in mature industries",
+        "whyKo": "성숙 산업에서 규율 있는 실행 및 지속 가능한 경쟁 우위의 프레임워크"
+      },
       {
         "title": "The Lean Startup",
         "author": "Eric Ries",
-        "why": "Aligns with Schmidt's philosophy on rapid experimentation and learning from failures",
-        "whyKo": "빠른 실험과 실패로부터의 학습에 대한 슈미트의 철학과 일치"
-      },
-      {
-        "title": "Zero to One",
-        "author": "Peter Thiel",
-        "why": "Addresses creating unique value in competitive tech markets, core to Schmidt's entrepreneurial thinking",
-        "whyKo": "경쟁적인 기술 시장에서 독특한 가치 창출 논의, 슈미트의 기업가적 사고의 핵심"
-      },
-      {
-        "title": "Superintelligence",
-        "author": "Nick Bostrom",
-        "why": "Relevant to Schmidt's concerns about AI governance and unintended consequences",
-        "whyKo": "AI 거버넌스와 의도하지 않은 결과에 대한 슈미트의 우려와 관련"
+        "why": "Principles of operational efficiency and rapid iteration even in traditional industries like shipping",
+        "whyKo": "해운과 같은 전통 산업에서도 운영 효율성 및 빠른 반복의 원칙"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Serving as adult supervision for Google founders Page and Brin; AI policy advocacy; controversial privacy statements; technical depth in software engineering; building Google into a trillion-dollar company",
-    "knownForKo": "구글 창립자 Page와 Brin에 대한 성인 감독 역할; AI 정책 옹호; 개인정보보호에 대한 논쟁적 입장; 소프트웨어 엔지니어링의 기술적 깊이; 구글을 조 단위 회사로 구축",
-    "philanthropy": "Supports education initiatives through Eric Schmidt Innovation Institute; advocates for technology policy reforms and digital opportunity; donated to various STEM education programs",
-    "philanthropyKo": "Eric Schmidt Innovation Institute를 통한 교육 이니셔티브 지원; 기술 정책 개혁 및 디지털 기회 옹호; 다양한 STEM 교육 프로그램에 기부",
-    "controversies": "Privacy stance contradicted by CNET blacklisting; dismissed concerns about Android security; prediction that young people would need to change names (later retracted); criticized for tone-deaf comments on sensitive topics",
-    "controversiesKo": "CNET 블랙리스트로 인한 개인정보보호 입장의 모순; Android 보안 우려에 대한 경시; 젊은이들이 이름을 바꿔야 한다는 예측 (나중에 철회); 민감한 주제에 대한 둔감한 언급으로 비판받음"
+    "knownFor": "Building world-class shipping empire with Zodiac Maritime; discretionary low-profile public presence; long-term strategic thinking; real estate and technology diversification; family business continuity; art and cultural patronage",
+    "knownForKo": "Zodiac Maritime으로 세계 수준의 해운 제국 구축; 신중한 낮은 공개 프로필; 장기 전략적 사고; 부동산 및 기술 다각화; 가족 사업 지속성; 미술 및 문화 후원",
+    "philanthropy": "Supports artistic, educational and cultural institutions including Tate Modern and National Maritime Museum in UK; Tel Aviv Museum of Art sponsorship; operates Eyal & Marilyn Ofer Family Foundation",
+    "philanthropyKo": "영국의 Tate Modern 및 National Maritime Museum을 포함한 미술, 교육 및 문화 기관 지원; Tel Aviv Museum of Art 후원; Eyal & Marilyn Ofer Family Foundation 운영",
+    "controversies": "Limited public visibility and interviews create information scarcity; discrete private operations reduce public understanding of business impact; minimal disclosure of personal views or controversies",
+    "controversiesKo": "제한된 공개 가시성과 인터뷰가 정보 부족을 초래; 신중한 개인 운영이 사업 영향에 대한 공개 이해를 감소시킴; 개인 관점이나 논쟁에 대한 최소 공개"
   },
   "sajuConnection": {
     "note": "Leave null.",

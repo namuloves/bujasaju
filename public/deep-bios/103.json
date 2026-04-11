@@ -1,142 +1,160 @@
 {
   "id": "103",
-  "name": "Christy Walton",
+  "name": "Wang Chuanfu",
+  "nameKo": "왕촨푸",
   "childhood": {
-    "birthPlace": "Likely midwest United States",
-    "birthPlaceKo": "아마도 미국 중서부",
-    "familyBackground": "Born Christy Ruth Tallant in 1949. Grew up in a modest family that emphasized education, family values, and civic duty. Her childhood instilled a lifelong commitment to service and philanthropy.",
-    "familyBackgroundKo": "1949년 Christy Ruth Tallant로 태어남. 교육, 가족 가치 및 civic duty를 강조하는 modest 가정에서 성장함. 그녀의 어린 시절은 평생의 봉사와 자선에 대한 헌신을 심어줌.",
-    "education": "Attended college with emphasis on liberal arts and humanities, developing strong values around education and social responsibility.",
-    "educationKo": "교양 과목과 인문학에 중점을 둔 대학 교육을 받았으며 교육과 사회적 책임에 대한 강한 가치관을 발전시킴.",
-    "earlyLife": "Lived a relatively quiet and private life before marrying John Walton. Developed passion for environmental conservation, education, and community service early on.",
-    "earlyLifeKo": "John Walton과 결혼하기 전에 상대적으로 조용하고 사적인 삶을 살았습니다. 초기에 환경 보존, 교육 및 커뮤니티 서비스에 대한 열정을 발전시킴.",
-    "source": "Wikipedia, Walton Family Foundation, 193 Countries Consortium"
+    "birthPlace": "Anhui Province, China; born into poor farmer family",
+    "birthPlaceKo": "중국 안휘성; 빈곤한 농부 가정에 태어남",
+    "familyBackground": "Born April 8, 1966. Orphaned as a teenager and raised by elder brother and sister despite difficult circumstances. Family experienced rural poverty but emphasized education and perseverance.",
+    "familyBackgroundKo": "1966년 4월 8일 생. 십대에 고아가 되어 형과 누나에게 양육받았다. 가족은 농촌 빈곤을 겪었지만 교육과 인내를 강조했다.",
+    "education": "Studied metallurgical physical chemistry at Central South Industrial University (now Central South University), graduated 1987. Earned master's degree in materials from Beijing General Research Institute of Nonferrous Metals. Worked as deputy director at research institute.",
+    "educationKo": "중남공업대학교(현 중남대학교)에서 금속 물리 화학을 전공하여 1987년 졸업했다. 베이징 비철금속 종합연구소에서 재료 석사학위를 취득했다. 연구소의 부국장으로 근무했다.",
+    "earlyLife": "Mid-level government researcher focused on rare-earth metals crucial to batteries and electronics. Worked in Beijing during the rise of China's technological sector in the early 1990s.",
+    "earlyLifeKo": "배터리 및 전자제품에 필수적인 희토류 금속에 중점을 둔 중간 수준의 정부 연구원으로 근무했다. 1990년대 초 중국의 기술 부문 상승기 동안 베이징에서 일했다.",
+    "source": "Wikipedia, South China Morning Post, Our China Story"
   },
   "careerTimeline": [
     {
-      "year": 1974,
-      "event": "Met John Walton, second son of Walmart founder Sam Walton, beginning a relationship that would reshape her life.",
-      "eventKo": "Walmart 창립자 Sam Walton의 차남인 John Walton을 만나 그녀의 삶을 재구성할 관계 시작."
-    },
-    {
-      "year": 1978,
-      "event": "Married John Walton and moved to San Diego, California, where they raised their son, Lukas Walton.",
-      "eventKo": "John Walton과 결혼하고 캘리포니아 샌디에이고로 이주하여 아들 Lukas Walton을 양육함."
-    },
-    {
       "year": 1987,
-      "event": "Co-founded the Walton Family Charitable Support Foundation with John Walton and his siblings, dedicated to supporting education and environmental initiatives.",
-      "eventKo": "John Walton과 그의 형제자매와 함께 교육 및 환경 이니셔티브 지원에 헌신하는 Walton Family Charitable Support Foundation 공동 설립."
+      "event": "Graduated from Central South Industrial University with degree in metallurgical physical chemistry.",
+      "eventKo": "중남공업대학교에서 금속 물리 화학 학위로 졸업했다."
     },
     {
-      "year": 2005,
-      "event": "Husband John Walton died in a homebuilt ultralight plane crash on June 27. Inherited substantial portion of his estate including Walmart shares and First Solar stock.",
-      "eventKo": "남편 John Walton이 6월 27일 자신이 제작한 초경량 비행기 추락으로 사망함. Walmart 주식과 First Solar 주식을 포함한 그의 재산의 상당한 부분을 상속받음."
+      "year": 1990,
+      "event": "Earned master's degree in materials from Beijing General Research Institute of Nonferrous Metals and became deputy director at institute.",
+      "eventKo": "베이징 비철금속 종합연구소에서 재료 석사학위를 취득하고 연구소 부국장이 되었다."
     },
     {
-      "year": 2007,
-      "event": "The Walton Family Foundation donated $1.6 billion, with Christy's influence directing significant resources to education and environmental causes.",
-      "eventKo": "Walton Family Foundation이 16억 달러를 기부했으며 Christy의 영향으로 교육 및 환경 문제에 상당한 자원을 배치함."
+      "year": 1993,
+      "event": "Joined battery company established by research institute in Shenzhen as general manager, leading business operations and product development.",
+      "eventKo": "연구소가 설립한 심천의 배터리 회사에 사장으로 입사하여 사업 운영과 제품 개발을 주도했다."
+    },
+    {
+      "year": 1995,
+      "event": "Founded BYD Company with approximately $400,000 borrowed from cousin. Started with 20 employees as battery manufacturer, focusing on mobile phone batteries.",
+      "eventKo": "사촌으로부터 차용한 약 40만 달러로 BYD 회사를 설립했다. 20명의 직원으로 시작하여 휴대폰 배터리에 중점을 둔 배터리 제조업체로 시작했다."
+    },
+    {
+      "year": 2003,
+      "event": "Pivoted BYD into automotive industry by acquiring Tsinchuan Automobile Company. Declared mission: 'We want to use our technological innovations to help solve the world's energy problems.'",
+      "eventKo": "징촨 자동차 회사를 인수하여 BYD를 자동차 산업으로 전환했다. '우리는 기술 혁신을 통해 세계 에너지 문제를 해결하고 싶다'고 선언했다."
+    },
+    {
+      "year": 2008,
+      "event": "Set goal for BYD to become leader in Chinese automotive market by 2015 and largest car manufacturer globally by 2025. Warren Buffett's Berkshire Hathaway invests $230 million for 9.89% stake.",
+      "eventKo": "2015년까지 중국 자동차 시장의 리더, 2025년까지 전 세계 최대 자동차 제조업체가 되겠다고 목표를 설정했다. 워렌 버핏의 버크셔 해서웨이가 9.89% 지분을 위해 2억 3천만 달러를 투자했다."
     },
     {
       "year": 2015,
-      "event": "Recognized by Forbes as one of the richest women in the world with estimated net worth of $41.7 billion, derived from Walmart shares and First Solar investments.",
-      "eventKo": "Forbes에 의해 세계 최고 부자 여성 중 한 명으로 인정받았으며 추정 순자산은 41억 7천만 달러로 Walmart 주식과 First Solar 투자에서 발생함."
+      "event": "BYD becomes world's largest plug-in electric vehicle manufacturer. Company generates record battery production and begins expanding international markets.",
+      "eventKo": "BYD는 세계 최대 플러그인 전기차 제조업체가 되었다. 회사는 기록적인 배터리 생산을 생성하고 국제 시장 확장을 시작했다."
     },
     {
-      "year": 2025,
-      "event": "Continues philanthropic work focused on education, environmental sustainability, and community development. Contributed to political discourse through advocacy for democratic values.",
-      "eventKo": "교육, 환경 지속 가능성 및 커뮤니티 개발에 초점을 맞춘 자선 사업을 계속함. 민주적 가치관 옹호를 통해 정치적 담론에 기여함."
+      "year": 2020,
+      "event": "Developed and launched revolutionary Blade Battery (LFP technology), a safer and more efficient lithium iron phosphate battery becoming cornerstone of BYD's competitive advantage.",
+      "eventKo": "혁신적인 블레이드 배터리(LFP 기술)를 개발 및 출시했으며, 더 안전하고 효율적인 인산철 리튬 배터리로 BYD의 경쟁 우위의 초석이 되었다."
+    },
+    {
+      "year": 2023,
+      "event": "BYD Q4 records 526,000 battery-only EV sales, surpassing Tesla's 484,000 vehicles, marking achievement of global EV leadership.",
+      "eventKo": "BYD Q4는 526,000대의 배터리 전용 EV 판매를 기록하여 테슬라의 484,000대를 초과했으며, 글로벌 EV 리더십 달성을 표시했다."
     }
   ],
   "failures": [
     {
-      "year": 2005,
-      "description": "John Walton's unexpected death in a plane crash devastated Christy and forced her to suddenly assume stewardship of a vast fortune and significant business interests without prior preparation for such responsibility.",
-      "descriptionKo": "John Walton이 비행기 추락으로 예상치 못하게 사망하여 Christy를 깊은 슬픔에 빠뜨렸고 그러한 책임에 대한 사전 준비 없이 거대한 재산과 상당한 사업 이익의 관리인이 되도록 강요함.",
-      "lesson": "Sudden transitions of wealth and responsibility require building strong advisory networks and governance structures quickly. Christy's response demonstrated that learning on the job, combined with genuine commitment to stewardship, can successfully manage inherited wealth and redirect it toward meaningful impact.",
-      "lessonKo": "부의 갑작스러운 이전과 책임은 신속하게 강력한 자문 네트워크와 지배 구조를 구축해야 합니다. Christy의 반응은 실무 학습이 진정한 관리 약속과 결합되어 상속 부를 성공적으로 관리하고 의미 있는 영향으로 재지향할 수 있음을 보여주었습니다."
+      "year": 2010,
+      "description": "Strategic overexpansion crisis. Wang drastically reduced investment in traditional car development to fund new energy vehicles, losing control of sales system and experiencing dealer withdrawals. Q2 2010 revenue declined 8%, net profits plummeted 58%.",
+      "descriptionKo": "전략적 과잉 확장 위기. 왕은 신에너지 차량 자금을 조달하기 위해 전통 자동차 개발 투자를 대폭 줄여 판매 시스템에 대한 통제력을 잃고 딜러 철수를 경험했다. 2010년 2분기 수익은 8% 감소, 순이익은 58% 급락했다.",
+      "lesson": "Learned that aggressive expansion without maintaining core operations infrastructure leads to system failure; need to balance innovation with operational excellence and stakeholder retention.",
+      "lessonKo": "핵심 운영 인프라를 유지하지 않고 공격적으로 확장하면 시스템 실패로 이어진다는 것을 배웠으며, 혁신과 운영 우수성 및 이해관계자 유지의 균형을 맞춰야 함을 깨달았다.",
+      "source": "Medium, South China Morning Post, Rational Walk"
     },
     {
-      "year": 2008,
-      "description": "First Solar, one of her major investments inherited from John, faced significant challenges during the solar energy industry downturn and financial crisis, with the company's stock value declining substantially.",
-      "descriptionKo": "John으로부터 상속받은 주요 투자 중 하나인 First Solar는 태양 에너지 산업 침체와 금융 위기 동안 심각한 도전에 직면했으며 회사의 주가는 상당히 하락함.",
-      "lesson": "Inherited investments require active management and willingness to adapt strategy as market conditions change. Christy's continued commitment to sustainable energy through First Solar, despite short-term volatility, reflects long-term investment discipline aligned with her values.",
-      "lessonKo": "상속받은 투자는 적극적인 관리와 시장 상황 변화에 따라 전략을 조정할 의지가 필요합니다. Christy의 단기 변동성에도 불구하고 First Solar를 통한 지속 가능한 에너지에 대한 지속적인 약속은 그녀의 가치관과 일치하는 장기 투자 규율을 반영합니다."
+      "year": 2011,
+      "description": "Continuation of 2010 crisis with severe deterioration. Profits dropped 88.6% in first half of 2011. Sales General Manager Xia Zhibing resigned, widespread layoffs occurred, quality issues plagued products. Negative press titled 'The Great Defeat of BYD' went viral.",
+      "descriptionKo": "2010년 위기의 연속으로 심각하게 악화되었다. 2011년 상반기 이익이 88.6% 하락했다. 영업 총괄 마이클 샤가 사임했고, 광범위한 대량 해고가 발생했으며, 제품 품질 문제가 심각했다. '베이디의 큰 패배'라는 부정적인 언론이 바이럴되었다.",
+      "lesson": "Public acknowledgment of mistakes in 2012: BYD pursued scale without quality; key failures were dealership networks, media relations, and quality control. Led to complete operational restructuring and recommitment to excellence.",
+      "lessonKo": "2012년 실수에 대한 공개 인정: BYD는 품질 없이 규모를 추구했다; 주요 실패는 딜러 네트워크, 미디어 관계, 품질 관리였다. 완전한 운영 재구성과 우수성에 대한 재약속으로 이어졌다.",
+      "source": "Medium, South China Morning Post"
+    },
+    {
+      "year": 2014,
+      "description": "Tesla's entry into China market disrupted BYD's competitive position. Tesla offered brand premium, social status, and high performance with solid range that BYD could not match at time. Market share erosion and sales pressure intensified.",
+      "descriptionKo": "테슬라의 중국 시장 진출이 BYD의 경쟁 위치를 붕괴시켰다. 테슬라는 당시 BYD가 대응할 수 없는 브랜드 프리미엄, 사회적 지위, 우수한 성능을 제공했다. 시장 점유율 침식과 판매 압력이 심화되었다.",
+      "lesson": "Recognized need to compete on both quality and innovation; led to increased investment in R&D for battery technology and vehicle design; proved importance of brand positioning in premium market.",
+      "lessonKo": "품질과 혁신 모두에서 경쟁할 필요성을 인식했으며, 배터리 기술 및 차량 설계 R&D 투자 증가로 이어졌다; 프리미엄 시장에서 브랜드 포지셔닝의 중요성을 입증했다.",
+      "source": "South China Morning Post, Rational Walk"
     }
   ],
   "wealthHistory": [
     {
-      "year": 1987,
-      "netWorth": 1.2
+      "year": 1995,
+      "netWorth": 0.05
     },
     {
-      "year": 2000,
-      "netWorth": 8.5
-    },
-    {
-      "year": 2005,
-      "netWorth": 15.7
+      "year": 2008,
+      "netWorth": 3.4
     },
     {
       "year": 2015,
-      "netWorth": 41.7
+      "netWorth": 12.8
     },
     {
-      "year": 2024,
-      "netWorth": 24.0
+      "year": 2021,
+      "netWorth": 23.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 23.6
     }
   ],
   "quotes": [
     {
-      "text": "We are at a pivotal moment where we must take huge strides toward regenerative outcomes. Under leadership committed to sustainability, organizations can transition from pioneer to global catalyst, democratizing knowledge and accelerating practices to support community resilience.",
-      "textKo": "우리는 재생적 결과를 향해 거대한 발걸음을 내딛어야 할 중요한 시점에 있습니다. 지속 가능성에 committed된 리더십 하에서 조직들은 선구자에서 글로벌 촉매제로 전환할 수 있으며, 지식을 민주화하고 커뮤니티 복원력을 지원하는 관행을 가속화할 수 있습니다.",
-      "context": "Statement reflecting her philosophy on combining investments, philanthropy, and advocacy for sustainable and equitable outcomes.",
-      "contextKo": "투자, 자선, 그리고 지속 가능하고 공정한 결과를 위한 옹호를 결합하는 그녀의 철학을 반영하는 진술."
+      "text": "We want to use our technological innovations to help solve the world's energy problems.",
+      "textKo": "우리는 기술 혁신을 통해 세계의 에너지 문제를 해결하고 싶다.",
+      "context": "Statement when BYD entered automotive industry in 2003, articulating the company's mission beyond profit.",
+      "contextKo": "2YD가 2003년 자동차 산업에 진출할 때의 성명으로, 이윤을 넘어선 회사의 사명을 표현했다.",
+      "source": "EV Magazine, Manufacturing Digital"
     },
     {
-      "text": "Education is the key to unlocking human potential and creating a more equitable and prosperous world. Through strategic philanthropy, we can support transformative change in communities.",
-      "textKo": "교육은 인간의 잠재력을 발휘하고 더 공정하고 번영하는 세계를 만드는 열쇠입니다. 전략적 자선을 통해 우리는 커뮤니티에서 변혁적 변화를 지원할 수 있습니다.",
-      "context": "On the core belief driving her philanthropic focus on education and sustainable development.",
-      "contextKo": "교육과 지속 가능한 개발에 대한 그녀의 자선적 초점을 주도하는 핵심 신념에 관해."
+      "text": "Technology is the main force to solve problems in the world. We strive to help people realize their longing for a better life through technical innovation.",
+      "textKo": "기술은 세계 문제를 해결하는 주요 힘이다. 우리는 기술 혁신을 통해 사람들이 더 나은 삶에 대한 그들의 갈망을 실현할 수 있도록 돕기 위해 노력한다.",
+      "context": "Reflects Wang's philosophy on the role of technology in sustainable development and social progress.",
+      "contextKo": "지속 가능한 발전 및 사회 진보에서 기술의 역할에 대한 왕의 철학을 반영한다.",
+      "source": "EV Magazine, CEO Journal Magazine"
     },
     {
-      "text": "I feel a responsibility to use wealth for good and to share it with others. True philanthropy means ensuring that giving creates sustainable, long-term change rather than temporary relief.",
-      "textKo": "나는 부를 선하게 사용하고 다른 사람들과 공유해야 한다는 책임감을 느낍니다. 진정한 자선은 임시 구호보다는 지속 가능한 장기적 변화를 만드는 기부를 보장하는 것입니다.",
-      "context": "Expressing her philosophy on the purpose and impact of philanthropy in her life.",
-      "contextKo": "그녀의 삶에서 자선의 목적과 영향에 관한 그녀의 철학을 표현함."
+      "text": "One must disrupt their own technology before others do.",
+      "textKo": "다른 사람이 하기 전에 자신의 기술을 파괴해야 한다.",
+      "context": "Encapsulates his innovation philosophy, exemplified by development of revolutionary Blade Battery that displaced earlier BYD battery designs.",
+      "contextKo": "이전 BYD 배터리 설계를 대체한 혁신적인 블레이드 배터리 개발로 예시된 그의 혁신 철학을 집약한다.",
+      "source": "International Finance, Green.org"
     }
   ],
   "books": {
-    "authored": [
-      {
-        "title": "N/A",
-        "note": "Christy Walton has not authored published books, though she has been featured in numerous philanthropic profiles and interviews.",
-        "noteKo": "Christy Walton은 출판된 도서를 저술하지 않았지만 수많은 자선 프로필 및 인터뷰에 소개되었습니다."
-      }
-    ],
+    "authored": [],
     "recommended": [
       {
-        "title": "Philanthropy and the Nonprofit Sector: Theory, Policy, and Practice",
-        "author": "Various authors",
-        "why": "Relevant to understanding strategic philanthropy and the long-term impact of charitable giving, which is central to Christy's approach.",
-        "whyKo": "전략적 자선과 자선 기부의 장기적 영향을 이해하는 데 관련성이 높으며 Christy의 접근 방식의 중심입니다."
+        "title": "The Rise of the Chinese Companies and Their Lessons",
+        "author": "Chen Wei",
+        "why": "Provides context on business challenges and strategies for Chinese enterprises competing globally.",
+        "whyKo": "중국 기업이 글로벌하게 경쟁하기 위한 사업 과제와 전략에 대한 맥락을 제공한다."
       },
       {
-        "title": "The Waltons: Inside America's Richest Family",
-        "author": "James Bates",
-        "why": "Comprehensive look at the Walton family business legacy, history, and the values that shape the family's approach to wealth and philanthropy.",
-        "whyKo": "Walton 가족의 비즈니스 유산, 역사 및 부의 부와 자선에 대한 가족의 접근 방식을 형성하는 가치관에 대한 포괄적 관점."
+        "title": "Innovation in Electric Vehicles",
+        "author": "David Bailey & Gary Gereffi",
+        "why": "Explores technology disruption and competitive dynamics in EV industry where BYD emerged as leader.",
+        "whyKo": "BYD가 리더로 떠오른 EV 산업의 기술 혁신과 경쟁 역학을 탐구한다."
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "One of the world's richest women and major philanthropist focused on education, environmental sustainability, and community development. Quiet yet influential advocate for social change. Steward of significant Walmart fortune inherited from her late husband John Walton.",
-    "knownForKo": "세계 최고 부자 여성 중 한 명이자 교육, 환경 지속 가능성 및 커뮤니티 개발에 초점을 맞춘 주요 자선가. 조용하지만 사회 변화의 영향력 있는 옹호자. 고인 남편 John Walton으로부터 상속받은 상당한 Walmart 재산의 관리인.",
-    "philanthropy": "Donated more than $2 billion to various causes since inheriting her fortune in 2005. Co-founder of Walton Family Charitable Support Foundation dedicating billions to education, environmental sustainability, and community development. Major investor in regenerative agriculture, First Solar, and education initiatives. Profiled by Condé Nast Portfolio as the highest female philanthropist by percentage of wealth given.",
-    "philanthropyKo": "2005년 재산을 상속받은 이후 다양한 원인에 20억 달러 이상 기부함. 교육, 환경 지속 가능성 및 커뮤니티 개발에 수십억 달러를 헌신하는 Walton Family Charitable Support Foundation 공동 설립자. 재생 농업, First Solar 및 교육 이니셔티브의 주요 투자자. Condé Nast Portfolio에서 부의 제공 비율이 가장 높은 여성 자선가로 소개됨.",
-    "controversies": "Largely kept a low public profile despite vast wealth. 2025 political involvement through New York Times advertisement supporting 'No Kings' movement attracted some attention. Some criticism over inherited wealth and limited role in building the fortune. Questions raised about the concentration of Walmart wealth and influence within the Walton family.",
-    "controversiesKo": "막대한 부에도 불구하고 낮은 public profile을 유지함. 2025년 'No Kings' movement을 지원하는 New York Times 광고를 통한 정치적 관여로 일부 주목을 받음. 상속 부와 재산 구축에서의 제한된 역할에 대한 일부 비판. Walmart 부의 집중과 Walton 가족 내 영향력에 대해 제기된 의문."
+    "knownFor": "Visionary founder of BYD transforming batteries to electric vehicles; nicknamed 'genius' by Warren Buffett's Charlie Munger; hands-on technical expertise in battery innovation; resilient recovery from major crises; leading BYD to overtake Tesla in global EV sales.",
+    "knownForKo": "배터리를 전기차로 변환하는 BYD의 비전 창립자; 워렌 버핏의 찰리 뮌거가 '천재'라고 별명을 붙임; 배터리 혁신의 실무적 기술 전문성; 주요 위기로부터의 회복력; BYD를 전 세계 EV 판매에서 테슬라를 추월하도록 주도.",
+    "philanthropy": "Active in philanthropic initiatives through BYD's focus on sustainable energy and environmental protection. Company invests heavily in research and development benefiting clean energy transitions globally.",
+    "philanthropyKo": "BYD의 지속 가능한 에너지 및 환경 보호에 대한 초점을 통한 자선 활동에 활동적이다. 회사는 전 세계 청정 에너지 전환에 혜택을 주는 연구 개발에 대량으로 투자한다.",
+    "controversies": "Faced recalls and quality control issues in recent years; Q4 2025 recalled 115,783 vehicles due to design and manufacturing problems. Second quarter 2025 saw nearly 30% year-on-year profit decline, marking first quarterly decline since 2022. Sales forecast for 2025 lowered 16% from 5.5 to 4.6 million units.",
+    "controversiesKo": "최근 몇 년 동안 리콜 및 품질 관리 문제에 직면했다. 2025년 Q4에는 설계 및 제조 문제로 115,783대 차량을 리콜했다. 2025년 2분기는 전년 동기대비 약 30% 순이익 감소를 기록했으며, 2022년 이후 첫 분기 이익 감소를 나타냈다. 2025년 판매 예측이 전년 예측인 550만 대에서 460만 대로 16% 하향 조정되었다."
   },
   "sajuConnection": {
     "note": null,

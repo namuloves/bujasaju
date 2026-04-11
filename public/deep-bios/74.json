@@ -1,157 +1,254 @@
 {
   "id": "74",
-  "name": "Melinda French Gates",
+  "name": "Peter Thiel",
   "childhood": {
-    "birthPlace": "Dallas, Texas, USA",
-    "birthPlaceKo": "미국 텍사스주 달라스",
-    "familyBackground": "Second of four children born to Raymond Joseph French Jr., an aerospace engineer, and Elaine Agnes Amerland, a homemaker. Grew up in a middle-class professional household with emphasis on education and social responsibility. Family valued both intellectual achievement and community engagement.",
-    "familyBackgroundKo": "항공우주 엔지니어 레이몬드 조셉 프렌치 주니어와 주부 엘레인 애그니스 아메를란드의 네 자녀 중 둘째. 교육과 사회적 책임에 중점을 두는 중산층 전문가 가정에서 성장. 가족은 지적 성취와 지역사회 참여 모두를 중시함.",
-    "education": "Attended Duke University where she earned a bachelor's degree in computer science and economics, demonstrating dual interests in technology and social systems. Continued at Duke to earn an MBA, developing business and analytical skills alongside technical expertise.",
-    "educationKo": "듀크 대학교에 진학하여 컴퓨터 과학 및 경제학 학사 학위를 취득하여 기술 및 사회 시스템에 대한 이중 관심을 입증. 듀크에서 계속하여 MBA 취득하여 기술적 전문성과 함께 사업 및 분석 기술 개발.",
-    "earlyLife": "Born August 15, 1964, Melinda French grew up in Dallas with strong emphasis on education and civic engagement. Her father's engineering background influenced her analytical approach, while her mother's homemaking role provided contrast. She developed early interests in both technology and social equity issues, setting trajectory for her later philanthropic work.",
-    "earlyLifeKo": "1964년 8월 15일 태어난 멜린다 프렌치는 교육과 시민 참여에 강한 중점을 두고 달라스에서 성장. 아버지의 공학 배경은 그녀의 분석적 접근에 영향을 미쳤으며, 어머니의 가정주부 역할은 대조를 제공. 기술과 사회적 형평성 문제에 대한 초기 관심을 개발하여 이후 자선 사업의 궤적을 설정.",
-    "source": "Wikipedia, Duke University, Gates Foundation"
+    "birthPlace": "Frankfurt am Main, West Germany",
+    "birthPlaceKo": "서독 프랑크푸르트 암 마인",
+    "familyBackground": "Son of Klaus Friedrich Thiel (chemical engineer) and Susanne Thiel. Younger brother Patrick Michael Thiel. Five generations of ancestors traced to Scottish immigrants to Australia.",
+    "familyBackgroundKo": "화학공학자인 아버지 클라우스 프리드리히 틸과 어머니 수잔 틸의 아들. 동생은 패트릭 마이클 틸. 5대조가 호주로 이민한 스코틀랜드 이민자로부터 후손",
+    "education": "San Mateo High School (valedictorian, 1985). Stanford University (B.A. Philosophy, 1989). Stanford Law School (J.D., 1992). Founded The Stanford Review newspaper critical of political correctness.",
+    "educationKo": "샌 마테오 고등학교(1985년 수석졸업). 스탠포드 대학 철학과 학사(1989년). 스탠포드 법학대학원 법학박사(1992년). 정치적 올바름을 비판하는 스탠포드 리뷰 신문 창립",
+    "earlyLife": "Immigrated to US at age 1, lived in Cleveland, Ohio initially. Frequent moves to South Africa, Namibia before settling Foster City, California in 1977. Changed elementary schools seven times. Chess prodigy, peak USCF rating 2342 in 1992. Won statewide math competition in California middle school.",
+    "earlyLifeKo": "1세에 미국으로 이민하여 초기에 오하이오 클리블랜드에 거주. 남아프리카, 나미비아로 자주 이사한 후 1977년 캘리포니아 포스터 시티에 정착. 초등학교를 7번 전학. 체스 천재로 1992년 USCF 최고 등급 2342를 기록. 캘리포니아 중학교 수학 경시대회 우승",
+    "source": "https://en.wikipedia.org/wiki/Peter_Thiel; https://www.britannica.com/money/Peter-Thiel; https://www.thefamouspeople.com/profiles/peter-thiel-42197.php"
   },
   "careerTimeline": [
     {
-      "year": 1982,
-      "event": "Graduates from Duke University with dual degree in computer science and economics, entering workforce during early personal computer era.",
-      "eventKo": "듀크 대학교에서 컴퓨터 과학 및 경제학 이중 학위로 졸업하여 초기 개인용 컴퓨터 시대에 직장 진출."
+      "year": 1989,
+      "event": "Graduated Stanford University with B.A. in Philosophy",
+      "eventKo": "스탠포드 대학 철학과 학사 졸업"
     },
     {
-      "year": 1987,
-      "event": "Joins Microsoft as a multimedia product developer, one of the early employees in the multimedia division.",
-      "eventKo": "멀티미디어 제품 개발자로 마이크로소프트에 입사하여 멀티미디어 부문의 초기 직원 중 하나가 됨."
+      "year": 1992,
+      "event": "Graduated Stanford Law School; published The Diversity Myth co-authored with David Sacks",
+      "eventKo": "스탠포드 법학대학원 졸업. 데이비드 색스와 공저한 '다양성의 신화' 출간"
     },
     {
-      "year": 1987,
-      "event": "Begins romantic relationship with Bill Gates, Microsoft co-founder and CEO, while working at the company.",
-      "eventKo": "회사에서 근무 중 마이크로소프트 공동 설립자이자 CEO인 빌 게이츠와 로맨틱한 관계 시작."
+      "year": 1992,
+      "event": "Worked as clerk, securities lawyer, speechwriter, and derivatives trader at Credit Suisse",
+      "eventKo": "크레디트 스위스에서 법원 조수, 증권 변호사, 연설문 작성자, 파생상품 거래자로 일함"
     },
     {
-      "year": 1994,
-      "event": "Marries Bill Gates on January 1, 1994, in Hawaii, beginning partnership that would shape global philanthropy for 27 years.",
-      "eventKo": "1994년 1월 1일 하와이에서 빌 게이츠와 결혼하여 27년간 글로벌 자선을 형성할 파트너십 시작."
+      "year": 1996,
+      "event": "Founded Thiel Capital Management",
+      "eventKo": "틸 캐피탈 매니지먼트 설립"
     },
     {
-      "year": 2000,
-      "event": "Co-founds Bill & Melinda Gates Foundation with Bill Gates, beginning systematic approach to global philanthropy focusing on health, development, and education.",
-      "eventKo": "빌 게이츠와 함께 빌 & 멜린다 게이츠 재단 공동 설립하여 보건, 개발 및 교육에 초점을 맞춘 체계적 글로벌 자선 접근 시작."
+      "year": 1998,
+      "event": "Co-founded PayPal with Max Levchin and Luke Nosek",
+      "eventKo": "막스 레브친, 루크 노섹과 함께 페이팔 공동 창립"
     },
     {
-      "year": 2015,
-      "event": "Founds Pivotal Ventures as a separate independent organization dedicated to improving conditions for women and families in the United States.",
-      "eventKo": "미국 내 여성과 가족의 조건을 개선하기 위해 노력하는 별도의 독립 조직 피보탈 벤처스 설립."
+      "year": 2002,
+      "event": "PayPal sold to eBay for $1.5 billion; Thiel netted approximately $55 million",
+      "eventKo": "페이팔을 이베이에 15억 달러에 매각. 틸이 약 5,500만 달러 수익"
     },
     {
-      "year": 2021,
-      "event": "Divorces Bill Gates in May 2021 after 27 years of marriage, with finalization on August 2, 2021. Receives over $2 billion in assets as part of settlement.",
-      "eventKo": "27년 결혼생활 후 2021년 5월 빌 게이츠와 이혼하여 2021년 8월 2일 최종 확정. 합의의 일환으로 20억 달러 이상의 자산 수령."
+      "year": 2002,
+      "event": "Founded Clarium Capital, a global macro hedge fund based in San Francisco",
+      "eventKo": "샌프란시스코 기반 글로벌 거시경제 헤지펀드 클라리움 캐피탈 설립"
     },
     {
-      "year": 2024,
-      "event": "Resigns as co-chair of Gates Foundation on May 13, 2024, effective June 7, 2024, to pursue independent philanthropic agenda with $12.5 billion commitment.",
-      "eventKo": "2024년 5월 13일 게이츠 재단 공동 회장에서 사직하여 2024년 6월 7일부터 시작하여 125억 달러 약속으로 독립적 자선 의제 추진."
+      "year": 2003,
+      "event": "Incorporated Palantir Technologies, a big data analysis company",
+      "eventKo": "빅데이터 분석 회사 팔란티르 테크놀로지스 설립"
+    },
+    {
+      "year": 2004,
+      "event": "Invested $500,000 in Facebook for 10.2% stake; joined Facebook's board of directors",
+      "eventKo": "페이스북에 50만 달러를 투자하여 10.2% 지분 획득. 페이스북 이사회 입석"
+    },
+    {
+      "year": 2005,
+      "event": "Launched Founders Fund with PayPal partners Ken Howery, Luke Nosek focusing on technology and hard tech investments",
+      "eventKo": "페이팔 동료 켄 하우리, 루크 노섹과 함께 기술 및 첨단 기술 투자에 초점을 맞춘 파운더스 펀드 출범"
+    },
+    {
+      "year": 2012,
+      "event": "Sold majority Facebook stake; founded Mithril Capital Management ($402M at launch) targeting growth-stage companies",
+      "eventKo": "페이스북 주식 대량 매각. 초기 자금 4억 200만 달러로 성장 단계 기업을 타겟하는 미스릴 캐피탈 매니지먼트 설립"
+    },
+    {
+      "year": 2022,
+      "event": "Left Facebook's board of directors after 18 years",
+      "eventKo": "18년 재직 후 페이스북 이사회 탈퇴"
     }
   ],
   "failures": [
     {
-      "year": 2010,
-      "description": "Gates Foundation's global health initiatives, while well-intentioned, faced criticism for top-down approach and sometimes limited understanding of local contexts in developing nations. Some health programs showed mixed results in addressing entrenched development challenges.",
-      "descriptionKo": "게이츠 재단의 글로벌 보건 이니셔티브는 좋은 의도였으나 하향식 접근 방식과 개발도상국의 지역 맥락에 대한 제한된 이해로 비판을 받음. 일부 보건 프로그램은 뿌리 깊은 개발 도전 해결에 혼합된 결과를 보임.",
-      "lesson": "Learned the importance of local partnership, community engagement, and adaptive management in large-scale global health and development initiatives. Recognized that top-down solutions, even well-funded ones, require deep contextual understanding and local stakeholder buy-in.",
-      "lessonKo": "대규모 글로벌 보건 및 개발 이니셔티브에서 지역 파트너십, 지역사회 참여 및 적응적 관리의 중요성을 학습. 최고 수준의 솔루션도 깊은 맥락 이해 및 지역 이해관계자 동의가 필요함을 인식.",
-      "source": "Global health analysis, foundation reports"
+      "year": 2008,
+      "description": "Clarium Capital down 4.5% as financial markets collapsed; assets peaked at $8 billion in Q1 2008 amid global financial crisis",
+      "descriptionKo": "금융시장이 붕괴하면서 클라리움 캐피탈이 4.5% 하락. 글로벌 금융위기 속 2008년 1분기 자산이 80억 달러 정점",
+      "lesson": "Even brilliant macro strategists cannot predict all market downturns; concentration in single strategy creates vulnerability",
+      "lessonKo": "뛰어난 거시경제 전략가도 모든 시장 하락을 예측할 수는 없음. 단일 전략 집중은 취약성을 만듦",
+      "source": "https://www.bloomberg.com/news/articles/2011-01-12/clarium-hedge-fund-shrinks-90-as-thiel-has-third-losing-year"
     },
     {
-      "year": 2021,
-      "description": "Public divorce from Bill Gates created significant media scrutiny and public controversy. The split raised questions about the future of Gates Foundation's unified vision and challenged the couple's carefully cultivated public image as a unified philanthropic power couple.",
-      "descriptionKo": "빌 게이츠와의 공개 이혼으로 상당한 미디어 정밀 조사 및 공개 논쟁 야기. 이혼은 게이츠 재단의 통일된 비전의 미래에 대한 의문을 제기했으며 통일된 자선 부부로 신중하게 구축한 공개 이미지에 도전.",
-      "lesson": "Navigated personal and professional separation while maintaining institutional continuity. Developed independent philanthropic voice and agenda through Pivotal Ventures, demonstrating ability to redefine role and impact outside of marriage partnership.",
-      "lessonKo": "기관적 연속성을 유지하면서 개인적 및 직업적 분리를 헤쳐나감. 피보탈 벤처스를 통해 독립적 자선 목소리 및 의제를 개발하여 결혼 파트너십 외에서 역할 및 영향력을 재정의할 수 있는 능력을 입증.",
-      "source": "Media reports, foundation communications"
+      "year": 2009,
+      "description": "Clarium Capital down 25% following 2008 losses; client redemptions accelerated as investor confidence deteriorated",
+      "descriptionKo": "2008년 손실에 이어 클라리움 캐피탈이 25% 하락. 투자자 신뢰가 악화되면서 고객 환급 요청 급증",
+      "lesson": "Losses compound when investors lose faith; redemptions reduce capital for recovery strategies and force liquidations",
+      "lessonKo": "투자자들이 신뢰를 잃으면 손실이 복합적으로 증가. 환급으로 회복 전략을 위한 자본이 줄어들고 청산을 초래",
+      "source": "https://www.hedgethink.com/side-peter-thiel-clarium-capital/"
+    },
+    {
+      "year": 2010,
+      "description": "Clarium Capital down 23% continuing downward trend; fund assets declined from $8 billion to $350 million by 2011",
+      "descriptionKo": "클라리움 캐피탈이 23% 하락하며 하락세 계속됨. 펀드 자산이 80억 달러에서 2011년까지 3억 5천만 달러로 감소",
+      "lesson": "Consecutive losses in hedge funds trigger accelerating withdrawals; better to admit strategy failure and transition than attempt recovery",
+      "lessonKo": "헤지펀드의 연속 손실은 가속화하는 이탈을 초래. 회복 시도보다 전략 실패를 인정하고 전환하는 것이 나음",
+      "source": "https://www.bloomberg.com/news/articles/2011-08-15/thiel-s-clarium-hedge-fund-to-make-tech-investments-after-losses"
     }
   ],
   "wealthHistory": [
     {
-      "year": 1994,
-      "netWorth": 1.0
+      "year": 1998,
+      "netWorth": 0
     },
     {
-      "year": 2000,
-      "netWorth": 15.0
+      "year": 2002,
+      "netWorth": 0.1
+    },
+    {
+      "year": 2004,
+      "netWorth": 0.5
     },
     {
       "year": 2010,
-      "netWorth": 25.0
+      "netWorth": 2.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 5
     },
     {
       "year": 2020,
-      "netWorth": 35.0
+      "netWorth": 10
     },
     {
       "year": 2024,
-      "netWorth": 29.9
+      "netWorth": 15
+    },
+    {
+      "year": 2025,
+      "netWorth": 23.2
     }
   ],
   "quotes": [
     {
-      "text": "When women gain rights, families flourish, and so do societies. That connection is built on a simple truth: Whenever you include a group that's been excluded, you benefit everyone.",
-      "textKo": "여성이 권리를 얻을 때 가족이 번영하고 사회도 번영한다. 그 연결은 간단한 진실에 기반한다: 언제든지 제외되었던 집단을 포함하면 모두가 이득을 얻는다.",
-      "context": "On the interconnection between gender equality and broader social progress.",
-      "contextKo": "성별 평등과 더 광범위한 사회 진보 사이의 상호 연결에 관하여.",
-      "source": "Gates Foundation writings"
+      "text": "The next Bill Gates will not build an operating system. The next Larry Page or Sergey Brin won't make a search engine. And the next Mark Zuckerberg won't create a social network. If you are copying these guys, you aren't learning from them.",
+      "textKo": "다음 빌 게이츠는 운영체제를 만들지 않을 것이다. 다음 래리 페이지나 세르게이 브린은 검색엔진을 만들지 않을 것이다. 다음 마크 저커버그는 소셜 네트워크를 만들지 않을 것이다. 이런 사람들을 모방하고 있다면, 그들로부터 배우고 있는 것이 아니다.",
+      "context": "Zero to One - on innovation and avoiding imitation",
+      "contextKo": "제로 투 원에서 - 혁신과 모방 회피에 대하여"
     },
     {
-      "text": "It's the mark of a backward society—or a society moving backward—when decisions are made for women by men.",
-      "textKo": "결정이 남성에 의해 여성을 위해 내려질 때 그것은 후진 사회의 또는 후진으로 움직이는 사회의 표시이다.",
-      "context": "On women's agency and the importance of women's participation in decision-making.",
-      "contextKo": "여성의 주체성 및 의사결정에 여성 참여의 중요성에 관하여.",
-      "source": "The Moment of Lift, interviews"
+      "text": "All happy companies are different: each one earns a monopoly by solving a unique problem. All failed companies are the same: they failed to escape competition.",
+      "textKo": "모든 성공한 기업은 다르다: 각각은 독특한 문제를 해결함으로써 독점을 얻는다. 모든 실패한 기업은 같다: 경쟁에서 벗어나지 못했다.",
+      "context": "Zero to One - on competitive advantage and monopoly",
+      "contextKo": "제로 투 원에서 - 경쟁우위와 독점에 대하여"
     },
     {
-      "text": "You can create all kinds of new tools, but if you're not moving toward equality, you're not really changing the world. You're just rearranging it.",
-      "textKo": "모든 종류의 새로운 도구를 만들 수 있지만, 평등을 향해 나아가지 않으면 실제로 세상을 바꾸지 않는 것이다. 당신은 그저 그것을 재배열하고 있을 뿐이다.",
-      "context": "On the centrality of equity to meaningful social progress and development work.",
-      "contextKo": "의미 있는 사회 진보 및 개발 업무에 대한 형평성의 중심성에 관하여.",
-      "source": "Pivotal Ventures communications"
+      "text": "What important truth do very few people agree with you on?",
+      "textKo": "매우 적은 사람들이 당신과 동의하는 중요한 진실이 무엇인가?",
+      "context": "Contrarian question used as job interview standard to identify original thinking",
+      "contextKo": "독창적 사고를 식별하기 위해 채용 면접 기준으로 사용되는 역발상적 질문"
+    },
+    {
+      "text": "Every great business is built around a secret that's hidden from the outside. A great company is a conspiracy to change the world.",
+      "textKo": "모든 위대한 기업은 외부에 숨겨진 비밀을 중심으로 구축된다. 위대한 회사는 세상을 바꾸기 위한 음모이다.",
+      "context": "Zero to One - on proprietary business secrets and mission-driven companies",
+      "contextKo": "제로 투 원에서 - 독점적 비즈니스 비밀과 미션 중심 회사에 대하여"
+    },
+    {
+      "text": "The single most powerful pattern I have noticed is that successful people find value in unexpected places, and they do this by thinking about business from first principles instead of formulas.",
+      "textKo": "내가 주목한 가장 강력한 패턴은 성공한 사람들이 공식 대신 첫 원리로부터 비즈니스를 생각함으로써 예기치 않은 곳에서 가치를 찾는다는 것이다.",
+      "context": "On competitive advantage through original thinking and pattern recognition",
+      "contextKo": "독창적 사고와 패턴 인식을 통한 경쟁우위에 대하여"
     }
   ],
   "books": {
     "authored": [
       {
-        "title": "The Moment of Lift: How Empowering Women Changes the World",
-        "note": "Memoir and manifesto outlining her philosophy on women's empowerment, gender equity, and global development.",
-        "noteKo": "여성 권능 부여, 성별 형평성 및 글로벌 개발에 대한 그녀의 철학을 설명하는 회고록 및 선언문."
+        "title": "The Diversity Myth: Multiculturalism and Political Intolerance on Campus",
+        "note": "Co-authored with David O. Sacks, published 1995. Critical of multiculturalism at Stanford University. Both authors later distanced themselves from controversial arguments.",
+        "noteKo": "데이비드 색스와 공저, 1995년 출간. 스탠포드 대학의 다문화주의 비판. 두 저자 모두 나중에 논쟁적 주장과 거리를 둠"
       },
       {
-        "title": "The Next Day",
-        "note": "Essay collection reflecting on her separation from Gates Foundation and emerging independent vision for philanthropy.",
-        "noteKo": "게이츠 재단으로부터의 분리 및 자선에 대한 새로운 독립적 비전에 대한 사색을 반영하는 에세이 모음."
+        "title": "Zero to One: Notes on Startups, or How to Build the Future",
+        "note": "Co-authored with Blake Masters, published 2014. Seminal work on creating breakthrough innovation through monopoly building and contrarian thinking. Became essential reading in Silicon Valley.",
+        "noteKo": "블레이크 마스터스와 공저, 2014년 출간. 독점 구축과 역발상적 사고를 통한 혁신 창출에 관한 기념비적 저작. 실리콘밸리의 필독서가 됨"
       }
     ],
     "recommended": [
       {
-        "title": "Thinking, Fast and Slow",
-        "author": "Daniel Kahneman",
-        "why": "Provides psychological frameworks for understanding decision-making in philanthropy and social change.",
-        "whyKo": "자선 및 사회 변화에서의 의사결정을 이해하기 위한 심리학적 프레임워크 제공."
+        "title": "Things Hidden Since the Foundation of the World",
+        "author": "René Girard",
+        "why": "Girard's mimetic theory profoundly influenced Thiel's thinking about human behavior, competition, and business strategy; provides sweeping view of human experience",
+        "whyKo": "지라르의 모방 이론이 인간 행동, 경쟁, 비즈니스 전략에 대한 틸의 사고에 깊은 영향. 인간 경험의 포괄적 관점 제시"
       },
       {
-        "title": "Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty",
-        "author": "Abhijit Banerjee and Esther Duflo",
-        "why": "Aligns with her focus on evidence-based approaches to development and understanding poverty's complexity.",
-        "whyKo": "개발에 대한 증거 기반 접근 및 빈곤의 복잡성 이해에 대한 그녀의 초점과 일치."
+        "title": "Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "why": "Thiel's favorite novel; influenced his naming of Palantir (Tolkien artifact) and Mithril Capital (Tolkien metal); reflects his love of fantasy and world-building",
+        "whyKo": "틸의 가장 사랑하는 소설. 팔란티르(톨킨 아티팩트)와 미스릴 캐피탈(톨킨 금속) 명명에 영향. 판타지와 세계 창조에 대한 애정 반영"
+      },
+      {
+        "title": "The New Atlantis",
+        "author": "Francis Bacon",
+        "why": "Part of Thiel's interest in 'past books written about the future'; represents vision of technological progress and scientific advancement",
+        "whyKo": "틸의 '과거에 미래에 대해 쓴 책들' 관심의 일부. 기술 진보와 과학 발전의 비전을 나타냄"
+      },
+      {
+        "title": "The Diamond Age",
+        "author": "Neal Stephenson",
+        "why": "Science fiction exploring nanotechnology and social structures; aligns with Thiel's interest in technology-driven future scenarios",
+        "whyKo": "나노기술과 사회 구조를 탐구하는 과학소설. 틸의 기술 주도 미래 시나리오 관심과 부합"
+      },
+      {
+        "title": "The Hard Thing About Hard Things",
+        "author": "Ben Horowitz",
+        "why": "Thiel values Horowitz's practical insights on building startups and leadership through adversity",
+        "whyKo": "틸이 스타트업 구축과 역경을 통한 리더십에 관한 호로위츠의 실용적 통찰을 높이 평가"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Philanthropist focused on women's empowerment and gender equality, methodical data-driven approach to social change, articulate communicator of development issues, co-founder of one of world's largest charitable foundations, advocate for women's rights and family planning access.",
-    "knownForKo": "여성 권능 부여 및 성별 평등에 초점을 맞춘 자선가, 사회 변화에 대한 체계적 데이터 기반 접근, 개발 문제의 명확한 커뮤니케이터, 세계 최대 자선 재단 중 하나의 공동 설립자, 여성의 권리 및 가족 계획 접근성의 옹호자.",
-    "philanthropy": "Co-chaired Bill & Melinda Gates Foundation from 2000-2024 as co-chair alongside Bill Gates, overseeing distribution of tens of billions in global health, development, and education grants. Founded Pivotal Ventures in 2015 with $12.5 billion commitment to advance women's power and influence in the United States, focusing on economic security, reproductive rights, family-friendly policies, and caregiving. Created Moment of Lift Books imprint. Personally engaged in vaccine development, family planning expansion, and girls' education initiatives. Co-author of annual Gates Notes letters addressing global challenges.",
-    "philanthropyKo": "2000-2024년 빌 게이츠와 함께 공동 회장으로 빌 & 멜린다 게이츠 재단 공동 회장을 역임하여 글로벌 보건, 개발 및 교육 보조금의 수십억 달러 배분 감독. 미국 내 여성의 권력 및 영향력 증진을 위해 125억 달러를 약속하는 피보탈 벤처스를 2015년에 설립하여 경제 보안, 생식 건강, 가족 친화 정책 및 돌봄에 초점. 모먼트 오브 리프트 북스 임프린트 창설. 백신 개발, 가족 계획 확대 및 여학생 교육 이니셔티브에 개인적으로 참여. 글로벌 도전을 다루는 연례 게이츠 노트 편지의 공동 저자.",
-    "controversies": "Gates Foundation's philanthropic approach faced criticism for perpetuating Western-centric development models and sometimes paternalistic attitudes toward developing nations. Vaccine advocacy has attracted scrutiny from vaccine skeptics, though scientific consensus strongly supports vaccine safety. Divorce from Bill Gates generated significant media speculation about personal relationship dynamics. Some criticism of foundation's tax benefits and lack of democratic accountability in directing massive charitable resources. Questions raised about the concentration of philanthropic power in private foundations.",
-    "controversiesKo": "게이츠 재단의 자선적 접근은 서방 중심의 개발 모델을 지속하고 때때로 개발도상국에 대해 부족적 태도를 취한다는 비판에 직면. 백신 옹호는 백신 회의론자로부터 정밀 조사를 받았으나 과학적 합의는 백신 안전성을 강력히 지지. 빌 게이츠와의 이혼은 개인적 관계 역학에 대한 상당한 미디어 추측 생성. 재단의 세금 이점 및 막대한 자선 자원을 지시하는 민주적 책임 부재에 대한 비판. 민간 재단에서의 자선적 권력 집중에 대한 의문 제기."
+    "knownFor": "Contrarian thinking, identifying undervalued opportunities, first-principles analysis, unconventional views on technology and society, chess prodigy intellect, articulate philosophical perspective, backing founders like Mark Zuckerberg early",
+    "knownForKo": "역발상적 사고, 저평가된 기회 발굴, 첫 원리 분석, 기술과 사회에 대한 비관례적 관점, 체스 천재의 지능, 명확한 철학적 관점, 마크 저커버그 같은 초기 창업자 지원",
+    "philanthropy": "Thiel Fellowship program (grants to young entrepreneurs to skip college and pursue startups). Support for AI safety research through various initiatives. Contributions to longevity and life extension research. Medical innovation funding.",
+    "philanthropyKo": "틸 펠로우십 프로그램(젊은 기업가들에게 대학을 건너뛰고 스타트업을 추구할 수 있게 하는 보조금). 다양한 이니셔티브를 통한 AI 안전 연구 지원. 장수 및 생명 연장 연구 기여. 의료 혁신 자금 지원",
+    "controversies": "The Diversity Myth arguments criticized as misrepresenting multiculturalism; later distanced from views. Support for Trump's 2016 presidential campaign. Lawsuits against Gawker media (2016 victory). Libertarian-leaning political positions viewed as controversial by progressives. Appearances alongside contentious political figures.",
+    "controversiesKo": "'다양성의 신화' 주장이 다문화주의를 잘못 표현했다고 비판받음. 나중에 관점과 거리를 둠. 트럼프의 2016 대선 지지. 고커 미디어 상대 소송(2016년 승리). 자유주의 경향의 정치 입장이 진보 진영에서 논쟁 대상. 논쟁적 정치인들과의 동석"
+  },
+  "additionalInsights": {
+    "pivotalMentors": [
+      {
+        "name": "René Girard",
+        "relationship": "Intellectual influence via Girard's writings on mimetic theory and human behavior",
+        "influence": "Shaped Thiel's understanding of competition, human desire, and business strategy; framework for seeing patterns others miss"
+      },
+      {
+        "name": "Dr. Peter Attia",
+        "relationship": "Personal health and longevity advisor",
+        "influence": "Guides Thiel's approach to fitness, biohacking, and long-term health optimization"
+      },
+      {
+        "name": "J.R.R. Tolkien (literary/intellectual)",
+        "relationship": "Literary and philosophical influence through works",
+        "influence": "Inspired Thiel's naming conventions (Palantir, Mithril Capital), vision of world-building and secondary creation"
+      }
+    ],
+    "dailyRoutine": "Sleeps 6-7 hours nightly, in bed around midnight. Mornings focused on deep thinking rather than emails or social media, protecting cognitive bandwidth for high-leverage intellectual work. Reads widely across history, philosophy, science, and political theory. Engages in long, in-depth conversations with intellectuals and entrepreneurs. Maintains ketogenic diet (bulletproof coffee with butter and MCT oil). Regular exercise with personal trainers emphasizing compound movements (deadlifts, kettlebells, HIIT). No structured daily schedule but driven by goals and deal opportunities. Often loses track of time in intellectual discussions.",
+    "keyAnecdotes": [
+      "As chess prodigy, achieved 2342 USCF rating by age 25, demonstrating early mastery of strategic thinking and pattern recognition",
+      "Founded The Stanford Review newspaper while student to counter what he viewed as political intolerance, showing early contrarian instincts",
+      "Invested $500,000 in Facebook when valued at only $4.9M, turning investment into over $1 billion - exemplifying his ability to identify undervalued opportunities",
+      "Directly contacted Mark Zuckerberg with investment offer when Facebook was seeking traditional VC funding, demonstrating boldness and unconventional approach",
+      "Asked candidates 'What important truth do very few people agree with you on?' as standard interview question, using philosophy to identify original thinkers",
+      "Suffered significant losses in Clarium Capital hedge fund (down 25%, 23%, and 90%) but leveraged experience to refocus on venture capital where he excelled"
+    ],
+    "turningPoint": "The 2004 Facebook investment marked Thiel's transition from individual trading (PayPal wealth) and macro trading (Clarium losses) to venture capital strategy. Recognizing his Clarium losses around 2008-2011, he pivoted entirely toward venture capital through Founders Fund and Mithril Capital, where his first-principles thinking and pattern recognition proved far more valuable than macro prediction. This shift aligned with his natural strengths and transformed venture capital into his primary wealth-creation engine.",
+    "managementStyle": "Hands-on but non-micromanaging investor who asks penetrating questions to test founder thinking. Values original contrarian perspectives and first-principles analysis over conventional wisdom. Creates environments that reward bold ideas and intellectual honesty. Willing to back unpopular bets if logic is sound. Focuses on identifying and backing great founders rather than controlling operations. Maintains philosophical approach to business rather than purely financial. Encourages team members to think independently and challenge assumptions. Direct communicator who values clarity and can be blunt about disagreement."
   },
   "sajuConnection": {
     "note": "Leave null.",

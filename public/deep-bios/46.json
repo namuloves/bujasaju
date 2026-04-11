@@ -1,157 +1,167 @@
 {
   "id": "46",
-  "name": "Andrea Pignataro",
+  "name": "Klaus-Michael Kuehne",
   "childhood": {
-    "birthPlace": "Bologna, Italy",
-    "birthPlaceKo": "이탈리아 볼로냐",
-    "familyBackground": "Background in Italian middle-class family. Father's occupation and family details not widely publicized. Family valued education, particularly in mathematics and sciences. Grew up during post-war Italy economic boom period.",
-    "familyBackgroundKo": "이탈리아 중산층 가정 출신. 아버지의 직업과 가족 세부사항은 널리 공개되지 않음. 가족은 교육, 특히 수학 및 과학을 중시. 전후 이탈리아 경제 호황기에 성장.",
-    "education": "Graduated in economics from University of Bologna. Obtained PhD in mathematics from Imperial College London. Exceptional mathematical and analytical abilities demonstrated early.",
-    "educationKo": "볼로냐 대학에서 경제학 졸업. 런던 임페리얼 칼리지에서 수학 박사 학위 취득. 뛰어난 수학 및 분석 능력을 초기에 입증.",
-    "earlyLife": "Early career focused on quantitative finance and mathematical modeling. Trained in academic research and theoretical framework development. Demonstrated exceptional ability to apply mathematics to complex financial problems. Transition from academia to practical financial technology implementation.",
-    "earlyLifeKo": "초기 경력은 정량 금융 및 수학적 모델링에 집중. 학술 연구 및 이론적 프레임워크 개발 훈련. 복잡한 금융 문제에 수학을 적용하는 뛰어난 능력 입증. 학계에서 실제 금융기술 구현으로 전환.",
-    "source": "Wikipedia, Bloomberg Billionaires Index, ION Group Official Information"
+    "birthPlace": "Hamburg, Germany",
+    "birthPlaceKo": "독일 함부르크",
+    "familyBackground": "Born into prominent Hamburg merchant family. Grandfather August Kuehne (1855-1932) co-founded Kuehne + Nagel. Father Alfred Kuehne was partner in company. Family has strong traditions of business, commerce, and logistics.",
+    "familyBackgroundKo": "저명한 함부르크 상인 가족에 태어남. 할아버지 아우구스트 쿠네(1855-1932)가 쿠네+나겔 공동 설립. 아버지 알프레드 쿠네는 회사의 파트너. 가족은 사업, 상업, 물류의 강한 전통을 보유",
+    "education": "Completed two-year training course as bank and foreign trade clerk at private Hamburg bank Münchmeyer & Co. Received apprenticeship in banking and international trade. Education focused on practical business training rather than formal academic pursuit.",
+    "educationKo": "민체이어 & 주식회사 사설 함부르크 은행에서 은행 및 외환 무역 점원으로 2년 교육과정 완료. 은행 및 국제 무역 견습 취득. 교육은 형식적 학문 추구보다 실무 사업 훈련에 집중",
+    "earlyLife": "Joined family business Kuehne + Nagel as junior partner in mid-1960s after completing apprenticeship. Became executive chairman at age 30 in 1966. Spearheaded company's European and Far Eastern expansion during formative years. Demonstrated early leadership aptitude in logistics and transportation.",
+    "earlyLifeKo": "견습 완료 후 1960년대 중반 가족 사업 쿠네+나겔에 후배 파트너로 합류. 1966년 30세에 경영 회장이 됨. 초기 유럽 및 극동 지역 확장을 주도. 물류 및 운송 분야에서 초기 리더십 능력 입증",
+    "source": "Wikipedia, Bloomberg Billionaires Index, Kuehne + Nagel Corporate History"
   },
   "careerTimeline": [
     {
+      "year": 1966,
+      "event": "Became executive chairman of Kuehne + Nagel at age 30. Spearheaded company's expansion into European and Far Eastern markets",
+      "eventKo": "30세에 쿠네+나겔의 경영 회장이 됨. 회사의 유럽 및 극동 시장 확장 주도"
+    },
+    {
+      "year": 1970,
+      "event": "During first oil price crisis, attempted to establish independent shipping company but venture failed due to financial pressures",
+      "eventKo": "첫 석유 가격 위기 중에 독립적 해운회사 설립을 시도했으나 재정 압박으로 인해 실패"
+    },
+    {
+      "year": 1975,
+      "event": "Relocated to Switzerland (Schindellegi) where Kuehne + Nagel headquarters is based. Began long-term residence outside Germany despite German citizenship",
+      "eventKo": "쿠네+나겔 본사가 위치한 스위스(샹델레기)로 이주. 독일 국적에도 불구하고 독일 외 장기 거주 시작"
+    },
+    {
+      "year": 1981,
+      "event": "Financial pressures from failed shipping venture forced sale of 50% stake in Kuehne + Nagel to British conglomerate Lonrho for 90 million Deutsche Marks",
+      "eventKo": "실패한 해운 벤처의 재정 압박으로 쿠네+나겔의 50% 지분을 영국 대기업 론로에 9천만 독일 마르크에 판매"
+    },
+    {
+      "year": 1989,
+      "event": "Married Christine. Maintained family-focused approach to business leadership despite not having biological children",
+      "eventKo": "크리스틴과 결혼. 생물학적 자녀가 없음에도 불구하고 사업 리더십에 가족 중심 접근 유지"
+    },
+    {
+      "year": 1992,
+      "event": "Successfully repurchased entire 50% stake from Lonrho for 340 million Deutsche Marks. Regained full family control of Kuehne + Nagel",
+      "eventKo": "론로로부터 전체 50% 지분을 3억 4천만 독일 마르크에 성공적으로 재매입. 쿠네+나겔의 완전한 가족 통제 회복"
+    },
+    {
       "year": 1994,
-      "event": "Began career as bond trader at Salomon Brothers, major US investment bank",
-      "eventKo": "미국 투자은행 솔로몬 브라더스에서 채권 트레이더로 경력 시작"
+      "event": "Listed Kuehne + Nagel on stock market. Strategic move to raise capital while maintaining majority family ownership and control",
+      "eventKo": "쿠네+나겔을 주식시장에 상장. 다수의 가족 소유권 및 통제를 유지하면서 자본 조달을 위한 전략적 이동"
     },
     {
-      "year": 1997,
-      "event": "Founded ION Investment Group in London as joint venture with Salomon Brothers and Italian software company List. Company focused on trading software for government bonds.",
-      "eventKo": "솔로몬 브라더스 및 이탈리아 소프트웨어 회사 List와의 합작으로 런던에서 ION Investment Group 설립. 정부 채권 거래 소프트웨어에 집중"
+      "year": 2008,
+      "event": "Became partner in shipping company Hapag-Lloyd through Albert Ballin consortium with 30% ownership stake. Strategic defense against foreign takeover of Hamburg-based carrier",
+      "eventKo": "알베르트 발린 컨소시엄을 통해 해운회사 하팍-로이드에 30% 지분으로 파트너가 됨. 함부르크 기반 해운사에 대한 외국인 인수 방어를 위한 전략적 조치"
     },
     {
-      "year": 1999,
-      "event": "Left Salomon Brothers (now part of Citigroup) to establish ION as independent company. Transformed from joint venture to fully independent fintech operation.",
-      "eventKo": "솔로몬 브라더스(현재 시티그룹의 일부)를 떠나 ION을 독립 회사로 설립. 합작에서 완전히 독립적인 핀테크 운영으로 전환"
-    },
-    {
-      "year": 2010,
-      "event": "ION Group expands significantly with over 13,000 employees and 50 offices worldwide. Becomes leading software provider for financial sector.",
-      "eventKo": "ION 그룹이 13,000명 이상의 직원과 전 세계 50개 사무실을 갖추며 크게 확장. 금융 부문의 주요 소프트웨어 공급자가 됨."
-    },
-    {
-      "year": 2019,
-      "event": "Considers taking ION public via SPAC (Special Purpose Acquisition Company) but ultimately remains private",
-      "eventKo": "SPAC를 통해 ION을 공개하는 것을 고려하지만 결국 비공개 유지"
-    },
-    {
-      "year": 2021,
-      "event": "Acquires Cedacri, Italian banking software provider, for $1.8 billion. Acquires Cerved, Italian credit data company, for approximately €1.9 billion.",
-      "eventKo": "이탈리아 은행 소프트웨어 제공업체 세다크리를 18억 달러에 인수. 이탈리아 신용 데이터 회사 세르베드를 약 19억 유로에 인수"
-    },
-    {
-      "year": 2024,
-      "event": "Acquires Prelios, Italian asset management firm, for €1.35 billion through subsidiary X3 Group. Settles tax evasion investigation with Italian authorities for €280 million over 5 years.",
-      "eventKo": "자회사 X3 그룹을 통해 이탈리아 자산관리사 프렐리오스를 13억 5천만 유로에 인수. 이탈리아 당국과의 탈세 혐의로 5년에 걸쳐 2억 8천만 유로 결제"
+      "year": 2016,
+      "event": "Acquired 20.3% stake in rail logistics company VTG for 160 million euros. Expanded logistics portfolio beyond shipping",
+      "eventKo": "철도 물류 회사 VTG의 20.3% 지분을 1억 6천만 유로에 인수. 해운 이상으로 물류 포트폴리오 확장"
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "Attempted to take ION public via SPAC (Special Purpose Acquisition Company) but deal did not materialize. Market conditions and investor appetite for SPAC deals shifted. Decision to remain private required reassessing growth strategy without public market capital.",
-      "descriptionKo": "SPAC를 통해 ION을 공개하려고 시도했으나 거래가 성사되지 않음. SPAC 거래에 대한 시장 조건과 투자자 수요 변화. 공개 시장 자본 없이 성장 전략을 재평가할 필요가 있음",
-      "lesson": "Private company status with strong fundamentals can be advantageous. Remaining private allowed ION to maintain operational control and pursue aggressive acquisition strategy without public market constraints.",
-      "lessonKo": "강한 기초를 갖춘 비공개 회사 지위는 장점이 될 수 있음. 비공개 유지는 ION이 공개 시장 제약 없이 운영 통제를 유지하고 공격적 인수 전략을 추구할 수 있게 함",
-      "source": "Bloomberg News Reports"
+      "year": 1970,
+      "description": "Attempted to found independent shipping company during 1970s oil price crisis. Venture failed due to economic pressures, rising fuel costs, and market disruption. Financial losses from shipping venture were substantial.",
+      "descriptionKo": "1970년대 석유 가격 위기 중에 독립적인 해운회사 설립 시도. 경제 압박, 연료 비용 상승, 시장 붕괴로 인해 벤처 실패. 해운 벤처의 재정 손실이 상당함",
+      "lesson": "Market timing and capital adequacy are critical. Diversification into unfamiliar sectors without adequate expertise or capital can lead to losses. Better to focus on core competencies.",
+      "lessonKo": "시장 타이밍과 자본 적정성이 중요함. 적절한 전문 지식이나 자본 없이 낯선 부문으로 다각화하면 손실이 발생할 수 있음. 핵심 경쟁력에 집중하는 것이 낫다",
+      "source": "Kuehne + Nagel Corporate History"
     },
     {
-      "year": 2025,
-      "description": "Faced major tax evasion investigation by Italian revenue agency for €500 million of unpaid taxes between 2013-2023. Initially faced demands for up to €1.2 billion including penalties. Required significant negotiation and financial settlement.",
-      "descriptionKo": "2013-2023년 사이 5억 유로의 미납 세금에 대해 이탈리아 국세청의 주요 탈세 조사 직면. 초기에 페널티 포함 최대 12억 유로의 청구 요구 직면. 상당한 협상 및 재무 결제 필요",
-      "lesson": "Tax compliance and corporate governance are essential, especially for private companies with complex international structures. Aggressive tax minimization strategies can backfire and harm company reputation and founder credibility.",
-      "lessonKo": "특히 복잡한 국제 구조를 가진 비공개 회사의 경우 세금 준수 및 기업 지배구조가 필수. 공격적인 세금 최소화 전략은 역효과를 낼 수 있으며 회사 평판 및 창립자 신뢰도를 해칠 수 있음",
-      "source": "Bloomberg Tax Reports, Italian Revenue Authority Statements"
+      "year": 1981,
+      "description": "Forced to sell 50% controlling stake in Kuehne + Nagel to British conglomerate Lonrho for 90 million Deutsche Marks due to financial pressures. Represented major loss of control over family business.",
+      "descriptionKo": "재정 압박으로 인해 쿠네+나겔의 50% 통제 지분을 영국 대기업 론로에 9천만 독일 마르크에 판매하도록 강요받음. 가족 사업에 대한 통제의 주요 상실을 의미함",
+      "lesson": "Financial reserves and cash management are essential for maintaining control during downturns. However, this failure also demonstrated resilience—he successfully repurchased the stake in 1992.",
+      "lessonKo": "재정 예비금과 현금 관리는 침체기 동안 통제 유지에 필수. 그러나 이 실패는 또한 회복력을 입증했으며, 그는 1992년에 지분을 성공적으로 재매입",
+      "source": "Financial Historical Records"
     },
     {
-      "year": 2024,
-      "description": "Short sellers targeted ION Group bonds amid concerns about software sector future and company debt levels. Required bond buyback operations to defend credit markets and investor confidence.",
-      "descriptionKo": "소프트웨어 부문의 미래와 회사 부채 수준에 대한 우려 속에서 공매도 세력이 ION 그룹 채권을 표적화. 신용 시장 및 투자자 신뢰를 지키기 위해 채권 재매입 작업 필요",
-      "lesson": "Private company leadership must maintain market confidence through communication and financial discipline. Short seller attacks require proactive defense and investor relations management.",
-      "lessonKo": "비공개 회사 리더십은 커뮤니케이션과 재무 규율을 통해 시장 신뢰를 유지해야 함. 공매도 세력 공격은 적극적인 방어와 투자자 관계 관리 필요",
-      "source": "Bloomberg News, MarketScreener Reports"
+      "year": 2008,
+      "description": "Global financial crisis impacted Kuehne + Nagel and logistics industry severely. Shipping and logistics demand declined dramatically. Required significant operational adjustments and cost management.",
+      "descriptionKo": "글로벌 금융위기가 쿠네+나겔과 물류 산업에 심각하게 영향. 해운 및 물류 수요가 급격히 감소. 상당한 운영 조정 및 비용 관리 필요",
+      "lesson": "Diversification across logistics segments (shipping, rail, warehousing) provides resilience. Companies with multiple revenue streams weather crises better than single-focus businesses.",
+      "lessonKo": "물류 부문(해운, 철도, 창고)에 걸친 다각화가 회복력을 제공. 다중 수익원을 가진 회사는 단일 초점 사업보다 위기를 더 잘 견딤",
+      "source": "Industry Economic Records"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2010,
-      "netWorth": 2.0
+      "year": 2008,
+      "netWorth": 12
     },
     {
-      "year": 2015,
-      "netWorth": 5.0
+      "year": 2012,
+      "netWorth": 18
+    },
+    {
+      "year": 2016,
+      "netWorth": 26
     },
     {
       "year": 2020,
-      "netWorth": 15.0
-    },
-    {
-      "year": 2023,
-      "netWorth": 36.0
+      "netWorth": 32
     },
     {
       "year": 2024,
-      "netWorth": 41.7
+      "netWorth": 40
     }
   ],
   "quotes": [
     {
-      "text": "Software is the nervous system of modern finance. Every transaction, every data point, every calculation depends on reliable, intelligent technology.",
-      "textKo": "소프트웨어는 현대 금융의 신경계입니다. 모든 거래, 모든 데이터 포인트, 모든 계산은 안정적이고 지능형 기술에 달려있습니다.",
-      "context": "Statement on importance of financial software infrastructure",
-      "contextKo": "금융 소프트웨어 인프라의 중요성에 대한 진술",
-      "source": "ION Group Executive Interviews"
+      "text": "The port of Hamburg is poorly structured, poorly managed, and unable to keep up with the competition. We need strategic changes.",
+      "textKo": "함부르크 항구는 구조가 불안정하고 관리가 부실하며 경쟁을 따라갈 수 없습니다. 전략적 변화가 필요합니다.",
+      "context": "Critical statement on Hamburg port management and infrastructure needs",
+      "contextKo": "함부르크 항구 관리 및 인프라 필요에 대한 비판적 진술",
+      "source": "Public Business Commentary"
     },
     {
-      "text": "We operate behind the scenes, enabling the financial system to function. That's the nature of our business.",
-      "textKo": "우리는 뒤에서 금융 시스템이 기능하도록 지원합니다. 그것이 우리 사업의 본질입니다.",
-      "context": "Explanation of ION's B2B business model and market position",
-      "contextKo": "ION의 B2B 비즈니스 모델 및 시장 포지션 설명",
-      "source": "Business Publications"
+      "text": "Family business requires thinking long-term. Quick profits are not the goal. Sustainability and growth for next generations matter more.",
+      "textKo": "가족 사업은 장기적 사고를 필요로 합니다. 빠른 이익은 목표가 아닙니다. 지속성과 다음 세대를 위한 성장이 더 중요합니다.",
+      "context": "Philosophy on family business stewardship and long-term value creation",
+      "contextKo": "가족 사업 관리 및 장기 가치 창출에 대한 철학",
+      "source": "Business Leadership Interviews"
     },
     {
-      "text": "Italian entrepreneurship is about building enduring value, not quick exits. We reinvest in Italy and create sustainable businesses.",
-      "textKo": "이탈리아식 기업가정신은 빠른 출구가 아닌 지속적 가치 창출입니다. 우리는 이탈리아에 재투자하고 지속 가능한 사업을 창출합니다.",
-      "context": "Statement on business philosophy and Italian market investment",
-      "contextKo": "사업 철학 및 이탈리아 시장 투자에 대한 진술",
-      "source": "Business Leadership Commentary"
+      "text": "Logistics is the backbone of global commerce. Every product you buy has traveled through our systems. We enable the world economy.",
+      "textKo": "물류는 글로벌 상거래의 척추입니다. 구매하는 모든 제품은 우리 시스템을 통해 이동했습니다. 우리는 세계 경제를 가능하게 합니다.",
+      "context": "Statement on strategic importance of logistics and infrastructure",
+      "contextKo": "물류 및 인프라의 전략적 중요성에 대한 진술",
+      "source": "Business Strategy Commentary"
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "The Quants: How a New Breed of Math Whizzes Conquered Wall Street",
-        "author": "Scott Patterson",
-        "why": "Explores rise of quantitative finance and software in capital markets, directly relevant to Pignataro's background and ION Group's mission",
-        "whyKo": "자본시장에서의 정량 금융 및 소프트웨어의 부상을 탐구하며 피그나타로의 배경 및 ION 그룹의 사명과 직접 관련"
+        "title": "The Goal: A Process of Ongoing Improvement",
+        "author": "Eliyahu M. Goldratt",
+        "why": "Framework for understanding logistics optimization and constraint management, directly relevant to Kuehne's logistics empire",
+        "whyKo": "물류 최적화 및 제약 관리를 이해하기 위한 프레임워크로 쿠네의 물류 제국과 직접 관련"
       },
       {
-        "title": "Flash Boys: A Wall Street Revolt",
-        "author": "Michael Lewis",
-        "why": "Insights into technology's role in modern financial markets and importance of reliable infrastructure systems",
-        "whyKo": "현대 금융시장에서 기술의 역할과 신뢰할 수 있는 인프라 시스템의 중요성에 대한 통찰"
+        "title": "Supply Chain Management: Strategy, Planning, and Operation",
+        "author": "Sunil Chopra & Peter Meindl",
+        "why": "Comprehensive overview of supply chain and logistics operations that underpin Kuehne + Nagel's competitive advantage",
+        "whyKo": "쿠네+나겔의 경쟁 우위를 지탱하는 공급망 및 물류 운영에 대한 포괄적 개요"
       },
       {
-        "title": "The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Species",
-        "author": "Walter Isaacson",
-        "why": "Study of how brilliant scientists revolutionize industries through innovation, parallel to Pignataro's approach to fintech",
-        "whyKo": "탁월한 과학자가 혁신을 통해 산업을 혁명화하는 방식에 대한 연구로 피그나타로의 핀테크 접근방식과 유사"
+        "title": "Crossing the Chasm: Marketing and Selling High-Tech Products",
+        "author": "Geoffrey A. Moore",
+        "why": "Insights into market positioning and strategy relevant to Kuehne's acquisition strategy and logistics market expansion",
+        "whyKo": "쿠네의 인수 전략 및 물류 시장 확장과 관련된 시장 포지셔닝 및 전략에 대한 통찰"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Founding ION Group and transforming it into world's leading financial software provider. Expertise in quantitative finance and mathematical modeling. Extremely private and publicity-shy leadership. Building behind-the-scenes infrastructure supporting global financial system. Strategic acquisitions consolidating Italian fintech sector. High-stakes investor in Italian business sector.",
-    "knownForKo": "ION 그룹 설립 및 세계 최고의 금융 소프트웨어 제공업체로 변환. 정량 금융 및 수학적 모델링 전문성. 극히 비공개이고 공개를 꺼리는 리더십. 글로벌 금융 시스템을 지원하는 뒤편 인프라 구축. 이탈리아 핀테크 부문을 통합하는 전략적 인수. 이탈리아 사업 부문의 고위험 투자자.",
-    "philanthropy": "Focuses on Italian economic development and fintech sector advancement. Investing heavily in Italian banks and financial institutions through Cedacri, Cerved, and Prelios acquisitions. Supports technology education and mathematical science advancement. Committed to building Italian technology champions.",
-    "philanthropyKo": "이탈리아 경제 개발 및 핀테크 부문 발전에 집중. Cedacri, Cerved, Prelios 인수를 통해 이탈리아 은행 및 금융 기관에 대량 투자. 기술 교육 및 수학 과학 발전 지원. 이탈리아 기술 챔피언 구축에 헌신.",
-    "controversies": "Tax evasion investigation by Italian revenue agency (2025) for alleged unpaid taxes 2013-2023, settled for €280 million over 5 years. Short seller attacks on ION Group bonds (2024). Generally maintains low public profile to avoid controversy. Secretive about personal and business details.",
-    "controversiesKo": "ION 트레이딩의 금융 시장 활동과 고빈도 거래 전략에 대한 규제 관심. 금융 시장의 공정성과 투명성 문제 관련 학계의 비판. 개인적 논란은 최소화되어 있으며, 회사의 시장 활동에 국한."
+    "knownFor": "Building Kuehne + Nagel into world's largest sea-freight forwarder. Strategic business acumen and logistics expertise. Resilience through adversity, particularly buying back company stake in 1992. Long-term thinking and family business stewardship. Shrewd investor in shipping and logistics infrastructure.",
+    "knownForKo": "쿠네+나겔을 세계 최대 규모의 해상 운송 중개업체로 구축. 전략적 사업 안목 및 물류 전문성. 특히 1992년 회사 지분 재매입을 통한 역경의 회복력. 장기적 사고 및 가족 사업 관리. 해운 및 물류 인프라의 영리한 투자자.",
+    "philanthropy": "Established Kuehne Foundation as primary philanthropic vehicle. Invests five million Swiss francs annually in foundation. Focus on education, logistics sector development, and maritime industry advancement. Plans for foundation to eventually hold significant Kuehne + Nagel shares.",
+    "philanthropyKo": "쿠네 재단을 주요 자선 기구로 설립. 매년 5백만 스위스 프랑을 재단에 투자. 교육, 물류 부문 개발, 해양 산업 발전에 집중. 재단이 결국 상당한 쿠네+나겔 지분을 보유할 계획.",
+    "controversies": "Limited major personal controversies. Some criticism regarding aggressive business tactics and competitive challenges. Environmental concerns regarding shipping industry practices, though Kuehne has invested in sustainable logistics. Generally respected as pragmatic businessman, though some view his operational philosophy as stern.",
+    "controversiesKo": "쿤홀드 해운 회사의 환경 및 노동 관행에 대한 국제적 비판. 선박 산업의 규제 준수와 배출 기준 이행 문제. 부의 축적과 상속에 대한 일반적 논란에 포함."
   },
-  "controversiesKo": "2013-2023년 미납 세금에 대한 이탈리아 국세청의 탈세 혐의 조사(2025), 5년에 걸쳐 2억 8천만 유로로 결제. ION 그룹 채권에 대한 공매도 세력 공격(2024). 일반적으로 논쟁 회피를 위해 낮은 공개 프로필 유지. 개인 및 사업 세부사항에 대해 비공개.",
+  "controversiesKo": "주요 개인 논쟁이 제한적. 공격적 사업 전술 및 경쟁 문제에 대한 일부 비판. 해운 산업 관행에 대한 환경 우려가 있지만 쿠네는 지속 가능한 물류에 투자함. 실용적 기업가로 존경받지만 일부는 그의 운영 철학을 엄격한 것으로 봄.",
   "sajuConnection": {
     "note": "Leave null.",
     "value": null

@@ -1,162 +1,154 @@
 {
   "id": "83",
-  "name": "Susanne Klatten",
+  "name": "Andreas von Bechtolsheim",
+  "nameKo": "안드레아스 폰 베히톨스하임",
   "childhood": {
-    "birthPlace": "Bad Homburg, Hesse, Germany",
-    "birthPlaceKo": "독일 헤센주 바트호무르크",
-    "familyBackground": "Born April 28, 1962; daughter of Herbert Quandt, prominent German industrialist who saved BMW from bankruptcy in 1959; sister of Stefan Quandt; born into Germany's most influential industrial families with dual legacy of BMW and Altana",
-    "familyBackgroundKo": "1962년 4월 28일 출생; 1959년 BMW를 파산에서 구한 저명한 독일 산업가 헤르베르트 콴트의 딸; 슈테판 콴트의 누나; BMW와 알타나의 이중 유산을 가진 독일 가장 영향력 있는 산업 가족에 태어남",
-    "education": "Degree in business finance; attended University of Buckingham for marketing and management coursework; MBA from IMD Business School in Lausanne specializing in advertising; gained professional experience at Young & Rubicam Frankfurt (1981-1983), Dresdner Bank London, McKinsey Munich, and Bankhaus Reuschel & Co",
-    "educationKo": "비즈니스 금융 학위; 마케팅 및 관리 과정을 위해 버킹엄 대학교 입학; 광고 전문으로 롤산느 IMD 비즈니스 스쿨에서 MBA 취득; 영 & 루비캉 프랑크푸르트(1981-1983), 드레스덴 뱅크 런던, 맥킨지 뮌헨, 반크하우스 로이셀 & 컴퍼니에서 전문 경험 획득",
-    "earlyLife": "Built diverse professional background across advertising, banking, consulting, and corporate management; married Jan Klatten, an engineer; balanced career development with family responsibilities; developed strategic business acumen through international exposure",
-    "earlyLifeKo": "광고, 금융, 컨설팅, 기업 경영 분야에서 다양한 전문 배경 구축; 엔지니어 얀 클라텐과 결혼; 가족 책임과 함께 경력 개발 조정; 국제 경험을 통해 전략적 사업 감각 개발",
-    "source": "Wikipedia, Bloomberg, family office sources"
+    "birthPlace": "Hängeberg am Ammersee, Finning, Bavaria, Germany",
+    "birthPlaceKo": "독일 바바리아주 핑닝 행거베르크 암 암머제",
+    "familyBackground": "Born September 30, 1955, as the second of four children to a family of modest means. His father was an elementary school teacher and his mother managed the household. The family lived on a leased farm about a mile from the nearest village, surrounded by meadows, forests, with the Alps visible in the distance, creating an isolated rural environment.",
+    "familyBackgroundKo": "1955년 9월 30일 소박한 가정의 네 자녀 중 둘째로 태어남. 아버지는 초등학교 교사였고 어머니는 가정을 관리했다. 가족은 가장 가까운 마을에서 약 1마일 떨어진 목장에서 살았고, 초원과 숲으로 둘러싸여 있으며 알프스가 거리에 보이는 고립된 시골 환경이었다.",
+    "education": "Attended German international school in Rome, Italy (1963-1968) when family relocated. Later studied electrical engineering at Technical University of Munich with support from German Academic Scholarship Foundation. Won physics prize in Jugend forscht (German young researchers competition) in 1974. Pursued Master's degree in computer engineering from Carnegie Mellon University with Fulbright Scholarship. Completed PhD in electrical engineering and computer science at Stanford University (left in 1982 to co-found Sun).",
+    "educationKo": "가족이 이탈리아 로마로 이주했을 때 독일 국제학교 다님(1963-1968). 이후 독일학문장학재단의 지원으로 뮌헨공과대학교에서 전기공학 전공. 1974년 독일 청년연구자 대회 유젠드 포르슈트에서 물리학상 수상. 풀브라이트 장학금으로 카네기멜론대학교에서 컴퓨터공학 석사 학위 취득. 스탠퍼드대학교에서 전기공학 및 컴퓨터과학 박사 학위 취득(1982년 Sun 공동 설립을 위해 중퇴).",
+    "earlyLife": "From early childhood, displayed fascination with electronics and mechanics. At age 4-5, began disassembling household items like reel-to-reel tape recorders to understand how they worked. By age 6, constructed simple electric motors using scavenged wires and magnets. By late 1960s, progressed to advanced electronics involving transistors. This self-directed technical curiosity, fostered by isolated rural environment, became the foundation for his later innovations.",
+    "earlyLifeKo": "어린 시절부터 전자제품과 기계에 대한 매력을 보임. 4-5세에 릴투릴 테이프 레코더 등 가정용 물품을 분해하여 작동 원리를 이해하기 시작. 6세 때 수집한 전선과 자석으로 간단한 전동기 제작. 1960년대 후반까지 트랜지스터를 포함한 고급 전자제품으로 발전. 시골 고립 환경이 촉진한 이 자기 주도적 기술 호기심은 이후의 혁신을 위한 기초가 됨.",
+    "source": "Wikipedia, Computer History Museum, Stanford Engineering, The Immigrant Learning Center"
   },
   "careerTimeline": [
     {
-      "year": 1981,
-      "event": "Began career at Young & Rubicam advertising agency in Frankfurt; gained early marketing and brand management experience",
-      "eventKo": "프랑크푸르트 영 & 루비캉 광고사에서 경력 시작; 초기 마케팅 및 브랜드 관리 경험 획득"
+      "year": 1974,
+      "event": "Won physics prize in Jugend forscht German science competition for young researchers after three years of participation",
+      "eventKo": "3년간의 참가 후 독일 청년 과학자 경연대회 유젠드 포르슈트에서 물리학상 수상"
+    },
+    {
+      "year": 1978,
+      "event": "Completed Master's degree in computer engineering from Carnegie Mellon University on Fulbright Scholarship",
+      "eventKo": "풀브라이트 장학금으로 카네기멜론대학교에서 컴퓨터공학 석사 학위 취득"
     },
     {
       "year": 1982,
-      "event": "Inherited 50.1% controlling stake in Altana AG pharmaceutical and chemicals company from father Herbert Quandt's estate; became majority shareholder and company leader at age 20",
-      "eventKo": "아버지 헤르베르트 콴트의 유산에서 알타나 AG 제약 및 화학회사의 50.1% 지배 지분 상속; 20세에 다수 주주 및 회사 지도자가 됨"
+      "event": "Co-founded Sun Microsystems with Scott McNealy, Vinod Khosla, and Bill Joy. Served as employee #1 and chief hardware architect. Left Stanford PhD program to launch the company",
+      "eventKo": "스콧 매닐리, 비노드 코슬라, 빌 조이와 함께 Sun Microsystems 공동 설립. 직원 #1로 입사하여 최고 하드웨어 설계자로 활동. 스탠퍼드 박사과정을 떠나 회사 창립"
     },
     {
-      "year": 1983,
-      "event": "Completed initial marketing career phase; transitioned to focus on business finance and corporate management education",
-      "eventKo": "초기 마케팅 경력 단계 완료; 비즈니스 금융 및 기업 경영 교육에 집중하도록 전환"
+      "year": 1986,
+      "event": "Sun Microsystems IPO, achieving successful public market debut. Company's workstation-based approach validates Bechtolsheim's hardware vision",
+      "eventKo": "Sun Microsystems 상장으로 성공적인 공모 성공. 회사의 워크스테이션 기반 접근 방식이 베히톨스하임의 하드웨어 비전을 검증"
     },
     {
-      "year": 1985,
-      "event": "Pursued advanced business education at University of Buckingham and later IMD Business School in Switzerland; broadened strategic business perspective",
-      "eventKo": "버킹엄 대학교 및 나중에 스위스 IMD 비즈니스 스쿨에서 고급 비즈니스 교육 추구; 전략적 사업 관점 확대"
+      "year": 1988,
+      "event": "Sun Microsystems reaches $1 billion in annual sales milestone, becoming major competitor in workstation market",
+      "eventKo": "Sun Microsystems가 연간 매출 10억 달러 이정표 도달, 워크스테이션 시장의 주요 경쟁사가 됨"
     },
     {
-      "year": 1990,
-      "event": "Married Jan Klatten, an engineer; balanced personal and professional life with three children; maintained active role in Altana management",
-      "eventKo": "엔지니어 얀 클라텐과 결혼; 세 자녀와 개인 및 직업 생활 균형; 알타나 경영에서 적극적 역할 유지"
+      "year": 1995,
+      "event": "Founded Granite Systems, a Gigabit Ethernet startup focused on high-speed network switching technology",
+      "eventKo": "고속 네트워크 스위칭 기술에 중점을 둔 기가비트 이더넷 스타트업 그라나이트 시스템즈 창립"
     },
     {
-      "year": 1997,
-      "event": "Joined BMW supervisory board alongside brother Stefan Quandt; gained influence over BMW strategic direction alongside Altana management",
-      "eventKo": "오빠 슈테판 콴트와 함께 BMW 감시위원회 입회; 알타나 경영과 함께 BMW 전략적 방향에 영향력 획득"
+      "year": 1998,
+      "event": "Made landmark investment of $100,000 in Google alongside David Cheriton when Google had not yet been formally incorporated. This became one of the most valuable angel investments in history",
+      "eventKo": "데이비드 체리톤과 함께 아직 공식적으로 설립되지 않은 Google에 $100,000을 투자. 이것은 역사상 가장 가치 있는 천사 투자 중 하나가 됨"
     },
     {
-      "year": 2006,
-      "event": "As deputy chairwoman of Altana supervisory board, influenced decision to sell pharmaceutical division (Altana Pharma) to Nycomed for €4.5 billion; strategic restructuring to focus on specialty chemicals",
-      "eventKo": "알타나 감시위원회 부의장으로서 제약 부문(알타나 파르마)을 노이코멘에 45억 유로에 판매하기로 결정에 영향; 특수화학에 집중하기 위한 전략적 구조 조정"
+      "year": 2001,
+      "event": "Founded Kealia with Stanford professor David Cheriton, focused on high-performance server design",
+      "eventKo": "스탠퍼드 교수 데이비드 체리톤과 함께 고성능 서버 설계에 중점을 둔 켈리아(Kealia) 창립"
     },
     {
-      "year": 2009,
-      "event": "Purchased virtually all remaining Altana shares not owned through inheritance; solidified control and majority ownership of specialty chemicals company",
-      "eventKo": "유산을 통해 소유하지 않은 거의 모든 남은 알타나 지분 구매; 특수화학 회사의 지배권 및 다수 소유권 확보"
-    },
-    {
-      "year": 2015,
-      "event": "Inherited additional BMW shares from mother's death; increased direct ownership stake to approximately 19.2% of BMW",
-      "eventKo": "어머니 사망으로부터 추가 BMW 지분 상속; 직접 소유권 지분을 BMW의 약 19.2%로 증가"
-    },
-    {
-      "year": 2020,
-      "event": "Maintained leadership positions at both Altana and BMW; recognized as most influential female industrialist in Germany; continued strategic management of dual industrial empires",
-      "eventKo": "알타나와 BMW 양쪽의 리더십 위치 유지; 독일에서 가장 영향력 있는 여성 산업가로 인정; 이중 산업 제국의 전략적 관리 계속"
+      "year": 2005,
+      "event": "Co-founded Arista Networks with David Cheriton, revolutionizing cloud networking architecture. Served as chairman initially",
+      "eventKo": "데이비드 체리톤과 함께 클라우드 네트워킹 아키텍처를 혁신한 아리스타 네트웍스(Arista Networks) 공동 설립. 초기에 회장으로 활동"
     }
   ],
   "failures": [
     {
-      "year": 2007,
-      "description": "Became victim of elaborate blackmail and extortion scheme by 'Swiss gigolo' Helg Sgarbi; affair and subsequent threats caused significant personal and reputational damage; paid approximately $10 million in fraud before police intervention",
-      "descriptionKo": "'스위스 지골로' 헬그 스가르비의 정교한 협박 및 사기 계획의 피해자가 됨; 불륜 및 그 후 위협이 중대한 개인적 및 평판적 손상 초래; 경찰 개입 전에 약 1000만 달러 사기로 지불",
-      "lesson": "Even prominent and intelligent individuals can be vulnerable to sophisticated social engineering and manipulation; personal privacy threats can impact professional standing; importance of trustworthy security and personal advisors",
-      "lessonKo": "저명하고 지능적인 개인도 정교한 사회 공학 및 조작에 취약할 수 있음; 개인 정보 보안 위협은 전문적 지위에 영향을 미칠 수 있음; 신뢰할 수 있는 보안 및 개인 고문의 중요성",
-      "source": "ABC News, Bloomberg, German legal records"
+      "year": 1995,
+      "description": "Early Sun Microsystems marketing challenge: attempted to interest other manufacturers in producing Sun workstations but received only lukewarm responses. Sun had to become its own primary manufacturing company",
+      "descriptionKo": "초기 Sun Microsystems 마케팅 문제: 다른 제조업체들이 Sun 워크스테이션을 생산하도록 설득하려 했으나 미지근한 반응만 받음. Sun은 자체 주요 제조 회사가 되어야 했음",
+      "lesson": "Vertical integration may sometimes be necessary even for innovators. Building manufacturing capability is as important as technical innovation in some markets.",
+      "lessonKo": "혁신자들도 때로는 수직 통합이 필요할 수 있다. 일부 시장에서는 제조 능력 구축이 기술 혁신만큼 중요하다."
     },
     {
-      "year": 2008,
-      "description": "Global financial crisis significantly impacted valuations of both Altana and BMW holdings; chemical specialty products market contracted due to industrial production declines globally",
-      "descriptionKo": "글로벌 금융 위기가 알타나 및 BMW 보유 지분의 평가에 크게 영향; 전 세계 산업 생산 감소로 화학 특수 제품 시장 축소",
-      "lesson": "Diversification across different industrial sectors does not fully insulate from macroeconomic downturns; both automotive and chemical sectors vulnerable to global economic cycles; need for strategic crisis management",
-      "lessonKo": "여러 산업 부문에 걸친 다각화는 거시경제 침체로부터 완전히 보호하지 못함; 자동차 및 화학 부문 모두 글로벌 경제 순환에 취약; 전략적 위기 관리 필요",
-      "source": "Financial Times, industrial sector analyses"
+      "year": 2009,
+      "description": "Oracle's $7.4 billion acquisition of Sun Microsystems forced exit from the company Bechtolsheim co-founded 27 years earlier. Represents loss of independence for the company and its original vision",
+      "descriptionKo": "오라클의 Sun Microsystems $7.4억 인수로 27년 전 공동 설립한 회사에서 강제 퇴출. 회사와 원래 비전의 독립성 상실 의미",
+      "lesson": "Even great companies founded on solid technical innovation can lose independence to larger competitors. Market dynamics and consolidation can override founder influence.",
+      "lessonKo": "견고한 기술 혁신 위에 설립된 위대한 회사도 더 큰 경쟁사에 독립성을 잃을 수 있다. 시장 역학과 통합이 창업자 영향력을 무시할 수 있다."
+    },
+    {
+      "year": 2024,
+      "description": "SEC insider trading settlement for $923,740 civil penalty and five-year bar from serving as officer or director of public companies. Represents reputational and legal setback",
+      "descriptionKo": "SEC와 인사이더 거래 합의로 $923,740 민사 벌금 및 공개회사의 임원 또는 이사로 활동하는 5년 제약. 평판과 법적 차질 의미",
+      "lesson": "Even accomplished investors and executives face legal consequences for trading violations. Regulatory compliance and ethical standards apply universally, regardless of success or status.",
+      "lessonKo": "성공한 투자자와 임원도 거래 위반에 대한 법적 결과에 직면한다. 규제 준수와 윤리 기준은 성공이나 지위와 관계없이 보편적으로 적용된다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 1982,
-      "netWorth": 2.1
-    },
-    {
-      "year": 1995,
-      "netWorth": 5.0
+      "year": 2000,
+      "netWorth": 0.8
     },
     {
       "year": 2005,
-      "netWorth": 9.5
+      "netWorth": 2.1
     },
     {
-      "year": 2015,
-      "netWorth": 20.0
+      "year": 2010,
+      "netWorth": 6.5
+    },
+    {
+      "year": 2016,
+      "netWorth": 10.2
     },
     {
       "year": 2024,
-      "netWorth": 27.6
+      "netWorth": 26.6
     }
   ],
   "quotes": [
     {
-      "text": "Managing industrial assets requires long-term vision and commitment to sustainability. Both Altana and BMW represent decades of strategic development that must be preserved for future generations.",
-      "textKo": "산업 자산 관리는 장기적 비전과 지속 가능성에 대한 약속이 필요합니다. 알타나와 BMW 모두 미래 세대를 위해 보존되어야 하는 수십 년의 전략적 개발을 나타냅니다.",
-      "context": "Discussing stewardship responsibilities for family industrial empire",
-      "contextKo": "가족 산업 제국에 대한 청지기 책임 논의",
-      "source": "Corporate governance interviews, family office communications"
+      "text": "Innovation is the never-ending search for better solutions. If you stop innovating, you stop growing.",
+      "textKo": "혁신은 더 나은 솔루션을 찾기 위한 끝없는 탐색이다. 혁신을 멈추면 성장도 멈춘다.",
+      "context": "Core philosophy on continuous innovation and market relevance",
+      "contextKo": "지속적인 혁신과 시장 관련성에 대한 핵심 철학"
     },
     {
-      "text": "The specialty chemicals sector represents significant growth opportunities. The 2006 pharmaceutical divestiture allowed Altana to focus on high-margin, specialized chemical products.",
-      "textKo": "특수화학 부문은 상당한 성장 기회를 나타냅니다. 2006년 제약 매각은 알타나가 높은 마진의 특수 화학 제품에 집중하도록 허용했습니다.",
-      "context": "Explaining strategic rationale for Altana's pharmaceutical sale and sector focus",
-      "contextKo": "알타나의 제약 판매 및 부문 초점에 대한 전략적 근거 설명",
-      "source": "Altana annual reports, investor communications"
+      "text": "The best opportunities come to those who solve problems that aren't obvious yet. You have to stay curious and think ahead.",
+      "textKo": "최고의 기회는 아직 분명하지 않은 문제를 해결하는 사람에게 온다. 호기심을 유지하고 미리 생각해야 한다.",
+      "context": "Statement on investment philosophy and identifying emerging opportunities",
+      "contextKo": "투자 철학과 새로운 기회 식별에 대한 진술"
     },
     {
-      "text": "As one of Germany's few female billionaires leading industrial enterprises, I believe in demonstrating that effective business leadership is not determined by gender.",
-      "textKo": "산업 기업을 이끄는 독일의 몇 안 되는 여성 억만장자 중 한 명으로서, 효과적인 비즈니스 리더십이 성별에 의해 결정되지 않는다는 것을 보여주는 것이 중요하다고 믿습니다.",
-      "context": "Reflecting on her role as prominent female industrialist in Germany",
-      "contextKo": "독일의 저명한 여성 산업가로서의 자신의 역할에 대한 성찰",
-      "source": "CEO Magazine, women in business interviews"
+      "text": "Being a successful engineer means thinking about what technology should be, not just what it is today.",
+      "textKo": "성공한 엔지니어가 된다는 것은 오늘날의 기술이 아니라 기술이 무엇이어야 하는지를 생각하는 것이다.",
+      "context": "Reflection on engineering philosophy and forward-thinking approach",
+      "contextKo": "공학 철학과 미래 지향적 접근에 대한 성찰"
     }
   ],
   "books": {
-    "authored": [
-      {
-        "title": "None published",
-        "note": "Klatten has not authored books; leadership expressed through corporate governance and industrial management",
-        "noteKo": "클라텐이 저술한 책은 없음; 리더십은 기업 지배 및 산업 관리를 통해 표현"
-      }
-    ],
+    "authored": [],
     "recommended": [
       {
-        "title": "Women in Business: From Ancient Egypt to Modern Times",
-        "author": "Various historians",
-        "why": "Provides historical context for female leadership in industrial sectors; relevant to understanding her unique position as female industrial leader",
-        "whyKo": "산업 부문의 여성 리더십에 대한 역사적 맥락 제공; 여성 산업 지도자로서의 그녀의 독특한 위치 이해와 관련"
+        "title": "The Soul of a New Machine",
+        "author": "Tracy Kidder",
+        "why": "Documents the culture of hardware innovation and engineering excellence that resonates with Bechtolsheim's approach to Sun's workstation development",
+        "whyKo": "하드웨어 혁신과 공학적 우수성 문화를 기록하며 베히톨스하임의 Sun 워크스테이션 개발 접근 방식과 공감대 형성"
       },
       {
-        "title": "Strategic Management in the Specialty Chemicals Industry",
-        "author": "Industry analysts",
-        "why": "Explores strategic positioning in specialty chemicals market; directly relevant to Altana's business model and Klatten's management decisions",
-        "whyKo": "특수화학 시장에서의 전략적 위치 탐구; 알타나의 비즈니스 모델 및 클라텐의 경영 의사결정과 직접 관련"
+        "title": "The Intelligent Investor",
+        "author": "Benjamin Graham",
+        "why": "Reflects Bechtolsheim's investment philosophy emphasizing long-term value recognition and identifying transformative companies before mainstream adoption",
+        "whyKo": "베히톨스하임의 장기 가치 인식과 주류 채택 전 혁신적 회사 식별을 강조하는 투자 철학 반영"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Most influential female industrialist in Germany; dual leadership of Altana AG and significant BMW shareholdings; strategic pharmaceutical divestiture of Altana in 2006; maintaining specialty chemicals focus; balanced personal and professional life as mother of three; strategic investment in company growth; resilient response to personal adversity; low public profile despite significant wealth and influence",
-    "knownForKo": "독일에서 가장 영향력 있는 여성 산업가; 알타나 AG의 이중 리더십 및 상당한 BMW 지분 보유; 2006년 알타나의 전략적 제약 매각; 특수화학 초점 유지; 세 자녀의 어머니로서 개인 및 직업 생활 균형; 회사 성장에 대한 전략적 투자; 개인적 역경에 대한 회복력 있는 대응; 상당한 재산 및 영향력에도 불구하고 낮은 공개 프로필",
-    "philanthropy": "Limited public philanthropic activities compared to other billionaires; focus on industrial sustainability and employee welfare within companies; invests in technology and innovation through portfolio companies; supports education and cultural initiatives in Germany",
-    "philanthropyKo": "다른 억만장자와 비교하여 제한된 공개 자선 활동; 회사 내 산업 지속 가능성 및 직원 복지에 초점; 포트폴리오 회사를 통한 기술 및 혁신에 투자; 독일의 교육 및 문화 이니셔티브 지원",
-    "controversies": "2007 blackmail and extortion scandal by Helg Sgarbi caused significant personal embarrassment and became subject of international media scrutiny; questions about security protocols and judgment in personal relationships; accusations of nepotism through family control of industrial entities; debate over market concentration with brother Stefan Quandt controlling significant BMW stake; scrutiny over environmental practices of both Altana chemical production and BMW manufacturing; concerns about succession planning given family business structure",
-    "controversiesKo": "2007년 헬그 스가르비의 협박 및 사기 스캔들로 중대한 개인적 당혹감 야기 및 국제 언론 정밀 검토의 대상이 됨; 보안 프로토콜 및 개인 관계의 판단에 대한 의문; 가족 산업 기업의 지배를 통한 족벌주의 혐의; 오빠 슈테판 콴트의 상당한 BMW 지분 지배와의 시장 집중에 대한 논쟁; 알타나 화학 생산 및 BMW 제조의 환경 관행에 대한 정밀 검토; 가족 사업 구조를 고려한 경영진 승계에 대한 우려"
+    "knownFor": "Co-founder of Sun Microsystems and legendary angel investor. Known for exceptional technical depth, forward-thinking vision, and ability to recognize transformative technologies before mainstream adoption. Early Google investor whose $100,000 check became worth billions. Combines German engineering rigor with entrepreneurial audacity. Maintains low public profile despite enormous wealth and influence.",
+    "knownForKo": "Sun Microsystems의 공동 창립자이자 전설적 천사 투자자. 탁월한 기술 깊이, 미래 지향적 비전, 주류 채택 전 혁신 기술 인식 능력으로 알려져 있음. Google의 초기 투자자로 $100,000 수표가 수십억 달러의 가치를 얻음. 독일 공학의 엄밀성과 기업가 대담성을 결합. 막대한 부와 영향력에도 불구하고 낮은 공개 프로필 유지",
+    "philanthropy": "Supports engineering education and technology research. Contributions to Stanford University's computer science program and scholarships for advanced technical education. Focuses on nurturing next generation of innovators",
+    "philanthropyKo": "공학 교육 및 기술 연구 지원. 스탠퍼드대학교의 컴퓨터과학 프로그램과 고급 기술 교육 장학금에 기여. 차세대 혁신가 양성에 집중",
+    "controversies": "2024 SEC insider trading settlement requiring $923,740 civil penalty and five-year bar from serving as officer or director of public companies; reputational impact from legal violation despite earlier philanthropic contributions",
+    "controversiesKo": "SEC 인사이더 거래 합의로 $923,740 민사 벌금 및 공개회사 임원 또는 이사 역할 금지 5년; 초기 자선활동에도 불구하고 법적 위반으로 인한 평판상 피해"
   },
   "sajuConnection": {
     "note": null,

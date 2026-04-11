@@ -230,7 +230,10 @@ export default function FilterPanel({
 
       {/* 일주 (Exact 60갑자) Filter */}
       <div>
-        <label className="block text-xs font-medium text-gray-500 mb-1.5">{t.dayPillar}</label>
+        <div className="flex items-center justify-between mb-1.5">
+          <label className="text-xs font-medium text-gray-500">{t.dayPillar}</label>
+          {filters.ilju && <button onClick={() => update('ilju', '')} className="text-[10px] text-gray-400 hover:text-indigo-600 transition-colors">✕</button>}
+        </div>
         <select
           value={filters.ilju}
           onChange={(e) => update('ilju', e.target.value)}
@@ -245,7 +248,10 @@ export default function FilterPanel({
 
       {/* 일간 (Day Stem) Filter */}
       <div>
-        <label className="block text-xs font-medium text-gray-500 mb-1.5">{t.dayMaster}</label>
+        <div className="flex items-center justify-between mb-1.5">
+          <label className="text-xs font-medium text-gray-500">{t.dayMaster}</label>
+          {filters.ilgan && <button onClick={() => update('ilgan', '')} className="text-[10px] text-gray-400 hover:text-indigo-600 transition-colors">✕</button>}
+        </div>
         <div className="flex flex-wrap gap-1">
           {CHEON_GAN.map((stem) => {
             const ohaeng = STEM_TO_OHAENG[stem];
@@ -269,7 +275,10 @@ export default function FilterPanel({
 
       {/* 월지 (Month Branch) Filter */}
       <div>
-        <label className="block text-xs font-medium text-gray-500 mb-1.5">{t.monthBranch}</label>
+        <div className="flex items-center justify-between mb-1.5">
+          <label className="text-xs font-medium text-gray-500">{t.monthBranch}</label>
+          {filters.wolji && <button onClick={() => update('wolji', '')} className="text-[10px] text-gray-400 hover:text-indigo-600 transition-colors">✕</button>}
+        </div>
         <div className="flex flex-wrap gap-1">
           {JI_JI.map((branch) => {
             const isActive = filters.wolji === branch;
@@ -292,7 +301,10 @@ export default function FilterPanel({
 
       {/* 격국 Filter */}
       <div>
-        <label className="block text-xs font-medium text-gray-500 mb-1.5">{t.pattern}</label>
+        <div className="flex items-center justify-between mb-1.5">
+          <label className="text-xs font-medium text-gray-500">{t.pattern}</label>
+          {filters.gyeokguk && <button onClick={() => update('gyeokguk', '')} className="text-[10px] text-gray-400 hover:text-indigo-600 transition-colors">✕</button>}
+        </div>
         <div className="flex flex-wrap gap-1">
           {GYEOKGUK_LIST.map((guk) => {
             const isActive = filters.gyeokguk === guk;
@@ -315,30 +327,40 @@ export default function FilterPanel({
 
       {/* Nationality & Industry dropdowns */}
       <div className="flex gap-2">
-        <select
-          value={filters.nationality}
-          onChange={(e) => update('nationality', e.target.value)}
-          className="flex-1 px-2 py-1.5 border border-gray-200 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
-        >
-          <option value="">{t.allNationalities}</option>
-          {sortedNationalities.map((n) => (
-            <option key={n} value={n}>
-              {lang === 'ko' ? nationalityToKorean(n) : n}
-            </option>
-          ))}
-        </select>
-        <select
-          value={filters.industry}
-          onChange={(e) => update('industry', e.target.value)}
-          className="flex-1 px-2 py-1.5 border border-gray-200 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
-        >
-          <option value="">{t.allIndustries}</option>
-          {sortedIndustries.map((i) => (
-            <option key={i} value={i}>
-              {lang === 'ko' ? industryToKorean(i) : i}
-            </option>
-          ))}
-        </select>
+        <div className="flex-1 relative">
+          <select
+            value={filters.nationality}
+            onChange={(e) => update('nationality', e.target.value)}
+            className="w-full px-2 py-1.5 border border-gray-200 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          >
+            <option value="">{t.allNationalities}</option>
+            {sortedNationalities.map((n) => (
+              <option key={n} value={n}>
+                {lang === 'ko' ? nationalityToKorean(n) : n}
+              </option>
+            ))}
+          </select>
+          {filters.nationality && (
+            <button onClick={() => update('nationality', '')} className="absolute right-6 top-1/2 -translate-y-1/2 text-[10px] text-gray-400 hover:text-indigo-600">✕</button>
+          )}
+        </div>
+        <div className="flex-1 relative">
+          <select
+            value={filters.industry}
+            onChange={(e) => update('industry', e.target.value)}
+            className="w-full px-2 py-1.5 border border-gray-200 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          >
+            <option value="">{t.allIndustries}</option>
+            {sortedIndustries.map((i) => (
+              <option key={i} value={i}>
+                {lang === 'ko' ? industryToKorean(i) : i}
+              </option>
+            ))}
+          </select>
+          {filters.industry && (
+            <button onClick={() => update('industry', '')} className="absolute right-6 top-1/2 -translate-y-1/2 text-[10px] text-gray-400 hover:text-indigo-600">✕</button>
+          )}
+        </div>
       </div>
 
       {/* Sort */}

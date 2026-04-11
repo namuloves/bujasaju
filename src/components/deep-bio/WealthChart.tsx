@@ -46,48 +46,34 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
     if (prev.netWorth <= 0) continue;
     const pct = (curr.netWorth - prev.netWorth) / prev.netWorth;
 
-    // Find matching event: exact year match only (year-1 causes duplicates)
-    const event = eventsByYear.get(curr.year);
+    // Find matching event: exact year, or nearest within ±2 years
+    const event = eventsByYear.get(curr.year)
+      ?? eventsByYear.get(curr.year - 1)
+      ?? eventsByYear.get(curr.year + 1)
+      ?? eventsByYear.get(curr.year - 2)
+      ?? eventsByYear.get(curr.year + 2);
 
-    if (pct >= 0.5 && event) {
+    if (event) {
       annotations.push({
         year: curr.year,
         netWorth: curr.netWorth,
         pctChange: pct,
         event: event.event,
         eventKo: event.eventKo,
-        type: 'jump',
-      });
-    } else if (pct <= -0.25 && event) {
-      annotations.push({
-        year: curr.year,
-        netWorth: curr.netWorth,
-        pctChange: pct,
-        event: event.event,
-        eventKo: event.eventKo,
-        type: 'fall',
+        type: pct >= 0 ? 'jump' : 'fall',
       });
     }
   }
 
-  // Pick top annotations: ensure mix of jumps and falls
+  // Pick top 3 annotations by biggest absolute change
   annotations.sort((a, b) => Math.abs(b.pctChange) - Math.abs(a.pctChange));
-  const jumps = annotations.filter(a => a.type === 'jump');
-  const falls = annotations.filter(a => a.type === 'fall');
-  const topAnnotations: Annotation[] = [];
-  // Always include the biggest fall if there is one
-  if (falls.length > 0) {
-    topAnnotations.push(falls[0]);
-    topAnnotations.push(...jumps.slice(0, 2));
-  } else {
-    topAnnotations.push(...jumps.slice(0, 3));
-  }
+  const topAnnotations: Annotation[] = annotations.slice(0, 3);
   // Sort by year for display
   topAnnotations.sort((a, b) => a.year - b.year);
 
   const W = 320;
-  const H = topAnnotations.length > 0 ? 200 : 160;
-  const PAD = { top: 16, right: 16, bottom: 28, left: 48 };
+  const H = topAnnotations.length > 0 ? 260 : 160;
+  const PAD = { top: 60, right: 16, bottom: 28, left: 48 };
   const plotW = W - PAD.left - PAD.right;
   const plotH = H - PAD.top - PAD.bottom;
 
@@ -121,7 +107,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
     <div className={className}>
       <svg
         viewBox={`0 0 ${W} ${H}`}
-        className="w-full h-auto max-h-[200px] md:max-h-[250px]"
+        className="w-full h-auto max-h-[240px] lg:max-h-[280px]"
         aria-label="Net worth over time"
       >
         <defs>
@@ -190,48 +176,99 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
         })}
 
         {/* Annotation labels */}
-        {topAnnotations.map((ann, i) => {
-          const cx = scaleX(ann.year);
-          const cy = scaleY(ann.netWorth);
-          const pctLabel = ann.type === 'jump'
-            ? `+${Math.round(ann.pctChange * 100)}%`
-            : `${Math.round(ann.pctChange * 100)}%`;
-          const color = ann.type === 'jump' ? '#16a34a' : '#dc2626';
-          const bgColor = ann.type === 'jump' ? '#f0fdf4' : '#fef2f2';
-          // Offset label to avoid overlap: alternate above/below
-          const yOffset = i % 2 === 0 ? -8 : 16;
-          const eventText = lang === 'ko' && ann.eventKo ? ann.eventKo : ann.event;
-          const shortEvent = eventText.length > 20 ? eventText.slice(0, 20) + '…' : eventText;
-          // Position the label: try to keep it within bounds
-          const labelX = Math.min(Math.max(cx, PAD.left + 40), W - PAD.right - 40);
-          return (
+        {(() => {
+          // Pre-compute label positions with collision avoidance
+          const labelPositions: Array<{ cx: number; cy: number; labelX: number; labelY: number; pctLabel: string; color: string; shortEvent: string; ann: Annotation }> = [];
+
+          for (let i = 0; i < topAnnotations.length; i++) {
+            const ann = topAnnotations[i];
+            const cx = scaleX(ann.year);
+            const cy = scaleY(ann.netWorth);
+            const pctLabel = ann.pctChange >= 0
+              ? `+${Math.round(ann.pctChange * 100)}%`
+              : `${Math.round(ann.pctChange * 100)}%`;
+            const color = ann.type === 'jump' ? '#16a34a' : '#dc2626';
+            const eventText = lang === 'ko' && ann.eventKo ? ann.eventKo : ann.event;
+            const shortEvent = eventText.length > 30 ? eventText.slice(0, 30) + '…' : eventText;
+            const labelX = Math.min(Math.max(cx, PAD.left + 50), W - PAD.right - 50);
+
+            // Start well above the dot
+            let labelY = cy - 36;
+
+            // Push up if colliding with any previously placed label
+            for (const prev of labelPositions) {
+              if (Math.abs(labelX - prev.labelX) < 100 && Math.abs(labelY - prev.labelY) < 38) {
+                labelY = prev.labelY - 38;
+              }
+            }
+            labelY = Math.max(6, labelY);
+
+            labelPositions.push({ cx, cy, labelX, labelY, pctLabel, color, shortEvent, ann });
+          }
+
+          return labelPositions.map((pos, i) => (
             <g key={`ann-${i}`}>
-              {/* Background pill */}
-              <rect
-                x={labelX - 38}
-                y={cy + yOffset - 7}
-                width="76"
-                height="16"
-                rx="3"
-                fill={bgColor}
-                stroke={color}
+              {/* Thin connector from dot to label */}
+              <line
+                x1={pos.cx}
+                y1={pos.cy - 5}
+                x2={pos.labelX}
+                y2={pos.labelY + 16}
+                stroke={pos.color}
                 strokeWidth="0.5"
-                opacity="0.9"
+                strokeDasharray="2,2"
+                opacity="0.35"
               />
               {/* Year + percentage */}
               <text
-                x={labelX}
-                y={cy + yOffset + 4}
+                x={pos.labelX}
+                y={pos.labelY}
                 textAnchor="middle"
-                fontSize="6.5"
+                fontSize="8"
                 fontWeight="bold"
-                fill={color}
+                fill={pos.color}
               >
-                {ann.year} {pctLabel}
+                {pos.ann.year} {pos.pctLabel}
               </text>
+              {/* Event text — split into two lines if long */}
+              {pos.shortEvent.length <= 15 ? (
+                <text
+                  x={pos.labelX}
+                  y={pos.labelY + 11}
+                  textAnchor="middle"
+                  fontSize="7"
+                  fill={pos.color}
+                  opacity="0.75"
+                >
+                  {pos.shortEvent}
+                </text>
+              ) : (
+                <>
+                  <text
+                    x={pos.labelX}
+                    y={pos.labelY + 11}
+                    textAnchor="middle"
+                    fontSize="7"
+                    fill={pos.color}
+                    opacity="0.75"
+                  >
+                    {pos.shortEvent.slice(0, Math.ceil(pos.shortEvent.length / 2))}
+                  </text>
+                  <text
+                    x={pos.labelX}
+                    y={pos.labelY + 20}
+                    textAnchor="middle"
+                    fontSize="7"
+                    fill={pos.color}
+                    opacity="0.75"
+                  >
+                    {pos.shortEvent.slice(Math.ceil(pos.shortEvent.length / 2))}
+                  </text>
+                </>
+              )}
             </g>
-          );
-        })}
+          ));
+        })()}
 
         {/* Y-axis labels */}
         {yTicks.map((tick, i) => (
