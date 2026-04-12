@@ -72,8 +72,8 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
   topAnnotations.sort((a, b) => a.year - b.year);
 
   const W = 400;
-  const H = topAnnotations.length > 0 ? 380 : 200;
-  const PAD = { top: 100, right: 20, bottom: 36, left: 52 };
+  const H = 200;
+  const PAD = { top: 20, right: 20, bottom: 36, left: 52 };
   const plotW = W - PAD.left - PAD.right;
   const plotH = H - PAD.top - PAD.bottom;
 
@@ -175,83 +175,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
           );
         })}
 
-        {/* Annotation labels */}
-        {(() => {
-          // Pre-compute label positions with collision avoidance
-          // Split text into lines of ~14 chars, breaking at spaces
-          function wrapText(text: string, maxChars: number): string[] {
-            const words = text.split(/\s+/);
-            const lines: string[] = [];
-            let current = '';
-            for (const word of words) {
-              if (current && (current + ' ' + word).length > maxChars) {
-                lines.push(current);
-                current = word;
-              } else {
-                current = current ? current + ' ' + word : word;
-              }
-            }
-            if (current) lines.push(current);
-            return lines;
-          }
-
-          const labelPositions: Array<{ cx: number; cy: number; labelX: number; labelY: number; color: string; lines: string[]; ann: Annotation }> = [];
-
-          for (let i = 0; i < topAnnotations.length; i++) {
-            const ann = topAnnotations[i];
-            const cx = scaleX(ann.year);
-            const cy = scaleY(ann.netWorth);
-            const color = ann.type === 'jump' ? '#0f4a2c' : '#991b1b';
-            const eventText = lang === 'ko' && ann.eventKo ? ann.eventKo : ann.event;
-            const lines = wrapText(eventText, 14);
-            const labelX = Math.min(Math.max(cx, PAD.left + 60), W - PAD.right - 60);
-            const labelHeight = lines.length * 16;
-
-            // Start well above the dot
-            let labelY = cy - labelHeight - 10;
-
-            // Push up if colliding with any previously placed label
-            for (const prev of labelPositions) {
-              const prevHeight = prev.lines.length * 16;
-              if (Math.abs(labelX - prev.labelX) < 120 && labelY + labelHeight > prev.labelY - 6 && labelY < prev.labelY + prevHeight + 6) {
-                labelY = prev.labelY - labelHeight - 8;
-              }
-            }
-            labelY = Math.max(6, labelY);
-
-            labelPositions.push({ cx, cy, labelX, labelY, color, lines, ann });
-          }
-
-          return labelPositions.map((pos, i) => (
-            <g key={`ann-${i}`}>
-              {/* Thin connector from dot to label */}
-              <line
-                x1={pos.cx}
-                y1={pos.cy - 5}
-                x2={pos.labelX}
-                y2={pos.labelY + pos.lines.length * 16}
-                stroke={pos.color}
-                strokeWidth="0.5"
-                strokeDasharray="2,2"
-                opacity="0.35"
-              />
-              {/* Event text */}
-              {pos.lines.map((line, li) => (
-                <text
-                  key={li}
-                  x={pos.labelX}
-                  y={pos.labelY + li * 16}
-                  textAnchor="middle"
-                  fontSize="13"
-                  fontWeight="400"
-                  fill={pos.color}
-                >
-                  {line}
-                </text>
-              ))}
-            </g>
-          ));
-        })()}
+        {/* Annotations shown as cards below the chart instead of in-SVG text */}
 
         {/* Y-axis labels */}
         {yTicks.map((tick, i) => (
@@ -282,9 +206,9 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
         ))}
       </svg>
 
-      {/* Event annotations below chart — mobile only, desktop shows them inside the SVG */}
+      {/* Event annotations below chart — always on mobile, also on desktop as supplement */}
       {topAnnotations.length > 0 && (
-        <div className="mt-2 space-y-1 md:hidden">
+        <div className="mt-2 space-y-1">
           {topAnnotations.map((ann, i) => {
             const color = ann.type === 'jump' ? 'text-green-800' : 'text-red-500';
             const bg = ann.type === 'jump' ? 'bg-green-50' : 'bg-red-50';
