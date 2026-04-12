@@ -75,6 +75,46 @@ const KO_BRAND_ALIASES: Record<string, string[]> = {
   '팬더': ['panda express', 'panda restaurant'],
 };
 
+/**
+ * 초성 검색 (Chosung / initial consonant search).
+ * Extracts the leading consonant from each Korean syllable.
+ * e.g. "일론 머스크" → "ㅇㄹㅁㅅㅋ"
+ */
+const CHOSUNG = [
+  'ㄱ','ㄲ','ㄴ','ㄷ','ㄸ','ㄹ','ㅁ','ㅂ','ㅃ','ㅅ',
+  'ㅆ','ㅇ','ㅈ','ㅉ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ',
+];
+
+function getChosung(str: string): string {
+  let result = '';
+  for (const ch of str) {
+    const code = ch.charCodeAt(0);
+    // Korean syllable range: 0xAC00 - 0xD7A3
+    if (code >= 0xAC00 && code <= 0xD7A3) {
+      const idx = Math.floor((code - 0xAC00) / 588);
+      result += CHOSUNG[idx];
+    }
+    // Already a jamo consonant (ㄱ-ㅎ range: 0x3131-0x314E)
+    else if (code >= 0x3131 && code <= 0x314E) {
+      result += ch;
+    }
+    // Non-Korean chars pass through (for mixed search like "LG")
+    else if (ch !== ' ') {
+      result += ch.toLowerCase();
+    }
+  }
+  return result;
+}
+
+/** Check if query is purely chosung consonants (ㄱ-ㅎ) */
+function isChosungOnly(str: string): boolean {
+  for (const ch of str) {
+    const code = ch.charCodeAt(0);
+    if (code < 0x3131 || code > 0x314E) return false;
+  }
+  return str.length > 0;
+}
+
 /** Expand a Korean search query into additional English terms to match against. */
 function expandKoreanQuery(q: string): string[] {
   const extra: string[] = [];
@@ -131,6 +171,10 @@ export default function BrowseTab() {
         // Expand Korean brand queries to English equivalents
         const expanded = expandKoreanQuery(qNoSpace);
         const searchable = nameEn + ' ' + src + ' ' + industry;
+        // 초성 검색: if query is all jamo consonants, match against chosung of Korean name
+        const chosungMatch = isChosungOnly(qNoSpace) && nameKo
+          ? getChosung(nameKo).includes(qNoSpace)
+          : false;
         if (
           !nameEn.includes(q) &&
           !nameKo.includes(f.search) &&
@@ -138,7 +182,8 @@ export default function BrowseTab() {
           !src.includes(q) &&
           !industry.includes(q) &&
           !bioKo.includes(q) &&
-          !expanded.some(term => searchable.includes(term))
+          !expanded.some(term => searchable.includes(term)) &&
+          !chosungMatch
         )
           return false;
       }
