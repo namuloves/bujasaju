@@ -199,12 +199,10 @@ export default function BrowseTab() {
   const { people: enrichedPeople, loading } = useEnrichedPeople();
   const [deepSearchIndex, setDeepSearchIndex] = useState<Record<string, string>>({});
 
-  // Lazily load the deep-bio search index when user starts typing
+  // Preload the deep-bio search index on mount so it's ready when user types
   useEffect(() => {
-    if (filters.search && Object.keys(deepSearchIndex).length === 0) {
-      fetchSearchIndex().then(setDeepSearchIndex);
-    }
-  }, [filters.search, deepSearchIndex]);
+    fetchSearchIndex().then(setDeepSearchIndex);
+  }, []);
 
   // Defer the filter object so that typing in the search box is always
   // instant — the heavy 3,300-row filter/sort runs at lower priority and

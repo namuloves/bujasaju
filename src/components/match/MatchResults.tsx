@@ -18,7 +18,7 @@ interface Props {
 
 export default function MatchResults({ me, onReset }: Props) {
   const { t } = useLanguage();
-  const { people: enrichedPeople } = useEnrichedPeople();
+  const { people: enrichedPeople, loading } = useEnrichedPeople();
 
   const groups = useMemo(
     () => matchBillionaires(me, enrichedPeople),
@@ -65,6 +65,14 @@ export default function MatchResults({ me, onReset }: Props) {
 
   const sameIljuCount = groups.iljuOnly.length;
   const [showSameIlju, setShowSameIlju] = useState(false);
+
+  if (loading && enrichedPeople.length === 0) {
+    return (
+      <div className="text-center py-16 text-gray-400 text-sm">
+        부자 데이터를 불러오는 중…
+      </div>
+    );
+  }
 
   return (
     <div className="md:grid md:grid-cols-[minmax(0,340px)_minmax(0,1fr)] md:gap-6 lg:gap-8 md:items-start space-y-8 md:space-y-0">

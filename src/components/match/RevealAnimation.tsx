@@ -135,16 +135,28 @@ export default function RevealAnimation({ saju, onDone }: Props) {
     );
   }, [saju, summaryMatches]);
 
+  const [timerReady, setTimerReady] = useState(false);
+  const dataReady = enrichedPeople.length > 0;
+
   useEffect(() => {
     const t1 = setTimeout(() => setPhase('matching'), MATCHING_DELAY_MS);
     const t2 = setTimeout(() => setPhase('results'), RESULTS_DELAY_MS);
-    const t3 = setTimeout(() => onDone(), DONE_DELAY_MS);
+    const t3 = setTimeout(() => setTimerReady(true), DONE_DELAY_MS);
     return () => {
       clearTimeout(t1);
       clearTimeout(t2);
       clearTimeout(t3);
     };
-  }, [onDone]);
+  }, []);
+
+  // Only transition to results when BOTH the animation timer has finished
+  // AND the enriched people data has loaded. This prevents showing 0 results
+  // on slow connections where the data hasn't arrived by animation end.
+  useEffect(() => {
+    if (timerReady && dataReady) {
+      onDone();
+    }
+  }, [timerReady, dataReady, onDone]);
 
   return (
     <div className="bg-white rounded-2xl border border-gray-200 p-8 sm:p-12 min-h-[420px] flex flex-col items-center justify-center">
