@@ -1,0 +1,106 @@
+{
+  "id": "530",
+  "name": "Mike Cannon-Brookes",
+  "childhood": {
+    "birthPlace": "Sydney, New South Wales, Australia",
+    "birthPlaceKo": "호주 뉴사우스웨일스주 시드니",
+    "familyBackground": "Born in Sydney to a well-educated family. Father was a professor.",
+    "familyBackgroundKo": "시드니의 교육 수준 높은 가정에서 태어남. 아버지는 교수.",
+    "education": "Studied information technology at the University of New South Wales (UNSW), where he met co-founder Scott Farquhar.",
+    "educationKo": "뉴사우스웨일스 대학교(UNSW)에서 정보기술 전공, 공동 창립자 스콧 파쿼와 만남.",
+    "earlyLife": "Met Scott Farquhar in a scholarship program at UNSW. Both were 22 when they started Atlassian with $10,000 in credit card debt.",
+    "earlyLifeKo": "UNSW 장학 프로그램에서 스콧 파쿼를 만남. 둘 다 22세에 1만 달러의 신용카드 빚으로 아틀라시안 설립.",
+    "source": "Wikipedia, Forbes, Atlassian"
+  },
+  "careerTimeline": [
+    {
+      "year": 2002,
+      "event": "Co-founded Atlassian with Scott Farquhar using $10,000 in credit card debt",
+      "eventKo": "스콧 파쿼와 함께 1만 달러 신용카드 빚으로 아틀라시안 공동 설립"
+    },
+    {
+      "year": 2004,
+      "event": "Launched Jira, which became the world's most popular project management tool for developers",
+      "eventKo": "세계에서 가장 인기 있는 개발자용 프로젝트 관리 도구가 된 지라(Jira) 출시"
+    },
+    {
+      "year": 2010,
+      "event": "Atlassian reached $100 million in revenue with zero sales team, relying entirely on word-of-mouth",
+      "eventKo": "아틀라시안이 영업팀 없이 입소문만으로 매출 1억 달러 달성"
+    },
+    {
+      "year": 2015,
+      "event": "Atlassian IPO on NASDAQ, valued at $4.4 billion — largest Australian tech IPO at the time",
+      "eventKo": "아틀라시안 나스닥 IPO, 44억 달러 가치 — 당시 호주 최대 기술 IPO"
+    },
+    {
+      "year": 2017,
+      "event": "Acquired Trello for $425 million, expanding into visual project management",
+      "eventKo": "트렐로를 4억 2,500만 달러에 인수, 비주얼 프로젝트 관리로 확장"
+    },
+    {
+      "year": 2022,
+      "event": "Bought 11% stake in AGL Energy to push Australia's largest carbon emitter toward renewables",
+      "eventKo": "호주 최대 탄소 배출 기업 AGL 에너지의 11% 지분을 매입해 재생에너지로 전환 추진"
+    },
+    {
+      "year": 2025,
+      "event": "Atlassian revenues exceeded $4 billion; net worth $7B",
+      "eventKo": "아틀라시안 매출 40억 달러 초과; 순자산 70억 달러"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2022,
+      "description": "AGL takeover bid failed; couldn't convince board to shut down coal plants faster",
+      "descriptionKo": "AGL 인수 시도 실패; 석탄 발전소 조기 폐쇄를 이사회에 설득하지 못함",
+      "lesson": "Activist investing in large utilities faces massive institutional resistance",
+      "lessonKo": "대형 유틸리티에 대한 행동주의 투자는 막대한 제도적 저항에 직면",
+      "source": "Australian Financial Review"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2019,
+      "netWorth": 8.0
+    },
+    {
+      "year": 2022,
+      "netWorth": 12.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.0
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We started Atlassian with $10,000 on a credit card. No VC, no pitch deck, no Silicon Valley.",
+      "textKo": "신용카드 1만 달러로 아틀라시안을 시작했다. VC도, 피치 덱도, 실리콘밸리도 없이.",
+      "context": "On bootstrapping",
+      "contextKo": "자력 창업에 대해",
+      "source": "Forbes"
+    },
+    {
+      "text": "Climate change is the biggest business opportunity of the 21st century.",
+      "textKo": "기후변화는 21세기 최대의 사업 기회다.",
+      "context": "On climate investing",
+      "contextKo": "기후 투자에 대해",
+      "source": "Sydney Morning Herald"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Co-founding Atlassian (Jira, Confluence, Trello) with zero venture capital. Australia's most prominent tech billionaire and climate activist.",
+    "knownForKo": "벤처 캐피탈 없이 아틀라시안(Jira, Confluence, Trello) 공동 설립. 호주에서 가장 저명한 기술 억만장자이자 기후 활동가.",
+    "philanthropy": "Pledged to give away majority of wealth. Major funder of renewable energy initiatives in Australia.",
+    "philanthropyKo": "재산 대부분 기부 서약. 호주 재생에너지 이니셔티브의 주요 후원자."
+  }
+}

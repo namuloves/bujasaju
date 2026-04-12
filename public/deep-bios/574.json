@@ -1,0 +1,94 @@
+{
+  "id": "574",
+  "name": "Paul Singer",
+  "childhood": {
+    "birthPlace": "New York City, New York, USA",
+    "birthPlaceKo": "미국 뉴욕주 뉴욕시",
+    "familyBackground": "Born into a Jewish family. Father was a pharmaceutical executive.",
+    "familyBackgroundKo": "유대인 가정에서 태어남. 아버지는 제약 임원.",
+    "education": "BA in psychology from University of Rochester. JD from Harvard Law School.",
+    "educationKo": "로체스터 대학교 심리학 학사. 하버드 로스쿨 법학 박사.",
+    "earlyLife": "Trained as a lawyer before pivoting to finance and founding Elliott Management.",
+    "earlyLifeKo": "변호사로 훈련받은 후 금융으로 전환해 엘리엇 매니지먼트 설립.",
+    "source": "Wikipedia, Forbes"
+  },
+  "careerTimeline": [
+    {
+      "year": 1977,
+      "event": "Founded Elliott Management Corporation with $1.3 million from family and friends",
+      "eventKo": "가족과 친구들에게서 130만 달러로 엘리엇 매니지먼트 설립"
+    },
+    {
+      "year": 1996,
+      "event": "Began buying distressed sovereign debt, earning the nickname 'vulture capitalist'",
+      "eventKo": "부실 국가채권 매입 시작, '독수리 자본가'라는 별명 획득"
+    },
+    {
+      "year": 2012,
+      "event": "Seized an Argentine naval vessel in Ghana over unpaid debt, making global headlines",
+      "eventKo": "미지급 채무로 가나에서 아르헨티나 해군 선박 압류, 세계적 헤드라인"
+    },
+    {
+      "year": 2016,
+      "event": "Argentina settled with Elliott for $2.4 billion after 15-year legal battle",
+      "eventKo": "15년간의 법적 싸움 끝에 아르헨티나가 엘리엇과 24억 달러에 합의"
+    },
+    {
+      "year": 2020,
+      "event": "Elliott became one of the world's largest activist hedge funds with $40B+ under management",
+      "eventKo": "엘리엇이 400억 달러 이상 운용의 세계 최대 행동주의 헤지펀드 중 하나로 성장"
+    },
+    {
+      "year": 2025,
+      "event": "Net worth reached $6.7 billion",
+      "eventKo": "순자산 67억 달러 도달"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Global financial crisis caused losses across distressed debt portfolio",
+      "descriptionKo": "글로벌 금융위기가 부실채권 포트폴리오에 손실 초래",
+      "lesson": "Even distressed debt specialists face drawdowns in systemic crises",
+      "lessonKo": "부실채권 전문가도 시스템적 위기에서 손실을 겪음",
+      "source": "Financial Times"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 2.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 4.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 6.7
+    }
+  ],
+  "quotes": [
+    {
+      "text": "A contract is a contract. Sovereignty doesn't excuse default.",
+      "textKo": "계약은 계약이다. 주권이 채무불이행을 면제하지 않는다.",
+      "context": "On sovereign debt litigation",
+      "contextKo": "국가채무 소송에 대해",
+      "source": "Financial Times"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Founded Elliott Management, the world's most feared activist hedge fund. Seized an Argentine warship over debt. Known as a 'vulture capitalist'.",
+    "knownForKo": "세계에서 가장 두려운 행동주의 헤지펀드 엘리엇 매니지먼트 설립. 채무 관련으로 아르헨티나 군함 압류. '독수리 자본가'로 알려짐.",
+    "controversies": "Criticized for profiting from distressed countries and aggressive activist campaigns against companies.",
+    "controversiesKo": "부실 국가에서 이익을 취하고 기업에 대한 공격적 행동주의 캠페인으로 비판."
+  }
+}
