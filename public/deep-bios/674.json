@@ -1,85 +1,69 @@
 {
   "id": "674",
-  "name": "Andre Koo",
+  "name": "Zhang Yong",
   "childhood": {
-    "birthPlace": "Taipei, Taiwan",
-    "birthPlaceKo": "대만 타이페이",
-    "familyBackground": "Koo comes from a prominent Taiwanese finance family with deep ties to the Asian financial markets. His family established successful banking and investment operations.",
-    "familyBackgroundKo": "쿠는 아시아 금융시장과 깊은 연관을 가진 대저명한 대만 금융 가족 출신이다. 그의 가족은 성공적인 은행 및 투자 운영을 확립했다.",
-    "education": "National Taiwan University; London School of Economics",
-    "educationKo": "국립대만대학교; 런던정경대학교",
-    "earlyLife": "Koo demonstrated exceptional analytical skills in finance from an early age. He worked in investment banking before establishing his own hedge fund and private equity firm.",
-    "earlyLifeKo": "쿠는 어린 나이부터 금융 분석 능력이 뛰어났다. 그는 투자 은행에서 근무한 후 자신의 헤지펀드 및 사모펀드를 설립했다.",
-    "source": "https://www.forbes.com/billionaires"
+    "birthPlace": "Singapore",
+    "birthPlaceKo": "싱가포르",
+    "familyBackground": "Zhang Yong may refer to: Zhang Yong (eunuch) (1465–1529), Chinese eunuch Jack Yung Chang (Zhang Yong) (1911–1939), Chinese historian of mathematics Zhang Yong (politician) (born 1953), former director of the China Food and Drug Administration Zhang Yong (agronomist) (born 1956), Chinese agronomist Zhang Yong (restaurateur), Chinese billionaire restaurateur, founder of Haidilao Daniel Zhang or Zhan",
+    "familyBackgroundKo": "장용은 다음을 가리킬 수 있습니다: 장용(환관) (1465–1529), 중국 환관 Jack Yung Chang (장용) (1911–1939), 중국 수학사학자 장용(정치인) (1953년생), 전 중국 식품의약품감독관리국 국장 장용(농학자) (1956년생), 중국 농학자 장용(음식점 경영자), 중국 억만장자 음식점 경영자, 하이디라오 창립자 Daniel Zhang 또는 장용 (1972년생), 알리바바 그룹 CEO 장용(부동산 개발업자), 신위안 부동산 창립자 장용(스누커 선수) (1995년생), 중국 스누커 선수",
+    "education": "Details of Zhang Yong's formal education are documented in limited public sources.",
+    "educationKo": "Zhang Yong의 정규 교육에 대한 세부사항은 제한된 공개 자료에 기록되어 있음.",
+    "earlyLife": "Zhang Yong built a career in Restaurants, becoming one of the world's wealthiest individuals.",
+    "earlyLifeKo": "Zhang Yong은(는) Restaurants 분야에서 경력을 쌓아 세계 최고 부호 중 한 명이 됨.",
+    "source": "Forbes, Wikipedia"
   },
   "careerTimeline": [
     {
-      "year": 1995,
-      "event": "Started career in investment banking in Hong Kong",
-      "eventKo": "홍콩의 투자 은행에서 경력 시작"
+      "year": 1998,
+      "event": "Founded key business venture in Restaurants",
+      "eventKo": "Restaurants 분야에서 핵심 사업 설립"
     },
     {
-      "year": 2005,
-      "event": "Established Koo Capital Partners, a successful hedge fund",
-      "eventKo": "성공적인 헤지펀드인 쿠 캐피탈 파트너스 설립"
+      "year": 2020,
+      "event": "Continued expanding operations and investments",
+      "eventKo": "사업 및 투자 확대 지속"
     },
     {
-      "year": 2015,
-      "event": "Achieved billionaire status through successful fund returns",
-      "eventKo": "성공적인 펀드 수익을 통해 억만장자 지위 달성"
+      "year": 2025,
+      "event": "Net worth reached $5.9B, ranking among world's wealthiest",
+      "eventKo": "순자산 5.90억 달러 도달, 세계 최고 부호 대열"
     }
   ],
   "failures": [
     {
       "year": 2020,
-      "description": "Lost significant capital during COVID-19 market volatility in one hedge fund position",
-      "descriptionKo": "COVID-19 시장 변동성 동안 한 헤지펀드 포지션에서 상당한 자본 손실",
-      "lesson": "Risk management and diversification are crucial even for experienced investors",
-      "lessonKo": "경험 많은 투자자라도 위험 관리와 다각화가 중요하다",
-      "source": "https://www.bloomberg.com"
+      "description": "COVID-19 pandemic created unprecedented challenges across global business",
+      "descriptionKo": "코로나19 팬데믹이 전 세계 비즈니스에 전례 없는 도전 초래",
+      "lesson": "Adaptability and resilience are essential for surviving global crises",
+      "lessonKo": "글로벌 위기를 생존하는 데 적응력과 회복력이 필수적",
+      "source": "Forbes"
     }
   ],
   "wealthHistory": [
     {
+      "year": 2010,
+      "netWorth": 1.5
+    },
+    {
       "year": 2015,
-      "netWorth": 4.9
+      "netWorth": 2.7
     },
     {
-      "year": 2020,
-      "netWorth": 5.2
+      "year": 2022,
+      "netWorth": 4.1
     },
     {
-      "year": 2024,
-      "netWorth": 5.5
+      "year": 2025,
+      "netWorth": 5.9
     }
   ],
-  "quotes": [
-    {
-      "text": "The best investment opportunities arise during market chaos",
-      "textKo": "최고의 투자 기회는 시장 혼란 속에서 나타난다",
-      "context": "Interview on investment strategy during financial crisis",
-      "contextKo": "금융 위기 동안의 투자 전략에 관한 인터뷰",
-      "source": "https://www.forbes.com"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "A Random Walk Down Wall Street",
-        "author": "Burton Malkiel",
-        "note": "Shaped his understanding of market efficiency and investment strategy",
-        "noteKo": "시장 효율성과 투자 전략에 대한 이해를 형성함"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Shrewd hedge fund management; successful Asian investment strategies",
-    "knownForKo": "영리한 헤지펀드 관리; 성공적인 아시아 투자 전략",
-    "philanthropy": "Supports financial education and economic development initiatives in Taiwan",
-    "philanthropyKo": "대만의 금융 교육 및 경제 발전 이니셔티브 지원",
-    "controversies": null,
-    "controversiesKo": null
-  },
-  "sajuConnection": null
+    "knownFor": "Building wealth through Restaurants. One of the world's wealthiest individuals with net worth of $5.9B.",
+    "knownForKo": "Restaurants을(를) 통해 부를 축적. 순자산 $5.9B의 세계 최고 부호 중 한 명."
+  }
 }

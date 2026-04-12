@@ -1,94 +1,74 @@
 {
   "id": "247",
-  "name": "Wolfgang Herz",
+  "name": "Alexander Gerko",
   "childhood": {
-    "birthPlace": "Hamburg, Germany",
-    "birthPlaceKo": "독일 함부르크",
-    "familyBackground": "Son of German textile industrialist. Family with long tradition in German fashion and textiles.",
-    "familyBackgroundKo": "독일 섬유 산업가의 아들. 독일 패션 및 섬유 산업의 오랜 전통을 가진 가족",
-    "education": "Hamburg University (Business), Fashion Institute (Design and Management)",
-    "educationKo": "함부르크 대학교(경영학), 패션 연구소(디자인 및 관리)",
-    "earlyLife": "Grew up in Hamburg with exposure to German fashion and textile industry. Developed expertise in fashion design and business management.",
-    "earlyLifeKo": "독일 패션 및 섬유 산업에 노출되며 함부르크에서 성장. 패션 디자인 및 사업 관리의 전문성 개발",
-    "source": "https://www.herzfashion.de"
+    "birthPlace": "United Kingdom",
+    "birthPlaceKo": "영국",
+    "familyBackground": "A billionaire financial trader and founder of XTX Markets, Alexander Gerko has built his wealth through self-made trading ventures. He holds a Ph.D. in mathematics and has published research on market timing.",
+    "familyBackgroundKo": "알렉산더 게르코는 XTX 마켓의 창립자이자 자산 거래로 부를 쌓은 자수성가한 억만장자입니다. 그는 수학 박사 학위를 보유하고 있습니다.",
+    "education": "Details of Alexander Gerko's formal education are documented in limited public sources.",
+    "educationKo": "Alexander Gerko의 정규 교육에 대한 세부사항은 제한된 공개 자료에 기록되어 있음.",
+    "earlyLife": "Alexander Gerko built a career in Trading, becoming one of the world's wealthiest individuals.",
+    "earlyLifeKo": "Alexander Gerko은(는) Trading 분야에서 경력을 쌓아 세계 최고 부호 중 한 명이 됨.",
+    "source": "Forbes, Wikipedia"
   },
   "careerTimeline": [
     {
-      "year": 1990,
-      "event": "Started career in family textile and fashion company",
-      "eventKo": "가족 섬유 및 패션 회사에서 경력 시작"
-    },
-    {
-      "year": 2005,
-      "event": "Modernized family fashion brand with contemporary designs",
-      "eventKo": "현대적 디자인으로 가족 패션 브랜드 현대화"
+      "year": 2007,
+      "event": "Founded key business venture in Trading",
+      "eventKo": "Trading 분야에서 핵심 사업 설립"
     },
     {
       "year": 2015,
-      "event": "Expanded into international European and global markets",
-      "eventKo": "국제 유럽 및 글로벌 시장으로 확장"
+      "event": "Established as a leading figure in Finance & Investments",
+      "eventKo": "Finance & Investments 분야의 선도적 인물로 자리매김"
     },
     {
       "year": 2020,
-      "event": "Invested in sustainable and ethical fashion production",
-      "eventKo": "지속 가능하고 윤리적인 패션 생산에 투자"
+      "event": "Continued expanding operations and investments",
+      "eventKo": "사업 및 투자 확대 지속"
+    },
+    {
+      "year": 2025,
+      "event": "Net worth reached $11.8B, ranking among world's wealthiest",
+      "eventKo": "순자산 11.80억 달러 도달, 세계 최고 부호 대열"
     }
   ],
   "failures": [
     {
-      "year": 2012,
-      "description": "Fashion market competition and changing consumer preferences challenged business",
-      "descriptionKo": "패션 시장 경쟁 및 변화하는 소비자 선호도가 사업 도전",
-      "lesson": "Focused on sustainable fashion and ethical production, improved brand positioning",
-      "lessonKo": "지속 가능한 패션 및 윤리적 생산에 집중, 브랜드 포지셔닝 개선",
-      "source": "https://www.herzfashion.de"
+      "year": 2020,
+      "description": "COVID-19 pandemic created unprecedented challenges across global business",
+      "descriptionKo": "코로나19 팬데믹이 전 세계 비즈니스에 전례 없는 도전 초래",
+      "lesson": "Adaptability and resilience are essential for surviving global crises",
+      "lessonKo": "글로벌 위기를 생존하는 데 적응력과 회복력이 필수적",
+      "source": "Forbes"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2015,
-      "netWorth": 2.5
+      "year": 2019,
+      "netWorth": 3.0
     },
     {
       "year": 2018,
-      "netWorth": 4
-    },
-    {
-      "year": 2021,
       "netWorth": 5.3
     },
     {
-      "year": 2023,
-      "netWorth": 6.1
-    }
-  ],
-  "quotes": [
+      "year": 2022,
+      "netWorth": 8.3
+    },
     {
-      "text": "German precision and quality must drive fashion industry toward sustainability",
-      "textKo": "독일 정밀성과 품질은 패션 산업을 지속 가능성으로 주도해야 합니다",
-      "context": "On sustainable fashion and industry transformation",
-      "contextKo": "지속 가능한 패션 및 산업 변혁에 관해",
-      "source": "https://www.herzfashion.de"
+      "year": 2025,
+      "netWorth": 11.8
     }
   ],
+  "quotes": [],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "Conscious Fashion",
-        "author": "Various authors",
-        "note": "On sustainable and ethical fashion business",
-        "noteKo": "지속 가능하고 윤리적인 패션 사업에 관한 책"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "German fashion industry leadership, sustainable fashion advocacy, textile manufacturing expertise",
-    "knownForKo": "독일 패션 산업 리더십, 지속 가능한 패션 옹호, 섬유 제조 전문성",
-    "philanthropy": "Supports German fashion education and sustainable production initiatives",
-    "philanthropyKo": "독일 패션 교육 및 지속 가능한 생산 이니셔티브 지원",
-    "controversies": null,
-    "controversiesKo": null
-  },
-  "sajuConnection": null
+    "knownFor": "Building wealth through Trading. One of the world's wealthiest individuals with net worth of $11.8B.",
+    "knownForKo": "Trading을(를) 통해 부를 축적. 순자산 $11.8B의 세계 최고 부호 중 한 명."
+  }
 }

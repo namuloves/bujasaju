@@ -1,79 +1,92 @@
 {
   "id": "537",
-  "name": "Jared Kaplan",
+  "name": "Jared Daniel Kaplan",
   "childhood": {
     "birthPlace": "United States",
     "birthPlaceKo": "미국",
-    "familyBackground": "Jared Daniel Kaplan is a theoretical physicist and artificial intelligence researcher. He is an associate professor in the Johns Hopkins University Department of Physics & Astronomy, and a co-founder ",
-    "familyBackgroundKo": "Jared Daniel Kaplan은 이론 물리학자이자 인공지능 연구자입니다. 그는 존스 홉킨스 대학교 물리학 및 천문학과 부교수이며, Anthropic의 공동 창업자이자 최고과학책임자입니다.",
-    "education": "Details of Jared Kaplan's education are not widely documented in public sources.",
-    "educationKo": "Jared Kaplan의 교육 세부사항은 공개 자료에서 널리 기록되지 않음.",
-    "earlyLife": "Jared Kaplan built a career in Artificial intelligence.",
-    "earlyLifeKo": "Jared Kaplan은(는) Artificial intelligence 분야에서 경력을 쌓음.",
-    "source": "Forbes"
+    "familyBackground": "Academic family background. Both parents were in academia.",
+    "familyBackgroundKo": "학문적 가족 배경. 부모 모두 학계에 종사.",
+    "education": "BA in physics from Yale University. PhD in theoretical physics from Stanford University. Postdoctoral research at Johns Hopkins University.",
+    "educationKo": "예일 대학교 물리학 학사. 스탠퍼드 대학교 이론물리학 박사. 존스홉킨스 대학교 박사후 연구.",
+    "earlyLife": "Trained as a theoretical physicist studying conformal field theory and string theory before pivoting to AI research.",
+    "earlyLifeKo": "AI 연구로 전환하기 전 등각장론과 끈 이론을 연구하는 이론물리학자로 훈련.",
+    "source": "Wikipedia, Forbes, Anthropic"
   },
   "careerTimeline": [
     {
-      "year": 2006,
-      "event": "Started career in Artificial intelligence",
-      "eventKo": "Artificial intelligence 분야에서 경력 시작"
+      "year": 2014,
+      "event": "Became associate professor of physics at Johns Hopkins University",
+      "eventKo": "존스홉킨스 대학교 물리학 부교수 취임"
     },
     {
-      "year": 2014,
-      "event": "Established presence in technology industry",
-      "eventKo": "Technology 산업에서 입지 확립"
+      "year": 2019,
+      "event": "Published influential 'scaling laws' papers showing how AI performance scales with compute, data, and model size",
+      "eventKo": "컴퓨트, 데이터, 모델 크기에 따른 AI 성능 스케일링을 보여주는 영향력 있는 '스케일링 법칙' 논문 발표"
+    },
+    {
+      "year": 2020,
+      "event": "Co-authored GPT-3 paper at OpenAI, demonstrating emergent abilities of large language models",
+      "eventKo": "OpenAI에서 GPT-3 논문 공동 저술, 대규모 언어 모델의 창발적 능력 입증"
+    },
+    {
+      "year": 2021,
+      "event": "Co-founded Anthropic with Dario and Daniela Amodei, leaving OpenAI over AI safety concerns",
+      "eventKo": "AI 안전 우려로 OpenAI를 떠나 다리오 아모데이, 다니엘라 아모데이와 앤스로픽 공동 설립"
     },
     {
       "year": 2024,
-      "event": "Expanded business operations significantly",
-      "eventKo": "사업 운영을 크게 확장"
-    },
-    {
-      "year": 2034,
-      "event": "Became a major figure in Artificial intelligence",
-      "eventKo": "Artificial intelligence 분야의 주요 인물로 부상"
+      "event": "Anthropic valued at $18 billion; Claude AI became a leading AI assistant",
+      "eventKo": "앤스로픽 기업 가치 180억 달러; Claude AI가 선도적 AI 어시스턴트로 부상"
     },
     {
       "year": 2025,
-      "event": "Net worth reached $7B",
-      "eventKo": "순자산 10조원 도달"
+      "event": "Net worth reached $7B as Anthropic's valuation grew to $60B+",
+      "eventKo": "앤스로픽 기업 가치 600억 달러 이상 성장으로 순자산 70억 달러 도달"
     }
   ],
   "failures": [
     {
       "year": 2020,
-      "description": "COVID-19 pandemic impacted business operations globally",
-      "descriptionKo": "코로나19 팬데믹이 전 세계적으로 사업 운영에 영향",
-      "lesson": "Resilience and adaptability are essential in times of crisis",
-      "lessonKo": "위기 시 회복력과 적응력이 필수적",
-      "source": "Forbes"
+      "description": "Internal disagreements at OpenAI about safety priorities led to departure",
+      "descriptionKo": "OpenAI에서 안전 우선순위에 대한 내부 이견으로 퇴사",
+      "lesson": "Sometimes leaving a successful organization is necessary to pursue deeper convictions",
+      "lessonKo": "때로는 더 깊은 신념을 추구하기 위해 성공적인 조직을 떠나야 함",
+      "source": "The Information"
     }
   ],
   "wealthHistory": [
     {
+      "year": 2021,
+      "netWorth": 0.3
+    },
+    {
+      "year": 2023,
+      "netWorth": 2.0
+    },
+    {
       "year": 2024,
-      "netWorth": 1.4
-    },
-    {
-      "year": 2029,
-      "netWorth": 2.8
-    },
-    {
-      "year": 2020,
-      "netWorth": 4.2
+      "netWorth": 4.0
     },
     {
       "year": 2025,
-      "netWorth": 7
+      "netWorth": 7.0
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "The scaling laws tell us something deep about how intelligence emerges from computation.",
+      "textKo": "스케일링 법칙은 지능이 계산에서 어떻게 출현하는지에 대해 깊은 것을 말해준다.",
+      "context": "On scaling laws in AI",
+      "contextKo": "AI의 스케일링 법칙에 대해",
+      "source": "Academic lecture"
+    }
+  ],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building wealth through Artificial intelligence. Net worth $7B.",
-    "knownForKo": "Artificial intelligence을(를) 통해 부를 축적. 순자산 10조원."
+    "knownFor": "Physicist turned AI researcher. Discovered scaling laws that became foundational to modern AI. Co-founded Anthropic to build safer AI systems (Claude).",
+    "knownForKo": "물리학자에서 AI 연구자로 전환. 현대 AI의 기초가 된 스케일링 법칙 발견. 더 안전한 AI 시스템(Claude)을 구축하기 위해 앤스로픽 공동 설립."
   }
 }

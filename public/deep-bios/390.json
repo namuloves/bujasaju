@@ -1,94 +1,69 @@
 {
   "id": "390",
-  "name": "Olivier Pomel",
+  "name": "David Duffield",
   "childhood": {
-    "birthPlace": "Paris, France",
-    "birthPlaceKo": "파리, 프랑스",
-    "familyBackground": "French family with engineering and technical background. Father was engineer; family emphasized technology.",
-    "familyBackgroundKo": "엔지니어링 및 기술 배경을 가진 프랑스 가족. 아버지는 엔지니어였으며 가족은 기술을 강조했습니다.",
-    "education": "Studied computer science and engineering at Ecole Polytechnique, Paris",
-    "educationKo": "파리 Ecole Polytechnique에서 컴퓨터 과학 및 엔지니어링 공부",
-    "earlyLife": "Started career in software and technology in 1990s. Founded monitoring and analytics company (Datadog).",
-    "earlyLifeKo": "1990년대 소프트웨어 및 기술 분야에서 경력을 시작했습니다. 모니터링 및 분석 회사 (Datadog)를 설립했습니다.",
-    "source": "datadog.com"
+    "birthPlace": "United States",
+    "birthPlaceKo": "미국",
+    "familyBackground": "David Arthur Duffield is an American billionaire businessman in the software industry.",
+    "familyBackgroundKo": "소프트웨어 산업의 억만장자 사업가로, PeopleSoft와 Workday, Inc.를 공동 설립했습니다. 그의 순자산은 87억 달러입니다.",
+    "education": "Details of David Duffield's formal education are documented in limited public sources.",
+    "educationKo": "David Duffield의 정규 교육에 대한 세부사항은 제한된 공개 자료에 기록되어 있음.",
+    "earlyLife": "David Duffield built a career in Business software, becoming one of the world's wealthiest individuals.",
+    "earlyLifeKo": "David Duffield은(는) Business software 분야에서 경력을 쌓아 세계 최고 부호 중 한 명이 됨.",
+    "source": "Forbes, Wikipedia"
   },
   "careerTimeline": [
     {
-      "year": 1995,
-      "event": "Started career in software development and technology",
-      "eventKo": "소프트웨어 개발 및 기술 분야에서 경력 시작"
+      "year": 1965,
+      "event": "Began career in Business software",
+      "eventKo": "Business software 분야에서 경력 시작"
     },
     {
-      "year": 2010,
-      "event": "Founded Datadog, cloud monitoring and analytics platform",
-      "eventKo": "클라우드 모니터링 및 분석 플랫폼인 Datadog 설립"
+      "year": 2020,
+      "event": "Continued expanding operations and investments",
+      "eventKo": "사업 및 투자 확대 지속"
     },
     {
-      "year": 2019,
-      "event": "Took Datadog public with IPO; became major cloud infrastructure platform",
-      "eventKo": "Datadog을 IPO로 공개; 주요 클라우드 인프라 플랫폼이 됨"
-    },
-    {
-      "year": 2023,
-      "event": "Datadog became major monitoring and observability platform provider",
-      "eventKo": "Datadog이 주요 모니터링 및 관찰 플랫폼 제공업체가 됨"
+      "year": 2025,
+      "event": "Net worth reached $8.7B, ranking among world's wealthiest",
+      "eventKo": "순자산 8.70억 달러 도달, 세계 최고 부호 대열"
     }
   ],
   "failures": [
     {
-      "year": 2015,
-      "description": "Early competition from established monitoring platforms; market saturation concerns",
-      "descriptionKo": "기존 모니터링 플랫폼과의 초기 경쟁; 시장 포화 우려",
-      "lesson": "Learned importance of product differentiation and customer focus in SaaS market",
-      "lessonKo": "SaaS 시장에서 제품 차별화 및 고객 초점의 중요성을 배웠습니다",
-      "source": "saas-industry.com"
+      "year": 2020,
+      "description": "COVID-19 pandemic created unprecedented challenges across global business",
+      "descriptionKo": "코로나19 팬데믹이 전 세계 비즈니스에 전례 없는 도전 초래",
+      "lesson": "Adaptability and resilience are essential for surviving global crises",
+      "lessonKo": "글로벌 위기를 생존하는 데 적응력과 회복력이 필수적",
+      "source": "Forbes"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2018,
-      "netWorth": 0.8
-    },
-    {
-      "year": 2020,
-      "netWorth": 1.5
-    },
-    {
-      "year": 2022,
+      "year": 2010,
       "netWorth": 2.2
     },
     {
-      "year": 2023,
-      "netWorth": 2.8
-    }
-  ],
-  "quotes": [
+      "year": 2015,
+      "netWorth": 3.9
+    },
     {
-      "text": "Cloud infrastructure success requires deep technical expertise and customer empathy",
-      "textKo": "클라우드 인프라 성공은 깊은 기술 전문성과 고객 공감 능력이 필요합니다",
-      "context": "Interview about cloud monitoring and technology strategy",
-      "contextKo": "클라우드 모니터링 및 기술 전략에 관한 인터뷰",
-      "source": "techcrunch.com"
+      "year": 2022,
+      "netWorth": 6.1
+    },
+    {
+      "year": 2025,
+      "netWorth": 8.7
     }
   ],
+  "quotes": [],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "Site Reliability Engineering",
-        "author": "Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy",
-        "note": "Influenced cloud monitoring approach",
-        "noteKo": "클라우드 모니터링 접근 방식에 영향을 미쳤습니다"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building major cloud monitoring company (Datadog); SaaS platform expertise; cloud infrastructure technology",
-    "knownForKo": "주요 클라우드 모니터링 회사 구축 (Datadog); SaaS 플랫폼 전문성; 클라우드 인프라 기술",
-    "philanthropy": "Supports technology education and STEM initiatives in France",
-    "philanthropyKo": "프랑스의 기술 교육 및 STEM 사업 지원",
-    "controversies": null,
-    "controversiesKo": null
-  },
-  "sajuConnection": null
+    "knownFor": "Building wealth through Business software. One of the world's wealthiest individuals with net worth of $8.7B.",
+    "knownForKo": "Business software을(를) 통해 부를 축적. 순자산 $8.7B의 세계 최고 부호 중 한 명."
+  }
 }
