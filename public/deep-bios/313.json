@@ -1,0 +1,89 @@
+{
+  "id": "313",
+  "name": "Thomas Schmidheiny",
+  "childhood": {
+    "birthPlace": "Heerbrugg, Canton of St. Gallen, Switzerland",
+    "birthPlaceKo": "스위스 장크트갈렌주 헤르브루크",
+    "familyBackground": "Born into the Schmidheiny dynasty, one of Switzerland's most powerful industrial families. The family controlled multiple cement companies across the globe.",
+    "familyBackgroundKo": "스위스 최강 산업 가문 중 하나인 슈미트하이니 가문에서 태어남. 가문은 전 세계 여러 시멘트 회사를 지배.",
+    "education": "Studied at ETH Zurich (Swiss Federal Institute of Technology).",
+    "educationKo": "취리히 연방공과대학(ETH 취리히)에서 수학.",
+    "earlyLife": "Grew up in the Swiss business elite, learning about global industry management from his family.",
+    "earlyLifeKo": "스위스 비즈니스 엘리트 속에서 성장, 가족으로부터 글로벌 산업 경영 학습.",
+    "source": "Wikipedia, Forbes"
+  },
+  "careerTimeline": [
+    {
+      "year": 1978,
+      "event": "Became CEO of Holcim (then Holderbank), the family's cement company",
+      "eventKo": "가문의 시멘트 회사 홀심(당시 홀더방크)의 CEO 취임"
+    },
+    {
+      "year": 1990,
+      "event": "Transformed Holcim into a global cement giant through acquisitions across Asia, Latin America, and Africa",
+      "eventKo": "아시아, 라틴아메리카, 아프리카 전역의 인수를 통해 홀심을 글로벌 시멘트 거인으로 변환"
+    },
+    {
+      "year": 2003,
+      "event": "Stepped down as chairman, retaining major shareholder position",
+      "eventKo": "회장직에서 물러나되 주요 주주 지위 유지"
+    },
+    {
+      "year": 2015,
+      "event": "Holcim merged with Lafarge to create LafargeHolcim, world's largest cement maker",
+      "eventKo": "홀심이 라파주와 합병해 세계 최대 시멘트 제조사 라파주홀심 설립"
+    },
+    {
+      "year": 2021,
+      "event": "LafargeHolcim rebranded as Holcim; Schmidheiny remained a top shareholder",
+      "eventKo": "라파주홀심이 홀심으로 재브랜딩; 슈미트하이니가 최대 주주로 유지"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2012,
+      "description": "Faced criminal charges in Italy related to asbestos deaths at Eternit plants owned by the family",
+      "descriptionKo": "가문이 소유한 에테르니트 공장의 석면 관련 사망에 대해 이탈리아에서 형사 기소",
+      "lesson": "Industrial legacy can carry long-term legal and moral liabilities",
+      "lessonKo": "산업적 유산이 장기적인 법적, 도덕적 책임을 수반할 수 있음",
+      "source": "Reuters"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 4.0
+    },
+    {
+      "year": 2015,
+      "netWorth": 5.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 5.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 10.2
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Cement is the foundation of civilization. Wherever people build, they need cement.",
+      "textKo": "시멘트는 문명의 기초다. 사람들이 건설하는 곳에는 시멘트가 필요하다.",
+      "context": "On the cement industry",
+      "contextKo": "시멘트 산업에 대해",
+      "source": "NZZ"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Transforming Holcim from a Swiss cement company into the world's largest building materials firm",
+    "knownForKo": "홀심을 스위스 시멘트 회사에서 세계 최대 건축자재 기업으로 변환",
+    "controversies": "Faced asbestos-related criminal proceedings in Italy connected to family-owned Eternit plants.",
+    "controversiesKo": "가문이 소유한 에테르니트 공장과 관련된 이탈리아에서의 석면 관련 형사소송."
+  }
+}

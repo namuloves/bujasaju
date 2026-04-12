@@ -1,0 +1,94 @@
+{
+  "id": "205",
+  "name": "Barry Lam",
+  "childhood": {
+    "birthPlace": "Shanghai, China",
+    "birthPlaceKo": "중국 상하이",
+    "familyBackground": "Family fled mainland China to Taiwan when he was young. Grew up in Taiwan during a period of rapid industrialization.",
+    "familyBackgroundKo": "어릴 때 가족이 중국 본토에서 대만으로 피신. 급속한 산업화 시기의 대만에서 성장.",
+    "education": "Earned a degree in electrical engineering from National Taiwan University. MBA from the University of Houston.",
+    "educationKo": "국립대만대학교 전기공학 학위. 휴스턴 대학교 MBA 취득.",
+    "earlyLife": "Developed a passion for electronics and engineering from a young age.",
+    "earlyLifeKo": "어릴 때부터 전자공학에 열정을 키움.",
+    "source": "Wikipedia, Forbes"
+  },
+  "careerTimeline": [
+    {
+      "year": 1988,
+      "event": "Founded Quanta Computer in Taiwan",
+      "eventKo": "대만에서 콴타 컴퓨터 설립"
+    },
+    {
+      "year": 1998,
+      "event": "Quanta became the world's largest notebook computer manufacturer",
+      "eventKo": "콴타가 세계 최대 노트북 제조업체로 등극"
+    },
+    {
+      "year": 2005,
+      "event": "Expanded into server manufacturing for cloud computing",
+      "eventKo": "클라우드 컴퓨팅용 서버 제조로 확장"
+    },
+    {
+      "year": 2012,
+      "event": "Became a key supplier for Apple, Dell, HP, and other major brands",
+      "eventKo": "애플, 델, HP 등 주요 브랜드의 핵심 공급업체로 부상"
+    },
+    {
+      "year": 2023,
+      "event": "AI server demand drove massive revenue growth as key NVIDIA partner",
+      "eventKo": "NVIDIA 핵심 파트너로서 AI 서버 수요가 매출 급성장 견인"
+    },
+    {
+      "year": 2025,
+      "event": "Quanta revenues exceeded $50 billion",
+      "eventKo": "콴타 매출 500억 달러 초과"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Global financial crisis caused sharp decline in PC demand",
+      "descriptionKo": "글로벌 금융위기로 PC 수요 급감",
+      "lesson": "Diversifying beyond PCs into servers and cloud infrastructure provided resilience",
+      "lessonKo": "PC를 넘어 서버와 클라우드 인프라로 다각화가 회복력 제공",
+      "source": "Taipei Times"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 6.0
+    },
+    {
+      "year": 2023,
+      "netWorth": 10.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 13.7
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Manufacturing is an art. Every product must be perfect.",
+      "textKo": "제조는 예술이다. 모든 제품은 완벽해야 한다.",
+      "context": "On manufacturing philosophy",
+      "contextKo": "제조 철학에 대해",
+      "source": "CommonWealth Magazine"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Building the world's largest laptop manufacturer and pivoting successfully into AI servers",
+    "knownForKo": "세계 최대 노트북 제조업체를 구축하고 AI 서버로 성공적으로 전환",
+    "philanthropy": "Supports education and technology research in Taiwan.",
+    "philanthropyKo": "대만의 교육 및 기술 연구 지원."
+  }
+}

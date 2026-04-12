@@ -1,0 +1,91 @@
+{
+  "id": "507",
+  "name": "Sam McCandlish",
+  "childhood": {
+    "birthPlace": "United States",
+    "birthPlaceKo": "미국",
+    "familyBackground": "Sam McCandlish grew up in the United States with an exceptional aptitude for mathematics and physics. Specific details about his family and hometown are not publicly available, but his academic path — earning dual B.S./M.S. degrees from Brandeis University and then a PhD from Stanford — reflects a deep intellectual upbringing.",
+    "familyBackgroundKo": "샘 맥캔들리시는 미국에서 수학과 물리학에 탁월한 재능을 보이며 성장했다. 가족과 출신지에 관한 구체적인 정보는 공개되지 않았지만, 브랜다이스대학교에서 학사·석사를, 스탠퍼드에서 박사 학위를 취득한 학문적 여정은 지적으로 풍요로운 성장 환경을 반영한다.",
+    "education": "McCandlish earned dual B.S. and M.S. degrees in Mathematics and Physics from Brandeis University, then completed his PhD in Theoretical Physics at Stanford University, where he specialized in quantum gravity and tensor networks — tools for understanding the deep structure of spacetime.",
+    "educationKo": "브랜다이스대학교에서 수학·물리학 학사 및 석사 학위를 동시에 취득한 후, 스탠퍼드대학교에서 양자 중력과 텐서 네트워크를 전공으로 이론물리학 박사 학위를 취득했다. 텐서 네트워크는 시공간의 심층 구조를 이해하기 위한 도구다.",
+    "earlyLife": "After his Stanford PhD, McCandlish joined Boston University as a postdoctoral researcher, where his work on complex systems and emergent phenomena laid unexpected groundwork for thinking about the behavior of large neural networks at scale.",
+    "earlyLifeKo": "스탠퍼드 박사 학위 취득 후 보스턴대학교에 박사후 연구원으로 합류했다. 복잡계와 창발 현상에 관한 연구는 이후 대규모 신경망의 스케일 변화에 따른 거동을 이해하는 뜻밖의 토대가 되었다."
+  },
+  "careerTimeline": [
+    {
+      "year": 2015,
+      "event": "Completed PhD in Theoretical Physics at Stanford University, focusing on quantum gravity and tensor networks.",
+      "eventKo": "스탠퍼드대학교에서 양자 중력과 텐서 네트워크를 주제로 이론물리학 박사 학위를 취득했다."
+    },
+    {
+      "year": 2016,
+      "event": "Conducted postdoctoral research at Boston University, studying emergent behavior in complex physical systems.",
+      "eventKo": "보스턴대학교에서 복잡한 물리 시스템의 창발적 거동을 연구하는 박사후 연구를 수행했다."
+    },
+    {
+      "year": 2018,
+      "event": "Joined OpenAI as a Research Lead, applying his physics background to large-scale machine learning and AI safety research.",
+      "eventKo": "오픈AI에 연구 리더로 합류하여 물리학적 배경을 대규모 머신러닝 및 AI 안전성 연구에 적용하기 시작했다."
+    },
+    {
+      "year": 2019,
+      "event": "Co-authored foundational research at OpenAI on large batch training and optimization, helping establish the engineering principles behind scaling large language models.",
+      "eventKo": "오픈AI에서 대용량 배치 학습 및 최적화에 관한 기초 연구를 공동 저술하여 대형 언어 모델 스케일링의 공학적 원리를 확립하는 데 기여했다."
+    },
+    {
+      "year": 2020,
+      "event": "Contributed to the OpenAI scaling laws research program, including work that underpinned the development of GPT-3 — the model that triggered the modern large language model era.",
+      "eventKo": "현대 대형 언어 모델 시대를 촉발한 GPT-3 개발의 기반이 된 오픈AI의 스케일링 법칙 연구 프로그램에 기여했다."
+    },
+    {
+      "year": 2021,
+      "event": "Left OpenAI to co-found Anthropic with Dario Amodei, Daniela Amodei, Jared Kaplan, and other colleagues, driven by a conviction that AI safety needed to be the foundational priority of frontier AI development.",
+      "eventKo": "AI 안전성이 최첨단 AI 개발의 핵심 우선순위가 되어야 한다는 확신을 갖고 오픈AI를 떠나 다리오 아모데이, 다니엘라 아모데이, 재러드 캐플런 등 동료들과 함께 앤트로픽을 공동 창립했다."
+    },
+    {
+      "year": 2022,
+      "event": "As Chief Architect, led the technical design and training organization at Anthropic, overseeing the LLM organization encompassing Training, Inference, and Core Resources divisions.",
+      "eventKo": "최고 아키텍트로서 앤트로픽의 기술 설계 및 훈련 조직을 이끌며 훈련, 추론, 핵심 자원 부문을 총괄하는 LLM 조직을 감독했다."
+    },
+    {
+      "year": 2024,
+      "event": "Appointed co-Responsible Scaling Officer at Anthropic alongside Jared Kaplan, helping design and enforce the Responsible Scaling Policy that governs how Anthropic evaluates and deploys increasingly capable AI systems.",
+      "eventKo": "재러드 캐플런과 함께 앤트로픽의 공동 책임 있는 스케일링 책임자로 임명되어 점점 더 강력해지는 AI 시스템의 평가·배포 방식을 규율하는 책임 있는 스케일링 정책의 설계와 집행을 담당했다."
+    }
+  ],
+  "failures": [
+    {
+      "year": 2020,
+      "description": "Early scaling laws research, while revolutionary, initially underestimated the importance of data quality relative to sheer data quantity — a gap that later required correction in subsequent research and model training practices.",
+      "descriptionKo": "혁신적이었음에도 불구하고 초기 스케일링 법칙 연구는 처음에 방대한 데이터 양에 비해 데이터 품질의 중요성을 과소평가했으며, 이는 이후 연구와 모델 훈련 관행에서 수정이 필요한 격차였다.",
+      "lesson": "Empirical laws in machine learning are approximations that improve iteratively; early findings should always be treated as hypotheses, not final truths.",
+      "lessonKo": "머신러닝의 경험적 법칙은 반복적으로 개선되는 근사치다. 초기 발견은 항상 최종 진리가 아닌 가설로 다루어야 한다."
+    },
+    {
+      "year": 2023,
+      "description": "Anthropic's initial fundraising was significantly constrained by investor skepticism about AI safety-focused labs competing with commercially-driven incumbents — forcing the team to make difficult trade-offs between research speed and capital efficiency.",
+      "descriptionKo": "앤트로픽의 초기 자금 조달은 상업적 동기의 기존 업체들과 경쟁하는 AI 안전 중심 연구소에 대한 투자자들의 회의적 시각으로 인해 크게 제약을 받았으며, 팀은 연구 속도와 자본 효율성 사이에서 어려운 절충을 해야 했다.",
+      "lesson": "Proving that principled AI development is commercially viable requires not just technical excellence but a compelling narrative about why safety and capability can reinforce each other.",
+      "lessonKo": "원칙에 입각한 AI 개발이 상업적으로 실행 가능하다는 것을 증명하려면 기술적 탁월함뿐만 아니라 안전성과 성능이 서로를 강화할 수 있다는 설득력 있는 서사가 필요하다."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2021, "netWorth": 0.05},
+    {"year": 2022, "netWorth": 0.3},
+    {"year": 2023, "netWorth": 1.0},
+    {"year": 2024, "netWorth": 3.7},
+    {"year": 2025, "netWorth": 7.0}
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "McCandlish is known as one of the architects of modern AI scaling, applying his theoretical physics training to understand how large language models behave as they grow in size and compute. He is regarded as one of the most technically deep members of Anthropic's founding team, operating mostly behind the scenes of the lab's public profile.",
+    "knownForKo": "맥캔들리시는 이론물리학 훈련을 적용하여 대형 언어 모델이 규모와 컴퓨팅이 증가함에 따라 어떻게 거동하는지를 이해하는 현대 AI 스케일링의 설계자 중 한 명으로 알려져 있다. 앤트로픽 창립팀에서 기술적으로 가장 깊이 있는 멤버 중 하나로 평가받으며, 주로 대외적인 주목 없이 연구소의 이면에서 활동한다.",
+    "philanthropy": "McCandlish is one of Anthropic's seven co-founders who publicly pledged to donate 80% of their personal wealth to address AI-driven societal inequalities and existential risks, as part of a collective pledge exceeding $21 billion.",
+    "philanthropyKo": "맥캔들리시는 AI로 인한 사회적 불평등과 실존적 위험에 대응하기 위해 개인 재산의 80%를 기부하겠다고 공개적으로 서약한 앤트로픽 7인의 공동 창업자 중 한 명이다. 집단 서약 총액은 210억 달러를 초과한다."
+  },
+  "sajuConnection": null
+}

@@ -1,0 +1,119 @@
+{
+  "id": "897",
+  "name": "Miao Hangen",
+  "childhood": {
+    "birthPlace": "Jiangsu, China",
+    "birthPlaceKo": "중국 장쑤성",
+    "familyBackground": "1958년 장쑤성의 농촌 마을에서 태어났다. 유복하지 않은 가정 환경 탓에 12세가 될 때까지 정규 교육을 받지 못했다. 가족의 경제적 어려움에도 불구하고 학업에 대한 열의를 잃지 않았고, 이후 난징과기대학(南京理工大学)에 진학해 공학 학위를 취득했다.",
+    "familyBackgroundKo": "1958년 장쑤성의 농촌 마을에서 태어났다. 유복하지 않은 가정 환경 탓에 12세가 될 때까지 정규 교육을 받지 못했다. 가족의 경제적 어려움에도 불구하고 학업에 대한 열의를 잃지 않았고, 이후 난징과기대학(南京理工大学)에 진학해 공학 학위를 취득했다.",
+    "education": "난징과기대학(南京理工大学)에서 공학 학위를 취득했다. 졸업 후 장쑤성 소재 국유 기업에서 엔지니어로 사회생활을 시작했으며, 이후 선전의 기술 기업에서 전자 산업 관련 경험을 쌓았다.",
+    "educationKo": "난징과기대학(南京理工大学)에서 공학 학위를 취득했다. 졸업 후 장쑤성 소재 국유 기업에서 엔지니어로 사회생활을 시작했으며, 이후 선전의 기술 기업에서 전자 산업 관련 경험을 쌓았다.",
+    "earlyLife": "농촌의 가난한 환경에서 자라며 늦게 교육 기회를 얻었지만, 공학에 대한 재능을 발휘해 국유 기업과 민간 기술 기업을 거치며 제조업의 실무를 익혔다.",
+    "earlyLifeKo": "농촌의 가난한 환경에서 자라며 늦게 교육 기회를 얻었지만, 공학에 대한 재능을 발휘해 국유 기업과 민간 기술 기업을 거치며 제조업의 실무를 익혔다."
+  },
+  "careerTimeline": [
+    {
+      "year": 1980,
+      "event": "Founded a precision components manufacturing operation in Suzhou, Jiangsu, focusing on high-accuracy metal parts for domestic electronics manufacturers",
+      "eventKo": "장쑤성 쑤저우에서 국내 전자 제조업체를 위한 고정밀 금속 부품 생산 사업 창업"
+    },
+    {
+      "year": 1997,
+      "event": "Formally established Suzhou Dongshan Precision Manufacturing Co., Ltd., structuring the business for broader electronics component production",
+      "eventKo": "쑤저우 동산정밀제조(苏州东山精密制造有限公司) 공식 설립, 전자 부품 전문 생산 기업으로 재편"
+    },
+    {
+      "year": 2003,
+      "event": "Expanded into LED component manufacturing as China's electronics export boom created surging demand for precision parts",
+      "eventKo": "중국 전자제품 수출 급증에 따른 수요 폭발로 LED 부품 제조 영역으로 사업 확대"
+    },
+    {
+      "year": 2010,
+      "event": "Dongshan Precision listed on the Shenzhen Stock Exchange (SHE: 002384), raising capital to fund domestic and overseas expansion",
+      "eventKo": "동산정밀, 선전증권거래소(SHE: 002384) 상장, 국내외 사업 확장 자금 조달"
+    },
+    {
+      "year": 2014,
+      "event": "Acquired US-based MFLEX (now known as MFS Technologies), a major manufacturer of flexible printed circuit boards for Apple and Samsung, for approximately $430 million",
+      "eventKo": "애플·삼성 납품 주요 연성인쇄회로기판(FPC) 제조업체인 미국 MFLEX(현 MFS 테크놀로지스)를 약 4억 3,000만 달러에 인수"
+    },
+    {
+      "year": 2017,
+      "event": "Dongshan Precision acquired Solyndra's former US facility and expanded its global manufacturing footprint across Southeast Asia and North America",
+      "eventKo": "동산정밀이 솔린드라의 전 미국 공장을 인수하고 동남아·북미 전역으로 글로벌 생산 거점 확대"
+    },
+    {
+      "year": 2019,
+      "event": "Company revenues surpassed RMB 20 billion as contracts with major global smartphone and consumer electronics brands deepened",
+      "eventKo": "주요 글로벌 스마트폰·가전 브랜드와의 계약 확대로 회사 매출 200억 위안 돌파"
+    },
+    {
+      "year": 2022,
+      "event": "Diversified into new energy and electric vehicle component supply chains, positioning Dongshan Precision as a multi-sector electronics supplier",
+      "eventKo": "신에너지 및 전기차 부품 공급망으로 사업 다각화, 동산정밀을 다분야 전자 부품 공급 기업으로 전환"
+    },
+    {
+      "year": 2024,
+      "event": "Net worth estimated at approximately $4.2 billion; Dongshan Precision ranked among China's top electronic components manufacturers by revenue",
+      "eventKo": "순자산 약 42억 달러 추산, 동산정밀은 매출 기준 중국 최상위 전자 부품 제조사 반열에 오름"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2015,
+      "description": "The US MFLEX acquisition initially struggled with integration challenges and margin compression as Apple supply chain pricing pressure squeezed profitability from the acquired business unit.",
+      "descriptionKo": "미국 MFLEX 인수 이후 통합 과정의 어려움과 애플 공급망의 가격 압박으로 수익성이 크게 떨어지는 시련을 겪었다.",
+      "lesson": "The experience taught the importance of post-merger integration planning and the risks of dependence on a single mega-customer; the company subsequently diversified its client base.",
+      "lessonKo": "인수 후 통합 계획의 중요성과 단일 대형 고객 의존의 위험성을 깨달았고, 이후 고객 기반을 다변화했다."
+    },
+    {
+      "year": 2019,
+      "description": "US-China trade war disruptions impacted Dongshan Precision's cross-border supply chains, forcing costly restructuring of production lines between China and Southeast Asian facilities.",
+      "descriptionKo": "미중 무역 전쟁의 충격으로 동산정밀의 국경 간 공급망이 타격을 받아 중국과 동남아 생산 라인의 값비싼 재편을 강요받았다.",
+      "lesson": "Accelerated geographic diversification of manufacturing to reduce geopolitical concentration risk, ultimately making the company more resilient to bilateral trade tensions.",
+      "lessonKo": "지정학적 집중 위험을 줄이기 위해 생산 기지의 지리적 다각화를 앞당겼고, 이는 결과적으로 양국 무역 긴장에 대한 회사의 복원력을 높였다."
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 0.3
+    },
+    {
+      "year": 2014,
+      "netWorth": 0.9
+    },
+    {
+      "year": 2017,
+      "netWorth": 1.8
+    },
+    {
+      "year": 2019,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2021,
+      "netWorth": 3.3
+    },
+    {
+      "year": 2023,
+      "netWorth": 3.8
+    },
+    {
+      "year": 2024,
+      "netWorth": 4.2
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Pioneer of China's precision electronics manufacturing industry who built Suzhou Dongshan Precision Manufacturing from a small Jiangsu workshop into one of China's leading multi-national electronics component suppliers. Known for bold overseas acquisitions, including the purchase of US-based MFLEX, and for bridging Chinese manufacturing capabilities with global technology supply chains.",
+    "knownForKo": "장쑤성의 작은 공장에서 출발해 쑤저우 동산정밀제조를 중국 최대 다국적 전자 부품 공급업체 중 하나로 키운 중국 정밀 전자 제조 산업의 선구자. 미국 MFLEX 인수 등 과감한 해외 M&A와 중국 제조 역량을 글로벌 기술 공급망과 연결한 전략으로 잘 알려져 있다.",
+    "philanthropy": "Has donated tens of millions of dollars to poverty relief programs and education initiatives in rural Jiangsu. Known for supporting vocational training programs in Suzhou to develop skilled manufacturing talent from lower-income backgrounds.",
+    "philanthropyKo": "장쑤성 농촌 빈곤 구제 프로그램과 교육 사업에 수천만 달러를 기부했다. 쑤저우에서 저소득층 출신 숙련 제조업 인재 양성을 위한 직업 훈련 프로그램을 지원하는 것으로도 알려져 있다."
+  },
+  "sajuConnection": null
+}

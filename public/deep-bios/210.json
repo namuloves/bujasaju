@@ -1,0 +1,83 @@
+{
+  "id": "210",
+  "name": "Li Shuirong",
+  "childhood": {
+    "birthPlace": "Shaoxing, Zhejiang, China",
+    "birthPlaceKo": "중국 저장성 사오싱",
+    "familyBackground": "Born into a farming family in Zhejiang province. Self-made entrepreneur.",
+    "familyBackgroundKo": "저장성의 농가에서 태어남. 자수성가 기업가.",
+    "education": "Limited formal education. Rose through factory work and business acumen.",
+    "educationKo": "정규 교육이 제한적. 공장 근무와 사업 감각으로 성장.",
+    "earlyLife": "Grew up in rural Zhejiang during challenging economic times.",
+    "earlyLifeKo": "경제적으로 어려운 시기에 저장성 시골에서 성장.",
+    "source": "Forbes, Bloomberg"
+  },
+  "careerTimeline": [
+    {
+      "year": 1994,
+      "event": "Founded Rongsheng Petrochemical (now Hengli Petrochemical equivalent) in Zhejiang",
+      "eventKo": "저장성에서 룽성 석유화학 설립"
+    },
+    {
+      "year": 2005,
+      "event": "Expanded into large-scale polyester and chemical fiber production",
+      "eventKo": "대규모 폴리에스터 및 화학섬유 생산으로 확장"
+    },
+    {
+      "year": 2015,
+      "event": "Built major refining and petrochemical complex in Zhoushan, Zhejiang",
+      "eventKo": "저장성 저우산에 대형 정유 및 석유화학 단지 건설"
+    },
+    {
+      "year": 2020,
+      "event": "Company became one of China's largest private petrochemical enterprises",
+      "eventKo": "회사가 중국 최대 민간 석유화학 기업 중 하나로 성장"
+    },
+    {
+      "year": 2025,
+      "event": "Net worth reached $13.4 billion",
+      "eventKo": "순자산 134억 달러 도달"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2012,
+      "description": "Global oversupply in petrochemicals caused price pressure",
+      "descriptionKo": "석유화학의 글로벌 공급과잉이 가격 압박 유발",
+      "lesson": "Vertical integration helps weather commodity price cycles",
+      "lessonKo": "수직 통합이 원자재 가격 순환을 견디는 데 도움",
+      "source": "Bloomberg"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 6.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 13.4
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Start small, dream big, and never stop working.",
+      "textKo": "작게 시작하고, 크게 꿈꾸고, 일하기를 멈추지 마라.",
+      "context": "On entrepreneurship",
+      "contextKo": "기업가 정신에 대해",
+      "source": "Zhejiang Daily"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Building one of China's largest private petrochemical empires from scratch",
+    "knownForKo": "무에서 중국 최대 민간 석유화학 제국 중 하나 구축"
+  }
+}

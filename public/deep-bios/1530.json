@@ -1,0 +1,111 @@
+{
+  "id": "1530",
+  "name": "Mika Anttonen",
+  "childhood": {
+    "birthPlace": "Helsinki, Finland",
+    "birthPlaceKo": "핀란드 헬싱키",
+    "familyBackground": "1966년 핀란드 헬싱키에서 태어난 미카 안토넨은 학창 시절을 포르보(Porvoo)에서 보냈다. 평범한 핀란드 가정 출신으로, 과학과 기술에 강한 흥미를 보이며 일찍부터 공학자로서의 길을 예감했다.",
+    "familyBackgroundKo": "1966년 핀란드 헬싱키에서 태어난 미카 안토넨은 학창 시절을 포르보(Porvoo)에서 보냈다. 평범한 핀란드 가정 출신으로, 과학과 기술에 강한 흥미를 보이며 일찍부터 공학자로서의 길을 예감했다.",
+    "education": "Graduated with a Master of Science in Technology, specializing in energy technology engineering, from Helsinki University of Technology (now Aalto University) in 1992.",
+    "educationKo": "1992년 헬싱키 공과대학교(현 알토 대학교)에서 에너지 기술 공학 전공으로 이학석사 학위를 취득했다.",
+    "earlyLife": "During his studies, Anttonen began working as a crude oil distributor for Neste Corporation, gaining hands-on experience in the energy industry before he had even completed his degree.",
+    "earlyLifeKo": "재학 중 네스테 주식회사(Neste)에서 원유 유통 업무를 시작하며 졸업 전부터 에너지 산업에서 실전 경험을 쌓았다."
+  },
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "event": "Began working as a crude oil trader at Neste Corporation while still studying at Helsinki University of Technology.",
+      "eventKo": "헬싱키 공과대학교 재학 중 네스테에서 원유 트레이더로 일을 시작했다."
+    },
+    {
+      "year": 1992,
+      "event": "Graduated with an M.Sc. in Energy Technology from Helsinki University of Technology and continued rising through the ranks at Neste, eventually heading the crude oil trading function.",
+      "eventKo": "헬싱키 공과대학교에서 에너지 기술 석사 학위를 취득하고 네스테에서 원유 트레이딩 부서장까지 승진했다."
+    },
+    {
+      "year": 1995,
+      "event": "Founded Greenergy Baltic, his first independent energy trading venture, breaking away from corporate employment to build his own business.",
+      "eventKo": "첫 번째 독립 에너지 트레이딩 사업인 그리너지 발틱(Greenergy Baltic)을 설립하며 창업의 길로 들어섰다."
+    },
+    {
+      "year": 2000,
+      "event": "Acquired the St1 chain of service stations, expanding from energy trading into the retail fuel market with a disruptive model of unmanned, discount stations.",
+      "eventKo": "스테이션 체인 ST1을 인수하여 에너지 트레이딩에서 소매 연료 시장으로 사업을 확장했으며, 무인 할인 주유소라는 혁신적 모델을 도입했다."
+    },
+    {
+      "year": 2005,
+      "event": "Rebranded his growing fuel retail network under the St1 name, operating a chain of low-cost, unmanned petrol stations across Finland.",
+      "eventKo": "성장하는 연료 소매 네트워크를 ST1 브랜드로 통합하고 핀란드 전역에 저비용 무인 주유소 체인을 운영했다."
+    },
+    {
+      "year": 2010,
+      "event": "Launched St1's first Etanolix ethanol production plant, converting food-industry waste into biofuel — an early and commercially innovative move toward advanced biofuels.",
+      "eventKo": "식품 산업 폐기물을 바이오연료로 전환하는 ST1 최초의 에타놀릭스(Etanolix) 에탄올 생산 공장을 가동하며 첨단 바이오연료 개척에 나섰다."
+    },
+    {
+      "year": 2015,
+      "event": "St1 delivered an Etanolix waste-to-ethanol unit in Gothenburg, Sweden, demonstrating that the biofuel model was scalable beyond Finland.",
+      "eventKo": "스웨덴 예테보리에 에타놀릭스 폐기물-에탄올 전환 유닛을 납품하며 바이오연료 모델이 핀란드를 넘어 확장 가능함을 입증했다."
+    },
+    {
+      "year": 2017,
+      "event": "Commissioned the Cellunolix demonstration plant in Kajaani, Finland, to produce advanced ethanol from softwood sawdust, pushing the frontier of cellulosic biofuels.",
+      "eventKo": "핀란드 카야니에 침엽수 톱밥으로 첨단 에탄올을 생산하는 셀루놀릭스(Cellunolix) 시범 공장을 가동하며 섬유소계 바이오연료의 경계를 넓혔다."
+    },
+    {
+      "year": 2018,
+      "event": "Launched a pioneering deep geothermal heating project at Otaniemi, Espoo, drilling to record depths to tap geothermal heat as a carbon-free urban energy source.",
+      "eventKo": "에스포 오타니에미에서 탄소 없는 도시 에너지원으로 지열을 활용하기 위해 기록적인 깊이까지 시추하는 선구적 심층 지열 난방 프로젝트를 시작했다."
+    },
+    {
+      "year": 2022,
+      "event": "St1 Nordic expanded to approximately 1,400 service stations across Finland, Sweden, Norway, and Poland, while also investing heavily in wind power and offshore energy assets.",
+      "eventKo": "ST1 노르딕은 핀란드, 스웨덴, 노르웨이, 폴란드에 약 1,400개의 주유소를 운영하며 풍력 및 해상 에너지 자산에도 적극 투자했다."
+    }
+  ],
+  "failures": [
+    {
+      "year": 2018,
+      "description": "The ambitious deep geothermal drilling project in Otaniemi, Espoo encountered significant technical challenges, including minor seismic activity triggered by the drilling, leading to a temporary suspension of the project by local authorities.",
+      "descriptionKo": "에스포 오타니에미 심층 지열 굴착 프로젝트에서 굴착으로 인한 소규모 지진 활동 등 상당한 기술적 문제가 발생해 지방 당국이 프로젝트를 임시 중단시켰다.",
+      "lesson": "Pioneering technologies carry geological and regulatory risks that are hard to foresee. Anttonen used the experience to advance scientific understanding and continued to advocate for geothermal as a long-term energy solution.",
+      "lessonKo": "선구적 기술에는 예측하기 어려운 지질학적·규제적 위험이 따른다. 안토넨은 이 경험을 과학적 이해를 높이는 데 활용하고 지열 에너지에 대한 지지를 계속해 나갔다."
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2000, "netWorth": 0.1 },
+    { "year": 2005, "netWorth": 0.4 },
+    { "year": 2010, "netWorth": 0.8 },
+    { "year": 2015, "netWorth": 1.5 },
+    { "year": 2018, "netWorth": 1.9 },
+    { "year": 2021, "netWorth": 2.2 },
+    { "year": 2024, "netWorth": 2.4 }
+  ],
+  "quotes": [
+    {
+      "text": "It sure is exciting, since nobody has ever done anything like that before. This is a bit like Jules Verne on the Journey to the Center of the Earth.",
+      "textKo": "정말 흥미롭습니다. 이런 일을 해본 사람이 아무도 없으니까요. 이건 마치 쥘 베른의 '지구 속 여행' 같은 느낌입니다.",
+      "context": "On the pioneering Otaniemi deep geothermal heating project",
+      "contextKo": "오타니에미 선구적 심층 지열 난방 프로젝트에 대해",
+      "source": "ThinkGeoEnergy / Finnish media"
+    },
+    {
+      "text": "Biofuels and renewable energy are missing two major innovations: sustainable raw materials for biocrudes to substitute fossil crude oil, and electricity storages to meet the supply and demand balance of renewable electricity.",
+      "textKo": "바이오연료와 재생 에너지에는 두 가지 핵심 혁신이 부족합니다. 화석 원유를 대체할 지속 가능한 바이오원유 원료, 그리고 재생 전력의 수급 균형을 맞출 전력 저장 장치입니다.",
+      "context": "On the future of biofuels and renewable energy",
+      "contextKo": "바이오연료와 재생 에너지의 미래에 대해",
+      "source": "Nordregio interview"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Mika Anttonen is paradoxically known as an oil billionaire who is also a passionate climate activist. He actively lobbies the Finnish government for stricter environmental regulations, even when those regulations directly reduce his own profits, and he channels his wealth into radical decarbonization ventures.",
+    "knownForKo": "미카 안토넨은 열정적인 기후 활동가이기도 한 '석유 억만장자'로 역설적으로 유명하다. 자신의 수익을 줄이는 규제도 적극 지지하며 핀란드 정부에 더 엄격한 환경 규제를 촉구하고, 부를 급진적 탈탄소화 사업에 투자하고 있다.",
+    "philanthropy": "Beyond his business investments in clean energy, Anttonen has supported Aalto University (named School of Engineering Alumnus of the Year) and advocates publicly for accelerating the global energy transition, speaking at major forums including the Nordic Business Forum.",
+    "philanthropyKo": "청정 에너지 사업 투자 외에도 알토 대학교를 지원하고(공대 올해의 동문 선정), 노르딕 비즈니스 포럼 등 주요 행사에서 글로벌 에너지 전환 가속화를 공개적으로 주창하고 있다."
+  },
+  "sajuConnection": null
+}

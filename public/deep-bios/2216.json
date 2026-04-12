@@ -1,0 +1,58 @@
+{
+  "id": "2216",
+  "name": "Tony Xu",
+  "childhood": {
+    "birthPlace": "Nanjing, China",
+    "birthPlaceKo": "중국 난징",
+    "familyBackground": "Tony Xu (Xu Xun) was born in Nanjing, China, and immigrated to the United States with his parents at the age of four, settling in Champaign, Illinois. His mother had been a doctor in China but was unable to practice medicine in the United States, so she worked multiple jobs — including at a restaurant — to support the family. His father also worked hard in their new country. Growing up watching his mother's dedication and sacrifice would become the defining motivation behind DoorDash.",
+    "familyBackgroundKo": "토니 쉬(쉬쉰)는 중국 난징에서 태어나 네 살 때 부모와 함께 미국으로 이민해 일리노이주 섐페인에 정착했다. 중국에서 의사였던 그의 어머니는 미국에서 의사 면허를 인정받지 못해 식당 일을 포함한 여러 직업을 전전하며 가족을 부양했다. 아버지도 새 나라에서 열심히 일했다. 어머니의 헌신과 희생을 지켜보며 자란 경험은 훗날 도어대시를 만드는 근본적인 동기가 되었다.",
+    "education": "Xu earned a bachelor's degree from the University of California, Berkeley, and later obtained an MBA from Stanford Graduate School of Business, where he met his DoorDash co-founders Andy Fang, Evan Moore, and Stanley Tang.",
+    "educationKo": "캘리포니아 대학교 버클리 캠퍼스에서 학사 학위를 취득한 후 스탠퍼드 경영대학원에서 MBA를 받았으며, 이곳에서 도어대시 공동 창업자들인 앤디 팡, 에반 무어, 스탠리 탕을 만났다.",
+    "earlyLife": "During his childhood in Champaign, Xu worked alongside his mother in the restaurant where she was employed, washing dishes and observing first-hand the struggles of small business owners in the food service industry. He also chose the name 'Tony' from the 1980s sitcom actor Tony Danza, legally changing his name to make it easier for Americans to pronounce.",
+    "earlyLifeKo": "어린 시절 샴페인에서 어머니가 일하던 식당에서 함께 설거지를 하며 요식업 소규모 사업주들의 어려움을 직접 목격했다. 또한 미국인들이 발음하기 쉽도록 1980년대 시트콤 배우 토니 단자에서 이름을 따 '토니'로 법적으로 개명했다."
+  },
+  "careerTimeline": [
+    {"year": 2005, "event": "Enrolled at the University of California, Berkeley, pursuing an undergraduate degree; during college also worked at a restaurant, giving him direct experience with the operational challenges of food service businesses.", "eventKo": "캘리포니아 대학교 버클리 캠퍼스에 입학해 학사 과정을 시작했다. 재학 중 식당에서도 일하며 요식업 소규모 사업주들의 운영 현실을 몸소 경험했다."},
+    {"year": 2009, "event": "Joined Square, Inc. as an intern, gaining early exposure to payments technology and the challenges faced by small merchants — experience that would inform DoorDash's merchant-centric approach.", "eventKo": "스퀘어 인코퍼레이티드에 인턴으로 합류해 결제 기술과 소규모 판매자들의 어려움을 접했으며, 이는 훗날 도어대시의 판매자 중심 접근 방식에 영향을 미쳤다."},
+    {"year": 2010, "event": "Worked at McKinsey & Company as a management consultant, then held roles at eBay and PayPal, developing expertise in operations, marketplace dynamics, and financial technology.", "eventKo": "맥킨지 & 컴퍼니에서 경영 컨설턴트로 근무한 뒤 이베이와 페이팔에서 일하며 운영, 마켓플레이스 역학, 금융 기술에 대한 전문 지식을 쌓았다."},
+    {"year": 2012, "event": "At Stanford GSB, co-founded PaloAltoDelivery.com with Andy Fang, Evan Moore, and Stanley Tang — a small food delivery service for local Palo Alto restaurants, the direct precursor to DoorDash.", "eventKo": "스탠퍼드 경영대학원 재학 중 앤디 팡, 에반 무어, 스탠리 탕과 함께 팔로알토 지역 식당을 위한 소규모 음식 배달 서비스 팔로알토딜리버리닷컴을 공동 창업했다. 이것이 도어대시의 직접적인 전신이다."},
+    {"year": 2013, "event": "Renamed the company DoorDash and joined Y Combinator, receiving $120,000 in seed funding. The team began hiring Dashers (delivery drivers) and expanded operations beyond Palo Alto.", "eventKo": "회사명을 도어대시로 바꾸고 와이 콤비네이터에 합류해 12만 달러의 시드 투자를 받았다. 배달 기사(대셔) 채용을 시작하고 팔로알토 이외 지역으로 사업을 확장했다."},
+    {"year": 2015, "event": "Secured a $40 million Series B funding round, enabling rapid expansion into major US cities as DoorDash competed with GrubHub, UberEats, and Postmates for market share.", "eventKo": "4천만 달러의 시리즈 B 투자 유치에 성공해 그럽허브, 우버이츠, 포스트메이츠와 시장 점유율을 놓고 경쟁하며 미국 주요 도시로 빠르게 확장했다."},
+    {"year": 2019, "event": "DoorDash surpassed GrubHub to become the largest food delivery platform in the US by market share, a remarkable achievement against established incumbents.", "eventKo": "도어대시가 그럽허브를 제치고 미국 시장 점유율 기준 최대 음식 배달 플랫폼이 되었다. 기성 업체들을 상대로 이룬 놀라운 성과였다."},
+    {"year": 2020, "event": "Led DoorDash's IPO on the New York Stock Exchange in December 2020, with shares surging over 86% on the first trading day; the IPO made Xu a billionaire at age 36.", "eventKo": "2020년 12월 뉴욕 증권거래소에 도어대시의 기업공개(IPO)를 이끌었다. 상장 첫날 주가가 86% 이상 급등했으며, 쉬는 36세에 억만장자가 되었다."},
+    {"year": 2022, "event": "Completed DoorDash's acquisition of Finnish food delivery company Wolt for approximately $8.1 billion, expanding the company's international presence into over 20 countries.", "eventKo": "약 81억 달러에 핀란드 음식 배달 업체 볼트 인수를 완료해 도어대시의 국제적 입지를 20개국 이상으로 확대했다."},
+    {"year": 2024, "event": "Continued as CEO of DoorDash, navigating profitability challenges and expanding the platform's offerings into grocery, convenience, and retail delivery beyond restaurant meals.", "eventKo": "도어대시 CEO를 계속 맡으며 수익성 과제에 대응하고, 플랫폼의 서비스를 레스토랑 음식 배달을 넘어 식료품, 편의점, 소매 배달로 확장했다."}
+  ],
+  "failures": [
+    {"year": 2019, "description": "DoorDash faced significant controversy when it was revealed that the company was using customer tips to subsidize base pay for Dashers rather than paying them on top of base wages. The practice attracted widespread media criticism and public backlash, damaging DoorDash's brand and leading to a policy reversal.", "descriptionKo": "도어대시가 고객 팁을 기본 임금에 더하는 대신 대셔의 기본급 보조에 활용하고 있다는 사실이 밝혀지며 큰 논란이 일었다. 광범위한 언론 비판과 대중의 반발을 불러일으켜 도어대시의 브랜드에 타격을 주었고, 결국 방침을 번복하게 되었다.", "lesson": "As a platform mediating between multiple stakeholders — merchants, customers, and workers — transparency in compensation practices is critical to maintaining trust and brand reputation.", "lessonKo": "판매자, 고객, 노동자 등 여러 이해관계자 사이에서 중개 역할을 하는 플랫폼에서는 보상 방식의 투명성이 신뢰와 브랜드 평판 유지에 매우 중요하다."},
+    {"year": 2022, "description": "After its 2020 IPO peak, DoorDash's stock fell sharply as investors questioned the path to profitability; the company reported significant net losses, and the share price dropped roughly 70% from its all-time high, severely eroding Xu's paper net worth.", "descriptionKo": "2020년 IPO 정점 이후 투자자들이 수익성 경로에 의문을 제기하면서 도어대시 주가가 급락했다. 회사가 상당한 순손실을 보고하며 주가는 최고점 대비 약 70% 하락해 쉬의 장부상 순자산이 크게 줄었다.", "lesson": "Hypergrowth funded by capital markets requires a credible and visible path to profitability; growth at all costs as a strategy eventually runs into the limits of investor patience.", "lessonKo": "자본 시장이 지원하는 초고성장에는 신뢰할 수 있고 가시적인 수익성 경로가 필요하다. 성장 자체를 목표로 하는 전략은 결국 투자자 인내의 한계에 부딪힌다."}
+  ],
+  "wealthHistory": [
+    {"year": 2013, "netWorth": 0.001},
+    {"year": 2018, "netWorth": 0.4},
+    {"year": 2020, "netWorth": 3.1},
+    {"year": 2022, "netWorth": 1.2},
+    {"year": 2023, "netWorth": 1.3},
+    {"year": 2025, "netWorth": 1.5}
+  ],
+  "quotes": [
+    {
+      "text": "DoorDash exists today to empower those like my Mom who came here with a dream to make it on their own.",
+      "textKo": "도어대시는 오늘 어머니처럼 스스로 꿈을 이루러 이 땅에 온 분들에게 힘을 드리기 위해 존재합니다.",
+      "context": "Letter to shareholders in DoorDash's IPO prospectus filing with the SEC, December 2020",
+      "contextKo": "2020년 12월 SEC에 제출한 도어대시 IPO 투자설명서에 포함된 주주 서한",
+      "source": "DoorDash IPO Prospectus, SEC Filing"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Tony Xu is known as the immigrant entrepreneur who built America's largest food delivery platform from a classroom project at Stanford, and for his deeply personal motivation rooted in his mother's restaurant work. He is recognized for operational excellence, an obsession with customer experience, and a relentless competitive drive that took DoorDash from a startup to market leader.",
+    "knownForKo": "토니 쉬는 스탠퍼드 수업 과제에서 미국 최대 음식 배달 플랫폼을 일군 이민자 기업인으로 유명하며, 어머니의 식당 일에 뿌리를 둔 깊이 개인적인 동기로 알려져 있다. 뛰어난 운영 능력, 고객 경험에 대한 집착, 도어대시를 스타트업에서 시장 선도자로 이끈 끝없는 경쟁 의지로 인정받는다.",
+    "philanthropy": "Xu and his wife Patti have been involved in initiatives supporting immigrant communities and education. Xu has spoken publicly about the importance of expanding economic opportunity for immigrants and first-generation Americans.",
+    "philanthropyKo": "쉬와 그의 아내 패티는 이민자 커뮤니티와 교육을 지원하는 활동에 참여해 왔다. 쉬는 이민자와 1세대 미국인들을 위한 경제적 기회 확대의 중요성에 대해 공개적으로 발언해 왔다."
+  },
+  "sajuConnection": null
+}

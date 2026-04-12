@@ -1,0 +1,86 @@
+{
+  "id": "1013",
+  "name": "Sanjit Biswas",
+  "childhood": {
+    "birthPlace": "San Jose, California, USA",
+    "birthPlaceKo": "미국 캘리포니아주 새너제이",
+    "familyBackground": "Sanjit Biswas was born in 1982 into a Bengali family in the San Jose area of California. Growing up in the heart of Silicon Valley, he was exposed to technology from an early age. By age 10, he was already experimenting with early versions of Linux and exploring the internet through dial-up connections and bulletin board systems.",
+    "familyBackgroundKo": "산짓 비스와스는 1982년 캘리포니아주 새너제이 지역의 벵골계 가정에서 태어났다. 실리콘밸리 한복판에서 성장하며 일찍부터 기술 환경에 노출됐다. 10살 때부터 리눅스 초기 버전을 실험하고 전화접속과 게시판 시스템으로 인터넷을 탐색했다.",
+    "education": "Biswas attended Lynbrook High School in San Jose, graduating in 1998. He then earned a Bachelor of Science in Computer Systems Engineering from Stanford University, followed by a Master of Science in Computer Science from MIT, where he was deeply involved in the Roofnet wireless mesh networking research project.",
+    "educationKo": "비스와스는 새너제이 린브룩 고등학교를 1998년에 졸업했다. 이후 스탠퍼드 대학교에서 컴퓨터 시스템 엔지니어링 학사를 취득하고, MIT에서 컴퓨터 과학 석사를 마쳤다. MIT에서는 무선 메시 네트워킹 연구 프로젝트인 루프넷에 깊이 참여했다.",
+    "earlyLife": "At MIT, Biswas met his future co-founder John Bicket while working on the Roofnet project, an experimental wireless mesh networking system that would influence his later ventures. His early passion for hardware and distributed systems laid the foundation for two billion-dollar companies.",
+    "earlyLifeKo": "MIT에서 비스와스는 루프넷 프로젝트를 함께 연구하던 중 훗날의 공동창업자 존 비켓을 만났다. 루프넷은 이후 그의 사업에 영감을 준 실험적 무선 메시 네트워킹 시스템이었다. 하드웨어와 분산 시스템에 대한 초기 열정이 두 개의 유니콘 기업을 낳는 토대가 되었다."
+  },
+  "careerTimeline": [
+    {
+      "year": 2006,
+      "event": "Co-founded Meraki with MIT labmate John Bicket, building cloud-managed wireless networking solutions for enterprises and schools.",
+      "eventKo": "MIT 연구실 동료 존 비켓과 함께 메라키를 공동 창업해 기업과 학교를 위한 클라우드 관리형 무선 네트워킹 솔루션을 개발했다."
+    },
+    {
+      "year": 2007,
+      "event": "Named to MIT Technology Review's TR35, recognizing him as one of the top 35 innovators in the world under age 35.",
+      "eventKo": "MIT 테크놀로지 리뷰의 TR35에 선정되어 35세 이하 세계 최고 혁신가 35인 중 한 명으로 이름을 올렸다."
+    },
+    {
+      "year": 2012,
+      "event": "Cisco acquired Meraki for $1.2 billion; Biswas became Vice President and General Manager of Cisco's Cloud Networking Group.",
+      "eventKo": "시스코가 메라키를 12억 달러에 인수했다. 비스와스는 시스코 클라우드 네트워킹 그룹의 부사장 겸 총괄을 맡았다."
+    },
+    {
+      "year": 2013,
+      "event": "Under Biswas's leadership, Cisco Meraki achieved over 100% annual revenue growth, becoming one of Cisco's fastest-growing business units.",
+      "eventKo": "비스와스의 주도 아래 시스코 메라키는 연간 매출 성장률 100% 이상을 달성하며 시스코 내 가장 빠르게 성장하는 사업부 중 하나로 자리잡았다."
+    },
+    {
+      "year": 2015,
+      "event": "Co-founded Samsara with John Bicket to build IoT solutions for physical operations — fleet management, industrial monitoring, and worker safety.",
+      "eventKo": "존 비켓과 함께 삼사라를 공동 창업해 물류·차량 관리, 산업 모니터링, 현장 안전 등 물리적 운영을 위한 IoT 솔루션 개발에 나섰다."
+    },
+    {
+      "year": 2018,
+      "event": "Samsara raised Series D funding at a $3.6 billion valuation, establishing itself as a leader in connected operations for industrial and logistics companies.",
+      "eventKo": "삼사라가 시리즈 D 투자를 유치해 기업가치 36억 달러를 인정받으며 산업·물류 분야 연결 운영의 선도 기업으로 자리매김했다."
+    },
+    {
+      "year": 2021,
+      "event": "Samsara went public on the NYSE under the ticker 'IOT', raising $805 million in its IPO at a valuation of $11.5 billion.",
+      "eventKo": "삼사라가 뉴욕증권거래소에 'IOT' 종목코드로 상장해 115억 달러 기업가치에 8억 500만 달러를 조달했다."
+    },
+    {
+      "year": 2023,
+      "event": "Samsara surpassed $1 billion in Annual Recurring Revenue (ARR) in Q4, becoming one of the fastest enterprise software companies to reach this milestone.",
+      "eventKo": "삼사라가 4분기에 연간 반복 매출(ARR) 10억 달러를 돌파하며 이 이정표에 가장 빠르게 도달한 엔터프라이즈 소프트웨어 기업 중 하나가 됐다."
+    }
+  ],
+  "failures": [
+    {
+      "year": 2021,
+      "description": "Samsara's IPO was met with a sharp post-listing selloff as investors questioned the company's path to profitability. The stock dropped significantly from its IPO price in the months following the December 2021 listing, erasing billions in paper value.",
+      "descriptionKo": "삼사라의 IPO 이후 수익성에 대한 투자자들의 의구심으로 주가가 급락했다. 2021년 12월 상장 후 수개월 동안 공모가 대비 주가가 크게 하락하며 수십억 달러의 시가총액이 증발했다.",
+      "lesson": "Even strong-growth companies can face brutal post-IPO corrections when profitability is uncertain. Building sustainable unit economics from the outset is critical.",
+      "lessonKo": "수익성이 불확실하면 고성장 기업도 상장 후 급격한 주가 조정을 피할 수 없다. 처음부터 지속 가능한 단위 경제성을 구축하는 것이 중요하다."
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2015, "netWorth": 0.1 },
+    { "year": 2018, "netWorth": 0.5 },
+    { "year": 2021, "netWorth": 2.5 },
+    { "year": 2022, "netWorth": 1.4 },
+    { "year": 2023, "netWorth": 2.0 },
+    { "year": 2025, "netWorth": 3.5 },
+    { "year": 2026, "netWorth": 3.8 }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Biswas is known for being a serial entrepreneur who built two billion-dollar companies — Meraki (acquired by Cisco for $1.2B) and Samsara (IPO at $11.5B valuation). He is recognized for applying Silicon Valley software thinking to the unglamorous world of physical operations: trucks, factories, and field workers.",
+    "knownForKo": "비스와스는 메라키(시스코에 12억 달러에 매각)와 삼사라(115억 달러 기업가치로 IPO)라는 두 개의 유니콘 기업을 연속으로 창업한 시리얼 앙트러프러너로 유명하다. 실리콘밸리의 소프트웨어 사고방식을 트럭, 공장, 현장 근로자 등 화려하지 않은 물리적 운영 세계에 적용한 인물로 평가받는다.",
+    "philanthropy": "Biswas and his wife Hope founded the Biswas Family Foundation in 2023, focused on leveraging scientific and technological advancements to revolutionize global healthcare and public health. Hope Biswas is an infectious disease epidemiologist, and the foundation reflects their shared passion for health equity.",
+    "philanthropyKo": "비스와스와 그의 아내 호프는 2023년 비스와스 패밀리 파운데이션을 설립해 과학·기술의 발전을 활용한 글로벌 헬스케어 혁신과 공중보건 개선에 집중하고 있다. 감염병 역학자인 호프와 함께 보건 형평성에 대한 열정을 재단에 담았다."
+  },
+  "sajuConnection": null
+}

@@ -1,0 +1,84 @@
+{
+  "id": "1456",
+  "name": "Clay Bavor",
+  "childhood": {
+    "birthPlace": "United States",
+    "birthPlaceKo": "미국",
+    "familyBackground": "미국 출신으로, 공개된 가족 배경 정보는 제한적이다. 어린 시절부터 컴퓨터와 기술에 깊은 관심을 보였으며, 이는 이후 구글에서의 커리어와 스타트업 창업으로 이어졌다.",
+    "familyBackgroundKo": "미국 출신으로, 공개된 가족 배경 정보는 제한적이다. 어린 시절부터 컴퓨터와 기술에 깊은 관심을 보였으며, 이는 이후 구글에서의 커리어와 스타트업 창업으로 이어졌다.",
+    "education": "He studied at Yale University, where he developed interests in computer science and design. His academic background laid the foundation for his product management career at Google.",
+    "educationKo": "예일대학교에서 컴퓨터 과학과 디자인에 관심을 키웠다. 이 학문적 배경은 이후 구글에서의 제품 관리 경력의 토대가 됐다.",
+    "earlyLife": "As a young adult, Bavor was drawn to the intersection of technology and human experience. He joined Google fresh out of university as an associate product manager, beginning an 18-year journey inside one of tech's most innovative companies.",
+    "earlyLifeKo": "젊은 시절부터 기술과 인간 경험의 교차점에 매료됐다. 대학 졸업 직후 구글의 부(副)프로덕트 매니저로 입사해 18년간 실리콘밸리 최고 혁신 기업에서 커리어를 쌓았다."
+  },
+  "careerTimeline": [
+    {
+      "year": 2005,
+      "event": "Joined Google as an Associate Product Manager (APM), beginning an 18-year career at the company.",
+      "eventKo": "구글에 부(副)프로덕트 매니저(APM)로 입사해 18년 커리어를 시작했다."
+    },
+    {
+      "year": 2008,
+      "event": "Rose to VP of Product Management, overseeing Gmail, Google Drive, Google Docs, and Google Apps for Enterprise.",
+      "eventKo": "제품 관리 부사장(VP)으로 승진해 지메일, 구글 드라이브, 구글 독스, 기업용 구글 앱을 총괄했다."
+    },
+    {
+      "year": 2015,
+      "event": "Founded and led Google's Virtual Reality division, launching Google Cardboard and Google Daydream VR platform.",
+      "eventKo": "구글 가상현실(VR) 사업부를 창설하고 구글 카드보드와 구글 데이드림 VR 플랫폼을 출시했다."
+    },
+    {
+      "year": 2017,
+      "event": "Expanded scope to lead Google's AR/VR efforts, including Google Lens and Project Starline, as VP of AR and VR.",
+      "eventKo": "AR/VR 부사장으로 구글 렌즈와 프로젝트 스타라인을 포함한 구글의 증강·가상현실 전반을 이끌었다."
+    },
+    {
+      "year": 2021,
+      "event": "Named VP of Google Labs, a division focused on long-term, high-potential moonshot technology projects.",
+      "eventKo": "장기적이고 고잠재력 기술 프로젝트에 집중하는 구글 랩스(Google Labs) 부사장으로 임명됐다."
+    },
+    {
+      "year": 2023,
+      "event": "Left Google after 18 years to co-found Sierra, a conversational AI platform for enterprise customer service, with Bret Taylor.",
+      "eventKo": "18년간의 구글 생활을 마치고, 브렛 테일러와 함께 기업용 대화형 AI 플랫폼 시에라(Sierra)를 공동 창업했다."
+    },
+    {
+      "year": 2024,
+      "event": "Sierra reached $100 million in annual recurring revenue (ARR) within just seven quarters of founding.",
+      "eventKo": "시에라가 창업 단 7분기 만에 연간 반복 매출(ARR) 1억 달러를 돌파했다."
+    },
+    {
+      "year": 2025,
+      "event": "Sierra raised $350 million at a $10 billion valuation, making Bavor a billionaire; the company surpassed $150 million in ARR.",
+      "eventKo": "시에라가 기업가치 100억 달러로 3억 5천만 달러를 조달하며 바보어는 억만장자 반열에 올랐고, ARR은 1억 5천만 달러를 돌파했다."
+    }
+  ],
+  "failures": [
+    {
+      "year": 2017,
+      "description": "Google Daydream VR, which Bavor championed, failed to gain mainstream consumer adoption and was discontinued in 2019. Despite significant investment, the hardware and ecosystem could not compete with standalone headsets.",
+      "descriptionKo": "바보어가 주도한 구글 데이드림 VR은 대중 소비자 시장에서 반응을 얻지 못하고 2019년 서비스가 종료됐다. 상당한 투자에도 불구하고 독립형 헤드셋과의 경쟁에서 밀렸다.",
+      "lesson": "Platform timing and ecosystem development are as critical as the underlying technology; a great product cannot succeed without the right market readiness.",
+      "lessonKo": "플랫폼의 타이밍과 생태계 구축은 기반 기술만큼이나 중요하다. 아무리 훌륭한 제품도 시장 준비가 안 된 상황에서는 성공할 수 없다."
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2015, "netWorth": 0.05 },
+    { "year": 2020, "netWorth": 0.1 },
+    { "year": 2023, "netWorth": 0.2 },
+    { "year": 2024, "netWorth": 1.0 },
+    { "year": 2025, "netWorth": 2.5 }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Known as one of Silicon Valley's most creative product leaders, credited with launching Google's AR/VR ambitions and later building Sierra into one of the fastest-growing AI startups of 2024–2025. He is respected for his ability to combine deep technical vision with consumer product intuition.",
+    "knownForKo": "구글의 AR/VR 야망을 현실화하고 이후 시에라를 2024~2025년 가장 빠르게 성장하는 AI 스타트업 중 하나로 키운 실리콘밸리 최고의 창의적 프로덕트 리더로 평가받는다. 깊은 기술적 비전과 소비자 제품 직관을 결합하는 능력으로 존경받는다.",
+    "philanthropy": "Focused primarily on company building during startup phase; broader philanthropic activities not yet widely publicised.",
+    "philanthropyKo": "스타트업 단계에서 주로 회사 구축에 집중하고 있으며, 광범위한 자선 활동은 아직 널리 알려지지 않았다."
+  },
+  "sajuConnection": null
+}

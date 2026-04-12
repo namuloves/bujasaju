@@ -1,0 +1,89 @@
+{
+  "id": "320",
+  "name": "Josh Harris",
+  "childhood": {
+    "birthPlace": "Chevy Chase, Maryland, USA",
+    "birthPlaceKo": "미국 메릴랜드주 체비체이스",
+    "familyBackground": "Born into a middle-class family in the Washington D.C. suburbs. Father was a general partner at a small real estate firm.",
+    "familyBackgroundKo": "워싱턴 D.C. 교외의 중산층 가정에서 태어남. 아버지는 소규모 부동산 회사의 총괄 파트너.",
+    "education": "BA from University of Pennsylvania's Wharton School. MBA from Harvard Business School.",
+    "educationKo": "펜실베이니아 대학교 와튼 스쿨 학사. 하버드 경영대학원 MBA.",
+    "earlyLife": "Showed early aptitude for numbers and finance. Was competitive in academics from a young age.",
+    "earlyLifeKo": "어릴 때부터 숫자와 금융에 뛰어난 적성. 어린 나이부터 학업에서 경쟁적.",
+    "source": "Wikipedia, Forbes"
+  },
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "event": "Co-founded Apollo Global Management with Leon Black and Marc Rowan",
+      "eventKo": "리언 블랙, 마크 로완과 함께 아폴로 글로벌 매니지먼트 공동 설립"
+    },
+    {
+      "year": 2011,
+      "event": "Apollo went public on the New York Stock Exchange",
+      "eventKo": "아폴로 뉴욕증권거래소 상장"
+    },
+    {
+      "year": 2019,
+      "event": "Purchased the New Jersey Devils NHL team",
+      "eventKo": "뉴저지 데빌스 NHL 팀 인수"
+    },
+    {
+      "year": 2023,
+      "event": "Led consortium to purchase the Washington Commanders NFL team for $6.05 billion",
+      "eventKo": "워싱턴 커맨더스 NFL 팀을 60억 5천만 달러에 인수하는 컨소시엄 주도"
+    },
+    {
+      "year": 2024,
+      "event": "Apollo's assets under management exceeded $700 billion",
+      "eventKo": "아폴로 운용 자산 7,000억 달러 초과"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2021,
+      "description": "Stepped down as Apollo co-chair amid controversy over Leon Black's ties to Jeffrey Epstein",
+      "descriptionKo": "리언 블랙의 제프리 엡스타인 연관 논란 속 아폴로 공동 회장직에서 물러남",
+      "lesson": "Leadership transitions require careful management of reputational risks",
+      "lessonKo": "리더십 전환에는 평판 리스크의 신중한 관리가 필요",
+      "source": "New York Times"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 3.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 5.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 7.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 10.0
+    }
+  ],
+  "quotes": [
+    {
+      "text": "In private equity, you create value by making companies better, not just by financial engineering.",
+      "textKo": "사모펀드에서는 금융 공학이 아니라 기업을 더 좋게 만들어 가치를 창출한다.",
+      "context": "On private equity philosophy",
+      "contextKo": "사모펀드 철학에 대해",
+      "source": "Bloomberg"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Co-founding Apollo Global Management, one of the world's largest private equity firms, and owning multiple professional sports teams",
+    "knownForKo": "세계 최대 사모펀드 중 하나인 아폴로 글로벌 매니지먼트 공동 설립, 다수의 프로 스포츠팀 소유",
+    "philanthropy": "Major donor to the University of Pennsylvania, Harvard, and various arts organizations.",
+    "philanthropyKo": "펜실베이니아 대학교, 하버드, 다양한 예술 단체에 주요 기부자."
+  }
+}

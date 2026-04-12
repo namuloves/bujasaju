@@ -1,0 +1,88 @@
+{
+  "id": "181",
+  "name": "Wang Weixiu",
+  "childhood": {
+    "birthPlace": "Suzhou, Jiangsu, China",
+    "birthPlaceKo": "중국 장쑤성 쑤저우",
+    "familyBackground": "Born into a modest family in Jiangsu province. Self-made entrepreneur who rose during China's economic reform era.",
+    "familyBackgroundKo": "장쑤성의 소박한 가정에서 태어남. 중국 경제 개혁 시대에 부상한 자수성가 기업가.",
+    "education": "Limited formal education. Learned business through hands-on experience.",
+    "educationKo": "정규 교육이 제한적. 실무 경험을 통해 사업 학습.",
+    "earlyLife": "Grew up during China's Cultural Revolution period, facing economic hardship.",
+    "earlyLifeKo": "중국 문화대혁명 시기에 성장하며 경제적 어려움 직면.",
+    "source": "Forbes, Zhongji Innolight"
+  },
+  "careerTimeline": [
+    {
+      "year": 1985,
+      "event": "Started small business ventures during China's economic opening",
+      "eventKo": "중국 경제 개방 시기에 소규모 사업 시작"
+    },
+    {
+      "year": 2000,
+      "event": "Founded Zhongji Innolight, focusing on optical communication components",
+      "eventKo": "광통신 부품에 집중하는 중지이노라이트 설립"
+    },
+    {
+      "year": 2010,
+      "event": "Zhongji Innolight became a major supplier of optical transceivers for data centers",
+      "eventKo": "중지이노라이트가 데이터센터용 광 트랜시버의 주요 공급업체로 성장"
+    },
+    {
+      "year": 2017,
+      "event": "Zhongji Innolight listed on the Shenzhen Stock Exchange",
+      "eventKo": "중지이노라이트 선전증권거래소 상장"
+    },
+    {
+      "year": 2023,
+      "event": "AI boom drove massive demand for optical transceivers, dramatically increasing company value",
+      "eventKo": "AI 붐이 광 트랜시버에 대한 폭발적 수요를 유발, 기업 가치 극적 상승"
+    },
+    {
+      "year": 2025,
+      "event": "Zhongji Innolight became the world's largest producer of optical transceivers",
+      "eventKo": "중지이노라이트가 세계 최대 광 트랜시버 생산업체로 부상"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2018,
+      "description": "US-China trade tensions threatened supply chains for optical components",
+      "descriptionKo": "미중 무역 갈등이 광부품 공급망을 위협",
+      "lesson": "Geopolitical risks require supply chain diversification",
+      "lessonKo": "지정학적 리스크에는 공급망 다각화가 필요",
+      "source": "Bloomberg"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2020,
+      "netWorth": 2.0
+    },
+    {
+      "year": 2023,
+      "netWorth": 8.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 15.1
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The future of communication is light. We are building that future.",
+      "textKo": "통신의 미래는 빛이다. 우리는 그 미래를 구축하고 있다.",
+      "context": "On optical communication technology",
+      "contextKo": "광통신 기술에 대해",
+      "source": "Zhongji Innolight"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Building the world's largest optical transceiver company, critical infrastructure for AI and data centers",
+    "knownForKo": "AI와 데이터센터의 핵심 인프라인 세계 최대 광 트랜시버 회사 구축"
+  }
+}

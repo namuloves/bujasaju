@@ -1,0 +1,92 @@
+{
+  "id": "209",
+  "name": "Igor Bukhman",
+  "childhood": {
+    "birthPlace": "Vologda, Russia (USSR)",
+    "birthPlaceKo": "소련(러시아) 볼로그다",
+    "familyBackground": "Born in the Soviet Union. Grew up with his brother Dmitry. Both brothers showed early interest in computers and programming.",
+    "familyBackgroundKo": "소련에서 태어남. 형제 드미트리와 함께 성장. 두 형제 모두 어릴 때부터 컴퓨터와 프로그래밍에 관심.",
+    "education": "Studied computer science in Russia.",
+    "educationKo": "러시아에서 컴퓨터 과학 전공.",
+    "earlyLife": "Grew up during the collapse of the Soviet Union. Both brothers used their programming skills to build early software businesses.",
+    "earlyLifeKo": "소련 붕괴 시기에 성장. 두 형제 모두 프로그래밍 기술로 초기 소프트웨어 사업 구축.",
+    "source": "Wikipedia, Forbes"
+  },
+  "careerTimeline": [
+    {
+      "year": 2004,
+      "event": "Co-founded Playrix with brother Dmitry, initially making casual PC games",
+      "eventKo": "형제 드미트리와 함께 처음에 캐주얼 PC 게임을 만드는 플레이릭스 공동 설립"
+    },
+    {
+      "year": 2010,
+      "event": "Pivoted to mobile gaming, launching Township and Fishdom",
+      "eventKo": "모바일 게임으로 전환, 타운십과 피쉬돔 출시"
+    },
+    {
+      "year": 2016,
+      "event": "Gardenscapes became a global hit, generating billions in revenue",
+      "eventKo": "가든스케이프가 글로벌 히트작으로 수십억 달러 매출 창출"
+    },
+    {
+      "year": 2019,
+      "event": "Playrix became one of the top 5 mobile game companies worldwide",
+      "eventKo": "플레이릭스가 세계 5대 모바일 게임 회사 중 하나로 성장"
+    },
+    {
+      "year": 2021,
+      "event": "Moved operations to Israel; Playrix valued at over $30 billion",
+      "eventKo": "이스라엘로 사업 이전; 플레이릭스 300억 달러 이상 가치 평가"
+    },
+    {
+      "year": 2024,
+      "event": "Playrix games surpassed 3 billion total downloads worldwide",
+      "eventKo": "플레이릭스 게임이 전 세계 총 30억 다운로드 돌파"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2022,
+      "description": "Russia-Ukraine war forced relocation of many Russian-based employees",
+      "descriptionKo": "러시아-우크라이나 전쟁으로 많은 러시아 기반 직원 재배치 불가피",
+      "lesson": "Geographic concentration of talent creates geopolitical risk",
+      "lessonKo": "인재의 지리적 집중이 지정학적 리스크를 만듦",
+      "source": "Reuters"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2019,
+      "netWorth": 4.0
+    },
+    {
+      "year": 2021,
+      "netWorth": 10.4
+    },
+    {
+      "year": 2023,
+      "netWorth": 8.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 13.6
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We focus on making games that people love to play every day. That's our only secret.",
+      "textKo": "우리는 사람들이 매일 즐겨 하는 게임을 만드는 데 집중한다. 그것이 우리의 유일한 비밀이다.",
+      "context": "On game development",
+      "contextKo": "게임 개발에 대해",
+      "source": "TechCrunch"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Building Playrix from a small Russian studio into one of the world's largest mobile gaming companies with hits like Gardenscapes and Township",
+    "knownForKo": "작은 러시아 스튜디오에서 가든스케이프와 타운십 같은 히트작으로 세계 최대 모바일 게임 회사 중 하나인 플레이릭스 구축"
+  }
+}
