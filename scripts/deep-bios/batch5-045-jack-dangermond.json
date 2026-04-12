@@ -1,0 +1,124 @@
+{
+  "id": "189",
+  "name": "Jack Dangermond",
+  "nameKo": "잭 데인저몬드",
+  "netWorth": "$13.9B",
+  "nationality": "US",
+  "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Redlands, California, United States",
+    "birthPlaceKo": "미국 캘리포니아주 레들랜즈",
+    "familyBackground": "Born to Dutch immigrant parents, Peter Dangermond Sr. and Alice Meines, who owned a plant nursery in Redlands. His early experiences nurturing plants and learning about ecosystems laid the groundwork for his future in environmental science and geographic technology.",
+    "familyBackgroundKo": "네덜란드 이민자 부모인 피터 데인저몬드 시니어와 앨리스 마이네스 사이에서 태어났다. 부모는 레들랜즈에서 식물 묘목장을 운영했으며, 어린 시절 식물을 가꾸고 생태계를 배운 경험이 환경 과학과 지리 기술 분야의 미래 기반이 되었다.",
+    "education": "Graduated from Redlands High School (1963). B.S. in Landscape Architecture from California State Polytechnic University, Pomona. Master in Urban Planning from the University of Minnesota. Master of Landscape Architecture from Harvard Graduate School of Design (1969).",
+    "educationKo": "레들랜즈 고등학교 졸업(1963). 캘리포니아 주립 폴리테크닉 대학교 포모나에서 조경학 학사. 미네소타 대학교에서 도시 계획 석사. 하버드 대학원 디자인 스쿨에서 조경학 석사(1969).",
+    "earlyLife": "Born in 1945, Jack Dangermond grew up in Redlands, California, surrounded by nature at his family's plant nursery. This experience fostered a deep connection to the environment that would define his career. At Harvard's Graduate School of Design, he worked in the Laboratory for Computer Graphics and Spatial Analysis (LCGSA), where he first saw the potential of using computers to analyze geographic information—an insight that directly led to the creation of Esri.",
+    "earlyLifeKo": "1945년에 태어난 잭 데인저몬드는 캘리포니아주 레들랜즈의 가족 묘목장에서 자연에 둘러싸여 성장했다. 이 경험은 그의 경력을 정의하게 될 환경에 대한 깊은 유대감을 키워주었다. 하버드 디자인대학원의 컴퓨터 그래픽 및 공간 분석 연구소(LCGSA)에서 근무하면서 컴퓨터를 활용한 지리 정보 분석의 가능성을 처음 발견했고, 이 통찰이 에스리(Esri) 창립으로 직접 이어졌다.",
+    "source": "Wikipedia, Esri.com, Mongabay"
+  },
+  "careerTimeline": [
+    {
+      "year": 1969,
+      "event": "Co-founded Environmental Systems Research Institute (Esri) with wife Laura as a small land-use consulting firm in Redlands, California",
+      "eventKo": "아내 로라와 함께 캘리포니아 레들랜즈에서 소규모 토지 이용 컨설팅 회사로 환경시스템연구소(Esri) 공동 설립"
+    },
+    {
+      "year": 1981,
+      "event": "Launched ARC/INFO, the first commercial GIS software, revolutionizing geographic information systems",
+      "eventKo": "최초의 상용 GIS 소프트웨어인 ARC/INFO를 출시하여 지리 정보 시스템 혁명을 일으킴"
+    },
+    {
+      "year": 1999,
+      "event": "Released ArcGIS, which became the industry-standard GIS platform used by governments and organizations worldwide",
+      "eventKo": "전 세계 정부와 기관에서 사용하는 업계 표준 GIS 플랫폼 ArcGIS 출시"
+    },
+    {
+      "year": 2010,
+      "event": "Esri surpassed $1 billion in annual revenue, dominating the global GIS market",
+      "eventKo": "Esri의 연간 매출이 10억 달러를 돌파하며 글로벌 GIS 시장 석권"
+    },
+    {
+      "year": 2017,
+      "event": "With wife Laura, donated $165 million to The Nature Conservancy to establish the Jack and Laura Dangermond Preserve—the largest gift in TNC's history",
+      "eventKo": "아내 로라와 함께 네이처 컨서번시에 1억 6,500만 달러를 기부하여 잭 앤 로라 데인저몬드 보호구역 설립—TNC 역사상 최대 기부"
+    },
+    {
+      "year": 2019,
+      "event": "Esri celebrated its 50th anniversary with over 350,000 organizations using its software worldwide",
+      "eventKo": "Esri가 창립 50주년을 맞이, 전 세계 35만 개 이상의 기관이 소프트웨어 사용"
+    },
+    {
+      "year": 2024,
+      "event": "Continued leading Esri as president, integrating AI and real-time data into the GIS platform",
+      "eventKo": "사장으로서 Esri를 계속 이끌며 AI와 실시간 데이터를 GIS 플랫폼에 통합"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1969,
+      "description": "Starting Esri as a tiny consulting firm with minimal resources, Dangermond and his wife struggled in the early years to convince clients and institutions that computer-based geographic analysis had practical value.",
+      "descriptionKo": "최소한의 자원으로 소규모 컨설팅 회사로 Esri를 시작한 데인저몬드와 아내는 초기에 컴퓨터 기반 지리 분석이 실용적 가치가 있다고 고객과 기관을 설득하는 데 어려움을 겪었다.",
+      "lesson": "Patience and long-term vision proved essential. By staying private and reinvesting profits into R&D rather than seeking outside investors, Esri maintained independence and built a sustainable business.",
+      "lessonKo": "인내와 장기적 비전이 필수적임을 증명했다. 외부 투자자를 찾는 대신 비공개 상태를 유지하고 수익을 R&D에 재투자함으로써 독립성을 유지하고 지속 가능한 사업을 구축했다.",
+      "source": "Mongabay, Wikipedia"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 5.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 7.3
+    },
+    {
+      "year": 2023,
+      "netWorth": 10.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 13.9
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Geography organizes everything we know—all our experiences. This magical word 'where' is an extraordinary word because it connects all of humanity to all the science.",
+      "textKo": "지리학은 우리가 아는 모든 것, 모든 경험을 조직한다. '어디'라는 마법의 단어는 모든 인류를 모든 과학과 연결하는 비범한 단어이다.",
+      "context": "On the fundamental importance of geographic thinking and spatial analysis",
+      "contextKo": "지리적 사고와 공간 분석의 근본적 중요성에 대해",
+      "source": "Mongabay interview"
+    },
+    {
+      "text": "People and planet are inextricably linked.",
+      "textKo": "사람과 지구는 분리할 수 없이 연결되어 있다.",
+      "context": "Core philosophy underlying Esri's mission to use GIS for environmental understanding and conservation",
+      "contextKo": "환경 이해와 보전을 위해 GIS를 활용하려는 Esri의 사명을 뒷받침하는 핵심 철학",
+      "source": "Mongabay interview (2020)"
+    },
+    {
+      "text": "GIS is a sort of intelligent nervous system for our planet at a time when humanity desperately needs one to address the environmental and humanitarian crises at hand.",
+      "textKo": "GIS는 인류가 환경 및 인도주의 위기에 대처하기 위해 절실히 필요한 시점에 지구를 위한 일종의 지능형 신경계이다.",
+      "context": "Describing the role of GIS technology in addressing global challenges",
+      "contextKo": "글로벌 과제 해결에서 GIS 기술의 역할을 설명하며",
+      "source": "Mongabay interview"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Pioneering the field of geographic information systems (GIS), building Esri into the world's dominant GIS software company while keeping it privately held for over 55 years. Known for his deep commitment to environmental conservation and scientific rigor.",
+    "knownForKo": "지리 정보 시스템(GIS) 분야를 개척하고, 55년 이상 비공개 기업으로 유지하면서 Esri를 세계 최고의 GIS 소프트웨어 회사로 성장시켰다. 환경 보전과 과학적 엄격함에 대한 깊은 헌신으로 유명하다.",
+    "philanthropy": "Donated $165 million in 2017 for the Jack and Laura Dangermond Preserve through The Nature Conservancy. Provides discounted and free Esri software to environmental nonprofits. Received the Audubon Medal for conservation efforts.",
+    "philanthropyKo": "2017년 네이처 컨서번시를 통해 잭 앤 로라 데인저몬드 보호구역에 1억 6,500만 달러를 기부했다. 환경 비영리 단체에 할인 및 무료 Esri 소프트웨어를 제공한다. 보전 노력으로 오듀본 메달을 수상했다.",
+    "controversies": "Esri's dominant market position in GIS has occasionally drawn criticism about lack of competition and vendor lock-in. Some have questioned whether a private company should control such critical infrastructure.",
+    "controversiesKo": "Esri의 GIS 시장 지배적 위치가 경쟁 부족과 벤더 종속에 대한 비판을 받기도 했다. 일부는 하나의 비공개 기업이 그러한 핵심 인프라를 통제해야 하는지에 대해 의문을 제기했다."
+  },
+  "sajuConnection": null
+}

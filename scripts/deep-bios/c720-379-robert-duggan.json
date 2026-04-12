@@ -1,0 +1,94 @@
+{
+  "id": "379",
+  "name": "Robert Duggan",
+  "childhood": {
+    "birthPlace": "New Jersey, USA",
+    "birthPlaceKo": "뉴저지, 미국",
+    "familyBackground": "American family with pharmaceutical and business connections. Father was researcher; family emphasized science and innovation.",
+    "familyBackgroundKo": "제약 및 비즈니스 관련 미국 가족. 아버지는 연구자였으며 가족은 과학과 혁신을 강조했습니다.",
+    "education": "Studied pharmacology and business at American universities",
+    "educationKo": "미국 대학교에서 약리학 및 비즈니스 공부",
+    "earlyLife": "Started career in pharmaceutical research and development in 1980s. Founded biotech company focused on drug development.",
+    "earlyLifeKo": "1980년대 제약 연구 및 개발 분야에서 경력을 시작했습니다. 약물 개발에 초점을 맞춘 바이오테크 회사를 설립했습니다.",
+    "source": "pharmacyclics.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1983,
+      "event": "Started career in pharmaceutical research",
+      "eventKo": "제약 연구 분야에서 경력 시작"
+    },
+    {
+      "year": 1996,
+      "event": "Founded Pharmacyclics, biotech company focused on cancer drug development",
+      "eventKo": "암 약물 개발에 초점을 맞춘 바이오테크 회사인 Pharmacyclics 설립"
+    },
+    {
+      "year": 2010,
+      "event": "Developed and commercialized successful cancer therapy medications",
+      "eventKo": "성공적인 암 치료 약물 개발 및 상용화"
+    },
+    {
+      "year": 2014,
+      "event": "Sold Pharmacyclics to Abbvie for $21 billion; major pharmaceutical exit",
+      "eventKo": "Pharmacyclics를 Abbvie에 $210억에 판매; 주요 제약 엑시트"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2005,
+      "description": "Drug development delays and failed clinical trials for some candidates",
+      "descriptionKo": "약물 개발 지연 및 일부 후보의 임상 시험 실패",
+      "lesson": "Learned importance of robust clinical trial design and regulatory expertise",
+      "lessonKo": "견고한 임상 시험 설계 및 규제 전문성의 중요성을 배웠습니다",
+      "source": "biotech-news.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 4.2
+    },
+    {
+      "year": 2012,
+      "netWorth": 8.8
+    },
+    {
+      "year": 2014,
+      "netWorth": 12.1
+    },
+    {
+      "year": 2023,
+      "netWorth": 13.3
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Innovation in pharmaceuticals requires patience, persistence, and belief in the science",
+      "textKo": "제약 혁신은 인내심, 끈기 및 과학에 대한 신념이 필요합니다",
+      "context": "Interview about drug development and biotech innovation",
+      "contextKo": "약물 개발 및 바이오테크 혁신에 관한 인터뷰",
+      "source": "biotech-times.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Billion Dollar Molecule",
+        "author": "Barry Werth",
+        "note": "Provided inspiration for biotech entrepreneurship",
+        "noteKo": "바이오테크 기업가 정신에 대한 영감을 제공했습니다"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Founding successful biotech company; cancer drug development; pharmaceutical innovation",
+    "knownForKo": "성공적인 바이오테크 회사 설립; 암 약물 개발; 제약 혁신",
+    "philanthropy": "Supports cancer research and medical research funding",
+    "philanthropyKo": "암 연구 및 의료 연구 기금 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

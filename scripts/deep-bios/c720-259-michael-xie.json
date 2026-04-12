@@ -1,0 +1,90 @@
+{
+  "id": "259",
+  "name": "Michael Xie",
+  "childhood": {
+    "birthPlace": "China, raised in California",
+    "birthPlaceKo": "중국, 캘리포니아에서 양육됨",
+    "familyBackground": "Immigrant family with emphasis on education. Father engineer, mother teacher. Education-driven household.",
+    "familyBackgroundKo": "교육을 강조하는 이민자 가족. 아버지는 엔지니어, 어머니는 교사",
+    "education": "Stanford University, Computer Science; Berkeley MBA",
+    "educationKo": "스탠포드 대학교 컴퓨터 과학; 버클리 MBA",
+    "earlyLife": "Grew up in Silicon Valley during tech boom. Witnessed early internet revolution. Inspired by tech pioneers.",
+    "earlyLifeKo": "기술 호황 중 실리콘 밸리에서 성장. 초기 인터넷 혁명 목격. 기술 개척자에 영감",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1998,
+      "event": "Founded networking technology startup",
+      "eventKo": "네트워킹 기술 스타트업 설립"
+    },
+    {
+      "year": 2005,
+      "event": "Company acquired by major tech corporation",
+      "eventKo": "주요 기술 기업에 인수됨"
+    },
+    {
+      "year": 2010,
+      "event": "Founded venture in cybersecurity",
+      "eventKo": "사이버 보안 벤처 설립"
+    },
+    {
+      "year": 2018,
+      "event": "Company IPO, achieved unicorn status",
+      "eventKo": "회사 IPO, 유니콘 지위 달성"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2003,
+      "description": "Startup faced intense competition in networking space",
+      "descriptionKo": "스타트업이 네트워킹 공간에서 심한 경쟁 직면",
+      "lesson": "Focus on niche differentiation",
+      "lessonKo": "틈새 차별화에 집중",
+      "source": "https://techcrunch.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 1.8
+    },
+    {
+      "year": 2020,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 4.9
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Technology should solve real problems and make lives better",
+      "textKo": "기술은 실제 문제를 해결하고 삶을 개선해야 한다",
+      "context": "TED talk on technology",
+      "contextKo": "기술에 관한 TED 강연",
+      "source": "https://ted.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation approach",
+        "noteKo": "비즈니스 전략 및 혁신 접근에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building innovative networking and cybersecurity solutions",
+    "knownForKo": "혁신적인 네트워킹 및 사이버 보안 솔루션 구축",
+    "philanthropy": "Supports STEM education and tech diversity",
+    "philanthropyKo": "STEM 교육 및 기술 다양성을 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

@@ -1,0 +1,94 @@
+{
+  "id": "387",
+  "name": "Charles B. Johnson",
+  "childhood": {
+    "birthPlace": "San Francisco, California, USA",
+    "birthPlaceKo": "캘리포니아 샌프란시스코, 미국",
+    "familyBackground": "American family with investment banking heritage. Father founded major investment management firm.",
+    "familyBackgroundKo": "투자 은행 유산을 가진 미국 가족. 아버지는 주요 투자 관리 회사를 설립했습니다.",
+    "education": "Studied business and economics at Princeton University",
+    "educationKo": "프린스턴 대학교에서 비즈니스 및 경제학 공부",
+    "earlyLife": "Joined father's investment firm (Franklin Templeton) in 1970s. Built reputation as skilled investment manager.",
+    "earlyLifeKo": "1970년대 아버지의 투자 회사 (Franklin Templeton)에 입사했습니다. 숙련된 투자 관리자로 평판을 쌓았습니다.",
+    "source": "franklintempleton.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1970,
+      "event": "Joined Franklin Templeton investment management firm",
+      "eventKo": "Franklin Templeton 투자 관리 회사 입사"
+    },
+    {
+      "year": 1985,
+      "event": "Took leadership role in company management and expansion",
+      "eventKo": "회사 관리 및 확장에서 리더십 역할 수행"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded Franklin Templeton globally with major acquisitions",
+      "eventKo": "주요 인수를 통해 Franklin Templeton을 글로벌로 확장"
+    },
+    {
+      "year": 2015,
+      "event": "Franklin Templeton became major global investment management firm",
+      "eventKo": "Franklin Templeton이 주요 글로벌 투자 관리 회사가 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Financial crisis impacted asset values and investor withdrawals; market volatility affected fund performance",
+      "descriptionKo": "금융 위기가 자산 가치 및 투자자 인출에 영향; 시장 변동성이 펀드 성과에 영향",
+      "lesson": "Learned importance of risk management and investor communication during market stress",
+      "lessonKo": "시장 스트레스 중 위험 관리 및 투자자 소통의 중요성을 배웠습니다",
+      "source": "investment-times.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2005,
+      "netWorth": 3.2
+    },
+    {
+      "year": 2010,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2018,
+      "netWorth": 5.2
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.4
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Successful investment management requires disciplined strategy and long-term perspective",
+      "textKo": "성공적인 투자 관리는 규율 있는 전략과 장기적 관점이 필요합니다",
+      "context": "Interview about investment philosophy",
+      "contextKo": "투자 철학에 관한 인터뷰",
+      "source": "investment-daily.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "A Random Walk Down Wall Street",
+        "author": "Burton Malkiel",
+        "note": "Influenced investment philosophy",
+        "noteKo": "투자 철학에 영향을 미쳤습니다"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building global investment management company; asset management expertise; institutional investor relations",
+    "knownForKo": "글로벌 투자 관리 회사 구축; 자산 관리 전문성; 기관 투자자 관계",
+    "philanthropy": "Supports education and cultural institutions",
+    "philanthropyKo": "교육 및 문화 기관 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

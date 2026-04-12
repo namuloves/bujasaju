@@ -1,0 +1,159 @@
+{
+  "id": "147",
+  "name": "Patrick Collison",
+  "nameKo": "패트릭 콜리슨",
+  "netWorth": "$17.5B",
+  "nationality": "IE",
+  "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Limerick, Ireland",
+    "birthPlaceKo": "리머릭, 아일랜드",
+    "familyBackground": "Born on September 9, 1988, to Lily, a microbiologist, and Denis Collison, an electronic engineer. Eldest of three brothers, raised in the small village of Dromineer in County Tipperary.",
+    "familyBackgroundKo": "1988년 9월 9일 미생물학자 릴리와 전자공학 엔지니어 데니스 콜리슨의 아들로 태어남. 세 형제 중 맏형이며 팁퍼러리 주 드로미니어 마을에서 성장함.",
+    "education": "Took his first computer course at age 8 at University of Limerick. Began learning computer programming at age 10. Attended MIT but dropped out in 2009 to focus on Stripe.",
+    "educationKo": "8세 때 리머릭 대학교에서 첫 컴퓨터 과정을 수강함. 10세 때 컴퓨터 프로그래밍 학습 시작. MIT에 다녔으나 Stripe에 집중하기 위해 2009년 중퇴함.",
+    "earlyLife": "Patrick demonstrated exceptional technical talent from an early age. He won first place at the Young Scientist and Technology Exhibition at age 16 in 2005 with his project Croma, a LISP-type programming language. At age 8, he took his first computer course, and by age 10, he was already learning programming. His early success in competitions and technical pursuits set the foundation for his later entrepreneurial ventures.",
+    "earlyLifeKo": "패트릭은 어린 시절부터 탁월한 기술적 재능을 보였음. 2005년 16세에 LISP 타입 프로그래밍 언어인 Croma 프로젝트로 청소년 과학 기술 전시회에서 1위 수상. 8세에 첫 컴퓨터 과정을 수강했고, 10세에 이미 프로그래밍을 학습하고 있었음. 경연대회에서의 초기 성공과 기술적 추구가 나중의 기업가 활동의 기초를 마련함.",
+    "source": "Wikipedia, Crunchbase, Stripe Sessions"
+  },
+  "careerTimeline": [
+    {
+      "year": 2005,
+      "event": "Won first place at the Young Scientist and Technology Exhibition at age 16 with Croma, a LISP-type programming language project",
+      "eventKo": "LISP 타입 프로그래밍 언어인 Croma 프로젝트로 16세 때 청소년 과학 기술 전시회 1위 수상"
+    },
+    {
+      "year": 2007,
+      "event": "Co-founded Shuppa with brother John in Limerick, an e-commerce platform for selling goods online",
+      "eventKo": "형 존과 함께 리머릭에서 온라인 상품 판매 플랫폼 Shuppa 공동 창업"
+    },
+    {
+      "year": 2008,
+      "event": "Co-founded Auctomatic, an eBay seller management tool; sold to Live Current Media for $5 million at age 19",
+      "eventKo": "이베이 판매자 관리 도구 Auctomatic 공동 창업; 19세 때 Live Current Media에 500만 달러에 판매"
+    },
+    {
+      "year": 2009,
+      "event": "Dropped out of MIT to focus on building payment infrastructure for the internet",
+      "eventKo": "인터넷을 위한 결제 인프라 구축에 집중하기 위해 MIT 중퇴"
+    },
+    {
+      "year": 2010,
+      "event": "Co-founded Stripe with brother John to simplify online payment processing; focused on making credit card acceptance as easy as possible",
+      "eventKo": "형 존과 함께 온라인 결제 처리를 간소화하는 Stripe 공동 창업; 신용카드 수용을 최대한 간단하게 만드는 데 중점"
+    },
+    {
+      "year": 2011,
+      "event": "Secured $2 million seed funding from Peter Thiel, Elon Musk, Sequoia Capital, and others at $20 million valuation",
+      "eventKo": "피터 틸, 엘론 머스크, Sequoia Capital 등으로부터 200만 달러 시드 펀딩 확보, 2,000만 달러 기업가치"
+    },
+    {
+      "year": 2012,
+      "event": "Led Series A funding round of $18 million; company valued at $100 million",
+      "eventKo": "1,800만 달러 Series A 펀딩 라운드 주도; 기업가치 1억 달러"
+    },
+    {
+      "year": 2014,
+      "event": "Stripe expanded globally; raised $70 million in Series C funding at $1.75 billion valuation",
+      "eventKo": "Stripe 글로벌 확장; Series C 펀딩 7,000만 달러 조달, 기업가치 17억 5,000만 달러"
+    },
+    {
+      "year": 2016,
+      "event": "Became world's youngest self-made billionaire along with brother John after Stripe valued at $9.2 billion",
+      "eventKo": "형 존과 함께 Stripe가 92억 달러로 평가된 후 세계 최연소 자수성가 억만장자 달성"
+    },
+    {
+      "year": 2020,
+      "event": "Founded Fast Grants with economist Tyler Cowen to fund COVID-19 related scientific research",
+      "eventKo": "경제학자 타일러 코웬과 함께 COVID-19 관련 과학 연구를 지원하는 Fast Grants 설립"
+    },
+    {
+      "year": 2022,
+      "event": "Married biochemist and Stanford professor Silvana Konermann; co-founded Arc Institute for human longevity research",
+      "eventKo": "스탠포드 대학 생화학자 실바나 코네르만과 결혼; 인간 수명 연구를 위한 Arc Institute 공동 설립"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2007,
+      "description": "Shuppa struggled to secure funding in Ireland; Enterprise Ireland rejected their funding application, forcing them to seek opportunities abroad",
+      "descriptionKo": "Shuppa는 아일랜드에서 자금 확보에 어려움을 겪음; 아일랜드 공사가 자금 지원을 거부하여 해외에서 기회를 찾도록 강요함",
+      "lesson": "Recognized that geographic location matters significantly for startups and moved to Silicon Valley where venture capital was more accessible",
+      "lessonKo": "스타트업에는 지리적 위치가 매우 중요하다는 점을 인식하고 벤처캐피털에 더 쉽게 접근할 수 있는 실리콘밸리로 이주함",
+      "source": "KITRUM, Stripe history"
+    },
+    {
+      "year": 2022,
+      "description": "Stripe grew operating costs too aggressively and became overly optimistic about internet economy growth, leading to operational inefficiencies",
+      "descriptionKo": "Stripe는 운영 비용을 너무 공격적으로 증가시켰고 인터넷 경제 성장에 대해 과도하게 낙관적이 되어 운영 비효율을 초래함",
+      "lesson": "Need to balance growth ambitions with sustainable operations; importance of adapting spending to economic conditions and maintaining operational discipline",
+      "lessonKo": "성장 야망과 지속 가능한 운영 간의 균형 유지 필요; 경제 상황에 맞춰 지출을 조정하고 운영 규율을 유지하는 것의 중요성",
+      "source": "High Growth Handbook, Stripe Sessions"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2008,
+      "netWorth": 0.005
+    },
+    {
+      "year": 2011,
+      "netWorth": 0.06
+    },
+    {
+      "year": 2012,
+      "netWorth": 0.3
+    },
+    {
+      "year": 2014,
+      "netWorth": 5.25
+    },
+    {
+      "year": 2015,
+      "netWorth": 15
+    },
+    {
+      "year": 2016,
+      "netWorth": 17.5
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Stripe's mission is to grow the GDP of the internet",
+      "textKo": "Stripe의 미션은 인터넷의 GDP를 성장시키는 것입니다",
+      "context": "Explaining Stripe's core mission and vision for the global digital economy",
+      "contextKo": "글로벌 디지털 경제에 대한 Stripe의 핵심 미션과 비전을 설명할 때",
+      "source": "Stripe website and interviews"
+    },
+    {
+      "text": "Because Stripe's domain is really complicated and the details really matter, if we make a mistake—just one mistake—there's a very good chance that somebody's paycheck is wrong",
+      "textKo": "Stripe의 영역은 정말 복잡하고 세부 사항이 정말 중요하기 때문에, 우리가 실수를 하면(단 하나의 실수라도) 누군가의 급여가 잘못될 가능성이 매우 높습니다",
+      "context": "On the importance of prizing small details in company culture",
+      "contextKo": "회사 문화에서 작은 세부 사항을 중시하는 것의 중요성에 대해 설명할 때",
+      "source": "UC Berkeley Haas Culture Kit Podcast"
+    },
+    {
+      "text": "One of the important lessons of the Internet is, how easy it is to get things done completely shapes what gets created",
+      "textKo": "인터넷의 중요한 교훈 중 하나는 일을 얼마나 쉽게 할 수 있는지가 무엇이 창출되는지를 완전히 형성한다는 것입니다",
+      "context": "On how ease of use drives innovation and creation on the internet",
+      "contextKo": "사용의 용이성이 인터넷에서의 혁신과 창조를 어떻게 주도하는지에 대해",
+      "source": "Stripe sessions and interviews"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "CEO and co-founder of Stripe; expertise in payment infrastructure and fintech; attention to detail in company culture; infrastructure investor; youngest self-made billionaire",
+    "knownForKo": "Stripe의 CEO이자 공동 창립자; 결제 인프라 및 핀테크 전문성; 회사 문화의 세부 사항 주의; 인프라 투자자; 최연소 자수성가 억만장자",
+    "philanthropy": "Co-founded Fast Grants with Tyler Cowen to fund COVID-19 scientific research; founded Arc Institute for human longevity research",
+    "philanthropyKo": "타일러 코웬과 함께 COVID-19 과학 연구 지원을 위해 Fast Grants 설립; 인간 수명 연구를 위한 Arc Institute 설립",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": {
+    "note": null,
+    "value": null
+  }
+}

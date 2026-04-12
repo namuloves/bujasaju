@@ -1,0 +1,122 @@
+{
+  "id": "146",
+  "name": "John Collison",
+  "nameKo": "존 콜리슨",
+  "netWorth": "$17.5B",
+  "nationality": "IE",
+  "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Limerick, Ireland",
+    "birthPlaceKo": "리머릭, 아일랜드",
+    "familyBackground": "Born to Lily, a microbiologist, and Denis Collison, an electronic engineer. Grew up in the small village of Dromineer in County Tipperary with two brothers.",
+    "familyBackgroundKo": "미생물학자인 릴리와 전자공학 엔지니어인 데니스 콜리슨의 아들로 태어남. 팁퍼러리 주 드로미니어 마을에서 형제 두 명과 함께 성장함.",
+    "education": "Attended Harvard University for Physics, where he studied while co-founding Stripe. Eventually dropped out to focus on the company.",
+    "educationKo": "하버드 대학교에서 물리학을 전공하며 Stripe를 형과 함께 창업. 나중에 회사에 집중하기 위해 중퇴함.",
+    "earlyLife": "From an early age, John showed a strong interest in computers, mathematics, and programming, with his parents encouraging curiosity and learning. In 2007, at age 17, he co-founded Shuppa with his elder brother Patrick. He and Patrick built Auctomatic, an eBay seller management tool funded by Y Combinator, which was acquired for $5 million in March 2008. This early success as a teenage millionaire shaped his entrepreneurial trajectory and led to founding Stripe in 2010.",
+    "earlyLifeKo": "어린 시절부터 컴퓨터, 수학, 프로그래밍에 강한 관심을 보였으며 부모님이 호기심과 학습을 장려했음. 2007년 17세 때 형 패트릭과 함께 Shuppa를 공동 창업함. 존과 패트릭은 Y Combinator의 자금 지원을 받은 이베이 판매자 관리 도구인 Auctomatic을 개발했고, 2008년 3월 500만 달러에 인수됨. 십대 때의 이러한 성공이 기업가로서의 궤적을 형성했고 2010년 Stripe 설립으로 이어짐.",
+    "source": "Wikipedia, Crunchbase, KITRUM"
+  },
+  "careerTimeline": [
+    {
+      "year": 2007,
+      "event": "Co-founded Shuppa with brother Patrick in Limerick, an early e-commerce platform",
+      "eventKo": "형 패트릭과 함께 리머릭에서 초기 전자상거래 플랫폼 Shuppa 공동 창업"
+    },
+    {
+      "year": 2008,
+      "event": "Co-founded Auctomatic, an eBay seller management tool, which was acquired for $5 million by Live Current Media",
+      "eventKo": "이베이 판매자 관리 도구 Auctomatic 공동 창업, Live Current Media에 500만 달러에 인수됨"
+    },
+    {
+      "year": 2010,
+      "event": "Co-founded Stripe with Patrick, focusing on simplifying online payment infrastructure for the internet",
+      "eventKo": "패트릭과 함께 온라인 결제 인프라를 단순화하는 Stripe 공동 창업"
+    },
+    {
+      "year": 2011,
+      "event": "Stripe raised $2 million in seed funding led by Peter Thiel, Elon Musk, and Sequoia Capital at $20 million valuation",
+      "eventKo": "피터 틸, 엘론 머스크, Sequoia Capital이 주도한 200만 달러 시드 펀딩 조달, 2,000만 달러 기업가치"
+    },
+    {
+      "year": 2012,
+      "event": "Stripe raised $18 million in Series A funding, valuing the company at $100 million; introduced Stripe Connect for multiparty payments",
+      "eventKo": "1,800만 달러 Series A 펀딩 조달, 기업가치 1억 달러; 다자간 결제 솔루션 Stripe Connect 출시"
+    },
+    {
+      "year": 2014,
+      "event": "Stripe raised $70 million in Series C funding, reaching $1.75 billion valuation",
+      "eventKo": "7,000만 달러 Series C 펀딩 조달, 기업가치 17억 5,000만 달러에 도달"
+    },
+    {
+      "year": 2015,
+      "event": "Stripe reached $5 billion valuation after new funding round",
+      "eventKo": "새로운 펀딩 라운드 후 기업가치 50억 달러 도달"
+    },
+    {
+      "year": 2016,
+      "event": "Became world's youngest self-made billionaire along with Patrick after Stripe valued at $9.2 billion; Forbes ranked them among the richest young people",
+      "eventKo": "Stripe가 92억 달러로 평가된 후 패트릭과 함께 세계 최연소 자수성가 억만장자 달성; Forbes가 가장 부유한 젊은 사람들 중 하나로 선정"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2007,
+      "description": "Shuppa faced difficulty attracting funding in Ireland; Enterprise Ireland denied them funding",
+      "descriptionKo": "Shuppa는 아일랜드에서 자금 유치에 어려움을 겪음; 아일랜드 공사가 자금을 거부함",
+      "lesson": "Recognized the need to relocate to Silicon Valley where venture capital and support for startups were more readily available",
+      "lessonKo": "벤처캐피털과 스타트업 지원이 더 쉽게 이용 가능한 실리콘밸리로 이주할 필요성을 인식함",
+      "source": "KITRUM, Patrick Collison Wikipedia"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2008,
+      "netWorth": 0.005
+    },
+    {
+      "year": 2011,
+      "netWorth": 0.06
+    },
+    {
+      "year": 2012,
+      "netWorth": 0.3
+    },
+    {
+      "year": 2014,
+      "netWorth": 5.25
+    },
+    {
+      "year": 2015,
+      "netWorth": 15
+    },
+    {
+      "year": 2016,
+      "netWorth": 17.5
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We're not a company that specializes in making beautiful cars — we make roads",
+      "textKo": "우리는 아름다운 자동차를 만드는 회사가 아닙니다. 우리는 도로를 만듭니다",
+      "context": "Describing Stripe's role as infrastructure for the internet economy",
+      "contextKo": "인터넷 경제의 인프라로서 Stripe의 역할을 설명할 때",
+      "source": "Stripe sessions and interviews"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Co-founder and President of Stripe; building online payment infrastructure; youngest self-made billionaire in 2016; detail-oriented approach to company culture",
+    "knownForKo": "Stripe의 공동 창립자이자 회장; 온라인 결제 인프라 구축; 2016년 세계 최연소 자수성가 억만장자; 회사 문화에 대한 세부 사항 지향적 접근",
+    "philanthropy": null,
+    "philanthropyKo": null,
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": {
+    "note": null,
+    "value": null
+  }
+}

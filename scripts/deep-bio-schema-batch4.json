@@ -1,0 +1,128 @@
+{
+  "$schema": "Deep biography schema for billionaire profiles on 부자사주 — BATCH 4 (Bilingual EN/KO)",
+  "$instructions": "For each billionaire listed below, research and fill in as many fields as possible. Use Wikipedia, Forbes, Bloomberg, and reliable news sources.\n\nCRITICAL RULES — read carefully, these caused problems in previous batches:\n\n1. BILINGUAL: Every text field must have BOTH English AND Korean versions. English fields keep their original names; Korean fields add a 'Ko' suffix (e.g., 'earlyLife' → 'earlyLifeKo'). Korean text must be natural, fluent Korean — not machine-translated.\n\n2. KOREAN ALIGNMENT: The 'eventKo' field MUST be the direct Korean translation of the 'event' field on THE SAME object. Never shift or reorder translations. If careerTimeline[2].event is about 1995, then careerTimeline[2].eventKo must also be about 1995. Check every item.\n\n3. WEALTH VALUES: All netWorth values in wealthHistory MUST be in BILLIONS USD. Write 24.5 not 24500000000. Double-check every number.\n\n4. IDs: The 'id' field in each output file MUST exactly match the 'id' shown in the targetList below. This is how the app links the bio to the correct person. Wrong IDs cause the wrong bio to appear under the wrong person.\n\n5. FILES: Save each file in scripts/deep-bios/ using the exact filename shown in the targetList.\n\n6. UNKNOWN INFO: If information is not publicly available (especially for low-profile or private individuals), leave that field as null or an empty array. Do not invent facts.\n\n7. QUOTES: Only include real, verifiable quotes with a source. Do not fabricate quotes.",
+
+  "outputSchema": {
+    "id": "string — must match targetList exactly",
+    "name": "string",
+
+    "childhood": {
+      "birthPlace": "City, Country in English",
+      "birthPlaceKo": "도시, 국가 (한국어)",
+      "familyBackground": "Family background in English",
+      "familyBackgroundKo": "가정 배경 (한국어)",
+      "education": "Education history in English",
+      "educationKo": "학력 (한국어)",
+      "earlyLife": "2–4 sentences about early life and formative experiences in English",
+      "earlyLifeKo": "성장 과정 2–4문장 (한국어)",
+      "source": "Wikipedia, Forbes, etc."
+    },
+
+    "careerTimeline": [
+      { "year": 1990, "event": "English description of the event", "eventKo": "동일한 이벤트의 한국어 번역 — 반드시 같은 연도의 같은 이벤트여야 함" }
+    ],
+
+    "failures": [
+      {
+        "year": 2000,
+        "description": "Description of the failure or setback in English",
+        "descriptionKo": "실패나 좌절에 대한 한국어 설명",
+        "lesson": "What they learned or how they recovered",
+        "lessonKo": "배운 점이나 극복 과정 (한국어)",
+        "source": "Source"
+      }
+    ],
+
+    "wealthHistory": [
+      { "year": 2010, "netWorth": 5.2 },
+      { "year": 2015, "netWorth": 9.8 },
+      { "year": 2020, "netWorth": 14.0 }
+    ],
+
+    "quotes": [
+      {
+        "text": "Exact quote in English",
+        "textKo": "한국어 번역",
+        "context": "When/why they said it",
+        "contextKo": "발언 맥락 (한국어)",
+        "source": "Publication or interview"
+      }
+    ],
+
+    "books": {
+      "authored": [
+        { "title": "Book title", "year": 2010, "description": "Brief description", "descriptionKo": "간단한 설명 (한국어)" }
+      ],
+      "recommended": [
+        { "title": "Book title", "author": "Author name", "why": "Why they recommend it", "whyKo": "추천 이유 (한국어)" }
+      ]
+    },
+
+    "personalTraits": {
+      "knownFor": "What they are most known for",
+      "knownForKo": "가장 잘 알려진 특징 (한국어)",
+      "philanthropy": "Charitable work description or null",
+      "philanthropyKo": "자선 활동 설명 또는 null",
+      "controversies": "Notable controversies or null",
+      "controversiesKo": "주요 논란 또는 null"
+    },
+
+    "sajuConnection": {
+      "note": "Leave this null — we will fill it in.",
+      "value": null
+    }
+  },
+
+  "targetList": [
+    { "file": "151-nik-storonsky.json", "id": "131", "name": "Nik Storonsky", "nameKo": "닉 스토론스키", "netWorth": "$18.8B", "nationality": "GB", "industry": "Finance & Investments" },
+    { "file": "152-lu-xiangyang.json", "id": "132", "name": "Lu Xiangyang", "nameKo": "루샹양", "netWorth": "$18.6B", "nationality": "CN", "industry": "Automotive" },
+    { "file": "153-beate-heister.json", "id": "133", "name": "Beate Heister", "nameKo": "베아테 하이스터", "netWorth": "$18.4B", "nationality": "DE", "industry": "Fashion & Retail" },
+    { "file": "154-karl-albrecht-jr.json", "id": "134", "name": "Karl Albrecht Jr.", "nameKo": "카를 알브레히트 주니어", "netWorth": "$18.4B", "nationality": "DE", "industry": "Fashion & Retail" },
+    { "file": "155-dhanin-chearavanont.json", "id": "135", "name": "Dhanin Chearavanont", "nameKo": "다닌 체라바논트", "netWorth": "$18.2B", "nationality": "TH", "industry": "Diversified" },
+    { "file": "156-jorge-paulo-lemann.json", "id": "136", "name": "Jorge Paulo Lemann", "nameKo": "호르헤 파울로 레만", "netWorth": "$18.1B", "nationality": "BR", "industry": "Food & Beverage" },
+    { "file": "157-james-ratcliffe.json", "id": "137", "name": "James Ratcliffe", "nameKo": "제임스 래트클리프", "netWorth": "$18B", "nationality": "GB", "industry": "Manufacturing" },
+    { "file": "158-charles-ergen.json", "id": "138", "name": "Charles Ergen", "nameKo": "찰스 어건", "netWorth": "$18B", "nationality": "US", "industry": "Media & Entertainment" },
+    { "file": "159-edwin-chen.json", "id": "139", "name": "Edwin Chen", "nameKo": "에드윈 첸", "netWorth": "$18B", "nationality": "US", "industry": "Technology" },
+    { "file": "160-prajogo-pangestu.json", "id": "140", "name": "Prajogo Pangestu", "nameKo": "프라조고 팡게스투", "netWorth": "$18B", "nationality": "ID", "industry": "Diversified" },
+    { "file": "161-vinod-adani.json", "id": "141", "name": "Vinod Adani", "nameKo": "비노드 아다니", "netWorth": "$17.9B", "nationality": "CY", "industry": "Diversified" },
+    { "file": "162-takemitsu-takizaki.json", "id": "142", "name": "Takemitsu Takizaki", "nameKo": "다키자키 다케미쓰", "netWorth": "$17.9B", "nationality": "JP", "industry": "Manufacturing" },
+    { "file": "163-torstein-hagen.json", "id": "143", "name": "Torstein Hagen", "nameKo": "토르스타인 하겐", "netWorth": "$17.7B", "nationality": "NO", "industry": "Service" },
+    { "file": "164-john-tu.json", "id": "144", "name": "John Tu", "nameKo": "존 투", "netWorth": "$17.5B", "nationality": "US", "industry": "Technology" },
+    { "file": "165-r-budi-hartono.json", "id": "145", "name": "R. Budi Hartono", "nameKo": "부디 하르토노", "netWorth": "$17.5B", "nationality": "ID", "industry": "Finance & Investments" },
+    { "file": "166-john-collison.json", "id": "146", "name": "John Collison", "nameKo": "존 콜리슨", "netWorth": "$17.5B", "nationality": "IE", "industry": "Technology" },
+    { "file": "167-patrick-collison.json", "id": "147", "name": "Patrick Collison", "nameKo": "패트릭 콜리슨", "netWorth": "$17.5B", "nationality": "IE", "industry": "Technology" },
+    { "file": "168-david-sun.json", "id": "148", "name": "David Sun", "nameKo": "데이비드 선", "netWorth": "$17.5B", "nationality": "US", "industry": "Technology" },
+    { "file": "169-theo-albrecht-jr.json", "id": "149", "name": "Theo Albrecht Jr", "nameKo": "테오 알브레히트 주니어", "netWorth": "$17.4B", "nationality": "DE", "industry": "Fashion & Retail" },
+    { "file": "170-radhakishan-damani.json", "id": "150", "name": "Radhakishan Damani", "nameKo": "라다키산 다마니", "netWorth": "$17.2B", "nationality": "IN", "industry": "Fashion & Retail" },
+    { "file": "171-stephen-ross.json", "id": "151", "name": "Stephen Ross", "nameKo": "스티븐 로스", "netWorth": "$17B", "nationality": "US", "industry": "Real Estate" },
+    { "file": "172-nathan-kirsh.json", "id": "152", "name": "Nathan Kirsh", "nameKo": "네이선 커시", "netWorth": "$16.9B", "nationality": "ES", "industry": "Fashion & Retail" },
+    { "file": "173-arthur-dantchik.json", "id": "153", "name": "Arthur Dantchik", "nameKo": "아서 단치크", "netWorth": "$16.9B", "nationality": "US", "industry": "Finance & Investments" },
+    { "file": "174-jan-koum.json", "id": "154", "name": "Jan Koum", "nameKo": "얀 쿰", "netWorth": "$16.8B", "nationality": "US", "industry": "Technology" },
+    { "file": "175-anders-holch-povlsen.json", "id": "155", "name": "Anders Holch Povlsen", "nameKo": "안더스 홀크 포블센", "netWorth": "$16.5B", "nationality": "DK", "industry": "Fashion & Retail" },
+    { "file": "176-sarath-ratanavadi.json", "id": "156", "name": "Sarath Ratanavadi", "nameKo": "사랏 라타나바디", "netWorth": "$16.5B", "nationality": "TH", "industry": "Energy" },
+    { "file": "177-wang-wei.json", "id": "157", "name": "Wang Wei", "nameKo": "왕웨이", "netWorth": "$16.4B", "nationality": "CN", "industry": "Service" },
+    { "file": "178-john-menard-jr.json", "id": "158", "name": "John Menard Jr", "nameKo": "존 메나드 주니어", "netWorth": "$16.4B", "nationality": "US", "industry": "Fashion & Retail" },
+    { "file": "179-mikhail-fridman.json", "id": "159", "name": "Mikhail Fridman", "nameKo": "미하일 프리드만", "netWorth": "$16.3B", "nationality": "RU", "industry": "Energy" },
+    { "file": "180-alejandro-bailleres-gual.json", "id": "160", "name": "Alejandro Baillères Gual", "nameKo": "알레한드로 바이예레스 구알", "netWorth": "$16.2B", "nationality": "MX", "industry": "Diversified" },
+    { "file": "181-peter-mallouk.json", "id": "161", "name": "Peter Mallouk", "nameKo": "피터 말루크", "netWorth": "$16.1B", "nationality": "US", "industry": "Finance & Investments" },
+    { "file": "182-harold-hamm.json", "id": "162", "name": "Harold Hamm", "nameKo": "해럴드 햄", "netWorth": "$16B", "nationality": "US", "industry": "Energy" },
+    { "file": "183-georg-schaeffler.json", "id": "163", "name": "Georg Schaeffler", "nameKo": "게오르크 샤프플러", "netWorth": "$15.9B", "nationality": "DE", "industry": "Automotive" },
+    { "file": "184-charlene-de-carvalho-heineken.json", "id": "164", "name": "Charlene de Carvalho-Heineken", "nameKo": "샤를렌 드 카르발류-하이네켄", "netWorth": "$15.7B", "nationality": "NL", "industry": "Food & Beverage" },
+    { "file": "185-george-kaiser.json", "id": "165", "name": "George Kaiser", "nameKo": "조지 카이저", "netWorth": "$15.7B", "nationality": "US", "industry": "Energy" },
+    { "file": "186-ray-dalio.json", "id": "166", "name": "Ray Dalio", "nameKo": "레이 달리오", "netWorth": "$15.4B", "nationality": "US", "industry": "Finance & Investments" },
+    { "file": "187-hussain-sajwani.json", "id": "167", "name": "Hussain Sajwani", "nameKo": "후세인 사즈와니", "netWorth": "$15.3B", "nationality": "AE", "industry": "Real Estate" },
+    { "file": "188-enrique-razon-jr.json", "id": "168", "name": "Enrique Razon Jr.", "nameKo": "엔리케 라존 주니어", "netWorth": "$15.2B", "nationality": "PH", "industry": "Logistics" },
+    { "file": "189-friedhelm-loh.json", "id": "169", "name": "Friedhelm Loh", "nameKo": "프리드헬름 로", "netWorth": "$15.1B", "nationality": "DE", "industry": "Manufacturing" },
+    { "file": "190-brad-jacobs.json", "id": "170", "name": "Brad Jacobs", "nameKo": "브래드 제이콥스", "netWorth": "$15.1B", "nationality": "US", "industry": "Logistics" },
+    { "file": "191-wang-weixiu.json", "id": "171", "name": "Wang Weixiu", "nameKo": "왕웨이시우", "netWorth": "$15.1B", "nationality": "CN", "industry": "Manufacturing" },
+    { "file": "192-jaime-gilinski-bacal.json", "id": "172", "name": "Jaime Gilinski Bacal", "nameKo": "하이메 길린스키 바칼", "netWorth": "$15B", "nationality": "CO", "industry": "Finance & Investments" },
+    { "file": "193-donald-newhouse.json", "id": "173", "name": "Donald Newhouse", "nameKo": "도널드 뉴하우스", "netWorth": "$14.9B", "nationality": "US", "industry": "Media & Entertainment" },
+    { "file": "194-low-tuck-kwong.json", "id": "174", "name": "Low Tuck Kwong", "nameKo": "로우 턱 콴", "netWorth": "$14.7B", "nationality": "ID", "industry": "Energy" },
+    { "file": "195-xavier-niel.json", "id": "176", "name": "Xavier Niel", "nameKo": "자비에 니엘", "netWorth": "$14.6B", "nationality": "FR", "industry": "Telecom" },
+    { "file": "196-shahid-khan.json", "id": "177", "name": "Shahid Khan", "nameKo": "샤히드 칸", "netWorth": "$14.5B", "nationality": "US", "industry": "Automotive" },
+    { "file": "197-ann-walton-kroenke.json", "id": "178", "name": "Ann Walton Kroenke", "nameKo": "앤 월튼 크렌키", "netWorth": "$14.5B", "nationality": "US", "industry": "Fashion & Retail" },
+    { "file": "198-michael-sabel.json", "id": "179", "name": "Michael Sabel", "nameKo": "마이클 사벨", "netWorth": "$14.4B", "nationality": "US", "industry": "Energy" },
+    { "file": "199-robert-pender.json", "id": "180", "name": "Robert Pender", "nameKo": "로버트 펜더", "netWorth": "$14.4B", "nationality": "US", "industry": "Energy" },
+    { "file": "200-zou-zhinong.json", "id": "181", "name": "Zou Zhinong", "nameKo": "주진옹", "netWorth": "$14.4B", "nationality": "CN", "industry": "Manufacturing" }
+  ]
+}

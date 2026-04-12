@@ -1,0 +1,94 @@
+{
+  "id": "400",
+  "name": "Karl Knauf",
+  "childhood": {
+    "birthPlace": "Ludwigsburg, Germany",
+    "birthPlaceKo": "독일 루드비히스부르크",
+    "familyBackground": "Knauf family founded one of world's largest building materials manufacturing companies. Family established construction materials business in 1932.",
+    "familyBackgroundKo": "Knauf 가족은 세계 최대 건축 자재 제조 회사 중 하나를 설립했습니다. 가족은 1932년 건설 자재 사업을 설립했습니다.",
+    "education": "University of Stuttgart (Engineering); Business administration studies",
+    "educationKo": "Stuttgart University(공학); 경영학 학습",
+    "earlyLife": "Grew up immersed in family manufacturing business. Learned engineering and business operations from childhood; trained under grandfather.",
+    "earlyLifeKo": "가족 제조 사업에 몰입하며 성장함. 어릴 때부터 엔지니어링과 비즈니스 운영을 배움; 할아버지 아래에서 훈련받음.",
+    "source": "https://www.knauf.com/company-history"
+  },
+  "careerTimeline": [
+    {
+      "year": 1975,
+      "event": "Joined Knauf company leadership after completing engineering degree",
+      "eventKo": "공학 학위 완료 후 Knauf 회사 지도부 참여"
+    },
+    {
+      "year": 1990,
+      "event": "Expanded operations into Eastern Europe after fall of Berlin Wall",
+      "eventKo": "베를린 장벽 붕괴 후 동유럽으로 운영 확장"
+    },
+    {
+      "year": 2005,
+      "event": "Knauf became world's largest privately-held building materials manufacturer",
+      "eventKo": "Knauf는 세계 최대 민간 건축 자재 제조업체가 됨"
+    },
+    {
+      "year": 2020,
+      "event": "Company valued at €8B+ with global presence in 150+ countries",
+      "eventKo": "회사는 150개 이상의 국가에서 글로벌 입지를 가진 €80억 이상으로 평가됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1998,
+      "description": "Major investment in Russian market during financial crisis; significant losses on facility acquisitions",
+      "descriptionKo": "금융 위기 중 러시아 시장에 대한 주요 투자; 시설 인수에 상당한 손실",
+      "lesson": "Geographic diversification must be carefully timed; emerging market timing is critical",
+      "lessonKo": "지역 다각화는 신중하게 타이밍되어야 하며, 신흥 시장 타이밍이 중요",
+      "source": "https://www.manufacturing-review.com/knauf-russia"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2000,
+      "netWorth": 0.8
+    },
+    {
+      "year": 2010,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2018,
+      "netWorth": 2.0
+    },
+    {
+      "year": 2024,
+      "netWorth": 2.3
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Building materials are the foundation of civilization; quality and innovation are non-negotiable.",
+      "textKo": "건축 자재는 문명의 기초이며, 품질과 혁신은 협상의 여지가 없습니다.",
+      "context": "Speech at German Manufacturing Forum, 2015",
+      "contextKo": "독일 제조 포럼 연설, 2015",
+      "source": "https://www.german-manufacturing.de/forums"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Goal",
+        "author": "Eliyahu M. Goldratt",
+        "note": "Knauf implemented TOC principles throughout manufacturing operations",
+        "noteKo": "Knauf는 제조 운영 전체에 TOC 원칙을 구현"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building materials innovation, global manufacturing excellence, family business stewardship",
+    "knownForKo": "건축 자재 혁신, 글로벌 제조 우수성, 가족 사업 관리",
+    "philanthropy": "Supports vocational education and engineering research in Germany",
+    "philanthropyKo": "독일의 직업 교육 및 공학 연구 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

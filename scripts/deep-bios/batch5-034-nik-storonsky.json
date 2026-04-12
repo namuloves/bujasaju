@@ -1,0 +1,115 @@
+{
+  "id": "131",
+  "name": "Nik Storonsky",
+  "nameKo": "니크 스토론스키",
+  "netWorth": "$18.8B",
+  "nationality": "GB",
+  "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Dolgoprudny, Moscow Oblast, Russia",
+    "birthPlaceKo": "러시아 모스크바주 돌고프루드니",
+    "familyBackground": "Father Nikolay Mironovich Storonsky is a Ukrainian-born physicist and engineer from Lviv who graduated from the Moscow Institute of Physics and Technology (MIPT) and worked as a senior research fellow at VNIIGAZ, Gazprom's main scientific research centre",
+    "familyBackgroundKo": "아버지 니콜라이 미로노비치 스토론스키는 우크라이나 리비우 출신의 물리학자 겸 엔지니어로, 모스크바 물리기술대학(MIPT)을 졸업하고 가즈프롬의 주요 과학연구센터인 VNIIGAZ에서 선임연구원으로 근무",
+    "education": "Master's degree in General and Applied Physics from Moscow Institute of Physics and Technology (MIPT, 2007); Master's degree in Applied Economics and Finance from New Economic School (2007)",
+    "educationKo": "모스크바 물리기술대학(MIPT)에서 일반 및 응용물리학 석사(2007); 뉴이코노믹스쿨에서 응용경제학 및 금융 석사(2007)",
+    "earlyLife": "Born July 21, 1984, in Dolgoprudny near Moscow. Storonsky showed exceptional aptitude from an early age — he started reading economics books at age 6. As a youth, he trained in boxing and swimming, later becoming a state swimming champion during his university years. In 9th grade, he won the International Economics Olympiad, and won it again in 11th grade. He completed dual master's degrees at MIPT and the New Economic School by 2007.",
+    "earlyLifeKo": "1984년 7월 21일 모스크바 근처 돌고프루드니에서 태어났다. 스토론스키는 어린 시절부터 뛰어난 재능을 보였으며 6세부터 경제학 서적을 읽기 시작했다. 어린 시절 복싱과 수영을 훈련했고, 대학 시절에는 주 수영 챔피언이 되었다. 9학년 때 국제경제올림피아드에서 우승했고, 11학년 때 다시 우승했다. 2007년까지 MIPT와 뉴이코노믹스쿨에서 이중 석사 학위를 취득했다.",
+    "source": "Wikipedia, FinTech Magazine, Crunchbase"
+  },
+  "careerTimeline": [
+    {
+      "year": 2006,
+      "event": "Moved to London and began career as equity derivatives trader at Lehman Brothers",
+      "eventKo": "런던으로 이주하여 리먼 브라더스에서 주식 파생상품 트레이더로 경력 시작"
+    },
+    {
+      "year": 2008,
+      "event": "Lehman Brothers collapsed; transitioned to Credit Suisse as a trader",
+      "eventKo": "리먼 브라더스 파산; 크레딧 스위스로 이직하여 트레이더로 근무"
+    },
+    {
+      "year": 2013,
+      "event": "Left Credit Suisse and founded Revolut Ltd in December, investing £300,000 of personal savings",
+      "eventKo": "크레딧 스위스를 떠나 12월에 개인 저축 30만 파운드를 투자하여 Revolut을 설립"
+    },
+    {
+      "year": 2015,
+      "event": "Revolut app launched publicly in July, offering multi-currency cards with interbank exchange rates",
+      "eventKo": "7월에 은행간 환율을 적용한 다중통화 카드를 제공하는 Revolut 앱 공개 출시"
+    },
+    {
+      "year": 2018,
+      "event": "Revolut reached unicorn status with $250M Series C at $1.7B valuation",
+      "eventKo": "Revolut이 2억 5천만 달러 시리즈 C 투자로 17억 달러 가치 평가를 받으며 유니콘 지위 달성"
+    },
+    {
+      "year": 2021,
+      "event": "Revolut raised $800M at $33B valuation, becoming Europe's most valuable fintech startup",
+      "eventKo": "Revolut이 330억 달러 가치 평가로 8억 달러를 유치하며 유럽 최고 가치 핀테크 스타트업이 됨"
+    },
+    {
+      "year": 2024,
+      "event": "Revolut received UK banking license; surpassed 50 million global customers",
+      "eventKo": "Revolut이 영국 은행 라이선스를 획득; 전 세계 고객 5천만 명 돌파"
+    },
+    {
+      "year": 2026,
+      "event": "Revolut received full UK banking license with FSCS deposit protection for customers",
+      "eventKo": "Revolut이 FSCS 예금자 보호가 포함된 완전한 영국 은행 라이선스를 획득"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Was working at Lehman Brothers when the firm collapsed in the largest bankruptcy in U.S. history, a formative experience that shaped his views on traditional banking's inefficiencies.",
+      "descriptionKo": "리먼 브라더스가 미국 역사상 최대 파산으로 붕괴할 때 그곳에서 근무 중이었으며, 이 경험이 전통 은행의 비효율성에 대한 그의 관점을 형성했다.",
+      "lesson": "Witnessing a major bank collapse firsthand fueled his conviction that financial services needed disruption through technology, directly inspiring the creation of Revolut.",
+      "lessonKo": "대형 은행의 붕괴를 직접 목격한 것이 기술을 통한 금융 서비스 혁신이 필요하다는 확신을 강화했고, 이것이 Revolut 탄생에 직접적 영감이 되었다.",
+      "source": "Wikipedia, FinTech Magazine"
+    },
+    {
+      "year": 2019,
+      "description": "Revolut faced intense media scrutiny over its aggressive workplace culture, with reports of high employee turnover, grueling work conditions, and compliance concerns.",
+      "descriptionKo": "Revolut은 높은 직원 이직률, 가혹한 근무 조건, 컴플라이언스 우려에 대한 보도로 공격적인 직장 문화에 대해 언론의 강도 높은 조사를 받았다.",
+      "lesson": "The scrutiny led Revolut to invest significantly in compliance, HR practices, and corporate governance, ultimately helping it secure banking licenses.",
+      "lessonKo": "이러한 조사로 Revolut은 컴플라이언스, 인사 관행, 기업 거버넌스에 상당한 투자를 하게 되었고, 궁극적으로 은행 라이선스 획득에 도움이 되었다.",
+      "source": "Wired, Financial Times"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2018,
+      "netWorth": 1.0
+    },
+    {
+      "year": 2021,
+      "netWorth": 7.1
+    },
+    {
+      "year": 2023,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.9
+    },
+    {
+      "year": 2026,
+      "netWorth": 18.8
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Building Revolut from a travel money card into one of the world's largest digital banks; intense work ethic and demanding management style; disrupting traditional banking with technology",
+    "knownForKo": "Revolut을 여행용 머니카드에서 세계 최대 디지털 은행 중 하나로 성장시킴; 강렬한 업무 윤리와 요구 수준 높은 관리 스타일; 기술로 전통 은행업을 혁신",
+    "philanthropy": "Founded QuantumLight, a venture capital firm focused on deep tech and AI startups",
+    "philanthropyKo": "딥테크 및 AI 스타트업에 집중하는 벤처캐피탈 회사 QuantumLight를 설립",
+    "controversies": "Revolut's workplace culture has been criticized as overly demanding; delayed UK banking license due to compliance concerns; scrutiny over anti-money laundering controls",
+    "controversiesKo": "Revolut의 직장 문화가 지나치게 가혹하다는 비판을 받음; 컴플라이언스 우려로 영국 은행 라이선스 지연; 자금세탁방지 통제에 대한 조사"
+  },
+  "sajuConnection": null
+}

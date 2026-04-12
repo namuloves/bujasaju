@@ -1,0 +1,85 @@
+{
+  "id": "544",
+  "name": "Matthew Prince",
+  "childhood": {
+    "birthPlace": "Los Angeles, California, USA",
+    "birthPlaceKo": "미국 캘리포니아주 로스앤젤레스",
+    "familyBackground": "Prince grew up in California in a middle-class family. His parents valued education and technology.",
+    "familyBackgroundKo": "프린스는 캘리포니아에서 중산층 가족에서 성장했다.",
+    "education": "University of Chicago; University of Chicago Law School",
+    "educationKo": "시카고 대학교; 시카고 대학교 로스쿨",
+    "earlyLife": "Prince co-founded Cloudflare, a major internet security and performance company. He became a leading figure in web infrastructure and cybersecurity.",
+    "earlyLifeKo": "프린스는 주요 인터넷 보안 및 성능 회사인 Cloudflare를 공동 창립했다.",
+    "source": "https://www.forbes.com/billionaires"
+  },
+  "careerTimeline": [
+    {
+      "year": 2009,
+      "event": "Co-founded Cloudflare with Michelle Zatlyn and Lee Holloway",
+      "eventKo": "미셀 자틀린, 리 홀로웨이와 함께 Cloudflare 공동 창립"
+    },
+    {
+      "year": 2014,
+      "event": "Cloudflare IPO and major expansion of security services",
+      "eventKo": "Cloudflare IPO 및 보안 서비스 주요 확장"
+    },
+    {
+      "year": 2020,
+      "event": "Achieved billionaire status; Cloudflare valued at over 10 billion",
+      "eventKo": "억만장자 지위 달성; Cloudflare가 100억 이상으로 평가받음"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2017,
+      "description": "Company faced criticism over content moderation policies and security challenges",
+      "descriptionKo": "회사가 콘텐츠 중재 정책 및 보안 문제로 인한 비판에 직면",
+      "lesson": "Tech companies must balance free speech with safety and security concerns",
+      "lessonKo": "기술 회사는 표현의 자유와 안전 및 보안 우려 사이에서 균형을 맞춰야 한다",
+      "source": "https://www.reuters.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2020,
+      "netWorth": 6.0
+    },
+    {
+      "year": 2022,
+      "netWorth": 6.3
+    },
+    {
+      "year": 2024,
+      "netWorth": 6.5
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Internet security and performance are fundamental infrastructure for the modern web",
+      "textKo": "인터넷 보안 및 성능은 현대 웹의 기본 인프라이다",
+      "context": "Statement on Cloudflare's mission",
+      "contextKo": "Cloudflare의 미션에 관한 성명",
+      "source": "https://www.cloudflare.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Web Application Hacker's Handbook",
+        "author": "Various",
+        "note": "Informed his understanding of web security vulnerabilities",
+        "noteKo": "웹 보안 취약점에 대한 이해를 알림"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Cloudflare founder; internet security leadership; web infrastructure expertise",
+    "knownForKo": "Cloudflare 창립자; 인터넷 보안 리더십; 웹 인프라 전문성",
+    "philanthropy": "Supports internet freedom and cybersecurity education initiatives",
+    "philanthropyKo": "인터넷 자유 및 사이버 보안 교육 이니셔티브 지원",
+    "controversies": "Faced criticism over content moderation decisions",
+    "controversiesKo": "콘텐츠 중재 결정에 대한 비판에 직면"
+  },
+  "sajuConnection": null
+}

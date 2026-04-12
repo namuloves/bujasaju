@@ -1,0 +1,72 @@
+{
+  "id": "330",
+  "name": "Liang Wengen",
+  "childhood": {
+    "birthPlace": "Changsha, Hunan, China",
+    "birthPlaceKo": "중국 후난 창사",
+    "familyBackground": "From working-class family with no prior business background.",
+    "familyBackgroundKo": "사업 배경이 없는 노동자 가족에서.",
+    "education": "Self-educated through apprenticeship; Technical training in machinery and engineering",
+    "educationKo": "도제를 통한 자체 교육; 기계 및 엔지니어링 기술 훈련",
+    "earlyLife": "Started as machinery apprentice and gradually built expertise in heavy equipment manufacturing.",
+    "earlyLifeKo": "기계 도제로 시작하여 점차 중장비 제조 전문 지식을 구축.",
+    "source": null
+  },
+  "careerTimeline": [
+    {
+      "year": 1993,
+      "event": "Founded Sany Heavy Industry, initial machinery repair and manufacturing",
+      "eventKo": "삼이 헤비 인더스트리 설립, 초기 기계 수리 및 제조"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded into concrete machinery and heavy equipment production",
+      "eventKo": "콘크리트 기계 및 중장비 생산으로 확장"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Global financial crisis caused massive demand drop for heavy equipment",
+      "descriptionKo": "글로벌 금융 위기로 중장비 수요 급락",
+      "lesson": "Importance of maintaining production flexibility and managing inventory during downturns",
+      "lessonKo": "경제 침체 중 생산 유연성 유지 및 재고 관리의 중요성",
+      "source": null
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2018,
+      "netWorth": 6.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 8.0
+    },
+    {
+      "year": 2023,
+      "netWorth": 9.3
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Quality and innovation are the foundation of Sany's success",
+      "textKo": "품질과 혁신은 삼이의 성공의 기초입니다",
+      "context": "On company philosophy",
+      "contextKo": "회사 철학에 대해"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Building Sany Heavy Industry into one of world's largest concrete equipment manufacturers from humble origins",
+    "knownForKo": "미천한 출신에서 삼이 헤비 인더스트리를 세계 최대 콘크리트 장비 제조업체 중 하나로 구축",
+    "philanthropy": "Education funding and poverty alleviation programs in Hunan province",
+    "philanthropyKo": "후난 성의 교육 자금 지원 및 빈곤 완화 프로그램",
+    "controversies": "Environmental concerns regarding manufacturing operations and emissions",
+    "controversiesKo": "제조 운영 및 배출에 관한 환경 문제"
+  },
+  "sajuConnection": null
+}

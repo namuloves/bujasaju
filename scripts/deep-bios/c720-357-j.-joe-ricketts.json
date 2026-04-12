@@ -1,0 +1,65 @@
+{
+  "id": "357",
+  "name": "J. Joe Ricketts",
+  "childhood": {
+    "birthPlace": "Omaha, Nebraska, USA",
+    "birthPlaceKo": "미국 네브래스카 오마하",
+    "familyBackground": "From Midwest American family with financial services background.",
+    "familyBackgroundKo": "아버지가 금융 기업가였던 중서부 미국 금융 서비스 배경이 있는 가족에서.",
+    "education": "Creighton University, Finance and Business",
+    "educationKo": "크라이튼 대학교, 금융 및 경영",
+    "earlyLife": "Started in financial services and built major discount brokerage operation.",
+    "earlyLifeKo": "금융 서비스에서 시작하여 주요 할인 중개 운영을 구축.",
+    "source": null
+  },
+  "careerTimeline": [
+    {
+      "year": 1975,
+      "event": "Co-founded Ameritrade discount brokerage",
+      "eventKo": "Ameritrade 할인 중개 공동 설립"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded Ameritrade into major online broker",
+      "eventKo": "Ameritrade를 주요 온라인 중개로 확장"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Financial crisis impact on brokerage operations and market activity",
+      "descriptionKo": "금융 위기가 중개 운영 및 시장 활동에 미친 영향",
+      "lesson": "Market volatility requires robust operations and strong capital base",
+      "lessonKo": "시장 변동성은 견고한 운영 및 강력한 자본 기반 필요",
+      "source": null
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 6.2
+    },
+    {
+      "year": 2023,
+      "netWorth": 8.3
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Pioneering discount brokerage and online trading through Ameritrade",
+    "knownForKo": "Ameritrade를 통한 할인 중개 및 온라인 거래 개척",
+    "philanthropy": "Sports ownership and community investment in Omaha",
+    "philanthropyKo": "오마하의 스포츠 소유권 및 커뮤니티 투자",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

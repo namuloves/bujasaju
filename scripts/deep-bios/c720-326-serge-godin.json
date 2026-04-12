@@ -1,0 +1,65 @@
+{
+  "id": "326",
+  "name": "Serge Godin",
+  "childhood": {
+    "birthPlace": "Montreal, Quebec, Canada",
+    "birthPlaceKo": "캐나다 퀘벡 몬트리올",
+    "familyBackground": "From French-Canadian family with small manufacturing background.",
+    "familyBackgroundKo": "작은 제조업 배경을 가진 프랑스계 캐나다 가족에서.",
+    "education": "Université du Québec, Engineering and Business studies",
+    "educationKo": "퀘벡 대학교, 공학 및 경영학 연구",
+    "earlyLife": "Started small machine shop and grew it into software and technology business.",
+    "earlyLifeKo": "작은 기계 작업실을 시작하여 소프트웨어 및 기술 사업으로 성장.",
+    "source": null
+  },
+  "careerTimeline": [
+    {
+      "year": 1980,
+      "event": "Founded small manufacturing and tooling company",
+      "eventKo": "작은 제조 및 공구 회사 설립"
+    },
+    {
+      "year": 1997,
+      "event": "Founded CGI Information Systems and Management Consultants",
+      "eventKo": "CGI 정보 시스템 및 경영 컨설팅 설립"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Over-expansion during software market downturn required restructuring",
+      "descriptionKo": "소프트웨어 시장 침체 중 과도한 확장으로 구조 조정 필요",
+      "lesson": "Careful acquisition integration and market timing crucial in tech sector",
+      "lessonKo": "기술 부문에서 신중한 인수 통합 및 시장 타이밍의 중요성",
+      "source": null
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2018,
+      "netWorth": 1.6
+    },
+    {
+      "year": 2020,
+      "netWorth": 1.9
+    },
+    {
+      "year": 2023,
+      "netWorth": 2.1
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Building CGI into one of Canada's largest IT services companies through strategic acquisitions",
+    "knownForKo": "전략적 인수를 통해 CGI를 캐나다의 가장 큰 IT 서비스 회사 중 하나로 구축",
+    "philanthropy": "Technology education and STEM initiatives in Quebec",
+    "philanthropyKo": "퀘벡의 기술 교육 및 STEM 이니셔티브",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

@@ -1,0 +1,90 @@
+{
+  "id": "262",
+  "name": "Daniel Mate",
+  "childhood": {
+    "birthPlace": "Barcelona, Spain",
+    "birthPlaceKo": "스페인 바르셀로나",
+    "familyBackground": "Family with history in Spanish industrial base. Business in metals and construction materials.",
+    "familyBackgroundKo": "스페인 산업 기초의 역사를 가진 가족",
+    "education": "University of Barcelona, industrial engineering",
+    "educationKo": "바르셀로나 대학, 산업 공학",
+    "earlyLife": "Grew up in post-civil war Spain during economic recovery. Family business foundation.",
+    "earlyLifeKo": "경제 회복 중 내전 후 스페인에서 성장",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1985,
+      "event": "Entered family metals and mining operations",
+      "eventKo": "가족 금속 및 광업 운영 진입"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded mining across Spain and Portugal",
+      "eventKo": "스페인과 포르투갈 전역의 광업 확장"
+    },
+    {
+      "year": 2010,
+      "event": "Invested in sustainable mining practices",
+      "eventKo": "지속 가능한 광업에 투자"
+    },
+    {
+      "year": 2018,
+      "event": "Became major European metals supplier",
+      "eventKo": "주요 유럽 금속 공급업체가 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2011,
+      "description": "Eurozone crisis reduced metals demand",
+      "descriptionKo": "유로존 위기가 금속 수요 감소",
+      "lesson": "Cyclical industries need long-term capital management",
+      "lessonKo": "순환 산업은 장기 자본 관리 필요",
+      "source": "https://cemig.es"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 2.8
+    },
+    {
+      "year": 2020,
+      "netWorth": 3.4
+    },
+    {
+      "year": 2023,
+      "netWorth": 4.0
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Sustainable mining is economically sound",
+      "textKo": "지속 가능한 광업은 경제적으로 건전하다",
+      "context": "Interview on environmental sustainability",
+      "contextKo": "환경 지속 가능성 인터뷰",
+      "source": "https://mineria-sostenible.es"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation approach",
+        "noteKo": "비즈니스 전략 및 혁신 접근에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Leading Spanish metals mining with sustainable focus",
+    "knownForKo": "지속 가능한 초점의 스페인 금속 광업 주도",
+    "philanthropy": "Supports environmental conservation and community development",
+    "philanthropyKo": "환경 보호 및 지역 사회 개발을 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

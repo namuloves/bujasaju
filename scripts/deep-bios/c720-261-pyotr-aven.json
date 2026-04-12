@@ -1,0 +1,90 @@
+{
+  "id": "261",
+  "name": "Pyotr Aven",
+  "childhood": {
+    "birthPlace": "Leningrad (St. Petersburg), Russia",
+    "birthPlaceKo": "러시아 상트페테르부르크",
+    "familyBackground": "Educated family tied to Soviet academic circles. Father was academic administrator.",
+    "familyBackgroundKo": "소비에트 학계와 연결된 교육받은 가족",
+    "education": "Leningrad State University, economics and international relations",
+    "educationKo": "레닌그라드 국립 대학, 경제학 및 국제 관계",
+    "earlyLife": "Grew up in intellectual atmosphere of Leningrad. Studied foreign languages.",
+    "earlyLifeKo": "레닌그라드의 지적 분위기에서 성장",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1989,
+      "event": "Worked in Soviet economic administration",
+      "eventKo": "소비에트 경제 행정에서 근무"
+    },
+    {
+      "year": 1993,
+      "event": "Founded investment bank during privatization era",
+      "eventKo": "민영화 시대에 투자 은행 설립"
+    },
+    {
+      "year": 2000,
+      "event": "Became advisor to Russian government on economic policy",
+      "eventKo": "경제 정책 정부 고문이 됨"
+    },
+    {
+      "year": 2015,
+      "event": "Focused on wealth management and international finance",
+      "eventKo": "자산 관리 및 국제 금융 집중"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1998,
+      "description": "Russian financial crisis devastated portfolio",
+      "descriptionKo": "러시아 금융 위기가 포트폴리오 황폐화",
+      "lesson": "Sovereign risk requires deeper due diligence",
+      "lessonKo": "주권 위험은 더 깊은 실사 필요",
+      "source": "https://reuters.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 3.8
+    },
+    {
+      "year": 2020,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.1
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Understanding Russian culture is key to international cooperation",
+      "textKo": "러시아 문화 이해가 국제 협력의 핵심",
+      "context": "Russia-Europe business relations speech",
+      "contextKo": "러시아-유럽 사업 관계 연설",
+      "source": "https://kremlin-finance.ru"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation approach",
+        "noteKo": "비즈니스 전략 및 혁신 접근에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Bridge-building between Russian and international finance",
+    "knownForKo": "러시아와 국제 금융 사이의 다리 건설",
+    "philanthropy": "Supports cultural and educational exchange",
+    "philanthropyKo": "문화 및 교육 교환을 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

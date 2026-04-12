@@ -1,0 +1,83 @@
+{
+  "id": "504",
+  "name": "Mark Walter",
+  "childhood": {
+    "birthPlace": "Cedar Rapids, Iowa, USA",
+    "birthPlaceKo": "미국 아이오와주 시더래피즈",
+    "familyBackground": "Grew up in a middle-class family in Iowa.",
+    "familyBackgroundKo": "아이오와의 중산층 가정에서 성장.",
+    "education": "BA from Northwestern University. MBA from the Kellogg School of Management.",
+    "educationKo": "노스웨스턴 대학교 학사. 켈로그 경영대학원 MBA.",
+    "earlyLife": "Developed interest in finance during college.",
+    "earlyLifeKo": "대학 재학 중 금융에 관심 발전.",
+    "source": "Forbes"
+  },
+  "careerTimeline": [
+    {
+      "year": 1995,
+      "event": "Co-founded Guggenheim Partners, a financial services firm",
+      "eventKo": "금융 서비스 기업 구겐하임 파트너스 공동 설립"
+    },
+    {
+      "year": 2012,
+      "event": "Led group that purchased the Los Angeles Dodgers for $2.15 billion, then a record for a sports team",
+      "eventKo": "당시 스포츠팀 최고 기록인 21억 5천만 달러에 LA 다저스를 인수하는 그룹 주도"
+    },
+    {
+      "year": 2015,
+      "event": "Guggenheim Partners assets under management exceeded $300 billion",
+      "eventKo": "구겐하임 파트너스 운용 자산 3,000억 달러 초과"
+    },
+    {
+      "year": 2020,
+      "event": "Los Angeles Dodgers won the World Series",
+      "eventKo": "LA 다저스 월드시리즈 우승"
+    },
+    {
+      "year": 2025,
+      "event": "Net worth reached $7.3 billion; Dodgers franchise valued at over $5 billion",
+      "eventKo": "순자산 73억 달러; 다저스 프랜차이즈 가치 50억 달러 이상"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2014,
+      "description": "Guggenheim faced regulatory scrutiny over conflicts of interest in managing insurance company assets",
+      "descriptionKo": "구겐하임이 보험사 자산 관리에서 이해충돌로 규제 당국의 조사 직면",
+      "lesson": "Financial services firms must maintain strict compliance and separation of interests",
+      "lessonKo": "금융 서비스 기업은 엄격한 규정 준수와 이해관계 분리를 유지해야 함",
+      "source": "Wall Street Journal"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 3.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 5.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.3
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I bought the Dodgers because I love baseball, but it turned out to be a great investment too.",
+      "textKo": "야구를 좋아해서 다저스를 샀지만, 훌륭한 투자이기도 했다.",
+      "context": "On buying the LA Dodgers",
+      "contextKo": "LA 다저스 인수에 대해",
+      "source": "Forbes"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Co-founding Guggenheim Partners and owning the LA Dodgers. Turned a $2.15B sports purchase into a $5B+ asset.",
+    "knownForKo": "구겐하임 파트너스 공동 설립 및 LA 다저스 소유. 21억 5천만 달러 스포츠 구매를 50억 달러 이상 자산으로 전환."
+  }
+}

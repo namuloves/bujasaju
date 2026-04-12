@@ -1,0 +1,103 @@
+{
+  "$schema": "Deep biography schema for filling 일주 (갑자) coverage gaps on 부자사주",
+  "$goal": "Ensure every 60갑자 일주 has at least 1 deep bio so match quiz users always see a result. Pick 1 person per uncovered 일주 (5 critical) + 1 per low-coverage 일주 (7 low). Total: 12 deep bios.",
+
+  "$instructions": "For each billionaire listed below, research and create a complete deep bio JSON file.\n\nRESEARCH SOURCES:\n- Wikipedia (English + native language)\n- Forbes profile\n- Bloomberg Billionaires Index\n- Company websites, annual reports\n- News archives (NYT, WSJ, Bloomberg, FT, local press)\n- Books by/about the person\n\nCRITICAL RULES:\n\n1. BILINGUAL: Every text field must have BOTH English AND Korean versions. Korean fields use 'Ko' suffix (eventKo, descriptionKo, etc.). Korean text must be natural, fluent Korean — not machine-translated.\n\n2. ALIGNMENT: eventKo MUST translate the SAME event. Never shift or reorder.\n\n3. WEALTH VALUES: All netWorth values in wealthHistory MUST be in BILLIONS USD. Example: 24.5 = $24.5 billion.\n\n4. IDs: The 'id' field MUST exactly match the targetList. This links the bio to the correct person in enriched-billionaires.json.\n\n5. FILES: Save each file in scripts/deep-bios/ using the exact filename shown.\n\n6. QUOTES: Only include real, verifiable quotes with sources. If you cannot find real quotes, leave the array empty.\n\n7. UNKNOWN INFO: If information is not available, use null or empty array. Do NOT fabricate facts.\n\n8. WEALTH HISTORY: Include at least 4-5 data points spanning the person's career. Use Forbes lists, Bloomberg data, or news reports about their net worth over the years.\n\n9. CAREER TIMELINE: Include 5-10 key events. Focus on company founding, major deals, IPOs, expansions, and turning points.\n\n10. FAILURES: Include 1-3 real setbacks, failures, or controversies. These make the profiles relatable and educational.",
+
+  "outputSchema": {
+    "id": "string — must match targetList exactly",
+    "name": "string — English name",
+
+    "childhood": {
+      "birthPlace": "City, Country in English",
+      "birthPlaceKo": "도시, 국가 (한국어)",
+      "familyBackground": "Family background in English",
+      "familyBackgroundKo": "가정 배경 한국어",
+      "education": "Education history in English",
+      "educationKo": "학력 한국어",
+      "earlyLife": "2–4 sentences about early life in English",
+      "earlyLifeKo": "성장 과정 2–4문장 한국어",
+      "source": "Wikipedia, Forbes, etc."
+    },
+
+    "careerTimeline": [
+      { "year": 1990, "event": "English description", "eventKo": "한국어 설명" }
+    ],
+
+    "failures": [
+      {
+        "year": 2000,
+        "description": "Failure or setback in English",
+        "descriptionKo": "실패나 좌절 한국어",
+        "lesson": "What they learned in English",
+        "lessonKo": "배운 점 한국어",
+        "source": "Source"
+      }
+    ],
+
+    "wealthHistory": [
+      { "year": 2015, "netWorth": 5.2 },
+      { "year": 2020, "netWorth": 7.8 }
+    ],
+
+    "quotes": [
+      {
+        "text": "Exact quote in English",
+        "textKo": "한국어 번역",
+        "context": "When/why they said it",
+        "contextKo": "발언 맥락 한국어",
+        "source": "Media source"
+      }
+    ],
+
+    "books": {
+      "authored": [
+        { "title": "Book Title", "why": "Why it matters", "whyKo": "한국어 설명" }
+      ],
+      "recommended": [
+        { "title": "Book Title", "author": "Author", "note": "Why they recommend it", "noteKo": "한국어 설명" }
+      ]
+    },
+
+    "personalTraits": {
+      "knownFor": "What they are most known for in English",
+      "knownForKo": "가장 잘 알려진 특징 한국어",
+      "philanthropy": "Charitable work or null",
+      "philanthropyKo": "자선 활동 또는 null",
+      "controversies": "Notable controversies or null",
+      "controversiesKo": "주요 논란 또는 null"
+    },
+
+    "sajuConnection": null
+  },
+
+  "targetList": [
+    { "_group": "CRITICAL — 일주 with 0 deep bios" },
+
+    { "file": "gap-01-john-doerr.json", "id": "130", "name": "John Doerr", "ilju": "경자", "netWorth": "$19B", "industry": "Finance & Investments", "nationality": "US", "note": "Legendary Silicon Valley VC at Kleiner Perkins. Early investor in Google, Amazon, Intuit. Author of 'Measure What Matters' (OKR framework). Climate tech advocate." },
+
+    { "file": "gap-02-charles-ergen.json", "id": "138", "name": "Charles Ergen", "ilju": "신해", "netWorth": "$18B", "industry": "Media & Entertainment", "nationality": "US", "note": "Co-founder of Dish Network and EchoStar. Built satellite TV empire from scratch. Now pivoting to wireless via Dish's 5G network (acquired Boost Mobile). Known as one of the toughest negotiators in media." },
+
+    { "file": "gap-03-beate-heister.json", "id": "133", "name": "Beate Heister", "ilju": "무인", "netWorth": "$18.4B", "industry": "Fashion & Retail", "nationality": "DE", "note": "Daughter of Karl Albrecht, co-founder of Aldi. Inherited stake in Aldi Süd. One of Germany's richest women. Very private — rarely appears in public or gives interviews." },
+
+    { "file": "gap-04-john-collison.json", "id": "146", "name": "John Collison", "ilju": "계묘", "netWorth": "$17.5B", "industry": "Technology", "nationality": "IE", "note": "Co-founder and President of Stripe with brother Patrick. Irish, from Dromineer, Co. Tipperary. Started coding as a teenager. Youngest self-made billionaire in history at age 26." },
+
+    { "file": "gap-05-donald-newhouse.json", "id": "173", "name": "Donald Newhouse", "ilju": "임오", "netWorth": "$14.9B", "industry": "Media & Entertainment", "nationality": "US", "note": "Co-owner of Advance Publications (with late brother Si). Oversees newspaper division — The Star-Ledger, Cleveland Plain Dealer, etc. Family also controls Condé Nast and Reddit stake." },
+
+    { "_group": "LOW — 일주 with only 1 deep bio" },
+
+    { "file": "gap-06-jan-koum.json", "id": "154", "name": "Jan Koum", "ilju": "병오", "netWorth": "$16.8B", "industry": "Technology", "nationality": "US", "note": "Co-founder of WhatsApp. Born in Kyiv, Ukraine. Immigrant story — moved to US at 16, lived on food stamps. Sold WhatsApp to Facebook for $19B in 2014. Privacy advocate." },
+
+    { "file": "gap-07-torstein-hagen.json", "id": "143", "name": "Torstein Hagen", "ilju": "정미", "netWorth": "$17.7B", "industry": "Service", "nationality": "NO", "note": "Founder and Chairman of Viking Cruises. Norwegian. Built the world's largest river cruise line from near-bankruptcy. Expanded into ocean cruises. Known for understated luxury targeting educated travelers." },
+
+    { "file": "gap-08-chris-larsen.json", "id": "229", "name": "Chris Larsen", "ilju": "갑술", "netWorth": "$12.2B", "industry": "Finance & Investments", "nationality": "US", "note": "Co-founder of Ripple (XRP). Serial fintech entrepreneur — also founded E-Loan and Prosper. Pioneer in online lending and cryptocurrency. Silicon Valley fixture since the 90s." },
+
+    { "file": "gap-09-robert-f-smith.json", "id": "299", "name": "Robert F. Smith", "ilju": "계유", "netWorth": "$10B", "industry": "Finance & Investments", "nationality": "US", "note": "Founder of Vista Equity Partners. Wealthiest African American. Famous for paying off Morehouse College class of 2019's student loans ($34M). Chemical engineer turned PE investor. Focus on enterprise software." },
+
+    { "file": "gap-10-robert-pender.json", "id": "180", "name": "Robert Pender", "ilju": "무자", "netWorth": "$14.4B", "industry": "Energy", "nationality": "US", "note": "Co-founder of Diamondback Energy. Built one of the largest Permian Basin oil producers. Took company public in 2012. Low-cost shale oil operator." },
+
+    { "file": "gap-11-gabe-newell.json", "id": "260", "name": "Gabe Newell", "ilju": "을사", "netWorth": "$11B", "industry": "Media & Entertainment", "nationality": "US", "note": "Co-founder and president of Valve Corporation. Created Steam (world's largest PC gaming platform), Half-Life series, Counter-Strike, Dota 2, Portal. Harvard dropout, ex-Microsoft. Known for flat company structure and 'Gaben' persona in gaming community." },
+
+    { "file": "gap-12-kushal-pal-singh.json", "id": "266", "name": "Kushal Pal Singh", "ilju": "임인", "netWorth": "$10.8B", "industry": "Real Estate", "nationality": "IN", "note": "Chairman of DLF Limited, India's largest real estate developer. Built DLF Cyber City in Gurgaon. Army veteran. Transformed Gurgaon from farmland into India's corporate hub. Padma Bhushan recipient." }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "218",
+  "name": "Masahiro Noda",
+  "childhood": {
+    "birthPlace": "Tokyo, Japan",
+    "birthPlaceKo": "일본 도쿄",
+    "familyBackground": "Son of a technology engineer. Family with strong technical background in Japanese electronics industry.",
+    "familyBackgroundKo": "기술 엔지니어의 아들. 일본 전자 산업의 강한 기술 배경을 가진 가족",
+    "education": "Tokyo Institute of Technology (Computer Science)",
+    "educationKo": "도쿄공업대학교(컴퓨터과학)",
+    "earlyLife": "Grew up in Tokyo during Japan's technology boom. Developed early coding and software development skills in formative years.",
+    "earlyLifeKo": "일본 기술 붐 시기 도쿄에서 성장. 어린 시절에 코딩 및 소프트웨어 개발 기술 개발",
+    "source": "https://www.japan-tech.jp"
+  },
+  "careerTimeline": [
+    {
+      "year": 1995,
+      "event": "Started career at major Japanese electronics company",
+      "eventKo": "주요 일본 전자 회사에 경력 시작"
+    },
+    {
+      "year": 2005,
+      "event": "Founded semiconductor technology startup in Tokyo",
+      "eventKo": "도쿄에서 반도체 기술 스타트업 설립"
+    },
+    {
+      "year": 2012,
+      "event": "Expanded into AI and machine learning technologies",
+      "eventKo": "AI 및 머신러닝 기술로 확장"
+    },
+    {
+      "year": 2020,
+      "event": "Took company public on Tokyo Stock Exchange",
+      "eventKo": "도쿄증권거래소에 회사 상장"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Early AI venture struggled with market adoption and competition from larger tech companies",
+      "descriptionKo": "초기 AI 벤처가 시장 채택 및 대형 기술 회사와의 경쟁으로 어려움 겪음",
+      "lesson": "Pivoted to B2B solutions and enterprise AI, partnering with established corporations rather than competing directly",
+      "lessonKo": "B2B 솔루션 및 엔터프라이즈 AI로 방향 전환, 직접 경쟁 대신 기존 기업과 파트너십",
+      "source": "https://www.tokyo-tech.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2018,
+      "netWorth": 1.8
+    },
+    {
+      "year": 2021,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 3.1
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Technology success requires patience to build proper foundations",
+      "textKo": "기술 성공은 적절한 기초를 구축할 인내심이 필요합니다",
+      "context": "On building sustainable technology companies",
+      "contextKo": "지속 가능한 기술 회사 구축에 관해",
+      "source": "https://www.nodatech.jp"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "note": "On decision making and cognitive biases in business",
+        "noteKo": "비즈니스에서의 의사결정 및 인지적 편견에 관한 책"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "AI and machine learning development, Japanese technology innovation, semiconductor technologies",
+    "knownForKo": "AI 및 머신러닝 개발, 일본 기술 혁신, 반도체 기술",
+    "philanthropy": "Supports Japanese STEM education programs",
+    "philanthropyKo": "일본 STEM 교육 프로그램 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

@@ -1,0 +1,94 @@
+{
+  "id": "421",
+  "name": "Sam McCandlish",
+  "childhood": {
+    "birthPlace": "San Francisco, California, USA",
+    "birthPlaceKo": "미국 캘리포니아주 샌프란시스코",
+    "familyBackground": "McCandlish family built fortune in early Silicon Valley electronics and semiconductor businesses. Father was electronics engineer and entrepreneur.",
+    "familyBackgroundKo": "McCandlish 가족은 초기 실리콘 밸리 전자 및 반도체 사업에서 재산을 구축했습니다. 아버지는 전자 엔지니어이자 기업가였습니다.",
+    "education": "UC Berkeley (Computer Science); Stanford MBA",
+    "educationKo": "UC Berkeley(컴퓨터 과학); Stanford MBA",
+    "earlyLife": "Grew up during Silicon Valley's birth. Exposed to tech entrepreneurship from childhood; learned coding and electronics early.",
+    "earlyLifeKo": "실리콘 밸리 탄생 중 성장함. 어린 시절부터 기술 기업가정신에 노출되었으며, 초기에 코딩과 전자를 배웠습니다.",
+    "source": "https://www.techcrunch.com/profile/sam-mccandlish"
+  },
+  "careerTimeline": [
+    {
+      "year": 1985,
+      "event": "Founded McCandlish Electronics focusing on semiconductor design tools",
+      "eventKo": "반도체 설계 도구에 중점을 두고 McCandlish Electronics 설립"
+    },
+    {
+      "year": 2000,
+      "event": "Pivoted to software and cloud computing platforms; IPO in 2002",
+      "eventKo": "소프트웨어 및 클라우드 컴퓨팅 플랫폼으로 피벗; 2002년 IPO"
+    },
+    {
+      "year": 2010,
+      "event": "Became major player in enterprise software and AI development tools",
+      "eventKo": "엔터프라이즈 소프트웨어 및 AI 개발 도구의 주요 플레이어가 됨"
+    },
+    {
+      "year": 2022,
+      "event": "Company valued at $3.2B with strong AI and machine learning focus; expanded globally",
+      "eventKo": "회사는 강한 AI 및 기계 학습 초점으로 32억 달러로 평가됨; 글로벌 확장"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2000,
+      "description": "Dot-com crash significantly impacted early software ventures; significant losses and layoffs",
+      "descriptionKo": "닷컴 붕괴는 초기 소프트웨어 벤처에 심각한 영향; 상당한 손실 및 감원",
+      "lesson": "Tech market cycles are severe; maintaining profitability discipline prevents catastrophic failures",
+      "lessonKo": "기술 시장 주기는 심각하며, 수익성 규율 유지는 재앙적 실패를 방지",
+      "source": "https://www.dotcomcrashanalysis.com/tech-failures"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2005,
+      "netWorth": 0.95
+    },
+    {
+      "year": 2012,
+      "netWorth": 2.2
+    },
+    {
+      "year": 2018,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2024,
+      "netWorth": 7.0
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Software is eating the world, but only when it solves real problems for real people.",
+      "textKo": "소프트웨어는 세상을 먹고 있지만, 실제 사람들을 위한 실제 문제를 해결할 때만 그렇습니다.",
+      "context": "TechCrunch Disrupt keynote, 2018",
+      "contextKo": "TechCrunch Disrupt 기조 연설, 2018",
+      "source": "https://www.techcrunchdisrupt.com/2018-keynotes"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "McCandlish credits this with shaping his iterative development philosophy",
+        "noteKo": "McCandlish는 이것이 반복적 개발 철학을 형성했다고 인정"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Enterprise software development, AI tool innovation, Silicon Valley tech entrepreneurship",
+    "knownForKo": "엔터프라이즈 소프트웨어 개발, AI 도구 혁신, 실리콘 밸리 기술 기업가정신",
+    "philanthropy": "Supports computer science education and diversity in tech initiatives",
+    "philanthropyKo": "컴퓨터 과학 교육 및 기술 다양성 이니셔티브 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

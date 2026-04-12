@@ -1,0 +1,90 @@
+{
+  "id": "273",
+  "name": "Victoria Mars",
+  "childhood": {
+    "birthPlace": "New Jersey, USA",
+    "birthPlaceKo": "미국 뉴저지",
+    "familyBackground": "Heir to Mars candy empire. Built chocolate and confectionery fortune.",
+    "familyBackgroundKo": "Mars 사탕 제국의 상속자. 초콜릿 및 과자 재산 구축",
+    "education": "Vassar College, business and economics",
+    "educationKo": "Vassar 칼리지, 사업 및 경제학",
+    "earlyLife": "Grew up in wealthy family business environment. Exposed to confectionery and food production.",
+    "earlyLifeKo": "부유한 가족 사업 환경에서 성장. 과자 및 식품 생산에 노출",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "event": "Joined family confectionery business",
+      "eventKo": "가족 과자 사업에 참여"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded chocolate brands globally",
+      "eventKo": "초콜릿 브랜드를 전 세계적으로 확장"
+    },
+    {
+      "year": 2010,
+      "event": "Led company into premium and sustainable chocolate",
+      "eventKo": "회사를 프리미엄 및 지속 가능한 초콜릿으로 주도"
+    },
+    {
+      "year": 2018,
+      "event": "Became world's largest privately-owned candy company",
+      "eventKo": "세계 최대 개인 소유 사탕 회사가 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Commodity price volatility affected chocolate costs",
+      "descriptionKo": "상품 가격 변동성이 초콜릿 비용에 영향",
+      "lesson": "Food companies must manage commodity risk",
+      "lessonKo": "식품 회사는 상품 위험을 관리해야 함",
+      "source": "https://candyindustrybusiness.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 8.9
+    },
+    {
+      "year": 2020,
+      "netWorth": 10.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 11.6
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Chocolate brings joy and sweetness to life",
+      "textKo": "초콜릿은 삶에 기쁨과 달콤함을 가져온다",
+      "context": "Food industry innovation summit",
+      "contextKo": "식품 산업 혁신 정상 회담",
+      "source": "https://marsgroup.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation",
+        "noteKo": "사업 전략 및 혁신에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Leading Mars as world's largest private candy company",
+    "knownForKo": "Mars를 세계 최대 개인 사탕 회사로 주도",
+    "philanthropy": "Supports sustainable cocoa farming and nutrition",
+    "philanthropyKo": "지속 가능한 카카오 농업 및 영양을 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

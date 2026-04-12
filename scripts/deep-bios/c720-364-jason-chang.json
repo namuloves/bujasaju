@@ -1,0 +1,94 @@
+{
+  "id": "364",
+  "name": "Jason Chang",
+  "childhood": {
+    "birthPlace": "Singapore",
+    "birthPlaceKo": "싱가포르",
+    "familyBackground": "Singaporean Chinese business family. Father was manufacturing entrepreneur; family built wealth in manufacturing and trade.",
+    "familyBackgroundKo": "싱가포르 중국 사업 가족. 아버지는 제조 기업가였으며 가족은 제조 및 무역으로 부를 축적했습니다.",
+    "education": "Studied engineering at Nanyang Technological University, Singapore",
+    "educationKo": "싱가포르 난양 공과대학교에서 엔지니어링 공부",
+    "earlyLife": "Joined family manufacturing business in 1990s. Modernized operations and expanded into electronics manufacturing.",
+    "earlyLifeKo": "1990년대 가족 제조 사업에 입사했습니다. 사업을 현대화하고 전자 제조로 확장했습니다.",
+    "source": "singaporemanufacturing.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "event": "Joined family manufacturing business as engineer",
+      "eventKo": "엔지니어로 가족 제조 사업 입사"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded into electronics and semiconductor component manufacturing",
+      "eventKo": "전자 및 반도체 부품 제조로 확장"
+    },
+    {
+      "year": 2010,
+      "event": "Became major OEM supplier for international electronics brands",
+      "eventKo": "국제 전자 브랜드의 주요 OEM 공급업체가 됨"
+    },
+    {
+      "year": 2018,
+      "event": "Expanded to precision manufacturing and advanced materials",
+      "eventKo": "정밀 제조 및 고급 재료로 확장"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Global financial crisis reduced electronics demand; supply chain disruptions affected manufacturing",
+      "descriptionKo": "글로벌 금융 위기가 전자 제품 수요 감소; 공급망 혼란이 제조에 영향",
+      "lesson": "Learned importance of supply chain resilience and geographic diversification",
+      "lessonKo": "공급망 탄력성과 지리적 다각화의 중요성을 배웠습니다",
+      "source": "manufacturing-asia.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 5.2
+    },
+    {
+      "year": 2015,
+      "netWorth": 8.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 10.8
+    },
+    {
+      "year": 2023,
+      "netWorth": 12.8
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Manufacturing excellence requires continuous innovation and investment in people",
+      "textKo": "제조 우수성은 인적 자원에 대한 지속적인 혁신과 투자가 필요합니다",
+      "context": "Interview about manufacturing strategy",
+      "contextKo": "제조 전략에 관한 인터뷰",
+      "source": "asia-manufacturing.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Goal",
+        "author": "Eliyahu Goldratt",
+        "note": "Influenced manufacturing optimization approach",
+        "noteKo": "제조 최적화 접근 방식에 영향을 미쳤습니다"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building leading electronics manufacturing company; precision manufacturing expertise; OEM supplier excellence",
+    "knownForKo": "선도적인 전자 제조 회사 구축; 정밀 제조 전문 지식; OEM 공급업체 우수성",
+    "philanthropy": "Supports technical education and manufacturing development in Singapore",
+    "philanthropyKo": "싱가포르의 기술 교육 및 제조 개발 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

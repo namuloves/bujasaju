@@ -1,0 +1,36 @@
+DATA QUALITY ISSUES - Korean Billionaire Batch
+
+COMPLETION STATUS: 5 of 7 JSON files created successfully
+
+FILES CREATED:
+✓ kr-31-lee-hae-jin.json (이해진 - Naver founder)
+✓ kr-32-suh-kyung-bae.json (서경배 - Amorepacific chairman)
+✓ kr-33-lee-ho-jin.json (이호진 - Taekwang Group)
+✓ kr-34-kim-taek-jin.json (김택진 - NCSoft founder)
+✓ kr-36-shin-dong-joo.json (신동주 - Lotte Group)
+
+UNRESOLVED ENTRIES:
+
+1. KR-30 (Kim Sang-beom 김상범) - ID: 2348
+   ISSUE: Cannot verify this person as a Korean billionaire in Technology sector
+   - Web searches returned no billionaire matching this name in Korean tech
+   - Found "Kim Bum" (김상범, actor/singer) - NOT a billionaire
+   - Found "Kim Beom-su" (김범수, Kakao founder) - different person, net worth ~$3.2B
+   - POSSIBLE ERROR: Name may be misspelled or wrong person in source data
+   ACTION: Requires clarification on correct name/identification
+
+2. KR-35 (Choi Ki-won 최기원) - ID: 2710
+   ISSUE: Listed person does not match profile description
+   - Searches confirm 최기원 is a WOMAN (SK Group Chairman Choi Tae-won's younger sister)
+   - She is SK Happiness Sharing Foundation director, NOT a billionaire
+   - She is NOT Vice Chairman of SK Discovery
+   - POSSIBLE ERROR: May be confused with 최창원 (Choi Chang-won, SK Discovery vice chairman, male)
+   - 최창원 is a male businessperson but no public net worth data confirms $1.1B wealth
+   ACTION: Requires clarification on correct person - either wrong gender or wrong individual entirely
+
+NOTES:
+- All verifiable individuals (Lee Hae-jin, Suh Kyung-bae, Lee Ho-jin, Kim Taek-jin, Shin Dong-joo) have been researched using Korean sources (Wikipedia Korea, NamuWiki, 나무위키, 위키백과)
+- Each JSON includes proper citations to Korean and English sources
+- All Korean text is original (not machine translated)
+- All quotes sourced from verified Korean media and corporate statements
+- Saju connection values properly set to null as required

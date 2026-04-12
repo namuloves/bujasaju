@@ -1,0 +1,106 @@
+{
+  "id": "503",
+  "name": "Oleg Deripaska",
+  "childhood": {
+    "birthPlace": "Dzerzhinsk, Nizhny Novgorod Oblast, Russia",
+    "birthPlaceKo": "러시아 니즈니노브고로드주 제르진스크",
+    "familyBackground": "Raised by grandparents in southern Russia after parents separated. Grandfather was a factory worker.",
+    "familyBackgroundKo": "부모 이혼 후 러시아 남부에서 조부모에 의해 양육. 할아버지는 공장 노동자.",
+    "education": "Studied physics at Moscow State University. Later studied at the Plekhanov Russian University of Economics.",
+    "educationKo": "모스크바 국립대학교에서 물리학 전공. 이후 플레하노프 러시아 경제대학에서 수학.",
+    "earlyLife": "Grew up during the Soviet era in modest circumstances. Started trading in metals during Russia's chaotic privatization period.",
+    "earlyLifeKo": "소련 시대에 소박한 환경에서 성장. 러시아의 혼란스러운 민영화 시기에 금속 거래 시작.",
+    "source": "Wikipedia, Forbes"
+  },
+  "careerTimeline": [
+    {
+      "year": 1994,
+      "event": "Gained control of aluminum smelters during Russia's privatization era",
+      "eventKo": "러시아 민영화 시대에 알루미늄 제련소 통제권 획득"
+    },
+    {
+      "year": 2000,
+      "event": "Founded RUSAL (Russian Aluminum), becoming the world's largest aluminum producer",
+      "eventKo": "세계 최대 알루미늄 생산업체 루살(러시아 알루미늄) 설립"
+    },
+    {
+      "year": 2007,
+      "event": "RUSAL merged with SUAL and Glencore's alumina assets to create UC RUSAL",
+      "eventKo": "루살이 SUAL 및 글렌코어의 알루미나 자산과 합병해 UC 루살 설립"
+    },
+    {
+      "year": 2010,
+      "event": "RUSAL listed on the Hong Kong Stock Exchange",
+      "eventKo": "루살 홍콩증권거래소 상장"
+    },
+    {
+      "year": 2018,
+      "event": "Hit by US Treasury sanctions, severely impacting business operations",
+      "eventKo": "미국 재무부 제재를 받아 사업 운영에 심각한 영향"
+    },
+    {
+      "year": 2019,
+      "event": "Stepped down from RUSAL board to get sanctions lifted from the company",
+      "eventKo": "회사 제재 해제를 위해 루살 이사회에서 물러남"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2018,
+      "description": "US sanctions froze assets and blocked business dealings, devastating his fortune",
+      "descriptionKo": "미국 제재로 자산 동결 및 거래 차단, 재산에 치명적 타격",
+      "lesson": "Geopolitical exposure can override even the most dominant market position",
+      "lessonKo": "지정학적 노출이 가장 지배적인 시장 지위도 압도할 수 있음",
+      "source": "Financial Times"
+    },
+    {
+      "year": 2008,
+      "description": "Global financial crisis wiped out most of his net worth, dropping from $28B to under $4B",
+      "descriptionKo": "글로벌 금융위기로 순자산 대부분 소멸, 280억 달러에서 40억 달러 미만으로 하락",
+      "lesson": "Commodity-based fortunes are extremely volatile",
+      "lessonKo": "원자재 기반 재산은 극도로 변동적",
+      "source": "Bloomberg"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2008,
+      "netWorth": 28.0
+    },
+    {
+      "year": 2009,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 5.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 3.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.3
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Aluminum is the metal of the future. It's in everything from cars to smartphones.",
+      "textKo": "알루미늄은 미래의 금속이다. 자동차에서 스마트폰까지 모든 것에 들어있다.",
+      "context": "On the aluminum industry",
+      "contextKo": "알루미늄 산업에 대해",
+      "source": "Bloomberg"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Built RUSAL into the world's largest aluminum company. One of Russia's most prominent and controversial oligarchs.",
+    "knownForKo": "루살을 세계 최대 알루미늄 회사로 구축. 러시아에서 가장 저명하고 논란이 많은 과두재벌 중 한 명.",
+    "controversies": "Subject to US sanctions. Alleged ties to Russian government and organized crime during 1990s aluminum wars.",
+    "controversiesKo": "미국 제재 대상. 1990년대 알루미늄 전쟁 중 러시아 정부 및 조직범죄와의 연관 의혹."
+  }
+}

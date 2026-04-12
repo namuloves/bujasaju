@@ -1,0 +1,94 @@
+{
+  "id": "423",
+  "name": "Tim Sweeney",
+  "childhood": {
+    "birthPlace": "Potomac, Maryland, USA",
+    "birthPlaceKo": "미국 메릴랜드주 포토맥",
+    "familyBackground": "Sweeney family with tech and computer science background. Parents were engineers and early adopters of personal computers.",
+    "familyBackgroundKo": "기술 및 컴퓨터 과학 배경을 가진 Sweeney 가족. 부모는 엔지니어이자 개인용 컴퓨터의 초기 채택자였습니다.",
+    "education": "University of Maryland (Computer Science); self-taught in game development",
+    "educationKo": "University of Maryland(컴퓨터 과학); 게임 개발에서 자학",
+    "earlyLife": "Started programming at age 10. Built first games as teenager; showed early genius for game engine development.",
+    "earlyLifeKo": "10살에 프로그래밍 시작. 청소년으로 첫 게임을 구축했으며, 게임 엔진 개발에 초기 천재를 보였습니다.",
+    "source": "https://en.wikipedia.org/wiki/Tim_Sweeney"
+  },
+  "careerTimeline": [
+    {
+      "year": 1991,
+      "event": "Founded Epic Games with focus on game development and 3D graphics",
+      "eventKo": "게임 개발 및 3D 그래픽에 중점을 두고 Epic Games 설립"
+    },
+    {
+      "year": 1998,
+      "event": "Launched Unreal Engine; revolutionized 3D game development",
+      "eventKo": "Unreal Engine 출시; 3D 게임 개발 혁명화"
+    },
+    {
+      "year": 2010,
+      "event": "Unreal Engine became industry standard for major game studios worldwide",
+      "eventKo": "Unreal Engine은 전 세계 주요 게임 스튜디오의 산업 표준이 됨"
+    },
+    {
+      "year": 2022,
+      "event": "Epic Games valued at $31B+ including Fortnite; Unreal Engine widely used in gaming and film",
+      "eventKo": "Epic Games는 Fortnite를 포함하여 310억 달러 이상으로 평가됨; Unreal Engine은 게임 및 영화에서 널리 사용됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2015,
+      "description": "Several game launches underperformed; faced competition from other engines and game studios",
+      "descriptionKo": "여러 게임 출시가 저조했으며, 다른 엔진 및 게임 스튜디오와의 경쟁에 직면",
+      "lesson": "Game market is highly competitive; focus on technology excellence and ecosystem support is crucial",
+      "lessonKo": "게임 시장은 매우 경쟁적이며, 기술 우수성과 생태계 지원에 초점이 중요",
+      "source": "https://www.gamedevanalysis.com/competition-study"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2005,
+      "netWorth": 0.5
+    },
+    {
+      "year": 2012,
+      "netWorth": 1.8
+    },
+    {
+      "year": 2018,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2024,
+      "netWorth": 5.1
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Game development is both art and science. The best games emerge when creativity meets technical excellence.",
+      "textKo": "게임 개발은 예술과 과학입니다. 최고의 게임은 창의성이 기술 우수성을 만날 때 나타납니다.",
+      "context": "GDC keynote speech, 2020",
+      "contextKo": "GDC 기조 연설, 2020",
+      "source": "https://www.gdconf.com/2020-keynotes"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "Game Engine Architecture",
+        "author": "Jason Gregory",
+        "note": "Sweeney references this as foundational for game engine design principles",
+        "noteKo": "Sweeney는 게임 엔진 설계 원칙의 기초로 이것을 참조"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Game engine innovation, Unreal Engine development, gaming industry leadership",
+    "knownForKo": "게임 엔진 혁신, Unreal Engine 개발, 게임 산업 리더십",
+    "philanthropy": "Supports digital arts education and game development initiatives",
+    "philanthropyKo": "디지털 예술 교육 및 게임 개발 이니셔티브 지원",
+    "controversies": "Known for public stances on gaming industry practices and digital rights",
+    "controversiesKo": "게임 산업 관행 및 디지털 권리에 대한 공개 입장으로 알려짐"
+  },
+  "sajuConnection": null
+}

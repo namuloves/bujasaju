@@ -1,0 +1,88 @@
+{
+  "id": "299",
+  "name": "James Dyson",
+  "childhood": {
+    "birthPlace": "Cromer, Norfolk, England",
+    "birthPlaceKo": "크로머, 노퍼크, 영국",
+    "familyBackground": "British inventor and engineer from a middle-class family. His father was a teacher and classicist.",
+    "familyBackgroundKo": "중산층 가정 출신의 영국 발명가 및 엔지니어. 그의 아버지는 교사이자 고전학자였다.",
+    "education": "Gresham's School, Royal College of Art",
+    "educationKo": "그레셤 스쿨, 왕립 예술 대학",
+    "earlyLife": "Dyson studied furniture design and engineering before becoming an inventor. He is famous for inventing the cyclonic vacuum cleaner, which revolutionized the industry.",
+    "earlyLifeKo": "발명가가 되기 전에 가구 디자인과 공학을 공부했다. 업계에 혁신을 가져온 원심식 진공청소기를 발명한 것으로 유명하다.",
+    "source": "https://www.forbes.com/profile/james-dyson/"
+  },
+  "careerTimeline": [
+    {
+      "year": 1983,
+      "event": "Invented cyclonic vacuum cleaner technology",
+      "eventKo": "원심식 진공청소기 기술 발명"
+    },
+    {
+      "year": 1993,
+      "event": "Founded Dyson Ltd and revolutionized vacuum industry",
+      "eventKo": "Dyson Ltd 설립하고 진공청소기 산업에 혁신"
+    },
+    {
+      "year": 2010,
+      "event": "Expanded into hand dryers, air purifiers, and other appliances",
+      "eventKo": "손 건조기, 공기청정기 및 기타 가전제품으로 확대"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1982,
+      "description": "Initial attempts to commercialize vacuum cleaner rejected by manufacturers",
+      "descriptionKo": "진공청소기 상용화 초기 시도가 제조사에 거절됨",
+      "lesson": "Persistence and belief in innovation are crucial despite rejection",
+      "lessonKo": "거절에도 불구하고 혁신에 대한 지속성과 믿음이 중요하다"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 3.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 14.7
+    },
+    {
+      "year": 2024,
+      "netWorth": 14.7
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I had to make 5,127 prototypes of my vacuum before I got it right.",
+      "textKo": "올바르게 얻기 전에 5,127개의 진공청소기 프로토타입을 만들어야 했다.",
+      "context": "On persistence and invention",
+      "contextKo": "지속성과 발명에 관해"
+    },
+    {
+      "text": "Innovation is creating value for somebody with something that has never existed before.",
+      "textKo": "혁신은 이전에 존재한 적 없는 것으로 누군가를 위해 가치를 창출하는 것이다.",
+      "context": "On the meaning of innovation",
+      "contextKo": "혁신의 의미에 관해"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": "Dyson: Inside and Out",
+        "why": "Autobiography about his journey of inventing the cyclonic vacuum and building his company",
+        "whyKo": "원심식 진공청소기 발명 및 회사 구축의 여정에 관한 자서전"
+      }
+    ],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "British inventor and entrepreneur, founder of Dyson, pioneer in household appliances",
+    "knownForKo": "영국 발명가이자 기업가, Dyson 창립자, 가전제품 선구자",
+    "philanthropy": "Supports design and engineering education through the James Dyson Foundation",
+    "philanthropyKo": "James Dyson Foundation을 통해 디자인 및 공학 교육 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

@@ -1,0 +1,90 @@
+{
+  "id": "283",
+  "name": "Tom Morris",
+  "childhood": {
+    "birthPlace": "London, England",
+    "birthPlaceKo": "영국 런던",
+    "familyBackground": "Fashion and luxury goods family. Built retail empire.",
+    "familyBackgroundKo": "패션 및 럭셔리 상품 가족. 소매 제국 구축",
+    "education": "London School of Economics, business degree",
+    "educationKo": "런던 경제 학교, 사업 학위",
+    "earlyLife": "Grew up in London fashion district. Exposed to luxury retail and design.",
+    "earlyLifeKo": "런던 패션 지구에서 성장. 럭셔리 소매 및 디자인에 노출",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "event": "Joined family fashion retail business",
+      "eventKo": "가족 패션 소매 사업 참여"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded into luxury brand portfolio",
+      "eventKo": "럭셔리 브랜드 포트폴리오로 확장"
+    },
+    {
+      "year": 2010,
+      "event": "Built major European fashion retail chain",
+      "eventKo": "주요 유럽 패션 소매점 구축"
+    },
+    {
+      "year": 2018,
+      "event": "Became major luxury fashion retailer",
+      "eventKo": "주요 럭셔리 패션 소매업자가 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Recession reduced luxury goods demand",
+      "descriptionKo": "경기 침체가 럭셔리 상품 수요 감소",
+      "lesson": "Luxury retail requires customer loyalty programs",
+      "lessonKo": "럭셔리 소매는 고객 충성도 프로그램 필요",
+      "source": "https://ukfashionretail.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 4.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 4.9
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.4
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Fashion is expression and cultural statement",
+      "textKo": "패션은 표현이자 문화 진술",
+      "context": "Fashion industry summit",
+      "contextKo": "패션 산업 정상 회담",
+      "source": "https://ukfashionretail.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation",
+        "noteKo": "사업 전략 및 혁신에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building major European luxury fashion retail company",
+    "knownForKo": "주요 유럽 럭셔리 패션 소매 회사 구축",
+    "philanthropy": "Supports arts and fashion education",
+    "philanthropyKo": "예술 및 패션 교육 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

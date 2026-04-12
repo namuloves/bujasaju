@@ -1,0 +1,90 @@
+{
+  "id": "287",
+  "name": "Joe Gebbia",
+  "childhood": {
+    "birthPlace": "San Francisco, California, USA",
+    "birthPlaceKo": "미국 캘리포니아 샌프란시스코",
+    "familyBackground": "Designer family with entrepreneurial spirit. Encouraged creative thinking.",
+    "familyBackgroundKo": "디자인 가족이고 기업가 정신이 있음. 창의적 사고 권장",
+    "education": "Rhode Island School of Design, graphic design degree",
+    "educationKo": "로드아일랜드 디자인 학교, 그래픽 디자인 학위",
+    "earlyLife": "Grew up in creative family in San Francisco. Exposed to design and technology.",
+    "earlyLifeKo": "샌프란시스코의 창의 가족에서 성장. 디자인 및 기술에 노출",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 2008,
+      "event": "Co-founded online hospitality platform startup",
+      "eventKo": "온라인 접대 플랫폼 스타트업 공동 설립"
+    },
+    {
+      "year": 2011,
+      "event": "Platform achieved product-market fit",
+      "eventKo": "플랫폼이 제품-시장 적합 달성"
+    },
+    {
+      "year": 2012,
+      "event": "Raised significant Series B funding",
+      "eventKo": "상당한 Series B 자금 조달"
+    },
+    {
+      "year": 2015,
+      "event": "Became major travel and hospitality platform",
+      "eventKo": "주요 여행 및 접대 플랫폼이 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2009,
+      "description": "Initial platform faced user adoption challenges",
+      "descriptionKo": "초기 플랫폼이 사용자 채택 도전 직면",
+      "lesson": "Marketplace platforms require critical mass of users",
+      "lessonKo": "마켓플레이스 플랫폼은 사용자의 임계 질량 필요",
+      "source": "https://airbnb.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 4.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 6.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 7.8
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Design thinking transforms how people connect and travel",
+      "textKo": "디자인 사고는 사람들의 연결 및 여행 방식을 변환",
+      "context": "Design conference keynote",
+      "contextKo": "디자인 회의 기조",
+      "source": "https://airbnb.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation",
+        "noteKo": "사업 전략 및 혁신에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building world's largest online hospitality platform",
+    "knownForKo": "세계 최대 온라인 접대 플랫폼 구축",
+    "philanthropy": "Supports housing and community initiatives",
+    "philanthropyKo": "주택 및 지역사회 계획 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

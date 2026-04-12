@@ -1,0 +1,121 @@
+{
+  "id": "138",
+  "name": "Charles Ergen",
+  "nameKo": "찰스 어건",
+  "netWorth": "$18B",
+  "nationality": "US",
+  "industry": "Media & Entertainment",
+  "childhood": {
+    "birthPlace": "Oak Ridge, Tennessee, United States",
+    "birthPlaceKo": "오크리지, 테네시, 미국",
+    "familyBackground": "Born March 1, 1953, as the fourth of five children to Viola (née Siebenthal) and William Krasny Ergen. Mother was one of the first female accountants in Minnesota. Father was an Austrian immigrant who worked as a nuclear physicist in Sweden before emigrating to the US, and famously coined the phrase 'China syndrome.'",
+    "familyBackgroundKo": "1953년 3월 1일 비올라(구 지벤탈) 그리고 윌리엄 크래스니 어건 부부의 다섯 자녀 중 넷째로 태어남. 어머니는 미네소타 주에서 최초의 여성 회계사 중 한 명. 아버지는 오스트리아 이민자로 스웨덴에서 핵물리학자로 일했으며 '중국 신드롬'이라는 표현을 만들어냈다.",
+    "education": "Graduated with an M.B.A. from Wake Forest University in 1976. Prior to business school, worked as a financial analyst for Frito-Lay.",
+    "educationKo": "1976년 웨이크포레스트 대학교에서 MBA 졸업. 대학원 이전 프리토레이의 재무 분석가로 근무.",
+    "earlyLife": "After graduating, Ergen worked briefly as a financial analyst but sought independence. In 1978, he 'retired' from corporate life to pursue entrepreneurial ventures and became a professional gambler, playing poker and blackjack. In 1980, while in Las Vegas with business partner Jim DeFranco, they were ejected from a casino after being accused of counting cards. This pivotal moment led them to spot a truck carrying a satellite television dish and impulsively decide to enter the satellite television business. This seemingly chance encounter sparked the creation of EchoStar, which would transform the media industry.",
+    "earlyLifeKo": "졸업 후 재무 분석가로 잠시 일했지만 독립을 추구했다. 1978년 기업 생활에서 '은퇴'하여 사업 벤처를 추구하고 포커와 블랙잭을 하는 프로 도박꾼이 되었다. 1980년 비즈니스 파트너 짐 디프랑코와 함께 라스베이거스에서 카드 카운팅 혐의로 카지노에서 쫓겨났다. 이 결정적인 순간은 그들이 위성 텔레비전 접시를 나르는 트럭을 발견하고 충동적으로 위성 텔레비전 사업에 진입하기로 결정하게 했다. 이 우연한 만남은 미디어 산업을 변모시킬 에코스타의 창설을 촉발했다.",
+    "source": "Wikipedia, Encyclopedia.com, Our Tennessee"
+  },
+  "careerTimeline": [
+    {
+      "year": 1976,
+      "event": "Graduated from Wake Forest University with M.B.A. degree. Worked as financial analyst for Frito-Lay.",
+      "eventKo": "웨이크포레스트 대학교에서 MBA 졸업. 프리토레이의 재무 분석가로 근무."
+    },
+    {
+      "year": 1978,
+      "event": "Retired from corporate work to pursue entrepreneurial ventures. Became a professional gambler playing poker and blackjack.",
+      "eventKo": "기업 업무에서 은퇴하여 사업 벤처 추구. 포커와 블랙잭을 하는 프로 도박꾼이 됨."
+    },
+    {
+      "year": 1980,
+      "event": "Ejected from Las Vegas casino for allegedly counting cards. Founded EchoSphere Corporation with future wife Candy Ergen and Jim DeFranco, investing $60,000 in two C-Band antennas. Began selling satellite dishes from the back of a truck in rural Colorado.",
+      "eventKo": "라스베이거스 카지노에서 카드 카운팅 혐의로 쫓겨남. 미래의 아내 캔디 어건과 짐 디프랑코와 함께 에코스피어 주식회사 설립, 2개의 C-밴드 안테나에 6만 달러 투자. 콜로라도 시골 지역에서 트럭 뒤에서 위성 접시 판매 시작."
+    },
+    {
+      "year": 1987,
+      "event": "EchoStar applied for direct broadcast satellite (DBS) license from the Federal Communications Commission.",
+      "eventKo": "에코스타, 연방통신위원회에 직접 방송 위성(DBS) 라이선스 신청."
+    },
+    {
+      "year": 1990,
+      "event": "Elevated EchoStar's profile by raising $335 million in junk bonds and purchasing orbital slots for satellites.",
+      "eventKo": "정크본드로 3억 3500만 달러를 조달하고 위성 궤도 슬롯 구매하여 에코스타의 위상 높임."
+    },
+    {
+      "year": 1992,
+      "event": "Granted DBS license and access to geostationary orbital slot 119° west longitude.",
+      "eventKo": "DBS 라이선스와 119°W 지구 정지 궤도 슬롯 접근 권한 부여."
+    },
+    {
+      "year": 2004,
+      "event": "EchoStar had grown to 15,000 employees and nine satellites, serving nine million direct-to-home subscribers.",
+      "eventKo": "에코스타 직원 1만 5000명, 위성 9개로 성장, 900만 가정용 구독자 서빙."
+    }
+  ],
+  "failures": [
+    {
+      "year": 2010,
+      "description": "Launched AutoHop technology allowing viewers to skip commercials, leading to major conflict with broadcast networks. The Big Four broadcasters (NBC, CBS, ABC, Fox) filed a major lawsuit against Dish Network in 2012.",
+      "descriptionKo": "광고 건너뛰기가 가능한 오토홉 기술 출시로 방송 네트워크와 주요 갈등 야기. 빅4 방송사(NBC, CBS, ABC, 폭스)가 2012년 디시 네트워크 상대 대규모 소송 제기.",
+      "lesson": "Aggressive customer-friendly innovations can provoke powerful industry opposition. Building technology without considering content creator relationships can create legal and industry challenges that require years to resolve.",
+      "lessonKo": "공격적인 고객 친화적 혁신은 강력한 산업 반발을 초래할 수 있다. 콘텐츠 제작자 관계를 고려하지 않고 기술을 구축하면 해결에 수년이 걸리는 법적 및 산업 문제가 발생할 수 있다.",
+      "source": "Hollywood Reporter, Wikipedia"
+    },
+    {
+      "year": 2013,
+      "description": "Harbinger Capital Partners filed a $1 billion lawsuit against Dish Network and Ergen personally, alleging racketeering related to LightSquared bankruptcy. Bankruptcy Judge Robert Drain criticized Ergen and Harbinger for not participating in mediation in good faith.",
+      "descriptionKo": "하버거 캐피탈 파트너스가 라이트스퀘어드 파산 관련 부정행위 혐의로 디시 네트워크와 어건 개인을 상대로 10억 달러 소송 제기. 파산 판사 로버트 드레인이 어건과 하버거를 성실하지 않은 중재 참여로 비판.",
+      "lesson": "Aggressive business tactics and questionable mediation behavior can damage credibility in legal disputes. Large financial commitments to struggling assets require transparent dealings and good-faith negotiations.",
+      "lessonKo": "공격적 사업 전술과 의심스러운 중재 행동은 법적 분쟁에서 신용도를 손상시킬 수 있다. 어려운 자산에 대한 대규모 재정 투자는 투명한 거래와 성실한 협상이 필요하다.",
+      "source": "Mediation.com, Variety"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 1990,
+      "netWorth": 0.05
+    },
+    {
+      "year": 1995,
+      "netWorth": 0.3
+    },
+    {
+      "year": 2000,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2005,
+      "netWorth": 4.0
+    },
+    {
+      "year": 2010,
+      "netWorth": 7.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 11.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 15.0
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Shrewd, combative leadership style. Known as unpredictable, wily, mercenary, and scrappy. Built Dish Network through aggressive cost control and bold strategic decisions. Willing to take on larger competitors like John Malone and Rupert Murdoch. Penny-pinching approach to business expenses applied equally to executives and staff.",
+    "knownForKo": "기민한 전투적 리더십 스타일. 예측 불가능하고, 영리하고, 변덕스럽고, 투지 있는 것으로 알려짐. 공격적 원가 통제와 대담한 전략 결정을 통해 디시 네트워크 구축. 존 말론, 루퍼트 머독 같은 더 큰 경쟁사에 대항하기를 선호. 사업비용에 대한 검소한 접근을 임원과 직원 모두에게 동등하게 적용.",
+    "philanthropy": null,
+    "philanthropyKo": null,
+    "controversies": "Described as 'the entertainment industry's Enemy No. 1.' Multiple major lawsuits with broadcasters and content providers. Criticized for penny-pinching that affected employee morale. Involved in LightSquared bankruptcy litigation where a federal judge criticized his mediation behavior. Known for aggressive negotiation tactics and willingness to hold onto losing ventures for strategic leverage.",
+    "controversiesKo": "'엔터테인먼트 산업의 1순위 적'으로 묘사됨. 방송사 및 콘텐츠 제공자와 여러 주요 소송. 직원 사기에 영향을 미친 검소함으로 비판받음. 연방 판사가 중재 행동을 비판한 라이트스퀘어드 파산 소송 연루. 공격적 협상 전술과 전략적 영향력을 위해 손실 벤처를 유지하려는 의지로 알려짐."
+  },
+  "sajuConnection": {
+    "note": "Leave null.",
+    "value": null
+  }
+}

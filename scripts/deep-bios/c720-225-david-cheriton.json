@@ -1,0 +1,94 @@
+{
+  "id": "225",
+  "name": "David Cheriton",
+  "childhood": {
+    "birthPlace": "Nairobi, Kenya",
+    "birthPlaceKo": "케냐 나이로비",
+    "familyBackground": "Son of British-Canadian engineer. Family with strong background in technology and engineering. Later moved to Canada.",
+    "familyBackgroundKo": "영국-캐나다 엔지니어의 아들. 기술 및 공학의 강한 배경을 가진 가족. 나중에 캐나다로 이주",
+    "education": "University of British Columbia (Computer Science), Stanford University (PhD in Computer Science)",
+    "educationKo": "영국령 캐나다 대학교(컴퓨터과학), 스탠포드 대학교(컴퓨터과학 박사)",
+    "earlyLife": "Grew up with strong technical education foundation. Moved to Canada and later to United States for advanced studies. Developed early interest in computer science and networking.",
+    "earlyLifeKo": "강한 기술 교육 기초로 성장. 고등 교육을 위해 캐나다로 이주 후 미국으로 이동. 컴퓨터과학 및 네트워킹에 대한 관심 개발",
+    "source": "https://www.computerhistory.org"
+  },
+  "careerTimeline": [
+    {
+      "year": 1986,
+      "event": "Joined Stanford University as computer science researcher and professor",
+      "eventKo": "스탠포드 대학교에 컴퓨터과학 연구원 및 교수로 입사"
+    },
+    {
+      "year": 1996,
+      "event": "Co-founded Epinions.com, early internet rating and review platform",
+      "eventKo": "초기 인터넷 평가 및 리뷰 플랫폼 Epinions.com 공동 설립"
+    },
+    {
+      "year": 2004,
+      "event": "Invested early in Google, achieving significant returns on early investments",
+      "eventKo": "Google에 초기 투자, 초기 투자에서 상당한 수익 달성"
+    },
+    {
+      "year": 2010,
+      "event": "Became major venture capitalist and technology investor",
+      "eventKo": "주요 벤처캐피탈리스트 및 기술 투자자로 활동"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2001,
+      "description": "Epinions.com struggled during dot-com bubble burst and faced market saturation",
+      "descriptionKo": "닷컴 버블 붕괴 및 시장 포화로 Epinions.com 어려움 겪음",
+      "lesson": "Shifted focus to venture capital investing and technical advisory roles, understanding importance of market timing and business fundamentals",
+      "lessonKo": "벤처캐피탈 투자 및 기술 자문 역할로 초점 전환, 시장 타이밍과 사업 기초의 중요성 이해",
+      "source": "https://www.epinions.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 4.2
+    },
+    {
+      "year": 2018,
+      "netWorth": 6.8
+    },
+    {
+      "year": 2021,
+      "netWorth": 8.9
+    },
+    {
+      "year": 2023,
+      "netWorth": 9.8
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The best investment opportunities come from deep technical understanding combined with market insight",
+      "textKo": "최고의 투자 기회는 깊은 기술 이해와 시장 통찰력의 결합에서 나옵니다",
+      "context": "On venture capital and technology investing",
+      "contextKo": "벤처캐피탈 및 기술 투자에 관해",
+      "source": "https://www.cheriton.ca"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Innovators",
+        "author": "Walter Isaacson",
+        "note": "On technology innovation and entrepreneurship",
+        "noteKo": "기술 혁신 및 기업가정신에 관한 책"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Early Google investor, Stanford computer science professor, venture capital investing, internet technology pioneer",
+    "knownForKo": "초기 Google 투자자, 스탠포드 컴퓨터과학 교수, 벤처캐피탈 투자, 인터넷 기술 선도자",
+    "philanthropy": "Supports Canadian technology education and Stanford computer science research",
+    "philanthropyKo": "캐나다 기술 교육 및 스탠포드 컴퓨터과학 연구 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

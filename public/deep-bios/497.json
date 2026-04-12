@@ -1,0 +1,114 @@
+{
+  "id": "497",
+  "name": "James H. Clark",
+  "childhood": {
+    "birthPlace": "Plainview, Texas, USA",
+    "birthPlaceKo": "미국 텍사스주 플레인뷰",
+    "familyBackground": "Born into a poor family in rural Texas. Parents divorced when he was young. Mother worked multiple jobs.",
+    "familyBackgroundKo": "텍사스 시골의 가난한 가정에서 태어남. 어릴 때 부모 이혼. 어머니가 여러 직업을 가짐.",
+    "education": "Dropped out of high school at 16. Later earned a PhD in computer science from the University of Utah.",
+    "educationKo": "16세에 고등학교 중퇴. 이후 유타 대학교에서 컴퓨터 과학 박사 학위 취득.",
+    "earlyLife": "Was a troubled youth who dropped out of school, joined the Navy, and later discovered his passion for computing.",
+    "earlyLifeKo": "학교를 중퇴하고 해군에 입대한 방황하는 청소년이었으나 이후 컴퓨팅에 대한 열정 발견.",
+    "source": "Wikipedia, Forbes"
+  },
+  "careerTimeline": [
+    {
+      "year": 1982,
+      "event": "Founded Silicon Graphics Inc. (SGI), pioneering 3D computer graphics",
+      "eventKo": "3D 컴퓨터 그래픽스의 선구자 실리콘 그래픽스(SGI) 설립"
+    },
+    {
+      "year": 1994,
+      "event": "Co-founded Netscape Communications with Marc Andreessen, launching the web browser revolution",
+      "eventKo": "마크 앤드리슨과 넷스케이프 커뮤니케이션즈 공동 설립, 웹 브라우저 혁명 시작"
+    },
+    {
+      "year": 1995,
+      "event": "Netscape IPO sparked the dot-com boom; stock rose 108% on first day",
+      "eventKo": "넷스케이프 IPO가 닷컴 붐을 촉발; 첫날 주가 108% 상승"
+    },
+    {
+      "year": 1996,
+      "event": "Co-founded Healtheon, an early health technology company, later merged with WebMD",
+      "eventKo": "초기 건강 기술 회사 헬시온 공동 설립, 이후 웹엠디와 합병"
+    },
+    {
+      "year": 1999,
+      "event": "Netscape acquired by AOL for $4.2 billion",
+      "eventKo": "넷스케이프가 AOL에 42억 달러에 인수"
+    },
+    {
+      "year": 2004,
+      "event": "Co-founded Shutterfly, the online photo service",
+      "eventKo": "온라인 사진 서비스 셔터플라이 공동 설립"
+    },
+    {
+      "year": 2012,
+      "event": "Focused on investment and philanthropy, particularly in ocean exploration",
+      "eventKo": "투자와 자선 활동, 특히 해양 탐사에 집중"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1993,
+      "description": "Was pushed out of Silicon Graphics by the board despite founding the company",
+      "descriptionKo": "회사를 설립했음에도 이사회에 의해 실리콘 그래픽스에서 밀려남",
+      "lesson": "Founder control matters; being pushed out fueled his drive to found Netscape",
+      "lessonKo": "창업자 통제권이 중요; 밀려남이 넷스케이프 설립의 원동력",
+      "source": "Fortune"
+    },
+    {
+      "year": 2000,
+      "description": "Dot-com bust wiped out billions in paper wealth",
+      "descriptionKo": "닷컴 버블 붕괴로 수십억 달러의 장부상 부 소멸",
+      "lesson": "Paper wealth can evaporate overnight; diversification is essential",
+      "lessonKo": "장부상의 부는 하룻밤에 증발할 수 있음; 다각화가 필수",
+      "source": "Bloomberg"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2000,
+      "netWorth": 3.0
+    },
+    {
+      "year": 2005,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.3
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I'm a high school dropout who went on to start three billion-dollar companies. Credentials don't matter as much as people think.",
+      "textKo": "나는 고등학교 중퇴자로 세 개의 10억 달러 기업을 시작했다. 자격은 사람들이 생각하는 것만큼 중요하지 않다.",
+      "context": "On his unconventional path",
+      "contextKo": "비전통적 경로에 대해",
+      "source": "Forbes"
+    },
+    {
+      "text": "Netscape made the internet accessible to ordinary people. That was our contribution.",
+      "textKo": "넷스케이프는 일반 사람들이 인터넷에 접근할 수 있게 했다. 그것이 우리의 기여였다.",
+      "context": "On Netscape's impact",
+      "contextKo": "넷스케이프의 영향에 대해",
+      "source": "Wired"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Serial tech entrepreneur: founded Silicon Graphics, Netscape, and Healtheon. High school dropout turned billionaire.",
+    "knownForKo": "연쇄 기술 창업가: 실리콘 그래픽스, 넷스케이프, 헬시온 설립. 고등학교 중퇴에서 억만장자로.",
+    "philanthropy": "Funded ocean exploration through his superyacht expeditions and donated to medical research.",
+    "philanthropyKo": "슈퍼요트 탐험을 통한 해양 탐사 자금 지원 및 의학 연구에 기부."
+  }
+}

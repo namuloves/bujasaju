@@ -1,0 +1,117 @@
+{
+  "$schema": "Deep biography schema for KOREAN billionaire profiles on 부자사주 — Special Korean batch (44 people)",
+  "$instructions": "For each Korean billionaire listed below, research and fill in as many fields as possible.\n\nIMPORTANT — RESEARCH SOURCES:\nThese are Korean public figures. English Wikipedia and Forbes often have MINIMAL or INCORRECT information about them.\n- PRIMARY source: 네이버 인물검색 (https://search.naver.com/search.naver?query=인물이름), 나무위키, 한국어 위키백과\n- SECONDARY: 한국경제, 매일경제, 조선일보 인물 기사, 재벌닷컴\n- TERTIARY: Forbes Korea, Bloomberg\n- For career timelines: search 네이버 뉴스 for '[인물이름] 이력' or '[인물이름] 약력'\n- For wealth data: search '[인물이름] 자산' or '[인물이름] 재산'\n- For quotes: search '[인물이름] 명언' or '[인물이름] 어록' on Naver\n\nCRITICAL RULES:\n\n1. BILINGUAL: Every text field must have BOTH English AND Korean versions. Korean fields add a 'Ko' suffix. Korean text must be natural, fluent Korean.\n\n2. KOREAN ALIGNMENT: eventKo MUST translate the SAME event on the SAME object. Never shift or reorder.\n\n3. WEALTH VALUES: All netWorth values in wealthHistory MUST be in BILLIONS USD. 24.5 = $24.5 billion. NOT raw won amounts.\n\n4. IDs: The 'id' field MUST exactly match the targetList. This links the bio to the correct person.\n\n5. FILES: Save each file in scripts/deep-bios/ using the exact filename shown.\n\n6. KOREAN NAMES: Use the Korean name (nameKo) as the primary reference. Many of these people are chaebol family members — make sure you have the RIGHT person (e.g., 이부진 is Hotel Shilla CEO, daughter of 이건희, NOT her sister 이서현).\n\n7. CHAEBOL CONTEXT: For chaebol family members, clearly explain their family relationship and which group they belong to (삼성, 현대, SK, LG, 롯데, etc.)\n\n8. QUOTES: Only include real, verifiable quotes. Korean business leaders are often quoted in Korean media — search 네이버 for '[이름] 명언' or '[이름] 어록'.\n\n9. UNKNOWN INFO: If information is not available, leave that field as null or empty array. Do not fabricate facts.\n\n10. VERIFY FACTS: Double-check birth dates, family relationships, and company roles against multiple Korean sources. English sources frequently have errors about Korean billionaires.",
+
+  "outputSchema": {
+    "id": "string — must match targetList exactly",
+    "name": "string",
+
+    "childhood": {
+      "birthPlace": "City, Country in English",
+      "birthPlaceKo": "도시, 국가 (한국어)",
+      "familyBackground": "Family background — for chaebol members, explain which family/group",
+      "familyBackgroundKo": "가정 배경 — 재벌 가문의 경우 어느 그룹인지 명시",
+      "education": "Education history",
+      "educationKo": "학력",
+      "earlyLife": "2–4 sentences about early life",
+      "earlyLifeKo": "성장 과정 2–4문장",
+      "source": "네이버, 나무위키, Wikipedia, etc."
+    },
+
+    "careerTimeline": [
+      { "year": 1990, "event": "English description", "eventKo": "동일한 이벤트의 한국어 번역" }
+    ],
+
+    "failures": [
+      {
+        "year": 2000,
+        "description": "Failure or setback in English",
+        "descriptionKo": "실패나 좌절 한국어 설명",
+        "lesson": "What they learned",
+        "lessonKo": "배운 점 한국어",
+        "source": "Source"
+      }
+    ],
+
+    "wealthHistory": [
+      { "year": 2015, "netWorth": 5.2 },
+      { "year": 2020, "netWorth": 7.8 }
+    ],
+
+    "quotes": [
+      {
+        "text": "Exact quote in English",
+        "textKo": "한국어 원문 (가능하면 원문 그대로, 번역이 아닌 실제 발언)",
+        "context": "When/why they said it",
+        "contextKo": "발언 맥락",
+        "source": "매체명"
+      }
+    ],
+
+    "books": {
+      "authored": [],
+      "recommended": []
+    },
+
+    "personalTraits": {
+      "knownFor": "What they are most known for",
+      "knownForKo": "가장 잘 알려진 특징",
+      "philanthropy": "Charitable work or null",
+      "philanthropyKo": "자선 활동 또는 null",
+      "controversies": "Notable controversies or null",
+      "controversiesKo": "주요 논란 또는 null"
+    },
+
+    "sajuConnection": {
+      "note": "Leave this null.",
+      "value": null
+    }
+  },
+
+  "targetList": [
+    { "file": "kr-01-lee-boo-jin.json", "id": "392", "name": "Lee Boo-jin", "nameKo": "이부진", "netWorth": "$8.2B", "industry": "Technology", "note": "삼성 이건희 장녀, 호텔신라 대표" },
+    { "file": "kr-02-lee-seo-hyun.json", "id": "429", "name": "Lee Seo-hyun", "nameKo": "이서현", "netWorth": "$7.8B", "industry": "Technology", "note": "삼성 이건희 차녀, 삼성복지재단 이사장" },
+    { "file": "kr-03-cho-jung-ho.json", "id": "440", "name": "Cho Jung-ho", "nameKo": "조정호", "netWorth": "$7.7B", "industry": "Finance & Investments", "note": "메리츠금융지주 회장" },
+    { "file": "kr-04-seo-jung-jin.json", "id": "443", "name": "Seo Jung-jin", "nameKo": "서정진", "netWorth": "$7.6B", "industry": "Healthcare", "note": "셀트리온 창업자" },
+    { "file": "kr-05-hong-ra-hee.json", "id": "452", "name": "Hong Ra-hee", "nameKo": "홍라희", "netWorth": "$7.5B", "industry": "Technology", "note": "삼성 이건희 부인, 리움미술관 전 관장" },
+    { "file": "kr-06-mong-koo-chung.json", "id": "516", "name": "Mong-Koo Chung", "nameKo": "정몽구", "netWorth": "$6.9B", "industry": "Automotive", "note": "현대자동차그룹 명예회장" },
+    { "file": "kr-07-euisun-chung.json", "id": "629", "name": "Euisun Chung", "nameKo": "정의선", "netWorth": "$5.9B", "industry": "Automotive", "note": "현대자동차그룹 회장, 정몽구 아들" },
+    { "file": "kr-08-kwak-dong-shin.json", "id": "737", "name": "Kwak Dong Shin", "nameKo": "곽동신", "netWorth": "$5.2B", "industry": "Technology", "note": "알테오젠 창업자" },
+    { "file": "kr-09-park-hyeon-joo.json", "id": "829", "name": "Park Hyeon-joo", "nameKo": "박현주", "netWorth": "$4.6B", "industry": "Finance & Investments", "note": "미래에셋그룹 창업자 및 회장" },
+    { "file": "kr-10-kim-beom-su.json", "id": "1091", "name": "Kim Beom-su", "nameKo": "김범수", "netWorth": "$3.5B", "industry": "Technology", "note": "카카오 창업자" },
+    { "file": "kr-11-yoon-dae-in.json", "id": "1094", "name": "Yoon Dae-in", "nameKo": "윤대인", "netWorth": "$3.5B", "industry": "Healthcare", "note": "" },
+    { "file": "kr-12-cho-hyun-joon.json", "id": "1304", "name": "Cho Hyun-joon", "nameKo": "조현준", "netWorth": "$2.8B", "industry": "Diversified", "note": "효성그룹 회장" },
+    { "file": "kr-13-kim-jun-ki.json", "id": "1346", "name": "Kim Jun-ki", "nameKo": "김준기", "netWorth": "$2.7B", "industry": "Diversified", "note": "DB그룹 창업자" },
+    { "file": "kr-14-chung-mong-joon.json", "id": "1367", "name": "Chung Mong-joon", "nameKo": "정몽준", "netWorth": "$2.7B", "industry": "Manufacturing", "note": "현대중공업 명예회장, 전 국회의원, 2002 월드컵 유치 주역" },
+    { "file": "kr-15-chey-tae-won.json", "id": "1375", "name": "Chey Tae-won", "nameKo": "최태원", "netWorth": "$2.7B", "industry": "Technology", "note": "SK그룹 회장" },
+    { "file": "kr-16-byunghoon-kim.json", "id": "1382", "name": "Byunghoon Kim", "nameKo": "김병훈", "netWorth": "$2.7B", "industry": "Fashion & Retail", "note": "" },
+    { "file": "kr-17-park-soon-jae.json", "id": "1454", "name": "Park Soon-jae", "nameKo": "박순재", "netWorth": "$2.5B", "industry": "Healthcare", "note": "" },
+    { "file": "kr-18-yoo-jung-hyun.json", "id": "1522", "name": "Yoo Jung-hyun", "nameKo": "유정현", "netWorth": "$2.4B", "industry": "Media & Entertainment", "note": "넷마블 의장" },
+    { "file": "kr-19-song-chi-hyung.json", "id": "1555", "name": "Song Chi-hyung", "nameKo": "송치형", "netWorth": "$2.3B", "industry": "Finance & Investments", "note": "두나무(업비트) 창업자" },
+    { "file": "kr-20-lee-dong-chae.json", "id": "1617", "name": "Lee Dong-chae", "nameKo": "이동채", "netWorth": "$2.2B", "industry": "Manufacturing", "note": "에코프로 회장" },
+    { "file": "kr-21-koo-bon-neung.json", "id": "1670", "name": "Koo Bon-neung", "nameKo": "구본능", "netWorth": "$2.2B", "industry": "Technology", "note": "LG 가문, 희성그룹 회장" },
+    { "file": "kr-22-chung-yong-ji.json", "id": "1716", "name": "Chung Yong-ji", "nameKo": "정용지", "netWorth": "$2.1B", "industry": "Healthcare", "note": "" },
+    { "file": "kr-23-chung-yong-jin.json", "id": "1721", "name": "Chung Yong-jin", "nameKo": "정용진", "netWorth": "$2.1B", "industry": "Fashion & Retail", "note": "신세계그룹 부회장, 이마트 경영" },
+    { "file": "kr-24-lee-chae-yoon.json", "id": "1887", "name": "Lee Chae-yoon", "nameKo": "이채윤", "netWorth": "$1.9B", "industry": "Technology", "note": "" },
+    { "file": "kr-25-koo-kwang-mo.json", "id": "1925", "name": "Koo Kwang-mo", "nameKo": "구광모", "netWorth": "$1.9B", "industry": "Diversified", "note": "LG그룹 회장, 구본무 양자" },
+    { "file": "kr-26-koo-bon-sik.json", "id": "1962", "name": "Koo Bon-sik", "nameKo": "구본식", "netWorth": "$1.8B", "industry": "Technology", "note": "LG 가문" },
+    { "file": "kr-27-kim-nam-goo.json", "id": "2002", "name": "Kim Nam-goo", "nameKo": "김남구", "netWorth": "$1.8B", "industry": "Finance & Investments", "note": "한국투자금융지주 회장" },
+    { "file": "kr-28-lee-jay-hyun.json", "id": "2154", "name": "Lee Jay-hyun", "nameKo": "이재현", "netWorth": "$1.6B", "industry": "Diversified", "note": "CJ그룹 회장, 삼성 이병철 손자" },
+    { "file": "kr-29-park-dong-suk.json", "id": "2218", "name": "Park Dong-suk", "nameKo": "박동석", "netWorth": "$1.5B", "industry": "Manufacturing", "note": "" },
+    { "file": "kr-30-kim-sang-beom.json", "id": "2348", "name": "Kim Sang-beom", "nameKo": "김상범", "netWorth": "$1.4B", "industry": "Technology", "note": "" },
+    { "file": "kr-31-lee-hae-jin.json", "id": "2389", "name": "Lee Hae-jin", "nameKo": "이해진", "netWorth": "$1.4B", "industry": "Technology", "note": "네이버 창업자" },
+    { "file": "kr-32-suh-kyung-bae.json", "id": "2455", "name": "Suh Kyung-bae", "nameKo": "서경배", "netWorth": "$1.3B", "industry": "Fashion & Retail", "note": "아모레퍼시픽 회장" },
+    { "file": "kr-33-lee-ho-jin.json", "id": "2693", "name": "Lee Ho-jin", "nameKo": "이호진", "netWorth": "$1.2B", "industry": "Diversified", "note": "태광그룹" },
+    { "file": "kr-34-kim-taek-jin.json", "id": "2697", "name": "Kim Taek-jin", "nameKo": "김택진", "netWorth": "$1.1B", "industry": "Media & Entertainment", "note": "엔씨소프트(NCSoft) 창업자" },
+    { "file": "kr-35-chey-ki-won.json", "id": "2710", "name": "Chey Ki-won", "nameKo": "최기원", "netWorth": "$1.1B", "industry": "Technology", "note": "SK디스커버리 부회장, 최태원 동생" },
+    { "file": "kr-36-shin-dong-joo.json", "id": "2729", "name": "Shin Dong-joo", "nameKo": "신동주", "netWorth": "$1.1B", "industry": "Fashion & Retail", "note": "롯데그룹 신격호 장남" },
+    { "file": "kr-37-hyuntae-kim.json", "id": "2767", "name": "Hyuntae Kim", "nameKo": "김현태", "netWorth": "$1.1B", "industry": "Healthcare", "note": "" },
+    { "file": "kr-38-bang-si-hyuk.json", "id": "2802", "name": "Bang Si-hyuk", "nameKo": "방시혁", "netWorth": "$1.1B", "industry": "Media & Entertainment", "note": "하이브(HYBE) 창업자, BTS 프로듀서" },
+    { "file": "kr-39-hong-seok-joh.json", "id": "2821", "name": "Hong Seok-joh", "nameKo": "홍석조", "netWorth": "$1.1B", "industry": "Fashion & Retail", "note": "BGF그룹(CU편의점) 회장" },
+    { "file": "kr-40-lee-su-jin.json", "id": "2828", "name": "Lee Su-jin", "nameKo": "이수진", "netWorth": "$1.1B", "industry": "Technology", "note": "" },
+    { "file": "kr-41-chang-byung-gyu.json", "id": "2917", "name": "Chang Byung-gyu", "nameKo": "장병규", "netWorth": "$1.1B", "industry": "Technology", "note": "크래프톤(배틀그라운드) 의장" },
+    { "file": "kr-42-lee-seung-gun.json", "id": "2918", "name": "Lee Seung-gun", "nameKo": "이승건", "netWorth": "$1.1B", "industry": "Finance", "note": "토스(비바리퍼블리카) 창업자" },
+    { "file": "kr-43-shin-chang-jae.json", "id": "2919", "name": "Shin Chang-jae", "nameKo": "신창재", "netWorth": "$1B", "industry": "Finance", "note": "교보생명 회장" },
+    { "file": "kr-44-kim-dae-il.json", "id": "2912", "name": "Kim Dae-il", "nameKo": "김대일", "netWorth": "$0.9B", "industry": "Media & Entertainment", "note": "펄어비스(검은사막) 창업자" }
+  ]
+}

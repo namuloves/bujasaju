@@ -1,0 +1,94 @@
+{
+  "id": "235",
+  "name": "Steven Schonfeld",
+  "childhood": {
+    "birthPlace": "New York City, New York, USA",
+    "birthPlaceKo": "미국 뉴욕주 뉴욕시",
+    "familyBackground": "Son of New York businessman and investor. Family with strong financial background in Wall Street.",
+    "familyBackgroundKo": "뉴욕 사업가이자 투자자의 아들. 월스트리트의 강한 금융 배경을 가진 가족",
+    "education": "Cornell University (Economics and Finance)",
+    "educationKo": "코넬 대학교(경제학 및 금융)",
+    "earlyLife": "Grew up in Manhattan with exposure to Wall Street finance and investment banking. Developed early interest in financial markets and trading.",
+    "earlyLifeKo": "월스트리트 금융 및 투자 은행에 노출되며 맨해튼에서 성장. 금융 시장 및 거래에 관심 개발",
+    "source": "https://www.schonfeld.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1988,
+      "event": "Started career as trader on Wall Street",
+      "eventKo": "월스트리트 트레이더로 경력 시작"
+    },
+    {
+      "year": 2000,
+      "event": "Founded Schonfeld Securities hedge fund",
+      "eventKo": "Schonfeld Securities 헤지펀드 설립"
+    },
+    {
+      "year": 2008,
+      "event": "Navigated financial crisis with market-neutral and quantitative trading strategies",
+      "eventKo": "시장 중립 및 정량적 거래 전략으로 금융 위기 극복"
+    },
+    {
+      "year": 2020,
+      "event": "Expanded into algorithmic and high-frequency trading technologies",
+      "eventKo": "알고리즘 및 고빈도 거래 기술로 확장"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2015,
+      "description": "Market volatility and regulatory changes challenged some trading strategies",
+      "descriptionKo": "시장 변동성 및 규제 변경으로 일부 거래 전략 도전",
+      "lesson": "Improved risk management and adapted to new regulatory environment, diversified trading approaches",
+      "lessonKo": "위험 관리 개선 및 새로운 규제 환경 적응, 거래 접근법 다각화",
+      "source": "https://www.schonfeld.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 1.1
+    },
+    {
+      "year": 2018,
+      "netWorth": 1.6
+    },
+    {
+      "year": 2021,
+      "netWorth": 2
+    },
+    {
+      "year": 2023,
+      "netWorth": 2.4
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Successful trading requires discipline, risk management, and constant adaptation to market changes",
+      "textKo": "성공적인 거래는 규율, 위험 관리, 시장 변화에 대한 지속적 적응이 필요합니다",
+      "context": "On hedge fund management and trading philosophy",
+      "contextKo": "헤지펀드 관리 및 거래 철학에 관해",
+      "source": "https://www.schonfeld.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "A Man for All Markets",
+        "author": "Edward Thorp",
+        "note": "On trading, mathematics, and finance",
+        "noteKo": "거래, 수학, 금융에 관한 책"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Hedge fund management, quantitative trading, market-neutral strategies, Wall Street expertise",
+    "knownForKo": "헤지펀드 관리, 정량적 거래, 시장 중립 전략, 월스트리트 전문성",
+    "philanthropy": "Supports financial literacy and mathematics education programs",
+    "philanthropyKo": "금융 문해력 및 수학 교육 프로그램 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

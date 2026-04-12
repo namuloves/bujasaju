@@ -47,9 +47,18 @@ export default function BrowseTab() {
     const filtered = enrichedPeople.filter((person) => {
       if (f.search) {
         const q = f.search.toLowerCase();
+        const qNoSpace = q.replace(/\s+/g, '');
+        const nameEn = person.name.toLowerCase();
+        const nameKo = person.nameKo ?? '';
+        const nameKoNoSpace = nameKo.replace(/\s+/g, '');
+        const src = (person.source ?? '').toLowerCase();
+        const industry = (person.industry ?? '').toLowerCase();
         if (
-          !person.name.toLowerCase().includes(q) &&
-          !(person.nameKo && person.nameKo.includes(f.search))
+          !nameEn.includes(q) &&
+          !nameKo.includes(f.search) &&
+          !nameKoNoSpace.includes(qNoSpace) &&
+          !src.includes(q) &&
+          !industry.includes(q)
         )
           return false;
       }

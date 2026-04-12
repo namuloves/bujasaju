@@ -1,0 +1,90 @@
+{
+  "id": "291",
+  "name": "Oleg Deripaska",
+  "childhood": {
+    "birthPlace": "Krasnoyarsk, Russia",
+    "birthPlaceKo": "러시아 크라스노야르스크",
+    "familyBackground": "Soviet-era chemical engineer family. Built industrial operations.",
+    "familyBackgroundKo": "소비에트 시대 화학 공학 가족. 산업 운영 구축",
+    "education": "Moscow Institute of Steel and Alloys, metallurgy engineering",
+    "educationKo": "모스크바 철강 및 합금 연구소, 야금 공학",
+    "earlyLife": "Grew up in Soviet industrial Siberia. Exposed to heavy industry.",
+    "earlyLifeKo": "소비에트 산업 시베리아에서 성장. 중화학 산업에 노출",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1995,
+      "event": "Founded aluminum trading company",
+      "eventKo": "알루미늄 거래 회사 설립"
+    },
+    {
+      "year": 2000,
+      "event": "Acquired aluminum production facilities",
+      "eventKo": "알루미늄 생산 설비 인수"
+    },
+    {
+      "year": 2005,
+      "event": "Built major Russian aluminum company",
+      "eventKo": "주요 러시아 알루미늄 회사 구축"
+    },
+    {
+      "year": 2015,
+      "event": "Became major global aluminum producer",
+      "eventKo": "주요 글로벌 알루미늄 생산자가 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Global financial crisis reduced aluminum demand",
+      "descriptionKo": "글로벌 금융 위기가 알루미늄 수요 감소",
+      "lesson": "Commodity businesses require hedging strategies",
+      "lessonKo": "상품 사업은 헤징 전략 필요",
+      "source": "https://en.rusal.ru"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 6.8
+    },
+    {
+      "year": 2020,
+      "netWorth": 7.0
+    },
+    {
+      "year": 2023,
+      "netWorth": 7.3
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Aluminum is essential for modern industries",
+      "textKo": "알루미늄은 현대 산업에 필수적",
+      "context": "Aluminum industry conference",
+      "contextKo": "알루미늄 산업 회의",
+      "source": "https://en.rusal.ru"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation",
+        "noteKo": "사업 전략 및 혁신에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building world's major aluminum producer",
+    "knownForKo": "세계의 주요 알루미늄 생산자 구축",
+    "philanthropy": "Supports education and sports initiatives",
+    "philanthropyKo": "교육 및 스포츠 계획 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

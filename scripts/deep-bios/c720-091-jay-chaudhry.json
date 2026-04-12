@@ -1,0 +1,78 @@
+{
+  "id": "410",
+  "name": "Jay Chaudhry",
+  "childhood": {
+    "birthPlace": "Kashmir, India (later moved to United States)",
+    "birthPlaceKo": "인도 카슈미르 (나중에 미국으로 이주)",
+    "familyBackground": "Middle-class family background. Father was an engineer. Immigrated to United States for better educational and economic opportunities.",
+    "familyBackgroundKo": "중산층 가족 배경. 아버지는 엔지니어였음. 더 나은 교육 및 경제적 기회를 위해 미국으로 이민.",
+    "education": "Maharishi University of Management, Bachelor's; Arizona State University, Master's in Computer Science",
+    "educationKo": "마하리시 경영 대학교 학사; 애리조나 주립 대학교 컴퓨터 과학 석사",
+    "earlyLife": "Came to United States in the 1980s as an immigrant student. Worked various IT roles before starting own ventures in the emerging cloud security space.",
+    "earlyLifeKo": "1980년대에 이민 학생으로 미국에 입국. 클라우드 보안 분야에서 자신의 벤처를 시작하기 전에 다양한 IT 역할에서 일함.",
+    "source": "Cloud Security Industry History"
+  },
+  "careerTimeline": [
+    {
+      "year": 1997,
+      "event": "Founded NetScaler (web application performance company)",
+      "eventKo": "NetScaler 설립 (웹 애플리케이션 성능 회사)"
+    },
+    {
+      "year": 2008,
+      "event": "Sold NetScaler to Citrix for $340 million",
+      "eventKo": "NetScaler를 시트릭스에 3억 4천만 달러에 판매"
+    },
+    {
+      "year": 2008,
+      "event": "Founded Zscaler, pioneering zero-trust cloud security platform",
+      "eventKo": "제로트러스트 클라우드 보안 플랫폼을 개척한 Zscaler 설립"
+    },
+    {
+      "year": 2018,
+      "event": "Took Zscaler public on NASDAQ",
+      "eventKo": "Zscaler를 나스닥에 상장"
+    }
+  ],
+  "failures": [],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 2.0
+    },
+    {
+      "year": 2018,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 5.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.9
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Security is not a feature, it's a business imperative",
+      "textKo": "보안은 기능이 아니라 비즈니스 필수 요소입니다",
+      "context": "Interview about cloud security philosophy",
+      "contextKo": "클라우드 보안 철학에 대한 인터뷰",
+      "source": "Industry Interviews"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Visionary entrepreneur who created the zero-trust security framework that became industry standard. Pioneer in cloud security and application performance.",
+    "knownForKo": "업계 표준이 된 제로트러스트 보안 프레임워크를 만든 선견지명이 있는 기업가. 클라우드 보안 및 애플리케이션 성능의 선구자.",
+    "philanthropy": "Supports cybersecurity education and immigrant initiatives",
+    "philanthropyKo": "사이버보안 교육 및 이민자 이니셔티브 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

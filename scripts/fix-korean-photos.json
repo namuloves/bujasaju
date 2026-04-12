@@ -1,0 +1,30 @@
+{
+  "$task": "Find correct portrait photos for Korean billionaires",
+  "$instructions": "For each person below, find a high-quality, publicly accessible portrait photo URL.\n\nSEARCH STRATEGY:\n1. Search Naver (네이버) for the Korean name: https://search.naver.com/search.naver?query=이름\n2. Check 네이버 인물정보 (Naver People) — it often has an official portrait\n3. Search 네이버 이미지 for '[이름] 회장' or '[이름] 대표' for formal portraits\n4. Check 한국어 위키백과 for the person's article — look for the infobox image\n5. Search news articles on 한국경제, 매일경제, 조선비즈 for press photos\n6. Check the company's official website for executive headshots\n\nPHOTO REQUIREMENTS:\n- Must be a direct image URL (ending in .jpg, .png, or a CDN URL that serves an image)\n- Must be a PORTRAIT photo showing their FACE clearly\n- Must be the CORRECT person — verify by checking the context of the photo (company, position, etc.)\n- Prefer formal/professional photos over candid shots\n- Avoid copyrighted news agency watermarked photos\n- Wikipedia Commons images (upload.wikimedia.org) are ideal when available and correct\n- Naver/Daum CDN images are OK if they are stable URLs\n\nOUTPUT FORMAT:\nFor each person, provide:\n- id: the ID from the list\n- nameKo: Korean name\n- photoUrl: the image URL you found\n- source: where you found it (e.g., '네이버 인물정보', '위키백과', '회사 홈페이지')\n- verified: true/false — did you visually confirm this is the right person?\n\nPRIORITY ORDER (fix the worst ones first):\n1. WRONG PHOTO — currently showing wrong person's photo\n2. NO PHOTO — no photo at all\n3. BAD QUALITY — photo exists but is low quality or not a proper portrait",
+
+  "people": [
+    { "id": "1887", "nameKo": "이채윤", "name": "Lee Chae-yoon", "industry": "Technology", "status": "WRONG PHOTO", "note": "현재 사진이 다른 사람 사진임. 이채윤은 HPSP(에이치피에스피) 대표" },
+    { "id": "2218", "nameKo": "박동석", "name": "Park Dong-suk", "industry": "Manufacturing", "status": "WRONG PHOTO", "note": "현재 사진이 태극기 같은 이미지. 박동석은 전기장비 관련 사업가" },
+    { "id": "2348", "nameKo": "김상범", "name": "Kim Sang-beom", "industry": "Technology", "status": "WRONG PHOTO", "note": "현재 사진이 경주 관련 이미지. 김상범은 반도체 관련 사업가" },
+    { "id": "1094", "nameKo": "윤대인", "name": "Yoon Dae-in", "industry": "Healthcare", "status": "WRONG PHOTO", "note": "위키 플레이스홀더 이미지. 윤대인은 헬스케어 사업가" },
+    { "id": "1716", "nameKo": "정용지", "name": "Chung Yong-ji", "industry": "Healthcare", "status": "WRONG PHOTO", "note": "윤대인과 같은 위키 이미지 사용 중. 정용지는 대웅제약 관련" },
+    { "id": "2767", "nameKo": "김현태", "name": "Hyuntae Kim", "industry": "Healthcare", "status": "NO PHOTO", "note": "사진 없음" },
+    { "id": "2917", "nameKo": "장병규", "name": "Chang Byung-gyu", "industry": "Technology", "status": "NO PHOTO", "note": "크래프톤(배틀그라운드) 의장. 사진 없음" },
+    { "id": "2918", "nameKo": "이승건", "name": "Lee Seung-gun", "industry": "Finance", "status": "NO PHOTO", "note": "토스(비바리퍼블리카) 창업자. 사진 없음" },
+    { "id": "2919", "nameKo": "신창재", "name": "Shin Chang-jae", "industry": "Finance", "status": "NO PHOTO", "note": "교보생명 회장. 사진 없음" },
+    { "id": "2912", "nameKo": "김대일", "name": "Kim Dae-il", "industry": "Media & Entertainment", "status": "CHECK", "note": "펄어비스(검은사막) 창업자. Forbes 사진 확인 필요" },
+    { "id": "108", "nameKo": "이재용", "name": "Jay Y. Lee", "industry": "Technology", "status": "CHECK", "note": "삼성전자 회장. 현재 WEF 사진 사용 중 — 더 좋은 사진 있으면 교체" },
+    { "id": "392", "nameKo": "이부진", "name": "Lee Boo-jin", "industry": "Technology", "status": "CHECK", "note": "호텔신라 대표. Forbes 사진 확인 필요" },
+    { "id": "429", "nameKo": "이서현", "name": "Lee Seo-hyun", "industry": "Technology", "status": "CHECK", "note": "삼성복지재단 이사장. Forbes 사진 확인 필요" },
+    { "id": "452", "nameKo": "홍라희", "name": "Hong Ra-hee", "industry": "Technology", "status": "CHECK", "note": "삼성 이건희 부인. Forbes 사진 확인 필요" },
+    { "id": "516", "nameKo": "정몽구", "name": "Mong-Koo Chung", "industry": "Automotive", "status": "CHECK", "note": "현대차그룹 명예회장. Forbes 사진 확인 필요" },
+    { "id": "629", "nameKo": "정의선", "name": "Euisun Chung", "industry": "Automotive", "status": "CHECK", "note": "현대차그룹 회장. Forbes 사진 확인 필요" },
+    { "id": "1091", "nameKo": "김범수", "name": "Kim Beom-su", "industry": "Technology", "status": "CHECK", "note": "카카오 창업자. Forbes 사진 확인 필요" },
+    { "id": "1375", "nameKo": "최태원", "name": "Chey Tae-won", "industry": "Technology", "status": "CHECK", "note": "SK그룹 회장. Forbes 사진 확인 필요" },
+    { "id": "1721", "nameKo": "정용진", "name": "Chung Yong-jin", "industry": "Fashion & Retail", "status": "CHECK", "note": "신세계그룹 부회장. Forbes 사진 확인 필요" },
+    { "id": "1925", "nameKo": "구광모", "name": "Koo Kwang-mo", "industry": "Diversified", "status": "CHECK", "note": "LG그룹 회장. Forbes 사진 확인 필요" },
+    { "id": "2389", "nameKo": "이해진", "name": "Lee Hae-jin", "industry": "Technology", "status": "CHECK", "note": "네이버 창업자. Forbes 사진 확인 필요" },
+    { "id": "2455", "nameKo": "서경배", "name": "Suh Kyung-bae", "industry": "Fashion & Retail", "status": "CHECK", "note": "아모레퍼시픽 회장. Forbes 사진 확인 필요" },
+    { "id": "2802", "nameKo": "방시혁", "name": "Bang Si-hyuk", "industry": "Media & Entertainment", "status": "CHECK", "note": "하이브(HYBE) 창업자. Forbes 사진 확인 필요" }
+  ]
+}

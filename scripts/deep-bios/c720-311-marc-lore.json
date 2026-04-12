@@ -1,0 +1,49 @@
+{
+  "id": "954",
+  "name": "Marc Lore",
+  "nameKo": "마크 로어",
+  "childhood": "Marc Eric Lore was born on May 16, 1971, and grew up in Staten Island, New York, in a middle-class household where he developed an early competitive streak and entrepreneurial curiosity. As a teenager he was obsessed with games of strategy and probability, reportedly spending hours calculating the odds of card games. He attended Bucknell University, where he studied business administration, before launching his career on Wall Street.",
+  "childhoodKo": "마크 에릭 로어는 1971년 5월 16일 뉴욕 스태튼아일랜드의 중산층 가정에서 태어났다. 어린 시절부터 경쟁심이 강하고 창업가적 기질이 있었으며, 십 대 시절에는 카드 게임의 확률을 계산하는 데 몇 시간씩 빠져들곤 했다. 버크넬 대학교에서 경영학을 전공한 후 월가에서 커리어를 시작했다.",
+  "careerTimeline": [
+    {"year": 1993, "event": "Began career at Bankers Trust in New York after graduating college, entering the world of investment banking and financial risk management", "eventKo": "대학 졸업 후 뉴욕 뱅커스 트러스트에서 커리어 시작, 투자은행 및 금융 리스크 관리 분야 입문"},
+    {"year": 1997, "event": "Co-founded the Global Association of Risk Professionals (GARP) while at Credit Suisse First Boston, establishing the FRM certification program", "eventKo": "크레디 스위스 퍼스트 보스턴 재직 중 GARP(글로벌 리스크 전문가 협회) 공동 창설, FRM 자격증 프로그램 수립"},
+    {"year": 2005, "event": "Co-founded Quidsi (parent of Diapers.com) with Vinit Bharara, targeting busy parents with fast online delivery of baby essentials", "eventKo": "비닛 바라라와 함께 Quidsi(Diapers.com 모회사) 공동 창업, 바쁜 부모를 위한 육아용품 빠른 배송 서비스 시작"},
+    {"year": 2011, "event": "Sold Quidsi to Amazon for $545 million after a fierce price war; Lore stayed on at Amazon for two years as part of the deal", "eventKo": "아마존과의 치열한 가격 전쟁 끝에 Quidsi를 5억 4,500만 달러에 아마존에 매각, 계약 조건에 따라 2년간 아마존 근무"},
+    {"year": 2014, "event": "Founded Jet.com with a novel pricing algorithm that rewarded shoppers for buying more items at once, raising $820 million in venture funding", "eventKo": "묶음 구매 할인 알고리즘을 내세운 Jet.com 창업, 벤처 투자를 통해 8억 2,000만 달러 조달"},
+    {"year": 2016, "event": "Walmart acquired Jet.com for $3.3 billion — the largest ever U.S. e-commerce acquisition at the time; Lore became CEO of Walmart U.S. eCommerce", "eventKo": "당시 미국 최대 이커머스 인수 건으로 Jet.com을 33억 달러에 월마트에 매각, 월마트 미국 이커머스 CEO로 취임"},
+    {"year": 2021, "event": "Left Walmart and teamed up with Alex Rodriguez to purchase the NBA's Minnesota Timberwolves for $1.5 billion; also announced plans for 'Telosa', a futuristic smart city", "eventKo": "월마트 퇴사 후 알렉스 로드리게스와 함께 NBA 미네소타 팀버울브스를 15억 달러에 인수, 미래형 스마트시티 '텔로사' 건설 계획 발표"},
+    {"year": 2024, "event": "Wonder raised $700 million in a major funding round (valuation ~$6 billion) and acquired food delivery giant Grubhub, rapidly scaling to 46+ locations", "eventKo": "원더, 약 70억 달러 기업가치로 7억 달러 투자 유치, 그럽허브 인수로 이커머스 음식 배달 사업 급격히 확장, 46개 이상 매장 운영"}
+  ],
+  "failures": [
+    {
+      "title": "Amazon Price War Forced Quidsi Sale",
+      "description": "Amazon aggressively cut diaper prices by up to 30% on its own platform to undercut Diapers.com, squeezing Quidsi's margins until the company was effectively forced to sell. Lore later expressed regret about the sale, believing Quidsi could have grown into a much larger independent business had Amazon not used its market power to eliminate a competitor.",
+      "titleKo": "아마존의 가격 전쟁으로 인한 Quidsi 매각",
+      "descriptionKo": "아마존이 자사 플랫폼에서 기저귀 가격을 최대 30%까지 공격적으로 인하하며 Diapers.com을 압박했고, 결국 로어는 어쩔 수 없이 Quidsi를 매각해야 했다. 훗날 로어는 아마존이 시장 지배력을 남용하지 않았다면 Quidsi가 훨씬 큰 독립 기업으로 성장했을 것이라며 아쉬움을 토로했다."
+    },
+    {
+      "title": "Jet.com's Costly Customer Acquisition",
+      "description": "Jet.com burned through capital at an alarming rate during its first two years, losing money on almost every order as it subsidized customers to build market share. The company raised $820 million but was spending so aggressively that investors doubted its path to profitability before Walmart's acquisition rescued it.",
+      "titleKo": "Jet.com의 과도한 고객 유치 비용",
+      "descriptionKo": "Jet.com은 초창기 2년간 시장 점유율 확보를 위해 거의 모든 주문에서 손해를 감수하며 자본을 빠르게 소진했다. 8억 2,000만 달러를 조달했지만 지출 속도가 너무 빨라, 월마트 인수가 이루어지기 전까지 수익성 달성에 대한 투자자들의 의구심이 컸다."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2011, "amount": 0.3},
+    {"year": 2016, "amount": 1.5},
+    {"year": 2018, "amount": 2.0},
+    {"year": 2020, "amount": 2.5},
+    {"year": 2022, "amount": 3.5},
+    {"year": 2024, "amount": 4.0},
+    {"year": 2025, "amount": 4.0}
+  ],
+  "quotes": [
+    {
+      "text": "I always knew I wanted to be an entrepreneur. I just needed to find the right idea at the right time.",
+      "source": "The Founder Hour podcast interview",
+      "year": 2021
+    }
+  ],
+  "books": [],
+  "sajuConnection": null
+}

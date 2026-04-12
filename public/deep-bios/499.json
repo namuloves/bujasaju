@@ -1,0 +1,70 @@
+{
+  "id": "499",
+  "name": "John Brown",
+  "childhood": {
+    "birthPlace": "Delaware, USA",
+    "birthPlaceKo": "미국 델라웨어",
+    "familyBackground": "Born in Delaware. Details of family background not widely documented.",
+    "familyBackgroundKo": "델라웨어에서 태어남. 가족 배경 세부사항 널리 기록되지 않음.",
+    "education": "Studied at university in the United States.",
+    "educationKo": "미국 대학에서 수학.",
+    "earlyLife": "Entered the medical equipment industry early in career.",
+    "earlyLifeKo": "경력 초기에 의료 장비 산업에 진출.",
+    "source": "Forbes"
+  },
+  "careerTimeline": [
+    {
+      "year": 1975,
+      "event": "Co-founded Stryker-related medical equipment ventures",
+      "eventKo": "스트라이커 관련 의료 장비 벤처 공동 설립"
+    },
+    {
+      "year": 1990,
+      "event": "Built significant positions in medical device companies",
+      "eventKo": "의료기기 회사에서 상당한 지위 구축"
+    },
+    {
+      "year": 2020,
+      "event": "Medical device investments appreciated significantly",
+      "eventKo": "의료기기 투자가 크게 가치 상승"
+    },
+    {
+      "year": 2025,
+      "event": "Net worth reached $7.3 billion",
+      "eventKo": "순자산 73억 달러 도달"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Financial crisis impacted healthcare sector investments",
+      "descriptionKo": "금융위기가 의료 부문 투자에 영향",
+      "lesson": "Healthcare is defensive but not immune to market downturns",
+      "lessonKo": "의료는 방어적이지만 시장 침체에 면역이 아님",
+      "source": "Forbes"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 3.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 5.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.3
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Medical equipment industry billionaire",
+    "knownForKo": "의료 장비 산업 억만장자"
+  }
+}

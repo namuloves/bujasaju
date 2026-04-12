@@ -1,0 +1,129 @@
+{
+  "id": "131",
+  "name": "Nik Storonsky",
+  "nameKo": "닉 스토론스키",
+  "childhood": {
+    "birthPlace": "Dolgoprudny, Russia",
+    "birthPlaceKo": "돌고프루드니, 러시아",
+    "familyBackground": "Born into a middle-class family in a Moscow suburb. His family had an academic and technical background.",
+    "familyBackgroundKo": "모스크바 교외의 중산층 가정에서 태어났으며, 가족은 학문적 기술적 배경을 가지고 있었다.",
+    "education": "Master's degree in General and Applied Physics from Moscow Institute of Physics and Technology (2007); Master's degree in Applied Economics and Finance from New Economic School (2007)",
+    "educationKo": "모스크바 물리과학기술 대학교에서 일반 및 응용 물리학 석사학위 취득 (2007); 신경제학파에서 응용경제학 및 금융 석사학위 취득 (2007)",
+    "earlyLife": "Storonsky grew up in Dolgoprudny, a town north of Moscow, during the post-Soviet era. His family emphasized education and technical excellence, shaping his analytical approach to problem-solving. In 2006, at age 22, he moved to London to begin his career in finance, working as an equity derivatives trader at Lehman Brothers during the financial boom years.",
+    "earlyLifeKo": "모스크바 북쪽 돌고프루드니에서 소련 붕괴 이후 시대에 성장했다. 가족은 교육과 기술적 우수성을 강조하여 그의 분석적 문제 해결 능력을 형성했다. 2006년 22세에 런던으로 이주하여 금융 경력을 시작했으며, 금융 호황 시기에 레만 브라더스에서 주식 파생 상품 거래원으로 일했다.",
+    "source": "Wikipedia, Bloomberg, Crunchbase"
+  },
+  "careerTimeline": [
+    {
+      "year": 2006,
+      "event": "Moved to London and started as equity derivatives trader at Lehman Brothers",
+      "eventKo": "런던으로 이주하여 레만 브라더스에서 주식 파생 상품 거래원으로 시작"
+    },
+    {
+      "year": 2008,
+      "event": "Lost approximately £500,000 when Lehman Brothers collapsed during the financial crisis",
+      "eventKo": "금융 위기 중 레만 브라더스 붕괴로 약 50만 파운드 손실"
+    },
+    {
+      "year": 2008,
+      "event": "Moved to Credit Suisse to continue career as equity derivatives trader",
+      "eventKo": "크레디트 스위스로 이직하여 주식 파생 상품 거래원으로 경력 계속"
+    },
+    {
+      "year": 2013,
+      "event": "Left Credit Suisse and founded Revolut Ltd in December with £300,000 of personal savings",
+      "eventKo": "크레디트 스위스를 떠나 12월에 개인 자금 30만 파운드로 레볼루트 설립"
+    },
+    {
+      "year": 2015,
+      "event": "Revolut app launched publicly in July with multi-currency debit card",
+      "eventKo": "레볼루트 앱이 7월에 다중 통화 직불 카드와 함께 공개 출시"
+    },
+    {
+      "year": 2016,
+      "event": "Whistleblower complaint raised concerns about anti-money-laundering controls; company acknowledged mistakes and improved",
+      "eventKo": "내부 고발자 불만으로 자금 세탁 방지 통제에 대한 우려 제기; 회사는 실수를 인정하고 개선"
+    },
+    {
+      "year": 2021,
+      "event": "Revolut reached $33 billion valuation following $800 million funding round from SoftBank Vision Fund 2 and Tiger Global",
+      "eventKo": "소프트뱅크 비전펀드 2와 타이거 글로벌로부터 8억 달러 자금 조달로 330억 달러 기업 가치 달성"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Lost approximately £500,000 when Lehman Brothers collapsed during the financial crisis",
+      "descriptionKo": "금융 위기 중 레만 브라더스 붕괴로 약 50만 파운드를 손실했다",
+      "lesson": "The experience taught him to back up decision-making with data and logic rather than intuition alone",
+      "lessonKo": "이 경험은 직관만이 아닌 데이터와 논리를 바탕으로 의사결정을 해야 한다는 교훈을 주었다",
+      "source": "Bloomberg, FinSMEs"
+    },
+    {
+      "year": 2016,
+      "description": "Revolut faced regulatory scrutiny with whistleblower complaints about weaknesses in anti-money-laundering and sanctions controls",
+      "descriptionKo": "레볼루트는 자금 세탁 방지 및 제재 통제의 허점에 대한 내부 고발자 불만으로 규제 조사를 받았다",
+      "lesson": "Recognized the importance of compliance infrastructure and cultural improvement in fintech operations",
+      "lessonKo": "핀테크 사업 운영에서 규정 준수 기반과 문화 개선의 중요성을 인식하게 되었다",
+      "source": "FinSMEs, Revolut"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2020,
+      "netWorth": 1.1
+    },
+    {
+      "year": 2021,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2022,
+      "netWorth": 7.1
+    },
+    {
+      "year": 2023,
+      "netWorth": 3.0
+    },
+    {
+      "year": 2024,
+      "netWorth": 8.0
+    },
+    {
+      "year": 2026,
+      "netWorth": 13.1
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Apart from your product, your advantage in this industry is that you pull more hours. That's what helps you win this game.",
+      "textKo": "제품 외에도, 이 산업에서 당신의 장점은 더 많은 시간을 일한다는 것이다. 그것이 게임에서 이기는 데 도움이 된다.",
+      "context": "On work ethic and competitive advantage in fintech",
+      "contextKo": "핀테크 산업에서의 업무 윤리와 경쟁 우위에 대해 언급",
+      "source": "FinSMEs"
+    },
+    {
+      "text": "When we started this business, we just didn't know much about payments at all. We had this idea that we want to do it for free.",
+      "textKo": "우리가 이 사업을 시작했을 때, 우리는 결제에 대해 거의 아무것도 몰랐다. 우리는 이것을 무료로 하고 싶다는 생각을 가지고 있었다.",
+      "context": "Interview with CNBC about Revolut's founding vision",
+      "contextKo": "레볼루트의 설립 비전에 대한 CNBC 인터뷰",
+      "source": "CNBC"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Visionary fintech founder who disrupted the international payments and currency exchange market. Known for his intense work ethic and demanding management style. First fintech billionaire from the UK.",
+    "knownForKo": "국제 송금 및 환율 교환 시장을 혁신한 혁신적인 핀테크 창업자로 알려져 있다. 강렬한 업무 윤리와 까다로운 경영 스타일로 유명하다. 영국 최초의 핀테크 억만장자다.",
+    "philanthropy": null,
+    "philanthropyKo": null,
+    "controversies": "Faced regulatory scrutiny for weaknesses in anti-money-laundering and sanctions compliance. Known for controversial management practices including harsh criticism of underperforming employees.",
+    "controversiesKo": "자금 세탁 방지 및 제재 규정 준수의 허점으로 규제 조사를 받았다. 저성과 직원에 대한 가혹한 비판을 포함한 논란의 여지가 있는 경영 관행으로 알려져 있다."
+  },
+  "sajuConnection": {
+    "note": null,
+    "value": null
+  }
+}

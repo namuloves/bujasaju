@@ -1,0 +1,90 @@
+{
+  "id": "286",
+  "name": "Alexander Knauf",
+  "childhood": {
+    "birthPlace": "Munich, Germany",
+    "birthPlaceKo": "독일 뮌헨",
+    "familyBackground": "German industrial and manufacturing family. Built building materials empire.",
+    "familyBackgroundKo": "독일 산업 및 제조 가족. 건축 자재 제국 구축",
+    "education": "Technical University of Munich, engineering degree",
+    "educationKo": "뮌헨 공과대학교, 공학 학위",
+    "earlyLife": "Grew up in Munich industrial region. Exposed to engineering and manufacturing.",
+    "earlyLifeKo": "뮌헨 산업 지역에서 성장. 공학 및 제조에 노출",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1985,
+      "event": "Joined family building materials company",
+      "eventKo": "가족 건축 자재 회사 참여"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded production across Europe",
+      "eventKo": "유럽 전역으로 생산 확장"
+    },
+    {
+      "year": 2010,
+      "event": "Built major European building materials manufacturer",
+      "eventKo": "주요 유럽 건축 자재 제조사 구축"
+    },
+    {
+      "year": 2018,
+      "event": "Became Germany's largest insulation manufacturer",
+      "eventKo": "독일 최대 단열재 제조사가 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Construction sector recession reduced demand",
+      "descriptionKo": "건설 부문 경기 침체로 수요 감소",
+      "lesson": "Building materials market is cyclical",
+      "lessonKo": "건축 자재 시장은 순환적",
+      "source": "https://knaufgroup.de"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 1.4
+    },
+    {
+      "year": 2020,
+      "netWorth": 1.6
+    },
+    {
+      "year": 2023,
+      "netWorth": 1.8
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Sustainable building materials shape the future",
+      "textKo": "지속 가능한 건축 자재가 미래를 형성",
+      "context": "Construction industry conference",
+      "contextKo": "건설 산업 회의",
+      "source": "https://knaufgroup.de"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation",
+        "noteKo": "사업 전략 및 혁신에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building Germany's major building materials company",
+    "knownForKo": "독일의 주요 건축 자재 회사 구축",
+    "philanthropy": "Supports sustainable construction and environmental initiatives",
+    "philanthropyKo": "지속 가능한 건설 및 환경 계획 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

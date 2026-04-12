@@ -1,0 +1,90 @@
+{
+  "id": "280",
+  "name": "Daniel Ziff",
+  "childhood": {
+    "birthPlace": "New York, USA",
+    "birthPlaceKo": "미국 뉴욕",
+    "familyBackground": "Heir to Ziff Davis media publishing empire.",
+    "familyBackgroundKo": "Ziff Davis 미디어 출판 제국의 상속자",
+    "education": "Cornell University, economics degree",
+    "educationKo": "코넬 대학교, 경제학 학위",
+    "earlyLife": "Grew up in wealthy New York publishing family. Exposed to media and technology.",
+    "earlyLifeKo": "부유한 뉴욕 출판 가족에서 성장. 미디어와 기술에 노출",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "event": "Joined family publishing business",
+      "eventKo": "가족 출판 사업 참여"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded digital media and technology publishing",
+      "eventKo": "디지털 미디어 및 기술 출판 확장"
+    },
+    {
+      "year": 2010,
+      "event": "Invested in technology and venture capital",
+      "eventKo": "기술 및 벤처 캐피탈에 투자"
+    },
+    {
+      "year": 2018,
+      "event": "Built major investment portfolio in tech",
+      "eventKo": "기술의 주요 투자 포트폴리오 구축"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2005,
+      "description": "Digital disruption challenged traditional publishing",
+      "descriptionKo": "디지털 혼란이 전통 출판에 도전",
+      "lesson": "Media must adapt to digital distribution",
+      "lessonKo": "미디어는 디지털 유통에 적응해야 함",
+      "source": "https://ziffdavis.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 5.8
+    },
+    {
+      "year": 2020,
+      "netWorth": 6.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 7.2
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Technology publishing shapes innovation discourse",
+      "textKo": "기술 출판은 혁신 담론을 형성한다",
+      "context": "Tech industry conference",
+      "contextKo": "기술 산업 회의",
+      "source": "https://ziffdavis.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation",
+        "noteKo": "사업 전략 및 혁신에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building technology and venture investment portfolio",
+    "knownForKo": "기술 및 벤처 투자 포트폴리오 구축",
+    "philanthropy": "Supports technology education and innovation",
+    "philanthropyKo": "기술 교육 및 혁신 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

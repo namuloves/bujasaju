@@ -1,0 +1,145 @@
+{
+  "id": "146",
+  "name": "John Collison",
+  "nameKo": "존 콜리슨",
+  "childhood": {
+    "birthPlace": "Limerick, Ireland",
+    "birthPlaceKo": "리머릭, 아일랜드",
+    "familyBackground": "Born in August 1990 in Limerick, Ireland, to Lily Collison, a microbiologist, and Denis Collison, an electronic engineer. He grew up in the small village of Dromineer in County Tipperary. His parents also ran a lakeside hotel in Dromineer. His older brother Patrick, born in 1988, would become his co-founder at Stripe.",
+    "familyBackgroundKo": "1990년 8월 아일랜드 리머릭에서 미생물학자인 릴리 콜리슨과 전자공학자인 데니스 콜리슨 사이에서 태어났다. 티퍼레리주의 작은 마을 드로미니어에서 자랐으며, 부모는 드로미니어에서 호숫가 호텔도 운영했다. 1988년생인 형 패트릭은 훗날 스트라이프의 공동 창업자가 된다.",
+    "education": "Attended Castletroy College for secondary school in Limerick. Achieved exceptional results in the Irish Leaving Certificate examination in 2009, receiving eight A1 and two A2 grades. Was admitted to Harvard University in 2009 but dropped out after one year to focus on Stripe full-time.",
+    "educationKo": "리머릭의 캐슬트로이 칼리지에서 중등교육을 받았다. 2009년 아일랜드 졸업시험에서 A1 8개, A2 2개의 탁월한 성적을 거두었다. 2009년 하버드 대학교에 입학했으나 1년 후 스트라이프에 전념하기 위해 자퇴했다.",
+    "earlyLife": "John Collison grew up in rural Ireland in a household that valued intellectual curiosity and self-education. Despite the small-town setting of Dromineer, both he and his brother Patrick showed remarkable aptitude for technology and entrepreneurship from a young age, learning to code as teenagers. In 2007, at just 17, John co-founded Shuppa with Patrick in Limerick, which later merged with Auctomatic—a software platform for eBay power-sellers funded by Y Combinator. Auctomatic was acquired by Live Current Media for $5 million in March 2008, making the Collison brothers millionaires at ages 19 and 17. After the sale, John returned to Ireland to finish secondary school before heading to Harvard.",
+    "earlyLifeKo": "존 콜리슨은 지적 호기심과 자기 학습을 중시하는 가정에서 아일랜드 시골에서 자랐다. 드로미니어라는 작은 마을임에도 형 패트릭과 함께 어릴 때부터 기술과 창업에 놀라운 재능을 보이며 10대에 코딩을 배웠다. 2007년 불과 17세에 패트릭과 함께 리머릭에서 슈파를 공동 창업했고, 이 회사는 이후 Y Combinator의 투자를 받은 이베이 파워셀러용 소프트웨어 플랫폼 옥토매틱과 합병했다. 2008년 3월 옥토매틱이 라이브 커런트 미디어에 500만 달러에 인수되면서 콜리슨 형제는 19세와 17세에 백만장자가 되었다. 매각 후 존은 아일랜드로 돌아가 중등학교를 마치고 하버드로 향했다.",
+    "source": "Wikipedia, The Gentleman's Journal, KITRUM, SmartCompany"
+  },
+  "careerTimeline": [
+    {
+      "year": 2007,
+      "event": "Co-founded Shuppa with brother Patrick at age 17 in Limerick; it later merged with Auctomatic, an eBay tools platform backed by Y Combinator",
+      "eventKo": "17세에 형 패트릭과 리머릭에서 슈파를 공동 창업, 이후 Y Combinator가 투자한 이베이 도구 플랫폼 옥토매틱과 합병"
+    },
+    {
+      "year": 2008,
+      "event": "Auctomatic acquired by Live Current Media for $5 million, making John a millionaire at 17—then returned to Ireland to finish school",
+      "eventKo": "옥토매틱이 라이브 커런트 미디어에 500만 달러에 인수되어 17세에 백만장자가 됨, 이후 아일랜드로 돌아가 학교를 마침"
+    },
+    {
+      "year": 2010,
+      "event": "Co-founded Stripe with Patrick to simplify online payments, dropping out of Harvard after one year to build the company",
+      "eventKo": "온라인 결제 간소화를 위해 패트릭과 스트라이프를 공동 창업, 하버드 1년 만에 자퇴하고 회사 구축에 전념"
+    },
+    {
+      "year": 2011,
+      "event": "Stripe launched publicly, backed by Y Combinator, Peter Thiel, and Sequoia Capital, offering a revolutionary 7-line code payment integration",
+      "eventKo": "Y Combinator, 피터 틸, 세쿼이아 캐피털의 투자를 받고 스트라이프를 공식 출시, 혁신적인 7줄 코드 결제 통합 제공"
+    },
+    {
+      "year": 2016,
+      "event": "Became the world's youngest self-made billionaire at age 26 after Stripe's valuation reached $9.2 billion",
+      "eventKo": "스트라이프 기업가치가 92억 달러에 달하면서 26세에 세계 최연소 자수성가 억만장자가 됨"
+    },
+    {
+      "year": 2021,
+      "event": "Stripe reached a peak valuation of $95 billion in a funding round, making it the most valuable private startup in the US",
+      "eventKo": "스트라이프가 펀딩 라운드에서 950억 달러의 최고 기업가치에 도달, 미국에서 가장 가치 있는 비상장 스타트업이 됨"
+    },
+    {
+      "year": 2023,
+      "event": "Stripe's internal valuation was cut to $50 billion amid the tech downturn; company laid off 14% of employees and refocused on operational efficiency",
+      "eventKo": "기술 업계 침체 속에서 스트라이프의 내부 기업가치가 500억 달러로 하락, 직원 14%를 해고하고 운영 효율성에 재집중"
+    },
+    {
+      "year": 2026,
+      "event": "Stripe's valuation soared to $159 billion after a tender offer, with total payment volume reaching $1.9 trillion—surpassing its previous 2021 peak",
+      "eventKo": "공개 매각을 통해 스트라이프 기업가치가 1,590억 달러로 급등, 총 결제 규모가 1조 9천억 달러에 도달하며 2021년 최고치를 돌파"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2022,
+      "description": "Stripe grew operating costs too quickly based on overly optimistic assumptions about the internet economy's near-term growth. The company was forced to lay off 14% of its workforce (approximately 1,100 employees) in November 2022 and cut its internal valuation from $95 billion to $50 billion.",
+      "descriptionKo": "인터넷 경제의 단기 성장에 대해 지나치게 낙관적인 가정에 기반하여 운영 비용을 너무 빠르게 늘렸다. 2022년 11월 전체 직원의 14%(약 1,100명)를 해고해야 했고, 내부 기업가치가 950억 달러에서 500억 달러로 삭감되었다.",
+      "lesson": "Even the fastest-growing companies must maintain cost discipline—Patrick Collison publicly acknowledged the founders overhired and overspent.",
+      "lessonKo": "아무리 빠르게 성장하는 기업도 비용 규율을 유지해야 한다. 패트릭 콜리슨은 공개적으로 창업자들이 과도하게 채용하고 과도하게 지출했음을 인정했다.",
+      "source": "SmartCompany, Bloomberg"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2016,
+      "netWorth": 1.1
+    },
+    {
+      "year": 2021,
+      "netWorth": 11.4
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.9
+    },
+    {
+      "year": 2025,
+      "netWorth": 9.3
+    },
+    {
+      "year": 2026,
+      "netWorth": 17.5
+    }
+  ],
+  "quotes": [
+    {
+      "text": "When you hire this person, you're not only bringing them, but you're bringing their effect on the culture and all the other people they're going to bring in with them.",
+      "textKo": "한 사람을 채용할 때, 그 사람만 데려오는 것이 아니라 그 사람이 문화에 미치는 영향과 그가 데려올 모든 사람들까지 함께 데려오는 것이다.",
+      "context": "On his philosophy of hiring as 'branches of a tree' rather than filling slots",
+      "contextKo": "채용을 빈자리 채우기가 아닌 '나무의 가지'로 보는 자신의 철학에 대해",
+      "source": "OfficeChai interview"
+    },
+    {
+      "text": "When a country doesn't have a good economic infrastructure, that harms the country. With Stripe, the idea is that by providing better infrastructure, by linking the Internet economically, by making it easier for these online businesses to exist, it'll make the web better.",
+      "textKo": "한 나라에 좋은 경제 인프라가 없으면 그 나라에 해가 된다. 스트라이프의 아이디어는 더 나은 인프라를 제공하고, 인터넷을 경제적으로 연결하고, 온라인 비즈니스의 존재를 쉽게 만들어 웹을 더 좋게 만드는 것이다.",
+      "context": "Explaining Stripe's mission as economic infrastructure for the internet",
+      "contextKo": "스트라이프의 사명을 인터넷을 위한 경제 인프라로 설명하며",
+      "source": "BrainyQuote"
+    },
+    {
+      "text": "Culture is what happens when the CEO isn't in the room.",
+      "textKo": "문화란 CEO가 방에 없을 때 일어나는 것이다.",
+      "context": "On the importance of building a strong organizational culture at Stripe",
+      "contextKo": "스트라이프에서 강력한 조직 문화를 구축하는 것의 중요성에 대해",
+      "source": "Startup Archive"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "Poor Charlie's Almanack",
+        "author": "Charles T. Munger",
+        "note": "John read this during Stripe's early days and described it as 'an ode to thinking for yourself'—a reflection of the independent thinking that shaped Stripe's approach.",
+        "noteKo": "스트라이프 초창기에 읽었으며 '스스로 생각하는 것에 대한 찬가'라고 묘사했다. 스트라이프의 접근 방식을 형성한 독립적 사고를 반영하는 책이다."
+      },
+      {
+        "title": "The Dream Machine",
+        "author": "M. Mitchell Waldrop",
+        "note": "Particularly influential during Stripe's early growth phase; aligns with Collison's vision of 'increasing the GDP of the internet.'",
+        "noteKo": "스트라이프의 초기 성장 단계에 특히 영향을 끼친 책으로, '인터넷의 GDP를 높인다'는 콜리슨의 비전과 맞닿아 있다."
+      },
+      {
+        "title": "The Art of Doing Science and Engineering",
+        "author": "Richard W. Hamming",
+        "note": "Republished by Stripe Press. Emphasizes the kind of rigorous, first-principles thinking that defines Stripe's engineering culture.",
+        "noteKo": "스트라이프 프레스에서 재출간한 책. 스트라이프의 엔지니어링 문화를 정의하는 엄밀한 제1원리적 사고를 강조한다."
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Co-founder and President of Stripe, the world's most valuable fintech company. Built the internet's payment infrastructure with brother Patrick starting at age 19. Became the world's youngest self-made billionaire in 2016 at age 26. Known for deep technical competence, quiet operational leadership, and a hiring philosophy that treats each new employee as a 'branch of a tree.' Irish, raised in the tiny village of Dromineer, Co. Tipperary.",
+    "knownForKo": "세계에서 가장 가치 있는 핀테크 기업 스트라이프의 공동 창업자이자 사장. 19세부터 형 패트릭과 함께 인터넷 결제 인프라를 구축했다. 2016년 26세에 세계 최연소 자수성가 억만장자가 되었다. 깊은 기술적 역량, 조용한 운영 리더십, 각 신입 직원을 '나무의 가지'로 보는 채용 철학으로 유명하다. 아일랜드 티퍼레리주 작은 마을 드로미니어 출신이다.",
+    "philanthropy": "Supports education and economic development initiatives in Ireland. Stripe has invested in programs to help developing economies access the global internet economy. Co-founded Stripe Climate, allowing businesses to direct a fraction of revenue to carbon removal technologies.",
+    "philanthropyKo": "아일랜드의 교육 및 경제 개발 이니셔티브를 지원한다. 스트라이프는 개발도상국이 글로벌 인터넷 경제에 접근할 수 있도록 돕는 프로그램에 투자해왔다. 기업이 수익의 일부를 탄소 제거 기술에 투입할 수 있는 스트라이프 클라이밋을 공동 설립했다.",
+    "controversies": "Stripe faced criticism for its 2022 layoffs after rapid overhiring. The company's internal valuation drop from $95B to $50B raised questions about private company valuations in the tech sector. Some have questioned whether Stripe's dominance creates payment processing concentration risks.",
+    "controversiesKo": "급격한 과잉 채용 후 2022년 대규모 해고로 비판을 받았다. 기업가치가 950억 달러에서 500억 달러로 하락하면서 기술 업계 비상장 기업 가치평가에 대한 의문이 제기되었다. 스트라이프의 지배적 지위가 결제 처리 집중 위험을 초래한다는 지적도 있었다."
+  },
+  "sajuConnection": null
+}

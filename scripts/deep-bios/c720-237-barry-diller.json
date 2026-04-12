@@ -1,0 +1,101 @@
+{
+  "id": "237",
+  "name": "Barry Diller",
+  "childhood": {
+    "birthPlace": "San Francisco, California, USA",
+    "birthPlaceKo": "미국 캘리포니아주 샌프란시스코",
+    "familyBackground": "Son of businessman and developer. Family with California business background.",
+    "familyBackgroundKo": "사업가이자 개발자의 아들. 캘리포니아 사업 배경을 가진 가족",
+    "education": "UCLA (Drama)",
+    "educationKo": "UCLA(드라마)",
+    "earlyLife": "Grew up in California with interest in entertainment and media. Developed passion for television and entertainment industry from young age.",
+    "earlyLifeKo": "캘리포니아에서 성장하며 엔터테인먼트 및 미디어에 관심. 어린 시절부터 텔레비전 및 엔터테인먼트 산업에 열정 개발",
+    "source": "https://www.iac.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1966,
+      "event": "Started career in television at ABC",
+      "eventKo": "ABC에서 텔레비전 경력 시작"
+    },
+    {
+      "year": 1990,
+      "event": "Became chairman of QVC shopping network and media company",
+      "eventKo": "QVC 쇼핑 네트워크 및 미디어 회사의 회장 됨"
+    },
+    {
+      "year": 1995,
+      "event": "Founded IAC (InterActiveCorp) as holding company for media and internet ventures",
+      "eventKo": "미디어 및 인터넷 벤처를 위한 지주 회사로 IAC(InterActiveCorp) 설립"
+    },
+    {
+      "year": 2020,
+      "event": "Expanded IAC portfolio across digital media and e-commerce platforms",
+      "eventKo": "디지털 미디어 및 전자상거래 플랫폼 전역에 IAC 포트폴리오 확장"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2000,
+      "description": "IAC faced challenges during dot-com bust with internet venture portfolio losses",
+      "descriptionKo": "인터넷 벤처 포트폴리오 손실과 함께 닷컴 버블 중 IAC 도전",
+      "lesson": "Refocused on profitable digital properties and strategic acquisitions, improved portfolio management",
+      "lessonKo": "수익성 있는 디지털 자산 및 전략적 인수에 재집중, 포트폴리오 관리 개선",
+      "source": "https://www.iac.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 2.8
+    },
+    {
+      "year": 2018,
+      "netWorth": 3.8
+    },
+    {
+      "year": 2021,
+      "netWorth": 4.6
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.1
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Media and technology convergence creates unprecedented opportunities for new business models",
+      "textKo": "미디어와 기술의 수렴은 새로운 비즈니스 모델의 전례 없는 기회를 창출합니다",
+      "context": "On digital media and internet ventures",
+      "contextKo": "디지털 미디어 및 인터넷 벤처에 관해",
+      "source": "https://www.iac.com"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": "Wannabe",
+        "author": "Barry Diller",
+        "why": "Autobiography covering media career and entertainment industry transformation",
+        "whyKo": "미디어 경력 및 엔터테인먼트 산업 변혁을 다루는 자서전"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "The Media Monopoly",
+        "author": "Ben Bagdikian",
+        "note": "On media industry consolidation and business",
+        "noteKo": "미디어 산업 통합 및 사업에 관한 책"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "IAC founder and chairman, QVC leadership, media and e-commerce visionary, television industry pioneer",
+    "knownForKo": "IAC 창립자이자 회장, QVC 리더십, 미디어 및 전자상거래 비전가, 텔레비전 산업 개척자",
+    "philanthropy": "Supports arts and cultural institutions, particularly theatre and dance",
+    "philanthropyKo": "예술 및 문화 기관, 특히 극장 및 춤 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

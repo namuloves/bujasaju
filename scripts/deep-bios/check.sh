@@ -1,0 +1,66 @@
+#\!/bin/bash
+
+errors=0
+
+declare -A expected_ids=(
+  [kr-01-lee-boo-jin.json]="392"
+  [kr-02-lee-seo-hyun.json]="429"
+  [kr-03-cho-jung-ho.json]="440"
+  [kr-04-seo-jung-jin.json]="443"
+  [kr-05-hong-ra-hee.json]="452"
+  [kr-06-mong-koo-chung.json]="516"
+  [kr-07-euisun-chung.json]="629"
+  [kr-08-kwak-dong-shin.json]="737"
+  [kr-09-park-hyeon-joo.json]="829"
+  [kr-10-kim-beom-su.json]="1091"
+  [kr-11-yoon-dae-in.json]="1094"
+  [kr-12-cho-hyun-joon.json]="1304"
+  [kr-13-kim-jun-ki.json]="1346"
+  [kr-14-chung-mong-joon.json]="1367"
+  [kr-15-chey-tae-won.json]="1375"
+  [kr-16-byunghoon-kim.json]="1382"
+  [kr-17-park-soon-jae.json]="1454"
+  [kr-18-yoo-jung-hyun.json]="1522"
+  [kr-19-song-chi-hyung.json]="1555"
+  [kr-20-lee-dong-chae.json]="1617"
+  [kr-21-koo-bon-neung.json]="1670"
+  [kr-22-chung-yong-ji.json]="1716"
+  [kr-23-chung-yong-jin.json]="1721"
+  [kr-24-lee-chae-yoon.json]="1887"
+  [kr-25-koo-kwang-mo.json]="1925"
+  [kr-26-koo-bon-sik.json]="1962"
+  [kr-27-kim-nam-goo.json]="2002"
+  [kr-28-lee-jay-hyun.json]="2154"
+  [kr-29-park-dong-suk.json]="2218"
+  [kr-30-kim-sang-beom.json]="2348"
+  [kr-31-lee-hae-jin.json]="2389"
+  [kr-32-suh-kyung-bae.json]="2455"
+  [kr-33-lee-ho-jin.json]="2693"
+  [kr-34-kim-taek-jin.json]="2697"
+  [kr-35-chey-ki-won.json]="2710"
+  [kr-36-shin-dong-joo.json]="2729"
+  [kr-37-hyuntae-kim.json]="2767"
+  [kr-38-bang-si-hyuk.json]="2802"
+  [kr-39-hong-seok-joh.json]="2821"
+  [kr-40-lee-su-jin.json]="2828"
+  [kr-41-chang-byung-gyu.json]="2917"
+  [kr-42-lee-seung-gun.json]="2918"
+  [kr-43-shin-chang-jae.json]="2919"
+  [kr-44-kim-dae-il.json]="2912"
+)
+
+echo "Checking all 44 files..."
+count=0
+for fn in "${\!expected_ids[@]}"; do
+  count=$((count + 1))
+  expected_id="${expected_ids[$fn]}"
+  actual_id=$(jq -r '.id' "$fn" 2>/dev/null)
+  
+  if [ "$actual_id" \!= "$expected_id" ]; then
+    echo "ERROR: $fn has id $actual_id, expected $expected_id"
+    errors=$((errors + 1))
+  fi
+done
+
+echo "Total files checked: $count"
+echo "ID mismatches: $errors"

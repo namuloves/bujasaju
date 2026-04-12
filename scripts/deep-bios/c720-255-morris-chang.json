@@ -1,0 +1,94 @@
+{
+  "id": "255",
+  "name": "Morris Chang",
+  "childhood": {
+    "birthPlace": "Shanghai, China",
+    "birthPlaceKo": "중국 상하이",
+    "familyBackground": "Son of Chinese businessman who later moved to Taiwan. Family with background in trading and commerce.",
+    "familyBackgroundKo": "나중에 대만으로 이주한 중국 사업가의 아들. 무역 및 상업 배경을 가진 가족",
+    "education": "MIT (Electrical Engineering), Stanford University (postgraduate)",
+    "educationKo": "MIT(전자공학), 스탠포드 대학교(대학원)",
+    "earlyLife": "Grew up with Chinese business tradition and Western education. Developed expertise in semiconductor engineering and technology management.",
+    "earlyLifeKo": "중국 사업 전통과 서방 교육으로 성장. 반도체 공학 및 기술 경영의 전문성 개발",
+    "source": "https://www.tsmc.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1964,
+      "event": "Started career at Texas Instruments in semiconductor industry",
+      "eventKo": "반도체 산업 Texas Instruments에서 경력 시작"
+    },
+    {
+      "year": 1987,
+      "event": "Founded Taiwan Semiconductor Manufacturing Company (TSMC)",
+      "eventKo": "대만 반도체 제조 회사(TSMC) 설립"
+    },
+    {
+      "year": 2000,
+      "event": "Built TSMC into world's leading semiconductor foundry",
+      "eventKo": "TSMC을 세계 선도 반도체 파운드리로 구축"
+    },
+    {
+      "year": 2018,
+      "event": "Retired as TSMC chief executive, passed leadership to next generation",
+      "eventKo": "TSMC 최고 경영자에서 은퇴, 차세대 리더십으로 이양"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1995,
+      "description": "Faced intense competition from vertically integrated semiconductor companies",
+      "descriptionKo": "수직 통합 반도체 회사와의 격렬한 경쟁 직면",
+      "lesson": "Focused on foundry business model excellence and customer partnerships",
+      "lessonKo": "파운드리 비즈니스 모델 우수성 및 고객 파트너십에 집중",
+      "source": "https://www.tsmc.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 3.1
+    },
+    {
+      "year": 2018,
+      "netWorth": 4.9
+    },
+    {
+      "year": 2021,
+      "netWorth": 6.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 7.5
+    }
+  ],
+  "quotes": [
+    {
+      "text": "TSMC's success comes from focusing on foundry business model and customer service",
+      "textKo": "TSMC의 성공은 파운드리 사업 모델 및 고객 서비스에 집중하는 것에서 비롯됩니다",
+      "context": "On semiconductor manufacturing and business strategy",
+      "contextKo": "반도체 제조 및 사업 전략에 관해",
+      "source": "https://www.tsmc.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "Becoming Taiwan's Most Valuable Company",
+        "author": "Various authors",
+        "note": "On TSMC history and semiconductor industry",
+        "noteKo": "TSMC 역사 및 반도체 산업에 관한 책"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "TSMC founder, semiconductor foundry pioneer, Taiwan technology leader, global chip manufacturing",
+    "knownForKo": "TSMC 창립자, 반도체 파운드리 개척자, 대만 기술 리더, 글로벌 칩 제조",
+    "philanthropy": "Supports Taiwan education and technology research",
+    "philanthropyKo": "대만 교육 및 기술 연구 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

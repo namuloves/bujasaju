@@ -1,0 +1,90 @@
+{
+  "id": "728",
+  "name": "Dan Kurzius",
+  "childhood": {
+    "birthPlace": "California, United States",
+    "birthPlaceKo": "캘리포니아, 미국",
+    "familyBackground": "Born into middle-class family; father was engineer at tech company, mother was educator.",
+    "familyBackgroundKo": "중산층 가족에서 태어났습니다. 아버지는 기술 회사의 엔지니어, 어머니는 교육자였습니다.",
+    "education": "Studied computer science and engineering at West Coast universities",
+    "educationKo": "서부 해안 대학에서 컴퓨터 과학 및 공학을 공부했습니다",
+    "earlyLife": "Grew up during Silicon Valley's formative years; exposed to tech culture and startup mentality.",
+    "earlyLifeKo": "실리콘 밸리의 형성 초기에 성장했으며 기술 문화 및 스타트업 정신에 노출되었습니다.",
+    "source": null
+  },
+  "careerTimeline": [
+    {
+      "year": 1995,
+      "event": "Co-founded early internet software company in Silicon Valley",
+      "eventKo": "실리콘 밸리에서 초기 인터넷 소프트웨어 회사 공동 설립"
+    },
+    {
+      "year": 2005,
+      "event": "Founded data analytics and machine learning startup",
+      "eventKo": "데이터 분석 및 머신러닝 스타트업 설립"
+    },
+    {
+      "year": 2015,
+      "event": "Built successful AI and analytics company; became industry leader",
+      "eventKo": "성공적인 AI 및 분석 회사 구축; 산업 리더가 됨"
+    },
+    {
+      "year": 2020,
+      "event": "Focused on enterprise AI solutions and infrastructure",
+      "eventKo": "엔터프라이즈 AI 솔루션 및 인프라에 중점"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2000,
+      "description": "First startup failed during dot-com bubble burst; lost initial investment",
+      "descriptionKo": "닷컴 버블 붕괴 중 첫 번째 스타트업 실패; 초기 투자 손실",
+      "lesson": "Technology cycles inevitable; need to adapt and persist through downturns",
+      "lessonKo": "기술 주기는 불가피합니다. 침체 중 적응하고 지속해야 합니다",
+      "source": null
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 1.8
+    },
+    {
+      "year": 2015,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2024,
+      "netWorth": 5.3
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Artificial intelligence will solve problems we haven't even identified yet",
+      "textKo": "인공지능은 아직 파악하지 못한 문제를 해결할 것입니다",
+      "context": "Tech conference keynote, 2018",
+      "contextKo": "기술 회의 기조 연설, 2018년",
+      "source": null
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "AI Superpowers",
+        "author": "Kai-Fu Lee",
+        "note": "Understanding AI and machine learning business potential",
+        "noteKo": "AI 및 머신러닝 비즈니스 잠재력 이해"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Built successful AI and analytics company; expert in machine learning and data science. Known for technical vision and innovation.",
+    "knownForKo": "성공적인 AI 및 분석 회사를 구축했습니다. 머신러닝 및 데이터 과학 전문가입니다. 기술 비전 및 혁신으로 알려져 있습니다.",
+    "philanthropy": "Supports STEM education and AI ethics initiatives",
+    "philanthropyKo": "STEM 교육 및 AI 윤리 이니셔티브를 지원합니다",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

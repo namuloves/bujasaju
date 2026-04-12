@@ -1,0 +1,90 @@
+{
+  "id": "761",
+  "name": "Matei Zaharia",
+  "childhood": {
+    "birthPlace": "Bucharest, Romania",
+    "birthPlaceKo": "부쿠레슈티, 루마니아",
+    "familyBackground": "Born into educated family with academic background. Parents were scientists and educators.",
+    "familyBackgroundKo": "학문적 배경이 있는 교육받은 가족에서 태어났습니다. 부모는 과학자이자 교육자였습니다.",
+    "education": "Graduated from University of Bucharest; later pursued computer science at UC Berkeley PhD",
+    "educationKo": "University of Bucharest에서 졸업했습니다. 나중에 UC Berkeley에서 컴퓨터 과학 박사를 추구했습니다",
+    "earlyLife": "Showed early aptitude for mathematics and computer science. Post-Cold War Eastern European transition influenced worldview.",
+    "earlyLifeKo": "수학 및 컴퓨터 과학에 초기 적성을 보였습니다. 냉전 후 동유럽 전환이 세계관에 영향을 미쳤습니다.",
+    "source": null
+  },
+  "careerTimeline": [
+    {
+      "year": 2009,
+      "event": "Created Apache Spark while at UC Berkeley; revolutionary distributed computing framework",
+      "eventKo": "UC Berkeley에서 Apache Spark 생성; 혁명적인 분산 컴퓨팅 프레임워크"
+    },
+    {
+      "year": 2013,
+      "event": "Co-founded Databricks to commercialize Spark; became widely adopted",
+      "eventKo": "Spark를 상용화하기 위해 Databricks 공동 설립; 널리 채택됨"
+    },
+    {
+      "year": 2018,
+      "event": "Databricks became leading big data and ML platform company",
+      "eventKo": "Databricks가 선도적인 빅데이터 및 ML 플랫폼 회사가 됨"
+    },
+    {
+      "year": 2021,
+      "event": "Databricks became unicorn; massive growth in data engineering and AI",
+      "eventKo": "Databricks가 유니콘이 되었습니다. 데이터 엔지니어링 및 AI에서 거대한 성장"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2015,
+      "description": "Early Databricks faced competition from cloud platforms and established players",
+      "descriptionKo": "초기 Databricks가 클라우드 플랫폼 및 기존 플레이어와의 경쟁에 직면했습니다",
+      "lesson": "Open source communities crucial; need strong commercial backing for adoption",
+      "lessonKo": "오픈 소스 커뮤니티가 중요합니다. 채택을 위해 강력한 상업적 지원이 필요합니다",
+      "source": null
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 0.4
+    },
+    {
+      "year": 2019,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2024,
+      "netWorth": 5.0
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Distributed computing is foundational to modern data and AI workloads",
+      "textKo": "분산 컴퓨팅은 현대 데이터 및 AI 워크로드의 기초입니다",
+      "context": "Data conference keynote, 2018",
+      "contextKo": "데이터 회의 기조 연설, 2018년",
+      "source": null
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "Designing Data-Intensive Applications",
+        "author": "Martin Kleppmann",
+        "note": "Understanding distributed systems and data architectures",
+        "noteKo": "분산 시스템 및 데이터 아키텍처 이해"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Creator of Apache Spark and co-founder of Databricks. Known for fundamental contributions to distributed computing and big data.",
+    "knownForKo": "Apache Spark의 창작자이자 Databricks의 공동 설립자입니다. 분산 컴퓨팅 및 빅데이터에 대한 기본적인 기여로 알려져 있습니다.",
+    "philanthropy": "Supports computer science education and open source development",
+    "philanthropyKo": "컴퓨터 과학 교육 및 오픈 소스 개발을 지원합니다",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

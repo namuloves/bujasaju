@@ -1,0 +1,79 @@
+{
+  "id": "310",
+  "name": "Reid Hoffman",
+  "childhood": {
+    "birthPlace": "Elk Grove, California, United States",
+    "birthPlaceKo": "엘크 그로브, 캘리포니아, 미국",
+    "familyBackground": "American entrepreneur from a well-educated, middle-class family. His parents were academic.",
+    "familyBackgroundKo": "잘 교육받은 중산층 가족 출신의 미국 기업가. 그의 부모는 학자였다.",
+    "education": "Stanford University (BA in Symbolic Systems)",
+    "educationKo": "스탠포드 대학교 (기호 체계 학사)",
+    "earlyLife": "Hoffman co-founded LinkedIn while working at PayPal. He is known for his expertise in social networking and professional connectivity platforms.",
+    "earlyLifeKo": "PayPal에서 일하면서 LinkedIn을 공동 설립했다. 소셜 네트워킹 및 전문 연결 플랫폼 전문 분야로 알려져 있다.",
+    "source": "https://www.forbes.com/profile/reid-hoffman/"
+  },
+  "careerTimeline": [
+    {
+      "year": 1997,
+      "event": "Joined PayPal and helped build early payment system",
+      "eventKo": "PayPal에 합류하여 초기 결제 시스템 구축 도움"
+    },
+    {
+      "year": 2003,
+      "event": "Founded LinkedIn professional networking platform",
+      "eventKo": "LinkedIn 전문 네트워킹 플랫폼 설립"
+    },
+    {
+      "year": 2011,
+      "event": "Took LinkedIn public on NYSE",
+      "eventKo": "LinkedIn을 NYSE에 상장"
+    }
+  ],
+  "failures": [],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 1.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 2.7
+    },
+    {
+      "year": 2024,
+      "netWorth": 2.7
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The most important thing is to be around people who are smarter than you.",
+      "textKo": "가장 중요한 것은 당신보다 똑똑한 사람들 주변에 있는 것이다.",
+      "context": "On building successful ventures",
+      "contextKo": "성공적인 벤처 구축에 관해"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": "The Startup of You",
+        "why": "Co-authored guide on applying entrepreneurial thinking to your career",
+        "whyKo": "경력에 기업가적 사고를 적용하는 것에 관한 공동 저술 가이드"
+      },
+      {
+        "title": "The Alliance",
+        "why": "Book on managing talent and professional relationships in modern workplace",
+        "whyKo": "현대 직장에서 인재 및 전문 관계 관리에 관한 책"
+      }
+    ],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Co-founder of LinkedIn, tech investor, and venture capitalist",
+    "knownForKo": "LinkedIn 공동 창립자, 기술 투자자 및 벤처 캐피탈리스트",
+    "philanthropy": "Supports education and tech entrepreneurship",
+    "philanthropyKo": "교육 및 기술 기업 정신 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

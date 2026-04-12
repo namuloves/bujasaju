@@ -1,0 +1,94 @@
+{
+  "id": "234",
+  "name": "Peter Spuhler",
+  "childhood": {
+    "birthPlace": "Zurich, Switzerland",
+    "birthPlaceKo": "스위스 취리히",
+    "familyBackground": "Son of Swiss industrialist with manufacturing background. Family with long tradition in engineering and industrial manufacturing.",
+    "familyBackgroundKo": "제조 배경을 가진 스위스 산업가의 아들. 공학 및 산업 제조의 오랜 전통을 가진 가족",
+    "education": "Swiss Federal Institute of Technology (Mechanical Engineering)",
+    "educationKo": "스위스 연방 공과대학교(기계공학)",
+    "earlyLife": "Grew up in Switzerland with strong engineering and manufacturing tradition. Developed expertise in precision manufacturing and industrial equipment.",
+    "earlyLifeKo": "스위스에서 성장하며 강한 공학 및 제조 전통. 정밀 제조 및 산업 장비의 전문 지식 개발",
+    "source": "https://www.stadlerails.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "event": "Joined family manufacturing company in engineering role",
+      "eventKo": "가족 제조 회사에 공학 역할로 입사"
+    },
+    {
+      "year": 2000,
+      "event": "Acquired and restructured Swiss rail manufacturer Stadler Rail",
+      "eventKo": "스위스 철도 제조업체 Stadler Rail 인수 및 구조 조정"
+    },
+    {
+      "year": 2010,
+      "event": "Expanded Stadler Rail into major European rail manufacturer",
+      "eventKo": "Stadler Rail을 주요 유럽 철도 제조업체로 확장"
+    },
+    {
+      "year": 2020,
+      "event": "Developed modern electric and autonomous train technologies",
+      "eventKo": "현대적 전기 및 자율 기차 기술 개발"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Rail industry faced significant challenges during economic downturn with project delays",
+      "descriptionKo": "경제 침체 중 프로젝트 지연으로 철도 산업 심각한 도전 직면",
+      "lesson": "Diversified product portfolio and improved customer relationships, focused on innovation in rail technology",
+      "lessonKo": "제품 포트폴리오 다각화 및 고객 관계 개선, 철도 기술 혁신에 집중",
+      "source": "https://www.stadlerails.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 2.1
+    },
+    {
+      "year": 2018,
+      "netWorth": 3.4
+    },
+    {
+      "year": 2021,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.2
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Switzerland's precision manufacturing tradition must drive innovation in modern rail technology",
+      "textKo": "스위스의 정밀 제조 전통은 현대 철도 기술의 혁신을 주도해야 합니다",
+      "context": "On industrial innovation and rail manufacturing",
+      "contextKo": "산업 혁신 및 철도 제조에 관해",
+      "source": "https://www.stadlerails.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Platform Economy",
+        "author": "Various authors",
+        "note": "On industrial innovation and technology transformation",
+        "noteKo": "산업 혁신 및 기술 변혁에 관한 책"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Stadler Rail leadership, Swiss manufacturing tradition, rail industry innovation, electric train technology",
+    "knownForKo": "Stadler Rail 리더십, 스위스 제조 전통, 철도 산업 혁신, 전기 기차 기술",
+    "philanthropy": "Supports Swiss engineering education and transportation research",
+    "philanthropyKo": "스위스 공학 교육 및 운송 연구 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "600",
+  "name": "Marina Budiman",
+  "nameKo": "마리나 부디만",
+  "childhood": "Marina Budiman was born in 1961 in Indonesia and showed a keen aptitude for mathematics and economics from an early age. She pursued her passion for numbers overseas, earning a degree in economics and finance from the University of Toronto in Canada. Returning to Indonesia in the mid-1980s, she entered the banking sector at a time when the country was beginning to modernize its financial infrastructure, setting the stage for a career that would eventually span banking, technology, and data infrastructure.",
+  "childhoodKo": "마리나 부디만은 1961년 인도네시아에서 태어나 어린 시절부터 수학과 경제에 남다른 재능을 보였다. 학업을 위해 캐나다로 건너가 토론토 대학교에서 경제학과 금융학을 전공했다. 1980년대 중반 인도네시아로 귀국한 그녀는 국가가 금융 인프라를 현대화하던 시기에 은행 업계에 발을 들여놓으며, 훗날 데이터 인프라 분야의 선구자가 될 경력의 첫 발을 내딛었다.",
+  "careerTimeline": [
+    {"year": 1985, "event": "Joined Bank Bali as an Account Officer, working on banking systems and software installation projects", "eventKo": "뱅크 발리에 어카운트 오피서로 입사, 은행 시스템 및 소프트웨어 도입 프로젝트 참여"},
+    {"year": 1989, "event": "Joined Sigma Cipta Caraka, an emerging Indonesian IT company, transitioning from banking to the technology sector", "eventKo": "신흥 IT 기업 시그마 칩타 카라카에 합류, 은행에서 기술 분야로 커리어 전환"},
+    {"year": 1994, "event": "Co-founded PT Indonet (Indonet) with Otto Toto Sugiri, establishing Indonesia's first commercial Internet Service Provider", "eventKo": "오토 토토 수기리와 함께 PT 인도넷(Indonet) 공동 창업, 인도네시아 최초의 상업 인터넷 서비스 제공업체 설립"},
+    {"year": 2000, "event": "Became Chief Financial Officer (CFO) of PT Sigma Cipta Caraka, overseeing the company's financial strategy for eight years", "eventKo": "PT 시그마 칩타 카라카의 최고재무책임자(CFO) 취임, 8년간 회사 재무 전략 총괄"},
+    {"year": 2011, "event": "Co-founded PT DCI Indonesia Tbk (DCII) with Otto Toto Sugiri and Han Arming Hanafia on July 18, focusing on premium data center services", "eventKo": "7월 18일 오토 토토 수기리·한 아밍 하나피아와 함께 PT DCI 인도네시아(DCII) 공동 창립, 프리미엄 데이터센터 서비스에 집중"},
+    {"year": 2012, "event": "Served as President Director of DCI Indonesia, leading the company's early operational build-out and client acquisition", "eventKo": "DCI 인도네시아 사장(President Director) 취임, 초기 운영 구축 및 고객 유치 주도"},
+    {"year": 2016, "event": "Transitioned to President Commissioner of DCI Indonesia as the company became Southeast Asia's first Tier IV certified data center operator", "eventKo": "DCI 인도네시아 대표이사회 의장(President Commissioner)으로 전환, 동남아 최초 티어 IV 데이터센터 운영사 인증 획득"},
+    {"year": 2021, "event": "DCI Indonesia's IPO on the Indonesia Stock Exchange made Budiman one of the country's wealthiest individuals as the stock surged on demand for cloud infrastructure", "eventKo": "DCI 인도네시아 인도네시아 증권거래소 상장, 클라우드 인프라 수요 급증으로 주가 급등하며 부디만은 인도네시아 최고 부자 반열에 오름"}
+  ],
+  "failures": [
+    {
+      "title": "Sharp Stock Decline After IPO Peak",
+      "description": "After DCI Indonesia's spectacular IPO run, the stock experienced a dramatic correction in 2022-2023 as rising interest rates and broader tech sector selloffs swept through emerging markets. At one point, Budiman's net worth reportedly dropped by over $4 billion in a matter of days, illustrating the volatility of a fortune tied almost entirely to a single listed company.",
+      "titleKo": "IPO 이후 주가 급락",
+      "descriptionKo": "DCI 인도네시아의 화려한 상장 이후, 금리 인상과 글로벌 기술주 매도세가 신흥 시장을 강타하면서 2022~2023년 주가가 큰 폭으로 조정을 받았다. 부디만의 순자산이 단 며칠 만에 40억 달러 이상 증발했다는 보도도 나왔으며, 단일 상장 주식에 집중된 자산 구조의 리스크를 여실히 보여주었다."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2020, "amount": 1.0},
+    {"year": 2021, "amount": 5.5},
+    {"year": 2022, "amount": 3.8},
+    {"year": 2023, "amount": 4.5},
+    {"year": 2024, "amount": 5.3},
+    {"year": 2025, "amount": 6.2}
+  ],
+  "quotes": [],
+  "books": [],
+  "sajuConnection": null
+}

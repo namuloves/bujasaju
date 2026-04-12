@@ -1,0 +1,90 @@
+{
+  "id": "266",
+  "name": "Samuel Tak Lee",
+  "childhood": {
+    "birthPlace": "Hong Kong",
+    "birthPlaceKo": "홍콩",
+    "familyBackground": "Real estate magnate family. Built property empire across Hong Kong and Southeast Asia.",
+    "familyBackgroundKo": "부동산 재벌 가족. 홍콩 및 동남아시아 전역의 자산 제국 구축",
+    "education": "University of Hong Kong, civil engineering",
+    "educationKo": "홍콩 대학교, 토목 공학",
+    "earlyLife": "Born into Hong Kong's post-war real estate boom. Early exposure to development and construction.",
+    "earlyLifeKo": "홍콩의 전후 부동산 호황에 태어남. 개발 및 건설에 조기 노출",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1985,
+      "event": "Joined family real estate development company",
+      "eventKo": "가족 부동산 개발 회사에 참여"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded into commercial and residential mega-projects",
+      "eventKo": "상업 및 주거 대형 프로젝트로 확장"
+    },
+    {
+      "year": 2010,
+      "event": "Diversified across Hong Kong, China, and Southeast Asia",
+      "eventKo": "홍콩, 중국 및 동남아시아 전역에 다각화"
+    },
+    {
+      "year": 2018,
+      "event": "Became major Asian property developer",
+      "eventKo": "주요 아시아 자산 개발자가 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2009,
+      "description": "Asian property market downturn affected developments",
+      "descriptionKo": "아시아 부동산 시장 둔화가 개발에 영향",
+      "lesson": "Geographic diversification reduces regional risk",
+      "lessonKo": "지리적 다각화는 지역 위험을 감소",
+      "source": "https://hkhongkong.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 3.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 3.8
+    },
+    {
+      "year": 2023,
+      "netWorth": 4.2
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Hong Kong development shaped Asia's future",
+      "textKo": "홍콩 개발이 아시아의 미래를 형성했다",
+      "context": "Real estate development speech",
+      "contextKo": "부동산 개발 연설",
+      "source": "https://asiareproperty.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation",
+        "noteKo": "사업 전략 및 혁신에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Leading Hong Kong property development into Asia",
+    "knownForKo": "홍콩 부동산 개발을 아시아로 주도",
+    "philanthropy": "Supports education and healthcare in Hong Kong",
+    "philanthropyKo": "홍콩의 교육 및 의료를 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}
