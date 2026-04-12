@@ -73,6 +73,58 @@ const KO_BRAND_ALIASES: Record<string, string[]> = {
   '프라다': ['prada'],
   '구찌': ['gucci', 'kering'],
   '팬더': ['panda express', 'panda restaurant'],
+  // Korean transliterations of acronyms/abbreviations
+  '에스케이': ['sk'],
+  '엘지': ['lg'],
+  '케이티': ['kt'],
+  '씨제이': ['cj'],
+  '제이피모건': ['jp morgan', 'jpmorgan'],
+  '에이치피': ['hp', 'hewlett'],
+  '아이비엠': ['ibm'],
+  '지엠': ['gm', 'general motors'],
+  '비엠더블유': ['bmw'],
+  '에이티앤티': ['at&t'],
+  // More Korean company/brand names
+  '셀트리온': ['celltrion'],
+  '네이버': ['naver'],
+  '카카오': ['kakao'],
+  '하이닉스': ['hynix', 'sk hynix'],
+  '포스코': ['posco'],
+  '롯데': ['lotte'],
+  '한화': ['hanwha'],
+  '두산': ['doosan'],
+  '아모레퍼시픽': ['amorepacific'],
+  '신세계': ['shinsegae', 'e-mart'],
+  // Global brands continued
+  '마이크론': ['micron'],
+  '인텔': ['intel'],
+  '퀄컴': ['qualcomm'],
+  '시스코': ['cisco'],
+  '세일즈포스': ['salesforce'],
+  '어도비': ['adobe'],
+  '페이팔': ['paypal'],
+  '스트라이프': ['stripe'],
+  '쇼피파이': ['shopify'],
+  '스포티파이': ['spotify'],
+  '링크드인': ['linkedin'],
+  '트위터': ['twitter'],
+  '엑스': ['x.com', 'twitter'],
+  '델': ['dell'],
+  '오픈에이아이': ['openai'],
+  '앤스로픽': ['anthropic'],
+  '바이두': ['baidu'],
+  '징동': ['jd.com', 'jd'],
+  '핀둬둬': ['pinduoduo', 'pdd'],
+  '샹그릴라': ['shangri-la'],
+  '유튜브': ['youtube'],
+  '왓츠앱': ['whatsapp'],
+  '인스타그램': ['instagram'],
+  '버진': ['virgin'],
+  '로이터': ['reuters'],
+  '골드만': ['goldman'],
+  '모건': ['morgan'],
+  '블랙록': ['blackrock'],
+  '피델리티': ['fidelity'],
 };
 
 /**
@@ -170,7 +222,8 @@ export default function BrowseTab() {
         const bioKo = (person.bioKo ?? '').toLowerCase();
         // Expand Korean brand queries to English equivalents
         const expanded = expandKoreanQuery(qNoSpace);
-        const searchable = nameEn + ' ' + src + ' ' + industry;
+        const bio = (person.bio ?? '').toLowerCase();
+        const searchable = nameEn + ' ' + src + ' ' + industry + ' ' + bio + ' ' + bioKo;
         // 초성 검색: if query is all jamo consonants, match against chosung of Korean name
         const chosungMatch = isChosungOnly(qNoSpace) && nameKo
           ? getChosung(nameKo).includes(qNoSpace)
@@ -182,7 +235,13 @@ export default function BrowseTab() {
           !src.includes(q) &&
           !industry.includes(q) &&
           !bioKo.includes(q) &&
-          !expanded.some(term => searchable.includes(term)) &&
+          !expanded.some(term =>
+            // Short terms (<=3 chars) must match as whole words to avoid false positives
+            // e.g. "sk" should not match "Musk" or "Moskovitz"
+            term.length <= 3
+              ? new RegExp(`\\b${term}\\b`, 'i').test(searchable)
+              : searchable.includes(term)
+          ) &&
           !chosungMatch
         )
           return false;
