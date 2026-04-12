@@ -9,18 +9,41 @@ import { calculateSaju } from '@/lib/saju/index';
 // Both RevealAnimation and MatchResults pull in the matcher + (transitively)
 // the enriched-people hook. They only render after the user confirms their
 // saju, so lazy-load both to keep the form step tiny.
-const RevealAnimation = dynamic(() => import('./RevealAnimation'), {
-  ssr: false,
-  loading: () => (
-    <div className="text-center py-16 text-sm text-gray-400">불러오는 중…</div>
-  ),
-});
-const MatchResults = dynamic(() => import('./MatchResults'), {
-  ssr: false,
-  loading: () => (
-    <div className="text-center py-16 text-sm text-gray-400">불러오는 중…</div>
-  ),
-});
+//
+// After a Vercel deployment the old chunk URLs become 404. Catch the
+// ChunkLoadError and do a full page reload so the browser fetches the new
+// build's HTML (and therefore the correct chunk URLs).
+function retryImport<T>(fn: () => Promise<T>): Promise<T> {
+  return fn().catch((err: unknown) => {
+    if (
+      err instanceof Error &&
+      err.name === 'ChunkLoadError' &&
+      typeof window !== 'undefined'
+    ) {
+      window.location.reload();
+    }
+    throw err;
+  });
+}
+
+const RevealAnimation = dynamic(
+  () => retryImport(() => import('./RevealAnimation')),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="text-center py-16 text-sm text-gray-400">불러오는 중…</div>
+    ),
+  },
+);
+const MatchResults = dynamic(
+  () => retryImport(() => import('./MatchResults')),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="text-center py-16 text-sm text-gray-400">불러오는 중…</div>
+    ),
+  },
+);
 import { determineGyeokguk } from '@/lib/saju/gyeokguk';
 import type { SajuResult, JiJi, CheonGan } from '@/lib/saju/types';
 

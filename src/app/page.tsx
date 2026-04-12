@@ -9,12 +9,25 @@ import { loadEnrichedPeople } from '@/lib/data/enriched';
 
 // BrowseTab pulls in the full 3,300-person dataset + saju calc. Lazy-load it
 // so the default Match tab stays tiny.
-const BrowseTab = dynamic(() => import('@/components/BrowseTab'), {
-  ssr: false,
-  loading: () => (
-    <div className="text-center py-16 text-sm text-gray-400">불러오는 중…</div>
-  ),
-});
+const BrowseTab = dynamic(
+  () =>
+    import('@/components/BrowseTab').catch((err: unknown) => {
+      if (
+        err instanceof Error &&
+        err.name === 'ChunkLoadError' &&
+        typeof window !== 'undefined'
+      ) {
+        window.location.reload();
+      }
+      throw err;
+    }),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="text-center py-16 text-sm text-gray-400">불러오는 중…</div>
+    ),
+  },
+);
 
 function getInitialTab(): TabKey {
   if (typeof window === 'undefined') return 'match';
