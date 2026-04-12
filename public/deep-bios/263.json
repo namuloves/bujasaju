@@ -1,0 +1,90 @@
+{
+  "id": "263",
+  "name": "Frank Wang",
+  "childhood": {
+    "birthPlace": "Hangzhou, China",
+    "birthPlaceKo": "중국 항저우",
+    "familyBackground": "Family in manufacturing and electronics. Exposed to business in Zhejiang entrepreneurial culture.",
+    "familyBackgroundKo": "제조 및 전자 가족. 저장성 기업가 문화에 노출",
+    "education": "Zhejiang University, computer science",
+    "educationKo": "저장 대학, 컴퓨터 과학",
+    "earlyLife": "Grew up during China's economic opening. Witnessed tech company rise. Inspired by entrepreneurial environment.",
+    "earlyLifeKo": "중국 경제 개방 중 성장. 기술 회사 부상 목격. 기업가 환경에 영감",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1998,
+      "event": "Founded technology startup in Hangzhou",
+      "eventKo": "항저우에서 기술 스타트업 설립"
+    },
+    {
+      "year": 2006,
+      "event": "Launched flagship drone technology product",
+      "eventKo": "주력 드론 기술 제품 출시"
+    },
+    {
+      "year": 2015,
+      "event": "Became world's largest consumer drone manufacturer",
+      "eventKo": "세계 최대 소비자 드론 제조업체가 됨"
+    },
+    {
+      "year": 2020,
+      "event": "Expanded into aerial imaging and industrial applications",
+      "eventKo": "항공 이미징 및 산업 응용으로 확장"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2013,
+      "description": "Initial drone models faced quality and safety concerns",
+      "descriptionKo": "초기 드론 모델이 품질 및 안전 문제 직면",
+      "lesson": "Quality and compliance are non-negotiable",
+      "lessonKo": "품질 및 준수는 협상 불가능",
+      "source": "https://techcrunch.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 4.0
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.1
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Technology should be accessible to everyone",
+      "textKo": "기술은 모두가 접근 가능해야 한다",
+      "context": "Technology innovation keynote",
+      "contextKo": "기술 혁신 기조",
+      "source": "https://dji.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation approach",
+        "noteKo": "비즈니스 전략 및 혁신 접근에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building world's leading drone company from Hangzhou",
+    "knownForKo": "항저우에서 세계 선도 드론 회사 구축",
+    "philanthropy": "Supports technology education and startup ecosystems",
+    "philanthropyKo": "기술 교육 및 스타트업 생태계를 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

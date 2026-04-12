@@ -1,0 +1,94 @@
+{
+  "id": "363",
+  "name": "Bruce Kovner",
+  "childhood": {
+    "birthPlace": "Brooklyn, New York, USA",
+    "birthPlaceKo": "뉴욕 브루클린, 미국",
+    "familyBackground": "Jewish American family with modest means. Father was a businessman; family valued education and intellectual pursuits.",
+    "familyBackgroundKo": "조건이 좋지 않은 유대인 미국 가족. 아버지는 사업가였으며 가족은 교육과 지적 추구를 중시했습니다.",
+    "education": "Graduated from Harvard College and Cornell Law School",
+    "educationKo": "하버드 칼리지 졸업 및 코넬 로스쿨 졸업",
+    "earlyLife": "Practiced law briefly before discovering interest in trading. Transitioned to finance in mid-1970s with minimal capital.",
+    "earlyLifeKo": "거래에 관심을 발견하기 전에 법률을 약간 실무했습니다. 1970년대 중반에 최소한의 자본으로 금융으로 전환했습니다.",
+    "source": "forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1977,
+      "event": "Started trading with $4,000; first commodity trade in soybeans",
+      "eventKo": "$4,000로 거래 시작; 대두 첫 번째 상품 거래"
+    },
+    {
+      "year": 1979,
+      "event": "Turned $4,000 into $1 million within two years through strategic trading",
+      "eventKo": "2년 내에 $4,000을 전략적 거래를 통해 $100만으로 전환"
+    },
+    {
+      "year": 1983,
+      "event": "Founded Caxton Associates, hedge fund management firm",
+      "eventKo": "Caxton Associates 헤지펀드 관리 회사 설립"
+    },
+    {
+      "year": 2000,
+      "event": "Caxton Associates became one of world's largest macro hedge funds",
+      "eventKo": "Caxton Associates가 세계 최대 규모의 거시 헤지펀드 중 하나가 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1987,
+      "description": "Black Monday and market crash impacted trading positions; significant portfolio losses",
+      "descriptionKo": "블랙 먼데이 및 시장 붕괴가 거래 포지션에 영향을 미쳤으며 상당한 포트폴리오 손실",
+      "lesson": "Learned importance of risk management and portfolio diversification across asset classes",
+      "lessonKo": "자산 클래스 전반에 걸친 위험 관리 및 포트폴리오 다각화의 중요성을 배웠습니다",
+      "source": "bloomberg.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2005,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2010,
+      "netWorth": 6.2
+    },
+    {
+      "year": 2018,
+      "netWorth": 8.2
+    },
+    {
+      "year": 2023,
+      "netWorth": 9
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The central question is whether the market is efficient. I do not believe markets are perfectly efficient.",
+      "textKo": "핵심 질문은 시장이 효율적인가입니다. 나는 시장이 완전히 효율적이지 않다고 믿습니다.",
+      "context": "Investment philosophy discussion",
+      "contextKo": "투자 철학 토론",
+      "source": "market-interviews.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "Market Wizards",
+        "author": "Jack Schwager",
+        "note": "Featured in book about successful traders",
+        "noteKo": "성공한 거래자에 관한 책에 소개됨"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Macro hedge fund pioneer; exceptional trading track record; disciplined risk management",
+    "knownForKo": "거시 헤지펀드 개척자; 탁월한 거래 실적; 규율 있는 위험 관리",
+    "philanthropy": "Extensive art collecting and museum support; education philanthropy",
+    "philanthropyKo": "광범위한 미술 수집 및 박물관 지원; 교육 자선활동",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

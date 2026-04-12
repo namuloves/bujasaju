@@ -1,0 +1,94 @@
+{
+  "id": "382",
+  "name": "Zhang Ning",
+  "childhood": {
+    "birthPlace": "Toronto, Canada",
+    "birthPlaceKo": "토론토, 캐나다",
+    "familyBackground": "Chinese-Canadian family with manufacturing background. Father immigrated and built manufacturing business.",
+    "familyBackgroundKo": "제조 배경을 가진 중국계 캐나다 가족. 아버지는 이민했고 제조 사업을 구축했습니다.",
+    "education": "Studied mechanical engineering at University of Toronto",
+    "educationKo": "토론토 대학교에서 기계 공학 공부",
+    "earlyLife": "Joined family manufacturing business in 1990s. Modernized operations and expanded into automotive and industrial components.",
+    "earlyLifeKo": "1990년대 가족 제조 사업에 입사했습니다. 자동차 및 산업 부품으로 사업을 현대화하고 확장했습니다.",
+    "source": "canadian-manufacturing.ca"
+  },
+  "careerTimeline": [
+    {
+      "year": 1995,
+      "event": "Joined family manufacturing company",
+      "eventKo": "가족 제조 회사 입사"
+    },
+    {
+      "year": 2005,
+      "event": "Expanded into automotive parts and industrial components manufacturing",
+      "eventKo": "자동차 부품 및 산업 부품 제조로 확장"
+    },
+    {
+      "year": 2012,
+      "event": "Became major supplier to North American automotive industry",
+      "eventKo": "북미 자동차 산업의 주요 공급업체가 됨"
+    },
+    {
+      "year": 2020,
+      "event": "Expanded operations globally across multiple continents",
+      "eventKo": "여러 대륙에 걸쳐 글로벌 운영 확장"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2009,
+      "description": "Automotive industry downturn severely impacted component sales; customer consolidation pressures",
+      "descriptionKo": "자동차 산업 침체가 부품 판매에 심각한 영향; 고객 통합 압력",
+      "lesson": "Learned importance of customer diversification and innovation in automotive supply",
+      "lessonKo": "자동차 공급에서 고객 다각화 및 혁신의 중요성을 배웠습니다",
+      "source": "automotive-news.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2015,
+      "netWorth": 1.8
+    },
+    {
+      "year": 2020,
+      "netWorth": 2.4
+    },
+    {
+      "year": 2023,
+      "netWorth": 2.8
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Manufacturing excellence requires continuous innovation and deep customer partnerships",
+      "textKo": "제조 우수성은 지속적인 혁신과 깊은 고객 파트너십이 필요합니다",
+      "context": "Interview about automotive manufacturing strategy",
+      "contextKo": "자동차 제조 전략에 관한 인터뷰",
+      "source": "manufacturing-canada.ca"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influenced manufacturing innovation approach",
+        "noteKo": "제조 혁신 접근 방식에 영향을 미쳤습니다"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building major automotive components supplier; manufacturing innovation; North American market expertise",
+    "knownForKo": "주요 자동차 부품 공급업체 구축; 제조 혁신; 북미 시장 전문성",
+    "philanthropy": "Supports technical education and manufacturing development in Canada",
+    "philanthropyKo": "캐나다의 기술 교육 및 제조 개발 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

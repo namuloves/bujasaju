@@ -1,0 +1,97 @@
+{
+  "id": "930",
+  "name": "John Paulson",
+  "nameKo": "존 폴슨",
+  "childhood": "John Alfred Paulson was born on December 14, 1955, in Queens, New York, the third of four children in a middle-class family with Ecuadorian roots on his father's side. He showed an early aptitude for numbers and business, which led him to study finance at New York University, where he graduated valedictorian and summa cum laude in 1978. His relentless academic drive earned him a place at Harvard Business School, where he graduated as a George F. Baker Scholar in 1980.",
+  "childhoodKo": "존 알프레드 폴슨은 1955년 12월 14일 뉴욕 퀸스에서 4남매 중 셋째로 태어났으며, 아버지 쪽으로는 에콰도르 혈통을 이어받은 중산층 가정에서 자랐다. 어릴 때부터 수학과 사업에 재능을 보였으며, 뉴욕대학교에서 수석으로 졸업하고 최우등 학위를 받았다. 학문에 대한 집념으로 하버드 경영대학원에 진학해 1980년 조지 F. 베이커 장학생으로 MBA를 마쳤다.",
+  "careerTimeline": [
+    {
+      "year": 1980,
+      "event": "Began career at Boston Consulting Group after Harvard MBA, then joined Odyssey Partners under Leon Levy.",
+      "eventKo": "하버드 MBA 졸업 후 보스턴컨설팅그룹에서 커리어를 시작하고, 이후 리언 레비 밑에서 오디세이 파트너스에 합류했다."
+    },
+    {
+      "year": 1984,
+      "event": "Joined Bear Stearns' mergers and acquisitions department, honing skills in deal analysis and risk arbitrage.",
+      "eventKo": "베어스턴스의 인수합병(M&A) 부서에 합류해 딜 분석 및 위험 차익 거래 역량을 키웠다."
+    },
+    {
+      "year": 1988,
+      "event": "Became general partner at Gruss Partners LP, gaining experience managing risk arbitrage strategies.",
+      "eventKo": "그러스 파트너스 LP의 제너럴 파트너로 활동하며 위험 차익 거래 전략 운용 경험을 쌓았다."
+    },
+    {
+      "year": 1994,
+      "event": "Founded Paulson & Co. with $2 million in seed capital and a single employee, focusing on merger arbitrage.",
+      "eventKo": "단돈 200만 달러의 시드 자본과 직원 한 명으로 폴슨앤코를 설립하고 합병 차익 거래에 집중했다."
+    },
+    {
+      "year": 2006,
+      "event": "Began building a massive short position against US subprime mortgage-backed securities, betting on housing market collapse.",
+      "eventKo": "미국 서브프라임 모기지 담보부 증권에 대한 대규모 공매도 포지션 구축을 시작하며 주택 시장 붕괴에 베팅했다."
+    },
+    {
+      "year": 2007,
+      "event": "Earned nearly $4 billion personally as the subprime mortgage market collapsed, transforming him from obscure hedge fund manager to financial legend. His funds gained over 100% returns.",
+      "eventKo": "서브프라임 모기지 시장이 붕괴하면서 개인적으로 약 40억 달러를 벌어들이며 무명의 헤지펀드 매니저에서 금융계 전설로 거듭났다. 펀드 수익률은 100%를 넘겼다."
+    },
+    {
+      "year": 2010,
+      "event": "Earned $4.9 billion, setting a record for single-year hedge fund earnings, and was ranked 45th on the Forbes Billionaires list with $12 billion net worth.",
+      "eventKo": "49억 달러를 벌어 헤지펀드 단일 연도 수익 기록을 세웠으며, 포브스 억만장자 순위에서 순자산 120억 달러로 45위에 이름을 올렸다."
+    },
+    {
+      "year": 2020,
+      "event": "Announced conversion of Paulson & Co. from an external hedge fund to a private family investment office, returning outside investors' capital.",
+      "eventKo": "폴슨앤코를 외부 헤지펀드에서 개인 패밀리 오피스로 전환한다고 발표하고 외부 투자자들의 자본을 반환했다."
+    }
+  ],
+  "failures": [
+    {
+      "title": "2011 Fund Collapse",
+      "description": "After the heights of 2010, Paulson's flagship Advantage Fund suffered catastrophic losses in 2011, falling more than 50% due to bad bets on Bank of America, Citigroup, and the Chinese forestry company Sino-Forest, which was later exposed as a fraud. His fortune shrank by roughly $3 billion in a single year.",
+      "titleKo": "2011년 펀드 폭락",
+      "descriptionKo": "2010년 정점 이후, 폴슨의 대표 펀드인 어드밴티지 펀드는 2011년 뱅크오브아메리카, 씨티그룹 및 나중에 사기로 밝혀진 중국계 임업회사 시노포레스트에 잘못 베팅해 50% 이상 폭락했다. 그의 재산은 1년 만에 약 30억 달러 줄어들었다."
+    },
+    {
+      "title": "Goldman Sachs Abacus Controversy",
+      "description": "Paulson's collaboration with Goldman Sachs on the Abacus 2007-AC1 CDO was heavily criticized. While Paulson bet against the instrument, the deal was sold to unsuspecting investors without disclosing his short position. Goldman paid a $550 million fine — the largest ever by a Wall Street firm at the time — though Paulson himself was not charged.",
+      "titleKo": "골드만삭스 아바쿠스 논란",
+      "descriptionKo": "골드만삭스와 공동 설계한 아바쿠스 2007-AC1 CDO는 큰 비판을 받았다. 폴슨은 해당 상품에 공매도를 걸면서도, 그 사실을 숨긴 채 상품이 투자자들에게 판매됐다. 골드만삭스는 당시 월가 사상 최대 규모인 5억 5천만 달러의 벌금을 납부했지만 폴슨 본인은 기소되지 않았다."
+    },
+    {
+      "title": "Gold Investment Losses",
+      "description": "Paulson's heavy allocation to gold through the 2010s proved costly as gold prices declined from their 2011 peak. His gold-focused funds suffered significant losses between 2013 and 2018, eroding much of the wealth accumulated from the subprime trade.",
+      "titleKo": "금 투자 손실",
+      "descriptionKo": "2010년대에 금에 집중적으로 투자한 전략은 2011년 고점 이후 금값 하락으로 큰 손실을 불러왔다. 금 관련 펀드들은 2013년부터 2018년 사이 대규모 손실을 기록해 서브프라임 트레이드로 축적한 상당한 재산을 잠식했다."
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2007, "amount": 4.0 },
+    { "year": 2009, "amount": 6.8 },
+    { "year": 2010, "amount": 12.0 },
+    { "year": 2012, "amount": 11.0 },
+    { "year": 2015, "amount": 7.0 },
+    { "year": 2020, "amount": 4.5 },
+    { "year": 2025, "amount": 3.8 }
+  ],
+  "quotes": [
+    {
+      "text": "Many investors make the mistake of buying high and selling low while the exact opposite is the right strategy to outperform over the long term.",
+      "source": "BrainyQuote",
+      "year": 2012
+    },
+    {
+      "text": "Watch the downside, the upside will take care of itself. Our goal is to preserve principal, not to lose money.",
+      "source": "BrainyQuote",
+      "year": 2011
+    },
+    {
+      "text": "I still think buying a home is the best investment any individual can make.",
+      "source": "BrainyQuote",
+      "year": 2013
+    }
+  ],
+  "books": [],
+  "sajuConnection": null
+}

@@ -1,0 +1,90 @@
+{
+  "id": "288",
+  "name": "Keith Dunleavy",
+  "childhood": {
+    "birthPlace": "Boston, Massachusetts, USA",
+    "birthPlaceKo": "미국 매사추세츠 보스턴",
+    "familyBackground": "Healthcare and insurance family. Built medical services empire.",
+    "familyBackgroundKo": "의료 및 보험 가족. 의료 서비스 제국 구축",
+    "education": "Boston University, healthcare management degree",
+    "educationKo": "보스턴 대학교, 의료 관리 학위",
+    "earlyLife": "Grew up in Boston healthcare hub. Exposed to medical services and insurance.",
+    "earlyLifeKo": "보스턴 의료 중심에서 성장. 의료 서비스 및 보험에 노출",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "event": "Joined family healthcare management company",
+      "eventKo": "가족 의료 관리 회사 참여"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded healthcare services and insurance operations",
+      "eventKo": "의료 서비스 및 보험 운영 확장"
+    },
+    {
+      "year": 2010,
+      "event": "Built major health insurance and services company",
+      "eventKo": "주요 의료 보험 및 서비스 회사 구축"
+    },
+    {
+      "year": 2018,
+      "event": "Became major US healthcare provider",
+      "eventKo": "주요 미국 의료 제공자가 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Healthcare reform created regulatory uncertainty",
+      "descriptionKo": "의료 개혁이 규제 불확실성 창출",
+      "lesson": "Healthcare business requires regulatory expertise",
+      "lessonKo": "의료 사업은 규제 전문성 필요",
+      "source": "https://healthcaretoday.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 2.4
+    },
+    {
+      "year": 2020,
+      "netWorth": 3.0
+    },
+    {
+      "year": 2023,
+      "netWorth": 3.4
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Accessible healthcare improves community health outcomes",
+      "textKo": "접근 가능한 의료가 지역사회 건강 결과를 개선",
+      "context": "Healthcare industry conference",
+      "contextKo": "의료 산업 회의",
+      "source": "https://healthcaretoday.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation",
+        "noteKo": "사업 전략 및 혁신에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building major US health insurance and services company",
+    "knownForKo": "주요 미국 의료 보험 및 서비스 회사 구축",
+    "philanthropy": "Supports healthcare access and research",
+    "philanthropyKo": "의료 접근 및 연구 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

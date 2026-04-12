@@ -1,0 +1,85 @@
+{
+  "id": "187",
+  "name": "Alexander Karp",
+  "childhood": {
+    "birthPlace": "New York, New York, USA",
+    "birthPlaceKo": "미국 뉴욕주 뉴욕",
+    "familyBackground": "Karp was born into an intellectual family with interests in philosophy, mathematics, and law. His parents were educators and scholars.",
+    "familyBackgroundKo": "카프는 철학, 수학 및 법학에 관심을 가진 지적 가족에 태어났다.",
+    "education": "Haverford College; Stanford University Law School",
+    "educationKo": "해버포드 칼리지; 스탠포드 대학교 로스쿨",
+    "earlyLife": "Karp co-founded Palantir Technologies, a data analytics and government software company. He built the company into a major player in intelligence and defense technology.",
+    "earlyLifeKo": "카프는 데이터 분석 및 정부 소프트웨어 회사인 팔란티르 테크놀로지스를 공동 창립했다.",
+    "source": "https://www.forbes.com/billionaires"
+  },
+  "careerTimeline": [
+    {
+      "year": 2003,
+      "event": "Co-founded Palantir Technologies for data analytics and intelligence",
+      "eventKo": "데이터 분석 및 인텔리전스를 위한 팔란티르 테크놀로지스 공동 창립"
+    },
+    {
+      "year": 2010,
+      "event": "Secured major government contracts for intelligence and defense work",
+      "eventKo": "인텔리전스 및 방위 사업을 위한 주요 정부 계약 확보"
+    },
+    {
+      "year": 2020,
+      "event": "Palantir IPO made Karp billionaire; company valued at over 100 billion",
+      "eventKo": "팔란티르 IPO로 카프가 억만장자가 되고 회사가 100억 이상의 가치를 평가받음"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2018,
+      "description": "Expansion into commercial markets faced significant challenges and slower adoption",
+      "descriptionKo": "상업 시장 확장이 상당한 도전 및 느린 채택에 직면",
+      "lesson": "Government software and commercial software markets have different dynamics and requirements",
+      "lessonKo": "정부 소프트웨어와 상업 소프트웨어 시장은 다른 역학 관계와 요구사항을 가짐",
+      "source": "https://www.reuters.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2020,
+      "netWorth": 12.5
+    },
+    {
+      "year": 2022,
+      "netWorth": 13.2
+    },
+    {
+      "year": 2024,
+      "netWorth": 14.0
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Data is the foundation of understanding complex problems in government and business",
+      "textKo": "데이터는 정부 및 비즈니스에서 복잡한 문제를 이해하는 기초이다",
+      "context": "Interview on Palantir's mission",
+      "contextKo": "팔란티르의 미션에 관한 인터뷰",
+      "source": "https://www.palantir.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Master and Margarita",
+        "author": "Mikhail Bulgakov",
+        "note": "Personal philosophical influence on his worldview",
+        "noteKo": "그의 세계관에 대한 개인적 철학적 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Palantir co-founder; data analytics leadership; government technology expertise",
+    "knownForKo": "팔란티르 공동 창립자; 데이터 분석 리더십; 정부 기술 전문성",
+    "philanthropy": "Supports education and civil liberties initiatives",
+    "philanthropyKo": "교육 및 시민 자유 이니셔티브 지원",
+    "controversies": "Palantir faced criticism over surveillance technology and government contracts",
+    "controversiesKo": "팔란티르는 감시 기술 및 정부 계약에 대한 비판 직면"
+  },
+  "sajuConnection": null
+}

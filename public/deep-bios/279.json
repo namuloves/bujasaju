@@ -1,0 +1,90 @@
+{
+  "id": "279",
+  "name": "Piero Ferrari",
+  "childhood": {
+    "birthPlace": "Modena, Italy",
+    "birthPlaceKo": "이탈리아 모데나",
+    "familyBackground": "Heir to Ferrari luxury automobile empire. Built automotive legend.",
+    "familyBackgroundKo": "Ferrari 럭셔리 자동차 제국의 상속자. 자동차 전설 구축",
+    "education": "Politecnico di Milano, engineering degree",
+    "educationKo": "밀라노 공과대학, 공학 학위",
+    "earlyLife": "Grew up in Modena, heart of Italian automotive industry. Exposed to engineering and design.",
+    "earlyLifeKo": "이탈리아 자동차 산업의 중심인 모데나에서 성장. 공학 및 디자인에 노출",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "event": "Joined family Ferrari automobile business",
+      "eventKo": "가족 Ferrari 자동차 사업에 참여"
+    },
+    {
+      "year": 2000,
+      "event": "Oversaw Ferrari engineering and design innovation",
+      "eventKo": "Ferrari 공학 및 설계 혁신 감독"
+    },
+    {
+      "year": 2010,
+      "event": "Expanded Ferrari production and luxury offerings",
+      "eventKo": "Ferrari 생산 및 럭셔리 상품 확장"
+    },
+    {
+      "year": 2018,
+      "event": "Maintained Ferrari as world's most prestigious automobile brand",
+      "eventKo": "Ferrari를 세계 최고의 자동차 브랜드로 유지"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Global recession reduced luxury automobile sales",
+      "descriptionKo": "글로벌 경기 침체가 럭셔리 자동차 판매 감소",
+      "lesson": "Luxury brands must maintain exclusivity during downturns",
+      "lessonKo": "럭셔리 브랜드는 경기 침체 중 배타성을 유지해야 함",
+      "source": "https://ferrarispa.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 5.8
+    },
+    {
+      "year": 2020,
+      "netWorth": 6.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 7.2
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Ferrari is the passion and soul of automotive engineering",
+      "textKo": "Ferrari는 자동차 공학의 열정과 영혼이다",
+      "context": "Automotive innovation summit",
+      "contextKo": "자동차 혁신 정상 회담",
+      "source": "https://ferrarispa.com"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation",
+        "noteKo": "사업 전략 및 혁신에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Stewarding Ferrari as world's leading luxury automobile brand",
+    "knownForKo": "Ferrari를 세계 선도 럭셔리 자동차 브랜드로 관리",
+    "philanthropy": "Supports Italian culture, arts, and automotive heritage",
+    "philanthropyKo": "이탈리아 문화, 예술 및 자동차 유산을 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

@@ -1,0 +1,49 @@
+{
+  "id": "259",
+  "name": "Wei Jianjun",
+  "nameKo": "웨이젠쥔",
+  "childhood": "Wei Jianjun was born in 1964 in Baoding, Hebei Province, China, to a family with a military background — his father was a soldier and his mother a public servant. After graduating high school, he worked briefly at a micromotor factory in Beijing and later at a carpet factory, gaining early exposure to industrial manufacturing. In 1986 he joined his father Wei Deyi's company dealing in metal construction and heating parts, and in 1989 he and his father co-founded Taihang Dongwei Automotive Suspension, planting the seed for his lifelong passion for automobiles.",
+  "childhoodKo": "웨이젠쥔은 1964년 중국 허베이성 바오딩에서 태어났다. 아버지는 군인, 어머니는 공무원 출신의 가정에서 성장했다. 고등학교 졸업 후 베이징의 소형 모터 공장과 카펫 공장에서 잠시 일하며 제조업 현장을 처음 경험했다. 1986년에는 금속 건축 자재와 난방 부품을 다루는 아버지 웨이더이의 회사에 합류했고, 1989년에는 아버지와 함께 타이항 동웨이 자동차 서스펜션을 공동 창업하며 자동차에 대한 평생의 열정을 싹틔웠다.",
+  "careerTimeline": [
+    {"year": 1990, "event": "At age 26, Wei Jianjun applied for and was appointed director of the struggling Great Wall Industry Company — a government-owned automotive repair workshop in Baoding — for a five-year term. He left his father's business to pursue his passion for automobiles.", "eventKo": "26세의 나이에 바오딩의 국영 자동차 수리 공장인 그레이트월 산업공사의 부진한 상황을 기회로 보고 책임자에 지원했다. 5년 임기의 공장장으로 선임된 그는 자동차에 대한 열정을 쫓아 아버지 회사를 떠났다."},
+    {"year": 1995, "event": "During a business trip to Thailand, Wei observed the widespread popularity of pickup trucks and decided to pivot Great Wall's production toward trucks. He developed a model based on the Toyota Hilux.", "eventKo": "태국 출장 중 픽업트럭의 폭발적 인기를 목격하고 그레이트월의 생산 방향을 트럭으로 전환하기로 결정했다. 도요타 하이럭스를 참고한 트럭 모델 개발에 착수했다."},
+    {"year": 1996, "event": "Launched the Great Wall Deer pickup truck, priced at roughly half the cost of competing foreign brands. The Deer became an immediate success, particularly among small business owners and farmers in rural China.", "eventKo": "경쟁 외제 픽업트럭 가격의 절반 수준으로 그레이트월 디어 픽업트럭을 출시했다. 디어는 농촌 소규모 자영업자와 농민들을 중심으로 즉각적인 성공을 거뒀다."},
+    {"year": 1998, "event": "The local Nandayuan Township privatized Great Wall, forming Great Wall Motor Group Co. Ltd. Wei Jianjun acquired a 25% ownership stake, marking the beginning of his private control over the company.", "eventKo": "난다위안 향촌 정부가 그레이트월을 민영화하여 그레이트월 모터 그룹을 설립했다. 웨이젠쥔은 25%의 지분을 취득하며 개인 지배력을 확립하기 시작했다."},
+    {"year": 2002, "event": "Overcame city restrictions on pickup trucks by pivoting to SUV production. Wei launched affordable SUVs priced at less than half of comparable foreign imports, rapidly capturing market share.", "eventKo": "주요 도시에서 픽업트럭 진입이 제한되자 SUV 생산으로 전환했다. 외제 수입 SUV의 절반 이하 가격으로 제품을 출시하여 빠르게 시장 점유율을 확보했다."},
+    {"year": 2003, "event": "Took Great Wall Motor public on the Hong Kong Stock Exchange on December 15, making it the first private Chinese automaker to list on a major exchange.", "eventKo": "12월 15일 그레이트월 모터를 홍콩 증권거래소에 상장시켜 중국 최초의 민간 자동차 회사 IPO를 달성했다."},
+    {"year": 2011, "event": "Listed Great Wall Motor on the Shanghai Stock Exchange in a second IPO, consolidating the Wei family's holdings and establishing the company's current corporate structure.", "eventKo": "상하이 증권거래소에 2차 상장을 통해 웨이 가문의 지분을 정리하고 현재의 기업 구조를 확립했다."},
+    {"year": 2013, "event": "Spun off Haval as a standalone SUV brand from Great Wall Motor. Haval would go on to become China's best-selling SUV brand for years and a major driver of Wei's wealth.", "eventKo": "그레이트월 모터에서 하발을 독립 SUV 브랜드로 분리 출범시켰다. 하발은 이후 중국 최다 판매 SUV 브랜드로 자리잡으며 웨이젠쥔 재산의 핵심 원동력이 되었다."},
+    {"year": 2021, "event": "Great Wall Motor's stock surged to record highs as the company reported its best-ever annual sales figures, with Wei Jianjun's net worth peaking above $20 billion at the market high.", "eventKo": "그레이트월 모터의 주가가 사상 최고치로 치솟고 연간 판매 실적도 역대 최고를 기록하면서, 웨이젠쥔의 순자산이 한때 200억 달러를 넘어섰다."},
+    {"year": 2024, "event": "Expanded Great Wall's global footprint to over 120 countries, with factories operating in Russia, Thailand, Brazil, and South Africa, while navigating fierce domestic competition from BYD and new EV entrants.", "eventKo": "그레이트월의 글로벌 사업을 120개국 이상으로 확대했으며 러시아, 태국, 브라질, 남아프리카공화국에 공장을 가동했다. 동시에 BYD와 신규 전기차 업체들과의 치열한 국내 경쟁에 맞섰다."}
+  ],
+  "failures": [
+    {
+      "title": "Late Entry into Electric Vehicles",
+      "description": "Wei Jianjun's skepticism about the profitability of pure electric vehicles led Great Wall to be significantly late in developing competitive EV products. While rivals BYD and new entrants like NIO rapidly captured EV market share, Great Wall struggled with EV product failures including the Linktour brand, which faced financial difficulties and production halts by 2019. Industry observers labeled this misstep 'twenty lost years in the new energy race.'",
+      "titleKo": "전기차 시장 진출 지연",
+      "descriptionKo": "순수 전기차의 수익성에 대한 웨이젠쥔의 회의론으로 그레이트월은 경쟁력 있는 EV 제품 개발에 크게 뒤처졌다. BYD와 NIO 같은 경쟁사들이 빠르게 전기차 시장 점유율을 확보하는 동안, 그레이트월은 링크투어 브랜드 실패와 2019년 생산 중단이라는 시련을 겪었다. 업계에서는 이를 '신에너지 경쟁에서 잃어버린 20년'이라고 평가했다."},
+    {
+      "title": "Sharp Wealth Decline After Stock Peak",
+      "description": "After Great Wall Motor's stock surged to peak values in 2021, the share price declined sharply from its highs as EV competition intensified and profit margins compressed. Wei Jianjun's net worth, which had briefly exceeded $20 billion, fell to approximately $11–12 billion — a loss of nearly half his paper wealth — illustrating the concentration risk of holding most of his net worth in a single publicly traded company.",
+      "titleKo": "주가 고점 이후 급격한 자산 감소",
+      "descriptionKo": "2021년 사상 최고치를 기록한 그레이트월 모터 주가는 전기차 경쟁 심화와 이익률 압박으로 급락했다. 한때 200억 달러를 넘었던 웨이젠쥔의 순자산은 약 110~120억 달러로 줄어들었다. 이는 단일 상장 기업에 재산 대부분을 집중했을 때의 집중 리스크를 여실히 보여줬다."},
+    {
+      "title": "Technology Route Controversy",
+      "description": "Wei publicly declared that Great Wall would 'never make extended-range vehicles' because the technology was 'transitional and outdated,' directly contradicting strategies pursued by successful rivals like Li Auto. This stance proved controversial, with Chinese automotive engineers and academics publicly challenging Wei's position and arguing that extended-range technology remained viable and commercially successful.",
+      "titleKo": "기술 노선 논란",
+      "descriptionKo": "웨이는 공개적으로 '증정식 전기차(EREV)는 절대 만들지 않겠다'고 선언하며 해당 기술이 '과도기적이고 시대에 뒤처진 것'이라 주장했다. 이는 리오토 같은 성공한 경쟁사의 전략과 정면으로 배치되는 입장으로 논란을 야기했다. 중국의 자동차 공학자와 학자들이 웨이의 견해에 공개적으로 반박하며 증정식 기술이 여전히 유효하고 상업적으로 성공적이라고 주장했다."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2010, "amount": 2.5},
+    {"year": 2013, "amount": 5.0},
+    {"year": 2015, "amount": 7.5},
+    {"year": 2018, "amount": 9.0},
+    {"year": 2021, "amount": 20.5},
+    {"year": 2023, "amount": 14.5},
+    {"year": 2024, "amount": 11.1}
+  ],
+  "quotes": [],
+  "books": [],
+  "sajuConnection": null
+}

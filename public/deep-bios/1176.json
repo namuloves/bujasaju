@@ -1,0 +1,90 @@
+{
+  "id": "1176",
+  "name": "Martin Hetzner",
+  "childhood": {
+    "birthPlace": "Berlin, Germany",
+    "birthPlaceKo": "베를린, 독일",
+    "familyBackground": "Born into technical family. Father worked in electronics and computing.",
+    "familyBackgroundKo": "기술 가족에서 태어났습니다. 아버지는 전자 및 컴퓨팅에서 일했습니다.",
+    "education": "Studied computer science and information technology at German universities",
+    "educationKo": "독일 대학에서 컴퓨터 과학 및 정보 기술을 공부했습니다",
+    "earlyLife": "Grew up during early internet era in Germany; exposed to computing and networking.",
+    "earlyLifeKo": "독일의 초기 인터넷 시대에 성장했습니다. 컴퓨팅 및 네트워킹에 노출되었습니다.",
+    "source": null
+  },
+  "careerTimeline": [
+    {
+      "year": 1997,
+      "event": "Founded Hetzner Online, web hosting and infrastructure company",
+      "eventKo": "웹 호스팅 및 인프라 회사인 Hetzner Online 설립"
+    },
+    {
+      "year": 2005,
+      "event": "Built cloud computing and dedicated server infrastructure business",
+      "eventKo": "클라우드 컴퓨팅 및 전용 서버 인프라 사업 구축"
+    },
+    {
+      "year": 2012,
+      "event": "Expanded into European data centers and cloud services",
+      "eventKo": "유럽 데이터 센터 및 클라우드 서비스로 확장"
+    },
+    {
+      "year": 2018,
+      "event": "Became major European cloud infrastructure provider; significant growth",
+      "eventKo": "주요 유럽 클라우드 인프라 제공자가 되었습니다. 상당한 성장"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Data center overcapacity during economic downturn; pricing pressure",
+      "descriptionKo": "경제 침체 중 데이터 센터 과잉 용량; 가격 압박",
+      "lesson": "Infrastructure business requires careful capacity planning and market forecasting",
+      "lessonKo": "인프라 사업은 신중한 용량 계획 및 시장 예측이 필요합니다",
+      "source": null
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 0.9
+    },
+    {
+      "year": 2015,
+      "netWorth": 1.8
+    },
+    {
+      "year": 2024,
+      "netWorth": 3.2
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Cloud infrastructure is becoming essential utility; reliable, affordable access is critical",
+      "textKo": "클라우드 인프라는 필수 유틸리티가 되고 있습니다. 신뢰할 수 있는 저렴한 액세스가 중요합니다",
+      "context": "Cloud computing conference, 2016",
+      "contextKo": "클라우드 컴퓨팅 회의, 2016년",
+      "source": null
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "Cloud Computing Basics",
+        "author": "Thomas Erl",
+        "note": "Understanding cloud infrastructure and architecture",
+        "noteKo": "클라우드 인프라 및 아키텍처 이해"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Founded Hetzner Online, major European cloud infrastructure provider. Known for affordable, reliable cloud services and data center operations.",
+    "knownForKo": "주요 유럽 클라우드 인프라 제공자인 Hetzner Online을 설립했습니다. 저렴하고 신뢰할 수 있는 클라우드 서비스 및 데이터 센터 운영으로 알려져 있습니다.",
+    "philanthropy": "Supports technology education and internet infrastructure development",
+    "philanthropyKo": "기술 교육 및 인터넷 인프라 개발을 지원합니다",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

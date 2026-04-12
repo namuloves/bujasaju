@@ -1,0 +1,43 @@
+{
+  "id": "866",
+  "name": "Bernard Fraisse",
+  "nameKo": "베르나르 프레스",
+  "childhood": "Bernard Robert Louis Fraisse was born in August 1956 in the Ardèche region of France, a rural area in the south-central part of the country known for its rugged landscapes and independent spirit. He earned a degree in mechanical engineering, a practical foundation that would serve him well as he built a manufacturing empire. After graduating, he began his career as a chemical salesman, working in the field and gaining firsthand knowledge of the pharmaceutical and chemical industries before deciding to venture out on his own.",
+  "childhoodKo": "베르나르 로베르 루이 프레스는 1956년 8월 프랑스 중남부의 험준한 자연과 강인한 기질로 유명한 아르데슈 지역에서 태어났다. 기계공학 학위를 취득한 그는 실무적 기반을 바탕으로 훗날 제조업 제국을 건설할 토대를 닦았다. 졸업 후에는 화학제품 영업사원으로 사회에 첫발을 내디뎠으며, 현장 경험을 통해 제약·화학 업계를 속속들이 파악한 뒤 독립 창업을 결심했다.",
+  "careerTimeline": [
+    {"year": 1981, "event": "At age 25, Fraisse founded a small packaging unit in the Ardèche region of France, which he named RCI. Working with a small team, he quickly expanded into chemical product research, formulation, and production, transforming RCI into Fabrication Chimique Ardéchoise (FCA).", "eventKo": "25세의 나이에 아르데슈 지역에서 작은 포장 설비 회사 RCI를 창업했다. 소규모 팀과 함께 화학제품 연구, 조제, 생산으로 빠르게 사업을 확장하며 RCI를 아르데슈 화학 제조(FCA)로 발전시켰다."},
+    {"year": 1985, "event": "Formally established Fareva as a contract manufacturing organization (CMO), specializing in producing products for other companies under their brands, a business model that would prove highly scalable.", "eventKo": "위탁생산조직(CMO)으로서 파레바를 공식 설립했다. 타사 브랜드의 제품을 대신 생산하는 이 비즈니스 모델이 향후 폭발적 성장의 원동력이 되었다."},
+    {"year": 1990, "event": "First year of scaled operations generated approximately $4.5 million in revenue. Fraisse expanded the business into household products and aerosols during the decade, diversifying beyond chemical formulations.", "eventKo": "사업 첫 해에 약 450만 달러의 매출을 기록했다. 이후 10년간 생활용품과 에어로졸 분야로 사업을 확장하며 화학 조제를 넘어 다각화를 이루었다."},
+    {"year": 2000, "event": "Expanded into cosmetics manufacturing, adding a high-margin sector to Fareva's growing portfolio of contract manufacturing services.", "eventKo": "화장품 위탁생산 분야에 진출하며 고마진 사업 부문을 파레바의 성장하는 포트폴리오에 추가했다."},
+    {"year": 2002, "event": "Fareva entered the pharmaceutical contract manufacturing sector, the most regulated and highest-value segment of the CMO industry, marking a pivotal expansion in scope and scale.", "eventKo": "CMO 업계에서 가장 규제가 엄격하고 부가가치가 높은 의약품 위탁생산 분야에 진출하며 사업의 규모와 범위를 크게 확장하는 전환점을 마련했다."},
+    {"year": 2004, "event": "Renamed the company Fareva, a word meaning 'inspire to dream' in the Ardèche regional dialect, symbolizing the company's ambition and its founder's regional pride.", "eventKo": "아르데슈 지방 방언으로 '꿈에 영감을 주다'라는 의미를 가진 '파레바'로 사명을 변경하며, 회사의 야망과 창업자의 지역적 자부심을 상징적으로 드러냈다."},
+    {"year": 2012, "event": "Fareva acquired several pharmaceutical manufacturing plants across Europe, rapidly scaling production capacity and establishing a pan-European presence.", "eventKo": "유럽 전역의 여러 제약 제조 공장을 인수하며 생산 능력을 빠르게 확장하고 범유럽적 존재감을 확립했다."},
+    {"year": 2015, "event": "Fareva reported annual revenues of $1.4 billion and approximately 9,500 employees, cementing its position as the largest contract manufacturing organization in France.", "eventKo": "파레바가 연매출 14억 달러, 직원 약 9,500명을 기록하며 프랑스 최대 위탁생산조직으로서의 지위를 확고히 했다."},
+    {"year": 2020, "event": "Fareva's revenues grew to $2.1 billion, reflecting the increased global demand for pharmaceutical manufacturing capacity accelerated by the COVID-19 pandemic.", "eventKo": "코로나19 팬데믹으로 가속화된 전 세계적 제약 생산 수요 증가를 반영하여 파레바의 매출이 21억 달러로 성장했다."}
+  ],
+  "failures": [
+    {
+      "title": "Refusal of External Capital Limits Growth Speed",
+      "description": "Fraisse has consistently refused to take private equity money, insisting on keeping Fareva entirely family-owned and independent. While this preserves control and long-term vision, it has constrained the speed at which Fareva could expand compared to competitors that accepted private equity backing. Some analysts argue this approach limited Fareva's ability to compete globally at the scale of multinational CMOs.",
+      "titleKo": "외부 자본 거부로 인한 성장 속도 제약",
+      "descriptionKo": "프레스는 파레바를 완전히 가족 소유로 유지하기 위해 사모펀드 투자를 일관되게 거부했다. 이는 경영권 보호와 장기적 비전 유지에는 유리하지만, 사모펀드 투자를 받아들인 경쟁사에 비해 확장 속도를 제약했다. 일부 분석가들은 이 같은 방침이 글로벌 다국적 CMO들과 동등한 규모로 경쟁하는 능력을 제한했다고 지적한다."
+    },
+    {
+      "title": "Integration Challenges from Rapid Acquisitions",
+      "description": "Fareva's aggressive acquisition strategy during the 2010s, absorbing pharmaceutical plants across multiple European countries, brought significant integration challenges. Managing diverse regulatory environments, labor laws, and corporate cultures across multiple national operations created operational complexity that at times strained the company's management capacity.",
+      "titleKo": "공격적 인수합병의 통합 과정 진통",
+      "descriptionKo": "2010년대 유럽 각국의 제약 공장을 적극적으로 인수하는 전략은 상당한 통합 과정의 어려움을 수반했다. 다양한 규제 환경, 노동법, 기업 문화를 가진 여러 국가 사업장을 동시에 관리하는 것은 복잡한 운영 과제를 야기했으며, 때로는 회사의 경영 역량을 한계까지 시험했다."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2012, "amount": 1.2},
+    {"year": 2015, "amount": 2.0},
+    {"year": 2018, "amount": 2.5},
+    {"year": 2020, "amount": 2.8},
+    {"year": 2022, "amount": 2.64},
+    {"year": 2024, "amount": 4.4}
+  ],
+  "quotes": [],
+  "books": [],
+  "sajuConnection": null
+}

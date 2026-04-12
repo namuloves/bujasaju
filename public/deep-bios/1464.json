@@ -1,0 +1,90 @@
+{
+  "id": "1464",
+  "name": "David Booth",
+  "childhood": {
+    "birthPlace": "Chicago, Illinois, United States",
+    "birthPlaceKo": "일리노이주 시카고, 미국",
+    "familyBackground": "Born into middle-class family; father was accountant, mother was educator. Family emphasized education and financial literacy.",
+    "familyBackgroundKo": "중산층 가족에서 태어났습니다. 아버지는 회계사, 어머니는 교육자였습니다. 가족은 교육 및 금융 이해력을 강조했습니다.",
+    "education": "Graduated from University of Chicago with degree in physics; pursued MBA from University of Chicago Booth School",
+    "educationKo": "University of Chicago에서 물리학 학위로 졸업; University of Chicago Booth School에서 MBA를 추구했습니다",
+    "earlyLife": "Showed early mathematical and analytical abilities. Grew up during Chicago's financial services boom; exposed to finance industry.",
+    "earlyLifeKo": "초기에 수학 및 분석 능력을 보였습니다. 시카고의 금융 서비스 호황 중에 성장했습니다. 금융 산업에 노출되었습니다.",
+    "source": null
+  },
+  "careerTimeline": [
+    {
+      "year": 1984,
+      "event": "Co-founded Dimensional Fund Advisors with Rex Sinquefield",
+      "eventKo": "Rex Sinquefield와 함께 Dimensional Fund Advisors 공동 설립"
+    },
+    {
+      "year": 1995,
+      "event": "Dimensional Fund Advisors pioneered factor-based investing and quant strategies",
+      "eventKo": "Dimensional Fund Advisors가 요소 기반 투자 및 정량 전략 개척"
+    },
+    {
+      "year": 2005,
+      "event": "Built DFA into leading quantitative asset management firm with billions in AUM",
+      "eventKo": "DFA를 수십억 달러의 자산을 운영하는 선도적인 정량 자산 관리 회사로 구축"
+    },
+    {
+      "year": 2015,
+      "event": "Expanded DFA globally; became influential voice in factor investing",
+      "eventKo": "DFA를 전 세계적으로 확장; 요소 투자의 영향력 있는 목소리가 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Factor investing strategies underperformed during financial crisis; significant losses for investors",
+      "descriptionKo": "금융 위기 중 요소 투자 전략의 저조한 성과; 투자자에게 상당한 손실",
+      "lesson": "Even sophisticated quantitative models cannot fully predict market dislocations",
+      "lessonKo": "고도의 정량 모델도 시장 혼란을 완전히 예측할 수 없습니다",
+      "source": null
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2015,
+      "netWorth": 1.8
+    },
+    {
+      "year": 2024,
+      "netWorth": 2.5
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Markets are efficient, but inefficiencies exist where behavioral factors create opportunities",
+      "textKo": "시장은 효율적이지만 행동 요인이 기회를 만드는 곳에 비효율성이 존재합니다",
+      "context": "Finance conference keynote, 2016",
+      "contextKo": "금융 회의 기조 연설, 2016년",
+      "source": null
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "A Random Walk Down Wall Street",
+        "author": "Burton Malkiel",
+        "note": "Understanding efficient market hypothesis and investing",
+        "noteKo": "효율적 시장 가설 및 투자 이해"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Co-founder of Dimensional Fund Advisors, pioneer in quantitative and factor-based investing. Known for rigorous research and academic approach.",
+    "knownForKo": "Dimensional Fund Advisors의 공동 설립자로 정량 및 요소 기반 투자의 개척자입니다. 엄격한 연구 및 학문적 접근으로 알려져 있습니다.",
+    "philanthropy": "Major donor to University of Chicago; supports finance education and research",
+    "philanthropyKo": "University of Chicago의 주요 기부자; 금융 교육 및 연구를 지원합니다",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

@@ -1,0 +1,77 @@
+{
+  "id": 437,
+  "name": "Charles Schwab",
+  "childhood": {
+    "birthPlace": "Sacramento, California, USA",
+    "birthPlaceKo": "미국 캘리포니아 새크라멘토",
+    "familyBackground": "Born July 29, 1937. Discovered at age 40 to be dyslexic; one of his sons is also dyslexic.",
+    "familyBackgroundKo": "1937년 7월 29일 출생. 40세에 난독증이 있음을 발견; 아들 중 하나도 난독증이 있음.",
+    "education": "Stanford University (mathematics and economics emphasis, with help from friends taking notes)",
+    "educationKo": "스탠포드 대학교(수학 및 경제학 강조, 친구들의 필기 도움)",
+    "earlyLife": "Overcame dyslexia through determination and support. Developed interest in investing and democratizing access to markets.",
+    "earlyLifeKo": "결단력과 지원으로 난독증 극복. 투자에 대한 관심 개발 및 시장 접근 민주화.",
+    "source": "https://en.wikipedia.org/wiki/Charles_R._Schwab"
+  },
+  "careerTimeline": [
+    {
+      "year": 1963,
+      "event": "Launched Investment Indicator investment newsletter with three partners",
+      "eventKo": "세 명의 파트너와 함께 Investment Indicator 투자 뉴스레터 출범"
+    },
+    {
+      "year": 1971,
+      "event": "Incorporated First Commander Corporation, later became Charles Schwab & Co.",
+      "eventKo": "First Commander Corporation 설립, 이후 Charles Schwab & Co.가 됨"
+    },
+    {
+      "year": 1975,
+      "event": "Pioneered discount brokerage model after SEC deregulation of securities industry",
+      "eventKo": "증권업 SEC 규제 완화 후 할인 중개 모델 개척"
+    },
+    {
+      "year": 1983,
+      "event": "Established online trading and 24/7 service access for individual investors",
+      "eventKo": "개인 투자자를 위한 온라인 거래 및 24/7 서비스 접근 제공"
+    },
+    {
+      "year": 2008,
+      "event": "Stepped down as CEO while remaining as Chairman",
+      "eventKo": "회장으로 남으면서 CEO직에서 물러남"
+    }
+  ],
+  "failures": [],
+  "wealthHistory": [
+    {
+      "year": 2020,
+      "netWorth": 12.9
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We have a duty to make investing easier and more accessible for everyone.",
+      "textKo": "우리는 모두를 위해 투자를 더 쉽고 접근성 있게 만들 의무가 있습니다.",
+      "context": "On Schwab's mission to democratize investing",
+      "contextKo": "투자 민주화에 대한 슈왑의 미션 관련",
+      "source": "https://www.aboutschwab.com/charles-r-schwab"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": "Invested: Change Your Mind, Change Your Life",
+        "why": "Personal finance and investing philosophy guide for everyday investors",
+        "whyKo": "일반 투자자를 위한 개인 재정 및 투자 철학 가이드"
+      }
+    ],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Democratizing investing, pioneering discount brokerage, overcoming dyslexia, 24/7 trading access",
+    "knownForKo": "투자 민주화, 할인 중개 개척, 난독증 극복, 24/7 거래 접근",
+    "philanthropy": "Charles and Helen Schwab Foundation - learning disabilities research including dyslexia",
+    "philanthropyKo": "찰스 헬렌 슈왑 재단 - 난독증을 포함한 학습 장애 연구",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

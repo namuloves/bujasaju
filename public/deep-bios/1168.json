@@ -1,0 +1,64 @@
+{
+  "id": "1168",
+  "name": "Alexandr Wang",
+  "nameKo": "알렉산더 왕",
+  "childhood": "Alexandr Wang was born in January 1997 in Los Alamos, New Mexico, to Chinese immigrant parents who were both physicists at Los Alamos National Laboratory. Growing up surrounded by scientists and engineers, he was immersed in a culture of intellectual rigor from an early age, excelling in mathematics and competitive programming throughout school. He was admitted to MIT to study mathematics and computer science, but dropped out after just one year at age 19 to pursue his vision of building the infrastructure layer for the AI industry.",
+  "childhoodKo": "알렉산더 왕은 1997년 1월 뉴멕시코주 로스앨러모스에서 로스앨러모스 국립연구소 물리학자 부모 밑에서 태어났다. 과학자와 엔지니어들로 가득한 환경에서 성장하며 어린 시절부터 지적 엄격함의 문화에 흠뻑 젖어 수학과 컴퓨터 프로그래밍 대회에서 두각을 나타냈다. MIT에 수학·컴퓨터과학 전공으로 입학했지만, AI 산업의 인프라 계층을 구축하겠다는 비전을 추구하기 위해 불과 19세에 1년 만에 중퇴했다.",
+  "careerTimeline": [
+    {"year": 2016, "event": "Co-founded Scale AI with Lucy Guo at age 19, after dropping out of MIT. The company was accepted into Y Combinator and raised an initial $120,000 seed round to build data labeling infrastructure for AI.", "eventKo": "19세에 루시 궈와 함께 MIT를 중퇴하고 Scale AI를 공동 창립. 와이 콤비네이터(Y Combinator)에 합격하여 AI를 위한 데이터 레이블링 인프라 구축을 위한 초기 12만 달러의 시드 투자를 유치."},
+    {"year": 2017, "event": "Secured Series A funding and began growing Scale AI's client base, with early customers including Uber, Alphabet's self-driving car division, and other autonomous vehicle companies.", "eventKo": "시리즈 A 투자를 확보하고 Scale AI의 고객 기반 확대 시작. 우버, 알파벳 자율주행차 부문 등 초기 자율주행 기업들을 주요 고객으로 확보."},
+    {"year": 2019, "event": "Scale AI achieved unicorn status with a valuation exceeding $1 billion, as demand for AI training data exploded across the tech industry.", "eventKo": "AI 학습 데이터에 대한 수요가 기술 업계 전반에 폭발적으로 증가하면서 Scale AI가 기업가치 10억 달러를 돌파하며 유니콘 기업으로 등극."},
+    {"year": 2021, "event": "Raised a $325 million Series E round at a $7.3 billion valuation, making Wang the world's youngest self-made billionaire at age 24.", "eventKo": "73억 달러 기업가치로 3억 2,500만 달러의 시리즈 E 투자를 유치하며, 왕은 24세의 나이에 세계 최연소 자수성가 억만장자가 됨."},
+    {"year": 2022, "event": "Pivoted Scale AI's strategy away from autonomous vehicles toward large language models and US government contracts, laying off approximately 20% of staff amid shifting market priorities.", "eventKo": "시장 우선순위 변화에 맞춰 Scale AI의 전략을 자율주행 차량에서 대규모 언어 모델 및 미국 정부 계약 쪽으로 전환하면서, 직원의 약 20%를 해고."},
+    {"year": 2023, "event": "Secured major US Department of Defense contracts, positioning Scale AI as a critical national security asset and expanding the company's government AI work significantly.", "eventKo": "미 국방부의 주요 계약을 확보하여 Scale AI를 국가 안보의 핵심 자산으로 자리매김하고 정부 AI 사업을 대폭 확장."},
+    {"year": 2024, "event": "Raised funding at a $14 billion valuation; Wang testified before Congress on AI policy and the importance of maintaining US AI leadership.", "eventKo": "140억 달러 기업가치로 투자를 유치하고, 왕은 의회에서 AI 정책과 미국 AI 주도권 유지의 중요성에 대해 증언."},
+    {"year": 2025, "event": "Meta acquired a 49% stake in Scale AI for approximately $14.3 billion and Wang transitioned from CEO to a board director role, moving to Meta as Chief AI Officer of its new Superintelligence lab.", "eventKo": "메타가 약 143억 달러에 Scale AI의 지분 49%를 취득하고, 왕은 CEO에서 이사로 역할을 전환하여 메타의 새로운 초지능 연구소 최고 AI 책임자(CAO)로 이동."}
+  ],
+  "failures": [
+    {
+      "title": "2022 Valuation Collapse and Billionaire Status Lost",
+      "description": "After hitting a $7.3 billion valuation in 2021, Scale AI's valuation dropped sharply in 2022 amid the broader tech downturn, temporarily causing Wang to fall off the billionaire list. The collapse forced a painful strategic pivot and layoffs of roughly 20% of the workforce.",
+      "titleKo": "2022년 기업가치 급락과 억만장자 지위 상실",
+      "descriptionKo": "2021년 73억 달러의 기업가치를 기록한 후, 2022년 기술 업계 전반의 침체 속에서 Scale AI의 기업가치가 급락하며 왕이 일시적으로 억만장자 목록에서 이름을 올리지 못하게 되었다. 이 붕괴는 고통스러운 전략적 전환과 직원 약 20% 해고를 강제했다."
+    },
+    {
+      "title": "Contractor Labor Class-Action Lawsuit",
+      "description": "Scale AI faced a class-action lawsuit from data-labeling contractors alleging predatory practices, partially unpaid work, and chronic mismanagement at Scale's subsidiaries. Wang was named as a defendant, raising questions about the company's treatment of its large global contractor workforce.",
+      "titleKo": "하청 노동자 집단소송",
+      "descriptionKo": "Scale AI의 데이터 레이블링 하청 노동자들이 약탈적 관행, 임금 미지급, 자회사의 만성적 관리 부실을 주장하며 집단소송을 제기했다. 왕이 피고로 지목되면서 방대한 글로벌 하청 노동력에 대한 회사의 처우에 의문이 제기되었다."
+    },
+    {
+      "title": "Client Losses Following Meta Investment",
+      "description": "When Meta acquired a 49% stake in Scale AI in mid-2025, Google severed ties with the company and OpenAI reduced its involvement, as competitors became wary of sharing data through a Meta-affiliated entity. Shortly after, Scale AI laid off an additional 14% of its full-time staff.",
+      "titleKo": "메타 투자 이후 고객사 이탈",
+      "descriptionKo": "2025년 중반 메타가 Scale AI의 지분 49%를 인수하자, 경쟁사들이 메타 계열사를 통한 데이터 공유를 꺼리면서 구글이 Scale AI와의 관계를 끊고 OpenAI도 참여를 줄였다. 그 직후 Scale AI는 전직원의 14%를 추가 해고했다."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2019, "amount": 0.2},
+    {"year": 2021, "amount": 1.0},
+    {"year": 2022, "amount": 0.5},
+    {"year": 2023, "amount": 1.5},
+    {"year": 2024, "amount": 3.2},
+    {"year": 2025, "amount": 6.8}
+  ],
+  "quotes": [
+    {
+      "text": "AI is the most important technological advancement of our time.",
+      "source": "Scale AI / Accel podcast interview",
+      "year": 2022
+    },
+    {
+      "text": "If data is the new oil, then Scale is the refinery.",
+      "source": "Various Scale AI investor presentations",
+      "year": 2021
+    },
+    {
+      "text": "Leadership is a very multifaceted discipline — level one is accomplishing immediate tasks, level two is ensuring those tasks align with the right direction, and level three is culture of the organization.",
+      "source": "The Logan Bartlett Show podcast",
+      "year": 2023
+    }
+  ],
+  "books": [],
+  "sajuConnection": null
+}
