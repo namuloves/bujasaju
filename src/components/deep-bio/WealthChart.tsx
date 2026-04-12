@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useCallback } from 'react';
 import type { WealthDataPoint, TimelineEvent } from '@/lib/deepBio';
 
 interface Props {
@@ -23,7 +24,19 @@ interface Annotation {
  * Highlights significant jumps (green) and falls (red) with
  * annotations tied to career timeline events.
  */
+function formatWealth(v: number, lang: string): string {
+  if (lang === 'ko') {
+    const jo = v * 1.4;
+    if (jo >= 1) return `약 ${jo.toFixed(1)}조원`;
+    if (jo > 0) return `약 ${(jo * 10000).toFixed(0)}억원`;
+    return '0';
+  }
+  return v >= 1 ? `$${v.toFixed(1)}B` : `$${(v * 1000).toFixed(0)}M`;
+}
+
 export default function WealthChart({ data, timeline = [], lang = 'en', className = '' }: Props) {
+  const [activeIdx, setActiveIdx] = useState<number | null>(null);
+
   if (data.length < 2) return null;
 
   const sorted = [...data].sort((a, b) => a.year - b.year);
@@ -164,21 +177,67 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
         {/* Main line */}
         <path d={linePath} fill="none" stroke="#0c45a7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 
-        {/* Data points */}
+        {/* Data points + interactive hit areas */}
         {sorted.map((d, i) => {
           const ann = topAnnotations.find(a => a.year === d.year);
           const color = ann ? (ann.type === 'jump' ? '#15803d' : '#ef4444') : '#0c45a7';
-          const r = ann ? 4 : 3;
+          const isActive = activeIdx === i;
+          const r = isActive ? 5 : ann ? 4 : 3;
+          const cx = scaleX(d.year);
+          const cy = scaleY(d.netWorth);
           return (
-            <circle
-              key={i}
-              cx={scaleX(d.year)}
-              cy={scaleY(d.netWorth)}
-              r={r}
-              fill={color}
-              stroke="white"
-              strokeWidth="1.5"
-            />
+            <g key={i}>
+              {/* Invisible hit area for easier touch/click */}
+              <circle
+                cx={cx}
+                cy={cy}
+                r={16}
+                fill="transparent"
+                stroke="transparent"
+                onMouseEnter={() => setActiveIdx(i)}
+                onMouseLeave={() => setActiveIdx(null)}
+                onClick={() => setActiveIdx(prev => prev === i ? null : i)}
+                style={{ cursor: 'pointer' }}
+              />
+              {/* Visible dot */}
+              <circle
+                cx={cx}
+                cy={cy}
+                r={r}
+                fill={color}
+                stroke="white"
+                strokeWidth="1.5"
+                style={{ pointerEvents: 'none', transition: 'r 0.15s' }}
+              />
+              {/* Tooltip */}
+              {isActive && (() => {
+                const label = `${d.year}  ${formatWealth(d.netWorth, lang)}`;
+                const boxW = lang === 'ko' ? 110 : 90;
+                // Keep tooltip within SVG bounds
+                let tx = cx - boxW / 2;
+                if (tx < 4) tx = 4;
+                if (tx + boxW > W - 4) tx = W - boxW - 4;
+                const ty = Math.max(4, cy - 30);
+                return (
+                  <g>
+                    {/* Vertical guide line */}
+                    <line x1={cx} y1={cy + 6} x2={cx} y2={scaleY(0)} stroke="#94a3b8" strokeWidth="0.5" strokeDasharray="3,3" />
+                    {/* Tooltip box */}
+                    <rect x={tx} y={ty} width={boxW} height={22} rx={4} fill="#1e293b" opacity={0.92} />
+                    <text
+                      x={tx + boxW / 2}
+                      y={ty + 15}
+                      textAnchor="middle"
+                      fontSize="11"
+                      fontWeight="600"
+                      fill="white"
+                    >
+                      {label}
+                    </text>
+                  </g>
+                );
+              })()}
+            </g>
           );
         })}
 
