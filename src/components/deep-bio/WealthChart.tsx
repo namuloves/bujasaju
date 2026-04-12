@@ -90,11 +90,18 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
   const areaPath = `${linePath} L${scaleX(maxYear)},${scaleY(0)} L${scaleX(minYear)},${scaleY(0)} Z`;
 
   // Y-axis labels (3 ticks)
-  const yTicks = [0, maxNet / 2, maxNet].map(v => ({
-    value: v,
-    y: scaleY(v),
-    label: v >= 1 ? `$${v.toFixed(0)}B` : `$${(v * 1000).toFixed(0)}M`,
-  }));
+  // 1 USD ≈ 1,400 KRW → $1B ≈ 1.4조원
+  const USD_TO_JO = 1.4; // billions USD → 조원
+  const yTicks = [0, maxNet / 2, maxNet].map(v => {
+    let label: string;
+    if (lang === 'ko') {
+      const jo = v * USD_TO_JO;
+      label = jo >= 1 ? `${jo.toFixed(0)}조` : jo > 0 ? `${(jo * 10000).toFixed(0)}억` : '0';
+    } else {
+      label = v >= 1 ? `$${v.toFixed(0)}B` : `$${(v * 1000).toFixed(0)}M`;
+    }
+    return { value: v, y: scaleY(v), label };
+  });
 
   // X-axis labels (first, middle, last year)
   const midYear = Math.round((minYear + maxYear) / 2);
