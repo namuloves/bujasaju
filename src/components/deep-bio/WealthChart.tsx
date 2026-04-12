@@ -211,13 +211,13 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
         <div className="mt-2 space-y-1">
           {topAnnotations.map((ann, i) => {
             const color = ann.type === 'jump' ? 'text-green-800' : 'text-red-500';
-            const bg = ann.type === 'jump' ? 'bg-green-50' : 'bg-red-50';
+            const bg = ann.type === 'jump' ? 'bg-green-50/0' : 'bg-red-50/0';
             const arrow = ann.type === 'jump' ? '↑' : '↓';
             const eventText = lang === 'ko' && ann.eventKo ? ann.eventKo : ann.event;
             return (
               <div key={i} className={`${bg} rounded-md px-2.5 py-1.5 flex items-start gap-1.5`}>
-                <span className={`${color} text-xs font-bold shrink-0 mt-px`}>{arrow} {ann.year}</span>
-                <span className="text-sm text-gray-600 leading-snug">{eventText}</span>
+                <span className={`${color} text-[11px] font-bold shrink-0 mt-px`}>{arrow} {ann.year}</span>
+                <span className="text-xs text-gray-600 leading-snug">{eventText}</span>
               </div>
             );
           })}
