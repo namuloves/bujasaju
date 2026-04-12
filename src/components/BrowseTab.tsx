@@ -53,12 +53,14 @@ export default function BrowseTab() {
         const nameKoNoSpace = nameKo.replace(/\s+/g, '');
         const src = (person.source ?? '').toLowerCase();
         const industry = (person.industry ?? '').toLowerCase();
+        const bioKo = (person.bioKo ?? '').toLowerCase();
         if (
           !nameEn.includes(q) &&
           !nameKo.includes(f.search) &&
           !nameKoNoSpace.includes(qNoSpace) &&
           !src.includes(q) &&
-          !industry.includes(q)
+          !industry.includes(q) &&
+          !bioKo.includes(q)
         )
           return false;
       }
