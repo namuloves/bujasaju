@@ -11,6 +11,7 @@ import {
   getUniqueGyeokguks,
   getUniqueIljus,
 } from '@/lib/data/enriched';
+import { fetchSearchIndex } from '@/lib/deepBio';
 
 /**
  * Korean brand/company names → English equivalents for search.
@@ -196,6 +197,14 @@ export default function BrowseTab() {
   const [filters, setFilters] = useState<Filters>(defaultFilters);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const { people: enrichedPeople, loading } = useEnrichedPeople();
+  const [deepSearchIndex, setDeepSearchIndex] = useState<Record<string, string>>({});
+
+  // Lazily load the deep-bio search index when user starts typing
+  useEffect(() => {
+    if (filters.search && Object.keys(deepSearchIndex).length === 0) {
+      fetchSearchIndex().then(setDeepSearchIndex);
+    }
+  }, [filters.search, deepSearchIndex]);
 
   // Defer the filter object so that typing in the search box is always
   // instant — the heavy 3,300-row filter/sort runs at lower priority and
@@ -242,7 +251,9 @@ export default function BrowseTab() {
               ? new RegExp(`\\b${term}\\b`, 'i').test(searchable)
               : searchable.includes(term)
           ) &&
-          !chosungMatch
+          !chosungMatch &&
+          // Deep bio full-text search (career, quotes, childhood, etc.)
+          !(deepSearchIndex[person.id]?.includes(q))
         )
           return false;
       }

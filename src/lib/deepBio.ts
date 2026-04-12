@@ -159,6 +159,24 @@ export function hasDeepBioSync(personId: string): boolean {
   return DEEP_BIO_IDS.has(personId);
 }
 
+// ---------- Full-text search index ----------
+
+type SearchIndex = Record<string, string>; // { personId: "all searchable text" }
+let searchIndexPromise: Promise<SearchIndex> | null = null;
+
+/**
+ * Lazily fetch the deep-bio search index.
+ * Called once on first search; cached for the session.
+ */
+export function fetchSearchIndex(): Promise<SearchIndex> {
+  if (!searchIndexPromise) {
+    searchIndexPromise = fetch('/deep-bio-search.json')
+      .then(res => res.ok ? res.json() as Promise<SearchIndex> : {})
+      .catch(() => ({}));
+  }
+  return searchIndexPromise;
+}
+
 /**
  * Check if a deep bio exists (preflight, no full fetch).
  * Uses HEAD request to avoid downloading the full JSON.
