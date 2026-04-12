@@ -1,0 +1,120 @@
+{
+  "id": "467",
+  "name": "James Clark",
+  "childhood": {
+    "birthPlace": "Plainview, Texas, USA",
+    "birthPlaceKo": "미국 텍사스주 플레인뷰",
+    "familyBackground": "James Henry Clark는 1944년 3월 23일 텍사스주 포트워스에서 태어났으나 두 살 때 플레인뷰로 이사했다. 외조부모는 트럭 기사와 재봉사였고, 친조부모는 농부로 그는 어린 시절 면화 수확 등 농사일을 거들며 자랐다. 13세 때 부모가 이혼하며 경제적으로도 불안정한 환경에 처했다.",
+    "familyBackgroundKo": "James Henry Clark는 1944년 3월 23일 텍사스주 포트워스에서 태어났으나 두 살 때 플레인뷰로 이사했다. 외조부모는 트럭 기사와 재봉사였고, 친조부모는 농부로 그는 어린 시절 면화 수확 등 농사일을 거들며 자랐다. 13세 때 부모가 이혼하며 경제적으로도 불안정한 환경에 처했다.",
+    "education": "고등학교를 중퇴한 후 미 해군에 입대했다. 제대 후 뉴올리언스 대학교에서 물리학을 공부하고, 이후 유타 대학교에서 컴퓨터과학 박사 학위를 취득했다.",
+    "educationKo": "고등학교를 중퇴한 후 미 해군에 입대했다. 제대 후 뉴올리언스 대학교에서 물리학을 공부하고, 이후 유타 대학교에서 컴퓨터과학 박사 학위를 취득했다.",
+    "earlyLife": "해군 복무 중 전자공학에서 수학의 응용 가능성을 발견하며 처음으로 학문적 열의를 키웠고, 이것이 그의 인생 궤도를 완전히 바꾸었다.",
+    "earlyLifeKo": "해군 복무 중 전자공학에서 수학의 응용 가능성을 발견하며 처음으로 학문적 열의를 키웠고, 이것이 그의 인생 궤도를 완전히 바꾸었다."
+  },
+  "careerTimeline": [
+    {
+      "year": 1974,
+      "event": "Joined UC Santa Cruz as an assistant professor of computer science, beginning his academic career in computing.",
+      "eventKo": "UC 산타크루즈 컴퓨터과학 조교수로 임용되며 컴퓨팅 분야 학문 경력을 시작했다."
+    },
+    {
+      "year": 1979,
+      "event": "Moved to Stanford University as an associate professor of electrical engineering, where he developed the Geometry Engine — a hardware accelerator for 3D rendering that would form the basis of Silicon Graphics.",
+      "eventKo": "스탠퍼드 대학교 전기공학 부교수로 이직해 3D 렌더링 하드웨어 가속기인 지오메트리 엔진을 개발했다. 이것이 훗날 실리콘 그래픽스의 토대가 되었다."
+    },
+    {
+      "year": 1982,
+      "event": "Founded Silicon Graphics Inc. (SGI) with several Stanford graduate students, commercializing the Geometry Engine for professional 3D visualization markets.",
+      "eventKo": "스탠퍼드 대학원생들과 함께 실리콘 그래픽스(SGI)를 설립해 지오메트리 엔진을 전문 3D 시각화 시장에 상용화했다."
+    },
+    {
+      "year": 1992,
+      "event": "Silicon Graphics reached over $1 billion in annual revenues and became the leading provider of 3D graphics workstations, used in Hollywood films and scientific research.",
+      "eventKo": "실리콘 그래픽스가 연매출 10억 달러를 돌파하며 할리우드 영화와 과학 연구에 활용되는 3D 그래픽 워크스테이션의 선두 업체로 자리잡았다."
+    },
+    {
+      "year": 1994,
+      "event": "Departed SGI following disagreements over the company's strategic direction, then co-founded Netscape with Marc Andreessen — investing $4 million of his own capital.",
+      "eventKo": "회사 전략 방향을 둘러싼 갈등으로 SGI를 떠난 후 마크 앤드리슨과 공동으로 넷스케이프를 설립하며 자신의 자본 400만 달러를 투자했다."
+    },
+    {
+      "year": 1995,
+      "event": "Netscape's IPO in August 1995 sparked the Internet boom on Wall Street, creating paper wealth of hundreds of millions of dollars and igniting the dot-com era.",
+      "eventKo": "1995년 8월 넷스케이프 IPO가 월스트리트 인터넷 붐에 불을 붙이며 수억 달러의 장부상 자산을 만들어내고 닷컴 시대의 막을 열었다."
+    },
+    {
+      "year": 1996,
+      "event": "Founded Healtheon to streamline healthcare paperwork and administration using the internet, backed by Kleiner Perkins and New Enterprise Associates.",
+      "eventKo": "클라이너 퍼킨스와 뉴 엔터프라이즈 어소시에이츠의 지원을 받아 인터넷을 활용한 의료 행정 간소화를 목표로 헬시온(Healtheon)을 설립했다."
+    },
+    {
+      "year": 1999,
+      "event": "Netscape acquired by AOL for $4.2 billion — Clark exited with approximately $1.2 billion. Healtheon merged with WebMD, creating a leading health information portal.",
+      "eventKo": "넷스케이프가 AOL에 42억 달러에 인수되어 클라크는 약 12억 달러를 회수했다. 헬시온은 WebMD와 합병해 선도적인 의료 정보 포털이 되었다."
+    },
+    {
+      "year": 1999,
+      "event": "Founded myCFO, a wealth management firm catering to Silicon Valley's newly minted tech millionaires and billionaires, later selling it in 2002.",
+      "eventKo": "실리콘밸리의 신흥 기술 백만장자와 억만장자를 대상으로 한 자산관리 회사 myCFO를 설립했으며 2002년에 매각했다."
+    }
+  ],
+  "failures": [
+    {
+      "year": 1994,
+      "description": "Clark's departure from Silicon Graphics was acrimonious — the company he built struggled without his vision and eventually filed for bankruptcy in 2009, becoming a cautionary tale about founder-company separation.",
+      "descriptionKo": "클라크가 실리콘 그래픽스를 떠난 것은 불화로 인한 것이었으며, 그가 만든 회사는 그의 비전 없이 부진하다가 결국 2009년 파산 신청을 해 창업자 이탈의 경고 사례가 되었다.",
+      "lesson": "Founders who leave bitterly often do so because they see the future more clearly than the management that replaces them — the lesson is to build institutions that can evolve with technology.",
+      "lessonKo": "씁쓸하게 회사를 떠나는 창업자들은 대개 자신을 대체하는 경영진보다 미래를 더 명확하게 보기 때문이다. 교훈은 기술과 함께 진화할 수 있는 조직을 만드는 것이다."
+    },
+    {
+      "year": 2002,
+      "description": "myCFO was sold at a significant loss compared to its peak valuation as the dot-com bust wiped out much of its client base's wealth and reduced demand for the service.",
+      "descriptionKo": "닷컴 거품 붕괴로 주요 고객층의 자산이 증발하고 서비스 수요가 급감하면서 myCFO는 최고 평가액에 비해 크게 낮은 가격에 매각되었다.",
+      "lesson": "Business models that serve high-net-worth clients in boom times are inherently cyclical — sustainable wealth management requires serving clients through downturns too.",
+      "lessonKo": "호황기의 고액 자산가를 대상으로 한 사업 모델은 본질적으로 경기순환적이다. 지속 가능한 자산관리는 불황기에도 고객에게 가치를 제공해야 한다."
+    },
+    {
+      "year": 1993,
+      "description": "Clark's early pitch for what would become the Internet browser was rejected inside SGI; management failed to see the commercial potential of the World Wide Web.",
+      "descriptionKo": "클라크가 SGI 내부에서 인터넷 브라우저의 원형이 될 아이디어를 제안했지만 거절당했고, 경영진은 월드와이드웹의 상업적 잠재력을 인식하지 못했다.",
+      "lesson": "When visionary ideas are rejected internally, the right move is often to leave and build independently — resistance from incumbents is frequently a validation signal.",
+      "lessonKo": "선구적인 아이디어가 내부에서 거부당할 때 올바른 선택은 종종 독립해서 직접 구축하는 것이다. 기존 세력의 저항은 아이디어의 가치를 확인해주는 신호인 경우가 많다."
+    }
+  ],
+  "wealthHistory": [
+    { "year": 1995, "netWorth": 0.6 },
+    { "year": 1999, "netWorth": 3.2 },
+    { "year": 2002, "netWorth": 1.5 },
+    { "year": 2010, "netWorth": 2.0 },
+    { "year": 2015, "netWorth": 3.5 },
+    { "year": 2020, "netWorth": 5.0 },
+    { "year": 2025, "netWorth": 7.3 }
+  ],
+  "quotes": [
+    {
+      "text": "I never tried to excel at anything. I was aware I was good in math, but that didn't strike me as being pertinent to anything. It wasn't until I went into the Navy and I could see the applications for math in electronics that it all began to make sense to me.",
+      "textKo": "저는 무언가에서 뛰어나려고 노력한 적이 없었습니다. 수학을 잘한다는 건 알았지만, 그게 특별히 중요하다고 생각하지 않았죠. 해군에 입대해 수학이 전자공학에 어떻게 응용되는지 보고 나서야 비로소 모든 것이 이해가 되기 시작했습니다.",
+      "context": "Reflecting on his unlikely path from high school dropout to tech entrepreneur",
+      "contextKo": "고등학교 중퇴에서 기술 창업가로 이어진 예상치 못한 자신의 여정을 되돌아보며",
+      "source": "Reference for Business / Horatio Alger Association"
+    },
+    {
+      "text": "As I look back at my history, I realize the most productive times in my life have been when I changed disciplines or I intersected with another discipline.",
+      "textKo": "제 역사를 돌아보면, 제 인생에서 가장 생산적인 시기는 분야를 바꾸거나 다른 분야와 교차점을 만들었을 때였습니다.",
+      "context": "Advice to young engineers about career growth and innovation",
+      "contextKo": "젊은 엔지니어들에게 커리어 성장과 혁신에 대해 조언하며",
+      "source": "Stanford Engineering Hero interview"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Clark is the only person in Silicon Valley history to found three separate companies each valued at over $1 billion: Silicon Graphics, Netscape, and Healtheon. Known for restless ambition and an ability to see paradigm shifts before others, he is also famous for his love of sailing — he commissioned one of the world's largest and most technologically advanced yachts, Hyperion.",
+    "knownForKo": "클라크는 실리콘밸리 역사상 유일하게 10억 달러 이상 가치의 세 기업(실리콘 그래픽스, 넷스케이프, 헬시온)을 창업한 인물이다. 타인보다 앞서 패러다임 전환을 감지하는 능력과 끊임없는 야망으로 유명하다. 또한 세계 최대 첨단 기술 요트 중 하나인 '하이페리온'을 주문 제작할 만큼 항해에 깊은 열정을 가지고 있다.",
+    "philanthropy": "Clark donated $150 million to Stanford University School of Medicine, funding what became the James H. Clark Center for interdisciplinary research in biological sciences and engineering. He is also a major supporter of ocean conservation and sailing foundations.",
+    "philanthropyKo": "스탠퍼드 대학교 의과대학에 1억 5천만 달러를 기부해 생물과학과 공학 간 학제 연구를 위한 James H. Clark Center 설립을 지원했다. 또한 해양 보전과 항해 재단의 주요 후원자이기도 하다."
+  },
+  "sajuConnection": null
+}

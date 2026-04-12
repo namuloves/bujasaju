@@ -1,0 +1,106 @@
+{
+  "id": "506",
+  "name": "Jared Kaplan",
+  "childhood": {
+    "birthPlace": "United States",
+    "birthPlaceKo": "미국",
+    "familyBackground": "Jared Daniel Kaplan grew up in the United States with a strong academic orientation. Specific details about his family background and hometown remain largely private, but his trajectory from undergraduate physics to a Harvard PhD suggests a household that valued rigorous intellectual achievement from an early age.",
+    "familyBackgroundKo": "재러드 대니얼 캐플런은 미국에서 강한 학문적 지향을 갖고 성장했다. 가족 배경과 고향에 관한 구체적인 정보는 대부분 알려지지 않았지만, 스탠퍼드 물리학 학부에서 하버드 박사까지 이어지는 궤적은 어릴 때부터 엄밀한 지적 성취를 중시하는 가정 환경을 시사한다.",
+    "education": "Kaplan earned a bachelor's degree in physics and mathematics from Stanford University and a PhD in physics from Harvard University, where his doctoral thesis focused on aspects of holography (AdS/CFT correspondence), advised by prominent theoretical physicist Nima Arkani-Hamed. He was a Hertz Fellow (2005).",
+    "educationKo": "스탠퍼드대학교에서 물리학·수학 학사를 취득한 후, 저명한 이론물리학자 니마 아르카니-하메드의 지도 아래 홀로그래피(AdS/CFT 대응) 관련 주제로 하버드대학교에서 물리학 박사 학위를 받았다. 2005년 허츠 장학금 수상자이기도 하다.",
+    "earlyLife": "After completing his doctorate, Kaplan pursued postdoctoral research at SLAC and Stanford University before joining Johns Hopkins as a faculty member, spending 15 years as a theoretical physicist studying quantum gravity and cosmology before pivoting to AI.",
+    "earlyLifeKo": "박사 과정을 마친 후 SLAC 및 스탠퍼드에서 박사후 연구를 수행한 뒤 존스홉킨스대학교 교수로 합류했다. AI로 전환하기 전까지 15년간 양자 중력과 우주론을 연구하는 이론물리학자로 활동했다."
+  },
+  "careerTimeline": [
+    {
+      "year": 2008,
+      "event": "Completed PhD in theoretical physics at Harvard University, with a thesis on holography in quantum gravity.",
+      "eventKo": "하버드대학교에서 양자 중력의 홀로그래피에 관한 논문으로 이론물리학 박사 학위를 취득했다."
+    },
+    {
+      "year": 2009,
+      "event": "Conducted postdoctoral research at SLAC National Accelerator Laboratory and Stanford University, deepening expertise in conformal field theory and particle physics.",
+      "eventKo": "SLAC 국립가속기연구소와 스탠퍼드대학교에서 박사후 연구를 수행하며 공형장 이론과 입자물리학 전문성을 심화했다."
+    },
+    {
+      "year": 2012,
+      "event": "Joined Johns Hopkins University's Department of Physics & Astronomy as a professor, becoming a leading researcher in holography, quantum gravity, and cosmology.",
+      "eventKo": "존스홉킨스대학교 물리·천문학과 교수로 부임하여 홀로그래피, 양자 중력, 우주론 분야의 선도적 연구자가 되었다."
+    },
+    {
+      "year": 2019,
+      "event": "Joined OpenAI as a researcher while maintaining his Johns Hopkins professorship, applying his mathematical intuition to large-scale machine learning.",
+      "eventKo": "존스홉킨스 교수직을 유지하면서 오픈AI 연구원으로 합류하여 수학적 직관을 대규모 머신러닝에 적용하기 시작했다."
+    },
+    {
+      "year": 2020,
+      "event": "Co-authored the landmark paper 'Scaling Laws for Neural Language Models' at OpenAI, establishing the empirical relationship between model size, compute, data, and performance — a discovery that reshaped the entire AI industry's roadmap.",
+      "eventKo": "오픈AI에서 기념비적 논문 '신경 언어 모델의 스케일링 법칙'을 공동 저술하여 모델 크기, 컴퓨팅, 데이터와 성능 간의 경험적 관계를 규명했다. 이 발견은 AI 업계 전체의 로드맵을 재편했다."
+    },
+    {
+      "year": 2021,
+      "event": "Co-founded Anthropic with Dario Amodei, Daniela Amodei, Sam McCandlish, and other former OpenAI colleagues, motivated by concerns about AI safety and the need for more responsible development practices.",
+      "eventKo": "다리오 아모데이, 다니엘라 아모데이, 샘 맥캔들리시를 비롯한 오픈AI 전 동료들과 함께 앤트로픽을 공동 창립했다. AI 안전성에 대한 우려와 더 책임감 있는 개발 관행의 필요성이 창업 동기였다."
+    },
+    {
+      "year": 2023,
+      "event": "As Chief Science Officer, led Anthropic's work on Constitutional AI and contributed to the development of Claude, the company's flagship AI assistant.",
+      "eventKo": "최고과학책임자(CSO)로서 앤트로픽의 '헌법적 AI(Constitutional AI)' 연구를 이끌고 회사의 대표 AI 어시스턴트 클로드(Claude) 개발에 기여했다."
+    },
+    {
+      "year": 2024,
+      "event": "Appointed Anthropic's first 'Responsible Scaling Officer', tasked with measuring the dangers of new AI models and enforcing safety protocols — named one of TIME's 100 Most Influential People in AI.",
+      "eventKo": "앤트로픽 최초의 '책임 있는 스케일링 책임자(Responsible Scaling Officer)'로 임명되어 새 AI 모델의 위험성을 측정하고 안전 프로토콜을 집행하는 임무를 맡았다. 타임지 'AI 분야 가장 영향력 있는 100인'에 선정되었다."
+    }
+  ],
+  "failures": [
+    {
+      "year": 2021,
+      "description": "Kaplan and other Anthropic co-founders left OpenAI in part due to deep disagreements about safety priorities and organizational direction — a painful split from a team and mission they had invested in for years.",
+      "descriptionKo": "캐플런과 다른 앤트로픽 공동 창업자들은 안전 우선순위와 조직 방향에 대한 깊은 의견 차이로 인해 오픈AI를 떠났다. 수년간 헌신해 온 팀과 미션에서 고통스럽게 결별한 것이었다.",
+      "lesson": "Staying in an organization that has diverged from your core values can be more costly than the disruption of leaving to build something new.",
+      "lessonKo": "핵심 가치에서 멀어진 조직에 남아 있는 것은 새로운 것을 만들기 위해 떠나는 데 따르는 혼란보다 더 큰 대가를 치를 수 있다."
+    },
+    {
+      "year": 2023,
+      "description": "Early versions of Claude faced criticism for being overly cautious and less capable than GPT-4 in certain benchmarks, creating pressure on Kaplan and the science team to deliver both safety and top-tier performance.",
+      "descriptionKo": "클로드 초기 버전은 지나치게 조심스럽다는 비판과 일부 벤치마크에서 GPT-4보다 낮은 성능을 보인다는 지적을 받았으며, 캐플런과 과학 팀에게 안전성과 최고 수준의 성능을 동시에 달성해야 한다는 압박을 안겨주었다.",
+      "lesson": "Safety and capability are not inherently at odds; the challenge is building the research and engineering process to achieve both simultaneously.",
+      "lessonKo": "안전성과 성능은 본질적으로 상충 관계가 아니다. 핵심 과제는 두 가지를 동시에 달성하기 위한 연구·개발 프로세스를 구축하는 것이다."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2021, "netWorth": 0.05},
+    {"year": 2022, "netWorth": 0.3},
+    {"year": 2023, "netWorth": 1.0},
+    {"year": 2024, "netWorth": 3.7},
+    {"year": 2025, "netWorth": 7.0}
+  ],
+  "quotes": [
+    {
+      "text": "Scaling laws gave us a map — not a destination, but a map. We could see where the road was going, even if we couldn't see the end.",
+      "textKo": "스케일링 법칙은 우리에게 지도를 주었다. 목적지가 아니라 지도를. 우리는 끝이 보이지 않더라도 길이 어디로 향하는지 알 수 있었다.",
+      "context": "On the significance of scaling laws research",
+      "contextKo": "스케일링 법칙 연구의 의미에 대해",
+      "source": "Y Combinator Startup Library"
+    },
+    {
+      "text": "The key challenge for AI safety is that we need to solve it before we have systems capable of preventing us from solving it.",
+      "textKo": "AI 안전성의 핵심 과제는 우리가 그것을 해결하지 못하도록 막을 수 있는 시스템이 등장하기 전에 먼저 해결해야 한다는 것이다.",
+      "context": "Written statement to the US Senate AI Insight Forum",
+      "contextKo": "미국 상원 AI 인사이트 포럼에 제출한 서면 발언",
+      "source": "US Senate Schumer AI Forum"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Kaplan is known as the physicist who brought scaling laws to AI, providing the theoretical framework that predicted the success of large language models. He bridges two worlds — rigorous academic physics and frontier AI engineering — and is regarded as Anthropic's intellectual anchor on questions of AI risk and measurement.",
+    "knownForKo": "캐플런은 AI에 스케일링 법칙을 도입한 물리학자로 유명하며, 대규모 언어 모델의 성공을 예측한 이론적 틀을 제시했다. 엄밀한 학문적 물리학과 최첨단 AI 공학을 연결하는 교량 역할을 하며, AI 위험 측정 및 평가 분야에서 앤트로픽의 지적 중심축으로 평가받는다.",
+    "philanthropy": "Kaplan is among the seven Anthropic co-founders who pledged to donate 80% of their personal wealth to address societal risks posed by advanced AI, as part of a collective commitment totaling over $21 billion.",
+    "philanthropyKo": "캐플런은 앤트로픽 7인의 공동 창업자 중 하나로, 선진 AI가 야기하는 사회적 위험에 대응하기 위해 개인 재산의 80%를 기부하겠다고 서약했다. 공동 서약 총액은 210억 달러를 넘는다."
+  },
+  "sajuConnection": null
+}
