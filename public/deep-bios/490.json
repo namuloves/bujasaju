@@ -1,0 +1,92 @@
+{
+  "id": "490",
+  "name": "Min Kao",
+  "childhood": {
+    "birthPlace": "Tainan, Taiwan",
+    "birthPlaceKo": "대만 타이난",
+    "familyBackground": "Born and raised in Taiwan. Family valued education highly.",
+    "familyBackgroundKo": "대만에서 태어나 성장. 가족이 교육을 매우 중시.",
+    "education": "BS in electrical engineering from National Taiwan University. MS and PhD in electrical engineering from the University of Tennessee.",
+    "educationKo": "국립대만대학교 전기공학 학사. 테네시 대학교 전기공학 석사 및 박사.",
+    "earlyLife": "Moved to the US for graduate studies. Developed expertise in GPS and satellite navigation technology.",
+    "earlyLifeKo": "대학원 진학을 위해 미국으로 이주. GPS 및 위성 항법 기술 전문성 개발.",
+    "source": "Wikipedia, Forbes, Garmin"
+  },
+  "careerTimeline": [
+    {
+      "year": 1989,
+      "event": "Co-founded Garmin (originally ProNav) with Gary Burrell in Lenexa, Kansas",
+      "eventKo": "캔자스주 레넥사에서 게리 버렐과 가민(원래 프로네비) 공동 설립"
+    },
+    {
+      "year": 1991,
+      "event": "Garmin launched its first handheld GPS navigator",
+      "eventKo": "가민 최초 휴대용 GPS 내비게이터 출시"
+    },
+    {
+      "year": 2000,
+      "event": "Garmin went public on the NASDAQ; became a household name in GPS navigation",
+      "eventKo": "가민 나스닥 상장; GPS 내비게이션의 대명사로 부상"
+    },
+    {
+      "year": 2010,
+      "event": "Pivoted Garmin toward fitness wearables and aviation instruments as smartphone GPS threatened core business",
+      "eventKo": "스마트폰 GPS가 핵심 사업을 위협하자 가민을 피트니스 웨어러블과 항공 기기로 전환"
+    },
+    {
+      "year": 2020,
+      "event": "Garmin fitness watches and outdoor devices became dominant in premium segment",
+      "eventKo": "가민 피트니스 시계와 아웃도어 기기가 프리미엄 부문에서 지배적"
+    },
+    {
+      "year": 2025,
+      "event": "Net worth reached $7.4 billion; Garmin revenues exceeded $6 billion",
+      "eventKo": "순자산 74억 달러; 가민 매출 60억 달러 초과"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2010,
+      "description": "Smartphone GPS apps like Google Maps devastated Garmin's consumer automotive GPS business",
+      "descriptionKo": "구글 맵 같은 스마트폰 GPS 앱이 가민의 소비자 자동차 GPS 사업을 황폐화",
+      "lesson": "Successfully pivoting to new markets (fitness, aviation, marine) when core business is disrupted is key to survival",
+      "lessonKo": "핵심 사업이 파괴될 때 새로운 시장(피트니스, 항공, 해양)으로 성공적 전환이 생존의 핵심",
+      "source": "Bloomberg"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 2.0
+    },
+    {
+      "year": 2015,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.4
+    }
+  ],
+  "quotes": [
+    {
+      "text": "When GPS became a commodity in phones, we didn't give up. We found new frontiers.",
+      "textKo": "GPS가 폰에서 일반화되었을 때 우리는 포기하지 않았다. 새로운 개척지를 찾았다.",
+      "context": "On pivoting Garmin",
+      "contextKo": "가민의 전환에 대해",
+      "source": "Fortune"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Co-founding Garmin and successfully pivoting the company from car GPS to fitness wearables when smartphones disrupted the navigation market",
+    "knownForKo": "가민을 공동 설립하고 스마트폰이 내비게이션 시장을 파괴했을 때 자동차 GPS에서 피트니스 웨어러블로 성공적으로 전환"
+  }
+}

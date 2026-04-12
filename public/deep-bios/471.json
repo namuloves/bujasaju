@@ -1,0 +1,78 @@
+{
+  "id": "471",
+  "name": "Daniel Nadler",
+  "childhood": {
+    "birthPlace": "Canada",
+    "birthPlaceKo": "캐나다",
+    "familyBackground": "Details not widely documented.",
+    "familyBackgroundKo": "세부사항 널리 기록되지 않음.",
+    "education": "Studied at Harvard University, earning a PhD.",
+    "educationKo": "하버드 대학교에서 박사 학위 취득.",
+    "earlyLife": "Academic background in AI and machine learning.",
+    "earlyLifeKo": "AI와 머신러닝 분야의 학문적 배경.",
+    "source": "Forbes"
+  },
+  "careerTimeline": [
+    {
+      "year": 2014,
+      "event": "Founded Kensho Technologies, an AI analytics company",
+      "eventKo": "AI 분석 회사 켄쇼 테크놀로지스 설립"
+    },
+    {
+      "year": 2018,
+      "event": "S&P Global acquired Kensho for approximately $550 million",
+      "eventKo": "S&P 글로벌이 켄쇼를 약 5억 5천만 달러에 인수"
+    },
+    {
+      "year": 2022,
+      "event": "Co-founded Anthropic-backed AI ventures",
+      "eventKo": "앤스로픽 지원 AI 벤처 공동 설립"
+    },
+    {
+      "year": 2025,
+      "event": "Net worth reached $7.6 billion through AI investments",
+      "eventKo": "AI 투자를 통해 순자산 76억 달러 도달"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2017,
+      "description": "Early challenges in getting Wall Street to adopt AI-driven analytics",
+      "descriptionKo": "월스트리트의 AI 기반 분석 도입에 초기 어려움",
+      "lesson": "Enterprise AI adoption takes patience and proven ROI",
+      "lessonKo": "기업 AI 도입은 인내와 입증된 ROI가 필요",
+      "source": "Bloomberg"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2018,
+      "netWorth": 0.5
+    },
+    {
+      "year": 2022,
+      "netWorth": 3.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.6
+    }
+  ],
+  "quotes": [
+    {
+      "text": "AI will transform every industry. We're just at the beginning.",
+      "textKo": "AI는 모든 산업을 변혁할 것이다. 우리는 아직 시작에 불과하다.",
+      "context": "On the future of AI",
+      "contextKo": "AI의 미래에 대해",
+      "source": "Forbes"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "AI entrepreneur who built and sold Kensho to S&P Global, early mover in financial AI",
+    "knownForKo": "켄쇼를 구축해 S&P 글로벌에 매각한 AI 기업가, 금융 AI 분야 선구자"
+  }
+}

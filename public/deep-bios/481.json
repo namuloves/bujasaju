@@ -1,0 +1,114 @@
+{
+  "id": "481",
+  "name": "Morris Chang",
+  "childhood": {
+    "birthPlace": "Ningbo, Zhejiang, China",
+    "birthPlaceKo": "중국 저장성 닝보",
+    "familyBackground": "Born in Ningbo, China. Family fled to Hong Kong during the Chinese Civil War. Father was a local government official.",
+    "familyBackgroundKo": "중국 닝보에서 태어남. 국공내전 중 가족이 홍콩으로 피난. 아버지는 지방 공무원.",
+    "education": "Studied at Harvard University (1 year), then transferred to MIT, earning a BS and MS in mechanical engineering. Earned PhD from Stanford University.",
+    "educationKo": "하버드 대학교(1년) 수학 후 MIT로 편입, 기계공학 학사 및 석사 취득. 스탠퍼드 대학교 박사 취득.",
+    "earlyLife": "Moved from China to Hong Kong to the United States as a young man. Experienced the upheaval of Chinese civil war.",
+    "earlyLifeKo": "청년 시절 중국에서 홍콩, 미국으로 이주. 중국 내전의 격변 경험.",
+    "source": "Wikipedia, Forbes, TSMC"
+  },
+  "careerTimeline": [
+    {
+      "year": 1958,
+      "event": "Joined Texas Instruments, rising to become VP of the semiconductor group",
+      "eventKo": "텍사스 인스트루먼트 입사, 반도체 그룹 부사장으로 승진"
+    },
+    {
+      "year": 1985,
+      "event": "Left Texas Instruments after 25 years to become president of ITRI in Taiwan",
+      "eventKo": "25년 근무 후 텍사스 인스트루먼트를 떠나 대만 ITRI 원장 취임"
+    },
+    {
+      "year": 1987,
+      "event": "Founded TSMC (Taiwan Semiconductor Manufacturing Company), inventing the pure-play foundry model",
+      "eventKo": "TSMC(대만 반도체 제조회사) 설립, 퓨어플레이 파운드리 모델 발명"
+    },
+    {
+      "year": 1997,
+      "event": "TSMC listed on the New York Stock Exchange",
+      "eventKo": "TSMC 뉴욕증권거래소 상장"
+    },
+    {
+      "year": 2005,
+      "event": "TSMC became the world's largest dedicated semiconductor foundry",
+      "eventKo": "TSMC가 세계 최대 전문 반도체 파운드리로 등극"
+    },
+    {
+      "year": 2018,
+      "event": "Retired as chairman of TSMC at age 86",
+      "eventKo": "86세에 TSMC 회장직에서 은퇴"
+    },
+    {
+      "year": 2024,
+      "event": "TSMC became one of the world's most valuable companies, essential to global AI chip production",
+      "eventKo": "TSMC가 세계 최고가치 기업 중 하나, 글로벌 AI 칩 생산에 필수적"
+    }
+  ],
+  "failures": [
+    {
+      "year": 1984,
+      "description": "Passed over for CEO of Texas Instruments despite being the top candidate",
+      "descriptionKo": "최고 후보였음에도 텍사스 인스트루먼트 CEO에서 탈락",
+      "lesson": "Being passed over can redirect you to an even greater opportunity",
+      "lessonKo": "탈락이 더 큰 기회로 방향을 전환시킬 수 있음",
+      "source": "TSMC biography"
+    },
+    {
+      "year": 1990,
+      "description": "Early years of TSMC were extremely difficult, struggling to get customers to trust a foundry model",
+      "descriptionKo": "TSMC 초기 시절은 매우 어려웠으며, 고객들이 파운드리 모델을 신뢰하도록 하는 데 어려움",
+      "lesson": "Revolutionary business models take time to gain market acceptance",
+      "lessonKo": "혁명적 비즈니스 모델은 시장 수용에 시간이 걸림",
+      "source": "Bloomberg"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 2.8
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.5
+    }
+  ],
+  "quotes": [
+    {
+      "text": "TSMC is a company that exists because of one simple idea: not everyone who designs chips should have to manufacture them.",
+      "textKo": "TSMC는 하나의 단순한 아이디어 때문에 존재한다: 칩을 설계하는 모든 사람이 제조해야 할 필요는 없다.",
+      "context": "On the foundry model",
+      "contextKo": "파운드리 모델에 대해",
+      "source": "TSMC"
+    },
+    {
+      "text": "Without TSMC, there would be no fabless semiconductor industry.",
+      "textKo": "TSMC 없이는 팹리스 반도체 산업이 없었을 것이다.",
+      "context": "On TSMC's role in the industry",
+      "contextKo": "산업에서 TSMC의 역할에 대해",
+      "source": "IEEE Spectrum"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Father of the semiconductor foundry industry. Founded TSMC at age 55, creating the business model that enabled the fabless chip revolution.",
+    "knownForKo": "반도체 파운드리 산업의 아버지. 55세에 TSMC 설립, 팹리스 칩 혁명을 가능케 한 비즈니스 모델 창조.",
+    "philanthropy": "Supports education and technology research in Taiwan.",
+    "philanthropyKo": "대만의 교육 및 기술 연구 지원."
+  }
+}
