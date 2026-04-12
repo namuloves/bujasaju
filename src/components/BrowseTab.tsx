@@ -12,6 +12,80 @@ import {
   getUniqueIljus,
 } from '@/lib/data/enriched';
 
+/**
+ * Korean brand/company names → English equivalents for search.
+ * When a user types a Korean brand name, we also match against the English version.
+ */
+const KO_BRAND_ALIASES: Record<string, string[]> = {
+  '테슬라': ['tesla'],
+  '누텔라': ['nutella', 'ferrero'],
+  '페레로': ['ferrero', 'nutella'],
+  '아마존': ['amazon'],
+  '구글': ['google', 'alphabet'],
+  '애플': ['apple'],
+  '마이크로소프트': ['microsoft'],
+  '메타': ['meta', 'facebook'],
+  '페이스북': ['facebook', 'meta'],
+  '삼성': ['samsung'],
+  '현대': ['hyundai'],
+  '엔비디아': ['nvidia'],
+  '오라클': ['oracle'],
+  '버크셔': ['berkshire'],
+  '루이비통': ['lvmh', 'louis vuitton'],
+  '에르메스': ['hermes'],
+  '샤넬': ['chanel'],
+  '로레알': ['loreal', "l'oreal"],
+  '월마트': ['walmart'],
+  '코스트코': ['costco'],
+  '나이키': ['nike'],
+  '스타벅스': ['starbucks'],
+  '코카콜라': ['coca-cola', 'coca cola'],
+  '펩시': ['pepsi', 'pepsico'],
+  '맥도날드': ['mcdonald'],
+  '다이슨': ['dyson'],
+  '이케아': ['ikea'],
+  '자라': ['zara', 'inditex'],
+  '유니클로': ['uniqlo', 'fast retailing'],
+  '소프트뱅크': ['softbank'],
+  '알리바바': ['alibaba'],
+  '텐센트': ['tencent'],
+  '바이트댄스': ['bytedance', 'tiktok'],
+  '틱톡': ['tiktok', 'bytedance'],
+  '화웨이': ['huawei'],
+  '샤오미': ['xiaomi'],
+  '블룸버그': ['bloomberg'],
+  '골드만삭스': ['goldman sachs'],
+  '모건스탠리': ['morgan stanley'],
+  '캔바': ['canva'],
+  '스페이스엑스': ['spacex'],
+  '레딧': ['reddit'],
+  '우버': ['uber'],
+  '에어비앤비': ['airbnb'],
+  '넷플릭스': ['netflix'],
+  '디즈니': ['disney'],
+  '소니': ['sony'],
+  '도요타': ['toyota'],
+  '벤츠': ['mercedes', 'daimler'],
+  '포르쉐': ['porsche'],
+  'bmw': ['bmw'],
+  '폭스바겐': ['volkswagen'],
+  '롤렉스': ['rolex'],
+  '프라다': ['prada'],
+  '구찌': ['gucci', 'kering'],
+  '팬더': ['panda express', 'panda restaurant'],
+};
+
+/** Expand a Korean search query into additional English terms to match against. */
+function expandKoreanQuery(q: string): string[] {
+  const extra: string[] = [];
+  for (const [ko, ens] of Object.entries(KO_BRAND_ALIASES)) {
+    if (q.includes(ko)) {
+      extra.push(...ens);
+    }
+  }
+  return extra;
+}
+
 const defaultFilters: Filters = {
   ilgan: '',
   ilju: '',
@@ -54,13 +128,17 @@ export default function BrowseTab() {
         const src = (person.source ?? '').toLowerCase();
         const industry = (person.industry ?? '').toLowerCase();
         const bioKo = (person.bioKo ?? '').toLowerCase();
+        // Expand Korean brand queries to English equivalents
+        const expanded = expandKoreanQuery(qNoSpace);
+        const searchable = nameEn + ' ' + src + ' ' + industry;
         if (
           !nameEn.includes(q) &&
           !nameKo.includes(f.search) &&
           !nameKoNoSpace.includes(qNoSpace) &&
           !src.includes(q) &&
           !industry.includes(q) &&
-          !bioKo.includes(q)
+          !bioKo.includes(q) &&
+          !expanded.some(term => searchable.includes(term))
         )
           return false;
       }
