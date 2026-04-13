@@ -28,6 +28,14 @@ import { rateLimit, getIp } from '@/lib/rateLimit';
 
 export const runtime = 'nodejs';
 
+interface DeepBioSnippet {
+  childhood?: string;
+  careerHighlights?: string;
+  failures?: string;
+  quotes?: string;
+  knownFor?: string;
+}
+
 interface SummaryInput {
   user: {
     ilju: string;
@@ -45,6 +53,7 @@ interface SummaryInput {
     ilju: string;
     wolji: string;
     gyeokguk: string;
+    deepBio?: DeepBioSnippet;
   }>;
 }
 
@@ -69,15 +78,34 @@ function buildPrompt(input: SummaryInput): string {
 
   const matchLines = topMatches
     .map((m) => {
-      // Prefer the Korean name. If it's missing, ask the model to use
-      // the commonly-known Korean transliteration of the English name.
       const name = m.nameKo ?? `${m.name} (한국어 이름으로 표기)`;
       const origin = m.wealthOrigin === 'self-made' ? '자수성가' : '상속';
       return `- ${name} · ${m.industry} · ${m.nationality} · 순자산 ${formatKrw(m.netWorth)} · ${origin} · ${m.ilju}일주 ${m.wolji}월지 ${m.gyeokguk}`;
     })
     .join('\n');
 
-  return `당신은 한국의 사주명리학 전문가입니다. 아래 사용자의 격국과, 그 사용자와 사주 구조가 비슷한 부자들의 목록을 바탕으로 짧은 한국어 요약을 작성해 주세요.
+  // Build deep bio context for matches that have it (top 3 only to keep prompt short)
+  const bioSnippets = topMatches
+    .filter((m) => m.deepBio)
+    .slice(0, 3)
+    .map((m) => {
+      const name = m.nameKo ?? m.name;
+      const bio = m.deepBio!;
+      const parts: string[] = [`## ${name}`];
+      if (bio.childhood) parts.push(`성장배경: ${bio.childhood}`);
+      if (bio.careerHighlights) parts.push(`커리어: ${bio.careerHighlights}`);
+      if (bio.failures) parts.push(`좌절과 극복: ${bio.failures}`);
+      if (bio.knownFor) parts.push(`특징: ${bio.knownFor}`);
+      if (bio.quotes) parts.push(`명언: ${bio.quotes}`);
+      return parts.join('\n');
+    })
+    .join('\n\n');
+
+  const deepBioSection = bioSnippets
+    ? `\n# 주요 인물들의 인생 스토리 (사주 풀이에 참고)\n${bioSnippets}\n`
+    : '';
+
+  return `당신은 한국의 사주명리학 전문가입니다. 아래 사용자의 격국과, 그 사용자와 사주 구조가 비슷한 부자들의 목록을 바탕으로 깊이 있는 한국어 사주 풀이를 작성해 주세요.
 
 # 사용자 사주
 - 일주: ${user.ilju}
@@ -87,12 +115,13 @@ function buildPrompt(input: SummaryInput): string {
 
 # 비슷한 사주 구조를 가진 부자들
 ${matchLines}
-
+${deepBioSection}
 # 작성 지침
 1. **첫 문장 (1문장)**: ${user.gyeokguk}의 기운과 성향을 한 문장으로 풀어주세요. "${user.gyeokguk}인 당신은..." 또는 비슷하게 시작하세요. 격국 자체의 특성(어떤 성향·재능·운의 흐름인지)에 집중하세요.
-2. **두 번째 단락 (3-4문장)**: 위 부자들의 **실제 데이터에서 보이는 공통점**을 관찰해서 풀어주세요. 구체적인 숫자, 직업 분야, 국적, 자수성가 비율 등을 근거로 들고, 이름은 반드시 **한국어로만** 표기하세요 (예: 스티븐 스필버그, 네이선 커시). 영어 이름이나 괄호 표기는 절대 쓰지 마세요. 순자산도 반드시 **원(조 원, 억 원)** 단위로만 표기하고, 달러는 절대 쓰지 마세요.
-3. 전체 3-4문장 이내 (첫 단락 1문장 + 둘째 단락 2-3문장). 마크다운 없이 순수 한국어 문장만. 짧고 핵심만. 친근하되 명리학적 깊이가 있는 톤으로.
-4. "...답네요", "...이네요" 같은 자연스러운 맺음말 사용.
+2. **두 번째 단락 (2-3문장)**: 위 부자들의 **실제 데이터에서 보이는 공통점**을 관찰해서 풀어주세요. 구체적인 숫자, 직업 분야, 국적, 자수성가 비율 등을 근거로 들고, 이름은 반드시 **한국어로만** 표기하세요. 영어 이름이나 괄호 표기는 절대 쓰지 마세요. 순자산도 반드시 **원(조 원, 억 원)** 단위로만 표기하세요.
+3. **세 번째 단락 (2-3문장)**: ${bioSnippets ? '인물들의 인생 스토리를 바탕으로' : '이 부자들의 공통된 패턴을 바탕으로'}, 이 격국이 가진 **구체적인 성공 패턴**을 분석하세요. 예: 어떤 시기에 도약했는지, 어떤 좌절을 극복했는지, 어떤 결정이 전환점이 됐는지. ${bioSnippets ? '인물의 실제 일화나 명언을 인용하면 좋습니다.' : ''} 사주 명리학적 해석(오행의 상생상극, 격국의 운의 흐름)을 자연스럽게 녹여주세요.
+4. 전체 5-7문장. 마크다운 없이 순수 한국어 문장만. 친근하되 명리학적 깊이와 구체적 스토리가 있는 톤으로.
+5. "...답네요", "...이네요" 같은 자연스러운 맺음말 사용.
 
 이제 요약문만 출력하세요. 다른 설명이나 서문은 넣지 마세요.`;
 }
@@ -150,7 +179,7 @@ export async function POST(req: NextRequest) {
         const stream = await client.chat.completions.create(
           {
             model: 'gpt-4o-mini',
-            max_tokens: 500,
+            max_tokens: 800,
             stream: true,
             messages: [{ role: 'user', content: prompt }],
           },

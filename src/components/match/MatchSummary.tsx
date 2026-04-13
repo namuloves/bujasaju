@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { EnrichedPerson, SajuResult } from '@/lib/saju/types';
+import { fetchDeepBio, hasDeepBioSync } from '@/lib/deepBio';
 
 /**
  * MatchSummary — streams a Claude-generated 사주 summary that describes the
@@ -74,12 +75,47 @@ function startStream(
 
   (async () => {
     try {
+      // Fetch deep bios for top 3 matches that have them (in parallel)
+      const top12 = matches.slice(0, 12);
+      const bioPromises = top12.slice(0, 3)
+        .filter((m) => hasDeepBioSync(m.id))
+        .map(async (m) => {
+          const bio = await fetchDeepBio(m.id);
+          if (!bio) return null;
+          const ko = (a?: string, b?: string) => a || b || '';
+          return {
+            id: m.id,
+            snippet: {
+              childhood: ko(bio.childhood?.earlyLifeKo, bio.childhood?.earlyLife),
+              careerHighlights: bio.careerTimeline
+                .filter((e) => e.eventKo || e.event)
+                .slice(0, 3)
+                .map((e) => `${e.year}: ${ko(e.eventKo, e.event)}`)
+                .join('. '),
+              failures: bio.failures
+                .slice(0, 2)
+                .map((f) => ko(f.descriptionKo, f.description))
+                .join('. '),
+              knownFor: ko(bio.personalTraits?.knownForKo, bio.personalTraits?.knownFor),
+              quotes: bio.quotes
+                .slice(0, 1)
+                .map((q) => `"${ko(q.textKo, q.text)}"`)
+                .join(''),
+            },
+          };
+        });
+      const bioResults = (await Promise.all(bioPromises)).filter(Boolean) as Array<{
+        id: string;
+        snippet: { childhood?: string; careerHighlights?: string; failures?: string; knownFor?: string; quotes?: string };
+      }>;
+      const bioMap = new Map(bioResults.map((b) => [b.id, b.snippet]));
+
       const res = await fetch('/api/saju-summary', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           user,
-          matches: matches.slice(0, 12).map((m) => ({
+          matches: top12.map((m) => ({
             name: m.name,
             nameKo: m.nameKo,
             industry: m.industry,
@@ -89,6 +125,7 @@ function startStream(
             ilju: m.saju.ilju,
             wolji: m.saju.wolji,
             gyeokguk: m.saju.gyeokguk,
+            deepBio: bioMap.get(m.id),
           })),
         }),
       });
