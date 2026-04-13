@@ -97,13 +97,13 @@ export default function SingleMatchCard({ person, saju, matches, onReset, totalM
             {t.yourSaju}
           </div>
         </div>
-        <div className="flex justify-center gap-2 sm:gap-3 mb-4">
-          <HeroPillar label="時" ju={saju.saju.hour} ilgan={saju.saju.day.stem as CheonGan} />
-          <HeroPillar label="日" ju={saju.saju.day} ilgan={saju.saju.day.stem as CheonGan} isDayPillar />
-          <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} />
-          <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} />
+        <div className="flex justify-center gap-1.5 sm:gap-2 mb-3">
+          <HeroPillar label="時" ju={saju.saju.hour} ilgan={saju.saju.day.stem as CheonGan} compact />
+          <HeroPillar label="日" ju={saju.saju.day} ilgan={saju.saju.day.stem as CheonGan} isDayPillar compact />
+          <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} compact />
+          <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} compact />
         </div>
-        <div className="flex flex-wrap justify-center gap-x-5 gap-y-1.5 text-sm mb-5">
+        <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-xs mb-4">
           <div>
             <span className="text-gray-500">{t.yourIlju}</span>
             <span className="mx-1.5 text-gray-300">·</span>

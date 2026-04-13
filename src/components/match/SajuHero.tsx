@@ -11,29 +11,40 @@ interface Props {
   onReset: () => void;
 }
 
-function HeroPillar({
+export function HeroPillar({
   label,
   ju,
   ilgan,
   isDayPillar,
+  compact,
 }: {
   label: string;
   ju: Ju | null;
   ilgan: CheonGan;
   isDayPillar?: boolean;
+  compact?: boolean;
 }) {
+  const cell = compact
+    ? 'w-8 h-8 rounded-md text-lg'
+    : 'w-10 h-10 sm:w-11 sm:h-11 rounded-lg text-2xl';
+  const cellEmpty = compact
+    ? 'w-8 h-8 rounded-md text-sm'
+    : 'w-10 h-10 sm:w-11 sm:h-11 rounded-lg text-lg';
+  const labelSize = compact ? 'text-[9px]' : 'text-[10px]';
+  const sipsinSize = compact ? 'text-[8px]' : 'text-[9px]';
+
   if (!ju) {
     return (
       <div className="flex flex-col items-center">
-        <div className="text-[10px] text-gray-400 mb-1 font-medium">{label}</div>
-        <div className="text-[9px] text-gray-300 mb-0.5 h-3">·</div>
-        <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-lg border border-dashed border-gray-300 flex items-center justify-center text-gray-300 text-lg">
+        <div className={`${labelSize} text-gray-400 mb-1 font-medium`}>{label}</div>
+        <div className={`${sipsinSize} text-gray-300 mb-0.5 h-3`}>·</div>
+        <div className={`${cellEmpty} border border-dashed border-gray-300 flex items-center justify-center text-gray-300`}>
           ?
         </div>
-        <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-lg border border-dashed border-gray-300 mt-1 flex items-center justify-center text-gray-300 text-lg">
+        <div className={`${cellEmpty} border border-dashed border-gray-300 mt-1 flex items-center justify-center text-gray-300`}>
           ?
         </div>
-        <div className="text-[9px] text-gray-300 mt-0.5 h-3">·</div>
+        <div className={`${sipsinSize} text-gray-300 mt-0.5 h-3`}>·</div>
       </div>
     );
   }
@@ -42,8 +53,6 @@ function HeroPillar({
   const stemColor = OHAENG_COLORS[stemOh];
   const branchColor = OHAENG_COLORS[branchOh];
 
-  // 십성 labels. The day stem itself is the 일간 (the reference point),
-  // so it's marked as 일간/본원 rather than a 십성 relationship.
   const stemSipsin = isDayPillar
     ? '일간'
     : getSipSin(ilgan, ju.stem as CheonGan);
@@ -52,21 +61,21 @@ function HeroPillar({
 
   return (
     <div className="flex flex-col items-center">
-      <div className="text-[10px] text-gray-400 mb-1 font-medium">{label}</div>
-      <div className={`text-[9px] mb-0.5 font-medium ${isDayPillar ? 'text-indigo-500' : 'text-gray-500'}`}>
+      <div className={`${labelSize} text-gray-400 mb-1 font-medium`}>{label}</div>
+      <div className={`${sipsinSize} mb-0.5 font-medium ${isDayPillar ? 'text-indigo-500' : 'text-gray-500'}`}>
         {stemSipsin}
       </div>
       <div
-        className={`w-10 h-10 sm:w-11 sm:h-11 rounded-lg border flex items-center justify-center text-2xl font-bold shadow-sm ${stemColor.bg} ${stemColor.text} ${stemColor.border}`}
+        className={`${cell} border flex items-center justify-center font-bold shadow-sm ${stemColor.bg} ${stemColor.text} ${stemColor.border}`}
       >
         {ju.stem}
       </div>
       <div
-        className={`w-10 h-10 sm:w-11 sm:h-11 rounded-lg border mt-1 flex items-center justify-center text-2xl font-bold shadow-sm ${branchColor.bg} ${branchColor.text} ${branchColor.border}`}
+        className={`${cell} border mt-1 flex items-center justify-center font-bold shadow-sm ${branchColor.bg} ${branchColor.text} ${branchColor.border}`}
       >
         {ju.branch}
       </div>
-      <div className="text-[9px] text-gray-500 mt-0.5 font-medium">
+      <div className={`${sipsinSize} text-gray-500 mt-0.5 font-medium`}>
         {branchSipsin}
       </div>
     </div>
