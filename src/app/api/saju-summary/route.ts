@@ -1,6 +1,8 @@
 import OpenAI from 'openai';
 import type { NextRequest } from 'next/server';
 import { rateLimit, getIp } from '@/lib/rateLimit';
+import { analyzeSaju } from '@/lib/saju/relationships';
+import type { SajuResult, CheonGan, JiJi } from '@/lib/saju/types';
 
 /**
  * POST /api/saju-summary
@@ -42,6 +44,15 @@ interface SummaryInput {
     wolji: string;
     gyeokguk: string;
     ilgan: string;
+    // Full pillar data for relationship analysis
+    yearStem?: string;
+    yearBranch?: string;
+    monthStem?: string;
+    monthBranch?: string;
+    dayStem?: string;
+    dayBranch?: string;
+    hourStem?: string;
+    hourBranch?: string;
   };
   matches: Array<{
     name: string;
@@ -102,26 +113,54 @@ function buildPrompt(input: SummaryInput): string {
     .join('\n\n');
 
   const deepBioSection = bioSnippets
-    ? `\n# 주요 인물들의 인생 스토리 (사주 풀이에 참고)\n${bioSnippets}\n`
+    ? `\n# 주요 인물들의 인생 스토리\n${bioSnippets}\n`
     : '';
 
-  return `당신은 한국의 사주명리학 전문가입니다. 아래 사용자의 격국과, 그 사용자와 사주 구조가 비슷한 부자들의 목록을 바탕으로 깊이 있는 한국어 사주 풀이를 작성해 주세요.
+  // Run saju relationship analysis (충/합/형/오행) if full pillar data is available
+  let sajuAnalysisSection = '';
+  if (user.dayStem && user.dayBranch && user.monthStem && user.monthBranch) {
+    try {
+      const sajuResult: SajuResult = {
+        saju: {
+          year: user.yearStem && user.yearBranch
+            ? { stem: user.yearStem, branch: user.yearBranch }
+            : { stem: '갑', branch: '자' },
+          month: { stem: user.monthStem, branch: user.monthBranch },
+          day: { stem: user.dayStem, branch: user.dayBranch },
+          hour: user.hourStem && user.hourBranch
+            ? { stem: user.hourStem, branch: user.hourBranch }
+            : null,
+        },
+        gyeokguk: user.gyeokguk as SajuResult['gyeokguk'],
+        ilju: user.ilju,
+        wolji: user.wolji,
+      };
+      const analysis = analyzeSaju(sajuResult);
+      sajuAnalysisSection = `\n# 사주 명리학 분석 (충·합·형·오행)\n${analysis.summaryKo}\n`;
+    } catch {
+      // Skip analysis if it fails
+    }
+  }
+
+  return `당신은 한국의 사주명리학 전문가입니다. 아래 사용자의 사주 분석과, 비슷한 사주 구조를 가진 부자들의 목록을 바탕으로 깊이 있는 한국어 사주 풀이를 작성해 주세요.
 
 # 사용자 사주
 - 일주: ${user.ilju}
 - 일간: ${user.ilgan}
 - 월지: ${user.wolji}
 - 격국: ${user.gyeokguk}
-
+${sajuAnalysisSection}
 # 비슷한 사주 구조를 가진 부자들
 ${matchLines}
 ${deepBioSection}
 # 작성 지침
-1. **첫 문장 (1문장)**: ${user.gyeokguk}의 기운과 성향을 한 문장으로 풀어주세요. "${user.gyeokguk}인 당신은..." 또는 비슷하게 시작하세요. 격국 자체의 특성(어떤 성향·재능·운의 흐름인지)에 집중하세요.
-2. **두 번째 단락 (2-3문장)**: 위 부자들의 **실제 데이터에서 보이는 공통점**을 관찰해서 풀어주세요. 구체적인 숫자, 직업 분야, 국적, 자수성가 비율 등을 근거로 들고, 이름은 반드시 **한국어로만** 표기하세요. 영어 이름이나 괄호 표기는 절대 쓰지 마세요. 순자산도 반드시 **원(조 원, 억 원)** 단위로만 표기하세요.
-3. **세 번째 단락 (2-3문장)**: ${bioSnippets ? '인물들의 인생 스토리를 바탕으로' : '이 부자들의 공통된 패턴을 바탕으로'}, 이 격국이 가진 **구체적인 성공 패턴**을 분석하세요. 예: 어떤 시기에 도약했는지, 어떤 좌절을 극복했는지, 어떤 결정이 전환점이 됐는지. ${bioSnippets ? '인물의 실제 일화나 명언을 인용하면 좋습니다.' : ''} 사주 명리학적 해석(오행의 상생상극, 격국의 운의 흐름)을 자연스럽게 녹여주세요.
-4. 전체 5-7문장. 마크다운 없이 순수 한국어 문장만. 친근하되 명리학적 깊이와 구체적 스토리가 있는 톤으로.
+1. **첫 단락 (2문장)**: ${user.gyeokguk}의 기운과 성향을 풀어주세요. "${user.gyeokguk}인 당신은..." 또는 비슷하게 시작하세요.${sajuAnalysisSection ? ' 사주 분석에서 발견된 합(合)이나 유리한 배치가 있으면 "당신의 사주에는 [X]합이 있어 [Y]의 기운이 강화되어 있네요" 같이 구체적으로 언급하세요.' : ''}
+2. **두 번째 단락 (2-3문장)**: 위 부자들의 **실제 데이터에서 보이는 공통점**을 관찰해서 풀어주세요. 이름은 반드시 **한국어로만** 표기하세요. 영어 이름이나 괄호 표기는 절대 쓰지 마세요. 순자산도 반드시 **원(조 원, 억 원)** 단위로만 표기하세요.${bioSnippets ? ' 인물의 실제 일화나 명언을 인용하면 좋습니다.' : ''}
+3. **세 번째 단락 (2-3문장)**: ${sajuAnalysisSection ? '사주 분석에서 발견된 충(沖)이나 불리한 배치가 있으면, 이 사주를 가진 부자들이 어떻게 그 어려움을 극복하고 성공했는지 연결해서 풀어주세요. 오행의 부족한 기운이 있으면, 그것을 보완하는 방법도 제안하세요.' : '이 격국이 가진 구체적인 성공 패턴을 분석하세요.'}
+4. 전체 5-7문장. 마크다운 없이 순수 한국어 문장만. 친근하되 명리학적 깊이가 있는 톤으로. "null"이나 영어 단어는 절대 포함하지 마세요.
 5. "...답네요", "...이네요" 같은 자연스러운 맺음말 사용.
+6. 사주 용어(충, 합, 형, 오행, 상생, 상극)를 자연스럽게 사용하되, 일반인도 이해할 수 있게 간단한 설명을 곁들이세요.
+7. 이 사람들이 한국에서 부자가 된 것이 아닙니다 — 각자 자기 나라에서 성공한 사람들이에요. 마치 한국 부자인 것처럼 쓰지 마세요.
 
 이제 요약문만 출력하세요. 다른 설명이나 서문은 넣지 마세요.`;
 }

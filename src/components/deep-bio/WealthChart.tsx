@@ -279,7 +279,8 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
             const color = ann.type === 'jump' ? 'text-green-800' : 'text-red-500';
             const bg = ann.type === 'jump' ? 'bg-green-50/0' : 'bg-red-50/0';
             const arrow = ann.type === 'jump' ? '↑' : '↓';
-            const eventText = lang === 'ko' && ann.eventKo ? ann.eventKo : ann.event;
+            const rawText = lang === 'ko' && ann.eventKo ? ann.eventKo : ann.event;
+            const eventText = rawText.length > 40 ? rawText.slice(0, 40) + '…' : rawText;
             return (
               <div key={i} className={`${bg} rounded-md px-2.5 py-1.5 flex items-start gap-1.5`}>
                 <span className={`${color} text-[11px] font-bold shrink-0 mt-px`}>{arrow} {ann.year}</span>

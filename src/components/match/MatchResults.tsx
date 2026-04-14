@@ -10,6 +10,7 @@ import SajuHero from './SajuHero';
 import ShareButtons from './ShareButtons';
 import MatchSummary from './MatchSummary';
 import EmailCaptureCard from './EmailCaptureCard';
+import SingleMatchCard from './SingleMatchCard';
 
 interface Props {
   me: SajuResult;
@@ -74,29 +75,62 @@ export default function MatchResults({ me, onReset }: Props) {
     );
   }
 
-  return (
-    <div className="md:grid md:grid-cols-[minmax(0,340px)_minmax(0,1fr)] md:gap-6 lg:gap-8 md:items-start space-y-8 md:space-y-0">
-      {/* Left column (md+): hero + share/email stick to the side. On mobile
-          it stacks above the matches like before. */}
-      <div className="md:sticky md:top-4 space-y-4">
-        <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} />
+  const isSingleTopMatch = groups.iljuPlusMonthJu.length === 1;
 
-        {/* Share + email — desktop only (on mobile, shown after first result group) */}
-        <div className="hidden md:block bg-white rounded-2xl px-4 sm:px-6 py-5">
-          <ShareButtons title={t.shareTitle} variant="hero" />
-          <div className="mt-4">
-            <EmailCaptureCard />
+  return (
+    <div className={isSingleTopMatch
+      ? 'max-w-2xl mx-auto space-y-8'
+      : 'md:grid md:grid-cols-[minmax(0,340px)_minmax(0,1fr)] md:gap-6 lg:gap-8 md:items-start space-y-8 md:space-y-0'
+    }>
+      {/* Left column (md+): hero + share/email stick to the side.
+          Hidden when SingleMatchCard is active (chart is embedded in the card). */}
+      {!isSingleTopMatch && (
+        <div className="md:sticky md:top-4 space-y-4">
+          <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} />
+
+          {/* Share + email — desktop only (on mobile, shown after first result group) */}
+          <div className="hidden md:block bg-white rounded-2xl px-4 sm:px-6 py-5">
+            <ShareButtons title={t.shareTitle} variant="hero" />
+            <div className="mt-4">
+              <EmailCaptureCard />
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
-      {/* Right column: 사주 풀이 on top, then matched billionaire photos/cards */}
+      {/* Right column (or single column when unified card): results */}
       <div className="space-y-8 min-w-0">
-      <MatchSummary saju={me} matches={summaryMatches} />
+      {/* Single top match: unified card when the 🥇 group has exactly 1 person */}
+      {isSingleTopMatch ? (
+        <>
+          <SingleMatchCard
+            person={groups.iljuPlusMonthJu[0]}
+            saju={me}
+            matches={summaryMatches}
+            onReset={onReset}
+            totalMatches={totalMatches}
+          />
+          {/* Share + email after the unified card (both mobile and desktop) */}
+          <div className="bg-white rounded-2xl px-4 sm:px-6 py-5">
+            <ShareButtons title={t.shareTitle} variant="hero" />
+            <div className="mt-4">
+              <EmailCaptureCard />
+            </div>
+          </div>
+        </>
+      ) : (
+        <MatchSummary saju={me} matches={summaryMatches} />
+      )}
       {(() => {
-        let firstRendered = false;
+        // When the unified SingleMatchCard is shown, skip the monthJu section
+        // (it's already embedded in the card). Track whether we've rendered
+        // the first section for mobile share placement.
+        const skipMonthJu = groups.iljuPlusMonthJu.length === 1;
+        let firstRendered = skipMonthJu; // if unified card shown, share already placed
         return sections.map((section) => {
           if (section.people.length === 0) return null;
+          // Skip the monthJu section when it's already in SingleMatchCard
+          if (skipMonthJu && section.key === 'monthJu') return null;
           const autoOpenChart = section.key === 'twins' || section.key === 'monthJu';
           const isFirst = !firstRendered;
           firstRendered = true;

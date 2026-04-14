@@ -95,9 +95,14 @@ function formatNetWorthKrw(netWorthBillionsUsd: number): string {
   return `${eok.toLocaleString('ko-KR')}억 원`;
 }
 
-function formatBirthday(dateStr: string): string {
+function formatBirthday(dateStr: string, deathDate?: string): string {
   const [y, m, d] = dateStr.split('-');
-  return `${y}.${m}.${d}`;
+  const birth = `${y}.${m}.${d}`;
+  if (deathDate) {
+    const [dy, dm, dd] = deathDate.split('-');
+    return `${birth} - ${dy}.${dm}.${dd}`;
+  }
+  return birth;
 }
 
 // Render a bio string with links. Supports two forms, processed in order:
@@ -209,7 +214,7 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
         </p>
 
         {/* Birthday */}
-        <p className="text-xs text-gray-400 mt-1">{formatBirthday(person.birthday)}</p>
+        <p className="text-xs text-gray-400 mt-1">{formatBirthday(person.birthday, person.deathDate)}</p>
 
         {/* Net Worth */}
         <p className="text-xs text-gray-400 mt-0.5">
@@ -263,7 +268,7 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
           {/* 사주 확인 toggle */}
           <button
             onClick={() => setShowChart(!showChart)}
-            className="w-full text-xs text-indigo-500 hover:text-indigo-700 font-medium pt-1 border-t border-gray-100 transition-colors flex items-center justify-center gap-1"
+            className="w-full text-xs text-indigo-500 hover:text-indigo-700 font-medium pt-1 transition-colors flex items-center justify-center gap-1"
           >
             {t.viewChart} {showChart ? '▲' : '▼'}
           </button>
