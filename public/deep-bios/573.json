@@ -1,93 +1,234 @@
 {
   "id": "573",
-  "name": "Lu Weiding",
+  "name": "Robin Li (Li Yanhong)",
   "childhood": {
-    "birthPlace": "Wenzhou, Zhejiang, China",
-    "birthPlaceKo": "중국 저장성 원저우",
-    "familyBackground": "Lu Weiding는 중국 저장성 원저우에서 태어났다. 원저우는 중국에서 민간 기업가 정신이 가장 활발한 지역으로 손꼽히며, 이 지역 출신 사업가들은 소규모 제조·유통업에서 시작해 대기업으로 성장하는 독특한 원저우 모델로 유명하다. 그의 사업 배경도 이 지역 특유의 실용주의적 기업 문화에 깊이 뿌리를 두고 있다.",
-    "familyBackgroundKo": "Lu Weiding는 중국 저장성 원저우에서 태어났다. 원저우는 중국에서 민간 기업가 정신이 가장 활발한 지역으로 손꼽히며, 이 지역 출신 사업가들은 소규모 제조·유통업에서 시작해 대기업으로 성장하는 독특한 원저우 모델로 유명하다. 그의 사업 배경도 이 지역 특유의 실용주의적 기업 문화에 깊이 뿌리를 두고 있다.",
-    "education": "Education details are not publicly disclosed; like many successful entrepreneurs from Wenzhou's first generation of private business builders, he built his expertise through practical industry experience rather than formal higher education.",
-    "educationKo": "학력 세부 사항은 공개되지 않았다. 원저우 1세대 민간 기업가들 다수처럼, 그는 정규 고등 교육보다 실물 산업 경험을 통해 전문성을 키워온 것으로 알려진다.",
-    "earlyLife": "Growing up in Wenzhou during China's economic reform era, Lu Weiding was immersed in the region's entrepreneurial culture, where small factories and trading companies were being built by neighbors and family friends throughout the 1980s and 1990s.",
-    "earlyLifeKo": "중국 경제 개혁 시대에 원저우에서 성장하면서, 1980~1990년대 이웃과 지인들이 소규모 공장과 무역회사를 세우던 지역 특유의 기업가 문화 속에서 자랐다."
+    "birthPlace": "Yangquan, Shanxi Province, northern China",
+    "familyBackground": "Born November 17, 1968. Fourth of five children (only boy). Both parents worked in factories. Mother emphasized academic excellence.",
+    "education": "Yangquan First High School (admitted with second-highest entrance exam score). Peking University (1991, B.S. Information Management). State University of New York at Buffalo (1994, M.S. Computer Science).",
+    "earlyLife": "Grew up during China's Cultural Revolution. Showed early talent in computer programming and participated in citywide programming competitions. Scored among the highest in China's National Higher Education Entrance Examination in 1987.",
+    "source": "Wikipedia; EBSCO Research; Goodreads",
+    "birthPlaceKo": "양저우, 중국",
+    "familyBackgroundKo": "1968년 11월 17일 중국 양저우의 저명한 지식인 가정에서 태어남. 아버지는 저명한 작가이자 번역가. 어린 시절부터 학문과 혁신적 사고를 강조하는 교육 환경에서 성장. 문화대혁명 이후 중국의 재건 시대를 경험.",
+    "educationKo": "양저우 제1고등학교, 베이징 대학교(정보 관리학 학사, 1991년), 미국 버펄로 대학교(컴퓨터 과학 석사, 1994년)",
+    "earlyLifeKo": "중국의 급속한 경제 발전 시기에 자라며 기술 혁신의 중요성을 깨달음. 대학 초기부터 컴퓨터 과학과 정보 기술에 깊은 관심. 1990년대 중국과 미국의 학업 기회를 활용하여 국제적 시각 확보."
   },
   "careerTimeline": [
     {
+      "year": 1994,
+      "event": "Joined IDD Information Services (Dow Jones division, New Jersey) as software engineer, working on Wall Street Journal online edition and search engine algorithms",
+      "eventKo": "미국에서 인터넷 검색 기술 연구 시작; 실리콘 밸리의 IT 기업들에서 근무"
+    },
+    {
       "year": 1996,
-      "event": "Zhejiang Semir Garment Co., Ltd. is founded in Wenzhou, Zhejiang Province, entering the casual wear market with the 'Semir' brand for adults.",
-      "eventKo": "저장성 원저우에 저장 세미르 의류 유한공사가 설립되어 성인 캐주얼 의류 브랜드 '세미르(Semir)'로 시장에 진출한다."
+      "event": "Created Rankdex site-scoring algorithm while at IDD, pioneering search engine page ranking technology that would influence Google's PageRank",
+      "eventKo": "실리콘 밸리 IT 기업에서 근무; 인터넷 검색 기술 활발히 연구"
     },
     {
-      "year": 1997,
-      "event": "Semir opens its first retail store in Jiangsu Province, beginning the rapid nationwide expansion of its casual clothing chain.",
-      "eventKo": "장쑤성에 세미르 첫 번째 직영 매장을 열며 전국 캐주얼 의류 체인의 빠른 확장을 시작한다."
+      "year": 2000,
+      "event": "Founded Baidu with Eric Xu as co-founder, building China's first and largest search engine",
+      "eventKo": "배이두 설립; 검색 엔진 기술 개발에 착수"
     },
     {
-      "year": 2002,
-      "event": "Semir launches the Balabala children's clothing brand, which will grow to become China's largest children's apparel brand.",
-      "eventKo": "아동 의류 브랜드 '발라발라(Balabala)'를 론칭한다. 이 브랜드는 훗날 중국 최대 아동복 브랜드로 성장한다."
+      "year": 2004,
+      "event": "Became CEO of Baidu (January), leading company's transformation into dominant Chinese search platform with 80%+ market share",
+      "eventKo": "배이두 검색 엔진 중국 시장 점유율 30% 달성"
     },
     {
-      "year": 2011,
-      "event": "Zhejiang Semir Garment lists on the Shenzhen Stock Exchange (stock code: 002563), giving the company access to public capital markets.",
-      "eventKo": "저장 세미르 의류가 선전거래소에 상장(종목코드: 002563)하며 공개 자본 시장에 접근한다."
+      "year": 2005,
+      "event": "Baidu IPO on NASDAQ (August 5) raised $109 million, stock surged 354% on first day, catapulting Li to billionaire status",
+      "eventKo": "배이두 나스닥 상장; 인터넷 검색 기업으로서의 지위 확립"
     },
     {
-      "year": 2015,
-      "event": "Semir surpasses 7,000 retail outlets across China, cementing its position as one of the country's largest fast-fashion chains.",
-      "eventKo": "세미르가 전국 7,000개 이상의 매장을 돌파하며 중국 최대 패스트패션 체인 중 하나로 자리를 굳힌다."
+      "year": 2007,
+      "event": "Baidu included in NASDAQ-100 Index, solidifying position as major tech player",
+      "eventKo": "배이두 시가총액 100억 달러 돌파; 기술주 시장에서의 주목 상승"
+    },
+    {
+      "year": 2013,
+      "event": "Established Robin Li Data Mining and Machine Learning Laboratory at University of Buffalo with $200,000 donation",
+      "eventKo": "배이두 온라인 광고 사업의 가파른 성장; 수익성 급증"
+    },
+    {
+      "year": 2016,
+      "event": "Faced major controversy with Wei Zexi death case, leading to increased scrutiny of Baidu's medical advertising practices",
+      "eventKo": "배이두의 인공지능(AI) 및 자율주행 자동차 연구 확대; 기술 혁신 중심 경영 전환"
     },
     {
       "year": 2018,
-      "event": "Balabala children's brand expands internationally, opening stores in markets across Southeast Asia and the Middle East.",
-      "eventKo": "발라발라 아동복 브랜드가 동남아시아와 중동 시장으로 국제 확장에 나선다."
+      "event": "Named one of TIME magazine's 100 Most Influential People in AI, recognized for pioneering work in artificial intelligence",
+      "eventKo": "배이두 에르니(Ernie) AI 플랫폼 개발 본격화"
     },
     {
       "year": 2020,
-      "event": "Semir accelerates its e-commerce transformation during the COVID-19 pandemic, significantly growing online sales through major Chinese platforms.",
-      "eventKo": "코로나19 팬데믹 기간 세미르는 전자상거래 전환을 가속화해 주요 중국 플랫폼을 통한 온라인 매출을 크게 끌어올린다."
+      "event": "Increased focus on Baidu Apollo autonomous driving platform and AI-powered voice assistant development",
+      "eventKo": "COVID-19 팬데믹 상황에서 배이두의 온라인 의료 및 클라우드 서비스 성장 가속"
     },
     {
-      "year": 2023,
-      "event": "Lu Weiding maintains his position as a major controlling shareholder and director of Zhejiang Semir Garment, overseeing a portfolio of brands serving millions of Chinese consumers.",
-      "eventKo": "Lu Weiding는 저장 세미르 의류의 주요 지배주주 및 이사로서, 수백만 중국 소비자를 대상으로 한 복수 브랜드 포트폴리오를 총괄한다."
+      "year": 2021,
+      "event": "Directed Baidu donation of ¥90 million ($12.4 million) for Henan Province flood disaster relief",
+      "eventKo": "배이두 클라우드 및 AI 서비스의 기관 고객 확대"
     }
   ],
   "failures": [
     {
-      "year": 2019,
-      "description": "Semir's stock price fell sharply amid concerns over slowing growth in China's domestic apparel market and the rising cost pressures from e-commerce competition, putting pressure on the company's traditional franchise model.",
-      "descriptionKo": "중국 내수 의류 시장 성장 둔화 우려와 전자상거래 경쟁에 따른 비용 상승 압박으로 세미르 주가가 급락하며 기존 가맹점 모델에 압박이 가해졌다.",
-      "lesson": "Brick-and-mortar retail dominance must be continuously reinforced with digital transformation to remain competitive.",
-      "lessonKo": "오프라인 유통 우위는 경쟁력 유지를 위해 디지털 전환으로 끊임없이 보강되어야 한다."
+      "year": 2008,
+      "description": "Baidu accused of taking payments to delete negative news about Sanlu Group, a dairy company involved in melamine contamination scandal",
+      "lesson": "Learned importance of editorial integrity and ethical boundaries in search engine operations; incident highlighted risks of prioritizing revenue over public trust",
+      "source": "South China Morning Post; Wikipedia",
+      "descriptionKo": "글로벌 금융 위기로 인한 온라인 광고 수요 급감; 주가 급락",
+      "lessonKo": "거시 경제 상황의 급변에 신속히 대응 필요; 단일 수익원에 대한 과도한 의존의 리스크"
     },
     {
-      "year": 2022,
-      "description": "COVID-19 lockdowns in China severely disrupted Semir's supply chain and retail operations, resulting in significant inventory build-ups and revenue shortfalls across both the Semir and Balabala brands.",
-      "descriptionKo": "중국의 코로나19 봉쇄 조치로 세미르의 공급망과 유통 운영이 심각하게 차질을 빚으며, 세미르·발라발라 양 브랜드 모두 대규모 재고 축적과 매출 손실이 발생했다.",
-      "lesson": "Supply chain resilience and flexible inventory management are critical for retail companies operating across thousands of locations.",
-      "lessonKo": "수천 개 매장을 운영하는 유통 기업에게 공급망 탄력성과 유연한 재고 관리 능력은 핵심 역량이다."
+      "year": 2016,
+      "description": "Wei Zexi death case: 21-year-old student died pursuing unproven cancer treatment promoted through paid Baidu search listing. Sparked massive public backlash and regulatory criticism",
+      "lesson": "Demonstrated critical need for stronger oversight of medical advertising and health claims on search platforms; led to soul-searching about company responsibility",
+      "source": "South China Morning Post; Wikipedia",
+      "descriptionKo": "모바일 검색 및 숏비디오 시장에서 신생 기업들(특히 틱톡)의 공격적 진출로 경쟁 심화",
+      "lessonKo": "PC 중심에서 모바일 시대로의 빠른 전환에 더 신속히 대응 필요"
+    },
+    {
+      "year": 2019,
+      "description": "Baidu suffered first quarterly loss since 2005 IPO amid increased competition and regulatory pressure from Chinese government",
+      "lesson": "Revealed vulnerability to market competition and regulatory changes; prompted strategic pivot toward AI and new business models",
+      "source": "South China Morning Post",
+      "descriptionKo": "정부 규제 강화로 인한 금융과학 및 AI 사업의 성장 제약; 헬스케어 AI 프로젝트의 윤리 문제",
+      "lessonKo": "신기술 상용화 시 규제 환경과 윤리적 이슈 사전 검토의 중요성"
     }
   ],
   "wealthHistory": [
-    { "year": 2011, "netWorth": 1.2 },
-    { "year": 2014, "netWorth": 2.5 },
-    { "year": 2017, "netWorth": 3.8 },
-    { "year": 2019, "netWorth": 4.5 },
-    { "year": 2021, "netWorth": 5.5 },
-    { "year": 2023, "netWorth": 6.0 },
-    { "year": 2024, "netWorth": 6.4 }
+    {
+      "year": 2005,
+      "netWorth": 4
+    },
+    {
+      "year": 2012,
+      "netWorth": 14.8
+    },
+    {
+      "year": 2015,
+      "netWorth": 14.8
+    },
+    {
+      "year": 2019,
+      "netWorth": 12
+    },
+    {
+      "year": 2023,
+      "netWorth": 8.6
+    },
+    {
+      "year": 2024,
+      "netWorth": 5.1
+    },
+    {
+      "year": 2025,
+      "netWorth": 5.5
+    }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "AI is the new electricity... it's going to change industry after industry and we are at the center of that.",
+      "context": "Statement about Baidu's positioning in artificial intelligence revolution",
+      "source": "BrainyQuote; Motley Fool",
+      "textKo": "인공지능은 새로운 전기입니다. 모든 산업의 기초가 될 것입니다.",
+      "contextKo": "AI가 미래 경제와 사회의 중추 기술이 될 것이라는 그의 확신 표현"
+    },
+    {
+      "text": "Things that are true today may not be true tomorrow.",
+      "context": "On the importance of adaptability and continuous learning in business",
+      "source": "BrainyQuote",
+      "textKo": "오늘 참인 것이 내일은 거짓일 수 있습니다. 끊임없는 학습과 적응이 필요합니다.",
+      "contextKo": "급변하는 기술 시대에 지속적 혁신과 적응의 필수성을 강조"
+    },
+    {
+      "text": "I'm an entrepreneur. I'm not a politician.",
+      "context": "On his focus and identity as a business builder",
+      "source": "BrainyQuote",
+      "textKo": "저는 기업가입니다. 정치인이 아닙니다. 사업에만 집중합니다.",
+      "contextKo": "정치적 논란으로부터의 거리 두기와 사업 중심의 입장 표현"
+    },
+    {
+      "text": "Sooner or later, you will see a China-based company that really has a global impact, and I think Baidu has a chance to become one of those companies. We should be able to compete on a global basis.",
+      "context": "Statement about Baidu's ambitions for international expansion and competitiveness",
+      "source": "Motley Fool",
+      "textKo": "조만간 중국 기반의 강력한 기술 기업들을 보게 될 것입니다.",
+      "contextKo": "중국 기술 산업의 미래 세계적 경쟁력에 대한 그의 확신"
+    },
+    {
+      "text": "The philosophy of Baidu is 'unless necessary, never increase an entity,' and in applying the principle to his product design this means 'putting the user experience first.'",
+      "context": "On Baidu's minimalist design philosophy and core operating principle",
+      "source": "Motley Fool",
+      "textKo": "배이두의 철학은 '필요 없으면 하지 않는다'입니다. 효율성을 최우선으로 합니다.",
+      "contextKo": "배이두의 경영 효율성과 실리주의적 조직 문화를 반영"
+    }
+  ],
   "books": {
-    "authored": [],
-    "recommended": []
+    "authored": [
+      {
+        "title": "Artificial Intelligence Revolution: How AI Will Change our Society, Economy, and Culture",
+        "note": "Co-authored with preface by sci-fi author Cixin Liu. Covers computational ability, big data, AI research standards, 'super brain' concept, intelligent manufacturing, deep learning, L4 autonomous vehicles, and smart finance",
+        "noteKo": "배이두의 창립부터 현재까지의 여정과 중국 인터넷 산업 발전을 담은 자서전"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "The Art of Computer Programming",
+        "author": "Donald Knuth",
+        "why": "Foundational work for understanding algorithms and computer science principles that shaped Li's approach to search engine design",
+        "whyKo": "기술 혁신과 미래 산업의 가능성을 이해하는 데 중요한 참고 서적"
+      },
+      {
+        "title": "A Brief History of Artificial Intelligence",
+        "author": "Various",
+        "why": "Critical reading for understanding AI evolution and positioning Baidu as AI pioneer",
+        "whyKo": "AI 기술의 이해와 미래 가능성을 탐색하는 데 중요한 참고 자료"
+      },
+      {
+        "title": "The Second Machine Age",
+        "author": "Erik Brynjolfsson and Andrew McAfee",
+        "why": "Explores technological disruption and economic transformation themes central to Li's vision for Baidu's future",
+        "whyKo": "기술 혁신과 미래 산업의 가능성을 이해하는 데 중요한 참고 서적"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Building Semir into one of China's largest fast-fashion chains; founding the Balabala children's brand, China's largest children's clothing brand; exemplifying Wenzhou's entrepreneurial business culture.",
-    "knownForKo": "세미르를 중국 최대 패스트패션 체인 중 하나로 성장시킨 인물; 중국 최대 아동복 브랜드 발라발라 창업; 원저우 기업가 문화의 상징.",
-    "philanthropy": "Semir Group has contributed to local education and community development initiatives in Zhejiang Province. The company has supported charitable programs focused on children's welfare, consistent with its Balabala brand mission.",
-    "philanthropyKo": "세미르 그룹은 저장성 지역 교육 및 커뮤니티 발전 사업에 기여해왔다. 발라발라 브랜드의 사명에 맞게 아동 복지를 중심으로 한 자선 프로그램을 지원하고 있다."
+    "knownFor": "Algorithmic innovation, AI advocacy, visionary leadership in Chinese tech industry. Known for minimalist design philosophy ('unless necessary, never increase an entity'). Pragmatic entrepreneur focused on user experience and long-term technological positioning.",
+    "philanthropy": "Donated 660 million yuan with wife Melissa Ma to establish Peking University fund for education. Donated $200,000 to University of Buffalo for data mining and machine learning laboratory. Directed Baidu's ¥90 million ($12.4 million) donation for Henan flood relief (2021). Strong focus on education and environmental conservation.",
+    "controversies": "Wei Zexi death case (2016) involving unproven cancer treatment via paid search listing. 2008 accusations of payment to delete negative news about Sanlu Group dairy scandal. Criticism for medical advertising fraud on platform. 2019 incident where CEO was publicly doused with water at AI conference. Baidu faced scrutiny for cooperating with China's censorship policies. Advertising quality scandals involving unqualified hospitals on Tieba.",
+    "knownForKo": "기술 혁신 비전, 중국 검색 시장 장악, AI 및 자율주행 기술 선투자, 신속한 의사결정, 미국과 중국의 경계에서 국제적 시각 보유, 중국 인터넷 산업의 거목",
+    "philanthropyKo": "교육 공평성 추진; 배이두 자선 재단 설립; 중국 대학의 AI 연구 센터 지원; 의료 기술 혁신에 투자",
+    "controversiesKo": "중국 정부 검열 정책과의 밀접한 관계; 사용자 데이터 프라이버시 문제; 의료 광고 부정확성 논란; 신용 스코어링 시스템의 투명성 부족"
   },
-  "sajuConnection": null
+  "additionalInsights": {
+    "pivotalMentors": [
+      {
+        "name": "Parents (especially mother)",
+        "relationship": "Family",
+        "influence": "Mother emphasized academic excellence and education; shaped early intellectual foundation and work ethic during Cultural Revolution"
+      },
+      {
+        "name": "IDD Information Services colleagues",
+        "relationship": "Early career mentors at Dow Jones division",
+        "influence": "Provided foundational training in search algorithms and web technology; environment where Rankdex algorithm was developed"
+      },
+      {
+        "name": "Larry Page (indirect influence)",
+        "relationship": "Professional/technological predecessor",
+        "influence": "Page's PageRank algorithm built upon Li's RankDex work, creating intellectual foundation for both companies' search engine success"
+      }
+    ],
+    "dailyRoutine": "Limited public information available. As CEO of major tech company, likely balances strategic planning with hands-on review of AI development initiatives. Known to emphasize efficiency and avoiding unnecessary hierarchical complexity in organizational structure.",
+    "keyAnecdotes": [
+      "In 1996, created Rankdex algorithm at age 28 while working at IDD Information Services, predating Google's PageRank by two years—Google founders later cited his work in patents",
+      "During Baidu's founding in 2000, Li and Eric Xu bootstrapped the company with limited resources, betting on search engine technology when internet adoption in China was still nascent",
+      "In 2005 IPO, Baidu stock surged 354% on first day of trading, briefly valuing company at over $4 billion and instantly making Li a billionaire at age 36",
+      "2019 water attack during Baidu Create AI conference became viral moment when disgruntled person doused Li with water during speech; incident reflected broader frustrations with Baidu"
+    ],
+    "turningPoint": "The 1996 creation of Rankdex algorithm while at IDD was seminal. However, the true inflection point came with Baidu's 2005 IPO when stock surged 354% on first day. This transformed Baidu from a promising search engine into a recognized global player and validated Li's decision to focus on search technology for Chinese market when Google was just emerging internationally.",
+    "managementStyle": "Minimalist and efficiency-focused: 'Unless necessary, never increase an entity.' Emphasizes flattening hierarchy to preserve innovation and user focus. Hands-on CEO who reviews product details directly. Focuses on long-term technological positioning (especially AI) over short-term metrics. Values algorithmic thinking and technical excellence. Known for directness and pragmatism. Pushes teams to prioritize user experience first, minimizing bureaucratic layers that dilute ideas."
+  },
+  "sajuConnection": {
+    "note": "Leave null.",
+    "value": null
+  }
 }

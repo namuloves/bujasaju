@@ -1,256 +1,80 @@
 {
   "id": "697",
-  "name": "Wilmot Reed Hastings Jr.",
+  "name": "Paola Del Vecchio",
   "childhood": {
-    "birthPlace": "Boston, Massachusetts",
-    "birthPlaceKo": "보스턴, 매사추세츠",
-    "familyBackground": "Middle-class family. Father Wilmot Reed Hastings served in United States Marine Corps. Mother Joan Amory Loomis worked as mathematician. Maternal great-grandfather was Alfred Lee Loomis. Family valued education, discipline, and intellectual pursuits.",
-    "familyBackgroundKo": "중산층 가정. 아버지 윌못 리드 헤이스팅스는 미국 해병대에서 복무했고, 어머니 조안 아모리 룸스는 수학자로 활동했다. 외할아버지는 알프레드 리 룸스였다. 가족은 교육, 규율, 지적 탐구를 중시했다.",
-    "education": "Buckingham Browne & Nichols School (elite private school in Cambridge, Massachusetts). Bowdoin College, Bachelor of Arts in Mathematics (1983). Peace Corps service in Swaziland teaching high school mathematics (1983-1985). Stanford University, Master of Science in Computer Science (1988, after initial rejection from MIT)",
-    "educationKo": "버킹엄 브라운 & 니콜스 학교(매사추세츠 캠브리지 소재 엘리트 사립학교). 보우도인 대학 수학 학사(1983). 스와질란드에서 고등학교 수학 강의를 한 평화봉사단 활동(1983-1985). 스탠포드 대학 컴퓨터과학 석사(1988, MIT 초기 탈락 후 입학)",
-    "earlyLife": "Strong interest in learning and intellectual development from youth. After high school, sold vacuum cleaners door-to-door for nearly a year. Peace Corps experience in Swaziland shaped values around service, education access, and global perspective. Military family background instilled discipline and structured thinking.",
-    "earlyLifeKo": "어린 시절부터 학습과 지적 발전에 깊은 관심을 보였다. 고등학교 졸업 후 약 1년간 가정방문 판매원으로 청소기를 팔았다. 스와질란드의 평화봉사단 경험은 봉사, 교육 접근성, 글로벌 관점에 대한 가치관을 형성했다. 군인 가정 배경은 규율과 체계적 사고를 심어주었다.",
-    "source": "Wikipedia, Press.Farm, TheFamousPeople, Britannica Money"
+    "birthPlace": "Milan, Italy",
+    "birthPlaceKo": "이탈리아 밀라노",
+    "familyBackground": "이탈리아 밀라노 출신으로, 룩소티카(Luxottica) 창업자 레오나르도 델 베키오의 첫 번째 아내 루치아나 네르보와의 사이에서 태어난 세 자녀 중 하나다. 오빠 클라우디오, 언니 마리사와 함께 아버지의 기업 제국 아래 성장했다.",
+    "familyBackgroundKo": "이탈리아 밀라노 출신으로, 룩소티카 창업자 레오나르도 델 베키오의 첫 번째 아내 루치아나 네르보와의 사이에서 태어난 세 자녀 중 하나다. 오빠 클라우디오, 언니 마리사와 함께 아버지의 기업 제국 아래 성장했다.",
+    "education": "이탈리아에서 교육을 받은 것으로 알려져 있으며, 구체적인 학력은 공개되어 있지 않다.",
+    "educationKo": "이탈리아에서 교육을 받은 것으로 알려져 있으며, 구체적인 학력은 공개되어 있지 않다.",
+    "earlyLife": "세계적인 기업인 아버지를 두었지만 가족 내에서도 각기 다른 어머니 사이에서 태어난 자녀들이 있어, 비교적 복잡한 가족 구조 속에서 성장했다.",
+    "earlyLifeKo": "세계적인 기업인 아버지를 두었지만 가족 내에서도 각기 다른 어머니 사이에서 태어난 자녀들이 있어, 비교적 복잡한 가족 구조 속에서 성장했다."
   },
   "careerTimeline": [
     {
-      "year": 1983,
-      "event": "Graduated from Bowdoin College with BA in Mathematics",
-      "eventKo": "보우도인 대학에서 수학 학사로 졸업"
+      "year": 1990,
+      "event": "Grew up watching her father Leonardo Del Vecchio build Luxottica into the world's dominant eyewear company, with brands such as Ray-Ban and Oakley under its umbrella.",
+      "eventKo": "아버지 레오나르도 델 베키오가 레이밴·오클리 등의 브랜드를 보유한 세계 최대 안경 회사 룩소티카를 키워가는 과정을 지켜보며 성장했다."
     },
     {
-      "year": 1983,
-      "event": "Joined Peace Corps, taught high school mathematics in rural Swaziland for two years",
-      "eventKo": "평화봉사단에 입단하여 시골 스와질란드에서 2년간 고등학교 수학 강의"
+      "year": 2018,
+      "event": "Witnessed Luxottica's landmark merger with French optics giant Essilor to form EssilorLuxottica, one of the largest luxury goods transactions in history.",
+      "eventKo": "룩소티카와 프랑스 광학 기업 에실로가 합병하여 에실로 룩소티카가 출범하는 역사적 순간을 지켜봤다."
     },
     {
-      "year": 1988,
-      "event": "Graduated from Stanford University with Master of Science in Computer Science",
-      "eventKo": "스탠포드 대학에서 컴퓨터과학 석사로 졸업"
-    },
-    {
-      "year": 1988,
-      "event": "Joined Adaptive Technology, created debugging tool for software",
-      "eventKo": "애댑티브 테크놀로지에 입사하여 소프트웨어 디버깅 도구 개발"
-    },
-    {
-      "year": 1991,
-      "event": "Co-founded Pure Software with Gordon Letwin and others; company produced software troubleshooting products",
-      "eventKo": "고든 렛윈과 함께 퓨어 소프트웨어 공동 설립, 소프트웨어 문제 해결 제품 출시"
-    },
-    {
-      "year": 1996,
-      "event": "Pure Software merged with Atria Software",
-      "eventKo": "퓨어 소프트웨어가 아트리아 소프트웨어와 합병"
-    },
-    {
-      "year": 1997,
-      "event": "Pure Atria acquired by Rational Software for approximately $750 million; Hastings gained capital from successful exit",
-      "eventKo": "퓨어 아트리아가 래셔널 소프트웨어에 약 7억 5,000만 달러에 인수되면서 성공적인 엑싯으로 자본금 확보"
-    },
-    {
-      "year": 1997,
-      "event": "Co-founded Netflix with Marc Randolph on August 29, 1997 in Scotts Valley, California, inspired by $40 late fee for video rental",
-      "eventKo": "마크 랜돌프와 함께 1997년 8월 29일 캘리포니아 스코츠 밸리에서 넷플릭스 공동 설립, $40의 비디오 연체료에서 영감을 받음"
-    },
-    {
-      "year": 1998,
-      "event": "Netflix started mail-order DVD operations; Hastings became CEO later that year",
-      "eventKo": "넷플릭스 우편 배송 DVD 서비스 시작, 같은 해 후반에 헤이스팅스가 CEO로 취임"
-    },
-    {
-      "year": 2002,
-      "event": "Netflix IPO on May 23, 2002 at $15 per share, closing at $16.75; Hastings owned approximately 15% after IPO",
-      "eventKo": "2002년 5월 23일 넷플릭스 IPO, 주당 $15으로 시작하여 $16.75에 마감, 헤이스팅스가 약 15% 지분 보유"
-    },
-    {
-      "year": 2011,
-      "event": "Implemented price increases (up to 60%) separating streaming ($7.99) and DVD ($7.99) services",
-      "eventKo": "스트리밍($7.99)과 DVD($7.99) 서비스를 분리하는 최대 60% 가격 인상 실시"
-    },
-    {
-      "year": 2011,
-      "event": "Announced Qwikster spin-off in September 2011 to separate DVD and streaming services; canceled within one month after customer backlash",
-      "eventKo": "2011년 9월 DVD와 스트리밍 서비스 분리를 위해 퀵스터 스핀오프 발표, 고객 반발로 한 달 이내 취소"
-    },
-    {
-      "year": 2013,
-      "event": "Netflix stock recovered as streaming growth accelerated; Hastings vindicated on long-term streaming strategy",
-      "eventKo": "스트리밍 성장 가속화로 넷플릭스 주식 회복, 헤이스팅스의 장기 스트리밍 전략이 입증됨"
-    },
-    {
-      "year": 2020,
-      "event": "Became co-CEO, sharing role with Greg Peters and Sarandos",
-      "eventKo": "공동 CEO로 취임, 그렉 피터스와 사란도스와 역할 공유"
+      "year": 2022,
+      "event": "Following Leonardo Del Vecchio's death in June 2022, Paola inherited a 12.5% stake in the family holding company Delfin S.à r.l., becoming a multi-billionaire.",
+      "eventKo": "2022년 6월 레오나르도 델 베키오가 별세한 후, 파올라는 가족 지주회사 델핀(Delfin S.à r.l.) 지분 12.5%를 상속받아 억만장자가 되었다."
     },
     {
       "year": 2023,
-      "event": "Transitioned to Executive Chairman role; stepped back from day-to-day operations",
-      "eventKo": "이사회 회장 역할로 전환, 일상적 운영에서 물러남"
+      "event": "The Del Vecchio heirs navigated complex governance and inheritance negotiations, with Paola holding her stake through Delfin, which controls approximately one-third of EssilorLuxottica.",
+      "eventKo": "델 베키오 상속인들이 복잡한 지배구조·상속 협상을 진행하는 가운데, 파올라는 에실로 룩소티카 지분 약 3분의 1을 지배하는 델핀을 통해 자신의 지분을 유지했다."
     },
     {
-      "year": 2020,
-      "event": "Published 'No Rules Rules: Netflix and the Culture of Reinvention' with Erin Meyer, becoming New York Times bestseller",
-      "eventKo": "에린 마이어와 함께 '노 룰스 룰스: 넷플릭스와 재창조의 문화' 출판, 뉴욕타임스 베스트셀러 달성"
+      "year": 2024,
+      "event": "Continued to hold her 12.5% stake in Delfin passively, with no publicly announced management role in EssilorLuxottica or related businesses.",
+      "eventKo": "에실로 룩소티카 및 관련 기업에서 경영직을 맡지 않고 델핀 지분 12.5%를 수동적으로 보유하고 있다."
     }
   ],
   "failures": [
     {
-      "year": 2011,
-      "description": "Announced price increases of up to 60% in July 2011, splitting $9.99 unlimited service into $7.99 streaming plus $7.99 DVD rental ($15.98 total). Led to immediate subscriber rebellion, customer backlash, and significant stock price decline",
-      "descriptionKo": "2011년 7월 $9.99 무제한 서비스를 $7.99 스트리밍과 $7.99 DVD 렌탈($15.98 총합)로 분리하면서 최대 60%의 가격 인상 발표. 즉각적인 구독자 반발, 고객 저항, 주식 가격 급락으로 이어짐",
-      "lesson": "Failed to communicate value proposition change effectively to customers. Underestimated customer attachment to legacy business model. Did not anticipate how devoted consumers remained to DVD service despite streaming's future potential. Communication and customer empathy critical to major price/business model changes.",
-      "lessonKo": "고객들에게 가치 제안의 변화를 효과적으로 소통하지 못함. 레거시 비즈니스 모델에 대한 고객 애착을 과소평가함. 스트리밍의 미래 잠재력에도 불구하고 소비자들이 DVD 서비스에 얼마나 헌신적이었는지 예상하지 못함. 주요 가격/비즈니스 모델 변화에는 커뮤니케이션과 고객 공감이 중요함.",
-      "source": "Deadline, Quartz, Hollywood Reporter"
-    },
-    {
-      "year": 2011,
-      "description": "Announced Qwikster spin-off in September 2011 to separate DVD and streaming into two companies. Netflix stock dropped 75% and company lost over 800,000 subscribers. Hastings admitted 'In hindsight, I slid into arrogance based upon past success.' Canceled Qwikster within one month after market rejection.",
-      "descriptionKo": "2011년 9월 DVD와 스트리밍을 두 개의 회사로 분리하기 위해 퀵스터 스핀오프 발표. 넷플릭스 주식 75% 하락, 80만 명 이상의 구독자 손실. 헤이스팅스는 '결국 과거의 성공에 따른 자만심에 빠졌다'고 인정함. 시장 거부로 한 달 내에 퀵스터 취소",
-      "lesson": "Right strategy, wrong timing—Hastings was correct about streaming's future dominance but execution was 5-10 years premature. Employees privately opposed idea but didn't voice concerns due to culture issues. Learned need for 'farming for dissent'—actively encouraging disagreement and alternative viewpoints. Major pivots require better internal communication.",
-      "lessonKo": "올바른 전략, 잘못된 타이밍—헤이스팅스는 스트리밍의 향후 지배력에 대해 정확했지만 실행은 5-10년 너무 성급함. 직원들은 아이디어를 개인적으로 반대했지만 조직 문화 문제로 우려를 표현하지 않음. '반대의견 경작'의 필요성을 학습—의견 불일치와 대안적 관점을 적극적으로 장려. 주요 전환에는 더 나은 내부 커뮤니케이션이 필요함.",
-      "source": "Medium, Deadline, Netflix case studies"
-    },
-    {
-      "year": 1997,
-      "description": "While CEO of Pure Software during rapid headcount growth from 20 to 200 employees, Hastings lacked managerial experience and confidence. Struggled significantly with scaling challenges. Asked his board to replace him due to loss of confidence in his CEO abilities despite company's financial success.",
-      "descriptionKo": "퓨어 소프트웨어의 CEO로 재직하면서 인원이 20명에서 200명으로 급격히 증가하는 과정에서 헤이스팅스는 관리 경험과 자신감이 부족했음. 확장 과제에서 심각하게 어려움을 겪음. 회사의 재정적 성공에도 불구하고 CEO 능력에 대한 자신감 상실로 이사회에 자신의 교체를 요청함",
-      "lesson": "Engineering background insufficient for executive leadership; specialized management training and emotional intelligence development needed. Not all founders thrive as CEOs in scaled organizations. Willingness to step aside and learn from leadership gaps demonstrates maturity. Early career management struggles informed later Netflix culture emphasis on hiring and development.",
-      "lessonKo": "공학 배경은 임원 리더십에 불충분함, 전문화된 경영 교육과 감정지능 개발이 필요함. 모든 창업자가 확장된 조직에서 CEO로 성공하지는 못함. 물러서서 리더십 부족에서 배우려는 의지는 성숙함을 보여줌. 초기 커리어 경영 어려움은 후의 넷플릭스 문화에서 채용과 개발 강조에 영향을 미침.",
-      "source": "Press.Farm, EBSCO Research"
+      "year": 2022,
+      "description": "The distribution of Leonardo Del Vecchio's estate was complicated by the unexpected inclusion of Rocco Basilico—a longtime family associate—as a co-beneficiary, creating legal friction and uncertainty among the heirs including Paola.",
+      "descriptionKo": "레오나르도 델 베키오의 유산 분배에서 오랜 가족 지인 로코 바실리코가 공동 수혜자로 예상치 못하게 포함되어, 파올라를 포함한 상속인들 사이에 법적 마찰과 불확실성이 생겼다.",
+      "lesson": "Even the most successful business legacy can leave unresolved family tensions if succession planning is not clearly communicated.",
+      "lessonKo": "아무리 성공한 사업 유산이라도 승계 계획이 명확히 전달되지 않으면 해결되지 않은 가족 갈등을 남길 수 있다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 1997,
-      "netWorth": 0
-    },
-    {
-      "year": 2002,
-      "netWorth": 0
-    },
-    {
-      "year": 2015,
-      "netWorth": 3.2
-    },
-    {
-      "year": 2020,
-      "netWorth": 5.6
+      "year": 2022,
+      "netWorth": 4.5
     },
     {
       "year": 2023,
-      "netWorth": 7.2
+      "netWorth": 5.0
+    },
+    {
+      "year": 2024,
+      "netWorth": 5.5
     },
     {
       "year": 2025,
-      "netWorth": 6.6
+      "netWorth": 5.7
     }
   ],
-  "quotes": [
-    {
-      "text": "Lead with context, not control. Don't seek to please your boss.",
-      "textKo": "맥락으로 리드하라, 통제로 하지 말고. 상사를 기쁘게 하려고 하지 마라.",
-      "context": "Core principle of Netflix management philosophy emphasizing distributed decision-making and employee autonomy",
-      "contextKo": "분산된 의사결정과 직원 자율성을 강조하는 넷플릭스 경영 철학의 핵심 원칙",
-      "source": "No Rules Rules: Netflix and the Culture of Reinvention"
-    },
-    {
-      "text": "In a fast and innovative company, ownership of critical, big-ticket decisions should be dispersed across the workforce at all different levels, not allocated according to hierarchical status.",
-      "textKo": "빠르고 혁신적인 회사에서 중요하고 큰 결정의 소유권은 계층적 지위에 따라 배분되는 것이 아니라 모든 수준의 전 직원에게 분산되어야 한다.",
-      "context": "Philosophy on organizational structure and decision-making empowerment that defines Netflix culture",
-      "contextKo": "넷플릭스 문화를 정의하는 조직 구조와 의사결정 권한 부여에 대한 철학",
-      "source": "No Rules Rules"
-    },
-    {
-      "text": "Culture isn't something you can build up and then ignore. At Netflix, we are constantly debating our culture and expecting it will continually evolve. To build a team that is innovative, fast, and flexible, keep things a little bit loose. Welcome constant change. Operate a little closer toward the edge of chaos.",
-      "textKo": "문화는 구축하고 무시할 수 있는 것이 아니다. 넷플릭스에서는 우리 문화를 끊임없이 논의하고 지속적으로 진화할 것으로 기대한다. 혁신적이고 빠르며 유연한 팀을 구축하려면 상황을 조금 느슨하게 유지하라. 지속적인 변화를 환영하라. 혼돈의 가장자리에 더 가깝게 운영하라.",
-      "context": "Explanation of Netflix's dynamic, evolving culture approach that prevents organizational calcification",
-      "contextKo": "조직의 경직을 방지하는 넷플릭스의 역동적이고 진화하는 문화 접근 방식의 설명",
-      "source": "No Rules Rules"
-    },
-    {
-      "text": "For our employees, transparency has become the biggest symbol of how much we trust them to act responsibly. The trust we demonstrate in them in turn generates feelings of ownership, commitment, and responsibility.",
-      "textKo": "우리 직원들에게 투명성은 그들이 책임감 있게 행동할 수 있다는 것을 신뢰하는 정도의 가장 큰 상징이 되었다. 우리가 그들에게 보여주는 신뢰는 소유권, 몰입도, 책임감을 불러일으킨다.",
-      "context": "On transparency as mechanism for building trust and employee accountability within organization",
-      "contextKo": "조직 내에서 신뢰와 직원 책임감을 구축하기 위한 메커니즘으로서의 투명성",
-      "source": "No Rules Rules"
-    },
-    {
-      "text": "When you make a mistake say it clearly and loudly, so that everyone can learn and profit from your errors.",
-      "textKo": "실수를 하면 명확하고 크게 말하라. 그래야 모두가 배우고 당신의 오류로부터 이익을 얻을 수 있다.",
-      "context": "Philosophy on psychological safety and learning culture where mistakes are treated as organizational assets",
-      "contextKo": "실수를 조직 자산으로 취급하는 심리적 안정감과 학습 문화에 대한 철학",
-      "source": "No Rules Rules: Netflix and the Culture of Reinvention"
-    }
-  ],
+  "quotes": [],
   "books": {
-    "authored": [
-      {
-        "title": "No Rules Rules: Netflix and the Culture of Reinvention",
-        "note": "Co-authored with Erin Meyer (2020). New York Times bestseller shortlisted for 2020 Financial Times & McKinsey Business Book of the Year. Reveals Netflix's unconventional management practices and how to attract top talent while unleashing creative energy. Highly recommended by business leaders including Netflix co-founder Marc Randolph.",
-        "noteKo": "에린 마이어와 공저(2020). 뉴욕타임스 베스트셀러, 2020년 파이낸셜타임스&맥킨지 올해의 비즈니스 도서 최종 후보. 넷플릭스의 비관습적 경영 관행과 창의적 에너지를 발휘하면서 최고 인재를 유치하는 방법을 공개. 넷플릭스 공동 창립자 마크 랜돌프를 포함한 비즈니스 리더들에게 매우 추천됨."
-      }
-    ],
-    "recommended": [
-      {
-        "title": "Creativity Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration",
-        "author": "Ed Catmull (Pixar President)",
-        "why": "Recommended as foundational reading before 'No Rules Rules.' Provides complementary perspective on creative culture and organizational leadership in innovation-focused companies",
-        "whyKo": "'노 룰스 룰스'를 읽기 전에 기초 읽기로 추천됨. 혁신 중심 회사의 창의 문화와 조직 리더십에 대한 보완적 관점 제공"
-      },
-      {
-        "title": "The Infinite Game",
-        "author": "Simon Sinek",
-        "why": "Recommended alongside Hastings' work on long-term organizational thinking, strategic vision, and culture sustainability beyond quarterly metrics",
-        "whyKo": "장기적 조직 사고, 전략적 비전, 분기별 지표를 넘어선 문화 지속 가능성에 대한 헤이스팅스의 업무와 함께 추천됨"
-      },
-      {
-        "title": "High Output Management",
-        "author": "Andy Grove",
-        "why": "Practical management framework that influenced Netflix operational thinking, especially around decision-making and organizational effectiveness",
-        "whyKo": "넷플릭스의 운영 사고에 영향을 미친 실용적 경영 프레임워크, 특히 의사결정과 조직 효과성 측면"
-      }
-    ]
+    "authored": [],
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Disruptive innovator who transformed entertainment from physical distribution to streaming. Known for building unique organizational culture emphasizing radical transparency, freedom with responsibility, and high talent density. Decisive leader who makes bold strategic pivots. Advocate for high-performance, fast-moving organizations. Strong on long-term strategic thinking while maintaining operational excellence. Anti-hierarchical management philosophy. Intellectual, math-oriented problem solver with engineering mindset.",
-    "knownForKo": "엔터테인먼트를 물리적 배포에서 스트리밍으로 변환한 파괴적 혁신가. 급진적 투명성, 책임감 있는 자유, 높은 인재 밀도를 강조하는 독특한 조직 문화 구축으로 알려짐. 대담한 전략적 전환을 추진하는 결정적 리더. 고성능의 빠르게 움직이는 조직 옹호자. 운영 우수성을 유지하면서 장기적 전략 사고에 강함. 반계층적 경영 철학. 공학적 마인드세트를 가진 지적이고 수학적 사고의 문제 해결가.",
-    "philanthropy": "Signed The Giving Pledge with wife Patty Quillin. Donated massively to social causes, particularly education and global health. In 2024, gave $1.1 billion in Netflix stock to Silicon Valley Community Foundation. Advocates for expanded educational access globally, influenced by Peace Corps experience in Swaziland.",
-    "philanthropyKo": "아내 패티 퀼린과 함께 기빙 플레지에 서명. 사회 공헌, 특히 교육과 세계 보건에 대대적으로 기부. 2024년 넷플릭스 주식 11억 달러를 실리콘밸리 커뮤니티 재단에 기부. 스와질란드의 평화봉사단 경험에 영향을 받아 글로벌 교육 접근성 확대 옹호.",
-    "controversies": "Qwikster debacle in 2011 was major public failure with stock drop and massive subscriber loss. YouTube apology was parodied by SNL. Accusations that Netflix founding story was exaggerated (the $40 late fee may be partially apocryphal, according to Marc Randolph's account). Netflix's password-sharing crackdown drew criticism for customer experience. Leadership style can appear cold and impersonal—explicitly rejected 'family' metaphor for organization, preferring 'team of professionals.' Accusations that culture of radical transparency can be intimidating for lower-confidence employees or those in vulnerable positions.",
-    "controversiesKo": "2011년 퀵스터 사건은 주식 급락과 대규모 구독자 손실을 초래한 주요 공개 실패였음. 유튜브 사과는 SNL에 의해 패러디됨. 넷플릭스 창립 스토리가 과장되었다는 지적(마크 랜돌프의 설명에 따르면 $40 연체료는 부분적으로 사실이 아닐 수 있음). 넷플릭스의 비밀번호 공유 규제는 고객 경험에 대한 비판을 받음. 리더십 스타일은 차갑고 비인격적으로 보일 수 있음—조직의 '가족' 은유를 명시적으로 거부하고 '전문가 팀'을 선호함. 급진적 투명성의 문화가 자신감이 낮은 직원이나 취약한 위치의 직원들에게 위협적일 수 있다는 지적."
+    "knownFor": "Heiress to Luxottica/EssilorLuxottica fortune through the Delfin holding company; one of six children of Leonardo Del Vecchio who together control the world's largest eyewear conglomerate. Maintains a very private public profile.",
+    "knownForKo": "델핀 지주회사를 통해 룩소티카·에실로 룩소티카 재산을 물려받은 상속인이다. 세계 최대 안경 그룹을 공동 지배하는 레오나르도 델 베키오의 여섯 자녀 중 한 명으로, 철저히 사생활을 지키는 것으로 알려져 있다.",
+    "philanthropy": "No independent philanthropic activities have been publicly announced. Delfin's holdings include shares in Mediobanca and Generali, and the family has historically supported Italian cultural and charitable causes.",
+    "philanthropyKo": "독립적인 자선 활동은 공개적으로 알려져 있지 않다. 델핀은 이탈리아 메디오반카와 제네랄리 지분을 보유하고 있으며, 가문 전통적으로 이탈리아 문화·자선 활동을 지원해 왔다."
   },
-  "additionalInsights": {
-    "pivotalMentors": [
-      {
-        "name": "Marc Randolph",
-        "relationship": "Netflix co-founder and early business partner; peer mentor",
-        "influence": "Collaborated on Netflix founding vision and early business model development. Provided stability and complementary skills during critical founding phase. Relationship modeled peer-based entrepreneurship and collaborative decision-making"
-      },
-      {
-        "name": "Audrey MacLean",
-        "relationship": "CEO at Adaptive Technology (Hastings' early career employer)",
-        "influence": "Influenced Hastings' business strategy and leadership approach during formative early career period. MacLean's management style informed Hastings' later organizational thinking"
-      },
-      {
-        "name": "Gordon Letwin",
-        "relationship": "Pure Software co-founder",
-        "influence": "Early entrepreneurial collaboration experience that provided foundational business building skills before Netflix venture. Partnership experience shaped understanding of technical and business integration"
-      }
-    ],
-    "dailyRoutine": "Wakes around 5:30 AM and engages in 20-minute mindfulness meditation. Exercises and reads for approximately one hour before work begins. Lunch typically used for networking, mentorship conversations with industry leaders, partners, or emerging talents. Afternoons devoted to innovation and product problem-solving with technology and product teams, given passion for leveraging technology for user experience improvement. Takes six weeks of vacation annually and encourages employees to do same. Saturdays reserved for farmer's market visits and afternoon hikes along coastal trails. Evening includes dedicated reflection time reviewing the day—what went well, what could improve. Regular reading of leadership, technology, and innovation literature before bed.",
-    "keyAnecdotes": [
-      "After overdue video rental incurred $40 late fee, realized gym subscription model (monthly fee regardless of usage) offered better business model than late-fee driven video stores—inspired Netflix subscription concept",
-      "As CEO of Pure Software during rapid growth from 20 to 200 employees, lacked confidence in management abilities and asked board to replace him, demonstrating self-awareness and humility about capability gaps despite financial success",
-      "During Qwikster debacle, attempted YouTube apology video that was subsequently parodied by Saturday Night Live—learned difficult lesson about tone, timing, and communication during crisis",
-      "Post-Qwikster, realized many Netflix employees privately opposed the split but didn't voice concerns due to organizational culture gaps—led to implementing 'farming for dissent' policy to actively solicit dissenting viewpoints",
-      "First boss out of college (at Adaptive Technology) reportedly washed office coffee cups at 4:30 AM, teaching lesson in servant leadership that Hastings later emulated by doing coffee runs for Netflix staff"
-    ],
-    "turningPoint": "The Qwikster failure in 2011 was the pivotal transformation moment, though it required immediate course correction. While Hastings' streaming strategy was ultimately correct (vindicated by 2013 stock recovery), the execution and timing were premature by 5-10 years. The failure forced critical introspection about organizational culture, leadership communication, and decision-making processes. Most importantly, it revealed that employees weren't voicing disagreements and concerns, leading to the development of 'farming for dissent'—actively encouraging alternative viewpoints and debate. This failure transformed Netflix's culture from top-down innovation to more distributed decision-making. The ability to acknowledge error publicly, apologize, quickly reverse course, and extract organizational learning from failure became defining characteristic of Netflix's mature leadership culture.",
-    "managementStyle": "Anti-hierarchical, radical transparency approach emphasizing 'lead with context, not control.' Distributed decision-making pushing ownership and accountability throughout organization regardless of hierarchy. High talent density strategy—hiring top performers and creating competitive internal environment. Freedom with responsibility philosophy giving employees autonomy within clear context. Candor and radical honesty culture where mistakes are shared openly for organizational learning. Culture of 'farming for dissent'—actively soliciting alternative viewpoints and disagreement rather than seeking consensus. Fast-moving, edge-of-chaos organizational approach welcoming constant change and adaptation. Transparency as trust-building mechanism and symbol of respect for employee responsibility. Servant leadership emphasis (coffee runs, accessibility). Data-driven decision making combined with strategic thinking on long-term industry transformation. Cold, professional approach rejecting family metaphor in favor of team-of-professionals model. Pragmatic, willing to reverse course when evidence suggests error (Qwikster recovery). Intellectual rigor and mathematical problem-solving approach to business challenges."
-  },
-  "sajuConnection": {
-    "note": "Leave null.",
-    "value": null
-  }
+  "sajuConnection": null
 }

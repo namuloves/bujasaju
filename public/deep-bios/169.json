@@ -1,51 +1,131 @@
 {
   "id": "169",
-  "name": "Friedhelm Loh",
-  "nameKo": "프리델하임 로",
-  "childhood": "Friedhelm Loh was born on August 16, 1946, in Haiger, Germany, the son of Rudolf Loh, who had founded a small company making electrical enclosures in 1961. Growing up in the industrial heartland of the Lahn-Dill region in Hesse, Friedhelm witnessed firsthand how precision manufacturing could create durable value. After completing his schooling, he studied business administration starting in 1970 at the Academy for Practical Business Administration in Radolfzell, bridging the family's engineering heritage with the commercial acumen needed to scale it into a global enterprise.",
-  "childhoodKo": "프리델하임 로는 1946년 8월 16일 독일 하이거에서 태어났다. 그의 아버지 루돌프 로는 1961년 전기 제어 시스템용 인클로저를 제조하는 소규모 기업을 창업한 인물이다. 헤센주 란-딜 지역의 산업 중심지에서 자란 프리델하임은 정밀 제조업이 어떻게 지속 가능한 가치를 창출하는지를 직접 목격했다. 학업을 마친 후 1970년부터 라돌프첼 실용경영학교에서 경영학을 공부하며 가문의 엔지니어링 전통과 기업을 글로벌 규모로 성장시키는 데 필요한 상업적 통찰력을 결합시켰다.",
+  "name": "Peter Mallouk",
+  "childhood": {
+    "birthPlace": "Kansas City, Missouri, USA",
+    "birthPlaceKo": "미국 미주리주 캔자스시티",
+    "familyBackground": "Peter Mallouk was born on January 16, 1970, in Kansas City, Missouri. His father was a physician and his mother a teacher; both had immigrated from Egypt, instilling in him values of education, hard work, and entrepreneurship from a young age.",
+    "familyBackgroundKo": "1970년 1월 16일 미주리주 캔자스시티에서 태어났다. 아버지는 의사, 어머니는 교사였으며 두 분 모두 이집트 이민자였다. 이런 가정 환경이 어린 시절부터 교육·근면·기업가 정신을 심어주었다.",
+    "education": "Mallouk attended the University of Kansas, where he earned his undergraduate degree. He remained for graduate school, earning both a JD (law) and an MBA simultaneously, while simultaneously running a chain of CD retail stores he had opened.",
+    "educationKo": "캔자스대학교에서 학부를 마치고 대학원에 진학해 법학박사(JD)와 경영학석사(MBA)를 동시에 취득했다. 재학 중에는 직접 차린 CD 소매점 체인을 운영하기도 했다.",
+    "earlyLife": "From an early age, Mallouk showed entrepreneurial instincts — delivering newspapers, starting a DJ business, and mowing lawns for neighbors before launching his first retail business in graduate school.",
+    "earlyLifeKo": "어린 시절부터 신문 배달, DJ 사업, 이웃집 잔디 깎기 등 다양한 사업을 벌이며 기업가적 본능을 드러냈고, 대학원 재학 중에는 소매 사업까지 창업했다."
+  },
   "careerTimeline": [
-    {"year": 1946, "event": "Born in Haiger, Germany, son of Rudolf Loh, founder of the family's electrical enclosure manufacturing business", "eventKo": "독일 하이거에서 가문의 전기 인클로저 제조 사업 창업주인 루돌프 로의 아들로 태어남"},
-    {"year": 1970, "event": "Began studying business administration at the Academy for Practical Business Administration in Radolfzell", "eventKo": "라돌프첼 실용경영학교에서 경영학 공부를 시작"},
-    {"year": 1974, "event": "Took over management of his father's company at age 28, renaming it Rittal and beginning a dramatic expansion from 200 employees", "eventKo": "28세에 아버지의 회사 경영을 물려받아 '리탈(Rittal)'로 이름을 바꾸고 직원 200명 규모에서 대대적인 확장에 착수"},
-    {"year": 1984, "event": "Integrated EPLAN, a software company specializing in CAE tools for electrical and automation engineering, into the Friedhelm Loh Group", "eventKo": "전기·자동화 엔지니어링을 위한 CAE 소프트웨어 전문 기업 EPLAN을 프리델하임 로 그룹에 편입"},
-    {"year": 1990, "event": "Expanded Rittal into an international operation, establishing subsidiaries across Europe, North America, and Asia", "eventKo": "리탈을 국제적 기업으로 확장하여 유럽, 북미, 아시아 전역에 자회사 설립"},
-    {"year": 2000, "event": "Continued diversifying the Friedhelm Loh Group, adding plastic components manufacturer LKH for the automotive industry", "eventKo": "프리델하임 로 그룹을 계속 다각화하여 자동차 산업용 플라스틱 부품 제조사 LKH를 추가 편입"},
-    {"year": 2006, "event": "Elected President of ZVEI (Association of the Electrical and Digital Industry in Germany), a position held until 2014", "eventKo": "독일 전기전자산업협회(ZVEI) 회장으로 선출, 2014년까지 역임"},
-    {"year": 2011, "event": "Established the Rittal Foundation with an initial commitment of approximately $6.8 million to support educational, social, and scientific projects", "eventKo": "교육·사회·과학 프로젝트 지원을 위해 약 680만 달러 규모의 초기 자금으로 리탈 재단 설립"},
-    {"year": 2016, "event": "Awarded an honorary doctorate; the Friedhelm Loh Group reaches revenues of over €2.5 billion with 12,000+ employees worldwide", "eventKo": "명예 박사 학위 수여; 프리델하임 로 그룹은 전 세계 12,000명 이상의 직원과 함께 매출 25억 유로를 돌파"},
-    {"year": 2024, "event": "The Friedhelm Loh Group reports annual revenue of approximately €3.1 billion across 100+ subsidiaries in more than 50 countries", "eventKo": "프리델하임 로 그룹은 50개국 이상 100개 이상의 자회사를 통해 약 31억 유로의 연간 매출을 기록"}
+    {
+      "year": 1993,
+      "event": "While earning law and MBA degrees at the University of Kansas, opened and operated a chain of CD retail stores, gaining early hands-on business experience.",
+      "eventKo": "캔자스대학교에서 법학박사·MBA 취득 중 CD 소매점 체인을 창업하고 운영하며 실전 경영 경험을 쌓음."
+    },
+    {
+      "year": 1999,
+      "event": "Joined Creative Planning as an estate planning attorney and consultant, advising physicians and financial planning clients on wills and trust matters.",
+      "eventKo": "크리에이티브 플래닝에 유산 설계 변호사 겸 컨설턴트로 합류해 의사와 재무 설계 고객에게 유언장·신탁 자문 제공."
+    },
+    {
+      "year": 2004,
+      "event": "Acquired Creative Planning, a registered investment advisor in Leawood, Kansas, that had approximately $34 million in assets under management and around 30 clients.",
+      "eventKo": "캔자스주 리우드 소재 등록 투자 자문사 크리에이티브 플래닝 인수. 당시 운용자산 약 3,400만 달러, 고객 약 30명 수준이었음."
+    },
+    {
+      "year": 2007,
+      "event": "Grew Creative Planning's AUM to $591 million; Barron's named Mallouk one of the country's top independent financial advisers for the first time.",
+      "eventKo": "크리에이티브 플래닝 운용자산을 5억 9,100만 달러로 성장. 배런스, 말루크를 미국 최고 독립 재무 어드바이저 중 한 명으로 선정."
+    },
+    {
+      "year": 2011,
+      "event": "Creative Planning reached $2 billion in AUM with approximately 1,200 clients, establishing itself as a leading independent RIA.",
+      "eventKo": "크리에이티브 플래닝 운용자산 20억 달러·고객 약 1,200명 달성, 선도적인 독립 등록 투자 자문사로 자리 잡음."
+    },
+    {
+      "year": 2014,
+      "event": "Creative Planning surpassed $10 billion in AUM, crossing a major milestone for independent wealth management firms.",
+      "eventKo": "크리에이티브 플래닝 운용자산 100억 달러 돌파, 독립 자산관리 업계에서 중요한 이정표 달성."
+    },
+    {
+      "year": 2019,
+      "event": "Shifted to inorganic growth with the first acquisition — The Johnston Group in Minneapolis — marking a new strategic phase of scaling through M&A.",
+      "eventKo": "미니애폴리스의 존스턴 그룹 인수를 시작으로 처음으로 비유기적 성장 전략으로 전환, M&A를 통한 규모 확대의 새로운 단계 시작."
+    },
+    {
+      "year": 2023,
+      "event": "Goldman Sachs made a significant minority investment in Creative Planning, valuing the firm at several billion dollars and accelerating its growth trajectory.",
+      "eventKo": "골드만삭스가 크리에이티브 플래닝에 상당한 소수 지분 투자, 기업가치를 수십억 달러로 평가하며 성장 가속화."
+    },
+    {
+      "year": 2025,
+      "event": "TPG Inc. acquired a minority stake in Creative Planning in a deal valuing the firm at $16 billion; Creative Planning reaches approximately $700 billion in combined AUM.",
+      "eventKo": "TPG가 크리에이티브 플래닝 소수 지분 인수, 기업가치 160억 달러 평가. 크리에이티브 플래닝 합산 운용자산 약 7,000억 달러 달성."
+    }
   ],
   "failures": [
     {
-      "title": "Navigating the Steel Price Shock",
-      "description": "Rittal's core business of manufacturing steel electrical enclosures made it highly vulnerable to raw material price volatility. During periods of sharp steel price increases—particularly in the early 2000s and mid-2010s—the company faced significant margin compression, forcing it to restructure supply chains and invest heavily in automation to remain competitive.",
-      "titleKo": "철강 가격 급등 위기",
-      "descriptionKo": "리탈의 핵심 사업인 철강 전기 인클로저 제조는 원자재 가격 변동성에 매우 취약했다. 특히 2000년대 초반과 2010년대 중반의 철강 가격 급등 시기에 회사는 심각한 마진 압박을 받았으며, 이를 극복하기 위해 공급망 재편과 자동화 설비에 대한 대규모 투자를 단행해야 했다."
-    },
-    {
-      "title": "German Mittelstand Pressure from Global Competition",
-      "description": "As Chinese competitors entered the electrical enclosure market with significantly lower prices in the 2010s, Rittal faced intense pressure on its traditional mid-market pricing model. The company had to accelerate its shift toward higher-value software integration and custom solutions to defend its market position, a transition that required significant investment and restructuring.",
-      "titleKo": "글로벌 경쟁에 따른 독일 중소·중견기업 압박",
-      "descriptionKo": "2010년대 중국 경쟁업체들이 훨씬 낮은 가격으로 전기 인클로저 시장에 진입하면서 리탈은 전통적인 중간 시장 가격 모델에 강한 압박을 받았다. 시장 지위를 방어하기 위해 고부가가치 소프트웨어 통합 및 맞춤형 솔루션으로의 전환을 가속화해야 했으며, 이는 상당한 투자와 구조조정을 필요로 했다."
-    },
-    {
-      "title": "Succession Planning Challenges",
-      "description": "As Friedhelm Loh aged into his seventies and eighties, questions about succession for the privately held empire grew. Unlike publicly traded companies, the Friedhelm Loh Group faces the classic family business challenge of transitioning leadership while maintaining strategic continuity and the founder's distinctive management philosophy.",
-      "titleKo": "승계 계획의 어려움",
-      "descriptionKo": "프리델하임 로가 70~80대에 접어들면서 비공개 기업 제국의 승계에 대한 우려가 커졌다. 상장 기업과 달리 프리델하임 로 그룹은 창업주의 독특한 경영 철학과 전략적 연속성을 유지하면서 리더십을 전환해야 하는 가족 기업 특유의 도전에 직면해 있다."
+      "year": 2003,
+      "description": "The chain of CD retail stores Mallouk had built during graduate school collapsed as digital music piracy devastated the physical music retail industry in the early 2000s.",
+      "descriptionKo": "대학원 시절 세운 CD 소매점 체인이 2000년대 초 디지털 음악 불법 복제 확산으로 실물 음반 소매 시장이 붕괴되면서 문을 닫았다.",
+      "lesson": "The experience reinforced the value of diversification and adaptability — and ultimately pushed Mallouk to fall back on his law degree and enter the wealth management industry.",
+      "lessonKo": "이 경험은 다각화와 적응력의 중요성을 일깨워 주었고, 결국 말루크가 법학 학위를 활용해 자산관리 업계에 뛰어드는 계기가 되었다."
     }
   ],
   "wealthHistory": [
-    {"year": 2012, "amount": 4.5},
-    {"year": 2015, "amount": 6.0},
-    {"year": 2018, "amount": 8.0},
-    {"year": 2020, "amount": 8.5},
-    {"year": 2021, "amount": 9.7},
-    {"year": 2023, "amount": 12.0},
-    {"year": 2025, "amount": 15.1}
+    {
+      "year": 2004,
+      "netWorth": 0.01
+    },
+    {
+      "year": 2010,
+      "netWorth": 0.1
+    },
+    {
+      "year": 2015,
+      "netWorth": 0.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 10.6
+    },
+    {
+      "year": 2026,
+      "netWorth": 16.1
+    }
   ],
-  "quotes": [],
-  "books": [],
+  "quotes": [
+    {
+      "text": "The media's job is not to inform you; it is to get eyeballs. Eyeballs lead to advertising revenue. That means they need people to read stuff and view stuff. Telling everyone things are going to work out just fine doesn't get eyeballs the way feeding into fear does.",
+      "textKo": "언론의 역할은 당신을 정보를 제공하는 것이 아니라 시선을 끄는 것입니다. 시선은 광고 수익으로 이어집니다. 그래서 그들은 사람들이 읽고 보게 만들어야 합니다. '모든 것이 잘 될 것'이라고 말하는 것은 공포심을 자극하는 것만큼 시선을 끌지 못합니다.",
+      "context": "From his book 'The 5 Mistakes Every Investor Makes and How to Avoid Them'",
+      "contextKo": "저서 '투자자가 저지르는 5가지 실수와 그 해결법'에서",
+      "source": "The 5 Mistakes Every Investor Makes and How to Avoid Them"
+    },
+    {
+      "text": "The stock market cares about only one thing above all else: anticipated earnings. If companies make more money, their share prices eventually rise. The stock price is simply a reflection of a company's earning power. Everything else is noise.",
+      "textKo": "주식 시장이 무엇보다 신경 쓰는 것은 단 하나, 예상 수익입니다. 기업이 더 많은 돈을 벌면 주가는 결국 오릅니다. 주가는 단순히 기업의 수익 창출 능력을 반영하는 것일 뿐입니다. 나머지는 모두 소음입니다.",
+      "context": "On investment fundamentals",
+      "contextKo": "투자 기초에 대해",
+      "source": "The 5 Mistakes Every Investor Makes and How to Avoid Them"
+    }
+  ],
+  "books": {
+    "authored": [
+      "The 5 Mistakes Every Investor Makes and How to Avoid Them (2014)",
+      "Unshakeable (2017, co-authored with Tony Robbins)",
+      "The Path: Accelerating Your Journey to Financial Freedom (2020)"
+    ],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Peter Mallouk is known for his fiduciary-first philosophy, building one of the largest independent RIAs in the US through a combination of exceptional service, tax-integrated investing, and strategic acquisitions. He is also a bestselling author and prominent media commentator on personal finance.",
+    "knownForKo": "수탁자 의무 최우선 철학으로 미국 최대 독립 등록 투자 자문사 중 하나를 구축한 것으로 유명하다. 탁월한 서비스, 세금을 통합한 투자 전략, 전략적 M&A를 통해 성장했으며 베스트셀러 작가이자 개인 금융 분야의 유명 미디어 논평가이기도 하다.",
+    "philanthropy": "Mallouk founded Pathway Financial Education, providing free financial literacy programs to teenagers, adults, and business owners in under-resourced communities. He also founded the Urban Market Institute, which offers grants, mentoring, and low-cost lending in urban communities.",
+    "philanthropyKo": "저소득층 지역의 청소년·성인·사업주에게 무료 금융 리터러시 프로그램을 제공하는 패스웨이 파이낸셜 에듀케이션을 설립했다. 또한 도시 지역사회에 보조금·멘토링·저금리 대출을 제공하는 어반 마켓 인스티튜트도 창립했다."
+  },
   "sajuConnection": null
 }

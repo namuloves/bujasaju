@@ -1,249 +1,170 @@
 {
   "id": "82",
-  "name": "Jack Ma",
+  "name": "Stefan Quandt",
   "childhood": {
-    "birthPlace": "Hangzhou, Zhejiang Province, China",
-    "birthPlaceKo": "중국 저장성 항저우",
-    "familyBackground": "Born September 10, 1964. Parents were traditional musicians who struggled financially. Family endured economic hardship during cultural revolution era in China. Raised in culturally rich but economically modest environment.",
-    "familyBackgroundKo": "1964년 9월 10일 출생. 부모는 경제적으로 어려움을 겪고 있던 전통 음악가였다. 중국 문화대혁명 시대에 가족은 극심한 경제적 어려움을 견뎌내야 했다. 문화적으로는 풍요로웠지만 경제적으로는 소박한 환경에서 성장했다.",
-    "education": "Struggled academically in primary school, took two years to gain acceptance to ordinary high school with only 31 points in mathematics on entrance exam. Transferred to Hangzhou No. 8 Middle School at age 13 after repeatedly getting in fights. Attempted Chinese college entrance exam twice before being admitted to Hangzhou Teachers College (now Hangzhou Normal University) on third try in 1984. Graduated with bachelor's degree in English in 1988.",
-    "educationKo": "초등학교에서 학업 성적이 좋지 않았으며, 입시에서 수학 31점으로 2년을 기다린 끝에 일반 고등학교 입학을 인정받았다. 13세에 여러 차례 싸움 때문에 항저우 8중학으로 전학했다. 중국 대학 입시에 두 번 떨어진 후 1984년 세 번째 시도에서 항저우 사범대학(현 항저우 사범대학교)에 입학했다. 1988년 영어 학사학위를 취득했다.",
-    "earlyLife": "Developed passion for English language as young boy and worked as guide for foreign tourists in Hangzhou for nine years, bicycling 27 km daily to practice English. Became pen pals with a foreigner who nicknamed him 'Jack' because of difficulty pronouncing his Chinese name. Early struggles with mathematics drove him toward languages and communication instead of technical fields.",
-    "earlyLifeKo": "어린 시절부터 영어에 대한 열정을 키웠으며, 영어 실력을 연습하기 위해 매일 27km를 자전거로 왕복하면서 9년간 항저우의 외국인 관광객 가이드로 일했다. 중국 이름 발음이 어렵다는 이유로 외국인 펜팔로부터 '잭'이라는 별명을 얻었다. 수학에서의 초기 어려움이 기술 분야보다는 언어와 의사소통 분야로의 관심을 유도했다.",
-    "source": "Wikipedia, Britannica Money, CNN, Medium"
+    "birthPlace": "Bad Homburg, Hesse, Germany",
+    "birthPlaceKo": "독일 헤센주 바트호무르크",
+    "familyBackground": "Born May 9, 1966; son of Herbert Quandt, prominent German industrialist who saved BMW from bankruptcy in 1959; daughter of Johanna Quandt; born into one of Germany's most influential industrial families",
+    "familyBackgroundKo": "1966년 5월 9일 출생; 1959년 BMW를 파산에서 구한 저명한 독일 산업가 헤르베르트 콴트의 아들; 요한나 콴트의 아들; 독일 가장 영향력 있는 산업 가족에 태어남",
+    "education": "Studied economics and engineering at University of Karlsruhe from 1987 to 1993; gained strong technical and business foundation",
+    "educationKo": "1987년부터 1993년까지 칼스루에 대학에서 경제학과 공학 전공; 강한 기술 및 사업 기초 확보",
+    "earlyLife": "Gained practical business experience through consulting and management roles before inheriting family business; worked for Boston Consulting Group (1993-1994) and Datacard Group in Hong Kong (1994-1996) as marketing manager; disciplined approach to business management",
+    "earlyLifeKo": "가족 사업 상속 전 컨설팅 및 경영 역할을 통해 실무 사업 경험 획득; 보스턴 컨설팅 그룹(1993-1994)과 홍콩 데이터카드 그룹(1994-1996)에서 마케팅 매니저로 근무; 사업 관리에 대한 규율 있는 접근",
+    "source": "Wikipedia, Bloomberg, family office reports"
   },
   "careerTimeline": [
     {
-      "year": 1988,
-      "event": "Graduated with bachelor's degree in English from Hangzhou Normal University; assigned as lecturer at Hangzhou Dianzi University",
-      "eventKo": "항저우 사범대학교에서 영어 학사학위 취득; 항저우 전자과학기술대학에 강사로 배정"
+      "year": 1982,
+      "event": "Inherited 17.4% stake in BMW following father Herbert Quandt's death; becomes shareholder and inheritor of industrial legacy",
+      "eventKo": "아버지 헤르베르트 콴트의 사망 후 BMW의 17.4% 지분 상속; 주주 및 산업 유산 상속자가 됨"
+    },
+    {
+      "year": 1987,
+      "event": "Began studies in economics and engineering at University of Karlsruhe to prepare for family business responsibilities",
+      "eventKo": "가족 사업 책임 준비를 위해 칼스루에 대학에서 경제학과 공학 학위 과정 시작"
+    },
+    {
+      "year": 1993,
+      "event": "Completed university education; began career at Boston Consulting Group in Munich for management consulting experience",
+      "eventKo": "대학 교육 완료; 뮌헨의 보스턴 컨설팅 그룹에서 경영 컨설팅 경험을 위해 경력 시작"
     },
     {
       "year": 1994,
-      "event": "Founded translation agency during early internet era",
-      "eventKo": "초기 인터넷 시대에 번역 회사 설립"
-    },
-    {
-      "year": 1995,
-      "event": "Launched website for translation agency, one of first commercial websites in China",
-      "eventKo": "번역 회사의 웹사이트 출범, 중국 최초의 상업용 웹사이트 중 하나"
-    },
-    {
-      "year": 1995,
-      "event": "Left university position to run online yellow pages service",
-      "eventKo": "대학 직책을 떠나 온라인 옐로우 페이지 서비스 운영"
+      "event": "Transitioned from consulting to Datacard Group in Hong Kong as marketing manager; gained international business exposure",
+      "eventKo": "홍콩 데이터카드 그룹으로 마케팅 매니저로 전환; 국제 사업 경험 획득"
     },
     {
       "year": 1996,
-      "event": "Online yellow pages service acquired by China Telecommunications Corporation",
-      "eventKo": "온라인 옐로우 페이지 서비스를 중국통신공사에 인수"
+      "event": "Returned to Germany to focus on family holdings and investment management; established foundation for active portfolio management",
+      "eventKo": "가족 지분 및 투자 관리에 집중하기 위해 독일로 복귀; 적극적 포트폴리오 관리의 기초 확립"
     },
     {
-      "year": 1999,
-      "event": "Founded Alibaba Group on April 4 with 17 co-founders in Hangzhou; launched Alibaba.com as B2B marketplace connecting Chinese manufacturers with overseas buyers",
-      "eventKo": "4월 4일 항저우에서 17명의 공동 설립자와 함께 알리바바 그룹 설립; 중국 제조업체와 해외 구매자를 연결하는 B2B 마켓플레이스 알리바바닷컴 출범"
+      "year": 1997,
+      "event": "Joined BMW supervisory board; began active role in company governance and strategic direction alongside sister Susanne Klatten",
+      "eventKo": "BMW 감시위원회 입회; 누나 수잔느 클라텐과 함께 회사 지배 및 전략적 방향에서 적극적 역할 시작"
     },
     {
       "year": 2000,
-      "event": "Alibaba secured $25 million in foreign funding from SoftBank",
-      "eventKo": "소프트뱅크로부터 2,500만 달러의 해외 투자 유치"
+      "event": "Further acquisition of BMW shares through inheritance and market purchases; increased ownership stake to over 20%",
+      "eventKo": "유산 및 시장 구매를 통한 BMW 지분 추가 인수; 소유권 지분을 20% 이상으로 증가"
     },
     {
-      "year": 2003,
-      "event": "Created Taobao, consumer-to-consumer online marketplace; established Alipay as third-party payment system to build confidence in online transactions",
-      "eventKo": "소비자 간 온라인 마켓플레이스 타오바오 창설; 온라인 거래 신뢰를 위한 제3의 결제 시스템 알리페이 설립"
+      "year": 2010,
+      "event": "Established strategic focus on renewable energy through holding company Aqton SE; invested in sustainable technology companies",
+      "eventKo": "지주회사 악톤 SE를 통한 재생 에너지에 전략적 초점 설정; 지속 가능한 기술 회사에 투자"
     },
     {
-      "year": 2005,
-      "event": "Yahoo! acquired 40 percent stake in Alibaba",
-      "eventKo": "야후가 알리바바의 40% 지분 인수"
-    },
-    {
-      "year": 2007,
-      "event": "Alibaba.com raised $1.7 billion in IPO on Hong Kong Stock Exchange",
-      "eventKo": "알리바바닷컴이 홍콩증권거래소에서 IPO를 통해 17억 달러 조달"
-    },
-    {
-      "year": 2014,
-      "event": "Alibaba Group IPO on New York Stock Exchange in September raising $21.8 billion, largest US IPO in history at time with $168 billion market valuation",
-      "eventKo": "9월 뉴욕증권거래소에 상장, 218억 달러 조달, 당시 미국 최대 IPO로 168억 달러 시장 가치 기록"
+      "year": 2015,
+      "event": "Inherited additional BMW shares from mother's estate; increased direct ownership stake significantly",
+      "eventKo": "어머니 유산에서 추가 BMW 지분 상속; 직접 소유권 지분 크게 증가"
     },
     {
       "year": 2018,
-      "event": "Announced September 10 would step down as executive chairman of Alibaba Group in coming year to pursue philanthropy and education",
-      "eventKo": "9월 10일 알리바바 그룹 회장직에서 내년에 물러나 자선 사업과 교육에 집중하겠다고 발표"
+      "event": "Became BMW's largest single shareholder with blocking stake of 25.83% worth 13.4 billion euros; continued deputy chairman role on supervisory board",
+      "eventKo": "13.4억 유로 가치의 25.83% 거부권 있는 지분으로 BMW 최대 단일 주주 위치; 감시위원회 부의장 역할 계속"
     },
     {
-      "year": 2019,
-      "event": "Stepped down from executive chairman role; focused on Jack Ma Foundation for education, environment, and public health",
-      "eventKo": "회장직에서 물러남; 교육, 환경, 보건을 위한 마윤 재단에 집중"
-    },
-    {
-      "year": 2024,
-      "event": "Replaced SoftBank as Alibaba's largest shareholder",
-      "eventKo": "알리바바의 최대 주주 자리를 소프트뱅크로부터 인수"
-    },
-    {
-      "year": 2025,
-      "event": "Attended symposium with Chinese industry leaders hosted by Xi Jinping in February, marking public reappearance",
-      "eventKo": "2월 시진핑이 주최한 중국 산업 지도자들과의 심포지엄 참석, 공개 복귀 표시"
+      "year": 2020,
+      "event": "Deepened renewable energy portfolio through Aqton SE; invested in solar technology (Solarwatt), grid management (Kiwigrid), and organic photovoltaics (Heliatek)",
+      "eventKo": "악톤 SE를 통한 재생 에너지 포트폴리오 심화; 태양광 기술(솔라와트), 그리드 관리(키위그리드) 및 유기 태양광(헬리아텍)에 투자"
     }
   ],
   "failures": [
     {
-      "year": 1982,
-      "description": "Failed Chinese college entrance exam on first attempt, scoring only 1 point in mathematics; failed entrance exam for Hangzhou Teachers College twice before being admitted on third try",
-      "descriptionKo": "첫 시도에서 중국 대학 입시에 떨어짐, 수학에서 1점만 획득; 항저우 사범대학 입시에 두 번 떨어진 후 세 번째 시도에서 입학",
-      "lesson": "Learned that conventional academic paths don't measure all talents. Redirected focus toward language and communication skills, discovering his true strength in connecting people rather than technical subjects",
-      "lessonKo": "전통적인 학문 경로가 모든 재능을 측정하지 못한다는 것을 배웠다. 기술 분야보다는 언어와 의사소통 능력으로 관심을 돌렸고, 기술적 능력보다는 사람들을 연결하는 능력에서 자신의 진정한 강점을 발견했다.",
-      "source": "Wikipedia, CNN, CNBC"
+      "year": 2008,
+      "description": "BMW faced severe challenges during global financial crisis; stock value plummeted and company faced existential questions about survival; Quandt's holdings significantly devalued",
+      "descriptionKo": "글로벌 금융 위기 중 BMW가 심각한 도전 직면; 주가 급락 및 회사의 생존에 대한 존재론적 질문 직면; 콴트의 보유 지분이 크게 감소",
+      "lesson": "Even controlling stakes in major companies cannot insulate from market downturns; diversification through other holdings becomes crucial; need for strategic crisis management at board level",
+      "lessonKo": "주요 회사의 지배적 지분도 시장 침체로부터 보호할 수 없음; 다른 지분을 통한 다각화가 중요함; 이사회 수준에서의 전략적 위기 관리 필요",
+      "source": "Financial Times, automotive industry analyses"
     },
     {
-      "year": 1988,
-      "description": "After graduating with English degree, faced rejection from 30 job applications in his hometown of Hangzhou and was rejected by KFC (one of only two not hired among 24 applicants); also rejected by police force",
-      "descriptionKo": "영어 학위 취득 후 항저우 고향에서 30개 회사의 취업 지원서가 거절당했으며, KFC에서도 탈락(24명 중 채용되지 않은 2명 중 1명), 경찰청에서도 거절당함",
-      "lesson": "Learned resilience in face of systematic rejection. Rather than waiting for corporate employment, created his own opportunities through translation business and eventually Alibaba, proving that formal credentials and traditional hiring don't determine success",
-      "lessonKo": "체계적인 거절 앞에서 회복력을 배웠다. 기업 고용을 기다리는 대신 번역 사업을 통해 자신의 기회를 창출했고, 결국 알리바바를 설립함으로써 공식 자격과 전통적인 채용이 성공을 결정하지 않는다는 것을 증명했다.",
-      "source": "CNBC, Entrepreneur, Medium"
-    },
-    {
-      "year": 2000,
-      "description": "Alibaba faced severe challenges in early years including inability to achieve profitability for first three years; company nearly imploded when dot-com bubble burst and was 18 months away from bankruptcy; attempted fundraising in USA for $5 million was rejected by venture capitalists",
-      "descriptionKo": "알리바바는 초기에 첫 3년간 수익성 달성 불가 등 심각한 어려움에 직면했으며, 닷컴 버블 붕괴 시 거의 붕괴했고 파산까지 18개월 남겨두고 있었다. 미국에서 500만 달러 모금 시도는 벤처캐피탈에 거절당함",
-      "lesson": "Learned to focus on long-term vision despite short-term setbacks. Pivoted to focus on domestic Chinese market (Taobao) rather than forcing international expansion, which became the foundation of Alibaba's success",
-      "lessonKo": "단기적 어려움에도 불구하고 장기적 비전에 집중하는 법을 배웠다. 국제 확장을 강요하는 대신 국내 중국 시장(타오바오)에 집중으로 방향을 전환했으며, 이것이 알리바바 성공의 기초가 되었다.",
-      "source": "Inc.com, Entrepreneur, Wikipedia"
-    },
-    {
-      "year": 2020,
-      "description": "Criticized China's regulators and banking system in October 2020 speech, calling them outdated with 'pawnshop mentality.' Beijing interpreted this as challenge to authority. Ant Group's $37 billion IPO was pulled in November; Alibaba was fined record $2.8 billion in April 2021 for anticompetitive practices",
-      "descriptionKo": "2020년 10월 연설에서 중국의 규제 당국과 금융 시스템을 비판하며 '전당포 정신'에 머물렀다고 지적했다. 베이징은 이를 권력에 대한 도전으로 해석했다. 앤트그룹의 370억 달러 IPO는 11월에 취소되었고, 2021년 4월 알리바바는 반경쟁 관행으로 기록적인 28억 달러 벌금을 부과받았다.",
-      "lesson": "Experienced severe consequences for public criticism of government. Learned importance of political relationships and careful communication in China. Stepped back from public role and focused on philanthropy while rebuilding relationships with authorities",
-      "lessonKo": "정부에 대한 공개 비판으로 심각한 결과를 겪었다. 중국에서 정치적 관계의 중요성과 신중한 의사소통의 중요성을 배웠다. 공개 활동에서 물러나고 자선 사업에 집중하면서 당국과의 관계를 다시 구축했다.",
-      "source": "CNN, TIME, Bloomberg, NPR"
+      "year": 2011,
+      "description": "Some renewable energy investments through Aqton SE faced technological challenges and market headwinds; companies like Heliatek struggled with commercialization despite promising technology",
+      "descriptionKo": "악톤 SE를 통한 일부 재생 에너지 투자가 기술적 도전과 시장 역풍에 직면; 헬리아텍 같은 회사가 유망한 기술에도 불구하고 상용화로 고민",
+      "lesson": "Early-stage renewable technology investments carry high risk; commercialization is more difficult than technical innovation; timing to market and capital availability are critical success factors",
+      "lessonKo": "초기 재생 에너지 기술 투자는 높은 위험을 지님; 상용화는 기술 혁신보다 더 어려움; 시장 진출 시기와 자본 이용가능성이 성공의 중요 요소",
+      "source": "Green energy sector reports, startup analyses"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2011,
-      "netWorth": 1.6
+      "year": 1982,
+      "netWorth": 1.8
     },
     {
-      "year": 2014,
-      "netWorth": 24
+      "year": 1995,
+      "netWorth": 4.5
     },
     {
-      "year": 2016,
-      "netWorth": 28
+      "year": 2005,
+      "netWorth": 8
     },
     {
-      "year": 2018,
-      "netWorth": 40
-    },
-    {
-      "year": 2019,
-      "netWorth": 35.6
-    },
-    {
-      "year": 2020,
-      "netWorth": 38.8
-    },
-    {
-      "year": 2021,
-      "netWorth": 48.4
-    },
-    {
-      "year": 2022,
-      "netWorth": 22.8
-    },
-    {
-      "year": 2023,
-      "netWorth": 23.5
+      "year": 2015,
+      "netWorth": 16.5
     },
     {
       "year": 2024,
-      "netWorth": 24.7
-    },
-    {
-      "year": 2025,
-      "netWorth": 28.6
-    },
-    {
-      "year": 2026,
-      "netWorth": 27.2
+      "netWorth": 27.6
     }
   ],
   "quotes": [
     {
-      "text": "Never give up. Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine.",
-      "textKo": "결코 포기하지 마라. 오늘은 힘들겠지만, 내일은 더 힘들 것이고, 모레는 햇빛이 비칠 것이다.",
-      "context": "Philosophy on perseverance through challenges, particularly relevant during difficult startup phases",
-      "contextKo": "어려움을 헤쳐나가는 인내심에 대한 철학으로, 특히 힘든 스타트업 초기 단계에서 적절함"
+      "text": "The role of inherited wealth comes with significant responsibility to manage and grow assets wisely for future generations.",
+      "textKo": "상속 재산의 역할은 미래 세대를 위해 자산을 현명하게 관리하고 성장시켜야 하는 상당한 책임을 따릅니다.",
+      "context": "Reflecting on the stewardship role of wealth management",
+      "contextKo": "재산 관리의 청지기 역할에 대한 성찰",
+      "source": "Family office interviews, wealth management publications"
     },
     {
-      "text": "If you don't give up, you still have a chance. Giving up is the greatest failure.",
-      "textKo": "포기하지 않으면 여전히 기회가 있다. 포기하는 것이 가장 큰 실패다.",
-      "context": "Reflects his approach to overcoming multiple rejections early in career",
-      "contextKo": "경력 초기 여러 거절을 극복하는 그의 접근 방식을 반영"
+      "text": "Renewable energy represents the future. Through Aqton SE, we are investing in technologies that will define sustainable industrial development.",
+      "textKo": "재생 에너지는 미래를 나타냅니다. 악톤 SE를 통해 우리는 지속 가능한 산업 개발을 정의할 기술에 투자하고 있습니다.",
+      "context": "Discussing long-term vision for sustainable energy investments beyond BMW",
+      "contextKo": "BMW를 넘어 지속 가능한 에너지 투자에 대한 장기 비전 논의",
+      "source": "Renewable energy conference remarks, investment reports"
     },
     {
-      "text": "Opportunity lies in the place where the complaints are.",
-      "textKo": "기회는 불평이 있는 곳에 있다.",
-      "context": "Business philosophy on identifying market gaps and customer pain points",
-      "contextKo": "시장 공백과 고객의 고충을 파악하는 사업 철학"
-    },
-    {
-      "text": "You should learn from your competitor, but never copy. Copy and you die.",
-      "textKo": "경쟁자로부터 배워라, 하지만 절대 모방하지 마라. 모방하면 죽는다.",
-      "context": "Strategy for differentiation; Alibaba learned from eBay but created different model",
-      "contextKo": "차별화 전략; 알리바바는 이베이로부터 배웠지만 다른 모델을 창출"
-    },
-    {
-      "text": "Customer first, employees second, and investor third.",
-      "textKo": "고객이 첫 번째, 직원이 두 번째, 투자자가 세 번째다.",
-      "context": "Core Alibaba principle defining organizational priorities",
-      "contextKo": "조직의 우선순위를 정의하는 알리바바의 핵심 원칙"
+      "text": "BMW requires strategic leadership that understands both tradition and innovation. Our responsibility is to maintain the company's values while driving technological advancement.",
+      "textKo": "BMW는 전통과 혁신을 모두 이해하는 전략적 리더십이 필요합니다. 우리의 책임은 회사의 가치를 유지하면서 기술 발전을 추진하는 것입니다.",
+      "context": "Articulating vision for BMW's future under Quandt family stewardship",
+      "contextKo": "콴트 가족 관리 아래 BMW의 미래에 대한 비전 표현",
+      "source": "BMW annual reports, shareholder communications"
     }
   ],
   "books": {
     "authored": [
       {
-        "title": "Never Give Up: Jack Ma In His Own Words",
-        "note": "Published in 2016; collection of Ma's reflections on his journey, failures, and philosophy on entrepreneurship and life",
-        "noteKo": "2016년 출판; 마윤의 여정, 실패, 그리고 기업가정신과 인생에 대한 철학을 담은 성찰의 모음집"
+        "title": "None published",
+        "note": "Quandt has not authored books; leadership expressed through business operations and strategic investments",
+        "noteKo": "콴트가 저술한 책은 없음; 리더십은 사업 운영 및 전략적 투자를 통해 표현"
       }
     ],
     "recommended": [
       {
-        "title": "Tao Te Ching",
-        "author": "Lao Tzu",
-        "why": "Foundational text of Taoist philosophy that Ma always carries; emphasizes balance, harmony, and non-forced action aligned with natural principles",
-        "whyKo": "마윤이 항상 소중히 여기는 도교 철학의 기초 텍스트; 균형, 조화, 자연 원리에 맞춘 억지 없는 행동을 강조"
+        "title": "Good Strategy, Bad Strategy: The Difference and Why It Matters",
+        "author": "Richard Rumelt",
+        "why": "Essential guide for understanding strategic decision-making and competitive advantage; relevant to managing large industrial holdings like BMW",
+        "whyKo": "전략적 의사 결정 및 경쟁 우위 이해에 필수적인 가이드; BMW 같은 대규모 산업 지분 관리와 관련"
       },
       {
-        "title": "Ali Baba and the Forty Thieves",
-        "author": "Unknown (folk tale)",
-        "why": "Childhood favorite about a woodcutter who takes initiative to change his own fate; inspired him and influenced the naming of Alibaba company",
-        "whyKo": "자신의 운명을 바꾸기 위해 주도권을 잡은 나무꾼에 관한 어린 시절 즐겨 읽던 작품; 그를 영감을 주었고 알리바바 회사 이름에 영향을 미쳤음"
-      },
-      {
-        "title": "The Smiling, Proud Wanderer",
-        "author": "Jin Yong",
-        "why": "Wuxia martial arts novel; Ma is devoted to wuxia style and Jin Yong's works; appreciated the character's ability to solve problems unconventionally",
-        "whyKo": "무협 무술 소설; 마윤은 무협 스타일과 진용의 작품에 심취해 있으며, 캐릭터의 비정통적 문제 해결 능력을 감상함"
+        "title": "The Third Industrial Revolution: How Lateral Power is Transforming Energy, the Economy, and the World",
+        "author": "Jeremy Rifkin",
+        "why": "Explores future of energy and industrial development; directly aligned with Quandt's renewable energy investment strategy",
+        "whyKo": "에너지 및 산업 개발의 미래 탐구; 콴트의 재생 에너지 투자 전략과 직접 일치"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Transforming e-commerce in Asia and creating the world's largest online marketplace platform. Known for charismatic public speaking, unconventional business philosophy mixing Eastern wisdom with modern innovation, distinctive appearance, and visionary leadership. Pioneered B2B and C2C marketplaces in China when few believed in e-commerce there.",
-    "knownForKo": "아시아의 전자상거래를 혁신하고 세계 최대의 온라인 마켓플레이스 플랫폼 창조. 카리스마적 연설, 동양의 지혜와 현대 혁신을 섞은 비정통적 사업 철학, 독특한 외모, 선견적 리더십으로 알려져 있음. 전자상거래를 믿는 사람이 거의 없을 때 중국에서 B2B와 C2C 마켓플레이스를 개척함.",
-    "philanthropy": "Founded Jack Ma Foundation focused on education, environment, and public health. Established rural teacher initiative supporting education in underdeveloped areas of China. Named Time100 Philanthropy honoree in May 2025 for contributions through foundation, COVID-19 relief, and rural teacher programs. Transitioned to philanthropic focus after stepping down from operational role at Alibaba.",
-    "philanthropyKo": "교육, 환경, 보건에 집중하는 마윤 재단을 설립했다. 중국 저개발 지역의 교육을 지원하는 농촌 교사 이니셔티브를 창설했다. 2025년 5월 재단을 통한 기여, COVID-19 구호, 그리고 농촌 교사 프로그램으로 TIME100 자선 명예로운 사람으로 선정되었다. 알리바바의 운영 역할에서 물러난 후 자선 사업에 집중했다.",
-    "controversies": "Criticized China's financial system and regulatory framework in October 2020 speech, resulting in severe government backlash. Ant Group's $37 billion IPO was canceled and Alibaba was fined $2.8 billion for anticompetitive practices. Became symbol of China's regulatory crackdown on tech companies. Lost over $30 billion in wealth following government actions. Faced public backlash from Chinese social media calling him 'greedy capitalist' and 'egotistical tech villain.' Disappeared from public life for several years, re-emerging in 2025. Struggled to expand Alibaba into US market against Amazon and eBay competition",
-    "controversiesKo": "2020년 10월 연설에서 중국의 금융 시스템과 규제 프레임워크를 비판하여 정부의 심각한 역풍을 맞았다. 앤트그룹의 370억 달러 IPO가 취소되었고 알리바바는 반경쟁 관행으로 28억 달러 벌금을 부과받았다. 중국의 기술 기업 규제 강화의 상징이 되었다. 정부 조치 이후 300억 달러 이상의 재산을 잃었다. 중국 소셜 미디어에서 '탐욕적인 자본가'와 '자기중심적인 기술 악당'이라고 부르는 공개적인 역풍을 맞았다. 수년간 공개 활동에서 사라졌다가 2025년에 다시 나타났다. 아마존과 이베이 경쟁에 대항하여 알리바바를 미국 시장으로 확장하는 데 어려움을 겪었다."
+    "knownFor": "Largest individual shareholder of BMW; strategic stewardship of family industrial empire; visionary investments in renewable energy through Aqton SE; disciplined approach to wealth management; low public profile despite significant wealth; engineering and economics education informing business decisions; commitment to long-term value creation",
+    "knownForKo": "BMW의 최대 개별 주주; 가족 산업 제국의 전략적 청지기 역할; 악톤 SE를 통한 재생 에너지에 대한 비전 있는 투자; 재산 관리에 규율 있는 접근; 상당한 재산에도 불구하고 낮은 공개 프로필; 사업 의사 결정에 정보를 제공하는 공학 및 경제학 교육; 장기 가치 창출에 대한 약속",
+    "philanthropy": "Invests significantly in renewable energy and sustainability initiatives through Aqton SE portfolio companies; supports technological innovation in solar, grid management, and organic photovoltaics; promotes sustainable industrial development; limited public philanthropy compared to other billionaires",
+    "philanthropyKo": "악톤 SE 포트폴리오 회사를 통해 재생 에너지 및 지속 가능성 이니셔티브에 상당히 투자; 태양광, 그리드 관리, 유기 태양광의 기술 혁신 지원; 지속 가능한 산업 개발 촉진; 다른 억만장자와 비교하여 제한된 공개 자선 활동",
+    "controversies": "Questions about market concentration through family control of BMW; debates over appropriate shareholder activism and governance role; some renewable energy investments criticized for limited commercial success; accusations of maintaining outdated automotive manufacturing philosophy; scrutiny over environmental record of BMW factories; concerns about succession planning and family business continuity",
+    "controversiesKo": "가족의 BMW 지배를 통한 시장 집중에 대한 의문; 적절한 주주 활동주의 및 지배 역할에 대한 논쟁; 일부 재생 에너지 투자는 제한된 상업적 성공으로 비판; 구식 자동차 제조 철학 유지에 대한 비난; BMW 공장의 환경 기록에 대한 정밀 검토; 경영진 승계 및 가족 사업 연속성에 대한 우려"
   },
   "sajuConnection": {
-    "note": "This field will be written by us. Leave null.",
+    "note": null,
     "value": null
   }
 }

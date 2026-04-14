@@ -1,98 +1,133 @@
 {
   "id": "285",
-  "name": "Jimmy Haslam",
+  "name": "Kushal Pal Singh",
   "childhood": {
-    "birthPlace": "Knoxville, Tennessee, United States",
-    "birthPlaceKo": "논스빌, 테네시주, 미국",
-    "familyBackground": "Born into the Haslam family, owners of Pilot Flying J, one of America's largest truck stop chains. Father Jim Haslam Sr. founded the company.",
-    "familyBackgroundKo": "미국 최대 규모의 트럭 정거장 체인 중 하나인 Pilot Flying J의 소유자인 Haslam 가족에서 태어났습니다. 아버지 Jim Haslam Sr.가 회사를 설립했습니다.",
-    "education": "Attended Knoxville-area schools; graduated from college with focus on business",
-    "educationKo": "논스빌 지역 학교에 다녔으며 비즈니스에 초점을 맞춘 대학을 졸업했습니다",
-    "earlyLife": "Grew up in trucking and fuel industry environment. Early exposure to logistics, supply chain, and retail operations through family business.",
-    "earlyLifeKo": "트럭 운송 및 연료 산업 환경에서 성장했습니다. 가족 비즈니스를 통해 물류, 공급망 및 소매 운영에 초기 노출되었습니다.",
-    "source": null
+    "birthPlace": "Bulandshahr, United Provinces, British India (now Uttar Pradesh, India)",
+    "birthPlaceKo": "영국령 인도 연합주 불란드샤르 (현재 인도 우타르프라데시주)",
+    "familyBackground": "Born on August 15, 1931, to a family of Jat landlords. His father, Mukhtar Singh, was a reputed lawyer in Bulandshahr. Grew up in a disciplined family environment that placed high value on education and responsibility. His uncle was in charge of the stables at the then-Viceregal Lodge (now Rashtrapati Bhavan), where young Singh unexpectedly met the Viceroy of India, Lord Wavell, who suggested he pursue horse riding.",
+    "familyBackgroundKo": "1931년 8월 15일, 자트족 지주 가문에서 태어남. 아버지 무크타르 싱은 불란드샤르에서 유명한 변호사였음. 교육과 책임감을 중시하는 엄격한 가정환경에서 성장함. 삼촌이 당시 부왕 관저(현 라슈트라파티 바반)의 마구간을 관리했는데, 어린 싱은 삼촌을 방문했다가 뜻밖에 인도 부왕 웨이벨 경을 만났고, 부왕이 승마를 배우라고 권유함.",
+    "education": "Completed schooling at Mayo College, Ajmer — one of India's oldest and most prestigious boarding schools. Graduated in science from Meerut College, Uttar Pradesh. His father then sent him to England to study aeronautical engineering, reportedly going into debt to finance the trip. While studying in the UK, he was drawn to a military career after meeting an Indian Army officer.",
+    "educationKo": "인도에서 가장 오래되고 명문인 기숙학교 중 하나인 아지메르의 메이요 칼리지에서 학교 교육을 마침. 우타르프라데시주 메루트 칼리지에서 이학사 학위 취득. 이후 아버지가 빚을 지면서까지 영국으로 유학을 보내 항공공학을 공부하게 함. 영국 유학 중 인도군 장교를 만나면서 군 경력에 끌리게 됨.",
+    "earlyLife": "While studying in London, Singh was torn between settling in England with a woman named Julie and returning to India for a military career. After being allowed to take the Indian Military Academy entrance exam in England, and with the Indian government agreeing to pay for his return journey, he chose to join the army. He was commissioned into the Deccan Horse, an elite cavalry regiment of the Indian Army.",
+    "earlyLifeKo": "런던에서 공부하는 동안 싱은 줄리라는 여성과 함께 영국에 정착하는 것과 인도로 돌아가 군 경력을 쌓는 것 사이에서 갈등함. 영국에서 인도 육군사관학교 입학시험에 응시할 수 있게 되고, 인도 정부가 귀국 경비를 부담하기로 하면서 군에 입대하기로 결정함. 인도 육군의 엘리트 기마 연대인 데칸 호스에 배속됨.",
+    "source": "Wikipedia, Britannica Money, StartupTalky, BusinessToday"
   },
   "careerTimeline": [
     {
+      "year": 1955,
+      "event": "Commissioned as an officer in the Deccan Horse regiment of the Indian Army, serving in an elite cavalry unit",
+      "eventKo": "인도 육군의 엘리트 기마 연대인 데칸 호스에 장교로 임관함"
+    },
+    {
+      "year": 1960,
+      "event": "Left the Indian Army and joined DLF (Delhi Land & Finance), founded in 1946 by his father-in-law Chaudhary Raghvendra Singh",
+      "eventKo": "인도 육군을 떠나 장인 초드리 라그벤드라 싱이 1946년에 설립한 DLF(델리 랜드 & 파이낸스)에 합류함"
+    },
+    {
+      "year": 1979,
+      "event": "After the merger of American Universal Electric Company with DLF Universal Limited, took over as managing director and began developing property in Gurgaon, envisioning it as a satellite city of New Delhi",
+      "eventKo": "아메리칸 유니버설 일렉트릭과 DLF 유니버설의 합병 후 대표이사로 취임, 구르가온을 뉴델리의 위성도시로 만들겠다는 비전을 세우고 부동산 개발을 시작함"
+    },
+    {
       "year": 1995,
-      "event": "Joined Pilot Flying J as executive; took leadership role in company operations",
-      "eventKo": "Pilot Flying J에 임원으로 합류하여 회사 운영에 리더십 역할 수행"
+      "event": "Became Chairman of DLF; by the 1990s, major international companies including American Express, IBM, and Nestle became DLF tenants as outsourcing to India grew",
+      "eventKo": "DLF 회장이 됨. 1990년대에 인도 아웃소싱이 성장하면서 아메리칸 익스프레스, IBM, 네슬레 등 주요 글로벌 기업들이 DLF의 임차인이 됨"
     },
     {
-      "year": 2005,
-      "event": "Led major expansion of Pilot Flying J across North America",
-      "eventKo": "Pilot Flying J의 북미 전역 주요 확장 주도"
+      "year": 2007,
+      "event": "Led DLF's landmark IPO raising approximately $2.24 billion — one of the largest in Indian history; DLF Cyber City Gurgaon awarded world's first LEED Platinum City certification; company market cap reached $24.5 billion",
+      "eventKo": "인도 역사상 최대 규모 중 하나인 약 22억 4천만 달러의 DLF IPO를 주도함. DLF 사이버시티 구르가온이 세계 최초 LEED 플래티넘 시티 인증을 획득, 회사 시가총액이 245억 달러에 달함"
     },
     {
-      "year": 2012,
-      "event": "Purchased Cleveland Browns NFL franchise; took ownership role",
-      "eventKo": "클리블랜드 브라운스 NFL 프랜차이즈 매입; 소유권 역할 취득"
+      "year": 2008,
+      "event": "Recognized by Forbes as the world's richest real estate baron and eighth richest person globally",
+      "eventKo": "포브스에 의해 세계에서 가장 부유한 부동산 재벌이자 세계 8위 부자로 선정됨"
     },
     {
-      "year": 2018,
-      "event": "Expanded Pilot Flying J into convenience retail and loyalty programs",
-      "eventKo": "Pilot Flying J를 편의점 소매 및 충성 프로그램으로 확장"
+      "year": 2010,
+      "event": "Received the Padma Bhushan, India's third-highest civilian honor, for contributions to trade and industry",
+      "eventKo": "무역 및 산업 분야의 공헌으로 인도의 세 번째로 높은 민간 훈장인 파드마 부샨을 수여받음"
+    },
+    {
+      "year": 2020,
+      "event": "Retired from executive positions at DLF; succeeded as Chairman by his son Rajiv Singh, marking a structured generational transition",
+      "eventKo": "DLF의 경영 일선에서 은퇴, 아들 라지브 싱이 회장직을 승계하며 체계적인 세대교체를 이룸"
     }
   ],
   "failures": [
     {
-      "year": 2013,
-      "description": "Federal investigation into Pilot Flying J over alleged fuel fraud and accounting irregularities",
-      "descriptionKo": "연료 사기 및 회계 부정행위로 의심되는 Pilot Flying J에 대한 연방 수사",
-      "lesson": "Importance of rigorous compliance and internal controls in large organizations",
-      "lessonKo": "대규모 조직에서 엄격한 준수 및 내부 통제의 중요성",
-      "source": "https://www.justice.gov/usao-wdtx/pr/pilot-flying-j-inc-pleads-guilty"
+      "year": 2008,
+      "description": "Following the 2007 IPO, the global financial crisis caused DLF's market capitalization to plummet from $24.5 billion to under $4 billion. Singh's personal net worth dropped dramatically from over $30 billion to a fraction of that amount. The Indian real estate market experienced a severe downturn with falling property prices and stalled projects.",
+      "descriptionKo": "2007년 IPO 이후 글로벌 금융위기로 DLF의 시가총액이 245억 달러에서 40억 달러 미만으로 급락함. 싱의 개인 순자산도 300억 달러 이상에서 급격히 감소함. 인도 부동산 시장은 부동산 가격 하락과 프로젝트 중단으로 심각한 침체를 겪음.",
+      "lesson": "The crisis taught Singh and DLF about the dangers of overleveraging and over-reliance on a single market cycle. DLF subsequently worked to deleverage its balance sheet and diversify revenue streams through rental income.",
+      "lessonKo": "이 위기를 통해 싱과 DLF는 과도한 차입과 단일 시장 사이클에 대한 과도한 의존의 위험성을 배움. 이후 DLF는 대차대조표의 부채를 줄이고 임대 수입을 통한 수익원 다각화에 힘씀.",
+      "source": "Wikipedia, Forbes, BusinessToday"
     },
     {
-      "year": 2016,
-      "description": "Cleveland Browns showed declining performance; franchise struggled competitively",
-      "descriptionKo": "클리블랜드 브라운스 성적 저하; 프랜차이즈가 경쟁적으로 고전",
-      "lesson": "Sports management requires different expertise than logistics and retail operations",
-      "lessonKo": "스포츠 관리는 물류 및 소매 운영과 다른 전문 지식이 필요합니다",
-      "source": null
+      "year": 2014,
+      "description": "SEBI (Securities and Exchange Board of India) banned Kushal Pal Singh and DLF from capital markets for three years over non-disclosure of material information during the 2007 IPO. The ban was lifted in 2017 but significantly damaged DLF's reputation in the investment community.",
+      "descriptionKo": "인도증권거래위원회(SEBI)가 2007년 IPO 당시 중요 정보 미공개를 이유로 쿠샬 팔 싱과 DLF에 3년간 자본시장 참여 금지를 부과함. 2017년 금지가 해제되었지만 투자 커뮤니티에서 DLF의 명성에 상당한 타격을 입힘.",
+      "lesson": "The SEBI ban highlighted the importance of full transparency and regulatory compliance in public offerings, particularly for India's largest real estate companies that set market standards.",
+      "lessonKo": "SEBI의 제재는 공모에서의 완전한 투명성과 규제 준수의 중요성, 특히 시장 기준을 세우는 인도 최대 부동산 기업의 책임을 부각시킴.",
+      "source": "BusinessToday, SEBI Orders"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2015,
-      "netWorth": 7.2
+      "year": 2008,
+      "netWorth": 30.0
+    },
+    {
+      "year": 2010,
+      "netWorth": 7.0
+    },
+    {
+      "year": 2016,
+      "netWorth": 3.8
     },
     {
       "year": 2020,
-      "netWorth": 8.9
+      "netWorth": 5.0
     },
     {
       "year": 2024,
-      "netWorth": 10.3
+      "netWorth": 20.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 16.5
+    },
+    {
+      "year": 2026,
+      "netWorth": 10.8
     }
   ],
   "quotes": [
     {
-      "text": "The truck stop business is about service and reliability—people depend on us at critical moments",
-      "textKo": "트럭 정거장 사업은 서비스와 신뢰성에 관한 것입니다. 사람들은 중요한 순간에 우리를 의존합니다",
-      "context": "Forbes interview, 2017",
-      "contextKo": "Forbes 인터뷰, 2017년",
-      "source": null
+      "text": "If land is a canvas, cities are the art we leave behind.",
+      "textKo": "토지가 캔버스라면, 도시는 우리가 남기는 예술 작품이다.",
+      "context": "On his vision for urban development and city-building as a lasting legacy",
+      "contextKo": "도시 개발과 도시 건설을 영속적인 유산으로 보는 그의 비전에 대해",
+      "source": "Various interviews"
     }
   ],
   "books": {
-    "authored": [],
-    "recommended": [
+    "authored": [
       {
-        "title": "The Goal",
-        "author": "Eliyahu M. Goldratt",
-        "note": "Understanding operations excellence and bottleneck management",
-        "noteKo": "운영 우수성 및 병목 관리 이해"
+        "title": "Whatever the Odds: The Incredible Story Behind DLF",
+        "why": "Singh's autobiography detailing the extraordinary journey of building DLF from a struggling real estate firm into India's largest property developer, including the transformation of Gurgaon",
+        "whyKo": "어려움 속의 부동산 회사를 인도 최대 부동산 개발사로 키워낸 DLF의 놀라운 여정과 구르가온의 변신을 담은 싱의 자서전"
       }
-    ]
+    ],
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Built Pilot Flying J into a logistics empire with thousands of locations. Also known as owner of Cleveland Browns NFL franchise.",
-    "knownForKo": "Pilot Flying J를 수천 개의 지점을 가진 물류 제국으로 구축했습니다. 또한 클리블랜드 브라운스 NFL 프랜차이즈의 소유자로도 알려져 있습니다.",
-    "philanthropy": "Supports education initiatives in Tennessee and youth athletic programs",
-    "philanthropyKo": "테네시주 교육 이니셔티브 및 청소년 운동 프로그램을 지원합니다",
-    "controversies": "Faced legal challenges related to Pilot Flying J fuel fraud scandal",
-    "controversiesKo": "Pilot Flying J 연료 사기 스캔들과 관련된 법적 문제에 직면했습니다"
+    "knownFor": "Chairman of DLF Limited, India's largest real estate developer. Former Indian Army officer who transformed Gurgaon (now Gurugram) from rural farmland into India's premier corporate hub. Built DLF Cyber City, which hosts offices of major multinational corporations. Oversaw one of India's largest-ever IPOs in 2007. Known as the 'Father of Gurgaon' for single-handedly reshaping the city's landscape. Acquired approximately 3,500 acres around Gurgaon for development. Padma Bhushan recipient.",
+    "knownForKo": "인도 최대 부동산 개발사 DLF 리미티드의 회장. 구르가온(현 구루그람)을 농촌 지대에서 인도 최고의 기업 허브로 변모시킨 전직 인도 육군 장교. 주요 다국적 기업 사무실이 입주한 DLF 사이버시티를 건설함. 2007년 인도 역대 최대 규모 IPO 중 하나를 주도함. 도시의 풍경을 혼자의 힘으로 바꿔놓아 '구르가온의 아버지'로 불림. 구르가온 주변 약 3,500에이커의 토지를 매입하여 개발함. 파드마 부샨 수훈자.",
+    "philanthropy": "Through DLF Foundation, Singh has supported education, healthcare, and community development initiatives in Haryana and other parts of India. DLF has funded schools, hospitals, and skill development programs. The foundation focuses on rural development and improving livelihoods in communities around DLF's development areas.",
+    "philanthropyKo": "DLF 재단을 통해 하리아나주 등 인도 각지에서 교육, 의료, 지역사회 개발 이니셔티브를 지원해 왔음. DLF는 학교, 병원, 기술 개발 프로그램에 자금을 지원함. 재단은 DLF 개발 지역 주변 커뮤니티의 농촌 개발과 생계 향상에 중점을 두고 있음.",
+    "controversies": "DLF has been embroiled in several major controversies. In 2014, SEBI banned Singh and DLF from capital markets for three years over non-disclosure during the 2007 IPO. DLF faced allegations of improper land acquisition, including a CBI investigation into 50 acres in Amipur village, Haryana, involving links to Robert Vadra (son-in-law of Congress leader Sonia Gandhi) and former Haryana Chief Minister Bhupinder Singh Hooda. The 2016 Panama Papers named Kushal Pal Singh and his family for offshore companies. DLF has been repeatedly accused by opposition politicians and anti-corruption activists of benefiting from political connections in land deals.",
+    "controversiesKo": "DLF는 여러 주요 논란에 휘말려 왔음. 2014년 SEBI가 2007년 IPO 당시 정보 미공개를 이유로 싱과 DLF에 3년간 자본시장 참여를 금지함. DLF는 하리아나주 아미푸르 마을의 50에이커 토지 관련 부적절한 토지 취득 혐의로 CBI 수사를 받았으며, 이는 로버트 바드라(의회당 지도자 소니아 간디의 사위)와 전 하리아나주 장관 부핀데르 싱 후다와 연관됨. 2016년 파나마 페이퍼스에서 쿠샬 팔 싱과 그의 가족이 역외 회사로 이름이 올랐음. DLF는 야당 정치인들과 반부패 운동가들로부터 토지 거래에서 정치적 연줄을 이용했다는 비난을 반복적으로 받아왔음."
   },
   "sajuConnection": null
 }

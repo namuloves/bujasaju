@@ -1,130 +1,102 @@
 {
   "id": "159",
-  "name": "Mikhail Fridman",
-  "nameKo": "미하일 프리드만",
-  "netWorth": "$16.3B",
-  "nationality": "RU",
-  "industry": "Finance & Investments",
+  "name": "Stephen Ross",
+  "nameKo": "스티븐 로스",
+  "netWorth": "$17B",
+  "nationality": "US",
+  "industry": "Real Estate",
   "childhood": {
-    "birthPlace": "Lviv, Ukrainian SSR, Soviet Union (now Ukraine)",
-    "birthPlaceKo": "소련 우크라이나 소비에트 사회주의 공화국 리비우 (현 우크라이나)",
-    "familyBackground": "Born into a Jewish family in Lviv, western Ukraine; grew up during the Soviet era; won school Olympiads in physics and mathematics",
-    "familyBackgroundKo": "우크라이나 서부 리비우의 유대인 가정에서 출생; 소련 시대에 성장; 학교 물리학 및 수학 올림피아드에서 우승",
-    "education": "Graduated from school in Lviv (1980); Graduated with honors from Moscow Institute of Steel and Alloys (1986)",
-    "educationKo": "리비우 학교 졸업(1980); 모스크바 철강합금연구소 우등 졸업(1986)",
-    "earlyLife": "Born in 1964 in Lviv, western Ukraine, Fridman showed entrepreneurial instincts from a young age. While still in high school, he performed in a band. He won school Olympiads in physics and mathematics before winning a place at the prestigious Moscow Institute of Steel and Alloys. During university, he established his first ventures — running a nightclub called 'Strawberry Fields,' scalping theater tickets, and building what he jokingly called his 'first monopoly' in theater tickets at his university.",
-    "earlyLifeKo": "1964년 우크라이나 서부 리비우에서 태어난 프리드만은 어린 시절부터 기업가적 본능을 보였다. 고등학교 시절 밴드에서 공연했다. 물리학과 수학 올림피아드에서 우승한 후 명문 모스크바 철강합금연구소에 입학했다. 대학 시절 '스트로베리 필즈'라는 나이트클럽을 운영하고, 극장 표를 되팔며, 대학 내 극장 표에 대한 자신의 '최초의 독점'이라고 농담 삼아 말한 것을 구축하는 등 첫 사업들을 시작했다.",
-    "source": "Wikipedia, Vyapaar Jagat, Medium"
+    "birthPlace": "Detroit, Michigan, United States",
+    "birthPlaceKo": "미국 미시간주 디트로이트",
+    "familyBackground": "Born into a Jewish family in Detroit; grew up in modest circumstances",
+    "familyBackgroundKo": "디트로이트의 유대인 가정에서 태어남; 평범한 환경에서 성장",
+    "education": "Mumford High School in Detroit; Miami Beach Senior High School in Florida; BA in Business Administration from University of Michigan; JD from Wayne State University Law School; LL.M. in Taxation from NYU School of Law",
+    "educationKo": "디트로이트 멈포드 고등학교; 플로리다 마이애미 비치 시니어 고등학교; 미시간 대학교 경영학 학사; 웨인 주립대학교 법학전문대학원 법학 박사; 뉴욕대학교 법학대학원 세법 석사",
+    "earlyLife": "Born May 10, 1940, Ross grew up in Detroit. His grades initially prevented him from attending the University of Michigan directly, so he first attended the University of Florida before transferring. After earning three degrees including a tax law specialty from NYU, he began his career as a tax attorney at Coopers & Lybrand in Detroit. His mother lent him $10,000 to start his own business in New York.",
+    "earlyLifeKo": "1940년 5월 10일 태어난 로스는 디트로이트에서 성장했다. 성적이 미시간 대학교에 바로 입학할 수준이 되지 않아 플로리다 대학교에 먼저 다닌 후 편입했다. 뉴욕대 세법 전문학위를 포함해 세 개의 학위를 취득한 후, 디트로이트 쿠퍼스 앤 리브랜드에서 세무 변호사로 경력을 시작했다. 어머니가 뉴욕에서 사업을 시작할 수 있도록 1만 달러를 빌려주었다.",
+    "source": "Wikipedia, Related Ross"
   },
   "careerTimeline": [
     {
-      "year": 1986,
-      "event": "Graduated from Moscow Institute of Steel and Alloys; worked as design engineer at Elektrostal plant",
-      "eventKo": "모스크바 철강합금연구소 졸업; 엘렉트로스탈 공장에서 설계 엔지니어로 근무"
+      "year": 1966,
+      "event": "Began career as a tax attorney at Coopers & Lybrand in Detroit",
+      "eventKo": "디트로이트 쿠퍼스 앤 리브랜드에서 세무 변호사로 경력 시작"
     },
     {
-      "year": 1988,
-      "event": "Co-founded Alfa-Photo with German Khan and Alexey Kuzmichev, importing photography chemicals; also started window-washing and computer trading businesses",
-      "eventKo": "게르만 칸, 알렉세이 쿠즈미체프와 함께 사진 화학제품을 수입하는 알파포토를 공동 설립; 창문 세척 및 컴퓨터 무역 사업도 시작"
+      "year": 1968,
+      "event": "Moved to New York City; worked at Laird Inc.'s real estate subsidiary and then in corporate finance at Bear Stearns",
+      "eventKo": "뉴욕으로 이주; 레어드사 부동산 자회사와 베어스턴스 기업금융부에서 근무"
     },
     {
-      "year": 1989,
-      "event": "Founded Alfa-Eco, a commodities trading firm that expanded into oil and gas",
-      "eventKo": "석유 및 가스로 확장하는 상품 무역 회사 알파에코를 설립"
-    },
-    {
-      "year": 1991,
-      "event": "Co-founded Alfa-Bank, which grew to become one of Russia's largest private banks",
-      "eventKo": "러시아 최대 민간 은행 중 하나로 성장한 알파뱅크를 공동 설립"
-    },
-    {
-      "year": 1997,
-      "event": "Acquired TNK (Tyumen Oil Company) with Len Blavatnik and Viktor Vekselberg for $800 million",
-      "eventKo": "렌 블라바트닉, 빅토르 벡셀베르그와 함께 TNK(튜멘석유회사)를 8억 달러에 인수"
+      "year": 1972,
+      "event": "Founded Related Companies with $10,000 loan from his mother, focusing on affordable housing tax deals",
+      "eventKo": "어머니에게 빌린 1만 달러로 보조금 주택 세금 거래에 주력하는 릴레이티드 컴퍼니즈 설립"
     },
     {
       "year": 2003,
-      "event": "Formed TNK-BP joint venture with British Petroleum in a $6.75 billion deal",
-      "eventKo": "67억 5천만 달러 규모의 거래로 브리티시 페트롤리엄과 TNK-BP 합작회사를 설립"
+      "event": "Won the bid to develop the Hudson Yards site on Manhattan's West Side, the largest private real estate project in U.S. history",
+      "eventKo": "미국 역사상 최대 민간 부동산 프로젝트인 맨해튼 웨스트사이드 허드슨 야드 개발권 획득"
     },
     {
-      "year": 2013,
-      "event": "Sold TNK-BP stake to Rosneft for $27.7 billion; co-founded LetterOne (L1) international investment company",
-      "eventKo": "TNK-BP 지분을 로스네프트에 277억 달러에 매각; 국제 투자회사 레터원(L1)을 공동 설립"
+      "year": 2009,
+      "event": "Purchased 95% of the Miami Dolphins NFL team and the Hard Rock Stadium",
+      "eventKo": "NFL 마이애미 돌핀스 구단 지분 95%와 하드록 스타디움 매입"
     },
     {
-      "year": 2022,
-      "event": "Sanctioned by the European Union and United Kingdom following Russia's invasion of Ukraine",
-      "eventKo": "러시아의 우크라이나 침공 후 유럽연합과 영국의 제재 대상이 됨"
+      "year": 2019,
+      "event": "Opened Hudson Yards Phase 1, a $25 billion mixed-use development that transformed Manhattan's West Side",
+      "eventKo": "250억 달러 규모의 복합용도 개발로 맨해튼 웨스트사이드를 변모시킨 허드슨 야드 1단계 개장"
+    },
+    {
+      "year": 2025,
+      "event": "Related Companies manages portfolio valued at over $60 billion in assets",
+      "eventKo": "릴레이티드 컴퍼니즈가 600억 달러 이상의 자산 포트폴리오 관리"
     }
   ],
   "failures": [
     {
-      "year": 2022,
-      "description": "Sanctioned by the EU, UK, and later the US following Russia's invasion of Ukraine. Fridman found himself unable to use basic financial services, reportedly unable to pay restaurant bills or his cleaner, despite being worth billions on paper.",
-      "descriptionKo": "러시아의 우크라이나 침공 후 EU, 영국, 이후 미국의 제재를 받았다. 프리드만은 서류상으로는 수십억 달러의 자산가임에도 불구하고 기본적인 금융 서비스를 이용할 수 없었고, 식당 계산이나 청소부 급여도 지불할 수 없었다고 전해진다.",
-      "lesson": "The sanctions demonstrated how geopolitical risks can instantly freeze even the largest personal fortunes, regardless of the individual's stated position on the conflict.",
-      "lessonKo": "제재는 개인의 분쟁에 대한 입장과 관계없이 지정학적 위험이 최대 규모의 개인 재산도 즉시 동결시킬 수 있음을 보여주었다.",
-      "source": "Bloomberg, LADbible, Wikipedia"
-    },
-    {
-      "year": 2008,
-      "description": "Bitter corporate conflict between the Russian AAR consortium and BP over control of TNK-BP, with BP's CEO Bob Dudley forced to leave Russia. The dispute damaged Fridman's reputation in Western business circles.",
-      "descriptionKo": "TNK-BP의 경영권을 둘러싼 러시아 AAR 컨소시엄과 BP 간의 격렬한 기업 분쟁으로, BP의 CEO 밥 더들리가 러시아를 떠나야 했다. 이 분쟁은 서방 비즈니스 계에서 프리드만의 평판을 손상시켰다.",
-      "lesson": "The conflict ultimately led to the lucrative $27.7 billion sale to Rosneft in 2013, but the adversarial tactics employed raised lasting questions about governance standards.",
-      "lessonKo": "이 갈등은 궁극적으로 2013년 로스네프트에 277억 달러의 수익성 높은 매각으로 이어졌지만, 사용된 적대적 전술은 거버넌스 기준에 대한 지속적인 의문을 제기했다.",
-      "source": "Wikipedia, Bloomberg"
+      "year": 2019,
+      "description": "Faced significant public backlash and boycott calls after hosting a fundraiser for President Trump in the Hamptons, leading to protests and calls to boycott businesses at Hudson Yards including Equinox and SoulCycle.",
+      "descriptionKo": "햄프턴에서 트럼프 대통령을 위한 모금 행사를 개최한 후 거센 대중적 반발과 불매 운동에 직면했으며, 에퀴녹스와 소울사이클 등 허드슨 야드 입점 사업장에 대한 항의 시위와 불매 운동이 벌어졌다.",
+      "lesson": "The controversy highlighted the risks of mixing political activities with major commercial developments and the sensitivity of modern consumers to political affiliations of business leaders.",
+      "lessonKo": "이 논란은 정치 활동과 대규모 상업 개발을 혼합하는 위험성과, 비즈니스 리더의 정치적 소속에 대한 현대 소비자의 민감성을 부각시켰다.",
+      "source": "Wikipedia, New York Times"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2005,
-      "netWorth": 5.0
+      "year": 2010,
+      "netWorth": 3.1
     },
     {
-      "year": 2013,
-      "netWorth": 16.5
+      "year": 2015,
+      "netWorth": 7.6
     },
     {
-      "year": 2018,
-      "netWorth": 15.0
+      "year": 2019,
+      "netWorth": 7.7
     },
     {
       "year": 2022,
-      "netWorth": 12.6
+      "netWorth": 12.3
     },
     {
       "year": 2025,
-      "netWorth": 16.3
+      "netWorth": 17.0
     }
   ],
-  "quotes": [
-    {
-      "text": "If the people who are in charge in the EU believe that because of sanctions, I could approach Mr. Putin and tell him to stop the war, and it will work, then I'm afraid we're all in big trouble.",
-      "textKo": "EU 담당자들이 제재 때문에 내가 푸틴에게 접근해서 전쟁을 멈추라고 말하면 효과가 있을 거라고 믿는다면, 우리 모두 큰 곤경에 처한 것이 두렵습니다.",
-      "context": "Speaking about Western sanctions imposed on Russian oligarchs after the 2022 invasion of Ukraine",
-      "contextKo": "2022년 우크라이나 침공 후 러시아 올리가르히에 부과된 서방 제재에 대해 발언",
-      "source": "Bloomberg (2022)"
-    },
-    {
-      "text": "We sincerely believed we are such good friends of the Western world that we couldn't be punished.",
-      "textKo": "우리는 진심으로 우리가 서방 세계의 좋은 친구여서 처벌받을 수 없다고 믿었습니다.",
-      "context": "Reflecting on the shock of being sanctioned despite years of investment and engagement with Western institutions",
-      "contextKo": "수년간 서방 기관들과 투자 및 교류를 해왔음에도 제재를 받게 된 충격에 대한 회고",
-      "source": "Bloomberg (2022)"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Co-founding Alfa Group, one of Russia's largest private business conglomerates; co-founding Alfa-Bank; orchestrating the TNK-BP joint venture and its $27.7 billion sale",
-    "knownForKo": "러시아 최대 민간 기업 그룹 중 하나인 알파그룹 공동 설립; 알파뱅크 공동 설립; TNK-BP 합작회사와 277억 달러 매각 주도",
-    "philanthropy": "Founder and former vice president of the Russian Jewish Congress (1996); recipient of the Golden Plate Award from the Academy of Achievement (2003); donated to various Jewish cultural and educational causes",
-    "philanthropyKo": "러시아유대인의회 설립자 겸 전 부회장(1996); 미국 성취 아카데미 골든 플레이트 상 수상(2003); 다양한 유대 문화 및 교육 사업에 기부",
-    "controversies": "Sanctioned by EU, UK, and US over Russia's invasion of Ukraine (2022-2023); bitter corporate dispute with BP over TNK-BP (2008); named in connection with Russian oligarch networks; offered to transfer $1 billion to Ukrainian bank to lift sanctions",
-    "controversiesKo": "러시아의 우크라이나 침공으로 EU, 영국, 미국의 제재 대상(2022-2023); TNK-BP를 둘러싼 BP와의 격렬한 기업 분쟁(2008); 러시아 올리가르히 네트워크와 관련하여 이름이 언급됨; 제재 해제를 위해 우크라이나 은행에 10억 달러 이전 제안"
+    "knownFor": "Building Hudson Yards — the largest private real estate development in U.S. history; transforming Manhattan's West Side; owning the Miami Dolphins; extraordinary philanthropy toward education",
+    "knownForKo": "미국 역사상 최대 민간 부동산 개발인 허드슨 야드 건설; 맨해튼 웨스트사이드 변모; 마이애미 돌핀스 소유; 교육에 대한 탁월한 자선 활동",
+    "philanthropy": "Largest donor in University of Michigan history with lifetime contributions of $478 million; the Stephen M. Ross School of Business at Michigan is named after him; significant supporter of various educational causes",
+    "philanthropyKo": "미시간 대학교 역사상 최대 기부자로 총 4억 7,800만 달러 기부; 미시간 대학교 스티븐 M. 로스 경영대학원이 그의 이름을 딤; 다양한 교육 사업의 주요 후원자",
+    "controversies": "Faced backlash for hosting a Trump fundraiser in 2019; Hudson Yards has been criticized for being an enclave for the ultra-wealthy; boycotts of Equinox and SoulCycle due to his political activities",
+    "controversiesKo": "2019년 트럼프 모금 행사 개최로 반발에 직면; 허드슨 야드가 초부유층 전용 구역이라는 비판; 정치 활동으로 인한 에퀴녹스와 소울사이클 불매 운동"
   },
   "sajuConnection": null
 }

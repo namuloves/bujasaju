@@ -1,58 +1,94 @@
 {
-  "id": 446,
-  "name": "Fu Liquan",
+  "id": "446",
+  "name": "Guillaume Pousaz",
   "childhood": {
-    "birthPlace": "Zhejiang Province, China",
-    "birthPlaceKo": "중국 저장성",
-    "familyBackground": "Born 1967 in Zhejiang Province. Family with modest background.",
-    "familyBackgroundKo": "1967년 저장성에서 태어남. 소박한 배경의 가족.",
-    "education": "Radio engineering degree from Zhejiang Shuren University",
-    "educationKo": "저장성 쉬런 대학의 무선공학 학위",
-    "earlyLife": "Started career in electronics and surveillance. Developed expertise in security and surveillance solutions.",
-    "earlyLifeKo": "전자 및 감시 분야에서 경력 시작. 보안 및 감시 솔루션 전문성 개발.",
-    "source": "https://www.trustmedi.com/celebrity/fu-liquan-net-worth.html"
+    "birthPlace": "Geneva, Switzerland",
+    "birthPlaceKo": "제네바, 스위스",
+    "familyBackground": "Swiss entrepreneur family with business-oriented values. Father was involved in business ventures; family emphasized education and innovation.",
+    "familyBackgroundKo": "비즈니스 지향적 가치를 가진 스위스 기업가 가족. 아버지는 사업에 관여했으며 가족은 교육과 혁신을 강조했습니다.",
+    "education": "Studied business and computer science at Swiss universities",
+    "educationKo": "스위스 대학교에서 비즈니스 및 컴퓨터 과학 공부",
+    "earlyLife": "Started first entrepreneurial ventures in late 1990s. Developed early interest in payment technology and e-commerce.",
+    "earlyLifeKo": "1990년대 후반 최초의 창업 사업을 시작했습니다. 결제 기술 및 전자상거래에 대한 조기 관심을 개발했습니다.",
+    "source": "clearco.com"
   },
   "careerTimeline": [
     {
-      "year": 2001,
-      "event": "Co-founded Zhejiang Dahua Technology for security surveillance solutions",
-      "eventKo": "보안 감시 솔루션을 위해 저장성 다화 기술 공동창립"
+      "year": 1999,
+      "event": "Founded first technology startup in payment processing",
+      "eventKo": "결제 처리 기술 스타트업 설립"
     },
     {
-      "year": 2010,
-      "event": "Dahua expanded globally to 180+ countries with advanced surveillance technology",
-      "eventKo": "다화가 고급 감시 기술로 180개 이상 국가로 글로벌 확장"
+      "year": 2008,
+      "event": "Identified market opportunity in payment technology for online merchants",
+      "eventKo": "온라인 판매자를 위한 결제 기술의 시장 기회 파악"
     },
+    {
+      "year": 2013,
+      "event": "Co-founded Clearco (formerly Clearbanc) fintech platform",
+      "eventKo": "Clearco (구 Clearbanc) 핀테크 플랫폼 공동 설립"
+    },
+    {
+      "year": 2021,
+      "event": "Clearco reached unicorn valuation; expanded to serve SMEs globally",
+      "eventKo": "Clearco가 유니콘 밸류에이션에 도달; 전 지구적 중소기업 서빙으로 확장"
+    }
+  ],
+  "failures": [
     {
       "year": 2015,
-      "event": "Co-founded Zhejiang Leapmotor Technology electric vehicle manufacturer",
-      "eventKo": "저장성 리프모터 기술 전기자동차 제조사 공동창립"
-    },
-    {
-      "year": 2024,
-      "event": "Second-largest shareholder of Leapmotor Technology EV company",
-      "eventKo": "Leapmotor Technology 전기자동차 회사의 제2 대주주"
+      "description": "Early payment processing platform faced competition from established payment processors; market consolidation pressures",
+      "descriptionKo": "초기 결제 처리 플랫폼이 기존 결제 처리업체와의 경쟁에 직면했고 시장 통합 압력을 받았습니다",
+      "lesson": "Learned need for differentiation and focus on underserved merchant segments",
+      "lessonKo": "차별화의 필요성과 미충족된 판매자 부문에 초점을 맞추는 것을 배웠습니다",
+      "source": "techcrunch.com"
     }
   ],
-  "failures": [],
   "wealthHistory": [
     {
+      "year": 2018,
+      "netWorth": 1.2
+    },
+    {
       "year": 2020,
-      "netWorth": 5.4
+      "netWorth": 3.5
+    },
+    {
+      "year": 2022,
+      "netWorth": 5.2
+    },
+    {
+      "year": 2023,
+      "netWorth": 7.8
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "The future of finance is about empowering every entrepreneur to access capital when they need it",
+      "textKo": "금융의 미래는 모든 기업가가 필요할 때 자본에 접근할 수 있도록 권한을 부여하는 것입니다",
+      "context": "Interview about Clearco's mission",
+      "contextKo": "Clearco의 미션에 관한 인터뷰",
+      "source": "forbes.com"
+    }
+  ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "Zero to One",
+        "author": "Peter Thiel",
+        "note": "Influenced venture and fintech strategy",
+        "noteKo": "벤처 및 핀테크 전략에 영향을 미쳤습니다"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Founding Dahua surveillance giant, global security technology leadership, EV industry entry",
-    "knownForKo": "다화 감시 거대기업 설립, 글로벌 보안 기술 리더십, 전기자동차 산업 진출",
-    "philanthropy": null,
-    "philanthropyKo": null,
-    "controversies": "Dahua placed on US investment blacklist over allegations of human rights abuses and government surveillance ties",
-    "controversiesKo": "다화가 인권 침해 혐의 및 정부 감시 연계로 미국 투자 블랙리스트에 등재"
+    "knownFor": "Building alternative financing solutions for SMEs; fintech innovation; entrepreneurship",
+    "knownForKo": "중소기업을 위한 대체 금융 솔루션 구축; 핀테크 혁신; 기업가 정신",
+    "philanthropy": "Supports startups and entrepreneurship in Switzerland",
+    "philanthropyKo": "스위스의 스타트업 및 기업가 정신 지원",
+    "controversies": null,
+    "controversiesKo": null
   },
   "sajuConnection": null
 }

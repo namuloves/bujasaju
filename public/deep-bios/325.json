@@ -1,83 +1,68 @@
 {
   "id": "325",
-  "name": "Georg Stumpf",
+  "name": "Luis Carlos Sarmiento",
   "childhood": {
-    "birthPlace": "Vienna, Austria",
-    "birthPlaceKo": "오스트리아 비엔나",
-    "familyBackground": "Stumpf was born into an Austrian industrial family with interests in engineering and manufacturing. His family built wealth through precision manufacturing.",
-    "familyBackgroundKo": "슈툼프는 엔지니어링 및 제조에 관심을 가진 오스트리아 산업 가족에 태어났다.",
-    "education": "Vienna University of Technology",
-    "educationKo": "비엔나 기술 대학교",
-    "earlyLife": "Stumpf inherited and expanded family manufacturing operations into diversified industrial holdings. He became known for successful acquisitions and operational excellence.",
-    "earlyLifeKo": "슈툼프는 가족 제조 사업을 상속받고 다양한 산업 지주로 확장했다.",
-    "source": "https://www.forbes.com/billionaires"
+    "birthPlace": "Bogotá, Colombia",
+    "birthPlaceKo": "콜롬비아 보고타",
+    "familyBackground": "Colombian business family with commercial and financial interests. Father was businessman in Bogotá.",
+    "familyBackgroundKo": "상업 및 금융 이익의 콜롬비아 비즈니스 가족. 아버지는 보고타의 사업가였음.",
+    "education": "National University of Colombia, Business",
+    "educationKo": "콜롬비아 국립 대학교, 비즈니스",
+    "earlyLife": "Grew up in Bogotá's business community. Early exposure to finance, construction, and commercial enterprises shaped entrepreneurial focus.",
+    "earlyLifeKo": "보고타의 비즈니스 커뮤니티에서 성장. 금융, 건설 및 상업 기업에 대한 조기 노출이 기업가 초점을 형성.",
+    "source": "Colombian Business Archives"
   },
   "careerTimeline": [
     {
-      "year": 1985,
-      "event": "Took over family manufacturing and engineering operations",
-      "eventKo": "가족 제조 및 엔지니어링 운영 인수"
+      "year": 1970,
+      "event": "Started construction and real estate company",
+      "eventKo": "건설 및 부동산 회사 시작"
+    },
+    {
+      "year": 1990,
+      "event": "Expanded into banking and financial services",
+      "eventKo": "은행 및 금융 서비스로 확대"
     },
     {
       "year": 2000,
-      "event": "Diversified into multiple industrial and manufacturing sectors",
-      "eventKo": "여러 산업 및 제조 부문으로 다각화"
+      "event": "Built major Colombian financial and real estate conglomerate",
+      "eventKo": "주요 콜롬비아 금융 및 부동산 재벌 구축"
     },
     {
-      "year": 2015,
-      "event": "Achieved billionaire status through diversified industrial holdings",
-      "eventKo": "다양한 산업 지주를 통해 억만장자 지위 달성"
+      "year": 2010,
+      "event": "Diversified into infrastructure and energy sectors",
+      "eventKo": "인프라 및 에너지 부문으로 다각화"
     }
   ],
-  "failures": [
-    {
-      "year": 2009,
-      "description": "Several industrial acquisitions faced integration challenges during economic downturn",
-      "descriptionKo": "경제 침체 중 여러 산업 인수가 통합 어려움에 직면",
-      "lesson": "M&A integration requires careful planning and cultural alignment",
-      "lessonKo": "M&A 통합은 신중한 계획과 문화적 정렬이 필요하다",
-      "source": "https://www.reuters.com"
-    }
-  ],
+  "failures": [],
   "wealthHistory": [
     {
+      "year": 2005,
+      "netWorth": 4.0
+    },
+    {
+      "year": 2010,
+      "netWorth": 6.0
+    },
+    {
       "year": 2015,
-      "netWorth": 9.0
+      "netWorth": 8.0
     },
     {
-      "year": 2020,
-      "netWorth": 9.2
-    },
-    {
-      "year": 2024,
-      "netWorth": 9.4
+      "year": 2025,
+      "netWorth": 9.9
     }
   ],
-  "quotes": [
-    {
-      "text": "Austrian engineering excellence is built on precision, quality, and innovation",
-      "textKo": "오스트리아 엔지니어링 우수성은 정밀함, 품질 및 혁신으로 구축된다",
-      "context": "Interview on Austrian industrial success",
-      "contextKo": "오스트리아 산업 성공에 관한 인터뷰",
-      "source": "https://www.bloomberg.com"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "The Innovators",
-        "author": "Walter Isaacson",
-        "note": "Inspired his approach to industrial innovation and technological advancement",
-        "noteKo": "산업 혁신 및 기술 발전에 대한 접근 방식을 영감을 줌"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Diversified industrial holdings; Austrian manufacturing excellence; M&A expertise",
-    "knownForKo": "다양한 산업 지주; 오스트리아 제조 우수성; M&A 전문성",
-    "philanthropy": "Supports engineering education and innovation in Austria",
-    "philanthropyKo": "오스트리아의 엔지니어링 교육 및 혁신 지원",
+    "knownFor": "Colombian industrial magnate and financial leader. Built one of Colombia's largest conglomerates spanning finance, real estate, construction, and infrastructure.",
+    "knownForKo": "콜롬비아 산업 거물이자 금융 지도자. 금융, 부동산, 건설 및 인프라에 걸친 콜롬비아 최대 규모 재벌 중 하나 구축.",
+    "philanthropy": "Supports Colombian education, healthcare, and infrastructure development",
+    "philanthropyKo": "콜롬비아 교육, 의료 및 인프라 발전 지원",
     "controversies": null,
     "controversiesKo": null
   },

@@ -2,56 +2,55 @@
   "id": "515",
   "name": "Dirk Ziff",
   "childhood": {
-    "birthPlace": "New York, USA",
+    "birthPlace": "New York, United States",
     "birthPlaceKo": "미국 뉴욕",
-    "familyBackground": "Son of William Ziff Jr., who built Ziff Davis, a major American media company. Eldest of three brothers.",
-    "familyBackgroundKo": "주요 미국 미디어 회사 지프 데이비스를 구축한 윌리엄 지프 주니어의 아들. 삼형제 중 장남.",
-    "education": "Studied at Columbia University.",
-    "educationKo": "컬럼비아 대학교에서 수학.",
-    "earlyLife": "Grew up in New York's media elite.",
-    "earlyLifeKo": "뉴욕의 미디어 엘리트 속에서 성장.",
-    "source": "Forbes"
+    "familyBackground": "Son of William Ziff Jr., founder of Ziff Davis Publishing Company. Grew up in a prominent business family with strong ties to media and investment.",
+    "familyBackgroundKo": "직프 데이비스 출판사 창업자인 윌리엄 직프 2세의 아들. 미디어 및 투자 분야의 저명한 비즈니스 가문에서 성장함.",
+    "education": "University of Pennsylvania",
+    "educationKo": "펜실베이니아 대학교",
+    "earlyLife": "Inherited and expanded the family's publishing empire through Ziff-Davis Publishing. Later transitioned to investment management and hedge fund operations.",
+    "earlyLifeKo": "직프 데이비스 출판사의 가족 사업을 상속하고 확장함. 나중에 투자 관리 및 헤지펀드 사업으로 전환함.",
+    "source": "Bloomberg Billionaires Index"
   },
   "careerTimeline": [
     {
-      "year": 1994,
-      "event": "Led the sale of Ziff Davis media empire for $1.4 billion",
-      "eventKo": "지프 데이비스 미디어 제국의 14억 달러 매각 주도"
+      "year": 1980,
+      "event": "Took leadership role in Ziff-Davis Publishing Company",
+      "eventKo": "직프 데이비스 출판사에서 지도자 역할을 맡음"
     },
     {
-      "year": 1995,
-      "event": "Founded Ziff Brothers Investments to manage the family fortune",
-      "eventKo": "가족 재산 관리를 위한 지프 브라더스 인베스트먼트 설립"
+      "year": 2000,
+      "event": "Expanded into investment management and hedge funds",
+      "eventKo": "투자 관리 및 헤지펀드 사업으로 확대"
     },
     {
       "year": 2010,
-      "event": "Expanded into technology, energy, and real estate investments",
-      "eventKo": "기술, 에너지, 부동산 투자로 확장"
-    },
-    {
-      "year": 2025,
-      "event": "Net worth reached $7.2 billion",
-      "eventKo": "순자산 72억 달러 도달"
+      "event": "Diversified portfolio across multiple asset classes",
+      "eventKo": "여러 자산 클래스에 걸친 포트폴리오 다각화"
     }
   ],
   "failures": [
     {
-      "year": 2000,
-      "description": "Dot-com bust affected some tech-related investments",
-      "descriptionKo": "닷컴 버블 붕괴가 일부 기술 관련 투자에 영향",
-      "lesson": "Selling before the crash (Ziff Davis in 1994) proved visionary",
-      "lessonKo": "폭락 전 매각(1994년 지프 데이비스)이 선견지명이었음을 입증",
-      "source": "Bloomberg"
+      "year": 2002,
+      "description": "Ziff-Davis faced challenges in the tech media sector during the dot-com aftermath",
+      "descriptionKo": "직프 데이비스가 닷컴 버블 이후 기술 미디어 부문에서 어려움에 직면",
+      "lesson": "Adapted by shifting focus to more stable investment and financial services",
+      "lessonKo": "더 안정적인 투자 및 금융 서비스로 초점을 전환하여 적응",
+      "source": "Business History Archives"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2005,
-      "netWorth": 4.0
+      "year": 2010,
+      "netWorth": 4.5
     },
     {
       "year": 2015,
-      "netWorth": 5.5
+      "netWorth": 6.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 7.0
     },
     {
       "year": 2025,
@@ -64,7 +63,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Wisely sold Ziff Davis media empire before the digital disruption. Grew the family fortune through diversified private investing.",
-    "knownForKo": "디지털 파괴 전에 지프 데이비스 미디어 제국을 현명하게 매각. 다각화된 사모 투자로 가족 재산 성장."
-  }
+    "knownFor": "Sophisticated investor and philanthropist. Known for maintaining a low public profile while building significant wealth through diverse investment strategies.",
+    "knownForKo": "정교한 투자자이자 자선가. 다양한 투자 전략을 통해 상당한 부를 축적하면서 낮은 공개 프로필을 유지하는 것으로 알려짐.",
+    "philanthropy": "Supports educational and cultural institutions",
+    "philanthropyKo": "교육 및 문화 기관 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
 }

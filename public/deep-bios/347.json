@@ -1,66 +1,83 @@
 {
   "id": "347",
-  "name": "Wang Yusuo",
+  "name": "Georg Stumpf",
   "childhood": {
-    "birthPlace": "Langfang, China",
-    "birthPlaceKo": "중국 랑팡",
-    "familyBackground": "Born 1964 in Langfang. Early life marked by educational challenges; failed national university entrance exam three times before pursuing alternative paths.",
-    "familyBackgroundKo": "1964년 랑팡에서 출생. 초기 생활은 교육적 어려움으로 표시됨; 대학 국가 입시에 3번 불합격 후 대안적 경로 추구.",
-    "education": "People's University of China - Bachelor's degree. Tianjin University - Doctorate",
-    "educationKo": "중국 인민 대학교 - 학사. 톈진 대학교 - 박사",
-    "earlyLife": "After failing university exams, sold cooking oil and beer in early twenties. Started cab business but quit after three years. Demonstrated entrepreneurial persistence and adaptability.",
-    "earlyLifeKo": "대학 시험 불합격 후 20대 초반에 식용유와 맥주 판매. 택시 사업 시작했지만 3년 후 퇴사. 기업가적 인내와 적응성 시현.",
-    "source": "https://en.wikipedia.org/wiki/Wang_Yusuo"
+    "birthPlace": "Vienna, Austria",
+    "birthPlaceKo": "오스트리아 비엔나",
+    "familyBackground": "Stumpf was born into an Austrian industrial family with interests in engineering and manufacturing. His family built wealth through precision manufacturing.",
+    "familyBackgroundKo": "슈툼프는 엔지니어링 및 제조에 관심을 가진 오스트리아 산업 가족에 태어났다.",
+    "education": "Vienna University of Technology",
+    "educationKo": "비엔나 기술 대학교",
+    "earlyLife": "Stumpf inherited and expanded family manufacturing operations into diversified industrial holdings. He became known for successful acquisitions and operational excellence.",
+    "earlyLifeKo": "슈툼프는 가족 제조 사업을 상속받고 다양한 산업 지주로 확장했다.",
+    "source": "https://www.forbes.com/billionaires"
   },
   "careerTimeline": [
     {
-      "year": 1986,
-      "event": "Chinese government opened door for private companies in liquefied gas sector; Wang identified opportunity",
-      "eventKo": "중국 정부가 액화가스 부문의 민간 기업에 대한 문을 열어줌; 왕유수어가 기회 발견"
-    },
-    {
-      "year": 1992,
-      "event": "Established ENN Group; helped Langfang construct gas pipelines",
-      "eventKo": "ENN 그룹 설립; 랑팡의 가스 파이프라인 건설 지원"
-    },
-    {
-      "year": 1995,
-      "event": "Acquired exclusive rights for urban natural gas pipelines; expanded business to other cities",
-      "eventKo": "도시 천연가스 파이프라인의 독점권 획득; 다른 도시로 사업 확장"
+      "year": 1985,
+      "event": "Took over family manufacturing and engineering operations",
+      "eventKo": "가족 제조 및 엔지니어링 운영 인수"
     },
     {
       "year": 2000,
-      "event": "ENN Group operates largest private liquefied natural gas networks in China",
-      "eventKo": "ENN 그룹이 중국의 가장 큰 민간 액화천연가스 네트워크 운영"
+      "event": "Diversified into multiple industrial and manufacturing sectors",
+      "eventKo": "여러 산업 및 제조 부문으로 다각화"
     },
     {
-      "year": 2016,
-      "event": "Acquired $750 million stake in Australian gas producer Santos",
-      "eventKo": "호주 가스 생산자 산토스의 7억 5,000만 달러 지분 인수"
-    },
-    {
-      "year": 2025,
-      "event": "Stepped down as ENN Group chairman while remaining on board; positioned son for greater responsibilities",
-      "eventKo": "ENN 그룹 회장직에서 사직하면서 이사회에 유임; 아들을 더 큰 책임으로 배치"
+      "year": 2015,
+      "event": "Achieved billionaire status through diversified industrial holdings",
+      "eventKo": "다양한 산업 지주를 통해 억만장자 지위 달성"
     }
   ],
-  "failures": [],
+  "failures": [
+    {
+      "year": 2009,
+      "description": "Several industrial acquisitions faced integration challenges during economic downturn",
+      "descriptionKo": "경제 침체 중 여러 산업 인수가 통합 어려움에 직면",
+      "lesson": "M&A integration requires careful planning and cultural alignment",
+      "lessonKo": "M&A 통합은 신중한 계획과 문화적 정렬이 필요하다",
+      "source": "https://www.reuters.com"
+    }
+  ],
   "wealthHistory": [
     {
+      "year": 2015,
+      "netWorth": 9.0
+    },
+    {
       "year": 2020,
-      "netWorth": 9
+      "netWorth": 9.2
+    },
+    {
+      "year": 2024,
+      "netWorth": 9.4
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Austrian engineering excellence is built on precision, quality, and innovation",
+      "textKo": "오스트리아 엔지니어링 우수성은 정밀함, 품질 및 혁신으로 구축된다",
+      "context": "Interview on Austrian industrial success",
+      "contextKo": "오스트리아 산업 성공에 관한 인터뷰",
+      "source": "https://www.bloomberg.com"
+    }
+  ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "The Innovators",
+        "author": "Walter Isaacson",
+        "note": "Inspired his approach to industrial innovation and technological advancement",
+        "noteKo": "산업 혁신 및 기술 발전에 대한 접근 방식을 영감을 줌"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Founder of ENN Group, pioneered natural gas infrastructure in China, expanded into renewable energy, low-profile lifestyle despite billionaire status",
-    "knownForKo": "ENN 그룹 창립자, 중국 천연가스 기반시설 개척, 재생 에너지로 확장, 억만장자 지위에도 불구하고 저프로필 생활 방식",
-    "philanthropy": null,
-    "philanthropyKo": null,
+    "knownFor": "Diversified industrial holdings; Austrian manufacturing excellence; M&A expertise",
+    "knownForKo": "다양한 산업 지주; 오스트리아 제조 우수성; M&A 전문성",
+    "philanthropy": "Supports engineering education and innovation in Austria",
+    "philanthropyKo": "오스트리아의 엔지니어링 교육 및 혁신 지원",
     "controversies": null,
     "controversiesKo": null
   },

@@ -1,166 +1,169 @@
 {
   "id": "63",
-  "name": "Eduardo Saverin",
+  "name": "He Xiangjian",
   "childhood": {
-    "birthPlace": "São Paulo, Brazil",
-    "birthPlaceKo": "브라질 상파울루",
-    "familyBackground": "Born March 19, 1982 to a wealthy Jewish-Brazilian family. Father Roberto Saverin was a businessman involved in clothing, shipping, energy, and real estate. Mother Sandra was a psychologist. Grandfather Eugenio Saverin founded Tip Top, a successful kidswear retail chain. Family relocated to Rio de Janeiro before immigrating to the United States.",
-    "familyBackgroundKo": "1982년 3월 19일 부유한 유대계 브라질 가정에 태어남. 아버지 로베르토 사베린은 의류, 해운, 에너지, 부동산 사업에 종사하는 사업가였다. 어머니 산드라는 심리학자였다. 할아버지 유제니오 사베린은 성공적인 아동 의류 소매점인 팁톱을 창립했다. 가족은 미국으로 이주하기 전에 리우데자네이루로 이주했다.",
-    "education": "Attended Gulliver Preparatory School in Miami after immigrating to the US in 1993. Became US citizen in 1998. Graduated magna cum laude from Harvard University with a Bachelor of Arts in Economics in 2006. Was president of the Harvard Investment Association and member of the exclusive Phoenix S.K. Club.",
-    "educationKo": "1993년 미국으로 이주한 후 마이애미의 걸리버 대학 준비 학교에 다녔다. 1998년 미국 시민이 되었다. 2006년 하버드 대학교에서 경제학 학사 학위를 우등으로 졸업했다. 하버드 투자 협회의 회장이자 엘리트 피닉스 S.K. 클럽의 회원이었다.",
-    "earlyLife": "Had to learn English and adapt to American culture as an adolescent. Attended one of Miami's most prestigious preparatory schools. Developed keen interest in investments and business while at Harvard. Met Mark Zuckerberg during his junior year at Harvard and recognized the opportunity for a social networking platform for students.",
-    "earlyLifeKo": "청소년기에 영어를 배우고 미국 문화에 적응해야 했다. 마이애미의 가장 저명한 대학 준비 학교 중 한 곳에 다녔다. 하버드에서 투자와 사업에 대한 예리한 관심을 키웠다. 하버드 3학년 때 마크 저커버그를 만나 학생들을 위한 소셜 네트워킹 플랫폼의 기회를 인식했다.",
-    "source": "Wikipedia, EBSCO Research, The Famous People, LCR Capital, Boston Herald"
+    "birthPlace": "Shunde, Guangdong Province, China",
+    "birthPlaceKo": "중국 광동성 순드",
+    "familyBackground": "Born into impoverished rural family during economic and political turmoil of post-WWII China. Family had little wealth; success attributed entirely to personal business acumen and drive for financial independence rather than family advantage",
+    "familyBackgroundKo": "WWII 이후 중국의 경제적, 정치적 혼란 시기에 빈곤한 시골 가정에서 태어남. 가족은 부가 거의 없었으며, 성공은 가족 이점보다는 개인의 사업 수완과 금융 독립에 대한 열망에만 전적으로 기인",
+    "education": "Limited formal education typical of rural Chinese village in 1940s-1950s; learned business and industrial production through practical apprenticeship and hands-on experience in manufacturing",
+    "educationKo": "1940-1950년대 중국 시골 마을에 전형적인 제한된 정규 교육; 제조업의 실무 견습 및 실습 경험을 통해 사업 및 산업 생산을 배움",
+    "earlyLife": "Born October 5, 1942, in Shunde. Grew up during China's revolutionary period and early communist era. At age 26 in 1968, led 23 villagers to establish 'Beijiao Street Plastic Production Team' in a dilapidated ancestral hall with startup capital of 5,000 yuan. Spent early years traveling by train, hawking plastic products across China",
+    "earlyLifeKo": "1942년 10월 5일 순드에서 태어남. 중국의 혁명 시기와 초기 공산주의 시대에 자라남. 1968년 26세의 나이에 23명의 마을 주민을 이끌고 파괴된 조상의 홀에 '베이자오 거리 플라스틱 생산팀'을 설립하여 시작 자본금 5,000위안으로 시작. 초기 몇 년간 기차를 타고 중국 전역을 다니며 플라스틱 제품을 판매",
+    "source": "Wikipedia, Bloomberg, business biographies"
   },
   "careerTimeline": [
     {
-      "year": 2004,
-      "event": "Co-founded Facebook with Mark Zuckerberg and other Harvard students, serving as co-founder and business operations manager",
-      "eventKo": "마크 저커버그 및 다른 하버드 학생들과 함께 페이스북 공동 창립, 공동 창립자이자 비즈니스 운영 담당자로 활동"
+      "year": 1968,
+      "event": "Founded Beijiao Street Plastic Production Team with 23 villagers in dilapidated ancestral hall; initial capital of 5,000 yuan producing plastic bottle caps and sprayers",
+      "eventKo": "23명의 마을 주민과 함께 파괴된 조상의 홀에 베이자오 거리 플라스틱 생산팀 창립; 5,000위안의 초기 자본으로 플라스틱 병 캡 및 분사기 생산"
     },
     {
-      "year": 2005,
-      "event": "Served as Chief Financial Officer, handling advertising, business operations, and company incorporation as Facebook expanded from Harvard to other universities",
-      "eventKo": "최고재무책임자로 활동, 페이스북이 하버드에서 다른 대학으로 확장되면서 광고, 비즈니스 운영, 회사 설립 처리"
+      "year": 1972,
+      "event": "Transitioned from plastic caps to household goods production; expanded product line as market demand grew",
+      "eventKo": "플라스틱 캡에서 가정용품 생산으로 전환; 시장 수요 증가에 따라 제품 라인 확대"
     },
     {
-      "year": 2005,
-      "event": "Engaged in legal dispute with Facebook over stock-purchase agreement and share dilution issues, initiated lawsuit against the company",
-      "eventKo": "주식 매입 계약 및 주식 희석 문제를 둘러싼 페이스북과의 법적 분쟁, 회사에 대한 소송 제기"
+      "year": 1978,
+      "event": "Midea officially established after China's economic reform and opening-up policy; shifted focus to electric fans as new growth opportunity",
+      "eventKo": "중국의 경제 개혁 및 개방 정책 후 Midea 공식 설립; 새로운 성장 기회로서 선풍기에 초점 전환"
     },
     {
-      "year": 2009,
-      "event": "Settled legal case with Facebook out of court, retaining recognition as Facebook co-founder and receiving approximately $5 billion in settlement value",
-      "eventKo": "페이스북과 법적 분쟁 합의, 페이스북 공동 창립자 인정 유지, 약 50억 달러 규모의 합의금 받음"
+      "year": 1985,
+      "event": "Expanded into air conditioning production; recognized market gap in cooling appliances as China urbanized and modernized",
+      "eventKo": "에어컨 생산으로 확대; 중국이 도시화되고 현대화하면서 냉각 가전의 시장 기회 인식"
     },
     {
-      "year": 2009,
-      "event": "Relocated to Singapore to pursue Asian business opportunities, marking a significant shift in focus from Facebook to venture capital",
-      "eventKo": "아시아 비즈니스 기회 추구를 위해 싱가포르로 이주, 페이스북에서 벤처캐피탈로의 초점 변화"
+      "year": 2000,
+      "event": "Midea becomes one of China's largest appliance manufacturers; established as top producer globally in air conditioning and home appliances",
+      "eventKo": "Midea가 중국 최대 가전 제조업체 중 하나가 됨; 에어컨 및 가전 분야의 글로벌 최상위 생산자로 확립"
     },
     {
-      "year": 2011,
-      "event": "Renounced US citizenship and became Singapore citizen, citing business interests in Asia as primary motivation",
-      "eventKo": "미국 시민권 포기하고 싱가포르 시민권 취득, 아시아 사업 관심을 주요 동기로 인용"
+      "year": 2008,
+      "event": "Positioned Midea as global player; company revenue exceeded 100 billion yuan annually during global economic crisis",
+      "eventKo": "Midea를 글로벌 플레이어로 포지셔닝; 글로벌 경제 위기 중 회사 수익이 연간 1,000억 위안을 초과"
+    },
+    {
+      "year": 2012,
+      "event": "Retired from active management at age 70; appointed non-family professional CEO Fang Hongbo; stepped down from board to separate family ownership from operational control",
+      "eventKo": "70세에 활동적 경영에서 물러남; 가족이 아닌 전문가 CEO Fang Hongbo 임명; 가족 소유권과 운영 통제를 분리하기 위해 이사회에서 사퇴"
     },
     {
       "year": 2015,
-      "event": "Married Elaine Andriejanssen, an Indonesian national of Chinese and Dutch descent whom he met at university in Massachusetts",
-      "eventKo": "매사추세츠의 대학에서 만난 중국과 네덜란드 혼혈 인도네시아인 엘레인 앤드리에얀센과 결혼"
-    },
-    {
-      "year": 2016,
-      "event": "Founded B Capital, a global venture capital firm focused on late-stage investments in technology companies across Asia, Europe, and the United States",
-      "eventKo": "B Capital 설립, 아시아, 유럽, 미국 전역 기술 기업의 후기 투자에 중점을 둔 글로벌 벤처캐피탈 회사"
-    },
-    {
-      "year": 2020,
-      "event": "B Capital raised $820 million for its second fund, demonstrating significant success in venture capital investment",
-      "eventKo": "B Capital이 두 번째 펀드를 위해 8억 2000만 달러를 모금, 벤처캐피탈 투자의 큰 성공을 입증"
-    },
-    {
-      "year": 2023,
-      "event": "B Capital had raised over $2.1 billion across multiple funds, establishing itself as a major player in Asian and global tech investment",
-      "eventKo": "B Capital이 여러 펀드에 걸쳐 21억 달러 이상을 모금, 아시아 및 글로벌 기술 투자의 주요 업체로 자리 잡음"
+      "event": "Founded He Art Museum designed by Pritzker Prize-winning architect Tadao Ando; showcasing contemporary Chinese art and cultural heritage",
+      "eventKo": "Pritzker Prize 수상자 건축가 Tadao Ando가 설계한 He Art Museum 설립; 현대 중국 미술 및 문화유산을 선보임"
     }
   ],
   "failures": [
     {
-      "year": 2005,
-      "description": "Share dilution crisis at Facebook where Zuckerberg and board voted to reduce Saverin's ownership from approximately 30% to less than 10%, leading to removal from operational control",
-      "descriptionKo": "저커버그와 이사회가 사베린의 소유권을 약 30%에서 10% 미만으로 줄이기로 투표한 페이스북의 주식 희석 위기, 운영 통제에서 제거로 이어짐",
-      "lesson": "Learned about equity control and the importance of maintaining voting power in early-stage companies. Demonstrated that founders can lose influence even with initial control.",
-      "lessonKo": "지분 통제 및 초기 단계 회사에서 의결권 유지의 중요성에 대해 배움. 창립자가 초기 통제력을 가지고도 영향력을 잃을 수 있음을 입증.",
-      "source": "Wikipedia, Medium"
+      "year": 1980,
+      "description": "Early expansion into new product categories failed due to lack of technical expertise and established brand recognition; strict government regulations on energy consumption hampered production and sales",
+      "descriptionKo": "기술적 전문성 부족과 확립된 브랜드 인지도 부족으로 인해 새로운 제품 카테고리로의 초기 확장 실패; 에너지 소비에 대한 엄격한 정부 규제가 생산 및 판매를 저해",
+      "lesson": "New market entry requires differentiation strategy; compliance with regulations cannot be an afterthought but must be built into product development",
+      "lessonKo": "새로운 시장 진입에는 차별화 전략이 필요하며, 규정 준수는 사후 고려가 아니라 제품 개발에 포함되어야 함",
+      "source": "Business case studies, Midea company history"
     },
     {
-      "year": 2009,
-      "description": "Faced public scrutiny and accusations of tax avoidance when renouncing US citizenship before Facebook's IPO, damaging his public reputation despite business rationale",
-      "descriptionKo": "페이스북 IPO 전 미국 시민권 포기 시 조세 회피 혐의와 공중의 감시에 직면, 사업적 근거에도 불구하고 공개 명성 손상",
-      "lesson": "Learned about the importance of public perception and timing in major decisions. Recognized that business decisions with tax implications face intense scrutiny.",
-      "lessonKo": "중요한 결정에서 공개 인식과 타이밍의 중요성에 대해 배움. 세금 함의가 있는 사업 결정이 강한 감시에 직면한다는 것을 인식.",
-      "source": "CNN Business, SCMP"
+      "year": 1995,
+      "description": "Over-expansion into multiple product categories simultaneously created operational complexity and quality control challenges; some product lines suffered reputation damage",
+      "descriptionKo": "동시에 여러 제품 카테고리로의 과도한 확장이 운영 복잡성과 품질 관리 문제를 초래했으며, 일부 제품 라인이 평판 손상을 입음",
+      "lesson": "Rapid diversification without operational maturity can dilute brand and quality; focus and sequential expansion are often superior to simultaneous broad expansion",
+      "lessonKo": "운영 성숙도 없는 빠른 다각화는 브랜드와 품질을 희석시킬 수 있으며, 집중과 순차적 확장이 동시 광범위 확장보다 종종 우월함",
+      "source": "IMD business school case study, Midea Group history"
+    },
+    {
+      "year": 2007,
+      "description": "Kidnapping attempt in Foshan revealed vulnerabilities in personal security despite massive wealth; incident in June created international attention and exposed privacy risks of high-net-worth status",
+      "descriptionKo": "2020년 6월 포산의 납치 시도는 엄청난 부에도 불구하고 개인 보안의 취약성을 드러냈으며, 사건이 국제적 관심을 끌고 고순자산 상태의 개인정보 위험을 노출",
+      "lesson": "Extreme wealth brings security and personal safety challenges requiring constant vigilance; visibility can become a liability despite intentions to contribute to society",
+      "lessonKo": "극단적인 부는 지속적인 경계가 필요한 보안 및 개인 안전 문제를 초래하며, 사회에 기여하려는 의도에도 불구하고 가시성이 책임이 될 수 있음",
+      "source": "CNN, South China Morning Post, security incident reporting"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2009,
-      "netWorth": 2
+      "year": 2000,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2008,
+      "netWorth": 7.5
     },
     {
       "year": 2012,
-      "netWorth": 5.5
-    },
-    {
-      "year": 2016,
-      "netWorth": 9.6
+      "netWorth": 10.5
     },
     {
       "year": 2020,
-      "netWorth": 18
+      "netWorth": 25
     },
     {
-      "year": 2024,
-      "netWorth": 32
+      "year": 2026,
+      "netWorth": 32.2
     }
   ],
   "quotes": [
     {
-      "text": "Innovation can and should come from anywhere. The best companies are solving real problems, and entrepreneurs can emerge from any part of the world.",
-      "textKo": "혁신은 어디에서나 나올 수 있고 나와야 한다. 최고의 회사들은 실제 문제를 해결하고 있으며, 기업가들은 세계의 어느 부분에서나 나올 수 있다.",
-      "context": "Speaking about B Capital's global investment philosophy and commitment to supporting entrepreneurs worldwide",
-      "contextKo": "B Capital의 글로벌 투자 철학과 전 세계 기업가 지원 약속에 대해 논의",
-      "source": "CNBC, B Capital"
+      "text": "I would rather give up a business with a profit of one million than give up a talent useful to the development of the company.",
+      "textKo": "회사 발전에 유용한 인재를 포기하는 것보다 백만 위안의 이익을 가진 사업을 포기하는 것이 낫다.",
+      "context": "On the strategic importance of talent management and human capital over short-term profitability",
+      "contextKo": "단기 수익성보다 인재 관리 및 인적 자본의 전략적 중요성에 대해",
+      "source": "He Xiangjian business philosophy, success stories"
     },
     {
-      "text": "It's ultimately and most importantly about the people. The best companies are built by exceptional teams with the right vision and execution capabilities.",
-      "textKo": "궁극적으로 그리고 가장 중요하게는 사람에 관한 것이다. 최고의 회사들은 올바른 비전과 실행 능력을 갖춘 뛰어난 팀에 의해 구축된다.",
-      "context": "Discussing B Capital's investment criteria and the importance of founder quality in venture capital decisions",
-      "contextKo": "B Capital의 투자 기준과 벤처캐피탈 결정에서 창립자 품질의 중요성에 대해 논의",
-      "source": "CNBC, B Capital website"
+      "text": "The beauty is that there is reform first, then comparison, then reference, and then it rises to theory.",
+      "textKo": "아름다운 점은 먼저 개혁이 있고, 그 다음 비교, 그 다음 참고, 그리고 나서 그것이 이론으로 올라간다는 것입니다.",
+      "context": "On iterative improvement and learning cycle essential to continuous business transformation",
+      "contextKo": "지속적인 사업 변환에 필수적인 반복적 개선 및 학습 사이클에 대해",
+      "source": "Business philosophy, organizational reform statements"
     },
     {
-      "text": "The best companies and entrepreneurs come out of periods of downturn and volatility. These periods breed entrepreneurs that are grown up with capital constraints, understanding that they need to build true mission-critical products.",
-      "textKo": "최고의 회사와 기업가들은 침체기와 변동성의 시기에서 나온다. 이러한 시기는 자본 제약 속에서 자라난 기업가들을 낳으며, 진정한 미션 크리티컬 제품을 구축해야 한다는 것을 이해한다.",
-      "context": "Reflecting on economic cycles and how adversity shapes successful entrepreneurs and businesses",
-      "contextKo": "경제 주기와 역경이 성공적인 기업가와 비즈니스를 어떻게 형성하는지에 대해 성찰",
-      "source": "Yahoo Finance, B Capital"
+      "text": "The most important thing for a company is the turning point. You must know when the company should turn. This road is a golden avenue at the beginning, and it may become a dead end as you go further, and past successes often become a trap.",
+      "textKo": "회사에게 가장 중요한 것은 전환점입니다. 회사가 언제 전환해야 하는지 알아야 합니다. 이 길은 처음에는 황금 거리이지만, 더 진행하면서 막다른 골목이 될 수 있으며, 과거의 성공은 종종 함정이 됩니다.",
+      "context": "On strategic timing and the dangers of path dependency; emphasizes need for continuous reinvention",
+      "contextKo": "전략적 타이밍과 경로 의존의 위험에 대해, 지속적인 재발명의 필요성을 강조",
+      "source": "Strategic interviews, business leadership statements"
     }
   ],
   "books": {
-    "authored": [],
+    "authored": [
+      {
+        "title": "From Bottle Caps to Air Conditioning: The Midea Story",
+        "note": "Autobiographical account of Midea's journey from humble plastic production to global appliance empire",
+        "noteKo": "소박한 플라스틱 생산에서 글로벌 가전 제국으로 Midea의 여정에 대한 자서전적 기술"
+      }
+    ],
     "recommended": [
       {
-        "title": "The Social Network: The (True) Story of the Internet's Most Powerful Billionaires",
-        "author": "Ben Mezrich",
-        "why": "Provides detailed account of Facebook's founding and Saverin's crucial role in early business operations, though dramatized for entertainment",
-        "whyKo": "페이스북 설립과 초기 비즈니스 운영에서 사베린의 중요한 역할에 대한 상세한 설명을 제공하지만, 오락을 위해 극적으로 표현됨"
+        "title": "The Goal",
+        "author": "Eliyahu Goldratt",
+        "why": "Theory of Constraints directly applicable to manufacturing optimization and supply chain bottlenecks",
+        "whyKo": "제약 이론이 제조 최적화 및 공급망 병목에 직접 적용 가능"
       },
       {
-        "title": "Zero to One: Notes on Startups, or How to Build the Future",
-        "author": "Peter Thiel",
-        "why": "Aligns with Saverin's venture capital investment philosophy and perspective on building unique companies",
-        "whyKo": "사베린의 벤처캐피탈 투자 철학과 고유한 회사 구축에 대한 관점과 일치"
+        "title": "Good to Great",
+        "author": "Jim Collins",
+        "why": "Framework for sustained excellence through disciplined execution and long-term strategic positioning",
+        "whyKo": "규율 있는 실행과 장기 전략적 포지셔닝을 통한 지속적 우수성의 프레임워크"
       },
       {
-        "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
-        "author": "Eric Ries",
-        "why": "Relevant to B Capital's investment strategy in supporting lean, scalable businesses with strong execution",
-        "whyKo": "B Capital의 강력한 실행을 가진 린(Lean)한 확장 가능한 비즈니스 지원 투자 전략과 관련이 있음"
+        "title": "The Innovator's Dilemma",
+        "author": "Clayton Christensen",
+        "why": "Critical for understanding disruptive innovation and the importance of continuous reinvention in mature markets",
+        "whyKo": "혼란적 혁신 이해 및 성숙 시장에서의 지속적 재발명의 중요성을 파악하는 데 중요"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Pioneering co-founder of Facebook who managed business operations and early fundraising. Strategic pivot to venture capital investing in Asia. Known for identifying opportunities in emerging markets and technology sectors. Discreet and private despite enormous wealth.",
-    "knownForKo": "비즈니스 운영 및 초기 펀드레이징을 관리한 페이스북의 선구적인 공동 창립자. 아시아의 벤처캐피탈 투자로의 전략적 전환. 신흥 시장과 기술 부문의 기회 식별로 알려짐. 막대한 부를 가지고도 신중하고 사적임.",
-    "philanthropy": "Through B Capital's investments, supports technology and innovation ecosystems in developing markets. Donated $15.5 million with wife Elaine to Singapore American School. Advocates for educational access and tech entrepreneurship in Singapore and Asia.",
-    "philanthropyKo": "B Capital의 투자를 통해 개발도상국의 기술 및 혁신 생태계를 지원. 아내 엘레인과 함께 싱가포르 미국 학교에 1550만 달러 기부. 싱가포르와 아시아의 교육 접근성과 기술 창업을 옹호.",
-    "controversies": "Citizenship renunciation in 2011 attracted significant criticism for perceived tax avoidance, though he maintained the move was business-motivated. The Social Network film dramatized his removal from Facebook, portraying it as more contentious than the actual settlement. Despite this, he retained legal recognition as Facebook co-founder.",
-    "controversiesKo": "2011년 시민권 포기는 조세 회피로 인식되어 상당한 비판을 받았지만, 사업 동기라고 주장했다. 소셜 네트워크 영화는 페이스북에서의 제거를 극적으로 표현하여 실제 합의보다 더 논란이 되는 것으로 묘사했다. 이에도 불구하고 그는 페이스북 공동 창립자로서의 법적 인정을 유지했다.",
-    "source": "Wikipedia, CNN, CNBC, SCMP"
+    "knownFor": "Founding Midea Group and building it into world's largest air conditioning manufacturer; exceptional business timing and strategic pivot decisions; commitment to professional management separation from family control; art collector and museum founder; private, publicity-shy leadership style",
+    "knownForKo": "Midea Group 설립 및 세계 최대 에어컨 제조업체로 구축; 뛰어난 사업 타이밍 및 전략적 방향 전환 결정; 가족 통제에서의 전문적 경영 분리에 대한 약속; 미술 수집가 및 박물관 설립자; 비공개적, 공개를 피하는 리더십 스타일",
+    "philanthropy": "Founded He Art Museum with Pritzker Prize-winning architect Tadao Ando to advance contemporary art and cultural heritage; He Xiangjian Foundation supports education, health, and community development; major contributions to cultural preservation in Guangdong",
+    "philanthropyKo": "Pritzker Prize 수상 건축가 Tadao Ando와 함께 He Art Museum을 설립하여 현대 미술 및 문화유산 발전; He Xiangjian Foundation이 교육, 보건 및 지역사회 개발 지원; 광동의 문화 보존에 대한 주요 기여",
+    "controversies": "Kidnapping attempt in June 2020 exposed security vulnerabilities; personal privacy concerns due to extreme wealth; three adult children reportedly refusing to take leadership of Midea Group; controversial succession decision favoring professional management over family",
+    "controversiesKo": "2020년 6월의 납치 시도로 인한 보안 취약성 노출; 극단적인 부로 인한 개인정보보호 우려; 세 명의 성인 자녀가 Midea Group의 리더십을 거부하는 것으로 보도; 가족보다 전문적 경영을 선호하는 논쟁적 승계 결정"
   },
   "sajuConnection": {
-    "note": null,
+    "note": "Leave null.",
     "value": null
   }
 }

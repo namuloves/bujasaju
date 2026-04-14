@@ -1,56 +1,98 @@
 {
   "id": "383",
-  "name": "Pavel Tykac",
+  "name": "Pavel Tykač",
   "childhood": {
-    "birthPlace": "Czech Republic",
-    "birthPlaceKo": "체코",
-    "familyBackground": "Pavel Tykač is a Czech entrepreneur and investor with long-term experience in the energy sector.",
-    "familyBackgroundKo": "파벨 티카치는 에너지 부문에서 장기간 경험을 쌓은 체코 기업가이자 투자자입니다.",
-    "education": "Details of Pavel Tykac's formal education are documented in limited public sources.",
-    "educationKo": "Pavel Tykac의 정규 교육에 대한 세부사항은 제한된 공개 자료에 기록되어 있음.",
-    "earlyLife": "Pavel Tykac built a career in Coal mines, becoming one of the world's wealthiest individuals.",
-    "earlyLifeKo": "Pavel Tykac은(는) Coal mines 분야에서 경력을 쌓아 세계 최고 부호 중 한 명이 됨.",
-    "source": "Forbes, Wikipedia"
+    "birthPlace": "Čelákovice, Czechoslovakia (now Czech Republic)",
+    "birthPlaceKo": "체코슬로바키아 첼라코비체 (현 체코)",
+    "familyBackground": "Little is publicly known about his family background. He grew up in communist Czechoslovakia during the Cold War era.",
+    "familyBackgroundKo": "가족 배경에 대해 공개적으로 알려진 바가 거의 없다. 냉전 시대 공산주의 체코슬로바키아에서 성장했다.",
+    "education": "Graduated from the Czech Technical University in Prague with an engineering degree.",
+    "educationKo": "프라하 체코 공과대학교에서 공학 학위를 취득했다.",
+    "earlyLife": "Born on May 15, 1964, he came of age during the final decades of communist rule in Czechoslovakia. His engineering education at one of the country's top technical universities laid the foundation for his later entrepreneurial career after the Velvet Revolution.",
+    "earlyLifeKo": "1964년 5월 15일에 태어나 체코슬로바키아 공산주의 통치의 마지막 수십 년 동안 성장했다. 체코 최고 공과대학에서의 공학 교육이 벨벳 혁명 이후 사업가로서의 경력의 기반이 되었다.",
+    "source": "Wikipedia, PeoplePill, BiographyPot"
   },
   "careerTimeline": [
     {
-      "year": 1989,
-      "event": "Began career in Coal mines",
-      "eventKo": "Coal mines 분야에서 경력 시작"
+      "year": 1990,
+      "event": "Started entrepreneurial career after the Velvet Revolution, initially selling computer technology",
+      "eventKo": "벨벳 혁명 이후 컴퓨터 기술 판매로 사업가 경력을 시작"
     },
     {
-      "year": 2020,
-      "event": "Continued expanding operations and investments",
-      "eventKo": "사업 및 투자 확대 지속"
+      "year": 1992,
+      "event": "Co-founded Vikomt company with partners, which became a successful enterprise in the Czech market",
+      "eventKo": "파트너들과 함께 비콤트(Vikomt) 회사를 공동 설립, 체코 시장에서 성공적인 기업으로 성장"
     },
     {
-      "year": 2025,
-      "event": "Net worth reached $8.8B, ranking among world's wealthiest",
-      "eventKo": "순자산 8.80억 달러 도달, 세계 최고 부호 대열"
+      "year": 1996,
+      "event": "Sold his stake in Vikomt and began looking for new investment opportunities",
+      "eventKo": "비콤트 지분을 매각하고 새로운 투자 기회를 모색하기 시작"
+    },
+    {
+      "year": 2006,
+      "event": "Entered the energy sector by investing in a minority stake in Czech Coal mining group",
+      "eventKo": "체코석탄(Czech Coal) 채굴 그룹의 소수 지분에 투자하며 에너지 분야에 진출"
+    },
+    {
+      "year": 2010,
+      "event": "Became sole owner of Czech Coal mining group, consolidating control of a major energy producer",
+      "eventKo": "체코석탄 채굴 그룹의 단독 소유주가 되어 주요 에너지 생산업체의 지배권을 확보"
+    },
+    {
+      "year": 2013,
+      "event": "Acquired the Chvaletice Power Station, creating a significant new entity in the Czech energy market",
+      "eventKo": "흐발레티체(Chvaletice) 발전소를 인수하여 체코 에너지 시장에서 새로운 주요 기업을 설립"
+    },
+    {
+      "year": 2017,
+      "event": "Rebranded Czech Coal to Sev.en Energy Group after a commercially successful period with major contracts",
+      "eventKo": "주요 계약들을 통해 상업적 성공을 거둔 후 체코석탄을 세븐에너지그룹(Sev.en Energy Group)으로 리브랜딩"
+    },
+    {
+      "year": 2019,
+      "event": "Expanded globally through Sev.en Global Investments, acquiring coal assets in the US, Australia, and Vietnam",
+      "eventKo": "세븐글로벌인베스트먼트(Sev.en Global Investments)를 통해 미국, 호주, 베트남의 석탄 자산을 인수하며 글로벌 확장"
+    },
+    {
+      "year": 2024,
+      "event": "Announced closure of Czech coal-fired power plants by 2027 while continuing global fossil fuel investments",
+      "eventKo": "글로벌 화석연료 투자를 계속하면서 2027년까지 체코 석탄 화력발전소 폐쇄를 발표"
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "COVID-19 pandemic created unprecedented challenges across global business",
-      "descriptionKo": "코로나19 팬데믹이 전 세계 비즈니스에 전례 없는 도전 초래",
-      "lesson": "Adaptability and resilience are essential for surviving global crises",
-      "lessonKo": "글로벌 위기를 생존하는 데 적응력과 회복력이 필수적",
-      "source": "Forbes"
+      "year": 2021,
+      "description": "The Callide C power station in Australia, in which Sev.en Global had acquired an interest through its purchase of InterGen, suffered a catastrophic explosion and fire causing mass blackouts affecting 375,000 premises. The plant became completely non-operational.",
+      "descriptionKo": "세븐글로벌이 인터젠(InterGen) 인수를 통해 지분을 확보한 호주 캘라이드 C 발전소에서 대규모 폭발 및 화재가 발생하여 37만 5천 가구에 정전이 발생했다. 발전소는 완전히 가동 불능 상태가 되었다.",
+      "lesson": "Aging fossil fuel infrastructure carries significant operational and safety risks that can completely halt revenue generation.",
+      "lessonKo": "노후화된 화석연료 인프라는 수익 창출을 완전히 중단시킬 수 있는 심각한 운영 및 안전 리스크를 수반한다.",
+      "source": "The Coal Trader, WattClarity"
+    },
+    {
+      "year": 2024,
+      "description": "Forced to announce the early closure of three Czech coal-fired power plants (Pocerady, Chvaletice, Kladno) by 2027 due to worsened economics, not by choice but driven by lack of profitability in the European energy market.",
+      "descriptionKo": "유럽 에너지 시장의 수익성 악화로 인해 체코 3개 석탄 화력발전소(포체라디, 흐발레티체, 클라드노)를 2027년까지 조기 폐쇄한다고 발표할 수밖에 없었다.",
+      "lesson": "The EU's aggressive push toward renewable energy created economic headwinds that made domestic coal operations unsustainable.",
+      "lessonKo": "EU의 적극적인 재생에너지 전환 정책이 국내 석탄 사업의 지속 불가능한 경제적 역풍을 만들어냈다.",
+      "source": "OilPrice.com, IndexBox"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2010,
-      "netWorth": 2.2
+      "year": 2015,
+      "netWorth": 1.0
     },
     {
-      "year": 2015,
-      "netWorth": 4.0
+      "year": 2018,
+      "netWorth": 2.0
     },
     {
       "year": 2022,
-      "netWorth": 6.2
+      "netWorth": 3.6
+    },
+    {
+      "year": 2023,
+      "netWorth": 7.7
     },
     {
       "year": 2025,
@@ -63,7 +105,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building wealth through Coal mines. One of the world's wealthiest individuals with net worth of $8.8B.",
-    "knownForKo": "Coal mines을(를) 통해 부를 축적. 순자산 $8.8B의 세계 최고 부호 중 한 명."
-  }
+    "knownFor": "Contrarian bet on coal and fossil fuels while the world moves toward renewables. Known for his willingness to acquire undervalued energy assets globally as ESG investing drives other buyers away. Extremely private and rarely gives interviews.",
+    "knownForKo": "세계가 재생에너지로 전환하는 가운데 석탄 및 화석연료에 대한 역발상 투자로 유명하다. ESG 투자 열풍으로 다른 매수자들이 떠나는 틈을 타 저평가된 에너지 자산을 글로벌로 인수하는 것으로 알려져 있다. 극도로 사적이며 인터뷰를 거의 하지 않는다.",
+    "philanthropy": "Limited public information about philanthropic activities. Known to support his wife Ivana Tykač's charitable initiatives.",
+    "philanthropyKo": "자선 활동에 대해 공개적으로 알려진 바가 제한적이다. 아내 이바나 티카츠의 자선 활동을 지원하는 것으로 알려져 있다.",
+    "controversies": "His coal investments have been a frequent target of environmental activists, particularly the Pocerady power station which is one of the Czech Republic's biggest polluters. Critics view his global coal expansion as undermining climate goals by extending the life of fossil fuel assets in countries with weaker environmental regulations.",
+    "controversiesKo": "그의 석탄 투자는 환경 운동가들의 빈번한 비판 대상이며, 특히 체코 최대 오염원 중 하나인 포체라디 발전소가 그 중심이다. 비평가들은 환경 규제가 약한 국가에서 화석연료 자산의 수명을 연장하는 그의 글로벌 석탄 확장이 기후 목표를 훼손한다고 본다."
+  },
+  "sajuConnection": null
 }

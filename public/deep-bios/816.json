@@ -1,111 +1,139 @@
 {
   "id": "816",
-  "name": "Nikolai Buinov",
+  "name": "Tim Sweeney",
   "childhood": {
-    "birthPlace": "Krasnoyarsk, Russia",
-    "birthPlaceKo": "러시아 크라스노야르스크",
-    "familyBackground": "Born into a family of entrepreneurs and businesspeople in Siberia. His father was also involved in business ventures and later became his partner in founding energy companies. Grew up in one of Russia's major Siberian cities during the Soviet era.",
-    "familyBackgroundKo": "시베리아의 사업가 가정에서 태어남. 아버지 역시 사업에 관여하며 이후 에너지 회사 설립에 동업자가 됨. 소련 시대에 러시아의 주요 시베리아 도시 중 하나에서 성장.",
-    "education": "Graduated from St. Petersburg State Transport University in 1990.",
-    "educationKo": "1990년 상트페테르부르크 국립 교통대학교 졸업.",
-    "earlyLife": "Grew up in Krasnoyarsk, one of the largest cities in Siberia. Came of age during the turbulent final years of the Soviet Union, which shaped his entrepreneurial instincts as the Russian economy transitioned to capitalism in the early 1990s.",
-    "earlyLifeKo": "시베리아 최대 도시 중 하나인 크라스노야르스크에서 성장. 소련 말기의 격변기에 성인이 되었으며, 1990년대 초 러시아 경제의 자본주의 전환기에 사업가로서의 감각을 형성함.",
-    "source": "Wikipedia, Goodreturns, PeoplePill"
+    "birthPlace": "Potomac, Maryland, USA",
+    "birthPlaceKo": "미국 메릴랜드주 포토맥",
+    "familyBackground": "Tim Sweeney was born in 1970 as the youngest of three brothers in Potomac, Maryland. His family was middle-class, and his older brothers introduced him to early computing. At age 11, he visited his brother's California startup and spent a week learning BASIC on an IBM PC, an experience that changed the course of his life.",
+    "familyBackgroundKo": "팀 스위니는 1970년 메릴랜드주 포토맥에서 3형제 중 막내로 태어났다. 중산층 가정에서 자랐으며, 11세 때 형의 캘리포니아 스타트업을 방문해 IBM PC로 베이식 프로그래밍을 처음 배웠다. 그 일주일간의 경험이 그의 인생을 바꾸어 놓았다.",
+    "education": "Sweeney attended the University of Maryland, studying mechanical engineering. While at university, he began developing his own software and games, teaching himself programming through online bulletin boards and early computing resources. He is largely self-taught as a programmer, having spent over 10,000 hours coding between the ages of 11 and 15.",
+    "educationKo": "메릴랜드 대학교에서 기계공학을 전공했다. 재학 중에도 독학으로 프로그래밍을 익혔으며, 11세부터 15세 사이에 1만 시간 이상을 코딩에 쏟아부었다. 온라인 게시판과 초창기 컴퓨터 자료를 통해 스스로 개발자가 되었다.",
+    "earlyLife": "As a young boy, Sweeney took apart a lawnmower at age five or six and later built his own go-kart, demonstrating an early passion for engineering and tinkering. By his teens, he was already writing and selling shareware games.",
+    "earlyLifeKo": "어린 시절 5~6세에 잔디깎기를 분해하고, 직접 고카트를 만들었을 정도로 기계에 대한 타고난 호기심을 가졌다. 10대에 이미 셰어웨어 게임을 직접 만들어 판매하기 시작했다."
   },
   "careerTimeline": [
     {
+      "year": 1991,
+      "event": "Founded Epic MegaGames (later Epic Games) from his parents' home in Potomac, Maryland, and released ZZT, a shareware game that became a surprise hit.",
+      "eventKo": "메릴랜드 부모님 집에서 에픽 메가게임스(현 에픽게임스)를 창업하고 셰어웨어 게임 ZZT를 출시해 큰 인기를 끌었다."
+    },
+    {
+      "year": 1992,
+      "event": "Expanded the company to a small team and released additional games, establishing Epic MegaGames as a viable shareware publisher.",
+      "eventKo": "소규모 팀을 꾸려 추가 게임들을 출시하며 에픽 메가게임스를 본격적인 셰어웨어 퍼블리셔로 성장시켰다."
+    },
+    {
       "year": 1993,
-      "event": "Started his career at a timber company after graduating from university",
-      "eventKo": "대학 졸업 후 목재 회사에서 경력을 시작"
+      "event": "Brought on Mark Rein as a business partner and Vice President, allowing Sweeney to focus on technical development while Rein handled business operations.",
+      "eventKo": "마크 레인을 비즈니스 파트너 겸 부사장으로 영입하여, 스위니는 기술 개발에, 레인은 경영에 집중하는 체계를 갖췄다."
     },
     {
-      "year": 1995,
-      "event": "Co-founded Bodaibo Energy with his father, supplying fuel and materials to Siberian gold miners in Irkutsk",
-      "eventKo": "아버지와 함께 보다이보 에너지를 공동 설립, 이르쿠츠크의 시베리아 금광 채굴업자들에게 연료와 자재를 공급"
+      "year": 1998,
+      "event": "Released Unreal and the first version of Unreal Engine, a 3D game engine that would revolutionize game development and become one of the most widely licensed game engines in history.",
+      "eventKo": "게임 '언리얼'과 함께 언리얼 엔진 1.0을 출시했다. 이 엔진은 게임 개발 방식을 혁신하며 역사상 가장 널리 라이선스된 게임 엔진 중 하나가 되었다."
     },
     {
-      "year": 1997,
-      "event": "Purchased an oil field license that would become the foundation of Irkutsk Oil Company",
-      "eventKo": "이후 이르쿠츠크 석유회사의 기반이 될 유전 라이선스를 구입"
+      "year": 1999,
+      "event": "Relocated the company to Cary, North Carolina, and rebranded from Epic MegaGames to Epic Games following the success of Unreal.",
+      "eventKo": "언리얼 성공 이후 회사를 노스캐롤라이나주 캐리로 이전하고, 사명을 에픽 메가게임스에서 에픽게임스로 변경했다."
     },
     {
-      "year": 2000,
-      "event": "Formally founded Irkutsk Oil Company (INK) with his father and partner Sinyavsky; initial production was just 30,000 tons per year",
-      "eventKo": "아버지와 파트너 시냐프스키와 함께 이르쿠츠크 석유회사(INK)를 공식 설립; 초기 생산량은 연간 3만 톤에 불과"
+      "year": 2006,
+      "event": "Released Gears of War, powered by Unreal Engine 3, which became a massive Xbox 360 hit and cemented Unreal Engine's dominance in AAA game development.",
+      "eventKo": "언리얼 엔진 3 기반의 '기어스 오브 워'를 출시해 Xbox 360 최고 인기 타이틀이 되었고, 언리얼 엔진의 AAA 게임 시장 지배력을 확고히 했다."
     },
     {
-      "year": 2011,
-      "event": "Became president of INK, taking full leadership of the company's operations",
-      "eventKo": "INK 사장으로 취임하여 회사 운영의 전면적인 리더십을 맡음"
-    },
-    {
-      "year": 2015,
-      "event": "INK produced its 15-millionth ton of hydrocarbons and planned to reach 6 million tons annually, with production increasing 30-fold over a decade",
-      "eventKo": "INK가 누적 1,500만 톤의 탄화수소를 생산하고 연간 600만 톤 생산 목표를 수립; 10년간 생산량 30배 증가"
+      "year": 2012,
+      "event": "Inducted into the Academy of Interactive Arts & Sciences Hall of Fame, recognizing his foundational contributions to game development and engine technology.",
+      "eventKo": "게임 개발 및 엔진 기술에 대한 공헌을 인정받아 미국 인터랙티브 예술·과학 아카데미 명예의 전당에 헌액되었다."
     },
     {
       "year": 2017,
-      "event": "Announced plans to increase crude oil production to 8.5 million tons per year; began investing in the hotel business",
-      "eventKo": "원유 생산량을 연간 850만 톤으로 확대 계획 발표; 호텔 사업 투자를 시작"
+      "event": "Launched Fortnite Battle Royale as a free-to-play game, which grew to over 350 million registered players globally and transformed Epic Games into a cultural phenomenon.",
+      "eventKo": "포트나이트 배틀로얄을 무료 게임으로 출시했다. 이후 전 세계 3억 5천만 명 이상의 등록 유저를 확보하며 에픽게임스를 문화적 아이콘으로 만들었다."
     },
     {
-      "year": 2022,
-      "event": "Became chairman of the board of INK; company had grown to produce 9 million tons annually (180,000 barrels per day)",
-      "eventKo": "INK 이사회 의장으로 취임; 회사는 연간 900만 톤(일일 18만 배럴) 생산 규모로 성장"
+      "year": 2019,
+      "event": "Launched the Epic Games Store as a direct competitor to Steam, offering developers an 88/12 revenue split compared to Steam's 70/30, disrupting the PC gaming distribution market.",
+      "eventKo": "에픽게임스 스토어를 스팀의 대항마로 출시했다. 개발자에게 88/12 수익 배분(스팀의 70/30 대비)을 제공해 PC 게임 유통 시장에 파란을 일으켰다."
+    },
+    {
+      "year": 2020,
+      "event": "Filed a landmark antitrust lawsuit against Apple after Fortnite was removed from the App Store, beginning a multi-year legal battle over app store monopoly practices.",
+      "eventKo": "포트나이트가 앱스토어에서 제거된 후 애플을 상대로 반독점 소송을 제기했다. 앱스토어 독점에 맞선 수년간의 법적 공방이 시작되었다."
     }
   ],
   "failures": [
     {
-      "year": 2014,
-      "description": "Western sanctions on Russia following the Crimea annexation created significant uncertainty for Russian energy companies, though INK avoided direct sanctions unlike larger state-connected firms.",
-      "descriptionKo": "크림반도 합병 이후 러시아에 대한 서방 제재로 러시아 에너지 기업들에 큰 불확실성이 야기되었으나, INK는 대형 국영 기업들과 달리 직접 제재를 면함.",
-      "lesson": "Maintained independence from the state and attracted Western investors like Goldman Sachs and EBRD, which helped insulate the company from some sanctions.",
-      "lessonKo": "국가로부터의 독립성을 유지하고 골드만삭스, EBRD 등 서방 투자자들을 유치하여 일부 제재로부터 회사를 보호함.",
-      "source": "The Moscow Times, World Finance"
+      "year": 2020,
+      "description": "Epic Games intentionally violated Apple's App Store payment rules to provoke a legal confrontation, resulting in Fortnite being banned from iOS. The legal battle cost Epic an estimated $1 billion and lasted years without fully restoring Fortnite's iOS presence.",
+      "descriptionKo": "에픽게임스는 의도적으로 애플 앱스토어 결제 규정을 위반해 법적 대결을 유발했고, 그 결과 포트나이트가 iOS에서 퇴출되었다. 법정 공방은 약 10억 달러의 비용을 치렀으며 수년간 지속되었다.",
+      "lesson": "Even a principled stand against monopolistic practices can come at a massive financial cost. Strategic confrontation requires calculating not just the legal merits but the operational risks of losing key distribution channels.",
+      "lessonKo": "독점에 맞선 원칙적 싸움이라도 막대한 재정적 대가를 치를 수 있다. 전략적 대결에는 법적 정당성뿐 아니라 핵심 유통 채널 상실이라는 현실적 위험도 충분히 고려해야 한다."
     },
     {
-      "year": 2000,
-      "description": "Started INK with only three oil fields and minimal production of 30,000 tons per year, in the remote and challenging environment of East Siberia where infrastructure was minimal.",
-      "descriptionKo": "인프라가 거의 없는 동시베리아의 열악한 환경에서 유전 3개와 연간 3만 톤의 최소 생산량으로 INK를 시작.",
-      "lesson": "Built the company methodically over decades without the benefit of privatization-era asset grabs, proving that patient organic growth could succeed in Russia's oil industry.",
-      "lessonKo": "민영화 시대의 자산 인수 혜택 없이 수십 년에 걸쳐 체계적으로 회사를 성장시키며, 인내심 있는 유기적 성장이 러시아 석유 산업에서 성공할 수 있음을 증명.",
-      "source": "World Finance, The Moscow Times"
+      "year": 2023,
+      "description": "Epic Games conducted significant layoffs, cutting approximately 16% of its workforce (around 870 employees), citing overspending during the Fortnite boom years and a need to restructure costs as gaming markets normalized post-pandemic.",
+      "descriptionKo": "에픽게임스는 직원의 약 16%인 870여 명을 해고했다. 포트나이트 호황기의 과도한 지출과 팬데믹 이후 게임 시장 정상화에 따른 구조조정이 원인이었다.",
+      "lesson": "Boom-era growth can mask unsustainable cost structures. Even transformative companies must align spending with sustainable revenue, not peak-cycle euphoria.",
+      "lessonKo": "호황기의 성장은 지속 불가능한 비용 구조를 감출 수 있다. 아무리 혁신적인 기업이라도 지출을 최고조의 열기가 아닌 지속 가능한 수익에 맞춰야 한다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 2015,
-      "netWorth": 1.0
+      "year": 2012,
+      "netWorth": 0.5
+    },
+    {
+      "year": 2017,
+      "netWorth": 1.9
     },
     {
       "year": 2019,
-      "netWorth": 1.5
+      "netWorth": 7.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 9.0
     },
     {
       "year": 2021,
-      "netWorth": 2.2
+      "netWorth": 8.5
     },
     {
-      "year": 2024,
-      "netWorth": 4.7
+      "year": 2023,
+      "netWorth": 5.5
     },
     {
       "year": 2025,
       "netWorth": 5.1
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "This Metaverse is going to be far more pervasive and powerful than anything else. If one central company gains control of this, they will become more powerful than any government and be a god on Earth.",
+      "textKo": "메타버스는 그 무엇보다 광범위하고 강력해질 것입니다. 만약 한 기업이 이것을 독점한다면, 그 기업은 어떤 정부보다 강력해지고 지구상의 신이 될 것입니다.",
+      "context": "On the risks of a closed metaverse",
+      "contextKo": "폐쇄적 메타버스의 위험성에 대해",
+      "source": "VentureBeat interview"
+    },
+    {
+      "text": "AR is going to play such an infinite role in our lives that we have to establish clear ground rules respecting everyone's rights. That means open platform and open ecosystems and protections that put user privacy first.",
+      "textKo": "AR은 우리 삶에서 무한한 역할을 하게 될 것이므로, 모든 사람의 권리를 존중하는 명확한 기본 규칙을 세워야 합니다. 이는 개방된 플랫폼과 오픈 생태계, 그리고 사용자 프라이버시를 최우선으로 하는 보호를 의미합니다.",
+      "context": "On open platforms and AR",
+      "contextKo": "오픈 플랫폼과 AR에 대해",
+      "source": "Tim Sweeney public statements"
+    }
+  ],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building Russia's largest private oil company without benefiting from the loans-for-shares privatization auctions of the 1990s; one of Russia's few truly self-made energy billionaires; patient, methodical approach to business growth",
-    "knownForKo": "1990년대 주식담보대출 민영화 경매의 혜택 없이 러시아 최대 민간 석유회사를 건설; 러시아에서 몇 안 되는 진정한 자수성가 에너지 억만장자; 인내심 있고 체계적인 사업 성장 접근법",
-    "philanthropy": "Financed the reconstruction of the historic Wawelberg Bank building in St. Petersburg, completed in 2021. Has invested in hotel and cultural infrastructure projects.",
-    "philanthropyKo": "상트페테르부르크의 역사적인 바벨베르크 은행 건물의 재건을 지원하여 2021년 완공. 호텔 및 문화 인프라 프로젝트에 투자.",
-    "controversies": "Operating in Russia's oil sector inevitably involves navigating geopolitical tensions and sanctions regimes, though INK has notably avoided direct Western sanctions unlike major Russian energy firms.",
-    "controversiesKo": "러시아 석유 부문에서의 운영은 지정학적 긴장과 제재 체제를 피할 수 없으나, INK는 주요 러시아 에너지 기업들과 달리 서방의 직접 제재를 특이하게 면해옴."
+    "knownFor": "Sweeney is known for his fierce independence, technical depth, and willingness to take on industry giants. He lives modestly relative to his wealth, drives a modest car, and is deeply private. He has become one of the largest private landowners in North Carolina through his conservation efforts.",
+    "knownForKo": "스위니는 강한 독립성, 깊은 기술적 역량, 그리고 업계 거인들과 맞서는 용기로 유명하다. 재산에 비해 검소하게 생활하며 극도로 사생활을 중시한다. 보전 활동을 통해 노스캐롤라이나 최대 민간 토지 소유자 중 한 명이 되었다.",
+    "philanthropy": "Sweeney has purchased over 50,000 acres of forest land in North Carolina for conservation, including Box Creek Wilderness. In 2021, he donated 7,500 acres in the Roan Highlands to the Southern Appalachian Highlands Conservancy — the largest private conservation land donation in North Carolina history.",
+    "philanthropyKo": "노스캐롤라이나에서 박스 크릭 야생지역을 포함한 5만 에이커 이상의 산림을 보전 목적으로 매입했다. 2021년에는 노스캐롤라이나 역사상 최대 규모의 민간 보전 토지 기부로, 로안 고원 지대 7,500에이커를 사던애팔래치안 하이랜즈 보전협회에 기부했다."
   },
   "sajuConnection": null
 }

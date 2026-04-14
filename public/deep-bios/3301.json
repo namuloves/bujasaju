@@ -1,0 +1,94 @@
+{
+  "id": "3301",
+  "name": "Trae Stephens",
+  "nameKo": "트레이 스티븐스",
+  "childhood": "Trae Stephens grew up in Lebanon, Ohio, a small rural town where his grandfather served as pastor of the local church. As a high school senior in 2001, the September 11 terrorist attacks made a profound impact on him, igniting a lifelong commitment to national security. This defining moment shaped his academic path — he enrolled at Georgetown University's School of Foreign Service, studying Arabic and Security Studies with a focus on the Middle East, graduating in 2005.",
+  "childhoodKo": "트레이 스티븐스는 오하이오주 레바논이라는 작은 농촌 마을에서 자랐으며, 할아버지는 지역 교회의 목사였다. 2001년 고등학교 3학년 때 발생한 9·11 테러 공격은 그에게 깊은 충격을 주었고, 평생 국가 안보에 헌신하겠다는 결심을 불러일으켰다. 이 결정적인 사건은 그의 학업 방향을 바꿔놓았고, 그는 조지타운 대학교 외교학부에 진학해 아랍어와 안보학을 공부하며 중동을 집중 연구한 후 2005년 졸업했다.",
+  "careerTimeline": [
+    {
+      "year": 2005,
+      "event": "Graduated from Georgetown University's School of Foreign Service with a focus on Arabic and Middle East Security Studies. Began career in computational linguistics within the US Intelligence Community.",
+      "eventKo": "조지타운 대학교 외교학부를 졸업하고, 아랍어와 중동 안보학에 집중했다. 이후 미국 정보기관 내 전산 언어학 분야에서 경력을 시작했다."
+    },
+    {
+      "year": 2008,
+      "event": "Joined Palantir Technologies, Peter Thiel's data analytics firm, leading teams focused on intelligence community growth and international expansion.",
+      "eventKo": "피터 틸의 데이터 분석 기업 팔란티어 테크놀로지스에 합류해 정보기관 부문 성장과 해외 확장을 담당하는 팀을 이끌었다."
+    },
+    {
+      "year": 2014,
+      "event": "Met Palmer Luckey at a Founders Fund retreat; the two bonded over the idea of applying Silicon Valley startup techniques to the defense sector.",
+      "eventKo": "파운더스 펀드 리트리트에서 팔머 러키를 만나 실리콘밸리 스타트업 기법을 국방 분야에 적용한다는 아이디어로 의기투합했다."
+    },
+    {
+      "year": 2016,
+      "event": "Joined Founders Fund as a partner, investing in deep-tech and defense-oriented startups while continuing to develop the Anduril concept.",
+      "eventKo": "파운더스 펀드에 파트너로 합류해 딥테크 및 국방 관련 스타트업에 투자하면서 안두릴 구상을 계속 발전시켰다."
+    },
+    {
+      "year": 2017,
+      "event": "Co-founded Anduril Industries alongside Palmer Luckey, Matt Grimm, Joe Chen, and Brian Schimpf, aiming to build next-generation autonomous defense systems.",
+      "eventKo": "팔머 러키, 맷 그림, 조 첸, 브라이언 쉼프와 함께 안두릴 인더스트리스를 공동 창립하고 차세대 자율 국방 시스템 개발에 나섰다."
+    },
+    {
+      "year": 2020,
+      "event": "Co-founded Varda Space Industries with the aim of manufacturing products in microgravity orbit, expanding his portfolio beyond defense.",
+      "eventKo": "바르다 스페이스 인더스트리스를 공동 창립해 미세중력 궤도에서 제품을 제조한다는 목표로 국방 너머로 포트폴리오를 넓혔다."
+    },
+    {
+      "year": 2024,
+      "event": "Anduril reached a valuation of $8.4 billion following a major funding round. Stephens also co-founded Valinor Enterprises, a company incubator focused on hard technology.",
+      "eventKo": "안두릴이 대규모 펀딩 라운드를 통해 84억 달러의 기업 가치를 인정받았다. 스티븐스는 하드 테크놀로지에 집중하는 기업 인큐베이터 발리노르 엔터프라이즈도 공동 설립했다."
+    },
+    {
+      "year": 2025,
+      "event": "Anduril's valuation surged to $30.5 billion following a major Series G funding round, making Stephens a confirmed billionaire with a net worth surpassing $1 billion.",
+      "eventKo": "안두릴이 시리즈 G 펀딩 라운드를 통해 305억 달러의 기업 가치를 기록하며 스티븐스의 순자산이 10억 달러를 넘어 공식적으로 억만장자 반열에 올랐다."
+    }
+  ],
+  "failures": [
+    {
+      "title": "Early Defense Tech Skepticism",
+      "description": "When Stephens and Luckey first pitched the concept of a Silicon Valley-style defense company in 2017, many investors and industry insiders were deeply skeptical. The defense procurement system was seen as impenetrable to startups, and critics predicted Anduril would fail to win meaningful government contracts against established primes like Lockheed Martin and Raytheon.",
+      "titleKo": "초기 국방 기술 업계의 회의론",
+      "descriptionKo": "2017년 스티븐스와 러키가 실리콘밸리 방식의 국방 기업 개념을 처음 제안했을 때, 많은 투자자와 업계 관계자들은 깊은 회의감을 드러냈다. 국방 조달 시스템은 스타트업이 뚫기 불가능하다는 인식이 팽배했고, 비평가들은 안두릴이 록히드 마틴, 레이시온 같은 기존 방산 대기업을 상대로 정부 계약을 따내지 못할 것이라고 예측했다."
+    },
+    {
+      "title": "Varda Space Regulatory Setbacks",
+      "description": "Varda Space Industries, co-founded by Stephens in 2020, faced significant regulatory delays when its first in-space manufacturing capsule could not receive FAA and Air Force re-entry approval for months, leaving the spacecraft in orbit far beyond its intended return date in 2023.",
+      "titleKo": "바르다 스페이스 규제 난관",
+      "descriptionKo": "스티븐스가 2020년 공동 창립한 바르다 스페이스 인더스트리스는 첫 번째 우주 제조 캡슐이 FAA와 공군의 재진입 허가를 수개월간 받지 못해 2023년 예정된 귀환 일정을 한참 넘긴 채 우주에 머물러야 하는 규제상 지연 문제에 직면했다."
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2019,
+      "amount": 0.1
+    },
+    {
+      "year": 2021,
+      "amount": 0.3
+    },
+    {
+      "year": 2022,
+      "amount": 0.5
+    },
+    {
+      "year": 2024,
+      "amount": 0.8
+    },
+    {
+      "year": 2025,
+      "amount": 1.0
+    }
+  ],
+  "quotes": [
+    {
+      "text": "If you create opportunities, and don't pick winners, then there are no winners, and then the capital runs away, the founders that are interested in the market run away, and you end up right back where you started.",
+      "source": "Public interview on defense technology investment",
+      "year": 2022
+    }
+  ],
+  "books": [],
+  "sajuConnection": null
+}

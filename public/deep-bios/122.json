@@ -1,153 +1,142 @@
 {
   "id": "122",
-  "name": "Renata Kellnerova",
+  "name": "Andrey Melnichenko",
+  "nameKo": "안드레이 멜니첸코",
   "childhood": {
-    "birthPlace": "Czech Republic",
-    "birthPlaceKo": "체코",
-    "familyBackground": "Born as Renata Hacklová on July 4, 1967, she came from a middle-class Czech family. She married Petr Kellner, the founder of PPF Group, who built one of Europe's largest investment conglomerates starting in the early 1990s.",
-    "familyBackgroundKo": "1967년 7월 4일 Renata Hacklová로 태어나 중산층 체코 가정에서 성장했다. 그녀는 PPF 그룹의 창립자인 Petr Kellner와 결혼했으며, 그는 1990년대 초부터 유럽 최대의 투자 재벌 중 하나를 구축했다.",
-    "education": "She worked in the finance and investment sector, gaining experience at PPF from 1993-1997 as a board member of PPF moravskoslezský investiční fond a.s., one of PPF Group's predecessors.",
-    "educationKo": "그녀는 금융 및 투자 부문에서 일했으며, 1993년부터 1997년까지 PPF 그룹의 전신 중 하나인 PPF moravskoslezský investiční fond a.s.의 이사회 이사로 경험을 쌓았다.",
-    "earlyLife": "Her early career positioned her well for eventual leadership of PPF after her husband's passing, though she maintained a low public profile during those years.",
-    "earlyLifeKo": "그녀의 초기 경력은 남편 사후 PPF의 지도자 역할을 위해 그녀를 잘 준비하게 했지만, 그 기간 동안 그녀는 공개적 프로필을 낮게 유지했다.",
-    "source": "Wikipedia, Bloomberg, PPF Group official press releases"
+    "birthPlace": "Gomel, Belarus",
+    "birthPlaceKo": "벨라루스 고멜",
+    "familyBackground": "Born to Ukrainian mother and Belarusian father, both educators. Grew up in Soviet Union during late Cold War era with strong emphasis on mathematics and technical education. Family valued intellectual achievement and professional advancement.",
+    "familyBackgroundKo": "우크라이나 어머니와 벨라루스 아버지 사이에서 태어났으며, 둘 다 교육자였다. 소련 붕괴 직전의 냉전 후기에 성장했으며 수학 및 기술 교육에 강한 강조를 받았다. 가족은 지적 성취와 직업 발전을 중시했다.",
+    "education": "Studied at Moscow State University's Faculty of Physics in 1989, demonstrating early aptitude in mathematical sciences. Later switched to Plekhanov Russian University of Economics, earning a finance degree that combined physics thinking with economic analysis.",
+    "educationKo": "1989년 모스크바 국립대학교 물리학부에서 수학 과학에서의 초기 재능을 보여주며 공부했다. 나중에 플레하노프 러시아 경제 대학으로 전환하여 물리학 사고와 경제 분석을 결합한 금융 학위를 취득했다.",
+    "earlyLife": "Came of age during the collapse of the Soviet Union and the chaotic transition to market economy in Russia. Witnessed hyperinflation, financial collapse, and the emergence of oligarchs. These experiences shaped his aggressive investment approach and desire to build lasting industrial empires.",
+    "earlyLifeKo": "소련 붕괴와 러시아의 혼란스러운 시장경제로의 전환 시기에 성장했다. 초인플레이션, 금융 붕괴, 그리고 올리가르히의 출현을 목격했다. 이러한 경험들은 그의 공격적인 투자 접근 방식과 지속하는 산업 제국을 구축하려는 욕망을 형성했다.",
+    "source": "Wikipedia, Bloomberg, Vedomosti"
   },
   "careerTimeline": [
     {
       "year": 1993,
-      "event": "Joins PPF as board member of PPF moravskoslezský investiční fond a.s., gaining deep insight into the company's financial operations",
-      "eventKo": "PPF moravskoslezský investiční fond a.s.의 이사회 이사로 PPF에 합류하여 회사의 금융 운영에 깊은 통찰력을 얻다"
+      "event": "Co-founded MDM Bank at age 21 with entrepreneurial vision to capitalize on Russia's emerging financial sector. The bank became one of Russia's largest non-state banks through aggressive expansion and acquisitions.",
+      "eventKo": "21세의 나이에 MDM 은행을 공동 설립하여 러시아의 신흥 금융 부문을 활용하려는 기업가적 비전을 보였다. 은행은 공격적인 확장 및 인수를 통해 러시아의 가장 큰 비정부 은행 중 하나가 되었다."
     },
     {
-      "year": 1997,
-      "event": "Leaves formal board position but remains closely involved in family and business affairs as Petr Kellner continues building PPF into a major European conglomerate",
-      "eventKo": "공식 이사직을 떠나지만 Petr Kellner가 PPF를 주요 유럽 재벌로 건설하면서 가족 및 사업 문제에 계속 밀접하게 관여하다"
+      "year": 2000,
+      "event": "Shifted focus from banking to industrial conglomerate building. Co-founded MDM Group with former metals trader Sergei Popov. Began strategic acquisition of 50+ independent industrial businesses across pipeline manufacturing, coal, and fertilizers.",
+      "eventKo": "은행 업무에서 산업 재벌 건설로 초점을 전환했다. 전직 금속 거래자 세르게이 포포프와 함께 MDM 그룹을 공동 설립했다. 파이프라인 제조, 석탄, 비료 전반에 걸친 50개 이상의 독립적인 산업 기업의 전략적 인수를 시작했다."
     },
     {
       "year": 2001,
-      "event": "Co-founds the Educa Foundation with goal of providing scholarships to students at Open Gate Grammar and Primary School in Babice, Czech Republic",
-      "eventKo": "체코 Babice의 Open Gate 문법 및 초등학교 학생들에게 장학금을 제공하기 위해 Educa 재단을 공동 설립하다"
+      "event": "Created EuroChem Group through consolidation of fertilizer assets, establishing himself as operator of world's largest fertilizer producer with operations across Russia and global export networks.",
+      "eventKo": "비료 자산의 통합을 통해 EuroChem 그룹을 설립하여 러시아 전역의 운영과 글로벌 수출 네트워크를 가진 세계 최대 비료 생산자의 운영자로 자신을 확립했다."
     },
     {
-      "year": 2009,
-      "event": "Kellner Family Foundation is established with Petr Kellner, dispersing CZK 1.6 billion over ten years to support educational activities and causes",
-      "eventKo": "Petr Kellner와 함께 Kellner 가족 재단이 설립되어 10년에 걸쳐 CZK 16억을 교육 활동 및 사업에 지원하다"
+      "year": 2005,
+      "event": "Became Director of SUEK JSC (Siberian Coal Energy Company), the leading coal producer in Russia. Consolidated coal assets into world-class mining operation with multi-billion dollar market capitalization.",
+      "eventKo": "러시아의 주도적인 석탄 생산자인 SUEK JSC(시베리안 석탄 에너지 회사)의 이사가 되었다. 석탄 자산을 수십억 달러 규모의 시장 자본금을 가진 세계 수준의 광산 운영으로 통합했다."
     },
     {
-      "year": 2021,
-      "event": "Petr Kellner dies in helicopter crash in Alaska on March 27, 2021. Renata inherits 98.93% stake in PPF Group and becomes the richest person in the Czech Republic",
-      "eventKo": "Petr Kellner가 2021년 3월 27일 알래스카에서 헬리콥터 추락으로 사망하다. Renata는 PPF 그룹의 98.93% 지분을 상속받아 체코에서 가장 부유한 사람이 되다"
+      "year": 2011,
+      "event": "Elevated to Chairman of SUEK, consolidating his control over one of world's largest coal mining operations with operations across Siberia, supplying global markets including Asia-Pacific and Europe.",
+      "eventKo": "SUEK의 회장으로 승진하여 시베리아 전역의 운영을 가진 세계 최대 석탄 광산 운영 중 하나에 대한 통제를 통합하여 아시아 태평양 및 유럽을 포함한 글로벌 시장에 공급했다."
     },
     {
-      "year": 2021,
-      "event": "Takes full control of PPF Group with her four children, becoming the first female executive leading the conglomerate. Begins strategic shift of business focus from Asian markets to Western markets",
-      "eventKo": "네 자녀와 함께 PPF 그룹의 전적 통제권을 잡아 재벌을 이끄는 첫 여성 경영진이 되다. 아시아 시장에서 서방 시장으로의 사업 초점의 전략적 전환을 시작하다"
+      "year": 2015,
+      "event": "At peak of power and wealth, controlled EuroChem and SUEK through complex trust structures, accumulating estimated $20+ billion net worth. Also invested in superyachts and luxury assets globally.",
+      "eventKo": "권력과 부의 절정에 복잡한 신탁 구조를 통해 EuroChem과 SUEK을 통제하여 약 200억 달러 이상의 순자산을 축적했다. 또한 전 세계적으로 슈퍼요트 및 사치 자산에 투자했다."
     },
     {
-      "year": 2023,
-      "event": "Signals strong commitment to keeping PPF in family hands for decades to come, stating desire that family remain majority owner while preparing children for future leadership roles",
-      "eventKo": "PPF를 수십 년 동안 가족 손에 유지하려는 강한 의지를 나타내다. 가족이 다수 소유자로 남아 자녀들을 향후 지도자 역할을 위해 준비하겠다는 의사를 표명하다"
+      "year": 2022,
+      "event": "Following Russia's invasion of Ukraine in February, faced sweeping international sanctions from EU, UK, US, Canada, Japan, and others on March 9, 2022. Forced to resign from company boards on March 8-9 and transferred beneficiary status to his wife.",
+      "eventKo": "러시아의 우크라이나 침공 직후 2월, 3월 9일 EU, 영국, 미국, 캐나다, 일본 등으로부터 광범위한 국제 제재를 받았다. 3월 8-9일 회사 이사회에서 사임을 강요받았고 수익자 지위를 아내에게 이전했다."
+    },
+    {
+      "year": 2024,
+      "event": "Continued to operate from Dubai as primary residence, effectively exiled from EU and US due to ongoing sanctions. Gave extensive interview to Tucker Carlson in El Salvador, positioning himself as victim of Western sanctions rather than beneficiary of Russian regime.",
+      "eventKo": "두바이를 주요 거주지로 운영을 계속했으나, 지속되는 제재로 인해 EU와 미국에서 사실상 추방되었다. 엘살바도르에서 Tucker Carlson과의 광범위한 인터뷰를 주어 자신을 러시아 정권의 수혜자가 아닌 서방 제재의 희생자로 포지셔닝했다."
     }
   ],
   "failures": [
     {
-      "year": 2021,
-      "description": "Loss of her husband Petr Kellner in a tragic helicopter crash killed five people while heli-skiing in Alaska. The sudden death forced her to unexpectedly assume leadership of a $44 billion conglomerate at a critical time.",
-      "descriptionKo": "남편 Petr Kellner가 알래스카에서 헬리스키를 하던 중 헬리콥터 추락으로 5명이 사망하는 비극적인 사건으로 사망하다. 이 갑작스러운 죽음으로 인해 그녀는 중요한 시기에 440억 달러 규모의 재벌의 지도자 역할을 예상치 못하게 맡게 되다.",
-      "lesson": "Despite the overwhelming challenge of assuming leadership of a complex multinational conglomerate, she successfully navigated the transition and stabilized PPF's operations. She learned the importance of leveraging experienced management teams and focusing on key strategic priorities—particularly the pivot toward Western markets—to ensure business continuity.",
-      "lessonKo": "복잡한 다국적 재벌의 지도자 역할을 맡는 압도적인 도전에도 불구하고 그녀는 전환을 성공적으로 진행했고 PPF의 운영을 안정화했다. 그녀는 경험 많은 경영진 팀을 활용하고 특히 서방 시장으로의 전환에 초점을 맞추어 비즈니스 연속성을 보장하는 핵심 전략적 우선순위에 집중하는 것의 중요성을 배웠다.",
-      "source": "CNN, Bloomberg, PPF Group official statements"
+      "year": 2022,
+      "description": "Complete loss of operational control and effective asset seizure through international sanctions following Russia's invasion of Ukraine. Italian authorities seized his superyacht Sailing Yacht A in Trieste. Lost direct ability to manage EuroChem and SUEK operations, effectively becoming a sanctioned oligarch unable to travel to most developed nations.",
+      "descriptionKo": "러시아의 우크라이나 침공에 따른 국제 제재를 통한 운영 통제의 완전한 상실 및 효과적인 자산 압수. 이탈리아 당국이 트리에스테 항구에서 슈퍼요트 Sailing Yacht A를 압수했다. EuroChem 및 SUEK 운영을 관리할 수 있는 직접적인 능력을 잃었으며, 사실상 대부분의 선진국으로 여행할 수 없는 제재받은 올리가르히가 되었다.",
+      "lesson": "Wealth accumulated through dependence on political favor is inherently vulnerable to geopolitical shifts and international sanctions. Diversification across jurisdictions and asset classes cannot protect against sanctions when political relations deteriorate. Oligarchs without independent global legitimacy face existential business risks.",
+      "lessonKo": "정치적 호의에 의존하여 축적된 부는 지정학적 변화와 국제 제재에 본질적으로 취약하다. 관할권과 자산 클래스 전반에 걸친 다각화는 정치적 관계가 악화될 때 제재로부터 보호할 수 없다. 독립적인 글로벌 정당성이 없는 올리가르히는 실존적 사업 위험에 직면한다."
     },
     {
       "year": 2023,
-      "description": "PPF Group's shift away from Asian markets, which were once a major revenue source, created challenges in portfolio rebalancing. The company had to divest from significant Asian holdings and investments while establishing new Western European operations.",
-      "descriptionKo": "PPF 그룹이 한때 주요 수익원이었던 아시아 시장에서의 철수는 포트폴리오 재조정에서 도전 과제를 야기했다. 이 회사는 상당한 아시아 지분과 투자에서 벗어나면서 새로운 서유럽 운영을 구축해야 했다.",
-      "lesson": "Renata learned the critical importance of strategic flexibility and adaptability in global business operations. She recognized that maintaining focus on core competencies while divesting from underperforming regions was essential for long-term growth. Her ability to execute this pivot successfully demonstrated her capacity to make tough strategic decisions.",
-      "lessonKo": "Renata는 글로벌 비즈니스 운영에서 전략적 유연성과 적응성의 중요성을 배웠다. 그녀는 핵심 역량에 집중하면서 저성과 지역에서 벗어나는 것이 장기적 성장에 필수적임을 인식했다. 이 전환을 성공적으로 실행하는 그녀의 능력은 강한 전략적 결정을 내릴 수 있는 그녀의 능력을 입증했다.",
-      "source": "Bloomberg, PPF Group strategic reports"
+      "description": "Russian Prosecutor General's Office filed suit aimed at nationalizing his former company Sibeco. Though settled in October 2023, the lawsuit represented threat to remaining business interests and demonstrated vulnerability of wealth concentrated in Putin-era ventures dependent on political favor.",
+      "descriptionKo": "러시아 검찰청이 그의 전직 회사 Sibeco를 국유화하기 위한 소송을 제기했다. 2023년 10월에 해결되었지만, 소송은 남은 사업 이익에 대한 위협을 나타내었고, 정치적 호의에 의존하는 푸틴 시대 벤처에 집중된 부의 취약성을 입증했다.",
+      "lesson": "Even settled lawsuits and threats of asset nationalization reveal the precarious position of oligarchs whose wealth depends on Kremlin connections. Once sanctions are imposed and political favor is withdrawn, legal mechanisms can be weaponized by the state against oligarchs, regardless of past cooperation.",
+      "lessonKo": "해결된 소송과 자산 국유화 위협조차도 크렘린 인맥에 의존하는 올리가르히의 위험한 입장을 드러낸다. 제재가 부과되고 정치적 호의가 철회되면, 과거의 협력에 관계없이 법적 메커니즘은 국가에 의해 올리가르히를 상대로 무기화될 수 있다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 1995,
-      "netWorth": 2
+      "year": 2000,
+      "netWorth": 0.8
+    },
+    {
+      "year": 2005,
+      "netWorth": 3.5
     },
     {
       "year": 2010,
-      "netWorth": 8.5
+      "netWorth": 8.2
     },
     {
       "year": 2015,
-      "netWorth": 12
+      "netWorth": 15.6
     },
     {
-      "year": 2020,
-      "netWorth": 17.5
-    },
-    {
-      "year": 2025,
-      "netWorth": 19.7
+      "year": 2022,
+      "netWorth": 20.4
     }
   ],
   "quotes": [
     {
-      "text": "The first priority was to secure the stability of PPF, and then start developing the business again.",
-      "textKo": "첫 번째 우선순위는 PPF의 안정성을 확보하는 것이었고, 그 다음 비즈니스를 다시 발전시키는 것이었다.",
-      "context": "Discussing her immediate priorities after assuming control of PPF Group following her husband's death in 2021",
-      "contextKo": "2021년 남편 사망 후 PPF 그룹의 통제권을 맡은 후 그녀의 즉각적인 우선순위를 논의할 때",
-      "source": "Bloomberg, PPF Group interviews"
+      "text": "I am a self-made businessman. I was not part of the 1990s gold rush and I have never met Putin in a group of fewer than 15 people.",
+      "textKo": "나는 자수성가한 사업가다. 나는 1990년대 황금 러시의 일부가 아니었으며 15명 미만의 그룹에서 푸틴을 만난 적이 없다.",
+      "context": "Defending his wealth and independence in interviews following international sanctions, asserting he earned his fortune through business acumen rather than political connections.",
+      "contextKo": "국제 제재 이후의 인터뷰에서 그의 부와 독립성을 방어하며, 그의 재산을 정치적 인맥보다는 사업 능력으로 벌었다고 주장했다."
     },
     {
-      "text": "I realized that PPF is personal for me and that my task is to prepare our children so that they will have the possibility of taking leadership of the group one day themselves.",
-      "textKo": "나는 PPF가 나에게 개인적이라는 것을 깨달았고 나의 임무는 우리 자녀들이 언젠가 그룹의 지도자가 될 수 있는 가능성을 갖도록 준비시키는 것이라는 것을 깨달았다.",
-      "context": "On her vision for the family business and succession planning for the next generation",
-      "contextKo": "가족 비즈니스에 대한 그녀의 비전과 차세대 승계 계획에 대해",
-      "source": "PPF Group official statements"
+      "text": "There are definitely war crimes from both sides. This happens in any war. It's natural.",
+      "textKo": "양쪽 모두에서 전쟁 범죄가 확실히 있다. 이는 모든 전쟁에서 발생한다. 자연스러운 일이다.",
+      "context": "Discussing the Ukraine war in a Financial Times interview, attempting to present a balanced perspective while distancing himself from Russian aggression narrative.",
+      "contextKo": "파이낸셜 타임즈 인터뷰에서 우크라이나 전쟁에 대해 논의하며, 균형 잡힌 관점을 제시하면서 러시아 침략 내러티브로부터 거리를 두려고 시도했다."
     },
     {
-      "text": "The core focus of our business has been moving west in the past three years.",
-      "textKo": "우리 비즈니스의 핵심 초점은 지난 3년 동안 서쪽으로 이동했다.",
-      "context": "Explaining PPF Group's strategic geographic pivot away from Asian markets toward Western European markets",
-      "contextKo": "PPF 그룹의 아시아 시장에서 서유럽 시장으로의 전략적 지리적 전환을 설명할 때",
-      "source": "Bloomberg, PPF Group strategic reports"
+      "text": "Russia can play a pivotal role in global climate action and sustainability, particularly through our commitment to fertilizer production that feeds the world.",
+      "textKo": "러시아는 특히 세계를 먹여 살리는 비료 생산에 대한 우리의 약속을 통해 글로벌 기후 행동 및 지속 가능성에서 중추적인 역할을 할 수 있다.",
+      "context": "Statement at COP27 climate summit in 2022, leveraging environmental responsibility rhetoric to defend EuroChem's operations and counter Western sanctions narrative.",
+      "contextKo": "2022년 COP27 기후 정상회담에서의 성명으로, 환경 책임 수사를 활용하여 EuroChem의 운영을 방어하고 서방의 제재 내러티브에 대항했다."
     }
   ],
   "books": {
-    "authored": [
-      {
-        "title": "No known published books",
-        "note": "Renata Kellnerova maintains a private profile and has not published memoirs or business books",
-        "noteKo": "Renata Kellnerova는 개인적 프로필을 유지하고 회고록이나 비즈니스 서적을 출판하지 않았다"
-      }
-    ],
+    "authored": [],
     "recommended": [
       {
-        "title": "The Family Business Bible",
-        "author": "Kennedy and Paul",
-        "why": "Critical for understanding succession planning and keeping family businesses intact across generations",
-        "whyKo": "가족 비즈니스를 세대에 걸쳐 유지하기 위한 승계 계획을 이해하는 데 매우 중요하다"
+        "title": "The New Cold War: Putin's Russia and the Threat to the West",
+        "author": "Edward Lucas",
+        "why": "Critical examination of Russian oligarchy system, wealth concentration, and geopolitical implications directly relevant to understanding Melnichenko's rise and vulnerability.",
+        "whyKo": "멜니첸코의 상승과 취약성을 이해하는 데 직접적으로 관련된 러시아 올리가르히 체계, 부의 집중, 지정학적 영향을 비판적으로 검토한다."
       },
       {
-        "title": "Good to Great",
-        "author": "Jim Collins",
-        "why": "Relevant to her work in stabilizing and transforming PPF Group's strategic direction",
-        "whyKo": "PPF 그룹의 안정화 및 전략적 방향 전환 작업과 관련성이 있다"
-      },
-      {
-        "title": "The Intelligent Investor",
-        "author": "Benjamin Graham",
-        "why": "Essential for managing a diverse investment portfolio across multiple continents and sectors",
-        "whyKo": "여러 대륙과 부문에 걸친 다양한 투자 포트폴리오를 관리하는 데 필수적이다"
+        "title": "Resource Wars: The New Landscape of Global Conflict",
+        "author": "Michael Klare",
+        "why": "Explains how control of commodities like coal and fertilizers creates both wealth and geopolitical vulnerability in contested global markets.",
+        "whyKo": "석탄 및 비료와 같은 상품의 통제가 어떻게 분쟁이 있는 글로벌 시장에서 부와 지정학적 취약성을 만드는지 설명한다."
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Renata Kellnerova is known for her low public profile, business acumen, and her ability to quickly stabilize a massive conglomerate during a time of crisis. She is respected for maintaining family control of PPF while modernizing its operations and successfully pivoting toward Western markets. She is also recognized for her philanthropic work through the Kellner Family Foundation.",
-    "knownForKo": "Renata Kellnerova는 낮은 공개 프로필, 비즈니스 안목, 위기 시기에 대규모 재벌을 빠르게 안정화할 수 있는 능력으로 알려져 있다. 그녀는 PPF의 가족 통제를 유지하면서 운영을 현대화하고 성공적으로 서방 시장으로 방향을 바꾼 것으로 존경받는다. 그녀는 또한 Kellner 가족 재단을 통한 자선 활동으로도 인정받는다.",
-    "philanthropy": "Co-founded Educa Foundation (2001) supporting scholarships and education; Co-founded Kellner Family Foundation (2009) which dispersed CZK 1.6 billion in support of educational activities and social causes over ten years. Lifetime contributions exceed $1 billion, focusing on education and social welfare in Central Europe.",
-    "philanthropyKo": "교육 장학금과 교육을 지원하는 Educa 재단(2001) 공동 설립; 10년에 걸쳐 교육 활동 및 사회 사업을 지원하기 위해 CZK 16억을 지원한 Kellner 가족 재단(2009) 공동 설립. 평생 기부금은 10억 달러를 초과하며 중앙 유럽의 교육과 사회 복지에 초점을 맞춘다.",
-    "controversies": "Renata and her family filed a lawsuit in Alaska seeking full investigation into the helicopter crash that killed her husband Petr Kellner and four others in March 2021. The family's privacy has been generally well-respected by media, with limited public controversy surrounding her leadership.",
-    "controversiesKo": "Renata와 그녀의 가족은 2021년 3월 남편 Petr Kellner와 4명의 다른 사람을 죽인 헬리콥터 추락에 대한 전체 조사를 요구하는 알래스카 소송을 제기했다. 그 가족의 개인정보는 일반적으로 미디어로부터 충분히 존중받았으며 그녀의 지도자 역할을 둘러싼 공개적 논쟁은 제한적이었다."
+    "knownFor": "Ruthless industrialist who built one of Russia's largest resource empires through aggressive consolidation of coal and fertilizer assets. Known for claiming to be self-made despite operating within Putin-era business structures. Also infamous for owning superyachts including the 156-meter Sailing Yacht A, symbol of ultra-wealthy Russian oligarchs.",
+    "knownForKo": "석탄 및 비료 자산의 공격적인 통합을 통해 러시아의 가장 큰 자원 제국 중 하나를 구축한 무자비한 산업가. 푸틴 시대 사업 구조 내에서 운영함에도 불구하고 자수성가했다고 주장하는 것으로 알려져 있다. 또한 156미터 규모의 Sailing Yacht A를 소유하고 있는 것으로 악명 높으며, 이는 극도로 부유한 러시아 올리가르히의 상징이다.",
+    "philanthropy": "Minimal public philanthropy. Unlike some Russian billionaires, Melnichenko has not established significant charitable foundations or donated substantially to educational or cultural causes. Post-sanctions, has focused on maintaining business interests and defending against legal/political challenges rather than philanthropic endeavors.",
+    "philanthropyKo": "최소한의 공개 자선활동. 일부 러시아 억만장자와 달리 멜니첸코는 상당한 자선 재단을 설립하거나 교육 또는 문화 사업에 실질적으로 기부하지 않았다. 제재 이후 자선 활동보다는 사업 이익 유지 및 법적/정치적 도전으로부터 방어에 초점을 맞추었다.",
+    "controversies": "Sanctioned oligarch accused of profiting from Putin regime and benefiting from non-competitive privatization in 1990s Russia. Superyacht seized by Italian authorities. Sued by Russian Prosecutor General's Office for asset nationalization. Faces lawsuit over environmental damage from coal operations in Siberia. His claims to be 'self-made' and independent of Putin are widely disputed by Western observers, who view him as archetypal Putin-connected oligarch.",
+    "controversiesKo": "푸틴 정권으로부터 이익을 얻고 1990년대 러시아의 비경쟁적 민영화로부터 이익을 얻은 혐의를 받는 제재받은 올리가르히. 슈퍼요트가 이탈리아 당국에 의해 압수되었다. 러시아 검찰청에 자산 국유화를 위해 소송을 당했다. 시베리아의 석탄 운영으로 인한 환경 피해에 대한 소송에 직면해 있다. '자수성가'했으며 푸틴으로부터 독립적이라는 그의 주장은 그를 전형적인 푸틴과 연결된 올리가르히로 보는 서방 관찰자들에 의해 광범위하게 분쟁을 받고 있다."
   },
   "sajuConnection": {
     "note": "Leave null.",

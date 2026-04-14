@@ -1,122 +1,89 @@
 {
   "id": "137",
-  "name": "James Ratcliffe",
-  "nameKo": "제임스 래트클리프",
+  "name": "Beate Heister",
+  "nameKo": "베아테 하이스터",
   "childhood": {
-    "birthPlace": "Failsworth, Lancashire, England (now Greater Manchester)",
-    "birthPlaceKo": "잉글랜드 랭커셔 페일스워스 (현 그레이터 맨체스터)",
-    "familyBackground": "Born on October 18, 1952, into a working-class family. His father was a joiner who went on to run a factory that made laboratory furniture, and his mother worked in an accounts office. The family lived in a council house (public housing) until Ratcliffe was ten years old.",
-    "familyBackgroundKo": "1952년 10월 18일 노동자 계급 가정에서 태어났다. 아버지는 목수로 나중에 실험실 가구를 만드는 공장을 운영했고, 어머니는 회계 사무실에서 일했다. 래트클리프가 10살이 될 때까지 가족은 공영 주택(카운실 하우스)에서 살았다.",
-    "education": "Attended Beverley Grammar School in Hull; Degree in Chemical Engineering from the University of Birmingham (1974); MBA from London Business School",
-    "educationKo": "헐의 베벌리 그래머 스쿨 재학; 버밍엄대학교 화학공학 학위 (1974); 런던 비즈니스 스쿨 MBA",
-    "earlyLife": "James Ratcliffe grew up in a council house in Failsworth, Lancashire. When he was ten, his family relocated to Hull, where he attended Beverley Grammar School. He studied chemical engineering at the University of Birmingham, graduating in 1974, and later earned an MBA from London Business School. He began his career at oil company Esso, then moved into private equity at Advent International, where he honed the dealmaking skills that would define his approach to building INEOS.",
-    "earlyLifeKo": "랭커셔 페일스워스의 공영 주택에서 자랐다. 10살 때 가족이 헐로 이사했고 그곳에서 베벌리 그래머 스쿨을 다녔다. 버밍엄대학교에서 화학공학을 전공하여 1974년에 졸업했고, 이후 런던 비즈니스 스쿨에서 MBA를 취득했다. 석유 회사 에쏘에서 경력을 시작한 후 사모펀드 어드벤트 인터내셔널에서 일하며 INEOS를 구축하는 데 결정적이 된 딜메이킹 기술을 연마했다.",
-    "source": "Wikipedia, Bloomberg, lovemoney.com"
+    "birthPlace": "Essen, Germany",
+    "birthPlaceKo": "에센, 독일",
+    "familyBackground": "Born Beate Albrecht on October 5, 1951, to Karl Albrecht Sr. (1920–2014) and Maria 'Mia' Tenbrink. Her father co-founded the Aldi discount supermarket chain with his brother Theo Albrecht. The family built their empire from a single grocery store in Essen that the brothers took over from their mother Anna Siepmann in 1946. Beate has one brother, Karl Albrecht Jr.",
+    "familyBackgroundKo": "1951년 10월 5일 카를 알브레히트 시니어(1920–2014)와 마리아 '미아' 텐브링크 사이에서 베아테 알브레히트로 태어났다. 아버지는 형 테오 알브레히트와 함께 알디 할인 슈퍼마켓 체인을 공동 창립했다. 1946년 어머니 안나 지펀만으로부터 에센의 작은 식료품점 하나를 인수한 것이 제국의 시작이었다. 오빠 카를 알브레히트 주니어가 있다.",
+    "education": "Specific educational details are not publicly known due to the family's extreme privacy. The Albrecht family emphasized business continuity, operational discipline, and the values of thrift that defined Aldi's corporate culture.",
+    "educationKo": "가족의 극도의 사생활 보호로 인해 구체적인 학력 정보는 공개되어 있지 않다. 알브레히트 가족은 알디의 기업 문화를 정의한 사업 연속성, 운영 규율, 절약의 가치를 강조했다.",
+    "earlyLife": "Beate Heister grew up in Essen during the Wirtschaftswunder (German economic miracle), the rapid post-war reconstruction era. Despite the family's growing wealth from Aldi's expansion, the Albrechts maintained a famously austere lifestyle. Her father Karl Sr. had served in World War II and was captured by American forces before returning to rebuild the family store. The values of extreme frugality, privacy, and disciplined work were central to her upbringing. A traumatic event shaped the family's reclusive nature: in 1971, Karl Sr. and Theo were kidnapped and held for ransom for 17 days, after which the family became intensely private.",
+    "earlyLifeKo": "베아테 하이스터는 급속한 전후 재건기인 경제의 기적(Wirtschaftswunder) 시기에 에센에서 성장했다. 알디의 확장으로 가족의 부가 늘어나고 있었음에도 알브레히트 가는 유명할 정도로 검소한 생활을 유지했다. 아버지 카를 시니어는 2차 세계대전에 참전해 미군에 포로로 잡혔다가 돌아와 가족 상점을 재건했다. 극도의 절약, 사생활 보호, 규율 잡힌 근면이 그녀 양육의 중심이었다. 1971년 카를 시니어와 테오가 납치되어 17일간 몸값을 요구당한 사건은 가족이 극도로 은둔적 성향을 갖게 된 결정적 계기가 되었다.",
+    "source": "Wikipedia, Bloomberg, Goodreturns, InformationCradle"
   },
   "careerTimeline": [
     {
-      "year": 1974,
-      "event": "Graduated from University of Birmingham with a chemical engineering degree and began career at Esso",
-      "eventKo": "버밍엄대학교에서 화학공학 학위를 취득하고 에쏘에서 경력 시작"
+      "year": 1971,
+      "event": "Father Karl Albrecht and uncle Theo were kidnapped and held for 17 days, profoundly shaping the family's commitment to privacy and security",
+      "eventKo": "아버지 카를 알브레히트와 삼촌 테오가 납치되어 17일간 억류, 가족의 사생활 보호와 보안에 대한 헌신에 깊은 영향을 미침"
     },
     {
-      "year": 1989,
-      "event": "Joined Advent International, a private equity firm, developing his acquisition and deal-making expertise",
-      "eventKo": "사모펀드 어드벤트 인터내셔널에 합류하여 인수 및 딜메이킹 전문성을 개발"
+      "year": 1973,
+      "event": "Father established the Siepmann Stiftung (foundation), named after grandmother Anna Siepmann, to hold and protect the family's Aldi Süd stake",
+      "eventKo": "아버지가 할머니 안나 지펀만의 이름을 딴 지펀만 재단을 설립하여 가족의 알디 쥐트 지분을 보유·보호"
     },
     {
-      "year": 1998,
-      "event": "Founded INEOS in Hampshire by buying out Inspec's chemical operations, beginning his 'buy and build' strategy",
-      "eventKo": "인스펙의 화학 사업을 매입하여 햄프셔에 INEOS를 설립하고 '인수 후 성장' 전략 시작"
+      "year": 1988,
+      "event": "Married Peter Heister, an entrepreneur connected to the Werhahn family who later became involved with Aldi Süd's advisory board",
+      "eventKo": "베르한 가문과 연결된 기업가 피터 하이스터와 결혼, 남편은 이후 알디 쥐트 자문위원회에 관여"
     },
     {
-      "year": 2005,
-      "event": "Acquired BP's Innovene chemicals division for $9 billion, making INEOS one of the world's largest chemical companies",
-      "eventKo": "BP의 이노빈 화학 사업부를 90억 달러에 인수하여 INEOS를 세계 최대 화학 회사 중 하나로 만듦"
+      "year": 2014,
+      "event": "Father Karl Albrecht Sr. died at age 94; Beate inherited approximately half of the Aldi Süd empire through the Siepmann Stiftung family trust",
+      "eventKo": "아버지 카를 알브레히트 시니어가 94세에 사망, 지펀만 재단 가족 신탁을 통해 알디 쥐트 제국의 약 절반을 상속"
     },
-    {
-      "year": 2018,
-      "event": "Named the richest person in the UK with an estimated net worth of £21 billion",
-      "eventKo": "210억 파운드 추정 순자산으로 영국 최고 부자로 선정"
-    },
-    {
-      "year": 2021,
-      "event": "Announced plans to invest over €2 billion in green hydrogen projects across Europe",
-      "eventKo": "유럽 전역에서 그린 수소 프로젝트에 20억 유로 이상 투자 계획 발표"
-    },
-    {
-      "year": 2024,
-      "event": "Became minority shareholder in Manchester United and gained control over sporting operations",
-      "eventKo": "맨체스터 유나이티드의 소수 주주가 되어 스포츠 운영 관리권을 획득"
-    }
-  ],
-  "failures": [
-    {
-      "year": 2008,
-      "description": "The global financial crisis crushed demand for chemicals while INEOS violated strict banking covenants due to its high-yield debt financing model, putting the company on the brink of collapse. Revenue and profitability dropped dramatically.",
-      "descriptionKo": "글로벌 금융 위기로 화학제품 수요가 급감하는 동시에 INEOS가 고수익 부채 금융 모델로 인해 엄격한 은행 약정을 위반하여 회사가 붕괴 직전에 놓였다. 매출과 수익성이 급격히 하락했다.",
-      "lesson": "Ratcliffe learned to manage debt more carefully and diversify revenue streams, making INEOS more resilient to economic downturns in subsequent cycles",
-      "lessonKo": "래트클리프는 부채를 더 신중하게 관리하고 수익원을 다각화하는 법을 배웠으며, 이후 경기 침체에 대한 INEOS의 회복력을 강화했다",
-      "source": "Wikipedia, Bloomberg, Financial Times"
-    },
-    {
-      "year": 2025,
-      "description": "INEOS faced its worst crisis since 2008, with two key divisions carrying £18 billion in combined debt and £1.8 billion in annual interest payments. Net worth plunged by $8.7 billion.",
-      "descriptionKo": "INEOS가 2008년 이후 최악의 위기에 직면했으며, 주요 2개 사업부의 부채가 총 180억 파운드에 달하고 연간 이자 비용이 18억 파운드에 이르렀다. 순자산이 87억 달러 감소했다.",
-      "lesson": "The crisis highlighted that the European chemical industry faces structural challenges from high energy costs and carbon taxes that cannot be solved by operational efficiency alone",
-      "lessonKo": "이 위기는 유럽 화학 산업이 운영 효율성만으로는 해결할 수 없는 높은 에너지 비용과 탄소세로 인한 구조적 도전에 직면해 있음을 부각시켰다",
-      "source": "Financial Times, Fortune, Sunday Times"
-    }
-  ],
-  "wealthHistory": [
     {
       "year": 2015,
-      "netWorth": 5.0
+      "event": "Joined Aldi Süd's advisory board alongside her husband Peter, consolidating oversight of the family's retail empire with brother Karl Jr.",
+      "eventKo": "남편 피터와 함께 알디 쥐트 자문위원회에 합류, 오빠 카를 주니어와 함께 가족 소매 제국의 감독을 통합"
+    },
+    {
+      "year": 2020,
+      "event": "Aldi Süd surpassed 6,000 stores globally across Germany, the US, Austria, Italy, Switzerland, and other countries under the family's stewardship",
+      "eventKo": "알디 쥐트가 가족 경영 하에 독일, 미국, 오스트리아, 이탈리아, 스위스 등에서 전 세계 6,000개 이상의 매장을 돌파"
+    }
+  ],
+  "failures": [],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 9.2
+    },
+    {
+      "year": 2014,
+      "netWorth": 10.6
     },
     {
       "year": 2018,
-      "netWorth": 28.3
+      "netWorth": 12.5
     },
     {
-      "year": 2023,
-      "netWorth": 22.0
+      "year": 2022,
+      "netWorth": 15.0
     },
     {
       "year": 2025,
-      "netWorth": 22.7
+      "netWorth": 16.4
     },
     {
       "year": 2026,
-      "netWorth": 18.0
+      "netWorth": 18.4
     }
   ],
-  "quotes": [
-    {
-      "text": "Ineos is a friendly organisation. Very few people leave. It's collegiate. There's not much politics, and we like decent people. We don't like arrogance or bullies.",
-      "textKo": "이네오스는 친화적인 조직이다. 거의 아무도 떠나지 않는다. 동료적이며 정치적 행동이 거의 없고, 우리는 좋은 사람들을 좋아한다. 오만하거나 남을 괴롭히는 사람은 좋아하지 않는다.",
-      "context": "On the culture at INEOS and what makes the company successful",
-      "contextKo": "INEOS의 문화와 회사를 성공하게 만드는 요소에 대하여",
-      "source": "INEOS Inch Magazine"
-    },
-    {
-      "text": "It's always been hard work for us to manufacture in the UK. It's not a particularly profitable place for us.",
-      "textKo": "영국에서 제조하는 것은 항상 힘든 일이었다. 우리에게 특별히 수익성 있는 곳은 아니다.",
-      "context": "On the challenges of UK manufacturing and energy costs",
-      "contextKo": "영국 제조업과 에너지 비용의 어려움에 대하여",
-      "source": "City AM"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Self-made billionaire who rose from a council house to become Britain's richest man through aggressive chemical industry acquisitions. Founded INEOS using a 'buy and build' strategy, purchasing unwanted chemical operations from majors like ICI and BP. Known for his love of sports, owning stakes in Manchester United, OGC Nice, and Lausanne-Sport. An avid adventurer and cycling enthusiast.",
-    "knownForKo": "공영 주택에서 자라 공격적인 화학 산업 인수를 통해 영국 최고 부자가 된 자수성가형 억만장자. ICI와 BP 같은 대기업에서 불필요한 화학 사업을 매입하는 '인수 후 성장' 전략으로 INEOS를 설립했다. 맨체스터 유나이티드, OGC 니스, 로잔 스포르의 지분을 소유한 스포츠 애호가로 알려져 있다.",
-    "philanthropy": "Relatively low-profile philanthropist. INEOS has sponsored sports and cycling initiatives. During COVID-19, INEOS rapidly pivoted to produce hand sanitizer for the NHS and hospitals across Europe.",
-    "philanthropyKo": "비교적 조용한 자선가. INEOS는 스포츠 및 사이클링 이니셔티브를 후원해왔다. COVID-19 기간 동안 INEOS는 NHS와 유럽 전역의 병원을 위해 신속하게 손소독제 생산으로 전환했다.",
-    "controversies": "Moved his tax residence from Hampshire to Monaco in 2020, drawing criticism as a tax avoider despite being vocal about British manufacturing. INEOS's use of high-yield debt financing has been criticized. His push for fracking in the UK faced strong environmental opposition. Manchester United's performance under his sporting leadership has drawn fan frustration.",
-    "controversiesKo": "2020년 조세 거주지를 햄프셔에서 모나코로 옮겨 영국 제조업을 옹호하면서도 세금 회피자라는 비판을 받았다. INEOS의 고수익 부채 금융 사용이 비판받아 왔다. 영국에서의 프래킹 추진이 강력한 환경적 반대에 직면했다. 스포츠 리더십 하에서 맨체스터 유나이티드의 성적이 팬들의 불만을 사고 있다."
+    "knownFor": "One of Germany's richest women and among the five wealthiest women in the world. Heiress to the Aldi Süd empire, controlling over 6,000 discount supermarket stores across multiple countries. Described as 'notoriously reclusive'—maintains one of the lowest public profiles of any billionaire globally. Mother of six children. Has never held an operational role at Aldi but serves on its advisory board.",
+    "knownForKo": "독일에서 가장 부유한 여성 중 한 명이자 세계 5대 부유한 여성에 포함된다. 여러 국가에 걸쳐 6,000개 이상의 할인 슈퍼마켓을 통제하는 알디 쥐트 제국의 상속인이다. '악명 높을 정도로 은둔적'이라고 묘사되며, 전 세계 억만장자 중에서도 가장 낮은 수준의 공개 프로필을 유지한다. 6명의 자녀를 둔 어머니이며, 알디에서 운영 역할을 맡은 적은 없지만 자문위원회에 참여하고 있다.",
+    "philanthropy": "The Albrecht family's philanthropic activities are kept as private as their personal lives. The Siepmann Stiftung manages the family's wealth and charitable activities, but specific donations and causes are rarely publicized.",
+    "philanthropyKo": "알브레히트 가문의 자선 활동은 사생활만큼이나 비밀에 부쳐져 있다. 지펀만 재단이 가족의 자산과 자선 활동을 관리하지만, 구체적인 기부 내역과 대상은 거의 공개되지 않는다.",
+    "controversies": "The Albrecht family faced internal disputes over control of the Aldi empire following Karl Sr.'s death. The 1971 kidnapping of Karl Sr. and Theo Albrecht remains one of the most notorious crimes in German post-war history and permanently shaped the family's extreme privacy measures.",
+    "controversiesKo": "알브레히트 가문은 카를 시니어의 사망 후 알디 제국의 경영권을 둘러싼 내부 분쟁을 겪었다. 1971년 카를 시니어와 테오 알브레히트의 납치 사건은 독일 전후 역사에서 가장 악명 높은 범죄 중 하나로 남아 있으며, 가족의 극단적인 사생활 보호 조치를 영구적으로 형성했다."
   },
   "sajuConnection": null
 }

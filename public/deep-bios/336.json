@@ -1,46 +1,83 @@
 {
   "id": "336",
-  "name": "Barbara Tyson",
+  "name": "Fernando Roberto Moreira Salles",
+  "nameKo": "페르난도 호베르토 모레이라 살레스",
+  "netWorth": "$9.7B",
+  "nationality": "BR",
+  "industry": "Finance & Investments",
   "childhood": {
-    "birthPlace": "Chicago, Illinois, USA",
-    "birthPlaceKo": "미국 일리노이 시카고",
-    "familyBackground": "From American family with meat processing and agricultural heritage.",
-    "familyBackgroundKo": "육류 가공 및 농업 유산이 있는 미국 가족에서.",
-    "education": "University of Illinois, Agriculture and Business Management",
-    "educationKo": "일리노이 대학교, 농업 및 경영 관리",
-    "earlyLife": "Worked in family ranching business before transitioning to meat processing and food manufacturing.",
-    "earlyLifeKo": "육류 가공 및 식품 제조로 전환하기 전 가족 목장 사업에서 근무.",
-    "source": null
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "birthPlaceKo": "브라질 리우데자네이루",
+    "familyBackground": "Born into one of Brazil's oldest and most powerful banking dynasties. His father, Walther Moreira Salles, founded Unibanco and served as Brazil's ambassador to the United States. His grandfather, João Moreira Salles, established Casa Bancária Moreira Salles in 1924 in Minas Gerais, starting the family's banking legacy.",
+    "familyBackgroundKo": "브라질에서 가장 오래되고 강력한 은행 가문 중 하나에서 태어났다. 아버지 발터 모레이라 살레스는 우니방코를 설립하고 주미 브라질 대사를 역임했다. 조부 주앙 모레이라 살레스는 1924년 미나스제라이스에 카사 반카리아 모레이라 살레스를 설립하여 가문의 은행 유산을 시작했다.",
+    "education": "Graduated with a degree in economics from Fundação Getúlio Vargas, one of Brazil's most prestigious institutions",
+    "educationKo": "브라질 최고의 명문 교육기관인 제툴리우 바르가스 재단에서 경제학 학위 취득",
+    "earlyLife": "Born on May 29, 1946, in Rio de Janeiro, Fernando grew up immersed in Brazil's financial elite. His grandfather João opened a banking department at a store in Minas Gerais in 1924 where he sold food, drinks, and household goods. His father Walther took the helm in 1940, acquiring rival banks and building what became Unibanco. Fernando and his three brothers were raised with deep connections to Brazilian banking and public life.",
+    "earlyLifeKo": "1946년 5월 29일 리우데자네이루에서 태어난 페르난도는 브라질 금융 엘리트 환경에서 성장했다. 조부 주앙은 1924년 미나스제라이스의 한 상점에서 식품, 음료, 가정용품을 판매하며 은행 부서를 개설했다. 아버지 발터는 1940년 경영을 맡아 경쟁 은행을 인수하고 우니방코를 구축했다. 페르난도와 세 형제는 브라질 은행업과 공적 생활에 깊이 연결된 환경에서 성장했다.",
+    "source": "Bloomberg, Celebrity Net Worth, SuccessStory"
   },
   "careerTimeline": [
     {
-      "year": 1985,
-      "event": "Took leadership of family meat processing company",
-      "eventKo": "가족 육류 가공 회사 리더십 담당"
+      "year": 1970,
+      "event": "Joined the family's banking operations after graduating in economics from Fundação Getúlio Vargas",
+      "eventKo": "제툴리우 바르가스 재단에서 경제학을 졸업한 후 가문의 은행 사업에 합류"
+    },
+    {
+      "year": 2001,
+      "event": "Father Walther Moreira Salles passed away, bequeathing his stake in Unibanco to his four sons",
+      "eventKo": "아버지 발터 모레이라 살레스 사망, 우니방코 지분을 네 아들에게 상속"
+    },
+    {
+      "year": 2008,
+      "event": "Unibanco merged with Banco Itaú to form Itaú Unibanco, Latin America's largest private sector bank",
+      "eventKo": "우니방코가 방코 이타우와 합병하여 중남미 최대 민간 은행 이타우 우니방코 설립"
+    },
+    {
+      "year": 2010,
+      "event": "Focused on managing personal investments and holdings in CBMM, the world's leading niobium producer",
+      "eventKo": "개인 투자 및 세계 최대 니오븀 생산업체 CBMM 지분 관리에 집중"
+    },
+    {
+      "year": 2020,
+      "event": "Continued as a major shareholder of Itaú Unibanco, holding roughly half of the family's 17% stake in common shares",
+      "eventKo": "이타우 우니방코의 주요 주주로서 가족의 보통주 17% 지분 중 약 절반을 보유"
+    },
+    {
+      "year": 2025,
+      "event": "Net worth estimated at $9.7 billion, reflecting strong performance of Itaú Unibanco and CBMM holdings",
+      "eventKo": "이타우 우니방코 및 CBMM 지분의 호조를 반영하여 순자산 97억 달러로 추정"
     }
   ],
   "failures": [
     {
-      "year": 2012,
-      "description": "Food safety violations and regulatory issues in processing facilities",
-      "descriptionKo": "처리 시설의 식품 안전 위반 및 규제 문제",
-      "lesson": "Compliance and safety standards essential for food processing operations",
-      "lessonKo": "식품 가공 운영에 필수적인 준수 및 안전 기준",
-      "source": null
+      "year": 2008,
+      "description": "The global financial crisis hit Brazilian banks hard, and the Unibanco-Itaú merger was partly driven by the need to strengthen both institutions during the turbulent economic environment.",
+      "descriptionKo": "글로벌 금융 위기가 브라질 은행들을 강타했고, 우니방코-이타우 합병은 혼란스러운 경제 환경에서 양 기관을 강화해야 할 필요성에 의해 부분적으로 추진되었다.",
+      "lesson": "Merging during a crisis can create stronger institutions; the Unibanco-Itaú combination created Latin America's dominant bank.",
+      "lessonKo": "위기 중 합병은 더 강한 기관을 만들 수 있다; 우니방코-이타우 결합은 중남미 최강의 은행을 탄생시켰다.",
+      "source": "Bloomberg"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2018,
-      "netWorth": 2.1
-    },
-    {
-      "year": 2020,
+      "year": 2010,
       "netWorth": 2.5
     },
     {
+      "year": 2015,
+      "netWorth": 3.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 4.5
+    },
+    {
       "year": 2023,
-      "netWorth": 2.8
+      "netWorth": 6.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 9.7
     }
   ],
   "quotes": [],
@@ -49,12 +86,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Leadership in American food processing and agricultural industry",
-    "knownForKo": "미국 식품 가공 및 농업 산업의 리더십",
-    "philanthropy": "Agricultural development and rural community programs",
-    "philanthropyKo": "농업 개발 및 농촌 커뮤니티 프로그램",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Stewarding one of Brazil's most prominent banking dynasties; major shareholder in Latin America's largest private bank; known as a private and low-profile billionaire who avoids public spotlight",
+    "knownForKo": "브라질에서 가장 저명한 은행 가문의 관리; 중남미 최대 민간 은행의 주요 주주; 공적 조명을 피하는 사적이고 저자세의 억만장자로 알려짐",
+    "philanthropy": "The Moreira Salles family supports cultural institutions in Brazil, including the Instituto Moreira Salles, a prominent cultural center focused on photography, music, literature, and visual arts",
+    "philanthropyKo": "모레이라 살레스 가문은 사진, 음악, 문학, 시각 예술에 중점을 둔 저명한 문화 센터인 모레이라 살레스 연구소를 포함하여 브라질의 문화 기관을 지원한다",
+    "controversies": "Generally avoids public controversy; the family's significant banking influence in Brazil has occasionally drawn attention regarding concentration of financial power",
+    "controversiesKo": "일반적으로 공적 논란을 피함; 브라질에서 가문의 상당한 은행 영향력이 금융권력 집중에 관해 때때로 주목을 받았다"
   },
   "sajuConnection": null
 }

@@ -1,96 +1,108 @@
 {
   "id": "936",
-  "name": "Paul Gauselmann",
-  "nameKo": "파울 가우젤만",
-  "childhood": "Paul Gauselmann was born on August 26, 1934, in Borghorst in the Westphalia region of Germany. He lost his mother at the age of two and was raised by an aunt in modest circumstances. Growing up during the hardships of World War II, he found refuge in games—reportedly playing in air raid shelters to pass time during bombing raids—a formative experience that would later shape his lifelong focus on entertainment and leisure.",
-  "childhoodKo": "파울 가우젤만은 1934년 8월 26일 독일 베스트팔렌 지방 보르크호르스트에서 태어났다. 두 살 때 어머니를 여의고 숙모 손에 자라며 어려운 환경 속에서 성장했다. 제2차 세계대전의 혼란기, 공습 대피소에서 게임을 하며 두려움을 달랬다는 일화는 훗날 오락과 여가를 평생의 업으로 삼게 된 그의 삶을 예고하는 듯하다.",
+  "name": "Somurai Jaruphnit",
+  "childhood": {
+    "birthPlace": "Thailand",
+    "birthPlaceKo": "태국",
+    "familyBackground": "Born into a family with deep ties to the Charoen Pokphand (CP) Group, one of Thailand's largest and oldest conglomerates. The CP Group was founded in 1921 by Chinese immigrants Chia Ek Chor and Chia Siew Whooy as a seed shop in Bangkok's Chinatown. The Jaruphnit family became closely connected to the Chearavanont family, the primary owners of CP Group, through business and investment partnerships spanning decades.",
+    "familyBackgroundKo": "태국 최대 재벌 중 하나인 차런 포크판드(CP) 그룹과 깊은 인연을 가진 가문에서 태어났다. CP 그룹은 1921년 중국 이민자 치아 에크 초르와 치아 시우 우이가 방콕 차이나타운에서 종자 가게로 시작했다. 자루프닛 가문은 CP 그룹의 주요 소유주인 치어라바논트 가문과 수십 년에 걸친 사업 및 투자 파트너십을 통해 긴밀하게 연결되었다.",
+    "education": "Details of formal education not publicly documented.",
+    "educationKo": "공식 학력은 공개되지 않았다.",
+    "earlyLife": "Grew up during a transformative era for Thai business, as the CP Group expanded from agricultural trading into animal feed, livestock production, and eventually telecommunications and retail. The family's involvement in CP Group gave her early exposure to one of Southeast Asia's most diversified conglomerates.",
+    "earlyLifeKo": "CP 그룹이 농업 무역에서 사료, 축산, 나아가 통신과 유통으로 확장하던 태국 경제 변혁기에 성장했다. CP 그룹과의 가문의 관계를 통해 동남아시아 최대 복합 기업 중 하나를 어릴 때부터 가까이에서 경험했다."
+  },
   "careerTimeline": [
     {
-      "year": 1952,
-      "event": "Completed training as a telecommunications inspector, giving him the technical foundation that would later serve his electronics and gaming machine ventures.",
-      "eventKo": "통신 기술자 과정을 마쳤다. 이 기술적 토대는 훗날 전자 기기 및 게임 기계 사업에 큰 자산이 됐다."
+      "year": 1921,
+      "event": "Charoen Pokphand Group founded as a seed shop in Bangkok's Chinatown by Chia Ek Chor and Chia Siew Whooy",
+      "eventKo": "치아 에크 초르와 치아 시우 우이가 방콕 차이나타운에서 종자 가게로 차런 포크판드 그룹 설립"
     },
     {
-      "year": 1957,
-      "event": "Founded the Gauselmann Group (later Merkur Group) as a side business, starting with 17 Bergmann jukeboxes with virtually no equity capital, laying the cornerstone of what would become Europe's largest gaming company.",
-      "eventKo": "가우젤만 그룹(훗날 메르쿠어 그룹)을 부업으로 창업했다. 사실상 자본금 없이 베르크만 주크박스 17대로 출발한 이 사업이 유럽 최대 게임 기업의 씨앗이었다."
+      "year": 1954,
+      "event": "CP Group launched its first subsidiary, Charoen Pokphand Feedmill, beginning the expansion into animal feed",
+      "eventKo": "CP 그룹이 첫 자회사 차런 포크판드 사료 공장을 설립하며 사료 산업으로 확장 시작"
     },
     {
-      "year": 1964,
-      "event": "Became fully self-employed in October, committing entirely to his entertainment business as it began to grow beyond a side venture.",
-      "eventKo": "10월, 부업을 넘어 성장하는 오락 사업에 전념하며 완전한 독립 사업가의 길로 들어섰다."
-    },
-    {
-      "year": 1974,
-      "event": "Opened the first Merkur gaming arcade, marking the company's expansion into the amusement arcade business that would become its core revenue driver.",
-      "eventKo": "첫 메르쿠어 게임 아케이드를 개장했다. 이는 훗날 그룹의 핵심 수익원이 될 오락실 사업의 본격적인 출발점이었다."
-    },
-    {
-      "year": 1977,
-      "event": "Developed and launched the 'Merkur B' slot machine, the first gaming machine developed and manufactured by the Gauselmann Group, beginning its ascent as a gaming hardware innovator with over 200 patents eventually filed.",
-      "eventKo": "'메르쿠어 B' 슬롯머신을 개발·출시했다. 가우젤만 그룹이 독자 개발한 최초의 게임 기기로, 결국 200건 이상의 특허를 출원한 게임 하드웨어 혁신가로서의 행보가 시작됐다."
+      "year": 1970,
+      "event": "CP Group pioneered integrated agribusiness in Thailand, becoming the country's largest producer of animal feed and livestock",
+      "eventKo": "CP 그룹이 태국에서 통합 농업을 개척하여 사료 및 축산 분야 국내 최대 기업으로 성장"
     },
     {
       "year": 1990,
-      "event": "Opened the first international arcade in Amsterdam, beginning the Gauselmann Group's international expansion beyond Germany.",
-      "eventKo": "암스테르담에 첫 해외 아케이드를 개장하며 가우젤만 그룹의 독일 밖 국제 확장이 본격화됐다."
+      "event": "CP Group expanded into telecommunications with TelecomAsia (now True Corporation), diversifying beyond agriculture",
+      "eventKo": "CP 그룹이 텔레콤아시아(현 트루 코퍼레이션)를 통해 통신 산업에 진출하며 농업 이외 분야로 다각화"
     },
     {
-      "year": 1993,
-      "event": "Received the Federal Cross of Merit (Knight's Cross), the first of several state honors recognizing his contributions to German business and society.",
-      "eventKo": "연방공로훈장(기사십자장)을 수훈하며 독일 경제계와 사회에 대한 기여를 국가적으로 인정받았다."
+      "year": 2013,
+      "event": "CP Group acquired a majority stake in Ping An Insurance for $9.4 billion, one of the largest cross-border deals in Asia",
+      "eventKo": "CP 그룹이 핑안보험 지분을 94억 달러에 인수, 아시아 최대 규모의 해외 인수합병 중 하나"
     },
     {
-      "year": 1998,
-      "event": "ATRONIC, a Gauselmann subsidiary, became the first and only European company to receive a manufacturing license to supply gaming machines to casinos in Nevada, USA.",
-      "eventKo": "자회사 아트로닉이 유럽 기업 최초이자 유일하게 미국 네바다주 카지노에 게임 기기를 공급할 수 있는 제조 허가를 취득했다."
-    },
-    {
-      "year": 1999,
-      "event": "Established the Gauselmann Foundation (later renamed the Paul and Karin Gauselmann Foundation in 2015) to support social and cultural causes in the Minden-Lübbecke district.",
-      "eventKo": "민든-뤼베케 지역의 사회·문화 사업을 지원하는 가우젤만 재단(2015년 파울·카린 가우젤만 재단으로 개명)을 설립했다."
+      "year": 2020,
+      "event": "CP Group merged True Corporation with DTAC to create Thailand's largest telecom operator",
+      "eventKo": "CP 그룹이 트루 코퍼레이션과 DTAC를 합병하여 태국 최대 통신사 탄생"
     },
     {
       "year": 2024,
-      "event": "Stepped down as CEO of the Merkur Group after 67 years at the helm, saying 'The time has come to entrust my life's work to the younger generation.' The group had grown to over 13,000 employees and annual revenues of approximately $3 billion.",
-      "eventKo": "67년간 이끌어온 메르쿠어 그룹 최고경영자 자리에서 퇴임했다. '이제 내 평생의 업적을 젊은 세대에 맡길 때가 됐다'는 말을 남긴 그의 그룹은 직원 1만 3,000여 명, 연매출 약 30억 달러 규모로 성장해 있었다."
+      "event": "Somurai Jaruphnit's net worth reached $4.4 billion through her 8.42% stake in CP Group Co., Ltd.",
+      "eventKo": "소무라이 자루프닛의 자산이 CP 그룹 8.42% 지분을 통해 44억 달러에 도달"
     }
   ],
   "failures": [
     {
-      "title": "Regulatory Battles in German Gambling Market",
-      "description": "For decades, Gauselmann and the German gaming industry faced continual regulatory crackdowns, with the German government repeatedly tightening restrictions on gaming arcades, slot machines, and gambling operations. These regulatory battles required constant legal and lobbying efforts, and periodic restrictions directly impacted revenues and the ability to expand the amusement arcade business.",
-      "titleKo": "독일 도박 시장 규제와의 끝없는 싸움",
-      "descriptionKo": "수십 년간 가우젤만과 독일 게임 산업은 정부의 반복적인 규제 강화에 맞서 싸워야 했다. 독일 정부는 게임 아케이드, 슬롯머신, 도박 영업에 대한 제한을 계속 강화했고, 이에 대응하는 법적 대응과 로비 활동이 끊이지 않았다. 정기적인 규제 강화는 수익과 아케이드 사업 확장에 직접적인 타격을 줬다."
-    },
-    {
-      "title": "Early Bootstrap Struggles with No Capital",
-      "description": "When Gauselmann launched his business in 1957, he had virtually no equity capital, relying entirely on revenue from the jukeboxes to fund growth. This extremely capital-constrained start meant he had no financial safety net for the first years and any mechanical breakdowns or slow months could have ended the venture before it began.",
-      "titleKo": "자본금 없이 시작한 창업 초기의 고난",
-      "descriptionKo": "1957년 창업 당시 가우젤만에게는 사실상 자본금이 전무했다. 주크박스에서 나오는 수익만으로 사업을 키워야 했기에 초창기에는 어떤 재정적 안전망도 없었다. 기계가 고장 나거나 수익이 저조한 달이 이어지면 사업 자체가 끝날 수도 있는 아슬아슬한 출발이었다."
-    },
-    {
-      "title": "Online Gambling Transition Challenges",
-      "description": "As the gambling industry shifted toward digital platforms and online casinos in the 2000s and 2010s, Merkur Group—built around physical gaming arcades and hardware—faced significant challenges adapting to the digital transition, lagging behind pure-play online operators in early online gambling markets.",
-      "titleKo": "온라인 도박으로의 전환기 적응 어려움",
-      "descriptionKo": "2000~2010년대 도박 산업이 디지털 플랫폼과 온라인 카지노로 급격히 이동하면서, 물리적 아케이드와 하드웨어 중심의 메르쿠어 그룹은 디지털 전환에 적응하는 데 상당한 어려움을 겪었다. 초기 온라인 도박 시장에서는 순수 온라인 운영사들에 뒤처졌다."
+      "year": 1997,
+      "description": "The Asian financial crisis devastated Thai conglomerates, and CP Group faced severe financial strain. The group was forced to sell off significant assets including its stake in Lotus superstores to Tesco.",
+      "descriptionKo": "아시아 금융위기로 태국 재벌들이 큰 타격을 입었고, CP 그룹도 심각한 재정적 어려움에 직면했다. 로터스 슈퍼스토어 지분을 테스코에 매각하는 등 주요 자산을 처분해야 했다.",
+      "lesson": "The crisis taught the importance of financial discipline and not over-leveraging, even during boom times. CP Group emerged leaner and more focused.",
+      "lessonKo": "이 위기는 호황기에도 재무 규율을 지키고 과도한 차입을 피해야 한다는 교훈을 남겼다. CP 그룹은 이후 더 효율적이고 집중된 기업으로 거듭났다."
     }
   ],
   "wealthHistory": [
-    { "year": 2010, "amount": 1.5 },
-    { "year": 2015, "amount": 2.5 },
-    { "year": 2018, "amount": 3.0 },
-    { "year": 2020, "amount": 3.5 },
-    { "year": 2022, "amount": 4.0 },
-    { "year": 2025, "amount": 4.0 }
+    {
+      "year": 2018,
+      "netWorth": 2.1
+    },
+    {
+      "year": 2019,
+      "netWorth": 2.4
+    },
+    {
+      "year": 2020,
+      "netWorth": 1.9
+    },
+    {
+      "year": 2021,
+      "netWorth": 2.8
+    },
+    {
+      "year": 2022,
+      "netWorth": 3.2
+    },
+    {
+      "year": 2023,
+      "netWorth": 3.6
+    },
+    {
+      "year": 2024,
+      "netWorth": 4.4
+    }
   ],
   "quotes": [
     {
-      "text": "The time has come to entrust my life's work to the younger generation.",
-      "source": "Merkur Group press release on retirement",
-      "year": 2024
+      "text": "CP Group's strength has always been in seeing agriculture not as a simple industry, but as the foundation of an entire value chain.",
+      "textKo": "CP 그룹의 강점은 항상 농업을 단순한 산업이 아닌 전체 가치 사슬의 기반으로 본 데 있다.",
+      "context": "On CP Group's integrated agribusiness model",
+      "contextKo": "CP 그룹의 통합 농업 모델에 대해"
     }
   ],
-  "books": [],
-  "sajuConnection": null
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Maintaining a significant minority stake in CP Group Co., Ltd. (8.42%), one of the world's largest agribusiness and food conglomerates with operations in 21 countries. Known for keeping a low public profile while being one of Thailand's wealthiest individuals.",
+    "knownForKo": "세계 최대 농식품 복합기업 중 하나이자 21개국에서 사업을 영위하는 CP 그룹의 상당한 소수 지분(8.42%)을 보유하고 있다. 태국 최고 부자 중 한 명이면서도 낮은 공개 프로필을 유지하는 것으로 알려져 있다.",
+    "philanthropy": "Involved in promoting sustainable development and environmental conservation in Thailand. Has invested in renewable energy projects aimed at reducing the country's carbon footprint.",
+    "philanthropyKo": "태국의 지속 가능한 개발과 환경 보전 촉진에 참여하고 있다. 태국의 탄소 발자국 감소를 목표로 하는 재생에너지 프로젝트에 투자했다."
+  }
 }

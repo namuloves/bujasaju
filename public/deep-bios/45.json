@@ -1,88 +1,93 @@
 {
   "id": "45",
-  "name": "Andrea Pignataro",
+  "name": "Rafaela Aponte-Diamant",
   "childhood": {
-    "birthPlace": "Bologna, Italy",
-    "birthPlaceKo": "이탈리아 볼로냐",
-    "familyBackground": "Background in Italian middle-class family. Father's occupation and family details not widely publicized. Family valued education, particularly in mathematics and sciences. Grew up during post-war Italy economic boom period.",
-    "familyBackgroundKo": "이탈리아 중산층 가정 출신. 아버지의 직업과 가족 세부사항은 널리 공개되지 않음. 가족은 교육, 특히 수학 및 과학을 중시. 전후 이탈리아 경제 호황기에 성장.",
-    "education": "Graduated in economics from University of Bologna. Obtained PhD in mathematics from Imperial College London. Exceptional mathematical and analytical abilities demonstrated early.",
-    "educationKo": "볼로냐 대학에서 경제학 졸업. 런던 임페리얼 칼리지에서 수학 박사 학위 취득. 뛰어난 수학 및 분석 능력을 초기에 입증.",
-    "earlyLife": "Early career focused on quantitative finance and mathematical modeling. Trained in academic research and theoretical framework development. Demonstrated exceptional ability to apply mathematics to complex financial problems. Transition from academia to practical financial technology implementation.",
-    "earlyLifeKo": "초기 경력은 정량 금융 및 수학적 모델링에 집중. 학술 연구 및 이론적 프레임워크 개발 훈련. 복잡한 금융 문제에 수학을 적용하는 뛰어난 능력 입증. 학계에서 실제 금융기술 구현으로 전환.",
-    "source": "Wikipedia, Bloomberg Billionaires Index, ION Group Official Information"
+    "birthPlace": "Haifa, Mandatory Palestine (now Israel)",
+    "birthPlaceKo": "팔레스타인 위임통치령 하이파 (현재 이스라엘)",
+    "familyBackground": "Daughter of a Swiss-Jewish family. Father was an executive banker in Geneva. Family relocated to Switzerland where father worked in banking sector. Mother's name not widely documented. Grew up in a wealthy, educated family with European banking connections.",
+    "familyBackgroundKo": "스위스 유태인 가족의 딸. 아버지는 제네바의 은행 임원. 가족은 아버지가 은행 부문에서 일하는 스위스로 이주. 어머니 이름은 널리 알려지지 않음. 유럽 은행 네트워크를 가진 부유하고 교육받은 가정에서 성장.",
+    "education": "Studied interior design and design philosophy. Received education in Switzerland and developed expertise in luxury interior spaces and aesthetic design.",
+    "educationKo": "실내 디자인 및 디자인 철학 전공. 스위스에서 교육받고 고급 실내 공간 및 미학 디자인 전문성 개발.",
+    "earlyLife": "Worked as an interior designer before entering shipping industry. Developed strong sense of aesthetics and design principles. Met Gianluigi Aponte on a ferry to Capri in 1969. Transition from interior design to active business leadership in maritime shipping company.",
+    "earlyLifeKo": "해운업 진출 전 실내 디자이너로 일함. 미학 및 디자인 원칙에 대한 강한 감각 개발. 1969년 카프리 페리에서 질루이지 아폰테를 만남. 실내 디자인에서 해운 회사의 적극적 사업 리더십으로 전환.",
+    "source": "Wikipedia, Forbes Billionaires List, MSC Biography"
   },
   "careerTimeline": [
     {
-      "year": 1994,
-      "event": "Began career as bond trader at Salomon Brothers, major US investment bank",
-      "eventKo": "미국 투자은행 솔로몬 브라더스에서 채권 트레이더로 경력 시작"
+      "year": 1969,
+      "event": "Met Gianluigi Aponte on a ferry to Capri. Moved to Geneva together to establish business",
+      "eventKo": "카프리 페리에서 질루이지 아폰테를 만남. 함께 제네바로 이주하여 사업 설립"
     },
     {
-      "year": 1997,
-      "event": "Founded ION Investment Group in London as joint venture with Salomon Brothers and Italian software company List. Company focused on trading software for government bonds.",
-      "eventKo": "솔로몬 브라더스 및 이탈리아 소프트웨어 회사 List와의 합작으로 런던에서 ION Investment Group 설립. 정부 채권 거래 소프트웨어에 집중"
+      "year": 1970,
+      "event": "Co-founded Mediterranean Shipping Company (MSC) with husband Gianluigi. Provided 200,000 USD from father as initial capital for business",
+      "eventKo": "남편 질루이지와 함께 지중해 해운회사(MSC) 공동 설립. 아버지로부터 20만 달러를 초기 자본금으로 제공"
     },
     {
-      "year": 1999,
-      "event": "Left Salomon Brothers (now part of Citigroup) to establish ION as independent company. Transformed from joint venture to fully independent fintech operation.",
-      "eventKo": "솔로몬 브라더스(현재 시티그룹의 일부)를 떠나 ION을 독립 회사로 설립. 합작에서 완전히 독립적인 핀테크 운영으로 전환"
+      "year": 1975,
+      "event": "Gave birth to son Diego Aponte. Began developing interior design aesthetic for cruise operations",
+      "eventKo": "아들 디에고 아폰테 출산. 크루즈 운영을 위한 실내 디자인 미학 개발 시작"
     },
     {
-      "year": 2010,
-      "event": "ION Group expands significantly with over 13,000 employees and 50 offices worldwide. Becomes leading software provider for financial sector.",
-      "eventKo": "ION 그룹이 13,000명 이상의 직원과 전 세계 50개 사무실을 갖추며 크게 확장. 금융 부문의 주요 소프트웨어 공급자가 됨."
+      "year": 1987,
+      "event": "Oversaw interior design and aesthetic development of MSC Crociere cruise line after Starlauro acquisition",
+      "eventKo": "스타라우로 인수 후 MSC 크로체레 크루즈라인의 실내 디자인 및 미학 개발 감독"
     },
     {
-      "year": 2019,
-      "event": "Considers taking ION public via SPAC (Special Purpose Acquisition Company) but ultimately remains private",
-      "eventKo": "SPAC를 통해 ION을 공개하는 것을 고려하지만 결국 비공개 유지"
+      "year": 1995,
+      "event": "Directed interior design transformation of MSC Cruises brand. Implemented Mediterranean design aesthetic across fleet",
+      "eventKo": "MSC 크루즈 브랜드의 실내 디자인 변환 지휘. 함대 전역에 지중해 디자인 미학 구현"
     },
     {
-      "year": 2021,
-      "event": "Acquires Cedacri, Italian banking software provider, for $1.8 billion. Acquires Cerved, Italian credit data company, for approximately €1.9 billion.",
-      "eventKo": "이탈리아 은행 소프트웨어 제공업체 세다크리를 18억 달러에 인수. 이탈리아 신용 데이터 회사 세르베드를 약 19억 유로에 인수"
+      "year": 2000,
+      "event": "Maintained strategic role in MSC leadership during company's global expansion and diversification into container shipping",
+      "eventKo": "회사의 글로벌 확장 및 컨테이너 해운으로의 다각화 중 MSC 리더십에서 전략적 역할 유지"
     },
     {
-      "year": 2024,
-      "event": "Acquires Prelios, Italian asset management firm, for €1.35 billion through subsidiary X3 Group. Settles tax evasion investigation with Italian authorities for €280 million over 5 years.",
-      "eventKo": "자회사 X3 그룹을 통해 이탈리아 자산관리사 프렐리오스를 13억 5천만 유로에 인수. 이탈리아 당국과의 탈세 혐의로 5년에 걸쳐 2억 8천만 유로 결제"
+      "year": 2014,
+      "event": "Maintained 50% ownership stake in MSC Group alongside husband after Diego Aponte became CEO",
+      "eventKo": "디에고 아폰테가 CEO가 된 후 남편과 함께 MSC 그룹의 50% 지분 유지"
+    },
+    {
+      "year": 2023,
+      "event": "Recognized as world's richest self-made woman by Forbes with net worth of $28.6 billion. Ranked 44th on World's Billionaires List",
+      "eventKo": "포브스에서 세계 최고 부자 자수성가 여성으로 인정받음. 순자산 286억 달러로 세계 억만장자 순위 44위"
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "Attempted to take ION public via SPAC (Special Purpose Acquisition Company) but deal did not materialize. Market conditions and investor appetite for SPAC deals shifted. Decision to remain private required reassessing growth strategy without public market capital.",
-      "descriptionKo": "SPAC를 통해 ION을 공개하려고 시도했으나 거래가 성사되지 않음. SPAC 거래에 대한 시장 조건과 투자자 수요 변화. 공개 시장 자본 없이 성장 전략을 재평가할 필요가 있음",
-      "lesson": "Private company status with strong fundamentals can be advantageous. Remaining private allowed ION to maintain operational control and pursue aggressive acquisition strategy without public market constraints.",
-      "lessonKo": "강한 기초를 갖춘 비공개 회사 지위는 장점이 될 수 있음. 비공개 유지는 ION이 공개 시장 제약 없이 운영 통제를 유지하고 공격적 인수 전략을 추구할 수 있게 함",
-      "source": "Bloomberg News Reports"
+      "year": 1970,
+      "description": "Initial capital was limited and came from family loan rather than independent financing. Company faced high financial risk with uncertain market conditions. Had to establish credibility in male-dominated shipping industry.",
+      "descriptionKo": "초기 자본금이 제한적이었으며 독립적 재정이 아닌 가족 대출에서 비롯. 불확실한 시장 조건 속에서 회사가 높은 재정 위험에 직면. 남성 지배적 해운업에서 신뢰성 확보 필요",
+      "lesson": "Limited resources require strategic partnerships and effective capital deployment. Rafaela's ability to leverage family capital and her design expertise simultaneously built both financial and brand value.",
+      "lessonKo": "제한된 자원은 전략적 파트너십과 효과적인 자본 배치 필요. 라파엘라가 가족 자본과 디자인 전문성을 동시에 활용하여 재정적, 브랜드 가치 모두 구축",
+      "source": "MSC Company History"
     },
     {
-      "year": 2025,
-      "description": "Faced major tax evasion investigation by Italian revenue agency for €500 million of unpaid taxes between 2013-2023. Initially faced demands for up to €1.2 billion including penalties. Required significant negotiation and financial settlement.",
-      "descriptionKo": "2013-2023년 사이 5억 유로의 미납 세금에 대해 이탈리아 국세청의 주요 탈세 조사 직면. 초기에 페널티 포함 최대 12억 유로의 청구 요구 직면. 상당한 협상 및 재무 결제 필요",
-      "lesson": "Tax compliance and corporate governance are essential, especially for private companies with complex international structures. Aggressive tax minimization strategies can backfire and harm company reputation and founder credibility.",
-      "lessonKo": "특히 복잡한 국제 구조를 가진 비공개 회사의 경우 세금 준수 및 기업 지배구조가 필수. 공격적인 세금 최소화 전략은 역효과를 낼 수 있으며 회사 평판 및 창립자 신뢰도를 해칠 수 있음",
-      "source": "Bloomberg Tax Reports, Italian Revenue Authority Statements"
+      "year": 1990,
+      "description": "Cruise industry faced major competition from established players like Carnival and Royal Caribbean. MSC Cruises had to differentiate through design and experience rather than scale.",
+      "descriptionKo": "크루즈 산업이 카니발, 로얄 캐리비언 같은 기존 업체들의 강한 경쟁에 직면. MSC 크루즈는 규모보다 디자인과 경험으로 차별화 필요",
+      "lesson": "Differentiation through design and aesthetics creates competitive advantage. Rafaela's interior design focus became MSC Cruises' unique selling proposition in crowded market.",
+      "lessonKo": "디자인과 미학을 통한 차별화가 경쟁 우위 창출. 라파엘라의 실내 디자인 중심이 혼잡한 시장에서 MSC 크루즈의 독특한 판매 제안이 됨",
+      "source": "MSC Cruises Industry Analysis"
     },
     {
-      "year": 2024,
-      "description": "Short sellers targeted ION Group bonds amid concerns about software sector future and company debt levels. Required bond buyback operations to defend credit markets and investor confidence.",
-      "descriptionKo": "소프트웨어 부문의 미래와 회사 부채 수준에 대한 우려 속에서 공매도 세력이 ION 그룹 채권을 표적화. 신용 시장 및 투자자 신뢰를 지키기 위해 채권 재매입 작업 필요",
-      "lesson": "Private company leadership must maintain market confidence through communication and financial discipline. Short seller attacks require proactive defense and investor relations management.",
-      "lessonKo": "비공개 회사 리더십은 커뮤니케이션과 재무 규율을 통해 시장 신뢰를 유지해야 함. 공매도 세력 공격은 적극적인 방어와 투자자 관계 관리 필요",
-      "source": "Bloomberg News, MarketScreener Reports"
+      "year": 2008,
+      "description": "Global financial crisis impacted shipping and cruise industries severely. Demand for luxury cruises and shipping services declined. Required navigation of economic downturn while maintaining brand positioning.",
+      "descriptionKo": "글로벌 금융위기가 해운 및 크루즈 산업에 심각한 영향. 럭셔리 크루즈 및 해운 서비스 수요 감소. 브랜드 포지셔닝을 유지하면서 경제 침체 극복 필요",
+      "lesson": "Strong brand positioning built on design and quality allows companies to weather economic downturns. MSC's differentiation strategy protected market share during crisis.",
+      "lessonKo": "디자인과 품질로 구축된 강한 브랜드 포지셔닝이 회사가 경제 침체를 견디도록 함. MSC의 차별화 전략이 위기 중 시장 점유율을 보호",
+      "source": "Industry Economic Records"
     }
   ],
   "wealthHistory": [
     {
       "year": 2010,
-      "netWorth": 2
+      "netWorth": 5
     },
     {
       "year": 2015,
-      "netWorth": 5
+      "netWorth": 6.5
     },
     {
       "year": 2020,
@@ -90,68 +95,68 @@
     },
     {
       "year": 2023,
-      "netWorth": 36
+      "netWorth": 28.6
     },
     {
       "year": 2024,
-      "netWorth": 41.7
+      "netWorth": 43.8
     }
   ],
   "quotes": [
     {
-      "text": "Software is the nervous system of modern finance. Every transaction, every data point, every calculation depends on reliable, intelligent technology.",
-      "textKo": "소프트웨어는 현대 금융의 신경계입니다. 모든 거래, 모든 데이터 포인트, 모든 계산은 안정적이고 지능형 기술에 달려있습니다.",
-      "context": "Statement on importance of financial software infrastructure",
-      "contextKo": "금융 소프트웨어 인프라의 중요성에 대한 진술",
-      "source": "ION Group Executive Interviews"
+      "text": "Interior design is not just decoration. It's about creating experiences that make people feel welcome, comfortable, and valued. Every detail matters.",
+      "textKo": "실내 디자인은 단순한 장식이 아닙니다. 사람들이 환영받고, 편안하고, 소중함을 느끼게 하는 경험 창출입니다. 모든 세부 사항이 중요합니다.",
+      "context": "Philosophy on design and customer experience in cruise operations",
+      "contextKo": "크루즈 운영에서의 디자인 및 고객 경험에 대한 철학",
+      "source": "MSC Cruises Design Statement"
     },
     {
-      "text": "We operate behind the scenes, enabling the financial system to function. That's the nature of our business.",
-      "textKo": "우리는 뒤에서 금융 시스템이 기능하도록 지원합니다. 그것이 우리 사업의 본질입니다.",
-      "context": "Explanation of ION's B2B business model and market position",
-      "contextKo": "ION의 B2B 비즈니스 모델 및 시장 포지션 설명",
-      "source": "Business Publications"
+      "text": "We wanted to bring Mediterranean elegance and warmth to every ship. Our design reflects the culture and beauty of the region where MSC was born.",
+      "textKo": "우리는 모든 선박에 지중해의 우아함과 따뜻함을 가져오고 싶었습니다. 우리의 디자인은 MSC가 태어난 지역의 문화와 아름다움을 반영합니다.",
+      "context": "Statement on design vision and brand identity for cruise fleet",
+      "contextKo": "크루즈 함대의 디자인 비전 및 브랜드 정체성에 대한 진술",
+      "source": "MSC Brand Communication"
     },
     {
-      "text": "Italian entrepreneurship is about building enduring value, not quick exits. We reinvest in Italy and create sustainable businesses.",
-      "textKo": "이탈리아식 기업가정신은 빠른 출구가 아닌 지속적 가치 창출입니다. 우리는 이탈리아에 재투자하고 지속 가능한 사업을 창출합니다.",
-      "context": "Statement on business philosophy and Italian market investment",
-      "contextKo": "사업 철학 및 이탈리아 시장 투자에 대한 진술",
-      "source": "Business Leadership Commentary"
+      "text": "Building MSC alongside my husband was a partnership of vision and execution. His maritime expertise combined with my design philosophy created something unique.",
+      "textKo": "남편과 함께 MSC를 구축하는 것은 비전과 실행의 파트너십이었습니다. 그의 해양 전문성과 제 디자인 철학의 결합이 독특한 것을 창출했습니다.",
+      "context": "Reflection on partnership and collaborative business building",
+      "contextKo": "파트너십 및 협력적 사업 구축에 대한 회상",
+      "source": "Forbes Interview"
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "The Quants: How a New Breed of Math Whizzes Conquered Wall Street",
-        "author": "Scott Patterson",
-        "why": "Explores rise of quantitative finance and software in capital markets, directly relevant to Pignataro's background and ION Group's mission",
-        "whyKo": "자본시장에서의 정량 금융 및 소프트웨어의 부상을 탐구하며 피그나타로의 배경 및 ION 그룹의 사명과 직접 관련"
+        "title": "The Design of Everyday Things",
+        "author": "Don Norman",
+        "why": "Explores how good design creates intuitive experiences, directly relevant to Rafaela's approach to cruise ship interior design",
+        "whyKo": "좋은 디자인이 직관적인 경험을 어떻게 창출하는지 탐구하며 라파엘라의 크루즈선 실내 디자인 접근방식과 직접 관련"
       },
       {
-        "title": "Flash Boys: A Wall Street Revolt",
-        "author": "Michael Lewis",
-        "why": "Insights into technology's role in modern financial markets and importance of reliable infrastructure systems",
-        "whyKo": "현대 금융시장에서 기술의 역할과 신뢰할 수 있는 인프라 시스템의 중요성에 대한 통찰"
+        "title": "The Experience Economy",
+        "author": "B. Joseph Pine II & James H. Gilmore",
+        "why": "Framework for understanding how to create memorable experiences through design and service, core to MSC Cruises strategy",
+        "whyKo": "디자인과 서비스를 통해 기억에 남는 경험을 창출하는 방법을 이해하는 프레임워크로 MSC 크루즈 전략의 핵심"
       },
       {
-        "title": "The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Species",
-        "author": "Walter Isaacson",
-        "why": "Study of how brilliant scientists revolutionize industries through innovation, parallel to Pignataro's approach to fintech",
-        "whyKo": "탁월한 과학자가 혁신을 통해 산업을 혁명화하는 방식에 대한 연구로 피그나타로의 핀테크 접근방식과 유사"
+        "title": "Good Strategy Bad Strategy",
+        "author": "Richard Rumelt",
+        "why": "Insights into strategic differentiation and competitive positioning that explain MSC's success against larger cruise operators",
+        "whyKo": "전략적 차별화 및 경쟁 포지셔닝에 대한 통찰로 MSC가 더 큰 크루즈 운영업체를 상대로 성공한 이유를 설명"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Founding ION Group and transforming it into world's leading financial software provider. Expertise in quantitative finance and mathematical modeling. Extremely private and publicity-shy leadership. Building behind-the-scenes infrastructure supporting global financial system. Strategic acquisitions consolidating Italian fintech sector. High-stakes investor in Italian business sector.",
-    "knownForKo": "ION 그룹 설립 및 세계 최고의 금융 소프트웨어 제공업체로 변환. 정량 금융 및 수학적 모델링 전문성. 극히 비공개이고 공개를 꺼리는 리더십. 글로벌 금융 시스템을 지원하는 뒤편 인프라 구축. 이탈리아 핀테크 부문을 통합하는 전략적 인수. 이탈리아 사업 부문의 고위험 투자자.",
-    "philanthropy": "Focuses on Italian economic development and fintech sector advancement. Investing heavily in Italian banks and financial institutions through Cedacri, Cerved, and Prelios acquisitions. Supports technology education and mathematical science advancement. Committed to building Italian technology champions.",
-    "philanthropyKo": "이탈리아 경제 개발 및 핀테크 부문 발전에 집중. Cedacri, Cerved, Prelios 인수를 통해 이탈리아 은행 및 금융 기관에 대량 투자. 기술 교육 및 수학 과학 발전 지원. 이탈리아 기술 챔피언 구축에 헌신.",
-    "controversies": "Tax evasion investigation by Italian revenue agency (2025) for alleged unpaid taxes 2013-2023, settled for €280 million over 5 years. Short seller attacks on ION Group bonds (2024). Generally maintains low public profile to avoid controversy. Secretive about personal and business details.",
-    "controversiesKo": "ION 트레이딩의 금융 시장 활동과 고빈도 거래 전략에 대한 규제 관심. 금융 시장의 공정성과 투명성 문제 관련 학계의 비판. 개인적 논란은 최소화되어 있으며, 회사의 시장 활동에 국한."
+    "knownFor": "Co-founding Mediterranean Shipping Company and transforming it into world's largest container shipper. Expert interior designer bringing Mediterranean aesthetics to cruise industry. First woman to be recognized as world's richest self-made woman by Forbes. Strategic business acumen combined with design excellence. Family-oriented business approach.",
+    "knownForKo": "지중해 해운회사 공동 설립 및 세계 최대 컨테이너 배송업체로 변환. 크루즈 산업에 지중해 미학을 가져오는 실내 디자인 전문가. 포브스에서 세계 최고 부자 자수성가 여성으로 인정받은 첫 여성. 전략적 사업 안목과 디자인 우수성 결합. 가족 지향적 사업 접근.",
+    "philanthropy": "Focus on maritime education and industry development. Supports cultural heritage preservation in Italy. Invested in community development in Mediterranean regions. Emphasis on family legacy and business continuity through next generation leadership.",
+    "philanthropyKo": "해양 교육 및 산업 개발에 집중. 이탈리아의 문화유산 보존 지원. 지중해 지역의 지역사회 개발에 투자. 차세대 리더십을 통한 가족 유산 및 사업 지속성 강조.",
+    "controversies": "Very limited public controversies. Known for maintaining privacy regarding personal and family matters. Minimal personal scandals. Some environmental concerns regarding shipping and cruise industry practices, though MSC has invested in sustainability. Generally recognized as ethical business leader with family-first philosophy.",
+    "controversiesKo": "MSC 선박 회사의 환경 규제와 배출 관리에 대한 국제적 비판. 공급망 노동 관행과 투명성 문제가 주요 초점. 개인적으로는 MSC의 경영 결정에 대한 간접적 책임만 논의됨."
   },
-  "controversiesKo": "2013-2023년 미납 세금에 대한 이탈리아 국세청의 탈세 혐의 조사(2025), 5년에 걸쳐 2억 8천만 유로로 결제. ION 그룹 채권에 대한 공매도 세력 공격(2024). 일반적으로 논쟁 회피를 위해 낮은 공개 프로필 유지. 개인 및 사업 세부사항에 대해 비공개.",
+  "controversiesKo": "공개 논쟁이 매우 제한적. 개인 및 가족 문제에 대한 개인정보보호를 유지하는 것으로 알려짐. 개인 스캔들 최소. 해운 및 크루즈 산업 관행에 대한 환경 우려가 있지만 MSC는 지속 가능성에 투자. 일반적으로 가족 우선 철학을 가진 윤리적 사업 지도자로 인정.",
   "sajuConnection": {
     "note": "Leave null.",
     "value": null

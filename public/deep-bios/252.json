@@ -1,94 +1,78 @@
 {
   "id": "252",
-  "name": "Vladimir Krupchak",
+  "name": "Marijke Mars",
+  "nameKo": "마레이커 마스",
+  "netWorth": "$11.6B",
+  "nationality": "US",
+  "industry": "Food & Beverage",
   "childhood": {
-    "birthPlace": "Nicosia, Cyprus",
-    "birthPlaceKo": "키프로스 니코시아",
-    "familyBackground": "Son of Russian businessman settled in Cyprus. Family involved in international trade and commerce.",
-    "familyBackgroundKo": "키프로스에 정착한 러시아 사업가의 아들. 국제 무역 및 상업에 관여한 가족",
-    "education": "University of Cyprus (Economics), London Business School (MBA)",
-    "educationKo": "키프로스 대학교(경제학), 런던 경영대학원(MBA)",
-    "earlyLife": "Grew up in Cyprus as part of Russian diaspora community. Exposed to international business and trade between Eastern Europe and Mediterranean.",
-    "earlyLifeKo": "러시아 디아스포라 커뮤니티의 일부로 키프로스에서 성장. 동유럽과 지중해 사이의 국제 무역에 노출",
-    "source": "https://www.krupchakgroup.com"
+    "birthPlace": "United States",
+    "birthPlaceKo": "미국",
+    "familyBackground": "Fourth-generation member of the Mars candy dynasty; daughter of Forrest Mars Jr. (1931–2016) who ran Mars, Inc.; great-granddaughter of Frank Mars, who founded the company in 1911 by hand-dipping chocolate and selling buttercream candies from his home in Tacoma, Washington. Has three sisters: Pamela Mars-Wright, Valerie Mars, and Victoria B. Mars.",
+    "familyBackgroundKo": "마스 초콜릿 왕조의 4세대; 마스 주식회사를 경영한 포레스트 마스 주니어(1931–2016)의 딸. 증조부 프랭크 마스는 1911년 워싱턴 주 타코마 자택에서 초콜릿을 수제 코팅하고 버터크림 캔디를 판매하며 회사를 설립. 세 자매: 파멜라 마스라이트, 발레리 마스, 빅토리아 B. 마스.",
+    "education": "Bachelor's degree from Duke University",
+    "educationKo": "듀크 대학교 학사",
+    "earlyLife": "Born in 1965 into one of America's most secretive billionaire families, Marijke Mars grew up in the Mars family's tradition of extreme privacy. The Mars family is known for avoiding media exposure and maintaining a low public profile despite being one of the wealthiest families in the world. After graduating from Duke University, she joined the family business working as a regional manager at Kal Kan Foods, a Mars pet food subsidiary in Los Angeles.",
+    "earlyLifeKo": "1965년 미국에서 가장 비밀스러운 억만장자 가문 중 하나에서 태어난 마레이커 마스는 극도의 프라이버시를 중시하는 마스 가문의 전통 속에서 자랐다. 마스 가문은 세계에서 가장 부유한 가문 중 하나임에도 미디어 노출을 피하고 낮은 공개 프로필을 유지하는 것으로 유명하다. 듀크 대학교를 졸업한 후 로스앤젤레스에 있는 마스의 반려동물 식품 자회사 칼칸 푸드에서 지역 매니저로 가족 사업에 합류했다.",
+    "source": "Wikipedia, Forbes, Bloomberg"
   },
   "careerTimeline": [
     {
-      "year": 1995,
-      "event": "Founded international trading company in Cyprus",
-      "eventKo": "키프로스에서 국제 무역 회사 설립"
+      "year": 1987,
+      "event": "Joined Mars, Inc. as a regional manager at Kal Kan Foods, a pet food subsidiary in Los Angeles",
+      "eventKo": "로스앤젤레스에 있는 반려동물 식품 자회사 칼칸 푸드에서 지역 매니저로 마스 주식회사에 합류"
     },
     {
-      "year": 2005,
-      "event": "Expanded into manufacturing and industrial products trade",
-      "eventKo": "제조 및 산업 제품 무역으로 확장"
+      "year": 2000,
+      "event": "Transitioned to Mars Food division, working with brands including Ben's Original and Suzi Wan",
+      "eventKo": "마스 푸드 사업부로 이동하여 벤즈 오리지널, 수지 완 등 브랜드와 함께 근무"
     },
     {
-      "year": 2015,
-      "event": "Built international supply chain and logistics network",
-      "eventKo": "국제 공급 체인 및 물류 네트워크 구축"
+      "year": 2016,
+      "event": "Inherited approximately 8% stake in Mars, Inc. following the death of her father Forrest Mars Jr., becoming a billionaire",
+      "eventKo": "아버지 포레스트 마스 주니어의 사망 후 마스 주식회사의 약 8% 지분을 상속받아 억만장자가 됨"
     },
     {
       "year": 2020,
-      "event": "Expanded manufacturing operations across Eastern Europe and Mediterranean regions",
-      "eventKo": "동유럽 및 지중해 지역 전역의 제조 운영 확장"
+      "event": "Continued to serve on the Mars, Inc. board of directors, contributing to strategic guidance and family succession planning",
+      "eventKo": "마스 주식회사 이사회에서 계속 활동하며 전략적 지도 및 가문 승계 계획에 기여"
     }
   ],
-  "failures": [
-    {
-      "year": 2012,
-      "description": "International trade faced challenges during European economic crisis",
-      "descriptionKo": "유럽 경제 위기 중 국제 무역이 도전 직면",
-      "lesson": "Diversified trading operations and improved supply chain resilience",
-      "lessonKo": "거래 운영 다각화 및 공급 체인 탄력성 개선",
-      "source": "https://www.krupchakgroup.com"
-    }
-  ],
+  "failures": [],
   "wealthHistory": [
     {
-      "year": 2015,
-      "netWorth": 0.6
+      "year": 2016,
+      "netWorth": 6.0
     },
     {
-      "year": 2018,
-      "netWorth": 0.95
+      "year": 2019,
+      "netWorth": 7.5
     },
     {
-      "year": 2021,
-      "netWorth": 1.3
+      "year": 2022,
+      "netWorth": 9.0
     },
     {
-      "year": 2023,
-      "netWorth": 1.6
+      "year": 2024,
+      "netWorth": 10.3
+    },
+    {
+      "year": 2025,
+      "netWorth": 11.6
     }
   ],
-  "quotes": [
-    {
-      "text": "International business requires understanding diverse markets and building strong regional partnerships",
-      "textKo": "국제 비즈니스는 다양한 시장 이해 및 강한 지역 파트너십 구축이 필요합니다",
-      "context": "On international trade and business strategy",
-      "contextKo": "국제 무역 및 사업 전략에 관해",
-      "source": "https://www.krupchakgroup.com"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "Global Supply Chain and Operations Management",
-        "author": "Ravi Shankar",
-        "note": "On international business and logistics",
-        "noteKo": "국제 비즈니스 및 물류에 관한 책"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "International trade and manufacturing, Eastern European business operations, supply chain management",
-    "knownForKo": "국제 무역 및 제조, 동유럽 사업 운영, 공급 체인 관리",
-    "philanthropy": "Supports Cyprus education and international community programs",
-    "philanthropyKo": "키프로스 교육 및 국제 커뮤니티 프로그램 지원",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Fourth-generation Mars family member, maintaining the family's tradition of privacy, serving on the Mars, Inc. board, contributing to one of the world's largest privately held food companies",
+    "knownForKo": "마스 가문의 4세대, 가문의 프라이버시 전통 유지, 마스 주식회사 이사회 활동, 세계 최대 비상장 식품 기업 중 하나에 기여",
+    "philanthropy": "The Mars family has historically maintained a private approach to philanthropy. Details of Marijke Mars's personal philanthropic activities are not widely publicized, consistent with the family's low-profile tradition.",
+    "philanthropyKo": "마스 가문은 역사적으로 자선 활동에 대해 비공개적인 접근 방식을 유지해 왔다. 마레이커 마스의 개인 자선 활동에 대한 세부 사항은 가문의 저자세 전통에 따라 널리 알려지지 않았다.",
+    "controversies": "Mars, Inc. has faced criticism over sourcing practices, including allegations of child labor in cocoa supply chains in West Africa. The Mars family's extreme secrecy has also drawn scrutiny from those advocating for greater transparency in wealthy family businesses.",
+    "controversiesKo": "마스 주식회사는 서아프리카 코코아 공급망에서의 아동 노동 의혹을 포함한 원료 조달 관행에 대한 비판을 받아왔다. 마스 가문의 극도의 비밀주의는 부유한 가족 기업의 투명성 강화를 옹호하는 측의 조사를 받기도 했다."
   },
   "sajuConnection": null
 }

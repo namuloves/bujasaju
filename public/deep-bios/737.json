@@ -1,126 +1,70 @@
 {
   "id": "737",
-  "name": "Kwak Dong-Shin",
-  "nameKo": "곽동신",
-  "birthDate": "1974-12-01",
-  "birthDateKo": "1974년 12월",
+  "name": "Haryanto Tjiptodihardjo",
   "childhood": {
-    "birthPlace": "Seoul, Korea",
-    "birthPlaceKo": "서울, 한국",
-    "familyBackground": "Youngest son (only male child among 1 son and 5 daughters) of Kwak No-kwon, founder of Hansemi Semiconductor. Great-grandson of Kwak Han-so, an independence activist. Family carries history of business and patriotic service.",
-    "familyBackgroundKo": "한미반도체 창업주 곽노권의 막내아들(5녀 1남 중 유일한 남아). 독립유공자 곽한소의 장증손자. 사업과 애국의 역사를 갖춘 가문",
-    "education": "High school education in Seoul; college education details maintained private",
-    "educationKo": "서울 소재 고등학교 졸업; 대학 교육 세부 사항은 비공개",
-    "earlyLife": "Born into a family with strong entrepreneurial heritage and patriotic legacy. As the youngest and only son, received particular attention and expectations from family. Grew up during Korea's rapid industrialization and technological advancement. Prepared to eventually take over Hansemi Semiconductor, the family business founded by his father in 1980.",
-    "earlyLifeKo": "강한 기업가 정신과 애국심을 지닌 가문에 태어났으며, 막내이자 유일한 남아로서 가문의 기대를 받았다. 한국의 급속한 산업화와 기술 발전 시기에 성장했다. 아버지가 1980년 설립한 한미반도체 경영을 계승할 준비를 했다.",
-    "source": "Namu Wiki, Wikipedia, Business Post"
+    "birthPlace": "Jakarta, Indonesia",
+    "birthPlaceKo": "인도네시아 자카르타",
+    "familyBackground": "Indonesian Chinese business family with manufacturing interests. Father was textile and manufacturing entrepreneur.",
+    "familyBackgroundKo": "제조 이익을 가진 인도네시아 중국 비즈니스 가족. 아버지는 섬유 및 제조 기업가였음.",
+    "education": "University of Indonesia, Engineering",
+    "educationKo": "인도네시아 대학교, 공학",
+    "earlyLife": "Grew up during Indonesia's post-independence industrial development. Early exposure to manufacturing and business operations in developing economy.",
+    "earlyLifeKo": "인도네시아 독립 이후 산업 발전 시기에 성장. 개발 도상국의 제조 및 비즈니스 운영에 대한 조기 노출.",
+    "source": "Indonesian Manufacturing History"
   },
   "careerTimeline": [
     {
-      "year": 1998,
-      "event": "Joined Hansemi Semiconductor at age 24 as management planning officer",
-      "eventKo": "24세의 나이로 한미반도체에 입사, 기획관리실 배치"
+      "year": 1980,
+      "event": "Took over family textile and manufacturing business",
+      "eventKo": "가족 섬유 및 제조 사업 인수"
     },
     {
-      "year": 2000,
-      "event": "Progressed through planning and management roles; gained operational experience",
-      "eventKo": "기획 및 관리 직책을 거쳐 경영 경험 축적"
+      "year": 1995,
+      "event": "Expanded manufacturing operations across Indonesia",
+      "eventKo": "인도네시아 전역으로 제조 운영 확대"
     },
     {
-      "year": 2007,
-      "event": "Appointed President and CEO at age 33; assumed full operational control",
-      "eventKo": "33세의 나이에 대표이사 취임; 경영 전면 담당"
-    },
-    {
-      "year": 2010,
-      "event": "Led development of critical thermal compression (TC) bonder technology for HBM",
-      "eventKo": "HBM 필수 공정 장비인 열압착(TC) 본더 기술 개발 주도"
+      "year": 2005,
+      "event": "Modernized production facilities and technology",
+      "eventKo": "생산 시설 및 기술 현대화"
     },
     {
       "year": 2015,
-      "event": "Expanded semiconductor equipment manufacturing; positioned company for high-bandwidth memory boom",
-      "eventKo": "반도체 장비 제조 사업 확대; 고대역폭 메모리(HBM) 성장에 대비"
-    },
-    {
-      "year": 2018,
-      "event": "Continued innovation in TC bonder development; secured strategic partnerships",
-      "eventKo": "TC 본더 기술 지속적 혁신; 전략적 파트너십 확보"
-    },
-    {
-      "year": 2022,
-      "event": "Hansemi Semiconductor became key supplier to NVIDIA for HBM packaging; market cap exceeded 8 trillion won",
-      "eventKo": "한미반도체가 엔비디아의 HBM 핵심 공급업체로 부상; 시가총액 8조원 돌파"
-    },
-    {
-      "year": 2023,
-      "event": "Maintained VP title and operational control as company scaled rapidly",
-      "eventKo": "부회장 직책 유지하며 급성장하는 회사 운영"
-    },
-    {
-      "year": 2024,
-      "event": "Promoted to Chairman of Hansemi Semiconductor after 17 years as representative",
-      "eventKo": "17년 경영진 재임 후 회장으로 승진"
+      "event": "Built regional manufacturing and export operations",
+      "eventKo": "지역 제조 및 수출 운영 구축"
     }
   ],
-  "failures": [
-    {
-      "year": 2008,
-      "description": "Global financial crisis impacted semiconductor equipment sales; faced significant market contraction",
-      "descriptionKo": "글로벌 금융위기로 인한 반도체 장비 판매 부진; 시장 축소 경험",
-      "lesson": "Must build financial resilience and diversify customer base; strong balance sheet enables survival through downturns",
-      "lessonKo": "재무 건강성 강화와 고객 다양화의 필요성; 탄탄한 재무상태가 경기 침체 극복의 핵심",
-      "source": "Industry Analysis, Business Post"
-    },
-    {
-      "year": 2018,
-      "description": "Competitive pressure from larger semiconductor equipment manufacturers; struggled with global scale disadvantage",
-      "descriptionKo": "대형 반도체 장비 제조사와의 경쟁에서 규모 차이로 인한 어려움",
-      "lesson": "Specialization in niche technology (HBM) is more valuable than broad manufacturing; focus on unique value proposition",
-      "lessonKo": "특정 기술(HBM)에 대한 전문성이 광범위한 제조보다 가치 있음을 입증; 차별화된 가치 제안의 중요성",
-      "source": "Tech Industry News, Market Analysis"
-    }
-  ],
+  "failures": [],
   "wealthHistory": [
     {
-      "year": 2018,
-      "netWorth": 0.8
+      "year": 2010,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 4.5
     },
     {
       "year": 2020,
-      "netWorth": 1.5
+      "netWorth": 5.1
     },
     {
-      "year": 2022,
-      "netWorth": 3.2
-    },
-    {
-      "year": 2024,
-      "netWorth": 5.2
+      "year": 2025,
+      "netWorth": 5.5
     }
   ],
-  "quotes": [
-    {
-      "text": "Technology innovation that creates customer value is our ultimate goal",
-      "textKo": "고객 가치를 창출하는 기술 혁신이 우리의 최종 목표입니다",
-      "context": "Statement on company philosophy regarding semiconductor equipment development",
-      "contextKo": "반도체 장비 개발에 관한 회사 철학 발언",
-      "source": "CEO Magazine, Hansemi Semiconductor Official"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Low-profile management style; focus on technical innovation; strategic positioning in HBM supply chain; rapid wealth accumulation from AI boom (2022-2024); quiet but decisive leadership",
-    "knownForKo": "저명함을 피하는 경영 스타일; 기술 혁신에 집중; HBM 공급망에서의 전략적 지위; AI 붐으로 인한 급속한 자산 증가(2022-2024); 침착하고 결단력 있는 리더십",
-    "philanthropy": "Limited public philanthropic activities; focus remains primarily on business operations and family wealth management",
-    "philanthropyKo": "공개적인 자선 활동은 제한적; 주로 사업 운영과 가족 자산 관리에 집중",
-    "controversies": "Criticized for quiet management style and limited public communication; some question rapid wealth accumulation; speculation about next-generation wealth transfer",
-    "controversiesKo": "저명하지 않은 경영 스타일과 제한된 공개 커뮤니케이션에 대한 비판; 급속한 자산 증가에 대한 의문; 차세대 자산 승계에 대한 추측"
+    "knownFor": "Leading Indonesian manufacturer and businessman. Built major textile and manufacturing enterprises serving domestic and export markets. Known for operational excellence.",
+    "knownForKo": "인도네시아 주요 제조업체이자 사업가. 국내 및 수출 시장을 공급하는 주요 섬유 및 제조 기업 구축. 운영 우수성으로 알려짐.",
+    "philanthropy": "Supports Indonesian manufacturing industry and worker welfare programs",
+    "philanthropyKo": "인도네시아 제조 산업 및 근로자 복지 프로그램 지원",
+    "controversies": null,
+    "controversiesKo": null
   },
-  "sajuConnection": {
-    "note": null,
-    "value": null
-  }
+  "sajuConnection": null
 }

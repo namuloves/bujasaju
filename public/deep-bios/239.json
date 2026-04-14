@@ -1,119 +1,108 @@
 {
   "id": "239",
-  "name": "Vinod Khosla",
-  "nameKo": "비노드 코슬라",
-  "netWorth": "$11.6B",
-  "nationality": "US",
-  "industry": "Finance & Investments",
+  "name": "James Howard Goodnight",
   "childhood": {
-    "birthPlace": "New Delhi, India",
-    "birthPlaceKo": "인도 뉴델리",
-    "familyBackground": "Father was an officer in the Indian Armed Forces; grew up in a military household with no business or technology connections",
-    "familyBackgroundKo": "아버지는 인도 군대 장교; 사업이나 기술과 관련 없는 군인 가정에서 성장",
-    "education": "B.Tech in Electrical Engineering from IIT Delhi; M.S. in Biomedical Engineering from Carnegie Mellon University; MBA from Stanford Graduate School of Business",
-    "educationKo": "인도공과대학교(IIT) 델리 전기공학 학사; 카네기 멜론 대학교 생체의학공학 석사; 스탠포드 경영대학원 MBA",
-    "earlyLife": "Born on January 28, 1955, in New Delhi, Khosla grew up dreaming of being an entrepreneur despite having no business role models. At age 16, reading about Intel's founding in Electronic Engineering Times changed the course of his life. After earning his engineering degree from IIT Delhi, he tried to start a soy milk company in India to serve people without refrigerators — the venture failed. He then came to the U.S. for graduate studies at Carnegie Mellon and Stanford.",
-    "earlyLifeKo": "1955년 1월 28일 뉴델리에서 태어난 코슬라는 사업적 롤모델이 없었음에도 기업가를 꿈꾸며 자랐다. 16세 때 전자공학 시대에서 인텔의 창업 이야기를 읽고 인생의 방향이 바뀌었다. IIT 델리에서 공학 학위를 취득한 후 냉장고가 없는 사람들을 위한 두유 회사를 인도에서 창업하려 했으나 실패했다. 이후 카네기 멜론과 스탠포드에서 대학원 과정을 위해 미국으로 건너갔다.",
-    "source": "Wikipedia, Computer History Museum, Khosla Ventures"
+    "birthPlace": "Salisbury, North Carolina, USA",
+    "birthPlaceKo": "미국 노스캐롤라이나주 솔즈베리",
+    "familyBackground": "Born to Albert Goodnight and Dorothy Patterson. His father ran a hardware store. The family lived in Greensboro until James was 12, when they moved to Wilmington, North Carolina.",
+    "familyBackgroundKo": "앨버트 굿나이트와 도로시 패터슨의 아들로 태어났다. 아버지는 철물점을 운영했다. 가족은 제임스가 12세 때까지 그린즈버러에 살다가 윌밍턴으로 이사했다.",
+    "education": "Attended New Hanover High School where he excelled in mathematics and chemistry. Graduated from North Carolina State University with a bachelor's degree in applied mathematics, followed by a master's and a PhD in statistics.",
+    "educationKo": "뉴 하노버 고등학교에서 수학과 화학에 뛰어났다. 노스캐롤라이나 주립대학교에서 응용수학 학사학위를 취득한 후 통계학 석사 및 박사학위를 받았다.",
+    "earlyLife": "Born on January 6, 1943, Goodnight worked at his father's hardware store as a kid. A wonderful chemistry teacher at New Hanover High School helped ignite his interest in science. While pursuing his master's degree, his programming skills landed him a position at a company building electronic equipment for the Apollo program's ground stations.",
+    "earlyLifeKo": "1943년 1월 6일에 태어나 어린 시절 아버지의 철물점에서 일했다. 뉴 하노버 고등학교의 훌륭한 화학 선생님이 과학에 대한 관심에 불을 지폈다. 석사 과정 중 프로그래밍 실력을 인정받아 아폴로 우주 프로그램의 지상국 전자 장비를 제작하는 회사에서 근무했다.",
+    "source": "Wikipedia, Reference for Business, SAS official website"
   },
   "careerTimeline": [
     {
-      "year": 1982,
-      "event": "Co-founded Sun Microsystems with Andy Bechtolsheim, Scott McNealy, and Bill Joy; raised $300,000 seed from Kleiner Perkins",
-      "eventKo": "앤디 벡톨스하임, 스콧 맥닐리, 빌 조이와 함께 선 마이크로시스템즈 공동 창업; 클라이너 퍼킨스로부터 30만 달러 시드 투자 유치"
+      "year": 1966,
+      "event": "Worked on the Apollo space program, building electronic equipment for ground stations that communicated with space capsules",
+      "eventKo": "아폴로 우주 프로그램에 참여하여 우주 캡슐과 통신하는 지상국용 전자 장비를 제작"
     },
     {
-      "year": 1984,
-      "event": "Left Sun Microsystems after it reached profitability; the company went on to create the Java programming language",
-      "eventKo": "선 마이크로시스템즈가 수익성을 달성한 후 퇴사; 이후 회사는 자바 프로그래밍 언어를 개발"
+      "year": 1972,
+      "event": "Became a faculty member at North Carolina State University after earning his PhD in statistics",
+      "eventKo": "통계학 박사학위 취득 후 노스캐롤라이나 주립대학교 교수로 임용"
     },
     {
-      "year": 1986,
-      "event": "Joined Kleiner Perkins Caufield & Byers as a general partner, investing in technology startups",
-      "eventKo": "클라이너 퍼킨스 코필드 앤 바이어스에 제너럴 파트너로 합류하여 기술 스타트업에 투자"
+      "year": 1976,
+      "event": "Co-founded SAS Institute with John Sall, Jane Helwig, and Anthony Barr to commercialize statistical analysis software",
+      "eventKo": "존 살, 제인 헬위그, 앤서니 바와 함께 통계분석 소프트웨어를 상업화하기 위해 SAS 인스티튜트를 공동 설립"
     },
     {
-      "year": 2004,
-      "event": "Founded Khosla Ventures to focus on high-risk, science-based technology investments with social impact",
-      "eventKo": "사회적 영향력을 가진 고위험 과학 기반 기술 투자에 집중하기 위해 코슬라 벤처스 설립"
+      "year": 1980,
+      "event": "SAS grew rapidly in the early years, becoming profitable from the start thanks to its existing customer base from university research",
+      "eventKo": "SAS가 초기부터 대학 연구의 기존 고객 기반 덕분에 흑자를 기록하며 빠르게 성장"
     },
     {
-      "year": 2014,
-      "event": "First appeared on the Forbes 400 list of wealthiest Americans",
-      "eventKo": "포브스 400 미국 최고 부자 목록에 처음 등장"
+      "year": 1993,
+      "event": "SAS Institute reached $420 million in annual revenue, establishing itself as a major enterprise software company",
+      "eventKo": "SAS 인스티튜트가 연 매출 4억 2천만 달러를 달성하며 주요 기업용 소프트웨어 회사로 자리매김"
     },
     {
-      "year": 2024,
-      "event": "Khosla Ventures portfolio included major AI companies; Supreme Court ruled in his favor in the Martin's Beach public access case after a decade-long legal battle",
-      "eventKo": "코슬라 벤처스 포트폴리오에 주요 AI 기업 포함; 10년간의 법적 분쟁 끝에 마틴스 비치 공개 접근 사건에서 대법원이 그에게 유리한 판결"
+      "year": 2010,
+      "event": "SAS reached $2.43 billion in revenue; company continued its tradition of never having a layoff",
+      "eventKo": "SAS가 24억 3천만 달러의 매출을 달성하며 한 번도 해고 없는 전통을 이어감"
     },
     {
-      "year": 2025,
-      "event": "Net worth surged past $11 billion, driven by AI and clean energy investments",
-      "eventKo": "AI 및 청정 에너지 투자에 힘입어 순자산이 110억 달러를 돌파"
+      "year": 2022,
+      "event": "SAS revenue reached $3.2 billion, making it the world's largest privately held software company",
+      "eventKo": "SAS 매출이 32억 달러에 도달하여 세계 최대 비상장 소프트웨어 회사가 됨"
     }
   ],
   "failures": [
     {
-      "year": 1976,
-      "description": "After graduating from IIT Delhi, Khosla attempted to start a soy milk company in India to serve people without refrigerators. The venture failed completely.",
-      "descriptionKo": "IIT 델리를 졸업한 후, 코슬라는 냉장고가 없는 사람들을 위한 두유 회사를 인도에서 시작하려 했다. 사업은 완전히 실패했다.",
-      "lesson": "The failure pushed him to pursue further education in the U.S. and ultimately led him to Silicon Valley, where he co-founded Sun Microsystems.",
-      "lessonKo": "이 실패는 그를 미국에서 추가 교육을 받도록 했고, 궁극적으로 선 마이크로시스템즈를 공동 창업한 실리콘밸리로 이끌었다.",
-      "source": "Wikipedia, Bollywood Shaadis"
+      "year": 2010,
+      "description": "Turned down a reported $10 billion acquisition offer from IBM, which some analysts viewed as a missed opportunity to maximize shareholder value. However, Goodnight's decision to remain independent preserved the company's unique culture.",
+      "descriptionKo": "IBM의 100억 달러 규모 인수 제안을 거절했으며, 일부 분석가들은 이를 주주 가치 극대화의 기회를 놓친 것으로 보았다. 그러나 독립을 유지한 결정은 회사의 독특한 문화를 보존했다.",
+      "lesson": "Staying private and independent can preserve corporate culture and long-term vision, even at the cost of short-term financial gain.",
+      "lessonKo": "비상장 독립 기업으로 남는 것은 단기적 금전적 이익을 포기하더라도 기업 문화와 장기적 비전을 보존할 수 있다.",
+      "source": "Wikipedia, Bloomberg"
     },
     {
-      "year": 2012,
-      "description": "Several of Khosla's clean energy investments failed, including biofuel companies KiOR and Range Fuels, which went bankrupt. Critics labeled him a 'green energy gambler' who wasted hundreds of millions.",
-      "descriptionKo": "바이오 연료 기업 KiOR와 레인지 퓨얼스를 포함한 코슬라의 여러 청정 에너지 투자가 실패하여 파산했다. 비평가들은 그를 수억 달러를 낭비한 '녹색 에너지 도박꾼'이라 불렀다.",
-      "lesson": "Khosla maintained his conviction in high-risk, high-reward investing, arguing that a few big wins can offset many failures in venture capital.",
-      "lessonKo": "코슬라는 고위험·고보상 투자에 대한 확신을 유지하며, 벤처 캐피탈에서는 소수의 큰 성공이 다수의 실패를 상쇄할 수 있다고 주장했다.",
-      "source": "Wikipedia, Moonfare"
+      "year": 2023,
+      "description": "SAS faced increasing competitive pressure from cloud-native analytics platforms and open-source tools like Python and R, challenging its traditional licensing model and market dominance.",
+      "descriptionKo": "SAS가 클라우드 네이티브 분석 플랫폼과 파이썬, R 같은 오픈소스 도구들로부터 경쟁 압력이 커지면서 전통적인 라이선싱 모델과 시장 지배력에 도전을 받았다.",
+      "lesson": "Even dominant software companies must continuously evolve their business models to keep pace with technological shifts.",
+      "lessonKo": "지배적인 소프트웨어 회사라 하더라도 기술 변화에 보조를 맞추기 위해 비즈니스 모델을 지속적으로 진화시켜야 한다.",
+      "source": "Industry analysis"
     }
   ],
   "wealthHistory": [
     {
       "year": 2014,
-      "netWorth": 2.7
+      "netWorth": 7.3
     },
     {
       "year": 2019,
-      "netWorth": 3.5
+      "netWorth": 12.8
     },
     {
-      "year": 2022,
-      "netWorth": 4.7
+      "year": 2023,
+      "netWorth": 7.4
+    },
+    {
+      "year": 2024,
+      "netWorth": 12.2
     },
     {
       "year": 2025,
-      "netWorth": 9.2
-    },
-    {
-      "year": 2026,
-      "netWorth": 11.6
+      "netWorth": 18.5
     }
   ],
   "quotes": [
     {
-      "text": "I don't mind a larger probability of failure, with sufficient diversification in each fund. When we succeed, it has to be worth it.",
-      "textKo": "각 펀드에 충분한 다각화가 있다면 더 높은 실패 확률도 괜찮다. 성공하면, 그 가치가 있어야 한다.",
-      "context": "Describing his option-value investing approach at Khosla Ventures",
-      "contextKo": "코슬라 벤처스에서의 옵션 가치 투자 접근 방식을 설명하며",
-      "source": "Moonfare Deal Talk podcast"
+      "text": "If you treat employees as if they make a difference to the company, they will make a difference to the company.",
+      "textKo": "직원들을 회사에 변화를 만드는 사람으로 대하면, 그들은 실제로 회사에 변화를 만들어낼 것이다.",
+      "context": "Frequently stated mantra about his leadership philosophy at SAS",
+      "contextKo": "SAS에서의 리더십 철학에 대해 자주 언급한 좌우명",
+      "source": "Multiple media interviews, SAS corporate communications"
     },
     {
-      "text": "The single most important decision by far you will make is the team you build.",
-      "textKo": "여러분이 내릴 가장 중요한 결정은 단연코 팀을 구성하는 것이다.",
-      "context": "Advising startup founders on what matters most in building a company",
-      "contextKo": "스타트업 창업자들에게 회사를 만드는 데 가장 중요한 것이 무엇인지 조언하며",
-      "source": "GeekWire interview (2025)"
-    },
-    {
-      "text": "Thinking from first principles, being a rapid learner, asking a lot of questions, questioning your own assumptions — it's way more important than experience.",
-      "textKo": "제1원칙에서 사고하기, 빠른 학습자 되기, 많은 질문하기, 자신의 가정에 의문 제기하기 — 이것이 경험보다 훨씬 중요하다.",
-      "context": "On what makes a great entrepreneur versus relying on past experience",
-      "contextKo": "과거 경험에 의존하는 것과 대조하여 위대한 기업가를 만드는 요소에 대해",
-      "source": "Khosla Ventures, YourStory"
+      "text": "By making it very clear that no one was going to be laid off, suddenly we cut out huge amounts of chatter, concern and worry – and people got back to work.",
+      "textKo": "아무도 해고되지 않을 것이라고 명확히 함으로써 엄청난 양의 잡담, 걱정, 우려가 사라졌고, 사람들은 다시 일에 집중했다.",
+      "context": "Explaining his no-layoff policy during economic downturns",
+      "contextKo": "경기 침체기 동안 무해고 정책을 설명하며",
+      "source": "Fast Company"
     }
   ],
   "books": {
@@ -121,12 +110,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Co-founding Sun Microsystems, pioneering venture capital in clean energy and AI, high-conviction 'option-value' investing philosophy, outspoken views on technology's role in society",
-    "knownForKo": "선 마이크로시스템즈 공동 창업, 청정 에너지와 AI 분야 벤처 캐피탈 개척, 높은 확신의 '옵션 가치' 투자 철학, 기술의 사회적 역할에 대한 솔직한 견해",
-    "philanthropy": "Active supporter of education and healthcare initiatives in India and the U.S. Focuses philanthropy on areas where technology can have social impact. Advocates for clean energy investments as a form of social good.",
-    "philanthropyKo": "인도와 미국에서 교육 및 의료 이니셔티브의 적극적인 지원자. 기술이 사회적 영향을 미칠 수 있는 분야에 자선 활동을 집중. 사회적 선의 한 형태로서 청정 에너지 투자를 옹호.",
-    "controversies": "Engaged in a decade-long legal battle over public beach access at Martin's Beach in California, where he purchased coastal property and blocked public access, drawing criticism from environmentalists and surfers. Several of his green energy investments failed spectacularly.",
-    "controversiesKo": "캘리포니아 마틴스 비치에서 해안 부동산을 구입하고 공공 접근을 차단하여 환경주의자와 서퍼들의 비판을 받으며 10년간의 법적 분쟁에 휘말림. 여러 녹색 에너지 투자가 크게 실패함."
+    "knownFor": "Pioneer of the employee-friendly corporate culture, offering on-site childcare, healthcare, 35-hour work weeks, and profit sharing decades before these became industry norms. Known for keeping SAS private and maintaining an annual employee turnover rate below 5%, compared to the 20% industry average.",
+    "knownForKo": "직장 내 어린이집, 의료 서비스, 주 35시간 근무, 이익 분배 등 업계 표준이 되기 수십 년 전부터 직원 친화적 기업 문화를 선도했다. SAS를 비상장으로 유지하며 연간 직원 이직률을 업계 평균 20%에 비해 5% 미만으로 유지한 것으로 유명하다.",
+    "philanthropy": "Major donor to education, particularly NC State University. Established the Goodnight Scholars Program in 2008 to support students from middle- and low-income North Carolina families in STEM fields. Funded construction of SAS Hall at NC State. Plans to donate his art collection to the North Carolina Museum of Art and has donated his rock collection to the NC Museum of Natural Sciences.",
+    "philanthropyKo": "교육, 특히 노스캐롤라이나 주립대학교에 대한 주요 기부자이다. 2008년 STEM 분야 중저소득 가정 학생을 지원하기 위해 굿나이트 장학 프로그램을 설립했다. NC주립대 SAS홀 건설에 자금을 지원했다. 미술 컬렉션을 노스캐롤라이나 미술관에, 암석 컬렉션을 NC 자연과학박물관에 기증할 계획이다.",
+    "controversies": "SAS has faced criticism for its proprietary licensing model and high software costs, which some argue have hindered broader adoption of analytics tools. The company's decision to remain private has also drawn scrutiny from those who believe it limits transparency.",
+    "controversiesKo": "SAS는 독점적 라이선싱 모델과 높은 소프트웨어 비용이 분석 도구의 광범위한 채택을 저해한다는 비판을 받아왔다. 비상장 유지 결정도 투명성을 제한한다는 지적을 받았다."
   },
   "sajuConnection": null
 }

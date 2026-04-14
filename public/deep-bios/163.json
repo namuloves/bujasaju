@@ -1,43 +1,102 @@
 {
   "id": "163",
-  "name": "Georg Schaeffler",
-  "nameKo": "게오르크 쉐플러",
-  "childhood": "Georg Friedrich Wilhelm Schaeffler was born in 1964 in Erlangen, Germany, into one of the country's most prominent industrial families. His father Wilhelm Schaeffler and uncle Georg Schaeffler Sr. had built the family ball-bearing empire from a small post-war workshop into a global manufacturer. Growing up in Bavaria, Georg was immersed in engineering culture from childhood, though he was steered toward business and law rather than shop-floor work. He studied business and economics at the University of St. Gallen in Switzerland before earning a law degree and a master's from Duke University in the United States.",
-  "childhoodKo": "게오르크 프리드리히 빌헬름 쉐플러는 1964년 독일 에를랑겐에서 태어났다. 그의 부친 빌헬름 쉐플러와 큰아버지 게오르크 쉐플러 시니어는 전후 소규모 공방에서 시작한 베어링 제조 회사를 세계적인 산업 그룹으로 키워낸 인물들이다. 바이에른의 공업 문화 속에서 성장한 그는 스위스 장크트갈렌 대학교에서 경영·경제학을 공부했고, 이후 미국 듀크 대학교에서 법학 학위와 석사 학위를 취득했다.",
+  "name": "Anders Holch Povlsen",
+  "nameKo": "안데르스 홀치 포블센",
+  "netWorth": "$16.5B",
+  "nationality": "DK",
+  "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Denmark",
+    "birthPlaceKo": "덴마크",
+    "familyBackground": "Son of Troels Holch Povlsen and Merete Bech Povlsen, who founded the clothing company Bestseller in 1975. Grew up immersed in the family fashion retail business from childhood.",
+    "familyBackgroundKo": "1975년 의류 회사 베스트셀러를 창립한 트로엘스 홀치 포블센과 메레테 벡 포블센의 아들. 어린 시절부터 가족 패션 소매 사업에 둘러싸여 성장했다.",
+    "education": "Details of formal education are not widely documented. Povlsen joined the family business in the 1990s.",
+    "educationKo": "정규 교육에 대한 세부 사항은 널리 알려져 있지 않다. 포블센은 1990년대에 가족 사업에 합류했다.",
+    "earlyLife": "Born on November 4, 1972 in Denmark, Povlsen grew up as the heir to his parents' clothing company Bestseller, which was founded the year he was born. He took an early interest in the family business and joined the company in the 1990s. His parents gradually transferred ownership to him, and by his late twenties, he had become the sole owner of the enterprise.",
+    "earlyLifeKo": "1972년 11월 4일 덴마크에서 태어난 포블센은 부모가 그가 태어난 해에 설립한 의류 회사 베스트셀러의 후계자로 성장했다. 일찍부터 가족 사업에 관심을 보여 1990년대에 회사에 합류했다. 부모가 점차 소유권을 이전하면서 20대 후반에 이미 회사의 단독 소유주가 되었다.",
+    "source": "Wikipedia, MoneyWeek, Western Business"
+  },
   "careerTimeline": [
-    {"year": 1990, "event": "Began working within the Schaeffler Group, learning the business from the inside across manufacturing and strategy functions", "eventKo": "쉐플러 그룹 입사, 제조 및 전략 부문에서 경영 전반을 익히며 본격적인 경력 시작"},
-    {"year": 1993, "event": "Pursued a law degree at Duke University, broadening his expertise into international business law", "eventKo": "듀크 대학교에서 법학 공부, 국제 비즈니스 법률 전문성 강화"},
-    {"year": 1996, "event": "Inherited the Schaeffler Group with his mother Maria-Elisabeth following his father Wilhelm's death; Georg acquired an 80% stake", "eventKo": "부친 빌헬름 쉐플러 타계로 모친 마리아-엘리자베트와 함께 쉐플러 그룹 상속, 게오르크는 지분 80% 보유"},
-    {"year": 1999, "event": "Acquired German automotive supplier LuK GmbH, significantly expanding the group's presence in powertrain components", "eventKo": "독일 자동차 부품사 LuK GmbH 인수, 파워트레인 부품 분야 사업 대폭 확장"},
-    {"year": 2002, "event": "Acquired FAG Kugelfischer, a leading German ball bearing manufacturer, creating one of the world's largest bearing companies", "eventKo": "독일 최대 볼 베어링 제조사 FAG 쿠겔피셔 인수, 세계 최대 베어링 기업 중 하나로 도약"},
-    {"year": 2008, "event": "Led a €12 billion hostile takeover bid for Continental AG, the tire and automotive technology giant — a deal that nearly bankrupted Schaeffler during the financial crisis", "eventKo": "타이어·자동차 기술 대기업 콘티넨탈 AG에 120억 유로 규모 적대적 인수를 감행, 이후 금융 위기와 맞물려 그룹 재정 위기를 초래"},
-    {"year": 2015, "event": "Schaeffler Group went public on the Frankfurt Stock Exchange, raising €900 million in one of Germany's largest IPOs of the year", "eventKo": "쉐플러 그룹 프랑크푸르트 증권거래소 상장, 9억 유로 조달로 그해 독일 최대 IPO 중 하나 기록"},
-    {"year": 2020, "event": "Launched the company's strategic pivot toward electric mobility and green energy, investing heavily in EV components and hydrogen technology", "eventKo": "전기 이동성 및 친환경 에너지로의 전략적 전환 선언, 전기차 부품과 수소 기술에 대규모 투자 시작"}
+    {
+      "year": 1975,
+      "event": "Parents Troels and Merete Povlsen founded Bestseller clothing company in Denmark",
+      "eventKo": "부모 트로엘스와 메레테 포블센이 덴마크에서 의류 회사 베스트셀러 설립"
+    },
+    {
+      "year": 1990,
+      "event": "Joined Bestseller and began learning the family business operations",
+      "eventKo": "베스트셀러에 합류하여 가족 사업 운영을 배우기 시작"
+    },
+    {
+      "year": 2001,
+      "event": "Became CEO of Bestseller following his father's gradual retirement",
+      "eventKo": "아버지의 점진적 은퇴 후 베스트셀러 CEO에 취임"
+    },
+    {
+      "year": 2010,
+      "event": "Became the largest shareholder in British online fashion retailer ASOS",
+      "eventKo": "영국 온라인 패션 소매업체 ASOS의 최대 주주가 됨"
+    },
+    {
+      "year": 2014,
+      "event": "Acquired a major stake in German online retailer Zalando, becoming its second-largest shareholder",
+      "eventKo": "독일 온라인 소매업체 잘란도의 주요 지분을 인수하여 두 번째로 큰 주주가 됨"
+    },
+    {
+      "year": 2016,
+      "event": "Through Wildland Limited, began massive land conservation projects in the Scottish Highlands",
+      "eventKo": "와일드랜드 리미티드를 통해 스코틀랜드 하이랜드에서 대규모 토지 보전 프로젝트 시작"
+    },
+    {
+      "year": 2020,
+      "event": "Bestseller expanded to selling apparel in more than 70 countries, generating billions in annual revenue",
+      "eventKo": "베스트셀러가 70개국 이상에서 의류를 판매하며 수십억 달러의 연매출 달성"
+    }
   ],
   "failures": [
     {
-      "title": "Continental Takeover Nearly Bankrupt the Group",
-      "description": "The 2008 acquisition of Continental AG for approximately €12 billion saddled Schaeffler with massive debt just as the global financial crisis hit. The company struggled under a debt load exceeding €12 billion for years, forcing asset sales and restructuring. Georg Schaeffler himself acknowledged the timing and leverage were deeply problematic.",
-      "titleKo": "콘티넨탈 인수로 인한 그룹 재정 위기",
-      "descriptionKo": "2008년 약 120억 유로에 달하는 콘티넨탈 AG 인수는 글로벌 금융 위기와 맞물리며 쉐플러 그룹에 막대한 부채를 안겼다. 그룹은 수년간 120억 유로를 넘는 부채에 시달리며 자산 매각과 구조 조정을 거듭해야 했고, 게오르크 쉐플러 본인도 인수 시기와 과도한 레버리지가 심각한 문제였음을 인정했다."
-    },
-    {
-      "title": "Late Shift to Electric Mobility",
-      "description": "As a company built on internal combustion engine components, Schaeffler Group faced existential pressure from the global shift to electric vehicles. Critics argued the pivot to EV and e-mobility came too slowly, leading to restructuring announcements affecting thousands of jobs as traditional product lines became obsolete.",
-      "titleKo": "전동화 전환의 지연",
-      "descriptionKo": "내연기관 부품에 특화된 기업으로서 쉐플러 그룹은 전기차 전환이라는 시대적 흐름에 실존적 압박을 받았다. 전동화 대응이 지나치게 늦었다는 비판이 이어졌고, 기존 제품군의 경쟁력 약화로 인해 수천 명의 일자리에 영향을 미치는 구조 조정이 발표되기도 했다."
+      "year": 2019,
+      "description": "Povlsen and his wife Anne tragically lost three of their four children — Alfred (5), Agnes (12), and Alma (15) — in the Easter Sunday terrorist attacks in Sri Lanka while vacationing at the Shangri-La hotel in Colombo. The attacks killed 253 people in total.",
+      "descriptionKo": "포블센과 아내 앤은 스리랑카 콜롬보의 샹그릴라 호텔에서 휴가 중 부활절 일요일 테러 공격으로 네 자녀 중 셋 — 알프레드(5세), 아그네스(12세), 알마(15세)를 비극적으로 잃었다. 이 공격으로 총 253명이 사망했다.",
+      "lesson": "Despite this devastating personal tragedy, Povlsen and his wife continued their conservation and business work. Less than a year later, the couple welcomed twin girls. The experience intensified their commitment to environmental causes and legacy-building.",
+      "lessonKo": "이 참담한 개인적 비극에도 불구하고, 포블센과 아내는 보전 활동과 사업을 계속했다. 1년이 채 되지 않아 쌍둥이 딸을 출산했다. 이 경험은 환경 보전과 유산 구축에 대한 그들의 헌신을 더욱 강화시켰다.",
+      "source": "CNN, Bloomberg, Washington Post"
     }
   ],
   "wealthHistory": [
-    {"year": 2010, "amount": 10.0},
-    {"year": 2013, "amount": 14.0},
-    {"year": 2015, "amount": 18.0},
-    {"year": 2018, "amount": 20.1},
-    {"year": 2020, "amount": 14.0},
-    {"year": 2022, "amount": 16.5},
-    {"year": 2025, "amount": 15.9}
+    {
+      "year": 2010,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 6.8
+    },
+    {
+      "year": 2019,
+      "netWorth": 8.0
+    },
+    {
+      "year": 2022,
+      "netWorth": 11.3
+    },
+    {
+      "year": 2025,
+      "netWorth": 16.5
+    }
   ],
   "quotes": [],
-  "books": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Sole owner of Bestseller, one of Europe's largest privately held fashion empires; largest individual private landowner in the United Kingdom through vast estates in the Scottish Highlands; largest shareholder in ASOS and second-largest in Zalando",
+    "knownForKo": "유럽 최대 비상장 패션 제국 중 하나인 베스트셀러의 단독 소유주; 스코틀랜드 하이랜드의 광대한 부지를 통해 영국 최대의 개인 토지 소유자; ASOS의 최대 주주이자 잘란도의 두 번째 주주",
+    "philanthropy": "Through Wildland Limited, Povlsen and his wife Anne have pledged to restore natural ecosystems across their Scottish estates, including large-scale reforestation, wildlife conservation, and sustainable land use. They own approximately 221,000 acres of land in Scotland dedicated to rewilding.",
+    "philanthropyKo": "와일드랜드 리미티드를 통해 포블센과 아내 앤은 스코틀랜드 부지 전역의 자연 생태계 복원을 약속했으며, 대규모 재조림, 야생동물 보전, 지속 가능한 토지 이용을 포함한다. 스코틀랜드에 약 22만 1천 에이커의 토지를 소유하며 야생화 복원에 전념하고 있다.",
+    "controversies": "His massive land ownership in Scotland has drawn both admiration for conservation efforts and criticism from those who argue that foreign billionaire ownership of Scottish land is problematic. ASOS investment has been volatile, with significant value fluctuations.",
+    "controversiesKo": "스코틀랜드에서의 대규모 토지 소유는 보전 노력에 대한 칭찬과 함께 외국 억만장자의 스코틀랜드 토지 소유가 문제라는 비판을 동시에 받았다. ASOS 투자는 상당한 가치 변동으로 불안정했다."
+  },
   "sajuConnection": null
 }

@@ -1,84 +1,88 @@
 {
   "id": "139",
-  "name": "Edwin Chen",
-  "nameKo": "에드윈 첸",
-  "netWorth": "$18B",
-  "nationality": "TW",
-  "industry": "Diversified",
+  "name": "Dhanin Chearavanont",
+  "nameKo": "다닌 치어라바논",
+  "netWorth": "$18.2B",
+  "nationality": "TH",
+  "industry": "Food & Beverage",
   "childhood": {
-    "birthPlace": "Crystal River, Florida, United States (parents from Taiwan)",
-    "birthPlaceKo": "미국 플로리다주 크리스탈 리버 (부모는 대만 출신)",
-    "familyBackground": "Born to Chinese immigrant parents from Taiwan who ran a modest Chinese-Thai restaurant in Crystal River, Florida",
-    "familyBackgroundKo": "플로리다주 크리스탈 리버에서 소규모 중국-태국 식당을 운영하는 대만 출신 이민자 부모 사이에서 출생",
-    "education": "Massachusetts Institute of Technology (MIT) — degrees in Mathematics, Linguistics, and Computer Science",
-    "educationKo": "매사추세츠 공과대학(MIT) — 수학, 언어학, 컴퓨터과학 학위",
-    "earlyLife": "Edwin Chen grew up in Crystal River, Florida, where his immigrant parents from Taiwan ran a small Chinese-Thai restaurant. Despite humble beginnings, he excelled academically and attended MIT, where he studied mathematics, linguistics, and computer science, graduating around 2010. His multidisciplinary education uniquely positioned him to understand both the technical and linguistic aspects of AI data labeling.",
-    "earlyLifeKo": "에드윈 첸은 대만에서 이민 온 부모가 작은 중국-태국 식당을 운영하던 플로리다주 크리스탈 리버에서 성장했다. 겸손한 환경에서 자랐지만 학업에서 뛰어난 성과를 보이며 MIT에 진학하여 수학, 언어학, 컴퓨터과학을 전공하고 2010년경에 졸업했다. 그의 다학제적 교육은 AI 데이터 라벨링의 기술적, 언어적 측면을 모두 이해하는 데 독특한 강점이 되었다.",
-    "source": "VnExpress, Wall Street Herald, Lenny's Newsletter"
+    "birthPlace": "Bangkok, Thailand",
+    "birthPlaceKo": "태국 방콕",
+    "familyBackground": "Fourth and youngest son of Chia Ek Chor, a Chinese immigrant who fled a typhoon-ravaged village in Shantou, southern China in 1921. His father and uncle began selling vegetable seeds in Thailand and built what would become the Charoen Pokphand (CP) Group.",
+    "familyBackgroundKo": "1921년 중국 남부 산터우의 태풍 피해 마을을 떠나 태국으로 이주한 치아 에크 초르의 넷째이자 막내아들. 아버지와 삼촌은 태국에서 채소 씨앗 판매를 시작하여 후에 차런 포카판(CP) 그룹이 되는 사업을 세웠다.",
+    "education": "Attended Chinese Sarasit Wittaya school in Ban Pong District, Ratchaburi province until 1949. Later received further education in China and Hong Kong, and completed a training program in the United States on business management and international trade.",
+    "educationKo": "랏차부리주 반퐁 구 중국계 사라싯 위타야 학교에서 1949년까지 수학. 이후 중국과 홍콩에서 추가 교육을 받았으며, 미국에서 경영관리 및 국제무역 교육 프로그램을 이수했다.",
+    "earlyLife": "Born in 1939, Dhanin grew up in a Thai-Chinese family that was building an agricultural seed business. His father Chia Ek Chor had emigrated from China to Thailand in 1921, starting as a vegetable seed trader. Dhanin attended a Chinese school in rural Thailand before being sent to study in China and Hong Kong. He later gained modern business training in the United States. By age 25, he joined the family business full time, bringing international perspective to the operation.",
+    "earlyLifeKo": "1939년 태어난 다닌은 농업 종자 사업을 키워가는 태국-중국계 가정에서 자랐다. 아버지 치아 에크 초르는 1921년 중국에서 태국으로 이민하여 채소 씨앗 상인으로 시작했다. 다닌은 태국 농촌의 중국계 학교에 다닌 후 중국과 홍콩으로 유학을 갔다. 이후 미국에서 현대적 경영 교육을 받았다. 25세에 가족 사업에 정식으로 합류하며 국제적 시각을 사업에 도입했다.",
+    "source": "Wikipedia, Prabook, Nikkei Asia"
   },
   "careerTimeline": [
     {
-      "year": 2010,
-      "event": "Graduated from MIT with degrees in Mathematics, Linguistics, and Computer Science",
-      "eventKo": "MIT에서 수학, 언어학, 컴퓨터과학 학위를 취득하고 졸업"
+      "year": 1964,
+      "event": "Joined the Charoen Pokphand Group family business",
+      "eventKo": "차런 포카판 그룹 가족 사업에 합류"
     },
     {
-      "year": 2012,
-      "event": "Worked at Clarium Capital Management in algorithmic trading and at MIT CSAIL in NLP research",
-      "eventKo": "클라리움 캐피탈 매니지먼트에서 알고리즘 트레이딩, MIT CSAIL에서 자연어처리 연구"
+      "year": 1969,
+      "event": "Transformed CP Group from a family-run seed business into a modern, industrial-scale conglomerate",
+      "eventKo": "CP 그룹을 가족 운영 종자 사업에서 현대적 산업 규모의 대기업으로 변환"
     },
     {
-      "year": 2015,
-      "event": "Served as Director of Data Science at Dropbox",
-      "eventKo": "드롭박스에서 데이터 사이언스 디렉터로 근무"
+      "year": 1970,
+      "event": "Became president of CP Group at age 30, taking full operational control",
+      "eventKo": "30세에 CP 그룹 사장이 되어 운영 전권을 장악"
+    },
+    {
+      "year": 1989,
+      "event": "Appointed Chairman of CP Group; expanded aggressively into China, telecommunications, and retail",
+      "eventKo": "CP 그룹 회장에 취임; 중국, 통신, 유통 분야로 공격적으로 확장"
+    },
+    {
+      "year": 1997,
+      "event": "Asian financial crisis hit; CP Group faced $1 billion in foreign loans; Dhanin postponed retirement to lead restructuring",
+      "eventKo": "아시아 금융 위기 발생; CP 그룹이 10억 달러의 외채에 직면; 다닌이 은퇴를 연기하고 구조조정 주도"
+    },
+    {
+      "year": 2013,
+      "event": "Led CP Group's acquisition of a major stake in Ping An Insurance for $9.4 billion, one of Asia's largest deals",
+      "eventKo": "CP 그룹의 핑안보험 주요 지분을 94억 달러에 인수 주도, 아시아 최대 거래 중 하나"
     },
     {
       "year": 2017,
-      "event": "Joined Twitter as a data scientist, later worked at Google and Facebook as a research scientist",
-      "eventKo": "트위터에 데이터 사이언티스트로 입사, 이후 구글과 페이스북에서 연구 과학자로 근무"
-    },
-    {
-      "year": 2020,
-      "event": "Left a seven-figure salary to found Surge AI, a data labeling company for AI model training, using personal savings",
-      "eventKo": "7자리 연봉을 포기하고 개인 저축으로 AI 모델 훈련용 데이터 라벨링 회사 Surge AI를 설립"
-    },
-    {
-      "year": 2023,
-      "event": "Surge AI grew to over $1.2 billion in annual revenue without external funding, entirely through organic growth",
-      "eventKo": "Surge AI가 외부 자금 없이 유기적 성장만으로 연매출 12억 달러 이상 달성"
-    },
-    {
-      "year": 2025,
-      "event": "Named to Forbes 400 as the youngest member at age 37, with $18 billion net worth; Surge AI valued at $24 billion",
-      "eventKo": "37세의 나이로 포브스 400 최연소 멤버에 선정, 순자산 180억 달러; Surge AI 가치 240억 달러 평가"
+      "event": "Stepped down as CEO; appointed eldest son Soopakij as chairman and second son Suphachai as CEO",
+      "eventKo": "CEO에서 물러나며 장남 수파킷을 회장으로, 차남 수파차이를 CEO로 임명"
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "Leaving a prestigious, high-paying career at major tech companies (Google, Facebook, Twitter) to start a bootstrapped company during the uncertainty of the COVID-19 pandemic was considered a major risk by peers.",
-      "descriptionKo": "구글, 페이스북, 트위터 등 주요 테크 기업에서의 명성 있는 고소득 경력을 떠나 COVID-19 팬데믹의 불확실성 속에서 자력으로 회사를 시작한 것은 주변에서 큰 위험으로 여겨졌다.",
-      "lesson": "His conviction that AI data quality was the bottleneck for model performance proved prescient, as demand for high-quality data labeling exploded with the generative AI boom.",
-      "lessonKo": "AI 데이터 품질이 모델 성능의 병목이라는 그의 확신은 생성형 AI 붐과 함께 고품질 데이터 라벨링 수요가 폭발적으로 증가하면서 선견지명으로 입증되었다.",
-      "source": "Lenny's Newsletter, Forbes"
+      "year": 1997,
+      "description": "The Asian financial crisis devastated CP Group's finances. With over $1 billion in foreign loans and Thailand's currency devalued, Dhanin was forced to freeze investment projects, halt dozens of ventures, and sell key assets including shares in a motorcycle factory and brewery in China.",
+      "descriptionKo": "아시아 금융 위기가 CP 그룹의 재정을 황폐화시켰다. 10억 달러 이상의 외채와 태국 통화 평가절하로 다닌은 투자 프로젝트를 동결하고 수십 개의 사업을 중단하며 중국의 오토바이 공장과 맥주 양조장 지분을 포함한 주요 자산을 매각해야 했다.",
+      "lesson": "Dhanin branded this as his biggest challenge. He learned to manage foreign currency risk and over-leveraging. Within five years, he rebuilt new motorcycle and brewery operations. The crisis taught him the importance of financial discipline in global expansion.",
+      "lessonKo": "다닌은 이를 자신의 가장 큰 도전으로 꼽았다. 외환 리스크와 과도한 레버리지 관리를 배웠다. 5년 안에 새로운 오토바이 및 맥주 양조 사업을 재건했다. 이 위기는 글로벌 확장에서 재정 규율의 중요성을 가르쳤다.",
+      "source": "Bangkok Post, Nikkei Asia"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2020,
-      "netWorth": 0.01
+      "year": 2005,
+      "netWorth": 3.5
     },
     {
-      "year": 2023,
-      "netWorth": 5.0
+      "year": 2010,
+      "netWorth": 7.0
     },
     {
-      "year": 2024,
-      "netWorth": 9.5
+      "year": 2017,
+      "netWorth": 14.3
+    },
+    {
+      "year": 2021,
+      "netWorth": 17.2
     },
     {
       "year": 2025,
-      "netWorth": 18.0
+      "netWorth": 18.2
     }
   ],
   "quotes": [],
@@ -87,12 +91,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building the world's leading AI data labeling company without any external funding; youngest person on the Forbes 400; bootstrapping Surge AI from zero to $24 billion valuation",
-    "knownForKo": "외부 자금 없이 세계 최고의 AI 데이터 라벨링 회사를 구축; 포브스 400 최연소 인물; Surge AI를 제로에서 240억 달러 가치 평가까지 자력으로 성장시킴",
-    "philanthropy": "Details of philanthropic activities not widely documented as of 2025",
-    "philanthropyKo": "2025년 기준 자선 활동에 대한 세부 사항은 널리 알려지지 않음",
-    "controversies": "Limited public controversy; some questions about the rapid valuation growth of Surge AI given its bootstrapped nature",
-    "controversiesKo": "공개적 논란은 제한적; 자력으로 성장한 회사치고는 급격한 가치 평가 성장에 대한 일부 의문"
+    "knownFor": "Transformed a small Thai-Chinese seed trading business into one of Asia's largest conglomerates spanning agriculture, food, retail, telecommunications, and finance across over 20 countries. Pioneer of agribusiness integration from 'farm to fork'.",
+    "knownForKo": "작은 태국-중국계 종자 무역 사업을 농업, 식품, 유통, 통신, 금융을 아우르는 아시아 최대 대기업 중 하나로 성장시켰다. 20개국 이상에 진출하며 '농장에서 식탁까지'의 농업 통합 선구자.",
+    "philanthropy": "CP Group has invested in various educational and agricultural development programs across Southeast Asia and China. Dhanin has supported rural development initiatives and technology transfer programs to improve farming practices.",
+    "philanthropyKo": "CP 그룹은 동남아시아와 중국 전역에서 다양한 교육 및 농업 개발 프로그램에 투자해왔다. 다닌은 농촌 개발 이니셔티브와 농업 관행을 개선하기 위한 기술 이전 프로그램을 지원해왔다.",
+    "controversies": "CP Group's massive expansion has drawn criticism regarding monopolistic practices in Thailand's agricultural sector. The group's heavy debt during the 1997 Asian crisis and subsequent restructuring drew significant media scrutiny.",
+    "controversiesKo": "CP 그룹의 대규모 확장은 태국 농업 부문에서의 독점적 관행에 대한 비판을 받았다. 1997년 아시아 위기 당시 그룹의 과도한 부채와 이후 구조조정은 상당한 언론의 관심을 받았다."
   },
   "sajuConnection": null
 }

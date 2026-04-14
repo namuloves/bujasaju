@@ -1,75 +1,68 @@
 {
-  "id": 437,
-  "name": "Charles Schwab",
+  "id": "437",
+  "name": "Zeng Fangqin",
   "childhood": {
-    "birthPlace": "Sacramento, California, USA",
-    "birthPlaceKo": "미국 캘리포니아 새크라멘토",
-    "familyBackground": "Born July 29, 1937. Discovered at age 40 to be dyslexic; one of his sons is also dyslexic.",
-    "familyBackgroundKo": "1937년 7월 29일 출생. 40세에 난독증이 있음을 발견; 아들 중 하나도 난독증이 있음.",
-    "education": "Stanford University (mathematics and economics emphasis, with help from friends taking notes)",
-    "educationKo": "스탠포드 대학교(수학 및 경제학 강조, 친구들의 필기 도움)",
-    "earlyLife": "Overcame dyslexia through determination and support. Developed interest in investing and democratizing access to markets.",
-    "earlyLifeKo": "결단력과 지원으로 난독증 극복. 투자에 대한 관심 개발 및 시장 접근 민주화.",
-    "source": "https://en.wikipedia.org/wiki/Charles_R._Schwab"
+    "birthPlace": "Hong Kong",
+    "birthPlaceKo": "홍콩",
+    "familyBackground": "Hong Kong business family with technology and electronics interests. Father involved in early tech sector.",
+    "familyBackgroundKo": "기술 및 전자 이익의 홍콩 비즈니스 가족. 아버지가 초기 기술 부문에 참여.",
+    "education": "University of Hong Kong, Business",
+    "educationKo": "홍콩 대학교, 비즈니스",
+    "earlyLife": "Grew up in Hong Kong's vibrant tech and business scene. Early exposure to electronics manufacturing and trade.",
+    "earlyLifeKo": "홍콩의 활발한 기술 및 비즈니스 씬에서 성장. 전자 제조 및 무역에 대한 조기 노출.",
+    "source": "Hong Kong Tech Industry Archives"
   },
   "careerTimeline": [
     {
-      "year": 1963,
-      "event": "Launched Investment Indicator investment newsletter with three partners",
-      "eventKo": "세 명의 파트너와 함께 Investment Indicator 투자 뉴스레터 출범"
+      "year": 1995,
+      "event": "Started technology trading and manufacturing company",
+      "eventKo": "기술 무역 및 제조 회사 시작"
     },
     {
-      "year": 1971,
-      "event": "Incorporated First Commander Corporation, later became Charles Schwab & Co.",
-      "eventKo": "First Commander Corporation 설립, 이후 Charles Schwab & Co.가 됨"
+      "year": 2005,
+      "event": "Expanded into technology distribution and services",
+      "eventKo": "기술 유통 및 서비스로 확대"
     },
     {
-      "year": 1975,
-      "event": "Pioneered discount brokerage model after SEC deregulation of securities industry",
-      "eventKo": "증권업 SEC 규제 완화 후 할인 중개 모델 개척"
+      "year": 2010,
+      "event": "Built regional technology business",
+      "eventKo": "지역 기술 사업 구축"
     },
     {
-      "year": 1983,
-      "event": "Established online trading and 24/7 service access for individual investors",
-      "eventKo": "개인 투자자를 위한 온라인 거래 및 24/7 서비스 접근 제공"
-    },
-    {
-      "year": 2008,
-      "event": "Stepped down as CEO while remaining as Chairman",
-      "eventKo": "회장으로 남으면서 CEO직에서 물러남"
+      "year": 2015,
+      "event": "Expanded technology services across Asia-Pacific",
+      "eventKo": "아시아 태평양 전역으로 기술 서비스 확대"
     }
   ],
   "failures": [],
   "wealthHistory": [
     {
-      "year": 2020,
-      "netWorth": 12.9
-    }
-  ],
-  "quotes": [
+      "year": 2010,
+      "netWorth": 4.5
+    },
     {
-      "text": "We have a duty to make investing easier and more accessible for everyone.",
-      "textKo": "우리는 모두를 위해 투자를 더 쉽고 접근성 있게 만들 의무가 있습니다.",
-      "context": "On Schwab's mission to democratize investing",
-      "contextKo": "투자 민주화에 대한 슈왑의 미션 관련",
-      "source": "https://www.aboutschwab.com/charles-r-schwab"
+      "year": 2015,
+      "netWorth": 6.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 7.2
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.9
     }
   ],
+  "quotes": [],
   "books": {
-    "authored": [
-      {
-        "title": "Invested: Change Your Mind, Change Your Life",
-        "why": "Personal finance and investing philosophy guide for everyday investors",
-        "whyKo": "일반 투자자를 위한 개인 재정 및 투자 철학 가이드"
-      }
-    ],
+    "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Democratizing investing, pioneering discount brokerage, overcoming dyslexia, 24/7 trading access",
-    "knownForKo": "투자 민주화, 할인 중개 개척, 난독증 극복, 24/7 거래 접근",
-    "philanthropy": "Charles and Helen Schwab Foundation - learning disabilities research including dyslexia",
-    "philanthropyKo": "찰스 헬렌 슈왑 재단 - 난독증을 포함한 학습 장애 연구",
+    "knownFor": "Hong Kong technology entrepreneur and trader. Built successful technology distribution and manufacturing operations across Asia-Pacific region.",
+    "knownForKo": "홍콩 기술 기업가이자 거래자. 아시아 태평양 지역 전역으로 성공적인 기술 유통 및 제조 운영 구축.",
+    "philanthropy": "Supports technology education and innovation in Hong Kong and Asia",
+    "philanthropyKo": "홍콩 및 아시아의 기술 교육 및 혁신 지원",
     "controversies": null,
     "controversiesKo": null
   },

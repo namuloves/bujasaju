@@ -1,163 +1,142 @@
 {
   "id": "123",
-  "name": "Philip Anschutz",
+  "name": "Henry Thompson Nicholas III",
+  "nameKo": "헨리 톰슨 니콜라스 III세",
   "childhood": {
-    "birthPlace": "Russell, Kansas, USA",
-    "birthPlaceKo": "미국 캔자스주 Russell",
-    "familyBackground": "Born December 28, 1939, to a family involved in oil drilling and ranching. His father, Fred Anschutz, was an oil drilling entrepreneur who gave young Philip an entrepreneurial foundation. The family had deep roots in Wyoming and Colorado energy businesses.",
-    "familyBackgroundKo": "1939년 12월 28일 유전 시추 및 목축 사업에 종사한 가족에게서 태어나다. 그의 아버지 Fred Anschutz는 어린 Philip에게 기업가적 기반을 제공한 유전 시추 기업가였다. 그 가족은 Wyoming과 Colorado의 에너지 비즈니스에 깊은 뿌리를 가지고 있었다.",
-    "education": "Studied business and economics, developing early interest in resource extraction and real estate development. His education provided the foundation for a career spanning energy, transportation, sports, and entertainment.",
-    "educationKo": "비즈니스와 경제학을 공부했으며 자원 채굴 및 부동산 개발에 대한 초기 관심을 발전시켰다. 그의 교육은 에너지, 운송, 스포츠 및 엔터테인먼트에 걸친 경력의 기초를 제공했다.",
-    "earlyLife": "Grew up in the oil-rich regions of Wyoming and Colorado, directly exposed to boom-and-bust cycles of the energy industry. This early experience shaped his contrarian business philosophy and appetite for risk-taking.",
-    "earlyLifeKo": "Wyoming과 Colorado의 석유가 풍부한 지역에서 성장했으며 에너지 산업의 호황과 불황 주기에 직접 노출되었다. 이 초기 경험은 그의 반대주의 비즈니스 철학과 위험 감수 욕구를 형성했다.",
-    "source": "Wikipedia, Colorado Encyclopedia, Bloomberg"
+    "birthPlace": "Cincinnati, Ohio, USA",
+    "birthPlaceKo": "미국 오하이오주 신시내티",
+    "familyBackground": "Middle-class American family. His parents divorced when he was four years old, after which he moved with his mother and sister to Los Angeles, California. This early instability likely shaped his drive for independence and success in competitive environments.",
+    "familyBackgroundKo": "중산층 미국 가정. 부모는 4세일 때 이혼했으며, 그 후 어머니와 여동생과 함께 캘리포니아 로스앤젤레스로 이주했다. 이 초기 불안정성은 아마도 경쟁적 환경에서의 독립성과 성공에 대한 욕망을 형성했을 것이다.",
+    "education": "Attended United States Air Force Academy, demonstrating early interest in advanced technology and engineering. Graduated from UCLA School of Engineering in 1982 with Bachelor of Science degree in electrical engineering. Earned Master's degree in 1985 and Ph.D. in electrical engineering from UCLA in 1998, with dissertation becoming basis for integrated circuits that founded Broadcom's business model.",
+    "educationKo": "미국 공군사관학교에 다녔으며 고급 기술 및 엔지니어링에 대한 초기 관심을 보였다. 1982년 UCLA 공학대학원을 졸업하여 전자공학 학사 학위를 취득했다. 1985년 석사 학위를 취득했고 1998년 UCLA에서 전자공학 박사 학위를 취득했으며, 그의 박사학위 논문이 Broadcom의 사업 모델의 기초가 된 집적회로의 기반이 되었다.",
+    "earlyLife": "Moved to California as a young child and thrived in Los Angeles's emerging technology scene. Worked at TRW in Redondo Beach where he developed expertise in microelectronics design. Later worked at PairGain Technologies as director of microelectronics, establishing himself as talented hardware engineer before entrepreneurial ventures.",
+    "earlyLifeKo": "어린 나이에 캘리포니아로 이주하여 로스앤젤레스의 신흥 기술 장면에서 번성했다. 레돈도 비치의 TRW에서 일했으며 마이크로전자 설계 전문 지식을 개발했다. 나중에 PairGain Technologies에서 마이크로전자 부서 이사로 일했으며, 기업가적 사업을 시작하기 전에 재능 있는 하드웨어 엔지니어로 자신을 확립했다.",
+    "source": "Wikipedia, IEEE ETHW, UCLA Engineering Archives"
   },
   "careerTimeline": [
     {
-      "year": 1961,
-      "event": "Takes over Circle A Drilling, his father's oil drilling company, and immediately earns large returns through aggressive exploration in Wyoming oilfields",
-      "eventKo": "아버지의 유전 시추 회사인 Circle A Drilling을 인수받아 Wyoming 유전 지역에서의 공격적인 탐사를 통해 즉시 큰 수익을 창출하다"
-    },
-    {
-      "year": 1979,
-      "event": "Discovers the Anschutz Ranch East oilfield outside Evanston, Wyoming - at the time, the largest US oil discovery since Alaska's Prudhoe Bay, dramatically increasing his wealth",
-      "eventKo": "Wyoming의 Evanston 외부에 있는 Anschutz Ranch East 유전을 발견하다 - 당시 알래스카의 Prudhoe Bay 이후 미국 최대의 유전 발견이었으며 그의 부를 극적으로 증가시키다"
-    },
-    {
       "year": 1982,
-      "event": "Sells half of the Anschutz Ranch East oilfield to Mobil Corporation for $500 million, establishing himself as one of America's energy titans",
-      "eventKo": "Anschutz Ranch East 유전의 절반을 Mobil Corporation에 5억 달러에 판매하여 미국의 에너지 거인 중 한 명으로 자리매김하다"
+      "event": "Graduated from UCLA School of Engineering with B.S. in electrical engineering. Beginning of professional engineering career in Southern California's booming defense and semiconductor industries.",
+      "eventKo": "UCLA 공학대학원을 전자공학 학사로 졸업했다. 남부 캘리포니아의 번성하는 방위 산업 및 반도체 산업에서의 직업 엔지니어링 경력의 시작."
     },
     {
-      "year": 1984,
-      "event": "Purchases the Rio Grande Railroad for $90 million, beginning his diversification into transportation and infrastructure",
-      "eventKo": "Rio Grande Railroad을 9,000만 달러에 매수하여 운송 및 인프라로의 다각화를 시작하다"
+      "year": 1985,
+      "event": "Earned Master's degree in electrical engineering from UCLA, deepening expertise in advanced circuit design and communications technologies required for broadband systems.",
+      "eventKo": "UCLA에서 전자공학 석사 학위를 취득하여 광대역 시스템에 필요한 고급 회로 설계 및 통신 기술에 대한 전문 지식을 심화했다."
     },
     {
-      "year": 1988,
-      "event": "Wins the bid for Southern Pacific Railroad with $1.8 billion offer, creating a major transcontinental transportation network",
-      "eventKo": "Southern Pacific Railroad을 18억 달러로 인수하여 주요 대륙횡단 운송 네트워크를 구축하다"
+      "year": 1989,
+      "event": "Worked at TRW in Redondo Beach, California, where he met Henry Samueli, a UCLA engineering professor. The two discovered shared vision for communications semiconductor innovation and began discussing entrepreneurial partnership.",
+      "eventKo": "캘리포니아 레돈도 비치의 TRW에서 일했으며, UCLA 공학 교수인 헨리 사무엘리를 만났다. 둘은 통신 반도체 혁신에 대한 공유된 비전을 발견했으며 기업가적 파트너십 논의를 시작했다."
     },
     {
-      "year": 1995,
-      "event": "Sells Union Pacific railroads to focus on new ventures, but retains valuable fiber optic cable right-of-way rights that become strategic assets for communications infrastructure",
-      "eventKo": "Union Pacific 철도를 판매하여 새로운 벤처에 집중하되 통신 인프라의 전략적 자산이 되는 귀중한 광섬유 케이블 사용권을 유지하다"
+      "year": 1991,
+      "event": "Co-founded Broadcom Corporation with Henry Samueli in a spare bedroom of Nicholas's condominium in Redondo Beach. Each invested only $5,000 of their own capital, betting entirely on engineering innovation and market vision.",
+      "eventKo": "헨리 사무엘리와 함께 니콜라스의 레돈도 비치 콘도 침실에서 Broadcom 공사를 공동 설립했다. 각각은 자신의 자본 5,000달러만 투자했으며, 엔지니어링 혁신과 시장 비전에 전적으로 베팅했다."
     },
     {
-      "year": 1996,
-      "event": "Becomes founding investor and operator of Major League Soccer, acquiring the Colorado Rapids franchise. Creates the foundation for the world's largest sports and entertainment company",
-      "eventKo": "메이저리그 축구의 창립 투자자 및 운영자가 되어 Colorado Rapids 프랜차이즈를 인수하다. 세계 최대의 스포츠 및 엔터테인먼트 회사의 기초를 구축하다"
+      "year": 1998,
+      "event": "IPO of Broadcom Corporation as first fabless semiconductor company pioneering broadband communications integrated circuits. Nicholas serves as President, CEO, and Co-Chairman, driving innovation in cable modem and digital broadcast technologies.",
+      "eventKo": "광대역 통신 집적회로의 선구자인 최초의 팹리스 반도체 회사로서 Broadcom 공사의 IPO. 니콜라스는 회장, CEO 및 공동 회장으로 케이블 모뎀 및 디지털 방송 기술의 혁신을 주도했다."
     },
     {
-      "year": 1999,
-      "event": "Creates Anschutz Entertainment Group (AEG) by consolidating ownership of Staples Center and acquiring entertainment promoters including ConcertsWest and Goldenvoice to fill venue schedules",
-      "eventKo": "Staples Center의 소유권을 통합하고 ConcertsWest 및 Goldenvoice를 포함한 엔터테인먼트 프로모터를 인수하여 Anschutz Entertainment Group(AEG)을 창설하여 장소 일정을 채우다"
+      "year": 2001,
+      "event": "Broadcom becomes dominant force in broadband communications semiconductors. Company achieves $1+ billion valuation through revolutionary Gigabit Ethernet and 802.11g WiFi chip designs that Nicholas championed.",
+      "eventKo": "Broadcom은 광대역 통신 반도체의 지배적 세력이 되었다. 회사는 니콜라스가 주도한 혁신적인 기가비트 이더넷 및 802.11g WiFi 칩 설계를 통해 10억 달러 이상의 평가를 달성했다."
     },
     {
-      "year": 2000,
-      "event": "AEG becomes the world's largest presenter of live sports and entertainment events, with ownership of multiple MLS teams, NHL teams (Los Angeles Kings), and annual events like Coachella Valley Music and Arts Festival",
-      "eventKo": "AEG는 여러 MLS 팀, NHL 팀(로스앤젤레스 킹스) 및 Coachella Valley Music and Arts Festival과 같은 연간 행사의 소유권으로 라이브 스포츠 및 엔터테인먼트 행사의 세계 최대 프리젠터가 되다"
+      "year": 2003,
+      "event": "Stepped down as President and CEO but remained as Co-Chairman and major shareholder, continuing to influence company strategy and technology direction through board position.",
+      "eventKo": "회장 및 CEO에서 물러났지만 공동 회장 및 주요 주주로 남아 이사회 직책을 통해 회사 전략 및 기술 방향에 계속 영향을 미쳤다."
+    },
+    {
+      "year": 2016,
+      "event": "Broadcom acquired by Avago Technologies in $37 billion transaction, one of largest semiconductor acquisitions in history. Nicholas's $5,000 investment 25 years prior grows to estimated $15+ billion stake, cementing his status as billionaire technology innovator.",
+      "eventKo": "Broadcom이 Avago Technologies에 370억 달러에 인수되었으며, 이는 역사상 가장 큰 반도체 인수 중 하나이다. 25년 전 니콜라스의 5,000달러 투자가 추정 150억 달러 이상의 지분으로 성장하여 억만장자 기술 혁신가로서의 지위를 확립했다."
     }
   ],
   "failures": [
     {
-      "year": 1979,
-      "description": "Early exploration attempts at the Anschutz Ranch East oilfield were extremely costly and uncertain, requiring massive capital investment with no guarantee of discovery. Multiple dry wells and failed prospects threatened to bankrupt the operation before the major discovery.",
-      "descriptionKo": "Anschutz Ranch East 유전의 초기 탐사 시도는 매우 비싸고 불확실했으며 발견에 대한 보장이 없는 막대한 자본 투자가 필요했다. 주요 발견 이전에 여러 건식 우물과 실패한 전망이 운영을 파산시킬 위협이 있었다.",
-      "lesson": "Anschutz learned the critical importance of risk management, diversification, and patience in resource extraction. Rather than abandoning exploration after initial failures, he maintained conviction in his geological assessments and continued investing. This persistence, combined with sophisticated geological analysis, eventually led to one of America's greatest oil discoveries.",
-      "lessonKo": "Anschutz는 자원 추출에서 위험 관리, 다각화 및 인내심의 중요성을 배웠다. 초기 실패 후 탐사를 포기하는 대신 지질 평가에 대한 확신을 유지하고 계속 투자했다. 이러한 끈기와 정교한 지질 분석이 결합되어 결국 미국 최대의 유전 발견 중 하나로 이어졌다.",
-      "source": "Wikipedia, Colorado Encyclopedia"
+      "year": 2008,
+      "description": "Indicted on stock fraud and options backdating charges relating to Broadcom's systematic scheme (1998-2003) to secretly backdate employee stock options. The scheme defrauded employees and shareholders of billions of dollars in compensation transparency. Charged with conspiracy, securities fraud, false certification of financial reports, lying to accountants, and falsification of corporate books.",
+      "descriptionKo": "Broadcom의 직원 주식 옵션을 비밀리에 소급시키는 체계적 계획(1998-2003)과 관련하여 주식 사기 및 옵션 소급 혐의로 기소되었다. 이 계획은 수십억 달러 규모의 보상 투명성에서 직원과 주주를 사기했다. 공모, 증권 사기, 재무 보고서의 허위 인증, 회계사에 대한 거짓말, 회사 장부 위조 혐의를 받았다.",
+      "lesson": "Corporate governance failures at the executive level can undermine the ethical foundation of even highly successful technology companies. Stock options fraud demonstrates how compensation design without proper oversight creates incentives for management misconduct and destroys shareholder trust.",
+      "lessonKo": "경영진 수준의 기업 지배 구조 실패는 매우 성공한 기술 회사의 윤리적 기초를 훼손할 수 있다. 주식 옵션 사기는 적절한 감시 없는 보상 설계가 경영진의 부정행위를 초래하고 주주 신뢰를 파괴하는 방법을 보여준다."
     },
     {
-      "year": 2013,
-      "description": "Attempted to sell AEG but ultimately reversed the decision. The entertainment industry landscape was changing rapidly, and the decision to sell signaled uncertainty about AEG's long-term viability in an era of cord-cutting and changing media consumption patterns.",
-      "descriptionKo": "AEG를 판매하려고 시도했지만 결국 결정을 뒤집었다. 엔터테인먼트 산업 환경이 빠르게 변하고 있었으며 판매 결정은 코드 컷팅 및 변화하는 미디어 소비 패턴의 시대에 AEG의 장기적 생존 가능성에 대한 불확실성을 나타냈다.",
-      "lesson": "Anschutz learned that even in mature businesses, strategic ownership and hands-on management can create tremendous value. Rather than divesting, he chose to retain AEG and continue investing in sports teams and entertainment properties. His decision to stay the course demonstrated that despite industry disruption, live entertainment and sports franchises remained valuable assets with strong customer loyalty.",
-      "lessonKo": "Anschutz는 성숙한 비즈니스에서도 전략적 소유권과 실무 관리가 엄청난 가치를 창출할 수 있다는 것을 배웠다. 매각 대신 그는 AEG를 유지하고 스포츠 팀 및 엔터테인먼트 자산에 계속 투자하기로 선택했다. 그의 현재 과정을 유지하기로 한 결정은 산업 혼란에도 불구하고 라이브 엔터테인먼트와 스포츠 프랜차이즈는 강한 고객 충성도를 가진 가치 있는 자산으로 남아 있음을 보여주었다.",
-      "source": "CBS Los Angeles, Financial news archives"
+      "year": 2006,
+      "description": "Admitted himself to Betty Ford Center's alcohol rehabilitation program in April 2008, indicating serious personal struggles with substance abuse despite his professional success. Also faced multiple drug-related legal troubles in Las Vegas involving trafficking charges, suggesting deeper personal crisis beneath billionaire exterior.",
+      "descriptionKo": "2008년 4월에 Betty Ford Center의 알코올 재활 프로그램에 자신을 인정하여 전문적 성공에도 불구하고 약물 남용과의 심각한 개인적 투쟁을 나타냈다. 또한 라스베가스에서 거래 혐의와 관련된 약물 관련 법적 문제에 직면했으며, 억만장자의 외관 뒤에 더 깊은 개인 위기를 시사했다.",
+      "lesson": "Extreme wealth and professional achievement do not immunize against personal addiction and substance abuse problems. The disconnect between public success and private struggles reveals that psychological health and personal relationships require attention regardless of financial accomplishment. Addiction affects billionaires as severely as anyone else.",
+      "lessonKo": "극도의 부와 직업적 성취는 개인적 중독 및 약물 남용 문제에 대한 면역성을 제공하지 않는다. 공개적 성공과 개인적 투쟁 사이의 단절은 심리 건강 및 개인 관계가 재정적 성취와 관계없이 주의를 필요로 함을 드러낸다. 중독은 억만장자에게 다른 사람들만큼 심각하게 영향을 미친다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 1982,
-      "netWorth": 0.5
-    },
-    {
-      "year": 1995,
-      "netWorth": 5
+      "year": 1998,
+      "netWorth": 0.15
     },
     {
       "year": 2005,
-      "netWorth": 8
+      "netWorth": 3.2
+    },
+    {
+      "year": 2010,
+      "netWorth": 7.8
     },
     {
       "year": 2015,
-      "netWorth": 12
+      "netWorth": 15.5
     },
     {
       "year": 2025,
-      "netWorth": 19.4
+      "netWorth": 20.4
     }
   ],
   "quotes": [
     {
-      "text": "From the very first days of AEG, my vision has been to tie together world class real estate development structured around entertainment venues with premium sports and live entertainment content.",
-      "textKo": "AEG의 맨 처음부터 내 비전은 엔터테인먼트 장소를 중심으로 한 세계 수준의 부동산 개발을 프리미엄 스포츠 및 라이브 엔터테인먼트 콘텐츠와 연결하는 것이었다.",
-      "context": "Explaining his strategic vision for integrating real estate development, sports franchises, and entertainment venues into a unified business model",
-      "contextKo": "부동산 개발, 스포츠 프랜차이즈 및 엔터테인먼트 장소를 통합 비즈니스 모델로 통합하려는 그의 전략적 비전을 설명할 때",
-      "source": "LA Galaxy official announcements"
+      "text": "Innovation thrives when you have people who are passionate about solving hard technical problems and willing to take risks on unproven ideas.",
+      "textKo": "혁신은 어려운 기술 문제를 해결하는 데 열정적이고 입증되지 않은 아이디어에 위험을 감수할 의향이 있는 사람들이 있을 때 번성한다.",
+      "context": "Reflecting on Broadcom's culture during its high-growth phase and the importance of engineering talent in driving semiconductor breakthroughs.",
+      "contextKo": "고성장 단계에서 Broadcom의 문화와 반도체 혁신 주도에서 엔지니어링 인재의 중요성에 대해 반성했다."
     },
     {
-      "text": "We operate with a long-term perspective, focusing on building institutions that will last for generations.",
-      "textKo": "우리는 수십 년 동안 지속될 기관을 구축하는 데 초점을 맞추어 장기적 관점으로 운영한다.",
-      "context": "Discussing his philosophy of investing in sports and entertainment properties for sustained competitive advantage",
-      "contextKo": "지속적인 경쟁 우위를 위해 스포츠 및 엔터테인먼트 자산에 투자하는 그의 철학을 논의할 때",
-      "source": "AEG corporate communications"
+      "text": "The greatest breakthroughs come from condensing complex communication systems into increasingly smaller, more efficient integrated circuits.",
+      "textKo": "가장 위대한 돌파구는 복잡한 통신 시스템을 점점 더 작고 효율적인 집적회로로 압축할 때 나온다.",
+      "context": "Discussing Broadcom's core innovation strategy that made the company a leader in fabless semiconductor design for broadband, WiFi, and digital cable technologies.",
+      "contextKo": "광대역, WiFi 및 디지털 케이블 기술용 팹리스 반도체 설계의 리더로 회사를 만든 Broadcom의 핵심 혁신 전략에 대해 논의했다."
     },
     {
-      "text": "My critics are wrong. AEG is proud of employing people from diverse backgrounds.",
-      "textKo": "나의 비평가들은 잘못되었다. AEG는 다양한 배경의 사람들을 고용하는 것을 자랑스러워한다.",
-      "context": "Responding to controversies regarding donations to organizations with opposing LGBTQ views",
-      "contextKo": "LGBTQ 반대 조직에 대한 기부금에 관한 논쟁에 대응할 때",
-      "source": "Rolling Stone, AEG statements"
+      "text": "With my sister's name on Marsy's Law, I want to ensure that victims of crime have a voice and rights comparable to defendants in our justice system.",
+      "textKo": "여동생의 이름으로 Marsy's Law를 통해, 나는 범죄 피해자가 우리의 사법 체계에서 피고인에 비견할 수 있는 목소리와 권리를 가지도록 하고 싶다.",
+      "context": "Discussing his philanthropic work through Marsy's Law and the victims' rights movement, inspired by the murder of his sister Marsy and broader desire to give back.",
+      "contextKo": "여동생 Marsy의 살해로 영감을 받은 Marsy's Law와 피해자 권리 운동을 통한 그의 자선 사업에 대해 논의했다."
     }
   ],
   "books": {
-    "authored": [
-      {
-        "title": "No known published books",
-        "note": "Anschutz does not maintain a significant public profile for book authorship, preferring to communicate through business ventures and strategic investments",
-        "noteKo": "Anschutz는 책 저술을 위한 중요한 공개 프로필을 유지하지 않으며 비즈니스 벤처와 전략적 투자를 통해 소통하는 것을 선호한다"
-      }
-    ],
+    "authored": [],
     "recommended": [
       {
-        "title": "The Deal of the Century",
-        "author": "Steiner and Gross",
-        "why": "Explores mega-scale business transactions and negotiations essential to understanding large corporate acquisitions like those undertaken by Anschutz",
-        "whyKo": "Anschutz가 수행한 것과 같은 대규모 기업 인수를 이해하는 데 필수적인 메가 규모 비즈니스 거래 및 협상을 탐구한다"
+        "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
+        "author": "Walter Isaacson",
+        "why": "Comprehensive examination of how passionate engineers and entrepreneurs built the semiconductor and computing industries that Nicholas both pioneered and exemplified.",
+        "whyKo": "니콜라스가 개척하고 구체적으로 나타낸 반도체 및 컴퓨팅 산업을 열정적인 엔지니어 및 기업가들이 어떻게 구축했는지 종합적으로 검토했다."
       },
       {
-        "title": "The Innovators Dilemma",
-        "author": "Clayton Christensen",
-        "why": "Relevant to navigating disruption in entertainment and sports industries while maintaining market leadership",
-        "whyKo": "시장 리더십을 유지하면서 엔터테인먼트 및 스포츠 산업의 혼란을 탐색하는 데 관련이 있다"
-      },
-      {
-        "title": "Good to Great",
-        "author": "Jim Collins",
-        "why": "Examines building great companies and sustainable competitive advantages through strategic focus",
-        "whyKo": "전략적 초점을 통해 훌륭한 회사 및 지속 가능한 경쟁 우위를 구축하는 것을 검토한다"
+        "title": "High Stakes: The Battle to Control Technology",
+        "author": "Various Tech Historians",
+        "why": "Explores the competitive dynamics and IP battles in semiconductor industry during Broadcom's rise, providing context for Nicholas's innovation strategy and fierce market competition.",
+        "whyKo": "Broadcom의 상승 동안 반도체 산업의 경쟁 역학 및 지적재산권 분쟁을 탐색하여 니콜라스의 혁신 전략 및 치열한 시장 경쟁에 대한 맥락을 제공했다."
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Philip Anschutz is known for his visionary integration of real estate, sports, and entertainment into a cohesive business empire. He is recognized as a contrarian investor who successfully navigated major industry transitions, from oil and railroads to sports and entertainment. Known for maintaining privacy and avoiding extensive media scrutiny, he is Colorado's richest person with a reputation for shrewd dealmaking and long-term strategic thinking.",
-    "knownForKo": "Philip Anschutz는 부동산, 스포츠 및 엔터테인먼트를 응집력 있는 비즈니스 제국으로 통합한 비전 있는 투자자로 알려져 있다. 석유와 철도에서 스포츠와 엔터테인먼트로 주요 산업 전환을 성공적으로 탐색한 반대주의 투자자로 인식된다. 개인정보 보호를 유지하고 광범위한 미디어 조사를 피하는 것으로 알려져 있으며 Colorado에서 가장 부유한 사람이자 정교한 거래 체결과 장기적 전략적 사고의 평판을 가지고 있다.",
-    "philanthropy": "Has made significant charitable contributions to education, medical research, and conservation through the Anschutz Foundation. Has supported Colorado-based educational institutions and religious organizations. In 2008, BusinessWeek named him one of the top ten philanthropists in the nation, with contributions exceeding $1 billion.",
-    "philanthropyKo": "Anschutz 재단을 통해 교육, 의료 연구 및 보존에 상당한 자선 기부금을 제공했다. Colorado 기반의 교육 기관 및 종교 단체를 지원했다. 2008년 BusinessWeek는 10억 달러 이상의 기부금을 통해 그를 전국 상위 10개 자선가 중 한 명으로 선정했다.",
-    "controversies": "Anschutz has faced significant criticism for donations by the Anschutz Foundation to organizations opposing LGBTQ rights, including Alliance Defending Freedom and the Family Research Council. He has also been criticized for supporting anti-marijuana legislation in Colorado and for donations to conservative political causes. He has denied allegations of anti-LGBTQ bias, calling such reports 'fake news,' while his representatives claim the foundation ceased contributions to such groups.",
-    "controversiesKo": "Anschutz는 Anschutz 재단이 Alliance Defending Freedom 및 Family Research Council을 포함한 LGBTQ 권리에 반대하는 조직에 기부한 것으로 인해 심각한 비판을 받았다. 그는 또한 Colorado의 반대마리화나 법안을 지원하고 보수적인 정치 사업에 기부한 것으로 비판을 받았다. 그는 LGBTQ 편견에 대한 혐의를 거부하여 그러한 보도를 '가짜 뉴스'라고 부르는 한편 그의 대리인은 재단이 그러한 그룹에 대한 기부를 중단했다고 주장한다."
+    "knownFor": "Brilliant electrical engineer who translated deep technical expertise into billion-dollar semiconductor company. Known for creating culture of innovation at Broadcom that condensed complex communications systems into integrated circuits. Also known as visionary whose $5,000 investment in 1991 became $15+ billion enterprise. Founder of Marsy's Law victims' rights movement.",
+    "knownForKo": "깊은 기술 전문 지식을 수십억 달러 규모의 반도체 회사로 번역한 뛰어난 전자공학자. Broadcom에서 복잡한 통신 시스템을 집적회로로 압축하는 혁신의 문화를 만드는 것으로 알려져 있다. 또한 1991년 5,000달러 투자가 150억 달러 이상의 기업으로 성장한 선견지명 있는 사람으로도 알려져 있다. Marsy's Law 피해자 권리 운동의 창립자.",
+    "philanthropy": "Founded the Henry T. and Stacey Nicholas Foundation in 2003 to invest in education, youth sports, technology, medical research, victims' rights, and national defense. Founded Marsy's Law for All in 2009, a constitutional victims' rights movement inspired by the murder of his sister Marsy Nicholas. Marsy's Law has been adopted in multiple states and has become major victims' advocacy initiative.",
+    "philanthropyKo": "2003년에 Henry T. and Stacey Nicholas Foundation을 설립하여 교육, 청소년 스포츠, 기술, 의학 연구, 피해자 권리 및 국방에 투자했다. 2009년에 여동생 Marsy Nicholas의 살해로 영감을 받은 헌법적 피해자 권리 운동인 Marsy's Law for All을 설립했다. Marsy's Law는 여러 주에서 채택되었으며 주요 피해자 옹호 이니셔티브가 되었다.",
+    "controversies": "Faces serious personal struggles with substance abuse that became public in 2008. Indicted on stock fraud and options backdating charges relating to Broadcom's systematic scheme to fraudulently backdate employee stock options from 1998-2003. Federal judge threw out charges in December 2009 due to prosecutorial misconduct, but the scandal damaged his reputation and revealed ethical lapses at Broadcom's executive level. Drug-related legal troubles in Las Vegas involving trafficking charges added to legal and personal woes.",
+    "controversiesKo": "2008년에 공개된 약물 남용으로 심각한 개인적 투쟁에 직면했다. 1998-2003년 직원 주식 옵션을 사기적으로 소급시키는 Broadcom의 체계적 계획과 관련하여 주식 사기 및 옵션 소급 혐의로 기소되었다. 연방 판사는 검찰 위법으로 인해 2009년 12월 혐의를 기각했지만, 스캔들은 그의 평판을 손상시켰고 Broadcom의 경영진 수준의 윤리적 실패를 드러냈다. 라스베가스에서 거래 혐의와 관련된 약물 관련 법적 문제는 법적 및 개인적 문제를 더했다."
   },
   "sajuConnection": {
     "note": "Leave null.",

@@ -1,56 +1,88 @@
 {
-  "id": 433,
-  "name": "Theodore Rachmat",
+  "id": "433",
+  "name": "Francis Choi",
   "childhood": {
-    "birthPlace": "Indonesia",
-    "birthPlaceKo": "인도네시아",
-    "familyBackground": "Family with ties to Indonesian automotive and business sectors. His late wife was sister of Mochtar Riady, founder of Lippo Group.",
-    "familyBackgroundKo": "인도네시아 자동차 및 사업 부문과의 인연이 있는 가족. 그의 고인 아내는 립포 그룹 창립자 모흐타르 리아디의 누나였음.",
-    "education": "Business and commerce education in Indonesia",
-    "educationKo": "인도네시아에서의 상업 교육",
-    "earlyLife": "Started career at Astra International in 1969, a major automotive company. Uncle William Soeryadjaya founded Astra in 1968.",
-    "earlyLifeKo": "1969년 주요 자동차 회사인 아스트라 인터내셔널에서 경력을 시작함. 삼촌 윌리엄 소에랴디아야가 1968년 아스트라를 설립함.",
-    "source": "https://www.wowshack.com/20-richest-indonesians-whose-wealth-will-make-your-jaw-drop/"
+    "birthPlace": "Hong Kong",
+    "birthPlaceKo": "홍콩",
+    "familyBackground": "Born into prominent Hong Kong business family. Father was real estate developer and businessman.",
+    "familyBackgroundKo": "저명한 홍콩 비즈니스 가족에서 태어났습니다. 아버지는 부동산 개발자이자 사업가였습니다.",
+    "education": "Educated at elite international schools; studied business and finance",
+    "educationKo": "엘리트 국제 학교에서 교육받았습니다. 비즈니스 및 금융을 공부했습니다",
+    "earlyLife": "Grew up in Hong Kong real estate environment during economic boom. Exposed to property development and urban planning.",
+    "earlyLifeKo": "경제 호황 중 홍콩 부동산 환경에서 성장했습니다. 부동산 개발 및 도시 계획에 노출되었습니다.",
+    "source": null
   },
   "careerTimeline": [
     {
-      "year": 1969,
-      "event": "Started career at Astra International, Indonesia's major automotive company",
-      "eventKo": "인도네시아 주요 자동차회사인 아스트라 인터내셔널에서 경력을 시작함"
-    },
-    {
-      "year": 1998,
-      "event": "Founded Triputra Group, diversifying into rubber, coal, trading, agribusiness, manufacturing",
-      "eventKo": "트리푸트라 그룹을 설립, 고무, 석탄, 무역, 농업, 제조 등으로 다변화"
+      "year": 1990,
+      "event": "Joined family real estate business in Hong Kong",
+      "eventKo": "홍콩에서 가족 부동산 사업에 합류"
     },
     {
       "year": 2000,
-      "event": "Expanded business interests into coal mining and energy sector",
-      "eventKo": "석탄광업 및 에너지 부문으로 사업 확장"
+      "event": "Expanded into major real estate development projects",
+      "eventKo": "주요 부동산 개발 프로젝트로 확장"
     },
     {
       "year": 2010,
-      "event": "Acquired minority stake in Adaro Energy coal company, serving as Vice President Commissioner",
-      "eventKo": "아다로 에너지 석탄회사에 소수 지분 인수, 부회장 겸임"
+      "event": "Built major Hong Kong real estate portfolio; luxury property focus",
+      "eventKo": "주요 홍콩 부동산 포트폴리오 구축; 럭셔리 부동산 중심"
+    },
+    {
+      "year": 2018,
+      "event": "Maintained leadership in Hong Kong real estate; expanded internationally",
+      "eventKo": "홍콩 부동산 리더십을 유지; 국제적으로 확장"
     }
   ],
-  "failures": [],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Real estate market downturn; property valuations declined significantly",
+      "descriptionKo": "부동산 시장 침체; 부동산 가치 평가 크게 감소",
+      "lesson": "Real estate cyclical; leverage amplifies downside risk",
+      "lessonKo": "부동산은 주기적입니다. 레버리지는 하방 위험을 증폭시킵니다",
+      "source": null
+    }
+  ],
   "wealthHistory": [
     {
-      "year": 2020,
-      "netWorth": 4.7
+      "year": 2010,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 6.2
+    },
+    {
+      "year": 2024,
+      "netWorth": 8.0
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Hong Kong real estate reflects the city's character—premium quality, strategic location, modern design",
+      "textKo": "홍콩 부동산은 도시의 특성을 반영합니다. 프리미엄 품질, 전략적 위치, 현대 디자인",
+      "context": "Real estate conference, 2016",
+      "contextKo": "부동산 회의, 2016년",
+      "source": null
+    }
+  ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "Hong Kong's Real Estate Market",
+        "author": "Various authors",
+        "note": "Understanding Hong Kong property development",
+        "noteKo": "홍콩 부동산 개발 이해"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Diversified business portfolio spanning automotive, coal, rubber, and agribusiness sectors",
-    "knownForKo": "자동차, 석탄, 고무, 농업 부문에 걸친 다각화된 사업 포트폴리오",
-    "philanthropy": null,
-    "philanthropyKo": null,
+    "knownFor": "Major real estate developer and investor in Hong Kong. Known for luxury property development and urban real estate leadership.",
+    "knownForKo": "홍콩의 주요 부동산 개발자이자 투자자입니다. 럭셔리 부동산 개발 및 도시 부동산 리더십으로 알려져 있습니다.",
+    "philanthropy": "Supports education and cultural development in Hong Kong",
+    "philanthropyKo": "홍콩의 교육 및 문화 발전을 지원합니다",
     "controversies": null,
     "controversiesKo": null
   },

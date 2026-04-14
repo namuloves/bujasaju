@@ -1,80 +1,145 @@
 {
   "id": "690",
-  "name": "Alejandro Bulgheroni",
-  "nameKo": "알레한드로 불게로니",
-  "childhood": "Alejandro Pedro Bulgheroni was born on October 24, 1943, in Rufino, Santa Fe Province, Argentina, to a Spanish mother and an Italian father of the same name who had founded the Bridas Corporation in 1948. Growing up with a father who was building one of Argentina's first private oil companies, Alejandro was immersed from childhood in the world of energy and enterprise. He went on to study industrial engineering at the University of Buenos Aires, preparing himself to one day take the reins of the family business.",
-  "childhoodKo": "알레한드로 페드로 불게로니는 1943년 10월 24일 아르헨티나 산타페주 루피노에서 태어났다. 어머니는 스페인계, 아버지는 이탈리아계로 동명의 아버지는 1948년 브리다스 코퍼레이션을 설립한 인물이다. 아르헨티나 최초의 민간 석유 기업 중 하나를 일구고 있던 아버지 곁에서 성장한 그는 어린 시절부터 에너지와 기업 경영의 세계에 자연스럽게 녹아들었다. 이후 부에노스아이레스 대학교에서 산업공학을 전공하며 가업을 이을 준비를 착실히 다졌다.",
+  "name": "Chip Wilson",
+  "childhood": {
+    "birthPlace": "San Diego, USA",
+    "birthPlaceKo": "미국 샌디에이고",
+    "familyBackground": "1955년 4월 25일 캘리포니아주 샌디에이고에서 태어났다. 아버지는 체육 교사였고 어머니는 재봉사였다. 다섯 살 때 가족이 캐나다 앨버타주 캘거리로 이주하여 캐나다에서 성장했다.",
+    "familyBackgroundKo": "1955년 4월 25일 캘리포니아주 샌디에이고에서 태어났다. 아버지는 체육 교사였고 어머니는 재봉사였다. 다섯 살 때 가족이 캐나다 앨버타주 캘거리로 이주하여 캐나다에서 성장했다.",
+    "education": "1973년 에드먼턴으로 이주해 대학에 입학했다. 1975년 알래스카 송유관 건설 현장에서 일하며 독서에 매진했다. 1980년 캘거리대학교에서 경제학 학사 학위를 취득했다.",
+    "educationKo": "1973년 에드먼턴으로 이주해 대학에 입학했다. 1975년 알래스카 송유관 건설 현장에서 일하며 독서에 매진했다. 1980년 캘거리대학교에서 경제학 학사 학위를 취득했다.",
+    "earlyLife": "청소년 시절부터 스포츠와 아웃도어 문화에 깊이 매료되었으며, 어머니로부터 재봉과 의류에 대한 감각을 자연스럽게 익혔다.",
+    "earlyLifeKo": "청소년 시절부터 스포츠와 아웃도어 문화에 깊이 매료되었으며, 어머니로부터 재봉과 의류에 대한 감각을 자연스럽게 익혔다."
+  },
   "careerTimeline": [
     {
-      "year": 1965,
-      "event": "Joined his father's company Bridas Corporation at age 22, beginning his apprenticeship in the Argentine oil and gas business.",
-      "eventKo": "22세에 아버지의 회사 브리다스 코퍼레이션에 합류하며 아르헨티나 석유·가스 사업에 본격 발을 들였다."
+      "year": 1979,
+      "event": "Founded Westbeach Snowboard Ltd., an apparel company targeting surf, skate, and snowboard enthusiasts.",
+      "eventKo": "서핑·스케이트·스노보드 시장을 겨냥한 의류 회사 웨스트비치(Westbeach Snowboard Ltd.)를 창업했다."
     },
     {
-      "year": 1985,
-      "event": "Following the death of his father Alejandro Sr., assumed control of Bridas Corporation alongside his younger brother Carlos, transforming the company into one of Argentina's largest private oil firms.",
-      "eventKo": "아버지 알레한드로 시니어가 타계하자 남동생 카를로스와 함께 브리다스 코퍼레이션을 경영하며 아르헨티나 최대 민간 석유 기업 중 하나로 키워냈다."
-    },
-    {
-      "year": 1992,
-      "event": "Secured some of the first gas exploration concessions ever granted to a foreign company in Turkmenistan, establishing Bridas as a pioneering international operator in Central Asia.",
-      "eventKo": "투르크메니스탄에서 외국 기업 최초로 가스 탐사 광권 일부를 획득하며 브리다스를 중앙아시아 최초 진출 국제 에너지 기업으로 자리매김시켰다."
+      "year": 1980,
+      "event": "Graduated from the University of Calgary with a Bachelor's degree in Economics.",
+      "eventKo": "캘거리대학교에서 경제학 학사 학위를 취득했다."
     },
     {
       "year": 1997,
-      "event": "Entered negotiations with the Taliban government of Afghanistan to build the Trans-Afghanistan Gas Pipeline from Turkmenistan to Pakistan, a landmark but ultimately ill-fated attempt to develop regional energy infrastructure.",
-      "eventKo": "아프가니스탄 탈레반 정권과 투르크메니스탄-파키스탄 횡단 가스관 건설을 위한 협상을 진행했다. 지역 에너지 인프라를 개발하려는 역사적인 시도였지만 결국 무산됐다."
+      "event": "Sold Westbeach Snowboard Ltd. after 18 years, generating capital for his next venture.",
+      "eventKo": "18년간 운영한 웨스트비치를 매각하여 다음 사업을 위한 자본을 마련했다."
     },
     {
-      "year": 2010,
-      "event": "Sold a 50 percent stake in Bridas Corporation to Chinese state-run CNOOC Group in a landmark deal, valuing Bridas at approximately $3.1 billion.",
-      "eventKo": "브리다스 코퍼레이션 지분 50%를 중국 국영 CNOOC 그룹에 매각하는 역사적 거래를 성사시켰다. 이 거래에서 브리다스의 기업 가치는 약 31억 달러로 평가됐다."
+      "year": 1998,
+      "event": "Founded Lululemon Athletica in Vancouver, Canada, focusing on high-quality yoga and athletic apparel.",
+      "eventKo": "캐나다 밴쿠버에서 루루레몬 애슬레티카(Lululemon Athletica)를 창업하여 고품질 요가·운동복 시장에 진출했다."
     },
     {
-      "year": 2012,
-      "event": "Through Bridas, acquired Axion Energy Argentina along with ExxonMobil's crude-oil refineries and fuel and lubricants trading assets in Argentina, Uruguay, and Paraguay, creating a major regional downstream operation.",
-      "eventKo": "브리다스를 통해 엑슨모빌의 아르헨티나·우루과이·파라과이 원유 정유 시설과 연료·윤활유 유통 자산을 인수하며 악시온 에너지를 설립, 역내 주요 하류 사업자로 부상했다."
+      "year": 2000,
+      "event": "Opened Lululemon's first standalone store in Vancouver's Kitsilano neighborhood, pioneering the 'community hub' retail model.",
+      "eventKo": "밴쿠버 키칠라노 지역에 루루레몬 첫 단독 매장을 열고, '커뮤니티 허브' 소매 모델을 선도했다."
+    },
+    {
+      "year": 2005,
+      "event": "Stepped down as CEO and sold a 48% stake to private equity firms Advent International and Highland Capital Partners.",
+      "eventKo": "CEO직에서 물러나며 어드벤트 인터내셔널과 하이랜드 캐피탈 파트너스에 회사 지분 48%를 매각했다."
+    },
+    {
+      "year": 2007,
+      "event": "Lululemon went public on US and Canadian stock exchanges (IPO), marking a major milestone in the brand's growth.",
+      "eventKo": "루루레몬이 미국·캐나다 증권거래소에 상장(IPO)하며 브랜드 성장의 중요한 이정표를 세웠다."
     },
     {
       "year": 2013,
-      "event": "Established Bodega Garzón winery in Uruguay, beginning a global wine venture that would eventually span 13 wineries on four continents and nearly 4,500 acres of vineyards.",
-      "eventKo": "우루과이에 보데가 가르손 와이너리를 설립했다. 이 도전은 결국 4개 대륙 13개 와이너리, 약 1,800헥타르 포도밭을 아우르는 글로벌 와인 제국으로 성장했다."
-    },
-    {
-      "year": 2016,
-      "event": "Younger brother and business partner Carlos Bulgheroni died of cancer at age 71, forcing Alejandro to take full leadership of the family business empire.",
-      "eventKo": "오랜 사업 동반자였던 남동생 카를로스 불게로니가 71세를 일기로 암으로 세상을 떠났고, 알레한드로는 홀로 가문의 사업 제국을 이끌게 됐다."
+      "event": "Resigned as non-executive chairman amid controversy over public comments about customers' bodies.",
+      "eventKo": "고객 체형에 관한 논란적 발언으로 비상임 이사회 의장직을 사임했다."
     },
     {
       "year": 2018,
-      "event": "Bodega Garzón was named New World Winery of the Year by Wine Enthusiast magazine, cementing Bulgheroni's reputation as a serious force in the global wine industry.",
-      "eventKo": "보데가 가르손이 와인 엔수지아스트 지의 올해의 신세계 와이너리로 선정되며, 불게로니의 글로벌 와인 산업에서의 위상이 공식 인정받았다."
+      "event": "Partnered with Anta Sports, Tencent, and FountainVest to acquire a 20% stake in Amer Sports (Arc'teryx, Salomon, Wilson Sports).",
+      "eventKo": "안타 스포츠, 텐센트, 파운틴베스트와 손잡고 아메르 스포츠(아크테릭스·살로몬·윌슨 스포츠 모회사) 지분 20%를 인수했다."
+    },
+    {
+      "year": 2024,
+      "event": "Amer Sports went public on the New York Stock Exchange, further boosting Wilson's personal fortune.",
+      "eventKo": "아메르 스포츠가 뉴욕증권거래소에 상장하면서 윌슨의 개인 자산이 더욱 증가했다."
     }
   ],
   "failures": [
     {
-      "title": "Trans-Afghanistan Pipeline Deal Collapsed",
-      "description": "In the 1990s, Bridas invested heavily in negotiations and preparatory work to build the Trans-Afghanistan Gas Pipeline connecting Turkmenistan to Pakistan. Despite reaching an agreement with the Taliban in 1997, the project was derailed by ongoing Afghan instability. After the US invasion of Afghanistan in October 2001, the Bridas contract was rescinded in favor of a competing deal with Unocal, erasing years of diplomatic and financial investment in the project.",
-      "titleKo": "아프가니스탄 횡단 가스관 프로젝트 좌절",
-      "descriptionKo": "1990년대 브리다스는 투르크메니스탄과 파키스탄을 잇는 아프가니스탄 횡단 가스관 건설을 위한 협상과 준비 작업에 막대한 자원을 쏟아부었다. 1997년 탈레반과 합의를 도출했지만 아프가니스탄의 계속된 불안정으로 사업이 계속 지연됐다. 결국 2001년 10월 미국의 아프가니스탄 침공 이후 브리다스 계약은 유노칼에 유리한 조건으로 파기됐고, 수년간의 외교·금융 투자가 물거품이 됐다."
+      "year": 2013,
+      "description": "In a Bloomberg TV interview, Wilson responded to complaints about Lululemon's sheer yoga pants by suggesting 'some women's bodies just actually don't work for it,' causing widespread public outrage and a significant drop in the company's stock.",
+      "descriptionKo": "블룸버그TV 인터뷰에서 루루레몬 요가 바지의 비침 문제에 대해 '일부 여성의 몸은 그냥 맞지 않는다'는 발언을 해 대중의 거센 비판을 받았고 주가도 크게 하락했다.",
+      "lesson": "Even a visionary founder can destroy years of brand trust with a single careless statement; leadership requires both product genius and emotional intelligence.",
+      "lessonKo": "아무리 탁월한 창업자라도 무심코 내뱉은 한마디로 수년간 쌓은 브랜드 신뢰를 무너뜨릴 수 있다. 리더십에는 제품 감각만이 아니라 감성 지능도 필요하다."
     },
     {
-      "title": "Wealth Erosion After Asset Sales",
-      "description": "After the landmark 2010 sale of 50% of Bridas to CNOOC and continued asset disposals, Bulgheroni's Forbes-estimated net worth fell from a peak of around $4.6 billion (shared with brother Carlos in 2016) to $1.9 billion by 2022, reflecting both the impact of Carlos's death and market fluctuations in the Argentine energy sector.",
-      "titleKo": "자산 매각 이후 자산 가치 하락",
-      "descriptionKo": "2010년 브리다스 지분 50% CNOOC 매각과 이후 이어진 자산 처분으로, 불게로니의 포브스 추정 자산은 2016년 형제 합산 최고치 약 46억 달러에서 2022년 19억 달러로 줄었다. 남동생 카를로스의 사망과 아르헨티나 에너지 부문의 시장 변동이 복합적으로 작용한 결과였다."
+      "year": 2014,
+      "description": "After selling too large a stake in Lululemon early on and stepping back from leadership, Wilson watched as the company's market value soared to tens of billions of dollars—wealth that could have been his had he retained more ownership.",
+      "descriptionKo": "이른 시기에 루루레몬 지분을 너무 많이 팔고 경영에서 물러난 탓에, 이후 회사 시가총액이 수백억 달러로 치솟는 것을 지켜봐야 했다.",
+      "lesson": "Selling equity too early in a high-growth company can cost a founder far more than any short-term capital gain is worth.",
+      "lessonKo": "고성장 기업의 주식을 너무 일찍 팔면 단기 수익보다 훨씬 큰 기회비용이 발생한다."
     }
   ],
   "wealthHistory": [
-    { "year": 2010, "amount": 1.5 },
-    { "year": 2013, "amount": 2.5 },
-    { "year": 2016, "amount": 4.6 },
-    { "year": 2018, "amount": 3.2 },
-    { "year": 2020, "amount": 2.1 },
-    { "year": 2022, "amount": 1.9 },
-    { "year": 2025, "amount": 5.4 }
+    {
+      "year": 2007,
+      "netWorth": 0.5
+    },
+    {
+      "year": 2010,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2013,
+      "netWorth": 2.8
+    },
+    {
+      "year": 2016,
+      "netWorth": 2.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.1
+    },
+    {
+      "year": 2025,
+      "netWorth": 5.8
+    }
   ],
-  "quotes": [],
-  "books": [],
+  "quotes": [
+    {
+      "text": "Greatness is scary. It means being willing to fail and willing to succeed.",
+      "textKo": "위대함은 무섭다. 그것은 실패할 용기와 성공할 용기 모두를 갖는 것을 의미한다.",
+      "context": null,
+      "contextKo": null,
+      "source": "chipwilson.com"
+    },
+    {
+      "text": "I'm a person who believes that to be great you have to be different, and to be different you have to take risks.",
+      "textKo": "위대해지려면 달라야 하고, 달라지려면 위험을 감수해야 한다고 믿는다.",
+      "context": null,
+      "contextKo": null,
+      "source": "chipwilson.com"
+    }
+  ],
+  "books": {
+    "authored": [
+      {
+        "title": "The Story of lululemon",
+        "year": 2018,
+        "description": "Wilson's unauthorized personal account of how Lululemon was created and his vision for athletic apparel."
+      }
+    ],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Contrarian thinker who combined athletic culture with fashion retail; pioneered the premium yoga apparel category; known for blunt and sometimes controversial public statements.",
+    "knownForKo": "운동 문화와 패션 리테일을 결합한 역발상적 사고가로, 프리미엄 요가 의류 카테고리를 개척했다. 직설적이고 때로는 논란을 일으키는 발언으로도 유명하다.",
+    "philanthropy": "Donated CAD $100 million toward research into facioscapulohumeral muscular dystrophy (FSHD), a condition he was diagnosed with at age 32. Supports various sports and community initiatives through the Chip and Shannon Wilson Foundation.",
+    "philanthropyKo": "32세에 진단받은 안면견갑상완근이영양증(FSHD) 연구를 위해 캐나다 달러 1억 달러를 기부했다. 칩 앤 섀넌 윌슨 재단을 통해 스포츠·지역사회 활동도 지원하고 있다."
+  },
   "sajuConnection": null
 }

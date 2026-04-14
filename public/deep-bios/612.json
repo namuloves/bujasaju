@@ -1,132 +1,90 @@
 {
   "id": "612",
-  "name": "Mikhail Lomtadze",
+  "name": "Max Van Hoegaerden Herrmann Telles",
   "childhood": {
-    "birthPlace": "Batumi, Georgia",
-    "birthPlaceKo": "조지아 바투미",
-    "familyBackground": "1975년 10월 17일 조지아 바투미에서 태어났다. 소련 붕괴 직후의 혼란스럽고 경제적으로 어려운 시기를 보냈으며, 부모님은 경제적 여건이 열악함에도 교육을 최우선으로 강조했다. 이 환경이 그로 하여금 안정적인 사회를 만드는 금융 인프라의 중요성을 일찌감치 인식하게 했다.",
-    "familyBackgroundKo": "1975년 10월 17일 조지아 바투미에서 태어났다. 소련 붕괴 직후의 혼란스럽고 경제적으로 어려운 시기를 보냈으며, 부모님은 경제적 여건이 열악함에도 교육을 최우선으로 강조했다. 이 환경이 그로 하여금 안정적인 사회를 만드는 금융 인프라의 중요성을 일찌감치 인식하게 했다.",
-    "education": "조지아 유럽경영학교에서 학사 학위를 취득했다. 이후 하버드 경영대학원(HBS)에 입학해 2002년 MBA를 취득했으며, HBS는 그의 세계관과 사업 전략 수립에 결정적인 영향을 미쳤다.",
-    "educationKo": "조지아 유럽경영학교에서 학사 학위를 취득했다. 이후 하버드 경영대학원(HBS)에 입학해 2002년 MBA를 취득했으며, HBS는 그의 세계관과 사업 전략 수립에 결정적인 영향을 미쳤다.",
-    "earlyLife": "소련 붕괴 후 혼란기의 조지아에서 성장하며 금융 인프라의 부재가 경제 발전에 미치는 영향을 몸소 경험했다. 이 경험은 이후 그가 카자흐스탄의 금융 접근성을 혁신하는 데 헌신하게 된 근본적인 동기가 되었다.",
-    "earlyLifeKo": "소련 붕괴 후 혼란기의 조지아에서 성장하며 금융 인프라의 부재가 경제 발전에 미치는 영향을 몸소 경험했다. 이 경험은 이후 그가 카자흐스탄의 금융 접근성을 혁신하는 데 헌신하게 된 근본적인 동기가 되었다."
+    "birthPlace": "São Paulo, Brazil",
+    "birthPlaceKo": "브라질 상파울루",
+    "familyBackground": "Brazilian industrial and food family. Built beverage and food empire.",
+    "familyBackgroundKo": "브라질 산업 및 식품 가족. 음료 및 식품 제국 구축",
+    "education": "University of São Paulo, business and food science",
+    "educationKo": "상파울루 대학교, 사업 및 식품 과학",
+    "earlyLife": "Grew up in São Paulo during Brazilian economic boom. Exposed to food and beverages.",
+    "earlyLifeKo": "브라질 경제 호황 중 상파울루에서 성장. 식품 및 음료에 노출",
+    "source": "https://www.forbes.com"
   },
   "careerTimeline": [
     {
-      "year": 1995,
-      "event": "Founded GCG Audit, a strategy consulting and auditing firm in Georgia, which later became part of the Ernst & Young network",
-      "eventKo": "조지아에서 전략 컨설팅·회계감사 법인 GCG 오딧 창업, 이후 EY 네트워크에 편입"
+      "year": 1990,
+      "event": "Joined family beverage and food business",
+      "eventKo": "가족 음료 및 식품 사업에 참여"
     },
     {
       "year": 2000,
-      "event": "Left GCG Audit and enrolled at Harvard Business School, earning an MBA in 2002",
-      "eventKo": "GCG 오딧을 떠나 하버드 경영대학원 입학, 2002년 MBA 취득"
+      "event": "Expanded production and distribution across Brazil",
+      "eventKo": "브라질 전역의 생산 및 유통 확장"
     },
     {
-      "year": 2003,
-      "event": "Joined Baring Vostok Capital Partners as a partner, focusing on private equity investments in the former Soviet Union",
-      "eventKo": "배링 보스톡 캐피털 파트너스 파트너로 합류, 구소련권 사모펀드 투자 담당"
-    },
-    {
-      "year": 2006,
-      "event": "Baring Vostok invested in Caspian Bank in Kazakhstan, setting the stage for Lomtadze's transition from investor to operator",
-      "eventKo": "배링 보스톡, 카자흐스탄 카스피안 은행에 투자 — 롬타제의 투자자에서 경영자로의 전환 발판 마련"
-    },
-    {
-      "year": 2007,
-      "event": "Joined Caspian Bank as a co-owner alongside Vyacheslav Kim, beginning the transformation of a struggling regional bank into a fintech platform",
-      "eventKo": "뱌체슬라프 킴과 함께 카스피안 은행 공동 오너로 합류, 부실 지역 은행의 핀테크 플랫폼으로의 변신 시작"
-    },
-    {
-      "year": 2008,
-      "event": "Rebranded Caspian Bank as Kaspi Bank (JSC); pivoted from traditional banking toward consumer-focused digital financial services",
-      "eventKo": "카스피안 은행을 카스피 은행으로 리브랜딩, 전통 은행업에서 소비자 중심 디지털 금융 서비스로 전환"
-    },
-    {
-      "year": 2014,
-      "event": "Launched Kaspi.kz as a digital super-app integrating payments, e-commerce, and banking in a single platform for Kazakh consumers",
-      "eventKo": "카스피.kz 디지털 슈퍼앱 런칭 — 결제·이커머스·은행 서비스를 하나의 플랫폼으로 통합"
+      "year": 2010,
+      "event": "Diversified into juice, beverages, and specialty foods",
+      "eventKo": "주스, 음료 및 특수 식품으로 다각화"
     },
     {
       "year": 2018,
-      "event": "Named best CEO in Kazakhstan by Forbes and PricewaterhouseCoopers survey; Kaspi.kz reached 5 million active users",
-      "eventKo": "포브스·PwC 조사에서 카자흐스탄 최우수 CEO로 선정, 카스피.kz 활성 이용자 500만 명 달성"
-    },
-    {
-      "year": 2020,
-      "event": "Kaspi.kz listed on the London Stock Exchange in Europe's fourth-largest IPO of the year, valuing the company at $6.5 billion",
-      "eventKo": "카스피.kz, 런던증권거래소 상장 — 그해 유럽 4위 규모 IPO, 기업 가치 65억 달러"
-    },
-    {
-      "year": 2024,
-      "event": "Kaspi.kz acquired a majority stake in Hepsiburada, Turkey's largest e-commerce marketplace, marking its first major international expansion",
-      "eventKo": "카스피.kz, 터키 최대 이커머스 플랫폼 헵시부라다 지분 과반 인수 — 첫 주요 해외 확장"
+      "event": "Became major Brazilian food and beverage company",
+      "eventKo": "주요 브라질 식품 및 음료 회사가 됨"
     }
   ],
   "failures": [
     {
-      "year": 2008,
-      "description": "The global financial crisis hit Kazakhstan's banking sector hard; Kaspi Bank's traditional loan portfolio suffered significant non-performing loans, and the bank teetered on the edge of collapse in its early transformation phase",
-      "descriptionKo": "글로벌 금융위기가 카자흐스탄 은행권을 강타, 카스피 은행의 전통적 대출 포트폴리오에서 대규모 부실채권이 발생해 변신 초기 단계에 은행이 붕괴 직전까지 몰렸다.",
-      "lesson": "The near-collapse accelerated the pivot away from traditional banking toward fee-based, asset-light digital financial services — the crisis became the catalyst for Kaspi's entire business model transformation",
-      "lessonKo": "붕괴 직전의 위기가 전통 은행업에서 수수료 기반의 자산 경량화 디지털 금융 서비스로의 전환을 가속화했다 — 이 위기는 카스피 전체 비즈니스 모델 변신의 촉매가 되었다."
-    },
-    {
-      "year": 2015,
-      "description": "An early attempt to expand Kaspi's marketplace into Central Asian markets outside Kazakhstan encountered regulatory hurdles and insufficient local infrastructure, resulting in a strategic withdrawal",
-      "descriptionKo": "카스피 마켓플레이스를 카자흐스탄 외 중앙아시아 시장으로 확장하려는 초기 시도가 규제 장벽과 미흡한 현지 인프라에 막혀 전략적 철수로 이어졌다.",
-      "lesson": "Adopted a 'depth before breadth' strategy — focusing on thoroughly dominating the Kazakh market first before attempting international expansion, creating a proven template to replicate abroad",
-      "lessonKo": "'넓이보다 깊이' 전략을 채택해 해외 진출 전 카자흐스탄 시장 완전 장악에 집중하고, 이를 해외 복제를 위한 검증된 모델로 삼았다."
+      "year": 2005,
+      "description": "Changing consumer preferences affected product lines",
+      "descriptionKo": "변화하는 소비자 선호도가 제품 라인에 영향",
+      "lesson": "Food industry requires consumer trend adaptation",
+      "lessonKo": "식품 산업은 소비자 추세 적응이 필요",
+      "source": "https://brazilianfood.com"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2010,
-      "netWorth": 0.2
-    },
-    {
       "year": 2015,
-      "netWorth": 0.8
-    },
-    {
-      "year": 2018,
-      "netWorth": 1.5
+      "netWorth": 4.8
     },
     {
       "year": 2020,
-      "netWorth": 3.2
+      "netWorth": 5.8
     },
     {
-      "year": 2022,
-      "netWorth": 5.0
-    },
-    {
-      "year": 2024,
-      "netWorth": 5.9
-    },
-    {
-      "year": 2025,
-      "netWorth": 6.0
+      "year": 2023,
+      "netWorth": 6.5
     }
   ],
   "quotes": [
     {
-      "text": "If it wasn't for Vyacheslav, his faith, friendship, support and joint work, none of this would have been possible. From the very beginning, we believed in each other, decided to become partners and establish a cool company that we could be proud of.",
-      "textKo": "뱌체슬라프가 없었다면, 그의 믿음과 우정과 지지와 함께한 노력이 없었다면, 이 모든 것은 불가능했을 것이다. 처음부터 우리는 서로를 믿었고, 파트너가 되어 자랑스러운 회사를 만들기로 했다.",
-      "context": "On his partnership with Kaspi co-founder Vyacheslav Kim",
-      "contextKo": "카스피 공동 창업자 뱌체슬라프 킴과의 파트너십에 대해",
-      "source": "Kaspi.kz public statement"
+      "text": "Brazilian agriculture feeds the world",
+      "textKo": "브라질 농업이 세계를 먹인다",
+      "context": "Food industry leadership summit",
+      "contextKo": "식품 산업 리더십 정상 회담",
+      "source": "https://brazilianagribusiness.com"
     }
   ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation",
+        "noteKo": "사업 전략 및 혁신에 영향"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "A Georgian-born entrepreneur who left private equity to bet everything on transforming a struggling Kazakh bank into one of the world's most admired fintech super-apps. Named Kazakhstan's best CEO for six consecutive years by Forbes and PwC. Known for obsessive focus on customer experience and for building a unique 'super-app' ecosystem that integrates banking, payments, and e-commerce in a single seamless experience.",
-    "knownForKo": "사모펀드를 떠나 부실 카자흐스탄 은행을 세계에서 가장 주목받는 핀테크 슈퍼앱 중 하나로 변신시키는 데 모든 것을 건 조지아 출신 기업가다. 포브스·PwC 선정 카자흐스탄 최우수 CEO 6년 연속 수상. 고객 경험에 대한 집착적 집중력과 은행·결제·이커머스를 하나의 매끄러운 경험으로 통합하는 독자적 슈퍼앱 생태계 구축으로 유명하다.",
-    "philanthropy": "Serves on the Harvard Business School Middle East & North Africa Advisory Board, contributing to developing future business leaders from emerging markets. Kaspi.kz has invested in digital financial literacy programs across Kazakhstan.",
-    "philanthropyKo": "하버드 경영대학원 중동·북아프리카 자문위원회에서 활동하며 신흥국의 미래 비즈니스 리더 육성에 기여하고 있다. 카스피.kz는 카자흐스탄 전역의 디지털 금융 리터러시 프로그램에 투자하고 있다."
+    "knownFor": "Building Brazil's major food and beverage company",
+    "knownForKo": "브라질의 주요 식품 및 음료 회사 구축",
+    "philanthropy": "Supports agricultural development and rural communities",
+    "philanthropyKo": "농업 개발 및 농촌 지역사회를 지원",
+    "controversies": null,
+    "controversiesKo": null
   },
   "sajuConnection": null
 }

@@ -2,93 +2,106 @@
   "id": "205",
   "name": "Barry Lam",
   "childhood": {
-    "birthPlace": "Shanghai, China",
-    "birthPlaceKo": "중국 상하이",
-    "familyBackground": "Family fled mainland China to Taiwan when he was young. Grew up in Taiwan during a period of rapid industrialization.",
-    "familyBackgroundKo": "어릴 때 가족이 중국 본토에서 대만으로 피신. 급속한 산업화 시기의 대만에서 성장.",
-    "education": "Earned a degree in electrical engineering from National Taiwan University. MBA from the University of Houston.",
-    "educationKo": "국립대만대학교 전기공학 학위. 휴스턴 대학교 MBA 취득.",
-    "earlyLife": "Developed a passion for electronics and engineering from a young age.",
-    "earlyLifeKo": "어릴 때부터 전자공학에 열정을 키움.",
-    "source": "Wikipedia, Forbes"
+    "birthPlace": "Shanghai, China (raised in Hong Kong)",
+    "birthPlaceKo": "중국 상하이 (홍콩에서 성장)",
+    "familyBackground": "Father worked as an accountant for the Hong Kong Club; raised in Hong Kong after family relocated from Shanghai",
+    "familyBackgroundKo": "아버지는 홍콩 클럽의 회계사로 근무; 상하이에서 이주한 후 홍콩에서 성장",
+    "education": "B.S. and M.S. in Electrical Engineering from National Taiwan University",
+    "educationKo": "국립대만대학교 전기공학 학사 및 석사",
+    "earlyLife": "Born on April 24, 1949, in Shanghai, Barry Lam grew up in Hong Kong where his father worked as an accountant. After completing high school in Hong Kong, he moved to Taiwan for university, earning both his bachelor's and master's degrees in electrical engineering from National Taiwan University. His engineering education laid the foundation for a career that would transform the global electronics manufacturing industry.",
+    "earlyLifeKo": "1949년 4월 24일 상하이에서 태어난 배리 램은 회계사인 아버지와 함께 홍콩에서 성장했다. 홍콩에서 고등학교를 마친 후 대만으로 건너가 국립대만대학교에서 전기공학 학사와 석사 학위를 취득했다. 공학 교육은 글로벌 전자 제조 산업을 변혁시킬 커리어의 기초가 되었다.",
+    "source": "Wikipedia, Computer History Museum, Gemway Assets"
   },
   "careerTimeline": [
     {
+      "year": 1973,
+      "event": "Co-founded Kinpo Electronics with former classmates to manufacture handheld calculators; built it into the largest contract calculator manufacturer",
+      "eventKo": "대학 동기들과 함께 킨포전자를 공동 설립해 휴대용 계산기를 제조; 세계 최대 계산기 위탁 생산업체로 성장"
+    },
+    {
       "year": 1988,
-      "event": "Founded Quanta Computer in Taiwan",
-      "eventKo": "대만에서 콴타 컴퓨터 설립"
+      "event": "Left Kinpo and founded Quanta Computer in Taipei with co-founder C.C. Leung and $1 million initial investment",
+      "eventKo": "킨포를 떠나 공동 창업자 C.C. 렁과 함께 100만 달러를 투자해 타이페이에서 광달컴퓨터(Quanta Computer) 설립"
     },
     {
-      "year": 1998,
-      "event": "Quanta became the world's largest notebook computer manufacturer",
-      "eventKo": "콴타가 세계 최대 노트북 제조업체로 등극"
+      "year": 1999,
+      "event": "Quanta Computer listed on the Taiwan Stock Exchange",
+      "eventKo": "광달컴퓨터 대만 증권거래소 상장"
     },
     {
-      "year": 2005,
-      "event": "Expanded into server manufacturing for cloud computing",
-      "eventKo": "클라우드 컴퓨팅용 서버 제조로 확장"
+      "year": 2001,
+      "event": "Quanta became the world's largest laptop manufacturer by shipment volume",
+      "eventKo": "광달컴퓨터가 출하량 기준 세계 최대 노트북 제조업체로 성장"
     },
     {
-      "year": 2012,
-      "event": "Became a key supplier for Apple, Dell, HP, and other major brands",
-      "eventKo": "애플, 델, HP 등 주요 브랜드의 핵심 공급업체로 부상"
+      "year": 2006,
+      "event": "Became the world's leading cloud server manufacturer, expanding beyond laptops",
+      "eventKo": "노트북을 넘어 세계 최고의 클라우드 서버 제조업체로 도약"
+    },
+    {
+      "year": 2016,
+      "event": "Entered the AI computing market, beginning partnerships with major tech companies for AI server infrastructure",
+      "eventKo": "AI 컴퓨팅 시장에 진출, 주요 기술 기업들과 AI 서버 인프라 파트너십 시작"
     },
     {
       "year": 2023,
-      "event": "AI server demand drove massive revenue growth as key NVIDIA partner",
-      "eventKo": "NVIDIA 핵심 파트너로서 AI 서버 수요가 매출 급성장 견인"
+      "event": "Quanta became a key supplier of generative AI computing infrastructure for Meta, Google, and other tech giants",
+      "eventKo": "광달컴퓨터가 메타, 구글 등 기술 대기업의 핵심 생성형 AI 컴퓨팅 인프라 공급업체로 자리매김"
     },
     {
-      "year": 2025,
-      "event": "Quanta revenues exceeded $50 billion",
-      "eventKo": "콴타 매출 500억 달러 초과"
+      "year": 2024,
+      "event": "Named Taiwan's richest person by Forbes with net worth of $12.6 billion, driven by AI demand surge",
+      "eventKo": "AI 수요 급증에 힘입어 126억 달러의 자산으로 포브스 선정 대만 최고 부자로 등극"
     }
   ],
   "failures": [
     {
-      "year": 2008,
-      "description": "Global financial crisis caused sharp decline in PC demand",
-      "descriptionKo": "글로벌 금융위기로 PC 수요 급감",
-      "lesson": "Diversifying beyond PCs into servers and cloud infrastructure provided resilience",
-      "lessonKo": "PC를 넘어 서버와 클라우드 인프라로 다각화가 회복력 제공",
-      "source": "Taipei Times"
+      "year": 1988,
+      "description": "As a minority shareholder at Kinpo Electronics, Lam could not persuade the board of directors to invest in the emerging personal computer market. Unable to pursue his vision within the company he helped build, he was forced to quit and start over from scratch.",
+      "descriptionKo": "킨포전자의 소수 주주로서 이사회를 설득해 신흥 PC 시장에 투자하도록 할 수 없었다. 자신이 건설에 참여한 회사에서 비전을 실현할 수 없게 되자, 회사를 떠나 처음부터 다시 시작해야 했다.",
+      "lesson": "The inability to pursue innovation within an established company taught Lam the importance of maintaining control over strategic decisions, which he applied when founding Quanta Computer.",
+      "lessonKo": "기존 회사 내에서 혁신을 추구할 수 없었던 경험은 전략적 의사결정에 대한 통제권 유지의 중요성을 가르쳐 주었고, 이를 광달컴퓨터 설립 시 적용했다.",
+      "source": "Wikipedia, Peoplaid"
     }
   ],
   "wealthHistory": [
     {
+      "year": 2010,
+      "netWorth": 2.5
+    },
+    {
       "year": 2015,
-      "netWorth": 4.5
+      "netWorth": 3
     },
     {
       "year": 2020,
-      "netWorth": 6.0
+      "netWorth": 4.2
     },
     {
       "year": 2023,
-      "netWorth": 10.5
+      "netWorth": 9.3
+    },
+    {
+      "year": 2024,
+      "netWorth": 12.6
     },
     {
       "year": 2025,
       "netWorth": 13.7
     }
   ],
-  "quotes": [
-    {
-      "text": "Manufacturing is an art. Every product must be perfect.",
-      "textKo": "제조는 예술이다. 모든 제품은 완벽해야 한다.",
-      "context": "On manufacturing philosophy",
-      "contextKo": "제조 철학에 대해",
-      "source": "CommonWealth Magazine"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building the world's largest laptop manufacturer and pivoting successfully into AI servers",
-    "knownForKo": "세계 최대 노트북 제조업체를 구축하고 AI 서버로 성공적으로 전환",
-    "philanthropy": "Supports education and technology research in Taiwan.",
-    "philanthropyKo": "대만의 교육 및 기술 연구 지원."
-  }
+    "knownFor": "Visionary engineer who built the world's largest laptop and cloud server manufacturer; passionate art collector with over 2,000 works including the world's leading private collection of Zhang Daqian paintings",
+    "knownForKo": "세계 최대 노트북 및 클라우드 서버 제조업체를 건설한 비전 있는 엔지니어; 장다첸 그림의 세계 최대 개인 소장품을 포함한 2,000점 이상의 예술품을 소장한 열정적 미술 수집가",
+    "philanthropy": "Founded the Quanta Cultural and Educational Foundation to promote culture, art, and education in Taiwan; sponsors free educational exhibitions and school programs",
+    "philanthropyKo": "대만의 문화, 예술, 교육 증진을 위해 광달문화교육재단 설립; 무료 교육 전시회 및 학교 프로그램 후원",
+    "controversies": "Quanta has faced scrutiny over its role as a key link in global technology supply chains and labor practices in its Chinese manufacturing facilities",
+    "controversiesKo": "글로벌 기술 공급망에서의 핵심 역할과 중국 제조 시설의 노동 관행에 대한 감시에 직면"
+  },
+  "sajuConnection": null
 }

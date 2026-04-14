@@ -1,44 +1,49 @@
 {
-  "id": 453,
-  "name": "Sumet Jiaravanon",
+  "id": "453",
+  "name": "Tony Tamer",
   "childhood": {
-    "birthPlace": "Thailand",
-    "birthPlaceKo": "태국",
-    "familyBackground": "Older brother of Dhanin Chearavanont. Family founded Charoen Pokphand Group. Member of wealthy Thai family.",
-    "familyBackgroundKo": "Dhanin Chearavanont의 형. 가족이 Charoen Pokphand Group 설립. 부유한 태국 가족의 일원.",
-    "education": "Thai business education",
-    "educationKo": "태국 사업 교육",
-    "earlyLife": "Grew up in agribusiness family environment. Took leadership role in CP Group expansion.",
-    "earlyLifeKo": "농업 사업 가족 환경에서 성장. CP Group 확장에서 리더십 역할 담당.",
-    "source": "https://www.bangkokpost.com/business/general/420469/thailand-family-of-billionaires"
+    "birthPlace": "United States",
+    "birthPlaceKo": "미국",
+    "familyBackground": "Born October 12, 1957. Of Lebanese descent. Family background in business.",
+    "familyBackgroundKo": "1957년 10월 12일 출생. 레바논 계통. 사업 배경이 있는 가족.",
+    "education": "Master's degree in Electrical Engineering from Stanford University, MBA from Harvard Business School",
+    "educationKo": "스탠포드 대학교 전기공학 석사 학위, 하버드 경영대학원 MBA",
+    "earlyLife": "Worked at Hewlett-Packard and Sprint Corp. before management consulting. Joined Bain & Co. in 1986, becoming partner.",
+    "earlyLifeKo": "경영 컨설팅 전에 휴렛패커드와 스프린트에서 근무. 1986년 베인 앤 컴퍼니 입사, 파트너 승진.",
+    "source": "https://en.wikipedia.org/wiki/Tony_Tamer"
   },
   "careerTimeline": [
     {
-      "year": 1968,
-      "event": "Family's Charoen Pokphand Group expanded animal feed and agricultural operations",
-      "eventKo": "가족의 Charoen Pokphand Group이 동물 사료 및 농업 운영 확장"
+      "year": 1986,
+      "event": "Joined Bain & Co. management consulting firm",
+      "eventKo": "베인 앤 컴퍼니 경영 컨설팅 회사 입사"
     },
     {
       "year": 1993,
-      "event": "Became Executive Chairman of CP Group",
-      "eventKo": "CP Group의 Executive Chairman이 됨"
+      "event": "Co-founded H.I.G. Capital with Sami Mnaymneh",
+      "eventKo": "사미 므나름네와 함께 H.I.G. Capital 공동창립"
     },
     {
       "year": 2000,
-      "event": "CP Group diversified into retail, telecommunications, real estate",
-      "eventKo": "CP Group이 소매, 통신, 부동산으로 다변화"
+      "event": "H.I.G. Capital managing hundreds of millions in private equity capital",
+      "eventKo": "H.I.G. Capital이 수억 달러 규모의 사모펀드 자본 관리"
+    },
+    {
+      "year": 2015,
+      "event": "Established The Tamer Center for Social Enterprise at Columbia University with wife Sandra",
+      "eventKo": "아내 샌드라와 함께 컬럼비아 대학에 Tamer Center for Social Enterprise 설립"
     },
     {
       "year": 2024,
-      "event": "Manages $5.3 billion net worth in global CP Group operations",
-      "eventKo": "글로벌 CP Group 운영에서 53억 달러 순자산 관리"
+      "event": "H.I.G. Capital manages $70 billion in equity capital with 400+ portfolio companies",
+      "eventKo": "H.I.G. Capital이 700억 달러 이상의 사모펀드 자본과 400개 이상의 포트폴리오 회사 관리"
     }
   ],
   "failures": [],
   "wealthHistory": [
     {
       "year": 2020,
-      "netWorth": 6.7
+      "netWorth": 7.8
     }
   ],
   "quotes": [],
@@ -47,10 +52,10 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Executive leadership of Charoen Pokphand Group, agribusiness innovation, Asian expansion",
-    "knownForKo": "Charoen Pokphand Group Executive 리더십, 농업 혁신, 아시아 확장",
-    "philanthropy": null,
-    "philanthropyKo": null,
+    "knownFor": "Co-founding H.I.G. Capital, large-scale private equity investing, social enterprise philanthropy",
+    "knownForKo": "H.I.G. Capital 공동창립, 대규모 사모펀드 투자, 사회 기업 자선활동",
+    "philanthropy": "Tamer Center for Social Enterprise at Columbia, trustee of Museum of Modern Art, Lincoln Center",
+    "philanthropyKo": "컬럼비아 Tamer Center for Social Enterprise, 현대미술관 및 링컨센터 이사",
     "controversies": null,
     "controversiesKo": null
   },

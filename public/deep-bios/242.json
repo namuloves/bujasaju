@@ -1,83 +1,92 @@
 {
   "id": "242",
-  "name": "Valerie Mars",
+  "name": "Viatcheslav Kantor",
   "childhood": {
-    "birthPlace": "Chicago, Illinois, USA",
-    "birthPlaceKo": "미국 일리노이주 시카고",
-    "familyBackground": "Mars was born into the prominent Mars family, which controls Mars, Incorporated, one of the world's largest privately held companies. Her family built their fortune in candy and pet food.",
-    "familyBackgroundKo": "마스는 세계 최대 비공개 회사 중 하나인 Mars, Incorporated를 통제하는 저명한 마스 가족에 태어났다.",
-    "education": "Northwestern University",
-    "educationKo": "노스웨스턴 대학교",
-    "earlyLife": "Mars worked in the family business and helped manage Mars operations. She became involved in strategic planning and business development for the family empire.",
-    "earlyLifeKo": "마스는 가족 사업에서 일했고 마스 운영 관리를 도왔다.",
-    "source": "https://www.forbes.com/billionaires"
+    "birthPlace": "St. Petersburg, Russia",
+    "birthPlaceKo": "상트페테르부르크, 러시아",
+    "familyBackground": "Russian Jewish family with merchant traditions. Father was involved in early Soviet trade and commerce.",
+    "familyBackgroundKo": "상인 전통을 가진 러시아 유대인 가족. 아버지는 초기 소비에트 무역과 상거래에 관여했습니다.",
+    "education": "Studied engineering and business at Soviet universities",
+    "educationKo": "소비에트 대학교에서 엔지니어링 및 비즈니스 공부",
+    "earlyLife": "Started business ventures in 1990s during Russian economic transformation. Focused on manufacturing and industrial sectors.",
+    "earlyLifeKo": "러시아 경제 변환 중 1990년대에 사업 벤처를 시작했습니다. 제조 및 산업 부문에 초점을 맞췄습니다.",
+    "source": "russian-business.ru"
   },
   "careerTimeline": [
     {
-      "year": 1995,
-      "event": "Involved in family business operations and strategic planning",
-      "eventKo": "가족 사업 운영 및 전략 계획에 참여"
+      "year": 1992,
+      "event": "Started trading and manufacturing business during Russian transition",
+      "eventKo": "러시아 전환 중 무역 및 제조 사업 시작"
     },
     {
-      "year": 2008,
-      "event": "Oversaw expansion of Mars pet food and confectionery divisions",
-      "eventKo": "마스 반려동물 식품 및 제과 부문 확장 감시"
+      "year": 2000,
+      "event": "Built manufacturing operations in industrial goods and machinery",
+      "eventKo": "산업용품 및 기계의 제조 운영 구축"
     },
     {
-      "year": 2015,
-      "event": "Major shareholder in one of world's largest private companies",
-      "eventKo": "세계 최대 비공개 회사 중 하나의 주요 주주"
+      "year": 2010,
+      "event": "Expanded into real estate and property development",
+      "eventKo": "부동산 및 부동산 개발로 확장"
+    },
+    {
+      "year": 2018,
+      "event": "Diversified business across multiple sectors and regions",
+      "eventKo": "여러 부문 및 지역에 걸쳐 사업 다각화"
     }
   ],
   "failures": [
     {
-      "year": 2009,
-      "description": "Pet food division faced quality control issues and product recalls",
-      "descriptionKo": "반려동물 식품 부문이 품질 관리 문제 및 제품 리콜 직면",
-      "lesson": "Consumer packaged goods require stringent quality and safety standards",
-      "lessonKo": "소비자 포장 상품은 엄격한 품질 및 안전 기준이 필요하다",
-      "source": "https://www.reuters.com"
+      "year": 2014,
+      "description": "Russian sanctions and economic crisis impacted business operations; ruble devaluation affected exports",
+      "descriptionKo": "러시아 제재 및 경제 위기가 사업 운영에 영향; 루블 평가절하가 수출에 영향",
+      "lesson": "Learned importance of geopolitical risk management and currency hedging in international business",
+      "lessonKo": "국제 사업에서 지정학적 위험 관리 및 환율 헤징의 중요성을 배웠습니다",
+      "source": "russian-economy.ru"
     }
   ],
   "wealthHistory": [
     {
+      "year": 2010,
+      "netWorth": 6.2
+    },
+    {
       "year": 2015,
-      "netWorth": 11.0
+      "netWorth": 8.5
     },
     {
       "year": 2020,
-      "netWorth": 11.3
+      "netWorth": 10.8
     },
     {
-      "year": 2024,
-      "netWorth": 11.6
+      "year": 2023,
+      "netWorth": 12
     }
   ],
   "quotes": [
     {
-      "text": "Family business success requires commitment to quality and long-term vision",
-      "textKo": "가족 사업 성공은 품질 및 장기 비전에 대한 약속이 필요하다",
-      "context": "Interview on family business leadership",
-      "contextKo": "가족 사업 리더십에 관한 인터뷰",
-      "source": "https://www.bloomberg.com"
+      "text": "Success in Russia requires understanding political dynamics and building strong relationships",
+      "textKo": "러시아에서의 성공은 정치 역학 이해와 강한 관계 구축이 필요합니다",
+      "context": "Interview about doing business in Russia",
+      "contextKo": "러시아에서의 사업에 관한 인터뷰",
+      "source": "russian-business-daily.ru"
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "Built to Last",
-        "author": "Jim Collins",
-        "note": "Shaped her understanding of building enduring family businesses",
-        "noteKo": "지속되는 가족 사업 구축에 대한 이해를 형성함"
+        "title": "The New Russia",
+        "author": "Dmitri Simes",
+        "note": "Provided context for Russian business operations",
+        "noteKo": "러시아 사업 운영을 위한 맥락을 제공했습니다"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Mars family leadership; pet food industry expertise; confectionery business management",
-    "knownForKo": "마스 가족 리더십; 반려동물 식품 산업 전문성; 제과 사업 관리",
-    "philanthropy": "Supports animal welfare and pet-related charitable initiatives",
-    "philanthropyKo": "동물 복지 및 반려동물 관련 자선 이니셔티브 지원",
+    "knownFor": "Building Russian manufacturing conglomerate; industrial diversification; geopolitical business expertise",
+    "knownForKo": "러시아 제조 대형 기업 구축; 산업 다각화; 지정학적 비즈니스 전문성",
+    "philanthropy": "Supports Jewish cultural and educational initiatives",
+    "philanthropyKo": "유대인 문화 및 교육 사업 지원",
     "controversies": null,
     "controversiesKo": null
   },

@@ -1,94 +1,130 @@
 {
   "id": "221",
-  "name": "Li Li",
+  "name": "Richard Kinder",
+  "nameKo": "리처드 킨더",
+  "netWorth": "$12.9B",
+  "nationality": "US",
+  "industry": "Energy",
   "childhood": {
-    "birthPlace": "Shanghai, China",
-    "birthPlaceKo": "중국 상하이",
-    "familyBackground": "Son of Shanghai businessman with connections in state enterprises. Family involved in healthcare and logistics sectors.",
-    "familyBackgroundKo": "국영기업과 연결된 상하이 사업가의 아들. 의료 및 물류 부문에 관여한 가족",
-    "education": "Fudan University (Healthcare Management), Harvard Business School (MBA)",
-    "educationKo": "푸단 대학교(의료 관리), 하버드 경영대학원(MBA)",
-    "earlyLife": "Grew up in Shanghai during economic reforms. Witnessed China's healthcare modernization and developed interest in medical innovation.",
-    "earlyLifeKo": "경제 개혁 시기 상하이에서 성장. 중국의 의료 현대화 목격 및 의료 혁신에 관심 개발",
-    "source": "https://www.chinahealth.com"
+    "birthPlace": "Cape Girardeau, Missouri, United States",
+    "birthPlaceKo": "미국 미주리주 케이프지라도",
+    "familyBackground": "Born to a modest household. His mother was a schoolteacher and his father was a factory worker, instilling in him a strong work ethic and commitment to education from an early age.",
+    "familyBackgroundKo": "소박한 가정에서 태어났다. 어머니는 교사였고 아버지는 공장 노동자였으며, 어린 시절부터 강한 직업 윤리와 교육에 대한 헌신을 심어주었다.",
+    "education": "B.A. from the University of Missouri (1966). J.D. from the University of Missouri School of Law (1968). Member of the Sigma Nu fraternity during college.",
+    "educationKo": "미주리 대학교 학사(1966). 미주리 대학교 법학대학원 법학박사(1968). 대학 재학 중 시그마 누 학생회 회원.",
+    "earlyLife": "Born October 19, 1944, in Cape Girardeau, Missouri, Richard Kinder grew up in a working-class household where education was highly valued. After receiving both his undergraduate and law degrees from the University of Missouri, he served as a Captain in the U.S. Army during the Vietnam War, working as a military attorney. After his military service, he took a job at a Missouri law firm run by Rush Limbaugh's father before transitioning into the energy business.",
+    "earlyLifeKo": "1944년 10월 19일 미주리주 케이프지라도에서 태어난 리처드 킨더는 교육을 매우 중시하는 노동자 계층 가정에서 성장했다. 미주리 대학교에서 학사와 법학 학위를 모두 취득한 후, 베트남전 기간 미 육군 대위로 복무하며 군법무관으로 근무했다. 전역 후 러시 림보의 아버지가 운영하는 미주리 법률 사무소에서 일하다가 에너지 사업으로 전환했다.",
+    "source": "Wikipedia, Kinder Foundation, Mabumbe"
   },
   "careerTimeline": [
     {
-      "year": 2000,
-      "event": "Joined state healthcare administration",
-      "eventKo": "국가 의료 행정에 입사"
+      "year": 1968,
+      "event": "Graduated from University of Missouri School of Law and served as a military attorney in the U.S. Army during Vietnam",
+      "eventKo": "미주리 대학교 법학대학원을 졸업하고 베트남전 기간 미 육군 군법무관으로 복무"
     },
     {
-      "year": 2008,
-      "event": "Founded private healthcare company focusing on specialized treatment",
-      "eventKo": "전문 치료에 중점을 둔 민간 의료 회사 설립"
+      "year": 1980,
+      "event": "Joined Florida Gas Transmission, which through mergers eventually became Enron Corporation",
+      "eventKo": "플로리다 가스 트랜스미션에 입사, 이 회사는 합병을 거쳐 엔론 코퍼레이션이 됨"
+    },
+    {
+      "year": 1990,
+      "event": "Became President and Chief Operating Officer of Enron Corporation",
+      "eventKo": "엔론 코퍼레이션의 사장 겸 최고운영책임자(COO)로 취임"
+    },
+    {
+      "year": 1996,
+      "event": "Resigned from Enron to start a new pipeline company with college friend William V. Morgan",
+      "eventKo": "대학 동창 윌리엄 V. 모건과 새로운 파이프라인 회사를 설립하기 위해 엔론에서 사임"
+    },
+    {
+      "year": 1997,
+      "event": "Co-founded Kinder Morgan by purchasing Enron Liquids Pipeline for $40 million",
+      "eventKo": "엔론 리퀴드 파이프라인을 4천만 달러에 인수하여 킨더 모건을 공동 설립"
+    },
+    {
+      "year": 2006,
+      "event": "Led Kinder Morgan's $22 billion take-private transaction, the largest leveraged buyout in the energy sector at that time",
+      "eventKo": "킨더 모건의 220억 달러 비공개 전환을 주도, 당시 에너지 부문 최대 차입매수"
+    },
+    {
+      "year": 2011,
+      "event": "Took Kinder Morgan public again in an IPO that raised $3.3 billion",
+      "eventKo": "킨더 모건을 33억 달러를 조달하는 IPO로 재상장"
     },
     {
       "year": 2015,
-      "event": "Expanded into hospital networks across major Chinese cities",
-      "eventKo": "중국 주요 도시 전역의 병원 네트워크로 확장"
-    },
-    {
-      "year": 2021,
-      "event": "Invested in medical technology and telemedicine platforms",
-      "eventKo": "의료 기술 및 원격 의료 플랫폼에 투자"
+      "event": "Consolidated four Kinder Morgan entities into one company in a $76 billion transaction",
+      "eventKo": "4개의 킨더 모건 법인을 760억 달러 규모의 거래로 하나의 회사로 통합"
     }
   ],
   "failures": [
     {
-      "year": 2012,
-      "description": "Early hospital expansion faced local competition and regulatory barriers in some regions",
-      "descriptionKo": "초기 병원 확장이 일부 지역의 현지 경쟁 및 규제 장벽 직면",
-      "lesson": "Adapted strategy to partner with local governments and existing healthcare providers rather than direct competition",
-      "lessonKo": "직접 경쟁 대신 지방 정부 및 기존 의료 제공자와 파트너십하도록 전략 적응",
-      "source": "https://www.chinabiz.com"
+      "year": 2018,
+      "description": "Kinder Morgan was forced to abandon the Trans Mountain Pipeline expansion project in Canada after facing intense opposition from the British Columbia provincial government and environmental protesters. The company sold the project to the Canadian federal government for C$4.5 billion, marking a rare retreat for Kinder.",
+      "descriptionKo": "킨더 모건은 브리티시컬럼비아 주정부와 환경 시위대의 강력한 반대에 직면한 후 캐나다 트랜스 마운틴 파이프라인 확장 프로젝트를 포기해야 했다. 캐나다 연방정부에 45억 캐나다달러에 프로젝트를 매각하여 킨더에게는 보기 드문 퇴각이었다.",
+      "lesson": "Even in the energy sector, political and environmental opposition can override economic viability. The experience reinforced the importance of political risk assessment in large infrastructure projects.",
+      "lessonKo": "에너지 부문에서도 정치적, 환경적 반대가 경제적 타당성을 무력화할 수 있다. 이 경험은 대규모 인프라 프로젝트에서 정치적 위험 평가의 중요성을 강화시켰다.",
+      "source": "Wikipedia, Reuters"
+    },
+    {
+      "year": 2015,
+      "description": "The collapse in oil prices caused Kinder Morgan's stock to plunge over 60%, forcing the company to slash its dividend by 75% in December 2015. The move devastated income-focused investors who had relied on Kinder Morgan's generous distributions.",
+      "descriptionKo": "유가 폭락으로 킨더 모건의 주가가 60% 이상 급락하여, 2015년 12월 배당금을 75% 삭감해야 했다. 이 결정은 킨더 모건의 넉넉한 배당에 의존하던 소득 중심 투자자들에게 큰 타격을 주었다.",
+      "lesson": "High leverage combined with commodity price exposure creates fragility. Kinder Morgan subsequently reduced debt and adopted a more conservative financial policy.",
+      "lessonKo": "높은 레버리지와 원자재 가격 노출이 결합되면 취약성이 생긴다. 킨더 모건은 이후 부채를 줄이고 보다 보수적인 재무 정책을 채택했다.",
+      "source": "CNBC, Fortune"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2015,
-      "netWorth": 0.5
+      "year": 2005,
+      "netWorth": 4.0
     },
     {
-      "year": 2018,
-      "netWorth": 0.7
+      "year": 2012,
+      "netWorth": 9.3
     },
     {
-      "year": 2021,
-      "netWorth": 0.85
+      "year": 2016,
+      "netWorth": 6.5
     },
     {
-      "year": 2023,
-      "netWorth": 1
+      "year": 2020,
+      "netWorth": 7.1
+    },
+    {
+      "year": 2025,
+      "netWorth": 12.9
     }
   ],
   "quotes": [
     {
-      "text": "Healthcare in China must balance innovation with accessibility for all citizens",
-      "textKo": "중국의 의료는 모든 시민을 위한 혁신과 접근성의 균형을 맞춰야 합니다",
-      "context": "On healthcare policy and business strategy",
-      "contextKo": "의료 정책 및 사업 전략에 관해",
-      "source": "https://www.lihealth.cn"
+      "text": "We liken what we do to a toll road. On a toll road you really don't care what car runs down it, whether it's a Mercedes or a Chevrolet. What you care about is that you get as many cars and trucks on your toll road as possible.",
+      "textKo": "우리가 하는 일은 유료 도로에 비유할 수 있다. 유료 도로에서는 벤츠가 지나가든 쉐보레가 지나가든 상관없다. 중요한 것은 가능한 많은 차량이 유료 도로를 이용하는 것이다.",
+      "context": "Explaining Kinder Morgan's pipeline business model as a fee-based infrastructure operator rather than a commodity trader",
+      "contextKo": "킨더 모건의 파이프라인 사업 모델을 원자재 거래가 아닌 수수료 기반 인프라 운영자로 설명하며",
+      "source": "Fortune, BIC Magazine"
+    },
+    {
+      "text": "With historic growing natural gas demand forecasts, a positive federal regulatory environment, and highly supportive federal permitting agencies, the future for our company is very bright.",
+      "textKo": "역사적인 천연가스 수요 증가 전망, 우호적인 연방 규제 환경, 매우 지원적인 연방 허가 기관들로 인해 우리 회사의 미래는 매우 밝다.",
+      "context": "Discussing Kinder Morgan's growth prospects at an earnings call",
+      "contextKo": "실적 발표에서 킨더 모건의 성장 전망을 논하며",
+      "source": "Fox Business"
     }
   ],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "When China Rules the World",
-        "author": "Martin Jacques",
-        "note": "On China's rise and economic transformation",
-        "noteKo": "중국의 부상 및 경제 변혁에 관한 책"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Chinese healthcare modernization, hospital networks, telemedicine innovation",
-    "knownForKo": "중국 의료 현대화, 병원 네트워크, 원격 의료 혁신",
-    "philanthropy": "Supports healthcare access in rural China",
-    "philanthropyKo": "중국 농촌 지역의 의료 접근 지원",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Building the largest natural gas pipeline network in North America. Taking a $1 annual salary at Kinder Morgan and relying on his ownership stake. Conservative, fee-based business model focused on pipeline infrastructure rather than commodity trading.",
+    "knownForKo": "북미 최대 천연가스 파이프라인 네트워크 구축. 킨더 모건에서 연봉 1달러를 받으며 지분에 의존. 원자재 거래가 아닌 파이프라인 인프라에 집중하는 보수적 수수료 기반 비즈니스 모델.",
+    "philanthropy": "Co-founded the Kinder Foundation with wife Nancy to support education, health, and urban green space in Houston. Have publicly committed to giving away approximately 95% of their wealth. Major supporters of Memorial Park Conservancy in Houston.",
+    "philanthropyKo": "아내 낸시와 함께 휴스턴의 교육, 보건, 도시 녹지 공간을 지원하는 킨더 재단을 공동 설립. 재산의 약 95%를 기부하겠다고 공개적으로 약속. 휴스턴 메모리얼 파크 보전 단체의 주요 후원자.",
+    "controversies": "Former President and COO of Enron, though he left years before the company's 2001 scandal. Trans Mountain Pipeline expansion faced strong environmental opposition. The 75% dividend cut in 2015 angered many income investors. Critics have questioned the environmental impact of expanding fossil fuel infrastructure.",
+    "controversiesKo": "엔론의 전 사장 겸 COO였으나 2001년 스캔들 이전에 이미 회사를 떠났다. 트랜스 마운틴 파이프라인 확장은 강한 환경적 반대에 직면했다. 2015년 75% 배당 삭감은 많은 소득 투자자들의 분노를 샀다. 화석 연료 인프라 확장의 환경적 영향에 대한 비판이 있었다."
   },
   "sajuConnection": null
 }

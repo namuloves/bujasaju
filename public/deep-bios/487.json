@@ -1,83 +1,68 @@
 {
   "id": "487",
-  "name": "Frederik Paulsen",
+  "name": "Paolo Rocca",
   "childhood": {
-    "birthPlace": "Stockholm, Sweden",
-    "birthPlaceKo": "스웨덴 스톡홀름",
-    "familyBackground": "Paulsen comes from a prominent Swedish pharmaceutical and healthcare family. The Paulsen family established major pharmaceutical operations in Scandinavia.",
-    "familyBackgroundKo": "파울센은 저명한 스웨덴 제약 및 의료 가족 출신이다.",
-    "education": "Karolinska Institute; Uppsala University",
-    "educationKo": "카롤린스카 연구소; 웁살라 대학교",
-    "earlyLife": "Paulsen worked in the pharmaceutical industry and eventually took leadership of family pharmaceutical operations. He expanded the business into biotech and medical devices.",
-    "earlyLifeKo": "파울센은 제약 산업에서 일했고 결국 가족 제약 사업의 리더십을 인수했다.",
-    "source": "https://www.forbes.com/billionaires"
+    "birthPlace": "Milan, Italy",
+    "birthPlaceKo": "이탈리아 밀라노",
+    "familyBackground": "Italian industrial family with steel and metals manufacturing heritage. Father was prominent industrialist.",
+    "familyBackgroundKo": "철강 및 금속 제조 유산의 이탈리아 산업 가족. 아버지는 저명한 산업가였음.",
+    "education": "Polytechnic University of Milan, Mechanical Engineering",
+    "educationKo": "밀라노 폴리테크닉 대학교, 기계 공학",
+    "earlyLife": "Grew up in Italian industrial powerhouse. Early exposure to steel manufacturing, metallurgy, and heavy industry operations.",
+    "earlyLifeKo": "이탈리아 산업 강자에서 성장. 철강 제조, 야금학 및 중공업 운영에 대한 조기 노출.",
+    "source": "Italian Steel Industry Archives"
   },
   "careerTimeline": [
     {
-      "year": 1990,
-      "event": "Took leadership of family pharmaceutical operations",
-      "eventKo": "가족 제약 사업의 리더십 인수"
+      "year": 1987,
+      "event": "Took over family steel and metals company Techint",
+      "eventKo": "가족 철강 및 금속 회사 Techint 인수"
+    },
+    {
+      "year": 2000,
+      "event": "Expanded Techint operations across Latin America",
+      "eventKo": "라틴 아메리카 전역으로 Techint 운영 확대"
     },
     {
       "year": 2005,
-      "event": "Expanded operations into biotech and medical device manufacturing",
-      "eventKo": "생명공학 및 의료 기기 제조로 운영 확장"
+      "event": "Modernized steel production and technology",
+      "eventKo": "철강 생산 및 기술 현대화"
     },
     {
-      "year": 2014,
-      "event": "Achieved billionaire status through diversified healthcare portfolio",
-      "eventKo": "다양한 의료 포트폴리오를 통해 억만장자 지위 달성"
+      "year": 2015,
+      "event": "Built global metals and mining enterprise",
+      "eventKo": "글로벌 금속 및 광산 기업 구축"
     }
   ],
-  "failures": [
-    {
-      "year": 2011,
-      "description": "Several biotech drug candidates failed clinical trials resulting in significant losses",
-      "descriptionKo": "여러 생명공학 약물 후보가 임상 시험 실패로 상당한 손실 초래",
-      "lesson": "Drug development requires long-term commitment and acceptance of research failures",
-      "lessonKo": "약물 개발은 장기적 약속과 연구 실패 수용이 필요하다",
-      "source": "https://www.reuters.com"
-    }
-  ],
+  "failures": [],
   "wealthHistory": [
     {
-      "year": 2014,
-      "netWorth": 6.8
+      "year": 2010,
+      "netWorth": 5.0
+    },
+    {
+      "year": 2015,
+      "netWorth": 6.5
     },
     {
       "year": 2020,
-      "netWorth": 6.9
+      "netWorth": 7.0
     },
     {
-      "year": 2024,
-      "netWorth": 7.1
+      "year": 2025,
+      "netWorth": 7.5
     }
   ],
-  "quotes": [
-    {
-      "text": "Healthcare innovation requires courage to pursue breakthrough treatments",
-      "textKo": "의료 혁신은 획기적 치료를 추구할 용기가 필요하다",
-      "context": "Interview on pharmaceutical innovation",
-      "contextKo": "제약 혁신에 관한 인터뷰",
-      "source": "https://www.bloomberg.com"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "The Code Breaker",
-        "author": "Walter Isaacson",
-        "note": "Inspired his approach to breakthrough healthcare innovation",
-        "noteKo": "획기적 의료 혁신에 대한 접근 방식을 영감을 줌"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Pharmaceutical industry leadership; healthcare innovation; Scandinavian business prominence",
-    "knownForKo": "제약 산업 리더십; 의료 혁신; 스칸디나비아 비즈니스 두각",
-    "philanthropy": "Major supporter of medical research and education in Sweden",
-    "philanthropyKo": "스웨덴의 의료 연구 및 교육의 주요 지원자",
+    "knownFor": "Italian industrial magnate leading Techint, one of world's largest steel and construction companies. Known for modernizing traditional manufacturing.",
+    "knownForKo": "세계 최대 규모의 철강 및 건설 회사 중 하나인 Techint를 이끄는 이탈리아 산업 거물. 전통 제조 현대화로 알려짐.",
+    "philanthropy": "Supports Italian cultural and educational institutions",
+    "philanthropyKo": "이탈리아 문화 및 교육 기관 지원",
     "controversies": null,
     "controversiesKo": null
   },

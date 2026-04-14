@@ -1,46 +1,112 @@
 {
   "id": "340",
-  "name": "Maggie Hardy",
+  "name": "Viktor Vekselberg",
   "childhood": {
-    "birthPlace": "Dallas, Texas, USA",
-    "birthPlaceKo": "미국 텍사스 달라스",
-    "familyBackground": "From American family with hospitality and service industry background.",
-    "familyBackgroundKo": "호스피탈리티 및 서비스 산업 배경이 있는 미국 가족에서.",
-    "education": "Cornell University, Hotel and Restaurant Administration",
-    "educationKo": "코넬 대학교, 호텔 및 레스토랑 경영학",
-    "earlyLife": "Worked in family restaurant business before expanding into hospitality and service franchises.",
-    "earlyLifeKo": "호스피탈리티 및 서비스 프랜차이즈로 확장하기 전 가족 레스토랑 사업에서 근무.",
-    "source": null
+    "birthPlace": "Drohobych, Ukrainian SSR (now Ukraine)",
+    "birthPlaceKo": "우크라이나 드로호비치(현재 우크라이나)",
+    "familyBackground": "Viktor Vekselberg는 1957년 우크라이나 소비에트 공화국 드로호비치에서 우크라이나계 유대인 아버지와 러시아인 어머니 사이에서 태어났다. 2차 세계대전 당시 나치 박해로 드로호비치에서 가족 구성원들이 집단 학살로 희생되었다. 복잡한 민족적 배경 속에서 자란 그는 훗날 러시아, 이스라엘, 키프로스 시민권을 보유하게 되었다.",
+    "familyBackgroundKo": "Viktor Vekselberg는 1957년 우크라이나 소비에트 공화국 드로호비치에서 우크라이나계 유대인 아버지와 러시아인 어머니 사이에서 태어났다. 2차 세계대전 당시 나치 박해로 드로호비치에서 가족 구성원들이 집단 학살로 희생되었다. 복잡한 민족적 배경 속에서 자란 그는 훗날 러시아, 이스라엘, 키프로스 시민권을 보유하게 되었다.",
+    "education": "1979년 모스크바 국립 철도공학대학교(Moscow State University of Railway Engineering)를 졸업했다.",
+    "educationKo": "1979년 모스크바 국립 철도공학대학교를 졸업했다.",
+    "earlyLife": "졸업 후 1978년부터 1990년까지 석유 침수 장비 개발 연구소에서 연구원 및 실험실장으로 근무했다.",
+    "earlyLifeKo": "졸업 후 1978년부터 1990년까지 석유 침수 장비 개발 연구소에서 연구원 및 실험실장으로 근무했다."
   },
   "careerTimeline": [
     {
-      "year": 1995,
-      "event": "Took over family restaurant operations",
-      "eventKo": "가족 레스토랑 운영 인수"
+      "year": 1988,
+      "event": "Founded Komvek, one of the early private companies in the Soviet Union, taking advantage of Gorbachev's Perestroika reforms that allowed private enterprise.",
+      "eventKo": "고르바초프의 페레스트로이카 개혁으로 민간 사업이 허용되자 소련 초기 민간 기업 중 하나인 콤벡(Komvek)을 설립했다."
+    },
+    {
+      "year": 1990,
+      "event": "Co-founded Renova Group with college classmates Leonard Blavatnik and Vladimir Balaeskoul, building on early earnings from trading copper and scrap metal.",
+      "eventKo": "대학 동창 레오나르드 블라바트닉, 블라디미르 발라에스쿨과 함께 레노바 그룹(Renova Group)을 공동 설립했다. 구리와 고철 거래로 모은 초기 자본이 기반이 되었다."
+    },
+    {
+      "year": 1996,
+      "event": "Co-founded the Siberian-Ural Aluminum Company (SUAL) and served as its president until 2003, entering the lucrative aluminum sector.",
+      "eventKo": "시베리아-우랄 알루미늄 회사(SUAL)를 공동 설립하고 2003년까지 사장으로 재직하며 수익성 높은 알루미늄 부문에 진출했다."
+    },
+    {
+      "year": 2003,
+      "event": "Played a key role in forming TNK-BP, a 50/50 joint venture between the AAR consortium and British Petroleum, creating Russia's third-largest oil producer.",
+      "eventKo": "AAR 컨소시엄과 브리티시 페트롤리엄(BP)의 50대 50 합작 법인인 TNK-BP 설립에 핵심 역할을 했으며, 이는 러시아 3위 석유 생산 기업이 되었다."
+    },
+    {
+      "year": 2004,
+      "event": "Purchased a collection of nine Imperial Fabergé eggs for approximately $100 million at a Sotheby's auction, later returning them to Russia for public display — becoming a symbol of post-Soviet cultural repatriation.",
+      "eventKo": "소더비 경매에서 9개의 러시아 황실 파베르제 달걀을 약 1억 달러에 구입한 후 러시아에 반환해 공개 전시하도록 했다. 이는 포스트소비에트 문화 반환의 상징이 되었다."
+    },
+    {
+      "year": 2007,
+      "event": "Merged SUAL with Russian Aluminium (Rusal) to create United Company RUSAL, the world's largest aluminum producer, securing a 25% stake in the new entity.",
+      "eventKo": "SUAL을 러시아 알루미늄(루살)과 합병해 세계 최대 알루미늄 생산 기업인 유나이티드 컴퍼니 루살(UC Rusal)을 창설했으며 25% 지분을 확보했다."
+    },
+    {
+      "year": 2010,
+      "event": "Became co-chair of the Skolkovo Innovation Center Foundation alongside ex-Intel chair Craig Barrett, aiming to create a Russian Silicon Valley near Moscow.",
+      "eventKo": "전 인텔 회장 크레이그 배럿과 함께 스콜코보 혁신 센터 재단 공동 의장을 맡아 모스크바 인근에 러시아판 실리콘밸리를 만들고자 했다."
+    },
+    {
+      "year": 2013,
+      "event": "Sold his stake in TNK-BP to Rosneft for approximately $7 billion, netting one of the largest individual payouts in Russian business history.",
+      "eventKo": "TNK-BP 지분을 로스네프트에 약 70억 달러에 매각해 러시아 비즈니스 역사상 가장 큰 개인 수익 중 하나를 기록했다."
+    },
+    {
+      "year": 2018,
+      "event": "Sanctioned by the US Treasury under Executive Order 13662 in response to Russian election interference; approximately $2 billion in assets frozen.",
+      "eventKo": "러시아의 미국 대선 개입에 대한 보복으로 미국 재무부의 행정명령 13662에 따라 제재를 받았으며 약 20억 달러의 자산이 동결되었다."
+    },
+    {
+      "year": 2022,
+      "event": "Additional sanctions imposed by the US, UK, Poland, and Australia following Russia's invasion of Ukraine, with assets seized and travel bans issued.",
+      "eventKo": "러시아의 우크라이나 침공 이후 미국, 영국, 폴란드, 호주로부터 추가 제재를 받아 자산이 몰수되고 여행 금지 조치가 내려졌다."
     }
   ],
   "failures": [
     {
-      "year": 2008,
-      "description": "Restaurant and hospitality sector downturn during global financial crisis",
-      "descriptionKo": "글로벌 금융 위기 중 레스토랑 및 호스피탈리티 부문 침체",
-      "lesson": "Cash reserves and operational flexibility important in cyclical service industries",
-      "lessonKo": "순환적 서비스 산업에서 현금 준비금 및 운영 유연성의 중요성",
-      "source": null
+      "year": 2014,
+      "description": "Western sanctions following Russia's annexation of Crimea severely impacted Renova Group's international operations and curtailed Vekselberg's ability to do business with Western companies.",
+      "descriptionKo": "러시아의 크림반도 합병 이후 서방의 제재로 레노바 그룹의 국제 사업 운영이 심각하게 타격을 받았고 서방 기업들과의 거래 능력이 크게 제한되었다.",
+      "lesson": "Building a business empire heavily tied to a single country's political fortunes creates systemic geopolitical risk that cannot be hedged through diversification alone.",
+      "lessonKo": "단일 국가의 정치적 운명과 긴밀하게 연결된 사업 제국을 구축하면 다각화만으로는 헤지할 수 없는 구조적 지정학 리스크가 발생한다."
+    },
+    {
+      "year": 2018,
+      "description": "US OFAC sanctions effectively froze billions in assets and collapsed Renova's share of Swiss industrial group Sulzer, as Vekselberg was forced to divest holdings to avoid triggering sanctions on business partners.",
+      "descriptionKo": "미국 OFAC 제재로 수십억 달러의 자산이 사실상 동결되었고, 사업 파트너들의 제재 연루를 막기 위해 스위스 산업 기업 설저(Sulzer) 지분을 포함한 보유 자산을 강제로 처분해야 했다.",
+      "lesson": "Political exposure at the highest levels of government, while often profitable in the short term, can become an existential threat to wealth when geopolitics shift.",
+      "lessonKo": "최고위 정치권과의 유착은 단기적으로는 수익성이 높더라도 지정학적 환경이 바뀔 경우 자산 전체에 대한 실존적 위협이 될 수 있다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 2018,
-      "netWorth": 2.8
+      "year": 2003,
+      "netWorth": 2.5
     },
     {
-      "year": 2020,
-      "netWorth": 3.5
+      "year": 2007,
+      "netWorth": 8.0
     },
     {
-      "year": 2023,
-      "netWorth": 4.3
+      "year": 2013,
+      "netWorth": 15.0
+    },
+    {
+      "year": 2016,
+      "netWorth": 11.0
+    },
+    {
+      "year": 2019,
+      "netWorth": 9.0
+    },
+    {
+      "year": 2022,
+      "netWorth": 6.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 9.6
     }
   ],
   "quotes": [],
@@ -49,12 +115,10 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building major US hospitality and service franchise business",
-    "knownForKo": "미국의 주요 호스피탈리티 및 서비스 프랜차이즈 사업 구축",
-    "philanthropy": "Hospitality worker support and community development programs",
-    "philanthropyKo": "호스피탈리티 노동자 지원 및 커뮤니티 개발 프로그램",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Vekselberg is known for his dual identity as a hard-nosed oligarch and a patron of cultural repatriation — most famously returning Fabergé eggs to Russia. He positioned himself as a bridge between Russia and the West through Skolkovo and Swiss investments, before geopolitics rendered that role untenable.",
+    "knownForKo": "벡셀베르크는 냉철한 올리가르히이자 문화 유산 반환의 후원자라는 이중적 정체성으로 유명하다. 파베르제 달걀 반환이 가장 대표적인 사례다. 스콜코보와 스위스 투자를 통해 러시아와 서방의 가교 역할을 자처했으나, 지정학적 격변으로 그 역할이 불가능해졌다.",
+    "philanthropy": "Purchased and repatriated nine Imperial Fabergé eggs for public display in Russia. Funded Skolkovo Innovation Center to foster Russian science and technology. Supported cultural and scientific institutions in both Russia and Switzerland.",
+    "philanthropyKo": "9개의 황실 파베르제 달걀을 구입해 러시아에 반환하여 공공 전시했다. 스콜코보 혁신 센터를 지원해 러시아 과학기술 발전을 도모했다. 러시아와 스위스의 문화·과학 기관을 후원했다."
   },
   "sajuConnection": null
 }

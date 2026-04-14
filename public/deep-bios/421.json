@@ -1,94 +1,92 @@
 {
   "id": "421",
-  "name": "Sam McCandlish",
+  "name": "Sofie Kirk Kristiansen",
+  "nameKo": "소피 키르크 크리스티안센",
+  "netWorth": "$8.1B",
+  "nationality": "DK",
+  "industry": "Manufacturing",
   "childhood": {
-    "birthPlace": "San Francisco, California, USA",
-    "birthPlaceKo": "미국 캘리포니아주 샌프란시스코",
-    "familyBackground": "McCandlish family built fortune in early Silicon Valley electronics and semiconductor businesses. Father was electronics engineer and entrepreneur.",
-    "familyBackgroundKo": "McCandlish 가족은 초기 실리콘 밸리 전자 및 반도체 사업에서 재산을 구축했습니다. 아버지는 전자 엔지니어이자 기업가였습니다.",
-    "education": "UC Berkeley (Computer Science); Stanford MBA",
-    "educationKo": "UC Berkeley(컴퓨터 과학); Stanford MBA",
-    "earlyLife": "Grew up during Silicon Valley's birth. Exposed to tech entrepreneurship from childhood; learned coding and electronics early.",
-    "earlyLifeKo": "실리콘 밸리 탄생 중 성장함. 어린 시절부터 기술 기업가정신에 노출되었으며, 초기에 코딩과 전자를 배웠습니다.",
-    "source": "https://www.techcrunch.com/profile/sam-mccandlish"
+    "birthPlace": "Denmark",
+    "birthPlaceKo": "덴마크",
+    "familyBackground": "Fourth-generation member of the LEGO founding family. Daughter of former LEGO CEO Kjeld Kirk Kristiansen, granddaughter of Godtfred Kirk Christiansen, and great-granddaughter of LEGO founder Ole Kirk Christiansen who started the company in 1932.",
+    "familyBackgroundKo": "레고 창립 가문의 4세대 후손. 전 레고 CEO 키엘드 키르크 크리스티안센의 딸이자, 고트프레드 키르크 크리스티안센의 손녀이며, 1932년 회사를 설립한 레고 창업자 올레 키르크 크리스티안센의 증손녀이다.",
+    "education": "B.A. degree from the Department of Ethnography at Aarhus University",
+    "educationKo": "오르후스 대학교 민족지학과 학사 학위 취득",
+    "earlyLife": "Born on November 18, 1976, in Denmark, Sofie grew up as part of the Kirk Kristiansen family, the dynasty behind the world's largest toy company. As a fourth-generation family member, she was raised with deep awareness of the LEGO legacy started by her great-grandfather Ole in a small carpentry workshop in Billund in 1932. She pursued academic interests in ethnography at Aarhus University rather than business.",
+    "earlyLifeKo": "1976년 11월 18일 덴마크에서 태어난 소피는 세계 최대 장난감 회사의 배후인 키르크 크리스티안센 가문의 일원으로 성장했다. 4세대 가족 구성원으로서 1932년 증조부 올레가 빌룬의 작은 목공소에서 시작한 레고의 유산에 대한 깊은 인식 속에서 자랐다. 경영학보다는 오르후스 대학교에서 민족지학에 대한 학문적 관심을 추구했다.",
+    "source": "Wikipedia, Forbes, Fortune, Bloomberg"
   },
   "careerTimeline": [
     {
-      "year": 1985,
-      "event": "Founded McCandlish Electronics focusing on semiconductor design tools",
-      "eventKo": "반도체 설계 도구에 중점을 두고 McCandlish Electronics 설립"
+      "year": 1998,
+      "event": "LEGO faced near-bankruptcy; the family navigated the company through its worst financial crisis under father Kjeld's leadership",
+      "eventKo": "레고가 파산 위기에 직면; 아버지 키엘드의 리더십 하에 가문이 최악의 재정 위기를 극복"
     },
     {
-      "year": 2000,
-      "event": "Pivoted to software and cloud computing platforms; IPO in 2002",
-      "eventKo": "소프트웨어 및 클라우드 컴퓨팅 플랫폼으로 피벗; 2002년 IPO"
+      "year": 2004,
+      "event": "Professional management brought in to lead LEGO's turnaround; family retained ownership through Kirkbi A/S",
+      "eventKo": "레고의 회생을 위해 전문 경영인 영입; 가문은 키르크비 A/S를 통해 소유권 유지"
     },
     {
-      "year": 2010,
-      "event": "Became major player in enterprise software and AI development tools",
-      "eventKo": "엔터프라이즈 소프트웨어 및 AI 개발 도구의 주요 플레이어가 됨"
+      "year": 2015,
+      "event": "Served as board member of the LEGO Foundation, contributing to strategic decisions on play-based education programs",
+      "eventKo": "레고 재단 이사회 위원으로 활동하며 놀이 기반 교육 프로그램에 대한 전략적 의사결정에 기여"
     },
     {
       "year": 2022,
-      "event": "Company valued at $3.2B with strong AI and machine learning focus; expanded globally",
-      "eventKo": "회사는 강한 AI 및 기계 학습 초점으로 32억 달러로 평가됨; 글로벌 확장"
+      "event": "Listed on Forbes Billionaires List with estimated wealth of $8.2 billion, ranking 267th globally",
+      "eventKo": "82억 달러의 추정 자산으로 포브스 억만장자 목록에 등재, 세계 267위"
+    },
+    {
+      "year": 2024,
+      "event": "Sold $930 million worth of LEGO shares back to family members to fund conservation projects",
+      "eventKo": "보전 프로젝트 자금 마련을 위해 9억 3천만 달러 상당의 레고 주식을 가족에게 매각"
     }
   ],
   "failures": [
     {
-      "year": 2000,
-      "description": "Dot-com crash significantly impacted early software ventures; significant losses and layoffs",
-      "descriptionKo": "닷컴 붕괴는 초기 소프트웨어 벤처에 심각한 영향; 상당한 손실 및 감원",
-      "lesson": "Tech market cycles are severe; maintaining profitability discipline prevents catastrophic failures",
-      "lessonKo": "기술 시장 주기는 심각하며, 수익성 규율 유지는 재앙적 실패를 방지",
-      "source": "https://www.dotcomcrashanalysis.com/tech-failures"
+      "year": 1998,
+      "description": "The LEGO Group faced its worst financial crisis, posting its first-ever loss. The company had over-diversified into theme parks, clothing, and video games, losing focus on its core brick-building product.",
+      "descriptionKo": "레고 그룹이 사상 첫 적자를 기록하며 최악의 재정 위기에 직면했다. 테마파크, 의류, 비디오 게임 등으로 과도하게 다각화하여 핵심 블록 조립 제품에 대한 집중력을 잃었다.",
+      "lesson": "Returning to core strengths and bringing in professional management saved the company; the Kirk Kristiansen family learned to balance ownership with professional operational leadership.",
+      "lessonKo": "핵심 강점으로 회귀하고 전문 경영진을 영입한 것이 회사를 구했다; 키르크 크리스티안센 가문은 소유권과 전문적 운영 리더십의 균형을 맞추는 법을 배웠다.",
+      "source": "Fortune, Wikipedia"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2005,
-      "netWorth": 0.95
+      "year": 2010,
+      "netWorth": 3.0
     },
     {
-      "year": 2012,
-      "netWorth": 2.2
+      "year": 2015,
+      "netWorth": 5.5
     },
     {
-      "year": 2018,
-      "netWorth": 4.5
+      "year": 2020,
+      "netWorth": 6.5
     },
     {
-      "year": 2024,
-      "netWorth": 7.0
+      "year": 2022,
+      "netWorth": 8.2
+    },
+    {
+      "year": 2025,
+      "netWorth": 8.1
     }
   ],
-  "quotes": [
-    {
-      "text": "Software is eating the world, but only when it solves real problems for real people.",
-      "textKo": "소프트웨어는 세상을 먹고 있지만, 실제 사람들을 위한 실제 문제를 해결할 때만 그렇습니다.",
-      "context": "TechCrunch Disrupt keynote, 2018",
-      "contextKo": "TechCrunch Disrupt 기조 연설, 2018",
-      "source": "https://www.techcrunchdisrupt.com/2018-keynotes"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "The Lean Startup",
-        "author": "Eric Ries",
-        "note": "McCandlish credits this with shaping his iterative development philosophy",
-        "noteKo": "McCandlish는 이것이 반복적 개발 철학을 형성했다고 인정"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Enterprise software development, AI tool innovation, Silicon Valley tech entrepreneurship",
-    "knownForKo": "엔터프라이즈 소프트웨어 개발, AI 도구 혁신, 실리콘 밸리 기술 기업가정신",
-    "philanthropy": "Supports computer science education and diversity in tech initiatives",
-    "philanthropyKo": "컴퓨터 과학 교육 및 기술 다양성 이니셔티브 지원",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Fourth-generation LEGO heiress; co-owner of the world's largest toy company through approximately 18.8% economic interest via Kirkbi A/S; passionate about conservation and environmental causes",
+    "knownForKo": "레고의 4세대 상속녀; 키르크비 A/S를 통한 약 18.8%의 경제적 지분으로 세계 최대 장난감 회사의 공동 소유자; 보전 및 환경 활동에 열정적",
+    "philanthropy": "Board member of the LEGO Foundation promoting play-based education globally; sold $930 million in shares to fund conservation projects; family supports children's education and development through the LEGO Foundation",
+    "philanthropyKo": "레고 재단 이사로 전 세계적으로 놀이 기반 교육을 촉진; 보전 프로젝트 자금 마련을 위해 9억 3천만 달러의 주식 매각; 가문은 레고 재단을 통해 아동 교육 및 발달 지원",
+    "controversies": "No significant personal controversies; maintains a relatively private profile compared to other billionaire heirs",
+    "controversiesKo": "개인적으로 중요한 논란 없음; 다른 억만장자 상속인에 비해 비교적 사적인 생활을 유지"
   },
   "sajuConnection": null
 }

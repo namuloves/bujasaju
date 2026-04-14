@@ -2,68 +2,126 @@
   "id": "520",
   "name": "Patrick Ryan",
   "childhood": {
-    "birthPlace": "United States",
-    "birthPlaceKo": "미국",
-    "familyBackground": "A self-made billionaire in the finance and investments sector, Patrick Ryan has amassed a net worth of $7.1 billion primarily through his success in the insurance industry.",
-    "familyBackgroundKo": "패트릭 라이언은 금융 및 투자 분야의 자수성가한 억만장자로, 보험 산업을 통해 71억 달러의 순자산을 쌓았습니다.",
-    "education": "Details of Patrick Ryan's formal education are documented in limited public sources.",
-    "educationKo": "Patrick Ryan의 정규 교육에 대한 세부사항은 제한된 공개 자료에 기록되어 있음.",
-    "earlyLife": "Patrick Ryan built a career in Insurance, becoming one of the world's wealthiest individuals.",
-    "earlyLifeKo": "Patrick Ryan은(는) Insurance 분야에서 경력을 쌓아 세계 최고 부호 중 한 명이 됨.",
-    "source": "Forbes, Wikipedia"
+    "birthPlace": "Milwaukee, Wisconsin, USA",
+    "birthPlaceKo": "미국 위스콘신주 밀워키",
+    "familyBackground": "Patrick George Ryan was born in 1937 in Milwaukee, Wisconsin, the son of an Irish-American Ford Motor Company car dealer. Growing up in a modest suburban household, he learned the value of hard work early — spending his high school and college summers shoveling concrete to help build Milwaukee's central freeway system.",
+    "familyBackgroundKo": "패트릭 조지 라이언은 1937년 위스콘신주 밀워키에서 아일랜드계 미국인 포드 자동차 대리점 운영자의 아들로 태어났다. 밀워키 교외의 소박한 가정에서 성장하며 일찍부터 근면함을 배웠고, 고등학교와 대학 시절 여름방학마다 밀워키 중앙 고속도로 건설 현장에서 콘크리트를 삽질하며 일했다.",
+    "education": "Ryan excelled at football and earned an athletic scholarship to Northwestern University, graduating in 1959 from the Kellogg School of Management (then School of Business) with a degree in Finance and Literature. During his senior year, he earned $8,000 selling personalized scrapbooks to dormitory residents, igniting his entrepreneurial instincts.",
+    "educationKo": "미식축구에 뛰어난 실력을 발휘하여 노스웨스턴대학교 체육 장학생으로 입학, 1959년 켈로그 경영대학원(당시 경영대학)에서 금융·문학 전공으로 졸업했다. 4학년 때 기숙사 학생들에게 개인 맞춤 스크랩북을 판매하여 8,000달러를 벌며 창업가적 기질을 처음 발휘했다.",
+    "earlyLife": "After graduation, Ryan joined Penn Mutual in Chicago as a life insurance agent, quickly distinguishing himself as a top producer before branching out on his own at just 26 years old.",
+    "earlyLifeKo": "졸업 후 시카고의 펜 뮤추얼에 생명보험 설계사로 입사해 빠르게 최고 실적을 기록하며 두각을 나타낸 뒤, 불과 26세에 독립하여 자신의 회사를 창업했다."
   },
   "careerTimeline": [
     {
+      "year": 1959,
+      "event": "Joined Penn Mutual Life Insurance as an agent in Chicago after graduating from Northwestern University.",
+      "eventKo": "노스웨스턴대학교 졸업 후 시카고의 펜 뮤추얼 생명보험에 설계사로 입사했다."
+    },
+    {
       "year": 1962,
-      "event": "Began career in Insurance",
-      "eventKo": "Insurance 분야에서 경력 시작"
+      "event": "Founded the first Finance and Insurance (F&I) department at Dick Fencl Chevrolet in suburban Chicago, pioneering automotive insurance products.",
+      "eventKo": "시카고 교외의 딕 펜클 쉐보레에서 최초의 금융·보험(F&I) 부서를 창설하며 자동차 보험 상품 판매를 개척했다."
     },
     {
-      "year": 2020,
-      "event": "Continued expanding operations and investments",
-      "eventKo": "사업 및 투자 확대 지속"
+      "year": 1964,
+      "event": "Founded Pat Ryan & Associates, his own insurance brokerage, at age 26. By 1968 the firm was writing $15 million in premiums annually.",
+      "eventKo": "26세의 나이로 자신의 보험 중개사 '팻 라이언 앤 어소시에이츠'를 설립했다. 1968년까지 연간 보험료 매출이 1,500만 달러에 달했다."
     },
     {
-      "year": 2025,
-      "event": "Net worth reached $7.1B, ranking among world's wealthiest",
-      "eventKo": "순자산 7.10억 달러 도달, 세계 최고 부호 대열"
+      "year": 1971,
+      "event": "Took the firm public on the stock exchange to raise capital for expansion into multiple insurance product lines.",
+      "eventKo": "다양한 보험 상품 라인으로의 확장을 위한 자본 조달을 목적으로 회사를 증권 거래소에 상장했다."
+    },
+    {
+      "year": 1982,
+      "event": "Ryan Insurance Group merged with W. Clement Stone's Combined International Corporation, creating a far larger insurance conglomerate.",
+      "eventKo": "라이언 인슈어런스 그룹이 W. 클레멘트 스톤의 '컴바인드 인터내셔널'과 합병하여 훨씬 규모가 큰 보험 복합 기업을 탄생시켰다."
+    },
+    {
+      "year": 1987,
+      "event": "Renamed Combined International Corporation to Aon Corporation, unifying the brand and signaling a new strategic direction.",
+      "eventKo": "컴바인드 인터내셔널을 에이온(Aon) 코퍼레이션으로 사명을 변경하여 브랜드를 통합하고 새로운 전략적 방향을 천명했다."
+    },
+    {
+      "year": 2005,
+      "event": "Aon became the world's largest insurance brokerage by revenue following aggressive global acquisitions under Ryan's leadership.",
+      "eventKo": "라이언의 공격적인 글로벌 인수합병 전략에 힘입어 에이온이 매출 기준 세계 최대 보험 중개 회사로 성장했다."
+    },
+    {
+      "year": 2008,
+      "event": "Retired as Aon's chairman and CEO after 41 years at the helm. At retirement, Aon had over 500 offices in 120 countries with revenues exceeding $7 billion.",
+      "eventKo": "41년간의 경영 일선에서 은퇴하며 에이온 회장 겸 CEO 자리에서 물러났다. 은퇴 당시 에이온은 120개국에 500개 이상의 사무소를 보유하고 매출 70억 달러를 초과하는 글로벌 기업이었다."
+    },
+    {
+      "year": 2010,
+      "event": "Founded Ryan Specialty Group (RSG), a holding company providing specialty insurance services to brokers, agents and carriers, launching a second major business career in his 70s.",
+      "eventKo": "70대에 두 번째 주요 사업 경력을 시작하며 보험 브로커, 에이전트, 보험사에 특화 보험 서비스를 제공하는 지주회사 '라이언 스페셜티 그룹(RSG)'을 설립했다."
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "COVID-19 pandemic created unprecedented challenges across global business",
-      "descriptionKo": "코로나19 팬데믹이 전 세계 비즈니스에 전례 없는 도전 초래",
-      "lesson": "Adaptability and resilience are essential for surviving global crises",
-      "lessonKo": "글로벌 위기를 생존하는 데 적응력과 회복력이 필수적",
-      "source": "Forbes"
+      "year": 1982,
+      "description": "The merger of Ryan Insurance with Combined International was initially turbulent, with cultural clashes between the two organizations and significant integration challenges that temporarily slowed Aon's growth trajectory.",
+      "descriptionKo": "라이언 인슈어런스와 컴바인드 인터내셔널의 합병 초기에는 두 조직 간의 문화적 충돌과 상당한 통합 과제로 인해 에이온의 성장 궤도가 일시적으로 둔화되는 어려움을 겪었다.",
+      "lesson": "Even strategically sound mergers require careful management of human and cultural integration to succeed.",
+      "lessonKo": "전략적으로 타당한 합병도 성공하려면 인적·문화적 통합을 세심하게 관리해야 한다."
+    },
+    {
+      "year": 2005,
+      "description": "Aon paid $1.4 billion in settlements related to allegations of bid-rigging and improper payments in its broking business, damaging the company's reputation and resulting in significant regulatory scrutiny under Ryan's leadership.",
+      "descriptionKo": "에이온은 라이언 재임 시절 중개 사업에서의 입찰 조작 및 부적절한 지불 행위 혐의와 관련하여 14억 달러의 합의금을 지급했으며, 이로 인해 회사 명성이 훼손되고 규제 당국의 광범위한 조사를 받았다.",
+      "lesson": "Rapid revenue growth can mask ethical lapses in large organizations; culture and compliance must be actively managed at scale.",
+      "lessonKo": "빠른 매출 성장은 대형 조직의 윤리적 결함을 은폐할 수 있으며, 조직 문화와 컴플라이언스는 규모가 커질수록 더욱 능동적으로 관리해야 한다."
     }
   ],
   "wealthHistory": [
     {
+      "year": 1990,
+      "netWorth": 0.3
+    },
+    {
+      "year": 1998,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2005,
+      "netWorth": 2.5
+    },
+    {
       "year": 2010,
-      "netWorth": 1.8
+      "netWorth": 3.0
     },
     {
       "year": 2015,
-      "netWorth": 3.2
+      "netWorth": 4.5
     },
     {
-      "year": 2022,
-      "netWorth": 5.0
+      "year": 2020,
+      "netWorth": 6.0
     },
     {
-      "year": 2025,
+      "year": 2024,
       "netWorth": 7.1
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "I never thought of myself as being in the insurance business. I thought of myself as being in the business of helping people manage risk.",
+      "textKo": "나는 스스로를 보험업에 종사한다고 생각한 적이 없다. 나는 사람들이 위험을 관리하도록 돕는 일을 한다고 생각했다.",
+      "context": "On his philosophy of building Aon",
+      "contextKo": "에이온을 구축하는 철학에 대해",
+      "source": "InsurTech Digital"
+    }
+  ],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building wealth through Insurance. One of the world's wealthiest individuals with net worth of $7.1B.",
-    "knownForKo": "Insurance을(를) 통해 부를 축적. 순자산 $7.1B의 세계 최고 부호 중 한 명."
-  }
+    "knownFor": "Ryan is known for his unmatched longevity and loyalty to a single industry, building Aon over four decades into the world's largest insurance broker. He is also famous for defying conventional retirement norms by founding an entirely new $10 billion specialty insurance business at age 73.",
+    "knownForKo": "라이언은 단일 산업에서 40년에 걸쳐 에이온을 세계 최대 보험 중개사로 키워낸 비할 데 없는 장기적 헌신으로 유명하다. 또한 73세에 100억 달러 규모의 새로운 특화 보험 사업을 창업하며 일반적인 은퇴 통념을 뛰어넘은 것으로도 널리 알려져 있다.",
+    "philanthropy": "Ryan and his wife Shirley have donated more than $600 million through the Shirley W. Ryan Foundation. His $480 million donation to Northwestern University in 2021 is the largest in that university's history. Welsh-Ryan Arena and Ryan Field are named in the family's honor.",
+    "philanthropyKo": "라이언 부부는 셜리 W. 라이언 재단을 통해 6억 달러 이상을 기부했다. 2021년 노스웨스턴대학교에 기부한 4억 8,000만 달러는 동 대학 역사상 최대 기부액이다. 웰시-라이언 아레나와 라이언 필드는 그의 가족을 기리며 명명되었다."
+  },
+  "sajuConnection": null
 }

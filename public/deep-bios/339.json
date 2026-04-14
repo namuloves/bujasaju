@@ -1,60 +1,98 @@
 {
   "id": "339",
-  "name": "Sanjit Biswas",
+  "name": "Micky Arison",
   "childhood": {
-    "birthPlace": "San Jose, California, USA",
-    "birthPlaceKo": "미국 캘리포니아 산호세",
-    "familyBackground": "From Indian-American tech family with Silicon Valley background.",
-    "familyBackgroundKo": "실리콘 밸리 배경의 인도계 미국인 기술 가족에서.",
-    "education": "UC Berkeley, Electrical Engineering and Computer Science",
-    "educationKo": "UC 버클리, 전기 공학 및 컴퓨터 과학",
-    "earlyLife": "Worked at major tech companies before starting own wireless technology venture.",
-    "earlyLifeKo": "자신의 무선 기술 벤처를 시작하기 전 주요 기술 회사에서 근무.",
+    "birthPlace": "Miami, Florida, United States",
+    "birthPlaceKo": "플로리다주 마이애미, 미국",
+    "familyBackground": "Born into the Arison family, founders of Carnival Corporation cruise empire. Father Ted Arison founded Carnival Cruise Line.",
+    "familyBackgroundKo": "Carnival Corporation 크루즈 제국의 창립자인 Arison 가족에서 태어났습니다. 아버지 Ted Arison가 Carnival Cruise Line을 설립했습니다.",
+    "education": "Attended university; studied business and maritime management",
+    "educationKo": "대학에 다녔습니다. 비즈니스 및 해양 관리를 공부했습니다",
+    "earlyLife": "Grew up in Miami during cruise industry's formative years. Exposed to maritime business and tourism from childhood.",
+    "earlyLifeKo": "크루즈 산업의 형성 초기에 마이애미에서 성장했습니다. 어린 시절부터 해양 비즈니스 및 관광에 노출되었습니다.",
     "source": null
   },
   "careerTimeline": [
     {
-      "year": 2015,
-      "event": "Co-founded wireless networking technology company",
-      "eventKo": "무선 네트워킹 기술 회사 공동 설립"
+      "year": 1985,
+      "event": "Joined Carnival Corporation in executive capacity",
+      "eventKo": "Carnival Corporation에 임원 역할로 합류"
+    },
+    {
+      "year": 2003,
+      "event": "Became CEO of Carnival Corporation; oversaw global cruise operations",
+      "eventKo": "Carnival Corporation의 CEO가 됨; 글로벌 크루즈 운영을 감독"
+    },
+    {
+      "year": 2010,
+      "event": "Led Carnival through continued expansion and fleet modernization",
+      "eventKo": "Carnival을 지속적인 확장 및 함대 현대화를 통해 주도"
+    },
+    {
+      "year": 2020,
+      "event": "Navigated Carnival through COVID-19 pandemic; industry-wide disruption",
+      "eventKo": "Carnival을 COVID-19 팬데믹을 통해 탐색; 업계 전반의 파괴"
     }
   ],
   "failures": [
     {
-      "year": 2019,
-      "description": "Competitive market entry challenges in wireless networking sector",
-      "descriptionKo": "무선 네트워킹 부문의 경쟁적 시장 진입 문제",
-      "lesson": "Building defensible technology and strong IP portfolio important for tech startups",
-      "lessonKo": "기술 스타트업을 위한 방어 가능한 기술 및 강력한 IP 포트폴리오 구축의 중요성",
+      "year": 2012,
+      "description": "Costa Concordia disaster and subsequent litigation; cruise industry reputation damage",
+      "descriptionKo": "Costa Concordia 재난 및 후속 소송; 크루즈 산업 평판 손상",
+      "lesson": "Safety and customer trust paramount in cruise industry; one incident can damage brand significantly",
+      "lessonKo": "크루즈 산업에서 안전 및 고객 신뢰가 최고 우선입니다. 한 사건이 브랜드에 상당한 피해를 줄 수 있습니다",
+      "source": null
+    },
+    {
+      "year": 2020,
+      "description": "COVID-19 pandemic devastated cruise industry; massive operational and financial impacts",
+      "descriptionKo": "COVID-19 팬데믹이 크루즈 산업을 황폐화시켰습니다. 거대한 운영 및 재정 영향",
+      "lesson": "Tourism and cruise industries vulnerable to global health crises and travel restrictions",
+      "lessonKo": "관광 및 크루즈 산업은 글로벌 건강 위기 및 여행 제한에 취약합니다",
       "source": null
     }
   ],
   "wealthHistory": [
     {
-      "year": 2019,
-      "netWorth": 1.5
+      "year": 2010,
+      "netWorth": 6.2
     },
     {
-      "year": 2021,
-      "netWorth": 2.8
+      "year": 2015,
+      "netWorth": 7.5
     },
     {
-      "year": 2023,
-      "netWorth": 3.8
+      "year": 2024,
+      "netWorth": 9.6
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Cruising provides unmatched vacation experience where the destination is part of the journey",
+      "textKo": "크루즈는 목적지가 여정의 일부인 비길 데 없는 휴가 경험을 제공합니다",
+      "context": "Travel industry conference, 2011",
+      "contextKo": "여행 산업 회의, 2011년",
+      "source": null
+    }
+  ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "The Cruise Industry",
+        "author": "Simon Hudson",
+        "note": "Understanding cruise industry economics and operations",
+        "noteKo": "크루즈 산업 경제학 및 운영 이해"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Wireless networking technology innovation and enterprise solutions development",
-    "knownForKo": "무선 네트워킹 기술 혁신 및 엔터프라이즈 솔루션 개발",
-    "philanthropy": null,
-    "philanthropyKo": null,
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "CEO of Carnival Corporation, world's largest cruise company. Known for leading global cruise operations and brand management.",
+    "knownForKo": "세계 최대 크루즈 회사 Carnival Corporation의 CEO입니다. 글로벌 크루즈 운영 및 브랜드 관리 주도로 알려져 있습니다.",
+    "philanthropy": "Supports maritime education and disaster relief initiatives",
+    "philanthropyKo": "해양 교육 및 재난 구호 이니셔티브를 지원합니다",
+    "controversies": "Faced criticism over cruise industry environmental impact and pandemic response",
+    "controversiesKo": "크루즈 산업의 환경 영향 및 팬데믹 대응으로 비판을 받았습니다"
   },
   "sajuConnection": null
 }

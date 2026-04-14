@@ -1,123 +1,102 @@
 {
   "id": "203",
-  "name": "Peter Woo",
-  "nameKo": "피터 우",
+  "name": "Ivan Glasenberg",
+  "nameKo": "이반 글라센버그",
+  "netWorth": "$13.8B",
+  "nationality": "AU",
+  "industry": "Metals & Mining",
   "childhood": {
-    "birthPlace": "Shanghai, China (moved to Hong Kong in 1949)",
-    "birthPlaceKo": "중국 상하이 (1949년 홍콩으로 이주)",
-    "familyBackground": "Born on September 5, 1946, in Shanghai with ancestral roots in Ningbo, Zhejiang province. His family moved to Hong Kong in 1949 during the Chinese civil war. Later married Bessie Pao, daughter of shipping tycoon Y.K. Pao, which connected him to one of Hong Kong's most powerful business families.",
-    "familyBackgroundKo": "1946년 9월 5일 상하이에서 태어났으며 조상의 뿌리는 저장성 닝보에 있다. 중국 내전 중인 1949년 가족이 홍콩으로 이주했다. 이후 해운 재벌 Y.K. 파오의 딸 베시 파오와 결혼하여 홍콩 최고 유력 사업 가문 중 하나와 인연을 맺었다.",
-    "education": "Bachelor's degree in Physics from the University of Cincinnati, USA; MBA from Columbia Business School, New York",
-    "educationKo": "미국 신시내티대학교 물리학 학사; 뉴욕 컬럼비아 경영대학원 MBA",
-    "earlyLife": "Peter Woo grew up in Hong Kong after his family relocated from Shanghai. He attended St Stephen's College in Stanley, Hong Kong, before going abroad for higher education. He earned a bachelor's degree in physics from the University of Cincinnati and then an MBA from Columbia Business School. In 1972, he began his career at Chase Manhattan Bank in New York, where he met Bessie Pao, daughter of shipping magnate Y.K. Pao. In 1975, he joined his father-in-law's business empire in Hong Kong.",
-    "earlyLifeKo": "상하이에서 이주한 후 홍콩에서 자랐다. 홍콩 스탠리의 세인트 스티븐스 칼리지를 다닌 후 해외로 유학을 떠났다. 신시내티대학교에서 물리학 학사, 이후 컬럼비아 경영대학원에서 MBA를 취득했다. 1972년 뉴욕 체이스맨해튼은행에서 경력을 시작하며 해운 거물 Y.K. 파오의 딸 베시 파오를 만났다. 1975년 장인의 사업 제국에 합류하여 홍콩으로 돌아왔다.",
-    "source": "Wikipedia, Bloomberg, Tatler Asia"
+    "birthPlace": "Johannesburg, South Africa",
+    "birthPlaceKo": "남아프리카공화국 요하네스버그",
+    "familyBackground": "Born to an immigrant Jewish family; father Samuel Glasenberg was born in Lithuania and came to South Africa to run a luggage importing and manufacturing business; grew up in the Johannesburg suburb of Illovo",
+    "familyBackgroundKo": "유대인 이민 가정에서 태어남; 아버지 사무엘 글라센버그는 리투아니아 출생으로 남아프리카공화국에서 여행 가방 수입 및 제조 사업 운영; 요하네스버그 교외 일로보에서 성장",
+    "education": "Hyde Park High School (matriculated 1974); Bachelor of Commerce and Bachelor of Accountancy from University of the Witwatersrand; Chartered Accountant CA(SA) qualification at Nexia Levitt Kirson; MBA from IBEAR program at University of Southern California (1983)",
+    "educationKo": "하이드 파크 고등학교(1974년 졸업); 비트바테르스란트 대학교 상학 학사 및 회계학 학사; 넥시아 레빗 커슨에서 공인 회계사 CA(SA) 자격 취득; 남캘리포니아 대학교 IBEAR 프로그램 MBA(1983)",
+    "earlyLife": "Born January 7, 1957, Glasenberg grew up in Johannesburg's Illovo suburb. His fierce competitive spirit was evident early — at Hyde Park High School, he excelled in athletics and by his early 20s became South Africa's national junior champion in race walking. After earning commerce and accounting degrees from the University of the Witwatersrand and working as a chartered accountant for five years, he pursued an MBA at USC before joining Glencore in 1984.",
+    "earlyLifeKo": "1957년 1월 7일 태어난 글라센버그는 요하네스버그의 일로보 교외에서 성장했다. 강렬한 경쟁심은 일찍부터 두드러졌다 — 하이드 파크 고등학교에서 운동에 뛰어났고, 20대 초반에 남아프리카공화국 경보 주니어 국가 챔피언이 되었다. 비트바테르스란트 대학교에서 상학 및 회계학 학위를 취득하고 5년간 공인 회계사로 근무한 후, USC에서 MBA를 마치고 1984년 글렌코어에 입사했다.",
+    "source": "Wikipedia, Bloomberg"
   },
   "careerTimeline": [
     {
-      "year": 1972,
-      "event": "Started career at Chase Manhattan Bank in New York",
-      "eventKo": "뉴욕 체이스맨해튼은행에서 경력 시작"
+      "year": 1984,
+      "event": "Joined Glencore (then Marc Rich + Co AG), working in the coal department in South Africa and Australia",
+      "eventKo": "글렌코어(당시 마크 리치 + Co AG)에 입사, 남아프리카공화국과 호주의 석탄 부서에서 근무"
     },
     {
-      "year": 1975,
-      "event": "Joined father-in-law Y.K. Pao's shipping and real estate business empire in Hong Kong",
-      "eventKo": "장인 Y.K. 파오의 홍콩 해운 및 부동산 사업 제국에 합류"
+      "year": 1989,
+      "event": "Managed Glencore's Hong Kong and Beijing offices, expanding the company's Asian operations",
+      "eventKo": "글렌코어의 홍콩 및 베이징 사무소를 관리하며 아시아 사업 확대"
     },
     {
-      "year": 1982,
-      "event": "Promoted to COO of Wharf Holdings and vice chairman of Worldwide Shipping",
-      "eventKo": "워프 홀딩스 최고운영책임자 및 월드와이드 쉬핑 부회장으로 승진"
+      "year": 1991,
+      "event": "Became head of Glencore's coal department, overseeing global coal trading operations",
+      "eventKo": "글렌코어 석탄 부서 책임자로 취임, 글로벌 석탄 거래 운영 총괄"
     },
     {
-      "year": 1986,
-      "event": "Named CEO of Wheelock and Wharf when Y.K. Pao retired",
-      "eventKo": "Y.K. 파오의 은퇴 후 윌록 및 워프의 CEO로 임명"
-    },
-    {
-      "year": 1999,
-      "event": "Transformed Harbour City and Times Square into Hong Kong's premier retail and commercial destinations",
-      "eventKo": "하버 시티와 타임스 스퀘어를 홍콩 최고의 소매 및 상업 명소로 변모"
+      "year": 2002,
+      "event": "Named CEO of Glencore, succeeding Willy Strothotte; began transforming the secretive commodity trader",
+      "eventKo": "윌리 스트로토트의 뒤를 이어 글렌코어 CEO로 취임; 비밀주의적 원자재 거래 회사의 변혁 시작"
     },
     {
       "year": 2011,
-      "event": "Launched Project WeCan, a comprehensive school support programme serving 82 schools and 100,000 students",
-      "eventKo": "82개 학교와 10만 명의 학생을 지원하는 종합 학교 지원 프로그램 '프로젝트 위캔' 출범"
+      "event": "Led Glencore's $10 billion IPO on the London Stock Exchange, the largest IPO in London's history at the time; became a billionaire overnight with 15.8% stake",
+      "eventKo": "글렌코어의 런던 증권거래소 100억 달러 IPO를 주도, 당시 런던 역사상 최대 IPO; 15.8% 지분으로 하룻밤 사이에 억만장자가 됨"
     },
     {
-      "year": 2015,
-      "event": "Stepped down as chairman of Wheelock and Wharf Holdings, succeeded by son Douglas Woo",
-      "eventKo": "윌록 및 워프 홀딩스 회장직에서 물러나고 아들 더글라스 우가 후임"
+      "year": 2013,
+      "event": "Completed the $88 billion merger of Glencore and Xstrata, creating one of the world's largest mining companies",
+      "eventKo": "880억 달러 규모의 글렌코어와 엑스트라타 합병 완료, 세계 최대 광업 회사 중 하나 탄생"
     },
     {
-      "year": 2020,
-      "event": "Wheelock was delisted from the Hong Kong stock exchange on July 23",
-      "eventKo": "7월 23일 윌록이 홍콩 증권거래소에서 상장 폐지"
+      "year": 2021,
+      "event": "Retired as Glencore CEO after nearly 20 years, succeeded by fellow South African Gary Nagle",
+      "eventKo": "약 20년간의 CEO 재임 후 은퇴, 동료 남아프리카인 게리 네이글이 후임"
     }
   ],
   "failures": [
     {
-      "year": 1997,
-      "description": "The Asian financial crisis severely impacted Hong Kong's property market, causing significant declines in Wheelock and Wharf's property values and earnings",
-      "descriptionKo": "아시아 금융 위기가 홍콩 부동산 시장에 심각한 타격을 주며 윌록과 워프의 부동산 가치와 수익이 크게 하락했다",
-      "lesson": "The crisis reinforced the importance of holding premium, irreplaceable commercial properties that generate stable long-term cash flows regardless of market cycles",
-      "lessonKo": "위기는 시장 주기에 관계없이 안정적인 장기 현금 흐름을 창출하는 프리미엄 대체 불가능한 상업용 부동산 보유의 중요성을 재확인시켜 주었다",
+      "year": 2015,
+      "description": "Glencore's share price collapsed by over 70% during the global commodity rout, with the stock briefly falling below the 2011 IPO price. The company's heavy debt load and exposure to falling copper and coal prices led to fears of insolvency. Glencore was forced to cut dividends, sell assets, and raise $2.5 billion in emergency equity.",
+      "descriptionKo": "글로벌 원자재 가격 폭락으로 글렌코어 주가가 70% 이상 급락하며, 2011년 IPO 가격 이하로 잠시 떨어졌다. 과도한 부채와 구리·석탄 가격 하락 노출로 지급 불능 우려가 대두되었다. 글렌코어는 배당금 삭감, 자산 매각, 25억 달러 긴급 증자를 단행해야 했다.",
+      "lesson": "The crisis forced Glasenberg to deleverage Glencore's balance sheet and adopt more disciplined financial management. The company's recovery demonstrated the importance of swift, decisive action in commodity market downturns.",
+      "lessonKo": "이 위기는 글라센버그가 글렌코어의 재무구조를 디레버리지하고 더 규율된 재무 관리를 채택하도록 만들었다. 회사의 회복은 원자재 시장 침체기에 신속하고 단호한 조치의 중요성을 보여주었다.",
       "source": "Bloomberg, Wikipedia"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2016,
-      "netWorth": 6.6
+      "year": 2011,
+      "netWorth": 7.5
     },
     {
-      "year": 2018,
-      "netWorth": 12.2
+      "year": 2015,
+      "netWorth": 2.1
     },
     {
-      "year": 2021,
-      "netWorth": 14.0
+      "year": 2019,
+      "netWorth": 5.5
     },
     {
       "year": 2022,
-      "netWorth": 17.5
+      "netWorth": 10.2
     },
     {
-      "year": 2024,
-      "netWorth": 12.7
-    },
-    {
-      "year": 2026,
-      "netWorth": 13.3
+      "year": 2025,
+      "netWorth": 13.8
     }
   ],
-  "quotes": [
-    {
-      "text": "Philanthropy is a contact sport: direct engagement and interaction over mere financial support.",
-      "textKo": "자선은 접촉 스포츠다: 단순한 재정적 지원이 아닌 직접적인 참여와 상호작용이 중요하다.",
-      "context": "On his philosophy of hands-on philanthropic engagement",
-      "contextKo": "직접 참여하는 자선 활동 철학에 대하여",
-      "source": "Tatler Asia"
-    },
-    {
-      "text": "Mentorship is critical for young people. Mentorship by others for my children is very high on my agenda.",
-      "textKo": "멘토십은 젊은이들에게 매우 중요하다. 타인에 의한 내 자녀들의 멘토십은 나의 최우선 과제 중 하나다.",
-      "context": "On the importance of mentorship in both philanthropy and family",
-      "contextKo": "자선 활동과 가정 모두에서 멘토십의 중요성에 대하여",
-      "source": "Tatler Asia"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Transformed inherited real estate assets into Hong Kong's most iconic commercial landmarks including Harbour City and Times Square. Known for his disciplined, long-term approach to property investment and his focus on premium commercial assets. An energetic figure who remains active in his late 70s, known for skiing and outdoor activities.",
-    "knownForKo": "물려받은 부동산 자산을 하버 시티와 타임스 스퀘어를 포함한 홍콩의 가장 상징적인 상업 랜드마크로 변모시켰다. 부동산 투자에 대한 규율적이고 장기적인 접근과 프리미엄 상업용 자산에 대한 집중으로 유명하다. 70대 후반에도 활기차게 활동하며 스키와 야외 활동으로 알려져 있다.",
-    "philanthropy": "Founded Project WeCan in 2011, serving 82 Hong Kong schools and nearly 100,000 students with limited resources. Believes in direct engagement in philanthropy rather than just financial support. Also involved in cultural and educational initiatives through the Wharf Group's CSR programs.",
-    "philanthropyKo": "2011년 '프로젝트 위캔'을 설립하여 홍콩의 82개 학교와 약 10만 명의 자원이 부족한 학생들을 지원하고 있다. 단순한 재정 지원이 아닌 자선 활동에 대한 직접 참여를 믿는다. 워프 그룹의 CSR 프로그램을 통해 문화 및 교육 이니셔티브에도 관여하고 있다.",
-    "controversies": "Wheelock's privatization and delisting in 2020 faced some scrutiny from minority shareholders. The concentration of Hong Kong's real estate in the hands of a few tycoon families has been a broader societal concern.",
-    "controversiesKo": "2020년 윌록의 사유화 및 상장 폐지가 소수주주들로부터 일부 감시를 받았다. 소수의 재벌 가문에 홍콩 부동산이 집중되는 것은 사회적 관심사이기도 하다."
+    "knownFor": "Transforming Glencore from a secretive private commodity trader into a publicly listed global mining giant; leading the largest IPO in London Stock Exchange history; extremely competitive personality from race walking champion to ruthless dealmaker; spartan personal style despite massive wealth",
+    "knownForKo": "글렌코어를 비밀주의적 민간 원자재 거래 회사에서 공개 상장 글로벌 광업 대기업으로 변모; 런던 증권거래소 역사상 최대 IPO 주도; 경보 챔피언에서 냉혹한 딜메이커까지 극도의 경쟁적 성격; 막대한 부에도 불구하고 검소한 개인 스타일",
+    "philanthropy": "Relatively limited public philanthropy; known for his private nature and focus on business rather than public charitable activities",
+    "philanthropyKo": "공개적 자선 활동은 비교적 제한적; 공개적 자선 활동보다는 사적인 성격과 사업에 집중하는 것으로 알려짐",
+    "controversies": "Glencore has faced extensive legal issues including a guilty plea to bribery charges in 2022 and commodity market manipulation allegations; the Xstrata merger drew controversy over governance; criticism of the commodity industry's environmental and social impact",
+    "controversiesKo": "글렌코어는 2022년 뇌물 혐의 유죄 인정과 원자재 시장 조작 의혹 등 광범위한 법적 문제에 직면; 엑스트라타 합병은 지배구조 논란; 원자재 산업의 환경적·사회적 영향에 대한 비판"
   },
   "sajuConnection": null
 }

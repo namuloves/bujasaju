@@ -1,80 +1,97 @@
 {
   "id": "300",
   "name": "Randa Duncan Williams",
+  "nameKo": "란다 던컨 윌리엄스",
+  "netWorth": "$10.4B",
+  "nationality": "US",
+  "industry": "Energy",
   "childhood": {
-    "birthPlace": "Houston, Texas, USA",
+    "birthPlace": "Houston, Texas, United States",
     "birthPlaceKo": "미국 텍사스주 휴스턴",
-    "familyBackground": "Eldest daughter of Dan Duncan, founder of Enterprise Products Partners, one of America's largest pipeline companies. Father was a self-made billionaire from a poor East Texas background.",
-    "familyBackgroundKo": "미국 최대 파이프라인 회사 중 하나인 엔터프라이즈 프로덕츠 파트너스의 창립자 댄 던컨의 장녀. 아버지는 가난한 동부 텍사스 출신의 자수성가 억만장자.",
-    "education": "Attended the University of Texas at Austin.",
-    "educationKo": "텍사스 대학교 오스틴 캠퍼스 졸업.",
-    "earlyLife": "Grew up in Houston as part of one of Texas's wealthiest energy families.",
-    "earlyLifeKo": "텍사스 최고 에너지 부호 가문의 일원으로 휴스턴에서 성장.",
-    "source": "Wikipedia, Forbes"
+    "familyBackground": "Daughter of Dan Duncan, who co-founded Enterprise Products in 1968 with $10,000 and two fuel trucks as a natural gas liquids wholesaler, and his first wife Barbara Ann. Her father built the company into a midstream energy giant with $77 billion in assets.",
+    "familyBackgroundKo": "1968년 1만 달러와 연료 트럭 2대로 천연가스 액체 도매업체 엔터프라이즈 프로덕츠를 공동 설립한 댄 던컨과 그의 첫 번째 아내 바바라 앤의 딸. 아버지는 회사를 770억 달러 자산의 중류 에너지 대기업으로 성장시켰다.",
+    "education": "Bachelor's degree from Rice University; Juris Doctor (JD) from the University of Houston Law Center",
+    "educationKo": "라이스 대학교 학사; 휴스턴 대학교 법학센터 법학박사(JD)",
+    "earlyLife": "Randa grew up in Houston in the shadow of her father Dan Duncan's growing energy empire. She pursued a strong academic path, earning her bachelor's from Rice University and her law degree from the University of Houston. After law school, she practiced law at Butler & Binion and Brown, Sims, Wise & White before eventually joining the family business.",
+    "earlyLifeKo": "란다는 아버지 댄 던컨의 성장하는 에너지 제국의 그늘에서 휴스턴에서 자랐다. 라이스 대학교에서 학사를, 휴스턴 대학교에서 법학 학위를 취득하며 탄탄한 학문적 경로를 밟았다. 로스쿨 졸업 후 버틀러 앤 비니언, 브라운 심스 와이즈 앤 화이트에서 변호사로 활동한 후 가업에 합류했다.",
+    "source": "Wikipedia, Bloomberg, Forbes"
   },
   "careerTimeline": [
     {
+      "year": 1988,
+      "event": "Practiced law at Houston firms Butler & Binion and Brown, Sims, Wise & White after earning her JD",
+      "eventKo": "법학박사 취득 후 휴스턴 법률 사무소 버틀러 앤 비니언, 브라운 심스 와이즈 앤 화이트에서 변호사로 활동"
+    },
+    {
+      "year": 1994,
+      "event": "Joined Enterprise Products, serving as vice president and later as president and CEO until 2001",
+      "eventKo": "엔터프라이즈 프로덕츠에 합류하여 부사장을 거쳐 2001년까지 사장 겸 CEO로 재임"
+    },
+    {
       "year": 2010,
-      "event": "Father Dan Duncan died, becoming the first billionaire in decades to pass without estate tax",
-      "eventKo": "아버지 댄 던컨 사망, 수십 년 만에 유산세 없이 사망한 첫 억만장자"
+      "event": "Father Dan Duncan passed away; inherited approximately $3.1 billion along with three siblings. Due to estate tax repeal for 2010, became one of the first American billionaires to pay no estate tax",
+      "eventKo": "아버지 댄 던컨 사망; 세 형제와 함께 약 31억 달러를 상속. 2010년 유산세 폐지로 유산세를 내지 않은 최초의 미국 억만장자 중 한 명이 됨"
     },
     {
-      "year": 2012,
-      "event": "Became co-chair of Enterprise Products Partners' board",
-      "eventKo": "엔터프라이즈 프로덕츠 파트너스 이사회 공동 의장 취임"
+      "year": 2013,
+      "event": "Became non-executive chairman of Enterprise Products Partners, the publicly traded midstream energy company",
+      "eventKo": "상장 중류 에너지 회사 엔터프라이즈 프로덕츠 파트너스의 비상임 의장이 됨"
     },
     {
-      "year": 2020,
-      "event": "Managed family's 8% stake in Enterprise Products Partners",
-      "eventKo": "엔터프라이즈 프로덕츠 파트너스의 가족 8% 지분 관리"
+      "year": 2019,
+      "event": "Acquired Texas Monthly magazine, the iconic publication chronicling Texas culture and history",
+      "eventKo": "텍사스 문화와 역사를 기록하는 상징적인 출판물 텍사스 먼슬리 매거진을 인수"
     },
     {
       "year": 2025,
-      "event": "Net worth reached $10.4 billion",
-      "eventKo": "순자산 104억 달러 도달"
+      "event": "Continues as chairman of Enterprise Products Partners, which operates over 50,000 miles of pipelines with $77 billion in assets",
+      "eventKo": "5만 마일 이상의 파이프라인과 770억 달러의 자산을 운영하는 엔터프라이즈 프로덕츠 파트너스의 의장직을 계속 수행"
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "Oil price crash during COVID pandemic hit pipeline company valuations",
-      "descriptionKo": "코로나 팬데믹 중 유가 폭락으로 파이프라인 기업 가치 하락",
-      "lesson": "Pipeline companies provide steady cash flow even in downturns",
-      "lessonKo": "파이프라인 기업은 침체기에도 안정적 현금 흐름 제공",
-      "source": "Bloomberg"
+      "year": 2010,
+      "description": "The sudden death of her father Dan Duncan presented a significant leadership transition challenge for the family and Enterprise Products, requiring the heirs to step up into governance roles without his guidance.",
+      "descriptionKo": "아버지 댄 던컨의 갑작스러운 사망으로 가족과 엔터프라이즈 프로덕츠에 중대한 리더십 전환 과제가 제기되었으며, 상속인들이 그의 지도 없이 지배구조 역할을 맡아야 했다.",
+      "lesson": "Williams successfully navigated the transition, eventually assuming the chairman role and maintaining the family's involvement in Enterprise Products' governance while preserving the company's growth trajectory.",
+      "lessonKo": "윌리엄스는 이 전환을 성공적으로 극복하여 결국 의장직을 맡고 회사의 성장 궤도를 유지하면서 엔터프라이즈 프로덕츠의 지배구조에 가족의 참여를 유지했다.",
+      "source": "Bloomberg, Forbes"
     }
   ],
   "wealthHistory": [
     {
+      "year": 2010,
+      "netWorth": 3.1
+    },
+    {
       "year": 2015,
-      "netWorth": 6.0
+      "netWorth": 5.5
     },
     {
       "year": 2020,
-      "netWorth": 7.5
+      "netWorth": 6.8
+    },
+    {
+      "year": 2023,
+      "netWorth": 8.5
     },
     {
       "year": 2025,
       "netWorth": 10.4
     }
   ],
-  "quotes": [
-    {
-      "text": "Our father built this company from nothing. We honor his legacy by keeping it strong.",
-      "textKo": "아버지가 이 회사를 무에서 세웠다. 우리는 회사를 강하게 유지하며 그의 유산을 기린다.",
-      "context": "On the Duncan family legacy",
-      "contextKo": "던컨 가문 유산에 대해",
-      "source": "Houston Chronicle"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Heir to Enterprise Products Partners pipeline empire. Quiet steward of family wealth.",
-    "knownForKo": "엔터프라이즈 프로덕츠 파트너스 파이프라인 제국의 상속인. 조용한 가족 자산 관리자.",
-    "philanthropy": "Major donor to Houston arts, education, and healthcare institutions.",
-    "philanthropyKo": "휴스턴 예술, 교육, 의료 기관에 주요 기부자."
-  }
+    "knownFor": "Chairman of Enterprise Products Partners, one of America's largest midstream energy companies; trained attorney who transitioned to energy industry leadership; owner of Texas Monthly magazine",
+    "knownForKo": "미국 최대 중류 에너지 회사 중 하나인 엔터프라이즈 프로덕츠 파트너스의 의장; 에너지 산업 경영으로 전환한 전문 변호사; 텍사스 먼슬리 매거진 소유자",
+    "philanthropy": "Active on the boards of several Houston educational and medical institutions, including the Houston Zoo and the Albert and Margaret Alkek Foundation. The Duncan family has supported numerous Houston-area charitable causes.",
+    "philanthropyKo": "휴스턴 동물원과 앨버트·마가렛 앨켁 재단을 포함한 여러 휴스턴 교육 및 의료 기관의 이사회에서 활동. 던컨 가문은 휴스턴 지역의 수많은 자선 사업을 지원해왔다.",
+    "controversies": "The Duncan family's inheritance in 2010 drew attention for paying no estate tax due to a temporary repeal of the estate tax law that year. Enterprise Products operates in the fossil fuel sector, which faces increasing environmental scrutiny.",
+    "controversiesKo": "던컨 가문의 2010년 상속은 해당 연도 유산세법의 일시적 폐지로 유산세를 내지 않아 주목을 받았다. 엔터프라이즈 프로덕츠는 환경 감시가 강화되고 있는 화석 연료 부문에서 운영된다."
+  },
+  "sajuConnection": null
 }

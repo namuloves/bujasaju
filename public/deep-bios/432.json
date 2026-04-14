@@ -1,69 +1,88 @@
 {
-  "id": 432,
-  "name": "Selçuk Bayraktar",
+  "id": "432",
+  "name": "John Overdeck",
   "childhood": {
-    "birthPlace": "Istanbul, Turkey",
-    "birthPlaceKo": "터키 이스탄불",
-    "familyBackground": "Born October 7, 1979, to Özdemir Bayraktar and Canan Bayraktar. His father founded Baykar aerospace company in 1984.",
-    "familyBackgroundKo": "1979년 10월 7일 오즈데미르 바이락타르와 자난 바이락타르의 아들로 태어남. 아버지는 1984년 바이카르 항공우주 회사를 설립했음.",
-    "education": "Robert College (1997), Istanbul Technical University (Electronics & Communication Engineering), University of Pennsylvania (MS in GRASP Laboratory 2004), MIT (MS in Automatic Flight Control 2006)",
-    "educationKo": "로버트 칼리지(1997), 이스탄불 공과대학(전자통신공학), 펜실베이니아 대학(GRASP 연구소 석사 2004), MIT(자동비행제어 석사 2006)",
-    "earlyLife": "Returned to Turkey in 2007 and became CTO of Baykar. Pioneered development of Turkey's first indigenous unmanned combat aerial vehicles (UCAVs).",
-    "earlyLifeKo": "2007년 터키로 귀국하여 바이카르의 CTO가 됨. 터키 최초의 국산 무인전투기 개발을 주도함.",
-    "source": "https://en.wikipedia.org/wiki/Sel%C3%A7uk_Bayraktar"
+    "birthPlace": "New Jersey, United States",
+    "birthPlaceKo": "뉴저지, 미국",
+    "familyBackground": "Born into middle-class family; parents emphasized education and financial literacy.",
+    "familyBackgroundKo": "중산층 가족에서 태어났습니다. 부모는 교육 및 금융 이해력을 강조했습니다.",
+    "education": "Graduated from Princeton University with degree in mathematics and physics",
+    "educationKo": "Princeton University에서 수학 및 물리 학위로 졸업했습니다",
+    "earlyLife": "Showed early mathematical aptitude; interested in finance and quantitative analysis from youth.",
+    "earlyLifeKo": "초기에 수학적 적성을 보였습니다. 어린 시절부터 금융 및 정량 분석에 관심을 가졌습니다.",
+    "source": null
   },
   "careerTimeline": [
     {
-      "year": 2004,
-      "event": "Completed Master's degree at University of Pennsylvania focusing on aerial-ground robot coordination",
-      "eventKo": "펜실베이니아 대학에서 항공-지상 로봇 조정에 관한 석사학위 완료"
+      "year": 1993,
+      "event": "Co-founded Renaissance Technologies research and trading firm",
+      "eventKo": "Renaissance Technologies 연구 및 거래 회사 공동 설립"
     },
     {
-      "year": 2006,
-      "event": "Earned second Master's degree from MIT in automatic flight control algorithms",
-      "eventKo": "MIT에서 자동비행제어 알고리즘에 관한 2번째 석사학위 취득"
+      "year": 2005,
+      "event": "Renaissance Technologies became leading quantitative hedge fund",
+      "eventKo": "Renaissance Technologies가 선도적인 정량 헤지펀드가 됨"
     },
     {
-      "year": 2007,
-      "event": "Returned to Turkey and became Chief Technology Officer of Baykar",
-      "eventKo": "터키로 귀국하여 바이카르의 최고기술책임자가 됨"
+      "year": 2010,
+      "event": "Oversaw massive AUM growth; managed billions for sophisticated investors",
+      "eventKo": "거대한 자산 규모 성장을 감독; 정교한 투자자를 위해 수십억 관리"
+    },
+    {
+      "year": 2018,
+      "event": "Renaissance Technologies closed flagship fund; focused on talent and infrastructure",
+      "eventKo": "Renaissance Technologies가 플래그십 펀드를 폐쇄; 인재 및 인프라에 중점"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Quantitative models struggled during financial crisis; massive losses despite sophisticated algorithms",
+      "descriptionKo": "금융 위기 중 정량 모델이 고전했습니다. 정교한 알고리즘에도 불구하고 거대한 손실",
+      "lesson": "No model perfectly predicts markets; tail risk and black swans always possible",
+      "lessonKo": "어떤 모델도 시장을 완벽하게 예측할 수 없습니다. 꼬리 위험 및 검은 백조는 항상 가능합니다",
+      "source": null
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 3.5
     },
     {
       "year": 2015,
-      "event": "Bayraktar TB2 UCAV deployed in military operations achieving international recognition",
-      "eventKo": "바이락타르 TB2 무인항공기가 군사작전에 투입되어 국제적 인정을 받음"
+      "netWorth": 5.2
     },
     {
-      "year": 2020,
-      "event": "Became Chairman of Teknofest aerospace and technology festival",
-      "eventKo": "테크노페스트 항공우주기술 축제의 의장이 됨"
-    }
-  ],
-  "failures": [],
-  "wealthHistory": [
-    {
-      "year": 2020,
-      "netWorth": 2.7
+      "year": 2024,
+      "netWorth": 8.0
     }
   ],
   "quotes": [
     {
-      "text": "We aim to make Turkey proud with our technology and innovation in defense systems.",
-      "textKo": "우리는 방위 시스템의 기술과 혁신으로 터키를 자랑스럽게 만드는 것을 목표로 합니다.",
-      "context": "On Baykar's mission and contribution to Turkish military capability",
-      "contextKo": "바이카르의 임무와 터키 군사력 향상에 대한 기여에 관해",
-      "source": "https://baykartech.com/en/selcuk-bayraktar/"
+      "text": "Mathematics and data science reveal market patterns that others miss",
+      "textKo": "수학과 데이터 과학은 다른 사람들이 놓친 시장 패턴을 드러냅니다",
+      "context": "Finance conference keynote, 2013",
+      "contextKo": "금융 회의 기조 연설, 2013년",
+      "source": null
     }
   ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "A Man for All Markets",
+        "author": "Edward Thorp",
+        "note": "Understanding quantitative investing and market patterns",
+        "noteKo": "정량 투자 및 시장 패턴 이해"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Engineering excellence, pioneering unmanned combat aerial vehicles, driving Turkish defense technology innovation",
-    "knownForKo": "공학적 탁월성, 무인전투기 개발, 터키 방위 기술 혁신 주도",
-    "philanthropy": null,
-    "philanthropyKo": null,
+    "knownFor": "Co-founder of Renaissance Technologies, legendary quantitative hedge fund. Known for mathematical genius and systematic trading approaches.",
+    "knownForKo": "전설의 정량 헤지펀드 Renaissance Technologies의 공동 설립자입니다. 수학적 천재 및 체계적 거래 접근으로 알려져 있습니다.",
+    "philanthropy": "Major donor to mathematics and science education; supports research institutions",
+    "philanthropyKo": "수학 및 과학 교육의 주요 기부자; 연구 기관을 지원합니다",
     "controversies": null,
     "controversiesKo": null
   },

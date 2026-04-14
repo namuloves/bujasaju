@@ -1,101 +1,91 @@
 {
   "id": "131",
-  "name": "Nik Storonsky",
-  "nameKo": "니크 스토론스키",
-  "netWorth": "$18.8B",
-  "nationality": "GB",
-  "industry": "Technology",
+  "name": "Kwong Siu-hing",
+  "nameKo": "광시우힝",
+  "netWorth": "$19.1B",
+  "nationality": "HK",
+  "industry": "Real Estate",
   "childhood": {
-    "birthPlace": "Dolgoprudny, Moscow Oblast, Russia",
-    "birthPlaceKo": "러시아 모스크바주 돌고프루드니",
-    "familyBackground": "Father Nikolay Mironovich Storonsky is a Ukrainian-born physicist and engineer from Lviv who graduated from the Moscow Institute of Physics and Technology (MIPT) and worked as a senior research fellow at VNIIGAZ, Gazprom's main scientific research centre",
-    "familyBackgroundKo": "아버지 니콜라이 미로노비치 스토론스키는 우크라이나 리비우 출신의 물리학자 겸 엔지니어로, 모스크바 물리기술대학(MIPT)을 졸업하고 가즈프롬의 주요 과학연구센터인 VNIIGAZ에서 선임연구원으로 근무",
-    "education": "Master's degree in General and Applied Physics from Moscow Institute of Physics and Technology (MIPT, 2007); Master's degree in Applied Economics and Finance from New Economic School (2007)",
-    "educationKo": "모스크바 물리기술대학(MIPT)에서 일반 및 응용물리학 석사(2007); 뉴이코노믹스쿨에서 응용경제학 및 금융 석사(2007)",
-    "earlyLife": "Born July 21, 1984, in Dolgoprudny near Moscow. Storonsky showed exceptional aptitude from an early age — he started reading economics books at age 6. As a youth, he trained in boxing and swimming, later becoming a state swimming champion during his university years. In 9th grade, he won the International Economics Olympiad, and won it again in 11th grade. He completed dual master's degrees at MIPT and the New Economic School by 2007.",
-    "earlyLifeKo": "1984년 7월 21일 모스크바 근처 돌고프루드니에서 태어났다. 스토론스키는 어린 시절부터 뛰어난 재능을 보였으며 6세부터 경제학 서적을 읽기 시작했다. 어린 시절 복싱과 수영을 훈련했고, 대학 시절에는 주 수영 챔피언이 되었다. 9학년 때 국제경제올림피아드에서 우승했고, 11학년 때 다시 우승했다. 2007년까지 MIPT와 뉴이코노믹스쿨에서 이중 석사 학위를 취득했다.",
-    "source": "Wikipedia, FinTech Magazine, Crunchbase"
+    "birthPlace": "Huadu, Guangdong, China",
+    "birthPlaceKo": "중국 광둥성 화두",
+    "familyBackground": "Born in Guangdong province during a turbulent period in Chinese history; moved from mainland China to British Hong Kong in 1947, on the eve of the Chinese Civil War",
+    "familyBackgroundKo": "중국 역사의 격동기에 광둥성에서 출생; 1947년 국공내전 직전에 중국 본토에서 영국령 홍콩으로 이주",
+    "education": "Details of formal education not publicly documented",
+    "educationKo": "정규 교육에 대한 세부 사항은 공개적으로 기록되지 않음",
+    "earlyLife": "Born on December 2, 1929, in Huadu, Guangdong, China, Kwong Siu-hing moved to Hong Kong in 1947 as a young woman fleeing the turmoil of the Chinese Civil War. She married Kwok Tak-seng at the age of 20. Her husband would go on to co-found Sun Hung Kai Properties, one of the largest real estate developers in Hong Kong.",
+    "earlyLifeKo": "1929년 12월 2일 중국 광둥성 화두에서 태어난 광시우힝은 1947년 국공내전의 혼란을 피해 젊은 나이에 홍콩으로 이주했다. 20세에 곽득승(Kwok Tak-seng)과 결혼했으며, 남편은 이후 홍콩 최대 부동산 개발업체 중 하나인 신홍기부동산(Sun Hung Kai Properties)을 공동 설립하게 된다.",
+    "source": "Wikipedia, Tatler Asia, Forbes"
   },
   "careerTimeline": [
     {
-      "year": 2006,
-      "event": "Moved to London and began career as equity derivatives trader at Lehman Brothers",
-      "eventKo": "런던으로 이주하여 리먼 브라더스에서 주식 파생상품 트레이더로 경력 시작"
+      "year": 1972,
+      "event": "Husband Kwok Tak-seng co-founded Sun Hung Kai Properties with Fung King-hey and Lee Shau Kee",
+      "eventKo": "남편 곽득승이 풍경희, 이조기와 함께 신홍기부동산을 공동 설립"
+    },
+    {
+      "year": 1990,
+      "event": "Kwok Tak-seng passed away; Kwong became the controlling matriarch of the family empire through the family trust",
+      "eventKo": "곽득승 사망; 광시우힝이 가족 신탁을 통해 가문 재벌의 실질적인 가장이 됨"
     },
     {
       "year": 2008,
-      "event": "Lehman Brothers collapsed; transitioned to Credit Suisse as a trader",
-      "eventKo": "리먼 브라더스 파산; 크레딧 스위스로 이직하여 트레이더로 근무"
+      "event": "Replaced eldest son Walter Kwok as chairperson of Sun Hung Kai Properties after family dispute",
+      "eventKo": "가족 분쟁 후 장남 월터 곽을 대신하여 신홍기부동산 회장으로 취임"
     },
     {
-      "year": 2013,
-      "event": "Left Credit Suisse and founded Revolut Ltd in December, investing £300,000 of personal savings",
-      "eventKo": "크레딧 스위스를 떠나 12월에 개인 저축 30만 파운드를 투자하여 Revolut을 설립"
+      "year": 2011,
+      "event": "Stepped down as chairperson of Sun Hung Kai Properties",
+      "eventKo": "신홍기부동산 회장직에서 퇴임"
     },
     {
-      "year": 2015,
-      "event": "Revolut app launched publicly in July, offering multi-currency cards with interbank exchange rates",
-      "eventKo": "7월에 은행간 환율을 적용한 다중통화 카드를 제공하는 Revolut 앱 공개 출시"
+      "year": 2012,
+      "event": "Sons Thomas and Raymond Kwok arrested in ICAC corruption investigation; Thomas later convicted",
+      "eventKo": "아들 토머스와 레이몬드 곽이 ICAC 부패 수사로 체포; 토머스는 이후 유죄 판결"
     },
     {
-      "year": 2018,
-      "event": "Revolut reached unicorn status with $250M Series C at $1.7B valuation",
-      "eventKo": "Revolut이 2억 5천만 달러 시리즈 C 투자로 17억 달러 가치 평가를 받으며 유니콘 지위 달성"
-    },
-    {
-      "year": 2021,
-      "event": "Revolut raised $800M at $33B valuation, becoming Europe's most valuable fintech startup",
-      "eventKo": "Revolut이 330억 달러 가치 평가로 8억 달러를 유치하며 유럽 최고 가치 핀테크 스타트업이 됨"
-    },
-    {
-      "year": 2024,
-      "event": "Revolut received UK banking license; surpassed 50 million global customers",
-      "eventKo": "Revolut이 영국 은행 라이선스를 획득; 전 세계 고객 5천만 명 돌파"
-    },
-    {
-      "year": 2026,
-      "event": "Revolut received full UK banking license with FSCS deposit protection for customers",
-      "eventKo": "Revolut이 FSCS 예금자 보호가 포함된 완전한 영국 은행 라이선스를 획득"
+      "year": 2025,
+      "event": "Continues to control approximately 41.53% of SHKP shares through the Kwok family trust as the largest shareholder",
+      "eventKo": "곽 가문 신탁을 통해 SHKP 지분 약 41.53%를 계속 통제하며 최대 주주 지위 유지"
     }
   ],
   "failures": [
     {
       "year": 2008,
-      "description": "Was working at Lehman Brothers when the firm collapsed in the largest bankruptcy in U.S. history, a formative experience that shaped his views on traditional banking's inefficiencies.",
-      "descriptionKo": "리먼 브라더스가 미국 역사상 최대 파산으로 붕괴할 때 그곳에서 근무 중이었으며, 이 경험이 전통 은행의 비효율성에 대한 그의 관점을 형성했다.",
-      "lesson": "Witnessing a major bank collapse firsthand fueled his conviction that financial services needed disruption through technology, directly inspiring the creation of Revolut.",
-      "lessonKo": "대형 은행의 붕괴를 직접 목격한 것이 기술을 통한 금융 서비스 혁신이 필요하다는 확신을 강화했고, 이것이 Revolut 탄생에 직접적 영감이 되었다.",
-      "source": "Wikipedia, FinTech Magazine"
+      "description": "A bitter family feud erupted between her three sons over control of Sun Hung Kai Properties. Eldest son Walter was ousted as chairman, and Kwong had to step in as chairperson at age 78 to stabilize the company.",
+      "descriptionKo": "세 아들 사이에 신홍기부동산의 경영권을 둘러싼 격렬한 가족 분쟁이 발생했다. 장남 월터가 회장에서 축출되었고, 광시우힝은 78세의 나이에 회사를 안정시키기 위해 회장으로 나서야 했다.",
+      "lesson": "The dispute highlighted the challenges of succession planning in family-controlled conglomerates and the importance of clear governance structures.",
+      "lessonKo": "이 분쟁은 가족 지배 대기업의 승계 계획의 어려움과 명확한 거버넌스 구조의 중요성을 부각시켰다.",
+      "source": "Wikipedia, South China Morning Post"
     },
     {
-      "year": 2019,
-      "description": "Revolut faced intense media scrutiny over its aggressive workplace culture, with reports of high employee turnover, grueling work conditions, and compliance concerns.",
-      "descriptionKo": "Revolut은 높은 직원 이직률, 가혹한 근무 조건, 컴플라이언스 우려에 대한 보도로 공격적인 직장 문화에 대해 언론의 강도 높은 조사를 받았다.",
-      "lesson": "The scrutiny led Revolut to invest significantly in compliance, HR practices, and corporate governance, ultimately helping it secure banking licenses.",
-      "lessonKo": "이러한 조사로 Revolut은 컴플라이언스, 인사 관행, 기업 거버넌스에 상당한 투자를 하게 되었고, 궁극적으로 은행 라이선스 획득에 도움이 되었다.",
-      "source": "Wired, Financial Times"
+      "year": 2012,
+      "description": "Sons Thomas and Raymond Kwok were arrested by Hong Kong's Independent Commission Against Corruption (ICAC) on bribery charges. Thomas was eventually convicted, bringing significant scandal to the family.",
+      "descriptionKo": "아들 토머스와 레이몬드 곽이 뇌물 혐의로 홍콩 염정공서(ICAC)에 체포되었다. 토머스는 최종적으로 유죄 판결을 받아 가문에 큰 스캔들을 가져왔다.",
+      "lesson": "The case underscored the risks of mixing business with political connections in Hong Kong's property market.",
+      "lessonKo": "이 사건은 홍콩 부동산 시장에서 사업과 정치적 연줄을 혼합하는 것의 위험성을 여실히 보여주었다.",
+      "source": "Wikipedia, SCMP"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2018,
-      "netWorth": 1.0
+      "year": 2010,
+      "netWorth": 12.0
     },
     {
-      "year": 2021,
-      "netWorth": 7.1
+      "year": 2015,
+      "netWorth": 17.5
     },
     {
-      "year": 2023,
-      "netWorth": 4.5
+      "year": 2019,
+      "netWorth": 15.1
+    },
+    {
+      "year": 2022,
+      "netWorth": 16.8
     },
     {
       "year": 2025,
-      "netWorth": 7.9
-    },
-    {
-      "year": 2026,
-      "netWorth": 18.8
+      "netWorth": 19.1
     }
   ],
   "quotes": [],
@@ -104,12 +94,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building Revolut from a travel money card into one of the world's largest digital banks; intense work ethic and demanding management style; disrupting traditional banking with technology",
-    "knownForKo": "Revolut을 여행용 머니카드에서 세계 최대 디지털 은행 중 하나로 성장시킴; 강렬한 업무 윤리와 요구 수준 높은 관리 스타일; 기술로 전통 은행업을 혁신",
-    "philanthropy": "Founded QuantumLight, a venture capital firm focused on deep tech and AI startups",
-    "philanthropyKo": "딥테크 및 AI 스타트업에 집중하는 벤처캐피탈 회사 QuantumLight를 설립",
-    "controversies": "Revolut's workplace culture has been criticized as overly demanding; delayed UK banking license due to compliance concerns; scrutiny over anti-money laundering controls",
-    "controversiesKo": "Revolut의 직장 문화가 지나치게 가혹하다는 비판을 받음; 컴플라이언스 우려로 영국 은행 라이선스 지연; 자금세탁방지 통제에 대한 조사"
+    "knownFor": "Matriarch of the Kwok family dynasty; controlling shareholder of Sun Hung Kai Properties through the family trust; stepping in as SHKP chairperson during family crisis at age 78",
+    "knownForKo": "곽 가문 왕조의 가장; 가족 신탁을 통한 신홍기부동산의 지배주주; 78세에 가족 위기 중 SHKP 회장으로 취임",
+    "philanthropy": "The Kwok family has supported various educational and social initiatives in Hong Kong through Sun Hung Kai Properties' community programs",
+    "philanthropyKo": "곽 가문은 신홍기부동산의 지역사회 프로그램을 통해 홍콩의 다양한 교육 및 사회 사업을 지원해 왔음",
+    "controversies": "Family feud over SHKP control involving her three sons; son Thomas Kwok's corruption conviction in 2014; questions about corporate governance in family-controlled Hong Kong conglomerates",
+    "controversiesKo": "세 아들이 관련된 SHKP 경영권 분쟁; 아들 토머스 곽의 2014년 부패 유죄 판결; 가족 지배 홍콩 대기업의 기업 거버넌스에 대한 의문"
   },
   "sajuConnection": null
 }

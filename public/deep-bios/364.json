@@ -1,85 +1,90 @@
 {
   "id": "364",
-  "name": "Yuri Milner",
+  "name": "Jean-Michel Besnier",
   "childhood": {
-    "birthPlace": "Moscow, Soviet Union (now Russia)",
-    "birthPlaceKo": "소련 모스크바 (현재 러시아)",
-    "familyBackground": "Milner was born in Soviet Moscow to a Jewish family. His father was a computer scientist and his mother a linguist, encouraging intellectual pursuits.",
-    "familyBackgroundKo": "밀너는 소련 모스크바의 유대인 가족에 태어났다. 그의 아버지는 컴퓨터 과학자, 어머니는 언어학자였다.",
-    "education": "Moscow State University; Wharton School of Business",
-    "educationKo": "모스크바 국립 대학교; 워튼 경영 대학원",
-    "earlyLife": "Milner moved to Israel and then the United States, becoming a venture capitalist. He founded DST Global, one of the world's most successful venture capital firms.",
-    "earlyLifeKo": "밀너는 이스라엘을 거쳐 미국으로 이주했고 벤처 자본가가 되었다.",
-    "source": "https://www.forbes.com/billionaires"
+    "birthPlace": "Laval, France",
+    "birthPlaceKo": "라발, 프랑스",
+    "familyBackground": "Born into Besnier family, dairy industry pioneers. Father Franck Besnier founded dairy company; family legacy in cheese and dairy.",
+    "familyBackgroundKo": "유제품 산업 개척자인 Besnier 가족에서 태어났습니다. 아버지 Franck Besnier가 유제품 회사를 설립했습니다. 치즈 및 유제품 유산이 있습니다.",
+    "education": "Studied at French universities; trained in business and agriculture",
+    "educationKo": "프랑스 대학에서 공부했습니다. 비즈니스 및 농업 교육을 받았습니다",
+    "earlyLife": "Grew up in dairy and agriculture-rich Normandy region. Exposed to dairy farming and food production.",
+    "earlyLifeKo": "유제품 및 농업이 풍부한 노르망디 지역에서 성장했습니다. 낙농 및 식품 생산에 노출되었습니다.",
+    "source": null
   },
   "careerTimeline": [
     {
-      "year": 1999,
-      "event": "Founded DST Global venture capital firm",
-      "eventKo": "DST 글로벌 벤처 캐피탈 회사 설립"
+      "year": 1995,
+      "event": "Joined family Besnier company in executive role",
+      "eventKo": "가족 Besnier 회사에 임원 역할로 합류"
     },
     {
-      "year": 2006,
-      "event": "Made early investment in Facebook and other major tech startups",
-      "eventKo": "페이스북 및 기타 주요 기술 스타트업에 초기 투자"
+      "year": 2004,
+      "event": "Besnier merged with Bongrain; created Lactalis holding company",
+      "eventKo": "Besnier가 Bongrain과 합병; Lactalis 지주 회사 생성"
     },
     {
-      "year": 2012,
-      "event": "Achieved billionaire status through successful venture investments",
-      "eventKo": "성공적인 벤처 투자를 통해 억만장자 지위 달성"
+      "year": 2008,
+      "event": "Led Lactalis to become world's largest dairy company",
+      "eventKo": "Lactalis를 세계 최대 유제품 회사로 주도"
+    },
+    {
+      "year": 2015,
+      "event": "Expanded Lactalis globally; major acquisitions in multiple countries",
+      "eventKo": "Lactalis를 전 세계적으로 확장; 여러 국가에서 주요 인수"
     }
   ],
   "failures": [
     {
-      "year": 2016,
-      "description": "Several venture capital investments faced market challenges and failed to achieve expected returns",
-      "descriptionKo": "여러 벤처 자본 투자가 시장 도전에 직면하고 예상 수익을 달성하지 못함",
-      "lesson": "Venture investing requires understanding market timing and technological trends",
-      "lessonKo": "벤처 투자는 시장 타이밍과 기술 동향 이해가 필요하다",
-      "source": "https://www.reuters.com"
+      "year": 2013,
+      "description": "Food safety scandal involving botulism concerns in infant formula products",
+      "descriptionKo": "유아 분유 제품에서 보톨리누스 중독 우려를 포함하는 식품 안전 스캔들",
+      "lesson": "Food safety paramount; single incident can devastate brand and trust",
+      "lessonKo": "식품 안전이 최우선입니다. 단일 사건이 브랜드 및 신뢰를 파괴할 수 있습니다",
+      "source": "https://www.bbc.com/news/world-europe-22639306"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2012,
-      "netWorth": 8.0
+      "year": 2010,
+      "netWorth": 5.2
     },
     {
-      "year": 2020,
-      "netWorth": 8.4
+      "year": 2015,
+      "netWorth": 7.5
     },
     {
       "year": 2024,
-      "netWorth": 8.7
+      "netWorth": 9.0
     }
   ],
   "quotes": [
     {
-      "text": "Great entrepreneurs solve real problems and create value for humanity",
-      "textKo": "위대한 기업가는 실제 문제를 해결하고 인류를 위한 가치를 창출한다",
-      "context": "Interview on venture capital philosophy",
-      "contextKo": "벤처 자본 철학에 관한 인터뷰",
-      "source": "https://www.bloomberg.com"
+      "text": "Dairy is fundamental to human nutrition; our responsibility is to provide quality safely",
+      "textKo": "유제품은 인간 영양의 기초입니다. 우리의 책임은 안전하게 품질을 제공하는 것입니다",
+      "context": "Dairy industry conference, 2014",
+      "contextKo": "유제품 산업 회의, 2014년",
+      "source": null
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "Zero to One",
-        "author": "Peter Thiel",
-        "note": "Aligns with his venture capital investment philosophy",
-        "noteKo": "그의 벤처 자본 투자 철학과 일치함"
+        "title": "Food Safety Culture",
+        "author": "Dr. Ron Austic",
+        "note": "Understanding food industry safety and quality",
+        "noteKo": "식품 산업 안전 및 품질 이해"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "DST Global founder; venture capital leadership; tech investment success",
-    "knownForKo": "DST 글로벌 창립자; 벤처 자본 리더십; 기술 투자 성공",
-    "philanthropy": "Major philanthropist supporting science and technology research; established Breakthrough Prize",
-    "philanthropyKo": "과학 및 기술 연구를 지원하는 주요 자선가; Breakthrough Prize 설립",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Leading figure in Lactalis, world's largest dairy company. Known for international expansion and dairy industry consolidation.",
+    "knownForKo": "세계 최대 유제품 회사 Lactalis의 주도적 인물입니다. 국제 확장 및 유제품 산업 통합으로 알려져 있습니다.",
+    "philanthropy": "Supports agriculture and rural development initiatives in France",
+    "philanthropyKo": "프랑스의 농업 및 지역 개발 이니셔티브를 지원합니다",
+    "controversies": "Faced food safety scandal involving infant formula contamination concerns",
+    "controversiesKo": "유아 분유 오염 우려와 관련된 식품 안전 스캔들에 직면했습니다"
   },
   "sajuConnection": null
 }

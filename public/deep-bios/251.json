@@ -1,102 +1,132 @@
 {
   "id": "251",
-  "name": "Charlie Mills",
-  "nameKo": "찰리 밀스",
-  "netWorth": "$11.2B",
+  "name": "Vinod Khosla",
+  "nameKo": "비노드 코슬라",
+  "netWorth": "$11.6B",
   "nationality": "US",
-  "industry": "Healthcare",
+  "industry": "Finance & Investments",
   "childhood": {
-    "birthPlace": "United States",
-    "birthPlaceKo": "미국",
-    "familyBackground": "Fourth-generation member of the Mills family that founded the medical supply business. Great-grandfather A.L. Mills moved from small-town Arkansas to Illinois and sold handmade butcher's aprons. The business pivoted to healthcare when a nun requested hospital garments. Father Jim Mills and uncle Jon Mills built Medline into a national medical supply powerhouse.",
-    "familyBackgroundKo": "의료 용품 사업을 창립한 밀스 가문의 4세대 구성원. 증조부 A.L. 밀스가 아칸소 시골에서 일리노이로 이주하여 수제 정육점 앞치마를 판매. 한 수녀가 병원 의복을 요청하면서 사업이 의료 분야로 전환되었다. 아버지 짐 밀스와 삼촌 존 밀스가 메드라인을 전국적인 의료 용품 기업으로 성장시켰다.",
-    "education": "B.S. in Mechanical Engineering from Cornell University (1983); MBA from Cornell University (1984)",
-    "educationKo": "코넬 대학교 기계공학 학사(1983); 코넬 대학교 MBA(1984)",
-    "earlyLife": "Charlie Mills grew up in the family business environment. After completing his engineering degree and MBA at Cornell, he briefly worked as a marketing representative with IBM in Washington, DC. In 1986, he returned to the family business as a sales representative in Florida, beginning his rise through the ranks of Medline Industries.",
-    "earlyLifeKo": "찰리 밀스는 가업 환경에서 자랐다. 코넬에서 공학 학위와 MBA를 마친 후 워싱턴 DC에서 IBM의 마케팅 담당자로 잠시 일했다. 1986년 플로리다에서 영업 사원으로 가업에 복귀하며 메드라인 인더스트리즈에서의 성장을 시작했다.",
-    "source": "Wikipedia, Cornell Engineering, Medline.com"
+    "birthPlace": "New Delhi, India",
+    "birthPlaceKo": "인도 뉴델리",
+    "familyBackground": "Father was an officer in the Indian Armed Forces; grew up in a military household with no business or technology connections",
+    "familyBackgroundKo": "아버지는 인도 군대 장교; 사업이나 기술과 관련 없는 군인 가정에서 성장",
+    "education": "B.Tech in Electrical Engineering from IIT Delhi; M.S. in Biomedical Engineering from Carnegie Mellon University; MBA from Stanford Graduate School of Business",
+    "educationKo": "인도공과대학교(IIT) 델리 전기공학 학사; 카네기 멜론 대학교 생체의학공학 석사; 스탠포드 경영대학원 MBA",
+    "earlyLife": "Born on January 28, 1955, in New Delhi, Khosla grew up dreaming of being an entrepreneur despite having no business role models. At age 16, reading about Intel's founding in Electronic Engineering Times changed the course of his life. After earning his engineering degree from IIT Delhi, he tried to start a soy milk company in India to serve people without refrigerators — the venture failed. He then came to the U.S. for graduate studies at Carnegie Mellon and Stanford.",
+    "earlyLifeKo": "1955년 1월 28일 뉴델리에서 태어난 코슬라는 사업적 롤모델이 없었음에도 기업가를 꿈꾸며 자랐다. 16세 때 전자공학 시대에서 인텔의 창업 이야기를 읽고 인생의 방향이 바뀌었다. IIT 델리에서 공학 학위를 취득한 후 냉장고가 없는 사람들을 위한 두유 회사를 인도에서 창업하려 했으나 실패했다. 이후 카네기 멜론과 스탠포드에서 대학원 과정을 위해 미국으로 건너갔다.",
+    "source": "Wikipedia, Computer History Museum, Khosla Ventures"
   },
   "careerTimeline": [
     {
+      "year": 1982,
+      "event": "Co-founded Sun Microsystems with Andy Bechtolsheim, Scott McNealy, and Bill Joy; raised $300,000 seed from Kleiner Perkins",
+      "eventKo": "앤디 벡톨스하임, 스콧 맥닐리, 빌 조이와 함께 선 마이크로시스템즈 공동 창업; 클라이너 퍼킨스로부터 30만 달러 시드 투자 유치"
+    },
+    {
       "year": 1984,
-      "event": "Completed MBA at Cornell University and began career at IBM as a marketing representative in Washington, DC",
-      "eventKo": "코넬 대학교에서 MBA를 마치고 워싱턴 DC에서 IBM 마케팅 담당자로 경력 시작"
+      "event": "Left Sun Microsystems after it reached profitability; the company went on to create the Java programming language",
+      "eventKo": "선 마이크로시스템즈가 수익성을 달성한 후 퇴사; 이후 회사는 자바 프로그래밍 언어를 개발"
     },
     {
       "year": 1986,
-      "event": "Joined Medline Industries as a sales representative in Florida, returning to the family business",
-      "eventKo": "플로리다에서 메드라인 인더스트리즈의 영업 사원으로 입사하여 가업에 복귀"
+      "event": "Joined Kleiner Perkins Caufield & Byers as a general partner, investing in technology startups",
+      "eventKo": "클라이너 퍼킨스 코필드 앤 바이어스에 제너럴 파트너로 합류하여 기술 스타트업에 투자"
     },
     {
-      "year": 1997,
-      "event": "Named CEO of Medline Industries, becoming the fourth generation of the Mills family to lead the company; revenue was approximately $500 million",
-      "eventKo": "메드라인 인더스트리즈의 CEO로 임명, 밀스 가문의 4세대 경영자가 됨; 당시 매출 약 5억 달러"
+      "year": 2004,
+      "event": "Founded Khosla Ventures to focus on high-risk, science-based technology investments with social impact",
+      "eventKo": "사회적 영향력을 가진 고위험 과학 기반 기술 투자에 집중하기 위해 코슬라 벤처스 설립"
     },
     {
-      "year": 2010,
-      "event": "Grew Medline into the largest privately held manufacturer and distributor of healthcare supplies in the US with double-digit annual revenue growth",
-      "eventKo": "메드라인을 미국 최대 비상장 의료 용품 제조 및 유통 기업으로 성장시키며 매년 두 자릿수 매출 성장 달성"
+      "year": 2014,
+      "event": "First appeared on the Forbes 400 list of wealthiest Americans",
+      "eventKo": "포브스 400 미국 최고 부자 목록에 처음 등장"
     },
     {
-      "year": 2021,
-      "event": "Sold majority stake to private equity consortium (Blackstone, Carlyle, Hellman & Friedman) for $30 billion, one of the largest PE deals in history",
-      "eventKo": "블랙스톤, 칼라일, 헬만 앤 프리드먼 사모펀드 컨소시엄에 300억 달러에 과반수 지분 매각, 역대 최대 규모의 사모펀드 거래 중 하나"
-    },
-    {
-      "year": 2023,
-      "event": "Retired as CEO after 26 years of leadership, transitioning to Chairman of the Board; revenue had grown to over $20 billion",
-      "eventKo": "26년간의 경영 후 CEO에서 은퇴하고 이사회 의장으로 전환; 매출이 200억 달러 이상으로 성장"
+      "year": 2024,
+      "event": "Khosla Ventures portfolio included major AI companies; Supreme Court ruled in his favor in the Martin's Beach public access case after a decade-long legal battle",
+      "eventKo": "코슬라 벤처스 포트폴리오에 주요 AI 기업 포함; 10년간의 법적 분쟁 끝에 마틴스 비치 공개 접근 사건에서 대법원이 그에게 유리한 판결"
     },
     {
       "year": 2025,
-      "event": "Medline completed its IPO on Nasdaq in December, raising $6.26 billion at a $55 billion+ valuation; the Mills family stake valued at approximately $9.6 billion",
-      "eventKo": "메드라인이 12월 나스닥에서 IPO를 완료하여 550억 달러 이상의 기업가치로 62.6억 달러를 조달; 밀스 가문 지분 약 96억 달러로 평가"
+      "event": "Net worth surged past $11 billion, driven by AI and clean energy investments",
+      "eventKo": "AI 및 청정 에너지 투자에 힘입어 순자산이 110억 달러를 돌파"
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "COVID-19 pandemic caused massive supply chain disruptions for Medline, creating unprecedented challenges in sourcing and distributing critical medical supplies as global demand surged.",
-      "descriptionKo": "코로나19 팬데믹으로 메드라인의 공급망에 대규모 혼란이 발생, 글로벌 수요 급증으로 핵심 의료 용품의 조달 및 유통에 전례 없는 어려움이 생겼다.",
-      "lesson": "The crisis ultimately validated Medline's vertically integrated model and domestic manufacturing capabilities, positioning the company for even stronger growth post-pandemic.",
-      "lessonKo": "이 위기는 궁극적으로 메드라인의 수직 통합 모델과 국내 제조 역량의 가치를 입증했으며, 팬데믹 이후 더욱 강력한 성장을 위한 발판이 되었다.",
-      "source": "Crain's Chicago Business, Forbes"
+      "year": 1976,
+      "description": "After graduating from IIT Delhi, Khosla attempted to start a soy milk company in India to serve people without refrigerators. The venture failed completely.",
+      "descriptionKo": "IIT 델리를 졸업한 후, 코슬라는 냉장고가 없는 사람들을 위한 두유 회사를 인도에서 시작하려 했다. 사업은 완전히 실패했다.",
+      "lesson": "The failure pushed him to pursue further education in the U.S. and ultimately led him to Silicon Valley, where he co-founded Sun Microsystems.",
+      "lessonKo": "이 실패는 그를 미국에서 추가 교육을 받도록 했고, 궁극적으로 선 마이크로시스템즈를 공동 창업한 실리콘밸리로 이끌었다.",
+      "source": "Wikipedia, Bollywood Shaadis"
+    },
+    {
+      "year": 2012,
+      "description": "Several of Khosla's clean energy investments failed, including biofuel companies KiOR and Range Fuels, which went bankrupt. Critics labeled him a 'green energy gambler' who wasted hundreds of millions.",
+      "descriptionKo": "바이오 연료 기업 KiOR와 레인지 퓨얼스를 포함한 코슬라의 여러 청정 에너지 투자가 실패하여 파산했다. 비평가들은 그를 수억 달러를 낭비한 '녹색 에너지 도박꾼'이라 불렀다.",
+      "lesson": "Khosla maintained his conviction in high-risk, high-reward investing, arguing that a few big wins can offset many failures in venture capital.",
+      "lessonKo": "코슬라는 고위험·고보상 투자에 대한 확신을 유지하며, 벤처 캐피탈에서는 소수의 큰 성공이 다수의 실패를 상쇄할 수 있다고 주장했다.",
+      "source": "Wikipedia, Moonfare"
     }
   ],
   "wealthHistory": [
     {
       "year": 2014,
-      "netWorth": 1.1
+      "netWorth": 2.7
     },
     {
-      "year": 2018,
-      "netWorth": 2.5
+      "year": 2019,
+      "netWorth": 3.5
     },
     {
-      "year": 2021,
-      "netWorth": 5.0
-    },
-    {
-      "year": 2024,
-      "netWorth": 7.5
+      "year": 2022,
+      "netWorth": 4.7
     },
     {
       "year": 2025,
-      "netWorth": 11.2
+      "netWorth": 9.2
+    },
+    {
+      "year": 2026,
+      "netWorth": 11.6
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "I don't mind a larger probability of failure, with sufficient diversification in each fund. When we succeed, it has to be worth it.",
+      "textKo": "각 펀드에 충분한 다각화가 있다면 더 높은 실패 확률도 괜찮다. 성공하면, 그 가치가 있어야 한다.",
+      "context": "Describing his option-value investing approach at Khosla Ventures",
+      "contextKo": "코슬라 벤처스에서의 옵션 가치 투자 접근 방식을 설명하며",
+      "source": "Moonfare Deal Talk podcast"
+    },
+    {
+      "text": "The single most important decision by far you will make is the team you build.",
+      "textKo": "여러분이 내릴 가장 중요한 결정은 단연코 팀을 구성하는 것이다.",
+      "context": "Advising startup founders on what matters most in building a company",
+      "contextKo": "스타트업 창업자들에게 회사를 만드는 데 가장 중요한 것이 무엇인지 조언하며",
+      "source": "GeekWire interview (2025)"
+    },
+    {
+      "text": "Thinking from first principles, being a rapid learner, asking a lot of questions, questioning your own assumptions — it's way more important than experience.",
+      "textKo": "제1원칙에서 사고하기, 빠른 학습자 되기, 많은 질문하기, 자신의 가정에 의문 제기하기 — 이것이 경험보다 훨씬 중요하다.",
+      "context": "On what makes a great entrepreneur versus relying on past experience",
+      "contextKo": "과거 경험에 의존하는 것과 대조하여 위대한 기업가를 만드는 요소에 대해",
+      "source": "Khosla Ventures, YourStory"
+    }
+  ],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Transforming Medline from a $500M family business into a $20B+ healthcare supply giant over 26 years as CEO; maintaining family-run culture through massive growth",
-    "knownForKo": "CEO로서 26년간 메드라인을 5억 달러 가족 기업에서 200억 달러 이상의 의료 용품 대기업으로 변모시킴; 대규모 성장 속에서도 가족 경영 문화 유지",
-    "philanthropy": "The Mills family has supported various healthcare and community causes, though specific philanthropic details remain relatively private.",
-    "philanthropyKo": "밀스 가문은 다양한 의료 및 지역사회 관련 자선 활동을 지원해왔으나, 구체적인 자선 활동 내용은 비교적 사적으로 유지되고 있다.",
-    "controversies": "No major public controversies. The 2021 private equity buyout drew attention for its massive scale, and the family's decision not to sell shares during the 2025 IPO was noted by market watchers.",
-    "controversiesKo": "주요 공개 논란 없음. 2021년 사모펀드 인수는 그 거대한 규모로 주목받았으며, 2025년 IPO 시 가족이 주식을 매각하지 않기로 한 결정이 시장 관찰자들의 주목을 받았다."
+    "knownFor": "Co-founding Sun Microsystems, pioneering venture capital in clean energy and AI, high-conviction 'option-value' investing philosophy, outspoken views on technology's role in society",
+    "knownForKo": "선 마이크로시스템즈 공동 창업, 청정 에너지와 AI 분야 벤처 캐피탈 개척, 높은 확신의 '옵션 가치' 투자 철학, 기술의 사회적 역할에 대한 솔직한 견해",
+    "philanthropy": "Active supporter of education and healthcare initiatives in India and the U.S. Focuses philanthropy on areas where technology can have social impact. Advocates for clean energy investments as a form of social good.",
+    "philanthropyKo": "인도와 미국에서 교육 및 의료 이니셔티브의 적극적인 지원자. 기술이 사회적 영향을 미칠 수 있는 분야에 자선 활동을 집중. 사회적 선의 한 형태로서 청정 에너지 투자를 옹호.",
+    "controversies": "Engaged in a decade-long legal battle over public beach access at Martin's Beach in California, where he purchased coastal property and blocked public access, drawing criticism from environmentalists and surfers. Several of his green energy investments failed spectacularly.",
+    "controversiesKo": "캘리포니아 마틴스 비치에서 해안 부동산을 구입하고 공공 접근을 차단하여 환경주의자와 서퍼들의 비판을 받으며 10년간의 법적 분쟁에 휘말림. 여러 녹색 에너지 투자가 크게 실패함."
   },
   "sajuConnection": null
 }

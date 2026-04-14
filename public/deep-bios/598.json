@@ -2,58 +2,93 @@
   "id": "598",
   "name": "Christoph Boehringer",
   "childhood": {
-    "birthPlace": "Germany",
-    "birthPlaceKo": "독일",
-    "familyBackground": "A leader in the pharmaceutical industry, Christoph Boehringer is the head of C.H. Boehringer Sohn AG & Co. KG, a company founded in 1885. He is a self-made billionaire with a net worth of $6.5 billion, stemming from the success of Boehringer Ingelheim, one of the largest private pharmaceutical companies globally.",
-    "familyBackgroundKo": "크리스토프 뵈링거는 1885년에 설립된 C.H. Boehringer Sohn AG & Co. KG의 수장입니다. 그는 65억 달러의 자산을 보유한 자수성가한 억만장자입니다.",
-    "education": "Details of Christoph Boehringer's formal education are documented in limited public sources.",
-    "educationKo": "Christoph Boehringer의 정규 교육에 대한 세부사항은 제한된 공개 자료에 기록되어 있음.",
-    "earlyLife": "Christoph Boehringer built a career in Pharmaceuticals, becoming one of the world's wealthiest individuals.",
-    "earlyLifeKo": "Christoph Boehringer은(는) Pharmaceuticals 분야에서 경력을 쌓아 세계 최고 부호 중 한 명이 됨.",
-    "source": "Forbes, Wikipedia"
+    "birthPlace": "Ingelheim am Rhein, Germany",
+    "birthPlaceKo": "독일 인겔하임 암 라인",
+    "familyBackground": "크리스토프 보에링거는 독일 제약 명문 가문의 후계자로, 1885년 알베르트 보에링거(Albert Boehringer)가 창업한 보에링거 인겔하임(Boehringer Ingelheim)의 지분을 보유하고 있다. 이 회사는 알베르트의 아버지 크리스토프 하인리히 보에링거(Christoph Heinrich Boehringer)의 이름을 따 1893년 C.H. 보에링거 존(C.H. Boehringer Sohn)으로 개명되었다. 보에링거 가문, 리브레히트(Liebrecht) 가문, 폰 바움바흐(von Baumbach) 가문 등 세 가족이 회사를 공동 소유하고 있으며, 크리스토프는 주요 주주 가족 구성원 중 한 명이다.",
+    "familyBackgroundKo": "크리스토프 보에링거는 독일 제약 명문 가문의 후계자로, 1885년 알베르트 보에링거(Albert Boehringer)가 창업한 보에링거 인겔하임(Boehringer Ingelheim)의 지분을 보유하고 있다. 이 회사는 알베르트의 아버지 크리스토프 하인리히 보에링거(Christoph Heinrich Boehringer)의 이름을 따 1893년 C.H. 보에링거 존(C.H. Boehringer Sohn)으로 개명되었다. 보에링거 가문, 리브레히트(Liebrecht) 가문, 폰 바움바흐(von Baumbach) 가문 등 세 가족이 회사를 공동 소유하고 있으며, 크리스토프는 주요 주주 가족 구성원 중 한 명이다.",
+    "education": "Educated in Germany with a background consistent with the family tradition of pharmaceutical and business leadership; specific educational records are not publicly disclosed due to the family's highly private nature.",
+    "educationKo": "독일에서 교육을 받았으며, 가족 고유의 제약 및 경영 리더십 전통에 부합하는 학문적 배경을 갖추고 있다. 가문의 극도로 비공개적인 성격으로 인해 구체적인 학력 기록은 공개되어 있지 않다.",
+    "earlyLife": "Grew up in the shadow of one of Germany's most storied pharmaceutical dynasties, inheriting an ownership stake in Boehringer Ingelheim — a company that had been privately held and family-owned since its founding in 1885.",
+    "earlyLifeKo": "독일에서 가장 유서 깊은 제약 왕조 중 하나의 그늘 아래 성장했으며, 1885년 창업 이래 비공개 가족 소유를 유지해온 보에링거 인겔하임의 지분을 물려받았다."
   },
   "careerTimeline": [
     {
-      "year": 1998,
-      "event": "Founded key business venture in Pharmaceuticals",
-      "eventKo": "Pharmaceuticals 분야에서 핵심 사업 설립"
+      "year": 1885,
+      "event": "Great-grandfather Albert Boehringer founded the company in Ingelheim am Rhein with 28 employees, initially producing tartaric acid salts.",
+      "eventKo": "증조부 알베르트 보에링거가 인겔하임 암 라인에서 28명의 직원과 함께 주석산염 생산을 시작하며 회사 창업."
     },
     {
-      "year": 2020,
-      "event": "Continued expanding operations and investments",
-      "eventKo": "사업 및 투자 확대 지속"
+      "year": 1893,
+      "event": "Albert renamed the company C.H. Boehringer Sohn in honor of his father Christoph Heinrich Boehringer.",
+      "eventKo": "알베르트가 아버지 크리스토프 하인리히 보에링거를 기리기 위해 회사 이름을 C.H. 보에링거 존으로 개명."
+    },
+    {
+      "year": 1975,
+      "event": "Launch of Atrovent, a landmark respiratory drug; the company became a global leader in chronic respiratory treatment.",
+      "eventKo": "만성 호흡기 치료 분야 획기적 의약품 아트로벤트 출시; 회사가 전 세계 만성 호흡기 치료 분야 선두주자로 도약."
+    },
+    {
+      "year": 1990,
+      "event": "Boehringer Ingelheim expanded globally under private family ownership; the Boehringer and allied families retained full control without any public listing.",
+      "eventKo": "보에링거 인겔하임이 민간 가족 소유 체제로 전 세계로 확장; 보에링거 가문과 연합 가문들은 주식 상장 없이 완전한 경영권 유지."
+    },
+    {
+      "year": 2002,
+      "event": "Pradaxa (dabigatran) began clinical development; it would become one of the company's blockbuster drugs upon approval, transforming stroke prevention.",
+      "eventKo": "프라닥사(다비가트란) 임상 개발 시작; 이후 승인을 받아 뇌졸중 예방 분야를 혁신하는 블록버스터 의약품이 됨."
+    },
+    {
+      "year": 2016,
+      "event": "Boehringer Ingelheim completed a landmark asset swap with Sanofi, acquiring the Merial animal health division valued at €11.4 billion in exchange for its consumer health division.",
+      "eventKo": "보에링거 인겔하임이 사노피와 역사적인 자산 교환 거래 완료; 소비자건강 부문을 넘기고 114억 유로 규모의 메리알 동물건강 부문 인수."
+    },
+    {
+      "year": 2022,
+      "event": "Spevigo (spesolimab) received FDA approval for generalized pustular psoriasis — a new indication of the company's innovation pipeline.",
+      "eventKo": "스페비고(스페솔리맙)가 범발성 농포성 건선에 대한 FDA 승인 획득 — 회사 혁신 파이프라인의 새로운 성과."
     },
     {
       "year": 2025,
-      "event": "Net worth reached $6.5B, ranking among world's wealthiest",
-      "eventKo": "순자산 6.50억 달러 도달, 세계 최고 부호 대열"
+      "event": "Boehringer Ingelheim reported €27.8 billion in revenue; the Boehringer/von Baumbach family fortune estimated at over $42 billion combined.",
+      "eventKo": "보에링거 인겔하임이 277억 8천만 유로의 매출 발표; 보에링거/폰 바움바흐 가문의 총 재산은 420억 달러 이상으로 추산."
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "COVID-19 pandemic created unprecedented challenges across global business",
-      "descriptionKo": "코로나19 팬데믹이 전 세계 비즈니스에 전례 없는 도전 초래",
-      "lesson": "Adaptability and resilience are essential for surviving global crises",
-      "lessonKo": "글로벌 위기를 생존하는 데 적응력과 회복력이 필수적",
-      "source": "Forbes"
+      "year": 1997,
+      "description": "Boehringer Ingelheim's Posicor (mibefradil), a heart medication launched in 1997, was withdrawn from the market just one year later in 1998 due to dangerous drug interactions.",
+      "descriptionKo": "1997년 출시된 보에링거 인겔하임의 심장 치료제 포시코르(미베프라딜)가 위험한 약물 상호작용 문제로 1년 만인 1998년 시장에서 철수되었다.",
+      "lesson": "The pharmaceutical industry demands rigorous post-market surveillance; even approved drugs can harbor unforeseen safety risks that require immediate action.",
+      "lessonKo": "제약 산업은 철저한 시판 후 안전 모니터링을 요구하며, 승인된 의약품도 예상치 못한 안전 위험을 내포할 수 있어 즉각적인 대응이 필요하다."
     }
   ],
   "wealthHistory": [
     {
+      "year": 2000,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2005,
+      "netWorth": 2.2
+    },
+    {
       "year": 2010,
-      "netWorth": 1.6
+      "netWorth": 3.0
     },
     {
       "year": 2015,
-      "netWorth": 2.9
+      "netWorth": 4.0
+    },
+    {
+      "year": 2018,
+      "netWorth": 5.0
     },
     {
       "year": 2022,
-      "netWorth": 4.5
+      "netWorth": 6.0
     },
     {
-      "year": 2025,
+      "year": 2024,
       "netWorth": 6.5
     }
   ],
@@ -63,7 +98,10 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building wealth through Pharmaceuticals. One of the world's wealthiest individuals with net worth of $6.5B.",
-    "knownForKo": "Pharmaceuticals을(를) 통해 부를 축적. 순자산 $6.5B의 세계 최고 부호 중 한 명."
-  }
+    "knownFor": "One of the family shareholders of Boehringer Ingelheim, the world's largest privately held pharmaceutical company; known for the family's exceptionally secretive approach to wealth and business management, having never taken the company public despite it being one of the world's largest pharma firms.",
+    "knownForKo": "세계 최대 민간 제약 회사인 보에링거 인겔하임의 가족 주주 중 한 명; 세계 최대 제약 회사 중 하나임에도 단 한 번도 주식을 상장하지 않는 극도로 비공개적인 자산 및 경영 관리 방식으로 유명하다.",
+    "philanthropy": "The Boehringer family supports medical research and healthcare initiatives through the company's internal R&D investments and select academic partnerships, consistent with its long-term commitment to pharmaceutical innovation over shareholder returns.",
+    "philanthropyKo": "보에링거 가문은 회사 내부 R&D 투자와 일부 학술 파트너십을 통해 의학 연구 및 헬스케어 사업을 지원하며, 주주 수익보다 제약 혁신을 장기적으로 중시하는 전통을 이어오고 있다."
+  },
+  "sajuConnection": null
 }

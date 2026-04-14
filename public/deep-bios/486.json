@@ -1,51 +1,63 @@
 {
   "id": "486",
-  "name": "Robert Ziff",
+  "name": "Michael Milken",
   "childhood": {
-    "birthPlace": "New York, United States",
-    "birthPlaceKo": "미국 뉴욕",
-    "familyBackground": "Son of William Ziff Jr., founder of Ziff Davis Publishing Company. Grew up in prominent media and publishing family.",
-    "familyBackgroundKo": "직프 데이비스 출판사 창업자인 윌리엄 직프 2세의 아들. 저명한 미디어 및 출판 가족에서 성장.",
-    "education": "Duke University",
-    "educationKo": "듀크 대학교",
-    "earlyLife": "Inherited substantial interests in Ziff-Davis Publishing and family investment portfolio. Developed expertise in venture capital and technology investing.",
-    "earlyLifeKo": "직프 데이비스 출판 및 가족 투자 포트폴리오에 상당한 이익을 상속받음. 벤처 캐피탈 및 기술 투자 분야에서 전문 지식 개발.",
-    "source": "Family Investment History"
+    "birthPlace": "Encino, California, USA",
+    "birthPlaceKo": "미국 캘리포니아 엔시노",
+    "familyBackground": "Born July 4, 1946. Father Bernard Milken was tax accountant. Exposed to business and financial matters from childhood.",
+    "familyBackgroundKo": "1946년 7월 4일 출생. 아버지 버나드 밀켄은 세무 회계사. 어린 시절부터 비즈니스 및 금융 문제에 노출.",
+    "education": "University of California, Berkeley - Bachelor's degree in business (1968). University of Pennsylvania's Wharton School of Finance - studied and worked while in school (1969)",
+    "educationKo": "캘리포니아 대학교 버클리 - 경영학 학사 (1968년). 펜실베이니아 대학교 와튼 금융 스쿨 - 학교 다니면서 공부 및 일 (1969년)",
+    "earlyLife": "Showed early mathematical and analytical talents. Began finance career while still in graduate school at Wharton. Worked at Drexel Firestone, which later merged to form Drexel Burnham Lambert.",
+    "earlyLifeKo": "조기 수학 및 분석 재능 표시. 와튼 대학원 중 금융 경력 시작. 나중에 드렉셀 번남 램버트를 형성하기 위해 병합 한 드렉셀 파이어스톤에서 일함.",
+    "source": "https://en.wikipedia.org/wiki/Michael_Milken"
   },
   "careerTimeline": [
     {
-      "year": 1990,
-      "event": "Joined family publishing business management",
-      "eventKo": "가족 출판 사업 관리에 합류"
+      "year": 1971,
+      "event": "Became head of Drexel Burnham's bond-trading department",
+      "eventKo": "드렉셀 번남의 채권 거래 부서장이 됨"
     },
     {
-      "year": 2000,
-      "event": "Transitioned to venture capital and technology investing",
-      "eventKo": "벤처 캐피탈 및 기술 투자로 전환"
+      "year": 1980,
+      "event": "Pioneered market for high-yield bonds known as 'junk bonds'; created vast network of investors",
+      "eventKo": "'정크본드'로 알려진 고수익 채권 시장 개척; 투자자의 광대한 네트워크 창출"
     },
     {
-      "year": 2010,
-      "event": "Built significant technology investment portfolio",
-      "eventKo": "상당한 기술 투자 포트폴리오 구축"
+      "year": 1986,
+      "event": "Peak compensation year; earned over $1 billion in compensation - record for U.S. income at the time",
+      "eventKo": "절정 보상 연도; 당시 미국 소득 기록인 10억 달러 이상의 보상 획득"
+    },
+    {
+      "year": 1989,
+      "event": "Indicted for racketeering and securities fraud; pleaded guilty to securities and reporting violations",
+      "eventKo": "사기죄 및 증권 사기로 기소; 증권 및 보고 위반에 대해 유죄 인정"
+    },
+    {
+      "year": 1992,
+      "event": "Released from prison after serving reduced sentence; began charitable and philanthropic work",
+      "eventKo": "감소된 형기 후 감옥 출소; 자선 및 자선 활동 시작"
+    },
+    {
+      "year": 1993,
+      "event": "Established Association for Cure of Cancer of Prostate (now CaPCURE) following personal cancer battle",
+      "eventKo": "개인적인 암 투병 후 전립선암 치료 협회(현 CaPCURE) 설립"
     }
   ],
-  "failures": [],
+  "failures": [
+    {
+      "year": 1989,
+      "description": "Charged with racketeering, securities fraud, and insider trading in high-profile criminal investigation",
+      "descriptionKo": "고위험 형사 조사에서 사기죄, 증권 사기, 내부자 거래로 기소됨",
+      "lesson": "Learned consequences of aggressive financial practices and importance of legal and ethical boundaries in markets",
+      "lessonKo": "공격적인 금융 관행의 결과와 시장에서의 법적 및 윤리적 경계의 중요성 학습",
+      "source": "https://en.wikipedia.org/wiki/Michael_Milken"
+    }
+  ],
   "wealthHistory": [
     {
-      "year": 2010,
-      "netWorth": 4.5
-    },
-    {
-      "year": 2015,
-      "netWorth": 6.0
-    },
-    {
       "year": 2020,
-      "netWorth": 6.8
-    },
-    {
-      "year": 2025,
-      "netWorth": 7.2
+      "netWorth": 7.5
     }
   ],
   "quotes": [],
@@ -54,12 +66,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Quiet investor and venture capital leader. Manages significant family wealth through strategic technology and business investments. Known for keeping low public profile.",
-    "knownForKo": "조용한 투자자이자 벤처 캐피탈 지도자. 전략적 기술 및 비즈니스 투자를 통해 상당한 가족 부를 관리. 낮은 공개 프로필로 알려짐.",
-    "philanthropy": "Supports educational and medical research institutions",
-    "philanthropyKo": "교육 및 의료 연구 기관 지원",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Junk Bond King, pioneered high-yield bond market, philanthropist focused on medical research and education",
+    "knownForKo": "정크본드 킹, 고수익 채권 시장 개척, 의료 연구 및 교육에 중점을 두는 자선가",
+    "philanthropy": "Established Milken Institute, founded CaPCURE (prostate cancer research), supports medical research and K-12 education initiatives",
+    "philanthropyKo": "밀켄 연구소 설립, CaPCURE(전립선암 연구) 창립, 의료 연구 및 K-12 교육 이니셔티브 지원",
+    "controversies": "Convicted of securities violations, served prison time, permanently barred from securities industry",
+    "controversiesKo": "증권 위반으로 유죄 판결, 투옥, 증권 산업에서 영구 금지"
   },
   "sajuConnection": null
 }

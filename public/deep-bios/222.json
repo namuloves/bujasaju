@@ -1,94 +1,77 @@
 {
   "id": "222",
-  "name": "Rodney Sacks",
+  "name": "Charles Schwab",
   "childhood": {
-    "birthPlace": "Johannesburg, South Africa",
-    "birthPlaceKo": "남아프리카공화국 요하네스버그",
-    "familyBackground": "Son of successful South African businessman. Family with roots in trade and commerce sectors.",
-    "familyBackgroundKo": "성공한 남아프리카 사업가의 아들. 무역 및 상업 부문에 뿌리를 둔 가족",
-    "education": "University of Witwatersrand (Business), Cornell Law School (JD)",
-    "educationKo": "위트워터스랜드 대학교(경영), 코넬 법학대학원(JD)",
-    "earlyLife": "Grew up in Johannesburg during apartheid transition. Developed early business acumen and legal expertise combined with commercial thinking.",
-    "earlyLifeKo": "아파르트헤이트 전환 기간 요하네스버그에서 성장. 상업적 사고와 결합된 법적 전문 지식 및 사업 수완 개발",
-    "source": "https://www.hansenmercury.com"
+    "birthPlace": "Sacramento, California, USA",
+    "birthPlaceKo": "미국 캘리포니아 새크라멘토",
+    "familyBackground": "Born July 29, 1937. Discovered at age 40 to be dyslexic; one of his sons is also dyslexic.",
+    "familyBackgroundKo": "1937년 7월 29일 출생. 40세에 난독증이 있음을 발견; 아들 중 하나도 난독증이 있음.",
+    "education": "Stanford University (mathematics and economics emphasis, with help from friends taking notes)",
+    "educationKo": "스탠포드 대학교(수학 및 경제학 강조, 친구들의 필기 도움)",
+    "earlyLife": "Overcame dyslexia through determination and support. Developed interest in investing and democratizing access to markets.",
+    "earlyLifeKo": "결단력과 지원으로 난독증 극복. 투자에 대한 관심 개발 및 시장 접근 민주화.",
+    "source": "https://en.wikipedia.org/wiki/Charles_R._Schwab"
   },
   "careerTimeline": [
     {
-      "year": 1997,
-      "event": "Launched energy drink company Hansen Natural",
-      "eventKo": "에너지 음료 회사 Hansen Natural 출시"
+      "year": 1963,
+      "event": "Launched Investment Indicator investment newsletter with three partners",
+      "eventKo": "세 명의 파트너와 함께 Investment Indicator 투자 뉴스레터 출범"
     },
     {
-      "year": 2001,
-      "event": "Developed Monster Energy brand as core product",
-      "eventKo": "Monster Energy 브랜드를 핵심 제품으로 개발"
+      "year": 1971,
+      "event": "Incorporated First Commander Corporation, later became Charles Schwab & Co.",
+      "eventKo": "First Commander Corporation 설립, 이후 Charles Schwab & Co.가 됨"
+    },
+    {
+      "year": 1975,
+      "event": "Pioneered discount brokerage model after SEC deregulation of securities industry",
+      "eventKo": "증권업 SEC 규제 완화 후 할인 중개 모델 개척"
+    },
+    {
+      "year": 1983,
+      "event": "Established online trading and 24/7 service access for individual investors",
+      "eventKo": "개인 투자자를 위한 온라인 거래 및 24/7 서비스 접근 제공"
     },
     {
       "year": 2008,
-      "event": "Monster Energy became leading energy drink brand globally",
-      "eventKo": "Monster Energy가 전 세계 주요 에너지 음료 브랜드로 부상"
-    },
-    {
-      "year": 2015,
-      "event": "Expanded distribution to 160 countries and territories",
-      "eventKo": "160개 국가 및 지역으로 유통 확장"
+      "event": "Stepped down as CEO while remaining as Chairman",
+      "eventKo": "회장으로 남으면서 CEO직에서 물러남"
     }
   ],
-  "failures": [
-    {
-      "year": 2005,
-      "description": "Early beverage products failed to gain significant market traction before Monster Energy launch",
-      "descriptionKo": "Monster Energy 출시 전 초기 음료 제품이 상당한 시장 견인력 획득 실패",
-      "lesson": "Focused on product innovation and brand building, understanding target market preferences for energy drinks",
-      "lessonKo": "제품 혁신 및 브랜드 구축에 집중, 에너지 음료에 대한 대상 시장 선호도 이해",
-      "source": "https://www.monsterenergy.com"
-    }
-  ],
+  "failures": [],
   "wealthHistory": [
     {
-      "year": 2015,
-      "netWorth": 1.5
-    },
-    {
-      "year": 2018,
-      "netWorth": 2.1
-    },
-    {
-      "year": 2021,
-      "netWorth": 2.4
-    },
-    {
-      "year": 2023,
-      "netWorth": 2.7
+      "year": 2020,
+      "netWorth": 12.9
     }
   ],
   "quotes": [
     {
-      "text": "Monster Energy is more than a beverage, it is a lifestyle brand",
-      "textKo": "Monster Energy는 음료 이상의 라이프스타일 브랜드입니다",
-      "context": "On brand philosophy and market positioning",
-      "contextKo": "브랜드 철학 및 시장 포지셔닝에 관해",
-      "source": "https://www.monsterenergy.com"
+      "text": "We have a duty to make investing easier and more accessible for everyone.",
+      "textKo": "우리는 모두를 위해 투자를 더 쉽고 접근성 있게 만들 의무가 있습니다.",
+      "context": "On Schwab's mission to democratize investing",
+      "contextKo": "투자 민주화에 대한 슈왑의 미션 관련",
+      "source": "https://www.aboutschwab.com/charles-r-schwab"
     }
   ],
   "books": {
-    "authored": [],
-    "recommended": [
+    "authored": [
       {
-        "title": "Built to Last",
-        "author": "Jim Collins and Jerry Porras",
-        "note": "On building enduring brands and companies",
-        "noteKo": "지속되는 브랜드 및 회사 구축에 관한 책"
+        "title": "Invested: Change Your Mind, Change Your Life",
+        "why": "Personal finance and investing philosophy guide for everyday investors",
+        "whyKo": "일반 투자자를 위한 개인 재정 및 투자 철학 가이드"
       }
-    ]
+    ],
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Monster Energy brand creation, beverage industry leadership, global brand expansion",
-    "knownForKo": "Monster Energy 브랜드 창조, 음료 산업 리더십, 글로벌 브랜드 확장",
-    "philanthropy": "Supports energy and sports sponsorships globally",
-    "philanthropyKo": "전 세계 에너지 및 스포츠 스폰서십 지원",
-    "controversies": "Faced criticism over energy drink's health implications and marketing to youth",
-    "controversiesKo": "에너지 음료의 건강 영향 및 청소년 마케팅에 대한 비판 직면"
+    "knownFor": "Democratizing investing, pioneering discount brokerage, overcoming dyslexia, 24/7 trading access",
+    "knownForKo": "투자 민주화, 할인 중개 개척, 난독증 극복, 24/7 거래 접근",
+    "philanthropy": "Charles and Helen Schwab Foundation - learning disabilities research including dyslexia",
+    "philanthropyKo": "찰스 헬렌 슈왑 재단 - 난독증을 포함한 학습 장애 연구",
+    "controversies": null,
+    "controversiesKo": null
   },
   "sajuConnection": null
 }

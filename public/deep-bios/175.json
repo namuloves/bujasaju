@@ -1,108 +1,296 @@
 {
   "id": "175",
-  "name": "James Dyson",
-  "nameKo": "제임스 다이슨",
-  "childhood": "James Dyson was born on May 2, 1947, in Cromer, Norfolk, England, the youngest of three children. His father, a classics teacher, died of cancer when James was just nine years old, leaving the family in financial hardship — Dyson later described his childhood home as 'penniless.' Despite this difficult start, he excelled academically and athletically, winning a long-distance running scholarship to the Gresham's boarding school in rural Holt, Norfolk, before later studying at the Byam Shaw School of Art and the Royal College of Art in London.",
-  "childhoodKo": "제임스 다이슨은 1947년 5월 2일 영국 노퍽 주 크로머에서 세 남매 중 막내로 태어났다. 고전 교사였던 아버지는 제임스가 아홉 살 때 암으로 세상을 떠났고, 가족은 경제적 어려움에 처했다. 다이슨은 후에 자신의 어린 시절 집을 '가난했다'고 표현했다. 이런 힘든 출발에도 학업과 운동에서 두각을 나타냈고, 노퍽 주 홀트의 기숙학교 그레셤스에 장거리 달리기 장학생으로 입학했다. 이후 런던의 바이엄 쇼 미술학교와 왕립예술대학에서 수학했다.",
+  "name": "Ray Dalio",
+  "childhood": {
+    "birthPlace": "Jackson Heights, Queens, New York City",
+    "birthPlaceKo": "뉴욕시 퀸즈 잭슨 하이츠",
+    "familyBackground": "Italian-American family; father Marino Dallolio was a jazz musician; mother Ann was a homemaker; working-class roots in immigrant community; moved to Manhasset, Long Island at age 8",
+    "familyBackgroundKo": "이탈리아계 미국인 가정으로, 아버지 마리노는 재즈 뮤지션, 어머니 앤은 전업주부였으며, 이민자 공동체에서 노동자 계급의 뿌리를 가짐. 8세에 롱아일랜드 맨하셋으로 이주",
+    "education": "C.W. Post College, B.S. in Finance (1971); Harvard Business School, MBA (1973); early investment education from working as golf caddy and being introduced to Wall Street professionals as a teenager",
+    "educationKo": "C.W. 포스트 대학 금융학 학사(1971년), 하버드 경영대학원 MBA(1973년). 청소년 시절 골프 캐디로 일하며 월스트리트 전문가들을 만나 실무적 투자 교육을 받음",
+    "earlyLife": "Born 1949; began investing at age 12, buying shares of Northeast Airlines for $300 (tripled investment when airline merged); worked as golf caddy on Long Island where he met Wall Street professionals who inspired his interest in markets; showed early entrepreneurial drive and curiosity about financial markets; grew up in post-WWII America during economic expansion and relative prosperity",
+    "earlyLifeKo": "1949년 태어났으며, 12세에 투자를 시작하여 노스이스트항공 주식을 300달러에 매수(항공사 합병 후 3배 상승). 롱아일랜드에서 골프 캐디로 일하며 월스트리트 전문가들을 만나 시장에 대한 관심을 키워짐. 초기부터 기업가 정신과 금융시장에 대한 호기심 발휘. 전후 미국의 경제 확장과 상대적 풍요로움 속에서 성장",
+    "source": "Wikipedia, Bridgewater Associates official biography, Academy of Achievement, CNBC"
+  },
   "careerTimeline": [
     {
-      "year": 1970,
-      "event": "Joined Rotork Controls Ltd. in Bath, Somerset, collaborating with chairman Jeremy Fry to design and produce the Sea Truck, a fast flat-bottomed fiberglass landing craft.",
-      "eventKo": "서머셋 주 바스의 로토크 컨트롤스에 입사해 제러미 프라이 회장과 협력하여 쾌속 평저 유리섬유 상륙정 '시 트럭'을 설계·제작했다."
+      "year": 1971,
+      "event": "Graduated from C.W. Post College with B.S. in Finance at age 22",
+      "eventKo": "22세 나이에 C.W. 포스트 대학 금융학 학사 졸업"
+    },
+    {
+      "year": 1973,
+      "event": "Received MBA from Harvard Business School; began trading commodities and working on New York Stock Exchange floor",
+      "eventKo": "하버드 경영대학원 MBA 취득, 상품 선물거래 시작 및 뉴욕 증권거래소 펀드에서 일하기 시작"
     },
     {
       "year": 1974,
-      "event": "Founded his own company and invented the Ballbarrow, a plastic wheelbarrow that used a ball instead of a narrow wheel, his first commercial product invention.",
-      "eventKo": "직접 회사를 창업하고 기존의 좁은 바퀴 대신 구형 볼을 사용하는 플라스틱 외바퀴 손수레 '볼배로우'를 발명해 첫 상업 제품을 내놓았다."
+      "event": "Worked as futures trader and broker at Shearson Hayden Stone, advising farmers and cattle ranchers on hedging; fired after punching boss at New Year's Eve party while drunk",
+      "eventKo": "셔슨 헤이든 스톤에서 선물거래자 및 중개인으로 일하며 농민과 축산업자에게 헤징 자문 제공. 신년전야 파티에서 음주 상태로 상사를 폭행하여 해고됨"
     },
     {
-      "year": 1978,
-      "event": "Frustrated by his Hoover vacuum losing suction, conceived the idea of using cyclonic separation to create a bagless vacuum cleaner that would maintain constant suction.",
-      "eventKo": "자신의 후버 청소기가 흡입력을 잃는 것에 불만을 품고, 지속적인 흡입력을 유지하는 먼지봉투 없는 청소기를 만들기 위해 사이클론 분리 방식을 도입하는 아이디어를 구상했다."
+      "year": 1975,
+      "event": "Founded Bridgewater Associates from two-bedroom apartment in Westport, Connecticut with initial focus on wealth advisory services",
+      "eventKo": "코네티컷 웨스트포트 원룸 아파트에서 브릿지워터 어소시에이츠를 설립하여 자산관리 자문 사업을 시작"
     },
     {
-      "year": 1983,
-      "event": "After 5,127 hand-built prototypes over five years, partly funded by his wife's salary as an art teacher, successfully launched the G-Force cyclone vacuum cleaner — initially through Japanese catalogue sales as no UK manufacturer would take it.",
-      "eventKo": "5년에 걸쳐 5,127개의 시제품을 직접 제작한 끝에—부인의 미술 교사 월급으로 일부를 충당하며—G-포스 사이클론 청소기 출시에 성공했다. 영국 제조사들이 거절해 일본 카탈로그 판매로 첫발을 뗐다."
+      "year": 1982,
+      "event": "Experienced catastrophic losses betting on depression that never occurred; went broke and borrowed $4,000 from father to pay family bills; forced to lay off all employees; learned humility and developed systematic approach to investing",
+      "eventKo": "경기 침체 예측에 베팅했으나 실제로는 장기 강세장이 시작되어 대규모 손실 발생. 파산하여 아버지로부터 4천 달러를 빌려 가족생계 유지. 모든 직원을 해고해야 함. 이를 통해 겸손함을 배우고 체계적 투자 접근법 개발"
     },
     {
-      "year": 1991,
-      "event": "Founded Dyson Ltd. and began manufacturing his own products in the UK. The DC01 vacuum launched in June 1993 and became the fastest-selling vacuum cleaner in the UK.",
-      "eventKo": "다이슨 리미티드를 설립하고 영국에서 자체 제품 제조에 착수했다. 1993년 6월 출시된 DC01 청소기는 영국 역사상 가장 빨리 팔린 청소기가 됐다."
+      "year": 1985,
+      "event": "Began coding investment principles into computer algorithms and backtesting strategies; transformed Bridgewater from discretionary to systematic trading",
+      "eventKo": "투자 원칙을 컴퓨터 알고리즘으로 코딩하고 과거 데이터를 바탕으로 검증 시작. 브릿지워터를 재량거래에서 체계적 거래로 전환"
     },
     {
-      "year": 2006,
-      "event": "Launched the Airblade hand dryer, applying his motor and airflow technology beyond vacuums and diversifying Dyson's product portfolio.",
-      "eventKo": "에어블레이드 핸드 드라이어를 출시해 청소기를 넘어 모터·기류 기술을 활용하고 다이슨의 제품 포트폴리오를 다각화했다."
+      "year": 1990,
+      "event": "Bridgewater's Pure Alpha strategy begins generating consistent returns through 1992; fund starts gaining institutional investor interest",
+      "eventKo": "브릿지워터의 순수알파 전략이 1990년부터 1992년까지 지속적인 수익 창출 시작. 기관투자자들의 관심이 증가하기 시작"
+    },
+    {
+      "year": 1993,
+      "event": "Introduced 'radical transparency' culture at Bridgewater after being told by three top managers he was hurting firm through excessive honesty; created environment for 'thoughtful disagreement'",
+      "eventKo": "3명의 고위 임원으로부터 과도한 솔직함이 회사에 해를 끼친다는 지적을 받은 후 '급진적 투명성' 문화 도입. '신중한 의견 대립' 환경 조성"
+    },
+    {
+      "year": 2005,
+      "event": "Bridgewater Associates becomes world's largest hedge fund by assets under management; Dalio's personal wealth reaches $15+ billion",
+      "eventKo": "브릿지워터 어소시에이츠가 운용자산 기준으로 세계 최대 헤지펀드가 됨. 달리오 개인 자산이 150억 달러 이상에 도달"
+    },
+    {
+      "year": 2011,
+      "event": "Self-published Principles (123 pages) outlining philosophy of investment and corporate management",
+      "eventKo": "투자 철학과 기업경영 원칙을 담은 'Principles' 자비출판(123페이지)"
     },
     {
       "year": 2017,
-      "event": "Announced a £2 billion investment to develop a Dyson electric vehicle, setting a target launch date of 2021 and assembling a team of over 400 engineers.",
-      "eventKo": "20억 파운드를 투자해 다이슨 전기차를 개발한다고 발표하고 2021년 출시 목표를 제시하며 400명 이상의 엔지니어 팀을 꾸렸다."
+      "event": "Published bestseller 'Principles: Life and Work'; book becomes influential text on decision-making and organizational management",
+      "eventKo": "'원칙: 삶과 일(Principles: Life and Work)' 베스트셀러 출간. 의사결정과 조직관리에 영향력 있는 저서가 됨"
     },
     {
-      "year": 2019,
-      "event": "Relocated Dyson's global headquarters from the UK to Singapore to be closer to key manufacturing hubs and Asian markets.",
-      "eventKo": "주요 제조 허브 및 아시아 시장과의 근접성을 높이기 위해 다이슨의 글로벌 본사를 영국에서 싱가포르로 이전했다."
+      "year": 2018,
+      "event": "Published 'Principles for Navigating Big Debt Crises' with detailed case studies of 48 debt crises over past century",
+      "eventKo": "'대규모 채무위기 극복 원칙' 출간. 지난 100년간 발생한 48개 채무위기 사례연구 포함"
     },
     {
-      "year": 2023,
-      "event": "Named fifth-richest person in the UK by the Sunday Times Rich List, with an estimated family net worth of £23 billion, as Dyson's product portfolio expanded to include air purifiers, hair care devices, and lighting.",
-      "eventKo": "선데이 타임스 부자 순위에서 영국 5위 부자로 선정됐으며 추정 가족 순자산은 230억 파운드에 달했다. 다이슨 제품군은 공기청정기, 헤어케어 기기, 조명 등으로 확장됐다."
+      "year": 2020,
+      "event": "Bridgewater's Pure Alpha II fund drops 18.6%; worst performance in a decade; $3.5 billion investor outflows due to two consecutive years of computer model failures",
+      "eventKo": "브릿지워터 순수알파 II 펀드가 18.6% 하락. 10년 만에 최악의 성과. 컴퓨터 모델 오류로 인한 2년 연속 손실로 35억 달러 규모 투자자 이탈"
+    },
+    {
+      "year": 2021,
+      "event": "Published 'Principles for Dealing with the Changing World Order' analyzing global power shifts and economic cycles",
+      "eventKo": "글로벌 권력 이동과 경제사이클을 분석한 '변화하는 세계질서 극복 원칙' 출간"
     }
   ],
   "failures": [
     {
-      "title": "5,127 Prototype Failures",
-      "description": "Before the G-Force cleaner worked, Dyson spent five grueling years building 5,126 failed prototypes entirely by hand, often working in a converted coach house while his family lived off his wife Deirdre's teacher's salary. Banks and investors repeatedly rejected him, and he accumulated large personal debts before finally breaking through.",
-      "titleKo": "5,127번의 시제품 실패",
-      "descriptionKo": "G-포스 청소기가 완성되기까지 다이슨은 5년이라는 고된 세월을 모두 수작업으로 5,126개의 실패작을 제작하며 보냈다. 개조한 마차 차고에서 작업하는 동안 가족은 아내 디어드리의 교사 월급으로 생활했다. 은행과 투자자들의 거절이 이어지고 개인 빚이 쌓였지만, 결국 돌파구를 찾아냈다."
+      "year": 1982,
+      "description": "Catastrophic loss from betting heavily that U.S. economy would enter depression; made public proclamations in newspapers, TV, and Congressional testimony; stock market instead began 18-year bull run; Dalio went broke and had to borrow $4,000 from father; forced to lay off all employees",
+      "descriptionKo": "미국 경기 침체 예측에 무겁게 베팅했으나, 신문, TV, 의회 증언을 통해 공개적으로 예측을 발표한 후 주식시장은 18년간의 강세장이 시작됨. 달리오는 파산하여 아버지로부터 4천 달러를 빌려야 했고, 모든 직원을 해고해야 함",
+      "lesson": "Humility and diversification are essential; no investor can predict economic outcomes with certainty; acknowledged his audacity needed to be tempered with humility; led to development of systematic approach and coded decision criteria that could be backtested",
+      "lessonKo": "겸손함과 분산투자는 필수. 어떤 투자자도 경제 결과를 확실히 예측할 수 없음. 자신의 대담함이 겸손함으로 조절되어야 함을 깨달음. 이는 체계적 접근법과 백테스트 가능한 코딩된 의사결정 기준 개발로 이어짐",
+      "source": "CNBC interview, Fortune article, multiple biographical sources"
     },
     {
-      "title": "ContraRotator Washing Machine Discontinuation",
-      "description": "In 2000, Dyson launched the ContraRotator washing machine, featuring two drums rotating in opposite directions for faster, more thorough cleaning. Despite the innovation, the machine was too expensive for mainstream buyers and was quietly discontinued in 2005, representing a significant commercial setback beyond vacuum cleaners.",
-      "titleKo": "컨트라로테이터 세탁기 단종",
-      "descriptionKo": "2000년에 출시한 컨트라로테이터 세탁기는 두 드럼이 서로 반대 방향으로 회전해 더 빠르고 깨끗하게 세탁하는 혁신적인 제품이었다. 그러나 일반 소비자들에게는 너무 비쌌고, 2005년 조용히 단종됐다. 청소기를 넘어 제품군을 확장하려는 시도에서 맛본 큰 상업적 실패였다."
+      "year": 2020,
+      "description": "Bridgewater's Pure Alpha II fund declined 18.6% in 2020 despite being one of world's largest and most respected hedge funds; computer models misread markets for second consecutive year; triggered $3.5 billion in investor withdrawals during first seven months of 2020",
+      "descriptionKo": "세계 최대 규모의 존경받는 헤지펀드임에도 불구하고 브릿지워터 순수알파 II 펀드가 2020년 18.6% 하락. 컴퓨터 모델이 2년 연속으로 시장을 잘못 읽음. 2020년 처음 7개월 동안 35억 달러 규모의 투자자 이탈 초래",
+      "lesson": "Even systematic, algorithmic approaches fail when market regimes change unexpectedly; macro environment shifts can overwhelm even sophisticated models; organization must maintain adaptability; indicated need for recalibration of models and management approach",
+      "lessonKo": "체계적이고 알고리즘 기반 접근법도 시장 환경이 예기치 않게 변할 때 실패할 수 있음. 거시경제 환경의 변화는 정교한 모델도 압도할 수 있음. 조직은 적응성을 유지해야 함. 모델과 경영 접근법의 재조정 필요성을 시사",
+      "source": "Bloomberg, Fortune, insider accounts"
     },
     {
-      "title": "£500 Million Electric Vehicle Project Cancellation",
-      "description": "In October 2019, Dyson scrapped his entire electric vehicle program after investing an estimated £500 million and two years of development. Despite designing a technically impressive seven-seat SUV codenamed N526 with a 600-mile range and solid-state battery, the project was cancelled as it could not be made commercially viable against well-funded competitors like Tesla.",
-      "titleKo": "5억 파운드 전기차 프로젝트 폐기",
-      "descriptionKo": "2019년 10월, 다이슨은 약 5억 파운드를 투자하고 2년간 개발한 전기차 프로그램 전체를 폐기했다. 코드명 N526으로 개발된 7인승 SUV는 600마일 주행거리와 전고체 배터리를 갖춘 기술적으로 인상적인 차량이었지만, 테슬라 같은 자금력 강한 경쟁사들을 상대로 상업적 경쟁력을 확보할 수 없어 프로젝트가 취소됐다."
+      "year": 1974,
+      "description": "Lost job at Shearson Hayden Stone after punching boss in the face while drunk at New Year's Eve party; incident marked low point of early career",
+      "descriptionKo": "신년전야 파티에서 음주 상태로 상사를 폭행하여 셔슨 헤이든 스톤에서 직업을 잃음. 초기 경력의 최저점을 기록",
+      "lesson": "Personal discipline and emotional regulation are critical to professional success; demonstrated need for better coping mechanisms, eventually turning to transcendental meditation as solution",
+      "lessonKo": "개인의 규율과 감정 조절은 직업적 성공에 매우 중요. 더 나은 대처 방식의 필요성을 깨달으며, 결국 해결책으로 명상을 실천하기 시작",
+      "source": "Ray Dalio biography, CNBC"
     }
   ],
   "wealthHistory": [
-    { "year": 2005, "amount": 2.0 },
-    { "year": 2010, "amount": 4.0 },
-    { "year": 2015, "amount": 7.0 },
-    { "year": 2018, "amount": 10.0 },
-    { "year": 2020, "amount": 15.0 },
-    { "year": 2023, "amount": 13.5 },
-    { "year": 2025, "amount": 14.7 }
+    {
+      "year": 1975,
+      "netWorth": 0
+    },
+    {
+      "year": 1980,
+      "netWorth": 0
+    },
+    {
+      "year": 1985,
+      "netWorth": 0
+    },
+    {
+      "year": 1990,
+      "netWorth": 0.1
+    },
+    {
+      "year": 2000,
+      "netWorth": 3
+    },
+    {
+      "year": 2005,
+      "netWorth": 8
+    },
+    {
+      "year": 2014,
+      "netWorth": 12
+    },
+    {
+      "year": 2015,
+      "netWorth": 15.4
+    },
+    {
+      "year": 2018,
+      "netWorth": 18.5
+    },
+    {
+      "year": 2026,
+      "netWorth": 20
+    }
   ],
   "quotes": [
     {
-      "text": "I made 5,127 prototypes of my vacuum before I got it right. There were 5,126 failures. But I learned from each one. That's how I came up with a solution. So I don't mind failure.",
-      "source": "James Dyson, multiple published interviews",
-      "year": 2007
+      "text": "Principles are fundamental truths that serve as the foundations for behavior that gets you what you want out of life. They can be applied again and again in similar situations to help you achieve your goals.",
+      "textKo": "원칙은 당신이 인생에서 원하는 것을 얻는 행동의 기초가 되는 근본적 진리이다. 이들은 유사한 상황에서 반복적으로 적용되어 당신의 목표 달성을 도울 수 있다.",
+      "context": "Core definition of his life philosophy and the central concept of his major works",
+      "contextKo": "그의 인생 철학의 핵심 정의이자 주요 저작의 중심 개념"
     },
     {
-      "text": "The only way to make real money is to offer the public something entirely new that has style value as well as substance and which they cannot get anywhere else.",
-      "source": "BrainyQuote / James Dyson interviews",
-      "year": 2010
-    }
-  ],
-  "books": [
-    {
-      "title": "Against the Odds: An Autobiography",
-      "year": 1997,
-      "description": "Dyson's memoir recounting the long struggle to develop and commercialize his bagless vacuum cleaner, including the 5,127 prototypes and repeated rejections from manufacturers."
+      "text": "Think for yourself to decide 1) what you want, 2) what is true, and 3) what you should do to achieve #1 in light of #2 with humility and open-mindedness so that you consider the best thinking available to you.",
+      "textKo": "스스로 생각하여 결정하라: 1) 당신이 원하는 것이 무엇인지, 2) 무엇이 진실인지, 3) 겸손함과 개방적 마음으로 당신이 이용할 수 있는 최고의 사고를 고려하여 1번을 달성하기 위해 무엇을 해야 하는지.",
+      "context": "His first principle for decision-making and personal development",
+      "contextKo": "의사결정과 개인 발전을 위한 첫 번째 원칙"
     },
     {
-      "title": "Invention: A Life",
-      "year": 2021,
-      "description": "A broader reflection on Dyson's philosophy of invention, design, and engineering, spanning his entire career from the Sea Truck to Dyson's global empire."
+      "text": "To be effective you must not let your need to be right be more important than your need to find out what's true.",
+      "textKo": "효과적이려면 옳다는 필요성이 진실을 찾으려는 필요성보다 더 중요하지 않아야 한다.",
+      "context": "Management and decision-making principle emphasizing intellectual humility",
+      "contextKo": "지적 겸손함을 강조하는 경영과 의사결정 원칙"
+    },
+    {
+      "text": "Make your passion and your work one and the same and do it with people you want to be with.",
+      "textKo": "당신의 열정과 일을 같은 것으로 만들고 함께하고 싶은 사람들과 그것을 하라.",
+      "context": "Core work principle about alignment of personal passion with professional mission",
+      "contextKo": "개인의 열정과 직업적 사명의 일치에 관한 핵심 업무 원칙"
+    },
+    {
+      "text": "If you're not failing, you're not pushing your limits, and if you're not pushing your limits, you're not maximizing your potential.",
+      "textKo": "실패하지 않으면 한계를 밀어붙이지 않는 것이고, 한계를 밀어붙이지 않으면 잠재력을 극대화하지 않는 것이다.",
+      "context": "Philosophy on learning through failure and continuous improvement",
+      "contextKo": "실패를 통한 학습과 지속적 개선에 관한 철학"
+    },
+    {
+      "text": "Smart people are the ones who ask the most thoughtful questions, as opposed to thinking they have all the answers. Great questions are a much better indicator of future success than great answers.",
+      "textKo": "똑똑한 사람은 모든 답을 알고 있다고 생각하는 사람이 아니라 가장 신중한 질문을 하는 사람이다. 훌륭한 질문은 훌륭한 답변보다 미래의 성공을 훨씬 더 잘 나타낸다.",
+      "context": "Insight on talent assessment and learning orientation",
+      "contextKo": "인재 평가와 학습 지향성에 대한 통찰"
+    },
+    {
+      "text": "Money is a byproduct of excellence, not a goal. Our overriding objective is excellence and constant improvement at Bridgewater.",
+      "textKo": "돈은 목표가 아니라 우수성의 부산물이다. 브릿지워터의 궁극적 목표는 우수성과 지속적인 개선이다.",
+      "context": "Statement of organizational values prioritizing excellence over profit",
+      "contextKo": "이익보다 우수성을 우선시하는 조직 가치관 선언"
+    },
+    {
+      "text": "Going broke in 1982 was the best thing that ever happened to me because it gave me the humility to go along with my audacity.",
+      "textKo": "1982년에 파산한 것은 내게 일어난 최고의 일이다. 왜냐하면 그것이 내 대담함을 함께할 겸손함을 주었기 때문이다.",
+      "context": "Reflection on transformative power of failure and humility",
+      "contextKo": "실패와 겸손함의 변혁적 힘에 대한 성찰"
     }
   ],
-  "sajuConnection": null
+  "books": {
+    "authored": [
+      {
+        "title": "Principles (self-published)",
+        "note": "First version published 2011 (123 pages); outlined investment philosophy and corporate management principles that became foundation for later bestseller",
+        "noteKo": "2011년 초판 발행(123페이지). 투자 철학과 기업경영 원칙을 체계화하여 이후 베스트셀러의 기초가 됨"
+      },
+      {
+        "title": "Principles: Life and Work",
+        "note": "2017 New York Times bestseller; comprehensive exploration of decision-making principles for life and work; sold over 5 million copies worldwide; became influential management text",
+        "noteKo": "2017년 뉴욕 타임스 베스트셀러. 삶과 일의 의사결정 원칙을 종합적으로 탐구. 전 세계 500만 부 이상 판매. 영향력 있는 경영 저서로 자리 잡음"
+      },
+      {
+        "title": "Principles for Navigating Big Debt Crises",
+        "note": "2018 publication; provided template for understanding debt cycles through analysis of 48 historical cases including 2008 financial crisis, Great Depression, and Weimar hyperinflation",
+        "noteKo": "2018년 출간. 2008 금융위기, 대공황, 바이마르 하이퍼인플레이션을 포함한 48개 역사적 채무위기 사례분석을 통해 채무 순환을 이해하는 틀 제시"
+      },
+      {
+        "title": "Principles for Dealing with the Changing World Order",
+        "note": "2021 publication analyzing major shifts in global power dynamics, economic systems, and geopolitical trends over centuries",
+        "noteKo": "2021년 출간. 수 세기에 걸친 글로벌 권력 역학, 경제 체제, 지정학적 트렌드의 주요 변화를 분석"
+      },
+      {
+        "title": "Principles for Success",
+        "note": "2019 illustrated version of core principles; made the concepts more accessible to broader audience",
+        "noteKo": "2019년 출간한 핵심 원칙의 삽화본. 개념을 더 많은 대중이 접근 가능하게 만듦"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "The Economic Machine Works (animated video course)",
+        "author": "Ray Dalio",
+        "why": "Simplified explanation of macroeconomic principles that underlie his investment philosophy and systematic thinking about economies",
+        "whyKo": "그의 투자 철학과 경제에 대한 체계적 사고의 근간이 되는 거시경제 원칙을 단순화하여 설명"
+      },
+      {
+        "title": "A Random Walk Down Wall Street",
+        "author": "Burton Malkiel",
+        "why": "Classic text on efficient market hypothesis and portfolio theory relevant to Dalio's development of systematic, diversified investment approaches",
+        "whyKo": "효율적 시장 가설과 포트폴리오 이론에 관한 고전. 달리오의 체계적이고 분산된 투자 접근법 개발과 관련"
+      },
+      {
+        "title": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "why": "Explores cognitive biases and decision-making that complement Dalio's emphasis on systematic thinking and removing emotional bias from decisions",
+        "whyKo": "인지 편향과 의사결정을 탐구. 달리오의 체계적 사고와 의사결정에서 감정 편향 제거 강조를 보완"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Founder of world's largest hedge fund (Bridgewater Associates); legendary macro investor and systematic trader; author of bestseller 'Principles'; pioneer of 'radical transparency' management culture; called 'the Steve Jobs of investing' for innovative but demanding management style; early practitioner of transcendental meditation in business; revolutionary advocate for algorithm-based, systematic investing; influential thinker on economic cycles and debt crises",
+    "knownForKo": "세계 최대 헤지펀드(브릿지워터 어소시에이츠) 설립자. 거시경제 투자 전설 및 체계적 거래자. 베스트셀러 '원칙' 저자. '급진적 투명성' 경영 문화의 개척자. 혁신적이면서 엄격한 경영 스타일로 '투자의 스티브 잡스'라 불림. 기업 환경에서 명상 실천의 선구자. 알고리즘 기반 체계적 투자의 혁명적 옹호자. 경제사이클과 채무위기에 대한 영향력 있는 사상가",
+    "philanthropy": "Dalio family has donated over $5 billion to the Dalio Foundation; foundation has distributed over $1 billion in charitable grants; focused on education, poverty alleviation, and systemic change; supporter of economic research and policy reform; major donor to educational institutions and initiatives focused on economic opportunity",
+    "philanthropyKo": "달리오 가족이 달리오 재단에 50억 달러 이상 기부. 재단은 10억 달러 이상의 자선 기금을 배분. 교육, 빈곤 완화, 체계적 변화에 초점. 경제 연구 및 정책 개혁의 지지자. 교육 기관 및 경제 기회 중심 사업의 주요 기부자",
+    "controversies": "Bridgewater culture of 'radical transparency' criticized for creating intimidating environment where employees feared disagreement; accusations of toxic workplace despite espoused values of open communication; departures of high-level executives attributed to management style; 2020 fund performance losses and investor withdrawals raised questions about model effectiveness; history of punching boss and drinking problems in early career; significant personal wealth accumulated while promoting principles of sharing and transparency",
+    "controversiesKo": "'급진적 투명성' 문화가 직원들이 반대 의견을 두려워하는 위협적 환경을 조성했다는 비판. 개방적 소통 가치를 표방하면서도 독성 직장 환경 지적. 고위 경영진 이탈이 경영 스타일과 연결. 2020년 펀드 성과 부진과 투자자 이탈로 모델 효과성에 의문 제기. 초기 경력의 상사 폭행과 음주 문제 역사. 공유와 투명성 원칙을 홍보하면서 막대한 개인 자산 축적"
+  },
+  "additionalInsights": {
+    "pivotalMentors": [
+      {
+        "name": "Marino Dallolio (father)",
+        "relationship": "Parent and early role model; jazz musician and working-class provider",
+        "influence": "Demonstrated persistence and creativity in pursuing passions; father's financial struggles may have motivated Dalio's intense drive to succeed; provided support during 1982 crisis by lending $4,000 to help family survive losses"
+      },
+      {
+        "name": "Paul Volcker",
+        "relationship": "Professional influence through Federal Reserve actions and economic policy",
+        "influence": "Volcker's monetary policy decisions in early 1980s shaped markets Dalio was trading; experiences with Volcker's tight money policy contributed to Dalio's understanding of credit cycles and inflation dynamics"
+      },
+      {
+        "name": "Maharishi Mahesh Yogi (meditation teacher influence)",
+        "relationship": "Founder of Transcendental Meditation practice; indirect influence through TM community",
+        "influence": "Introduced Dalio to transcendental meditation in 1968; meditation became cornerstone of his decision-making process and emotional regulation; directly attributed to overcoming early alcohol problems and achieving clarity in analysis"
+      }
+    ],
+    "dailyRoutine": "Wakes at 6 AM; practices transcendental meditation for 20 minutes immediately upon waking followed by another 20-minute session before dinner (inspired by Beatles who practiced TM); dedicates significant time to reading economic data, market research, and analysis; engages in rigorous exercise routine emphasizing physical fitness as prerequisite for mental clarity; participates in thoughtful disagreement sessions at Bridgewater using principle of 'hitting the beach together' for candid discussion; maintains schedule balancing investment analysis with writing and thinking on economic principles; uses meditation as tool for achieving calm analytical state before major decisions",
+    "keyAnecdotes": [
+      "At age 12, bought shares of Northeast Airlines for $300 and tripled his investment when the airline merged with another company, sparking lifelong passion for investing",
+      "Worked as golf caddy on Long Island where he met Wall Street professionals; conversations with these mentors at young age planted seeds for investment career",
+      "In 1974, punched his boss in the face while drunk at New Year's Eve party and was fired from Shearson Hayden Stone; marked lowest point but catalyzed personal transformation",
+      "In 1982, went broke after betting entire firm on depression that never happened; forced to lay off all employees except himself; had to borrow $4,000 from father to pay family bills; describes this as best thing that happened because it gave him humility",
+      "Built Bridgewater from two-bedroom apartment in 1975 with initial $250,000 investment; grew it to world's largest hedge fund ($150+ billion AUM) through systematic, algorithmic approach to macro investing",
+      "Credited transcendental meditation practice begun in 1968 as single most important reason for his success; practices 40 minutes daily (two 20-minute sessions); attributes meditation to both mental clarity and emotional regulation"
+    ],
+    "turningPoint": "The catastrophic 1982 loss when his depression prediction failed and he was forced to shut down Bridgewater except for himself. This humbling failure taught him the limits of his own predictions and sparked his realization that he needed to codify decision-making into systematic, testable principles. From this point forward, he became focused on documenting explicit principles, backtesting them, and converting discretionary judgment into algorithmic systems. This transformation from failed discretionary trader to architect of systematic investing fundamentally changed his trajectory and led to decades of superior performance.",
+    "managementStyle": "Pioneered 'radical transparency' culture demanding radical honesty and open disagreement; created environment where employees encouraged to voice honest opinions and challenge management without fear of retaliation (though practice sometimes created intimidation); 'Steve Jobs of investing' persona combines visionary thinking with high standards and demanding expectations; uses meditation and Socratic questioning to achieve calm analytical decision-making; emphasizes 'thoughtful disagreement' and 'hitting the beach together' for honest dialogue; values intellectual rigor and systematic thinking over intuition; promotes merit-based advancement based on actual performance data; focuses on identifying and developing high-quality thinking rather than loyalty to personalities; driven by principle of making Bridgewater's culture replicable and sustainable beyond himself; demands excellence and constant improvement while emphasizing that failure is necessary for growth"
+  },
+  "sajuConnection": {
+    "note": "Leave null.",
+    "value": null
+  }
 }

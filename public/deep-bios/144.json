@@ -1,88 +1,93 @@
 {
   "id": "144",
-  "name": "John Tu",
-  "nameKo": "존 투",
-  "netWorth": "$17.5B",
-  "nationality": "US",
-  "industry": "Technology",
+  "name": "Prajogo Pangestu",
+  "nameKo": "프라조고 팡게스투",
   "childhood": {
-    "birthPlace": "Chongqing, China",
-    "birthPlaceKo": "중국 충칭",
-    "familyBackground": "Son of an official in China's Nationalist government; family moved to Shanghai in 1945, then fled to Taiwan in 1947 as the Chinese Civil War intensified",
-    "familyBackgroundKo": "중국 국민당 정부 관리의 아들; 1945년 상하이로 이주한 후, 1947년 국공내전 격화로 대만으로 피난",
-    "education": "Language school in Munich, Germany; two-year apprenticeship at a shipbuilding factory (required in Germany at the time); studied electrical engineering at Darmstadt University",
-    "educationKo": "독일 뮌헨 어학원; 조선소 공장에서 2년간 도제 수습(당시 독일 의무); 다름슈타트 대학교에서 전자공학 전공",
-    "earlyLife": "Born in 1941 in wartime Chongqing, Tu's family fled to Taiwan when he was six years old amid the Chinese Civil War. In 1960 at age 19, he moved to West Germany to study electrical engineering. After completing his education, he immigrated to the United States in 1970, initially opening a gift shop in Scottsdale, Arizona before entering real estate. He became a U.S. citizen in 1972 and moved to Los Angeles where he met future business partner David Sun.",
-    "earlyLifeKo": "1941년 전쟁 중 충칭에서 태어나, 6세 때 국공내전으로 가족과 대만으로 피난했다. 1960년 19세에 서독으로 건너가 전자공학을 공부했다. 학업을 마친 후 1970년 미국으로 이민하여 처음에는 애리조나 스코츠데일에서 선물 가게를 열었다가 부동산업에 진출했다. 1972년 미국 시민권을 취득하고 로스앤젤레스로 이주하여 미래의 사업 파트너 데이비드 선을 만났다.",
-    "source": "Wikipedia, Bloomberg"
+    "birthPlace": "Bengkayang, West Kalimantan, Indonesia",
+    "birthPlaceKo": "인도네시아 서칼리만탄 벵카양",
+    "familyBackground": "Born on May 13, 1944, into a Hakka Chinese family originally from Guangdong, China. His father farmed latex from rubber trees. The family was poor, and Pangestu had to leave school early due to financial difficulties.",
+    "familyBackgroundKo": "1944년 5월 13일 중국 광둥 출신 객가(하카) 화인 가정에서 태어났다. 아버지는 고무나무에서 라텍스를 채취하는 농부였다. 가정이 가난하여 재정적 어려움으로 일찍 학교를 중퇴해야 했다.",
+    "education": "Attended Chinese schools in Indonesia; left school early due to family financial difficulties; largely self-educated in business through practical experience",
+    "educationKo": "인도네시아의 중국 학교에 재학; 가정 경제 사정으로 조기 중퇴; 실무 경험을 통해 대부분 독학으로 사업을 배움",
+    "earlyLife": "Prajogo Pangestu grew up in extreme poverty in Bengkayang, West Kalimantan, where his father worked as a rubber tapper. He attended Chinese schools in Indonesia but left school early due to financial problems. In 1965, during a tumultuous period in Indonesian history, he moved to Jakarta to seek new opportunities. There he met Burhan Uray, a Malaysian businessman in the logging industry, who would change the course of his life.",
+    "earlyLifeKo": "서칼리만탄 벵카양에서 고무 채취를 하는 아버지 밑에서 극심한 가난 속에 자랐다. 인도네시아의 중국 학교에 다녔으나 재정 문제로 조기에 학교를 그만두었다. 1965년 인도네시아 역사의 격동기에 새로운 기회를 찾아 자카르타로 이주했다. 그곳에서 벌목 산업에 종사하는 말레이시아 사업가 부르한 우라이를 만났고, 이는 그의 인생의 전환점이 되었다.",
+    "source": "Wikipedia, Bloomberg, Barito Pacific"
   },
   "careerTimeline": [
     {
-      "year": 1970,
-      "event": "Immigrated to the United States; opened a gift shop in Scottsdale, Arizona before entering real estate",
-      "eventKo": "미국으로 이민; 애리조나 스코츠데일에서 선물 가게를 연 후 부동산업에 진출"
+      "year": 1965,
+      "event": "Moved to Jakarta seeking new opportunities during a tumultuous period in Indonesian history",
+      "eventKo": "인도네시아 역사의 격동기에 새로운 기회를 찾아 자카르타로 이주"
     },
     {
-      "year": 1982,
-      "event": "Co-founded memory device maker Camintonn with David Sun in Los Angeles",
-      "eventKo": "로스앤젤레스에서 데이비드 선과 함께 메모리 장치 제조업체 카민톤 공동 설립"
+      "year": 1969,
+      "event": "Joined PT Djajanti, Malaysian businessman Burhan Uray's logging company, learning the timber trade over seven years",
+      "eventKo": "말레이시아 사업가 부르한 우라이의 벌목 회사 PT 자얀티에 입사하여 7년간 목재 무역을 습득"
     },
     {
-      "year": 1986,
-      "event": "Sold Camintonn to AST Research for $6 million",
-      "eventKo": "카민톤을 AST 리서치에 600만 달러에 매각"
+      "year": 1977,
+      "event": "Acquired a struggling timber company and renamed it PT Barito Pacific Timber",
+      "eventKo": "경영난의 목재 회사를 인수하고 PT 바리토 퍼시픽 팀버로 개명"
     },
     {
-      "year": 1987,
-      "event": "Lost most savings in Black Monday stock crash; co-founded Kingston Technology with David Sun using just $6,000 in capital",
-      "eventKo": "블랙 먼데이 주식 폭락으로 대부분의 자산을 잃음; 데이비드 선과 6,000달러 자본으로 킹스턴 테크놀로지 공동 설립"
+      "year": 1993,
+      "event": "Expanded Barito Pacific into petrochemicals by establishing PT Chandra Asri, Indonesia's largest naphtha cracker",
+      "eventKo": "인도네시아 최대 나프타 분해 시설인 PT 찬드라 아스리를 설립하여 바리토 퍼시픽을 석유화학으로 확장"
     },
     {
-      "year": 1996,
-      "event": "Sold 80% stake in Kingston to Softbank for $1.5 billion; distributed $100 million of proceeds to employees",
-      "eventKo": "킹스턴 지분 80%를 소프트뱅크에 15억 달러에 매각; 매각 대금 중 1억 달러를 직원들에게 분배"
+      "year": 2011,
+      "event": "Established the Bakti Barito Foundation with wife Harlina for education, environment, economy, and social programs",
+      "eventKo": "아내 하를리나와 함께 교육, 환경, 경제, 사회 프로그램을 위한 박티 바리토 재단 설립"
     },
     {
-      "year": 1999,
-      "event": "Bought back Softbank's stake for $450 million amid shrinking demand, regaining full ownership",
-      "eventKo": "수요 감소 속에 소프트뱅크 지분을 4억 5천만 달러에 재매입하여 완전한 소유권 회복"
+      "year": 2023,
+      "event": "Barito Renewables went public, with its Star Energy Geothermal subsidiary becoming a leading clean energy company",
+      "eventKo": "바리토 리뉴어블스가 상장하고 자회사 스타 에너지 지열이 선도적인 청정 에너지 기업으로 부상"
     },
     {
       "year": 2025,
-      "event": "Kingston Technology remains the world's largest independent memory module manufacturer with Tu as CEO",
-      "eventKo": "킹스턴 테크놀로지는 투가 CEO로 재임하며 세계 최대 독립 메모리 모듈 제조업체로 유지"
+      "event": "Became Indonesia's richest person with $42.3 billion net worth, ranking 25th on Forbes' global billionaires list",
+      "eventKo": "423억 달러 순자산으로 인도네시아 최고 부자가 되어 포브스 글로벌 억만장자 목록 25위에 올라"
     }
   ],
   "failures": [
     {
-      "year": 1987,
-      "description": "Lost nearly all savings in the Black Monday stock market crash of October 1987, just a year after selling Camintonn for $6 million. Tu and Sun were left with virtually nothing.",
-      "descriptionKo": "카민톤을 600만 달러에 매각한 지 불과 1년 만에 1987년 10월 블랙 먼데이 주식 시장 붕괴로 거의 모든 저축을 잃었다. 투와 선은 사실상 빈손이 되었다.",
-      "lesson": "The devastating loss drove Tu and Sun to start over with just $6,000, founding Kingston Technology. The experience taught them the value of building a real product business rather than relying on financial markets.",
-      "lessonKo": "이 참담한 손실로 투와 선은 6,000달러로 다시 시작하여 킹스턴 테크놀로지를 설립했다. 이 경험은 금융 시장에 의존하기보다 실질적인 제품 사업을 구축하는 것의 가치를 가르쳐주었다.",
-      "source": "Wikipedia, Bloomberg"
+      "year": 1998,
+      "description": "The Asian financial crisis devastated Barito Pacific's timber and petrochemical businesses. The company's heavy debt load and the collapse of the Indonesian rupiah pushed the conglomerate to the brink of bankruptcy",
+      "descriptionKo": "아시아 금융 위기로 바리토 퍼시픽의 목재 및 석유화학 사업이 초토화되었다. 과중한 부채와 인도네시아 루피아 폭락으로 대기업이 파산 직전까지 몰렸다",
+      "lesson": "Pangestu learned to diversify beyond cyclical industries and eventually pivoted toward renewable energy and geothermal, which provided more stable long-term returns",
+      "lessonKo": "팡게스투는 경기순환 산업을 넘어 다각화하는 것을 배웠고 결국 더 안정적인 장기 수익을 제공하는 재생에너지와 지열로 전환했다",
+      "source": "Wikipedia, Jakarta Globe"
+    },
+    {
+      "year": 2000,
+      "description": "Named as a graft suspect by the Attorney General's Office over forestry concession corruption, accused of marking up timber plantation sizes from 118,000 to 193,500 hectares in the early 1990s",
+      "descriptionKo": "검찰에 의해 산림 이권 부패 혐의로 수사 대상이 되었으며, 1990년대 초 목재 플랜테이션 규모를 11만 8천 헥타르에서 19만 3,500 헥타르로 부풀린 혐의를 받았다",
+      "lesson": "The legal troubles pushed Pangestu to rebrand his business empire as more sustainable and ethical, eventually leading to significant investments in renewable energy",
+      "lessonKo": "법적 문제로 인해 사업 제국을 더 지속 가능하고 윤리적인 이미지로 재브랜딩하게 되었고, 결국 재생에너지에 대한 대규모 투자로 이어졌다",
+      "source": "jawawa.id, Human Rights Watch"
     }
   ],
   "wealthHistory": [
     {
-      "year": 1996,
-      "netWorth": 0.8
+      "year": 2020,
+      "netWorth": 2.8
     },
     {
-      "year": 2010,
-      "netWorth": 3.5
-    },
-    {
-      "year": 2015,
+      "year": 2023,
       "netWorth": 5.3
     },
     {
-      "year": 2020,
-      "netWorth": 8.0
+      "year": 2024,
+      "netWorth": 62.8
     },
     {
       "year": 2025,
-      "netWorth": 17.5
+      "netWorth": 42.3
+    },
+    {
+      "year": 2026,
+      "netWorth": 18.0
     }
   ],
   "quotes": [],
@@ -91,12 +96,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Co-founding Kingston Technology with just $6,000 after losing everything; extraordinary employee generosity including distributing $100 million to employees; building the world's largest independent memory manufacturer while keeping it private",
-    "knownForKo": "모든 것을 잃은 후 6,000달러로 킹스턴 테크놀로지 공동 설립; 직원들에게 1억 달러를 분배한 비범한 관대함; 비상장을 유지하면서 세계 최대 독립 메모리 제조업체 구축",
-    "philanthropy": "Donated $1.2 million to UC Irvine for iPads for first-year medical students (2011); supported the Freedom Writers Foundation and journalism through the Western Iowa Journalism Foundation; received the Ellis Island Medal of Honor and Horatio Alger Award",
-    "philanthropyKo": "UC 어바인에 120만 달러를 기부하여 의대 1학년생들에게 아이패드 제공(2011); 프리덤 라이터스 재단과 웨스턴 아이오와 저널리즘 재단을 통한 언론 지원; 엘리스 아일랜드 명예 훈장, 호레이쇼 앨저상 수상",
-    "controversies": "Kingston Technology's private status makes its true valuation difficult to verify; net worth estimates vary widely depending on valuation methodology used",
-    "controversiesKo": "킹스턴 테크놀로지의 비상장 상태로 인해 실제 기업가치 검증이 어렵고, 적용하는 평가 방법론에 따라 순자산 추정치가 크게 달라짐"
+    "knownFor": "Self-made billionaire who rose from extreme poverty as a rubber tapper's son to become Indonesia's wealthiest person. Transformed from Indonesia's 'timber king' into a diversified industrial and clean energy mogul. Known for his remarkable resilience through multiple business crises and his pivot from extractive industries to renewable energy.",
+    "knownForKo": "고무 채취 농부의 아들에서 극심한 가난을 딛고 인도네시아 최고 부자가 된 자수성가형 억만장자. 인도네시아의 '목재왕'에서 다각화된 산업 및 청정에너지 거물로 변모했다. 여러 사업 위기를 헤쳐나간 놀라운 회복력과 채취 산업에서 재생에너지로의 전환으로 유명하다.",
+    "philanthropy": "Established the Bakti Barito Foundation in 2011 with wife Harlina Tjandinegara, supporting education, environment, economy, and social programs across Indonesia. Received the Bintang Jasa Utama (state honour) from President Joko Widodo in 2019 for significant services to the nation.",
+    "philanthropyKo": "2011년 아내 하를리나 찬디네가라와 함께 박티 바리토 재단을 설립하여 인도네시아 전역에서 교육, 환경, 경제, 사회 프로그램을 지원하고 있다. 2019년 조코 위도도 대통령으로부터 국가에 대한 중대한 공헌으로 빈탕 자사 우타마(국가 훈장)를 수여받았다.",
+    "controversies": "Faced allegations of massive deforestation during his timber operations in Kalimantan. Named as a corruption suspect over forestry concession markups. His close ties to the Suharto regime during the New Order era drew scrutiny. Environmental groups have criticized the ecological damage caused by his logging operations.",
+    "controversiesKo": "칼리만탄에서의 목재 운영 중 대규모 산림 파괴 혐의를 받았다. 산림 이권 부풀리기로 부패 용의자로 지목되었다. 신질서(뉴오더) 시대 수하르토 정권과의 긴밀한 관계가 감시를 받았다. 환경 단체들이 그의 벌목 작업으로 인한 생태계 피해를 비판했다."
   },
   "sajuConnection": null
 }

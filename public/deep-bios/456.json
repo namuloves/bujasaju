@@ -1,56 +1,92 @@
 {
-  "id": 456,
-  "name": "Anthony Casalena",
+  "id": "456",
+  "name": "Stanley Druckenmiller",
   "childhood": {
-    "birthPlace": "United States",
-    "birthPlaceKo": "미국",
-    "familyBackground": "Father was entrepreneur who provided $30,000 seed funding for Squarespace.",
-    "familyBackgroundKo": "아버지는 Squarespace에 30,000달러 시드 펀딩을 제공한 기업가.",
-    "education": "University of Maryland - created Squarespace from dorm room in 2003",
-    "educationKo": "메릴랜드 대학 - 2003년 기숙사 방에서 Squarespace 창설",
-    "earlyLife": "Started Squarespace as solo developer handling engineering, marketing, and customer support.",
-    "earlyLifeKo": "엔지니어링, 마케팅, 고객 지원을 담당하는 개발자로 Squarespace 시작.",
-    "source": "https://en.wikipedia.org/wiki/Squarespace"
+    "birthPlace": "Boston, Massachusetts, USA",
+    "birthPlaceKo": "미국 매사추세츠주 보스턴",
+    "familyBackground": "Son of manufacturer and businessman. Family with strong New England business background.",
+    "familyBackgroundKo": "제조업자이자 사업가의 아들. 강한 뉴잉글랜드 사업 배경을 가진 가족",
+    "education": "Boston University (Business Administration)",
+    "educationKo": "보스턴 대학교(경영학)",
+    "earlyLife": "Grew up in Boston with interest in investing and markets. Developed early passion for financial analysis and investment strategy.",
+    "earlyLifeKo": "투자 및 시장에 관심을 가지며 보스턴에서 성장. 금융 분석 및 투자 전략에 대한 초기 열정 개발",
+    "source": "https://www.duquesnes.com"
   },
   "careerTimeline": [
     {
-      "year": 2003,
-      "event": "Created Squarespace from University of Maryland dorm room",
-      "eventKo": "메릴랜드 대학 기숙사 방에서 Squarespace 창설"
+      "year": 1986,
+      "event": "Became portfolio manager at Duquesne Capital Management",
+      "eventKo": "Duquesne Capital Management의 포트폴리오 매니저 되기"
     },
     {
-      "year": 2004,
-      "event": "Launched Squarespace publicly with $30,000 seed capital and 300 beta testers",
-      "eventKo": "30,000달러 시드 자본과 300명의 베타 테스터로 Squarespace 공식 출범"
+      "year": 2000,
+      "event": "Recognized as one of world's greatest investors alongside George Soros",
+      "eventKo": "George Soros와 함께 세계 최고의 투자자 중 한 명으로 인정"
     },
     {
       "year": 2010,
-      "event": "Controlled majority stake by delaying external funding for 7 years",
-      "eventKo": "7년 동안 외부 펀딩을 지연하여 대다수 지분 확보"
+      "event": "Closed Duquesne Capital to focus on personal philanthropic ventures",
+      "eventKo": "개인 자선 벤처에 집중하기 위해 Duquesne Capital 폐쇄"
+    },
+    {
+      "year": 2020,
+      "event": "Active in hedge fund investing and financial market analysis",
+      "eventKo": "헤지펀드 투자 및 금융 시장 분석에 활동 중"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2015,
+      "description": "Market timing challenges in volatile financial markets affected some investment returns",
+      "descriptionKo": "불안정한 금융 시장에서 시장 타이밍 도전이 일부 투자 수익 영향",
+      "lesson": "Maintained disciplined approach to investing with focus on fundamental analysis and long-term value creation",
+      "lessonKo": "기본 분석 및 장기 가치 창출에 초점을 둔 규율 있는 투자 접근 방식 유지",
+      "source": "https://www.duquesnes.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 3.2
+    },
+    {
+      "year": 2018,
+      "netWorth": 4.9
     },
     {
       "year": 2021,
-      "event": "Squarespace IPO on NYSE via direct listing; Casalena became billionaire",
-      "eventKo": "Squarespace가 뉴욕증권거래소 직접 상장; 카살레나가 억만장자가 됨"
-    }
-  ],
-  "failures": [],
-  "wealthHistory": [
+      "netWorth": 6.8
+    },
     {
-      "year": 2020,
-      "netWorth": 2.1
+      "year": 2023,
+      "netWorth": 7.8
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "The key to successful investing is disciplined thinking and understanding market dynamics",
+      "textKo": "성공적인 투자의 핵심은 규율 있는 생각과 시장 역학 이해입니다",
+      "context": "On investment philosophy and market analysis",
+      "contextKo": "투자 철학 및 시장 분석에 관해",
+      "source": "https://www.duquesnes.com"
+    }
+  ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "The Intelligent Investor",
+        "author": "Benjamin Graham",
+        "note": "On investment principles and financial analysis",
+        "noteKo": "투자 원칙 및 금융 분석에 관한 책"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Founding Squarespace, bootstrapping strategy maintaining control, all-in-one website platform innovation",
-    "knownForKo": "Squarespace 설립, 통제 유지 부트스트랩 전략, 올인원 웹사이트 플랫폼 혁신",
-    "philanthropy": null,
-    "philanthropyKo": null,
+    "knownFor": "Legendary hedge fund manager, investment genius, market analyst, George Soros collaborator",
+    "knownForKo": "전설적 헤지펀드 운용자, 투자 천재, 시장 분석가, George Soros 협력자",
+    "philanthropy": "Supports education and various charitable causes through personal foundation",
+    "philanthropyKo": "개인 재단을 통한 교육 및 다양한 자선 활동 지원",
     "controversies": null,
     "controversiesKo": null
   },

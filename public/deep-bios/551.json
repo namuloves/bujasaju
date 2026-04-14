@@ -1,85 +1,107 @@
 {
   "id": "551",
-  "name": "Margaretta Taylor",
-  "childhood": {
-    "birthPlace": "Los Angeles, California, USA",
-    "birthPlaceKo": "미국 캘리포니아주 로스앤젤레스",
-    "familyBackground": "Taylor was born into a prominent Hollywood and entertainment family. Her family had substantial interests in film, television, and media.",
-    "familyBackgroundKo": "테일러는 저명한 할리우드 및 엔터테인먼트 가족에 태어났다.",
-    "education": "University of Southern California; UCLA School of Theater, Film and Television",
-    "educationKo": "남캘리포니아 대학교; UCLA 극장, 영화 및 텔레비전 학교",
-    "earlyLife": "Taylor worked in entertainment and media before establishing her own production company. She became a successful producer and media executive.",
-    "earlyLifeKo": "테일러는 자신의 제작 회사를 설립하기 전에 엔터테인먼트 및 미디어에서 일했다.",
-    "source": "https://www.forbes.com/billionaires"
-  },
+  "name": "Clive Calder",
+  "nameKo": "클라이브 칼더",
+  "childhood": "Clive Calder was born on December 13, 1946, in Johannesburg, South Africa, where he grew up immersed in music, teaching himself to play bass guitar and performing with local bands as a teenager. He was studious beyond music, famously keeping tax manuals on his bedside table for reading — a habit that foreshadowed the meticulous financial mind that would later help him build and sell a multi-billion-dollar music empire. His blend of artistic passion and sharp business instinct was evident from his earliest years.",
+  "childhoodKo": "클라이브 칼더는 1946년 12월 13일 남아프리카공화국 요하네스버그에서 태어나, 어린 시절부터 음악에 흠뻑 빠져 독학으로 베이스 기타를 익히고 10대 때부터 지역 밴드에서 연주했다. 음악 외에도 공부를 게을리하지 않아, 침대 머리맡에 세금 매뉴얼을 두고 읽는 것으로 유명했는데, 이는 훗날 수십억 달러 규모의 음악 제국을 구축하고 매각하는 데 도움이 된 치밀한 금융 감각을 예고하는 습관이었다. 예술적 열정과 예리한 사업 감각의 조화는 그의 어린 시절부터 분명히 드러났다.",
   "careerTimeline": [
     {
-      "year": 1995,
-      "event": "Founded independent film and television production company",
-      "eventKo": "독립 영화 및 텔레비전 제작 회사 설립"
+      "year": 1971,
+      "event": "Co-founded his first record company in South Africa with Ralph Simon, entering the music industry as both an artist manager and entrepreneur.",
+      "eventKo": "남아프리카공화국에서 랄프 사이먼과 함께 첫 번째 레코드 회사를 공동 창립하며, 아티스트 매니저 겸 기업가로 음악 업계에 뛰어듦."
     },
     {
-      "year": 2008,
-      "event": "Expanded into media distribution and streaming platforms",
-      "eventKo": "미디어 유통 및 스트리밍 플랫폼으로 확장"
+      "year": 1975,
+      "event": "Relocated to London with Ralph Simon and established Zomba as an artist and producer management company, naming it after the capital city of Malawi as a nod to their African roots.",
+      "eventKo": "랄프 사이먼과 함께 런던으로 이주하여 아프리카 뿌리에 대한 경의로 말라위의 수도 이름을 딴 아티스트·프로듀서 매니지먼트 회사 Zomba를 설립."
     },
     {
-      "year": 2016,
-      "event": "Achieved billionaire status through successful media ventures",
-      "eventKo": "성공적인 미디어 벤처를 통해 억만장자 지위 달성"
+      "year": 1978,
+      "event": "Expanded Zomba into music publishing and opened offices in New York City, building the multinational infrastructure that would underpin future growth.",
+      "eventKo": "Zomba를 음악 출판 분야로 확장하고 뉴욕에 사무소를 개설하여, 향후 성장의 기반이 될 다국적 인프라를 구축."
+    },
+    {
+      "year": 1981,
+      "event": "Co-founded Jive Records with Ralph Simon, establishing the label as a pioneering outlet for hip-hop and rap music in an era when few major labels took the genre seriously.",
+      "eventKo": "랄프 사이먼과 함께 Jive Records를 공동 창립하여, 대형 레이블들이 힙합과 랩을 진지하게 여기지 않던 시대에 해당 장르의 선구적 레이블로 자리매김."
+    },
+    {
+      "year": 1988,
+      "event": "Launched Silvertone Records, further diversifying the Zomba Group's portfolio and signing rock and alternative artists including the Stone Roses.",
+      "eventKo": "Silvertone Records를 설립하여 Zomba 그룹의 포트폴리오를 더욱 다각화하고, 스톤 로지스를 비롯한 록 및 얼터너티브 아티스트들과 계약."
+    },
+    {
+      "year": 1990,
+      "event": "Following an ethical disagreement with Ralph Simon, bought out Simon's stake and became the sole owner of the Zomba Group, gaining full control of the company's strategic direction.",
+      "eventKo": "랄프 사이먼과의 윤리적 갈등 끝에 사이먼의 지분을 인수하여 Zomba 그룹의 단독 소유주가 되며 회사의 전략적 방향에 대한 완전한 통제권을 획득."
+    },
+    {
+      "year": 1996,
+      "event": "Signed the Backstreet Boys to Jive Records and shortly after NSYNC and Britney Spears, launching a teen pop era that would generate hundreds of millions in sales.",
+      "eventKo": "Jive Records에 백스트리트 보이즈와 계약하고 곧이어 NSYNC와 브리트니 스피어스를 영입하여, 수억 달러의 매출을 창출한 틴팝 시대를 열어젖힘."
+    },
+    {
+      "year": 2002,
+      "event": "Sold the Zomba Group to Bertelsmann Music Group (BMG) for $2.74 billion, one of the largest music industry transactions in history, instantly becoming a billionaire.",
+      "eventKo": "Zomba 그룹을 베르텔스만 뮤직 그룹(BMG)에 27억 4천만 달러에 매각하며 음악 산업 역사상 최대 거래 중 하나를 성사시키고 즉각 억만장자 반열에 오름."
+    },
+    {
+      "year": 2003,
+      "event": "Retired from the music business, turning his attention to philanthropic endeavors, particularly in Africa through the ELMA Group of Foundations.",
+      "eventKo": "음악 사업에서 은퇴하여 자선 활동, 특히 ELMA 재단 그룹을 통한 아프리카 지원 사업에 집중."
     }
   ],
   "failures": [
     {
-      "year": 2014,
-      "description": "Several film and television projects underperformed at box office and viewership",
-      "descriptionKo": "여러 영화 및 텔레비전 프로젝트가 박스 오피스 및 시청률에서 부진",
-      "lesson": "Entertainment requires understanding audience preferences and market trends",
-      "lessonKo": "엔터테인먼트는 청중 선호도 및 시장 동향을 이해해야 한다",
-      "source": "https://www.variety.com"
+      "title": "Zomba's Early Struggles in the US Market",
+      "description": "After establishing Zomba in London in 1975, breaking into the highly competitive US music market proved exceptionally difficult. It took years of persistence and strategic investment in New York offices before Jive Records gained meaningful traction in America.",
+      "titleKo": "미국 시장 초기 진출의 어려움",
+      "descriptionKo": "1975년 런던에 Zomba를 설립한 후, 극도로 경쟁이 치열한 미국 음악 시장에 진출하는 것은 매우 어려운 일이었다. Jive Records가 미국에서 의미 있는 성과를 거두기까지 수년간의 끈기와 전략적인 뉴욕 사무소 투자가 필요했다."
+    },
+    {
+      "title": "Ethical Rift with Co-Founder Ralph Simon",
+      "description": "An undisclosed ethical disagreement with business partner and co-founder Ralph Simon in 1990 ended their 19-year partnership. While Calder bought out Simon and retained full control, the breakdown of a long-standing founding relationship represented a personal and professional setback.",
+      "titleKo": "공동 창업자 랄프 사이먼과의 윤리적 결별",
+      "descriptionKo": "1990년 사업 파트너이자 공동 창업자인 랄프 사이먼과의 공개되지 않은 윤리적 갈등으로 19년간의 동반자 관계가 막을 내렸다. 칼더가 사이먼의 지분을 인수하고 완전한 통제권을 유지했지만, 오랜 창업 파트너 관계의 붕괴는 개인적·직업적 좌절이었다."
+    },
+    {
+      "title": "Post-Sale Investment Volatility",
+      "description": "After receiving $2.74 billion from the BMG sale in 2002, managing and growing that wealth through investments proved challenging. Reports from 2024 showed his net worth experiencing swings of hundreds of millions of dollars over short periods, reflecting the volatility inherent in managing large investment portfolios.",
+      "titleKo": "매각 후 투자 자산 변동성",
+      "descriptionKo": "2002년 BMG 매각으로 27억 4천만 달러를 받은 후, 그 자산을 투자를 통해 관리하고 불리는 것은 쉽지 않았다. 2024년 보도에 따르면 단기간에 수억 달러씩 순자산이 오르내리는 등, 대규모 투자 포트폴리오 운용에 내재된 변동성이 여실히 드러났다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 2016,
-      "netWorth": 6.0
+      "year": 2002,
+      "amount": 2.74
+    },
+    {
+      "year": 2005,
+      "amount": 3.2
+    },
+    {
+      "year": 2010,
+      "amount": 4.0
+    },
+    {
+      "year": 2015,
+      "amount": 4.8
     },
     {
       "year": 2020,
-      "netWorth": 6.2
+      "amount": 5.5
     },
     {
-      "year": 2024,
-      "netWorth": 6.5
-    }
-  ],
-  "quotes": [
+      "year": 2023,
+      "amount": 5.7
+    },
     {
-      "text": "Great stories have the power to change how people think and feel",
-      "textKo": "위대한 이야기는 사람들이 생각하고 느끼는 방식을 바꿀 수 있는 힘을 가지고 있다",
-      "context": "Interview on media production philosophy",
-      "contextKo": "미디어 제작 철학에 관한 인터뷰",
-      "source": "https://www.hollywoodreporter.com"
+      "year": 2025,
+      "amount": 6.9
     }
   ],
-  "books": {
-    "authored": [],
-    "recommended": [
-      {
-        "title": "Save the Cat",
-        "author": "Blake Snyder",
-        "note": "Informed her approach to screenwriting and story development",
-        "noteKo": "시나리오 작성 및 스토리 개발에 대한 접근 방식을 알림"
-      }
-    ]
-  },
-  "personalTraits": {
-    "knownFor": "Entertainment and media production; Hollywood leadership; streaming platform development",
-    "knownForKo": "엔터테인먼트 및 미디어 제작; 할리우드 리더십; 스트리밍 플랫폼 개발",
-    "philanthropy": "Supports arts education and entertainment industry initiatives",
-    "philanthropyKo": "예술 교육 및 엔터테인먼트 산업 이니셔티브 지원",
-    "controversies": null,
-    "controversiesKo": null
-  },
+  "quotes": [],
+  "books": [],
   "sajuConnection": null
 }

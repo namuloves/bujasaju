@@ -4,84 +4,65 @@
   "childhood": {
     "birthPlace": "Gujarat, India",
     "birthPlaceKo": "인도 구자라트",
-    "familyBackground": "Born into a family with pharmaceutical industry connections. Father was involved in the Indian pharmaceutical business.",
-    "familyBackgroundKo": "제약 산업과 연관된 가정에서 태어남. 아버지는 인도 제약 사업에 종사.",
-    "education": "Studied pharmacy and pharmaceutical sciences in India.",
-    "educationKo": "인도에서 약학 및 제약학 전공.",
-    "earlyLife": "Grew up in Gujarat's vibrant pharmaceutical industry hub.",
-    "earlyLifeKo": "구자라트의 활기찬 제약 산업 중심지에서 성장.",
-    "source": "Forbes, Zydus Lifesciences"
+    "familyBackground": "Born March 16, 1953. Father Ramanbhai co-founded pharmaceutical company Cadila Laboratories with Indravadan Modi. Family involved in pharmaceutical business.",
+    "familyBackgroundKo": "1953년 3월 16일 출생. 아버지 라만바이는 인드라바단 모디와 함께 제약 회사 카디라 라보라토리 공동 설립. 가족은 제약 사업에 관여.",
+    "education": "L.M. College of Pharmacy, Gujarat University - Bachelor of Pharmacy and Master of Pharmacy. University of Mumbai - Bachelor of Arts in Science and Law",
+    "educationKo": "구자라트 대학교 엘엠 약학대학 - 약학 학사 및 석사. 뭄바이 대학교 - 과학 및 법학 학사",
+    "earlyLife": "Grew up in pharmaceutical family business. Educated in pharmacy and law, preparing for leadership in pharmaceutical sector. Demonstrated commitment to pharmaceuticals and research.",
+    "earlyLifeKo": "제약 가족 사업에서 성장. 제약 부문의 지도력을 위해 약학 및 법률 교육. 제약 및 연구에 대한 헌신 시현.",
+    "source": "https://en.wikipedia.org/wiki/Pankaj_Patel"
   },
   "careerTimeline": [
     {
+      "year": 1976,
+      "event": "Joined father Ramanbhai's pharmaceutical company Cadila Laboratories",
+      "eventKo": "아버지 라만바이의 제약 회사 카디라 라보라토리에 입사"
+    },
+    {
       "year": 1995,
-      "event": "Took leadership of Cadila Healthcare (now Zydus Lifesciences)",
-      "eventKo": "카딜라 헬스케어(현 자이더스 라이프사이언시스) 경영 주도"
+      "event": "Company split between founder families; Patel family took their portion as Cadila Healthcare",
+      "eventKo": "회사가 창립자 가족 간 분할; 파텔 가족이 자신들의 지분을 카디라 헬스케어로 인수"
     },
     {
       "year": 2000,
-      "event": "Expanded Zydus into a major Indian pharmaceutical company with global presence",
-      "eventKo": "자이더스를 글로벌 입지를 갖춘 인도 주요 제약회사로 확장"
+      "event": "Cadila Healthcare listed on public markets",
+      "eventKo": "카디라 헬스케어 공개 상장"
     },
     {
-      "year": 2021,
-      "event": "Zydus developed ZyCoV-D, the world's first DNA-based COVID-19 vaccine",
-      "eventKo": "자이더스가 세계 최초 DNA 기반 코로나19 백신 ZyCoV-D 개발"
+      "year": 2013,
+      "event": "Company received regulator approval for Lipaglyn drug treating diabetic dyslipidemia; first drug of its kind globally",
+      "eventKo": "회사가 당뇨병성 지질혈증 치료 약물 리파글린의 규제당국 승인 획득; 세계적으로 첫 약물"
     },
     {
-      "year": 2023,
-      "event": "Zydus Lifesciences revenues exceeded $2.5 billion",
-      "eventKo": "자이더스 라이프사이언시스 매출 25억 달러 초과"
+      "year": 2022,
+      "event": "Cadila Healthcare rebranded as Zydus Lifesciences",
+      "eventKo": "카디라 헬스케어가 Zydus Lifesciences로 재브랜딩"
     },
     {
       "year": 2025,
-      "event": "Net worth reached $7.6 billion",
-      "eventKo": "순자산 76억 달러 도달"
+      "event": "Conferred Padma Bhushan, India's third highest civilian award for contribution to trade and industry",
+      "eventKo": "무역 및 산업에 대한 기여로 인도 3번째 최고 민간인 상 파드마 부산 수여"
     }
   ],
-  "failures": [
-    {
-      "year": 2015,
-      "description": "Some drug approvals faced delays in US FDA process",
-      "descriptionKo": "일부 의약품 승인이 미국 FDA 절차에서 지연",
-      "lesson": "Regulatory patience and quality systems are essential for pharmaceutical success",
-      "lessonKo": "규제에 대한 인내와 품질 시스템이 제약 성공에 필수적",
-      "source": "Economic Times"
-    }
-  ],
+  "failures": [],
   "wealthHistory": [
     {
-      "year": 2015,
-      "netWorth": 2.0
-    },
-    {
       "year": 2020,
-      "netWorth": 3.5
-    },
-    {
-      "year": 2023,
-      "netWorth": 5.5
-    },
-    {
-      "year": 2025,
       "netWorth": 7.6
     }
   ],
-  "quotes": [
-    {
-      "text": "Innovation in pharma means making life-saving medicines accessible to all.",
-      "textKo": "제약 혁신은 생명을 구하는 약을 모든 사람이 접근 가능하게 만드는 것이다.",
-      "context": "On pharmaceutical innovation",
-      "contextKo": "제약 혁신에 대해",
-      "source": "Business Standard"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building Zydus Lifesciences into a major Indian pharma company and developing the world's first DNA COVID vaccine",
-    "knownForKo": "자이더스 라이프사이언시스를 인도 주요 제약회사로 성장시키고 세계 최초 DNA 코로나 백신 개발"
-  }
+    "knownFor": "Chairman of Zydus Lifesciences, India's fifth largest pharmaceutical company, innovator in drug development, published over 100 research papers, co-inventor in 64+ patents",
+    "knownForKo": "Zydus Lifesciences 회장, 인도 5번째 최대 제약 회사, 약물 개발 혁신가, 100개 이상의 연구논문 발표, 64개 이상의 특허 공동 발명가",
+    "philanthropy": null,
+    "philanthropyKo": null,
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
 }

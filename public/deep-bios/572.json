@@ -2,58 +2,98 @@
   "id": "572",
   "name": "Alexander Otto",
   "childhood": {
-    "birthPlace": "Germany",
-    "birthPlaceKo": "독일",
-    "familyBackground": "A German billionaire businessman, he is known for his leadership in the real estate industry. Alexander Otto built his wealth through inherited assets, with a net worth of $6.7 billion.",
-    "familyBackgroundKo": "Alexander Otto는 포브스 2026년 억만장자 순위 528위입니다. 여기에서 Alexander Otto의 경력, 자산 요약 등에 대해 자세히 알아보세요.",
-    "education": "Details of Alexander Otto's formal education are documented in limited public sources.",
-    "educationKo": "Alexander Otto의 정규 교육에 대한 세부사항은 제한된 공개 자료에 기록되어 있음.",
-    "earlyLife": "Alexander Otto built a career in Real estate, becoming one of the world's wealthiest individuals.",
-    "earlyLifeKo": "Alexander Otto은(는) Real estate 분야에서 경력을 쌓아 세계 최고 부호 중 한 명이 됨.",
-    "source": "Forbes, Wikipedia"
+    "birthPlace": "Hamburg, Germany",
+    "birthPlaceKo": "독일 함부르크",
+    "familyBackground": "알렉산더 오토는 1967년 7월 함부르크에서 태어났다. 그의 아버지 베르너 오토는 1949년 신발 카탈로그 한 권으로 시작해 세계 최대 통신판매 기업 중 하나인 오토 그룹을 일군 독일의 전설적인 사업가다. 베르너는 또한 1965년 독일에 쇼핑센터 개념을 최초로 도입해 ECE를 설립했다. 알렉산더는 오토 그룹 창업자의 막내 아들로, 어릴 때부터 부동산과 상업에 대한 이야기를 자연스럽게 접하며 성장했다.",
+    "familyBackgroundKo": "알렉산더 오토는 1967년 7월 함부르크에서 태어났다. 그의 아버지 베르너 오토는 1949년 신발 카탈로그 한 권으로 시작해 세계 최대 통신판매 기업 중 하나인 오토 그룹을 일군 독일의 전설적인 사업가다. 베르너는 또한 1965년 독일에 쇼핑센터 개념을 최초로 도입해 ECE를 설립했다. 알렉산더는 오토 그룹 창업자의 막내 아들로, 어릴 때부터 부동산과 상업에 대한 이야기를 자연스럽게 접하며 성장했다.",
+    "education": "Attended high school at Oxford, England. Earned a BA summa cum laude from Harvard University in 1990, followed by an MBA with distinction from Harvard Business School in 1994.",
+    "educationKo": "영국 옥스퍼드에서 고등학교를 졸업했다. 1990년 하버드 대학교에서 최우등으로 학사 학위를 취득했으며, 1994년 하버드 경영대학원에서 우등으로 MBA를 마쳤다.",
+    "earlyLife": "Growing up in the shadow of one of Germany's greatest business dynasties, Alexander was exposed to the worlds of retail, real estate, and commerce from childhood. He chose Harvard over German universities, signaling an early desire to build an independent profile.",
+    "earlyLifeKo": "독일 최대 사업 왕조 중 하나의 그늘 아래 성장하며 어린 시절부터 소매업, 부동산, 상업의 세계에 자연스럽게 노출됐다. 독일 대학 대신 하버드를 선택해 독자적인 길을 걷겠다는 초기 의지를 보였다."
   },
   "careerTimeline": [
     {
-      "year": 1992,
-      "event": "Joined family business in Real estate",
-      "eventKo": "Real estate 가족 사업에 합류"
+      "year": 1994,
+      "event": "Joined ECE immediately after completing his Harvard MBA, starting in operational and development roles within the family's shopping center business.",
+      "eventKo": "하버드 MBA 수료 직후 ECE에 입사해 가족 소유의 쇼핑센터 사업에서 운영 및 개발 업무를 맡았다."
     },
     {
-      "year": 2020,
-      "event": "Continued expanding operations and investments",
-      "eventKo": "사업 및 투자 확대 지속"
+      "year": 1997,
+      "event": "Led ECE's first major international expansion projects, extending the company's expertise in shopping center development beyond Germany.",
+      "eventKo": "ECE의 첫 주요 해외 확장 프로젝트를 이끌며 쇼핑센터 개발 역량을 독일 밖으로 넓혔다."
     },
     {
-      "year": 2025,
-      "event": "Net worth reached $6.7B, ranking among world's wealthiest",
-      "eventKo": "순자산 6.70억 달러 도달, 세계 최고 부호 대열"
+      "year": 2000,
+      "event": "Became Chief Executive Officer of ECE at age 32, taking full control of the company and outlining an ambitious strategy to become Europe's leading shopping center operator.",
+      "eventKo": "32세에 ECE 최고경영자(CEO)에 취임해 회사 전권을 인수하고 유럽 최대 쇼핑센터 운영사가 되겠다는 야심찬 전략을 제시했다."
+    },
+    {
+      "year": 2005,
+      "event": "Under his leadership, ECE grew its managed portfolio to over 100 shopping centers across Europe, cementing its position as the continental market leader.",
+      "eventKo": "그의 경영 아래 ECE가 관리하는 유럽 쇼핑센터 수가 100개를 넘어서며 유럽 대륙 시장 리더 자리를 굳혔다."
+    },
+    {
+      "year": 2008,
+      "event": "Navigated ECE through the global financial crisis by focusing on high-quality prime locations and long-term tenant relationships rather than speculative development.",
+      "eventKo": "투기적 개발보다 핵심 입지의 고품질 물건과 장기 임차인 관계에 집중하는 전략으로 ECE를 글로벌 금융위기에서 안정적으로 이끌었다."
+    },
+    {
+      "year": 2013,
+      "event": "Founded the Lebendige Stadt (Living City) Foundation to promote European urban revitalization, connecting his real estate work with broader city planning and public space initiatives.",
+      "eventKo": "유럽 도시 재생을 촉진하기 위한 레벤디게 슈타트(살아있는 도시) 재단을 설립해 부동산 사업과 도시 계획·공공 공간 이니셔티브를 연결했다."
+    },
+    {
+      "year": 2015,
+      "event": "Donated €15 million to the modernization of the Hamburg Kunsthalle art museum, one of Germany's largest art museum donations by a private individual.",
+      "eventKo": "함부르크 쿤스트할레 미술관 현대화에 1,500만 유로를 기부했다. 개인으로서는 독일 최대 규모의 미술관 기부 중 하나였다."
+    },
+    {
+      "year": 2018,
+      "event": "Transformed ECE into the ECE Group, diversifying beyond retail into mixed-use developments, logistics real estate, and fund management.",
+      "eventKo": "ECE를 ECE 그룹으로 전환하며 소매 부동산을 넘어 복합 개발, 물류 부동산, 펀드 운용으로 사업을 다각화했다."
+    },
+    {
+      "year": 2022,
+      "event": "Joined the Board of Directors of Curbline Properties (USA), expanding his real estate expertise into the American convenience and strip center market.",
+      "eventKo": "미국 커브라인 프로퍼티스 이사회에 합류하며 부동산 전문성을 미국 편의 상업시설·스트립 센터 시장으로 확장했다."
     }
   ],
   "failures": [
     {
       "year": 2020,
-      "description": "COVID-19 pandemic created unprecedented challenges across global business",
-      "descriptionKo": "코로나19 팬데믹이 전 세계 비즈니스에 전례 없는 도전 초래",
-      "lesson": "Adaptability and resilience are essential for surviving global crises",
-      "lessonKo": "글로벌 위기를 생존하는 데 적응력과 회복력이 필수적",
-      "source": "Forbes"
+      "description": "The COVID-19 pandemic devastated ECE's shopping center portfolio as lockdowns forced closures across Europe. Rental income collapsed, and several major tenants sought rent reductions or declared insolvency.",
+      "descriptionKo": "코로나19 팬데믹으로 유럽 전역의 봉쇄 조치가 시행되면서 ECE의 쇼핑센터 포트폴리오가 심각한 타격을 받았다. 임대 수입이 급감했고 여러 주요 임차인이 임대료 감면을 요구하거나 파산했다.",
+      "lesson": "Even the most resilient real estate portfolios are vulnerable to structural shocks that render physical retail temporarily obsolete; resilience requires diversification.",
+      "lessonKo": "아무리 탄탄한 부동산 포트폴리오도 오프라인 소매를 일시적으로 무력화하는 구조적 충격에는 취약하다. 다각화를 통한 회복력 구축이 필수적이다."
     }
   ],
   "wealthHistory": [
     {
+      "year": 2005,
+      "netWorth": 2.5
+    },
+    {
       "year": 2010,
-      "netWorth": 1.7
+      "netWorth": 5.0
     },
     {
       "year": 2015,
-      "netWorth": 3.0
+      "netWorth": 8.0
     },
     {
-      "year": 2022,
-      "netWorth": 4.7
+      "year": 2019,
+      "netWorth": 11.5
     },
     {
-      "year": 2025,
+      "year": 2021,
+      "netWorth": 12.2
+    },
+    {
+      "year": 2023,
+      "netWorth": 8.5
+    },
+    {
+      "year": 2024,
       "netWorth": 6.7
     }
   ],
@@ -63,7 +103,10 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building wealth through Real estate. One of the world's wealthiest individuals with net worth of $6.7B.",
-    "knownForKo": "Real estate을(를) 통해 부를 축적. 순자산 $6.7B의 세계 최고 부호 중 한 명."
-  }
+    "knownFor": "Building ECE into Europe's dominant shopping center group; strong commitment to Hamburg civic life; combining Harvard-trained analytical rigor with a family legacy in German commerce.",
+    "knownForKo": "ECE를 유럽 최대 쇼핑센터 그룹으로 성장시킨 것, 함부르크 시민 사회에 대한 강한 헌신, 그리고 하버드에서 갈고닦은 분석적 역량을 독일 상업의 가족 유산과 결합한 경영 방식으로 알려져 있다.",
+    "philanthropy": "Major patron of Hamburg cultural life: €15 million to Hamburg Kunsthalle, substantial support for Hamburg State Opera, youth and disabled sports through the Alexander Otto Sports Foundation, and the Lebendige Stadt Foundation for urban revitalization.",
+    "philanthropyKo": "함부르크 문화 생활의 주요 후원자. 함부르크 쿤스트할레에 1,500만 유로 기부, 함부르크 주립 오페라 지원, 알렉산더 오토 스포츠 재단을 통한 청소년·장애인 스포츠 지원, 그리고 도시 재생을 위한 레벤디게 슈타트 재단 운영 등 폭넓은 자선 활동을 펼치고 있다."
+  },
+  "sajuConnection": null
 }

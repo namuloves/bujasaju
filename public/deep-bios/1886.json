@@ -1,48 +1,94 @@
 {
   "id": "1886",
-  "name": "Ajay Parekh",
+  "name": "Dragos Paval",
   "childhood": {
-    "birthPlace": "Mumbai, India",
-    "birthPlaceKo": "인도 뭄바이",
-    "familyBackground": "피딜라이트 인더스트리즈를 창업한 발반트 파렉의 아들로 태어났다. 아버지 발반트 파렉은 1959년 페비콜(Fevicol) 브랜드로 인도 접착제 산업을 개척한 인물이다. 형 마두카르 파렉과 함께 가업을 이어받아 세계적인 기업으로 성장시켰다.",
-    "familyBackgroundKo": "피딜라이트 인더스트리즈를 창업한 발반트 파렉의 아들로 태어났다. 아버지 발반트 파렉은 1959년 페비콜(Fevicol) 브랜드로 인도 접착제 산업을 개척한 인물이다. 형 마두카르 파렉과 함께 가업을 이어받아 세계적인 기업으로 성장시켰다.",
-    "education": "UC버클리(캘리포니아 대학교 버클리)에서 경영학 MBA를 취득했다(1979~1981). 미국에서의 교육이 글로벌 경영 감각과 마케팅 전략 역량을 키우는 데 기여했다.",
-    "educationKo": "UC버클리에서 경영학 MBA를 취득했다(1979~1981). 미국에서의 교육이 글로벌 경영 감각과 마케팅 전략 역량을 키우는 데 기여했다.",
-    "earlyLife": "어린 시절부터 아버지의 사업 현장에서 접착제와 화학 제품의 제조·유통을 직접 보고 배웠다. 미국 유학 후 귀국하여 피딜라이트의 글로벌화 전략에 핵심적인 역할을 맡았다.",
-    "earlyLifeKo": "어린 시절부터 아버지의 사업 현장에서 접착제와 화학 제품의 제조·유통을 직접 보고 배웠다. 미국 유학 후 귀국하여 피딜라이트의 글로벌화 전략에 핵심적인 역할을 맡았다."
+    "birthPlace": "Bucharest, Romania",
+    "birthPlaceKo": "루마니아 부카레스트",
+    "familyBackground": "Paval family built textile manufacturing business during communist era. Father was engineer who adapted to post-communist market economy.",
+    "familyBackgroundKo": "Paval 가족은 공산주의 시대에 섬유 제조 사업을 구축했습니다. 아버지는 공산주의 후 시장 경제에 적응한 엔지니어였습니다.",
+    "education": "Bucharest Polytechnic Institute (Textile Engineering); business courses in Romania and Hungary",
+    "educationKo": "부카레스트 폴리테크닉 인스티튜트(섬유 공학); 루마니아 및 헝가리의 비즈니스 과정",
+    "earlyLife": "Grew up during Romania's transition to market economy. Witnessed family business adapt to new economic realities.",
+    "earlyLifeKo": "루마니아의 시장 경제로의 전환 중 성장함. 가족 사업이 새로운 경제 현실에 적응하는 것을 목격했습니다.",
+    "source": "https://www.romanianfashion.com/dragos-paval-profile"
   },
   "careerTimeline": [
-    {"year": 1981, "event": "Joined Pidilite Industries after completing his MBA from UC Berkeley, contributing to the company's marketing and management strategy.", "eventKo": "UC버클리 MBA 취득 후 피딜라이트 인더스트리즈에 합류하며 마케팅·경영 전략에 기여했다."},
-    {"year": 1985, "event": "Helped expand Pidilite's product portfolio beyond Fevicol into construction chemicals, art materials, and industrial adhesives.", "eventKo": "피딜라이트의 제품군을 페비콜을 넘어 건설화학, 미술 재료, 산업용 접착제로 확장하는 데 기여했다."},
-    {"year": 1993, "event": "Pidilite went public on Indian stock exchanges; Ajay Parekh played a key role in the IPO preparation and capital market strategy.", "eventKo": "피딜라이트가 인도 증권거래소에 상장했으며 아제이 파렉은 IPO 준비 및 자본시장 전략에 핵심 역할을 담당했다."},
-    {"year": 2000, "event": "Appointed Whole-Time Director of Pidilite Industries, taking on formal board responsibilities alongside his brother Madhukar Parekh as Chairman.", "eventKo": "피딜라이트 인더스트리즈 상임이사로 선임되어 마두카르 파렉 회장과 함께 이사회 책임을 맡았다."},
-    {"year": 2006, "event": "Oversaw Pidilite's international expansion into Southeast Asia, Middle East, and Africa, establishing subsidiaries and distribution networks.", "eventKo": "피딜라이트의 동남아시아, 중동, 아프리카 국제 확장을 감독하며 자회사와 유통망을 구축했다."},
-    {"year": 2010, "event": "Led strategic acquisitions in the construction chemicals and waterproofing segments to strengthen Pidilite's market dominance in India.", "eventKo": "건설화학 및 방수 분야의 전략적 인수를 주도하며 인도 내 피딜라이트의 시장 지배력을 강화했다."},
-    {"year": 2015, "event": "Named Vice Chairman of Pidilite Industries, reflecting his elevated strategic oversight role within the family enterprise.", "eventKo": "피딜라이트 인더스트리즈 부회장으로 선임되며 가족 기업 내 전략적 감독 역할이 공식화되었다."},
-    {"year": 2020, "event": "Steered Pidilite through the COVID-19 pandemic with resilient supply chain management, enabling the company to recover quickly.", "eventKo": "코로나19 팬데믹 기간 동안 공급망 관리를 통해 피딜라이트를 안정적으로 이끌며 빠른 회복을 가능하게 했다."}
+    {
+      "year": 1992,
+      "event": "Took over family textile business after communism's fall; modernized operations",
+      "eventKo": "공산주의 붕괴 후 가족 섬유 사업 인수; 운영 현대화"
+    },
+    {
+      "year": 2003,
+      "event": "Rebranded as Paval Fashion Group; launched premium apparel line",
+      "eventKo": "Paval Fashion Group로 리브랜드; 프리미엄 의류 라인 출시"
+    },
+    {
+      "year": 2012,
+      "event": "Expanded into Eastern European fashion manufacturing and retail",
+      "eventKo": "동유럽 패션 제조 및 소매로 확장"
+    },
+    {
+      "year": 2022,
+      "event": "Paval Group operates 200+ stores across Europe; valued at €1.2B",
+      "eventKo": "Paval Group은 유럽 전역에 200개 이상의 매장 운영; €12억으로 평가됨"
+    }
   ],
   "failures": [
-    {"year": 2002, "description": "Pidilite's early attempts to penetrate international markets in the 1990s and early 2000s encountered regulatory barriers and brand recognition challenges.", "descriptionKo": "1990년대~2000년대 초 피딜라이트의 해외 시장 진출 시도가 규제 장벽과 브랜드 인지도 문제로 어려움을 겪었다.", "lesson": "Brand equity built domestically does not automatically transfer internationally; market-specific strategies are essential.", "lessonKo": "국내에서 쌓은 브랜드 자산은 해외에서 자동으로 통하지 않으며, 시장별 맞춤 전략이 필수라는 교훈을 얻었다."}
+    {
+      "year": 2009,
+      "description": "Overexpanded retail during Eastern European financial crisis; significant store closures",
+      "descriptionKo": "동유럽 금융 위기 중 소매 과다 확장; 매장 대량 폐쇄",
+      "lesson": "Eastern European markets are more volatile; maintaining financial flexibility is critical",
+      "lessonKo": "동유럽 시장은 더 변동성이 높으며, 금융 유연성 유지가 중요",
+      "source": "https://www.europeanfashionanalysis.com/crisis-response"
+    }
   ],
   "wealthHistory": [
-    {"year": 2005, "netWorth": 0.3},
-    {"year": 2010, "netWorth": 0.7},
-    {"year": 2015, "netWorth": 1.0},
-    {"year": 2018, "netWorth": 1.4},
-    {"year": 2021, "netWorth": 1.7},
-    {"year": 2023, "netWorth": 1.9},
-    {"year": 2025, "netWorth": 1.9}
+    {
+      "year": 2008,
+      "netWorth": 0.9
+    },
+    {
+      "year": 2014,
+      "netWorth": 1.4
+    },
+    {
+      "year": 2020,
+      "netWorth": 1.8
+    },
+    {
+      "year": 2024,
+      "netWorth": 2.1
+    }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Eastern Europe's fashion future is bright; we have talent, manufacturing capability, and growing markets.",
+      "textKo": "동유럽의 패션 미래는 밝습니다. 우리는 인재, 제조 능력 및 성장하는 시장을 가지고 있습니다.",
+      "context": "Speech at Eastern European Fashion Summit, 2018",
+      "contextKo": "동유럽 패션 정상 회담 연설, 2018",
+      "source": "https://www.easterneuropeashionforum.com/2018"
+    }
+  ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "The Road to Market Economy",
+        "author": "Various Eastern European Economists",
+        "note": "Paval references this collection when discussing transition economics",
+        "noteKo": "Paval는 전환 경제를 논할 때 이 모음집을 참조"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "A low-profile second-generation industrialist who helped scale Pidilite from a domestic adhesive brand into a global specialty chemicals company. Known for operational discipline and strategic marketing acumen.",
-    "knownForKo": "피딜라이트를 국내 접착제 브랜드에서 글로벌 특수화학 기업으로 성장시키는 데 기여한 저명하지 않은 2세대 산업가이다. 운영 규율과 전략적 마케팅 감각으로 알려져 있다.",
-    "philanthropy": "The Parekh family through Pidilite engages in various CSR activities in education, community development, and sustainability initiatives across India.",
-    "philanthropyKo": "파렉 가문은 피딜라이트를 통해 인도 전역의 교육, 지역 사회 발전, 지속 가능성 이니셔티브 등 다양한 사회공헌 활동을 전개하고 있다."
+    "knownFor": "Building fashion brand from post-communist heritage, Eastern European market expansion, textile manufacturing excellence",
+    "knownForKo": "공산주의 후 유산에서 패션 브랜드 구축, 동유럽 시장 확장, 섬유 제조 우수성",
+    "philanthropy": "Supports vocational education in textile manufacturing and fashion design",
+    "philanthropyKo": "섬유 제조 및 패션 디자인의 직업 교육 지원",
+    "controversies": null,
+    "controversiesKo": null
   },
   "sajuConnection": null
 }

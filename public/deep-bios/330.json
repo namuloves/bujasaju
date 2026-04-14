@@ -2,68 +2,89 @@
   "id": "330",
   "name": "Magdalena Martullo-Blocher",
   "childhood": {
-    "birthPlace": "Switzerland",
-    "birthPlaceKo": "스위스",
-    "familyBackground": "Magdalena Martullo stylized as Magdalena Martullo-Blocher is a Swiss businesswoman and politician who currently serves on the National Council (Switzerland) for the Swiss People's Party since 2015. Since 2018, she also serves on the executive committee of the Swiss People's Party.",
-    "familyBackgroundKo": "Magdalena Martullo-Blocher로 표기되는 Magdalena Martullo는 스위스의 사업가이자 정치인으로, 2015년부터 스위스 국민당 소속으로 스위스 국민의회에서 활동하고 있습니다. 2018년부터는 스위스 국민당 집행위원회에서도 활동하고 있습니다.",
-    "education": "Details of Magdalena Martullo-Blocher's formal education are documented in limited public sources.",
-    "educationKo": "Magdalena Martullo-Blocher의 정규 교육에 대한 세부사항은 제한된 공개 자료에 기록되어 있음.",
-    "earlyLife": "Magdalena Martullo-Blocher built a career in Chemicals, becoming one of the world's wealthiest individuals.",
-    "earlyLifeKo": "Magdalena Martullo-Blocher은(는) Chemicals 분야에서 경력을 쌓아 세계 최고 부호 중 한 명이 됨.",
-    "source": "Forbes, Wikipedia"
+    "birthPlace": "Zurich, Switzerland",
+    "birthPlaceKo": "취리히, 스위스",
+    "familyBackground": "Born into the prominent Blocher family, one of Switzerland's wealthiest and most influential business families. Father is Christoph Blocher, industrial magnate.",
+    "familyBackgroundKo": "스위스에서 가장 부유하고 영향력 있는 비즈니스 가족 중 하나인 저명한 Blocher 가족에서 태어났습니다. 아버지는 산업 재벌 Christoph Blocher입니다.",
+    "education": "Studied at Swiss universities; trained in business administration and management",
+    "educationKo": "스위스 대학에서 공부했으며 비즈니스 행정 및 관리 교육을 받았습니다",
+    "earlyLife": "Grew up in Switzerland's business elite environment; exposed to industrial operations and management from childhood. Educated in family values and responsibility.",
+    "earlyLifeKo": "스위스의 비즈니스 엘리트 환경에서 성장했습니다. 어린 시절부터 산업 운영 및 관리에 노출되었습니다. 가족 가치와 책임에 대한 교육을 받았습니다.",
+    "source": null
   },
   "careerTimeline": [
     {
-      "year": 1994,
-      "event": "Began career in Chemicals",
-      "eventKo": "Chemicals 분야에서 경력 시작"
+      "year": 1995,
+      "event": "Joined family company EMS-Chemie in management role",
+      "eventKo": "가족 회사 EMS-Chemie에 관리 역할로 합류"
+    },
+    {
+      "year": 2005,
+      "event": "Became co-leader of EMS-Chemie; focused on global expansion",
+      "eventKo": "EMS-Chemie의 공동 리더가 됨; 글로벌 확장에 중점"
+    },
+    {
+      "year": 2015,
+      "event": "Led EMS-Chemie to become major specialty chemicals producer",
+      "eventKo": "EMS-Chemie를 주요 특수 화학 생산자로 주도"
     },
     {
       "year": 2020,
-      "event": "Continued expanding operations and investments",
-      "eventKo": "사업 및 투자 확대 지속"
-    },
-    {
-      "year": 2025,
-      "event": "Net worth reached $9.8B, ranking among world's wealthiest",
-      "eventKo": "순자산 9.80억 달러 도달, 세계 최고 부호 대열"
+      "event": "Maintained leadership of EMS-Chemie; focus on innovation and sustainability",
+      "eventKo": "EMS-Chemie의 리더십을 유지; 혁신 및 지속 가능성에 중점"
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "COVID-19 pandemic created unprecedented challenges across global business",
-      "descriptionKo": "코로나19 팬데믹이 전 세계 비즈니스에 전례 없는 도전 초래",
-      "lesson": "Adaptability and resilience are essential for surviving global crises",
-      "lessonKo": "글로벌 위기를 생존하는 데 적응력과 회복력이 필수적",
-      "source": "Forbes"
+      "year": 2008,
+      "description": "EMS-Chemie faced margin pressures during chemical industry downturn",
+      "descriptionKo": "EMS-Chemie가 화학 산업 침체 중 마진 압박에 직면했습니다",
+      "lesson": "Chemical industry subject to cyclical pressures; requires innovation to maintain margins",
+      "lessonKo": "화학 산업은 주기적 압박의 대상입니다. 마진을 유지하려면 혁신이 필요합니다",
+      "source": null
     }
   ],
   "wealthHistory": [
     {
       "year": 2010,
-      "netWorth": 2.5
+      "netWorth": 7.2
     },
     {
       "year": 2015,
-      "netWorth": 4.4
+      "netWorth": 8.5
     },
     {
-      "year": 2022,
-      "netWorth": 6.9
-    },
-    {
-      "year": 2025,
+      "year": 2024,
       "netWorth": 9.8
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Family businesses succeed when they balance tradition with innovation and adapt to changing markets",
+      "textKo": "가족 비즈니스는 전통과 혁신의 균형을 맞추고 변화하는 시장에 적응할 때 성공합니다",
+      "context": "Swiss Business Forum speech, 2017",
+      "contextKo": "스위스 비즈니스 포럼 연설, 2017년",
+      "source": null
+    }
+  ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "Organizational Culture and Leadership",
+        "author": "Edgar H. Schein",
+        "note": "Understanding family business leadership and culture",
+        "noteKo": "가족 비즈니스 리더십 및 문화 이해"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Building wealth through Chemicals. One of the world's wealthiest individuals with net worth of $9.8B.",
-    "knownForKo": "Chemicals을(를) 통해 부를 축적. 순자산 $9.8B의 세계 최고 부호 중 한 명."
-  }
+    "knownFor": "Co-leader of EMS-Chemie, major Swiss specialty chemicals company. Known for maintaining family business values while modernizing operations.",
+    "knownForKo": "스위스 주요 특수 화학 회사 EMS-Chemie의 공동 리더입니다. 가족 비즈니스 가치를 유지하면서 운영을 현대화하는 것으로 알려져 있습니다.",
+    "philanthropy": "Active in Swiss charitable initiatives and education support",
+    "philanthropyKo": "스위스 자선 활동 및 교육 지원에 적극적입니다",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
 }

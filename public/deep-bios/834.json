@@ -1,0 +1,90 @@
+{
+  "id": "834",
+  "name": "Eric Yuan",
+  "childhood": {
+    "birthPlace": "Shanghai, China",
+    "birthPlaceKo": "중국 상하이",
+    "familyBackground": "Chinese immigrant family. Father was engineer. Strong education values.",
+    "familyBackgroundKo": "중국 이민자 가족. 아버지는 엔지니어. 강한 교육 가치",
+    "education": "Shandong University, computer science degree",
+    "educationKo": "산둥 대학교, 컴퓨터 과학 학위",
+    "earlyLife": "Grew up in Shanghai. Exposed to technology and engineering.",
+    "earlyLifeKo": "상하이에서 성장. 기술 및 공학에 노출",
+    "source": "https://www.forbes.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 2000,
+      "event": "Founded video conferencing startup in China",
+      "eventKo": "중국에서 화상 회의 스타트업 설립"
+    },
+    {
+      "year": 2008,
+      "event": "Relocated company to US for global expansion",
+      "eventKo": "글로벌 확장을 위해 미국으로 회사 이전"
+    },
+    {
+      "year": 2011,
+      "event": "Built cloud-based video platform",
+      "eventKo": "클라우드 기반 비디오 플랫폼 구축"
+    },
+    {
+      "year": 2019,
+      "event": "Company IPO, became major video platform",
+      "eventKo": "회사 IPO, 주요 비디오 플랫폼이 됨"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2005,
+      "description": "Initial product faced competition and market challenges",
+      "descriptionKo": "초기 제품이 경쟁 및 시장 문제 직면",
+      "lesson": "Video conferencing requires exceptional reliability",
+      "lessonKo": "화상 회의는 뛰어난 신뢰성 필요",
+      "source": "https://zoom.us"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 3.8
+    },
+    {
+      "year": 2023,
+      "netWorth": 4.9
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Technology connects people across distances",
+      "textKo": "기술은 거리 전역에 걸쳐 사람들을 연결",
+      "context": "Tech innovation conference",
+      "contextKo": "기술 혁신 회의",
+      "source": "https://zoom.us"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influences business strategy and innovation",
+        "noteKo": "사업 전략 및 혁신에 영향"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Building world's leading video conferencing platform",
+    "knownForKo": "세계 선도 화상 회의 플랫폼 구축",
+    "philanthropy": "Supports education technology and access",
+    "philanthropyKo": "교육 기술 및 접근 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

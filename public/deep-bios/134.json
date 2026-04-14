@@ -1,97 +1,154 @@
 {
   "id": "134",
-  "name": "Karl Albrecht Jr.",
-  "nameKo": "칼 알브레히트 주니어",
-  "netWorth": "$18.4B",
-  "nationality": "DE",
-  "industry": "Fashion & Retail",
+  "name": "John Doerr",
+  "nameKo": "존 도어",
   "childhood": {
-    "birthPlace": "Essen, Germany",
-    "birthPlaceKo": "독일 에센",
-    "familyBackground": "Son of Karl Albrecht Sr., who co-founded the Aldi discount supermarket chain with his brother Theo Albrecht. The family's retail roots trace back to their grandmother Anna Albrecht, who opened a small grocery store in Essen in 1913. His mother was named Siepmann (the family foundation is named after her).",
-    "familyBackgroundKo": "알디(Aldi) 할인 슈퍼마켓 체인을 형제 테오 알브레히트와 공동 설립한 칼 알브레히트 시니어의 아들. 가문의 소매업 뿌리는 1913년 에센에 작은 식료품점을 연 할머니 안나 알브레히트로 거슬러 올라간다. 어머니의 성은 지프만(Siepmann)이며, 가족 재단이 그녀의 이름을 따서 명명됨.",
-    "education": "Details of formal education not publicly documented; reportedly worked in various positions at Aldi Süd",
-    "educationKo": "정규 교육에 대한 세부 사항은 공개적으로 기록되지 않음; 알디 쥐트에서 다양한 직위를 거친 것으로 알려짐",
-    "earlyLife": "Born in 1947 in Essen, Germany, Karl Albrecht Jr. grew up as part of one of Europe's most influential retail families. His father Karl Sr. and uncle Theo transformed their mother's small grocery store into the global Aldi empire after World War II. The family was known for extreme frugality and privacy. Young Karl Jr. grew up in an era when the Aldi brand was becoming synonymous with discount retailing across Germany.",
-    "earlyLifeKo": "1947년 독일 에센에서 태어난 칼 알브레히트 주니어는 유럽에서 가장 영향력 있는 소매 가문 중 하나에서 성장했다. 아버지 칼 시니어와 삼촌 테오는 제2차 세계대전 후 어머니의 작은 식료품점을 글로벌 알디 제국으로 변모시켰다. 가족은 극도의 검소함과 사생활 보호로 유명했다. 어린 칼 주니어는 알디 브랜드가 독일 전역에서 할인 소매의 대명사가 되어가던 시대에 성장했다.",
-    "source": "Wikipedia, Forbes, The Daily Meal"
+    "birthPlace": "St. Louis, Missouri, US",
+    "birthPlaceKo": "세인트루이스, 미주리주, 미국",
+    "familyBackground": "Born Louis John Doerr on June 29, 1951, into a middle-class family in St. Louis. He was one of five siblings. His father was an entrepreneur whose example inspired Doerr's future career in venture capital and technology investing.",
+    "familyBackgroundKo": "1951년 6월 29일 세인트루이스의 중산층 가정에서 루이스 존 도어로 태어났다. 5남매 중 한 명이었으며, 기업가였던 아버지의 영향을 받아 훗날 벤처캐피털과 기술 투자의 길을 걷게 되었다.",
+    "education": "Attended Chaminade College Preparatory School in St. Louis. Earned a Bachelor of Science in electrical engineering from Rice University in Houston, Texas. Obtained his MBA from Harvard Business School in 1976.",
+    "educationKo": "세인트루이스의 샤미네이드 대학준비학교를 졸업했다. 텍사스주 휴스턴의 라이스 대학교에서 전기공학 학사학위를 취득했으며, 1976년 하버드 경영대학원에서 MBA를 받았다.",
+    "earlyLife": "Growing up in a middle-class household in St. Louis, Doerr was drawn to engineering and technology from a young age. His father's entrepreneurial spirit left a lasting impression. After excelling academically at Chaminade Prep, he pursued engineering at Rice University before pivoting to business at Harvard, where he developed the analytical and strategic thinking that would define his investing career.",
+    "earlyLifeKo": "세인트루이스의 중산층 가정에서 자란 도어는 어릴 때부터 공학과 기술에 관심을 보였다. 아버지의 기업가 정신은 그에게 깊은 인상을 남겼다. 샤미네이드 준비학교에서 우수한 성적을 거둔 후 라이스 대학교에서 공학을 전공했고, 이후 하버드 경영대학원에서 투자 경력을 정의할 분석적·전략적 사고를 발전시켰다.",
+    "source": "Wikipedia, Harvard Business School Alumni, Rice University"
   },
   "careerTimeline": [
     {
-      "year": 1946,
-      "event": "Father Karl Sr. and uncle Theo took over their mother's grocery store in Essen after returning from WWII",
-      "eventKo": "아버지 칼 시니어와 삼촌 테오가 제2차 세계대전에서 돌아와 에센에 있는 어머니의 식료품점을 인수"
+      "year": 1974,
+      "event": "Joined Intel Corporation, holding roles in engineering, marketing, and management; became one of Intel's top-ranked sales executives",
+      "eventKo": "인텔에 입사하여 엔지니어링, 마케팅, 경영 분야에서 근무하며 인텔 최고의 영업 임원 중 한 명이 됨"
     },
     {
-      "year": 1960,
-      "event": "The Albrecht brothers had expanded to over 300 stores and renamed the chain 'Aldi' (Albrecht Discount)",
-      "eventKo": "알브레히트 형제가 300개 이상의 매장으로 확장하고 체인 이름을 '알디'(Albrecht Discount)로 변경"
+      "year": 1980,
+      "event": "Joined Kleiner Perkins Caufield & Byers as a venture capitalist, beginning his legendary career in Silicon Valley VC",
+      "eventKo": "클라이너 퍼킨스에 벤처캐피털리스트로 합류하며 실리콘밸리 VC 전설의 경력을 시작"
     },
     {
-      "year": 1966,
-      "event": "Aldi split into Aldi Nord (Theo) and Aldi Süd (Karl Sr.) due to a dispute over selling cigarettes",
-      "eventKo": "담배 판매에 대한 분쟁으로 알디가 알디 노르트(테오)와 알디 쥐트(칼 시니어)로 분할"
+      "year": 1995,
+      "event": "Led Kleiner Perkins' investment in Netscape, one of the defining bets of the early internet era",
+      "eventKo": "클라이너 퍼킨스의 넷스케이프 투자를 주도하여 초기 인터넷 시대의 결정적 투자를 이끔"
     },
     {
-      "year": 1979,
-      "event": "Aldi Süd expanded to the United States, opening its first American store",
-      "eventKo": "알디 쥐트가 미국으로 진출하여 첫 미국 매장 개설"
+      "year": 1999,
+      "event": "Made $12.5 million investment in Google for a 12% stake, which became one of the most profitable VC investments in history",
+      "eventKo": "구글에 1,250만 달러를 투자해 12% 지분을 확보, 역사상 가장 수익성 높은 VC 투자 중 하나가 됨"
     },
     {
-      "year": 2014,
-      "event": "Father Karl Albrecht Sr. passed away at age 94; Karl Jr. and sister Beate Heister inherited the Aldi Süd empire",
-      "eventKo": "아버지 칼 알브레히트 시니어가 94세로 타계; 칼 주니어와 누나 베아테 하이스터가 알디 쥐트 제국을 상속"
+      "year": 2006,
+      "event": "Launched Kleiner Perkins' Green Growth Fund, investing over $630 million in cleantech companies",
+      "eventKo": "클라이너 퍼킨스의 그린 성장 펀드를 출범시키고 클린테크 기업에 6억 3천만 달러 이상 투자"
     },
     {
-      "year": 2020,
-      "event": "Karl Jr. reportedly withdrew from company duties after a cancer diagnosis",
-      "eventKo": "칼 주니어가 암 진단 후 회사 업무에서 물러난 것으로 알려짐"
+      "year": 2010,
+      "event": "Signed the Giving Pledge with wife Ann Doerr, committing to donate the majority of their wealth to philanthropy",
+      "eventKo": "아내 앤 도어와 함께 기부 서약(Giving Pledge)에 서명하여 재산의 대부분을 자선에 기부하기로 약속"
+    },
+    {
+      "year": 2018,
+      "event": "Published 'Measure What Matters', popularizing the OKR (Objectives and Key Results) framework globally",
+      "eventKo": "'Measure What Matters'를 출간하여 OKR(목표 및 핵심 결과) 프레임워크를 전 세계에 보급"
+    },
+    {
+      "year": 2021,
+      "event": "Published 'Speed & Scale: An Action Plan for Solving Our Climate Crisis', outlining a comprehensive climate action plan",
+      "eventKo": "'Speed & Scale'을 출간하여 기후 위기 해결을 위한 포괄적인 행동 계획을 제시"
+    },
+    {
+      "year": 2022,
+      "event": "Donated $1.1 billion to Stanford University to create the Doerr School of Sustainability, one of the largest gifts to an academic institution",
+      "eventKo": "스탠퍼드 대학교에 11억 달러를 기부하여 도어 지속가능성 학교를 설립, 학술기관 역대 최대 기부 중 하나"
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "Karl Albrecht Jr. was forced to withdraw from his duties at Aldi Süd following a cancer diagnosis, creating uncertainty about the future leadership of his stake in the company, as he has no children.",
-      "descriptionKo": "칼 알브레히트 주니어는 암 진단 후 알디 쥐트에서의 업무를 내려놓아야 했으며, 자녀가 없어 회사 지분의 미래 리더십에 대한 불확실성이 생겼다.",
-      "lesson": "The situation highlighted the importance of succession planning in family-owned businesses, especially when the next generation is absent.",
-      "lessonKo": "이 상황은 특히 차세대가 부재할 때 가족 소유 기업의 승계 계획의 중요성을 부각시켰다.",
-      "source": "Forbes, The Daily Meal"
+      "year": 2011,
+      "description": "Kleiner Perkins' $630M+ cleantech fund suffered massive losses. Investments like Fisker Automotive went bankrupt, and the green tech portfolio became one of the biggest venture capital losses in history. The cleantech focus also caused KPCB to miss early rounds in consumer web giants like Twitter and Facebook.",
+      "descriptionKo": "클라이너 퍼킨스의 6억 3천만 달러 이상 규모의 클린테크 펀드가 막대한 손실을 입었다. 피스커 오토모티브 같은 투자처가 파산했고, 그린테크 포트폴리오는 VC 역사상 최대 손실 중 하나가 되었다. 클린테크에 집중한 나머지 트위터, 페이스북 등 소비자 웹 대기업의 초기 투자를 놓쳤다.",
+      "lesson": "Technology alone cannot drive cleantech success—market timing, policy environments, and capital intensity matter enormously. The experience ultimately deepened Doerr's climate commitment but taught him the need for patient, systemic approaches.",
+      "lessonKo": "기술만으로는 클린테크의 성공을 이끌 수 없으며, 시장 타이밍, 정책 환경, 자본 집약도가 매우 중요하다. 이 경험은 도어의 기후 변화에 대한 헌신을 더욱 깊게 했지만, 인내심 있고 체계적인 접근이 필요하다는 교훈을 남겼다.",
+      "source": "Fortune, Harvard Business School, PitchBook"
+    },
+    {
+      "year": 2015,
+      "description": "Former Kleiner Perkins partner Ellen Pao filed a high-profile gender discrimination lawsuit against the firm. Although the jury ruled in Kleiner Perkins' favor on all counts, the case exposed the VC industry's gender imbalance and damaged the firm's reputation.",
+      "descriptionKo": "전 클라이너 퍼킨스 파트너 엘런 파오가 성차별 소송을 제기했다. 배심원이 클라이너 퍼킨스의 손을 들어주었으나, 이 사건은 VC 업계의 성별 불균형을 드러내고 회사의 평판에 타격을 입혔다.",
+      "lesson": "Even a legal victory can be a cultural loss—the case forced the entire VC industry to reckon with diversity and inclusion practices.",
+      "lessonKo": "법적 승리조차 문화적 패배가 될 수 있다. 이 사건은 VC 업계 전체가 다양성과 포용성 문제에 직면하게 만들었다.",
+      "source": "NPR, Fortune, Stanford Law School"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2014,
-      "netWorth": 11.0
+      "year": 2012,
+      "netWorth": 2.5
     },
     {
-      "year": 2017,
-      "netWorth": 14.5
+      "year": 2015,
+      "netWorth": 3.6
     },
     {
-      "year": 2020,
-      "netWorth": 16.0
+      "year": 2018,
+      "netWorth": 2.8
     },
     {
       "year": 2023,
-      "netWorth": 17.8
+      "netWorth": 11.9
     },
     {
       "year": 2025,
-      "netWorth": 18.4
+      "netWorth": 20.1
+    },
+    {
+      "year": 2026,
+      "netWorth": 19.0
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Ideas are easy. Execution is everything.",
+      "textKo": "아이디어는 쉽다. 실행이 전부다.",
+      "context": "From his book 'Measure What Matters', summarizing his core investment and management philosophy",
+      "contextKo": "저서 'Measure What Matters'에서 자신의 핵심 투자 및 경영 철학을 요약하며",
+      "source": "Measure What Matters (2018)"
+    },
+    {
+      "text": "We must realize—and act on the realization—that if we try to focus on everything, we focus on nothing.",
+      "textKo": "모든 것에 집중하려 하면 아무것도 집중할 수 없다는 사실을 깨닫고 행동에 옮겨야 한다.",
+      "context": "On the importance of focused goal-setting through the OKR framework",
+      "contextKo": "OKR 프레임워크를 통한 집중적 목표 설정의 중요성에 대해",
+      "source": "Measure What Matters (2018)"
+    },
+    {
+      "text": "Leaders must get across the why as well as the what. Their people need more than milestones for motivation. They are thirsting for meaning.",
+      "textKo": "리더는 '무엇을'뿐만 아니라 '왜'를 전달해야 한다. 구성원들은 동기부여를 위해 이정표 이상의 것이 필요하다. 그들은 의미에 목말라하고 있다.",
+      "context": "On leadership and organizational alignment through purpose-driven goals",
+      "contextKo": "목적 중심의 목표를 통한 리더십과 조직 정렬에 대해",
+      "source": "Measure What Matters (2018)"
+    }
+  ],
   "books": {
-    "authored": [],
+    "authored": [
+      {
+        "title": "Measure What Matters",
+        "why": "Introduced the OKR (Objectives and Key Results) framework to a global audience, drawing on his experience at Intel under Andy Grove and as an investor in Google, where OKRs became foundational to the company's management culture.",
+        "whyKo": "앤디 그로브 시절 인텔과 구글 투자 경험을 바탕으로 OKR(목표 및 핵심 결과) 프레임워크를 전 세계에 소개한 책. 구글의 경영 문화에 OKR이 핵심이 된 과정을 담았다."
+      },
+      {
+        "title": "Speed & Scale: An Action Plan for Solving Our Climate Crisis",
+        "why": "A comprehensive action plan for addressing climate change, featuring an OKR-based framework for tracking progress on emissions reduction, clean energy, and policy goals.",
+        "whyKo": "기후 변화 대응을 위한 포괄적 행동 계획서. 배출 감소, 청정 에너지, 정책 목표의 진행 상황을 추적하기 위한 OKR 기반 프레임워크를 제시했다."
+      }
+    ],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Inheriting and managing the Aldi Süd empire; maintaining the Albrecht family tradition of extreme privacy and frugality; co-controlling the Siepmann Foundation",
-    "knownForKo": "알디 쥐트 제국을 상속하고 관리; 알브레히트 가문의 극도의 사생활 보호와 검소함 전통을 유지; 지프만 재단을 공동 관리",
-    "philanthropy": "The Siepmann Foundation, controlled by Karl Jr. and sister Beate Heister, manages the family's interests and charitable activities, though specific philanthropy details remain private",
-    "philanthropyKo": "칼 주니어와 누나 베아테 하이스터가 관리하는 지프만 재단이 가족의 이익과 자선 활동을 관리하나, 구체적인 자선 활동은 비공개",
-    "controversies": "The Albrecht family's extreme secrecy has drawn criticism; questions about tax structures through the family foundation; succession concerns due to Karl Jr. having no children",
-    "controversiesKo": "알브레히트 가문의 극도의 비밀주의가 비판을 받음; 가족 재단을 통한 세금 구조에 대한 의문; 칼 주니어에게 자녀가 없어 승계 문제 우려"
+    "knownFor": "Legendary Silicon Valley venture capitalist at Kleiner Perkins who backed some of the most transformative technology companies in history including Google, Amazon, Netscape, Intuit, and Sun Microsystems. Pioneered the OKR framework in venture-backed companies. Known for his deep conviction investing style and his ability to identify transformative founders early.",
+    "knownForKo": "구글, 아마존, 넷스케이프, 인튜이트, 선 마이크로시스템즈 등 역사상 가장 혁신적인 기술 기업들을 지원한 클라이너 퍼킨스의 전설적인 실리콘밸리 벤처캐피털리스트. 벤처 투자 기업에 OKR 프레임워크를 개척했으며, 깊은 확신에 기반한 투자 스타일과 혁신적 창업자를 조기에 발견하는 능력으로 유명하다.",
+    "philanthropy": "Signed the Giving Pledge in 2010 with wife Ann Doerr. Donated $1.1 billion to Stanford University in 2022 to establish the Doerr School of Sustainability—one of the largest philanthropic gifts in higher education history. Active supporter of climate change initiatives, education reform, and poverty reduction through the Benificus Foundation.",
+    "philanthropyKo": "2010년 아내 앤 도어와 함께 기부 서약에 서명했다. 2022년 스탠퍼드 대학교에 11억 달러를 기부해 도어 지속가능성 학교를 설립했으며, 이는 고등교육 역사상 최대 규모의 기부 중 하나다. 기후 변화, 교육 개혁, 빈곤 퇴치에 적극적으로 나서고 있다.",
+    "controversies": "Kleiner Perkins faced the high-profile Ellen Pao gender discrimination lawsuit in 2015, which brought intense scrutiny to the firm's workplace culture. The cleantech investment losses in the early 2010s were among the biggest in VC history. Some climate advocates criticized the Stanford donation for accepting fossil fuel company donations.",
+    "controversiesKo": "2015년 엘런 파오 성차별 소송으로 클라이너 퍼킨스의 직장 문화가 집중 조명을 받았다. 2010년대 초 클린테크 투자 손실은 VC 역사상 최대 규모 중 하나였다. 일부 기후 운동가들은 스탠퍼드 기부가 화석 연료 기업의 기부를 허용한다고 비판했다."
   },
   "sajuConnection": null
 }

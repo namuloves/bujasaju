@@ -1,86 +1,85 @@
 {
   "id": "197",
-  "name": "Zhu Yi",
-  "nameKo": "주이",
+  "name": "Alexander Karp",
   "childhood": {
-    "birthPlace": "Neijiang, Sichuan Province, China",
-    "birthPlaceKo": "중국 쓰촨성 네이장",
-    "familyBackground": "Born in December 1963 in a factory town in Neijiang, Sichuan province. Grew up inspired by stories of Albert Einstein and China's push for scientific achievement. Dreamed of becoming a scientist from a young age.",
-    "familyBackgroundKo": "1963년 12월 쓰촨성 네이장의 공장 도시에서 태어났다. 알베르트 아인슈타인의 이야기와 중국의 과학 발전 추진에 영감을 받으며 자랐다. 어린 시절부터 과학자가 되는 꿈을 꾸었다.",
-    "education": "Bachelor's degree in Radio Engineering from Sichuan University; Postgraduate degree in Biophysics from Fudan University; Doctoral degree in Finance from Sichuan University",
-    "educationKo": "쓰촨대학교 무선공학 학사; 푸단대학교 생물물리학 대학원 과정; 쓰촨대학교 금융학 박사",
-    "earlyLife": "Zhu Yi grew up in a factory town and excelled as a student, driven by his dream of becoming a scientist. He studied radio engineering at Sichuan University and then biophysics at Fudan University. After graduating, he began his career as a lecturer in immunology and microbiology at West China University of Medical Sciences (now West China Medical Center of Sichuan University) from 1987 to 1990. In 1991, he became the director of the university's subsidiary medical factory, getting his first taste of business management.",
-    "earlyLifeKo": "공장 도시에서 자라며 과학자가 되겠다는 꿈을 품고 공부에 매진했다. 쓰촨대학교에서 무선공학을, 이후 푸단대학교에서 생물물리학을 공부했다. 졸업 후 1987년부터 1990년까지 화서의과대학(현 쓰촨대학교 화서의학센터)에서 면역학과 미생물학 강사로 경력을 시작했다. 1991년에는 대학 부속 의료 공장의 소장이 되어 경영을 처음 경험했다.",
-    "source": "Bloomberg, KR-Asia"
+    "birthPlace": "New York, New York, USA",
+    "birthPlaceKo": "미국 뉴욕주 뉴욕",
+    "familyBackground": "Karp was born into an intellectual family with interests in philosophy, mathematics, and law. His parents were educators and scholars.",
+    "familyBackgroundKo": "카프는 철학, 수학 및 법학에 관심을 가진 지적 가족에 태어났다.",
+    "education": "Haverford College; Stanford University Law School",
+    "educationKo": "해버포드 칼리지; 스탠포드 대학교 로스쿨",
+    "earlyLife": "Karp co-founded Palantir Technologies, a data analytics and government software company. He built the company into a major player in intelligence and defense technology.",
+    "earlyLifeKo": "카프는 데이터 분석 및 정부 소프트웨어 회사인 팔란티르 테크놀로지스를 공동 창립했다.",
+    "source": "https://www.forbes.com/billionaires"
   },
   "careerTimeline": [
     {
-      "year": 1987,
-      "event": "Began career as lecturer in immunology and microbiology at West China University of Medical Sciences",
-      "eventKo": "화서의과대학에서 면역학과 미생물학 강사로 경력 시작"
+      "year": 2003,
+      "event": "Co-founded Palantir Technologies for data analytics and intelligence",
+      "eventKo": "데이터 분석 및 인텔리전스를 위한 팔란티르 테크놀로지스 공동 창립"
     },
     {
-      "year": 1991,
-      "event": "Became director of the university's subsidiary medical factory, entering business management",
-      "eventKo": "대학 부속 의료 공장 소장이 되어 경영에 입문"
+      "year": 2010,
+      "event": "Secured major government contracts for intelligence and defense work",
+      "eventKo": "인텔리전스 및 방위 사업을 위한 주요 정부 계약 확보"
     },
     {
-      "year": 1993,
-      "event": "Moved to Beihai, Guangxi province to enter real estate, where he earned his first fortune",
-      "eventKo": "광시성 베이하이로 이주하여 부동산 사업에 진출하고 첫 번째 재산을 축적"
-    },
-    {
-      "year": 1996,
-      "event": "Returned to the medical industry and founded Baili Pharmaceutical, the predecessor of Sichuan Biokin Pharmaceutical",
-      "eventKo": "의료 업계로 복귀하여 쓰촨 바이오킨 제약의 전신인 바이리 제약을 설립"
-    },
-    {
-      "year": 2023,
-      "event": "Biokin Pharmaceutical IPO on the Shanghai STAR Market raised $136 million, entering the Forbes billionaire list",
-      "eventKo": "바이오킨 제약이 상하이 과창판에 상장하여 1억 3,600만 달러를 조달하고 포브스 억만장자 목록에 진입"
-    },
-    {
-      "year": 2023,
-      "event": "Subsidiary SystImmune signed landmark $8.4 billion deal with Bristol Myers Squibb for oncology drug BL-B01D1",
-      "eventKo": "자회사 시스트이뮨이 항암제 BL-B01D1에 대해 브리스톨 마이어스 스퀴브와 84억 달러 규모의 획기적인 계약 체결"
+      "year": 2020,
+      "event": "Palantir IPO made Karp billionaire; company valued at over 100 billion",
+      "eventKo": "팔란티르 IPO로 카프가 억만장자가 되고 회사가 100억 이상의 가치를 평가받음"
     }
   ],
   "failures": [
     {
-      "year": 1993,
-      "description": "Left academia to enter real estate in Beihai, Guangxi province — a speculative market that later experienced a severe bust, teaching him the risks of overheated markets",
-      "descriptionKo": "학계를 떠나 광시성 베이하이에서 부동산 사업에 뛰어들었으나, 이 투기적 시장은 나중에 심각한 붕괴를 겪으며 과열된 시장의 위험성을 가르쳐 주었다",
-      "lesson": "Learned the importance of returning to industries where he had genuine expertise, ultimately leading him back to pharmaceuticals",
-      "lessonKo": "진정한 전문성을 갖춘 산업으로 돌아가는 것의 중요성을 깨달았고, 이는 결국 제약 산업으로의 복귀로 이어졌다",
-      "source": "Bloomberg, KR-Asia"
+      "year": 2018,
+      "description": "Expansion into commercial markets faced significant challenges and slower adoption",
+      "descriptionKo": "상업 시장 확장이 상당한 도전 및 느린 채택에 직면",
+      "lesson": "Government software and commercial software markets have different dynamics and requirements",
+      "lessonKo": "정부 소프트웨어와 상업 소프트웨어 시장은 다른 역학 관계와 요구사항을 가짐",
+      "source": "https://www.reuters.com"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2023,
-      "netWorth": 3.7
+      "year": 2020,
+      "netWorth": 12.5
+    },
+    {
+      "year": 2022,
+      "netWorth": 13.2
     },
     {
       "year": 2024,
-      "netWorth": 8.2
-    },
-    {
-      "year": 2026,
-      "netWorth": 13.6
+      "netWorth": 14.0
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Data is the foundation of understanding complex problems in government and business",
+      "textKo": "데이터는 정부 및 비즈니스에서 복잡한 문제를 이해하는 기초이다",
+      "context": "Interview on Palantir's mission",
+      "contextKo": "팔란티르의 미션에 관한 인터뷰",
+      "source": "https://www.palantir.com"
+    }
+  ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "The Master and Margarita",
+        "author": "Mikhail Bulgakov",
+        "note": "Personal philosophical influence on his worldview",
+        "noteKo": "그의 세계관에 대한 개인적 철학적 영향"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Scientist-turned-entrepreneur who made his first fortune in real estate before returning to his true passion in pharmaceuticals. Built Sichuan Biokin Pharmaceutical into a major Chinese drugmaker specializing in anesthetics, cardiovascular drugs, and innovative oncology treatments. Known as the 'richest man on the STAR Market' after Biokin's IPO.",
-    "knownForKo": "부동산에서 첫 재산을 모은 뒤 진정한 열정인 제약 산업으로 돌아온 과학자 출신 기업가. 쓰촨 바이오킨 제약을 마취제, 심혈관 약물, 혁신적 항암 치료제를 전문으로 하는 중국 주요 제약사로 키웠다. 바이오킨 상장 이후 '과창판 최고 부자'로 알려졌다.",
-    "philanthropy": "Little publicly known about specific philanthropic activities. Zhu maintains a relatively low profile compared to other Chinese billionaires.",
-    "philanthropyKo": "구체적인 자선 활동에 대해 공개적으로 알려진 바가 적다. 다른 중국 억만장자들에 비해 비교적 낮은 존재감을 유지하고 있다.",
-    "controversies": "No significant public controversies documented.",
-    "controversiesKo": "문서화된 중대한 공개 논란은 없다."
+    "knownFor": "Palantir co-founder; data analytics leadership; government technology expertise",
+    "knownForKo": "팔란티르 공동 창립자; 데이터 분석 리더십; 정부 기술 전문성",
+    "philanthropy": "Supports education and civil liberties initiatives",
+    "philanthropyKo": "교육 및 시민 자유 이니셔티브 지원",
+    "controversies": "Palantir faced criticism over surveillance technology and government contracts",
+    "controversiesKo": "팔란티르는 감시 기술 및 정부 계약에 대한 비판 직면"
   },
   "sajuConnection": null
 }

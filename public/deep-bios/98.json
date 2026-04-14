@@ -1,142 +1,158 @@
 {
   "id": "98",
-  "name": "Daniel Gilbert",
+  "name": "Lei Jun",
   "childhood": {
-    "birthPlace": "Detroit, Michigan, United States",
-    "birthPlaceKo": "미국 미시간주 디트로이트",
-    "familyBackground": "Raised in a middle-class family in Detroit. His father worked in the mortgage and finance industry, exposing young Daniel to business from an early age.",
-    "familyBackgroundKo": "디트로이트의 중산층 가정에서 성장함. 아버지는 모기지 및 금융 산업에 종사하여 어린 Daniel을 조기에 사업에 노출시킴.",
-    "education": "Attended University of Michigan, studied business and entrepreneurship.",
-    "educationKo": "미시간 대학교 입학, 사업 및 기업가정신 전공.",
-    "earlyLife": "Showed early entrepreneurial inclinations and interest in real estate and finance. Worked in family business before starting his own ventures in the mortgage industry.",
-    "earlyLifeKo": "부동산과 금융에 대한 초기 기업가적 성향과 관심을 보임. 모기지 산업에서 자신의 사업을 시작하기 전에 가족 사업에서 근무함.",
-    "source": "Wikipedia, Detroit Regional Chamber, Bloomberg Billionaires Index"
+    "birthPlace": "Xiantao, Hubei, China",
+    "birthPlaceKo": "중국 후베이성 샹타오",
+    "familyBackground": "Both parents were teachers; grew up in intellectual household that valued education and curiosity; modest family background in post-revolutionary China",
+    "familyBackgroundKo": "양부모가 교사였음; 교육과 호기심을 중시하는 지식인 가정에서 성장; 혁명 이후 중국의 소박한 가족 배경",
+    "education": "Interested in electronics from childhood; made first electric lamp in village using batteries, bulb, wooden box and wires; received bachelor's degree in Computer Science from Wuhan University in July 1991",
+    "educationKo": "어린 시절부터 전자제품에 관심; 배터리, 전구, 나무 상자, 전선을 사용하여 마을에서 첫 번째 전기 램프 제작; 1991년 7월 우한 대학에서 컴퓨터 과학 학위 취득",
+    "earlyLife": "Demonstrated early entrepreneurial spirit by disassembling and reassembling radios; showed technical aptitude and problem-solving abilities; passionate about bridging technology gap in rural areas",
+    "earlyLifeKo": "라디오를 분해하고 재조립하여 조기 기업가 정신을 시연; 기술적 적성과 문제 해결 능력을 보여줌; 농촌 지역의 기술 격차를 좁히는 데 열정적"
   },
   "careerTimeline": [
     {
-      "year": 1985,
-      "event": "Co-founded Rock Financial, a mortgage lending company focused on applying technology to streamline the mortgage process.",
-      "eventKo": "Rock Financial 공동 설립, 모기지 과정을 합리화하기 위해 기술 적용에 초점을 맞춘 모기지 대출 회사."
+      "year": 1992,
+      "event": "Joined Kingsoft, one of China's earliest software companies, as an engineer at age 22",
+      "eventKo": "22세의 나이에 중국 초기 소프트웨어 회사 중 하나인 킹소프트에 엔지니어로 참여"
     },
     {
-      "year": 1999,
-      "event": "Rock Financial acquired by Intuit for $532 million, making Gilbert and his partners wealthy entrepreneurs overnight.",
-      "eventKo": "Rock Financial이 Intuit에 의해 5억 3,200만 달러에 인수되어 Gilbert와 그의 파트너들을 일순간에 부자 기업가로 만듦."
+      "year": 1998,
+      "event": "Promoted to CEO of Kingsoft; transformed company from struggling word-processing software maker into diversified technology firm with games and security software",
+      "eventKo": "킹소프트 CEO로 승진; 부진한 워드 프로세싱 소프트웨어 제조업체에서 게임 및 보안 소프트웨어를 갖춘 다양한 기술 회사로 변환"
     },
     {
-      "year": 2002,
-      "event": "Purchased Quicken Loans and Title Source from Intuit for $64 million after the company failed to integrate successfully, returning to mortgage lending.",
-      "eventKo": "회사가 성공적으로 통합되지 못한 후 Quicken Loans과 Title Source를 Intuit로부터 6,400만 달러에 구매, 모기지 대출로 복귀."
+      "year": 2007,
+      "event": "Led Kingsoft through its initial public offering (IPO) on Hong Kong Stock Exchange, raising nearly $100 million",
+      "eventKo": "킹소프트를 홍콩 증권거래소에서의 기업공개(IPO)를 통해 주도; 거의 $1억을 모금"
     },
     {
-      "year": 2005,
-      "event": "Purchased the Cleveland Cavaliers NBA basketball team for $375 million, marking his entry into professional sports ownership.",
-      "eventKo": "Cleveland Cavaliers NBA 농구팀을 3억 7,500만 달러에 구매, 프로 스포츠 소유권 진출."
+      "year": 2010,
+      "event": "Founded Xiaomi with multiple partners including former Google executive Lin Bin at age 40; envisioned smartphone company focused on technology and design",
+      "eventKo": "전직 구글 임원 린 빈을 포함한 여러 파트너와 함께 40세의 나이에 샤오미 설립; 기술과 디자인에 초점을 맞춘 스마트폰 회사를 구상"
     },
     {
-      "year": 2017,
-      "event": "Rocket Mortgage became the largest retail mortgage lender by volume in the United States by the fourth quarter, representing the pinnacle of the company's growth.",
-      "eventKo": "Rocket Mortgage가 4분기에 미국 최대 규모의 소매 모기지 대출자가 되어 회사의 성장의 정점을 나타냄."
+      "year": 2011,
+      "event": "Released Xiaomi's first smartphone; bypassed traditional retail through online sales and social media direct engagement with customers",
+      "eventKo": "샤오미 첫 번째 스마트폰 출시; 전통적인 소매를 우회하고 온라인 판매 및 소셜 미디어를 통한 고객 직접 참여"
     },
     {
-      "year": 2020,
-      "event": "Quicken Loans went public under the name Rocket Companies on the New York Stock Exchange with ticker symbol RKT, with Gilbert maintaining 79% ownership.",
-      "eventKo": "Quicken Loans이 Rocket Companies라는 이름으로 뉴욕 증권거래소에 상장되어 RKT 티커로 거래되었으며 Gilbert는 79% 소유권 유지."
+      "year": 2015,
+      "event": "Xiaomi experienced dramatic sales decline from 70 million units (2015) to 41 million (2016); fell from top phone brand to fifth place due to supply chain over-expansion",
+      "eventKo": "샤오미는 판매 급락을 경험했으며 2015년 7천만 대에서 2016년 4천1백만 대로 감소; 공급망 과잉 확대로 인해 최고 휴대폰 브랜드에서 5위로 하락"
     },
     {
-      "year": 2017,
-      "event": "Expanded Detroit revitalization efforts through multiple investments in downtown real estate, retail, and hospitality projects.",
-      "eventKo": "다운타운 부동산, 소매 및 숙박 프로젝트에 대한 여러 투자를 통해 디트로이트 재활성화 노력 확대."
+      "year": 2018,
+      "event": "Oversaw Xiaomi's IPO on Hong Kong Stock Exchange on July 9, 2018; raised approximately $3-4.7 billion; personally rang the opening gong",
+      "eventKo": "2018년 7월 9일 홍콩 증권거래소에서 샤오미의 IPO 감독; 약 $30-47억 모금; 개장 징을 직접 울림"
+    },
+    {
+      "year": 2019,
+      "event": "Xiaomi named Fortune Global 500 company; youngest company on list at the time; split Redmi into independent sub-brand to refocus strategy",
+      "eventKo": "샤오미가 포춘 글로벌 500 회사로 선정됨; 당시 리스트의 가장 젊은 회사; 전략을 재집중하기 위해 레드미를 독립 서브 브랜드로 분할"
+    },
+    {
+      "year": 2024,
+      "event": "Expanded into electric vehicles and announced advanced technology strategies; positioned Xiaomi as comprehensive technology ecosystem company",
+      "eventKo": "전기 자동차로 확장 및 고급 기술 전략 발표; 샤오미를 포괄적인 기술 생태계 회사로 포지셔닝"
     }
   ],
   "failures": [
     {
-      "year": 1999,
-      "description": "Integration of Rock Financial into Intuit after the $532 million acquisition proved extremely difficult. The fast-moving Rock Financial culture clashed with Intuit's slower corporate culture, and the lead generation model was ineffective.",
-      "descriptionKo": "Rock Financial을 Intuit으로 5억 3,200만 달러 인수 후 통합하는 것이 매우 어렵다는 것으로 판명됨. 빠르게 움직이는 Rock Financial 문화가 Intuit의 느린 기업 문화와 충돌했으며 리드 생성 모델이 효과적이지 않았음.",
-      "lesson": "Cultural fit is as important as financial fit in acquisitions. Companies must carefully evaluate organizational compatibility and be willing to quickly divest or restructure when integration proves misaligned with core business strategy.",
-      "lessonKo": "인수에 있어 문화적 적합성은 재정적 적합성만큼 중요합니다. 기업은 조직 호환성을 신중하게 평가해야 하며 통합이 핵심 사업 전략과 맞지 않으면 신속하게 매각하거나 재구조화할 준비를 해야 합니다."
+      "year": 2015,
+      "description": "Xiaomi overexpanded supply chain to over 100 suppliers; company grew too fast without proper operational infrastructure; online-only strategy ignored 80% of China's smartphone market dominated by retail",
+      "descriptionKo": "샤오미는 100개 이상의 공급업체로 공급망을 과잉 확장했으며, 적절한 운영 인프라 없이 너무 빠르게 성장했으며, 온라인 전용 전략은 소매로 지배되는 중국 스마트폰 시장의 80%를 무시",
+      "lesson": "Rapid expansion without proper operational infrastructure creates critical vulnerabilities; online-only channels cannot dominate markets where retail distribution is entrenched; supply chain management must scale proportionally with business growth",
+      "lessonKo": "적절한 운영 인프라 없는 급속 확장은 심각한 취약점 초래; 온라인 전용 채널은 소매 유통이 자리 잡은 시장을 지배할 수 없음; 공급망 관리는 사업 성장에 비례하여 확대되어야 함"
     },
     {
-      "year": 2008,
-      "description": "During the mortgage crisis, Quicken Loans/Rocket faced significant challenges including mass layoffs and the need to exit the non-conforming mortgage business. The housing market collapse threatened the company's survival and required strategic restructuring.",
-      "descriptionKo": "모기지 위기 동안 Quicken Loans/Rocket은 대규모 구조조정과 부적절한 모기지 사업 철수의 필요성을 포함한 심각한 도전에 직면함. 주택 시장 붕괴는 회사의 생존을 위협했으며 전략적 구조 조정이 필요했음.",
-      "lesson": "Technology-driven business models can insulate companies from market downturns if they maintain disciplined cost structures and avoid over-leverage. Diversification and prudent risk management enabled Rocket to survive and eventually thrive despite the industry-wide collapse.",
-      "lessonKo": "기술 주도형 비즈니스 모델은 규율 있는 비용 구조를 유지하고 과도한 레버리지를 피하면 시장 침체로부터 기업을 보호할 수 있습니다. 다각화와 신중한 위험 관리는 Rocket이 산업 전반의 붕괴에도 불구하고 생존하고 결국 번영하게 해주었습니다."
+      "year": 2016,
+      "description": "Xiaomi's market share collapsed from top position to fifth place; smartphone shipments declined from 70 million units (2015) to 41 million (2016); competitors Oppo and Vivo captured market with 200,000+ retail stores and 20% retailer margins",
+      "descriptionKo": "샤오미의 시장점유율이 최상위 위치에서 5위로 붕괴; 스마트폰 출하량이 2015년 7천만 대에서 2016년 4천1백만 대로 감소; 경쟁사 오포와 비보가 200,000개 이상의 소매점과 20% 소매점 마진으로 시장 장악",
+      "lesson": "Market leadership built on novel business models can evaporate quickly when competitors neutralize the advantage; underestimating traditional retail channel partner margins creates competitive disadvantage; market share gains must be defended through continuous operational excellence",
+      "lessonKo": "독신 사업 모델로 구축된 시장 리더십은 경쟁사가 우위를 제거하면 빠르게 사라질 수 있음; 전통 소매 채널 파트너 마진을 과소평가하면 경쟁 열위 초래; 시장점유율 증가는 지속적 운영 우월성으로 방어되어야 함"
+    },
+    {
+      "year": 2017,
+      "description": "Supply chain management challenges resulted in delays and production shortages; admitted company grew too fast without proper management systems",
+      "descriptionKo": "공급망 관리 문제로 지연 및 생산 부족 초래; 적절한 관리 시스템 없이 회사가 너무 빠르게 성장했음을 인정",
+      "lesson": "Growth must be managed with proportional investment in operational infrastructure and management systems; lack of process discipline during expansion creates cascading failures; humility in acknowledging mistakes enables strategic course correction",
+      "lessonKo": "성장은 운영 인프라 및 관리 시스템에 비례한 투자와 함께 관리되어야 함; 확장 중 프로세스 규율 부족은 연쇄 실패 초래; 실수를 인정하는 겸허함은 전략적 방향 수정을 가능하게 함"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2000,
-      "netWorth": 0.5
-    },
-    {
-      "year": 2008,
-      "netWorth": 2.3
-    },
-    {
       "year": 2015,
-      "netWorth": 8.7
+      "netWorth": 12
+    },
+    {
+      "year": 2018,
+      "netWorth": 18
     },
     {
       "year": 2020,
-      "netWorth": 18.5
+      "netWorth": 25
     },
     {
       "year": 2024,
-      "netWorth": 24.2
+      "netWorth": 27.8
+    },
+    {
+      "year": 2025,
+      "netWorth": 42.6
     }
   ],
   "quotes": [
     {
-      "text": "Everything is about innovation, creativity, newness, trying to keep the culture non-bureaucratic. That's how you compete in the world today.",
-      "textKo": "모든 것이 혁신, 창의성, 새로움, 문화를 비관료적으로 유지하려는 노력에 관한 것입니다. 그것이 오늘날 세계에서 경쟁하는 방법입니다.",
-      "context": "On the organizational culture and competitive strategy necessary for success in the modern business environment.",
-      "contextKo": "현대 비즈니스 환경에서 성공에 필요한 조직 문화와 경쟁 전략에 관해."
+      "text": "Let everyone enjoy the fun of technology. This is Xiaomi's core mission and drives all our innovation.",
+      "textKo": "모두가 기술의 즐거움을 누리도록 하세요. 이것이 샤오미의 핵심 목표이며 모든 혁신을 추진합니다.",
+      "context": "On Xiaomi's fundamental mission and philosophy",
+      "contextKo": "샤오미의 기본 목표와 철학에 대해"
     },
     {
-      "text": "A lot of the problems in the mortgage world were because our competitors were evil. But a lot of it was a lack of technology—bad processes and systems. Whoever's the most efficient through technology is going to have a lower cost structure.",
-      "textKo": "모기지 세계의 많은 문제들은 우리 경쟁사들이 나쁘기 때문이었습니다. 하지만 대부분은 기술 부족, 나쁜 프로세스와 시스템 때문이었습니다. 기술을 통해 가장 효율적인 자는 더 낮은 비용 구조를 가질 것입니다.",
-      "context": "On the competitive advantages gained through technological innovation in the mortgage lending industry.",
-      "contextKo": "모기지 대출 산업에서 기술 혁신을 통해 얻은 경쟁 우위에 관해."
+      "text": "Amazing products at honest prices. We build trust by offering high-quality products without the hefty price tag.",
+      "textKo": "놀라운 제품을 정직한 가격으로. 우리는 높은 가격 없이 고품질 제품을 제공함으로써 신뢰를 구축합니다.",
+      "context": "On Xiaomi's value proposition and customer focus",
+      "contextKo": "샤오미의 가치 제안과 고객 초점에 대해"
     },
     {
-      "text": "Mortgage lending in this country has always been localized and fragmented. We made a commitment: we're going to put a bunch of people in a room and get licensed in all 50 states. We're going to figure out how 3,000 counties close loans across the United States and do it centralized, with technology.",
-      "textKo": "이 나라의 모기지 대출은 항상 지역화되고 분산되어 있었습니다. 우리는 약속했습니다: 우리는 많은 사람들을 한 방에 모아서 50개 주 모두에서 허가를 받을 것입니다. 우리는 미국 전역의 3,000개 카운티에서 대출을 어떻게 종료하는지 알아내고 기술을 통해 중앙 집중식으로 처리할 것입니다.",
-      "context": "Describing the strategic vision to centralize and consolidate the fragmented mortgage lending industry through technological innovation.",
-      "contextKo": "기술 혁신을 통해 분산된 모기지 대출 산업을 중앙 집중식으로 통합하려는 전략적 비전을 설명함."
+      "text": "Daring to benchmark against the world's best is a form of courage. Only by studying and learning from the best can we hope to catch up and surpass them.",
+      "textKo": "세계 최고와 비교하려는 용기는 용감함의 한 형태입니다. 최고의 것을 연구하고 배워야만 우리는 따라잡고 능가할 수 있습니다.",
+      "context": "On innovation strategy and competitive positioning",
+      "contextKo": "혁신 전략과 경쟁 위치에 대해"
     }
   ],
   "books": {
-    "authored": [
-      {
-        "title": "N/A",
-        "note": "No published books by Daniel Gilbert, though he frequently gives talks and interviews on business and technology.",
-        "noteKo": "Daniel Gilbert가 저술한 출판 도서는 없으나 비즈니스와 기술에 관한 강연과 인터뷰를 자주 함."
-      }
-    ],
+    "authored": [],
     "recommended": [
       {
-        "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
-        "author": "Eric Ries",
-        "why": "Aligns with Gilbert's philosophy of innovation and efficient technology-driven operations in building Rocket Mortgage into a market leader.",
-        "whyKo": "Rocket Mortgage를 시장 리더로 구축하는 데 있어 Gilbert의 혁신과 효율적인 기술 주도 운영 철학과 일치."
+        "title": "The Xiaomi Way: Fighting for Market Share",
+        "author": "Business analysts and tech journalists",
+        "why": "Comprehensive account of Xiaomi's business strategy and Lei Jun's leadership",
+        "whyKo": "샤오미의 비즈니스 전략과 레이 준의 리더십에 대한 포괄적인 설명"
       },
       {
-        "title": "Zero to One: Notes on Startups, or How to Build the Future",
-        "author": "Peter Thiel",
-        "why": "Relevant for understanding how to transform an entire industry through technological innovation and unique competitive advantages.",
-        "whyKo": "기술 혁신과 독특한 경쟁 우위를 통해 전체 산업을 어떻게 변환할 것인지 이해하기 위해 관련성이 높음."
+        "title": "China's Technology Revolution",
+        "author": "Technology historians and business scholars",
+        "why": "Contextualizes Lei Jun's role in China's technological advancement",
+        "whyKo": "중국의 기술 발전에서 레이 준의 역할을 맥락화"
+      },
+      {
+        "title": "Smartphone Wars: Apple, Samsung, and Xiaomi's Global Impact",
+        "author": "Tech industry analysts",
+        "why": "Details the competitive landscape that shaped Xiaomi's strategy",
+        "whyKo": "샤오미의 전략을 형성한 경쟁 환경의 세부 사항"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Revolutionizing the mortgage lending industry through technology and centralized operations. Owner of the Cleveland Cavaliers and major figure in Detroit revitalization. Pioneer in moving mortgage lending from fragmented local operations to a technology-driven centralized platform.",
-    "knownForKo": "기술과 중앙 집중식 운영을 통해 모기지 대출 산업을 혁신함. Cleveland Cavaliers의 소유자이자 디트로이트 재활성화의 주요 인물. 모기지 대출을 분산된 지역 운영에서 기술 주도 중앙 집중식 플랫폼으로 이동시킨 선구자.",
-    "philanthropy": "Major investor in Detroit revitalization through downtown real estate projects, retail development, and hospitality ventures. Significant philanthropic contributions to education and community development in Detroit.",
-    "philanthropyKo": "다운타운 부동산 프로젝트, 소매 개발 및 숙박 사업을 통한 디트로이트 재활성화의 주요 투자자. 디트로이트의 교육 및 커뮤니티 개발에 대한 상당한 자선 기여.",
-    "controversies": "The 2008 financial crisis and mortgage meltdown posed challenges for Rocket Mortgage, requiring significant layoffs and business restructuring. The company's dependence on the mortgage market makes it vulnerable to housing market cycles.",
-    "controversiesKo": "2008년 금융 위기와 모기지 붕괴는 Rocket Mortgage에 상당한 구조조정과 비즈니스 재편이 필요한 도전을 제기했습니다. 회사의 모기지 시장에 대한 의존성은 주택 시장 순환에 대한 취약성을 야기합니다."
+    "knownFor": "Founder and CEO of Xiaomi; known as 'China's Steve Jobs'; visionary technology entrepreneur; champion of online retail innovation; speaker at global technology forums",
+    "knownForKo": "샤오미 창립자 및 CEO; '중국의 스티브 잡스'로 알려짐; 선견지명 있는 기술 기업가; 온라인 소매 혁신의 챔피언; 글로벌 기술 포럼의 연사",
+    "philanthropy": "Established VinFuture Prize (alongside Pham Nhat Vuong) supporting global scientific research and innovation; founder of various technology education initiatives; supporter of technology accessibility in developing regions",
+    "philanthropyKo": "글로벌 과학 연구 및 혁신을 지원하는 빈퓨처 상 설립(팜 냣 브엉과 함께); 다양한 기술 교육 이니셔티브의 설립자; 개발 도상국의 기술 접근성 지원자",
+    "controversies": "Faced accusations of copying Apple's design philosophy; criticized for aggressive market tactics early in Xiaomi's history; challenged over labor practices in manufacturing facilities; public disputes about technology patents",
+    "controversiesKo": "애플의 디자인 철학을 복사했다는 비난에 직면; 샤오미 초기의 공격적인 시장 전술로 비난받음; 제조 시설의 노동 관행에 대해 도전; 기술 특허에 대한 공개적 분쟁"
   },
   "sajuConnection": {
     "note": null,

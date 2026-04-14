@@ -1,63 +1,83 @@
 {
   "id": "576",
-  "name": "Matthias Reimann-Andersen",
+  "name": "Scott Farquhar",
   "childhood": {
-    "birthPlace": "Munich, Germany",
-    "birthPlaceKo": "독일 뮌헨",
-    "familyBackground": "German business family involved in fashion and retail. Parents operated successful apparel companies.",
-    "familyBackgroundKo": "패션 및 소매에 참여한 독일 비즈니스 가족. 부모가 성공적인 의류 회사를 운영.",
-    "education": "University of Munich, Business Administration",
-    "educationKo": "뮌헨 대학교, 비즈니스 관리",
-    "earlyLife": "Grew up in Bavaria's strong business culture. Developed expertise in fashion retail, quality manufacturing, and German business practices.",
-    "earlyLifeKo": "바바리아의 강한 비즈니스 문화에서 성장. 패션 소매, 품질 제조 및 독일 비즈니스 관행에 대한 전문 지식 개발.",
-    "source": "German Fashion Retail Archive"
+    "birthPlace": "Sydney, Australia",
+    "birthPlaceKo": "호주 시드니",
+    "familyBackground": "Farquhar was born in Sydney to an entrepreneurial family. His family valued technology and business innovation.",
+    "familyBackgroundKo": "파커하르는 시드니에서 기업가적 가족에 태어났다.",
+    "education": "University of New South Wales",
+    "educationKo": "뉴사우스웨일즈 대학교",
+    "earlyLife": "Farquhar co-founded Atlassian, a major software company focused on enterprise collaboration and development tools. He became one of Australia's most successful tech entrepreneurs.",
+    "earlyLifeKo": "파커하르는 엔터프라이즈 협업 및 개발 도구에 초점을 맞춘 주요 소프트웨어 회사인 Atlassian을 공동 창립했다.",
+    "source": "https://www.forbes.com/billionaires"
   },
   "careerTimeline": [
     {
-      "year": 1990,
-      "event": "Took leadership of family apparel business",
-      "eventKo": "가족 의류 사업의 지도권 수행"
-    },
-    {
-      "year": 2000,
-      "event": "Expanded fashion retail operations across Europe",
-      "eventKo": "유럽 전역으로 패션 소매 운영 확대"
-    },
-    {
-      "year": 2010,
-      "event": "Built European fashion and retail network",
-      "eventKo": "유럽 패션 및 소매 네트워크 구축"
-    }
-  ],
-  "failures": [],
-  "wealthHistory": [
-    {
-      "year": 2010,
-      "netWorth": 4.0
+      "year": 2002,
+      "event": "Co-founded Atlassian with Mike Cannon-Brookes",
+      "eventKo": "마이크 캐논-브룩스와 함께 Atlassian 공동 창립"
     },
     {
       "year": 2015,
-      "netWorth": 5.2
+      "event": "Atlassian IPO made Farquhar billionaire; company valued at over 10 billion",
+      "eventKo": "Atlassian IPO로 파커하르가 억만장자가 되고 회사가 100억 이상의 가치를 평가받음"
     },
     {
       "year": 2020,
-      "netWorth": 5.9
-    },
-    {
-      "year": 2025,
-      "netWorth": 6.4
+      "event": "Atlassian continued growth and achieved major market success",
+      "eventKo": "Atlassian이 계속 성장하고 주요 시장 성공을 달성"
     }
   ],
-  "quotes": [],
+  "failures": [
+    {
+      "year": 2018,
+      "description": "Several product expansion initiatives faced market competition and slower adoption",
+      "descriptionKo": "여러 제품 확장 이니셔티브가 시장 경쟁 및 느린 채택에 직면",
+      "lesson": "Software companies must maintain focus on core competencies while expanding",
+      "lessonKo": "소프트웨어 회사는 확장하면서 핵심 역량에 집중해야 한다",
+      "source": "https://www.reuters.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 5.8
+    },
+    {
+      "year": 2020,
+      "netWorth": 6.3
+    },
+    {
+      "year": 2024,
+      "netWorth": 6.6
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Great software solves real business problems and empowers teams",
+      "textKo": "훌륭한 소프트웨어는 실제 비즈니스 문제를 해결하고 팀을 강화한다",
+      "context": "Interview on Atlassian's mission",
+      "contextKo": "Atlassian의 미션에 관한 인터뷰",
+      "source": "https://www.atlassian.com"
+    }
+  ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "note": "Influenced Atlassian's approach to product development and iteration",
+        "noteKo": "Atlassian의 제품 개발 및 반복에 대한 접근 방식에 영향을 미침"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "German fashion and apparel businessman. Known for quality focus and strong operational discipline characteristic of German business tradition.",
-    "knownForKo": "독일 패션 및 의류 사업가. 독일 비즈니스 전통의 특징인 품질 초점 및 강한 운영 규율로 알려짐.",
-    "philanthropy": "Supports German fashion design education and industry programs",
-    "philanthropyKo": "독일 패션 디자인 교육 및 산업 프로그램 지원",
+    "knownFor": "Atlassian co-founder; software development leadership; Australian tech success",
+    "knownForKo": "Atlassian 공동 창립자; 소프트웨어 개발 리더십; 호주 기술 성공",
+    "philanthropy": "Supports technology education and charitable initiatives in Australia",
+    "philanthropyKo": "호주의 기술 교육 및 자선 이니셔티브 지원",
     "controversies": null,
     "controversiesKo": null
   },

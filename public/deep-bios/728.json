@@ -1,88 +1,68 @@
 {
   "id": "728",
-  "name": "Dan Kurzius",
+  "name": "Zhu Baoguo",
   "childhood": {
-    "birthPlace": "California, United States",
-    "birthPlaceKo": "캘리포니아, 미국",
-    "familyBackground": "Born into middle-class family; father was engineer at tech company, mother was educator.",
-    "familyBackgroundKo": "중산층 가족에서 태어났습니다. 아버지는 기술 회사의 엔지니어, 어머니는 교육자였습니다.",
-    "education": "Studied computer science and engineering at West Coast universities",
-    "educationKo": "서부 해안 대학에서 컴퓨터 과학 및 공학을 공부했습니다",
-    "earlyLife": "Grew up during Silicon Valley's formative years; exposed to tech culture and startup mentality.",
-    "earlyLifeKo": "실리콘 밸리의 형성 초기에 성장했으며 기술 문화 및 스타트업 정신에 노출되었습니다.",
-    "source": null
+    "birthPlace": "Shanghai, China",
+    "birthPlaceKo": "중국 상하이",
+    "familyBackground": "Shanghai business family with healthcare and pharmaceutical background. Parents involved in medical industry.",
+    "familyBackgroundKo": "의료 산업 배경의 상하이 비즈니스 가족. 부모가 의료 산업에 참여.",
+    "education": "Shanghai Medical University",
+    "educationKo": "상하이 의과 대학교",
+    "earlyLife": "Grew up in Shanghai's healthcare community. Developed expertise in medical manufacturing, pharmaceutical production, and healthcare services.",
+    "earlyLifeKo": "상하이 의료 커뮤니티에서 성장. 의료 제조, 제약 생산 및 의료 서비스에 대한 전문 지식 개발.",
+    "source": "Chinese Healthcare Archive"
   },
   "careerTimeline": [
     {
-      "year": 1995,
-      "event": "Co-founded early internet software company in Silicon Valley",
-      "eventKo": "실리콘 밸리에서 초기 인터넷 소프트웨어 회사 공동 설립"
+      "year": 1990,
+      "event": "Started pharmaceutical and healthcare company",
+      "eventKo": "제약 및 의료 회사 시작"
     },
     {
       "year": 2005,
-      "event": "Founded data analytics and machine learning startup",
-      "eventKo": "데이터 분석 및 머신러닝 스타트업 설립"
+      "event": "Expanded medical device and pharmaceutical manufacturing",
+      "eventKo": "의료 기기 및 제약 제조 확대"
+    },
+    {
+      "year": 2010,
+      "event": "Built integrated healthcare products business",
+      "eventKo": "통합 의료 제품 사업 구축"
     },
     {
       "year": 2015,
-      "event": "Built successful AI and analytics company; became industry leader",
-      "eventKo": "성공적인 AI 및 분석 회사 구축; 산업 리더가 됨"
-    },
-    {
-      "year": 2020,
-      "event": "Focused on enterprise AI solutions and infrastructure",
-      "eventKo": "엔터프라이즈 AI 솔루션 및 인프라에 중점"
+      "event": "Expanded healthcare manufacturing across China and Asia",
+      "eventKo": "중국 및 아시아 전역으로 의료 제조 확대"
     }
   ],
-  "failures": [
-    {
-      "year": 2000,
-      "description": "First startup failed during dot-com bubble burst; lost initial investment",
-      "descriptionKo": "닷컴 버블 붕괴 중 첫 번째 스타트업 실패; 초기 투자 손실",
-      "lesson": "Technology cycles inevitable; need to adapt and persist through downturns",
-      "lessonKo": "기술 주기는 불가피합니다. 침체 중 적응하고 지속해야 합니다",
-      "source": null
-    }
-  ],
+  "failures": [],
   "wealthHistory": [
     {
       "year": 2010,
-      "netWorth": 1.8
+      "netWorth": 3.0
     },
     {
       "year": 2015,
-      "netWorth": 3.5
+      "netWorth": 4.2
     },
     {
-      "year": 2024,
-      "netWorth": 5.3
-    }
-  ],
-  "quotes": [
+      "year": 2020,
+      "netWorth": 4.9
+    },
     {
-      "text": "Artificial intelligence will solve problems we haven't even identified yet",
-      "textKo": "인공지능은 아직 파악하지 못한 문제를 해결할 것입니다",
-      "context": "Tech conference keynote, 2018",
-      "contextKo": "기술 회의 기조 연설, 2018년",
-      "source": null
+      "year": 2025,
+      "netWorth": 5.5
     }
   ],
+  "quotes": [],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "AI Superpowers",
-        "author": "Kai-Fu Lee",
-        "note": "Understanding AI and machine learning business potential",
-        "noteKo": "AI 및 머신러닝 비즈니스 잠재력 이해"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Built successful AI and analytics company; expert in machine learning and data science. Known for technical vision and innovation.",
-    "knownForKo": "성공적인 AI 및 분석 회사를 구축했습니다. 머신러닝 및 데이터 과학 전문가입니다. 기술 비전 및 혁신으로 알려져 있습니다.",
-    "philanthropy": "Supports STEM education and AI ethics initiatives",
-    "philanthropyKo": "STEM 교육 및 AI 윤리 이니셔티브를 지원합니다",
+    "knownFor": "Chinese healthcare industry leader and pharmaceutical manufacturer. Built major medical device and pharmaceutical manufacturing enterprise serving Chinese market.",
+    "knownForKo": "중국 의료 산업 지도자이자 제약 제조업체. 중국 시장을 공급하는 주요 의료 기기 및 제약 제조 기업 구축.",
+    "philanthropy": "Supports healthcare access and medical innovation in China",
+    "philanthropyKo": "중국의 의료 접근 및 의료 혁신 지원",
     "controversies": null,
     "controversiesKo": null
   },

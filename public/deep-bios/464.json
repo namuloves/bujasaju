@@ -1,71 +1,85 @@
 {
-  "id": 464,
-  "name": "Tsai Eng-meng",
+  "id": "464",
+  "name": "Dennis Washington",
   "childhood": {
-    "birthPlace": "Datong District, Taipei, Taiwan",
-    "birthPlaceKo": "타이완 타이페이 다퉁 지구",
-    "familyBackground": "Born 1957. Son of Tsai A-Shi who founded canned fish business in 1962.",
-    "familyBackgroundKo": "1957년생. 1962년 캔 생선 사업을 창립한 차이 아시의 아들.",
-    "education": "Taiwanese business education",
-    "educationKo": "타이완 사업 교육",
-    "earlyLife": "At age 19, developed rice cracker snack that became Want Want signature product.",
-    "earlyLifeKo": "19세 때 Want Want의 시그니처 제품이 된 쌀 크래커 스낵 개발.",
-    "source": "https://en.wikipedia.org/wiki/Tsai_Eng-meng"
+    "birthPlace": "Spokane, Washington, USA",
+    "birthPlaceKo": "미국 워싱턴주 스포캔",
+    "familyBackground": "Washington grew up in the Pacific Northwest in a family involved in construction and trade. His father was a skilled tradesman who influenced his work ethic.",
+    "familyBackgroundKo": "워싱턴은 건설 및 무역에 종사한 가족과 함께 태평양 북서부에서 성장했다.",
+    "education": "Gonzaga University",
+    "educationKo": "곤자가 대학교",
+    "earlyLife": "Washington learned the construction trade and started his own company with minimal capital. He built a reputation for reliability and quality, growing his business exponentially.",
+    "earlyLifeKo": "워싱턴은 건설 직종을 배웠고 최소 자본으로 자신의 회사를 설립했다.",
+    "source": "https://www.forbes.com/billionaires"
   },
   "careerTimeline": [
     {
-      "year": 1962,
-      "event": "Father founded Tsai A-Shi canned fish business",
-      "eventKo": "아버지가 Tsai A-Shi 캔 생선 사업 설립"
+      "year": 1979,
+      "event": "Founded Washington Construction Company with minimal capital",
+      "eventKo": "최소 자본으로 워싱턴 건설 회사 설립"
     },
     {
-      "year": 1987,
-      "event": "Succeeded father as chairman of Want Want at age 30",
-      "eventKo": "30세에 아버지의 뒤를 이어 Want Want 의장"
+      "year": 1995,
+      "event": "Expanded into heavy equipment rental and mining operations",
+      "eventKo": "중장비 임차 및 광업 사업으로 확장"
     },
     {
-      "year": 1992,
-      "event": "Moved Want Want production facilities to mainland China",
-      "eventKo": "Want Want 생산 시설을 중국 대륙으로 이전"
-    },
+      "year": 2010,
+      "event": "Achieved billionaire status through diversified construction and logistics",
+      "eventKo": "다양한 건설 및 물류를 통해 억만장자 지위 달성"
+    }
+  ],
+  "failures": [
     {
       "year": 2008,
-      "event": "Diversified into media, owning China Times Media Group and multiple news outlets",
-      "eventKo": "미디어로 다변화, China Times Media Group 및 여러 뉴스 매체 소유"
+      "description": "Construction division suffered significant losses during housing market collapse",
+      "descriptionKo": "건설 부문이 주택 시장 붕괴 중 상당한 손실을 입음",
+      "lesson": "Diversification across industries helps weather sector-specific downturns",
+      "lessonKo": "산업 전반에 걸친 다각화는 부문별 침체를 견디는 데 도움이 된다",
+      "source": "https://www.reuters.com"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 7.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 7.4
     },
     {
       "year": 2024,
-      "event": "Want Want operates as major food and beverage brand across Asia",
-      "eventKo": "Want Want이 아시아 주요 식품 음료 브랜드로 운영"
-    }
-  ],
-  "failures": [],
-  "wealthHistory": [
-    {
-      "year": 2020,
-      "netWorth": 6.9
+      "netWorth": 7.7
     }
   ],
   "quotes": [
     {
-      "text": "Want Want will become the number one branded food company in China.",
-      "textKo": "Want Want은 중국의 1위 브랜드 식품 회사가 될 것입니다.",
-      "context": "On Want Want's strategic vision for growth in China market",
-      "contextKo": "중국 시장 성장을 위한 Want Want의 전략적 비전에 관해",
-      "source": "https://en.wikipedia.org/wiki/Tsai_Eng-meng"
+      "text": "Build with integrity and the money follows",
+      "textKo": "청렴하게 건설하면 돈은 자동으로 따라온다",
+      "context": "Interview on building company values",
+      "contextKo": "회사 가치 구축에 관한 인터뷰",
+      "source": "https://www.bizjournals.com"
     }
   ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "Built to Last",
+        "author": "Jim Collins",
+        "note": "Inspired his approach to building a lasting, diversified company",
+        "noteKo": "지속가능한 다각화 회사 구축에 대한 접근 방식을 영감을 줌"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Building Want Want into Asia's leading snack brand, media ownership, Chinese unification support",
-    "knownForKo": "Want Want을 아시아 선도 스낵 브랜드로 구축, 미디어 소유, 중국 통일 지지",
-    "philanthropy": null,
-    "philanthropyKo": null,
-    "controversies": "Strong supporter of Chinese unification, politically active",
-    "controversiesKo": "강한 중국 통일 지지자, 정치적으로 활동적"
+    "knownFor": "Construction and logistics industry leadership; Pacific Northwest business dominance",
+    "knownForKo": "건설 및 물류 산업 리더십; 태평양 북서부 비즈니스 지배",
+    "philanthropy": "Supports workforce development and construction education in the Pacific Northwest",
+    "philanthropyKo": "태평양 북서부의 인력 개발 및 건설 교육 지원",
+    "controversies": null,
+    "controversiesKo": null
   },
   "sajuConnection": null
 }

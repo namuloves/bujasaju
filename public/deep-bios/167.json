@@ -1,74 +1,130 @@
 {
   "id": "167",
   "name": "Mikhail Fridman",
+  "nameKo": "미하일 프리드만",
+  "netWorth": "$16.3B",
+  "nationality": "RU",
+  "industry": "Finance & Investments",
   "childhood": {
-    "birthPlace": "Russia",
-    "birthPlaceKo": "러시아",
-    "familyBackground": "Mikhail Maratovich Fridman is a Ukrainian-born, Russian–Israeli tycoon and oligarch. He is one of the co-founders of Alfa-Group, a multinational Russian conglomerate.",
-    "familyBackgroundKo": "Mikhail Maratovich Fridman은 우크라이나 태생의 러시아-이스라엘 재벌이자 올리가르히이다. 그는 다국적 러시아 기업집단인 Alfa-Group의 공동 창립자 중 한 명이다.",
-    "education": "Details of Mikhail Fridman's formal education are documented in limited public sources.",
-    "educationKo": "Mikhail Fridman의 정규 교육에 대한 세부사항은 제한된 공개 자료에 기록되어 있음.",
-    "earlyLife": "Mikhail Fridman built a career in Oil, banking, telecom, becoming one of the world's wealthiest individuals.",
-    "earlyLifeKo": "Mikhail Fridman은(는) Oil, banking, telecom 분야에서 경력을 쌓아 세계 최고 부호 중 한 명이 됨.",
-    "source": "Forbes, Wikipedia"
+    "birthPlace": "Lviv, Ukrainian SSR, Soviet Union (now Ukraine)",
+    "birthPlaceKo": "소련 우크라이나 소비에트 사회주의 공화국 리비우 (현 우크라이나)",
+    "familyBackground": "Born into a Jewish family in Lviv, western Ukraine; grew up during the Soviet era; won school Olympiads in physics and mathematics",
+    "familyBackgroundKo": "우크라이나 서부 리비우의 유대인 가정에서 출생; 소련 시대에 성장; 학교 물리학 및 수학 올림피아드에서 우승",
+    "education": "Graduated from school in Lviv (1980); Graduated with honors from Moscow Institute of Steel and Alloys (1986)",
+    "educationKo": "리비우 학교 졸업(1980); 모스크바 철강합금연구소 우등 졸업(1986)",
+    "earlyLife": "Born in 1964 in Lviv, western Ukraine, Fridman showed entrepreneurial instincts from a young age. While still in high school, he performed in a band. He won school Olympiads in physics and mathematics before winning a place at the prestigious Moscow Institute of Steel and Alloys. During university, he established his first ventures — running a nightclub called 'Strawberry Fields,' scalping theater tickets, and building what he jokingly called his 'first monopoly' in theater tickets at his university.",
+    "earlyLifeKo": "1964년 우크라이나 서부 리비우에서 태어난 프리드만은 어린 시절부터 기업가적 본능을 보였다. 고등학교 시절 밴드에서 공연했다. 물리학과 수학 올림피아드에서 우승한 후 명문 모스크바 철강합금연구소에 입학했다. 대학 시절 '스트로베리 필즈'라는 나이트클럽을 운영하고, 극장 표를 되팔며, 대학 내 극장 표에 대한 자신의 '최초의 독점'이라고 농담 삼아 말한 것을 구축하는 등 첫 사업들을 시작했다.",
+    "source": "Wikipedia, Vyapaar Jagat, Medium"
   },
   "careerTimeline": [
     {
-      "year": 1992,
-      "event": "Founded key business venture in Oil, banking, telecom",
-      "eventKo": "Oil, banking, telecom 분야에서 핵심 사업 설립"
+      "year": 1986,
+      "event": "Graduated from Moscow Institute of Steel and Alloys; worked as design engineer at Elektrostal plant",
+      "eventKo": "모스크바 철강합금연구소 졸업; 엘렉트로스탈 공장에서 설계 엔지니어로 근무"
     },
     {
-      "year": 2015,
-      "event": "Established as a leading figure in Energy",
-      "eventKo": "Energy 분야의 선도적 인물로 자리매김"
+      "year": 1988,
+      "event": "Co-founded Alfa-Photo with German Khan and Alexey Kuzmichev, importing photography chemicals; also started window-washing and computer trading businesses",
+      "eventKo": "게르만 칸, 알렉세이 쿠즈미체프와 함께 사진 화학제품을 수입하는 알파포토를 공동 설립; 창문 세척 및 컴퓨터 무역 사업도 시작"
     },
     {
-      "year": 2020,
-      "event": "Continued expanding operations and investments",
-      "eventKo": "사업 및 투자 확대 지속"
+      "year": 1989,
+      "event": "Founded Alfa-Eco, a commodities trading firm that expanded into oil and gas",
+      "eventKo": "석유 및 가스로 확장하는 상품 무역 회사 알파에코를 설립"
     },
     {
-      "year": 2025,
-      "event": "Net worth reached $16.3B, ranking among world's wealthiest",
-      "eventKo": "순자산 16.30억 달러 도달, 세계 최고 부호 대열"
+      "year": 1991,
+      "event": "Co-founded Alfa-Bank, which grew to become one of Russia's largest private banks",
+      "eventKo": "러시아 최대 민간 은행 중 하나로 성장한 알파뱅크를 공동 설립"
+    },
+    {
+      "year": 1997,
+      "event": "Acquired TNK (Tyumen Oil Company) with Len Blavatnik and Viktor Vekselberg for $800 million",
+      "eventKo": "렌 블라바트닉, 빅토르 벡셀베르그와 함께 TNK(튜멘석유회사)를 8억 달러에 인수"
+    },
+    {
+      "year": 2003,
+      "event": "Formed TNK-BP joint venture with British Petroleum in a $6.75 billion deal",
+      "eventKo": "67억 5천만 달러 규모의 거래로 브리티시 페트롤리엄과 TNK-BP 합작회사를 설립"
+    },
+    {
+      "year": 2013,
+      "event": "Sold TNK-BP stake to Rosneft for $27.7 billion; co-founded LetterOne (L1) international investment company",
+      "eventKo": "TNK-BP 지분을 로스네프트에 277억 달러에 매각; 국제 투자회사 레터원(L1)을 공동 설립"
+    },
+    {
+      "year": 2022,
+      "event": "Sanctioned by the European Union and United Kingdom following Russia's invasion of Ukraine",
+      "eventKo": "러시아의 우크라이나 침공 후 유럽연합과 영국의 제재 대상이 됨"
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "COVID-19 pandemic created unprecedented challenges across global business",
-      "descriptionKo": "코로나19 팬데믹이 전 세계 비즈니스에 전례 없는 도전 초래",
-      "lesson": "Adaptability and resilience are essential for surviving global crises",
-      "lessonKo": "글로벌 위기를 생존하는 데 적응력과 회복력이 필수적",
-      "source": "Forbes"
+      "year": 2022,
+      "description": "Sanctioned by the EU, UK, and later the US following Russia's invasion of Ukraine. Fridman found himself unable to use basic financial services, reportedly unable to pay restaurant bills or his cleaner, despite being worth billions on paper.",
+      "descriptionKo": "러시아의 우크라이나 침공 후 EU, 영국, 이후 미국의 제재를 받았다. 프리드만은 서류상으로는 수십억 달러의 자산가임에도 불구하고 기본적인 금융 서비스를 이용할 수 없었고, 식당 계산이나 청소부 급여도 지불할 수 없었다고 전해진다.",
+      "lesson": "The sanctions demonstrated how geopolitical risks can instantly freeze even the largest personal fortunes, regardless of the individual's stated position on the conflict.",
+      "lessonKo": "제재는 개인의 분쟁에 대한 입장과 관계없이 지정학적 위험이 최대 규모의 개인 재산도 즉시 동결시킬 수 있음을 보여주었다.",
+      "source": "Bloomberg, LADbible, Wikipedia"
+    },
+    {
+      "year": 2008,
+      "description": "Bitter corporate conflict between the Russian AAR consortium and BP over control of TNK-BP, with BP's CEO Bob Dudley forced to leave Russia. The dispute damaged Fridman's reputation in Western business circles.",
+      "descriptionKo": "TNK-BP의 경영권을 둘러싼 러시아 AAR 컨소시엄과 BP 간의 격렬한 기업 분쟁으로, BP의 CEO 밥 더들리가 러시아를 떠나야 했다. 이 분쟁은 서방 비즈니스 계에서 프리드만의 평판을 손상시켰다.",
+      "lesson": "The conflict ultimately led to the lucrative $27.7 billion sale to Rosneft in 2013, but the adversarial tactics employed raised lasting questions about governance standards.",
+      "lessonKo": "이 갈등은 궁극적으로 2013년 로스네프트에 277억 달러의 수익성 높은 매각으로 이어졌지만, 사용된 적대적 전술은 거버넌스 기준에 대한 지속적인 의문을 제기했다.",
+      "source": "Wikipedia, Bloomberg"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2010,
-      "netWorth": 4.1
+      "year": 2005,
+      "netWorth": 5.0
     },
     {
-      "year": 2015,
-      "netWorth": 7.3
+      "year": 2013,
+      "netWorth": 16.5
+    },
+    {
+      "year": 2018,
+      "netWorth": 15.0
     },
     {
       "year": 2022,
-      "netWorth": 11.4
+      "netWorth": 12.6
     },
     {
       "year": 2025,
       "netWorth": 16.3
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "If the people who are in charge in the EU believe that because of sanctions, I could approach Mr. Putin and tell him to stop the war, and it will work, then I'm afraid we're all in big trouble.",
+      "textKo": "EU 담당자들이 제재 때문에 내가 푸틴에게 접근해서 전쟁을 멈추라고 말하면 효과가 있을 거라고 믿는다면, 우리 모두 큰 곤경에 처한 것이 두렵습니다.",
+      "context": "Speaking about Western sanctions imposed on Russian oligarchs after the 2022 invasion of Ukraine",
+      "contextKo": "2022년 우크라이나 침공 후 러시아 올리가르히에 부과된 서방 제재에 대해 발언",
+      "source": "Bloomberg (2022)"
+    },
+    {
+      "text": "We sincerely believed we are such good friends of the Western world that we couldn't be punished.",
+      "textKo": "우리는 진심으로 우리가 서방 세계의 좋은 친구여서 처벌받을 수 없다고 믿었습니다.",
+      "context": "Reflecting on the shock of being sanctioned despite years of investment and engagement with Western institutions",
+      "contextKo": "수년간 서방 기관들과 투자 및 교류를 해왔음에도 제재를 받게 된 충격에 대한 회고",
+      "source": "Bloomberg (2022)"
+    }
+  ],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building wealth through Oil, banking, telecom. One of the world's wealthiest individuals with net worth of $16.3B.",
-    "knownForKo": "Oil, banking, telecom을(를) 통해 부를 축적. 순자산 $16.3B의 세계 최고 부호 중 한 명."
-  }
+    "knownFor": "Co-founding Alfa Group, one of Russia's largest private business conglomerates; co-founding Alfa-Bank; orchestrating the TNK-BP joint venture and its $27.7 billion sale",
+    "knownForKo": "러시아 최대 민간 기업 그룹 중 하나인 알파그룹 공동 설립; 알파뱅크 공동 설립; TNK-BP 합작회사와 277억 달러 매각 주도",
+    "philanthropy": "Founder and former vice president of the Russian Jewish Congress (1996); recipient of the Golden Plate Award from the Academy of Achievement (2003); donated to various Jewish cultural and educational causes",
+    "philanthropyKo": "러시아유대인의회 설립자 겸 전 부회장(1996); 미국 성취 아카데미 골든 플레이트 상 수상(2003); 다양한 유대 문화 및 교육 사업에 기부",
+    "controversies": "Sanctioned by EU, UK, and US over Russia's invasion of Ukraine (2022-2023); bitter corporate dispute with BP over TNK-BP (2008); named in connection with Russian oligarch networks; offered to transfer $1 billion to Ukrainian bank to lift sanctions",
+    "controversiesKo": "러시아의 우크라이나 침공으로 EU, 영국, 미국의 제재 대상(2022-2023); TNK-BP를 둘러싼 BP와의 격렬한 기업 분쟁(2008); 러시아 올리가르히 네트워크와 관련하여 이름이 언급됨; 제재 해제를 위해 우크라이나 은행에 10억 달러 이전 제안"
+  },
+  "sajuConnection": null
 }

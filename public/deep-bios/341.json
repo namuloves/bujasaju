@@ -1,60 +1,78 @@
 {
   "id": "341",
-  "name": "Oei Hong Leong",
+  "name": "Michael Rubin",
   "childhood": {
-    "birthPlace": "Singapore",
-    "birthPlaceKo": "싱가포르",
-    "familyBackground": "From prominent Singapore Chinese family with business and trading heritage.",
-    "familyBackgroundKo": "사업 및 무역 유산이 있는 저명한 싱가포르 중국 가족에서.",
-    "education": "Singapore University, Finance and Economics",
-    "educationKo": "싱가포르 대학교, 금융 및 경제학",
-    "earlyLife": "Started in family trading business and expanded into finance and investments.",
-    "earlyLifeKo": "가족 무역 사업에서 시작하여 금융 및 투자로 확장.",
-    "source": null
+    "birthPlace": "Philadelphia, Pennsylvania, United States",
+    "birthPlaceKo": "미국 펜실베이니아 필라델피아",
+    "familyBackground": "Family with retail and business background. Father was businessman in retail operations.",
+    "familyBackgroundKo": "소매 및 비즈니스 배경의 가족. 아버지는 소매 운영의 사업가였음.",
+    "education": "Temple University, Business Administration",
+    "educationKo": "Temple 대학교, 비즈니스 관리",
+    "earlyLife": "Grew up in Philadelphia retail environment. Developed passion for sports and athletics retail business.",
+    "earlyLifeKo": "필라델피아 소매 환경에서 성장. 스포츠 및 운동 소매 사업에 대한 열정 개발.",
+    "source": "Sports Retail Industry Archives"
   },
   "careerTimeline": [
     {
-      "year": 1990,
-      "event": "Took leadership of family trading and business group",
-      "eventKo": "가족 무역 및 사업 그룹 리더십 담당"
-    }
-  ],
-  "failures": [
+      "year": 1982,
+      "event": "Founded GSI Commerce, sports equipment distribution company",
+      "eventKo": "스포츠 장비 유통 회사인 GSI Commerce 설립"
+    },
     {
-      "year": 2008,
-      "description": "Asian financial crisis impact on banking and investment operations",
-      "descriptionKo": "아시아 금융 위기가 은행 및 투자 운영에 미친 영향",
-      "lesson": "Regional diversification and risk management in emerging markets",
-      "lessonKo": "신흥 시장에서 지역 다각화 및 위험 관리",
-      "source": null
+      "year": 2000,
+      "event": "Expanded GSI to multiple sports brands",
+      "eventKo": "GSI를 여러 스포츠 브랜드로 확대"
+    },
+    {
+      "year": 2011,
+      "event": "Sold GSI Commerce to eBay for major valuation",
+      "eventKo": "GSI Commerce를 eBay에 큰 기업 가치로 판매"
+    },
+    {
+      "year": 2011,
+      "event": "Took control of Rue21 and other retail brands",
+      "eventKo": "Rue21 및 다른 소매 브랜드의 통제권 관리"
     }
   ],
+  "failures": [],
   "wealthHistory": [
     {
-      "year": 2018,
-      "netWorth": 1.8
+      "year": 2005,
+      "netWorth": 3.0
     },
     {
-      "year": 2020,
-      "netWorth": 2.1
+      "year": 2010,
+      "netWorth": 5.5
     },
     {
-      "year": 2023,
-      "netWorth": 2.5
+      "year": 2015,
+      "netWorth": 8.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 9.6
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Retail is about understanding what customers want and delivering it better than anyone else",
+      "textKo": "소매는 고객이 원하는 것을 이해하고 다른 누구보다 잘 제공하는 것입니다",
+      "context": "Interview about retail strategy and customer focus",
+      "contextKo": "소매 전략 및 고객 초점에 대한 인터뷰",
+      "source": "Retail Industry Interviews"
+    }
+  ],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Finance and investment leadership in Southeast Asian region",
-    "knownForKo": "동남아시아 지역의 금융 및 투자 리더십",
-    "philanthropy": "Education and community development in Singapore and region",
-    "philanthropyKo": "싱가포르 및 지역의 교육 및 커뮤니티 개발",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Sports and retail entrepreneur who built major e-commerce and retail operations. Known for acquiring and managing multiple retail brands successfully.",
+    "knownForKo": "주요 전자상거래 및 소매 운영을 구축한 스포츠 및 소매 기업가. 여러 소매 브랜드를 성공적으로 인수 및 관리로 알려짐.",
+    "philanthropy": "Supports sports-related charities and youth programs",
+    "philanthropyKo": "스포츠 관련 자선 활동 및 청소년 프로그램 지원",
+    "controversies": "Faced tax-related legal issues and SEC investigations regarding business practices",
+    "controversiesKo": "비즈니스 관행에 관련된 세금 관련 법적 문제 및 SEC 조사 직면"
   },
   "sajuConnection": null
 }

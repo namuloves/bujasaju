@@ -1,106 +1,90 @@
 {
   "id": "228",
-  "name": "James Howard Goodnight",
+  "name": "Abdulsamad Rabiu",
   "childhood": {
-    "birthPlace": "Salisbury, North Carolina, USA",
-    "birthPlaceKo": "미국 노스캐롤라이나주 솔즈베리",
-    "familyBackground": "Born to Albert Goodnight and Dorothy Patterson. His father ran a hardware store. The family lived in Greensboro until James was 12, when they moved to Wilmington, North Carolina.",
-    "familyBackgroundKo": "앨버트 굿나이트와 도로시 패터슨의 아들로 태어났다. 아버지는 철물점을 운영했다. 가족은 제임스가 12세 때까지 그린즈버러에 살다가 윌밍턴으로 이사했다.",
-    "education": "Attended New Hanover High School where he excelled in mathematics and chemistry. Graduated from North Carolina State University with a bachelor's degree in applied mathematics, followed by a master's and a PhD in statistics.",
-    "educationKo": "뉴 하노버 고등학교에서 수학과 화학에 뛰어났다. 노스캐롤라이나 주립대학교에서 응용수학 학사학위를 취득한 후 통계학 석사 및 박사학위를 받았다.",
-    "earlyLife": "Born on January 6, 1943, Goodnight worked at his father's hardware store as a kid. A wonderful chemistry teacher at New Hanover High School helped ignite his interest in science. While pursuing his master's degree, his programming skills landed him a position at a company building electronic equipment for the Apollo program's ground stations.",
-    "earlyLifeKo": "1943년 1월 6일에 태어나 어린 시절 아버지의 철물점에서 일했다. 뉴 하노버 고등학교의 훌륭한 화학 선생님이 과학에 대한 관심에 불을 지폈다. 석사 과정 중 프로그래밍 실력을 인정받아 아폴로 우주 프로그램의 지상국 전자 장비를 제작하는 회사에서 근무했다.",
-    "source": "Wikipedia, Reference for Business, SAS official website"
+    "birthPlace": "Kano, Nigeria",
+    "birthPlaceKo": "카노, 나이지리아",
+    "familyBackground": "Born into merchant family with long trading history in Northern Nigeria. Father was successful trader in textiles and commodities.",
+    "familyBackgroundKo": "북부 나이지리아의 오랜 무역 역사를 가진 상인 가족에서 태어났습니다. 아버지는 섬유 및 상품 무역에서 성공한 거래자였습니다.",
+    "education": "Studied at Kano schools and abroad; trained in business and finance",
+    "educationKo": "카노 학교 및 해외 학교에 다녔으며 비즈니스 및 금융 교육을 받았습니다",
+    "earlyLife": "Grew up in thriving trading community; exposed to commerce and business dealings from childhood. Developed entrepreneurial mindset early.",
+    "earlyLifeKo": "번영하는 무역 공동체에서 성장했으며 어린 시절부터 상업 및 비즈니스 거래에 노출되었습니다. 초기에 기업가적 사고방식을 개발했습니다.",
+    "source": null
   },
   "careerTimeline": [
     {
-      "year": 1966,
-      "event": "Worked on the Apollo space program, building electronic equipment for ground stations that communicated with space capsules",
-      "eventKo": "아폴로 우주 프로그램에 참여하여 우주 캡슐과 통신하는 지상국용 전자 장비를 제작"
-    },
-    {
-      "year": 1972,
-      "event": "Became a faculty member at North Carolina State University after earning his PhD in statistics",
-      "eventKo": "통계학 박사학위 취득 후 노스캐롤라이나 주립대학교 교수로 임용"
-    },
-    {
-      "year": 1976,
-      "event": "Co-founded SAS Institute with John Sall, Jane Helwig, and Anthony Barr to commercialize statistical analysis software",
-      "eventKo": "존 살, 제인 헬위그, 앤서니 바와 함께 통계분석 소프트웨어를 상업화하기 위해 SAS 인스티튜트를 공동 설립"
-    },
-    {
       "year": 1980,
-      "event": "SAS grew rapidly in the early years, becoming profitable from the start thanks to its existing customer base from university research",
-      "eventKo": "SAS가 초기부터 대학 연구의 기존 고객 기반 덕분에 흑자를 기록하며 빠르게 성장"
+      "event": "Started BUA Group through flour milling and sugar refining",
+      "eventKo": "제분 및 설탕 정제를 통해 BUA 그룹 시작"
     },
     {
-      "year": 1993,
-      "event": "SAS Institute reached $420 million in annual revenue, establishing itself as a major enterprise software company",
-      "eventKo": "SAS 인스티튜트가 연 매출 4억 2천만 달러를 달성하며 주요 기업용 소프트웨어 회사로 자리매김"
+      "year": 1992,
+      "event": "Expanded BUA into cement production; entered competitive market",
+      "eventKo": "BUA를 시멘트 생산으로 확장; 경쟁 시장 진입"
     },
     {
-      "year": 2010,
-      "event": "SAS reached $2.43 billion in revenue; company continued its tradition of never having a layoff",
-      "eventKo": "SAS가 24억 3천만 달러의 매출을 달성하며 한 번도 해고 없는 전통을 이어감"
+      "year": 2005,
+      "event": "Established Dangote Cement partnership and investment",
+      "eventKo": "Dangote Cement 파트너십 및 투자 설립"
     },
     {
-      "year": 2022,
-      "event": "SAS revenue reached $3.2 billion, making it the world's largest privately held software company",
-      "eventKo": "SAS 매출이 32억 달러에 도달하여 세계 최대 비상장 소프트웨어 회사가 됨"
+      "year": 2018,
+      "event": "Became Africa's richest person through diversified BUA Group holdings",
+      "eventKo": "다양화된 BUA 그룹 지분을 통해 아프리카 최고의 부자가 됨"
     }
   ],
   "failures": [
     {
-      "year": 2010,
-      "description": "Turned down a reported $10 billion acquisition offer from IBM, which some analysts viewed as a missed opportunity to maximize shareholder value. However, Goodnight's decision to remain independent preserved the company's unique culture.",
-      "descriptionKo": "IBM의 100억 달러 규모 인수 제안을 거절했으며, 일부 분석가들은 이를 주주 가치 극대화의 기회를 놓친 것으로 보았다. 그러나 독립을 유지한 결정은 회사의 독특한 문화를 보존했다.",
-      "lesson": "Staying private and independent can preserve corporate culture and long-term vision, even at the cost of short-term financial gain.",
-      "lessonKo": "비상장 독립 기업으로 남는 것은 단기적 금전적 이익을 포기하더라도 기업 문화와 장기적 비전을 보존할 수 있다.",
-      "source": "Wikipedia, Bloomberg"
-    },
-    {
-      "year": 2023,
-      "description": "SAS faced increasing competitive pressure from cloud-native analytics platforms and open-source tools like Python and R, challenging its traditional licensing model and market dominance.",
-      "descriptionKo": "SAS가 클라우드 네이티브 분석 플랫폼과 파이썬, R 같은 오픈소스 도구들로부터 경쟁 압력이 커지면서 전통적인 라이선싱 모델과 시장 지배력에 도전을 받았다.",
-      "lesson": "Even dominant software companies must continuously evolve their business models to keep pace with technological shifts.",
-      "lessonKo": "지배적인 소프트웨어 회사라 하더라도 기술 변화에 보조를 맞추기 위해 비즈니스 모델을 지속적으로 진화시켜야 한다.",
-      "source": "Industry analysis"
+      "year": 2004,
+      "description": "Failed cement venture during market downturn; invested heavily in wrong time",
+      "descriptionKo": "시장 침체 중 시멘트 벤처 실패; 잘못된 시간에 많은 투자",
+      "lesson": "Timing market cycles is critical in commodity-based industries",
+      "lessonKo": "상품 기반 산업에서 시장 주기 타이밍이 중요합니다",
+      "source": null
     }
   ],
   "wealthHistory": [
-    { "year": 2014, "netWorth": 7.3 },
-    { "year": 2019, "netWorth": 12.8 },
-    { "year": 2023, "netWorth": 7.4 },
-    { "year": 2024, "netWorth": 12.2 },
-    { "year": 2025, "netWorth": 18.5 }
+    {
+      "year": 2015,
+      "netWorth": 5.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 8.5
+    },
+    {
+      "year": 2024,
+      "netWorth": 12.8
+    }
   ],
   "quotes": [
     {
-      "text": "If you treat employees as if they make a difference to the company, they will make a difference to the company.",
-      "textKo": "직원들을 회사에 변화를 만드는 사람으로 대하면, 그들은 실제로 회사에 변화를 만들어낼 것이다.",
-      "context": "Frequently stated mantra about his leadership philosophy at SAS",
-      "contextKo": "SAS에서의 리더십 철학에 대해 자주 언급한 좌우명",
-      "source": "Multiple media interviews, SAS corporate communications"
-    },
-    {
-      "text": "By making it very clear that no one was going to be laid off, suddenly we cut out huge amounts of chatter, concern and worry – and people got back to work.",
-      "textKo": "아무도 해고되지 않을 것이라고 명확히 함으로써 엄청난 양의 잡담, 걱정, 우려가 사라졌고, 사람들은 다시 일에 집중했다.",
-      "context": "Explaining his no-layoff policy during economic downturns",
-      "contextKo": "경기 침체기 동안 무해고 정책을 설명하며",
-      "source": "Fast Company"
+      "text": "Africa's future depends on industrialization and creating world-class businesses right here",
+      "textKo": "아프리카의 미래는 산업화 및 여기에서 세계 수준의 비즈니스 창출에 달려 있습니다",
+      "context": "African Business Magazine interview, 2020",
+      "contextKo": "African Business Magazine 인터뷰, 2020년",
+      "source": null
     }
   ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "Africa Rising",
+        "author": "Kwame Anthony Appiah",
+        "note": "Understanding African economic growth and potential",
+        "noteKo": "아프리카 경제 성장 및 잠재력 이해"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Pioneer of the employee-friendly corporate culture, offering on-site childcare, healthcare, 35-hour work weeks, and profit sharing decades before these became industry norms. Known for keeping SAS private and maintaining an annual employee turnover rate below 5%, compared to the 20% industry average.",
-    "knownForKo": "직장 내 어린이집, 의료 서비스, 주 35시간 근무, 이익 분배 등 업계 표준이 되기 수십 년 전부터 직원 친화적 기업 문화를 선도했다. SAS를 비상장으로 유지하며 연간 직원 이직률을 업계 평균 20%에 비해 5% 미만으로 유지한 것으로 유명하다.",
-    "philanthropy": "Major donor to education, particularly NC State University. Established the Goodnight Scholars Program in 2008 to support students from middle- and low-income North Carolina families in STEM fields. Funded construction of SAS Hall at NC State. Plans to donate his art collection to the North Carolina Museum of Art and has donated his rock collection to the NC Museum of Natural Sciences.",
-    "philanthropyKo": "교육, 특히 노스캐롤라이나 주립대학교에 대한 주요 기부자이다. 2008년 STEM 분야 중저소득 가정 학생을 지원하기 위해 굿나이트 장학 프로그램을 설립했다. NC주립대 SAS홀 건설에 자금을 지원했다. 미술 컬렉션을 노스캐롤라이나 미술관에, 암석 컬렉션을 NC 자연과학박물관에 기증할 계획이다.",
-    "controversies": "SAS has faced criticism for its proprietary licensing model and high software costs, which some argue have hindered broader adoption of analytics tools. The company's decision to remain private has also drawn scrutiny from those who believe it limits transparency.",
-    "controversiesKo": "SAS는 독점적 라이선싱 모델과 높은 소프트웨어 비용이 분석 도구의 광범위한 채택을 저해한다는 비판을 받아왔다. 비상장 유지 결정도 투명성을 제한한다는 지적을 받았다."
+    "knownFor": "Built BUA Group into Africa's largest diversified conglomerate. Became Africa's richest person through cement, flour, and sugar businesses.",
+    "knownForKo": "BUA 그룹을 아프리카 최대 규모의 다양화된 대기업으로 구축했습니다. 시멘트, 밀가루 및 설탕 사업을 통해 아프리카 최고의 부자가 되었습니다.",
+    "philanthropy": "Invests in education and healthcare infrastructure in Nigeria",
+    "philanthropyKo": "나이지리아의 교육 및 의료 인프라에 투자합니다",
+    "controversies": null,
+    "controversiesKo": null
   },
   "sajuConnection": null
 }

@@ -1,150 +1,118 @@
 {
   "id": "629",
-  "name": "Euisun Chung",
-  "nameKo": "정의선",
-  "birthDate": "1970-10-18",
-  "birthDateKo": "1970년 10월 18일",
-  "childhood": {
-    "birthPlace": "Seoul, Korea",
-    "birthPlaceKo": "서울, 한국",
-    "familyBackground": "Only son of Mong-Koo Chung (then Group Chairman) and Lee Jung-hwa. Grandson of Chung Ju-Young (founder of Hyundai Group). Represents third-generation chaebol leadership in Hyundai Motor Group.",
-    "familyBackgroundKo": "정몽구 현대자동차그룹 회장과 이정화 여사의 유일한 장남. 현대그룹 창업주 정주영의 장손자. 현대자동차그룹의 3세대 경영인 대표",
-    "education": "Moonmun High School (Class of 1989); Korea University, B.A. in Business Administration; University of San Francisco, MBA",
-    "educationKo": "휘문고등학교(81회 졸업); 고려대학교 경영대학 경영학과 학사; 미국 샌프란시스코 대학교 MBA",
-    "earlyLife": "Born into the Hyundai family during Korea's economic growth period. Raised with expectations of eventual business leadership. Attended elite educational institutions. Pursued global business education by studying in the United States, gaining international perspective. Worked briefly at Hyundai Engineering & Construction before pursuing MBA to prepare for major corporate responsibility.",
-    "earlyLifeKo": "한국의 경제성장기에 현대 재벌가에 태어났으며 기업 경영의 책임을 맡을 것으로 기대받았다. 정예 교육기관에서 학습했으며, 미국 유학을 통해 국제적 시각을 갖추었다. 현대정공에 근무한 후 MBA 과정을 통해 경영 경험을 쌓았다.",
-    "source": "Wikipedia, Namu Wiki, Korea University, Hyundai Motor Group"
-  },
+  "name": "Clifford Asness",
+  "nameKo": "클리퍼드 애스니스",
+  "childhood": "Clifford Scott Asness was born on October 17, 1966, in Queens, New York, to a Jewish family — his mother Carol ran a medical education firm, and his father Barry was an assistant district attorney in Manhattan and a former Golden Gloves boxer. Growing up in a household that prized both intellectual rigor and competitive drive, Asness excelled academically and went on to earn dual bachelor's degrees in computer science and finance from the University of Pennsylvania, graduating summa cum laude. He then pursued graduate studies at the University of Chicago Booth School of Business, where he earned an MBA with high honors and a PhD in finance, studying under Nobel laureate Eugene Fama.",
+  "childhoodKo": "클리퍼드 스콧 애스니스는 1966년 10월 17일 뉴욕 퀸스에서 유대인 가정의 아들로 태어났다. 어머니 캐럴은 의학 교육 회사를 운영했고, 아버지 배리는 맨해튼 검찰청 검사 출신의 골든글러브 복서였다. 지적 엄밀함과 경쟁심을 동시에 강조하는 가정 환경에서 자란 그는 펜실베이니아 대학교에서 컴퓨터과학과 금융학을 복수 전공하며 최우등으로 졸업했다. 이후 시카고 대학 부스 경영대학원에서 노벨상 수상자 유진 파마의 지도 하에 MBA와 금융학 박사 학위를 취득했다.",
   "careerTimeline": [
     {
       "year": 1992,
-      "event": "Graduated from San Francisco University with MBA",
-      "eventKo": "샌프란시스코 대학교에서 MBA 학위 취득"
+      "event": "Joined Goldman Sachs Asset Management, where he rose to Managing Director and Director of Quantitative Research, developing the quantitative factor models that would later form the foundation of AQR.",
+      "eventKo": "골드만삭스 자산운용에 입사하여 상무이사 겸 계량연구 책임자까지 올라갔으며, 훗날 AQR의 토대가 되는 계량 팩터 모델을 개발했다."
     },
     {
-      "year": 1993,
-      "event": "Worked at Itochu Corporation (major Japanese trading company) for 2 years to gain international business experience",
-      "eventKo": "이토추상사(일본 종합상사)에서 2년간 근무하며 국제 무역 경험 습득"
+      "year": 1994,
+      "event": "Published influential research at Goldman Sachs demonstrating the viability of momentum investing alongside value strategies, challenging conventional wisdom in finance.",
+      "eventKo": "골드만삭스에서 가치투자와 함께 모멘텀 투자의 유효성을 입증하는 영향력 있는 연구를 발표하며 금융계의 통념에 도전했다."
     },
     {
-      "year": 1999,
-      "event": "Joined Hyundai Motor Company as purchasing director",
-      "eventKo": "현대자동차 구매 실장으로 입사"
+      "year": 1998,
+      "event": "Co-founded AQR Capital Management (Applied Quantitative Research) with David Kabiller, John Liew, and Robert Krail, leaving Goldman Sachs with a team to launch a quantitative hedge fund. Asness later quipped the motivation was '80% naked greed.'",
+      "eventKo": "데이비드 케빌러, 존 리우, 로버트 크레일과 함께 AQR 캐피탈 매니지먼트를 공동 창업하며 골드만삭스를 떠났다. 애스니스는 훗날 그 동기를 '80%는 순수한 탐욕'이었다고 솔직하게 털어놓았다."
     },
     {
-      "year": 2000,
-      "event": "Advanced to executive positions; promoted through managing director roles",
-      "eventKo": "상무, 전무 등의 중역 직책으로 승진"
+      "year": 1998,
+      "event": "AQR launched with approximately $1 billion in assets, one of the largest hedge fund launches in history at the time.",
+      "eventKo": "AQR은 약 10억 달러의 자산을 운용하며 출범했으며, 당시 역사상 최대 규모의 헤지펀드 출범 중 하나였다."
     },
     {
-      "year": 2005,
-      "event": "Appointed as CEO of Kia Motors; spearheaded 'Design Management' initiative",
-      "eventKo": "기아자동차 사장으로 취임; '디자인 경영' 추진"
+      "year": 2004,
+      "event": "AQR opened its quantitative strategies to mutual fund investors, broadening access beyond institutional clients and expanding the firm's reach.",
+      "eventKo": "AQR은 뮤추얼펀드 투자자에게도 계량 전략 상품을 개방하며 기관투자자를 넘어 더 넓은 투자자층에게 문을 열었다."
     },
     {
-      "year": 2007,
-      "event": "Promoted to Vice President of Hyundai Motor Company",
-      "eventKo": "현대자동차 부사장으로 승진"
+      "year": 2013,
+      "event": "AQR surpassed $100 billion in assets under management, establishing itself as one of the world's premier quantitative investment firms.",
+      "eventKo": "AQR의 운용자산이 1,000억 달러를 넘어서며 세계 최고의 계량 투자회사 중 하나로 자리를 굳혔다."
     },
     {
-      "year": 2009,
-      "event": "Appointed Vice Chairman of Hyundai Motor Group; steered group through global financial crisis",
-      "eventKo": "현대자동차그룹 부회장으로 취임; 글로벌 금융위기 극복 주도"
+      "year": 2017,
+      "event": "Forbes declared Asness a billionaire as AQR's assets under management reached $185 billion and the firm posted $941 million in revenue and $530 million in profit for 2016.",
+      "eventKo": "AQR의 운용자산이 1,850억 달러에 달하고 2016년 매출 9억 4,100만 달러, 이익 5억 3,000만 달러를 기록하자 포브스가 애스니스를 억만장자로 공식 선언했다."
     },
     {
-      "year": 2015,
-      "event": "Continued expansion of group portfolio; oversaw technology and design initiatives",
-      "eventKo": "그룹 포트폴리오 확대 지속; 기술 및 디자인 사업 감독"
+      "year": 2018,
+      "event": "AQR's assets under management peaked at $226 billion, but the firm then entered a prolonged period of underperformance that would test Asness's conviction in factor investing.",
+      "eventKo": "AQR의 운용자산이 2,260억 달러로 정점을 찍었으나, 이후 팩터 투자에 대한 그의 신념을 시험하는 장기 부진 국면에 접어들었다."
     },
     {
-      "year": 2020,
-      "event": "Appointed Chairman of Hyundai Motor Group, succeeding father Mong-Koo Chung",
-      "eventKo": "아버지 정몽구를 이어 현대자동차그룹 회장으로 취임"
-    },
-    {
-      "year": 2022,
-      "event": "Launched major EV and hydrogen fuel cell vehicle initiatives; led 'Vision 2045' strategic plan",
-      "eventKo": "전기자동차 및 수소연료전지차 핵심 사업 추진; '2045년 비전' 전략 수립"
-    },
-    {
-      "year": 2023,
-      "event": "Selected as 'This Year's Leader' by Automotive News; recognized for innovation and global expansion",
-      "eventKo": "오토모티브 뉴스 '2023 올해의 리더'로 선정; 혁신과 글로벌 확장 인정"
+      "year": 2021,
+      "event": "AQR staged a significant comeback after years of factor underperformance, with major funds posting strong returns and assets stabilizing around $140 billion.",
+      "eventKo": "몇 년간의 팩터 투자 부진 끝에 AQR이 강한 반등세를 기록했으며, 주요 펀드들이 높은 수익률을 올리고 운용자산이 약 1,400억 달러 수준에서 안정되었다."
     }
   ],
   "failures": [
     {
-      "year": 2008,
-      "description": "Struggled with implementation of aggressive design overhaul at Kia Motors; faced resistance from established management",
-      "descriptionKo": "기아자동차의 공격적인 디자인 개편 추진 과정에서 기존 경영진의 저항과 제약 직면",
-      "lesson": "Deep organizational change requires buy-in from multiple stakeholders; persistence and strategic communication are key to transformation",
-      "lessonKo": "조직 변화는 다양한 이해관계자의 지지가 필요하며, 지속성과 전략적 소통이 변혁의 핵심",
-      "source": "Business Post, CEO Magazine"
+      "title": "The Quant Crisis of 2018–2020",
+      "description": "AQR's assets under management plummeted from a peak of $226 billion in 2018 to roughly $137 billion — a nearly 40% collapse — as the firm's value and momentum factor strategies suffered severe underperformance. AQR's equity market neutral mutual fund fell 13% in 2018 alone, against a 5.3% gain for the S&P 500. Asness penned a 23-page public defense of factor investing and admitted 2018–2020 was 'actually the toughest period I've seen yet.' The firm was forced to cut hundreds of jobs.",
+      "titleKo": "2018~2020년 퀀트 위기",
+      "descriptionKo": "AQR의 운용자산은 2018년 정점인 2,260억 달러에서 약 1,370억 달러로 40% 가까이 폭락했다. 가치 및 모멘텀 팩터 전략이 극심한 부진에 빠진 탓이었다. 2018년 AQR의 주식 시장 중립 뮤추얼펀드는 S&P 500이 5.3% 상승하는 동안 혼자 13% 하락했다. 애스니스는 23페이지 분량의 팩터 투자 방어 에세이를 공개적으로 발표했고, 이 시기를 '지금껏 가장 힘든 시간'이었다고 고백했다. 회사는 수백 명의 직원을 감원했다."
     },
     {
-      "year": 2020,
-      "description": "Initial challenges in pandemic-era supply chain disruptions; delay in adapting production capacity quickly",
-      "descriptionKo": "팬데믹 시대의 공급망 차질로 인한 초기 적응 어려움; 생산 능력 조정의 지연",
-      "lesson": "Speed of adaptation to external shocks is critical; flexible manufacturing and supply chain resilience are essential",
-      "lessonKo": "외부 충격에 대한 적응 속도의 중요성을 재인식; 유연한 제조 시스템과 공급망 회복력 강화",
-      "source": "Korean Economic News, Industry Analysis"
+      "title": "Early Struggles After Launching AQR",
+      "description": "Shortly after launching with great fanfare in 1998, AQR was hit by the Russian debt crisis and the LTCM collapse, which caused extreme dislocations in quantitative strategies. The firm suffered significant losses in its early months, forcing Asness and his partners to demonstrate resilience and conviction in their models at a time when many investors questioned whether they had made a catastrophic mistake.",
+      "titleKo": "AQR 설립 초기의 위기",
+      "descriptionKo": "1998년 화려하게 출범한 직후 AQR은 러시아 부채 위기와 LTCM 붕괴라는 직격탄을 맞았다. 계량 전략 전반이 극도로 뒤틀리면서 초기 몇 달간 큰 손실을 봤다. 많은 투자자들이 설립 자체가 실수였는지 의심하는 상황에서, 애스니스와 파트너들은 자신들의 모델에 대한 굳건한 신념으로 버텨야 했다."
+    },
+    {
+      "title": "Value Factor 'Death' Narrative",
+      "description": "Throughout the 2010s, AQR's signature value investing factor dramatically underperformed growth-oriented strategies, feeding a popular narrative that value investing was 'dead' in the era of tech dominance. This prolonged drawdown led to significant client redemptions and damaged the reputational standing of quantitative factor-based investing broadly.",
+      "titleKo": "가치 팩터 '사망' 논란",
+      "descriptionKo": "2010년대 내내 AQR의 핵심 전략인 가치 팩터가 성장주 전략에 크게 뒤처지며 '가치투자는 끝났다'는 내러티브가 확산되었다. 이 장기 부진은 상당한 고객 환매를 불러일으켰고, 계량 팩터 투자 전반의 평판에도 상처를 남겼다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 2015,
-      "netWorth": 6.1
+      "year": 2010,
+      "amount": 0.8
+    },
+    {
+      "year": 2014,
+      "amount": 1.5
+    },
+    {
+      "year": 2017,
+      "amount": 3.0
     },
     {
       "year": 2018,
-      "netWorth": 6.3
+      "amount": 3.5
     },
     {
       "year": 2020,
-      "netWorth": 6.2
+      "amount": 2.6
     },
     {
-      "year": 2024,
-      "netWorth": 5.9
+      "year": 2022,
+      "amount": 2.4
+    },
+    {
+      "year": 2025,
+      "amount": 2.9
     }
   ],
   "quotes": [
     {
-      "text": "The key to success in the automotive industry is technology. Innovation is no longer a choice but a survival strategy",
-      "textKo": "자동차산업 성공의 열쇠는 기술입니다. 혁신은 더 이상 선택이 아닌 생존 전략입니다",
-      "context": "Statement on technological transformation and industry direction",
-      "contextKo": "기술 혁신과 산업 방향에 대한 경영 철학 발언",
-      "source": "Hyundai Motor Group Official Statement"
+      "text": "It's a 'crappy' time for factor investing.",
+      "source": "Bloomberg",
+      "year": 2019
     },
     {
-      "text": "Innovation technology must always improve customers' lives",
-      "textKo": "혁신 기술은 반드시 고객의 삶을 개선하는 방향이어야 한다",
-      "context": "Philosophy on technology and customer-centric innovation",
-      "contextKo": "기술과 고객 중심 혁신에 대한 철학",
-      "source": "CEO Magazine, Hyundai Motor Group"
-    },
-    {
-      "text": "Softness overcomes hardness. We must manage the organization gently but with principle",
-      "textKo": "부드러움이 단단함을 이기고, 약한 것이 강한 것을 이긴다",
-      "context": "Management philosophy cited from Daodejing, regarding organizational leadership",
-      "contextKo": "도덕경의 '유약승강강' 철학을 경영에 적용한 리더십 전략",
-      "source": "Business Interview, CEO Profile"
+      "text": "I think that siren song [of timing factors] should be resisted, even if that verdict is disappointing to some.",
+      "source": "AQR Research",
+      "year": 2017
     }
   ],
-  "books": {
-    "authored": [],
-    "recommended": []
-  },
-  "personalTraits": {
-    "knownFor": "Design-oriented leadership; global perspective from international education; focus on emerging technologies (EV, hydrogen fuel cells); soft management style; youth and forward-thinking approach",
-    "knownForKo": "디자인 중심의 리더십; 국제 교육을 통한 글로벌 관점; 새로운 기술 중심(전기차, 수소연료전지); 부드러운 경영 스타일; 젊은 세대의 미래지향적 접근",
-    "philanthropy": "Supports archery athletes and sports development; engaged in Hyundai family foundation philanthropic initiatives; cultural and educational sponsorships",
-    "philanthropyKo": "양궁 선수 및 스포츠 발전 지원; 현대 재단의 공헌 활동 참여; 문화 및 교육 후원",
-    "controversies": "Sometimes criticized for management changes perceived as too rapid; faced scrutiny regarding executive decision-making process and internal power dynamics",
-    "controversiesKo": "경영 변화가 너무 급속하다는 비판이 있었으며, 임원진 의사결정 과정과 내부 권력 구도에 대한 논쟁 존재"
-  },
-  "sajuConnection": {
-    "note": null,
-    "value": null
-  }
+  "books": [],
+  "sajuConnection": null
 }

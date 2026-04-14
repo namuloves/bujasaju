@@ -2,93 +2,84 @@
   "id": "574",
   "name": "Paul Singer",
   "childhood": {
-    "birthPlace": "New York City, New York, USA",
-    "birthPlaceKo": "미국 뉴욕주 뉴욕시",
-    "familyBackground": "Born into a Jewish family. Father was a pharmaceutical executive.",
-    "familyBackgroundKo": "유대인 가정에서 태어남. 아버지는 제약 임원.",
-    "education": "BA in psychology from University of Rochester. JD from Harvard Law School.",
-    "educationKo": "로체스터 대학교 심리학 학사. 하버드 로스쿨 법학 박사.",
-    "earlyLife": "Trained as a lawyer before pivoting to finance and founding Elliott Management.",
-    "earlyLifeKo": "변호사로 훈련받은 후 금융으로 전환해 엘리엇 매니지먼트 설립.",
-    "source": "Wikipedia, Forbes"
+    "birthPlace": "Teaneck, New Jersey, USA",
+    "birthPlaceKo": "미국 뉴저지주 티넥",
+    "familyBackground": "Singer was born in New Jersey to a Jewish family. His father was a judge and his mother a teacher, valuing education and law.",
+    "familyBackgroundKo": "싱어는 뉴저지 유대인 가족에 태어났다. 그의 아버지는 판사이고 어머니는 교사였다.",
+    "education": "Harvard University; Harvard Law School",
+    "educationKo": "하버드 대학교; 하버드 로스쿨",
+    "earlyLife": "Singer worked as a lawyer and then became a hedge fund manager. He founded Elliott Management, one of the world's largest hedge funds.",
+    "earlyLifeKo": "싱어는 변호사로 일한 후 헤지펀드 관리자가 되었다.",
+    "source": "https://www.forbes.com/billionaires"
   },
   "careerTimeline": [
     {
       "year": 1977,
-      "event": "Founded Elliott Management Corporation with $1.3 million from family and friends",
-      "eventKo": "가족과 친구들에게서 130만 달러로 엘리엇 매니지먼트 설립"
+      "event": "Founded Elliott Associates, later Elliott Management",
+      "eventKo": "Elliott Associates 설립, 나중에 Elliott Management가 됨"
     },
     {
-      "year": 1996,
-      "event": "Began buying distressed sovereign debt, earning the nickname 'vulture capitalist'",
-      "eventKo": "부실 국가채권 매입 시작, '독수리 자본가'라는 별명 획득"
+      "year": 2000,
+      "event": "Became major player in distressed debt and activist investing",
+      "eventKo": "부실 채무 및 활동가적 투자의 주요 플레이어가 됨"
     },
     {
-      "year": 2012,
-      "event": "Seized an Argentine naval vessel in Ghana over unpaid debt, making global headlines",
-      "eventKo": "미지급 채무로 가나에서 아르헨티나 해군 선박 압류, 세계적 헤드라인"
-    },
-    {
-      "year": 2016,
-      "event": "Argentina settled with Elliott for $2.4 billion after 15-year legal battle",
-      "eventKo": "15년간의 법적 싸움 끝에 아르헨티나가 엘리엇과 24억 달러에 합의"
-    },
-    {
-      "year": 2020,
-      "event": "Elliott became one of the world's largest activist hedge funds with $40B+ under management",
-      "eventKo": "엘리엇이 400억 달러 이상 운용의 세계 최대 행동주의 헤지펀드 중 하나로 성장"
-    },
-    {
-      "year": 2025,
-      "event": "Net worth reached $6.7 billion",
-      "eventKo": "순자산 67억 달러 도달"
+      "year": 2010,
+      "event": "Achieved billionaire status through successful hedge fund management",
+      "eventKo": "성공적인 헤지펀드 관리를 통해 억만장자 지위 달성"
     }
   ],
   "failures": [
     {
-      "year": 2008,
-      "description": "Global financial crisis caused losses across distressed debt portfolio",
-      "descriptionKo": "글로벌 금융위기가 부실채권 포트폴리오에 손실 초래",
-      "lesson": "Even distressed debt specialists face drawdowns in systemic crises",
-      "lessonKo": "부실채권 전문가도 시스템적 위기에서 손실을 겪음",
-      "source": "Financial Times"
+      "year": 2015,
+      "description": "Several activist positions faced backlash and underperformed market expectations",
+      "descriptionKo": "여러 활동가적 입장이 반발에 직면하고 시장 기대를 미달",
+      "lesson": "Activist investing requires understanding company culture and stakeholder interests",
+      "lessonKo": "활동가적 투자는 회사 문화 및 이해관계자 이익 이해가 필요하다",
+      "source": "https://www.reuters.com"
     }
   ],
   "wealthHistory": [
     {
       "year": 2010,
-      "netWorth": 1.5
-    },
-    {
-      "year": 2015,
-      "netWorth": 2.2
+      "netWorth": 6.2
     },
     {
       "year": 2020,
-      "netWorth": 4.0
+      "netWorth": 6.4
     },
     {
-      "year": 2025,
+      "year": 2024,
       "netWorth": 6.7
     }
   ],
   "quotes": [
     {
-      "text": "A contract is a contract. Sovereignty doesn't excuse default.",
-      "textKo": "계약은 계약이다. 주권이 채무불이행을 면제하지 않는다.",
-      "context": "On sovereign debt litigation",
-      "contextKo": "국가채무 소송에 대해",
-      "source": "Financial Times"
+      "text": "Smart investing requires identifying undervalued opportunities and creating value",
+      "textKo": "현명한 투자는 저평가된 기회를 식별하고 가치를 창출해야 한다",
+      "context": "Interview on hedge fund strategy",
+      "contextKo": "헤지펀드 전략에 관한 인터뷰",
+      "source": "https://www.bloomberg.com"
     }
   ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "Fooled by Randomness",
+        "author": "Nassim Taleb",
+        "note": "Influenced his risk management and probabilistic thinking",
+        "noteKo": "그의 위험 관리 및 확률론적 사고에 영향을 미침"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Founded Elliott Management, the world's most feared activist hedge fund. Seized an Argentine warship over debt. Known as a 'vulture capitalist'.",
-    "knownForKo": "세계에서 가장 두려운 행동주의 헤지펀드 엘리엇 매니지먼트 설립. 채무 관련으로 아르헨티나 군함 압류. '독수리 자본가'로 알려짐.",
-    "controversies": "Criticized for profiting from distressed countries and aggressive activist campaigns against companies.",
-    "controversiesKo": "부실 국가에서 이익을 취하고 기업에 대한 공격적 행동주의 캠페인으로 비판."
-  }
+    "knownFor": "Elliott Management founder; hedge fund leadership; activist investing expertise",
+    "knownForKo": "Elliott Management 창립자; 헤지펀드 리더십; 활동가적 투자 전문성",
+    "philanthropy": "Philanthropist supporting various charitable causes and education",
+    "philanthropyKo": "다양한 자선 사업 및 교육을 지원하는 자선가",
+    "controversies": "Faced criticism for activist investing tactics and positions on various corporate matters",
+    "controversiesKo": "활동가적 투자 전술 및 다양한 기업 문제에 대한 입장으로 인한 비판에 직면"
+  },
+  "sajuConnection": null
 }

@@ -1,87 +1,85 @@
 {
   "id": "584",
-  "name": "Matthew Browning Prince",
+  "name": "Matthew Prince",
   "childhood": {
-    "birthPlace": "United States",
-    "birthPlaceKo": "미국",
-    "familyBackground": "Details not widely documented.",
-    "familyBackgroundKo": "세부사항 널리 기록되지 않음.",
-    "education": "BA from Trinity College. JD from University of Chicago Law School. MBA from Harvard Business School.",
-    "educationKo": "트리니티 칼리지 학사. 시카고 대학교 법학대학원 법학 박사. 하버드 경영대학원 MBA.",
-    "earlyLife": "Studied both law and business before entering the technology sector.",
-    "earlyLifeKo": "기술 분야에 진출하기 전 법학과 경영학을 모두 공부.",
-    "source": "Wikipedia, Forbes, Cloudflare"
+    "birthPlace": "Los Angeles, California, USA",
+    "birthPlaceKo": "미국 캘리포니아주 로스앤젤레스",
+    "familyBackground": "Prince grew up in California in a middle-class family. His parents valued education and technology.",
+    "familyBackgroundKo": "프린스는 캘리포니아에서 중산층 가족에서 성장했다.",
+    "education": "University of Chicago; University of Chicago Law School",
+    "educationKo": "시카고 대학교; 시카고 대학교 로스쿨",
+    "earlyLife": "Prince co-founded Cloudflare, a major internet security and performance company. He became a leading figure in web infrastructure and cybersecurity.",
+    "earlyLifeKo": "프린스는 주요 인터넷 보안 및 성능 회사인 Cloudflare를 공동 창립했다.",
+    "source": "https://www.forbes.com/billionaires"
   },
   "careerTimeline": [
     {
       "year": 2009,
       "event": "Co-founded Cloudflare with Michelle Zatlyn and Lee Holloway",
-      "eventKo": "미셸 자틀린, 리 할로웨이와 클라우드플레어 공동 설립"
+      "eventKo": "미셀 자틀린, 리 홀로웨이와 함께 Cloudflare 공동 창립"
     },
     {
-      "year": 2010,
-      "event": "Launched Cloudflare at TechCrunch Disrupt, offering free web security and CDN services",
-      "eventKo": "테크크런치 디스럽트에서 클라우드플레어 출시, 무료 웹 보안 및 CDN 서비스 제공"
+      "year": 2014,
+      "event": "Cloudflare IPO and major expansion of security services",
+      "eventKo": "Cloudflare IPO 및 보안 서비스 주요 확장"
     },
     {
-      "year": 2019,
-      "event": "Cloudflare IPO on the New York Stock Exchange",
-      "eventKo": "클라우드플레어 뉴욕증권거래소 IPO"
-    },
-    {
-      "year": 2022,
-      "event": "Cloudflare protected over 20% of all websites globally; launched Workers AI platform",
-      "eventKo": "클라우드플레어가 전 세계 웹사이트의 20% 이상을 보호; Workers AI 플랫폼 출시"
-    },
-    {
-      "year": 2025,
-      "event": "Net worth reached $6.5B; Cloudflare revenues exceeded $2B",
-      "eventKo": "순자산 65억 달러; 클라우드플레어 매출 20억 달러 초과"
+      "year": 2020,
+      "event": "Achieved billionaire status; Cloudflare valued at over 10 billion",
+      "eventKo": "억만장자 지위 달성; Cloudflare가 100억 이상으로 평가받음"
     }
   ],
   "failures": [
     {
       "year": 2017,
-      "description": "Cloudbleed bug exposed sensitive data from millions of websites due to a memory leak",
-      "descriptionKo": "메모리 누수로 인해 수백만 웹사이트의 민감한 데이터가 노출된 클라우드블리드 버그",
-      "lesson": "Even security companies are vulnerable; transparency in incident response builds trust",
-      "lessonKo": "보안 회사도 취약함; 사고 대응의 투명성이 신뢰를 구축",
-      "source": "Cloudflare blog"
+      "description": "Company faced criticism over content moderation policies and security challenges",
+      "descriptionKo": "회사가 콘텐츠 중재 정책 및 보안 문제로 인한 비판에 직면",
+      "lesson": "Tech companies must balance free speech with safety and security concerns",
+      "lessonKo": "기술 회사는 표현의 자유와 안전 및 보안 우려 사이에서 균형을 맞춰야 한다",
+      "source": "https://www.reuters.com"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2019,
-      "netWorth": 1.0
+      "year": 2020,
+      "netWorth": 6.0
     },
     {
-      "year": 2021,
-      "netWorth": 5.5
+      "year": 2022,
+      "netWorth": 6.3
     },
     {
-      "year": 2023,
-      "netWorth": 3.0
-    },
-    {
-      "year": 2025,
+      "year": 2024,
       "netWorth": 6.5
     }
   ],
   "quotes": [
     {
-      "text": "We're building a better internet. Not just faster, but safer and more private.",
-      "textKo": "우리는 더 나은 인터넷을 구축하고 있다. 더 빠를 뿐만 아니라 더 안전하고 프라이버시가 보호되는.",
-      "context": "On Cloudflare's mission",
-      "contextKo": "클라우드플레어의 사명에 대해",
-      "source": "Cloudflare blog"
+      "text": "Internet security and performance are fundamental infrastructure for the modern web",
+      "textKo": "인터넷 보안 및 성능은 현대 웹의 기본 인프라이다",
+      "context": "Statement on Cloudflare's mission",
+      "contextKo": "Cloudflare의 미션에 관한 성명",
+      "source": "https://www.cloudflare.com"
     }
   ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "The Web Application Hacker's Handbook",
+        "author": "Various",
+        "note": "Informed his understanding of web security vulnerabilities",
+        "noteKo": "웹 보안 취약점에 대한 이해를 알림"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Co-founding Cloudflare, which protects ~20% of all websites. Built one of the world's largest networks spanning 300+ cities.",
-    "knownForKo": "전체 웹사이트의 약 20%를 보호하는 클라우드플레어 공동 설립. 300개 이상 도시에 걸친 세계 최대 네트워크 중 하나 구축."
-  }
+    "knownFor": "Cloudflare founder; internet security leadership; web infrastructure expertise",
+    "knownForKo": "Cloudflare 창립자; 인터넷 보안 리더십; 웹 인프라 전문성",
+    "philanthropy": "Supports internet freedom and cybersecurity education initiatives",
+    "philanthropyKo": "인터넷 자유 및 사이버 보안 교육 이니셔티브 지원",
+    "controversies": "Faced criticism over content moderation decisions",
+    "controversiesKo": "콘텐츠 중재 결정에 대한 비판에 직면"
+  },
+  "sajuConnection": null
 }

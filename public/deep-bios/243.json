@@ -1,92 +1,63 @@
 {
   "id": "243",
-  "name": "Stanley Druckenmiller",
+  "name": "Sandra Ortega Mera",
   "childhood": {
-    "birthPlace": "Boston, Massachusetts, USA",
-    "birthPlaceKo": "미국 매사추세츠주 보스턴",
-    "familyBackground": "Son of manufacturer and businessman. Family with strong New England business background.",
-    "familyBackgroundKo": "제조업자이자 사업가의 아들. 강한 뉴잉글랜드 사업 배경을 가진 가족",
-    "education": "Boston University (Business Administration)",
-    "educationKo": "보스턴 대학교(경영학)",
-    "earlyLife": "Grew up in Boston with interest in investing and markets. Developed early passion for financial analysis and investment strategy.",
-    "earlyLifeKo": "투자 및 시장에 관심을 가지며 보스턴에서 성장. 금융 분석 및 투자 전략에 대한 초기 열정 개발",
-    "source": "https://www.duquesnes.com"
+    "birthPlace": "Barcelona, Spain",
+    "birthPlaceKo": "스페인 바르셀로나",
+    "familyBackground": "Daughter of Amancio Ortega, founder of Inditex and Zara. Inherited massive wealth and control of one of the world's largest fashion groups.",
+    "familyBackgroundKo": "인디텍스 및 자라의 창업자인 아만시오 오르테가의 딸. 세계 최대 규모의 패션 그룹 중 하나에 대한 막대한 부와 지배권을 상속받음.",
+    "education": "Private education in Spain",
+    "educationKo": "스페인에서의 사립교육",
+    "earlyLife": "Grew up within the Zara fashion empire, witnessing its transformation from regional to global brand. Became actively involved in family business operations.",
+    "earlyLifeKo": "자라 패션 제국 내에서 성장하며 지역 브랜드에서 글로벌 브랜드로의 변신을 목격. 가족 사업 운영에 적극적으로 참여.",
+    "source": "Inditex Corporate History"
   },
   "careerTimeline": [
     {
-      "year": 1986,
-      "event": "Became portfolio manager at Duquesne Capital Management",
-      "eventKo": "Duquesne Capital Management의 포트폴리오 매니저 되기"
+      "year": 1990,
+      "event": "Entered Inditex organization in management capacity",
+      "eventKo": "인디텍스 조직에 경영 역량으로 입직"
     },
     {
       "year": 2000,
-      "event": "Recognized as one of world's greatest investors alongside George Soros",
-      "eventKo": "George Soros와 함께 세계 최고의 투자자 중 한 명으로 인정"
+      "event": "Expanded Zara's international presence during major growth phase",
+      "eventKo": "주요 성장 단계 중 자라의 국제 확장 전개"
     },
     {
       "year": 2010,
-      "event": "Closed Duquesne Capital to focus on personal philanthropic ventures",
-      "eventKo": "개인 자선 벤처에 집중하기 위해 Duquesne Capital 폐쇄"
+      "event": "Became prominent figure in Inditex strategic decisions",
+      "eventKo": "인디텍스 전략적 의사결정의 저명한 인물이 됨"
+    }
+  ],
+  "failures": [],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 8.0
+    },
+    {
+      "year": 2015,
+      "netWorth": 10.5
     },
     {
       "year": 2020,
-      "event": "Active in hedge fund investing and financial market analysis",
-      "eventKo": "헤지펀드 투자 및 금융 시장 분석에 활동 중"
-    }
-  ],
-  "failures": [
-    {
-      "year": 2015,
-      "description": "Market timing challenges in volatile financial markets affected some investment returns",
-      "descriptionKo": "불안정한 금융 시장에서 시장 타이밍 도전이 일부 투자 수익 영향",
-      "lesson": "Maintained disciplined approach to investing with focus on fundamental analysis and long-term value creation",
-      "lessonKo": "기본 분석 및 장기 가치 창출에 초점을 둔 규율 있는 투자 접근 방식 유지",
-      "source": "https://www.duquesnes.com"
-    }
-  ],
-  "wealthHistory": [
-    {
-      "year": 2015,
-      "netWorth": 3.2
+      "netWorth": 11.2
     },
     {
-      "year": 2018,
-      "netWorth": 4.9
-    },
-    {
-      "year": 2021,
-      "netWorth": 6.8
-    },
-    {
-      "year": 2023,
-      "netWorth": 7.8
+      "year": 2025,
+      "netWorth": 11.9
     }
   ],
-  "quotes": [
-    {
-      "text": "The key to successful investing is disciplined thinking and understanding market dynamics",
-      "textKo": "성공적인 투자의 핵심은 규율 있는 생각과 시장 역학 이해입니다",
-      "context": "On investment philosophy and market analysis",
-      "contextKo": "투자 철학 및 시장 분석에 관해",
-      "source": "https://www.duquesnes.com"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "The Intelligent Investor",
-        "author": "Benjamin Graham",
-        "note": "On investment principles and financial analysis",
-        "noteKo": "투자 원칙 및 금융 분석에 관한 책"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Legendary hedge fund manager, investment genius, market analyst, George Soros collaborator",
-    "knownForKo": "전설적 헤지펀드 운용자, 투자 천재, 시장 분석가, George Soros 협력자",
-    "philanthropy": "Supports education and various charitable causes through personal foundation",
-    "philanthropyKo": "개인 재단을 통한 교육 및 다양한 자선 활동 지원",
+    "knownFor": "Silent heir to the Zara empire. Maintains private lifestyle while overseeing significant business interests. Known for strategic thinking in fashion retail.",
+    "knownForKo": "자라 제국의 침묵의 상속인. 중요한 사업 이익을 감독하면서 사적인 생활 방식 유지. 패션 소매 분야의 전략적 사고로 알려짐.",
+    "philanthropy": "Supports cultural and humanitarian causes through family foundations",
+    "philanthropyKo": "가족 재단을 통해 문화 및 인도주의 활동 지원",
     "controversies": null,
     "controversiesKo": null
   },

@@ -1,125 +1,110 @@
 {
   "id": "192",
-  "name": "David Velez",
-  "nameKo": "데이비드 벨레즈",
-  "netWorth": "$13.8B",
-  "nationality": "CO",
-  "industry": "Finance & Investments",
+  "name": "Alisher Usmanov",
+  "nameKo": "알리셰르 우스마노프",
+  "netWorth": "$14.3B",
+  "nationality": "UZ",
+  "industry": "Metals & Mining",
   "childhood": {
-    "birthPlace": "Medellín, Colombia",
-    "birthPlaceKo": "콜롬비아 메데인",
-    "familyBackground": "Born into an entrepreneurial family where his father ran a small factory and many relatives owned businesses. The family fled cartel violence when David was nine years old and migrated to Costa Rica.",
-    "familyBackgroundKo": "아버지가 소규모 공장을 운영하고 많은 친척들이 사업을 하는 기업가 가정에서 태어났다. 9세 때 카르텔 폭력을 피해 가족이 코스타리카로 이주했다.",
-    "education": "B.S. in Management Science and Engineering from Stanford University (2005). MBA from Stanford Graduate School of Business (2012).",
-    "educationKo": "스탠포드 대학교 경영과학 및 공학 학사(2005). 스탠포드 경영대학원 MBA(2012).",
-    "earlyLife": "Born in 1981 in Medellín, Colombia, David Vélez experienced firsthand the impact of cartel violence, which forced his family to relocate to Costa Rica when he was nine. His entrepreneurial family instilled a strong interest in business from an early age. He pursued education at Stanford, where he studied engineering and later earned his MBA. His early career included stints at Goldman Sachs, Morgan Stanley, General Atlantic, and Sequoia Capital focusing on Brazilian markets.",
-    "earlyLifeKo": "1981년 콜롬비아 메데인에서 태어난 데이비드 벨레즈는 카르텔 폭력의 영향을 직접 경험하여 9세 때 가족이 코스타리카로 이주했다. 기업가 가정에서 자라 어린 시절부터 사업에 강한 관심을 가졌다. 스탠포드에서 공학을 전공하고 이후 MBA를 취득했다. 초기 경력에는 골드만삭스, 모건스탠리, 제너럴 애틀랜틱, 세쿼이아 캐피탈에서 브라질 시장을 중심으로 근무했다.",
-    "source": "Wikipedia, Stanford GSB, Sequoia Capital"
+    "birthPlace": "Chust, Uzbekistan",
+    "birthPlaceKo": "우즈베키스탄 추스트",
+    "familyBackground": "Father was a state prosecutor in Tashkent providing a privileged upbringing; mother Dilbar taught Russian language; grew up in the capital Tashkent",
+    "familyBackgroundKo": "아버지는 타슈켄트의 검찰관으로 특권적인 양육 환경 제공; 어머니 딜바르는 러시아어 교사; 수도 타슈켄트에서 성장",
+    "education": "Moscow State Institute of International Relations (MGIMO), graduated 1976 with a degree in International Law; was rejected on first attempt and gained admission the following year",
+    "educationKo": "모스크바 국립국제관계대학교(MGIMO), 1976년 국제법 학위로 졸업; 첫 시험에서 불합격 후 이듬해 합격",
+    "earlyLife": "Born September 9, 1953 in Chust, a provincial town in Uzbekistan, Usmanov grew up in Tashkent where his father was a state prosecutor. Inspired by The Three Musketeers, he developed a passion for fencing as a child and became part of Uzbekistan's national fencing team, earning the title of Master of Sport. Planning a diplomatic career, he moved to Moscow and, after initially failing the entrance exam, was accepted into the prestigious MGIMO university. After graduation, he returned to Tashkent to work in foreign economic relations.",
+    "earlyLifeKo": "1953년 9월 9일 우즈베키스탄 추스트에서 태어나 아버지가 검찰관인 타슈켄트에서 성장했다. '삼총사'에 영감을 받아 어린 시절 펜싱에 대한 열정을 키워 우즈베키스탄 국가대표팀에 선발되어 '스포츠 마스터' 칭호를 받았다. 외교관을 꿈꾸며 모스크바로 이주하여 입학시험에 처음 실패한 후 이듬해 명문 MGIMO에 합격했다. 졸업 후 타슈켄트로 돌아가 대외 경제 관계 분야에서 일했다.",
+    "source": "Wikipedia, Pivot.uz"
   },
   "careerTimeline": [
     {
-      "year": 2004,
-      "event": "Worked at Goldman Sachs as an analyst, gaining his first Wall Street experience",
-      "eventKo": "골드만삭스에서 애널리스트로 근무하며 첫 월스트리트 경험을 쌓음"
+      "year": 1976,
+      "event": "Graduated from MGIMO with a degree in International Law; returned to Tashkent to work in foreign economic relations",
+      "eventKo": "MGIMO에서 국제법 학위를 취득하고 졸업; 타슈켄트로 돌아가 대외 경제 관계 분야에서 근무"
+    },
+    {
+      "year": 1980,
+      "event": "Arrested and convicted on charges of fraud, corruption, and theft of state property in the Uzbek SSR; sentenced to eight years in prison",
+      "eventKo": "우즈베크 SSR에서 사기, 부패, 국가 재산 절도 혐의로 체포 및 유죄 판결; 8년 징역형 선고"
+    },
+    {
+      "year": 1986,
+      "event": "Released from prison after serving six years of his eight-year sentence",
+      "eventKo": "8년 형기 중 6년을 복역하고 출소"
+    },
+    {
+      "year": 2000,
+      "event": "Conviction vacated by the Supreme Court of Uzbekistan, which ruled the original conviction was unjust and evidence was fabricated; built Metalloinvest into Russia's largest iron ore producer",
+      "eventKo": "우즈베키스탄 대법원이 원래 유죄 판결이 부당하고 증거가 조작되었다고 판결하여 유죄를 무효화; 메탈로인베스트를 러시아 최대 철광석 생산업체로 성장시킴"
     },
     {
       "year": 2006,
-      "event": "Joined Morgan Stanley as an analyst for a two-year stint",
-      "eventKo": "모건스탠리에 애널리스트로 입사하여 2년간 근무"
+      "event": "Made early investments in tech companies including Facebook, subsequently becoming one of the social network's largest shareholders",
+      "eventKo": "페이스북을 포함한 기술 기업에 초기 투자하여 소셜 네트워크의 최대 주주 중 하나가 됨"
     },
     {
-      "year": 2010,
-      "event": "Joined Sequoia Capital focusing on investments in Brazilian markets",
-      "eventKo": "세쿼이아 캐피탈에 합류하여 브라질 시장 투자에 집중"
+      "year": 2008,
+      "event": "Purchased the Kommersant publishing house, one of Russia's most influential business newspapers",
+      "eventKo": "러시아에서 가장 영향력 있는 경제 신문 중 하나인 코메르산트 출판사 인수"
     },
     {
-      "year": 2013,
-      "event": "Co-founded Nubank in São Paulo with Cristina Junqueira and Edward Wible, starting from a small house",
-      "eventKo": "상파울루의 작은 집에서 크리스티나 준케이라, 에드워드 위블과 함께 누뱅크 공동 설립"
-    },
-    {
-      "year": 2018,
-      "event": "Nubank reached 5 million customers and became one of Latin America's most valuable fintech startups",
-      "eventKo": "누뱅크가 500만 고객을 달성하며 라틴아메리카에서 가장 가치 있는 핀테크 스타트업 중 하나로 성장"
-    },
-    {
-      "year": 2021,
-      "event": "Led Nubank through its IPO on the NYSE, valued at approximately $45 billion on first trading day; signed the Giving Pledge with his wife",
-      "eventKo": "누뱅크의 뉴욕 증권거래소 상장을 주도, 첫 거래일 약 450억 달러 가치; 아내와 함께 기부 서약(Giving Pledge) 서명"
-    },
-    {
-      "year": 2024,
-      "event": "Nubank surpassed 100 million customers across Brazil, Mexico, and Colombia",
-      "eventKo": "누뱅크가 브라질, 멕시코, 콜롬비아에서 1억 명 이상의 고객 돌파"
+      "year": 2022,
+      "event": "Sanctioned by the European Union, United Kingdom, and United States over the Russia-Ukraine conflict; assets frozen globally",
+      "eventKo": "러시아-우크라이나 분쟁으로 유럽연합, 영국, 미국으로부터 제재; 전 세계적으로 자산 동결"
     }
   ],
   "failures": [
     {
-      "year": 2014,
-      "description": "In Nubank's early days, the company faced severe capital constraints. An avalanche of customer demand arrived but they didn't have the capital to serve all customers who wanted their product. Brazil was also entering its worst recession in 100 years.",
-      "descriptionKo": "누뱅크 초기에 심각한 자본 부족에 직면했다. 고객 수요가 쏟아졌지만 제품을 원하는 모든 고객을 수용할 자본이 없었다. 브라질도 100년 만에 최악의 불황에 진입하고 있었다.",
-      "lesson": "Capital constraints created creativity. The team learned to be resourceful and selective, which built a stronger foundation than unlimited funding would have provided.",
-      "lessonKo": "자본 제약이 창의성을 만들어냈다. 팀은 자원을 효율적으로 사용하고 선별적으로 운영하는 법을 배웠고, 이는 무제한 자금보다 더 강력한 기반을 구축했다.",
-      "source": "Stanford GSB, Building Nubank blog"
+      "year": 1980,
+      "description": "Arrested at age 26 and sentenced to eight years in a remote Uzbek prison on charges of fraud, corruption, and theft of state property. He served six years before being released in 1986. The conviction was later vacated in 2000 by Uzbekistan's Supreme Court.",
+      "descriptionKo": "26세에 체포되어 사기, 부패, 국가 재산 절도 혐의로 외딴 우즈베크 교도소에서 8년형을 선고받았다. 6년을 복역한 후 1986년에 석방되었다. 유죄 판결은 2000년 우즈베키스탄 대법원에 의해 무효화되었다.",
+      "lesson": "The years in prison forged resilience; after release, Usmanov rebuilt himself from nothing and eventually became one of the wealthiest people in the former Soviet Union.",
+      "lessonKo": "감옥에서의 세월은 회복력을 단련시켰다; 석방 후 우스마노프는 무에서 다시 일어나 결국 구소련에서 가장 부유한 인물 중 한 명이 되었다.",
+      "source": "Wikipedia"
     },
     {
       "year": 2022,
-      "description": "After the IPO, Nubank's stock price dropped significantly amid a global tech selloff, falling over 50% from its IPO price and drawing criticism about its valuation.",
-      "descriptionKo": "상장 후 글로벌 기술주 매도 속에서 누뱅크 주가가 IPO 가격 대비 50% 이상 하락하며 기업 가치에 대한 비판을 받았다.",
-      "lesson": "Focused on profitability and customer growth rather than stock price, eventually proving the business model by turning profitable.",
-      "lessonKo": "주가보다 수익성과 고객 성장에 집중하여, 결국 수익을 달성함으로써 비즈니스 모델을 증명했다.",
-      "source": "CNBC, Bloomberg"
+      "description": "Sanctioned by the EU, UK, and US over the Russia-Ukraine conflict. His $600 million superyacht Dilbar was seized in Hamburg, and numerous assets were frozen worldwide. Usmanov claimed he was unfairly targeted as a 'visible symbol.'",
+      "descriptionKo": "러시아-우크라이나 분쟁으로 EU, 영국, 미국의 제재를 받았다. 6억 달러 규모의 슈퍼요트 딜바르가 함부르크에서 압류되었고 전 세계적으로 수많은 자산이 동결되었다. 우스마노프는 자신이 '눈에 띄는 상징'으로 부당하게 표적이 되었다고 주장했다.",
+      "lesson": "The sanctions demonstrated how geopolitical conflicts can immediately impact even billionaires with diversified global assets, regardless of their personal involvement in politics.",
+      "lessonKo": "제재는 지정학적 분쟁이 정치에 대한 개인적 관여와 관계없이 다양한 글로벌 자산을 보유한 억만장자에게도 즉시 영향을 미칠 수 있음을 보여주었다.",
+      "source": "Bloomberg, The Diplomat"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2019,
-      "netWorth": 1.0
+      "year": 2010,
+      "netWorth": 7.2
     },
     {
-      "year": 2021,
-      "netWorth": 9.4
+      "year": 2015,
+      "netWorth": 14.4
+    },
+    {
+      "year": 2020,
+      "netWorth": 12.5
     },
     {
       "year": 2022,
-      "netWorth": 4.5
-    },
-    {
-      "year": 2024,
-      "netWorth": 12.0
+      "netWorth": 18.4
     },
     {
       "year": 2025,
-      "netWorth": 13.8
+      "netWorth": 14.3
     }
   ],
-  "quotes": [
-    {
-      "text": "You want to position yourself in the scarcity of the market, not in the oversupply.",
-      "textKo": "시장의 희소성에 자신을 위치시켜야지, 과잉 공급에 위치해서는 안 된다.",
-      "context": "Advice to entrepreneurs on finding market opportunities where competition is low",
-      "contextKo": "경쟁이 적은 시장 기회를 찾는 것에 대해 기업가들에게 조언하며",
-      "source": "Stanford Graduate School of Business"
-    },
-    {
-      "text": "I remember seeing the avalanche of customers and we didn't have the capital to serve all the customers that actually wanted our product, which is always interesting to see how some of these constraints really create creativity.",
-      "textKo": "고객이 쏟아지는 것을 보았지만 실제로 우리 제품을 원하는 모든 고객을 수용할 자본이 없었다. 이러한 제약이 어떻게 창의성을 만들어내는지 보는 것은 항상 흥미로운 일이다.",
-      "context": "Reflecting on Nubank's early days when demand far outstripped their capital",
-      "contextKo": "수요가 자본을 훨씬 초과했던 누뱅크 초기를 회고하며",
-      "source": "Building Nubank blog"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Disrupting Latin America's traditional banking industry by building Nubank into the world's largest digital bank by customer count. Known for customer-centric approach and using technology to democratize financial services.",
-    "knownForKo": "누뱅크를 고객 수 기준 세계 최대 디지털 은행으로 성장시켜 라틴아메리카의 전통 은행 산업을 혁신했다. 고객 중심 접근 방식과 기술을 활용한 금융 서비스 민주화로 유명하다.",
-    "philanthropy": "Signed the Giving Pledge in August 2021 with his wife, committing to donate the majority of their wealth. In 2022, launched VelezReyes+, a philanthropic platform supporting education, entrepreneurship, and social-impact projects across Latin America.",
-    "philanthropyKo": "2021년 8월 아내와 함께 기부 서약(Giving Pledge)에 서명하여 자산의 대부분을 기부하기로 약속했다. 2022년 라틴아메리카 전역의 교육, 기업가 정신, 사회 영향 프로젝트를 지원하는 자선 플랫폼 VelezReyes+를 출범했다.",
-    "controversies": "Nubank has faced regulatory scrutiny in Brazil regarding its rapid growth and banking practices. Some traditional banks have challenged the fintech's regulatory treatment.",
-    "controversiesKo": "누뱅크는 브라질에서 급속한 성장과 은행 관행에 대한 규제 조사를 받았다. 일부 전통 은행들은 핀테크의 규제 대우에 이의를 제기했다."
+    "knownFor": "Building a metals and mining empire after six years in Soviet prison; early investor in Facebook and other tech companies; ownership of Kommersant newspaper; former Master of Sport in fencing; co-ownership of MegaFon telecommunications",
+    "knownForKo": "소련 교도소에서 6년을 보낸 후 금속 및 광업 제국 건설; 페이스북 및 기타 기술 기업 초기 투자; 코메르산트 신문 소유; 전 펜싱 스포츠 마스터; 메가폰 통신 공동 소유",
+    "philanthropy": "President of the International Fencing Federation (FIE); major supporter of fencing globally; philanthropic activities through the Art, Science and Sport Foundation supporting cultural and educational initiatives in Russia and Uzbekistan",
+    "philanthropyKo": "국제펜싱연맹(FIE) 회장; 전 세계 펜싱의 주요 후원자; 예술·과학·스포츠 재단을 통해 러시아와 우즈베키스탄의 문화·교육 이니셔티브 지원",
+    "controversies": "Sanctioned by EU, UK, and US in 2022 over Russia-Ukraine conflict; controversial six-year imprisonment in Soviet era with disputed circumstances; Craig Murray, former British Ambassador to Uzbekistan, publicly questioned Usmanov's account of his conviction; association with Russian political power structures",
+    "controversiesKo": "2022년 러시아-우크라이나 분쟁으로 EU, 영국, 미국의 제재; 논쟁적인 상황의 소련 시대 6년 투옥; 전 주우즈베키스탄 영국 대사 크레이그 머레이가 유죄 판결에 대한 우스마노프의 설명에 공개적으로 의문 제기; 러시아 정치 권력 구조와의 연관"
   },
   "sajuConnection": null
 }

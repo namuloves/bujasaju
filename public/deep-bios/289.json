@@ -1,110 +1,97 @@
 {
   "id": "289",
-  "name": "Ravi Jaipuria",
-  "nameKo": "라비 자이푸리아",
-  "netWorth": "$10.3B",
-  "nationality": "IN",
-  "industry": "Food & Beverage",
+  "name": "Andrei Guryev",
+  "nameKo": "안드레이 구리예프",
+  "netWorth": "$10.8B",
+  "nationality": "RU",
+  "industry": "Manufacturing",
   "childhood": {
-    "birthPlace": "India",
-    "birthPlaceKo": "인도",
-    "familyBackground": "From a Marwari Hindu business family; father Chunilal Jaipuria was a co-founder of the Bank of Rajasthan; family had business roots in clothing trade",
-    "familyBackgroundKo": "마르와리 힌두교 사업가 가문 출신; 아버지 추닐랄 자이푸리아는 라자스탄 은행의 공동 설립자; 가문은 의류 무역에 뿌리를 둠",
-    "education": "Studied business management in the United States",
-    "educationKo": "미국에서 경영학 수학",
-    "earlyLife": "Born November 28, 1954. Jaipuria grew up in a prominent Marwari business family with deep entrepreneurial roots. His father co-founded the Bank of Rajasthan, giving Ravi early exposure to business and finance. After studying business management in the United States, he returned to India in 1985 and joined the family business, which originally dealt in clothing before he pivoted to beverages.",
-    "earlyLifeKo": "1954년 11월 28일 태어났다. 자이푸리아는 깊은 기업가 전통을 가진 유명한 마르와리 사업가 가문에서 성장했다. 아버지가 라자스탄 은행을 공동 설립하여 라비에게 사업과 금융에 대한 초기 노출을 제공했다. 미국에서 경영학을 공부한 후 1985년 인도로 돌아와 원래 의류를 취급하던 가업에 합류했으나 음료 사업으로 전환했다.",
-    "source": "Wikipedia, Business Standard, Outlook Business"
+    "birthPlace": "Lobnya, Moscow Oblast, Russia",
+    "birthPlaceKo": "러시아 모스크바주 롭냐",
+    "familyBackground": "Born into a modest Russian family. Details about his parents and early family life are not widely documented in public sources.",
+    "familyBackgroundKo": "소박한 러시아 가정에서 태어남. 부모와 초기 가정생활에 대한 세부 사항은 공개 자료에서 널리 기록되어 있지 않다.",
+    "education": "Graduated from the Russian State University of Physical Education, Sport, Youth and Tourism with a degree in physical education and sport (1983); Bachelor's degree in economics from the University of Greenwich (2003); Graduate of the Russian Government Academy of National Economy (2004)",
+    "educationKo": "러시아 국립 체육대학교에서 체육학 학위 취득(1983); 그리니치 대학교에서 경제학 학사(2003); 러시아 정부 국민경제아카데미 졸업(2004)",
+    "earlyLife": "Born on March 24, 1960, in Lobnya, a town 27 kilometers north of Moscow. After completing his degree in physical education, Guryev entered the business world during the tumultuous period of the Soviet Union's collapse, positioning himself within the emerging private sector in the early 1990s.",
+    "earlyLifeKo": "1960년 3월 24일 모스크바에서 북쪽으로 27km 떨어진 롭냐에서 태어났다. 체육학 학위를 마친 후, 구리예프는 소련 붕괴의 격동기에 비즈니스 세계에 진입하여 1990년대 초반 신흥 민간 부문에 자리를 잡았다.",
+    "source": "Wikipedia, Bloomberg, Forbes"
   },
   "careerTimeline": [
     {
-      "year": 1985,
-      "event": "Returned to India from the US and joined the family business, initially involved in clothing trade",
-      "eventKo": "미국에서 인도로 귀국하여 가업에 합류, 처음에는 의류 무역에 종사"
-    },
-    {
-      "year": 1991,
-      "event": "Became a franchisee bottler for PepsiCo, entering the beverage industry that would define his career",
-      "eventKo": "펩시코의 프랜차이즈 보틀러가 되어 그의 경력을 정의할 음료 산업에 진출"
+      "year": 1990,
+      "event": "Joined the Menatep Group, working for Mikhail Khodorkovsky, and served as the group's Deputy Director until 1995",
+      "eventKo": "메나텝 그룹에 합류하여 미하일 호도르코프스키 밑에서 근무, 1995년까지 부이사장 역임"
     },
     {
       "year": 1995,
-      "event": "Founded Varun Beverages as the key vehicle for his PepsiCo bottling operations",
-      "eventKo": "펩시코 보틀링 사업의 핵심 수단으로 바룬 베버리지스 설립"
+      "event": "Became chairman of Apatit, a major phosphate mining subsidiary of the Menatep Group",
+      "eventKo": "메나텝 그룹의 주요 인산염 광업 자회사인 아파티트의 회장이 됨"
     },
     {
-      "year": 2006,
-      "event": "Founded Devyani International as franchisee of Yum! Brands, operating KFC and Pizza Hut outlets across India",
-      "eventKo": "얌! 브랜드의 프랜차이즈로 데비야니 인터내셔널 설립, 인도 전역에서 KFC와 피자헛 매장 운영"
+      "year": 2004,
+      "event": "Acquired Khodorkovsky's stake in PhosAgro at a low price after Khodorkovsky's arrest, gaining control of one of the world's largest phosphate fertilizer producers",
+      "eventKo": "호도르코프스키 체포 후 그의 포스아그로 지분을 낮은 가격에 인수하여 세계 최대 인산염 비료 생산업체 중 하나의 경영권 확보"
     },
     {
-      "year": 2016,
-      "event": "Varun Beverages listed on BSE and NSE after successful IPO, unlocking significant value",
-      "eventKo": "바룬 베버리지스가 성공적인 IPO 후 BSE와 NSE에 상장, 상당한 가치 실현"
+      "year": 2011,
+      "event": "Took PhosAgro public on the London Stock Exchange, raising $565 million in the IPO",
+      "eventKo": "포스아그로를 런던 증권거래소에 상장하여 IPO에서 5억 6,500만 달러 조달"
     },
     {
-      "year": 2021,
-      "event": "Devyani International listed on BSE and NSE; became India's largest Yum! Brands franchisee",
-      "eventKo": "데비야니 인터내셔널이 BSE와 NSE에 상장; 인도 최대 얌! 브랜드 프랜차이즈가 됨"
+      "year": 2013,
+      "event": "Stepped down as CEO of PhosAgro, handing leadership to his son Andrey Guryev Jr.",
+      "eventKo": "포스아그로 CEO에서 물러나 아들 안드레이 구리예프 주니어에게 경영권 이양"
     },
     {
-      "year": 2024,
-      "event": "Varun Beverages expanded internationally and reported revenue exceeding $1.6 billion, becoming one of PepsiCo's largest bottlers outside the US",
-      "eventKo": "바룬 베버리지스가 국제적으로 확장하고 16억 달러 이상의 매출을 기록, 미국 외 펩시코 최대 보틀러 중 하나로 성장"
+      "year": 2022,
+      "event": "Sanctioned by the United Kingdom and New Zealand in response to Russia's invasion of Ukraine",
+      "eventKo": "러시아의 우크라이나 침공에 대한 대응으로 영국과 뉴질랜드의 제재 대상이 됨"
     }
   ],
   "failures": [
     {
-      "year": 1991,
-      "description": "In the early years of the PepsiCo franchise, Jaipuria had to give away equity in his bottling business to Pepsi in order to grow. Many saw this as a weak position, surrendering ownership to a multinational.",
-      "descriptionKo": "펩시코 프랜차이즈 초기, 자이푸리아는 성장을 위해 보틀링 사업의 지분을 펩시에 양도해야 했다. 많은 사람들은 이를 다국적 기업에 소유권을 포기하는 약한 입장으로 보았다.",
-      "lesson": "Giving away equity strategically to enable rapid growth proved to be the right move. Four years later he was in a position to buy back the equity, and the partnership with Pepsi allowed for exponential scaling that would not have been possible alone.",
-      "lessonKo": "빠른 성장을 위해 전략적으로 지분을 양도하는 것이 올바른 결정이었음이 증명되었다. 4년 후 지분을 다시 매입할 수 있는 위치에 올랐으며, 펩시와의 파트너십이 단독으로는 불가능했을 기하급수적 성장을 가능하게 했다.",
-      "source": "Outlook Business"
+      "year": 2022,
+      "description": "Faced international sanctions from the UK, New Zealand, and Japan following Russia's invasion of Ukraine, restricting his access to assets and travel in those jurisdictions.",
+      "descriptionKo": "러시아의 우크라이나 침공 이후 영국, 뉴질랜드, 일본으로부터 국제 제재를 받아 해당 국가에서의 자산 접근과 여행이 제한되었다.",
+      "lesson": "The sanctions highlighted the geopolitical risks faced by Russian oligarchs with international assets and demonstrated how global conflicts can directly impact personal wealth and business operations.",
+      "lessonKo": "제재는 국제 자산을 가진 러시아 올리가르히가 직면하는 지정학적 위험을 부각시켰으며, 글로벌 분쟁이 개인 재산과 사업 운영에 직접적인 영향을 미칠 수 있음을 보여주었다.",
+      "source": "Reuters, BBC"
     }
   ],
   "wealthHistory": [
     {
+      "year": 2012,
+      "netWorth": 3.0
+    },
+    {
       "year": 2016,
-      "netWorth": 1.5
+      "netWorth": 3.5
     },
     {
-      "year": 2019,
-      "netWorth": 2.8
+      "year": 2020,
+      "netWorth": 4.8
     },
     {
-      "year": 2022,
-      "netWorth": 5.5
-    },
-    {
-      "year": 2024,
-      "netWorth": 9.0
+      "year": 2023,
+      "netWorth": 7.5
     },
     {
       "year": 2025,
-      "netWorth": 10.3
+      "netWorth": 10.8
     }
   ],
-  "quotes": [
-    {
-      "text": "The best part of entrepreneurship is the ability to pursue what you want to.",
-      "textKo": "기업가 정신의 가장 좋은 점은 원하는 것을 추구할 수 있는 능력이다.",
-      "context": "Interview discussing his entrepreneurial journey and business philosophy",
-      "contextKo": "자신의 기업가적 여정과 사업 철학에 대한 인터뷰에서",
-      "source": "Outlook Business"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Known as 'India's Cola King'; master franchisee who built a beverage and food empire through PepsiCo and Yum! Brands partnerships; relies on gut feel and invests in people over spreadsheets; deploys dividends from profitable ventures into new businesses",
-    "knownForKo": "'인도의 콜라 왕'으로 알려짐; 펩시코와 얌! 브랜드 파트너십을 통해 음료 및 식품 제국을 건설한 마스터 프랜차이즈; 스프레드시트보다 직감과 사람에 투자; 수익 사업에서 나온 배당금을 새로운 사업에 투입",
-    "philanthropy": "Holds a minority stake in Medanta healthcare; supports education initiatives; involved in community development through RJ Corp's various ventures",
-    "philanthropyKo": "메단타 헬스케어 소수 지분 보유; 교육 이니셔티브 지원; RJ 코프의 다양한 사업을 통한 지역사회 발전에 참여",
-    "controversies": "Questions about market concentration as Varun Beverages dominates PepsiCo bottling in India; scrutiny over rapid expansion and debt levels during growth phase",
-    "controversiesKo": "바룬 베버리지스가 인도에서 펩시코 보틀링을 지배하면서 시장 집중에 대한 의문; 성장기의 급격한 확장과 부채 수준에 대한 조사"
+    "knownFor": "Building PhosAgro into one of the world's top four phosphate-based fertilizer producers; acquiring key assets during Russia's privatization era; owning Witanhurst, London's second-largest private residence after Buckingham Palace",
+    "knownForKo": "포스아그로를 세계 4대 인산염 비료 생산업체 중 하나로 성장시킴; 러시아 민영화 시대에 핵심 자산 인수; 버킹엄 궁전 다음으로 런던에서 두 번째로 큰 개인 저택인 위탄허스트 소유",
+    "philanthropy": "Limited publicly documented philanthropy. PhosAgro as a company has supported various social programs in the regions where it operates.",
+    "philanthropyKo": "공개적으로 기록된 자선 활동은 제한적. 포스아그로는 회사 차원에서 사업 지역의 다양한 사회 프로그램을 지원해왔다.",
+    "controversies": "Sanctioned by the UK (2022), New Zealand (2022), and Japan (2023) over Russia's invasion of Ukraine. Acquisition of PhosAgro assets from imprisoned Khodorkovsky at below-market prices drew criticism. Owns Witanhurst through offshore British Virgin Islands company, raising transparency concerns.",
+    "controversiesKo": "러시아의 우크라이나 침공으로 영국(2022), 뉴질랜드(2022), 일본(2023)의 제재를 받음. 수감된 호도르코프스키로부터 시가 이하로 포스아그로 자산을 인수한 것이 비판을 받음. 영국령 버진아일랜드 역외 회사를 통해 위탄허스트를 소유하여 투명성 우려가 제기됨."
   },
   "sajuConnection": null
 }

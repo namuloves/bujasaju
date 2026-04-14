@@ -1,171 +1,96 @@
 {
   "id": "49",
-  "name": "Stephen Schwarzman",
-  "childhood": {
-    "birthPlace": "Huntingdon Valley, Pennsylvania, USA",
-    "birthPlaceKo": "미국 펜실베이니아 주 헌팅던 밸리",
-    "familyBackground": "Born into a middle-class Jewish family. Father Joseph Schwarzman was a dry goods store owner in Philadelphia who was a Wharton School graduate. Mother Arline. The family valued education and hard work. Schwarzman had two younger twin brothers, Mark and Warren.",
-    "familyBackgroundKo": "중산층 유대인 가족에서 태어남. 아버지 조셉 슈바르츠만은 펜실베이니아 주 필라델피아의 잡화점 소유자로 워튼 스쿨 졸업생. 어머니 에를린. 가족은 교육과 근면함을 중시. 슈바르츠만은 두 명의 어린 쌍둥이 형제인 마크와 워렌이 있었음.",
-    "education": "Graduated from Abington Senior High School in 1965. Completed undergraduate degree in 1969. Attended Harvard Business School, graduating in 1972. His education provided the foundation for understanding finance, economics, and business strategy.",
-    "educationKo": "1965년 애빙턴 시니어 고등학교 졸업. 1969년 학사 학위 취득. 하버드 비즈니스 스쿨 다녀 1972년 졸업. 교육은 금융, 경제학, 비즈니스 전략에 대한 이해의 기초를 제공.",
-    "earlyLife": "At age 14, Schwarzman started his first business venture: a lawn-mowing operation. He employed his younger twin brothers to mow lawns while he focused on customer acquisition and sales. This early entrepreneurial experience taught him about delegation, revenue generation, and building a team—lessons that would define his later career.",
-    "earlyLifeKo": "14세에 슈바르츠만은 첫 번째 사업 벤처인 잔디깎기 사업을 시작. 어린 쌍둥이 형제들을 잔디 깎기에 고용하면서 고객 확보와 판매에 집중. 이 초기 기업가적 경험은 위임, 수익 창출, 팀 구성에 대한 교훈을 가르쳤으며, 이는 나중의 경력을 정의함.",
-    "source": "Wikipedia, Academy of Achievement, Bloomberg, Blackstone"
-  },
+  "name": "Gerard Wertheimer",
+  "nameKo": "제라르 베르트하이머",
+  "childhood": "Gérard Paul Philippe Wertheimer was born on April 17, 1951, in France, into one of the most storied dynasties in luxury fashion. His grandfather Pierre Wertheimer had co-founded the Chanel brand partnership with Coco Chanel in 1924, giving the Wertheimer family a majority ownership stake in what would become the world's most iconic luxury house. Raised alongside his older brother Alain in the quiet knowledge that they would one day inherit this empire, Gérard received a refined French education that prepared him for a life of discreet stewardship over one of the world's most valuable private companies.",
+  "childhoodKo": "제라르 폴 필리프 베르트하이머는 1951년 4월 17일 프랑스에서 명품 패션계의 가장 유서 깊은 가문 중 하나에서 태어났다. 그의 할아버지 피에르 베르트하이머는 1924년 코코 샤넬과 함께 샤넬 브랜드의 파트너십을 공동 창립하며 가문에 세계 최고의 명품 하우스 지분 대부분을 남겼다. 형 알랭과 함께 언젠가 이 제국을 물려받을 것을 조용히 인지하며 자란 제라르는 세계에서 가장 가치 있는 비상장 기업 중 하나를 신중하게 이끌어갈 준비를 하는 고귀한 프랑스식 교육을 받았다.",
   "careerTimeline": [
     {
-      "year": 1969,
-      "event": "Graduates from college and joins Donaldson, Lufkin & Jenrette (DLJ), a major investment banking firm. Begins his professional career in finance learning the fundamentals of mergers and acquisitions.",
-      "eventKo": "대학 졸업 후 주요 투자은행인 도널드슨 루프킨 제너릿(DLJ)에 입사. 금융에서 전문 경력 시작하며 인수합병의 기초를 배움."
+      "year": 1974,
+      "event": "Began his professional involvement in the Chanel business under the guidance of his father Jacques Wertheimer.",
+      "eventKo": "아버지 자크 베르트하이머의 지도하에 샤넬 사업에 전문적으로 참여하기 시작했다."
     },
     {
-      "year": 1972,
-      "event": "Graduates from Harvard Business School with an MBA. Fulfills military service obligation in the Army Reserve. Begins his career at Lehman Brothers investment bank as an analyst.",
-      "eventKo": "하버드 비즈니스 스쿨에서 MBA 취득 후 졸업. 육군 예비역에서 병역 의무 이행. 레만 브라더스 투자은행에서 분석가로 경력 시작."
+      "year": 1980,
+      "event": "Took on expanded responsibilities within Chanel alongside his brother Alain as the brand entered a period of international expansion.",
+      "eventKo": "브랜드가 국제적 확장기에 접어들면서 형 알랭과 함께 샤넬 내 더 많은 역할을 맡게 됐다."
     },
     {
-      "year": 1976,
-      "event": "Made managing director at Lehman Brothers at age 31, becoming one of the youngest managing directors in the firm's history. Appointed head of global mergers and acquisitions, a position that would shape his understanding of leveraged buyouts and private equity.",
-      "eventKo": "31세에 레만 브라더스 이사로 승진하여 회사 역사에서 가장 어린 이사 중 한 명이 됨. 글로벌 인수합병 책임자로 임명되어 레버리지 인수 합병과 사모펀드에 대한 이해를 형성하는 위치에 감."
+      "year": 1996,
+      "event": "Following the death of their father Jacques, Alain and Gérard officially became co-owners of Chanel, inheriting full control of the luxury empire.",
+      "eventKo": "아버지 자크 베르트하이머가 세상을 떠난 후, 알랭과 제라르는 공식적으로 샤넬의 공동 소유자가 되어 명품 제국의 전권을 물려받았다."
     },
     {
-      "year": 1985,
-      "event": "Co-founds Blackstone with Peter G. Peterson with minimal capital. Blackstone is established with two employees, less than half a million dollars in startup cash, and an audacious vision to compete with Wall Street's reigning giants in private equity.",
-      "eventKo": "피터 G. 피터슨과 함께 최소 자본으로 블랙스톤 공동 설립. 블랙스톤은 2명의 직원, 50만 달러 미만의 시작 자본, 월스트리트의 기존 거대 기업들과 사모펀드에서 경쟁하려는 대담한 비전으로 설립됨."
+      "year": 2002,
+      "event": "Chanel's revenues surpassed $2 billion under the Wertheimers' stewardship, fueled by global expansion and the enduring success of Chanel No. 5.",
+      "eventKo": "베르트하이머 형제의 경영 아래 샤넬 매출이 20억 달러를 넘어섰으며, 이는 글로벌 확장과 샤넬 No. 5의 지속적인 인기에 힘입은 것이었다."
     },
     {
-      "year": 1998,
-      "event": "Blackstone completes its first major transaction, establishing itself as a legitimate player in the private equity industry. The firm begins rapid expansion into various investment areas including real estate, hedge funds, and credit.",
-      "eventKo": "블랙스톤이 첫 번째 주요 거래를 완료하여 사모펀드 업계의 정당한 플레이어로 자리잡음. 회사는 부동산, 헤지펀드, 신용 등 다양한 투자 분야로의 빠른 확장 시작."
+      "year": 2015,
+      "event": "Divested Bourjois cosmetics brand to Coty Inc. to sharpen focus on the core Chanel brand and ultra-premium positioning.",
+      "eventKo": "핵심 샤넬 브랜드와 최고급 포지셔닝에 집중하기 위해 부르주아 화장품 브랜드를 코티에 매각했다."
     },
     {
-      "year": 2007,
-      "event": "Blackstone goes public in a landmark IPO, raising $5.4 billion. The firm manages approximately $88 billion in assets at the time, establishing Schwarzman's billionaire status and Blackstone as one of the world's premier alternative investment firms.",
-      "eventKo": "블랙스톤이 54억 달러를 모금하는 역사적인 IPO로 상장. 당시 회사는 약 880억 달러의 자산을 운영하여 슈바르츠만의 억만장자 지위를 확립하고 블랙스톤을 세계 주요 대체 투자 회사 중 하나로 확립."
+      "year": 2018,
+      "event": "Established Chanel Limited as a holding company headquartered in London, bringing greater transparency to the brand's finances with its first public revenue disclosure.",
+      "eventKo": "런던에 지주회사 샤넬 리미티드를 설립해 브랜드 재무를 보다 투명하게 공개하고 처음으로 매출 실적을 발표했다."
     },
     {
-      "year": 2011,
-      "event": "Publishes 'What It Takes: Lessons in the Pursuit of Excellence,' a bestselling memoir detailing his journey from a middle-class background to building one of the world's largest private equity firms. The book provides valuable insights into leadership, failure, and success.",
-      "eventKo": "중산층 배경에서 세계 최대 사모펀드 회사 중 하나를 구축한 여정을 자세히 설명하는 베스트셀러 회고록 '성공의 조건(What It Takes: Lessons in the Pursuit of Excellence)'을 출판. 책은 리더십, 실패, 성공에 대한 귀중한 통찰력 제공."
+      "year": 2022,
+      "event": "Chanel posted revenues of $17.2 billion, a 17% year-on-year increase, confirming Gérard's strategy of maintaining exclusivity and premium pricing.",
+      "eventKo": "샤넬이 전년 대비 17% 증가한 172억 달러의 매출을 기록하며 제라르의 독점성과 프리미엄 가격 전략이 옳았음을 입증했다."
     },
     {
-      "year": 2016,
-      "event": "Blackstone's assets under management exceed $400 billion. Schwarzman becomes increasingly influential in global finance and geopolitics, advising governments and major institutions. His net worth approaches $20 billion.",
-      "eventKo": "블랙스톤의 운영 자산이 4000억 달러를 초과. 슈바르츠만은 글로벌 금융과 지정학에서 점점 더 영향력 있는 인물이 되어 정부와 주요 기관에 조언. 순자산이 200억 달러에 접근."
-    },
-    {
-      "year": 2024,
-      "event": "Blackstone manages $1.2 trillion in assets, making it one of the world's largest alternative investment firms. Schwarzman continues as Chairman and CEO. His net worth reaches $43 billion, solidifying his position as one of the world's wealthiest individuals.",
-      "eventKo": "블랙스톤이 1.2조 달러의 자산을 운영하여 세계 최대 대체 투자 회사 중 하나가 됨. 슈바르츠만은 회장 겸 CEO로 계속 근무. 순자산이 430억 달러에 도달하여 세계에서 가장 부유한 개인 중 한 명으로서의 지위를 확고히 함."
+      "year": 2023,
+      "event": "Named the richest person in Switzerland by Bilanz magazine, with assets estimated at over 42 billion Swiss francs ($47.7 billion).",
+      "eventKo": "스위스 경제지 빌란츠로부터 스위스 최고 부자로 선정되며 자산 규모가 420억 스위스 프랑(약 477억 달러)으로 평가됐다."
     }
   ],
   "failures": [
     {
-      "year": 1983,
-      "description": "At Lehman Brothers, Schwarzman experienced frustration with the hierarchical, limited-partner structure of traditional investment banks. Despite his success as head of M&A, he felt constrained by bureaucratic processes and limited upside potential, leading to his departure and search for a better opportunity.",
-      "descriptionKo": "레만 브라더스에서 슈바르츠만은 전통적 투자은행의 위계적이고 제한된 파트너십 구조로 인한 좌절감을 경험. M&A 책임자로서의 성공에도 불구하고, 관료적 절차와 제한된 상승 가능성으로 인해 제약을 느껴 회사를 떠나고 더 나은 기회를 찾음.",
-      "lesson": "This experience taught Schwarzman the importance of organizational structure and incentive alignment. He learned that even at prestigious firms, bureaucratic constraints can stifle innovation and growth. This lesson directly influenced his decision to create Blackstone with a structure that rewarded partners based on performance and fostered entrepreneurial thinking.",
-      "lessonKo": "이 경험은 슈바르츠만에게 조직 구조와 인센티브 정렬의 중요성을 가르침. 명망 있는 회사에서도 관료적 제약이 혁신과 성장을 억압할 수 있다는 것을 배움. 이 교훈은 성과에 따라 파트너에게 보상하고 기업가적 사고를 조장하는 구조로 블랙스톤을 만들겠다는 결정에 직접적으로 영향을 미침."
+      "title": "World War II Ownership Disputes",
+      "description": "The Wertheimer family history is shadowed by the wartime seizure of Chanel. During the Nazi occupation of France, Coco Chanel attempted to use Nazi laws targeting Jewish businesses to seize full control of the company from the Wertheimer family, who had fled to the United States. The family had preemptively transferred nominal ownership to a French industrialist for protection, successfully preserving their stake — a bitter episode that underscored the fragility of their position.",
+      "titleKo": "2차 세계대전 소유권 분쟁",
+      "descriptionKo": "베르트하이머 가문의 역사에는 전시 샤넬 탈취 시도라는 어두운 그림자가 드리워져 있다. 나치 점령 하의 프랑스에서 코코 샤넬은 유대인 기업을 겨냥한 나치 법규를 이용해 미국으로 피신한 베르트하이머 가문으로부터 회사 전권을 빼앗으려 했다. 가문은 선제적으로 명목상 소유권을 프랑스 사업가에게 이전해 지분을 지켜냈지만, 이 사건은 그들의 입지가 얼마나 취약했는지를 여실히 보여준 쓰라린 경험이었다."
     },
     {
-      "year": 1997,
-      "description": "Schwarzman's investment decision regarding Edgecomb proved problematic. He failed to heed the doubts raised by other team members and proceeded with an investment that ultimately underperformed, resulting in significant financial losses for Blackstone.",
-      "descriptionKo": "슈바르츠만의 에지콤에 대한 투자 결정이 문제가 됨. 다른 팀 멤버들이 제기한 의문을 경청하지 못하고 결국 저조한 성과를 낸 투자를 진행하여 블랙스톤에 상당한 재정적 손실 초래.",
-      "lesson": "Schwarzman later reflected that this failure was an 'enormous gift, a catalyst that changed the course of the organization.' He learned the critical importance of listening to diverse perspectives and implementing more rigorous decision-making frameworks. The experience led Blackstone to establish better analytical processes and a culture where questioning decisions is encouraged.",
-      "lessonKo": "슈바르츠만은 나중에 이 실패가 '거대한 선물이자 조직의 궤적을 바꾼 촉매'였다고 반성. 다양한 관점을 경청하는 것의 중요성과 더 엄격한 의사결정 틀을 구현하는 것을 배움. 이 경험은 블랙스톤이 더 나은 분석 프로세스를 확립하고 의사결정을 질문하는 것이 권장되는 문화를 형성하도록 함."
-    },
-    {
-      "year": 2008,
-      "description": "Blackstone's IPO timing proved challenging as the global financial crisis hit shortly after the firm's public offering in July 2007. The stock price declined significantly, and Schwarzman faced criticism for the IPO's timing and the firm's performance during the crisis.",
-      "descriptionKo": "블랙스톤의 IPO 시기가 도전적으로 판명되었는데, 2007년 7월 회사의 공개 제공 직후 글로벌 금융 위기가 발생. 주가가 크게 하락했고, 슈바르츠만은 IPO의 시기와 위기 기간 회사의 성과에 대해 비판을 받음.",
-      "lessonKo": "블랙스톤의 IPO 시기는 회사의 가치와 투자자의 이익에 영향을 미침. 시장 조건과 경제 주기를 고려한 신중한 타이밍이 중요. 위기 상황에서도 강력한 기업 지배구조와 리더십이 장기 회복력을 결정"
+      "title": "Luxury Sector Slowdown 2024",
+      "description": "After record revenues in 2023 reaching $19.7 billion, Chanel saw revenues dip to $18.7 billion in 2024 amid a broader luxury goods slowdown in China and softer global demand, testing the brand's premium-only strategy and highlighting the risks of concentration in a single luxury brand.",
+      "titleKo": "2024년 명품 시장 둔화",
+      "descriptionKo": "2023년 197억 달러라는 기록적인 매출을 올린 후, 샤넬은 중국의 명품 소비 둔화와 전반적인 수요 약세로 2024년 매출이 187억 달러로 줄어들었다. 이는 단일 명품 브랜드에 집중된 전략의 위험성과 프리미엄 전략의 한계를 시험하는 계기가 됐다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 1985,
-      "netWorth": 0
+      "year": 2010,
+      "amount": 10.0
     },
     {
-      "year": 2000,
-      "netWorth": 2
+      "year": 2015,
+      "amount": 18.0
     },
     {
-      "year": 2007,
-      "netWorth": 8
+      "year": 2019,
+      "amount": 28.0
     },
     {
-      "year": 2016,
-      "netWorth": 19
+      "year": 2021,
+      "amount": 33.0
     },
     {
-      "year": 2024,
-      "netWorth": 43
+      "year": 2022,
+      "amount": 40.0
+    },
+    {
+      "year": 2023,
+      "amount": 47.0
+    },
+    {
+      "year": 2025,
+      "amount": 39.4
     }
   ],
-  "quotes": [
-    {
-      "text": "Failures are enormous gifts, catalysts that change the course of any organization and make it successful in the future.",
-      "textKo": "실패는 거대한 선물이자 모든 조직의 궤적을 바꾸고 미래에 성공하도록 만드는 촉매입니다.",
-      "context": "From 'What It Takes' - Schwarzman's philosophical approach to learning from failures and using them as opportunities for organizational growth and improvement.",
-      "contextKo": "'성공의 조건'에서 - 실패로부터 배우고 그것을 조직 성장과 개선의 기회로 사용하는 슈바르츠만의 철학적 접근.",
-      "source": "What It Takes: Lessons in the Pursuit of Excellence"
-    },
-    {
-      "text": "Once you succeed, people see only the success. If you fail, they see only the failure. Rarely do they see the turning points that could have taken you in a completely different direction. But it's at these inflection points that the most important lessons in business and life are learned.",
-      "textKo": "성공하면 사람들은 성공만 봅니다. 실패하면 실패만 봅니다. 당신을 완전히 다른 방향으로 이끌 수 있는 전환점을 보는 경우는 드뭅니다. 하지만 이러한 변곡점에서 비즈니스와 인생의 가장 중요한 교훈이 배워집니다.",
-      "context": "A reflection on the importance of recognizing critical moments in business and how they shape future success. This quote encapsulates Schwarzman's belief that perspective on failure is crucial.",
-      "contextKo": "비즈니스의 중요한 순간을 인식하는 것의 중요성과 그것이 미래 성공을 어떻게 형성하는지에 대한 반성. 이 인용문은 실패에 대한 관점이 중요하다는 슈바르츠만의 신념을 요약합니다.",
-      "source": "What It Takes: Lessons in the Pursuit of Excellence"
-    },
-    {
-      "text": "At Lehman, my exit showed me Wall Street at its worst—everyone for themselves. I wanted to build something different at Blackstone: a place where exceptional people could do exceptional work and be fairly compensated for it.",
-      "textKo": "레만에서 저의 퇴직은 월스트리트의 최악의 모습을 보여주었습니다. 모두 자신을 위한 것이었습니다. 저는 블랙스톤에서 다른 것을 만들고 싶었습니다: 뛰어난 사람들이 뛰어난 일을 할 수 있고 그에 대해 공정하게 보상받을 수 있는 장소.",
-      "context": "Schwarzman's motivation for founding Blackstone and his commitment to building a different kind of organization with better alignment of interests between leadership and employees.",
-      "contextKo": "블랙스톤 설립의 동기와 리더십과 직원 간의 이익 조정이 더 나은 조직을 만들겠다는 약속.",
-      "source": "What It Takes, interviews"
-    }
-  ],
-  "books": {
-    "authored": [
-      {
-        "title": "What It Takes: Lessons in the Pursuit of Excellence",
-        "note": "Schwarzman's bestselling memoir published in 2019, detailing his rise from middle-class Pennsylvania to building one of the world's largest private equity firms. The book covers his philosophy on leadership, failure, and success.",
-        "noteKo": "2019년 출판된 슈바르츠만의 베스트셀러 회고록으로, 중산층 펜실베이니아에서 세계 최대 사모펀드 회사 중 하나를 건설한 그의 성공기를 자세히 설명. 책은 리더십, 실패, 성공에 관한 철학을 다룸."
-      }
-    ],
-    "recommended": [
-      {
-        "title": "Barbarians at the Gate",
-        "author": "Bryan Burrough and John Helyar",
-        "why": "A classic account of the largest leveraged buyout in history at the time (RJR Nabisco), providing essential context for understanding the private equity industry that Schwarzman entered and revolutionized.",
-        "whyKo": "당시 역사상 가장 큰 레버리지 인수 합병(RJR 나비스코)에 대한 고전적 설명으로, 슈바르츠만이 진입하고 혁신한 사모펀드 업계를 이해하는 데 필수적인 맥락을 제공."
-      },
-      {
-        "title": "The Meritocracy Trap",
-        "author": "Daniel Markovits",
-        "why": "Explores how elite institutions and meritocracy work, relevant to understanding Schwarzman's educational path and his philosophy on building organizations around merit and performance.",
-        "whyKo": "엘리트 기관과 능력주의가 어떻게 작동하는지 탐구하며, 슈바르츠만의 교육 경로와 능력과 성과를 중심으로 조직을 구축하는 철학을 이해하는 데 관련됨."
-      },
-      {
-        "title": "The Triumph of Injustice",
-        "author": "Emmanuel Saez and Gabriel Zucman",
-        "why": "Examines wealth, taxation, and inequality in the modern economy—topics Schwarzman has engaged with through his philanthropic and political involvement.",
-        "whyKo": "현대 경제의 부, 세금, 불평등을 검토하며, 슈바르츠만이 그의 자선 및 정치적 참여를 통해 관여해 온 주제."
-      }
-    ]
-  },
-  "personalTraits": {
-    "knownFor": "Being an exceptionally driven and ambitious businessman with extraordinary attention to detail. Known for his competitive spirit, strategic thinking, and ability to build world-class organizations. Schwarzman is also recognized for his significant philanthropy, particularly his $350 million donation to Harvard Business School and his support of educational initiatives globally.",
-    "knownForKo": "비상한 추진력과 야심 많은 사업가로 알려져 있으며, 세부 사항에 대한 각별한 관심을 가짐. 경쟁 정신, 전략적 사고, 그리고 세계 최고 수준의 조직을 구축하는 능력으로 알려짐. 슈바르츠만은 또한 하버드 비즈니스 스쿨에 3억 5천만 달러를 기부한 것과 전 세계 교육 이니셔티브 지원으로 인정받는 상당한 자선 활동으로 알려짐.",
-    "philanthropy": "Major philanthropist with over $1 billion in charitable giving. Donated $350 million to Harvard Business School (the largest donation in its history at the time). Established the Schwarzman Scholars program providing full scholarships to graduate students at Tsinghua University in Beijing. Supports educational initiatives, arts institutions, and various cultural endeavors globally.",
-    "philanthropyKo": "10억 달러 이상의 자선금 기부자. 하버드 비즈니스 스쿨에 3억 5천만 달러 기부(당시 역사상 가장 큰 기부). 베이징 칭화 대학교 대학원생들에게 전액 장학금을 제공하는 슈바르츠만 장학생 프로그램 설립. 교육 이니셔티브, 예술 기관, 다양한 문화 사업을 전 세계적으로 지원.",
-    "controversies": "Has faced criticism for his substantial influence on U.S. politics and policy through lobbying and donations. His tax optimization strategies at Blackstone have drawn scrutiny from critics concerned about wealth inequality. Some have questioned the concentration of wealth and influence in the hands of private equity leaders. Generally maintains a relatively positive public image compared to other wealthy financiers.",
-    "controversiesKo": "블랙스톤의 부동산 투자 관행과 주택 보유 전략에 대한 비판. 조세 회피 문제와 사모펀드 산업의 규제 논란. 기부금에 대한 세금 공제와 부의 불평등에 대한 사회적 비판."
-  },
-  "controversiesKo": "로비 및 기부를 통한 미국 정치 및 정책에 대한 상당한 영향력으로 비판을 받음. 블랙스톤의 세금 최적화 전략은 부의 불평등에 대한 우려를 가진 비평가들의 정밀 조사를 받음. 사모펀드 리더들의 손에 부와 영향력이 집중되는 것에 대해 의문을 제기하기도 함. 일반적으로 다른 부유한 금융인에 비해 상대적으로 긍정적인 공개 이미지를 유지.",
-  "sajuConnection": {
-    "note": "Leave null.",
-    "value": null
-  }
+  "quotes": [],
+  "books": [],
+  "sajuConnection": null
 }

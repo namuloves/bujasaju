@@ -1,44 +1,74 @@
 {
   "id": "283",
-  "name": "Milane Frantz",
+  "name": "Elizabeth Johnson",
+  "nameKo": "엘리자베스 존슨",
+  "netWorth": "$10.9B",
+  "nationality": "US",
+  "industry": "Finance & Investments",
   "childhood": {
     "birthPlace": "United States",
     "birthPlaceKo": "미국",
-    "familyBackground": "Born 1970, one of four children of Dan Duncan, founder of Enterprise Products Partners. Father founded Enterprise Products in 1968 with $10,000 and two fuel trucks. Grew up in energy industry family.",
-    "familyBackgroundKo": "1970년 출생, Enterprise Products Partners 창립자 댄 던컨의 4명 중 한 명. 아버지는 1968년 $10,000과 2대의 연료 트럭으로 Enterprise Products 설립. 에너지 산업 가족에서 성장.",
-    "education": "University of Houston - Master of Arts degree",
-    "educationKo": "휴스턴 대학교 - 문학 석사",
-    "earlyLife": "Grew up in Houston, Texas. Exposed to energy business operations and midstream energy infrastructure from childhood. Prepared for role in family enterprise.",
-    "earlyLifeKo": "텍사스 휴스턴에서 성장. 어린 시절부터 에너지 비즈니스 운영 및 중류 에너지 기반시설에 노출. 가족 기업의 역할을 위해 준비됨.",
-    "source": "https://en.wikipedia.org/wiki/Milane_Frantz"
+    "familyBackground": "Youngest daughter of Edward 'Ned' Johnson III, former chairman of Fidelity Investments; granddaughter of Edward Johnson II, who founded Fidelity in 1946; sister of Abigail Johnson, current CEO of Fidelity",
+    "familyBackgroundKo": "피델리티 인베스트먼트의 전 회장 에드워드 '네드' 존슨 3세의 막내딸; 1946년 피델리티를 설립한 에드워드 존슨 2세의 손녀; 현 피델리티 CEO 아비게일 존슨의 여동생",
+    "education": "Undergraduate degree from Franklin Pierce College",
+    "educationKo": "프랭클린 피어스 칼리지 학사학위 취득",
+    "earlyLife": "Elizabeth Johnson grew up as part of one of America's most prominent financial dynasties. As the youngest daughter of Edward Johnson III, she was raised in a family where investment management was the defining legacy. Unlike her sister Abigail, who pursued a career leading Fidelity, Elizabeth chose a different path focused on equestrian pursuits and arts patronage.",
+    "earlyLifeKo": "엘리자베스 존슨은 미국의 가장 저명한 금융 왕조 중 하나의 일원으로 성장했다. 에드워드 존슨 3세의 막내딸로서 투자 관리가 가문의 유산인 가정에서 자랐다. 피델리티를 이끄는 경력을 추구한 언니 아비게일과 달리, 엘리자베스는 승마와 예술 후원에 초점을 맞춘 다른 길을 선택했다.",
+    "source": "Bloomberg, InvestmentNews"
   },
   "careerTimeline": [
     {
-      "year": 1990,
-      "event": "Grew up during father Dan Duncan's major expansion of Enterprise Products",
-      "eventKo": "아버지 댄 던컨의 Enterprise Products 대규모 확장 기간 중 성장"
+      "year": 1946,
+      "event": "Grandfather Edward Johnson II founded Fidelity Investments, establishing the family's financial dynasty",
+      "eventKo": "할아버지 에드워드 존슨 2세가 피델리티 인베스트먼트를 설립하여 가문의 금융 왕조를 수립"
     },
     {
-      "year": 2001,
-      "event": "Married Matthew J. Frantz in Harris County, Texas",
-      "eventKo": "텍사스 해리스 카운티에서 매튜 J. 프란츠와 결혼"
+      "year": 1977,
+      "event": "Father Edward Johnson III became chairman of Fidelity, growing it into the world's largest mutual fund company",
+      "eventKo": "아버지 에드워드 존슨 3세가 피델리티 회장이 되어 세계 최대 뮤추얼 펀드 회사로 성장시킴"
     },
     {
-      "year": 2010,
-      "event": "Father Dan Duncan passed away; Milane inherited significant portion of family fortune estimated at $10 billion",
-      "eventKo": "아버지 댄 던컨 서거; 밀라네가 약 100억 달러로 추정되는 가족 재산의 상당 부분 상속"
+      "year": 2000,
+      "event": "Founded Louisburg Farm, a horse stable in Florida, pursuing her passion for equestrian sports",
+      "eventKo": "승마 스포츠에 대한 열정을 추구하며 플로리다에 루이스버그 팜 마굿간 설립"
+    },
+    {
+      "year": 2012,
+      "event": "Net worth estimated at approximately $2.5 billion, derived primarily from her 5.6% stake in FMR (Fidelity's parent company)",
+      "eventKo": "순자산이 약 25억 달러로 추정, 주로 FMR(피델리티 모회사) 지분 5.6%에서 유래"
     },
     {
       "year": 2014,
-      "event": "Husband Matthew J. Frantz passed away; Milane maintains family business interests",
-      "eventKo": "남편 매튜 J. 프란츠 서거; 밀라네가 가족 사업 이익 유지"
+      "event": "Sister Abigail Johnson became CEO of Fidelity, further strengthening the Johnson family's control of the firm",
+      "eventKo": "언니 아비게일 존슨이 피델리티 CEO에 취임, 존슨 가문의 회사 지배력을 더욱 강화"
+    },
+    {
+      "year": 2022,
+      "event": "Father Edward Johnson III passed away at age 91, leaving the family fortune distributed among his children",
+      "eventKo": "아버지 에드워드 존슨 3세가 91세에 별세, 가족 재산이 자녀들에게 분배됨"
     }
   ],
   "failures": [],
   "wealthHistory": [
     {
+      "year": 2012,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 4.0
+    },
+    {
       "year": 2020,
-      "netWorth": 10.3
+      "netWorth": 7.0
+    },
+    {
+      "year": 2023,
+      "netWorth": 9.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 10.9
     }
   ],
   "quotes": [],
@@ -47,12 +77,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Heir to Enterprise Products Partners fortune, midstream energy industry heiress, philanthropist",
-    "knownForKo": "Enterprise Products Partners 재산 상속인, 중류 에너지 산업 상속인, 자선가",
-    "philanthropy": "Board member of Baylor College of Medicine; involved with Hermann Park Conservancy and Duncan Family Foundation",
-    "philanthropyKo": "베일러 의과대학 이사회 위원; 허먼 파크 보전 및 던컨 가족 재단 관여",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Extremely private heiress to the Fidelity fortune; passionate equestrian who founded Louisburg Farm; supports the arts through involvement with the Society of Arts and Crafts in Boston",
+    "knownForKo": "피델리티 재산의 극도로 사적인 상속녀; 루이스버그 팜을 설립한 열정적인 승마인; 보스턴 예술공예협회 활동을 통한 예술 후원",
+    "philanthropy": "Member of the resource council of the Society of Arts and Crafts, a Boston organization dedicated to the American craft movement; supports equestrian and arts organizations",
+    "philanthropyKo": "미국 공예 운동에 헌신하는 보스턴 예술공예협회의 자원위원회 회원; 승마 및 예술 관련 단체 지원",
+    "controversies": "The extreme secrecy surrounding the Johnson family's wealth and Fidelity's private ownership structure has drawn ongoing media scrutiny; wealth primarily inherited rather than self-made",
+    "controversiesKo": "존슨 가문의 재산과 피델리티의 비상장 소유 구조를 둘러싼 극도의 비밀주의가 지속적인 언론의 관심을 받음; 자수성가가 아닌 주로 상속된 재산"
   },
   "sajuConnection": null
 }

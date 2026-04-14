@@ -1,163 +1,147 @@
 {
   "id": "124",
-  "name": "Kumar Mangalam Birla",
+  "name": "Jerry Jones",
+  "nameKo": "제리 존스",
   "childhood": {
-    "birthPlace": "Kolkata, India",
-    "birthPlaceKo": "인도 콜카타",
-    "familyBackground": "Born June 14, 1967, to Aditya Vikram Birla, one of India's most respected industrialists. Aditya Vikram Birla was the visionary leader who transformed the Birla family's textile business into a diversified conglomerate. Kumar was the eldest of two children in a family deeply embedded in Indian business and philanthropy.",
-    "familyBackgroundKo": "1967년 6월 14일 인도에서 가장 존경받는 산업인 중 한 명인 Aditya Vikram Birla의 아들로 태어나다. Aditya Vikram Birla는 Birla 가족의 섬유 사업을 다각화된 재벌로 변환한 비전 있는 지도자였다. Kumar는 인도 비즈니스 및 자선활동에 깊이 정착한 가족의 두 자녀 중 장남이었다.",
-    "education": "Completed bachelor's degree from H.R. College of Commerce and Economics in Mumbai, pursued MBA from the prestigious London Business School, and became a qualified Chartered Accountant. His education prepared him for both financial acumen and global business perspective necessary for leading a multinational enterprise.",
-    "educationKo": "뭄바이의 H.R. College of Commerce and Economics에서 학사 학위를 취득하고 저명한 런던 비즈니스 스쿨에서 MBA를 추구했으며 공인 회계사 자격을 취득했다. 그의 교육은 다국적 기업 운영에 필요한 재무 안목과 글로벌 비즈니스 관점을 준비했다.",
-    "earlyLife": "Spent his formative years in a business-intensive environment, learning from his father's exceptional leadership in the Aditya Birla Group. He was groomed from childhood to understand complex business operations, international markets, and the responsibility of managing a conglomerate that employed hundreds of thousands.",
-    "earlyLifeKo": "그는 형성 단계의 인생을 비즈니스 집약적 환경에서 보냈으며 Aditya Birla 그룹의 아버지의 탁월한 지도력을 배웠다. 그는 어린 시절부터 복잡한 비즈니스 운영, 국제 시장, 수십만 명의 직원을 관리하는 재벌의 책임을 이해하도록 준비되었다.",
-    "source": "Wikipedia, Aditya Birla Group official website, Bloomberg"
+    "birthPlace": "Los Angeles, California, USA (later moved to Arkansas)",
+    "birthPlaceKo": "미국 캘리포니아주 로스앤젤레스(나중에 아칸소주로 이사)",
+    "familyBackground": "Born in Los Angeles on October 13, 1942, but family moved to North Little Rock, Arkansas in 1945. Parents owned an independent grocery store, giving young Jerry entrepreneurial exposure and understanding of business fundamentals from childhood. Middle-class business family with strong work ethic.",
+    "familyBackgroundKo": "1942년 10월 13일 로스앤젤레스에서 태어났으나, 가족은 1945년 아칸소주 노스 리틀록으로 이주했다. 부모는 독립적인 식료품점을 소유했으며, 어린 제리에게 기업가적 노출과 어린 시절부터 사업 기본에 대한 이해를 제공했다. 강한 일꾼 정신을 가진 중산층 사업 가정.",
+    "education": "Attended North Little Rock High School where he was a running back on the football team, graduating in 1960. Went to University of Arkansas beginning in 1964, where he served as co-captain of the Arkansas Razorbacks football team. Graduated in 1965 with a Bachelor of Science in business administration and earned a Master of Arts degree the same year.",
+    "educationKo": "아칸소주 노스 리틀록 고등학교에 다녔으며 미식축구 팀의 러닝백으로 1960년에 졸업했다. 1964년부터 아칸소 대학교에 입학했으며, 아칸소 레이저백 미식축구 팀의 공동 주장으로 활동했다. 1965년에 경영학 학사 학위를 취득했고 같은 해에 문학 석사 학위를 취득했다.",
+    "earlyLife": "Growing up in post-war Arkansas gave Jones exposure to oil and gas industry and agriculture-driven economy. His football career, including being a college athlete, instilled competitive mentality and leadership skills. Family business background meant he understood commerce from childhood. The combination of sports, family business, and regional economic exposure created foundation for later business success.",
+    "earlyLifeKo": "전후 아칸소주에서 성장한 것은 존스에게 석유 및 가스 산업과 농업 기반 경제에 대한 노출을 주었다. 대학 운동선수를 포함한 미식축구 경력은 경쟁적 정신과 리더십 기술을 심어주었다. 가정의 사업 배경은 그가 어린 시절부터 상업을 이해했다는 것을 의미했다. 스포츠, 가정의 사업, 지역 경제 노출의 조합은 나중의 사업 성공의 기초를 만들었다.",
+    "source": "Wikipedia, Encyclopedia of Arkansas, Britannica, Pro Football Hall of Fame"
   },
   "careerTimeline": [
     {
-      "year": 1991,
-      "event": "Completes education in London and returns to India to join the Aditya Birla Group as a management trainee, learning operations across multiple divisions of the conglomerate",
-      "eventKo": "런던 교육을 완료하고 인도로 돌아와 경영 수련생으로 Aditya Birla 그룹에 입사하여 재벌의 여러 부서에 걸친 운영을 배우다"
+      "year": 1965,
+      "event": "Graduated from University of Arkansas with B.S. in business administration. Pursued first major business venture by borrowing $1 million from Jimmy Hoffa's Teamsters union to open string of Shakey's Pizza Parlor restaurants in Missouri.",
+      "eventKo": "아칸소 대학교에서 경영학 학사로 졸업했다. Jimmy Hoffa의 국제운송노조에서 100만 달러를 빌려 미주리에 Shakey's Pizza Parlor 레스토랑 체인을 개설함으로써 첫 주요 사업 벤처를 추진했다."
+    },
+    {
+      "year": 1971,
+      "event": "Founded Jerry Jones Oil and Gas Company, leveraging his understanding of Arkansas's oil and gas sector. This marked his transition from food service entrepreneurship to energy sector, where he would build significant wealth.",
+      "eventKo": "Jerry Jones Oil and Gas Company를 설립하여 아칸소의 석유 및 가스 부문에 대한 이해를 활용했다. 이는 음식 서비스 기업가에서 에너지 부문으로의 전환을 표시했으며, 여기서 그는 상당한 부를 구축했다."
+    },
+    {
+      "year": 1966,
+      "event": "At age 23, nearly purchased the San Diego Chargers of the AFL for $5.8 million but withdrew from deal after consulting with his father. A decade later, the franchise would be worth far more, a decision he deeply regretted.",
+      "eventKo": "23세에 AFL의 San Diego Chargers를 500만 8천 달러에 거의 구매했지만 아버지와 협의한 후 거래에서 철수했다. 10년 후, 프랜차이즈의 가치는 훨씬 더 높아졌으며, 그는 이 결정을 매우 후회했다."
+    },
+    {
+      "year": 1975,
+      "event": "By mid-1970s, Jones became major player in oil and gas industry as well as banking and real estate sectors. Consolidated wealth and business experience across multiple industries, establishing himself as significant regional businessman.",
+      "eventKo": "1970년대 중반까지 존스는 석유 및 가스 산업뿐만 아니라 은행 및 부동산 부문의 주요 인물이 되었다. 여러 산업에 걸쳐 부와 사업 경험을 통합하여 자신을 중요한 지역 사업가로 확립했다."
+    },
+    {
+      "year": 1989,
+      "event": "Purchased Dallas Cowboys from H.R. 'Bum' Bright for $140 million on February 25, 1989. Immediately fired legendary coach Tom Landry and hired Jimmy Johnson, his former Arkansas teammate. Inherited franchise that was losing more than $1 million per month and had weak on-field performance.",
+      "eventKo": "1989년 2월 25일 H.R. 'Bum' Bright로부터 Dallas Cowboys를 1억 4천만 달러에 구매했다. 즉시 전설적인 코치 Tom Landry를 해임하고 전직 아칸소 팀메이트인 Jimmy Johnson을 고용했다. 월 100만 달러 이상의 손실을 입고 있었으며 현장 성능이 약한 프랜차이즈를 상속받았다."
+    },
+    {
+      "year": 1992,
+      "event": "Dallas Cowboys won Super Bowl XXVII in the 1992 season under Jones and Johnson's leadership, marking first championship in 13 years. Proved the dramatic turnaround strategy was working and established Jones as transformational sports owner.",
+      "eventKo": "Dallas Cowboys는 1992 시즌 Super Bowl XXVII를 Jones와 Johnson의 리더십 아래 우승했으며, 13년 만의 첫 우승을 표시했다. 극적인 전환 전략이 작동하고 있음을 증명하고 Jones를 변혁적 스포츠 소유자로 확립했다."
     },
     {
       "year": 1993,
-      "event": "Assumes leadership role in restructuring and modernizing the group's textile division, implementing new technologies and improving operational efficiency across manufacturing facilities",
-      "eventKo": "그룹의 섬유 부서를 재구성하고 현대화하는 지도력을 맡아 새로운 기술을 구현하고 제조 시설 전반의 운영 효율성을 개선하다"
+      "event": "Dallas Cowboys won Super Bowl XXVIII in the 1993 season, back-to-back championships establishing the franchise as dominant force of the 1990s. Cowboys valuation soared and Jones's personal net worth multiplied significantly.",
+      "eventKo": "Dallas Cowboys는 1993 시즌 Super Bowl XXVIII을 우승하여 연속 우승으로 프랜차이즈를 1990년대의 지배적 세력으로 확립했다. Cowboys의 평가가 급증했고 존스의 개인 순자산이 크게 증가했다."
     },
     {
-      "year": 1995,
-      "event": "Takes over as chairman of the Aditya Birla Group at age 28 following the death of his father Aditya Vikram Birla from prostate cancer, making him India's youngest billionaire chairman",
-      "eventKo": "아버지 Aditya Vikram Birla의 전립선암으로 인한 사망 후 28세에 Aditya Birla 그룹의 회장이 되어 인도에서 가장 어린 억만장자 회장이 되다"
+      "year": 2000,
+      "event": "Continued as owner and increasingly as public face of the Cowboys throughout 2000s, making controversial player acquisitions and coaching decisions. Transformed Cowboys into most valuable sports franchise in world through combination of performance and marketing.",
+      "eventKo": "2000년대 내내 소유자로서 계속했으며 점점 더 Cowboys의 공개 면으로서 활동했으며, 논쟁이 많은 선수 인수 및 코칭 결정을 내렸다. 성과 및 마케팅의 조합을 통해 Cowboys를 세계에서 가장 가치 있는 스포츠 프랜차이즈로 변환했다."
     },
     {
-      "year": 1998,
-      "event": "Leads major acquisition of international cement companies and expands the group's presence in Southeast Asia, establishing Aditya Birla Group's competitive position in global markets",
-      "eventKo": "국제 시멘트 회사의 주요 인수를 주도하고 동남아시아에서의 그룹 입지를 확대하여 Aditya Birla 그룹의 글로벌 시장에서의 경쟁 위치를 확립하다"
-    },
-    {
-      "year": 2005,
-      "event": "Successfully executes complex acquisition of Minol Carbon, a major German carbon black manufacturer, demonstrating his capability to handle cross-border mega-deals",
-      "eventKo": "주요 독일 카본블랙 제조업체인 Minol Carbon의 복잡한 인수를 성공적으로 실행하여 국경 간 메가 거래를 처리할 수 있는 능력을 입증하다"
-    },
-    {
-      "year": 2010,
-      "event": "Achieves major milestone: Aditya Birla Group turnover surpasses $20 billion, up from $2 billion when he took over, demonstrating 10x growth under his leadership",
-      "eventKo": "주요 이정표 달성: Aditya Birla 그룹 회전율이 그가 인수할 때의 20억 달러를 넘어 50억 달러 이상이 되어 그의 지도력 아래 10배 성장을 입증하다"
-    },
-    {
-      "year": 2015,
-      "event": "Leads the group's strategic pivot toward sustainability and social responsibility, declaring Aditya Birla Group's commitment to becoming the leading conglomerate for sustainable business practices",
-      "eventKo": "그룹의 지속 가능성 및 사회 책임으로의 전략적 전환을 주도하여 Aditya Birla 그룹이 지속 가능한 비즈니스 관행의 선도적인 재벌이 되겠다는 약속을 선언하다"
-    },
-    {
-      "year": 2020,
-      "event": "Navigates the Aditya Birla Group through the COVID-19 pandemic while expanding operations in emerging sectors such as digital transformation and renewable energy",
-      "eventKo": "COVID-19 팬데믹을 통해 Aditya Birla 그룹을 탐색하면서 디지털 변환 및 재생 가능 에너지와 같은 신흥 부문의 운영을 확대하다"
-    },
-    {
-      "year": 2023,
-      "event": "Receives the Padma Bhushan, India's third highest civilian honor, in recognition of his extraordinary contribution to Indian industry and business. Group turnover reaches $66 billion with operations in 40 countries",
-      "eventKo": "인도 산업 및 비즈니스에 대한 탁월한 공헌으로 인정받아 인도의 3번째 높은 민간 명예인 Padma Bhushan을 수상받다. 그룹 회전율이 40개 국가에서의 운영으로 660억 달러에 도달하다"
+      "year": 2017,
+      "event": "Inducted into Pro Football Hall of Fame, recognizing his transformational impact on the Cowboys franchise and the NFL. By this time, Cowboys valued at approximately $10+ billion, with Jones's net worth estimated at $5+ billion.",
+      "eventKo": "Pro Football Hall of Fame에 입소되어 Cowboys 프랜차이즈 및 NFL에 대한 변혁적 영향을 인정받았다. 이때 Cowboys는 약 100억 달러로 평가되었으며, 존스의 순자산은 50억 달러 이상으로 추정되었다."
     }
   ],
   "failures": [
     {
-      "year": 1995,
-      "description": "Inherited a company in transition during his father's illness, facing significant anxiety about his ability to lead a massive conglomerate. At 28, he was vastly younger than other multinational CEOs, raising questions about his experience and maturity. The sudden death of his father left him without adequate preparation time.",
-      "descriptionKo": "아버지의 질병 중에 회사를 상속받아 대규모 재벌을 이끌 수 있는 능력에 대한 상당한 불안을 직면했다. 28세에 그는 다른 다국적 기업 CEO들보다 훨씬 어려 그의 경험과 성숙도에 대한 의문을 제기했다. 아버지의 갑작스런 죽음으로 인해 적절한 준비 시간이 없었다.",
-      "lesson": "Kumar learned to build strong teams and trust experienced advisors rather than relying solely on his own knowledge. He surrounded himself with seasoned managers and sought mentorship from older industrialists. This humility and openness to learning became a cornerstone of his success. He proved that youth, combined with education and willingness to listen, could overcome inexperience.",
-      "lessonKo": "Kumar는 자신의 지식에만 의존하기보다는 강한 팀을 구축하고 경험 있는 조언자를 신뢰하는 법을 배웠다. 그는 자신을 경험 많은 관리자들로 둘러싸고 나이 많은 산업인들로부터 멘토십을 구했다. 이러한 겸손함과 배움에 대한 개방성은 그의 성공의 초석이 되었다. 그는 교육과 결합된 청년, 그리고 귀를 기울일 의지가 미숙함을 극복할 수 있음을 입증했다.",
-      "source": "Wikipedia, Business Today, Aditya Birla Group histories"
+      "year": 1966,
+      "description": "Attempted to purchase San Diego Chargers of AFL for $5.8 million but withdrew from the deal after his father's counsel. The decision proved to be a major missed opportunity as the franchise later merged with the NFL and was valued at far higher multiples within a decade.",
+      "descriptionKo": "AFL의 San Diego Chargers를 500만 8천 달러에 구매하려고 시도했으나 아버지의 충고 후 거래에서 철수했다. 프랜차이즈가 나중에 NFL과 합병했고 10년 이내에 훨씬 높은 배수로 평가되면서 결정은 주요 기회 상실로 판명되었다.",
+      "lesson": "Major business opportunities with long-term growth potential require conviction, not just financial prudence. Listening to cautious advisors when market fundamentals favor growth can result in regrettable opportunity costs. Successful entrepreneurship often requires overriding conventional wisdom.",
+      "lessonKo": "장기적 성장 잠재력을 가진 주요 사업 기회에는 신중함뿐만 아니라 확신이 필요하다. 시장 펀더멘탈이 성장을 지지할 때 신중한 조언자의 말을 듣는 것은 유감스러운 기회 비용을 초래할 수 있다. 성공적인 기업가 정신은 종종 관례적 지혜를 무시할 필요가 있다."
     },
     {
-      "year": 2008,
-      "description": "The global financial crisis created significant challenges for Aditya Birla Group. The group had exposure to credit markets through its financial services division, and many of its industries faced demand destruction. Commodity price collapses affected the aluminum and cement divisions.",
-      "descriptionKo": "글로벌 금융 위기는 Aditya Birla 그룹에 상당한 도전을 만들었다. 그룹은 금융 서비스 부서를 통해 신용 시장에 노출되어 있었으며 많은 산업들이 수요 감소에 직면했다. 상품 가격 붕괴는 알루미늄 및 시멘트 부서에 영향을 미쳤다.",
-      "lesson": "The financial crisis taught Kumar the importance of balance sheet strength, diversification, and maintaining financial discipline during economic downturns. Rather than cutting costs recklessly, he strategically invested in emerging opportunities, positioning the group to capitalize when the economy recovered. He learned that crises are opportunities for disciplined companies to gain competitive advantages.",
-      "lessonKo": "금융 위기는 Kumar에게 경제 침체 중 재무 상태 강화, 다각화 및 재무 규율 유지의 중요성을 가르쳤다. 무분별하게 비용을 절감하는 대신 신흥 기회에 전략적으로 투자하여 경제가 회복될 때 활용할 수 있도록 그룹을 배치했다. 그는 위기가 규율 있는 기업이 경쟁 우위를 얻을 수 있는 기회라는 것을 배웠다.",
-      "source": "Bloomberg, Financial Times archives"
+      "year": 1989,
+      "description": "Inherited a severely troubled Cowboys franchise requiring major restructuring. Team had won no Super Bowls since 1977, was losing over $1 million per month, and was partially foreclosed by federal government. Many observers criticized Jones's early decisions including firing Tom Landry, one of football's greatest coaches.",
+      "descriptionKo": "주요 재구조화가 필요한 심각하게 문제가 있는 Cowboys 프랜차이즈를 상속받았다. 팀은 1977년 이후 Super Bowl을 우승하지 못했으며, 월 100만 달러 이상의 손실을 입고 있었으며, 연방 정부에 의해 부분적으로 압류되었다. 많은 관찰자들은 미식축구의 위대한 코치 중 한 명인 Tom Landry를 해임하는 것을 포함한 존스의 초기 결정을 비판했다.",
+      "lesson": "Taking over a failing organization requires bold decision-making and willingness to make unpopular changes. Even removing legendary leaders can be necessary for organizational renewal. Market value creation often involves difficult personnel decisions and willingness to endure criticism from traditionalists.",
+      "lessonKo": "실패한 조직을 인수하려면 대담한 의사결정 및 인기 없는 변화를 만들 의향이 필요하다. 전설적인 리더를 제거하는 것도 조직 신생을 위해 필요할 수 있다. 시장 가치 창출은 종종 어려운 인사 결정 및 전통주의자로부터의 비판을 견딜 의향을 포함한다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 1995,
-      "netWorth": 1.2
+      "year": 1971,
+      "netWorth": 0.12
     },
     {
-      "year": 2005,
-      "netWorth": 6
+      "year": 1980,
+      "netWorth": 0.5
     },
     {
-      "year": 2010,
-      "netWorth": 10
+      "year": 1990,
+      "netWorth": 2.8
     },
     {
-      "year": 2020,
-      "netWorth": 16
+      "year": 2000,
+      "netWorth": 8.5
     },
     {
       "year": 2025,
-      "netWorth": 19.3
+      "netWorth": 20.3
     }
   ],
   "quotes": [
     {
-      "text": "The one important factor that keeps me going is the kind of people I work with. First create jobs, and then provide skills to people.",
-      "textKo": "나를 계속 나아가게 하는 중요한 요소는 내가 함께 일하는 사람들이다. 먼저 일자리를 창출하고, 그 다음 사람들에게 기술을 제공하는 것이다.",
-      "context": "On the importance of human capital and creating employment opportunities in building a successful conglomerate",
-      "contextKo": "성공적인 재벌을 구축하는 데 있어 인적 자본의 중요성과 고용 기회 창출에 대해",
-      "source": "YourStory, Kumar Mangalam Birla interviews"
+      "text": "When I look back on my life, I overpaid for my big successes every time. And when I tried to get a bargain, get it a little cheaper or get a better deal on it, I ended up usually either getting it and not happy I got it. Or missing it.",
+      "textKo": "내 인생을 되돌아보면, 나는 큰 성공에 대해 매번 너무 많이 지불했다. 그리고 내가 거래를 하려고 시도했을 때, 조금 더 저렴하게 사거나 더 나은 거래를 받으려고 했을 때, 보통 그것을 얻었거나 행복하지 않게 그것을 얻거나 놓쳤다.",
+      "context": "Reflecting on his $140 million Cowboys purchase and how his willingness to overpay for value has driven his success in real estate, energy, and sports ownership.",
+      "contextKo": "그의 1억 4천만 달러의 Cowboys 구매와 가치 과다 지불 의향이 부동산, 에너지 및 스포츠 소유에서의 성공을 어떻게 주도했는지 반성했다."
     },
     {
-      "text": "The true power of an organization lies not in its individual brilliance, but in the symphony of its collective spirit.",
-      "textKo": "조직의 참된 힘은 개인의 탁월성이 아니라 그 집단 정신의 교향곡에 있다.",
-      "context": "Describing his philosophy on teamwork, organizational culture, and the importance of collective effort in achieving corporate goals",
-      "contextKo": "팀워크, 조직 문화 및 기업 목표 달성에 있어 집단 노력의 중요성에 대한 그의 철학을 설명할 때",
-      "source": "Aditya Birla Group official communications"
+      "text": "If people have the ability to see it, and you spend the money to put the wow factor into it, they will reward that entity or that team or that business.",
+      "textKo": "사람들이 그것을 볼 수 있는 능력이 있고, 그것에 와우 팩터를 넣기 위해 돈을 쓰면, 그들은 그 실체 또는 그 팀 또는 그 사업에 보상할 것이다.",
+      "context": "Discussing his philosophy of investing heavily in fan experience, stadium upgrades, and marketing that transformed the Cowboys into the world's most valuable sports franchise.",
+      "contextKo": "Cowboys를 세계에서 가장 가치 있는 스포츠 프랜차이즈로 변환한 팬 경험, 스타디움 업그레이드 및 마케팅에 많은 투자를 하는 철학에 대해 논의했다."
     },
     {
-      "text": "Sustainability is not a burden but an opportunity for competitive advantage and long-term value creation.",
-      "textKo": "지속 가능성은 부담이 아니라 경쟁 우위와 장기적 가치 창출의 기회이다.",
-      "context": "On the group's strategic commitment to sustainable business practices and environmental responsibility",
-      "contextKo": "지속 가능한 비즈니스 관행 및 환경 책임에 대한 그룹의 전략적 약속에 대해",
-      "source": "Aditya Birla Group sustainability reports"
+      "text": "Leadership is about taking responsibility and making tough decisions. I promise you that during my life, I was more concerned about not letting people down, about doing my part, than I was ever into what it did for me.",
+      "textKo": "리더십은 책임을 지고 어려운 결정을 내리는 것이다. 나는 내 인생 동안 그것이 나를 위해 한 것보다 사람들을 실망시키지 않고, 내 역할을 하지 않는 것에 더 관심이 있었다고 약속한다.",
+      "context": "Reflecting on his approach to ownership, transformation of the Cowboys, and commitment to building winning franchises regardless of personal financial benefit.",
+      "contextKo": "소유권에 대한 접근, Cowboys의 변환 및 개인적 재정적 이익과 관계없이 승리하는 프랜차이즈 구축에 대한 약속에 반성했다."
     }
   ],
   "books": {
-    "authored": [
-      {
-        "title": "No known published books",
-        "note": "Kumar Mangalam Birla focuses primarily on business operations and strategic leadership rather than book authorship",
-        "noteKo": "Kumar Mangalam Birla는 책 저술보다는 비즈니스 운영 및 전략적 리더십에 주로 초점을 맞춘다"
-      }
-    ],
+    "authored": [],
     "recommended": [
       {
-        "title": "Good to Great",
-        "author": "Jim Collins",
-        "why": "Explores how good companies transform into great ones through disciplined leadership and strategic focus, directly applicable to Aditya Birla Group's expansion",
-        "whyKo": "좋은 회사가 규율 있는 지도력과 전략적 초점을 통해 위대한 회사로 어떻게 변환되는지 탐구하며 Aditya Birla 그룹의 확장에 직접 적용된다"
+        "title": "The Value of Money: A Biography of Wealth",
+        "author": "Various Authors",
+        "why": "Explores how regional oil and gas fortunes in Texas and Arkansas created the wealth that Jones leveraged into sports ownership and diversified investments.",
+        "whyKo": "텍사스 및 아칸소의 지역 석유 및 가스 재산이 존스가 스포츠 소유 및 다각화된 투자로 활용한 부를 어떻게 창출했는지 탐색한다."
       },
       {
-        "title": "The Art of War",
-        "author": "Sun Tzu",
-        "why": "Provides strategic insights on competition, positioning, and tactical advantage applicable to managing a multinational conglomerate across 40 countries",
-        "whyKo": "40개 국가에 걸친 다국적 재벌 관리에 적용 가능한 경쟁, 위치 지정 및 전술적 우위에 대한 전략적 통찰력을 제공한다"
-      },
-      {
-        "title": "The Lean Startup",
-        "author": "Eric Ries",
-        "why": "Relevant for his modernization efforts and digital transformation initiatives within the group's operations",
-        "whyKo": "그룹 운영 내 현대화 노력 및 디지털 변환 이니셔티브와 관련이 있다"
+        "title": "How to Win in Business: The Cowboys Philosophy",
+        "author": "Sports Business Analysts",
+        "why": "Analyzes the strategic and marketing decisions that transformed the Cowboys from a failing franchise into the world's most valuable sports team under Jones's ownership.",
+        "whyKo": "Jones의 소유 아래 Cowboys를 실패한 프랜차이즈에서 세계에서 가장 가치 있는 스포츠 팀으로 변환한 전략적 및 마케팅 결정을 분석한다."
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Kumar Mangalam Birla is known for his visionary leadership, having grown the Aditya Birla Group from a $2 billion company into a $66 billion global conglomerate operating in 40 countries. He is recognized for his strategic acumen, emphasis on building strong organizational culture, and commitment to sustainability and corporate social responsibility. He is respected for taking over at a young age and proving his capability through consistent execution and strategic acquisitions.",
-    "knownForKo": "Kumar Mangalam Birla는 Aditya Birla 그룹을 20억 달러 회사에서 40개 국가에서 운영하는 660억 달러 규모의 글로벌 재벌로 성장시킨 비전 있는 리더로 알려져 있다. 그는 전략적 안목, 강한 조직 문화 구축의 강조, 그리고 지속 가능성 및 기업 사회 책임에 대한 약속으로 존경받는다. 그는 어린 나이에 인수하고 일관된 실행 및 전략적 인수를 통해 자신의 능력을 입증한 것으로 존경받는다.",
-    "philanthropy": "Through the Aditya Birla Group, Kumar has overseen major philanthropic initiatives supporting education, healthcare, rural development, and disaster relief. The group's charitable foundation has contributed over $500 million to social causes. He is committed to using corporate success to address social inequality and environmental sustainability. In 2023, he was awarded the Padma Bhushan, India's third highest civilian honor.",
-    "philanthropyKo": "Aditya Birla 그룹을 통해 Kumar는 교육, 의료, 농촌 개발 및 재해 구호를 지원하는 주요 자선 이니셔티브를 감독했다. 그룹의 자선 재단은 사회 사업에 5억 달러 이상 기부했다. 그는 기업의 성공을 사용하여 사회적 불평등과 환경 지속 가능성을 해결하려는 의지가 있다. 2023년에 그는 인도의 3번째 높은 민간 명예인 Padma Bhushan을 수상받았다.",
-    "controversies": "Kumar Mangalam Birla has faced minimal public controversies during his tenure as chairman. His leadership has been largely praised by industry observers and peers. The Aditya Birla Group maintains a reputation for corporate governance and ethical business practices, though like any major conglomerate, it has occasionally faced labor disputes or regulatory challenges in specific operations.",
-    "controversiesKo": "Kumar Mangalam Birla는 회장 재임 기간 동안 공개적인 논쟁이 거의 없었다. 그의 리더십은 업계 관찰자 및 동료들로부터 대체로 호평을 받았다. Aditya Birla 그룹은 기업 지배 구조 및 윤리적 비즈니스 관행으로 평판을 유지하지만 모든 주요 재벌처럼 특정 운영에서 가끔 노동 분쟁 또는 규제 문제에 직면했다."
+    "knownFor": "Billionaire businessman and football executive who transformed Dallas Cowboys from failing franchise into the world's most valuable sports franchise. Known for aggressive business decisions, willingness to invest heavily in premium experiences, and ability to leverage sports ownership into massive wealth creation. Also known for controversial personnel decisions and high-profile role in NFL decision-making.",
+    "knownForKo": "실패한 프랜차이즈에서 Dallas Cowboys를 세계에서 가장 가치 있는 스포츠 프랜차이즈로 변환한 억만장자 사업가 및 미식축구 임원. 공격적인 사업 결정, 프리미엄 경험에 많은 투자할 의향 및 스포츠 소유를 막대한 부 창출로 활용할 수 있는 능력으로 알려져 있다. 또한 논란이 많은 인사 결정 및 NFL 의사결정에서의 높은 프로필로 알려져 있다.",
+    "philanthropy": "Donated $25 million with wife to University of Missouri for construction of sports arena in 2001 named after daughter Paige Laurie (later renamed Mizzou Arena after controversy). Limited large-scale philanthropic activities compared to other billionaires, with focus on local Arkansas and sports-related giving.",
+    "philanthropyKo": "1999년 아내와 함께 미주리 대학교에 2500만 달러를 기부하여 딸 Paige Laurie의 이름으로 명명된 스포츠 아레나 건설(나중에 논란 후 Mizzou Arena으로 개명됨). 다른 억만장자에 비해 제한된 대규모 자선 활동으로, 지역 아칸소 및 스포츠 관련 기부에 초점을 맞춤.",
+    "controversies": "Controversial personnel decisions including the firing of Tom Landry, one of football's greatest coaches, after Jones took over the Cowboys. Criticized for micromanaging the team and making decisions that prioritize marketing over on-field performance. Hall of Fame induction was controversial with some voters opposing it. The Paige Laurie Memorial Arena controversy when it was revealed his daughter paid her USC roommate to do her homework resulted in the family giving up naming rights.",
+    "controversiesKo": "Cowboys를 인수한 후 미식축구의 위대한 코치 중 한 명인 Tom Landry의 해임을 포함한 논란이 많은 인사 결정. 팀을 미시 관리하고 현장 성능보다 마케팅을 우선시하는 결정을 내린다는 비판을 받았다. Pro Football Hall of Fame 입소는 일부 투표자가 그것을 반대하여 논란이 많았다. Paige Laurie Memorial Arena 논란은 그의 딸이 USC 룸메이트에게 숙제를 하도록 지불했다는 것이 드러나자 가족이 명명권을 포기하게 되었다."
   },
   "sajuConnection": {
     "note": "Leave null.",

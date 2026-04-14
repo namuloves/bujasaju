@@ -1,94 +1,91 @@
 {
   "id": "380",
-  "name": "Sanjiv Goenka",
+  "name": "Les Wexner",
   "childhood": {
-    "birthPlace": "Kolkata, India",
-    "birthPlaceKo": "콜카타, 인도",
-    "familyBackground": "Prominent Indian business family with textile and industrial heritage. Father was major industrialist.",
-    "familyBackgroundKo": "섬유 및 산업 유산을 가진 저명한 인도 사업 가족. 아버지는 주요 산업가였습니다.",
-    "education": "Studied engineering and business at Indian institutes",
-    "educationKo": "인도 기관에서 엔지니어링 및 비즈니스 공부",
-    "earlyLife": "Joined family conglomerate (RPSG Group) in 1990s. Expanded business across textiles, power, and infrastructure.",
-    "earlyLifeKo": "1990년대 가족 대형 기업 (RPSG Group)에 입사했습니다. 섬유, 전력 및 인프라 전반에 걸쳐 사업 확장했습니다.",
-    "source": "rpsggroup.com"
+    "birthPlace": "Dayton, Ohio, USA",
+    "birthPlaceKo": "미국 오하이오주 데이턴",
+    "familyBackground": "Wexner was born into a family with retail and business interests in Ohio. His parents ran a small women's clothing store.",
+    "familyBackgroundKo": "웩스너는 오하이오의 소매 및 비즈니스 관심을 가진 가족에 태어났다. 그의 부모는 작은 여성 의류점을 운영했다.",
+    "education": "Ohio State University",
+    "educationKo": "오하이오 주립 대학교",
+    "earlyLife": "Wexner took over his parents' clothing store and transformed it into Limited Brands, a major fashion retail empire. He became one of America's most successful fashion retailers.",
+    "earlyLifeKo": "웩스너는 부모의 의류점을 인수하고 주요 패션 소매 제국인 Limited Brands로 변환했다.",
+    "source": "https://www.forbes.com/billionaires"
   },
   "careerTimeline": [
     {
-      "year": 1995,
-      "event": "Took leadership role in family RPSG Group conglomerate",
-      "eventKo": "가족 RPSG Group 대형 기업에서 리더십 역할 수행"
+      "year": 1963,
+      "event": "Took over parents' clothing store and expanded it aggressively",
+      "eventKo": "부모의 의류점을 인수하고 적극적으로 확장"
+    },
+    {
+      "year": 1982,
+      "event": "Launched Victoria's Secret, transforming the intimate apparel industry",
+      "eventKo": "빅토리아 시크릿 출시, 친밀한 의류 산업 변환"
     },
     {
       "year": 2005,
-      "event": "Expanded into power generation and infrastructure sectors",
-      "eventKo": "전력 생성 및 인프라 부문으로 확장"
-    },
-    {
-      "year": 2010,
-      "event": "Diversified into real estate, hospitality, and sports franchises",
-      "eventKo": "부동산, 환대 및 스포츠 프랜차이즈로 다각화"
-    },
-    {
-      "year": 2018,
-      "event": "RPSG Group became major Indian conglomerate across multiple sectors",
-      "eventKo": "RPSG Group이 여러 부문에 걸쳐 주요 인도 대형 기업이 됨"
+      "event": "Stepped back from daily operations while remaining shareholder",
+      "eventKo": "일일 운영에서 물러났지만 주주로 남음"
     }
   ],
   "failures": [
     {
-      "year": 2012,
-      "description": "Power sector faced regulatory challenges and tariff pressures; infrastructure projects experienced delays",
-      "descriptionKo": "전력 부문이 규제 문제 및 요금 압력 직면; 인프라 프로젝트가 지연 경험",
-      "lesson": "Learned importance of regulatory expertise and government relations in infrastructure",
-      "lessonKo": "인프라의 규제 전문성 및 정부 관계의 중요성을 배웠습니다",
-      "source": "india-business.com"
+      "year": 2001,
+      "description": "Several expansion initiatives faced market challenges and failed to meet expectations",
+      "descriptionKo": "여러 확장 이니셔티브가 시장 도전에 직면하고 기대를 충족하지 못함",
+      "lesson": "Retail expansion requires deep market understanding and consumer insight",
+      "lessonKo": "소매 확장은 깊은 시장 이해와 소비자 통찰력이 필요하다",
+      "source": "https://www.reuters.com"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2010,
-      "netWorth": 1.8
-    },
-    {
-      "year": 2015,
-      "netWorth": 2.5
+      "year": 2005,
+      "netWorth": 8.4
     },
     {
       "year": 2020,
-      "netWorth": 3
+      "netWorth": 8.6
     },
     {
-      "year": 2023,
-      "netWorth": 3.3
+      "year": 2024,
+      "netWorth": 8.9
     }
   ],
   "quotes": [
     {
-      "text": "India's infrastructure development requires long-term vision and strategic investment",
-      "textKo": "인도의 인프라 개발은 장기적 비전과 전략적 투자가 필요합니다",
-      "context": "Interview about infrastructure and business strategy in India",
-      "contextKo": "인도의 인프라 및 사업 전략에 관한 인터뷰",
-      "source": "india-business-daily.com"
+      "text": "Fashion retail is about understanding women and giving them what they want",
+      "textKo": "패션 소매는 여성을 이해하고 그들이 원하는 것을 제공하는 것이다",
+      "context": "Interview on fashion retail strategy",
+      "contextKo": "패션 소매 전략에 관한 인터뷰",
+      "source": "https://www.businessinsider.com"
     }
   ],
   "books": {
-    "authored": [],
+    "authored": [
+      {
+        "title": "Always Comes Back to the Customer",
+        "why": "Shares his philosophy on customer-centric retail leadership",
+        "whyKo": "고객 중심의 소매 리더십 철학 공유"
+      }
+    ],
     "recommended": [
       {
-        "title": "The Indian CEO",
-        "author": "Gita Piramal",
-        "note": "Influenced business leadership approach",
-        "noteKo": "비즈니스 리더십 접근 방식에 영향을 미쳤습니다"
+        "title": "The Power of Moments",
+        "author": "Chip Heath and Dan Heath",
+        "note": "Informed his approach to creating memorable customer experiences",
+        "noteKo": "기억할 만한 고객 경험 창출에 대한 접근 방식을 알림"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Building major Indian conglomerate; infrastructure and power sector expertise; sports team ownership",
-    "knownForKo": "주요 인도 대형 기업 구축; 인프라 및 전력 부문 전문성; 스포츠 팀 소유",
-    "philanthropy": "Supports education and sports development in India",
-    "philanthropyKo": "인도의 교육 및 스포츠 개발 지원",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Fashion retail leadership; Victoria's Secret founder; Limited Brands CEO",
+    "knownForKo": "패션 소매 리더십; 빅토리아 시크릿 창립자; Limited Brands CEO",
+    "philanthropy": "Major philanthropist supporting education and cultural institutions",
+    "philanthropyKo": "교육 및 문화 기관을 지원하는 주요 자선가",
+    "controversies": "Faced public criticism related to business practices and personal conduct in later years",
+    "controversiesKo": "후년의 비즈니스 관행 및 개인적 행동과 관련하여 공개적 비판 직면"
   },
   "sajuConnection": null
 }

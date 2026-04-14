@@ -1,0 +1,119 @@
+{
+  "id": "2007",
+  "name": "David Kabiller",
+  "childhood": {
+    "birthPlace": "Chicago, USA",
+    "birthPlaceKo": "미국 시카고",
+    "familyBackground": "1963년 7월 2일 시카고의 유대인 가정에서 태어났다. 어릴 때부터 학업과 운동에 뛰어난 재능을 보였으며 가족의 교육에 대한 강조가 그의 지적 토대를 형성했다.",
+    "familyBackgroundKo": "1963년 7월 2일 시카고의 유대인 가정에서 태어났다. 어릴 때부터 학업과 운동에 뛰어난 재능을 보였으며 가족의 교육에 대한 강조가 그의 지적 토대를 형성했다.",
+    "education": "Northwestern University에서 경제학 학사를 취득하고 동 대학교 켈로그 경영대학원에서 MBA를 마쳤다. 재학 중 테니스 장학생으로 입학해 빅텐 콘퍼런스 학업 올스타로 선정되었다.",
+    "educationKo": "노스웨스턴 대학교에서 경제학 학사를 취득하고 켈로그 경영대학원에서 MBA를 마쳤다. 테니스 장학생으로 입학해 빅텐 콘퍼런스 학업 올스타로 선정되었다.",
+    "earlyLife": "학업과 운동을 병행하며 분석적 사고와 경쟁적 사고방식을 동시에 키웠다. 졸업 후 월스트리트의 핵심 기관인 골드만삭스로 커리어를 시작했다.",
+    "earlyLifeKo": "학업과 운동을 병행하며 분석적 사고와 경쟁적 사고방식을 동시에 키웠다. 졸업 후 월스트리트의 핵심 기관인 골드만삭스로 커리어를 시작했다."
+  },
+  "careerTimeline": [
+    {
+      "year": 1985,
+      "event": "Joined Goldman Sachs after completing his undergraduate degree, beginning a career in institutional finance.",
+      "eventKo": "학부 졸업 후 골드만삭스에 입사하며 기관 금융 커리어를 시작했다."
+    },
+    {
+      "year": 1987,
+      "event": "Completed MBA at Northwestern's Kellogg School of Management, deepening expertise in quantitative finance.",
+      "eventKo": "노스웨스턴 켈로그 경영대학원에서 MBA를 취득하며 계량 금융 전문성을 심화했다."
+    },
+    {
+      "year": 1990,
+      "event": "Rose to Vice President at Goldman Sachs, managing relationships with major pension and endowment fund CIOs across North America.",
+      "eventKo": "골드만삭스 부사장으로 승진하며 북미 주요 연기금 및 기부기금 CIO와의 관계를 관리했다."
+    },
+    {
+      "year": 1998,
+      "event": "Co-founded AQR Capital Management with Cliff Asness, John Liew, and Robert Krail, applying quantitative strategies to investment management.",
+      "eventKo": "클리프 에스네스, 존 리우, 로버트 크레일과 함께 AQR 캐피탈 매니지먼트를 공동 창업하며 계량 투자 전략을 운용에 적용했다."
+    },
+    {
+      "year": 2003,
+      "event": "Led AQR's international expansion into Europe, broadening the firm's global client base.",
+      "eventKo": "AQR의 유럽 진출을 주도하며 글로벌 고객 기반을 확대했다."
+    },
+    {
+      "year": 2007,
+      "event": "Spearheaded AQR's introduction of mutual fund products, democratizing access to quantitative strategies for retail investors.",
+      "eventKo": "AQR의 뮤추얼 펀드 상품 도입을 주도하며 계량 전략을 개인 투자자에게도 개방했다."
+    },
+    {
+      "year": 2012,
+      "event": "Co-authored 'Buffett's Alpha', a landmark research paper explaining Warren Buffett's returns through a factor model lens.",
+      "eventKo": "'버핏의 알파' 논문을 공동 저술하며 워런 버핏의 수익률을 팩터 모델로 설명하는 선구적 연구를 발표했다."
+    },
+    {
+      "year": 2018,
+      "event": "Awarded the 2018 Graham and Dodd Award from the Financial Analysts Journal for 'Buffett's Alpha', the top annual paper prize.",
+      "eventKo": "금융분석가저널에서 '버핏의 알파'로 2018년 그레이엄·도드 어워드(최고 논문상)를 수상했다."
+    },
+    {
+      "year": 2019,
+      "event": "Northwestern University named the David G. Kabiller NU for Life Program in his honor following a multimillion-dollar gift.",
+      "eventKo": "수백만 달러의 기부금을 기리기 위해 노스웨스턴 대학교가 데이비드 G. 카빌러 NU for Life 프로그램을 명명했다."
+    }
+  ],
+  "failures": [
+    {
+      "year": 1998,
+      "description": "AQR's early years were marked by significant challenges; the fund lost heavily during the 1998 Russia/LTCM crisis shortly after launching.",
+      "descriptionKo": "AQR 창업 초기 1998년 러시아·LTCM 금융위기로 펀드가 출시 직후 큰 손실을 기록하는 어려움을 겪었다.",
+      "lesson": "Even sophisticated quantitative models cannot fully anticipate systemic market shocks; robust risk management and resilience are essential.",
+      "lessonKo": "아무리 정교한 계량 모델도 시스템적 시장 충격을 완전히 예측할 수 없으며 강력한 리스크 관리와 회복력이 필수라는 교훈을 얻었다."
+    },
+    {
+      "year": 2007,
+      "description": "AQR's quantitative strategies suffered significant drawdowns during the 'quant quake' of August 2007, when many quant funds simultaneously deleveraged.",
+      "descriptionKo": "2007년 8월 '퀀트 쿼크' 사태 당시 수많은 퀀트 펀드가 동시에 레버리지를 줄이며 AQR의 계량 전략이 큰 손실을 입었다.",
+      "lesson": "Factor crowding and correlated portfolio structures can create sudden, unexpected losses even when individual models are sound.",
+      "lessonKo": "개별 모델이 건전해도 팩터 혼잡과 상관 포트폴리오 구조가 갑작스럽고 예상치 못한 손실을 유발할 수 있다."
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2000,
+      "netWorth": 0.1
+    },
+    {
+      "year": 2005,
+      "netWorth": 0.4
+    },
+    {
+      "year": 2010,
+      "netWorth": 0.8
+    },
+    {
+      "year": 2015,
+      "netWorth": 1.3
+    },
+    {
+      "year": 2018,
+      "netWorth": 1.7
+    },
+    {
+      "year": 2021,
+      "netWorth": 2.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 2.0
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Known as the business development and client relations genius behind AQR, bridging rigorous quantitative research with institutional investors worldwide. Combines elite athletic competitiveness with intellectual precision.",
+    "knownForKo": "AQR의 사업 개발 및 고객 관계를 담당하는 천재로, 엄격한 계량 리서치와 전 세계 기관 투자자를 연결하는 가교 역할을 한다. 엘리트 운동 선수의 경쟁심과 지적 정밀함을 결합한 인물로 평가된다.",
+    "philanthropy": "Endowed the $250,000 Kabiller Prize in Nanoscience and Nanomedicine and the Kabiller Young Investigator Award. Donated millions to Northwestern University for the NU for Life athlete mentoring program. Board member of the International Institute for Nanotechnology.",
+    "philanthropyKo": "25만 달러 규모의 카빌러 나노과학·나노의학상과 카빌러 젊은 연구자상을 제정했다. 노스웨스턴 대학교에 수백만 달러를 기부하여 운동선수 멘토링 프로그램 'NU for Life'를 설립했다. 국제 나노기술 연구소 이사회 멤버이다."
+  },
+  "sajuConnection": null
+}

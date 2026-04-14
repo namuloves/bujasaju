@@ -1,107 +1,163 @@
 {
   "id": "53",
-  "name": "Thomas Frist Jr.",
-  "nameKo": "토머스 프리스트 주니어",
-  "netWorth": "$37.1B",
-  "nationality": "US",
-  "industry": "Healthcare",
+  "name": "William Ding (丁磊)",
   "childhood": {
-    "birthPlace": "Nashville, Tennessee, United States",
-    "birthPlaceKo": "미국 테네시주 내슈빌",
-    "familyBackground": "Born into a prominent medical family; father Thomas F. Frist Sr. was a distinguished internal medicine specialist in Nashville; mother was Dorothy Cate; brother Bill Frist became a U.S. Senate Majority Leader and physician",
-    "familyBackgroundKo": "저명한 의학 가문에서 출생; 아버지 토머스 F. 프리스트 시니어는 내슈빌의 저명한 내과 전문의였으며, 어머니는 도로시 케이트; 형제 빌 프리스트는 미국 상원 다수당 대표이자 의사가 됨",
-    "education": "Montgomery Bell Academy (Nashville prep school); B.A. from Vanderbilt University; M.D. from Washington University School of Medicine",
-    "educationKo": "몽고메리 벨 아카데미(내슈빌 사립학교); 밴더빌트 대학교 학사; 워싱턴 대학교 의과대학 의학박사",
-    "earlyLife": "Born August 12, 1938, Thomas Frist Jr. grew up in Belle Meade, an affluent suburb of Nashville. He attended Montgomery Bell Academy where he played quarterback on the 1956 state championship football team. He studied at Vanderbilt University before completing his medical degree at Washington University. During the Vietnam War, he served as a strategic air command flight surgeon at Robins Air Force Base in Georgia.",
-    "earlyLifeKo": "1938년 8월 12일 태어난 토머스 프리스트 주니어는 내슈빌의 부유한 교외 지역 벨미드에서 자랐다. 몽고메리 벨 아카데미에서 1956년 주 챔피언십 풋볼 팀의 쿼터백으로 활약했다. 밴더빌트 대학교에서 학부를 마친 후 워싱턴 대학교 의과대학에서 의학 학위를 취득했다. 베트남 전쟁 중에는 조지아주 로빈스 공군기지에서 전략항공사령부 비행 군의관으로 복무했다.",
-    "source": "Wikipedia, HCA Healthcare, Phi Delta Theta"
+    "birthPlace": "Fenghua, Ningbo, Zhejiang Province, China",
+    "birthPlaceKo": "중국 저장성 닝보 봉화",
+    "familyBackground": "Born October 1, 1971 to an engineer father who worked at a state research institute in eastern China. Family background emphasizes technical expertise and intellectual achievement. Father's career in engineering provided early exposure to technology and innovation.",
+    "familyBackgroundKo": "1971년 10월 1일 중국 동부의 국가 연구소에서 일하는 엔지니어 아버지 밑에서 태어남. 가족 배경은 기술 전문 지식과 지적 성취를 강조. 아버지의 엔지니어 경력은 기술과 혁신에 대한 초기 노출을 제공.",
+    "education": "Graduated from Chengdu Institute of Radio Engineering (now the University of Electronic Science and Technology of China) with a degree in telecommunications engineering. Education provided strong technical foundation in communications, electronics, and emerging technologies of the 1980s-1990s.",
+    "educationKo": "전기통신공학 학위를 받아 청두 라디오 공학 연구소(현재의 중국 전자 과학 및 기술 대학)를 졸업. 교육은 1980-1990년대의 통신, 전자, 신흥 기술에서 강한 기술적 기초를 제공.",
+    "earlyLife": "From a young age, developed keen interest in electronics, setting the foundation for his future technology career. After graduation, worked as an engineer in Ningbo's local state department before moving to Guangzhou to work for Sybase, a major database software company. This progression from engineering to corporate technology roles demonstrated his ability to advance in the tech industry.",
+    "earlyLifeKo": "어린 나이부터 전자에 대한 강한 관심을 보여 미래 기술 경력의 기초를 마련. 졸업 후 닝보의 지방 정부 부서에서 엔지니어로 일한 후 주요 데이터베이스 소프트웨어 회사인 심베이스에서 일하기 위해 광저우로 이동. 이 엔지니어링에서 기업 기술 역할로의 진행은 기술 산업에서의 전진 능력을 보여줌.",
+    "source": "Wikipedia, EBSCO, Bloomberg, How They Began"
   },
   "careerTimeline": [
     {
-      "year": 1965,
-      "event": "Served as flight surgeon at Robins Air Force Base during the Vietnam War",
-      "eventKo": "베트남 전쟁 중 로빈스 공군기지에서 비행 군의관으로 복무"
+      "year": 1989,
+      "event": "Graduates from Chengdu Institute of Radio Engineering with a degree in telecommunications engineering. Begins career as an engineer in Ningbo's state department, applying his technical education.",
+      "eventKo": "전기통신공학 학위를 받아 청두 라디오 공학 연구소에서 졸업. 닝보의 정부 부서에서 엔지니어로 경력 시작하여 기술 교육 적용."
     },
     {
-      "year": 1968,
-      "event": "Co-founded Hospital Corporation of America (HCA) with father Thomas Frist Sr. and businessman Jack Massey",
-      "eventKo": "아버지 토머스 프리스트 시니어, 사업가 잭 매시와 함께 미국병원공사(HCA)를 공동 설립"
-    },
-    {
-      "year": 1977,
-      "event": "Became President of HCA, leading rapid expansion of the hospital network",
-      "eventKo": "HCA 사장으로 취임하여 병원 네트워크의 급속한 확장을 이끔"
-    },
-    {
-      "year": 1987,
-      "event": "Became Chairman, President and CEO of HCA",
-      "eventKo": "HCA의 회장, 사장 겸 CEO로 취임"
+      "year": 1995,
+      "event": "Moves to Guangzhou to work for Sybase, a leading database software company. Gains experience in enterprise software, database technology, and corporate environments. This experience exposes him to global technology trends and business practices.",
+      "eventKo": "주요 데이터베이스 소프트웨어 회사인 심베이스에서 일하기 위해 광저우로 이동. 엔터프라이즈 소프트웨어, 데이터베이스 기술, 기업 환경에서의 경험을 얻음. 이 경험은 글로벌 기술 트렌드와 비즈니스 관행에 대한 노출 제공."
     },
     {
       "year": 1997,
-      "event": "Returned as Chairman and CEO of Columbia/HCA after Rick Scott's resignation amid fraud investigation",
-      "eventKo": "사기 조사 중 릭 스콧이 사임한 후 Columbia/HCA의 회장 겸 CEO로 복귀"
+      "event": "Founds NetEase in May 1997 in Beijing as an internet portal designed specifically for mainland Chinese users. Launches Netease.com with free email and personal website features, believing that traffic volume will attract paying advertisers.",
+      "eventKo": "1997년 5월 중국 대륙 사용자를 위해 특별히 설계된 인터넷 포털로 베이징에서 NetEase 설립. 무료 이메일 및 개인 웹사이트 기능으로 Netease.com 출시. 트래픽 볼륨이 유료 광고주를 유치할 것이라는 믿음."
     },
     {
-      "year": 2006,
-      "event": "Led $33 billion leveraged buyout of HCA with Bain Capital, KKR, and Merrill Lynch — the largest LBO in history at the time",
-      "eventKo": "베인 캐피탈, KKR, 메릴린치와 함께 330억 달러 규모의 HCA 레버리지드 바이아웃을 주도 — 당시 역사상 최대 LBO"
+      "year": 2000,
+      "event": "After only three years of operation, NetEase generates 6 million page views daily. Adds China's first personalized information service, the first Chinese-language search engine, and the country's first online auction site to its platform.",
+      "eventKo": "3년의 운영 후, NetEase는 일일 600만 페이지 뷰를 생성. 중국 최초의 개인 정보 서비스, 최초의 중국어 검색 엔진, 국가 최초의 온라인 경매 사이트를 플랫폼에 추가."
     },
     {
-      "year": 2011,
-      "event": "HCA returned to public markets via IPO, the largest private equity-backed IPO in history",
-      "eventKo": "HCA가 역사상 최대 규모의 사모펀드 지원 IPO를 통해 주식시장에 복귀"
+      "year": 2001,
+      "event": "NetEase faces crisis amid financial reporting rumors. Stock price plunges and company faces delisting threats. However, NetEase successfully navigates this challenge, and stock soars the following year, demonstrating resilience and strong fundamentals.",
+      "eventKo": "NetEase가 재정 보고 루머 속에서 위기에 직면. 주가는 급락하고 상장폐지 위협에 직면. 그러나 NetEase는 이 도전을 성공적으로 극복하고 주가는 다음 해 급등하여 회복탄력성과 강한 기초를 보여줌."
+    },
+    {
+      "year": 2005,
+      "event": "NetEase pivots to online gaming, a strategic decision that proves transformational. With quality game development and localization expertise, NetEase becomes a major force in Chinese online gaming.",
+      "eventKo": "NetEase가 온라인 게임으로 회전하여 변혁적인 전략적 결정. 품질 게임 개발 및 현지화 전문 지식으로 NetEase는 중국 온라인 게임에서 주요 세력이 됨."
+    },
+    {
+      "year": 2007,
+      "event": "Launches 'Fantasy Westward Journey,' one of NetEase's flagship games. The game becomes enormously popular, attracting millions of players and generating billions in revenue. Demonstrates NetEase's ability to create engaging content that resonates with Chinese players.",
+      "eventKo": "NetEase의 주력 게임 중 하나인 '판타지 웨스턴 저니' 출시. 게임은 매우 인기를 얻어 수백만 명의 플레이어를 유치하고 수십억 달러의 수익을 창출. NetEase가 중국 플레이어에게 공감하는 매력적인 콘텐츠를 만들 수 있음을 입증."
+    },
+    {
+      "year": 2012,
+      "event": "Ding initiates diversification into agricultural technology. Establishes NetEase's pig farm business focused on technology and environmental sustainability. This unconventional venture showcases his willingness to innovate beyond gaming.",
+      "eventKo": "정이 농업 기술로 다각화 시작. 기술과 환경 지속 가능성에 초점을 맞춘 NetEase의 돼지 사육 사업을 설립. 이 관례에 벗어난 벤처는 게임을 넘어 혁신하겠다는 의지를 보여줌."
     },
     {
       "year": 2020,
-      "event": "Belmont University announced creation of the Thomas F. Frist Jr. College of Medicine in his honor",
-      "eventKo": "벨몬트 대학교가 그의 이름을 딴 토머스 F. 프리스트 주니어 의과대학 설립을 발표"
+      "event": "Purchases a 16,000-square-foot mansion in Bel Air, Los Angeles for $29 million from Elon Musk. Demonstrates significant wealth accumulation and global real estate interests.",
+      "eventKo": "엘론 머스크로부터 로스앤젤레스 벨에어에 1만 6,000제곱피트 규모의 저택을 2,900만 달러에 매입. 상당한 부의 축적과 글로벌 부동산 이해도를 보여줌."
+    },
+    {
+      "year": 2024,
+      "event": "Ding restructures NetEase with significant layoffs and studio closures, refocusing on profitable, mass-market games. Net worth reaches $37.3 billion. Continues as CEO while maintaining strategic vision for the company's future.",
+      "eventKo": "정이 상당한 인력 감축과 스튜디오 폐쇄로 NetEase를 재구성하여 수익성 높고 대중적인 게임으로 재집중. 순자산이 373억 달러에 도달. CEO로서 계속 근무하면서 회사의 미래에 대한 전략적 비전 유지."
     }
   ],
   "failures": [
     {
-      "year": 1997,
-      "description": "HCA (then Columbia/HCA) faced one of the largest healthcare fraud investigations in U.S. history, leading to CEO Rick Scott's resignation. Frist had to return to rescue the company from the scandal, which ultimately resulted in $1.7 billion in fraud settlements.",
-      "descriptionKo": "HCA(당시 Columbia/HCA)는 미국 역사상 최대 규모의 의료 사기 조사에 직면했고, CEO 릭 스콧이 사임했다. 프리스트는 스캔들로부터 회사를 구하기 위해 복귀해야 했으며, 최종적으로 17억 달러의 사기 합의금을 지불했다.",
-      "lesson": "The crisis reinforced the importance of ethical governance and compliance in healthcare. Under Frist's restored leadership, HCA rebuilt its reputation and compliance infrastructure.",
-      "lessonKo": "이 위기는 의료 분야에서 윤리적 거버넌스와 컴플라이언스의 중요성을 재확인시켰다. 프리스트의 복귀 리더십 하에 HCA는 명성과 컴플라이언스 체계를 재건했다.",
-      "source": "Wikipedia, Becker's Hospital Review"
+      "year": 2001,
+      "description": "NetEase faced a severe crisis amid rumors of financial misreporting. The company's stock price plummeted significantly as investors panicked about potential accounting fraud. The company faced threats of delisting from stock exchanges, putting its survival in question.",
+      "descriptionKo": "NetEase가 재정 오보도에 관한 루머 속에서 심각한 위기에 직면. 투자자들이 잠재적 회계 사기를 우려하면서 회사의 주가가 크게 하락. 회사는 주식 거래소에서 상장폐지 위협에 직면하여 생존을 의문시함.",
+      "lessonKo": "기업 생존의 위기는 주주와 시장의 신뢰 회복이 가장 중요. 투명한 커뮤니케이션과 강력한 기초가 회사 신용도 회복의 핵심"
+    },
+    {
+      "year": 2024,
+      "description": "Marvel Rivals licensing dispute with Walt Disney Co. Ding objected to paying Disney for character use and attempted to swap in custom-designed heroes instead. The project faltered as a result, costing NetEase millions in development expenses despite the game eventually becoming a massive success.",
+      "descriptionKo": "마블 라이벌과의 월트 디즈니 회사 라이선싱 분쟁. 정이 디즈니에 캐릭터 사용료 지불에 반발하고 대신 맞춤 설계한 영웅으로 교체 시도. 프로젝트가 결국 대성공했음에도 불구하고 결과적으로 불안정해지고 NetEase에 수백만 달러의 개발 비용 발생.",
+      "lessonKo": "라이선싱과 지적 재산권 협상은 장기 사업 성공의 중요한 요소. IP 소유자와의 관계 관리가 게임 개발의 필수 조건"
+    },
+    {
+      "year": 2024,
+      "description": "Major organizational upheaval with hundreds of job cuts and studio closures. Several western development studios (Jar of Sparks, Worlds Untold) had funding pulled; Ouka Studios experienced layoffs before Visions of Mana's release. Internal restructuring created uncertainty among employees and demonstrated volatility in strategic direction.",
+      "descriptionKo": "수백 명의 일자리 감축과 스튜디오 폐쇄로 인한 대규모 조직 혼란. 여러 서방 개발 스튜디오(Jar of Sparks, Worlds Untold)는 자금 지원이 중단되었고, 오우카 스튜디오는 'Visions of Mana' 출시 전 인력 감축 경험. 내부 구조 조정은 직원들 사이에서 불확실성을 야기하고 전략적 방향의 변동성을 보여줌.",
+      "lessonKo": "대규모 조직 구조 조정은 단기적으로 불안정성을 초래하지만 장기적으로는 회사의 지속 가능성을 높일 수 있음. 어려운 결정이 때로는 기업 건강의 필수 조건"
     }
   ],
   "wealthHistory": [
     {
+      "year": 2000,
+      "netWorth": 0.2
+    },
+    {
       "year": 2010,
-      "netWorth": 4.2
+      "netWorth": 8
     },
     {
-      "year": 2015,
-      "netWorth": 8.5
+      "year": 2016,
+      "netWorth": 28
     },
     {
-      "year": 2020,
-      "netWorth": 11.8
+      "year": 2021,
+      "netWorth": 30
     },
     {
-      "year": 2023,
-      "netWorth": 21.7
-    },
-    {
-      "year": 2025,
-      "netWorth": 37.1
+      "year": 2024,
+      "netWorth": 37.3
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Our product strategy is to be like a craftsman, meticulously polishing our products. We believe in quality over speed, and excellence over quantity.",
+      "textKo": "우리의 제품 전략은 장인처럼 우리의 제품을 꼼꼼하게 연마하는 것입니다. 우리는 속도보다 품질을, 양보다 우수성을 믿습니다.",
+      "context": "Ding's philosophy on product development, emphasizing the craftsman approach and commitment to quality that defines NetEase's game development strategy.",
+      "contextKo": "제품 개발에 대한 정의 철학으로, 장인 접근법과 NetEase의 게임 개발 전략을 정의하는 품질에 대한 약속을 강조.",
+      "source": "NetEase business philosophy, interviews"
+    },
+    {
+      "text": "The correct strategy is about doing the right things. As an entrepreneur, one must identify a clear direction. Entrepreneurs need clear judgment; actions can be slow, but one must be sure before proceeding.",
+      "textKo": "올바른 전략은 올바른 일을 하는 것입니다. 기업가로서는 명확한 방향을 식별해야 합니다. 기업가는 명확한 판단이 필요합니다. 행동은 천천히 진행될 수 있지만, 진행하기 전에 확실해야 합니다.",
+      "context": "Ding's approach to strategic decision-making, emphasizing deliberation over speed and the importance of directional clarity in business.",
+      "contextKo": "전략적 의사결정에 대한 정의 접근법으로, 속도보다 신중한 숙고와 비즈니스의 방향성 명확성의 중요성을 강조.",
+      "source": "Ding Lei - How They Began, interviews"
+    },
+    {
+      "text": "Supreme Goodness is Like Water. We should not crowd onto paths everyone else sees as promising. Rather, we should go with the flow and accumulate strength.",
+      "textKo": "최고의 선함은 물과 같다. 모두가 유망하다고 보는 길에 모여서는 안 됩니다. 대신 흐름과 함께 가서 힘을 축적해야 합니다.",
+      "context": "Ding's philosophical approach inspired by Eastern wisdom, guiding his unconventional business decisions and willingness to move into unexpected areas like agricultural technology and pig farming.",
+      "contextKo": "동양의 지혜에서 영감을 받은 정의 철학적 접근법으로, 농업 기술 및 돼지 사육과 같은 예상치 못한 영역으로의 움직임을 이끄는 것에 대한 무관한 비즈니스 결정과 의지를 지도.",
+      "source": "Business philosophy, interviews"
+    }
+  ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "Venture Capital in China",
+        "author": "Edward Tse",
+        "why": "Essential for understanding the Chinese startup ecosystem in which Ding founded NetEase and the venture capital landscape that enabled his success.",
+        "whyKo": "정이 NetEase를 설립한 중국 스타트업 생태계와 그의 성공을 가능하게 한 벤처 캐피털 경관을 이해하기 위해 필수적."
+      },
+      {
+        "title": "The Beijing Consensus: How China's Authoritarian Model Will Dominate the Twenty-First Century",
+        "author": "Stefan Halper",
+        "why": "Provides context for understanding the regulatory environment and strategic challenges that Ding navigated in building NetEase within China's evolving technology regulations.",
+        "whyKo": "정이 중국의 진화하는 기술 규제 내에서 NetEase를 구축할 때 항해한 규제 환경과 전략적 도전을 이해하기 위한 맥락 제공."
+      },
+      {
+        "title": "Zao Wu: The Art of Chinese Strategy",
+        "author": "Various scholars",
+        "why": "Explores classical Chinese strategic thinking that influences Ding's business philosophy and unconventional approaches to diversification and market positioning.",
+        "whyKo": "정의 비즈니스 철학과 다각화 및 시장 포지셔닝에 대한 관례에 벗어난 접근법에 영향을 미치는 고전 중국 전략적 사고를 탐구."
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Pioneering the for-profit hospital model; co-founding HCA Healthcare, now the world's largest for-profit hospital operator; orchestrating the largest leveraged buyout and largest PE-backed IPO in history",
-    "knownForKo": "영리 병원 모델의 선구자; 세계 최대 영리 병원 운영업체인 HCA 헬스케어 공동 설립; 역사상 최대 레버리지드 바이아웃 및 최대 PE 지원 IPO 주도",
-    "philanthropy": "Established the Alexis de Tocqueville Society for United Way donors; the Frist Foundation supports cultural and educational initiatives in Nashville; Belmont University's College of Medicine named in his honor",
-    "philanthropyKo": "유나이티드 웨이 기부자를 위한 알렉시 드 토크빌 소사이어티 설립; 프리스트 재단이 내슈빌의 문화 및 교육 사업을 지원; 벨몬트 대학교 의과대학이 그의 이름을 따서 명명됨",
-    "controversies": "HCA has faced criticism for the for-profit healthcare model; the Columbia/HCA fraud scandal of the late 1990s resulted in $1.7 billion in settlements, though Frist personally was not implicated",
-    "controversiesKo": "HCA는 영리 의료 모델에 대한 비판을 받아왔으며, 1990년대 후반 Columbia/HCA 사기 스캔들은 17억 달러의 합의금으로 이어졌으나 프리스트 개인은 관련되지 않음"
+    "knownFor": "Being a visionary entrepreneur who successfully pivoted from internet portals to online gaming, one of China's largest and most profitable sectors. Known for his calculated risk-taking, long-term strategic thinking, and willingness to enter unconventional business areas. Ding is also recognized for his technical background and hands-on approach to product development. His leadership style emphasizes innovation driven by passion rather than short-term profit maximization.",
+    "knownForKo": "인터넷 포털에서 중국의 가장 크고 수익성 높은 부문 중 하나인 온라인 게임으로 성공적으로 전환한 선구적 기업가로 알려짐. 계산된 위험 감수, 장기 전략적 사고, 관례에 벗어난 비즈니스 영역에 진입할 의지로 알려짐. 정은 또한 기술적 배경과 제품 개발에 대한 실무적 접근으로 인식됨. 그의 리더십 스타일은 단기 이윤 극대화보다 열정으로 이끌어진 혁신을 강조.",
+    "philanthropyKo": "구체적인 자선 이니셔티브는 공개 문서에 제한적이지만, 정은 기술 교육 및 개발에 관심을 보여주었음. NetEase의 돼지 사육 사업은 주로 상업적이었지만, 환경 지속 가능성과 기술 혁신 목표를 포함. 그의 부의 수준에 비해 다른 억만장자에 비해 주요 자선 재단을 설립하지 않음.",
+    "controversiesKo": "온라인 게임의 과다 이용과 청소년 보호에 대한 사회적 비판. NetEase 게임의 수익화 모델과 사용자 중독성에 대한 우려. 게임 산업의 규제 강화와 중국 정부의 게임 시간 제한에 대한 사업 영향. 직원 대우 및 업계 노동 관행에 대한 비판."
   },
-  "sajuConnection": null
+  "philanthropy": "While specific philanthropic initiatives are limited in public documentation, Ding has shown interest in technology education and development. NetEase's pig farm venture, while primarily commercial, incorporated environmental sustainability and technology innovation aims. Has not established major charitable foundations compared to other billionaires of his wealth level.",
+  "philanthropyKo": "구체적인 자선 이니셔티브는 공개 문서에 제한적이지만, 정은 기술 교육 및 개발에 관심을 보여주었음. NetEase의 돼지 사육 사업은 주로 상업적이었지만, 환경 지속 가능성과 기술 혁신 목표를 포함. 그의 부의 수준에 비해 다른 억만장자에 비해 주요 자선 재단을 설립하지 않음."
 }

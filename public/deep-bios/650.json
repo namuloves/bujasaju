@@ -1,80 +1,108 @@
 {
   "id": "650",
-  "name": "Nicoletta Zampillo",
+  "name": "Mitchell Morgan",
   "childhood": {
-    "birthPlace": "Milan, Italy",
-    "birthPlaceKo": "이탈리아 밀라노",
-    "familyBackground": "Her father was one of the first commercial representatives of Luxottica eyeglasses for Milan and Lombardy, establishing an early connection to the eyewear industry and to Leonardo Del Vecchio.",
-    "familyBackgroundKo": "아버지는 밀라노와 롬바르디아 지역에서 룩소티카 안경의 첫 번째 판매 대리인 중 한 명으로, 안경 산업 및 레오나르도 델 베키오와의 인연을 일찍부터 형성했다.",
-    "education": "Details of formal education not publicly available",
-    "educationKo": "공식적인 학력 정보는 공개되지 않음",
-    "earlyLife": "Born in Milan in 1958, Nicoletta Zampillo grew up in a family connected to the Italian eyewear industry through her father's work as a Luxottica sales representative. This family connection would later prove fateful when she met Leonardo Del Vecchio, the founder of Luxottica and one of Italy's richest men.",
-    "earlyLifeKo": "1958년 밀라노에서 태어난 니콜레타 잠필로는 룩소티카 판매 대리인이었던 아버지를 통해 이탈리아 안경 산업과 연결된 가정에서 성장했다. 이 가족의 인연은 후에 룩소티카의 창립자이자 이탈리아 최고 부호 중 한 명인 레오나르도 델 베키오를 만나게 되는 운명적 계기가 되었다.",
-    "source": "Il Riformista, Vimbuzz, Family Capital"
+    "birthPlace": "Philadelphia, USA",
+    "birthPlaceKo": "미국 펜실베이니아주 필라델피아",
+    "familyBackground": "1953년 필라델피아의 연립주택에서 3남매 중 막내로 태어났다. 아버지는 2차 세계대전 참전 용사로, 이후 의류 사업으로 성공했다. 노동과 저축의 가치를 강조하는 유대계 미국인 가정에서 자랐으며, 아버지의 사업을 도우며 어린 시절부터 상업적 감각을 키웠다.",
+    "familyBackgroundKo": "1953년 필라델피아의 연립주택에서 3남매 중 막내로 태어났다. 아버지는 2차 세계대전 참전 용사로, 이후 의류 사업으로 성공했다. 노동과 저축의 가치를 강조하는 유대계 미국인 가정에서 자랐으며, 아버지의 사업을 도우며 어린 시절부터 상업적 감각을 키웠다.",
+    "education": "템플 대학교에서 회계학 학사(1976년)를 취득하고, 이후 같은 대학 로스쿨에서 법학 박사(1980년)를 취득했다. 학비를 마련하기 위해 아버지의 신발가게에서 전일제로 일하며 학업을 이어갔다.",
+    "educationKo": "템플 대학교에서 회계학 학사(1976년)를 취득하고, 이후 같은 대학 로스쿨에서 법학 박사(1980년)를 취득했다. 학비를 마련하기 위해 아버지의 신발가게에서 전일제로 일하며 학업을 이어갔다.",
+    "earlyLife": "학비 전액을 스스로 마련하기 위해 아버지의 신발가게 점원으로 일했으며, 이 경험이 근면함과 자립심의 기반이 되었다.",
+    "earlyLifeKo": "학비 전액을 스스로 마련하기 위해 아버지의 신발가게 점원으로 일했으며, 이 경험이 근면함과 자립심의 기반이 되었다."
   },
   "careerTimeline": [
     {
-      "year": 1997,
-      "event": "Married Leonardo Del Vecchio, founder of Luxottica, for the first time; they had already had a son, Leonardo Maria, two years earlier",
-      "eventKo": "룩소티카 창립자 레오나르도 델 베키오와 첫 번째 결혼; 2년 전 아들 레오나르도 마리아 출생"
+      "year": 1976,
+      "event": "Graduated from Temple University with a Bachelor of Science in Accounting",
+      "eventKo": "템플 대학교 회계학 학사 졸업"
     },
     {
-      "year": 2000,
-      "event": "Divorced from Leonardo Del Vecchio",
-      "eventKo": "레오나르도 델 베키오와 이혼"
+      "year": 1980,
+      "event": "Earned a law degree from Temple University Beasley School of Law",
+      "eventKo": "템플 대학교 로스쿨에서 법학 박사 취득"
+    },
+    {
+      "year": 1981,
+      "event": "Joined an international public accounting firm in the tax department, building expertise in real estate tax structures",
+      "eventKo": "국제 회계법인 세무 부서에 입사, 부동산 세금 구조 전문성 축적"
+    },
+    {
+      "year": 1983,
+      "event": "Moved to Construction Consultants, a firm that built and managed apartment communities, gaining hands-on operational experience",
+      "eventKo": "아파트 건설·운영사 컨스트럭션 컨설턴츠로 이직, 실무 운영 경험 축적"
+    },
+    {
+      "year": 1985,
+      "event": "Founded Morgan Properties in King of Prussia, Pennsylvania, with a business partner, starting with a small portfolio of apartment communities",
+      "eventKo": "펜실베이니아주 킹오브프러시아에서 파트너와 함께 모건 프로퍼티스 창립, 소규모 아파트 포트폴리오로 출발"
+    },
+    {
+      "year": 1996,
+      "event": "Bought out his founding partner, becoming the sole owner of Morgan Properties and accelerating the acquisition strategy",
+      "eventKo": "공동 창업자 지분을 인수해 모건 프로퍼티스 단독 오너가 되고, 공격적 인수 전략 가속화"
+    },
+    {
+      "year": 2004,
+      "event": "Named Entrepreneur of the Year by Ernst & Young for Greater Philadelphia, recognizing rapid portfolio growth",
+      "eventKo": "EY로부터 필라델피아 지역 올해의 기업가상 수상, 빠른 포트폴리오 성장 인정받음"
     },
     {
       "year": 2010,
-      "event": "Remarried Leonardo Del Vecchio, reuniting the couple after a decade apart",
-      "eventKo": "10년의 별거 후 레오나르도 델 베키오와 재혼"
+      "event": "Morgan Properties grew to over 20,000 apartment units across the Mid-Atlantic region, establishing itself as a major regional player",
+      "eventKo": "중부 대서양 연안 지역에서 2만 세대 이상 아파트 보유, 주요 지역 사업자로 자리매김"
     },
     {
-      "year": 2018,
-      "event": "Luxottica merged with French lens maker Essilor to form EssilorLuxottica, significantly increasing the family's corporate reach",
-      "eventKo": "룩소티카가 프랑스 렌즈 제조사 에실로르와 합병하여 에실로르룩소티카를 설립, 가문의 기업 영향력 크게 확대"
-    },
-    {
-      "year": 2022,
-      "event": "Leonardo Del Vecchio died at age 87; Nicoletta inherited a 12.5% stake in Delfin, the family holding company, and became its chairwoman",
-      "eventKo": "레오나르도 델 베키오가 87세에 사망; 니콜레타는 가문 지주회사 델핀의 12.5% 지분을 상속받고 회장에 취임"
-    },
-    {
-      "year": 2023,
-      "event": "Succession dispute erupted among Del Vecchio heirs over control of Delfin and its assets, including EssilorLuxottica, Generali, and Mediobanca stakes",
-      "eventKo": "에실로르룩소티카, 제네랄리, 메디오방카 지분 등 델핀 자산 통제권을 둘러싼 델 베키오 상속인 간 승계 분쟁 발생"
+      "year": 2019,
+      "event": "Elected Chairman of the Board of Trustees at Temple University, capping years of philanthropic engagement with his alma mater",
+      "eventKo": "모교 템플 대학교 이사회 의장으로 선출, 수년간의 자선 참여의 결실"
     },
     {
       "year": 2025,
-      "event": "Del Vecchio heirs approached a potential deal to consolidate Delfin ownership, with Leonardo Maria seeking to buy out siblings",
-      "eventKo": "델 베키오 상속인들이 델핀 소유권 통합을 위한 합의에 접근, 레오나르도 마리아가 형제 지분 매입 추진"
+      "event": "Morgan Properties portfolio exceeded 100,000 apartment units across 22 states, valued at over $17 billion, the largest apartment owner in the eastern United States",
+      "eventKo": "22개 주에 걸쳐 10만 세대 이상, 자산 가치 170억 달러 이상으로 미국 동부 최대 아파트 소유주 등극"
     }
   ],
   "failures": [
     {
-      "year": 2022,
-      "description": "Following Leonardo Del Vecchio's death, a bitter succession war erupted among the eight heirs, with frozen dividends, blocked governance decisions, and family infighting over Delfin's direction and control of its vast corporate stakes.",
-      "descriptionKo": "레오나르도 델 베키오 사망 후 8명의 상속인 사이에 격렬한 승계 전쟁이 발발하여 배당금 동결, 지배구조 결정 차단, 델핀의 방향성과 방대한 기업 지분 통제를 둘러싼 가족 내부 갈등이 심화되었다.",
-      "lesson": "The dispute highlighted the challenges of passing control of a complex corporate empire without clear succession planning, and the difficulty of managing family dynamics across multiple marriages and generations.",
-      "lessonKo": "이 분쟁은 명확한 승계 계획 없이 복잡한 기업 제국의 지배권을 이전하는 것의 어려움과 여러 결혼과 세대에 걸친 가족 관계 관리의 난점을 부각시켰다.",
-      "source": "Yahoo Finance, Fashion Network, Family Capital"
+      "year": 2008,
+      "description": "The 2008 financial crisis severely impacted the multifamily real estate sector, causing financing to dry up and property values to fall sharply, creating significant challenges for Morgan Properties' leveraged acquisition strategy",
+      "descriptionKo": "2008년 금융위기로 멀티패밀리 부동산 섹터가 심각한 타격을 받으며, 자금 조달이 막히고 자산 가치가 급락해 모건 프로퍼티스의 레버리지 인수 전략에 큰 도전이 되었다.",
+      "lesson": "Learned to maintain more conservative leverage ratios and larger cash reserves, which ultimately allowed Morgan Properties to emerge as a buyer when distressed assets became available post-crisis",
+      "lessonKo": "더 보수적인 레버리지 비율과 충분한 현금 준비금 유지의 중요성을 배웠고, 이는 위기 이후 부실 자산 매입 기회를 살릴 수 있게 해주었다."
+    },
+    {
+      "year": 1991,
+      "description": "Early expansion into markets outside the Philadelphia metro area stumbled due to insufficient local knowledge and management capacity, requiring a retreat and refocusing on core markets",
+      "descriptionKo": "필라델피아 도심 외 지역으로의 초기 확장이 충분하지 않은 현지 지식과 관리 역량으로 인해 어려움을 겪고, 핵심 시장으로의 재집중이 필요했다.",
+      "lesson": "Built a systematic property management infrastructure and local market expertise before attempting geographic expansion, a discipline that later enabled scaling to 22 states successfully",
+      "lessonKo": "지리적 확장을 시도하기 전에 체계적인 자산 관리 인프라와 현지 시장 전문성을 구축하는 원칙을 세웠고, 이것이 이후 22개 주로의 성공적인 확장을 가능하게 했다."
     }
   ],
   "wealthHistory": [
     {
+      "year": 2005,
+      "netWorth": 0.3
+    },
+    {
+      "year": 2010,
+      "netWorth": 0.8
+    },
+    {
+      "year": 2015,
+      "netWorth": 1.9
+    },
+    {
+      "year": 2019,
+      "netWorth": 3.2
+    },
+    {
       "year": 2022,
-      "netWorth": 4.5
-    },
-    {
-      "year": 2023,
-      "netWorth": 5.2
-    },
-    {
-      "year": 2024,
-      "netWorth": 7.2
+      "netWorth": 5.0
     },
     {
       "year": 2025,
-      "netWorth": 5.7
+      "netWorth": 6.1
     }
   ],
   "quotes": [],
@@ -83,12 +111,10 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Twice-married wife and widow of Luxottica founder Leonardo Del Vecchio; assumed chairmanship of Delfin after his death; known for maintaining a private lifestyle and describing her role as 'only to be the mother of my children and wife of my husband'",
-    "knownForKo": "룩소티카 창립자 레오나르도 델 베키오의 두 번 결혼한 아내이자 미망인; 사후 델핀 회장직 수임; '나의 역할은 자녀의 어머니이자 남편의 아내가 되는 것'이라며 사생활을 지키는 것으로 알려짐",
-    "philanthropy": "Not publicly known for major philanthropic initiatives; the Del Vecchio family has supported various Italian cultural and social causes through their corporate entities",
-    "philanthropyKo": "주요 자선 활동이 공개적으로 알려지지 않음; 델 베키오 가문은 기업 법인을 통해 다양한 이탈리아 문화 및 사회 활동을 지원해옴",
-    "controversies": "Involved in the high-profile Del Vecchio succession dispute since 2022; her transfer of half her 25% Delfin stake to stepson Rocco Basilico was challenged by son Leonardo Maria Del Vecchio, triggering years of family infighting",
-    "controversiesKo": "2022년부터 고도로 주목받는 델 베키오 승계 분쟁에 연루; 25% 델핀 지분의 절반을 의붓아들 로코 바실리코에게 이전한 것을 아들 레오나르도 마리아 델 베키오가 이의를 제기하며 수년간의 가족 내부 갈등 촉발"
+    "knownFor": "A self-made real estate magnate who financed his own education by working in his father's shoe store and built the largest apartment empire in the eastern United States entirely through disciplined acquisition. Known for focusing exclusively on workforce housing — affordable, well-managed apartments for middle-income families — rather than luxury properties.",
+    "knownForKo": "아버지의 신발가게에서 일해 스스로 학비를 마련한 자수성가형 부동산 거물로, 철저한 인수 전략으로 미국 동부 최대 아파트 제국을 건설했다. 고급 부동산 대신 중산층을 위한 합리적인 가격의 아파트, 즉 워크포스 하우징에만 집중하는 것으로 유명하다.",
+    "philanthropy": "Through the Morgan Family Foundation, he and his family are major donors to the Weitzman National Museum of American Jewish History, Jewish Federation of Greater Philadelphia, Temple University, University of Pennsylvania, Barnes Foundation, Philadelphia Orchestra, Philadelphia Museum of Art, Children's Hospital of Philadelphia, and Dana-Farber Cancer Institute.",
+    "philanthropyKo": "모건 패밀리 재단을 통해 바이츠만 미국 유대역사 국립박물관, 필라델피아 유대인 연맹, 템플 대학교, 펜실베이니아 대학교, 반스 재단, 필라델피아 오케스트라, 필라델피아 미술관, 어린이 병원, 대나파버 암연구소 등에 대규모 기부를 하고 있다."
   },
   "sajuConnection": null
 }

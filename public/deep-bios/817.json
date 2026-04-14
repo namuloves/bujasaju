@@ -1,51 +1,96 @@
 {
   "id": "817",
-  "name": "George Prokopiou",
+  "name": "Saban Cemil Kazanci",
   "childhood": {
-    "birthPlace": "Athens, Greece",
-    "birthPlaceKo": "그리스 아테네",
-    "familyBackground": "Greek shipping family. Father was involved in maritime shipping business.",
-    "familyBackgroundKo": "해운 가족. 아버지는 해운 사업에 참여.",
-    "education": "National and Kapodistrian University of Athens",
-    "educationKo": "아테네 국립 카포디스트리아 대학교",
-    "earlyLife": "Grew up in Greece's shipping tradition. Early exposure to maritime commerce and logistics.",
-    "earlyLifeKo": "그리스의 해운 전통 속에서 성장. 해상 상거래 및 물류에 대한 조기 노출.",
-    "source": "Greek Shipping Industry Archives"
+    "birthPlace": "Istanbul, Turkey",
+    "birthPlaceKo": "터키 이스탄불",
+    "familyBackground": "Şaban Cemil Kazancı was born in 1961 in Istanbul into a prominent business family. His father, Ali Metin Kazancı, had founded what would become Kazancı Holding in the late 1950s, starting with trading before entering the energy sector in 1968 with the establishment of the Watt Electric Motor Factory. Growing up, Cemil was immersed in the family business from an early age, learning the energy sector firsthand.",
+    "familyBackgroundKo": "1961년 이스탄불에서 저명한 사업가 집안에서 태어났다. 그의 부친 알리 메틴 카잔즈는 1950년대 말 무역업으로 시작해 1968년 와트 전기모터 공장 설립을 통해 에너지 분야에 진출, 카잔즈 홀딩의 기틀을 닦았다. 세밀은 어린 시절부터 가업에 깊이 노출되며 에너지 산업을 몸으로 익혔다.",
+    "education": "Kazancı attended Istanbul Technical University, where he studied engineering, gaining technical knowledge that would later inform his leadership of one of Turkey's most complex energy conglomerates.",
+    "educationKo": "이스탄불 공과대학교에서 공학을 전공하며 이후 터키 최대 에너지 복합기업을 이끌 기술적 기반을 다졌다.",
+    "earlyLife": "From a young age, Kazancı worked within the family business, learning generator manufacturing and energy distribution. He took on increasing responsibilities as the group expanded its energy portfolio throughout the 1980s and 1990s.",
+    "earlyLifeKo": "어린 시절부터 가업에 참여하며 발전기 제조와 에너지 유통을 배웠다. 1980~90년대 그룹의 에너지 포트폴리오가 확대되면서 점차 더 많은 책임을 맡았다."
   },
   "careerTimeline": [
     {
-      "year": 1990,
-      "event": "Started shipping and logistics company",
-      "eventKo": "해운 및 물류 회사 시작"
+      "year": 1968,
+      "event": "Father Ali Metin Kazancı established the Watt Electric Motor Factory, marking the Kazancı family's formal entry into the energy sector. Cemil later credits this founding as the group's defining moment.",
+      "eventKo": "부친 알리 메틴 카잔즈가 와트 전기모터 공장을 설립하며 카잔즈 가문이 에너지 산업에 본격 진출했다. 세밀은 훗날 이 창업을 그룹의 결정적 전환점으로 꼽는다."
+    },
+    {
+      "year": 1980,
+      "event": "Kazancı Holding launched the Aksa Generator brand, beginning production of diesel and gas generators. The brand would grow to become one of the world's largest generator manufacturers.",
+      "eventKo": "카잔즈 홀딩이 악사 제너레이터 브랜드를 론칭하며 디젤·가스 발전기 생산을 시작했다. 이 브랜드는 이후 세계 최대 발전기 제조사 중 하나로 성장한다."
+    },
+    {
+      "year": 1985,
+      "event": "Cemil Kazancı joined the family business in a formal leadership capacity, taking on responsibility for expanding the generator manufacturing and distribution operations.",
+      "eventKo": "세밀 카잔즈가 그룹 경영에 공식 합류해 발전기 제조 및 유통 사업 확장을 담당했다."
+    },
+    {
+      "year": 1997,
+      "event": "Co-established Aksa Enerji (Aksa Energy), which would grow into one of Turkey's largest private electricity producers, with capacity in thermal, wind, hydroelectric, and natural gas power plants.",
+      "eventKo": "악사 에너르지(악사 에너지)를 공동 설립했다. 이 회사는 화력·풍력·수력·가스 발전을 아우르는 터키 최대 민간 발전사 중 하나로 성장한다."
     },
     {
       "year": 2000,
-      "event": "Expanded maritime fleet and operations",
-      "eventKo": "해상 함대 및 운영 확대"
+      "event": "Assumed leadership of Kazancı Holding as Chairman and CEO, overseeing a group that by then spanned generator manufacturing, LPG distribution (Milangaz), and electricity generation.",
+      "eventKo": "카잔즈 홀딩 회장 겸 CEO로 그룹 경영을 전면 지휘하기 시작했다. 당시 그룹은 발전기 제조, LPG 유통(밀란가즈), 전력 발전 등을 아우르고 있었다."
+    },
+    {
+      "year": 2006,
+      "event": "Aksa Natural Gas was established to distribute natural gas, diversifying the group's energy portfolio and expanding into pipeline gas distribution across Turkey.",
+      "eventKo": "악사 천연가스를 설립해 파이프라인 가스 배급 사업에 진출, 그룹의 에너지 포트폴리오를 천연가스 유통까지 확대했다."
     },
     {
       "year": 2010,
-      "event": "Built major international shipping enterprise",
-      "eventKo": "주요 국제 해운 기업 구축"
-    }
-  ],
-  "failures": [],
-  "wealthHistory": [
-    {
-      "year": 2010,
-      "netWorth": 2.5
+      "event": "Launched Aksa Electricity to enter electricity distribution and retail sales, further vertically integrating the group's energy operations from generation to end-customer delivery.",
+      "eventKo": "악사 일렉트리시티를 출범시켜 전력 유통 및 소매 판매에 진출하며, 발전부터 최종 소비자까지 이어지는 수직 계열화를 완성했다."
     },
     {
       "year": 2015,
-      "netWorth": 3.5
+      "event": "Expanded Aksa Energy's international presence significantly, establishing power plants across Africa and other emerging markets, making the group a significant player in global energy infrastructure.",
+      "eventKo": "악사 에너지의 국제 사업을 대폭 확장해 아프리카 및 기타 신흥 시장에 발전소를 건설하며 글로벌 에너지 인프라 시장의 주요 플레이어로 자리잡았다."
+    },
+    {
+      "year": 2023,
+      "event": "Kazancı Holding reported revenues of $3.6 billion with operations in 25 countries and sales to over 178 countries, with more than 10,000 employees across four continents.",
+      "eventKo": "카잔즈 홀딩은 25개국 운영, 178개국 이상 판매, 4개 대륙 1만 명 이상 임직원을 바탕으로 36억 달러의 매출을 기록했다."
+    }
+  ],
+  "failures": [
+    {
+      "year": 2022,
+      "description": "A family dispute between Cemil Kazancı and his brother over the control and direction of Aksa Energy became public, with reports that the brothers sought government mediation. The internal conflict created uncertainty around the group's governance and strategic direction.",
+      "descriptionKo": "세밀 카잔즈와 형제 사이에 악사 에너지 경영권과 방향성을 놓고 가족 분쟁이 불거졌고, 양측이 정부 중재를 요청했다는 보도가 나왔다. 이 내부 갈등은 그룹 지배구조와 전략 방향에 불확실성을 야기했다.",
+      "lesson": "Family business succession and shared governance require clear legal and structural frameworks. Ambiguity in ownership and control can destabilize even a highly successful conglomerate.",
+      "lessonKo": "가족 기업의 승계와 공동 경영에는 명확한 법적·구조적 틀이 필요하다. 소유권과 경영권의 모호함은 아무리 성공한 그룹도 흔들 수 있다."
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2015,
+      "netWorth": 2.0
+    },
+    {
+      "year": 2018,
+      "netWorth": 3.2
     },
     {
       "year": 2020,
-      "netWorth": 4.1
+      "netWorth": 3.8
+    },
+    {
+      "year": 2022,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2024,
+      "netWorth": 4.9
     },
     {
       "year": 2025,
-      "netWorth": 4.7
+      "netWorth": 5.1
     }
   ],
   "quotes": [],
@@ -54,12 +99,10 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Greek shipping magnate and logistics leader. Built major international shipping and logistics operations. Known for expertise in maritime commerce.",
-    "knownForKo": "그리스 해운 거물이자 물류 지도자. 주요 국제 해운 및 물류 운영 구축. 해상 상거래 전문 지식으로 알려짐.",
-    "philanthropy": "Supports Greek maritime education and industry development",
-    "philanthropyKo": "그리스 해운 교육 및 산업 발전 지원",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Kazancı is known as a low-profile yet highly effective business leader who transformed a family trading company into one of Turkey's largest energy conglomerates. He is regarded as a strategic visionary who anticipated Turkey's energy needs and built infrastructure ahead of demand. He owns approximately 60% of Kazancı Holding.",
+    "knownForKo": "카잔즈는 저명세를 유지하면서도 가족 무역 회사를 터키 최대 에너지 복합기업 중 하나로 탈바꿈시킨 탁월한 경영자로 알려져 있다. 터키의 에너지 수요를 선제적으로 내다보고 수요 발생 전에 인프라를 구축한 전략적 선견지명으로 평가받는다. 카잔즈 홀딩 지분의 약 60%를 보유하고 있다.",
+    "philanthropy": "Kazancı Holding has undertaken various corporate social responsibility initiatives in Turkey, particularly in education and energy access. The group has established educational programs and supported community development in regions where its energy infrastructure operates.",
+    "philanthropyKo": "카잔즈 홀딩은 터키 내 교육 및 에너지 접근성 분야에서 다양한 사회 공헌 활동을 펼치고 있다. 에너지 인프라가 운영되는 지역에서 교육 프로그램 설립과 지역사회 개발을 지원하고 있다."
   },
   "sajuConnection": null
 }

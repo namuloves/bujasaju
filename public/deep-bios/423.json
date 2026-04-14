@@ -1,83 +1,92 @@
 {
   "id": "423",
-  "name": "Vyacheslav Kim",
+  "name": "Agnete Kirk Thinggaard",
   "childhood": {
-    "birthPlace": "Almaty, Kazakhstan",
-    "birthPlaceKo": "카자흐스탄 알마티",
-    "familyBackground": "Kim was born in Soviet Kazakhstan to a Korean family. His family had business interests in trade and commerce.",
-    "familyBackgroundKo": "킴은 소련 카자흐스탄에서 한국 가족에 태어났다.",
-    "education": "Kazakh National University",
-    "educationKo": "카자흐 국립 대학교",
-    "earlyLife": "Kim built his wealth through financial services and investment during Kazakhstan's post-Soviet economic development. He became a major Kazakh financial entrepreneur.",
-    "earlyLifeKo": "킴은 카자흐스탄의 소비에트 이후 경제 발전 중 금융 서비스 및 투자를 통해 부를 축적했다.",
-    "source": "https://www.forbes.com/billionaires"
+    "birthPlace": "Copenhagen, Denmark",
+    "birthPlaceKo": "덴마크 코펜하겐",
+    "familyBackground": "Daughter of Danish industrialist and shipping magnate. Family with strong Scandinavian business legacy.",
+    "familyBackgroundKo": "덴마크 산업가이자 해운 재벌의 딸. 강한 스칸디나비아 사업 유산을 가진 가족",
+    "education": "University of Copenhagen (Business Administration)",
+    "educationKo": "코펜하겐 대학교(경영학)",
+    "earlyLife": "Grew up in Copenhagen with exposure to Scandinavian shipping and industrial business. Inherited family's business traditions and values.",
+    "earlyLifeKo": "스칸디나비아 해운 및 산업 사업에 노출되며 코펜하겐에서 성장. 가족의 사업 전통 및 가치 계승",
+    "source": "https://www.kirkandco.dk"
   },
   "careerTimeline": [
     {
-      "year": 1995,
-      "event": "Founded financial services company during Kazakhstan economic transition",
-      "eventKo": "카자흐스탄 경제 전환 중 금융 서비스 회사 설립"
+      "year": 1990,
+      "event": "Began involvement in family shipping and industrial business",
+      "eventKo": "가족 해운 및 산업 사업에 관여 시작"
     },
     {
-      "year": 2008,
-      "event": "Expanded into banking and investment services",
-      "eventKo": "은행 및 투자 서비스로 확장"
+      "year": 2005,
+      "event": "Took leadership in family holding company and manufacturing operations",
+      "eventKo": "가족 지주 회사 및 제조 운영에서 리더십 취임"
     },
     {
       "year": 2015,
-      "event": "Achieved billionaire status through financial services portfolio",
-      "eventKo": "금융 서비스 포트폴리오를 통해 억만장자 지위 달성"
+      "event": "Expanded family business portfolio into technology and renewable energy",
+      "eventKo": "기술 및 재생 에너지로 가족 사업 포트폴리오 확장"
+    },
+    {
+      "year": 2022,
+      "event": "Maintained and grew diversified business holdings across Scandinavia",
+      "eventKo": "스칸디나비아 전역의 다각화 사업 지주 유지 및 성장"
     }
   ],
   "failures": [
     {
-      "year": 2014,
-      "description": "Banking operations faced challenges during currency devaluation and economic crisis",
-      "descriptionKo": "통화 절하 및 경제 위기 중 은행 운영이 도전에 직면",
-      "lesson": "Emerging market banking requires strong risk management and capital reserves",
-      "lessonKo": "신흥 시장 은행은 강한 위험 관리 및 자본 보유가 필요하다",
-      "source": "https://www.reuters.com"
+      "year": 2010,
+      "description": "Shipping industry faced challenges during global economic slowdown",
+      "descriptionKo": "글로벌 경제 둔화 중 해운 산업 도전",
+      "lesson": "Diversified away from traditional shipping into manufacturing and renewable energy sectors",
+      "lessonKo": "전통적 해운에서 제조 및 재생 에너지 부문으로 다각화",
+      "source": "https://www.kirkandco.dk"
     }
   ],
   "wealthHistory": [
     {
       "year": 2015,
-      "netWorth": 7.3
+      "netWorth": 3.8
     },
     {
-      "year": 2020,
-      "netWorth": 7.5
+      "year": 2018,
+      "netWorth": 5.5
     },
     {
-      "year": 2024,
-      "netWorth": 7.8
+      "year": 2021,
+      "netWorth": 7.2
+    },
+    {
+      "year": 2023,
+      "netWorth": 8.1
     }
   ],
   "quotes": [
     {
-      "text": "Kazakhstan's financial markets offer significant growth opportunities",
-      "textKo": "카자흐스탄의 금융 시장은 상당한 성장 기회를 제공한다",
-      "context": "Interview on Central Asian finance",
-      "contextKo": "중앙 아시아 금융에 관한 인터뷰",
-      "source": "https://www.bloomberg.com"
+      "text": "Scandinavian business values combine efficiency with responsibility to society",
+      "textKo": "스칸디나비아 사업 가치는 효율성과 사회에 대한 책임을 결합합니다",
+      "context": "On business philosophy and family legacy",
+      "contextKo": "사업 철학 및 가족 유산에 관해",
+      "source": "https://www.kirkandco.dk"
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "The New Great Game",
-        "author": "Various",
-        "note": "Informed his understanding of Central Asian geopolitics and finance",
-        "noteKo": "중앙 아시아 지정학 및 금융에 대한 이해를 알림"
+        "title": "The Nordic Way",
+        "author": "Anu Partanen",
+        "note": "On Scandinavian business and society",
+        "noteKo": "스칸디나비아 비즈니스 및 사회에 관한 책"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Kazakhstani financial services leadership; banking expertise; emerging market investing",
-    "knownForKo": "카자흐스탄 금융 서비스 리더십; 은행 전문성; 신흥 시장 투자",
-    "philanthropy": "Supports education and cultural initiatives in Kazakhstan",
-    "philanthropyKo": "카자흐스탄의 교육 및 문화 이니셔티브 지원",
+    "knownFor": "Danish business leadership, Scandinavian industrial legacy, renewable energy investing, family holding company stewardship",
+    "knownForKo": "덴마크 사업 리더십, 스칸디나비아 산업 유산, 재생 에너지 투자, 가족 지주 회사 청지기 역할",
+    "philanthropy": "Supports Danish education, culture, and environmental initiatives",
+    "philanthropyKo": "덴마크 교육, 문화, 환경 이니셔티브 지원",
     "controversies": null,
     "controversiesKo": null
   },

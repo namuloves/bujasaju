@@ -1,100 +1,130 @@
 {
   "id": "162",
-  "name": "Harold Hamm",
-  "nameKo": "해럴드 햄",
-  "netWorth": "$16B",
-  "nationality": "US",
-  "industry": "Energy",
+  "name": "Jan Koum",
   "childhood": {
-    "birthPlace": "Lexington, Oklahoma, United States",
-    "birthPlaceKo": "미국 오클라호마주 렉싱턴",
-    "familyBackground": "Born the 13th and youngest child of cotton sharecroppers Jane Elizabeth Sparks and Leland Albert Hamm; grew up in extreme poverty picking cotton and hauling hay",
-    "familyBackgroundKo": "면화 소작농인 제인 엘리자베스 스팍스와 릴런드 앨버트 햄의 13번째이자 막내로 출생; 극심한 빈곤 속에서 면화를 따고 건초를 나르며 성장",
-    "education": "Enid High School (graduated 1964); later earned degree from Phillips University in Enid after achieving business success",
-    "educationKo": "에니드 고등학교(1964년 졸업); 사업 성공 후 에니드의 필립스 대학교에서 학위 취득",
-    "earlyLife": "Born December 11, 1945, in Lexington, Oklahoma, Harold Hamm was the youngest of 13 children in a sharecropper family. He grew up picking cotton and hauling hay in rural Oklahoma. At age 16, he started working at a gas station to help support his family, and later took a job mucking out oil tanks at a refinery. He didn't eat in a restaurant until he was a teenager. After starting to work in oil fields as a teenager, he founded his own company at age 21.",
-    "earlyLifeKo": "1945년 12월 11일 오클라호마주 렉싱턴에서 태어난 해럴드 햄은 소작농 가정의 13자녀 중 막내였다. 오클라호마 시골에서 면화를 따고 건초를 나르며 자랐다. 16세에 가족을 부양하기 위해 주유소에서 일하기 시작했고, 이후 정유소에서 기름 탱크를 청소하는 일을 했다. 십대가 될 때까지 식당에서 식사한 적이 없었다. 십대 시절부터 유전에서 일한 후 21세에 자신의 회사를 설립했다.",
-    "source": "Wikipedia, Horatio Alger Association"
+    "birthPlace": "Kyiv, Ukrainian SSR, Soviet Union (now Ukraine)",
+    "birthPlaceKo": "소련 우크라이나 소비에트 사회주의 공화국 키이우 (현 우크라이나)",
+    "familyBackground": "Born on February 24, 1976, into a Jewish family. Grew up in Fastiv, a small town outside Kyiv. His father was a construction manager and his mother was a homemaker. The family lived in a modest three-room apartment without reliable hot water or electricity. His parents avoided phone calls, fearing government surveillance under the Soviet regime.",
+    "familyBackgroundKo": "1976년 2월 24일 유대인 가정에서 태어남. 키이우 외곽의 소도시 파스티우에서 성장. 아버지는 건설 관리자, 어머니는 전업주부였으며, 온수와 전기도 불안정한 소박한 3칸짜리 아파트에서 거주. 소련 체제의 감시를 우려해 부모는 전화 통화를 꺼렸음.",
+    "education": "Enrolled at San Jose State University while simultaneously working at Ernst & Young as a security tester. Dropped out of university around 1997 to take a full-time position as an infrastructure engineer at Yahoo!.",
+    "educationKo": "산호세 주립대학교에 재학하면서 어니스트 앤 영에서 보안 테스터로 일함. 1997년경 야후!에 인프라 엔지니어로 풀타임 취직하기 위해 대학을 중퇴함.",
+    "earlyLife": "Immigrated to Mountain View, California in 1992 at age 16 with his mother and grandmother, fleeing anti-Semitic persecution. They survived on food stamps and government assistance. His mother worked as a babysitter while Jan cleaned floors at a grocery store. His father was unable to join them due to illness and died in Ukraine in 1997. His mother died of cancer in 2000. By 18, Koum had taught himself computer networking from used manuals purchased at a thrift store.",
+    "earlyLifeKo": "1992년 16세 때 반유대주의 박해를 피해 어머니, 할머니와 함께 캘리포니아 마운틴뷰로 이민. 푸드 스탬프와 정부 지원으로 생활하며, 어머니는 아이 돌보는 일을, 본인은 식료품점 청소 일을 함. 아버지는 병으로 합류하지 못하고 1997년 우크라이나에서 사망. 어머니도 2000년 암으로 세상을 떠남. 18세에 중고서점에서 산 교재로 독학하여 컴퓨터 네트워킹을 익힘.",
+    "source": "Wikipedia, The Famous People, Forbes, Inc."
   },
   "careerTimeline": [
     {
-      "year": 1961,
-      "event": "At age 16, started working at a gas station and later mucking out oil tanks at a refinery",
-      "eventKo": "16세에 주유소에서 일하기 시작했고 이후 정유소에서 기름 탱크를 청소하는 일을 함"
-    },
-    {
-      "year": 1967,
-      "event": "Founded Shelly Dean Oil Company (later Continental Resources) at age 21 with a $50,000 loan",
-      "eventKo": "21세에 5만 달러 대출로 셸리딘 오일 컴퍼니(이후 콘티넨탈 리소시스)를 설립"
-    },
-    {
-      "year": 1995,
-      "event": "Began exploring the Bakken Formation in North Dakota, believing it held massive untapped oil reserves",
-      "eventKo": "노스다코타의 바켄 지층에 막대한 미개발 석유 매장량이 있다고 믿고 탐사 시작"
+      "year": 1997,
+      "event": "Joined Yahoo! as an infrastructure engineer after dropping out of San Jose State; met future co-founder Brian Acton while working at Ernst & Young",
+      "eventKo": "산호세 주립대를 중퇴하고 야후!에 인프라 엔지니어로 입사. 어니스트 앤 영에서 일하며 미래의 공동 창업자 브라이언 액턴을 만남"
     },
     {
       "year": 2007,
-      "event": "Continental Resources went public on the NYSE; Hamm named Ernst & Young 'Entrepreneur of the Year'",
-      "eventKo": "콘티넨탈 리소시스가 뉴욕증권거래소에 상장; 햄이 언스트앤영 '올해의 기업가'로 선정"
+      "event": "Left Yahoo! after nine years along with Brian Acton; traveled and took time off",
+      "eventKo": "9년 근무 후 브라이언 액턴과 함께 야후!를 퇴사하고 여행하며 휴식"
     },
     {
-      "year": 2012,
-      "event": "Named one of Time magazine's '100 Most Influential People'; Continental became a Top 10 U.S. oil producer",
-      "eventKo": "타임지 '세계에서 가장 영향력 있는 100인'에 선정; 콘티넨탈이 미국 10대 석유 생산자가 됨"
+      "year": 2009,
+      "event": "Incorporated WhatsApp Inc. on his 33rd birthday (February 24); initially conceived as a status-display app for phone contacts",
+      "eventKo": "33세 생일인 2월 24일에 WhatsApp Inc.를 설립. 처음에는 연락처의 상태를 표시하는 앱으로 구상"
     },
     {
-      "year": 2022,
-      "event": "Took Continental Resources private in a $4.3 billion deal, buying out minority shareholders",
-      "eventKo": "43억 달러 규모의 거래로 소수 주주를 매수하여 콘티넨탈 리소시스를 비상장으로 전환"
+      "year": 2009,
+      "event": "After Apple added push notifications to iOS, WhatsApp pivoted to become a messaging platform, gaining rapid user adoption",
+      "eventKo": "애플이 iOS에 푸시 알림 기능을 추가한 후 WhatsApp이 메시징 플랫폼으로 전환하면서 사용자가 급증"
+    },
+    {
+      "year": 2011,
+      "event": "Sequoia Capital invested $8 million in WhatsApp; the app reached tens of millions of active users",
+      "eventKo": "세쿼이아 캐피털이 WhatsApp에 800만 달러를 투자하고, 앱 사용자 수가 수천만 명에 달함"
+    },
+    {
+      "year": 2014,
+      "event": "Facebook acquired WhatsApp for $19 billion — one of the largest tech acquisitions in history; Koum joined Facebook's board of directors",
+      "eventKo": "페이스북이 WhatsApp을 190억 달러에 인수 — 기술 업계 역사상 최대 규모의 인수 중 하나. 페이스북 이사회에 합류"
+    },
+    {
+      "year": 2018,
+      "event": "Left WhatsApp and resigned from Facebook's board of directors due to disagreements over data privacy and the use of user data for advertising",
+      "eventKo": "데이터 프라이버시와 사용자 데이터의 광고 활용에 대한 의견 충돌로 WhatsApp을 떠나고 페이스북 이사회에서도 사임"
     }
   ],
   "failures": [
     {
-      "year": 2014,
-      "description": "Hamm's divorce from second wife Sue Ann Arnall resulted in a $974.8 million settlement — one of the largest in U.S. history. The divorce proceedings exposed details of his personal finances and business operations.",
-      "descriptionKo": "두 번째 부인 수앤 아넬과의 이혼으로 9억 7,480만 달러의 합의금이 발생 — 미국 역사상 최대 규모 중 하나. 이혼 과정에서 그의 개인 재정과 사업 운영에 대한 세부 사항이 노출되었다.",
-      "lesson": "Despite the massive settlement, Hamm continued to grow Continental Resources and his personal wealth, demonstrating resilience and focus on long-term business building.",
-      "lessonKo": "막대한 합의금에도 불구하고 햄은 콘티넨탈 리소시스와 개인 자산을 계속 성장시키며 회복력과 장기적 사업 구축에 대한 집중력을 보여주었다.",
-      "source": "CNN, Tulsa World, Wikipedia"
+      "year": 2009,
+      "description": "In its early months, WhatsApp repeatedly crashed and Koum seriously considered giving up the project and looking for a regular job. Brian Acton convinced him to persevere.",
+      "descriptionKo": "초창기 WhatsApp은 반복적으로 다운되었고, 쿰은 프로젝트를 포기하고 일반 직장을 구하려고 심각하게 고민함. 브라이언 액턴이 계속할 것을 설득함.",
+      "lesson": "Persistence through technical failures in the early stages can make the difference between a failed side project and a billion-dollar company.",
+      "lessonKo": "초기 기술적 실패를 견뎌내는 끈기가 실패한 사이드 프로젝트와 수십억 달러 기업의 차이를 만듦.",
+      "source": "Forbes, The Famous People"
     },
     {
-      "year": 2020,
-      "description": "Oil prices crashed during COVID-19 pandemic, with crude briefly going negative. Continental Resources' stock dropped significantly, and Hamm's net worth fell from $18.5 billion to under $5 billion at the low point.",
-      "descriptionKo": "COVID-19 팬데믹 중 유가가 폭락하여 원유 가격이 잠시 마이너스로 떨어졌다. 콘티넨탈 리소시스의 주가가 크게 하락했고, 햄의 순자산은 185억 달러에서 최저점에서 50억 달러 미만으로 떨어졌다.",
-      "lesson": "The oil price recovery and subsequent energy boom vindicated Hamm's long-term bet on American oil production and his decision to hold rather than sell during the downturn.",
-      "lessonKo": "유가 회복과 이후 에너지 붐은 미국 석유 생산에 대한 햄의 장기적 투자와 하락기에 매도하지 않고 보유하겠다는 결정이 옳았음을 입증했다.",
-      "source": "Forbes, Bloomberg"
+      "year": 2009,
+      "description": "Both Koum and Acton applied for jobs at Facebook and Twitter and were rejected by both companies, shortly before starting WhatsApp.",
+      "descriptionKo": "쿰과 액턴 모두 페이스북과 트위터에 입사 지원했으나 두 회사 모두에서 거절당했으며, 그 직후 WhatsApp을 시작함.",
+      "lesson": "Rejection from established companies can become the catalyst for creating something far more impactful and valuable.",
+      "lessonKo": "기존 대기업으로부터의 거절이 훨씬 더 영향력 있고 가치 있는 것을 만들어내는 촉매가 될 수 있음.",
+      "source": "Inc., Forbes"
+    },
+    {
+      "year": 2018,
+      "description": "Left WhatsApp and Facebook's board after clashing with Mark Zuckerberg over plans to weaken WhatsApp's encryption and use personal data for ad targeting — sacrificing approximately $850 million in unvested stock.",
+      "descriptionKo": "WhatsApp의 암호화 약화 및 개인 데이터의 광고 타겟팅 활용 계획을 두고 마크 저커버그와 충돌한 후 WhatsApp과 페이스북 이사회를 떠남 — 미확정 주식 약 8억 5천만 달러를 포기함.",
+      "lesson": "Staying true to core principles may come at an enormous financial cost, but can preserve one's integrity and legacy.",
+      "lessonKo": "핵심 원칙을 지키는 것은 막대한 재정적 대가를 치를 수 있지만, 자신의 진정성과 유산을 보존할 수 있음.",
+      "source": "Washington Post, Forbes"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2010,
-      "netWorth": 5.8
+      "year": 2014,
+      "netWorth": 7.5
     },
     {
-      "year": 2014,
-      "netWorth": 18.5
+      "year": 2016,
+      "netWorth": 9.6
+    },
+    {
+      "year": 2019,
+      "netWorth": 11.3
     },
     {
       "year": 2020,
-      "netWorth": 4.8
+      "netWorth": 10.0
     },
     {
-      "year": 2022,
-      "netWorth": 18.5
-    },
-    {
-      "year": 2025,
-      "netWorth": 16.0
+      "year": 2024,
+      "netWorth": 16.8
     }
   ],
   "quotes": [
     {
-      "text": "I tell people that this country was built on its knees. People have got to have the opportunity to succeed or to fail.",
-      "textKo": "저는 사람들에게 이 나라는 무릎을 꿇고 세워졌다고 말합니다. 사람들에게는 성공하거나 실패할 기회가 있어야 합니다.",
-      "context": "Speaking about the American dream and the importance of entrepreneurial opportunity",
-      "contextKo": "아메리칸 드림과 기업가적 기회의 중요성에 대해 발언",
-      "source": "Horatio Alger Association"
+      "text": "Nobody should have the right to eavesdrop, or you become a totalitarian state — the kind of state I escaped as a kid to come to this country where you have democracy and freedom of speech.",
+      "textKo": "누구도 도청할 권리를 가져선 안 된다. 그렇지 않으면 전체주의 국가가 된다 — 내가 어린 시절 민주주의와 언론의 자유가 있는 이 나라로 오기 위해 탈출했던 그런 국가 말이다.",
+      "context": "On why privacy is a core value of WhatsApp, drawing from his Soviet childhood",
+      "contextKo": "소련 시절 어린 시절 경험을 바탕으로 WhatsApp의 핵심 가치로서 프라이버시를 강조하며",
+      "source": "BrainyQuote"
+    },
+    {
+      "text": "I want to do one thing and do it well.",
+      "textKo": "한 가지 일을 하되 제대로 하고 싶다.",
+      "context": "On WhatsApp's philosophy of focused simplicity and avoiding feature bloat",
+      "contextKo": "기능 과잉을 피하고 집중된 단순함을 추구하는 WhatsApp의 철학에 대해",
+      "source": "BrainyQuote"
+    },
+    {
+      "text": "When advertising is involved, you, the user, are the product.",
+      "textKo": "광고가 개입되면, 사용자인 당신이 곧 상품이 된다.",
+      "context": "Explaining WhatsApp's early decision to charge a small annual fee rather than rely on advertising",
+      "contextKo": "광고에 의존하지 않고 소액의 연간 사용료를 부과하기로 한 WhatsApp 초기 결정을 설명하며",
+      "source": "BrainyQuote"
+    },
+    {
+      "text": "We focus a lot on the quality of experience, speed, reliability. It's not sexy from a lot of people's perspective, it's not glitzy in the feature set, but it's what people come to rely on.",
+      "textKo": "우리는 사용자 경험의 질, 속도, 신뢰성에 많이 집중한다. 많은 사람들이 보기에 화려하지 않고 기능도 번지르르하지 않지만, 사람들이 의지하게 되는 것은 바로 그런 것이다.",
+      "context": "On WhatsApp's product philosophy emphasizing reliability over flashy features",
+      "contextKo": "화려한 기능보다 신뢰성을 강조하는 WhatsApp의 제품 철학에 대해",
+      "source": "BrainyQuote"
     }
   ],
   "books": {
@@ -102,12 +132,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Pioneering horizontal drilling and hydraulic fracturing in the Bakken Formation; rags-to-riches story from sharecropper's son to billionaire oil magnate; taking Continental Resources private",
-    "knownForKo": "바켄 지층에서 수평 시추와 수압 파쇄의 선구자; 소작농 아들에서 억만장자 석유 재벌로의 입지전적 성공 스토리; 콘티넨탈 리소시스 비상장 전환",
-    "philanthropy": "Member of the Horatio Alger Association; inducted into Oklahoma Hall of Fame (2011); supports educational and energy-related causes in Oklahoma",
-    "philanthropyKo": "호레이쇼 앨저 협회 회원; 오클라호마 명예의 전당 헌액(2011); 오클라호마의 교육 및 에너지 관련 사업 지원",
-    "controversies": "Record-breaking $974.8 million divorce settlement (2014); supporter of Republican political candidates and fossil fuel industry lobbying; environmental concerns related to fracking operations",
-    "controversiesKo": "기록적인 9억 7,480만 달러 이혼 합의금(2014); 공화당 정치 후보 및 화석연료 산업 로비 지지; 수압 파쇄 작업과 관련된 환경 우려"
+    "knownFor": "Intensely private and minimalist lifestyle despite billions in wealth. Strong advocate for user privacy and encryption. Known for his immigrant work ethic and deep personal connection to the mission of keeping communication private and accessible. Signed the Giving Pledge to donate the majority of his wealth to charity.",
+    "knownForKo": "수십억 달러의 재산에도 불구하고 극도로 사적이고 미니멀한 생활 방식을 유지함. 사용자 프라이버시와 암호화의 강력한 옹호자. 이민자 특유의 근면함과 통신의 프라이버시 및 접근성을 지키겠다는 사명에 대한 깊은 개인적 유대로 알려져 있음. 기빙 플레지에 서명하여 재산의 대부분을 기부하기로 약속.",
+    "philanthropy": "Signed the Giving Pledge in 2014, committing to donate the majority of his wealth. Donated $556 million to the Silicon Valley Community Foundation in 2014, one of the largest charitable donations in that year.",
+    "philanthropyKo": "2014년 기빙 플레지에 서명하여 재산의 대부분을 기부하기로 약속. 같은 해 실리콘밸리 커뮤니티 재단에 5억 5,600만 달러를 기부하여 당해 최대 규모의 자선 기부 중 하나를 기록.",
+    "controversies": "Departure from Facebook in 2018 highlighted tensions between WhatsApp's privacy-first ethos and Facebook's data-driven advertising model. Some critics questioned whether selling to Facebook in the first place contradicted his privacy principles.",
+    "controversiesKo": "2018년 페이스북 퇴사는 WhatsApp의 프라이버시 우선 철학과 페이스북의 데이터 기반 광고 모델 간의 갈등을 부각시킴. 일부 비평가들은 처음에 페이스북에 매각한 것 자체가 프라이버시 원칙과 모순된다고 지적함."
   },
   "sajuConnection": null
 }

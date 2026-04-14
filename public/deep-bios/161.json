@@ -1,110 +1,92 @@
 {
   "id": "161",
-  "name": "Peter Mallouk",
-  "childhood": {
-    "birthPlace": "Kansas City, Missouri, USA",
-    "birthPlaceKo": "미국 미주리주 캔자스시티",
-    "familyBackground": "Peter Mallouk was born on January 16, 1970, in Kansas City, Missouri. His father was a physician and his mother a teacher; both had immigrated from Egypt, instilling in him values of education, hard work, and entrepreneurship from a young age.",
-    "familyBackgroundKo": "1970년 1월 16일 미주리주 캔자스시티에서 태어났다. 아버지는 의사, 어머니는 교사였으며 두 분 모두 이집트 이민자였다. 이런 가정 환경이 어린 시절부터 교육·근면·기업가 정신을 심어주었다.",
-    "education": "Mallouk attended the University of Kansas, where he earned his undergraduate degree. He remained for graduate school, earning both a JD (law) and an MBA simultaneously, while simultaneously running a chain of CD retail stores he had opened.",
-    "educationKo": "캔자스대학교에서 학부를 마치고 대학원에 진학해 법학박사(JD)와 경영학석사(MBA)를 동시에 취득했다. 재학 중에는 직접 차린 CD 소매점 체인을 운영하기도 했다.",
-    "earlyLife": "From an early age, Mallouk showed entrepreneurial instincts — delivering newspapers, starting a DJ business, and mowing lawns for neighbors before launching his first retail business in graduate school.",
-    "earlyLifeKo": "어린 시절부터 신문 배달, DJ 사업, 이웃집 잔디 깎기 등 다양한 사업을 벌이며 기업가적 본능을 드러냈고, 대학원 재학 중에는 소매 사업까지 창업했다."
-  },
+  "name": "Arthur Dantchik",
+  "nameKo": "아서 단치크",
+  "childhood": "Arthur Dantchik was born in 1957 and grew up attending Bayside High School in Queens, New York. A gifted student with a talent for numbers and probability, he went on to earn a Bachelor of Science in Biology from the State University of New York at Binghamton, where he roomed with fellow future billionaire Jeff Yass. The two bonded over marathon card games and shared a mathematical approach to risk that would later define SIG's trading philosophy.",
+  "childhoodKo": "아서 단치크는 1957년 뉴욕 퀸스의 베이사이드 고등학교를 다니며 성장했다. 수와 확률에 타고난 재능을 가진 학생이었던 그는 뉴욕주립대학교 빙엄턴 캠퍼스에서 생물학 학사를 취득했으며, 그곳에서 훗날 또 다른 억만장자가 될 제프 야스와 룸메이트로 지냈다. 두 사람은 밤새 카드 게임을 하며 우정을 쌓았고, 그 수학적 리스크 접근법은 훗날 SIG의 트레이딩 철학의 근간이 됐다.",
   "careerTimeline": [
     {
-      "year": 1993,
-      "event": "While earning law and MBA degrees at the University of Kansas, opened and operated a chain of CD retail stores, gaining early hands-on business experience.",
-      "eventKo": "캔자스대학교에서 법학박사·MBA 취득 중 CD 소매점 체인을 창업하고 운영하며 실전 경영 경험을 쌓음."
+      "year": 1980,
+      "event": "After graduating from SUNY Binghamton, worked as a professional gambler in Las Vegas, honing probabilistic thinking and bankroll management skills that would translate directly to options trading",
+      "eventKo": "빙엄턴 졸업 후 라스베이거스에서 프로 도박사로 활동하며 확률적 사고와 자금 관리 기술을 연마 — 이 경험은 이후 옵션 트레이딩에 직접 적용됐다"
     },
     {
-      "year": 1999,
-      "event": "Joined Creative Planning as an estate planning attorney and consultant, advising physicians and financial planning clients on wills and trust matters.",
-      "eventKo": "크리에이티브 플래닝에 유산 설계 변호사 겸 컨설턴트로 합류해 의사와 재무 설계 고객에게 유언장·신탁 자문 제공."
+      "year": 1987,
+      "event": "Co-founded Susquehanna International Group (SIG) with Jeff Yass, Steve Bloom, Eric Brooks, Andrew Frost, and Joel Greenberg, initially trading options on the Philadelphia Stock Exchange",
+      "eventKo": "제프 야스, 스티브 블룸, 에릭 브룩스, 앤드루 프로스트, 조엘 그린버그와 함께 서스퀘해나 인터내셔널 그룹(SIG)을 공동 창업, 필라델피아 증권거래소에서 옵션 트레이딩으로 출발"
+    },
+    {
+      "year": 1990,
+      "event": "SIG expanded into equity and futures trading, developing proprietary quantitative models and becoming a major market maker across multiple asset classes",
+      "eventKo": "SIG가 주식·선물 트레이딩으로 영역을 확장, 독자적인 퀀트 모델을 개발하며 다양한 자산군에서 주요 시장 조성자로 성장"
     },
     {
       "year": 2004,
-      "event": "Acquired Creative Planning, a registered investment advisor in Leawood, Kansas, that had approximately $34 million in assets under management and around 30 clients.",
-      "eventKo": "캔자스주 리우드 소재 등록 투자 자문사 크리에이티브 플래닝 인수. 당시 운용자산 약 3,400만 달러, 고객 약 30명 수준이었음."
+      "event": "Established SIG Asia Investments, a China-focused venture capital arm, as Dantchik led SIG's expansion into Asian markets and private equity",
+      "eventKo": "단치크 주도로 SIG가 중국 집중 벤처캐피탈 부문인 SIG 아시아 인베스트먼츠 설립, 아시아 시장 및 사모펀드로 사업 확장"
     },
     {
-      "year": 2007,
-      "event": "Grew Creative Planning's AUM to $591 million; Barron's named Mallouk one of the country's top independent financial advisers for the first time.",
-      "eventKo": "크리에이티브 플래닝 운용자산을 5억 9,100만 달러로 성장. 배런스, 말루크를 미국 최고 독립 재무 어드바이저 중 한 명으로 선정."
+      "year": 2012,
+      "event": "SIG Asia Investments participated in ByteDance's $5 million Series A funding round, an early bet that would grow into SIG's most valuable single investment",
+      "eventKo": "SIG 아시아 인베스트먼츠가 바이트댄스의 500만 달러 시리즈 A에 참여 — 훗날 SIG 역사상 가장 가치 있는 단일 투자로 성장한 초기 베팅"
     },
     {
-      "year": 2011,
-      "event": "Creative Planning reached $2 billion in AUM with approximately 1,200 clients, establishing itself as a leading independent RIA.",
-      "eventKo": "크리에이티브 플래닝 운용자산 20억 달러·고객 약 1,200명 달성, 선도적인 독립 등록 투자 자문사로 자리 잡음."
+      "year": 2016,
+      "event": "Dantchik joined ByteDance's board of directors, representing SIG's position as the largest outside shareholder with approximately 15% stake",
+      "eventKo": "단치크가 바이트댄스 이사회에 합류 — SIG는 약 15% 지분을 보유한 최대 외부 주주 지위 확보"
     },
     {
-      "year": 2014,
-      "event": "Creative Planning surpassed $10 billion in AUM, crossing a major milestone for independent wealth management firms.",
-      "eventKo": "크리에이티브 플래닝 운용자산 100억 달러 돌파, 독립 자산관리 업계에서 중요한 이정표 달성."
-    },
-    {
-      "year": 2019,
-      "event": "Shifted to inorganic growth with the first acquisition — The Johnston Group in Minneapolis — marking a new strategic phase of scaling through M&A.",
-      "eventKo": "미니애폴리스의 존스턴 그룹 인수를 시작으로 처음으로 비유기적 성장 전략으로 전환, M&A를 통한 규모 확대의 새로운 단계 시작."
+      "year": 2020,
+      "event": "SIG's ByteDance stake drew intense scrutiny during US-China tech tensions, as SIG owned roughly 15% of the TikTok parent company; Dantchik navigated political pressures while maintaining board seat",
+      "eventKo": "미·중 기술 갈등이 고조되면서 바이트댄스(틱톡 모회사) 지분 약 15%를 보유한 SIG에 강한 견제가 집중됐고, 단치크는 정치적 압박을 헤쳐나가며 이사회 자리를 유지했다"
     },
     {
       "year": 2023,
-      "event": "Goldman Sachs made a significant minority investment in Creative Planning, valuing the firm at several billion dollars and accelerating its growth trajectory.",
-      "eventKo": "골드만삭스가 크리에이티브 플래닝에 상당한 소수 지분 투자, 기업가치를 수십억 달러로 평가하며 성장 가속화."
-    },
-    {
-      "year": 2025,
-      "event": "TPG Inc. acquired a minority stake in Creative Planning in a deal valuing the firm at $16 billion; Creative Planning reaches approximately $700 billion in combined AUM.",
-      "eventKo": "TPG가 크리에이티브 플래닝 소수 지분 인수, 기업가치 160억 달러 평가. 크리에이티브 플래닝 합산 운용자산 약 7,000억 달러 달성."
+      "event": "Publicly stopped funding an Israeli judicial-reform think tank amid controversy over the group's positions, demonstrating his practice of conditional philanthropic support",
+      "eventKo": "이스라엘의 사법 개혁 싱크탱크에 대한 지원을 공개적으로 중단 — 단체의 입장에 반대하며 조건부 자선 지원 원칙을 드러낸 사건"
     }
   ],
   "failures": [
     {
-      "year": 2003,
-      "description": "The chain of CD retail stores Mallouk had built during graduate school collapsed as digital music piracy devastated the physical music retail industry in the early 2000s.",
-      "descriptionKo": "대학원 시절 세운 CD 소매점 체인이 2000년대 초 디지털 음악 불법 복제 확산으로 실물 음반 소매 시장이 붕괴되면서 문을 닫았다.",
-      "lesson": "The experience reinforced the value of diversification and adaptability — and ultimately pushed Mallouk to fall back on his law degree and enter the wealth management industry.",
-      "lessonKo": "이 경험은 다각화와 적응력의 중요성을 일깨워 주었고, 결국 말루크가 법학 학위를 활용해 자산관리 업계에 뛰어드는 계기가 되었다."
+      "title": "ByteDance / TikTok Political Controversy",
+      "description": "SIG's early and large investment in ByteDance, while enormously profitable, became a significant reputational burden. During US-China tensions and Congressional scrutiny of TikTok, SIG and Dantchik faced accusations of supporting Chinese state-linked technology. The controversy complicated SIG's relationships with US regulators and political allies, and Dantchik was forced to address the conflict between his libertarian principles and his firm's most lucrative holding.",
+      "titleKo": "바이트댄스·틱톡 정치 논란",
+      "descriptionKo": "바이트댄스에 대한 SIG의 초기 대규모 투자는 막대한 수익을 안겨줬지만, 동시에 심각한 명성 훼손의 원인이 됐다. 미·중 갈등과 미국 의회의 틱톡 청문회가 이어지는 동안 SIG와 단치크는 중국 국가 연계 기술을 지원한다는 비판에 직면했다. 이 논란은 미국 규제 당국 및 정치 동맹과의 관계를 복잡하게 만들었고, 단치크는 자신의 자유주의적 원칙과 회사의 가장 수익성 높은 투자 사이에서 갈등을 표출해야 했다."
+    },
+    {
+      "title": "Israeli Think Tank Funding Controversy",
+      "description": "Dantchik's CLAWS Foundation was publicly linked to supporting an Israeli think tank that promoted controversial judicial reform legislation. When the connection became public in 2023, Dantchik announced he had ended funding, but the episode drew unwanted attention to his previously low-profile philanthropic network and sparked debate about billionaire influence on foreign policy debates.",
+      "titleKo": "이스라엘 싱크탱크 지원 논란",
+      "descriptionKo": "단치크의 CLAWS 재단이 논란이 된 이스라엘 사법 개혁 입법을 지지한 싱크탱크와 연결된 사실이 공개됐다. 2023년 이 연관성이 알려지자 단치크는 지원을 중단했다고 발표했지만, 이 사건으로 그동안 비공개로 유지되던 그의 자선 네트워크에 원치 않는 관심이 쏟아졌고, 억만장자의 외교 정책 영향력에 관한 논쟁이 불붙었다."
     }
   ],
   "wealthHistory": [
-    { "year": 2004, "netWorth": 0.01 },
-    { "year": 2010, "netWorth": 0.1 },
-    { "year": 2015, "netWorth": 0.5 },
-    { "year": 2020, "netWorth": 1.5 },
-    { "year": 2023, "netWorth": 5.0 },
-    { "year": 2025, "netWorth": 10.6 },
-    { "year": 2026, "netWorth": 16.1 }
-  ],
-  "quotes": [
     {
-      "text": "The media's job is not to inform you; it is to get eyeballs. Eyeballs lead to advertising revenue. That means they need people to read stuff and view stuff. Telling everyone things are going to work out just fine doesn't get eyeballs the way feeding into fear does.",
-      "textKo": "언론의 역할은 당신을 정보를 제공하는 것이 아니라 시선을 끄는 것입니다. 시선은 광고 수익으로 이어집니다. 그래서 그들은 사람들이 읽고 보게 만들어야 합니다. '모든 것이 잘 될 것'이라고 말하는 것은 공포심을 자극하는 것만큼 시선을 끌지 못합니다.",
-      "context": "From his book 'The 5 Mistakes Every Investor Makes and How to Avoid Them'",
-      "contextKo": "저서 '투자자가 저지르는 5가지 실수와 그 해결법'에서",
-      "source": "The 5 Mistakes Every Investor Makes and How to Avoid Them"
+      "year": 2012,
+      "amount": 2.0
     },
     {
-      "text": "The stock market cares about only one thing above all else: anticipated earnings. If companies make more money, their share prices eventually rise. The stock price is simply a reflection of a company's earning power. Everything else is noise.",
-      "textKo": "주식 시장이 무엇보다 신경 쓰는 것은 단 하나, 예상 수익입니다. 기업이 더 많은 돈을 벌면 주가는 결국 오릅니다. 주가는 단순히 기업의 수익 창출 능력을 반영하는 것일 뿐입니다. 나머지는 모두 소음입니다.",
-      "context": "On investment fundamentals",
-      "contextKo": "투자 기초에 대해",
-      "source": "The 5 Mistakes Every Investor Makes and How to Avoid Them"
+      "year": 2016,
+      "amount": 4.5
+    },
+    {
+      "year": 2019,
+      "amount": 8.0
+    },
+    {
+      "year": 2021,
+      "amount": 12.5
+    },
+    {
+      "year": 2023,
+      "amount": 15.0
+    },
+    {
+      "year": 2025,
+      "amount": 16.9
     }
   ],
-  "books": {
-    "authored": [
-      "The 5 Mistakes Every Investor Makes and How to Avoid Them (2014)",
-      "Unshakeable (2017, co-authored with Tony Robbins)",
-      "The Path: Accelerating Your Journey to Financial Freedom (2020)"
-    ],
-    "recommended": []
-  },
-  "personalTraits": {
-    "knownFor": "Peter Mallouk is known for his fiduciary-first philosophy, building one of the largest independent RIAs in the US through a combination of exceptional service, tax-integrated investing, and strategic acquisitions. He is also a bestselling author and prominent media commentator on personal finance.",
-    "knownForKo": "수탁자 의무 최우선 철학으로 미국 최대 독립 등록 투자 자문사 중 하나를 구축한 것으로 유명하다. 탁월한 서비스, 세금을 통합한 투자 전략, 전략적 M&A를 통해 성장했으며 베스트셀러 작가이자 개인 금융 분야의 유명 미디어 논평가이기도 하다.",
-    "philanthropy": "Mallouk founded Pathway Financial Education, providing free financial literacy programs to teenagers, adults, and business owners in under-resourced communities. He also founded the Urban Market Institute, which offers grants, mentoring, and low-cost lending in urban communities.",
-    "philanthropyKo": "저소득층 지역의 청소년·성인·사업주에게 무료 금융 리터러시 프로그램을 제공하는 패스웨이 파이낸셜 에듀케이션을 설립했다. 또한 도시 지역사회에 보조금·멘토링·저금리 대출을 제공하는 어반 마켓 인스티튜트도 창립했다."
-  },
+  "quotes": [],
+  "books": [],
   "sajuConnection": null
 }

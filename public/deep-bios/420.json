@@ -1,94 +1,97 @@
 {
   "id": "420",
-  "name": "Antonia Ax:son Johnson",
+  "name": "Don Hankey",
+  "nameKo": "돈 행키",
+  "netWorth": "$8.2B",
+  "nationality": "US",
+  "industry": "Finance & Investments",
   "childhood": {
-    "birthPlace": "Stockholm, Sweden",
-    "birthPlaceKo": "스웨덴 스톡홀름",
-    "familyBackground": "Ax:son Johnson family is one of Sweden's oldest industrial dynasties. Built fortune in shipping, forestry, and diversified holdings.",
-    "familyBackgroundKo": "Ax:son Johnson 가족은 스웨덴의 가장 오래된 산업 왕조 중 하나입니다. 해운, 임업 및 다각화 자산에서 재산을 구축했습니다.",
-    "education": "Stockholm School of Economics; MBA from INSEAD",
-    "educationKo": "Stockholm School of Economics; INSEAD MBA",
-    "earlyLife": "Grew up immersed in Sweden's industrial heritage. Trained in family business operations; understood shipping and forestry industries.",
-    "earlyLifeKo": "스웨덴의 산업 유산에 몰입하여 성장함. 가족 사업 운영에 훈련받았으며, 해운 및 임업 산업을 이해했습니다.",
-    "source": "https://www.swedishbusiness.com/antonia-ax-son-johnson"
+    "birthPlace": "Los Angeles, California, United States",
+    "birthPlaceKo": "미국 캘리포니아주 로스앤젤레스",
+    "familyBackground": "Son of a Los Angeles car dealer. Grew up around the automotive business, which later became the foundation of his financial empire.",
+    "familyBackgroundKo": "로스앤젤레스 자동차 딜러의 아들. 자동차 사업 환경에서 성장했으며, 이것이 후일 그의 금융 제국의 기반이 되었다.",
+    "education": "Bachelor's degree in finance from the University of Southern California (USC)",
+    "educationKo": "서던캘리포니아 대학교(USC)에서 금융학 학사 학위 취득",
+    "earlyLife": "Born on June 13, 1943, in Los Angeles, Don Hankey grew up as the son of a car dealer. After graduating from USC with a degree in finance, he initially pursued a career on Wall Street as a stockbroker. After nearly a decade in the stock market, he grew tired of stocks and returned to his roots in the automotive business.",
+    "earlyLifeKo": "1943년 6월 13일 로스앤젤레스에서 태어난 돈 행키는 자동차 딜러의 아들로 성장했다. USC에서 금융학 학위를 취득한 후 처음에는 월스트리트에서 증권 중개인으로 경력을 쌓았다. 주식시장에서 약 10년을 보낸 후 주식에 흥미를 잃고 자동차 사업이라는 자신의 뿌리로 돌아갔다.",
+    "source": "Wikipedia, LA Business Journal, Celebrity Net Worth"
   },
   "careerTimeline": [
     {
-      "year": 1990,
-      "event": "Took leadership of diversified Ax:son Johnson family holdings",
-      "eventKo": "다각화 Ax:son Johnson 가족 자산의 리더십 인수"
+      "year": 1965,
+      "event": "Began career as a stockbroker on Wall Street after graduating from USC",
+      "eventKo": "USC 졸업 후 월스트리트에서 증권 중개인으로 경력 시작"
     },
     {
-      "year": 2003,
-      "event": "Expanded into financial services and private investment operations",
-      "eventKo": "금융 서비스 및 민간 투자 운영으로 확장"
+      "year": 1972,
+      "event": "Took over a Ford dealership in Los Angeles' Koreatown that his father co-owned, pivoting from Wall Street to automotive",
+      "eventKo": "아버지가 공동 소유한 로스앤젤레스 코리아타운의 포드 딜러십을 인수하며 월스트리트에서 자동차 업계로 전환"
     },
     {
-      "year": 2015,
-      "event": "Became one of Scandinavia's largest private wealth managers and investors",
-      "eventKo": "스칸디나비아 최대 민간 자산 관리자 및 투자자 중 하나가 됨"
+      "year": 1978,
+      "event": "Founded Westlake Financial Services, recognizing the unmet need for auto financing for buyers with poor credit",
+      "eventKo": "신용 불량 구매자를 위한 자동차 금융의 미충족 수요를 인식하고 웨스트레이크 파이낸셜 서비스 설립"
     },
     {
-      "year": 2022,
-      "event": "Ax:son Johnson family wealth valued at €18B+ with diversified global portfolio",
-      "eventKo": "Ax:son Johnson 가족 부는 다각화 글로벌 포트폴리오로 €180억 이상으로 평가됨"
+      "year": 1985,
+      "event": "Expanded Westlake Financial nationally, contracting with dealerships across the country for subprime auto loans",
+      "eventKo": "웨스트레이크 파이낸셜을 전국적으로 확장하여 전국 딜러십과 서브프라임 자동차 대출 계약 체결"
+    },
+    {
+      "year": 2010,
+      "event": "Westlake Financial became the largest used-car financing company in the United States",
+      "eventKo": "웨스트레이크 파이낸셜이 미국 최대 중고차 금융 회사로 성장"
+    },
+    {
+      "year": 2024,
+      "event": "Knight Insurance Company issued the $175 million bond for Donald Trump's civil fraud appeal; became largest individual shareholder of Axos Financial",
+      "eventKo": "나이트 보험사가 도널드 트럼프의 민사 사기 항소를 위한 1억 7,500만 달러 보증금 발행; 액소스 파이낸셜의 최대 개인 주주가 됨"
     }
   ],
   "failures": [
     {
-      "year": 2008,
-      "description": "Financial crisis severely impacted investment portfolio and asset valuations",
-      "descriptionKo": "금융 위기는 투자 포트폴리오 및 자산 평가에 심각한 영향을 미쳤습니다.",
-      "lesson": "Even conservative diversified portfolios suffer during systemic financial crises; liquidity management is critical",
-      "lessonKo": "보수적인 다각화 포트폴리오도 체계적인 금융 위기 중에 피해를 입으며, 유동성 관리가 중요",
-      "source": "https://www.scandinavia-investment-analysis.com/2008-crisis"
+      "year": 2015,
+      "description": "Westlake Financial was ordered by the Consumer Financial Protection Bureau to provide $44.1 million in consumer relief for engaging in illegal debt collection practices.",
+      "descriptionKo": "웨스트레이크 파이낸셜이 불법 채권 추심 관행으로 소비자금융보호국으로부터 4,410만 달러의 소비자 구제금 제공 명령을 받았다.",
+      "lesson": "Aggressive lending and collection practices require careful regulatory compliance; the CFPB action led to reforms in Westlake's collection procedures.",
+      "lessonKo": "공격적인 대출 및 추심 관행에는 신중한 규제 준수가 필요하다; CFPB의 조치는 웨스트레이크의 추심 절차 개혁으로 이어졌다.",
+      "source": "Wikipedia, Consumer Financial Protection Bureau"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2005,
-      "netWorth": 8.2
+      "year": 2010,
+      "netWorth": 2.0
     },
     {
-      "year": 2012,
-      "netWorth": 10.5
+      "year": 2015,
+      "netWorth": 3.5
     },
     {
-      "year": 2018,
-      "netWorth": 12.8
+      "year": 2020,
+      "netWorth": 5.0
     },
     {
       "year": 2024,
-      "netWorth": 14.1
-    }
-  ],
-  "quotes": [
+      "netWorth": 7.4
+    },
     {
-      "text": "Patience and long-term thinking are the hallmarks of successful wealth stewardship across generations.",
-      "textKo": "인내와 장기적 사고는 세대에 걸친 성공적인 부의 청지기를 특징으로 합니다.",
-      "context": "Interview with Scandinavian Business Review, 2020",
-      "contextKo": "Scandinavian Business Review 인터뷰, 2020",
-      "source": "https://www.scandinavianbusinessreview.se/antonia-interview"
+      "year": 2025,
+      "netWorth": 8.2
     }
   ],
+  "quotes": [],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "Buffett: The Making of an American Capitalist",
-        "author": "Roger Lowenstein",
-        "note": "Antonia references this for long-term wealth building philosophy",
-        "noteKo": "Antonia는 장기 부의 구축 철학을 위해 이것을 참조"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Multigenerational wealth stewardship, Scandinavian industrial heritage preservation, private investment expertise",
-    "knownForKo": "다세대 부의 청지기, 스칸디나비아 산업 유산 보존, 민간 투자 전문성",
-    "philanthropy": "Supports cultural preservation and educational initiatives in Scandinavia",
-    "philanthropyKo": "스칸디나비아의 문화 보존 및 교육 이니셔티브 지원",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Known as the 'king of the subprime car loan'; built the largest used-car financing company in America from a single dealership; Hankey Group holds roughly 1 million individual loans at any given time",
+    "knownForKo": "'서브프라임 자동차 대출의 왕'으로 알려짐; 단일 딜러십에서 미국 최대 중고차 금융 회사를 구축; 행키 그룹은 항상 약 100만 건의 개별 대출을 보유",
+    "philanthropy": "Supports various charitable causes in the Los Angeles area, though specific philanthropic activities are not widely publicized",
+    "philanthropyKo": "로스앤젤레스 지역의 다양한 자선 활동을 지원하나, 구체적인 자선 활동은 널리 공개되지 않음",
+    "controversies": "Westlake Financial criticized for high-interest subprime lending and aggressive repossession practices (reportedly 250 cars per day in 2015); CFPB enforcement action for illegal debt collection; association with Donald Trump through bond and Axos Financial dealings",
+    "controversiesKo": "웨스트레이크 파이낸셜의 고금리 서브프라임 대출과 공격적 차량 회수 관행(2015년 하루 약 250대 보고) 비판; 불법 채권 추심으로 CFPB 집행 조치; 보증금 및 액소스 파이낸셜 거래를 통한 도널드 트럼프와의 연관"
   },
   "sajuConnection": null
 }

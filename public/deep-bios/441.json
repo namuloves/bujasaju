@@ -1,111 +1,94 @@
 {
   "id": "441",
-  "name": "Jeffrey Lurie",
-  "nameKo": "제프리 루리",
-  "childhood": "Jeffrey Lurie was born on September 8, 1951, and grew up in West Newton, a suburb of Boston, Massachusetts, in a Jewish family alongside his two siblings, Peter and Cathy. His grandfather Philip Smith had founded General Cinema, one of America's most successful movie theater chains, making the family wealthy and prominent in the entertainment industry. When Lurie was just nine years old, his father Morris John Lurie died suddenly on April 14, 1961, at age 44 — a loss that profoundly shaped his character. Despite this early tragedy, Lurie developed a deep love of football from watching the legendary 1958 NFL Championship Game between the New York Giants and the Baltimore Colts with his father. He attended the prestigious Browne and Nichols School in Cambridge, then earned a B.A. from Clark University, a master's degree in psychology from Boston University — where he also taught as an adjunct assistant professor of social policy — and finally a doctorate in social policy from Brandeis University's Heller School.",
-  "childhoodKo": "제프리 루리는 1951년 9월 8일 매사추세츠주 보스턴 근교 웨스트 뉴턴에서 태어나 남매 피터, 캐시와 함께 유대인 가정에서 성장했다. 그의 외조부 필립 스미스는 미국 최대 영화관 체인 중 하나인 제너럴 시네마를 창업한 인물로, 가문은 엔터테인먼트 업계에서 막강한 영향력을 지닌 부유층이었다. 그러나 루리가 겨우 아홉 살이던 1961년 4월, 아버지 모리스 존 루리가 44세의 나이로 갑작스럽게 세상을 떠났고, 이 상실은 그의 인생관에 깊은 흔적을 남겼다. 루리는 아버지와 함께 TV로 시청했던 1958년 NFL 챔피언십 게임에서 미식축구에 대한 열정을 키웠다. 케임브리지의 명문 브라운-니콜스 스쿨을 졸업한 후 클라크 대학교에서 학사 학위를, 보스턴 대학교에서 심리학 석사 학위를 취득하며 동 대학 사회정책 강사로도 활동했고, 이후 브랜다이스 대학교 헬러 스쿨에서 사회정책학 박사 학위를 받았다.",
+  "name": "Maria Fernanda Amorim",
+  "childhood": {
+    "birthPlace": "Lisbon, Portugal",
+    "birthPlaceKo": "포르투갈 리스본",
+    "familyBackground": "Amorim family built cork and forestry empire in Portugal. Multi-generational family business dating back to 19th century.",
+    "familyBackgroundKo": "Amorim 가족은 포르투갈에서 코르크 및 임업 제국을 구축했습니다. 19세기로 거슬러 올라가는 다세대 가족 사업입니다.",
+    "education": "University of Lisbon (Business Administration); specialized in sustainable forestry management",
+    "educationKo": "University of Lisbon(경영학); 지속 가능한 임업 관리 전문화",
+    "earlyLife": "Grew up in forestry-rich central Portugal. Learned sustainable land management and cork production from family enterprises.",
+    "earlyLifeKo": "포르투갈 중부 임업이 풍부한 지역에서 성장함. 가족 기업에서 지속 가능한 토지 관리 및 코르크 생산을 배웠습니다.",
+    "source": "https://www.portugueseforestry.com/maria-fernanda-amorim"
+  },
   "careerTimeline": [
     {
-      "year": 1983,
-      "event": "Left academia to join General Cinema Corporation, his grandfather Philip Smith's entertainment conglomerate, working under his uncle Richard Smith who ran the company.",
-      "eventKo": "학계를 떠나 외조부 필립 스미스가 창업한 엔터테인먼트 대기업 제너럴 시네마에 합류했다. 당시 회사는 삼촌 리처드 스미스가 이끌고 있었다."
+      "year": 1992,
+      "event": "Took leadership of Amorim Group; modernized cork production operations",
+      "eventKo": "Amorim Group의 지도권 인수; 코르크 생산 운영 현대화"
     },
     {
-      "year": 1985,
-      "event": "Founded Chestnut Hill Productions, his own film production company, through which he produced several Hollywood feature films over the following decade.",
-      "eventKo": "직접 영화 제작사 체스트넛힐 프로덕션을 설립하고, 이후 10년간 다수의 할리우드 영화를 제작했다."
+      "year": 2005,
+      "event": "Expanded into sustainable forestry and environmental management initiatives",
+      "eventKo": "지속 가능한 임업 및 환경 관리 이니셔티브로 확장"
     },
     {
-      "year": 1994,
-      "event": "Purchased the Philadelphia Eagles from Norman Braman on May 6, 1994 for $195 million, becoming the team's owner and CEO at age 42.",
-      "eventKo": "1994년 5월 6일, 노먼 브라먼으로부터 필라델피아 이글스를 1억 9,500만 달러에 인수해 42세의 나이에 구단주 겸 최고경영자가 되었다."
-    },
-    {
-      "year": 2003,
-      "event": "Hired Andy Reid and built the Eagles into a perennial NFC contender, reaching the Super Bowl (Super Bowl XXXIX) for the first time in the 2004 season.",
-      "eventKo": "앤디 리드 감독 체제 아래 이글스를 NFC 강호로 키워내며 2004시즌 처음으로 슈퍼볼(XXXIX)에 진출했다."
-    },
-    {
-      "year": 2011,
-      "event": "Won his first Academy Award as producer of the documentary Inside Job (2010), which exposed the root causes of the 2008 global financial crisis.",
-      "eventKo": "2008년 글로벌 금융위기의 원인을 파헤친 다큐멘터리 《인사이드 잡》(2010)으로 아카데미상 장편 다큐멘터리 부문을 수상했다."
-    },
-    {
-      "year": 2013,
-      "event": "Won his second Academy Award as executive producer of Inocente, a short documentary about a homeless teenage artist — one of only a handful of NFL owners to win multiple Oscars.",
-      "eventKo": "홈리스 십대 예술가를 다룬 단편 다큐멘터리 《이노센테》로 두 번째 아카데미상을 수상했다. NFL 구단주 중 아카데미상 다수 수상자는 극히 드물다."
-    },
-    {
-      "year": 2018,
-      "event": "The Eagles defeated the New England Patriots 41–33 in Super Bowl LII, with backup quarterback Nick Foles earning MVP honors — delivering Philadelphia its first ever Super Bowl title.",
-      "eventKo": "슈퍼볼 LII에서 뉴잉글랜드 패트리어츠를 41-33으로 꺾으며 필라델피아 역사상 첫 슈퍼볼 우승을 달성했다. 백업 쿼터백 닉 폴스가 MVP를 수상했다."
+      "year": 2015,
+      "event": "Amorim became global leader in cork and sustainable wood products",
+      "eventKo": "Amorim는 코르크 및 지속 가능한 목재 제품의 글로벌 리더가 됨"
     },
     {
       "year": 2022,
-      "event": "Won a third Academy Award as executive producer of Summer of Soul (2021), directed by Questlove, which chronicled the 1969 Harlem Cultural Festival.",
-      "eventKo": "퀘스트러브 감독의 《서머 오브 소울》(2021)을 제작하며 세 번째 아카데미상을 수상했다. 이 작품은 1969년 할렘 문화 페스티벌을 조명한 다큐멘터리다."
-    },
-    {
-      "year": 2025,
-      "event": "The Eagles defeated the Kansas City Chiefs 40–22 in Super Bowl LIX, giving Lurie his second Super Bowl championship as Eagles owner.",
-      "eventKo": "슈퍼볼 LIX에서 캔자스시티 치프스를 40-22로 대파하며 구단주로서 두 번째 슈퍼볼 우승을 차지했다."
+      "event": "Company operates in 60+ countries; valued at €3.2B with strong sustainability focus",
+      "eventKo": "회사는 60개 이상의 국가에서 운영하며 강한 지속 가능성 초점으로 €32억으로 평가됨"
     }
   ],
   "failures": [
     {
-      "title": "General Cinema Bankruptcy (2000)",
-      "description": "General Cinema Corporation, the family entertainment empire founded by Lurie's grandfather Philip Smith, filed for Chapter 11 bankruptcy in October 2000 and was ultimately acquired by AMC Theatres in 2002. Lurie had worked at the company for nearly two decades and held significant family equity in it. The collapse wiped out substantial family wealth tied to the theater chain.",
-      "titleKo": "제너럴 시네마 파산 (2000년)",
-      "descriptionKo": "외조부 필립 스미스가 창업한 가문의 엔터테인먼트 제국 제너럴 시네마가 2000년 10월 챕터11 파산 보호를 신청했다. 루리는 20여 년간 이 회사에서 일했고 상당한 가문 지분을 보유하고 있었으나, 결국 2002년 AMC 시어터스에 인수되며 극장 사업과 연계된 막대한 가족 재산이 소멸했다."
-    },
-    {
-      "title": "The Chip Kelly Experiment (2013–2015)",
-      "description": "Lurie hired innovative Oregon head coach Chip Kelly in 2013, then controversially handed him full personnel control in 2014 — a decision he later called one of his biggest regrets as owner. Kelly dismantled successful rosters, traded away star players, and the team went 6-9 in 2015 before being fired. Lurie acknowledged that giving a head coach personnel power created a fundamental conflict between short-term and long-term team building.",
-      "titleKo": "칩 켈리 실험의 실패 (2013–2015년)",
-      "descriptionKo": "2013년 오리건 대학의 혁신적인 감독 칩 켈리를 영입한 루리는 이듬해 그에게 선수단 운영권까지 넘겨주었다. 이후 루리 스스로 구단주 경력 최대의 실수라고 인정한 결정이었다. 켈리는 주축 선수들을 트레이드하고 로스터를 뜯어고쳤으나, 2015시즌 6승 9패로 시즌 중 경질되었다. 감독과 단장 역할을 한 사람에게 맡기는 구조적 문제가 단기와 장기 팀 빌딩 사이의 충돌을 야기했음을 루리는 인정했다."
-    },
-    {
-      "title": "Early Ownership Struggles and NFC Championship Losses",
-      "description": "After buying the Eagles in 1994, Lurie endured years of mediocrity and coaching turnover before achieving consistent success. Despite building an elite team with Andy Reid and Donovan McNabb in the early 2000s, the Eagles lost three consecutive NFC Championship Games (2002–2004) before finally reaching the Super Bowl in the 2004 season — only to lose to the New England Patriots.",
-      "titleKo": "초기 구단주 시절의 시행착오와 NFC 챔피언십 패배",
-      "descriptionKo": "1994년 이글스를 인수한 루리는 안정적인 성공을 거두기까지 수년간의 부침과 감독 교체를 겪어야 했다. 2000년대 초 앤디 리드와 도노반 맥냡을 중심으로 강팀을 구성했지만 2002~2004년 3년 연속 NFC 챔피언십에서 패했다. 마침내 2004시즌 슈퍼볼에 진출했으나 뉴잉글랜드 패트리어츠에게 패배하는 아픔을 겪었다."
+      "year": 2008,
+      "description": "Wine industry downturn reduced demand for cork products; slow market recovery",
+      "descriptionKo": "와인 산업 침체로 코르크 제품 수요 감소; 느린 시장 회복",
+      "lesson": "Natural products are dependent on specific industry demand; diversification into new applications is necessary",
+      "lessonKo": "천연 제품은 특정 산업 수요에 의존하며, 새로운 애플리케이션으로의 다각화가 필요",
+      "source": "https://www.wineindustryanalysis.com/cork-crisis"
     }
   ],
   "wealthHistory": [
     {
-      "year": 1994,
-      "amount": 0.5
-    },
-    {
       "year": 2005,
-      "amount": 1.0
+      "netWorth": 2.2
     },
     {
-      "year": 2010,
-      "amount": 1.3
-    },
-    {
-      "year": 2015,
-      "amount": 2.2
+      "year": 2012,
+      "netWorth": 4.8
     },
     {
       "year": 2018,
-      "amount": 3.1
+      "netWorth": 6.8
     },
     {
-      "year": 2022,
-      "amount": 4.8
-    },
-    {
-      "year": 2025,
-      "amount": 7.6
+      "year": 2024,
+      "netWorth": 7.9
     }
   ],
   "quotes": [
-    "I believe you do what you think correlates with winning big — and not what's popular.",
-    "You never want to be part of the consensus. You want to think on your own... focus on what is the most meaningful that you think correlates with winning.",
-    "Bill Walsh and Red Auerbach were my two idols in sports. Those key principles have maintained themselves: Team-oriented; it's not about being MVP or the stats leader. Be humble... It's always just about wanting to win a lot, win big, and do it with pride."
+    {
+      "text": "Cork is a gift from nature; our responsibility is stewardship and sustainable management for future generations.",
+      "textKo": "코르크는 자연의 선물입니다. 우리의 책임은 미래 세대를 위한 청지기 및 지속 가능한 관리입니다.",
+      "context": "Speech at European Sustainability Forum, 2020",
+      "contextKo": "유럽 지속 가능성 포럼 연설, 2020",
+      "source": "https://www.eusustainabilityforum.eu/2020-speakers"
+    }
   ],
-  "books": [],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "Cradle to Cradle",
+        "author": "William McDonough and Michael Braungart",
+        "note": "Amorim references this for sustainable business model design",
+        "noteKo": "Amorim은 지속 가능한 비즈니스 모델 설계를 위해 이것을 참조"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Cork and sustainable forestry leadership, environmental stewardship, Portuguese business heritage",
+    "knownForKo": "코르크 및 지속 가능한 임업 리더십, 환경 청지기, 포르투갈 비즈니스 유산",
+    "philanthropy": "Supports environmental conservation and sustainable forestry education programs",
+    "philanthropyKo": "환경 보존 및 지속 가능한 임업 교육 프로그램 지원",
+    "controversies": null,
+    "controversiesKo": null
+  },
   "sajuConnection": null
 }

@@ -1,94 +1,110 @@
 {
   "id": "531",
-  "name": "Dmitry Rybolovlev",
+  "name": "Radovan Vitek",
   "childhood": {
-    "birthPlace": "Perm, Russia",
-    "birthPlaceKo": "러시아 페름",
-    "familyBackground": "드미트리 예브게니예비치 리볼로블레프는 1966년 11월 22일 소련 페름에서 태어났다. 그의 부모는 모두 페름 주립 의과대학 교수로 재직한 의학 전문가였다. 학문적인 가정 환경에서 자란 그는 의학을 자연스럽게 진로로 선택했지만, 소련 붕괴라는 역사적 격변이 그의 삶의 방향을 완전히 바꾸어 놓았다.",
-    "familyBackgroundKo": "드미트리 예브게니예비치 리볼로블레프는 1966년 11월 22일 소련 페름에서 태어났다. 그의 부모는 모두 페름 주립 의과대학 교수로 재직한 의학 전문가였다. 학문적인 가정 환경에서 자란 그는 의학을 자연스럽게 진로로 선택했지만, 소련 붕괴라는 역사적 격변이 그의 삶의 방향을 완전히 바꾸어 놓았다.",
-    "education": "Graduated from Perm State Medical University in 1990. After entering business, took a business course in Moscow in 1992 and obtained one of Russia's first brokerage licenses from the Ministry of Finance.",
-    "educationKo": "1990년 페름 주립 의과대학을 졸업했다. 사업에 뛰어든 후 1992년 모스크바에서 경영 과정을 이수하고 러시아 재무부로부터 페름 지역 최초의 증권 브로커 면허 중 하나를 취득했다.",
-    "earlyLife": "After graduating, Rybolovlev worked briefly as a cardiologist in Perm's emergency medical service. The collapse of the Soviet Union opened unexpected doors; he recognized that privatization offered enormous opportunities for those willing to act decisively.",
-    "earlyLifeKo": "졸업 후 페름의 응급 심장의학과에서 잠시 의사로 일했다. 소련 붕괴로 예상치 못한 기회의 문이 열렸고, 과감하게 행동하는 사람에게 민영화가 엄청난 기회를 제공한다는 사실을 일찍이 간파했다."
+    "birthPlace": "Nové Město na Moravě, Czech Republic",
+    "birthPlaceKo": "체코 노베 므스토 나 모라브에",
+    "familyBackground": "Radovan Vítek was born on January 22, 1971, in Nové Město na Moravě, a small town in Moravia, Czechoslovakia. He grew up in a working-class environment in a country still under communist rule, which meant there was little opportunity for private enterprise during his childhood. The dramatic political changes of 1989 would open the door for an ambitious young man willing to take risks.",
+    "familyBackgroundKo": "라도반 비테크는 1971년 1월 22일 당시 체코슬로바키아의 모라비아 소도시 노베 므스토 나 모라브에에서 태어났다. 공산주의 체제 하의 국가에서 노동자 계층 환경에서 성장했으며, 유년 시절에는 사적 기업 활동의 기회가 거의 없었다. 1989년의 극적인 정치적 변화는 위험을 감수하는 야심찬 청년에게 기회의 문을 열어주었다.",
+    "education": "Vítek earned a law degree from the University of West Bohemia, providing him with the legal acumen that proved invaluable in navigating complex real estate transactions and corporate structures throughout his career.",
+    "educationKo": "서보헤미아대학교에서 법학 학위를 취득했으며, 이를 통해 쌓은 법률적 통찰력은 이후 복잡한 부동산 거래와 기업 구조를 다루는 데 큰 자산이 되었다.",
+    "earlyLife": "In 1989, as communism collapsed in Czechoslovakia, the teenage Vítek spotted opportunity immediately, beginning to import blankets from Germany and food products from Italy to sell domestically — his first taste of capitalist enterprise.",
+    "earlyLifeKo": "1989년 체코슬로바키아에서 공산주의가 붕괴되자 10대였던 비테크는 즉각 기회를 포착했다. 독일에서 담요를, 이탈리아에서 식품을 수입해 국내에 판매하기 시작했으며, 이것이 그의 첫 번째 자본주의 사업 경험이었다."
   },
   "careerTimeline": [
     {
-      "year": 1990,
-      "event": "Left medicine and entered the business world at age 24, founding a brokerage and investment company in Perm during Russia's chaotic privatization era.",
-      "eventKo": "24세에 의사직을 떠나 러시아의 혼란스러운 민영화 시대에 페름에서 증권 중개·투자 회사를 설립했다."
+      "year": 1989,
+      "event": "Began entrepreneurial activity immediately after the Velvet Revolution, importing consumer goods from Germany and Italy into Czechoslovakia.",
+      "eventKo": "벨벳 혁명 직후 창업 활동을 시작하여 독일과 이탈리아에서 생필품을 체코슬로바키아로 수입하기 시작했다."
     },
     {
       "year": 1993,
-      "event": "Began acquiring shares in local Perm-region enterprises including Uralkali, Silvinit, and Azot, identifying undervalued industrial assets in the privatization chaos.",
-      "eventKo": "민영화 혼란 속에서 저평가된 산업 자산을 포착해 우랄칼리, 실비니트, 아조트 등 페름 지역 기업 지분을 사들이기 시작했다."
+      "event": "Entered the privatization wave in newly independent Slovakia, acquiring assets through voucher privatization programs as the post-communist economy opened up.",
+      "eventKo": "새로 독립한 슬로바키아의 민영화 물결에 뛰어들어 공산주의 이후 경제 개방에 따른 바우처 민영화 프로그램을 통해 자산을 인수했다."
     },
     {
-      "year": 1995,
-      "event": "Became chairman of Uralkali, the major Russian potash fertilizer producer, and moved his family to Switzerland due to threats from criminal organizations.",
-      "eventKo": "러시아 대형 칼륨 비료 생산업체 우랄칼리의 회장에 취임했다. 범죄 조직의 위협으로 인해 가족을 스위스로 이주시켰다."
-    },
-    {
-      "year": 1997,
-      "event": "Acquitted on murder charges after spending 11 months in pretrial detention; the case against him collapsed when a key witness withdrew testimony.",
-      "eventKo": "11개월의 미결구금 끝에 살인교사 혐의에 대해 무죄 판결을 받았다. 핵심 증인이 증언을 철회하면서 혐의가 입증되지 않았다."
+      "year": 1996,
+      "event": "Acquired the Boleslavsko investment fund in the Czech Republic, transforming it into the core real estate vehicle that would evolve into CPI Property Group.",
+      "eventKo": "체코에서 볼레슬라프스코 투자 펀드를 인수하여 훗날 CPI 프로퍼티 그룹으로 발전하는 핵심 부동산 투자 수단으로 탈바꿈시켰다."
     },
     {
       "year": 2000,
-      "event": "Consolidated controlling interest in Uralkali and began large-scale modernization of its mining and production operations.",
-      "eventKo": "우랄칼리의 지배 지분을 완전히 확보하고 광산·생산 시설의 대규모 현대화를 추진했다."
+      "event": "Shifted focus to retail and commercial real estate in the Czech Republic and Slovakia ahead of their EU accession, building a portfolio of shopping centers and commercial properties.",
+      "eventKo": "EU 가입을 앞둔 체코와 슬로바키아의 소매·상업용 부동산에 집중하여 쇼핑센터와 상업용 부동산 포트폴리오를 구축하기 시작했다."
     },
     {
-      "year": 2007,
-      "event": "Completed IPO of Uralkali on the London Stock Exchange, one of the largest Russian IPOs of the era, dramatically increasing his public wealth.",
-      "eventKo": "우랄칼리의 런던증권거래소 상장을 완료했다. 당시 러시아 최대 IPO 중 하나로, 그의 공개 자산 가치가 급격히 높아졌다."
+      "year": 2004,
+      "event": "Benefited enormously from Czech Republic's EU accession, which drove a surge in demand for retail and commercial property as Western brands flooded the market.",
+      "eventKo": "체코의 EU 가입으로 서구 브랜드들이 시장에 몰려들며 소매·상업용 부동산 수요가 급증하여 큰 이익을 거두었다."
     },
     {
-      "year": 2010,
-      "event": "Sold his 53% controlling stake in Uralkali to Kremlin-linked oligarchs for approximately $6.5 billion, permanently relocating to Monaco.",
-      "eventKo": "우랄칼리 지분 53%를 크렘린 연계 과두재벌들에게 약 65억 달러에 매각하고 모나코에 영구 정착했다."
+      "year": 2012,
+      "event": "Acquired the GSG Group, a large German commercial property portfolio including Berlin office parks, significantly expanding beyond Central and Eastern Europe.",
+      "eventKo": "베를린 오피스 파크를 포함한 대형 독일 상업용 부동산 포트폴리오 'GSG 그룹'을 인수하여 중·동유럽을 넘어 사업을 크게 확장했다."
     },
     {
-      "year": 2011,
-      "event": "Acquired majority control of AS Monaco football club, embarking on an ambitious multi-year project to revive the storied Ligue 1 club.",
-      "eventKo": "AS 모나코 축구클럽의 지배 지분을 인수하고 이 역사적인 리그1 클럽을 재건하는 야심찬 다년간의 프로젝트에 착수했다."
+      "year": 2014,
+      "event": "Merged CPI and GSG Group to formally establish CPI Property Group in its current form as a listed company, creating one of the largest real estate groups in Central and Eastern Europe.",
+      "eventKo": "CPI와 GSG 그룹을 합병하여 현재 형태의 상장 회사 'CPI 프로퍼티 그룹'을 공식 출범시켰으며, 이로써 중·동유럽 최대 부동산 그룹 중 하나가 탄생했다."
     },
     {
-      "year": 2017,
-      "event": "AS Monaco won the French Ligue 1 title and reached the semi-finals of the UEFA Champions League, marking the peak of Rybolovlev's investment in the club.",
-      "eventKo": "AS 모나코가 프랑스 리그1 우승을 차지하고 UEFA 챔피언스리그 4강에 진출해 리볼로블레프의 클럽 투자가 정점에 달했다."
+      "year": 2022,
+      "event": "CPI Property Group's portfolio reached approximately €11.2 billion in value, spanning offices, retail, residential, and hotels across Germany, Czech Republic, and other European markets.",
+      "eventKo": "CPI 프로퍼티 그룹의 포트폴리오 가치가 약 112억 유로에 달하며 독일, 체코 및 기타 유럽 시장에 걸쳐 사무용, 소매용, 주거용, 호텔 부동산을 망라하게 되었다."
     }
   ],
   "failures": [
     {
-      "year": 1996,
-      "description": "Arrested and held for 11 months in pretrial detention on suspicion of ordering the murder of a business rival. The charges ultimately collapsed, but the ordeal exposed the extreme personal danger of doing business in 1990s Russia.",
-      "descriptionKo": "경쟁자 살인 교사 혐의로 체포되어 11개월간 미결구금 상태에 놓였다. 혐의는 결국 기각됐지만, 이 사건은 1990년대 러시아에서 사업하는 것이 얼마나 극단적으로 위험한 일인지를 드러냈다.",
-      "lesson": "Even the most capable entrepreneurs cannot operate safely without rule of law; sometimes survival requires relocating entirely.",
-      "lessonKo": "아무리 유능한 기업인이라도 법치 없이는 안전하게 사업할 수 없다. 때로는 생존을 위해 완전히 삶의 터전을 옮겨야 한다."
-    },
-    {
-      "year": 2015,
-      "description": "Embroiled in one of history's most expensive divorce proceedings with ex-wife Elena Rybolovleva, who was awarded approximately $4.5 billion by Swiss courts, though later reduced on appeal.",
-      "descriptionKo": "전 아내 옐레나 리볼로블레바와 역사상 최고액 중 하나로 꼽히는 이혼 소송에 휘말렸다. 스위스 법원이 약 45억 달러를 판결했으나 항소 후 감액됐다.",
-      "lesson": "Personal legal entanglements can dwarf even major business risks; protecting family assets requires careful legal structures.",
-      "lessonKo": "개인적인 법적 분쟁은 대형 사업 리스크마저 능가할 수 있다. 가족 자산을 보호하려면 신중한 법적 구조 설계가 필요하다."
-    },
-    {
       "year": 2017,
-      "description": "Sued Swiss art dealer Yves Bouvier for alleged fraud in buying over $2 billion worth of art at inflated prices. The multi-year legal battle across multiple jurisdictions proved inconclusive and costly.",
-      "descriptionKo": "스위스 미술상 이브 부비에가 20억 달러 이상의 미술품을 부풀린 가격에 판매한 사기 혐의로 고소했다. 여러 나라에서 벌어진 수년간의 법적 공방은 결론 없이 막대한 비용만 소모했다.",
-      "lesson": "Trust in high-value advisory relationships must be backed by independent verification; even experienced investors can be defrauded by experts.",
-      "lessonKo": "고가 자문 관계에서의 신뢰는 독립적인 검증으로 뒷받침되어야 한다. 경험 많은 투자자조차 전문가에게 사기를 당할 수 있다."
+      "description": "Vítek was fined by Luxembourg's financial regulator CSSF in connection with how he acquired shares in Orco Property Group, raising questions about compliance with mandatory takeover bid rules.",
+      "descriptionKo": "비테크는 오르코 프로퍼티 그룹의 지분 취득 방식과 관련하여 룩셈부르크 금융 규제 당국 CSSF로부터 제재금을 부과받았으며, 의무 공개매수 규정 준수 여부에 대한 의문이 제기되었다.",
+      "lesson": "Cross-border acquisitions require meticulous attention to each jurisdiction's disclosure and mandatory bid rules.",
+      "lessonKo": "국경을 초월한 인수합병에서는 각 국가의 공시 및 의무 공개매수 규정을 면밀히 준수해야 한다."
+    },
+    {
+      "year": 2019,
+      "description": "Vítek and CPI were sued in the Southern District of New York for $1 billion in damages related to a disputed real estate transaction, creating significant legal uncertainty and negative press coverage.",
+      "descriptionKo": "비테크와 CPI는 분쟁이 된 부동산 거래와 관련하여 뉴욕 남부지방법원에서 10억 달러 손해배상 소송을 당하며 상당한 법적 불확실성과 부정적인 언론 보도에 직면했다.",
+      "lesson": "Complex multi-jurisdictional deals require ironclad documentation and dispute resolution mechanisms from the outset.",
+      "lessonKo": "복잡한 다국적 거래에는 처음부터 완벽한 문서화와 분쟁 해결 메커니즘이 필요하다."
+    },
+    {
+      "year": 2022,
+      "description": "Rising interest rates across Europe put significant pressure on CPI's debt-financed portfolio, causing the company's bond prices to fall sharply and triggering concerns about refinancing risk for its heavy debt load.",
+      "descriptionKo": "유럽 전역의 금리 인상으로 CPI의 부채 기반 포트폴리오에 큰 압박이 가해지며 회사채 가격이 급락했고, 막대한 부채의 재융자 리스크에 대한 우려가 불거졌다.",
+      "lesson": "Real estate empires built on debt financing are inherently vulnerable to interest rate cycles; maintaining adequate liquidity buffers is essential.",
+      "lessonKo": "부채 금융으로 구축된 부동산 제국은 금리 주기에 구조적으로 취약하다. 적절한 유동성 완충 장치를 유지하는 것이 필수적이다."
     }
   ],
   "wealthHistory": [
-    { "year": 2005, "netWorth": 2.5 },
-    { "year": 2008, "netWorth": 12.8 },
-    { "year": 2010, "netWorth": 9.5 },
-    { "year": 2014, "netWorth": 8.8 },
-    { "year": 2018, "netWorth": 7.1 },
-    { "year": 2021, "netWorth": 7.0 },
-    { "year": 2024, "netWorth": 6.7 }
+    {
+      "year": 2005,
+      "netWorth": 0.5
+    },
+    {
+      "year": 2010,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2014,
+      "netWorth": 3.0
+    },
+    {
+      "year": 2017,
+      "netWorth": 5.0
+    },
+    {
+      "year": 2020,
+      "netWorth": 6.5
+    },
+    {
+      "year": 2022,
+      "netWorth": 8.0
+    },
+    {
+      "year": 2024,
+      "netWorth": 7.0
+    }
   ],
   "quotes": [],
   "books": {
@@ -96,10 +112,10 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Transformation of Uralkali into a global potash giant; revival of AS Monaco FC; high-profile legal battles involving divorce, art fraud, and a former murder charge; passionate art collector.",
-    "knownForKo": "우랄칼리를 글로벌 칼륨 비료 대기업으로 키워낸 것, AS 모나코 FC 재건, 이혼·미술품 사기·살인 혐의 등 연이은 고위급 법적 공방, 그리고 열정적인 미술 수집가로 알려져 있다.",
-    "philanthropy": "Has made donations to cultural and educational institutions in Monaco and Russia, though his philanthropic profile is considerably lower-key than his business and legal activities.",
-    "philanthropyKo": "모나코와 러시아의 문화·교육 기관에 기부를 해왔지만, 그의 자선 활동 프로필은 사업 및 법적 활동에 비해 훨씬 조용한 편이다."
+    "knownFor": "Vítek is known for his extraordinary secrecy — he rarely speaks to the press, grants almost no interviews, and manages his vast empire from Switzerland. He is regarded as one of the most aggressive and opportunistic real estate investors in post-communist Europe, consistently identifying undervalued assets and acquiring them at scale.",
+    "knownForKo": "비테크는 극도의 비밀주의로 유명하다. 언론과의 인터뷰를 거의 하지 않으며 스위스에서 방대한 사업을 조용히 운영한다. 공산주의 이후 유럽에서 가장 공격적이고 기회주의적인 부동산 투자자 중 한 명으로, 저평가된 자산을 꾸준히 발굴하여 대규모로 인수해 왔다.",
+    "philanthropy": "Vítek maintains a low profile on philanthropy. The family purchased Rydinghurst, a 17th-century estate in Surrey, England, from Ringo Starr in 2015 for £13.5 million, and is known for collecting luxury yachts and maintaining residences in Switzerland.",
+    "philanthropyKo": "비테크는 자선 활동에서도 낮은 존재감을 유지한다. 가족은 2015년 링고 스타로부터 영국 서리 지방의 17세기 저택 라이딩허스트를 1,350만 파운드에 매입했으며, 호화 요트 수집과 스위스 거주지 유지로 알려져 있다."
   },
   "sajuConnection": null
 }

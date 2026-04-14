@@ -1,112 +1,97 @@
 {
   "id": "881",
-  "name": "Mangal Prabhat Lodha",
+  "name": "Nikolai Buinov",
   "childhood": {
-    "birthPlace": "Jodhpur, India",
-    "birthPlaceKo": "인도 조드푸르",
-    "familyBackground": "1955년 12월 1일 라자스탄주 조드푸르의 마르와리 자이나교 집안에서 태어났다. 아버지 구만 말 로다는 인도 독립운동 활동가 출신으로 후에 가우하티 고등법원 수석 판사를 역임했다. 상인 전통이 깊은 마르와리 가문 출신으로 사업적 감각을 어릴 때부터 자연스럽게 익혔다.",
-    "familyBackgroundKo": "1955년 12월 1일 라자스탄주 조드푸르의 마르와리 자이나교 집안에서 태어났다. 아버지 구만 말 로다는 인도 독립운동 활동가 출신으로 후에 가우하티 고등법원 수석 판사를 역임했다. 상인 전통이 깊은 마르와리 가문 출신으로 사업적 감각을 어릴 때부터 자연스럽게 익혔다.",
-    "education": "조드푸르 대학교에서 상업학과 법학 학위를 취득했다. 졸업 후 조드푸르 고등법원에서 변호사로 활동했으며, 1981년 아버지가 뭄바이 고등법원 판사로 임명되면서 가족과 함께 뭄바이로 이주했다.",
-    "educationKo": "조드푸르 대학교에서 상업학과 법학 학위를 취득했다. 졸업 후 조드푸르 고등법원에서 변호사로 활동했으며, 1981년 아버지가 뭄바이 고등법원 판사로 임명되면서 가족과 함께 뭄바이로 이주했다.",
-    "earlyLife": "조드푸르에서 자라며 법률과 상업을 두루 공부했고, 뭄바이로 이주한 뒤 도시의 급격한 성장 가능성을 직접 목격하며 부동산업에 눈을 떴다.",
-    "earlyLifeKo": "조드푸르에서 자라며 법률과 상업을 두루 공부했고, 뭄바이로 이주한 뒤 도시의 급격한 성장 가능성을 직접 목격하며 부동산업에 눈을 떴다."
+    "birthPlace": "Krasnoyarsk, Russia",
+    "birthPlaceKo": "러시아 크라스노야르스크",
+    "familyBackground": "Born into a family of entrepreneurs and businesspeople in Siberia. His father was also involved in business ventures and later became his partner in founding energy companies. Grew up in one of Russia's major Siberian cities during the Soviet era.",
+    "familyBackgroundKo": "시베리아의 사업가 가정에서 태어남. 아버지 역시 사업에 관여하며 이후 에너지 회사 설립에 동업자가 됨. 소련 시대에 러시아의 주요 시베리아 도시 중 하나에서 성장.",
+    "education": "Graduated from St. Petersburg State Transport University in 1990.",
+    "educationKo": "1990년 상트페테르부르크 국립 교통대학교 졸업.",
+    "earlyLife": "Grew up in Krasnoyarsk, one of the largest cities in Siberia. Came of age during the turbulent final years of the Soviet Union, which shaped his entrepreneurial instincts as the Russian economy transitioned to capitalism in the early 1990s.",
+    "earlyLifeKo": "시베리아 최대 도시 중 하나인 크라스노야르스크에서 성장. 소련 말기의 격변기에 성인이 되었으며, 1990년대 초 러시아 경제의 자본주의 전환기에 사업가로서의 감각을 형성함.",
+    "source": "Wikipedia, Goodreturns, PeoplePill"
   },
   "careerTimeline": [
     {
-      "year": 1980,
-      "event": "Founded Lodha Group (later Macrotech Developers) in Mumbai, initially building affordable middle-class housing in the suburbs",
-      "eventKo": "뭄바이에서 로다 그룹(훗날 매크로테크 개발사) 설립, 초기에는 교외 지역 중산층 주택 공급에 집중"
-    },
-    {
-      "year": 1985,
-      "event": "Expanded operations across Mumbai Metropolitan Region, shifting focus toward larger integrated townships",
-      "eventKo": "뭄바이 대도시권 전역으로 사업 확대, 대형 통합 타운십 개발로 방향 전환"
+      "year": 1993,
+      "event": "Started his career at a timber company after graduating from university",
+      "eventKo": "대학 졸업 후 목재 회사에서 경력을 시작"
     },
     {
       "year": 1995,
-      "event": "Elected as MLA (Member of Legislative Assembly) representing Malabar Hill constituency for BJP, beginning seven consecutive terms",
-      "eventKo": "말라바르 힐 선거구에서 BJP 소속 주 하원의원(MLA)으로 당선, 이후 7연임 시작"
+      "event": "Co-founded Bodaibo Energy with his father, supplying fuel and materials to Siberian gold miners in Irkutsk",
+      "eventKo": "아버지와 함께 보다이보 에너지를 공동 설립, 이르쿠츠크의 시베리아 금광 채굴업자들에게 연료와 자재를 공급"
+    },
+    {
+      "year": 1997,
+      "event": "Purchased an oil field license that would become the foundation of Irkutsk Oil Company",
+      "eventKo": "이후 이르쿠츠크 석유회사의 기반이 될 유전 라이선스를 구입"
     },
     {
       "year": 2000,
-      "event": "Lodha Group launched its first luxury residential project, entering the premium segment in South Mumbai",
-      "eventKo": "로다 그룹이 사우스 뭄바이 프리미엄 지역에 첫 럭셔리 주거 프로젝트 론칭"
+      "event": "Formally founded Irkutsk Oil Company (INK) with his father and partner Sinyavsky; initial production was just 30,000 tons per year",
+      "eventKo": "아버지와 파트너 시냐프스키와 함께 이르쿠츠크 석유회사(INK)를 공식 설립; 초기 생산량은 연간 3만 톤에 불과"
     },
     {
-      "year": 2010,
-      "event": "Broke ground on World One, slated to become one of the world's tallest residential towers in Mumbai's Lower Parel district",
-      "eventKo": "뭄바이 로어 파렐 지구에 세계 최고층 주거용 타워 중 하나가 될 '월드 원' 착공"
+      "year": 2011,
+      "event": "Became president of INK, taking full leadership of the company's operations",
+      "eventKo": "INK 사장으로 취임하여 회사 운영의 전면적인 리더십을 맡음"
     },
     {
-      "year": 2012,
-      "event": "Launched New Cuffe Parade integrated township project with over $1 billion investment, transforming a former mill district",
-      "eventKo": "10억 달러 이상 투자 규모의 뉴 커프 퍼레이드 통합 타운십 프로젝트 착공, 과거 방직공장 부지 재개발"
+      "year": 2015,
+      "event": "INK produced its 15-millionth ton of hydrocarbons and planned to reach 6 million tons annually, with production increasing 30-fold over a decade",
+      "eventKo": "INK가 누적 1,500만 톤의 탄화수소를 생산하고 연간 600만 톤 생산 목표를 수립; 10년간 생산량 30배 증가"
     },
     {
-      "year": 2014,
-      "event": "Macrotech Developers crossed 85 million sq ft of developed and under-development area, becoming India's largest residential developer by area delivered",
-      "eventKo": "매크로테크 개발사가 개발 완료 및 진행 면적 8,500만 평방피트 돌파, 인도 최대 주거 개발사로 부상"
+      "year": 2017,
+      "event": "Announced plans to increase crude oil production to 8.5 million tons per year; began investing in the hotel business",
+      "eventKo": "원유 생산량을 연간 850만 톤으로 확대 계획 발표; 호텔 사업 투자를 시작"
     },
     {
-      "year": 2019,
-      "event": "Appointed as Cabinet Minister for Women and Child Development in Maharashtra government after BJP victory",
-      "eventKo": "BJP 승리 후 마하라슈트라주 정부 여성아동개발부 장관으로 임명"
-    },
-    {
-      "year": 2021,
-      "event": "Macrotech Developers (Lodha Group) listed on NSE and BSE via IPO at a valuation of approximately $3 billion, raising ₹25 billion",
-      "eventKo": "매크로테크 개발사(로다 그룹) 약 30억 달러 가치로 NSE·BSE 상장, 2,500억 루피 조달"
-    },
-    {
-      "year": 2024,
-      "event": "Net worth reached $11.4 billion; ranked 19th on Forbes India Rich List; company revenue exceeded ₹103 billion annually",
-      "eventKo": "순자산 114억 달러 달성, 포브스 인도 부자 순위 19위 기록, 연 매출 1,032억 루피 돌파"
+      "year": 2022,
+      "event": "Became chairman of the board of INK; company had grown to produce 9 million tons annually (180,000 barrels per day)",
+      "eventKo": "INK 이사회 의장으로 취임; 회사는 연간 900만 톤(일일 18만 배럴) 생산 규모로 성장"
     }
   ],
   "failures": [
     {
-      "year": 2012,
-      "description": "Lodha Group faced significant liquidity pressure and debt accumulation due to aggressive land acquisitions and simultaneous construction of multiple mega-projects. The company's debt load became a concern for analysts and delayed several project completions.",
-      "descriptionKo": "공격적인 토지 매입과 복수의 대형 프로젝트 동시 진행으로 심각한 유동성 압박과 부채 누적에 직면했다. 회사의 부채 규모가 업계 애널리스트들의 우려 대상이 되었고 여러 프로젝트 완공이 지연되었다.",
-      "lesson": "Learned to balance aggressive expansion with disciplined debt management, eventually restructuring finances ahead of the 2021 IPO to reduce leverage and restore investor confidence.",
-      "lessonKo": "공격적 확장과 부채 관리의 균형의 중요성을 깨닫고, 2021년 IPO를 앞두고 재무 구조를 재편해 레버리지를 줄이고 투자자 신뢰를 회복했다."
+      "year": 2014,
+      "description": "Western sanctions on Russia following the Crimea annexation created significant uncertainty for Russian energy companies, though INK avoided direct sanctions unlike larger state-connected firms.",
+      "descriptionKo": "크림반도 합병 이후 러시아에 대한 서방 제재로 러시아 에너지 기업들에 큰 불확실성이 야기되었으나, INK는 대형 국영 기업들과 달리 직접 제재를 면함.",
+      "lesson": "Maintained independence from the state and attracted Western investors like Goldman Sachs and EBRD, which helped insulate the company from some sanctions.",
+      "lessonKo": "국가로부터의 독립성을 유지하고 골드만삭스, EBRD 등 서방 투자자들을 유치하여 일부 제재로부터 회사를 보호함.",
+      "source": "The Moscow Times, World Finance"
     },
     {
-      "year": 2019,
-      "description": "Several high-profile luxury projects faced construction delays and buyer complaints, resulting in legal notices from homebuyers and regulatory scrutiny under the newly enacted RERA (Real Estate Regulatory Authority) framework.",
-      "descriptionKo": "다수의 고급 프로젝트에서 공사 지연과 구매자 불만이 발생해 입주 예정자들의 법적 통보와 RERA(부동산규제청) 규제 당국의 조사를 받게 되었다.",
-      "lesson": "The experience accelerated adoption of more transparent project timelines and strengthened communication with homebuyers, ultimately improving brand trust in the premium segment.",
-      "lessonKo": "이 경험을 계기로 프로젝트 일정 투명성을 높이고 입주자와의 소통을 강화하여 프리미엄 시장에서 브랜드 신뢰도를 개선했다."
+      "year": 2000,
+      "description": "Started INK with only three oil fields and minimal production of 30,000 tons per year, in the remote and challenging environment of East Siberia where infrastructure was minimal.",
+      "descriptionKo": "인프라가 거의 없는 동시베리아의 열악한 환경에서 유전 3개와 연간 3만 톤의 최소 생산량으로 INK를 시작.",
+      "lesson": "Built the company methodically over decades without the benefit of privatization-era asset grabs, proving that patient organic growth could succeed in Russia's oil industry.",
+      "lessonKo": "민영화 시대의 자산 인수 혜택 없이 수십 년에 걸쳐 체계적으로 회사를 성장시키며, 인내심 있는 유기적 성장이 러시아 석유 산업에서 성공할 수 있음을 증명.",
+      "source": "World Finance, The Moscow Times"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2013,
-      "netWorth": 1.5
-    },
-    {
-      "year": 2016,
-      "netWorth": 2.8
+      "year": 2015,
+      "netWorth": 1.0
     },
     {
       "year": 2019,
-      "netWorth": 3.5
+      "netWorth": 1.5
     },
     {
       "year": 2021,
-      "netWorth": 5.0
-    },
-    {
-      "year": 2022,
-      "netWorth": 7.2
-    },
-    {
-      "year": 2023,
-      "netWorth": 9.6
+      "netWorth": 2.2
     },
     {
       "year": 2024,
-      "netWorth": 11.4
+      "netWorth": 4.7
+    },
+    {
+      "year": 2025,
+      "netWorth": 5.1
     }
   ],
   "quotes": [],
@@ -115,10 +100,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Mumbai's most prolific luxury real estate developer, known for transforming city skylines with iconic towers such as World One and New Cuffe Parade. Also one of Maharashtra's longest-serving elected legislators, combining a political career spanning three decades with his role as a leading property magnate. Known for combining Marwari entrepreneurial discipline with large-scale urban vision.",
-    "knownForKo": "월드 원, 뉴 커프 퍼레이드 등 랜드마크 프로젝트로 뭄바이 스카이라인을 바꾼 인도 최대 럭셔리 부동산 개발자. 마하라슈트라주에서 30년 넘게 활동한 베테랑 정치인이기도 하며, 마르와리 특유의 사업 기질과 도시 개발의 큰 비전을 겸비한 인물로 평가받는다.",
-    "philanthropy": "Active in social welfare initiatives in Maharashtra. Advocates for women's welfare through his political role as Women and Child Development Minister. The Lodha Group supports affordable housing initiatives and urban infrastructure development projects that benefit lower-income residents of Mumbai.",
-    "philanthropyKo": "마하라슈트라주에서 다양한 사회복지 활동을 펼치고 있다. 여성아동개발부 장관으로서 여성 복지 정책을 추진해 왔으며, 로다 그룹은 저소득층을 위한 저렴한 주거 공급과 도시 인프라 개발 사업을 지원하고 있다."
+    "knownFor": "Building Russia's largest private oil company without benefiting from the loans-for-shares privatization auctions of the 1990s; one of Russia's few truly self-made energy billionaires; patient, methodical approach to business growth",
+    "knownForKo": "1990년대 주식담보대출 민영화 경매의 혜택 없이 러시아 최대 민간 석유회사를 건설; 러시아에서 몇 안 되는 진정한 자수성가 에너지 억만장자; 인내심 있고 체계적인 사업 성장 접근법",
+    "philanthropy": "Financed the reconstruction of the historic Wawelberg Bank building in St. Petersburg, completed in 2021. Has invested in hotel and cultural infrastructure projects.",
+    "philanthropyKo": "상트페테르부르크의 역사적인 바벨베르크 은행 건물의 재건을 지원하여 2021년 완공. 호텔 및 문화 인프라 프로젝트에 투자.",
+    "controversies": "Operating in Russia's oil sector inevitably involves navigating geopolitical tensions and sanctions regimes, though INK has notably avoided direct Western sanctions unlike major Russian energy firms.",
+    "controversiesKo": "러시아 석유 부문에서의 운영은 지정학적 긴장과 제재 체제를 피할 수 없으나, INK는 주요 러시아 에너지 기업들과 달리 서방의 직접 제재를 특이하게 면해옴."
   },
   "sajuConnection": null
 }

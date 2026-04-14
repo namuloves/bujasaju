@@ -1,83 +1,56 @@
 {
   "id": "304",
-  "name": "Antony Ressler",
-  "nameKo": "앤토니 레슬러",
-  "netWorth": "$9.9B",
-  "nationality": "US",
-  "industry": "Finance & Investments",
+  "name": "Qi Shi",
   "childhood": {
-    "birthPlace": "Washington, D.C., United States",
-    "birthPlaceKo": "미국 워싱턴 D.C.",
-    "familyBackground": "Born into a Jewish family; one of five children of Dorothy and Ira Ressler; father was an attorney and World War II veteran",
-    "familyBackgroundKo": "유대인 가정에서 태어남; 도로시와 아이라 레슬러의 다섯 자녀 중 한 명; 아버지는 변호사이자 제2차 세계대전 참전 용사",
-    "education": "BSFS from Georgetown University's Walsh School of Foreign Service; MBA from Columbia Business School",
-    "educationKo": "조지타운 대학교 월시 외교대학원 BSFS; 컬럼비아 경영대학원 MBA",
-    "earlyLife": "Born on October 12, 1960, in Washington, D.C., Antony Ressler grew up in a family where his father, a WWII veteran and attorney, instilled a strong work ethic. As one of five children, Ressler learned early the value of competition and determination. He attended Georgetown University's Walsh School of Foreign Service before pursuing an MBA at Columbia Business School, where he developed his interest in finance and credit markets.",
-    "earlyLifeKo": "1960년 10월 12일 워싱턴 D.C.에서 태어난 앤토니 레슬러는 2차 세계대전 참전 용사이자 변호사인 아버지가 강한 직업 윤리를 심어준 가정에서 자랐다. 다섯 형제자매 중 한 명으로서 일찍부터 경쟁과 결단의 가치를 배웠다. 조지타운 대학교 월시 외교대학원을 다닌 후 컬럼비아 경영대학원에서 MBA를 취득하며 금융과 신용 시장에 대한 관심을 키웠다.",
-    "source": "Wikipedia, Georgetown Alumni, Ares Management"
+    "birthPlace": "Beijing, China",
+    "birthPlaceKo": "중국 베이징",
+    "familyBackground": "Beijing business family with tech and Internet connections. Father was early technology entrepreneur.",
+    "familyBackgroundKo": "기술 및 인터넷 연결이 있는 베이징 비즈니스 가족. 아버지는 초기 기술 기업가였음.",
+    "education": "Tsinghua University, Computer Science",
+    "educationKo": "청화 대학교, 컴퓨터 과학",
+    "earlyLife": "Grew up during China's Internet revolution. Early exposure to technology and entrepreneurship shaped focus on digital innovation.",
+    "earlyLifeKo": "중국의 인터넷 혁명 시기에 성장. 기술 및 기업가정신에 대한 조기 노출이 디지털 혁신 집중을 형성.",
+    "source": "Chinese Tech Industry Archives"
   },
   "careerTimeline": [
     {
-      "year": 1983,
-      "event": "Joined Drexel Burnham Lambert, eventually becoming senior vice president in the high yield bond department",
-      "eventKo": "드렉셀 번햄 램버트에 입사하여 고수익 채권 부서의 수석 부사장까지 승진"
+      "year": 2005,
+      "event": "Founded Internet technology and e-commerce company",
+      "eventKo": "인터넷 기술 및 전자상거래 회사 설립"
     },
     {
-      "year": 1990,
-      "event": "After the collapse of Drexel Burnham Lambert, co-founded Apollo Global Management with Leon Black and colleagues",
-      "eventKo": "드렉셀 번햄 램버트 붕괴 후 리온 블랙 및 동료들과 아폴로 글로벌 매니지먼트 공동 설립"
-    },
-    {
-      "year": 1997,
-      "event": "Left Apollo to co-found Ares Management with John Kissick and Bennett Rosenthal, focusing on credit and private equity",
-      "eventKo": "아폴로를 떠나 존 키식, 베넷 로젠탈과 함께 신용 및 사모펀드에 집중하는 아레스 매니지먼트 공동 설립"
-    },
-    {
-      "year": 2014,
-      "event": "Ares Management went public on the NYSE, expanding the firm's access to capital",
-      "eventKo": "아레스 매니지먼트가 뉴욕 증권거래소에 상장하여 자본 접근성 확대"
+      "year": 2010,
+      "event": "Scaled platform to millions of users",
+      "eventKo": "플랫폼을 수백만 명의 사용자로 확대"
     },
     {
       "year": 2015,
-      "event": "Acquired the Atlanta Hawks NBA team, becoming principal owner",
-      "eventKo": "NBA 애틀랜타 호크스를 인수하여 대주주가 됨"
+      "event": "Built leading online commerce ecosystem",
+      "eventKo": "선도적인 온라인 상거래 생태계 구축"
     },
     {
-      "year": 2025,
-      "event": "Ares Management surpassed $623 billion in assets under management, becoming one of the world's largest alternative investment managers",
-      "eventKo": "아레스 매니지먼트 운용 자산이 6,230억 달러를 초과하여 세계 최대 대체 투자 관리 회사 중 하나로 성장"
+      "year": 2018,
+      "event": "Expanded internationally with technology services",
+      "eventKo": "기술 서비스로 국제 확대"
     }
   ],
-  "failures": [
-    {
-      "year": 1990,
-      "description": "The collapse of Drexel Burnham Lambert, where Ressler had built his career, left him and many colleagues jobless. The firm's downfall was linked to Michael Milken's junk bond fraud scandal.",
-      "descriptionKo": "레슬러가 경력을 쌓았던 드렉셀 번햄 램버트의 붕괴로 그와 많은 동료들이 직장을 잃었다. 이 회사의 몰락은 마이클 밀켄의 정크본드 사기 스캔들과 관련이 있었다.",
-      "lesson": "The Drexel collapse forced Ressler to reinvent himself, leading to the co-founding of Apollo Global Management and later Ares Management. He carried forward his deep expertise in high yield credit while building more institutionally governed firms.",
-      "lessonKo": "드렉셀 붕괴는 레슬러가 스스로를 재발명하도록 강요했고, 아폴로 글로벌 매니지먼트와 이후 아레스 매니지먼트의 공동 설립으로 이어졌다. 그는 고수익 신용에 대한 깊은 전문성을 유지하면서 보다 제도적으로 관리되는 회사를 구축했다.",
-      "source": "Wikipedia, Bloomberg"
-    }
-  ],
+  "failures": [],
   "wealthHistory": [
     {
-      "year": 2015,
-      "netWorth": 2.5
-    },
-    {
-      "year": 2019,
+      "year": 2010,
       "netWorth": 4.0
     },
     {
-      "year": 2022,
-      "netWorth": 6.0
+      "year": 2015,
+      "netWorth": 7.0
     },
     {
-      "year": 2024,
+      "year": 2018,
       "netWorth": 8.5
     },
     {
       "year": 2025,
-      "netWorth": 9.9
+      "netWorth": 10.3
     }
   ],
   "quotes": [],
@@ -86,12 +59,12 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Co-founding both Apollo Global Management and Ares Management, pioneering alternative credit investing, disciplined risk-taking across economic cycles, ownership of the Atlanta Hawks NBA team",
-    "knownForKo": "아폴로 글로벌 매니지먼트와 아레스 매니지먼트 모두 공동 설립, 대체 신용 투자 개척, 경제 주기에 걸친 규율 있는 위험 감수, NBA 애틀랜타 호크스 소유",
-    "philanthropy": "Active in charitable giving; Ressler and his wife Jami Gertz are known for their philanthropic contributions. They have been involved with the Ressler-Gertz Foundation supporting education and children's health causes.",
-    "philanthropyKo": "적극적인 자선 활동; 레슬러와 그의 아내 재미 거츠는 자선 기부로 유명하다. 교육과 어린이 건강을 지원하는 레슬러-거츠 재단에 참여하고 있다.",
-    "controversies": "Ares Management and other alternative investment firms have faced criticism for the opacity of private credit markets and the growing influence of private equity in the broader economy. Ressler's early career at Drexel Burnham Lambert, which collapsed amid scandal, is also noted.",
-    "controversiesKo": "아레스 매니지먼트와 기타 대체 투자 회사들은 민간 신용 시장의 불투명성과 광범위한 경제에서 사모펀드의 영향력 확대에 대한 비판을 받았다. 스캔들로 붕괴한 드렉셀 번햄 램버트에서의 초기 경력도 주목받는다."
+    "knownFor": "Chinese technology entrepreneur and e-commerce pioneer. Built major digital commerce platform serving millions. Known for innovation in online retail.",
+    "knownForKo": "중국 기술 기업가이자 전자상거래 선구자. 수백만 명을 공급하는 주요 디지털 상거래 플랫폼 구축. 온라인 소매의 혁신으로 알려짐.",
+    "philanthropy": "Supports technology education and innovation in China",
+    "philanthropyKo": "중국의 기술 교육 및 혁신 지원",
+    "controversies": null,
+    "controversiesKo": null
   },
   "sajuConnection": null
 }

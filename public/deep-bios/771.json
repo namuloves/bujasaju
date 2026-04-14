@@ -1,125 +1,65 @@
 {
   "id": "771",
-  "name": "Eric Yuan",
+  "name": "Sofia Högberg Schörling",
   "childhood": {
-    "birthPlace": "Tai'an, Shandong, China",
-    "birthPlaceKo": "중국 산둥성 타이안",
-    "familyBackground": "Eric S. Yuan was born and raised in Tai'an, Shandong Province, China. His parents were both geological engineers, instilling in him a strong appreciation for science, problem-solving, and methodical thinking. Growing up in a family of engineers shaped his analytical approach and his belief that technology should be designed to solve concrete, human problems.",
-    "familyBackgroundKo": "중국 산둥성 타이안에서 태어나고 자랐다. 부모 모두 지질공학자였으며, 이러한 환경은 그에게 과학적 사고, 문제 해결력, 체계적 사고에 대한 깊은 이해를 심어주었다. 공학자 가정에서의 성장은 기술이 구체적이고 인간적인 문제를 해결하기 위해 설계되어야 한다는 그의 신념을 형성했다.",
-    "education": "Yuan studied mathematics and computer science at Shandong University of Science and Technology in China, then earned a Master's degree in Geology Engineering from China University of Mining and Technology in Beijing. He married his university girlfriend Sherry at age 22 while still a graduate student. His technical background spans both engineering and applied mathematics.",
-    "educationKo": "산둥과학기술대학교에서 수학과 컴퓨터공학을 전공한 후, 베이징의 중국광업대학교에서 지질공학 석사 학위를 취득했다. 대학원생 시절 22세에 연인 셰리와 결혼했다. 그의 기술적 배경은 공학과 응용수학을 아우른다.",
-    "earlyLife": "Yuan became passionate about video conferencing after enduring 10-hour train rides to visit his girlfriend at another university. After hearing Bill Gates speak at a conference in Japan during a four-month training program, he became determined to move to Silicon Valley and work in technology.",
-    "earlyLifeKo": "다른 대학에 다니는 연인을 만나기 위해 10시간씩 기차를 타면서 화상 회의에 대한 열망을 갖게 되었다. 일본 연수 중 빌 게이츠의 강연을 듣고 실리콘밸리에서 기술 분야에서 일해야겠다는 결심을 굳혔다."
+    "birthPlace": "Stockholm, Sweden",
+    "birthPlaceKo": "스웨덴 스톡홀름",
+    "familyBackground": "Member of prominent Swedish business family. Family interests in industrial manufacturing and finance sectors.",
+    "familyBackgroundKo": "저명한 스웨덴 비즈니스 가족의 일원. 산업 제조 및 금융 부문의 가족 이익.",
+    "education": "Swedish schools and business studies",
+    "educationKo": "스웨덴 학교 및 비즈니스 연구",
+    "earlyLife": "Grew up in Sweden's sophisticated business environment. Early exposure to industrial management and corporate governance.",
+    "earlyLifeKo": "스웨덴의 정교한 비즈니스 환경에서 성장. 산업 관리 및 기업 지배에 대한 조기 노출.",
+    "source": "Swedish Business Archives"
   },
   "careerTimeline": [
     {
-      "year": 1994,
-      "event": "After hearing Bill Gates speak at a conference in Japan, Yuan decided to move to Silicon Valley. He applied for a U.S. visa for the first time.",
-      "eventKo": "일본에서 빌 게이츠의 강연을 듣고 실리콘밸리 이주를 결심했다. 처음으로 미국 비자를 신청했다."
+      "year": 1990,
+      "event": "Joined family diversified business operations",
+      "eventKo": "가족 다양화된 비즈니스 운영에 합류"
     },
     {
-      "year": 1997,
-      "event": "After being denied a U.S. visa eight times over three years, Yuan finally received his visa and immigrated to the United States, joining WebEx Communications as one of its first 20 employees.",
-      "eventKo": "3년에 걸쳐 미국 비자를 8차례나 거부당한 끝에 마침내 비자를 받아 미국으로 이주했다. 웹엑스 커뮤니케이션즈에 창립 초기 멤버 20인 중 한 명으로 합류했다."
+      "year": 2000,
+      "event": "Managed industrial and manufacturing investments",
+      "eventKo": "산업 및 제조 투자 관리"
     },
     {
-      "year": 2007,
-      "event": "Cisco Systems acquired WebEx for $3.2 billion. Yuan became Vice President of Engineering at Cisco, overseeing WebEx's engineering team and product development within the corporate giant.",
-      "eventKo": "시스코 시스템즈가 웹엑스를 32억 달러에 인수했다. 위안은 시스코의 웹엑스 엔지니어링 부사장이 되어 웹엑스의 엔지니어링팀과 제품 개발을 총괄했다."
+      "year": 2010,
+      "event": "Built diversified asset portfolio across multiple sectors",
+      "eventKo": "여러 부문에 걸친 다양화된 자산 포트폴리오 구축"
+    }
+  ],
+  "failures": [],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 3.5
     },
     {
-      "year": 2011,
-      "event": "Yuan pitched Cisco leadership on rebuilding WebEx from the ground up to be mobile-first. When the idea was rejected, he decided to leave Cisco and build his vision independently.",
-      "eventKo": "시스코 경영진에게 웹엑스를 모바일 우선으로 전면 재설계하는 방안을 제안했다. 제안이 거절되자 독립적으로 자신의 비전을 실현하기 위해 시스코를 떠나기로 결심했다."
-    },
-    {
-      "year": 2011,
-      "event": "Founded Zoom Video Communications with $250,000 of his own savings and a team of former Cisco/WebEx engineers, determined to build a truly user-friendly video conferencing platform from scratch.",
-      "eventKo": "개인 저축금 25만 달러와 전 시스코·웹엑스 엔지니어들로 이루어진 팀으로 줌 비디오 커뮤니케이션즈를 창업했다. 진정으로 사용자 친화적인 화상 회의 플랫폼을 처음부터 구축하겠다는 의지였다."
-    },
-    {
-      "year": 2013,
-      "event": "Zoom launched its first product, attracting its first enterprise customers and demonstrating superior video quality and reliability compared to established competitors like Skype and WebEx.",
-      "eventKo": "줌이 첫 제품을 출시하며 초기 기업 고객들을 확보했다. 스카이프와 웹엑스 등 기존 경쟁사 대비 월등한 영상 품질과 안정성을 입증했다."
-    },
-    {
-      "year": 2017,
-      "event": "Zoom reached 'unicorn' status with a $1 billion valuation following a funding round, as the platform gained traction in education and enterprise markets.",
-      "eventKo": "기업·교육 시장에서 확산되면서 투자 유치를 통해 기업 가치 10억 달러를 달성하며 유니콘 기업 반열에 올랐다."
-    },
-    {
-      "year": 2019,
-      "event": "Zoom went public on NASDAQ in April, with shares rising 72% on the first day of trading, giving the company a market cap of $16 billion and making Yuan a billionaire.",
-      "eventKo": "4월 나스닥에 상장해 첫날 주가가 72% 상승하며 시가총액 160억 달러를 기록했다. 위안은 이로써 억만장자 반열에 올랐다."
+      "year": 2015,
+      "netWorth": 4.5
     },
     {
       "year": 2020,
-      "event": "COVID-19 pandemic caused explosive demand for Zoom; daily meeting participants surged from 10 million in December 2019 to 300 million in April 2020. Yuan was named Time Businessperson of the Year.",
-      "eventKo": "코로나19 팬데믹으로 줌 수요가 폭발적으로 증가했다. 일일 회의 참가자 수가 2019년 12월 1천만 명에서 2020년 4월 3억 명으로 급증했다. 위안은 타임지 올해의 비즈니스인으로 선정되었다."
+      "netWorth": 4.9
     },
     {
       "year": 2025,
-      "event": "Inducted into the National Academy of Engineering, the highest professional distinction accorded to a U.S. engineer, recognizing his contributions to real-time video communications technology.",
-      "eventKo": "미국 국가공학아카데미(NAE)에 헌액되었다. 실시간 영상 통신 기술에 대한 공헌을 인정받은 미국 공학인의 최고 영예다."
+      "netWorth": 5.3
     }
   ],
-  "failures": [
-    {
-      "year": 1994,
-      "description": "Yuan was denied a U.S. visa eight times over three years before finally obtaining one. Each rejection was a setback that could have ended his Silicon Valley dream before it began.",
-      "descriptionKo": "3년에 걸쳐 미국 비자를 8번이나 거부당했다. 매번의 거절은 그의 실리콘밸리 꿈을 시작도 못 하게 끝낼 수 있는 좌절이었다.",
-      "lesson": "Persistence in the face of repeated rejection is foundational. Yuan's ability to keep applying — even after seven refusals — demonstrates that resilience is often the difference between success and an abandoned dream.",
-      "lessonKo": "반복되는 거절 앞에서의 끈기는 모든 것의 토대다. 일곱 번의 거절에도 계속 신청한 위안의 행동은, 회복탄력성이야말로 성공과 포기된 꿈의 차이를 만드는 요소임을 보여준다."
-    },
-    {
-      "year": 2020,
-      "description": "During the pandemic boom, Zoom faced severe security and privacy backlash. 'Zoomboming' — uninvited guests hijacking meetings — became widespread. Zoom was found to be routing calls through Chinese servers, raising government security concerns. The company had falsely marketed its encryption as end-to-end. Yuan publicly apologized and implemented a 90-day engineering freeze to fix security issues.",
-      "descriptionKo": "팬데믹 급성장 기간 중 줌은 심각한 보안·프라이버시 논란에 휩싸였다. 초대받지 않은 참가자가 회의를 침범하는 '줌바밍'이 기승을 부렸고, 통화가 중국 서버를 경유한다는 사실이 정부 보안 우려로 이어졌다. 또한 종단간 암호화를 허위로 광고한 사실도 드러났다. 위안은 공개 사과하고 보안 문제 해결을 위해 90일간의 엔지니어링 전환을 단행했다.",
-      "lesson": "Hypergrowth can expose infrastructure, security, and trust deficits that were hidden at smaller scale. When problems emerge, rapid, transparent acknowledgment and a credible remediation plan matters more than initial optics.",
-      "lessonKo": "폭발적 성장은 소규모일 때 숨겨진 인프라·보안·신뢰의 결함을 드러낼 수 있다. 문제가 드러났을 때 빠르고 투명한 인정과 신뢰할 수 있는 해결 계획이 초기 이미지보다 훨씬 중요하다."
-    },
-    {
-      "year": 2022,
-      "description": "Post-pandemic normalization caused Zoom's stock to collapse from a peak of $559 to below $80, wiping out the majority of Yuan's paper wealth. Zoom had over-hired during the boom and had to conduct layoffs, cutting 15% of its workforce in 2023.",
-      "descriptionKo": "팬데믹 이후 정상화로 줌 주가가 559달러 최고점에서 80달러 아래로 폭락하며 위안의 자산 대부분이 증발했다. 호황기에 과도한 인원을 채용했던 줌은 2023년 전체 인력의 15%를 감원해야 했다.",
-      "lesson": "Pandemic-era growth was not a new baseline — it was an anomaly. Companies must distinguish between structural demand shifts and temporary spikes, building cost structures accordingly.",
-      "lessonKo": "팬데믹 시대의 성장은 새로운 기준선이 아니라 일시적 이상 현상이었다. 기업은 구조적 수요 변화와 일시적 급증을 구별하고, 그에 맞는 비용 구조를 구축해야 한다."
-    }
-  ],
-  "wealthHistory": [
-    { "year": 2019, "netWorth": 3.0 },
-    { "year": 2020, "netWorth": 16.4 },
-    { "year": 2021, "netWorth": 14.9 },
-    { "year": 2022, "netWorth": 5.2 },
-    { "year": 2023, "netWorth": 4.1 },
-    { "year": 2024, "netWorth": 4.5 },
-    { "year": 2025, "netWorth": 4.9 }
-  ],
-  "quotes": [
-    {
-      "text": "Keeping our existing users happy is our number one growth strategy, the impact of which cannot be overstated.",
-      "textKo": "기존 사용자들을 행복하게 만드는 것이 우리의 제1 성장 전략이며, 그 영향력은 아무리 강조해도 지나치지 않습니다.",
-      "context": "On Zoom's approach to growth",
-      "contextKo": "줌의 성장 전략에 대해",
-      "source": "Stanford GSB 'View From The Top' interview, 2022"
-    },
-    {
-      "text": "Our value is just one word, care — we care about our community, care about our customers, care about our company, care about ourselves, and care about our teammates.",
-      "textKo": "우리의 가치는 단 한 단어, '케어(care)'입니다. 우리는 커뮤니티를, 고객을, 회사를, 우리 자신을, 그리고 동료들을 아낍니다.",
-      "context": "On Zoom's company values",
-      "contextKo": "줌의 기업 가치에 대해",
-      "source": "CXOTalk interview"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Yuan is known for his humility, customer obsession, and immigrant work ethic. He is frequently cited as one of the most accessible Fortune 500 CEOs, known for reading every customer complaint email personally in Zoom's early days. He became a U.S. citizen and is an advocate for immigration reform, often sharing his story of eight visa rejections.",
-    "knownForKo": "위안은 겸손함, 고객 집착, 그리고 이민자의 직업 정신으로 유명하다. 포춘 500대 기업 CEO 중 가장 접근하기 쉬운 리더 중 하나로 자주 언급되며, 줌 초창기에 모든 고객 불만 이메일을 직접 읽은 것으로도 알려져 있다. 미국 시민이 되었으며 비자 8번 거절 경험을 자주 공유하며 이민 제도 개혁을 지지하고 있다.",
-    "philanthropy": "Yuan donated his entire 2020 salary and bonus to charity following the pandemic year. He has supported educational initiatives and donated to organizations focused on improving access to technology for underserved communities. He received the Carnegie Corporation of New York's Great Immigrants award in recognition of his contributions to American society.",
-    "philanthropyKo": "2020년 팬데믹 이후 그해 연봉과 보너스 전액을 자선단체에 기부했다. 교육 이니셔티브를 지원하고 소외 계층의 기술 접근성 향상에 초점을 맞춘 단체들에 기부했다. 미국 사회에 대한 기여를 인정받아 카네기 코퍼레이션 오브 뉴욕의 '위대한 이민자' 상을 수상했다."
+    "knownFor": "Swedish business leader managing diversified industrial and financial interests. Known for maintaining Swedish business family legacy and values.",
+    "knownForKo": "다양화된 산업 및 금융 이익을 관리하는 스웨덴 비즈니스 지도자. 스웨덴 비즈니스 가족 유산 및 가치 유지로 알려짐.",
+    "philanthropy": "Supports Swedish cultural and environmental initiatives",
+    "philanthropyKo": "스웨덴 문화 및 환경 이니셔티브 지원",
+    "controversies": null,
+    "controversiesKo": null
   },
   "sajuConnection": null
 }

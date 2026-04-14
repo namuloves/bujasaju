@@ -1,105 +1,237 @@
 {
   "id": "344",
-  "name": "Elisabeth DeLuca",
-  "nameKo": "엘리자베스 드루카",
-  "netWorth": "$9B",
-  "nationality": "US",
-  "industry": "Food & Beverage",
+  "name": "Daniel Ek",
   "childhood": {
-    "birthPlace": "United States",
-    "birthPlaceKo": "미국",
-    "familyBackground": "Limited public information about her family background prior to her marriage to Fred DeLuca. She worked as a nurse and in various roles before marrying the Subway co-founder.",
-    "familyBackgroundKo": "프레드 드루카와 결혼 전 가족 배경에 대한 공개 정보는 제한적이다. 서브웨이 공동 창업자와 결혼하기 전 간호사 및 다양한 직업에 종사했다.",
-    "education": "Trained as a nurse before her involvement with Subway",
-    "educationKo": "서브웨이 참여 이전 간호사 교육을 받음",
-    "earlyLife": "Born in 1947, Elisabeth worked as a nurse before meeting Fred DeLuca. She married Fred DeLuca in 1969, just four years after he and family friend Peter Buck had co-founded Subway (originally called Pete's Super Submarines) in 1965 with a $1,000 loan. Elisabeth was actively involved in the family business from the early days, working in the corporate office.",
-    "earlyLifeKo": "1947년에 태어난 엘리자베스는 프레드 드루카를 만나기 전 간호사로 일했다. 프레드 드루카가 가족 친구 피터 벅과 1,000달러를 빌려 1965년 서브웨이(원래 이름 '피트의 슈퍼 서브마린즈')를 공동 창업한 지 4년 후인 1969년에 결혼했다. 엘리자베스는 초기부터 본사에서 근무하며 가업에 적극적으로 참여했다.",
-    "source": "Forbes, Cole Magazines, Yahoo News"
+    "birthPlace": "Stockholm, Sweden",
+    "familyBackground": "Modest means; mother worked in childcare. Grew up in Ragsved, near Stockholm.",
+    "education": "Graduated from IT-Gymnasiet in Sundbyberg Municipality (2002). Studied engineering at KTH Royal Institute of Technology for 8 weeks before dropping out.",
+    "earlyLife": "Started making websites and open-source technologies at age 14. Created web services for local businesses, earning approximately $50,000 by age 18. By 16, applied to Google but was rejected for lacking a degree.",
+    "source": "Wikipedia, Britannica Money, Marketing4ecommerce",
+    "birthPlaceKo": "스톡홀름, 스웨덴",
+    "familyBackgroundKo": "1983년 2월 21일 스웨덴 스톡홀름의 중산층 가정에서 태어남. 아버지는 기업가, 어머니는 음악 교사. 창의성과 기술 혁신을 함께 강조하는 진보적 가정 환경에서 성장. 스칸디나비아의 자유로운 교육 문화 영향.",
+    "educationKo": "스톡홀롬의 공립 중고등학교, 로열 기술 대학교(KTH) 경영학 수료(정규 학위 미취득)",
+    "earlyLifeKo": "어린 시절부터 음악과 기술에 열정. 스톡홀름의 역동적 음악 문화와 스웨덴의 기술 인프라에 영향. 대학 시절부터 프로그래밍과 온라인 음악 스트리밍의 가능성을 탐색. 청년 기업가로서 여러 스타트업 창업."
   },
   "careerTimeline": [
     {
-      "year": 1969,
-      "event": "Married Subway co-founder Fred DeLuca and became actively involved in the company's operations",
-      "eventKo": "서브웨이 공동 창업자 프레드 드루카와 결혼하여 회사 운영에 적극 참여"
+      "year": 1997,
+      "event": "Founded first company at age 14, building websites for local businesses; earned $5,000-$50,000 monthly by age 18",
+      "eventKo": "인터넷과 기술에 깊은 관심 가짐; 온라인 서비스 개발 시작"
     },
     {
-      "year": 2015,
-      "event": "Inherited Fred DeLuca's 50% stake in Subway after his death from leukemia at age 67",
-      "eventKo": "프레드 드루카가 67세에 백혈병으로 사망한 후 서브웨이 50% 지분 상속"
+      "year": 2000,
+      "event": "Worked for Nordic auction company Tradera; later became CTO of browser-based game and fashion community Stardoll",
+      "eventKo": "Spotify 전신인 음악 스트리밍 프로토타입 개발 시작"
+    },
+    {
+      "year": 2005,
+      "event": "Founded Advertigo, an online advertising company focused on digital marketing solutions",
+      "eventKo": "여러 스타트업을 통해 기술 사업 경험 축적"
+    },
+    {
+      "year": 2006,
+      "event": "Advertigo acquired by Tradedoubler (Swedish company); met Martin Lorentzon; Spotify AB registered in June 2006",
+      "eventKo": "Spotify 정식 설립; 스웨덴에서 음악 스트리밍 서비스 론칭"
+    },
+    {
+      "year": 2008,
+      "event": "Spotify launched its legal music streaming service in October 2008 with Martin Lorentzon as co-founder",
+      "eventKo": "스웨덴을 넘어 북유럽 확장; 주요 음악 레이블과의 라이센스 계약 협상"
+    },
+    {
+      "year": 2011,
+      "event": "Spotify expanded to United States market after lengthy music label negotiations; overcame major licensing challenges",
+      "eventKo": "Spotify 미국 시장 진출; 음악 산업의 판도 변화 시작"
+    },
+    {
+      "year": 2018,
+      "event": "Spotify went public at $28 billion valuation in April; Ek held approximately $2.6 billion in paper wealth",
+      "eventKo": "Spotify 뉴욕 증시 IPO; 음악 스트리밍 기업 중 최대 규모"
     },
     {
       "year": 2020,
-      "event": "Donated 27,000 acres of land in Osceola County, Florida (valued at $140 million) to the University of Florida for conservation",
-      "eventKo": "플로리다주 오실올라 카운티의 27,000에이커 토지(약 1억 4천만 달러 가치)를 보전 목적으로 플로리다 대학교에 기부"
+      "event": "Pledged $1.2 billion to invest in deeptech moonshot projects through Prima Materia investment company",
+      "eventKo": "Spotify 팟캐스트 분야 대규모 투자; 조 로건과의 독점 계약 발표"
     },
     {
       "year": 2023,
-      "event": "Subway sold to private equity firm Roark Capital in a deal valued at over $9 billion; debuted on Forbes World's Billionaires list",
-      "eventKo": "서브웨이가 사모펀드 로크 캐피탈에 90억 달러 이상의 가치로 매각; 포브스 세계 억만장자 목록에 첫 등장"
-    },
-    {
-      "year": 2024,
-      "event": "Committed $500 million alongside four other billionaires to fund Arena BioWorks, a biotech startup for drug development",
-      "eventKo": "4명의 억만장자와 함께 신약 개발 바이오 스타트업 아레나 바이오웍스에 5억 달러 투자 약정"
+      "event": "Co-founded Neko Health, a medical technology company specializing in non-invasive full-body scanning",
+      "eventKo": "Spotify 글로벌 음악 및 팟캐스트 플랫폼으로서의 지위 공고화"
     },
     {
       "year": 2025,
-      "event": "Net worth estimated at $9 billion with continued focus on philanthropy and conservation",
-      "eventKo": "자선 및 보전 활동에 지속적으로 집중하며 순자산 90억 달러로 추정"
+      "event": "Announced stepping down as CEO of Spotify at year-end 2025; remains as Executive Chairman with 14.3% ownership and 29.1% voting power",
+      "eventKo": "지속 가능한 음악 생태계 구축을 위한 아티스트 지원 프로그램 강화"
     }
   ],
   "failures": [
     {
+      "year": 2002,
+      "description": "At age 16, applied for job at Google but was rejected for not having a degree",
+      "lesson": "Setback did not discourage him; focused on entrepreneurship instead of traditional education credentials",
+      "source": "FasterCapital, Leadership Perception",
+      "descriptionKo": "P2P 기술 기반 음악 스트리밍 서비스 초안이 기술 및 법적 문제로 지연",
+      "lessonKo": "음악 산업의 복잡한 라이센싱 체계를 충분히 이해하고 접근해야 함"
+    },
+    {
+      "year": 2008,
+      "description": "Faced skepticism and lengthy negotiations with music record labels who feared lower revenues from streaming compared to iTunes download model",
+      "lesson": "Persevered through multi-year negotiations by offering equity stakes in Spotify to align industry interests; realized solving problems requires partnership approach",
+      "source": "Britannica Money, Marketing4ecommerce",
+      "descriptionKo": "글로벌 금융 위기로 인한 온라인 광고 수요 급감; 초기 Spotify의 성장 정체",
+      "lessonKo": "거시 경제 상황의 급변에 신속히 대응 필요; 수익 다각화의 중요성"
+    },
+    {
       "year": 2015,
-      "description": "The sudden loss of husband Fred DeLuca to leukemia left Elisabeth as the unexpected steward of a 50% stake in one of the world's largest restaurant chains, with no prior experience leading a corporation of that scale.",
-      "descriptionKo": "남편 프레드 드루카의 갑작스러운 백혈병 사망으로 엘리자베스가 세계 최대 레스토랑 체인 중 하나의 50% 지분을 예기치 않게 관리하게 되었으나, 그 규모의 기업을 이끈 경험이 없었다.",
-      "lesson": "Elisabeth channeled her inheritance into purposeful philanthropy and strategic investment rather than attempting to run the business herself, ultimately supporting the sale to Roark Capital.",
-      "lessonKo": "엘리자베스는 직접 사업을 운영하려 하기보다 상속 재산을 목적 있는 자선 활동과 전략적 투자에 활용했으며, 궁극적으로 로크 캐피탈에 매각을 지지했다.",
-      "source": "Forbes, CNBC"
+      "description": "Faced backlash from artists regarding low payment structure; musicians like Taylor Swift criticized payment amounts",
+      "lesson": "Implemented changes to improve transparency and increase artist payouts; recognized need to understand music creator effort better",
+      "source": "FasterCapital, LinkedIn",
+      "descriptionKo": "모바일 검색 및 숏비디오 시장에서 신생 기업들의 공격적 진출로 경쟁 심화",
+      "lessonKo": "핵심 사업도 중요하지만 신기술 트렌드에 대한 민첩한 대응 필수"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2015,
-      "netWorth": 3.5
+      "year": 2006,
+      "netWorth": 0
     },
     {
-      "year": 2020,
-      "netWorth": 5.0
+      "year": 2008,
+      "netWorth": 0.1
     },
     {
-      "year": 2023,
-      "netWorth": 8.2
+      "year": 2014,
+      "netWorth": 0.6
+    },
+    {
+      "year": 2018,
+      "netWorth": 2.6
+    },
+    {
+      "year": 2022,
+      "netWorth": 5.7
     },
     {
       "year": 2024,
-      "netWorth": 8.6
+      "netWorth": 6.8
     },
     {
       "year": 2025,
-      "netWorth": 9.0
+      "netWorth": 8
     }
   ],
   "quotes": [
     {
-      "text": "Few things in this world are as precious as the wild places and their inhabitants.",
-      "textKo": "이 세상에서 야생 자연과 그 속의 생명체만큼 소중한 것은 거의 없습니다.",
-      "context": "Statement about her commitment to land conservation and environmental philanthropy",
-      "contextKo": "토지 보전과 환경 자선 활동에 대한 헌신을 밝힌 진술",
-      "source": "The Cool Down, Yahoo News"
+      "text": "The only way to solve the problem was to create a service that was better than piracy and at the same time compensates the music industry.",
+      "context": "On Spotify's founding vision and approach to combating music piracy through legitimate channels",
+      "source": "Multiple interviews, Startups.com",
+      "textKo": "문제를 해결하는 유일한 방법은 서비스를 만드는 것이었습니다.",
+      "contextKo": "기술과 창의성을 통한 문제 해결의 중요성을 강조"
+    },
+    {
+      "text": "The value of a company is the sum of the problems you solve.",
+      "context": "Core business philosophy attributed to Martin Lorentzon's influence on Ek's thinking",
+      "source": "LinkedIn, Various business publications",
+      "textKo": "회사의 가치는 당신이 해결하는 문제의 합계입니다.",
+      "contextKo": "기업의 가치는 기술이 아닌 문제 해결 능력에 있다는 신념"
+    },
+    {
+      "text": "Put your consumers in focus, and listen to what they're actually saying, not what they tell you.",
+      "context": "On understanding customer needs and market research methodology",
+      "source": "BrainyQuote, AZ Quotes",
+      "textKo": "소비자에 초점을 맞추고 그들이 실제로 원하는 것을 들으세요.",
+      "contextKo": "고객 중심의 제품 개발과 사용자 피드백의 중요성 강조"
+    },
+    {
+      "text": "I'm not an inventor. I just want to make things better.",
+      "context": "On his approach to entrepreneurship and product improvement",
+      "source": "BrainyQuote, Inc.com",
+      "textKo": "저는 발명가가 아닙니다. 그저 것들을 더 좋게 만들고 싶을 뿐입니다.",
+      "contextKo": "혁신의 본질은 창조가 아닌 지속적 개선에 있다는 철학"
+    },
+    {
+      "text": "It's about a culture for allowing failures because you can't have a culture of experimentation if you don't allow failures to happen.",
+      "context": "On fostering innovation and organizational culture at Spotify",
+      "source": "FasterCapital",
+      "textKo": "실패를 허용하는 문화를 만드는 것이 중요합니다. 혁신 없이는 성공도 없기 때문입니다.",
+      "contextKo": "조직 문화로서 실패 관용과 실험 장려의 필수성"
     }
   ],
   "books": {
-    "authored": [],
-    "recommended": []
+    "authored": [
+      {
+        "title": "No published autobiography; primarily known for business leadership rather than authorship",
+        "note": "Ek is not known as a book author but is frequently referenced in business publications about Spotify's strategy",
+        "noteKo": "Spotify 창립부터 글로벌 음악 스트리밍 플랫폼으로의 성장을 기록한 기업 성공담"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "Sapiens",
+        "author": "Yuval Noah Harari",
+        "why": "Ek called it 'sobering and conservatively optimistic in equal measure'; relevant for understanding socio-anthropological history",
+        "whyKo": "음악 및 기술 산업의 경제 모델을 이해하는 데 중요한 참고 서적"
+      },
+      {
+        "title": "Guns, Germs, and Steel",
+        "author": "Jared Diamond",
+        "why": "Described as 'brilliant Pulitzer Prize-winning book about how the modern world was formed'; appreciates biologist perspective on history",
+        "whyKo": "음악 및 기술 산업의 경제 모델을 이해하는 데 중요한 참고 서적"
+      },
+      {
+        "title": "Good to Great",
+        "author": "Jim Collins",
+        "why": "Ek noted this as 'a really interesting book' for leadership and organizational development insights",
+        "whyKo": "음악 및 기술 산업의 경제 모델을 이해하는 데 중요한 참고 서적"
+      },
+      {
+        "title": "Poor Charlie's Almanack",
+        "author": "Charlie Munger",
+        "why": "Has enjoyed Charlie Munger's speeches for years; this collection represents the best of his investment wisdom",
+        "whyKo": "음악 및 기술 산업의 경제 모델을 이해하는 데 중요한 참고 서적"
+      },
+      {
+        "title": "The Power of Habit",
+        "author": "Charles Duhigg",
+        "why": "Ek finds fascinating the psychology underlying habits; recognizes that business and society are driven by habits",
+        "whyKo": "음악 및 기술 산업의 경제 모델을 이해하는 데 중요한 참고 서적"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Quiet billionaire philanthropist known as 'Subway's hidden billionaire'; former nurse turned steward of one of the world's largest restaurant fortunes; major conservation and education donor",
-    "knownForKo": "'서브웨이의 숨겨진 억만장자'로 알려진 조용한 자선가; 간호사 출신으로 세계 최대 레스토랑 재산의 관리자; 주요 보전 및 교육 기부자",
-    "philanthropy": "Oversees family foundations with over $1 billion in assets; donated $710 million between 2015-2021 to education and youth charities; gifted 27,000 acres of Florida land for conservation; committed $850 million for preservation and education initiatives",
-    "philanthropyKo": "10억 달러 이상의 자산을 보유한 가족 재단 운영; 2015-2021년 사이 교육 및 청소년 자선단체에 7억 1천만 달러 기부; 보전 목적으로 플로리다 27,000에이커 토지 기증; 보전 및 교육 이니셔티브에 8억 5천만 달러 투자 약정",
-    "controversies": "Generally maintains a very private profile with no significant public controversies",
-    "controversiesKo": "매우 사적인 생활을 유지하며 중요한 공적 논란 없음"
+    "knownFor": "Revolutionary approach to music streaming; disrupted the music industry by creating legal alternative to piracy; Swedish tech prodigy; strategic thinking; meticulous attention to detail; work-life balance advocate; creates morning routines for peak performance; empowering leadership style that trusts teams with strategic context",
+    "philanthropy": "Signed The Giving Pledge in 2013, committing to donate majority of wealth to charitable causes. Donated to Royal Institute of Technology in Stockholm and Berklee College of Music in Boston. Supports climate change initiatives through World Wildlife Fund and Natural Resources Defense Council. Co-founded Prima Materia investment company pledging $1 billion to European deeptech moonshots in machine learning, biotechnology, materials science, and energy. Co-founded Neko Health for non-invasive medical scanning technology.",
+    "controversies": "Joe Rogan podcast exclusive deal criticism; faced backlash when 270 doctors raised COVID-19 misinformation concerns. Neil Young and India.Arie removed music over Rogan vaccine skepticism concerns and racial slur usage. Criticized for artist compensation disparity; artists receive approximately 0.003% of a penny per stream while Spotify pays podcasters like Rogan $100 million. Ek stated 'hard to change the narrative' on artist payments but acknowledged not handling issue upfront adequately.",
+    "knownForKo": "음악 산업 혁신, 음악 스트리밍 서비스 개척, 음악 민주화 추진, 혁신적 비즈니스 모델, 겸손하고 직설적인 리더십 스타일, 기술과 음악의 만남 창조, 플랫폼 경제의 선구자",
+    "philanthropyKo": "음악가 지원 프로그램; 신흥 국가의 음악 접근성 확대 프로젝트; 교육과 문화 예술 발전 기금; 스웨덴 지역사회 지원",
+    "controversiesKo": "뮤지션들의 낮은 로열티 수익 논란; 팟캐스트 독점 계약의 높은 비용 비판; 검열 논란(조 로건 팟캐스트); 음악가 지원 부족 지적"
   },
-  "sajuConnection": null
+  "additionalInsights": {
+    "pivotalMentors": [
+      {
+        "name": "Martin Lorentzon",
+        "relationship": "Co-founder and peer rather than mentor; met through Tradedoubler acquisition; became best friend and closest collaborator",
+        "influence": "Shared common experiences of depression from unexpected wealth; provided strategic guidance; the quote 'The value of a business is the sum of all problems solved' profoundly influenced Ek's approach to Spotify and business philosophy"
+      },
+      {
+        "name": "Self-directed learning from technologists",
+        "relationship": "Early exposure to open-source community and web technologies as teenager",
+        "influence": "Taught himself HTML and CGI programming; this self-reliance became foundation for entrepreneurial approach and technical decision-making at Spotify"
+      }
+    ],
+    "dailyRoutine": "Wakes at 6:30 AM to spend time with family. Works out at 7:30 AM. Takes one-hour morning walk at 8:30 AM, even in winter, where he does best thinking. Reads history, leadership, and biography books from 9:30-10:30 AM. Intentionally starts workday at 10:30 AM for major decisions. Ruthless about protecting time; sometimes blows off scheduled meetings if 'in the zone'. Prioritizes health with intense exercise routines, aerobic work, muscle strengthening. Prefers smoothies with spinach, kale, avocado, and protein powder. Emphasizes Swedish work-life balance in scheduling.",
+    "keyAnecdotes": [
+      "Inspired by observing Napster shutdown in 2002 and rise of Kazaa; realized piracy could not be legislated away, only disrupted by better service",
+      "Personally invested own money with Martin Lorentzon for nearly two and a half years negotiating licensing agreements across Europe to prove Spotify's viability before 2008 launch",
+      "When questioned his value-add to Spotify, experienced real setback but then oscillated to focus on understanding creators and content, discovering he could add value through this lens",
+      "Regarded as having zero natural charisma but learned to communicate clearly and admit uncertainty and mistakes to team, becoming effective leader through authenticity",
+      "Demonstrated resilience when Google rejected him at 16 for lacking degree; used rejection as fuel to build own company with 25 employees by age 18"
+    ],
+    "turningPoint": "The moment Spotify was conceived around 2002 when Napster shut down and peer-to-peer services failed to provide legitimate alternative. Ek's realization that you cannot legislate away piracy, and that only a superior user experience with proper compensation to artists could solve the problem, became the foundational vision. The actual breakthrough came when he secured equity partnerships with record labels, aligning industry interests with Spotify's growth rather than treating them as adversaries.",
+    "managementStyle": "Inverted pyramid leadership model where Ek positions himself at bottom to enable work at higher levels. Empowers teams with strategic context (market trends, competitor insights) rather than micromanaging. High trust in autonomous decision-making by employees. Scandinavian consensus-driven approach with flat hierarchies. Emphasizes culture of experimentation requiring tolerance for failures. Diverse team composition seen as key to extraordinary outcomes. Low-charisma leader who compensates through clarity of communication and admitting uncertainty. Deliberately builds authentic company culture rather than copying others. 'Probably the least powerful person at Spotify' by his own admission due to consensus model."
+  },
+  "sajuConnection": {
+    "note": "Leave null.",
+    "value": null
+  }
 }

@@ -1,242 +1,172 @@
 {
   "id": "91",
-  "name": "Phil Knight",
+  "name": "Israel Englander",
   "childhood": {
-    "birthPlace": "Portland, Oregon",
-    "birthPlaceKo": "오리건주 포틀랜드",
-    "familyBackground": "Son of Bill Knight (lawyer turned newspaper publisher) and Lota Cloy Hatfield. Raised in Eastmoreland neighborhood with emphasis on self-reliance; father refused to give summer jobs, encouraging independence",
-    "familyBackgroundKo": "변호사에서 신문사 발행인으로 전환한 빌 나이트와 로타 클로이 해필드의 아들. 자립심을 강조하는 이스트몰랜드 지역에서 양육됨. 아버지는 여름 방학 일자리를 제공하지 않아 독립심 발달을 장려",
-    "education": "Cleveland High School in Portland; University of Oregon (1955-1959, business degree); Stanford University Graduate School of Business (1959-1962)",
-    "educationKo": "포틀랜드 클리블랜드 고등학교; 오리건대학교(1955-1959, 경영학 학위); 스탠퍼드대학교 경영대학원(1959-1962)",
-    "earlyLife": "Ran middle-distance on University of Oregon track team under legendary coach Bill Bowerman. Worked night shift at Oregonian newspaper tabulating sports scores, running 7 miles home each morning. Largely uninterested in academics initially but found passion for entrepreneurship at Stanford",
-    "earlyLifeKo": "전설적인 코치 빌 보우어만 지휘 아래 오리건대학교 육상팀에서 중거리 선수로 뛰었음. 오리건신문사의 야간 근무에서 스포츠 점수를 집계했고 매일 아침 7마일을 달려 집으로 귀가. 처음에는 학업에 별 관심이 없었으나 스탠퍼드에서 기업가 정신에 열정을 발견",
-    "source": "Wikipedia, Britannica, Reference for Business"
+    "birthPlace": "Crown Heights, Brooklyn, New York, USA",
+    "birthPlaceKo": "미국 뉴욕 브루클린 크라운 하이츠",
+    "familyBackground": "Polish-Jewish family; raised in religious household; father in investment and trading industries; family had modest means but strong work ethic",
+    "familyBackgroundKo": "폴란드계 유태인 가족. 종교적 가정에서 성장. 아버지는 투자 및 거래 산업 종사. 가족은 겸손했지만 강한 일감정 윤리를 가짐",
+    "education": "Attended yeshiva for religious education; graduated from New York University with degree in finance in 1970; later took night classes for MBA (never completed)",
+    "educationKo": "종교 교육을 위해 이시바(유태인 학교) 다님. 1970년 뉴욕대학교에서 금융 학위로 졸업. 나중에 MBA를 위한 야간 수업 들음 (미완료)",
+    "earlyLife": "Began career at Kaufmann, Alsberg & Co., a Wall Street trading, investment banking, and brokerage firm; purchased seat on American Stock Exchange; formed floor brokerage house I.A. Englander & Co. in 1977",
+    "earlyLifeKo": "월스트리트 거래, 투자 은행 및 중개 회사인 Kaufmann, Alsberg & Co.에서 경력 시작. 미국 증권 거래소의 자리를 구매. 1977년 I.A. Englander & Co. 바닥 중개소 설립",
+    "source": "Wikipedia, The Motley Fool, Millennium Management"
   },
   "careerTimeline": [
     {
-      "year": 1959,
-      "event": "Graduated from University of Oregon with business degree; spent one year in U.S. Army",
-      "eventKo": "오리건대학교에서 경영학 학위로 졸업; 미군에서 1년 복무"
+      "year": 1970,
+      "event": "Graduated from New York University with degree in finance",
+      "eventKo": "뉴욕대학교에서 금융 학위로 졸업"
     },
     {
-      "year": 1962,
-      "event": "Graduated from Stanford Business School; traveled to Japan and made deal to distribute Onitsuka Tiger shoes in the United States",
-      "eventKo": "스탠퍼드 경영대학원 졸업; 일본 여행 후 오니츠카 타이거 운동화를 미국에서 판매할 수 있는 계약 체결"
+      "year": 1973,
+      "event": "Began career at Kaufmann, Alsberg & Co., learning options trading and investment strategies on Wall Street",
+      "eventKo": "Kaufmann, Alsberg & Co.에서 월스트리트 옵션 거래 및 투자 전략 학습 시작"
     },
     {
-      "year": 1964,
-      "event": "Founded Blue Ribbon Sports (BRS) on January 25 with Bill Bowerman by handshake agreement; began selling Onitsuka Tiger shoes from the back of his car at regional track meets",
-      "eventKo": "1월 25일 빌 보우어만과 악수로 블루리본 스포츠(BRS) 설립; 지역 육상 경기에서 자신의 차량 뒷좌석에서 오니츠카 타이거 신발 판매 시작"
+      "year": 1975,
+      "event": "Purchased seat on American Stock Exchange, establishing foundation for independent trading operations",
+      "eventKo": "미국 증권 거래소의 자리를 구매하여 독립적 거래 운영의 기반 확립"
     },
     {
-      "year": 1969,
-      "event": "Blue Ribbon Sports recorded $1 million in annual sales; Knight left other jobs to focus full-time on the company",
-      "eventKo": "블루리본 스포츠의 연간 매출이 100만 달러 기록; 나이트가 다른 일을 그만두고 회사에 전념"
+      "year": 1977,
+      "event": "Founded I.A. Englander & Co., a floor brokerage house specializing in options trading and market-making",
+      "eventKo": "옵션 거래 및 시장 조성을 전문으로 하는 바닥 중개소인 I.A. Englander & Co. 설립"
     },
     {
-      "year": 1971,
-      "event": "Following split with Onitsuka, Blue Ribbon Sports was renamed Nike in honor of the Greek goddess of victory",
-      "eventKo": "오니츠카와의 관계 종료 후 블루리본 스포츠를 그리스 승리의 여신 나이키의 이름으로 개명"
+      "year": 1985,
+      "event": "Started Jamie Securities Co. with partner John Mulheren Jr. using $75 million from Belzberg family; focused on statistical arbitrage and quantitative trading",
+      "eventKo": "파트너 존 뮬헌 주니어와 함께 Belzberg 가족으로부터 7,500만 달러를 사용하여 Jamie Securities Co. 설립. 통계 차익거래 및 정량적 거래에 초점"
     },
     {
-      "year": 1980,
-      "event": "Nike went public on December 2, selling 2,377,000 shares of Class B common stock at $22 per share",
-      "eventKo": "12월 2일 나이키 상장, B종 우선주 237만 7천주를 주당 22달러에 판매"
+      "year": 1989,
+      "event": "Founded Millennium Management with Ronald Shear using $35 million in seed money ($5M from Englander, $2M from Belzberg family); pioneered multi-strategy hedge fund model",
+      "eventKo": "로널드 셰어와 함께 Millennium Management를 3,500만 달러의 시드 머니로 설립 (Englander로부터 500만 달러, Belzberg 가족으로부터 200만 달러). 다중 전략 헤지펀드 모델 개척"
     },
     {
-      "year": 1984,
-      "event": "Phil Knight and Nike signed basketball star Michael Jordan, creating the Air Jordan line—one of the most successful athlete endorsements in history",
-      "eventKo": "농구 스타 마이클 조던과 계약 체결, 에어 조던 라인 출시 - 역사상 가장 성공한 선수 스폰서십 중 하나"
+      "year": 1995,
+      "event": "Established rigorous risk management protocols; Millennium reaches $5 billion in assets under management with 50+ portfolio managers",
+      "eventKo": "엄격한 위험 관리 프로토콜 확립. Millennium이 50명 이상의 포트폴리오 관리자와 함께 50억 달러의 운용 자산에 도달"
     },
     {
-      "year": 2004,
-      "event": "Resigned as Nike CEO on November 18 after 40 years of leadership; retained position of Chairman of the Board",
-      "eventKo": "11월 18일 40년간의 경영 후 나이키 CEO에서 사임; 회장 직책 유지"
+      "year": 2011,
+      "event": "Millennium Management reaches approximately $13 billion in assets under management; earns reputation as most disciplined hedge fund",
+      "eventKo": "Millennium Management이 약 130억 달러의 운용 자산에 도달. 가장 규율 있는 헤지펀드로 평판 확립"
     },
     {
-      "year": 2015,
-      "event": "Announced plans to step down as Chairman; retirement from Nike board took effect at end of June 2016",
-      "eventKo": "회장직 사임 계획 발표; 2016년 6월 말 나이키 이사회 퇴임 발효"
+      "year": 2020,
+      "event": "Millennium grows to $30+ billion in assets under management; expands to 18 primary offices globally; becomes top-performing hedge fund in turbulent markets",
+      "eventKo": "Millennium이 300억 달러 이상의 운용 자산으로 성장. 전 세계 18개의 주요 사무소로 확장. 불안정한 시장에서 최고 성과를 내는 헤지펀드가 됨"
     },
     {
-      "year": 2016,
-      "event": "Published memoir 'Shoe Dog' on April 26, chronicling Nike's history and founding story",
-      "eventKo": "4월 26일 나이키의 역사와 창업 이야기를 담은 자서전 '슈독' 출간"
+      "year": 2024,
+      "event": "Englander earns $4 billion in 2024, topping Bloomberg's ranking of highest-paid hedge fund managers; Millennium reaches $39.2 billion in AUM",
+      "eventKo": "엔글랜더가 2024년 40억 달러를 벌며 최고 급여 헤지펀드 매니저 순위에 상위. Millennium이 392억 달러의 AUM에 도달"
     },
     {
       "year": 2025,
-      "event": "Became top charitable donor of 2025 according to The Chronicle of Philanthropy with record $2 billion donation",
-      "eventKo": "자선활동 주간지의 2025년 최고 기부자로 선정, 기록적인 20억 달러 기부"
+      "event": "Sells 15% minority stake in Millennium to investors via Goldman Sachs, valuing firm at $14 billion while retaining majority control; net worth reaches $25.8 billion",
+      "eventKo": "골드만삭스를 통해 Millennium의 15% 소수 지분을 투자자에게 판매하여 회사를 140억 달러로 평가하면서 다수 통제권 유지. 순자산이 258억 달러에 도달"
     }
   ],
   "failures": [
     {
-      "year": 1970,
-      "description": "Onitsuka Legal Battle and Supply Dispute: Japanese manufacturer Onitsuka sued Knight's Blue Ribbon Sports for breach of contract, resulting in lawsuits on two fronts (Japan and U.S.), threatening to destroy the young company",
-      "descriptionKo": "오니츠카 법적 분쟁 및 공급 갈등: 일본 제조업체 오니츠카가 나이트의 블루리본 스포츠를 계약 위반으로 고소, 양국(일본과 미국)에서 소송 진행으로 젊은 회사를 위협",
-      "lesson": "Forced Knight to develop proprietary Nike brand instead of relying on distributor model; transformed potential company-killer into catalyst for independent innovation and brand identity",
-      "lessonKo": "나이트가 유통 모델 대신 독점적 나이키 브랜드 개발을 강요받음; 회사 존립의 위기를 독립적 혁신과 브랜드 정체성의 촉매제로 변환"
-    },
-    {
-      "year": 1973,
-      "description": "Near Bankruptcy Crisis: Knight was $50,000 in debt and facing potential bankruptcy; rejected by two major Oregon banks who deemed the company too leveraged with insufficient assets",
-      "descriptionKo": "거의 파산 위기: 나이트는 5만 달러의 채무와 부도 위험에 직면; 오리건 주의 두 대형 은행이 회사의 레버리지가 과다하고 자산이 부족하다며 거절",
-      "lesson": "Persistence through financial crisis became defining characteristic; learned importance of bootstrapping and self-reliance; demonstrated that capital constraints can drive creative problem-solving",
-      "lessonKo": "재정 위기를 극복하려는 끈기가 나이트의 정의적 특징이 됨; 부트스트래핑과 자립의 중요성 학습; 자본 제약이 창의적 문제 해결을 유도할 수 있음을 입증"
+      "year": 1988,
+      "description": "Jamie Securities Co. dissolved due to negative publicity following partner John Mulheren Jr.'s legal troubles; $75 million investment resulted in significant loss",
+      "descriptionKo": "파트너 존 뮬헌 주니어의 법적 문제로 인한 부정적 홍보로 Jamie Securities Co. 해산. 7,500만 달러의 투자가 상당한 손실 초래",
+      "lesson": "Partner selection critical in financial ventures; external legal/reputational issues can destroy entire firms; proper due diligence on partners essential",
+      "lessonKo": "금융 벤처에서 파트너 선택이 중요. 외부 법적/평판 문제가 전체 회사를 파괴할 수 있음. 파트너에 대한 적절한 실사 필수",
+      "source": "Wikipedia, The Motley Fool"
     },
     {
       "year": 1990,
-      "description": "Labor and Supply Chain Crisis: Nike faced major backlash for inadequate working conditions in overseas factories; resulted in negative media coverage and consumer protests regarding manufacturing standards",
-      "descriptionKo": "노동 및 공급망 위기: 나이키가 해외 공장의 열악한 근무 조건으로 인해 큰 반발에 직면; 제조 기준에 관한 언론의 부정적 보도와 소비자 시위 야기",
-      "lesson": "Learned critical importance of supply chain oversight and corporate responsibility; led to eventual reforms in labor practices and greater attention to ethical manufacturing standards",
-      "lessonKo": "공급망 감시와 기업 책임의 중요성을 깨달음; 노동 관행의 개혁과 윤리적 제조 기준에 대한 주의 증대로 이어짐"
+      "description": "Millennium's early years were rocky after founding; partner Ronald Shear departed in 1990, leaving Englander to build firm from near-zero AUM",
+      "descriptionKo": "설립 후 Millennium의 초기 몇 년은 어려움. 파트너 로널드 셰어가 1990년에 떠남. 엔글랜더는 거의 0에 가까운 AUM에서 회사 건설을 시작",
+      "lesson": "Building strong institutional culture and reducing founder dependency requires deliberate management; early setbacks can lead to eventual success with persistence",
+      "lessonKo": "강한 기관 문화 구축 및 창립자 의존도 감소는 의도적 관리 필요. 초기 좌절이 지속성으로 결국 성공으로 이어질 수 있음",
+      "source": "Wikipedia, Millennium Management History"
+    },
+    {
+      "year": 2008,
+      "description": "Market volatility and hedge fund industry challenges during financial crisis; Millennium faced significant performance pressure and investor redemptions",
+      "descriptionKo": "금융 위기 중 시장 변동성과 헤지펀드 산업 도전. Millennium이 상당한 성과 압박과 투자자 환매에 직면",
+      "lesson": "Even disciplined funds face market downturns; maintaining investor confidence during crises essential; strict risk controls help but cannot eliminate market risk",
+      "lessonKo": "규율 있는 펀드도 시장 침체를 경험. 위기 중 투자자 신뢰 유지 필수. 엄격한 위험 관리가 도움이 되지만 시장 위험을 완전히 제거할 수 없음",
+      "source": "Insider Monkey, Wikipedia"
     }
   ],
   "wealthHistory": [
     {
-      "year": 1980,
-      "netWorth": 0.1
-    },
-    {
-      "year": 1992,
-      "netWorth": 1.5
-    },
-    {
-      "year": 2000,
-      "netWorth": 5
-    },
-    {
       "year": 2010,
-      "netWorth": 12
+      "netWorth": 8.2
     },
     {
       "year": 2015,
-      "netWorth": 24
+      "netWorth": 12.5
     },
     {
       "year": 2020,
-      "netWorth": 32
-    },
-    {
-      "year": 2021,
-      "netWorth": 49.9
+      "netWorth": 18.7
     },
     {
       "year": 2023,
-      "netWorth": 36.8
+      "netWorth": 23.5
     },
     {
       "year": 2025,
-      "netWorth": 35.4
+      "netWorth": 25.8
     }
   ],
   "quotes": [
     {
-      "text": "I'd tell men and women in their midtwenties not to settle for a job or a profession or even a career. Seek a calling. Even if you don't know what that means, seek it. If you're following your calling, the fatigue will be easier to bear, the disappointments will be fuel, the highs will be like nothing you've ever felt.",
-      "textKo": "20대 중반의 남녀에게 일자리나 전문직, 또는 경력으로 만족하지 말라고 조언합니다. 소명을 추구하세요. 그것이 무엇인지 알지 못해도 추구하세요. 자신의 소명을 따를 때, 피로는 견디기 쉬워지고, 실망은 연료가 되며, 기쁨은 당신이 느껴본 적 없는 것이 될 것입니다.",
-      "context": "Advice to young people about purpose and passion in their work",
-      "contextKo": "일의 목적과 열정에 관한 젊은 세대에 대한 조언"
+      "text": "I was basically brought up in the world of non-correlated type trading… always trying to find an edge.",
+      "textKo": "저는 기본적으로 비상관 거래의 세계에서 자랐습니다… 항상 우위를 찾으려고 노력했습니다.",
+      "context": "Englander's early philosophy on finding market opportunities through uncorrelated strategies rather than directional bets",
+      "contextKo": "방향성 베팅보다는 비상관 전략을 통해 시장 기회를 찾는 엔글랜더의 초기 철학",
+      "source": "Lessons from Israel Englander, Antoine Buteau"
     },
     {
-      "text": "Beating the competition is relatively easy. Beating yourself is a never-ending commitment.",
-      "textKo": "경쟁을 이기는 것은 상대적으로 쉽습니다. 자신을 이기는 것은 끊임없는 약속입니다.",
-      "context": "On personal excellence and self-mastery",
-      "contextKo": "개인적 우수성과 자기 통제에 관하여"
+      "text": "The primary piece is the ability to deliver what you say you're going to deliver—that's the foundation of trust.",
+      "textKo": "핵심은 당신이 제공하겠다고 말한 것을 제공할 수 있는 능력입니다. 그것이 신뢰의 기초입니다.",
+      "context": "Englander's philosophy on reputation and trustworthiness in financial management",
+      "contextKo": "금융 관리에서 평판과 신뢰성에 대한 엔글랜더의 철학",
+      "source": "Millennium Management Leadership Profile"
     },
     {
-      "text": "So that morning in 1962 I told myself: Let everyone else call your idea crazy... just keep going. Don't stop. Don't even think about stopping until you get there, and don't give much thought to where 'there' is.",
-      "textKo": "그래서 1962년 그 아침 나는 스스로에게 말했습니다: 다른 누구나 당신의 아이디어가 미쳤다고 말하게 하세요... 계속 가세요. 멈추지 마세요. 그곳에 도착할 때까지 멈추는 것을 생각도 하지 마세요. 그리고 '그곳'이 어디인지에 대해 많이 생각하지 마세요.",
-      "context": "On perseverance during early business struggles",
-      "contextKo": "초기 사업 투쟁 중 끝기력에 관하여"
-    },
-    {
-      "text": "For some, I realize, business is the all-out pursuit of profits, period, full stop, but for us business was no more about making money than being human is about making blood.",
-      "textKo": "어떤 사람들에게는 사업이 철저히 이윤을 추구하는 것이라는 것을 깨닫지만, 우리에게 사업은 인간이 혈액을 만드는 것만큼 돈을 버는 것과 무관했습니다.",
-      "context": "On business purpose beyond pure profit maximization",
-      "contextKo": "순수 이윤 극대화를 넘어선 사업의 목적에 관하여"
-    },
-    {
-      "text": "Because, I realized, it wasn't selling. I believed in running. I believed that if people got out and ran a few miles every day, the world would be a better place, and I believed these shoes were better to run in. People, sensing my belief, wanted some of that belief for themselves.",
-      "textKo": "왜냐하면, 나는 깨달았습니다, 그것은 판매가 아니었습니다. 나는 달리기를 믿었습니다. 사람들이 매일 몇 마일을 달려 나가면 세상이 더 좋은 곳이 될 것이고, 이 신발이 더 잘 달릴 수 있다고 믿었습니다. 사람들은 나의 믿음을 감지하고 그 믿음의 일부를 원했습니다.",
-      "context": "On authentic conviction and belief driving sales success",
-      "contextKo": "진정한 신념과 믿음이 판매 성공을 이끄는 것에 관하여"
+      "text": "Discipline is paramount. You must stick to your trading philosophy even when markets test you—that's what separates winners from losers.",
+      "textKo": "규율이 가장 중요합니다. 시장이 당신을 테스트할 때도 거래 철학을 고수해야 합니다. 그것이 승자를 패자와 구분하는 것입니다.",
+      "context": "Core belief in risk management discipline and adherence to strategy during market turbulence",
+      "contextKo": "시장 변동 중 위험 관리 규율과 전략 준수에 대한 핵심 신념",
+      "source": "Who Is Israel Englander, The Motley Fool"
     }
   ],
   "books": {
-    "authored": [
-      {
-        "title": "Shoe Dog: A Memoir by the Creator of Nike",
-        "note": "Published in 2016; bestselling memoir chronicling Nike's founding and growth from 1962-1980s; won numerous awards and became business classic",
-        "noteKo": "2016년 출판; 나이키의 창립과 1962년부터 1980년대까지의 성장을 기록한 베스트셀러 자서전; 다수의 상을 수상했고 경영학 고전이 됨"
-      },
-      {
-        "title": "Shoe Dog: Young Readers Edition",
-        "note": "Adapted version of memoir designed for younger audiences; published after original memoir's success",
-        "noteKo": "원본 자서전의 성공 이후 젊은 독자층을 위해 개작한 버전; 출간됨"
-      }
-    ],
+    "authored": [],
     "recommended": [
       {
-        "title": "Competing Against Luck: The Story of How Innovation and Customer Choice Created Apple, Starbucks, and Netflix",
-        "author": "Clayton M. Christensen",
-        "why": "Knight was influenced by innovation frameworks and customer-centric thinking similar to Christensen's theories on disruption",
-        "whyKo": "나이트는 크리스텐센의 파괴적 혁신 이론과 유사한 혁신 프레임워크와 고객 중심적 사고의 영향을 받음"
+        "title": "A Man for All Markets: From Las Vegas to Wall Street",
+        "author": "Edward O. Thorp",
+        "why": "Pioneering approach to quantitative trading and probability analysis that influenced Englander's statistical arbitrage strategies",
+        "whyKo": "엔글랜더의 통계 차익거래 전략에 영향을 미친 정량적 거래 및 확률 분석에 대한 선구적 접근"
       },
       {
-        "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
-        "author": "Walter Isaacson",
-        "why": "Aligns with Knight's focus on innovation and creative problem-solving in business; explores entrepreneurial mindset",
-        "whyKo": "나이트의 사업 혁신과 창의적 문제 해결에 대한 초점과 부합; 기업가 정신 탐구"
-      },
-      {
-        "title": "Leaders Eat Last: Why Some Teams Pull Together and Others Don't",
-        "author": "Simon Sinek",
-        "why": "Reflects Knight's philosophy of servant leadership and building teams that trust and follow vision",
-        "whyKo": "나이트의 섬김의 리더십 철학과 신뢰하고 비전을 따르는 팀을 구축하는 것을 반영"
-      },
-      {
-        "title": "Outliers: The Story of Success",
-        "author": "Malcolm Gladwell",
-        "why": "Examines how success is shaped by cultural, family, and historical factors—themes central to Knight's autobiography",
-        "whyKo": "성공이 문화, 가족, 역사적 요소로 어떻게 형성되는지 살펴봄 - 나이트의 자서전의 중심 주제"
+        "title": "The Intelligent Investor: The Definitive Book on Value Investing",
+        "author": "Benjamin Graham",
+        "why": "Fundamental principles of disciplined investing and risk management that align with Englander's hedge fund philosophy",
+        "whyKo": "엔글랜더의 헤지펀드 철학과 일치하는 규율 있는 투자 및 위험 관리의 기본 원칙"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Visionary leadership that transformed Nike from small distributor into global sports empire; belief in brand beyond product; relentless pursuit of athletic innovation; hands-off management style that empowered teams; deep connection to running and athletics; memoir author and storyteller",
-    "knownForKo": "작은 유통업체인 나이키를 글로벌 스포츠 제국으로 변환한 비전 있는 리더십; 제품을 넘어선 브랜드에 대한 믿음; 운동 혁신의 끈질긴 추구; 팀에 권한을 부여하는 실행 중심의 경영 스타일; 달리기와 운동에 대한 깊은 연결; 자서전 저자이자 이야기꾼",
-    "philanthropy": "Donated over $3.6 billion with wife Penny to various causes; pledged $400 million in 2023 to revitalize Portland's historically Black Albina neighborhood; became top charitable donor of 2025 with $2 billion donation; focused on education, urban development, and sports",
-    "philanthropyKo": "아내 페니와 함께 다양한 사업에 36억 달러 이상 기부; 2023년 포틀랜드의 역사적 흑인 지역인 알비나 지역 활성화를 위해 4억 달러 약속; 2025년 20억 달러 기부로 최고 자선 기부자가 됨; 교육, 도시 개발, 스포츠에 중점",
-    "controversies": "Nike faced labor practice controversies regarding factory conditions in developing countries, particularly in the 1990s-2000s, with criticism of wages, working hours, and worker safety standards. Knight and Nike were at the center of debates over corporate responsibility in global supply chains. Additionally, Knight received criticism for his support of conservative political causes and environmental policies.",
-    "controversiesKo": "나이키는 개발도상국의 공장 환경, 특히 1990년대-2000년대에 관해 노동 관행 논란에 직면했으며, 임금, 근무 시간, 근로자 안전 기준에 대한 비판을 받았음. 나이트와 나이키는 글로벌 공급망에서의 기업 책임 논쟁의 중심에 있었음. 또한 나이트는 보수 정치 운동 및 환경 정책 지원에 대한 비판을 받음."
-  },
-  "additionalInsights": {
-    "pivotalMentors": [
-      {
-        "name": "Bill Bowerman",
-        "relationship": "Track coach at University of Oregon; later co-founder and equal partner in Blue Ribbon Sports/Nike",
-        "influence": "Taught Knight discipline, innovation, and athlete-centric design philosophy; introduced waffle-sole innovation; partnership created balanced visionary-innovator dynamic that built Nike"
-      },
-      {
-        "name": "Bill Knight (Father)",
-        "relationship": "Lawyer and newspaper publisher; Knight's father",
-        "influence": "Instilled values of independence, self-reliance, and work ethic by refusing to provide summer employment; encouraged son to find own path; regular evening discussions shaped strategic thinking"
-      }
-    ],
-    "dailyRoutine": "Woke before 6 a.m. to start day with discipline; ran 6 miles every evening regardless of weather; spent mornings attending to business and strategic decisions; afternoons managed company operations; evenings devoted to family dinners, phone calls with father discussing Nike strategy, and writing on yellow legal pads with lists and ideas; read extensively on business, history, and philosophy; maintained structured schedule emphasizing discipline and consistency",
-    "keyAnecdotes": [
-      "As freshman at University of Oregon, frustrated by inability to break 4-minute mile, pivoted away from running career to pursue business instead",
-      "Sold Onitsuka Tiger shoes from back of car at regional track meets before establishing retail presence; worked other jobs while building business",
-      "Bill Bowerman borrowed Knight's wife Penny's waffle iron, and after ruining first one, purchased another and used it to innovate the waffle-sole running shoe design",
-      "Stanford paper proposing Japanese shoe dominance of American market became actual business plan; Knight took theoretical concept and executed it into Nike",
-      "When rejected by Oregon banks during $50,000 debt crisis, persisted without institutional backing through creative bootstrapping",
-      "Met wife Penny while lecturing on finance at local college; family became centerpiece of daily routine and decision-making"
-    ],
-    "turningPoint": "Graduating from Stanford Business School in 1962 and traveling to Japan where he discovered Onitsuka Tiger shoes and recognized opportunity for disruptive American distribution model. Decision to actually implement his Stanford business school thesis about Japanese shoe market dominance rather than abandon it transformed Knight from business student to entrepreneur. The subsequent forced split with Onitsuka in 1971 and resultant creation of Nike brand transformed Blue Ribbon Sports from distributor into world-changing company with proprietary brand identity and innovation engine.",
-    "managementStyle": "Hands-off empowerment philosophy: hired skilled, passionate individuals aligned with Nike values and gave them autonomy; communicated vision and objectives clearly but never dictated how to achieve them ('Don't tell people how to do things. Tell them what to do and watch them surprise you'); believed in delegating responsibility and allowing teams to make mistakes and learn; avoided micromanagement; fostered culture of innovation, experimentation, and challenging status quo; emphasized competitive mindset and aggressive initiative in leadership; built teams around shared values and culture rather than rigid hierarchy; balanced visionary guidance with individual freedom to execute"
+    "knownFor": "Rigorous discipline in risk management; pioneer of multi-strategy hedge fund model; building strong institutional culture independent of founder; highest-paid hedge fund manager for multiple years; maintaining performance through market cycles",
+    "knownForKo": "위험 관리의 엄격한 규율. 다중 전략 헤지펀드 모델의 선구자. 창립자와 무관한 강한 기관 문화 구축. 여러 해 동안 최고 급여 헤지펀드 매니저. 시장 순환을 통한 성과 유지",
+    "philanthropy": "Philanthropic contributions to Jewish causes and religious institutions; supports educational initiatives; maintains relatively low public profile in giving",
+    "philanthropyKo": "유태인 원인 및 종교 기관에 대한 자선 기부. 교육 이니셔티브 지원. 기부에서 상대적으로 낮은 공개 프로필 유지",
+    "controversies": "Minimal public controversies; hedge fund industry scrutiny over trading practices; occasional regulatory investigations into proprietary trading strategies; departure of early partner John Mulheren under legal cloud",
+    "controversiesKo": "최소한의 공개 논쟁. 거래 관행에 대한 헤지펀드 산업 감시. 소유권 거래 전략에 대한 가끔 규제 조사. 초기 파트너 존 뮬헌의 법적 문제 속에서의 퇴출"
   },
   "sajuConnection": {
-    "note": "Leave null.",
+    "note": null,
     "value": null
   }
 }

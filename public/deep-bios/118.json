@@ -1,145 +1,153 @@
 {
   "id": "118",
-  "name": "Andrey Melnichenko",
-  "nameKo": "안드레이 멜니첸코",
+  "name": "Eric Li (Li Shufu)",
+  "nameKo": "에릭 리 (리 슈푸)",
   "childhood": {
-    "birthPlace": "Gomel, Belarus",
-    "birthPlaceKo": "벨라루스 고멜",
-    "familyBackground": "Born to Ukrainian mother and Belarusian father, both educators. Grew up in Soviet Union during late Cold War era with strong emphasis on mathematics and technical education. Family valued intellectual achievement and professional advancement.",
-    "familyBackgroundKo": "우크라이나 어머니와 벨라루스 아버지 사이에서 태어났으며, 둘 다 교육자였다. 소련 붕괴 직전의 냉전 후기에 성장했으며 수학 및 기술 교육에 강한 강조를 받았다. 가족은 지적 성취와 직업 발전을 중시했다.",
-    "education": "Studied at Moscow State University's Faculty of Physics in 1989, demonstrating early aptitude in mathematical sciences. Later switched to Plekhanov Russian University of Economics, earning a finance degree that combined physics thinking with economic analysis.",
-    "educationKo": "1989년 모스크바 국립대학교 물리학부에서 수학 과학에서의 초기 재능을 보여주며 공부했다. 나중에 플레하노프 러시아 경제 대학으로 전환하여 물리학 사고와 경제 분석을 결합한 금융 학위를 취득했다.",
-    "earlyLife": "Came of age during the collapse of the Soviet Union and the chaotic transition to market economy in Russia. Witnessed hyperinflation, financial collapse, and the emergence of oligarchs. These experiences shaped his aggressive investment approach and desire to build lasting industrial empires.",
-    "earlyLifeKo": "소련 붕괴와 러시아의 혼란스러운 시장경제로의 전환 시기에 성장했다. 초인플레이션, 금융 붕괴, 그리고 올리가르히의 출현을 목격했다. 이러한 경험들은 그의 공격적인 투자 접근 방식과 지속하는 산업 제국을 구축하려는 욕망을 형성했다.",
-    "source": "Wikipedia, Bloomberg, Vedomosti"
+    "birthPlace": "Taizhou, Zhejiang Province, China",
+    "birthPlaceKo": "중국 절강성 태주시",
+    "familyBackground": "Born on June 25, 1963, to a humble family with limited financial resources. His father was a skilled craftsman who inspired his mechanical aptitude.",
+    "familyBackgroundKo": "1963년 6월 25일 재정적 자원이 제한된 평범한 가정에서 태어났으며, 그의 아버지는 그의 기계적 적성에 영감을 준 숙련된 장인이었다.",
+    "education": "Holds a master's degree from Yanshan University with focus on mechanical engineering and business administration.",
+    "educationKo": "기계 공학 및 경영학에 중점을 두고 옌산대학교에서 석사 학위를 취득했다.",
+    "earlyLife": "As a boy, made toy cars from sand and scrap materials due to financial constraints, displaying early entrepreneurial spirit and mechanical creativity.",
+    "earlyLifeKo": "소년 시절 재정적 제약으로 인해 모래와 폐기물 재료로 장난감 자동차를 만들었으며, 조기 기업가 정신과 기계적 창의성을 보였다.",
+    "source": "https://en.wikipedia.org/wiki/Li_Shufu"
   },
   "careerTimeline": [
     {
-      "year": 1993,
-      "event": "Co-founded MDM Bank at age 21 with entrepreneurial vision to capitalize on Russia's emerging financial sector. The bank became one of Russia's largest non-state banks through aggressive expansion and acquisitions.",
-      "eventKo": "21세의 나이에 MDM 은행을 공동 설립하여 러시아의 신흥 금융 부문을 활용하려는 기업가적 비전을 보였다. 은행은 공격적인 확장 및 인수를 통해 러시아의 가장 큰 비정부 은행 중 하나가 되었다."
+      "year": 1986,
+      "event": "Founded Geely in Ningbo, Zhejiang as a refrigerator parts manufacturer with borrowed funds from family, starting from scratch with determination.",
+      "eventKo": "가족으로부터 빌린 자금으로 절강성 닝보에서 냉장고 부품 제조업체로 Geely를 설립하여 결단력 있게 처음부터 시작했다."
     },
     {
-      "year": 2000,
-      "event": "Shifted focus from banking to industrial conglomerate building. Co-founded MDM Group with former metals trader Sergei Popov. Began strategic acquisition of 50+ independent industrial businesses across pipeline manufacturing, coal, and fertilizers.",
-      "eventKo": "은행 업무에서 산업 재벌 건설로 초점을 전환했다. 전직 금속 거래자 세르게이 포포프와 함께 MDM 그룹을 공동 설립했다. 파이프라인 제조, 석탄, 비료 전반에 걸친 50개 이상의 독립적인 산업 기업의 전략적 인수를 시작했다."
+      "year": 1998,
+      "event": "Transitioned Geely from refrigerator parts to motorcycle manufacturing, demonstrating business adaptability and market awareness.",
+      "eventKo": "Geely을 냉장고 부품에서 오토바이 제조로 전환하여 사업 적응력과 시장 인식을 보였다."
     },
     {
       "year": 2001,
-      "event": "Created EuroChem Group through consolidation of fertilizer assets, establishing himself as operator of world's largest fertilizer producer with operations across Russia and global export networks.",
-      "eventKo": "비료 자산의 통합을 통해 EuroChem 그룹을 설립하여 러시아 전역의 운영과 글로벌 수출 네트워크를 가진 세계 최대 비료 생산자의 운영자로 자신을 확립했다."
+      "event": "Launched Geely automobile brand with first car model, entering the highly competitive automotive industry with determination.",
+      "eventKo": "첫 자동차 모델로 Geely 자동차 브랜드를 출시하여 매우 경쟁이 치열한 자동차 산업에 진출했다."
     },
     {
       "year": 2005,
-      "event": "Became Director of SUEK JSC (Siberian Coal Energy Company), the leading coal producer in Russia. Consolidated coal assets into world-class mining operation with multi-billion dollar market capitalization.",
-      "eventKo": "러시아의 주도적인 석탄 생산자인 SUEK JSC(시베리안 석탄 에너지 회사)의 이사가 되었다. 석탄 자산을 수십억 달러 규모의 시장 자본금을 가진 세계 수준의 광산 운영으로 통합했다."
+      "event": "Listed Geely Automobile Holdings on the Hong Kong Stock Exchange, marking major milestone in company's growth.",
+      "eventKo": "Geely Automobile Holdings을 홍콩 증권거래소에 상장하여 회사 성장의 주요 이정표를 기록했다."
     },
     {
-      "year": 2011,
-      "event": "Elevated to Chairman of SUEK, consolidating his control over one of world's largest coal mining operations with operations across Siberia, supplying global markets including Asia-Pacific and Europe.",
-      "eventKo": "SUEK의 회장으로 승진하여 시베리아 전역의 운영을 가진 세계 최대 석탄 광산 운영 중 하나에 대한 통제를 통합하여 아시아 태평양 및 유럽을 포함한 글로벌 시장에 공급했다."
+      "year": 2010,
+      "event": "Acquired Volvo Cars from Ford for $1.8 billion, transforming Geely into a global automotive powerhouse and Chinese Henry Ford.",
+      "eventKo": "Ford에서 Volvo Cars를 $1.8 billion에 인수하여 Geely를 글로벌 자동차 강국으로 전환하고 중국의 Henry Ford가 되었다."
     },
     {
-      "year": 2015,
-      "event": "At peak of power and wealth, controlled EuroChem and SUEK through complex trust structures, accumulating estimated $20+ billion net worth. Also invested in superyachts and luxury assets globally.",
-      "eventKo": "권력과 부의 절정에 복잡한 신탁 구조를 통해 EuroChem과 SUEK을 통제하여 약 200억 달러 이상의 순자산을 축적했다. 또한 전 세계적으로 슈퍼요트 및 사치 자산에 투자했다."
+      "year": 2018,
+      "event": "Acquired 9.69% stake in Mercedes-Benz Group, becoming company's largest single shareholder and expanding into premium automotive sector.",
+      "eventKo": "Mercedes-Benz Group의 9.69% 지분을 인수하여 회사의 최대 단일 주주가 되고 프리미엄 자동차 부문으로 확장했다."
+    },
+    {
+      "year": 2020,
+      "event": "Pursued merger of Volvo and Geely engine production units to create integrated global automotive platform.",
+      "eventKo": "Volvo와 Geely 엔진 생산 부서의 합병을 추진하여 통합된 글로벌 자동차 플랫폼을 만들었다."
     },
     {
       "year": 2022,
-      "event": "Following Russia's invasion of Ukraine in February, faced sweeping international sanctions from EU, UK, US, Canada, Japan, and others on March 9, 2022. Forced to resign from company boards on March 8-9 and transferred beneficiary status to his wife.",
-      "eventKo": "러시아의 우크라이나 침공 직후 2월, 3월 9일 EU, 영국, 미국, 캐나다, 일본 등으로부터 광범위한 국제 제재를 받았다. 3월 8-9일 회사 이사회에서 사임을 강요받았고 수익자 지위를 아내에게 이전했다."
-    },
-    {
-      "year": 2024,
-      "event": "Continued to operate from Dubai as primary residence, effectively exiled from EU and US due to ongoing sanctions. Gave extensive interview to Tucker Carlson in El Salvador, positioning himself as victim of Western sanctions rather than beneficiary of Russian regime.",
-      "eventKo": "두바이를 주요 거주지로 운영을 계속했으나, 지속되는 제재로 인해 EU와 미국에서 사실상 추방되었다. 엘살바도르에서 Tucker Carlson과의 광범위한 인터뷰를 주어 자신을 러시아 정권의 수혜자가 아닌 서방 제재의 희생자로 포지셔닝했다."
+      "event": "Expanded to Aston Martin with 7.6% stake acquisition, later increasing stake to 17%, becoming third-largest shareholder.",
+      "eventKo": "Aston Martin에 7.6% 지분 인수로 확장했으며, 나중에 17%로 지분을 증가시켜 3대 주주가 되었다."
     }
   ],
   "failures": [
     {
-      "year": 2022,
-      "description": "Complete loss of operational control and effective asset seizure through international sanctions following Russia's invasion of Ukraine. Italian authorities seized his superyacht Sailing Yacht A in Trieste. Lost direct ability to manage EuroChem and SUEK operations, effectively becoming a sanctioned oligarch unable to travel to most developed nations.",
-      "descriptionKo": "러시아의 우크라이나 침공에 따른 국제 제재를 통한 운영 통제의 완전한 상실 및 효과적인 자산 압수. 이탈리아 당국이 트리에스테 항구에서 슈퍼요트 Sailing Yacht A를 압수했다. EuroChem 및 SUEK 운영을 관리할 수 있는 직접적인 능력을 잃었으며, 사실상 대부분의 선진국으로 여행할 수 없는 제재받은 올리가르히가 되었다.",
-      "lesson": "Wealth accumulated through dependence on political favor is inherently vulnerable to geopolitical shifts and international sanctions. Diversification across jurisdictions and asset classes cannot protect against sanctions when political relations deteriorate. Oligarchs without independent global legitimacy face existential business risks.",
-      "lessonKo": "정치적 호의에 의존하여 축적된 부는 지정학적 변화와 국제 제재에 본질적으로 취약하다. 관할권과 자산 클래스 전반에 걸친 다각화는 정치적 관계가 악화될 때 제재로부터 보호할 수 없다. 독립적인 글로벌 정당성이 없는 올리가르히는 실존적 사업 위험에 직면한다."
+      "year": 1995,
+      "description": "Early photography business failed due to inability to secure government approval, forcing him to pivot to manufacturing.",
+      "descriptionKo": "초기 사진 사업은 정부 승인 획득 능력 부족으로 실패했으며, 제조업으로 전환을 강요받았다.",
+      "lesson": "Learned the importance of navigating regulatory environments and the need to be flexible in business direction when circumstances change.",
+      "lessonKo": "규제 환경을 탐색하는 것의 중요성과 상황이 변할 때 사업 방향에서 유연성의 필요성을 배웠다."
     },
     {
-      "year": 2023,
-      "description": "Russian Prosecutor General's Office filed suit aimed at nationalizing his former company Sibeco. Though settled in October 2023, the lawsuit represented threat to remaining business interests and demonstrated vulnerability of wealth concentrated in Putin-era ventures dependent on political favor.",
-      "descriptionKo": "러시아 검찰청이 그의 전직 회사 Sibeco를 국유화하기 위한 소송을 제기했다. 2023년 10월에 해결되었지만, 소송은 남은 사업 이익에 대한 위협을 나타내었고, 정치적 호의에 의존하는 푸틴 시대 벤처에 집중된 부의 취약성을 입증했다.",
-      "lesson": "Even settled lawsuits and threats of asset nationalization reveal the precarious position of oligarchs whose wealth depends on Kremlin connections. Once sanctions are imposed and political favor is withdrawn, legal mechanisms can be weaponized by the state against oligarchs, regardless of past cooperation.",
-      "lessonKo": "해결된 소송과 자산 국유화 위협조차도 크렘린 인맥에 의존하는 올리가르히의 위험한 입장을 드러낸다. 제재가 부과되고 정치적 호의가 철회되면, 과거의 협력에 관계없이 법적 메커니즘은 국가에 의해 올리가르히를 상대로 무기화될 수 있다."
+      "year": 2005,
+      "description": "Early Geely automobiles faced quality and safety concerns, with international media criticism of cheap manufacturing standards and reputation damage.",
+      "descriptionKo": "초기 Geely 자동차는 품질과 안전 문제에 직면했으며, 저가 제조 기준에 대한 국제 미디어의 비판과 평판 피해가 발생했다.",
+      "lesson": "Recognized that quality improvement and brand rehabilitation were essential for long-term growth, spurring investment in R&D and manufacturing standards.",
+      "lessonKo": "품질 개선과 브랜드 재활이 장기 성장을 위해 필수적이라는 것을 인식하여 R&D 및 제조 기준 투자를 촉진했다.",
+      "source": "https://carnewschina.com/2023/11/29/who-is-volvos-owner-geely-who-sells-china-made-evs-in-the-u-s/"
+    },
+    {
+      "year": 2015,
+      "description": "Faced global overcapacity in automotive industry and increasing competition from EV makers, requiring strategic repositioning.",
+      "descriptionKo": "자동차 산업의 글로벌 과잉 공급과 EV 제조업체의 증가하는 경쟁에 직면했으며, 전략적 재구성이 필요했다.",
+      "lesson": "Understood that traditional automotive dominance alone was insufficient, leading to strategic pivot toward electric vehicles and autonomous driving technology.",
+      "lessonKo": "전통적인 자동차 우위만으로는 불충분하다는 것을 이해하여 전기 자동차 및 자율주행 기술로의 전략적 전환을 이끌었다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 2000,
-      "netWorth": 0.8
+      "year": 1995,
+      "netWorth": 0.01
     },
     {
       "year": 2005,
-      "netWorth": 3.5
+      "netWorth": 1.2
     },
     {
       "year": 2010,
-      "netWorth": 8.2
+      "netWorth": 3.5
     },
     {
-      "year": 2015,
-      "netWorth": 15.6
+      "year": 2020,
+      "netWorth": 13.2
     },
     {
-      "year": 2022,
-      "netWorth": 20.4
+      "year": 2024,
+      "netWorth": 20.7
     }
   ],
   "quotes": [
     {
-      "text": "I am a self-made businessman. I was not part of the 1990s gold rush and I have never met Putin in a group of fewer than 15 people.",
-      "textKo": "나는 자수성가한 사업가다. 나는 1990년대 황금 러시의 일부가 아니었으며 15명 미만의 그룹에서 푸틴을 만난 적이 없다.",
-      "context": "Defending his wealth and independence in interviews following international sanctions, asserting he earned his fortune through business acumen rather than political connections.",
-      "contextKo": "국제 제재 이후의 인터뷰에서 그의 부와 독립성을 방어하며, 그의 재산을 정치적 인맥보다는 사업 능력으로 벌었다고 주장했다."
+      "text": "The global automotive industry is facing serious overcapacity. We need to stop building new plants and focus on technological capabilities.",
+      "textKo": "글로벌 자동차 산업은 심각한 과잉 공급에 직면하고 있다. 우리는 새로운 플랜트 건설을 중단하고 기술 능력에 집중해야 한다.",
+      "context": "Statement on industry challenges and Geely's strategic response to overcapacity.",
+      "contextKo": "산업 과제와 과잉 공급에 대한 Geely의 전략적 대응에 대한 진술"
     },
     {
-      "text": "There are definitely war crimes from both sides. This happens in any war. It's natural.",
-      "textKo": "양쪽 모두에서 전쟁 범죄가 확실히 있다. 이는 모든 전쟁에서 발생한다. 자연스러운 일이다.",
-      "context": "Discussing the Ukraine war in a Financial Times interview, attempting to present a balanced perspective while distancing himself from Russian aggression narrative.",
-      "contextKo": "파이낸셜 타임즈 인터뷰에서 우크라이나 전쟁에 대해 논의하며, 균형 잡힌 관점을 제시하면서 러시아 침략 내러티브로부터 거리를 두려고 시도했다."
+      "text": "I am the Chinese Henry Ford. I came from nothing and built an automotive empire through hard work and vision.",
+      "textKo": "나는 중국의 Henry Ford이다. 나는 아무것도 없는 곳에서 시작했고 노력과 비전을 통해 자동차 제국을 구축했다.",
+      "context": "Reflecting on his journey from poverty to becoming a global automotive magnate.",
+      "contextKo": "빈곤에서 글로벌 자동차 재벌이 되기까지의 여정을 반추함"
     },
     {
-      "text": "Russia can play a pivotal role in global climate action and sustainability, particularly through our commitment to fertilizer production that feeds the world.",
-      "textKo": "러시아는 특히 세계를 먹여 살리는 비료 생산에 대한 우리의 약속을 통해 글로벌 기후 행동 및 지속 가능성에서 중추적인 역할을 할 수 있다.",
-      "context": "Statement at COP27 climate summit in 2022, leveraging environmental responsibility rhetoric to defend EuroChem's operations and counter Western sanctions narrative.",
-      "contextKo": "2022년 COP27 기후 정상회담에서의 성명으로, 환경 책임 수사를 활용하여 EuroChem의 운영을 방어하고 서방의 제재 내러티브에 대항했다."
+      "text": "Technology continues to reshape every industry. Those who fail to adapt to electric vehicles and autonomous driving will be left behind.",
+      "textKo": "기술은 계속 모든 산업을 재편하고 있다. 전기 자동차와 자율주행 기술에 적응하지 못하는 자들은 뒤처질 것이다.",
+      "context": "On the importance of technological innovation in the future of automotive industry.",
+      "contextKo": "자동차 산업의 미래에 있어서 기술 혁신의 중요성에 대해"
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "The New Cold War: Putin's Russia and the Threat to the West",
-        "author": "Edward Lucas",
-        "why": "Critical examination of Russian oligarchy system, wealth concentration, and geopolitical implications directly relevant to understanding Melnichenko's rise and vulnerability.",
-        "whyKo": "멜니첸코의 상승과 취약성을 이해하는 데 직접적으로 관련된 러시아 올리가르히 체계, 부의 집중, 지정학적 영향을 비판적으로 검토한다."
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "why": "Provides insights on building businesses from minimal resources through rapid iteration and learning.",
+        "whyKo": "최소한의 자원에서 빠른 반복과 학습을 통해 사업을 구축하는 방법에 대한 통찰력을 제공한다."
       },
       {
-        "title": "Resource Wars: The New Landscape of Global Conflict",
-        "author": "Michael Klare",
-        "why": "Explains how control of commodities like coal and fertilizers creates both wealth and geopolitical vulnerability in contested global markets.",
-        "whyKo": "석탄 및 비료와 같은 상품의 통제가 어떻게 분쟁이 있는 글로벌 시장에서 부와 지정학적 취약성을 만드는지 설명한다."
+        "title": "Competing Against Luck",
+        "author": "Clayton M. Christensen",
+        "why": "Explores how companies can understand customer needs and create competitive advantage through innovation.",
+        "whyKo": "회사가 고객 요구를 이해하고 혁신을 통해 경쟁 우위를 창출하는 방법을 탐색한다."
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Ruthless industrialist who built one of Russia's largest resource empires through aggressive consolidation of coal and fertilizer assets. Known for claiming to be self-made despite operating within Putin-era business structures. Also infamous for owning superyachts including the 156-meter Sailing Yacht A, symbol of ultra-wealthy Russian oligarchs.",
-    "knownForKo": "석탄 및 비료 자산의 공격적인 통합을 통해 러시아의 가장 큰 자원 제국 중 하나를 구축한 무자비한 산업가. 푸틴 시대 사업 구조 내에서 운영함에도 불구하고 자수성가했다고 주장하는 것으로 알려져 있다. 또한 156미터 규모의 Sailing Yacht A를 소유하고 있는 것으로 악명 높으며, 이는 극도로 부유한 러시아 올리가르히의 상징이다.",
-    "philanthropy": "Minimal public philanthropy. Unlike some Russian billionaires, Melnichenko has not established significant charitable foundations or donated substantially to educational or cultural causes. Post-sanctions, has focused on maintaining business interests and defending against legal/political challenges rather than philanthropic endeavors.",
-    "philanthropyKo": "최소한의 공개 자선활동. 일부 러시아 억만장자와 달리 멜니첸코는 상당한 자선 재단을 설립하거나 교육 또는 문화 사업에 실질적으로 기부하지 않았다. 제재 이후 자선 활동보다는 사업 이익 유지 및 법적/정치적 도전으로부터 방어에 초점을 맞추었다.",
-    "controversies": "Sanctioned oligarch accused of profiting from Putin regime and benefiting from non-competitive privatization in 1990s Russia. Superyacht seized by Italian authorities. Sued by Russian Prosecutor General's Office for asset nationalization. Faces lawsuit over environmental damage from coal operations in Siberia. His claims to be 'self-made' and independent of Putin are widely disputed by Western observers, who view him as archetypal Putin-connected oligarch.",
-    "controversiesKo": "푸틴 정권으로부터 이익을 얻고 1990년대 러시아의 비경쟁적 민영화로부터 이익을 얻은 혐의를 받는 제재받은 올리가르히. 슈퍼요트가 이탈리아 당국에 의해 압수되었다. 러시아 검찰청에 자산 국유화를 위해 소송을 당했다. 시베리아의 석탄 운영으로 인한 환경 피해에 대한 소송에 직면해 있다. '자수성가'했으며 푸틴으로부터 독립적이라는 그의 주장은 그를 전형적인 푸틴과 연결된 올리가르히로 보는 서방 관찰자들에 의해 광범위하게 분쟁을 받고 있다."
+    "knownFor": "Transforming Geely from small refrigerator parts maker to global automotive powerhouse, acquiring Volvo, building integrated automotive ecosystem, visionary leadership in emerging technologies.",
+    "knownForKo": "Geely을 작은 냉장고 부품 제조업체에서 글로벌 자동차 강국으로 변환, Volvo 인수, 통합 자동차 생태계 구축, 신흥 기술의 비전 있는 리더십으로 알려져 있다.",
+    "philanthropy": "Founded Beijing Geely College (now Geely University), China's largest private university in 1999, and established University of Sanya in 2005, emphasizing education and social responsibility.",
+    "philanthropyKo": "1999년 중국 최대 사립대학인 Beijing Geely College(현 Geely University)를 설립했고, 2005년 University of Sanya를 설립하여 교육과 사회 책임을 강조했다.",
+    "controversies": "Faced criticism regarding quality standards of early Geely vehicles and concerns about labor practices. Also criticized for aggressive acquisition strategy and market consolidation attempts.",
+    "controversiesKo": "초기 Geely 자동차의 품질 기준과 노동 관행에 대한 비판을 받았으며, 공격적인 인수 전략과 시장 통합 시도에 대해서도 비판을 받았다."
   },
   "sajuConnection": {
-    "note": "Leave null.",
+    "note": null,
     "value": null
   }
 }

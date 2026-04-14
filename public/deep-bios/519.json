@@ -2,58 +2,96 @@
   "id": "519",
   "name": "Albert Avdolyan",
   "childhood": {
-    "birthPlace": "Russia",
-    "birthPlaceKo": "러시아",
-    "familyBackground": "Albert Alikovich Avdolyan is a Russian investor, businessman and philanthropist. Founder of Yota company, which became the first LTE operator in Russia.",
-    "familyBackgroundKo": "알베르트 알리코비치 아브돌리안은 러시아의 투자자이자 기업인, 자선가로, 러시아 최초의 LTE 사업자가 된 Yota 회사의 설립자이다.",
-    "education": "Details of Albert Avdolyan's formal education are documented in limited public sources.",
-    "educationKo": "Albert Avdolyan의 정규 교육에 대한 세부사항은 제한된 공개 자료에 기록되어 있음.",
-    "earlyLife": "Albert Avdolyan built a career in Oil, mining, becoming one of the world's wealthiest individuals.",
-    "earlyLifeKo": "Albert Avdolyan은(는) Oil, mining 분야에서 경력을 쌓아 세계 최고 부호 중 한 명이 됨.",
-    "source": "Forbes, Wikipedia"
+    "birthPlace": "Krasnodar, Russia",
+    "birthPlaceKo": "러시아 크라스노다르",
+    "familyBackground": "Albert Avdolyan was born on November 8, 1970, in Krasnodar, a city in southern Russia. He grew up in a modest family in Krasnodar Krai. Details about his parents and upbringing remain largely private, consistent with his low-profile personal style.",
+    "familyBackgroundKo": "알베르트 아브돌리안은 1970년 11월 8일 러시아 남부 도시 크라스노다르에서 태어났다. 크라스노다르 지방에서 소박한 가정 환경 속에 자랐으며, 부모와 성장 배경에 대한 세부 정보는 대체로 비공개로 유지되고 있다.",
+    "education": "Avdolyan holds a Master of Laws (LL.M.) degree from Irkutsk State University, giving him a legal foundation that informed his approach to complex business transactions.",
+    "educationKo": "이르쿠츠크 국립대학교에서 법학 석사 학위를 취득하였으며, 이 법률적 배경은 이후 복잡한 사업 거래를 처리하는 데 중요한 기반이 되었다.",
+    "earlyLife": "After completing his law degree, Avdolyan moved into business in the late 1990s and early 2000s, gradually building connections in Russian telecoms and energy sectors before making his fortune.",
+    "earlyLifeKo": "법학 학위를 마친 후 1990년대 말과 2000년대 초에 사업에 뛰어들어 러시아 통신 및 에너지 분야에서 인맥과 사업 기반을 다지기 시작했다."
   },
   "careerTimeline": [
     {
-      "year": 1998,
-      "event": "Founded key business venture in Oil, mining",
-      "eventKo": "Oil, mining 분야에서 핵심 사업 설립"
+      "year": 2007,
+      "event": "Co-founded Scartel Telecommunications Company with Sergey Adoniev, laying groundwork for Russia's first LTE mobile network.",
+      "eventKo": "세르게이 아도니예프와 함께 스카르텔 통신사를 공동 창립하여 러시아 최초의 LTE 이동통신 네트워크 구축을 위한 기반을 마련했다."
+    },
+    {
+      "year": 2008,
+      "event": "Scartel launched Russia's first WiMAX wireless internet service under the Yota brand, disrupting the telecom market.",
+      "eventKo": "스카르텔이 요타(Yota) 브랜드로 러시아 최초의 와이맥스(WiMAX) 무선 인터넷 서비스를 출시하며 통신 시장에 혁신을 가져왔다."
+    },
+    {
+      "year": 2011,
+      "event": "Yota became Russia's first LTE operator, cementing Avdolyan's reputation as a visionary in mobile infrastructure.",
+      "eventKo": "요타가 러시아 최초의 LTE 통신사가 되며, 아브돌리안의 이동통신 인프라 분야에서의 선구자적 명성을 굳혔다."
+    },
+    {
+      "year": 2013,
+      "event": "Exited Scartel/Yota by selling shares, realizing significant gains from the telecom venture. Founded the 'New Home' charitable foundation for orphaned and disabled children.",
+      "eventKo": "스카르텔/요타 지분을 매각하여 통신 사업에서 철수하며 큰 수익을 실현했다. 고아 및 장애 아동을 위한 '새 집(New Home)' 자선 재단을 설립했다."
+    },
+    {
+      "year": 2018,
+      "event": "Entered the mineral fertilizer sector by acquiring stakes in production enterprises in Lermontov, Stavropol Territory, diversifying beyond telecoms.",
+      "eventKo": "스타브로폴 지방 레르몬토프에 위치한 광물 비료 생산 기업들의 지분을 인수하여 통신을 넘어 사업 다각화에 나섰다."
+    },
+    {
+      "year": 2019,
+      "event": "A-Property acquired Yakut Fuel and Energy Company (YATEC), gaining a foothold in Siberian energy resources.",
+      "eventKo": "A-프로퍼티가 야쿠트 연료에너지회사(YATEC)를 인수하여 시베리아 에너지 자원 분야에 진출했다."
     },
     {
       "year": 2020,
-      "event": "Continued expanding operations and investments",
-      "eventKo": "사업 및 투자 확대 지속"
+      "event": "Acquired 51% of Elgaugol from Mechel, then exercised an option to buy the remaining 49% from Gazprombank, becoming sole owner of the Elga coal complex — one of the world's largest coking coal deposits.",
+      "eventKo": "메첼로부터 엘가우골 지분 51%를 인수한 후 가즈프롬방크로부터 나머지 49%를 추가 매입하는 옵션을 행사하여 세계 최대 규모의 점결탄 광산 중 하나인 엘가 석탄 단지의 단독 소유주가 되었다."
     },
     {
-      "year": 2025,
-      "event": "Net worth reached $7.1B, ranking among world's wealthiest",
-      "eventKo": "순자산 7.10억 달러 도달, 세계 최고 부호 대열"
+      "year": 2022,
+      "event": "Completed consolidation of Sibanthracite group assets and divested the fertilizer business to Almaz Group management, sharpening his focus on coal and energy.",
+      "eventKo": "시반트라사이트 그룹 자산 통합을 완료하고 비료 사업을 알마즈 그룹에 매각하여 석탄 및 에너지 사업에 집중하는 전략을 선명히 했다."
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "COVID-19 pandemic created unprecedented challenges across global business",
-      "descriptionKo": "코로나19 팬데믹이 전 세계 비즈니스에 전례 없는 도전 초래",
-      "lesson": "Adaptability and resilience are essential for surviving global crises",
-      "lessonKo": "글로벌 위기를 생존하는 데 적응력과 회복력이 필수적",
-      "source": "Forbes"
+      "year": 2013,
+      "description": "Avdolyan and his partner Adoniev exited Yota at a point when the company had been struggling with high debt loads from its rapid LTE rollout, selling before realizing the full long-term upside of Russia's mobile internet boom.",
+      "descriptionKo": "아브돌리안과 파트너 아도니예프는 요타의 급속한 LTE 구축 과정에서 쌓인 막대한 부채로 인해 어려움을 겪던 시점에 지분을 매각했으며, 러시아 모바일 인터넷 붐의 장기적 이익을 충분히 실현하지 못하고 철수했다.",
+      "lesson": "Rapid technological expansion requires careful debt management; being first to market does not guarantee long-term ownership.",
+      "lessonKo": "빠른 기술 확장에는 신중한 부채 관리가 필요하며, 시장 선점이 장기 소유권을 보장하지는 않는다."
+    },
+    {
+      "year": 2019,
+      "description": "The Elga coal project, when first acquired, faced severe infrastructure challenges — it lacked a proper railway connection to ports, making transportation of coal economically unviable without massive capital investment.",
+      "descriptionKo": "엘가 석탄 프로젝트는 인수 초기 심각한 인프라 문제에 직면했다. 항구로 연결되는 적절한 철도망이 없어 대규모 자본 투자 없이는 석탄 운송이 경제적으로 불가능한 상황이었다.",
+      "lesson": "Resource assets without logistical infrastructure are stranded assets; the real investment required is in connectivity, not just extraction.",
+      "lessonKo": "물류 인프라 없는 자원 자산은 고립된 자산에 불과하다. 진정한 투자는 채굴 그 자체가 아니라 연결성 구축에 있다."
     }
   ],
   "wealthHistory": [
     {
-      "year": 2010,
-      "netWorth": 1.8
+      "year": 2013,
+      "netWorth": 0.5
     },
     {
-      "year": 2015,
-      "netWorth": 3.2
+      "year": 2016,
+      "netWorth": 1.2
     },
     {
-      "year": 2022,
-      "netWorth": 5.0
+      "year": 2019,
+      "netWorth": 2.0
     },
     {
-      "year": 2025,
+      "year": 2021,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.8
+    },
+    {
+      "year": 2024,
       "netWorth": 7.1
     }
   ],
@@ -63,7 +101,10 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building wealth through Oil, mining. One of the world's wealthiest individuals with net worth of $7.1B.",
-    "knownForKo": "Oil, mining을(를) 통해 부를 축적. 순자산 $7.1B의 세계 최고 부호 중 한 명."
-  }
+    "knownFor": "Avdolyan is known for his extreme discretion and low media profile despite his immense wealth. He is regarded as a contrarian deal-maker who moves into unglamorous, capital-intensive sectors — from LTE telecoms to remote Siberian coal — and transforms them through infrastructure investment.",
+    "knownForKo": "막대한 재산에도 불구하고 극도의 신중함과 낮은 언론 노출로 유명하다. 화려하지 않지만 자본 집약적인 분야, 즉 LTE 통신에서 시베리아 오지의 석탄에 이르기까지 진입하여 인프라 투자를 통해 변모시키는 역발상적 거래자로 평가받는다.",
+    "philanthropy": "In 2013, Avdolyan founded the 'New Home' Charitable Foundation, which is building 'Point of the Future' in Irkutsk — Russia's first multifunctional educational complex for orphans and disabled children, including a foster family village.",
+    "philanthropyKo": "2013년 '새 집(New Home)' 자선 재단을 설립했으며, 이르쿠츠크에 러시아 최초의 고아 및 장애 아동을 위한 다기능 교육 단지 '미래의 거점(Point of the Future)'을 건립하고 있다. 이 시설에는 위탁 가정 마을도 포함되어 있다."
+  },
+  "sajuConnection": null
 }

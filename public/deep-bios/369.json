@@ -1,92 +1,66 @@
 {
   "id": "369",
-  "name": "Fernando Roig",
+  "name": "Wang Yusuo",
   "childhood": {
-    "birthPlace": "Valencia, Spain",
-    "birthPlaceKo": "발렌시아, 스페인",
-    "familyBackground": "Spanish business family with interests in retail and consumer goods. Father was involved in clothing manufacturing.",
-    "familyBackgroundKo": "소매 및 소비자 제품에 관심이 있는 스페인 사업 가족. 아버지는 의류 제조에 관여했습니다.",
-    "education": "Studied business and fashion at Spanish universities",
-    "educationKo": "스페인 대학교에서 비즈니스 및 패션 공부",
-    "earlyLife": "Started career in family retail business in 1990s. Expanded into footwear and fashion retail.",
-    "earlyLifeKo": "1990년대 가족 소매 사업에서 경력을 시작했습니다. 신발 및 패션 소매로 확장했습니다.",
-    "source": "roiggroup.com"
+    "birthPlace": "Langfang, China",
+    "birthPlaceKo": "중국 랑팡",
+    "familyBackground": "Born 1964 in Langfang. Early life marked by educational challenges; failed national university entrance exam three times before pursuing alternative paths.",
+    "familyBackgroundKo": "1964년 랑팡에서 출생. 초기 생활은 교육적 어려움으로 표시됨; 대학 국가 입시에 3번 불합격 후 대안적 경로 추구.",
+    "education": "People's University of China - Bachelor's degree. Tianjin University - Doctorate",
+    "educationKo": "중국 인민 대학교 - 학사. 톈진 대학교 - 박사",
+    "earlyLife": "After failing university exams, sold cooking oil and beer in early twenties. Started cab business but quit after three years. Demonstrated entrepreneurial persistence and adaptability.",
+    "earlyLifeKo": "대학 시험 불합격 후 20대 초반에 식용유와 맥주 판매. 택시 사업 시작했지만 3년 후 퇴사. 기업가적 인내와 적응성 시현.",
+    "source": "https://en.wikipedia.org/wiki/Wang_Yusuo"
   },
   "careerTimeline": [
     {
+      "year": 1986,
+      "event": "Chinese government opened door for private companies in liquefied gas sector; Wang identified opportunity",
+      "eventKo": "중국 정부가 액화가스 부문의 민간 기업에 대한 문을 열어줌; 왕유수어가 기회 발견"
+    },
+    {
       "year": 1992,
-      "event": "Joined family retail and clothing business",
-      "eventKo": "가족 소매 및 의류 사업 입사"
+      "event": "Established ENN Group; helped Langfang construct gas pipelines",
+      "eventKo": "ENN 그룹 설립; 랑팡의 가스 파이프라인 건설 지원"
+    },
+    {
+      "year": 1995,
+      "event": "Acquired exclusive rights for urban natural gas pipelines; expanded business to other cities",
+      "eventKo": "도시 천연가스 파이프라인의 독점권 획득; 다른 도시로 사업 확장"
     },
     {
       "year": 2000,
-      "event": "Expanded into footwear manufacturing and retail",
-      "eventKo": "신발 제조 및 소매로 확장"
+      "event": "ENN Group operates largest private liquefied natural gas networks in China",
+      "eventKo": "ENN 그룹이 중국의 가장 큰 민간 액화천연가스 네트워크 운영"
     },
     {
-      "year": 2008,
-      "event": "Became major fashion and footwear retail operator in Spain and Europe",
-      "eventKo": "스페인 및 유럽의 주요 패션 및 신발 소매 운영업체가 됨"
+      "year": 2016,
+      "event": "Acquired $750 million stake in Australian gas producer Santos",
+      "eventKo": "호주 가스 생산자 산토스의 7억 5,000만 달러 지분 인수"
     },
     {
-      "year": 2018,
-      "event": "Diversified into sports franchises and entertainment ventures",
-      "eventKo": "스포츠 프랜차이즈 및 엔터테인먼트 벤처로 다각화"
+      "year": 2025,
+      "event": "Stepped down as ENN Group chairman while remaining on board; positioned son for greater responsibilities",
+      "eventKo": "ENN 그룹 회장직에서 사직하면서 이사회에 유임; 아들을 더 큰 책임으로 배치"
     }
   ],
-  "failures": [
-    {
-      "year": 2009,
-      "description": "Spanish retail market contraction during economic crisis; competition from fast-fashion retailers",
-      "descriptionKo": "경제 위기 중 스페인 소매 시장 축소; 빠른 패션 소매업체와의 경쟁",
-      "lesson": "Learned importance of differentiation and e-commerce integration in fashion retail",
-      "lessonKo": "패션 소매에서 차별화 및 전자상거래 통합의 중요성을 배웠습니다",
-      "source": "spanish-retail.com"
-    }
-  ],
+  "failures": [],
   "wealthHistory": [
     {
-      "year": 2010,
-      "netWorth": 1.1
-    },
-    {
-      "year": 2015,
-      "netWorth": 1.8
-    },
-    {
       "year": 2020,
-      "netWorth": 2.2
-    },
-    {
-      "year": 2023,
-      "netWorth": 2.5
+      "netWorth": 9
     }
   ],
-  "quotes": [
-    {
-      "text": "Fashion and retail success comes from understanding consumer preferences and market trends",
-      "textKo": "패션 및 소매 성공은 소비자 선호도 및 시장 동향을 이해하는 것에서 옵니다",
-      "context": "Interview about fashion retail strategy",
-      "contextKo": "패션 소매 전략에 관한 인터뷰",
-      "source": "fashion-europe.com"
-    }
-  ],
+  "quotes": [],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "The Innovator's Dilemma",
-        "author": "Clayton Christensen",
-        "note": "Applied to fashion retail disruption strategies",
-        "noteKo": "패션 소매 혼란 전략에 적용됨"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building major fashion and footwear retail company; sports team ownership; European retail leadership",
-    "knownForKo": "주요 패션 및 신발 소매 회사 구축; 스포츠 팀 소유; 유럽 소매 리더십",
-    "philanthropy": "Supports sports development and cultural initiatives in Spain",
-    "philanthropyKo": "스페인의 스포츠 개발 및 문화 사업 지원",
+    "knownFor": "Founder of ENN Group, pioneered natural gas infrastructure in China, expanded into renewable energy, low-profile lifestyle despite billionaire status",
+    "knownForKo": "ENN 그룹 창립자, 중국 천연가스 기반시설 개척, 재생 에너지로 확장, 억만장자 지위에도 불구하고 저프로필 생활 방식",
+    "philanthropy": null,
+    "philanthropyKo": null,
     "controversies": null,
     "controversiesKo": null
   },

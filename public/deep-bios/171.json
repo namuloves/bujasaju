@@ -1,102 +1,96 @@
 {
   "id": "171",
-  "name": "Wang Weixiu",
-  "nameKo": "왕웨이슈",
-  "netWorth": "$15.1B",
-  "nationality": "CN",
-  "industry": "Real Estate",
-  "childhood": {
-    "birthPlace": "Longkou, Shandong Province, China",
-    "birthPlaceKo": "중국 산둥성 룽커우",
-    "familyBackground": "Details about his family background are limited. He started from humble origins as a technician at a state-owned factory in Shandong Province.",
-    "familyBackgroundKo": "가족 배경에 대한 세부 사항은 제한적이다. 산둥성의 국영 공장 기술자로 시작하여 소박한 출발을 했다.",
-    "education": "Specific details of formal education are not publicly documented.",
-    "educationKo": "정규 교육에 대한 구체적인 세부 사항은 공개적으로 기록되어 있지 않다.",
-    "earlyLife": "Born around 1950 in Longkou, Shandong Province, Wang Weixiu began his career as a technician at a state-owned factory. In 1987, he founded Shandong Zhongji Electrical Equipment, initially manufacturing motors used in washing machines. He built the business during a period of rapid industrialization in China.",
-    "earlyLifeKo": "1950년경 산둥성 룽커우에서 태어난 왕웨이슈는 국영 공장의 기술자로 경력을 시작했다. 1987년 산둥중지전기설비를 설립하여 처음에는 세탁기에 사용되는 모터를 제조했다. 중국의 급속한 산업화 시기에 사업을 키웠다.",
-    "source": "Bloomberg, Wikipedia (Zhongji Innolight)"
-  },
+  "name": "Georg Schaeffler",
+  "nameKo": "게오르크 쉐플러",
+  "childhood": "Georg Friedrich Wilhelm Schaeffler was born in 1964 in Erlangen, Germany, into one of the country's most prominent industrial families. His father Wilhelm Schaeffler and uncle Georg Schaeffler Sr. had built the family ball-bearing empire from a small post-war workshop into a global manufacturer. Growing up in Bavaria, Georg was immersed in engineering culture from childhood, though he was steered toward business and law rather than shop-floor work. He studied business and economics at the University of St. Gallen in Switzerland before earning a law degree and a master's from Duke University in the United States.",
+  "childhoodKo": "게오르크 프리드리히 빌헬름 쉐플러는 1964년 독일 에를랑겐에서 태어났다. 그의 부친 빌헬름 쉐플러와 큰아버지 게오르크 쉐플러 시니어는 전후 소규모 공방에서 시작한 베어링 제조 회사를 세계적인 산업 그룹으로 키워낸 인물들이다. 바이에른의 공업 문화 속에서 성장한 그는 스위스 장크트갈렌 대학교에서 경영·경제학을 공부했고, 이후 미국 듀크 대학교에서 법학 학위와 석사 학위를 취득했다.",
   "careerTimeline": [
     {
-      "year": 1987,
-      "event": "Founded Shandong Zhongji Electrical Equipment, initially manufacturing washing machine motors",
-      "eventKo": "산둥중지전기설비를 설립하여 처음에는 세탁기 모터를 제조"
+      "year": 1990,
+      "event": "Began working within the Schaeffler Group, learning the business from the inside across manufacturing and strategy functions",
+      "eventKo": "쉐플러 그룹 입사, 제조 및 전략 부문에서 경영 전반을 익히며 본격적인 경력 시작"
+    },
+    {
+      "year": 1993,
+      "event": "Pursued a law degree at Duke University, broadening his expertise into international business law",
+      "eventKo": "듀크 대학교에서 법학 공부, 국제 비즈니스 법률 전문성 강화"
+    },
+    {
+      "year": 1996,
+      "event": "Inherited the Schaeffler Group with his mother Maria-Elisabeth following his father Wilhelm's death; Georg acquired an 80% stake",
+      "eventKo": "부친 빌헬름 쉐플러 타계로 모친 마리아-엘리자베트와 함께 쉐플러 그룹 상속, 게오르크는 지분 80% 보유"
     },
     {
       "year": 1999,
-      "event": "Restructured the company from a collective enterprise to a private enterprise",
-      "eventKo": "회사를 집체기업에서 민영기업으로 전환"
+      "event": "Acquired German automotive supplier LuK GmbH, significantly expanding the group's presence in powertrain components",
+      "eventKo": "독일 자동차 부품사 LuK GmbH 인수, 파워트레인 부품 분야 사업 대폭 확장"
     },
     {
-      "year": 2012,
-      "event": "Held initial public offering on the Shenzhen Stock Exchange",
-      "eventKo": "선전증권거래소에서 기업공개(IPO) 실시"
+      "year": 2002,
+      "event": "Acquired FAG Kugelfischer, a leading German ball bearing manufacturer, creating one of the world's largest bearing companies",
+      "eventKo": "독일 최대 볼 베어링 제조사 FAG 쿠겔피셔 인수, 세계 최대 베어링 기업 중 하나로 도약"
     },
     {
-      "year": 2016,
-      "event": "Acquired optical device maker Innolight Technology in a 2.8 billion yuan deal, pivoting the company toward high-tech optical communications",
-      "eventKo": "28억 위안 규모의 거래로 광학 장치 제조업체 이노라이트 테크놀로지를 인수하여 회사를 첨단 광통신 분야로 전환"
+      "year": 2008,
+      "event": "Led a €12 billion hostile takeover bid for Continental AG, the tire and automotive technology giant — a deal that nearly bankrupted Schaeffler during the financial crisis",
+      "eventKo": "타이어·자동차 기술 대기업 콘티넨탈 AG에 120억 유로 규모 적대적 인수를 감행, 이후 금융 위기와 맞물려 그룹 재정 위기를 초래"
     },
     {
-      "year": 2017,
-      "event": "Company restructured and renamed as Zhongji Innolight, becoming a major optical transceiver manufacturer",
-      "eventKo": "회사가 구조조정을 거쳐 중지이노라이트로 사명 변경, 주요 광 트랜시버 제조업체로 성장"
+      "year": 2015,
+      "event": "Schaeffler Group went public on the Frankfurt Stock Exchange, raising €900 million in one of Germany's largest IPOs of the year",
+      "eventKo": "쉐플러 그룹 프랑크푸르트 증권거래소 상장, 9억 유로 조달로 그해 독일 최대 IPO 중 하나 기록"
     },
     {
-      "year": 2023,
-      "event": "Stepped down as chairman of Zhongji Innolight; company became world's largest producer of optical transceivers",
-      "eventKo": "중지이노라이트 회장직에서 물러남; 회사가 세계 최대 광 트랜시버 생산업체로 성장"
-    },
-    {
-      "year": 2024,
-      "event": "Net worth soared 400% as demand for optical devices surged due to AI infrastructure buildout by companies like Google",
-      "eventKo": "구글 등 기업의 AI 인프라 구축으로 광학 장치 수요가 급증하면서 자산이 400% 급등"
+      "year": 2020,
+      "event": "Launched the company's strategic pivot toward electric mobility and green energy, investing heavily in EV components and hydrogen technology",
+      "eventKo": "전기 이동성 및 친환경 에너지로의 전략적 전환 선언, 전기차 부품과 수소 기술에 대규모 투자 시작"
     }
   ],
   "failures": [
     {
-      "year": 2016,
-      "description": "The pivot from traditional electrical equipment manufacturing to high-tech optical communications was a major strategic risk. The 2.8 billion yuan acquisition of Innolight was seen by some as overpaying for an unproven technology company, and integrating two very different business cultures posed significant challenges.",
-      "descriptionKo": "전통적인 전기 장비 제조에서 첨단 광통신으로의 전환은 큰 전략적 리스크였다. 28억 위안의 이노라이트 인수는 일부에서 검증되지 않은 기술 기업에 과도한 대가를 지불한 것으로 여겨졌으며, 매우 다른 두 사업 문화의 통합은 상당한 도전을 안겨주었다.",
-      "lesson": "The acquisition proved to be visionary, positioning the company at the center of the global AI infrastructure boom. Wang's willingness to transform a traditional manufacturing business into a high-tech leader demonstrated the value of strategic boldness.",
-      "lessonKo": "이 인수는 선견지명으로 판명되어 회사를 글로벌 AI 인프라 붐의 중심에 위치시켰다. 전통 제조 사업을 첨단 기술 리더로 변환시킨 왕의 의지는 전략적 대담함의 가치를 입증했다.",
-      "source": "Bloomberg, MarketScreener"
+      "title": "Continental Takeover Nearly Bankrupt the Group",
+      "description": "The 2008 acquisition of Continental AG for approximately €12 billion saddled Schaeffler with massive debt just as the global financial crisis hit. The company struggled under a debt load exceeding €12 billion for years, forcing asset sales and restructuring. Georg Schaeffler himself acknowledged the timing and leverage were deeply problematic.",
+      "titleKo": "콘티넨탈 인수로 인한 그룹 재정 위기",
+      "descriptionKo": "2008년 약 120억 유로에 달하는 콘티넨탈 AG 인수는 글로벌 금융 위기와 맞물리며 쉐플러 그룹에 막대한 부채를 안겼다. 그룹은 수년간 120억 유로를 넘는 부채에 시달리며 자산 매각과 구조 조정을 거듭해야 했고, 게오르크 쉐플러 본인도 인수 시기와 과도한 레버리지가 심각한 문제였음을 인정했다."
+    },
+    {
+      "title": "Late Shift to Electric Mobility",
+      "description": "As a company built on internal combustion engine components, Schaeffler Group faced existential pressure from the global shift to electric vehicles. Critics argued the pivot to EV and e-mobility came too slowly, leading to restructuring announcements affecting thousands of jobs as traditional product lines became obsolete.",
+      "titleKo": "전동화 전환의 지연",
+      "descriptionKo": "내연기관 부품에 특화된 기업으로서 쉐플러 그룹은 전기차 전환이라는 시대적 흐름에 실존적 압박을 받았다. 전동화 대응이 지나치게 늦었다는 비판이 이어졌고, 기존 제품군의 경쟁력 약화로 인해 수천 명의 일자리에 영향을 미치는 구조 조정이 발표되기도 했다."
     }
   ],
   "wealthHistory": [
     {
+      "year": 2010,
+      "amount": 10.0
+    },
+    {
+      "year": 2013,
+      "amount": 14.0
+    },
+    {
       "year": 2015,
-      "netWorth": 0.5
+      "amount": 18.0
+    },
+    {
+      "year": 2018,
+      "amount": 20.1
     },
     {
       "year": 2020,
-      "netWorth": 1.8
+      "amount": 14.0
     },
     {
-      "year": 2023,
-      "netWorth": 3.2
-    },
-    {
-      "year": 2024,
-      "netWorth": 13.0
+      "year": 2022,
+      "amount": 16.5
     },
     {
       "year": 2025,
-      "netWorth": 15.1
+      "amount": 15.9
     }
   ],
   "quotes": [],
-  "books": {
-    "authored": [],
-    "recommended": []
-  },
-  "personalTraits": {
-    "knownFor": "Transformed a washing machine motor factory into the world's largest optical transceiver company; one of the fastest wealth increases among global billionaires as AI demand drove optical communications growth; strategic acquisition of Innolight Technology proved visionary",
-    "knownForKo": "세탁기 모터 공장을 세계 최대 광 트랜시버 회사로 변환시킴; AI 수요가 광통신 성장을 이끌면서 글로벌 억만장자 중 가장 빠른 자산 증가 중 하나를 기록; 이노라이트 테크놀로지의 전략적 인수가 선견지명으로 판명",
-    "philanthropy": "Details of philanthropic activities are not widely documented in English-language sources.",
-    "philanthropyKo": "자선 활동에 대한 세부 사항은 영어권 자료에서 널리 기록되어 있지 않다.",
-    "controversies": "The extreme volatility of his wealth — rising 400% in a single year — has raised questions about the sustainability of the AI-driven valuation boom. Some analysts question whether optical transceiver demand will sustain current levels.",
-    "controversiesKo": "1년 만에 400% 급등한 극단적인 자산 변동성은 AI 기반 가치 평가 붐의 지속가능성에 대한 의문을 제기했다. 일부 분석가들은 광 트랜시버 수요가 현재 수준을 유지할 수 있을지 의문을 제기한다."
-  },
+  "books": [],
   "sajuConnection": null
 }

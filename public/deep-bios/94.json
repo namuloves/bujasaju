@@ -1,156 +1,242 @@
 {
   "id": "94",
-  "name": "Gina Rinehart",
+  "name": "Phil Knight",
   "childhood": {
-    "birthPlace": "Perth, Western Australia",
-    "birthPlaceKo": "호주 서부 퍼스",
-    "familyBackground": "Only child of Lang Hancock, Australia's iron ore magnate; mother Hope Margaret Nicholas; family wealth built on mining exploration; raised in mining family culture",
-    "familyBackgroundKo": "호주의 철광석 재벌 랑 행콕의 외동딸; 모친 호프 마가렛 니콜라스; 광업 탐사로 축적된 가족 자산; 광업 가족 문화 속에서 양육됨",
-    "education": "Spent early childhood between Pilbara properties (sheep and cattle stations) and boarding school; attended St Hilda's Anglican School for Girls in Perth from age 8; briefly studied at University of Sydney before dropping out to work with father at Hancock Prospecting",
-    "educationKo": "어린 시절을 필바라 부동산(양과 소 목장)과 기숙학교 사이에서 보냄; 8세부터 퍼스의 세인트 힐다 여자 성공회학교 입학; 아버지와 함께 행콕 탐광 회사에서 일하기 위해 중퇴하기 전에 시드니 대학교에서 짧게 공부",
-    "earlyLife": "Developed strong work ethic and mining industry knowledge from early exposure to father's business; learned business fundamentals during formative years; prepared for leadership role from childhood",
-    "earlyLifeKo": "아버지의 사업에 조기 노출을 통해 강한 일 정신과 광업 산업 지식 발달; 형성기 동안 비즈니스 기초 습득; 어린 시절부터 리더십 역할에 대한 준비"
+    "birthPlace": "Portland, Oregon",
+    "birthPlaceKo": "오리건주 포틀랜드",
+    "familyBackground": "Son of Bill Knight (lawyer turned newspaper publisher) and Lota Cloy Hatfield. Raised in Eastmoreland neighborhood with emphasis on self-reliance; father refused to give summer jobs, encouraging independence",
+    "familyBackgroundKo": "변호사에서 신문사 발행인으로 전환한 빌 나이트와 로타 클로이 해필드의 아들. 자립심을 강조하는 이스트몰랜드 지역에서 양육됨. 아버지는 여름 방학 일자리를 제공하지 않아 독립심 발달을 장려",
+    "education": "Cleveland High School in Portland; University of Oregon (1955-1959, business degree); Stanford University Graduate School of Business (1959-1962)",
+    "educationKo": "포틀랜드 클리블랜드 고등학교; 오리건대학교(1955-1959, 경영학 학위); 스탠퍼드대학교 경영대학원(1959-1962)",
+    "earlyLife": "Ran middle-distance on University of Oregon track team under legendary coach Bill Bowerman. Worked night shift at Oregonian newspaper tabulating sports scores, running 7 miles home each morning. Largely uninterested in academics initially but found passion for entrepreneurship at Stanford",
+    "earlyLifeKo": "전설적인 코치 빌 보우어만 지휘 아래 오리건대학교 육상팀에서 중거리 선수로 뛰었음. 오리건신문사의 야간 근무에서 스포츠 점수를 집계했고 매일 아침 7마일을 달려 집으로 귀가. 처음에는 학업에 별 관심이 없었으나 스탠퍼드에서 기업가 정신에 열정을 발견",
+    "source": "Wikipedia, Britannica, Reference for Business"
   },
   "careerTimeline": [
     {
-      "year": 1992,
-      "event": "Inherited Hancock Prospecting when father Lang Hancock died; became Executive Chairwoman at age 38",
-      "eventKo": "아버지 랑 행콕이 사망했을 때 행콕 탐광을 상속받음; 38세에 회장이 됨"
+      "year": 1959,
+      "event": "Graduated from University of Oregon with business degree; spent one year in U.S. Army",
+      "eventKo": "오리건대학교에서 경영학 학위로 졸업; 미군에서 1년 복무"
     },
     {
-      "year": 1993,
-      "event": "Secured Roy Hill tenements five months after father's death; recognized the vast potential of China market early",
-      "eventKo": "아버지 사망 후 5개월 후 로이 힐 채광지를 확보; 중국 시장의 거대한 잠재력을 조기에 인식"
+      "year": 1962,
+      "event": "Graduated from Stanford Business School; traveled to Japan and made deal to distribute Onitsuka Tiger shoes in the United States",
+      "eventKo": "스탠퍼드 경영대학원 졸업; 일본 여행 후 오니츠카 타이거 운동화를 미국에서 판매할 수 있는 계약 체결"
     },
     {
-      "year": 1998,
-      "event": "Transformed Hancock Prospecting from struggling company with mortgaged assets into profitable operation through persistence and strategic planning",
-      "eventKo": "끈기와 전략적 계획을 통해 행콕 탐광을 담보된 자산을 가진 부실 회사에서 수익성 있는 회사로 변환"
+      "year": 1964,
+      "event": "Founded Blue Ribbon Sports (BRS) on January 25 with Bill Bowerman by handshake agreement; began selling Onitsuka Tiger shoes from the back of his car at regional track meets",
+      "eventKo": "1월 25일 빌 보우어만과 악수로 블루리본 스포츠(BRS) 설립; 지역 육상 경기에서 자신의 차량 뒷좌석에서 오니츠카 타이거 신발 판매 시작"
     },
     {
-      "year": 2003,
-      "event": "Opened Vinpearl Resort Nha Trang in Vietnam, beginning major tourism and resort development ventures",
-      "eventKo": "베트남의 빈펄 리조트 냐짱 개장, 주요 관광 및 리조트 개발 사업 시작"
+      "year": 1969,
+      "event": "Blue Ribbon Sports recorded $1 million in annual sales; Knight left other jobs to focus full-time on the company",
+      "eventKo": "블루리본 스포츠의 연간 매출이 100만 달러 기록; 나이트가 다른 일을 그만두고 회사에 전념"
     },
     {
-      "year": 2010,
-      "event": "Advanced Roy Hill project through various development stages; maintained focus on iron ore mining and resource development",
-      "eventKo": "다양한 개발 단계를 거쳐 로이 힐 프로젝트 진행; 철광석 광업 및 자원 개발에 초점 유지"
+      "year": 1971,
+      "event": "Following split with Onitsuka, Blue Ribbon Sports was renamed Nike in honor of the Greek goddess of victory",
+      "eventKo": "오니츠카와의 관계 종료 후 블루리본 스포츠를 그리스 승리의 여신 나이키의 이름으로 개명"
+    },
+    {
+      "year": 1980,
+      "event": "Nike went public on December 2, selling 2,377,000 shares of Class B common stock at $22 per share",
+      "eventKo": "12월 2일 나이키 상장, B종 우선주 237만 7천주를 주당 22달러에 판매"
+    },
+    {
+      "year": 1984,
+      "event": "Phil Knight and Nike signed basketball star Michael Jordan, creating the Air Jordan line—one of the most successful athlete endorsements in history",
+      "eventKo": "농구 스타 마이클 조던과 계약 체결, 에어 조던 라인 출시 - 역사상 가장 성공한 선수 스폰서십 중 하나"
+    },
+    {
+      "year": 2004,
+      "event": "Resigned as Nike CEO on November 18 after 40 years of leadership; retained position of Chairman of the Board",
+      "eventKo": "11월 18일 40년간의 경영 후 나이키 CEO에서 사임; 회장 직책 유지"
     },
     {
       "year": 2015,
-      "event": "Planned to open Roy Hill mine after securing A$7.9 billion in funding; achieved fastest construction start-up of any major greenfields project in northern Australia",
-      "eventKo": "A$79억의 자금 확보 후 로이 힐 광산 개장 계획; 호주 북부 모든 주요 그린필드 프로젝트 중 가장 빠른 건설 시작 달성"
+      "event": "Announced plans to step down as Chairman; retirement from Nike board took effect at end of June 2016",
+      "eventKo": "회장직 사임 계획 발표; 2016년 6월 말 나이키 이사회 퇴임 발효"
     },
     {
-      "year": 2012,
-      "event": "Iron ore prices collapsed 70% since mine construction began in 2011; navigated severe market downturn while maintaining project momentum",
-      "eventKo": "2011년 광산 건설 시작 이후 철광석 가격이 70% 하락; 프로젝트 추진력을 유지하면서 심각한 시장 침체 극복"
+      "year": 2016,
+      "event": "Published memoir 'Shoe Dog' on April 26, chronicling Nike's history and founding story",
+      "eventKo": "4월 26일 나이키의 역사와 창업 이야기를 담은 자서전 '슈독' 출간"
     },
     {
-      "year": 2024,
-      "event": "Hancock Prospecting remains Australia's largest privately owned mining and agricultural company under her leadership",
-      "eventKo": "행콕 탐광은 그녀의 리더십 하에 호주 최대 규모의 민간 소유 광업 및 농업 회사로 남아있음"
+      "year": 2025,
+      "event": "Became top charitable donor of 2025 according to The Chronicle of Philanthropy with record $2 billion donation",
+      "eventKo": "자선활동 주간지의 2025년 최고 기부자로 선정, 기록적인 20억 달러 기부"
     }
   ],
   "failures": [
     {
-      "year": 2011,
-      "description": "Family trust dispute triggered when Rinehart claimed children would face bankruptcy from capital gains taxes; three eldest children sued to remove her as trustee",
-      "descriptionKo": "린하르트가 자녀들이 양도소득세로 파산할 것이라고 주장했을 때 가족 신탁 분쟁 발생; 세 자녀가 그녀를 신탁관리자에서 제거하기 위해 소송 제기",
-      "lesson": "Mixing family governance with corporate control can create toxic conflicts. Transparency and professional trustee management are essential when significant wealth is at stake across generations.",
-      "lessonKo": "가족 지배구조와 기업 경영을 혼합하면 독성 분쟁을 일으킬 수 있다. 세대에 걸쳐 상당한 부가 걸려 있을 때 투명성과 전문적인 신탁관리가 필수적이다."
+      "year": 1970,
+      "description": "Onitsuka Legal Battle and Supply Dispute: Japanese manufacturer Onitsuka sued Knight's Blue Ribbon Sports for breach of contract, resulting in lawsuits on two fronts (Japan and U.S.), threatening to destroy the young company",
+      "descriptionKo": "오니츠카 법적 분쟁 및 공급 갈등: 일본 제조업체 오니츠카가 나이트의 블루리본 스포츠를 계약 위반으로 고소, 양국(일본과 미국)에서 소송 진행으로 젊은 회사를 위협",
+      "lesson": "Forced Knight to develop proprietary Nike brand instead of relying on distributor model; transformed potential company-killer into catalyst for independent innovation and brand identity",
+      "lessonKo": "나이트가 유통 모델 대신 독점적 나이키 브랜드 개발을 강요받음; 회사 존립의 위기를 독립적 혁신과 브랜드 정체성의 촉매제로 변환"
     },
     {
-      "year": 2013,
-      "description": "Lost trustee position in court battle; justice found her tactics bordered on intimidation; appointed Bianca Rinehart as new trustee in 2015",
-      "descriptionKo": "법원 소송에서 신탁관리자 지위 상실; 판사가 그녀의 전술이 협박에 근처했다고 판결; 2015년 비앙카 린하르트를 새로운 신탁관리자로 임명",
-      "lesson": "Aggressive legal tactics against family members can backfire in court and public opinion. The ruling demonstrated that wealth and power cannot override judicial standards of fair dealing.",
-      "lessonKo": "가족 구성원에 대한 공격적인 법적 전술은 법정과 여론에서 역효과를 낳을 수 있다. 이 판결은 부와 권력이 공정한 거래의 사법적 기준을 무시할 수 없음을 보여주었다."
+      "year": 1973,
+      "description": "Near Bankruptcy Crisis: Knight was $50,000 in debt and facing potential bankruptcy; rejected by two major Oregon banks who deemed the company too leveraged with insufficient assets",
+      "descriptionKo": "거의 파산 위기: 나이트는 5만 달러의 채무와 부도 위험에 직면; 오리건 주의 두 대형 은행이 회사의 레버리지가 과다하고 자산이 부족하다며 거절",
+      "lesson": "Persistence through financial crisis became defining characteristic; learned importance of bootstrapping and self-reliance; demonstrated that capital constraints can drive creative problem-solving",
+      "lessonKo": "재정 위기를 극복하려는 끈기가 나이트의 정의적 특징이 됨; 부트스트래핑과 자립의 중요성 학습; 자본 제약이 창의적 문제 해결을 유도할 수 있음을 입증"
     },
     {
-      "year": 2011,
-      "description": "Roy Hill project faced massive delays from government approvals requiring over 4,000 permits, licenses, and environmental assessments; lost proposed port and rail access",
-      "descriptionKo": "로이 힐 프로젝트가 4,000개 이상의 허가, 라이선스, 환경 평가가 필요한 정부 승인에서 대규모 지연 직면; 제안된 항구 및 철도 접근 상실",
-      "lesson": "Major mining infrastructure projects require navigating complex regulatory environments. Persistence through bureaucratic obstacles and willingness to adapt plans are essential for mega-project completion.",
-      "lessonKo": "대형 광업 인프라 프로젝트는 복잡한 규제 환경을 탐색해야 한다. 관료적 장애물을 통한 인내와 계획 수정 의지가 대규모 프로젝트 완수에 필수적이다."
+      "year": 1990,
+      "description": "Labor and Supply Chain Crisis: Nike faced major backlash for inadequate working conditions in overseas factories; resulted in negative media coverage and consumer protests regarding manufacturing standards",
+      "descriptionKo": "노동 및 공급망 위기: 나이키가 해외 공장의 열악한 근무 조건으로 인해 큰 반발에 직면; 제조 기준에 관한 언론의 부정적 보도와 소비자 시위 야기",
+      "lesson": "Learned critical importance of supply chain oversight and corporate responsibility; led to eventual reforms in labor practices and greater attention to ethical manufacturing standards",
+      "lessonKo": "공급망 감시와 기업 책임의 중요성을 깨달음; 노동 관행의 개혁과 윤리적 제조 기준에 대한 주의 증대로 이어짐"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2012,
-      "netWorth": 16
+      "year": 1980,
+      "netWorth": 0.1
+    },
+    {
+      "year": 1992,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2000,
+      "netWorth": 5
+    },
+    {
+      "year": 2010,
+      "netWorth": 12
     },
     {
       "year": 2015,
-      "netWorth": 12.3
+      "netWorth": 24
     },
     {
-      "year": 2019,
-      "netWorth": 14.8
+      "year": 2020,
+      "netWorth": 32
     },
     {
-      "year": 2024,
-      "netWorth": 30.8
+      "year": 2021,
+      "netWorth": 49.9
+    },
+    {
+      "year": 2023,
+      "netWorth": 36.8
     },
     {
       "year": 2025,
-      "netWorth": 24.7
+      "netWorth": 35.4
     }
   ],
   "quotes": [
     {
-      "text": "There is no monopoly on becoming a millionaire. Hard work, not luck, is the foundation of success.",
-      "textKo": "백만장자가 되는 데 독점권은 없습니다. 행운이 아니라 열심히 일하는 것이 성공의 기초입니다.",
-      "context": "On wealth creation and personal success",
-      "contextKo": "부의 창출과 개인적 성공에 대해"
+      "text": "I'd tell men and women in their midtwenties not to settle for a job or a profession or even a career. Seek a calling. Even if you don't know what that means, seek it. If you're following your calling, the fatigue will be easier to bear, the disappointments will be fuel, the highs will be like nothing you've ever felt.",
+      "textKo": "20대 중반의 남녀에게 일자리나 전문직, 또는 경력으로 만족하지 말라고 조언합니다. 소명을 추구하세요. 그것이 무엇인지 알지 못해도 추구하세요. 자신의 소명을 따를 때, 피로는 견디기 쉬워지고, 실망은 연료가 되며, 기쁨은 당신이 느껴본 적 없는 것이 될 것입니다.",
+      "context": "Advice to young people about purpose and passion in their work",
+      "contextKo": "일의 목적과 열정에 관한 젊은 세대에 대한 조언"
     },
     {
-      "text": "Spend less time drinking, smoking and socializing, and more time working if you want to make money for yourself.",
-      "textKo": "자신을 위해 돈을 벌고 싶다면 술 마시고, 담배를 피우고, 사교하는 데 적게 시간을 쓰고 더 많이 일하세요.",
-      "context": "On work ethic and time management for financial success",
-      "contextKo": "재정적 성공을 위한 일 윤리와 시간 관리에 대해"
+      "text": "Beating the competition is relatively easy. Beating yourself is a never-ending commitment.",
+      "textKo": "경쟁을 이기는 것은 상대적으로 쉽습니다. 자신을 이기는 것은 끊임없는 약속입니다.",
+      "context": "On personal excellence and self-mastery",
+      "contextKo": "개인적 우수성과 자기 통제에 관하여"
     },
     {
-      "text": "It is only through persistence, hard work, long hours, risk and very loyal supporters that we transformed Hancock Prospecting into the successful mining and agricultural business it is today.",
-      "textKo": "끈기, 열심히 일하기, 긴 시간, 위험 감수, 그리고 매우 충성스러운 지지자들을 통해서만 우리는 행콕 탐광을 오늘날의 성공적인 광업 및 농업 회사로 변환할 수 있었습니다.",
-      "context": "On building business success despite obstacles",
-      "contextKo": "장애물에도 불구하고 비즈니스 성공을 구축하는 것에 대해"
+      "text": "So that morning in 1962 I told myself: Let everyone else call your idea crazy... just keep going. Don't stop. Don't even think about stopping until you get there, and don't give much thought to where 'there' is.",
+      "textKo": "그래서 1962년 그 아침 나는 스스로에게 말했습니다: 다른 누구나 당신의 아이디어가 미쳤다고 말하게 하세요... 계속 가세요. 멈추지 마세요. 그곳에 도착할 때까지 멈추는 것을 생각도 하지 마세요. 그리고 '그곳'이 어디인지에 대해 많이 생각하지 마세요.",
+      "context": "On perseverance during early business struggles",
+      "contextKo": "초기 사업 투쟁 중 끝기력에 관하여"
+    },
+    {
+      "text": "For some, I realize, business is the all-out pursuit of profits, period, full stop, but for us business was no more about making money than being human is about making blood.",
+      "textKo": "어떤 사람들에게는 사업이 철저히 이윤을 추구하는 것이라는 것을 깨닫지만, 우리에게 사업은 인간이 혈액을 만드는 것만큼 돈을 버는 것과 무관했습니다.",
+      "context": "On business purpose beyond pure profit maximization",
+      "contextKo": "순수 이윤 극대화를 넘어선 사업의 목적에 관하여"
+    },
+    {
+      "text": "Because, I realized, it wasn't selling. I believed in running. I believed that if people got out and ran a few miles every day, the world would be a better place, and I believed these shoes were better to run in. People, sensing my belief, wanted some of that belief for themselves.",
+      "textKo": "왜냐하면, 나는 깨달았습니다, 그것은 판매가 아니었습니다. 나는 달리기를 믿었습니다. 사람들이 매일 몇 마일을 달려 나가면 세상이 더 좋은 곳이 될 것이고, 이 신발이 더 잘 달릴 수 있다고 믿었습니다. 사람들은 나의 믿음을 감지하고 그 믿음의 일부를 원했습니다.",
+      "context": "On authentic conviction and belief driving sales success",
+      "contextKo": "진정한 신념과 믿음이 판매 성공을 이끄는 것에 관하여"
     }
   ],
   "books": {
-    "authored": [],
+    "authored": [
+      {
+        "title": "Shoe Dog: A Memoir by the Creator of Nike",
+        "note": "Published in 2016; bestselling memoir chronicling Nike's founding and growth from 1962-1980s; won numerous awards and became business classic",
+        "noteKo": "2016년 출판; 나이키의 창립과 1962년부터 1980년대까지의 성장을 기록한 베스트셀러 자서전; 다수의 상을 수상했고 경영학 고전이 됨"
+      },
+      {
+        "title": "Shoe Dog: Young Readers Edition",
+        "note": "Adapted version of memoir designed for younger audiences; published after original memoir's success",
+        "noteKo": "원본 자서전의 성공 이후 젊은 독자층을 위해 개작한 버전; 출간됨"
+      }
+    ],
     "recommended": [
       {
-        "title": "Iron Ore Markets and Mining Economics",
-        "author": "Industry economists and mining experts",
-        "why": "Essential for understanding Rinehart's strategic focus on iron ore mining",
-        "whyKo": "린하르트의 철광석 광업에 대한 전략적 초점을 이해하기 위해 필수"
+        "title": "Competing Against Luck: The Story of How Innovation and Customer Choice Created Apple, Starbucks, and Netflix",
+        "author": "Clayton M. Christensen",
+        "why": "Knight was influenced by innovation frameworks and customer-centric thinking similar to Christensen's theories on disruption",
+        "whyKo": "나이트는 크리스텐센의 파괴적 혁신 이론과 유사한 혁신 프레임워크와 고객 중심적 사고의 영향을 받음"
       },
       {
-        "title": "Women Leaders in Mining and Resources",
-        "author": "Industry historians and business scholars",
-        "why": "Contextualizes Rinehart's pioneering role as Australia's leading female mining magnate",
-        "whyKo": "호주의 선도적인 여성 광업 재벌로서 린하르트의 개척자 역할을 맥락화"
+        "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
+        "author": "Walter Isaacson",
+        "why": "Aligns with Knight's focus on innovation and creative problem-solving in business; explores entrepreneurial mindset",
+        "whyKo": "나이트의 사업 혁신과 창의적 문제 해결에 대한 초점과 부합; 기업가 정신 탐구"
       },
       {
-        "title": "Australian Mining Operations and Development",
-        "author": "Mining geologists and engineers",
-        "why": "Provides technical context for Roy Hill and major mining projects",
-        "whyKo": "로이 힐 및 주요 광산 프로젝트에 대한 기술적 맥락 제공"
+        "title": "Leaders Eat Last: Why Some Teams Pull Together and Others Don't",
+        "author": "Simon Sinek",
+        "why": "Reflects Knight's philosophy of servant leadership and building teams that trust and follow vision",
+        "whyKo": "나이트의 섬김의 리더십 철학과 신뢰하고 비전을 따르는 팀을 구축하는 것을 반영"
+      },
+      {
+        "title": "Outliers: The Story of Success",
+        "author": "Malcolm Gladwell",
+        "why": "Examines how success is shaped by cultural, family, and historical factors—themes central to Knight's autobiography",
+        "whyKo": "성공이 문화, 가족, 역사적 요소로 어떻게 형성되는지 살펴봄 - 나이트의 자서전의 중심 주제"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Australia's richest person; mining magnate and Executive Chairman of Hancock Prospecting; visionary leader in iron ore mining; tough negotiator; pioneering businesswoman",
-    "knownForKo": "호주의 가장 부유한 인물; 광업 재벌 및 행콕 탐광의 회장; 철광석 광업의 선견지명 있는 리더; 강한 협상가; 개척자 기업가",
-    "philanthropy": "Supports education through various charitable initiatives; involved in agricultural and rural development; lesser known for public charitable foundations compared to peer billionaires",
-    "philanthropyKo": "다양한 자선 활동을 통한 교육 지원; 농업 및 농촌 개발 참여; 동료 억만장자와 비교했을 때 공개 자선 재단으로는 덜 알려짐",
-    "controversies": "Bitter family trust dispute with children (2011-2015); political advocacy on taxation and government regulation; controversial public statements on work ethic and income disparity; media scrutiny over mining practices and environmental concerns",
-    "controversiesKo": "자녀와의 심각한 가족 신탁 분쟁(2011-2015); 세금 및 정부 규제에 대한 정치적 옹호; 일 윤리와 소득 격차에 대한 논란이 되는 공개 발언; 광업 관행 및 환경 문제에 대한 언론 감시"
+    "knownFor": "Visionary leadership that transformed Nike from small distributor into global sports empire; belief in brand beyond product; relentless pursuit of athletic innovation; hands-off management style that empowered teams; deep connection to running and athletics; memoir author and storyteller",
+    "knownForKo": "작은 유통업체인 나이키를 글로벌 스포츠 제국으로 변환한 비전 있는 리더십; 제품을 넘어선 브랜드에 대한 믿음; 운동 혁신의 끈질긴 추구; 팀에 권한을 부여하는 실행 중심의 경영 스타일; 달리기와 운동에 대한 깊은 연결; 자서전 저자이자 이야기꾼",
+    "philanthropy": "Donated over $3.6 billion with wife Penny to various causes; pledged $400 million in 2023 to revitalize Portland's historically Black Albina neighborhood; became top charitable donor of 2025 with $2 billion donation; focused on education, urban development, and sports",
+    "philanthropyKo": "아내 페니와 함께 다양한 사업에 36억 달러 이상 기부; 2023년 포틀랜드의 역사적 흑인 지역인 알비나 지역 활성화를 위해 4억 달러 약속; 2025년 20억 달러 기부로 최고 자선 기부자가 됨; 교육, 도시 개발, 스포츠에 중점",
+    "controversies": "Nike faced labor practice controversies regarding factory conditions in developing countries, particularly in the 1990s-2000s, with criticism of wages, working hours, and worker safety standards. Knight and Nike were at the center of debates over corporate responsibility in global supply chains. Additionally, Knight received criticism for his support of conservative political causes and environmental policies.",
+    "controversiesKo": "나이키는 개발도상국의 공장 환경, 특히 1990년대-2000년대에 관해 노동 관행 논란에 직면했으며, 임금, 근무 시간, 근로자 안전 기준에 대한 비판을 받았음. 나이트와 나이키는 글로벌 공급망에서의 기업 책임 논쟁의 중심에 있었음. 또한 나이트는 보수 정치 운동 및 환경 정책 지원에 대한 비판을 받음."
+  },
+  "additionalInsights": {
+    "pivotalMentors": [
+      {
+        "name": "Bill Bowerman",
+        "relationship": "Track coach at University of Oregon; later co-founder and equal partner in Blue Ribbon Sports/Nike",
+        "influence": "Taught Knight discipline, innovation, and athlete-centric design philosophy; introduced waffle-sole innovation; partnership created balanced visionary-innovator dynamic that built Nike"
+      },
+      {
+        "name": "Bill Knight (Father)",
+        "relationship": "Lawyer and newspaper publisher; Knight's father",
+        "influence": "Instilled values of independence, self-reliance, and work ethic by refusing to provide summer employment; encouraged son to find own path; regular evening discussions shaped strategic thinking"
+      }
+    ],
+    "dailyRoutine": "Woke before 6 a.m. to start day with discipline; ran 6 miles every evening regardless of weather; spent mornings attending to business and strategic decisions; afternoons managed company operations; evenings devoted to family dinners, phone calls with father discussing Nike strategy, and writing on yellow legal pads with lists and ideas; read extensively on business, history, and philosophy; maintained structured schedule emphasizing discipline and consistency",
+    "keyAnecdotes": [
+      "As freshman at University of Oregon, frustrated by inability to break 4-minute mile, pivoted away from running career to pursue business instead",
+      "Sold Onitsuka Tiger shoes from back of car at regional track meets before establishing retail presence; worked other jobs while building business",
+      "Bill Bowerman borrowed Knight's wife Penny's waffle iron, and after ruining first one, purchased another and used it to innovate the waffle-sole running shoe design",
+      "Stanford paper proposing Japanese shoe dominance of American market became actual business plan; Knight took theoretical concept and executed it into Nike",
+      "When rejected by Oregon banks during $50,000 debt crisis, persisted without institutional backing through creative bootstrapping",
+      "Met wife Penny while lecturing on finance at local college; family became centerpiece of daily routine and decision-making"
+    ],
+    "turningPoint": "Graduating from Stanford Business School in 1962 and traveling to Japan where he discovered Onitsuka Tiger shoes and recognized opportunity for disruptive American distribution model. Decision to actually implement his Stanford business school thesis about Japanese shoe market dominance rather than abandon it transformed Knight from business student to entrepreneur. The subsequent forced split with Onitsuka in 1971 and resultant creation of Nike brand transformed Blue Ribbon Sports from distributor into world-changing company with proprietary brand identity and innovation engine.",
+    "managementStyle": "Hands-off empowerment philosophy: hired skilled, passionate individuals aligned with Nike values and gave them autonomy; communicated vision and objectives clearly but never dictated how to achieve them ('Don't tell people how to do things. Tell them what to do and watch them surprise you'); believed in delegating responsibility and allowing teams to make mistakes and learn; avoided micromanagement; fostered culture of innovation, experimentation, and challenging status quo; emphasized competitive mindset and aggressive initiative in leadership; built teams around shared values and culture rather than rigid hierarchy; balanced visionary guidance with individual freedom to execute"
   },
   "sajuConnection": {
-    "note": null,
+    "note": "Leave null.",
     "value": null
   }
 }

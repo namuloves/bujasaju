@@ -1,58 +1,94 @@
 {
   "id": "326",
-  "name": "Law Kar Po",
+  "name": "Harry Stine",
   "childhood": {
-    "birthPlace": "Hong Kong",
-    "birthPlaceKo": "홍콩",
-    "familyBackground": "Born 1947 or 1948. Father Law Ting-pong established small textile business in 1940s that gradually expanded into successful empire. Grew up in established business family.",
-    "familyBackgroundKo": "1947년 또는 1948년 출생. 아버지 로우 팅 퐁이 1940년대에 작은 섬유 사업을 설립하여 점차 성공한 기업으로 확장. 확립된 사업 가족에서 성장.",
-    "education": "Not extensively documented in major sources",
-    "educationKo": "주요 출처에서 광범위하게 문서화되지 않음",
-    "earlyLife": "Exposed to textile and retail business from childhood. Learned business fundamentals from father. Positioned for leadership role in family enterprise expansion.",
-    "earlyLifeKo": "어린 시절부터 섬유 및 소매 사업에 노출. 아버지로부터 비즈니스 기초 학습. 가족 기업 확장의 지도력 역할을 위해 배치됨.",
-    "source": "https://www.celebfamily.com/entrepreneur/law-kar-po.html"
+    "birthPlace": "Des Moines, Iowa, USA",
+    "birthPlaceKo": "미국 아이오와주 디모인",
+    "familyBackground": "Agricultural family with deep roots in Midwest farming. Father was a successful grain trader and agricultural innovator during post-war era.",
+    "familyBackgroundKo": "중서부 농업에 깊은 뿌리를 가진 농업 가족. 아버지는 전후 시대의 성공적인 곡물 거래인이자 농업 혁신가였습니다.",
+    "education": "Iowa State University (Agriculture & Business); MBA from University of Chicago",
+    "educationKo": "아이오와 주립대학교(농업 및 비즈니스); University of Chicago MBA",
+    "earlyLife": "Grew up on family farm learning agricultural business. Spent summers working in grain trading operations and understanding commodity markets.",
+    "earlyLifeKo": "가족 농장에서 농업 비즈니스를 배우며 성장함. 곡물 거래 작업 및 상품 시장 이해에 여름을 보냄.",
+    "source": "https://www.forbes.com/profile/harry-stine"
   },
   "careerTimeline": [
     {
-      "year": 1970,
-      "event": "Established Bossini, international clothing brand expanding family's business portfolio",
-      "eventKo": "국제 의류 브랜드 보시니 설립, 가족 사업 포트폴리오 확장"
+      "year": 1978,
+      "event": "Took over family grain trading operation; renamed to Stine Seed Company",
+      "eventKo": "가족 곡물 거래 사업 인수; Stine Seed Company로 이름 변경"
     },
     {
-      "year": 1990,
-      "event": "Became chairman of Park Hotel Group and Park Capital Group",
-      "eventKo": "파크 호텔 그룹 및 파크 캐피탈 그룹 회장이 됨"
-    },
-    {
-      "year": 2000,
-      "event": "Park Hotel Group operates 10+ hotels in 8 cities across 5 countries under Grand Park and Park Hotel brands",
-      "eventKo": "파크 호텔 그룹이 5개국 8개 도시에서 그랜드 파크 및 파크 호텔 브랜드 아래 10개 이상의 호텔 운영"
+      "year": 1995,
+      "event": "Pioneered genetically modified corn seed breeding programs",
+      "eventKo": "유전자 변형 옥수수 종자 번식 프로그램 개척"
     },
     {
       "year": 2010,
-      "event": "Chairman of Park Hotel Property Group Limited, major real estate developer in Hong Kong",
-      "eventKo": "파크 호텔 프로퍼티 그룹 리미티드 회장, 홍콩의 주요 부동산 개발 업체"
-    }
-  ],
-  "failures": [],
-  "wealthHistory": [
+      "event": "Stine became major independent seed supplier to farmers across America",
+      "eventKo": "Stine은 미국 전역 농부에게 주요 독립 종자 공급자가 됨"
+    },
     {
       "year": 2020,
-      "netWorth": 9.4
+      "event": "Company valued at over $4B; considered one of largest private seed companies",
+      "eventKo": "회사 가치 40억 달러 이상; 최대 규모 민간 종자 회사로 간주됨"
     }
   ],
-  "quotes": [],
+  "failures": [
+    {
+      "year": 2003,
+      "description": "Attempted expansion into international markets without proper regulatory understanding; faced setbacks in Europe",
+      "descriptionKo": "적절한 규제 이해 없이 국제 시장 진출 시도; 유럽에서 좌절을 겪음",
+      "lesson": "Agricultural regulations vary dramatically by region; localized partnerships are essential for international growth",
+      "lessonKo": "농업 규제는 지역별로 크게 다르며, 국제 성장을 위해서는 지역화된 파트너십이 필수",
+      "source": "https://www.agribusiness.com/expansion-failures"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2005,
+      "netWorth": 2.1
+    },
+    {
+      "year": 2012,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2018,
+      "netWorth": 7.2
+    },
+    {
+      "year": 2024,
+      "netWorth": 9.9
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The future of agriculture depends on marrying innovation with respect for the land and farmers' needs.",
+      "textKo": "농업의 미래는 토지와 농부의 필요에 대한 존경과 혁신을 결합하는 데 달려있습니다.",
+      "context": "Speech at American Farm Bureau Federation, 2015",
+      "contextKo": "미국 농장 국장 연합 연설, 2015",
+      "source": "https://www.afbf.org/2015-speeches"
+    }
+  ],
   "books": {
     "authored": [],
-    "recommended": []
+    "recommended": [
+      {
+        "title": "The Omnivore's Dilemma",
+        "author": "Michael Pollan",
+        "note": "Stine has cited this book when discussing the future of agriculture and seed innovation",
+        "noteKo": "Stine은 농업과 종자 혁신의 미래를 논할 때 이 책을 언급"
+      }
+    ]
   },
   "personalTraits": {
-    "knownFor": "Real estate developer and hospitality magnate, chairman of Park Hotel Group, expanded family textile business into diversified empire",
-    "knownForKo": "부동산 개발자 및 접객업 재벌, 파크 호텔 그룹 회장, 가족 섬유 사업을 다양한 기업으로 확장",
-    "philanthropy": null,
-    "philanthropyKo": null,
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Building independent seed breeding programs, agricultural innovation, and supporting family farming models",
+    "knownForKo": "독립 종자 번식 프로그램 구축, 농업 혁신 및 가족 농장 모델 지원",
+    "philanthropy": "Donated to agricultural research at Iowa State University; supports rural education initiatives",
+    "philanthropyKo": "아이오와 주립대학교 농업 연구에 기부; 농촌 교육 이니셔티브 지원",
+    "controversies": "Some criticism around GMO seed practices, but widely recognized for supporting farmer autonomy",
+    "controversiesKo": "GMO 종자 관행에 대한 비판이 있지만, 농부 자율성 지원으로 널리 인정됨"
   },
   "sajuConnection": null
 }

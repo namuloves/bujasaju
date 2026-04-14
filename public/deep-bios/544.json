@@ -1,85 +1,90 @@
 {
   "id": "544",
-  "name": "Matthew Prince",
+  "name": "Ty Warner",
   "childhood": {
-    "birthPlace": "Los Angeles, California, USA",
-    "birthPlaceKo": "미국 캘리포니아주 로스앤젤레스",
-    "familyBackground": "Prince grew up in California in a middle-class family. His parents valued education and technology.",
-    "familyBackgroundKo": "프린스는 캘리포니아에서 중산층 가족에서 성장했다.",
-    "education": "University of Chicago; University of Chicago Law School",
-    "educationKo": "시카고 대학교; 시카고 대학교 로스쿨",
-    "earlyLife": "Prince co-founded Cloudflare, a major internet security and performance company. He became a leading figure in web infrastructure and cybersecurity.",
-    "earlyLifeKo": "프린스는 주요 인터넷 보안 및 성능 회사인 Cloudflare를 공동 창립했다.",
-    "source": "https://www.forbes.com/billionaires"
+    "birthPlace": "Chicago, Illinois, United States",
+    "birthPlaceKo": "일리노이주 시카고, 미국",
+    "familyBackground": "Born into middle-class family; father was furniture salesman, mother was homemaker.",
+    "familyBackgroundKo": "중산층 가족에서 태어났습니다. 아버지는 가구 판매원, 어머니는 가정주부였습니다.",
+    "education": "Attended high school in Chicago; no college degree; learned business through experience",
+    "educationKo": "시카고 고등학교에 다녔습니다. 대학 학위가 없습니다. 경험을 통해 비즈니스를 배웠습니다",
+    "earlyLife": "Showed early creativity and business instincts. Started toy design experiments as teenager.",
+    "earlyLifeKo": "초기에 창의성과 비즈니스 본능을 보였습니다. 십대 때 장난감 디자인 실험을 시작했습니다.",
+    "source": null
   },
   "careerTimeline": [
     {
-      "year": 2009,
-      "event": "Co-founded Cloudflare with Michelle Zatlyn and Lee Holloway",
-      "eventKo": "미셀 자틀린, 리 홀로웨이와 함께 Cloudflare 공동 창립"
+      "year": 1983,
+      "event": "Founded Ty Inc. and created plush toy designs",
+      "eventKo": "Ty Inc. 설립 및 플러시 장난감 디자인 생성"
     },
     {
-      "year": 2014,
-      "event": "Cloudflare IPO and major expansion of security services",
-      "eventKo": "Cloudflare IPO 및 보안 서비스 주요 확장"
+      "year": 1995,
+      "event": "Created Beanie Babies; became massive cultural phenomenon and collectible",
+      "eventKo": "Beanie Babies 생성; 거대한 문화 현상 및 수집 가능 제품이 됨"
     },
     {
-      "year": 2020,
-      "event": "Achieved billionaire status; Cloudflare valued at over 10 billion",
-      "eventKo": "억만장자 지위 달성; Cloudflare가 100억 이상으로 평가받음"
+      "year": 2000,
+      "event": "Ty Inc. at peak of Beanie Baby craze; toys commanding high secondary market prices",
+      "eventKo": "Ty Inc.가 Beanie Baby 광풍의 정점; 장난감이 높은 2차 시장 가격 명령"
+    },
+    {
+      "year": 2010,
+      "event": "Diversified toy portfolio; maintained collectible toy focus",
+      "eventKo": "장난감 포트폴리오 다양화; 수집 가능한 장난감 초점 유지"
     }
   ],
   "failures": [
     {
-      "year": 2017,
-      "description": "Company faced criticism over content moderation policies and security challenges",
-      "descriptionKo": "회사가 콘텐츠 중재 정책 및 보안 문제로 인한 비판에 직면",
-      "lesson": "Tech companies must balance free speech with safety and security concerns",
-      "lessonKo": "기술 회사는 표현의 자유와 안전 및 보안 우려 사이에서 균형을 맞춰야 한다",
-      "source": "https://www.reuters.com"
+      "year": 2005,
+      "description": "Beanie Baby craze collapsed; secondary market prices plummeted",
+      "descriptionKo": "Beanie Baby 광풍 붕괴; 2차 시장 가격 급락",
+      "lesson": "Collectible markets inherently volatile; success difficult to sustain long-term",
+      "lessonKo": "수집 가능 시장은 본질적으로 변동성이 높습니다. 장기적 성공은 어렵습니다",
+      "source": null
     }
   ],
   "wealthHistory": [
     {
-      "year": 2020,
-      "netWorth": 6.0
+      "year": 2000,
+      "netWorth": 5.5
     },
     {
-      "year": 2022,
-      "netWorth": 6.3
+      "year": 2010,
+      "netWorth": 4.2
     },
     {
       "year": 2024,
-      "netWorth": 6.5
+      "netWorth": 7.0
     }
   ],
   "quotes": [
     {
-      "text": "Internet security and performance are fundamental infrastructure for the modern web",
-      "textKo": "인터넷 보안 및 성능은 현대 웹의 기본 인프라이다",
-      "context": "Statement on Cloudflare's mission",
-      "contextKo": "Cloudflare의 미션에 관한 성명",
-      "source": "https://www.cloudflare.com"
+      "text": "Good design creates emotional connections; Beanie Babies succeeded because people loved them",
+      "textKo": "좋은 디자인은 감정적 연결을 만듭니다. Beanie Babies는 사람들이 그들을 사랑해서 성공했습니다",
+      "context": "Toy industry presentation, 2012",
+      "contextKo": "장난감 산업 프레젠테이션, 2012년",
+      "source": null
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "The Web Application Hacker's Handbook",
-        "author": "Various",
-        "note": "Informed his understanding of web security vulnerabilities",
-        "noteKo": "웹 보안 취약점에 대한 이해를 알림"
+        "title": "The Beanie Baby Bubble",
+        "author": "Zac Bissonnette",
+        "note": "Understanding collectible mania and market psychology",
+        "noteKo": "수집 가능 광풍 및 시장 심리 이해"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Cloudflare founder; internet security leadership; web infrastructure expertise",
-    "knownForKo": "Cloudflare 창립자; 인터넷 보안 리더십; 웹 인프라 전문성",
-    "philanthropy": "Supports internet freedom and cybersecurity education initiatives",
-    "philanthropyKo": "인터넷 자유 및 사이버 보안 교육 이니셔티브 지원",
-    "controversies": "Faced criticism over content moderation decisions",
-    "controversiesKo": "콘텐츠 중재 결정에 대한 비판에 직면"
+    "knownFor": "Creator of Beanie Babies, one of world's most successful toy lines. Known for design innovation and understanding collector psychology.",
+    "knownForKo": "세계에서 가장 성공적인 장난감 라인 중 하나인 Beanie Babies의 창작자입니다. 디자인 혁신 및 수집가 심리 이해로 알려져 있습니다.",
+    "philanthropy": "Supports animal welfare and wildlife conservation causes",
+    "philanthropyKo": "동물 복지 및 야생동물 보존 운동을 지원합니다",
+    "controversies": "Faced legal disputes over licensing and counterfeit products",
+    "controversiesKo": "라이선싱 및 위조 제품에 대한 법적 분쟁에 직면했습니다"
   },
   "sajuConnection": null
 }

@@ -1,97 +1,117 @@
 {
   "id": "270",
-  "name": "Andrei Guryev",
-  "nameKo": "안드레이 구리예프",
-  "netWorth": "$10.8B",
-  "nationality": "RU",
-  "industry": "Manufacturing",
+  "name": "Charles Butt",
+  "nameKo": "찰스 벗",
+  "netWorth": "$11.1B",
+  "nationality": "US",
+  "industry": "Fashion & Retail",
   "childhood": {
-    "birthPlace": "Lobnya, Moscow Oblast, Russia",
-    "birthPlaceKo": "러시아 모스크바주 롭냐",
-    "familyBackground": "Born into a modest Russian family. Details about his parents and early family life are not widely documented in public sources.",
-    "familyBackgroundKo": "소박한 러시아 가정에서 태어남. 부모와 초기 가정생활에 대한 세부 사항은 공개 자료에서 널리 기록되어 있지 않다.",
-    "education": "Graduated from the Russian State University of Physical Education, Sport, Youth and Tourism with a degree in physical education and sport (1983); Bachelor's degree in economics from the University of Greenwich (2003); Graduate of the Russian Government Academy of National Economy (2004)",
-    "educationKo": "러시아 국립 체육대학교에서 체육학 학위 취득(1983); 그리니치 대학교에서 경제학 학사(2003); 러시아 정부 국민경제아카데미 졸업(2004)",
-    "earlyLife": "Born on March 24, 1960, in Lobnya, a town 27 kilometers north of Moscow. After completing his degree in physical education, Guryev entered the business world during the tumultuous period of the Soviet Union's collapse, positioning himself within the emerging private sector in the early 1990s.",
-    "earlyLifeKo": "1960년 3월 24일 모스크바에서 북쪽으로 27km 떨어진 롭냐에서 태어났다. 체육학 학위를 마친 후, 구리예프는 소련 붕괴의 격동기에 비즈니스 세계에 진입하여 1990년대 초반 신흥 민간 부문에 자리를 잡았다.",
-    "source": "Wikipedia, Bloomberg, Forbes"
+    "birthPlace": "San Antonio, Texas, United States",
+    "birthPlaceKo": "미국 텍사스주 샌안토니오",
+    "familyBackground": "Son of Howard Edward Butt Sr. and Mary Elizabeth Holdsworth, and grandson of Florence Butt, who founded H-E-B grocery store in 1905. His grandmother started the business out of necessity after her husband's tuberculosis diagnosis left him unable to work. His mother was a former schoolteacher who inspired his later focus on education philanthropy.",
+    "familyBackgroundKo": "하워드 에드워드 벗 시니어와 메리 엘리자베스 홀즈워스의 아들이자, 1905년 H-E-B 식료품점을 창립한 플로렌스 벗의 손자. 할머니는 남편이 결핵 진단을 받아 일할 수 없게 되자 필요에 의해 사업을 시작했다. 어머니는 전직 교사로 이후 그의 교육 자선 활동에 영감을 주었다.",
+    "education": "B.S. from the Wharton School at the University of Pennsylvania; MBA from Harvard Business School",
+    "educationKo": "펜실베이니아 대학교 와튼 스쿨 학사; 하버드 경영대학원 MBA",
+    "earlyLife": "Born February 3, 1938, Charles started working for the family-owned business at age 8, initially bagging groceries. He grew up in San Antonio surrounded by the H-E-B grocery culture, learning the retail business from the ground up. After completing his education at Wharton and Harvard, he returned to Texas to take on leadership of the family enterprise.",
+    "earlyLifeKo": "1938년 2월 3일 태어난 찰스는 8살 때부터 가업에서 일하기 시작했으며, 처음에는 식료품 봉투에 물건을 담았다. 샌안토니오에서 H-E-B 식료품 문화에 둘러싸여 자라며 소매업을 처음부터 배웠다. 와튼과 하버드에서 학업을 마친 후 텍사스로 돌아와 가업의 경영을 맡았다.",
+    "source": "Wikipedia, Forbes, Charles Butt Foundation"
   },
   "careerTimeline": [
     {
+      "year": 1971,
+      "event": "Became chairman, CEO, and president of H-E-B Grocery Company, taking full leadership of the family business",
+      "eventKo": "H-E-B 식료품 회사의 회장, CEO, 사장이 되어 가업의 전권을 장악"
+    },
+    {
       "year": 1990,
-      "event": "Joined the Menatep Group, working for Mikhail Khodorkovsky, and served as the group's Deputy Director until 1995",
-      "eventKo": "메나텝 그룹에 합류하여 미하일 호도르코프스키 밑에서 근무, 1995년까지 부이사장 역임"
+      "event": "Expanded H-E-B into Mexico, opening the first Central Market stores and pioneering premium grocery concepts",
+      "eventKo": "H-E-B를 멕시코로 확장하고 첫 센트럴 마켓 매장을 열어 프리미엄 식료품 개념을 개척"
     },
     {
-      "year": 1995,
-      "event": "Became chairman of Apatit, a major phosphate mining subsidiary of the Menatep Group",
-      "eventKo": "메나텝 그룹의 주요 인산염 광업 자회사인 아파티트의 회장이 됨"
+      "year": 2010,
+      "event": "H-E-B surpassed $15 billion in annual revenue, cementing its position as one of America's largest privately held companies",
+      "eventKo": "H-E-B가 연 매출 150억 달러를 돌파하며 미국 최대 비상장 기업 중 하나로서의 입지를 확고히 함"
     },
     {
-      "year": 2004,
-      "event": "Acquired Khodorkovsky's stake in PhosAgro at a low price after Khodorkovsky's arrest, gaining control of one of the world's largest phosphate fertilizer producers",
-      "eventKo": "호도르코프스키 체포 후 그의 포스아그로 지분을 낮은 가격에 인수하여 세계 최대 인산염 비료 생산업체 중 하나의 경영권 확보"
+      "year": 2017,
+      "event": "Pledged $100 million to Texas public education and established The Holdsworth Center for Excellence in Education Leadership",
+      "eventKo": "텍사스 공교육에 1억 달러를 약정하고 홀즈워스 교육 리더십 우수 센터를 설립"
     },
     {
-      "year": 2011,
-      "event": "Took PhosAgro public on the London Stock Exchange, raising $565 million in the IPO",
-      "eventKo": "포스아그로를 런던 증권거래소에 상장하여 IPO에서 5억 6,500만 달러 조달"
+      "year": 2020,
+      "event": "H-E-B's emergency preparedness gained national recognition during COVID-19 pandemic; the chain's disaster response plans were widely praised",
+      "eventKo": "코로나19 팬데믹 기간 H-E-B의 비상 대비가 전국적인 인정을 받음; 재난 대응 계획이 널리 칭찬받음"
     },
     {
-      "year": 2013,
-      "event": "Stepped down as CEO of PhosAgro, handing leadership to his son Andrey Guryev Jr.",
-      "eventKo": "포스아그로 CEO에서 물러나 아들 안드레이 구리예프 주니어에게 경영권 이양"
+      "year": 2021,
+      "event": "Handed over CEO role to nephew Howard Butt III while continuing as chairman; H-E-B had grown to over 400 stores with $38.9 billion in sales",
+      "eventKo": "조카 하워드 벗 3세에게 CEO 직을 넘기고 회장직을 유지; H-E-B는 400개 이상의 매장과 389억 달러 매출로 성장"
     },
     {
       "year": 2022,
-      "event": "Sanctioned by the United Kingdom and New Zealand in response to Russia's invasion of Ukraine",
-      "eventKo": "러시아의 우크라이나 침공에 대한 대응으로 영국과 뉴질랜드의 제재 대상이 됨"
+      "event": "Signed The Giving Pledge, committing the majority of his wealth to philanthropy focused on children and education",
+      "eventKo": "기부 서약에 서명하여 재산의 대부분을 아동과 교육에 초점을 맞춘 자선 활동에 기부하기로 약속"
     }
   ],
   "failures": [
     {
-      "year": 2022,
-      "description": "Faced international sanctions from the UK, New Zealand, and Japan following Russia's invasion of Ukraine, restricting his access to assets and travel in those jurisdictions.",
-      "descriptionKo": "러시아의 우크라이나 침공 이후 영국, 뉴질랜드, 일본으로부터 국제 제재를 받아 해당 국가에서의 자산 접근과 여행이 제한되었다.",
-      "lesson": "The sanctions highlighted the geopolitical risks faced by Russian oligarchs with international assets and demonstrated how global conflicts can directly impact personal wealth and business operations.",
-      "lessonKo": "제재는 국제 자산을 가진 러시아 올리가르히가 직면하는 지정학적 위험을 부각시켰으며, 글로벌 분쟁이 개인 재산과 사업 운영에 직접적인 영향을 미칠 수 있음을 보여주었다.",
-      "source": "Reuters, BBC"
+      "year": 2003,
+      "description": "H-E-B faced fierce competition from Walmart's aggressive expansion into Texas grocery market, threatening its dominant market position in the state.",
+      "descriptionKo": "월마트가 텍사스 식료품 시장에 공격적으로 진출하면서 H-E-B의 텍사스 내 지배적 시장 지위가 위협받는 치열한 경쟁에 직면했다.",
+      "lesson": "Butt responded by doubling down on customer experience, store-brand products, and community engagement—strategies that helped H-E-B maintain and even grow market share against the retail giant.",
+      "lessonKo": "벗은 고객 경험, 자사 브랜드 제품, 지역사회 참여에 더욱 집중하여 대응했으며, 이 전략은 H-E-B가 거대 소매업체에 맞서 시장 점유율을 유지하고 성장하는 데 도움이 되었다.",
+      "source": "Forbes, Bloomberg"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2012,
-      "netWorth": 3.0
+      "year": 2010,
+      "netWorth": 5.0
     },
     {
-      "year": 2016,
-      "netWorth": 3.5
+      "year": 2015,
+      "netWorth": 7.0
     },
     {
       "year": 2020,
-      "netWorth": 4.8
+      "netWorth": 9.4
     },
     {
       "year": 2023,
-      "netWorth": 7.5
+      "netWorth": 10.7
     },
     {
       "year": 2025,
-      "netWorth": 10.8
+      "netWorth": 11.1
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Over the past 30 years, my personal philanthropy has been increasingly focused on strengthening public education. I believe that a quality education for every child should be a preeminent national goal.",
+      "textKo": "지난 30년간 제 개인 자선 활동은 공교육 강화에 점점 더 집중해왔습니다. 모든 아이를 위한 양질의 교육이 최우선 국가 목표가 되어야 한다고 믿습니다.",
+      "context": "Statement about his philanthropic philosophy and commitment to public education",
+      "contextKo": "공교육에 대한 자선 철학과 헌신에 대한 성명",
+      "source": "The Giving Pledge"
+    },
+    {
+      "text": "We have a responsibility and opportunity to provide the best possible education to all kids, but it starts with great leaders—supportive principals, administrators, superintendents, and well-prepared teachers—in every classroom, not just a few.",
+      "textKo": "우리는 모든 아이들에게 최고의 교육을 제공할 책임과 기회가 있습니다. 하지만 그것은 일부가 아닌 모든 교실에서 훌륭한 리더—지원적인 교장, 행정가, 교육감, 잘 준비된 교사—로부터 시작됩니다.",
+      "context": "Discussing the importance of leadership in education through The Holdsworth Center",
+      "contextKo": "홀즈워스 센터를 통한 교육 리더십의 중요성에 대해 논의하며",
+      "source": "The Holdsworth Center"
+    }
+  ],
   "books": {
     "authored": [],
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building PhosAgro into one of the world's top four phosphate-based fertilizer producers; acquiring key assets during Russia's privatization era; owning Witanhurst, London's second-largest private residence after Buckingham Palace",
-    "knownForKo": "포스아그로를 세계 4대 인산염 비료 생산업체 중 하나로 성장시킴; 러시아 민영화 시대에 핵심 자산 인수; 버킹엄 궁전 다음으로 런던에서 두 번째로 큰 개인 저택인 위탄허스트 소유",
-    "philanthropy": "Limited publicly documented philanthropy. PhosAgro as a company has supported various social programs in the regions where it operates.",
-    "philanthropyKo": "공개적으로 기록된 자선 활동은 제한적. 포스아그로는 회사 차원에서 사업 지역의 다양한 사회 프로그램을 지원해왔다.",
-    "controversies": "Sanctioned by the UK (2022), New Zealand (2022), and Japan (2023) over Russia's invasion of Ukraine. Acquisition of PhosAgro assets from imprisoned Khodorkovsky at below-market prices drew criticism. Owns Witanhurst through offshore British Virgin Islands company, raising transparency concerns.",
-    "controversiesKo": "러시아의 우크라이나 침공으로 영국(2022), 뉴질랜드(2022), 일본(2023)의 제재를 받음. 수감된 호도르코프스키로부터 시가 이하로 포스아그로 자산을 인수한 것이 비판을 받음. 영국령 버진아일랜드 역외 회사를 통해 위탄허스트를 소유하여 투명성 우려가 제기됨."
+    "knownFor": "Transforming H-E-B from a regional Texas grocer into one of America's largest and most beloved privately held companies; passionate advocate for public education reform",
+    "knownForKo": "H-E-B를 텍사스 지역 식료품점에서 미국에서 가장 크고 사랑받는 비상장 기업 중 하나로 변모시킴; 공교육 개혁의 열정적인 옹호자",
+    "philanthropy": "Signed The Giving Pledge. Pledged over $350 million to education including $100 million for The Holdsworth Center and $50 million for the Raising Texas Teachers scholarship fund. Created the annual H-E-B Excellence in Education Awards.",
+    "philanthropyKo": "기부 서약에 서명. 홀즈워스 센터에 1억 달러, 레이징 텍사스 티처스 장학금에 5,000만 달러를 포함하여 교육에 3억 5,000만 달러 이상을 약정. 연례 H-E-B 교육 우수상을 제정.",
+    "controversies": "Generally regarded as an apolitical figure, though some of his education reform positions have drawn debate from various stakeholders in Texas politics.",
+    "controversiesKo": "일반적으로 비정치적인 인물로 평가되지만, 그의 일부 교육 개혁 입장이 텍사스 정치의 다양한 이해관계자들로부터 논쟁을 불러일으키기도 했다."
   },
   "sajuConnection": null
 }

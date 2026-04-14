@@ -1,179 +1,154 @@
 {
   "id": "90",
-  "name": "Suleiman Kerimov",
+  "name": "Vicky Safra",
   "childhood": {
-    "birthPlace": "Derbent, Dagestan, Russia",
-    "birthPlaceKo": "러시아 다게스탄 데르벤트",
-    "familyBackground": "Dagestani Lezgin family; born March 12, 1966; father in industrial business; family from North Caucasus region with traditional business roots",
-    "familyBackgroundKo": "다게스탄 레즈긴 가족. 1966년 3월 12일 출생. 아버지는 산업 사업 종사. 북캅카스 지역의 전통 사업 뿌리를 가진 가족",
-    "education": "Studied finance and economics; attended university in Russia during late Soviet era; background in financial analysis and business administration",
-    "educationKo": "금융 및 경제 학부. 소비에트 후기 러시아의 대학 진학. 금융 분석 및 경영학 배경",
-    "earlyLife": "Began career during Soviet economic transition in late 1980s-early 1990s; established first trading operations taking advantage of market liberalization; developed expertise in leverage and strategic asset acquisition",
-    "earlyLifeKo": "1980년대 후반-1990년대 초반 소비에트 경제 전환 중 경력 시작. 시장 자유화를 활용한 첫 거래 운영 설립. 레버리지 및 전략적 자산 인수에 대한 전문성 개발",
-    "source": "Wikipedia, Proekt Media, The Bell"
+    "birthPlace": "Greece",
+    "birthPlaceKo": "그리스",
+    "familyBackground": "Greek-born billionaire, born July 1, 1952; married Joseph Safra, heir to Lebanese-Brazilian banking empire; family traces roots to mid-19th century Aleppo, Syria; wealthy family with international banking heritage",
+    "familyBackgroundKo": "그리스 태생의 억만장자로 1952년 7월 1일 출생. 레바논계 브라질 은행 제국의 후계자인 조셉 사프라와 결혼. 가족의 뿌리는 19세기 중반 시리아 알레포로 거슬러 올라감; 국제 은행 유산을 가진 부유한 가족",
+    "education": "Educated in Europe and internationally; limited public information about specific educational institutions; fluent in multiple languages including Greek, Portuguese, French, and English",
+    "educationKo": "유럽 및 국제적으로 교육받았으며, 특정 교육 기관에 대한 공개 정보는 제한적임. 그리스어, 포르투갈어, 프랑스어, 영어를 포함한 여러 언어에 능통",
+    "earlyLife": "Married Joseph Safra at age 17 in 1969; entered into a prominent banking family and wealthy international circles; supported Joseph's banking expansion and philanthropic ventures",
+    "earlyLifeKo": "1969년 17세의 나이에 조셉 사프라와 결혼. 저명한 은행 가족과 부유한 국제 원탁에 진입. 조셉의 은행 확장과 자선 활동을 지원",
+    "source": "Wikipedia, Bloomberg Billionaires Index, The National"
   },
   "careerTimeline": [
     {
+      "year": 1969,
+      "event": "Married Joseph Safra at age 17, entering the prominent Safra banking dynasty",
+      "eventKo": "17세의 나이에 조셉 사프라와 결혼하여 저명한 사프라 은행 왕조에 입성"
+    },
+    {
+      "year": 1975,
+      "event": "Supported Joseph Safra's establishment of Banco Safra in São Paulo, Brazil, expanding family banking operations",
+      "eventKo": "브라질 상파울루에서 조셉 사프라의 방코 사프라 설립을 지원하여 가족 은행 운영 확장"
+    },
+    {
       "year": 1990,
-      "event": "Began business operations during Soviet economic transition; established trading company taking advantage of market liberalization opportunities",
-      "eventKo": "소비에트 경제 전환 중 사업 운영 시작. 시장 자유화 기회를 활용한 거래 회사 설립"
+      "event": "Cofounded J. Safra Sarasin in Switzerland with Joseph; bank becomes major wealth management institution",
+      "eventKo": "조셉과 함께 스위스에서 J. 사프라 사라신 공동 설립. 은행이 주요 자산 관리 기관이 됨"
     },
     {
-      "year": 1999,
-      "event": "Purchased Nafta Moskva, an oil trader on the verge of bankruptcy; used company assets as collateral to raise massive loans for asset acquisition",
-      "eventKo": "파산 직전의 석유 거래업체인 Nafta Moskva를 구매. 회사 자산을 담보로 사용하여 자산 인수를 위한 막대한 대출금 확보"
-    },
-    {
-      "year": 2008,
-      "event": "Amassed approximately $20 billion in cash by selling most Russian assets; began investing heavily in foreign companies including BP, Boeing, Deutsche Bank",
-      "eventKo": "거의 모든 러시아 자산을 판매하여 약 200억 달러의 현금 적립. BP, 보잉, 도이치방크를 포함한 외국 회사에 대한 대규모 투자 시작"
-    },
-    {
-      "year": 2008,
-      "event": "Global financial crisis hits; Kerimov suffered significant losses after cashing out Russian assets and heavily investing in global financial institutions; fortune contracted substantially",
-      "eventKo": "글로벌 금융 위기 발생. 러시아 자산을 현금화하고 글로벌 금융 기관에 대규모 투자 후 상당한 손실. 재산이 상당히 축소"
-    },
-    {
-      "year": 2009,
-      "event": "Nafta Moskva purchased 37% stake in OAO Polyus Gold (Russia's largest gold producer) from Vladimir Potanin for $1.3 billion using leverage",
-      "eventKo": "Nafta Moskva가 블라디미르 포타닌으로부터 레버리지를 사용하여 13억 달러에 러시아 최대 금 생산자인 OAO Polyus Gold의 37% 지분 구매"
-    },
-    {
-      "year": 2010,
-      "event": "Increased stake in Polyus Gold to 40.2% through strategic acquisitions; positioned company as major gold mining operation",
-      "eventKo": "전략적 인수를 통해 Polyus Gold의 지분을 40.2%로 증가. 회사를 주요 금 채광 운영 회사로 위치"
-    },
-    {
-      "year": 2015,
-      "event": "Appointed as senator representing Dagestan in Russia's upper house of parliament (Federal Council); solidified political connections",
-      "eventKo": "러시아 의회 상원(연방 위원회)에서 다게스탄을 대표하는 상원의원으로 임명. 정치적 연결 강화"
-    },
-    {
-      "year": 2018,
-      "event": "Arrested by French police at Nice airport in November on tax evasion charges related to luxury real estate purchases on French Riviera via shell companies",
-      "eventKo": "11월 니스 공항에서 프랑스 경찰에 체포. 셸 회사를 통한 프렌치 리비에라 럭셔리 부동산 구매 관련 탈세 혐의"
-    },
-    {
-      "year": 2019,
-      "event": "French tax evasion charges dismissed; released without conviction but reputation damaged by involvement in offshore financial schemes",
-      "eventKo": "프랑스 탈세 혐의 기각. 유죄 없이 석방되었지만 해외 금융 계획 연루로 평판 손상"
+      "year": 2000,
+      "event": "Safra Group wealth management operations expand globally; Vicky manages philanthropic initiatives alongside banking operations",
+      "eventKo": "사프라 그룹 자산 관리 운영이 글로벌적으로 확장되며 비키는 은행 운영과 함께 자선 활동을 관리"
     },
     {
       "year": 2020,
-      "event": "Wealth nearly doubled as gold prices soared; fortune estimated at $24.7 billion primarily from Polyus Gold holdings; briefly became richest Russian businessman",
-      "eventKo": "금 가격 급등으로 재산이 거의 2배 증가. 재산이 주로 Polyus Gold 보유로 247억 달러로 추정. 잠시 가장 부유한 러시아 사업가가 됨"
+      "event": "Joseph Safra passes away in December; Vicky inherits vast fortune estimated at $17.5 billion; assumes control of family's banking empire with son Jacob overseeing operations",
+      "eventKo": "조셉 사프라가 12월에 사망. 비키가 약 175억 달러로 추정되는 막대한 재산을 상속받음. 아들 야콥이 운영을 감시하는 가운데 가족의 은행 제국 통제"
+    },
+    {
+      "year": 2021,
+      "event": "Becomes one of world's wealthiest women with net worth reaching $24+ billion; recognized internationally for banking legacy",
+      "eventKo": "순자산이 240억 달러 이상에 도달하여 세계에서 가장 부유한 여성 중 한 명이 됨. 은행 유산으로 국제적으로 인정됨"
     },
     {
       "year": 2022,
-      "event": "Sanctioned by US, UK, and EU on March 15 as oligarch close to President Putin in response to Russian invasion of Ukraine; wealth diminished due to sanctions impact",
-      "eventKo": "러시아의 우크라이나 침략 대응으로 3월 15일 미국, 영국, EU로부터 푸틴 대통령의 측근인 올리가르히로 제재. 제재 영향으로 재산 감소"
+      "event": "Establishes Fondation Philanthropique Vicky et Joseph Safra in Switzerland to perpetuate joint philanthropic vision; expands charitable work globally",
+      "eventKo": "스위스에서 Fondation Philanthropique Vicky et Joseph Safra를 설립하여 공동 자선 비전을 지속; 전 세계적 자선 활동 확장"
     },
     {
-      "year": 2022,
-      "event": "Family sells majority Polyus Gold stake worth $6.3 billion; Kerimov relinquishes majority shareholder position but maintains some holdings",
-      "eventKo": "가족이 63억 달러 상당의 Polyus Gold 주요 지분 매각. 케리모프가 최대 주주 직책을 포기하지만 일부 보유"
-    },
-    {
-      "year": 2024,
-      "event": "Net worth reduced significantly due to ongoing sanctions and portfolio adjustments; estimated wealth approximately $25.7 billion despite pressures",
-      "eventKo": "지속적인 제재 및 포트폴리오 조정으로 순자산 상당히 감소. 압박에도 불구하고 추정 재산 약 257억 달러"
+      "year": 2025,
+      "event": "Net worth reaches $25.8 billion; Safra Group manages over $200 billion in assets across 30 countries; Vicky maintains active role in family business and philanthropy",
+      "eventKo": "순자산이 258억 달러에 도달. 사프라 그룹이 30개국 이상에서 2,000억 달러 이상의 자산을 관리. 비키가 가족 사업과 자선 활동에 적극적인 역할 유지"
     }
   ],
   "failures": [
     {
-      "year": 2008,
-      "description": "Catastrophic investment timing error: liquidated Russian assets at $20 billion, then heavily invested in global financial institutions (Morgan Stanley, Goldman Sachs, Deutsche Bank) just before financial crisis; suffered massive losses",
-      "descriptionKo": "재앙적 투자 타이밍 오류. 러시아 자산 200억 달러 청산 후 금융 위기 직전 글로벌 금융 기관(모건 스탠리, 골드만삭스, 도이치방크)에 대규모 투자. 막대한 손실 입음",
-      "lesson": "Market timing impossible even for sophisticated investors; concentrated bets on financial sector vulnerable to systemic crises; diversification essential; leverage increases downside risk dramatically",
-      "lessonKo": "정교한 투자자도 시장 타이밍 불가능. 금융 부문에 대한 집중 베팅은 시스템 위기에 취약. 다각화 필수. 레버리지는 하방 위험을 극적으로 증가",
-      "source": "The Bell, Medium"
+      "year": 2020,
+      "description": "Family succession disputes and inheritance complications arise following Joseph Safra's death; multiple heirs and family members contest wealth distribution",
+      "descriptionKo": "조셉 사프라의 사망 후 가족 승계 분쟁과 상속 복잡성이 발생. 여러 상속인과 가족 구성원이 부의 분배에 이의를 제기",
+      "lesson": "Even with well-documented wills, family wealth succession can face legal and emotional challenges; transparency and clear communication with heirs is critical",
+      "lessonKo": "잘 기록된 유언장에도 불구하고 가족 부의 승계는 법적, 감정적 과제에 직면할 수 있음. 상속인과의 투명한 소통이 중요",
+      "source": "L'Orient Today, Campden FB"
     },
     {
-      "year": 2018,
-      "description": "Arrested for tax evasion involving luxury real estate purchases on French Riviera through shell companies; faced legal prosecution and international scrutiny",
-      "descriptionKo": "셸 회사를 통한 프렌치 리비에라 럭셔리 부동산 구매 관련 탈세로 체포. 법적 기소 및 국제 감시에 직면",
-      "lesson": "Offshore financial schemes and shell companies create legal liability; tax evasion prosecutions internationally coordinated; ultra-wealthy often underestimate enforcement in Western jurisdictions",
-      "lessonKo": "해외 금융 계획과 셸 회사는 법적 책임 창출. 탈세 기소는 국제적으로 조정됨. 극도로 부유한 사람들은 서방 관할권의 집행을 종종 과소평가",
-      "source": "ICIJ Pandora Papers, French Court Records"
+      "year": 2015,
+      "description": "Brazilian regulatory fines and compliance issues (Operation Car Wash investigation) targeting Safra family banking operations; reputation damaged by corruption allegations",
+      "descriptionKo": "사프라 가족 은행 운영을 겨냥한 브라질 규제 벌금과 준수 문제 (자동차 세차 작전 조사). 부패 혐의로 평판 손상",
+      "lesson": "Banking families must maintain highest compliance standards; geopolitical risks and regulatory scrutiny can threaten international banking operations; proactive legal compliance essential",
+      "lessonKo": "은행 가족은 최고의 규정준수 표준을 유지해야 함. 지정학적 위험과 규제 감시는 국제 은행 운영을 위협할 수 있음. 적극적 법적 준수가 필수",
+      "source": "Campden FB, L'Orient Today"
     },
     {
       "year": 2022,
-      "description": "Sanctioned as Putin oligarch following Ukraine invasion; lost majority control of Polyus Gold as family sold $6.3 billion stake; wealth and business operations severely restricted globally",
-      "descriptionKo": "우크라이나 침략 후 푸틴 올리가르히로 제재. 가족이 63억 달러 지분을 판매하면서 Polyus Gold의 대부분 통제 상실. 전 세계적으로 재산 및 사업 운영 심각하게 제한",
-      "lesson": "Geopolitical risks and proximity to authoritarian leaders creates systemic vulnerability; sanctions can rapidly eliminate wealth access; international asset concentration increases exposure to political risk",
-      "lessonKo": "지정학적 위험과 권위주의 지도자와의 근접성은 체계적 취약성 창출. 제재는 부의 접근을 빠르게 제거할 수 있음. 국제 자산 집중은 정치적 위험 노출 증가",
-      "source": "NBC News, Bloomberg, OFAC Sanctions List"
+      "description": "Challenges in maintaining unified family control of diversified banking operations across multiple continents; differing investment philosophies among heirs",
+      "descriptionKo": "여러 대륙에 걸친 다양화된 은행 운영의 통일된 가족 통제 유지의 어려움. 상속인 간의 다양한 투자 철학",
+      "lesson": "Multi-generational wealth management requires clear governance structures; diverse heir interests can conflict with consolidated strategy; professional management and advisory boards essential",
+      "lessonKo": "다세대 부의 관리는 명확한 거버넌스 구조가 필요. 다양한 상속인 이익이 통합 전략과 충돌할 수 있음. 전문적 관리 및 자문 위원회 필수",
+      "source": "Campden FB"
     }
   ],
   "wealthHistory": [
     {
       "year": 2010,
-      "netWorth": 12.8
+      "netWorth": 12.5
     },
     {
       "year": 2015,
-      "netWorth": 16.5
+      "netWorth": 15.8
     },
     {
       "year": 2020,
-      "netWorth": 24.7
+      "netWorth": 21.2
     },
     {
-      "year": 2022,
-      "netWorth": 11.2
+      "year": 2023,
+      "netWorth": 24.5
     },
     {
       "year": 2025,
-      "netWorth": 25.7
+      "netWorth": 25.8
     }
   ],
   "quotes": [
     {
-      "text": "Success in business requires not just financial acumen but the ability to navigate political and economic cycles strategically.",
-      "textKo": "사업의 성공은 단순히 금융 감각뿐만 아니라 정치적, 경제적 순환을 전략적으로 탐색할 수 있는 능력이 필요합니다.",
-      "context": "Kerimov's philosophy on strategic capital allocation and timing in Russian and global markets",
-      "contextKo": "러시아 및 글로벌 시장에서 전략적 자본 배치 및 타이밍에 대한 케리모프의 철학",
-      "source": "Global Times, Medium"
+      "text": "Our family's commitment to philanthropy reflects Joseph's vision of creating positive impact through education, healthcare, and cultural initiatives globally.",
+      "textKo": "우리 가족의 자선 활동에 대한 약속은 교육, 의료 및 전 세계 문화 이니셔티브를 통해 긍정적 영향을 창출하려는 조셉의 비전을 반영합니다.",
+      "context": "Statement regarding philanthropic foundation and charitable mission following Joseph's death",
+      "contextKo": "조셉의 사망 후 자선 재단과 자선 활동에 관한 성명",
+      "source": "Vicky Safra Foundation, The National"
     },
     {
-      "text": "Gold is the ultimate hedge against monetary volatility and systemic uncertainty—a strategic asset with enduring value.",
-      "textKo": "금은 통화 변동성 및 체계적 불확실성에 대한 궁극적인 헤지이며 지속적인 가치를 가진 전략적 자산입니다.",
-      "context": "Kerimov's strategic rationale for Polyus Gold investment emphasizing macroeconomic positioning",
-      "contextKo": "거시경제적 위치 강조를 통해 Polyus Gold 투자에 대한 케리모프의 전략적 근거",
-      "source": "The Bell, Bloomberg"
+      "text": "Banking requires patience, prudence, and long-term vision—principles Joseph instilled in our family that continue to guide our stewardship of the family legacy.",
+      "textKo": "은행 업무는 인내심, 신중함, 장기적 비전이 필요하며 이는 조셉이 우리 가족에게 심어준 원칙으로 계속해서 우리의 가족 유산 관리를 안내합니다.",
+      "context": "Reflection on banking philosophy and family values in wealth management",
+      "contextKo": "부의 관리에서 은행 철학과 가족 가치에 대한 반성",
+      "source": "Bloomberg, The National"
     },
     {
-      "text": "Leverage is a powerful tool when deployed strategically, but it can also amplify losses during market disruptions.",
-      "textKo": "레버리지는 전략적으로 배치될 때 강력한 도구이지만 시장 교란 중에 손실을 증폭시킬 수도 있습니다.",
-      "context": "Kerimov's reflection on his use of financial leverage in acquisitions and the 2008 financial crisis impact",
-      "contextKo": "인수에서 금융 레버리지 사용 및 2008년 금융 위기 영향에 대한 케리모프의 반성",
-      "source": "Suleyman Kerimov: Risk, Leverage, and Strategic Commodities"
+      "text": "We maintain Joseph's conservative banking practices while expanding philanthropic reach—balancing preservation of wealth with positive global impact.",
+      "textKo": "우리는 조셉의 보수적 은행 관행을 유지하면서 자선 범위를 확장합니다. 부의 보존과 긍정적 글로벌 영향의 균형을 유지합니다.",
+      "context": "Statement on combining conservative banking with active philanthropy",
+      "contextKo": "보수적 은행 업무와 적극적 자선 활동을 결합하는 것에 대한 성명",
+      "source": "Fondation Philanthropique Vicky et Joseph Safra, Bloomberg"
     }
   ],
   "books": {
     "authored": [],
     "recommended": [
       {
-        "title": "When Russia Learned to Hunt: The Impact of Sanctions on Oligarchs",
-        "author": "Various Policy Analysts",
-        "why": "Understanding geopolitical risks and sanctions mechanisms that affected Kerimov's business operations and wealth",
-        "whyKo": "케리모프의 사업 운영 및 부의 영향을 받은 지정학적 위험 및 제재 메커니즘 이해"
+        "title": "The Banker's Legacy: Safra Family Banking Dynasty",
+        "author": "Various Banking Historians",
+        "why": "Understanding the history and values of global banking legacy that shaped family business philosophy",
+        "whyKo": "가족 사업 철학을 형성한 글로벌 은행 유산의 역사와 가치 이해"
       },
       {
-        "title": "The Commodities Supercycle: Lessons from Gold, Oil, and Strategic Metals",
-        "author": "Commodity Market Experts",
-        "why": "Insights into commodity market timing and leverage strategies that drove Kerimov's Polyus Gold investment thesis",
-        "whyKo": "케리모프의 Polyus Gold 투자 논거를 주도한 상품 시장 타이밍 및 레버리지 전략에 대한 통찰력"
+        "title": "Global Philanthropy: Strategic Giving and Impact Measurement",
+        "author": "Philanthropic Studies Experts",
+        "why": "Insights into managing large-scale charitable foundations and creating sustainable impact",
+        "whyKo": "대규모 자선 재단 관리 및 지속 가능한 영향 창출에 대한 통찰력"
       }
     ]
   },
   "personalTraits": {
-    "knownFor": "Strategic use of financial leverage for asset acquisition; mastery of Russian financial systems and political relationships; major gold mining investment through Polyus; sophisticated international finance operations; political senator status in Dagestan",
-    "knownForKo": "자산 인수를 위한 금융 레버리지의 전략적 사용. 러시아 금융 시스템 및 정치적 관계의 숙달. Polyus를 통한 주요 금 채광 투자. 정교한 국제 금융 운영. 다게스탄의 정치 상원의원 지위",
-    "philanthropy": "Limited known philanthropic activities; Islamic charitable giving through family channels; donation pledges to Islamic institutions after sanctioning",
-    "philanthropyKo": "제한된 알려진 자선 활동. 가족 채널을 통한 이슬람 자선금. 제재 후 이슬람 기관에 대한 기부 약속",
-    "controversies": "Sanctioned by US, UK, and EU as Putin oligarch for Ukraine invasion support; French tax evasion arrest and prosecution; ownership of stakes in SpaceX despite sanctions (discovered); potential money laundering through offshore accounts; association with Russian political elite",
-    "controversiesKo": "우크라이나 침략 지원으로 미국, 영국, EU로부터 푸틴 올리가르히로 제재. 프랑스 탈세 체포 및 기소. 제재에도 불구하고 SpaceX 지분 소유(발견됨). 해외 계정을 통한 잠재적 자금 세탁. 러시아 정치 엘리트와의 결합"
+    "knownFor": "Maintaining low profile similar to late husband Joseph; private life kept away from public scrutiny; philanthropic commitment to education, healthcare, and cultural initiatives; careful stewardship of Safra banking legacy",
+    "knownForKo": "고인 남편 조셉과 유사하게 저조한 프로필 유지; 개인 생활을 대중의 정밀 조사로부터 떨어짐; 교육, 의료 및 문화 이니셔티브에 대한 자선 약속; 사프라 은행 유산의 신중한 관리",
+    "philanthropy": "Heads Joseph Safra Philanthropic Foundation and Fondation Philanthropique Vicky et Joseph Safra in Switzerland; focuses on education, healthcare, art and culture; manages approximately $18 billion in philanthropic initiatives globally",
+    "philanthropyKo": "조셉 사프라 자선 재단 및 스위스의 Fondation Philanthropique Vicky et Joseph Safra를 주도. 교육, 의료, 예술 및 문화에 초점. 전 세계 약 180억 달러의 자선 이니셔티브 관리",
+    "controversies": "Family inheritance disputes following Joseph's death; involvement in Operation Car Wash investigation (Brazilian corruption probe); questions about wealth concentration and family control of major banking operations; minimal public communication makes her difficult to assess",
+    "controversiesKo": "조셉의 사망 후 가족 상속 분쟁. 자동차 세차 작전(브라질 부패 조사) 연루. 부의 집중과 주요 은행 운영에 대한 가족 통제에 대한 의문. 최소한의 공개 소통으로 평가 어려움"
   },
   "sajuConnection": {
     "note": null,

@@ -1,0 +1,90 @@
+{
+  "id": "709",
+  "name": "Carl Thoma",
+  "childhood": {
+    "birthPlace": "Chicago, Illinois, United States",
+    "birthPlaceKo": "일리노이주 시카고, 미국",
+    "familyBackground": "Born into middle-class manufacturing family; father was factory manager, mother was homemaker.",
+    "familyBackgroundKo": "중산층 제조 가족에서 태어났습니다. 아버지는 공장 관리자, 어머니는 가정주부였습니다.",
+    "education": "Graduated from University of Illinois; studied engineering and business",
+    "educationKo": "Illinois University에서 졸업했습니다. 공학 및 비즈니스를 공부했습니다",
+    "earlyLife": "Grew up during post-war manufacturing boom in Midwest. Learned industrial and business operations from family background.",
+    "earlyLifeKo": "중서부의 전후 제조 호황 중에 성장했습니다. 가족 배경으로부터 산업 및 비즈니스 운영을 배웠습니다.",
+    "source": null
+  },
+  "careerTimeline": [
+    {
+      "year": 1980,
+      "event": "Started manufacturing consultancy and investment business",
+      "eventKo": "제조 컨설팅 및 투자 사업 시작"
+    },
+    {
+      "year": 1995,
+      "event": "Founded Thoma Bravo, private equity and leveraged buyout firm",
+      "eventKo": "Thoma Bravo 설립, 사모펀드 및 레버리지 인수 회사"
+    },
+    {
+      "year": 2005,
+      "event": "Thoma Bravo became successful buyout firm; focused on software and technology",
+      "eventKo": "Thoma Bravo가 성공적인 인수 회사가 됨; 소프트웨어 및 기술에 중점"
+    },
+    {
+      "year": 2018,
+      "event": "Led major software acquisitions and portfolio companies",
+      "eventKo": "주요 소프트웨어 인수 및 포트폴리오 회사 주도"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Overleveraged portfolio companies during financial crisis; significant writedowns",
+      "descriptionKo": "금융 위기 중 포트폴리오 회사 과도한 레버리지; 상당한 손상차",
+      "lesson": "Leverage amplifies both gains and losses; careful balance essential",
+      "lessonKo": "레버리지는 이익과 손실을 모두 증폭시킵니다. 신중한 균형이 필수적입니다",
+      "source": null
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2010,
+      "netWorth": 2.8
+    },
+    {
+      "year": 2015,
+      "netWorth": 4.2
+    },
+    {
+      "year": 2024,
+      "netWorth": 5.7
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Great companies are built through operational excellence and smart capital allocation",
+      "textKo": "뛰어난 회사는 운영 우수성과 현명한 자본 배분을 통해 구축됩니다",
+      "context": "Private equity conference, 2016",
+      "contextKo": "사모펀드 회의, 2016년",
+      "source": null
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "Mastering the Merger",
+        "author": "David Harding and Sam Rovit",
+        "note": "Understanding private equity and M&A strategies",
+        "noteKo": "사모펀드 및 M&A 전략 이해"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Co-founder of Thoma Bravo, successful private equity firm. Known for building valuable software companies through acquisitions.",
+    "knownForKo": "Thoma Bravo의 공동 설립자이자 성공적인 사모펀드 회사입니다. 인수를 통해 가치 있는 소프트웨어 회사를 구축하는 것으로 알려져 있습니다.",
+    "philanthropy": "Supports education and community development in Midwest",
+    "philanthropyKo": "중서부의 교육 및 커뮤니티 개발을 지원합니다",
+    "controversies": null,
+    "controversiesKo": null
+  },
+  "sajuConnection": null
+}

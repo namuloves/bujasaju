@@ -1,94 +1,117 @@
 {
   "id": "417",
-  "name": "Sid Bass",
+  "name": "Lee Boo-jin",
+  "nameKo": "이부진",
+  "birthYear": 1970,
+  "netWorth": "$8.2B",
+  "industry": "Technology",
   "childhood": {
-    "birthPlace": "Fort Worth, Texas, USA",
-    "birthPlaceKo": "미국 텍사스주 포트워스",
-    "familyBackground": "Bass family built one of America's largest fortunes in oil and gas. Great-grandfather established major oil operations in Texas.",
-    "familyBackgroundKo": "Bass 가족은 석유 및 가스에서 미국 최대 재산 중 하나를 구축했습니다. 증조할아버지는 텍사스에서 주요 석유 운영을 설립했습니다.",
-    "education": "Yale University (Economics); Harvard Business School MBA",
-    "educationKo": "Yale University(경제학); Harvard Business School MBA",
-    "earlyLife": "Grew up in Texas oil and gas wealth. Educated in elite institutions; trained for leadership in family business.",
-    "earlyLifeKo": "텍사스 석유 및 가스 부의 중에서 성장함. 엘리트 기관에서 교육을 받았으며, 가족 사업의 리더십을 위해 훈련받았습니다.",
-    "source": "https://www.forbes.com/profile/sid-bass-energy"
+    "birthPlace": "Seoul, South Korea",
+    "birthPlaceKo": "서울특별시 중구 장충동1가",
+    "familyBackground": "Eldest daughter of Lee Kun-hee, former chairman of Samsung Group, and Hong Ra-hee. Granddaughter of Samsung Group founder Lee Byung-chul. Member of Samsung chaebol family managing diverse business portfolios including hotels, retail, and hospitality.",
+    "familyBackgroundKo": "삼성그룹 이건희 회장과 홍라희의 장녀. 삼성 창업주 이병철의 손녀. 호텔, 유통, 외식 등 다양한 사업을 영위하는 삼성 재벌 가문의 일원.",
+    "education": "Yeewon School, Daewon Foreign Language School (French), Yonsei University College of Human Ecology (Child Development, B.A.)",
+    "educationKo": "예원학교, 대원외국어학교 불어과, 연세대학교 생활과학대학 아동학 학사",
+    "earlyLife": "Born in 1970 as the eldest daughter of Samsung's heir apparent, Lee Boo-jin grew up in Seoul's elite circles. After completing her education at top domestic and international schools, she began her corporate career at Samsung Welfare Foundation in the late 1990s. Her early exposure to both Samsung's global operations and philanthropic activities shaped her business philosophy of balancing commercial success with social responsibility.",
+    "earlyLifeKo": "1970년 삼성의 후계자인 아버지의 장녀로 태어나 서울의 명문가에서 성장했다. 국내외 최고 명문학교에서 교육받은 후 1990년대 후반 삼성복지재단에서 기업 경력을 시작했다. 삼성의 국제사업과 자선활동에 조기에 노출되면서 상업적 성공과 사회적 책임의 균형을 맞추는 경영철학을 형성했다.",
+    "source": "나무위키, 위키백과, 비즈니스포스트"
   },
   "careerTimeline": [
     {
-      "year": 1982,
-      "event": "Took leadership role in family oil and gas operations; expanded beyond Texas",
-      "eventKo": "가족 석유 및 가스 운영의 리더십 역할 인수; 텍사스를 넘어 확장"
+      "year": 1998,
+      "event": "Began career at Samsung Welfare Foundation in Planning & Support Division",
+      "eventKo": "삼성복지재단 기획지원팀에서 직장생활 시작"
     },
     {
-      "year": 2000,
-      "event": "Diversified from pure oil operations into energy commodities trading",
-      "eventKo": "순수 석유 운영에서 에너지 상품 거래로 다각화"
+      "year": 2001,
+      "event": "Appointed Deputy Director of Planning at Hotel Shilla; previously worked as Manager at Samsung Electronics Strategic Planning Office",
+      "eventKo": "호텔신라 기획부 부장으로 자리 이동, 삼성전자 전략기획실 과장 역임"
+    },
+    {
+      "year": 2005,
+      "event": "Promoted to Executive Vice President in charge of management strategy at Hotel Shilla",
+      "eventKo": "호텔신라 경영전략담당 상무로 승진"
+    },
+    {
+      "year": 2009,
+      "event": "Promoted to Senior Executive Vice President at Hotel Shilla",
+      "eventKo": "호텔신라 전무로 승진"
     },
     {
       "year": 2010,
-      "event": "Bass became major investor in alternative energy and renewable resources",
-      "eventKo": "Bass는 대체 에너지 및 재생 자원의 주요 투자자가 됨"
+      "event": "Appointed President and CEO of Hotel Shilla (December), leading major expansion of duty-free retail operations",
+      "eventKo": "호텔신라 대표이사 사장 임명(12월), 면세점 사업 확대 주도"
     },
     {
-      "year": 2022,
-      "event": "Family wealth diversified across energy, real estate, and alternative investments; worth $4.4B+",
-      "eventKo": "가족 부는 에너지, 부동산 및 대체 투자 전역에 다각화; 44억 달러 이상의 가치"
+      "year": 2014,
+      "event": "Successfully expanded duty-free operations into multiple locations during Korean Wave boom period",
+      "eventKo": "한류 호황 시대에 면세점 다점포 확장 성공"
+    },
+    {
+      "year": 2023,
+      "event": "Ranked 82nd on Forbes' 100 Most Influential Women list, rising 3 positions from 2022",
+      "eventKo": "포브스 '2023년 가장 영향력 있는 여성 100명' 명단 82위 선정"
     }
   ],
   "failures": [
     {
-      "year": 2016,
-      "description": "Oil price collapse caused significant energy sector losses; diversification helped mitigate impact",
-      "descriptionKo": "유가 폭락으로 에너지 부문의 심각한 손실 야기; 다각화가 영향 완화 도움",
-      "lesson": "Energy prices are volatile and geopolitically dependent; diversification beyond energy is necessary",
-      "lessonKo": "에너지 가격은 변동성이 높고 지정학적 의존성이 있으며, 에너지를 넘어선 다각화가 필요",
-      "source": "https://www.oilpriceanalysis.com/2016-collapse"
+      "year": 2020,
+      "description": "Hotel Shilla faced severe operational challenges during COVID-19 pandemic, reporting operating losses in Q1 and Q2 (668 billion won and 634 billion won respectively), a sharp decline from 2019 revenue of 5.7 trillion won",
+      "descriptionKo": "COVID-19 팬데믹 시기 호텔신라의 심각한 경영난. 2020년 1분기와 2분기에 각각 668억 원, 634억 원의 영업손실 기록. 2019년 5조 7173억 원의 매출에서 급락",
+      "lesson": "External crises require rapid operational restructuring and diversification of revenue streams beyond core duty-free business",
+      "lessonKo": "외부 위기는 신속한 경영 구조 개선과 면세점 중심 사업 외 수익원 다각화를 요구함",
+      "source": "한경닷컴, 비즈니스포스트"
+    },
+    {
+      "year": 2023,
+      "description": "Hotel Shilla's revenue remained depressed at 3.5 trillion won with only 91.2 billion won operating profit, reflecting persistent challenges in duty-free retail market competition",
+      "descriptionKo": "2023년 호텔신라 매출 3조5685억 원, 영업이익 912억 원에 불과. 면세점 시장 경쟁심화로 인한 지속적인 경영 어려움",
+      "lesson": "Sustained market competition and changing consumer behavior require continuous innovation in retail experience and service quality",
+      "lessonKo": "지속적인 시장 경쟁과 변화하는 소비자 행동은 유통 경험과 서비스 품질의 혁신을 요구함",
+      "source": "한경닷컴, 비즈니스포스트"
     }
   ],
   "wealthHistory": [
     {
-      "year": 2005,
-      "netWorth": 2.8
+      "year": 2010,
+      "netWorth": 2.1
     },
     {
-      "year": 2012,
-      "netWorth": 3.5
+      "year": 2015,
+      "netWorth": 4.2
     },
     {
-      "year": 2018,
-      "netWorth": 3.9
+      "year": 2020,
+      "netWorth": 6.5
     },
     {
-      "year": 2024,
-      "netWorth": 4.4
+      "year": 2023,
+      "netWorth": 7.8
     }
   ],
   "quotes": [
     {
-      "text": "Energy markets will always be important to global economy. The key is adapting to how energy is produced and consumed.",
-      "textKo": "에너지 시장은 항상 글로벌 경제에 중요할 것입니다. 핵심은 에너지 생산 및 소비 방식에 적응하는 것입니다.",
-      "context": "Interview with Energy Weekly, 2018",
-      "contextKo": "Energy Weekly 인터뷰, 2018",
-      "source": "https://www.energyweekly.com/sid-bass"
+      "text": "We must view challenges as opportunities for innovation and growth",
+      "textKo": "위기를 혁신과 성장의 기회로 봐야 한다",
+      "context": "Leadership philosophy shared in interviews during restructuring of Hotel Shilla operations",
+      "contextKo": "호텔신라 경영 재구조화 시 인터뷰에서 언급한 리더십 철학",
+      "source": "CEO Magazine"
     }
   ],
   "books": {
     "authored": [],
-    "recommended": [
-      {
-        "title": "The Quest: Energy, Security, and the Remaking of the Modern World",
-        "author": "Daniel Yergin",
-        "note": "Bass frequently cites this for understanding global energy dynamics",
-        "noteKo": "Bass는 글로벌 에너지 역학을 이해하기 위해 자주 인용"
-      }
-    ]
+    "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Oil and gas legacy management, energy diversification, philanthropic leadership",
-    "knownForKo": "석유 및 가스 유산 관리, 에너지 다각화, 박애주의 리더십",
-    "philanthropy": "Major supporter of education, healthcare, and cultural institutions in Texas",
-    "philanthropyKo": "텍사스의 교육, 의료 및 문화 기관의 주요 지원자",
-    "controversies": null,
-    "controversiesKo": null
+    "knownFor": "Strategic leadership of Hotel Shilla's international expansion and duty-free retail dominance. Known for calm, composed management style reminiscent of her father Lee Kun-hee. Major influence on Samsung's hospitality and luxury retail sectors.",
+    "knownForKo": "호텔신라의 국제 확장과 면세점 사업 주도. 아버지 이건희 회장과 유사한 침착하고 위엄 있는 경영 스타일로 알려짐. 삼성의 호텔과 럭셔리 유통 사업에 큰 영향력 행사",
+    "philanthropy": "Active in Samsung's cultural and social welfare initiatives through family foundations. Supports various charitable causes aligned with Samsung's corporate social responsibility programs.",
+    "philanthropyKo": "삼성 문화 및 사회복지 기금을 통한 사회공헌 활동. 삼성의 기업사회책임 프로그램과 일치하는 다양한 자선사업 지원",
+    "controversies": "Hotel Shilla faced guest service quality complaints in 2024, including unclean rooms at newly opened Signiel Gangneung. Some shareholder opposition to management continuation due to financial performance concerns. No major personal controversies; criticism primarily directed at operational management.",
+    "controversiesKo": "2024년 신라모노그램 강릉의 객실 청소 불량 등 호텔신라의 서비스 품질 논란. 재정 실적 악화로 인한 일부 소액주주의 경영진 연임 반대 운동. 개인적 스캔들은 없으며 비판은 주로 경영 운영에 집중"
   },
-  "sajuConnection": null
+  "sajuConnection": {
+    "note": null,
+    "value": null
+  }
 }

@@ -2,58 +2,103 @@
   "id": "578",
   "name": "Edward Roski Jr",
   "childhood": {
-    "birthPlace": "United States",
-    "birthPlaceKo": "미국",
-    "familyBackground": "A billionaire businessman and philanthropist, Edward Roski Jr. is the president of Majestic Realty, specializing in real estate development. He has built his wealth through the ownership of over 83 million square feet of real estate in the U.S.",
-    "familyBackgroundKo": "Edward Roski, Jr.는 포브스 2026년 억만장자 순위 542위입니다. 여기에서 Edward Roski, Jr.의 경력, 자산 요약 등에 대해 자세히 알아보세요.",
-    "education": "Details of Edward Roski Jr's formal education are documented in limited public sources.",
-    "educationKo": "Edward Roski Jr의 정규 교육에 대한 세부사항은 제한된 공개 자료에 기록되어 있음.",
-    "earlyLife": "Edward Roski Jr built a career in Real estate, becoming one of the world's wealthiest individuals.",
-    "earlyLifeKo": "Edward Roski Jr은(는) Real estate 분야에서 경력을 쌓아 세계 최고 부호 중 한 명이 됨.",
-    "source": "Forbes, Wikipedia"
+    "birthPlace": "Los Angeles, California, USA",
+    "birthPlaceKo": "미국 캘리포니아주 로스앤젤레스",
+    "familyBackground": "1938년 12월 25일 오클라호마 농촌에서 태어났다. 아버지 에드 로스키 시니어는 폴란드 이민자의 아들로, 어려운 환경에서 성장했다. 로스키 시니어는 1948년 마제스틱 리얼티(Majestic Realty)를 설립해 주로 부동산 중개업을 운영했으며, 가족은 이후 로스앤젤레스로 이주했다.",
+    "familyBackgroundKo": "1938년 12월 25일 오클라호마 농촌에서 태어났다. 아버지 에드 로스키 시니어는 폴란드 이민자의 아들로, 어려운 환경에서 성장했다. 로스키 시니어는 1948년 마제스틱 리얼티(Majestic Realty)를 설립해 주로 부동산 중개업을 운영했으며, 가족은 이후 로스앤젤레스로 이주했다.",
+    "education": "Attended Loyola High School in Los Angeles. Graduated from the University of Southern California (USC) in 1962 with a bachelor's degree in real estate and finance.",
+    "educationKo": "로스앤젤레스 로욜라 고등학교를 졸업했다. 1962년 서던캘리포니아대학교(USC)에서 부동산 및 금융 학사 학위를 취득했다.",
+    "earlyLife": "After graduating from USC in 1962, he immediately enrolled in the United States Marine Corps and served in Vietnam, where he was wounded in combat during Operation Starlite at Chu Lai in 1965.",
+    "earlyLifeKo": "1962년 USC 졸업 후 즉시 미국 해병대에 입대하여 베트남에서 복무했으며, 1965년 추라이에서 벌어진 스타라이트 작전 중 전투에서 부상을 입었다."
   },
   "careerTimeline": [
     {
-      "year": 1963,
-      "event": "Began career in Real estate",
-      "eventKo": "Real estate 분야에서 경력 시작"
+      "year": 1962,
+      "event": "Graduated from USC with a degree in real estate and finance; enrolled in the United States Marine Corps.",
+      "eventKo": "USC에서 부동산 및 금융 학위 취득 후 미국 해병대에 입대."
     },
     {
-      "year": 2020,
-      "event": "Continued expanding operations and investments",
-      "eventKo": "사업 및 투자 확대 지속"
+      "year": 1965,
+      "event": "Served in Vietnam with the 1st Battalion, 4th Marines; wounded at Chu Lai during Operation Starlite. Awarded a Bronze Star Medal and two Purple Hearts.",
+      "eventKo": "해병 제4연대 제1대대 소속으로 베트남 참전; 스타라이트 작전 중 추라이에서 부상. 브론즈 스타 메달과 퍼플 하트 2개 수훈."
     },
     {
-      "year": 2025,
-      "event": "Net worth reached $6.6B, ranking among world's wealthiest",
-      "eventKo": "순자산 6.60억 달러 도달, 세계 최고 부호 대열"
+      "year": 1966,
+      "event": "Joined his father's company Majestic Realty after returning from military service.",
+      "eventKo": "군 복무를 마치고 아버지의 회사 마제스틱 리얼티에 입사."
+    },
+    {
+      "year": 1978,
+      "event": "Became Executive Vice President and Chief Operating Officer of Majestic Realty, taking on greater leadership responsibility.",
+      "eventKo": "마제스틱 리얼티 부사장 겸 최고운영책임자(COO)로 취임하며 경영 리더십 확대."
+    },
+    {
+      "year": 1994,
+      "event": "Became President and Chairman of Majestic Realty, steering the company's major expansion into one of the largest privately held industrial real estate developers in the US.",
+      "eventKo": "마제스틱 리얼티 사장 겸 회장에 취임; 미국 최대 민간 산업 부동산 개발사 중 하나로 회사를 키워냄."
+    },
+    {
+      "year": 1995,
+      "event": "Became a minority co-owner of the Los Angeles Kings NHL hockey team.",
+      "eventKo": "NHL 로스앤젤레스 킹스의 소수 공동 구단주가 됨."
+    },
+    {
+      "year": 1998,
+      "event": "Became a minority owner of the Los Angeles Lakers NBA basketball team and co-owner of Staples Center (now Crypto.com Arena).",
+      "eventKo": "NBA 로스앤젤레스 레이커스 소수 구단주 및 스테이플스 센터(현 크립토닷컴 아레나) 공동 소유주가 됨."
+    },
+    {
+      "year": 2002,
+      "event": "Established the Majestic Realty Foundation, a community outreach program focused on youth, family, education, health, and violence prevention.",
+      "eventKo": "청소년, 가족, 교육, 건강, 폭력 예방에 집중하는 지역사회 봉사 프로그램 마제스틱 리얼티 재단 설립."
+    },
+    {
+      "year": 2006,
+      "event": "Donated $23 million with his wife Gayle to USC for its fine arts school, since renamed the USC Roski School of Art and Design.",
+      "eventKo": "배우자 게일과 함께 USC 미술대학에 2,300만 달러 기부; 이후 USC 로스키 미술디자인 스쿨로 명명."
+    },
+    {
+      "year": 2024,
+      "event": "Majestic Realty had grown to over 92 million square feet of rentable industrial space, cementing Roski's legacy as a preeminent US real estate developer.",
+      "eventKo": "마제스틱 리얼티의 임대 가능 산업 공간이 9,200만 평방피트를 넘어서며 미국 최고 부동산 개발자로서의 입지를 확고히 함."
     }
   ],
   "failures": [
     {
-      "year": 2020,
-      "description": "COVID-19 pandemic created unprecedented challenges across global business",
-      "descriptionKo": "코로나19 팬데믹이 전 세계 비즈니스에 전례 없는 도전 초래",
-      "lesson": "Adaptability and resilience are essential for surviving global crises",
-      "lessonKo": "글로벌 위기를 생존하는 데 적응력과 회복력이 필수적",
-      "source": "Forbes"
+      "year": 2010,
+      "description": "Roski's years-long effort to build a new NFL stadium in the Los Angeles area failed to secure an NFL franchise, despite significant lobbying and land acquisition efforts.",
+      "descriptionKo": "로스앤젤레스 지역에 새 NFL 스타디움을 건설하려는 수년간의 노력이 상당한 로비와 부지 매입 시도에도 불구하고 NFL 프랜차이즈 유치에 실패했다.",
+      "lesson": "Even well-resourced investors cannot force major league sports expansion; franchise decisions rely heavily on league politics beyond individual influence.",
+      "lessonKo": "충분한 자원을 갖춘 투자자라도 메이저리그 스포츠 확장을 강제할 수는 없으며, 프랜차이즈 결정은 개인의 영향력을 넘어선 리그 내부 정치에 크게 좌우된다."
     }
   ],
   "wealthHistory": [
     {
+      "year": 1990,
+      "netWorth": 0.8
+    },
+    {
+      "year": 2000,
+      "netWorth": 2.0
+    },
+    {
+      "year": 2005,
+      "netWorth": 2.8
+    },
+    {
       "year": 2010,
-      "netWorth": 1.6
+      "netWorth": 3.5
     },
     {
       "year": 2015,
-      "netWorth": 3.0
+      "netWorth": 4.5
     },
     {
-      "year": 2022,
-      "netWorth": 4.6
+      "year": 2020,
+      "netWorth": 5.5
     },
     {
-      "year": 2025,
+      "year": 2024,
       "netWorth": 6.6
     }
   ],
@@ -63,7 +108,10 @@
     "recommended": []
   },
   "personalTraits": {
-    "knownFor": "Building wealth through Real estate. One of the world's wealthiest individuals with net worth of $6.6B.",
-    "knownForKo": "Real estate을(를) 통해 부를 축적. 순자산 $6.6B의 세계 최고 부호 중 한 명."
-  }
+    "knownFor": "Decorated Marine combat veteran who built Majestic Realty into the largest privately held industrial real estate developer in the US; known for adventure pursuits including visiting the Titanic wreck, cycling across Mongolia and Myanmar, and deep-sea diving off New Guinea.",
+    "knownForKo": "마제스틱 리얼티를 미국 최대 민간 산업 부동산 개발사로 키운 해병 참전 용사; 타이타닉 잔해 방문, 몽골·미얀마 자전거 횡단, 뉴기니 심해 다이빙 등 모험적 활동으로도 잘 알려져 있다.",
+    "philanthropy": "Donated $23 million to USC's fine arts school (now USC Roski School of Art and Design) and $25 million to USC's Keck School of Medicine eye institute. Founded the Majestic Realty Foundation which distributes over $2 million annually to community programs.",
+    "philanthropyKo": "USC 미술대학(현 USC 로스키 미술디자인 스쿨)에 2,300만 달러, USC 켁 의과대학 안과 연구소에 2,500만 달러를 기부했다. 연간 200만 달러 이상을 지역사회 프로그램에 배분하는 마제스틱 리얼티 재단을 설립했다."
+  },
+  "sajuConnection": null
 }
