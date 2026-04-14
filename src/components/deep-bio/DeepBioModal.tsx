@@ -262,7 +262,7 @@ export default function DeepBioModal({ person, onClose }: Props) {
           </div>
           <div className="mt-2 space-y-0.5 text-xs text-gray-600">
             <p>{person.industry}</p>
-            <p>{person.birthday.replace(/-/g, '.')}</p>
+            <p>{person.birthday.replace(/-/g, '.')}{person.deathDate ? ` - ${person.deathDate.replace(/-/g, '.')}` : ''}</p>
             {bio?.childhood?.birthPlace && (
               <p className="text-gray-500">{ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo)}</p>
             )}
@@ -307,7 +307,7 @@ export default function DeepBioModal({ person, onClose }: Props) {
             <span className="text-gray-300">·</span>
             <span>{person.source || person.industry}</span>
             <span className="text-gray-300">·</span>
-            <span>{person.birthday.replace(/-/g, '.')}</span>
+            <span>{person.birthday.replace(/-/g, '.')}{person.deathDate ? ` - ${person.deathDate.replace(/-/g, '.')}` : ''}</span>
             {bio?.childhood?.birthPlace && (
               <>
                 <span className="text-gray-300">·</span>

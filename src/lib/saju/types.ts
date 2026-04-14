@@ -52,6 +52,7 @@ export interface Person {
   bio?: string; // One-sentence neutral summary of who they are and how they made their fortune
   bioKo?: string; // Korean translation of `bio`. Populated by scripts/translate-bios.ts.
   wealthOrigin?: 'self-made' | 'inherited' | 'mixed'; // mixed = inherited a business and substantially grew it
+  deathDate?: string; // YYYY-MM-DD, for deceased persons
 }
 
 export interface EnrichedPerson extends Person {

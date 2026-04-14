@@ -121,7 +121,7 @@ export default function ProfilePage() {
               </p>
               <p>
                 <span className="text-gray-400 w-16 inline-block">{lang === 'ko' ? '생년월일' : 'Born'}</span>
-                <span className="ml-2">{person.birthday.replace(/-/g, '.')}</span>
+                <span className="ml-2">{person.birthday.replace(/-/g, '.')}{person.deathDate ? ` - ${person.deathDate.replace(/-/g, '.')}` : ''}</span>
               </p>
               {bio?.childhood?.birthPlace && (
                 <p>
