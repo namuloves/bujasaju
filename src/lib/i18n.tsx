@@ -121,7 +121,7 @@ type Dict = {
 
 const ko: Dict = {
   siteTagline: '세상은 넓고 부자는 많다!',
-  siteSubTagline: '나와 비슷한 사주 구조를 가진 부자는 누가 있을까?',
+  siteSubTagline: '나와 비슷한 사주를 가진 부자는 누가 있을까?',
   searchPlaceholder: '궁금한 부자사주 이름을 검색해 보세요',
   gender: '성별',
   all: '전체',
@@ -164,8 +164,8 @@ const ko: Dict = {
   creditsThanks: '도움주신 내친이님 감사합니다',
   tabMatch: '매치',
   tabBrowse: '전체 부자',
-  matchHeadline: '나와 비슷한 사주를 가진 부자는?',
-  matchSubhead: '생년월일을 입력하면 같은 일주·월지·격국을 가진 부자들을 찾아드립니다',
+  matchHeadline: '나와 비슷한 사주를 가진 부자는 누가 있을까?',
+  matchSubhead: '생년월일을 입력하면 같은 일주·월지·격국을 가진 부자들을 찾아드립니다.',
   inputModeBirthday: '생년월일로',
   inputModeDirect: '사주 직접 입력',
   year: '년',

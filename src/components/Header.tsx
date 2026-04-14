@@ -40,7 +40,7 @@ export default function Header() {
             <div
               role="group"
               aria-label={t.languageLabel}
-              className="inline-flex rounded-md border border-gray-200 overflow-hidden"
+              className="inline-flex rounded-md border border-gray-200 overflow-hidden !hidden"
             >
               <LangButton value="ko" label="KO" />
               <LangButton value="en" label="EN" />
