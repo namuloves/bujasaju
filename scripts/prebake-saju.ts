@@ -155,7 +155,7 @@ const enriched: EnrichedPerson[] = valid.map((person, index) => {
   return {
     ...person,
     nameKo: person.nameKo ?? nameKoMap[person.name],
-    id: String(index + 1),
+    id: person.id,
     saju,
   };
 });
