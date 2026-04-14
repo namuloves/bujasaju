@@ -123,17 +123,17 @@ function buildPrompt(input: SummaryInput): string {
       const sajuResult: SajuResult = {
         saju: {
           year: user.yearStem && user.yearBranch
-            ? { stem: user.yearStem, branch: user.yearBranch }
-            : { stem: '갑', branch: '자' },
-          month: { stem: user.monthStem, branch: user.monthBranch },
-          day: { stem: user.dayStem, branch: user.dayBranch },
+            ? { stem: user.yearStem as CheonGan, branch: user.yearBranch as JiJi }
+            : { stem: '갑' as CheonGan, branch: '자' as JiJi },
+          month: { stem: user.monthStem as CheonGan, branch: user.monthBranch as JiJi },
+          day: { stem: user.dayStem as CheonGan, branch: user.dayBranch as JiJi },
           hour: user.hourStem && user.hourBranch
-            ? { stem: user.hourStem, branch: user.hourBranch }
+            ? { stem: user.hourStem as CheonGan, branch: user.hourBranch as JiJi }
             : null,
         },
         gyeokguk: user.gyeokguk as SajuResult['gyeokguk'],
-        ilju: user.ilju,
-        wolji: user.wolji,
+        ilju: user.ilju as string,
+        wolji: user.wolji as JiJi,
       };
       const analysis = analyzeSaju(sajuResult);
       sajuAnalysisSection = `\n# 사주 명리학 분석 (충·합·형·오행)\n${analysis.summaryKo}\n`;
