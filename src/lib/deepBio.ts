@@ -81,6 +81,192 @@ export interface DeepBio {
   } | null;
 }
 
+// ---------- v2 deep bio (richer schema for 사주 풀이) ----------
+//
+// v2 mirrors scripts/deep-bio-schema-v2.json. It adds:
+//   - capitalOrigin (self-made / inherited / mixed / political)
+//   - turningPoints (decisive choices with alternatives)
+//   - moneyMechanics (how the wealth was actually built)
+//   - characterKo (observed traits — for contrast with saju)
+//   - careerTimeline[i].age + whyItMatteredKo + whatTheyRiskedKo + whoHelpedKo
+//   - failures[i].age + howTheyOvercameKo
+//
+// v2 bios live at public/deep-bios-v2/{id}.json. They are generated via
+// Cowork (scripts/deep-bio-v2-prompt.md) and accumulated incrementally.
+
+export interface DeepBioV2CareerEvent {
+  year: number;
+  age: number;
+  event: string;
+  eventKo: string;
+  whyItMatteredKo: string;
+  whatTheyRiskedKo?: string;
+  whoHelpedKo?: string;
+  source?: string;
+}
+
+export interface DeepBioV2TurningPoint {
+  year: number;
+  age: number;
+  decisionKo: string;
+  alternativeKo: string;
+  outcomeKo: string;
+  source?: string;
+}
+
+export interface DeepBioV2MoneyMechanics {
+  coreBusinessKo: string;
+  moatKo: string;
+  luckVsSkillKo: string;
+  politicalCapitalKo: string;
+  capitalHistoryKo: string;
+  source?: string;
+}
+
+/**
+ * v2 failure entry. Cowork has been inconsistent about the field name —
+ * some bios use `description`/`descriptionKo`, others use `failure`/`failureKo`.
+ * Both are accepted; consumers should use `getFailureKo(f)` to read.
+ */
+export interface DeepBioV2Failure {
+  year: number;
+  age: number;
+  description?: string;
+  descriptionKo?: string;
+  failure?: string;
+  failureKo?: string;
+  howTheyOvercameKo: string;
+  lessonKo: string;
+  source?: string;
+}
+
+/** Read the Korean failure description regardless of which key Cowork used. */
+export function getFailureKo(f: DeepBioV2Failure): string {
+  return f.descriptionKo ?? f.failureKo ?? f.description ?? f.failure ?? '';
+}
+
+export interface DeepBioV2CapitalOrigin {
+  typeKo: 'self-made' | 'inherited' | 'mixed' | 'political' | string;
+  explanationKo: string;
+  source?: string;
+}
+
+export interface DeepBioV2CharacterKo {
+  observedTraitsKo: string;
+  leadershipStyleKo: string;
+  conflictBehaviorKo: string;
+  knownQuirksKo: string;
+  source?: string;
+}
+
+export interface DeepBioV2 {
+  id: string;
+  name: string;
+  nameKo?: string;
+  netWorth?: string;
+  nationality?: string;
+  industry?: string;
+
+  childhood: {
+    birthPlace: string;
+    birthPlaceKo: string;
+    familyBackground?: string;
+    familyBackgroundKo: string;
+    education?: string;
+    educationKo?: string;
+    earlyLife?: string;
+    earlyLifeKo?: string;
+    capitalTypeKo?: string;
+    source?: string;
+  };
+
+  capitalOrigin: DeepBioV2CapitalOrigin;
+  careerTimeline: DeepBioV2CareerEvent[];
+  turningPoints: DeepBioV2TurningPoint[];
+  moneyMechanics: DeepBioV2MoneyMechanics;
+  failures: DeepBioV2Failure[];
+  wealthHistory: WealthDataPoint[];
+  characterKo: DeepBioV2CharacterKo;
+
+  // Carried over from v1, kept loose:
+  quotes?: Quote[];
+  books?: { authored: Book[]; recommended: Book[] };
+  personalTraits?: DeepBio['personalTraits'];
+  sajuConnection?: unknown;
+}
+
+const cacheV2 = new Map<string, DeepBioV2 | null>();
+
+/**
+ * Fetch a v2 deep bio by person ID. Returns null if not available.
+ * Cached per session.
+ */
+export async function fetchDeepBioV2(personId: string): Promise<DeepBioV2 | null> {
+  if (cacheV2.has(personId)) return cacheV2.get(personId) ?? null;
+  try {
+    const res = await fetch(`/deep-bios-v2/${personId}.json`);
+    if (!res.ok) {
+      cacheV2.set(personId, null);
+      return null;
+    }
+    const data = (await res.json()) as DeepBioV2;
+    cacheV2.set(personId, data);
+    return data;
+  } catch {
+    cacheV2.set(personId, null);
+    return null;
+  }
+}
+
+/**
+ * IDs of billionaires that have v2 deep bios in public/deep-bios-v2/.
+ *
+ * Seeded manually for now. Will grow as Cowork batches drop new files.
+ * Regenerate via `scripts/regen-v2-manifest.ts` (TODO) once we have many.
+ */
+const DEEP_BIO_V2_IDS = new Set<string>([
+  // Global Top 10
+  '1',  // Elon Musk
+  '2',  // Larry Page
+  '3',  // Sergey Brin
+  '4',  // Jeff Bezos
+  '5',  // Mark Zuckerberg
+  '6',  // Larry Ellison
+  '7',  // Jensen Huang
+  '8',  // Michael Dell
+  '9',  // Bernard Arnault
+  '10', // Rob Walton
+  // Korean (18 done)
+  '111',  // 이재용
+  '417',  // 이부진
+  '455',  // 이서현
+  '467',  // 조정호
+  '470',  // 서정진
+  '480',  // 홍라희
+  '550',  // 정몽구
+  '675',  // 정의선
+  '794',  // 곽동신
+  '894',  // 박현주
+  '1187', // 김범수
+  '1190', // 윤대인
+  '1437', // 조현준
+  '1484', // 김준기
+  '1510', // 정몽준
+  '1518', // 최태원
+  '1528', // 김병훈
+  '1609', // 박순재
+  '1691', // 유정현
+  '1728', // 송치형
+  '3357', // 권혁빈
+]);
+
+/** Synchronous check — no network request. */
+export function hasDeepBioV2Sync(personId: string): boolean {
+  return DEEP_BIO_V2_IDS.has(personId);
+}
+
+// ---------- v1 ----------
+
 // Cache fetched deep bios in memory
 const cache = new Map<string, DeepBio | null>();
 

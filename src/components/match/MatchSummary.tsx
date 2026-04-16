@@ -277,7 +277,7 @@ export default function MatchSummary({ saju, matches }: Props) {
   const text = state.text;
 
   return (
-    <div className="relative rounded-2xl bg-white p-5 sm:p-6">
+    <div className="relative">
       <div className="flex items-baseline gap-2 mb-3">
         <span className="text-xl">✨</span>
         <h3 className="text-base font-bold text-gray-900">사주 풀이</h3>

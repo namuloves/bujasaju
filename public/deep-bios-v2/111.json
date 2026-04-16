@@ -1,0 +1,291 @@
+{
+  "id": "111",
+  "name": "Jay Y. Lee",
+  "nameKo": "이재용",
+  "netWorth": "$22.3B",
+  "nationality": "KR",
+  "industry": "Technology",
+
+  "childhood": {
+    "birthPlace": "Washington, D.C., USA",
+    "birthPlaceKo": "미국 워싱턴 D.C.",
+    "familyBackground": "Father Lee Kun-hee (1942-2020) — second chairman of Samsung Group (1987-2020), turned Samsung from regional Korean conglomerate into global electronics leader. Mother Hong Ra-hee (1945-) — director of Leeum Samsung Museum of Art, daughter of Hong Jin-ki (former Joongang Ilbo chairman). Grandfather Lee Byung-chul (1910-1987) — founder of Samsung (1938). Three sisters: Lee Boo-jin (Hotel Shilla CEO), Lee Seo-hyun (Samsung Welfare Foundation chair), Lee Yoon-hyung (suicide 2005). Korea's most prominent business dynasty.",
+    "familyBackgroundKo": "부친 이건희(1942-2020) — 삼성그룹 2대 회장(1987-2020), 한국 지역 재벌이던 삼성을 글로벌 전자 1위 기업으로 변모시킴. 모친 홍라희(1945-) — 리움 삼성미술관 관장, 홍진기 전 중앙일보 회장의 딸. 조부 이병철(1910-1987) — 1938년 삼성 창업자. 누이 셋: 이부진(호텔신라 사장), 이서현(삼성복지재단 이사장), 이윤형(2005년 자살). 한국 최고 명문 재벌가.",
+    "education": "Kyungbock High School (Seoul, 1987); Seoul National University BA in East Asian History (1991); Keio University MBA (Japan, 1995); Harvard Business School DBA program (1995-2001, did not complete doctorate).",
+    "educationKo": "경복고등학교(서울, 1987 졸업); 서울대학교 동양사학과 학사(1991); 게이오 대학교 MBA(일본, 1995); 하버드 비즈니스 스쿨 DBA 박사 과정(1995-2001 수료, 박사 학위는 미취득).",
+    "earlyLife": "Born June 23, 1968 in Washington D.C. while father Lee Kun-hee was studying at George Washington University. Grew up in Seoul as the only son and chosen heir of the Samsung dynasty from birth — Korean Confucian primogeniture meant his entire upbringing was groomed for succession. Studied East Asian history at SNU (the Korean elite humanities track), then Keio for Japanese business networks (Samsung's main rival/partner), then Harvard for Western executive credentials. Married Im Se-ryung (daughter of Daesang Group's Im Chang-uk) in 1998 — divorced 2009 with two children.",
+    "earlyLifeKo": "1968년 6월 23일 부친 이건희가 조지워싱턴대 유학 중일 때 워싱턴 D.C.에서 출생. 서울에서 성장, 출생 시점부터 삼성 왕조의 유일한 아들·지정 후계자 — 한국 유교적 장자상속 전통이 그의 모든 양육을 승계 훈련으로 만듦. 서울대 동양사학과(한국 엘리트 인문 트랙) → 게이오대 MBA(삼성의 주요 경쟁자·파트너인 일본 비즈니스 네트워크) → 하버드 박사과정(서구식 임원 자격증) 순으로 의도적 진학. 1998년 임세령(대상그룹 임창욱 회장 딸)과 결혼, 2009년 이혼 — 슬하 2자녀.",
+    "capitalTypeKo": "inherited. 한국 재벌 3세 명백한 상속형. 1996년 부친 이건희가 비상장 에버랜드 전환사채(CB)를 이재용에게 헐값에 발행 → 에버랜드가 삼성생명·삼성전자 지배 — 이 '에버랜드 CB 사건'이 삼성 승계의 핵심 사다리. 본인 종잣돈은 부친 증여 수십억 원. Forbes self-made score 1/10. 단, 2014년 부친 의식불명 후 10년간 글로벌 반도체·바이오 산업에서 실무 책임은 본인이 짐.",
+    "source": "https://en.wikipedia.org/wiki/Lee_Jae-yong ; https://www.britannica.com/biography/Lee-Jae-yong ; https://en.namu.wiki/w/%EC%9D%B4%EC%9E%AC%EC%9A%A9"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "inherited",
+    "explanationKo": "한국 재벌 3세 상속형. 1938년 조부 이병철이 창업, 1987년 부친 이건희에게 승계, 2014년 이건희 의식불명 후 본인이 사실상 통솔. 자본의 출발점은 1995-96년 부친의 약 60억 원 증여 + 1996년 에버랜드 전환사채(CB) 헐값 발행으로 비상장 에버랜드 지분을 확보 → 에버랜드가 삼성생명을, 삼성생명이 삼성전자를 지배하는 순환출자 구조의 정점에 오름. Forbes self-made score 1/10. 다만 2014년 이후 글로벌 반도체·바이오·전장 사업에서 실무 결정권자로 활동.",
+    "source": "https://www.forbes.com/profile/jay-y-lee/ ; https://en.wikipedia.org/wiki/Samsung_Everland"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1991,
+      "age": 23,
+      "event": "Graduated Seoul National University BA East Asian History; immediately joined Samsung as section chief in strategic planning / Samsung Electronics Total Quality Management group.",
+      "eventKo": "서울대 동양사학과 학사 취득, 즉시 삼성그룹 입사 — 삼성전자 총무팀 또는 전략기획실 과장으로 시작.",
+      "whyItMatteredKo": "23세에 가족 회사 입사 — 한국 재벌 3세 표준 트랙. 삼성 내부 인적 네트워크 구축의 시작점.",
+      "source": "https://en.wikipedia.org/wiki/Lee_Jae-yong"
+    },
+    {
+      "year": 1995,
+      "age": 27,
+      "event": "Completed Keio University MBA in Japan; entered Harvard Business School DBA (Doctor of Business Administration) program. Father Lee Kun-hee gifted him approximately ₩6.1 billion (~$8M at the time), of which ₩1.6B was paid as gift tax, leaving ₩4.5B as seed capital.",
+      "eventKo": "게이오대 MBA 취득, 하버드 비즈니스 스쿨 DBA 박사 과정 입학. 부친 이건희가 약 61억 원 증여(증여세 16억 원 납부 후 45억 원 종잣돈 확보).",
+      "whyItMatteredKo": "단 한 번의 증여 + 즉각적 비상장사 투자 패턴이 시작. 이 45억 원이 1996년 에버랜드 CB 인수의 종잣돈.",
+      "whatTheyRiskedKo": "공개적 증여 금액의 1996년 사회적 비판",
+      "source": "https://en.wikipedia.org/wiki/Lee_Jae-yong ; https://en.namu.wiki/w/%EC%9D%B4%EC%9E%AC%EC%9A%A9"
+    },
+    {
+      "year": 1996,
+      "age": 28,
+      "event": "Bought Samsung Everland convertible bonds (CB) at ₩7,700/share — a price later ruled artificially low by court. Through CB conversion, Lee gained 25.1% of Everland (formerly amusement park, now de facto Samsung holding company), giving him control over the chain Everland → Samsung Life → Samsung Electronics.",
+      "eventKo": "삼성에버랜드 전환사채(CB)를 주당 7,700원에 매입 — 후일 법원이 인위적 저가라 판정. CB 전환으로 에버랜드 지분 25.1% 확보, 에버랜드(원래 놀이공원, 사실상 삼성 지주회사) → 삼성생명 → 삼성전자 순환출자 사다리의 정점에 오름.",
+      "whyItMatteredKo": "삼성 승계의 결정적 전환점. 이 한 번의 거래가 향후 25년간 모든 삼성 지배구조 분쟁(에버랜드 CB 사건, 삼성SDS BW 사건, 삼성물산-제일모직 합병)의 출발점. 한국 재벌 승계의 가장 논쟁적 사례.",
+      "whatTheyRiskedKo": "에버랜드 기존 주주 희석, 향후 형사 소송(2009년 부친 이건희가 배임 유죄 → 사면), 법인세·증여세 회피 비판",
+      "whoHelpedKo": "삼성 구조조정본부(미래전략실의 전신), 부친 이건희",
+      "source": "https://en.wikipedia.org/wiki/Samsung_Everland ; https://en.wikipedia.org/wiki/Lee_Jae-yong"
+    },
+    {
+      "year": 2001,
+      "age": 33,
+      "event": "Returned from Harvard without doctorate; appointed VP of Samsung Electronics Customer Service Strategy team. Began real operational rotation through Samsung's main businesses.",
+      "eventKo": "하버드에서 박사 학위 없이 귀국, 삼성전자 경영기획실 상무보로 임명. 삼성 주력 사업의 실무 순환 본격 시작.",
+      "whyItMatteredKo": "33세 임원 진입 — 삼성 평사원 입사 후 임원 승진까지 평균 17년인 한국에서 압축적 승진 트랙. 부친의 후계 수업 가속화.",
+      "source": "https://en.wikipedia.org/wiki/Lee_Jae-yong"
+    },
+    {
+      "year": 2003,
+      "age": 35,
+      "event": "Appointed Senior VP of Samsung Electronics; led the e-Samsung internet venture (a digital business spinoff group launched 2000). The e-Samsung initiative collapsed by 2003 with massive losses, his first publicly visible business failure.",
+      "eventKo": "삼성전자 상무 승진, e-삼성 인터넷 벤처(2000년 출범한 디지털 사업 분사 그룹) 주도. 2003년까지 막대한 손실로 폐쇄 — 첫 공개적 사업 실패.",
+      "whyItMatteredKo": "한국 사회에 'Lee Jae-yong = 능력 있는가?'라는 의문을 처음 던진 사건. 이 실패의 손실(약 1,000억 원 이상)을 삼성 계열사들이 분담한 사실이 후일 폭로되어 비난.",
+      "source": "https://en.wikipedia.org/wiki/Lee_Jae-yong ; https://en.namu.wiki/w/%EC%9D%B4%EC%9E%AC%EC%9A%A9"
+    },
+    {
+      "year": 2009,
+      "age": 41,
+      "event": "Appointed Chief Operating Officer (COO) of Samsung Electronics in December 2009. Father Lee Kun-hee resigned chairmanship in April 2008 over the special prosecutor investigation but was pardoned and returned in 2010.",
+      "eventKo": "2009년 12월 삼성전자 최고운영책임자(COO) 선임. 부친 이건희는 2008년 4월 특검 수사로 회장직 사임 후 2010년 사면·복귀.",
+      "whyItMatteredKo": "2008년 이건희 사임 → Lee Jae-yong COO로 본격 전면. 한국 1위 그룹의 운영 일선에 진입.",
+      "source": "https://en.wikipedia.org/wiki/Lee_Jae-yong"
+    },
+    {
+      "year": 2012,
+      "age": 44,
+      "event": "Promoted to Vice Chairman of Samsung Electronics (December 2012).",
+      "eventKo": "삼성전자 부회장 승진(2012년 12월).",
+      "whyItMatteredKo": "이건희 회장의 공식 후계자 지위 확정. 이후 모든 글로벌 협상(애플 특허, TSMC, 팹4 투자)에서 본인이 직접 출현.",
+      "source": "https://en.wikipedia.org/wiki/Lee_Jae-yong"
+    },
+    {
+      "year": 2014,
+      "age": 46,
+      "event": "Father Lee Kun-hee suffered massive heart attack May 10, 2014, falling into a coma. Lee Jae-yong became Samsung's de facto leader overnight at age 46.",
+      "eventKo": "2014년 5월 10일 부친 이건희가 심근경색으로 의식불명, 코마 상태. Lee Jae-yong이 46세에 하루아침에 삼성 사실상 1인자.",
+      "whyItMatteredKo": "준비된 승계가 아닌 갑작스러운 권력 이양. 이후 6년간 부친이 코마 상태로 살아 있어 공식 회장직은 부친이 유지, Lee는 부회장으로 실권 행사 — 한국 재벌사 유일한 사례.",
+      "whatTheyRiskedKo": "준비 부족한 권력 이양, 시장 신뢰 위기, 가족 내 권력 분쟁 가능성",
+      "source": "https://www.cnn.com/2020/10/24/business/samsung-lee-kun-hee-intl-hnk/index.html"
+    },
+    {
+      "year": 2015,
+      "age": 47,
+      "event": "Pushed through controversial merger of Cheil Industries and Samsung C&T (July 2015) at a 1:0.35 ratio that benefited Cheil shareholders (where Lee held 23.2%) over C&T shareholders. National Pension Service voted in favor under presidential pressure — later proved by special prosecutor.",
+      "eventKo": "2015년 7월 제일모직과 삼성물산 합병을 1:0.35 비율로 추진, 제일모직 주주(이재용 23.2% 보유)에게 유리·삼성물산 주주에게 불리. 국민연금이 청와대 압력하에 찬성표 행사 — 후일 특검에서 증명.",
+      "whyItMatteredKo": "에버랜드 → 제일모직 → 삼성물산 합병 → 새 삼성물산이 삼성전자 지분 보유 — 승계 사다리의 마지막 단계 완성. 그러나 이 거래가 박근혜·최순실 게이트의 핵심으로 비화.",
+      "whatTheyRiskedKo": "삼성물산 소액주주 손실, Elliott Management 적대적 반대, 향후 형사 처벌 위험",
+      "source": "https://www.cnn.com/2020/09/01/tech/samsung-jay-y-lee-hnk-intl"
+    },
+    {
+      "year": 2017,
+      "age": 49,
+      "event": "Arrested January 2017 for bribery in Park Geun-hye / Choi Soon-sil corruption scandal — Samsung paid ₩8.6B-8.9B to Choi Soon-sil's foundations in exchange for presidential office support of the 2015 merger. August 2017: convicted of bribery, embezzlement, perjury, sentenced to 5 years prison (later reduced to 2.5 years on appeal).",
+      "eventKo": "2017년 1월 박근혜·최순실 게이트 뇌물 혐의로 구속 — 삼성이 86억-89억 원을 최순실 측 재단에 송금한 대가로 2015년 합병에 청와대 지원. 8월 뇌물·횡령·위증으로 5년형(항소심 2년 6개월로 감형).",
+      "whyItMatteredKo": "한국 재벌 총수가 현직 대통령 탄핵 수사로 구속된 첫 사례. 박근혜 대통령 탄핵·수감의 핵심 증인. 삼성의 글로벌 평판에 막대한 손상.",
+      "whatTheyRiskedKo": "총 수감 약 19개월(2017.2-2018.2 + 2021.1-2021.8), 회사 통제권, 가문 명예",
+      "source": "https://www.industryweek.com/leadership/article/22024041/samsung-heir-guilty-of-bribery-sentenced-to-five-years-in-jail"
+    },
+    {
+      "year": 2020,
+      "age": 52,
+      "event": "Father Lee Kun-hee died October 25, 2020 after 6 years in coma. Inheritance tax bill of ₩12 trillion (~$10B) — the largest in Korean history — paid via 5-year installment plan starting 2021. Lee family also pledged ₩1 trillion to medical research and 23,000 art works donated to national museums.",
+      "eventKo": "부친 이건희가 2020년 10월 25일 6년 코마 끝에 사망. 상속세 12조 원(약 $10B) — 한국 사상 최대 — 2021년부터 5년 분할 납부. 가문은 의료 연구에 1조 원 기부, 미술품 23,000점을 국공립 미술관에 기증.",
+      "whyItMatteredKo": "부친 사망으로 명실상부 삼성 1인자 등극. 그러나 12조 원 상속세 부담으로 본인의 삼성 계열사 지분을 상당량 매각·담보해야 함 — 가문 통제력의 구조적 약화.",
+      "whoHelpedKo": "삼성 미래전략실(2017년 박근혜 게이트 이후 해체) → 사업지원TF로 재편",
+      "source": "https://www.cnn.com/2020/10/24/business/samsung-lee-kun-hee-intl-hnk/index.html"
+    },
+    {
+      "year": 2021,
+      "age": 53,
+      "event": "May 2020: publicly announced he would not pass Samsung leadership to his children — first Korean chaebol heir to renounce hereditary succession explicitly. January 2021: returned to prison after retrial for full 2.5-year sentence.",
+      "eventKo": "2020년 5월 자녀들에게 삼성 경영권을 물려주지 않겠다고 공식 선언 — 한국 재벌 후계자가 세습을 명시 포기한 첫 사례. 2021년 1월 파기환송심 후 잔여 형기 2년 6개월 복역 위해 재수감.",
+      "whyItMatteredKo": "한국 재벌 4세 세습 시대의 종말 신호 — 또는 시대적 압력에 굴복한 정치적 선언. 향후 삼성은 전문 경영인 체제로 전환할 가능성.",
+      "source": "https://edition.cnn.com/2020/05/06/tech/samsung-heir-jay-y-lee"
+    },
+    {
+      "year": 2022,
+      "age": 54,
+      "event": "August 2022: pardoned by President Yoon Suk Yeol, allowing return to active management. October 2022: appointed Executive Chairman of Samsung Electronics, formally succeeding his father after 8 years of de facto leadership.",
+      "eventKo": "2022년 8월 윤석열 대통령에 의해 사면, 적극 경영 복귀 가능. 10월 삼성전자 회장 정식 취임 — 8년의 사실상 1인자 시기 후 부친 직위 공식 승계.",
+      "whyItMatteredKo": "1991년 입사 31년 만의 회장 정식 취임. 부친 사망 2년 만의 공식 승계 완료.",
+      "source": "https://en.wikipedia.org/wiki/Lee_Jae-yong"
+    },
+    {
+      "year": 2024,
+      "age": 56,
+      "event": "February 2024: acquitted in first-instance trial of all 19 charges related to 2015 Cheil-Samsung C&T merger fraud and stock manipulation. February 2025: appellate court upheld acquittal on all charges.",
+      "eventKo": "2024년 2월 2015년 제일모직-삼성물산 합병 관련 19개 분식회계·시세조종 혐의에 대한 1심 무죄 판결. 2025년 2월 항소심에서도 전 혐의 무죄 확정.",
+      "whyItMatteredKo": "2015년 합병 관련 형사 책임에서 완전 해방. 7년의 사법 리스크에서 벗어나 글로벌 경영에 전념 가능. 그러나 합병의 경제적 정당성에 대한 여론 평가는 여전히 분열.",
+      "source": "https://www.cnn.com/2025/02/03/tech/south-korea-samung-jay-y-lee-cleared-charges-intl-hnk ; https://www.aljazeera.com/news/2024/2/5/south-korea-court-acquits-samsung-chief-lee-jae-yong-of-financial-crimes"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "age": 28,
+      "year": 1996,
+      "event": "Acquired Samsung Everland convertible bonds at allegedly artificial low price (₩7,700/share), gaining 25.1% of the de facto holding company controlling Samsung Life and Samsung Electronics.",
+      "eventKo": "삼성에버랜드 전환사채를 주당 7,700원이라는 인위적 저가에 매입, 삼성생명·삼성전자 지배의 사실상 지주회사 에버랜드 지분 25.1% 확보.",
+      "whyKo": "삼성 승계의 결정적 사다리 첫 단. 향후 25년간 모든 사법·정치 리스크의 출발점이지만, 이 거래 없이는 현 삼성 통제권 불가능."
+    },
+    {
+      "age": 46,
+      "year": 2014,
+      "event": "Father Lee Kun-hee's heart attack May 10, 2014 made Lee de facto leader of Samsung overnight, 8 years before formal chairmanship.",
+      "eventKo": "2014년 5월 10일 부친 이건희 심근경색으로 하루아침에 삼성 사실상 1인자, 공식 회장 취임 8년 전.",
+      "whyKo": "준비되지 않은 권력 이양의 충격. 이후 글로벌 IT·반도체 변혁기에 본인이 모든 결정의 중심에 서야 했고, 이 부담이 2017년 박근혜 게이트 뇌물 결정으로 이어진 측면도 있음."
+    },
+    {
+      "age": 49,
+      "year": 2017,
+      "event": "Arrested and convicted in Park Geun-hye corruption scandal, serving total ~19 months in prison across two stints.",
+      "eventKo": "박근혜 게이트 뇌물 혐의로 구속·유죄, 2회에 걸쳐 총 약 19개월 수감.",
+      "whyKo": "한국 재벌 총수가 현직 대통령 탄핵 수사로 구속된 첫 사례. 본인의 글로벌 평판 손상 + 한국 재벌 시스템에 대한 사회적 재평가의 분기점. 2020년 '자녀에게 경영권 물려주지 않겠다' 선언으로 이어짐."
+    },
+    {
+      "age": 52,
+      "year": 2020,
+      "event": "Father's death + ₩12 trillion inheritance tax + voluntary renunciation of hereditary succession to children.",
+      "eventKo": "부친 사망 + 12조 원 상속세 + 자녀 세습 포기 자발적 선언.",
+      "whyKo": "한국 재벌 3세에서 4세로의 자동 세습이 종결됨을 의미. 본인이 마지막 가족 회장이 될 수 있다는 자기 인식. 12조 원 세금 부담은 가문 지분의 구조적 매각으로 이어져 향후 삼성 지배구조의 재편 압력."
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryIncomeSource": "Samsung Group equity stakes via cascading holding structure: Samsung Life Insurance (Lee personal stake ~10.4%), Samsung C&T (Lee personal ~17.97%), Samsung SDS (~9.2%), and indirectly Samsung Electronics (~1.6% direct + ~5% via Samsung Life). Samsung Electronics 2024 revenue ~₩300T ($220B+), operating profit ~₩32T. Annual dividend income to Lee personally estimated at ₩200-300B.",
+    "primaryIncomeSourceKo": "삼성그룹 계열사 순환출자 지분: 삼성생명(개인 약 10.4%), 삼성물산(약 17.97%), 삼성SDS(약 9.2%), 간접적으로 삼성전자(직접 약 1.6% + 삼성생명 통해 약 5%). 삼성전자 2024 매출 약 300조 원($220B+), 영업이익 약 32조 원. 본인 연간 배당 수입 추정 약 2,000-3,000억 원.",
+    "wealthAccelerators": [
+      "1995 ₩6.1B gift from father — initial seed capital",
+      "1996 Samsung Everland CB at allegedly artificial low price — 25.1% of de facto holding company",
+      "1999 Samsung SDS bond-with-warrant (BW) at low strike price — additional Samsung group leverage",
+      "2014 father's heart attack making Lee de facto leader 8 years early",
+      "2015 Cheil-Samsung C&T merger consolidating Samsung holding structure under Lee control",
+      "2020 inheriting Lee Kun-hee's ~₩18T equity (post-tax ~₩6T net inheritance)",
+      "2022 presidential pardon enabling return to active management",
+      "2025 final acquittal in merger fraud case removing all sanitary risk"
+    ],
+    "wealthAcceleratorsKo": [
+      "1995년 부친 증여 61억 원 — 종잣돈",
+      "1996년 삼성에버랜드 CB 인위적 저가 매입 — 사실상 지주회사 25.1%",
+      "1999년 삼성SDS 신주인수권부사채(BW) 저가 매입 — 추가 그룹 지배력",
+      "2014년 부친 심근경색으로 8년 일찍 사실상 1인자",
+      "2015년 제일모직-삼성물산 합병으로 지배구조 본인 통제하 일원화",
+      "2020년 부친 18조 원 지분 상속(상속세 12조 원 후 순 약 6조 원)",
+      "2022년 대통령 사면으로 적극 경영 복귀",
+      "2025년 합병 분식 무죄 확정으로 모든 사법 리스크 해소"
+    ],
+    "structuralAdvantages": "Despite holding only ~1.6% of Samsung Electronics directly, Lee controls the company via cascading equity in Samsung Life Insurance and Samsung C&T (which together own ~14% of Samsung Electronics). This 'separation of ownership and control' structure has been criticized by Korean Fair Trade Commission for decades but remains intact. Samsung Electronics is a global #1 in memory chips (DRAM, NAND), #2 in smartphones, #1 in OLED displays. Samsung Biologics is Korea's #1 biopharma CMO. The group employs ~270,000 globally.",
+    "structuralAdvantagesKo": "삼성전자 직접 지분은 약 1.6%에 불과하지만, 삼성생명·삼성물산 순환출자(합계 삼성전자 약 14% 보유)로 사실상 통제. 이 '소유와 지배의 분리' 구조는 공정거래위원회가 수십 년 비판해 왔으나 여전히 유지. 삼성전자는 메모리 반도체(DRAM, NAND) 세계 1위, 스마트폰 2위, OLED 디스플레이 1위. 삼성바이오로직스는 한국 바이오 CMO 1위. 그룹 글로벌 약 27만 명 고용.",
+    "currentAssetAllocation": "Bulk of net worth in Samsung group equity (Samsung Life, Samsung C&T, Samsung SDS, Samsung Electronics). Significant portion pledged as collateral for inheritance tax loans (₩12T total bill, paid in 5 annual installments through 2026). Lee Kun-hee's art collection (23,000 works) donated to national museums in 2021 — Korea's largest cultural donation. Samsung Welfare Foundation, Hoam Foundation philanthropy.",
+    "currentAssetAllocationKo": "순자산 대부분 삼성그룹 지분(삼성생명, 삼성물산, 삼성SDS, 삼성전자). 상당 부분이 상속세 12조 원 5년 분할 납부(2026년까지)를 위한 담보로 묶임. 이건희 미술품 23,000점은 2021년 국공립 미술관에 기증 — 한국 사상 최대 문화 기부. 삼성복지재단·호암재단 자선 활동.",
+    "source": "https://www.forbes.com/profile/jay-y-lee/ ; https://www.bloomberg.com/billionaires/profiles/jaeyong-lee/ ; https://en.wikipedia.org/wiki/Samsung"
+  },
+
+  "failures": [
+    {
+      "year": 2003,
+      "age": 35,
+      "failure": "e-Samsung internet venture collapse — 2000년 출범한 디지털 사업 분사 그룹이 닷컴 버블 붕괴와 함께 약 1,000억 원 이상 손실로 폐쇄. 손실을 삼성 계열사들이 나눠 분담한 사실이 후일 폭로되며 'Lee Jae-yong이 사적 손실을 회사에 떠넘긴다'는 비판.",
+      "failureKo": "e-삼성 인터넷 벤처 붕괴 — 2000년 출범한 디지털 사업 분사 그룹이 닷컴 버블 붕괴와 함께 약 1,000억 원 이상 손실로 폐쇄. 손실을 삼성 계열사들이 나눠 분담한 사실이 후일 폭로되며 'Lee Jae-yong이 사적 손실을 회사에 떠넘긴다'는 비판.",
+      "howTheyOvercameKo": "공식 사과 없이 침묵, 이후 약 10년간 신사업 진출에 신중. 2014년 의식불명 부친 대신 결정권자가 된 후에는 바이오·전장(자동차 부품) 같은 검증된 시장 위주로 진출.",
+      "lessonKo": "재벌 3세의 신사업 실패는 그룹 전체에 사적 부담으로 전가되기 쉽다 — 본인 자본만으로 베팅하지 않으면 소액주주의 비난이 평생 따라온다.",
+      "source": "https://en.namu.wiki/w/%EC%9D%B4%EC%9E%AC%EC%9A%A9"
+    },
+    {
+      "year": 2017,
+      "age": 49,
+      "failure": "Convicted of bribery in Park Geun-hye / Choi Soon-sil scandal, sentenced to 5 years (reduced to 2.5 on appeal), served total ~19 months. 박근혜 대통령 탄핵 수사의 핵심 증인이 되며 한국 재벌 시스템의 정경유착 본질을 사회에 노출.",
+      "failureKo": "박근혜·최순실 게이트 뇌물 유죄, 5년형(항소심 2년 6개월), 총 약 19개월 수감. 박근혜 대통령 탄핵 수사의 핵심 증인이 되며 한국 재벌 시스템의 정경유착 본질을 사회에 노출.",
+      "howTheyOvercameKo": "수감 기간 동안 책 6,000권 읽었다는 일화 강조하며 자기 변혁 서사 구축. 출소 후 2020년 '자녀 세습 포기' 선언, 2021년 미국 대통령 바이든 백악관 회동(반도체 외교) 등으로 이미지 회복. 2022년 윤석열 사면으로 법적 종결.",
+      "lessonKo": "권력과의 거리를 잘못 잡으면 정권 교체와 함께 모든 것을 잃을 수 있다. 한국에서 재벌 총수의 정치 리스크는 사업 리스크보다 크다.",
+      "source": "https://www.industryweek.com/leadership/article/22024041/samsung-heir-guilty-of-bribery-sentenced-to-five-years-in-jail ; https://www.cnn.com/2020/09/01/tech/samsung-jay-y-lee-hnk-intl"
+    },
+    {
+      "year": 2022,
+      "age": 54,
+      "failure": "Samsung Electronics' loss of foundry (chip contract manufacturing) leadership to TSMC during Lee's de facto leadership (2014-current). TSMC's 3nm yield was reportedly 60-80% while Samsung's was 30-40%, costing Samsung major customers (Qualcomm, Nvidia, AMD) and ~$30B in foundry market cap. Samsung's mobile chip Exynos also lost market share to Qualcomm Snapdragon.",
+      "failureKo": "Lee 사실상 리더십 시기(2014-현재) 동안 삼성전자가 TSMC에 파운드리(반도체 위탁생산) 1위 자리를 빼앗김. TSMC의 3nm 수율이 60-80%인 반면 삼성은 30-40%로 보고되어 퀄컴·엔비디아·AMD 등 주요 고객 이탈, 파운드리 시가총액 약 $30B 손실. 모바일 칩 엑시노스도 퀄컴 스냅드래곤에 점유율 빼앗김.",
+      "howTheyOvercameKo": "2024년 평택 P3 팹 본격 가동, 2030년까지 파운드리 1위 탈환 비전 발표, 텍사스 테일러 시 $17B 팹 투자(2024년 가동). HBM(High Bandwidth Memory) 시장에서는 SK하이닉스에 1위를 넘겨주었으나 2024년부터 추격. AI 칩 수주 확보가 향후 5년 핵심 과제.",
+      "lessonKo": "분기 실적과 단기 마진을 우선하는 한국 재벌 의사결정 구조가 10년 단위 R&D 베팅(EUV 노광, GAA 트랜지스터)에서 TSMC의 모리스 창 같은 창업자 리더십에 뒤처지는 구조적 한계. 사법 리스크에 묶인 4년이 결정적 기회 비용이었다는 평가.",
+      "source": "https://www.reuters.com/technology/samsung-loses-ground-tsmc-foundry-race-2024-04-10/"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 1995, "age": 27, "netWorthUSD": 8000000, "note": "부친 증여 61억 원 추정 환산" },
+    { "year": 1996, "age": 28, "netWorthUSD": 50000000, "note": "에버랜드 CB 인수 후 비상장 지분 가치" },
+    { "year": 2005, "age": 37, "netWorthUSD": 600000000, "note": "Forbes 첫 등재" },
+    { "year": 2014, "age": 46, "netWorthUSD": 6900000000, "note": "부친 의식불명, 사실상 1인자 등극" },
+    { "year": 2017, "age": 49, "netWorthUSD": 6000000000, "note": "박근혜 게이트 구속 시점, 자산 일부 동결" },
+    { "year": 2020, "age": 52, "netWorthUSD": 12000000000, "note": "부친 사망, 상속 시점 추정 자산" },
+    { "year": 2023, "age": 55, "netWorthUSD": 8000000000, "note": "상속세 12조 원 분할 납부 + 사면 후" },
+    { "year": 2026, "age": 58, "netWorthUSD": 22300000000, "note": "현재 — 무죄 확정 + 삼성전자 AI/HBM 수요 회복" }
+  ],
+
+  "quotes": [
+    {
+      "quote": "Samsung's leadership will not be inherited by my children.",
+      "quoteKo": "삼성의 경영권은 제 자녀에게 물려주지 않겠습니다.",
+      "contextKo": "2020년 5월 6일 대국민 사과 회견 — 한국 재벌 4세 세습 시대의 종말을 선언한 역사적 발언.",
+      "source": "https://edition.cnn.com/2020/05/06/tech/samsung-heir-jay-y-lee"
+    },
+    {
+      "quote": "오로지 회사의 가치를 높이는 데 집중하겠습니다.",
+      "quoteKo": "오로지 회사의 가치를 높이는 데 집중하겠습니다.",
+      "contextKo": "2022년 10월 27일 회장 취임 직후 임직원 메시지, 가치 창출 중심 경영 선언.",
+      "source": "https://news.samsung.com/kr/"
+    }
+  ],
+
+  "books": [
+    { "title": "Samsung Rising: The Inside Story of the South Korean Giant That Set Out to Beat Apple and Conquer Tech", "author": "Geoffrey Cain", "year": 2020, "noteKo": "이재용 시대 삼성의 글로벌 부상과 위기를 종합 분석한 영문 평전." },
+    { "title": "이재용의 25년", "author": "임원기", "year": 2016, "noteKo": "이재용의 1991-2016년 삼성 입사 25년 간의 승계 과정 추적 한국어 평전." }
+  ],
+
+  "personalTraits": [
+    "Methodical preparation — 31년 입사 후 회장 취임까지 단계적 승진",
+    "Quiet personality — 부친 이건희의 카리스마와 대조되는 신중한 공개 발언 스타일",
+    "Global networking — 모디(인도), 바이든(미국), 시진핑(중국) 등 정상급 회동 능력",
+    "Avid reader — 수감 중 6,000권 독서 일화로 자기 변혁 서사 구축",
+    "Sportsman — 학창 시절 승마, 골프 정기적 활동",
+    "Anti-dynasty declaration — 자녀 세습 포기 공식 선언",
+    "Global luxury preference — 한국 재벌 중 보기 드물게 검소한 의복 스타일",
+    "Crisis-tested resilience — 19개월 수감 + 7년 사법 리스크 견딤"
+  ],
+
+  "characterKo": {
+    "strengths": "1991년 입사부터 2022년 회장까지 31년의 단계적 승진을 통해 글로벌 IT·반도체 산업의 디테일을 체득한 실무 경험. 2014년 부친 의식불명 후 8년간의 '준회장' 시기에 모디·바이든·시진핑 등 정상급 외교를 단독 수행한 글로벌 네트워킹 능력. 2020년 자녀 세습 포기 선언으로 한국 재벌 시스템의 자기 개혁 신호를 보낸 시대 인식. 19개월 수감과 7년 사법 리스크를 견디고 회복한 회복탄력성.",
+    "weaknesses": "1996년 에버랜드 CB 사건을 시작으로 한 승계 과정의 정당성 결여 — 평생 따라다니는 '한국 사법 시스템에서 무죄, 사회 양심에서 유죄' 평판. 부친 이건희의 카리스마적 비전 제시 능력은 결여 — 2014년 의식불명 후 삼성이 TSMC에 파운드리, SK하이닉스에 HBM 1위를 빼앗긴 것은 본인 리더십 한계의 증거. 2017년 박근혜 게이트 뇌물 결정의 도덕적 판단력 부재. 한국 재벌 시스템의 구조적 모순(소유-지배 분리)을 본인 시대에 해결하지 못함.",
+    "motivation": "조부 이병철 → 부친 이건희로 이어진 가문 사명을 본인 시대까지 지키되, 본인이 마지막 가족 회장이 된다는 자기 인식. 글로벌 자본시장의 ESG 압력과 한국 사회의 재벌 비판을 받아들여 점진적으로 가족 경영을 전문 경영인 체제로 이양하려는 시대적 책임감. 동시에 부친처럼 '세계 1위'를 만들고 싶은 후계자의 증명 욕구.",
+    "legacy": "한국 재벌 4세 세습 시대의 종말을 자발적으로 선언한 첫 회장. 2020년 부친 사망과 12조 원 상속세 납부로 한국 재벌 가문 자본의 구조적 약화를 초래한 인물. 삼성전자가 메모리·스마트폰 1-2위를 유지하는 동안 파운드리·HBM에서 경쟁사에 추격당한 시기의 회장 — 평가는 향후 10년 AI 반도체 시대 삼성의 부활 여부에 달림. 한국 자본주의가 가족 경영에서 전문 경영으로 전환하는 시대적 분기점에 선 인물."
+  },
+
+  "sajuConnection": null
+}

@@ -1,0 +1,306 @@
+{
+  "id": "7",
+  "name": "Jensen Huang",
+  "nameKo": "젠슨 황 (황런쉰)",
+  "netWorth": "$153.7B",
+  "nationality": "US",
+  "industry": "Technology",
+
+  "childhood": {
+    "birthPlace": "Tainan, Taiwan",
+    "birthPlaceKo": "대만 타이난",
+    "familyBackground": "Father Huang Hsing-tai was a chemical engineer working for air-conditioning maker Carrier; mother Loo Tsu-Lai was an elementary school teacher who drilled Jensen and his older brother in English vocabulary daily. Middle-class Taiwanese family, devout Christians.",
+    "familyBackgroundKo": "부친 황싱타이는 에어컨 제조사 Carrier의 화학 엔지니어, 모친 로우추라이는 초등학교 교사로 젠슨과 형에게 매일 영어 단어 시험을 반복 훈련시킴. 중산층 대만인 기독교 가정.",
+    "education": "Oneida Baptist Institute (Kentucky, rural boarding school, ages 9-11); Aloha High School (Oregon, 1984); Oregon State University (BSEE, 1984); Stanford University (MSEE, 1992, while working at LSI).",
+    "educationKo": "오네이다 침례 기숙학교(켄터키 시골, 9-11세); 알로하 고등학교(오리건, 1984 졸업); 오리건 주립대(전기공학 학사, 1984); 스탠포드 대학교(전기공학 석사, 1992, LSI 재직 중 야간 수업).",
+    "earlyLife": "Born February 17, 1963. At age 5, family moved to Thailand for father's work. At age 9 (1972), amid Vietnam War instability, parents sent Jensen and his 10-year-old brother alone to an uncle in Tacoma, Washington, who then enrolled them at Oneida Baptist Institute in rural Kentucky, mistakenly believing it was a prestigious boarding school when it was actually a reform school for troubled boys. Jensen cleaned toilets for older students, was befriended by a non-verbal roommate with knife wounds who taught him to bench press. Family reunited in Oregon around 1974. Worked as a Denny's busboy and dishwasher in high school. Skipped grades, graduated Oregon State at 20, married classmate Lori Mills (the only girl in his freshman engineering class).",
+    "earlyLifeKo": "1963년 2월 17일 출생. 5세 때 부친 직장 따라 태국 이주. 9세(1972) 때 베트남전 영향으로 부모가 젠슨과 형(10세)을 단 둘이 미국 워싱턴주 타코마의 삼촌에게 보냄. 삼촌이 '명문 기숙학교'인 줄 알고 켄터키 시골의 오네이다 침례학교(실제는 비행 청소년 교화 학교)에 등록. 젠슨은 상급생 화장실 청소, 칼자국 난 무언증 룸메이트와 친구가 되어 벤치프레스를 배움. 1974년경 가족이 오리건으로 재결합. 고등학생 때 Denny's에서 버스보이·식기세척 알바. 조기 진급으로 20세에 오리건 주립대 졸업, 공대 신입생 반 유일한 여학생 로리 밀스와 졸업 후 결혼.",
+    "capitalTypeKo": "self-made. 대만 이민 중산층 엔지니어 가정, 9세에 미국에 혼자 보내져 켄터키 교화 기숙학교에서 화장실 청소. AMD·LSI 월급쟁이 칩 설계자로 시작해 1993년 Denny's 부스에서 Nvidia 창업. 집안 자본 0, 커리어 100% 본인 기술력.",
+    "source": "https://en.wikipedia.org/wiki/Jensen_Huang ; https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "자수성가 전형. 대만 이민 1세대 엔지니어 가정에서 자라 9세에 혼자 미국에 보내져 교화 기숙학교 화장실 청소. AMD·LSI Logic 월급쟁이 칩 설계자로 10년 근무 후 1993년 California Denny's 부스에서 두 동료(Chris Malachowsky, Curtis Priem)와 Nvidia 공동창업. 초기 자본 $40,000(세 명 각자 출자) + Sequoia Don Valentine의 시드 $2M. Forbes self-made score 8/10.",
+    "source": "https://www.forbes.com/profile/jensen-huang/ ; https://en.wikipedia.org/wiki/Nvidia"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1983,
+      "age": 20,
+      "event": "Started at AMD as a microchip designer while still at Oregon State University; graduated BSEE 1984 at age 20.",
+      "eventKo": "오리건 주립대 재학 중 AMD에 마이크로칩 설계자로 입사. 1984년 20세에 전기공학 학사 취득.",
+      "whyItMatteredKo": "실리콘밸리 반도체 사이클을 현장에서 체감. CPU 설계 과정을 처음부터 경험하며 '반도체는 아키텍처 설계자가 지배한다'는 직관을 얻음.",
+      "whatTheyRiskedKo": "학부생 신분으로 풀타임 설계직 병행, 수면·학점 희생",
+      "source": "https://en.wikipedia.org/wiki/Jensen_Huang"
+    },
+    {
+      "year": 1985,
+      "age": 22,
+      "event": "Moved to LSI Logic as chip designer, then to director of Coreware (LSI's division building SoC/ASIC for Sun Microsystems). Met Chris Malachowsky and Curtis Priem (both from Sun/IBM) as LSI customers.",
+      "eventKo": "LSI Logic으로 이직하여 칩 설계자로 시작, 이후 Coreware(Sun Microsystems용 SoC/ASIC 사업부) 디렉터로 승진. 고객사였던 Sun·IBM 출신 Chris Malachowsky, Curtis Priem과 운명적 만남.",
+      "whyItMatteredKo": "'표준 칩을 고객 요구에 맞춰 설계하는' 사업 모델 체득. Nvidia 공동창업자 두 명을 고객으로 만남. 이 시기 형성된 '외주 파운드리+팹리스 설계' 기반이 Nvidia 사업 구조의 원형.",
+      "whoHelpedKo": "LSI CEO Wilfred Corrigan(후일 Sequoia의 Don Valentine에게 젠슨을 소개하여 Nvidia 시드 투자 성사)",
+      "source": "https://en.wikipedia.org/wiki/Nvidia ; https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution"
+    },
+    {
+      "year": 1992,
+      "age": 29,
+      "event": "Completed MSEE at Stanford University (night/part-time while working at LSI).",
+      "eventKo": "LSI 재직 중 스탠포드 전기공학 석사 학위 취득(야간·파트타임).",
+      "whyItMatteredKo": "그래픽 파이프라인·컴퓨터 아키텍처 최신 이론 습득. Stanford 네트워크가 훗날 Nvidia 핵심 엔지니어 채용과 학계 협력의 기반.",
+      "source": "https://en.wikipedia.org/wiki/Jensen_Huang"
+    },
+    {
+      "year": 1993,
+      "age": 30,
+      "event": "On his 30th birthday (Feb 17, 1993), co-founded Nvidia with Chris Malachowsky and Curtis Priem at a Denny's in East San Jose, California. Each co-founder contributed ~$40,000. Bet on 3D accelerated graphics for PCs, betting that PC gaming would become the world's largest consumer market.",
+      "eventKo": "1993년 2월 17일 30세 생일에 캘리포니아 이스트 새너제이 Denny's 부스에서 Chris Malachowsky, Curtis Priem과 Nvidia 공동창업. 각 공동창업자 $40,000 출자. PC 3D 그래픽 가속 시장에 베팅.",
+      "whyItMatteredKo": "당시 PC 3D 그래픽 스타트업 20여 개가 난립했으나 2000년까지 대부분 소멸. '게이밍이 규모의 경제를 만든다'는 젠슨의 베팅이 향후 GPU→AI 경로의 출발점.",
+      "whatTheyRiskedKo": "LSI의 안정적 디렉터 직위, $40,000 개인 자본, 장녀 메들린이 막 태어난 시점의 가장 책임",
+      "whoHelpedKo": "Chris Malachowsky(엔지니어링), Curtis Priem(칩 아키텍처), Wilfred Corrigan(LSI CEO, Sequoia 소개)",
+      "source": "https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/ ; https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+      "year": 1993,
+      "age": 30,
+      "event": "Sequoia Capital's Don Valentine led $2M seed round after intro from LSI's Corrigan. Valentine allegedly told Jensen: 'If you lose my money, I will kill you.'",
+      "eventKo": "Sequoia Capital의 Don Valentine이 LSI CEO Corrigan 소개로 $2M 시드 투자. Valentine이 젠슨에게 '내 돈을 날리면 널 죽이겠다'고 말했다는 일화.",
+      "whyItMatteredKo": "Sequoia가 1993년 초기 반도체 스타트업 20개 중 Nvidia를 고른 것은 당시 거의 도박. 이 시드가 없었다면 1995년 NV1 실패 후 회사 소멸 가능성 극대.",
+      "whoHelpedKo": "Don Valentine(Sequoia 창업자), Wilfred Corrigan",
+      "source": "https://www.sequoiacap.com/ ; https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution"
+    },
+    {
+      "year": 1995,
+      "age": 32,
+      "event": "Launched first product NV1 with quadratic texture mapping instead of industry-standard triangle polygons — commercial failure. Company nearly died; reduced headcount from 100 to ~35.",
+      "eventKo": "첫 제품 NV1 출시, 업계 표준인 삼각형 폴리곤 대신 2차 텍스처 매핑 채택 — 상업적 참패. 직원 100명에서 약 35명까지 감축, 회사 소멸 위기.",
+      "whyItMatteredKo": "아키텍처 베팅 실패의 뼈저린 학습. 'We are thirty days away from going out of business' 문화('회사는 30일 후 망한다')의 출발점. 이후 젠슨의 편집증적 위기 의식의 원형.",
+      "whatTheyRiskedKo": "1차 시드 $2M 대부분 소진, 공동창업자 자존심, 직원 65명 해고",
+      "source": "https://en.wikipedia.org/wiki/Nvidia ; https://www.acquired.fm/episodes/nvidia-the-gpu-company-1993-2006"
+    },
+    {
+      "year": 1997,
+      "age": 34,
+      "event": "RIVA 128 launch — Nvidia's recovery product supporting Direct3D and triangle polygons. Company pivoted to shipping 3 generations per year (vs industry's 1-2) — the '3x speed' cadence.",
+      "eventKo": "RIVA 128 출시 — Direct3D 및 삼각형 폴리곤을 지원하는 회복 제품. 연 3세대 출시(업계 표준 1-2세대 대비) '3배 속도' 개발 사이클 체계 확립.",
+      "whyItMatteredKo": "NV1 실패 후 아키텍처 선회를 빠르게 단행. 업계 대비 3배 개발 속도가 이후 20년간 Nvidia의 경쟁 우위의 핵심 공식.",
+      "source": "https://en.wikipedia.org/wiki/Nvidia ; https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/"
+    },
+    {
+      "year": 1999,
+      "age": 36,
+      "event": "IPO on NASDAQ (January 22, 1999) at $12/share. Launched GeForce 256, marketed as 'the world's first GPU' (Graphics Processing Unit) with hardware transform & lighting engine.",
+      "eventKo": "1월 22일 NASDAQ 상장(공모가 $12). GeForce 256 출시, 하드웨어 변환·조명 엔진을 탑재해 '세계 최초 GPU(그래픽 처리 장치)'로 마케팅.",
+      "whyItMatteredKo": "'GPU'라는 카테고리 자체를 만든 마케팅 결단. 상장 자본으로 R&D 3배 확장 가능. 2000년 Microsoft Xbox GPU 계약($500M)의 발판.",
+      "source": "https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/ ; https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+      "year": 2006,
+      "age": 43,
+      "event": "Launched CUDA (Compute Unified Device Architecture) — a software platform allowing GPUs to run general-purpose parallel computing, not just graphics. Initial market indifference; stock price punished for years.",
+      "eventKo": "CUDA(통합 연산 디바이스 아키텍처) 출시 — GPU를 그래픽 외 일반 병렬 연산에도 쓰게 하는 소프트웨어 플랫폼. 초기에는 시장 무관심, 수년간 주가에 악재로 작용.",
+      "whyItMatteredKo": "2006년 당시 애널리스트·주주들이 '그래픽 회사가 왜 일반 컴퓨팅 소프트웨어에 수십억을 쓰나' 비판. 젠슨의 고독한 장기 베팅. 2012년 AlexNet에서 CUDA가 딥러닝의 표준 인프라로 등극하며 Nvidia의 AI 독점 해자 완성.",
+      "whatTheyRiskedKo": "수년간 영업이익률 압박, 주가 하락, 2008년 금융위기 시 주가 80% 폭락",
+      "source": "https://developer.nvidia.com/about-cuda ; https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution"
+    },
+    {
+      "year": 2012,
+      "age": 49,
+      "event": "AlexNet (Krizhevsky, Sutskever, Hinton at University of Toronto) won ImageNet competition using two Nvidia GTX 580 GPUs, proving GPUs were the ideal hardware for deep learning. Sparked the modern AI boom.",
+      "eventKo": "토론토대 Krizhevsky·Sutskever·Hinton의 AlexNet이 Nvidia GTX 580 GPU 2장으로 ImageNet 대회 압승, GPU가 딥러닝 최적 하드웨어임을 입증. 현대 AI 붐의 기폭점.",
+      "whyItMatteredKo": "2006년 CUDA 베팅이 6년 만에 회수. 이후 모든 AI 연구자가 Nvidia GPU + CUDA를 씀. 경쟁사(Intel, AMD)가 10년 이상 뒤처짐.",
+      "source": "https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html ; https://blogs.nvidia.com/blog/accelerating-ai-artificial-intelligence-gpus/"
+    },
+    {
+      "year": 2016,
+      "age": 53,
+      "event": "Delivered the first DGX-1 AI supercomputer personally to OpenAI, signed by Jensen: 'To the future of computing and humanity.' Launched Pascal architecture (GTX 1080, Tesla P100).",
+      "eventKo": "OpenAI에 DGX-1 AI 슈퍼컴퓨터 1호기를 젠슨이 직접 전달, '미래 컴퓨팅과 인류에게'라고 친필 서명. Pascal 아키텍처(GTX 1080, Tesla P100) 출시.",
+      "whyItMatteredKo": "Nvidia가 칩 판매업에서 '엔드 투 엔드 AI 시스템 기업'으로 전환. OpenAI를 포함한 AI 연구기관들과 깊은 관계 구축 — 이후 ChatGPT 시대의 독점 공급자 지위 확보.",
+      "source": "https://openai.com/blog/first-dgx-1 ; https://www.nvidia.com/en-us/data-center/dgx-1/"
+    },
+    {
+      "year": 2020,
+      "age": 57,
+      "event": "Acquired Mellanox Technologies for $6.9B (completed April 2020), gaining InfiniBand networking — the backbone of AI data centers. Failed Arm acquisition announced September 2020 ($40B).",
+      "eventKo": "4월 Mellanox Technologies $6.9B 인수 완료, AI 데이터센터 필수 InfiniBand 네트워킹 확보. 9월 Arm $40B 인수 발표(이후 2022년 규제 반대로 무산).",
+      "whyItMatteredKo": "AI 데이터센터는 GPU만으론 부족하고 고성능 네트워킹이 핵심. Mellanox 인수는 현재 $100B+ 데이터센터 사업의 숨은 기둥.",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-completes-acquisition-of-mellanox-creating-major-force-driving-next-generation-data-centers"
+    },
+    {
+      "year": 2023,
+      "age": 60,
+      "event": "Nvidia market cap crossed $1 trillion (May 30, 2023) following Q1 earnings blowout driven by H100 GPU demand for ChatGPT-era generative AI. First semiconductor company ever to reach $1T.",
+      "eventKo": "5월 30일 Nvidia 시가총액 $1T 돌파 — ChatGPT 시대 생성형 AI 붐으로 H100 GPU 수요 폭발. 반도체 기업 사상 최초 $1T.",
+      "whyItMatteredKo": "1993년 Denny's 창업 30년 만의 도달점. 2006년 CUDA 베팅이 17년 만에 완전히 결실. 젠슨 개인 자산 $40B 돌파.",
+      "source": "https://www.reuters.com/technology/nvidia-sets-eye-1-trillion-market-cap-opening-2023-05-30/"
+    },
+    {
+      "year": 2024,
+      "age": 61,
+      "event": "Nvidia briefly became the world's most valuable company by market cap (June 18, 2024) at $3.34T, surpassing Microsoft and Apple. Stock split 10-for-1 in June. Launched Blackwell architecture.",
+      "eventKo": "6월 18일 Nvidia 시가총액 $3.34T로 Microsoft·Apple을 넘어 세계 1위 기업에 일시 등극. 6월 10:1 주식 분할. Blackwell 아키텍처 발표.",
+      "whyItMatteredKo": "세계 1위 기업 지위는 일시적이었으나, Nvidia가 '반도체 회사'가 아닌 'AI 인프라 플랫폼'으로 재정의되었음을 자본시장이 인정.",
+      "source": "https://www.cnbc.com/2024/06/18/nvidia-passes-microsoft-in-market-cap-to-become-most-valuable-public-company.html"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "age": 9,
+      "year": 1972,
+      "event": "Sent alone with 10-year-old brother from Thailand to an uncle in Washington State, who enrolled them at Oneida Baptist Institute — a Kentucky reform school mistaken for a prestigious boarding school. Cleaned older students' toilets; roommate was an illiterate 17-year-old with knife wounds who taught Jensen bench press in exchange for Jensen teaching him to read.",
+      "eventKo": "9세에 형(10세)과 단 둘이 태국→미국 워싱턴주 삼촌에게 보내짐. 삼촌이 '명문 기숙학교'인 줄 알고 켄터키 시골의 비행 청소년 교화 학교 오네이다 침례학교에 등록. 젠슨은 상급생 화장실 청소, 룸메이트는 칼자국 난 17세 문맹 소년 — 그가 젠슨에게 벤치프레스를 가르치고 젠슨은 그에게 글 읽기를 가르침.",
+      "whyKo": "젠슨 성격의 모든 것의 뿌리. 극한 환경에서 생존하는 적응력, '모든 것은 30일 후 망한다'는 편집증적 위기 의식, 동시에 약자를 가르치고 교환적 관계를 구축하는 리더십 원형. 본인이 'Nvidia의 모든 CEO 스타일은 그 1년에서 나왔다'고 회고."
+    },
+    {
+      "age": 30,
+      "year": 1993,
+      "event": "Co-founded Nvidia at a Denny's in East San Jose on his 30th birthday with two former customers, betting the PC 3D gaming market would become the world's largest consumer compute market.",
+      "eventKo": "30세 생일에 이스트 새너제이 Denny's에서 전 고객 두 명과 Nvidia 공동창업. PC 3D 게이밍이 세계 최대 소비자 컴퓨팅 시장이 될 것이라 베팅.",
+      "whyKo": "월급쟁이 엔지니어에서 창업가로 전환. 당시 3D 그래픽 스타트업 20여 개 중 대부분 소멸했으나 Nvidia만 생존 → AI 독점 기업으로 성장."
+    },
+    {
+      "age": 32,
+      "year": 1995,
+      "event": "First product NV1 failed commercially; company nearly died, reduced headcount from 100 to ~35. Jensen embedded the mantra 'Our company is thirty days from going out of business' into Nvidia's culture permanently.",
+      "eventKo": "첫 제품 NV1 참패, 직원 100명→35명 감축, 회사 소멸 위기. 젠슨은 '우리 회사는 30일 후 망한다'는 만트라를 Nvidia 문화에 영구 각인.",
+      "whyKo": "실패를 교훈이 아닌 '영구적 편집증'으로 제도화. 이후 30년간 Nvidia는 업계보다 3배 빠른 개발 사이클로 움직였고, 이 규율이 2006년 CUDA 장기 베팅을 가능케 함."
+    },
+    {
+      "age": 43,
+      "year": 2006,
+      "event": "Launched CUDA despite zero market demand, absorbing years of margin compression and analyst criticism. 6 years later, AlexNet proved GPUs were AI's ideal hardware.",
+      "eventKo": "시장 수요 0인 상태에서 CUDA 출시. 수년간 영업이익률 압박과 애널리스트 비판 감수. 6년 후 AlexNet이 GPU를 AI의 최적 하드웨어로 입증.",
+      "whyKo": "고독한 장기 베팅의 교과서. 2006년 시점에선 '그래픽 회사가 왜 CUDA에 수십억을?' 비판 속에서 꾸준히 투자, 결과적으로 현대 AI 인프라의 독점 표준 확보."
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryIncomeSource": "Nvidia Corporation (NASDAQ: NVDA) founder-CEO equity stake (~3.5% ownership) plus CEO compensation package. Nvidia FY2024 revenue $60.9B, net income $29.8B, data center segment >75% of revenue from AI GPUs (H100, Blackwell B100/B200).",
+    "primaryIncomeSourceKo": "Nvidia Corporation(NASDAQ: NVDA) 창업자 CEO 지분(약 3.5%) + CEO 보상 패키지. FY2024 매출 $60.9B, 순이익 $29.8B, 데이터센터 부문이 매출 75%+ 차지(AI GPU H100, Blackwell B100/B200).",
+    "wealthAccelerators": [
+      "1993 Sequoia $2M seed funding + LSI CEO's introduction (unlocked otherwise closed VC network)",
+      "1997 RIVA 128 pivot after NV1 failure, establishing the industry-3x development cadence",
+      "1999 IPO at $12/share providing R&D capital for sustained competitive push",
+      "2006 CUDA software platform creating a 17-year moat no competitor could replicate",
+      "2012 AlexNet proving GPU = AI standard hardware, winning every AI lab as a customer",
+      "2016 DGX-1 hand-delivery to OpenAI sealing deep AI ecosystem relationships",
+      "2020 Mellanox $6.9B acquisition securing InfiniBand networking for AI data centers",
+      "2022-2024 ChatGPT-driven generative AI explosion pushing H100/Blackwell into multi-year backlog"
+    ],
+    "wealthAcceleratorsKo": [
+      "1993년 Sequoia $2M 시드 + LSI CEO Corrigan의 소개 네트워크",
+      "1997년 NV1 참패 후 RIVA 128으로 선회, 업계 3배 속도 개발 사이클 확립",
+      "1999년 IPO $12 — R&D 대규모 재투자 자본 확보",
+      "2006년 CUDA 소프트웨어 플랫폼 — 이후 17년간 경쟁사가 복제 불가능한 해자",
+      "2012년 AlexNet — GPU = AI 표준 하드웨어임을 입증, AI 연구실 전원을 고객으로 확보",
+      "2016년 DGX-1 OpenAI 직접 전달 — AI 생태계와의 깊은 관계 구축",
+      "2020년 Mellanox $6.9B 인수 — AI 데이터센터 네트워킹 핵심 확보",
+      "2022-2024년 ChatGPT발 생성형 AI 폭발 — H100/Blackwell 다년 대기 수요"
+    ],
+    "structuralAdvantages": "CUDA software ecosystem with millions of developers and 4,000+ GPU-accelerated applications locks customers into Nvidia hardware — a true software moat around a hardware business. Nvidia captures ~80% of the AI data center GPU market with gross margins of 70%+ and operating margins of 60%+ on data center products, economics closer to a software company than a chip company.",
+    "structuralAdvantagesKo": "CUDA 소프트웨어 생태계(수백만 개발자, GPU 가속 앱 4,000개+)가 Nvidia 하드웨어에 고객을 락인 — 하드웨어 회사를 둘러싼 진정한 소프트웨어 해자. AI 데이터센터 GPU 시장 점유율 약 80%, 매출총이익률 70%+, 영업이익률 60%+ — 반도체보다 소프트웨어 회사에 가까운 경제 구조.",
+    "currentAssetAllocation": "Bulk of net worth in NVDA common stock (~3.5% of company, ~86M shares post-split). Owns a Silicon Valley home in Los Altos Hills; relatively modest lifestyle for a $150B+ billionaire. Signed the Giving Pledge in 2022 alongside wife Lori; Jensen & Lori Huang Foundation has donated $750M+ including $50M to Oregon State for a new engineering complex bearing the couple's name.",
+    "currentAssetAllocationKo": "순자산 대부분 NVDA 보통주(회사 지분 약 3.5%, 액면분할 후 약 8,600만 주). 캘리포니아 Los Altos Hills 자택, $150B+ 자산가 치곤 검소한 생활 양식. 2022년 아내 Lori와 함께 Giving Pledge 서명. Jensen & Lori Huang Foundation 기부 총액 $750M+, 오리건 주립대에 $50M 기부하여 본인 이름을 딴 공대 복합동 건립.",
+    "source": "https://www.forbes.com/profile/jensen-huang/ ; https://investor.nvidia.com/financial-info/financial-reports/ ; https://givingpledge.org/pledger?pledgerId=406"
+  },
+
+  "failures": [
+    {
+      "year": 1972,
+      "age": 9,
+      "failure": "Sent alone to Oneida Baptist Institute in rural Kentucky — a reform school mistaken for a prestigious boarding school. Bullied, assigned to clean older students' toilets, paired with a roommate who had knife-wound scars.",
+      "failureKo": "9세에 켄터키 시골 오네이다 침례학교(교화 학교를 명문 기숙학교로 오인)로 혼자 보내짐. 괴롭힘당하고 상급생 화장실 청소 담당, 칼자국 난 룸메이트와 기숙.",
+      "howTheyOvercameKo": "룸메이트와 '너는 벤치프레스를 가르치고, 나는 글 읽기를 가르친다'는 교환 관계 구축. 매일 아침 4:30 기상해 화장실 청소 후 학업. 극한 환경에서 자발적 규율·체력·적응력 획득.",
+      "lessonKo": "어린 나이에 '환경이 나쁠수록 교환할 가치를 만들어라'는 원칙 체득. 이후 Nvidia에서 고객사·파트너와의 관계도 '내가 줄 수 있는 가치'를 먼저 설계하는 방식으로 이어짐.",
+      "source": "https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution"
+    },
+    {
+      "year": 1995,
+      "age": 32,
+      "failure": "Nvidia's first product NV1 launched with quadratic texture mapping — an architecturally ambitious but commercially disastrous choice against industry-standard triangle polygons. Sega's Saturn adoption failed to save the market. Company burned through most of Sequoia seed, reduced headcount from 100 to ~35.",
+      "failureKo": "Nvidia 첫 제품 NV1 출시 — 업계 표준 삼각형 폴리곤 대신 2차 텍스처 매핑 채택으로 아키텍처 욕심 부리다 상업적 참패. Sega Saturn 채택으로도 시장 실패. Sequoia 시드 대부분 소진, 직원 100명→약 35명 감축.",
+      "howTheyOvercameKo": "아키텍처 자존심 버리고 삼각형 폴리곤 + Direct3D 표준으로 선회, 1997년 RIVA 128로 회복. '우리는 30일 후 망한다' 문화 제도화 — 이후 30년간 Nvidia는 업계보다 3배 빠른 개발 속도를 유지.",
+      "lessonKo": "기술적 자존심보다 시장 표준 존중이 생존에 우선. 실패를 교훈이 아닌 '영구적 편집증'으로 문화에 새겨야 대기업이 되어도 긴장감을 유지할 수 있음.",
+      "source": "https://www.acquired.fm/episodes/nvidia-the-gpu-company-1993-2006"
+    },
+    {
+      "year": 2006,
+      "age": 43,
+      "failure": "CUDA launch met with years of market indifference. Analysts repeatedly questioned why a graphics company was spending billions on general-purpose computing software. Stock underperformed; 2008 financial crisis crushed NVDA ~80%.",
+      "failureKo": "CUDA 출시 후 수년간 시장 무관심. 애널리스트들은 '그래픽 회사가 왜 일반 컴퓨팅 소프트웨어에 수십억을 쓰나' 반복 비판. 주가 부진, 2008년 금융위기로 NVDA 약 80% 폭락.",
+      "howTheyOvercameKo": "젠슨은 이사회·애널리스트 비판에도 CUDA 투자를 줄이지 않고 대학·연구실에 무료 배포. 2012년 AlexNet이 GPU+CUDA를 딥러닝 표준으로 만들며 6년 만의 회수. 이후 현재까지 AI 인프라 독점 해자.",
+      "lessonKo": "창업자의 고독한 장기 베팅은 단기 분기 실적 압박을 견뎌야 가능. 창업자·CEO가 동일 인물이어야 10년 단위 베팅을 지킬 수 있다.",
+      "source": "https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution ; https://developer.nvidia.com/about-cuda"
+    },
+    {
+      "year": 2022,
+      "age": 59,
+      "failure": "$40B acquisition of Arm Holdings from SoftBank — the largest semiconductor deal ever attempted — collapsed in February 2022 after opposition from US FTC, UK CMA, and EU Commission, plus resistance from Arm's own licensees (Qualcomm, Microsoft, Google). Nvidia paid $1.25B breakup fee to SoftBank.",
+      "failureKo": "SoftBank로부터 Arm Holdings를 $40B에 인수하려던 사상 최대 반도체 거래 — 2022년 2월 미국 FTC·영국 CMA·EU 집행위원회 반대 및 Arm 고객사(Qualcomm, Microsoft, Google) 저항으로 무산. Nvidia는 SoftBank에 $1.25B 위약금 지불.",
+      "howTheyOvercameKo": "18개월 규제 대응 실패를 인정하고 빠르게 손절, 대신 2020년 Mellanox 인수로 확보한 네트워킹을 기반으로 자체 CPU(Grace)·DPU(BlueField)·GPU를 통합한 Grace Hopper 슈퍼칩으로 우회 전략 전환. AI 붐 시작과 맞물려 결과적으로 Arm 없이도 AI 인프라 1위 달성.",
+      "lessonKo": "규제 환경이 기술 전략을 초과하는 변수임을 체감. 거대 M&A보다 자체 역량 구축이 장기적으로 더 안전함을 재확인. 손절 타이밍을 놓치지 않는 판단력이 CEO의 핵심 자질.",
+      "source": "https://www.reuters.com/technology/nvidia-softbank-deal-arm-over-ft-2022-02-07/"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 1993, "age": 30, "netWorthUSD": 40000, "note": "Nvidia 공동창업 시 개인 출자 $40,000" },
+    { "year": 1999, "age": 36, "netWorthUSD": 50000000, "note": "NVDA IPO 후 지분 가치, Forbes 추정" },
+    { "year": 2007, "age": 44, "netWorthUSD": 1600000000, "note": "CUDA 출시 초기, Forbes 첫 빌리어네어 등재" },
+    { "year": 2013, "age": 50, "netWorthUSD": 1200000000, "note": "AlexNet 직후, AI 가치 아직 미반영" },
+    { "year": 2020, "age": 57, "netWorthUSD": 12000000000, "note": "코로나 데이터센터 수요 급증, Mellanox 인수" },
+    { "year": 2023, "age": 60, "netWorthUSD": 44000000000, "note": "ChatGPT-H100 붐 초기, Nvidia $1T 시총 돌파" },
+    { "year": 2024, "age": 61, "netWorthUSD": 117000000000, "note": "Nvidia 세계 시총 1위 일시 등극, Blackwell 발표" },
+    { "year": 2026, "age": 63, "netWorthUSD": 153700000000, "note": "현재 — Blackwell 양산 및 생성형 AI 수요 지속" }
+  ],
+
+  "quotes": [
+    {
+      "quote": "Our company is thirty days from going out of business.",
+      "quoteKo": "우리 회사는 30일 후 망한다.",
+      "contextKo": "1995년 NV1 실패 이후 Nvidia 문화에 영구 각인시킨 만트라. $3T 기업이 되어도 반복.",
+      "source": "https://www.acquired.fm/episodes/nvidia-the-gpu-company-1993-2006"
+    },
+    {
+      "quote": "I hope all of you suffer... because character is formed out of suffering.",
+      "quoteKo": "여러분 모두가 고통받기를 바랍니다... 왜냐하면 인격은 고통에서 형성되니까요.",
+      "contextKo": "2024년 스탠포드 졸업식 연설. 9세 켄터키 시절 경험의 철학적 요약.",
+      "source": "https://news.stanford.edu/2024/03/24/how-do-you-build-resilience-stanford-commencement-speaker-jensen-huang-shares-his-story/"
+    },
+    {
+      "quote": "I would not want to start a company again. It is a million times harder than anyone expects.",
+      "quoteKo": "다시 회사를 시작하고 싶지 않다. 누구도 예상하는 것보다 백만 배 어렵다.",
+      "contextKo": "2023년 NYT DealBook 인터뷰. 30년 CEO 생존의 진솔한 술회.",
+      "source": "https://www.nytimes.com/2023/11/29/technology/jensen-huang-nvidia-ai.html"
+    }
+  ],
+
+  "books": [
+    { "title": "The Nvidia Way", "author": "Tae Kim", "year": 2024, "noteKo": "Jensen Huang과 Nvidia 30년 공식 평전, Barron's 기자 Tae Kim 저술." },
+    { "title": "The Thinking Machine", "author": "Stephen Witt", "year": 2025, "noteKo": "AI 시대 Nvidia의 부상을 다룬 내러티브 저널리즘." }
+  ],
+
+  "personalTraits": [
+    "Paranoid urgency — 30년간 '30일 후 망한다' 반복",
+    "Long-term technology betting — CUDA에 6-17년 인내",
+    "Flat organization — 직속 부하 60명, 1:1 미팅 없이 모두에게 실시간 공유",
+    "Obsessive detail — 기술 로드맵 세부까지 직접 리뷰",
+    "Gratitude narrative — 모든 연설에 이민·실패·기회 스토리",
+    "Teaching culture — 회사 내부를 대학처럼 운영, 복도 강의 빈번",
+    "Family loyalty — 아내 Lori는 오리건 주립대 공대 동창, 1985년 결혼 후 현재까지",
+    "Signature leather jacket — 20년 이상 동일 스타일 유지하는 개인 브랜드"
+  ],
+
+  "characterKo": {
+    "strengths": "극단적 위기 의식과 편집증적 규율이 대기업이 되어도 스타트업 속도를 유지하게 함. 10년 단위 기술 베팅(CUDA)을 분기 실적 압박에 굴하지 않고 지킨 장기 의지. 플랫 조직·실시간 정보 공유로 60명 직속 부하를 개인기 없이 운영하는 구조적 리더십. 이민 1.5세대의 고통을 감추지 않고 서사로 승화시키는 정서적 투명성.",
+    "weaknesses": "편집증적 성격이 때로 조직에 과도한 긴장감과 번아웃을 유발. 기술적 자존심으로 NV1 같은 아키텍처 베팅 실패 전력. 거대 M&A(Arm $40B) 실패 — 규제 환경 판단 부족. 본인이 모든 기술 디테일에 관여하는 스타일이 승계 계획의 리스크로 남음.",
+    "motivation": "'환경이 나를 규정하지 않는다'는 9세 켄터키 체험의 재확인 동기. 칩 회사를 넘어 '컴퓨팅의 본질'을 재정의하려는 기술적 욕망. 대만-미국 이민자의 정체성 증명 욕구가 검소한 생활 양식과 공격적 기부(Giving Pledge)로 표출.",
+    "legacy": "반도체를 '부품'에서 'AI 인프라 플랫폼'으로 재정의한 경영자. CUDA 생태계를 통해 AI 연구의 표준 하드웨어 공급자 지위를 30년간 유지. 창업자-CEO의 10년 단위 기술 베팅이 상장기업에서도 가능함을 입증한 드문 사례. 대만계 미국 이민자 기업가의 글로벌 롤 모델."
+  },
+
+  "sajuConnection": null
+}

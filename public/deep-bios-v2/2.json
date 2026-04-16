@@ -1,0 +1,237 @@
+{
+  "id": "2",
+  "name": "Larry Page",
+  "nameKo": "로렌스 에드워드 페이지",
+  "netWorth": "$244.2B",
+  "nationality": "US",
+  "industry": "Technology",
+
+  "childhood": {
+    "birthPlace": "East Lansing, Michigan, USA",
+    "birthPlaceKo": "미국 미시간주 이스트랜싱",
+    "familyBackground": "Son of Carl Victor Page Sr., a computer science professor at Michigan State University and a pioneer in artificial intelligence, and Gloria Page, a computer science instructor who later worked on database consulting. Jewish-American family (mother's side); household filled with early personal computers, technical magazines, and Popular Science.",
+    "familyBackgroundKo": "아버지 칼 빅터 페이지 시니어는 미시간 주립대 컴퓨터과학 교수이자 AI 분야 초기 개척자, 어머니 글로리아는 컴퓨터과학 강사·데이터베이스 컨설턴트. 모계로 유대계 미국인 가정. 어린 시절 집에 초기 PC·기술 잡지·Popular Science가 가득했던 이공계 지식 엘리트 가정.",
+    "education": "East Lansing High School; University of Michigan BS in Computer Engineering with honors (1995); Stanford University MS in Computer Science (1998); began PhD at Stanford but left to run Google.",
+    "educationKo": "이스트랜싱 고등학교 졸업; 미시간 대학교 컴퓨터공학 우등 학사(1995); 스탠포드 대학교 컴퓨터과학 석사(1998); 동 대학 박사과정 입학했으나 Google 운영을 위해 중퇴.",
+    "earlyLife": "Born March 26, 1973. First child in his elementary school to hand in a word-processed homework assignment. At age 12 decided he would eventually start his own company after reading Nikola Tesla's biography and being struck by how Tesla died broke. Built an inkjet printer out of LEGO as a teenager.",
+    "earlyLifeKo": "1973년 3월 26일 출생. 초등학교 때 워드프로세서로 과제를 제출한 첫 번째 학생. 12세에 니콜라 테슬라 전기를 읽고 '천재가 돈 없이 죽는' 결말에 충격받아 언젠가 자기 회사를 세우기로 결심. 십대 때 레고로 잉크젯 프린터 제작.",
+    "capitalTypeKo": "self-made 중심. 지적·학문 자본(박사 부모+스탠포드 박사과정)이 핵심 무형 자본이나 금융 자본은 스스로 조달. 1998년 Andy Bechtolsheim의 $10만 수표 이후 Sequoia·Kleiner Perkins로 VC 자금 확보.",
+    "source": "https://en.wikipedia.org/wiki/Larry_Page ; https://www.britannica.com/money/Larry-Page ; https://achievement.org/achiever/larry-page/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "부모가 컴퓨터과학 학자였다는 지적 자본은 있지만 재산은 가업이 아닌 Google 지분 100%에서 발생. 1998년 VC 자금 유치 전까지 부모·친구의 소액 지원($1만 수준)과 본인 학비 수준 자본으로 시작. Forbes self-made score 8/10.",
+    "source": "https://www.forbes.com/profile/larry-page/ ; https://en.wikipedia.org/wiki/Larry_Page"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1995,
+      "age": 22,
+      "event": "Met Sergey Brin during Stanford graduate student orientation; initially argued about everything but became inseparable research partners",
+      "eventKo": "스탠포드 대학원 신입생 오리엔테이션에서 세르게이 브린을 만남. 처음엔 모든 것에 대해 논쟁했지만 곧 떨어질 수 없는 연구 파트너가 됨.",
+      "whyItMatteredKo": "Google의 모든 것은 이 한 번의 만남에서 시작. 페이지의 논문 주제(웹을 거대한 수학적 그래프로 분석)가 브린의 수학적 직관과 결합해 PageRank로 이어짐.",
+      "whatTheyRiskedKo": "지적 도전에 학업 속도 일부 희생",
+      "whoHelpedKo": "지도교수 Terry Winograd, 박사과정 Rajeev Motwani",
+      "source": "https://en.wikipedia.org/wiki/Larry_Page ; https://achievement.org/achiever/larry-page/"
+    },
+    {
+      "year": 1996,
+      "age": 23,
+      "event": "Began BackRub research project analyzing web's link structure from his Stanford dorm room",
+      "eventKo": "스탠포드 기숙사에서 웹의 링크 구조를 분석하는 BackRub 연구 프로젝트 시작",
+      "whyItMatteredKo": "당시 검색엔진들은 키워드 빈도 기반이어서 스팸에 취약했음. 페이지는 학술 논문 인용 수 개념을 웹 링크에 적용하자는 아이디어를 제안, 브린이 수학적으로 구현. 이것이 PageRank이자 향후 검색 독점의 공학적 기반.",
+      "whatTheyRiskedKo": "박사 논문 주제로서 성공 불확실, 서버 임대료로 대학 신용카드 한도 소진",
+      "source": "https://en.wikipedia.org/wiki/Google ; https://www.britannica.com/money/Larry-Page"
+    },
+    {
+      "year": 1998,
+      "age": 25,
+      "event": "Incorporated Google, Inc. on September 4, 1998; received $100K seed check from Andy Bechtolsheim before company legally existed; moved from Stanford servers to Susan Wojcicki's Menlo Park garage ($1,700/month rent)",
+      "eventKo": "9월 4일 Google, Inc. 법인 설립. 법인 설립 전 Andy Bechtolsheim(Sun Microsystems 공동창업자)에게서 10만 달러 수표를 먼저 받음. 스탠포드 서버에서 수잔 워치스키의 멘로파크 차고(월 $1,700)로 이전.",
+      "whyItMatteredKo": "학술 프로젝트 → 법인 전환 결정적 시점. Bechtolsheim의 수표가 Sequoia·Kleiner Perkins VC 유치의 사회적 증명. 차고 사무실의 집주인 워치스키는 훗날 YouTube CEO가 되는 첫 직원.",
+      "whatTheyRiskedKo": "박사과정 휴학, 기존 검색엔진(Yahoo, AltaVista, Excite) 지배 시장 진입",
+      "whoHelpedKo": "Andy Bechtolsheim, 초기 엔젤 David Cheriton, Ram Shriram, 교수 Jeffrey Ullman",
+      "source": "https://en.wikipedia.org/wiki/Google ; https://startuptalky.com/larry-page-google/"
+    },
+    {
+      "year": 2001,
+      "age": 28,
+      "event": "Stepped aside as CEO; Eric Schmidt became CEO as 'adult supervision' demanded by VCs",
+      "eventKo": "VC들의 '성인 감독(adult supervision)' 요구로 CEO직 양보, Eric Schmidt가 CEO 취임. 페이지는 제품 총괄로 이동.",
+      "whyItMatteredKo": "본인이 만든 회사의 경영권을 10년간 내려놓은 결정. 대신 기술·제품 아키텍처에 집중하며 AdWords(2002)·Gmail(2004)·Maps(2005) 등 핵심 제품 라인업 완성. 2011년 CEO 복귀 때 성숙한 리더로 돌아올 수 있는 학습 기간.",
+      "whatTheyRiskedKo": "창업자로서의 공적 정체성과 통제권 일부 포기",
+      "source": "https://www.britannica.com/money/Larry-Page ; https://en.wikipedia.org/wiki/Larry_Page"
+    },
+    {
+      "year": 2004,
+      "age": 31,
+      "event": "Google IPO on August 19, 2004 using Dutch auction to raise $1.67B at $85/share; dual-class share structure (Class B 10-vote shares) gave founders permanent control",
+      "eventKo": "8월 19일 Google, 주당 85달러 네덜란드식 경매 방식으로 16억 7천만 달러 IPO. 이중주식구조(클래스B 1주=10표)로 창업자 영구 지배권 확보.",
+      "whyItMatteredKo": "네덜란드 경매는 월스트리트의 전통적 IPO 할인을 거부한 상징적 저항. 이중주식구조는 이후 Facebook·Snap 등 테크 IPO의 표준이 됨. 페이지 개인 지분 가치가 수십억 달러로 급등.",
+      "source": "https://en.wikipedia.org/wiki/Google ; https://www.britannica.com/money/Larry-Page"
+    },
+    {
+      "year": 2011,
+      "age": 38,
+      "event": "Returned as Google CEO (April 4, 2011); immediately restructured org into 7 product verticals and closed dozens of minor projects",
+      "eventKo": "4월 4일 Google CEO 복귀. 즉시 조직을 7개 제품군 수직 구조로 재편, 수십 개의 소규모 프로젝트 종료.",
+      "whyItMatteredKo": "10년 전 양보했던 CEO 자리에 '성숙한 공학자'로 귀환. '모두에게 친절한 Google'을 '집중하고 베팅하는 Google'로 전환하며 Android·YouTube·Chrome을 전략 우선순위로 격상.",
+      "source": "https://www.itpro.com/strategy/leadership/22753/larry-page-biography-salary-and-career-history-of-google-s-co-founder-and ; https://en.wikipedia.org/wiki/Larry_Page"
+    },
+    {
+      "year": 2015,
+      "age": 42,
+      "event": "Announced Alphabet Inc. restructuring (August 10); became Alphabet CEO with Sundar Pichai taking over Google. Moonshots (X, Waymo, Verily, Calico) given independent P&L.",
+      "eventKo": "8월 10일 Alphabet Inc. 지주회사 재편 발표. 페이지는 Alphabet CEO, Google은 Sundar Pichai에게. X, Waymo, Verily, Calico 같은 '문샷' 사업부를 독립 P&L 구조로.",
+      "whyItMatteredKo": "공학자 페이지의 이상을 제도화. 핵심 광고 사업(Google)과 장기 실험(Alphabet other bets)을 재무적으로 분리해 주주·시장의 평가를 다르게 받게 함. 본인은 일상 운영에서 한 단계 더 떨어져 기술 베팅에 집중.",
+      "source": "https://abc.xyz/investor/ ; https://en.wikipedia.org/wiki/Alphabet_Inc."
+    },
+    {
+      "year": 2019,
+      "age": 46,
+      "event": "Stepped down as Alphabet CEO (December 3); Sundar Pichai assumed both Google and Alphabet CEO roles. Retained voting control with Brin.",
+      "eventKo": "12월 3일 Alphabet CEO 사임. Sundar Pichai가 Google·Alphabet CEO 겸임. 브린과 함께 의결권 지배는 유지.",
+      "whyItMatteredKo": "공식 경영 일선에서 물러나 연구·장기 베팅(Kitty Hawk 비행 자동차, Opener 등 개인 투자)과 가족 재단에 집중. Alphabet 의결권 52%는 두 창업자가 보유, 'absentee owner' 모델 확립.",
+      "source": "https://abc.xyz/press/ ; https://en.wikipedia.org/wiki/Larry_Page"
+    },
+    {
+      "year": 2023,
+      "age": 50,
+      "event": "Quietly intensified involvement in Alphabet AI strategy (Gemini, DeepMind integration) in response to OpenAI/ChatGPT threat; backed Opener and Kitty Hawk successors via Opener Aero",
+      "eventKo": "OpenAI·ChatGPT 위협 대응으로 Alphabet AI 전략(Gemini, DeepMind 통합)에 조용히 개입 강화. 개인 투자로 Opener Aero를 통한 전기 수직이착륙기(eVTOL) 베팅 지속.",
+      "whyItMatteredKo": "사임 후에도 대주주로서 AI 전환기의 핵심 인사(DeepMind CEO Demis Hassabis를 Gemini 총괄로) 결정에 영향. 개인 투자는 공학자 정체성 유지.",
+      "source": "https://en.wikipedia.org/wiki/Sergey_Brin ; https://www.theinformation.com/"
+    },
+    {
+      "year": 2025,
+      "age": 52,
+      "event": "Net worth surpassed $200B on the back of Alphabet AI rerating and 2025 market cap push; remained Alphabet board member with ~6% economic and ~26% voting stake (with Brin combined)",
+      "eventKo": "2025년 Alphabet AI 재평가와 시총 상승으로 순자산 2,000억 달러 돌파. Alphabet 이사 유지, 개인 경제지분 약 6%·브린과 합산 의결권 약 26%.",
+      "whyItMatteredKo": "공식 직함 없이도 자본·의결권만으로 세계 최상위 부자 지위 유지. 2026년 현재 $244.2B으로 글로벌 2위.",
+      "source": "https://www.forbes.com/profile/larry-page/ ; https://en.wikipedia.org/wiki/Larry_Page"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1998,
+      "age": 25,
+      "decisionKo": "스탠포드 박사과정을 휴학하고 Google을 법인화",
+      "alternativeKo": "BackRub 논문을 마치고 교수직으로 진출, 또는 기술을 Yahoo·Excite에 매각 (실제로 당시 Excite에 $100만에 제안했으나 거절당함)",
+      "outcomeKo": "현대 웹 검색 독점과 본인 $244B 자산의 출발점",
+      "source": "https://startuptalky.com/larry-page-google/"
+    },
+    {
+      "year": 2001,
+      "age": 28,
+      "decisionKo": "CEO 자리를 Eric Schmidt에게 넘기고 10년간 제품·기술에 집중",
+      "alternativeKo": "VC 요구를 거부하고 CEO 유지 (Steve Jobs가 1985년처럼 쫓겨날 수도 있던 상황)",
+      "outcomeKo": "10년간 AdWords·Gmail·Maps·Android·Chrome 아키텍처 완성, 2011년 성숙한 리더로 복귀",
+      "source": "https://www.britannica.com/money/Larry-Page"
+    },
+    {
+      "year": 2015,
+      "age": 42,
+      "decisionKo": "Google을 Alphabet 지주회사 아래 재편하고 'moonshot' 사업을 독립 P&L로",
+      "alternativeKo": "전통적 사업부 구조 유지하며 광고 수익으로 장기 투자 은폐",
+      "outcomeKo": "Waymo·Verily·Isomorphic 등 장기 베팅의 지배구조 기반 마련, 2019년 일상 운영 이탈 시 정리된 구조 유지 가능",
+      "source": "https://abc.xyz/investor/"
+    }
+  ],
+
+  "moneyMechanics": {
+    "coreBusinessKo": "Alphabet 이중주식구조 아래 Class B·C 지분(경제적 약 6%, 의결권 브린과 합산 약 51% 수준). 주 수입원은 Google 검색 광고·YouTube·Cloud·Android 생태계. 개인 포트폴리오는 Planetary Resources(종료)·Kitty Hawk·Opener·Wisk Aero 등 항공/플라잉카에 집중.",
+    "moatKo": "① PageRank와 20년 누적 검색 데이터 네트워크 효과. ② Android·Chrome·Gmail의 수평 OS/브라우저/이메일 표준 지위. ③ YouTube의 창작자-시청자 양면 네트워크. ④ DeepMind·Gemini의 AI 인재·GPU 자본. ⑤ 이중주식구조로 창업자 의결권 영구 보존.",
+    "luckVsSkillKo": "운(35%): 1998년 웹 폭증 타이밍, 2001년 Yahoo가 Google을 인수 협상에서 과소평가한 실수, 2000년대 초반 광고 경매(AdWords) 모델을 Overture에 배운 이후 개선 여지가 컸던 시장. 실력(65%): PageRank의 수학적 정확성, 장기 엔지니어링 문화, OKR·20% 타임·이중주식구조 같은 제도 설계, 2011년 복귀 후 과감한 제품 정리.",
+    "politicalCapitalKo": "머스크·저커버그만큼 직접적 정치 개입은 아니지만, Google은 2010년대 이후 미·EU 반독점·개인정보 규제의 상시적 대상. 페이지 개인은 공개 정치 발언 최소화로 대신 로비·소송 대응을 Alphabet Policy팀에 위임. 2025년 기준 Alphabet이 연 $100M 이상 미국 로비 지출.",
+    "capitalHistoryKo": "1998 Bechtolsheim $10만 수표 → 1999 Sequoia·Kleiner Perkins $2,500만 시리즈 → 2004 IPO 개인 지분 약 $4B → 2015 Alphabet 재편 → 2019 경영 이탈 후 주식 일부 매각해 개인 자선 재단·플라잉카 투자 자금화 → 2023-25 AI 재평가로 Alphabet 시총 $3조+ 돌파",
+    "source": "https://abc.xyz/investor/ ; https://www.forbes.com/profile/larry-page/ ; https://en.wikipedia.org/wiki/Alphabet_Inc."
+  },
+
+  "failures": [
+    {
+      "year": 1999,
+      "age": 26,
+      "description": "Offered to sell Google to Excite for $1M; Excite CEO George Bell rejected the deal. Earlier Yahoo also declined to license or acquire PageRank technology.",
+      "descriptionKo": "Excite의 CEO George Bell에게 Google을 100만 달러에 매각 제안, 거절당함. 그 이전 Yahoo도 PageRank 기술 라이선스·인수를 거절.",
+      "howTheyOvercameKo": "매각 실패를 단독 성장의 계기로 전환. 독립 법인 유지하며 Sequoia·Kleiner Perkins의 추가 자금으로 AdWords 모델 자체 개발. Excite는 2001년 파산, Yahoo는 2016년 Verizon에 $48억으로 팔림 — 원 제안 금액의 5만 배 차이.",
+      "lessonKo": "기존 시장 지배자들이 신기술의 가치를 체계적으로 과소평가한다. 제때 독립 경로를 선택하면 그 오판이 창업자의 자산이 된다.",
+      "source": "https://startuptalky.com/larry-page-google/ ; https://www.britannica.com/money/Larry-Page"
+    },
+    {
+      "year": 2010,
+      "age": 37,
+      "description": "Google Wave launched in 2009, shut down in August 2010 after failing to gain adoption. Google Buzz (2010) faced massive privacy backlash and was discontinued in 2011. Page's product unification bets flopped.",
+      "descriptionKo": "2009년 출시한 Google Wave가 채택 실패로 2010년 8월 종료. 2010년 Google Buzz는 대규모 프라이버시 문제로 2011년 종료. 페이지가 주도한 커뮤니케이션 제품 통합 베팅이 연속 실패.",
+      "howTheyOvercameKo": "'실패한 프로젝트는 빠르게 접고 인재를 다른 팀으로 재배치' 원칙을 공식화. 2011년 CEO 복귀 직후 Google+로 SNS에 재도전(이후 2018년 종료), 그 학습이 Gmail·Meet·Hangouts 통합 전략으로 이어짐.",
+      "lessonKo": "실패한 제품을 빨리 종료하는 것 자체가 조직의 신뢰 자본이다. 머물러 있으면 엔지니어 사기와 브랜드 모두 잃는다.",
+      "source": "https://en.wikipedia.org/wiki/Google_Wave ; https://en.wikipedia.org/wiki/Google_Buzz"
+    },
+    {
+      "year": 2018,
+      "age": 45,
+      "description": "Google+ shut down in April 2019 after 2018 Wall Street Journal exposed a 2015 data bug affecting 500K users that Google did not disclose. Page criticized for reclusive response to regulatory and employee concerns.",
+      "descriptionKo": "2018년 Wall Street Journal이 Google+의 2015년 50만 사용자 데이터 버그를 Google이 공개하지 않았다고 폭로. 2019년 4월 Google+ 완전 종료. 페이지는 규제 당국·직원 우려에 공개적으로 응답하지 않는 '은둔형' 리더로 비판받음.",
+      "howTheyOvercameKo": "Google+ 폐지, 프라이버시 담당 임원 격상, 2019년 CEO 사임 후 Sundar Pichai가 외부 소통 전담. 페이지는 완전 비공개 모드로 전환해 브랜드 리스크를 회사에서 분리.",
+      "lessonKo": "기술 리더십은 충분하지 않다. 회사 규모가 커지면 공적 설명 책임이 곧 리스크이며, 그 역할을 전문가에게 넘기는 것이 장기 거버넌스의 일부.",
+      "source": "https://www.wsj.com/articles/google-exposed-user-data-feared-repercussions-of-disclosing-to-public-1539017194 ; https://en.wikipedia.org/wiki/Google%2B"
+    },
+    {
+      "year": 2022,
+      "age": 49,
+      "description": "Kitty Hawk, Page-funded flying car startup, shut down in September 2022 after 12 years without commercial product. $100M+ personal investment lost; employees transferred to Wisk Aero JV with Boeing.",
+      "descriptionKo": "페이지가 개인 자금으로 지원한 플라잉카 스타트업 Kitty Hawk가 12년간 상용 제품 없이 2022년 9월 폐업. 1억 달러 이상 개인 투자 소멸, 직원들은 보잉과의 합작사 Wisk Aero로 이관.",
+      "howTheyOvercameKo": "실패를 공식 인정하고 지적재산·인재를 Wisk Aero로 승계. Opener Aero 같은 다른 eVTOL 업체에 추가 투자로 학습 지속. 개인 자산의 0.05% 수준 손실로 관리 가능.",
+      "lessonKo": "고위험 장기 하드웨어 베팅은 개인 자산의 극히 일부로만, 그리고 자산 승계 경로를 미리 설계해두고 진행해야 한다.",
+      "source": "https://www.theverge.com/2022/9/21/23365584/kitty-hawk-larry-page-aviation-company-closing-down ; https://en.wikipedia.org/wiki/Kitty_Hawk_Corporation"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2004, "netWorth": 4.0 },
+    { "year": 2010, "netWorth": 15.0 },
+    { "year": 2015, "netWorth": 35.0 },
+    { "year": 2019, "netWorth": 55.5 },
+    { "year": 2021, "netWorth": 123.0 },
+    { "year": 2023, "netWorth": 100.0 },
+    { "year": 2025, "netWorth": 200.0 },
+    { "year": 2026, "netWorth": 244.2 }
+  ],
+
+  "quotes": [
+    "Always deliver more than expected.",
+    "If you're changing the world, you're working on important things. You're excited to get up in the morning.",
+    "You never lose a dream, it just incubates as a hobby."
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": [
+      "Nikola Tesla biography",
+      "Structures: Or Why Things Don't Fall Down — J.E. Gordon",
+      "The Innovator's Dilemma — Clayton Christensen"
+    ]
+  },
+
+  "personalTraits": {
+    "knownFor": "Co-founder of Google and inventor of PageRank; architect of Alphabet restructuring; reclusive engineer-CEO; backer of flying car and longevity ventures.",
+    "knownForKo": "Google 공동창업자이자 PageRank 발명자. Alphabet 지주회사 재편 설계자. 은둔형 공학자-CEO. 플라잉카·장수 연구 투자자.",
+    "philanthropy": "Carl Victor Page Memorial Foundation (named after father); funds education, global health, clean energy. Signed Giving Pledge in 2019.",
+    "philanthropyKo": "아버지 이름을 딴 Carl Victor Page 기념 재단 운영, 교육·글로벌 보건·청정에너지 지원. 2019년 Giving Pledge 서명.",
+    "controversies": "Near-silent public profile despite enormous influence; Google+ data bug nondisclosure (2018); Alphabet antitrust cases in US/EU; vocal cord paralysis from 1999 limits public speaking and is sometimes cited as convenient cover.",
+    "controversiesKo": "거대한 영향력에도 공개 발언 최소화; 2018년 Google+ 데이터 버그 미공개; 미·EU Alphabet 반독점 소송; 1999년부터 성대 마비를 앓아 공개 발언 제한되며 이 때문에 공적 책임 회피 수단이라는 비판도.",
+    "controversiesSource": "https://en.wikipedia.org/wiki/Larry_Page"
+  },
+
+  "characterKo": {
+    "observedTraitsKo": "극도로 내향적, 공학적 디테일 집착, '10배 더 나은 것(10x)' 아니면 관심 없음, 거대 조직 속에서도 직접 코드와 시스템 아키텍처를 검토하려 함, 카메라·인터뷰 회피",
+    "leadershipStyleKo": "비전 설정 후 세부에는 개입하되 공개 일선에는 나서지 않음. 문서·메모 기반 의사결정 선호, 회의에서 조용하다가 결정적 질문을 던지는 스타일. '빨리 실패하고 빨리 접어라'를 제도화.",
+    "conflictBehaviorKo": "정면 충돌 회피, 대신 구조로 해결(이중주식구조로 경영권 분쟁 원천 차단, Alphabet 분사로 내부 파벌 정리). 직원·언론에게는 침묵으로 대응해 답답함을 야기하기도 함.",
+    "knownQuirksKo": "피지에 섬 구입해 거주, 공개 인터뷰 거의 없음, 성대 마비로 목소리가 쉬어 있음, 항공기·플라잉카에 병적 집착, 해양 탐사 로봇에도 투자. 원하는 기술을 직접 만들어보려 함.",
+    "source": "https://en.wikipedia.org/wiki/Larry_Page ; https://www.britannica.com/money/Larry-Page"
+  },
+
+  "sajuConnection": null
+}

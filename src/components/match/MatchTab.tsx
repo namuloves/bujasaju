@@ -172,7 +172,19 @@ export default function MatchTab() {
         <RevealAnimation saju={saju} onDone={() => setStep('results')} />
       )}
       {step === 'results' && saju && (
-        <MatchResults me={saju} onReset={handleReset} />
+        <MatchResults
+          me={saju}
+          onReset={handleReset}
+          userBirthday={
+            input?.mode === 'birthday'
+              ? `${input.year}-${String(input.month).padStart(2, '0')}-${String(input.day).padStart(2, '0')}`
+              : undefined
+          }
+          // NOTE: BirthdayForm doesn't yet collect gender; default to 'M' so
+          // the v2 deep interpretation can run. Follow-up task: add a gender
+          // toggle to BirthdayForm and pass it through here.
+          userGender={input?.mode === 'birthday' ? 'M' : undefined}
+        />
       )}
     </div>
   );

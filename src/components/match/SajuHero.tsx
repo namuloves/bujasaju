@@ -1,6 +1,6 @@
 'use client';
 
-import type { SajuResult, Ju, CheonGan, JiJi } from '@/lib/saju/types';
+import type { SajuResult, Ju, CheonGan, JiJi, EnrichedPerson } from '@/lib/saju/types';
 import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS, GYEOKGUK_NAMES, getBongi } from '@/lib/saju/constants';
 import { getSipSin } from '@/lib/saju/tenGods';
 import { useLanguage } from '@/lib/i18n';
@@ -9,6 +9,7 @@ interface Props {
   saju: SajuResult;
   totalMatches: number;
   onReset: () => void;
+  featuredPerson?: EnrichedPerson | null;
 }
 
 export function HeroPillar({
@@ -25,11 +26,11 @@ export function HeroPillar({
   compact?: boolean;
 }) {
   const cell = compact
-    ? 'w-8 h-8 rounded-md text-lg'
-    : 'w-10 h-10 sm:w-11 sm:h-11 rounded-lg text-2xl';
+    ? 'w-7 h-7 rounded-md text-base'
+    : 'w-9 h-9 sm:w-10 sm:h-10 rounded-lg text-xl';
   const cellEmpty = compact
-    ? 'w-8 h-8 rounded-md text-sm'
-    : 'w-10 h-10 sm:w-11 sm:h-11 rounded-lg text-lg';
+    ? 'w-7 h-7 rounded-md text-xs'
+    : 'w-9 h-9 sm:w-10 sm:h-10 rounded-lg text-base';
   const labelSize = compact ? 'text-[9px]' : 'text-[10px]';
   const sipsinSize = compact ? 'text-[8px]' : 'text-[9px]';
 
@@ -82,16 +83,17 @@ export function HeroPillar({
   );
 }
 
-export default function SajuHero({ saju, totalMatches, onReset }: Props) {
-  const { t } = useLanguage();
+export default function SajuHero({ saju, totalMatches, onReset, featuredPerson }: Props) {
+  const { t, lang } = useLanguage();
   const hanja = GYEOKGUK_NAMES[saju.gyeokguk] || '';
+  const fpSaju = featuredPerson?.saju;
 
   return (
     <div className="relative bg-white rounded-2xl overflow-hidden">
       <div className="px-4 sm:px-6 py-5 sm:py-6">
         {/* Headline */}
         <div className="text-center mb-3">
-          <div className="text-xs font-semibold text-indigo-500 tracking-widest uppercase">
+          <div className="text-xs font-bold text-gray-600">
             {t.yourSaju}
           </div>
         </div>
@@ -105,7 +107,7 @@ export default function SajuHero({ saju, totalMatches, onReset }: Props) {
         </div>
 
         {/* Key stats: 일주 · 월지 · 격국 */}
-        <div className="flex flex-wrap justify-center gap-x-5 gap-y-1.5 text-sm mb-4">
+        <div className="flex flex-nowrap justify-center gap-x-3 text-xs mb-4 whitespace-nowrap">
           <div>
             <span className="text-gray-500">{t.yourIlju}</span>
             <span className="mx-1.5 text-gray-300">·</span>
@@ -126,9 +128,50 @@ export default function SajuHero({ saju, totalMatches, onReset }: Props) {
           </div>
         </div>
 
+        {/* Featured person's saju chart */}
+        {fpSaju && (
+          <div className="mb-4 mt-8">
+            <div className="text-center mb-3">
+              <div className="text-xs font-bold text-gray-600">
+                {lang === 'ko'
+                  ? `${featuredPerson!.nameKo ?? featuredPerson!.name}의 사주`
+                  : `${featuredPerson!.name}'s Saju`}
+              </div>
+            </div>
+            <div className="flex justify-center gap-2 sm:gap-3 mb-3">
+              <HeroPillar label="時" ju={null} ilgan={fpSaju.saju.day.stem as CheonGan} />
+              <HeroPillar label="日" ju={fpSaju.saju.day} ilgan={fpSaju.saju.day.stem as CheonGan} isDayPillar />
+              <HeroPillar label="月" ju={fpSaju.saju.month} ilgan={fpSaju.saju.day.stem as CheonGan} />
+              <HeroPillar label="年" ju={fpSaju.saju.year} ilgan={fpSaju.saju.day.stem as CheonGan} />
+            </div>
+            <div className="flex flex-nowrap justify-center gap-x-3 text-xs whitespace-nowrap">
+              <div>
+                <span className="text-gray-500">{t.yourIlju}</span>
+                <span className="mx-1.5 text-gray-300">·</span>
+                <span className="font-bold text-indigo-600">{fpSaju.ilju}</span>
+              </div>
+              <div>
+                <span className="text-gray-500">{t.yourWolji}</span>
+                <span className="mx-1.5 text-gray-300">·</span>
+                <span className="font-bold text-indigo-600">{fpSaju.wolji}</span>
+              </div>
+              <div>
+                <span className="text-gray-500">{t.yourGyeokguk}</span>
+                <span className="mx-1.5 text-gray-300">·</span>
+                <span className="font-bold text-indigo-600">
+                  {fpSaju.gyeokguk}
+                  {GYEOKGUK_NAMES[fpSaju.gyeokguk] && (
+                    <span className="text-gray-400 font-normal ml-1">{GYEOKGUK_NAMES[fpSaju.gyeokguk]}</span>
+                  )}
+                </span>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Match count — the "quiz result" payoff line */}
         <div className="text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full">
+          <div className="inline-flex items-center gap-2 py-2 bg-white rounded-full">
             <span className="text-indigo-400">✨</span>
             <span className="text-sm">
               <span className="font-bold text-indigo-600">

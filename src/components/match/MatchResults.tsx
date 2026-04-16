@@ -6,18 +6,28 @@ import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
 import type { EnrichedPerson, SajuResult } from '@/lib/saju/types';
 import PersonCard from '@/components/PersonCard';
+import { hasDeepBioSync, hasDeepBioV2Sync } from '@/lib/deepBio';
 import SajuHero from './SajuHero';
+import FeaturedPersonCard from './FeaturedPersonCard';
 import ShareButtons from './ShareButtons';
 import MatchSummary from './MatchSummary';
+import DeepInterpretation from './DeepInterpretation';
 import EmailCaptureCard from './EmailCaptureCard';
-import SingleMatchCard from './SingleMatchCard';
+// import SingleMatchCard from './SingleMatchCard';
 
 interface Props {
   me: SajuResult;
   onReset: () => void;
+  /**
+   * User's birthday (YYYY-MM-DD) and gender, needed for 대운 calculation
+   * inside the deep interpretation. Optional — when missing, the v2 deep
+   * interpretation section is silently skipped.
+   */
+  userBirthday?: string;
+  userGender?: 'M' | 'F';
 }
 
-export default function MatchResults({ me, onReset }: Props) {
+export default function MatchResults({ me, onReset, userBirthday, userGender }: Props) {
   const { t } = useLanguage();
   const { people: enrichedPeople, loading } = useEnrichedPeople();
 
@@ -75,95 +85,67 @@ export default function MatchResults({ me, onReset }: Props) {
     );
   }
 
-  const isSingleTopMatch = groups.iljuPlusMonthJu.length === 1;
+  // Featured person for the top card — prefer one with a deep bio
+  const featuredPerson = summaryMatches.find(p => hasDeepBioSync(p.id))
+    || summaryMatches[0] || null;
 
   return (
-    <div className={isSingleTopMatch
-      ? 'max-w-2xl mx-auto space-y-8'
-      : 'md:grid md:grid-cols-[minmax(0,340px)_minmax(0,1fr)] md:gap-6 lg:gap-8 md:items-start space-y-8 md:space-y-0'
-    }>
-      {/* Left column (md+): hero + share/email stick to the side.
-          Hidden when SingleMatchCard is active (chart is embedded in the card). */}
-      {!isSingleTopMatch && (
-        <div className="md:sticky md:top-4 space-y-4">
-          <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} />
-
-          {/* Share + email — desktop only (on mobile, shown after first result group) */}
-          <div className="hidden md:block bg-white rounded-2xl px-4 sm:px-6 py-5">
-            <ShareButtons title={t.shareTitle} variant="hero" />
-            <div className="mt-4">
-              <EmailCaptureCard />
-            </div>
+    <div className="max-w-5xl mx-auto space-y-8">
+      {/* Top row: 당신의 사주 (left) + 사주 풀이 (right) in one card */}
+      <div className="rounded-2xl bg-white border border-gray-200 overflow-hidden">
+        <div className="grid md:grid-cols-[minmax(0,420px)_minmax(0,1fr)]">
+          <div className="px-5 sm:px-6 py-5 sm:py-6">
+            <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} featuredPerson={featuredPerson} />
+          </div>
+          <div className="px-5 sm:px-6 py-5 sm:py-6 space-y-5">
+            <MatchSummary saju={me} matches={summaryMatches} />
+            {featuredPerson && hasDeepBioV2Sync(featuredPerson.id) && userBirthday && userGender && (
+              <div className="border-t border-gray-100 pt-5">
+                <DeepInterpretation
+                  saju={me}
+                  featured={featuredPerson}
+                  userBirthday={userBirthday}
+                  userGender={userGender}
+                />
+              </div>
+            )}
+            {featuredPerson && (
+              <div className="max-w-xs">
+                <FeaturedPersonCard person={featuredPerson} />
+              </div>
+            )}
           </div>
         </div>
-      )}
+      </div>
 
-      {/* Right column (or single column when unified card): results */}
+      {/* Results */}
       <div className="space-y-8 min-w-0">
-      {/* Single top match: unified card when the 🥇 group has exactly 1 person */}
-      {isSingleTopMatch ? (
-        <>
-          <SingleMatchCard
-            person={groups.iljuPlusMonthJu[0]}
-            saju={me}
-            matches={summaryMatches}
-            onReset={onReset}
-            totalMatches={totalMatches}
-          />
-          {/* Share + email after the unified card (both mobile and desktop) */}
-          <div className="bg-white rounded-2xl px-4 sm:px-6 py-5">
-            <ShareButtons title={t.shareTitle} variant="hero" />
-            <div className="mt-4">
-              <EmailCaptureCard />
-            </div>
-          </div>
-        </>
-      ) : (
-        <MatchSummary saju={me} matches={summaryMatches} />
-      )}
       {(() => {
-        // When the unified SingleMatchCard is shown, skip the monthJu section
-        // (it's already embedded in the card). Track whether we've rendered
-        // the first section for mobile share placement.
-        const skipMonthJu = groups.iljuPlusMonthJu.length === 1;
-        let firstRendered = skipMonthJu; // if unified card shown, share already placed
+        // Exclude the featured person shown in the top card
+        const featuredId = featuredPerson?.id;
         return sections.map((section) => {
-          if (section.people.length === 0) return null;
-          // Skip the monthJu section when it's already in SingleMatchCard
-          if (skipMonthJu && section.key === 'monthJu') return null;
+          const people = section.people.filter(p => p.id !== featuredId);
+          if (people.length === 0) return null;
           const autoOpenChart = section.key === 'twins' || section.key === 'monthJu';
-          const isFirst = !firstRendered;
-          firstRendered = true;
           return (
-            <div key={section.key}>
-              <section>
-                <div className="flex items-baseline gap-2 mb-3">
-                  <span className="text-xl">{section.medal}</span>
-                  <h3 className="text-base font-bold text-gray-900">{section.title}</h3>
-                  <span className="text-xs text-gray-400">
-                    {t.countPeople(section.people.length)}
-                  </span>
-                </div>
-                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                  {section.people.map((person) => (
-                    <PersonCard
-                      key={person.id}
-                      person={person}
-                      defaultShowChart={autoOpenChart}
-                    />
-                  ))}
-                </div>
-              </section>
-              {/* Mobile only: share + email after first result group */}
-              {isFirst && (
-                <div className="md:hidden bg-white rounded-2xl px-4 py-5 mt-8">
-                  <ShareButtons title={t.shareTitle} variant="hero" />
-                  <div className="mt-4">
-                    <EmailCaptureCard />
-                  </div>
-                </div>
-              )}
-            </div>
+            <section key={section.key}>
+              <div className="flex items-baseline gap-2 mb-3">
+                <span className="text-xl">{section.medal}</span>
+                <h3 className="text-base font-bold text-gray-900">{section.title}</h3>
+                <span className="text-xs text-gray-400">
+                  {t.countPeople(people.length)}
+                </span>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                {people.map((person) => (
+                  <PersonCard
+                    key={person.id}
+                    person={person}
+                    defaultShowChart={autoOpenChart}
+                  />
+                ))}
+              </div>
+            </section>
           );
         });
       })()}
@@ -174,7 +156,7 @@ export default function MatchResults({ me, onReset }: Props) {
         </div>
       )}
 
-      {/* "같은 일주" group — hidden by default behind a CTA, expands inline on click. */}
+      {/* "같은 일주" group — hidden by default behind a CTA */}
       {sameIljuCount > 0 && (
         <>
           <div className="flex justify-center pt-2">
@@ -208,6 +190,14 @@ export default function MatchResults({ me, onReset }: Props) {
           )}
         </>
       )}
+
+      {/* Share + email */}
+      <div className="bg-white rounded-2xl px-4 sm:px-6 py-5">
+        <ShareButtons title={t.shareTitle} variant="hero" />
+        <div className="mt-4">
+          <EmailCaptureCard />
+        </div>
+      </div>
 
       </div>
     </div>
