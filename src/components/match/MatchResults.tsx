@@ -6,7 +6,7 @@ import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
 import type { EnrichedPerson, SajuResult } from '@/lib/saju/types';
 import PersonCard from '@/components/PersonCard';
-import { hasDeepBioSync, hasDeepBioV2Sync } from '@/lib/deepBio';
+import { hasDeepBioSync } from '@/lib/deepBio';
 import SajuHero from './SajuHero';
 import FeaturedPersonCard from './FeaturedPersonCard';
 import ShareButtons from './ShareButtons';
@@ -99,7 +99,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
           </div>
           <div className="px-5 sm:px-6 py-5 sm:py-6 space-y-5">
             <MatchSummary saju={me} matches={summaryMatches} />
-            {featuredPerson && hasDeepBioV2Sync(featuredPerson.id) && userBirthday && userGender && (
+            {featuredPerson && userBirthday && userGender && (
               <div className="border-t border-gray-100 pt-5">
                 <DeepInterpretation
                   saju={me}

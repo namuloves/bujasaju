@@ -99,6 +99,7 @@ function streamFor(
             birthday: featured.birthday,
             netWorth: featured.netWorth,
             nationality: featured.nationality,
+            industry: featured.industry,
             gender: featured.gender,
             ilju: fSaju.ilju,
             wolji: fSaju.wolji,
@@ -106,6 +107,9 @@ function streamFor(
             year: { stem: fSaju.saju.year.stem, branch: fSaju.saju.year.branch },
             month: { stem: fSaju.saju.month.stem, branch: fSaju.saju.month.branch },
             day: { stem: fSaju.saju.day.stem, branch: fSaju.saju.day.branch },
+            bio: featured.bio,
+            bioKo: featured.bioKo,
+            wealthOrigin: featured.wealthOrigin,
           },
         }),
       });
