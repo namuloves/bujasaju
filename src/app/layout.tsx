@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://bujasaju.com'),
+  verification: {
+    other: {
+      'naver-site-verification': 'c69d3fd936b21512a43a1600e8894041e94d8c47',
+    },
+  },
   title: "부자사주 富者四柱 - 세계 부자들의 사주 분석",
   description: "세계 부자 500명의 사주 팔자를 분석합니다. 일주, 격국, 월지로 검색해 보세요.",
   openGraph: {
