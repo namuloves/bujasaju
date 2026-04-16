@@ -12,6 +12,7 @@ import {
   getUniqueIljus,
 } from '@/lib/data/enriched';
 import { fetchSearchIndex } from '@/lib/deepBio';
+import CuratedBrowseView from '@/components/browse/CuratedBrowseView';
 
 /**
  * Korean brand/company names → English equivalents for search.
@@ -304,23 +305,35 @@ export default function BrowseTab() {
             불러오는 중…
           </div>
         )}
-        <AnalyticsPanel
-          filteredPeople={filteredPeople}
-          totalCount={enrichedPeople.length}
-          filters={filters}
-          onChange={setFilters}
-        />
-        <PersonGrid people={filteredPeople.slice(0, visibleCount)} />
-        {visibleCount < filteredPeople.length && (
-          <div className="flex justify-center mt-8">
-            <button
-              type="button"
-              onClick={() => setVisibleCount((v) => v + PAGE_SIZE)}
-              className="px-6 py-2.5 bg-white border border-gray-200 hover:border-gray-300 text-sm font-semibold text-gray-700 rounded-lg transition-colors"
-            >
-              더 보기 ({filteredPeople.length - visibleCount}명 남음)
-            </button>
-          </div>
+        {/* Show curated magazine view when no filters active, flat grid otherwise */}
+        {!filters.ilgan && !filters.ilju && !filters.wolji &&
+         !filters.gyeokguk && !filters.search && !filters.nationality &&
+         !filters.industry && !filters.gender ? (
+          <CuratedBrowseView
+            people={enrichedPeople}
+            onApplyFilter={(partial) => setFilters({ ...defaultFilters, ...partial })}
+          />
+        ) : (
+          <>
+            <AnalyticsPanel
+              filteredPeople={filteredPeople}
+              totalCount={enrichedPeople.length}
+              filters={filters}
+              onChange={setFilters}
+            />
+            <PersonGrid people={filteredPeople.slice(0, visibleCount)} />
+            {visibleCount < filteredPeople.length && (
+              <div className="flex justify-center mt-8">
+                <button
+                  type="button"
+                  onClick={() => setVisibleCount((v) => v + PAGE_SIZE)}
+                  className="px-6 py-2.5 bg-white border border-gray-200 hover:border-gray-300 text-sm font-semibold text-gray-700 rounded-lg transition-colors"
+                >
+                  더 보기 ({filteredPeople.length - visibleCount}명 남음)
+                </button>
+              </div>
+            )}
+          </>
         )}
       </div>
     </div>
