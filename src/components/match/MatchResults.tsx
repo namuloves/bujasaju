@@ -62,6 +62,24 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     groups.iljuPlusWolji.length +
     groups.iljuPlusGyeokguk.length;
 
+  // Combo rank: how many billionaires share this 일주·월지 combo, and
+  // what rank is it among all 706 existing combos?
+  const comboStats = useMemo(() => {
+    if (enrichedPeople.length === 0) return null;
+    const counts = new Map<string, number>();
+    for (const p of enrichedPeople) {
+      const key = `${p.saju.ilju}·${p.saju.wolji}`;
+      counts.set(key, (counts.get(key) ?? 0) + 1);
+    }
+    const myKey = `${me.ilju}·${me.wolji}`;
+    const myCount = counts.get(myKey) ?? 0;
+    // Rank: how many combos have MORE billionaires than mine? rank 1 = most.
+    const sorted = [...new Set(counts.values())].sort((a, b) => b - a);
+    const rank = sorted.indexOf(myCount) + 1;
+    const totalCombos = counts.size;
+    return { myCount, rank, totalCombos };
+  }, [enrichedPeople, me.ilju, me.wolji]);
+
   // Flattened list fed to the Claude summary — strongest tiers first so
   // the prompt's "top N" slice naturally picks the most relevant people.
   const summaryMatches = useMemo(
@@ -95,7 +113,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
       <div className="rounded-2xl bg-white border border-gray-200 overflow-hidden">
         <div className="grid md:grid-cols-[minmax(0,420px)_minmax(0,1fr)]">
           <div className="px-5 sm:px-6 py-5 sm:py-6">
-            <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} featuredPerson={featuredPerson} />
+            <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} featuredPerson={featuredPerson} comboStats={comboStats} />
           </div>
           <div className="px-5 sm:px-6 py-5 sm:py-6 space-y-5">
             <MatchSummary saju={me} matches={summaryMatches} />

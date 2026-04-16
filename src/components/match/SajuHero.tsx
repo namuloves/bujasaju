@@ -5,11 +5,18 @@ import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS, GYEOKGUK_NAMES, getBon
 import { getSipSin } from '@/lib/saju/tenGods';
 import { useLanguage } from '@/lib/i18n';
 
+interface ComboStats {
+  myCount: number;   // 이 조합의 부자 수
+  rank: number;      // 전체 순위 (1 = 가장 많은)
+  totalCombos: number; // 총 조합 수 (706)
+}
+
 interface Props {
   saju: SajuResult;
   totalMatches: number;
   onReset: () => void;
   featuredPerson?: EnrichedPerson | null;
+  comboStats?: ComboStats | null;
 }
 
 export function HeroPillar({
@@ -83,7 +90,7 @@ export function HeroPillar({
   );
 }
 
-export default function SajuHero({ saju, totalMatches, onReset, featuredPerson }: Props) {
+export default function SajuHero({ saju, totalMatches, onReset, featuredPerson, comboStats }: Props) {
   const { t, lang } = useLanguage();
   const hanja = GYEOKGUK_NAMES[saju.gyeokguk] || '';
   const fpSaju = featuredPerson?.saju;
@@ -182,6 +189,30 @@ export default function SajuHero({ saju, totalMatches, onReset, featuredPerson }
               </span>
             </span>
           </div>
+          {comboStats && comboStats.myCount > 0 && (
+            <div className="mt-1.5 text-xs text-gray-400">
+              <span>📊 </span>
+              {lang === 'ko' ? (
+                <>
+                  당신의 사주 조합({saju.ilju}·{saju.wolji})은 전체 {comboStats.totalCombos}개 조합 중{' '}
+                  <span className="font-semibold text-gray-600">
+                    {comboStats.rank === 1
+                      ? '1위'
+                      : `${comboStats.rank}위`}
+                  </span>
+                  ! {comboStats.myCount}명의 부자가 이 조합을 가졌습니다
+                </>
+              ) : (
+                <>
+                  Your combo ({saju.ilju}·{saju.wolji}) ranks{' '}
+                  <span className="font-semibold text-gray-600">
+                    #{comboStats.rank}
+                  </span>{' '}
+                  out of {comboStats.totalCombos} — {comboStats.myCount} billionaires share it
+                </>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Reset button */}
