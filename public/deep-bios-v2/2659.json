@@ -1,0 +1,112 @@
+{
+  "id": 2659,
+  "name": "Kim Sang-beom",
+  "nameKo": "김상범",
+  "birthday": "1961-01-05",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$1.4B",
+  "nationality": "KR",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "무술",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "대한민국 출생. 인쇄회로기판(PCB) 산업에서 경력 구축. 이수페타시스의 경영자로 성장. 자수성가형 기업인.",
+    "capitalTypeKo": "완전 자수성가 — PCB 제조업에서 AI 서버 핵심 부품 공급업체로 성장",
+    "sources": [
+      "https://ko.wikipedia.org/wiki/대한민국의_억만장자_목록"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "self-made",
+    "descriptionKo": "이수페타시스(ISU Petasys) 직·간접 17% 지분 보유. 대구 소재 다층 인쇄회로기판(MLB PCB) 제조업체. AI 서버용 칩·부품을 탑재하는 핵심 PCB 생산. 2024년 AI 수요 폭증으로 주가 215% 급등, 억만장자 등극.",
+    "selfMadeScore": 9,
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_South_Korean_billionaires_by_net_worth"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "event": "Entered printed circuit board (PCB) industry",
+      "eventKo": "인쇄회로기판(PCB) 산업 진입",
+      "whyItMatteredKo": "반도체 생태계의 핵심 부품인 PCB 분야에 진입. 후일 AI 서버 수혜의 기반."
+    },
+    {
+      "year": 2000,
+      "event": "Built ISU Petasys into leading multi-layer PCB manufacturer based in Daegu",
+      "eventKo": "대구 기반 이수페타시스를 다층 PCB 선도 제조업체로 구축",
+      "whyItMatteredKo": "다층 PCB(MLB) 기술력 확보. 고사양 서버·네트워크 장비용 PCB 전문."
+    },
+    {
+      "year": 2023,
+      "event": "AI server demand exploded — ISU Petasys PCBs became critical for AI chip infrastructure",
+      "eventKo": "AI 서버 수요 폭발 — 이수페타시스 PCB가 AI 칩 인프라 핵심으로 부상",
+      "whyItMatteredKo": "ChatGPT 이후 AI 서버 구축 경쟁. Nvidia GPU 서버에 들어가는 고성능 PCB 수주 급증."
+    },
+    {
+      "year": 2024,
+      "event": "ISU Petasys stock surged 215%; Kim became billionaire with 17% direct/indirect stake",
+      "eventKo": "이수페타시스 주가 215% 급등; 김상범 17% 직·간접 지분으로 억만장자 등극",
+      "whyItMatteredKo": "AI 붐의 최대 수혜자 중 한 명. 한국 신규 억만장자. PCB 업종 재평가."
+    },
+    {
+      "year": 2025,
+      "event": "Forbes net worth $1.4B; ISU Petasys is key supplier for AI server PCBs globally",
+      "eventKo": "Forbes 순자산 $14억; 이수페타시스는 글로벌 AI 서버 PCB 핵심 공급업체",
+      "whyItMatteredKo": "AI 인프라 공급망의 숨은 챔피언. 한국 반도체 생태계의 핵심 부품 기업."
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 2023,
+      "eventKo": "AI 서버 수요 폭발 — PCB 업종 전체 부상",
+      "impactKo": "이수페타시스 매출·수주 급증. 'AI 숨은 수혜주'로 시장 재평가. 주가 215% 급등의 시작."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "이수페타시스 17% 직·간접 지분 — AI 서버용 다층 PCB 제조 수익",
+    "wealthAcceleratorsKo": [
+      "AI 서버 수요 폭증 (Nvidia GPU 서버용 PCB)",
+      "이수페타시스 주가 215% 급등",
+      "글로벌 데이터센터 건설 붐",
+      "고성능 다층 PCB 기술 진입장벽"
+    ],
+    "structuralAdvantagesKo": [
+      "AI 서버 PCB 기술적 진입장벽 높음 (다층·고속 신호 처리)",
+      "Nvidia·AMD 등 AI 칩 업체 공급망 진입",
+      "한국 반도체 생태계 내 독보적 PCB 기술력",
+      "대구 생산기지 — 한국 제조업 경쟁력"
+    ],
+    "currentAssetAllocationKo": "이수페타시스 17% 직·간접 지분. 상장사."
+  },
+  "failures": [
+    {
+      "year": 2019,
+      "descriptionKo": "반도체 업황 침체기 — PCB 수요 둔화, 이수페타시스 실적 부진",
+      "howTheyOvercameKo": "고성능 다층 PCB 기술 투자 지속. AI 서버 시장 선제 대응. 2023년부터 AI 수요 폭증으로 보상.",
+      "lessonKo": "반도체 업황은 순환적. 기술 투자를 멈추지 않은 기업이 다음 사이클에서 승자."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2023, "netWorth": "약 3,000억원", "sourceKo": "추정"},
+    {"year": 2024, "netWorth": "$1.1B", "sourceKo": "Forbes"},
+    {"year": 2025, "netWorth": "$1.4B (약 2조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+  ],
+  "quotes": [],
+  "books": [],
+  "personalTraitsKo": ["PCB 전문가", "AI 수혜", "자수성가", "기술 투자"],
+  "characterKo": {
+    "strengths": "AI 서버 핵심 부품(PCB) 분야 선점. 다층 PCB 기술력으로 높은 진입장벽. AI 붐 최대 수혜자. 대구 기반 제조업 경쟁력.",
+    "weaknesses": "AI 수요 둔화 시 주가·실적 급락 가능. 단일 제품(PCB) 집중. Nvidia 등 특정 고객 의존도.",
+    "motivation": "PCB 기술의 최고봉을 향한 집념. AI 시대 반도체 생태계 핵심 부품 기업으로의 도약.",
+    "legacy": "한국 AI 인프라 공급망의 숨은 챔피언. PCB 업종에서 억만장자를 배출한 최초 사례."
+  },
+  "sajuConnection": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_South_Korean_billionaires_by_net_worth",
+    "https://ko.wikipedia.org/wiki/대한민국의_억만장자_목록"
+  ]
+}

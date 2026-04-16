@@ -41,25 +41,25 @@
 - [x] #1609 Park Soon-jae (박순재) — $2.5B
 - [x] #1691 Yoo Jung-hyun (유정현) — $2.4B
 - [x] #1728 Song Chi-hyung (송치형) — $2.3B
-- [ ] #1798 Lee Dong-chae (이동채) — $2.2B
-- [ ] #1861 Koo Bon-neung (구본능) — $2.2B
-- [ ] #1913 Chung Yong-ji (정용지) — $2.1B
-- [ ] #1918 Chung Yong-jin (정용진) — $2.1B
-- [ ] #2111 Lee Chae-yoon (이채윤) — $1.9B
-- [ ] #2156 Koo Kwang-mo (구광모) — $1.9B
-- [ ] #2200 Koo Bon-sik (구본식) — $1.8B
-- [ ] #2248 Kim Nam-goo (김남구) — $1.8B
-- [ ] #2431 Lee Jay-hyun (이재현) — $1.6B
-- [ ] #2511 Park Dong-suk (박동석) — $1.5B
-- [ ] #3325 Kim Seung-youn (김승연) — $1.5B
-- [ ] #2659 Kim Sang-beom (김상범) — $1.4B
-- [ ] #2706 Lee Hae-jin (이해진) — $1.4B
-- [ ] #2785 Suh Kyung-bae (서경배) — $1.3B
-- [ ] #3358 Kim Jung-soo (김정수) — $1.3B
-- [ ] #3058 Lee Ho-jin (이호진) — $1.2B
-- [ ] #3332 Chung Ki-sun (정기선) — $1.2B
-- [ ] #3062 Kim Taek-jin (김택진) — $1.1B
-- [ ] #3077 Chey Ki-won (최기원) — $1.1B
+- [x] #1798 Lee Dong-chae (이동채) — $2.2B
+- [x] #1861 Koo Bon-neung (구본능) — $2.2B
+- [x] #1913 Chung Yong-ji (정용지) — $2.1B
+- [x] #1918 Chung Yong-jin (정용진) — $2.1B
+- [x] #2111 Lee Chae-yoon (이채윤) — $1.9B
+- [x] #2156 Koo Kwang-mo (구광모) — $1.9B
+- [x] #2200 Koo Bon-sik (구본식) — $1.8B
+- [x] #2248 Kim Nam-goo (김남구) — $1.8B
+- [x] #2431 Lee Jay-hyun (이재현) — $1.6B
+- [x] #2511 Park Dong-suk (박동석) — $1.5B
+- [x] #3325 Kim Seung-youn (김승연) — $1.5B
+- [x] #2659 Kim Sang-beom (김상범) — $1.4B
+- [x] #2706 Lee Hae-jin (이해진) — $1.4B
+- [x] #2785 Suh Kyung-bae (서경배) — $1.3B
+- [x] #3358 Kim Jung-soo (김정수) — $1.3B
+- [x] #3058 Lee Ho-jin (이호진) — $1.2B
+- [x] #3332 Chung Ki-sun (정기선) — $1.2B
+- [x] #3062 Kim Taek-jin (김택진) — $1.1B
+- [x] #3077 Chey Ki-won (최기원) — $1.1B
 
 ---
 

@@ -345,10 +345,14 @@ function buildPrompt(
   const featuredName = featured.nameKo ?? featured.name;
   const netWorthKr = formatKrw(featured.netWorth);
 
-  const mm = bio.moneyMechanics;
-  const ch = bio.characterKo;
-  const co = bio.capitalOrigin;
-  const cd = bio.childhood;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any -- v2 bio schema varies across batches
+  const mm = bio.moneyMechanics as any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const ch = bio.characterKo as any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const co = bio.capitalOrigin as any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const cd = bio.childhood as any;
 
   return `당신은 40년 경력의 한국 사주명리학 대가입니다.
 
@@ -386,22 +390,18 @@ ${userDaeUnRelations}
 - 순자산: ${featured.netWorth ? `$${featured.netWorth}B (${netWorthKr})` : netWorthKr}
 - 생년월일: ${featured.birthday}, ${featured.gender === 'M' ? '남성' : '여성'}
 - 일주: ${featured.ilju} / 월지: ${featured.wolji} / 격국: ${featured.gyeokguk}
-- 출생지: ${cd.birthPlaceKo}
-- 성장배경: ${cd.familyBackgroundKo}
-- 자본 기원: ${co.typeKo} — ${co.explanationKo}
+- 출생지/성장배경: ${cd.summaryKo ?? (`${cd.birthPlaceKo ?? ''} ${cd.familyBackgroundKo ?? ''}`.trim() || '정보 없음')}
+- 자본 기원: ${co.typeKo ?? ''} — ${co.explanationKo ?? co.descriptionKo ?? ''}
 
 ## ${featuredName}의 돈을 번 구조 (moneyMechanics)
-- 핵심 사업: ${mm.coreBusinessKo}
-- 해자(moat): ${mm.moatKo}
-- 운 vs 실력: ${mm.luckVsSkillKo}
-- 정치 자본: ${mm.politicalCapitalKo}
-- 자본 이력: ${mm.capitalHistoryKo}
+${mm.coreBusinessKo
+    ? `- 핵심 사업: ${mm.coreBusinessKo}\n- 해자(moat): ${mm.moatKo}\n- 운 vs 실력: ${mm.luckVsSkillKo}\n- 정치 자본: ${mm.politicalCapitalKo}\n- 자본 이력: ${mm.capitalHistoryKo}`
+    : `- 주 수입원: ${mm.primaryIncomeSourceKo ?? ''}\n- 부의 가속 요인: ${Array.isArray(mm.wealthAcceleratorsKo) ? mm.wealthAcceleratorsKo.join(', ') : (mm.wealthAcceleratorsKo ?? '')}\n- 구조적 이점: ${Array.isArray(mm.structuralAdvantagesKo) ? mm.structuralAdvantagesKo.join(', ') : (mm.structuralAdvantagesKo ?? '')}\n- 자산 구성: ${mm.currentAssetAllocationKo ?? ''}`}
 
 ## ${featuredName}의 관찰된 성격 (characterKo)
-- 특징: ${ch.observedTraitsKo}
-- 리더십: ${ch.leadershipStyleKo}
-- 갈등 대응: ${ch.conflictBehaviorKo}
-- 특이점: ${ch.knownQuirksKo}
+${ch.observedTraitsKo
+    ? `- 특징: ${ch.observedTraitsKo}\n- 리더십: ${ch.leadershipStyleKo}\n- 갈등 대응: ${ch.conflictBehaviorKo}\n- 특이점: ${ch.knownQuirksKo}`
+    : `- 강점: ${ch.strengths ?? ''}\n- 약점: ${ch.weaknesses ?? ''}\n- 동기: ${ch.motivation ?? ''}\n- 레거시: ${ch.legacy ?? ''}`}
 
 ## ${featuredName}의 사주 해석
 ${featuredContext}

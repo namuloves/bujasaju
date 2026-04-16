@@ -1,0 +1,143 @@
+{
+  "id": 2706,
+  "name": "Lee Hae-jin",
+  "nameKo": "이해진",
+  "birthday": "1967-06-22",
+  "birthPlace": "Seoul, South Korea",
+  "birthPlaceKo": "서울특별시",
+  "netWorth": "$1.4B",
+  "nationality": "KR",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "정사",
+  "gyeokguk": "건록격",
+  "childhood": {
+    "summaryKo": "서울 출생. 서울대학교 컴퓨터공학과 졸업. KAIST 컴퓨터과학 석사(1992). KAIST 시절 넥슨 창업자 김정주와 기숙사 룸메이트. 삼성SDS 입사 후 사내벤처로 네이버 탄생. 재벌이 아닌 공학도 출신.",
+    "capitalTypeKo": "완전 자수성가 — 서울대·KAIST 공학도, 삼성SDS 사내벤처에서 네이버 창업",
+    "sources": [
+      "https://ko.wikipedia.org/wiki/이해진",
+      "https://namu.wiki/w/이해진"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "self-made",
+    "descriptionKo": "삼성SDS 사내벤처로 1997년 '네이버컴' 시작 → 1999년 네이버 독립 법인. 한국 검색엔진 1위 → 포털 → 메신저(라인) → 커머스·핀테크·클라우드·AI까지 확장. 한국 인터넷 산업의 시작. Forbes self-made score 10/10.",
+    "selfMadeScore": 10,
+    "sources": [
+      "https://ko.wikipedia.org/wiki/이해진",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=407896"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1992,
+      "event": "Completed M.S. in Computer Science at KAIST; roommate with Nexon founder Kim Jung-joo",
+      "eventKo": "KAIST 컴퓨터과학 석사 수료; 넥슨 창업자 김정주와 기숙사 룸메이트",
+      "whyItMatteredKo": "한국 테크 1세대 엘리트. KAIST 동문 네트워크가 한국 IT 산업의 핵심."
+    },
+    {
+      "year": 1997,
+      "event": "Launched NaverCom as Samsung SDS internal venture with 7 co-founders",
+      "eventKo": "삼성SDS 사내벤처로 8명이 네이버컴 시작",
+      "whyItMatteredKo": "한국 인터넷 검색의 시작. 삼성 자원을 활용한 사내 창업."
+    },
+    {
+      "year": 1999,
+      "event": "Naver became independent company; grew to #1 search portal in Korea",
+      "eventKo": "네이버 독립 법인 출범; 한국 검색 포털 1위로 성장",
+      "whyItMatteredKo": "삼성SDS에서 독립. 한국 인터넷 포털의 절대 강자. '네이버에서 검색하다'가 동사화."
+    },
+    {
+      "year": 2011,
+      "event": "Launched LINE messaging app in Japan — became Japan's #1 messaging platform",
+      "eventKo": "일본에서 라인(LINE) 메신저 출시 — 일본 1위 메신저 플랫폼",
+      "whyItMatteredKo": "한국 IT 기업 최초 일본 시장 1위. 라인은 일본·대만·태국·인도네시아 등 아시아 핵심 메신저."
+    },
+    {
+      "year": 2021,
+      "event": "LINE and Z Holdings (SoftBank) merged to form LY Corporation — Naver held 50% stake",
+      "eventKo": "라인과 Z홀딩스(소프트뱅크) 합병 LY 코퍼레이션 — 네이버 50% 지분",
+      "whyItMatteredKo": "일본 최대 인터넷 기업 탄생. 야후재팬+라인 합병. 그러나 후일 경영권 논란의 씨앗."
+    },
+    {
+      "year": 2024,
+      "event": "Japanese government pressured Naver to divest LINE stake citing data security concerns",
+      "eventKo": "일본 정부, 데이터 보안 문제로 네이버의 라인 지분 매각 압박",
+      "whyItMatteredKo": "한국 IT 기업의 최대 해외 자산 위기. 일본 정부의 '라인 빼앗기' 논란."
+    },
+    {
+      "year": 2025,
+      "event": "Returned as Naver board chairman; Forbes net worth $1.4B; Naver is Korea's largest internet company",
+      "eventKo": "네이버 이사회 의장 복귀; Forbes 순자산 $14억; 네이버는 한국 최대 인터넷 기업",
+      "whyItMatteredKo": "라인 위기 대응을 위해 복귀. 네이버 AI·클라우드 전환 주도."
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1999,
+      "eventKo": "네이버 독립 — 한국 인터넷 포털 1위",
+      "impactKo": "한국 인터넷 시대 개막. '네이버에서 검색'이 일상용어. 20년간 한국 인터넷의 절대 왕자."
+    },
+    {
+      "year": 2011,
+      "eventKo": "라인(LINE) 일본 출시 — 아시아 메신저 시장 석권",
+      "impactKo": "한국 IT 최초 일본 1위. 일본·대만·태국·인도네시아 메신저 장악. 글로벌화의 정점."
+    },
+    {
+      "year": 2024,
+      "eventKo": "일본 정부 라인 지분 매각 압박 — 최대 해외 자산 위기",
+      "impactKo": "한국 IT 산업의 지정학적 리스크 노출. 네이버 시가총액 하락. 이해진 이사회 의장 복귀."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "네이버 지분 — 검색·커머스·핀테크·클라우드·AI 플랫폼 수익",
+    "wealthAcceleratorsKo": [
+      "네이버 검색 광고 독점적 시장 지위",
+      "라인(LINE) 아시아 메신저 플랫폼",
+      "네이버쇼핑·네이버페이 커머스·핀테크",
+      "네이버클라우드·AI 사업 확장"
+    ],
+    "structuralAdvantagesKo": [
+      "한국 검색 시장 점유율 60%+ (구글 대비 우위)",
+      "라인 — 일본·대만·태국 메신저 1위",
+      "네이버 생태계 (검색→쇼핑→결제→클라우드)",
+      "웹툰(네이버웹툰) 글로벌 1위"
+    ],
+    "currentAssetAllocationKo": "네이버 개인 지분 약 4%. LY코퍼레이션(라인+야후재팬) 50% 네이버 보유."
+  },
+  "failures": [
+    {
+      "year": 2024,
+      "descriptionKo": "일본 정부의 라인 지분 매각 압박 — 네이버의 최대 해외 자산 위기",
+      "howTheyOvercameKo": "이해진 이사회 의장 복귀. 한국 정부 차원 외교 대응. 네이버 AI·클라우드 전환 가속.",
+      "lessonKo": "해외 플랫폼 사업은 현지 정부의 정치적 리스크에 취약. 기술 주권 시대의 지정학적 리스크."
+    },
+    {
+      "year": 2014,
+      "descriptionKo": "모바일 전환기 — 네이버 PC 포털 중심 사업 모델 위기, 카카오에 모바일 메신저 시장 패배",
+      "howTheyOvercameKo": "네이버앱 리뉴얼, 네이버쇼핑·네이버페이 모바일 서비스 강화. 라인으로 해외 모바일 시장 보완.",
+      "lessonKo": "플랫폼 기업의 생존은 기술 전환 대응 속도. PC→모바일 전환에서 카카오에 국내 메신저는 빼앗겼으나 해외(라인)·커머스·핀테크로 보완."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "약 1.5조원", "sourceKo": "Forbes Korea"},
+    {"year": 2020, "netWorth": "약 2조원", "sourceKo": "Forbes Korea"},
+    {"year": 2025, "netWorth": "$1.4B (약 2조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+  ],
+  "quotes": [],
+  "books": [],
+  "personalTraitsKo": ["엔지니어 출신", "은둔형 경영", "장기 비전", "글로벌 지향"],
+  "characterKo": {
+    "strengths": "한국 인터넷 산업 창시자. 네이버를 검색→커머스→핀테크→클라우드→AI 종합 플랫폼으로 확장. 라인으로 일본 1위 메신저 달성. 네이버웹툰 글로벌 1위.",
+    "weaknesses": "라인 지분 위기로 최대 해외 자산 불안. 네이버 국내 시장 성장 한계. AI 경쟁에서 글로벌 빅테크 대비 규모 열위.",
+    "motivation": "한국에서 세계적 인터넷 기업을 만들겠다는 공학도의 꿈. 기술로 세상을 바꾼다는 신념.",
+    "legacy": "한국 인터넷 산업의 아버지. 네이버·라인·네이버웹툰으로 아시아 디지털 생태계 구축. KAIST 출신 한국 IT 1세대의 대표."
+  },
+  "sajuConnection": null,
+  "sources": [
+    "https://ko.wikipedia.org/wiki/이해진",
+    "https://namu.wiki/w/이해진",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=407896"
+  ]
+}
