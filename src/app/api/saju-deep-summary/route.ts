@@ -263,14 +263,19 @@ function buildPrompt(
     })
     .join('\n\n');
 
+  // age fallback: compute from year if bio entry lacks age field
+  const ageOf = (entry: { year: number; age?: number }) =>
+    entry.age ?? entry.year - featuredBirthYear;
+
   // Bio-derived rich blocks
   const timeline = bio.careerTimeline
     .map((e) => {
-      const period = featuredDaeUn.periods.find((p) => e.age >= p.startAge && e.age <= p.endAge);
+      const age = ageOf(e);
+      const period = featuredDaeUn.periods.find((p) => age >= p.startAge && age <= p.endAge);
       const daeunInfo = period
         ? `${period.pillar}·${getDaeUnSipSin(featuredIlgan, period.stem as CheonGan)}운`
         : '?';
-      let block = `- ${e.year}년 (${e.age}세, ${daeunInfo}): ${e.eventKo}\n  의미: ${e.whyItMatteredKo}`;
+      let block = `- ${e.year}년 (${age}세, ${daeunInfo}): ${e.eventKo}\n  의미: ${e.whyItMatteredKo}`;
       if (e.whatTheyRiskedKo) block += `\n  건 것: ${e.whatTheyRiskedKo}`;
       if (e.whoHelpedKo) block += `\n  도움: ${e.whoHelpedKo}`;
       return block;
@@ -279,21 +284,23 @@ function buildPrompt(
 
   const turningPoints = bio.turningPoints
     .map((t) => {
-      const period = featuredDaeUn.periods.find((p) => t.age >= p.startAge && t.age <= p.endAge);
+      const age = ageOf(t);
+      const period = featuredDaeUn.periods.find((p) => age >= p.startAge && age <= p.endAge);
       const daeunInfo = period
         ? `${period.pillar}·${getDaeUnSipSin(featuredIlgan, period.stem as CheonGan)}운`
         : '?';
-      return `- ${t.year}년 (${t.age}세, ${daeunInfo}):\n  결정: ${t.decisionKo}\n  대안: ${t.alternativeKo}\n  결과: ${t.outcomeKo}`;
+      return `- ${t.year}년 (${age}세, ${daeunInfo}):\n  결정: ${t.decisionKo}\n  대안: ${t.alternativeKo}\n  결과: ${t.outcomeKo}`;
     })
     .join('\n\n');
 
   const failures = bio.failures
     .map((f) => {
-      const period = featuredDaeUn.periods.find((p) => f.age >= p.startAge && f.age <= p.endAge);
+      const age = ageOf(f);
+      const period = featuredDaeUn.periods.find((p) => age >= p.startAge && age <= p.endAge);
       const daeunInfo = period
         ? `${period.pillar}·${getDaeUnSipSin(featuredIlgan, period.stem as CheonGan)}운`
         : '?';
-      return `- ${f.year}년 (${f.age}세, ${daeunInfo}):\n  사건: ${getFailureKo(f)}\n  극복: ${f.howTheyOvercameKo}\n  교훈: ${f.lessonKo}`;
+      return `- ${f.year}년 (${age}세, ${daeunInfo}):\n  사건: ${getFailureKo(f)}\n  극복: ${f.howTheyOvercameKo}\n  교훈: ${f.lessonKo}`;
     })
     .join('\n\n');
 
@@ -303,8 +310,8 @@ function buildPrompt(
 
   // Per-event 충극합 — careerTimeline + failures
   const keyEvents = [
-    ...bio.careerTimeline.slice(0, 6).map((e) => ({ year: e.year, age: e.age, label: e.eventKo })),
-    ...bio.failures.map((f) => ({ year: f.year, age: f.age, label: getFailureKo(f).slice(0, 40) })),
+    ...bio.careerTimeline.slice(0, 6).map((e) => ({ year: e.year, age: ageOf(e), label: e.eventKo })),
+    ...bio.failures.map((f) => ({ year: f.year, age: ageOf(f), label: getFailureKo(f).slice(0, 40) })),
   ];
   const keyEventRelations = keyEvents
     .map((e) => {
