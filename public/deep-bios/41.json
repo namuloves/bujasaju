@@ -1,0 +1,121 @@
+{
+  "id": "41",
+  "name": "Masayoshi Son",
+  "nameKo": "손정의",
+  "childhood": {
+    "birthPlace": "Tosu, Saga Prefecture, Japan",
+    "birthPlaceKo": "일본 사가현 도스시",
+    "familyBackground": "Born to a Korean immigrant family (Zainichi Korean) in Japan. Paternal grandfather had immigrated from Korea. The family faced severe discrimination; they adopted the Japanese surname 'Yasumoto' to assimilate. Father ran a pachinko business and pig farming. Second of four brothers.",
+    "familyBackgroundKo": "재일한국인(在日韓國人) 가정 출생. 조부가 한국에서 일본으로 이민. 가족은 심한 차별에 직면해 '야스모토(安本)'라는 일본식 성을 사용. 부친은 파친코 사업·양돈업. 4형제 중 둘째.",
+    "education": "Left Japan at age 16 to study in the United States. Attended Serramonte High School in Daly City, California. Graduated from University of California, Berkeley with a Bachelor's degree in Economics in 1980.",
+    "educationKo": "16세에 미국 유학. 캘리포니아 데일리시티 세라몬테고등학교 재학. 1980년 UC 버클리 경제학 학사 졸업.",
+    "earlyLife": "Born August 11, 1957. Grew up facing discrimination as a Korean in Japan, which fueled his ambition. At 16, inspired by a meeting with McDonald's Japan president Den Fujita, who told him to study computers and go to America. At UC Berkeley, invented an electronic translator he sold to Sharp Corporation for $1 million, using the proceeds to start his company.",
+    "earlyLifeKo": "1957년 8월 11일 출생. 재일한국인으로 차별을 받으며 성장, 이것이 야망의 동력. 16세에 일본 맥도날드 사장 후지타 덴을 만나 '컴퓨터를 공부하고 미국에 가라'는 조언에 도미. UC 버클리에서 전자번역기를 발명해 샤프에 $100만에 판매, 이를 창업 자금으로 활용.",
+    "source": "Wikipedia, Britannica, Forbes, HBR"
+  },
+  "careerTimeline": [
+    {
+      "year": 1981,
+      "event": "Founded SoftBank in Tokyo — initially a software distribution company",
+      "eventKo": "도쿄에서 소프트뱅크 설립 — 초기에는 소프트웨어 유통 회사"
+    },
+    {
+      "year": 1995,
+      "event": "Invested $20 million in Yahoo! — one of the most successful early internet investments in history",
+      "eventKo": "야후!에 $2,000만 투자 — 역사상 가장 성공적인 초기 인터넷 투자 중 하나"
+    },
+    {
+      "year": 2000,
+      "event": "Invested $20 million in Alibaba Group — which would grow to be worth $75 billion+ by 2014 IPO",
+      "eventKo": "알리바바에 $2,000만 투자 — 2014년 IPO 시 $750억+ 가치로 성장"
+    },
+    {
+      "year": 2006,
+      "event": "Acquired Vodafone Japan for $15.4 billion — entered telecom business; rebranded as SoftBank Mobile",
+      "eventKo": "보다폰 일본을 $154억에 인수 — 통신 사업 진출; 소프트뱅크 모바일로 리브랜딩"
+    },
+    {
+      "year": 2016,
+      "event": "Acquired ARM Holdings (UK semiconductor design firm) for $32 billion — largest European tech acquisition",
+      "eventKo": "영국 반도체 설계사 ARM홀딩스를 $320억에 인수 — 유럽 최대 테크 인수"
+    },
+    {
+      "year": 2017,
+      "event": "Launched SoftBank Vision Fund ($100 billion) — the largest technology-focused venture capital fund in history",
+      "eventKo": "소프트뱅크 비전펀드($1,000억) 출범 — 역사상 최대 기술 벤처캐피탈 펀드"
+    },
+    {
+      "year": 2025,
+      "event": "Named chairman of Stargate Project (AI infrastructure JV with OpenAI, Oracle, MGX); led $40 billion funding round for OpenAI at $300B valuation",
+      "eventKo": "스타게이트 프로젝트(OpenAI·오라클·MGX AI 인프라 JV) 회장; OpenAI $3,000억 밸류에이션에 $400억 펀딩라운드 주도"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2000,
+      "description": "Dot-com bubble crash wiped out $70 billion of Son's personal net worth in less than a year — the largest personal wealth loss in history at the time",
+      "descriptionKo": "닷컴 버블 붕괴로 1년 미만에 개인 순자산 $700억 증발 — 당시 역사상 최대 개인 자산 손실",
+      "lesson": "Son survived by holding Alibaba stake and core SoftBank assets; learned that long-term conviction bets can outlast catastrophic drawdowns",
+      "lessonKo": "알리바바 지분·소프트뱅크 핵심 자산 유지로 생존; 장기 확신 투자는 치명적 하락도 극복할 수 있음을 학습",
+      "source": "Forbes, Bloomberg, Fortune"
+    },
+    {
+      "year": 2019,
+      "description": "WeWork investment debacle — SoftBank invested $18.5 billion in WeWork which collapsed from $47B valuation to near-zero; Vision Fund posted record losses",
+      "descriptionKo": "위워크 투자 참사 — 소프트뱅크 $185억 투자한 위워크가 $470억 밸류에이션에서 사실상 0으로 폭락; 비전펀드 역대 최대 손실",
+      "lesson": "Due diligence and governance oversight matter even for charismatic founders; mega-round investing amplifies both wins and losses",
+      "lessonKo": "카리스마 창업자라도 실사·거버넌스 감독 필수; 대규모 라운드 투자는 이익과 손실 모두 극대화",
+      "source": "New York Times, Wall Street Journal, Forbes"
+    },
+    {
+      "year": 2022,
+      "description": "Vision Fund lost $27 billion in a single quarter as tech valuations crashed; SoftBank recorded its worst annual loss ever",
+      "descriptionKo": "비전펀드 한 분기에 $270억 손실 — 기술주 밸류에이션 폭락; 소프트뱅크 역대 최대 연간 적자",
+      "lesson": "Concentrated bets on high-growth tech companies carry extreme cyclical risk; Son pivoted focus to AI infrastructure (ARM, Stargate) for the next cycle",
+      "lessonKo": "고성장 기술 기업 집중 투자는 극단적 사이클 리스크; 손정의는 다음 사이클을 위해 AI 인프라(ARM·스타게이트)로 전환",
+      "source": "Bloomberg, Financial Times, Reuters"
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2000, "netWorth": 78.0},
+    {"year": 2005, "netWorth": 5.0},
+    {"year": 2010, "netWorth": 7.2},
+    {"year": 2015, "netWorth": 14.1},
+    {"year": 2020, "netWorth": 25.0},
+    {"year": 2025, "netWorth": 46.0}
+  ],
+  "quotes": [
+    {
+      "text": "I want to be the Bill Gates of Japan.",
+      "textKo": "나는 일본의 빌 게이츠가 되고 싶다.",
+      "context": "Early career ambition statement",
+      "contextKo": "초기 경력의 포부"
+    },
+    {
+      "text": "I'm not a genius. I'm just passionate about what I do.",
+      "textKo": "나는 천재가 아니다. 내가 하는 일에 열정적일 뿐이다.",
+      "context": "On his entrepreneurial drive",
+      "contextKo": "기업가 정신에 대해"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": [
+      {
+        "title": "Aiming High",
+        "author": "Atsuo Inoue",
+        "why": "Biography of Masayoshi Son chronicling his rise from Zainichi Korean to Japan's richest person",
+        "whyKo": "재일한국인에서 일본 최고 부자가 되기까지의 손정의 전기"
+      }
+    ]
+  },
+  "personalTraits": {
+    "knownFor": "Zainichi Korean who became Japan's richest person. Founded SoftBank, made legendary investments in Yahoo and Alibaba. Created the $100B Vision Fund — the largest tech VC fund ever. Known for 300-year vision, extreme risk tolerance, charismatic presentations, and pivoting to AI with the Stargate Project.",
+    "knownForKo": "재일한국인 출신 일본 최고 부자. 소프트뱅크 창업, 야후·알리바바 전설적 투자. $1,000억 비전펀드 — 역사상 최대 기술 VC 펀드 창설. 300년 비전, 극단적 리스크 감수, 카리스마 프레젠테이션, AI 전환(스타게이트) 주도로 유명.",
+    "philanthropy": "Donated $120 million to relief efforts after the 2011 Tohoku earthquake and tsunami — one of the largest individual donations in Japanese history. Donated his salary to SoftBank employees. Supports renewable energy initiatives in Japan.",
+    "philanthropyKo": "2011년 도호쿠 대지진·쓰나미 구호에 $1.2억 기부 — 일본 역사상 최대 개인 기부 중 하나. 급여를 소프트뱅크 직원들에게 기부. 일본 재생에너지 사업 지원.",
+    "controversies": "WeWork investment debacle ($18.5B loss). Vision Fund massive losses in 2022 ($27B single quarter). Criticized for reckless mega-round investing and inflating startup valuations. Regulatory scrutiny over Sprint/T-Mobile merger. Questions about corporate governance at SoftBank.",
+    "controversiesKo": "위워크 투자 참사($185억 손실). 2022년 비전펀드 대규모 손실($270억/분기). 무모한 대규모 투자·스타트업 밸류에이션 부풀리기 비판. 스프린트/T모바일 합병 규제. 소프트뱅크 기업 거버넌스 의문."
+  },
+  "sajuConnection": null
+}
