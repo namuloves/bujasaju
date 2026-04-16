@@ -331,7 +331,7 @@ export default function FilterPanel({
           <select
             value={filters.nationality}
             onChange={(e) => update('nationality', e.target.value)}
-            className="w-full px-2 py-1.5 border border-gray-200 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="w-full px-2 py-1.5 border border-gray-200 rounded-lg text-xs text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           >
             <option value="">{t.allNationalities}</option>
             {sortedNationalities.map((n) => (
@@ -348,7 +348,7 @@ export default function FilterPanel({
           <select
             value={filters.industry}
             onChange={(e) => update('industry', e.target.value)}
-            className="w-full px-2 py-1.5 border border-gray-200 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="w-full px-2 py-1.5 border border-gray-200 rounded-lg text-xs text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           >
             <option value="">{t.allIndustries}</option>
             {sortedIndustries.map((i) => (
@@ -369,7 +369,7 @@ export default function FilterPanel({
         <select
           value={filters.sort}
           onChange={(e) => update('sort', e.target.value)}
-          className="w-full px-2 py-1.5 border border-gray-200 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="w-full px-2 py-1.5 border border-gray-200 rounded-lg text-xs text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
         >
           <option value="netWorth_desc">{t.sortNetWorthDesc}</option>
           <option value="netWorth_asc">{t.sortNetWorthAsc}</option>
