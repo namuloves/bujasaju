@@ -1,0 +1,68 @@
+{
+  "id": "333",
+  "name": "David Ross Cheriton",
+  "nameKo": "데이비드 로스 체리턴",
+  "childhood": {
+    "birthPlace": "Vancouver, British Columbia, Canada",
+    "birthPlaceKo": "캐나다 브리티시컬럼비아주 밴쿠버",
+    "familyBackground": "Canadian family. Grew up in Edmonton, Alberta. Attended public schools in the Highlands neighborhood. No Silicon Valley connections or tech industry family background.",
+    "familyBackgroundKo": "캐나다 가정. 앨버타주 에드먼턴에서 성장. 하이랜즈 지역 공립학교 재학. 실리콘밸리 인맥이나 테크 가문 배경 없음.",
+    "education": "Skipped 11th grade. B.Sc. in Mathematics from University of British Columbia (1973). M.Sc. in Computer Science from University of Waterloo (1974). Ph.D. in Computer Science from University of Waterloo (1978).",
+    "educationKo": "11학년 월반. 브리티시컬럼비아대학교 수학 학사(1973). 워털루대학교 컴퓨터과학 석사(1974). 워털루대학교 컴퓨터과학 박사(1978).",
+    "earlyLife": "Born March 29, 1951. A Canadian academic who became a professor at Stanford University. His garage/porch became the site where Google's co-founders Sergey Brin and Larry Page met their first investor Andy Bechtolsheim in August 1998. Cheriton invested $200,000 alongside Bechtolsheim — one of the most profitable angel investments in history.",
+    "earlyLifeKo": "1951년 3월 29일 출생. 캐나다 학자에서 스탠퍼드대학교 교수. 1998년 8월 그의 차고/현관에서 구글 공동 창업자 세르게이 브린·래리 페이지가 첫 투자자 앤디 벡톨스하임을 만남. 체리턴은 벡톨스하임과 함께 $20만 투자 — 역사상 가장 수익성 높은 엔젤 투자 중 하나.",
+    "source": "Wikipedia, Forbes, Bloomberg, VnExpress"
+  },
+  "careerTimeline": [
+    {
+      "year": 1981,
+      "event": "Joined Stanford University as Computer Science professor; founded and led the Distributed Systems Group",
+      "eventKo": "스탠퍼드대학교 컴퓨터과학 교수 부임; 분산 시스템 그룹 설립·지도"
+    },
+    {
+      "year": 1998,
+      "event": "Invested $200,000 in Google alongside Andy Bechtolsheim — facilitated the meeting on his front porch that launched Google",
+      "eventKo": "앤디 벡톨스하임과 함께 구글에 $20만 투자 — 자택 현관에서 구글 탄생시킨 미팅 주선"
+    },
+    {
+      "year": 2008,
+      "event": "Co-founded Arista Networks with Andy Bechtolsheim and Kenneth Duda — cloud networking company",
+      "eventKo": "앤디 벡톨스하임·케네스 두다와 아리스타 네트웍스 공동 설립 — 클라우드 네트워킹 회사"
+    },
+    {
+      "year": 2025,
+      "event": "Forbes net worth $9.8B; Arista Networks market cap exceeded $100B; still teaches at Stanford",
+      "eventKo": "Forbes 순자산 $98억; 아리스타 네트웍스 시총 $1,000억 초과; 여전히 스탠퍼드에서 강의"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2014,
+      "description": "Arista Networks faced patent infringement lawsuit from Cisco Systems — threatened the company's core business and IPO prospects",
+      "descriptionKo": "아리스타 네트웍스 시스코시스템즈 특허 침해 소송 직면 — 핵심 사업과 IPO 전망 위협",
+      "lesson": "Tech startups challenging incumbents must be prepared for aggressive patent litigation; Arista prevailed and went on to thrive",
+      "lessonKo": "기존 업체에 도전하는 테크 스타트업은 공격적 특허 소송에 대비해야; 아리스타는 승소 후 크게 성장",
+      "source": "Bloomberg, Reuters"
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": 1.3},
+    {"year": 2015, "netWorth": 3.5},
+    {"year": 2020, "netWorth": 7.0},
+    {"year": 2025, "netWorth": 9.8}
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Stanford professor who was among Google's first angel investors ($200K → billions). Co-founded Arista Networks ($100B+ market cap). Also early investor in VMware. Famous for extreme frugality despite ~$10B net worth — included on 'cheapskate billionaires' lists. Still teaches computer science at Stanford.",
+    "knownForKo": "구글 최초 엔젤 투자자 중 한 명($20만→수십억)인 스탠퍼드 교수. 아리스타 네트웍스($1,000억+ 시총) 공동 설립. VMware 초기 투자자. ~$100억 순자산에도 극도의 검소함 — '구두쇠 억만장자' 목록 포함. 여전히 스탠퍼드에서 컴퓨터과학 강의.",
+    "philanthropy": "Donated $25 million to University of Waterloo (renamed David R. Cheriton School of Computer Science). $7.5 million to UBC computer science. Funds graduate fellowships at Stanford.",
+    "philanthropyKo": "워털루대학교에 $2,500만 기부(데이비드 R. 체리턴 컴퓨터과학대학으로 개명). UBC 컴퓨터과학에 $750만. 스탠퍼드 대학원 장학금 지원.",
+    "controversies": "Limited personal controversies. Some criticism that extreme frugality despite enormous wealth is eccentric. Questions about dual role as professor and billionaire investor.",
+    "controversiesKo": "개인적 논란 제한적. 막대한 부에도 극도의 검소함이 기이하다는 비판. 교수와 억만장자 투자자의 이중 역할 의문."
+  },
+  "sajuConnection": null
+}

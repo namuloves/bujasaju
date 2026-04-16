@@ -1,0 +1,86 @@
+{
+  "id": "215",
+  "name": "Robert W. Duggan",
+  "nameKo": "로버트 W. 더건",
+  "childhood": {
+    "birthPlace": "Oakland, California, USA",
+    "birthPlaceKo": "미국 캘리포니아주 오클랜드",
+    "familyBackground": "Third of five children. Father was an Irish immigrant who became an industrial engineer in the US. Mother was a nurse. Working-class immigrant family — no business connections or inherited wealth.",
+    "familyBackgroundKo": "5남매 중 셋째. 부친은 아일랜드 이민자 출신 산업 엔지니어. 모친은 간호사. 사업 인맥이나 상속 재산 없는 노동자 계층 이민 가정.",
+    "education": "Attended University of California, Santa Barbara. Self-educated in business and investing through hands-on experience rather than formal MBA.",
+    "educationKo": "캘리포니아대학교 산타바바라 재학. 정규 MBA가 아닌 실전 경험으로 사업·투자 독학.",
+    "earlyLife": "Born in 1944 in Oakland, California. Grew up surfing and developed an early entrepreneurial streak. Started multiple businesses before entering the biotech and healthcare sectors. Known as a contrarian investor who takes concentrated positions in undervalued companies.",
+    "earlyLifeKo": "1944년 캘리포니아 오클랜드 출생. 서핑하며 성장, 초기부터 기업가적 성향. 바이오테크·헬스케어 분야 진입 전 다수 사업 창업. 저평가 기업에 집중 포지션을 취하는 역발상 투자자로 유명.",
+    "source": "Wikipedia, Forbes, Bloomberg, robertduggan.com"
+  },
+  "careerTimeline": [
+    {
+      "year": 1997,
+      "event": "Became CEO of Computer Motion — surgical robotics company that developed ZEUS robotic surgical system",
+      "eventKo": "컴퓨터모션 CEO 취임 — ZEUS 로봇 수술 시스템 개발한 수술용 로봇 회사"
+    },
+    {
+      "year": 2003,
+      "event": "Computer Motion merged with Intuitive Surgical; Duggan pivoted to pharma investing",
+      "eventKo": "컴퓨터모션 인튜이티브서지컬과 합병; 더건 제약 투자로 전환"
+    },
+    {
+      "year": 2008,
+      "event": "Became chairman and largest shareholder of Pharmacyclics — bought shares when stock was under $2",
+      "eventKo": "파마사이클릭스 회장 겸 최대주주 — 주가 $2 미만일 때 지분 매수"
+    },
+    {
+      "year": 2015,
+      "event": "AbbVie acquired Pharmacyclics for $21 billion; Duggan personally earned $3.5 billion from the sale — one of the largest individual biotech paydays ever",
+      "eventKo": "애브비 파마사이클릭스 $210억 인수; 더건 개인 $35억 수익 — 역대 최대 개인 바이오텍 페이데이 중 하나"
+    },
+    {
+      "year": 2020,
+      "event": "Became CEO and majority shareholder of Summit Therapeutics — invested heavily in cancer drug ivonescimab",
+      "eventKo": "서밋 테라퓨틱스 CEO·최대주주 취임 — 항암제 이보네시맙에 대규모 투자"
+    },
+    {
+      "year": 2025,
+      "event": "Summit Therapeutics stock surged on ivonescimab clinical results; Forbes net worth $13.3B; also chairman of Pulse Biosciences",
+      "eventKo": "서밋 테라퓨틱스 이보네시맙 임상 결과로 주가 급등; Forbes 순자산 $133억; 펄스바이오사이언스 회장 겸임"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2003,
+      "description": "Computer Motion lost the surgical robotics race to Intuitive Surgical — forced into merger rather than competing independently",
+      "descriptionKo": "컴퓨터모션 수술 로봇 경쟁에서 인튜이티브서지컬에 패배 — 독립 경쟁 대신 합병 강요",
+      "lesson": "In winner-take-all technology markets, being second-best often means forced consolidation; Duggan learned to focus on concentrated bets in pharma instead",
+      "lessonKo": "승자독식 기술 시장에서 2위는 강제 통합을 의미; 더건은 이후 제약 분야 집중 투자에 초점을 맞추는 교훈",
+      "source": "Wikipedia, Forbes"
+    },
+    {
+      "year": 2022,
+      "description": "Summit Therapeutics stock dropped 70%+ as clinical trials faced delays and biotech sector sold off broadly",
+      "descriptionKo": "서밋 테라퓨틱스 주가 70%+ 하락 — 임상시험 지연과 바이오텍 섹터 전반 매도세",
+      "lesson": "Biotech investing requires extreme patience through clinical trial uncertainty; Duggan doubled down on Summit and was vindicated by later ivonescimab results",
+      "lessonKo": "바이오텍 투자는 임상시험 불확실성을 관통하는 극도의 인내 필요; 더건은 서밋에 추가 투자, 후일 이보네시맙 결과로 정당성 입증",
+      "source": "Bloomberg, BioPharma Dive"
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": 3.5},
+    {"year": 2020, "netWorth": 2.8},
+    {"year": 2024, "netWorth": 7.5},
+    {"year": 2025, "netWorth": 13.3}
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Surfer-turned-biotech-billionaire. Bought Pharmacyclics at $2/share and sold for $3.5 billion to AbbVie. CEO of Summit Therapeutics betting on cancer drug ivonescimab. Known for contrarian, concentrated biotech investing and hands-on CEO involvement. Irish immigrant family roots.",
+    "knownForKo": "서퍼에서 바이오텍 억만장자로. 파마사이클릭스를 $2/주에 매수해 애브비에 $35억 수익으로 매각. 서밋 테라퓨틱스 CEO로 항암제 이보네시맙에 베팅. 역발상·집중 바이오텍 투자와 직접 CEO 참여로 유명. 아일랜드 이민 가정 출신.",
+    "philanthropy": "Supports biomedical research and healthcare causes. Active in education initiatives. Donates to cancer research organizations.",
+    "philanthropyKo": "생의학 연구·의료 지원. 교육 사업 활동. 암 연구 단체 기부.",
+    "controversies": "SEC investigation into Pharmacyclics insider trading allegations (settled without admitting wrongdoing). Scientology connections — Duggan is a prominent member. Questions about concentrated personal positions in companies he leads as CEO.",
+    "controversiesKo": "파마사이클릭스 내부자거래 혐의 SEC 조사(혐의 인정 없이 합의). 사이언톨로지 연계 — 더건은 저명한 회원. 본인이 CEO인 회사에 개인 집중 포지션을 취하는 것에 대한 의문."
+  },
+  "sajuConnection": null
+}

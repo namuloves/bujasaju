@@ -1,0 +1,67 @@
+{
+  "id": "359",
+  "name": "Chen Tao",
+  "nameKo": "천 타오",
+  "childhood": {
+    "birthPlace": "China",
+    "birthPlaceKo": "중국",
+    "familyBackground": "Chinese entrepreneur from a modest background. No family connections to the technology or electronics industry.",
+    "familyBackgroundKo": "소박한 배경의 중국 기업가. 기술·전자 산업 가문 인맥 없음.",
+    "education": "Studied engineering in China. Technical background in electronics manufacturing.",
+    "educationKo": "중국에서 공학 전공. 전자 제조 기술 배경.",
+    "earlyLife": "Born in 1966. Built his career in the printed circuit board (PCB) industry in southern China. Founded Victory Giant Technology, which grew to become one of the world's leading PCB manufacturers supplying major tech companies.",
+    "earlyLifeKo": "1966년 출생. 중국 남부에서 인쇄회로기판(PCB) 산업으로 경력 구축. 세계 주요 PCB 제조업체로 성장하여 주요 테크 기업에 공급하는 빅토리자이언트테크놀로지 설립.",
+    "source": "Forbes, Bloomberg, Reuters"
+  },
+  "careerTimeline": [
+    {
+      "year": 1999,
+      "event": "Founded Victory Giant Technology (Shennan Circuits) in Shenzhen — printed circuit board manufacturer",
+      "eventKo": "선전에서 빅토리자이언트테크놀로지(선난서킷) 설립 — 인쇄회로기판 제조업체"
+    },
+    {
+      "year": 2017,
+      "event": "Victory Giant Technology listed on Shenzhen Stock Exchange; became major supplier to global semiconductor and tech companies",
+      "eventKo": "빅토리자이언트테크놀로지 선전증권거래소 상장; 글로벌 반도체·테크 기업 주요 공급업체로 부상"
+    },
+    {
+      "year": 2023,
+      "event": "Company benefited massively from AI chip boom — supplies PCBs for Nvidia's GPU servers and advanced computing infrastructure",
+      "eventKo": "AI 칩 붐으로 회사 급성장 — 엔비디아 GPU 서버·첨단 컴퓨팅 인프라용 PCB 공급"
+    },
+    {
+      "year": 2025,
+      "event": "Forbes net worth $9.1B; holds ~27% stake in Victory Giant Technology; company is critical supplier for AI/data center infrastructure",
+      "eventKo": "Forbes 순자산 $91억; 빅토리자이언트테크놀로지 ~27% 지분 보유; AI/데이터센터 인프라 핵심 공급업체"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2018,
+      "description": "US-China trade war created uncertainty for Chinese PCB makers — tariffs and export restrictions threatened supply chains to American tech companies",
+      "descriptionKo": "미중 무역전쟁으로 중국 PCB 업체 불확실성 — 관세·수출 규제가 미국 테크 기업 공급망 위협",
+      "lesson": "Companies in global tech supply chains must diversify customer bases and adapt to geopolitical risks; Victory Giant pivoted to serve broader Asian markets while maintaining key Western clients",
+      "lessonKo": "글로벌 테크 공급망 기업은 고객 기반 다변화·지정학적 리스크 적응 필요; 빅토리자이언트는 주요 서방 고객 유지하며 아시아 시장으로 전환",
+      "source": "Reuters, Financial Times"
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2020, "netWorth": 2.5},
+    {"year": 2023, "netWorth": 5.0},
+    {"year": 2025, "netWorth": 9.1}
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Founder and chairman of Victory Giant Technology (Shennan Circuits), one of the world's top PCB manufacturers. Key supplier to Nvidia, Tesla, and other tech giants for AI server and data center circuit boards. ~27% stake in the company. Wealth surged with AI infrastructure boom.",
+    "knownForKo": "세계 최고 PCB 제조업체 빅토리자이언트테크놀로지(선난서킷) 설립자·회장. 엔비디아·테슬라 등 테크 대기업에 AI 서버·데이터센터 회로기판 핵심 공급. 회사 ~27% 지분 보유. AI 인프라 붐으로 자산 급증.",
+    "philanthropy": "Supports education and technology development initiatives in southern China. Contributes to Shenzhen's tech ecosystem development.",
+    "philanthropyKo": "중국 남부 교육·기술 개발 사업 지원. 선전 테크 생태계 발전에 기여.",
+    "controversies": "US-China tech tensions create risks for PCB suppliers serving both markets. Questions about technology transfer and export control compliance.",
+    "controversiesKo": "미중 기술 갈등으로 양쪽 시장에 공급하는 PCB 업체 리스크. 기술 이전·수출 통제 준수 의문."
+  },
+  "sajuConnection": null
+}

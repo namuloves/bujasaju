@@ -1,0 +1,89 @@
+{
+  "id": "387",
+  "name": "Lakshmi Mittal",
+  "nameKo": "라케시 미탈",
+  "childhood": {
+    "birthPlace": "Sadulpur, Rajasthan, India",
+    "birthPlaceKo": "인도 라자스탄주 사둘푸르",
+    "familyBackground": "Born into a Marwari family. Father Mohanlal Mittal ran a small steel business called Nippon Denro Ispat. Named 'Lakshmi' after the Hindu goddess of wealth. Grew up in modest circumstances in Rajasthan before the family moved to Calcutta.",
+    "familyBackgroundKo": "마르와리 가문 출생. 부친 모한랄 미탈은 소규모 철강 사업 닛폰 덴로 이스파트 운영. 부의 여신 '락슈미'의 이름을 따서 명명. 라자스탄의 소박한 환경에서 성장 후 가족이 캘커타로 이주.",
+    "education": "Attended Shri Daulatram Nopany Vidyalaya in Calcutta (1957–1964). Graduated from St. Xavier's College, University of Calcutta, with a B.Com degree (first class).",
+    "educationKo": "캘커타 슈리 다울라트람 노파니 비디얄라야 재학(1957–1964). 캘커타대학교 세인트 자비에르칼리지 상학사(1등급) 졸업.",
+    "earlyLife": "Born June 15, 1950. Grew up helping in his father's small steel business. At 26, left India due to government restrictions on steel production and opened his first steel factory (PT Ispat Indo) in Sidoarjo, East Java, Indonesia in 1976. This began his global steel empire.",
+    "earlyLifeKo": "1950년 6월 15일 출생. 부친의 소규모 철강 사업을 도우며 성장. 26세에 인도 정부의 철강 생산 규제로 인도 떠나 1976년 인도네시아 동자바 시도아르조에 첫 철강 공장(PT 이스파트 인도) 개설. 글로벌 철강 제국의 시작.",
+    "source": "Wikipedia, Britannica, Forbes, Bloomberg"
+  },
+  "careerTimeline": [
+    {
+      "year": 1976,
+      "event": "Opened first steel factory PT Ispat Indo in Indonesia — left India due to government steel production restrictions",
+      "eventKo": "인도네시아에 첫 철강 공장 PT 이스파트 인도 설립 — 인도 정부 철강 생산 규제로 출국"
+    },
+    {
+      "year": 1989,
+      "event": "Acquired state-owned steel works in Trinidad and Tobago — operating at enormous loss; turned it profitable within a year",
+      "eventKo": "트리니다드토바고 국영 철강소 인수 — 막대한 적자 상태; 1년 만에 흑자 전환"
+    },
+    {
+      "year": 2004,
+      "event": "Merged Ispat International and LNM Holdings; acquired International Steel Group (Ohio) — created Mittal Steel, world's largest steelmaker",
+      "eventKo": "이스파트 인터내셔널·LNM홀딩스 합병; 인터내셔널스틸그룹(오하이오) 인수 — 세계 최대 철강사 미탈스틸 탄생"
+    },
+    {
+      "year": 2006,
+      "event": "Hostile takeover of Arcelor — created ArcelorMittal, the world's largest steel company with 10% of global output",
+      "eventKo": "아르셀로르 적대적 인수 — 세계 철강 생산량 10%의 세계 최대 철강 기업 아르셀로르미탈 탄생"
+    },
+    {
+      "year": 2025,
+      "event": "Forbes net worth $8.7B; ArcelorMittal remains world's second-largest steelmaker; also chairman of Aperam (stainless steel)",
+      "eventKo": "Forbes 순자산 $87억; 아르셀로르미탈 세계 2위 철강사 유지; 아페람(스테인리스강) 회장 겸임"
+    }
+  ],
+  "failures": [
+    {
+      "year": 2008,
+      "description": "Global financial crisis collapsed steel demand — ArcelorMittal stock dropped 75%+; forced to cut production and lay off thousands",
+      "descriptionKo": "글로벌 금융위기로 철강 수요 붕괴 — 아르셀로르미탈 주가 75%+ 하락; 생산 축소·수천 명 해고 불가피",
+      "lesson": "Steel is among the most cyclical industries; massive debt from the Arcelor acquisition amplified the downturn's impact",
+      "lessonKo": "철강은 가장 경기순환적 산업 중 하나; 아르셀로르 인수 대규모 부채가 경기 침체 영향 증폭",
+      "source": "Financial Times, Bloomberg"
+    },
+    {
+      "year": 2015,
+      "description": "Chinese steel overcapacity flooded global markets — ArcelorMittal's stock hit all-time lows; Mittal's personal net worth fell from $30B+ peak to under $10B",
+      "descriptionKo": "중국 철강 과잉생산이 글로벌 시장 범람 — 아르셀로르미탈 주가 사상 최저; 미탈 개인 순자산 $300억+ 정점에서 $100억 미만으로 하락",
+      "lesson": "Even the world's largest steelmaker cannot control commodity pricing when China represents 50%+ of global steel production",
+      "lessonKo": "세계 최대 철강사도 중국이 글로벌 철강 생산의 50%+ 차지할 때 원자재 가격 통제 불가",
+      "source": "Reuters, Forbes"
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2005, "netWorth": 25.0},
+    {"year": 2008, "netWorth": 45.0},
+    {"year": 2015, "netWorth": 8.0},
+    {"year": 2020, "netWorth": 10.0},
+    {"year": 2025, "netWorth": 8.7}
+  ],
+  "quotes": [
+    {
+      "text": "I have always believed in thinking big. If you think small, you will achieve small things.",
+      "textKo": "나는 항상 크게 생각하는 것을 믿어왔다. 작게 생각하면 작은 것만 이룬다.",
+      "context": "On his business philosophy",
+      "contextKo": "사업 철학에 대해"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Built the world's largest steel company through aggressive global acquisitions — from a single factory in Indonesia to ArcelorMittal with 10% of global steel output. Known for the hostile Arcelor takeover (2006), once the world's 4th richest person ($45B in 2008), and buying a $128 million London mansion (Kensington Palace Gardens). Resident of London.",
+    "knownForKo": "인도네시아 단일 공장에서 세계 철강 생산량 10%의 아르셀로르미탈까지 공격적 글로벌 인수로 세계 최대 철강 기업 구축. 아르셀로르 적대적 인수(2006), 한때 세계 4위 부자($450억, 2008), 런던 맨션 $1.28억 매입(켄싱턴팰리스가든)으로 유명. 런던 거주.",
+    "philanthropy": "Lakshmi Mittal and family donated £15 million to Great Ormond Street Hospital in London. Supports education and healthcare initiatives in India through Mittal Foundation. Major donor to London School of Economics.",
+    "philanthropyKo": "미탈 가문 런던 그레이트오몬드스트리트병원에 £1,500만 기부. 미탈재단을 통해 인도 교육·의료 사업 지원. 런던정경대(LSE) 주요 기부자.",
+    "controversies": "Hostile takeover of Arcelor faced fierce political opposition in Europe (particularly France). Close ties to UK politicians raised questions about political influence. ArcelorMittal's environmental record and workplace safety criticized. Tax residency in UK despite Indian origins.",
+    "controversiesKo": "아르셀로르 적대적 인수가 유럽(특히 프랑스)에서 격렬한 정치적 반발. 영국 정치인과의 긴밀한 관계로 정치적 영향력 의문. 아르셀로르미탈의 환경·직장 안전 기록 비판. 인도 출신임에도 영국 세금 거주지."
+  },
+  "sajuConnection": null
+}
