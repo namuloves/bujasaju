@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://bujasaju.com'),
   verification: {
     other: {
-      'naver-site-verification': 'c69d3fd936b21512a43a1600e8894041e94d8c47',
+      'naver-site-verification': ['c69d3fd936b21512a43a1600e8894041e94d8c47', '15e00aa7730b6ee521716ddee5d348b07b3c6efe'],
     },
   },
   title: "부자사주 富者四柱 - 세계 부자들의 사주 분석",
