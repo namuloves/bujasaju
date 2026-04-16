@@ -204,7 +204,7 @@ const ko: Dict = {
   revealFound: (n) => `${n.toLocaleString('ko-KR')}명의 부자를 찾았습니다`,
   seeSameIljuButton: (n) => `나랑 일주 같은 부자 보기 (${n.toLocaleString('ko-KR')}명)`,
   hideSameIljuButton: '접기',
-  heroMatchTagline: '의 부자가 당신과 비슷한 기운을 가졌습니다',
+  heroMatchTagline: '의 부자가 비슷한 사주를 가졌습니다',
   shareTitle: '친구한테도 가르쳐주기',
   shareCopyLink: '링크 복사',
   shareCopied: '복사됨!',

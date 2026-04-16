@@ -1,0 +1,265 @@
+{
+  "id": "4",
+  "name": "Jeff Bezos",
+  "nameKo": "제프리 프레스턴 베조스",
+  "netWorth": "$223.5B",
+  "nationality": "US",
+  "industry": "Technology",
+
+  "childhood": {
+    "birthPlace": "Albuquerque, New Mexico, USA",
+    "birthPlaceKo": "미국 뉴멕시코주 앨버커키",
+    "familyBackground": "Born to teenage mother Jacklyn Gise (17 at birth) and biological father Ted Jorgensen (circus unicyclist who left early). Stepfather Miguel 'Mike' Bezos, a Cuban refugee who fled at 15 via Operation Pedro Pan, adopted Jeff when he was 4 and worked as Exxon engineer. Maternal grandfather Lawrence Preston Gise was a senior administrator at DARPA's predecessor and ran a ranch in South Texas where Jeff spent summers fixing fences and operating machinery.",
+    "familyBackgroundKo": "어머니 재클린 기스는 17세에 베조스 출산, 친부 테드 요르겐슨(서커스 외발자전거 공연자)은 일찍 떠남. 4세 때 쿠바 난민 출신 미겔('마이크') 베조스(15세에 페드로 판 작전으로 미국 이민, 엑손 엔지니어)가 입양. 외할아버지 로런스 프레스턴 기스는 DARPA 전신의 고위 관료를 지낸 뒤 남부 텍사스에서 목장을 운영, 베조스가 여름마다 펜스 수리·기계 작동을 배움.",
+    "education": "Miami Palmetto Senior High School (valedictorian, 1982); Princeton University BSE in Electrical Engineering and Computer Science (summa cum laude, 1986); originally pre-med, switched after realizing he'd never be among the top physicists.",
+    "educationKo": "마이애미 팔메토 고등학교 졸업생 대표(1982); 프린스턴 대학교 전기공학·컴퓨터과학 최우등 학사(1986). 원래 물리학·의예과였으나 '톱 물리학자가 될 수 없음'을 자각하고 CS로 전공 변경.",
+    "earlyLife": "Born January 12, 1964. Dismantled crib with screwdriver as toddler. Built an electric alarm to keep siblings out of his room. At Miami Palmetto, founded the 'Dream Institute' summer educational camp for kids. Worked at McDonald's as short-order cook at 16. Summers at grandfather's Cotulla, Texas ranch taught him self-reliance and mechanical skill.",
+    "earlyLifeKo": "1964년 1월 12일 출생. 유아기 때 드라이버로 아기침대 분해. 어릴 적 형제 방 출입 차단용 전자 알람 제작. 팔메토 고등학교에서 아이들 대상 여름 교육 캠프 'Dream Institute' 설립. 16세 맥도날드 단기 조리 경력. 여름마다 외할아버지 텍사스 목장에서 자립심·기계 수리 능력 습득.",
+    "capitalTypeKo": "self-made 중심, 가족 금융 자본 초기 투입. 부모 Mike·Jackie 베조스가 1995년 Amazon에 약 24만 5천 달러 투자(나중에 수백억 달러 가치)가 결정적 시드. 그 외는 본인 헤지펀드 월급과 VC.",
+    "source": "https://en.wikipedia.org/wiki/Jeff_Bezos ; https://www.biography.com/business-leaders/jeff-bezos ; https://www.britannica.com/money/Jeff-Bezos"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "부모의 초기 Amazon 투자(약 $24.5만)가 가족 자본이긴 하나, 대부분의 부(약 1,000억 달러 이상)는 Amazon 주식 상승에서 자생. Forbes self-made score 8/10. 아버지 Mike는 엑손 엔지니어, 어머니 Jackie는 교사·은행원 — 미국 중상류층이지만 상속 자본 아님.",
+    "source": "https://www.forbes.com/profile/jeff-bezos/ ; https://en.wikipedia.org/wiki/Jeff_Bezos"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1986,
+      "age": 22,
+      "event": "Graduated Princeton; turned down offers from Intel, Bell Labs, and Andersen Consulting to join Fitel (fintech startup building global trade-finance network)",
+      "eventKo": "프린스턴 졸업 후 Intel, Bell Labs, Andersen Consulting 제의를 거절하고 무역금융 네트워크 핀테크 스타트업 Fitel 합류",
+      "whyItMatteredKo": "대기업 대신 첫 직장부터 스타트업을 선택한 것이 자기 기업가적 성향의 시작. Fitel은 2년 만에 실패했으나 국제 결제·네트워크 경험이 훗날 Amazon Payments·AWS 글로벌 구조 이해의 기반.",
+      "whatTheyRiskedKo": "안정적 대기업 경력 포기, 이제 막 창업한 회사의 생존 리스크 감수",
+      "source": "https://www.britannica.com/money/Jeff-Bezos"
+    },
+    {
+      "year": 1990,
+      "age": 26,
+      "event": "Joined D.E. Shaw & Co. (quantitative hedge fund); became D.E. Shaw's youngest Senior Vice President in 1992",
+      "eventKo": "퀀트 헤지펀드 D.E. Shaw & Co. 입사, 1992년 회사 역대 최연소 시니어 부사장(SVP) 승진",
+      "whyItMatteredKo": "David E. Shaw와의 밀접한 업무가 '데이터+자동화+장기 시야' 경영 철학 형성. D.E. Shaw에서 인터넷 상업화 기회 조사를 명령받아 1994년 Amazon 창업 아이디어의 리스트를 만들게 됨.",
+      "whoHelpedKo": "David E. Shaw(멘토이자 투자자 네트워크), MacKenzie Scott(당시 MacKenzie Tuttle, 1992년 만남, 1993년 결혼)",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Bezos ; https://www.biography.com/business-leaders/jeff-bezos"
+    },
+    {
+      "year": 1994,
+      "age": 30,
+      "event": "Founded Amazon.com on July 5, 1994 in a Bellevue, Washington garage after driving cross-country with MacKenzie; initially named 'Cadabra', renamed to Amazon.",
+      "eventKo": "7월 5일 워싱턴주 벨뷰 차고에서 Amazon.com 창업. 매켄지와 뉴욕→시애틀 대륙횡단 드라이브 중 사업계획 작성. 초기 사명 'Cadabra'에서 Amazon으로 변경.",
+      "whyItMatteredKo": "월스트리트 고수익 SVP 자리를 던지고 '인터넷 30년 후에도 후회하지 않을 선택'(Regret Minimization Framework)을 실행한 상징적 결정. 서점을 첫 카테고리로 택한 것은 상품 종류 다양성과 재고 표준화 용이성.",
+      "whatTheyRiskedKo": "D.E. Shaw 보너스 포기, 부모 은퇴 자금 $24.5만 투자 받기 위한 가족 신용 부담",
+      "whoHelpedKo": "매켄지 스콧(초기 CFO·회계), 부모 Mike·Jackie 베조스(시드 투자자), 엔젤 Nick Hanauer·Tom Alberg",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Bezos ; https://www.historylink.org/File/23230"
+    },
+    {
+      "year": 1997,
+      "age": 33,
+      "event": "Amazon IPO on May 15, 1997 at $18/share, raising $54M; first shareholder letter introduced 'Day 1' and 'long-term thinking' doctrine",
+      "eventKo": "5월 15일 Amazon 나스닥 상장, 주당 18달러, 공모 5,400만 달러. 첫 주주 서한에서 'Day 1'·'장기적 사고' 원칙 발표.",
+      "whyItMatteredKo": "창업 3년 만의 IPO — 수익 없던 인터넷 기업의 공모가 가능함을 증명. 주주 서한 1~3쪽은 이후 25년 Amazon 의사결정의 헌장이 되었고, 미국 기업 문화에서 'long-term thinking' 담론의 원형이 됨.",
+      "source": "https://en.wikipedia.org/wiki/Amazon_(company) ; https://www.aboutamazon.com/"
+    },
+    {
+      "year": 2000,
+      "age": 36,
+      "event": "Founded Blue Origin secretly; dotcom bust crushed Amazon stock (peak $113 to $6 in 2001), forcing brutal cost-cutting and profit discipline",
+      "eventKo": "Blue Origin 비공개 설립. 닷컴 버블 붕괴로 Amazon 주가 $113 → 2001년 $6으로 95% 하락, 전사적 원가 절감·수익성 규율 강제.",
+      "whyItMatteredKo": "Amazon의 생존 시험대. 이 위기가 '고정비 자동화+자체 물류' 구조를 낳았고, 2003년 AWS의 원형 아이디어(내부 컴퓨팅 인프라를 표준화)로 이어짐. Blue Origin은 머스크보다 2년 먼저 창업된 민간 우주 프로젝트.",
+      "whatTheyRiskedKo": "개인 자산 대부분이 Amazon 주식, 닷컴 붕괴로 장부상 90%+ 손실",
+      "source": "https://en.wikipedia.org/wiki/Blue_Origin ; https://en.wikipedia.org/wiki/Amazon_(company)"
+    },
+    {
+      "year": 2006,
+      "age": 42,
+      "event": "Launched Amazon Web Services (S3 in March, EC2 in August) — turning internal tech into external platform business",
+      "eventKo": "Amazon Web Services 정식 출시(3월 S3, 8월 EC2). 내부 인프라를 외부 플랫폼 사업으로 전환.",
+      "whyItMatteredKo": "전자상거래 마진 외의 고수익 반복 매출 구조 확보. 2020년대 AWS가 Amazon 영업이익의 50%+ 차지. 클라우드 컴퓨팅 시장의 de facto 표준을 선점, Azure·GCP가 아직도 2위 경쟁 중.",
+      "source": "https://aws.amazon.com/about-aws/ ; https://en.wikipedia.org/wiki/Amazon_Web_Services"
+    },
+    {
+      "year": 2013,
+      "age": 49,
+      "event": "Personally acquired The Washington Post for $250M cash; independent from Amazon",
+      "eventKo": "개인 자금 2억 5천만 달러로 워싱턴 포스트 인수. Amazon과 별개의 개인 거래.",
+      "whyItMatteredKo": "디지털 시대의 언론 비즈니스 모델 재구축 프로젝트. 2016년까지 디지털 구독 흑자 전환. 단 2020년대 후반 다시 적자로 전환, 2024-25년 대선 사설 개입 논란으로 구독 대량 해지.",
+      "source": "https://www.washingtonpost.com/ ; https://www.britannica.com/money/Jeff-Bezos"
+    },
+    {
+      "year": 2018,
+      "age": 54,
+      "event": "Amazon market cap crossed $1 trillion briefly (Sept 4); Bezos briefly became first $150B+ man on Bloomberg index",
+      "eventKo": "9월 4일 Amazon 시총 1조 달러 돌파, 블룸버그 지수 기준 최초 1,500억 달러+ 자산 개인 등극",
+      "whyItMatteredKo": "1994년 차고 창업에서 25년 만에 세계 시총 1조 기업 완성. 이후 Amazon 시총은 Apple/Microsoft/Alphabet과 함께 '빅 4' 체제에 정착.",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Bezos ; https://www.bloomberg.com/billionaires/"
+    },
+    {
+      "year": 2019,
+      "age": 55,
+      "event": "Divorced MacKenzie Scott (Jan 2019 announcement, finalized July); largest public divorce settlement in history — MacKenzie received ~25% of his Amazon stake (then ~$38B)",
+      "eventKo": "매켄지 스콧과 공식 이혼(1월 발표, 7월 마무리). 역사상 최대 공개 이혼 합의금 — Amazon 지분의 약 25%(당시 약 380억 달러)를 매켄지에게 이전.",
+      "whyItMatteredKo": "개인 자산의 1/4을 잃었지만 글로벌 최대 부자 지위 유지. 매켄지는 이후 Giving Pledge 서명 후 최빈곤층 조직에 $200억+ 기부로 차별적 자선 모델 개척. 베조스 개인 사생활(샌체스 관계)은 내셔널 인콰이어러에게 협박당하는 사건으로 이어져 공개 대응.",
+      "whatTheyRiskedKo": "자산 1/4, 개인 이미지, Amazon 의결권 변동 가능성(매켄지는 의결권을 베조스에게 위임)",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Bezos ; https://en.wikipedia.org/wiki/MacKenzie_Scott"
+    },
+    {
+      "year": 2021,
+      "age": 57,
+      "event": "Stepped down as Amazon CEO (July 5, Amazon's 27th anniversary); Andy Jassy (formerly AWS CEO) took over; Bezos became Executive Chairman. Flew to space on Blue Origin NS-16 (July 20).",
+      "eventKo": "7월 5일(Amazon 창립 27주년) CEO 사임, Andy Jassy(전 AWS CEO)에게 승계. 본인은 집행의장(Executive Chairman)으로. 7월 20일 Blue Origin NS-16으로 직접 우주 비행.",
+      "whyItMatteredKo": "경영 일선에서 물러나 Blue Origin·워싱턴 포스트·Day One Fund·기후 서약($100억)에 집중. 머스크식 상시 현역 CEO 모델과 달리 '은퇴하되 장기 주주+프로젝트 리더' 모델 선택.",
+      "source": "https://www.aboutamazon.com/news/company-news/email-from-jeff-bezos-to-employees ; https://en.wikipedia.org/wiki/Blue_Origin_NS-16"
+    },
+    {
+      "year": 2024,
+      "age": 60,
+      "event": "Moved residence from Seattle to Miami (2023-24), reducing Washington state capital gains tax exposure; announced sale of up to $8.5B Amazon stock; engaged to Lauren Sánchez.",
+      "eventKo": "2023-24년 시애틀에서 마이애미로 이주, 워싱턴주 자본이득세 회피. Amazon 주식 최대 85억 달러 매각 계획 공시. Lauren Sánchez와 약혼 발표.",
+      "whyItMatteredKo": "부자들의 세금 목적 이주 사례로 전국적 논란. 매각 대금은 Blue Origin(New Glenn 개발), 기후 서약, 개인 요트 Koru 등으로 재배치. 개인 브랜드가 '검소한 엔지니어'에서 '화려한 은퇴 부호'로 전환되는 이미지 변곡점.",
+      "source": "https://www.cnbc.com/2024/02/13/jeff-bezos-amazon-stock-sale-saved-billions-in-taxes.html ; https://en.wikipedia.org/wiki/Jeff_Bezos"
+    },
+    {
+      "year": 2025,
+      "age": 61,
+      "event": "Blue Origin New Glenn rocket first successful orbital launch; married Lauren Sánchez in lavish Venice ceremony ($20M+); Washington Post endorsement controversy triggered ~300K subscription cancellations",
+      "eventKo": "Blue Origin New Glenn 대형 로켓 첫 궤도 발사 성공. Lauren Sánchez와 베네치아에서 호화 결혼식($2,000만+). 워싱턴 포스트 대선 사설 불공개 결정으로 구독 약 30만 해지.",
+      "whyItMatteredKo": "우주 사업의 기술적 이정표 달성, 동시에 개인 브랜드·언론 독립성은 타격. 2026년 순자산 $223.5B으로 머스크·페이지·브린 뒤 4위 유지.",
+      "source": "https://www.blueorigin.com/news/new-glenn-launch ; https://www.nytimes.com/2024/10/25/business/media/washington-post-endorsement-bezos.html"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1994,
+      "age": 30,
+      "decisionKo": "D.E. Shaw SVP 연봉·보너스를 포기하고 차고에서 인터넷 서점 창업",
+      "alternativeKo": "D.E. Shaw 잔류 시 수년 내 파트너 승진 경로, 연봉·성과급 수백만 달러 보장",
+      "outcomeKo": "세계 최대 전자상거래·클라우드 기업 창업, 개인 순자산 $223B",
+      "source": "https://en.wikipedia.org/wiki/Jeff_Bezos"
+    },
+    {
+      "year": 2000,
+      "age": 36,
+      "decisionKo": "닷컴 붕괴 속에서도 Blue Origin 창업과 AWS 전신 인프라 개발 착수",
+      "alternativeKo": "Amazon 본업에만 집중, 우주·클라우드 베팅 포기",
+      "outcomeKo": "AWS는 Amazon 영업이익 절반 담당, Blue Origin은 SpaceX와 경쟁하는 2대 민간 우주 기업",
+      "source": "https://en.wikipedia.org/wiki/Blue_Origin"
+    },
+    {
+      "year": 2013,
+      "age": 49,
+      "decisionKo": "개인 자금 $2.5억으로 워싱턴 포스트 인수",
+      "alternativeKo": "Amazon 신사업에 자금 집중, 언론 리스크 회피",
+      "outcomeKo": "디지털 구독 모델 재편 성공 후 2020년대 정치 편집 개입 논란으로 브랜드 타격",
+      "source": "https://www.washingtonpost.com/"
+    },
+    {
+      "year": 2021,
+      "age": 57,
+      "decisionKo": "Amazon CEO 사임하고 Blue Origin·자선·개인 프로젝트로 전환",
+      "alternativeKo": "CEO 유지하며 Amazon 제국 확장 계속",
+      "outcomeKo": "장기 지분 수익은 유지, 공적 이미지는 '건설하는 공학자' → '슈퍼요트 부호'로 전환되며 양가적 영향",
+      "source": "https://www.aboutamazon.com/"
+    }
+  ],
+
+  "moneyMechanics": {
+    "coreBusinessKo": "Amazon.com(전자상거래+AWS 클라우드+광고+구독 Prime+물류+디바이스) 지분 약 9%, 의결권도 동일. 개인 포트폴리오는 Blue Origin(100%), 워싱턴 포스트(100%), Bezos Expeditions(Airbnb, Uber 초기 투자, Business Insider 인수 후 매각, Workday 등), Bezos Earth Fund($100억 기후 공약).",
+    "moatKo": "① Amazon Fulfillment Network(175개 이상 풀필먼트 센터)의 물리적 해자. ② AWS의 클라우드 1위 점유율과 10년+ 운영 노하우. ③ Prime 구독자 2억+의 소비 락인. ④ 자체 배송망(Amazon Air, Amazon Logistics)으로 UPS·FedEx 의존 축소. ⑤ 광고 플랫폼 3위 규모($500억+ 매출).",
+    "luckVsSkillKo": "운(35%): 1994년 인터넷 상업화 타이밍, 1999년 닷컴 버블에서 살아남은 소수, 2006년 AWS 출시 시점에 경쟁자 부재, 2020년 팬데믹이 전자상거래 5년치 성장 압축. 실력(65%): 장기 시야의 주주 서한, '두 피자 팀' 조직 설계, 자동화·물류 집착, 실패 프로젝트(Fire Phone) 인정하고 빨리 접는 문화.",
+    "politicalCapitalKo": "트럼프 1기에 Amazon·워싱턴 포스트로 대립 관계(AWS JEDI 계약 취소). 2024-25년 트럼프 재집권 이후 워싱턴 포스트 사설 개입·백악관 식사 참여 등 유화 기조 전환. Blue Origin은 NASA·DoD 계약에서 SpaceX와 경쟁 중이어서 정치 관계가 수익에 직접 영향.",
+    "capitalHistoryKo": "1995 부모 $24.5만 시드 → 1996 VC Kleiner Perkins $800만 → 1997 IPO $5,400만 → 2000년대 닷컴 생존 → 2006 AWS → 2018 시총 $1조 → 2019 이혼으로 지분 25% 감소 → 2020 팬데믹 수혜 → 2024-25 Amazon 주식 수십억 달러 매각해 Blue Origin·자선에 재배치",
+    "source": "https://www.forbes.com/profile/jeff-bezos/ ; https://www.aboutamazon.com/ ; https://en.wikipedia.org/wiki/Jeff_Bezos"
+  },
+
+  "failures": [
+    {
+      "year": 1999,
+      "age": 35,
+      "description": "Acquired Pets.com stake and other dotcom investments (Drugstore.com, Living.com, Kozmo.com) — most went bankrupt in 2000-2001 crash, costing Amazon hundreds of millions.",
+      "descriptionKo": "Pets.com 지분 인수 등 Drugstore.com, Living.com, Kozmo.com 같은 닷컴 투자가 2000-2001년 버블 붕괴로 대부분 파산, Amazon에 수억 달러 손실.",
+      "howTheyOvercameKo": "2001년 전사적 원가 절감, 소매+물류 본업 재집중. 투자 실패 경험을 '무엇을 소유하면 안 되는가'의 교과서로 삼아 이후 Amazon은 직접 운영 가능한 영역에만 자본 배치.",
+      "lessonKo": "시장 타이밍만 맞다고 자본을 분산하면 위기가 왔을 때 본업까지 흔들린다. 자본 배치는 '본인이 운영 가능한가'로 1차 필터링.",
+      "source": "https://en.wikipedia.org/wiki/Pets.com ; https://www.britannica.com/money/Jeff-Bezos"
+    },
+    {
+      "year": 2014,
+      "age": 50,
+      "description": "Fire Phone launched June 2014, killed within 13 months after $170M write-down and $83M unsold inventory. Bezos was personally the product lead.",
+      "descriptionKo": "2014년 6월 Fire Phone 출시, 1년 1개월 만에 단종. 1억 7천만 달러 재고 상각과 8,300만 달러 미판매 재고. 베조스가 직접 제품 리더였음.",
+      "howTheyOvercameKo": "실패를 공개 인정('hundreds of millions of dollars spent'). Fire Phone 엔지니어를 Echo·Alexa 팀으로 이동, 2014년 11월 Echo 출시로 스마트 스피커 시장을 선점해 손실 회수.",
+      "lessonKo": "카리스마 CEO의 과잉 개입이 제품 실패의 주요 원인이 될 수 있다. 단 실패한 팀을 해체하지 않고 재배치하면 학습 자본은 남는다.",
+      "source": "https://en.wikipedia.org/wiki/Fire_Phone ; https://www.webopedia.com/technology/"
+    },
+    {
+      "year": 2019,
+      "age": 55,
+      "description": "National Enquirer attempted extortion with Bezos' private texts/photos to Lauren Sánchez; ongoing affair revealed during MacKenzie divorce. Saudi MBS alleged to have hacked Bezos' phone (2020 UN report).",
+      "descriptionKo": "내셔널 인콰이어러가 Lauren Sánchez와의 사적 문자·사진으로 협박 시도. 매켄지와의 이혼 과정에서 불륜 공개. 사우디 빈살만 왕세자가 베조스 휴대폰 해킹했다는 UN 보고서(2020).",
+      "howTheyOvercameKo": "Medium에 'No thank you, Mr. Pecker' 공개 서한으로 협박을 역이용, 언론 주도권 회복. 이혼은 비공개 합의로 신속 마무리(매켄지에게 Amazon 지분 25% 및 $380억 이전). 사우디 이슈는 워싱턴 포스트 기자 Khashoggi 살해와 엮여 정치화.",
+      "lessonKo": "공적 인물의 사생활 리스크는 발생 즉시 '투명성으로 선제 대응'이 최적 전략. 숨기면 협박 레버리지를 상대에게 준다.",
+      "source": "https://medium.com/@jeffreypbezos/no-thank-you-mr-pecker-146e3922310f ; https://en.wikipedia.org/wiki/Jeff_Bezos"
+    },
+    {
+      "year": 2021,
+      "age": 57,
+      "description": "Blue Origin lost Artemis Human Landing System $2.9B contract to SpaceX in April 2021, then lost lawsuit challenging award. NS-23 uncrewed New Shepard failed in September 2022, grounding flights for 15 months.",
+      "descriptionKo": "2021년 4월 NASA Artemis 유인 착륙선 29억 달러 계약이 SpaceX에 낙찰되자 Blue Origin이 소송 제기, 그마저 패소. 2022년 9월 NS-23 무인 New Shepard 발사 실패로 15개월간 운항 중단.",
+      "howTheyOvercameKo": "2023년 NASA Artemis 2차 계약에서 Blue Origin이 $34억 계약 수주로 만회. New Shepard는 2023년 12월 운항 재개. New Glenn 대형 로켓 개발 가속, 2025년 첫 궤도 발사 성공으로 SpaceX와 경쟁 구도 재확립.",
+      "lessonKo": "전략적 계약 패배는 소송이 아니라 기술·가격 경쟁력으로 만회해야 한다. 법적 대응은 개발 지연의 명분을 줄 뿐이다.",
+      "source": "https://en.wikipedia.org/wiki/Blue_Origin ; https://www.nasa.gov/"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 1999, "netWorth": 10.1 },
+    { "year": 2002, "netWorth": 1.5 },
+    { "year": 2010, "netWorth": 12.6 },
+    { "year": 2015, "netWorth": 50.3 },
+    { "year": 2018, "netWorth": 160.0 },
+    { "year": 2020, "netWorth": 177.0 },
+    { "year": 2021, "netWorth": 201.0 },
+    { "year": 2023, "netWorth": 114.0 },
+    { "year": 2025, "netWorth": 180.0 },
+    { "year": 2026, "netWorth": 223.5 }
+  ],
+
+  "quotes": [
+    "I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not trying.",
+    "Your margin is my opportunity.",
+    "It's always Day 1."
+  ],
+
+  "books": {
+    "authored": [
+      "Invent & Wander: The Collected Writings of Jeff Bezos (2020)"
+    ],
+    "recommended": [
+      "The Remains of the Day — Kazuo Ishiguro",
+      "Built to Last — Jim Collins",
+      "Sam Walton: Made in America — Sam Walton",
+      "The Innovator's Dilemma — Clayton Christensen"
+    ]
+  },
+
+  "personalTraits": {
+    "knownFor": "Founder of Amazon.com, AWS, Blue Origin; longtime world's richest person (2017-2021); popularized long-term shareholder letters and 'Day 1' doctrine; divorced record-setting $38B settlement with MacKenzie Scott.",
+    "knownForKo": "Amazon.com·AWS·Blue Origin 창업자. 2017-2021년 세계 최고 부자. '장기 주주 서한'과 'Day 1' 경영 교리의 대명사. 매켄지 스콧과의 역대 최대 $380억 이혼 합의.",
+    "philanthropy": "Bezos Earth Fund ($10B climate), Bezos Day One Fund (homeless families, preschools), Smithsonian $200M gift. Criticized historically for low giving ratio; increasing since 2020.",
+    "philanthropyKo": "베조스 지구 재단($100억 기후), 베조스 Day One 재단(노숙 가족·유아 교육), 스미소니언에 $2억 기부. 과거에는 순자산 대비 기부가 적다고 비판받았으나 2020년 이후 증가세.",
+    "controversies": "Amazon warehouse worker conditions and unionization fights; Washington Post political editorial interference (2024-25); tax minimization via Miami move; alleged MBS phone hack; Venice wedding protests; extensive use of tax loopholes (ProPublica leaked returns).",
+    "controversiesKo": "Amazon 창고 노동자 근로 조건과 노조화 갈등; 2024-25년 워싱턴 포스트 사설 개입; 마이애미 이주를 통한 세금 회피; 사우디 빈살만의 휴대폰 해킹 의혹; 베네치아 결혼식 시위; ProPublica 세금 보고서 유출로 드러난 조세 허점 활용."
+  },
+
+  "characterKo": {
+    "observedTraitsKo": "크게 웃는 특유의 폭소, 극도로 장기적 시야(10,000년 시계 프로젝트), 데이터 기반 의사결정 집착, 제품 회의에서 6페이지 메모 묵독, 파워포인트 금지 원칙, 근육질 외모로 2017년부터 'swole Bezos' 화제",
+    "leadershipStyleKo": "회의 시작 30분 침묵 속 6페이지 메모 독서, 이후 질문으로 열기. '두 피자 팀' 원칙(한 팀은 피자 두 판으로 식사 가능한 규모). 이메일에 '?' 한 글자로 하위 조직 비상 발동. Andy Jassy·Jeff Wilke 등 20년 이상 동료를 핵심 인재로 유지.",
+    "conflictBehaviorKo": "공개 공격보다는 자본·시간으로 이기는 전략(월마트, UPS, 출판사들과의 장기전). 단 개인 이슈(National Enquirer 협박)에서는 Medium 공개서한 같은 직접 역공도 사용. 노조 이슈는 냉정한 법률·홍보 대응으로 소송 다수 진행.",
+    "knownQuirksKo": "1만년 시계(Long Now Foundation)를 자비로 건설 중, Blue Origin을 '5살부터의 꿈'으로 설명, 과거에는 검소했으나 2019년 이후 Koru 요트($500M), Beverly Hills 저택($165M), 베네치아 결혼식 등 과시적 소비로 전환. 매일 아침 2시간 '아무 일정 없는 시간' 유지로 알려짐.",
+    "source": "https://en.wikipedia.org/wiki/Jeff_Bezos ; https://www.aboutamazon.com/news/company-news/2020-letter-to-shareholders"
+  },
+
+  "sajuConnection": null
+}

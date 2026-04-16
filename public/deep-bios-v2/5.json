@@ -1,0 +1,247 @@
+{
+  "id": "5",
+  "name": "Mark Zuckerberg",
+  "nameKo": "마크 엘리엇 저커버그",
+  "netWorth": "$197.3B",
+  "nationality": "US",
+  "industry": "Technology",
+
+  "childhood": {
+    "birthPlace": "White Plains, New York, USA",
+    "birthPlaceKo": "미국 뉴욕주 화이트플레인스",
+    "familyBackground": "Son of Edward Zuckerberg, a dentist operating his practice attached to the family home in Dobbs Ferry, and Karen Kempner, a psychiatrist who left practice to manage the family. Eldest male of four children (three sisters: Randi, Donna, Arielle). Reform Jewish family; had a bar mitzvah at 13 with a Star Wars theme.",
+    "familyBackgroundKo": "아버지 에드워드 저커버그는 돕스 페리 자택 부속 치과 운영, 어머니 캐런 켐프너는 정신과 의사였다가 가정 관리로 전환. 네 남매 중 외아들(누나·여동생 Randi, Donna, Arielle). 개혁파 유대교 가정, 13세 때 스타워즈 테마 바르 미츠바.",
+    "education": "Ardsley High School → Phillips Exeter Academy (classics and fencing; built 'Synapse Media Player' which Microsoft/AOL tried to acquire); Harvard College (dropped out sophomore year, 2004) studying psychology and computer science.",
+    "educationKo": "아즐리 고등학교 → 필립스 엑서터 아카데미(고전학·펜싱 선수, 'Synapse Media Player' 제작해 마이크로소프트·AOL 인수 제의받음) → 하버드대 심리학·컴퓨터과학 복수 전공, 2학년 때(2004년) 중퇴.",
+    "earlyLife": "Born May 14, 1984. Started programming at age ~12 with Atari BASIC; father hired private tutor David Newman who said Mark was a 'prodigy'. Built 'ZuckNet' messaging system for father's dental practice before AOL IM existed. At Exeter, created Synapse (AI-based music recommendation) as senior project, turned down corporate acquisition offers to attend Harvard.",
+    "earlyLifeKo": "1984년 5월 14일 출생. 12세경 아타리 BASIC으로 프로그래밍 시작, 아버지가 개인 교사 데이비드 뉴먼 고용(뉴먼은 '천재'로 평가). AOL 메신저 출현 전 아버지 치과용 'ZuckNet' 메시징 시스템 직접 제작. 엑서터 졸업 프로젝트 Synapse(AI 음악 추천)의 기업 인수 제의를 거절하고 하버드 진학.",
+    "capitalTypeKo": "self-made. 상류 전문직 가정 출신(치과의사+정신과의사 부모)이라 교육·지적 자본 풍부. 초기 자본은 하버드 기숙사 서버 임대료($85/월), 2004년 여름 Peter Thiel의 $50만 엔젤 투자가 최초 외부 자본.",
+    "source": "https://en.wikipedia.org/wiki/Mark_Zuckerberg ; https://www.biography.com/business-leaders/mark-zuckerberg"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "완전 자수성가. 가정은 미국 유대계 상류 전문직이지만 재산은 Facebook(→Meta) 지분에서 100% 발생. Thiel의 2004년 $50만 투자와 Accel의 2005년 $1,270만 시리즈A가 외부 자본. Forbes self-made score 8/10.",
+    "source": "https://www.forbes.com/profile/mark-zuckerberg/ ; https://en.wikipedia.org/wiki/History_of_Facebook"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 2003,
+      "age": 19,
+      "event": "Created 'Facemash' at Harvard (Oct 28, 2003), scraping dorm photos to let users rate appearances; shut down within days by Harvard for privacy violations; faced disciplinary probation.",
+      "eventKo": "10월 28일 하버드 기숙사 사진을 무단 수집해 외모 평가하는 'Facemash' 제작, 프라이버시 위반으로 며칠 내 하버드에 폐쇄, 징계 보호관찰.",
+      "whyItMatteredKo": "이 실패가 '대학 인맥 기반 소셜 네트워크'라는 아이디어의 기술적 리허설. 1년 후 Thefacebook의 설계 원형이자, '동의 없이 데이터를 쓰는 것이 얼마나 빨리 반발을 부르는지' 첫 교훈.",
+      "whatTheyRiskedKo": "하버드 정학·제적 가능성",
+      "source": "https://en.wikipedia.org/wiki/History_of_Facebook"
+    },
+    {
+      "year": 2004,
+      "age": 19,
+      "event": "Launched 'thefacebook.com' on February 4, 2004 from Kirkland House dorm with co-founders Dustin Moskovitz, Eduardo Saverin, Chris Hughes, Andrew McCollum. Moved to Palo Alto that summer, dropped out of Harvard.",
+      "eventKo": "2월 4일 하버드 커클랜드 기숙사에서 Dustin Moskovitz·Eduardo Saverin·Chris Hughes·Andrew McCollum과 함께 thefacebook.com 출시. 여름에 팔로알토로 이전, 하버드 중퇴.",
+      "whyItMatteredKo": "대학 이메일(.edu) 인증이라는 단순 제약이 '진짜 이름 네트워크'를 만듦, 이 신뢰 네트워크가 이후 20년 Facebook·Instagram·WhatsApp 제국의 기반. 중퇴는 Bill Gates 이후 가장 유명한 하버드 중퇴.",
+      "whatTheyRiskedKo": "하버드 학위, ConnectU(원클레보스 형제) 아이디어 도용 소송 리스크",
+      "whoHelpedKo": "Sean Parker(초대 사장, 기업 구조 설계), Peter Thiel($50만 엔젤, 멘토), 공동창업자 Moskovitz",
+      "source": "https://en.wikipedia.org/wiki/History_of_Facebook ; https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+    },
+    {
+      "year": 2006,
+      "age": 22,
+      "event": "Opened Facebook to anyone over 13 (Sept 26); turned down Yahoo's $1B acquisition offer in July; launched News Feed (Sept 5) to initial user backlash.",
+      "eventKo": "9월 26일 만 13세 이상 누구에게나 개방. 7월 Yahoo의 $10억 인수 제안 거절. 9월 5일 뉴스피드 출시, 초기에는 사용자 반발.",
+      "whyItMatteredKo": "세 개의 결정적 제품·전략 베팅이 한 해 안에 성공. 개방과 뉴스피드가 지수 성장 엔진이 됨. Yahoo 제안 거절은 '장기 독립' 원칙의 공개 선언.",
+      "whatTheyRiskedKo": "$10억 매각 기회 포기, 사용자 반발과 이탈 가능성",
+      "source": "https://en.wikipedia.org/wiki/History_of_Facebook"
+    },
+    {
+      "year": 2012,
+      "age": 28,
+      "event": "Facebook IPO on May 18, 2012 at $38/share, $104B valuation; acquired Instagram for $1B (April); stock fell to $17.55 by September triggering mobile-first pivot.",
+      "eventKo": "5월 18일 Facebook 나스닥 상장, 주당 $38, 시총 $1,040억. 4월 Instagram $10억 인수. 9월 주가 $17.55까지 하락, 모바일 우선 전략으로 전환.",
+      "whyItMatteredKo": "Instagram 인수는 '당대 최고 마진 딜'로 평가(2025년 Instagram 단독 가치 $500B+ 추정). IPO 직후 주가 폭락은 데스크톱→모바일 전환 실패 우려, 이를 6개월 내 뒤집음.",
+      "source": "https://en.wikipedia.org/wiki/Facebook ; https://www.officetimeline.com/blog/facebook-history-timeline"
+    },
+    {
+      "year": 2014,
+      "age": 30,
+      "event": "Acquired WhatsApp for $19B (Feb) and Oculus VR for $2B (March). Chan Zuckerberg Initiative announced with wife Priscilla Chan.",
+      "eventKo": "2월 WhatsApp $190억 인수, 3월 Oculus VR $20억 인수. 아내 프리실라 챈과 함께 Chan Zuckerberg Initiative(CZI) 출범.",
+      "whyItMatteredKo": "WhatsApp으로 전 세계 메시징 점유율 1위, 개도국·유럽 소셜 인프라 장악. Oculus는 이후 Meta 리브랜딩(2021)의 기술적 근거. CZI는 LLC 구조로 자선·투자 병행하는 새 모델.",
+      "whatTheyRiskedKo": "$190억 현금+주식 지출, 사용자 개인정보 통합 우려",
+      "source": "https://en.wikipedia.org/wiki/WhatsApp ; https://chanzuckerberg.com/"
+    },
+    {
+      "year": 2018,
+      "age": 34,
+      "event": "Cambridge Analytica scandal exploded March 2018; Zuckerberg testified before US Congress (April) and EU Parliament (May). $5B FTC settlement in 2019.",
+      "eventKo": "3월 Cambridge Analytica 데이터 유출 스캔들, 4월 미 의회·5월 EU 의회 증언. 2019년 FTC와 $50억 합의금.",
+      "whyItMatteredKo": "Facebook 신뢰 붕괴의 결정적 사건. 이후 Meta는 매년 프라이버시·콘텐츠 조정에 수십억 달러 지출. 2020 미국 대선 개입 논란, 2021 Frances Haugen 내부고발로 이어지는 신뢰 위기 사이클의 시작.",
+      "whatTheyRiskedKo": "규제 리스크, 브랜드 가치 수백억 달러, 사용자 이탈",
+      "source": "https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal"
+    },
+    {
+      "year": 2021,
+      "age": 37,
+      "event": "Rebranded Facebook to Meta Platforms (Oct 28); announced $10B+ annual 'metaverse' investment via Reality Labs; stock peaked at $382 in September then lost 70%+ by Oct 2022.",
+      "eventKo": "10월 28일 Facebook을 Meta Platforms로 사명 변경. Reality Labs 통해 연 $100억+ 메타버스 투자 선언. 9월 주가 $382 최고점 후 2022년 10월까지 70%+ 폭락.",
+      "whyItMatteredKo": "역사상 가장 과감한 리브랜딩 중 하나. 단기적 주가 폭락으로 개인 자산 $70B+ 증발했으나, 이후 2023-24년 AI 피벗과 Reels 성장으로 $1조+ 시총 회복.",
+      "whatTheyRiskedKo": "기업 정체성, $100억+ 연간 메타버스 투자, 주주 신뢰",
+      "source": "https://en.wikipedia.org/wiki/Meta_Platforms ; https://about.meta.com/"
+    },
+    {
+      "year": 2023,
+      "age": 39,
+      "event": "Launched 'Year of Efficiency'; laid off 21,000+ employees (2022-23); launched Threads (July, hit 100M users in 5 days); pivoted Reality Labs investment narrative to AI+metaverse.",
+      "eventKo": "'효율성의 해' 선언, 2022-23년 21,000명 이상 대규모 해고. 7월 Threads 출시 5일 만에 1억 사용자 돌파. Reality Labs 서사를 AI+메타버스로 전환.",
+      "whyItMatteredKo": "2022년 주가 폭락 후 180도 전환. 공격적 비용 절감과 AI 투자 명분 재구축으로 2023년 주가 194% 상승, 개인 자산 $70B 단일년 증가 — 역사상 최대 단일년 자산 증가.",
+      "source": "https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/ ; https://www.reuters.com/technology/meta-platforms-layoffs-10000-2023-03-14/"
+    },
+    {
+      "year": 2024,
+      "age": 40,
+      "event": "Llama 3 open-source LLM release; $40B+ capex on AI data centers; personal brand makeover (MMA training, gold chains, streetwear); released public apology to families of online child exploitation victims in Senate hearing.",
+      "eventKo": "Llama 3 오픈소스 대형언어모델 공개, $400억+ AI 데이터센터 투자. 개인 브랜드 변신(MMA 훈련, 금목걸이·스트리트웨어). 상원 청문회에서 온라인 아동 피해 가족에 공개 사과.",
+      "whyItMatteredKo": "Llama 오픈소스 전략은 OpenAI·Google 폐쇄 모델에 대한 체계적 반격. 개인 이미지 전환은 14년간 지속된 '로봇같은 후디 CEO' 이미지에서 벗어나려는 시도로 사용자·직원·광고주에 친화적 신호.",
+      "source": "https://ai.meta.com/blog/meta-llama-3/ ; https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+    },
+    {
+      "year": 2025,
+      "age": 41,
+      "event": "Reached $250B+ net worth on Meta AI rerating; personally recruited top AI researchers with $100M+ pay packages for Meta Superintelligence Labs; shifted political posture toward Trump administration after 2024 election.",
+      "eventKo": "Meta AI 재평가로 순자산 $2,500억+ 돌파. Meta Superintelligence Labs 설립, 최상위 AI 연구자에게 $1억+ 보상 패키지로 직접 영입. 2024년 대선 후 트럼프 행정부 친화 정치 스탠스로 전환.",
+      "whyItMatteredKo": "Llama·Superintelligence Labs로 AI 경쟁에서 3대 빅테크 지위 굳힘. 정치적 재배치는 2018-21년 민주당 친화에서 2025년 중립-보수로 피벗, Cambridge Analytica·콘텐츠 조정 규제 압력 완화 의도.",
+      "source": "https://www.forbes.com/profile/mark-zuckerberg/ ; https://about.meta.com/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 2004,
+      "age": 19,
+      "decisionKo": "하버드 중퇴하고 팔로알토에서 Thefacebook 풀타임 개발",
+      "alternativeKo": "학위 완료 후 대학원·대기업 경로, 또는 Synapse 매각처럼 작은 엑시트",
+      "outcomeKo": "Meta Platforms 창업자이자 지배주주 지위, 개인 $197B 자산",
+      "source": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+    },
+    {
+      "year": 2006,
+      "age": 22,
+      "decisionKo": "Yahoo의 $10억 인수 제안 거절",
+      "alternativeKo": "매각 시 22세에 $3-5억 현금 확보 가능, 이후 Yahoo 내부로 편입",
+      "outcomeKo": "10년 후 Facebook 자체 시총이 $5,000억 돌파, 2025년 $1.5조+",
+      "source": "https://en.wikipedia.org/wiki/History_of_Facebook"
+    },
+    {
+      "year": 2012,
+      "age": 28,
+      "decisionKo": "IPO 한 달 전 Instagram $10억 인수 단독 결정(이사회 사후 승인)",
+      "alternativeKo": "IPO 자금을 본체 모바일 전환에만 투입",
+      "outcomeKo": "역대 최고 마진 M&A로 Instagram이 Meta 매출의 절반, 가치 $500B+ 추정",
+      "source": "https://en.wikipedia.org/wiki/Instagram"
+    },
+    {
+      "year": 2021,
+      "age": 37,
+      "decisionKo": "Facebook을 Meta로 리브랜딩, 연 $100억+ 메타버스 투자",
+      "alternativeKo": "단기 주주가치 중심으로 Reality Labs 투자 축소",
+      "outcomeKo": "2022년 주가 폭락(-70%)으로 개인 자산 $70B 증발, 2023-25년 AI 피벗으로 회복 후 재신장",
+      "source": "https://en.wikipedia.org/wiki/Meta_Platforms"
+    }
+  ],
+
+  "moneyMechanics": {
+    "coreBusinessKo": "Meta Platforms 지분 약 13%·의결권 약 58%(Class B 1주=10표). 수익 구조는 Facebook+Instagram+WhatsApp+Messenger+Threads의 광고(~97%), Reality Labs 하드웨어(Quest, Ray-Ban Meta)+소프트웨어 생태계, 2024년부터 AI(Llama API) 상용화.",
+    "moatKo": "① Facebook·Instagram·WhatsApp 세 플랫폼의 40억+ 월간 활성 사용자 네트워크 효과. ② 광고 타겟팅을 위한 25년+ 행동 데이터. ③ 이중주식구조로 지배권 영구 보전. ④ Llama 오픈소스로 개발자 생태계 점유. ⑤ 국가 규모의 자본으로 $40B+ AI 인프라 투자 가능.",
+    "luckVsSkillKo": "운(30%): 2004년 하버드가 Facebook 확산의 고신뢰 실험실이 된 것, 2012년 Instagram 창업자들이 IPO 직전 매각에 동의한 타이밍, 2020년 팬데믹이 소셜 사용량 급증. 실력(70%): Thefacebook의 대학 인증 설계, 2012년 모바일 전환 6개월 피벗, Instagram/WhatsApp M&A 타이밍, 2023년 Year of Efficiency와 AI 피벗의 속도.",
+    "politicalCapitalKo": "2016 대선 이후 Cambridge Analytica로 민주당에 규제 압박, 2018-21년 FTC·의회 청문회로 방어적. 2024년 Harris 지지 철회·선거 개입 최소화 약속, 2025년 Trump 정부와 화해 기조(메타버스·AI 규제 완화 로비). 개인 기부는 2016년 Zuckerberg-Chan Initiative로 LLC 구조 통해 유연 유지.",
+    "capitalHistoryKo": "2004 Thiel $50만 → 2005 Accel $1,270만 → 2007 Microsoft $2.4억(1.6% 지분) → 2012 IPO → 2012 Instagram $10억 → 2014 WhatsApp $190억+Oculus $20억 → 2021 Meta 리브랜딩 $100억/년 Reality Labs → 2025 Meta Superintelligence Labs AI 인재 $1억+ 패키지",
+    "source": "https://www.forbes.com/profile/mark-zuckerberg/ ; https://investor.fb.com/"
+  },
+
+  "failures": [
+    {
+      "year": 2006,
+      "age": 22,
+      "description": "News Feed launch (Sept 5, 2006) triggered massive user backlash; hundreds of thousands joined 'Students Against Facebook News Feed' groups within days. Zuckerberg's initial response ('Calm down. Breathe. We hear you.') seen as tone-deaf.",
+      "descriptionKo": "9월 5일 뉴스피드 출시 후 대규모 사용자 반발, 며칠 내 수십만 명이 '뉴스피드 반대 학생 모임'에 가입. 저커버그의 초기 대응('진정해. 숨 쉬어. 우린 듣고 있어.')이 무감각하다는 비판.",
+      "howTheyOvercameKo": "프라이버시 제어 기능을 1주일 내에 추가 출시하고 공식 사과문 게시. 결과적으로 뉴스피드는 Facebook의 지수 성장 엔진이 됨 — '사용자 분노가 지표 상승과 공존할 수 있다'는 Meta의 반복 패턴 원형.",
+      "lessonKo": "제품 변화의 정성적 반발과 정량적 성공은 별개 신호다. 프라이버시 제어 같은 'knobs'를 같이 제공하면 대부분의 반발은 시간이 흡수한다.",
+      "source": "https://en.wikipedia.org/wiki/History_of_Facebook"
+    },
+    {
+      "year": 2013,
+      "age": 29,
+      "description": "Facebook Home (HTC First smartphone, April 2013) failed spectacularly; phone discounted to 99 cents within a month. Previous failures: Beacon (2007 privacy fiasco), Facebook Credits (2011-12 sunset), Facebook Deals/Places (2011).",
+      "descriptionKo": "2013년 4월 Facebook Home(HTC First 스마트폰)이 한 달 내 99센트로 할인 판매될 정도로 대실패. 앞서 Beacon(2007년 프라이버시 사태), Facebook Credits(2011-12년 폐지), Deals/Places(2011) 등 연쇄 실패.",
+      "howTheyOvercameKo": "자체 하드웨어 대신 iOS·Android 위에 앱 생태계로 집중. Beacon 실패는 Like 버튼(2009)의 설계에 반영. 이 시기 학습이 2014년 WhatsApp·Oculus 인수로 우회 전략을 공식화.",
+      "lessonKo": "플랫폼 기업이 하드웨어 본업까지 하려면 전 생태계를 10년+ 축적해야 한다. 단기 진입은 자본 낭비.",
+      "source": "https://en.wikipedia.org/wiki/Facebook_Home"
+    },
+    {
+      "year": 2018,
+      "age": 34,
+      "description": "Cambridge Analytica scandal exposed 87M users' data misuse; FTC $5B settlement (2019), largest in history. Frances Haugen internal documents leak (2021) revealed Instagram's negative impact on teen mental health. Myanmar genocide facilitation.",
+      "descriptionKo": "케임브리지 애널리티카 스캔들로 8,700만 사용자 데이터 오용 폭로, FTC $50억 합의금(2019, 역대 최대). Frances Haugen 내부 문서 유출(2021)로 Instagram의 청소년 정신건강 악영향 공개. 미얀마 제노사이드 선동에 Facebook이 사용된 문제.",
+      "howTheyOvercameKo": "$50억 합의, 독립 프라이버시 위원회 설치, API 전면 개편, 콘텐츠 조정팀 4만 명 규모로 확대. 2021년 Meta 리브랜딩으로 Facebook 브랜드 부담 일부 분산. 단 장기 신뢰 자본 손상은 10년+ 지속 영향.",
+      "lessonKo": "플랫폼 기업의 '중립' 신화는 지속 불가능하다. 콘텐츠·데이터 윤리에 구조적 투자가 없으면 규제가 대신 들어오고 그 비용이 훨씬 크다.",
+      "source": "https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal ; https://www.ftc.gov/"
+    },
+    {
+      "year": 2022,
+      "age": 38,
+      "description": "Meta stock fell 73% from Sept 2021 peak ($382) to Oct 2022 trough ($88), wiping ~$700B market cap. Zuckerberg personal net worth fell from ~$140B to ~$35B. Reality Labs posted $13.7B 2022 operating loss with no consumer metaverse traction.",
+      "descriptionKo": "Meta 주가 2021년 9월 고점 $382에서 2022년 10월 저점 $88로 73% 폭락, 시총 약 $7,000억 증발. 저커버그 개인 순자산 $1,400억 → $350억. Reality Labs는 2022년 운영손실 $137억, 소비자 메타버스 채택 부진.",
+      "howTheyOvercameKo": "2023년 Year of Efficiency로 21,000명 해고·$50억+ 비용 절감. 동시에 Llama·AI 인프라 투자로 서사 전환. 2023년 주가 194% 상승, 2024-25년 $1조+ 시총 회복.",
+      "lessonKo": "CEO의 장기 비전도 주주 인내의 한계를 테스트하면 안 된다. 동시에 주가 폭락 시 공격적 비용 절감과 새 서사 재구축이 가장 빠른 복구 경로.",
+      "source": "https://en.wikipedia.org/wiki/Meta_Platforms ; https://investor.fb.com/"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2008, "netWorth": 1.5 },
+    { "year": 2012, "netWorth": 17.5 },
+    { "year": 2015, "netWorth": 40.3 },
+    { "year": 2018, "netWorth": 71.0 },
+    { "year": 2020, "netWorth": 85.0 },
+    { "year": 2021, "netWorth": 134.5 },
+    { "year": 2022, "netWorth": 36.0 },
+    { "year": 2023, "netWorth": 106.0 },
+    { "year": 2025, "netWorth": 175.0 },
+    { "year": 2026, "netWorth": 197.3 }
+  ],
+
+  "quotes": [
+    "The biggest risk is not taking any risk.",
+    "Move fast and break things.",
+    "Done is better than perfect."
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": [
+      "The Aeneid — Virgil",
+      "Ender's Game — Orson Scott Card",
+      "The Better Angels of Our Nature — Steven Pinker"
+    ]
+  },
+
+  "personalTraits": {
+    "knownFor": "Co-founder and controlling CEO of Facebook/Meta; youngest self-made billionaire in modern era (2008, age 23); architect of mobile social dominance and $19B WhatsApp + $1B Instagram acquisitions; metaverse bet and AI pivot.",
+    "knownForKo": "Facebook/Meta 창업자·지배주주 CEO. 현대 최연소 자수성가 억만장자(2008년, 23세). 모바일 소셜 지배와 $190억 WhatsApp·$10억 Instagram 인수의 설계자. 메타버스 베팅과 AI 피벗의 상징.",
+    "philanthropy": "Chan Zuckerberg Initiative (CZI) LLC pledged 99% of Meta shares over lifetime; focuses on education, biomedical research, criminal justice reform. $6B+ committed to date.",
+    "philanthropyKo": "Chan Zuckerberg Initiative(CZI) LLC 구조로 평생 Meta 지분 99% 기부 공약. 교육·생물의학 연구·형사사법개혁 지원. 현재까지 $60억+ 집행.",
+    "controversies": "Cambridge Analytica (2018); Myanmar Rohingya genocide facilitation; teen mental health internal research suppression (Haugen leak); content moderation political bias accusations from both sides; metaverse $50B+ cumulative Reality Labs losses; MMA 'Mark vs Elon cage fight' tease that never happened.",
+    "controversiesKo": "케임브리지 애널리티카(2018); 미얀마 로힝야 제노사이드 선동 플랫폼화; Haugen 유출로 드러난 청소년 정신건강 내부 연구 은폐; 콘텐츠 조정에 대한 좌·우 양측의 편향 비판; Reality Labs 누적 $500억+ 손실; 머스크와의 MMA 케이지 매치 예고 후 무산."
+  },
+
+  "characterKo": {
+    "observedTraitsKo": "극도의 경쟁 본능과 집중력, 제품 디테일 집착, 로봇적 공적 페르소나(2010년대)에서 2024년 이후 의식적 인간화 시도, MMA·서핑·피지 자택 등 육체적 활동 증가, 장기 지표 중심 의사결정",
+    "leadershipStyleKo": "'Move fast and break things' → 'Move fast with stable infra'로 진화. 연간 테마(2023 효율성, 2024 AI) 설정 후 조직 전체 재정렬. 직접 Llama 코드 리뷰, AI 인재 개인 영입 이메일. 이사회 지배로 단기 압박 차단.",
+    "conflictBehaviorKo": "의회·EU 청문회 같은 공적 갈등에서 법률팀 프레임대로 기술적 답변, 정서적 방어 최소화. 내부 비판(Haugen)은 법적 대응. 개인 라이벌(머스크)과는 SNS 설전 후 MMA 도전 → 모두 흐지부지.",
+    "knownQuirksKo": "회색 티셔츠·후디 유니폼(2010년대), 2024년 이후 금목걸이·디자이너 셔츠, 페이지처럼 하와이 카우아이 섬 1,400에이커 자택+벙커 건설, 바베큐·MMA·포그라스 요리 SNS 업로드, 부인 프리실라 챈과 세 딸(Maxima, August, Aurelia) 가정적 이미지 강조.",
+    "source": "https://en.wikipedia.org/wiki/Mark_Zuckerberg ; https://about.meta.com/"
+  },
+
+  "sajuConnection": null
+}

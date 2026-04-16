@@ -1,0 +1,275 @@
+{
+  "id": "1",
+  "name": "Elon Musk",
+  "nameKo": "일론 머스크",
+  "netWorth": "$809B",
+  "nationality": "US",
+  "industry": "Technology",
+
+  "childhood": {
+    "birthPlace": "Pretoria, Transvaal, South Africa",
+    "birthPlaceKo": "남아프리카공화국 트란스발주 프리토리아",
+    "familyBackground": "Son of Errol Musk, a South African electromechanical engineer and property developer, and Maye Musk (née Haldeman), a Canadian-born model and dietitian. Parents divorced in 1980. Has younger brother Kimbal (entrepreneur) and sister Tosca (filmmaker). Maternal grandfather Joshua Haldeman was a Canadian chiropractor who moved the family to South Africa in 1950.",
+    "familyBackgroundKo": "아버지 에롤 머스크는 남아공 전기기계 엔지니어이자 부동산 개발업자, 어머니 메이 머스크는 캐나다 태생의 모델·영양사. 1980년 부모 이혼. 동생 킴벌(사업가)과 토스카(영화감독)가 있음. 외조부 조슈아 홀드먼은 1950년 가족을 캐나다에서 남아공으로 이주시킨 카이로프랙터. 백인 중상류층 가정에서 성장.",
+    "education": "Pretoria Boys High School; briefly attended University of Pretoria; moved to Canada 1989, Queen's University (Ontario); transferred to University of Pennsylvania 1992, earning BA in physics and BS in economics from Wharton (1995/1997). Enrolled in Stanford PhD program in applied physics/materials science but dropped out after 2 days to start Zip2.",
+    "educationKo": "프리토리아 남자고등학교 졸업; 프리토리아 대학교 잠깐 재학 후 1989년 캐나다로 이주, 온타리오주 퀸스 대학교 입학; 1992년 펜실베이니아 대학교로 편입해 물리학 학사 및 와튼스쿨 경제학 학사 취득(졸업 1995/1997). 스탠포드 응용물리·재료과학 박사과정에 등록했으나 이틀 만에 중퇴하고 Zip2 창업.",
+    "earlyLife": "Born June 28, 1971. Taught himself programming at age 10; at 12 sold a BASIC video game 'Blastar' to a computer magazine for about $500. Described as bookish, bullied severely at school (hospitalized once after being pushed down stairs). Left South Africa at 17 partly to avoid compulsory military service in the apartheid-era SADF. Worked odd jobs in Canada (cleaning boilers, lumber mill) while establishing residency.",
+    "earlyLifeKo": "1971년 6월 28일 출생. 10세 때 독학으로 프로그래밍을 배웠고, 12세에 BASIC으로 만든 게임 'Blastar'를 컴퓨터 잡지에 약 500달러에 판매. 학교에서 심한 따돌림을 당함(계단에서 밀려 입원한 적도 있음). 17세에 남아공을 떠난 배경 중 하나는 아파르트헤이트 시기 남아공 방위군 의무복무 회피. 캐나다에서 보일러 청소·제재소 등 육체노동으로 생활비를 벌며 거주 기반 마련.",
+    "capitalTypeKo": "mixed → self-made 중심. 가족은 중상류층이었고 아버지가 남아공 에메랄드 광산 지분을 잠시 보유했다는 주장(에롤 증언, 일론은 부인)이 있으나, 실제 사업 초기 자본은 동생 킴벌과 함께 학자금·투자자 자금으로 조달. 대부분의 부는 Zip2·PayPal 매각 대금을 재투자해 쌓음.",
+    "source": "https://en.wikipedia.org/wiki/Elon_Musk ; Ashlee Vance, 'Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future' (Ecco, 2015); https://www.biography.com/business-leaders/elon-musk"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "mixed",
+    "explanationKo": "자수성가 비중이 절대적이지만 100% self-made는 아님. 남아공 백인 중상류층 출신, 아버지가 일부 투자 기회(광산 지분 주장 포함)를 제공한 이력, 펜실베이니아/스탠포드로 진입할 수 있었던 교육·이민 자본 등 무형 자본이 기반. 그 위에 Zip2 → PayPal 매각 대금 약 $1.8억을 2002~2008년 SpaceX·Tesla·SolarCity에 집중 재투자해 현재의 거대 자산을 구축. Forbes는 self-made score 8/10으로 평가.",
+    "source": "https://en.wikipedia.org/wiki/Wealth_of_Elon_Musk ; https://www.forbes.com/profile/elon-musk/"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1995,
+      "age": 24,
+      "event": "Dropped out of Stanford PhD program after 2 days and co-founded Zip2 (originally Global Link Information Network) with brother Kimbal in Palo Alto",
+      "eventKo": "스탠포드 박사과정을 이틀 만에 중퇴하고 동생 킴벌과 팔로알토에서 Zip2(초기명 Global Link Information Network) 공동 창업",
+      "whyItMatteredKo": "인터넷 붐 초입에 '지역 신문용 온라인 지도·디렉토리' 서비스라는 틈새를 포착. 창업 초기 사무실에서 숙식을 해결하며 코드를 직접 작성했고, 이 경험이 이후 Tesla·SpaceX에서의 '공학자 CEO' 스타일의 원형이 됨.",
+      "whatTheyRiskedKo": "박사 학위와 안정적인 대학원 커리어 포기. 이민자 신분의 불안정성 속에서 연봉 없는 창업 선택.",
+      "whoHelpedKo": "동생 킴벌 머스크, 공동창업자 그렉 쿠리, 초기 엔젤 투자자들",
+      "source": "https://en.wikipedia.org/wiki/Zip2 ; https://www.britannica.com/money/Zip2"
+    },
+    {
+      "year": 1999,
+      "age": 27,
+      "event": "Zip2 sold to Compaq for $307M in cash; Musk received $22M for his 7% stake. Co-founded X.com in March 1999 with $12M of proceeds.",
+      "eventKo": "Compaq이 Zip2를 현금 3억 700만 달러에 인수, 머스크는 7% 지분으로 2,200만 달러 확보. 같은 해 3월 매각 대금 중 1,200만 달러를 투입해 온라인 금융 서비스 X.com 공동 창업.",
+      "whyItMatteredKo": "20대 후반에 '첫 엑시트 → 즉시 더 큰 리스크에 전액 재투입'이라는 머스크 특유의 자본 순환 패턴이 확립된 순간. X.com은 훗날 PayPal의 모체가 되며, 브랜드 X에 대한 집착도 이때부터 시작됨.",
+      "whatTheyRiskedKo": "첫 성공의 매각 대금 대부분을 현금 보유가 아닌 새 스타트업에 재투자",
+      "source": "https://en.wikipedia.org/wiki/Elon_Musk ; https://www.britannica.com/money/Zip2"
+    },
+    {
+      "year": 2002,
+      "age": 30,
+      "event": "PayPal (X.com merged with Confinity in 2000) sold to eBay for $1.5B in stock; Musk as largest shareholder (11.72%) received $175.8M. Founded Space Exploration Technologies (SpaceX) in May 2002.",
+      "eventKo": "2000년 X.com이 Confinity와 합병해 PayPal이 됨. 2002년 eBay가 PayPal을 주식 15억 달러에 인수, 최대주주였던 머스크(11.72%)가 1억 7,580만 달러 수령. 같은 해 5월 민간 우주기업 SpaceX 설립.",
+      "whyItMatteredKo": "2000년 신혼여행 중 COO Peter Thiel 주도로 CEO 축출을 당한 쓰라린 경험이 있었음에도 PayPal 최대주주 포지션을 유지해 최대 수혜자가 됨. 이 자금으로 '지구 밖 산업'과 '전기차'라는 당시 투자 기피 영역에 동시 진입.",
+      "whatTheyRiskedKo": "eBay 주식 대금의 상당 부분을 새로운 검증되지 않은 산업(민간 우주)에 투입",
+      "whoHelpedKo": "Max Levchin, Peter Thiel (PayPal), 초기 SpaceX 엔지니어 Tom Mueller",
+      "source": "https://en.wikipedia.org/wiki/Business_career_of_Elon_Musk ; https://time.com/6170834/elon-musk-business-timeline-twitter/"
+    },
+    {
+      "year": 2004,
+      "age": 32,
+      "event": "Led Tesla Motors Series A, investing $6.5M of his own money and becoming chairman of the board",
+      "eventKo": "테슬라 모터스 시리즈 A 라운드를 주도하며 자기 자금 650만 달러 투자, 이사회 의장 취임",
+      "whyItMatteredKo": "Martin Eberhard·Marc Tarpenning이 이미 설립해둔 회사에 투자자 겸 의장으로 합류한 것이지만, 이후 시제품 Roadster 개발·제품 기획·디자인 전반에 깊이 개입하며 '사실상의 공동창업자' 지위를 법적·공적으로 확보. 2008년 Eberhard 축출 후 CEO로 전환되는 발판.",
+      "whatTheyRiskedKo": "PayPal 엑시트 자금의 상당 부분을 SpaceX와 Tesla에 동시 집중 투입",
+      "source": "https://en.wikipedia.org/wiki/Elon_Musk ; Ashlee Vance 전기 Ch. 6"
+    },
+    {
+      "year": 2008,
+      "age": 37,
+      "event": "SpaceX Falcon 1 achieved first successful orbital launch (Sept 28) after three failures; NASA awarded $1.6B CRS contract in December; Musk became Tesla CEO and closed emergency funding round on Dec 23-24, saving Tesla from bankruptcy.",
+      "eventKo": "9월 28일 SpaceX Falcon 1 4차 발사 성공(이전 3회 연속 실패), 12월 NASA와 16억 달러 CRS(상업용 화물 수송) 계약 체결. 같은 해 Eberhard를 밀어내고 Tesla CEO 취임, 12월 23-24일 마지막 가능일에 긴급 자금 조달을 성사시켜 파산 직전 Tesla를 구제.",
+      "whyItMatteredKo": "머스크 인생 최대의 단일 위기. 개인 자산 거의 전부($180M)를 SpaceX와 Tesla에 쏟아부은 뒤 월세를 지인에게 빌리는 처지가 됐음. 한 달 내에 양사 모두 파산 직전에서 생존. 이후 대중에게 '벼랑 끝에서 베팅하는 CEO' 이미지가 굳어짐.",
+      "whatTheyRiskedKo": "가지고 있던 거의 모든 유동 자산, 첫 결혼 생활, 개인 신용",
+      "whoHelpedKo": "Gwynne Shotwell (SpaceX COO), NASA ISS 담당 Bill Gerstenmaier, Tesla 투자자 VantagePoint·Draper Fisher Jurvetson",
+      "source": "https://www.startuparchive.org/p/the-story-of-elon-musk-saving-tesla-and-spacex-from-bankruptcy-in-2008 ; https://www.foxbusiness.com/business-leaders/elon-musk-2008-nightmare-year-tesla-spacex-lowest-of-the-low-business-life"
+    },
+    {
+      "year": 2010,
+      "age": 38,
+      "event": "Tesla IPO on NASDAQ (June 29) raising $226M; first US automaker IPO since Ford in 1956. SpaceX Falcon 9 first successful launch (June 4) and Dragon spacecraft orbital test (Dec 8).",
+      "eventKo": "6월 29일 Tesla 나스닥 상장(공모 2억 2,600만 달러) — 1956년 포드 이후 미국 자동차 기업 첫 IPO. 같은 해 6월 SpaceX Falcon 9 첫 발사 성공, 12월 Dragon 우주선 궤도 시험 성공.",
+      "whyItMatteredKo": "자본 구조가 비공개 VC → 공개 시장으로 전환되며 장기 주식 기반 보상 설계(2012년과 2018년 슈퍼 옵션 그랜트)의 토대를 마련. SpaceX 쪽도 재사용 로켓 프로그램의 공학적 신뢰성을 증명하며 국방·상업 발사 시장 진입.",
+      "source": "https://en.wikipedia.org/wiki/Tesla,_Inc. ; https://en.wikipedia.org/wiki/SpaceX"
+    },
+    {
+      "year": 2012,
+      "age": 40,
+      "event": "Tesla Model S delivered; SpaceX Dragon became first private spacecraft to dock with the ISS (May 25). 2012 CEO performance award later valued at ~$55B granted.",
+      "eventKo": "Tesla Model S 첫 인도; 5월 25일 SpaceX Dragon이 민간 우주선 최초로 국제우주정거장(ISS) 도킹 성공. 이 해 부여된 CEO 성과 옵션이 훗날 약 550억 달러 가치로 평가됨.",
+      "whyItMatteredKo": "Model S는 전기차가 '친환경 세컨드카'라는 이미지를 깨고 프리미엄 세단 시장에서도 경쟁 가능함을 입증. ISS 도킹은 민간 우주 산업의 상업적 신뢰도를 결정적으로 끌어올림.",
+      "source": "https://en.wikipedia.org/wiki/Tesla_Model_S ; https://www.nasa.gov/"
+    },
+    {
+      "year": 2015,
+      "age": 43,
+      "event": "Co-founded OpenAI as a non-profit with Sam Altman and others; SpaceX achieved first Falcon 9 first-stage landing on land (Dec 21).",
+      "eventKo": "Sam Altman 등과 함께 비영리 연구기관 OpenAI 공동 설립. 12월 21일 SpaceX, 로켓 1단 지상 착륙 역사상 최초 성공.",
+      "whyItMatteredKo": "AGI 안전 연구 주도권을 확보하려는 베팅. 이후 2018년 이사회 갈등으로 결별했으나 이 시기 투자·관계망이 2023년 xAI·Grok 출범의 복선. 재사용 로켓은 발사 비용 구조를 혁신.",
+      "source": "https://openai.com/our-structure ; https://www.spacex.com/updates/"
+    },
+    {
+      "year": 2018,
+      "age": 47,
+      "event": "SEC lawsuit over 'funding secured' tweet; settled with $20M personal fine and forced step-down as Tesla chairman. Boring Company first tunnel demo. 2018 CEO performance award (potential $55.8B) approved.",
+      "eventKo": "'상장폐지 자금 확보됨(funding secured)' 트윗으로 SEC 사기 소송, 개인 2,000만 달러 벌금과 Tesla 의장직 사임으로 합의. Boring Company 첫 터널 시연. 2018년 CEO 성과 옵션(최대 558억 달러) 승인.",
+      "whyItMatteredKo": "언행 리스크가 공적으로 가시화된 최초 사건. 반면 2018년 옵션 패키지는 현재 머스크 부의 상당 부분을 설명하는 핵심 보상 구조.",
+      "source": "https://www.sec.gov/news/press-release/2018-219 ; https://en.wikipedia.org/wiki/Elon_Musk"
+    },
+    {
+      "year": 2020,
+      "age": 48,
+      "event": "SpaceX Crew Dragon Demo-2 sent NASA astronauts to ISS (May 30) — first crewed US orbital launch since 2011. Tesla joined S&P 500 (Dec 21) after first full profitable year.",
+      "eventKo": "5월 30일 SpaceX Crew Dragon Demo-2, 2011년 셔틀 퇴역 이후 첫 미국 유인 궤도 발사 성공. 12월 Tesla 첫 연간 흑자 달성 후 S&P 500 편입.",
+      "whyItMatteredKo": "민간 유인 우주 운송 독점 지위 확보. Tesla는 제도권 투자 유니버스에 편입되며 주가 급등의 제도적 기반 완성. 이 해 포브스 기준 개인 순자산이 $24.6B → $167B로 폭증.",
+      "source": "https://www.nasa.gov/humans-in-space/ ; https://en.wikipedia.org/wiki/Wealth_of_Elon_Musk"
+    },
+    {
+      "year": 2022,
+      "age": 51,
+      "event": "Acquired Twitter for $44B (October 27); rebranded to X in 2023. Funded largely via $13B debt and $7.1B co-investors (including Sequoia, Binance, Saudi Prince Alwaleed).",
+      "eventKo": "10월 27일 트위터를 440억 달러에 인수, 2023년 브랜드를 X로 변경. 부채 130억 달러와 공동투자자 71억 달러(Sequoia, Binance, 사우디 알왈리드 왕자 등) 포함 구조로 조달.",
+      "whyItMatteredKo": "미디어·정치 담론에 대한 개인 통제권 확보. 광고주 이탈과 대규모 해고(약 75%)로 단기적 가치 하락(Fidelity 평가 -70%) 감수. 2024-25년 트럼프 정부와의 밀착, DOGE 참여 등 정치 자본화 경로 열어줌.",
+      "whatTheyRiskedKo": "개인 Tesla 주식 약 $8.5B 매각, 브랜드 리스크, 광고주 관계",
+      "source": "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk ; https://time.com/6170834/elon-musk-business-timeline-twitter/"
+    },
+    {
+      "year": 2023,
+      "age": 52,
+      "event": "Founded xAI; launched Grok chatbot on X. SpaceX Starship first integrated test flight (April 20, exploded mid-air) and subsequent iterative tests.",
+      "eventKo": "인공지능 회사 xAI 설립, X 플랫폼 내 Grok 챗봇 출시. 4월 20일 SpaceX Starship 첫 통합 시험비행(공중 폭발), 이후 반복 시험 진행.",
+      "whyItMatteredKo": "OpenAI 이탈 후 5년 만의 AI 복귀. X 플랫폼(데이터)+Tesla(AI 칩·자율주행)+xAI(모델)를 수직 결합하려는 전략. Starship은 화성 이주 비전의 하드웨어 축.",
+      "source": "https://x.ai/ ; https://en.wikipedia.org/wiki/SpaceX_Starship"
+    },
+    {
+      "year": 2025,
+      "age": 53,
+      "event": "Net worth surpassed $500B (first in history); led 'Department of Government Efficiency' (DOGE) under Trump administration; xAI-X merger announced at $113B valuation.",
+      "eventKo": "개인 순자산 사상 최초 5,000억 달러 돌파. 트럼프 행정부 산하 '정부효율부(DOGE)' 수장 역임. xAI-X 합병을 1,130억 달러 기업가치로 발표.",
+      "whyItMatteredKo": "재력과 정치 권력이 전례 없는 수준으로 결합. Tesla·SpaceX 주가와 xAI 평가가치가 동시에 뛰며 2026년 세계 최초 조만장자 논의의 실질적 후보가 됨.",
+      "source": "https://thehill.com/business/5779004-elon-musk-still-worlds-richest-man-on-forbes-billionaires-list/ ; https://www.techi.com/elon-musk-net-worth/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1995,
+      "age": 24,
+      "decisionKo": "스탠포드 박사과정 입학 이틀 만에 중퇴하고 창업",
+      "alternativeKo": "응용물리 박사 후 학계/연구소 커리어, 또는 실리콘밸리 빅테크 취업이 이민자 안정 경로였음",
+      "outcomeKo": "Zip2 → PayPal 엑시트로 20대 말 $1.8억 확보, 이후 모든 베팅의 종잣돈이 됨",
+      "source": "https://en.wikipedia.org/wiki/Elon_Musk ; Ashlee Vance 전기"
+    },
+    {
+      "year": 2002,
+      "age": 30,
+      "decisionKo": "PayPal 엑시트 자금 $1.8억을 '우주(SpaceX)'와 '전기차(Tesla)'라는 당시 금기 영역에 집중 투자",
+      "alternativeKo": "VC 파트너십 합류, 두 번째 SaaS 창업 등 훨씬 리스크가 낮은 경로 가능",
+      "outcomeKo": "2008년 파산 직전까지 갔으나 살아남은 후 두 회사가 각각 수천억 달러 기업가치로 성장",
+      "source": "https://www.startuparchive.org/p/the-story-of-elon-musk-saving-tesla-and-spacex-from-bankruptcy-in-2008"
+    },
+    {
+      "year": 2008,
+      "age": 37,
+      "decisionKo": "마지막 남은 개인 자산을 Tesla 구제 자금으로 전액 투입, 본인은 이혼·대출 생활",
+      "alternativeKo": "Tesla 파산 신청 후 SpaceX에만 집중하는 편이 재무적으로 합리적이었음",
+      "outcomeKo": "Tesla가 12월 24일 극적 생존, 이후 2020년 S&P 500 편입·시총 1조 달러 진입의 출발점",
+      "source": "https://www.foxbusiness.com/business-leaders/elon-musk-2008-nightmare-year-tesla-spacex-lowest-of-the-low-business-life"
+    },
+    {
+      "year": 2022,
+      "age": 51,
+      "decisionKo": "440억 달러를 들여 트위터 인수",
+      "alternativeKo": "SpaceX IPO 대비 자본 축적, xAI 집중 창업, 정치 영향력 없는 경로 유지",
+      "outcomeKo": "단기적 미디어 가치 하락이지만 정치·담론 플랫폼 확보로 2024 선거 개입과 2025 DOGE 수장 발판",
+      "source": "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk"
+    }
+  ],
+
+  "moneyMechanics": {
+    "coreBusinessKo": "Tesla(전기차·에너지·자율주행 소프트웨어) 지분 약 13%, SpaceX(발사·위성통신 Starlink) 지분 약 42%, xAI·X(소셜미디어·AI) 지배 지분, The Boring Company, Neuralink 등. 순자산의 약 65%가 SpaceX-xAI 비상장 평가에서 발생.",
+    "moatKo": "① 재사용 로켓 기술 10년 선행(Falcon 9/Starship) → 글로벌 발사 시장 점유율 80% 이상. ② Tesla의 수직 통합(배터리·칩·소프트웨어·슈퍼차저 네트워크). ③ Starlink 저궤도 위성 선점(4,000기 이상). ④ X 플랫폼의 실시간 담론 독점. 이들 각각이 타 진입자가 수십억 달러로도 따라잡기 어려운 자본·규제·기술 해자.",
+    "luckVsSkillKo": "운(40%): 1990년대 말 인터넷 버블 상승장에서 두 번 매각 성공, 2008년 NASA CRS 계약이 하루 늦게 나왔어도 SpaceX는 파산했을 것, 2020-21년 제로금리·ESG 붐이 Tesla 시총을 10배로 밀어올림. 실력(60%): 공학 디테일 깊이, 경쟁자 대비 압도적 리스크 허용량, 수직 통합 설계 능력, 사내 '최후통첩(Hardcore) 경영'으로 유지한 개발 속도.",
+    "politicalCapitalKo": "초기에는 정치색 옅었으나 2022년 트위터 인수 이후 급격히 공화당 축으로 이동. 2024년 대선에서 트럼프에 $2.5억 이상 기부, 2025년 '정부효율부(DOGE)' 수장으로 연방 예산·규제 집행 권한에 접근. SpaceX·Starlink는 이미 NASA·DoD 주요 공급자로 정부 계약이 핵심 현금흐름원.",
+    "capitalHistoryKo": "1999 Zip2 매각 $22M → 2002 PayPal 매각 $175.8M → 2002-2008 SpaceX·Tesla·SolarCity 자기자본 전액 투입 → 2010 Tesla IPO → 2012·2018 CEO 성과 옵션(잠재가치 $1,100억+) → 2021 Tesla 주가 10배 상승 → 2022 트위터 인수용 Tesla 주식 $23B 매각+부채 $13B → 2025 SpaceX·xAI 비상장 평가 급등으로 개인 $500B 돌파",
+    "source": "https://en.wikipedia.org/wiki/Wealth_of_Elon_Musk ; https://www.forbes.com/profile/elon-musk/ ; https://investormint.com/investing/elon-musk-net-worth"
+  },
+
+  "failures": [
+    {
+      "year": 2000,
+      "age": 28,
+      "description": "While on honeymoon with first wife Justine, ousted as CEO of X.com by the Confinity/PayPal board led by Peter Thiel and Max Levchin over strategic disagreements (particularly Musk's insistence on migrating from Unix to Microsoft stack).",
+      "descriptionKo": "첫 아내 저스틴과의 신혼여행 중, Peter Thiel·Max Levchin 주도의 X.com/Confinity 합병 이사회가 전략 이견(특히 Unix→Microsoft 스택 전환 고집)을 이유로 CEO 자리에서 축출. 머스크는 이사회에서는 잔류.",
+      "howTheyOvercameKo": "감정적으로 격분했으나 최대주주 지분(11.72%)은 유지. 회사 운영권 대신 자본 이익을 극대화하는 방향으로 선회, 2002년 eBay 매각 시 최대 수혜자가 되어 $1.758억 확보. 이후 CEO 통제권 상실을 용납하지 않는 이사회·지분 구조(Tesla·SpaceX)의 원형이 됨.",
+      "lessonKo": "경영권은 지분율만큼 거버넌스 설계(이중 주식 구조, 의장+CEO 겸직, 보상 구조)로 지켜야 한다. 이후 머스크 모든 회사는 이 원칙으로 설계됨.",
+      "source": "https://en.wikipedia.org/wiki/Elon_Musk ; https://time.com/6170834/elon-musk-business-timeline-twitter/"
+    },
+    {
+      "year": 2006,
+      "age": 35,
+      "description": "SpaceX Falcon 1 rockets failed three consecutive times (March 2006, March 2007, August 2008), destroying customer payloads including a US Air Force satellite. Musk had only enough cash for one more launch attempt.",
+      "descriptionKo": "SpaceX Falcon 1 로켓이 2006년 3월, 2007년 3월, 2008년 8월 3회 연속 발사 실패. 미 공군 위성 등 고객 페이로드 전량 손실. 머스크 개인 자금이 4차 발사 한 번 분량만 남음.",
+      "howTheyOvercameKo": "실패마다 24~48시간 내 엔지니어링 원인 규명을 강제하는 사내 규율 정립. 4차 발사를 위해 기존 부품을 공중 수송(C-17 전세기)으로 콰잘레인까지 옮기는 총력전. 2008년 9월 28일 4차 발사 성공 → 같은 해 12월 NASA $1.6B CRS 계약으로 현금흐름 전환.",
+      "lessonKo": "'실패는 옵션이다, 다만 원인 파악 없는 실패가 치명적'이라는 SpaceX 엔지니어링 문화 확립. 하드웨어 스타트업은 성공 확률이 아니라 자본 소진 속도 대비 시도 횟수가 생존 변수.",
+      "source": "https://www.startuparchive.org/p/the-story-of-elon-musk-saving-tesla-and-spacex-from-bankruptcy-in-2008 ; https://www.basenor.com/blogs/news/spacex-nearly-went-bankrupt-twice-musk-reveals-the-full-story"
+    },
+    {
+      "year": 2018,
+      "age": 47,
+      "description": "August 7, 2018 'funding secured' tweet claiming Tesla would go private at $420/share triggered SEC securities fraud lawsuit. Simultaneously Tesla was in 'Model 3 production hell', burning cash at record rate, and Musk had public breakdowns (Joe Rogan podcast marijuana incident, sleeping at factory, attacking Thai cave rescue diver on Twitter).",
+      "descriptionKo": "2018년 8월 7일 '$420에 Tesla 상장폐지, 자금 확보됨' 트윗이 SEC 증권사기 소송 유발. 동시에 Tesla는 Model 3 '생산 지옥'으로 현금 급속 소진, 머스크는 Joe Rogan 팟캐스트 마리화나 흡연, 공장 야간 숙식, 태국 동굴 구조 잠수부 'pedo guy' 발언 등 공개적 이상 행동.",
+      "howTheyOvercameKo": "SEC와 $2,000만 개인 벌금+Tesla $2,000만 벌금, 의장직 3년 사임, 중대 트윗 사전 감독(Twitter Sitter) 조건으로 합의. Model 3은 2018년 하반기 프리몬트 임시 텐트 조립라인 'GA4'로 주당 생산량 5,000대 돌파하며 위기 탈출. 2019년 Tesla 중국 상하이 공장 착공으로 성장 서사 재구축.",
+      "lessonKo": "CEO의 SNS는 공시 의무와 연결된 규제 대상이다. 또한 머스크식 '개인 에너지 총량 공세'에는 생리적·심리적 한계가 있으며 이를 인정하지 않으면 공적 신뢰 자본이 훼손됨.",
+      "source": "https://www.sec.gov/news/press-release/2018-219 ; https://www.webopedia.com/technology/elon-musk-biggest-failures/"
+    },
+    {
+      "year": 2022,
+      "age": 51,
+      "description": "Twitter acquisition at $44B widely viewed as massive overpayment. Fidelity marked down its stake implying Twitter/X valuation fell ~70% by 2023. Mass advertiser boycott after Musk's controversial posts; 80% of Twitter's pre-acquisition staff laid off or resigned, triggering operational instability.",
+      "descriptionKo": "440억 달러 트위터 인수가 시장에서 과잉 지불로 평가. Fidelity는 2023년 X 가치를 인수가 대비 약 70% 할인 평가. 머스크의 논란 발언 이후 대규모 광고주 이탈, 인수 전 직원의 약 80% 해고·이탈로 운영 불안정화.",
+      "howTheyOvercameKo": "대규모 비용 절감(데이터센터·임차료·직원), 구독 모델(X Premium)과 크리에이터 광고 분배로 광고 의존도 완화. 2024-25년 트럼프 재집권과 함께 보수 이용자 기반 회복, 2025년 xAI와 합병해 $1,130억 기업가치로 재평가, 부채 일부 자본 전환.",
+      "lessonKo": "플랫폼 가치는 사용자·광고주·직원 세 축의 상호 신뢰에 의존한다. 한 축을 무너뜨리면 단기 비용 절감분보다 기회비용이 크다. 다만 정치 사이클과 맞물리면 회복 경로가 열릴 수 있다.",
+      "source": "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk ; https://time.com/6170834/elon-musk-business-timeline-twitter/"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2012, "netWorth": 2.0 },
+    { "year": 2015, "netWorth": 13.2 },
+    { "year": 2018, "netWorth": 19.9 },
+    { "year": 2020, "netWorth": 167.0 },
+    { "year": 2021, "netWorth": 273.0 },
+    { "year": 2022, "netWorth": 219.0 },
+    { "year": 2023, "netWorth": 180.0 },
+    { "year": 2024, "netWorth": 251.0 },
+    { "year": 2025, "netWorth": 500.0 },
+    { "year": 2026, "netWorth": 809.0 }
+  ],
+
+  "quotes": [
+    "When something is important enough, you do it even if the odds are not in your favor.",
+    "Failure is an option here. If things are not failing, you are not innovating enough.",
+    "I would like to die on Mars. Just not on impact."
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": [
+      "Foundation — Isaac Asimov",
+      "The Hitchhiker's Guide to the Galaxy — Douglas Adams",
+      "Lord of the Rings — J.R.R. Tolkien",
+      "Structures: Or Why Things Don't Fall Down — J.E. Gordon",
+      "Benjamin Franklin: An American Life — Walter Isaacson"
+    ]
+  },
+
+  "personalTraits": {
+    "knownFor": "Serial founder-CEO of SpaceX, Tesla, xAI, X; popularized private spaceflight and mainstream EVs; master of equity-funded long-horizon capital allocation; polarizing political figure post-2022.",
+    "knownForKo": "SpaceX·Tesla·xAI·X의 연쇄 창업자 겸 CEO. 민간 우주 비행과 전기차 대중화의 아이콘. 장기 호흡의 주식 기반 자본 배분 능력이 탁월. 2022년 이후 정치적으로 극단 분열을 일으키는 인물.",
+    "philanthropy": "Musk Foundation (primarily funding XPRIZE Carbon Removal $100M, education, pediatric research). Criticized for low giving relative to net worth; signed the Giving Pledge in 2012.",
+    "philanthropyKo": "머스크 재단 운영(XPRIZE 탄소 제거 1억 달러, 교육·소아 연구 지원 중심). 순자산 대비 기부 규모가 작다는 비판이 많음. 2012년 Giving Pledge 서명.",
+    "controversies": "SEC fraud settlement (2018); sexual misconduct allegation settled by SpaceX (2018); attacks on journalists and public figures on X; amplification of antisemitic content (2023); large political donations; DOGE conflicts of interest; multiple custody disputes.",
+    "controversiesKo": "2018년 SEC 증권사기 합의; 2018년 SpaceX 여승무원 성추문 합의; X에서 기자·공인 공격; 2023년 반유대주의 게시물 증폭 논란; 대규모 정치 기부; 2025년 DOGE의 이해충돌; 다수의 자녀 양육권 분쟁."
+  },
+
+  "characterKo": {
+    "observedTraitsKo": "극단적 리스크 허용량, 공학적 디테일 집착(제1원리 사고), 잠을 줄이고 일하는 지구력, 감정 기복 큼(공적 분노·유머·냉소 교차), 권위·규제에 대한 반항심, 밈과 트롤링을 전략적으로 활용",
+    "leadershipStyleKo": "'하드코어 모드' 장시간 노동 강제, 공장·발사장 현장 상주형, 중간 관리자 축소하고 CEO가 말단 엔지니어와 직결, 실패한 프로젝트·팀을 공개적으로 해체, 매주 상위 목표를 본인이 재정의",
+    "conflictBehaviorKo": "정면 돌파·공개 공격형. 기자·규제당국·전 동료를 X에서 지명 비판. 법적 분쟁도 회피하지 않음(트위터 인수 소송, Thai diver 명예훼손). 협상보다 최후통첩으로 상대를 움직이려는 경향.",
+    "knownQuirksKo": "수면 부족을 자주 호소하면서도 심야 트윗 폭발. 밈 계정과 직접 상호작용. 자녀 이름을 X Æ A-Xii 등으로 명명. 화성 이주를 진지한 장기 목표로 반복 선언. 하루 9~10개 회의를 5분 단위로 끊어서 진행한다고 알려짐.",
+    "source": "Walter Isaacson, 'Elon Musk' (Simon & Schuster, 2023); Ashlee Vance 전기; https://en.wikipedia.org/wiki/Elon_Musk"
+  },
+
+  "sajuConnection": null
+}

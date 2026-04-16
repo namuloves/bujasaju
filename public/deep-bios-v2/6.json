@@ -1,0 +1,252 @@
+{
+  "id": "6",
+  "name": "Larry Ellison",
+  "nameKo": "로렌스 조셉 엘리슨",
+  "netWorth": "$187.8B",
+  "nationality": "US",
+  "industry": "Technology",
+
+  "childhood": {
+    "birthPlace": "Bronx, New York City, USA",
+    "birthPlaceKo": "미국 뉴욕시 브롱크스",
+    "familyBackground": "Biological mother Florence Spellman was 19, Jewish, unmarried; biological father an Italian-American US Army Air Corps pilot, absent. At 9 months old, after surviving pneumonia, Ellison was sent to Chicago to be raised by Florence's aunt Lillian Spellman Ellison and her husband Louis Ellison, a Russian Jewish immigrant CPA (surname 'Ellison' chosen on arrival at Ellis Island).",
+    "familyBackgroundKo": "생모 플로렌스 스펠먼은 19세 미혼 유대계, 생부는 부재한 이탈리아계 미 육군 공군 조종사. 생후 9개월 때 폐렴 생존 후 시카고의 이모 릴리언 스펠먼 엘리슨과 그 남편 루이스 엘리슨(러시아계 유대인 이민 공인회계사, 엘리스섬 도착 시 'Ellison' 성 채택)에게 입양되어 양육됨.",
+    "education": "University of Illinois Urbana-Champaign (1962, pre-med, dropped out in second year when adoptive mother died); University of Chicago (1966, one semester of CS, dropped out). No degree. Learned programming and IBM mainframes at UChicago.",
+    "educationKo": "일리노이 대학교 어바나-샴페인(1962, 의예과, 양모 사망 후 2학년 중퇴); 시카고 대학교(1966, CS 한 학기 수강 후 중퇴). 학위 없음. 시카고대에서 프로그래밍과 IBM 메인프레임 경험.",
+    "earlyLife": "Born August 17, 1944. Raised in modest apartment on Chicago's South Side. Adoptive father repeatedly told him he 'wouldn't amount to anything'; biological mother only met again at age 48. Swam competitively, read voraciously about Samurai culture and architecture. Biological mother reunion in 1992 became emotionally important in later life.",
+    "earlyLifeKo": "1944년 8월 17일 출생. 시카고 사우스사이드의 소박한 아파트에서 성장. 양부는 반복적으로 '넌 아무것도 되지 못할 것'이라 말함. 생모는 48세에야 재회. 경쟁 수영, 사무라이 문화·건축 독서 열성. 1992년 생모 재회가 이후 감정적으로 중요.",
+    "capitalTypeKo": "self-made. 중산층 이민 유대계 양부모. 대학 중퇴, 대기업 취업도 못 해 캘리포니아로 이주해 프로그래머로 일하다 1977년 $2,000로 Oracle 전신 창업. 물적 자본은 본인 월급+공동창업자 자금에서 자생.",
+    "source": "https://en.wikipedia.org/wiki/Larry_Ellison ; https://www.britannica.com/money/Larry-Ellison"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "완전 자수성가 전형. 입양 가정에서 '성공할 수 없다'는 말을 듣고 자란 인물이 대학 중퇴 후 월급쟁이 프로그래머에서 $2,000 창업 자본으로 Oracle을 세워 $187B 자산까지 쌓음. Forbes self-made score 10/10.",
+    "source": "https://www.forbes.com/profile/larry-ellison/ ; https://en.wikipedia.org/wiki/Larry_Ellison"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1966,
+      "age": 22,
+      "event": "Dropped out of University of Chicago; moved to Berkeley, California; worked various programming jobs at Wells Fargo, Fireman's Fund, Amdahl, and Ampex.",
+      "eventKo": "시카고 대학교 중퇴 후 캘리포니아 버클리로 이주. Wells Fargo, Fireman's Fund, Amdahl, Ampex 등에서 프로그래머로 전전.",
+      "whyItMatteredKo": "학위 없이 실리콘밸리 태동기 데이터베이스 업계에서 10년간 실무 경험. 특히 Ampex에서 CIA용 'Oracle' 프로젝트 참여, 이 이름이 훗날 회사명의 기원.",
+      "whatTheyRiskedKo": "학위 없이 캘리포니아 이주, 결혼 생활 불안정(첫 부인 Adda Quinn과 1974년 이혼)",
+      "source": "https://en.wikipedia.org/wiki/Larry_Ellison ; https://www.britannica.com/money/Larry-Ellison"
+    },
+    {
+      "year": 1977,
+      "age": 33,
+      "event": "Co-founded Software Development Laboratories (SDL) on June 16, 1977 with Bob Miner and Ed Oates with $2,000 initial capital ($1,200 from Ellison). Won CIA contract worth $50K for relational database work.",
+      "eventKo": "6월 16일 Bob Miner, Ed Oates와 함께 초기 자본 $2,000(엘리슨이 $1,200 출자)로 Software Development Laboratories(SDL) 공동 창업. CIA 관계형 데이터베이스 계약 $50,000 수주.",
+      "whyItMatteredKo": "IBM이 1970년 발표한 관계형 데이터베이스 이론 논문(Edgar Codd)을 IBM보다 먼저 상용화하려는 베팅. 이 한 번의 CIA 계약이 첫 현금흐름을 만들어 회사 생존.",
+      "whatTheyRiskedKo": "$1,200 개인 자본, 안정적 월급, 대기업 관계형 DB 경쟁자들(IBM, Ingres) 대비 자본 불리",
+      "whoHelpedKo": "Bob Miner(CTO, 엔지니어링), Ed Oates(프로그래머), 초기 CIA 고객",
+      "source": "https://en.wikipedia.org/wiki/Oracle_Corporation ; https://www.oracle.com/corporate/executives/larry-ellison/"
+    },
+    {
+      "year": 1979,
+      "age": 35,
+      "event": "Released Oracle V2 — first commercially available SQL-based RDBMS, beating IBM to market. Renamed company to Relational Software, Inc.",
+      "eventKo": "Oracle V2 출시 — 세계 최초로 SQL 기반 상용 관계형 데이터베이스 제품, IBM을 앞서 시장 진입. 사명을 Relational Software, Inc.로 변경.",
+      "whyItMatteredKo": "IBM의 System R보다 먼저 상용 SQL DB 시장을 선점. V1은 존재하지 않았으며 'V2'로 시작한 것은 고객 신뢰 확보 마케팅. 이 전략이 Oracle 초기 판매의 DNA.",
+      "source": "https://en.wikipedia.org/wiki/Oracle_Corporation"
+    },
+    {
+      "year": 1986,
+      "age": 41,
+      "event": "Oracle Corporation IPO (March 12, 1986) one day before Microsoft IPO, raising $31.5M at $15/share; Ellison personal stake ~$93M.",
+      "eventKo": "3월 12일 Oracle 나스닥 상장 — 마이크로소프트 IPO 하루 전. 주당 $15, 공모 $3,150만, 엘리슨 개인 자산 약 $9,300만.",
+      "whyItMatteredKo": "공개 시장 자본으로 글로벌 영업망 확장 자금 확보. Oracle 매출 1986 $55M → 1990 $970M로 4년 만에 20배 성장, 공격적 영업 문화 정착.",
+      "source": "https://en.wikipedia.org/wiki/Oracle_Corporation"
+    },
+    {
+      "year": 1990,
+      "age": 46,
+      "event": "Oracle's accounting scandal: aggressive revenue recognition led to $12.4M restatement, stock crashed 80% in 1990, layoffs of 400 employees. Ellison personally faced securities lawsuits.",
+      "eventKo": "Oracle 회계 스캔들 — 공격적 수익 인식으로 $1,240만 정정, 1990년 주가 80% 폭락, 400명 감원. 엘리슨 개인도 증권 소송 직면.",
+      "whyItMatteredKo": "창업 13년 만의 최대 위기. 이 사건으로 Ray Lane(사장), Jeff Henley(CFO) 영입하며 '엔지니어 창업자+프로 경영진' 이중 체제로 전환, 이후 20년 고속 성장의 거버넌스 기반.",
+      "whatTheyRiskedKo": "회사 생존, 개인 법적 리스크, 업계 신뢰",
+      "source": "https://en.wikipedia.org/wiki/Oracle_Corporation ; https://www.britannica.com/money/Larry-Ellison"
+    },
+    {
+      "year": 2000,
+      "age": 56,
+      "event": "Briefly surpassed Bill Gates as world's richest person during dotcom peak (Sept 2000); Oracle 11i internet platform launched; America's Cup yachting campaign with BMW Oracle Racing started.",
+      "eventKo": "2000년 9월 닷컴 피크에 빌 게이츠를 잠시 제치고 세계 최고 부자 등극. Oracle 11i 인터넷 플랫폼 출시. BMW Oracle Racing 요트 아메리카스 컵 도전 시작.",
+      "whyItMatteredKo": "Oracle이 인터넷 인프라 소프트웨어의 기본값으로 자리잡음. 아메리카스 컵 참여는 개인 브랜드를 '실리콘밸리 마초 CEO' 아이콘으로 강화, 2010년·2013년 두 번 우승.",
+      "source": "https://en.wikipedia.org/wiki/Larry_Ellison"
+    },
+    {
+      "year": 2005,
+      "age": 60,
+      "event": "Completed hostile takeover of PeopleSoft for $10.3B after 18-month battle; launched M&A spree acquiring Siebel ($5.85B, 2005), BEA ($8.5B, 2008), Sun Microsystems ($7.4B, 2010), NetSuite ($9.3B, 2016), Cerner ($28.3B, 2022).",
+      "eventKo": "18개월 적대적 인수전 끝에 PeopleSoft $103억 인수 완료. 이후 M&A 공세 — Siebel $58.5억(2005), BEA $85억(2008), Sun $74억(2010), NetSuite $93억(2016), Cerner $283억(2022).",
+      "whyItMatteredKo": "Oracle을 단일 제품 회사에서 엔터프라이즈 애플리케이션·하드웨어·의료 IT까지 아우르는 제국으로 확장. 적대적 M&A 기법(주주 직접 공략, 거버넌스 압박)의 교과서.",
+      "whatTheyRiskedKo": "$600억+ 누적 M&A 자금, 반독점 심사, 인수 대상 직원 반발",
+      "source": "https://en.wikipedia.org/wiki/Oracle_Corporation"
+    },
+    {
+      "year": 2014,
+      "age": 70,
+      "event": "Stepped down as Oracle CEO (Sept 18, 2014); became Executive Chairman and CTO. Mark Hurd and Safra Catz became co-CEOs. Continued hands-on product direction.",
+      "eventKo": "9월 18일 Oracle CEO에서 물러나 회장 겸 CTO로 전환. Mark Hurd와 Safra Catz 공동 CEO 체제. 엘리슨은 제품 방향에 계속 직접 개입.",
+      "whyItMatteredKo": "37년간의 CEO 자리에서 내려온 상징적 사건. 그러나 CTO로서 클라우드 아키텍처에 직접 관여, 이후 Oracle Cloud Infrastructure(OCI)가 2023-25년 AI 인프라 파트너로 재조명받는 기반.",
+      "source": "https://www.oracle.com/corporate/executives/larry-ellison/ ; https://en.wikipedia.org/wiki/Larry_Ellison"
+    },
+    {
+      "year": 2020,
+      "age": 76,
+      "event": "Moved from California to Lanai, Hawaii (Ellison owns 98% of the island, purchased 2012 for $300M); joined Tesla board (2018-2022) as Musk ally; publicly backed Trump 2020 reelection with $250K donation.",
+      "eventKo": "캘리포니아에서 하와이 라나이 섬(2012년 $3억에 섬 98% 매입)으로 이주. 2018-2022 테슬라 이사로 머스크 우군 역할. 2020 트럼프 재선에 $25만 공개 기부.",
+      "whyItMatteredKo": "정치적으로 공화당 친화 노선 명확화. 하와이 이주는 세금 최적화와 동시에 '테크 귀족' 이미지 확립. 섬 자체를 실험(지속가능 농업·재활용)과 개인 레저 공간으로 운영.",
+      "source": "https://en.wikipedia.org/wiki/Larry_Ellison ; https://www.bloomberg.com/news/articles/2025-09-10/who-is-larry-ellison-and-how-did-he-become-the-world-s-second-richest-person"
+    },
+    {
+      "year": 2023,
+      "age": 79,
+      "event": "OpenAI/Microsoft deal collapses pushed xAI, Meta, TikTok parent ByteDance to Oracle Cloud Infrastructure (OCI); $12B OpenAI deal announced 2024; Oracle stock +60% in 2023-24. TikTok US 'Project Texas' data hosting deal.",
+      "eventKo": "OpenAI-Microsoft 독점 갈등으로 xAI·Meta·틱톡 모회사 ByteDance가 Oracle Cloud Infrastructure(OCI)로 유입. 2024년 OpenAI와 $120억 계약 발표. 2023-24 Oracle 주가 +60%. 틱톡 미국 'Project Texas' 데이터 호스팅 계약.",
+      "whyItMatteredKo": "80세에도 AI 인프라 전쟁에서 '5번째 하이퍼스케일러'로 Oracle을 재포지셔닝한 사례. 엘리슨이 CTO로 직접 설계한 OCI의 네트워크·GPU 아키텍처가 AWS·Azure 대비 가격 경쟁력 확보.",
+      "source": "https://www.oracle.com/news/announcement/ ; https://www.bloomberg.com/"
+    },
+    {
+      "year": 2025,
+      "age": 81,
+      "event": "Oracle stock +100% YTD on AI infrastructure narrative; Ellison briefly became world's #2 richest (Sept 2025, some indexes showed #1 briefly); net worth jumped $100B+ in a year; backed Trump administration's $500B 'Stargate' AI infrastructure JV with OpenAI/SoftBank.",
+      "eventKo": "2025년 Oracle 주가 AI 인프라 서사로 연초 대비 +100%, 9월 엘리슨이 세계 2위(일부 지수에선 잠시 1위) 등극. 1년 만에 순자산 $1,000억+ 증가. 트럼프 행정부의 $5,000억 'Stargate' AI 인프라 JV(OpenAI·SoftBank와) 참여.",
+      "whyItMatteredKo": "81세 CEO가 자기 회사 주가 급등으로 세계 순자산 2위에 오른 전례 없는 사례. AI 시대의 인프라 층(컴퓨트·데이터베이스)이 애플리케이션 층만큼 가치가 있다는 것을 개인 자산으로 증명.",
+      "source": "https://www.forbes.com/profile/larry-ellison/ ; https://www.bloomberg.com/news/articles/2025-09-10/who-is-larry-ellison-and-how-did-he-become-the-world-s-second-richest-person"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1977,
+      "age": 33,
+      "decisionKo": "$1,200 자기 자본을 넣어 SDL(훗날 Oracle) 공동창업",
+      "alternativeKo": "Ampex·Amdahl 같은 안정적 대기업 프로그래머 경력 유지",
+      "outcomeKo": "세계 최대 엔터프라이즈 소프트웨어 기업 창업, 48년간 지배주주 지위",
+      "source": "https://en.wikipedia.org/wiki/Oracle_Corporation"
+    },
+    {
+      "year": 1990,
+      "age": 46,
+      "decisionKo": "회계 스캔들 후 CEO 유지하며 Ray Lane·Jeff Henley 프로 경영진 영입으로 거버넌스 개편",
+      "alternativeKo": "사임 또는 외부 CEO 영입 후 물러나기",
+      "outcomeKo": "창업자 CEO로 남아 2014년까지 37년 재직, 이후 M&A 제국 건설",
+      "source": "https://www.britannica.com/money/Larry-Ellison"
+    },
+    {
+      "year": 2004,
+      "age": 60,
+      "decisionKo": "18개월 적대적 M&A로 PeopleSoft $103억 인수",
+      "alternativeKo": "유기적 성장 중심으로 DB 본업에 집중",
+      "outcomeKo": "Oracle을 애플리케이션·미들웨어·하드웨어로 확장, $600억+ M&A 시대 개막",
+      "source": "https://en.wikipedia.org/wiki/Oracle_Corporation"
+    },
+    {
+      "year": 2016,
+      "age": 72,
+      "decisionKo": "클라우드 인프라(OCI)에 뒤늦은 진입하지만 CTO로 직접 아키텍처 설계",
+      "alternativeKo": "AWS·Azure·GCP에 시장 넘기고 DB 소프트웨어 라이선스에 안주",
+      "outcomeKo": "2023-25년 AI 붐에서 OpenAI·xAI·메타 등 유치하며 Oracle 시총 $1조 돌파, 개인 자산 $187B",
+      "source": "https://www.oracle.com/cloud/"
+    }
+  ],
+
+  "moneyMechanics": {
+    "coreBusinessKo": "Oracle Corporation 지분 약 41% (공동창업자 겸 회장·CTO). 핵심 수익: ① Oracle Database 라이선스·지원(연 매출 $200억+), ② Oracle Cloud Infrastructure(OCI, AI 고객 유입으로 2023-25년 연 40%+ 성장), ③ Oracle Applications(Fusion, NetSuite, Cerner Healthcare IT), ④ 라나이 섬 부동산·호텔·농업, ⑤ Tesla 지분(이사 시절 매입, 일부 매각).",
+    "moatKo": "① Oracle Database의 전 세계 은행·항공·통신·정부 미션 크리티컬 시스템 점유율 50%+ (교체 비용이 수십억 달러). ② 엔터프라이즈 영업의 공격적·학습된 조직 문화(M&A 흡수 역량). ③ OCI의 AI GPU 조달·데이터센터 설계의 자체 최적화. ④ Cerner로 확보한 미국 병원 전자의무기록(EHR) 1위 위치. ⑤ 엘리슨 개인의 머스크·트럼프·빈살만 등과의 개인 네트워크.",
+    "luckVsSkillKo": "운(30%): 1977년 IBM이 SQL 상용화를 지연한 틈, 1990년 회계 스캔들에서 회사가 파산하지 않고 생존한 운, 2023년 OpenAI-Microsoft 갈등이 OCI에 유리하게 작용. 실력(70%): 관계형 DB의 기술적 우위, 영업 조직의 공격성, 37년 CEO 유지하며 엔지니어·경영진 균형, 80세에도 CTO로서 인프라 아키텍처 직접 설계.",
+    "politicalCapitalKo": "1990년대는 중립적 테크 로비, 2010년대 이후 공화당 친화. Mitt Romney(2012), Marco Rubio, Trump 2020·2024 후원자. 2025년 트럼프의 Stargate AI 인프라 JV에 SoftBank·OpenAI와 공동 참여. 이스라엘 총리 네타냐후·미 상원 공화당과 개인적 친분. 정치 자본이 엔터프라이즈/국방 계약 수주와 직접 연결.",
+    "capitalHistoryKo": "1977 $1,200 개인 자본 → 1986 IPO $9,300만 → 1990 회계 스캔들 → 1990-2000 SaaS 아니지만 라이선스 독점으로 매출 1,000배 → 2004 적대적 M&A 개시 → 2010 Sun 인수로 하드웨어 진입 → 2012 라나이 섬 매입 → 2014 CEO 사임 후에도 지분 유지 → 2023-25 OCI 재평가로 개인 자산 $100B → $187B",
+    "source": "https://www.forbes.com/profile/larry-ellison/ ; https://www.oracle.com/investor/"
+  },
+
+  "failures": [
+    {
+      "year": 1990,
+      "age": 46,
+      "description": "Oracle accounting scandal: channel stuffing and premature revenue recognition led to $12.4M restatement. Stock crashed from $28 to $5 (80% drop), 400 layoffs, shareholder class action, Ellison personally sued. Nearly lost the company.",
+      "descriptionKo": "Oracle 회계 스캔들 — 채널 스터핑과 조기 수익 인식으로 $1,240만 재정정. 주가 $28 → $5 80% 폭락, 400명 해고, 주주 집단소송, 엘리슨 개인도 피소. 회사 존폐 위기.",
+      "howTheyOvercameKo": "Ray Lane(COO, 전 Booz Allen)과 Jeff Henley(CFO, 전 Pacific Holding) 영입으로 거버넌스 재건. 1991-92년 제품 라인 정리하고 Oracle 7 출시로 기술 경쟁력 재입증. 1995년 시총 역대 최고 갱신.",
+      "lessonKo": "영업 공격성은 수익 인식 규율과 분리되어야 한다. 창업자 CEO가 영업 기질이 강할수록 CFO·외부 이사회의 독립성이 생존 변수.",
+      "source": "https://en.wikipedia.org/wiki/Oracle_Corporation ; https://www.britannica.com/money/Larry-Ellison"
+    },
+    {
+      "year": 2000,
+      "age": 56,
+      "description": "Oracle 11i (internet applications suite) shipped prematurely in 2000 with hundreds of bugs; customers including Ford, AT&T filed complaints. Dot-com bust crashed Oracle stock 70% in 2001-02. Ray Lane forced out after internal conflict with Ellison.",
+      "descriptionKo": "2000년 Oracle 11i 인터넷 애플리케이션 묶음이 수백 개 버그를 안고 조기 출시, Ford·AT&T 등 대형 고객 항의. 닷컴 붕괴로 2001-02년 주가 70% 폭락. Ray Lane이 엘리슨과의 내부 갈등 끝에 축출.",
+      "howTheyOvercameKo": "2001-04년 제품 버그 수정에 집중, 동시에 적대적 M&A 전략(PeopleSoft 2004-05) 개시로 성장 서사 재구축. Ray Lane 공백은 Charles Phillips·Safra Catz로 대체.",
+      "lessonKo": "엔터프라이즈 소프트웨어에서 'ship fast and iterate'는 위험하다. B2C와 B2B는 실패 비용 구조가 완전히 다름. 그러나 제품 실패도 M&A로 상쇄 가능하다는 것도 이때 학습.",
+      "source": "https://en.wikipedia.org/wiki/Oracle_Corporation"
+    },
+    {
+      "year": 2013,
+      "age": 69,
+      "description": "Oracle's public cloud Infrastructure (first version) launched 2015 but trailed AWS by 8+ years; customers defected to cheaper AWS/Azure. NetSuite acquisition $9.3B (2016) criticized as overpaid. Oracle database revenue declined as customers moved data to hyperscalers.",
+      "descriptionKo": "Oracle 퍼블릭 클라우드 인프라(1세대) 2015년 출시했으나 AWS보다 8년+ 뒤처짐, 고객들이 AWS·Azure로 이탈. 2016년 NetSuite $93억 인수는 과도한 값이라는 평가. Oracle 데이터베이스 매출 하락세, 고객이 데이터를 하이퍼스케일러로 이전.",
+      "howTheyOvercameKo": "엘리슨이 2016년 CTO로서 '2세대 OCI' 재설계 발표, 네트워크·GPU·가격 구조를 처음부터 재작성. 2020-23년 OpenAI-Microsoft 갈등·Nvidia GPU 공급난이 전환점. 2023-25년 xAI·OpenAI·Meta·ByteDance 유치로 AI 인프라 5번째 하이퍼스케일러 지위.",
+      "lessonKo": "늦은 진입도 기술적 재설계와 시장 판의 변화를 기다리면 역전 가능하다. 단 그 사이 수년간의 기회비용·시장 점유율 손실은 감수해야 한다.",
+      "source": "https://www.oracle.com/cloud/ ; https://en.wikipedia.org/wiki/Oracle_Cloud"
+    },
+    {
+      "year": 2020,
+      "age": 76,
+      "description": "TikTok US acquisition bid (Sept 2020) chosen by Trump admin but geopolitical complications and Biden election stalled the deal; Oracle ultimately only got 'Project Texas' data hosting role, not equity. Personal life: long-running divorce (Melanie Craft, 2010) and multiple public relationships complicated family foundation planning.",
+      "descriptionKo": "2020년 9월 트럼프 행정부 주도 틱톡 미국 인수 경쟁에서 Oracle 선정됐으나 지정학 복잡성과 바이든 당선으로 거래 좌초, Oracle은 지분 없이 'Project Texas' 데이터 호스팅 역할만 확보. 사적으로는 2010년 Melanie Craft 이혼과 다수의 공개 관계로 가족재단 설계 복잡.",
+      "howTheyOvercameKo": "TikTok 지분은 포기했지만 데이터 호스팅 계약만으로도 OCI 레퍼런스 확보. 2024년 트럼프 재집권으로 틱톡 이슈가 다시 열리며 Oracle이 Stargate JV로 더 큰 AI 인프라 게임에 진입.",
+      "lessonKo": "지정학적 거래는 선거 사이클과 묶여 있어 개별 딜의 성공률이 낮다. 그러나 상징적 관여만으로도 정부 계약의 우선 공급자 지위를 얻을 수 있다.",
+      "source": "https://en.wikipedia.org/wiki/TikTok ; https://www.oracle.com/news/"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 1990, "netWorth": 0.4 },
+    { "year": 2000, "netWorth": 47.0 },
+    { "year": 2005, "netWorth": 17.0 },
+    { "year": 2010, "netWorth": 28.0 },
+    { "year": 2015, "netWorth": 54.3 },
+    { "year": 2020, "netWorth": 72.0 },
+    { "year": 2023, "netWorth": 107.0 },
+    { "year": 2025, "netWorth": 175.0 },
+    { "year": 2026, "netWorth": 187.8 }
+  ],
+
+  "quotes": [
+    "The only way to get ahead is to find errors in conventional wisdom.",
+    "When you innovate, you've got to be prepared for everyone telling you you're nuts.",
+    "Life's a journey. It's a journey about discovering limits."
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": [
+      "The Soul of a New Machine — Tracy Kidder",
+      "Atlas Shrugged — Ayn Rand",
+      "books on Samurai and Japanese architecture"
+    ]
+  },
+
+  "personalTraits": {
+    "knownFor": "Co-founder and 47-year controlling shareholder of Oracle; pioneer of commercial SQL relational databases; master of hostile M&A; owner of 98% of Hawaiian island Lanai; America's Cup winner (2010, 2013); Silicon Valley's most combative self-made billionaire.",
+    "knownForKo": "Oracle 공동창업자이자 47년 지배주주. 상용 SQL 관계형 DB 개척자. 적대적 M&A의 대가. 하와이 라나이 섬 98% 소유. 아메리카스 컵 우승(2010, 2013). 실리콘밸리에서 가장 호전적인 자수성가 억만장자.",
+    "philanthropy": "Ellison Medical Foundation ($1B+ on aging, infectious disease); $200M USC pancreatic cancer center; Lanai sustainable agriculture experiment; Israel-supporting donations. Not a Giving Pledge signatory.",
+    "philanthropyKo": "Ellison Medical Foundation($10억+, 노화·전염병 연구); USC 췌장암 센터 $2억; 라나이 섬 지속가능 농업 실험; 이스라엘 친화 기부. Giving Pledge 서명자 아님.",
+    "controversies": "Aggressive hostile M&A tactics (PeopleSoft, Sun); accounting scandal (1990); Ray Lane internal ouster; multiple divorces and public affairs; close Trump alliance and 2020 Trump donation; political donations to Israel-friendly causes seen as controversial amid Gaza war; Lanai island critics argue feudal-style ownership.",
+    "controversiesKo": "공격적 적대적 M&A(PeopleSoft·Sun); 1990 회계 스캔들; Ray Lane 내부 축출; 복수 이혼과 공개 관계; 2020년 트럼프 후원 공개; 가자 전쟁 중 이스라엘 친화 기부 논란; 라나이 섬 '봉건적 소유' 비판."
+  },
+
+  "characterKo": {
+    "observedTraitsKo": "전투적 경쟁심, 승부욕('누군가가 이기려면 누군가는 져야 한다'고 공개 발언), 디테일 집착(80세에도 코드·아키텍처 리뷰), 장수·건강 집착(의료 연구 투자), 화려한 라이프스타일(요트·제트기·일본식 저택), 두 번째 기회 신봉자",
+    "leadershipStyleKo": "창업 37년은 CEO로 모든 영업·제품 결정 최종 승인. CEO 사임 후에도 CTO로서 OCI 아키텍처 직접 설계. 공동 CEO(Hurd·Catz)에게 운영 위임하되 전략은 본인 결정. 이사회 외부 압박을 지분·창업자 권위로 차단.",
+    "conflictBehaviorKo": "정면 공격형. 적대적 M&A·법정 소송·언론 도발 모두 활용. 2004년 PeopleSoft 소송전, 2018년 Google과의 Java API 저작권 소송 등. 내부 갈등(Ray Lane)은 조용히 축출. 공개 발언은 도발적.",
+    "knownQuirksKo": "일본식 건축·사무라이 문화 광팬(캘리포니아 자택 'Porcupine Creek'와 일본풍 정원), 라나이 섬 98% 소유, 아메리카스 컵 요트 2회 우승, 기타 연주, 테니스와 제트기 조종, 머스크·트럼프·넷타냐후와 개인 친분, 81세에도 분기 실적 콜에 직접 참여.",
+    "source": "https://en.wikipedia.org/wiki/Larry_Ellison ; https://www.britannica.com/money/Larry-Ellison"
+  },
+
+  "sajuConnection": null
+}

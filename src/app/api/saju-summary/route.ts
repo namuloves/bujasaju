@@ -2,6 +2,7 @@ import OpenAI from 'openai';
 import type { NextRequest } from 'next/server';
 import { rateLimit, getIp } from '@/lib/rateLimit';
 import { analyzeSaju } from '@/lib/saju/relationships';
+import { buildSajuContext } from '@/lib/saju/sajuContext';
 import type { SajuResult, CheonGan, JiJi } from '@/lib/saju/types';
 
 /**
@@ -116,8 +117,9 @@ function buildPrompt(input: SummaryInput): string {
     ? `\n# 주요 인물들의 인생 스토리\n${bioSnippets}\n`
     : '';
 
-  // Run saju relationship analysis (충/합/형/오행) if full pillar data is available
+  // Run saju relationship analysis (충/합/형/오행) and build rich context from JSON database
   let sajuAnalysisSection = '';
+  let sajuDbContext = '';
   if (user.dayStem && user.dayBranch && user.monthStem && user.monthBranch) {
     try {
       const sajuResult: SajuResult = {
@@ -137,32 +139,45 @@ function buildPrompt(input: SummaryInput): string {
       };
       const analysis = analyzeSaju(sajuResult);
       sajuAnalysisSection = `\n# 사주 명리학 분석 (충·합·형·오행)\n${analysis.summaryKo}\n`;
+
+      // Rich context from our saju interpretation database
+      sajuDbContext = `\n# 명리학 해석 데이터베이스\n${buildSajuContext(sajuResult)}\n`;
     } catch {
       // Skip analysis if it fails
     }
   }
 
-  return `당신은 한국의 사주명리학 전문가입니다. 아래 사용자의 사주 분석과, 비슷한 사주 구조를 가진 부자들의 목록을 바탕으로 깊이 있는 한국어 사주 풀이를 작성해 주세요.
+  return `당신은 40년 경력의 한국 사주명리학 대가입니다. 아래 사용자의 사주에 대한 상세한 명리학 데이터와 비슷한 사주 구조를 가진 부자들의 목록을 바탕으로, 깊이 있고 정확한 사주 풀이를 작성해 주세요.
 
 # 사용자 사주
 - 일주: ${user.ilju}
 - 일간: ${user.ilgan}
 - 월지: ${user.wolji}
 - 격국: ${user.gyeokguk}
-${sajuAnalysisSection}
+${sajuAnalysisSection}${sajuDbContext}
 # 비슷한 사주 구조를 가진 부자들
 ${matchLines}
 ${deepBioSection}
 # 작성 지침
-1. **첫 단락 (2문장)**: ${user.gyeokguk}의 기운과 성향을 풀어주세요. "${user.gyeokguk}인 당신은..." 또는 비슷하게 시작하세요.${sajuAnalysisSection ? ' 사주 분석에서 발견된 합(合)이나 유리한 배치가 있으면 "당신의 사주에는 [X]합이 있어 [Y]의 기운이 강화되어 있네요" 같이 구체적으로 언급하세요.' : ''}
-2. **두 번째 단락 (2-3문장)**: 위 부자들의 **실제 데이터에서 보이는 공통점**을 관찰해서 풀어주세요. 이름은 반드시 **한국어로만** 표기하세요. 영어 이름이나 괄호 표기는 절대 쓰지 마세요. 순자산도 반드시 **원(조 원, 억 원)** 단위로만 표기하세요.${bioSnippets ? ' 인물의 실제 일화나 명언을 인용하면 좋습니다.' : ''}
-3. **세 번째 단락 (2-3문장)**: ${sajuAnalysisSection ? '사주 분석에서 발견된 충(沖)이나 불리한 배치가 있으면, 이 사주를 가진 부자들이 어떻게 그 어려움을 극복하고 성공했는지 연결해서 풀어주세요. 오행의 부족한 기운이 있으면, 그것을 보완하는 방법도 제안하세요.' : '이 격국이 가진 구체적인 성공 패턴을 분석하세요.'}
-4. 전체 5-7문장. 마크다운 없이 순수 한국어 문장만. 친근하되 명리학적 깊이가 있는 톤으로. "null"이나 영어 단어는 절대 포함하지 마세요.
-5. "...답네요", "...이네요" 같은 자연스러운 맺음말 사용.
-6. 사주 용어(충, 합, 형, 오행, 상생, 상극)를 자연스럽게 사용하되, 일반인도 이해할 수 있게 간단한 설명을 곁들이세요.
-7. 이 사람들이 한국에서 부자가 된 것이 아닙니다 — 각자 자기 나라에서 성공한 사람들이에요. 마치 한국 부자인 것처럼 쓰지 마세요.
 
-이제 요약문만 출력하세요. 다른 설명이나 서문은 넣지 마세요.`;
+하나의 자연스러운 글로 풀이해 주세요. 섹션 구분이나 항목 나열 없이, 마치 명리학 대가가 직접 상담하듯 이야기체로 써 주세요.
+
+반드시 포함할 내용:
+- 일주의 본질적 성격과 일지 십성의 의미 (예: "갑목이 술토 위에 앉아 편재를 이루니...")
+- 월지가 일간에게 어떤 에너지를 주는지 (예: "사화 월지는 목생화로 당신의 재능을 밖으로 표현하는...")
+- 오행 밸런스의 핵심 — 특히 없는 오행이 있으면 그것이 이 사주에 어떤 의미인지 구체적으로 (예: "수가 없어 뿌리에 물이 닿지 않는 나무와 같습니다")
+- 격국의 재물 패턴과 이 부자들에게서 실제로 보이는 공통점
+- 용신이 무엇인지, 그 기운을 만나면 어떻게 달라지는지
+
+톤과 형식:
+- 전체 6-8문장의 자연스러운 한국어 산문. 마크다운 없이.
+- "...네요", "...입니다" 같은 자연스러운 경어체.
+- 명리학 용어를 쓰되 괄호 안에 쉬운 설명을 넣어주세요 (예: "편재(예상 밖의 재물)")
+- 이름은 반드시 한국어로만. 순자산은 원(조/억 원) 단위로만.
+- 이 부자들은 각자 자기 나라에서 성공한 사람들입니다. 한국 부자처럼 쓰지 마세요.
+- "null"이나 영어 단어는 절대 포함하지 마세요.
+
+요약문만 출력하세요. 제목, 서문, 항목 구분 없이 하나의 글로.`;
 }
 
 export async function POST(req: NextRequest) {
@@ -218,7 +233,7 @@ export async function POST(req: NextRequest) {
         const stream = await client.chat.completions.create(
           {
             model: 'gpt-4o-mini',
-            max_tokens: 800,
+            max_tokens: 1200,
             stream: true,
             messages: [{ role: 'user', content: prompt }],
           },

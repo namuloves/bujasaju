@@ -1,0 +1,273 @@
+{
+  "id": "8",
+  "name": "Michael Dell",
+  "nameKo": "마이클 솔 델",
+  "netWorth": "$147.5B",
+  "nationality": "US",
+  "industry": "Technology",
+
+  "childhood": {
+    "birthPlace": "Houston, Texas, USA",
+    "birthPlaceKo": "미국 텍사스주 휴스턴",
+    "familyBackground": "Father Alexander Dell — orthodontist; mother Lorraine Charlotte (Langfan) Dell — stockbroker. Jewish family of Eastern European descent. Two brothers (Steven, Adam). Upper-middle-class household pushing the children toward medicine.",
+    "familyBackgroundKo": "부친 알렉산더 델 — 치과교정의, 모친 로레인 샬럿 델 — 주식 중개인. 동유럽계 유대인 가정. 형제 둘(Steven, Adam). 자녀들에게 의학 진로를 권유한 상위 중산층 가정.",
+    "education": "Memorial High School (Houston, 1983 graduation); University of Texas at Austin (1983-84 pre-med, dropped out after freshman year to incorporate Dell Computer Corporation).",
+    "educationKo": "휴스턴 메모리얼 고등학교(1983 졸업); 텍사스 대학교 오스틴(1983-84 의예과, 1학년 끝나고 Dell Computer Corporation 정식 법인화하며 중퇴).",
+    "earlyLife": "Born February 23, 1965. At age 8, applied to take the high school equivalency test. At age 12, ran a mail-order stamp and baseball card trading business earning $2,000 by writing his own 12-page catalog. At 14, bought first Apple II and immediately disassembled it to understand its hardware. At 16, summer job selling Houston Post subscriptions — used Apple II to mail-merge letters to newlywed and mortgage-application lists, earning $18,000 (more than his economics teacher's salary), bought a BMW with cash.",
+    "earlyLifeKo": "1965년 2월 23일 출생. 8세에 고졸 검정고시 응시 신청. 12세에 12페이지 자체 카탈로그를 만들어 우표·야구카드 통신판매 사업으로 $2,000 수익. 14세에 처음 산 Apple II를 즉시 분해하여 하드웨어 분석. 16세 여름 휴스턴 포스트 구독 영업 — Apple II로 신혼·모기지 신청자 리스트에 메일머지하여 $18,000 수익(경제 교사 연봉 초과), 현금으로 BMW 구입.",
+    "capitalTypeKo": "self-made. 의사·증권사 중산층 가정. 부모 자본 0, $1,000 본인 저축으로 대학 기숙사에서 PC 조립 판매 시작. 1984년 5월 Dell Computer Corporation 법인화, 1988년 IPO로 27세 Fortune 500 최연소 CEO.",
+    "source": "https://en.wikipedia.org/wiki/Michael_Dell ; https://www.britannica.com/money/Michael-Dell ; https://achievement.org/achiever/michael-dell/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "자수성가 전형. 12세 우표 사업, 16세 신문 구독 영업으로 자본 축적. 1984년 19세 텍사스 대학교 도비 기숙사 2713호에서 $1,000 자본으로 PC's Limited 시작. 가족 지원 없이 본인 저축과 신문 영업 자금만으로 창업. Forbes self-made score 8/10.",
+    "source": "https://www.forbes.com/profile/michael-dell/ ; https://www.everydayentrepreneur.ai/p/from-dorm-room-to-boardroom-the-michael"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1981,
+      "age": 16,
+      "event": "Houston Post subscription sales summer job — used Apple II to mail-merge letters to newlywed and mortgage-application lists, earning $18,000 in one summer.",
+      "eventKo": "휴스턴 포스트 신문 구독 영업 여름 알바 — Apple II로 신혼·모기지 신청자 리스트에 메일머지 편지를 보내 한 여름에 $18,000 수익.",
+      "whyItMatteredKo": "데이터베이스 마케팅·다이렉트 채널의 위력을 16세에 체득. '직접 판매' 모델의 효과를 첫 사업에서 검증, Dell의 직판 모델의 원형이 됨.",
+      "whatTheyRiskedKo": "여름방학, 부모의 의대 진학 압력 무시",
+      "source": "https://achievement.org/achiever/michael-dell/"
+    },
+    {
+      "year": 1984,
+      "age": 19,
+      "event": "May 3, 1984: incorporated PC's Limited from University of Texas Dobie dorm room 2713 with $1,000 of his own savings. Sold IBM-compatible PCs by mail order, bypassing retailers. Dropped out of UT Austin pre-med program at end of freshman year.",
+      "eventKo": "5월 3일 텍사스대 오스틴 도비 기숙사 2713호에서 본인 저축 $1,000로 PC's Limited 법인화. IBM 호환 PC를 통신판매로 직판, 소매상 우회. 1학년 끝나고 의예과 중퇴.",
+      "whyItMatteredKo": "'주문 즉시 조립(build-to-order) + 직판'의 두 가지 혁신을 동시에 제도화. 재고 회전율과 마진을 IBM·Compaq 대비 2-3배 우위로 끌어올림.",
+      "whatTheyRiskedKo": "부모 격노(아버지가 텍사스에서 펜실베이니아로 비행기 타고 와 의대 복귀 설득), 안정적 학위, $1,000 개인 저축",
+      "whoHelpedKo": "텍사스대 도비 기숙사 룸메이트들이 첫 고객, 부모는 결국 묵인",
+      "source": "https://en.wikipedia.org/wiki/Michael_Dell ; https://www.everydayentrepreneur.ai/p/from-dorm-room-to-boardroom-the-michael"
+    },
+    {
+      "year": 1988,
+      "age": 23,
+      "event": "Dell Computer Corporation IPO on NASDAQ at $8.50/share, raising $30M with $85M valuation. Renamed from PC's Limited to Dell Computer Corporation.",
+      "eventKo": "Dell Computer Corporation NASDAQ 상장, 공모가 $8.50으로 $30M 조달, 시가총액 $85M. 사명을 PC's Limited에서 Dell Computer Corporation으로 변경.",
+      "whyItMatteredKo": "23세 창업 4년 만에 상장. 자본을 글로벌 확장(영국 1987, 독일 1988)에 투입.",
+      "source": "https://en.wikipedia.org/wiki/Dell ; https://www.companieshistory.com/dell/"
+    },
+    {
+      "year": 1992,
+      "age": 27,
+      "event": "Became youngest CEO ever in Fortune 500 list at age 27. Dell revenue passed $890M.",
+      "eventKo": "27세에 Fortune 500 최연소 CEO 등극. Dell 매출 $890M 돌파.",
+      "whyItMatteredKo": "'직판+BTO' 모델이 8년 만에 글로벌 PC 산업의 표준에 도전. Compaq, IBM이 뒤늦게 직판 채널 추가.",
+      "source": "https://www.britannica.com/money/Michael-Dell"
+    },
+    {
+      "year": 1996,
+      "age": 31,
+      "event": "Launched Dell.com online sales — within months reaching $1M/day in PC sales. Became one of the largest e-commerce sites in the world.",
+      "eventKo": "Dell.com 온라인 판매 개시 — 수개월 만에 일일 PC 판매 $1M 돌파, 세계 최대 전자상거래 사이트 중 하나로 부상.",
+      "whyItMatteredKo": "PC 직판을 인터넷으로 확장하여 마케팅·CS 비용 추가 절감. 2000년 닷컴 버블 와중에도 흑자 유지.",
+      "source": "https://en.wikipedia.org/wiki/Dell"
+    },
+    {
+      "year": 2001,
+      "age": 36,
+      "event": "Dell overtook Compaq to become the world's #1 PC manufacturer by units shipped.",
+      "eventKo": "Dell이 Compaq을 추월하여 출하 대수 기준 세계 1위 PC 제조사 등극.",
+      "whyItMatteredKo": "1984년 기숙사 창업 17년 만의 정상. 그러나 이 정점이 곧 노트북·서버 트렌드 변화에 둔감해지는 시작점이 됨.",
+      "source": "https://www.britannica.com/money/Michael-Dell"
+    },
+    {
+      "year": 2004,
+      "age": 39,
+      "event": "Stepped down as CEO, handing role to Kevin Rollins; remained as Chairman.",
+      "eventKo": "CEO 자리에서 물러나 Kevin Rollins에게 이양, 회장직만 유지.",
+      "whyItMatteredKo": "전문 경영인에 위임 시도 — 2007년까지 노트북 품질 결함, HP에 점유율 추월당하며 회사 위기.",
+      "source": "https://en.wikipedia.org/wiki/Michael_Dell"
+    },
+    {
+      "year": 2007,
+      "age": 42,
+      "event": "Returned as CEO in January 2007 amid declining performance, accounting irregularities (SEC investigation), and HP overtaking Dell as #1 PC maker.",
+      "eventKo": "2007년 1월 실적 부진·회계 부정 SEC 조사·HP 추월로 CEO 복귀.",
+      "whyItMatteredKo": "Steve Jobs(1997 Apple 복귀)·Howard Schultz(2008 Starbucks 복귀)와 함께 '창업자 CEO 복귀' 사례. 이 복귀가 2013년 비공개 전환의 출발점.",
+      "source": "https://www.britannica.com/money/Michael-Dell"
+    },
+    {
+      "year": 2009,
+      "age": 44,
+      "event": "Acquired Perot Systems for $3.9B, beginning Dell's pivot from PC vendor to enterprise IT services and infrastructure.",
+      "eventKo": "Perot Systems $3.9B 인수 — Dell의 PC 벤더에서 엔터프라이즈 IT 서비스·인프라 회사로 전환 시작.",
+      "whyItMatteredKo": "PC 마진 압박을 인지하고 저마진 하드웨어→고마진 솔루션으로의 전환을 시작. 이후 EMC 인수의 사전 포석.",
+      "source": "https://en.wikipedia.org/wiki/Dell"
+    },
+    {
+      "year": 2013,
+      "age": 48,
+      "event": "Took Dell private in $24.4B leveraged buyout with Silver Lake Partners — largest LBO since 2008 financial crisis. Michael Dell invested $4.2B for 75% stake; Silver Lake invested $1.4B for 25%.",
+      "eventKo": "Silver Lake Partners와 함께 $24.4B 차입매수로 Dell 비공개 전환 — 2008년 금융위기 이후 최대 LBO. 마이클 델이 $4.2B 출자해 75% 지분, Silver Lake가 $1.4B로 25%.",
+      "whyItMatteredKo": "Carl Icahn 등 주주 행동주의자들과 격렬한 위임장 전쟁 끝에 성사. 분기 실적 압박에서 벗어나 EMC 인수 같은 장기 변혁을 가능케 한 핵심 전환점.",
+      "whatTheyRiskedKo": "$4.2B 본인 자본 + 막대한 부채, 주주 소송, Carl Icahn의 적대적 입찰 대응",
+      "whoHelpedKo": "Egon Durban(Silver Lake), Microsoft($2B 부채 융자), Goldman Sachs·BofA·Barclays·Credit Suisse(LBO 자금)",
+      "source": "https://www.cnbc.com/2013/02/05/dell-reaches-deal-to-be-taken-private-by-founder-silver-lake.html ; https://commoncog.com/c/cases/dells-go-private-and-second-ipo/"
+    },
+    {
+      "year": 2016,
+      "age": 51,
+      "event": "Closed $67B acquisition of EMC — the largest tech deal in history. Created Dell Technologies, controlling 81% of VMware via DVMT tracking stock.",
+      "eventKo": "EMC $67B 인수 종결 — 사상 최대 기술 거래. Dell Technologies 출범, DVMT 트래킹 주식으로 VMware 81% 지배.",
+      "whyItMatteredKo": "PC 회사에서 엔터프라이즈 데이터 인프라 거대 기업으로 완전 변모. VMware 가치(인수 당시 $34B → 2018년 $80B+)가 부채 상환의 핵심 자산.",
+      "whatTheyRiskedKo": "$50B 신규 부채, 통합 실패 시 Dell·EMC·VMware 동반 위기 가능성",
+      "source": "https://fortune.com/longform/dell-emc-merger-tech-biggest-deal/ ; https://mnawatch.com/financial-retrospectives/eaxyqn9yqfnioi61j8lbgshvbfea90"
+    },
+    {
+      "year": 2018,
+      "age": 53,
+      "event": "Dell Technologies returned to public markets via complex DVMT tracking stock buyout — second IPO under Michael Dell's ownership.",
+      "eventKo": "DVMT 트래킹 주식 매입을 통한 복잡한 구조로 Dell Technologies 재상장 — 마이클 델 소유하 두 번째 IPO.",
+      "whyItMatteredKo": "2013년 사적 전환 → 5년 변혁 → 재상장으로 LBO 빚 부담 완화 + 마이클 델 지분 가치 재평가. PE 역사상 가장 성공적 비공개-재상장 사이클 중 하나.",
+      "source": "https://commoncog.com/c/cases/dells-go-private-and-second-ipo/"
+    },
+    {
+      "year": 2021,
+      "age": 56,
+      "event": "Spun off VMware as independent public company — Dell shareholders received special dividend. Restored Dell balance sheet.",
+      "eventKo": "VMware를 독립 상장사로 분사 — Dell 주주에게 특별배당 지급. Dell 재무구조 회복.",
+      "whyItMatteredKo": "EMC 인수 부채를 깨끗이 정리. 마이클 델 개인 자산이 본격 $50B+ 구간으로 진입.",
+      "source": "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2021~11~20211101-dell-completes-vmware-spin-off.htm"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "age": 19,
+      "year": 1984,
+      "event": "Dropped out of UT Austin pre-med to incorporate PC's Limited from dorm room 2713 with $1,000 — defying parents' medical career expectations.",
+      "eventKo": "텍사스대 의예과 중퇴, 도비 기숙사 2713호에서 $1,000로 PC's Limited 법인화 — 부모의 의사 진로 기대를 거역.",
+      "whyKo": "16세 신문 영업의 직판 성공 경험 + Apple II 하드웨어 분해 경험이 결합. 부모와의 단절을 감수한 19세의 결정이 이후 40년 IT 산업의 한 축을 만듦."
+    },
+    {
+      "age": 42,
+      "year": 2007,
+      "event": "Returned as CEO after 3-year hiatus, finding Dell in declining position vs HP, accounting issues, and missed mobile/laptop trends.",
+      "eventKo": "3년 공백 후 CEO 복귀, HP에 점유율 추월·회계 이슈·모바일 노트북 트렌드 놓침 발견.",
+      "whyKo": "전문 경영인 위임 실험 실패의 인정. 이후 마이클 델은 다시는 CEO 자리를 떠나지 않음 — 창업자 통제의 가치를 뼈저리게 학습."
+    },
+    {
+      "age": 48,
+      "year": 2013,
+      "event": "Led $24.4B leveraged buyout to take Dell private, defeating Carl Icahn's hostile counter-bid in months-long proxy war.",
+      "eventKo": "$24.4B LBO를 주도해 Dell 비공개 전환, 칼 아이칸의 적대적 대항 입찰을 수개월의 위임장 전쟁 끝에 격퇴.",
+      "whyKo": "분기 실적 압박에서 해방되어 EMC 인수 같은 장기 변혁이 가능. 이 결정 없이는 현재 $147B 자산 불가능. 창업자가 본인 회사를 다시 사들인 보기 드문 사례."
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryIncomeSource": "Dell Technologies (NYSE: DELL) founder-CEO equity stake (~50% ownership) + VMware spin-off shares + private investment vehicle MSD Capital (renamed BDT & MSD Partners after 2023 merger with Byron Trott's BDT). Dell Technologies FY2024 revenue $88.4B.",
+    "primaryIncomeSourceKo": "Dell Technologies(NYSE: DELL) 창업자 CEO 지분(약 50%) + VMware 분사 주식 + 개인 투자사 MSD Capital(2023년 Byron Trott의 BDT와 합병하여 BDT & MSD Partners 출범). Dell Technologies FY2024 매출 $88.4B.",
+    "wealthAccelerators": [
+      "1984 dorm room build-to-order direct-sales model — structural margin advantage over IBM/Compaq",
+      "1988 NASDAQ IPO at age 23 providing capital for global expansion",
+      "1996 Dell.com online channel scaling to $1M/day in months",
+      "2013 $24.4B LBO with Silver Lake — escape from quarterly earnings pressure",
+      "2016 $67B EMC acquisition transforming Dell into enterprise infrastructure giant",
+      "2018 Dell Technologies re-IPO at higher valuation than 2013 LBO price",
+      "2021 VMware spin-off creating $50B+ liquid wealth for Michael Dell personally"
+    ],
+    "wealthAcceleratorsKo": [
+      "1984년 기숙사 BTO 직판 모델 — IBM·Compaq 대비 구조적 마진 우위",
+      "1988년 23세 NASDAQ IPO — 글로벌 확장 자본 확보",
+      "1996년 Dell.com 온라인 채널 — 수개월 만에 일일 $1M 매출",
+      "2013년 Silver Lake와 $24.4B LBO — 분기 실적 압박 탈출",
+      "2016년 EMC $67B 인수 — Dell을 엔터프라이즈 인프라 거대 기업으로 변모",
+      "2018년 Dell Technologies 재상장 — 2013 LBO 가격 대비 가치 상승",
+      "2021년 VMware 분사 — 마이클 델 개인 $50B+ 유동 자산 창출"
+    ],
+    "structuralAdvantages": "Founder-CEO continuous 40+ years control with major reset every ~15 years (1996 internet pivot, 2013 LBO, 2016 EMC, 2021 spin-off). MSD Capital (now BDT & MSD Partners) provides private wealth platform with $200B+ combined AUM serving wealthy families. Dell Technologies captures both traditional PC market (cash flow) and AI server demand (Nvidia GPU integration partner).",
+    "structuralAdvantagesKo": "창업자 CEO 40년+ 지속 통제, 약 15년마다 대형 변혁(1996 인터넷, 2013 LBO, 2016 EMC, 2021 분사). MSD Capital(현 BDT & MSD Partners)이 부유층 가문 대상 $200B+ AUM 사적 자산 플랫폼 역할. Dell Technologies는 전통 PC(현금흐름) + AI 서버(Nvidia GPU 통합 파트너) 양쪽 수요 포착.",
+    "currentAssetAllocation": "Dell Technologies stock (~50% ownership), VMware spin-off shares (sold portions), MSD Capital/BDT&MSD Partners stake, Hawaii Four Seasons Resort Hualalai (acquired via MSD), Boca Raton Resort & Club, real estate including a $100M Boston penthouse. Michael & Susan Dell Foundation $2B+ endowment funded; Giving Pledge signatory since 2010.",
+    "currentAssetAllocationKo": "Dell Technologies 주식(약 50%), VMware 분사 주식(일부 매각), MSD Capital/BDT&MSD Partners 지분, 하와이 Four Seasons Resort Hualalai(MSD 통해 인수), Boca Raton Resort & Club, $100M 보스턴 펜트하우스 등 부동산. Michael & Susan Dell Foundation 기금 $2B+ 조성, 2010년 Giving Pledge 서명.",
+    "source": "https://www.forbes.com/profile/michael-dell/ ; https://investors.delltechnologies.com/ ; https://givingpledge.org/pledger?pledgerId=153"
+  },
+
+  "failures": [
+    {
+      "year": 1989,
+      "age": 24,
+      "failure": "Dell's 'Olympic' project — an attempt to design a complete product line of workstations and high-end PCs from scratch — was a massive over-investment that produced unsalable products. Dell wrote off $30M+ in inventory.",
+      "failureKo": "Dell의 'Olympic' 프로젝트 — 워크스테이션과 하이엔드 PC 전 제품군을 처음부터 설계하려던 야심찬 시도 — 팔리지 않는 제품군을 양산한 거대 과잉 투자. $30M+ 재고 손실.",
+      "howTheyOvercameKo": "Olympic을 즉시 중단하고 'IBM 호환 + 직판'이라는 핵심 모델로 회귀. 이 실패가 'Dell은 새로운 카테고리를 만들지 않는다, 이미 검증된 카테고리를 더 효율적으로 판매한다'는 회사 정체성을 굳힘.",
+      "lessonKo": "기술 회사의 자존심이 사업 모델의 정체성을 흐리면 자살이다. 직판·BTO 효율이라는 핵심을 흔드는 R&D는 거부해야 한다.",
+      "source": "https://en.wikipedia.org/wiki/Dell"
+    },
+    {
+      "year": 2005,
+      "age": 40,
+      "failure": "While Michael Dell stepped back as CEO (2004-2007), Dell missed laptop battery quality issues (4.1M Sony battery recall in 2006 — the largest in consumer electronics history at the time), missed transition to mobile/smartphone market, lost #1 PC position to HP in 2006, and faced SEC accounting fraud investigation (2005-2010).",
+      "failureKo": "마이클 델이 CEO 자리에서 물러난 동안(2004-2007) Dell은 노트북 배터리 결함(2006년 Sony 배터리 410만 개 리콜 — 당시 사상 최대 가전 리콜) 대응 실패, 모바일·스마트폰 시장 전환 놓침, 2006년 PC 점유율 1위를 HP에 빼앗김, SEC 회계 부정 조사(2005-2010) 받음.",
+      "howTheyOvercameKo": "2007년 1월 마이클 델 CEO 복귀, $100M SEC 합의금 지불(2010), 노트북 라인 전면 재설계, Perot Systems 인수로 서비스 사업 진입. 모바일은 끝내 포기하고 엔터프라이즈로 우회.",
+      "lessonKo": "창업자가 분기 단위로 회사를 떠나면 안 된다. 하드웨어 품질·사업 모델 전환 같은 결정은 외부인이 단기 실적과 맞바꾸기 쉽다.",
+      "source": "https://www.britannica.com/money/Michael-Dell ; https://www.sec.gov/news/press/2010/2010-131.htm"
+    },
+    {
+      "year": 2013,
+      "age": 48,
+      "failure": "Dell's go-private LBO faced fierce opposition from Carl Icahn and Southeastern Asset Management who claimed Michael Dell was buying the company at a lowball price, costing public shareholders billions. Months of proxy war, multiple bid revisions, and threatened lawsuits — Michael Dell had to raise his offer twice.",
+      "failureKo": "Dell 비공개 전환 LBO에 Carl Icahn과 Southeastern Asset Management가 '마이클 델이 회사를 헐값에 사들여 일반 주주들에게 수십억 손실을 입힌다'며 격렬 반대. 수개월의 위임장 전쟁, 입찰가 수정, 소송 위협 — 마이클 델은 두 차례 인수가 인상.",
+      "howTheyOvercameKo": "Silver Lake와 함께 입찰가 인상($13.65→$13.75/share + special dividend), 의결권 기준 변경 협상, 결국 2013년 9월 주주 승인. 그러나 2016년 델라웨어 법원이 일부 주주 평가 청구에서 LBO 가격이 공정가치보다 낮았다고 인정, $35M+ 추가 지급.",
+      "lessonKo": "창업자가 본인 회사를 사는 거래는 본질적으로 이해상충 — 가격을 높여서라도 대주주 동의를 얻고 법원 리스크를 줄여야 한다.",
+      "source": "https://commoncog.com/c/cases/dells-go-private-and-second-ipo/ ; https://bsic.it/vintage-private-equity-deals-the-saga-of-silver-lake-dell/"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 1984, "age": 19, "netWorthUSD": 1000, "note": "PC's Limited 창업 시 본인 출자 $1,000" },
+    { "year": 1988, "age": 23, "netWorthUSD": 18000000, "note": "Dell IPO 직후 지분 가치, Forbes 추정" },
+    { "year": 1992, "age": 27, "netWorthUSD": 100000000, "note": "Fortune 500 최연소 CEO 등극" },
+    { "year": 2001, "age": 36, "netWorthUSD": 16000000000, "note": "PC 시장 1위 등극, 닷컴 버블 후" },
+    { "year": 2013, "age": 48, "netWorthUSD": 15000000000, "note": "LBO 비공개 전환 시점" },
+    { "year": 2018, "age": 53, "netWorthUSD": 27000000000, "note": "Dell Technologies 재상장" },
+    { "year": 2023, "age": 58, "netWorthUSD": 50000000000, "note": "AI 서버 수요로 DELL 주가 급등" },
+    { "year": 2026, "age": 61, "netWorthUSD": 147500000000, "note": "현재 — Nvidia 파트너십 + 생성형 AI 서버 수요 폭발" }
+  ],
+
+  "quotes": [
+    {
+      "quote": "Try never to be the smartest person in the room. And if you are, I suggest you invite smarter people, or find a different room.",
+      "quoteKo": "방 안에서 가장 똑똑한 사람이 되려 하지 마라. 만약 그렇다면 더 똑똑한 사람들을 초대하거나 다른 방을 찾아라.",
+      "contextKo": "마이클 델의 경영 철학을 요약하는 인용문, 다양한 인터뷰에서 반복.",
+      "source": "https://www.brainyquote.com/authors/michael-dell-quotes"
+    },
+    {
+      "quote": "Ideas are commodity. Execution of them is not.",
+      "quoteKo": "아이디어는 흔한 상품이다. 그것을 실행하는 것은 그렇지 않다.",
+      "contextKo": "Dell의 직판·BTO 모델 자체는 새롭지 않았으나 실행에서 IBM·Compaq을 압도한 본인 경험을 요약.",
+      "source": "https://www.britannica.com/money/Michael-Dell"
+    }
+  ],
+
+  "books": [
+    { "title": "Direct From Dell: Strategies That Revolutionized an Industry", "author": "Michael Dell with Catherine Fredman", "year": 1999, "noteKo": "Dell의 직판 모델 비즈니스 자서전." },
+    { "title": "Play Nice But Win: A CEO's Journey from Founder to Leader", "author": "Michael Dell with James Kaplan", "year": 2021, "noteKo": "2013 LBO와 2016 EMC 인수의 내막을 다룬 두 번째 회고록." }
+  ],
+
+  "personalTraits": [
+    "Direct-channel obsession — 40년간 BTO 직판 모델 고수",
+    "Founder control instinct — 2013 LBO로 비공개 전환까지 감행",
+    "Long-time horizon — 2013 LBO부터 2018 재상장까지 5년 변혁",
+    "Aggressive M&A — Perot, EMC, Boomi 등 대형 인수 결단력",
+    "Frugal personal style relative to wealth — 어린 시절 16세 BMW 외엔 과시 적음",
+    "Family business culture — 아내 Susan과 Foundation 공동 운영",
+    "Texas loyalty — 본사를 텍사스 라운드록에 유지, 텍사스대에 거액 기부",
+    "Detail-oriented operator — 직접 공장·창고 시찰 빈번"
+  ],
+
+  "characterKo": {
+    "strengths": "16세부터 데이터·직판 모델의 위력을 본능적으로 이해한 사업가 직관. 창업 40년간 회사 통제권을 놓치지 않는 집요함과 2013 LBO·2016 EMC 인수 같은 거대 베팅을 실행하는 결단력. 한 세대 만에 PC 회사에서 엔터프라이즈 인프라 거대 기업으로 회사를 재발명한 적응력. 전문 경영인에게 위임했다 실패한 후 즉시 복귀한 자기 인식.",
+    "weaknesses": "PC 마진 압박을 인지하면서도 모바일·스마트폰 시장 진입 시도 실패. 2004-2007 위임 시기의 회계 부정 조사, 노트북 품질 사고로 회사 신뢰도 손상. LBO 가격 공정성 시비로 법원에서 추가 지급 명령. 최근 AI 데이터센터 호황은 Nvidia GPU 통합 파트너로서의 운 좋은 위치 덕이 큼.",
+    "motivation": "16세 신문 영업 자금으로 BMW를 산 청소년의 자본주의적 본능. '의사보다 사업가'를 증명하려는 이민자(유대계) 가정의 입증 욕구. 회사 통제권을 절대 놓지 않으려는 창업자 본능 — 본인이 매각, 분사, 재상장의 모든 결정의 중심에 있어야 한다는 신념.",
+    "legacy": "PC 산업의 직판·BTO 모델을 정착시킨 인물이자, 2013년 LBO로 '창업자가 본인 회사를 다시 사들이는' 모델을 보여준 PE 역사의 사례. 텍사스 오스틴을 IT 허브로 만든 핵심 기업가. Dell Technologies는 AI 시대에도 Nvidia 서버 통합 1위로 다시 부상."
+  },
+
+  "sajuConnection": null
+}

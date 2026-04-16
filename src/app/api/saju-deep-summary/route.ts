@@ -1,0 +1,666 @@
+import OpenAI from 'openai';
+import type { NextRequest } from 'next/server';
+import { promises as fs } from 'fs';
+import path from 'path';
+import { rateLimit, getIp } from '@/lib/rateLimit';
+import { analyzeSaju } from '@/lib/saju/relationships';
+import { buildSajuContext } from '@/lib/saju/sajuContext';
+import { calculateDaeUn, getDaeUnSipSin } from '@/lib/saju/daewoon';
+import {
+  STEM_TO_OHAENG,
+  BRANCH_TO_OHAENG,
+  OHAENG_SANGSAENG,
+  OHAENG_SANGGEUK,
+} from '@/lib/saju/constants';
+import type {
+  SajuResult,
+  CheonGan,
+  JiJi,
+  OHaeng,
+} from '@/lib/saju/types';
+import { getFailureKo, type DeepBioV2 } from '@/lib/deepBio';
+
+/**
+ * POST /api/saju-deep-summary
+ *
+ * Streams a 5-section Korean 사주 풀이 focused on a single featured
+ * billionaire who has a v2 deep bio. Combines:
+ *   - the user's saju + 충합형
+ *   - the user's 대운 + 대운×원국 충극합
+ *   - the featured person's full v2 bio (capitalOrigin, moneyMechanics,
+ *     turningPoints, careerTimeline w/ whyItMatteredKo, failures w/
+ *     howTheyOvercameKo, characterKo)
+ *   - the featured person's 대운 + per-event 대운×원국 충극합
+ *
+ * The output is markdown with `## 1) ...` through `## 5) ...` headings.
+ * The client streams chunks and renders the markdown progressively.
+ *
+ * This is *additive* to /api/saju-summary — both run in parallel.
+ *
+ * Validated quality bar: scripts/test-musk-v2bio.ts
+ */
+
+export const runtime = 'nodejs';
+
+// ─── Request types ───
+
+interface SajuPillar {
+  stem: string;
+  branch: string;
+}
+
+interface UserSaju {
+  ilju: string;
+  wolji: string;
+  gyeokguk: string;
+  ilgan: string;
+  birthday: string; // YYYY-MM-DD
+  gender: 'M' | 'F';
+  year: SajuPillar;
+  month: SajuPillar;
+  day: SajuPillar;
+  hour?: SajuPillar | null;
+}
+
+interface FeaturedPerson {
+  id: string;
+  name: string;
+  nameKo?: string;
+  birthday: string; // YYYY-MM-DD
+  netWorth: number; // billions USD
+  nationality: string;
+  industry?: string;
+  gender: 'M' | 'F';
+  ilju: string;
+  wolji: string;
+  gyeokguk: string;
+  year: SajuPillar;
+  month: SajuPillar;
+  day: SajuPillar;
+  bio?: string;     // one-sentence summary (from enriched data)
+  bioKo?: string;
+  wealthOrigin?: string; // self-made / inherited / mixed
+}
+
+interface DeepSummaryInput {
+  user: UserSaju;
+  featured: FeaturedPerson;
+}
+
+// ─── 충극합 helpers (mirrors scripts/test-musk-v2bio.ts) ───
+
+const JIJI_CHUNG_PAIRS: ReadonlyArray<readonly [JiJi, JiJi]> = [
+  ['자', '오'],
+  ['축', '미'],
+  ['인', '신'],
+  ['묘', '유'],
+  ['진', '술'],
+  ['사', '해'],
+];
+
+const JIJI_YUKHAP: ReadonlyArray<readonly [JiJi, JiJi, OHaeng]> = [
+  ['자', '축', '토'],
+  ['인', '해', '목'],
+  ['묘', '술', '화'],
+  ['진', '유', '금'],
+  ['사', '신', '수'],
+  ['오', '미', '토'],
+];
+
+const JIJI_HYEONG: ReadonlyArray<readonly [JiJi, JiJi]> = [
+  ['인', '사'],
+  ['사', '신'],
+  ['인', '신'],
+  ['축', '술'],
+  ['술', '미'],
+  ['축', '미'],
+  ['자', '묘'],
+];
+
+function ohaengRelation(from: OHaeng, to: OHaeng): string {
+  if (from === to) return '비화(같은 오행)';
+  if (OHAENG_SANGSAENG[from] === to) return `${from}이 ${to}을(를) 생(돕는 관계)`;
+  if (OHAENG_SANGSAENG[to] === from) return `${to}이 ${from}을(를) 생(대운이 원국을 도움)`;
+  if (OHAENG_SANGGEUK[from] === to) return `${from}이 ${to}을(를) 극(때리는 관계)`;
+  if (OHAENG_SANGGEUK[to] === from) return `${to}이 ${from}을(를) 극(압박 받음)`;
+  return '중립';
+}
+
+function analyzeDaeUnRelation(
+  daeStem: CheonGan,
+  daeBranch: JiJi,
+  saju: SajuResult
+): string {
+  const lines: string[] = [];
+  const ilgan = saju.saju.day.stem as CheonGan;
+  const ilganEl = STEM_TO_OHAENG[ilgan];
+  const daeStemEl = STEM_TO_OHAENG[daeStem];
+  const daeBranchEl = BRANCH_TO_OHAENG[daeBranch];
+
+  lines.push(
+    `대운 천간 ${daeStem}(${daeStemEl}) vs 일간 ${ilgan}(${ilganEl}): ${ohaengRelation(daeStemEl, ilganEl)}`
+  );
+
+  const branches: Array<{ label: string; branch: JiJi }> = [
+    { label: '년지', branch: saju.saju.year.branch as JiJi },
+    { label: '월지', branch: saju.saju.month.branch as JiJi },
+    { label: '일지', branch: saju.saju.day.branch as JiJi },
+  ];
+
+  for (const { label, branch } of branches) {
+    const branchEl = BRANCH_TO_OHAENG[branch];
+    const isChung = JIJI_CHUNG_PAIRS.some(
+      ([a, b]) => (a === daeBranch && b === branch) || (b === daeBranch && a === branch)
+    );
+    if (isChung) {
+      lines.push(`⚠️ 대운 지지 ${daeBranch} ↔ ${label} ${branch}: ${daeBranch}${branch}충(정면 충돌)`);
+      continue;
+    }
+    const isHyeong = JIJI_HYEONG.some(
+      ([a, b]) => (a === daeBranch && b === branch) || (b === daeBranch && a === branch)
+    );
+    if (isHyeong) {
+      lines.push(`⚠️ 대운 지지 ${daeBranch} ↔ ${label} ${branch}: ${daeBranch}${branch}형(삐걱거림·법적 문제·수술)`);
+      continue;
+    }
+    const hap = JIJI_YUKHAP.find(
+      ([a, b]) => (a === daeBranch && b === branch) || (b === daeBranch && a === branch)
+    );
+    if (hap) {
+      lines.push(`✨ 대운 지지 ${daeBranch} ↔ ${label} ${branch}: 육합 → ${hap[2]} 기운 생성`);
+      continue;
+    }
+    const rel = ohaengRelation(daeBranchEl, branchEl);
+    if (rel !== '중립' && rel !== '비화(같은 오행)') {
+      lines.push(
+        `대운 지지 ${daeBranch}(${daeBranchEl}) vs ${label} ${branch}(${branchEl}): ${rel}`
+      );
+    }
+  }
+  return lines.join('\n');
+}
+
+function buildSajuResult(
+  pillars: { year: SajuPillar; month: SajuPillar; day: SajuPillar; hour?: SajuPillar | null },
+  ilju: string,
+  wolji: string,
+  gyeokguk: string
+): SajuResult {
+  return {
+    saju: {
+      year: { stem: pillars.year.stem as CheonGan, branch: pillars.year.branch as JiJi },
+      month: { stem: pillars.month.stem as CheonGan, branch: pillars.month.branch as JiJi },
+      day: { stem: pillars.day.stem as CheonGan, branch: pillars.day.branch as JiJi },
+      hour: pillars.hour
+        ? { stem: pillars.hour.stem as CheonGan, branch: pillars.hour.branch as JiJi }
+        : null,
+    },
+    gyeokguk: gyeokguk as SajuResult['gyeokguk'],
+    ilju,
+    wolji: wolji as JiJi,
+  };
+}
+
+// 1 USD = 1400 KRW; convert billion-USD to "약 X조 원"
+function formatKrw(netWorthUsdB: number): string {
+  const krwBillion = netWorthUsdB * 1400; // in 억 원
+  if (krwBillion >= 10000) {
+    const jo = krwBillion / 10000;
+    return `약 ${jo.toFixed(0)}조 원`;
+  }
+  return `약 ${Math.round(krwBillion).toLocaleString('ko-KR')}억 원`;
+}
+
+// ─── Prompt builder ───
+
+function buildPrompt(
+  user: UserSaju,
+  featured: FeaturedPerson,
+  bio: DeepBioV2
+): string {
+  const userSaju = buildSajuResult(user, user.ilju, user.wolji, user.gyeokguk);
+  const featuredSaju = buildSajuResult(featured, featured.ilju, featured.wolji, featured.gyeokguk);
+
+  const userAnalysis = analyzeSaju(userSaju);
+  const userContext = buildSajuContext(userSaju);
+  const userBirthYear = parseInt(user.birthday.slice(0, 4), 10);
+  const userDaeUn = calculateDaeUn(user.birthday, user.gender, userSaju);
+  const userIlgan = userSaju.saju.day.stem as CheonGan;
+  const userDaeUnWithYears = userDaeUn.periods
+    .slice(0, 8)
+    .map((p) => {
+      const sy = userBirthYear + p.startAge;
+      const ey = userBirthYear + p.endAge;
+      return `${p.startAge}~${p.endAge}세 (${sy}~${ey}년): ${p.pillar} → ${getDaeUnSipSin(userIlgan, p.stem as CheonGan)}운`;
+    })
+    .join('\n');
+  const userDaeUnRelations = userDaeUn.periods
+    .slice(0, 8)
+    .map((p) => {
+      const sy = userBirthYear + p.startAge;
+      const ey = userBirthYear + p.endAge;
+      const rel = analyzeDaeUnRelation(p.stem as CheonGan, p.branch as JiJi, userSaju);
+      return `### ${p.pillar} 대운 (${p.startAge}~${p.endAge}세, ${sy}~${ey}년)\n${rel}`;
+    })
+    .join('\n\n');
+
+  const featuredContext = buildSajuContext(featuredSaju);
+  const featuredBirthYear = parseInt(featured.birthday.slice(0, 4), 10);
+  const featuredDaeUn = calculateDaeUn(featured.birthday, featured.gender, featuredSaju);
+  const featuredIlgan = featuredSaju.saju.day.stem as CheonGan;
+  const featuredDaeUnWithYears = featuredDaeUn.periods
+    .slice(0, 8)
+    .map((p) => {
+      const sy = featuredBirthYear + p.startAge;
+      const ey = featuredBirthYear + p.endAge;
+      return `${p.startAge}~${p.endAge}세 (${sy}~${ey}년): ${p.pillar} → ${getDaeUnSipSin(featuredIlgan, p.stem as CheonGan)}운`;
+    })
+    .join('\n');
+
+  const featuredDaeUnRelations = featuredDaeUn.periods
+    .slice(0, 8)
+    .map((p) => {
+      const sy = featuredBirthYear + p.startAge;
+      const ey = featuredBirthYear + p.endAge;
+      const rel = analyzeDaeUnRelation(p.stem as CheonGan, p.branch as JiJi, featuredSaju);
+      return `### ${p.pillar} 대운 (${p.startAge}~${p.endAge}세, ${sy}~${ey}년)\n${rel}`;
+    })
+    .join('\n\n');
+
+  // age fallback: compute from year if bio entry lacks age field
+  const ageOf = (entry: { year: number; age?: number }) =>
+    entry.age ?? entry.year - featuredBirthYear;
+
+  // Bio-derived rich blocks
+  const timeline = bio.careerTimeline
+    .map((e) => {
+      const age = ageOf(e);
+      const period = featuredDaeUn.periods.find((p) => age >= p.startAge && age <= p.endAge);
+      const daeunInfo = period
+        ? `${period.pillar}·${getDaeUnSipSin(featuredIlgan, period.stem as CheonGan)}운`
+        : '?';
+      let block = `- ${e.year}년 (${age}세, ${daeunInfo}): ${e.eventKo}\n  의미: ${e.whyItMatteredKo}`;
+      if (e.whatTheyRiskedKo) block += `\n  건 것: ${e.whatTheyRiskedKo}`;
+      if (e.whoHelpedKo) block += `\n  도움: ${e.whoHelpedKo}`;
+      return block;
+    })
+    .join('\n\n');
+
+  const turningPoints = bio.turningPoints
+    .map((t) => {
+      const age = ageOf(t);
+      const period = featuredDaeUn.periods.find((p) => age >= p.startAge && age <= p.endAge);
+      const daeunInfo = period
+        ? `${period.pillar}·${getDaeUnSipSin(featuredIlgan, period.stem as CheonGan)}운`
+        : '?';
+      return `- ${t.year}년 (${age}세, ${daeunInfo}):\n  결정: ${t.decisionKo}\n  대안: ${t.alternativeKo}\n  결과: ${t.outcomeKo}`;
+    })
+    .join('\n\n');
+
+  const failures = bio.failures
+    .map((f) => {
+      const age = ageOf(f);
+      const period = featuredDaeUn.periods.find((p) => age >= p.startAge && age <= p.endAge);
+      const daeunInfo = period
+        ? `${period.pillar}·${getDaeUnSipSin(featuredIlgan, period.stem as CheonGan)}운`
+        : '?';
+      return `- ${f.year}년 (${age}세, ${daeunInfo}):\n  사건: ${getFailureKo(f)}\n  극복: ${f.howTheyOvercameKo}\n  교훈: ${f.lessonKo}`;
+    })
+    .join('\n\n');
+
+  const wealthHistory = bio.wealthHistory
+    .map((w) => `- ${w.year}년: $${w.netWorth}B`)
+    .join('\n');
+
+  // Per-event 충극합 — careerTimeline + failures
+  const keyEvents = [
+    ...bio.careerTimeline.slice(0, 6).map((e) => ({ year: e.year, age: ageOf(e), label: e.eventKo })),
+    ...bio.failures.map((f) => ({ year: f.year, age: ageOf(f), label: getFailureKo(f).slice(0, 40) })),
+  ];
+  const keyEventRelations = keyEvents
+    .map((e) => {
+      const period = featuredDaeUn.periods.find((p) => e.age >= p.startAge && e.age <= p.endAge);
+      if (!period) return '';
+      const rel = analyzeDaeUnRelation(period.stem as CheonGan, period.branch as JiJi, featuredSaju);
+      return `### ${e.year}년 (${e.age}세, ${period.pillar} 대운) — ${e.label}\n${rel}`;
+    })
+    .filter(Boolean)
+    .join('\n\n');
+
+  // Determine which saju elements are actually shared (for section 1)
+  const sharedElements: string[] = [];
+  if (user.ilju === featured.ilju) sharedElements.push(`같은 ${featured.ilju} 일주`);
+  if (
+    user.month.stem === featured.month.stem &&
+    user.month.branch === featured.month.branch
+  ) {
+    sharedElements.push(`같은 ${featured.month.stem}${featured.month.branch} 월주`);
+  } else if (user.wolji === featured.wolji) {
+    sharedElements.push(`같은 ${featured.wolji} 월지`);
+  }
+  if (user.gyeokguk === featured.gyeokguk) sharedElements.push(`같은 ${featured.gyeokguk}`);
+  const sharedText = sharedElements.length > 0 ? sharedElements.join('·') : '비슷한 사주 구조';
+
+  const featuredName = featured.nameKo ?? featured.name;
+  const netWorthKr = formatKrw(featured.netWorth);
+
+  const mm = bio.moneyMechanics;
+  const ch = bio.characterKo;
+  const co = bio.capitalOrigin;
+  const cd = bio.childhood;
+
+  return `당신은 40년 경력의 한국 사주명리학 대가입니다.
+
+# 십성 용어 정의 (반드시 이 정의대로 해석하세요)
+- 비견: 같은 오행·같은 음양. 형제·동료·경쟁자. 자립·자아 강화.
+- 겁재: 같은 오행·다른 음양. 경쟁자·협력자. 큰 판 벌이기, 재산의 유입과 유출 동시.
+- 식신: 내가 생하는 오행·같은 음양. 표현·창조·여유. 일상의 즐거움, 지속 가능한 생산.
+- 상관: 내가 생하는 오행·다른 음양. 재능·표현·반항. 권위에 대한 도전, 빛나는 재능.
+- 편재: 내가 극하는 오행·같은 음양. 큰 돈·활동 자금·기회. 유동적이고 큰 재물.
+- 정재: 내가 극하는 오행·다른 음양. 안정적 수입·월급·정해진 재물.
+- 편관(칠살): 나를 극하는 오행·같은 음양. 권력·압박·도전. 살기 있는 변화, 큰 성취의 대가.
+- 정관: 나를 극하는 오행·다른 음양. 명예·직위·안정적 권위.
+- 편인: 나를 생하는 오행·같은 음양. 비정통 학습·직관·편협한 지식. 고독한 연구.
+- 정인: 나를 생하는 오행·다른 음양. 어머니·학문·보호·안정.
+
+# 대운 해석 절대 규칙
+- 아래 제공된 "대운 (연도 매핑)" 표의 대운 이름과 연도를 반드시 그대로 인용.
+- 표에 없는 대운을 쓰거나, 연도-대운 매칭을 바꾸지 마세요.
+- 대운 표를 다시 출력하지 마세요. 해석 산문만.
+
+# 사용자 사주 (${user.gender === 'M' ? '남성' : '여성'}, ${user.birthday})
+- 일주: ${user.ilju} / 일간: ${user.ilgan} / 월지: ${user.wolji} / 격국: ${user.gyeokguk}
+${userContext}
+
+# 사용자 충합형 분석
+${userAnalysis.summaryKo}
+
+# 사용자 대운 (연도 매핑)
+${userDaeUnWithYears}
+
+# 사용자 대운 × 원국 충극합 분석 (사전 계산)
+${userDaeUnRelations}
+
+# 매칭된 부자: ${featuredName}
+- 순자산: ${featured.netWorth ? `$${featured.netWorth}B (${netWorthKr})` : netWorthKr}
+- 생년월일: ${featured.birthday}, ${featured.gender === 'M' ? '남성' : '여성'}
+- 일주: ${featured.ilju} / 월지: ${featured.wolji} / 격국: ${featured.gyeokguk}
+- 출생지: ${cd.birthPlaceKo}
+- 성장배경: ${cd.familyBackgroundKo}
+- 자본 기원: ${co.typeKo} — ${co.explanationKo}
+
+## ${featuredName}의 돈을 번 구조 (moneyMechanics)
+- 핵심 사업: ${mm.coreBusinessKo}
+- 해자(moat): ${mm.moatKo}
+- 운 vs 실력: ${mm.luckVsSkillKo}
+- 정치 자본: ${mm.politicalCapitalKo}
+- 자본 이력: ${mm.capitalHistoryKo}
+
+## ${featuredName}의 관찰된 성격 (characterKo)
+- 특징: ${ch.observedTraitsKo}
+- 리더십: ${ch.leadershipStyleKo}
+- 갈등 대응: ${ch.conflictBehaviorKo}
+- 특이점: ${ch.knownQuirksKo}
+
+## ${featuredName}의 사주 해석
+${featuredContext}
+
+## ${featuredName}의 대운 (연도 매핑 — 반드시 이 연도를 사용하세요)
+${featuredDaeUnWithYears}
+
+## ${featuredName}의 각 대운 × 원국 충극합 분석 (사전 계산됨)
+${featuredDaeUnRelations}
+
+## 🎯 ${featuredName} 주요 사건 연도의 대운 × 원국 충극합 (섹션 4·5에서 반드시 인용)
+${keyEventRelations}
+
+## ${featuredName}의 커리어 타임라인 (대운 매칭 + 의미·건 것·도움 포함)
+${timeline}
+
+## ${featuredName}의 결정적 선택 (turning points)
+${turningPoints}
+
+## ${featuredName}의 실패와 위기 (극복 과정 포함)
+${failures}
+
+## ${featuredName}의 순자산 변화
+${wealthHistory}
+
+# 작성 지침
+
+아래 5개 섹션 마크다운 헤딩(##)으로 구분. 각 섹션 3-4문장.
+
+**1) 당신의 사주 + 부자와의 연결 (가장 중요)**
+
+반드시 아래 두 문장 구조로. 따옴표(" " 또는 ' ')로 감싸지 말고 평문 산문으로.
+
+문장 1 — 사용자의 사주를 일주 성격 데이터 기반으로 구체적으로:
+"[위 '${user.ilju} 일주 해석' 블록의 traits에서 가장 인상적인 특징 2개를 뽑아 자연어로], [${user.gyeokguk}의 핵심 특성 한 줄]을 가진 당신은 [이 조합이 만드는 구체적 재능/기질, 그림이 그려지는 문장]."
+
+문장 2 — 부자 매칭 (순자산 숫자는 아래 그대로 복사할 것):
+"당신처럼 ${sharedText}을(를) 가진 ${featuredName}은(는) [부자가 부자가 된 메커니즘 — 구체적 사업·연도]으로 **${netWorthKr}**을 축적했습니다."
+⚠️ 순자산은 반드시 "${netWorthKr}" 그대로. 이 숫자를 변경·축소·반올림하면 안 됩니다.
+
+### 절대 규칙
+- **따옴표(" " ' ')로 문장을 감싸지 마세요. 일반 평문으로 시작.**
+- **일주 성격 표현 규칙**:
+  - 위에 제공된 "${user.ilju} 일주 해석" 블록의 **traits** 항목(예: "지적 호기심이 강함", "위기 상황에서 냉철한 판단력")에서 2개를 골라 **자연스러운 산문으로 변환**해 쓸 것.
+  - "큰 나무", "깊은 물", "논밭" 같은 **오행 자연물 비유 금지** — 식상함. traits의 실제 성격·능력 키워드를 살려 쓸 것.
+  - stemDescription·branchDescription은 **참고만** 하고 그대로 인용 금지.
+  - 예: traits에 "지적 호기심이 강함", "위기 상황에서 냉철한 판단력"이면 → "호기심이 많아 모르는 세계를 파고드는 집중력과 위기 때 오히려 냉정해지는 판단력의 갑자 일주"
+- **격국 특징도 실용적으로**: "(상관격이라 기존 질서에 도전하고 표현력이 빛나는)" 식으로 괄호 안 짧게.
+- **공유 사주 표현**: "당신처럼 [공유요소]을 가진 [부자]" 형식. "같은" 반복 최소화 — "같은 X·Y·Z" 대신 "당신처럼 X이자 Y인" 식으로 자연스럽게.
+- **출생지**: 부자의 사업과 직접 관련 있을 때만 짧게. 아니면 생략.
+- **순자산**: 반드시 위에 제공된 "${netWorthKr}" 숫자를 그대로 사용. 임의로 줄이거나 바꾸지 말 것.
+- 추상어 금지 — "과감히 나아가는 능력" 같은 표현 대신 구체적 행동 그림.
+
+**섹션 1은 위 두 문장만. 추가 문장 금지.**
+
+**2) ${featuredName}의 사주 해석**
+
+같은 ${featured.ilju} 일주·${featured.gyeokguk}이 부자의 실제 인생에서 어떻게 구현됐는지. moneyMechanics의 자본 기원과 characterKo(관찰된 성격)를 사주 특성과 연결. 3-4문장.
+
+**3) 당신과 ${featuredName}의 공통점 — 구조적 유사성**
+
+${user.ilgan} 일간, 일지·월지·격국 등 사주 구조의 공통점을 구체적으로. 단, 부자에게는 어떤 '외부 레버'가 있었는지(자본·정치·가문)도 짚어 차이를 명시. 3-4문장.
+
+**4) ${featuredName}의 인생 결정적 순간들**
+
+부자의 인생에서 가장 결정적인 사건 2-3개를 위 careerTimeline/turningPoints/failures에서 골라 **사실 위주로** 짧게 서술하세요.
+
+### 작성 규칙
+- **명리학 용어(대운, 충, 형, 합, 생극) 일절 사용 금지.** 대운 분석 빼세요.
+- 각 사건은 "[연도]년([나이]세)" 형식으로 시점만 표시. "X 대운에서 ~한 관계로" 식의 명리학 인과 분석 금지.
+- 사실 + 결과만 간결히. "왜" 대신 "무엇이 일어났는지"만.
+- 마지막 문장에서 사용자에게 한 줄 메시지. 진부한 격려("좋은 시기가 오길 바랍니다") 금지. 부자의 패턴에서 한 줄 교훈을 추출해 사용자에게 적용 — 예: "이재용처럼 30대 중반에 큰 책임이 갑자기 주어지는 순간이 와도, 49세의 시련처럼 정점에는 반드시 대가가 따른다는 것을 기억하세요."
+- 3-4문장.
+
+### 좋은 예시 (참고만, 그대로 복사 금지)
+"이재용은 1996년(28세) 삼성에버랜드 전환사채를 헐값에 매입해 그룹 지배구조의 정점으로 올라섰고, 2014년(46세) 부친 의식불명 후 사실상 그룹 총수가 되었습니다. 그러나 2017년(49세) 박근혜·최순실 게이트로 수감되는 시련을 겪었고, 2024년(56세) 모든 혐의 무죄로 7년의 사법 리스크에서 벗어났습니다. 당신에게도 30대 중반에 큰 책임이 갑자기 주어지는 순간이 올 수 있습니다."
+
+톤: 자연스러운 한국어 경어체. 명리학 용어 쓰되 괄호 안에 쉬운 설명. 마크다운 헤딩(##)으로 섹션 구분. 영어·null 절대 불가.`;
+}
+
+// ─── Light prompt (no v2 bio — enriched data only) ───
+
+function buildLightPrompt(
+  user: UserSaju,
+  featured: FeaturedPerson
+): string {
+  const userSaju = buildSajuResult(user, user.ilju, user.wolji, user.gyeokguk);
+  const featuredSaju = buildSajuResult(featured, featured.ilju, featured.wolji, featured.gyeokguk);
+
+  const userContext = buildSajuContext(userSaju);
+  const featuredContext = buildSajuContext(featuredSaju);
+
+  const netWorthKr = formatKrw(featured.netWorth);
+  const featuredName = featured.nameKo ?? featured.name;
+
+  // Determine shared saju elements
+  const sharedElements: string[] = [];
+  if (user.ilju === featured.ilju) sharedElements.push(`${featured.ilju} 일주`);
+  if (
+    user.month.stem === featured.month.stem &&
+    user.month.branch === featured.month.branch
+  ) {
+    sharedElements.push(`${featured.month.stem}${featured.month.branch} 월주`);
+  } else if (user.wolji === featured.wolji) {
+    sharedElements.push(`${featured.wolji} 월지`);
+  }
+  if (user.gyeokguk === featured.gyeokguk) sharedElements.push(`${featured.gyeokguk}`);
+  const sharedText = sharedElements.length > 0 ? sharedElements.join('·') : '비슷한 사주 구조';
+
+  const industry = featured.industry ?? '사업';
+  const origin = featured.wealthOrigin === 'self-made' ? '자수성가'
+    : featured.wealthOrigin === 'inherited' ? '가업 승계'
+    : featured.wealthOrigin === 'mixed' ? '가업 기반 확장' : '';
+  const bioLine = featured.bioKo ?? featured.bio ?? '';
+
+  return `당신은 40년 경력의 한국 사주명리학 대가입니다.
+
+# 사용자 사주 (${user.gender === 'M' ? '남성' : '여성'}, ${user.birthday})
+- 일주: ${user.ilju} / 일간: ${user.ilgan} / 월지: ${user.wolji} / 격국: ${user.gyeokguk}
+${userContext}
+
+# 매칭된 부자: ${featuredName}
+- 순자산: ${netWorthKr}
+- 산업: ${industry}
+- 국적: ${featured.nationality}
+${origin ? `- 부의 원천: ${origin}` : ''}
+${bioLine ? `- 한 줄 소개: ${bioLine}` : ''}
+- 일주: ${featured.ilju} / 월지: ${featured.wolji} / 격국: ${featured.gyeokguk}
+
+## ${featuredName}의 사주 해석
+${featuredContext}
+
+# 작성 지침
+
+아래 2개 섹션으로 나누어 작성하세요. 마크다운 헤딩(##)으로 구분.
+
+**1) 당신의 사주 + 부자와의 연결**
+
+문장 1: 위 "${user.ilju} 일주 해석" 블록의 **traits** 항목에서 가장 인상적인 특징 2개를 골라 자연스러운 산문으로 쓰고, ${user.gyeokguk}의 핵심 특성을 괄호로 명시. 이 조합이 만드는 구체적 재능/기질을 그림이 그려지는 문장으로.
+
+문장 2: "당신처럼 ${sharedText}을(를) 가진 ${featuredName}은(는) [${industry} 분야에서 어떻게 성공했는지 한 줄]으로 **${netWorthKr}**을 축적했습니다."
+
+### 절대 규칙
+- 따옴표로 감싸지 말 것. 평문 산문.
+- "큰 나무", "깊은 물" 같은 오행 자연물 비유 금지. traits의 실제 성격 키워드로.
+- "같은" 반복 최소화. "당신처럼" 형식.
+- 순자산은 반드시 "${netWorthKr}" 그대로. 변경 금지.
+- 섹션 1은 위 두 문장만. 추가 문장 금지.
+
+**2) 당신과 ${featuredName}의 공통점**
+
+${user.ilgan} 일간, 일지·격국 등 사주 구조의 공통점을 구체적으로. 같은 격국이 어떤 재물·성공 패턴을 공유하는지.${origin === '가업 승계' || origin === '가업 기반 확장' ? ` 단, ${featuredName}에게는 가문 자본이라는 외부 레버가 있었다는 차이도 짚을 것.` : ''} 2-3문장.
+
+톤: 자연스러운 한국어 경어체. 명리학 용어 쓰되 괄호 안에 쉬운 설명. 마크다운 헤딩(##)으로 섹션 구분. 영어·null 절대 불가.`;
+}
+
+// ─── Route handler ───
+
+async function loadV2Bio(personId: string): Promise<DeepBioV2 | null> {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'deep-bios-v2', `${personId}.json`);
+    const raw = await fs.readFile(filePath, 'utf8');
+    return JSON.parse(raw) as DeepBioV2;
+  } catch {
+    return null;
+  }
+}
+
+export async function POST(req: NextRequest) {
+  const ip = getIp(req);
+  const { allowed } = await rateLimit('saju-deep-summary', ip, 10, 60);
+  if (!allowed) {
+    return new Response('Too many requests — please wait a moment', { status: 429 });
+  }
+  if (!process.env.OPENAI_API_KEY) {
+    return new Response('OPENAI_API_KEY not configured', { status: 500 });
+  }
+
+  let body: DeepSummaryInput;
+  try {
+    body = (await req.json()) as DeepSummaryInput;
+  } catch {
+    return new Response('Invalid JSON body', { status: 400 });
+  }
+
+  if (!body?.user?.ilju || !body?.featured?.id) {
+    return new Response('Missing user or featured', { status: 400 });
+  }
+
+  const bio = await loadV2Bio(body.featured.id);
+
+  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  const prompt = bio
+    ? buildPrompt(body.user, body.featured, bio)
+    : buildLightPrompt(body.user, body.featured);
+  const maxTokens = bio ? 2500 : 1000;
+
+  const encoder = new TextEncoder();
+  const upstreamAbort = new AbortController();
+  let closed = false;
+
+  req.signal.addEventListener('abort', () => {
+    closed = true;
+    upstreamAbort.abort();
+  });
+
+  const readable = new ReadableStream<Uint8Array>({
+    async start(controller) {
+      try {
+        const stream = await client.chat.completions.create(
+          {
+            model: 'gpt-4o-mini',
+            max_tokens: maxTokens,
+            stream: true,
+            messages: [{ role: 'user', content: prompt }],
+          },
+          { signal: upstreamAbort.signal },
+        );
+
+        for await (const chunk of stream) {
+          if (closed) break;
+          const delta = chunk.choices[0]?.delta?.content;
+          if (delta) {
+            controller.enqueue(encoder.encode(delta));
+          }
+        }
+        if (!closed) closed = true;
+        try {
+          controller.close();
+        } catch {
+          // already closed
+        }
+      } catch (err) {
+        const isAbort =
+          (err instanceof Error && err.name === 'AbortError') || closed;
+        if (!isAbort) {
+          const msg = err instanceof Error ? err.message : 'stream error';
+          console.error('[saju-deep-summary] stream failed:', msg);
+        }
+        if (!closed) {
+          try {
+            controller.error(err);
+          } catch {
+            // already torn down
+          }
+          closed = true;
+        }
+      }
+    },
+    cancel() {
+      closed = true;
+      upstreamAbort.abort();
+    },
+  });
+
+  return new Response(readable, {
+    headers: {
+      'Content-Type': 'text/plain; charset=utf-8',
+      'Cache-Control': 'no-store',
+      'X-Accel-Buffering': 'no',
+    },
+  });
+}

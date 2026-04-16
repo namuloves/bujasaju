@@ -55,7 +55,7 @@ function parsePillar(h: string): Ju {
 // ---- Gyeokguk (mirrors src/lib/saju/gyeokguk.ts) ----
 
 const WOLJI_JANGGAN: Record<JiJi, CheonGan> = {
-  '자':'임', '축':'기', '인':'갑', '묘':'을', '진':'무', '사':'병',
+  '자':'계', '축':'기', '인':'갑', '묘':'을', '진':'무', '사':'병',
   '오':'정', '미':'기', '신':'경', '유':'신', '술':'무', '해':'임',
 };
 

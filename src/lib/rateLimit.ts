@@ -18,7 +18,7 @@ function getRedis(): Redis {
   if (_redis) return _redis;
   const url = process.env.KV_REST_API_URL;
   const token = process.env.KV_REST_API_TOKEN;
-  if (!url || !token) throw new Error('KV env vars not configured');
+  if (!url || !token) return null as unknown as Redis;
   _redis = new Redis({ url, token });
   return _redis;
 }
@@ -30,6 +30,7 @@ export async function rateLimit(
   windowSeconds: number,
 ): Promise<{ allowed: boolean; remaining: number }> {
   const redis = getRedis();
+  if (!redis) return { allowed: true, remaining: maxRequests };
   const key = `rl:${route}:${ip}`;
   const now = Date.now();
   const windowStart = now - windowSeconds * 1000;
