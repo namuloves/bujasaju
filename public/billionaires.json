@@ -43725,11 +43725,12 @@
     "industry": "Entertainment",
     "gender": "M",
     "source": "JYP Entertainment",
-    "bio": "Park Jin-young, known as J.Y. Park or JYP, is a South Korean singer, songwriter, record producer, and founder of JYP Entertainment, one of the Big 3 entertainment agencies in South Korea. He has produced and mentored acts like Wonder Girls, 2PM, GOT7, TWICE, Stray Kids, and ITZY.",
-    "bioKo": "박진영(J.Y. Park, JYP)은 대한민국의 가수, 작곡가, 음반 프로듀서이자 한국 3대 엔터테인먼트 기업 JYP엔터테인먼트의 창립자이다. 원더걸스, 2PM, GOT7, 트와이스, 스트레이 키즈, ITZY 등을 프로듀싱했다.",
+    "bio": "Park Jin-young (J.Y. Park, JYP) is a South Korean singer, songwriter, record producer, and founder of JYP Entertainment. Net worth here is an estimate based on his ~15% listed stake in JYP Entertainment, which fluctuates with share price.",
+    "bioKo": "박진영(J.Y. Park, JYP)은 대한민국의 가수, 작곡가, 음반 프로듀서이자 JYP엔터테인먼트의 창립자이다. 표시된 자산은 JYP엔터 상장 지분(약 15%)의 공시 가치를 기반으로 한 추정치이며, 시가 변동에 따라 달라진다.",
     "nameKo": "박진영",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Park_Jin-young_%28Founder_of_JYP_Entertainment%29_in_February_2011_from_acrofan.jpg/400px-Park_Jin-young_%28Founder_of_JYP_Entertainment%29_in_February_2011_from_acrofan.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Park_Jin-young_%28Founder_of_JYP_Entertainment%29_in_February_2011_from_acrofan.jpg/400px-Park_Jin-young_%28Founder_of_JYP_Entertainment%29_in_February_2011_from_acrofan.jpg",
+    "netWorthEstimated": true
   },
   {
     "id": "3005",
@@ -43740,23 +43741,25 @@
     "industry": "Entertainment",
     "gender": "M",
     "source": "Music",
-    "bio": "PSY (Park Jae-sang) is a South Korean singer and rapper who achieved global fame with \"Gangnam Style\" in 2012, the first YouTube video to reach 1 billion views. He founded P Nation entertainment and continues to be one of Korea's most recognized artists worldwide.",
-    "bioKo": "싸이(박재상)는 2012년 \"강남스타일\"로 세계적 명성을 얻은 대한민국의 가수이자 래퍼이다. 유튜브 최초 10억 뷰를 달성했으며, 피네이션을 설립하여 운영하고 있다.",
+    "bio": "PSY (Park Jae-sang) is a South Korean singer who achieved global fame with \"Gangnam Style\" in 2012. Net worth here is a press estimate, not an official figure.",
+    "bioKo": "싸이(박재상)는 2012년 \"강남스타일\"로 세계적 명성을 얻은 대한민국의 가수이자 래퍼이다. 피네이션을 설립하여 운영하고 있다. 표시된 자산은 본인이 공식 발표한 금액이 아닌 언론 추정치이다.",
     "nameKo": "싸이",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/PSY_EMTV_logo_27_%288198008711%29.jpg/400px-PSY_EMTV_logo_27_%288198008711%29.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/PSY_EMTV_logo_27_%288198008711%29.jpg/400px-PSY_EMTV_logo_27_%288198008711%29.jpg",
+    "netWorthEstimated": true
   },
   {
     "id": "3006",
     "name": "Rain",
     "birthday": "1982-06-25",
-    "netWorth": 0.07,
+    "netWorth": 0.062,
+    "netWorthEstimated": true,
     "nationality": "KR",
     "industry": "Entertainment",
     "gender": "M",
     "source": "Music & Acting",
-    "bio": "Rain (Jung Ji-hoon) is a South Korean singer, actor, and businessman. A Hallyu star who broke into Hollywood, he is known for his music career, acting roles, and savvy real estate investments including a landmark building purchase in Gangnam for 92 billion won.",
-    "bioKo": "비(정지훈)는 대한민국의 가수, 배우, 사업가이다. 할리우드에도 진출한 한류 스타로, 음악 활동과 연기, 그리고 강남 빌딩 920억 원 매입 등 부동산 투자로 유명하다.",
+    "bio": "Rain (Jung Ji-hoon) is a South Korean singer, actor, and businessman. Net worth here reflects only his publicly reported Gangnam Station building purchase of approximately 92 billion KRW (≈ US$62M) in 2021 — press estimate, not an official figure.",
+    "bioKo": "비(정지훈)는 대한민국의 가수, 배우, 사업가이다. 여기 표시된 자산은 2021년 언론에 보도된 강남역 인근 빌딩 약 920억 원(약 6,200만 달러) 매입 건 하나만을 반영한 언론 추정치이며, 본인이 공식 발표한 금액이 아닙니다.",
     "nameKo": "비",
     "wealthOrigin": "self-made",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rain_%28entertainer%29_in_March_2026.png/400px-Rain_%28entertainer%29_in_March_2026.png"
@@ -43771,10 +43774,11 @@
     "gender": "M",
     "source": "BTS / HYBE",
     "bio": "Jungkook (Jeon Jung-kook) is the youngest member (maknae) and main vocalist of BTS. His solo single \"Seven\" spent weeks at #1 on the Billboard Hot 100, making him one of the most commercially successful Korean solo artists. He holds HYBE shares.",
-    "bioKo": "정국(전정국)은 BTS의 막내이자 메인 보컬이다. 솔로 싱글 \"Seven\"이 빌보드 핫 100 1위를 기록하며 한국 솔로 아티스트 중 가장 상업적으로 성공한 아티스트 중 한 명이 되었다.",
+    "bioKo": "정국(전정국)은 BTS의 막내이자 메인 보컬이다. 솔로 싱글 \"Seven\"이 빌보드 핫 100 1위를 기록했다. 표시된 자산은 본인이 공식 발표한 금액이 아닌 언론 추정치이다.",
     "nameKo": "정국 (전정국)",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Jung_Kook_of_BTS%2C_February_12%2C_2026_%281%29.png/400px-Jung_Kook_of_BTS%2C_February_12%2C_2026_%281%29.png"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Jung_Kook_of_BTS%2C_February_12%2C_2026_%281%29.png/400px-Jung_Kook_of_BTS%2C_February_12%2C_2026_%281%29.png",
+    "netWorthEstimated": true
   },
   {
     "id": "3016",
@@ -44207,16 +44211,17 @@
     "id": "3345",
     "name": "Lee Soo-man",
     "birthday": "1952-06-18",
-    "netWorth": 0.27,
+    "netWorth": 0.153,
     "nationality": "KR",
     "industry": "Entertainment",
     "gender": "M",
     "source": "SM Entertainment",
-    "bio": "Lee Soo-man is a South Korean businessman and record producer who founded SM Entertainment in 1995. He pioneered the K-pop idol training system and built acts like H.O.T., TVXQ, Super Junior, Girls Generation, EXO, Red Velvet, and aespa.",
-    "bioKo": "이수만은 1995년 SM엔터테인먼트를 설립한 대한민국의 사업가이자 음반 프로듀서이다. K-pop 아이돌 육성 시스템을 개척하고 H.O.T., 동방신기, 슈퍼주니어, 소녀시대, 엑소, 레드벨벳, 에스파 등을 배출했다.",
+    "bio": "Lee Soo-man founded SM Entertainment in 1995. Net worth here reflects the press-reported 2023 sale of his 14.8% SM stake to Kakao for approximately 227.1 billion KRW (≈ US$153M) — press estimate, not an official figure.",
+    "bioKo": "이수만은 1995년 SM엔터테인먼트를 설립한 대한민국의 사업가이자 음반 프로듀서이다. 표시된 자산은 2023년 카카오에 SM 지분 14.8%를 매각한 금액(약 2,271억 원, 약 1억 5,300만 달러)을 기준으로 한 언론 추정치이다.",
     "nameKo": "이수만",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Lee_Soo-man_in_2024.jpg/400px-Lee_Soo-man_in_2024.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Lee_Soo-man_in_2024.jpg/400px-Lee_Soo-man_in_2024.jpg",
+    "netWorthEstimated": true
   },
   {
     "id": "3346",
@@ -44227,11 +44232,12 @@
     "industry": "Entertainment",
     "gender": "M",
     "source": "YG Entertainment",
-    "bio": "Yang Hyun-suk is a South Korean music executive, rapper, and co-founder of YG Entertainment. A former member of Seo Taiji and Boys, he built YG into one of Korea's Big 3 agencies, producing BIGBANG, 2NE1, WINNER, iKON, and BLACKPINK.",
-    "bioKo": "양현석은 대한민국의 음악 사업가이자 YG엔터테인먼트의 공동 창립자이다. 서태지와 아이들의 전 멤버로, YG를 한국 3대 기획사로 키우며 빅뱅, 2NE1, 위너, 아이콘, 블랙핑크를 배출했다.",
+    "bio": "Yang Hyun-suk is the founder of YG Entertainment. Net worth here is an estimate based on his ~17% listed YG stake and press-reported real estate holdings.",
+    "bioKo": "양현석은 YG엔터테인먼트의 창립자이자 K-pop 프로듀서이다. 표시된 자산은 YG엔터 상장 지분(약 17%)과 언론에 보도된 부동산을 근거로 한 추정치이다.",
     "nameKo": "양현석",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/161110_%EC%96%91%ED%98%84%EC%84%9D.png"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/161110_%EC%96%91%ED%98%84%EC%84%9D.png",
+    "netWorthEstimated": true
   },
   {
     "id": "3347",
@@ -44242,23 +44248,25 @@
     "industry": "Entertainment",
     "gender": "M",
     "source": "TV hosting",
-    "bio": "Yoo Jae-suk is South Korea's most beloved TV host, known as the \"Nation's MC.\" He has hosted landmark variety shows including Infinite Challenge, Running Man, and Hangout With Yoo. His wealth comes from TV appearances, advertising, and real estate investments.",
-    "bioKo": "유재석은 \"국민 MC\"로 불리는 대한민국 최고의 방송인이다. 무한도전, 런닝맨, 놀면 뭐하니? 등의 간판 예능 프로그램을 진행했으며, 방송 출연료, 광고, 부동산 투자로 자산을 축적했다.",
+    "bio": "Yoo Jae-suk is South Korea's most beloved television host. Net worth here is a press estimate, not an official figure.",
+    "bioKo": "유재석은 대한민국 최고의 방송인이자 국민MC이다. 표시된 자산은 본인이 공식 발표한 금액이 아닌 언론 추정치이다.",
     "nameKo": "유재석",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Yoo_Jae_Suk_going_to_work_at_Happy_Together_on_August_19%2C_2017_%281%29.jpg/400px-Yoo_Jae_Suk_going_to_work_at_Happy_Together_on_August_19%2C_2017_%281%29.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Yoo_Jae_Suk_going_to_work_at_Happy_Together_on_August_19%2C_2017_%281%29.jpg/400px-Yoo_Jae_Suk_going_to_work_at_Happy_Together_on_August_19%2C_2017_%281%29.jpg",
+    "netWorthEstimated": true
   },
   {
     "id": "3348",
     "name": "Jun Ji-hyun",
     "birthday": "1981-10-30",
-    "netWorth": 0.13,
+    "netWorth": 0.0155,
+    "netWorthEstimated": true,
     "nationality": "KR",
     "industry": "Entertainment",
     "gender": "F",
     "source": "Acting",
-    "bio": "Jun Ji-hyun (Gianna Jun) is one of South Korea's highest-paid actresses, known for My Sassy Girl, My Love from the Star, and Kingdom: Ashin of the North. She has amassed significant wealth through acting fees, endorsements, and strategic real estate investments in Gangnam and Cheongdam-dong.",
-    "bioKo": "전지현은 대한민국 최고 배우 중 한 명으로, 엽기적인 그녀, 별에서 온 그대, 킹덤: 아신전 등으로 유명하다. 출연료, 광고, 강남·청담동 부동산 투자로 큰 자산을 축적했다.",
+    "bio": "Jun Ji-hyun (Gianna Jun) is one of South Korea's highest-paid actresses. Net worth here reflects only press-reported Gangnam/Cheongdam-dong real estate holdings totaling roughly 23 billion KRW (≈ US$15.5M) — press estimate, not an official figure.",
+    "bioKo": "전지현은 대한민국 최고 배우 중 한 명이다. 여기 표시된 자산은 언론에 보도된 강남·청담동 부동산 보유 합계(약 230억 원 ≈ 1,550만 달러) 수준만 반영한 언론 추정치이며, 본인이 공식 발표한 금액이 아닙니다.",
     "nameKo": "전지현",
     "wealthOrigin": "self-made",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jun_Ji-hyun_in_April_2026.png/400px-Jun_Ji-hyun_in_April_2026.png"
@@ -44272,11 +44280,12 @@
     "industry": "Entertainment",
     "gender": "M",
     "source": "BTS / HYBE",
-    "bio": "RM (Kim Nam-joon) is the leader and main rapper of BTS, the globally successful K-pop group. He holds shares in HYBE Corporation and earns from music royalties, performances, and endorsements. Known for his high IQ and introspective songwriting.",
-    "bioKo": "RM(김남준)은 세계적 K-pop 그룹 BTS의 리더이자 메인 래퍼이다. 하이브 주식을 보유하고 있으며, 음악 저작권료, 공연, 광고 수입을 올리고 있다. 높은 지능과 사색적인 작사로 유명하다.",
+    "bio": "RM (Kim Nam-joon) is the leader and main rapper of BTS, the globally successful K-pop group. He holds shares in HYBE Corporation and earns from music royalties, performances, and endorsements. Known for his high IQ and introspective songwriting. Net worth here is a press estimate, not an official figure.",
+    "bioKo": "RM(김남준)은 세계적 K-pop 그룹 BTS의 리더이자 메인 래퍼이다. 하이브 주식을 보유하고 있으며, 음악 저작권료, 공연, 광고 수입을 올리고 있다. 높은 지능과 사색적인 작사로 유명하다. 표시된 자산은 본인이 공식 발표한 금액이 아닌 언론 추정치이다.",
     "nameKo": "RM (김남준)",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/RM_at_W_Korea_Love_Your_W%2C_November_2023.jpg/400px-RM_at_W_Korea_Love_Your_W%2C_November_2023.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/RM_at_W_Korea_Love_Your_W%2C_November_2023.jpg/400px-RM_at_W_Korea_Love_Your_W%2C_November_2023.jpg",
+    "netWorthEstimated": true
   },
   {
     "id": "3350",
@@ -44287,11 +44296,12 @@
     "industry": "Entertainment",
     "gender": "M",
     "source": "BTS / HYBE",
-    "bio": "Jin (Kim Seok-jin) is a vocalist of BTS. He holds shares in HYBE and earns from music, performances, and endorsements. Known for his visual appeal and solo hit \"The Astronaut\" co-written with Coldplay.",
-    "bioKo": "진(김석진)은 BTS의 보컬이다. 하이브 주식을 보유하고 있으며, 콜드플레이와 함께 작업한 솔로곡 \"The Astronaut\"로도 유명하다.",
+    "bio": "Jin (Kim Seok-jin) is a vocalist of BTS. He holds shares in HYBE and earns from music, performances, and endorsements. Known for his visual appeal and solo hit \"The Astronaut\" co-written with Coldplay. Net worth here is a press estimate, not an official figure.",
+    "bioKo": "진(김석진)은 BTS의 보컬이다. 하이브 주식을 보유하고 있으며, 콜드플레이와 함께 작업한 솔로곡 \"The Astronaut\"로도 유명하다. 표시된 자산은 본인이 공식 발표한 금액이 아닌 언론 추정치이다.",
     "nameKo": "진 (김석진)",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/BTS_Jin_at_Maison_Fred%2C_13_March_2025_04.png/400px-BTS_Jin_at_Maison_Fred%2C_13_March_2025_04.png"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/BTS_Jin_at_Maison_Fred%2C_13_March_2025_04.png/400px-BTS_Jin_at_Maison_Fred%2C_13_March_2025_04.png",
+    "netWorthEstimated": true
   },
   {
     "id": "3351",
@@ -44302,11 +44312,12 @@
     "industry": "Entertainment",
     "gender": "M",
     "source": "BTS / HYBE",
-    "bio": "Suga (Min Yoon-gi) is a rapper, songwriter, and record producer of BTS. Also active as solo artist Agust D, he is one of K-pop's most prolific songwriters with over 100 credits. He holds shares in HYBE Corporation.",
-    "bioKo": "슈가(민윤기)는 BTS의 래퍼, 작곡가, 음반 프로듀서이다. 솔로 아티스트 Agust D로도 활동하며, 100곡 이상의 작곡 크레딧을 가진 K-pop 최고의 작곡가 중 한 명이다.",
+    "bio": "Suga (Min Yoon-gi) is a rapper, songwriter, and record producer of BTS. Also active as solo artist Agust D, he is one of K-pop's most prolific songwriters with over 100 credits. He holds shares in HYBE Corporation. Net worth here is a press estimate, not an official figure.",
+    "bioKo": "슈가(민윤기)는 BTS의 래퍼, 작곡가, 음반 프로듀서이다. 솔로 아티스트 Agust D로도 활동하며, 100곡 이상의 작곡 크레딧을 가진 K-pop 최고의 작곡가 중 한 명이다. 표시된 자산은 본인이 공식 발표한 금액이 아닌 언론 추정치이다.",
     "nameKo": "슈가 (민윤기)",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Suga_for_Valentino_and_Marie_Claire_Korea_06.jpg/400px-Suga_for_Valentino_and_Marie_Claire_Korea_06.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Suga_for_Valentino_and_Marie_Claire_Korea_06.jpg/400px-Suga_for_Valentino_and_Marie_Claire_Korea_06.jpg",
+    "netWorthEstimated": true
   },
   {
     "id": "3352",
@@ -44317,11 +44328,12 @@
     "industry": "Entertainment",
     "gender": "M",
     "source": "BTS / HYBE",
-    "bio": "J-Hope (Jung Ho-seok) is a rapper, dancer, and songwriter of BTS. Known as the group's main dancer and mood-maker, he released solo album \"Jack in the Box\" and was the first BTS member to headline a major US music festival (Lollapalooza).",
-    "bioKo": "제이홉(정호석)은 BTS의 래퍼, 댄서, 작곡가이다. 그룹의 메인 댄서이자 분위기 메이커로, 솔로 앨범 \"Jack in the Box\"를 발표했고 BTS 멤버 최초로 미국 롤라팔루자 헤드라이너로 출연했다.",
+    "bio": "J-Hope (Jung Ho-seok) is a rapper, dancer, and songwriter of BTS. Known as the group's main dancer and mood-maker, he released solo album \"Jack in the Box\" and was the first BTS member to headline a major US music festival (Lollapalooza). Net worth here is a press estimate, not an official figure.",
+    "bioKo": "제이홉(정호석)은 BTS의 래퍼, 댄서, 작곡가이다. 그룹의 메인 댄서이자 분위기 메이커로, 솔로 앨범 \"Jack in the Box\"를 발표했고 BTS 멤버 최초로 미국 롤라팔루자 헤드라이너로 출연했다. 표시된 자산은 본인이 공식 발표한 금액이 아닌 언론 추정치이다.",
     "nameKo": "제이홉 (정호석)",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/J-Hope_at_W_Korea_Breast_Cancer_Campaign%2C_15_October_2025.png/400px-J-Hope_at_W_Korea_Breast_Cancer_Campaign%2C_15_October_2025.png"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/J-Hope_at_W_Korea_Breast_Cancer_Campaign%2C_15_October_2025.png/400px-J-Hope_at_W_Korea_Breast_Cancer_Campaign%2C_15_October_2025.png",
+    "netWorthEstimated": true
   },
   {
     "id": "3353",
@@ -44332,11 +44344,12 @@
     "industry": "Entertainment",
     "gender": "M",
     "source": "BTS / HYBE",
-    "bio": "Jimin (Park Ji-min) is a vocalist and dancer of BTS. His solo debut \"FACE\" topped the Billboard 200, and his single \"Like Crazy\" made him the highest-charting Korean solo artist on the Billboard Hot 100 at the time. He holds HYBE shares.",
-    "bioKo": "지민(박지민)은 BTS의 보컬이자 댄서이다. 솔로 데뷔 앨범 \"FACE\"가 빌보드 200 1위를 기록했고, \"Like Crazy\"로 당시 한국 솔로 아티스트 빌보드 핫 100 최고 순위를 기록했다.",
+    "bio": "Jimin (Park Ji-min) is a vocalist and dancer of BTS. His solo debut \"FACE\" topped the Billboard 200, and his single \"Like Crazy\" made him the highest-charting Korean solo artist on the Billboard Hot 100 at the time. He holds HYBE shares. Net worth here is a press estimate, not an official figure.",
+    "bioKo": "지민(박지민)은 BTS의 보컬이자 댄서이다. 솔로 데뷔 앨범 \"FACE\"가 빌보드 200 1위를 기록했고, \"Like Crazy\"로 당시 한국 솔로 아티스트 빌보드 핫 100 최고 순위를 기록했다. 표시된 자산은 본인이 공식 발표한 금액이 아닌 언론 추정치이다.",
     "nameKo": "지민 (박지민)",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Jimin_on_the_way_to_SBS_Radio%2C_31_March_2023_%282%29.jpg/400px-Jimin_on_the_way_to_SBS_Radio%2C_31_March_2023_%282%29.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Jimin_on_the_way_to_SBS_Radio%2C_31_March_2023_%282%29.jpg/400px-Jimin_on_the_way_to_SBS_Radio%2C_31_March_2023_%282%29.jpg",
+    "netWorthEstimated": true
   },
   {
     "id": "3354",
@@ -44347,11 +44360,12 @@
     "industry": "Entertainment",
     "gender": "M",
     "source": "BTS / HYBE",
-    "bio": "V (Kim Tae-hyung) is a vocalist and visual of BTS. His deep baritone voice and artistic sensibility have made him one of the most popular K-pop idols globally. His solo album \"Layover\" debuted at #2 on the Billboard 200. He holds HYBE shares.",
-    "bioKo": "뷔(김태형)는 BTS의 보컬이자 비주얼이다. 깊은 바리톤 음색과 예술적 감성으로 세계적으로 가장 인기 있는 K-pop 아이돌 중 한 명이다. 솔로 앨범 \"Layover\"가 빌보드 200 2위로 데뷔했다.",
+    "bio": "V (Kim Tae-hyung) is a vocalist and visual of BTS. His deep baritone voice and artistic sensibility have made him one of the most popular K-pop idols globally. His solo album \"Layover\" debuted at #2 on the Billboard 200. He holds HYBE shares. Net worth here is a press estimate, not an official figure.",
+    "bioKo": "뷔(김태형)는 BTS의 보컬이자 비주얼이다. 깊은 바리톤 음색과 예술적 감성으로 세계적으로 가장 인기 있는 K-pop 아이돌 중 한 명이다. 솔로 앨범 \"Layover\"가 빌보드 200 2위로 데뷔했다. 표시된 자산은 본인이 공식 발표한 금액이 아닌 언론 추정치이다.",
     "nameKo": "뷔 (김태형)",
     "wealthOrigin": "self-made",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/BTS%27s_V_20251004_04.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/BTS%27s_V_20251004_04.jpg",
+    "netWorthEstimated": true
   },
   {
     "id": "3355",

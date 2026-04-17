@@ -16,6 +16,20 @@ import { HeroPillar } from '../match/SajuHero';
 const USD_TO_KRW = 1480.71;
 const USD_TO_KRW_DATE = '2026.04.09';
 
+/** Normalize photo URL, proxying Wikimedia hotlinks (blocked by browser ORB). */
+function normalizePhotoUrl(url: string | undefined | null, name: string, size: number): string {
+  if (!url) {
+    return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=${size}&background=random&bold=true`;
+  }
+  let normalized = url;
+  if (normalized.startsWith('//')) normalized = `https:${normalized}`;
+  if (normalized.startsWith('http://')) normalized = normalized.replace(/^http:/, 'https:');
+  if (normalized.includes('upload.wikimedia.org/')) {
+    return `/api/wiki-image?url=${encodeURIComponent(normalized)}`;
+  }
+  return normalized;
+}
+
 function formatNetWorth(netWorth: number, lang: string): string {
   if (lang === 'ko') {
     // netWorth is in billions USD. 1 billion = 10억 KRW-units.
@@ -213,6 +227,21 @@ export default function DeepBioModal({ person, onClose }: Props) {
     </div>
   );
 
+  // -- Compact saju chart for mobile Story tab (moved out of the header) --
+  const mobileSajuChart = (
+    <div>
+      <div className="flex justify-center gap-1.5">
+        <HeroPillar label="時" ju={null} ilgan={saju.saju.day.stem as CheonGan} compact />
+        <HeroPillar label="日" ju={saju.saju.day} ilgan={saju.saju.day.stem as CheonGan} isDayPillar compact />
+        <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} compact />
+        <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} compact />
+      </div>
+      <p className="text-[10px] text-gray-400 text-center mt-1">
+        {saju.ilju} · {saju.wolji} · {saju.gyeokguk}{hanja && ` ${hanja}`}
+      </p>
+    </div>
+  );
+
   // -- Header content (shared between both layouts) --
   const header = (
     <div className="relative px-4 lg:px-6 py-3 lg:py-4 shrink-0">
@@ -229,7 +258,7 @@ export default function DeepBioModal({ person, onClose }: Props) {
         <div className="shrink-0">
           <div className="w-24 h-32 rounded-xl overflow-hidden bg-gray-200 shadow">
             <img
-              src={person.photoUrl || `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=200&background=random&bold=true`}
+              src={normalizePhotoUrl(person.photoUrl, person.name, 200)}
               alt={person.name}
               className="w-full h-full object-cover"
               onError={(e) => {
@@ -270,18 +299,6 @@ export default function DeepBioModal({ person, onClose }: Props) {
           </div>
         </div>
       </div>
-      {/* Saju chart — mobile */}
-      <div className="mt-3 lg:hidden">
-        <div className="flex justify-center gap-1.5">
-          <HeroPillar label="時" ju={null} ilgan={saju.saju.day.stem as CheonGan} compact />
-          <HeroPillar label="日" ju={saju.saju.day} ilgan={saju.saju.day.stem as CheonGan} isDayPillar compact />
-          <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} compact />
-          <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} compact />
-        </div>
-        <p className="text-[10px] text-gray-400 text-center mt-1">
-          {saju.ilju} · {saju.wolji} · {saju.gyeokguk}{hanja && ` ${hanja}`}
-        </p>
-      </div>
 
       {/* Desktop: photo | bio | saju — three columns */}
       <div className="hidden lg:flex items-start gap-5 pr-10">
@@ -289,7 +306,7 @@ export default function DeepBioModal({ person, onClose }: Props) {
         <div className="shrink-0">
           <div className="w-36 h-44 rounded-lg overflow-hidden bg-gray-200 shadow">
             <img
-              src={person.photoUrl || `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=400&background=random&bold=true`}
+              src={normalizePhotoUrl(person.photoUrl, person.name, 400)}
               alt={person.name}
               className="w-full h-full object-cover"
               onError={(e) => {
@@ -460,7 +477,7 @@ export default function DeepBioModal({ person, onClose }: Props) {
               <EmptyBioState lang={lang} />
             ) : (
               <div className="p-5 pb-10">
-                <TabContent bio={bio} tab={tab} unlocked={unlocked} onUnlock={() => setUnlocked(true)} lang={lang} />
+                <TabContent bio={bio} tab={tab} unlocked={unlocked} onUnlock={() => setUnlocked(true)} lang={lang} mobileStoryHeader={mobileSajuChart} />
               </div>
             )}
           </div>

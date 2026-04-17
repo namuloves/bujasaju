@@ -133,5 +133,31 @@
   "sajuConnection": {
     "note": "This field will be written by us. Leave null.",
     "value": null
-  }
+  },
+  "sources": [
+    {
+      "label": "Rain buys Gangnam Station building for ~92 billion KRW",
+      "labelKo": "비, 강남역 인근 빌딩 약 920억 원에 매입",
+      "outlet": "Maeil Business Newspaper (매일경제)",
+      "outletKo": "매일경제",
+      "url": "https://www.mk.co.kr/news/realestate/10104588",
+      "date": "2021"
+    },
+    {
+      "label": "Rain (entertainer) — Korean Wikipedia",
+      "labelKo": "비 (가수) — 한국어 위키백과",
+      "outletKo": "위키백과",
+      "url": "https://ko.wikipedia.org/wiki/비_(가수)"
+    },
+    {
+      "label": "Rain / Jung Ji-hoon — Namuwiki",
+      "labelKo": "비(정지훈) — 나무위키",
+      "outletKo": "나무위키",
+      "url": "https://namu.wiki/w/비(가수)"
+    },
+    {
+      "label": "Net worth figure is an unofficial press estimate based on disclosed real estate (~92B KRW Gangnam building)",
+      "labelKo": "순자산 수치는 공개된 부동산(강남 빌딩 약 920억 원)을 근거로 한 언론 추정치이며, 본인이 공식 발표한 금액이 아닙니다"
+    }
+  ]
 }

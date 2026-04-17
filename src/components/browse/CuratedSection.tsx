@@ -16,9 +16,13 @@ function normalizePhotoUrl(url: string | undefined | null, name: string): string
   if (!url) {
     return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=400&background=random&bold=true`;
   }
-  if (url.startsWith('/')) return `https:${url}`;
-  if (url.startsWith('http://')) return url.replace(/^http:/, 'https:');
-  return url;
+  let normalized = url;
+  if (normalized.startsWith('/')) normalized = `https:${normalized}`;
+  if (normalized.startsWith('http://')) normalized = normalized.replace(/^http:/, 'https:');
+  if (normalized.includes('upload.wikimedia.org/')) {
+    return `/api/wiki-image?url=${encodeURIComponent(normalized)}`;
+  }
+  return normalized;
 }
 
 const USD_TO_KRW = 1480.71;
@@ -128,6 +132,11 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
                 )}
                 <p className="text-white/80 text-[9px] font-medium">
                   {formatNetWorthShort(cover.netWorth, isKo)}
+                  {cover.netWorthEstimated && (
+                    <span className="ml-1 text-white/60" title={isKo ? '언론 추정치' : 'Press estimate'}>
+                      {isKo ? '(추정)' : '(est.)'}
+                    </span>
+                  )}
                 </p>
               </div>
               <p className="text-white/90 text-[10px] font-semibold shrink-0">
@@ -135,17 +144,13 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
               </p>
             </div>
             {/* Bio status label */}
-            <div className="absolute top-1.5 right-1.5">
-              {coverHasBio ? (
-                <span className="text-[8px] font-medium text-white/90 bg-black/30 backdrop-blur-sm px-1.5 py-0.5 rounded">
-                  자세히 보기
-                </span>
-              ) : (
+            {!coverHasBio && (
+              <div className="absolute top-1.5 right-1.5">
                 <span className="text-[8px] font-medium text-white/50 bg-black/20 px-1.5 py-0.5 rounded">
                   준비중
                 </span>
-              )}
-            </div>
+              </div>
+            )}
           </div>
         </div>
 

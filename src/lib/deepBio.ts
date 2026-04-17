@@ -79,6 +79,22 @@ export interface DeepBio {
     controversies?: string;
     controversiesKo?: string;
   } | null;
+
+  /** Optional source citations shown at the bottom of the bio. */
+  sources?: DeepBioSource[];
+}
+
+export interface DeepBioSource {
+  /** Display label, e.g. "네이버 뉴스 – 비, 강남 빌딩 920억 매입". */
+  label: string;
+  labelKo?: string;
+  /** Outlet or publisher name, e.g. "매일경제", "Naver News". */
+  outlet?: string;
+  outletKo?: string;
+  /** Optional canonical URL. */
+  url?: string;
+  /** ISO date (YYYY-MM-DD) or year string if exact date unknown. */
+  date?: string;
 }
 
 // ---------- v2 deep bio (richer schema for 사주 풀이) ----------

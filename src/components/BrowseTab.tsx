@@ -188,14 +188,72 @@ const defaultFilters: Filters = {
   search: '',
   nationality: '',
   industry: '',
+  industryExclude: '',
   gender: '',
+  wealthOrigin: '',
   sort: 'netWorth_desc',
 };
 
 const PAGE_SIZE = 60;
 
+/** URL query keys that map 1:1 to Filters fields. `tab` is owned by the parent page. */
+const FILTER_KEYS: (keyof Filters)[] = [
+  'ilgan', 'ilju', 'wolji', 'gyeokguk', 'search',
+  'nationality', 'industry', 'industryExclude', 'gender', 'wealthOrigin',
+];
+
+/** Read filters from the current URL, falling back to defaults for missing keys. */
+function filtersFromUrl(): Filters {
+  if (typeof window === 'undefined') return defaultFilters;
+  const params = new URLSearchParams(window.location.search);
+  const next = { ...defaultFilters };
+  for (const key of FILTER_KEYS) {
+    const v = params.get(key);
+    if (v != null) (next as Record<string, string>)[key] = v;
+  }
+  const sort = params.get('sort');
+  if (sort === 'netWorth_asc' || sort === 'name_asc' || sort === 'netWorth_desc') {
+    next.sort = sort;
+  }
+  return next;
+}
+
+/** True if the two filter objects are structurally equal. */
+function filtersEqual(a: Filters, b: Filters): boolean {
+  return FILTER_KEYS.every((k) => a[k] === b[k]) && a.sort === b.sort;
+}
+
+/** True if any filter is active (i.e. we're in flat-grid mode, not curated). */
+function hasActiveFilter(f: Filters): boolean {
+  return FILTER_KEYS.some((k) => f[k]);
+}
+
+/**
+ * Sync filters to URL. Uses pushState when `pushHistory` is true (user clicked
+ * "더 보기" on a curated section), replaceState otherwise (e.g. typing in the
+ * search box) to avoid polluting history.
+ */
+function writeFiltersToUrl(filters: Filters, pushHistory: boolean) {
+  if (typeof window === 'undefined') return;
+  const url = new URL(window.location.href);
+  for (const key of FILTER_KEYS) {
+    const v = filters[key];
+    if (v) url.searchParams.set(key, v);
+    else url.searchParams.delete(key);
+  }
+  if (filters.sort && filters.sort !== 'netWorth_desc') {
+    url.searchParams.set('sort', filters.sort);
+  } else {
+    url.searchParams.delete('sort');
+  }
+  const next = url.toString();
+  if (next === window.location.href) return;
+  if (pushHistory) window.history.pushState({}, '', next);
+  else window.history.replaceState({}, '', next);
+}
+
 export default function BrowseTab() {
-  const [filters, setFilters] = useState<Filters>(defaultFilters);
+  const [filters, setFiltersState] = useState<Filters>(defaultFilters);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const { people: enrichedPeople, loading } = useEnrichedPeople();
   const [deepSearchIndex, setDeepSearchIndex] = useState<Record<string, string>>({});
@@ -204,6 +262,30 @@ export default function BrowseTab() {
   useEffect(() => {
     fetchSearchIndex().then(setDeepSearchIndex);
   }, []);
+
+  // Hydrate filters from URL on mount, and listen to back/forward nav so
+  // the user's browser history restores the previous curated/flat view.
+  useEffect(() => {
+    setFiltersState(filtersFromUrl());
+    const onPop = () => setFiltersState(filtersFromUrl());
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
+  }, []);
+
+  /**
+   * setFilters wrapper that also syncs the URL.
+   * - `pushHistory` = true: navigation event (e.g. "더 보기" click) — creates
+   *   a new history entry so browser back returns to the previous state.
+   * - `pushHistory` = false: incremental change (typing, dropdown tweak) —
+   *   replaces the current entry to avoid polluting history.
+   */
+  const setFilters = (next: Filters, pushHistory = false) => {
+    setFiltersState((prev) => {
+      if (filtersEqual(prev, next)) return prev;
+      writeFiltersToUrl(next, pushHistory);
+      return next;
+    });
+  };
 
   // Defer the filter object so that typing in the search box is always
   // instant — the heavy 3,300-row filter/sort runs at lower priority and
@@ -263,6 +345,8 @@ export default function BrowseTab() {
       if (f.gyeokguk && person.saju.gyeokguk !== f.gyeokguk) return false;
       if (f.nationality && !person.nationality.includes(f.nationality)) return false;
       if (f.industry && person.industry !== f.industry) return false;
+      if (f.industryExclude && (person.industry ?? '').includes(f.industryExclude)) return false;
+      if (f.wealthOrigin && person.wealthOrigin !== f.wealthOrigin) return false;
       return true;
     });
 
@@ -284,6 +368,23 @@ export default function BrowseTab() {
 
   return (
     <div className="flex flex-col lg:flex-row gap-6">
+      {hasActiveFilter(filters) && (
+        <button
+          type="button"
+          onClick={() => {
+            if (window.history.length > 1) window.history.back();
+            else setFilters(defaultFilters);
+          }}
+          aria-label="뒤로가기"
+          className="fixed z-40 flex items-center gap-1.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-100 shadow-md rounded-full transition-colors px-3.5 py-2 text-xs font-medium bottom-6 left-6 lg:top-6 lg:bottom-auto"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M19 12H5" />
+            <path d="M12 19l-7-7 7-7" />
+          </svg>
+          뒤로가기
+        </button>
+      )}
       <aside className="w-full lg:w-72 flex-shrink-0">
         <div className="lg:sticky lg:top-4">
           <FilterPanel
@@ -308,13 +409,14 @@ export default function BrowseTab() {
         {/* Show curated magazine view when no filters active, flat grid otherwise */}
         {!filters.ilgan && !filters.ilju && !filters.wolji &&
          !filters.gyeokguk && !filters.search && !filters.nationality &&
-         !filters.industry && !filters.gender ? (
+         !filters.industry && !filters.industryExclude && !filters.gender &&
+         !filters.wealthOrigin ? (
           <CuratedBrowseView
             people={enrichedPeople}
-            onApplyFilter={(partial) => setFilters({ ...defaultFilters, ...partial })}
+            onApplyFilter={(partial) => setFilters({ ...defaultFilters, ...partial }, true)}
           />
         ) : (
-          <>
+          <div>
             <AnalyticsPanel
               filteredPeople={filteredPeople}
               totalCount={enrichedPeople.length}
@@ -333,7 +435,7 @@ export default function BrowseTab() {
                 </button>
               </div>
             )}
-          </>
+          </div>
         )}
       </div>
     </div>
