@@ -247,7 +247,7 @@ export default function DeepInterpretation({
   }
 
   const featuredName = featured.nameKo ?? featured.name;
-  const showSkeleton = !text && !done;
+  const loading = !done;
 
   return (
     <div className="space-y-2">
@@ -257,7 +257,7 @@ export default function DeepInterpretation({
           {featuredName}와의 심층 풀이
         </h2>
       </div>
-      {showSkeleton ? (
+      {loading ? (
         <div className="space-y-2 animate-pulse">
           <div className="h-3 bg-gray-100 rounded w-1/3" />
           <div className="h-3 bg-gray-100 rounded w-full" />

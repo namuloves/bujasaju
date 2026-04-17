@@ -134,6 +134,18 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
                 {cover.saju.ilju}
               </p>
             </div>
+            {/* Bio status label */}
+            <div className="absolute top-1.5 right-1.5">
+              {coverHasBio ? (
+                <span className="text-[8px] font-medium text-white/90 bg-black/30 backdrop-blur-sm px-1.5 py-0.5 rounded">
+                  자세히 보기
+                </span>
+              ) : (
+                <span className="text-[8px] font-medium text-white/50 bg-black/20 px-1.5 py-0.5 rounded">
+                  준비중
+                </span>
+              )}
+            </div>
           </div>
         </div>
 

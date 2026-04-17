@@ -11,6 +11,7 @@ import { GYEOKGUK_NAMES, getBongi } from '@/lib/saju/constants';
 import { getSipSin } from '@/lib/saju/tenGods';
 import type { CheonGan, JiJi } from '@/lib/saju/types';
 import SajuBadge from '../SajuBadge';
+import { HeroPillar } from '../match/SajuHero';
 
 const USD_TO_KRW = 1480.71;
 const USD_TO_KRW_DATE = '2026.04.09';
@@ -253,15 +254,12 @@ export default function DeepBioModal({ person, onClose }: Props) {
             {lang === 'ko' && (
               <span className="text-[10px] text-gray-400">(${person.netWorth}B)</span>
             )}
-            {person.source && (
+            {person.source && person.source !== person.industry && (
               <>
                 <span className="text-gray-300">·</span>
                 <span>{person.source}</span>
               </>
             )}
-          </div>
-          <div className="mt-1.5 text-xs text-gray-500">
-            {saju.saju.day.stem}{saju.saju.day.branch}일주 · {saju.gyeokguk}{hanja && ` ${hanja}`}
           </div>
           <div className="mt-1.5 space-y-0.5 text-xs text-gray-600">
             <p>{person.industry}</p>
@@ -271,6 +269,18 @@ export default function DeepBioModal({ person, onClose }: Props) {
             )}
           </div>
         </div>
+      </div>
+      {/* Saju chart — mobile */}
+      <div className="mt-3 lg:hidden">
+        <div className="flex justify-center gap-1.5">
+          <HeroPillar label="時" ju={null} ilgan={saju.saju.day.stem as CheonGan} compact />
+          <HeroPillar label="日" ju={saju.saju.day} ilgan={saju.saju.day.stem as CheonGan} isDayPillar compact />
+          <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} compact />
+          <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} compact />
+        </div>
+        <p className="text-[10px] text-gray-400 text-center mt-1">
+          {saju.ilju} · {saju.wolji} · {saju.gyeokguk}{hanja && ` ${hanja}`}
+        </p>
       </div>
 
       {/* Desktop: photo | bio | saju — three columns */}
@@ -319,7 +329,7 @@ export default function DeepBioModal({ person, onClose }: Props) {
             )}
           </div>
           <div className="mt-1.5 text-xs text-gray-500">
-            {saju.saju.day.stem}{saju.saju.day.branch}일주 · {saju.gyeokguk}
+            {saju.ilju} · {saju.wolji} · {saju.gyeokguk}
           </div>
           {bio?.childhood && (
             <div className="mt-2 text-xs text-gray-500 leading-relaxed">
