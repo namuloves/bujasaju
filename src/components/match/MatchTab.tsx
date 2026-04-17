@@ -56,20 +56,44 @@ const CALCULATING_MS = 900;
 
 const STORAGE_KEY = 'bujasaju.matchInput';
 
+// Midpoint hour for each 시지 — fed into lunar-javascript so it picks the
+// right 시지 without sitting on a window boundary.
+// 자 wraps midnight but midpoint 0 still falls inside the 23–01 window.
+const TIME_BRANCH_TO_HOUR: Record<JiJi, number> = {
+  자: 0,
+  축: 2,
+  인: 4,
+  묘: 6,
+  진: 8,
+  사: 10,
+  오: 12,
+  미: 14,
+  신: 16,
+  유: 18,
+  술: 20,
+  해: 22,
+};
+
 function computeSaju(input: MatchInput): SajuResult {
   if (input.mode === 'birthday') {
-    // Old localStorage entries (pre-minute) won't have a `minute` field;
-    // default to 0 in that case so saved inputs still hydrate cleanly.
-    const minute = input.hour !== null ? (input.minute ?? 0) : 0;
+    // New path uses `timeBranch`. Legacy localStorage entries may still have
+    // `hour`/`minute` — honor them so saved inputs hydrate cleanly.
+    const branch = input.timeBranch ?? null;
+    const hasHour = branch !== null || (input.hour != null);
+    const hour =
+      branch !== null
+        ? TIME_BRANCH_TO_HOUR[branch]
+        : (input.hour ?? 0);
+    const minute = branch !== null ? 0 : (input.minute ?? 0);
     const date = new Date(
       input.year,
       input.month - 1,
       input.day,
-      input.hour ?? 0,
+      hour,
       minute,
       0,
     );
-    return calculateSaju(date, { includeHour: input.hour !== null });
+    return calculateSaju(date, { includeHour: hasHour });
   }
   // Direct mode — synthesize a SajuResult from the 4 user-entered pillars.
   // Each pillar is a 2-char 갑자 string (stem + branch). The hour pillar is

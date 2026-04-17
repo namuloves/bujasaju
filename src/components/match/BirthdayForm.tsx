@@ -26,13 +26,31 @@ function isValidPillar(s: string): boolean {
   return SIXTY_GAPJA_SET.has(s);
 }
 
+// Legacy migration: map a 24h hour to its 시지. 자시 wraps midnight (23, 0).
+// Used to hydrate old localStorage entries that stored `hour` instead of
+// `timeBranch`.
+function hourToBranch(hour: number | null): JiJi | null {
+  if (hour === null || hour === undefined) return null;
+  if (hour === 23 || hour === 0) return '자';
+  // 축시 starts at 1, each branch covers 2 hours: 1→축, 3→인, 5→묘, ...
+  const idx = Math.floor((hour - 1) / 2);
+  const branches: JiJi[] = ['축', '인', '묘', '진', '사', '오', '미', '신', '유', '술', '해'];
+  return branches[idx] ?? null;
+}
+
 export interface BirthdayInput {
   mode: 'birthday';
   year: number;
   month: number;
   day: number;
-  hour: number | null; // null = unknown
-  minute: number; // ignored when hour === null; defaults to 0 otherwise
+  // 시지 (2-hour window). null = unknown. This replaces the old
+  // hour+minute fields; those are still accepted from legacy localStorage
+  // entries and migrated in MatchTab.
+  timeBranch?: JiJi | null;
+  // Legacy fields — no longer written by this form, but may appear in
+  // saved state from older versions of the app.
+  hour?: number | null;
+  minute?: number;
 }
 
 /**
@@ -59,8 +77,24 @@ const CURRENT_YEAR = new Date().getFullYear();
 const YEARS = Array.from({ length: CURRENT_YEAR - 1900 + 1 }, (_, i) => CURRENT_YEAR - i);
 const MONTHS = Array.from({ length: 12 }, (_, i) => i + 1);
 const DAYS = Array.from({ length: 31 }, (_, i) => i + 1);
-const HOURS = Array.from({ length: 24 }, (_, i) => i);
-const MINUTES = Array.from({ length: 60 }, (_, i) => i);
+
+// 시지 (2-hour window) options, in traditional order starting from 자시.
+// Each entry: the 지지 + the range in 24-hour format.
+// Note 자시 wraps midnight (23:00–01:00).
+const TIME_BRANCHES: { branch: JiJi; rangeKo: string; rangeEn: string }[] = [
+  { branch: '자', rangeKo: '23시–01시', rangeEn: '23:00–01:00' },
+  { branch: '축', rangeKo: '01시–03시', rangeEn: '01:00–03:00' },
+  { branch: '인', rangeKo: '03시–05시', rangeEn: '03:00–05:00' },
+  { branch: '묘', rangeKo: '05시–07시', rangeEn: '05:00–07:00' },
+  { branch: '진', rangeKo: '07시–09시', rangeEn: '07:00–09:00' },
+  { branch: '사', rangeKo: '09시–11시', rangeEn: '09:00–11:00' },
+  { branch: '오', rangeKo: '11시–13시', rangeEn: '11:00–13:00' },
+  { branch: '미', rangeKo: '13시–15시', rangeEn: '13:00–15:00' },
+  { branch: '신', rangeKo: '15시–17시', rangeEn: '15:00–17:00' },
+  { branch: '유', rangeKo: '17시–19시', rangeEn: '17:00–19:00' },
+  { branch: '술', rangeKo: '19시–21시', rangeEn: '19:00–21:00' },
+  { branch: '해', rangeKo: '21시–23시', rangeEn: '21:00–23:00' },
+];
 
 export default function BirthdayForm({ initial, onSubmit }: Props) {
   const { t, lang } = useLanguage();
@@ -70,8 +104,11 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
   const [year, setYear] = useState<number>(birthInit?.year ?? 1990);
   const [month, setMonth] = useState<number>(birthInit?.month ?? 1);
   const [day, setDay] = useState<number>(birthInit?.day ?? 1);
-  const [hour, setHour] = useState<number | null>(birthInit?.hour ?? null);
-  const [minute, setMinute] = useState<number>(birthInit?.minute ?? 0);
+  // Prefer the new timeBranch field; fall back to legacy hour -> branch mapping
+  // so users who saved their input under the old schema don't lose it.
+  const [timeBranch, setTimeBranch] = useState<JiJi | null>(
+    birthInit?.timeBranch ?? hourToBranch(birthInit?.hour ?? null),
+  );
 
   // Direct mode state — 4 pillars in 시주/일주/월주/년주 order
   const directInit = initial?.mode === 'direct' ? initial : null;
@@ -82,7 +119,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
 
   const handleBirthdaySubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onSubmit({ mode: 'birthday', year, month, day, hour, minute });
+    onSubmit({ mode: 'birthday', year, month, day, timeBranch });
   };
 
   // Validation: day/month/year pillars are required; hour is optional (empty = unknown).
@@ -126,7 +163,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-5 gap-3 max-w-xl mx-auto">
+      <div className="grid grid-cols-3 sm:grid-cols-4 gap-3 max-w-xl mx-auto">
           <label className="flex flex-col">
             <span className="text-xs text-gray-500 mb-1">{t.year}</span>
             <select
@@ -169,32 +206,21 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
               ))}
             </select>
           </label>
-          <label className="flex flex-col">
+          <label className="flex flex-col col-span-3 sm:col-span-1">
             <span className="text-xs text-gray-500 mb-1">{t.hourOptional}</span>
             <select
-              value={hour ?? ''}
-              onChange={(e) => setHour(e.target.value === '' ? null : Number(e.target.value))}
+              value={timeBranch ?? ''}
+              onChange={(e) =>
+                setTimeBranch(e.target.value === '' ? null : (e.target.value as JiJi))
+              }
               className="px-3 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               <option value="">{t.hourUnknown}</option>
-              {HOURS.map((h) => (
-                <option key={h} value={h}>
-                  {h.toString().padStart(2, '0')}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="flex flex-col">
-            <span className="text-xs text-gray-500 mb-1">{t.minute}</span>
-            <select
-              value={minute}
-              disabled={hour === null}
-              onChange={(e) => setMinute(Number(e.target.value))}
-              className="px-3 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:bg-gray-50 disabled:text-gray-400"
-            >
-              {MINUTES.map((m) => (
-                <option key={m} value={m}>
-                  {m.toString().padStart(2, '0')}
+              {TIME_BRANCHES.map(({ branch, rangeKo, rangeEn }) => (
+                <option key={branch} value={branch}>
+                  {lang === 'ko'
+                    ? `${branch}시 (${rangeKo})`
+                    : `${branch}시 (${rangeEn})`}
                 </option>
               ))}
             </select>
