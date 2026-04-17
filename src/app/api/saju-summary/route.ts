@@ -75,11 +75,60 @@ interface SummaryInput {
 // focused. The top N by net worth is almost always what's interesting.
 const MAX_MATCHES_IN_PROMPT = 12;
 
+// Map common English industry labels → short Korean. Covers the Forbes
+// industry taxonomy we ingest. Missing keys fall through unchanged, which
+// the prompt then tells the model to rewrite in Korean itself.
+const INDUSTRY_KO: Record<string, string> = {
+  'Technology': '기술',
+  'Finance & Investments': '금융·투자',
+  'Finance': '금융',
+  'Fashion & Retail': '패션·유통',
+  'Retail': '유통',
+  'Real estate': '부동산',
+  'Real Estate': '부동산',
+  'Diversified': '다각화',
+  'Food & Beverage': '식품·음료',
+  'Food and Beverage': '식품·음료',
+  'Media & Entertainment': '미디어·엔터',
+  'Media': '미디어',
+  'Manufacturing': '제조업',
+  'Healthcare': '헬스케어',
+  'Energy': '에너지',
+  'Metals & Mining': '금속·광업',
+  'Automotive': '자동차',
+  'Logistics': '물류',
+  'Logistics, transportation': '물류·운송',
+  'Gambling & Casinos': '카지노',
+  'Telecom': '통신',
+  'Service': '서비스',
+  'Sports': '스포츠',
+  'Sports team': '스포츠',
+  'Construction & Engineering': '건설·엔지니어링',
+  'Construction': '건설',
+  'Fast food': '패스트푸드',
+  'Apparel': '의류',
+  'Steel': '철강',
+  'Vaccines': '백신',
+  'Software': '소프트웨어',
+  'Online games': '온라인 게임',
+  'Oil, gas': '석유·가스',
+  'cryptocurrency': '가상자산',
+  'Consumer products, banking': '소비재·금융',
+};
+function translateIndustry(s: string | undefined | null): string {
+  if (!s) return '';
+  if (INDUSTRY_KO[s]) return INDUSTRY_KO[s];
+  // Split on " · " or "," and translate each segment
+  const parts = s.split(/\s*[·,]\s*/).map(p => INDUSTRY_KO[p] ?? p);
+  return parts.join('·');
+}
+
 // Format a USD billion net worth into Korean won (조/억 원).
-// Uses a fixed 1 USD = 1400 KRW to keep the prompt deterministic.
+// Uses 1 USD = 1480.71 KRW to match MatchResults' USD_TO_KRW client-side,
+// so OG image and prompt output agree on the same figure.
 function formatKrw(netWorthUsdB: number): string {
-  // $1B = 10억 USD × 1400 KRW/USD = 14,000억 원
-  const eokWon = netWorthUsdB * 14000; // in 억 원
+  // $1B = 10억 USD × 1480.71 KRW/USD = 14,807.1억 원
+  const eokWon = netWorthUsdB * 14807.1; // in 억 원
   if (eokWon >= 10000) {
     const jo = eokWon / 10000;
     return `${jo.toFixed(1).replace(/\.0$/, '')}조 원`;
@@ -95,7 +144,8 @@ function buildPrompt(input: SummaryInput): string {
     .map((m) => {
       const name = m.nameKo ?? `${m.name} (한국어 이름으로 표기)`;
       const origin = m.wealthOrigin === 'self-made' ? '자수성가' : '상속';
-      return `- ${name} · ${m.industry} · ${m.nationality} · 순자산 ${formatKrw(m.netWorth)} · ${origin} · ${m.ilju}일주 ${m.wolji}월지 ${m.gyeokguk}`;
+      const industryKo = translateIndustry(m.industry);
+      return `- ${name} · ${industryKo} · ${m.nationality} · 순자산 ${formatKrw(m.netWorth)} · ${origin} · ${m.ilju}일주 ${m.wolji}월지 ${m.gyeokguk}`;
     })
     .join('\n');
 
@@ -176,7 +226,9 @@ ${deepBioSection}
 ### 절대 금지
 - **부자 이름 언급 금지.** 이 풀이는 순수하게 사용자의 사주만 다룹니다. 매칭된 부자와의 연결은 별도 섹션에서 합니다.
 - **7문장 이상 금지.** 전체 5-6문장.
-- "null", 영어 단어 금지.
+- **영어 단어 절대 금지.** 위 매칭 데이터에 한글 산업명이 이미 적혀있으니 그대로 쓰세요. 영어 단어가 필요하면 한국어로 풀어쓰기 — 예: "Technology" 금지 → "기술", "Finance & Investments" 금지 → "금융·투자", "Real estate" 금지 → "부동산". 고유명사(회사명) 언급이 꼭 필요한 경우에만 예외.
+- **영한 혼합 단어 금지** — "capturable하게", "scalable하다" 같은 영단어+한국어 활용 형태 절대 금지.
+- "null" 금지.
 
 톤과 형식:
 - **전체 5-6문장의 자연스러운 한국어 산문. 마크다운 없이.**
