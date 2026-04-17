@@ -129,42 +129,34 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
 
   return (
     <div className="max-w-5xl mx-auto space-y-8">
-      {/* Share card image */}
-      {featuredPerson && (
-        <div className="rounded-2xl overflow-hidden border border-gray-200">
-          <img
-            src={buildOgUrl(me, featuredPerson)}
-            alt="사주 매칭 결과"
-            className="w-full"
-            loading="eager"
-          />
-        </div>
-      )}
+      {/* Top card with share image inside */}
+      <div className="rounded-2xl bg-white border border-gray-200 overflow-hidden p-5 sm:p-6">
+        {featuredPerson && (
+          <div className="flex justify-center mb-5">
+            <div className="w-36 sm:w-44 rounded-lg overflow-hidden shadow-sm">
+              <img
+                src={buildOgUrl(me, featuredPerson)}
+                alt="사주 매칭 결과"
+                className="w-full"
+                loading="eager"
+              />
+            </div>
+          </div>
+        )}
 
-      {/* Top row: 당신의 사주 (left) + 사주 풀이 (right) in one card */}
-      <div className="rounded-2xl bg-white border border-gray-200 overflow-hidden">
-        <div className="grid md:grid-cols-[minmax(0,420px)_minmax(0,1fr)]">
-          <div className="px-5 sm:px-6 py-5 sm:py-6">
-            <SajuHero saju={me} totalMatches={totalMatches} onReset={onReset} featuredPerson={featuredPerson} comboStats={comboStats} />
-          </div>
-          <div className="px-5 sm:px-6 py-5 sm:py-6 space-y-5">
-            <MatchSummary saju={me} matches={summaryMatches} />
-            {featuredPerson && userBirthday && userGender && (
-              <div className="border-t border-gray-100 pt-5">
-                <DeepInterpretation
-                  saju={me}
-                  featured={featuredPerson}
-                  userBirthday={userBirthday}
-                  userGender={userGender}
-                />
-              </div>
-            )}
-            {featuredPerson && (
-              <div className="max-w-xs">
-                <FeaturedPersonCard person={featuredPerson} />
-              </div>
-            )}
-          </div>
+        {/* Interpretation */}
+        <div>
+          <MatchSummary saju={me} matches={summaryMatches} />
+          {featuredPerson && userBirthday && userGender && (
+            <div className="border-t border-gray-100 pt-5 mt-5">
+              <DeepInterpretation
+                saju={me}
+                featured={featuredPerson}
+                userBirthday={userBirthday}
+                userGender={userGender}
+              />
+            </div>
+          )}
         </div>
       </div>
 

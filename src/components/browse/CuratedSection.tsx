@@ -101,7 +101,7 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
           tabIndex={coverHasBio ? 0 : undefined}
           onClick={coverHasBio ? () => setCoverBioOpen(true) : undefined}
           onKeyDown={coverHasBio ? (e) => { if (e.key === 'Enter') setCoverBioOpen(true); } : undefined}
-          className={`relative rounded overflow-hidden bg-gray-100 group ${coverHasBio ? 'cursor-pointer ring-2 ring-indigo-400' : ''}`}
+          className={`relative rounded overflow-hidden bg-gray-100 group ${coverHasBio ? 'cursor-pointer' : ''}`}
         >
           <div className="aspect-[3/4] relative">
             <img
@@ -109,7 +109,7 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
               alt={cover.name}
               width={240}
               height={320}
-              className="w-full h-full object-cover "
+              className={`w-full h-full object-cover ${coverHasBio ? '' : 'grayscale'}`}
               loading="lazy"
               decoding="async"
             />

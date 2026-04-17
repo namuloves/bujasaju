@@ -61,7 +61,7 @@ export default function MiniPersonCard({ person }: Props) {
         tabIndex={hasBio ? 0 : undefined}
         onClick={hasBio ? () => setShowBio(true) : undefined}
         onKeyDown={hasBio ? (e) => { if (e.key === 'Enter') setShowBio(true); } : undefined}
-        className={`relative rounded overflow-hidden bg-gray-100 ${hasBio ? 'cursor-pointer ring-2 ring-indigo-400' : ''}`}
+        className={`relative rounded overflow-hidden bg-gray-100 ${hasBio ? 'cursor-pointer' : ''}`}
       >
         <div className="aspect-[3/4] relative">
           <img
@@ -69,7 +69,7 @@ export default function MiniPersonCard({ person }: Props) {
             alt={person.name}
             width={160}
             height={200}
-            className="w-full h-full object-cover"
+            className={`w-full h-full object-cover ${hasBio ? '' : 'grayscale'}`}
             loading="lazy"
             decoding="async"
           />
