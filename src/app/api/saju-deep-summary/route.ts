@@ -1,6 +1,8 @@
 import OpenAI from 'openai';
 import type { NextRequest } from 'next/server';
 import { promises as fs } from 'fs';
+
+export const maxDuration = 60;
 import path from 'path';
 import { rateLimit, getIp } from '@/lib/rateLimit';
 import { analyzeSaju } from '@/lib/saju/relationships';

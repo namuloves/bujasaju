@@ -25,12 +25,24 @@ export function HeroPillar({
   ilgan,
   isDayPillar,
   compact,
+  dimStem,
+  dimBranch,
+  highlightStem,
+  highlightBranch,
 }: {
   label: string;
   ju: Ju | null;
   ilgan: CheonGan;
   isDayPillar?: boolean;
   compact?: boolean;
+  /** Grey out the stem cell (천간 doesn't match) */
+  dimStem?: boolean;
+  /** Grey out the branch cell (지지 doesn't match) */
+  dimBranch?: boolean;
+  /** Add ring highlight to the stem cell (matches user) */
+  highlightStem?: boolean;
+  /** Add ring highlight to the branch cell (matches user) */
+  highlightBranch?: boolean;
 }) {
   const cell = compact
     ? 'w-7 h-7 rounded-md text-base'
@@ -40,6 +52,8 @@ export function HeroPillar({
     : 'w-9 h-9 sm:w-10 sm:h-10 rounded-lg text-base';
   const labelSize = compact ? 'text-[9px]' : 'text-[10px]';
   const sipsinSize = compact ? 'text-[8px]' : 'text-[9px]';
+
+  const dimCell = 'bg-gray-50 text-gray-300 border-gray-200';
 
   if (!ju) {
     return (
@@ -67,23 +81,30 @@ export function HeroPillar({
   const branchBongi = getBongi(ju.branch as JiJi);
   const branchSipsin = getSipSin(ilgan, branchBongi);
 
+  const stemClasses = dimStem
+    ? dimCell
+    : `${stemColor.bg} ${stemColor.text} ${stemColor.border}`;
+  const branchClasses = dimBranch
+    ? dimCell
+    : `${branchColor.bg} ${branchColor.text} ${branchColor.border}`;
+
   return (
     <div className="flex flex-col items-center">
       <div className={`${labelSize} text-gray-400 mb-1 font-medium`}>{label}</div>
-      <div className={`${sipsinSize} mb-0.5 font-medium ${isDayPillar ? 'text-indigo-500' : 'text-gray-500'}`}>
+      <div className={`${sipsinSize} mb-0.5 font-medium ${dimStem ? 'text-gray-300' : isDayPillar ? 'text-indigo-500' : 'text-gray-500'}`}>
         {stemSipsin}
       </div>
       <div
-        className={`${cell} border flex items-center justify-center font-bold shadow-sm ${stemColor.bg} ${stemColor.text} ${stemColor.border}`}
+        className={`${cell} border flex items-center justify-center font-bold shadow-sm ${stemClasses} ${highlightStem ? 'ring-2 ring-indigo-400 ring-offset-1' : ''}`}
       >
         {ju.stem}
       </div>
       <div
-        className={`${cell} border mt-1 flex items-center justify-center font-bold shadow-sm ${branchColor.bg} ${branchColor.text} ${branchColor.border}`}
+        className={`${cell} border mt-1 flex items-center justify-center font-bold shadow-sm ${branchClasses} ${highlightBranch ? 'ring-2 ring-indigo-400 ring-offset-1' : ''}`}
       >
         {ju.branch}
       </div>
-      <div className={`${sipsinSize} text-gray-500 mt-0.5 font-medium`}>
+      <div className={`${sipsinSize} ${dimBranch ? 'text-gray-300' : 'text-gray-500'} mt-0.5 font-medium`}>
         {branchSipsin}
       </div>
     </div>

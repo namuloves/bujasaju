@@ -193,29 +193,53 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
 
               {/* Saju charts side by side */}
               <div className="w-full grid grid-cols-2 gap-3">
-                {/* 당신의 사주 */}
+                {/* 당신의 사주 — matching cells get ring highlight */}
                 <div>
                   <p className="text-[10px] font-bold text-gray-500 text-center mb-2">당신의 사주</p>
                   <div className="flex justify-center gap-1">
                     <HeroPillar label="時" ju={me.saju.hour} ilgan={me.saju.day.stem as CheonGan} compact />
-                    <HeroPillar label="日" ju={me.saju.day} ilgan={me.saju.day.stem as CheonGan} isDayPillar compact />
-                    <HeroPillar label="月" ju={me.saju.month} ilgan={me.saju.day.stem as CheonGan} compact />
-                    <HeroPillar label="年" ju={me.saju.year} ilgan={me.saju.day.stem as CheonGan} compact />
+                    <HeroPillar
+                      label="日" ju={me.saju.day} ilgan={me.saju.day.stem as CheonGan} isDayPillar compact
+                      highlightStem={!!fpSaju && fpSaju.saju.day.stem === me.saju.day.stem}
+                      highlightBranch={!!fpSaju && fpSaju.saju.day.branch === me.saju.day.branch}
+                    />
+                    <HeroPillar
+                      label="月" ju={me.saju.month} ilgan={me.saju.day.stem as CheonGan} compact
+                      highlightStem={!!fpSaju && fpSaju.saju.month.stem === me.saju.month.stem}
+                      highlightBranch={!!fpSaju && fpSaju.saju.month.branch === me.saju.month.branch}
+                    />
+                    <HeroPillar
+                      label="年" ju={me.saju.year} ilgan={me.saju.day.stem as CheonGan} compact
+                      highlightStem={!!fpSaju && fpSaju.saju.year.stem === me.saju.year.stem}
+                      highlightBranch={!!fpSaju && fpSaju.saju.year.branch === me.saju.year.branch}
+                    />
                   </div>
                   <p className="text-[9px] text-gray-400 text-center mt-1">
                     {me.ilju} · {me.wolji}
                   </p>
                 </div>
 
-                {/* 부자 사주 */}
+                {/* 부자 사주 — matching cells get ring highlight */}
                 {fpSaju && (
                   <div>
                     <p className="text-[10px] font-bold text-gray-500 text-center mb-2">{fpName}</p>
                     <div className="flex justify-center gap-1">
                       <HeroPillar label="時" ju={null} ilgan={fpSaju.saju.day.stem as CheonGan} compact />
-                      <HeroPillar label="日" ju={fpSaju.saju.day} ilgan={fpSaju.saju.day.stem as CheonGan} isDayPillar compact />
-                      <HeroPillar label="月" ju={fpSaju.saju.month} ilgan={fpSaju.saju.day.stem as CheonGan} compact />
-                      <HeroPillar label="年" ju={fpSaju.saju.year} ilgan={fpSaju.saju.day.stem as CheonGan} compact />
+                      <HeroPillar
+                        label="日" ju={fpSaju.saju.day} ilgan={fpSaju.saju.day.stem as CheonGan} isDayPillar compact
+                        highlightStem={fpSaju.saju.day.stem === me.saju.day.stem}
+                        highlightBranch={fpSaju.saju.day.branch === me.saju.day.branch}
+                      />
+                      <HeroPillar
+                        label="月" ju={fpSaju.saju.month} ilgan={fpSaju.saju.day.stem as CheonGan} compact
+                        highlightStem={fpSaju.saju.month.stem === me.saju.month.stem}
+                        highlightBranch={fpSaju.saju.month.branch === me.saju.month.branch}
+                      />
+                      <HeroPillar
+                        label="年" ju={fpSaju.saju.year} ilgan={fpSaju.saju.day.stem as CheonGan} compact
+                        highlightStem={fpSaju.saju.year.stem === me.saju.year.stem}
+                        highlightBranch={fpSaju.saju.year.branch === me.saju.year.branch}
+                      />
                     </div>
                     <p className="text-[9px] text-gray-400 text-center mt-1">
                       {fpSaju.ilju} · {fpSaju.wolji}
@@ -268,7 +292,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
                   {' '}({comboStats.myCount}명)
                 </p>
               )}
-              <div className="flex justify-center">
+              <div className="flex justify-center md:justify-start mt-4">
                 <button
                   type="button"
                   onClick={onReset}
