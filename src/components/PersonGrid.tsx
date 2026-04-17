@@ -1,7 +1,7 @@
 'use client';
 
 import { EnrichedPerson } from '@/lib/saju/types';
-import PersonCard from './PersonCard';
+import MiniPersonCard from './browse/MiniPersonCard';
 import { useLanguage } from '@/lib/i18n';
 
 interface PersonGridProps {
@@ -18,9 +18,9 @@ export default function PersonGrid({ people }: PersonGridProps) {
           <p className="text-gray-300 text-sm mt-1">{t.adjustFilters}</p>
         </div>
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+        <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3">
           {people.map((person) => (
-            <PersonCard key={person.id} person={person} />
+            <MiniPersonCard key={person.id} person={person} />
           ))}
         </div>
       )}

@@ -181,9 +181,8 @@ export default function RevealAnimation({ saju, onDone }: Props) {
           backface-visibility: hidden;
         }
         @keyframes reveal-count-kf {
-          0% { opacity: 0; transform: scale(0.6); }
-          60% { opacity: 1; transform: scale(1.08); }
-          100% { opacity: 1; transform: scale(1); }
+          0% { opacity: 0; transform: translateY(6px); }
+          100% { opacity: 1; transform: translateY(0); }
         }
         .reveal-count {
           animation: reveal-count-kf 700ms cubic-bezier(0.22, 1, 0.36, 1) forwards;

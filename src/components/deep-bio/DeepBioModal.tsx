@@ -260,7 +260,10 @@ export default function DeepBioModal({ person, onClose }: Props) {
               </>
             )}
           </div>
-          <div className="mt-2 space-y-0.5 text-xs text-gray-600">
+          <div className="mt-1.5 text-xs text-gray-500">
+            {saju.saju.day.stem}{saju.saju.day.branch}일주 · {saju.gyeokguk}{hanja && ` ${hanja}`}
+          </div>
+          <div className="mt-1.5 space-y-0.5 text-xs text-gray-600">
             <p>{person.industry}</p>
             <p>{person.birthday.replace(/-/g, '.')}{person.deathDate ? ` - ${person.deathDate.replace(/-/g, '.')}` : ''}</p>
             {bio?.childhood?.birthPlace && (

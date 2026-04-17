@@ -256,9 +256,6 @@ export default function DeepInterpretation({
         <h2 className="text-sm font-bold text-gray-900">
           {featuredName}와의 심층 풀이
         </h2>
-        {!done && text && (
-          <span className="text-[10px] text-gray-400 animate-pulse">생성 중…</span>
-        )}
       </div>
       {showSkeleton ? (
         <div className="space-y-2 animate-pulse">
