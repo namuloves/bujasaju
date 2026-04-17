@@ -327,7 +327,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
           {/* Right: 풀이 */}
           <div className="space-y-5">
             <MatchSummary saju={me} matches={summaryMatches} />
-            {featuredPerson && userBirthday && userGender && (
+            {featuredPerson && (
               <div className="border-t border-gray-100 pt-5">
                 <DeepInterpretation
                   saju={me}
