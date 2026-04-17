@@ -18,7 +18,9 @@ export interface Filters {
   search: string;   // name search
   nationality: string;
   industry: string;
+  industryExclude: string; // industry to exclude (e.g. 'Entertainment'); '' = no exclusion
   gender: string;   // 'M', 'F', or ''
+  wealthOrigin: string; // 'inherited', 'self-made', or ''
   sort: SortOption;
 }
 
@@ -394,7 +396,9 @@ export default function FilterPanel({
 
       {/* Data sources */}
       <div className="text-[10px] text-gray-400 leading-relaxed">
-        Sources: Forbes Real-Time Billionaires 2026, Wikipedia, Wikidata, DuckDuckGo
+        {lang === 'ko'
+          ? '출처: 포브스 실시간 억만장자 2026, 위키피디아, 위키데이터, 네이버, 나무위키, 비즈니스포스트, 국내외 언론 보도'
+          : 'Sources: Forbes Real-Time Billionaires 2026, Wikipedia, Wikidata, Naver, Namuwiki, Business Post, Korean & international press'}
       </div>
     </div>
   );

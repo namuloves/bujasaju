@@ -66,9 +66,13 @@ function normalizePhotoUrl(url: string | undefined | null, name: string): string
   if (!url) {
     return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=200&background=random&bold=true`;
   }
-  if (url.startsWith('//')) return `https:${url}`;
-  if (url.startsWith('http://')) return url.replace(/^http:/, 'https:');
-  return url;
+  let normalized = url;
+  if (normalized.startsWith('//')) normalized = `https:${normalized}`;
+  if (normalized.startsWith('http://')) normalized = normalized.replace(/^http:/, 'https:');
+  if (normalized.includes('upload.wikimedia.org/')) {
+    return `/api/wiki-image?url=${encodeURIComponent(normalized)}`;
+  }
+  return normalized;
 }
 
 const USD_TO_KRW = 1480.71;
@@ -219,6 +223,11 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
         {/* Net Worth */}
         <p className="text-xs text-gray-400 mt-0.5">
           {lang === 'ko' ? formatNetWorthKrw(person.netWorth) : formatNetWorthUsd(person.netWorth)}
+          {person.netWorthEstimated && (
+            <span className="ml-1 text-gray-400" title={lang === 'ko' ? '언론 추정치' : 'Press estimate'}>
+              {lang === 'ko' ? '(언론 추정)' : '(press est.)'}
+            </span>
+          )}
         </p>
 
         {/* Birthplace */}

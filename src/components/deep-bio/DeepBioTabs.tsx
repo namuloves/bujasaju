@@ -39,16 +39,18 @@ export function TabBar({ tab, setTab, lang }: { tab: Tab; setTab: (t: Tab) => vo
 
 // ---------- Tab Content ----------
 
-export function TabContent({ bio, tab, unlocked, onUnlock, lang }: {
+export function TabContent({ bio, tab, unlocked, onUnlock, lang, mobileStoryHeader }: {
   bio: DeepBio;
   tab: Tab;
   unlocked: boolean;
   onUnlock: () => void;
   lang: string;
+  /** Rendered only at the top of the mobile Story tab (e.g. a compact saju chart). */
+  mobileStoryHeader?: React.ReactNode;
 }) {
   return (
     <>
-      {tab === 'story' && <StoryTab bio={bio} unlocked={unlocked} onUnlock={onUnlock} lang={lang} />}
+      {tab === 'story' && <StoryTab bio={bio} unlocked={unlocked} onUnlock={onUnlock} lang={lang} mobileHeader={mobileStoryHeader} />}
       {tab === 'quotes' && <QuotesTab bio={bio} unlocked={unlocked} onUnlock={onUnlock} lang={lang} />}
       {tab === 'books' && <BooksTab bio={bio} lang={lang} />}
     </>
@@ -80,9 +82,12 @@ export function EmptyBioState({ lang }: { lang: string }) {
 
 // ---------- Story Tab ----------
 
-function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: boolean; onUnlock: () => void; lang: string }) {
+function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBio; unlocked: boolean; onUnlock: () => void; lang: string; mobileHeader?: React.ReactNode }) {
   return (
     <div className="space-y-6">
+      {/* Mobile: saju chart above the story (desktop has it in the modal header) */}
+      {mobileHeader && <div className="lg:hidden">{mobileHeader}</div>}
+
       {/* Mobile: early life section (on desktop it's in the modal header) */}
       {bio.childhood && (
         <section className="lg:hidden">
@@ -188,6 +193,38 @@ function StoryTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: b
                   <p className="text-gray-500">🤝 {ko(lang, bio.personalTraits.philanthropy, bio.personalTraits.philanthropyKo)}</p>
                 )}
               </div>
+            </section>
+          )}
+
+          {bio.sources && bio.sources.length > 0 && (
+            <section>
+              <h3 className="text-sm font-bold text-gray-900 mb-2">
+                {lang === 'ko' ? '📰 출처' : '📰 Sources'}
+              </h3>
+              <ul className="text-xs text-gray-600 space-y-1.5">
+                {bio.sources.map((s, i) => {
+                  const label = ko(lang, s.label, s.labelKo);
+                  const outlet = s.outlet || s.outletKo ? ko(lang, s.outlet ?? '', s.outletKo) : '';
+                  const meta = [outlet, s.date].filter(Boolean).join(' · ');
+                  return (
+                    <li key={i} className="leading-relaxed">
+                      {s.url ? (
+                        <a
+                          href={s.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-indigo-600 hover:text-indigo-800 hover:underline break-all"
+                        >
+                          {label}
+                        </a>
+                      ) : (
+                        <span>{label}</span>
+                      )}
+                      {meta && <span className="text-gray-400"> — {meta}</span>}
+                    </li>
+                  );
+                })}
+              </ul>
             </section>
           )}
     </div>
