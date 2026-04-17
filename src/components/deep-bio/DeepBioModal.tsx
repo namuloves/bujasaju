@@ -245,6 +245,14 @@ export default function DeepBioModal({ person, onClose }: Props) {
   // -- Header content (shared between both layouts) --
   const header = (
     <div className="relative px-4 lg:px-6 py-3 lg:py-4 shrink-0">
+      <a
+        href={`/profile/${person.id}`}
+        className="absolute top-2 right-14 lg:top-3 lg:right-16 h-8 px-3 flex items-center gap-1 rounded-full bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-gray-700 transition-colors z-10 text-xs font-medium"
+        aria-label={lang === 'ko' ? '전체 페이지로 열기' : 'Open full page'}
+      >
+        <span>{lang === 'ko' ? '전체 페이지' : 'Full page'}</span>
+        <span className="text-sm leading-none">↗</span>
+      </a>
       <button
         onClick={handleClose}
         className="absolute top-2 right-3 lg:top-3 lg:right-4 w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-500 hover:bg-gray-200 transition-colors z-10"
