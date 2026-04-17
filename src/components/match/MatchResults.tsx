@@ -159,6 +159,66 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     ? (featuredPerson.nameKo ?? featuredPerson.name)
     : '';
 
+  // Empty-match fallback: user's 일주 exists in the data, but no billionaire
+  // shares 월지/월주/격국/차트. We'd otherwise render the hero card with
+  // half its pieces missing (no OG, no 풀이), which looks broken. Show a
+  // small explanatory card instead — the 같은 일주 section below still
+  // gives the user something to look at.
+  if (!featuredPerson) {
+    return (
+      <div className="max-w-5xl mx-auto space-y-8">
+        <div className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 text-center">
+          <p className="text-sm text-gray-500 mb-1">
+            {me.ilju} 일주 · {me.wolji} 월지 · {me.gyeokguk}
+          </p>
+          <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-3">
+            {sameIljuCount > 0
+              ? `딱 맞는 부자는 아직 없지만, 같은 일주 ${sameIljuCount}명은 있어요`
+              : '아직 비슷한 사주의 부자를 못 찾았어요'}
+          </h2>
+          <p className="text-sm text-gray-600 leading-relaxed max-w-md mx-auto">
+            월지·격국까지 같은 부자 데이터는 아직 수집 중이에요.
+            {sameIljuCount > 0 ? ' 일단 같은 일주를 가진 부자들을 아래에서 확인해보세요.' : ''}
+          </p>
+          <div className="flex justify-center gap-3 mt-5">
+            <button
+              type="button"
+              onClick={onReset}
+              className="text-sm font-medium text-gray-600 bg-gray-100 hover:bg-gray-200 rounded-lg px-5 py-2 transition-colors inline-flex items-center gap-1.5"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                <path d="M3 3v5h5" />
+              </svg>
+              다시 하기
+            </button>
+          </div>
+          <div className="mt-5 pt-5 border-t border-gray-100">
+            <ShareButtons title={t.shareTitle} variant="hero" />
+          </div>
+        </div>
+
+        {/* Same-일주 list is the only content below — reuse existing rendering */}
+        {sameIljuCount > 0 && (
+          <section id="same-ilju-section">
+            <div className="flex items-baseline gap-2 mb-3">
+              <span className="text-xl">🎖️</span>
+              <h3 className="text-base font-bold text-gray-900">{t.group3Title}</h3>
+              <span className="text-xs text-gray-400">
+                {t.countPeople(sameIljuCount)}
+              </span>
+            </div>
+            <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+              {groups.iljuOnly.map((person) => (
+                <MiniPersonCard key={person.id} person={person} />
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+    );
+  }
+
   return (
     <div className="max-w-5xl mx-auto space-y-8">
       {/* Top card: OG image (left) + 풀이 (right) */}
