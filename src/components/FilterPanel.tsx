@@ -160,7 +160,7 @@ export default function FilterPanel({
   };
 
   const clearAll = () => {
-    onChange({ ilgan: '', ilju: '', wolji: '', gyeokguk: '', search: '', nationality: '', industry: '', gender: '', sort: 'netWorth_desc' });
+    onChange({ ilgan: '', ilju: '', wolji: '', gyeokguk: '', search: '', nationality: '', industry: '', industryExclude: '', gender: '', wealthOrigin: '', sort: 'netWorth_desc' });
   };
 
   // "Has filters" = anything narrowing the set is active. Sort always has
