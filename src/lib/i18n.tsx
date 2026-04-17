@@ -172,7 +172,7 @@ const ko: Dict = {
   month: '월',
   day: '일',
   hour: '시',
-  hourOptional: '시 (선택)',
+  hourOptional: '태어난 시 (선택)',
   hourUnknown: '모름',
   minute: '분',
   submit: '사주 보기',
