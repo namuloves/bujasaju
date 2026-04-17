@@ -19,8 +19,11 @@ import type { SajuResult, EnrichedPerson } from '@/lib/saju/types';
 interface Props {
   saju: SajuResult;
   featured: EnrichedPerson;
-  userBirthday: string; // YYYY-MM-DD — needed for 대운 calculation
-  userGender: 'M' | 'F';
+  // birthday + gender drive the heavy (v2) 대운 path. When either is missing
+  // the API falls back to a lighter v1-bio prompt, so the component still
+  // renders a 심층 풀이 — just without 대운.
+  userBirthday?: string; // YYYY-MM-DD
+  userGender?: 'M' | 'F';
 }
 
 interface InFlight {
@@ -33,12 +36,12 @@ interface InFlight {
 const inflight = new Map<string, InFlight>();
 const cache = new Map<string, string>();
 
-function keyFor(saju: SajuResult, featuredId: string, birthday: string): string {
+function keyFor(saju: SajuResult, featuredId: string, birthday: string | undefined): string {
   return [
     saju.ilju,
     saju.wolji,
     saju.gyeokguk,
-    birthday,
+    birthday ?? '',
     featuredId,
   ].join('|');
 }
@@ -47,8 +50,8 @@ function streamFor(
   key: string,
   saju: SajuResult,
   featured: EnrichedPerson,
-  userBirthday: string,
-  userGender: 'M' | 'F'
+  userBirthday: string | undefined,
+  userGender: 'M' | 'F' | undefined
 ): InFlight {
   const existing = inflight.get(key);
   if (existing) return existing;
@@ -83,8 +86,8 @@ function streamFor(
             wolji: saju.wolji,
             gyeokguk: saju.gyeokguk,
             ilgan: saju.saju.day.stem,
-            birthday: userBirthday,
-            gender: userGender,
+            ...(userBirthday ? { birthday: userBirthday } : {}),
+            ...(userGender ? { gender: userGender } : {}),
             year: { stem: saju.saju.year.stem, branch: saju.saju.year.branch },
             month: { stem: saju.saju.month.stem, branch: saju.saju.month.branch },
             day: { stem: saju.saju.day.stem, branch: saju.saju.day.branch },
@@ -142,8 +145,8 @@ function streamFor(
 function useDeepStream(
   saju: SajuResult,
   featured: EnrichedPerson,
-  userBirthday: string,
-  userGender: 'M' | 'F'
+  userBirthday: string | undefined,
+  userGender: 'M' | 'F' | undefined
 ) {
   const key = keyFor(saju, featured.id, userBirthday);
   const [, force] = useState(0);

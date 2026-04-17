@@ -56,8 +56,8 @@ interface UserSaju {
   wolji: string;
   gyeokguk: string;
   ilgan: string;
-  birthday: string; // YYYY-MM-DD
-  gender: 'M' | 'F';
+  birthday?: string; // YYYY-MM-DD — required for v2 heavy path (대운)
+  gender?: 'M' | 'F'; // required for v2 heavy path (대운 방향)
   year: SajuPillar;
   month: SajuPillar;
   day: SajuPillar;
@@ -227,8 +227,11 @@ function buildPrompt(
 
   const userAnalysis = analyzeSaju(userSaju);
   const userContext = buildSajuContext(userSaju);
-  const userBirthYear = parseInt(user.birthday.slice(0, 4), 10);
-  const userDaeUn = calculateDaeUn(user.birthday, user.gender, userSaju);
+  // Caller guarantees birthday + gender are set before invoking the heavy path.
+  const userBirthday = user.birthday!;
+  const userGender = user.gender!;
+  const userBirthYear = parseInt(userBirthday.slice(0, 4), 10);
+  const userDaeUn = calculateDaeUn(userBirthday, userGender, userSaju);
   const userIlgan = userSaju.saju.day.stem as CheonGan;
   const userDaeUnWithYears = userDaeUn.periods
     .slice(0, 8)
@@ -376,7 +379,7 @@ function buildPrompt(
 - 표에 없는 대운을 쓰거나, 연도-대운 매칭을 바꾸지 마세요.
 - 대운 표를 다시 출력하지 마세요. 해석 산문만.
 
-# 사용자 사주 (${user.gender === 'M' ? '남성' : '여성'}, ${user.birthday})
+# 사용자 사주 (${userGender === 'M' ? '남성' : '여성'}, ${userBirthday})
 - 일주: ${user.ilju} / 일간: ${user.ilgan} / 월지: ${user.wolji} / 격국: ${user.gyeokguk}
 ${userContext}
 
@@ -654,7 +657,10 @@ export async function POST(req: NextRequest) {
     return new Response('Missing user or featured', { status: 400 });
   }
 
-  const bio = await loadV2Bio(body.featured.id);
+  // Heavy (v2) path needs user's birthday + gender for 대운 calculation.
+  // Without them, fall back to the light path even when a v2 bio exists.
+  const canUseHeavy = Boolean(body.user.birthday && body.user.gender);
+  const bio = canUseHeavy ? await loadV2Bio(body.featured.id) : null;
   const v1Bio = !bio ? await loadV1Bio(body.featured.id) : null;
 
   const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
