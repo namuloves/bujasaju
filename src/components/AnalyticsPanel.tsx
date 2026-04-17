@@ -239,7 +239,7 @@ export default function AnalyticsPanel({
   if (filters.gender) activeChips.push({ label: filters.gender === 'M' ? (lang === 'ko' ? '남성' : 'Male') : (lang === 'ko' ? '여성' : 'Female'), onRemove: () => onChange({ ...filters, gender: '' }) });
   if (filters.search) activeChips.push({ label: `"${filters.search}"`, onRemove: () => onChange({ ...filters, search: '' }) });
 
-  const clearAll = () => onChange({ ilgan: '', ilju: '', wolji: '', gyeokguk: '', nationality: '', industry: '', gender: '', sort: filters.sort, search: '' });
+  const clearAll = () => onChange({ ilgan: '', ilju: '', wolji: '', gyeokguk: '', nationality: '', industry: '', industryExclude: '', gender: '', wealthOrigin: '', sort: filters.sort, search: '' });
 
   return (
     <div className="bg-white rounded-xl border border-gray-200 p-5 sm:p-6 mb-4">
