@@ -8,7 +8,7 @@ export const runtime = 'edge';
  *   &featuredName=이재용&featuredSource=Samsung&featuredWorth=33조
  *   &featuredIlju=갑자&featuredPhoto=https://...&featuredNat=한국
  *
- * Returns a 1080×1080 PNG share card.
+ * Returns a 1296×1296 PNG share card.
  */
 const NAT_KO: Record<string, string> = {
   US: '미국', KR: '한국', CN: '중국', JP: '일본', IN: '인도', FR: '프랑스',
@@ -54,7 +54,7 @@ export async function GET(req: NextRequest) {
         }}
       >
         {/* Top label */}
-        <div style={{ fontSize: 32, color: 'rgba(0,0,0,0.35)', marginBottom: 16, display: 'flex' }}>
+        <div style={{ fontSize: 38, color: 'rgba(0,0,0,0.35)', marginBottom: 20, display: 'flex' }}>
           나와 사주가 같은 부자
         </div>
 
@@ -64,15 +64,11 @@ export async function GET(req: NextRequest) {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            marginBottom: 36,
+            marginBottom: 44,
           }}
         >
-          <div style={{ fontSize: 48, fontWeight: 700, color: '#1a1a1a', display: 'flex', textAlign: 'center' }}>
-            당신과 같은{' '}
-            <span style={{ color: '#4f46e5', textDecoration: 'underline', textDecorationColor: 'rgba(79,70,229,0.3)', textUnderlineOffset: '6px' }}>
-              {ilju}일주
-            </span>
-            를 가진 부자
+          <div style={{ fontSize: 58, fontWeight: 700, color: '#1a1a1a', display: 'flex', textAlign: 'center' }}>
+            <span>당신과 같은 </span><span style={{ color: '#4f46e5', textDecoration: 'underline', textDecorationColor: 'rgba(79,70,229,0.3)', textUnderlineOffset: '8px' }}>{ilju} 일주</span><span>를 가진 부자</span>
           </div>
         </div>
 
@@ -80,48 +76,41 @@ export async function GET(req: NextRequest) {
         {featuredPhoto && (
           <img
             src={featuredPhoto.replace('416x416', '800x800')}
-            width={400}
-            height={400}
+            width={480}
+            height={480}
             style={{
-              borderRadius: 40,
+              borderRadius: 48,
               objectFit: 'cover',
-              marginBottom: 32,
-              border: '4px solid rgba(255,255,255,0.8)',
+              marginBottom: 38,
+              border: '5px solid rgba(255,255,255,0.8)',
             }}
           />
         )}
 
         {/* Name */}
-        <div style={{ fontSize: 52, fontWeight: 700, color: '#1a1a1a', display: 'flex', marginBottom: 8 }}>
+        <div style={{ fontSize: 72, fontWeight: 700, color: '#1a1a1a', display: 'flex', marginBottom: 12 }}>
           {featuredName}
         </div>
 
-        {/* Ilju */}
-        {featuredIlju && (
-          <div style={{ fontSize: 26, color: 'rgba(0,0,0,0.4)', display: 'flex', marginBottom: 14 }}>
-            {featuredIlju}일주
-          </div>
-        )}
-
         {/* Worth */}
         {featuredWorth && (
-          <div style={{ fontSize: 38, fontWeight: 600, color: '#4f46e5', display: 'flex', marginBottom: 14 }}>
+          <div style={{ fontSize: 54, fontWeight: 600, color: '#4f46e5', display: 'flex', marginBottom: 18 }}>
             {featuredWorth} 원
           </div>
         )}
 
         {/* Source · Country */}
-        <div style={{ display: 'flex', gap: 12, alignItems: 'center', marginBottom: 8 }}>
+        <div style={{ display: 'flex', gap: 16, alignItems: 'center', marginBottom: 10 }}>
           {featuredSource && (
-            <span style={{ fontSize: 28, color: 'rgba(0,0,0,0.45)' }}>
+            <span style={{ fontSize: 40, color: 'rgba(0,0,0,0.45)' }}>
               {featuredSource}
             </span>
           )}
           {featuredSource && featuredNat && (
-            <span style={{ fontSize: 28, color: 'rgba(0,0,0,0.2)' }}>·</span>
+            <span style={{ fontSize: 40, color: 'rgba(0,0,0,0.2)' }}>·</span>
           )}
           {featuredNat && (
-            <span style={{ fontSize: 28, color: 'rgba(0,0,0,0.45)' }}>
+            <span style={{ fontSize: 40, color: 'rgba(0,0,0,0.45)' }}>
               {featuredNat}
             </span>
           )}
@@ -131,24 +120,24 @@ export async function GET(req: NextRequest) {
         <div
           style={{
             position: 'absolute',
-            bottom: 40,
+            bottom: 48,
             display: 'flex',
             alignItems: 'center',
-            gap: 8,
+            gap: 10,
           }}
         >
-          <span style={{ fontSize: 22, fontWeight: 700, color: 'rgba(0,0,0,0.25)' }}>
+          <span style={{ fontSize: 36, fontWeight: 700, color: 'rgba(0,0,0,0.25)' }}>
             부자사주
           </span>
-          <span style={{ fontSize: 18, color: 'rgba(0,0,0,0.15)' }}>
+          <span style={{ fontSize: 30, color: 'rgba(0,0,0,0.15)' }}>
             bujasaju.com
           </span>
         </div>
       </div>
     ),
     {
-      width: 1080,
-      height: 1080,
+      width: 1296,
+      height: 1296,
       fonts: [
         { name: 'NotoSansKR', data: fontBold, weight: 700 as const, style: 'normal' as const },
         { name: 'NotoSansKR', data: fontRegular, weight: 400 as const, style: 'normal' as const },

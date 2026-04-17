@@ -273,32 +273,29 @@ export default function MatchSummary({ saju, matches }: Props) {
 
   if (state.status === 'idle') return null;
 
-  const isStreaming = state.status === 'streaming';
   const text = state.text;
+  const isStreaming = state.status === 'streaming';
+  const showSkeleton = !text;
 
   return (
     <div className="relative">
       <div className="flex items-baseline gap-2 mb-3">
         <span className="text-xl">✨</span>
         <h3 className="text-base font-bold text-gray-900">사주 풀이</h3>
-        {isStreaming && (
-          <span className="inline-flex gap-1">
-            <span className="w-1 h-1 rounded-full bg-indigo-400 animate-pulse" />
-            <span
-              className="w-1 h-1 rounded-full bg-indigo-400 animate-pulse"
-              style={{ animationDelay: '150ms' }}
-            />
-            <span
-              className="w-1 h-1 rounded-full bg-indigo-400 animate-pulse"
-              style={{ animationDelay: '300ms' }}
-            />
-          </span>
-        )}
       </div>
-      <p className="text-[15px] leading-relaxed text-gray-800 whitespace-pre-wrap">
-        {text}
-        {isStreaming && <span className="inline-block w-[2px] h-4 bg-indigo-500 ml-0.5 animate-pulse align-middle" />}
-      </p>
+      {showSkeleton ? (
+        <div className="space-y-2.5 animate-pulse">
+          <div className="h-3.5 bg-gray-100 rounded w-full" />
+          <div className="h-3.5 bg-gray-100 rounded w-11/12" />
+          <div className="h-3.5 bg-gray-100 rounded w-4/5" />
+          <div className="h-3.5 bg-gray-100 rounded w-9/12" />
+        </div>
+      ) : (
+        <p className="text-[15px] leading-relaxed text-gray-800 whitespace-pre-wrap">
+          {text}
+          {isStreaming && <span className="inline-block w-[2px] h-4 bg-indigo-400 ml-0.5 animate-pulse align-middle" />}
+        </p>
+      )}
     </div>
   );
 }

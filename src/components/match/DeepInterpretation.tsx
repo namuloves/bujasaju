@@ -224,7 +224,7 @@ function renderMarkdown(text: string): React.ReactNode {
         {renderInline(b.content)}
       </h3>
     ) : (
-      <p key={idx} className="text-sm text-gray-700 leading-relaxed mb-2">
+      <p key={idx} className="text-[15px] text-gray-800 leading-relaxed mb-2">
         {renderInline(b.content)}
       </p>
     )
@@ -247,7 +247,9 @@ export default function DeepInterpretation({
   }
 
   const featuredName = featured.nameKo ?? featured.name;
-  const loading = !done;
+
+  if (error && !text) return null;
+  if (!text && !done) return null;
 
   return (
     <div className="space-y-2">
@@ -257,16 +259,7 @@ export default function DeepInterpretation({
           {featuredName}와의 심층 풀이
         </h2>
       </div>
-      {loading ? (
-        <div className="space-y-2 animate-pulse">
-          <div className="h-3 bg-gray-100 rounded w-1/3" />
-          <div className="h-3 bg-gray-100 rounded w-full" />
-          <div className="h-3 bg-gray-100 rounded w-5/6" />
-          <div className="h-3 bg-gray-100 rounded w-2/3" />
-        </div>
-      ) : (
-        <div>{renderMarkdown(text)}</div>
-      )}
+      <div>{renderMarkdown(text)}</div>
     </div>
   );
 }

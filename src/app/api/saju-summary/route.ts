@@ -1,6 +1,8 @@
 import OpenAI from 'openai';
 import type { NextRequest } from 'next/server';
 import { rateLimit, getIp } from '@/lib/rateLimit';
+
+export const maxDuration = 60;
 import { analyzeSaju } from '@/lib/saju/relationships';
 import { buildSajuContext } from '@/lib/saju/sajuContext';
 import type { SajuResult, CheonGan, JiJi } from '@/lib/saju/types';
@@ -181,8 +183,9 @@ ${deepBioSection}
 - **문장을 짧고 읽기 쉽게.** 한 문장에 절(clause)을 3개 이상 넣지 말 것. "~하며, ~하여, ~하고" 식으로 끝없이 이어붙이지 말고 끊어 쓸 것.
 - 좋은 예: "갑술 일주는 진취적이고 도전적입니다. 활동 범위도 넓고 사교성도 갖추고 있습니다."
 - 나쁜 예: "갑술 일주는 진취적이고 도전적인 성격을 지니며, 넓은 활동 범위와 사교성을 갖추고 있습니다." (한 문장에 너무 많은 정보)
-- "~를 제공하여", "~를 확대해줍니다" 같은 번역체/공문서체 금지. 일상 대화처럼 쓸 것.
-- "훌륭합니다", "탁월합니다", "뛰어납니다" 같은 올드패션 칭찬 금지. "좋습니다", "강합니다", "많습니다" 같은 평이한 표현 사용.
+- 번역체/공문서체 절대 금지. 다음 표현 사용 금지: "제공합니다", "확대해줍니다", "부여합니다", "가져다줍니다", "선사합니다", "더해줍니다". 대신 "~이 있어요", "~이 돼요", "~거든요", "~인 셈이에요" 같은 자연스러운 구어체.
+- "훌륭합니다", "탁월합니다", "뛰어납니다" 같은 올드패션 칭찬 금지. "좋아요", "강해요", "많아요" 같은 평이한 표현 사용.
+- 해요체로 통일. "~입니다/합니다" 대신 "~이에요/해요/거든요".
 - 명리학 용어를 쓰되 괄호 안에 쉬운 설명 (예: "편재(예상 밖의 재물)").
 
 요약문만 출력하세요. 제목, 서문, 항목 구분 없이 하나의 글로.`;
@@ -241,7 +244,8 @@ export async function POST(req: NextRequest) {
         const stream = await client.chat.completions.create(
           {
             model: 'gpt-4o-mini',
-            max_tokens: 1200,
+            max_tokens: 800,
+            temperature: 0.7,
             stream: true,
             messages: [{ role: 'user', content: prompt }],
           },
