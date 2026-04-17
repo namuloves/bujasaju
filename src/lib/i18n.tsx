@@ -165,7 +165,7 @@ const ko: Dict = {
   tabMatch: '매치',
   tabBrowse: '전체 부자',
   matchHeadline: '나와 비슷한 사주를 가진 부자는 누가 있을까?',
-  matchSubhead: '생년월일을 입력하면 같은 일주·월지·격국을 가진 부자들을 찾아드립니다.',
+  matchSubhead: '생년월일을 입력하면 같은 일주를 가진 부자를 찾아드립니다.',
   inputModeBirthday: '생년월일로',
   inputModeDirect: '사주 직접 입력',
   year: '년',

@@ -61,7 +61,7 @@ export default function MiniPersonCard({ person }: Props) {
         tabIndex={hasBio ? 0 : undefined}
         onClick={hasBio ? () => setShowBio(true) : undefined}
         onKeyDown={hasBio ? (e) => { if (e.key === 'Enter') setShowBio(true); } : undefined}
-        className={`relative rounded overflow-hidden bg-gray-100 ${hasBio ? 'cursor-pointer' : ''}`}
+        className={`relative rounded overflow-hidden bg-gray-100 ${hasBio ? 'cursor-pointer ring-2 ring-indigo-400' : ''}`}
       >
         <div className="aspect-[3/4] relative">
           <img
@@ -78,7 +78,7 @@ export default function MiniPersonCard({ person }: Props) {
           {/* Text overlay */}
           <div className="absolute bottom-0 left-0 right-0 px-2.5 py-2 flex items-end justify-between gap-1">
             <div className="min-w-0">
-              <h4 className="text-white text-[10px] font-bold leading-tight whitespace-nowrap">
+              <h4 className="text-white text-[11px] font-bold leading-tight whitespace-nowrap">
                 {shortName(person, isKo)}
               </h4>
               {person.source && (

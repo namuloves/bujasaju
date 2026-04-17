@@ -1,7 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, lazy, Suspense } from 'react';
 import { useLanguage } from '@/lib/i18n';
+
+const HeroOrbit = lazy(() => import('./HeroOrbit'));
 import { CHEON_GAN, JI_JI } from '@/lib/saju/constants';
 import type { CheonGan, JiJi } from '@/lib/saju/types';
 
@@ -61,7 +63,7 @@ const HOURS = Array.from({ length: 24 }, (_, i) => i);
 const MINUTES = Array.from({ length: 60 }, (_, i) => i);
 
 export default function BirthdayForm({ initial, onSubmit }: Props) {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
 
   // Birthday mode state
   const birthInit = initial?.mode === 'birthday' ? initial : null;
@@ -109,12 +111,19 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
   };
 
   return (
-    <form onSubmit={handleBirthdaySubmit} className="bg-white rounded-2xl p-6 sm:p-8">
+    <form onSubmit={handleBirthdaySubmit} className="px-6 sm:px-8 pt-0 pb-6 sm:pb-8">
+      <Suspense fallback={<div className="h-[130px] sm:h-[150px] mb-6" />}>
+        <HeroOrbit />
+      </Suspense>
       <div className="text-center mb-6">
-        <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-1">
+        <h2 className="text-lg sm:text-2xl font-bold text-gray-900 mb-1 whitespace-nowrap">
           {t.matchHeadline}
         </h2>
-        <p className="text-sm text-gray-500">{t.matchSubhead}</p>
+        <p className="text-sm text-gray-500">
+          {lang === 'ko' ? (
+            <>생년월일을 입력하면 같은 일주를 가진<br />부자를 찾아드립니다.</>
+          ) : t.matchSubhead}
+        </p>
       </div>
 
       <div className="grid grid-cols-3 sm:grid-cols-5 gap-3 max-w-xl mx-auto">

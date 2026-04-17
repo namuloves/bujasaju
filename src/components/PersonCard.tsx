@@ -226,24 +226,7 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
           {lang === 'ko' ? nationalityToKorean(person.nationality) : getBirthplace(person.nationality)}
         </p>
 
-        {/* Bio teaser + expand toggle */}
-        {teaser && (
-          <div className="mt-2">
-            <p className="text-xs text-gray-600 leading-snug">
-              {showBio ? renderBioWithLinks(displayBio!) : teaser.text}
-            </p>
-            {teaser.truncated && (
-              <button
-                onClick={() => setShowBio(!showBio)}
-                className="text-[11px] text-indigo-500 hover:text-indigo-700 font-medium mt-0.5 transition-colors"
-              >
-                {showBio ? `${t.showLess} ▲` : `${t.showMore} ▼`}
-              </button>
-            )}
-          </div>
-        )}
-
-        {/* Saju Info */}
+        {/* Saju Info — above bio so it's visible without scrolling on mobile */}
         <div className="mt-3 space-y-2">
           {/* 일주 */}
           <div className="flex items-center justify-between">
@@ -343,6 +326,23 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
             </div>
           )}
         </div>
+
+        {/* Bio teaser + expand toggle */}
+        {teaser && (
+          <div className="mt-2">
+            <p className="text-xs text-gray-600 leading-snug">
+              {showBio ? renderBioWithLinks(displayBio!) : teaser.text}
+            </p>
+            {teaser.truncated && (
+              <button
+                onClick={() => setShowBio(!showBio)}
+                className="text-[11px] text-indigo-500 hover:text-indigo-700 font-medium mt-0.5 transition-colors"
+              >
+                {showBio ? `${t.showLess} ▲` : `${t.showMore} ▼`}
+              </button>
+            )}
+          </div>
+        )}
 
         {/* Deep bio button */}
         {hasDeepBioSync(person.id) ? (

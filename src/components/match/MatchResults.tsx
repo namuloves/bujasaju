@@ -5,7 +5,7 @@ import { useLanguage } from '@/lib/i18n';
 import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
 import type { EnrichedPerson, SajuResult } from '@/lib/saju/types';
-import PersonCard from '@/components/PersonCard';
+import MiniPersonCard from '@/components/browse/MiniPersonCard';
 import { hasDeepBioSync } from '@/lib/deepBio';
 import SajuHero from './SajuHero';
 import FeaturedPersonCard from './FeaturedPersonCard';
@@ -13,7 +13,27 @@ import ShareButtons from './ShareButtons';
 import MatchSummary from './MatchSummary';
 import DeepInterpretation from './DeepInterpretation';
 import EmailCaptureCard from './EmailCaptureCard';
-// import SingleMatchCard from './SingleMatchCard';
+
+const USD_TO_KRW = 1480.71;
+function formatWorthKrwShort(netWorthB: number): string {
+  const eok = netWorthB * 10 * USD_TO_KRW;
+  const jo = eok / 10000;
+  if (jo >= 1) return `${jo >= 10 ? Math.round(jo) : jo.toFixed(1)}조`;
+  return `${Math.round(eok).toLocaleString('ko-KR')}억`;
+}
+
+function buildOgUrl(me: SajuResult, featured: EnrichedPerson): string {
+  const params = new URLSearchParams({
+    ilju: me.ilju,
+    featuredName: featured.nameKo ?? featured.name,
+    featuredSource: featured.source ?? featured.industry,
+    featuredWorth: formatWorthKrwShort(featured.netWorth),
+    featuredPhoto: featured.photoUrl ?? '',
+    featuredIlju: featured.saju.ilju,
+    featuredNat: featured.nationality,
+  });
+  return `/api/og?${params.toString()}`;
+}
 
 interface Props {
   me: SajuResult;
@@ -109,6 +129,18 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
 
   return (
     <div className="max-w-5xl mx-auto space-y-8">
+      {/* Share card image */}
+      {featuredPerson && (
+        <div className="rounded-2xl overflow-hidden border border-gray-200">
+          <img
+            src={buildOgUrl(me, featuredPerson)}
+            alt="사주 매칭 결과"
+            className="w-full"
+            loading="eager"
+          />
+        </div>
+      )}
+
       {/* Top row: 당신의 사주 (left) + 사주 풀이 (right) in one card */}
       <div className="rounded-2xl bg-white border border-gray-200 overflow-hidden">
         <div className="grid md:grid-cols-[minmax(0,420px)_minmax(0,1fr)]">
@@ -154,12 +186,11 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
                   {t.countPeople(people.length)}
                 </span>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3">
                 {people.map((person) => (
-                  <PersonCard
+                  <MiniPersonCard
                     key={person.id}
                     person={person}
-                    defaultShowChart={autoOpenChart}
                   />
                 ))}
               </div>
@@ -199,9 +230,9 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
                   {t.countPeople(sameIljuCount)}
                 </span>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3">
                 {groups.iljuOnly.map((person) => (
-                  <PersonCard key={person.id} person={person} />
+                  <MiniPersonCard key={person.id} person={person} />
                 ))}
               </div>
             </section>
