@@ -101,7 +101,7 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
           tabIndex={coverHasBio ? 0 : undefined}
           onClick={coverHasBio ? () => setCoverBioOpen(true) : undefined}
           onKeyDown={coverHasBio ? (e) => { if (e.key === 'Enter') setCoverBioOpen(true); } : undefined}
-          className={`relative rounded overflow-hidden bg-gray-100 group ${coverHasBio ? 'cursor-pointer ring-2 ring-indigo-400' : ''}`}
+          className={`relative rounded overflow-hidden bg-gray-100 group ${coverHasBio ? 'cursor-pointer' : ''}`}
         >
           <div className="aspect-[3/4] relative">
             <img
@@ -109,7 +109,7 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
               alt={cover.name}
               width={240}
               height={320}
-              className="w-full h-full object-cover "
+              className={`w-full h-full object-cover ${coverHasBio ? '' : 'grayscale'}`}
               loading="lazy"
               decoding="async"
             />
@@ -133,6 +133,18 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
               <p className="text-white/90 text-[10px] font-semibold shrink-0">
                 {cover.saju.ilju}
               </p>
+            </div>
+            {/* Bio status label */}
+            <div className="absolute top-1.5 right-1.5">
+              {coverHasBio ? (
+                <span className="text-[8px] font-medium text-white/90 bg-black/30 backdrop-blur-sm px-1.5 py-0.5 rounded">
+                  자세히 보기
+                </span>
+              ) : (
+                <span className="text-[8px] font-medium text-white/50 bg-black/20 px-1.5 py-0.5 rounded">
+                  준비중
+                </span>
+              )}
             </div>
           </div>
         </div>

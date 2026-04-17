@@ -46,9 +46,13 @@ function formatNetWorthShort(netWorthB: number, isKo: boolean): string {
 
 interface Props {
   person: EnrichedPerson;
+  /** Optional category label shown above card. Pass empty string to reserve space without text. */
+  categoryLabel?: string;
+  /** When true, always reserve space for the label row (for grid alignment). */
+  reserveLabelSpace?: boolean;
 }
 
-export default function MiniPersonCard({ person }: Props) {
+export default function MiniPersonCard({ person, categoryLabel, reserveLabelSpace }: Props) {
   const { lang } = useLanguage();
   const isKo = lang === 'ko';
   const [showBio, setShowBio] = useState(false);
@@ -56,20 +60,26 @@ export default function MiniPersonCard({ person }: Props) {
 
   return (
     <>
-      <div
-        role={hasBio ? 'button' : undefined}
-        tabIndex={hasBio ? 0 : undefined}
-        onClick={hasBio ? () => setShowBio(true) : undefined}
-        onKeyDown={hasBio ? (e) => { if (e.key === 'Enter') setShowBio(true); } : undefined}
-        className={`relative rounded overflow-hidden bg-gray-100 ${hasBio ? 'cursor-pointer ring-2 ring-indigo-400' : ''}`}
-      >
+      <div className="flex flex-col">
+        {false && (categoryLabel || reserveLabelSpace) && (
+          <p className={`text-sm font-bold mb-2 truncate ${categoryLabel ? 'text-gray-900' : 'invisible'}`}>
+            {categoryLabel || '\u00A0'}
+          </p>
+        )}
+        <div
+          role={hasBio ? 'button' : undefined}
+          tabIndex={hasBio ? 0 : undefined}
+          onClick={hasBio ? () => setShowBio(true) : undefined}
+          onKeyDown={hasBio ? (e) => { if (e.key === 'Enter') setShowBio(true); } : undefined}
+          className={`relative rounded overflow-hidden bg-gray-100 ${hasBio ? 'cursor-pointer' : ''}`}
+        >
         <div className="aspect-[3/4] relative">
           <img
             src={normalizePhotoUrl(person.photoUrl, person.name)}
             alt={person.name}
             width={160}
             height={200}
-            className="w-full h-full object-cover"
+            className={`w-full h-full object-cover ${hasBio ? '' : 'grayscale'}`}
             loading="lazy"
             decoding="async"
           />
@@ -94,6 +104,19 @@ export default function MiniPersonCard({ person }: Props) {
               {person.saju.ilju}
             </p>
           </div>
+          {/* Bio status label */}
+          <div className="absolute top-1.5 right-1.5">
+            {hasBio ? (
+              <span className="text-[8px] font-medium text-white/90 bg-black/30 backdrop-blur-sm px-1.5 py-0.5 rounded">
+                자세히 보기
+              </span>
+            ) : (
+              <span className="text-[8px] font-medium text-white/50 bg-black/20 px-1.5 py-0.5 rounded">
+                준비중
+              </span>
+            )}
+          </div>
+        </div>
         </div>
       </div>
       {showBio && (
