@@ -80,7 +80,19 @@ export default function ProfilePage() {
       <div className="bg-white border-b border-gray-200 sticky top-0 z-10">
         <div className="max-w-4xl mx-auto px-6 py-3 flex items-center gap-3">
           <button
-            onClick={() => router.back()}
+            onClick={() => {
+              // If user came from within the site, go back. Otherwise (direct
+              // landing via search / share link), send them to the home page
+              // so they can actually explore bujasaju rather than hit an
+              // empty history that does nothing.
+              if (typeof document !== 'undefined' &&
+                  document.referrer &&
+                  new URL(document.referrer).origin === window.location.origin) {
+                router.back();
+              } else {
+                router.push('/');
+              }
+            }}
             className="text-gray-500 hover:text-gray-800 transition-colors text-sm flex items-center gap-1"
           >
             <span className="text-lg">←</span>
