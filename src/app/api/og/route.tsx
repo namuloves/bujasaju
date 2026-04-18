@@ -54,7 +54,7 @@ export async function GET(req: NextRequest) {
         }}
       >
         {/* Top label */}
-        <div style={{ fontSize: 38, color: 'rgba(0,0,0,0.35)', marginBottom: 20, display: 'flex' }}>
+        <div style={{ fontSize: 44, color: 'rgba(0,0,0,0.35)', marginBottom: 22, display: 'flex' }}>
           나와 사주가 같은 부자
         </div>
 
@@ -64,11 +64,11 @@ export async function GET(req: NextRequest) {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            marginBottom: 44,
+            marginBottom: 48,
           }}
         >
-          <div style={{ fontSize: 58, fontWeight: 700, color: '#1a1a1a', display: 'flex', textAlign: 'center' }}>
-            <span>당신과 같은 </span><span style={{ color: '#4f46e5', textDecoration: 'underline', textDecorationColor: 'rgba(79,70,229,0.3)', textUnderlineOffset: '8px' }}>{ilju} 일주</span><span>를 가진 부자</span>
+          <div style={{ fontSize: 68, fontWeight: 700, color: '#1a1a1a', display: 'flex', textAlign: 'center' }}>
+            <span>당신과 같은&nbsp;</span><span style={{ color: '#4f46e5', textDecoration: 'underline', textDecorationColor: 'rgba(79,70,229,0.3)', textUnderlineOffset: '8px' }}>{ilju} 일주</span><span>를 가진 부자</span>
           </div>
         </div>
 
@@ -88,29 +88,29 @@ export async function GET(req: NextRequest) {
         )}
 
         {/* Name */}
-        <div style={{ fontSize: 72, fontWeight: 700, color: '#1a1a1a', display: 'flex', marginBottom: 12 }}>
+        <div style={{ fontSize: 84, fontWeight: 700, color: '#1a1a1a', display: 'flex', marginBottom: 14 }}>
           {featuredName}
         </div>
 
         {/* Worth */}
         {featuredWorth && (
-          <div style={{ fontSize: 54, fontWeight: 600, color: '#4f46e5', display: 'flex', marginBottom: 18 }}>
+          <div style={{ fontSize: 62, fontWeight: 600, color: '#4f46e5', display: 'flex', marginBottom: 20 }}>
             {featuredWorth} 원
           </div>
         )}
 
         {/* Source · Country */}
-        <div style={{ display: 'flex', gap: 16, alignItems: 'center', marginBottom: 10 }}>
+        <div style={{ display: 'flex', gap: 18, alignItems: 'center', marginBottom: 10 }}>
           {featuredSource && (
-            <span style={{ fontSize: 40, color: 'rgba(0,0,0,0.45)' }}>
+            <span style={{ fontSize: 46, color: 'rgba(0,0,0,0.45)' }}>
               {featuredSource}
             </span>
           )}
           {featuredSource && featuredNat && (
-            <span style={{ fontSize: 40, color: 'rgba(0,0,0,0.2)' }}>·</span>
+            <span style={{ fontSize: 46, color: 'rgba(0,0,0,0.2)' }}>·</span>
           )}
           {featuredNat && (
-            <span style={{ fontSize: 40, color: 'rgba(0,0,0,0.45)' }}>
+            <span style={{ fontSize: 46, color: 'rgba(0,0,0,0.45)' }}>
               {featuredNat}
             </span>
           )}
@@ -123,13 +123,13 @@ export async function GET(req: NextRequest) {
             bottom: 48,
             display: 'flex',
             alignItems: 'center',
-            gap: 10,
+            gap: 12,
           }}
         >
-          <span style={{ fontSize: 36, fontWeight: 700, color: 'rgba(0,0,0,0.25)' }}>
+          <span style={{ fontSize: 42, fontWeight: 700, color: 'rgba(0,0,0,0.25)' }}>
             부자사주
           </span>
-          <span style={{ fontSize: 30, color: 'rgba(0,0,0,0.15)' }}>
+          <span style={{ fontSize: 34, color: 'rgba(0,0,0,0.15)' }}>
             bujasaju.com
           </span>
         </div>
