@@ -17,6 +17,21 @@ function normalizePhotoUrl(url: string | undefined | null, name: string): string
   return url;
 }
 
+const USD_TO_KRW = 1480.71;
+
+function formatNetWorth(netWorthB: number, isKo: boolean): string {
+  if (isKo) {
+    const eok = netWorthB * 10 * USD_TO_KRW; // 10억 달러 단위 → 억원 단위
+    const jo = eok / 10000;
+    if (jo >= 1) {
+      return `${jo >= 10 ? Math.round(jo) : jo.toFixed(1)}조원`;
+    }
+    return `${Math.round(eok).toLocaleString('ko-KR')}억원`;
+  }
+  if (netWorthB >= 1) return `$${netWorthB.toFixed(1)}B`;
+  return `$${(netWorthB * 1000).toFixed(0)}M`;
+}
+
 export default function ProfilePage() {
   const params = useParams();
   const router = useRouter();
@@ -105,7 +120,9 @@ export default function ProfilePage() {
             )}
 
             <div className="flex items-center gap-3 mt-3 text-sm text-gray-600">
-              <span className="font-semibold text-indigo-600 text-lg">${person.netWorth}B</span>
+              <span className="font-semibold text-indigo-600 text-lg">
+                {formatNetWorth(person.netWorth, lang === 'ko')}
+              </span>
               {person.source && (
                 <>
                   <span className="text-gray-300">·</span>
