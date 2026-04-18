@@ -54,7 +54,7 @@ export async function GET(req: NextRequest) {
         }}
       >
         {/* Top label */}
-        <div style={{ fontSize: 44, color: 'rgba(0,0,0,0.35)', marginBottom: 22, display: 'flex' }}>
+        <div style={{ fontSize: 44, color: 'rgba(0,0,0,0.65)', marginBottom: 22, display: 'flex' }}>
           나와 사주가 같은 부자
         </div>
 
@@ -126,10 +126,10 @@ export async function GET(req: NextRequest) {
             gap: 12,
           }}
         >
-          <span style={{ fontSize: 42, fontWeight: 700, color: 'rgba(0,0,0,0.25)' }}>
+          <span style={{ fontSize: 42, fontWeight: 700, color: 'rgba(0,0,0,0.55)' }}>
             부자사주
           </span>
-          <span style={{ fontSize: 34, color: 'rgba(0,0,0,0.15)' }}>
+          <span style={{ fontSize: 34, color: 'rgba(0,0,0,0.4)' }}>
             bujasaju.com
           </span>
         </div>
