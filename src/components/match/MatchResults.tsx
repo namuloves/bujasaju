@@ -1,6 +1,7 @@
 'use client';
 
-import { useMemo, useState, useCallback, lazy, Suspense } from 'react';
+import { useEffect, useMemo, useRef, useState, useCallback, lazy, Suspense } from 'react';
+import { track } from '@vercel/analytics';
 import { useLanguage } from '@/lib/i18n';
 import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
@@ -24,9 +25,12 @@ function formatWorthKrwShort(netWorthB: number): string {
 }
 
 function buildOgUrl(me: SajuResult, featured: EnrichedPerson): string {
+  const displayName = featured.nameKo ?? featured.name;
+  const enName = featured.name && featured.name !== displayName ? featured.name : '';
   const params = new URLSearchParams({
     ilju: me.ilju,
-    featuredName: featured.nameKo ?? featured.name,
+    featuredName: displayName,
+    featuredNameEn: enName,
     featuredSource: featured.source ?? featured.industry,
     featuredWorth: formatWorthKrwShort(featured.netWorth),
     featuredPhoto: featured.photoUrl ?? '',
@@ -130,6 +134,23 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
 
   const featuredHasBio = featuredPerson ? hasDeepBioSync(featuredPerson.id) : false;
   const [showFeaturedBio, setShowFeaturedBio] = useState(false);
+
+  const tracked = useRef<string | null>(null);
+  useEffect(() => {
+    if (loading) return;
+    const key = `${me.ilju}|${me.wolji}|${featuredPerson?.id ?? 'none'}`;
+    if (tracked.current === key) return;
+    tracked.current = key;
+    track('quiz_results_shown', {
+      ilju: me.ilju,
+      wolji: me.wolji,
+      gyeokguk: me.gyeokguk,
+      totalMatches,
+      sameIljuCount,
+      featuredId: featuredPerson?.id ?? null,
+      featuredName: featuredPerson?.name ?? null,
+    });
+  }, [loading, me.ilju, me.wolji, me.gyeokguk, featuredPerson?.id, featuredPerson?.name, totalMatches, sameIljuCount]);
 
   const [saving, setSaving] = useState(false);
   const handleSaveImage = useCallback(async () => {

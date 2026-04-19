@@ -26,6 +26,7 @@ export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const ilju = searchParams.get('ilju') || '갑자';
   const featuredName = searchParams.get('featuredName') || '';
+  const featuredNameEn = searchParams.get('featuredNameEn') || '';
   const featuredSource = searchParams.get('featuredSource') || '';
   const featuredWorth = searchParams.get('featuredWorth') || '';
   const featuredPhoto = searchParams.get('featuredPhoto') || '';
@@ -88,13 +89,18 @@ export async function GET(req: NextRequest) {
         )}
 
         {/* Name */}
-        <div style={{ fontSize: 84, fontWeight: 700, color: '#1a1a1a', display: 'flex', marginBottom: 14 }}>
+        <div style={{ fontSize: 82, fontWeight: 700, color: '#1a1a1a', display: 'flex', marginBottom: featuredNameEn ? 6 : 14 }}>
           {featuredName}
         </div>
+        {featuredNameEn && (
+          <div style={{ fontSize: 38, color: 'rgba(0,0,0,0.5)', display: 'flex', marginBottom: 16 }}>
+            {featuredNameEn}
+          </div>
+        )}
 
         {/* Worth */}
         {featuredWorth && (
-          <div style={{ fontSize: 62, fontWeight: 600, color: '#4f46e5', display: 'flex', marginBottom: 20 }}>
+          <div style={{ fontSize: 62, fontWeight: 600, color: '#4f46e5', display: 'flex', marginBottom: 6 }}>
             {featuredWorth} 원
           </div>
         )}
@@ -120,7 +126,7 @@ export async function GET(req: NextRequest) {
         <div
           style={{
             position: 'absolute',
-            bottom: 48,
+            bottom: 28,
             display: 'flex',
             alignItems: 'center',
             gap: 12,
