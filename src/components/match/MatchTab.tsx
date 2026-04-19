@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
+import { track } from '@vercel/analytics';
 import BirthdayForm, { MatchInput } from './BirthdayForm';
 import SajuConfirmCard from './SajuConfirmCard';
 import { calculateSaju } from '@/lib/saju/index';
@@ -157,6 +158,15 @@ export default function MatchTab() {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(input));
     } catch {
       // ignore
+    }
+    if (saju) {
+      track('quiz_confirmed', {
+        ilju: saju.ilju,
+        wolji: saju.wolji,
+        gyeokguk: saju.gyeokguk,
+        ilgan: saju.saju.day.stem,
+        mode: input.mode,
+      });
     }
     setStep('revealing');
   };
