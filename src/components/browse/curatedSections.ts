@@ -8,7 +8,7 @@ import { STEM_TO_OHAENG, BRANCH_TO_OHAENG } from '@/lib/saju/constants';
  * billionaire hour pillars are almost always unknown — counting a null hour
  * as "missing" would inflate every element.
  */
-function isMissingOhaeng(person: EnrichedPerson, target: OHaeng): boolean {
+export function isMissingOhaeng(person: EnrichedPerson, target: OHaeng): boolean {
   const { year, month, day } = person.saju.saju;
   const elements: OHaeng[] = [
     STEM_TO_OHAENG[year.stem], BRANCH_TO_OHAENG[year.branch],
@@ -332,7 +332,7 @@ const CURATED_SECTIONS: CuratedSectionConfig[] = [
     descriptionKo: '',
     descriptionEn: '',
     filter: (p) => isMissingOhaeng(p, '목'),
-    applyFilter: null,
+    applyFilter: { missingOhaeng: '목' },
   },
   {
     id: 'missing-hwa',
@@ -341,7 +341,7 @@ const CURATED_SECTIONS: CuratedSectionConfig[] = [
     descriptionKo: '',
     descriptionEn: '',
     filter: (p) => isMissingOhaeng(p, '화'),
-    applyFilter: null,
+    applyFilter: { missingOhaeng: '화' },
   },
   {
     id: 'missing-to',
@@ -350,7 +350,7 @@ const CURATED_SECTIONS: CuratedSectionConfig[] = [
     descriptionKo: '',
     descriptionEn: '',
     filter: (p) => isMissingOhaeng(p, '토'),
-    applyFilter: null,
+    applyFilter: { missingOhaeng: '토' },
   },
   {
     id: 'missing-geum',
@@ -359,7 +359,7 @@ const CURATED_SECTIONS: CuratedSectionConfig[] = [
     descriptionKo: '',
     descriptionEn: '',
     filter: (p) => isMissingOhaeng(p, '금'),
-    applyFilter: null,
+    applyFilter: { missingOhaeng: '금' },
   },
   {
     id: 'missing-su',
@@ -368,7 +368,7 @@ const CURATED_SECTIONS: CuratedSectionConfig[] = [
     descriptionKo: '',
     descriptionEn: '',
     filter: (p) => isMissingOhaeng(p, '수'),
-    applyFilter: null,
+    applyFilter: { missingOhaeng: '수' },
   },
 ];
 

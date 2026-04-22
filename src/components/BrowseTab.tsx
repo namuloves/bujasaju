@@ -13,6 +13,8 @@ import {
 } from '@/lib/data/enriched';
 import { fetchSearchIndex } from '@/lib/deepBio';
 import CuratedBrowseView from '@/components/browse/CuratedBrowseView';
+import { isMissingOhaeng } from '@/components/browse/curatedSections';
+import type { OHaeng } from '@/lib/saju/types';
 
 /**
  * Korean brand/company names → English equivalents for search.
@@ -191,6 +193,7 @@ const defaultFilters: Filters = {
   industryExclude: '',
   gender: '',
   wealthOrigin: '',
+  missingOhaeng: '',
   sort: 'netWorth_desc',
 };
 
@@ -200,6 +203,7 @@ const PAGE_SIZE = 60;
 const FILTER_KEYS: (keyof Filters)[] = [
   'ilgan', 'ilju', 'wolji', 'gyeokguk', 'search',
   'nationality', 'industry', 'industryExclude', 'gender', 'wealthOrigin',
+  'missingOhaeng',
 ];
 
 /** Read filters from the current URL, falling back to defaults for missing keys. */
@@ -347,6 +351,7 @@ export default function BrowseTab() {
       if (f.industry && person.industry !== f.industry) return false;
       if (f.industryExclude && (person.industry ?? '').includes(f.industryExclude)) return false;
       if (f.wealthOrigin && person.wealthOrigin !== f.wealthOrigin) return false;
+      if (f.missingOhaeng && !isMissingOhaeng(person, f.missingOhaeng as OHaeng)) return false;
       return true;
     });
 
@@ -410,7 +415,7 @@ export default function BrowseTab() {
         {!filters.ilgan && !filters.ilju && !filters.wolji &&
          !filters.gyeokguk && !filters.search && !filters.nationality &&
          !filters.industry && !filters.industryExclude && !filters.gender &&
-         !filters.wealthOrigin ? (
+         !filters.wealthOrigin && !filters.missingOhaeng ? (
           <CuratedBrowseView
             people={enrichedPeople}
             onApplyFilter={(partial) => setFilters({ ...defaultFilters, ...partial }, true)}
