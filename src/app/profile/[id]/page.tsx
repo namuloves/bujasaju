@@ -7,6 +7,7 @@ import { useEnrichedPeople } from '@/lib/data/enriched';
 import type { DeepBio } from '@/lib/deepBio';
 import { fetchDeepBio } from '@/lib/deepBio';
 import { TabBar, TabContent, LoadingSpinner, EmptyBioState, ko, type Tab } from '@/components/deep-bio/DeepBioTabs';
+import { industryToKorean } from '@/components/FilterPanel';
 
 function normalizePhotoUrl(url: string | undefined | null, name: string): string {
   if (!url) {
@@ -146,7 +147,7 @@ export default function ProfilePage() {
             <div className="mt-4 space-y-1.5 text-sm text-gray-600">
               <p>
                 <span className="text-gray-400 w-16 inline-block">{lang === 'ko' ? '산업' : 'Industry'}</span>
-                <span className="ml-2">{person.industry}</span>
+                <span className="ml-2">{lang === 'ko' ? industryToKorean(person.industry) : person.industry}</span>
               </p>
               <p>
                 <span className="text-gray-400 w-16 inline-block">{lang === 'ko' ? '생년월일' : 'Born'}</span>

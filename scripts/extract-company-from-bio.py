@@ -15,11 +15,15 @@ from pathlib import Path
 
 CATEGORY_SOURCES = {
     'Diversified', 'Manufacturing', 'Telecom', 'Sports', 'Healthcare',
-    'Logistics', 'Technology', 'Real Estate', 'Energy', 'Automotive',
+    'Logistics', 'Technology', 'Real Estate', 'Real estate', 'Energy', 'Automotive',
     'Investment research', 'Hedge funds', 'Venture capital',
     'Finance & Investments', 'Fashion & Retail', 'Food & Beverage',
     'Media & Entertainment', 'Construction & Engineering',
     'Metals & Mining', 'Gambling & Casinos', 'Service',
+    # Generic one-word categories the previous pass didn't cover
+    'Supermarkets', 'Supermarket', 'Retail', 'Investments',
+    'Pharmaceuticals', 'Software', 'Mining', 'Finance', 'Media', 'Oil',
+    'Gas', 'Hardware',
 }
 
 # Patterns that reliably name a company. Order matters — more specific first.

@@ -12,6 +12,7 @@ import { getSipSin } from '@/lib/saju/tenGods';
 import type { CheonGan, JiJi } from '@/lib/saju/types';
 import SajuBadge from '../SajuBadge';
 import { HeroPillar } from '../match/SajuHero';
+import { industryToKorean } from '../FilterPanel';
 
 const USD_TO_KRW = 1480.71;
 const USD_TO_KRW_DATE = '2026.04.09';
@@ -299,7 +300,7 @@ export default function DeepBioModal({ person, onClose }: Props) {
             )}
           </div>
           <div className="mt-1.5 space-y-0.5 text-xs text-gray-600">
-            <p>{person.industry}</p>
+            <p>{lang === 'ko' ? industryToKorean(person.industry) : person.industry}</p>
             <p>{person.birthday.replace(/-/g, '.')}{person.deathDate ? ` - ${person.deathDate.replace(/-/g, '.')}` : ''}</p>
             {bio?.childhood?.birthPlace && (
               <p className="text-gray-500">{ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo)}</p>
@@ -342,8 +343,14 @@ export default function DeepBioModal({ person, onClose }: Props) {
             {lang === 'ko' && (
               <span className="text-xs text-gray-400">(${person.netWorth}B)</span>
             )}
+            {person.source && person.source !== person.industry && (
+              <>
+                <span className="text-gray-300">·</span>
+                <span>{person.source}</span>
+              </>
+            )}
             <span className="text-gray-300">·</span>
-            <span>{person.source || person.industry}</span>
+            <span>{lang === 'ko' ? industryToKorean(person.industry) : person.industry}</span>
             <span className="text-gray-300">·</span>
             <span>{person.birthday.replace(/-/g, '.')}{person.deathDate ? ` - ${person.deathDate.replace(/-/g, '.')}` : ''}</span>
             {bio?.childhood?.birthPlace && (
