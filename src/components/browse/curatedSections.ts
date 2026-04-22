@@ -1,5 +1,22 @@
-import type { EnrichedPerson } from '@/lib/saju/types';
+import type { EnrichedPerson, OHaeng } from '@/lib/saju/types';
 import type { Filters } from '@/components/FilterPanel';
+import { STEM_TO_OHAENG, BRANCH_TO_OHAENG } from '@/lib/saju/constants';
+
+/**
+ * True when `person` has zero occurrences of `target` across year/month/day
+ * pillars (6 characters: 3 stems + 3 branches). Hour is excluded because
+ * billionaire hour pillars are almost always unknown — counting a null hour
+ * as "missing" would inflate every element.
+ */
+function isMissingOhaeng(person: EnrichedPerson, target: OHaeng): boolean {
+  const { year, month, day } = person.saju.saju;
+  const elements: OHaeng[] = [
+    STEM_TO_OHAENG[year.stem], BRANCH_TO_OHAENG[year.branch],
+    STEM_TO_OHAENG[month.stem], BRANCH_TO_OHAENG[month.branch],
+    STEM_TO_OHAENG[day.stem], BRANCH_TO_OHAENG[day.branch],
+  ];
+  return !elements.includes(target);
+}
 
 export interface CuratedSectionConfig {
   id: string;
@@ -306,6 +323,52 @@ const CURATED_SECTIONS: CuratedSectionConfig[] = [
     descriptionEn: 'Intuitive Gye day stem billionaires',
     filter: (p) => p.saju.saju.day.stem === '계',
     applyFilter: { ilgan: '계' },
+  },
+  // 오행 결핍 테마 — 연/월/일주에서 해당 오행이 0개인 부자들 (시주는 대부분 미상이라 제외)
+  {
+    id: 'missing-mok',
+    labelKo: '목이 없는 부자들',
+    labelEn: 'Billionaires Without Wood',
+    descriptionKo: '',
+    descriptionEn: '',
+    filter: (p) => isMissingOhaeng(p, '목'),
+    applyFilter: null,
+  },
+  {
+    id: 'missing-hwa',
+    labelKo: '화가 없는 부자들',
+    labelEn: 'Billionaires Without Fire',
+    descriptionKo: '',
+    descriptionEn: '',
+    filter: (p) => isMissingOhaeng(p, '화'),
+    applyFilter: null,
+  },
+  {
+    id: 'missing-to',
+    labelKo: '토가 없는 부자들',
+    labelEn: 'Billionaires Without Earth',
+    descriptionKo: '',
+    descriptionEn: '',
+    filter: (p) => isMissingOhaeng(p, '토'),
+    applyFilter: null,
+  },
+  {
+    id: 'missing-geum',
+    labelKo: '금이 없는 부자들',
+    labelEn: 'Billionaires Without Metal',
+    descriptionKo: '',
+    descriptionEn: '',
+    filter: (p) => isMissingOhaeng(p, '금'),
+    applyFilter: null,
+  },
+  {
+    id: 'missing-su',
+    labelKo: '수가 없는 부자들',
+    labelEn: 'Billionaires Without Water',
+    descriptionKo: '',
+    descriptionEn: '',
+    filter: (p) => isMissingOhaeng(p, '수'),
+    applyFilter: null,
   },
 ];
 

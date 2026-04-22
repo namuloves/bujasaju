@@ -53,6 +53,11 @@ const DEFAULT_TOP_SECTION_IDS = [
   'tech',
   'selfmade',
   'kr-celeb',
+  'missing-mok',
+  'missing-hwa',
+  'missing-to',
+  'missing-geum',
+  'missing-su',
 ];
 
 interface Props {
