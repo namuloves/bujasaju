@@ -83,7 +83,7 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
             {label}
           </h3>
           <p className="text-xs text-gray-400 mt-0.5">
-            {description} · {totalInSection}{isKo ? '명' : ' people'}
+            {description && `${description} · `}{totalInSection}{isKo ? '명' : ' people'}
           </p>
         </div>
         {onShowMore && remaining > 0 && (
