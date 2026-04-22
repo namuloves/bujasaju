@@ -9,7 +9,7 @@ import {
   getUniqueNationalities,
   getUniqueIndustries,
   getUniqueGyeokguks,
-  getUniqueIljus,
+  getIljusGroupedByStem,
 } from '@/lib/data/enriched';
 import { fetchSearchIndex } from '@/lib/deepBio';
 import CuratedBrowseView from '@/components/browse/CuratedBrowseView';
@@ -398,7 +398,7 @@ export default function BrowseTab() {
             availableGyeokguks={getUniqueGyeokguks(enrichedPeople)}
             availableNationalities={getUniqueNationalities(enrichedPeople)}
             availableIndustries={getUniqueIndustries(enrichedPeople)}
-            availableIljus={getUniqueIljus(enrichedPeople)}
+            availableIljus={getIljusGroupedByStem(enrichedPeople)}
             totalCount={enrichedPeople.length}
             filteredCount={filteredPeople.length}
           />
