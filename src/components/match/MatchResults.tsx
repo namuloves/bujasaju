@@ -13,6 +13,7 @@ import ShareButtons from './ShareButtons';
 import MatchSummary from './MatchSummary';
 import DeepInterpretation from './DeepInterpretation';
 import EmailCaptureCard from './EmailCaptureCard';
+import ResultsCuratedSections from './ResultsCuratedSections';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
 
@@ -249,7 +250,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
           {featuredPerson && (
             <div className="flex flex-col items-center md:items-start gap-4">
               {/* OG image */}
-              <div className="w-56 sm:w-64 md:w-full rounded-lg overflow-hidden shadow-sm">
+              <div className="w-[16.8rem] sm:w-[19.2rem] md:w-full rounded-lg overflow-hidden shadow-sm">
                 <img
                   src={buildOgUrl(me, featuredPerson)}
                   alt="사주 매칭 결과"
@@ -329,20 +330,6 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
                 )}
               </div>
 
-              {/* 자세히 보기 button */}
-              {featuredHasBio ? (
-                <button
-                  type="button"
-                  onClick={() => setShowFeaturedBio(true)}
-                  className="w-full text-sm font-medium text-indigo-600 hover:text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg py-2 transition-colors"
-                >
-                  {fpName} 자세히 보기 →
-                </button>
-              ) : (
-                <div className="w-full text-center text-xs text-gray-400 py-1.5">
-                  상세 프로필 준비중
-                </div>
-              )}
             </div>
           )}
           {/* Right: 풀이 */}
@@ -359,7 +346,22 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
               </div>
             )}
 
-            {/* Match stats — below 심층풀이 */}
+            {/* 자세히 보기 button — between 심층풀이 and match stats */}
+            {featuredHasBio ? (
+              <button
+                type="button"
+                onClick={() => setShowFeaturedBio(true)}
+                className="w-full text-sm font-medium text-indigo-600 hover:text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg py-2.5 transition-colors"
+              >
+                {fpName} 부자 자세히 보기 →
+              </button>
+            ) : (
+              <div className="w-full text-center text-xs text-gray-400 py-1.5">
+                상세 프로필 준비중
+              </div>
+            )}
+
+            {/* Match stats — below 자세히 보기 */}
             <div className="border-t border-gray-100 pt-5 space-y-2.5">
               {totalMatches > 0 && (
                 <p className="text-sm text-gray-600">
@@ -469,6 +471,17 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
         <div className="mt-4">
           <EmailCaptureCard />
         </div>
+      </div>
+
+      {/* Curated themed shelves — "keep browsing" content below the main
+          result. User's 일간 section first, then broad-interest sections,
+          with the rest tucked behind an expander. */}
+      <div className="pt-4">
+        <ResultsCuratedSections
+          me={me}
+          people={enrichedPeople}
+          excludeIds={featuredPerson ? new Set([featuredPerson.id]) : undefined}
+        />
       </div>
 
       </div>

@@ -52,10 +52,13 @@ export async function GET(req: NextRequest) {
           background: 'linear-gradient(180deg, #e8e0f0 0%, #d8d0e8 40%, #c8c0d8 100%)',
           fontFamily: 'NotoSansKR',
           position: 'relative',
+          // Safe inner frame: keep all natural-flow content away from the
+          // edges and from the absolute-positioned watermark at the bottom.
+          padding: '60px 80px 150px 80px',
         }}
       >
         {/* Top label */}
-        <div style={{ fontSize: 44, color: 'rgba(0,0,0,0.65)', marginBottom: 22, display: 'flex' }}>
+        <div style={{ fontSize: 44, color: 'rgba(0,0,0,0.65)', marginBottom: 18, display: 'flex' }}>
           나와 사주가 같은 부자
         </div>
 
@@ -65,7 +68,7 @@ export async function GET(req: NextRequest) {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            marginBottom: 48,
+            marginBottom: 32,
           }}
         >
           <div style={{ fontSize: 68, fontWeight: 700, color: '#1a1a1a', display: 'flex', textAlign: 'center' }}>
@@ -77,46 +80,46 @@ export async function GET(req: NextRequest) {
         {featuredPhoto && (
           <img
             src={featuredPhoto.replace('416x416', '800x800')}
-            width={480}
-            height={480}
+            width={540}
+            height={540}
             style={{
-              borderRadius: 48,
+              borderRadius: 54,
               objectFit: 'cover',
-              marginBottom: 38,
-              border: '5px solid rgba(255,255,255,0.8)',
+              marginBottom: 28,
+              border: '6px solid rgba(255,255,255,0.85)',
             }}
           />
         )}
 
         {/* Name */}
-        <div style={{ fontSize: 82, fontWeight: 700, color: '#1a1a1a', display: 'flex', marginBottom: featuredNameEn ? 6 : 14 }}>
+        <div style={{ fontSize: 78, fontWeight: 700, color: '#1a1a1a', display: 'flex', marginBottom: featuredNameEn ? 4 : 10 }}>
           {featuredName}
         </div>
         {featuredNameEn && (
-          <div style={{ fontSize: 38, color: 'rgba(0,0,0,0.5)', display: 'flex', marginBottom: 16 }}>
+          <div style={{ fontSize: 36, color: 'rgba(0,0,0,0.5)', display: 'flex', marginBottom: 14 }}>
             {featuredNameEn}
           </div>
         )}
 
         {/* Worth */}
         {featuredWorth && (
-          <div style={{ fontSize: 62, fontWeight: 600, color: '#4f46e5', display: 'flex', marginBottom: 6 }}>
-            {featuredWorth} 원
+          <div style={{ fontSize: 50, fontWeight: 600, color: '#4f46e5', display: 'flex', marginBottom: 8 }}>
+            포브스 추정 자산: {featuredWorth}
           </div>
         )}
 
         {/* Source · Country */}
-        <div style={{ display: 'flex', gap: 18, alignItems: 'center', marginBottom: 10 }}>
+        <div style={{ display: 'flex', gap: 18, alignItems: 'center' }}>
           {featuredSource && (
-            <span style={{ fontSize: 46, color: 'rgba(0,0,0,0.45)' }}>
+            <span style={{ fontSize: 42, color: 'rgba(0,0,0,0.45)' }}>
               {featuredSource}
             </span>
           )}
           {featuredSource && featuredNat && (
-            <span style={{ fontSize: 46, color: 'rgba(0,0,0,0.2)' }}>·</span>
+            <span style={{ fontSize: 42, color: 'rgba(0,0,0,0.2)' }}>·</span>
           )}
           {featuredNat && (
-            <span style={{ fontSize: 46, color: 'rgba(0,0,0,0.45)' }}>
+            <span style={{ fontSize: 42, color: 'rgba(0,0,0,0.45)' }}>
               {featuredNat}
             </span>
           )}
@@ -126,7 +129,7 @@ export async function GET(req: NextRequest) {
         <div
           style={{
             position: 'absolute',
-            bottom: 28,
+            bottom: 48,
             display: 'flex',
             alignItems: 'center',
             gap: 12,
