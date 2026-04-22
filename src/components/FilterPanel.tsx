@@ -31,7 +31,7 @@ interface FilterPanelProps {
   availableGyeokguks: string[];
   availableNationalities: string[];
   availableIndustries: string[];
-  availableIljus: string[];
+  availableIljus: Array<{ stem: string; ohaeng: string; iljus: string[] }>;
   totalCount: number;
   filteredCount: number;
 }
@@ -244,8 +244,12 @@ export default function FilterPanel({
           className="w-full px-2 py-1.5 border border-gray-200 rounded-lg text-sm text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
         >
           <option value="">{t.allDayPillars}</option>
-          {availableIljus.map((ilju) => (
-            <option key={ilju} value={ilju}>{ilju}</option>
+          {availableIljus.map((group) => (
+            <optgroup key={group.stem} label={`${group.stem} (${group.ohaeng})`}>
+              {group.iljus.map((ilju) => (
+                <option key={ilju} value={ilju}>{ilju}</option>
+              ))}
+            </optgroup>
           ))}
         </select>
       </div>
