@@ -114,7 +114,8 @@ export default function AnalyticsPanel({
   // analytics — sort doesn't change the set, and search is its own thing).
   const hasFilter =
     !!(filters.ilgan || filters.ilju || filters.wolji || filters.gyeokguk ||
-       filters.nationality || filters.industry || filters.gender || filters.search);
+       filters.nationality || filters.industry || filters.gender || filters.search ||
+       filters.missingOhaeng);
 
   const { primary, secondary } = useMemo(() => pickBreakdowns(filters), [filters]);
 
@@ -238,8 +239,9 @@ export default function AnalyticsPanel({
   if (filters.industry) activeChips.push({ label: lang === 'ko' ? `업종: ${industryToKorean(filters.industry)}` : `Industry: ${filters.industry}`, onRemove: () => onChange({ ...filters, industry: '' }) });
   if (filters.gender) activeChips.push({ label: filters.gender === 'M' ? (lang === 'ko' ? '남성' : 'Male') : (lang === 'ko' ? '여성' : 'Female'), onRemove: () => onChange({ ...filters, gender: '' }) });
   if (filters.search) activeChips.push({ label: `"${filters.search}"`, onRemove: () => onChange({ ...filters, search: '' }) });
+  if (filters.missingOhaeng) activeChips.push({ label: lang === 'ko' ? `${filters.missingOhaeng} 없음` : `No ${filters.missingOhaeng}`, onRemove: () => onChange({ ...filters, missingOhaeng: '' }) });
 
-  const clearAll = () => onChange({ ilgan: '', ilju: '', wolji: '', gyeokguk: '', nationality: '', industry: '', industryExclude: '', gender: '', wealthOrigin: '', sort: filters.sort, search: '' });
+  const clearAll = () => onChange({ ilgan: '', ilju: '', wolji: '', gyeokguk: '', nationality: '', industry: '', industryExclude: '', gender: '', wealthOrigin: '', missingOhaeng: '', sort: filters.sort, search: '' });
 
   return (
     <div className="bg-white rounded-xl border border-gray-200 p-5 sm:p-6 mb-4">

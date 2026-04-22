@@ -21,6 +21,7 @@ export interface Filters {
   industryExclude: string; // industry to exclude (e.g. 'Entertainment'); '' = no exclusion
   gender: string;   // 'M', 'F', or ''
   wealthOrigin: string; // 'inherited', 'self-made', or ''
+  missingOhaeng: string; // 오행 결핍: '목' | '화' | '토' | '금' | '수' | '' — 0 occurrences across year/month/day pillars
   sort: SortOption;
 }
 
@@ -160,7 +161,7 @@ export default function FilterPanel({
   };
 
   const clearAll = () => {
-    onChange({ ilgan: '', ilju: '', wolji: '', gyeokguk: '', search: '', nationality: '', industry: '', industryExclude: '', gender: '', wealthOrigin: '', sort: 'netWorth_desc' });
+    onChange({ ilgan: '', ilju: '', wolji: '', gyeokguk: '', search: '', nationality: '', industry: '', industryExclude: '', gender: '', wealthOrigin: '', missingOhaeng: '', sort: 'netWorth_desc' });
   };
 
   // "Has filters" = anything narrowing the set is active. Sort always has
@@ -173,7 +174,8 @@ export default function FilterPanel({
     !!filters.search ||
     !!filters.nationality ||
     !!filters.industry ||
-    !!filters.gender;
+    !!filters.gender ||
+    !!filters.missingOhaeng;
 
   return (
     <div className="bg-white rounded-xl border border-gray-200 p-4 space-y-4">
@@ -295,6 +297,34 @@ export default function FilterPanel({
                 }`}
               >
                 {branch}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* 오행 결핍 Filter — 연/월/일주에서 해당 오행이 0개인 사람 */}
+      <div>
+        <div className="flex items-center justify-between mb-1.5">
+          <label className="text-xs font-medium text-gray-500">
+            {lang === 'ko' ? '오행 결핍' : 'Missing Element'}
+          </label>
+          {filters.missingOhaeng && <button onClick={() => update('missingOhaeng', '')} className="text-[10px] text-gray-400 hover:text-indigo-600 transition-colors">✕</button>}
+        </div>
+        <div className="flex flex-wrap gap-1">
+          {(['목', '화', '토', '금', '수'] as const).map((el) => {
+            const isActive = filters.missingOhaeng === el;
+            return (
+              <button
+                key={el}
+                onClick={() => update('missingOhaeng', isActive ? '' : el)}
+                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
+                  isActive
+                    ? 'bg-indigo-600 text-white shadow-sm'
+                    : 'bg-gray-50 text-gray-600 hover:bg-gray-100'
+                }`}
+              >
+                {OHAENG_EMOJI[el]} {el} 없음
               </button>
             );
           })}
