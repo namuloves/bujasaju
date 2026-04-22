@@ -466,7 +466,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
       )}
 
       {/* Share + email */}
-      <div className="bg-white rounded-2xl px-4 sm:px-6 py-5">
+      <div className="bg-white rounded-2xl px-4 sm:px-6 py-5 mx-auto max-w-xl">
         <ShareButtons title={t.shareTitle} variant="hero" />
         <div className="mt-4">
           <EmailCaptureCard />
