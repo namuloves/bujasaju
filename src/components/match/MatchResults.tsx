@@ -242,15 +242,15 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
   }
 
   return (
-    <div className="max-w-5xl mx-auto space-y-8">
+    <div className="max-w-6xl mx-auto space-y-8">
       {/* Top card: OG image (left) + 풀이 (right) */}
       <div className="rounded-2xl bg-white border border-gray-200 overflow-hidden p-5 sm:p-6">
-        <div className="grid md:grid-cols-[minmax(0,300px)_minmax(0,1fr)] gap-10">
+        <div className="grid md:grid-cols-[minmax(0,360px)_minmax(0,1fr)] gap-10">
           {/* Left: share image + saju charts */}
           {featuredPerson && (
             <div className="flex flex-col items-center md:items-start gap-4">
               {/* OG image */}
-              <div className="w-[16.8rem] sm:w-[19.2rem] md:w-full rounded-lg overflow-hidden shadow-sm">
+              <div className="w-[20.16rem] sm:w-[23.04rem] md:w-full rounded-lg overflow-hidden shadow-sm">
                 <img
                   src={buildOgUrl(me, featuredPerson)}
                   alt="사주 매칭 결과"
