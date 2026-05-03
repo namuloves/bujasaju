@@ -86,7 +86,7 @@ function extractText(bio: Record<string, unknown>): string {
 }
 
 function main() {
-  const files = fs.readdirSync(BIOS_DIR).filter(f => f.endsWith('.json'));
+  const files = fs.readdirSync(BIOS_DIR).filter(f => f.endsWith('.json') && !f.startsWith('._'));
   const index: Record<string, string> = {};
 
   for (const file of files) {
