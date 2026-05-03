@@ -90,15 +90,6 @@ const CURATED_SECTIONS: CuratedSectionConfig[] = [
     applyFilter: { nationality: 'JP' },
   },
   {
-    id: 'kr-celeb',
-    labelKo: '한국 연예인',
-    labelEn: 'Korean Celebrities',
-    descriptionKo: '엔터테인먼트 업계의 한국 부자들',
-    descriptionEn: 'Korean entertainment billionaires',
-    filter: isKrCeleb,
-    applyFilter: null,
-  },
-  {
     id: 'cn',
     labelKo: '중국의 부자',
     labelEn: 'Chinese Billionaires',
@@ -232,6 +223,15 @@ const CURATED_SECTIONS: CuratedSectionConfig[] = [
     descriptionEn: 'Wealth built in sports teams and industries',
     filter: (p) => p.industry === 'Sports',
     applyFilter: { industry: 'Sports' },
+  },
+  {
+    id: 'kr-celeb',
+    labelKo: '한국 연예인',
+    labelEn: 'Korean Celebrities',
+    descriptionKo: '엔터테인먼트 업계의 한국 부자들',
+    descriptionEn: 'Korean entertainment billionaires',
+    filter: isKrCeleb,
+    applyFilter: null,
   },
   // 일간(日干) 기반 테마 — 같은 일간을 가진 부자들
   {
