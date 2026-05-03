@@ -110,7 +110,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
           <h3 className="text-sm font-bold text-gray-900 mb-2">
             {lang === 'ko' ? '💰 자산 변화' : '💰 Wealth History'}
           </h3>
-          <WealthChart data={bio.wealthHistory} timeline={bio.careerTimeline} lang={lang} className="bg-gray-50 rounded-xl p-3" />
+          <WealthChart data={bio.wealthHistory} timeline={bio.careerTimeline} lang={lang} className="bg-gray-50 rounded-xl p-3" source={bio.wealthHistorySource} />
         </section>
       )}
 
@@ -139,7 +139,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
               <h3 className="text-sm font-bold text-gray-900 mb-2">
                 {lang === 'ko' ? '💰 자산 변화' : '💰 Wealth History'}
               </h3>
-              <WealthChart data={bio.wealthHistory} timeline={bio.careerTimeline} lang={lang} className="bg-gray-50 rounded-xl p-3" />
+              <WealthChart data={bio.wealthHistory} timeline={bio.careerTimeline} lang={lang} className="bg-gray-50 rounded-xl p-3" source={bio.wealthHistorySource} />
             </section>
           )}
         </div>

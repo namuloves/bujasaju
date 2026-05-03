@@ -407,7 +407,7 @@ export default function BrowseTab() {
 
       <div className="flex-1">
         {loading && enrichedPeople.length === 0 && (
-          <div className="text-center py-16 text-gray-400 text-sm">
+          <div className="text-center py-16 text-gray-500 text-sm">
             불러오는 중…
           </div>
         )}

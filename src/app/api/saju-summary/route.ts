@@ -252,7 +252,8 @@ export async function POST(req: NextRequest) {
   }
 
   if (!process.env.OPENAI_API_KEY) {
-    return new Response('OPENAI_API_KEY not configured', { status: 500 });
+    console.error('[saju-summary] OPENAI_API_KEY not configured');
+    return new Response('Service temporarily unavailable', { status: 503 });
   }
 
   let body: SummaryInput;

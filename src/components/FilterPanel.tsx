@@ -415,7 +415,7 @@ export default function FilterPanel({
 
       {/* Results count & clear */}
       <div className="flex items-center justify-between pt-2 border-t border-gray-100">
-        <span className="text-xs text-gray-500">
+        <span className="text-xs text-gray-600">
           <strong className="text-gray-900">{filteredCount}</strong> {t.resultsOf(totalCount)}
         </span>
         {hasFilters && (
@@ -429,7 +429,7 @@ export default function FilterPanel({
       </div>
 
       {/* Data sources */}
-      <div className="text-[10px] text-gray-400 leading-relaxed">
+      <div className="text-[10px] text-gray-500 leading-relaxed">
         {lang === 'ko'
           ? '출처: 포브스 실시간 억만장자 2026, 위키피디아, 위키데이터, 네이버, 나무위키, 비즈니스포스트, 국내외 언론 보도'
           : 'Sources: Forbes Real-Time Billionaires 2026, Wikipedia, Wikidata, Naver, Namuwiki, Business Post, Korean & international press'}

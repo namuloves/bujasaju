@@ -63,6 +63,7 @@ export interface DeepBio {
   failures: Failure[];
 
   wealthHistory: WealthDataPoint[];
+  wealthHistorySource?: string;
 
   quotes: Quote[];
 
@@ -305,28 +306,6 @@ export function hasDeepBioV2Sync(personId: string): boolean {
 // Cache fetched deep bios in memory
 const cache = new Map<string, DeepBio | null>();
 
-/**
- * Fetch a deep bio by person ID. Returns null if not available.
- * Results are cached so repeated opens don't re-fetch.
- */
-export async function fetchDeepBio(personId: string): Promise<DeepBio | null> {
-  if (cache.has(personId)) return cache.get(personId) ?? null;
-
-  try {
-    const res = await fetch(`/deep-bios/${personId}.json`);
-    if (!res.ok) {
-      cache.set(personId, null);
-      return null;
-    }
-    const data: DeepBio = await res.json();
-    cache.set(personId, data);
-    return data;
-  } catch {
-    cache.set(personId, null);
-    return null;
-  }
-}
-
 /** IDs of billionaires that have deep bio files in public/deep-bios/. */
 const DEEP_BIO_IDS = new Set([
   '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20',
@@ -376,6 +355,34 @@ export function hasDeepBioSync(personId: string): boolean {
   return DEEP_BIO_IDS.has(personId);
 }
 
+/**
+ * Fetch a deep bio by person ID. Returns null if not available.
+ * Results are cached so repeated opens don't re-fetch.
+ */
+export async function fetchDeepBio(personId: string): Promise<DeepBio | null> {
+  if (cache.has(personId)) return cache.get(personId) ?? null;
+
+  // Validate against whitelist to prevent path traversal
+  if (!DEEP_BIO_IDS.has(personId)) {
+    cache.set(personId, null);
+    return null;
+  }
+
+  try {
+    const res = await fetch(`/deep-bios/${personId}.json`);
+    if (!res.ok) {
+      cache.set(personId, null);
+      return null;
+    }
+    const data: DeepBio = await res.json();
+    cache.set(personId, data);
+    return data;
+  } catch {
+    cache.set(personId, null);
+    return null;
+  }
+}
+
 // ---------- Full-text search index ----------
 
 type SearchIndex = Record<string, string>; // { personId: "all searchable text" }
@@ -399,6 +406,7 @@ export function fetchSearchIndex(): Promise<SearchIndex> {
  * Uses HEAD request to avoid downloading the full JSON.
  */
 export async function hasDeepBio(personId: string): Promise<boolean> {
+  if (!DEEP_BIO_IDS.has(personId)) return false;
   if (cache.has(personId)) return cache.get(personId) !== null;
   try {
     const res = await fetch(`/deep-bios/${personId}.json`, { method: 'HEAD' });

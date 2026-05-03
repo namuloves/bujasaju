@@ -8,6 +8,7 @@ interface Props {
   timeline?: TimelineEvent[];
   lang?: string;
   className?: string;
+  source?: string;
 }
 
 interface Annotation {
@@ -34,7 +35,7 @@ function formatWealth(v: number, lang: string): string {
   return v >= 1 ? `$${v.toFixed(1)}B` : `$${(v * 1000).toFixed(0)}M`;
 }
 
-export default function WealthChart({ data, timeline = [], lang = 'en', className = '' }: Props) {
+export default function WealthChart({ data, timeline = [], lang = 'en', className = '', source }: Props) {
   const [activeIdx, setActiveIdx] = useState<number | null>(null);
 
   if (data.length < 2) return null;
@@ -53,6 +54,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
     eventsByYear.set(e.year, e);
   }
 
+  const usedEventYears = new Set<number>();
   for (let i = 1; i < sorted.length; i++) {
     const prev = sorted[i - 1];
     const curr = sorted[i];
@@ -60,13 +62,18 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
     const pct = (curr.netWorth - prev.netWorth) / prev.netWorth;
 
     // Find matching event: exact year, or nearest within ±2 years
-    const event = eventsByYear.get(curr.year)
-      ?? eventsByYear.get(curr.year - 1)
-      ?? eventsByYear.get(curr.year + 1)
-      ?? eventsByYear.get(curr.year - 2)
-      ?? eventsByYear.get(curr.year + 2);
+    // Skip events already claimed by another data point to avoid duplicates
+    let event: TimelineEvent | undefined;
+    let matchedYear: number | undefined;
+    for (const offset of [0, -1, 1, -2, 2]) {
+      const y = curr.year + offset;
+      if (usedEventYears.has(y)) continue;
+      const candidate = eventsByYear.get(y);
+      if (candidate) { event = candidate; matchedYear = y; break; }
+    }
 
-    if (event) {
+    if (event && matchedYear !== undefined) {
+      usedEventYears.add(matchedYear);
       annotations.push({
         year: curr.year,
         netWorth: curr.netWorth,
@@ -153,6 +160,9 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
         {/* Area fill */}
         <path d={areaPath} fill="url(#wealthGrad)" />
 
+        {/* Main line (rendered first so colored segments appear on top) */}
+        <path d={linePath} fill="none" stroke="#0c45a7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+
         {/* Highlight segments for jumps/falls */}
         {topAnnotations.map((ann, i) => {
           const idx = sorted.findIndex(d => d.year === ann.year);
@@ -173,9 +183,6 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
             />
           );
         })}
-
-        {/* Main line */}
-        <path d={linePath} fill="none" stroke="#0c45a7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 
         {/* Data points + interactive hit areas */}
         {sorted.map((d, i) => {
@@ -289,6 +296,12 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
             );
           })}
         </div>
+      )}
+
+      {source && (
+        <p className="mt-1.5 text-[10px] text-gray-500 text-right">
+          {lang === 'ko' ? '출처' : 'Source'}: {source}
+        </p>
       )}
     </div>
   );
