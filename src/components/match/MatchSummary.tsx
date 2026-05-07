@@ -182,7 +182,7 @@ function staticFallback(user: UseSummaryArgs['user'], matches: EnrichedPerson[])
   const industries = new Set(matches.slice(0, 8).map((m) => m.industry));
   const selfMade = matches.slice(0, 8).filter((m) => m.wealthOrigin === 'self-made').length;
   const total = Math.min(matches.length, 8);
-  return `${user.ilju} 일주인 당신은 ${user.gyeokguk}의 기운을 품고 있네요. 비슷한 사주 구조를 가진 부자 ${matches.length}명 중 ${top.nameKo ?? top.name} 같은 인물이 대표적이고, 주요 분야는 ${Array.from(industries).slice(0, 3).join(' · ')}이에요. 상위 ${total}명 중 ${selfMade}명이 자수성가형이라는 점이 인상적이네요.`;
+  return `${user.ilju} 일주인 당신은 ${user.gyeokguk}의 기운을 품고 있습니다. 비슷한 사주 구조를 가진 부자 ${matches.length}명 중 ${top.nameKo ?? top.name} 같은 인물이 대표적입니다. 주요 분야는 ${Array.from(industries).slice(0, 3).join(' · ')}입니다. 상위 ${total}명 중 ${selfMade}명이 자수성가형입니다.`;
 }
 
 export function useSajuSummary({ user, matches, enabled = true }: UseSummaryArgs): SummaryState {

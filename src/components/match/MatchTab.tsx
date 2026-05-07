@@ -45,7 +45,7 @@ const MatchResults = dynamic(
     ),
   },
 );
-import { determineGyeokguk } from '@/lib/saju/gyeokguk';
+import { determineGyeokgukKorean } from '@/lib/saju/gyeokguk';
 import type { SajuResult, JiJi, CheonGan } from '@/lib/saju/types';
 
 type Step = 'form' | 'calculating' | 'confirm' | 'revealing' | 'results';
@@ -112,14 +112,15 @@ function computeSaju(input: MatchInput): SajuResult {
           branch: input.hourPillar[1] as JiJi,
         }
       : null;
+  const saju = {
+    year: { stem: yearStem, branch: yearBranch },
+    month: { stem: monthStem, branch: monthBranch },
+    day: { stem: dayStem, branch: dayBranch },
+    hour,
+  };
   return {
-    saju: {
-      year: { stem: yearStem, branch: yearBranch },
-      month: { stem: monthStem, branch: monthBranch },
-      day: { stem: dayStem, branch: dayBranch },
-      hour,
-    },
-    gyeokguk: determineGyeokguk(dayStem, monthBranch),
+    saju,
+    gyeokguk: determineGyeokgukKorean(saju),
     ilju: input.dayPillar,
     wolji: monthBranch,
   };
