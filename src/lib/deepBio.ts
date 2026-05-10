@@ -238,10 +238,16 @@ export async function fetchDeepBioV2(personId: string): Promise<DeepBioV2 | null
 /**
  * IDs of billionaires that have v2 deep bios in public/deep-bios-v2/.
  *
- * Seeded manually for now. Will grow as Cowork batches drop new files.
- * Regenerate via `scripts/regen-v2-manifest.ts` (TODO) once we have many.
+ * Auto-populated at build time from `scripts/build-deep-bio-index.ts` which
+ * scans the directory and writes `public/deep-bio-index.json`. The index is
+ * fetched on first sync check (non-blocking — first call returns false,
+ * subsequent calls are accurate). To refresh in dev, run:
+ *   npx tsx scripts/build-deep-bio-index.ts
+ *
+ * The seed list below is kept as a fallback for SSR / first paint before
+ * the index loads. Anything in the auto-fetched index supersedes this.
  */
-const DEEP_BIO_V2_IDS = new Set<string>([
+const SEED_DEEP_BIO_V2_IDS = new Set<string>([
   // Global Top 10
   '1',  // Elon Musk
   '2',  // Larry Page
@@ -296,9 +302,48 @@ const DEEP_BIO_V2_IDS = new Set<string>([
   '3358', // 김정수
 ]);
 
-/** Synchronous check — no network request. */
+// ---------- Auto-loaded ID index (replaces hardcoded sets) ----------
+
+let v1Set = new Set<string>();
+let v2Set = new Set<string>(SEED_DEEP_BIO_V2_IDS);
+
+let indexLoaded = false;
+let indexLoadPromise: Promise<void> | null = null;
+
+/**
+ * Fetch /deep-bio-index.json (built by scripts/build-deep-bio-index.ts).
+ * Populates v1Set and v2Set so sync checks reflect actual disk contents.
+ * Non-blocking — caller can use sync check immediately and re-render once
+ * the index resolves.
+ */
+function loadDeepBioIndex(): Promise<void> {
+  if (indexLoadPromise) return indexLoadPromise;
+  // SSR: skip — file system fetch isn't available; rely on seed list.
+  if (typeof window === 'undefined') {
+    indexLoaded = true;
+    return Promise.resolve();
+  }
+  indexLoadPromise = fetch('/deep-bio-index.json')
+    .then(res => res.ok ? res.json() : { v1: [], v2: [] })
+    .then((data: { v1?: string[]; v2?: string[] }) => {
+      if (data.v1) v1Set = new Set(data.v1);
+      if (data.v2) v2Set = new Set([...SEED_DEEP_BIO_V2_IDS, ...data.v2]);
+      indexLoaded = true;
+    })
+    .catch(() => {
+      indexLoaded = true;
+    });
+  return indexLoadPromise;
+}
+
+// Kick off the index load eagerly on the client.
+if (typeof window !== 'undefined') {
+  loadDeepBioIndex();
+}
+
+/** Synchronous check — uses auto-loaded index when available, seed list otherwise. */
 export function hasDeepBioV2Sync(personId: string): boolean {
-  return DEEP_BIO_V2_IDS.has(personId);
+  return v2Set.has(personId);
 }
 
 // ---------- v1 ----------
@@ -306,8 +351,14 @@ export function hasDeepBioV2Sync(personId: string): boolean {
 // Cache fetched deep bios in memory
 const cache = new Map<string, DeepBio | null>();
 
-/** IDs of billionaires that have deep bio files in public/deep-bios/. */
-const DEEP_BIO_IDS = new Set([
+/**
+ * IDs of billionaires that have v1 deep bio files in public/deep-bios/.
+ *
+ * The hardcoded list below is a seed — the auto-loaded index from
+ * /deep-bio-index.json overrides it at runtime. To refresh, run:
+ *   npx tsx scripts/build-deep-bio-index.ts
+ */
+const SEED_DEEP_BIO_IDS = new Set([
   '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20',
   '21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40',
   '41','42','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','62','63','64',
@@ -350,9 +401,12 @@ const DEEP_BIO_IDS = new Set([
   '3313','3314','3315'
 ]);
 
-/** Synchronous check — no network request needed. */
+// Initialize v1Set with seed (will be replaced by auto-loaded index when ready)
+v1Set = new Set(SEED_DEEP_BIO_IDS);
+
+/** Synchronous check — uses auto-loaded index when available, seed list otherwise. */
 export function hasDeepBioSync(personId: string): boolean {
-  return DEEP_BIO_IDS.has(personId);
+  return v1Set.has(personId);
 }
 
 /**
@@ -362,8 +416,11 @@ export function hasDeepBioSync(personId: string): boolean {
 export async function fetchDeepBio(personId: string): Promise<DeepBio | null> {
   if (cache.has(personId)) return cache.get(personId) ?? null;
 
+  // Wait for index to load so we know the actual disk contents
+  await loadDeepBioIndex();
+
   // Validate against whitelist to prevent path traversal
-  if (!DEEP_BIO_IDS.has(personId)) {
+  if (!v1Set.has(personId) && !v2Set.has(personId)) {
     cache.set(personId, null);
     return null;
   }
@@ -406,7 +463,8 @@ export function fetchSearchIndex(): Promise<SearchIndex> {
  * Uses HEAD request to avoid downloading the full JSON.
  */
 export async function hasDeepBio(personId: string): Promise<boolean> {
-  if (!DEEP_BIO_IDS.has(personId)) return false;
+  await loadDeepBioIndex();
+  if (!v1Set.has(personId)) return false;
   if (cache.has(personId)) return cache.get(personId) !== null;
   try {
     const res = await fetch(`/deep-bios/${personId}.json`, { method: 'HEAD' });

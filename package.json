@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "prebake": "tsx scripts/prebake-saju.ts",
-    "build": "tsx scripts/prebake-saju.ts && tsx scripts/build-search-index.ts && next build",
+    "deep-bio-index": "tsx scripts/build-deep-bio-index.ts",
+    "build": "tsx scripts/prebake-saju.ts && tsx scripts/build-deep-bio-index.ts && tsx scripts/build-search-index.ts && next build",
     "start": "next start",
     "lint": "eslint"
   },

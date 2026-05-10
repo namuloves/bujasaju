@@ -12,10 +12,17 @@ import { HeroPillar } from './SajuHero';
 import ShareButtons from './ShareButtons';
 import MatchSummary from './MatchSummary';
 import DeepInterpretation from './DeepInterpretation';
+import Top5FacesRow from './Top5FacesRow';
 import EmailCaptureCard from './EmailCaptureCard';
 import ResultsCuratedSections from './ResultsCuratedSections';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
+
+/**
+ * OG share image (purple card with featured billionaire) is temporarily hidden
+ * in the new redesign. Code is preserved; flip this to true to restore.
+ */
+const SHOW_OG_IMAGE = false;
 
 const USD_TO_KRW = 1480.71;
 function formatWorthKrwShort(netWorthB: number): string {
@@ -129,12 +136,22 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     );
   }
 
-  // Featured person for the top card — prefer one with a deep bio
-  const featuredPerson = summaryMatches.find(p => hasDeepBioSync(p.id))
-    || summaryMatches[0] || null;
+  // Top 5 — 비슷한 부자 카드 영역
+  const top5 = summaryMatches.slice(0, 5);
+  // Default featured = first with deep bio (or first match)
+  const defaultFeaturedId = (summaryMatches.find(p => hasDeepBioSync(p.id)) || summaryMatches[0])?.id ?? null;
+  const [selectedFeaturedId, setSelectedFeaturedId] = useState<string | null>(defaultFeaturedId);
+  const featuredPerson = summaryMatches.find(p => p.id === selectedFeaturedId) || summaryMatches[0] || null;
 
   const featuredHasBio = featuredPerson ? hasDeepBioSync(featuredPerson.id) : false;
   const [showFeaturedBio, setShowFeaturedBio] = useState(false);
+
+  // 사용자가 부자를 변경하면 같이 새 default로 — 단 사용자가 클릭으로 바꿨으면 유지
+  useEffect(() => {
+    if (selectedFeaturedId === null && defaultFeaturedId) {
+      setSelectedFeaturedId(defaultFeaturedId);
+    }
+  }, [defaultFeaturedId, selectedFeaturedId]);
 
   const tracked = useRef<string | null>(null);
   useEffect(() => {
@@ -245,33 +262,59 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     <div className="max-w-6xl mx-auto space-y-8">
       {/* Top card: OG image (left) + 풀이 (right) */}
       <div className="rounded-2xl bg-white border border-gray-200 overflow-hidden p-5 sm:p-6">
+
+        {/* 비슷한 사주 부자 Top 5 — 클릭하면 아래 풀이가 그 부자로 전환 */}
+        {top5.length > 1 && (
+          <div className="mb-6 pb-6 border-b border-gray-100">
+            <div className="max-w-[640px] mx-auto">
+              <div className="flex items-baseline justify-between mb-3">
+                <h3 className="text-sm font-bold text-gray-900">
+                  비슷한 사주 부자 Top {top5.length}
+                </h3>
+                <span className="text-xs text-gray-400">
+                  {me.ilju}·{me.wolji} 일주
+                </span>
+              </div>
+              <Top5FacesRow
+                people={top5}
+                selectedId={featuredPerson?.id ?? null}
+                onSelect={(id) => setSelectedFeaturedId(id)}
+              />
+            </div>
+          </div>
+        )}
+
         <div className="grid md:grid-cols-[minmax(0,360px)_minmax(0,1fr)] gap-10">
           {/* Left: share image + saju charts */}
           {featuredPerson && (
             <div className="flex flex-col items-center md:items-start gap-4">
-              {/* OG image */}
-              <div className="w-[20.16rem] sm:w-[23.04rem] md:w-full rounded-lg overflow-hidden shadow-sm">
-                <img
-                  src={buildOgUrl(me, featuredPerson)}
-                  alt="사주 매칭 결과"
-                  className="w-full"
-                  loading="eager"
-                />
-              </div>
+              {/* OG image — temporarily hidden in this redesign. Set SHOW_OG_IMAGE = true to restore. */}
+              {SHOW_OG_IMAGE && (
+                <>
+                  <div className="w-[20.16rem] sm:w-[23.04rem] md:w-full rounded-lg overflow-hidden shadow-sm">
+                    <img
+                      src={buildOgUrl(me, featuredPerson)}
+                      alt="사주 매칭 결과"
+                      className="w-full"
+                      loading="eager"
+                    />
+                  </div>
 
-              {/* Save image button */}
-              <button
-                type="button"
-                onClick={handleSaveImage}
-                className="w-full text-sm font-medium text-gray-500 hover:text-indigo-600 border border-gray-200 hover:border-indigo-300 rounded-lg py-2 transition-colors flex items-center justify-center gap-1.5"
-              >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                  <polyline points="7,10 12,15 17,10" />
-                  <line x1="12" y1="15" x2="12" y2="3" />
-                </svg>
-                {saving ? '저장 중…' : '이미지 저장하기'}
-              </button>
+                  {/* Save image button */}
+                  <button
+                    type="button"
+                    onClick={handleSaveImage}
+                    className="w-full text-sm font-medium text-gray-500 hover:text-indigo-600 border border-gray-200 hover:border-indigo-300 rounded-lg py-2 transition-colors flex items-center justify-center gap-1.5"
+                  >
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                      <polyline points="7,10 12,15 17,10" />
+                      <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                    {saving ? '저장 중…' : '이미지 저장하기'}
+                  </button>
+                </>
+              )}
 
               {/* Saju charts side by side */}
               <div className="w-full grid grid-cols-2 gap-3">
@@ -489,7 +532,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
       {/* Deep bio modal for featured person */}
       {showFeaturedBio && featuredPerson && (
         <Suspense fallback={null}>
-          <DeepBioModal person={featuredPerson} onClose={() => setShowFeaturedBio(false)} />
+          <DeepBioModal person={featuredPerson} onClose={() => setShowFeaturedBio(false)} userSaju={me} />
         </Suspense>
       )}
     </div>

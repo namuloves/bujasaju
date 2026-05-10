@@ -301,7 +301,7 @@ export async function POST(req: NextRequest) {
         const stream = await client.chat.completions.create(
           {
             model: 'gpt-4o-mini',
-            max_tokens: 800,
+            max_tokens: 2000,
             temperature: 0.7,
             stream: true,
             messages: [{ role: 'user', content: prompt }],

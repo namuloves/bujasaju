@@ -6,10 +6,11 @@ import { useLanguage } from '@/lib/i18n';
 import type { EnrichedPerson } from '@/lib/saju/types';
 import type { DeepBio } from '@/lib/deepBio';
 import { fetchDeepBio } from '@/lib/deepBio';
-import { TabBar, TabContent, LoadingSpinner, EmptyBioState, ko, type Tab } from './DeepBioTabs';
+import { LoadingSpinner, EmptyBioState, ko } from './DeepBioTabs';
+import DeepBioContent from './DeepBioContent';
 import { GYEOKGUK_NAMES, getBongi } from '@/lib/saju/constants';
 import { getSipSin } from '@/lib/saju/tenGods';
-import type { CheonGan, JiJi } from '@/lib/saju/types';
+import type { CheonGan, JiJi, SajuResult } from '@/lib/saju/types';
 import SajuBadge from '../SajuBadge';
 import { HeroPillar } from '../match/SajuHero';
 import { industryToKorean } from '../FilterPanel';
@@ -50,6 +51,8 @@ function formatNetWorth(netWorth: number, lang: string): string {
 interface Props {
   person: EnrichedPerson;
   onClose: () => void;
+  /** 사용자 사주 — match flow에서 호출 시 전달. 있으면 "당신과 닮은 점" 박스 노출. */
+  userSaju?: SajuResult;
 }
 
 function useIsDesktop() {
@@ -65,13 +68,11 @@ function useIsDesktop() {
 }
 
 /** Responsive deep bio modal: bottom sheet on mobile, centered modal on desktop. */
-export default function DeepBioModal({ person, onClose }: Props) {
+export default function DeepBioModal({ person, onClose, userSaju }: Props) {
   const { lang } = useLanguage();
   const isDesktop = useIsDesktop();
   const [bio, setBio] = useState<DeepBio | null>(null);
   const [loading, setLoading] = useState(true);
-  const [tab, setTab] = useState<Tab>('story');
-  const [unlocked, setUnlocked] = useState(false);
   const [visible, setVisible] = useState(false);
   const [dragging, setDragging] = useState(false);
   const [dragY, setDragY] = useState(0);
@@ -238,7 +239,7 @@ export default function DeepBioModal({ person, onClose }: Props) {
         <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} compact />
       </div>
       <p className="text-[10px] text-gray-400 text-center mt-1">
-        {saju.ilju} · {saju.wolji} · {saju.gyeokguk}{hanja && ` ${hanja}`}
+        {saju.ilju} · {saju.wolji} · {saju.gyeokguk}
       </p>
     </div>
   );
@@ -445,17 +446,16 @@ export default function DeepBioModal({ person, onClose }: Props) {
           }}
         >
           {header}
-          <TabBar tab={tab} setTab={setTab} lang={lang} />
           <div ref={scrollRef} className="flex-1 overflow-y-auto">
-            {tab === 'saju' ? (
-              <div className="p-6 pb-10">{sajuContent}</div>
-            ) : loading ? (
+            {loading ? (
               <LoadingSpinner />
             ) : !bio ? (
-              <EmptyBioState lang={lang} />
+              <div className="p-6 pb-10">
+                <EmptyBioState lang={lang} />
+              </div>
             ) : (
               <div className="p-6 pb-10">
-                <TabContent bio={bio} tab={tab} unlocked={unlocked} onUnlock={() => setUnlocked(true)} lang={lang} />
+                <DeepBioContent bio={bio} person={person} userSaju={userSaju} lang={lang} />
               </div>
             )}
           </div>
@@ -481,18 +481,17 @@ export default function DeepBioModal({ person, onClose }: Props) {
           </div>
 
           {header}
-          <TabBar tab={tab} setTab={setTab} lang={lang} />
 
           <div ref={scrollRef} className="flex-1 overflow-y-auto overscroll-contain">
-            {tab === 'saju' ? (
-              <div className="p-5 pb-10">{sajuContent}</div>
-            ) : loading ? (
+            {loading ? (
               <LoadingSpinner />
             ) : !bio ? (
-              <EmptyBioState lang={lang} />
+              <div className="p-5 pb-10">
+                <EmptyBioState lang={lang} />
+              </div>
             ) : (
               <div className="p-5 pb-10">
-                <TabContent bio={bio} tab={tab} unlocked={unlocked} onUnlock={() => setUnlocked(true)} lang={lang} mobileStoryHeader={mobileSajuChart} />
+                <DeepBioContent bio={bio} person={person} userSaju={userSaju} lang={lang} mobileHeader={mobileSajuChart} />
               </div>
             )}
           </div>
