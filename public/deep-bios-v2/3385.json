@@ -1,0 +1,73 @@
+{
+  "id": 3385,
+  "name": "Shin Dong-yup",
+  "nameKo": "신동엽",
+  "birthday": "1971-02-17",
+  "birthPlace": "Jecheon, Chungbuk, South Korea",
+  "birthPlaceKo": "대한민국 충청북도 제천",
+  "netWorth": "$0.18B",
+  "nationality": "KR",
+  "industry": "Entertainment",
+  "gender": "M",
+  "ilju": "계유",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1971년 2월 17일 충청북도 제천에서 부친 신인철과 모친 윤영옥의 3남 1녀 중 막내로 태어났습니다. 학력은 서울예술전문대(현 서울예대) 연극과로 1990년 연극 무대에서 활동을 시작했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 1991년 SBS 1기 공채 개그맨에서 시작해 80억 채무 청산 후 부동산 자산가로 변신한 1세대 MC입니다.",
+    "sources": ["https://ko.wikipedia.org/wiki/%EC%8B%A0%EB%8F%99%EC%97%BD_(%ED%9D%AC%EA%B7%B9%EC%9D%B8)"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1991년 SBS 1기 공채 개그맨 데뷔 후 1990년대 후반 메인 예능 진행자로 자리잡았습니다. 2000년대 초 사업 실패로 80억 채무를 떠안아 18년 가까이 변제했고, 이후 부동산 자산가로 변신했습니다. 2024년 기준 부동산 자산만 약 220~250억 원, 종합 순자산 약 1억 8,000만 달러로 평가됩니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://namu.wiki/w/%EC%8B%A0%EB%8F%99%EC%97%BD"]
+  },
+  "careerTimeline": [
+    {"year": 1991, "event": "Debuts as 1st-class SBS comedian", "eventKo": "SBS 1기 공채 개그맨 정식 데뷔, '오늘은 좋은 날' 소나기 콩트로 단번에 스타덤", "whyItMatteredKo": "계유 일주의 작은 물 일간이 학습 자본을 본업 무대로 옮긴 출발점입니다."},
+    {"year": 1999, "event": "Indicted for cannabis use; broadcasting hiatus 11 months", "eventKo": "대마초 흡연 혐의로 구속 기소, 약 11개월 방송 활동 중단", "whyItMatteredKo": "외부 시스템(법)의 첫 시험을 받은 만년 운영의 기초 사건입니다."},
+    {"year": 2003, "event": "Founds DY Entertainment; later accumulates ~₩8B debt", "eventKo": "본인 이름을 딴 DY엔터테인먼트와 외식 사업 시작, 누적 약 80억 원 채무 부담", "whyItMatteredKo": "본업 매출의 자본 회수 통로 시도가 큰 부채로 환원된 만년의 결정적 분기점입니다."},
+    {"year": 2010, "event": "Returns to top-tier MC tier with 'Hello Counselor' and 'Animal Farm'", "eventKo": "'안녕하세요', '동물농장' 등 토크·관찰 예능 정복, 유재석·강호동·이경규와 함께 한국 예능사 최상위 MC 라인업 진입", "whyItMatteredKo": "본업 매출이 단계적으로 회복된 시기입니다."},
+    {"year": 2018, "event": "Buys Hongdae area building for ~₩12.8B; rental income ~₩40M/month", "eventKo": "서울 마포구 서교동(홍대 인근) 빌딩 약 128억 원에 매입 — 월세 약 4,000만 원 임대 수익", "whyItMatteredKo": "본업 출연료를 부동산으로 굴리는 모델 정착의 결정적 분기점입니다."},
+    {"year": 2023, "event": "JTBC '짠한형 신동엽' YouTube channel reaches 1.5M+ subs and 250M+ views", "eventKo": "유튜브 '짠한형 신동엽' 채널 누적 구독자 150만 명대, 누적 조회수 2억 5천만 회 이상", "whyItMatteredKo": "방송 출연료·행사·CF·임대 수익에 더해 크리에이터 수익이 신규 캐시플로우로 합류한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1999, "eventKo": "대마초 사건으로 11개월 방송 활동 중단", "impactKo": "계유 일주가 외부 시스템(법)의 첫 시험을 받은 결정적 결단입니다."},
+    {"year": 2003, "eventKo": "DY엔터테인먼트와 외식 사업으로 80억 채무 부담", "impactKo": "큰 외부 자원의 흐름이 본인을 한 번에 압박한 만년의 가장 큰 분기점입니다."},
+    {"year": 2018, "eventKo": "출연료를 부동산으로 굴리는 모델로 본업 자본을 환원", "impactKo": "학습된 운영 자본이 안정적 자산으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "방송 출연료·행사·CF, 부동산 임대 수익(월 약 4,000만 원), 그리고 유튜브 '짠한형 신동엽' 크리에이터 수익이 자산의 양대 축입니다.",
+    "wealthAcceleratorsKo": "1990년대 후반 메인 예능 진행자 정착, 2010년대 부동산 매입, 2020년대 유튜브 채널이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 예능사 최상위 MC 라인업이라는 시장 지위, 홍대·청담동 노른자 부동산 포트폴리오, 그리고 유튜브 크리에이터 수익 통로가 강점입니다.",
+    "currentAssetAllocationKo": "부동산 자산 약 220~250억 원이 자산의 핵심 비중. 본업 출연료와 유튜브 수익이 보조 통로입니다."
+  },
+  "failures": [
+    {"year": 1999, "descriptionKo": "대마초 흡연 혐의로 구속 기소돼 약 11개월간 방송 활동을 중단했습니다.", "howTheyOvercameKo": "복귀 후 단계적으로 메인 예능 진행자 자리를 회복시켰습니다.", "lessonKo": "외부 시스템(법) 시험은 단계적 복귀와 신뢰 회복으로만 풀립니다."},
+    {"year": 2003, "descriptionKo": "DY엔터테인먼트와 외식 사업이 누적 약 80억 원 채무로 이어졌습니다. 출연료의 상당 부분을 18년 가까이 빚 변제에 쏟았습니다.", "howTheyOvercameKo": "사업 확장을 끊고 본업 출연료에 자본을 다시 집중시켜 단계적으로 채무를 청산했습니다.", "lessonKo": "본업 출연자의 사업 확장은 본업 캐시플로우 한계 안에서만 가능합니다."},
+    {"year": 2010, "descriptionKo": "재혼한 부인 선혜윤 PD와의 가정 안정화 시기에도 본업 일정 부담이 누적됐습니다.", "howTheyOvercameKo": "토크·관찰 예능 중심으로 일정을 단계적으로 조정하면서 본업 안정성을 유지했습니다.", "lessonKo": "본업 일정 부담은 카테고리 다각화로만 풀립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.05B", "sourceKo": "채무 변제기 추정"},
+    {"year": 2018, "netWorth": "$0.10B", "sourceKo": "홍대 빌딩 매입 후"},
+    {"year": 2023, "netWorth": "$0.16B", "sourceKo": "한국 매체 추정"},
+    {"year": 2026, "netWorth": "$0.18B", "sourceKo": "포브스 2026 추정"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["1세대 국민 MC", "1991 SBS 데뷔", "80억 채무 18년 청산", "홍대·청담동 빌딩", "짠한형 유튜브"],
+  "characterKo": {
+    "strengths": "한국 1세대 국민 MC라는 시장 지위와, 80억 채무를 18년에 걸쳐 청산한 끈기, 그리고 출연료를 부동산으로 굴리는 자본 보전 모델이 강점입니다.",
+    "weaknesses": "단일 카테고리(예능 진행) 의존도가 높고, 사업 확장 시도에서 큰 부채를 떠안은 경험이 만년 운영의 그림자로 남습니다.",
+    "motivation": "충북 제천 출신 1세대 개그맨이 한국 예능사 최상위 MC 자리를 끝까지 지키고, 본업 자본을 부동산과 유튜브로 환원하겠다는 정체성 의식이 동력입니다.",
+    "legacy": "한국 예능 1세대 MC의 표본입니다. 80억 채무를 18년에 걸쳐 청산하고 부동산·유튜브로 자본을 환원시킨 보기 드문 만년 운영 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Yu day pillar (winter water on rooster metal) and In month branch combine into a softly learned, expressively producing profile. The format that channels wealth through learning and inherited authority matches a 35-year arc from his 1991 SBS debut to the 1999 cannabis case, the 2003 debt accumulation, and the 2018 real-estate pivot.",
+    "summaryKo": "일주는 계유라 한겨울 작은 물이 닭의 자리 쇠 위에 놓인 형국으로, 부드러운 물이 단단한 쇠로 결과물을 깎아 시장에 내보내는 자리입니다. 월지 인은 이른 봄 나무의 자리라 일간에 외부 자원의 흐름과 학습 자본을 더해줍니다. 격국은 학습된 권위를 통해 부를 만드는 흐름이라, 1991년 SBS 데뷔, 1999년 대마초 사건, 2003년 80억 채무, 2010년대 메인 MC 복귀, 2018년 부동산 매입, 2023년 유튜브 채널까지 모두 '학습된 입담이 외부 시스템 시험을 받았다 부동산과 크리에이터 자본으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%8B%A0%EB%8F%99%EC%97%BD_(%ED%9D%AC%EA%B7%B9%EC%9D%B8)",
+    "https://namu.wiki/w/%EC%8B%A0%EB%8F%99%EC%97%BD",
+    "https://namu.wiki/w/%EC%A7%9C%ED%95%9C%ED%98%95%20%EC%8B%A0%EB%8F%99%EC%97%BD"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 1671,
+  "name": "Chu Lam Yiu",
+  "nameKo": "추 람 유",
+  "birthday": "1969-12-01",
+  "birthPlace": "Sichuan, China",
+  "birthPlaceKo": "중국 쓰촨성",
+  "netWorth": "$2.4B",
+  "nationality": "HK",
+  "industry": "Manufacturing",
+  "gender": "F",
+  "ilju": "경술",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "쓰촨성에서 태어났고 베이징의 한 대학에서 경영학을 전공했습니다. 1990년 20대 초반에 베이징에서 일용 향료·향수 회사를 창업한 것이 출발점입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 좁은 향료 카테고리에 진입해 홍콩 상장 회사로 키운 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Chu_Lam_Yiu"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년 베이징에서 첫 향료 회사 창업, 1996년 화바오 모태 사업을 담배 향료 중심으로 전환, 2004년 화바오 인터내셔널 홀딩스로 재편, 2006년 8월 홍콩 백도어 상장으로 자본 가치를 만들었습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://thebambooworks.com/up-in-smoke-not-exactly-for-huabao-crown-jewel-of-chinas-vaping-queen/"]
+  },
+  "careerTimeline": [
+    {"year": 1990, "event": "Founds first flavors and fragrance company in Beijing", "eventKo": "베이징에서 첫 일용 향료·향수 회사 창업", "whyItMatteredKo": "20대 초반에 향료라는 좁은 카테고리에 진입한 출발점입니다."},
+    {"year": 1996, "event": "Establishes Huabao predecessor focused on tobacco flavoring", "eventKo": "화바오 모태 사업 설립, 담배 향료에 집중 시작", "whyItMatteredKo": "남편 람 곽 만이 운영하던 사업과 결합한 분기점입니다. 부부 결합으로 자본·유통이 합쳐졌습니다."},
+    {"year": 2004, "event": "Reorganizes as Huabao International Holdings", "eventKo": "화바오 인터내셔널 홀딩스 법인 재편", "whyItMatteredKo": "분산된 향료 사업체를 하나의 지주 회사로 묶어 자본 시장 진입을 준비한 시기입니다."},
+    {"year": 2006, "event": "Hong Kong reverse takeover listing", "eventKo": "8월 홍콩 증시 백도어 상장", "whyItMatteredKo": "신규 IPO 절차 대신 백도어 상장을 택해 공모 디스카운트 없이 시장 가치로 평가받은 결정입니다."},
+    {"year": 2012, "event": "Anonymous Analytics short report 'Smoke and Mirrors'", "eventKo": "어나니머스 애널리틱스 공매도 보고서 발표 — 주가 약 19% 폭락", "whyItMatteredKo": "본인이 보유한 막대한 지분이 투자자 신뢰의 담보 역할을 하며 회복한 사건입니다."},
+    {"year": 2022, "event": "Subject of Chinese disciplinary probe with son Lam Ka Yu", "eventKo": "중국 당국 기율 위반 조사 통보, 아들 람 카 위와 함께", "whyItMatteredKo": "중국 정부의 담배·전자 담배 정화 캠페인 직격탄입니다. 향료 의존 비중이 큰 사업의 정책 리스크가 실현된 사건입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1996, "eventKo": "남편과 사업체 결합으로 화바오 모태 형성", "impactKo": "경술 일주의 단단한 쇠 기질이 가족 자본·유통과 결합한 분기점입니다."},
+    {"year": 2006, "eventKo": "홍콩 백도어 상장으로 자산 가치 시장 평가", "impactKo": "안정적으로 자산을 쌓는 격국이 자본 시장 가치로 환원된 결정적 사건입니다."},
+    {"year": 2022, "eventKo": "중국 당국 기율 조사 통보로 일선 후퇴", "impactKo": "정책 리스크가 만년의 운영을 흔든 사건입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "홍콩 상장사 화바오 인터내셔널 홀딩스 본인 약 71% 지분에서 나오는 주가 가치와 배당이 핵심입니다. 담배 향료, 식품 향료, 전자 담배 향료가 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "1996년 담배 향료 집중, 2006년 홍콩 상장, 2010년대 전자 담배 향료 확장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "중국 국유 담배 공기업과의 장기 공급 계약이 핵심 캐시카우이고, 70%대 지분 보유라는 강한 지배 구조가 강점입니다.",
+    "currentAssetAllocationKo": "화바오 인터내셔널 본인 약 71% 지분이 자산의 절대 비중입니다."
+  },
+  "failures": [
+    {"year": 2011, "descriptionKo": "브론티 캐피털 등 외국 헤지펀드의 파생 거래·공시 의혹 제기, 2012년 어나니머스 애널리틱스 보고서로 확대됐습니다.", "howTheyOvercameKo": "회사 자료로 반박하고 본인 지분을 시장 신뢰의 담보로 활용해 주가를 회복시켰습니다.", "lessonKo": "고립된 제조업이라 해도 자본 시장 공시 표준은 글로벌 기준에 맞춰야 합니다."},
+    {"year": 2019, "descriptionKo": "중국 정부의 전자 담배 강력 규제로 화바오의 전자 담배 향료 사업이 성장 정체에 들어갔습니다.", "howTheyOvercameKo": "전통 담배 향료와 식품 향료 비중을 유지하면서 신사업 다변화를 모색했습니다.", "lessonKo": "단일 산업 의존을 줄이려 진출한 신규 카테고리에서도 결국 같은 정책 리스크를 만납니다."},
+    {"year": 2022, "descriptionKo": "본인과 아들이 동시 조사 대상이 되면서 주가와 지배 구조가 동요했습니다.", "howTheyOvercameKo": "회사 일선에서 일정 기간 후퇴하고 가족 지배 지분을 유지하며 통과했습니다.", "lessonKo": "관계 자본은 자산이자 부채입니다. 가족 한 축으로 묶었을 때 동시 리스크에 그대로 노출됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2007, "netWorth": "$1B", "sourceKo": "상장 직후 추정"},
+    {"year": 2013, "netWorth": "$5B", "sourceKo": "공매도 위기 극복 후 정점"},
+    {"year": 2022, "netWorth": "$3B", "sourceKo": "조사·전자 담배 규제로 하락"},
+    {"year": 2026, "netWorth": "$2.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["향료 카테고리 1위", "백도어 상장", "70% 지분 지배", "공매도 방어 경험", "정책 리스크 노출"],
+  "characterKo": {
+    "strengths": "좁은 향료 카테고리에 30년 이상 집중한 끈기와, 70%대 지분 지배 구조로 외부 적대적 인수에 강한 점이 강점입니다.",
+    "weaknesses": "중국 담배·전자 담배 정책 리스크에 직접 노출돼 있고, 가족 한 축으로 묶인 거버넌스라 동시 리스크에 취약합니다.",
+    "motivation": "쓰촨 출신이 좁은 향료 카테고리에서 글로벌 1위 자리를 차지하겠다는 자수성가 의식과, 미디어 노출을 최소화하는 조용한 운영 스타일이 동력입니다.",
+    "legacy": "홍콩 자수성가 여성 부호의 표본입니다. 좁고 깊은 향료 카테고리에서 30년 누적으로 홍콩 상장 회사를 만든 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Gyeong-Sul day pillar (autumn metal on dog earth) and Hae month branch combine into a quietly accumulating profile. The format that builds wealth through stable assets matches a 32-year arc of founding her first flavors company in 1990, the 1996 Huabao consolidation, the 2006 Hong Kong reverse listing, and the 2022 disciplinary probe.",
+    "summaryKo": "일주는 경술이라 가을 큰 쇠가 흙(개의 자리) 위에 놓인 형국으로, 단단한 쇠가 흙에 뿌리를 내리는 자리입니다. 월지 해는 한겨울 물의 자리라 일간을 깨끗이 씻어 시장에 내보내는 통로 역할을 합니다. 격국은 안정적으로 자산을 쌓는 격국이라, 1990년 향료 회사 창업, 1996년 화바오 모태 결합, 2006년 홍콩 백도어 상장, 2012년 공매도 방어, 2022년 정책 리스크까지 모두 '한 카테고리에 단단히 쌓아 정책 리스크를 견뎌낸다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chu_Lam_Yiu",
+    "https://thebambooworks.com/up-in-smoke-not-exactly-for-huabao-crown-jewel-of-chinas-vaping-queen/",
+    "https://www.theepochtimes.com/china/chinese-billionaire-vaping-queen-implicated-in-corruption-probe-4237244",
+    "https://www.scmp.com/article/1000108/huabao-hit-fake-profits-claim"
+  ]
+}

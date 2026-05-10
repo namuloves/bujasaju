@@ -1,0 +1,73 @@
+{
+  "id": 2271,
+  "name": "Zhang Yin",
+  "nameKo": "장 인",
+  "birthday": "1957-02-01",
+  "birthPlace": "Heilongjiang, China",
+  "birthPlaceKo": "중국 헤이룽장성",
+  "netWorth": "$1.8B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "F",
+  "ilju": "갑진",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1957년 헤이룽장성에서 군인 가정 8남매 중 한 명으로 태어났습니다. 광둥성에서 회계 실무로 출발, 1985년 홍콩으로 이주해 폐지 무역업을 시작했고 1990년 미국으로 건너가 폐지 수출 사업을 만들었습니다. 정통 학력보다 시장 실무 경험이 토대인 1세대 화교 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 헤이룽장 군인 가정 출신이 미국·중국 폐지 수출 사업으로 본토 1위 종이 회사 회장이 된 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Zhang_Yin"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년 미국 LA에서 남편 류밍중과 함께 'America Chung Nam' 폐지 수출 회사를 설립, 1995년 본토에 둥관 거점으로 'Nine Dragons Paper(주룽즈예)'를 창업했습니다. 2006년 홍콩 상장으로 단숨에 중국 1위 여성 부호로 도약했고, 2008년 글로벌 금융위기로 평가 자산이 50% 이상 축소됐다 V자 회복했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.ndpaper.com"]
+  },
+  "careerTimeline": [
+    {"year": 1985, "event": "Moves to Hong Kong, begins recycled paper trading", "eventKo": "홍콩으로 이주, 폐지 무역업 시작", "whyItMatteredKo": "갑진 일주의 큰 나무 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환하기 시작한 출발점입니다."},
+    {"year": 1990, "event": "Moves to LA; founds America Chung Nam with husband", "eventKo": "미국 LA로 이주, 남편 류밍중과 'America Chung Nam' 폐지 수출 회사 설립", "whyItMatteredKo": "본업 매출의 글로벌 통로가 만들어진 시기입니다."},
+    {"year": 1995, "event": "Founds Nine Dragons Paper in Dongguan, China", "eventKo": "광둥성 둥관에서 'Nine Dragons Paper(주룽즈예)' 창업, 본토 종이 카테고리 진입", "whyItMatteredKo": "외부에 자기 결과물을 발산하는 흐름이 본업 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2006, "event": "Nine Dragons Paper IPOs in Hong Kong", "eventKo": "주룽즈예 홍콩 상장, 단숨에 중국 1위 여성 부호로 등재", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 결정적 분기점입니다."},
+    {"year": 2008, "event": "Global financial crisis halves stock value", "eventKo": "글로벌 금융위기로 주룽즈예 주가 50% 이상 급락, 평가 자산 단기 반토막", "whyItMatteredKo": "외부 시스템(거시 사이클)이 본업 자본을 한 번에 시험한 분기점입니다."},
+    {"year": 2020, "event": "Nine Dragons remains China's largest containerboard producer", "eventKo": "주룽즈예 본토 컨테이너보드 1위 자리 유지, 만년 본업 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1990, "eventKo": "미국 LA에서 폐지 수출 회사 설립", "impactKo": "갑진 일주의 큰 나무 일간이 외부 자원의 큰 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2006, "eventKo": "주룽즈예 홍콩 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 결정적 분기점입니다."},
+    {"year": 2008, "eventKo": "글로벌 금융위기로 평가 자산 반토막", "impactKo": "외부 시스템(거시 사이클)이 본업 자본을 한 번에 시험한 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "홍콩 상장사 주룽즈예(2689) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다. 남편 류밍중과 공동 보유 구조입니다.",
+    "wealthAcceleratorsKo": "1990년 미국 폐지 수출, 1995년 둥관 종이 사업, 2006년 홍콩 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 컨테이너보드 1위 자리, 미국·중국 양국 폐지 수출 네트워크, 그리고 가족 공동 보유 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "주룽즈예 가족 지분이 자산의 절대 비중. 자녀 류준 등 다음 세대로 단계적 이양 중입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 주룽즈예 주가가 50% 이상 급락하며 평가 자산이 단기 반토막됐습니다.", "howTheyOvercameKo": "본토 내수 비중 강화와 단계적 시장 점유 확장으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 자산보다 자본 시장 평가에 먼저 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "미·중 무역분쟁으로 미국 폐지 수입 관세 인상이 본업 원자재 공급에 영향을 줬습니다.", "howTheyOvercameKo": "본토 폐지 회수 인프라 강화와 동남아 폐지 수입 다각화로 통과했습니다.", "lessonKo": "원자재 공급망은 정치 사이클 한 번에 흔들립니다."},
+    {"year": 2022, "descriptionKo": "글로벌 종이 가격 변동과 본토 부동산 위기로 컨테이너보드 수요가 압박을 받았습니다.", "howTheyOvercameKo": "원가 절감과 카테고리 다각화로 단계적 통과 중입니다.", "lessonKo": "본업 카테고리 의존은 다중 사이클 한 번에 매출이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2006, "netWorth": "$3.4B", "sourceKo": "상장 직후 — 중국 1위 여성 부호"},
+    {"year": 2008, "netWorth": "$1.5B", "sourceKo": "금융위기 직후"},
+    {"year": 2018, "netWorth": "$3B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.8B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["주룽즈예 창업주", "폐지 여왕", "헤이룽장 군인 가정 출신", "남편 류밍중과 공동 창업", "1세대 화교 자수성가"],
+  "characterKo": {
+    "strengths": "헤이룽장 군인 가정 출신이 본인 세대에서 본토 컨테이너보드 1위 회사를 만든 카테고리 도약 본능과, 미국·중국 양국 폐지 수출 네트워크를 본업의 토대로 결합한 협상력이 강점입니다.",
+    "weaknesses": "본토 종이 카테고리 의존과 글로벌 폐지 무역 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "헤이룽장 군인 가정 출신 화교 1세대가 본인 세대에서 본토 종이 1위 회사를 만들겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "중국 본토 1세대 여성 자수성가의 표본입니다. 폐지 무역에서 본토 컨테이너보드 1위 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Gap-Jin day pillar (early spring wood on dragon earth) and Chuk month branch combine into a tall, externally-rooted profile. The format that channels wealth through external authority matches a 35-year arc from the 1990 LA founding to the 1995 Dongguan plant and the 2006 Hong Kong IPO.",
+    "summaryKo": "일주는 갑진이라 봄 큰 나무가 늦봄 흙(용의 자리) 위에 놓인 형국으로, 큰 나무가 풍부한 흙에 단단히 뿌리내린 자리입니다. 월지 축은 한겨울 흙의 자리라 일간을 두 겹의 흙으로 단단히 받쳐줍니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1990년 LA 설립, 1995년 둥관 사업, 2006년 홍콩 상장까지 모두 '외부 시스템과의 결합이 본업 자본의 단계적 도약을 만든다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Zhang_Yin",
+    "https://www.ndpaper.com",
+    "https://www.forbes.com/profile/zhang-yin/"
+  ]
+}

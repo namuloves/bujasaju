@@ -1,6 +1,6 @@
 import { CheonGan, JiJi, Ju, SajuResult } from './types';
 import { CHEON_GAN, JI_JI } from './constants';
-import { determineGyeokguk } from './gyeokguk';
+import { determineGyeokgukKorean } from './gyeokguk';
 
 // @ts-ignore - lunar-javascript doesn't have type definitions
 const { Solar } = require('lunar-javascript');
@@ -51,8 +51,13 @@ export function calculateSaju(
   const dayPillar = parsePillar(bazi.getDay());
   const hourPillar = opts.includeHour ? parsePillar(bazi.getTime()) : null;
 
-  // Determine 격국 from 일간 and 월지
-  const gyeokguk = determineGyeokguk(dayPillar.stem, monthPillar.branch);
+  // Determine 격국 — 한국 통설(월간 우선)
+  const gyeokguk = determineGyeokgukKorean({
+    year: yearPillar,
+    month: monthPillar,
+    day: dayPillar,
+    hour: hourPillar,
+  });
 
   const ilju = `${dayPillar.stem}${dayPillar.branch}`;
   const wolji = monthPillar.branch;

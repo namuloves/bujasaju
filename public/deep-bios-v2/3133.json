@@ -1,0 +1,73 @@
+{
+  "id": 3133,
+  "name": "Ke Guihua",
+  "nameKo": "커구이화",
+  "birthday": "1965-10-13",
+  "birthPlace": "Yueqing, Wenzhou, Zhejiang, China",
+  "birthPlaceKo": "중국 저장성 원저우 위에칭",
+  "netWorth": "$1.1B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "경자",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1965년 저장성 원저우 위에칭에서 태어났습니다. 1989~1992년 향진 기업 공장장으로 사회를 시작한 자수성가 1세대입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 향진 기업 공장장 출신이 글로벌 자동차 전자 부품 회사를 만든 인물입니다.",
+    "sources": ["https://www.keboda.com"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1989~1992년 향진 기업 공장장으로 시작했고, 2003년 상하이 푸둥에서 커보다 테크놀로지(%E7%A7%91%E5%8D%9A%E8%BE%BE%E6%8A%80%E6%9C%AF)를 설립, 폭스바겐·아우디와 동기 R&D 파트너십을 만들었습니다. 2019년 6월 상하이 상장(603786)으로 자본 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.bloomberg.com/profile/company/603786:CH"]
+  },
+  "careerTimeline": [
+    {"year": 1989, "event": "Manages township enterprise factory in Yueqing", "eventKo": "위에칭 향진 기업 공장장 시작", "whyItMatteredKo": "경자 일주의 큰 쇠 일간이 비전형 학습 경로에서 첫 운영 책임을 맡은 출발점입니다."},
+    {"year": 2003, "event": "Founds Keboda Technology in Shanghai Pudong", "eventKo": "상하이 푸둥에서 커보다 테크놀로지 설립", "whyItMatteredKo": "도전·압력을 자본으로 변환하는 흐름이 본인 회사로 발현된 결정적 분기점입니다."},
+    {"year": 2008, "event": "Becomes VW/Audi synchronous R&D partner", "eventKo": "폭스바겐·아우디 동기 R&D 파트너 자격 획득", "whyItMatteredKo": "글로벌 자동차 OEM 공급망에 정식 진입한 시기입니다."},
+    {"year": 2015, "event": "Expands into LED lighting controllers and motor controllers", "eventKo": "LED 조명 컨트롤러와 모터 컨트롤러로 카테고리 확장", "whyItMatteredKo": "자동차 전자 부품 카테고리를 다축화한 시기입니다."},
+    {"year": 2019, "event": "IPO on Shanghai Stock Exchange (603786)", "eventKo": "6월 상하이증권거래소 상장 (603786)", "whyItMatteredKo": "30년 누적 결과물이 자본 시장 가치로 환원된 결정적 결단입니다."},
+    {"year": 2024, "event": "Expands into EV electronic control units", "eventKo": "EV 전자 제어 유닛 카테고리로 매출 확장", "whyItMatteredKo": "내연 기관에서 EV로 카테고리를 옮기는 만년의 결정적 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2003, "eventKo": "상하이 푸둥에서 커보다 테크놀로지 설립", "impactKo": "경자 일주의 큰 쇠 일간이 외부 압력(향진 기업 한계)을 본인 자본으로 변환한 결정적 결단입니다."},
+    {"year": 2008, "eventKo": "폭스바겐·아우디 동기 R&D 파트너 자격 획득", "impactKo": "도전·압력을 자본으로 변환하는 흐름이 글로벌 OEM 공급망 자리로 환원된 분기점입니다."},
+    {"year": 2019, "eventKo": "상하이증권거래소 상장으로 자본 가치 환원", "impactKo": "16년 누적 결과물이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 상장사 커보다 테크놀로지(603786) 가족 지분에서 나오는 주가 가치가 핵심입니다. 자동차 전자 제어 유닛(ECU)·LED 조명 컨트롤러·모터 컨트롤러가 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "2003년 창업, 2008년 폭스바겐 동기 R&D 파트너, 2019년 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "폭스바겐·아우디 글로벌 OEM 공급망 자리와 상하이 푸둥 본거지의 자동차 전자 클러스터가 강점입니다.",
+    "currentAssetAllocationKo": "커보다 테크놀로지 가족 지분이 자산의 절대 비중. 단일 회사 의존도가 매우 높습니다."
+  },
+  "failures": [
+    {"year": 2015, "descriptionKo": "단일 카테고리(자동차 ECU) 의존도가 위험으로 노출됐습니다.", "howTheyOvercameKo": "LED 조명·모터 컨트롤러로 카테고리를 다축화했습니다.", "lessonKo": "자동차 부품 회사는 단일 OEM·단일 카테고리 의존을 줄여야 합니다."},
+    {"year": 2020, "descriptionKo": "코로나 시기 글로벌 자동차 생산 둔화로 본업 매출이 일시 압박을 받았습니다.", "howTheyOvercameKo": "EV 전자 제어 카테고리로 매출 비중을 옮기는 작업을 가속했습니다.", "lessonKo": "글로벌 자동차 생산 사이클은 부품 회사에 직접 영향을 줍니다."},
+    {"year": 2023, "descriptionKo": "내연 기관 ECU 카테고리가 EV 전환으로 구조적 압박을 받기 시작했습니다.", "howTheyOvercameKo": "EV 전자 제어 유닛 R&D 투자를 가속해 다음 사이클로 옮기는 작업을 진행 중입니다.", "lessonKo": "EV 전환은 기존 내연 기관 부품 회사에 단계적 카테고리 옮김을 강제합니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2019, "netWorth": "$0.4B", "sourceKo": "상장 직후 추정"},
+    {"year": 2022, "netWorth": "$0.8B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$1.0B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["향진 기업 공장장 출신", "폭스바겐 동기 R&D", "자동차 전자 1위", "EV 전환 시도", "원저우 위에칭"],
+  "characterKo": {
+    "strengths": "향진 기업 공장장 출신의 운영 경험과, 폭스바겐 동기 R&D 파트너 자격으로 글로벌 OEM 공급망에 진입한 카테고리 도약 본능이 강점입니다.",
+    "weaknesses": "단일 회사·단일 카테고리(자동차 ECU) 의존도가 높고, EV 전환에서 내연 기관 카테고리 매출이 구조적 압박을 받는 구조입니다.",
+    "motivation": "원저우 위에칭 향진 기업 공장장이 글로벌 자동차 전자 부품 1위가 되겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "중국 자수성가 자동차 전자 부품 1세대의 표본입니다. 향진 기업 공장장에서 폭스바겐 동기 R&D 파트너로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gyeong-Ja day pillar (autumn metal on rat water) and Sul month branch combine into a sharp metal flowing through deep external water. The format that channels wealth through external pressure matches a 35-year arc from the 1989 township enterprise to the 2003 founding, the 2008 VW partnership, and the 2019 IPO.",
+    "summaryKo": "일주는 경자라 가을 큰 쇠가 쥐의 자리 물 위에 놓인 형국으로, 단단한 쇠가 풍부한 외부 자원의 흐름 위에서 결과물로 환원되는 자리입니다. 월지 술은 가을 흙의 자리라 일간을 단단히 가둬 외부 자원을 안으로 끌어들이는 통로입니다. 격국은 도전·압력을 자본으로 변환하는 흐름이라, 1989년 향진 기업 공장장, 2003년 커보다 창업, 2008년 폭스바겐 동기 R&D 파트너, 2019년 상장까지 모두 '외부 압력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.keboda.com",
+    "https://www.bloomberg.com/profile/company/603786:CH",
+    "https://realtimebillionaires.de/profile/ke-guihua"
+  ]
+}

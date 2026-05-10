@@ -1,0 +1,173 @@
+{
+  "id": "3001",
+  "name": "Park Jin-young",
+  "nameKo": "박진영",
+  "birthday": "1971-12-13",
+  "birthPlace": "Seoul, South Korea",
+  "birthPlaceKo": "서울특별시",
+  "netWorth": "$0.35B",
+  "nationality": "KR",
+  "industry": "Entertainment",
+  "gender": "M",
+  "ilju": "임신",
+  "gyeokguk": "양인격",
+  "childhood": {
+    "summaryKo": "1971년 12월 13일 서울 출생. 평범한 가정 출신. 연세대학교 지질학과 졸업, 동 대학원 정치학 박사 과정. 한국 K-팝 1세대 중에서도 매우 이례적인 학력 트랙. 학창 시절부터 음악과 댄스에 두각.",
+    "capitalTypeKo": "완전 자수성가 — 평범한 가정 출신, 본인이 직접 가수→프로듀서→회사 창업",
+    "sources": [
+      "https://namu.wiki/w/%EB%B0%95%EC%A7%84%EC%98%81",
+      "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%84%EC%98%81",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=421400"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "self-made",
+    "descriptionKo": "재벌·정치 인맥 전무. 1992년 '박진영과 신세대'로 데뷔(실패) → 1994년 '날 떠나지마'로 솔로 데뷔 성공 → 한국 1세대 댄스 가수. 1996년 25세에 JYP엔터테인먼트 설립. god·비·원더걸스·2PM·미쓰에이·트와이스·스트레이키즈·ITZY·NMIXX 등 30년+ K-팝 핵심 그룹 다수 프로듀싱. 2001년 코스닥 상장. 본인이 JYP엔터테인먼트(KOSDAQ 035900) 약 16% 보유 최대 개인주주. 2025년 9월 대중문화교류위원회 초대 위원장(현직 가수 첫 장관급) 임명. Forbes self-made score 10/10.",
+    "selfMadeScore": 10,
+    "sources": [
+      "https://namu.wiki/w/%EB%B0%95%EC%A7%84%EC%98%81",
+      "https://www.hankookilbo.com/News/Read/A2025091911050002766",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=421400"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1992,
+      "event": "Debuted with group 'Park Jin-young and New Generation' (failed)",
+      "eventKo": "'박진영과 신세대' 데뷔 (실패)",
+      "whyItMatteredKo": "21세 첫 데뷔. 실패 경험이 후일 솔로 성공의 토대."
+    },
+    {
+      "year": 1994,
+      "event": "Solo debut with 'Don't Leave Me' (날 떠나지마) — became Korea's [#1](https://github.com/namuloves/bujasaju/issues/1) dance singer",
+      "eventKo": "솔로 데뷔 '날 떠나지마' — 한국 1위 댄스 가수",
+      "whyItMatteredKo": "본인 인생 결정적 작품. 한국 댄스 가수의 사실상 1세대."
+    },
+    {
+      "year": 1996,
+      "event": "Founded JYP Entertainment at age 25",
+      "eventKo": "25세에 JYP엔터테인먼트 설립",
+      "whyItMatteredKo": "한국 K-팝 3대 기획사의 사실상 출발점."
+    },
+    {
+      "year": 1999,
+      "event": "Produced god — became Korea's [#1](https://github.com/namuloves/bujasaju/issues/1) boy group",
+      "eventKo": "god 프로듀싱 — 한국 1위 보이그룹",
+      "whyItMatteredKo": "프로듀서로서의 본격 인정. 후일 모든 K-팝 그룹 프로듀싱의 토대."
+    },
+    {
+      "year": 2001,
+      "event": "JYP Entertainment listed on KOSDAQ (035900)",
+      "eventKo": "JYP엔터테인먼트 코스닥 상장",
+      "whyItMatteredKo": "본인 지분 가치 가시화. 한국 엔터 회사 중 가장 빠른 상장."
+    },
+    {
+      "year": 2002,
+      "event": "Produced Rain (비) 'Bad Boy'·'I Do' — global K-pop debut",
+      "eventKo": "비(Rain) '나쁜 남자'·'아이 두' 프로듀싱 — K-팝 글로벌 데뷔",
+      "whyItMatteredKo": "K-팝 일본·글로벌 진출의 사실상 출발점."
+    },
+    {
+      "year": 2007,
+      "event": "Produced Wonder Girls 'Tell Me' — Korea-wide phenomenon",
+      "eventKo": "원더걸스 'Tell Me' 프로듀싱 — 한국 신드롬",
+      "whyItMatteredKo": "K-팝 걸그룹 1세대의 결정적 작품."
+    },
+    {
+      "year": 2015,
+      "event": "Produced TWICE — became JYP's flagship girl group; global K-pop top tier",
+      "eventKo": "트와이스 프로듀싱 — JYP 대표 걸그룹, 글로벌 K-팝 톱티어",
+      "whyItMatteredKo": "본인 인생 후반의 결정적 작품. JYP 그룹 매출 폭증의 토대."
+    },
+    {
+      "year": 2018,
+      "event": "Produced Stray Kids — became global boy group with own production credits",
+      "eventKo": "스트레이키즈 프로듀싱 — 멤버 자체 프로듀싱 시스템 확립",
+      "whyItMatteredKo": "JYP의 새로운 모델. 멤버가 직접 곡을 쓰는 시스템."
+    },
+    {
+      "year": 2025,
+      "event": "Appointed inaugural Chairman of Pop Culture Exchange Committee — first active singer to receive Minister-level position",
+      "eventKo": "9월 대중문화교류위원회 초대 위원장 임명 — 현직 가수 첫 장관급",
+      "whyItMatteredKo": "한국 가수 사상 첫 정부 장관급 직위. 본인 사회적 영향력의 정점."
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1996,
+      "eventKo": "25세에 JYP엔터테인먼트 설립",
+      "impactKo": "한국 K-팝 3대 기획사의 사실상 출발점."
+    },
+    {
+      "year": 2002,
+      "eventKo": "비(Rain) 프로듀싱 — K-팝 글로벌 출발점",
+      "impactKo": "후일 트와이스·스트레이키즈 등 글로벌 K-팝의 토대."
+    },
+    {
+      "year": 2015,
+      "eventKo": "트와이스 프로듀싱",
+      "impactKo": "JYP 그룹 매출 폭증의 토대."
+    },
+    {
+      "year": 2025,
+      "eventKo": "장관급 위원장 임명",
+      "impactKo": "한국 가수 사상 첫 정부 장관급. 본인 사회적 영향력 정점."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "JYP엔터테인먼트(KOSDAQ 035900) 약 16% 보유. 트와이스·스트레이키즈·ITZY·NMIXX 등 글로벌 K-팝 그룹의 음반·콘서트·머천다이즈 매출.",
+    "wealthAcceleratorsKo": [
+      "JYP — 한국 K-팝 3대 기획사 (HYBE·SM과 더불어)",
+      "트와이스·스트레이키즈 글로벌 매출",
+      "본인 작곡·프로듀싱 인세",
+      "방송 출연료"
+    ],
+    "structuralAdvantagesKo": [
+      "K-팝 30년 1세대 정통성",
+      "트와이스·스트레이키즈 등 글로벌 IP",
+      "본인 직접 작곡·프로듀싱 캐파",
+      "한국 정부 장관급 사회적 영향력"
+    ],
+    "currentAssetAllocationKo": "JYP 지분이 자산의 핵심."
+  },
+  "failures": [
+    {
+      "year": 1992,
+      "descriptionKo": "'박진영과 신세대' 데뷔 실패",
+      "howTheyOvercameKo": "1994년 솔로 데뷔로 회복. 후일 K-팝 30년 1세대 프로듀서.",
+      "lessonKo": "첫 데뷔 실패는 가수의 정체성 재정립 기회."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "약 1,000억원", "sourceKo": "Forbes Korea"},
+    {"year": 2020, "netWorth": "약 3,000억원", "sourceKo": "트와이스 글로벌 폭발 후"},
+    {"year": 2025, "netWorth": "$0.35B (약 0.49조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+  ],
+  "quotes": [
+    {"textKo": "K-팝은 천편일률이라는 오해를 30년에 걸쳐 깨왔다.", "context": "2024 JYP 30주년 인터뷰"},
+    {"textKo": "영원한 딴따라.", "context": "본인 별명 — 가수로서의 정체성"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["JYP 30년 1세대", "K-팝 프로듀서의 아이콘", "트와이스·스트레이키즈 아버지", "장관급 위원장 첫 가수", "영원한 딴따라"],
+  "characterKo": {
+    "strengths": "30년 K-팝 1세대 프로듀서의 깊이. JYP를 한국 3대 기획사로 키운 경영 능력. 트와이스·스트레이키즈 등 세대를 거친 글로벌 IP 다수. 본인 직접 작곡·프로듀싱의 일관성. 가수 출신 첫 정부 장관급 임명의 사회적 영향력.",
+    "weaknesses": "K-팝 글로벌 경쟁(HYBE·SM)에서의 시장 점유율 압박. 본인 가수 활동의 한계. JYP 단일 회사 의존도.",
+    "motivation": "1992년 첫 데뷔 실패의 결핍을 30년 K-팝 프로듀서로 보상. '영원한 딴따라'라는 자기 정체성. 한국 K-팝의 글로벌 1세대로서의 사명감.",
+    "legacy": "한국 K-팝 3대 기획사 JYP의 사실상 창업자. 30년 K-팝 프로듀서의 1세대 아이콘. 트와이스·스트레이키즈 등 글로벌 IP의 정신적 아버지. 가수 출신 첫 정부 장관급."
+  },
+  "sajuConnection": {
+    "ilju": "임신",
+    "geokguk": "양인격",
+    "interpretationKo": "임신 일주는 큰 강물(壬水)이 단단한 칼·바위(申金) 위를 흐르는 형상. 양인격은 본인 자존심·전문성이 매우 강한 카리스마형. 박진영의 인생 — 첫 데뷔 실패 → 솔로 성공 → JYP 창업 → 30년 1세대 프로듀서 → 장관급 위원장 — 는 양인격이 K-팝 1세대 프로듀서에서 곱게 발현된 사례.",
+    "keyEvents": []
+  },
+  "sources": [
+    "https://namu.wiki/w/%EB%B0%95%EC%A7%84%EC%98%81",
+    "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%84%EC%98%81",
+    "https://www.hankookilbo.com/News/Read/A2025091911050002766",
+    "https://ko.wikipedia.org/wiki/JYP_%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=421400",
+    "https://www.newsis.com/view/NISX20240913_0002888912"
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": "3307",
+  "name": "Kim Dae-il",
+  "nameKo": "김대일",
+  "birthday": "1980-01-26",
+  "birthPlace": "Wando, South Jeolla, South Korea",
+  "birthPlaceKo": "전라남도 완도군",
+  "netWorth": "$0.9B",
+  "nationality": "KR",
+  "industry": "Media & Entertainment",
+  "gender": "M",
+  "ilju": "무술",
+  "gyeokguk": "양인격",
+  "_notes": "billionaires.json의 source 필드는 '컴투스'이지만 김대일은 실제로 펄어비스(Pearl Abyss, KOSDAQ 263750)의 창업자이자 이사회 의장이다. 컴투스(컴투스홀딩스/컴투스)의 의장은 송병준이며 다른 인물. 본 문서는 실제 회사(펄어비스) 기준으로 작성했으며, 향후 source 필드 보정이 필요하다.",
+  "childhood": {
+    "summaryKo": "1980년 1월 26일 전라남도 완도군에서 미곡상(쌀가게)의 아들로 태어남. 평범한 어촌 가정 출신으로 재벌·정치 인맥 없음. 중학교 때부터 독학으로 컴퓨터 프로그래밍 입문 — 한국 1세대 게임 개발자의 정통 트랙. 고등학교 3학년 때 벼락치기로 한양대학교 안산캠퍼스(현 한양대 ERICA) 컴퓨터공학과 입학, 그러나 2학년 때 중퇴. 최종 학력은 고졸. 한국 빌리어네어 게임 창업자 중 가장 짧은 학력.",
+    "capitalTypeKo": "완전 자수성가 — 어촌 가정 출신 고졸 개발자가 본인 회사로 시총 수조 원 회사를 만든 케이스",
+    "sources": [
+      "https://namu.wiki/w/%EA%B9%80%EB%8C%80%EC%9D%BC",
+      "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%8C%80%EC%9D%BC",
+      "https://www.greened.kr/news/articleView.html?idxno=291911"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "self-made",
+    "descriptionKo": "재벌·정치 인맥 전무. 한양대 중퇴 후 가마소프트 입사 — '릴 온라인' 개발 총괄 → NHN엔터테인먼트로 이직 → 'R2'·'C9' 개발. 2010년 30세에 펄어비스(Pearl Abyss) 설립, 본인 표현 '검은사막'(Black Desert) 단일 게임의 글로벌 폭발로 한국 게임 4세대 대표 기업으로 도약. 2017년 코스닥 상장. 검은사막은 글로벌 누적 매출 5조원+. 본인이 펄어비스 약 32% 보유한 최대주주. Forbes self-made score 10/10.",
+    "selfMadeScore": 10,
+    "sources": [
+      "https://www.businesspost.co.kr/BP?command=article_view&num=153210",
+      "https://www.newsway.co.kr/news/view?ud=2020091014442201520",
+      "https://www.greened.kr/news/articleView.html?idxno=291911"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 2000,
+      "event": "Dropped out of Hanyang University (Computer Engineering) in 2nd year",
+      "eventKo": "한양대 컴퓨터공학과 2학년 중퇴",
+      "whyItMatteredKo": "정규 학력을 떠나 본격 개발자 트랙. 한국 1세대 고졸 개발자 빌리어네어의 출발점."
+    },
+    {
+      "year": 2001,
+      "event": "Joined Gamasoft as developer; led 'Rel Online' development",
+      "eventKo": "가마소프트 입사 — '릴 온라인' 개발 총괄",
+      "whyItMatteredKo": "21세에 첫 게임 개발 총괄. MMORPG 개발 노하우 학습."
+    },
+    {
+      "year": 2005,
+      "event": "Moved to NHN Entertainment; developed 'R2' and 'C9' MMORPGs",
+      "eventKo": "NHN엔터테인먼트로 이직 — 'R2'·'C9' MMORPG 개발",
+      "whyItMatteredKo": "한국 1세대 MMORPG의 핵심 개발자. 후일 검은사막 개발의 토대."
+    },
+    {
+      "year": 2010,
+      "event": "Founded Pearl Abyss at age 30 with 7 colleagues",
+      "eventKo": "30세에 동료 7명과 펄어비스 설립",
+      "whyItMatteredKo": "본인 회사 출범. 검은사막 개발에 평생 베팅 시작."
+    },
+    {
+      "year": 2014,
+      "event": "Released Black Desert (검은사막) in Korea — became Korea's [#1](https://github.com/namuloves/bujasaju/issues/1) MMORPG of the era",
+      "eventKo": "검은사막 한국 출시 — 당시 한국 MMORPG 1위로 도약",
+      "whyItMatteredKo": "본인 4년 베팅의 결실. 후일 글로벌 매출 5조원+의 토대."
+    },
+    {
+      "year": 2016,
+      "event": "Black Desert launched globally (NA/EU/JP/RU) — became hit in 100+ countries",
+      "eventKo": "검은사막 글로벌(북미·유럽·일본·러시아) 출시 — 100개국+ 흥행",
+      "whyItMatteredKo": "한국 MMORPG의 글로벌 본격 진입. 펄어비스 매출 폭증."
+    },
+    {
+      "year": 2017,
+      "event": "Pearl Abyss listed on KOSDAQ (September, KOSDAQ 263750)",
+      "eventKo": "9월 펄어비스 코스닥 상장(KOSDAQ 263750)",
+      "whyItMatteredKo": "본인 지분 가치 가시화. 한국 게임 4세대(검은사막 세대) 자본시장 입증."
+    },
+    {
+      "year": 2018,
+      "event": "Acquired CCP Games (Iceland, EVE Online developer) for $425M",
+      "eventKo": "10월 아이슬란드 CCP게임즈(EVE 온라인 개발사) 약 4,250억원 인수",
+      "whyItMatteredKo": "한국 게임사 사상 최대 해외 M&A. 글로벌 IP 확보."
+    },
+    {
+      "year": 2020,
+      "event": "Pearl Abyss market cap exceeded KRW 2.6 trillion; Kim Dae-il became multi-billion-dollar entrepreneur",
+      "eventKo": "펄어비스 시총 2조 6,000억원 돌파; 김대일 빌리어네어 진입",
+      "whyItMatteredKo": "고졸 개발자가 시총 수조 원 회사의 주인이 된 한국 게임 사상 가장 극적인 자수성가 사례."
+    },
+    {
+      "year": 2024,
+      "event": "Pearl Abyss preparing 'Crimson Desert' next-gen AAA title — global launch expected 2025",
+      "eventKo": "펄어비스 차세대 AAA 신작 '붉은사막'(Crimson Desert) 글로벌 출시 준비 — 2025년 출시 예정",
+      "whyItMatteredKo": "검은사막 의존도 분산을 위한 차세대 IP. 본인 평생 두 번째 베팅."
+    },
+    {
+      "year": 2025,
+      "event": "Crimson Desert global launch — critical year for Pearl Abyss valuation",
+      "eventKo": "붉은사막 글로벌 출시 — 펄어비스 평가가치의 결정적 해",
+      "whyItMatteredKo": "본인 인생 두 번째 메가히트 도전. 흥행 시 시총 수조 원 추가 상승, 부진 시 검은사막 11년 의존 구조의 한계 노출."
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 2010,
+      "eventKo": "30세에 펄어비스 설립",
+      "impactKo": "고졸 개발자 본인 회사. 한국 게임 4세대의 출발점."
+    },
+    {
+      "year": 2014,
+      "eventKo": "검은사막 출시 — 4년 베팅의 결실",
+      "impactKo": "한국 MMORPG 1위 도약. 후일 글로벌 5조원+ 매출의 토대."
+    },
+    {
+      "year": 2017,
+      "eventKo": "펄어비스 코스닥 상장",
+      "impactKo": "본인 지분 가치 가시화. 후일 빌리어네어 진입의 토대."
+    },
+    {
+      "year": 2018,
+      "eventKo": "CCP게임즈 4,250억원 인수",
+      "impactKo": "한국 게임사 사상 최대 해외 M&A. 글로벌 IP 확장."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "펄어비스(KOSDAQ 263750) 약 32% 보유 — 회사 최대주주. 검은사막 글로벌 매출 + CCP게임즈(EVE Online) 매출.",
+    "wealthAcceleratorsKo": [
+      "검은사막 IP — 글로벌 100개국+ 누적 매출 5조원+",
+      "CCP게임즈 인수 — EVE Online 글로벌 IP 확보",
+      "검은사막 모바일·콘솔 멀티 플랫폼 확장",
+      "차세대 AAA 신작 붉은사막 출시 임박"
+    ],
+    "structuralAdvantagesKo": [
+      "본인 직접 개발 출신의 게임 개발 깊이",
+      "검은사막 단일 IP의 11년 글로벌 매출 안정성",
+      "CCP게임즈 등 해외 IP 보유로 글로벌 채널 확보",
+      "본인 32% 단독 의사결정 구조"
+    ],
+    "currentAssetAllocationKo": "펄어비스 지분 32%가 자산의 절대다수. 부동산은 외부 노출 제한적."
+  },
+  "failures": [
+    {
+      "year": 2018,
+      "descriptionKo": "CCP게임즈 인수 후 통합 부진 — EVE Online 매출 정체, 인수가 회수 어려움",
+      "howTheyOvercameKo": "EVE Online IP를 활용한 신작 'EVE Echoes' 모바일 등 확장. 그러나 인수가 4,250억원 대비 매출은 여전히 정체.",
+      "lessonKo": "글로벌 IP 인수는 단순 매출 합산이 아니라 신작 개발 시너지가 핵심이다. 인수 후 5년 내 시너지가 가시화되지 않으면 재무 부담."
+    },
+    {
+      "year": 2023,
+      "descriptionKo": "붉은사막 출시 지연 — 당초 2021년 출시 예정에서 4년 지연",
+      "howTheyOvercameKo": "AAA 게임의 완성도 우선 정책으로 정당화. 2025년 출시로 본인 인생 두 번째 베팅의 결정적 해.",
+      "lessonKo": "AAA 게임의 출시 지연은 흔하지만 4년 이상 지연되면 시장 신뢰가 흔들린다. 단일 IP 의존도 분산이 시급."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2017, "netWorth": "약 3,000억원", "sourceKo": "코스닥 상장 직후"},
+    {"year": 2020, "netWorth": "약 8,000억원", "sourceKo": "Forbes — 시총 2.6조원 시점"},
+    {"year": 2024, "netWorth": "약 1조원", "sourceKo": "Forbes Korea"},
+    {"year": 2025, "netWorth": "$0.9B (약 1.27조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+  ],
+  "quotes": [
+    {"textKo": "고졸 개발자가 만든 게임이 100개국에서 팔린다.", "context": "2017 펄어비스 상장 후 인터뷰"},
+    {"textKo": "AAA 게임의 완성도가 흥행보다 중요하다.", "context": "2023 붉은사막 출시 지연 발표"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["고졸 개발자 출신", "검은사막의 아버지", "한양대 중퇴 자수성가", "AAA 완성도 신봉", "글로벌 M&A 베팅"],
+  "characterKo": {
+    "strengths": "고졸 개발자 출신의 게임 개발 깊이. 검은사막 단일 IP의 11년 글로벌 매출 안정성. CCP게임즈 인수 같은 글로벌 M&A 결단력. 한국 게임 사상 가장 극적인 자수성가 케이스.",
+    "weaknesses": "검은사막 단일 IP 의존도 80%+. 붉은사막 출시 4년 지연으로 시장 신뢰 약화. CCP게임즈 인수 후 통합 시너지 미흡. 단일 게임 흥행에 회사 평가가치가 직결되는 변동성.",
+    "motivation": "전남 완도 미곡상 아들이라는 정체성에서 비롯된 '한국에서 누구나 1등이 될 수 있다'는 사회적 메시지. 본인 직접 개발자 출신으로 게임의 완성도를 절대 가치로 여기는 장인 의식.",
+    "legacy": "한국 게임 4세대(검은사막 세대)의 사실상 창업자. 고졸 개발자 출신의 가장 극적인 자수성가 빌리어네어. 한국 게임사 사상 최대 해외 M&A(CCP게임즈)의 주인공. 다만 붉은사막 출시 결과가 인생 후반의 결정적 변수."
+  },
+  "sajuConnection": {
+    "ilju": "무술",
+    "geokguk": "양인격",
+    "interpretationKo": "무술 일주는 큰 산·평야(戊土)가 마른 땅·산(戌土) 위에 놓인 형상으로, '본인의 기반이 단단하고 무거우며 한 자리를 오래 지키는' 본질을 가진다. 월지가 축토(丑土)이고 무토 일간에게 축토는 양인 자리에 가까워 양인격이 성립한다. 양인격의 핵심은 ① 본인 자존심·전문성이 매우 강한 카리스마형 리더, ② 한 분야에서 압도적 1위를 추구하는 경쟁심, ③ 학력·외부 권위보다 본인 실력으로 증명하려는 자존심이다. 김대일 의장의 인생 — 한양대 중퇴 → 고졸 개발자 → 펄어비스 창업 → 검은사막 글로벌 → 빌리어네어 — 는 양인격이 게임 개발자에서 가장 극적으로 발현된 사례다. 무술의 '두 흙' 구조는 본인이 검은사막+붉은사막 두 IP를 평생 가꾸려는 패턴과 호응한다. 양인격은 또한 '본인 단독 결단으로 큰 성공을 거두지만 동시에 외부 협업·M&A 통합에서는 어려움을 겪는' 함정이 있는데, CCP게임즈 인수 후 시너지 부진이 그 발현이다.",
+    "keyEvents": [
+      {"year": 2010, "saju": "을묘 대운(정관+정관)", "interpretationKo": "정관 대운은 외부 권위와 새 책임의 별. 펄어비스 설립과 본인 회사 출범 시기와 호응."},
+      {"year": 2017, "saju": "병진 대운(편인+비견)", "interpretationKo": "편인 대운은 학문·기술의 별. 코스닥 상장으로 본인 기술이 자본시장에서 평가받는 시기와 호응."}
+    ]
+  },
+  "sources": [
+    "https://namu.wiki/w/%EA%B9%80%EB%8C%80%EC%9D%BC",
+    "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%8C%80%EC%9D%BC",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=153210",
+    "https://www.newsway.co.kr/news/view?ud=2020091014442201520",
+    "https://www.greened.kr/news/articleView.html?idxno=291911",
+    "https://www.seoulwire.com/news/articleView.html?idxno=478693",
+    "https://www.bzpp.co.kr/leader/pi/VP190108A00025"
+  ]
+}

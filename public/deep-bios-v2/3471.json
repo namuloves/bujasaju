@@ -1,0 +1,114 @@
+{
+  "id": "3471",
+  "name": "Lee Jung-hoon",
+  "nameKo": "이정훈",
+  "birthday": "1954-01-12",
+  "birthPlace": "Gwangmyeong, Gyeonggi, South Korea",
+  "birthPlaceKo": "경기도 광명",
+  "netWorth": "$0.4B",
+  "nationality": "KR",
+  "industry": "Semiconductors",
+  "gender": "M",
+  "ilju": "무진",
+  "gyeokguk": "양인격",
+  "_notes": "DB 1954-01-12 vs Wiki 1953-01-21 — 약 12개월 차이.",
+  "childhood": {
+    "summaryKo": "1953년 1월 21일(또는 1954-01-12) 경기 광명 출생. 평범한 가정 출신. 고려대학교 물리학과 졸업, 동 대학원 경영학 석사 과정 수학, 미국 오클라호마대학교 대학원 경영학 석사. 한국 자수성가 1세대 정통 학력 트랙.",
+    "capitalTypeKo": "완전 자수성가 — 평범한 광명 가정, 본인이 직접 회사 인수",
+    "sources": [
+      "https://www.businesspost.co.kr/BP?command=article_view&num=251284",
+      "http://www.seoul.co.kr/news/newsView.php?id=20141027015001",
+      "https://ceoscoredaily.com/page/view/2019012816242921352"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "self-made",
+    "descriptionKo": "재벌·정치 인맥 전무. 제일정밀공업 기획과장 → 삼신전기 부사장 → 1992년 미국 페어차일드 출신 기술자들이 설립·운영하던 서울반도체를 사재로 인수해 대표이사 취임. 1992년 매출 10억원 → 1999년 100억원 → 2013년 1조원으로 폭증. 자회사 서울옵토디바이스(현 서울바이오시스, KOSDAQ 092190) 별도 운영. 본인이 서울반도체(KOSDAQ 046890) 약 26% 보유 + 친족 합산 약 40%. LED 글로벌 톱5. '특허소송 때 담배 끊고 1년여 머리도 안 깎은 집념의 승부사'. Forbes self-made score 10/10.",
+    "selfMadeScore": 10,
+    "sources": [
+      "https://www.businesspost.co.kr/BP?command=article_view&num=251284",
+      "https://ceoscoredaily.com/page/view/2019012816242921352",
+      "http://www.seoul.co.kr/news/newsView.php?id=20141027015001"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1992,
+      "event": "Acquired Seoul Semiconductor (founded by US Fairchild engineers) and became CEO",
+      "eventKo": "서울반도체 인수, 대표이사 취임 — 39세",
+      "whyItMatteredKo": "본인 사업의 출발점. 한국 LED 산업 1세대."
+    },
+    {
+      "year": 2002,
+      "event": "Founded Seoul Optodevice (현 서울바이오시스) as subsidiary",
+      "eventKo": "서울옵토디바이스(현 서울바이오시스) 자회사 설립",
+      "whyItMatteredKo": "LED 칩 사업 분리. 후일 코스닥 별도 상장."
+    },
+    {
+      "year": 2013,
+      "event": "Seoul Semiconductor revenue reached KRW 1 trillion (100x of 1992)",
+      "eventKo": "서울반도체 매출 1조원 돌파 (1992년 대비 100배)",
+      "whyItMatteredKo": "한국 LED 산업의 자수성가 정점."
+    },
+    {
+      "year": 2024,
+      "event": "Leading KDIA inorganic light-emitting display sub-committee — Micro LED champion",
+      "eventKo": "KDIA 무기발광 디스플레이 분과위원장 — 마이크로 LED 챔피언",
+      "whyItMatteredKo": "본인 시대 한국 LED 차세대 카테고리 주도."
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1992,
+      "eventKo": "서울반도체 인수",
+      "impactKo": "본인 평생 사업의 출발점."
+    },
+    {
+      "year": 2013,
+      "eventKo": "매출 1조원 돌파",
+      "impactKo": "한국 LED 산업 자수성가의 정점."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "서울반도체(KOSDAQ 046890) 약 26% + 친족 합산 약 40%. 서울바이오시스(KOSDAQ 092190) 별도 보유.",
+    "wealthAcceleratorsKo": [
+      "서울반도체 — LED 글로벌 톱5",
+      "서울바이오시스 — UV-LED·마이크로 LED",
+      "본인 직접 사재 인수 + 30년 운영"
+    ],
+    "structuralAdvantagesKo": [
+      "한국 LED 산업 1세대 자수성가",
+      "특허 1만 건+ 보유",
+      "본인+친족 단독 의사결정 구조"
+    ],
+    "currentAssetAllocationKo": "서울반도체 + 서울바이오시스 지분이 자산의 핵심."
+  },
+  "failures": [],
+  "wealthHistory": [
+    {"year": 2025, "netWorth": "$0.4B (약 0.56조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+  ],
+  "quotes": [
+    {"textKo": "우리 기술 없이 마이크로 LED 개발 불가능하다.", "context": "2024 한경 인터뷰"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["LED 1세대 자수성가", "사재 인수의 결단", "특허 1만 건 보유", "집념의 승부사", "마이크로 LED 챔피언"],
+  "characterKo": {
+    "strengths": "고려대 물리학 + 오클라호마 MBA의 학구적 신뢰성. 1992년 사재 인수의 결정적 베팅. 30년간 한 회사 운영의 장인 의식. 특허 1만 건+ 보유의 기술 깊이.",
+    "weaknesses": "LED 단일 산업 의존도. 글로벌 LED 가격 경쟁(중국)의 압박.",
+    "motivation": "한국 LED 산업의 1세대로서 글로벌 톱5 진입의 의지. '집념의 승부사'라는 본인 정체성.",
+    "legacy": "한국 LED 산업의 1세대 자수성가 창업주. 마이크로 LED 차세대 카테고리의 한국 챔피언."
+  },
+  "sajuConnection": {
+    "ilju": "무진",
+    "geokguk": "양인격",
+    "interpretationKo": "무진 일주는 큰 산·평야(戊土)가 진흙·옥토(辰土) 위에 놓인 형상. 양인격은 본인 자존심·전문성이 매우 강한 카리스마형. 이정훈의 인생은 양인격이 자수성가 LED 사업가에서 발현된 사례.",
+    "keyEvents": []
+  },
+  "sources": [
+    "https://www.businesspost.co.kr/BP?command=article_view&num=251284",
+    "https://ceoscoredaily.com/page/view/2019012816242921352",
+    "http://www.seoul.co.kr/news/newsView.php?id=20141027015001",
+    "https://www.hankyung.com/article/202408128161i"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 1172,
+  "name": "Anand Mahindra",
+  "nameKo": "아난드 마힌드라",
+  "birthday": "1955-05-01",
+  "birthPlace": "Mumbai, India",
+  "birthPlaceKo": "인도 뭄바이",
+  "netWorth": "$3.5B",
+  "nationality": "IN",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "임술",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "뭄바이의 산업가 가문에서 태어났습니다. 조부 자그디시 찬드라 마힌드라가 1945년 마힌드라&마힌드라를 공동창업했고, 부친 하리시 마힌드라도 산업가입니다. 로런스 스쿨 러브데일을 거쳐 하버드대 영화·건축 전공 우등졸업, 하버드 비즈니스스쿨 MBA를 마쳤습니다.",
+    "capitalTypeKo": "재벌 3세 — 백부 케슈브 마힌드라에게서 회장직을 승계한 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Anand_Mahindra"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1981년 마힌드라 우진 스틸(MUSCO) 입사로 가업 합류, 1989년 사장, 1997년 M&M MD, 2012년 회장직 승계. 2002년 스콜피오 출시와 2009년 사티암 인수는 본인 주도의 결과물입니다.",
+    "selfMadeScore": 3,
+    "sources": ["https://en.wikipedia.org/wiki/Mahindra_Group"]
+  },
+  "careerTimeline": [
+    {"year": 1981, "event": "Joins Mahindra Ugine Steel after HBS MBA", "eventKo": "하버드 MBA 후 마힌드라 우진 스틸 입사", "whyItMatteredKo": "가업 합류의 첫 단계입니다. 가장 무거운 사업부에서 단련을 시작했습니다."},
+    {"year": 1997, "event": "Appointed MD of M&M", "eventKo": "M&M 매니징 디렉터 취임", "whyItMatteredKo": "본격 단독 경영의 시작입니다. 스콜피오 프로젝트 승인 권한을 확보했습니다."},
+    {"year": 2002, "event": "Launches Scorpio, India's first home-grown SUV", "eventKo": "스콜피오 출시 — 인도 최초 자체 개발 현대 SUV", "whyItMatteredKo": "투자 550억 루피로 글로벌 메이저 1/10 비용. 비전형 학습 경로의 격국이 독자 설계로 발현된 분기점입니다."},
+    {"year": 2009, "event": "Tech Mahindra acquires fraud-hit Satyam", "eventKo": "회계 부정으로 무너진 사티암 인수", "whyItMatteredKo": "리스크가 가장 큰 시점에 베팅한 단일 결정입니다. 인도 IT 빅5 진입의 결정적 한 수입니다."},
+    {"year": 2010, "event": "Acquires Korea's Ssangyong Motor", "eventKo": "한국 쌍용자동차 인수", "whyItMatteredKo": "글로벌 SUV 메이저 비전의 가장 큰 베팅이자, 결과적으로 가장 큰 실패가 된 결정입니다."},
+    {"year": 2021, "event": "Anish Shah becomes Group CEO", "eventKo": "전문 경영인 아니쉬 샤를 그룹 CEO로 임명, 본인은 비집행 회장으로 전환", "whyItMatteredKo": "가족 경영에서 전문 경영 체제로 전환한 인도 재벌의 드문 사례입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2002, "eventKo": "스콜피오 출시 — 글로벌 메이저 1/10 비용으로 자체 SUV 설계", "impactKo": "비전형 학습 경로의 격국의 독자 설계 본능이 가시 결과물로 발현된 분기점입니다."},
+    {"year": 2009, "eventKo": "회계 부정 사티암을 가장 위험한 시점에 인수", "impactKo": "임술 일주의 큰 그릇이 위기 자산을 흡수해 IT 본진을 만든 결정입니다."},
+    {"year": 2021, "eventKo": "전문 경영인에게 그룹 CEO직 이양, 비집행 회장으로 후퇴", "impactKo": "재벌 후계자가 가족 경영을 끊어낸 결정적 결단입니다. 임수의 큰 흐름이 자기를 밀어냈습니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "마힌드라 그룹 가족 지주 지분과 M&M·테크마힌드라 등 상장 자회사 지분에서 나오는 배당이 핵심입니다.",
+    "wealthAcceleratorsKo": "2002년 스콜피오 자체 설계 SUV의 인도 시장 장악, 2009년 사티암 인수로 IT 빅5 진입, 2013년 테크마힌드라·사티암 합병이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "22개국 26만 명 고용 다각화 그룹이라 단일 산업 충격에 강합니다. 하버드 영화·건축 전공의 서사력은 인도 재계 최대 인플루언서 자산으로 작동합니다.",
+    "currentAssetAllocationKo": "마힌드라 그룹 지주 지분이 자산의 절대 비중. X 팔로워 1,200만 명 이상의 미디어 자본도 사실상 무형 자산입니다."
+  },
+  "failures": [
+    {"year": 2010, "descriptionKo": "쌍용차 인수 후 10년간 누적 적자, 2020년 12월 한국 법정관리 신청으로 사실상 손을 뗐습니다.", "howTheyOvercameKo": "글로벌 SUV 비전을 인도 본거지 중심 SUV·EV로 재조정하고 손실을 인정했습니다.", "lessonKo": "인수 후 통합은 인수가보다 훨씬 큰 비용이 듭니다."},
+    {"year": 2012, "descriptionKo": "미국 디젤 픽업트럭 진출이 인증 지연과 합작 파트너 소송에 막혀 무산됐습니다.", "howTheyOvercameKo": "미국 직접 진출 대신 IT(테크마힌드라) 우회로 미국 시장에 안착했습니다.", "lessonKo": "미국 자동차 시장은 자본보다 인증·소송이 더 큰 진입장벽입니다."},
+    {"year": 2019, "descriptionKo": "EV 스쿠터 GenZe(미국)·EV SUV e-Verito(인도)가 시장 호응 부족으로 정리됐습니다.", "howTheyOvercameKo": "후속 EV 라인업과 BE 시리즈로 EV 본업에 다시 진입했습니다.", "lessonKo": "선도자가 항상 승자는 아닙니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.1B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$1.6B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$3.97B", "sourceKo": "포브스 빌리어네어즈"},
+    {"year": 2026, "netWorth": "$3.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["미디어 인플루언서", "독자 설계 베팅", "위기 자산 인수", "전문 경영 이양", "예술 전공 산업가"],
+  "characterKo": {
+    "strengths": "예술 전공의 서사력과 산업가의 자본 결단력이 동시에 있는 드문 조합입니다. 위기 자산을 사들여 본진을 키워낸 베팅 본능도 강점입니다.",
+    "weaknesses": "쌍용차·미국 픽업·초기 EV에서 글로벌 확장이 반복적으로 막혔습니다. 본인 인지도가 높은 만큼 정치·사회 발언이 그룹 평판에 직접 영향을 줍니다.",
+    "motivation": "조부 자그디시 찬드라가 만든 가문 자산을 다음 세대에 더 큰 그릇으로 넘기겠다는 의식과, 인도 산업가의 새 모델을 보여주겠다는 사명감이 동력입니다.",
+    "legacy": "인도 자체 SUV 시대를 연 인물이자, 가족 경영을 전문 경영으로 자발적으로 전환한 인도 재벌의 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-Sul day pillar (autumn water on dog earth) and Jin month branch combine into a deep, slow-current river dammed by earth — a long thinker. The format that channels wealth through unconventional learning matches a 40-year arc of designing the Scorpio in 2002, acquiring fraud-hit Satyam in 2009, and voluntarily handing the CEO role to a professional manager in 2021.",
+    "summaryKo": "일주는 임술이라 가을 큰 물이 흙(개의 자리) 위에 멈춰 있는 형국으로, 깊고 느린 흐름이 흙에 가둬져 사색의 형태로 모이는 자리입니다. 월지 진은 봄 흙의 자리라 큰 물의 흐름을 받아 단단히 가둡니다. 격국은 통상 학습이 아닌 독자적 학습 경로로 부를 만드는 흐름이라, 1981년 하버드 영화 전공 후 가업 합류, 2002년 스콜피오 자체 설계 SUV, 2009년 회계 부정 사티암 인수, 2021년 전문 경영인에게 CEO 이양까지 모두 '남들이 안 가는 길로 자본을 만든다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Anand_Mahindra",
+    "https://en.wikipedia.org/wiki/Mahindra_Group",
+    "https://en.wikipedia.org/wiki/Mahindra_Satyam",
+    "https://www.techmahindra.com/about-us/leadership/anand-g-mahindra/",
+    "https://www.businesstoday.in/auto/story/why-the-mahindra-ssangyong-partnership-didnt-work-out-318698-2022-01-11"
+  ]
+}

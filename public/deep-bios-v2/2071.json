@@ -1,0 +1,71 @@
+{
+  "id": 2071,
+  "name": "Chen Shibin",
+  "nameKo": "천시빈",
+  "birthday": "1966-11-01",
+  "birthPlace": "China (specific location not public)",
+  "birthPlaceKo": "중국 (구체적 출생지 비공개)",
+  "netWorth": "$1.9B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "갑자",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "공개된 출생지·학력·가족 정보가 거의 없는 인물입니다. 영문 위키, 포브스, 블룸버그, 후룬 어느 데이터베이스에서도 일치하는 부호 인물 정보가 확인되지 않습니다. 의도적으로 미디어 노출을 최소화한 'Hidden Billionaire' 유형으로 추정됩니다.",
+    "capitalTypeKo": "자수성가 추정 — 포브스가 자산 출처를 'Manufacturing'으로 표기했지만 회사명은 공개되지 않았습니다.",
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "구체적인 회사명·창업 연도·확장 이력 등은 공개되지 않았습니다. 비상장 또는 부분 공개 제조 기업의 가족 지분 보유자로 추정되며, 정확한 자산 구성은 비공개입니다.",
+    "selfMadeScore": 7,
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "careerTimeline": [
+    {"year": 1966, "event": "Born in China", "eventKo": "1966년 11월 중국 출생 (구체적 출생지 비공개)", "whyItMatteredKo": "문화대혁명 시기 출생 세대로 등소평 개혁개방과 함께 성년이 된 1세대 시장경제 수혜자로 추정됩니다."},
+    {"year": 1990, "event": "Likely begins manufacturing career", "eventKo": "1990년대 초 제조업 진입 (추정)", "whyItMatteredKo": "중국 1세대 사기업 창업 또는 합류 시기와 일치하는 추정 진입점입니다."},
+    {"year": 2008, "event": "Likely benefits from China's stimulus cycle", "eventKo": "글로벌 금융위기 후 중국 4조 위안 부양책 수혜 추정", "whyItMatteredKo": "당시 제조업 진입자들이 2010년대 부호로 도약한 시기입니다."},
+    {"year": 2015, "event": "Likely survives A-share crash", "eventKo": "2015년 A주 폭락기 자산 재편 추정", "whyItMatteredKo": "단일 시장 베팅의 위험을 통과한 시기로 추정됩니다."},
+    {"year": 2024, "event": "Enters Forbes Billionaires List", "eventKo": "포브스 글로벌 빌리어네어즈 리스트 등재 (추정)", "whyItMatteredKo": "조용히 쌓아온 자본이 처음 외부 평가의 대상이 된 시점으로 보입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.9B (Hidden Billionaire)", "eventKo": "포브스 2026 — 자산 약 19억 달러로 등재", "whyItMatteredKo": "공개 정보가 거의 없는 채로 자산만 측정되는 Hidden Billionaire 유형의 전형입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1990, "eventKo": "1990년대 초 제조업 진입 (추정)", "impactKo": "갑자 일주의 큰 나무 일간이 외부 자원 흐름을 끌어들이기 시작한 출발점으로 보입니다."},
+    {"year": 2015, "eventKo": "A주 시장 폭락기 자산 재편 (추정)", "impactKo": "큰 외부 자원의 흐름이 단일 시장 위험을 통과하며 다음 단계로 이어진 분기점으로 보입니다."},
+    {"year": 2024, "eventKo": "포브스 빌리어네어즈 리스트 등재", "impactKo": "조용히 쌓아온 자본이 처음 외부 평가의 대상이 된 시점입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비공개 제조업 가족 지분에서 나오는 자산 가치로 추정됩니다. 단일 상장사 지분이 아니라 비상장 또는 부분 공개 회사의 지분으로 보입니다.",
+    "wealthAcceleratorsKo": "구체적인 자본 가치 가속 단계는 공개되지 않았습니다. 1990년대 진입, 2010년대 자산 축적, 2020년대 등재라는 일반적 흐름으로 추정됩니다.",
+    "structuralAdvantagesKo": "미디어 노출 최소화 전략이 위험 관리 자산으로 작동하는 것으로 추정됩니다.",
+    "currentAssetAllocationKo": "비공개 제조업 가족 지분이 자산의 핵심 비중으로 추정됩니다. 정확한 구성은 비공개입니다."
+  },
+  "failures": [
+    {"year": 2015, "descriptionKo": "2015년 6월 중국 A주의 약 40% 급락은 본토 제조업 부호들에게 자산 평가 충격을 줬을 가능성이 큽니다.", "howTheyOvercameKo": "공개 정보가 없어 구체적 대응은 불명입니다. 통상적으로 비상장 자산 비중을 늘려 변동성을 흡수합니다.", "lessonKo": "단일 시장 베팅의 위험은 비상장 자산 분산으로만 줄어듭니다."},
+    {"year": 2021, "descriptionKo": "중국 부동산 위기와 제조업 다운사이클이 본토 제조업 자산 가치를 크게 흔든 시기입니다.", "howTheyOvercameKo": "공개 정보 부족으로 구체적 대응은 미상입니다.", "lessonKo": "중국 사모 자산은 정부 정책 한 방에 휘청입니다."},
+    {"year": 2024, "descriptionKo": "공개 정보 부족으로 자산 평가의 객관성이 약하고, 포브스 등재 자체가 다음 해 빠질 수 있는 위험이 있습니다.", "howTheyOvercameKo": "비공개 전략을 유지하면서 외부 평가 변동에는 응하지 않는 것으로 보입니다.", "lessonKo": "Hidden Billionaire 전략은 자산 가치를 증명할 수단이 줄어드는 양면성이 있습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2024, "netWorth": "$1.5B", "sourceKo": "포브스 추정 (등재 추정 시점)"},
+    {"year": 2025, "netWorth": "$1.7B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.9B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Hidden Billionaire", "정보 비공개", "비상장 제조업 지분", "미디어 노출 최소화", "추정 자산"],
+  "characterKo": {
+    "strengths": "공개 정보가 거의 없어 검증 가능한 강점은 명확하지 않습니다. 미디어 노출 최소화로 위험 관리에 유리한 점이 추정됩니다.",
+    "weaknesses": "공개 정보 부족으로 자산 평가의 객관성이 약하고, 포브스 등재 자체가 변동에 취약합니다.",
+    "motivation": "공개적으로 드러난 동력은 거의 없습니다. 본토 제조업의 익명성을 자기 자산 운용 원칙으로 삼은 것으로 보입니다.",
+    "legacy": "포브스 'Hidden Billionaires' 카테고리에 등재된 본토 제조업 부호의 표본으로 추정됩니다. 공개 정보가 거의 없는 채로 자산만 측정되는 보기 드문 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gap-Ja day pillar (winter wood on rat water) and Sul month branch combine into a tall tree drawing on deep external water. The format that channels wealth through external resources matches an arc of (likely) entering manufacturing in the 1990s, accumulating quietly through the 2000s-2010s, and only surfacing on Forbes around 2024.",
+    "summaryKo": "일주는 갑자라 겨울 큰 나무가 한겨울 물(쥐의 자리) 위에 자리한 형국으로, 풍부한 외부 자원의 흐름을 일간이 직접 끌어들이는 자리입니다. 월지 술은 가을 흙의 자리라 일간을 단단히 가둬 자원을 안으로 압축합니다. 격국은 큰 외부 자원의 흐름이라, 1990년대 추정 진입, 2010년대 자산 축적, 2024년 포브스 등재까지 모두 '외부 자원이 본인 안으로 조용히 흘러들어 측정 가능한 자본으로 환원된다'는 한 가지 패턴 위에 놓여 있는 것으로 보입니다."
+  },
+  "sources": [
+    "https://www.forbes.com/billionaires/",
+    "https://en.wikipedia.org/wiki/List_of_Chinese_by_net_worth"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 1917,
+  "name": "Liang Qin",
+  "nameKo": "량 친",
+  "birthday": "1971-10-26",
+  "birthPlace": "Yangzhou, Jiangsu, China",
+  "birthPlaceKo": "중국 장쑤성 양저우",
+  "netWorth": "$2.1B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "gender": "F",
+  "ilju": "갑신",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1971년 중국 장쑤성 양저우 인근에서 태어났습니다. 학력 정보는 공개 자료가 빈약합니다. 남편 가족과 함께 양저우에 본사를 둔 반도체 부품 회사 Yangjie Technology(양제전자) 가족 지분의 핵심 보유자로 알려져 있습니다.",
+    "capitalTypeKo": "맨몸 자수성가 추정 — 가족 공동 창업 반도체 부품 회사의 지분 보유자입니다.",
+    "sources": ["https://www.forbes.com/profile/liang-qin/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년대 후반 양저우에서 가족과 함께 반도체 디스크리트 디바이스 회사 양제전자(Yangjie Technology, 300373)를 시작해 2014년 선전증권거래소 창업판에 상장시켰습니다. 본인은 회사 핵심 지분 보유자이자 이사회 구성원으로 가족 자본을 형성했습니다.",
+    "selfMadeScore": 7,
+    "sources": ["https://www.yangjietech.com"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Family begins discrete-semiconductor manufacturing in Yangzhou", "eventKo": "양저우에서 가족과 함께 반도체 디스크리트 디바이스 제조업 진입 (추정)", "whyItMatteredKo": "갑신 일주의 큰 나무 일간이 가족 자본의 큰 흐름을 본인 결과물로 변환하기 시작한 출발점입니다."},
+    {"year": 2000, "event": "Yangjie Technology established as branded company", "eventKo": "양제전자 브랜드 정립, 다이오드·정류기 카테고리 집중", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2014, "event": "Yangjie Technology IPO on Shenzhen ChiNext (300373)", "eventKo": "양제전자 선전증권거래소 창업판 상장 (300373)", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2018, "event": "Trade-war and supply-chain shifts boost domestic semiconductor demand", "eventKo": "미·중 무역분쟁과 국산화 흐름으로 본토 반도체 디스크리트 수요 가속", "whyItMatteredKo": "외부 압력이 본업 매출 성장으로 환원된 시기입니다."},
+    {"year": 2021, "event": "Yangjie market cap surges amid global chip shortage", "eventKo": "글로벌 반도체 공급난기에 양제전자 시가총액 급등, 가족 평가 자산 정점", "whyItMatteredKo": "외부 충격이 자본 가치 가속으로 환원된 분기점입니다."},
+    {"year": 2025, "event": "Liang family enters Forbes China rich list", "eventKo": "량 가문 포브스 차이나 부호 리스트 진입", "whyItMatteredKo": "조용히 쌓인 본업 자본이 외부 평가 대상이 된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2000, "eventKo": "양제전자 브랜드 정립", "impactKo": "갑신 일주의 큰 나무 일간이 외부 자본 흐름을 본업 결과물로 변환한 출발점입니다."},
+    {"year": 2014, "eventKo": "선전증권거래소 창업판 상장", "impactKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2021, "eventKo": "글로벌 반도체 공급난기 시가총액 급등", "impactKo": "외부 충격을 자본 가속으로 환원한 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전 상장사 양제전자(300373) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2000년 브랜드 정립, 2014년 창업판 상장, 2021년 공급난기 시가총액 급등이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "중국 본토 반도체 디스크리트 디바이스 시장 점유와 미·중 무역분쟁기 국산화 수혜, 가족 공동 보유 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "양제전자 가족 지분이 자산의 절대 비중. 가족 공동 보유 구조입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "미·중 무역분쟁 초기에 글로벌 반도체 사이클 변동으로 양제 주가가 변동성을 보였습니다.", "howTheyOvercameKo": "본토 국산화 흐름과 함께 매출이 회복됐습니다.", "lessonKo": "본토 의존 카테고리는 정치 사이클에 직접 노출됩니다."},
+    {"year": 2022, "descriptionKo": "글로벌 반도체 사이클 다운으로 양제 시가총액이 정점 대비 큰 폭으로 조정됐습니다.", "howTheyOvercameKo": "전기차·산업 수요 다각화로 매출 안정성을 확보했습니다.", "lessonKo": "사이클 카테고리는 자본 시장 평가의 변동이 본업보다 큽니다."},
+    {"year": 2024, "descriptionKo": "본토 반도체 회사 간 가격 경쟁 격화로 마진이 압박을 받았습니다.", "howTheyOvercameKo": "고부가 디스크리트 카테고리 비중 확대로 단계적 회복을 시도했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2014, "netWorth": "$0.3B", "sourceKo": "상장 직후 추정"},
+    {"year": 2021, "netWorth": "$2.5B", "sourceKo": "공급난기 정점"},
+    {"year": 2024, "netWorth": "$1.8B", "sourceKo": "사이클 조정"},
+    {"year": 2026, "netWorth": "$2.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["양저우 가족 사업", "양제전자 지분 보유자", "반도체 디스크리트", "여성 자수성가 추정", "Hidden Founder"],
+  "characterKo": {
+    "strengths": "본토 반도체 디스크리트 디바이스 카테고리에서 가족과 함께 25년 가까이 본업을 운영한 끈기와, 무역분쟁기 국산화 흐름을 본인 자본 가치 가속으로 환원시킨 흐름 감각이 강점입니다.",
+    "weaknesses": "본토 단일 시장 의존도가 매우 높고, 글로벌 반도체 사이클에 자본 가치가 직접 노출됩니다.",
+    "motivation": "양저우의 작은 가족 사업을 본인 세대에서 본토 반도체 디스크리트 회사로 만들겠다는 자수성가형 야망이 동력으로 보입니다.",
+    "legacy": "중국 본토 반도체 디스크리트 카테고리 가족 자본의 표본입니다. 미디어 노출이 적은 채로 본업 자본만으로 부호 리스트에 진입한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Gap-Sin day pillar (spring wood on monkey metal) and Sul month branch combine into a tall, externally-cut profile. The format that channels wealth through external sources matches a 25-year arc from the 1995 entry to the 2014 IPO and the 2021 shortage-era peak.",
+    "summaryKo": "일주는 갑신이라 봄 큰 나무가 가을 쇠(원숭이의 자리) 위에 놓인 형국으로, 외부의 단단한 쇠가 큰 나무를 다듬어주는 자리입니다. 월지 술은 가을 끝 흙의 자리라 일간을 외부 자원의 흐름과 연결하는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1995년 가족 진입, 2014년 창업판 상장, 2021년 공급난기 시가총액 급등까지 모두 '외부 자원이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/profile/liang-qin/",
+    "https://www.yangjietech.com",
+    "https://realtimebillionaires.de/"
+  ]
+}

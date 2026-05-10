@@ -1,0 +1,74 @@
+{
+  "id": 1005,
+  "name": "Gao Guangrong",
+  "nameKo": "가오 광롱",
+  "birthday": "1969-05-01",
+  "birthPlace": "Leshan, Sichuan, China",
+  "birthPlaceKo": "중국 쓰촨성 러산",
+  "netWorth": "$4.1B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "병자",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "쓰촨성 러산에서 태어났습니다. 학력은 청두 라디오 기계 학교 중등 전문 과정으로 비전형 학력 트랙입니다. 졸업 후 러산 라디오 공장 광통신부 기술자로 약 10년을 보낸 옵토 일렉트로닉스 베테랑입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 중등 기술 학교 출신 현장 엔지니어가 옵틱 트랜시버 글로벌 톱10 회사를 만든 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Eoptolink"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1986년 청두 라디오 기계 학교 졸업 후 러산 라디오 공장에서 광통신부 기술자로 약 10년 근무했고, 2008년 4월 청두 솽류 공항 경제구에서 후쉐민 외 6인과 공동 창업으로 이옵토링크를 설립했습니다. 2016년 선전 차스닥 상장, 2024년 AI 데이터 센터 수요 폭발로 매출이 +179% 폭증했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.eoptolink.com/about-us"]
+  },
+  "careerTimeline": [
+    {"year": 1986, "event": "Graduates Chengdu Radio Mechanics School, joins Leshan Radio Factory", "eventKo": "청두 라디오 기계 학교 졸업, 러산 라디오 공장 배치", "whyItMatteredKo": "광통신을 기능공 레벨에서 익힌 현장 출발점입니다."},
+    {"year": 1996, "event": "Completes ~10 years as optical communication engineer", "eventKo": "약 10년간 광통신부 기술자 경력 종료", "whyItMatteredKo": "국유 공장 노하우를 사기업으로 가져갈 자산을 축적한 시기입니다."},
+    {"year": 2008, "event": "Co-founds Eoptolink Technology in Chengdu", "eventKo": "청두에서 이옵토링크 공동 창업", "whyItMatteredKo": "39세에 옵틱 트랜시버 전문 회사를 설립한 분기점입니다. 글로벌 분업 체인에 진입한 시점입니다."},
+    {"year": 2016, "event": "IPO on Shenzhen ChiNext (300502)", "eventKo": "선전 차스닥 상장 (300502)", "whyItMatteredKo": "R&D 투자를 가속해 100G·400G 세대로 점프할 자본을 확보한 시기입니다."},
+    {"year": 2022, "event": "Becomes #7 transceiver supplier globally", "eventKo": "세계 트랜시버 공급사 7위 등극", "whyItMatteredKo": "중국계 광 모듈 회사가 글로벌 톱10에 안착한 단계입니다."},
+    {"year": 2024, "event": "Revenue surges +179% YoY to ¥8.65B on AI data center demand", "eventKo": "매출 86.5억 위안, AI 데이터 센터로 +179% 폭발 성장", "whyItMatteredKo": "엔비디아 AI 수요가 광 모듈 업체에 직접 전이되는 구조가 확립된 분기점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2008, "eventKo": "39세에 청두에서 이옵토링크 공동 창업", "impactKo": "병자 일주의 화 일간이 비전형 학력 경로를 거쳐 자기 결과물을 만드는 자리로 옮긴 결정적 결단입니다."},
+    {"year": 2016, "eventKo": "선전 차스닥 상장으로 자본 시장 가치 환원", "impactKo": "자기가 만들어낸 결과물의 흐름이 자본 시장 가치로 환원된 분기점입니다."},
+    {"year": 2024, "eventKo": "AI 데이터 센터 수요 폭발로 매출 +179% 급증", "impactKo": "본인 결과물이 글로벌 AI 트렌드 직격 수혜로 환원된 만년의 가장 큰 흐름입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전 상장사 이옵토링크(300502) 본인 가족 지분에서 나오는 주가 가치가 핵심입니다. 800G·400G QSFP-DD 등 고속 광 모듈이 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "2008년 창업, 2016년 상장, 2022년 글로벌 톱10 진입, 2024년 AI 수요 폭증이 자본 가치 가속의 네 단계입니다.",
+    "structuralAdvantagesKo": "AI 데이터 센터 광 모듈 직격 수혜 카테고리 위치와, 중국계 글로벌 톱10이라는 시장 지위가 강점입니다.",
+    "currentAssetAllocationKo": "이옵토링크 지분이 자산의 절대 비중. 단일 회사 의존도가 매우 높습니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "100G 사이클 종반 가격 하락으로 마진 압박을 받았습니다.", "howTheyOvercameKo": "400G·800G 차세대 세대로 빠르게 전환하는 R&D 투자를 가속했습니다.", "lessonKo": "광 모듈은 세대 전환기에 즉시 가격 침식이 일어나는 사이클 산업입니다."},
+    {"year": 2020, "descriptionKo": "코로나 초기 데이터 센터 캐펙스 둔화로 단기 실적이 부진했습니다.", "howTheyOvercameKo": "팬데믹 후반 클라우드 수요 회복기에 빠르게 매출을 회복시켰습니다.", "lessonKo": "B2B 인프라 수요는 거시 충격에 6~12개월 시차로 노출됩니다."},
+    {"year": 2023, "descriptionKo": "이노라이트와의 격차로 2위 사업자 한계가 노출됐습니다.", "howTheyOvercameKo": "AI 데이터 센터 카테고리에 집중해 2024년 매출 +179%로 격차를 좁혔습니다.", "lessonKo": "기술적 동률 시장에서 1위와 고객 락인 차이는 빠르게 확대됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2016, "netWorth": "$0.3B", "sourceKo": "상장 시점 추정"},
+    {"year": 2023, "netWorth": "$1.5B", "sourceKo": "AI 랠리 진입기 추정"},
+    {"year": 2024, "netWorth": "$3.7B", "sourceKo": "지분 약 260억 위안 평가"},
+    {"year": 2026, "netWorth": "$4.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["중등 기술학교 출신", "현장 엔지니어 10년", "AI 트렌드 직격", "글로벌 톱10 광 모듈", "쓰촨 본거지"],
+  "characterKo": {
+    "strengths": "중등 기술 학교 출신이 광통신 현장 10년 노하우를 자기 회사로 환원한 끈기와, AI 데이터 센터 트렌드를 본업이 직접 받는 카테고리 위치가 강점입니다.",
+    "weaknesses": "단일 회사 단일 카테고리 의존도가 매우 높고, AI 트렌드 사이클이 식으면 가장 먼저 흔들릴 수 있는 구조입니다.",
+    "motivation": "쓰촨 출신 중등 기술 학교 졸업생이 글로벌 광 모듈 톱10에 자리잡겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "중국 자수성가 광통신 부품 1세대의 표본입니다. 비전형 학력에서 출발해 AI 시대 직격 수혜 카테고리에서 글로벌 톱10에 안착한 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Ja day pillar (winter fire on rat water) and Jin month branch combine into a quietly burning, output-focused profile. The format that channels wealth through what he produces matches an arc of starting as a state factory engineer in 1986, founding Eoptolink in 2008, the 2016 IPO, and the 2024 AI optical demand explosion.",
+    "summaryKo": "일주는 병자라 한겨울 화 일간이 쥐의 자리 물 위에 놓인 형국으로, 화의 표현력이 깊은 물의 흐름 위에서 결과물로 발현되는 자리입니다. 월지 진은 봄 흙의 자리라 일간이 만들어낸 결과물을 단단히 가두는 통로입니다. 격국은 자기가 만들어낸 결과물로 부를 빚는 흐름이라, 1986년 국유 공장 기술자 입사, 2008년 39세 창업, 2016년 상장, 2024년 AI 광 모듈 폭증까지 모두 '천천히 쌓은 결과물이 글로벌 트렌드 직격 수혜로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Eoptolink",
+    "https://www.bloomberg.com/profile/person/18810274",
+    "https://www.eoptolink.com/about-us",
+    "https://finance.biggo.com/news/0943MZsBX9ndGNwVEAYe"
+  ]
+}

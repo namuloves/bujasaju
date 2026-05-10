@@ -1,0 +1,71 @@
+{
+  "id": 1582,
+  "name": "Zeng Chaoyi",
+  "nameKo": "쩡차오이",
+  "birthday": "1969-04-01",
+  "birthPlace": "China (specific location not public)",
+  "birthPlaceKo": "중국 (구체적 출생지 비공개)",
+  "netWorth": "$2.5B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "병오",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "구체적인 출생지·학력·가족 정보는 공개되지 않았습니다. 영문 위키, 포브스, 블룸버그, 후룬 어느 데이터베이스에서도 일치하는 부호 인물 정보가 확인되지 않습니다. 의도적으로 미디어 노출을 최소화한 'Hidden Billionaire' 유형으로 추정됩니다.",
+    "capitalTypeKo": "자수성가 추정 — 25억 달러 규모 제조업 부호이지만 구체 회사명은 공개되지 않았습니다.",
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "구체적인 회사명·창업 연도·확장 이력 등은 공개되지 않았습니다. Forbes 분류상 제조업 부호로 등재돼 있고, 자동차 부품·특수화학·전자부품 같은 카테고리의 비공개 또는 부분 공개 회사 가족 지분 보유자로 추정됩니다.",
+    "selfMadeScore": 7,
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "careerTimeline": [
+    {"year": 1969, "event": "Born in China", "eventKo": "1969년 4월 중국 출생 (구체적 출생지 비공개)", "whyItMatteredKo": "문화대혁명 후반 출생 세대로 등소평 개혁개방과 함께 성년이 된 1세대 시장경제 수혜자로 추정됩니다."},
+    {"year": 1990, "event": "Likely begins manufacturing career during reform era", "eventKo": "1990년대 초 제조업 진입 (추정)", "whyItMatteredKo": "중국 1세대 사기업 창업·합류 시기와 일치합니다."},
+    {"year": 2000, "event": "Possible WTO-era export manufacturing buildout", "eventKo": "2000년대 WTO 가입 후 수출 제조업 확장 시기 (추정)", "whyItMatteredKo": "중국 수출 호황기에 본업의 토대가 만들어진 추정 시점입니다."},
+    {"year": 2010, "event": "Likely IPO or major restructuring during 2010s", "eventKo": "2010년대 본업 IPO 또는 구조 조정 시기 (추정)", "whyItMatteredKo": "본업 자본 가치가 자본 시장 가치로 환원된 추정 분기점입니다."},
+    {"year": 2018, "event": "Trade-war and supply-shock pressure on Chinese manufacturing", "eventKo": "미·중 무역 분쟁과 공급망 충격으로 중국 제조업 사이클 압박", "whyItMatteredKo": "본업 매출 마진이 시험받은 추정 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $2.5B in Manufacturing", "eventKo": "포브스 2026 — 제조업 25억 달러로 등재", "whyItMatteredKo": "공개 정보가 거의 없는 채로 자산만 측정된 Hidden Billionaire 유형의 전형입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1990, "eventKo": "1990년대 초 제조업 진입 (추정)", "impactKo": "병오 일주의 화 일간이 외부 자원의 흐름을 본인 결과물로 변환하기 시작한 추정 출발점입니다."},
+    {"year": 2010, "eventKo": "2010년대 본업 IPO 또는 구조 조정 (추정)", "impactKo": "학습된 권위가 자본 시장 가치로 환원된 추정 분기점입니다."},
+    {"year": 2026, "eventKo": "포브스 빌리어네어즈 리스트 등재", "impactKo": "조용히 쌓아온 자본이 외부 평가의 대상이 된 시점입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비공개 또는 부분 공개 제조업 가족 지분에서 나오는 자산이 핵심으로 추정됩니다. 단일 카테고리 의존이 일반적입니다.",
+    "wealthAcceleratorsKo": "구체적인 자본 가치 가속 단계는 공개되지 않았습니다. 1990년대 진입, 2000년대 수출 호황 수혜, 2010~2020년대 자산 축적이라는 일반적 흐름으로 추정됩니다.",
+    "structuralAdvantagesKo": "미디어 노출 최소화 전략이 위험 관리 자산으로 작동하는 것으로 추정됩니다.",
+    "currentAssetAllocationKo": "비공개 제조업 가족 지분이 자산의 핵심 비중으로 추정됩니다. 정확한 구성은 비공개입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 중국 수출 제조업이 직격탄을 받았고, 거시 충격이 본업에도 영향을 줬을 가능성이 큽니다.", "howTheyOvercameKo": "공개 정보가 없어 구체적 대응은 불명입니다. 통상적으로 내수 비중 확대로 통과합니다.", "lessonKo": "수출 의존 제조업은 글로벌 거시 사이클에 직접 노출됩니다."},
+    {"year": 2018, "descriptionKo": "미·중 무역 분쟁과 관세 인상으로 중국 수출 제조업이 압박을 받았습니다.", "howTheyOvercameKo": "공개 정보 부족으로 구체적 대응은 미상입니다.", "lessonKo": "단일 시장 베팅은 정치 사이클 한 번에 휘청입니다."},
+    {"year": 2024, "descriptionKo": "공개 정보 부족으로 자산 평가의 객관성이 약하고, 포브스 등재 자체가 다음 해 빠질 수 있는 위험이 있습니다.", "howTheyOvercameKo": "비공개 전략을 유지하면서 외부 평가 변동에는 응하지 않는 것으로 보입니다.", "lessonKo": "Hidden Billionaire 전략은 자산 가치를 증명할 수단이 줄어드는 양면성이 있습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2024, "netWorth": "$2.0B", "sourceKo": "포브스 추정 (등재 시점)"},
+    {"year": 2025, "netWorth": "$2.3B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Hidden Billionaire", "정보 비공개", "비상장 제조업 지분", "미디어 노출 최소화", "추정 자산"],
+  "characterKo": {
+    "strengths": "공개 정보가 거의 없어 검증 가능한 강점은 명확하지 않습니다. 미디어 노출 최소화로 위험 관리에 유리한 점이 추정됩니다.",
+    "weaknesses": "공개 정보 부족으로 자산 평가의 객관성이 약하고, 포브스 등재 자체가 변동에 취약합니다.",
+    "motivation": "공개적으로 드러난 동력은 거의 없습니다. 본토 제조업의 익명성을 자기 자산 운용 원칙으로 삼은 것으로 보입니다.",
+    "legacy": "포브스 'Hidden Billionaires' 카테고리에 등재된 본토 제조업 부호의 표본으로 추정됩니다. 공개 정보가 거의 없는 채로 자산만 측정되는 보기 드문 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-O day pillar (early summer fire on horse fire) and Myo month branch combine into a doubly-fire profile with strong wood resource. The format that channels wealth through learning matches an arc of (likely) entering manufacturing in the 1990s, accumulating quietly through the 2000s-2010s, and only surfacing on Forbes around 2024.",
+    "summaryKo": "일주는 병오라 봄·여름 화 일간이 한여름 말의 불 위에 놓인 형국으로, 화의 표현력이 두 겹의 불로 강하게 작동하는 자리입니다. 월지 묘는 봄 나무의 자리라 일간에 외부 자원의 흐름과 학습 자본을 더해줍니다. 격국은 학습된 권위와 질서를 통해 부를 만드는 흐름이라, 1990년대 추정 진입, 2010년대 자산 축적, 2026년 포브스 등재까지 모두 '학습된 운영이 조용히 쌓여 외부 평가의 대상이 된다'는 한 가지 패턴 위에 놓여 있는 것으로 보입니다."
+  },
+  "sources": [
+    "https://www.forbes.com/billionaires/",
+    "https://realtimebillionaires.de/profile/zeng-chaoyi"
+  ]
+}

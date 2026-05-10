@@ -1,0 +1,73 @@
+{
+  "id": 1447,
+  "name": "Thomas Kwok",
+  "nameKo": "토머스 쿽 (궈빙장)",
+  "birthday": "1951-10-06",
+  "birthPlace": "Hong Kong",
+  "birthPlaceKo": "홍콩",
+  "netWorth": "$2.8B",
+  "nationality": "HK",
+  "industry": "Real Estate",
+  "gender": "M",
+  "ilju": "기묘",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1951년 홍콩에서 태어났습니다. 부친 궈더성 (Kwok Tak-seng)은 신훙지 (Sun Hung Kai Properties) 공동 창업주이고, 형 월터·동생 레이먼드와 함께 가족 자본을 잇는 운영형 후계자입니다. 영국 유학으로 토목공학 학위를 취득한 정통 후계자 트랙 출신입니다.",
+    "capitalTypeKo": "재벌 2세대 — 신훙지 부동산 가족 자본을 잇는 운영형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Thomas_Kwok"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1990년 부친 사망 후 형 월터, 동생 레이먼드와 함께 신훙지 공동 회장직을 분담했습니다. 2008년 형 월터가 정신질환 추정으로 회장직을 잃자 본인이 동생 레이먼드와 공동 회장으로 격상됐고, 2014년 부패 혐의로 5년 형이 확정돼 자유와 자본이 동시에 시험받았습니다.",
+    "selfMadeScore": 2,
+    "sources": ["https://www.shkp.com"]
+  },
+  "careerTimeline": [
+    {"year": 1980, "event": "Joins Sun Hung Kai Properties", "eventKo": "신훙지 부동산 가족 사업 합류", "whyItMatteredKo": "기묘 일주의 작은 흙 일간이 가족 자본의 큰 흐름에 자리잡은 출발점입니다."},
+    {"year": 1990, "event": "Father Kwok Tak-seng dies; brothers share leadership", "eventKo": "부친 궈더성 사망, 형 월터·동생 레이먼드와 신훙지 공동 회장 체제", "whyItMatteredKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원되기 시작한 분기점입니다."},
+    {"year": 2008, "event": "Brother Walter ousted; Thomas becomes co-chair", "eventKo": "형 월터 회장직 박탈, 동생 레이먼드와 공동 회장 체제로 격상", "whyItMatteredKo": "외부 시스템(가족 분쟁)이 본인 결단의 정점으로 환원된 결정적 결단입니다."},
+    {"year": 2012, "event": "Arrested by Hong Kong ICAC for corruption charges", "eventKo": "홍콩 염정공서(ICAC) 부패 혐의로 동생 레이먼드와 함께 체포·기소", "whyItMatteredKo": "외부 시스템(법·규제)이 본인 자본을 한 번에 시험한 분기점입니다."},
+    {"year": 2014, "event": "Convicted; sentenced to 5 years in prison", "eventKo": "유죄 확정, 5년형 선고로 회장직에서 물러남", "whyItMatteredKo": "외부 시스템이 본인 자본과 자유를 한 번에 가둔 만년의 가장 큰 사건입니다."},
+    {"year": 2019, "event": "Released after serving sentence", "eventKo": "형기 종료 후 출소, 가족 자본 운영에서 한 발 물러난 위치 유지", "whyItMatteredKo": "외부 시스템과의 충돌 후 본인 자본이 단계적으로 회복되는 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2008, "eventKo": "형 월터 회장직 박탈, 공동 회장 격상", "impactKo": "기묘 일주의 작은 흙 일간이 가족 분쟁을 본인 결단의 정점으로 환원한 결정적 결단입니다."},
+    {"year": 2012, "eventKo": "ICAC 부패 혐의 체포", "impactKo": "외부 시스템(법·규제)이 본인 자본을 한 번에 시험한 분기점입니다."},
+    {"year": 2014, "eventKo": "5년형 선고", "impactKo": "외부 시스템이 본인 자본과 자유를 한 번에 가둔 만년의 가장 극적인 흐름입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "홍콩 상장사 신훙지 부동산(0016) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다. 가족 신탁 구조로 형제 공동 보유입니다.",
+    "wealthAcceleratorsKo": "1990년 부친 사망 후 형제 공동 체제, 2008년 형 박탈, 2014년 본인 형 확정이 자본 가치 변동의 세 단계였습니다.",
+    "structuralAdvantagesKo": "홍콩 부동산 1위 그룹의 가족 신탁 구조와, 형제 공동 보유 안정성, 그리고 출소 후 가족 자본 잔존 권리가 강점입니다.",
+    "currentAssetAllocationKo": "신훙지 가족 신탁 본인 지분이 자산의 절대 비중. 자녀 세대로 단계적 이양이 진행 중입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "형 월터의 회장직 박탈 과정에서 가족 분쟁이 공개 갈등으로 번졌습니다.", "howTheyOvercameKo": "동생 레이먼드와 공동 체제로 그룹 운영을 안정시켰습니다.", "lessonKo": "가족 자본은 후계 사건 한 번에 흐름이 한 번 더 정리됩니다."},
+    {"year": 2012, "descriptionKo": "ICAC 부패 혐의 체포로 본업 운영자 정체성이 시험받았습니다.", "howTheyOvercameKo": "법정 다툼을 진행했지만 2014년 5년형이 확정됐습니다.", "lessonKo": "재물는 모았으나 외부 시스템(법·규제)을 다스리지 못한 결과는 자본과 자유의 동시 손실입니다."},
+    {"year": 2014, "descriptionKo": "유죄 확정 직후 신훙지 시가총액이 단기 하락했고 본인 회장직이 박탈됐습니다.", "howTheyOvercameKo": "동생 레이먼드의 단독 운영과 가족 신탁 구조 안정성으로 회사 가치는 단계적으로 회복됐습니다.", "lessonKo": "가족 신탁 구조는 운영자 한 명의 위기를 그룹 자본 가치에서 분리시킵니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$8B", "sourceKo": "포브스 추정"},
+    {"year": 2014, "netWorth": "$3.5B", "sourceKo": "유죄 확정 직후"},
+    {"year": 2020, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.8B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["신훙지 부동산", "쿽 형제 차남", "형 월터 박탈", "ICAC 5년형", "출소 후 잔존 지분"],
+  "characterKo": {
+    "strengths": "1980년 가족 사업 합류 이후 45년 동안 본업의 한 축으로 자리잡은 학습 깊이와, 형 박탈 사건 직후 동생과의 공동 운영을 안정시킨 협상력이 강점입니다.",
+    "weaknesses": "외부 시스템(법·규제)과의 충돌이 본인 자본과 자유를 동시에 시험하는 위험으로 만년에 현실화됐습니다.",
+    "motivation": "부친 궈더성의 가족 자본을 형제 공동 운영으로 보전하겠다는 가문 의식이 동력이었으나, 외부 시스템과의 충돌이 만년의 가장 큰 사건이 됐습니다.",
+    "legacy": "홍콩 부동산 가문 2세대 운영형 후계자의 양면성을 보여준 표본입니다. 가족 신탁 구조가 운영자 위기를 그룹 자본 가치에서 분리시킨 보기 드문 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Myo day pillar (late spring earth on rabbit wood) and Yu month branch combine into a softly nourished, externally-pressured profile. The format that channels wealth through learned authority matches a 34-year arc from the 1980 family entry to the 2008 brother-replacement and the 2014 conviction.",
+    "summaryKo": "일주는 기묘라 늦봄 작은 흙이 봄 나무(토끼의 자리) 위에 놓인 형국으로, 부드러운 흙이 외부의 큰 나무에 의해 시험받는 자리입니다. 월지 유는 가을 쇠의 자리라 일간을 외부의 단단한 시스템과 결합시키는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1980년 가족 진입, 1990년 부친 사망, 2008년 형 박탈, 2014년 형 확정까지 모두 '가족 자본이 외부 시스템과의 충돌로 단계적으로 시험받는다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Thomas_Kwok",
+    "https://www.shkp.com",
+    "https://www.bbc.com/news/business-30589404"
+  ]
+}

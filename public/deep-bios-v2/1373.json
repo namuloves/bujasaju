@@ -1,0 +1,182 @@
+{
+  "id": 1373,
+  "name": "Ren Yuanlin",
+  "nameKo": "런위안린",
+  "birthday": "1953-05-01",
+  "birthPlace": "Jiangyin, Jiangsu, China",
+  "birthPlaceKo": "중국 장쑤성 장인",
+  "netWorth": "$3B",
+  "nationality": "CN",
+  "industry": "Logistics",
+  "gender": "M",
+  "ilju": "임자",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "양쯔강 어귀의 조선업 도시 장쑤성 장인의 가난한 농촌 가정에서 태어났습니다. 정식 학력은 공개되지 않았고, 1973년 20세에 국영 장인조선창에 기술자로 입사한 것이 사회 출발점입니다. 이후 중국 사내 경영자 과정을 이수하면서 기술자에서 경영자로 어법을 옮겨갔습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 가족 자본 0, 학력 자본 0에서 선체 조립 기술 하나로 국영 조선소 책임자가 되었고, 1999년 사유화를 주도해 회사 자체를 본인 자본으로 만든 인물입니다.",
+    "sources": [
+      "https://www.bloomberg.com/profile/person/15316859",
+      "https://www.theceomagazine.com/executive-interviews/construction-trades/ren-yuanlin/"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1973년 국영 장인조선창에 기술자로 입사해 1997년 책임자로 승진했고, 1999년 주식제 개혁으로 국영을 민영으로 전환하면서 사실상 회사의 오너가 되었습니다. 2007년 싱가포르 SGX 상장으로 글로벌 자본 시장에서 가치를 평가받기 시작했습니다. 포브스 자수성가 점수 9/10 수준입니다.",
+    "selfMadeScore": 9,
+    "sources": [
+      "https://www.yzjship.com/en/about.html"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1953,
+      "event": "Born in Jiangyin, Jiangsu province",
+      "eventKo": "장쑤성 장인의 가난한 농촌에서 출생",
+      "whyItMatteredKo": "양쯔강과 배가 곧 운명의 무대가 되는 자리에서 태어났습니다. 큰 물 일간이 강과 배라는 무대 위에 자리한 출발점입니다."
+    },
+    {
+      "year": 1973,
+      "event": "Joins state-owned Jiangyin Shipyard as technician",
+      "eventKo": "20세에 국영 장인조선창에 기술자로 입사",
+      "whyItMatteredKo": "마오 시대 말기 농촌에서 공장으로 옮긴 결정입니다. 큰 물 일간이 바닥부터 시작한 사회 출발점입니다."
+    },
+    {
+      "year": 1985,
+      "event": "Promoted into mid-level management at the shipyard",
+      "eventKo": "장인조선창 중간 관리직 승진",
+      "whyItMatteredKo": "덩샤오핑 개혁개방의 수혜를 직접 받은 시기입니다. 격국의 흐름이 실용 자원으로 본격 발현되기 시작한 단계입니다."
+    },
+    {
+      "year": 1997,
+      "event": "Takes charge of Jiangyin shipyard at near-bankruptcy",
+      "eventKo": "파산 직전의 조선소 책임자 취임",
+      "whyItMatteredKo": "회사를 살리기 위한 사유화 추진의 출발점입니다. 위기를 본인이 회사를 가질 기회로 바꾸어 낸 분기점입니다."
+    },
+    {
+      "year": 1999,
+      "event": "Leads share-system reform converting state yard to private/JV",
+      "eventKo": "주식제 개혁으로 국영을 민영으로 전환 주도",
+      "whyItMatteredKo": "오너십을 갖게 된 진짜 시작점입니다. 부의 운명이 회사의 자본 구조 자체에서 시작된 분기점입니다."
+    },
+    {
+      "year": 2005,
+      "event": "Begins building new mega-yard across the Yangtze",
+      "eventKo": "양쯔강 건너편에 신규 대형 조선소 착공",
+      "whyItMatteredKo": "단순 수주처가 아닌 규모의 경제 자체에 베팅한 결정입니다."
+    },
+    {
+      "year": 2007,
+      "event": "President; IPO on Singapore SGX in April",
+      "eventKo": "회장 취임, 4월 싱가포르 SGX 상장 — 중국 민간 조선사 최초 해외 상장",
+      "whyItMatteredKo": "달러 자본과 글로벌 가시성을 동시에 확보한 분기점입니다. 본인의 자본이 처음으로 외부 시장가로 환산된 시기입니다."
+    },
+    {
+      "year": 2009,
+      "event": "Navigates global financial crisis using pre-crisis high-margin orders",
+      "eventKo": "위기 이전 고마진 수주 잔고로 금융위기 통과",
+      "whyItMatteredKo": "사이클 사업의 현금화 타이밍 본능이 빛난 시기입니다. 동시대 경쟁사 다수가 도산한 가운데 살아남은 결정적 사건입니다."
+    },
+    {
+      "year": 2014,
+      "event": "Tianjin Guoheng equity dispute and securities accusations",
+      "eventKo": "톈진궈헝 12.11% 인수 후 내부자 거래 등 분쟁 발생",
+      "whyItMatteredKo": "본업 운영 규율과는 다른 차원의 자본 시장 규율 문제가 처음으로 표면화된 사건입니다."
+    },
+    {
+      "year": 2019,
+      "event": "Steps aside to assist confidential PRC corruption probe",
+      "eventKo": "PRC 부패 수사에 협조 요청, 약 4개월 사임 후 복귀",
+      "whyItMatteredKo": "중국 민간 거물의 통과의례를 살아 돌아온 사건입니다. 정치 리스크와 본인 안전을 동시에 다룬 시기입니다."
+    },
+    {
+      "year": 2024,
+      "event": "Son Ren Letian formally appointed Executive Chairman in December",
+      "eventKo": "12월 외아들 런러톈 공식 집행회장 승계",
+      "whyItMatteredKo": "70대 초반에 깔끔한 승계를 마친 결정입니다. 큰 물 일간이 만년에 자식 자리로 흐름을 옮긴 분기점입니다."
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1999,
+      "eventKo": "주식제 개혁으로 국영 조선소를 민영으로 전환, 본인이 사실상 오너가 됨",
+      "impactKo": "회사의 자본 구조 자체가 본인 자본이 된 결정입니다. 이후 25년 부의 흐름이 이 결정 위에 쌓였습니다."
+    },
+    {
+      "year": 2007,
+      "eventKo": "싱가포르 SGX 상장으로 중국 민간 조선사 최초 해외 상장",
+      "impactKo": "달러 자본과 글로벌 가시성을 동시에 확보하면서, 본인의 자본을 외부 시장가로 환산받은 분기점입니다."
+    },
+    {
+      "year": 2024,
+      "eventKo": "외아들 런러톈에게 그룹 집행회장직 정식 승계",
+      "impactKo": "정치 리스크가 상존하는 중국 민간 거물에게 후계자 조기 양성은 생존 전략입니다. 만년의 깔끔한 마무리가 가능했던 결정적 결정입니다."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "싱가포르 상장 양쯔장 조선의 가족 지배 지분과 분사된 양쯔장 금융 홀딩스 지분이 핵심 자산입니다. 컨테이너선·LNG선·벌크선 매출과 분사 자산운용 수익이 두 축입니다.",
+    "wealthAcceleratorsKo": "1999년 사유화, 2007년 SGX 상장, 2009년 사이클 통과 후 점유율 확장, 2022년 양쯔장 금융 홀딩스 분사 상장이 자본 가치의 네 단계 도약을 만들었습니다.",
+    "structuralAdvantagesKo": "양쯔강 어귀의 조선 클러스터라는 입지, 외아들로의 깔끔한 후계 구조, 그리고 자산 일부의 싱가포르 분산이 정치 리스크를 흡수합니다.",
+    "currentAssetAllocationKo": "양쯔장 조선·양쯔장 금융 홀딩스 지분이 자산의 절대 비중. 2024년 BTR 신소재(배터리 음극재 세계 1위)에 대규모 투자를 집행해 다음 세대 사업 축을 다지고 있습니다."
+  },
+  "failures": [
+    {
+      "year": 2008,
+      "descriptionKo": "글로벌 금융위기로 양쯔장 조선의 수주 80%를 차지하던 컨테이너선 발주가 급감했습니다. 주가가 29센트까지 폭락하며 단일 선종 의존 리스크가 노출됐습니다.",
+      "howTheyOvercameKo": "위기 이전에 받아둔 고마진 수주 잔고로 사이클을 통과시켰고, 이후 LNG선·벌크선·해양 플랜트로 다변화했습니다.",
+      "lessonKo": "단일 선종 의존은 호황엔 폭리지만 불황엔 회사를 흔듭니다. 사이클 사업은 카테고리 다변화가 곧 보험입니다."
+    },
+    {
+      "year": 2014,
+      "descriptionKo": "톈진궈헝 지분 12.11% 인수 후 내부자 거래·시세 조종·정보 왜곡 등 다중 혐의에 휘말리며 중국 본토 평판이 손상됐습니다.",
+      "howTheyOvercameKo": "자체 변호사·컴플라이언스 조직을 강화하고, 본업 운영 규율과 자본 시장 규율을 분리해 관리하기 시작했습니다.",
+      "lessonKo": "상장사 인수 시 정보 비대칭과 공시 의무는 본업 운영 규율과는 다른 차원의 게임입니다."
+    },
+    {
+      "year": 2019,
+      "descriptionKo": "중국 정부의 비공개 부패 수사에 협조 요청을 받아 약 4개월간 회사를 떠나야 했습니다. 그동안 양쯔장 조선 주가는 큰 폭으로 흔들렸습니다.",
+      "howTheyOvercameKo": "복귀 후 외아들 런러톈을 임시 회장으로 올려 경영 공백을 구조적으로 메우기 시작했고, 자산 일부의 싱가포르 분산을 추가로 진행했습니다.",
+      "lessonKo": "중국 민간 거물에게 정치 리스크는 영구 변수입니다. 후계자 조기 양성과 자산의 해외 분산은 생존 전략입니다."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2015, "netWorth": "$1.4B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$1.7B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$2.4B", "sourceKo": "포브스 빌리어네어즈"},
+    {"year": 2026, "netWorth": "$3.0B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "quotes": [
+    {
+      "textKo": "중국 조선소들에 험한 길이 놓여 있습니다. 시황이 회복돼도 살아남는 야드는 절반도 되지 않을 것입니다.",
+      "context": "2010년대 중반 조선업 다운사이클 인터뷰에서, 자국 산업의 구조조정을 예언하며"
+    }
+  ],
+  "books": [],
+  "personalTraitsKo": [
+    "기술자 출신 오너",
+    "사이클 타이밍 본능",
+    "정치 리스크 흡수",
+    "외아들 후계 안정",
+    "본거지 집중"
+  ],
+  "characterKo": {
+    "strengths": "선체 조립공으로 시작한 시공 디테일과 사이클 사업의 현금화 타이밍 본능이 두 가지 무기입니다. 1999년 사유화부터 2024년 후계 이양까지 25년에 걸친 자본 구조 작업을 한 사람이 끌고 온 끈기도 강점입니다.",
+    "weaknesses": "조선업이라는 단일 사이클 산업에 그룹이 쏠려 있어 글로벌 경기 변동에 직접 노출됩니다. 중국 민간 거물 특유의 정치 리스크가 상시 변수이고, 단일 외아들 후계 구조라 안전망이 좁습니다.",
+    "motivation": "장인 농촌 출신 기술자가 중국 최대 민간 조선사를 만들겠다는 자수성가형 야망과, 양쯔강 어귀라는 본거지의 조선 산업 자체를 한 단계 끌어올리겠다는 산업적 사명이 동력입니다.",
+    "legacy": "중국 민간 조선업 시대를 연 1세대 오너입니다. 국영 조선소를 사유화해 글로벌 자본 시장에 상장시키고, 정치 리스크를 견뎌낸 뒤 외아들에게 깔끔히 이양한 중국식 후계 모델의 표본입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-Ja day pillar (winter water on rat water) and Jin month branch combine into a deep, long-flowing river of a leader. The format that channels wealth through external resources matches a 50-year arc of starting as a shipyard technician at 20, leading the 1999 privatization, the 2007 SGX listing, the 2008 financial-crisis survival, and the 2024 succession to his only son.",
+    "summaryKo": "일주는 임자라 큰 물이 또 큰 물(쥐의 자리) 위에 놓인 형국으로, 깊고 긴 강의 흐름이 그대로 일간 자체에 새겨진 자리입니다. 월지 진은 봄 흙의 자리라 큰 물의 흐름을 받아 단단히 가두는 역할을 합니다. 격국은 외부 자원과 시장 흐름을 통해 부를 만드는 흐름이라, 1973년 국영 조선소 기술자 입사, 1999년 사유화, 2007년 SGX 상장, 2008년 사이클 통과, 2019년 정치 수사 4개월 부재 후 복귀, 2024년 외아들 후계 이양까지 모두 '큰 흐름을 본인 자본으로 끌어들여 다음 세대로 흘려보낸다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.bloomberg.com/profile/person/15316859",
+    "https://www.seatrade-maritime.com/shipyards/ren-yuanlin-s-son-takes-the-helm-at-yangzijiang-shipbuilding",
+    "https://www.theceomagazine.com/executive-interviews/construction-trades/ren-yuanlin/",
+    "https://www.yzjship.com/en/about.html",
+    "https://www.lloydslist.com/LL1128778/Yangzijiang-chairmans-absence-linked-to-government-investigation",
+    "https://www.caixinglobal.com/2019-08-16/head-of-chinas-largest-private-shipbuilder-assists-in-corruption-probe-101451855.html",
+    "https://splash247.com/ren-yuanlin-plugs-yangzijiang-fortune-into-worlds-biggest-battery-anode-maker/"
+  ]
+}

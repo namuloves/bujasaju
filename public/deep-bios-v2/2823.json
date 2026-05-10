@@ -1,0 +1,240 @@
+{
+  "id": "2823",
+  "name": "Yang Yuanqing",
+  "nameKo": "양위안칭",
+  "birthday": "1964-11-01",
+  "birthPlace": "Hefei, Anhui, China",
+  "birthPlaceKo": "중국 안후이성 허페이",
+  "netWorth": "$1.3B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "갑인",
+  "gyeokguk": "편재격",
+  "_notes": "billionaires.json 1964-11-01 vs 영문 위키 1964-11-12 — 11일 차이. 사주 일관성을 위해 1964-11-01 사용.",
+  "childhood": {
+    "summaryKo": "1964년 안후이성 허페이의 의사 부모 가정에서 태어났습니다. 외과의 부모는 당시 중국에서 육체 노동자와 같은 박봉을 받았고, 형편은 빠듯했습니다. 부친 양푸룽은 매우 엄격해서 '한번 목표를 정하면 무슨 일이 있어도 도달해야 한다'고 가르친 사람으로 알려져 있습니다. 부모는 의대를 권했지만 어린 시절 문학에도 관심이 있던 그는, 친척인 대학 교수의 권유로 컴퓨터공학을 택했습니다. 1986년 상하이교통대학교 컴퓨터공학과 학사, 이후 중국과학기술대학교에서 컴퓨터공학 석사를 받았습니다.",
+    "capitalTypeKo": "완전 자수성가 — 의사 부모이지만 자본 없음. 1989년 평사원 영업직에서 시작.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yang_Yuanqing",
+      "https://www.iedp.com/articles/leadership-journeys-lenovos-yang-yuangqing/",
+      "https://www.engineering.columbia.edu/about/columbia-engineering-leadership/board-visitors/yuanqing-yang"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "self-made",
+    "descriptionKo": "재벌·정치 인맥 전무. 1989년 25세에 베이징 출장 중 신문 광고를 보고 레노버의 전신인 레전드(Legend)에 영업사원으로 입사했습니다. 기술 지식을 무기로 중국 전역 유통망을 직접 뚫었고, 류촨즈(레노버 창업자)의 눈에 띄어 1994년 29세에 PC 사업부 총책임자가 되었습니다. 2001년 류촨즈가 물러나면서 37세에 CEO에 올랐고, 이후 2005년 IBM PC 사업 인수($17.5억), 2014년 모토로라 모빌리티 인수($29.1억), 같은 해 IBM x86 서버 사업 인수($23억)로 레노버를 글로벌 1위 PC 제조사로 키웠습니다. 본인 지분은 레노버 약 7-8% 수준. Forbes self-made score 8/10.",
+    "selfMadeScore": 8,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yang_Yuanqing",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=6478",
+      "https://www.iedp.com/articles/leadership-journeys-lenovos-yang-yuangqing/"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1986,
+      "age": 22,
+      "event": "BS in Computer Science from Shanghai Jiao Tong University",
+      "eventKo": "상하이교통대학교 컴퓨터공학 학사",
+      "whyItMatteredKo": "의대 권유를 거부하고 컴퓨터공학을 택한 첫 분기점.",
+      "source": "https://en.wikipedia.org/wiki/Yang_Yuanqing"
+    },
+    {
+      "year": 1989,
+      "age": 25,
+      "event": "Joined Legend (now Lenovo) as a salesman after MS from USTC",
+      "eventKo": "중국과학기술대 석사 후 레전드(현 레노버) 영업사원 입사",
+      "whyItMatteredKo": "교수 진로를 포기하고 무명 회사 영업직으로 시작. 평생 직장의 출발점.",
+      "source": "https://en.wikipedia.org/wiki/Yang_Yuanqing"
+    },
+    {
+      "year": 1994,
+      "age": 30,
+      "event": "Appointed General Manager of Lenovo's PC (Microcomputer) Division at 29",
+      "eventKo": "29세에 레노버 PC 사업부 총책임자",
+      "whyItMatteredKo": "류촨즈의 발탁. 회사 핵심 사업의 단독 책임자.",
+      "source": "https://baike.baidu.com/en/item/Yang%20Yuanqing/19801"
+    },
+    {
+      "year": 1996,
+      "age": 32,
+      "event": "Promoted to Vice President of Lenovo Group",
+      "eventKo": "레노버 그룹 부사장 승진",
+      "whyItMatteredKo": "그룹 임원 트랙 진입.",
+      "source": "https://baike.baidu.com/en/item/Yang%20Yuanqing/19801"
+    },
+    {
+      "year": 2001,
+      "age": 37,
+      "event": "Became CEO when founder Liu Chuanzhi retired",
+      "eventKo": "창업주 류촨즈 은퇴, 37세에 CEO 취임",
+      "whyItMatteredKo": "전문경영인으로서 그룹 단독 운영 시작. 글로벌화 비전 선언.",
+      "source": "https://www.iedp.com/articles/leadership-journeys-lenovos-yang-yuangqing/"
+    },
+    {
+      "year": 2005,
+      "age": 41,
+      "event": "Lenovo acquired IBM's PC business for $1.75B; Yang moved to non-executive chairman",
+      "eventKo": "레노버, IBM PC 사업 인수($17.5억) — 양위안칭은 비상임 회장으로 이동",
+      "whyItMatteredKo": "이사회 다수 반대를 뚫고 밀어붙인 인수. 레노버를 글로벌 무대로 올린 결정. CEO 자리는 서구 경영진(스티브 워드 → 윌리엄 아멜리오)에게 양보.",
+      "source": "https://news.lenovo.com/pressroom/press-releases/lenovo-marks-decade-success-since-acquisition-ibms-pc-business/"
+    },
+    {
+      "year": 2009,
+      "age": 45,
+      "event": "Returned as CEO after Lenovo's $97M Q4 2008 loss; Amelio's contract not renewed",
+      "eventKo": "레노버 2008년 4분기 $9700만 손실 후 CEO 복귀",
+      "whyItMatteredKo": "글로벌 금융위기와 서구 경영진의 한계 노출. 본인이 직접 다시 운영 책임.",
+      "source": "https://www.chinatechnews.com/2009/02/05/8670-lenovo-founder-returns-after-company-disappoints-with-declining-computer-sales-and-loss"
+    },
+    {
+      "year": 2011,
+      "age": 47,
+      "event": "Added Chairman role permanently as Liu Chuanzhi stepped back",
+      "eventKo": "류촨즈 일선 후퇴, 회장 겸직",
+      "whyItMatteredKo": "창업주 그늘에서 벗어나 단독 톱.",
+      "source": "https://news.lenovo.com/pressroom/press-releases/lenovo-ceo-yang-yuanqing-adds-chairman-role-as-founder-liu-chuanzhi-turns-focus-to-new-challenges/"
+    },
+    {
+      "year": 2012,
+      "age": 48,
+      "event": "Distributed his $3M annual bonus to 10,000 lower-level employees (avg $314 each)",
+      "eventKo": "본인 보너스 $300만 전액을 일반직원 1만 명에게 분배 (1인당 약 $314)",
+      "whyItMatteredKo": "글로벌 화제 — 중국 경영자의 새로운 인격 모델. 2013년에도 $325만 동일 분배.",
+      "source": "https://www.cnn.com/2012/07/19/business/lenovo-bonus-ceo"
+    },
+    {
+      "year": 2014,
+      "age": 50,
+      "event": "Acquired Motorola Mobility from Google ($2.91B) and IBM's x86 server business ($2.3B)",
+      "eventKo": "구글에서 모토로라 모빌리티 인수($29.1억) + IBM x86 서버 인수($23억)",
+      "whyItMatteredKo": "PC 회사에서 모바일·엔터프라이즈 서버 회사로 확장 시도.",
+      "source": "https://news.lenovo.com/pressroom/press-releases/lenovo-marks-decade-success-since-acquisition-ibms-pc-business/"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1989,
+      "ageAtTime": 25,
+      "decisionKo": "교수 진로 대신 무명 회사 영업사원으로 입사",
+      "alternativeKo": "안정적 대학 교수 트랙을 갔다면 평생 학자로 남았을 가능성.",
+      "outcomeKo": "5년 만에 PC 사업부 총책임자, 12년 만에 그룹 CEO."
+    },
+    {
+      "year": 2005,
+      "ageAtTime": 41,
+      "decisionKo": "이사회 다수 반대 속에 IBM PC 사업 단독 인수 강행",
+      "alternativeKo": "내부 성장 위주로 갔다면 중국 내수 PC 1위에 머물렀을 것.",
+      "outcomeKo": "10년 만에 글로벌 PC 점유율 2.3% → 20%, 매출 13배 성장으로 세계 1위."
+    },
+    {
+      "year": 2009,
+      "ageAtTime": 45,
+      "decisionKo": "서구 CEO 체제 포기하고 본인이 직접 CEO 복귀",
+      "alternativeKo": "추가 외부 영입을 시도했다면 경영 공백이 더 길어졌을 가능성.",
+      "outcomeKo": "이듬해 흑자 전환, 이후 글로벌 PC 1위 안착."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "레노버 그룹(HKEX 0992) 약 7-8% 지분 + 장기 스톡옵션. 본인 지분 가치는 주가 변동에 따라 $0.6B~$10B 사이로 크게 출렁.",
+    "wealthAcceleratorsKo": [
+      "2005년 IBM PC 인수 — 글로벌 PC 1위로 점프",
+      "2014년 모토로라 + IBM x86 서버 동시 인수",
+      "본인 8% 지분의 장기 보유"
+    ],
+    "structuralAdvantagesKo": [
+      "전문경영인으로 36년 단독 통솔",
+      "M&A로 시장 확대하는 딜메이커 역량",
+      "중국 본사 + 글로벌 운영 이중 구조"
+    ],
+    "currentAssetAllocationKo": "레노버 지분이 자산의 사실상 전부. 부동산·외부 투자 공개 정보 미미."
+  },
+  "personalTraitsKo": [
+    "자수성가 전문경영인",
+    "M&A 딜메이커",
+    "보너스 분배의 인격 경영",
+    "조용한 사색가형",
+    "글로벌화 추진자"
+  ],
+  "characterKo": {
+    "strengths": "1989년 영업사원에서 시작해 36년간 한 회사를 지킨 끈기. 이사회 반대 속에서도 IBM PC 인수를 밀어붙인 결단. 본인 보너스를 일반직원에게 두 차례 분배한 인격. 류촨즈의 발탁을 받을 정도의 조용한 사색가형 면모.",
+    "weaknesses": "모토로라 인수 후 '문화·비즈니스 모델 차이를 과소평가했다'고 본인이 인정. 모바일·서버 신규 분야에서 PC만큼의 성과는 미달. 중국 정치 환경의 직간접 영향.",
+    "motivation": "글로벌 IT 무대에서 중국 기업이 1위가 되는 것. 부친 양푸룽의 '목표를 정하면 무슨 일이 있어도 도달한다'는 가르침의 체화.",
+    "legacy": "중국 본토 기업의 첫 진정한 글로벌 인수자. 서구 IT 자산을 인수해 운영한 첫 중국 CEO."
+  },
+  "failures": [
+    {
+      "year": 2009,
+      "description": "Lenovo posted a $97M loss in Q4 2008. Western CEO William Amelio's contract was not renewed; he publicly criticized Lenovo's 'yes, yes, yes' culture on his way out.",
+      "descriptionKo": "레노버 2008년 4분기 $9700만 적자. 서구 CEO 윌리엄 아멜리오의 3년 계약 갱신 거절. 아멜리오는 퇴임하면서 레노버의 '네, 네, 네' 문화를 공개 비판.",
+      "lesson": "Trusting Western CEOs alone to globalize a Chinese company doesn't work — the founder-track operator has to stay involved in core decisions.",
+      "lessonKo": "서구 CEO 한 명에게 글로벌화를 통째로 맡기는 방식은 통하지 않습니다. 창업 트랙 운영자가 핵심 의사결정에 계속 들어가야 합니다.",
+      "source": "https://www.chinatechnews.com/2009/02/05/8670-lenovo-founder-returns-after-company-disappoints-with-declining-computer-sales-and-loss"
+    },
+    {
+      "year": 2016,
+      "description": "Motorola integration produced Lenovo's first annual loss in six years. Mobile division alone lost $469M. Yang publicly admitted: 'We underestimated the differences of the culture and the business model.'",
+      "descriptionKo": "모토로라 통합 실패로 레노버 6년 만의 연간 적자. 모바일 부문만 $4억 6900만 손실. 양위안칭 본인이 '문화와 비즈니스 모델의 차이를 과소평가했다'고 공개 인정.",
+      "lesson": "PC acquisition success doesn't transfer to smartphones. Brand, distribution, and developer ecosystems require different playbooks.",
+      "lessonKo": "PC 인수 성공 공식이 스마트폰에는 그대로 옮겨지지 않습니다. 브랜드·유통·개발자 생태계가 다르게 작동합니다.",
+      "source": "https://www.gsmarena.com/lenovo_didnt_know_what_they_were_doing_when_they_bought_motorola-news-22803.php"
+    },
+    {
+      "year": 2020,
+      "description": "Bucephalus Research Partnership accused Lenovo of accounting fraud. Lenovo denied, but shares fell 11% in the immediate aftermath.",
+      "descriptionKo": "공매도 리서치 부세팔러스가 레노버 분식회계 의혹 보고서 발표. 회사는 부인했지만 주가는 직후 11% 하락.",
+      "lesson": "A long-listed Chinese tech major remains a perpetual short-seller target. Disclosure quality and investor relations need to be at the top tier.",
+      "lessonKo": "장기 상장된 중국 IT 대형주는 공매도의 상시 표적입니다. 공시 수준과 IR이 최상위여야 합니다.",
+      "source": "https://www.yicaiglobal.com/news/lenovo-shares-tumble-on-alleged-accounting-fraud"
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "Forbes 빌리어네어 진입", "sourceKo": "Forbes 2015"},
+    {"year": 2019, "netWorth": "$0.6B", "sourceKo": "Hurun Report 2019"},
+    {"year": 2025, "netWorth": "$1.3B", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+  ],
+  "quotes": [
+    {
+      "text": "We underestimated the differences of the culture and the business model.",
+      "textKo": "우리는 문화와 비즈니스 모델의 차이를 과소평가했습니다.",
+      "context": "2017 WSJ interview, on Motorola integration",
+      "contextKo": "2017년 월스트리트저널 인터뷰, 모토로라 통합 관련",
+      "source": "https://www.gsmarena.com/lenovo_didnt_know_what_they_were_doing_when_they_bought_motorola-news-22803.php"
+    },
+    {
+      "text": "Our strategy is to prioritise mature markets which need brands and innovative products, whereas emerging markets need efficiency.",
+      "textKo": "성숙 시장은 브랜드와 혁신 제품, 신흥 시장은 효율성 — 두 시장에 두 전략을 씁니다.",
+      "context": "On Lenovo's mobile business reorganization",
+      "contextKo": "레노버 모바일 사업 재편 관련",
+      "source": "https://wraltechwire.com/2015/08/27/reports-motorola-now-absorbing-lenovo-smartphone-efforts/"
+    }
+  ],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "sajuConnection": {
+    "ilju": "갑인",
+    "geokguk": "편재격",
+    "summaryKo": "양위안칭의 사주는 갑목(큰 나무) 천간이 연·월·일에 세 번 겹친 매우 강한 일간입니다. 월지가 술토(늦가을 흙)인 편재격(움직이는 큰 재물·딜·기회로 부를 만드는 형식)은 안정적 봉급보다 큰 자산을 직접 인수해 부를 키우는 패턴인데, 2005년 IBM PC 인수와 2014년 모토로라·IBM 서버 동시 인수가 정확히 이 결을 따라갑니다. 일지의 인목(범)은 결단력과 도약을 상징해, 이사회 반대 속에서도 IBM 딜을 밀어붙인 41세 결단과 호응합니다. 갑목 셋이 나란히 선 형상은 동료를 거느리고 함께 큰 숲을 이루는 그림이라, 본인 보너스 $300만을 일반직원 1만 명에게 두 차례 분배한 행동도 이 사주의 자연스러운 발현으로 읽힙니다.",
+    "interpretationKo": "갑인 일주는 큰 나무가 봄의 어린 호랑이 위에 놓인 형상으로, 조용하지만 결정적 순간에 큰 결단을 내리는 리더형입니다. 편재격은 사색형 학자보다 자본을 움직이는 딜메이커 쪽으로 그를 이끌었고, 술월의 늦가을 흙은 큰 자산을 흡수·정리하는 시즌이라 IBM PC와 모토로라 같은 큰 자산 인수의 무대가 됐습니다.",
+    "keyEvents": [
+      {"year": 2005, "eventKo": "IBM PC 인수 — 편재격의 큰 자산 흡수 패턴 발현"},
+      {"year": 2009, "eventKo": "CEO 복귀 — 갑목 일간의 단독 통솔 회귀"},
+      {"year": 2014, "eventKo": "모토로라·IBM 서버 동시 인수 — 편재격 딜메이킹 정점"}
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yang_Yuanqing",
+    "https://www.iedp.com/articles/leadership-journeys-lenovos-yang-yuangqing/",
+    "https://news.lenovo.com/pressroom/press-releases/lenovo-marks-decade-success-since-acquisition-ibms-pc-business/",
+    "https://www.cnn.com/2012/07/19/business/lenovo-bonus-ceo",
+    "https://www.chinatechnews.com/2009/02/05/8670-lenovo-founder-returns-after-company-disappoints-with-declining-computer-sales-and-loss",
+    "https://www.gsmarena.com/lenovo_didnt_know_what_they_were_doing_when_they_bought_motorola-news-22803.php",
+    "https://www.yicaiglobal.com/news/lenovo-shares-tumble-on-alleged-accounting-fraud",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=6478",
+    "https://baike.baidu.com/en/item/Yang%20Yuanqing/19801"
+  ]
+}

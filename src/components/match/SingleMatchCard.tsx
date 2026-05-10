@@ -328,7 +328,7 @@ export default function SingleMatchCard({ person, saju, matches, onReset, totalM
       {/* Deep bio modal */}
       {showDeepBio && (
         <Suspense fallback={null}>
-          <DeepBioModal person={person} onClose={() => setShowDeepBio(false)} />
+          <DeepBioModal person={person} onClose={() => setShowDeepBio(false)} userSaju={saju} />
         </Suspense>
       )}
     </div>

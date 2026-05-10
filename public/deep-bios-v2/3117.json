@@ -1,0 +1,73 @@
+{
+  "id": 3117,
+  "name": "Mustafa Hamied",
+  "nameKo": "무스타파 하미에드",
+  "birthday": "1940-10-23",
+  "birthPlace": "Bombay (Mumbai), India",
+  "birthPlaceKo": "인도 봄베이 (현 뭄바이)",
+  "netWorth": "$1.1B",
+  "nationality": "IN",
+  "industry": "Healthcare",
+  "gender": "M",
+  "ilju": "기해",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1940년 봄베이에서 시플라 창업주 카이저 압둘라 하미에드의 차남으로 태어났습니다. 형 유수프 하미에드와 함께 가문 자본의 양 축을 이루는 인물입니다. 모친은 리투아니아계 유대인 사회운동가 루바 데르차나스카로 가족사가 다채롭습니다.",
+    "capitalTypeKo": "재벌 2세 — 1935년 창업의 시플라 가문 자본을 잇는 운영형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Cipla"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1960년 봄베이대 이학사 졸업 후 가문 시플라에 합류, 형 유수프와 함께 운영했습니다. 2014년 부회장 은퇴, 2024년 9월 비상근 부회장직 사임 후 아들 카밀이 이사회에 합류하면서 다음 세대로 이양했습니다.",
+    "selfMadeScore": 2,
+    "sources": ["https://www.cipla.com"]
+  },
+  "careerTimeline": [
+    {"year": 1960, "event": "Graduates Bombay University, joins Cipla family business", "eventKo": "봄베이대 이학사 졸업, 시플라 합류", "whyItMatteredKo": "기해 일주의 부드러운 흙 일간이 가문 자본을 본인 운영으로 받기 시작한 출발점입니다."},
+    {"year": 1972, "event": "Indian Patents Act enables generic manufacturing", "eventKo": "인도 특허법 개정으로 제네릭 제조 가능 — 시플라가 가장 큰 수혜자", "whyItMatteredKo": "외부 정책 환경이 가문 본업 자리를 만들어준 결정적 분기점입니다."},
+    {"year": 1985, "event": "Helps build Cipla as India's leading generic manufacturer", "eventKo": "1980년대 시플라를 인도 1위 제네릭 회사로 키우는 데 기여", "whyItMatteredKo": "자기가 만든 결과물의 흐름이 가문 본업 매출로 환원된 시기입니다."},
+    {"year": 2001, "event": "Cipla offers HIV drugs at $1/day to African nations", "eventKo": "시플라가 아프리카 국가에 HIV 약을 1일 1달러에 공급 — 글로벌 공중 보건 회사로 도약", "whyItMatteredKo": "가문 자본이 글로벌 평판 자본으로 환원된 결정적 분기점입니다."},
+    {"year": 2014, "event": "Steps down as Vice Chairman", "eventKo": "부회장 은퇴", "whyItMatteredKo": "본격 일선 운영에서 빠진 시기입니다."},
+    {"year": 2024, "event": "Resigns non-executive vice chairmanship; son Kamil joins board", "eventKo": "9월 비상근 부회장직 사임, 아들 카밀이 이사회 합류", "whyItMatteredKo": "기해 일주가 가문 자본을 다음 세대로 깔끔히 흘려보낸 만년의 결정적 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1972, "eventKo": "인도 특허법 개정으로 제네릭 제조 가능", "impactKo": "외부 정책 환경이 가문 본업 자리를 만들어준 결정적 분기점입니다."},
+    {"year": 2001, "eventKo": "아프리카에 HIV 약 1일 1달러 공급으로 글로벌 평판 자본 확보", "impactKo": "학습된 가문 자본이 글로벌 평판 자본으로 환원된 분기점입니다."},
+    {"year": 2024, "eventKo": "비상근 부회장직 사임, 아들 카밀 이사회 합류", "impactKo": "가문 자본을 다음 세대로 깔끔히 흘려보낸 만년 마무리의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "인도 상장사 시플라 가족 지분에서 나오는 주가 가치와 배당이 핵심입니다. 형 유수프 하미에드 가족과 함께 가문 자본을 분담합니다.",
+    "wealthAcceleratorsKo": "1972년 인도 특허법 개정 수혜, 2001년 글로벌 HIV 약 공급 도약, 2010년대 미국·유럽 진출이 자본 가치 가속의 단계들입니다.",
+    "structuralAdvantagesKo": "1935년 창업의 시플라 가문 자본과 글로벌 공중 보건 평판이 강점입니다.",
+    "currentAssetAllocationKo": "시플라 가족 지분이 자산의 절대 비중. 본인 자산은 형 유수프의 약 1/3 수준입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기 직후 시플라 미국 진출이 일부 부진했고, FDA 일부 시설 경고 서한 이슈도 있었습니다.", "howTheyOvercameKo": "본업 인도 시장과 신흥국 매출에 자본을 다시 집중시켜 통과했습니다.", "lessonKo": "글로벌 제네릭 진출은 인수국 규제와 인증 사이클에 직접 노출됩니다."},
+    {"year": 2015, "descriptionKo": "인도 제약사 사이의 가격 경쟁 심화로 본업 매출 마진이 압박을 받았습니다.", "howTheyOvercameKo": "흡입제와 호흡기 약품 같은 차별화 카테고리로 매출 비중을 옮겼습니다.", "lessonKo": "단일 카테고리(제네릭) 의존은 가격 경쟁 한 번에 마진이 압박됩니다."},
+    {"year": 2024, "descriptionKo": "본인 비상근 부회장직 사임 직후 가문 다음 세대 운영진의 안정성에 시장 시선이 모였습니다.", "howTheyOvercameKo": "아들 카밀의 이사회 합류로 단계적 후계 구도를 만들었습니다.", "lessonKo": "1세대 사임은 다음 세대 운영진 안정성으로만 보완됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.6B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$0.9B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$1.0B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["시플라 2세대", "유수프 하미에드 동생", "글로벌 HIV 약 공급", "비상근 부회장 사임", "아들 카밀 후계"],
+  "characterKo": {
+    "strengths": "1935년 창업의 시플라 가문 자본 위에서 형 유수프와 함께 글로벌 공중 보건 평판을 만든 끈기와, 다음 세대(아들 카밀)에게 깔끔히 이양한 만년 결단력이 강점입니다.",
+    "weaknesses": "본인 운영 신화가 형 유수프에게 주로 귀속되고, 단일 카테고리(제네릭) 의존이 산업 가격 사이클에 노출됩니다.",
+    "motivation": "1935년 창업의 시플라 가문 자본을 본인 세대에서 글로벌 공중 보건 회사로 끌어올리겠다는 가문 의식이 동력입니다.",
+    "legacy": "인도 시플라 2세대 운영형 후계자의 표본입니다. 글로벌 HIV 약 공급으로 평판 자본을 만들고 다음 세대로 이양한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Hae day pillar (autumn earth on pig water) and Sul month branch combine into a quietly inheriting, water-fed profile. The format that channels wealth through learning and inherited authority matches a 60-year arc from joining Cipla in 1960 to the 2001 HIV drug push and the 2024 succession.",
+    "summaryKo": "일주는 기해라 가을 부드러운 흙이 돼지의 자리 물 위에 놓인 형국으로, 흙이 풍부한 외부 자원의 흐름을 본인 안으로 끌어들이는 자리입니다. 월지 술은 가을 흙의 자리라 일간을 두 겹의 흙으로 단단히 받쳐줍니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1960년 시플라 합류, 1972년 특허법 수혜, 2001년 글로벌 HIV 약 공급, 2014년 부회장 은퇴, 2024년 아들 후계 이양까지 모두 '학습된 가문 자본이 다음 세대로 흘려보내진다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cipla",
+    "https://www.cipla.com",
+    "https://www.bloomberg.com/profile/person/mustafa-hamied"
+  ]
+}

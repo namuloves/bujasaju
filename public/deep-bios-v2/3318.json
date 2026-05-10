@@ -1,0 +1,78 @@
+{
+  "id": 3318,
+  "name": "Lee Kun-hee",
+  "nameKo": "이건희",
+  "birthday": "1942-01-09",
+  "birthPlace": "Daegu, South Korea",
+  "birthPlaceKo": "대한민국 대구",
+  "netWorth": "$0B",
+  "nationality": "KR",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "임술",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "삼성 창업주 호암 이병철의 3남 5녀 중 막내아들로 대구에서 태어났습니다. 사대부고 졸업 후 일본 와세다대 상학부 경제학과를 졸업하고, 미국 조지워싱턴대 경영대학원 MBA를 수료했습니다. 1967년 홍라희와 결혼해 1남 3녀를 두었습니다.",
+    "capitalTypeKo": "재벌 2세 — 부친 이병철로부터 삼성그룹 회장직을 승계한 후계자입니다. 다만 1993년 신경영 선언 이후 그룹 DNA를 본인 세대에서 완전히 재정의한 운영형 후계자입니다.",
+    "sources": ["https://ko.wikipedia.org/wiki/이건희", "https://en.wikipedia.org/wiki/Lee_Kun-hee"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1966년 동양방송 입사로 삼성 경영 입문, 1979년 삼성그룹 부회장, 1987년 12월 1일 부친 별세 직후 그룹 제2대 회장에 올랐습니다. 1987년 매출 9.9조 원에서 2014년 338.6조 원으로 약 34배 성장시킨 운영 결과물이 본인의 자본 가치를 결정했습니다.",
+    "selfMadeScore": 3,
+    "sources": ["https://namu.wiki/w/이건희"]
+  },
+  "careerTimeline": [
+    {"year": 1987, "event": "Becomes Samsung Group Chairman after father's death", "eventKo": "12월 1일 삼성그룹 제2대 회장 취임", "whyItMatteredKo": "이병철 시대의 관리·재무 중심에서 이건희 시대의 기술·반도체 중심으로 그룹 DNA가 전환되기 시작한 시발점입니다."},
+    {"year": 1993, "event": "Frankfurt Declaration: 'Change everything except your wife and kids'", "eventKo": "프랑크푸르트 신경영 선언 — '마누라와 자식만 빼고 다 바꿔라'", "whyItMatteredKo": "한국 기업 경영사의 분기점입니다. 양에서 질로의 전환을 200여 명 임원에게 직접 주문한 결정입니다."},
+    {"year": 1995, "event": "Anycall phone burning ceremony in Gumi (Mar 9)", "eventKo": "구미사업장에서 불량 휴대폰 15만 대를 임직원 앞에서 불태움", "whyItMatteredKo": "신경영 선언의 말을 행동으로 입증한 결정적 사건입니다. 4개월 만에 애니콜이 국내 1위로 올라섰습니다."},
+    {"year": 1996, "event": "Samsung Motors launched; collapses in 1997 IMF crisis", "eventKo": "부산에 삼성자동차 출범, 1997년 IMF 외환위기로 1999년 법정관리", "whyItMatteredKo": "이건희 인생 최대 실패입니다. 그룹 자본 약 4조 원 손실로 가장이 처음으로 큰 베팅에 실패한 사건입니다."},
+    {"year": 2008, "event": "Samsung slush fund probe; resigns as chairman (Apr 22)", "eventKo": "삼성 비자금 특검 — 4.5조 원 차명재산 적발, 4월 22일 회장 사퇴, 7월 유죄 판결", "whyItMatteredKo": "한국 재벌 황제경영의 가장 큰 흔들림입니다. 이후 이재용 중심 후계 구도로 본격 전환됐습니다."},
+    {"year": 2014, "event": "Heart attack at Hannam-dong residence (May 10)", "eventKo": "5월 10일 한남동 자택에서 급성 심근경색으로 쓰러짐 — 6년 5개월 의식불명, 2020년 10월 25일 별세", "whyItMatteredKo": "사실상 경영권 공백입니다. 임술 일주의 깊은 흐름이 외부 무대에서 멈춘 분기점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1993, "eventKo": "프랑크푸르트 신경영 선언 — 양에서 질로의 전환 주문", "impactKo": "학습형 일간이 학습과 가르침의 자리에서 그룹 전체에 새 어법을 강제 주입한 분기점입니다."},
+    {"year": 1996, "eventKo": "부친이 반대했던 자동차 사업을 본인 숙원으로 강행, 4조 원 손실", "impactKo": "가장이 부친 가르침을 거스르고 본인 베팅을 단행했다 좌절한 결정적 사건입니다."},
+    {"year": 2008, "eventKo": "비자금 특검으로 회장 사퇴 후 2010년 사면 받아 복귀", "impactKo": "임술 일주의 큰 그릇이 법의 자리에서 한 번 무너졌다가 다시 회복한 만년의 가장 극적인 흐름입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "삼성전자·삼성생명·삼성물산 등 삼성그룹 주력 상장사의 가족 지분과, 차명재산 정리 후 등재된 본인 명의 지분에서 나오는 배당과 주가 가치가 자산의 핵심이었습니다.",
+    "wealthAcceleratorsKo": "1987년 회장 취임 후 그룹 매출 9.9조 원에서 2014년 338.6조 원으로 약 34배 성장이 자본 가치 가속의 가장 큰 통로였습니다. 1992년 D램 세계 1위와 2011년 갤럭시 S2의 글로벌 1위가 두 번의 결정적 가속이었습니다.",
+    "structuralAdvantagesKo": "한국 최대 재벌의 회장직과 일본·미국 학력 인맥, 그리고 IOC 위원 자격까지 확보한 정치·산업·외교의 삼위일체 자본이 강점이었습니다.",
+    "currentAssetAllocationKo": "별세 후 유족이 약 12조 원 상속세를 6년 분납 중이고, 약 30조 원 규모 미술품 이건희 컬렉션을 국가에 기증해 자산이 정리됐습니다."
+  },
+  "failures": [
+    {"year": 1996, "descriptionKo": "삼성자동차를 부친 반대를 거스르고 본인 숙원으로 강행했지만, 1997년 IMF 외환위기로 1999년 법정관리, 2000년 르노 매각으로 그룹 손실 약 4조 원이 발생했습니다.", "howTheyOvercameKo": "본업 반도체와 휴대폰에 자본을 다시 집중시키고 자동차 사업을 정리했습니다.", "lessonKo": "오너의 숙원사업은 가장 위험한 의사결정입니다. 진입 시점·비용·외환을 동시에 잘못 읽은 교과서적 실패입니다."},
+    {"year": 2007, "descriptionKo": "삼성 반도체 기흥공장 백혈병 산재 사망 사건이 본격화됐고, 11년간 회사가 무관함을 주장하다 2018년에야 공식 사과했습니다.", "howTheyOvercameKo": "산재 인정과 보상 절차를 뒤늦게 받아들이고, 노동 환경 개선과 무노조 경영 종결로 이행했습니다.", "lessonKo": "노동 안전과 인권 이슈를 비용으로만 보면 결국 더 큰 사회적 비용으로 돌아옵니다."},
+    {"year": 2008, "descriptionKo": "김용철 변호사 폭로로 시작된 비자금 특검에서 4.5조 원 차명재산이 드러나 회장 사퇴와 유죄 판결을 받았습니다.", "howTheyOvercameKo": "2009년 말 단독 사면 후 2010년 회장 복귀, 차명재산을 본인 명의로 등기했습니다.", "lessonKo": "재벌 회계의 편법 승계는 결국 비용을 낳습니다. 한국 사회가 대기업 회장도 처벌 가능을 학습한 첫 사례입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 1988, "netWorth": "$0.5B", "sourceKo": "회장 취임 직후 추정"},
+    {"year": 2000, "netWorth": "$2.0B", "sourceKo": "포브스 추정"},
+    {"year": 2010, "netWorth": "$7.2B", "sourceKo": "포브스 추정"},
+    {"year": 2017, "netWorth": "$17.0B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$20.7B", "sourceKo": "별세 직전 포브스 추정"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["황제경영", "신경영 선언", "천재경영론", "와병 6년", "기증 30조"],
+  "characterKo": {
+    "strengths": "양에서 질로의 패러다임 전환을 그룹 전체에 강제 주입한 결단력과, 자본 손실을 감수하면서도 반도체에 집중 투자한 베팅 본능이 강점입니다.",
+    "weaknesses": "황제경영의 가장 큰 리스크는 황제의 부재입니다. 6년 와병 동안 디스플레이·스마트폰 시장에서 중국 추격을 막지 못했습니다.",
+    "motivation": "부친 이병철의 인재제일 정신을 한 단계 더 끌어올려 한국 기업이 세계 1위가 될 수 있다는 것을 본인 세대에서 입증하겠다는 정체성 의식이 동력이었습니다.",
+    "legacy": "삼성을 한국 1위에서 세계 IT·반도체 1위 그룹으로 끌어올린 결정적 인물입니다. 30조 원 미술품 기증으로 한국 미술관 인프라를 한 단계 끌어올렸고, 동시에 한국 사회가 재벌 회계의 한계를 학습하게 한 사건의 주인공이기도 합니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-Sul day pillar (autumn water on dog earth) and Chuk month branch combine into a deep, slowly compressed reservoir of authority. The format that channels wealth through learning and inherited authority matches a 27-year arc of becoming chairman in 1987, declaring New Management in Frankfurt 1993, burning Anycall phones in 1995, attempting Samsung Motors in 1996, surviving the 2008 slush fund probe, and the 2014 collapse that ended the era.",
+    "summaryKo": "일주는 임술이라 가을 큰 물이 흙(개의 자리) 위에 멈춰 있는 형국으로, 깊고 느린 흐름이 흙에 가둬져 사색과 권위의 형태로 모이는 자리입니다. 월지 축은 한겨울 흙의 자리라 큰 물의 흐름을 더 단단히 압축합니다. 격국은 학습과 가르침과 가문 자산을 통해 부를 만드는 흐름이라, 1987년 회장 취임, 1993년 프랑크푸르트 신경영 선언, 1995년 애니콜 화형식, 1996년 자동차 사업 강행과 좌절, 2008년 비자금 특검과 사면 후 복귀, 2014년 와병과 2020년 별세까지 모두 '학습된 권위가 깊이 압축돼 결단으로 발현된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://ko.wikipedia.org/wiki/이건희",
+    "https://namu.wiki/w/이건희",
+    "https://en.wikipedia.org/wiki/Lee_Kun-hee",
+    "https://www.britannica.com/money/Lee-Kun-Hee",
+    "https://www.koreatimes.co.kr/lifestyle/people-events/20201025/biography-timeline-of-late-samsung-head-lee-kun-hee",
+    "https://namu.wiki/w/삼성%20비자금%20특검",
+    "https://namu.wiki/w/삼성자동차"
+  ]
+}

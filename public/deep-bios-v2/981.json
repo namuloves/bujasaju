@@ -1,0 +1,73 @@
+{
+  "id": 981,
+  "name": "Yu Renrong",
+  "nameKo": "유런롱",
+  "birthday": "1966-04-01",
+  "birthPlace": "Ningbo, Zhejiang, China",
+  "birthPlaceKo": "중국 저장성 닝보",
+  "netWorth": "$4.2B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "경인",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "저장성 닝보에서 태어났습니다. 학력은 칭화대학 무선공학과(1985 입학·1990 졸업)로 최상위 공대 트랙입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 칭화 공대 졸업 후 부품 유통상으로 자본을 쌓아 자체 IC 설계 회사로 도약한 인물입니다.",
+    "sources": ["https://baike.baidu.com/en/item/Yu%20Renrong/654218"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년 인스퍼 엔지니어로 출발, 1992년 홍콩 룽웨전자 영업, 1998년 베이징 화칭신창에서 부품 유통으로 자본을 축적했습니다. 2007년 웨이얼반도체 창업, 2017년 상장, 2019년 22억 달러로 미국 옴니비전을 인수해 세계 3위 이미지 센서 공급사가 됐습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.scmp.com/tech/big-tech/article/3299331/who-yu-renrong-chinas-only-chip-industry-representative-xi-jinpings-symposium"]
+  },
+  "careerTimeline": [
+    {"year": 1990, "event": "Graduates Tsinghua, joins Inspur as engineer", "eventKo": "칭화대 졸업 후 인스퍼 엔지니어 입사", "whyItMatteredKo": "엘리트 공대생이 국산 IT 1세대 기업에서 산업 감각을 익힌 출발점입니다."},
+    {"year": 1998, "event": "Founds Beijing Huaqing Xinchang for component distribution", "eventKo": "베이징 화칭신창 창업 — 부품 유통", "whyItMatteredKo": "엔지니어에서 유통상으로 전환한 자본 축적 단계입니다."},
+    {"year": 2007, "event": "Founds Will Semiconductor, designs analog chips", "eventKo": "웨이얼반도체 설립, 아날로그 칩 자체 설계 시작", "whyItMatteredKo": "유통 캐시플로우를 자체 IC 설계로 재투자한 변곡점입니다."},
+    {"year": 2017, "event": "IPO on Shanghai Stock Exchange", "eventKo": "상하이 증시 상장", "whyItMatteredKo": "인수합병 통화로 쓸 주식 발행이 가능해진 핵심 전환점입니다."},
+    {"year": 2019, "event": "Acquires US OmniVision for $2.2B", "eventKo": "미국 옴니비전 22억 달러 인수 완료", "whyItMatteredKo": "세계 이미지 센서 빅3 진입과 2021년 순이익 9배 폭증의 직접 원인이 된 결정입니다."},
+    {"year": 2024, "event": "Sole semiconductor representative at Xi Jinping's symposium", "eventKo": "시진핑 민영기업 좌담회 반도체 유일 대표 참석", "whyItMatteredKo": "정치적 신뢰 자산을 확보하고 정책 수혜를 가시화한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2007, "eventKo": "유통 캐시플로우를 자체 IC 설계로 재투자, 웨이얼반도체 설립", "impactKo": "경인 일주의 단단한 쇠 기질이 안정적 자산을 다음 카테고리로 옮긴 결정적 결단입니다."},
+    {"year": 2019, "eventKo": "미국 옴니비전 22억 달러 인수로 세계 빅3 진입", "impactKo": "안정적 자산 축적이 글로벌 인수합병으로 환원된 분기점입니다."},
+    {"year": 2024, "eventKo": "시진핑 좌담회 반도체 유일 대표 참석", "impactKo": "외부 정치 자본이 본인 사업의 정책 수혜로 흡수된 시기입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 상장사 웨이얼반도체 본인 보유 지분에서 나오는 주가 가치가 핵심입니다. 옴니비전 이미지 센서가 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "1998년 부품 유통, 2007년 자체 IC 설계, 2017년 상장, 2019년 옴니비전 인수가 자본 가치 가속의 네 단계입니다.",
+    "structuralAdvantagesKo": "칭화대 학맥, 옴니비전 인수로 확보한 글로벌 이미지 센서 빅3 자리, 그리고 시진핑 좌담회 참석이라는 정치 자본이 강점입니다.",
+    "currentAssetAllocationKo": "웨이얼반도체 지분이 자산의 절대 비중. 단일 회사 의존도가 매우 높습니다."
+  },
+  "failures": [
+    {"year": 2022, "descriptionKo": "스마트폰 수요 급감과 재고 평가손으로 순이익이 80% 감소했습니다.", "howTheyOvercameKo": "자동차·산업용 이미지 센서로 매출 비중을 옮기기 시작했습니다.", "lessonKo": "단일 다운스트림(스마트폰 카메라) 의존도가 사이클 리스크와 직결됩니다."},
+    {"year": 2022, "descriptionKo": "본인 자산이 1년 만에 809억 위안에서 362억 위안으로 55% 증발했습니다.", "howTheyOvercameKo": "신규 사업 가이던스 발신과 단계적 자사주 매입으로 시장 신뢰를 회복했습니다.", "lessonKo": "주식 중심 자산은 산업 사이클과 1대1로 연동됩니다."},
+    {"year": 2019, "descriptionKo": "옴니비전 인수 직전 1차 시도(2016)가 자금 부족으로 무산됐습니다.", "howTheyOvercameKo": "2017년 상장 후 자본을 캐피털라이즈하고 다시 도전해 인수에 성공했습니다.", "lessonKo": "큰 인수합병은 한 번 실패해도 자본을 갖추면 재도전이 가능합니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2017, "netWorth": "$0.5B", "sourceKo": "상장 직후 추정"},
+    {"year": 2021, "netWorth": "$12.5B", "sourceKo": "옴니비전 효과 정점 (약 809억 위안)"},
+    {"year": 2022, "netWorth": "$5.3B", "sourceKo": "사이클 하강 (약 362억 위안)"},
+    {"year": 2026, "netWorth": "$4.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["칭화 공대 출신", "유통→IC 설계 전환", "옴니비전 인수", "정치 자본 보유", "사이클 변동 경험"],
+  "characterKo": {
+    "strengths": "칭화 공대 학맥과, 부품 유통상으로 자본을 쌓아 자체 IC 설계 회사로 도약한 카테고리 전환 본능, 그리고 옴니비전 인수로 글로벌 빅3에 진입한 인수합병 결단력이 강점입니다.",
+    "weaknesses": "스마트폰 단일 다운스트림 의존도가 매우 높고, 미·중 반도체 규제 사정권에 있는 카테고리라 지정학 변수가 만년의 가장 큰 위험입니다.",
+    "motivation": "닝보 출신 칭화 공대 졸업생이 중국 자체 이미지 센서 글로벌 1위를 만들겠다는 산업 사명과, 정치 자본을 본인 사업의 정책 수혜로 환원하겠다는 정체성 의식이 동력입니다.",
+    "legacy": "중국 자수성가 반도체 1세대의 표본입니다. 부품 유통상에서 글로벌 이미지 센서 빅3로 도약한 카테고리 전환 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gyeong-In day pillar (autumn metal on tiger wood) and Myo month branch combine into a sharp, externally-flowing profile. The format that channels wealth through stable assets matches a 30-year arc of joining Inspur in 1990, founding component distribution in 1998, founding Will Semi in 2007, the 2017 IPO, and the 2019 OmniVision acquisition.",
+    "summaryKo": "일주는 경인이라 가을 큰 쇠가 호랑이의 자리 나무 위에 놓인 형국으로, 단단한 쇠가 외부 자원의 흐름을 끌어들이는 자리입니다. 월지 묘는 봄 나무의 자리라 일간이 외부 자원을 본인 자본으로 변환하는 통로 역할을 합니다. 격국은 안정적으로 자산을 쌓는 격국이라, 1990년 칭화 졸업, 1998년 부품 유통 창업, 2007년 자체 IC 설계 전환, 2017년 상장, 2019년 옴니비전 인수, 2024년 시진핑 좌담회 참석까지 모두 '단단히 쌓은 자본을 다음 카테고리로 옮긴다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.scmp.com/tech/big-tech/article/3299331/who-yu-renrong-chinas-only-chip-industry-representative-xi-jinpings-symposium",
+    "https://www.digitimes.com/news/a20250226PD223/will-semi-founder-china-semiconductors-2024.html",
+    "https://baike.baidu.com/en/item/Yu%20Renrong/654218"
+  ]
+}

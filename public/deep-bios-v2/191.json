@@ -1,0 +1,74 @@
+{
+  "id": 191,
+  "name": "Zou Zhinong",
+  "nameKo": "주진옹",
+  "birthday": "1968-04-01",
+  "birthPlace": "Jiangxi, China",
+  "birthPlaceKo": "중국 장시성",
+  "netWorth": "$14.4B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "신축",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "장시성에서 태어났습니다. 학력은 지린공대 기계 설계 학사(1987 입학·1991 졸업)로, 후일 칭화대 용접 기술 인증을 받았습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 기계 엔지니어 출신이 광통신 부품의 카테고리 도약으로 부를 만든 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/TFC_Communication"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1991년 쓰핑 풍기 공장에서 엔지니어로 출발해 2001년 쑤저우 광통신 회사 기술 매니저로 이직, 2005년 동료 주궈둥과 쑤저우 천부 정밀 세라믹(현 천부 통신)을 공동 창업했습니다. 2015년 선전 창업판 상장 후 2023년 AI 데이터 센터 광 모듈 수요 폭증으로 자산이 폭발했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://realtimebillionaires.de/profile/zou-zhinong"]
+  },
+  "careerTimeline": [
+    {"year": 1991, "event": "Graduates Jilin University of Technology, joins Siping fan factory", "eventKo": "지린공대 졸업 후 쓰핑 풍기 공장 기술자로 입사 — 팬 CAD 프로젝트로 성 과학기술상 수상", "whyItMatteredKo": "엔지니어 정체성과 정밀 가공 역량이 형성된 시기입니다. 후일 세라믹 정밀 부품 사업의 기술 토대가 만들어진 출발점입니다."},
+    {"year": 2001, "event": "Joins Suzhou Haoyi Digital Network as technical manager", "eventKo": "쑤저우 호이 디지털 네트워크 기술 매니저로 이직, 광통신 산업 가능성 포착", "whyItMatteredKo": "기계 엔지니어에서 광통신 부품 분야로 커리어를 피벗한 결정적 전환점입니다."},
+    {"year": 2004, "event": "Founds Suzhou Mingzhan Technology", "eventKo": "쑤저우 공업원구에 밍잔 과기 공정 설립 — 광통신 시스템 사업", "whyItMatteredKo": "독립 창업으로 진입한 분기점입니다. 이듬해 천부 정밀 세라믹의 모체가 됐습니다."},
+    {"year": 2005, "event": "Co-founds Suzhou Tianfu Precision Ceramics with Zhu Guodong", "eventKo": "주궈둥과 공동으로 쑤저우 천부 정밀 세라믹 창업, 회장·CEO·수석 엔지니어 겸직", "whyItMatteredKo": "일본 교세라가 독점하던 세라믹 페룰 영역에 정면 도전한 결단입니다. 국산화·수입 대체 정책 흐름과 맞물린 진입입니다."},
+    {"year": 2015, "event": "IPO on Shenzhen ChiNext (300394)", "eventKo": "선전 창업판 상장 (300394)", "whyItMatteredKo": "자본 시장 진입으로 광 모듈 회사 공급 체인에서 지위가 확장된 분기점입니다."},
+    {"year": 2023, "event": "AI datacenter optical demand explosion drives revenue +62%, profit +81%", "eventKo": "AI 데이터 센터 광 모듈 수요 폭발로 매출 62%·순이익 81% 급증", "whyItMatteredKo": "엔비디아·구글 옵티컬 인터커넥트 수요의 간접 수혜가 본인 자산 144억 달러 진입의 직접 계기가 된 사건입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2001, "eventKo": "기계 엔지니어에서 광통신 부품으로 커리어 피벗", "impactKo": "신축 일주의 단단한 쇠 기질이 다음 카테고리로 자기 결과물을 옮긴 결정적 결단입니다."},
+    {"year": 2005, "eventKo": "주궈둥과 천부 정밀 세라믹 공동 창업", "impactKo": "큰 외부 자원의 흐름이 일본 독점 영역의 국산화로 발현된 분기점입니다."},
+    {"year": 2023, "eventKo": "AI 데이터 센터 광 모듈 수요 폭발로 자산 144억 달러 진입", "impactKo": "단일 카테고리 18년 누적이 글로벌 AI 트렌드 직격 수혜로 환원된 만년의 가장 큰 흐름입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전 상장사 천부 통신(300394) 본인 가족 지분에서 나오는 주가 가치가 핵심입니다. 광 페룰·아이솔레이터·렌즈 어레이·파이버 어셈블리가 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "2005년 일본 독점 영역 국산화 진입, 2015년 상장, 2023~2024년 AI 데이터 센터 광 모듈 수요 폭증이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "일본 교세라 독점 영역의 국산화 1세대라는 정치 자본, 그리고 AI 데이터 센터 옵티컬 인터커넥트 직격 수혜 카테고리 위치가 강점입니다.",
+    "currentAssetAllocationKo": "천부 통신 지분이 자산의 절대 비중. 단일 회사 단일 카테고리 의존도가 매우 높은 구조입니다."
+  },
+  "failures": [
+    {"year": 2005, "descriptionKo": "창업 초기 세라믹 페룰 양산 수율 확보가 어려워 일본 교세라 등 선두사 대비 기술·신뢰성 격차로 초기 수년간 적자가 이어졌습니다.", "howTheyOvercameKo": "2009년 국가 혁신 기금 지원을 받아 R&D를 가속하고 가격·납기 경쟁력을 확보했습니다.", "lessonKo": "고객 인증 사이클이 긴 부품 산업에서는 초기 적자를 견디는 자본과 인내가 필수입니다."},
+    {"year": 2018, "descriptionKo": "5G 투자 사이클 둔화로 광 부품 수요가 일시 정체됐습니다. 중국 통신 장비 자본 지출 둔화가 직접 원인입니다.", "howTheyOvercameKo": "데이터 센터·AI 카테고리로 매출 비중을 옮기는 작업을 미리 시작했습니다.", "lessonKo": "통신 장비 사이클 의존도가 높은 비즈니스는 다음 카테고리 준비가 곧 보험입니다."},
+    {"year": 2022, "descriptionKo": "미·중 반도체·광 부품 규제가 심화되면서 미국 데이터 센터 고객 대상 수출 통제 우려가 상존하게 됐습니다.", "howTheyOvercameKo": "고객 다변화와 비미국 시장 확장으로 정책 리스크 분산을 가속하고 있습니다.", "lessonKo": "지정학 리스크가 핵심 부품 회사 밸류에이션의 디스카운트 요인입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.5B", "sourceKo": "선전 창업판 상장 직후 추정"},
+    {"year": 2021, "netWorth": "$2B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$8B", "sourceKo": "후룬 글로벌 부호"},
+    {"year": 2026, "netWorth": "$14.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["기계 엔지니어 출신", "일본 독점 영역 국산화", "AI 트렌드 직격 수혜", "단일 카테고리 18년 집중", "수석 엔지니어 겸직"],
+  "characterKo": {
+    "strengths": "기계 엔지니어 출신의 정밀 가공 본능과, 일본 독점 영역에 정면 도전한 카테고리 도약 본능이 강점입니다. AI 데이터 센터 트렌드를 본업이 직접 받는 카테고리 위치에 18년을 쏟은 끈기도 핵심입니다.",
+    "weaknesses": "단일 회사 단일 카테고리 의존도가 매우 높고, 미·중 수출 통제 사정권에 있는 광 부품 카테고리라는 지정학 변수가 만년의 가장 큰 위험입니다.",
+    "motivation": "장시 농촌 출신 엔지니어가 일본 독점 영역을 국산화하겠다는 산업 사명과, 단일 카테고리 글로벌 1위가 되겠다는 정체성 의식이 동력입니다.",
+    "legacy": "중국 광통신 부품 국산화 1세대의 표본입니다. 일본 교세라 독점 영역에 18년 집중해 AI 시대 직격 수혜로 144억 달러대 자산을 만든 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Chuk day pillar (autumn metal on ox earth) and Myo month branch combine into a quietly hardened, externally-flowing profile. The format that channels wealth through external resources matches a 30-year arc from Jilin University engineer in 1991 to founding Tianfu in 2005, the 2015 Shenzhen IPO, and the 2023 AI optical demand explosion.",
+    "summaryKo": "일주는 신축이라 가을 쇠가 소의 자리 흙 위에 놓인 형국으로, 단단한 쇠 기질이 흙으로 단단히 가둬진 자리입니다. 월지 묘는 봄 나무의 자리라 일간이 외부 자원의 흐름을 끌어들이는 통로가 됩니다. 격국은 큰 외부 자원의 흐름이라, 1991년 엔지니어 출발, 2001년 광통신 피벗, 2005년 일본 독점 영역 국산화 진입, 2015년 상장, 2023년 AI 광 모듈 폭증까지 모두 '외부 산업 흐름이 본인 단일 카테고리 누적을 144억 달러로 환원한다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/profile/zou-zhinong/",
+    "https://realtimebillionaires.de/profile/zou-zhinong",
+    "https://en.wikipedia.org/wiki/TFC_Communication",
+    "https://www.moomoo.com/news/post/37827784/the-two-men-behind-the-little-giant"
+  ]
+}

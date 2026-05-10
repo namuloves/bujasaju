@@ -1,0 +1,74 @@
+{
+  "id": 312,
+  "name": "Pang Kang",
+  "nameKo": "팡캉",
+  "birthday": "1956-01-19",
+  "birthPlace": "Foshan, Guangdong, China",
+  "birthPlaceKo": "중국 광둥성 포산",
+  "netWorth": "$10.2B",
+  "nationality": "CN",
+  "industry": "Food & Beverage",
+  "gender": "M",
+  "ilju": "을유",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "광둥성 포산에서 태어났습니다. 학력은 공개되지 않았고, 26세에 포산 주강간장공장(하이톈의 전신)에 부공장장으로 합류한 것이 사회 출발점입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 국유 식품 공장 매니저에서 사유화 핵심 주역으로 변신해 오너가 된 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Pang_Kang"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1982년 부공장장으로 합류해 1988년 부총경리, 1995년 집체기업의 유한회사 전환에 핵심 역할을 했고 6만 달러 출자로 주주가 됐습니다. 2014년 상하이증권거래소 상장으로 'A주 간장왕'에 등극했습니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://www.bloomberg.com/profile/person/17582403"]
+  },
+  "careerTimeline": [
+    {"year": 1982, "event": "Joins Foshan Zhujiang Soy Sauce Factory as deputy manager", "eventKo": "26세에 포산 주강간장공장 부공장장 합류", "whyItMatteredKo": "국영 식품 공장 경영진 진입의 출발점입니다. 평생 한 산업에 몰입하는 시작입니다."},
+    {"year": 1988, "event": "Becomes deputy GM after factory restructuring", "eventKo": "공장 구조조정 후 하이톈 부총경리 취임", "whyItMatteredKo": "계획 경제에서 시장 경제 전환기 경영자로 자리잡은 시기입니다."},
+    {"year": 1995, "event": "Converts collective enterprise to limited company, becomes shareholder with $60K stake", "eventKo": "집체기업을 유한회사로 전환하며 6만 달러 출자 주주 등극", "whyItMatteredKo": "관리자에서 오너십 보유 기업가로 변신한 결정적 분기점입니다."},
+    {"year": 2014, "event": "Foshan Haitian IPO on Shanghai Stock Exchange", "eventKo": "상하이증권거래소 상장 — 시총 약 500억 위안", "whyItMatteredKo": "조미료 단일 품목으로 대형 상장사를 만들어 27억 달러 자산가에 등극한 시기입니다."},
+    {"year": 2021, "event": "Forbes net worth peaks near $34B", "eventKo": "포브스 추정 자산 343억 달러 정점", "whyItMatteredKo": "중국 소비주 거품기 절정에서 음식료 1위 부호로 자리잡은 시기입니다."},
+    {"year": 2022, "event": "'Double standards' additive scandal wipes ~$8B in market cap", "eventKo": "이중 표준 첨가물 스캔들로 시총 약 80억 달러 증발", "whyItMatteredKo": "단일 SNS 이슈가 거대 소비 기업을 흔들 수 있다는 사례를 남긴 사건입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "집체기업의 유한회사 전환에 핵심 역할, 6만 달러 출자 주주 등극", "impactKo": "을유 일주의 가을 나무가 외부 자본 흐름을 본인 오너십으로 끌어들인 결정적 결단입니다."},
+    {"year": 2014, "eventKo": "상하이증권거래소 상장으로 자산가치 시장 평가", "impactKo": "외부 자원의 흐름이 자본 시장 가치로 환원된 분기점입니다."},
+    {"year": 2022, "eventKo": "이중 표준 첨가물 스캔들로 시총 80억 달러 증발", "impactKo": "외부 흐름이 본인을 키웠다 깎아내는 격국의 양면성이 드러난 사건입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 상장사 포산 하이톈 미식업 본인 가족 지분에서 나오는 주가 가치와 배당이 핵심입니다. 간장이 매출의 절대 비중입니다.",
+    "wealthAcceleratorsKo": "1995년 사유화 출자, 2014년 상장, 2018~2021년 중국 소비주 거품기 주가 폭등이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "중국 간장 시장 1위 지위와 5,000개 이상 유통 채널, 그리고 자녀 없는 단순 가족 구조가 강점입니다.",
+    "currentAssetAllocationKo": "포산 하이톈 가족 지분이 자산의 절대 비중입니다."
+  },
+  "failures": [
+    {"year": 2022, "descriptionKo": "일본 수출용은 무첨가, 중국 내수용은 첨가물 다량 사용한다는 SNS 폭로가 확산됐습니다.", "howTheyOvercameKo": "공식 해명문을 발표했지만 오히려 소비자 무지 프레임으로 읽혀 2차 폭락을 겪었고, 이후 첨가물 표기 강화로 점진적으로 신뢰를 회복하고 있습니다.", "lessonKo": "내수와 수출 표준 차이는 정보 평등 시대에 즉시 신뢰 위기로 전환됩니다."},
+    {"year": 2022, "descriptionKo": "위기 대응 PR이 방어적 언어로 작성되어 분노를 증폭시켰습니다.", "howTheyOvercameKo": "이후 외부 PR 컨설팅을 강화하고 위기 커뮤니케이션 매뉴얼을 정비했습니다.", "lessonKo": "위기 PR에서 방어적 언어는 분노를 증폭시킵니다."},
+    {"year": 2023, "descriptionKo": "성장 둔화와 신선식품·즉석식품 대체재 부상으로 매출이 정체됐습니다.", "howTheyOvercameKo": "프리미엄 라인과 해외 수출 비중을 늘려 카테고리 보존을 시도하고 있습니다.", "lessonKo": "단일 카테고리 1위는 카테고리 자체가 위축될 때 가장 취약합니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2014, "netWorth": "$2.5B", "sourceKo": "상장 직후 추정"},
+    {"year": 2018, "netWorth": "$7.2B", "sourceKo": "포브스 중국 부호 35위"},
+    {"year": 2021, "netWorth": "$34.3B", "sourceKo": "포브스 추정 정점"},
+    {"year": 2026, "netWorth": "$10.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["국유 공장 출신", "사유화 핵심 주주", "간장 단일 품목 1위", "이중 표준 스캔들", "조용한 가장"],
+  "characterKo": {
+    "strengths": "국유 식품 공장 매니저에서 사유화 핵심 주주로 변신한 협상력과, 단일 조미료 품목으로 대형 상장사를 만든 집중력이 강점입니다.",
+    "weaknesses": "단일 카테고리(간장) 의존도가 매우 높고, 위기 PR에서 방어적 대응이 시장 신뢰에 추가 부담을 주는 구조입니다.",
+    "motivation": "포산 출신 식품 공장 매니저가 중국 간장 시장 1위 자리를 본인 세대에서 만들겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "중국 식음료 자수성가 1세대의 표본입니다. 국유 공장 사유화의 핵심 주역으로 단일 조미료 카테고리를 글로벌 1위 회사로 키운 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Eul-Yu day pillar (autumn wood on rooster metal) and Chuk month branch combine into a quietly externally-flowing profile. The format that channels wealth through external resources matches a 40-year arc from joining the state factory in 1982 to the 1995 privatization, the 2014 IPO, and the 2022 'double standards' scandal.",
+    "summaryKo": "일주는 을유라 가을 작은 나무가 닭의 자리 쇠 위에 놓인 형국으로, 부드러운 나무가 단단한 쇠에 깎여 결과물로 환원되는 자리입니다. 월지 축은 한겨울 흙의 자리라 일간을 단단히 가둬 외부 자원의 흐름을 안으로 끌어들이는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1982년 국유 공장 부공장장 합류, 1995년 사유화 핵심 주주 등극, 2014년 상장, 2022년 이중 표준 스캔들까지 모두 '외부 자원이 본인 자본으로 흘러들어 한 번에 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pang_Kang",
+    "https://www.bloomberg.com/profile/person/17582403",
+    "https://www.sixthtone.com/news/1011352",
+    "https://www.yicaiglobal.com/news/haitian-sinks-as-chinese-soy-sauce-maker-is-caught-in-double-standards-dilemma"
+  ]
+}

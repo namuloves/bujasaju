@@ -1,0 +1,75 @@
+{
+  "id": 3401,
+  "name": "Jay Park",
+  "nameKo": "박재범",
+  "birthday": "1987-04-25",
+  "birthPlace": "Edmonds, Seattle, Washington, USA",
+  "birthPlaceKo": "미국 워싱턴주 시애틀 에드먼즈",
+  "netWorth": "$0B",
+  "nationality": "KR",
+  "industry": "Entertainment",
+  "gender": "M",
+  "ilju": "갑진",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "한국계 이민자 가정의 시애틀 출생으로 한국·미국 양 문화 자원이 평생 사업의 기반이 됐습니다. 학력은 에드먼즈우드웨이 고등학교, 비보이 크루 'Art of Movement' 공동 창립으로 이어집니다. 2005년 17세에 JYP 엔터테인먼트 연습생으로 서울에 왔습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 아티스트로 시작해 레이블·주류 회사 창업으로 사업가로 정체성을 확장한 인물입니다. 포브스 빌리어네어즈 등재 자산은 아니고 추정 자산은 5천만~1억 달러 수준입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Jay_Park"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2008년 2PM 리더로 데뷔, 2009년 마이스페이스 사태로 한국 활동 4년 공백을 거쳐 2013년 AOMG, 2017년 H1ghr Music, 2017년 Roc Nation 계약, 2022년 More Vision과 원소주를 차례로 창업했습니다. 2023년 미국 TA 벤처스가 원소주에 약 5백만 달러 가치로 전략 투자했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://en.wikipedia.org/wiki/AOMG"]
+  },
+  "careerTimeline": [
+    {"year": 2005, "event": "Auditions for JYP, moves to Seoul as trainee", "eventKo": "JYP 오디션 합격, 17세에 서울 이주", "whyItMatteredKo": "미국 출신이 한국 산업 시스템 내부로 진입한 출발점입니다."},
+    {"year": 2009, "event": "MySpace controversy, leaves 2PM, returns to Seattle", "eventKo": "마이스페이스 글 번역 사태로 2PM 탈퇴, 시애틀 귀환", "whyItMatteredKo": "최대 위기이자 시스템 밖으로 밀려나며 독립 노선의 씨앗이 형성된 사건입니다."},
+    {"year": 2013, "event": "Founds AOMG label", "eventKo": "AOMG 힙합 레이블 설립", "whyItMatteredKo": "아티스트에서 사업가로 정체성을 옮긴 분기점입니다."},
+    {"year": 2017, "event": "Signs with Roc Nation; co-founds H1ghr Music", "eventKo": "Jay-Z의 Roc Nation 계약, H1ghr Music 공동 설립", "whyItMatteredKo": "글로벌 메이저 자본과 미국 시장에 정식으로 진입한 분기점입니다."},
+    {"year": 2022, "event": "Launches Won Soju Feb 25, founds More Vision", "eventKo": "원소주 출시(2월 25일), 모어 비전 설립", "whyItMatteredKo": "엔터테인먼트에서 소비재(주류)로 사업 영역을 확장한 결정적 결단입니다."},
+    {"year": 2023, "event": "TA Ventures invests in Won Spirits", "eventKo": "미국 TA 벤처스가 원 스피리츠에 전략 투자", "whyItMatteredKo": "한국 주류 브랜드가 미국 자본을 끌어들인 사건입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2009, "eventKo": "마이스페이스 사태로 2PM 탈퇴, 4년 공백", "impactKo": "갑진 일주의 직진성이 시스템 의존을 끊고 독립 노선의 씨앗을 만든 결정적 사건입니다."},
+    {"year": 2013, "eventKo": "AOMG 레이블 설립으로 아티스트에서 사업가로 전환", "impactKo": "큰 외부 자원의 흐름이 본인 결과물을 만드는 자리로 발현된 분기점입니다."},
+    {"year": 2022, "eventKo": "원소주 출시 — 엔터에서 소비재 카테고리 도약", "impactKo": "한·미 양 문화 자원이 K-주류라는 한 카테고리로 통합된 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "원 스피리츠(원소주) 지분, 모어 비전 지분, AOMG·H1ghr Music 어드바이저 자산이 핵심입니다. 음원·로열티·라이브 공연 수익이 보조 통로입니다.",
+    "wealthAcceleratorsKo": "2017년 Roc Nation 계약, 2022년 원소주 출시(첫해 600만 병 판매), 2023년 TA 벤처스 전략 투자가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한·미 양 문화 자원, Roc Nation 글로벌 네트워크, 그리고 한국 주류 시장의 K-소주 트렌드 직격 수혜 위치가 강점입니다.",
+    "currentAssetAllocationKo": "원 스피리츠와 모어 비전 지분이 자산의 양대 비중. AOMG·H1ghr Music에서는 어드바이저로만 남았습니다."
+  },
+  "failures": [
+    {"year": 2009, "descriptionKo": "마이스페이스 글 번역 논란으로 2PM에서 탈퇴, JYP 계약 해지, 미국 귀환으로 한국 활동에 4년 공백이 생겼습니다.", "howTheyOvercameKo": "시애틀 귀국 기간 동안 본인 음악과 비보이 트랙을 다지고 2010년 사이더스 HQ 계약으로 솔로로 복귀했습니다.", "lessonKo": "시스템 의존을 끊고 자기 레이블과 자기 IP를 만드는 동기가 됐습니다."},
+    {"year": 2014, "descriptionKo": "초기 AOMG 인지도 부족과 자금 부족으로 운영이 어려웠습니다. 본인 출연료로 회사 운영을 보전한 시기입니다.", "howTheyOvercameKo": "단계적 외부 자본 유치와 소속 아티스트 라인업 강화로 통과했습니다.", "lessonKo": "아티스트와 경영자의 분리, 외부 자본 유치 필요성을 학습한 시기입니다."},
+    {"year": 2021, "descriptionKo": "AOMG·H1ghr Music CEO를 사임했고 일부 소속 아티스트가 이탈한 시기와 겹쳤습니다. 운영 부담과 창작 충돌이 직접 원인입니다.", "howTheyOvercameKo": "스케일 운영보다 IP·브랜드 중심 모델로 전환해 모어 비전과 원소주를 만들었습니다.", "lessonKo": "스케일 운영보다 본인이 잘하는 IP·브랜드에 집중하는 모델이 더 안정적입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2017, "netWorth": "$0.01B", "sourceKo": "Roc Nation 계약 직후 추정"},
+    {"year": 2022, "netWorth": "$0.03B", "sourceKo": "원소주 출시 직후 추정"},
+    {"year": 2024, "netWorth": "$0.05B", "sourceKo": "원 스피리츠 가치 평가 기준"},
+    {"year": 2026, "netWorth": "$0.08B", "sourceKo": "포브스 등재 추정 기준"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["한·미 이중 정체성", "비보이 출신", "Roc Nation 첫 한국인", "원소주 창업", "IP 브랜드 전환"],
+  "characterKo": {
+    "strengths": "한·미 양 문화 자원, 비보이·랩·소주까지 카테고리를 넓혀가는 도약 본능, 그리고 마이스페이스 사태 같은 시스템 충돌을 독립 자본으로 환원한 위기 활용력이 강점입니다.",
+    "weaknesses": "여전히 빌리어네어 임계치 미달이고, 단일 인물(본인) 의존도가 높은 사업 구조입니다.",
+    "motivation": "한국계 미국인의 정체성을 K-팝과 K-소주 양면에서 글로벌 무대에 입증하겠다는 의식이 동력입니다.",
+    "legacy": "한국계 미국인이 K-팝 시스템에 진입했다 시스템 밖으로 밀려나 자기 레이블과 K-소주 브랜드를 만든 보기 드문 사례입니다. 한·미 크로스 문화 자본의 표본입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gap-Jin day pillar (spring wood on dragon earth) and Jin month branch combine into a tall, well-rooted, output-focused profile with strong external-resource flow. The format that channels wealth through external resources matches a 20-year arc from JYP trainee in 2005, the 2009 MySpace incident, AOMG in 2013, Roc Nation in 2017, and Won Soju in 2022.",
+    "summaryKo": "일주는 갑진이라 봄 큰 나무가 용의 자리 흙 위에 직립한 형국으로, 직립한 나무가 단단한 흙 위에서 결과물을 키우는 자리입니다. 월지 진은 같은 봄 흙의 자리라 일간을 두 겹의 흙으로 단단히 받쳐줍니다. 격국은 큰 외부 자원의 흐름이라, 2005년 미국 출신으로 한국 시스템 진입, 2009년 시스템 밖으로 밀려나 독립 노선의 씨앗 형성, 2013년 AOMG 창업, 2017년 Roc Nation 계약, 2022년 원소주로 한·미 자원을 통합한 카테고리 도약까지 모두 '외부 자원의 흐름이 본인 결과물로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jay_Park",
+    "https://en.wikipedia.org/wiki/AOMG",
+    "https://elle.com.sg/life-culture/exclusive-jay-park-interview-aomg-won-soju-october-cover-2025/",
+    "https://hypebeast.com/2022/3/jay-park-won-soju-launch-interview-aomg-h1ghr-music",
+    "https://koreatechdesk.com/k-hip-hop-star-jay-parks-soju-venture-gets-strategic-investment-from-american-firm"
+  ]
+}

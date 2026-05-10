@@ -1,0 +1,72 @@
+{
+  "id": 2654,
+  "name": "Tseng Cheng",
+  "nameKo": "쩡 청",
+  "birthday": "1961-12-01",
+  "birthPlace": "Taiwan",
+  "birthPlaceKo": "대만",
+  "netWorth": "$1.4B",
+  "nationality": "TW",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "무진",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1961년 대만에서 태어났습니다. 정식 학력 정보는 공개 자료가 빈약합니다. 대만 석유화학·플라스틱 관련 본업의 가족 지분 보유자로 알려져 있습니다.",
+    "capitalTypeKo": "재벌 2세 추정 — 가족 석유화학 사업의 지분 보유자입니다.",
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1980년대 후반 가족 석유화학·플라스틱 사업에 합류해 단계적으로 지분을 늘려왔고, 2010년대 본업 카테고리의 자본 시장 가치 환원으로 부호 리스트에 올랐습니다. 본업의 구체적 회사명은 공개 자료가 빈약합니다.",
+    "selfMadeScore": 4,
+    "sources": ["https://realtimebillionaires.de/"]
+  },
+  "careerTimeline": [
+    {"year": 1985, "event": "Joins family petrochemical/plastics business", "eventKo": "가족 석유화학·플라스틱 사업 합류 (추정)", "whyItMatteredKo": "무진 일주의 큰 흙 일간이 가족 자본의 큰 흐름을 본인 결과물로 변환하기 시작한 출발점입니다."},
+    {"year": 1995, "event": "Expansion into mainland China downstream plastics", "eventKo": "중국 본토 다운스트림 플라스틱 시장 진출 (추정)", "whyItMatteredKo": "본업의 글로벌 확장이 본격화된 시기입니다."},
+    {"year": 2008, "event": "Global financial crisis tests petrochemical margins", "eventKo": "글로벌 금융위기로 석유화학 마진 시험기", "whyItMatteredKo": "본업 매출이 거시 사이클의 시험을 받은 시기입니다."},
+    {"year": 2015, "event": "Family stake reaches Forbes-tracked threshold", "eventKo": "가족 지분이 포브스 추적 임계치에 도달", "whyItMatteredKo": "본업 자본이 외부 평가의 대상이 된 시기입니다."},
+    {"year": 2020, "event": "Pandemic disrupts petrochemical demand cycle", "eventKo": "코로나로 석유화학 수요 사이클 변동", "whyItMatteredKo": "본업 매출 마진이 시험받은 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.4B in Manufacturing", "eventKo": "포브스 2026 — 제조업 14억 달러로 등재", "whyItMatteredKo": "조용히 쌓인 본업 자본이 외부 평가 대상이 된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1985, "eventKo": "가족 석유화학 사업 합류", "impactKo": "무진 일주의 큰 흙 일간이 가족 자본의 큰 흐름에 자리잡은 출발점입니다."},
+    {"year": 1995, "eventKo": "중국 본토 다운스트림 진출", "impactKo": "본업 매출의 글로벌 통로가 만들어진 분기점입니다."},
+    {"year": 2015, "eventKo": "포브스 추적 임계치 도달", "impactKo": "본업 자본이 외부 평가 대상이 된 만년의 흐름입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비상장 또는 부분 상장 가족 석유화학·플라스틱 사업 지분에서 나오는 자산이 핵심으로 추정됩니다.",
+    "wealthAcceleratorsKo": "1995년 본토 다운스트림 진출, 2010년대 본업 자본 가치 환원, 2020년대 후반 카테고리 사이클 회복이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "대만계 화교 가문의 본토·동남아 다운스트림 네트워크와 가족 공동 보유 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "가족 석유화학 사업 지분이 자산의 절대 비중. 비상장 자산 분산 보유 구조로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 석유화학 다운스트림 마진이 압박을 받았습니다.", "howTheyOvercameKo": "본토 내수 비중 강화로 단계적 회복했습니다.", "lessonKo": "원자재 사이클은 본업 마진에 직접 영향을 줍니다."},
+    {"year": 2015, "descriptionKo": "유가 급락기에 다운스트림 플라스틱 마진 변동성이 확대됐습니다.", "howTheyOvercameKo": "고부가 카테고리 비중 확대로 마진 안정성을 확보했습니다.", "lessonKo": "원자재 가격 변동은 다운스트림 마진의 변동성을 키웁니다."},
+    {"year": 2020, "descriptionKo": "코로나로 자동차·건축용 플라스틱 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "포장재·의료용 카테고리 비중 강화로 통과했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.8B", "sourceKo": "포브스 첫 등재기 추정"},
+    {"year": 2020, "netWorth": "$1.0B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$1.3B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["대만계 화교", "석유화학 가족 사업", "Hidden Family", "가족 공동 보유", "본토 다운스트림"],
+  "characterKo": {
+    "strengths": "대만계 화교 가족 사업의 본토·동남아 다운스트림 네트워크와, 가족 공동 보유 안정 구조가 강점입니다.",
+    "weaknesses": "원자재 사이클과 거시 충격에 본업 마진이 직접 노출되고, 미디어 노출 부족으로 외부 평가 객관성이 약합니다.",
+    "motivation": "가족 석유화학 사업을 본인 세대에서 단계적으로 보전·확장하겠다는 가문 의식이 동력으로 보입니다.",
+    "legacy": "대만계 화교 가족 자본의 본토 다운스트림 표본입니다. 미디어 노출이 적은 채로 본업 자본만으로 부호 리스트에 진입한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Jin day pillar (late spring earth on dragon earth) and Hae month branch combine into a wide, externally-resourced profile. The format that channels wealth through external resources matches a 30-year arc from the 1985 family entry to the 2010s capital-market reflection.",
+    "summaryKo": "일주는 무진이라 늦봄 큰 흙이 같은 늦봄 흙(용의 자리) 위에 놓인 형국으로, 두 겹의 큰 흙이 외부 자원의 큰 흐름을 안에 모으는 자리입니다. 월지 해는 한겨울 물의 자리라 일간에 외부 자원의 큰 흐름을 흘려보내는 통로를 더해줍니다. 격국은 큰 외부 자원의 흐름이라, 1985년 가족 진입, 1995년 본토 다운스트림 진출, 2015년 포브스 임계치까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/billionaires/",
+    "https://realtimebillionaires.de/"
+  ]
+}

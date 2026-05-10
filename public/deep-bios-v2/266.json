@@ -1,0 +1,75 @@
+{
+  "id": 266,
+  "name": "Wang Laisheng",
+  "nameKo": "왕라이성",
+  "birthday": "1964-12-14",
+  "birthPlace": "Chenghai, Shantou, Guangdong, China",
+  "birthPlaceKo": "중국 광둥성 산터우 청하이",
+  "netWorth": "$11.2B",
+  "nationality": "HK",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "정유",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "광둥성 산터우 청하이의 화이쩌촌에서 태어났습니다. 공식 고등 교육 기록은 없고, 1980년대 중반부터 일용 잡화 도소매업을 시작했습니다. 여동생 왕라이춘이 폭스콘 라인에서 일하던 1990년대 후반 가족 분업 구조가 만들어졌습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 상업·자본 담당의 형이 폭스콘 출신 여동생과 함께 만든 가족 분업 모델입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Luxshare"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1985년부터 산터우에서 일용 잡화 도소매로 자본을 쌓았고, 1999년 홍콩 럭스셰어 지분을 인수해 발판을 만든 뒤 2004년 여동생 왕라이춘과 럭스셰어 정식 설립, 본인은 부회장에 취임했습니다. 2010년 선전 SME 상장, 2017년 에어팟 양산, 2020년 위스트론 쿤산 공장 인수로 아이폰 조립까지 진출했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.forbes.com/profile/wang-laisheng/"]
+  },
+  "careerTimeline": [
+    {"year": 1985, "event": "Begins commodity trading in Shantou", "eventKo": "산터우에서 일용 잡화 도소매업 시작 — 10여 년 상업 경험 축적", "whyItMatteredKo": "공장 출신 여동생과 다른 본인 영역(상업·자본·관계망)이 만들어지기 시작한 시기입니다."},
+    {"year": 1997, "event": "Sister Wang Laichun leaves Foxconn", "eventKo": "여동생 왕라이춘 폭스콘 퇴사 — 남매 공동 창업 준비", "whyItMatteredKo": "폭스콘 OEM 노하우와 본인 상업 자본이 결합된 결정적 시점입니다."},
+    {"year": 1999, "event": "Acquires Hong Kong Luxshare", "eventKo": "홍콩 럭스셰어 지분 인수", "whyItMatteredKo": "이미 존재한 케이블 회사를 발판 삼아 자생 창업 리스크를 최소화한 결정입니다."},
+    {"year": 2004, "event": "Co-founds Luxshare Precision Industry", "eventKo": "럭스셰어 정밀 인더스트리 정식 설립, 부회장 취임", "whyItMatteredKo": "중국 본토 기반 컴퓨터 커넥터·케이블 사업이 본격화된 분기점입니다."},
+    {"year": 2010, "event": "IPO on Shenzhen Stock Exchange SME board", "eventKo": "선전 SME 상장 (002475)", "whyItMatteredKo": "남매 동시 자수성가 빌리어네어 등극과 중국 부호 명단 첫 진입의 사건입니다."},
+    {"year": 2020, "event": "Acquires Wistron Kunshan plant for iPhone assembly", "eventKo": "위스트론 쿤산 공장 인수로 아이폰 조립 진출", "whyItMatteredKo": "애플의 폭스콘 의존도 낮추기 전략의 최대 수혜자로 럭스셰어가 격상된 결정적 사건입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1999, "eventKo": "홍콩 럭스셰어 지분 인수로 발판 확보", "impactKo": "정유 일주의 화 일간이 외부 압력(폭스콘 의존)을 본인 자본으로 변환한 출발점입니다."},
+    {"year": 2017, "eventKo": "애플 에어팟 양산 시작", "impactKo": "단순 케이블에서 완제품 어셈블리로 카테고리를 한 단계 올린 분기점입니다. 도전·압력을 자본으로 변환하는 흐름의 정점입니다."},
+    {"year": 2020, "eventKo": "위스트론 쿤산 공장 인수로 아이폰 조립 진출", "impactKo": "애플의 폭스콘 대안 공급사 자리를 차지한 만년의 가장 큰 베팅입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전 상장사 럭스셰어 정밀 본인·여동생 가족 지분에서 나오는 주가 가치가 핵심입니다. 케이블·커넥터·에어팟·아이폰·비전 프로 조립이 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "2004년 정식 설립, 2010년 상장, 2017년 에어팟 양산, 2020년 위스트론 인수가 자본 가치 가속의 네 단계입니다.",
+    "structuralAdvantagesKo": "여동생 왕라이춘의 폭스콘 OEM 노하우와 본인의 상업 자본이 결합된 가족 분업 구조, 그리고 애플의 폭스콘 의존도 낮추기 전략의 최대 수혜자 자리가 강점입니다.",
+    "currentAssetAllocationKo": "럭스셰어 정밀 가족 지분이 자산의 절대 비중. 베트남·인도 거점 확장이 다음 단계 분산 통로입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "리튬·디스플레이 등 신사업 진출 시도가 일부 부진했고 애플 비중 의존도 비판이 지속되고 있습니다.", "howTheyOvercameKo": "본업 어셈블리 카테고리에 자본을 다시 집중시키고 자동차 전장으로 다음 카테고리를 준비했습니다.", "lessonKo": "단일 고객(애플) 의존이 동시에 단기 성장의 엔진이라는 양면성이 있습니다."},
+    {"year": 2022, "descriptionKo": "미·중 무역 긴장과 아이폰 출하 둔화로 EMS 마진 압박이 발생했습니다.", "howTheyOvercameKo": "수직 통합과 자체 솔루션 회사 전환으로 마진을 보강했습니다.", "lessonKo": "조립업의 박한 마진 구조에서는 수직 통합이 곧 생존입니다."},
+    {"year": 2024, "descriptionKo": "애플 인도 이전과 폭스콘 인도 증설 가속으로 중국 EMS 거점 우위가 약해지고 있습니다.", "howTheyOvercameKo": "베트남·인도 거점 확보를 가속화해 지정학 리스크에 대비하고 있습니다.", "lessonKo": "차세대 생존 조건은 단일 본거지가 아니라 다국가 거점입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.5B", "sourceKo": "상장 직후 가족 합산 추정"},
+    {"year": 2019, "netWorth": "$5B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$5B", "sourceKo": "에어팟·아이폰 조립 동력"},
+    {"year": 2026, "netWorth": "$11.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["남매 분업 모델", "애플 공급망 핵심", "폭스콘 대안 EMS", "산터우 상인 정신", "본거지 분산"],
+  "characterKo": {
+    "strengths": "여동생 왕라이춘의 폭스콘 OEM 노하우와 본인의 상업 자본이 결합된 가족 분업 구조, 그리고 단순 케이블에서 아이폰 조립까지 카테고리를 단계적으로 끌어올린 끈기가 강점입니다.",
+    "weaknesses": "애플 단일 고객 의존도가 매우 높고, 애플의 인도 이전 흐름에서 본거지 우위가 약해지고 있습니다.",
+    "motivation": "산터우 상인 출신이 글로벌 EMS 1위가 되겠다는 자수성가 야망과, 폭스콘 대안이라는 자리를 본인 세대에서 확정하겠다는 정체성 의식이 동력입니다.",
+    "legacy": "중국 EMS 산업의 폭스콘 대안 1세대를 만든 인물입니다. 남매 공동 창업으로 단순 케이블 회사를 글로벌 아이폰 조립사로 끌어올린 보기 드문 가족 분업 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Yu day pillar (summer fire on rooster metal) and Ja month branch combine into a sharp, externally-pressured profile. The format that channels wealth through external pressure matches a 25-year arc of acquiring Hong Kong Luxshare in 1999, founding Luxshare Precision in 2004, the 2010 IPO, the 2017 AirPods pivot, and the 2020 Wistron acquisition.",
+    "summaryKo": "일주는 정유라 한여름 화 일간이 닭의 자리 쇠 위에 놓인 형국으로, 화의 표현력이 단단한 쇠에 깎여 결과물로 환원되는 자리입니다. 월지 자는 한겨울 물의 자리라 일간을 끊임없이 시험하는 외부 압력 통로입니다. 격국은 도전·압력을 자본으로 변환하는 흐름이라, 1999년 홍콩 럭스셰어 발판 확보, 2004년 정식 설립, 2010년 상장, 2017년 에어팟 양산, 2020년 위스트론 인수까지 모두 '외부 압력(폭스콘 의존)을 본인 자본으로 변환한다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/profile/wang-laisheng/",
+    "https://realtimebillionaires.de/profile/wang-laisheng",
+    "https://www.bloomberg.com/billionaires/profiles/laisheng-wang/",
+    "https://en.wikipedia.org/wiki/Luxshare",
+    "https://appleinsider.com/articles/23/10/23/how-luxshare-went-from-minor-manufacturer-to-major-iphone-supplier"
+  ]
+}

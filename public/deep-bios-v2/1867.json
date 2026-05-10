@@ -1,0 +1,74 @@
+{
+  "id": 1867,
+  "name": "Hermanto Tanoko",
+  "nameKo": "헤르만토 타노코",
+  "birthday": "1962-09-17",
+  "birthPlace": "Malang, East Java, Indonesia",
+  "birthPlaceKo": "인도네시아 동자바 말랑",
+  "netWorth": "$2.2B",
+  "nationality": "ID",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "무오",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "동자바 말랑의 가난한 화교 가정에서 5남매 중 막내로 태어났습니다. 1.5미터 곱하기 9미터 닭장을 개조한 임대집에서 자랐고, 14세에 부모로부터 약국·페인트 가게 운영을 일임받았습니다. 학력은 수라바야 STIE IBMT 경영학입니다.",
+    "capitalTypeKo": "사실상 자수성가 — 부친이 1978년 페인트 회사 PT Avia Avian을 세웠지만 본인이 키운 회사는 따로입니다.",
+    "sources": ["https://id.wikipedia.org/wiki/Hermanto_Tanoko"]
+  },
+  "capitalOrigin": {
+    "type": "mixed",
+    "typeKo": "혼합",
+    "descriptionKo": "부친이 만든 Avia Avian(인도네시아 페인트 2위)에 가족 지분이 있고, 본인은 2003년 생수 사업 클레오와 2016년 개인 지주 Tancorp를 세워 8개 서브홀딩 그룹을 만들었습니다. 형제 공동 가업과 본인 제국을 분리한 구조입니다.",
+    "selfMadeScore": 6,
+    "sources": ["https://www.cnbcindonesia.com/market/20230914120351-17-472423/profil-hermanto-tanoko-crazy-rich-pemilik-avian-dan-cleo"]
+  },
+  "careerTimeline": [
+    {"year": 1976, "event": "Manages family pharmacy and paint store at age 14", "eventKo": "14세에 부모로부터 약국·페인트 가게 운영 일임", "whyItMatteredKo": "10대에 이미 실전 경영을 익힌 시기입니다. 무오 일주의 강한 실행력이 일찍부터 발현됐습니다."},
+    {"year": 1978, "event": "Father founds PT Avia Avian paint factory", "eventKo": "부친이 시도아르조에 PT Avia Avian 설립 — 가업 본격 출범", "whyItMatteredKo": "이후 헤르만토 부의 핵심 엔진이 만들어진 시점입니다."},
+    {"year": 2003, "event": "Founds CLEO bottled water company", "eventKo": "생수 회사 PT 사리구나 프리마티르타(클레오) 설립", "whyItMatteredKo": "페인트 외 첫 본인 주도 신사업입니다. 형제 공동 가업과 별도 자기 영토를 만들기 시작한 분기점입니다."},
+    {"year": 2016, "event": "Establishes Tancorp as personal holding", "eventKo": "개인 지주회사 Tancorp 설립", "whyItMatteredKo": "8개 서브홀딩으로 사업 영토를 확장한 본인 제국의 토대입니다."},
+    {"year": 2017, "event": "CLEO IPO on Indonesia Stock Exchange", "eventKo": "클레오 인도네시아 거래소 상장", "whyItMatteredKo": "본인이 키운 첫 회사가 자본 시장에서 가치를 평가받은 분기점입니다."},
+    {"year": 2021, "event": "Avia Avian IPO raises ~Rp5.7 trillion", "eventKo": "Avia Avian IPO — 약 5.7조 루피아 조달", "whyItMatteredKo": "가족 자산이 시가화되며 포브스 순위가 급등한 결정적 사건입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1976, "eventKo": "14세 약국·페인트 가게 운영 일임 — 화교 막내가 가족 사업 한 축을 일찍 떠맡음", "impactKo": "무오 일주의 실행력이 10대부터 단련된 출발점입니다."},
+    {"year": 2003, "eventKo": "생수 클레오 설립 — 형제 공동 가업과 별도로 본인 제국을 시작", "impactKo": "예리한 결과물의 흐름이 자기 결과물을 직접 만들어 부를 만드는 흐름의 첫 분기점입니다."},
+    {"year": 2016, "eventKo": "Tancorp 지주 설립 — 8개 서브홀딩으로 사업 영토 확장", "impactKo": "본인 결과물이 한 회사에서 다축 그룹으로 확장된 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Avia Avian 가족 지분, 클레오 지분, Tancorp 8개 서브홀딩(제조·식음료·부동산·호텔·리테일·뷰티헬스·유통·F&B) 지분에서 나오는 배당과 주가 가치가 핵심입니다.",
+    "wealthAcceleratorsKo": "2003년 클레오 설립, 2017년 클레오 IPO, 2021년 Avia Avian IPO가 자본 가치의 세 단계 도약을 만들었습니다.",
+    "structuralAdvantagesKo": "8개 서브홀딩 지주 모델이라 한 사업 실패가 전체로 번지지 않습니다. 페인트 영업망을 생수·F&B 유통에 활용한 시너지도 강점입니다.",
+    "currentAssetAllocationKo": "Avia Avian·CLEO 상장 지분과 Tancorp 비상장 지분이 자산의 양대 비중입니다."
+  },
+  "failures": [
+    {"year": 1990, "descriptionKo": "초기 사업 다각화 시도 중 일부 신사업이 실패했습니다. 본인이 '많이 시도하고 많이 실패했다'고 회고합니다.", "howTheyOvercameKo": "본업 페인트 현금 흐름으로 받쳐 모험 자본을 분리 운용했습니다.", "lessonKo": "본업 캐시카우 보호가 다각화의 전제 조건입니다."},
+    {"year": 2003, "descriptionKo": "생수 클레오 초기 유통망과 브랜드 인지도 부족으로 수년간 적자였습니다.", "howTheyOvercameKo": "Avia Avian 페인트 영업망을 활용해 유통을 돌파했습니다.", "lessonKo": "FMCG는 제품보다 유통 인프라가 더 어려운 게임입니다."},
+    {"year": 2010, "descriptionKo": "부동산·호텔 다변화 과정에서 일부 프로젝트 지연과 자금 부담이 발생했습니다.", "howTheyOvercameKo": "Tancorp 지주 모델로 사업별 자본을 분리해 위험을 칸막이로 막았습니다.", "lessonKo": "다각화는 위험 분리 구조 없이는 자본을 갉아먹습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2020, "netWorth": "$0.7B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$1.5B", "sourceKo": "Avia Avian IPO 직후"},
+    {"year": 2024, "netWorth": "$2.1B", "sourceKo": "포브스 인도네시아"},
+    {"year": 2026, "netWorth": "$2.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["10대 실전 경영", "다축 지주 분산", "페인트 유통 시너지", "닭장 출신 서사", "형제 분업"],
+  "characterKo": {
+    "strengths": "10대부터 실전 경영을 한 실행력과, 8개 서브홀딩 지주 모델로 위험을 분리한 구조 설계가 강점입니다.",
+    "weaknesses": "단일 가족 그룹이라 외부 견제가 약하고, 인도네시아 정치·환율 리스크에 직접 노출돼 있습니다.",
+    "motivation": "닭장 임대집에서 태어났다고 닭으로 살 필요 없다는 자존심과, 형제 공동 가업과 별도로 본인 제국을 만들겠다는 정체성 의식이 동력입니다.",
+    "legacy": "인도네시아 'Crazy Rich Surabayan'의 서사를 만든 인물이자, 8개 서브홀딩 지주 모델로 단일 가업을 다축 그룹으로 키운 동남아 화교 자수성가의 표본입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-O day pillar (autumn earth on horse fire) and Yu month branch combine into a fast-burning, hands-on builder. The format that channels wealth through what he personally produces matches a 50-year arc of running the family pharmacy at 14, founding CLEO at 41, and building Tancorp's 8-subsidiary empire at 54.",
+    "summaryKo": "일주는 무오라 가을 흙이 한여름 말의 불 위에 놓인 형국으로, 단단한 흙 기질에 빠른 실행력의 불기운이 합쳐진 자리입니다. 월지 유는 가을 쇠의 자리라 흙 일간이 만들어낸 결과물을 깎아 시장에 내보내는 역할을 합니다. 격국은 자기가 직접 만들어낸 결과물로 부를 빚는 흐름이라, 14세 가족 사업 운영 일임, 2003년 생수 클레오 설립, 2016년 Tancorp 지주 설립, 2021년 Avia Avian IPO까지 모두 '직접 만들어 키운다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://id.wikipedia.org/wiki/Hermanto_Tanoko",
+    "https://www.forbes.com/profile/hermanto-tanoko/",
+    "https://www.cnbcindonesia.com/market/20230914120351-17-472423/profil-hermanto-tanoko-crazy-rich-pemilik-avian-dan-cleo",
+    "https://voi.id/en/economy/103999"
+  ]
+}

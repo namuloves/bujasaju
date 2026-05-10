@@ -1,0 +1,225 @@
+{
+  "id": "2120",
+  "name": "Peter Lim",
+  "nameKo": "피터 림",
+  "birthday": "1953-06-01",
+  "birthPlace": "Singapore",
+  "birthPlaceKo": "싱가포르",
+  "netWorth": "$1.9B",
+  "nationality": "SG",
+  "industry": "Finance & Investments",
+  "gender": "M",
+  "ilju": "계미",
+  "gyeokguk": "편재격",
+  "_notes": "billionaires.json 1953-06-01 vs 영문 위키 1953-05-21 — 11일 차이. 사주 일관성을 위해 1953-06-01 사용.",
+  "childhood": {
+    "summaryKo": "1953년 싱가포르의 부키트호스웨(Bukit Ho Swee) 공공 임대주택 단지에서 태어났습니다. 아버지는 생선 장수, 7남매 중 한 명으로 방 두 개짜리 아파트에서 자랐습니다. 싱가포르 의무복무를 마친 뒤 호주 퍼스의 서호주대학교(University of Western Australia)로 진학. 학비를 직접 벌기 위해 택시기사·요리사·웨이터 등 부업을 병행한 노동자 출신.",
+    "capitalTypeKo": "완전 자수성가 — 생선 장수의 아들, 본인이 노동·증권 중개·단일 투자(Wilmar)로 부를 만든 1세대 자수성가",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Lim",
+      "https://vulcanpost.com/699515/peter-lim-billionaire-singapore/",
+      "https://sybershel.com/peter-lim-billionaire-thanks-to-palm-oil/"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "self-made",
+    "descriptionKo": "재벌·정치 인맥 전무. 호주 대학 졸업 후 싱가포르로 돌아와 1980년대에 인도네시아 큰손 고객 위주 수수료 전업 증권 중개인(remisier)으로 활약 — '레미시어 킹'으로 명성. 1990년대 초 친구 궈쿵홍(Wilmar 창업주)의 팜유 회사 Wilmar International에 약 $1000만 초기 투자. 2010년 Wilmar 주가 정점에서 회수해 약 $15억 현금 확보. 이후 헬스케어(Thomson Medical Group), 부동산(Rowsley Ltd), 스포츠(2014년 발렌시아 CF 인수), 교육으로 분산. Forbes 2024 싱가포르 부자 26위. 본인 직접 운영 회사보다 지분·중개·단일 베팅으로 부를 쌓은 투자가형. Forbes self-made score 10/10.",
+    "selfMadeScore": 10,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Lim",
+      "https://theedgemalaysia.com/article/peter-lim-savvy-investor",
+      "https://feature-asia.com/people/business-leaders/peter-lim-eng-hock/"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1972,
+      "age": 19,
+      "event": "Began National Service in Singapore Armed Forces",
+      "eventKo": "싱가포르 의무복무 시작",
+      "whyItMatteredKo": "노동자 가정 출신의 첫 사회 경험.",
+      "source": "https://en.wikipedia.org/wiki/Peter_Lim"
+    },
+    {
+      "year": 1976,
+      "age": 23,
+      "event": "Started studies at the University of Western Australia in Perth — funded via taxi/cook/waiter work",
+      "eventKo": "호주 서호주대 입학 — 택시·요리·웨이터로 학비 자력 조달",
+      "whyItMatteredKo": "노동·자력의 정체성 형성.",
+      "source": "https://vulcanpost.com/699515/peter-lim-billionaire-singapore/"
+    },
+    {
+      "year": 1980,
+      "age": 27,
+      "event": "Began career as a remisier (commission-only stockbroker) in Singapore",
+      "eventKo": "싱가포르에서 수수료 전업 증권 중개인(레미시어) 시작",
+      "whyItMatteredKo": "본인 자본 없이 시작 가능한 직업으로 자산 형성 입구.",
+      "source": "https://en.wikipedia.org/wiki/Peter_Lim"
+    },
+    {
+      "year": 1985,
+      "age": 32,
+      "event": "Built reputation as 'Singapore's remisier king' serving Indonesian high-net-worth clients",
+      "eventKo": "인도네시아 큰손 고객 기반의 '레미시어 킹' 명성 확립",
+      "whyItMatteredKo": "수수료 누적 + 자산가 네트워크 확보.",
+      "source": "https://theedgemalaysia.com/article/peter-lim-savvy-investor"
+    },
+    {
+      "year": 1991,
+      "age": 38,
+      "event": "Invested ~$10M in Wilmar International, founded by friend Kuok Khoon Hong",
+      "eventKo": "친구 궈쿵홍의 Wilmar International에 약 $1000만 초기 투자",
+      "whyItMatteredKo": "본인 인생 최대 단일 투자. 19년 후 $15억 회수의 시작점.",
+      "source": "https://sybershel.com/peter-lim-billionaire-thanks-to-palm-oil/"
+    },
+    {
+      "year": 1996,
+      "age": 43,
+      "event": "Stepped back from active stockbroking, became full-time private investor",
+      "eventKo": "현역 증권 중개 일선에서 물러나 전업 투자가 전환",
+      "whyItMatteredKo": "수수료 인생에서 자본가 인생으로의 분기점.",
+      "source": "https://en.wikipedia.org/wiki/Peter_Lim"
+    },
+    {
+      "year": 2010,
+      "age": 57,
+      "event": "Cashed out Wilmar International shares at peak commodity prices for ~$1.5B",
+      "eventKo": "팜유 가격 정점에서 Wilmar 지분 회수 — 약 $15억 현금화",
+      "whyItMatteredKo": "20년 보유 단일 투자가 $1000만 → $15억으로 150배. 본인의 본격 빌리어네어 진입.",
+      "source": "https://en.wikipedia.org/wiki/Peter_Lim"
+    },
+    {
+      "year": 2012,
+      "age": 59,
+      "event": "Acquired Thomson Medical Group, Singapore's largest private maternity hospital",
+      "eventKo": "Thomson Medical Group(싱가포르 최대 산부인과 사립 병원) 인수",
+      "whyItMatteredKo": "헬스케어로 자산 분산.",
+      "source": "https://feature-asia.com/people/business-leaders/peter-lim-eng-hock/"
+    },
+    {
+      "year": 2014,
+      "age": 61,
+      "event": "Acquired majority stake in Valencia CF (Spanish La Liga) — Singapore's first major European football ownership",
+      "eventKo": "발렌시아 CF(스페인 라리가) 다수 지분 인수 — 싱가포르 자본의 유럽 축구 첫 인수",
+      "whyItMatteredKo": "스포츠 자산 진출 + 글로벌 브랜드 노출. 후일 본인 평판의 가장 큰 시험대.",
+      "source": "https://e.vnexpress.net/news/sports/football/who-is-peter-lim-billionaire-and-owner-of-spanish-football-club-valencia-4856391.html"
+    },
+    {
+      "year": 2025,
+      "age": 72,
+      "event": "Son Kiat Lim becomes Valencia CF president — generational handover begins",
+      "eventKo": "아들 키엣 림이 발렌시아 CF 회장 취임 — 가문 세대 교체 시작",
+      "whyItMatteredKo": "본인 직접 운영에서 가족 운영으로. 발렌시아 팬 반발 속에서 경영권 유지 시도.",
+      "source": "https://e.vnexpress.net/news/sports/football/who-is-peter-lim-billionaire-and-owner-of-spanish-football-club-valencia-4856391.html"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1991,
+      "ageAtTime": 38,
+      "decisionKo": "친구의 신생 팜유 회사에 본인 자산 대부분을 베팅",
+      "alternativeKo": "분산 투자만 했다면 빌리어네어 진입은 불가능했을 것.",
+      "outcomeKo": "20년 보유 후 $15억 회수 — 본인 인생을 바꾼 단일 베팅."
+    },
+    {
+      "year": 2010,
+      "ageAtTime": 57,
+      "decisionKo": "Wilmar 정점에서 깔끔히 매도",
+      "alternativeKo": "버텼다면 팜유 가격 하락 사이클에서 자산 일부 잃었을 가능성.",
+      "outcomeKo": "$15억 현금 확보 → 헬스케어·스포츠·부동산 분산의 자본 기반."
+    },
+    {
+      "year": 2014,
+      "ageAtTime": 61,
+      "decisionKo": "본인 사업 영역과 무관한 발렌시아 CF 인수",
+      "alternativeKo": "스포츠를 건너뛰고 자산 운용에만 집중했다면 평판 리스크 자체가 없었을 것.",
+      "outcomeKo": "10년 후 발렌시아 팬 'Lim Out' 시위가 본인 글로벌 평판의 핵심 이슈."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Wilmar 회수금 + 헬스케어(Thomson Medical) + 부동산(Rowsley) + 발렌시아 CF 등 자산 운용. 본인이 직접 운영하기보다 지분 + 매수·매도 + 가족 경영 구조.",
+    "wealthAcceleratorsKo": [
+      "1991년 Wilmar 초기 $1000만 투자 → 2010년 $15억 회수",
+      "1980년대 인도네시아 큰손 고객 기반의 레미시어 수수료 누적",
+      "Thomson Medical · Rowsley · Valencia CF 다중 자산"
+    ],
+    "structuralAdvantagesKo": [
+      "노동자 출신의 자력 인생관 — 평생 절제된 운영",
+      "친구·인도네시아 큰손 등 동남아 화교 네트워크",
+      "단일 베팅 + 정점 매도의 타이밍 감각"
+    ],
+    "currentAssetAllocationKo": "헬스케어·부동산·스포츠 분산. 발렌시아는 매년 팬 시위에도 매도 거부 — 자산보다 가족 사업화 의지."
+  },
+  "personalTraitsKo": [
+    "노동자 가정 출신 자수성가",
+    "1980년대 레미시어 킹",
+    "Wilmar 단일 베팅 150배",
+    "발렌시아 CF 오너",
+    "자산가 + 가족 경영"
+  ],
+  "characterKo": {
+    "strengths": "방 두 개 공공임대주택에서 자라 직접 학비를 벌면서 호주 대학을 다닌 자력. 1980년대 본인 자본 없이 수수료 중개로 시작해 1991년 단일 베팅으로 인생을 바꾼 결단. 2010년 정점에서 깔끔하게 매도한 타이밍 감각.",
+    "weaknesses": "발렌시아 CF 10년 운영 동안 강등권 추락과 팬 신뢰 붕괴. 본인 직접 운영 능력보다 지분·베팅에 강한 투자가형 — 운영 회사들의 일관성 부족. 매도 거부의 고집으로 평판 손실 누적.",
+    "motivation": "노동자 가정 출신으로서 자식 세대에 자산·기반을 물려주는 가장형. 동남아 화교 자본가의 정체성 유지.",
+    "legacy": "싱가포르 1세대 자수성가 투자가의 표본. 단 발렌시아 CF 사례는 자산가의 스포츠 진출이 평판 자산을 깎는 케이스 스터디."
+  },
+  "failures": [
+    {
+      "year": 2018,
+      "description": "Valencia CF, acquired in 2014 with promises of revival, declined steadily on the pitch. Fans began regular protests outside the Mestalla stadium with banners reading 'Lim go home'. The club went from Champions League contention and Copa del Rey titles to relegation battles.",
+      "descriptionKo": "2014년 부흥 약속과 함께 인수한 발렌시아 CF가 경기력에서 꾸준히 추락. 팬들은 메스타야 경기장 밖에서 'Lim go home' 현수막을 들고 정기 시위. 챔피언스리그 진출권과 코파델레이 우승을 다투던 클럽이 강등권 다툼으로.",
+      "lesson": "Buying a famous sports club doesn't transfer business credibility — football clubs run on supporter trust, which can't be acquired with cash.",
+      "lessonKo": "유명 스포츠 클럽 인수가 사업 신뢰를 옮겨 주지는 않습니다. 축구 클럽은 팬 신뢰로 움직이고, 그건 현금으로 살 수 없습니다.",
+      "source": "https://www.espn.com/soccer/story/_/id/41931765/las-palmas-win-valencia-home-fans-protest-singapore-owner"
+    },
+    {
+      "year": 2023,
+      "description": "Valencia faced its first relegation threat since 1986. Fan demands for Lim's exit reached an all-time high. Police clashes occurred outside Mestalla during anti-Lim protests.",
+      "descriptionKo": "발렌시아가 1986년 이래 첫 강등 위기. 림 매도 요구가 사상 최고조. 메스타야 외곽에서 반-림 시위 중 경찰 충돌까지 발생.",
+      "lesson": "When the supporter base believes the owner is hostile to the club's heritage, the financial value of the asset dies before the asset itself does.",
+      "lessonKo": "팬덤이 오너를 클럽 유산의 적대자로 인식하면, 자산 자체가 죽기 전에 자산 가치가 먼저 죽습니다.",
+      "source": "https://mothership.sg/2023/02/valencia-protests-peter-lim-again/"
+    },
+    {
+      "year": 2024,
+      "description": "Valencia fans marked the 10th anniversary of Lim's ownership with renewed calls for him to sell. He reportedly refuses to sell until the new Nou Mestalla stadium project completes — leaving fans, media, and creditors in a stalemate.",
+      "descriptionKo": "팬들은 림 인수 10주년을 매도 요구로 맞이. 림은 신축 누 메스타야 경기장 프로젝트 완공 전까지 매도 거부 입장 — 팬·미디어·채권자 모두 교착 상태.",
+      "lesson": "Holding an asset 'until conditions improve' can become a euphemism for losing money slowly. Identifying the exit point is part of the original investment thesis.",
+      "lessonKo": "'조건이 좋아질 때까지' 보유는 천천히 잃는 일의 다른 이름이 될 수 있습니다. 엑싯 시점을 잡는 것도 원래 투자 논리의 일부입니다.",
+      "source": "https://www.scmp.com/sport/football/article/3265306/spanish-la-liga-valencia-fans-mark-10th-year-singaporean-peter-lims-ownership-new-calls-him-sell"
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.5B+ (Wilmar 회수)", "sourceKo": "Wilmar 매각 회수금"},
+    {"year": 2024, "netWorth": "$1.75B", "sourceKo": "Forbes Singapore 50 Richest 2024 (#26)"},
+    {"year": 2025, "netWorth": "$1.9B", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "sajuConnection": {
+    "ilju": "계미",
+    "geokguk": "편재격",
+    "summaryKo": "피터 림의 사주는 계수(작은 물·이슬·새벽 안개) 일간이 미토(늦여름 마른 흙·양) 위에 놓인 계미 일주입니다. 마른 땅을 적시는 이슬이라 작지만 끈질긴 자원의 결인데, 부키트호스웨 공공임대주택의 노동자 아들이 호주에서 택시·웨이터로 학비를 벌며 인생을 시작한 이미지와 정확히 호응합니다. 격국이 편재격(움직이는 큰 자본·중개·딜로 부를 만드는 형식)이라, 1980년대 인도네시아 큰손 고객을 상대한 레미시어 킹 시기, 1991년 친구 회사에 단일 베팅으로 $1000만을 넣어 19년 후 $15억으로 회수한 흐름, 2014년 발렌시아 CF 같은 큰 자산을 사고팔려는 시도가 모두 편재격의 결입니다. 다만 월지가 사화(여름 불)이고 일지가 미토라 화·토가 강해 본인 계수는 약하기에, 발렌시아 인수처럼 본인 직접 운영이 필요한 자산에서는 운영력이 떨어지는 약점도 사주에 함께 새겨져 있습니다.",
+    "interpretationKo": "계미 일주는 마른 흙 위의 이슬이라, 작은 자원이 큰 자산을 적셔 살리는 결. 편재격은 본인 노동보다 자본의 흐름을 읽어 큰 자산을 흡수·매도하는 패턴이라, 림의 평생 패턴인 '단일 베팅 + 정점 매도'와 구조적으로 같습니다.",
+    "keyEvents": [
+      {"year": 1991, "eventKo": "Wilmar $1000만 베팅 — 편재격 단일 자본 흡수의 시작"},
+      {"year": 2010, "eventKo": "Wilmar $15억 회수 — 편재격의 정점 매도 패턴"},
+      {"year": 2014, "eventKo": "발렌시아 CF 인수 — 편재격이 운영력 약한 자산을 만진 사례"}
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Peter_Lim",
+    "https://vulcanpost.com/699515/peter-lim-billionaire-singapore/",
+    "https://sybershel.com/peter-lim-billionaire-thanks-to-palm-oil/",
+    "https://theedgemalaysia.com/article/peter-lim-savvy-investor",
+    "https://feature-asia.com/people/business-leaders/peter-lim-eng-hock/",
+    "https://e.vnexpress.net/news/sports/football/who-is-peter-lim-billionaire-and-owner-of-spanish-football-club-valencia-4856391.html",
+    "https://www.espn.com/soccer/story/_/id/41931765/las-palmas-win-valencia-home-fans-protest-singapore-owner",
+    "https://mothership.sg/2023/02/valencia-protests-peter-lim-again/",
+    "https://www.scmp.com/sport/football/article/3265306/spanish-la-liga-valencia-fans-mark-10th-year-singaporean-peter-lims-ownership-new-calls-him-sell"
+  ]
+}

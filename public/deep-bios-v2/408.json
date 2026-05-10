@@ -1,0 +1,74 @@
+{
+  "id": 408,
+  "name": "You Xiaoping",
+  "nameKo": "유 샤오핑",
+  "birthday": "1958-01-21",
+  "birthPlace": "Wenzhou, Zhejiang, China",
+  "birthPlaceKo": "중국 저장성 원저우",
+  "netWorth": "$8.3B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "무술",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "저장성 원저우에서 태어났습니다. 학력은 중국지질대학 경제학 학사입니다. 15세에 국유 플라스틱 공장에 입사해 18년을 근속하면서 공장장 자리까지 올라간 체제 내 매니저 출신입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 국유 공장 18년 근속 후 자기 거절당한 아이디어를 직접 사업으로 실현한 인물입니다.",
+    "sources": ["https://www.huafeng.com/en/abouthf/history/hfdsj/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1973년 15세에 국유 플라스틱 공장 입사, 1991년 루이안 11호 플라스틱 공장(화펑의 전신)을 창업하며 본격 사업으로 전환했습니다. 1994년 폴리우레탄 진입, 2006년 화펑 케미컬 선전 상장, 2011년 화펑 마이크로파이버 상장, 2020년 상하이 화펑 알루미늄 상장으로 3개 상장사를 거느리는 종합 화학 그룹을 만들었습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.forbes.com/profile/you-xiaoping/"]
+  },
+  "careerTimeline": [
+    {"year": 1973, "event": "Joins state-owned plastic factory at 15", "eventKo": "15세에 국유 플라스틱 공장 입사 — 18년 근속 후 공장장에 도달", "whyItMatteredKo": "체제 내 매니저 경험으로 공정·품질·인사 관리 노하우가 축적된 시기입니다."},
+    {"year": 1984, "event": "Deputy plant manager at Ruian No.7 Plastic Factory", "eventKo": "루이안 7호 플라스틱 공장 부공장장 (~1991)", "whyItMatteredKo": "현장 책임자로 신소재(폴리우레탄) 정보를 흡수했지만 공장에 도입 제안이 거절당한 시기입니다."},
+    {"year": 1991, "event": "Founds Ruian No.11 Plastic Factory (Huafon predecessor)", "eventKo": "루이안 11호 플라스틱 공장 창업 — 빨강·파랑 위빙백 생산", "whyItMatteredKo": "체제 거부에 대응한 본인의 사적 시도입니다. 거절당한 아이디어를 직접 실행한 결정적 분기점입니다."},
+    {"year": 1994, "event": "Enters polyurethane (PU) industry", "eventKo": "폴리우레탄 산업 본격 진출", "whyItMatteredKo": "신발·자동차·가구용 PU 수요 폭발 직전에 진입한 결정입니다. 향후 중국 최대 PU 생산자 자리의 출발점입니다."},
+    {"year": 2006, "event": "Huafon Chemical IPO on Shenzhen Stock Exchange", "eventKo": "화펑 케미컬 선전증권거래소 상장 — 원저우 기반 기업 최초 상장", "whyItMatteredKo": "원저우 사기업 자본 시장 진입 1호의 상징성으로 정부·은행 신뢰도가 급상승한 시기입니다."},
+    {"year": 2020, "event": "Shanghai Huafon Aluminium IPO on Shanghai Exchange", "eventKo": "상하이 화펑 알루미늄 상하이 상장 — 3번째 상장", "whyItMatteredKo": "화학에서 비철 금속까지 다각화가 완성된 만년의 가장 큰 베팅입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1991, "eventKo": "거절당한 아이디어를 직접 실행하기 위해 사적 창업", "impactKo": "무술 일주의 단단한 흙 기질이 체제 안에서의 거절을 사기업 창업으로 환원한 결정적 결단입니다."},
+    {"year": 1994, "eventKo": "폴리우레탄 산업 진출 — PU 수요 폭발 직전 베팅", "impactKo": "안정적으로 자산을 쌓는 격국이 신소재 카테고리의 가장 좋은 진입 시점을 잡은 분기점입니다."},
+    {"year": 2020, "eventKo": "상하이 화펑 알루미늄 상장으로 3번째 상장사 보유", "impactKo": "화학·소재·금속까지 다각화가 완성된 만년의 자본 가치 정점입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전·상하이 상장사 화펑 케미컬, 화펑 마이크로파이버, 상하이 화펑 알루미늄의 가족 지분에서 나오는 주가 가치와 배당이 핵심입니다.",
+    "wealthAcceleratorsKo": "1994년 PU 진입, 2006년 화펑 케미컬 상장, 2011년 마이크로파이버 상장, 2020년 알루미늄 상장이 자본 가치 가속의 네 단계입니다.",
+    "structuralAdvantagesKo": "PU·TPU·스판덱스·마이크로파이버·알루미늄까지 통합한 종합 화학·소재 그룹 구조와, 원저우 사기업 1호 상장이라는 정치 자본이 강점입니다.",
+    "currentAssetAllocationKo": "3개 상장사 가족 지분이 자산의 절대 비중. 자동차·전기차 부품 공급망 확장이 다음 단계 통로입니다."
+  },
+  "failures": [
+    {"year": 1991, "descriptionKo": "국유 공장 시절 폴리우레탄 도입 제안이 경영진에 의해 거절됐습니다. 첫 실패 경험입니다.", "howTheyOvercameKo": "체제 안에서의 거절을 사적 창업으로 환원해 같은 해에 직접 사업을 시작했습니다.", "lessonKo": "체제 안에서의 혁신 시도 실패가 사적 창업으로의 전환을 촉발한 사례입니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 신발·가구용 PU 수출 수요가 급감했고 중국 화학 산업 가동률이 하락했습니다.", "howTheyOvercameKo": "수출 의존을 줄이고 내수 다각화를 가속하는 방향으로 사업 구조를 조정했습니다.", "lessonKo": "수출 의존 화학 산업은 거시 사이클에 매우 민감합니다."},
+    {"year": 2022, "descriptionKo": "MDI·TDI 등 PU 원료 가격이 급등락하면서 마진이 압박을 받았고, 부동산·가구 수요 둔화도 직격탄이 됐습니다.", "howTheyOvercameKo": "알루미늄·신소재로 다각화를 가속해 PU 단일 의존도를 줄이고 있습니다.", "lessonKo": "원료 가격 변동성과 전방 산업 의존도는 다각화로만 풀립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2006, "netWorth": "$1B", "sourceKo": "상장 직후 가족 합산 추정"},
+    {"year": 2020, "netWorth": "$3B", "sourceKo": "3번째 상장 직후 추정"},
+    {"year": 2024, "netWorth": "$7B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$8.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["국유 공장 18년 출신", "원저우 1호 상장", "PU·TPU·알루미늄 통합", "거절당한 아이디어 실현", "3개 상장사 보유"],
+  "characterKo": {
+    "strengths": "국유 공장 18년 근속의 운영 노하우와, 거절당한 아이디어를 사적 창업으로 환원한 위기 활용 본능이 강점입니다. 3개 상장사를 거느린 종합 화학·소재 그룹 구조도 핵심 자산입니다.",
+    "weaknesses": "PU 원료 가격 사이클과 부동산·가구 전방 산업 의존도가 높아 거시 사이클에 매출이 직접 노출됩니다.",
+    "motivation": "원저우 출신 국유 공장 매니저가 거절당한 아이디어를 직접 사업으로 실현하겠다는 자존심과, 사기업 1호 상장이라는 정치 자본을 본인 세대에서 확정하겠다는 정체성 의식이 동력입니다.",
+    "legacy": "원저우 사기업 1세대 자수성가의 표본입니다. 국유 공장 매니저가 거절당한 아이디어를 33년 만에 3개 상장사 종합 화학 그룹으로 키운 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Sul day pillar (early spring earth on dog earth) and Chuk month branch combine into a quietly accumulating, doubly-rooted profile. The format that builds wealth through stable assets matches a 30-year arc from founding Ruian No.11 in 1991 to entering PU in 1994, listing Huafon Chemical in 2006, and the 2020 third IPO completing the diversification.",
+    "summaryKo": "일주는 무술이라 흙 일간이 또 다른 흙(개의 자리) 위에 놓인 형국으로, 한 자리에 단단히 쌓아 가는 흙의 끈기가 두 겹으로 작동하는 자리입니다. 월지 축은 한겨울 흙의 자리라 일간을 한 겹 더 단단히 가둬 안정적 자산 축적의 흐름을 만듭니다. 격국은 안정적으로 자산을 쌓는 격국이라, 1991년 거절당한 아이디어 사적 창업, 1994년 PU 진입, 2006년 화펑 케미컬 상장, 2011년 마이크로파이버 상장, 2020년 알루미늄 상장까지 모두 '한 자리에 단단히 쌓아 안정적 자산 통합으로 환원한다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/profile/you-xiaoping/",
+    "https://realtimebillionaires.de/profile/you-xiaoping",
+    "https://www.huafeng.com/en/abouthf/history/hfdsj/",
+    "http://english.cbcsd.org.cn/aboutcbcsd/leadership/20130805/58779.shtml"
+  ]
+}

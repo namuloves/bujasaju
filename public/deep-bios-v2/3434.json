@@ -1,0 +1,73 @@
+{
+  "id": 3434,
+  "name": "Chung Ji-sun",
+  "nameKo": "정지선",
+  "birthday": "1972-10-20",
+  "birthPlace": "Seoul, South Korea",
+  "birthPlaceKo": "대한민국 서울",
+  "netWorth": "$1.2B",
+  "nationality": "KR",
+  "industry": "Department stores, home-shopping, home-living",
+  "gender": "M",
+  "ilju": "갑신",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1972년 서울에서 태어났습니다. 현대그룹 창업주 정주영의 손자, 현대백화점그룹 창업주 정몽근의 장남으로 가문 3세대입니다. 연세대 사회학과를 거쳐 미국 하버드대 디비전 졸업의 정통 후계자 트랙 출신입니다.",
+    "capitalTypeKo": "재벌 3세대 — 현대백화점그룹 회장으로 가족 자본을 잇는 운영형 후계자입니다.",
+    "sources": ["https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A7%80%EC%84%A0"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1997년 현대백화점 합류, 2007년 35세에 그룹 회장 취임으로 정주영-정몽근 라인을 잇는 가족 자본 운영자가 됐습니다. 본인 세대에서 한섬·리바트·현대그린푸드 등 인수로 카테고리를 라이프스타일로 다각화했습니다.",
+    "selfMadeScore": 2,
+    "sources": ["https://www.hyundaidepartment.com"]
+  },
+  "careerTimeline": [
+    {"year": 1997, "event": "Joins Hyundai Department Store", "eventKo": "현대백화점 합류", "whyItMatteredKo": "갑신 일주의 큰 나무 일간이 가족 자본의 큰 흐름에 자리잡은 출발점입니다."},
+    {"year": 2003, "event": "Hyundai Group split: Department store line consolidates", "eventKo": "현대그룹 가족 분할 정리, 정몽근 라인 백화점 사업 정립", "whyItMatteredKo": "가족 자본이 카테고리별로 환원된 시기입니다."},
+    {"year": 2007, "event": "Becomes Chairman of Hyundai Department Store Group at age 35", "eventKo": "35세에 현대백화점그룹 회장 취임", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 흐름이 본인 결단의 정점으로 환원된 결정적 결단입니다."},
+    {"year": 2012, "event": "Acquires Hansae (Hansam) home-living brand", "eventKo": "한섬 인수로 패션·라이프스타일 카테고리 진입", "whyItMatteredKo": "본업 매출의 카테고리 다각화가 진행된 시기입니다."},
+    {"year": 2018, "event": "Acquires Livart (home-living) and expands premium outlets", "eventKo": "리바트 인수와 프리미엄 아울렛 확장, 라이프스타일 그룹으로 정체성 정립", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2024, "event": "Group revenue passes ₩6T amid premium retail recovery", "eventKo": "현대백화점그룹 연결 매출 6조 원 돌파, 가족 평가 자산 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2007, "eventKo": "35세에 현대백화점그룹 회장 취임", "impactKo": "갑신 일주의 큰 나무 일간이 가족 자본의 큰 흐름을 본인 결단의 정점으로 환원한 결정적 결단입니다."},
+    {"year": 2012, "eventKo": "한섬 인수", "impactKo": "본업 매출의 카테고리 다각화가 진행된 분기점입니다."},
+    {"year": 2018, "eventKo": "리바트 인수와 프리미엄 아울렛 확장", "impactKo": "외부 자원의 큰 흐름이 본업 카테고리로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "코스피 상장사 현대백화점(069960), 현대그린푸드(005440), 한섬(020000), 현대리바트(079430) 등 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2007년 회장 취임, 2012년 한섬 인수, 2018년 리바트 인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 백화점·라이프스타일 카테고리 분산, 정주영-정몽근 라인 가문 3세대 정체성, 그리고 프리미엄 아울렛 통로가 강점입니다.",
+    "currentAssetAllocationKo": "현대백화점그룹 가족 지분이 자산의 절대 비중. 자녀 세대로의 이양은 점진적 진행 중입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 백화점 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "프리미엄 아울렛 카테고리 확장과 단계적 회복으로 통과했습니다.", "lessonKo": "거시 충격은 백화점 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2017, "descriptionKo": "사드(THAAD) 보복으로 중국 관광객 매출이 단기 급감했습니다.", "howTheyOvercameKo": "내수 비중 강화와 카테고리 다각화로 통과했습니다.", "lessonKo": "글로벌 정치 사이클 한 번에 백화점 매출이 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 백화점·아울렛 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "온라인 채널 강화와 라이프스타일 카테고리 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.7B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$1.4B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$0.9B", "sourceKo": "코로나 평가 조정"},
+    {"year": 2026, "netWorth": "$1.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["현대백화점그룹 회장", "정주영 손자", "정몽근 장남", "35세 회장 취임", "한섬·리바트 인수"],
+  "characterKo": {
+    "strengths": "35세에 그룹 회장 취임 후 한섬·리바트 등 인수로 라이프스타일 카테고리까지 확장한 결단력과, 정주영-정몽근 라인 가문 3세대 정체성이 강점입니다.",
+    "weaknesses": "한국 단일 시장과 백화점·아울렛 카테고리 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정주영-정몽근 라인의 가족 자본을 본인 세대에서 라이프스타일 그룹으로 정체성 재편하겠다는 가문 의식이 동력입니다.",
+    "legacy": "한국 재벌 3세대 운영형 후계자의 표본입니다. 백화점에서 한섬·리바트까지 라이프스타일 카테고리로 정체성 재편한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gap-Sin day pillar (early autumn wood on monkey metal) and Sul month branch combine into a tall, externally-pressured profile. The format that channels wealth through external pressure matches a 28-year arc from the 1997 group entry to the 2007 chairmanship and the 2018 lifestyle expansion.",
+    "summaryKo": "일주는 갑신이라 봄 큰 나무가 가을 쇠(원숭이의 자리) 위에 놓인 형국으로, 큰 나무가 단단한 쇠로 다듬어지는 자리입니다. 월지 술은 가을 끝 흙의 자리라 일간을 외부의 단단한 시스템과 결합시키는 통로입니다. 격국은 도전·압력을 자본으로 변환하는 흐름이라, 1997년 그룹 진입, 2007년 회장 취임, 2018년 라이프스타일 확장까지 모두 '외부 압력이 가족 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A7%80%EC%84%A0",
+    "https://www.hyundaidepartment.com",
+    "https://www.dart.fss.or.kr"
+  ]
+}
