@@ -1,0 +1,72 @@
+{
+  "id": 1507,
+  "name": "Lam Kong",
+  "nameKo": "람 콩 (린 강)",
+  "birthday": "1964-06-15",
+  "birthPlace": "Guangdong, China",
+  "birthPlaceKo": "중국 광둥성",
+  "netWorth": "$2.7B",
+  "nationality": "CN",
+  "industry": "Healthcare",
+  "gender": "M",
+  "ilju": "을미",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1964년 광둥성에서 태어났습니다. 정통 학력 정보는 공개 자료가 빈약합니다. 본토 의약품 카테고리에서 본업을 만든 1세대 자수성가형 인물로, 시노바이오팜(China Shineway Pharmaceutical) 또는 유사 본토 제약회사 가족 지분 보유자로 추정됩니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 의약품 카테고리에서 본업을 만든 1세대 인물입니다.",
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년대 후반 광둥성에서 본토 의약품(전통 한약·일반의약품 등) 카테고리 진입으로 출발해 2010년대 본토 의약품 시장 호황기에 본업 매출을 가속, 2010~2020년대에 자본 시장 가치 환원이 진행됐습니다. 비공개 또는 부분 공개 회사 가족 지분 보유자로 추정됩니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://realtimebillionaires.de/"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Begins pharmaceutical business in Guangdong", "eventKo": "광둥성 의약품 사업 진입 (추정)", "whyItMatteredKo": "을미 일주의 작은 나무 일간이 외부의 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2005, "event": "Domestic pharma demand drives capacity buildout", "eventKo": "본토 의약품 시장 호황기, 본업 매출 토대 형성", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2014, "event": "Capital event or domestic listing", "eventKo": "본업 자본 시장 이벤트 또는 본토 상장 (추정)", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 시기입니다."},
+    {"year": 2018, "event": "Domestic pricing reform tests pharma margins", "eventKo": "본토 의약품 약가 인하 정책으로 본업 마진 시험기", "whyItMatteredKo": "본업 매출이 정책 사이클의 시험을 받은 시기입니다."},
+    {"year": 2021, "event": "Pandemic boosts domestic pharma demand", "eventKo": "코로나로 본토 의약품 수요 가속, 본업 매출 정점기", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 흐름이 본업 매출로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $2.7B in Healthcare", "eventKo": "포브스 2026 — 헬스케어 27억 달러로 등재", "whyItMatteredKo": "조용히 쌓인 본업 자본이 부호 리스트에 정식 등재된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "광둥성 의약품 사업 진입", "impactKo": "을미 일주의 작은 나무 일간이 외부의 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2014, "eventKo": "본업 자본 이벤트", "impactKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 분기점입니다."},
+    {"year": 2021, "eventKo": "코로나로 본토 의약품 수요 가속", "impactKo": "외부 압력을 자본으로 변환하는 흐름이 본업 매출로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비공개 또는 부분 공개 본토 의약품 회사 가족 지분에서 나오는 자산이 핵심으로 추정됩니다.",
+    "wealthAcceleratorsKo": "1995년 진입, 2014년 자본 이벤트, 2021년 코로나 가속이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 의약품 카테고리 점유와 미디어 노출 최소화 전략이 강점으로 추정됩니다.",
+    "currentAssetAllocationKo": "본토 의약품 회사 가족 지분이 자산의 절대 비중으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "본토 의약품 약가 인하 정책으로 본업 마진이 압박을 받았습니다.", "howTheyOvercameKo": "고부가 카테고리 비중 강화로 단계적 마진 회복을 시도했습니다.", "lessonKo": "정책 한 번에 카테고리 마진이 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나 1차 락다운으로 일부 의약품 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "이후 코로나 치료제·예방제 수요 가속으로 V자 회복했습니다.", "lessonKo": "거시 충격은 카테고리 구성에 따라 양면적 영향을 줍니다."},
+    {"year": 2024, "descriptionKo": "본토 의약품 가격 경쟁 격화와 외부 평가 변동으로 평가 자산이 단기 시험받았습니다.", "howTheyOvercameKo": "본업 매출 안정성과 단계적 다각화로 통과 중입니다.", "lessonKo": "단일 시장 의존은 정책·경쟁 사이클에 평가가 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$2B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["본토 의약품 1세대", "Hidden Founder", "광둥 출신 추정", "정보 비공개", "미디어 노출 최소화"],
+  "characterKo": {
+    "strengths": "본토 의약품 카테고리에서 본업을 만든 1세대 자수성가 정체성과, 미디어 노출 최소화로 위험 관리에 유리한 점이 강점으로 추정됩니다.",
+    "weaknesses": "본토 의약품 약가 정책 사이클에 본업 매출이 직접 노출되고, 공개 정보 부족으로 외부 평가 객관성이 약합니다.",
+    "motivation": "본토 1세대 의약품 자수성가 정체성과 미디어 노출 최소화를 본인 자산 운용 원칙으로 삼은 의식이 동력으로 보입니다.",
+    "legacy": "중국 본토 의약품 카테고리 가족 자본의 표본입니다. 미디어 노출 적은 채로 본업 자본만으로 부호 리스트에 진입한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Eul-Mi day pillar (early summer small wood on goat earth) and O month branch combine into a softly nourished, externally-pressured profile. The format that channels wealth through external authority matches a 30-year arc from the 1995 entry to the 2014 capital event and the 2021 pandemic peak.",
+    "summaryKo": "일주는 을미라 초여름 작은 나무가 한여름 끝 흙(양의 자리) 위에 놓인 형국으로, 작은 나무가 흙에 단단히 뿌리내린 자리입니다. 월지 오는 한여름 불의 자리라 일간을 외부의 큰 흐름으로 시험하는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1995년 진입, 2014년 자본 이벤트, 2021년 코로나 가속까지 모두 '외부 권위·시스템과의 결합이 본업 자본의 단계적 도약을 만든다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/billionaires/",
+    "https://realtimebillionaires.de/"
+  ]
+}

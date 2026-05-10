@@ -1,0 +1,73 @@
+{
+  "id": 1376,
+  "name": "Yoshiko Mori",
+  "nameKo": "모리 요시코",
+  "birthday": "1940-09-24",
+  "birthPlace": "Tokyo, Japan",
+  "birthPlaceKo": "일본 도쿄",
+  "netWorth": "$3B",
+  "nationality": "JP",
+  "industry": "Real Estate",
+  "gender": "F",
+  "ilju": "경오",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "도쿄에서 태어났습니다. 1960년 모리 미노루(1934~2012)와 결혼해 일본 부동산 거물 모리 다이키치로 가문에 합류한 인물입니다. 학력 정보는 공개 자료가 빈약합니다.",
+    "capitalTypeKo": "재벌 2세 — 남편 모리 미노루 사망 후 모리 빌딩 회장으로 가족 자본을 잇는 운영형 후계자입니다.",
+    "sources": ["https://www.mori.co.jp/en/"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1960년 모리 미노루와 결혼해 가문에 합류, 2012년 남편 사망 후 모리 빌딩 지분을 상속해 2014년 회장직에 취임했습니다. 롯폰기 힐스(2003), 도라노몬 힐스(2014~2023) 등 도쿄 도심 미나토구 대형 복합개발 자산이 자본의 핵심입니다.",
+    "selfMadeScore": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Minoru_Mori"]
+  },
+  "careerTimeline": [
+    {"year": 1960, "event": "Marries Minoru Mori, joins Mori family", "eventKo": "모리 미노루와 결혼, 모리 빌딩 가문에 합류", "whyItMatteredKo": "경오 일주의 큰 쇠 일간이 가문 자산의 흐름에 자리잡은 출발점입니다."},
+    {"year": 1986, "event": "Ark Hills opens — Tokyo's first major mixed-use development", "eventKo": "아크 힐스 준공 — 도쿄 최초 대규모 도심 복합개발", "whyItMatteredKo": "가문 자산 가치가 본격 가속하기 시작한 시기입니다."},
+    {"year": 2003, "event": "Roppongi Hills opens; Mori Art Museum founded", "eventKo": "롯폰기 힐스 개장, 모리 미술관 개관", "whyItMatteredKo": "가문이 도쿄 문화·부동산 상징으로 부상한 결정적 분기점입니다."},
+    {"year": 2012, "event": "Husband Minoru Mori dies; inheritance proceedings begin", "eventKo": "남편 모리 미노루 사망, 모리 빌딩 지분 상속 절차 시작", "whyItMatteredKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 분기점입니다."},
+    {"year": 2014, "event": "Becomes Chairperson of Mori Building Co.", "eventKo": "모리 빌딩 회장 공식 취임, 가족 신탁·지주사 구조 재정비", "whyItMatteredKo": "가문 자산을 본인 세대에서 정식으로 잇는 결정적 결단입니다."},
+    {"year": 2023, "event": "Toranomon Hills Station Tower completed", "eventKo": "도라노몬 힐스 모리 타워 완공, 가문 평가 자산 재상승", "whyItMatteredKo": "만년의 가족 자본 운영 정점 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1960, "eventKo": "모리 미노루와 결혼으로 가문 합류", "impactKo": "경오 일주의 큰 쇠 일간이 가문 자산의 흐름에 자리잡은 결정적 결단입니다."},
+    {"year": 2012, "eventKo": "남편 사망 후 모리 빌딩 지분 상속", "impactKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 분기점입니다."},
+    {"year": 2014, "eventKo": "모리 빌딩 회장 공식 취임", "impactKo": "가문 자산을 본인 세대에서 정식으로 이어받은 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비상장 모리 빌딩 가족 지분과 도쿄 미나토구 일대 롯폰기 힐스·도라노몬 힐스·아크 힐스 임대 수익이 자본의 양대 축입니다.",
+    "wealthAcceleratorsKo": "1986년 아크 힐스, 2003년 롯폰기 힐스, 2014~2023년 도라노몬 힐스 단계적 완공이 자본 가치 가속의 통로입니다.",
+    "structuralAdvantagesKo": "도쿄 미나토구 대형 복합개발 부동산 포트폴리오, 모리 미술관이라는 문화 자본, 그리고 가족 신탁 구조가 강점입니다.",
+    "currentAssetAllocationKo": "비상장 모리 빌딩 가족 지분이 자산의 절대 비중. 장남 모리 쇼이치로 등 자녀 세대로 경영이 점진 이관 중입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 도쿄 오피스 공실률이 상승해 비상장 모리 빌딩 평가 가치가 일시 축소됐습니다.", "howTheyOvercameKo": "장기 임대 계약 비중 강화와 도라노몬 힐스 같은 신규 개발 사업으로 가치를 회복시켰습니다.", "lessonKo": "비상장 부동산 자산도 글로벌 금융 사이클에 직접 노출됩니다."},
+    {"year": 2011, "descriptionKo": "동일본 대지진 직후 도쿄 초고층 안전성 논란으로 롯폰기·아크 힐스 임차 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "내진 보강과 안전 인증 갱신으로 임차 수요를 단계적으로 회복시켰습니다.", "lessonKo": "초고층 부동산은 자연재해 한 번에 임차 수요가 시험받습니다."},
+    {"year": 2020, "descriptionKo": "코로나로 도심 오피스 수요가 둔화돼 모리 빌딩 임대 수익이 압박을 받았고 도라노몬 힐스 차기 단계 일정이 조정됐습니다.", "howTheyOvercameKo": "재택근무 시대의 하이브리드 사무실 수요로 단계적 회복을 진행 중입니다.", "lessonKo": "도심 오피스는 일하는 방식 변화에 직접 노출됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2014, "netWorth": "$3.5B", "sourceKo": "상속 직후 추정"},
+    {"year": 2018, "netWorth": "$4.4B", "sourceKo": "도쿄 부동산 호황기 정점"},
+    {"year": 2021, "netWorth": "$2.9B", "sourceKo": "코로나 평가 하락"},
+    {"year": 2026, "netWorth": "$3.0B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["모리 가문 안주인", "남편 사망 후 회장", "롯폰기 힐스 상속자", "모리 미술관 후원", "조용한 가장"],
+  "characterKo": {
+    "strengths": "1986년 아크 힐스 이후 50년 가까이 도쿄 도심 복합개발 부동산을 본인 세대에서 보전한 끈기와, 모리 미술관이라는 문화 자본을 동시에 운영한 다층 정체성이 강점입니다.",
+    "weaknesses": "비상장 가족 그룹이라 외부 평가가 추정에 의존하고, 도쿄 단일 도시 부동산 의존도가 매우 높습니다.",
+    "motivation": "남편 모리 미노루의 도쿄 도심 복합개발 비전을 본인 세대에서 단계적으로 완성하고 다음 세대(자녀 모리 쇼이치로 등)에 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "일본 부동산 가문 2세대 운영형 후계자의 표본입니다. 도쿄 미나토구 대형 복합개발 자산을 50년에 걸쳐 보전·확장한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Gyeong-O day pillar (autumn metal on horse fire) and Yu month branch combine into a sharply refined, output-focused profile. The format that builds wealth through stable assets matches a 60-year arc from her 1960 marriage to the 2012 inheritance, the 2014 chairmanship, and the 2023 Toranomon Tower completion.",
+    "summaryKo": "일주는 경오라 가을 큰 쇠가 한여름 말의 불 위에 놓인 형국으로, 단단한 쇠가 강한 불에 의해 단단히 다듬어지는 자리입니다. 월지 유는 또 같은 가을 쇠의 자리라 일간을 두 겹의 쇠로 압축합니다. 격국은 안정적으로 자산을 쌓는 격국이라, 1960년 결혼, 1986년 아크 힐스, 2003년 롯폰기 힐스, 2012년 상속, 2014년 회장 취임, 2023년 도라노몬 타워 완공까지 모두 '단단한 가족 자본이 도쿄 도심 복합개발로 단계적으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.mori.co.jp/en/",
+    "https://en.wikipedia.org/wiki/Minoru_Mori",
+    "https://www.bloomberg.com/profile/person/yoshiko-mori"
+  ]
+}

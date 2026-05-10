@@ -1,0 +1,73 @@
+{
+  "id": 3418,
+  "name": "Park Se-chang",
+  "nameKo": "박세창",
+  "birthday": "1975-07-16",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$10M",
+  "nationality": "KR",
+  "industry": "Conglomerate succession",
+  "gender": "M",
+  "ilju": "계해",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1975년 한국에서 태어났습니다. 금호아시아나그룹 박삼구 회장의 장남이고, 가문 3세입니다. 연세대 생화학과를 거쳐 미국 MIT 슬론 MBA를 취득한 정통 후계자 트랙입니다.",
+    "capitalTypeKo": "재벌 3세대 — 금호아시아나 가문의 운영형 후계자 후보였으나 그룹 축소기에 자리잡은 인물입니다.",
+    "sources": ["https://ko.wikipedia.org/wiki/%EB%B0%95%EC%84%B8%EC%B0%BD"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "2002년 그룹 합류, 아시아나IDT 대표를 거쳐 금호건설 사장직을 맡고 있습니다. 부친 박삼구의 그룹 축소기(아시아나항공·금호산업 매각)와 맞물려 가족 자본의 절대 규모는 2000년대 정점 대비 크게 축소된 상태입니다.",
+    "selfMadeScore": 2,
+    "sources": ["https://www.kumhoenc.com"]
+  },
+  "careerTimeline": [
+    {"year": 2002, "event": "Joins Kumho Asiana Group", "eventKo": "금호아시아나그룹 합류", "whyItMatteredKo": "계해 일주의 작은 물 일간이 가족 자본의 큰 흐름에 자리잡은 출발점입니다."},
+    {"year": 2010, "event": "Group enters workout amid construction debt crisis", "eventKo": "금호아시아나그룹 워크아웃 진입, 가족 자본 위기", "whyItMatteredKo": "외부 시스템(금융)이 본업 자본을 한 번에 시험한 분기점입니다."},
+    {"year": 2015, "event": "Asiana IDT (group IT subsidiary) leadership", "eventKo": "아시아나IDT 대표 취임, 그룹 IT 계열사 운영", "whyItMatteredKo": "본업 운영자 정체성이 형성된 시기입니다."},
+    {"year": 2019, "event": "Group sells Asiana Airlines to HDC Hyundai Development", "eventKo": "그룹 아시아나항공을 HDC현대산업개발에 매각 (이후 무산되고 결국 대한항공 인수로 연결)", "whyItMatteredKo": "외부 시스템이 가족 자본을 한 번에 가둔 만년의 가장 큰 사건입니다."},
+    {"year": 2021, "event": "Becomes President of Kumho E&C", "eventKo": "금호건설 사장 취임, 그룹 잔존 본업 운영 잇기", "whyItMatteredKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 결정적 결단입니다."},
+    {"year": 2024, "event": "Kumho E&C navigates Korean construction downturn", "eventKo": "금호건설 한국 건설 부진기 운영, 가족 자본 잔존 보전", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 잔존 본업 자본 보전으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2010, "eventKo": "금호아시아나 워크아웃 진입", "impactKo": "계해 일주의 작은 물 일간이 외부 시스템(금융)에 의해 가족 자본을 시험받은 결정적 결단입니다."},
+    {"year": 2019, "eventKo": "아시아나항공 매각 진행", "impactKo": "외부 시스템이 가족 자본을 한 번에 가둔 분기점입니다."},
+    {"year": 2021, "eventKo": "금호건설 사장 취임", "impactKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "코스피 상장사 금호건설(002990) 가족 지분과 일부 비상장 자산이 자산의 핵심입니다. 그룹 축소기로 절대 규모는 2000년대 정점 대비 크게 축소된 상태입니다.",
+    "wealthAcceleratorsKo": "2002년 그룹 합류, 2015년 아시아나IDT 대표, 2021년 금호건설 사장 취임이 본인 운영자 정체성 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "금호 가문 3세대 정체성, 그룹 잔존 본업 금호건설 운영 권위, 그리고 가족 신탁 잔존 권리가 강점입니다.",
+    "currentAssetAllocationKo": "금호건설 가족 지분과 일부 비상장 자산이 자산의 핵심으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2010, "descriptionKo": "금호아시아나 워크아웃으로 가족 자본의 절대 규모가 사상 최대 폭으로 축소됐습니다.", "howTheyOvercameKo": "단계적 채무 재조정과 일부 계열사 매각으로 통과했습니다.", "lessonKo": "외부 시스템(금융)은 가족 자본의 한 부분을 직접 가둘 수 있습니다."},
+    {"year": 2019, "descriptionKo": "아시아나항공 매각 과정에서 그룹 정체성과 가족 자본의 핵심이 한 번 더 시험받았습니다.", "howTheyOvercameKo": "잔존 본업(금호건설) 중심으로 가족 자본 보전 체제로 전환했습니다.", "lessonKo": "정관(법·금융 시스템)을 다스리지 못한 결과는 가족 자본의 한 부분 손실입니다."},
+    {"year": 2024, "descriptionKo": "한국 건설 부진과 PF 위기로 금호건설 운영이 단기 시험받았습니다.", "howTheyOvercameKo": "보수적 운영과 단계적 안정화로 통과 중입니다.", "lessonKo": "건설 카테고리는 정책·금융 사이클 한 번에 본업이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2008, "netWorth": "$50M", "sourceKo": "그룹 정점기 가족 추정"},
+    {"year": 2015, "netWorth": "$15M", "sourceKo": "워크아웃 후 추정"},
+    {"year": 2022, "netWorth": "$10M", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$10M", "sourceKo": "공시 기반 추정"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["금호건설 사장", "박삼구 장남", "금호 가문 3세", "그룹 축소 시대 운영자", "MIT 슬론 MBA"],
+  "characterKo": {
+    "strengths": "그룹 축소기에서 잔존 본업(금호건설) 운영을 잇는 끈기와, 워크아웃·매각 사이클을 통과한 가족 자본 보전 협상력이 강점입니다.",
+    "weaknesses": "그룹 정체성과 가족 자본의 절대 규모가 정점 대비 크게 축소된 만년 위치이고, 한국 건설 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "부친 박삼구의 가족 자본 잔존을 본인 세대에서 단계적으로 보전하고 다음 세대로 안정화하겠다는 가문 의식이 동력입니다.",
+    "legacy": "한국 재벌 3세대 그룹 축소기 운영형 후계자의 표본입니다. 그룹 핵심 자산이 매각된 후에도 잔존 본업 운영자 정체성을 유지한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Hae day pillar (winter water on pig water) and Mi month branch combine into a deeply gathered, externally-pressured profile. The format that channels wealth through external pressure matches a 22-year arc from the 2002 group entry to the 2010 workout and the 2021 chairmanship of Kumho E&C.",
+    "summaryKo": "일주는 계해라 한겨울 작은 물이 같은 한겨울 물(돼지의 자리) 위에 놓인 형국으로, 두 겹의 물이 깊이로 모이는 자리입니다. 월지 미는 한여름 끝 흙의 자리라 일간을 외부의 큰 흐름으로 시험하는 통로입니다. 격국은 도전·압력을 자본으로 변환하는 흐름이라, 2002년 그룹 진입, 2010년 워크아웃, 2019년 아시아나 매각, 2021년 금호건설 사장 취임까지 모두 '외부 압력이 가족 자본의 단계적 시험과 잔존 보전을 동시에 만든다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%84%B8%EC%B0%BD",
+    "https://www.kumhoenc.com",
+    "https://www.dart.fss.or.kr"
+  ]
+}

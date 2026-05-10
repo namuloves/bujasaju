@@ -1,0 +1,73 @@
+{
+  "id": 2590,
+  "name": "Yuan Zhongxue",
+  "nameKo": "위안중쉐",
+  "birthday": "1955-05-01",
+  "birthPlace": "Qingdao, Shandong, China",
+  "birthPlaceKo": "중국 산둥성 칭다오",
+  "netWorth": "$1.5B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "임술",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "산둥성 칭다오에서 태어났습니다. 학력은 칭다오 화학공업학교 졸업입니다. 1981년 화학 공업부 칭다오 고무공업연구소에 입사한 정부 연구 기관 출신 1세대 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 정부 연구 기관 출신이 글로벌 톱10 타이어 회사를 만든 인물입니다.",
+    "sources": ["https://www.sailungroup.com"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1981년 칭다오 고무공업연구소 입사로 사회 시작, 2002년 사일런(%E8%B5%9B%E8%BD%AE) 전신 군영 고무공업 합자기업 설립을 주도했습니다. 2011년 사일런 진위 상하이 증시 상장과 2015년 EcoPoint 액상황금화 기술 산업화로 자본 가치를 만들었습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://realtimebillionaires.de/profile/yuan-zhongxue"]
+  },
+  "careerTimeline": [
+    {"year": 1981, "event": "Joins Qingdao Rubber Industry Research Institute", "eventKo": "칭다오 화학공업학교 졸업, 칭다오 고무공업연구소 입사", "whyItMatteredKo": "임술 일주의 큰 물 일간이 정부 연구 기관에서 학습 자본을 누적하기 시작한 출발점입니다."},
+    {"year": 2002, "event": "Co-founds Sailun predecessor (Junying Rubber Industry JV)", "eventKo": "사일런 전신 군영 고무공업 합자기업 설립 주도 — 정부 연구원에서 사기업 창업으로 전환", "whyItMatteredKo": "비전형 학습 경로의 격국이 본인 회사로 발현된 결정적 결단입니다."},
+    {"year": 2011, "event": "Sailun Jinyu lists on Shanghai Stock Exchange (601058)", "eventKo": "사일런 진위 상하이 증시 상장 (601058)", "whyItMatteredKo": "10년 누적 결과물이 자본 시장 가치로 환원된 분기점입니다."},
+    {"year": 2015, "event": "Industrializes EcoPoint Liquid Gold (액상황금화) tire technology", "eventKo": "EcoPoint 액상황금화 친환경 타이어 기술 산업화", "whyItMatteredKo": "본업의 기술 차별화 요소가 만들어진 시기입니다."},
+    {"year": 2020, "event": "Vietnam/Cambodia plants help bypass US anti-dumping", "eventKo": "베트남·캄보디아 공장 가동으로 미국 반덤핑 우회, 매출 급성장", "whyItMatteredKo": "외부 압력(반덤핑 관세)을 거점 분산으로 풀어낸 결정적 결단입니다."},
+    {"year": 2024, "event": "Enters global top-10 tire makers; market cap surges", "eventKo": "사일런 글로벌 타이어 매출 톱10 진입, 시가총액 급등", "whyItMatteredKo": "정부 연구원 출신이 글로벌 타이어 톱10에 안착한 만년의 가장 큰 흐름입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2002, "eventKo": "정부 연구원에서 사기업 창업으로 전환", "impactKo": "임술 일주의 큰 물 일간이 학습 자본을 본인 자본으로 변환한 결정적 결단입니다."},
+    {"year": 2015, "eventKo": "액상황금화 기술 산업화로 본업 기술 차별화", "impactKo": "비전형 학습 경로의 격국이 R&D 결과물로 발현된 분기점입니다."},
+    {"year": 2020, "eventKo": "베트남·캄보디아 공장으로 미국 반덤핑 우회", "impactKo": "외부 압력(반덤핑)을 글로벌 거점으로 풀어낸 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 상장사 사일런 그룹(601058) 본인 가족 지분에서 나오는 주가 가치가 핵심입니다. 친환경 타이어와 글로벌 OEM 공급이 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "2002년 창업, 2011년 상장, 2015년 액상황금화 기술 산업화, 2020년 동남아 거점 우회가 자본 가치 가속의 네 단계입니다.",
+    "structuralAdvantagesKo": "정부 연구원 출신의 R&D 자본, 베트남·캄보디아 거점, 그리고 EcoPoint 액상황금화 기술 차별화가 강점입니다.",
+    "currentAssetAllocationKo": "사일런 그룹 가족 지분이 자산의 절대 비중. 베트남·캄보디아 자회사가 글로벌 분산 통로입니다."
+  },
+  "failures": [
+    {"year": 2012, "descriptionKo": "2010년대 초 미국·EU 반덤핑 관세로 북미 직수출이 위축돼 동남아 우회가 강제됐습니다.", "howTheyOvercameKo": "베트남·캄보디아 공장 신설로 우회 거점을 만들고 2020년 본격 매출 회복에 성공했습니다.", "lessonKo": "수출형 제조업은 정치 사이클 한 번에 거점 자체를 옮겨야 합니다."},
+    {"year": 2015, "descriptionKo": "원자재(천연 고무) 가격 변동성으로 2015~2016년 마진이 압박을 받았습니다.", "howTheyOvercameKo": "친환경 액상황금화 같은 기술 차별화로 마진을 보강했습니다.", "lessonKo": "원자재 사이클 의존은 R&D 차별화로만 풀립니다."},
+    {"year": 2018, "descriptionKo": "초기 R&D 중심 노선으로 양산 규모화가 지연돼 중처·링룽 등 경쟁사에 한때 시장 점유율을 뒤처졌습니다.", "howTheyOvercameKo": "동남아 거점 본격 가동과 단계적 양산 확장으로 점유율을 회복했습니다.", "lessonKo": "R&D 우위는 양산 규모화로만 시장 점유율로 환원됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.4B", "sourceKo": "후룬 추정"},
+    {"year": 2020, "netWorth": "$0.7B", "sourceKo": "후룬 추정"},
+    {"year": 2024, "netWorth": "$1.3B", "sourceKo": "포브스·후룬"},
+    {"year": 2026, "netWorth": "$1.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["고무공업연구소 출신", "사일런 창업자", "EcoPoint 액상황금화", "동남아 거점 분산", "글로벌 톱10 타이어"],
+  "characterKo": {
+    "strengths": "정부 연구원 21년의 R&D 자본과, 사기업 창업으로 본인 회사를 글로벌 타이어 톱10으로 키운 끈기, 그리고 동남아 거점 분산으로 정치 사이클을 우회한 위기 관리력이 강점입니다.",
+    "weaknesses": "원자재(천연 고무) 사이클 의존도가 높고, 글로벌 타이어 시장의 미·중 정치 사이클에 매출이 직접 노출됩니다.",
+    "motivation": "칭다오 정부 연구원이 글로벌 타이어 톱10 회사를 만들겠다는 자수성가형 야망과, 정부 연구원 학습 자본을 사기업으로 환원하겠다는 정체성 의식이 동력입니다.",
+    "legacy": "중국 자수성가 타이어 1세대의 표본입니다. 정부 연구원 출신이 사기업으로 글로벌 타이어 톱10에 안착하고 동남아 거점 분산으로 정치 리스크를 우회한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-Sul day pillar (early summer water on dog earth) and Jin month branch combine into a deep, slowly accumulating reservoir profile. The format that channels wealth through unconventional learning matches a 40-year arc from the 1981 research institute to the 2002 founding, the 2011 IPO, and the 2020 Vietnam expansion.",
+    "summaryKo": "일주는 임술이라 봄·여름의 큰 물이 흙(개의 자리) 위에 멈춰 있는 형국으로, 깊고 느린 흐름이 흙에 가둬져 학습 자본으로 모이는 자리입니다. 월지 진은 봄 흙의 자리라 일간을 단단히 가둬 외부 자원의 흐름을 안으로 끌어들이는 통로입니다. 격국은 비전형 학습 경로로 부를 만드는 흐름이라, 1981년 연구원 입사, 2002년 사일런 창업, 2011년 상장, 2015년 액상황금화 산업화, 2020년 동남아 거점까지 모두 '학습된 R&D 자본이 사기업과 글로벌 거점으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.sailungroup.com",
+    "https://realtimebillionaires.de/profile/yuan-zhongxue",
+    "https://www.tirebusiness.com/sailun-eco-point"
+  ]
+}

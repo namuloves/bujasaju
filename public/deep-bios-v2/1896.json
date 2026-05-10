@@ -1,0 +1,73 @@
+{
+  "id": 1896,
+  "name": "Ye Guofu",
+  "nameKo": "예 궈푸",
+  "birthday": "1977-11-01",
+  "birthPlace": "Hubei, China",
+  "birthPlaceKo": "중국 후베이성",
+  "netWorth": "$2.1B",
+  "nationality": "CN",
+  "industry": "Fashion & Retail",
+  "gender": "M",
+  "ilju": "임술",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1977년 후베이성에서 태어났습니다. 어렸을 때부터 광저우 도매시장에서 가족 일을 도왔고, 정통 학력보다 시장 실무 경험이 토대입니다. 2004년 광둥성에서 액세서리 도매 사업으로 자립했고, 2013년 미니소(MINISO)를 창업해 글로벌 라이프스타일 리테일 브랜드로 키웠습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 광저우 도매상 출신으로 미니소를 글로벌 라이프스타일 브랜드로 키운 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Miniso"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2004년 광저우에서 액세서리 도매상 'Aiyaya'를 시작했고, 2013년 미니소를 창업해 일본풍 라이프스타일 디자인+저가 SKU 결합 모델로 글로벌 4,000개+ 매장 체인을 만들었습니다. 2020년 뉴욕증권거래소(MNSO), 2022년 홍콩증권거래소(09896) 듀얼 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.miniso.com"]
+  },
+  "careerTimeline": [
+    {"year": 2004, "event": "Founds Aiyaya accessories chain in Guangzhou", "eventKo": "광저우에서 액세서리 도매 체인 'Aiyaya' 시작", "whyItMatteredKo": "임술 일주의 큰 물 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2013, "event": "Founds MINISO with Japanese designer Miyake Junya", "eventKo": "미야케 준야와 함께 미니소 공동 창업, 일본풍 라이프스타일 디자인 결합", "whyItMatteredKo": "본업의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2018, "event": "MINISO operates 3,000+ stores globally", "eventKo": "글로벌 3,000개+ 매장 운영, 동남아·중남미·유럽 확장", "whyItMatteredKo": "본업 매출의 글로벌 통로가 정점에 도달한 시기입니다."},
+    {"year": 2020, "event": "MINISO IPO on NYSE", "eventKo": "미니소 뉴욕증권거래소 상장(MNSO)", "whyItMatteredKo": "본업 매출이 글로벌 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2022, "event": "Dual primary listing on Hong Kong Exchange", "eventKo": "홍콩증권거래소 듀얼 1차 상장(09896), 글로벌 자본 통로 강화", "whyItMatteredKo": "본업 자본이 글로벌 자본 시장 가치로 한 번 더 환원된 분기점입니다."},
+    {"year": 2024, "event": "MINISO acquires stake in Yonghui Superstores", "eventKo": "미니소가 융후이마트(Yonghui Superstores) 지배 지분 인수, 본업 카테고리 그로서리까지 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2013, "eventKo": "미니소 공동 창업", "impactKo": "임술 일주의 큰 물 일간이 학습된 결과물의 흐름을 본인 카테고리로 환원한 결정적 결단입니다."},
+    {"year": 2020, "eventKo": "미니소 NYSE 상장", "impactKo": "본업 매출이 글로벌 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2024, "eventKo": "융후이마트 지배 지분 인수", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "뉴욕·홍콩 듀얼 상장사 미니소(MNSO/09896) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2013년 미니소 창업, 2020년 NYSE 상장, 2024년 융후이마트 인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 4,000개+ 매장 네트워크, 일본풍 라이프스타일 디자인 정체성, 그리고 듀얼 상장 글로벌 자본 통로가 강점입니다.",
+    "currentAssetAllocationKo": "미니소 가족 지분이 자산의 절대 비중. 융후이마트 인수로 그로서리 카테고리 자본이 추가됐습니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "글로벌 확장 초기에 일본·동남아 일부 매장 운영 적자가 발생했습니다.", "howTheyOvercameKo": "현지 파트너십 강화와 SKU 최적화로 통과했습니다.", "lessonKo": "글로벌 리테일 카테고리는 현지 적응 비용을 동반합니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 매장 운영이 일시 중단됐고 매출이 단기 급락했습니다.", "howTheyOvercameKo": "온라인 채널 강화와 단계적 매장 재개로 V자 회복했습니다.", "lessonKo": "오프라인 리테일 카테고리는 거시 충격에 매출이 직접 노출됩니다."},
+    {"year": 2024, "descriptionKo": "융후이마트 인수 직후 시장 반응이 부정적이어서 미니소 주가가 단기 급락했습니다.", "howTheyOvercameKo": "장기 전략 설명과 단계적 가치 증명으로 통과 중입니다.", "lessonKo": "전략적 인수는 시장의 단기 평가를 동반합니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2018, "netWorth": "$1B", "sourceKo": "포브스 첫 등재"},
+    {"year": 2020, "netWorth": "$2.5B", "sourceKo": "NYSE 상장 직후"},
+    {"year": 2023, "netWorth": "$3.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["미니소 창업주", "광저우 도매상 출신", "일본풍 디자인", "글로벌 4,000매장", "융후이마트 인수"],
+  "characterKo": {
+    "strengths": "광저우 도매상에서 글로벌 4,000개+ 매장 라이프스타일 브랜드를 만든 카테고리 결합 본능과, 듀얼 상장으로 글로벌 자본 통로를 확보한 협상력이 강점입니다.",
+    "weaknesses": "오프라인 리테일 사이클에 본업 매출이 직접 노출되고, 융후이마트 인수 같은 큰 결단은 시장의 단기 평가를 동반합니다.",
+    "motivation": "광저우 시장 도매상 출신이 본인 세대에서 글로벌 라이프스타일 브랜드를 만들겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "중국 본토 1세대 글로벌 리테일 자수성가의 표본입니다. 도매상에서 글로벌 4,000매장 브랜드로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-Sul day pillar (winter water on dog earth) and Sul month branch combine into a deep, externally-resourced, learning-authority profile. The format that channels wealth through learned authority matches a 20-year arc from the 2004 Aiyaya start to the 2013 MINISO founding and the 2020 NYSE listing.",
+    "summaryKo": "일주는 임술이라 한겨울 큰 물이 가을 끝 흙(개의 자리) 위에 놓인 형국으로, 풍부한 물이 단단한 흙에 막혀 깊이로 모이는 자리입니다. 월지 술도 같은 가을 끝 흙의 자리라 일간을 두 겹의 흙으로 단단히 받쳐줍니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 2004년 도매상 시작, 2013년 미니소 창업, 2020년 NYSE 상장까지 모두 '학습된 결과물이 단계적으로 본인 자본으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Miniso",
+    "https://www.miniso.com",
+    "https://www.forbes.com/profile/ye-guofu/"
+  ]
+}

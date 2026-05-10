@@ -1,0 +1,73 @@
+{
+  "id": 3324,
+  "name": "Kim Dong-myung",
+  "nameKo": "김동명",
+  "birthday": "1969-03-01",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$10M",
+  "nationality": "KR",
+  "industry": "Batteries/Energy",
+  "gender": "M",
+  "ilju": "을해",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "1969년 한국에서 태어났습니다. 한양대 화학공학과 학·석사, 한양대 화학공학 박사 학위를 받은 정통 배터리 R&D 출신입니다. 1998년 LG화학 R&D 입사로 출발해 LG에너지솔루션의 1세대 인재가 됐습니다.",
+    "capitalTypeKo": "월급쟁이 CEO — LG에너지솔루션 대표이사 사장으로 가족 지분 없이 임원 보상 구조로 자산을 형성한 인물입니다.",
+    "sources": ["https://www.lgensol.com"]
+  },
+  "capitalOrigin": {
+    "type": "executive",
+    "typeKo": "임원 보상",
+    "descriptionKo": "1998년 LG화학 입사 후 R&D, 생산, 사업 전략 단계를 거쳤고, 2024년 LG에너지솔루션 대표이사 사장에 취임했습니다. 자산은 임원 스톡옵션·연봉·주식보상 누적분이 핵심으로 추정됩니다.",
+    "selfMadeScore": 7,
+    "sources": ["https://en.wikipedia.org/wiki/LG_Energy_Solution"]
+  },
+  "careerTimeline": [
+    {"year": 1998, "event": "Joins LG Chem R&D", "eventKo": "LG화학 연구소 입사, 배터리 R&D 출발", "whyItMatteredKo": "을해 일주의 작은 나무 일간이 학습된 결과물의 흐름에 자리잡은 출발점입니다."},
+    {"year": 2010, "event": "LG Chem signs GM Volt battery deal — Korea's first EV battery anchor", "eventKo": "LG화학이 GM 볼트 배터리 공급 계약 체결, 한국 EV 배터리 시작점", "whyItMatteredKo": "본업 카테고리가 글로벌 EV 시장과 결합한 시기입니다."},
+    {"year": 2017, "event": "Promoted into senior battery business roles", "eventKo": "LG화학 배터리 사업 임원 라인 진입", "whyItMatteredKo": "학습된 권위가 본인 운영 자본으로 환원된 시기입니다."},
+    {"year": 2020, "event": "LG Energy Solution spun off from LG Chem", "eventKo": "LG에너지솔루션 LG화학에서 분사, 단독 회사 설립", "whyItMatteredKo": "본업 카테고리가 단독 회사로 환원된 결정적 분기점입니다."},
+    {"year": 2022, "event": "LG Energy Solution IPOs at KRW 70T market cap", "eventKo": "LG에너지솔루션 코스피 상장, 시가총액 약 70조 원으로 거래 시작", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 분기점입니다."},
+    {"year": 2024, "event": "Becomes CEO of LG Energy Solution", "eventKo": "LG에너지솔루션 대표이사 사장 취임", "whyItMatteredKo": "학습된 권위가 본인 결단의 정점으로 환원된 결정적 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2010, "eventKo": "LG화학 GM 볼트 배터리 공급 계약", "impactKo": "을해 일주의 작은 나무 일간이 학습된 결과물의 흐름에 글로벌 EV 카테고리를 결합한 결정적 결단입니다."},
+    {"year": 2022, "eventKo": "LG에너지솔루션 코스피 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2024, "eventKo": "LG에너지솔루션 대표이사 사장 취임", "impactKo": "학습된 권위가 본인 결단의 정점으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "LG에너지솔루션 임원 연봉, 스톡옵션, 주식보상 누적분이 자산의 핵심입니다. 가족 지분 보유는 거의 없습니다.",
+    "wealthAcceleratorsKo": "2010년 GM 계약, 2020년 분사, 2022년 IPO가 본업 자본 가치 가속의 세 단계였고, 본인 자산은 2024년 대표이사 취임 이후 임원 보상 가속이 시작되는 단계입니다.",
+    "structuralAdvantagesKo": "26년 LG 화학·배터리 R&D 경력, 1세대 EV 배터리 인재 정체성, 그리고 글로벌 OEM 협상 경험이 강점입니다.",
+    "currentAssetAllocationKo": "LG에너지솔루션 임원 보상 누적분과 자사주 매입분이 자산의 핵심으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2017, "descriptionKo": "LG화학 ESS 배터리 연쇄 화재 사고로 한국 ESS 시장이 위축되고 본업 신뢰가 한 차례 시험받았습니다.", "howTheyOvercameKo": "안전 인증 강화와 EV 배터리 비중 강화로 통과했습니다.", "lessonKo": "배터리 카테고리는 안전 사고 한 번에 시장 신뢰가 흔들립니다."},
+    {"year": 2023, "descriptionKo": "미국 IRA 보조금 정책 변동과 글로벌 EV 수요 둔화기로 LG에너지솔루션 시가총액이 정점 대비 큰 폭으로 조정됐습니다.", "howTheyOvercameKo": "원가 경쟁력 강화와 LFP 카테고리 진입으로 단계적 회복을 시도했습니다.", "lessonKo": "정책 사이클은 본업 자본 평가에 직접 영향을 줍니다."},
+    {"year": 2024, "descriptionKo": "EV 캐즘으로 매출 성장률이 둔화되고 일부 북미 공장 가동률이 조정됐습니다.", "howTheyOvercameKo": "원가 절감과 ESS·LFP 카테고리 강화로 단계적 통과 중입니다.", "lessonKo": "캐즘 사이클은 본업 매출보다 자본 시장 평가에 먼저 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2020, "netWorth": "$2M", "sourceKo": "임원 보상 추정"},
+    {"year": 2022, "netWorth": "$5M", "sourceKo": "IPO 후 추정"},
+    {"year": 2024, "netWorth": "$8M", "sourceKo": "대표이사 취임 후 추정"},
+    {"year": 2026, "netWorth": "$10M", "sourceKo": "공시 기반 추정"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["LG에너지솔루션 대표", "26년 LG맨", "배터리 R&D 박사", "1세대 EV 배터리 인재", "월급쟁이 CEO"],
+  "characterKo": {
+    "strengths": "1998년 LG화학 R&D 입사 이후 26년 동안 한 회사에서 R&D, 생산, 사업 전략 전 단계를 거친 학습 깊이와, EV 배터리 1세대 인재 정체성이 강점입니다.",
+    "weaknesses": "가족 지분이 거의 없어 자산 형성이 임원 보상 구조에 의존하고, 글로벌 EV 정책 사이클에 본업 자본 평가가 직접 노출됩니다.",
+    "motivation": "한국 1세대 EV 배터리 인재가 본인 세대에서 LG에너지솔루션을 글로벌 1위로 만들겠다는 산업 의식과 학습된 권위가 동력입니다.",
+    "legacy": "한국 EV 배터리 1세대 학습형 CEO의 표본입니다. 26년을 한 회사에 바친 깊은 학습이 만년의 대표이사 취임으로 환원된 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Eul-Hae day pillar (spring small wood on pig water) and In month branch combine into a quietly nourished, output-focused profile. The format that channels wealth through what he produces matches a 26-year arc from the 1998 LG Chem entry to the 2024 CEO appointment.",
+    "summaryKo": "일주는 을해라 봄 작은 나무가 한겨울 물(돼지의 자리) 위에 놓인 형국으로, 작은 나무가 풍부한 물에 단단히 뿌리내려 결과물로 자라는 자리입니다. 월지 인은 이른 봄 나무의 자리라 일간을 두 겹의 나무로 깊이 다집니다. 격국은 자기가 만들어낸 결과물로 부를 빚는 흐름이라, 1998년 입사, 2010년 GM 계약, 2022년 IPO, 2024년 대표이사 취임까지 모두 '학습된 결과물이 단계적으로 본인 권위로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.lgensol.com",
+    "https://en.wikipedia.org/wiki/LG_Energy_Solution",
+    "https://www.dart.fss.or.kr"
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "2778",
+  "name": "Zhou Chengjian",
+  "nameKo": "저우청젠",
+  "birthday": "1965-04-30",
+  "birthPlace": "Lishui, Zhejiang, China",
+  "birthPlaceKo": "중국 저장성 리수이",
+  "netWorth": "$1.3B",
+  "nationality": "CN",
+  "industry": "Fashion & Retail",
+  "gender": "M",
+  "ilju": "갑인",
+  "gyeokguk": "편관격",
+  "_notes": "billionaires.json 1965-04-30 — 정확한 일자 미상으로 추정. 사주 일관성을 위해 1965-04-30 사용.",
+  "childhood": {
+    "summaryKo": "1965년 저장성 리수이 농촌 마을에서 태어났습니다. 가난한 농부 가정 출신 — 12세에 학교를 그만두고 재단·재봉을 배운 늦깎이 학습자. 18세 이전에 두 번 파산한 경험이 있습니다. 1982년 17세에 작은 의류 사업을 처음 시작했지만 자본·경험 부족으로 실패. 정식 학력 트랙 없이 거리 재단사로 살다가 1990년대 초 원저우로 이주해 본격 사업 재시작.",
+    "capitalTypeKo": "완전 자수성가 — 가족 자본 없음. 12세에 학업 중단, 18세 전 두 번 파산. 본인이 ₩20만 위안 빌려 1995년 미터스본웨이를 다시 창업한 1세대 자수성가",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Zhou_Chengjian",
+      "https://www.scmp.com/magazines/style/celebrity/article/3106068/chinas-answer-hm-fast-fashion-giant-meters/bonwe-was",
+      "https://www.yicaiglobal.com/news/founder-of-chinas-metersbonwe-returns-as-daughter-dumps-troubled-fashion-retailer"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "self-made",
+    "descriptionKo": "12세에 학교 중퇴 → 거리 재단사 → 1982년 17세에 작은 의류 사업 시작 후 두 번 파산 → 1990년대 원저우로 이주 → 1995년 30세에 빌린 ₩20만 위안으로 미터스본웨이(Metersbonwe) 창업. H&M·Zara 같은 외국 브랜드보다 저렴한 가격으로 중국 대학생·신입사원 대상 캐주얼웨어를 공략해 1998년 첫 매장 오픈, 2008년 상하이 A주 상장. 정점 시기 매장 약 1800개. 본인 직접 보유 + 가족 신탁 합산 미터스본웨이(상하이 A주: 002269) 압도적 지배. 2016년 정부 조사로 일시 실종 후 1주일 만에 복귀. 2020년대 들어 회사 위기로 딸 후이루에게 경영 이양했다가 2024년 본인 직접 복귀해 틱톡(더우인)에서 60세 직접 라이브 커머스로 재기 시도. Forbes self-made score 10/10.",
+    "selfMadeScore": 10,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Zhou_Chengjian",
+      "https://www.scmp.com/magazines/style/celebrity/article/3106068/chinas-answer-hm-fast-fashion-giant-meters/bonwe-was",
+      "https://www.yicaiglobal.com/news/metersbonwes-60-year-old-founder-busts-a-move-on-chinas-tiktok-to-revive-fashion-brand"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1977,
+      "age": 12,
+      "event": "Quit school to begin learning the tailoring trade in his Zhejiang village",
+      "eventKo": "12세에 학교 중퇴, 저장 마을에서 재단·재봉 견습 시작",
+      "whyItMatteredKo": "본인 평생 산업의 첫 입구. 학력 트랙 부재의 시작.",
+      "source": "https://www.scmp.com/magazines/style/celebrity/article/3106068/chinas-answer-hm-fast-fashion-giant-meters/bonwe-was"
+    },
+    {
+      "year": 1982,
+      "age": 17,
+      "event": "Opened his first small clothing business; went bankrupt twice before age 18",
+      "eventKo": "17세에 첫 작은 의류 사업 — 18세 전에 두 번 파산",
+      "whyItMatteredKo": "10대에 두 번 무너진 경험이 본인의 평생 위기 대응 학습.",
+      "source": "https://www.scmp.com/magazines/style/celebrity/article/3106068/chinas-answer-hm-fast-fashion-giant-meters/bonwe-was"
+    },
+    {
+      "year": 1990,
+      "age": 25,
+      "event": "Moved from Lishui village to Wenzhou — Zhejiang's commercial hub",
+      "eventKo": "리수이 농촌에서 원저우(저장성 상업 허브)로 이주",
+      "whyItMatteredKo": "본격 사업 재기 무대 이동.",
+      "source": "https://en.wikipedia.org/wiki/Zhou_Chengjian"
+    },
+    {
+      "year": 1995,
+      "age": 30,
+      "event": "Founded Metersbonwe Group with ¥200,000 borrowed capital",
+      "eventKo": "₩20만 위안 빌려서 미터스본웨이 창업",
+      "whyItMatteredKo": "두 번 파산 후 30세 재기. 본인 평생 회사의 출발점.",
+      "source": "https://en.wikipedia.org/wiki/Zhou_Chengjian"
+    },
+    {
+      "year": 1998,
+      "age": 33,
+      "event": "Opened first Metersbonwe retail store in Wenzhou",
+      "eventKo": "원저우에 첫 미터스본웨이 매장 오픈",
+      "whyItMatteredKo": "도매에서 직영 소매로 전환의 시작.",
+      "source": "https://en.wikipedia.org/wiki/Zhou_Chengjian"
+    },
+    {
+      "year": 2008,
+      "age": 43,
+      "event": "Metersbonwe IPO on Shanghai A-share market (002269)",
+      "eventKo": "미터스본웨이 상하이 A주 상장 (002269)",
+      "whyItMatteredKo": "본인 자산이 시장 가치로 환산. 빌리어네어 진입의 출발점.",
+      "source": "https://en.wikipedia.org/wiki/Zhou_Chengjian"
+    },
+    {
+      "year": 2010,
+      "age": 45,
+      "event": "Metersbonwe peak: 1,800 stores nationwide; China's largest casualwear retailer",
+      "eventKo": "미터스본웨이 정점: 전국 1,800개 매장 — 중국 최대 캐주얼웨어 소매업체",
+      "whyItMatteredKo": "오프라인 시대 정점. 직후부터 e-커머스 잠식 시작.",
+      "source": "https://www.chinacenter.net/2017/china-currents/16-2/fast-fashion-pursuit-global-market/"
+    },
+    {
+      "year": 2016,
+      "age": 51,
+      "event": "Briefly disappeared in early January 2016, prompting share suspension; returned to work after one week",
+      "eventKo": "2016년 1월 초 일시 실종, 주식 거래 정지 — 1주일 만에 복귀",
+      "whyItMatteredKo": "중국 반부패 운동 와중 본인 평판 위기. 즉각 복귀로 회사 안정화.",
+      "source": "https://www.cnbc.com/2016/01/18/missing-chinese-billionaire-zhou-chengjian-returns-to-work.html"
+    },
+    {
+      "year": 2020,
+      "age": 55,
+      "event": "Daughter Hu Jiajia took over as Metersbonwe Chair amid company struggles",
+      "eventKo": "회사 부진 속에 딸 후 자자(Hu Jiajia)가 미터스본웨이 회장 인수",
+      "whyItMatteredKo": "본인 운영 일선에서 후퇴. 후계 작업 본격 진행.",
+      "source": "https://www.yicaiglobal.com/news/founder-of-chinas-metersbonwe-returns-as-daughter-dumps-troubled-fashion-retailer"
+    },
+    {
+      "year": 2024,
+      "age": 59,
+      "event": "Daughter handed Metersbonwe back to Zhou Chengjian; he personally went on Douyin (TikTok China) at age 60 to do live-stream commerce",
+      "eventKo": "딸이 미터스본웨이를 다시 저우청젠에게 반환 — 60세 본인이 더우인(틱톡)에 직접 등장해 라이브 커머스 진행",
+      "whyItMatteredKo": "본인 인생의 두 번째 재기 시도. 12세 재단사에서 60세 라이브 커머서까지 평생의 적응력.",
+      "source": "https://www.yicaiglobal.com/news/metersbonwes-60-year-old-founder-busts-a-move-on-chinas-tiktok-to-revive-fashion-brand"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1995,
+      "ageAtTime": 30,
+      "decisionKo": "두 번 파산 후 30세에 빌린 돈으로 다시 의류 사업 재시작",
+      "alternativeKo": "재단사로 머물렀다면 30세 재기 자체가 없었을 것.",
+      "outcomeKo": "13년 만에 상하이 A주 상장 + 매장 1800개의 중국 캐주얼웨어 1위."
+    },
+    {
+      "year": 2010,
+      "ageAtTime": 45,
+      "decisionKo": "오프라인 1800개 매장 정점에서 e-커머스 전환을 본격 안 함",
+      "alternativeKo": "Taobao·Tmall에 일찍 본격 진입했다면 이후 e-커머스 잠식을 방어했을 가능성.",
+      "outcomeKo": "2010년대 후반 매장 점유율 급락 + 회사 위기."
+    },
+    {
+      "year": 2024,
+      "ageAtTime": 59,
+      "decisionKo": "60세에 본인이 직접 더우인 라이브 커머스 진행으로 회사 재기 시도",
+      "alternativeKo": "딸이 계속 운영했다면 회사 정체성 자체가 흐려졌을 가능성.",
+      "outcomeKo": "60세 창업자의 직접 콘텐츠 출연 — 결과는 진행형."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "미터스본웨이(상하이 A주 002269) 본인 + 가족 신탁 합산 지배 지분. 매장 매출 + 더우인·티몰 e-커머스 매출 + 라이브 커머스.",
+    "wealthAcceleratorsKo": [
+      "1990년대 중국 캐주얼웨어 1세대 진입의 마인드셰어",
+      "2008년 A주 상장으로 자산 시장 가치화",
+      "2024년 본인 직접 라이브 커머스의 새 매출 트랙"
+    ],
+    "structuralAdvantagesKo": [
+      "12세 재단사 출신의 의류·재봉 디테일 깊이",
+      "두 번 파산 경험의 위기 대응 학습",
+      "60세에 라이브 커머스에 직접 등장하는 적응력"
+    ],
+    "currentAssetAllocationKo": "미터스본웨이 지분이 자산 핵심. 회사가 점유율 회복기에 있어 자산 가치 변동성 큼."
+  },
+  "personalTraitsKo": [
+    "12세 재단사 출신",
+    "18세 전 두 번 파산",
+    "원저우 자수성가 1세대",
+    "60세 라이브 커머서",
+    "딸에게서 회사 다시 인수"
+  ],
+  "characterKo": {
+    "strengths": "12세에 학업을 그만두고 시작한 재단사 경험 → 18세 전 두 번 파산 → 30세에 다시 일어선 회복 탄력성. 1995년 작은 자본으로 시작해 매장 1800개로 키운 끈기. 60세에 더우인 라이브 커머스에 직접 등장한 적응력. 2016년 일시 실종 후 1주일 만에 복귀한 위기 대응 속도.",
+    "weaknesses": "오프라인 1800개 매장 정점 후 e-커머스 전환의 늦음. 본인 직접 운영 + 가족 운영 + 본인 재복귀의 거버넌스 일관성 부족. 정식 학력 트랙 부재로 글로벌 자본 시장에서의 신뢰도 약함.",
+    "motivation": "12세 재단사에서 60세 라이브 커머서까지 평생 한 산업에서 자기 자리를 만든다는 정체성. 두 번 파산 경험이 만든 위기 본능.",
+    "legacy": "중국 1세대 토종 캐주얼웨어 브랜드 창업자. 18세 전 두 번 파산에서 60세 라이브 커머스까지 평생 적응한 자수성가의 케이스 스터디."
+  },
+  "failures": [
+    {
+      "year": 1983,
+      "description": "Zhou's first small clothing business in 1982 — at age 17 — collapsed within months. He went bankrupt a second time before turning 18, leaving him in significant personal debt.",
+      "descriptionKo": "1982년 17세에 시작한 첫 작은 의류 사업이 몇 달 만에 무너짐. 18세가 되기 전 두 번째 파산 — 본인 빚이 큰 부담으로 남음.",
+      "lesson": "Two early bankruptcies in a teen's life are not the end of the entrepreneur — they're the foundation of the operator's risk instincts. The cost is years of personal debt; the benefit is a lifetime of crisis pattern recognition.",
+      "lessonKo": "10대 두 번의 파산은 사업가의 끝이 아니라 운영자의 리스크 본능의 토대입니다. 비용은 수년의 빚이지만, 이득은 평생의 위기 패턴 인식입니다.",
+      "source": "https://www.scmp.com/magazines/style/celebrity/article/3106068/chinas-answer-hm-fast-fashion-giant-meters/bonwe-was"
+    },
+    {
+      "year": 2016,
+      "description": "Zhou disappeared without notice in early January 2016 amid Beijing's anti-corruption campaign. Metersbonwe was forced to suspend trading. He returned after a week of detention/questioning, but the episode hit the company's brand and stock.",
+      "descriptionKo": "2016년 1월 초 베이징 반부패 운동 와중 무통보 실종. 미터스본웨이는 주식 거래 정지. 1주일 구금·조사 후 복귀했지만 이 사건이 회사 브랜드와 주가에 타격.",
+      "lesson": "In China, a publicly listed founder's continued visibility is itself an asset. A week of silence can wipe years of brand investment.",
+      "lessonKo": "중국에서는 상장사 창업자의 지속적 노출 자체가 자산입니다. 1주일의 침묵이 수년간의 브랜드 투자를 지울 수 있습니다.",
+      "source": "https://www.cnbc.com/2016/01/18/missing-chinese-billionaire-zhou-chengjian-returns-to-work.html"
+    },
+    {
+      "year": 2020,
+      "description": "Metersbonwe's offline retail empire (1800 stores at peak) collapsed under the rise of Tmall, JD, and Pinduoduo. Stores closed by the hundreds; daughter Hu Jiajia took over as chair as the company spiraled. By 2022 the brand was in deep restructuring.",
+      "descriptionKo": "미터스본웨이의 오프라인 매장 제국(정점 1800개)이 티몰·JD·핀둬둬의 부상 속에 붕괴. 매장 수백 개 폐점, 딸 후 자자가 회장 인수 후 회사 위기 심화. 2022년에 이르러 브랜드는 깊은 구조조정 단계.",
+      "lesson": "Offline scale is a moat until the channel changes — then it's a fixed-cost burden. The longer you wait to digitize, the deeper the trough.",
+      "lessonKo": "오프라인 규모는 채널이 바뀌기 전까지는 해자지만 바뀐 후엔 고정비용 부담이 됩니다. 디지털 전환을 늦출수록 골은 깊어집니다.",
+      "source": "https://www.yicaiglobal.com/news/founder-of-chinas-metersbonwe-returns-as-daughter-dumps-troubled-fashion-retailer"
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "오프라인 정점 — Forbes 자산 $30억 추정", "sourceKo": "Forbes 2010"},
+    {"year": 2020, "netWorth": "회사 부진으로 자산 급감", "sourceKo": "Yicai 2020"},
+    {"year": 2025, "netWorth": "$1.3B (Forbes 2026)", "sourceKo": "Forbes Real-Time Billionaires 2026"}
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "sajuConnection": {
+    "ilju": "갑인",
+    "geokguk": "편관격",
+    "summaryKo": "저우청젠의 사주는 갑목(큰 나무) 일간이 인목(봄의 호랑이) 위에 놓인 갑인 일주입니다. 큰 나무가 호랑이 위에서 자라는 형상이라, 결단력과 도약력이 함께 있는 결입니다. 격국이 편관격(시련·압박·위기를 권위로 바꾸는 형식)이라, 12세 학업 중단, 18세 전 두 번의 파산, 2016년 일시 실종, 2020년대 회사 위기 등 본인 인생이 시련의 연속이었던 것이 사주의 결과 정확히 호응합니다. 월지 진토는 봄의 옥토로 갑목에게 편재(움직이는 큰 자본·기회)의 작용을 하는데, 1995년 ₩20만 위안 빌려 시작한 회사가 매장 1800개로 자란 흐름과 닿습니다. 편관격 운로의 사람은 위기가 닥칠 때 더 단단해지는 패턴인데, 60세에 직접 더우인 라이브에 등장해 회사를 재기시키려는 그의 행보가 정확히 그 결입니다.",
+    "interpretationKo": "갑인 일주는 큰 나무가 호랑이 위에 놓인 형상으로, 결단과 회복 탄력의 결. 편관격은 압박과 시련을 자본으로 바꾸는 패턴이라, 두 번 파산 → 매장 1800개 → 회사 위기 → 60세 라이브 커머서로의 흐름이 자연스럽습니다.",
+    "keyEvents": [
+      {"year": 1983, "eventKo": "두 번째 파산 — 편관격이 가장 일찍 시련을 만남"},
+      {"year": 1995, "eventKo": "미터스본웨이 창업 — 편관격이 위기를 자본으로"},
+      {"year": 2024, "eventKo": "60세 라이브 커머스 — 편관격이 다시 위기 앞에 섬"}
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Zhou_Chengjian",
+    "https://www.scmp.com/magazines/style/celebrity/article/3106068/chinas-answer-hm-fast-fashion-giant-meters/bonwe-was",
+    "https://www.yicaiglobal.com/news/founder-of-chinas-metersbonwe-returns-as-daughter-dumps-troubled-fashion-retailer",
+    "https://www.cnbc.com/2016/01/18/missing-chinese-billionaire-zhou-chengjian-returns-to-work.html",
+    "https://www.chinacenter.net/2017/china-currents/16-2/fast-fashion-pursuit-global-market/",
+    "https://www.yicaiglobal.com/news/metersbonwes-60-year-old-founder-busts-a-move-on-chinas-tiktok-to-revive-fashion-brand"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": 2787,
+  "name": "Li Ming",
+  "nameKo": "리밍",
+  "birthday": "1968-05-01",
+  "birthPlace": "China (specific location not public)",
+  "birthPlaceKo": "중국 (구체적 출생지 비공개)",
+  "netWorth": "$1.3B",
+  "nationality": "HK",
+  "industry": "Finance & Investments",
+  "gender": "M",
+  "ilju": "신미",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "공개된 출생지나 학력 정보가 거의 없는 'Hidden Billionaire' 유형입니다. 1968년 5월생, 현재 거주지는 중국 간쑤성 룽난, 시민권은 홍콩으로 표기돼 있습니다. 의도적으로 미디어 노출을 최소화한 인물입니다.",
+    "capitalTypeKo": "자수성가 — 포브스가 자산 출처를 'investments'로 표기했고 자수성가로 분류했습니다.",
+    "sources": ["https://www.forbes.com/profile/li-ming/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "본토에서 1990년대 자본 시장 1세대 시기에 투자업으로 자산을 형성했고, 홍콩 시민권을 통해 자본을 글로벌화한 것으로 추정됩니다. 단일 회사가 아니라 비공개 투자 포트폴리오로 자산을 보유한 형태입니다.",
+    "selfMadeScore": 7,
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "careerTimeline": [
+    {"year": 1968, "event": "Born in China (May)", "eventKo": "1968년 5월 중국 출생 (구체적 출생지 비공개)", "whyItMatteredKo": "문화대혁명 막바지 출생 세대로 등소평 개혁개방과 함께 성년이 된 1세대 시장경제 수혜자입니다."},
+    {"year": 1990, "event": "Enters investment / finance career (estimated)", "eventKo": "20대 초반 본토에서 금융·투자 커리어 시작 (추정)", "whyItMatteredKo": "1990년 상하이·선전 증권거래소 개설과 동시기입니다. 중국 자본 시장 1세대 트레이더로 자산 형성을 추정할 수 있습니다."},
+    {"year": 1997, "event": "Hong Kong handover; obtains HK residency (likely)", "eventKo": "홍콩 반환과 함께 홍콩 시민권 취득 (추정)", "whyItMatteredKo": "본토 자금을 합법적으로 글로벌화할 수 있는 홍콩 달러 허브를 활용한 표준 경로입니다."},
+    {"year": 2008, "event": "Likely benefits from China's 4 trillion yuan stimulus", "eventKo": "글로벌 금융위기 후 중국 4조 위안 부양책 수혜 추정", "whyItMatteredKo": "당시 부동산·인프라 투자 진입자들이 2010년대 중반 부호로 도약한 시기입니다. 자산 형성의 가설적 변곡점입니다."},
+    {"year": 2024, "event": "Enters Forbes Billionaires List (debut)", "eventKo": "포브스 글로벌 빌리어네어즈 리스트 신규 진입", "whyItMatteredKo": "포브스 'Hidden Billionaires' 발굴 흐름 속에서 등재된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.5B (HK citizen, Longnan resident)", "eventKo": "포브스 2026 — 홍콩 시민, 룽난 거주, 약 15.4억 달러", "whyItMatteredKo": "홍콩 시민권 + 본토 거주의 크로스 보더 자산 구조가 미·중 디커플링 시대에 어떻게 유지될지가 향후 변수입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1990, "eventKo": "20대에 중국 자본 시장 1세대 트레이더로 진입 (추정)", "impactKo": "정관격이 자본 시장의 질서·체계 안에서 부를 쌓기 시작한 분기점입니다."},
+    {"year": 1997, "eventKo": "홍콩 시민권 취득으로 자본의 해외 분산 통로 확보", "impactKo": "신미 일주가 위험 관리를 위해 두 나라 자본 흐름을 동시에 잡은 결단입니다."},
+    {"year": 2024, "eventKo": "포브스 빌리어네어즈 리스트 신규 진입", "impactKo": "조용히 쌓아온 자본이 처음 외부 평가의 대상이 된 시점입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비공개 투자 포트폴리오에서 나오는 자본 가치 변동이 자산의 핵심입니다. 단일 상장사 지분이 아니라 본토 부동산·금융 비상장 지분으로 추정됩니다.",
+    "wealthAcceleratorsKo": "1990년대 자본 시장 1세대 진입, 1997년 홍콩 시민권 취득, 2008년 부양책 시기 부동산·인프라 투자가 단계적 자본 형성의 가설적 흐름입니다.",
+    "structuralAdvantagesKo": "홍콩 시민권을 통한 자본 분산과 미디어 노출 최소화 전략이 위험 관리 자산입니다.",
+    "currentAssetAllocationKo": "본토 부동산·금융 비상장 지분이 자산의 핵심 비중으로 추정됩니다. 정확한 구성은 비공개입니다."
+  },
+  "failures": [
+    {"year": 2015, "descriptionKo": "2015년 6월 중국 A주 약 40% 급락은 본토 개인 투자자에게 큰 손실을 입혔고, 'investments'를 자산 출처로 하는 모든 본토 투자자가 시험대에 올랐습니다.", "howTheyOvercameKo": "홍콩 시민권을 통한 자본 분산이 위험 흡수의 통로였을 것으로 추정됩니다.", "lessonKo": "단일 시장 베팅의 위험은 분산 시민권으로만 줄어듭니다."},
+    {"year": 2021, "descriptionKo": "중국 부동산 위기로 부동산 익스포저가 있던 본토 투자자 다수가 50~80% 자산 감소를 겪었습니다.", "howTheyOvercameKo": "포트폴리오 일부를 홍콩 자산으로 옮기거나 유동화한 것으로 추정됩니다.", "lessonKo": "중국 사모 자산은 정부 정책 한 방에 휘청입니다."},
+    {"year": 2023, "descriptionKo": "공개 정보 부족으로 미디어 무명 상태 자체가 위험입니다. 포브스가 자산 산정 객관 데이터를 확보하지 못하면 등재가 빠질 수 있습니다.", "howTheyOvercameKo": "비공개 전략을 유지하면서 포브스 데이터 정정에는 응하지 않는 것으로 보입니다.", "lessonKo": "Hidden Billionaire 전략은 자기 자산 가치를 증명할 수단이 줄어드는 양면성이 있습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2024, "netWorth": "$1.4B", "sourceKo": "포브스 신규 등재"},
+    {"year": 2025, "netWorth": "$1.4B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.5B", "sourceKo": "포브스 2026 빌리어네어즈 #2,712"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Hidden Billionaire", "크로스 보더 자본", "투자형 부호", "미디어 비공개", "본토·홍콩 이중 거점"],
+  "characterKo": {
+    "strengths": "홍콩 시민권을 통한 자본 분산과 미디어 노출 최소화로 위험 관리에 유리합니다.",
+    "weaknesses": "공개 정보가 거의 없어 자산 평가의 객관성이 약하고, 포브스 등재 자체가 다음 해 빠질 수 있습니다.",
+    "motivation": "공개적으로 드러난 동력은 거의 없습니다. 본토에서 홍콩으로 흐르는 자본의 익명성을 자기 자산 운용 원칙으로 삼은 것으로 보입니다.",
+    "legacy": "포브스 'Hidden Billionaires' 카테고리에 등재된 본토·홍콩 크로스 보더 부호의 표본입니다. 미·중 디커플링 시대에 이중 거점 자본이 어떻게 유지되는지를 보여주는 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Mi day pillar (autumn metal on goat earth) and Jin month branch combine into a quietly refined, hidden builder. The format that channels wealth through institutional order matches a 35-year arc of entering China's first capital-market generation around 1990, taking Hong Kong residency in 1997, and only surfacing on Forbes in 2024.",
+    "summaryKo": "일주는 신미라 가을 쇠가 양의 자리 흙 위에 놓인 형국으로, 단단함과 가르침의 흙이 합쳐진 자리입니다. 월지 진은 봄 흙의 자리라 쇠 일간에 풍부한 학습과 자원의 흐름을 더해줍니다. 격국은 질서·체계 안에서 부를 만드는 흐름이라, 1990년대 자본 시장 1세대 진입(추정), 1997년 홍콩 시민권 취득, 2008년 부양책 수혜, 2024년 포브스 등재까지 모두 '체계 안에서 조용히 쌓고 드러나지 않는다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/profile/li-ming/",
+    "https://www.forbes.com/billionaires/",
+    "https://en.wikipedia.org/wiki/List_of_Hong_Kong_people_by_net_worth"
+  ]
+}

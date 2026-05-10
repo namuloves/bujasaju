@@ -1,0 +1,137 @@
+{
+  "id": "3464",
+  "name": "Kim Dong-nyung",
+  "nameKo": "김동녕",
+  "birthday": "1945-01-10",
+  "birthPlace": "Seoul, South Korea",
+  "birthPlaceKo": "서울특별시",
+  "netWorth": "$0.4B",
+  "nationality": "KR",
+  "industry": "Textile",
+  "gender": "M",
+  "ilju": "기묘",
+  "gyeokguk": "건록격",
+  "_notes": "DB 1945-01-10 vs Wiki 1945-09-06 — 8개월 차이.",
+  "childhood": {
+    "summaryKo": "1945년 9월 6일(또는 1945-01-10) 서울 출생. 평범한 가정 출신. 1964년 경기고등학교 졸업, 1968년 서울대학교 상대 경제학과 졸업, 1972년 미국 펜실베이니아대학교 와튼스쿨 MBA. 한국 1세대 자수성가 중 가장 정통적인 미국 명문 MBA 학력 트랙.",
+    "capitalTypeKo": "완전 자수성가 — 평범한 가정, 본인 와튼 MBA + 첫 사업 부도 → 재기",
+    "sources": [
+      "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%8F%99%EB%85%95",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=31446",
+      "https://economychosun.com/site/data/html_dir/2011/05/03/2011050300025.html"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "self-made",
+    "descriptionKo": "재벌·정치 인맥 전무. 1972년 와튼 MBA 후 한세통상 무역회사 창업 → 1979년 부도. 1982년 한세실업으로 재창립 — 의류 OEM 전문. Gap·Nike·H&M·Walmart·Target 등 미국 빅 바이어로부터 OEM 주문. 2003년 인터넷서점 예스24 인수로 사업 다각화. 2009년 동아출판 인수로 출판 진출. 본인 + 두 아들 김익환(한세실업 부회장)·김지원(예스24 사장) 합산 한세예스24홀딩스(KOSPI 016450) 약 64.77% 보유. 2025년 본인 18년 만에 한세실업 대표이사로 경영 복귀, 3인 각자대표 체제. Forbes self-made score 10/10.",
+    "selfMadeScore": 10,
+    "sources": [
+      "https://www.businesspost.co.kr/BP?command=article_view&num=31446",
+      "https://www.etoday.co.kr/news/view/1232064",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=418942"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1972,
+      "event": "Founded Hansae Trading after Wharton MBA",
+      "eventKo": "와튼 MBA 후 한세통상 창업",
+      "whyItMatteredKo": "27세에 본인 회사. 한국 와튼 MBA 1세대."
+    },
+    {
+      "year": 1979,
+      "event": "Hansae Trading went bankrupt",
+      "eventKo": "한세통상 부도",
+      "whyItMatteredKo": "본인 인생 첫 큰 실패. 후일 재기의 동기."
+    },
+    {
+      "year": 1982,
+      "event": "Re-founded as Hansae Industries — apparel OEM focused",
+      "eventKo": "한세실업 재창립 — 의류 OEM 전문",
+      "whyItMatteredKo": "본인 인생 두 번째 창업. 평생 사업의 출발점."
+    },
+    {
+      "year": 2003,
+      "event": "Acquired YES24 Internet bookstore — diversification",
+      "eventKo": "예스24 인터넷 서점 인수 — 사업 다각화",
+      "whyItMatteredKo": "의류에서 인터넷 유통으로 영역 확장."
+    },
+    {
+      "year": 2009,
+      "event": "Acquired Donga Publishing",
+      "eventKo": "동아출판 인수",
+      "whyItMatteredKo": "출판업 진출."
+    },
+    {
+      "year": 2025,
+      "event": "Returned to Hansae Industries CEO after 18 years; 3-CEO structure",
+      "eventKo": "18년 만에 한세실업 대표이사 경영 복귀; 3인 각자대표 체제",
+      "whyItMatteredKo": "80세에 직접 운영 복귀. 자녀 후계 정리 + 본인 장수 경영."
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1979,
+      "eventKo": "한세통상 부도",
+      "impactKo": "본인 인생 첫 큰 실패."
+    },
+    {
+      "year": 1982,
+      "eventKo": "한세실업 재창립",
+      "impactKo": "본인 평생 사업의 출발점."
+    },
+    {
+      "year": 2003,
+      "eventKo": "예스24 인수",
+      "impactKo": "의류에서 유통으로 다각화."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "한세예스24홀딩스(KOSPI 016450) 본인+자녀 합산 약 64.77%. 한세실업·예스24·동아출판 등 지배.",
+    "wealthAcceleratorsKo": [
+      "한세실업 — Gap·Nike·H&M 등 OEM 매출",
+      "예스24 — 한국 1위 인터넷 서점",
+      "동아출판 — 출판"
+    ],
+    "structuralAdvantagesKo": [
+      "와튼 MBA + 글로벌 OEM 노하우",
+      "의류·도서·출판 다각화",
+      "본인+두 아들 합산 64.77% 단독 의사결정"
+    ],
+    "currentAssetAllocationKo": "한세예스24홀딩스 지분이 자산의 핵심."
+  },
+  "failures": [
+    {
+      "year": 1979,
+      "descriptionKo": "한세통상 부도",
+      "howTheyOvercameKo": "1982년 한세실업으로 재창립.",
+      "lessonKo": "첫 부도가 두 번째 성공의 학습."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2025, "netWorth": "$0.4B (약 0.56조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+  ],
+  "quotes": [],
+  "books": [],
+  "personalTraitsKo": ["와튼 MBA 1세대", "부도 후 재기", "의류 + 도서 다각화", "80세 경영 복귀", "두 아들 분업"],
+  "characterKo": {
+    "strengths": "와튼 MBA의 학구적 신뢰성. 부도 후 재기의 회복력. 의류 OEM + 인터넷 서점의 다각화 감각.",
+    "weaknesses": "OEM의 본질적 마진 정체. 80세 경영 복귀의 직접 운영 한계.",
+    "motivation": "와튼 MBA 출신 자수성가의 정체성. 부도 회복 후 가문 회사 안정화.",
+    "legacy": "한국 의류 OEM + 인터넷 서점 1세대 자수성가."
+  },
+  "sajuConnection": {
+    "ilju": "기묘",
+    "geokguk": "건록격",
+    "interpretationKo": "기묘 일주는 비옥한 밭(己土) 위에 작은 화초(卯木)가 자라는 형상. 건록격은 본인 자존심·자립심이 매우 강한 패턴. 김동녕의 인생은 건록격이 자수성가에서 발현된 사례.",
+    "keyEvents": []
+  },
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%8F%99%EB%85%95",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=31446",
+    "https://economychosun.com/site/data/html_dir/2011/05/03/2011050300025.html",
+    "https://www.etoday.co.kr/news/view/1232064",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=418942"
+  ]
+}

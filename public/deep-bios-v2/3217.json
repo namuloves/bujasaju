@@ -1,0 +1,75 @@
+{
+  "id": 3217,
+  "name": "Shintaro Yamada",
+  "nameKo": "신타로 야마다",
+  "birthday": "1977-09-21",
+  "birthPlace": "Seto, Aichi, Japan",
+  "birthPlaceKo": "일본 아이치현 세토시",
+  "netWorth": "$1B",
+  "nationality": "JP",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "신사",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "도자기로 유명한 일본 아이치현 세토시에서 태어났습니다. 와세다대학교 교육학부 수학과를 졸업했고, 통계와 알고리즘 기반 사고가 후일 메루카리의 추천 알고리즘과 매칭 엔진의 토대가 됐습니다. 사생활은 의도적으로 비공개입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 1차 엑시트 자금을 기반으로 36세에 메루카리를 창업한 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Shintaro_Yamada_(businessman)", "https://en.wikipedia.org/wiki/Mercari"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1999년 라쿠텐 인턴, 2001년 우노 창업 후 2010년 징가에 매각(약 1,200만 달러 추정)으로 1차 엑시트, 2013년 메루카리 창업, 2018년 도쿄증시 상장으로 자산 폭발의 흐름을 만들었습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://about.mercari.com/en/about/leadership/"]
+  },
+  "careerTimeline": [
+    {"year": 1999, "event": "Graduates Waseda University; interns at Rakuten", "eventKo": "와세다대 수학과 졸업, 라쿠텐 인턴으로 경매 사이트 개발", "whyItMatteredKo": "당시 무명이던 라쿠텐에서 0→1 사이트 구축을 경험한 시기입니다. 일본 인터넷 1세대 인적 네트워크가 이때 형성됐습니다."},
+    {"year": 2001, "event": "Founds Unoh Inc.", "eventKo": "우노 창업 — 영화정보 사이트, 소셜게임 등 운영", "whyItMatteredKo": "C2C 커뮤니티와 모바일 게임 운영 노하우가 후일 메루카리 모델로 이어진 시기입니다."},
+    {"year": 2010, "event": "Sells Unoh to Zynga (~$12M)", "eventKo": "징가에 우노 매각 — 약 1,200만 달러 추정", "whyItMatteredKo": "1차 엑시트 자금이 메루카리 시드 자본의 베이스가 된 분기점입니다."},
+    {"year": 2012, "event": "Around-the-world trip; observes child labor in Bolivia", "eventKo": "1년간 세계 일주 — 볼리비아·칠레에서 학교 못 가고 일하는 아이들을 보고 충격", "whyItMatteredKo": "메루카리의 미션이 이 여행에서 탄생했습니다. 비전형 학습 경로에서 사업 동력을 길어 올린 시기입니다."},
+    {"year": 2013, "event": "Founds Mercari (Feb); launches iOS app (July)", "eventKo": "메루카리 창업, 안드로이드·iOS 앱 출시", "whyItMatteredKo": "PC 중심 야후오쿠와 정반대로 모바일 전용 정액제 출품으로 차별화한 결정입니다. 일본 C2C 시장 재정의의 출발점입니다."},
+    {"year": 2018, "event": "Mercari IPOs on Tokyo Stock Exchange (June 19)", "eventKo": "도쿄증시 마더스 상장, IPO 1,310억 엔 조달", "whyItMatteredKo": "일본 최대 테크 IPO 기록입니다. 본인 자산이 처음 10억 달러를 돌파한 분기점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2010, "eventKo": "징가에 우노 매각으로 1차 엑시트", "impactKo": "비전형 학습 경로에서 첫 자본을 확보한 결단입니다."},
+    {"year": 2012, "eventKo": "1년 세계 일주 후 메루카리의 미션을 정립", "impactKo": "신사 일주의 학습 본능이 미국·중남미 현지 관찰을 통해 다음 사업 방향을 찾은 분기점입니다."},
+    {"year": 2018, "eventKo": "도쿄증시 상장으로 일본 최대 테크 IPO 기록", "impactKo": "13년 누적 결과물이 한 번에 시장 가치로 환원된 결정적 사건입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "도쿄증시 상장사 메루카리 본인 보유 약 18~20% 지분에서 나오는 주가 가치가 핵심 자산입니다.",
+    "wealthAcceleratorsKo": "2010년 우노 매각 1차 엑시트, 2016년 일본 1호 프리 IPO 유니콘 등극, 2018년 도쿄증시 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "일본 C2C 모바일 1위 시장 지위와, 라쿠텐·DeNA 인적 네트워크에서 형성된 일본 인터넷 1세대 인맥이 강점입니다.",
+    "currentAssetAllocationKo": "메루카리 지분과 D&I 재단 출연 자산, 알파드라이브·애니카 등 일본 스타트업 엔젤 투자가 자산 구성입니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "메루카리 출시 1년 차 미국 진출이 10년간 시장 점유율 2.6%에 머물고 누적 영업손실 700억 엔에 달했습니다.", "howTheyOvercameKo": "2024년 미국 CEO 사임 후 본인이 직접 미국 사업을 진두지휘하는 비상 경영 체제로 들어갔습니다.", "lessonKo": "일본 모바일 1위가 미국 진출의 보장이 되지 않습니다. 글로벌 진출의 첫 가설은 항상 현지에서 다시 검증해야 합니다."},
+    {"year": 2018, "descriptionKo": "IPO 직전 메루카리 박스 시범 서비스가 위생·도난 논란으로 1주일 만에 중단됐습니다.", "howTheyOvercameKo": "신사업 신뢰 비용을 회사 차원에서 인정하고 핵심 C2C 본업에 다시 집중했습니다.", "lessonKo": "C2C는 신뢰 인프라가 핵심입니다. 신사업 확장 시 신뢰 비용이 매출보다 빠르게 늘어납니다."},
+    {"year": 2021, "descriptionKo": "영국 시장 진출 시도가 2년 만에 철수로 종결됐습니다. 빈티드·디팝이 이미 점유한 시장이었습니다.", "howTheyOvercameKo": "미국 한 곳에 글로벌 자본을 집중시키는 방향으로 영토 전략을 좁혔습니다.", "lessonKo": "글로벌 확장은 다음 시장이 어디인지가 아니라 왜 우리여야 하는지를 먼저 답해야 합니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2018, "netWorth": "$1.5B", "sourceKo": "도쿄증시 상장 직후"},
+    {"year": 2021, "netWorth": "$2.4B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$1.0B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.0B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["수학 전공 창업자", "1차 엑시트 후 재창업", "Go Bold 슬로건", "미국 직접 챙김", "사생활 비공개"],
+  "characterKo": {
+    "strengths": "수학과 알고리즘 베이스의 추천 엔진 본능과, 1차 엑시트 자본을 다음 회사 시드로 굴린 연쇄 창업 스타일이 강점입니다.",
+    "weaknesses": "미국 사업 누적 손실 700억 엔이라는 글로벌 확장 부담이 있고, 단일 회사 단일 카테고리 의존도가 높습니다.",
+    "motivation": "세계 일주 중 본 신흥국 아동 노동 충격에서 출발한 자원 순환 미션과, 일본 IT가 글로벌에서 통한다는 것을 본인이 직접 입증하겠다는 정체성 의식이 동력입니다.",
+    "legacy": "일본 1호 프리 IPO 유니콘이자 일본 최대 테크 IPO 기록 보유자입니다. C2C 모바일 시대의 일본형 모델을 만든 인물입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Sa day pillar (autumn metal on snake fire) and Yu month branch combine into a sharp, learning-driven profile. The format that channels wealth through unconventional learning matches a 25-year arc of leaving Rakuten to found Unoh, selling to Zynga, traveling the world, and building Mercari into Japan's largest tech IPO.",
+    "summaryKo": "일주는 신사라 가을 쇠가 뱀의 자리에 놓여 단단함과 학습의 불기운이 합쳐진 자리입니다. 월지 유는 가을 쇠의 자리라 일간을 더 단단하게 압축합니다. 격국은 비전형 학습 경로로 부를 만드는 흐름이라, 1999년 라쿠텐 인턴으로 인터넷 1세대 진입, 2001년 우노 창업, 2010년 징가 매각으로 1차 엑시트, 2012년 세계 일주에서 미션 정립, 2013년 메루카리 창업, 2018년 도쿄증시 상장까지 모두 '남들이 안 가는 길에서 결과물을 만든다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Shintaro_Yamada_(businessman)",
+    "https://en.wikipedia.org/wiki/Mercari",
+    "https://about.mercari.com/en/about/leadership/",
+    "https://www.cnbc.com/2018/06/19/mercari-flea-market-app-operator-surges-in-tokyo-debut.html",
+    "https://techcrunch.com/2018/05/15/mercari-japans-first-unicorn-files-to-raise-1-1b-in-tokyo-ipo/"
+  ]
+}

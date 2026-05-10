@@ -1,0 +1,74 @@
+{
+  "id": 3261,
+  "name": "Zheng Xiaodong",
+  "nameKo": "정샤오둥",
+  "birthday": "1964-03-01",
+  "birthPlace": "Shanghai, China",
+  "birthPlaceKo": "중국 상하이",
+  "netWorth": "$1B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "기유",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "상하이에서 태어난 것으로 추정되며, 학력은 상하이응용과기학원 화공기계학과입니다. 졸업 후 상하이생화학제약공장(국유)에 입사하면서 화공 기계 출신으로 사회를 시작했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 국유 제약 공장 설비과장 9년 학습이 그대로 동결 건조기 자체 제조 창업으로 이어진 학습 누적형 인물입니다.",
+    "sources": ["https://www.tofflon.com/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1985년 상하이생화학제약공장 입사 후 1991년 설비과장 승진까지 9년간 동결 건조기 운영·정비·역공학을 학습했고, 1993년 29세에 상하이 둥푸룽을 창업했습니다. 2011년 2월 선전 창업판 상장으로 자본 가치 환원이 일어났습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://pharm.jgvogel.cn/c/2023-09-20/1328072.shtml"]
+  },
+  "careerTimeline": [
+    {"year": 1985, "event": "Joins Shanghai Biochemistry Pharmaceutical Factory", "eventKo": "상하이응용과기학원 졸업 후 상하이생화학제약공장 입사", "whyItMatteredKo": "국유 제약 공장에서 화공 기계 출신으로 학습·가문(공장 시스템) 자산을 잇는 흐름의 출발점입니다."},
+    {"year": 1991, "event": "Promoted to equipment department head", "eventKo": "졸업 6년 만에 설비과장 승진, 동결 건조기 9년 운영 경험 누적", "whyItMatteredKo": "수입 동결 건조기에 의존하던 시기에 정비·운영·역공학을 모두 본 사람으로 성장한 시기입니다."},
+    {"year": 1993, "event": "Founds Shanghai Tofflon at 29", "eventKo": "29세에 상하이 둥푸룽 창업 — 국산 동결 건조기 자체 제조 목표", "whyItMatteredKo": "국유 시스템 학습을 그대로 사기업으로 이전한 1세대 제약 장비 창업의 출발점입니다."},
+    {"year": 1994, "event": "First in-house lyophilizer at Satellite Research Institute 509", "eventKo": "위성연구소 509소 부지 공장 안의 공장에서 첫 자체 동결 건조기 출시", "whyItMatteredKo": "자본·부지·인증이 모두 부족한 상태에서 위성연구소 인프라를 빌려 시제품을 완성한 시기입니다."},
+    {"year": 2011, "event": "IPO on Shenzhen ChiNext (300171)", "eventKo": "선전 창업판 상장 (2월 1일)", "whyItMatteredKo": "신GMP(2010) 시행과 정확히 맞물린 IPO입니다. 정책과 자본이 동시에 점화된 분기점입니다."},
+    {"year": 2015, "event": "Expands to injection, bioengineering, food processing platform", "eventKo": "동결 건조 코어를 축으로 주사제·바이오 엔지니어링·식품 공정·정밀 의료까지 일체화 플랫폼화", "whyItMatteredKo": "단일 장비 제조사에서 제약 공정 전체 솔루션 플랫폼으로 도약한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1991, "eventKo": "설비과장 승진과 9년 동결 건조기 운영 경험 누적", "impactKo": "기유 일주의 흙·쇠 기질이 학습 자본을 단단히 쌓은 출발점입니다."},
+    {"year": 1993, "eventKo": "29세에 상하이 둥푸룽 창업", "impactKo": "학습·가문 자산을 잇는 흐름이 사기업 창업으로 발현된 결정적 결단입니다."},
+    {"year": 2011, "eventKo": "신GMP 시행과 맞물린 선전 창업판 상장", "impactKo": "정책 사이클과 자본 시장이 동시에 점화된 분기점입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전 상장사 상하이 둥푸룽(300171) 본인 약 63% 지분에서 나오는 주가 가치가 핵심입니다. 동결 건조기, 주사제 라인, 바이오 엔지니어링 솔루션이 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "1994년 첫 자체 동결 건조기 출시, 2011년 상장, 2015년 일체화 플랫폼화, 2020년 코로나 백신 동결 건조 수요 폭발이 자본 가치 가속의 단계들입니다.",
+    "structuralAdvantagesKo": "중국 1위 동결 건조기 점유율과, 본인 약 63% 지분이라는 강한 지배 구조가 강점입니다.",
+    "currentAssetAllocationKo": "상하이 둥푸룽 약 63% 지분이 자산의 절대 비중입니다."
+  },
+  "failures": [
+    {"year": 1994, "descriptionKo": "초기 자체 부지·자본이 없어 위성연구소 임차로 시작했고 인증·납품 지연이 반복됐습니다.", "howTheyOvercameKo": "단계적 자체 부지 확보와 GMP 인증을 통해 정식 납품 트랙을 깔았습니다.", "lessonKo": "엄격한 의약 GMP 영역에서는 시간이 자본보다 비쌉니다."},
+    {"year": 2018, "descriptionKo": "신GMP 사이클 종료 후 매출 성장이 정체됐고 단일 동결 건조기 의존도 위험이 노출됐습니다.", "howTheyOvercameKo": "바이오·세포 치료·식품 공정으로 다각화를 가속해 정책 사이클 의존을 줄였습니다.", "lessonKo": "정책 사이클 의존 모델에는 한계가 있습니다."},
+    {"year": 2022, "descriptionKo": "코로나 백신 후속 주문이 급감하면서 제약 장비 수주 사이클이 하강에 들어갔습니다.", "howTheyOvercameKo": "팬데믹 특수 의존을 줄이고 일체화 플랫폼 전략(생물 제약 공급망 국산화)으로 buffer를 형성했습니다.", "lessonKo": "팬데믹 특수 의존은 매우 짧습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2011, "netWorth": "$0.2B", "sourceKo": "선전 창업판 상장 직후 추정"},
+    {"year": 2020, "netWorth": "$1.5B", "sourceKo": "코로나 백신 동결 건조 수요 폭발"},
+    {"year": 2022, "netWorth": "$1.1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["국유 제약 공장 출신", "29세 창업", "동결 건조기 1위", "신GMP 수혜", "63% 지배"],
+  "characterKo": {
+    "strengths": "국유 제약 공장 설비과장 9년 학습이 그대로 사기업 창업으로 이어진 학습 누적형 본능과, 신GMP 정책 시기에 정확히 맞춘 IPO 타이밍이 강점입니다.",
+    "weaknesses": "단일 회사 단일 장비 의존도가 높고, 코로나 백신 특수가 끝난 후 매출 사이클이 다운에 들어갔습니다.",
+    "motivation": "상하이 국유 제약 공장 설비과장이 수입 동결 건조기를 국산화하겠다는 산업 사명과, 학습 자본을 본인 사업으로 환원하겠다는 정체성 의식이 동력입니다.",
+    "legacy": "중국 제약 장비 자수성가 1세대의 표본입니다. 국유 제약 공장 학습 9년이 사기업 창업으로 이어져 동결 건조기 1위 회사를 만든 보기 드문 학습 누적 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Yu day pillar (early spring earth on rooster metal) and In month branch combine into a quietly accumulating, learning-rich profile. The format that channels wealth through learning matches a 30-year arc from joining the state pharmaceutical factory in 1985 to founding Tofflon in 1993, the 1994 first lyophilizer, and the 2011 IPO timed to new GMP rules.",
+    "summaryKo": "일주는 기유라 흙 일간이 닭의 자리 쇠 위에 놓인 형국으로, 부드러운 흙이 단단한 쇠로 결과물을 깎아 시장에 내보내는 자리입니다. 월지 인은 이른 봄 나무의 자리라 일간에 외부 자원의 흐름과 학습 자본을 더해줍니다. 격국은 학습·가문 자산을 잇는 흐름이라, 1985년 국유 공장 입사, 1991년 설비과장 승진, 1993년 29세 창업, 2011년 신GMP 시기 상장, 2020년 코로나 백신 동결 건조 수요 폭발까지 모두 '학습된 운영이 정책 사이클과 맞물려 자본 가치로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.tofflon.com/",
+    "https://pharm.jgvogel.cn/c/2023-09-20/1328072.shtml",
+    "https://www.bloomberg.com/profile/person/17131461",
+    "https://baike.eastmoney.com/item/%E4%B8%8A%E6%B5%B7%E4%B8%9C%E5%AF%8C%E9%BE%99%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+  ]
+}

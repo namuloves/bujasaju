@@ -1,0 +1,73 @@
+{
+  "id": 3428,
+  "name": "Lee Kyung-ha",
+  "nameKo": "이경하",
+  "birthday": "1963-08-29",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$100M",
+  "nationality": "KR",
+  "industry": "Pharmaceuticals",
+  "gender": "M",
+  "ilju": "갑진",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1963년 한국에서 태어났습니다. JW중외제약 그룹 창업주 이기석의 손자이자 가문 3세대입니다. 연세대 경영학과 졸업 후 미국에서 경영학 석사 과정을 거쳤고, 그룹 가족 자본의 본격 운영을 잇기 위해 정통 후계자 트랙을 밟았습니다.",
+    "capitalTypeKo": "재벌 3세대 — JW홀딩스 회장으로 가족 자본을 잇는 운영형 후계자입니다.",
+    "sources": ["https://www.jw-pharma.co.kr"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1980년대 후반 그룹 합류, 영업·기획·재무 단계를 거쳤고 2009년 부친 이종호 회장 사망 후 가족 자본 운영의 한 축으로 부상했습니다. 2015년 JW홀딩스 회장에 정식 취임해 그룹 지주사 운영의 정점에 자리잡았습니다.",
+    "selfMadeScore": 3,
+    "sources": ["https://en.wikipedia.org/wiki/JW_Pharmaceutical"]
+  },
+  "careerTimeline": [
+    {"year": 1988, "event": "Joins family pharmaceutical group", "eventKo": "JW중외제약 그룹 합류 (추정)", "whyItMatteredKo": "갑진 일주의 큰 나무 일간이 가족 자본의 큰 흐름에 자리잡은 출발점입니다."},
+    {"year": 2001, "event": "Group adopts JW brand identity", "eventKo": "그룹 정체성 JW(중외)로 통합, 글로벌 브랜드 정립", "whyItMatteredKo": "본업 매출의 글로벌 통로가 만들어진 시기입니다."},
+    {"year": 2009, "event": "Father Lee Jong-ho dies; succession proceedings begin", "eventKo": "부친 이종호 회장 사망, 가족 자본 후계 정리 시작", "whyItMatteredKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원되기 시작한 분기점입니다."},
+    {"year": 2015, "event": "Becomes Chairman of JW Holdings", "eventKo": "JW홀딩스 회장 정식 취임, 그룹 지주사 운영 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 흐름이 본인 결단의 정점으로 환원된 결정적 결단입니다."},
+    {"year": 2020, "event": "JW Pharmaceutical group revenue passes ₩600B", "eventKo": "JW제약 그룹 연결 매출 6,000억 원 돌파, 본업 안정기", "whyItMatteredKo": "본업 매출의 안정성이 다져진 시기입니다."},
+    {"year": 2024, "event": "Group revenue passes ₩800B; oncology pipeline highlighted", "eventKo": "그룹 연결 매출 8,000억 원 돌파, 항암 신약 파이프라인 가시화", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1988, "eventKo": "JW중외제약 그룹 합류", "impactKo": "갑진 일주의 큰 나무 일간이 가족 자본의 큰 흐름에 자리잡은 출발점입니다."},
+    {"year": 2009, "eventKo": "부친 이종호 회장 사망 후 후계 정리 시작", "impactKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원되기 시작한 분기점입니다."},
+    {"year": 2015, "eventKo": "JW홀딩스 회장 정식 취임", "impactKo": "외부 압력을 자본으로 변환하는 흐름이 본인 결단의 정점으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "코스닥 상장사 JW홀딩스(096760), JW중외제약(001060) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2001년 JW 브랜드 정립, 2009년 후계 정리, 2015년 회장 취임이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "수액·항암 카테고리 점유, JW중외그룹의 가족 지주사 안정 구조, 그리고 글로벌 신약 파이프라인 통로가 강점입니다.",
+    "currentAssetAllocationKo": "JW홀딩스 가족 지분이 자산의 절대 비중. 자녀 세대로 단계적 이양 중입니다."
+  },
+  "failures": [
+    {"year": 2009, "descriptionKo": "부친 사망과 동시에 가족 자본 후계 정리에 들어가며 그룹 지주 구조 정리가 한 번 더 시험받았습니다.", "howTheyOvercameKo": "2015년 회장 취임으로 단계적 통과했습니다.", "lessonKo": "가족 자본은 후계 사건 한 번에 흐름이 한 번 더 정리됩니다."},
+    {"year": 2018, "descriptionKo": "한국 의약품 약가 인하 정책으로 JW 수액 카테고리 마진이 압박을 받았습니다.", "howTheyOvercameKo": "고부가 항암·신약 카테고리 비중 강화로 단계적 마진 회복을 시도했습니다.", "lessonKo": "정책 한 번에 카테고리 마진이 흔들립니다."},
+    {"year": 2022, "descriptionKo": "글로벌 임상 진행 중이던 일부 신약 후보가 임상 중단되며 단기 평가 가치가 조정됐습니다.", "howTheyOvercameKo": "다른 파이프라인 진전과 라이선스 아웃으로 통과했습니다.", "lessonKo": "신약 카테고리는 단일 임상 한 번에 평가가 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$50M", "sourceKo": "회장 취임 직후 추정"},
+    {"year": 2020, "netWorth": "$70M", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$95M", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$100M", "sourceKo": "공시 기반 추정"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["JW홀딩스 회장", "가문 3세", "수액·항암 카테고리", "신약 파이프라인", "정통 후계자 트랙"],
+  "characterKo": {
+    "strengths": "1988년 그룹 합류 이후 35년 동안 영업·기획·재무 전 단계를 거친 학습 깊이와, 2015년 회장 취임 후 그룹 지주사 운영을 안정시킨 조직 운영 본능이 강점입니다.",
+    "weaknesses": "한국 단일 시장과 의약품 약가 정책 사이클에 본업 매출이 직접 노출되고, 글로벌 신약 파이프라인 결과 변동성에 평가 자산이 흔들립니다.",
+    "motivation": "조부 이기석의 가족 자본을 본인 세대에서 보전·확장하고 다음 세대로 깔끔히 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "한국 제약 가문 3세대 운영형 후계자의 표본입니다. 수액 카테고리에서 신약 파이프라인까지 카테고리를 단계적으로 확장한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gap-Jin day pillar (early spring wood on dragon earth) and Sin month branch combine into a tall, externally-pressured profile. The format that channels wealth through external pressure matches a 35-year arc from the 1988 family entry to the 2009 succession and the 2015 chairmanship.",
+    "summaryKo": "일주는 갑진이라 봄 큰 나무가 늦봄 흙(용의 자리) 위에 놓인 형국으로, 큰 나무가 풍부한 흙에 단단히 뿌리내린 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 다듬어 환원시키는 통로입니다. 격국은 도전·압력을 자본으로 변환하는 흐름이라, 1988년 그룹 합류, 2009년 후계 정리, 2015년 회장 취임까지 모두 '외부 압력이 가족 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.jw-pharma.co.kr",
+    "https://en.wikipedia.org/wiki/JW_Pharmaceutical",
+    "https://www.dart.fss.or.kr"
+  ]
+}

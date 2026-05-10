@@ -1,0 +1,73 @@
+{
+  "id": 2583,
+  "name": "Rajeev Gulati",
+  "nameKo": "라지브 굴라티",
+  "birthday": "1964-08-02",
+  "birthPlace": "India (MDH family)",
+  "birthPlaceKo": "인도 (MDH 가문)",
+  "netWorth": "$1.5B",
+  "nationality": "IN",
+  "industry": "Food & Beverage",
+  "gender": "M",
+  "ilju": "계미",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1919년 시알코트(현재 파키스탄)에서 마하사이 추니 랄이 창업한 향신료 가문 MDH의 3세대로 태어났습니다. 부친은 'MDH 엉클'로 유명한 다람팔 굴라티입니다. 학력 정보는 공개되지 않았습니다.",
+    "capitalTypeKo": "재벌 3세 — 인도 향신료 시장 2위 브랜드의 가족 기업 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/MDH_(spice_company)"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1980~90년대 MDH에 합류해 해외 시장 개척과 수출을 담당했고, 2020년 12월 3일 부친 다람팔 굴라티 별세 후 회장 겸 매니징 디렉터로 공식 취임했습니다.",
+    "selfMadeScore": 2,
+    "sources": ["https://www.republicworld.com/india/mahashay-rajeev-gulati-mdh-uncle-son"]
+  },
+  "careerTimeline": [
+    {"year": 1980, "event": "Joins MDH family business, focuses on overseas markets", "eventKo": "1980년대 MDH에 합류, 해외 시장 개척 담당", "whyItMatteredKo": "계미 일주의 학습 본능이 가업의 글로벌 확장 통로를 맡은 출발점입니다."},
+    {"year": 2000, "event": "Builds North America/Europe/Middle East distribution networks", "eventKo": "2000~2010년대 북미·유럽·중동 유통망 구축, 수출 책임자 역할", "whyItMatteredKo": "MDH 글로벌 확장의 핵심 운영자로 자리잡은 시기입니다."},
+    {"year": 2020, "event": "Father Dharampal Gulati dies Dec 3; assumes Chairman & MD role", "eventKo": "12월 3일 부친 다람팔 굴라티 별세, MDH 회장 겸 매니징 디렉터 취임", "whyItMatteredKo": "MDH 가문의 가장 자리를 정식으로 받는 결정적 분기점입니다."},
+    {"year": 2023, "event": "MDH ethylene oxide residue scandal in Hong Kong/Singapore", "eventKo": "MDH 일부 제품 EtO 잔류 검출 — 홍콩·싱가포르 일부 회수", "whyItMatteredKo": "글로벌 평판이 식품 안전 규제 한 줄에 흔들린 첫 사건입니다."},
+    {"year": 2024, "event": "FDA monitoring expanded; brand recovery push begins", "eventKo": "미국 FDA 모니터링 확대, 브랜드 회복 작업 본격화", "whyItMatteredKo": "글로벌 식품 안전 표준 강화 과제가 본격 등장한 시기입니다."},
+    {"year": 2026, "event": "Listed as new Indian billionaire by Forbes at $1.5B", "eventKo": "포브스 신규 인도 빌리어네어즈 등재 ($1.5B)", "whyItMatteredKo": "MDH 가족 자산이 처음 외부 평가의 대상이 된 시점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2000, "eventKo": "북미·유럽·중동 유통망 구축으로 글로벌 확장 담당", "impactKo": "계미 일주의 학습 본능이 비전형 학습 경로(해외 유통 직접 운영)로 발현된 출발점입니다."},
+    {"year": 2020, "eventKo": "부친 별세 후 회장 겸 매니징 디렉터 취임", "impactKo": "비전형 학습 경로의 격국이 가문의 가장 자리로 환원된 결정적 분기점입니다."},
+    {"year": 2023, "eventKo": "EtO 잔류 검출 스캔들로 글로벌 평판 도전", "impactKo": "외부 규제 흐름이 본인 운영의 시험대로 발현된 만년의 가장 큰 사건입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비상장 가족 기업 MDH(약 1조~1.5조 루피 가치)의 가족 지분에서 나오는 자산이 핵심입니다. 향신료 단일 카테고리가 매출의 절대 비중입니다.",
+    "wealthAcceleratorsKo": "2000년대 글로벌 유통망 구축, 2020년 회장 승계, 2026년 포브스 등재가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 향신료 시장 2위 브랜드 자리와, 'MDH 엉클'(부친 다람팔)로 대표되는 강한 브랜드 자산이 강점입니다.",
+    "currentAssetAllocationKo": "MDH 가족 지분이 자산의 절대 비중. 비상장 구조라 외부 평가는 추정에 의존합니다."
+  },
+  "failures": [
+    {"year": 2024, "descriptionKo": "홍콩·싱가포르 등에서 MDH 일부 제품 EtO 잔류가 검출됐고 미국 FDA 모니터링까지 확대됐습니다.", "howTheyOvercameKo": "품질 관리 글로벌 표준 강화와 회수 절차로 단계적으로 평판을 회복하고 있습니다.", "lessonKo": "글로벌 식품 안전 표준은 단일 규제 한 줄에 매출이 흔들립니다."},
+    {"year": 2021, "descriptionKo": "부친 다람팔 굴라티의 'MDH 엉클' 아이콘 효과를 대체할 브랜드 자산 구축이 과제로 떠올랐습니다.", "howTheyOvercameKo": "광고 모델 의존도를 줄이고 가족 경영자 본인의 미디어 노출을 늘리고 있습니다.", "lessonKo": "1세대 인물 의존 브랜드 자산은 단계적 대체가 어렵습니다."},
+    {"year": 2021, "descriptionKo": "다람팔 굴라티 사망 후 일부 가족 자산 분쟁이 보도됐습니다.", "howTheyOvercameKo": "MDH 본체는 통합 유지하면서 분쟁 자산을 단계적으로 정리하고 있습니다.", "lessonKo": "1세대 사망 후 자산 분쟁은 본업과 별도로 다년간 진행됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2020, "netWorth": "$0.6B", "sourceKo": "부친 사망 시점 가족 자산"},
+    {"year": 2023, "netWorth": "$1B", "sourceKo": "MDH 가치 1조 루피 기준"},
+    {"year": 2024, "netWorth": "$1.2B", "sourceKo": "EtO 이슈 후 인도 내수 견조"},
+    {"year": 2026, "netWorth": "$1.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["MDH 3세대", "글로벌 유통 담당", "EtO 스캔들 경험", "조용한 운영", "인도 향신료 2위 브랜드"],
+  "characterKo": {
+    "strengths": "1980~90년대부터 다년간 글로벌 유통망을 직접 구축한 실무 경험과, 부친의 'MDH 엉클' 브랜드 자산을 잇는 가문 의식이 강점입니다.",
+    "weaknesses": "단일 카테고리(향신료) 의존도가 매우 높고, EtO 같은 글로벌 식품 안전 규제 한 줄에 매출이 흔들리는 구조입니다.",
+    "motivation": "1919년 창업의 가문 자본을 본인 세대에서 글로벌 향신료 브랜드로 끌어올리겠다는 가문 의식과, 비상장 가족 기업의 안정적 운영을 잇겠다는 정체성 의식이 동력입니다.",
+    "legacy": "인도 향신료 가문 MDH 3세대의 표본입니다. 'MDH 엉클'의 아들로서 비상장 가족 기업을 글로벌 향신료 시장으로 끌고 가는 보기 드문 운영형 후계자 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Mi day pillar (summer water on goat earth) and Mi month branch combine into a doubly earth-grounded, learning-rich profile. The format that channels wealth through unconventional learning matches a 40-year arc of overseas market work, the 2020 chairmanship, and the 2024 EtO scandal recovery.",
+    "summaryKo": "일주는 계미라 한여름 작은 물이 양의 자리 흙 위에 놓인 형국으로, 부드러운 물이 단단한 흙 안에 가둬져 학습으로 모이는 자리입니다. 월지 미는 또 같은 한여름 흙의 자리라 일간을 두 겹의 흙으로 더 단단히 가둡니다. 격국은 비전형 학습 경로로 부를 만드는 흐름이라, 1980년대 가업 합류, 2000년대 글로벌 유통망 구축, 2020년 회장 승계, 2024년 EtO 스캔들까지 모두 '학습된 운영이 외부 규제와 만나 시험을 받는다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/MDH_(spice_company)",
+    "https://www.republicworld.com/india/mahashay-rajeev-gulati-mdh-uncle-son",
+    "https://www.dnaindia.com/business/report-meet-rajeev-gulati-son-of-late-mdh-uncle-dharampal-gulati"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 1304,
+  "name": "Senapathy Gopalakrishnan",
+  "nameKo": "세나파티 고팔라크리슈난",
+  "birthday": "1955-04-05",
+  "birthPlace": "Thiruvananthapuram, Kerala, India",
+  "birthPlaceKo": "인도 케랄라 트리반드룸",
+  "netWorth": "$3.2B",
+  "nationality": "IN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "병신",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "케랄라의 공무원 가정에서 태어났습니다. 학력은 IIT 마드라스 물리학 석사, 컴퓨터과학 석사로 이어집니다. 부인 수다 고팔라크리슈난은 문화 유산·뇌 연구 자선 활동으로 알려져 있습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 1981년 250달러 자본으로 인포시스를 공동 창업한 7인 중 하나입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Kris_Gopalakrishnan"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1981년 푸네에서 나라야나 무르티 등과 함께 250달러 자본으로 인포시스를 공동 창업했습니다. 1993년 인도 상장, 1999년 인도 기업 최초 나스닥 상장, 2007~2011년 CEO 임기를 거쳐 2014년 액실로어 벤처스 공동 창업으로 자선·VC 트랙으로 옮겼습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://en.wikipedia.org/wiki/Infosys"]
+  },
+  "careerTimeline": [
+    {"year": 1979, "event": "Joins Patni Computer Systems Mumbai", "eventKo": "Patni 컴퓨터 시스템스 뭄바이 입사", "whyItMatteredKo": "무르티와 만나 인포시스 핵심 7인이 모이는 인큐베이터 시기입니다."},
+    {"year": 1981, "event": "Co-founds Infosys with $250 seed capital", "eventKo": "단돈 250달러로 인포시스 공동 창업", "whyItMatteredKo": "인도 IT 서비스 산업의 원형이자 자본이 아닌 두뇌로 시작한 회사의 출발점입니다."},
+    {"year": 1993, "event": "Infosys IPO at Rs 95/share", "eventKo": "인도 NSE·BSE 상장", "whyItMatteredKo": "결과물(주식)이 시장에서 가격으로 검증된 첫 순간입니다."},
+    {"year": 1999, "event": "First Indian company on Nasdaq", "eventKo": "인도 기업 최초 나스닥 상장", "whyItMatteredKo": "글로벌 자본 시장에서 인도 IT의 정당성이 확보된 사건입니다."},
+    {"year": 2007, "event": "Becomes Infosys CEO until 2011", "eventKo": "인포시스 CEO 취임 (2011년까지)", "whyItMatteredKo": "공동 창업자 7인 로테이션 약속이 실현된 시기입니다. 가족이 아닌 동료를 위한 자리였습니다."},
+    {"year": 2014, "event": "Co-founds Axilor Ventures post-Infosys", "eventKo": "인포시스 떠나 액실로어 벤처스 공동 창업", "whyItMatteredKo": "결과물을 만든 사람에서 결과물을 만들 사람을 키우는 사람으로 전환한 분기점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1981, "eventKo": "250달러 자본으로 7인 공동 창업", "impactKo": "예리한 결과물의 흐름이 두뇌만으로 출발한 분기점입니다."},
+    {"year": 2007, "eventKo": "공동 창업자 로테이션 약속에 따라 CEO 취임", "impactKo": "병신 일주의 화 일간이 가족이 아닌 동료를 위한 자리에 정식으로 올라간 사건입니다."},
+    {"year": 2014, "eventKo": "인포시스를 떠나 액실로어 벤처스 공동 창업", "impactKo": "만드는 사람에서 만들 사람을 키우는 사람으로 정체성을 옮긴 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "인포시스 본인 보유 지분에서 나오는 배당과 주가 가치가 핵심입니다. 액실로어 벤처스 운영 수익도 보조 통로입니다.",
+    "wealthAcceleratorsKo": "1993년 인도 상장, 1999년 나스닥 상장, 2010~2020년대 글로벌 IT 서비스 시장 확장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인포시스 7인 공동 창업자라는 정체성, IIT 마드라스 학맥, IISc 뇌 연구 센터·액실로어 벤처스라는 자선·VC 트랙이 강점입니다.",
+    "currentAssetAllocationKo": "인포시스 지분이 자산의 절대 비중. 액실로어 벤처스 LP 지분과 IISc 뇌 연구 센터 출연금도 일정 규모로 운영됩니다."
+  },
+  "failures": [
+    {"year": 2011, "descriptionKo": "CEO 임기 종료 시점 인포시스 성장률이 TCS·코그니전트에 뒤처지며 시장 리더 지위를 상실했습니다.", "howTheyOvercameKo": "후임에게 운영을 넘기고 본인은 자선과 VC로 트랙을 옮겼습니다.", "lessonKo": "한 세대 창업자의 운영 모델은 다음 세대 시장에 자동으로 통하지 않습니다."},
+    {"year": 2017, "descriptionKo": "후임 비샬 시카 시기 파나야 인수 거버넌스 위기가 터지면서 창업자들과 이사회가 충돌했고 시카가 사임했습니다.", "howTheyOvercameKo": "공동 창업자 중심으로 거버넌스를 다시 다잡고 살릴 파레크를 비창업자 CEO로 영입했습니다.", "lessonKo": "창업자 그림자가 너무 길면 후임이 자기 결과물을 만들 수 없습니다."},
+    {"year": 2024, "descriptionKo": "본인이 의장으로 있는 IISc 산하 연구소 관련 카스트 차별 소송이 보도됐습니다.", "howTheyOvercameKo": "공식 입장 발표와 거버넌스 점검으로 평판 위기를 관리했습니다.", "lessonKo": "자선·학술 영역도 평판 리스크에서 자유롭지 않습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2016, "netWorth": "$1.79B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$2.9B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$4.1B", "sourceKo": "후룬 인디아 부호 리스트"},
+    {"year": 2026, "netWorth": "$3.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["인포시스 7인 공동 창업", "IIT 마드라스 학맥", "자선·VC 전환", "뇌 연구 출연", "조용한 회장"],
+  "characterKo": {
+    "strengths": "250달러로 시작해 글로벌 IT 서비스 빅5를 만든 두뇌 본능과, 7인 공동 창업자 로테이션이라는 거버넌스를 끝까지 지킨 약속력이 강점입니다.",
+    "weaknesses": "단일 회사 자산 의존도가 높고, 인포시스 후임 거버넌스 위기에서 공동 창업자 그림자가 길었던 점이 약점입니다.",
+    "motivation": "인도가 자본 없이 두뇌만으로 글로벌 IT 시장에 진입할 수 있다는 사실을 본인 세대에서 입증하겠다는 산업적 사명이 동력입니다.",
+    "legacy": "인도 IT 서비스 산업 1세대 공동 창업자로서, 결과물을 만든 사람에서 결과물을 만들 사람을 키우는 사람으로 자발적으로 전환한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Sin day pillar (autumn fire on monkey metal) and Myo month branch combine into a sharp, expressive profile. The format that channels wealth through pointed expression matches a 45-year arc of co-founding Infosys with $250 in 1981, the 1993 IPO, the 1999 Nasdaq listing, the 2007 CEO turn, and the 2014 transition to philanthropy and VC.",
+    "summaryKo": "일주는 병신이라 가을 화 일간이 원숭이의 자리 쇠 위에 놓인 형국으로, 화의 표현력이 단단한 쇠에 깎여 결과물로 환원되는 자리입니다. 월지 묘는 봄 나무의 자리라 화 일간에 학습 자본과 사고력을 더해줍니다. 격국은 예리한 결과물의 흐름이라, 1981년 250달러 7인 공동 창업, 1993년 상장, 1999년 나스닥 상장, 2007년 CEO 취임, 2014년 액실로어 벤처스 전환까지 모두 '두뇌가 만든 결과물이 다음 세대 결과물을 키우는 자본으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kris_Gopalakrishnan",
+    "https://en.wikipedia.org/wiki/Infosys",
+    "https://www.infosys.com/about/management-profiles/gopalakrishnan.html",
+    "https://www.businesstoday.in/magazine/corporate/story/a-cold-war-narayanan-murthy-sikka-infosys-71630-2017-02-18",
+    "https://www.storyboard18.com/brand-makers/kris-gopalakrishnan-surpasses-narayana-murthy-in-hurun-india-rich-list-2024-41884.htm"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 2916,
+  "name": "Hartati Murdaya",
+  "nameKo": "하르타티 무르다야",
+  "birthday": "1946-08-29",
+  "birthPlace": "Jakarta, Indonesia",
+  "birthPlaceKo": "인도네시아 자카르타",
+  "netWorth": "$1.2B",
+  "nationality": "ID",
+  "industry": "Diversified",
+  "gender": "F",
+  "ilju": "을해",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "1946년 인도네시아 자카르타의 화교 가문에서 태어났습니다. 본명은 챠우 추 (Chow Chu). 인도네시아 화교 1세대 사업가 가문에서 자라며 시장 실무를 배웠고, 1970년대 남편 무르다야 푸 (Murdaya Poo)와 함께 가족 자본의 한 축을 이끌었습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 화교 가문 출신으로 남편과 함께 인도네시아 다중 카테고리 그룹을 만든 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Hartati_Murdaya"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1970년대 남편과 함께 Cipta Cakra Murdaya(CCM) 그룹을 설립해 신발 OEM, IT, 부동산, 팜오일 카테고리로 분산 보유했습니다. 2012년 부패 혐의로 한 차례 시험받았지만 가족 자본의 다중 카테고리 분산 구조가 안정성을 유지했습니다.",
+    "selfMadeScore": 7,
+    "sources": ["https://www.murdaya.com"]
+  },
+  "careerTimeline": [
+    {"year": 1975, "event": "Co-builds Cipta Cakra Murdaya group", "eventKo": "남편 무르다야 푸와 함께 Cipta Cakra Murdaya(CCM) 그룹 설립 (추정)", "whyItMatteredKo": "을해 일주의 작은 나무 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1990, "event": "Footwear OEM expands to global brand contracts", "eventKo": "신발 OEM 카테고리가 글로벌 브랜드 계약(나이키 등)으로 확장", "whyItMatteredKo": "본업 매출의 글로벌 통로가 만들어진 시기입니다."},
+    {"year": 2000, "event": "Diversifies into IT, real estate, palm oil", "eventKo": "IT, 부동산, 팜오일 카테고리 다각화 진행", "whyItMatteredKo": "본업 매출의 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2012, "event": "Implicated in Buol bribery case; convicted in 2013", "eventKo": "부올(Buol) 부패 혐의 연루, 2013년 유죄 확정", "whyItMatteredKo": "외부 시스템(법·규제)이 본인 자본을 한 번에 시험한 분기점입니다."},
+    {"year": 2014, "event": "Released after sentence; resumes business activities", "eventKo": "형기 종료 후 가족 사업 복귀", "whyItMatteredKo": "외부 시스템과의 충돌 후 본업 자본이 단계적으로 회복되는 시기입니다."},
+    {"year": 2024, "event": "CCM Group continues diversified operations", "eventKo": "CCM 그룹 다중 카테고리 운영 안정화, 가족 자본 만년 유지", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1975, "eventKo": "CCM 그룹 공동 설립", "impactKo": "을해 일주의 작은 나무 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2000, "eventKo": "IT·부동산·팜오일 카테고리 다각화", "impactKo": "본업 매출의 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2012, "eventKo": "부패 혐의 연루와 2013년 유죄 확정", "impactKo": "외부 시스템(법·규제)이 본인 자본을 한 번에 시험한 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비상장 CCM 그룹 가족 지분과 신발 OEM, IT, 부동산, 팜오일 카테고리 자산이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1975년 그룹 설립, 1990년 글로벌 OEM 확장, 2000년 카테고리 다각화가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "다중 카테고리 분산 구조, 화교 자본망, 그리고 외부 시스템 충돌 이후에도 가족 자본 안정성이 강점입니다.",
+    "currentAssetAllocationKo": "CCM 그룹 가족 지분과 다중 카테고리 자산이 자산의 핵심 비중. 자녀 세대로 단계적 이양 중입니다."
+  },
+  "failures": [
+    {"year": 1997, "descriptionKo": "아시아 외환위기로 인도네시아 자산 평가가 단기 급락했습니다.", "howTheyOvercameKo": "다중 카테고리 분산 구조로 V자 회복했습니다.", "lessonKo": "거시 충격은 자산 카테고리 구성에 따라 분산됩니다."},
+    {"year": 2012, "descriptionKo": "부올 광산 부패 혐의 연루로 본업 운영자 정체성이 시험받았습니다.", "howTheyOvercameKo": "법정 다툼을 진행했지만 2013년 유죄가 확정됐습니다.", "lessonKo": "재물는 모았으나 외부 시스템(법·규제)을 다스리지 못한 결과는 자본과 자유의 동시 손실입니다."},
+    {"year": 2020, "descriptionKo": "코로나로 신발 OEM·부동산 매출이 단기 압박을 받았습니다.", "howTheyOvercameKo": "팜오일 카테고리 매출 안정성으로 통과했습니다.", "lessonKo": "다중 카테고리 보유는 거시 충격을 흡수하는 자산입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2014, "netWorth": "$0.9B", "sourceKo": "유죄 확정 직후"},
+    {"year": 2020, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["CCM 그룹 공동 창업주", "인도네시아 화교", "신발 OEM 1세대", "부패 혐의 유죄", "다중 카테고리 분산"],
+  "characterKo": {
+    "strengths": "1970년대 남편과 함께 신발 OEM에서 출발해 IT·부동산·팜오일까지 카테고리를 분산한 결단력과, 외부 시스템 충돌 후에도 가족 자본 안정성을 유지한 끈기가 강점입니다.",
+    "weaknesses": "외부 시스템(법·규제)과의 충돌이 본인 자본과 자유를 동시에 시험한 위험으로 만년에 현실화됐습니다.",
+    "motivation": "인도네시아 화교 1세대 정체성과 본인 세대에서 다중 카테고리 그룹을 만들겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "인도네시아 화교 1세대 여성 자수성가의 표본입니다. 외부 시스템 충돌 후에도 다중 카테고리 분산 구조로 자본을 보전한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Eul-Hae day pillar (spring small wood on pig water) and Sin month branch combine into a quietly nourished, externally-shaped profile. The format that channels wealth through external production matches a 50-year arc from the 1975 group founding to the 2000 diversification and the 2013 conviction.",
+    "summaryKo": "일주는 을해라 봄 작은 나무가 한겨울 물(돼지의 자리) 위에 놓인 형국으로, 작은 나무가 풍부한 물에 단단히 뿌리내려 결과물로 자라는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 다듬어 환원시키는 통로입니다. 격국은 외부에 자기 결과물을 발산하는 흐름이라, 1975년 그룹 설립, 2000년 다각화, 2013년 유죄 확정까지 모두 '학습된 결과물이 외부 시스템과의 결합으로 단계적 도약과 시험을 동시에 만든다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hartati_Murdaya",
+    "https://www.murdaya.com",
+    "https://www.forbes.com/profile/hartati-murdaya/"
+  ]
+}

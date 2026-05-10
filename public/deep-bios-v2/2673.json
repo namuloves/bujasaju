@@ -1,0 +1,73 @@
+{
+  "id": 2673,
+  "name": "Bingkun Xie",
+  "nameKo": "셰 빙쿤",
+  "birthday": "1966-08-25",
+  "birthPlace": "Zhejiang, China",
+  "birthPlaceKo": "중국 저장성",
+  "netWorth": "$1.4B",
+  "nationality": "CN",
+  "industry": "Fashion & Retail",
+  "gender": "M",
+  "ilju": "병진",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1966년 중국 저장성에서 태어났습니다. 정식 학력 정보는 공개 자료가 빈약합니다. 진주 광택 안료(Pearlescent Pigments) 회사 체시르 신소재 (Chesir Pearl)의 창업주이자 가족 지분 보유자로 알려져 있습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 진주 광택 안료 카테고리에서 본업을 만든 1세대 인물입니다.",
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년대 후반 저장성에서 진주 광택 안료(자동차 도료·화장품 코팅용)에 진입해 2010년대 본토 카테고리 1위로 도약했고, 2020년 선전증권거래소 창업판에 체시르(300929) 상장으로 자본 시장 가치를 환원했습니다. 글로벌 자동차·화장품 안료 공급망의 본토 대표 기업입니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.chesir.com"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Begins pearlescent pigment manufacturing in Zhejiang", "eventKo": "저장성에서 진주 광택 안료 제조업 진입 (추정)", "whyItMatteredKo": "병진 일주의 작은 불 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 2003, "event": "Establishes Chesir New Material as branded company", "eventKo": "체시르 신소재 브랜드 정립, 카테고리 집중", "whyItMatteredKo": "본업의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2015, "event": "Domestic pearlescent pigment market #1 position consolidated", "eventKo": "본토 진주 광택 안료 카테고리 1위 굳히기", "whyItMatteredKo": "본업 시장 점유율이 정점에 도달한 시기입니다."},
+    {"year": 2020, "event": "Chesir IPO on Shenzhen ChiNext (300929)", "eventKo": "선전증권거래소 창업판(300929) 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2022, "event": "Global automotive paint demand recovers post-COVID", "eventKo": "코로나 이후 글로벌 자동차 도료 수요 회복으로 매출 가속", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.4B in Fashion & Retail (pigments)", "eventKo": "포브스 2026 — 패션·리테일(안료) 14억 달러로 등재", "whyItMatteredKo": "조용히 쌓인 본업 자본이 부호 리스트에 정식 등재된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "진주 광택 안료 제조업 진입", "impactKo": "병진 일주의 작은 불 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 2015, "eventKo": "본토 카테고리 1위 굳히기", "impactKo": "본업 시장 점유율이 정점에 도달한 분기점입니다."},
+    {"year": 2020, "eventKo": "체시르 창업판 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전 창업판 상장사 체시르(300929) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1995년 카테고리 진입, 2015년 본토 1위 굳히기, 2020년 창업판 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 진주 광택 안료 카테고리 1위 자리, 글로벌 자동차·화장품 공급망 결합, 그리고 가족 공동 보유 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "체시르 가족 지분이 자산의 절대 비중. 가족 공동 보유 구조입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "본토 환경 규제 강화로 일부 안료 공정이 가동 차질을 빚었습니다.", "howTheyOvercameKo": "친환경 공정 전환과 인증 강화로 카테고리 점유를 유지했습니다.", "lessonKo": "본토 환경 규제는 본업 운영 안정성에 직접 영향을 줍니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 자동차 도료 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "본토 내수 카테고리 비중 강화로 매출 안정성을 확보했습니다.", "lessonKo": "글로벌 카테고리 의존은 거시 충격에 매출이 직접 흔들립니다."},
+    {"year": 2024, "descriptionKo": "글로벌 안료 가격 경쟁 격화와 환율 변동으로 마진이 압박을 받았습니다.", "howTheyOvercameKo": "고부가 자동차·화장품 카테고리 비중 강화로 단계적 마진 회복을 시도했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2020, "netWorth": "$0.8B", "sourceKo": "상장 직후 추정"},
+    {"year": 2022, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["체시르 창업주", "진주 광택 안료", "본토 카테고리 1위", "창업판 상장", "Hidden Founder"],
+  "characterKo": {
+    "strengths": "저장성 진주 광택 안료 카테고리에서 25년 가까이 본업을 운영한 끈기와, 글로벌 자동차·화장품 공급망의 본토 대표 기업으로 자리 잡은 카테고리 운영 본능이 강점입니다.",
+    "weaknesses": "단일 카테고리 의존과 본토 환경 규제 사이클에 본업 운영이 직접 노출됩니다.",
+    "motivation": "저장성의 작은 화학 회사를 본인 세대에서 본토 진주 광택 안료 1위 회사로 만들겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "중국 본토 안료 카테고리 1세대 자수성가의 표본입니다. 글로벌 자동차·화장품 공급망의 본토 대표 기업으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Jin day pillar (early summer fire on dragon earth) and Sin month branch combine into a brightly-burning, output-focused profile. The format that channels wealth through external resources matches a 25-year arc from the 1995 entry to the 2015 #1 consolidation and the 2020 ChiNext listing.",
+    "summaryKo": "일주는 병진이라 초여름 작은 불이 늦봄 큰 흙(용의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 외부의 큰 흙을 데워 결과물로 빚어내는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1995년 카테고리 진입, 2015년 본토 1위, 2020년 창업판 상장까지 모두 '외부 자원의 큰 흐름이 본인 자본으로 한 번에 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/billionaires/",
+    "https://www.chesir.com",
+    "https://realtimebillionaires.de/"
+  ]
+}

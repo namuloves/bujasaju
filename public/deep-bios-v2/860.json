@@ -1,0 +1,75 @@
+{
+  "id": 860,
+  "name": "Rajiv Bajaj",
+  "nameKo": "라지브 바자즈",
+  "birthday": "1966-12-21",
+  "birthPlace": "Pune, Maharashtra, India",
+  "birthPlaceKo": "인도 마하라슈트라 푸네",
+  "netWorth": "$4.8B",
+  "nationality": "IN",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "갑인",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "푸네의 자이나교 마르와리 가문 바자즈에서 태어났습니다. 조부 잠날랄 바자즈는 마하트마 간디의 정신적 양아들로 알려진 독립운동가, 부친 라훌 바자즈는 'Hamara Bajaj' 광고로 유명한 1세대 산업가입니다. 푸네대 기계공학사 우등졸업 후 영국 워릭대에서 제조시스템공학 석사를 마쳤습니다.",
+    "capitalTypeKo": "재벌 3세 — 가업 합류형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Rajiv_Bajaj"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1990년 Bajaj Auto에 엔지니어로 입사해 R&D를 거쳐 2005년 MD에 올랐습니다. 다만 2001년 펄사 출시와 2025년 KTM 100% 인수는 본인이 주도한 결과물이라 운영형 후계자에 가깝습니다.",
+    "selfMadeScore": 3,
+    "sources": ["https://www.bajajauto.com/about-us/bajaj-auto-and-ktm"]
+  },
+  "careerTimeline": [
+    {"year": 1990, "event": "Joins Bajaj Auto in manufacturing/SCM after Warwick MS", "eventKo": "워릭대 석사 후 Bajaj Auto 제조·공급망 부문 입사", "whyItMatteredKo": "후계자가 아니라 엔지니어로 출발한 결정입니다."},
+    {"year": 2001, "event": "Launches Pulsar motorcycle", "eventKo": "펄사 모터사이클 출시", "whyItMatteredKo": "Bajaj=스쿠터 이미지를 스포츠 바이크로 전복시킨 단일 사건입니다."},
+    {"year": 2005, "event": "Appointed MD; phases out Chetak scooter", "eventKo": "MD 취임, 50년 베스트셀러 체탁 스쿠터 단종 결정", "whyItMatteredKo": "감정에 휘둘리지 않고 50년 브랜드를 잘라낸 도전·압력을 자본으로 변환하는 흐름 결단입니다."},
+    {"year": 2007, "event": "Buys 14.5% of KTM Power Sports AG", "eventKo": "오스트리아 KTM 지분 14.5% 인수", "whyItMatteredKo": "글로벌 프리미엄 시장 진입의 첫 교두보입니다."},
+    {"year": 2020, "event": "Publicly attacks India's COVID lockdown policy", "eventKo": "코로나 락다운 정책 공개 비판", "whyItMatteredKo": "재계 인사로 정부에 정면 반박한 드문 사례입니다. 갑인 일주의 직설성이 드러난 사건입니다."},
+    {"year": 2025, "event": "Completes 100% acquisition of KTM AG", "eventKo": "KTM 100% 인수 완료", "whyItMatteredKo": "18년에 걸친 단계적 인수의 마침표입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2001, "eventKo": "펄사 출시 — 가업이 만든 스쿠터 회사를 모터사이클 회사로 재정의", "impactKo": "갑인 일간의 직진성이 본인 첫 작품으로 발현된 분기점입니다."},
+    {"year": 2005, "eventKo": "MD 취임과 동시에 50년 베스트셀러 체탁 단종", "impactKo": "감정 대신 사업 논리로 가문 자산을 잘라낸 도전·압력을 자본으로 변환하는 흐름 결단입니다."},
+    {"year": 2020, "eventKo": "정부 락다운 정책 공개 비판 — '잘못된 곡선을 평탄화했다'", "impactKo": "갑인 일주가 외부 권력 앞에서도 자기 입장을 굽히지 않는 패턴이 그대로 드러난 사건입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Bajaj Auto 가족 지분과 그룹 분할 후 BFL·BHIL 지주 지분에서 나오는 배당과 주가 가치가 핵심입니다.",
+    "wealthAcceleratorsKo": "2001년 펄사 출시로 인도 모터사이클 1위, 2007~2025년 단계적 KTM 흡수로 글로벌 프리미엄 메이저 진입.",
+    "structuralAdvantagesKo": "엔지니어 출신 MD라 제품 결정에 직접 개입할 수 있고, 2008년 그룹 3분할로 가족 갈등이 사전 차단된 구조입니다.",
+    "currentAssetAllocationKo": "Bajaj Auto·BFL·BHIL 지분이 자산의 절대 비중. 가문 합산은 234억 달러 규모입니다."
+  },
+  "failures": [
+    {"year": 2005, "descriptionKo": "체탁 스쿠터 단종 후 스쿠터 시장을 혼다 액티바에 통째로 내줬습니다.", "howTheyOvercameKo": "모터사이클 전문화로 카테고리 자체를 재정의해 매출 격차를 펄사로 메웠습니다.", "lessonKo": "선택과 집중은 기존 자산을 잘라내는 용기에서 나옵니다."},
+    {"year": 2012, "descriptionKo": "RE60(쿼트) 쿼드리사이클이 6년간 인도 인증 분쟁에 묶였습니다.", "howTheyOvercameKo": "2019년에야 양산을 시작해 카테고리 자체를 자력으로 통과시켰습니다.", "lessonKo": "신차 카테고리는 기술보다 규제·인증이 더 큰 장벽입니다."},
+    {"year": 2020, "descriptionKo": "체탁 EV 스쿠터 출시 후 공급 차질로 올라·TVS·에이서에 점유율을 내주며 9위권으로 추락했습니다.", "howTheyOvercameKo": "플랫폼 개편과 KTM 인수 자금을 EV 라인 확장에 투입하고 있습니다.", "lessonKo": "엔지니어 자존심이 시장 진입 속도를 놓치는 함정이 될 수 있습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$2.0B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$2.4B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$5.0B", "sourceKo": "포브스 빌리어네어즈"},
+    {"year": 2026, "netWorth": "$4.8B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["엔지니어 정신", "직설 화법", "장기 인수 베팅", "카테고리 재정의", "독립 외고집"],
+  "characterKo": {
+    "strengths": "엔지니어 출신 MD의 제품 본능과, 50년 베스트셀러를 잘라내는 결단력이 강점입니다.",
+    "weaknesses": "EV 시장 진입 지연, 정부와의 정면 충돌이 만드는 정치 리스크가 약점입니다.",
+    "motivation": "조부 잠날랄 바자즈의 가문 명예를 잇는 것과, 인도 양륜을 글로벌 프리미엄으로 끌어올리겠다는 산업적 사명이 동력입니다.",
+    "legacy": "인도 모터사이클을 글로벌 메이저로 끌어올린 결정적 인물입니다. 18년에 걸친 KTM 단계적 흡수는 인도 산업사 보기 드문 장기 인수 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gap-In day pillar (winter wood on tiger wood) and Ja month branch combine into a sharp, direct personality. The format that channels wealth through external pressure matches a 30-year arc of launching Pulsar at 35, killing the 50-year Chetak scooter at 39, and confronting the government over COVID policy at 54.",
+    "summaryKo": "일주는 갑인이라 겨울 큰 나무가 또 다른 나무(호랑이 자리) 위에 직립한 형국으로, 자기 방향을 굽히지 않는 직진성이 두 겹으로 작동하는 자리입니다. 월지 자는 한겨울 물의 자리라 갑목에 강한 학습 자본을 더해 줍니다. 격국은 외부 압력과 도전을 통해 부를 만드는 흐름이라, 2001년 펄사로 가업을 재정의한 결정, 2005년 50년 베스트셀러 체탁을 잘라낸 결단, 2020년 정부 락다운 정책 정면 비판까지 모두 '외부 압력 앞에서 자기 방향을 입증한다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rajiv_Bajaj",
+    "https://en.wikipedia.org/wiki/Bajaj_Auto",
+    "https://www.bajajauto.com/about-us/bajaj-auto-and-ktm",
+    "https://scroll.in/latest/963864/not-an-expert-on-coronavirus-bjp-hits-out-at-industrialist-rajiv-bajaj-for-criticising-lockdown",
+    "https://www.business-standard.com/article/companies/bajaj-to-exit-scooter-biz-109121000031_1.html"
+  ]
+}

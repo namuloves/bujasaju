@@ -1,0 +1,74 @@
+{
+  "id": 1201,
+  "name": "Shekhar Bajaj",
+  "nameKo": "셰카르 바자즈",
+  "birthday": "1948-06-08",
+  "birthPlace": "India (Bajaj family)",
+  "birthPlaceKo": "인도 (바자즈 가문)",
+  "netWorth": "$3.4B",
+  "nationality": "IN",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "갑자",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "마하트마 간디의 정신적 양아들로 알려진 잠날랄 바자즈의 손자, 라마크리슈나 바자즈의 아들로 태어났습니다. 학력은 푸네대학 수학 학사(1968), 뉴욕대 MBA(1974)입니다.",
+    "capitalTypeKo": "재벌 3세 — 바자즈 가문의 트러스티십 자본을 잇는 운영형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Bajaj_Group"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1980년 바자즈 일렉트리컬스 CEO 합류, 1987년 매니징 디렉터, 1994년 회장 겸 매니징 디렉터에 올랐습니다. 2002년 모피 리처즈 브랜드 라이선스, 2022년 회장직 분리로 아누지 포다르가 매니징 디렉터·CEO로 취임했습니다.",
+    "selfMadeScore": 3,
+    "sources": ["https://en.wikipedia.org/wiki/Bajaj_Electricals"]
+  },
+  "careerTimeline": [
+    {"year": 1968, "event": "Bachelor's in Mathematics from Pune University", "eventKo": "푸네대학 수학 학사 졸업", "whyItMatteredKo": "분석적 성향의 학력 트랙으로 바자즈 가문 안에서도 다른 결을 만든 출발점입니다."},
+    {"year": 1974, "event": "MBA from New York University", "eventKo": "뉴욕대 MBA 졸업 후 귀국", "whyItMatteredKo": "라이선스 라지 시기에 서구 경영 어법을 인도에 들여온 시기입니다."},
+    {"year": 1980, "event": "Joins Bajaj Electricals as Chief Executive", "eventKo": "바자즈 일렉트리컬스 CEO 합류", "whyItMatteredKo": "라디오 램프 웍스(1938)에서 시작된 가업의 운영 책임을 맡은 출발점입니다."},
+    {"year": 1987, "event": "Promoted to Managing Director", "eventKo": "매니징 디렉터 승진", "whyItMatteredKo": "딜러 네트워크 확장과 매치웰 팬 사업 통합으로 본격 사업 책임을 맡은 시기입니다."},
+    {"year": 1994, "event": "Becomes Chairman & Managing Director", "eventKo": "회장 겸 매니징 디렉터 취임", "whyItMatteredKo": "자유화 직후 가전 카테고리 확장과 2002년 모피 리처즈 라이선스 도입의 시기입니다."},
+    {"year": 2022, "event": "Redesignated Executive Chairman, Anuj Poddar takes over as MD/CEO", "eventKo": "회장직 분리, 아누지 포다르가 매니징 디렉터·CEO 취임", "whyItMatteredKo": "EPC 사업 분할(바젤 프로젝트 2024)과 함께 첫 순부채 제로 대차대조표를 만든 분기점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1980, "eventKo": "바자즈 일렉트리컬스 CEO 합류로 가업 운영 책임 시작", "impactKo": "갑자 일주의 큰 나무 일간이 풍부한 가문 자원의 흐름 위에서 운영 책임을 받는 분기점입니다."},
+    {"year": 1994, "eventKo": "회장 겸 매니징 디렉터 취임", "impactKo": "외부 자원의 흐름이 본인 운영 책임으로 환원된 결정적 결단입니다."},
+    {"year": 2022, "eventKo": "EPC 사업 분할과 전문 경영인 매니징 디렉터 영입", "impactKo": "큰 외부 자원의 흐름이 다음 세대로 깔끔히 흘러간 만년 마무리의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "인도 상장사 바자즈 일렉트리컬스, 분할된 바젤 프로젝트, 그리고 바자즈 그룹 전체의 가족 지주 지분에서 나오는 배당과 주가 가치가 핵심입니다.",
+    "wealthAcceleratorsKo": "1980~94년 가전 사업 확장, 2002년 모피 리처즈 라이선스, 2024년 바젤 프로젝트 분할이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "바자즈 가문 그룹 전체에 걸친 교차 지분 구조와, 잠날랄 바자즈로부터 이어지는 트러스티십 자본 정체성이 강점입니다.",
+    "currentAssetAllocationKo": "바자즈 일렉트리컬스 가족 지분과 그룹 교차 지분이 자산의 양대 비중. 가문 합산은 더 큰 규모입니다."
+  },
+  "failures": [
+    {"year": 2020, "descriptionKo": "EPC 전력 송배전 사업이 누적 매출 채권 약 1,388억 루피를 넘기며 부담이 됐습니다.", "howTheyOvercameKo": "아누지 포다르 매니징 디렉터 체제에서 다년간 채권 정리 후 2024년 EPC 사업을 바젤 프로젝트로 분할했습니다.", "lessonKo": "콩글로머리트 사업부의 매출 채권은 적기에 격리하지 않으면 본업 평가까지 흔듭니다."},
+    {"year": 2010, "descriptionKo": "바자즈 일렉트리컬스 가전 본업이 하벨스·크롬프턴·폴리캡에 시장 점유율을 잃었습니다. 가족 경영하의 유통 현대화와 제품 디자인 지연이 직접 원인입니다.", "howTheyOvercameKo": "전문 경영진 영입과 신제품 라인업 강화로 점유율 회복을 시도했습니다.", "lessonKo": "가족 경영의 의사 결정 속도는 시장 변화 속도를 따라가기 어렵습니다."},
+    {"year": 2015, "descriptionKo": "더 큰 가족 콩글로머리트 안에서 본인 권한이 사촌 경영진(라훌·산지브 바자즈)에 의해 반복적으로 희석됐습니다.", "howTheyOvercameKo": "바자즈 일렉트리컬스 본업에 집중하면서 영향력은 유지하는 방식으로 통과했습니다.", "lessonKo": "큰 가족 그룹 안에서 영향력은 통제권과 다릅니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$2B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$2.8B", "sourceKo": "EPC 분할 직전"},
+    {"year": 2026, "netWorth": "$3.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["바자즈 3세대", "수학·MBA 학력", "가전 본업 운영", "EPC 분할 결단", "그룹 교차 지분"],
+  "characterKo": {
+    "strengths": "잠날랄 바자즈 가문 자본 위에서 바자즈 일렉트리컬스를 42년간 끌고 온 끈기와, 매니징 디렉터 분리·EPC 분할이라는 만년 거버넌스 결단력이 강점입니다.",
+    "weaknesses": "큰 바자즈 가족 콩글로머리트 안에서 사촌 경영진들에 의해 권한이 희석되고, 본업 가전이 경쟁사에 점유율을 일부 내준 구조입니다.",
+    "motivation": "잠날랄 바자즈의 트러스티십 자본 정체성을 본인 세대에서 운영 결과로 입증하겠다는 가문 의식이 동력입니다.",
+    "legacy": "인도 바자즈 가문 3세대 운영형 후계자의 표본입니다. EPC 분할로 첫 순부채 제로 대차대조표를 만들고 다음 세대로 깔끔히 이양한 보기 드운 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gap-Ja day pillar (early summer wood on rat water) and O month branch combine into a tall tree drawing on deep external water. The format that channels wealth through external resources matches a 42-year arc of joining Bajaj Electricals in 1980, the 1994 chairmanship, and the 2022 demerger and CEO handover.",
+    "summaryKo": "일주는 갑자라 봄·여름 큰 나무가 한겨울 물(쥐의 자리) 위에 자리 잡은 형국으로, 풍부한 외부 자원의 흐름이 일간을 떠받치는 자리입니다. 월지 오는 한여름 불의 자리라 일간이 만들어낸 결과물에 강한 표현력을 더해줍니다. 격국은 큰 외부 자원의 흐름이라, 1968년 푸네 학사, 1974년 NYU MBA, 1980년 가업 합류, 1994년 회장 취임, 2022년 분할과 이양까지 모두 '풍부한 가문 자원이 본인 운영을 거쳐 다음 세대로 흘러간다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bajaj_Group",
+    "https://en.wikipedia.org/wiki/Bajaj_Electricals",
+    "https://www.bajajgroup.company/prominent-members/shekhar-bajaj/",
+    "https://www.businesstoday.in/latest/corporate/story/anuj-poddar-elevated-to-the-role-of-managing-director-ceo-of-bajaj-electricals-344810-2022-08-16"
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "3460",
+  "name": "Lee Joong-keun",
+  "nameKo": "이중근",
+  "birthday": "1941-01-19",
+  "birthPlace": "Seo-myeon, Suncheon, South Jeolla, South Korea",
+  "birthPlaceKo": "전라남도 순천시 서면 운평리",
+  "netWorth": "$2B",
+  "nationality": "KR",
+  "industry": "Real estate",
+  "gender": "M",
+  "ilju": "정묘",
+  "gyeokguk": "식신격",
+  "_notes": "billionaires.json에 등록된 생년월일(1941-01-19)과 한국어 위키백과·나무위키 등 주요 출처(1941-01-11) 사이에 8일 차이가 있다. 두 날짜의 사주가 일주(정묘/기미)·격국(식신격/건록격) 모두 달라지는 의미 있는 차이이므로, 본 문서는 DB 등록값(01-19) 기준으로 사주를 산출했다. 향후 본인 인터뷰·공식 이력서 등 1차 자료로 확정해 데이터 보정이 필요함.",
+  "childhood": {
+    "summaryKo": "1941년 전남 순천군 서면 운평리(현 순천시 서면)에서 6남매 중 셋째로 태어남. 가난한 농촌 가정에서 자라 순천동산초·순천중을 거쳐 서울상지고를 졸업. 건국대학교 정치외교학과에 입학했으나 가정 형편으로 3학년 1학기 수료 후 중퇴. 후일 독학사로 학사 자격을 취득하고 고려대 정책대학원에서 행정학 석사·박사, 2024년 고려대 법학박사까지 80대 후반에 학위를 마무리한 '평생학습'형 인물. 가난·고향 마을·군대 전우에 대한 부채감이 평생의 행동 동기.",
+    "capitalTypeKo": "완전 자수성가 — 전남 빈농 출신, 대학 중퇴, 본인 직접 창업으로 재계 30위권 비상장 제국 구축",
+    "sources": [
+      "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A4%91%EA%B7%BC_(1941%EB%85%84)",
+      "https://namu.wiki/w/%EC%9D%B4%EC%A4%91%EA%B7%BC(%EA%B8%B0%EC%97%85%EC%9D%B8)",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=365685"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "self-made",
+    "descriptionKo": "재벌·정치 인맥 전무. 1976년 우진건설산업으로 첫 창업했으나 부도. 1983년 삼진엔지니어링을 다시 설립해 정부 주택기금을 받을 수 있는 임대아파트 사업으로 재기. 1990년대 부영으로 사명을 바꾸고 '국민임대주택' 한 우물을 팠음. 본인 표현 '세발자전거 철학(균형이 잡혀야 멀리 간다)'으로 임대주택 단일 사업 모델을 40년간 유지. 부영 본사 및 핵심 계열사(부영주택·동광주택·광영토건) 지분 90~100%를 본인이 직접 보유한 비상장 제국. Forbes self-made score 9/10.",
+    "selfMadeScore": 9,
+    "sources": [
+      "https://namu.wiki/w/%EC%9D%B4%EC%A4%91%EA%B7%BC(%EA%B8%B0%EC%97%85%EC%9D%B8)",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=365685",
+      "https://www.metroseoul.co.kr/article/20250923500125"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1976,
+      "event": "Founded Woojin Construction Industry — first business venture, later went bankrupt",
+      "eventKo": "우진건설산업 창업 — 첫 사업, 후일 부도로 폐업",
+      "whyItMatteredKo": "본인 첫 사업 실패 경험. 자본 없이 일반 건설업으로 진입했다가 좌절. 1980년대 임대주택으로 방향을 트는 결정적 학습."
+    },
+    {
+      "year": 1983,
+      "event": "Founded Samjin Engineering, later renamed Booyoung; pivoted to government-backed rental housing",
+      "eventKo": "삼진엔지니어링 설립(후일 부영으로 사명 변경) — 정부 주택기금 활용 임대주택 사업 본격 시작",
+      "whyItMatteredKo": "초기 자본이 없었기 때문에 정부 국민주택기금에 의지할 수 있는 임대주택업으로 진입. 본인 의지가 아닌 자본 제약이 만든 선택이 평생의 사업 모델이 됨."
+    },
+    {
+      "year": 1993,
+      "event": "Mass-produced 'Booyoung Sarangro' rental apartments nationwide",
+      "eventKo": "전국 단위 '부영 사랑으로' 임대아파트 대량 공급 시작",
+      "whyItMatteredKo": "수도권 외 지방 중소도시·소형 평형 임대아파트 시장의 사실상 독점 사업자가 됨. 정부 기금+분양전환 임대 구조로 자기자본 부담을 최소화하면서 대규모 자산 축적."
+    },
+    {
+      "year": 1997,
+      "event": "Received honorary diploma from Konkuk University, 37 years after dropping out",
+      "eventKo": "건국대학교 명예졸업장 수여 — 중퇴 37년 만",
+      "whyItMatteredKo": "학력 콤플렉스 해소의 상징적 사건. 이후 평생 학습으로 이어지는 동기."
+    },
+    {
+      "year": 2001,
+      "event": "Acquired Muju Deogyusan Resort from Korea Electric Cable Company; expanded into leisure",
+      "eventKo": "한국전선공업으로부터 무주덕유산리조트 인수 — 레저 사업 진출",
+      "whyItMatteredKo": "임대주택 일변도에서 레저로 사업 영역 확장. 후일 사회공헌·지역경제 활성화 명분의 거점으로 활용."
+    },
+    {
+      "year": 2004,
+      "event": "Indicted on tax evasion and embezzlement charges — first major legal trouble",
+      "eventKo": "탈세·횡령 혐의 기소 — 첫 대형 법적 위기",
+      "whyItMatteredKo": "비상장 제국의 거버넌스 취약성이 처음 외부에 노출. 이후 평생 따라다니는 오너 리스크의 시작."
+    },
+    {
+      "year": 2018,
+      "event": "Re-arrested on similar embezzlement and breach-of-trust charges; resigned as group chairman",
+      "eventKo": "유사 횡령·배임 혐의로 재구속, 그룹 회장직 사임",
+      "whyItMatteredKo": "비상장 100% 오너 구조가 다시 검찰 수사의 대상이 됨. 노년에 다시 법정에 서는 이미지 손상."
+    },
+    {
+      "year": 2021,
+      "event": "Released on parole after serving partial sentence",
+      "eventKo": "가석방으로 출소",
+      "whyItMatteredKo": "건강 문제와 고령을 이유로 가석방. 사회 활동·기부 행보로 평판 회복 시동."
+    },
+    {
+      "year": 2023,
+      "event": "Special pardon on Liberation Day (8.15); reinstated as Booyoung chairman; donated KRW 100M each to 280 home-village residents (~KRW 28B)",
+      "eventKo": "8.15 광복절 특별사면, 부영 회장직 공식 복귀; 고향 순천 주민 280명에 각 1억원씩 약 280억원 기부",
+      "whyItMatteredKo": "법적 부담 해소 후 첫 행보로 고향 마을 주민 전원에게 1억원씩 현금 기부 — 한국 자수성가 회장의 가장 인상적인 고향 환원 사례. 동시에 본인 평판 자본의 대규모 회복."
+    },
+    {
+      "year": 2024,
+      "event": "Launched KRW 100M-per-child childbirth bonus for employees; awarded honorary doctorate in Law from Korea University; elected chairman of Korea Association of Senior Citizens",
+      "eventKo": "직원 자녀당 출산장려금 1억원 정책 발표(2021년 이후 출생 자녀 70명에 70억원 일괄 지급); 고려대 법학박사 학위 취득; 대한노인회 회장 취임",
+      "whyItMatteredKo": "한국 인구 위기에 대한 민간 차원의 가장 상징적 대응. 다른 대기업이 모방하는 효과까지 발생. 동시에 80대 후반 박사학위·노인회장 취임으로 '평생학습형 어른' 이미지 강화."
+    },
+    {
+      "year": 2025,
+      "event": "Continued childbirth bonus (KRW 28B more in 2025); Booyoung total assets ~KRW 21 trillion (Korea's [#26](https://github.com/namuloves/bujasaju/issues/26) chaebol)",
+      "eventKo": "2025년 시무식에서 직원 28명에게 출산장려금 28억원 추가 지급(누적 약 98억원); 부영 자산총액 약 21조원, 재계 26위 유지",
+      "whyItMatteredKo": "건설부동산 경기 악화로 부영주택 매출은 2020년 2.5조원 → 2023년 4,675억원으로 급감했지만, 보유 부동산 자산가치 덕분에 자산 순위는 방어. 사업 매출과 자산이 분리된 비상장 부동산 제국의 특성."
+    },
+    {
+      "year": 2026,
+      "event": "Inaugurated as 13th president of UN Association of Republic of Korea (UNAROK); Lee Yong-seob (former minister) named new Booyoung chairman in March",
+      "eventKo": "유엔한국협회 13대 회장 취임; 3월 이용섭 전 장관을 부영그룹 신임 회장으로 선임",
+      "whyItMatteredKo": "85세 무렵 본격적 경영 일선 후퇴. 본인은 명예회장·UN 협회 회장 등 외부 활동에 집중하고 그룹 운영은 외부 전문 경영인에게 이관."
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1983,
+      "eventKo": "임대주택 사업으로 재창업 — 자본 부족 때문에 어쩔 수 없이 선택한 모델이 평생의 무기가 됨",
+      "impactKo": "정부 기금에 의존할 수 있는 임대주택 구조가 자기자본 부담을 최소화하면서 대규모 부동산 자산 축적을 가능하게 함. 한국 임대주택 카테고리 자체의 사실상 창시자."
+    },
+    {
+      "year": 2018,
+      "eventKo": "두 번째 횡령·배임 구속과 회장직 사임",
+      "impactKo": "비상장 100% 오너 구조의 거버넌스 한계가 표면화. 가석방→사면→복귀까지 5년이 걸리며 그룹 운영에 공백 발생."
+    },
+    {
+      "year": 2023,
+      "eventKo": "광복절 사면 후 고향 주민 280명에 각 1억원 기부",
+      "impactKo": "법적 부담 해소와 동시에 평판 자본을 대규모로 회복. 이후 출산장려금·UN 협회 등 사회 공헌 행보의 출발점."
+    },
+    {
+      "year": 2024,
+      "eventKo": "출산장려금 1억원 정책 발표",
+      "impactKo": "한국 저출생 위기에 대한 가장 상징적 민간 대응. 다른 기업의 벤치마킹 대상이 되며 사회 담론을 주도하는 노년 회장 이미지 확립."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "부영(지주회사) 100% 보유 + 부영주택·동광주택·광영토건 등 건설·임대 계열사 90~100% 지분. 모든 핵심 계열사가 비상장이라 시세차익이 아닌 보유 부동산 자산가치와 임대료 현금흐름이 핵심.",
+    "wealthAcceleratorsKo": [
+      "1990~2010년대 정부 국민주택기금을 활용한 임대아파트 대량 공급",
+      "임대 후 분양전환을 통한 보유 부동산의 단계적 자산화",
+      "무주덕유산리조트 등 레저 부동산 보유로 자산 가치 다각화",
+      "비상장 100% 오너 구조 — 외부 주주 간섭 없이 의사결정 자유"
+    ],
+    "structuralAdvantagesKo": [
+      "한국 임대주택 시장의 사실상 카테고리 리더(특히 지방·중소형 평형)",
+      "정부 주택기금에 대한 40년 노하우와 관계망",
+      "모든 계열사 비상장 — 시장 공시 부담 없이 장기 의사결정 가능",
+      "본인 1인의 강력한 의사결정 구조 — 29개 계열사 겸직"
+    ],
+    "currentAssetAllocationKo": "부영 지주 100%·부영주택 등 건설 계열사 90% 이상 지분이 자산의 절대다수. 무주덕유산리조트, 캄보디아·라오스 호텔·골프장 등 해외 부동산 일부."
+  },
+  "failures": [
+    {
+      "year": 1976,
+      "descriptionKo": "첫 회사 우진건설산업 부도 — 자본 없이 일반 건설업 진입한 결과",
+      "howTheyOvercameKo": "1983년 삼진엔지니어링으로 재창업하면서 자본 제약을 우회할 수 있는 정부 주택기금 기반 임대주택 모델로 사업 구조 자체를 전환. 부도 경험이 사업 모델 선택의 결정적 학습이 됨.",
+      "lessonKo": "첫 사업 실패의 원인을 자기 자본의 한계로 정확히 진단했고, 한 번의 실패가 평생의 차별화된 사업 모델을 만들었다."
+    },
+    {
+      "year": 2004,
+      "descriptionKo": "탈세·횡령 혐의 첫 기소 — 비상장 제국의 거버넌스 취약성 노출",
+      "howTheyOvercameKo": "벌금형·집행유예로 마무리되었으나 외부 평판 자본 손상. 거버넌스 개선보다 사업 성장으로 덮으려 시도.",
+      "lessonKo": "비상장 100% 오너 구조의 검찰·국세청 리스크는 사업 규모가 커질수록 비례 증가한다. 제도적 장치 없이 신뢰 자본만으로는 방어가 어렵다."
+    },
+    {
+      "year": 2018,
+      "descriptionKo": "재차 횡령·배임으로 구속, 회장직 사임 — 노년의 법적 추락",
+      "howTheyOvercameKo": "2021년 가석방, 2023년 8.15 특별사면 후 복귀. 고향·직원 대상 대규모 기부와 출산장려금 정책으로 평판 회복.",
+      "lessonKo": "법적 리스크는 사업 성공으로 덮을 수 없다. 다만 진정성 있는 사회 공헌과 시간이 결합되면 평판 자본의 일부는 복원 가능하다."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "약 1조원", "sourceKo": "Forbes Korea 추정"},
+    {"year": 2018, "netWorth": "약 1.8조원", "sourceKo": "공정거래위원회 자산총액 발표 기준"},
+    {"year": 2021, "netWorth": "약 23조원(그룹 자산)", "sourceKo": "공정거래위원회 — 그룹 자산 정점"},
+    {"year": 2024, "netWorth": "약 21조원(그룹 자산)", "sourceKo": "공정거래위원회 자산총액"},
+    {"year": 2025, "netWorth": "$2B (약 2.8조원)", "sourceKo": "Forbes Real-Time Billionaires 2025 — 본인 개인 순자산 기준"}
+  ],
+  "quotes": [
+    {"textKo": "사업은 세발자전거 같다. 균형이 잡혀야 멀리 간다.", "context": "메트로서울 — 임대주택 한 길 철학"},
+    {"textKo": "내가 받은 모든 것이 마을 어른들과 군대 전우들 덕이라는 부채감을 평생 가지고 살아왔다.", "context": "2023년 고향 순천 주민 1억원 기부 시 회고"},
+    {"textKo": "출산은 가장 큰 사회 공헌이다. 1억원으로 한 가족을 응원할 수 있다면 회사가 망설일 이유가 없다.", "context": "2024년 부영 시무식 출산장려금 발표"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["자수성가 1세대", "임대주택 한 길", "고향·전우 부채감", "평생학습형", "비상장 제국 1인 의사결정", "사면·복귀의 노련함"],
+  "characterKo": {
+    "strengths": "자본 부족이라는 제약을 평생의 사업 모델로 전환한 발상. 임대주택이라는 마진은 낮지만 안정적인 카테고리에서 40년간 한 우물. 비상장 100% 오너로서 빠르고 일관된 의사결정. 노년에 출산장려금·고향 기부 등 사회 공헌으로 평판 회복.",
+    "weaknesses": "거버넌스가 본인 1인에게 집중된 구조의 반복적 법적 리스크(2004, 2018). 비상장 비밀주의로 외부 신뢰 자본 한계. 사업 매출은 2020년 정점 이후 급감 — 신규 성장 동력 부재. 후계 구도 명확하지 않음.",
+    "motivation": "전남 빈농 출신으로서 가난과 고향에 대한 부채감. '받은 것을 돌려준다'는 평생 동기가 80대에 출산장려금·고향 기부로 표현됨. 학력 콤플렉스를 평생학습으로 해소하려는 집념.",
+    "legacy": "한국 임대주택 카테고리의 사실상 창시자. 자수성가 1세대 회장의 전형. 출산장려금 1억원·고향 주민 1억원 기부로 한국 부자의 사회 공헌 모델을 새로 제시. 다만 거버넌스·후계 구도는 미해결 과제."
+  },
+  "sajuConnection": {
+    "ilju": "정묘",
+    "geokguk": "식신격",
+    "interpretationKo": "정묘 일주는 부드러운 등불(丁火)이 푸른 화초(卯木) 위에 얹혀 있는 형상으로, '작지만 따뜻하게 오래 가는 빛'이라는 본질을 가진다. 월지가 축토(丑土)이고 정화 일간에게 축토는 식신 자리에 가까워 식신격이 성립한다. 식신격의 핵심은 ① 한 가지 일을 오래·깊게 가꾸어 결실을 보는 농부형 인내, ② 사람·아랫사람·고향에 대한 따뜻한 환원 본능, ③ 큰 권력보다 안정적이고 지속 가능한 현금흐름을 선호하는 성향이다. 이중근 회장의 인생 — 임대주택 한 우물 40년, 고향 주민 280명에 1억원씩 기부, 출산장려금 1억원, 80대에 출산·노인·UN 활동까지 사회 환원에 집중 — 은 식신격이 가장 곱게 발현된 사례다. 정화는 본질적으로 '약하지만 꺼지지 않는 불'이라 화려한 폭발은 없으나 한 자리에서 오래 빛나는 패턴인데, 부영이 비상장 제국으로 40년간 임대주택만 했다는 점과 정확히 호응한다. 다만 식신격이 강해지면 '내가 베푼 만큼 인정받지 못한다'는 서운함과 '거버넌스를 외부에 내주지 못하는 1인 의사결정 집착'이 부작용으로 나타나는데, 2004·2018년 두 차례 법적 위기는 이런 명리적 결함과도 연결해 해석할 수 있다.",
+    "keyEvents": [
+      {"year": 1983, "saju": "갑신 대운(정인+정재)", "interpretationKo": "정인은 학문·기금, 정재는 안정적 자금. 정부 주택기금이라는 '제도적 자금'을 활용한 임대주택 사업 진입과 정확히 호응."},
+      {"year": 2018, "saju": "정해 대운(겁재+정관)", "interpretationKo": "겁재는 형제·동업자·세무조사의 별, 정관은 법·규제. 노년에 검찰·세무 이슈가 다시 터지는 명리적 흐름과 일치."},
+      {"year": 2023, "saju": "병술 대운(겁재+상관)", "interpretationKo": "사면·복귀와 함께 본인의 표현(상관)이 외부로 강하게 드러나는 시기. 출산장려금·고향 기부 같은 큰 화제성 행보가 이 대운의 색깔."}
+    ]
+  },
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A4%91%EA%B7%BC_(1941%EB%85%84)",
+    "https://namu.wiki/w/%EC%9D%B4%EC%A4%91%EA%B7%BC(%EA%B8%B0%EC%97%85%EC%9D%B8)",
+    "https://namu.wiki/w/%EB%B6%80%EC%98%81%EA%B7%B8%EB%A3%B9",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=365685",
+    "https://www.metroseoul.co.kr/article/20250923500125",
+    "https://en.sedaily.com/news/2026/02/12/booyoung-group-chairman-lee-joong-keun-named-head-of-un",
+    "https://philanthropynewsdigest.org/news/korean-billionaire-gives-more-than-100-million-to-hometown-residents",
+    "https://fortune.com/2025/10/16/billionaire-boss-south-korea-booyoung-encouraging-workers-to-have-children-75000-bonus/",
+    "https://www.koreaherald.com/article/10707239",
+    "https://www.economidaily.com/view/20240223140007955"
+  ]
+}

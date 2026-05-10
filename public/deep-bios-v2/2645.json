@@ -1,0 +1,73 @@
+{
+  "id": 2645,
+  "name": "Binny Bansal",
+  "nameKo": "비니 반살",
+  "birthday": "1982-12-03",
+  "birthPlace": "Chandigarh, India",
+  "birthPlaceKo": "인도 찬디가르",
+  "netWorth": "$1.4B",
+  "nationality": "IN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "경신",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1982년 인도 찬디가르에서 태어났습니다. 인도공과대학(IIT 델리) 컴퓨터공학 학사 학위를 취득한 정통 IIT 1세대 산업 인재입니다. 졸업 직후 사르나라(Sarnoff)·아마존 인도 등을 거쳐 2007년 사친 반살(이름 같음, 동명이인 아닌 다른 인물)과 함께 플립카트(Flipkart)를 공동 창업했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — IIT 델리 출신 인도계 엔지니어가 인도 e커머스 1위 회사 공동 창업주로 도약한 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Binny_Bansal"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2007년 동명이인 사친 반살과 함께 인도 벵갈루루에서 플립카트를 공동 창업, 인도 1위 e커머스 회사로 키웠습니다. 2018년 월마트가 플립카트를 약 160억 달러에 인수하며 본인 자본이 한 번에 환원됐고, 2019년 본인 일부 지분을 매각해 자산을 분산시켰습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://en.wikipedia.org/wiki/Flipkart"]
+  },
+  "careerTimeline": [
+    {"year": 2005, "event": "Joins Sarnoff/Amazon India as engineer", "eventKo": "사르나라·아마존 인도 엔지니어로 출발", "whyItMatteredKo": "경신 일주의 가을 쇠 일간이 자기가 만든 결과물의 흐름을 본인 사업으로 환원하기 시작한 출발점입니다."},
+    {"year": 2007, "event": "Co-founds Flipkart with Sachin Bansal", "eventKo": "사친 반살과 함께 인도 벵갈루루에서 플립카트 공동 창업", "whyItMatteredKo": "본업의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2014, "event": "Flipkart raises $1B; becomes India's largest startup", "eventKo": "플립카트 10억 달러 투자 유치, 인도 최대 스타트업으로 도약", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2018, "event": "Walmart acquires Flipkart for ~$16B", "eventKo": "월마트가 플립카트를 약 160억 달러에 인수, 본인 자본 한 번에 평가", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본으로 한 번에 환원된 결정적 결단입니다."},
+    {"year": 2019, "event": "Steps down amid personal misconduct allegations", "eventKo": "개인 비위 의혹 직후 그룹 CEO직 사임", "whyItMatteredKo": "외부 평판 시스템이 본업 운영자 정체성을 한 번에 시험한 분기점입니다."},
+    {"year": 2024, "event": "Continues investing in Indian startups via xto10x", "eventKo": "인도 스타트업 투자·자문 회사 xto10x 등으로 자산 다각화", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 흐름입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2007, "eventKo": "플립카트 공동 창업", "impactKo": "경신 일주의 가을 쇠 일간이 자기가 만든 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2018, "eventKo": "월마트가 플립카트 약 160억 달러에 인수", "impactKo": "외부 자원의 큰 흐름이 본인 자본으로 한 번에 환원된 결정적 결단입니다."},
+    {"year": 2019, "eventKo": "그룹 CEO직 사임", "impactKo": "외부 평판 시스템이 본인 운영자 정체성을 한 번에 시험한 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "2018년 월마트 인수 직후 매각 대금에서 환원된 자본과 xto10x 등 후속 투자 자산이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2007년 창업, 2014년 10억 달러 투자 유치, 2018년 월마트 인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 1세대 e커머스 자수성가 정체성, IIT·아마존 학습 깊이, 그리고 월마트 인수 자본 회수 통로가 강점입니다.",
+    "currentAssetAllocationKo": "월마트 인수 대금 환원 자본과 인도 스타트업 투자 포트폴리오가 자산의 핵심으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2017, "descriptionKo": "플립카트 운영기에 글로벌 e커머스 경쟁 격화와 운영 적자가 한 차례 시험받았습니다.", "howTheyOvercameKo": "월마트 인수 협상으로 자본 회수 통로를 만들어 통과했습니다.", "lessonKo": "스타트업 운영은 거시 사이클 한 번에 자본 구조가 시험받습니다."},
+    {"year": 2018, "descriptionKo": "월마트 인수 직후 그룹 CEO 정체성과 사친 반살과의 공동 창업주 관계가 시험받았습니다.", "howTheyOvercameKo": "단계적 운영 분담과 자본 회수로 통과했습니다.", "lessonKo": "큰 인수 거래는 공동 창업주 관계의 변동을 동반합니다."},
+    {"year": 2019, "descriptionKo": "개인 비위 의혹으로 그룹 CEO직 사임과 평판 회복 절차가 동시에 진행됐습니다.", "howTheyOvercameKo": "단계적 평판 회복과 새 사업 통로 개척으로 통과 중입니다.", "lessonKo": "외부 평판 시스템은 본업 운영자 정체성을 한 번에 시험할 수 있습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2014, "netWorth": "$0.5B", "sourceKo": "투자 유치 후 추정"},
+    {"year": 2018, "netWorth": "$1.5B", "sourceKo": "월마트 인수 직후"},
+    {"year": 2022, "netWorth": "$1.4B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["플립카트 공동 창업주", "IIT 델리 출신", "월마트 인수", "xto10x 운영", "인도 e커머스 1세대"],
+  "characterKo": {
+    "strengths": "IIT·아마존 학습 깊이를 본인 사업으로 환원한 카테고리 결합 본능과, 월마트 인수 협상으로 자본 회수 통로를 만든 협상력이 강점입니다.",
+    "weaknesses": "외부 평판 시스템과의 충돌이 본업 운영자 정체성을 한 번에 시험한 위험으로 만년에 현실화됐습니다.",
+    "motivation": "찬디가르 출신 IIT 1세대 엔지니어가 본인 세대에서 인도 e커머스 1위 회사를 만들겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "인도 e커머스 1세대 자수성가의 표본입니다. 11년 만에 월마트 인수로 자본을 환원시킨 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gyeong-Sin day pillar (autumn metal on monkey metal) and Hae month branch combine into a sharply refined, externally-fueled profile. The format that channels wealth through what he produces matches an 11-year arc from the 2007 founding to the 2018 Walmart acquisition.",
+    "summaryKo": "일주는 경신이라 가을 큰 쇠가 같은 가을 쇠(원숭이의 자리) 위에 놓인 형국으로, 두 겹의 단단한 쇠가 결과물로 압축되는 자리입니다. 월지 해는 한겨울 물의 자리라 일간을 외부 자원의 큰 흐름과 연결하는 통로입니다. 격국은 자기가 만든 결과물로 부를 빚는 흐름이라, 2007년 플립카트 창업, 2014년 투자 유치, 2018년 월마트 인수까지 모두 '직접 만든 결과물이 외부 자원과 결합해 본인 자본으로 한 번에 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Binny_Bansal",
+    "https://en.wikipedia.org/wiki/Flipkart",
+    "https://www.forbes.com/profile/binny-bansal/"
+  ]
+}

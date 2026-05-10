@@ -1,0 +1,72 @@
+{
+  "id": 1189,
+  "name": "Hu Rongda",
+  "nameKo": "후룽다",
+  "birthday": "1959-10-01",
+  "birthPlace": "Wuyi, Jinhua, Zhejiang, China",
+  "birthPlaceKo": "중국 저장성 진화 우이",
+  "netWorth": "$3.5B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "병진",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "저장성 진화 우이의 평범한 가정에서 태어났습니다. 학력과 초기 경력은 공개 정보가 거의 없습니다. 우이는 형석 광산이 있어 형광 화학 산업의 입지로 자연스럽게 자리 잡은 고향입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 외딴 내륙 도시에서 형광 화학 회사를 직접 키운 인물입니다.",
+    "sources": ["https://www.sanmeichem.com/index_en.html"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년대 후반부터 우이에서 저장 산메이 화학을 키웠고, 2001년 정식 법인화, 2019년 4월 상하이증권거래소 상장으로 자본 가치가 폭발했습니다. 아들 후치샹이 현재 회장직을 맡고 있습니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://realtimebillionaires.de/profile/hu-rongda"]
+  },
+  "careerTimeline": [
+    {"year": 1959, "event": "Born in Wuyi, Jinhua, Zhejiang", "eventKo": "저장성 진화 우이에서 출생", "whyItMatteredKo": "형석 광산이 있는 화학 산업 입지에서 태어난 출발점입니다."},
+    {"year": 2001, "event": "Sanmei Chemical formally established", "eventKo": "저장 산메이 화학 정식 법인화", "whyItMatteredKo": "형광 화학 회사로 사업 정체성을 정한 분기점입니다."},
+    {"year": 2010, "event": "Rides global HFC build-out as China dominates refrigerants", "eventKo": "글로벌 HFC 냉매 시장 확장 흐름에 올라타 글로벌 수출 비중 확대", "whyItMatteredKo": "정관격이 산업 표준과 글로벌 규제 흐름 안에서 자리를 잡은 시기입니다."},
+    {"year": 2019, "event": "IPO on Shanghai Stock Exchange (603379)", "eventKo": "4월 2일 상하이증권거래소 상장", "whyItMatteredKo": "회사가 정식 자본 가치로 환원된 결정적 사건입니다."},
+    {"year": 2024, "event": "Kigali HFC quota tightening lifts margins", "eventKo": "키갈리 의정서 HFC 쿼터 강화로 마진 상승, 자산 급등", "whyItMatteredKo": "글로벌 규제가 본업 마진을 끌어올린 시기입니다. 정관격이 외부 질서를 자기 자본 가속으로 변환한 분기점입니다."},
+    {"year": 2025, "event": "Wealth jumps to $3.35B as quotas tighten supply", "eventKo": "쿼터제 강화로 자산 33억 달러 도달, 글로벌 #1,214로 도약", "whyItMatteredKo": "산업 규제가 회사 가치를 두 배로 끌어올린 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2001, "eventKo": "저장 산메이 화학 정식 법인화 — 형광 화학 단일 카테고리로 진입", "impactKo": "정관격이 산업 표준 안에서 부를 쌓기 시작한 분기점입니다."},
+    {"year": 2019, "eventKo": "상하이증권거래소 상장으로 자본 가치 폭발", "impactKo": "병진 일주의 단단한 결과물이 자본 시장 가치로 환원된 결정적 결단입니다."},
+    {"year": 2024, "eventKo": "키갈리 HFC 쿼터제 강화로 마진 폭증", "impactKo": "외부 질서(글로벌 규제)가 본인 자본을 두 배로 키워준 정관격의 전형입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 상장사 저장 산메이 화학(603379) 가족 지분에서 나오는 주가 가치가 핵심 자산입니다. R134a, R125, R32, R22 등 HFC 냉매와 무수 불화수소가 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "2010년대 글로벌 HFC 수출 확대, 2019년 상장, 2024~2025년 키갈리 쿼터제로 인한 가격 상승이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "저장 우이의 형석 광산 입지와 글로벌 100개국 이상 수출망이 강점입니다.",
+    "currentAssetAllocationKo": "산메이 화학 지분이 자산의 절대 비중. 아들 후치샹이 회장직을 맡으면서 후계 이양은 이미 진행됐습니다."
+  },
+  "failures": [
+    {"year": 2024, "descriptionKo": "키갈리 의정서와 중국 자체 쿼터제로 R22, R134a, R125, R32 등 본업 핵심 분자가 단계적 생산 감축 대상에 올랐습니다.", "howTheyOvercameKo": "단기적으로는 쿼터로 가격이 오르며 마진이 폭증했지만, 장기적으로 분자 자체가 사라지는 흐름입니다.", "lessonKo": "환경 규제는 단기 호재가 장기 위협이 되는 역설을 만듭니다."},
+    {"year": 2025, "descriptionKo": "단일 저장 우이 단일 회사 단일 분자군에 자산이 집중된 구조입니다.", "howTheyOvercameKo": "후계자 후치샹이 사업 다각화 의제를 검토하고 있는 것으로 알려졌습니다.", "lessonKo": "단일 카테고리 글로벌 1위는 영광이지만 다음 사이클에서 가장 흔들리기 쉬운 자리입니다."},
+    {"year": 2026, "descriptionKo": "영어권 미디어 노출이 거의 없어 글로벌 자본 시장에서 평가 인지도가 낮은 상태입니다.", "howTheyOvercameKo": "본업 실적과 후계 안정으로 시장 신뢰를 보충하는 방식을 택하고 있습니다.", "lessonKo": "조용한 운영의 미덕은 신뢰를 주지만 글로벌 평가 단계에서는 정보 비대칭으로 작동합니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2020, "netWorth": "$1.1B", "sourceKo": "포브스 등재"},
+    {"year": 2023, "netWorth": "$1.9B", "sourceKo": "포브스 추정"},
+    {"year": 2025, "netWorth": "$3.4B", "sourceKo": "포브스 리얼타임"},
+    {"year": 2026, "netWorth": "$3.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["내륙 화학 1세대", "단일 카테고리 집중", "글로벌 규제 수혜", "미디어 비공개", "아들 후계 안정"],
+  "characterKo": {
+    "strengths": "저장 우이라는 형석 광산 입지를 단일 카테고리 글로벌 회사로 연결한 입지 본능과, 키갈리 쿼터제 같은 글로벌 규제 흐름을 본업 마진으로 환원한 타이밍 감각이 강점입니다.",
+    "weaknesses": "단일 회사 단일 분자군 의존도가 매우 높고, 환경 규제의 장기 흐름은 본업 자체를 사라지게 할 위험이 있습니다.",
+    "motivation": "공개된 동력은 거의 없습니다. 외딴 내륙 도시에서 글로벌 형광 화학 회사를 만들겠다는 자수성가형 야망이 동력으로 추정됩니다.",
+    "legacy": "중국 자수성가 화학 부호의 표본 중 하나입니다. 글로벌 환경 규제가 본업 가격을 끌어올린 정관격 자수성가의 전형적 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Jin day pillar (autumn fire on dragon earth) and Yu month branch combine into a quietly authoritative, regulation-aligned profile. The format that channels wealth through external order matches a 25-year arc of building Sanmei Chemical from 2001, listing on Shanghai in 2019, and riding the 2024 Kigali HFC quota tightening into a doubling of wealth.",
+    "summaryKo": "일주는 병진이라 가을 화 일간이 용의 자리 흙 위에 놓인 형국으로, 화 일간이 단단한 흙 안에서 결과물로 압축되는 자리입니다. 월지 유는 가을 쇠의 자리라 화 일간이 만들어낸 결과물을 깎아 시장에 내보내는 역할을 합니다. 격국은 외부 질서·체계 안에서 부를 만드는 흐름이라, 2001년 회사 정식 법인화, 2019년 상장, 2024년 키갈리 쿼터제 수혜까지 모두 '글로벌 질서가 본업 가치를 끌어올린다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://realtimebillionaires.de/profile/hu-rongda",
+    "https://www.sanmeichem.com/index_en.html"
+  ]
+}

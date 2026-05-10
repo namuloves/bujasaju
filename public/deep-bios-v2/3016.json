@@ -1,0 +1,130 @@
+{
+  "id": "3016",
+  "name": "Kim Dong-kwan",
+  "nameKo": "김동관",
+  "birthday": "1983-04-07",
+  "birthPlace": "Seoul, South Korea",
+  "birthPlaceKo": "서울특별시",
+  "netWorth": "$0.42B",
+  "nationality": "KR",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "을축",
+  "gyeokguk": "정재격",
+  "_notes": "billionaires.json 등록 birthday는 1983-04-07이나 위키백과·나무위키는 1983-10-31로 기록. 약 7개월 차이. DB 등록값 기준으로 사주 산출했으며 보정 필요 가능.",
+  "childhood": {
+    "summaryKo": "1983년 출생. 부친 김승연(한화그룹 회장) + 모친 서영민(전 내무부 장관 서정화의 고명딸) 사이의 장남. 한화 3세대 핵심 후계자. 서울 토월초등학교·구정중학교(현 압구정중학교) 졸업 후 미국 유학 — 2002년 세인트폴고등학교 졸업, 2006년 하버드대학교 정치학 학사. 한국 재벌 4세 중 가장 정통적인 미국 명문대 학력 트랙. 학부 졸업 후 공군 학사장교 117기 통역장교 복무(2006~2009).",
+    "capitalTypeKo": "상속 — 한화 김승연 장남, 그룹 차기 총수",
+    "sources": [
+      "https://namu.wiki/w/%EA%B9%80%EB%8F%99%EA%B4%80",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=383862",
+      "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%8F%99%EA%B4%80_(1983%EB%85%84)"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "한화 창업주 김종희(1세) → 김승연(2세) → 김동관(3세) — 그룹 차기 총수. 2010년 한화에 입사 → 한화솔루션 전략부문 대표 → 2022년 8월 부회장 승진. 한화·한화솔루션·한화에어로스페이스·한화임팩트 등 4개 핵심 계열사의 전략부문 대표 겸직 — '4계 계열사 경영' 차기 총수. 본인이 한화(KOSPI 000880, 지주) 약 4.91% + 친족 분산 보유. 동생 김동원(한화생명)·김동선(한화호텔앤리조트)과 분업 구조. 2025년 'MASGA(Make America's Space Great Again)' 비전으로 미국 우주·방산 시장 진출 주도. Forbes self-made score 2/10.",
+    "selfMadeScore": 2,
+    "sources": [
+      "https://namu.wiki/w/%EA%B9%80%EB%8F%99%EA%B4%80",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=383862",
+      "https://www.thevaluenews.co.kr/news/186777"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 2010,
+      "event": "Joined Hanwha as Manager after military service",
+      "eventKo": "통역장교 복무 후 한화 차장 입사",
+      "whyItMatteredKo": "27세에 가문 회사 후계자 코스 시작."
+    },
+    {
+      "year": 2014,
+      "event": "Promoted to President of Hanwha Solar (태양광)",
+      "eventKo": "한화솔라원(한화솔루션 전신) 사장 — 30대 초반 사장",
+      "whyItMatteredKo": "본인이 직접 태양광 사업 책임. 한화 미래 사업의 출발점."
+    },
+    {
+      "year": 2022,
+      "event": "Promoted to Vice Chairman (Aug 29); concurrent CEO of 4 strategic divisions",
+      "eventKo": "8월 29일 부회장 승진; 한화·한화솔루션·한화에어로스페이스 등 4개 전략부문 대표 겸직",
+      "whyItMatteredKo": "차기 총수 지위 공식화. 39세 부회장."
+    },
+    {
+      "year": 2024,
+      "event": "Hanwha Aerospace global K-defense exports surge — Poland K9 등 누적 수주 30조원+",
+      "eventKo": "한화에어로스페이스 K-방산 글로벌 수출 급증 — 폴란드 K9 등 누적 수주 30조원+",
+      "whyItMatteredKo": "본인 시대 한화 방산의 글로벌 폭발. 차기 총수의 결정적 트랙 레코드."
+    },
+    {
+      "year": 2025,
+      "event": "Launched 'MASGA' vision (Make America's Space Great Again); Hanwha Aerospace selected as 'CEO of the Year' by Hankyung Magazine",
+      "eventKo": "'MASGA' 비전 발표 — 미국 우주·방산 시장 진출; 한경매거진 '2025 올해의 CEO' 선정",
+      "whyItMatteredKo": "본인 글로벌 비전의 본격 가시화. 차기 총수로서의 사회적 영향력 정점."
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 2014,
+      "eventKo": "30대 초반 한화솔라원 사장",
+      "impactKo": "본인이 직접 태양광 사업 책임. 한화 미래 사업의 출발점."
+    },
+    {
+      "year": 2022,
+      "eventKo": "39세 부회장 승진 + 4계 계열사 겸직",
+      "impactKo": "차기 총수 지위 공식화. 한화 3세 본격 시대."
+    },
+    {
+      "year": 2024,
+      "eventKo": "K-방산 글로벌 수출 30조원+",
+      "impactKo": "본인 시대 한화의 결정적 트랙 레코드."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "한화(KOSPI 000880, 지주) 약 4.91% + 가족 친족 분산 보유. 한화에어로스페이스(KOSPI 012450)·한화솔루션·한화임팩트 등 핵심 계열사 운영.",
+    "wealthAcceleratorsKo": [
+      "한화에어로스페이스 K-방산 글로벌 수출 폭증",
+      "한화솔루션 태양광·수소",
+      "한화임팩트 미래 사업 투자",
+      "한화오션 조선·해양"
+    ],
+    "structuralAdvantagesKo": [
+      "한화 3세 정통성",
+      "K-방산 슈퍼사이클의 결정적 시기",
+      "본인 + 동생 2명 분업 구조",
+      "MASGA 미국 우주·방산 비전"
+    ],
+    "currentAssetAllocationKo": "한화 지분이 자산의 핵심. 가족 분산 보유."
+  },
+  "failures": [],
+  "wealthHistory": [
+    {"year": 2022, "netWorth": "약 3,000억원", "sourceKo": "부회장 승진 시점"},
+    {"year": 2024, "netWorth": "약 5,000억원", "sourceKo": "K-방산 폭증 후"},
+    {"year": 2025, "netWorth": "$0.42B (약 0.59조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+  ],
+  "quotes": [
+    {"textKo": "MASGA — Make America's Space Great Again.", "context": "2025 미국 우주·방산 비전 발표"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["한화 3세 차기 총수", "하버드 정치학", "K-방산 글로벌화", "MASGA 비전", "39세 부회장"],
+  "characterKo": {
+    "strengths": "하버드 정치학의 학구적 신뢰성. 30대 초반 한화솔라원 사장의 빠른 트랙. K-방산 슈퍼사이클을 본인 시대에 정확히 잡은 사이클 감각. 동생들과의 분업 구조.",
+    "weaknesses": "후계자라는 정체성의 한계. 본인 직접 사업 창출보다 가문 자산 운영. 단일 그룹 의존도.",
+    "motivation": "한화 3세로서 본인 시대에 그룹을 글로벌 톱티어로 키우겠다는 의지. K-방산·우주·수소 등 차세대 카테고리 선점.",
+    "legacy": "한화 3세 차기 총수. K-방산 글로벌화 1세대 추진자. MASGA 미국 시장 진출의 비전 설계자."
+  },
+  "sajuConnection": {
+    "ilju": "을축",
+    "geokguk": "정재격",
+    "interpretationKo": "을축 일주는 부드러운 풀(乙木)이 진흙·옥토(丑土) 위에 뿌리내린 형상. 정재격은 본인이 직접 관리해야 하는 안정적 자산을 평생 관리하는 패턴. 김동관 부회장의 인생 — 하버드 → 한화 입사 → 솔라 사장 → 부회장 → K-방산 글로벌화 — 는 정재격이 한국 재벌 3세 후계자에서 발현된 사례.",
+    "keyEvents": []
+  },
+  "sources": [
+    "https://namu.wiki/w/%EA%B9%80%EB%8F%99%EA%B4%80",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=383862",
+    "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%8F%99%EA%B4%80_(1983%EB%85%84)",
+    "https://www.thevaluenews.co.kr/news/186777",
+    "https://magazine.hankyung.com/business/article/202512181848b"
+  ]
+}

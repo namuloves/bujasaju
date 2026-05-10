@@ -1,0 +1,73 @@
+{
+  "id": 1712,
+  "name": "Ke Zunhong",
+  "nameKo": "커쭌훙",
+  "birthday": "1954-07-01",
+  "birthPlace": "Sichuan, China",
+  "birthPlaceKo": "중국 쓰촨성",
+  "netWorth": "$2.3B",
+  "nationality": "CN",
+  "industry": "Healthcare",
+  "gender": "M",
+  "ilju": "무오",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "쓰촨성에서 태어났습니다. 1996년 청두 캉훙 제약 그룹이 설립된 직후 경영진에 합류했고 1998년 회장 자리에 올랐습니다. 학력 정보는 공개 자료가 빈약합니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 청두 캉훙 제약을 안과·CNS·소화기·내분비 약품 회사로 키운 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Chengdu_Kanghong_Pharmaceutical_Group"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1996년 회사 설립 직후 경영진 합류, 1998년 회장 취임, 2000년대 가족 사유화로 지배 지분을 확보했습니다. 2013년 콘버셉트(랑무) 출시로 중국 최초 자체 개발 항VEGF 바이오 의약품 자리를 만들었고, 2015년 6월 선전 상장으로 자본 가치를 환원했습니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://en.wikipedia.org/wiki/Conbercept"]
+  },
+  "careerTimeline": [
+    {"year": 1996, "event": "Chengdu Kanghong Pharmaceutical Group founded", "eventKo": "10월 청두 캉훙 제약 그룹 설립, 본인 경영진 합류", "whyItMatteredKo": "무오 일주의 화 기질이 본업 자리에 들어선 출발점입니다."},
+    {"year": 1998, "event": "Becomes Chairman", "eventKo": "회장 취임", "whyItMatteredKo": "본격 단독 운영 책임을 맡은 결정적 분기점입니다."},
+    {"year": 2003, "event": "Family begins acquiring shares toward private control", "eventKo": "2000년대 본인과 가족이 단계적으로 지분 확보", "whyItMatteredKo": "회사 사유화의 본격 단계입니다. 자기 결과물로 부를 빚는 흐름이 사유화로 발현됐습니다."},
+    {"year": 2013, "event": "Conbercept (Lumitin) approved by China NMPA for wet AMD", "eventKo": "콘버셉트(랑무) 중국 NMPA 승인 — 첫 국산 항VEGF 바이오 의약품", "whyItMatteredKo": "캉훙 투자 가치의 핵심이 된 결정적 결단입니다."},
+    {"year": 2015, "event": "IPO on Shenzhen Stock Exchange (002773)", "eventKo": "6월 선전증권거래소 상장 (002773)", "whyItMatteredKo": "캉훙 가족 자본 가치가 자본 시장 가치로 환원된 분기점입니다."},
+    {"year": 2021, "event": "Conbercept's PANDA-1/PANDA-2 Phase III global trials fail", "eventKo": "콘버셉트 글로벌 임상 PANDA-1·PANDA-2 실패, 미국·글로벌 진출 좌초", "whyItMatteredKo": "캉훙 주가가 큰 폭으로 빠지고 글로벌 성장 가설이 사실상 취소된 만년의 가장 큰 사건입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1998, "eventKo": "캉훙 회장 취임", "impactKo": "무오 일주의 화 일간이 본업 운영 자리로 옮긴 결정적 결단입니다."},
+    {"year": 2013, "eventKo": "콘버셉트 NMPA 승인 — 첫 국산 항VEGF 바이오 의약품", "impactKo": "자기가 만든 결과물로 부를 빚는 흐름이 글로벌 카테고리 자리로 발현된 분기점입니다."},
+    {"year": 2021, "eventKo": "PANDA 글로벌 임상 실패, 글로벌 가설 취소", "impactKo": "외부 평가 시스템이 본인 결과물을 검증하는 시험대로 작동한 만년의 가장 극적인 흐름입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전 상장사 청두 캉훙 제약(002773) 가족 지분에서 나오는 주가 가치와 배당이 핵심입니다. 콘버셉트 안과 바이오 약품과 CNS·소화기·내분비 약품이 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "1998년 회장 취임, 2013년 콘버셉트 승인, 2015년 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "쓰촨 본거지 정치 자본과 중국 최초 항VEGF 바이오 의약품 자리, 그리고 가족 지배 구조가 강점입니다.",
+    "currentAssetAllocationKo": "캉훙 제약 가족 지분이 자산의 절대 비중. 단일 회사 의존도가 매우 높습니다."
+  },
+  "failures": [
+    {"year": 2021, "descriptionKo": "콘버셉트의 미국·글로벌 시장 진입을 위한 PANDA-1·PANDA-2 임상이 아플리버셉트 대비 일차 평가 변수에 도달하지 못했습니다. 캉훙 주가가 크게 빠지고 국제 성장 가설이 사실상 취소됐습니다.", "howTheyOvercameKo": "중국 내수 시장 강화와 다른 카테고리(CNS, 소화기) 비중 확대로 통과시키는 작업을 진행 중입니다.", "lessonKo": "글로벌 임상은 카테고리 자체의 글로벌 성장 가설을 한 번에 검증·취소합니다."},
+    {"year": 2017, "descriptionKo": "콘버셉트가 중국 국가 보험 약품 목록(NRDL)에 들어가면서 가격 인하 압박이 컸고, 로슈 루센티스 바이오시밀러와 국산 항VEGF 경쟁이 마진을 압박했습니다.", "howTheyOvercameKo": "단계적 가격 인하 수용과 처방 환자 수 확대로 매출 볼륨을 늘렸습니다.", "lessonKo": "중국 NRDL 등재는 매출 볼륨과 마진을 동시에 흔드는 양면 사건입니다."},
+    {"year": 2023, "descriptionKo": "캉훙의 바이오 의약품 프랜차이즈가 콘버셉트라는 단일 분자에 과도하게 의존돼 있다는 비판이 셀사이드 분석가들로부터 반복됐습니다.", "howTheyOvercameKo": "후속 파이프라인 후기 단계 다각화 작업을 진행 중이지만 아직 의미 있는 성과는 미상입니다.", "lessonKo": "단일 분자 의존도는 다음 사이클에서 가장 흔들리기 쉬운 자리입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$1.0B", "sourceKo": "선전 상장 직후"},
+    {"year": 2020, "netWorth": "$3.0B", "sourceKo": "콘버셉트 본격 매출 정점"},
+    {"year": 2022, "netWorth": "$1.5B", "sourceKo": "PANDA 임상 실패 후"},
+    {"year": 2026, "netWorth": "$2.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["청두 본거지", "콘버셉트 1세대", "PANDA 임상 실패", "단일 분자 의존", "가족 지배 구조"],
+  "characterKo": {
+    "strengths": "중국 최초 자체 개발 항VEGF 바이오 의약품을 만든 R&D 베팅 본능과, 25년 이상 단일 회사를 운영한 끈기, 그리고 쓰촨 본거지 정치 자본이 강점입니다.",
+    "weaknesses": "단일 회사 단일 분자 의존도가 매우 높고, PANDA 글로벌 임상 실패로 국제 성장 가설이 취소된 만년의 가장 큰 위험이 만년에 누적된 구조입니다.",
+    "motivation": "쓰촨 출신 1세대 제약 운영자가 중국 자체 항VEGF 바이오 의약품을 만들겠다는 산업 사명이 동력입니다.",
+    "legacy": "중국 자수성가 바이오 의약품 1세대의 표본입니다. 콘버셉트로 카테고리 1위 자리를 만들었지만 글로벌 임상 실패로 단일 분자 의존의 양면성을 보여준 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-O day pillar (summer earth on horse fire) and O month branch combine into a doubly-fire profile with strong producing energy. The format that channels wealth through what he produces matches a 25-year arc from joining Kanghong in 1996 to the 2013 Conbercept approval, the 2015 IPO, and the 2021 PANDA failure.",
+    "summaryKo": "일주는 무오라 한여름 흙이 말의 자리 불 위에 놓인 형국으로, 단단한 흙이 강한 불에 의해 결과물로 환원되는 자리입니다. 월지 오는 또 같은 한여름 불의 자리라 일간을 두 겹의 불로 강하게 압축합니다. 격국은 자기가 만들어낸 결과물로 부를 빚는 흐름이라, 1996년 회사 합류, 1998년 회장 취임, 2013년 콘버셉트 승인, 2015년 상장, 2021년 PANDA 임상 실패까지 모두 '직접 만든 결과물이 외부 검증 시스템에서 키워졌다 한 번에 시험받는다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chengdu_Kanghong_Pharmaceutical_Group",
+    "https://en.wikipedia.org/wiki/Conbercept",
+    "https://www.bloomberg.com/profile/company/002773:CH"
+  ]
+}

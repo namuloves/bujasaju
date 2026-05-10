@@ -1,0 +1,74 @@
+{
+  "id": 1930,
+  "name": "Archie Hwang",
+  "nameKo": "아치 황",
+  "birthday": "1952-08-20",
+  "birthPlace": "Taipei, Taiwan",
+  "birthPlaceKo": "대만 타이베이",
+  "netWorth": "$2.1B",
+  "nationality": "SG",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "무술",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "타이베이에서 태어나 1975년 국립교통대 전자물리학 학사를 마쳤습니다. 가족 정보는 비공개로 유지하는 인물이라 자세한 가족 배경은 공개되지 않았습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 25세 창업으로 시작해 40대에 딥테크 투자, 60대에 31억 달러 매각으로 정점에 도달한 인물입니다.",
+    "sources": ["https://www.hermes.com.tw/en/about/milestones/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1977년 25세에 글로벌 반도체 장비 대만 에이전트 회사 Hermes-Epitek을 창업했고, 1998년 과학자 4인을 후원해 e-beam 검사 회사 Hermes Microvision(HMI)을 공동 창업했습니다. 2016년 ASML이 HMI를 약 31억 달러에 인수하면서 자산이 폭발했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.asml.com/en/company/about-asml/hmi"]
+  },
+  "careerTimeline": [
+    {"year": 1975, "event": "Graduates from National Chiao Tung University, Electrophysics", "eventKo": "국립교통대 전자물리학 학사 졸업", "whyItMatteredKo": "TSMC·UMC와 같은 학맥에 진입한 시점입니다. 대만 반도체 인적 네트워크의 입장권입니다."},
+    {"year": 1977, "event": "Founds Hermes-Epitek as semiconductor equipment agent", "eventKo": "25세에 Hermes-Epitek 창업 — 글로벌 반도체 장비 대만 에이전트", "whyItMatteredKo": "TSMC가 1987년 설립되기 10년 전부터 장비 인프라를 구축한 결정입니다."},
+    {"year": 1998, "event": "Backs four scientists to found Hermes Microvision in Silicon Valley", "eventKo": "과학자 4인을 후원해 실리콘밸리에서 HMI 공동 창업", "whyItMatteredKo": "유통상에서 딥테크 투자가로 변신한 분기점입니다. 진짜 부의 시작입니다."},
+    {"year": 2004, "event": "HMI moves HQ to Hsinchu Science Park", "eventKo": "HMI 본사를 신주 사이언스파크로 이전", "whyItMatteredKo": "TSMC 옆에 자리를 잡으며 협업과 매출이 폭증한 시기입니다."},
+    {"year": 2006, "event": "Elected first Chinese chairman of SEMI International Board", "eventKo": "SEMI 국제이사회 최초의 중화권 의장 선임", "whyItMatteredKo": "글로벌 반도체 산업 외교의 정점에 도달한 시기입니다."},
+    {"year": 2016, "event": "Sells HMI to ASML for ~$3.1 billion", "eventKo": "HMI를 ASML에 약 31억 달러에 매각", "whyItMatteredKo": "유동화 이벤트입니다. 단독 생존보다 거대 플랫폼 합류로 가치를 극대화한 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1998,"eventKo": "유통상에서 딥테크 투자가로 변신, 과학자 4인을 후원해 HMI 공동 창업", "impactKo": "자기가 만든 결과물로 부를 빚는 격국이 직접 결과물을 만드는 자리에서 다른 사람의 결과물을 키우는 자리로 한 단계 확장된 분기점입니다."},
+    {"year": 2006, "eventKo": "SEMI 국제이사회 최초 중화권 의장 선임", "impactKo": "산업 외교의 정점 도달입니다. 자기가 만든 결과물로 부를 빚는 격국의 재능 공증이 글로벌 무대에서 이뤄진 사건입니다."},
+    {"year": 2016, "eventKo": "HMI를 ASML에 31억 달러에 매각, 자존심 대신 가치 극대화를 선택", "impactKo": "단독 생존보다 거대 플랫폼 합류라는 결단이 만년의 부를 결정한 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Hermes-Epitek 회장직 유지에서 나오는 수익과, 2016년 ASML 매각 대금이 두 축입니다.",
+    "wealthAcceleratorsKo": "1998년 HMI 공동 창업, 2004년 신주 본사 이전으로 TSMC 옆 자리 확보, 2016년 ASML 매각이 부의 세 단계 도약입니다.",
+    "structuralAdvantagesKo": "TSMC와 같은 학맥, SEMI 의장 경력, ASML 인수 후 HMI 잔여 주주 지위 등 글로벌 반도체 생태계의 핵심 자리에 자리잡은 점이 강점입니다.",
+    "currentAssetAllocationKo": "Hermes-Epitek 지분과 ASML 매각 대금 운용 자산이 자산의 양대 비중입니다."
+  },
+  "failures": [
+    {"year": 1985, "descriptionKo": "1980년대 외국 장비 에이전트로 단순 유통에 머무는 한계에 직면했습니다.", "howTheyOvercameKo": "1998년 HMI 창업으로 자체 기술과 IP를 가진 회사를 시작했습니다.", "lessonKo": "유통상은 마진 천장이 명확합니다. 자체 기술 없이는 상위 부 진입이 불가능합니다."},
+    {"year": 2000, "descriptionKo": "HMI 창업 초기 닷컴 버블 붕괴와 맞물려 자금 조달과 R&D 비용 압박을 받았습니다.", "howTheyOvercameKo": "본업 Hermes-Epitek 유통 매출이 보조 엔진 역할을 하면서 5~10년 인내 자본을 버텼습니다.", "lessonKo": "딥테크는 본업이 받쳐주지 않으면 살아남기 어렵습니다."},
+    {"year": 2014, "descriptionKo": "ASML 인수 협상 직전 HMI는 KLA 등 거대 경쟁사와 e-beam 표준 경쟁에서 일부 고객 이탈 위기를 겪었습니다.", "howTheyOvercameKo": "단독 생존 대신 ASML이라는 거대 플랫폼에 합류하는 매각 결단을 내렸습니다.", "lessonKo": "자존심보다 가치 극대화가 만년 부의 결정 요인이 됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2016, "netWorth": "$1.8B", "sourceKo": "ASML 매각 직후 추정"},
+    {"year": 2020, "netWorth": "$1.9B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$2.0B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["딥테크 후원자", "산업 외교 정점", "유통→투자 전환", "거대 플랫폼 합류", "사생활 비공개"],
+  "characterKo": {
+    "strengths": "유통상으로 시작해 딥테크 투자가로 변신한 카테고리 도약 본능과, 단독 생존 대신 매각으로 가치를 극대화한 만년 결단이 강점입니다.",
+    "weaknesses": "사생활 비공개로 가족·후계 정보가 거의 없어 만년 운영의 가시성이 낮습니다.",
+    "motivation": "대만 반도체 1세대로서 산업 인프라를 구축하고, 자체 기술 회사를 만들어 글로벌 매각으로 입증하겠다는 정체성 의식이 동력입니다.",
+    "legacy": "TSMC가 1987년 설립되기 10년 전부터 대만 반도체 장비 인프라를 구축한 산업 1세대이자, 유통상에서 딥테크 투자가로 변신해 31억 달러 매각으로 정점에 도달한 카테고리 도약의 표본입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Sul day pillar (autumn earth on dog earth) and Sin month branch combine into a quietly hardened, slowly accumulating profile. The format that builds wealth through what he produces matches a 40-year arc of founding Hermes-Epitek at 25, backing HMI scientists at 46, and selling to ASML for $3.1B at 64.",
+    "summaryKo": "일주는 무술이라 가을 흙이 또 다른 흙(개의 자리) 위에 놓인 형국으로, 한 자리에 단단히 쌓아 가는 흙의 끈기가 두 겹으로 작동하는 자리입니다. 월지 신은 가을 쇠의 자리라 흙 일간이 만들어낸 결과물을 깎아 시장에 내보냅니다. 격국은 자기가 만들어낸 결과물로 부를 빚는 흐름이라, 1977년 25세 Hermes-Epitek 창업, 1998년 HMI 공동 창업, 2006년 SEMI 의장 선임, 2016년 ASML 31억 달러 매각까지 모두 '천천히 쌓아 한 번에 환원한다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.asml.com/en/company/about-asml/hmi",
+    "https://www.hermes.com.tw/en/about/milestones/",
+    "https://www.taipeitimes.com/News/front/archives/2016/06/17/2003648801",
+    "https://www.bloomberg.com/news/articles/2016-06-15/asml-to-buy-taiwan-s-hermes-microvision-for-3-1-billion"
+  ]
+}

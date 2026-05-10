@@ -1,0 +1,73 @@
+{
+  "id": 3432,
+  "name": "Lee Ju-sung",
+  "nameKo": "이주성",
+  "birthday": "1978-10-23",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$200M",
+  "nationality": "KR",
+  "industry": "Steel pipe",
+  "gender": "M",
+  "ilju": "무오",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1978년 한국에서 태어났습니다. 세아그룹 창업주 이종덕의 손자, 세아제강지주 회장 이순형의 장남이고, 사촌 이태성과 같은 가문 3세대입니다. 연세대 경영학과를 거쳐 미국에서 경영학 석사를 취득했습니다.",
+    "capitalTypeKo": "재벌 3세대 — 세아제강지주 사장으로 가족 자본을 잇는 운영형 후계자입니다.",
+    "sources": ["https://www.seah.co.kr"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "2003년 가족 사업 합류, 영업·기획·전략 단계를 거쳤고 2018년 세아제강지주 사장으로 정식 취임해 그룹 강관 라인 운영의 정점에 자리잡았습니다. 2015년 가족 분할로 정리된 세아제강지주(강관 라인) 가족 지분 중 본인 지분이 주요 지분 보유자 위치입니다.",
+    "selfMadeScore": 3,
+    "sources": ["https://en.wikipedia.org/wiki/SeAH_Steel_Holdings"]
+  },
+  "careerTimeline": [
+    {"year": 2003, "event": "Joins family steel business", "eventKo": "세아 그룹 가족 사업 합류 (추정)", "whyItMatteredKo": "무오 일주의 큰 흙 일간이 가족 자본의 큰 흐름에 자리잡은 출발점입니다."},
+    {"year": 2010, "event": "Begins senior management roles", "eventKo": "그룹 임원 라인 진입, 영업·기획·전략 단계", "whyItMatteredKo": "본업 매출의 운영 통로가 만들어진 시기입니다."},
+    {"year": 2015, "event": "SeAH Group split — Steel Holdings line consolidates", "eventKo": "세아 그룹 가족 분할 정리, 세아제강지주(강관 라인) 라인 정립", "whyItMatteredKo": "가족 자본이 두 갈래로 정식 분할된 분기점이고, 본인이 강관 라인 후계자로 자리잡은 시기입니다."},
+    {"year": 2018, "event": "Becomes President of SeAH Steel Holdings", "eventKo": "세아제강지주 사장 정식 취임, 그룹 강관 라인 운영 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 결단의 정점으로 환원된 결정적 결단입니다."},
+    {"year": 2020, "event": "SeAH Wind acquires UK monopile facility", "eventKo": "세아윈드(SeAH Wind)가 영국 풍력 모노파일 공장 인수, 글로벌 풍력 카테고리 진입", "whyItMatteredKo": "본업 카테고리가 글로벌 풍력 인프라까지 확장된 결정적 결단입니다."},
+    {"year": 2024, "event": "SeAH Steel group revenue passes ₩4.5T", "eventKo": "세아제강 그룹 연결 매출 4.5조 원 돌파, 가족 평가 자산 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2015, "eventKo": "세아 그룹 가족 분할로 강관 라인 후계 정리", "impactKo": "무오 일주의 큰 흙 일간이 가족 자본의 한 갈래에 후계자로 정식 자리잡은 결정적 결단입니다."},
+    {"year": 2018, "eventKo": "세아제강지주 사장 정식 취임", "impactKo": "외부 자원의 큰 흐름이 본인 결단의 정점으로 환원된 만년의 결단입니다."},
+    {"year": 2020, "eventKo": "세아윈드 영국 풍력 모노파일 공장 인수", "impactKo": "본업 카테고리가 글로벌 풍력 인프라까지 확장된 분기점입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "코스피 상장사 세아제강지주(058650 X) 및 세아제강(306200) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2015년 가족 분할 후계 정리, 2018년 사장 취임, 2020년 영국 모노파일 인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 강관 시장 1위 자리, 글로벌 풍력 모노파일 시장 진입, 그리고 가족 분할 후 안정적 운영 구조가 강점입니다.",
+    "currentAssetAllocationKo": "세아제강지주 본인 지분이 자산의 절대 비중. 자녀 세대로의 이양은 아직 본격화되지 않은 단계입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "미국 무역 관세 인상으로 한국 강관 수출이 직격탄을 받았습니다.", "howTheyOvercameKo": "현지 미국 공장 인수와 카테고리 다각화로 통과했습니다.", "lessonKo": "단일 시장 의존 카테고리는 정치 사이클 한 번에 매출이 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 인프라·건설 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "영국 풍력 모노파일 인수로 카테고리를 글로벌 풍력으로 확장해 통과했습니다.", "lessonKo": "거시 충격은 카테고리 확장 결단의 계기가 되기도 합니다."},
+    {"year": 2024, "descriptionKo": "글로벌 풍력 인프라 시장 정책 변동과 비용 인플레이션으로 모노파일 사업 마진이 압박을 받았습니다.", "howTheyOvercameKo": "장기 공급 계약 비중 강화로 단계적 마진 회복을 시도하고 있습니다.", "lessonKo": "글로벌 인프라 카테고리는 정책·비용 사이클에 마진이 직접 노출됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$80M", "sourceKo": "가족 분할 직후 추정"},
+    {"year": 2018, "netWorth": "$120M", "sourceKo": "사장 취임 후 추정"},
+    {"year": 2022, "netWorth": "$170M", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$200M", "sourceKo": "공시 기반 추정"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["세아제강지주 사장", "이순형 장남", "가문 3세", "강관·모노파일", "글로벌 풍력 인프라"],
+  "characterKo": {
+    "strengths": "2003년 가족 사업 합류 이후 20년 동안 영업·기획·전략 전 단계를 거친 학습 깊이와, 2020년 영국 풍력 모노파일 인수로 카테고리를 글로벌 풍력으로 확장한 결단력이 강점입니다.",
+    "weaknesses": "한국 강관 카테고리 의존도가 여전히 높고, 글로벌 인프라 정책 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "조부 이종덕의 가족 자본을 본인 세대에서 글로벌 풍력 인프라까지 확장하고 다음 세대로 깔끔히 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "한국 철강 가문 3세대 운영형 후계자의 표본입니다. 강관 카테고리에서 글로벌 풍력 모노파일까지 카테고리를 확장한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-O day pillar (late spring earth on horse fire) and Sul month branch combine into a wide-rooted, externally-fueled profile. The format that channels wealth through external resources matches a 21-year arc from the 2003 family entry to the 2018 presidency and the 2020 monopile acquisition.",
+    "summaryKo": "일주는 무오라 늦봄 큰 흙이 한여름 불(말의 자리) 위에 놓인 형국으로, 큰 흙이 강한 불에 단단히 다져져 결과물로 빚어지는 자리입니다. 월지 술은 가을 끝 흙의 자리라 일간을 두 겹의 흙으로 깊이 다집니다. 격국은 큰 외부 자원의 흐름이라, 2003년 가족 진입, 2015년 가족 분할 후계 정리, 2018년 사장 취임, 2020년 영국 모노파일 인수까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.seah.co.kr",
+    "https://en.wikipedia.org/wiki/SeAH_Steel_Holdings",
+    "https://www.dart.fss.or.kr"
+  ]
+}

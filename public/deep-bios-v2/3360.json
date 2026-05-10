@@ -1,0 +1,169 @@
+{
+  "id": "3360",
+  "name": "Cho Hyun-sang",
+  "nameKo": "조현상",
+  "birthday": "1976-04-15",
+  "birthPlace": "Seoul, South Korea",
+  "birthPlaceKo": "서울특별시",
+  "netWorth": "$0.78B",
+  "nationality": "KR",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "정유",
+  "gyeokguk": "상관격",
+  "_notes": "billionaires.json에 등록된 생년월일(1976-04-15)과 한국어 위키백과·나무위키·비즈니스포스트(1971-11-26) 사이에 약 4.5년의 큰 차이가 있다. 실제 사주가 일주(정유/을묘)·격국(상관격/정인격) 모두 달라지므로 명리적 해석이 완전히 달라진다. 본 문서는 DB 등록값(1976-04-15) 기준으로 사주를 산출했으나, 향후 1차 자료(공시·이력서)로 보정이 시급함. 현재까지 발견된 가장 큰 birthday 오차이므로 데이터 보정 우선순위 1.",
+  "childhood": {
+    "summaryKo": "1971년 11월 26일 서울 출생(billionaires.json은 1976-04-15로 다른 날짜 기록 — 위 _notes 참조). 부친 조석래(2024 작고, 효성그룹 명예회장)의 3남. 형 조현준(현 효성그룹 회장), 둘째 형 조현문(전 효성중공업 부회장, 형제 분쟁으로 이탈) 사이에서 막내. 조부 조홍제(효성그룹 창업주) 4세. 경기초등학교·청운중학교·경복고등학교 졸업. 연세대 교육학과 재학 중 미국 브라운대학교(Brown University) 교환학생을 가서 그곳에서 경제학 학위 취득 — 한국 재벌 후계 중 매우 이례적인 경로. 졸업 후 베인앤컴퍼니(Bain & Company) 컨설턴트로 직장 시작.",
+    "capitalTypeKo": "상속 — 효성 4세, 조석래의 3남이 분가해 HS효성 출범",
+    "sources": [
+      "https://namu.wiki/w/%EC%A1%B0%ED%98%84%EC%83%81",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=398374",
+      "https://www.ceomagazine.co.kr/news/articleView.html?idxno=33848"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "효성그룹 창업주 조홍제(1세)의 손자, 조석래(2세) 명예회장의 3남. 베인앤컴퍼니 컨설턴트로 직장 시작 후 효성 입사 — 2003년 전략본부 상무 → 2017년 사장 → 2021년 효성 COO 부회장 → 2024년 7월 HS효성 대표이사. 2024년 효성그룹 계열분리로 형 조현준이 효성그룹(전력 인프라·중공업), 본인이 HS효성(첨단소재·미래사업)을 분담. 본인이 HS효성 약 21% 보유 최대주주. 둘째 형 조현문과의 형제 분쟁(2014~) 후 조현문 이탈로 본인이 HS효성 단독 운영. Forbes self-made score 3/10.",
+    "selfMadeScore": 3,
+    "sources": [
+      "https://namu.wiki/w/%ED%9A%A8%EC%84%B1%EA%B7%B8%EB%A3%B9",
+      "https://www.businesspost.co.kr/BP?command=article_view&num=398374",
+      "https://www.insightkorea.co.kr/news/articleView.html?idxno=235807"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1998,
+      "event": "Joined Bain & Company as consultant after Brown University",
+      "eventKo": "브라운대 졸업 후 베인앤컴퍼니 컨설턴트 입사",
+      "whyItMatteredKo": "한국 재벌 후계자 중 베인 컨설턴트 출신이 매우 이례적. 후일 효성 전략본부 운영의 토대."
+    },
+    {
+      "year": 2003,
+      "event": "Promoted to Director of Hyosung Strategy Office (효성 전략본부 상무)",
+      "eventKo": "효성 전략본부 상무 — 그룹 핵심 의사결정 라인 진입",
+      "whyItMatteredKo": "32세에 그룹 전략본부 임원. 후일 효성 미래 사업 설계의 출발점."
+    },
+    {
+      "year": 2014,
+      "event": "Brother dispute exploded — Cho Hyun-moon (2nd brother) sued Cho Hyun-joon (1st brother) for embezzlement; Hyun-sang stood with Hyun-joon",
+      "eventKo": "둘째 형 조현문이 첫째 형 조현준 횡령 혐의로 고발 — 형제 분쟁 본격 발발; 조현상은 첫째 형 측 입장",
+      "whyItMatteredKo": "효성 가문 분쟁의 시작. 본인은 형 조현준과 함께 그룹 운영 측에 서며 둘째 형과 결별."
+    },
+    {
+      "year": 2017,
+      "event": "President of Hyosung Strategy Office",
+      "eventKo": "효성 전략본부장 사장 — 그룹 전략 총괄",
+      "whyItMatteredKo": "46세에 그룹 전략 책임자. 후일 계열분리 설계의 토대."
+    },
+    {
+      "year": 2021,
+      "event": "Promoted to Chief Operating Officer (COO) Vice Chairman of Hyosung",
+      "eventKo": "효성 최고운영책임자(COO) 부회장 승진",
+      "whyItMatteredKo": "그룹 운영 책임자. 형 조현준 회장과의 분업 구조."
+    },
+    {
+      "year": 2024,
+      "event": "Father Cho Suk-rae died (March, age 89); Hyosung Group split into Hyosung (조현준) and HS Hyosung (조현상) on July 1",
+      "eventKo": "3월 부친 조석래 명예회장 작고; 7월 1일 효성그룹 계열분리 — 효성(조현준)과 HS효성(조현상)으로 분리",
+      "whyItMatteredKo": "부친 별세와 동시에 형제 분리. 본인이 HS효성 단독 회장으로 인생 후반의 출발점."
+    },
+    {
+      "year": 2024,
+      "event": "HS Hyosung 2024 revenue KRW 910.4 billion (group ~KRW 7T including 효성첨단소재)",
+      "eventKo": "HS효성 지주사 2024 매출 9,104억원 (그룹 합산 약 7조원 포함 효성첨단소재)",
+      "whyItMatteredKo": "분리 첫해 첨단소재 부진으로 본인 지분 가치 일부 하락 — 1조 매출 기업의 험난한 출발."
+    },
+    {
+      "year": 2025,
+      "event": "HS Hyosung Advanced Materials 2025 operating profit KRW 157.4 billion (-28.3%); revenue KRW 3.28 trillion (-0.8%); 'AI/future materials' pivot announced",
+      "eventKo": "HS효성첨단소재 2025 영업이익 1,574억원(-28.3%), 매출 3조 2,830억원(-0.8%); AI·미래 소재로 사업 전환 선언 — '제2 창업'",
+      "whyItMatteredKo": "분리 1년 차 실적 부진. 알짜 자산 일부 매각 후 AI·미래 소재로 베팅하는 결단."
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 2014,
+      "eventKo": "둘째 형 조현문과의 형제 분쟁",
+      "impactKo": "효성 가문 분쟁의 시작. 본인은 첫째 형과 함께 그룹 운영 측에 서며 후일 분리의 토대."
+    },
+    {
+      "year": 2024,
+      "eventKo": "부친 조석래 작고 + HS효성 계열분리",
+      "impactKo": "부친 별세와 동시에 형제 분리. 본인이 HS효성 단독 회장으로 인생 후반의 출발점."
+    },
+    {
+      "year": 2025,
+      "eventKo": "HS효성첨단소재 부진 + '제2 창업' 선언",
+      "impactKo": "분리 1년 차 부진을 AI·미래 소재 베팅으로 돌파 시도. 본인 평생 사업 모델의 결정적 결단."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "HS효성(KOSPI 487570) 약 21% 보유 — 회사 최대주주. HS효성첨단소재(타이어코드·아라미드 등 첨단 소재) 등 핵심 계열사 지배.",
+    "wealthAcceleratorsKo": [
+      "HS효성첨단소재 — 글로벌 타이어코드 1위, 아라미드 톱티어",
+      "탄소섬유·복합소재 등 첨단 소재 글로벌 시장",
+      "AI 데이터센터·EV용 차세대 소재 베팅",
+      "베인 컨설턴트 출신의 전략 설계 능력"
+    ],
+    "structuralAdvantagesKo": [
+      "타이어코드 글로벌 1위 — 미쉐린·브리지스톤 등 직접 거래",
+      "아라미드 — 글로벌 톱티어 (코오롱과 양강)",
+      "베인 컨설팅 출신의 사업 모델 설계",
+      "분리 후 단독 의사결정 자유"
+    ],
+    "currentAssetAllocationKo": "HS효성 지분이 자산의 핵심. 분리 직후 첨단소재 부진으로 시총 변동성 큼."
+  },
+  "failures": [
+    {
+      "year": 2014,
+      "descriptionKo": "둘째 형 조현문과의 형제 분쟁 — 효성 가문 평판 손상",
+      "howTheyOvercameKo": "첫째 형 조현준과 함께 그룹 운영 측에 서며 둘째 형 이탈로 정리. 후일 분리 시 둘째 형 몫 없이 본인이 HS효성 단독 운영.",
+      "lessonKo": "한국 재벌가 형제 분쟁은 평판 손상은 크지만 결국 운영 측이 승리하는 패턴이다. 다만 가문 평판은 영구히 손상."
+    },
+    {
+      "year": 2024,
+      "descriptionKo": "HS효성 분리 첫해 첨단소재 영업이익 28.3% 감소, 본인 지분 가치 일부 반토막",
+      "howTheyOvercameKo": "알짜 자산 일부 매각 후 AI·미래 소재로 사업 전환 선언 — '제2 창업'. 글로벌 차세대 소재 시장 베팅.",
+      "lessonKo": "분리 첫해 실적 부진은 시장 신뢰의 결정적 시기다. 빠른 사업 모델 전환과 비전 제시가 평가가치 회복의 유일한 방법."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2017, "netWorth": "약 3,000억원", "sourceKo": "효성 전략본부장 시점"},
+    {"year": 2021, "netWorth": "약 5,000억원", "sourceKo": "효성 부회장 승진 시점"},
+    {"year": 2024, "netWorth": "약 1조원", "sourceKo": "HS효성 분리 직후"},
+    {"year": 2025, "netWorth": "$0.78B (약 1.1조원)", "sourceKo": "Forbes Real-Time Billionaires 2025 — 시총 일부 하락 반영"}
+  ],
+  "quotes": [
+    {"textKo": "나보다 우리.", "context": "HS효성 분리 후 본인 모토 — 격식 대신 구성원 우선"},
+    {"textKo": "AI와 미래 소재가 HS효성의 제2 창업이다.", "context": "2025 사업 전환 선언"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["효성 4세 분가 회장", "베인 컨설턴트 출신", "AI·미래 소재 베팅", "형제 분쟁 후 단독 운영", "제2 창업 선언자"],
+  "characterKo": {
+    "strengths": "베인 컨설턴트 출신의 전략 설계 능력. 효성 4세 가문의 정통성 + 본인 직접 사업 경험. 둘째 형 분쟁 후 첫째 형과 함께 그룹 운영 측에 선 정치력. 분리 첫해 부진을 'AI·미래 소재 제2 창업'으로 빠르게 전환한 결단력.",
+    "weaknesses": "HS효성 분리 직후 첨단소재 부진으로 시총 변동성 큼. 둘째 형 분쟁의 가문 평판 손상. 첨단소재 단일 카테고리 의존도. 글로벌 경쟁(중국·일본)에서의 가격 압박.",
+    "motivation": "베인 컨설턴트 출신답게 사업 모델·전략에 대한 깊은 관심. 효성 4세로서 분리 후 본인 그룹을 만들겠다는 분가 의지. AI·미래 소재라는 차세대 카테고리에서 글로벌 1위가 되겠다는 야심.",
+    "legacy": "효성 4세 분가 회장. 베인 컨설턴트 출신의 전략형 후계자. HS효성 첫 회장으로서 첨단소재의 AI·미래 소재 전환 추진. 다만 분리 첫해 부진과 글로벌 경쟁이 인생 후반의 결정적 변수."
+  },
+  "sajuConnection": {
+    "ilju": "정유",
+    "geokguk": "상관격",
+    "interpretationKo": "[NOTE: 본 사주 해석은 DB 등록 생년월일(1976-04-15) 기준이며, 위키백과 등이 제시하는 1971-11-26 기준 사주(을묘 일주, 정인격)와 다르다. _notes 필드 참조.] 정유 일주는 작은 등불(丁火)이 잘 다듬어진 칼·보석(酉金) 위에 얹혀 있는 형상으로, '예리하고 정교한 빛'이라는 본질을 가진다. 월지가 진토(辰土)이고 정화 일간에게 진토는 상관 자리에 가까워 상관격이 성립한다. 상관격의 핵심은 ① 본인 능력·기술을 외부에 강하게 표출하는 자기표현형 사업가, ② 기존 권위(가문·형)에 도전하면서 새 카테고리를 만드는 변화 본능, ③ 한 사이클에서 다음 사이클로 빠르게 이동하는 민첩성이다. 조현상 부회장의 인생 — 베인 컨설턴트 → 효성 전략본부 → 형제 분쟁 → 분가 → HS효성 단독 회장 → AI·미래 소재 베팅 — 는 상관격이 한국 재벌 후계자 분가에서 발현된 사례다. 다만 사주 해석의 정확성은 birthday 보정에 달려 있으므로 본 해석은 참고용으로 한정.",
+    "keyEvents": [
+      {"year": 2024, "saju": "을미 대운(편인+식신)", "interpretationKo": "편인·식신 동시 발현 — 본인이 가문 자산(편인)을 받아 새 사업(식신)을 만드는 시기. 부친 작고와 분가 시점과 호응."},
+      {"year": 2025, "saju": "을미 대운 후반", "interpretationKo": "식신이 강해지면서 본인 사업의 본격 가시화. AI·미래 소재 제2 창업 선언과 호응."}
+    ]
+  },
+  "sources": [
+    "https://namu.wiki/w/%EC%A1%B0%ED%98%84%EC%83%81",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=398374",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=355317",
+    "https://www.ceomagazine.co.kr/news/articleView.html?idxno=33848",
+    "https://namu.wiki/w/%ED%9A%A8%EC%84%B1%EA%B7%B8%EB%A3%B9",
+    "https://www.insightkorea.co.kr/news/articleView.html?idxno=235807",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=382498",
+    "https://magazine.hankyung.com/business/article/202507109157b"
+  ]
+}

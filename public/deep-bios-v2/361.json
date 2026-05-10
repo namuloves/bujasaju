@@ -1,0 +1,75 @@
+{
+  "id": 361,
+  "name": "Pierre Chen",
+  "nameKo": "천타이민",
+  "birthday": "1956-09-28",
+  "birthPlace": "Madou, Tainan, Taiwan",
+  "birthPlaceKo": "대만 타이난 마더우",
+  "netWorth": "$9.1B",
+  "nationality": "TW",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "무술",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "타이난 마더우의 평범한 가정에서 태어나 가오슝에서 자랐습니다. 부친이 작은 전자 부품 사업을 했던 것이 이른 부품 산업 노출의 시작입니다. 학력은 국립청쿵대학 공학사(1980)입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 21세 학생 시절 시작한 부품 무역이 글로벌 패시브 컴포넌트 회사로 발전한 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Pierre_Chen"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1977년 21세에 타이베이에서 야교를 소형 저항기 무역상으로 창업했고, 1987년 제조 법인으로 정식 설립한 뒤 1996년 비트롬·티아포 인수, 2000년 필립스로부터 Phycomp·Ferroxcube 인수, 2020년 18억 달러 KEMET 인수로 글로벌 톱티어 진입을 완성했습니다. 포브스 자수성가 점수 8/10입니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://en.wikipedia.org/wiki/Yageo"]
+  },
+  "careerTimeline": [
+    {"year": 1977, "event": "Founds Yageo as resistor trader in Taipei", "eventKo": "타이베이에서 소형 저항기 무역상으로 야교 창업", "whyItMatteredKo": "21세 학생 시절 시작한 부품 무역이 글로벌 패시브 컴포넌트 제국의 씨앗입니다."},
+    {"year": 1987, "event": "Yageo formally incorporated as manufacturer", "eventKo": "야교를 제조 법인으로 정식 설립", "whyItMatteredKo": "유통에서 자체 생산으로 전환해 마진과 기술 통제권을 확보한 분기점입니다."},
+    {"year": 2000, "event": "Acquires Phycomp & Ferroxcube from Philips", "eventKo": "필립스로부터 Phycomp·Ferroxcube 인수", "whyItMatteredKo": "유럽 브랜드 확보로 글로벌 플레이어로 도약한 결정입니다."},
+    {"year": 2011, "event": "KKR buyout attempt rejected by Taiwan regulators", "eventKo": "KKR과의 16억 달러 비공개화 인수 시도 대만 당국이 부결", "whyItMatteredKo": "70% 차입 비율과 가격 산정 불투명이 본거지 자본 시장 규제에 막힌 사건입니다."},
+    {"year": 2018, "event": "Acquires Pulse Electronics", "eventKo": "Pulse Electronics 인수", "whyItMatteredKo": "무선·파워 컴포넌트로 포트폴리오를 확장한 신호탄입니다."},
+    {"year": 2020, "event": "Completes $1.8B KEMET acquisition", "eventKo": "18억 달러 KEMET 인수 완료", "whyItMatteredKo": "MLCC·탄탈룸·세라믹 통합으로 무라타·삼성전기에 대항하는 글로벌 톱티어로 진입한 결정적 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1987, "eventKo": "유통에서 자체 제조로 전환, 야교 정식 법인화", "impactKo": "무술 일주의 단단한 흙 기질이 유통의 마진 천장을 끊고 자기 결과물로 옮긴 분기점입니다."},
+    {"year": 2011, "eventKo": "KKR 비공개화 인수 시도 대만 당국 부결", "impactKo": "본거지 자본 시장 규제와 소액주주 정서를 우회할 수 없다는 사실을 학습한 결정적 사건입니다."},
+    {"year": 2020, "eventKo": "18억 달러 KEMET 인수로 글로벌 톱티어 진입", "impactKo": "학습형 일간이 가문 자산을 글로벌 인수로 확장한 만년의 가장 큰 베팅입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "대만 상장사 야교 코퍼레이션 본인 가족 지분에서 나오는 주가 가치와 배당이 핵심입니다. 칩 저항기 글로벌 1위, MLCC 톱3 자리가 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "1987년 제조 전환, 2000년 필립스 부품 사업 인수, 2020년 KEMET 인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "대만 청쿵대 학맥과 글로벌 부품 카테고리 1위 시장 지위, 그리고 미술 컬렉터로 쌓은 글로벌 인맥이 강점입니다.",
+    "currentAssetAllocationKo": "야교 코퍼레이션 가족 지분이 자산의 절대 비중. 글로벌 미술품 컬렉션도 무형 자산으로 작동합니다."
+  },
+  "failures": [
+    {"year": 2007, "descriptionKo": "KKR 초기 투자 도입 후 주주 반발이 일어났습니다. 사모펀드를 끌어들이면서 운영 통제권을 유지하려는 비표준 구조가 문제였습니다.", "howTheyOvercameKo": "구조의 명료성을 시장에 설명하고 단계적으로 사모 비중을 조정했습니다.", "lessonKo": "구조의 명료성이 신뢰의 핵심입니다."},
+    {"year": 2009, "descriptionKo": "글로벌 금융위기 직후 패시브 부품 가격이 붕괴해 재고 손실이 발생했습니다.", "howTheyOvercameKo": "사이클 바닥에서도 자기자본 비중을 유지해 살아남는 재무 구조로 통과했습니다.", "lessonKo": "단일 사이클에 노출된 사업은 재무 체력이 곧 생존입니다."},
+    {"year": 2011, "descriptionKo": "KKR 연합 16억 달러 비공개화 시도가 대만 투자심의위원회에서 부결됐습니다.", "howTheyOvercameKo": "상장 상태를 유지하면서 단계적 인수합병으로 글로벌 확장을 이어갔습니다.", "lessonKo": "본거지 자본 시장 규제와 소액주주 정서를 우회할 수 없습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2021, "netWorth": "$4.7B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$4.1B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$6.1B", "sourceKo": "포브스 빌리어네어즈"},
+    {"year": 2026, "netWorth": "$9.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["글로벌 인수합병", "패시브 부품 1위", "미술 컬렉터", "단계적 확장", "사모펀드 경험"],
+  "characterKo": {
+    "strengths": "21세 학생 시절 시작한 무역업을 글로벌 톱티어 부품 회사로 키운 끈기와, 단계적 인수합병으로 카테고리 우위를 누적하는 베팅 본능이 강점입니다.",
+    "weaknesses": "패시브 부품이라는 단일 카테고리 의존도가 높고, 글로벌 인수합병 누적 부채가 사이클 다운에서 부담이 됩니다.",
+    "motivation": "타이난 출신 부품 상인이 글로벌 톱티어 부품 회사를 만들겠다는 자수성가형 야망과, 글로벌 미술 컬렉터로 정체성을 확장하는 문화 자본 의식이 동력입니다.",
+    "legacy": "대만 패시브 컴포넌트 산업을 글로벌 톱티어로 끌어올린 1세대 자수성가 부호입니다. 글로벌 미술 컬렉터로도 알려진 보기 드문 산업가 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Sul day pillar (autumn earth on dog earth) and Yu month branch combine into a quietly accumulating, globally networked profile. The format that channels wealth through learning and inherited momentum matches a 50-year arc of starting Yageo at 21, the 2000 Philips deal, the 2011 KKR rejection, and the 2020 KEMET acquisition.",
+    "summaryKo": "일주는 무술이라 가을 흙이 또 다른 흙(개의 자리) 위에 놓인 형국으로, 한 자리에 단단히 쌓아 가는 흙의 끈기가 두 겹으로 작동하는 자리입니다. 월지 유는 가을 쇠의 자리라 흙 일간이 만들어낸 결과물을 깎아 시장에 내보내는 역할을 합니다. 격국은 학습과 가문 자산을 잇는 흐름이라, 1977년 21세 야교 창업, 2000년 필립스 부품 사업 인수, 2011년 KKR 부결, 2020년 KEMET 18억 달러 인수까지 모두 '단계적 누적이 큰 인수합병으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pierre_Chen",
+    "https://en.wikipedia.org/wiki/Yageo",
+    "https://www.bloomberg.com/news/articles/2011-06-22/taiwan-government-rejects-1-6-billion-kkr-backed-buyout-offer-for-yageo",
+    "https://www.tatlerasia.com/people/pierre-chen-eng",
+    "https://www.artnews.com/art-collectors/top-200-profiles/pierre-chen/"
+  ]
+}

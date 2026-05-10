@@ -1,0 +1,73 @@
+{
+  "id": 1033,
+  "name": "Song Zuowen",
+  "nameKo": "송조우원",
+  "birthday": "1947-03-19",
+  "birthPlace": "Longkou, Shandong, China",
+  "birthPlaceKo": "중국 산둥성 룽커우",
+  "netWorth": "$4B",
+  "nationality": "CN",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "정유",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "산둥성 룽커우 첸쑹촌 어촌에서 태어났습니다. 학력은 초등학교 졸업이 전부입니다. '한 끼를 위해 목숨을 거는' 가난한 어촌 출신으로 독학과 실무로 성장한 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 초등 학력의 어부 출신이 알루미늄·금융·항공 콩글로머리트를 만든 인물입니다.",
+    "sources": ["https://www.weekinchina.com/2015/03/under-the-radar/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1978년 덩샤오핑 개혁개방 직후 목재 매매로 5천 위안 시드를 마련해 마을 기업을 유리섬유·면방 공장으로 키웠습니다. 알루미늄 사업으로 본격 부상해 1999년 산둥난산알루미늄 상하이 상장, 이후 의류·교육·관광·항공까지 다각화했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://en.wikipedia.org/wiki/Qingdao_Airlines"]
+  },
+  "careerTimeline": [
+    {"year": 1978, "event": "Founds Nanshan village enterprise with $5K from timber trading", "eventKo": "개혁개방 직후 목재 매매로 5천 위안 확보, 난산촌 기업 설립", "whyItMatteredKo": "농촌 집체에서 사영 콩글로머리트로 가는 1세대 모델의 출발점입니다."},
+    {"year": 1990, "event": "Expands into fiberglass and cotton textiles", "eventKo": "유리섬유·면방으로 산업 확장", "whyItMatteredKo": "단순 트레이딩에서 제조업 자산화 단계로 진입한 시기입니다."},
+    {"year": 1999, "event": "Shandong Nanshan Aluminum lists on Shanghai Stock Exchange", "eventKo": "산둥난산알루미늄 상하이 상장", "whyItMatteredKo": "그룹의 핵심 캐시플로우와 자본 조달 채널을 확보한 분기점입니다."},
+    {"year": 2014, "event": "Qingdao Airlines launches with Nanshan 55%", "eventKo": "칭다오항공 출범 — 난산 55%", "whyItMatteredKo": "비제조업 신영역 진출이자 동시에 첫 대규모 적자 함정의 시작점입니다."},
+    {"year": 2018, "event": "Qingdao Airlines accumulates losses; sale talks fail", "eventKo": "칭다오항공 누적 적자, 동방·샤먼·산항과 매각 협상 결렬", "whyItMatteredKo": "민영 자본의 항공업 한계가 노출된 사건입니다."},
+    {"year": 2020, "event": "Transfers Qingdao Airlines control to Qingdao city SOE", "eventKo": "칭다오항공 지배 지분을 칭다오시 국유 기업으로 이전, 사실상 국유화", "whyItMatteredKo": "코로나기 민영 항공 리스크를 정부 매트리스로 이전한 구조 조정의 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1978, "eventKo": "목재 매매 5천 위안 시드로 농촌 기업 시작", "impactKo": "정유 일주의 화 일간이 외부 압력(가난·문맹)을 본인 자본으로 변환한 출발점입니다."},
+    {"year": 1999, "eventKo": "산둥난산알루미늄 상하이 상장", "impactKo": "도전·압력을 자본으로 변환하는 흐름이 알루미늄이라는 본업으로 환원된 결정적 결단입니다."},
+    {"year": 2020, "eventKo": "칭다오항공 국유화 이전으로 항공 리스크 정리", "impactKo": "외부 압력(팬데믹)을 정부 자본으로 흡수시켜 그룹을 보전한 만년의 가장 큰 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 상장사 산둥난산알루미늄과 비상장 난산그룹의 가족 지분에서 나오는 자산이 핵심입니다. 알루미늄·면방·교육·관광이 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "1978년 시드 확보, 1999년 상장, 2010년대 알루미늄 호황기 매출 증가가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "알루미늄 단일 산업 1위 지위, 산둥성 정치 자본, 그리고 미디어 노출 최소화 전략이 강점입니다.",
+    "currentAssetAllocationKo": "산둥난산알루미늄 가족 지분이 자산의 절대 비중. 항공 리스크는 국유화 이전으로 정리됐습니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "칭다오항공 출범 후 줄곧 적자가 이어졌고 누적 손실이 1,617백만 위안 이상이 됐습니다.", "howTheyOvercameKo": "2018년 매각 협상 실패 후 2020년 칭다오시 국유 기업으로 지배 지분을 이전했습니다.", "lessonKo": "제조업 콩글로머리트가 진입장벽 높은 항공업에 발을 들이면 회수가 매우 어렵습니다."},
+    {"year": 2015, "descriptionKo": "저우융캉 부패망에 연루된 류 모씨가 '쑹쭈오원에게 750만 위안 받았다'고 진술했습니다.", "howTheyOvercameKo": "본인은 입건되지 않았고 침묵·로키 전략으로 정치 리스크를 흡수했습니다.", "lessonKo": "민영 거부는 정치 리스크에 늘 잠재 노출되며, 침묵·로키가 보호 장치가 됩니다."},
+    {"year": 2020, "descriptionKo": "팬데믹기 항공·관광·골프 등 확장 사업이 동시 타격을 받았고 그룹 EBITDA가 압박을 받았습니다.", "howTheyOvercameKo": "본업 알루미늄·교육에 자본을 다시 집중하고 항공 자산을 정리했습니다.", "lessonKo": "관련 다각화라 부르던 영역도 거시 충격엔 동시에 무너집니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2012, "netWorth": "$1.8B", "sourceKo": "전국 인민대표 부호 명단"},
+    {"year": 2015, "netWorth": "$3.0B", "sourceKo": "산둥 1위 부호 시기"},
+    {"year": 2024, "netWorth": "$2.5B", "sourceKo": "다각화·항공 손실 후 안정화"},
+    {"year": 2026, "netWorth": "$4.0B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["초등 학력 어촌 출신", "농촌 집체→사영 1세대", "다각화 콩글로머리트", "침묵·로키 경영", "산둥 정치 자본"],
+  "characterKo": {
+    "strengths": "초등 학력 어촌 출신이 농촌 집체 기업을 알루미늄 콩글로머리트로 키운 끈기와, 정치 리스크를 침묵·로키로 흡수한 위기 관리력이 강점입니다.",
+    "weaknesses": "다각화 폭이 넓어 단일 거시 충격에 그룹 전체가 동시 타격을 받는 구조이고, 미디어 노출 최소화로 시장 신뢰 보충 채널이 약합니다.",
+    "motivation": "산둥 어촌 출신 어부가 '한 끼를 위한 목숨'에서 산둥 1위 부호로 가겠다는 자수성가형 야망과, 침묵으로 정치 리스크를 흡수하는 1세대 본능이 동력입니다.",
+    "legacy": "중국 농촌 집체 기업 1세대 자수성가의 표본입니다. 초등 학력 어부가 알루미늄·교육·관광 콩글로머리트를 만든 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Yu day pillar (summer fire on rooster metal) and Myo month branch combine into a sharp, externally-pressured profile. The format that channels wealth through external pressure matches a 47-year arc from the 1978 timber trading seed to the 1999 IPO and the 2020 Qingdao Airlines transfer to state ownership.",
+    "summaryKo": "일주는 정유라 한여름 부드러운 화 일간이 닭의 자리 쇠 위에 놓인 형국으로, 화의 표현력이 단단한 쇠에 깎여 결과물로 환원되는 자리입니다. 월지 묘는 봄 나무의 자리라 일간에 외부 자원의 흐름과 학습 자본을 더해줍니다. 격국은 도전·압력을 자본으로 변환하는 흐름이라, 1978년 5천 위안 시드, 1990년 제조업 진입, 1999년 상장, 2014년 항공 진출과 2018년 매각 실패, 2020년 국유화 이전까지 모두 '외부 압력이 본인 자본의 단계적 도약과 정리로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.weekinchina.com/2015/03/under-the-radar/",
+    "https://en.wikipedia.org/wiki/Qingdao_Airlines",
+    "https://www.yicaiglobal.com/news/qingdao-airlines-finds-shelter-from-covid-19-in-state-ownership"
+  ]
+}

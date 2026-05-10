@@ -1,0 +1,73 @@
+{
+  "id": 2607,
+  "name": "Wang Zhenghua",
+  "nameKo": "왕 정화",
+  "birthday": "1944-04-25",
+  "birthPlace": "Shanghai, China",
+  "birthPlaceKo": "중국 상하이",
+  "netWorth": "$1.4B",
+  "nationality": "CN",
+  "industry": "Service",
+  "gender": "M",
+  "ilju": "기미",
+  "gyeokguk": "양인격",
+  "childhood": {
+    "summaryKo": "1944년 상하이에서 태어났습니다. 정통 학력보다 실무 경험이 토대인 1세대 본토 항공 운영자로, 1981년 상하이 첫 민영 여행사 'Spring Travel'을 창업해 여행업 카테고리에서 자본을 만들었고 2004년 60세에 본토 첫 LCC '춘추항공'을 창업했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 60세에 본토 첫 LCC를 창업한 1세대 자수성가형 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Spring_Airlines"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1981년 상하이 첫 민영 여행사 'Spring Travel'을 창업해 여행업 카테고리에서 자본을 만들었고, 2004년 60세에 본토 첫 LCC '춘추항공(Spring Airlines)'을 창업했습니다. 2015년 상하이 증권거래소(601021) 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.springairlines.com"]
+  },
+  "careerTimeline": [
+    {"year": 1981, "event": "Founds Spring Travel — China's first private travel agency", "eventKo": "상하이에서 본토 첫 민영 여행사 'Spring Travel' 창업", "whyItMatteredKo": "기미 일주의 작은 흙 일간이 외부의 큰 자원을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 1997, "event": "Spring Travel becomes #1 in domestic tourism", "eventKo": "Spring Travel 본토 여행업 카테고리 1위 굳히기", "whyItMatteredKo": "본업 매출의 첫 번째 정점이 다져진 시기입니다."},
+    {"year": 2004, "event": "Founds Spring Airlines at age 60", "eventKo": "60세에 본토 첫 LCC '춘추항공' 창업", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 사업의 두 번째 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2010, "event": "Spring Airlines reaches profitability", "eventKo": "춘추항공 흑자 전환, 본토 LCC 1위 자리 굳히기 시작", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원되기 시작한 시기입니다."},
+    {"year": 2015, "event": "Spring Airlines IPOs on Shanghai (601021)", "eventKo": "춘추항공 상하이 증권거래소(601021) 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2018, "event": "Hands operations to son Wang Yu", "eventKo": "장남 왕위에게 운영 이양, 가족 자본 후계 정리", "whyItMatteredKo": "안정 자산 축적의 흐름이 다음 세대로 환원되기 시작한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1981, "eventKo": "본토 첫 민영 여행사 창업", "impactKo": "기미 일주의 작은 흙 일간이 외부의 큰 자원을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 2004, "eventKo": "60세에 춘추항공 창업", "impactKo": "외부 자원의 큰 흐름이 본인 사업의 두 번째 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2015, "eventKo": "춘추항공 상하이 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 상장사 춘추항공(601021) 가족 지분과 비상장 Spring Travel 자산이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1981년 Spring Travel 창업, 2004년 춘추항공 창업, 2015년 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 첫 LCC 정체성, 여행업·항공업 카테고리 결합 통로, 그리고 가족 신탁 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "춘추항공 가족 지분이 자산의 절대 비중. 장남 왕위가 운영 승계 중입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 본토 항공 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "저가 정책 강화와 본토 내수 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 항공 카테고리 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2014, "descriptionKo": "MH370 등 글로벌 항공 안전 이슈로 본토 항공 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "안전 인증 강화와 단계적 회복으로 통과했습니다.", "lessonKo": "항공 카테고리는 안전 사이클에 분기 매출이 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 항공업이 사상 최대 위기를 맞았고 춘추항공도 단기 적자에 빠졌습니다.", "howTheyOvercameKo": "본토 내수 단거리 노선 비중 강화와 정부 지원으로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 거시 충격 한 번에 본업이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.6B", "sourceKo": "상장 직후 추정"},
+    {"year": 2019, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$0.8B", "sourceKo": "코로나 평가 하락"},
+    {"year": 2026, "netWorth": "$1.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["춘추항공 창업주", "본토 첫 LCC", "60세 만년 창업", "Spring Travel 1세대", "상하이 출신"],
+  "characterKo": {
+    "strengths": "1981년 본토 첫 민영 여행사를 창업한 1세대 자수성가 정체성과, 60세에 본토 첫 LCC를 창업한 만년 결단력, 그리고 여행업·항공업 카테고리 결합 통로가 강점입니다.",
+    "weaknesses": "글로벌 거시 충격과 항공 안전 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "상하이 1세대 자수성가형 야망과 본토 첫 LCC를 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 LCC 만년 자수성가의 표본입니다. 60세에 항공업을 창업해 본토 첫 LCC 1위로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Mi day pillar (mid-summer earth on goat earth) and Jin month branch combine into a deeply rooted, externally-pressured profile. The format that draws strength from challenge matches a 44-year arc from the 1981 Spring Travel founding to the 2004 Spring Airlines founding and the 2015 IPO.",
+    "summaryKo": "일주는 기미라 한여름 끝 작은 흙이 같은 한여름 끝 흙(양의 자리) 위에 놓인 형국으로, 두 겹의 흙이 깊이로 다져진 자리입니다. 월지 진은 늦봄 흙의 자리라 일간을 세 겹의 흙으로 압축합니다. 격국은 강한 외부 자원을 본인 자본으로 변환하는 흐름이라, 1981년 Spring Travel 창업, 2004년 춘추항공 창업, 2015년 상장까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Spring_Airlines",
+    "https://www.springairlines.com",
+    "https://www.forbes.com/profile/wang-zhenghua/"
+  ]
+}

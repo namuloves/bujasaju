@@ -1,0 +1,73 @@
+{
+  "id": 20,
+  "name": "Mukesh Ambani",
+  "nameKo": "무케시 암바니",
+  "birthday": "1957-04-19",
+  "birthPlace": "Aden, Yemen",
+  "birthPlaceKo": "예멘 아덴 (당시 영국령)",
+  "netWorth": "$94B",
+  "nationality": "IN",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "신유",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1957년 예멘 아덴에서 태어났습니다. 부친 디루바이 암바니가 작은 무역업을 시작하던 시기로, 어린 시절을 거쳐 인도 뭄바이로 돌아왔습니다. 뭄바이대 화학공학 학사 후 1979~1980년 스탠퍼드 MBA 과정을 일부 이수하다가 부친 부름으로 귀국해 가족 사업에 합류했습니다.",
+    "capitalTypeKo": "재벌 2세 — 부친 디루바이 암바니 사망 후 동생 아닐과 분쟁을 거쳐 릴라이언스 본업을 잇는 운영형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Mukesh_Ambani"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1981년 부친 사업 합류, 1990년대 자나가르 정유공장 건설을 진두지휘했습니다. 2002년 부친 사망 후 2005년 동생 아닐과 그룹 분할 합의로 정유·석유화학·텔레콤 라인을 본인이 잇는 운영자가 됐습니다. 2016년 지오(Jio) 4G 출시로 통신 카테고리를 단숨에 1위로 올려 자본 가치를 한 차례 더 도약시켰습니다.",
+    "selfMadeScore": 4,
+    "sources": ["https://www.ril.com"]
+  },
+  "careerTimeline": [
+    {"year": 1981, "event": "Joins Reliance under father Dhirubhai", "eventKo": "릴라이언스 가족 사업 합류, 부친 디루바이 옆에서 정유 사업 학습 시작", "whyItMatteredKo": "신유 일주의 가을 쇠 일간이 가족 자본의 큰 흐름에 자리잡은 출발점입니다."},
+    {"year": 1999, "event": "Jamnagar refinery commissioned — world's largest single-site", "eventKo": "자나가르 정유공장 가동, 단일 부지 기준 세계 최대 정유 단지 완공", "whyItMatteredKo": "본업 매출의 카테고리 통로가 글로벌 1위급으로 환원된 시기입니다."},
+    {"year": 2005, "event": "Group split with brother Anil settled", "eventKo": "동생 아닐과 그룹 분할 합의 정식 정리, 정유·석유화학·텔레콤 라인 본인 인수", "whyItMatteredKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 결정적 결단입니다."},
+    {"year": 2016, "event": "Reliance Jio 4G launches with free voice", "eventKo": "릴라이언스 지오 4G 출시, 무료 음성 정책으로 인도 통신 시장 단숨에 1위", "whyItMatteredKo": "외부에 자기 결과물을 발산하는 흐름이 카테고리 1위 자리로 환원된 결정적 결단입니다."},
+    {"year": 2020, "event": "Reliance attracts Facebook, Google investment in Jio Platforms", "eventKo": "지오 플랫폼에 메타·구글 등 글로벌 자본 투자 유치, 가족 평가 자산 사상 최대치", "whyItMatteredKo": "본업 자본이 글로벌 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2024, "event": "Lavish wedding of son Anant marks family wealth peak", "eventKo": "장남 아카시·차남 아난트 결혼식 등 만년 가족 자본 정점 의례", "whyItMatteredKo": "외부 자원의 큰 흐름이 만년의 가족 자본 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2005, "eventKo": "동생 아닐과 그룹 분할 합의", "impactKo": "신유 일주의 가을 쇠 일간이 가족 자본을 본인 운영 자본으로 정식 환원한 결정적 결단입니다."},
+    {"year": 2016, "eventKo": "릴라이언스 지오 4G 출시", "impactKo": "외부에 자기 결과물을 발산하는 흐름이 카테고리 1위 자리로 환원된 분기점입니다."},
+    {"year": 2020, "eventKo": "지오 플랫폼에 메타·구글 글로벌 자본 유치", "impactKo": "본업 자본이 글로벌 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "릴라이언스 인더스트리(NSE: RELIANCE) 가족 약 50% 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다. 정유·석유화학, 지오 통신, 리테일 3대 카테고리로 구성됩니다.",
+    "wealthAcceleratorsKo": "1999년 자나가르 정유, 2005년 그룹 분할, 2016년 지오 출시, 2020년 글로벌 자본 유치가 자본 가치 가속의 네 단계입니다.",
+    "structuralAdvantagesKo": "인도 인프라(정유·통신·리테일) 카테고리 동시 1위, 가족 신탁 구조의 안정성, 그리고 모디 정부와의 파트너십 통로가 강점입니다.",
+    "currentAssetAllocationKo": "릴라이언스 인더스트리 가족 지분이 자산의 절대 비중. 자녀 아카시·이샤·아난트가 통신·리테일·뉴에너지 라인을 분담 운영합니다."
+  },
+  "failures": [
+    {"year": 2005, "descriptionKo": "부친 사후 동생 아닐과 그룹 지배권 분쟁이 공개 갈등으로 번졌습니다.", "howTheyOvercameKo": "어머니 코키라벤의 중재로 정식 분할 합의를 끌어냈습니다.", "lessonKo": "가족 자본은 후계 사건 한 번에 흐름이 한 번 더 정리됩니다."},
+    {"year": 2010, "descriptionKo": "동생 아닐의 R-Com 등 통신 사업 실패와 별개로, 본인의 KG-D6 가스전 생산량 급감으로 본업 매출이 압박을 받았습니다.", "howTheyOvercameKo": "정유·석유화학 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 자원 사이클 한 번에 매출이 흔들립니다."},
+    {"year": 2016, "descriptionKo": "지오 출시 직후 무료 정책에 따른 단기 손실로 그룹 부채가 사상 최대치까지 증가했습니다.", "howTheyOvercameKo": "2020년 글로벌 자본 유치와 통신 시장 1위 자리 굳히기로 V자 회복했습니다.", "lessonKo": "큰 자본 투입은 단기 부채 확대를 동반하지만 카테고리 1위 자리로 한 번에 환원될 수 있습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2005, "netWorth": "$5B", "sourceKo": "그룹 분할 직후"},
+    {"year": 2016, "netWorth": "$23B", "sourceKo": "지오 출시 직후"},
+    {"year": 2022, "netWorth": "$90B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$94B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["릴라이언스 회장", "디루바이 암바니 장남", "지오 4G 설계자", "인도 1등 부호", "가족 자본 정점"],
+  "characterKo": {
+    "strengths": "1981년 가족 사업 합류 이후 45년 동안 정유·석유화학·통신·리테일까지 카테고리를 단계적으로 확장한 결단력과, 글로벌 자본을 본인 사업의 토대로 결합한 협상력이 강점입니다.",
+    "weaknesses": "인도 단일 시장과 정부 정책 사이클에 본업 매출이 직접 노출되고, 가족 자본의 정치적 가시성이 만년의 위험으로 작용합니다.",
+    "motivation": "부친 디루바이의 가족 자본을 본인 세대에서 인도 1등 부호 자리로 끌어올리고 다음 세대로 카테고리별 분담 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "인도 산업 가문 2세대 운영형 후계자의 표본입니다. 부친의 정유 사업을 본인 세대에서 통신·리테일까지 확장한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Yu day pillar (autumn metal on rooster metal) and Jin month branch combine into a sharply refined, wealth-accumulating profile. The format that builds wealth through stable assets matches a 45-year arc from the 1981 family entry to the 2005 split, the 2016 Jio launch, and the 2020 global capital event.",
+    "summaryKo": "일주는 신유라 가을 쇠 일간이 같은 가을 쇠(닭의 자리) 위에 놓인 형국으로, 두 겹의 단단한 쇠가 결과물로 압축되는 자리입니다. 월지 진은 늦봄 흙의 자리라 일간을 흙으로 받쳐 안정적으로 자산을 쌓는 통로를 더해줍니다. 격국은 안정적으로 자산을 쌓는 흐름이라, 1981년 가족 진입, 2005년 분할 합의, 2016년 지오 출시, 2020년 글로벌 자본 유치까지 모두 '단단한 가족 자본이 단계적으로 카테고리 확장으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mukesh_Ambani",
+    "https://www.ril.com",
+    "https://www.forbes.com/profile/mukesh-ambani/"
+  ]
+}

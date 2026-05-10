@@ -1,0 +1,75 @@
+{
+  "id": 1254,
+  "name": "Martin Lau",
+  "nameKo": "마틴 라우",
+  "birthday": "1973-04-01",
+  "birthPlace": "Beijing, China",
+  "birthPlaceKo": "중국 베이징 (홍콩에서 성장)",
+  "netWorth": "$3.3B",
+  "nationality": "HK",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "정묘",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "베이징에서 태어나 홍콩에서 성장하고 미국에서 교육받았습니다. 학력은 미시간대 전기공학 학사, 스탠퍼드대 전기공학 석사, 켈로그(노스웨스턴) MBA로 이어집니다. 사생활은 비공개로 유지합니다.",
+    "capitalTypeKo": "전문 경영인 자수성가 — 창업자가 아닌 사장 자리에서 스톡옵션과 보유 지분으로 자산을 형성한 드문 모델입니다.",
+    "sources": ["https://knight-hennessy.stanford.edu/people/martin-lau"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1998년 켈로그 MBA 후 맥킨지·골드만삭스 TMT 그룹을 거쳐 2004년 텐센트 홍콩 IPO를 주관, 2005년 텐센트에 합류했습니다. 2006년 사장 취임 후 라이엇게임즈, 슈퍼셀 등 800건 이상의 투자를 주도해 텐센트 글로벌 게임 제국을 만들었습니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://emba.hkust.edu.hk/commencement-speaker/mr-martin-lau/"]
+  },
+  "careerTimeline": [
+    {"year": 1998, "event": "Joins McKinsey as consultant after Kellogg MBA", "eventKo": "켈로그 MBA 후 맥킨지 컨설턴트 입사", "whyItMatteredKo": "엔지니어 학위와 컨설팅·뱅킹을 결합한 비전형 트랙의 시작입니다."},
+    {"year": 2004, "event": "At Goldman Sachs, leads Tencent's HK IPO", "eventKo": "골드만삭스에서 텐센트 홍콩 IPO 주관", "whyItMatteredKo": "고객사로서 텐센트를 깊이 이해한 것이 1년 후 합류의 발판이 됐습니다."},
+    {"year": 2005, "event": "Joins Tencent as Chief Strategy & Investment Officer", "eventKo": "텐센트 합류 — 전략·투자 총책 부임", "whyItMatteredKo": "은행가에서 운영자로 변신한 결단입니다. 동아시아 빅테크에서 드문 전환입니다."},
+    {"year": 2011, "event": "Leads Riot Games majority acquisition", "eventKo": "라이엇게임즈 다수 지분 인수 주도", "whyItMatteredKo": "텐센트 글로벌 게임 제국의 첫 핵심 자산이 만들어진 분기점입니다."},
+    {"year": 2016, "event": "Leads $8.6B Supercell deal", "eventKo": "86억 달러 슈퍼셀 인수 주도", "whyItMatteredKo": "사상 최대 게임 인수합병이자 중국 자본의 글로벌 진출 분수령입니다."},
+    {"year": 2021, "event": "Manages Tencent through Beijing's tech crackdown", "eventKo": "베이징의 빅테크 규제 한복판에서 텐센트 운영", "whyItMatteredKo": "수십 퍼센트대 시총 증발 속에서도 회사를 지탱한 위기 관리력의 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2005, "eventKo": "텐센트 IPO 주관 후 1년 만에 직접 합류", "impactKo": "정묘 일주의 비전형 학습 본능이 은행가에서 운영자로 정체성을 옮긴 결정적 결단입니다."},
+    {"year": 2016, "eventKo": "86억 달러 슈퍼셀 인수 주도", "impactKo": "비전형 학습 경로의 격국이 사상 최대 게임 인수로 발현된 분기점입니다."},
+    {"year": 2021, "eventKo": "베이징 빅테크 규제 속에서 텐센트 시총 절반 증발에도 자리 유지", "impactKo": "전문 경영인의 위기 관리력이 시험대에 오른 만년의 가장 큰 흐름입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "홍콩 상장사 텐센트 보유 지분과 누적 스톡옵션·연봉 가치가 자산의 핵심입니다. 게임·위챗·핀테크·클라우드 매출이 텐센트의 주요 축이고 본인 자산은 텐센트 주가와 직접 연동됩니다.",
+    "wealthAcceleratorsKo": "2004년 텐센트 IPO 주관, 2011년 라이엇게임즈 인수 주도, 2016년 슈퍼셀 인수 주도가 본인 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "스탠퍼드·미시간·켈로그 학력 인맥과 골드만삭스 TMT 글로벌 자본 시장 네트워크, 그리고 마화텅의 신뢰라는 무형 자산이 강점입니다.",
+    "currentAssetAllocationKo": "텐센트 지분이 자산의 절대 비중. 일부는 텐센트 투자 포트폴리오 회사들의 간접 노출입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "중국 정부의 게임 판호 발급 9개월 동결로 텐센트 시가총액 약 2,000억 달러가 증발했습니다.", "howTheyOvercameKo": "글로벌 게임 자산 비중을 늘리고 위챗 결제·광고로 매출 다변화를 가속했습니다.", "lessonKo": "단일 규제 당국에 의존하는 사업의 취약성이 한 번에 드러납니다."},
+    {"year": 2021, "descriptionKo": "반독점·청소년 게임 시간 규제로 텐센트 광고와 게임 매출이 동시 타격을 받았고 JD·메이퇀 지분 강제 분배가 이어졌습니다.", "howTheyOvercameKo": "정치 사이클을 사업 사이클의 일부로 받아들여 자산 분배와 신사업 비중 조정을 병행했습니다.", "lessonKo": "정치 사이클은 사업 사이클의 일부가 됐습니다."},
+    {"year": 2022, "descriptionKo": "본인 자산이 시총 폭락으로 42억 달러에서 22억 달러로 반토막 났습니다.", "howTheyOvercameKo": "스톡옵션 행사 시기 분산과 신규 사업 가이던스 발신으로 시장 신뢰를 점진적으로 회복시켰습니다.", "lessonKo": "전문 경영자도 주주 자산 변동성에서 자유롭지 못합니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2021, "netWorth": "$4.2B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$2.2B", "sourceKo": "시총 폭락"},
+    {"year": 2023, "netWorth": "$2.35B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$3.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["전문 경영인 부호", "비전형 학력 트랙", "글로벌 게임 인수 주도", "정치 사이클 관리", "사생활 비공개"],
+  "characterKo": {
+    "strengths": "엔지니어 학위와 컨설팅·뱅킹을 결합한 비전형 트랙, 그리고 은행가에서 운영자로 변신한 정체성 전환 본능이 강점입니다.",
+    "weaknesses": "텐센트 단일 회사 자산 의존도가 100%에 가깝고, 중국 정부 규제 사이클에 직접 노출돼 있습니다.",
+    "motivation": "베이징 출생 홍콩 성장 미국 교육의 다중 정체성을 글로벌 빅테크 운영으로 통합하겠다는 의식이 동력입니다.",
+    "legacy": "전문 경영인 부호의 가장 성공적인 동아시아 모델입니다. 창업자가 아닌 사장 자리에서 스톡옵션과 운영 결과물로 30억 달러대 자산을 만든 보기 드문 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Myo day pillar (summer fire on rabbit wood) and Myo month branch combine into a sharp, learning-driven profile. The format that channels wealth through unconventional learning matches a 25-year arc of moving from McKinsey to Goldman Sachs to leading Tencent's IPO and joining the company afterward.",
+    "summaryKo": "일주는 정묘라 한여름 화 일간이 토끼의 자리 나무 위에 놓인 형국으로, 부드러운 화의 표현력이 같은 봄 나무의 흐름을 따라 학습·운영으로 발현되는 자리입니다. 월지 묘는 봄 나무의 자리라 일간을 같은 흐름으로 더 단단하게 받쳐줍니다. 격국은 비전형 학습 경로로 부를 만드는 흐름이라, 1998년 켈로그 MBA, 2004년 텐센트 IPO 주관, 2005년 합류, 2011년 라이엇 인수, 2016년 슈퍼셀 인수, 2021년 빅테크 규제 한복판 운영까지 모두 '비전형 학력 경로가 글로벌 빅테크 운영으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.everybodywiki.com/Martin_Lau",
+    "https://en.wikipedia.org/wiki/Tencent",
+    "https://knight-hennessy.stanford.edu/people/martin-lau",
+    "https://emba.hkust.edu.hk/commencement-speaker/mr-martin-lau/",
+    "https://realtimebillionaires.de/profile/martin-lau"
+  ]
+}

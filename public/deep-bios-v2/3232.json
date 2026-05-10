@@ -1,0 +1,74 @@
+{
+  "id": 3232,
+  "name": "Chen Huxiong",
+  "nameKo": "천후슝",
+  "birthday": "1970-07-01",
+  "birthPlace": "Chaoyang, Shantou, Guangdong, China",
+  "birthPlaceKo": "중국 광둥성 산터우 차오양",
+  "netWorth": "$1B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "임오",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "광둥성 산터우 차오양 헝산촌의 차오산 화교 가문에서 쌍둥이로 태어났습니다. 학력은 창강경영대학원 EMBA로, 17세에 가오카오를 세 번 떨어진 뒤 산터우 지역 공장의 문구 영업사원으로 사회를 시작했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 가오카오 3번 낙방 후 영업사원에서 시작해 형제들과 함께 중국 1위 문구 회사를 만든 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/M%26G_Stationery"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1989~1996년 산터우 지역 공장 영업사원으로 상하이·광둥·장쑤에 영업망을 직접 구축했고, 1997년 외환위기로 한국·대만 공급사들이 파산하자 본인 저축 20만 위안과 형제들과 함께 상하이에 M&G 문구를 창업했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://baike.baidu.com/item/%E9%99%88%E6%B9%96%E6%96%87/16805552"]
+  },
+  "careerTimeline": [
+    {"year": 1987, "event": "Fails gaokao for third time at age 17; becomes stationery salesman", "eventKo": "17세에 가오카오 3번 낙방, 산터우 지역 공장의 문구 영업사원으로 사회 출발", "whyItMatteredKo": "학력 자본이 막힌 자리에서 영업력으로 자본을 만들기 시작한 출발점입니다."},
+    {"year": 1989, "event": "Builds national sales network through Xinhua Bookstore branches", "eventKo": "신화서점 지방 지점들과 영업망을 구축, 영업 챔피언으로 등극", "whyItMatteredKo": "전국 단위 영업 인프라가 만들어진 시기입니다. 안정적으로 자산을 쌓는 격국이 안정적 거래 관계로 부를 쌓기 시작한 단계입니다."},
+    {"year": 1997, "event": "Asian crisis bankrupts Korean/Taiwanese suppliers; founds M&G with siblings", "eventKo": "외환위기로 한국·대만 공급사 파산, 본인 저축 20만 위안과 쌍둥이 형 천후원, 누이 천쉐링과 상하이에서 M&G 문구 공동 창업", "whyItMatteredKo": "위기를 본인 회사 창업의 기회로 바꾼 결정적 결단입니다. 영업사원에서 제조사 오너로 전환된 분기점입니다."},
+    {"year": 1999, "event": "Relocates to Pudong, builds vertical manufacturing", "eventKo": "푸둥 류리로 이전, 사출·인쇄·조립 자체 공정 구축", "whyItMatteredKo": "단순 유통에서 수직 통합 제조사로 카테고리를 한 단계 끌어올린 시기입니다."},
+    {"year": 2010, "event": "Builds 80,000-store partner network — China's largest stationery retail", "eventKo": "전국 8만 개 파트너 문구점 네트워크 구축 — 중국 최대 문구 유통 채널", "whyItMatteredKo": "단일 회사의 영업 인프라가 산업의 사실상 표준이 된 시기입니다."},
+    {"year": 2015, "event": "M&G IPO on Shanghai Stock Exchange (Jan 27)", "eventKo": "1월 27일 상하이 증권거래소 상장 — 시가총액 빠르게 100억 위안 돌파", "whyItMatteredKo": "18년 누적 결과물이 자본 시장 가치로 환원된 결정적 사건입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1997, "eventKo": "외환위기로 공급사 파산 — 영업사원에서 본인 회사 오너로 전환", "impactKo": "안정적으로 자산을 쌓는 격국이 안정적 거래 관계 의존을 끊고 자기 자산을 만들기 시작한 결정적 결단입니다."},
+    {"year": 1999, "eventKo": "푸둥 자체 제조 공정 구축으로 수직 통합", "impactKo": "임오 일주의 큰 흐름이 단순 유통이 아닌 제조사 자본으로 옮긴 분기점입니다."},
+    {"year": 2015, "eventKo": "상하이 증권거래소 상장으로 자본 시장 가치 환원", "impactKo": "18년 누적 결과물이 한 번에 시장 가치로 환원된 결정적 사건입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 상장사 M&G 문구의 가족 공동 지배 지분(약 67%)에서 나오는 주가 가치와 배당이 핵심입니다. 펜·학용품·사무용품과 자회사 주무 자물사 라이프스타일 매장이 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "1997년 창업, 1999년 수직 통합 제조 전환, 2010년대 8만 개 파트너 점 네트워크, 2015년 상장이 자본 가치 가속의 네 단계입니다.",
+    "structuralAdvantagesKo": "전국 8만 개 파트너 문구점 네트워크라는 영업 인프라와, 차오산 화교 상인 디아스포라 네트워크가 강점입니다.",
+    "currentAssetAllocationKo": "M&G 문구 가족 공동 지분이 자산의 절대 비중. 쌍둥이 형 천후원이 회장, 누이 천쉐링이 부사장으로 가족 분업 체제입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "이커머스(알리바바 1688 사무용품, 징둥 사무 채널)의 등장이 파트너 점 네트워크의 해자를 침식하기 시작했습니다.", "howTheyOvercameKo": "주무 자물사 라이프스타일 매장으로 카테고리를 확장하고, B2B 사무용품 디지털 채널을 추가했습니다.", "lessonKo": "오프라인 유통 인프라의 해자는 디지털 채널의 등장으로 침식됩니다."},
+    {"year": 2020, "descriptionKo": "주무 자물사 라이프스타일 매장이 수년간 적자였습니다. 분석가들이 '문구 회사가 미니소·무인양품을 따라간다'고 비판했습니다.", "howTheyOvercameKo": "단계적 손익분기점 접근으로 적자를 줄였고, 본업 문구 매출로 신사업 적자를 흡수했습니다.", "lessonKo": "본업 외 신사업은 본업 캐시카우가 받쳐주지 않으면 자본을 갉아먹습니다."},
+    {"year": 2022, "descriptionKo": "중국 출생률 급락으로 주력 고객인 학생 인구가 줄어들면서 본업 매출 자체가 구조적 압박을 받기 시작했습니다.", "howTheyOvercameKo": "B2B 사무용품과 라이프스타일 카테고리로 매출 비중을 점진적으로 옮겨가고 있습니다.", "lessonKo": "인구 구조 변화는 본업 자체를 줄이는 가장 느리고 가장 강한 위협입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$1.0B", "sourceKo": "M&G 상장 직후 가족 합산 추정"},
+    {"year": 2020, "netWorth": "$3.5B", "sourceKo": "후룬 가족 합산"},
+    {"year": 2024, "netWorth": "$1.0B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.0B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["가오카오 3번 낙방", "차오산 영업력", "쌍둥이 형제 분업", "8만 점 파트너 네트워크", "인구 구조 압박"],
+  "characterKo": {
+    "strengths": "전국 단위 영업 인프라를 직접 손으로 구축한 영업력과, 외환위기 직후 공급사 파산을 본인 회사 창업의 기회로 바꾼 위기 활용 본능이 강점입니다.",
+    "weaknesses": "출생률 급락으로 본업 매출이 구조적 압박을 받고 있고, 가족 67% 지분 집중이 거버넌스 단점으로 작용합니다.",
+    "motivation": "가오카오 3번 낙방 후 영업사원으로 시작한 자존심과, 중국인이 매일 쓰는 펜을 본인이 만들겠다는 산업적 사명이 동력입니다.",
+    "legacy": "차오산 화교 자수성가의 표본입니다. 가오카오 낙방생이 영업사원에서 출발해 중국 1위 문구 회사를 만든 모델이자, 8만 개 파트너 점 네트워크라는 오프라인 유통 인프라의 마지막 시대를 보여주는 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-O day pillar (winter water on horse fire) and Mi month branch combine into a wide-reaching but earth-grounded profile. The format that channels wealth through stable trade relationships matches a 30-year arc of starting as a stationery salesman at 17, founding M&G in 1997 amid supplier bankruptcies, and IPO in 2015.",
+    "summaryKo": "일주는 임오라 큰 물이 한여름 말의 불 위에 놓인 형국으로, 큰 흐름이 강한 결과물의 자리에 닿는 자리입니다. 월지 미는 한여름 흙의 자리라 큰 물의 흐름을 단단히 가둬 안정적 거래 관계의 자리를 만듭니다. 격국은 안정적 거래 관계와 영업망으로 부를 쌓는 흐름이라, 1987년 17세 영업사원 출발, 1997년 위기 후 본인 회사 창업, 1999년 수직 통합, 2010년대 8만 점 파트너 네트워크, 2015년 상장까지 모두 '관계 인프라를 직접 만들어 자본으로 환원한다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/M%26G_Stationery",
+    "https://www.bloomberg.com/profile/person/18958154",
+    "https://baike.baidu.com/item/%E9%99%88%E6%B9%96%E6%96%87/16805552",
+    "https://www.mgstationery.com/col11/index"
+  ]
+}

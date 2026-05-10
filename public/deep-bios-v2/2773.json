@@ -1,0 +1,75 @@
+{
+  "id": 2773,
+  "name": "Jin Lei",
+  "nameKo": "진레이",
+  "birthday": "1954-09-23",
+  "birthPlace": "Nanchang, Jiangxi, China",
+  "birthPlaceKo": "중국 장시성 난창",
+  "netWorth": "$1.3B",
+  "nationality": "CN",
+  "industry": "Healthcare",
+  "gender": "M",
+  "ilju": "임오",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "장시성 난창에서 태어났습니다. 학력은 베이징대 생화학 학사, 중국과학원 생물물리연구소 석사, 미국 UCSF 의약화학 박사(1994)로 이어지는 최상위 기초과학 트랙입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — UCSF 박사가 미국 빅파마 채용을 거절하고 귀국해 중국 1세대 바이오 창업가가 된 인물입니다.",
+    "sources": ["https://www.genscigroup.com/news/express/32"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1994년 UCSF 박사 후 귀국, 1996년 창춘 하이테크 그룹과 50:50 합작으로 진세이를 설립했고 1998년 중국 최초 재조합 인간 성장호르몬 진트로핀을 출시했습니다. 2019년 창춘 하이테크가 GenSci 지분 29.5%를 약 72억 위안에 인수하면서 자산이 신주 + 채권 형태로 모회사 주식에 잠겼습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.marketscreener.com/quote/stock/CHANGCHUN-HIGH-TECH-INDUS-6513732/news/Changchun-High-New-Technology-Industry-Inc-completed-the-acquisition-of-29-5-stake-in-GeneScienc-34082389/"]
+  },
+  "careerTimeline": [
+    {"year": 1985, "event": "Bachelor at Peking University, biochemistry", "eventKo": "베이징대 생화학과 졸업 후 중국과학원 생물물리연구소 석사 진학", "whyItMatteredKo": "최상위 기초과학 트랙 진입의 출발점입니다."},
+    {"year": 1994, "event": "PhD UCSF medicinal chemistry; returns to China", "eventKo": "UCSF 의약화학 박사 취득, 미국 빅파마 채용 거절하고 귀국", "whyItMatteredKo": "이 선택이 향후 중국 1세대 바이오 창업가로 자리매김하는 분수령입니다."},
+    {"year": 1996, "event": "Co-founds GeneScience with Changchun High-Tech 50:50", "eventKo": "창춘 하이테크 그룹과 50:50 합작으로 진세이 설립", "whyItMatteredKo": "민간 과학자가 국유 자본을 끌어들여 합작한 1990년대형 창업 모델의 정확한 사례입니다."},
+    {"year": 1998, "event": "China's first recombinant human growth hormone Jintropin launched", "eventKo": "중국 최초 재조합 인간 성장호르몬 진트로핀 시판 개시", "whyItMatteredKo": "회사명과 제품명에 본인 성을 새겨 과학자 정체성과 회사 정체성을 일체화한 결정입니다."},
+    {"year": 2010, "event": "US Operation Raw Deal — pleads guilty to HGH marketing violations", "eventKo": "미국 법무부 후속 조치로 본인과 회사가 미국 내 HGH 불법 마케팅 혐의 유죄 인정 — 약 750만 달러 벌금·몰수", "whyItMatteredKo": "도핑·암시장 유통과 연관된 글로벌 평판 타격 사건입니다."},
+    {"year": 2019, "event": "Changchun High-Tech acquires 29.5% GeneScience stake for ~7.2B RMB", "eventKo": "창춘 하이테크가 GenSci 지분 29.5%를 약 72억 위안에 인수, 본인은 신주 + 채권으로 대가 수령", "whyItMatteredKo": "GenSci가 모회사 100% 자회사가 되며 본인 자산이 모회사 주식에 잠긴 분기점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1994, "eventKo": "UCSF 박사 후 미국 빅파마 거절, 귀국 결정", "impactKo": "임오 일주의 큰 물 일간이 큰 외부 자원의 흐름(중국 시장)으로 자기를 옮긴 결정적 결단입니다."},
+    {"year": 1996, "eventKo": "창춘 하이테크와 50:50 합작 창업", "impactKo": "학습·가문 자산을 잇는 흐름이 국유 자본과 결합한 분기점입니다."},
+    {"year": 2019, "eventKo": "GenSci가 모회사 자회사로 통합, 자산이 주식 형태로 잠금", "impactKo": "30년 누적 결과물이 자본 시장 가치로 환원된 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전 상장사 창춘 하이테크 본인 보유 약 8.56% 지분에서 나오는 주가 가치가 핵심입니다. 진세이의 진트로핀(rhGH)과 진트로롱(PEG-rhGH)이 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "1998년 진트로핀 출시, 2019년 모회사 통합 인수, 2021년 창춘 하이테크 주가 급등이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "베이징대·UCSF 학력 인맥, 중국 1세대 재조합 단백질 의약품 플랫폼이라는 카테고리 우위, 그리고 본인 성을 새긴 제품명의 정체성 자본이 강점입니다.",
+    "currentAssetAllocationKo": "창춘 하이테크 약 8.56% 지분이 자산의 절대 비중. 이혼 분할로 일부가 전 부인에게 이전됐습니다."
+  },
+  "failures": [
+    {"year": 2010, "descriptionKo": "진세이와 본인이 미국 내 인간 성장호르몬 불법 마케팅 혐의로 유죄를 인정했습니다. 약 4.5~7.5백만 달러 벌금·몰수가 부과되고 미국 시장이 차단됐습니다.", "howTheyOvercameKo": "본업 중국 내 의료용 rhGH에 자본을 다시 집중시키고 회사의 글로벌 진출 전략을 재조정했습니다.", "lessonKo": "1세대 중국 바이오의 글로벌 진출은 규제 격차를 무시하면 형사 리스크가 됩니다."},
+    {"year": 2024, "descriptionKo": "이혼 합의 과정에서 전 부인에게 약 40억 위안 상당의 창춘 하이테크 주식을 분할했습니다. 모회사 주가에 일시적 동요가 있었습니다.", "howTheyOvercameKo": "본인 보유 지분과 운영 지위를 유지하면서 시장 신뢰를 점진적으로 회복시켰습니다.", "lessonKo": "지배 구조와 가족 자산을 분리하지 않으면 개인 사건이 시가총액을 흔듭니다."},
+    {"year": 2023, "descriptionKo": "중국 정부의 의료 반부패 캠페인으로 rhGH 처방·마케팅 관행 조사가 진행됐고 GenSci 매출 성장이 둔화됐습니다.", "howTheyOvercameKo": "여성 건강·PEG 장기 지속형 등 새 카테고리로 매출 비중을 옮기는 작업을 가속하고 있습니다.", "lessonKo": "단일 블록버스터 의존도는 정책 리스크에 그대로 노출됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2019, "netWorth": "$0.5B", "sourceKo": "지분 인수 거래 직후 평가"},
+    {"year": 2021, "netWorth": "$3B", "sourceKo": "후룬 헬스케어 부호 리스트"},
+    {"year": 2024, "netWorth": "$1.3B", "sourceKo": "이혼 분할 + 주가 회복 둔화"},
+    {"year": 2026, "netWorth": "$1.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["UCSF 박사 출신", "중국 1세대 바이오", "본인 성 제품명", "미국 도핑 사건", "이혼 재산 분할"],
+  "characterKo": {
+    "strengths": "베이징대·UCSF 최상위 학력 트랙과, 1990년대형 민간 과학자·국유 자본 합작 모델을 정확히 활용한 사업 본능이 강점입니다. 본인 성을 회사명과 제품명에 새긴 정체성 자본도 핵심입니다.",
+    "weaknesses": "단일 회사 단일 블록버스터(rhGH) 의존도가 매우 높고, 미국 도핑 사건과 이혼 재산 분할 등 평판 리스크가 누적된 구조입니다.",
+    "motivation": "장시 출신 과학자가 미국 빅파마를 거절하고 귀국해 중국 1세대 바이오를 만들겠다는 정체성 의식과, 본인 성을 회사·제품명에 새기는 자존심이 동력입니다.",
+    "legacy": "중국 1세대 재조합 단백질 의약품 회사를 만든 과학자 창업가의 표본입니다. 본인 성을 회사명과 제품명에 새긴 보기 드문 정체성 자본 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-O day pillar (autumn water on horse fire) and Yu month branch combine into a wide-flowing, sharply refined profile. The format that channels wealth through learning and inheritance matches a 30-year arc of UCSF doctorate in 1994, founding GenSci in 1996, the 1998 Jintropin launch, the 2010 US plea, and the 2019 parent-company merger.",
+    "summaryKo": "일주는 임오라 가을 큰 물이 한여름 말의 불 위에 놓인 형국으로, 큰 흐름이 강한 결과물의 자리에 닿는 자리입니다. 월지 유는 가을 쇠의 자리라 일간이 만들어낸 결과물을 깎아 시장에 내보내는 통로 역할을 합니다. 격국은 학습·가문 자산을 잇는 흐름이라, 1985년 베이징대 졸업, 1994년 UCSF 박사 후 귀국, 1996년 50:50 합작 창업, 1998년 진트로핀 출시, 2019년 모회사 통합까지 모두 '학습된 권위가 가문 자본 흐름과 결합해 다음 단계로 흘러간다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.genscigroup.com/news/express/32",
+    "https://www.justice.gov/archive/usao/ri/news/2010/oct2010/gensci_plea.html",
+    "https://www.marketscreener.com/quote/stock/CHANGCHUN-HIGH-TECH-INDUS-6513732/news/Changchun-High-New-Technology-Industry-Inc-completed-the-acquisition-of-29-5-stake-in-GeneScienc-34082389/",
+    "https://finance.sina.com.cn/jjxw/2024-09-12/doc-incnwvun6393687.shtml",
+    "http://en.gensci-china.com/gensci/GenSci.asp"
+  ]
+}

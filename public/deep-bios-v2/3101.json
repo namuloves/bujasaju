@@ -1,0 +1,73 @@
+{
+  "id": 3101,
+  "name": "He Yamin",
+  "nameKo": "허야민",
+  "birthday": "1957-02-23",
+  "birthPlace": "Sichuan, China",
+  "birthPlaceKo": "중국 쓰촨성",
+  "netWorth": "$1.1B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "병인",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "쓰촨성에서 태어났습니다. 학력은 전문대로 1957년생 비전형 학습 경로입니다. 청년기를 쓰촨 광산 기계 공장에서 보냈습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 국유 광산 기계 공장 20년 근속 후 49세에 IPO 성공한 가장 늦은 상승 곡선의 인물입니다.",
+    "sources": ["https://baike.baidu.com/item/%E6%88%90%E9%83%BD%E5%88%A9%E5%90%9B%E5%AE%9E%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/9355372"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1978년 21세에 쓰촨 광산 기기 공장에 입사해 20년을 근속했고, 1998년 사기업 부총재로 잠시 옮긴 뒤 1999년 청두 리쥔 실업을 창업했습니다. 2003년 첫 CLF 롤러 압착기 출고, 2012년 1월 선전증권거래소 상장으로 자본 가치 환원이 일어났습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.cdleejun.com/about/develop.htm"]
+  },
+  "careerTimeline": [
+    {"year": 1978, "event": "Joins Sichuan mining machinery factory at 21", "eventKo": "21세에 쓰촨 광산 기계 공장 입사 — 개혁개방 원년", "whyItMatteredKo": "중국 중공업 국유 시스템에서 20년간 현장 학습이 만들어진 출발점입니다."},
+    {"year": 1998, "event": "Leaves state factory, joins Shenzhen Jintian as VP", "eventKo": "20년 근속 후 국유 광산 기계 공장 사직, 선전 진톈 부총재로 이동", "whyItMatteredKo": "40대 초중반에 시장 경제 사기업으로 전환한 시기입니다."},
+    {"year": 1999, "event": "Founds Chengdu Leejun Industrial", "eventKo": "청두 리쥔 실업 설립, 집행 이사 겸 총경리 취임", "whyItMatteredKo": "시멘트·광산 분쇄 장비 niche를 정조준한 분기점입니다."},
+    {"year": 2003, "event": "First in-house CLF roller press shipped", "eventKo": "자체 개발 CLF 롤러 압착기 첫 출고(장쑤 고객)", "whyItMatteredKo": "수입 대체의 결정적 한 수입니다. 시멘트 사전 분쇄 시스템에서 국내 1위 기술을 확보한 시기입니다."},
+    {"year": 2012, "event": "IPO on Shenzhen Stock Exchange (002651)", "eventKo": "선전증권거래소 상장 (1월 6일)", "whyItMatteredKo": "55세에 첫 자본 시장 진출이고 가족 지분 61%를 유지하며 통제권을 잃지 않은 IPO입니다."},
+    {"year": 2022, "event": "High-pressure roller mill named China Manufacturing Single Champion", "eventKo": "고압 롤러 분쇄기 중국 제조업 단일 챔피언 제품 등재 + 국가급 기업 기술 센터 인증", "whyItMatteredKo": "산업 사이클(시멘트 부진)에도 기술 단일 챔피언 지위로 정책·발주 우선권을 확보한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1998, "eventKo": "20년 근속 국유 공장에서 사기업으로 전환", "impactKo": "병인 일주의 화 일간이 외부 압력(국유 시스템의 한계)을 본인 자본으로 변환하기 시작한 출발점입니다."},
+    {"year": 2003, "eventKo": "자체 CLF 롤러 압착기 첫 출고", "impactKo": "도전·압력을 자본으로 변환하는 흐름이 수입 대체 결과물로 발현된 결정적 결단입니다."},
+    {"year": 2012, "eventKo": "선전 상장으로 55세 첫 자본 시장 진출", "impactKo": "20년 누적 결과물이 자본 시장 가치로 환원된 분기점입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전 상장사 청두 리쥔 실업(002651) 본인과 일치 행동인 허자 합산 약 61.38% 지분에서 나오는 주가 가치가 핵심입니다. 시멘트·광산용 고압 롤러 분쇄기가 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "2003년 자체 기술 출고, 2012년 상장, 2022년 단일 챔피언 인증이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "고압 롤러 분쇄기 단일 챔피언 제품 자리와, 국가급 기업 기술 센터 인증, 그리고 가족 61% 지분 지배 구조가 강점입니다.",
+    "currentAssetAllocationKo": "리쥔 실업 가족 지분이 자산의 절대 비중. 광산·신소재 분야 적용처 확장이 다음 단계 통로입니다."
+  },
+  "failures": [
+    {"year": 1998, "descriptionKo": "선전 진톈 부총재로 이직했지만 1년 만에 떠났습니다. 첫 사기업 적응에 좌절한 시기입니다.", "howTheyOvercameKo": "이듬해 직접 창업으로 전환해 본인 회사 사장이 되는 길을 택했습니다.", "lessonKo": "남의 회사에서의 부사장보다 작은 자기 회사 사장이 낫다는 학습이 이루어진 시기입니다."},
+    {"year": 2014, "descriptionKo": "중국 시멘트 산업 사이클 다운턴이 시작됐고 분쇄 장비 발주가 둔화되며 매출이 정체됐습니다.", "howTheyOvercameKo": "광산·신소재 분야로 적용처 확장을 시도했습니다.", "lessonKo": "단일 산업(시멘트) 의존 탈피는 카테고리 확장으로만 풀립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 해외 광산 발주가 지연됐고 환경 규제로 시멘트 신규 라인이 감소했습니다.", "howTheyOvercameKo": "보유 현금과 기술 인증으로 사이클을 통과시키는 방식을 택했습니다.", "lessonKo": "수출형 중공업 장비의 매크로 충격은 인증 우위로만 견딜 수 있습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2012, "netWorth": "$0.4B", "sourceKo": "상장 직후 가족 합산 추정"},
+    {"year": 2018, "netWorth": "$0.8B", "sourceKo": "시멘트 사이클 회복기 추정"},
+    {"year": 2022, "netWorth": "$1.1B", "sourceKo": "단일 챔피언 인증 효과 후 진입"},
+    {"year": 2026, "netWorth": "$1.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["국유 공장 20년 출신", "55세 첫 IPO", "단일 챔피언 인증", "수입 대체 기술", "가족 61% 지배"],
+  "characterKo": {
+    "strengths": "국유 광산 기계 공장 20년 근속의 운영 노하우와, 일본 등 수입 대체 기술을 자체 개발해 단일 챔피언 인증까지 받은 끈기가 강점입니다.",
+    "weaknesses": "단일 산업(시멘트·광산) 의존도가 높고, 매크로 사이클에 매출이 직접 노출되는 구조입니다.",
+    "motivation": "쓰촨 출신 국유 공장 매니저가 본인 회사 사장이 되겠다는 자존심과, 수입 대체 기술을 본인 세대에서 단일 챔피언 자리로 만들겠다는 산업 사명이 동력입니다.",
+    "legacy": "쓰촨 자수성가 광산 장비 1세대의 표본입니다. 국유 공장 매니저가 49세에 창업해 55세에 IPO에 성공한 가장 늦은 상승 곡선의 보기 드문 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-In day pillar (early spring fire on tiger wood) and In month branch combine into a sharp, externally-pressured profile. The format that channels wealth through external pressure matches a 35-year arc from 20 years at a state-owned mining factory to founding Leejun in 1999, the 2003 CLF shipment, the 2012 IPO at 55, and the 2022 Single Champion certification.",
+    "summaryKo": "일주는 병인이라 봄·여름의 화 일간이 호랑이의 자리 나무 위에 놓인 형국으로, 화의 표현력이 같은 봄 나무의 흐름으로 두 겹으로 작동하는 자리입니다. 월지 인은 또 같은 호랑이의 자리라 일간을 강하게 받쳐 줍니다. 격국은 도전·압력을 자본으로 변환하는 흐름이라, 1978년 국유 공장 입사, 1998년 사기업 전환, 1999년 창업, 2003년 자체 기술 출고, 2012년 상장, 2022년 단일 챔피언 인증까지 모두 '외부 시스템의 한계가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://baike.baidu.com/item/%E6%88%90%E9%83%BD%E5%88%A9%E5%90%9B%E5%AE%9E%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/9355372",
+    "https://www.cdleejun.com/about/develop.htm",
+    "https://zs.stock.pingan.com/gs/a16593.html"
+  ]
+}

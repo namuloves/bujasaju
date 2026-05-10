@@ -1,0 +1,75 @@
+{
+  "id": 909,
+  "name": "Jiang Weiping",
+  "nameKo": "장웨이핑",
+  "birthday": "1955-03-01",
+  "birthPlace": "Sichuan, China",
+  "birthPlaceKo": "중국 쓰촨성",
+  "netWorth": "$4.5B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "신유",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "쓰촨성에서 태어났고 활동 본거지는 청두입니다. 학력은 청두농업기계대학 공학사(1982 졸업)입니다. 졸업 후 사천성 산업 체계 내 기술 관료로 시작한 출발점이 후일 리튬 광산 행정·기술 양면 이해의 토대가 됐습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 42세 늦은 창업으로 글로벌 2위 리튬 화합물 회사를 만든 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Tianqi_Lithium"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1982년부터 1997년까지 기계 전자 공업부 엔지니어·세일즈로 근무했고, 1997년 창업가로 전환, 2004년 사천 사훙 리튬 인수가 사실상의 텐치 리튬 출범입니다. 2010년 선전 상장, 2012~2013년 호주 탈리손 인수로 그린부시 광산을 확보, 2018년 SQM 23.77% 인수로 글로벌 빅2 자리를 굳혔습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://en.tianqilithium.com/ourcompany/leadership.html"]
+  },
+  "careerTimeline": [
+    {"year": 1982, "event": "Engineer at Ministry of Machinery & Electronics", "eventKo": "청두농업기계대학 졸업 후 기계 전자 공업부 엔지니어 임용", "whyItMatteredKo": "사천성 산업 체계 내 기술 관료 출신으로 후일 리튬 광산 행정·기술 양면 이해의 토대가 만들어진 시기입니다."},
+    {"year": 1997, "event": "Leaves public sector to enter lithium industry", "eventKo": "공직·기업 임원 경력을 떠나 창업, 리튬 산업 합류", "whyItMatteredKo": "42세에 위험을 감수한 결정입니다. 당시 리튬은 무명 산업이라 소수 자원에 베팅한 분기점입니다."},
+    {"year": 2004, "event": "Acquires Sichuan Shehong Lithium via Tianqi Group", "eventKo": "텐치 그룹을 통해 사천 사훙 리튬 인수, 회장 취임", "whyItMatteredKo": "국유에서 민영으로 전환된 리튬 광산을 인수한 출발점입니다. 향후 모든 확장의 토대가 됐습니다."},
+    {"year": 2010, "event": "IPO on Shenzhen Stock Exchange (002466)", "eventKo": "선전증권거래소 상장 (002466)", "whyItMatteredKo": "리튬 사이클 초입에 자본 시장에 진입해 인수합병 화폐를 확보한 시기입니다."},
+    {"year": 2012, "event": "Acquires Australia's Talison Lithium", "eventKo": "호주 탈리손 리튬 인수 — 2013년 2월 완료, 그린부시 광산 장악", "whyItMatteredKo": "세계 최대 경암 리튬 광산 확보의 결정적 인수입니다. 글로벌 리튬 공급망의 분기점입니다."},
+    {"year": 2024, "event": "Steps down as Chairman after record loss; daughter Jiang Anqi succeeds", "eventKo": "사상 최대 분기 적자(5억 달러 이상) 직후 회장직 사임, 딸 장안치 승계", "whyItMatteredKo": "리튬 사이클 하강과 SQM 차입금 부담의 정점에서 세대 교체가 일어난 만년의 결정적 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1997, "eventKo": "42세에 공직 떠나 무명 산업 리튬 합류", "impactKo": "신유 일주의 단단한 쇠 기질이 학습된 자본을 다음 단계 자원 산업으로 옮긴 결정적 결단입니다."},
+    {"year": 2018, "eventKo": "리튬 사이클 정점 직전 SQM 23.77% 인수($40.66억)", "impactKo": "학습형 일간이 호주(경암)·칠레(염호) 모두 장악한 동시에 거대 부채를 누적한 양면 분기점입니다."},
+    {"year": 2024, "eventKo": "사상 최대 분기 적자 후 딸 장안치 승계", "impactKo": "학습·가문 자산을 잇는 흐름의 격국이 만년에 세대 교체로 발현된 결정적 사건입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전·홍콩 상장사 텐치 리튬 가족 지분에서 나오는 주가 가치가 핵심입니다. 호주 그린부시 광산과 칠레 SQM 23.77% 지분이 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "2004년 사훙 리튬 인수, 2010년 상장, 2013년 탈리손 완전 인수, 2018년 SQM 인수가 자본 가치 가속의 네 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 1위 경암 리튬 광산(그린부시) 보유, 칠레 SQM 23.77% 지분, 그리고 사천성 출신 기술 관료 인맥이 강점입니다.",
+    "currentAssetAllocationKo": "텐치 리튬 가족 지분이 자산의 절대 비중. 만년 세대 교체로 딸 장안치가 운영을 맡고 본인은 임원으로 남아 있습니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "SQM 23.77% 인수 직후 리튬 가격이 70% 폭락했고 35억 달러 신디케이트 론 부채 부담이 폭증해 자본 구조가 극도로 압박됐습니다.", "howTheyOvercameKo": "회장 본인이 회사에 1.17억 달러를 대여하고 자산 매각으로 유동성을 보충했습니다.", "lessonKo": "사이클 정점 인수의 전형입니다. 자원 기업 인수는 가격 사이클 타이밍이 모든 것을 결정합니다."},
+    {"year": 2020, "descriptionKo": "무디스가 신용 등급을 부정적으로 조정했고 회장 본인이 회사에 1.17억 달러를 대여하는 강제 상황에 몰렸습니다.", "howTheyOvercameKo": "오스트레일리아 자산을 IGO에 일부 매각해 부채를 줄이고 유동성을 회복했습니다.", "lessonKo": "오너 개인 자산이 회사 부채의 마지막 방어선이 되는 구조는 지배 구조 리스크입니다."},
+    {"year": 2024, "descriptionKo": "리튬 가격이 재차 폭락하면서 분기 손실이 사상 최대로 커졌고 회장직 사임으로 이어졌습니다.", "howTheyOvercameKo": "딸 장안치에게 회장직을 이양하고 본인은 후방으로 물러나 책임을 분산했습니다.", "lessonKo": "원자재 사이클 의존 비즈니스의 구조적 변동성은 세대 교체로 책임을 분산하는 통로가 되기도 합니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1B", "sourceKo": "선전 상장 직후 가족 합산 추정"},
+    {"year": 2018, "netWorth": "$8B", "sourceKo": "리튬 슈퍼 사이클 정점"},
+    {"year": 2021, "netWorth": "$10B", "sourceKo": "EV 수요 2차 호황"},
+    {"year": 2026, "netWorth": "$4.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["기술 관료 출신", "리튬 1세대", "그린부시·SQM 보유", "사이클 정점 인수", "딸 후계 안정"],
+  "characterKo": {
+    "strengths": "사천성 기술 관료 15년 경험과, 무명 산업이던 리튬에 42세에 베팅한 선제 본능, 그리고 호주·칠레 양대 자산을 모두 장악한 글로벌 인수 본능이 강점입니다.",
+    "weaknesses": "사이클 정점 인수의 부채가 만년의 자본 구조를 흔들었고, 단일 자원(리튬) 의존도가 매우 높은 구조입니다.",
+    "motivation": "사천성 기술 관료가 글로벌 자원 기업의 오너가 되겠다는 자수성가 야망과, 학습된 자본을 다음 세대로 깔끔히 이어주겠다는 정체성 의식이 동력입니다.",
+    "legacy": "중국 자원 기업 자수성가 1세대의 표본입니다. 호주 그린부시와 칠레 SQM을 모두 장악한 글로벌 빅2 자리를 만들었고, 만년에 딸 후계로 세대 교체를 마친 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Yu day pillar (autumn metal on rooster metal) and In month branch combine into a doubly-hardened, learning-rich profile. The format that channels wealth through learning and inherited momentum matches a 27-year arc from leaving the public sector at 42 in 1997, the 2004 Shehong acquisition, the 2013 Talison capture, and the 2024 daughter succession.",
+    "summaryKo": "일주는 신유라 가을 큰 쇠가 또 다른 쇠(닭의 자리) 위에 놓인 형국으로, 단단한 쇠 기질이 두 겹으로 작동하는 자리입니다. 월지 인은 이른 봄 나무의 자리라 일간에 외부 자원의 흐름과 학습 자본을 더해줍니다. 격국은 학습·가문 자산을 잇는 흐름이라, 1997년 42세 공직 떠남, 2004년 사훙 리튬 인수, 2013년 탈리손 완전 인수, 2018년 SQM 인수, 2024년 딸 후계 이양까지 모두 '학습된 자본이 만년에 세대 교체로 흘려보내진다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/profile/jiang-weiping/",
+    "https://realtimebillionaires.de/profile/jiang-weiping",
+    "https://en.wikipedia.org/wiki/Tianqi_Lithium",
+    "https://www.miningweekly.com/article/china-lithium-giants-founder-hands-reins-to-daughter-after-major-loss-2024-04-30",
+    "https://www.caixinglobal.com/2020-11-30/acquisitive-chinese-miner-tianqi-lithium-faces-debt-crunch-101633910.html"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 1275,
+  "name": "Yang Huiyan",
+  "nameKo": "양후이옌",
+  "birthday": "1981-09-27",
+  "birthPlace": "Shunde, Foshan, Guangdong, China",
+  "birthPlaceKo": "중국 광둥성 포산 슌더",
+  "netWorth": "$3.2B",
+  "nationality": "CN",
+  "industry": "Real Estate",
+  "gender": "F",
+  "ilju": "무신",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "광둥성 포산 슌더에서 양궈창의 둘째 딸로 태어났습니다. 부친은 농민·건설 노동자 출신 컨트리 가든(%E7%A2%A7%E6%A1%82%E5%9B%AD) 창업주입니다. 학력은 미국 오하이오 주립대 경영·마케팅 학사(2003)로 부친이 일찌감치 후계 학습을 시킨 인물입니다. 2006년 청화대 박사 천충과 결혼했습니다.",
+    "capitalTypeKo": "재벌 2세 — 부친 양궈창에게서 70% 지분을 IPO 직전 증여받은 정통 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Yang_Huiyan"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "2007년 4월 컨트리 가든 홍콩 상장 직전 부친에게서 70% 지분을 증여받아 25세에 중국 최고 부호 여성에 등극했습니다. 2018년 컨트리 가든 서비스 분사 상장으로 본업과 부동산 관리 두 축을 만들었지만 2023년 본체 디폴트로 자산이 75~80% 증발했습니다.",
+    "selfMadeScore": 1,
+    "sources": ["https://en.wikipedia.org/wiki/Country_Garden"]
+  },
+  "careerTimeline": [
+    {"year": 2005, "event": "Graduates Ohio State, joins Country Garden", "eventKo": "오하이오 주립대 졸업 후 컨트리 가든 합류, 부친 직속 비서로 자재·인수합병 학습", "whyItMatteredKo": "무신 일주의 흙 일간이 가문 자원의 흐름을 본인 운영으로 받기 시작한 출발점입니다."},
+    {"year": 2007, "event": "Country Garden HKEX IPO; receives 70% stake from father", "eventKo": "4월 컨트리 가든 홍콩 상장 — 부친이 IPO 직전 70% 지분 증여, 25세에 중국 최고 부호 여성", "whyItMatteredKo": "학습·가문 자산을 잇는 흐름이 자본 시장 가치로 한 번에 환원된 결정적 분기점입니다."},
+    {"year": 2012, "event": "Promoted to Group Vice Chairman", "eventKo": "그룹 부회장 승격, 3·4선 도시 표준화·고회전 모델 정착에 관여", "whyItMatteredKo": "부친의 운영 모델을 본인 운영으로 옮긴 시기입니다."},
+    {"year": 2018, "event": "Spins off Country Garden Services, listed on HKEX", "eventKo": "컨트리 가든 서비스 분사 — 부동산 관리 매출 헤지 자산", "whyItMatteredKo": "부동산 사이클 헤지용 자산을 만들어 두 축으로 다각화한 분기점입니다."},
+    {"year": 2023, "event": "Father retires; Yang assumes Chair; default in August", "eventKo": "3월 부친 은퇴 후 회장 공식 승계, 8월 USD 22.5M 쿠폰 미지급 디폴트", "whyItMatteredKo": "본인이 정식 회장이 된 해에 그룹 부도가 발생한 만년의 가장 극적인 흐름입니다."},
+    {"year": 2024, "event": "Liquidation petition in Hong Kong court; net worth collapses to ~$3B", "eventKo": "홍콩 법원 청산 소송 진행, 자산이 30B+ 규모에서 3B대로 폭락", "whyItMatteredKo": "외부 자원의 흐름이 본인을 키웠다 깎아내는 격국의 양면성이 드러난 사건입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2007, "eventKo": "25세에 부친에게서 70% 지분 증여, 중국 최고 부호 여성 등극", "impactKo": "무신 일주의 흙 일간이 가문 자원을 한 번에 받은 결정적 결단입니다."},
+    {"year": 2018, "eventKo": "컨트리 가든 서비스 분사 상장으로 두 축 다각화", "impactKo": "학습·가문 자산을 잇는 흐름이 본업 헤지 자산으로 확장된 분기점입니다."},
+    {"year": 2023, "eventKo": "부친 은퇴 직후 디폴트 발생", "impactKo": "외부 자원의 흐름이 본인 회장 취임 첫 해에 한 번에 무너진 만년의 가장 큰 사건입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "홍콩 상장사 컨트리 가든 홀딩스와 컨트리 가든 서비스의 가족 지분에서 나오는 자산이 핵심이었으나, 2023년 디폴트 후 본체 가치가 거의 사라졌고 서비스 자회사가 잔여 자산의 핵심이 됐습니다.",
+    "wealthAcceleratorsKo": "2007년 IPO 직전 70% 증여, 2018년 서비스 분사가 자본 가치 가속의 두 단계였고, 2023년 디폴트가 자본 가치 폭락의 단일 사건이었습니다.",
+    "structuralAdvantagesKo": "양궈창의 후계자 자리와 광둥 슌더 정치 자본이 강점이었으나, 2023년 이후 부동산 본체의 가치가 거의 사라진 상태입니다.",
+    "currentAssetAllocationKo": "컨트리 가든 서비스 지분이 잔여 자산의 핵심 비중. 본체 부동산은 청산 절차 진행 중입니다."
+  },
+  "failures": [
+    {"year": 2015, "descriptionKo": "2015~2021년 고회전·3·4선 도시 과잉 팽창 모델이 인구 감소와 도시 미분양 노출의 1차 책임이 됐습니다.", "howTheyOvercameKo": "단계적 자산 매각과 서비스 자회사 매출 비중 확대로 2023년 디폴트까지 시간을 벌었습니다.", "lessonKo": "신흥국 부동산 모델은 인구 구조 변화에 가장 먼저 노출됩니다."},
+    {"year": 2020, "descriptionKo": "삼도홍선(3대 레드라인) 정책 직후에도 디레버리징이 늦어 2023년 8월 USD 디폴트로 이어졌습니다.", "howTheyOvercameKo": "디폴트를 인정하고 자선 기금에 자사주 USD 8B 상당을 이전하는 등 자산 보호 작업에 들어갔으나 채권자 보호 회피 의혹이 따라붙었습니다.", "lessonKo": "정책 신호 직후의 디레버리징 속도가 부동산 회사의 생존을 결정합니다."},
+    {"year": 2022, "descriptionKo": "자선 기금에 자사주 USD 8B 상당을 이전한 행위가 채권자 보호 회피 의혹으로 홍콩 법원의 면밀한 검증 대상이 됐습니다.", "howTheyOvercameKo": "법정 다툼을 진행하면서 채권자와의 단계적 합의 작업을 이어가고 있습니다.", "lessonKo": "위기 시기의 자산 이전은 결국 법정에서 다시 검증받습니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2007, "netWorth": "$16B", "sourceKo": "상장 직후 후룬 — 중국 최고 부호 여성"},
+    {"year": 2017, "netWorth": "$21.9B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$23.7B", "sourceKo": "포브스 아시아 최고 여성 부호 정점"},
+    {"year": 2026, "netWorth": "$3.2B", "sourceKo": "포브스 2026 빌리어네어즈 — 디폴트 후"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["양궈창 후계자", "오하이오 주립대 학력", "25세 중국 최고 부호", "부동산 디폴트", "자선 기금 이전 의혹"],
+  "characterKo": {
+    "strengths": "오하이오 주립대 학력과, 부친 양궈창의 70% 지분 증여로 25세에 중국 최고 부호 여성 자리에 오른 학습된 후계자 정체성이 강점입니다.",
+    "weaknesses": "고회전 부동산 모델의 인구 구조 변화 노출과, 2020년 정책 신호 후 디레버리징 지연이 2023년 디폴트로 이어졌습니다. 자선 기금 자산 이전 의혹도 만년의 추가 위험입니다.",
+    "motivation": "양궈창 가문의 컨트리 가든 자본을 본인 세대에서 글로벌 부동산 그룹으로 끌어올리겠다는 가문 의식이 동력이었습니다.",
+    "legacy": "중국 부동산 자수성가 1세대 가문의 후계자 표본입니다. 25세에 중국 최고 부호 여성 자리에 올랐다 만년 디폴트로 추락한 보기 드문 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Mu-Sin day pillar (autumn earth on monkey metal) and Yu month branch combine into a quietly inheriting, externally-resourced profile. The format that channels wealth through learning and inheritance matches a 16-year arc from her 2007 stake gift to the 2018 services spin-off, the 2023 chairmanship and default, and the 2024 wealth collapse.",
+    "summaryKo": "일주는 무신이라 가을 흙이 원숭이의 자리 쇠 위에 놓인 형국으로, 단단한 흙이 외부 자원의 흐름을 본인 안으로 끌어들이는 자리입니다. 월지 유는 가을 쇠의 자리라 일간을 두 겹의 쇠로 압축합니다. 격국은 학습·가문 자산을 잇는 흐름이라, 2005년 가업 합류, 2007년 25세 70% 증여와 IPO, 2018년 서비스 분사, 2023년 회장 취임과 디폴트, 2024년 자산 폭락까지 모두 '풍부한 가문 자원이 본인을 키웠다 한 번에 깎아낸다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yang_Huiyan",
+    "https://en.wikipedia.org/wiki/Country_Garden",
+    "https://www.reuters.com/world/china/country-garden-defaults-on-dollar-bond-2023-10-25"
+  ]
+}

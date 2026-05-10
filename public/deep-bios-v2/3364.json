@@ -1,0 +1,139 @@
+{
+  "id": "3364",
+  "name": "Lee Jun-ho",
+  "nameKo": "이준호",
+  "birthday": "1964-09-17",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$0.69B",
+  "nationality": "KR",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "기사",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1964년 출생. 평범한 가정에서 자란 학자 출신 사업가. 서울대학교 컴퓨터공학과 졸업, 한국과학기술원(KAIST) 전산학 석사·박사. 한국 1세대 검색 기술 전문가. 박사 학위 후 KAIST 인공지능연구센터 연구원·연구개발정보센터 선임연구원. 후일 숭실대학교 정보과학대학 컴퓨터학부 부교수로 재직 — 한국 자연어 검색 기술 1세대 학자.",
+    "capitalTypeKo": "self-made — 학자 출신, 검색 기술 회사 창업 후 NHN 합병으로 대주주",
+    "sources": [
+      "https://www.businesspost.co.kr/BP?command=article_view&num=26514",
+      "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A4%80%ED%98%B8_(%EA%B8%B0%EC%97%85%EC%9D%B8)",
+      "https://namu.wiki/w/%EC%9D%B4%EC%A4%80%ED%98%B8(%EA%B8%B0%EC%97%85%EC%9D%B8)"
+    ]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "self-made",
+    "descriptionKo": "재벌·정치 인맥 전무. 숭실대 교수 재직 중 2000년 검색 솔루션 회사 서치솔루션 설립 → 같은 해 네이버컴(현 네이버)에 자회사로 인수. 이를 통해 네이버컴 대주주가 됨. 2005년 NHN 합류 → CTO·COO 역임. 2013년 8월 NHN 인적분할로 네이버(이해진)와 NHN엔터테인먼트(이준호)로 분리, 본인이 NHN 이사회 의장 취임. 본인이 NHN(현 NHN주식회사) 약 27% 보유한 최대주주. 한국 검색 기술 1세대 학자에서 NHN 분가 회장으로 도약한 사례. Forbes self-made score 8/10.",
+    "selfMadeScore": 8,
+    "sources": [
+      "https://www.businesspost.co.kr/BP?command=article_view&num=26514",
+      "https://namu.wiki/w/NHN",
+      "http://news.bizwatch.co.kr/article/mobile/2017/09/25/0024"
+    ]
+  },
+  "careerTimeline": [
+    {
+      "year": 1995,
+      "event": "PhD in CS from KAIST; joined KAIST AI Research Center",
+      "eventKo": "KAIST 전산학 박사 학위; KAIST 인공지능연구센터 연구원 부임",
+      "whyItMatteredKo": "한국 1세대 검색 기술 전문가의 학자 트랙. 후일 본인 사업의 학문적 토대."
+    },
+    {
+      "year": 2000,
+      "event": "Founded SearchSolution while teaching at Soongsil University; acquired by NaverCom (now NAVER)",
+      "eventKo": "숭실대 교수 재직 중 서치솔루션 설립, 네이버컴(현 네이버)에 자회사 인수",
+      "whyItMatteredKo": "본인 사업의 출발점. NHN 대주주가 되는 결정적 계기."
+    },
+    {
+      "year": 2005,
+      "event": "Joined NHN officially as CTO; later promoted to COO",
+      "eventKo": "NHN 본격 합류 — CTO 취임, 후일 COO 승진",
+      "whyItMatteredKo": "검색 기술 책임자에서 그룹 운영 책임자로 도약."
+    },
+    {
+      "year": 2013,
+      "event": "NHN split into NAVER (이해진) and NHN Entertainment (이준호); became Chairman of NHN Entertainment (Aug 1)",
+      "eventKo": "8월 1일 NHN 인적분할 — 네이버(이해진)와 NHN엔터테인먼트(이준호)로 분리; 본인 NHN 이사회 의장 취임",
+      "whyItMatteredKo": "본인 단독 회사 운영 시작. 한국 IT 기업 분리의 가장 깔끔한 사례."
+    },
+    {
+      "year": 2019,
+      "event": "Renamed NHN Entertainment to NHN; expanded into payments (페이코), cloud, gaming",
+      "eventKo": "NHN엔터테인먼트를 NHN으로 사명 변경; 결제(페이코)·클라우드·게임 등 다각화",
+      "whyItMatteredKo": "단순 게임 회사에서 종합 IT 그룹으로 전환."
+    },
+    {
+      "year": 2024,
+      "event": "Son Lee Soo-min (이수민) hired in 2022 as career employee but quit in early 2024",
+      "eventKo": "장남 이수민 NHN 경력 입사(2022) 후 2024년 초 퇴사 — 후계 구도 재정비 필요",
+      "whyItMatteredKo": "장남 후계 트랙이 미실현. 본인 후계 구도 재검토."
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 2000,
+      "eventKo": "서치솔루션 설립 + 네이버컴 인수",
+      "impactKo": "본인 사업의 출발점. NHN 대주주가 되는 결정적 계기."
+    },
+    {
+      "year": 2013,
+      "eventKo": "NHN 인적분할 + 본인 의장 취임",
+      "impactKo": "본인 단독 회사 운영 시작. 한국 IT 기업 분리의 가장 깔끔한 사례."
+    }
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "NHN(KOSPI 181710) 약 27% 보유 — 회사 최대주주. 페이코·NHN클라우드·게임 사업 등 핵심 계열사 지배.",
+    "wealthAcceleratorsKo": [
+      "NHN 게임 사업 — 한게임 등",
+      "페이코 결제 사업",
+      "NHN클라우드 — 클라우드 인프라",
+      "본인 27% 단독 의사결정 구조"
+    ],
+    "structuralAdvantagesKo": [
+      "검색 기술 1세대 학자의 기술 신뢰성",
+      "NHN 분가의 깔끔한 분리 구조",
+      "결제·클라우드·게임 다각화"
+    ],
+    "currentAssetAllocationKo": "NHN 지분이 자산의 핵심. 강남 부동산 일부."
+  },
+  "failures": [
+    {
+      "year": 2024,
+      "descriptionKo": "장남 이수민의 NHN 경력 입사 후 2년 만의 퇴사 — 후계 구도 미실현",
+      "howTheyOvercameKo": "후계 구도 재검토 진행 중. 전문 경영인 체제 강화 가능성.",
+      "lessonKo": "재벌 후계는 자녀의 본인 의지가 핵심이다. 강제 후계는 결국 실패한다."
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2013, "netWorth": "약 5,000억원", "sourceKo": "NHN 분리 직후"},
+    {"year": 2020, "netWorth": "약 8,000억원", "sourceKo": "Forbes Korea"},
+    {"year": 2025, "netWorth": "$0.69B (약 0.97조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+  ],
+  "quotes": [
+    {"textKo": "검색 기술이 한국 인터넷의 토대다.", "context": "초기 NHN 인터뷰"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["KAIST 박사 학자", "검색 기술 1세대", "NHN 분가 회장", "결제·클라우드 다각화", "후계 미정"],
+  "characterKo": {
+    "strengths": "KAIST 전산학 박사 + 한국 검색 기술 1세대의 학문적 신뢰성. NHN 분가의 깔끔한 분리. 결제·클라우드 등 차세대 사업 다각화. 본인 27% 단독 의사결정 구조.",
+    "weaknesses": "NHN 매출 정체. 장남 후계 미실현. 페이코·클라우드의 글로벌 경쟁 격화. 본인 60대의 직접 운영 한계.",
+    "motivation": "검색 기술 학자에서 사업가로 전환한 정체성. NHN 분가 후 본인 영역을 만들겠다는 의지.",
+    "legacy": "한국 검색 기술 1세대 학자. NHN 분가 회장의 모범적 분리 사례. 결제·클라우드 다각화의 한국 IT 1.5세대 운영자."
+  },
+  "sajuConnection": {
+    "ilju": "기사",
+    "geokguk": "식신격",
+    "interpretationKo": "기사 일주는 비옥한 밭(己土) 위에 작은 불(巳火)이 얹혀 있는 형상으로, '본인의 자원이 외부 빛에 의해 길게 가공되는' 본질을 가진다. 월지가 유금(酉金)이고 기토 일간에게 유금은 식신 자리에 가까워 식신격이 성립한다. 식신격의 핵심은 ① 한 분야를 길게 가꾸어 결실을 보는 학자형 인내, ② 본인이 직접 빛나기보다 작품·기술로 자기를 표현하는 패턴, ③ 큰 권력보다 학문·기술적 가치를 우선하는 보수성이다. 이준호 의장의 인생 — KAIST 박사 → 서치솔루션 → NHN 분가 → 의장 — 는 식신격이 학자형 사업가에서 곱게 발현된 사례다.",
+    "keyEvents": [
+      {"year": 2013, "saju": "을사 대운(편관+정인)", "interpretationKo": "편관 대운에 외부 권위와 새 책임. NHN 분가와 본인 의장 취임과 호응."}
+    ]
+  },
+  "sources": [
+    "https://www.businesspost.co.kr/BP?command=article_view&num=26514",
+    "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A4%80%ED%98%B8_(%EA%B8%B0%EC%97%85%EC%9D%B8)",
+    "https://namu.wiki/w/%EC%9D%B4%EC%A4%80%ED%98%B8(%EA%B8%B0%EC%97%85%EC%9D%B8)",
+    "https://namu.wiki/w/NHN",
+    "https://news.mtn.co.kr/news-detail/2024040111481598301",
+    "http://news.bizwatch.co.kr/article/mobile/2017/09/25/0024"
+  ]
+}

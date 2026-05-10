@@ -1,0 +1,73 @@
+{
+  "id": 2239,
+  "name": "Cao Kejian",
+  "nameKo": "차오커젠",
+  "birthday": "1962-04-10",
+  "birthPlace": "Quzhou, Zhejiang, China",
+  "birthPlaceKo": "중국 저장성 취저우",
+  "netWorth": "$1.8B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "무인",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "저장성 취저우에서 태어났습니다. 학력은 저장공업대 화학 기계입니다. 졸업 후 국유 취저우 암반 드릴 공장(1956년 창업의 후계 회사)에 합류했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 국유 공장 매니저가 사유화 매니지먼트 바이아웃으로 본인 회사를 만든 인물입니다.",
+    "sources": ["https://en.kaishangroup.com/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1980년대 저장공업대 졸업 후 국유 취저우 암반 드릴 공장에서 시작했고, 2001년 매니지먼트 바이아웃으로 사유화를 주도, 2003년 저장 카이산 압축기 정식 설립, 2011년 7월 선전 차이넥스트 상장으로 자본 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.bloomberg.com/profile/person/cao-kejian"]
+  },
+  "careerTimeline": [
+    {"year": 1985, "event": "Graduates Zhejiang University of Technology", "eventKo": "저장공업대 화학 기계 졸업, 국유 취저우 암반 드릴 공장 합류", "whyItMatteredKo": "무인 일주의 흙 일간이 학습 자본을 국유 시스템에 누적한 출발점입니다."},
+    {"year": 2001, "event": "Leads management buyout, privatizes state-owned predecessor", "eventKo": "국유 공장의 매니지먼트 바이아웃 주도, 사유화 완료", "whyItMatteredKo": "도전·압력을 자본으로 변환하는 흐름이 본인 오너십으로 환원된 결정적 결단입니다."},
+    {"year": 2003, "event": "Establishes Zhejiang Kaishan Compressor", "eventKo": "저장 카이산 압축기 정식 설립 — 암반 드릴에서 공기 압축기로 카테고리 확장", "whyItMatteredKo": "단일 카테고리에서 종합 압축기로 도약한 분기점입니다."},
+    {"year": 2011, "event": "IPO on Shenzhen ChiNext (300257)", "eventKo": "7월 선전 차이넥스트 상장 (300257)", "whyItMatteredKo": "사유화 누적 결과물이 자본 시장 가치로 환원된 분기점입니다."},
+    {"year": 2014, "event": "Expands into geothermal/ORC energy systems", "eventKo": "지열·ORC(유기 랭킨 사이클) 에너지 시스템으로 카테고리 확장 — 인도네시아·터키 프로젝트 시작", "whyItMatteredKo": "본업 단일 카테고리에서 신성장 카테고리로 도약을 시도한 시기입니다."},
+    {"year": 2016, "event": "Opens US Indianapolis facility to navigate tariffs", "eventKo": "미국 인디애나폴리스 공장 가동 — 관세 우회 목적", "whyItMatteredKo": "미·중 무역 변동에 대비한 글로벌 거점 구축 시도입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2001, "eventKo": "매니지먼트 바이아웃으로 국유 공장 사유화", "impactKo": "무인 일주의 흙 일간이 외부 시스템(국유) 자본을 본인 자본으로 변환한 결정적 결단입니다."},
+    {"year": 2003, "eventKo": "저장 카이산 압축기 정식 설립으로 카테고리 도약", "impactKo": "도전·압력을 자본으로 변환하는 흐름이 단일 카테고리 1위 자리로 발현된 분기점입니다."},
+    {"year": 2014, "eventKo": "지열·ORC 카테고리 확장 시도", "impactKo": "단일 카테고리 1위가 신성장 카테고리로 옮기는 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전 상장사 카이산 그룹·저장 카이산 압축기(300257) 본인 가족 지분에서 나오는 주가 가치가 핵심입니다. 공기 압축기·암반 드릴 장비·스크루 익스팬더·지열 발전·ORC 에너지 시스템이 매출의 양대 축입니다.",
+    "wealthAcceleratorsKo": "2001년 사유화, 2003년 회사 정식 설립, 2011년 상장, 2014년 지열·ORC 확장이 자본 가치 가속의 네 단계입니다.",
+    "structuralAdvantagesKo": "저장 취저우 본거지의 기계 산업 클러스터, 사유화 핵심 주역이라는 정치 자본, 그리고 미국·인도네시아 글로벌 거점 구축이 강점입니다.",
+    "currentAssetAllocationKo": "카이산 압축기 가족 지분이 자산의 절대 비중. 미국·인도네시아 자회사가 글로벌 분산 통로입니다."
+  },
+  "failures": [
+    {"year": 2017, "descriptionKo": "지열·ORC 빌드아웃이 자본집약적이었고 회수가 느렸습니다. 인도네시아 지열 같은 일부 국제 프로젝트가 일정에 뒤처져 약속된 수익 대비 약했고 카이산 주가가 2010년대 후반 내내 부진했습니다.", "howTheyOvercameKo": "본업 압축기 매출에 자본을 다시 집중시키고 지열 사업의 단계적 회수를 기다리는 방식을 택했습니다.", "lessonKo": "신성장 카테고리는 자본집약적이라 단기 회수 기대를 낮춰야 합니다."},
+    {"year": 2018, "descriptionKo": "2016년 발표한 미국 인디애나폴리스 압축기 생산 이전이 미디어 주목을 받았지만 재무적 효과는 제한적이었고, 미·중 무역 긴장과 관세 복잡성에 추월당했습니다.", "howTheyOvercameKo": "미국 거점은 유지하면서도 본업 자본을 중국 본거지로 다시 집중시키는 전략 조정에 들어갔습니다.", "lessonKo": "정치적 신호로 만들어진 글로벌 거점은 정치 신호가 바뀌면 효과가 사라집니다."},
+    {"year": 2022, "descriptionKo": "주가가 IPO 이후 동종 산업 평균 대비 크게 부진했고, 중국 부동산·건설 사이클(암반 드릴 수요)에 매출이 직접 노출되면서 매출 실망이 반복됐습니다.", "howTheyOvercameKo": "지열·ORC 매출 비중을 늘리는 작업을 가속하고 있습니다.", "lessonKo": "건설 사이클 의존 카테고리는 중국 부동산 다운에 가장 먼저 노출됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2011, "netWorth": "$0.3B", "sourceKo": "상장 직후 추정"},
+    {"year": 2018, "netWorth": "$1.0B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$1.4B", "sourceKo": "후룬 추정"},
+    {"year": 2026, "netWorth": "$1.8B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["국유 공장 출신", "매니지먼트 바이아웃", "압축기 1위", "지열·ORC 확장", "미국·인도네시아 거점"],
+  "characterKo": {
+    "strengths": "저장공업대 학력과 국유 공장 매니저 출신의 운영 경험, 그리고 매니지먼트 바이아웃으로 본인 오너십을 만든 카테고리 도약 본능이 강점입니다.",
+    "weaknesses": "건설 사이클 의존 카테고리(암반 드릴)가 중국 부동산 다운에 직접 노출됐고, 지열·ORC 신성장 카테고리는 자본 회수가 느린 구조입니다.",
+    "motivation": "취저우 출신 국유 공장 매니저가 본인 회사를 만들고 글로벌 거점까지 확장하겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "중국 자수성가 기계 산업 1세대의 표본입니다. 매니지먼트 바이아웃으로 국유 공장을 글로벌 압축기 회사로 키우고 신성장 카테고리(지열·ORC)로 옮긴 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-In day pillar (early summer earth on tiger wood) and Jin month branch combine into a quietly persistent, externally-pressured profile. The format that channels wealth through external pressure matches a 35-year arc from the state-owned factory to the 2001 MBO, the 2011 IPO, and the 2014 geothermal expansion.",
+    "summaryKo": "일주는 무인이라 봄·여름의 흙 일간이 호랑이의 자리 나무 위에 놓인 형국으로, 단단한 흙이 외부 자원의 흐름을 본인 결과물로 변환하는 자리입니다. 월지 진은 같은 봄 흙의 자리라 일간을 두 겹의 흙으로 단단히 받쳐줍니다. 격국은 도전·압력을 자본으로 변환하는 흐름이라, 1985년 국유 공장 합류, 2001년 매니지먼트 바이아웃, 2003년 회사 정식 설립, 2011년 상장, 2014년 지열·ORC 확장까지 모두 '외부 압력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.kaishangroup.com/",
+    "https://193countriesconsortium.com/2024/12/cao-kejian-the-driving-force-behind-zhejiang-kaishan-compressor/",
+    "https://fortune.com/2016/12/22/us-china-manufacturing-costs-investment/"
+  ]
+}

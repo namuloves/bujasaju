@@ -1,0 +1,73 @@
+{
+  "id": 1256,
+  "name": "Zhang Tao",
+  "nameKo": "장타오",
+  "birthday": "1972-11-01",
+  "birthPlace": "Shanghai, China",
+  "birthPlaceKo": "중국 상하이",
+  "netWorth": "$3.3B",
+  "nationality": "CN",
+  "industry": "Fashion & Retail",
+  "gender": "M",
+  "ilju": "병신",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "상하이에서 태어났습니다. 학력은 미국 인디애나주 디포대학 학부, 2002년 펜실베이니아대 와튼스쿨 MBA로 글로벌 자본·산업 어법을 정식으로 학습한 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 미국 유학 후 상하이로 귀국해 다중덴핑(Dianping)을 창업한 인물입니다.",
+    "sources": ["http://www.whartonbeijing09.com/bio-zt.html"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2003년 4월 상하이에서 다중덴핑을 창업해 자갓 서베이 큐레이션 모델에 사용자 생성 콘텐츠를 결합했고, 2010년 단체 구매 시장 진입과 텐센트·세쿼이아 투자 유치를 거쳐 2015년 10월 메이퇀과 합병해 메이퇀-덴핑을 출범시켰습니다. 2018년 9월 메이퇀 홍콩 상장으로 본인 지분 가치가 십수억 달러대로 평가받았습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://en.wikipedia.org/wiki/Dianping"]
+  },
+  "careerTimeline": [
+    {"year": 2002, "event": "Wharton MBA, prepares to return to China", "eventKo": "와튼스쿨 MBA 취득, 귀국 준비", "whyItMatteredKo": "병신 일주의 화 일간이 글로벌 자본·산업 어법을 정식 학습 자본으로 만든 출발점입니다."},
+    {"year": 2003, "event": "Founds Dianping in Shanghai (April)", "eventKo": "4월 상하이에서 다중덴핑 창업 — 자갓 + 미슐랭 + UGC 결합 모델", "whyItMatteredKo": "비전형 자본 결합으로 본업의 카테고리를 만든 결정적 결단입니다."},
+    {"year": 2010, "event": "Enters group buying market amid 'thousand groups war'", "eventKo": "단체 구매(%E5%9B%A2%E8%B4%AD) 시장 진입 — 메이퇀, 누오미 등과 천단대전", "whyItMatteredKo": "글로벌 그루폰 모델을 본거지 시장에서 적용한 시기입니다."},
+    {"year": 2015, "event": "Merges with Meituan to form Meituan-Dianping (October)", "eventKo": "10월 메이퇀과 합병해 메이퇀-덴핑 출범, 본인은 회장으로 후방 이동", "whyItMatteredKo": "최대 라이벌과의 합병으로 일선에서 빠르게 물러난 만년의 결정적 결단입니다."},
+    {"year": 2018, "event": "Meituan IPOs on Hong Kong Stock Exchange (September)", "eventKo": "9월 메이퇀 홍콩증권거래소 상장 — 본인 지분 가치 십수억 달러대 평가", "whyItMatteredKo": "큰 외부 자원의 흐름이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2020, "event": "Steps back from operations; becomes investor and mentor", "eventKo": "메이퇀 일상 운영에서 손을 떼고 인사이그니아·즈광촹터우 등 동남아·중국권 초기 단계 스타트업 투자가로 활동", "whyItMatteredKo": "큰 외부 자원의 흐름을 본인 자본 회수와 다음 세대 투자로 옮긴 만년의 결정적 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2003, "eventKo": "와튼 MBA 후 상하이에서 다중덴핑 창업", "impactKo": "병신 일주의 화 일간이 글로벌 학습 자본을 본인 결과물로 변환한 결정적 결단입니다."},
+    {"year": 2015, "eventKo": "최대 라이벌 메이퇀과 합병으로 일선 후방 이동", "impactKo": "큰 외부 자원의 흐름이 본인을 단계적으로 빼낸 결정적 결단입니다."},
+    {"year": 2020, "eventKo": "메이퇀 일상 운영에서 빠지고 투자가로 정체성 전환", "impactKo": "운영자에서 자본 배분자로 정체성을 옮긴 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "홍콩 상장사 메이퇀 본인 보유 지분에서 나오는 주가 가치가 핵심입니다. 인사이그니아·즈광촹터우 같은 초기 단계 스타트업 투자가 보조 통로입니다.",
+    "wealthAcceleratorsKo": "2010년 단체 구매 시장 진입, 2015년 메이퇀 합병, 2018년 홍콩 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "와튼 MBA 학력 인맥과 메이퇀 잔여 지분, 그리고 동남아·중국권 초기 단계 스타트업 투자 네트워크가 강점입니다.",
+    "currentAssetAllocationKo": "메이퇀 잔여 지분과 초기 단계 투자 포트폴리오가 자산의 양대 비중입니다."
+  },
+  "failures": [
+    {"year": 2010, "descriptionKo": "천단대전이라 불린 단체 구매 시장 격렬 경쟁에서 메이퇀·누오미·라쇼우 등에 자본 출혈이 누적됐습니다.", "howTheyOvercameKo": "최종적으로 메이퇀과의 합병으로 출혈을 끝내고 합산 시장 점유를 만들어냈습니다.", "lessonKo": "비슷한 카테고리 회사들과의 출혈 경쟁은 합병이 가장 빠른 해결책입니다."},
+    {"year": 2015, "descriptionKo": "합병 직후 신설법인의 CEO 자리는 왕싱이 맡았고 본인은 회장에서 단계적으로 빠지는 페이드아웃 경로를 밟았습니다.", "howTheyOvercameKo": "운영 자리 대신 자본 배분자 정체성으로 정체성을 옮기면서 자산을 보전시켰습니다.", "lessonKo": "운영자에서 빠질 때 자본 보전 통로를 만드는 것이 다음 정체성을 결정합니다."},
+    {"year": 2021, "descriptionKo": "중국 빅테크 규제로 메이퇀 시가총액이 큰 폭으로 빠지면서 본인 잔여 지분 가치도 영향을 받았습니다.", "howTheyOvercameKo": "단계적 자본 회수와 글로벌 초기 단계 투자로 분산을 가속했습니다.", "lessonKo": "정치 사이클은 본거지 자본 시장 가치를 한 번에 흔듭니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2018, "netWorth": "$1.5B", "sourceKo": "메이퇀 홍콩 상장 직후 추정"},
+    {"year": 2021, "netWorth": "$3.5B", "sourceKo": "메이퇀 시가총액 정점"},
+    {"year": 2023, "netWorth": "$2.8B", "sourceKo": "빅테크 규제 후"},
+    {"year": 2026, "netWorth": "$3.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["와튼 MBA", "다중덴핑 창업자", "메이퇀 합병", "회장 페이드아웃", "초기 단계 투자가"],
+  "characterKo": {
+    "strengths": "와튼 MBA 학력과 미국 자갓 큐레이션 모델을 중국 본거지에 결합한 카테고리 도약 본능, 그리고 메이퇀 합병으로 출혈을 빠르게 끝낸 만년 결단력이 강점입니다.",
+    "weaknesses": "운영 자리에서 빠진 후 회사의 성장 신화가 왕싱에게 주로 귀속됐고, 메이퇀 단일 회사 자산 의존도가 높습니다.",
+    "motivation": "상하이 출신 와튼 MBA가 미국 자갓 모델을 중국 본거지에서 산업화하겠다는 정체성 의식과, 운영자에서 자본 배분자로 정체성을 옮기겠다는 만년 동력이 있습니다.",
+    "legacy": "중국 O2O(온라인-오프라인) 1세대를 만든 인물입니다. 와튼 MBA 출신이 미국 큐레이션 모델을 본거지에 산업화하고 메이퇀 합병으로 빠르게 빠진 보기 드문 운영 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Sin day pillar (autumn fire on monkey metal) and Sul month branch combine into a sharply expressive, externally-resourced profile. The format that channels wealth through external resources matches a 17-year arc from founding Dianping in 2003 to the 2015 Meituan merger and the 2018 Hong Kong IPO.",
+    "summaryKo": "일주는 병신이라 가을 화 일간이 원숭이의 자리 쇠 위에 놓인 형국으로, 화의 표현력이 단단한 쇠에 깎여 결과물로 환원되는 자리입니다. 월지 술은 가을 흙의 자리라 일간을 단단히 가둬 외부 자원을 안으로 끌어들이는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 2002년 와튼 MBA, 2003년 다중덴핑 창업, 2010년 단체 구매 시장 진입, 2015년 메이퇀 합병, 2018년 홍콩 상장까지 모두 '외부 자원이 본인 자본으로 흘러들어 단계적으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "http://www.whartonbeijing09.com/bio-zt.html",
+    "https://en.wikipedia.org/wiki/Dianping",
+    "https://www.bloomberg.com/profile/person/18352011"
+  ]
+}

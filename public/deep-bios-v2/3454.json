@@ -1,0 +1,73 @@
+{
+  "id": 3454,
+  "name": "Nam Seung-woo",
+  "nameKo": "남승우",
+  "birthday": "1951-04-16",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$200M",
+  "nationality": "KR",
+  "industry": "F&B",
+  "gender": "M",
+  "ilju": "병술",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1951년 한국에서 태어났습니다. 서울대 법학과를 거쳐 한양대 농경제학 석사를 취득한 정통 산업 인재 트랙입니다. 1984년 친환경 두부 공장 '풀무원 농장'을 인수해 자수성가형 식품기업가의 길을 시작했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 두부 공장 인수에서 출발해 한국 1세대 친환경 식품기업을 만든 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Pulmuone"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1984년 풀무원을 인수해 친환경 두부·콩나물 카테고리 1위로 키웠고, 2003년 코스피 상장(017810)으로 자본 시장 가치를 환원했습니다. 2018년 전문경영인 이효율에게 CEO를 이양하고 본인은 이사회 의장으로 자리를 옮겨 가족 자본 운영의 한 축으로 자리잡았습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.pulmuone.com"]
+  },
+  "careerTimeline": [
+    {"year": 1984, "event": "Acquires Pulmuone organic tofu farm", "eventKo": "풀무원 친환경 두부 공장 인수, 한국 1세대 친환경 식품기업 출발", "whyItMatteredKo": "병술 일주의 작은 불 일간이 외부 압력을 자본으로 변환한 출발점입니다."},
+    {"year": 1991, "event": "Pulmuone enters retail tofu and bean sprout categories", "eventKo": "풀무원 두부·콩나물 카테고리 1위 굳히기 시작", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2003, "event": "Pulmuone IPOs on KOSPI (017810)", "eventKo": "풀무원 코스피 상장(017810)", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2010, "event": "Pulmuone expands into US plant-based foods market", "eventKo": "풀무원 미국 식물성 식품 시장 진출, 글로벌 카테고리 통로 확보", "whyItMatteredKo": "본업 매출의 글로벌 통로가 만들어진 시기입니다."},
+    {"year": 2018, "event": "Hands CEO role to Lee Hyo-yul; becomes Chairman", "eventKo": "전문경영인 이효율에게 CEO 이양, 본인은 이사회 의장 전환", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 결단의 정점으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2024, "event": "Pulmuone group revenue passes ₩3T amid plant-based boom", "eventKo": "풀무원 그룹 연결 매출 3조 원 돌파, 식물성 식품 호황기 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1984, "eventKo": "풀무원 두부 공장 인수", "impactKo": "병술 일주의 작은 불 일간이 외부 압력을 자본으로 변환한 결정적 결단입니다."},
+    {"year": 2003, "eventKo": "풀무원 코스피 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2018, "eventKo": "전문경영인에게 CEO 이양", "impactKo": "외부 자원의 큰 흐름이 본인 결단의 정점으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "코스피 상장사 풀무원(017810) 가족 지분과 비상장 풀무원건강생활·풀무원식품 지분이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1984년 풀무원 인수, 2003년 코스피 상장, 2010년 미국 진출이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 친환경 식품 카테고리 1위 자리, 미국 식물성 식품 시장 통로, 그리고 전문경영인 운영 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "풀무원 가족 지분이 자산의 절대 비중. 자녀 세대로 단계적 이양 중입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 풀무원 미국 사업이 단기 압박을 받았습니다.", "howTheyOvercameKo": "본토 내수 비중 강화와 단계적 효율화로 V자 회복했습니다.", "lessonKo": "글로벌 진출 카테고리는 거시 사이클에 매출이 직접 노출됩니다."},
+    {"year": 2014, "descriptionKo": "풀무원 미국 사업 누적 적자가 한 차례 시험받았습니다.", "howTheyOvercameKo": "단계적 운영 효율화와 식물성 식품 카테고리 강화로 통과했습니다.", "lessonKo": "글로벌 인수는 단기 운영 적자를 동반합니다."},
+    {"year": 2020, "descriptionKo": "코로나로 외식 채널 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "온라인 채널 강화와 식물성 식품 수요 가속으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2003, "netWorth": "$80M", "sourceKo": "상장 직후 추정"},
+    {"year": 2015, "netWorth": "$130M", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$180M", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$200M", "sourceKo": "공시 기반 추정"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["풀무원 창업주", "친환경 식품 1세대", "이사회 의장", "두부·식물성 식품", "전문경영인 이양"],
+  "characterKo": {
+    "strengths": "1984년 풀무원 인수 후 40년 동안 친환경 식품 카테고리 1위를 키운 끈기와, 2018년 전문경영인에게 CEO를 이양한 결단력이 강점입니다.",
+    "weaknesses": "한국 단일 시장 의존도와 미국 식물성 식품 시장 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "한국 1세대 친환경 식품기업가 정체성을 본인 세대에서 코스피 상장사로 키우고 다음 세대로 깔끔히 이양하겠다는 산업 의식이 동력입니다.",
+    "legacy": "한국 1세대 친환경 식품기업가의 표본입니다. 두부 공장 인수에서 코스피 상장 식품 그룹으로 도약 후 전문경영인 이양까지 거친 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Sul day pillar (early winter fire on dog earth) and Jin month branch combine into a quietly burning, externally-pressured profile. The format that channels wealth through external pressure matches a 40-year arc from the 1984 Pulmuone acquisition to the 2003 IPO and the 2018 CEO transition.",
+    "summaryKo": "일주는 병술이라 초겨울 작은 불이 가을 끝 흙(개의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 단단한 흙으로 결과물을 빚어내는 자리입니다. 월지 진은 늦봄 흙의 자리라 일간을 두 겹의 흙으로 단단히 받쳐줍니다. 격국은 도전·압력을 자본으로 변환하는 흐름이라, 1984년 풀무원 인수, 2003년 상장, 2018년 CEO 이양까지 모두 '외부 압력이 본인 자본의 단계적 도약과 후계 정리로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pulmuone",
+    "https://www.pulmuone.com",
+    "https://www.dart.fss.or.kr"
+  ]
+}
