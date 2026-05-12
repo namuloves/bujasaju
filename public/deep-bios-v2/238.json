@@ -1,0 +1,73 @@
+{
+  "id": 238,
+  "name": "Sun Piaoyang",
+  "nameKo": "쑨 퍄오양",
+  "birthday": "1958-09-01",
+  "birthPlace": "Jiangsu, China",
+  "birthPlaceKo": "중국 장쑤성",
+  "netWorth": "$12.3B",
+  "nationality": "CN",
+  "industry": "Healthcare",
+  "gender": "M",
+  "ilju": "신사",
+  "gyeokguk": "양인격",
+  "childhood": {
+    "summaryKo": "1958년 장쑤성에서 태어났습니다. 정통 학력은 약학 트랙으로, 중국약과대학 학사를 거친 정통 의약품 인재 트랙입니다. 1982년 'Hengrui Pharmaceuticals'(헝루이 의약) 합류로 본업 인생을 시작했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 약학 전공 후 헝루이 의약 합류로 출발해 본토 1위 제약 회사 회장으로 도약한 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Sun_Piaoyang"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1982년 'Hengrui Pharmaceuticals' 합류, 1992년 사장 정식 취임으로 본인 운영자 정체성을 만들었습니다. 2000년 상하이 증권거래소 상장으로 본격 자본 시장 가치 환원, 2010년대 본토 항암 신약 1위급 회사로 도약시켰고, 2021년 사임 후 명예회장으로 자리를 옮겼습니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://www.hengrui.com"]
+  },
+  "careerTimeline": [
+    {"year": 1982, "event": "Joins Hengrui Pharmaceuticals", "eventKo": "Hengrui Pharmaceuticals 합류", "whyItMatteredKo": "신사 일주의 초여름 쇠 일간이 외부의 강한 자원을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 1992, "event": "Becomes CEO of Hengrui", "eventKo": "Hengrui 사장 정식 취임, 본인 운영자 정체성 정립", "whyItMatteredKo": "본업 매출의 운영 통로가 만들어진 시기입니다."},
+    {"year": 2000, "event": "Hengrui Pharmaceuticals IPOs on Shanghai", "eventKo": "Hengrui 상하이 증권거래소 상장(600276)", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2010, "event": "Hengrui becomes #1 oncology drug producer in China", "eventKo": "Hengrui 본토 항암 신약 1위 자리 굳히기", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2018, "event": "Hengrui receives PD-1 approval for global market", "eventKo": "Hengrui PD-1 글로벌 시장 진출 승인", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2021, "event": "Steps down as Chairman of Hengrui", "eventKo": "Hengrui 회장직 사임, 명예회장 전환", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 다음 세대로 환원된 결정적 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1992, "eventKo": "Hengrui 사장 취임", "impactKo": "신사 일주의 초여름 쇠 일간이 외부의 강한 자원을 본인 결단의 정점으로 환원한 결정적 결단입니다."},
+    {"year": 2000, "eventKo": "Hengrui 상하이 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2018, "eventKo": "Hengrui PD-1 글로벌 진출 승인", "impactKo": "외부 자원의 큰 흐름이 본업 카테고리로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 상장사 Jiangsu Hengrui Medicine(600276) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1992년 사장 취임, 2000년 상하이 상장, 2010년 본토 1위가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 항암 신약 1위 자리, PD-1 등 글로벌 신약 파이프라인, 그리고 약학 박사 학습 깊이가 강점입니다.",
+    "currentAssetAllocationKo": "Hengrui Medicine 가족 지분이 자산의 절대 비중. 자녀 세대로 단계적 이양 중입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "본토 의약품 약가 인하 정책으로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "고부가 항암 신약 카테고리 비중 강화로 통과했습니다.", "lessonKo": "정책 한 번에 카테고리 마진이 흔들립니다."},
+    {"year": 2021, "descriptionKo": "본토 항암 신약 가격 협상 정책 강화로 Hengrui 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "글로벌 진출과 단계적 매출 회복을 시도했습니다.", "lessonKo": "정책 사이클은 본업 매출에 직접 영향을 줍니다."},
+    {"year": 2022, "descriptionKo": "글로벌 PD-1 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복을 시도하고 있습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2000, "netWorth": "$0.5B", "sourceKo": "상장 직후 추정"},
+    {"year": 2015, "netWorth": "$6B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$18B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$12.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Hengrui Medicine 명예회장", "약학 전공 출신", "본토 항암 신약 1위", "PD-1 글로벌 진출", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1982년 Hengrui 합류 후 40년 동안 본토 항암 신약 1위 회사를 만든 학습 깊이와, 2018년 PD-1 글로벌 진출 등 카테고리 다각화 결단력이 강점입니다.",
+    "weaknesses": "본토 의약품 정책 사이클과 글로벌 PD-1 가격 경쟁에 본업 매출이 직접 노출됩니다.",
+    "motivation": "장쑤 1세대 약학 인재 정체성을 본인 세대에서 본토 1위 항암 신약 회사로 환원하겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "중국 본토 1세대 항암 신약 자수성가의 표본입니다. 합류 운영자에서 본토 1위 제약 회사 회장으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Sa day pillar (early autumn metal on snake fire) and Sin month branch combine into a sharply forged, intensely-pressured profile. The format that draws strength from challenge matches a 39-year arc from the 1982 Hengrui entry to the 2000 IPO and the 2021 succession.",
+    "summaryKo": "일주는 신사라 가을 쇠 일간이 초여름 불(뱀의 자리) 위에 놓인 형국으로, 단단한 쇠가 강한 불에 의해 단단히 다듬어지는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 두 겹의 쇠로 압축합니다. 격국은 강한 외부 자원을 본인 자본으로 변환하는 흐름이라, 1982년 Hengrui 합류, 1992년 사장 취임, 2000년 상장, 2018년 PD-1 진출까지 모두 '강한 외부 자원이 본인 자본의 단계적 도약과 후계 정리로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sun_Piaoyang",
+    "https://www.hengrui.com",
+    "https://www.forbes.com/profile/sun-piaoyang/"
+  ]
+}

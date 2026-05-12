@@ -1,0 +1,73 @@
+{
+  "id": 121,
+  "name": "Yu Yong",
+  "nameKo": "위 융",
+  "birthday": "1961-02-27",
+  "birthPlace": "Shanghai, China",
+  "birthPlaceKo": "중국 상하이",
+  "netWorth": "$20.4B",
+  "nationality": "CN",
+  "industry": "Finance & Investments",
+  "gender": "M",
+  "ilju": "신묘",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1961년 상하이에서 태어났습니다. 정통 학력은 경영 트랙으로, 1990년대 본토 투자 사업으로 출발한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 광산·투자 자수성가형 인물 (Cathay Fortune Corp 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/CMOC_Group"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년 'Cathay Fortune Corporation'(국태창업) 창업해 본토 투자·광산 카테고리에서 본업을 만들었습니다. 2007년 China Molybdenum(CMOC, 뤄양 몰리브덴) 인수로 본격 광산 사업가로 도약, 2013~2017년 글로벌 광산 자산(콩고 텡케 등) 인수로 본업을 글로벌 광산 1위급으로 확장했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.cmoc.com"]
+  },
+  "careerTimeline": [
+    {"year": 1990, "event": "Founds Cathay Fortune Corporation", "eventKo": "'Cathay Fortune Corporation' 창업, 본토 투자 카테고리 진입", "whyItMatteredKo": "신묘 일주의 가을 쇠 일간이 안정적으로 자산을 쌓는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2007, "event": "Acquires controlling stake in China Molybdenum", "eventKo": "China Molybdenum(CMOC) 지배 지분 인수, 본토 광산 카테고리 본격 진입", "whyItMatteredKo": "본업의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2013, "event": "Acquires Northparkes copper mine in Australia", "eventKo": "호주 노스파크스(Northparkes) 구리 광산 인수, 글로벌 광산 진출", "whyItMatteredKo": "본업 카테고리가 글로벌로 확장된 시기입니다."},
+    {"year": 2016, "event": "Acquires Tenke copper-cobalt mine in DRC", "eventKo": "DR콩고 텡케(Tenke) 구리·코발트 광산 인수, 글로벌 코발트 1위급으로 도약", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2022, "event": "CMOC valuations surge with EV battery boom", "eventKo": "EV 배터리 호황기 CMOC 시가총액 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."},
+    {"year": 2024, "event": "CMOC becomes #1 cobalt producer globally", "eventKo": "CMOC 글로벌 코발트 1위 자리 굳히기, 가족 평가 자산 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1990, "eventKo": "Cathay Fortune Corporation 창업", "impactKo": "신묘 일주의 가을 쇠 일간이 안정적으로 자산을 쌓는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2007, "eventKo": "China Molybdenum 인수", "impactKo": "본업의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2016, "eventKo": "DR콩고 텡케 광산 인수", "impactKo": "외부 자원의 큰 흐름이 본업 카테고리로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이·홍콩 듀얼 상장사 CMOC Group(603993·3993) 본인 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2007년 CMOC 인수, 2016년 텡케 광산 인수, 2022년 EV 배터리 호황 정점이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 코발트 1위 자리, 콩고·호주·중국 광산 분산, 그리고 EV 배터리 호황 수혜 통로가 강점입니다.",
+    "currentAssetAllocationKo": "CMOC Group 본인 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2013, "descriptionKo": "글로벌 구리·몰리브덴 가격 변동성으로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "장기 광산 자산 보유로 V자 회복했습니다.", "lessonKo": "원자재 가격 변동은 본업 마진의 분기 단위 변동을 만듭니다."},
+    {"year": 2018, "descriptionKo": "DR콩고 정치 사이클 변동으로 텡케 광산 운영이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 정책 적응과 매출 안정성으로 통과했습니다.", "lessonKo": "신흥국 광산 카테고리는 정치 사이클에 직접 노출됩니다."},
+    {"year": 2024, "descriptionKo": "글로벌 EV 캐즘으로 코발트 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "구리 매출 비중 강화로 단계적 회복을 시도했습니다.", "lessonKo": "사이클 카테고리는 본업 매출에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$2B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$8B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$15B", "sourceKo": "EV 배터리 호황 정점"},
+    {"year": 2026, "netWorth": "$20.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Cathay Fortune Corp 창업주", "CMOC Group 회장", "글로벌 코발트 1위", "DR콩고 텡케 광산", "1세대 광산 자수성가"],
+  "characterKo": {
+    "strengths": "1990년 Cathay Fortune Corp 창업으로 본토 투자 카테고리에서 출발해 2016년 DR콩고 텡케 광산 인수로 글로벌 코발트 1위 회사를 만든 카테고리 도약 본능이 강점입니다.",
+    "weaknesses": "신흥국 광산 카테고리는 정치 사이클과 원자재 가격 변동에 직접 노출됩니다.",
+    "motivation": "상하이 1세대 자수성가형 야망과 본인 세대에서 글로벌 광산 1위급 회사를 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 글로벌 광산 자수성가의 표본입니다. 본토 투자에서 글로벌 코발트 1위까지 카테고리를 확장한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Myo day pillar (early spring metal on rabbit wood) and In month branch combine into a sharply forged, wealth-accumulating profile. The format that builds wealth through stable assets matches a 34-year arc from the 1990 founding to the 2007 CMOC acquisition and the 2016 Tenke deal.",
+    "summaryKo": "일주는 신묘라 이른 봄 쇠 일간이 봄 나무(토끼의 자리) 위에 놓인 형국으로, 단단한 쇠가 외부의 큰 나무를 다듬어 결과물로 만드는 자리입니다. 월지 인은 이른 봄 나무의 자리라 일간을 두 겹의 나무로 받쳐줍니다. 격국은 안정적으로 자산을 쌓는 흐름이라, 1990년 창업, 2007년 CMOC 인수, 2016년 텡케 광산 인수까지 모두 '단단한 본인 자본이 단계적으로 글로벌 카테고리 1위로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/CMOC_Group",
+    "https://www.cmoc.com",
+    "https://www.forbes.com/profile/yu-yong/"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 766,
+  "name": "Nusli Wadia",
+  "nameKo": "누슬리 와디아",
+  "birthday": "1944-02-15",
+  "birthPlace": "Mumbai, India",
+  "birthPlaceKo": "인도 뭄바이",
+  "netWorth": "$5.3B",
+  "nationality": "IN",
+  "industry": "Food & Beverage",
+  "gender": "M",
+  "ilju": "기유",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1944년 인도 뭄바이의 와디아 가문에서 태어났습니다. 정통 학력은 영국 유학 트랙으로, 외조부는 파키스탄 건국자 무함마드 알리 진나입니다. 인도 1세대 산업 가문의 후계자 정체성을 유년기부터 함께 형성했다고 전해집니다.",
+    "capitalTypeKo": "재벌 후계자 — 인도 200년 와디아 그룹 가문의 운영형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Nusli_Wadia"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1971년 부친 닐 와디아의 Bombay Dyeing 회장 자리 승계로 본업을 잇기 시작했고, Britannia Industries(과자), Bombay Dyeing(섬유), Go Air(저비용 항공) 등 와디아 그룹 다각화를 운영했습니다. 2010~2020년대 Britannia 매출 가속과 함께 본업 자본이 본격 환원됐습니다.",
+    "selfMadeScore": 4,
+    "sources": ["https://en.wikipedia.org/wiki/Wadia_Group"]
+  },
+  "careerTimeline": [
+    {"year": 1971, "event": "Becomes Chairman of Bombay Dyeing", "eventKo": "Bombay Dyeing 회장 취임, 와디아 그룹 운영 시작", "whyItMatteredKo": "기유 일주의 가을 작은 흙 일간이 학습된 권위의 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1979, "event": "Survives reverse merger attempt by R.P. Goenka", "eventKo": "R.P. 고엥카 측의 역병합 시도를 막아냄, 본업 자리 방어", "whyItMatteredKo": "본인 자리의 권위가 산업 정치 한가운데서 시험받은 시기입니다."},
+    {"year": 1993, "event": "Acquires controlling stake in Britannia Industries", "eventKo": "Britannia Industries 지배 지분 확보, 와디아 그룹의 핵심 자본 카테고리 정립", "whyItMatteredKo": "본업 자본의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2005, "event": "Launches Go Air (later Go First) low-cost airline", "eventKo": "Go Air(이후 Go First) 저비용 항공사 출범, 와디아 그룹 다각화", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 시기입니다."},
+    {"year": 2018, "event": "Premium snacks boom accelerates Britannia revenue", "eventKo": "Britannia 프리미엄 과자 호황으로 본업 매출 가속", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $5.3B in Food & Beverage", "eventKo": "포브스 2026 — 식음료 53억 달러로 등재", "whyItMatteredKo": "Britannia 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1971, "eventKo": "Bombay Dyeing 회장 취임", "impactKo": "기유 일주의 가을 작은 흙 일간이 학습된 권위의 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1993, "eventKo": "Britannia 지배 지분 확보", "impactKo": "본업 자본의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2018, "eventKo": "Britannia 프리미엄 과자 호황", "impactKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Britannia Industries(NSE: BRITANNIA), Bombay Dyeing(NSE: BOMBYRYN) 등 와디아 그룹 상장사 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1971년 회장 취임, 1993년 Britannia 확보, 2018년 프리미엄 과자 호황이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 200년 와디아 가문 자본망, 인도 프리미엄 과자 카테고리 1위 자리, 그리고 인도 다각화 그룹 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Britannia 가족 지분이 자산의 절대 비중, Bombay Dyeing·Go First 등 그룹 분산 보유 구조입니다."
+  },
+  "failures": [
+    {"year": 1979, "descriptionKo": "R.P. 고엥카 측의 Bombay Dyeing 역병합 시도로 본업 자리가 단기 시험받았습니다.", "howTheyOvercameKo": "정치·산업·법정 전선에서 동시 대응으로 통과했습니다.", "lessonKo": "인도 산업 정치 사이클은 가문 자본 자리를 직접 시험합니다."},
+    {"year": 2017, "descriptionKo": "Tata 그룹 미스트리 해임 사태에서 본인의 Tata Sons 사외이사 자리도 함께 흔들렸습니다.", "howTheyOvercameKo": "법정 다툼과 거버넌스 입장 표명으로 통과했습니다.", "lessonKo": "인도 거대 그룹 거버넌스 사이클은 외부 이사 자리를 직접 흔듭니다."},
+    {"year": 2023, "descriptionKo": "Go First 저비용 항공 파산 신청으로 와디아 그룹 다각화 한 축이 위축됐습니다.", "howTheyOvercameKo": "Britannia 본업 매출 강화로 그룹 자본 안정화했습니다.", "lessonKo": "다각화 그룹의 단일 카테고리 실패는 전체 자본 평가에 직접 환원됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.8B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$3.8B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$4.6B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$5.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["와디아 그룹 회장", "Britannia·Bombay Dyeing 회장", "200년 인도 산업 가문", "진나 외손자", "정통 거버넌스"],
+  "characterKo": {
+    "strengths": "1971년 회장 취임 후 55년 동안 와디아 그룹을 운영한 끈기와, 1993년 Britannia 지배 지분 확보로 가문 자본의 핵심 카테고리를 정립한 결단력이 강점입니다.",
+    "weaknesses": "인도 산업 정치 사이클과 그룹 다각화 카테고리 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "200년 와디아 가문 자본을 본인 세대에서 인도 프리미엄 과자 1위 카테고리로 환원하고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "인도 200년 산업 가문의 운영형 후계자 표본입니다. 산업 정치 한가운데서 가문 자리를 방어한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Yu day pillar (autumn small earth on rooster metal) and In month branch combine into a quietly authoritative, learning-resourced profile. The format that channels wealth through learned authority matches a 55-year arc from the 1971 chairmanship to the 1993 Britannia takeover and the 2018 premium snack boom.",
+    "summaryKo": "일주는 기유라 가을 작은 흙이 가을 쇠(닭의 자리) 위에 놓인 형국으로, 부드러운 흙이 단단한 쇠로 결과물을 압축하는 자리입니다. 월지 인은 봄 나무의 자리라 일간을 외부의 큰 권위·자원으로 받쳐주는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1971년 회장 취임, 1993년 Britannia 확보, 2018년 프리미엄 과자 호황까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nusli_Wadia",
+    "https://en.wikipedia.org/wiki/Wadia_Group",
+    "https://www.forbes.com/profile/nusli-wadia/"
+  ]
+}

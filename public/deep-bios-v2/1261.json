@@ -1,0 +1,73 @@
+{
+  "id": 1261,
+  "name": "Prathap Reddy",
+  "nameKo": "프라타프 레디",
+  "birthday": "1932-02-05",
+  "birthPlace": "Aragonda, Andhra Pradesh, India",
+  "birthPlaceKo": "인도 안드라프라데시주 아라곤다",
+  "netWorth": "$3.3B",
+  "nationality": "IN",
+  "industry": "Healthcare",
+  "gender": "M",
+  "ilju": "병신",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1932년 인도 안드라프라데시주 아라곤다의 농가에서 태어났습니다. 정통 학력은 의학 트랙으로, 스탠리 의과대학 의학사·미국 메일랜드주립대 심장 내과 전문의 트랙입니다. 미국에서 심장 내과 전문의 경력을 쌓은 후 1970년대 인도로 귀국했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 민간 종합병원 자수성가형 인물 (Apollo Hospitals 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Prathap_C._Reddy"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1983년 첸나이에서 'Apollo Hospitals' 창업해 인도 민간 종합병원 카테고리에서 본업을 만들었고, 인도 첫 민간 영리 종합병원으로 1위 자리에 도약했습니다. 1995년 인도 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 2010~2020년대에 본토 의료 관광 호황으로 본업 매출이 가속됐습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.apollohospitals.com"]
+  },
+  "careerTimeline": [
+    {"year": 1971, "event": "Returns to India after US cardiology training", "eventKo": "미국 심장 내과 전문의 경력 후 인도 귀국", "whyItMatteredKo": "병신 일주의 작은 불 일간이 학습된 결과물의 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1983, "event": "Founds Apollo Hospitals in Chennai", "eventKo": "첸나이에서 'Apollo Hospitals' 창업, 인도 첫 민간 영리 종합병원 카테고리 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 1995, "event": "Apollo Hospitals IPOs on Indian stock exchange", "eventKo": "Apollo Hospitals 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2002, "event": "Expands into pharmacy retail chain", "eventKo": "약국 리테일 체인 카테고리 확장", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 시기입니다."},
+    {"year": 2015, "event": "Becomes one of largest hospital chains in Asia", "eventKo": "Apollo Hospitals 아시아 1위급 병원 체인 도약", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 자리로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $3.3B in Healthcare", "eventKo": "포브스 2026 — 헬스케어 33억 달러로 등재", "whyItMatteredKo": "Apollo Hospitals 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1983, "eventKo": "Apollo Hospitals 창업", "impactKo": "병신 일주의 작은 불 일간이 학습된 결과물의 흐름을 본인 자리로 환원한 결정적 결단입니다."},
+    {"year": 1995, "eventKo": "Apollo 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2015, "eventKo": "아시아 1위급 병원 체인 도약", "impactKo": "본업 매출이 글로벌 카테고리 자리로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Apollo Hospitals(NSE: APOLLOHOSP) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1983년 창업, 1995년 인도 상장, 2015년 아시아 1위급 도약이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 민간 종합병원 카테고리 1위 자리, 본토·동남아 의료 관광 통로, 그리고 가족 거버넌스(자녀 4명 회사 운영) 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Apollo Hospitals 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 의료 관광 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 의료 관광은 거시 사이클에 직접 노출됩니다."},
+    {"year": 2016, "descriptionKo": "인도 화폐 개혁(Demonetization)으로 인도 병원 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 디지털 결제 강화로 통과했습니다.", "lessonKo": "정책 한 번에 병원 매출이 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 일반 의료 수요가 단기 마비됐습니다.", "howTheyOvercameKo": "코로나 치료 카테고리 강화와 디지털 채널 확장으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.7B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$3.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Apollo Hospitals 창업주", "인도 민간 병원 1세대", "정통 심장 내과 전문의", "미국 의학 트랙", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1983년 Apollo Hospitals 창업으로 인도 첫 민간 영리 종합병원 카테고리를 정립한 카테고리 도약 본능과, 90세 넘어 회장 자리를 유지하며 본업을 운영한 끈기가 강점입니다.",
+    "weaknesses": "인도 의료 정책 사이클과 글로벌 의료 관광 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 인도 1세대 의사 정체성을 본인 세대에서 인도 첫 민간 영리 종합병원 카테고리로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 민간 종합병원 자수성가의 표본입니다. 미국 심장 내과 전문의에서 인도 첫 민간 영리 종합병원 회장으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Sin day pillar (early summer fire on monkey metal) and In month branch combine into a quietly burning, externally-resourced profile. The format that channels wealth through external resources matches a 43-year arc from the 1983 founding to the 1995 IPO and the 2015 Asia-leading chain status.",
+    "summaryKo": "일주는 병신이라 초여름 작은 불이 가을 쇠(원숭이의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 단단한 쇠로 결과물을 빚어내는 자리입니다. 월지 인은 봄 나무의 자리라 일간을 외부의 큰 자원으로 받쳐주는 통로입니다. 격국은 외부 자원의 결과물 흐름이라, 1983년 Apollo 창업, 1995년 인도 상장, 2015년 아시아 1위급 도약까지 모두 '학습된 결과물이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Prathap_C._Reddy",
+    "https://www.apollohospitals.com",
+    "https://www.forbes.com/profile/prathap-reddy/"
+  ]
+}

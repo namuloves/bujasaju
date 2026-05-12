@@ -1,0 +1,73 @@
+{
+  "id": 2280,
+  "name": "Renu Munjal",
+  "nameKo": "레누 문잘",
+  "birthday": "1955-03-06",
+  "birthPlace": "India",
+  "birthPlaceKo": "인도",
+  "netWorth": "$1.7B",
+  "nationality": "IN",
+  "industry": "Automotive",
+  "gender": "F",
+  "ilju": "병인",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1955년 인도에서 태어났습니다. 정통 학력보다 가족 사업 실무로 출발한 1세대 후계자입니다. 남편 라만 카트 문잘은 'Hero MotoCorp' 공동 창업주의 한 명이고, 본인은 남편 사망 후 가족 자본의 한 축으로 부상했습니다.",
+    "capitalTypeKo": "재벌 2세대 — 인도 1위 이륜차 그룹 'Hero MotoCorp' 가족 자본을 잇는 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Hero_MotoCorp"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1980년대 가족 사업 합류, 2000년대 본업 운영의 한 축으로 자리잡았습니다. 2015년 남편 라만 카트 문잘 사망 후 가족 자본 운영의 한 축으로 부상해 본업과 별개로 'Hero FinCorp' 등 금융 카테고리에서 본인 운영자 정체성을 만들었습니다.",
+    "selfMadeScore": 3,
+    "sources": ["https://www.heromotocorp.com"]
+  },
+  "careerTimeline": [
+    {"year": 1980, "event": "Joins family Hero business", "eventKo": "Hero 가족 사업 합류 (추정)", "whyItMatteredKo": "병인 일주의 작은 불 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2000, "event": "Hero MotoCorp expands across India motorcycle market", "eventKo": "Hero MotoCorp 인도 이륜차 시장 전역 확장", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2010, "event": "Hero-Honda joint venture splits; Hero MotoCorp goes solo", "eventKo": "Hero와 Honda 합작 결별, Hero MotoCorp 단독 정립", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리로 환원된 시기입니다."},
+    {"year": 2015, "event": "Husband Raman Kant Munjal dies; family role solidifies", "eventKo": "남편 라만 카트 문잘 사망, 가족 운영의 한 축으로 부상", "whyItMatteredKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 결정적 결단입니다."},
+    {"year": 2018, "event": "Becomes Vice Chairperson of Hero FinCorp", "eventKo": "Hero FinCorp 부의장 취임, 금융 카테고리 운영자 정체성 정립", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 결단의 정점으로 환원된 결정적 결단입니다."},
+    {"year": 2024, "event": "Hero MotoCorp revenue passes ₹400B amid EV transition", "eventKo": "Hero MotoCorp 매출 4,000억 루피 돌파, EV 전환기 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2010, "eventKo": "Hero-Honda 합작 결별", "impactKo": "병인 일주의 작은 불 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 결단의 정점으로 환원한 결정적 결단입니다."},
+    {"year": 2015, "eventKo": "남편 사망 후 가족 운영의 한 축", "impactKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 분기점입니다."},
+    {"year": 2018, "eventKo": "Hero FinCorp 부의장 취임", "impactKo": "외부 자원의 큰 흐름이 본인 결단의 정점으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "인도 상장사 Hero MotoCorp(NSE: HEROMOTOCO) 가족 지분과 비상장 Hero FinCorp 본인 지분이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2010년 Hero-Honda 결별, 2015년 남편 사망 후 자본 환원, 2018년 부의장 취임이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 이륜차 1위 자리, Hero FinCorp 금융 카테고리 통로, 그리고 가족 신탁 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Hero MotoCorp 가족 지분과 Hero FinCorp 본인 지분이 자산의 핵심으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 이륜차 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 농촌 시장 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 이륜차 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2015, "descriptionKo": "남편 라만 카트 문잘의 사망으로 가족 운영자 정체성이 단기 시험받았습니다.", "howTheyOvercameKo": "본인이 가족 운영의 한 축으로 부상해 단계적 통과했습니다.", "lessonKo": "1세대 사망은 본인 운영자 정체성을 시험합니다."},
+    {"year": 2024, "descriptionKo": "글로벌 EV 전환과 인도 BSVI 규제로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "EV 카테고리 진입과 단계적 회복을 시도하고 있습니다.", "lessonKo": "정책 한 번에 자동차 부품 카테고리가 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.5B", "sourceKo": "남편 사망 후 추정"},
+    {"year": 2018, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$1.4B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Hero FinCorp 부의장", "Hero MotoCorp 가족", "남편 사망 후 운영자", "여성 빌리어네어", "재벌 2세대"],
+  "characterKo": {
+    "strengths": "1980년 가족 사업 합류 후 45년 동안 본업의 한 축으로 자리잡은 끈기와, 2015년 남편 사망 후 본인 운영자 정체성을 만든 결단력이 강점입니다.",
+    "weaknesses": "인도 자동차 정책 사이클과 글로벌 EV 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "남편 라만 카트 문잘의 가족 자본을 본인 세대에서 보전·확장하고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "인도 이륜차 가문 2세대 여성 운영형 후계자의 표본입니다. 남편 사망 후 본인 운영자 정체성을 만든 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Byeong-In day pillar (early spring fire on tiger wood) and In month branch combine into a quietly burning, output-focused profile. The format that channels wealth through external production matches a 45-year arc from the 1980 family entry to the 2010 Hero-Honda split and the 2018 FinCorp role.",
+    "summaryKo": "일주는 병인이라 이른 봄 작은 불이 같은 봄 나무(호랑이의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 외부 자원의 큰 나무로 결과물을 빚어내는 자리입니다. 월지 인도 또 같은 봄 나무의 자리라 일간을 두 겹의 나무로 받쳐줍니다. 격국은 외부에 자기 결과물을 발산하는 흐름이라, 1980년 가족 진입, 2010년 Hero-Honda 결별, 2018년 FinCorp 부의장까지 모두 '학습된 결과물이 단계적으로 본인 자본으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hero_MotoCorp",
+    "https://www.heromotocorp.com",
+    "https://www.forbes.com/profile/renu-munjal/"
+  ]
+}

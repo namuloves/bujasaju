@@ -1,0 +1,73 @@
+{
+  "id": 1403,
+  "name": "Rajan Raheja",
+  "nameKo": "라잔 라헤자",
+  "birthday": "1954-06-01",
+  "birthPlace": "Mumbai, India",
+  "birthPlaceKo": "인도 뭄바이",
+  "netWorth": "$2.9B",
+  "nationality": "IN",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "무자",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1954년 인도 뭄바이의 신디 분단 가족 출신 가정에서 태어났습니다. 부친 찬드루 라헤자가 1956년 'K Raheja Corp'(케이 라헤자 코프) 부동산 사업을 정립한 1세대였고, 본인은 정통 후계자 트랙으로 가족 자본을 잇는 운영형 후계자가 됐습니다.",
+    "capitalTypeKo": "재벌 2세대 — K Raheja Corp 가족 자본을 잇는 운영형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/K_Raheja_Corp"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1980년대 가족 부동산 사업 합류, 1990년대 본업 운영의 한 축으로 자리잡았습니다. 2000년대 인도 IT 호황기에 IT 부동산 (Mindspace 등 IT 단지)으로 다각화, 2010년대 후반 'Mindspace Business Parks REIT' 인도 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 4,
+    "sources": ["https://www.krahejacorp.com"]
+  },
+  "careerTimeline": [
+    {"year": 1980, "event": "Joins family K Raheja Corp", "eventKo": "K Raheja Corp 가족 사업 합류 (추정)", "whyItMatteredKo": "무자 일주의 큰 흙 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1990, "event": "Family capital splits among Raheja brothers", "eventKo": "라헤자 형제 가족 자본 분할 정리", "whyItMatteredKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 결정적 결단입니다."},
+    {"year": 2000, "event": "K Raheja Corp expands into IT parks (Mindspace)", "eventKo": "K Raheja Corp IT 단지(Mindspace) 카테고리 진출", "whyItMatteredKo": "본업 매출의 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2010, "event": "Inorbit Mall expands across Indian cities", "eventKo": "Inorbit Mall 인도 도시 전역 확장", "whyItMatteredKo": "본업 카테고리가 인도 상업 부동산 1위급으로 환원된 시기입니다."},
+    {"year": 2020, "event": "Mindspace Business Parks REIT IPOs in India", "eventKo": "Mindspace Business Parks REIT 인도 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2024, "event": "K Raheja group revenue maintained amid Indian property recovery", "eventKo": "K Raheja 그룹 매출 안정, 가족 평가 자산 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1990, "eventKo": "라헤자 형제 가족 자본 분할", "impactKo": "무자 일주의 큰 흙 일간이 학습된 결과물의 흐름을 본인 결단의 정점으로 환원한 결정적 결단입니다."},
+    {"year": 2000, "eventKo": "K Raheja Corp Mindspace IT 단지 진출", "impactKo": "본업 매출의 카테고리 다각화가 진행된 분기점입니다."},
+    {"year": 2020, "eventKo": "Mindspace Business Parks REIT 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "인도 상장사 Mindspace Business Parks REIT(NSE: MINDSPACE) 가족 지분과 비상장 K Raheja Corp 자산이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1990년 가족 분할, 2000년 IT 단지 진출, 2020년 Mindspace REIT 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 상업 부동산·IT 단지 카테고리 점유, Inorbit Mall 등 라이프스타일 통로, 그리고 가족 신탁 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Mindspace REIT·K Raheja Corp 가족 지분이 자산의 절대 비중. 자녀 라비 라헤자가 후계자로 자리잡았습니다."
+  },
+  "failures": [
+    {"year": 1990, "descriptionKo": "라헤자 형제 가족 자본 분할 과정에서 가족 자본 가치가 단기 시험받았습니다.", "howTheyOvercameKo": "본인 라인의 단계적 운영 안정화로 통과했습니다.", "lessonKo": "가족 자본은 분할 사건 한 번에 흐름이 한 번 더 정리됩니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 부동산 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "장기 임대 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 부동산 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 상업 부동산 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "Mindspace REIT 상장으로 자본 회수 통로를 만들어 통과했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$1.8B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.9B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["K Raheja Corp 회장", "라헤자 가문 2세대", "Mindspace IT 단지", "Inorbit Mall", "신디 분단 가족"],
+  "characterKo": {
+    "strengths": "1980년 가족 사업 합류 후 45년 동안 본업을 보전·확장한 끈기와, 2000년 IT 단지 진출과 Mindspace REIT 상장으로 본업 카테고리를 자본 시장 가치로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 부동산 정책 사이클과 거시 충격에 본업 매출이 직접 노출됩니다.",
+    "motivation": "신디 분단 가족 1세대 정체성을 본인 세대에서 인도 상업 부동산 1위급 회사로 환원하겠다는 가문 의식이 동력입니다.",
+    "legacy": "인도 부동산 가문 2세대 운영형 후계자의 표본입니다. IT 단지·REIT 상장으로 본업 카테고리를 자본 시장 가치로 환원시킨 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Ja day pillar (early summer earth on rat water) and Sa month branch combine into a wide-rooted, learning-authority profile. The format that channels wealth through learned authority matches a 45-year arc from the 1980 family entry to the 2000 Mindspace pivot and the 2020 REIT IPO.",
+    "summaryKo": "일주는 무자라 초여름 큰 흙이 한겨울 물(쥐의 자리) 위에 놓인 형국으로, 큰 흙이 외부의 풍부한 물을 흡수해 결과물로 빚어내는 자리입니다. 월지 사는 초여름 불의 자리라 일간을 외부의 큰 흐름으로 시험하는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1980년 가족 진입, 2000년 IT 단지, 2020년 REIT 상장까지 모두 '학습된 가족 자본이 단계적으로 카테고리 확장으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/K_Raheja_Corp",
+    "https://www.krahejacorp.com",
+    "https://www.forbes.com/profile/rajan-raheja/"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 1023,
+  "name": "N.R. Narayana Murthy",
+  "nameKo": "엔. 알. 나라야나 무르티",
+  "birthday": "1946-08-20",
+  "birthPlace": "Sidlaghatta, Karnataka, India",
+  "birthPlaceKo": "인도 카르나타카주 시들라가타",
+  "netWorth": "$4B",
+  "nationality": "IN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "병인",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1946년 인도 카르나타카주 시들라가타에서 태어났습니다. 정통 학력은 공학 트랙으로, 마이소르대 전기공학 학사·IIT 칸푸르 공학 석사를 거친 정통 인도 1세대 IT 인재 트랙입니다. 학창 시절부터 사회주의·평등주의 가치관과 공학 정체성이 함께 형성됐다고 전해집니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 IT 서비스 자수성가형 인물 (Infosys 공동 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/N._R._Narayana_Murthy"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1981년 푸네에서 동료 6인과 'Infosys' 공동 창업해 본업을 만들었고, 인도 IT 서비스 수출 카테고리에서 1위로 도약했습니다. 1993년 인도 증권거래소 상장, 1999년 나스닥 ADR 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.infosys.com"]
+  },
+  "careerTimeline": [
+    {"year": 1981, "event": "Co-founds Infosys with six engineers in Pune", "eventKo": "푸네에서 동료 6인과 'Infosys' 공동 창업, 인도 IT 서비스 카테고리 진입", "whyItMatteredKo": "병인 일주의 작은 불 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 1993, "event": "Infosys lists on Indian stock exchange", "eventKo": "Infosys 인도 증권거래소 상장, 본업 자본 시장 환원 시작", "whyItMatteredKo": "본업 매출의 자본 시장 통로가 만들어진 결정적 결단입니다."},
+    {"year": 1999, "event": "Infosys lists on NASDAQ via ADR", "eventKo": "Infosys 나스닥 ADR 상장, 인도 최초의 미국 상장 회사", "whyItMatteredKo": "본업 매출이 글로벌 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2002, "event": "Steps down as CEO, becomes Chairman", "eventKo": "Infosys CEO에서 회장으로 전환, 운영에서 거버넌스로 자리 이동", "whyItMatteredKo": "본인 자리가 운영형에서 거버넌스형으로 환원된 시기입니다."},
+    {"year": 2013, "event": "Returns as Executive Chairman to lead turnaround", "eventKo": "Infosys 이사회 임시 회장으로 복귀, 본업 전환점 운영", "whyItMatteredKo": "외부 압력이 본인 자리의 결단으로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $4B in Technology", "eventKo": "포브스 2026 — 테크놀로지 40억 달러로 등재", "whyItMatteredKo": "Infosys 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1981, "eventKo": "Infosys 공동 창업", "impactKo": "병인 일주의 작은 불 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 결정적 결단입니다."},
+    {"year": 1999, "eventKo": "Infosys 나스닥 ADR 상장", "impactKo": "본업 매출이 글로벌 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."},
+    {"year": 2013, "eventKo": "Infosys 회장 복귀", "impactKo": "외부 압력이 본인 자리의 결단으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Infosys(NSE: INFY, NYSE: INFY) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1981년 창업, 1993년 인도 상장, 1999년 나스닥 ADR 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 IT 서비스 카테고리 1위 자리, 글로벌 자본 시장 동시 상장 구조, 그리고 정통 공학 1세대 네트워크가 강점입니다.",
+    "currentAssetAllocationKo": "Infosys 본인·가족 지분이 자산의 절대 비중, Catamaran Ventures 통한 인도 벤처 분산 보유 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 글로벌 IT 서비스 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "비용 효율 강화와 인도 내수 비중 확대로 V자 회복했습니다.", "lessonKo": "글로벌 IT 서비스는 거시 사이클에 직접 노출됩니다."},
+    {"year": 2013, "descriptionKo": "Infosys 매출 성장 둔화와 임원 이탈로 거버넌스가 단기 시험받았습니다.", "howTheyOvercameKo": "본인 회장 복귀와 전환점 운영으로 통과했습니다.", "lessonKo": "본업 자본은 거버넌스 사이클 한 번에 흔들릴 수 있습니다."},
+    {"year": 2017, "descriptionKo": "Vishal Sikka CEO 사임과 본인의 거버넌스 우려가 공개됐습니다.", "howTheyOvercameKo": "Nilekani 비상임 회장 복귀로 거버넌스 안정화했습니다.", "lessonKo": "창업주 정체성과 전문경영인 사이의 갈등은 자본 시장 평가에 직접 환원됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2005, "netWorth": "$1.6B", "sourceKo": "포브스 추정"},
+    {"year": 2013, "netWorth": "$1.8B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Infosys 공동 창업주", "인도 IT 서비스 1세대", "정통 공학 트랙", "사회주의·평등주의 가치관", "거버넌스 정체성"],
+  "characterKo": {
+    "strengths": "1981년 Infosys 공동 창업으로 인도 IT 서비스 카테고리 1위 회사를 만든 카테고리 도약 본능과, 1999년 나스닥 ADR 상장으로 본업을 글로벌 자본 시장 가치로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 IT 서비스 사이클과 인도 거버넌스 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 인도 1세대 공학자 정체성과 사회주의·평등주의 가치관을 본인 세대에서 인도 IT 산업의 1위 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 IT 서비스 자수성가의 표본입니다. 7인 공동 창업에서 글로벌 IT 서비스 1위 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-In day pillar (early summer fire on tiger wood) and Sin month branch combine into a brightly expressing, externally-resourced profile. The format that channels wealth through external resources matches a 45-year arc from the 1981 founding to the 1999 NASDAQ ADR listing and the 2013 chairman return.",
+    "summaryKo": "일주는 병인이라 초여름 작은 불이 봄 나무(호랑이의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 봄 나무의 자원으로 빚어지는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1981년 Infosys 창업, 1999년 나스닥 상장, 2013년 회장 복귀까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/N._R._Narayana_Murthy",
+    "https://www.infosys.com",
+    "https://www.forbes.com/profile/nr-narayana-murthy/"
+  ]
+}

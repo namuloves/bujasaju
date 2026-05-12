@@ -1,0 +1,73 @@
+{
+  "id": 3433,
+  "name": "Kwon Oh-gap",
+  "nameKo": "권오갑",
+  "birthday": "1951-02-10",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$50M",
+  "nationality": "KR",
+  "industry": "Heavy industry",
+  "gender": "M",
+  "ilju": "신사",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1951년 한국에서 태어났습니다. 정통 학력은 경영학 트랙으로, 한양대 경영학과 학사를 거쳐 1978년 현대중공업 입사로 본업 인생을 시작한 정통 1세대 산업가 정체성을 만들었습니다.",
+    "capitalTypeKo": "월급쟁이 CEO — 비가족 출신이 47년 HD현대 라이퍼로 회장직까지 도약한 한국 '샐러리맨 신화' 인물입니다.",
+    "sources": ["https://www.hd-hyundai.com"]
+  },
+  "capitalOrigin": {
+    "type": "executive",
+    "typeKo": "임원 보상",
+    "descriptionKo": "1978년 현대중공업 입사로 출발해 47년 동안 한 그룹에 본업 인생을 바쳤습니다. 2014년 KOPEC(현대중공업그룹)·현대오일뱅크 등 위기 카테고리 운영, 2019년 HD현대(현대중공업그룹) 회장 정식 취임으로 한국 '샐러리맨 신화'의 정점을 만들었고, 2025년 명예회장으로 자리를 옮겼습니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://en.wikipedia.org/wiki/HD_Hyundai"]
+  },
+  "careerTimeline": [
+    {"year": 1978, "event": "Joins Hyundai Heavy Industries", "eventKo": "현대중공업 입사, 본업 인생 시작", "whyItMatteredKo": "신사 일주의 초여름 쇠 일간이 안정적으로 자산을 쌓는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2009, "event": "Becomes CEO of Hyundai Oilbank", "eventKo": "현대오일뱅크 사장 정식 취임, 그룹 운영자 정체성 정립", "whyItMatteredKo": "본업 매출의 운영 통로가 만들어진 시기입니다."},
+    {"year": 2014, "event": "Hyundai Heavy Industries crisis tests management", "eventKo": "현대중공업 그룹 사상 최대 적자 위기, 본인이 기획·구조조정 라인 운영자로 부상", "whyItMatteredKo": "외부 시스템(거시 사이클)이 본업을 한 번에 시험한 분기점입니다."},
+    {"year": 2019, "event": "Becomes Chairman of HD Hyundai (Hyundai Heavy Industries Holdings)", "eventKo": "HD현대(현대중공업지주) 회장 정식 취임, 비가족 출신 회장 도약", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 흐름이 본인 결단의 정점으로 환원된 결정적 결단입니다."},
+    {"year": 2023, "event": "HD Korea Shipbuilding & Offshore Engineering wins major LNG carrier orders", "eventKo": "HD한국조선해양 글로벌 LNG선·암모니아선 수주 정점, 그룹 매출 회복", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2025, "event": "Steps down as Chairman; becomes Honorary Chairman", "eventKo": "HD현대 회장직 사임, 명예회장으로 자리를 옮김", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 다음 세대로 환원된 결정적 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1978, "eventKo": "현대중공업 입사", "impactKo": "신사 일주의 초여름 쇠 일간이 안정적으로 자산을 쌓는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2014, "eventKo": "현대중공업 그룹 위기 운영자로 부상", "impactKo": "외부 시스템(거시 사이클)이 본업을 한 번에 시험한 분기점입니다."},
+    {"year": 2019, "eventKo": "HD현대 회장 취임", "impactKo": "외부 압력을 자본으로 변환하는 흐름이 본인 결단의 정점으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "HD현대 임원 연봉, 스톡옵션, 누적 임원 보상이 자산의 핵심입니다. 가족 지분이 거의 없는 월급쟁이 CEO 누적 자본 구조입니다.",
+    "wealthAcceleratorsKo": "1978년 입사, 2014년 위기 운영자, 2019년 회장 취임이 본인 운영자 정체성 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "47년 HD현대 라이퍼 정체성, 위기 운영 경험, 그리고 한국 '샐러리맨 신화' 외부 평판 자본이 강점입니다.",
+    "currentAssetAllocationKo": "HD현대 임원 보상 누적분과 자사주 매입분이 자산의 핵심으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "현대중공업 그룹 사상 최대 적자 위기로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 구조조정과 사업 재편으로 V자 회복했습니다.", "lessonKo": "조선·중공업 카테고리는 거시 사이클에 본업이 한 번에 흔들립니다."},
+    {"year": 2017, "descriptionKo": "현대중공업·현대미포·현대삼호 등 3사 합병 추진으로 단기 운영 부담이 컸습니다.", "howTheyOvercameKo": "단계적 통합과 본업 매출 회복으로 통과했습니다.", "lessonKo": "큰 합병은 단기 통합 부담을 동반합니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 조선 발주가 단기 위축됐습니다.", "howTheyOvercameKo": "이후 LNG선·친환경선 수주 가속으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$5M", "sourceKo": "임원 보상 추정"},
+    {"year": 2019, "netWorth": "$30M", "sourceKo": "회장 취임 직후 추정"},
+    {"year": 2024, "netWorth": "$45M", "sourceKo": "회장 누적 보상 추정"},
+    {"year": 2026, "netWorth": "$50M", "sourceKo": "공시 기반 추정"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["HD현대 명예회장", "47년 HD 라이퍼", "샐러리맨 신화", "한국 비가족 출신 회장", "월급쟁이 CEO"],
+  "characterKo": {
+    "strengths": "1978년 현대중공업 입사 후 47년 동안 한 그룹에 본업 인생을 바친 끈기와, 2014년 위기기 본업 운영자로 부상해 한국 '샐러리맨 신화' 정체성을 만든 결단력이 강점입니다.",
+    "weaknesses": "가족 지분이 거의 없어 자산 형성이 임원 보상에 의존하고, 글로벌 조선 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "비가족 출신 1세대 산업가 정체성을 본인 세대에서 한국 '샐러리맨 신화'로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "한국 비가족 출신 1세대 회장의 표본입니다. 47년을 한 회사에 바친 깊은 학습이 만년의 회장직으로 환원된 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Sa day pillar (early spring metal on snake fire) and In month branch combine into a sharply forged, wealth-accumulating profile. The format that builds wealth through stable assets matches a 47-year arc from the 1978 entry to the 2019 chairmanship and the 2025 honorary chairmanship.",
+    "summaryKo": "일주는 신사라 이른 봄 쇠가 초여름 불(뱀의 자리) 위에 놓인 형국으로, 단단한 쇠가 강한 불에 의해 단단히 다듬어지는 자리입니다. 월지 인은 이른 봄 나무의 자리라 일간을 외부 자원의 큰 흐름과 결합시키는 통로입니다. 격국은 안정적으로 자산을 쌓는 흐름이라, 1978년 입사, 2014년 위기 운영자, 2019년 회장 취임, 2025년 명예회장까지 모두 '단단한 본인 자본이 단계적으로 회장직으로 환원되고 다음 세대로 이양된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.hd-hyundai.com",
+    "https://en.wikipedia.org/wiki/HD_Hyundai",
+    "https://www.dart.fss.or.kr"
+  ]
+}

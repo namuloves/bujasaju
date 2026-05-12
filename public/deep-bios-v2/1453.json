@@ -1,0 +1,73 @@
+{
+  "id": 1453,
+  "name": "Liu Jingkang",
+  "nameKo": "류 징캉",
+  "birthday": "1991-07-27",
+  "birthPlace": "China",
+  "birthPlaceKo": "중국",
+  "netWorth": "$2.8B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "무술",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1991년 중국에서 태어났습니다. 정통 학력은 공학 트랙으로, 2010년대 본토 액션 카메라·이미징 사업으로 출발한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 액션 카메라 자수성가형 인물 (Insta360 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Insta360"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2015년 'Insta360'을 24세에 창업해 본토 360도 액션 카메라 카테고리에서 본업을 만들었습니다. 글로벌 360도 카메라 시장에서 GoPro 등과 경쟁하며 1위급으로 도약, 2025년 상하이 커촹반 상장 추진으로 본인 자본이 자본 시장 가치로 환원될 예정입니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.insta360.com"]
+  },
+  "careerTimeline": [
+    {"year": 2015, "event": "Founds Insta360 at age 24", "eventKo": "24세에 'Insta360' 창업, 본토 액션 카메라·360도 이미징 카테고리 진입", "whyItMatteredKo": "무술 일주의 큰 흙 일간이 외부의 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2018, "event": "Insta360 ONE X launches as flagship", "eventKo": "Insta360 ONE X 플래그십 출시, 글로벌 360도 카메라 시장 진출", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2020, "event": "Pandemic boosts content creator demand", "eventKo": "코로나로 콘텐츠 크리에이터 시장 가속, 본업 매출 가속", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2022, "event": "Insta360 surpasses GoPro in some categories", "eventKo": "Insta360이 일부 카테고리에서 GoPro 추월, 글로벌 1위급으로 도약", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 결정적 분기점입니다."},
+    {"year": 2024, "event": "Files for STAR Market IPO", "eventKo": "상하이 커촹반(STAR Market) 상장 신청", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원될 결정적 결단입니다."},
+    {"year": 2025, "event": "Insta360 IPOs on STAR Market", "eventKo": "Insta360 상하이 커촹반 상장, 본인 자본 한 번에 평가", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2015, "eventKo": "24세에 Insta360 창업", "impactKo": "무술 일주의 큰 흙 일간이 외부의 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2022, "eventKo": "Insta360이 GoPro 추월", "impactKo": "본업 매출이 카테고리 1위 자리로 환원된 분기점입니다."},
+    {"year": 2025, "eventKo": "Insta360 STAR 상장", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 커촹반 상장 예정 Insta360 본인 지분이 자산의 절대 비중입니다. 글로벌 액션 카메라 매출 누적분이 자본 가치의 토대입니다.",
+    "wealthAcceleratorsKo": "2015년 창업, 2022년 글로벌 1위, 2025년 STAR 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 360도 액션 카메라 1위급 자리, 콘텐츠 크리에이터 시장 결합 통로, 그리고 1991년생 1세대 글로벌 빌리어네어 정체성이 강점입니다.",
+    "currentAssetAllocationKo": "Insta360 본인 지분이 자산의 절대 비중. 글로벌 자산 분산 보유 구조로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2019, "descriptionKo": "글로벌 액션 카메라 시장 경쟁 격화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "360도 카메라 차별화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 경쟁자 사이클 한 번에 매출이 흔들립니다."},
+    {"year": 2022, "descriptionKo": "본토 STAR Market 상장 신청 후 일시 보류로 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 정책 적응과 2025년 상장으로 통과 중입니다.", "lessonKo": "본토 자본 시장 규제는 본업 자본 통로에 직접 영향을 줍니다."},
+    {"year": 2024, "descriptionKo": "글로벌 카메라 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복을 시도하고 있습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2018, "netWorth": "$0.2B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$1.5B", "sourceKo": "글로벌 1위 도약 후"},
+    {"year": 2024, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.8B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Insta360 창업주", "글로벌 360도 카메라 1위", "1991년생 빌리어네어", "본토 액션 카메라 1세대", "STAR Market 상장"],
+  "characterKo": {
+    "strengths": "24세에 본토 360도 액션 카메라 1위 회사를 만든 카테고리 도약 본능과, GoPro 등 글로벌 경쟁자 대비 차별화로 1위급으로 도약시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 카메라 가격 경쟁과 본토 자본 시장 규제에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 1세대 글로벌 액션 카메라 자수성가형 야망과 본인 세대에서 글로벌 1위급 회사를 만들겠다는 자수성가형 의식이 동력입니다.",
+    "legacy": "중국 본토 1991년생 1세대 글로벌 액션 카메라 자수성가의 표본입니다. 30대 초반에 글로벌 1위급 카메라 회사 창업주로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Sul day pillar (mid-summer earth on dog earth) and Mi month branch combine into a deeply rooted, externally-pressured profile. The format that channels wealth through external authority matches a 10-year arc from the 2015 founding to the 2022 global #1 milestone and the 2025 STAR IPO.",
+    "summaryKo": "일주는 무술이라 한여름 큰 흙이 가을 끝 흙(개의 자리) 위에 놓인 형국으로, 두 겹의 큰 흙이 깊이로 다져진 자리입니다. 월지 미는 한여름 끝 흙의 자리라 일간을 세 겹의 흙으로 단단히 받쳐줍니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 2015년 창업, 2022년 글로벌 1위, 2025년 STAR 상장까지 모두 '외부 시스템과의 결합이 본업 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Insta360",
+    "https://www.insta360.com",
+    "https://www.forbes.com/profile/liu-jingkang/"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 1623,
+  "name": "Jin Baofang",
+  "nameKo": "진 바오팡",
+  "birthday": "1952-09-01",
+  "birthPlace": "Hebei, China",
+  "birthPlaceKo": "중국 허베이성",
+  "netWorth": "$2.5B",
+  "nationality": "CN",
+  "industry": "Energy",
+  "gender": "M",
+  "ilju": "경술",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1952년 중국 허베이성에서 태어났습니다. 정통 학력은 공학 트랙으로, 1990년대 본토 에너지 카테고리 진입으로 출발한 1세대 자수성가형 인물입니다. JinkoSolar(징커 솔라) 모회사 가문의 핵심 자본 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 태양광 자수성가형 인물 (JinkoSolar 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/JinkoSolar"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2006년 'JinkoSolar' 정립으로 본업을 만들었고, 본토 태양광 패널 카테고리에서 글로벌 1위급으로 도약했습니다. 2010년 뉴욕 증권거래소 상장, 2022년 상하이 STAR Market 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.jinkosolar.com"]
+  },
+  "careerTimeline": [
+    {"year": 2006, "event": "Founds JinkoSolar in Shanghai", "eventKo": "상하이에서 'JinkoSolar' 정립, 본토 태양광 카테고리 진입", "whyItMatteredKo": "경술 일주의 가을 큰 쇠 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2010, "event": "JinkoSolar IPOs on NYSE", "eventKo": "JinkoSolar 뉴욕 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2016, "event": "JinkoSolar becomes world's largest solar module maker", "eventKo": "JinkoSolar 글로벌 태양광 모듈 1위 도약", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 자리로 환원된 시기입니다."},
+    {"year": 2022, "event": "Lists JinkoSolar shares on Shanghai STAR Market", "eventKo": "JinkoSolar 상하이 STAR Market 상장", "whyItMatteredKo": "본업 매출이 본토 자본 시장 가치로 환원된 결정적 결단입니다."},
+    {"year": 2024, "event": "Global decarbonization peaks solar demand", "eventKo": "글로벌 탈탄소 정책 정점으로 태양광 수요 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $2.5B in Energy", "eventKo": "포브스 2026 — 에너지 25억 달러로 등재", "whyItMatteredKo": "JinkoSolar 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2006, "eventKo": "JinkoSolar 정립", "impactKo": "경술 일주의 가을 큰 쇠 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2016, "eventKo": "글로벌 태양광 모듈 1위", "impactKo": "본업 매출이 글로벌 카테고리 자리로 환원된 분기점입니다."},
+    {"year": 2022, "eventKo": "STAR Market 상장", "impactKo": "본업 매출이 본토 자본 시장 가치로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "JinkoSolar(NYSE: JKS, SSE: 688223) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2006년 JinkoSolar 정립, 2016년 글로벌 1위 도약, 2022년 STAR Market 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 태양광 모듈 1위 자리, 본토 신재생 정책 통로, 그리고 뉴욕·상하이 이중 상장 자본 구조가 강점입니다.",
+    "currentAssetAllocationKo": "JinkoSolar 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "미·중 무역분쟁기 글로벌 태양광 공급망 변동성이 본업을 단기 시험했습니다.", "howTheyOvercameKo": "본토 국산화 흐름과 함께 매출이 회복됐습니다.", "lessonKo": "본토 의존 카테고리는 정치 사이클에 직접 노출됩니다."},
+    {"year": 2022, "descriptionKo": "글로벌 태양광 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "고효율 N-type 셀 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2024, "descriptionKo": "글로벌 태양광 가격 폭락으로 본업 매출이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과하고 있습니다.", "lessonKo": "사이클 카테고리는 본업 매출에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.5B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$2.3B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["JinkoSolar 회장", "글로벌 태양광 1위", "본토 1세대 신재생", "뉴욕·상하이 이중 상장", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "2006년 JinkoSolar 정립으로 글로벌 태양광 1위 회사를 만든 카테고리 도약 본능과, 2022년 상하이 STAR Market 상장으로 본업을 본토 자본 시장 가치로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "본토 정책 사이클과 글로벌 태양광 가격 경쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 1세대 태양광 자수성가 야망과 본인 세대에서 글로벌 태양광 1위 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 태양광 자수성가의 표본입니다. JinkoSolar로 글로벌 태양광 모듈 1위 회사를 만든 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gyeong-Sul day pillar (autumn metal on dog earth) and Sin month branch combine into a sharply forged, learning-authority profile. The format that channels wealth through learned authority matches a 20-year arc from the 2006 founding to the 2016 global #1 and the 2022 STAR Market listing.",
+    "summaryKo": "일주는 경술이라 가을 큰 쇠가 가을 끝 흙(개의 자리) 위에 놓인 형국으로, 단단한 쇠가 흙으로 받쳐져 결과물로 압축되는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 두 겹의 쇠로 결과물로 압축하는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 2006년 JinkoSolar 정립, 2016년 글로벌 1위, 2022년 STAR 상장까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/JinkoSolar",
+    "https://www.jinkosolar.com",
+    "https://www.forbes.com/profile/jin-baofang/"
+  ]
+}

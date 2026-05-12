@@ -1,0 +1,73 @@
+{
+  "id": 780,
+  "name": "Jiang Bin",
+  "nameKo": "장 빈",
+  "birthday": "1966-09-16",
+  "birthPlace": "Weifang, Shandong, China",
+  "birthPlaceKo": "중국 산둥성 웨이팡",
+  "netWorth": "$5.3B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "무인",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1966년 중국 산둥성 웨이팡에서 태어났습니다. 정통 학력은 공학 트랙으로, 베이항대 정밀기기 학사를 거친 정통 본토 1세대 음향·정밀기기 인재 트랙입니다. 1990년대 베이항대 동문 네트워크 기반으로 본업을 만들었습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 음향·정밀기기 자수성가형 인물 (GoerTek 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/GoerTek"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2001년 산둥성 웨이팡에서 'GoerTek'(거얼커지) 창업해 본업을 만들었고, 본토 음향·정밀기기 카테고리에서 1위급으로 도약했습니다. 2008년 선전 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 2010년대 애플 에어팟·아이폰 정밀부품 공급망 합류로 본업 매출이 가속됐습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.goertek.com"]
+  },
+  "careerTimeline": [
+    {"year": 2001, "event": "Founds GoerTek in Weifang, Shandong", "eventKo": "웨이팡에서 'GoerTek' 창업, 본토 음향·정밀기기 카테고리 진입", "whyItMatteredKo": "무인 일주의 큰 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2008, "event": "GoerTek IPOs on Shenzhen Stock Exchange", "eventKo": "GoerTek 선전 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2012, "event": "Becomes key Apple supplier for audio components", "eventKo": "애플 음향 부품 핵심 공급사 합류", "whyItMatteredKo": "본업 매출의 카테고리 통로가 글로벌 1위 고객으로 환원된 결정적 결단입니다."},
+    {"year": 2017, "event": "Major supplier for AirPods assembly", "eventKo": "에어팟 조립 주요 공급사로 본업 매출 가속", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2022, "event": "Major VR headset assembly supplier (Meta Quest)", "eventKo": "메타 퀘스트 등 가상현실 헤드셋 조립 주요 공급사 도약", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $5.3B in Technology", "eventKo": "포브스 2026 — 테크놀로지 53억 달러로 등재", "whyItMatteredKo": "GoerTek 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2001, "eventKo": "GoerTek 창업", "impactKo": "무인 일주의 큰 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2012, "eventKo": "애플 핵심 공급사 합류", "impactKo": "본업 매출의 글로벌 통로가 만들어진 분기점입니다."},
+    {"year": 2022, "eventKo": "가상현실 헤드셋 조립 도약", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "GoerTek(SZSE: 002241) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2001년 창업, 2012년 애플 공급사 합류, 2022년 가상현실 헤드셋 도약이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 음향·정밀기기 카테고리 1위 자리, 글로벌 빅테크 공급망 통로, 그리고 베이항대 정밀기기 동문 네트워크가 강점입니다.",
+    "currentAssetAllocationKo": "GoerTek 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "미·중 무역분쟁 초기에 글로벌 정밀기기 공급망 변동성이 본업을 단기 시험했습니다.", "howTheyOvercameKo": "본토 국산화 흐름과 함께 매출이 회복됐습니다.", "lessonKo": "본토 의존 카테고리는 정치 사이클에 직접 노출됩니다."},
+    {"year": 2022, "descriptionKo": "애플 에어팟 일부 모델 공급사 자격 일시 상실로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "가상현실 헤드셋 등 새 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 고객 의존은 한 번의 거래 변경에 매출이 직접 흔들립니다."},
+    {"year": 2024, "descriptionKo": "글로벌 정밀기기 가격 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "고부가 가상현실·확장현실 카테고리 비중 강화로 단계적 회복을 시도하고 있습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$1.8B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$5.3B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$4.2B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$5.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["GoerTek 창업주", "본토 음향·정밀기기 1위", "애플·메타 핵심 공급사", "베이항대 동문", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "2001년 GoerTek 창업으로 본토 음향·정밀기기 카테고리 1위 회사를 만든 카테고리 도약 본능과, 2012년 애플 공급사 합류로 본업을 글로벌 빅테크 공급망의 1위 통로로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "단일 고객 의존도와 글로벌 정밀기기 가격 경쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 1세대 정밀기기 자수성가 정체성을 본인 세대에서 글로벌 빅테크 공급망의 핵심 자리로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 음향·정밀기기 자수성가의 표본입니다. 베이항대 동문 네트워크에서 글로벌 가상현실 헤드셋 조립 핵심 공급사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-In day pillar (high summer earth on tiger wood) and Yu month branch combine into a steady, learning-authority profile. The format that channels wealth through learned authority matches a 25-year arc from the 2001 founding to the 2012 Apple supplier entry and the 2022 VR headset surge.",
+    "summaryKo": "일주는 무인이라 한여름 큰 흙이 봄 나무(호랑이의 자리) 위에 놓인 형국으로, 단단한 흙이 봄 나무의 큰 자원에 의해 결과물로 빚어지는 자리입니다. 월지 유는 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 2001년 창업, 2012년 애플 공급사 합류, 2022년 가상현실 헤드셋 도약까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/GoerTek",
+    "https://www.goertek.com",
+    "https://www.forbes.com/profile/jiang-bin/"
+  ]
+}

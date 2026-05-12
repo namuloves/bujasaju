@@ -1,0 +1,73 @@
+{
+  "id": 2780,
+  "name": "Teo Swee Ann",
+  "nameKo": "테오 스위 안",
+  "birthday": "1975-09-01",
+  "birthPlace": "Singapore",
+  "birthPlaceKo": "싱가포르",
+  "netWorth": "$1.3B",
+  "nationality": "SG",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "경술",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1975년 싱가포르에서 태어났습니다. 정통 학력은 공학 트랙으로, 싱가포르 국립대 학사·미국 워싱턴주립대 석사를 거친 정통 IT 인재 트랙입니다. 미국 텍사스 인스트루먼츠 등에서 칩 설계 경력을 쌓은 후 본업을 만들었습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 싱가포르계 칩 설계 엔지니어가 본토 IoT 칩 1위급 회사를 만든 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Espressif_Systems"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2008년 상하이에서 'Espressif Systems' 창업해 본토 IoT·Wi-Fi 칩 카테고리에서 본업을 만들었습니다. 2014년 ESP8266 모듈 출시로 글로벌 IoT 개발자 커뮤니티에서 본업 매출 가속, 2019년 상하이 커촹반 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.espressif.com"]
+  },
+  "careerTimeline": [
+    {"year": 2008, "event": "Founds Espressif Systems in Shanghai", "eventKo": "상하이에서 'Espressif Systems' 창업, 본토 IoT 칩 카테고리 진입", "whyItMatteredKo": "경술 일주의 가을 쇠 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 2014, "event": "Launches ESP8266 Wi-Fi module globally", "eventKo": "ESP8266 Wi-Fi 모듈 글로벌 출시, 글로벌 IoT 개발자 커뮤니티 가속", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2016, "event": "ESP32 chip launches as flagship", "eventKo": "ESP32 플래그십 칩 출시, 글로벌 IoT 카테고리 1위급으로 도약", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2019, "event": "Espressif Systems IPOs on Shanghai STAR Market", "eventKo": "Espressif Systems 상하이 커촹반(STAR Market) 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2021, "event": "Global chip shortage drives Espressif valuation", "eventKo": "글로벌 반도체 공급난기 Espressif 시가총액 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."},
+    {"year": 2024, "event": "Espressif maintains global IoT chip leadership", "eventKo": "Espressif 글로벌 IoT 칩 1위급 자리 유지", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2008, "eventKo": "Espressif Systems 창업", "impactKo": "경술 일주의 가을 쇠 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 결정적 결단입니다."},
+    {"year": 2014, "eventKo": "ESP8266 글로벌 출시", "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다."},
+    {"year": 2019, "eventKo": "Espressif STAR Market 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 커촹반 상장사 Espressif Systems(688018) 본인 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2008년 창업, 2014년 ESP8266 출시, 2019년 STAR 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 IoT 칩 1위급 자리, ESP8266·ESP32 글로벌 개발자 커뮤니티 통로, 그리고 싱가포르 시민권 통한 글로벌 자본 분산 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Espressif Systems 본인 지분이 자산의 절대 비중. 글로벌 자산 분산 보유 구조로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "미·중 무역분쟁 초기에 글로벌 칩 공급망 변동성이 본업을 단기 시험했습니다.", "howTheyOvercameKo": "본토 국산화 흐름과 함께 매출이 회복됐습니다.", "lessonKo": "본토 의존 카테고리는 정치 사이클에 직접 노출됩니다."},
+    {"year": 2022, "descriptionKo": "글로벌 반도체 사이클 다운으로 시가총액이 정점 대비 큰 폭으로 조정됐습니다.", "howTheyOvercameKo": "장기 IoT 수요와 단계적 회복을 시도했습니다.", "lessonKo": "사이클 카테고리는 자본 시장 평가의 변동이 본업보다 큽니다."},
+    {"year": 2024, "descriptionKo": "글로벌 IoT 칩 가격 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "고부가 ESP32-S3·H 시리즈 비중 강화로 단계적 마진 회복을 시도하고 있습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2019, "netWorth": "$0.5B", "sourceKo": "STAR 상장 직후 추정"},
+    {"year": 2021, "netWorth": "$1.8B", "sourceKo": "글로벌 칩 공급난 정점"},
+    {"year": 2024, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Espressif Systems 창업주", "글로벌 IoT 칩 1위", "ESP8266·ESP32 개발자", "싱가포르 국적", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "싱가포르 칩 설계 엔지니어 정체성을 본인 회사 Espressif 창업의 토대로 결합한 카테고리 결합 본능과, ESP8266·ESP32 글로벌 개발자 커뮤니티를 본업의 토대로 만든 협상력이 강점입니다.",
+    "weaknesses": "글로벌 반도체 사이클과 미·중 무역분쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "싱가포르 1세대 칩 설계 엔지니어 정체성을 본인 세대에서 글로벌 IoT 칩 1위 회사로 환원하겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "싱가포르 1세대 글로벌 IoT 칩 자수성가의 표본입니다. 글로벌 개발자 커뮤니티를 본인 사업의 토대로 결합한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gyeong-Sul day pillar (autumn metal on dog earth) and Sin month branch combine into a sharply forged, externally-resourced profile. The format that channels wealth through external resources matches a 16-year arc from the 2008 founding to the 2014 ESP8266 launch and the 2019 STAR IPO.",
+    "summaryKo": "일주는 경술이라 가을 큰 쇠가 가을 끝 흙(개의 자리) 위에 놓인 형국으로, 단단한 쇠가 흙으로 받쳐져 결과물로 압축되는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 2008년 창업, 2014년 ESP8266, 2019년 STAR 상장까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Espressif_Systems",
+    "https://www.espressif.com",
+    "https://www.forbes.com/profile/teo-swee-ann/"
+  ]
+}

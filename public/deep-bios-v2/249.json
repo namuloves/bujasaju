@@ -1,0 +1,73 @@
+{
+  "id": 249,
+  "name": "Anthoni Salim",
+  "nameKo": "안토니 살림",
+  "birthday": "1949-10-25",
+  "birthPlace": "Kudus, Indonesia",
+  "birthPlaceKo": "인도네시아 쿠두스",
+  "netWorth": "$11.7B",
+  "nationality": "ID",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "무자",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1949년 인도네시아 쿠두스의 화교계 살림 가문에서 태어났습니다. 정통 학력은 영국 유학 트랙으로, 인도네시아 100년 화교 자본 가문(Liem Sioe Liong 가문)의 3세대 후계자 정체성을 유년기부터 형성했다고 전해집니다. 부친 림 시오우 리옹이 정립한 Salim Group의 후계자입니다.",
+    "capitalTypeKo": "재벌 후계자 — 인도네시아 100년 화교 자본 가문 운영형 후계자 (Salim Group 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Anthoni_Salim"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1970년대 가족 Salim Group 합류로 본업을 잇기 시작했고, 1998년 부친 별세 후 그룹 회장 자리에 도약했습니다. 1998년 아시아 외환위기로 그룹 채무 사태 후 구조조정을 거쳐 그룹 자본을 재편성, 2010~2020년대 인도네시아 식음료(Indofood)·통신(Indosat)·디지털 자본까지 다각화 회사로 환원했습니다.",
+    "selfMadeScore": 5,
+    "sources": ["https://www.salimgroup.com"]
+  },
+  "careerTimeline": [
+    {"year": 1972, "event": "Joins family Salim Group business", "eventKo": "가족 Salim Group 합류 (추정)", "whyItMatteredKo": "무자 일주의 큰 흙 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1990, "event": "Salim Group becomes Indonesia's largest conglomerate", "eventKo": "Salim Group 인도네시아 최대 다각화 그룹 자리 도약", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 1998, "event": "Becomes Salim Group Chairman, navigates Asian financial crisis", "eventKo": "부친 별세 후 회장 취임, 아시아 외환위기 그룹 재편", "whyItMatteredKo": "외부 압력이 본인 자리의 결단으로 환원된 결정적 분기점입니다."},
+    {"year": 2007, "event": "Indofood acquires assets across Asia", "eventKo": "Indofood 아시아 식음료 자산 추가 인수, 카테고리 확장", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2022, "event": "Indofood completes Pinehill Company acquisition for $3B", "eventKo": "Indofood Pinehill Company 30억 달러 인수 완료, 글로벌 식음료 카테고리 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $11.7B in Diversified", "eventKo": "포브스 2026 — 다각화 산업 117억 달러로 등재", "whyItMatteredKo": "Salim Group 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1972, "eventKo": "가족 Salim Group 합류", "impactKo": "무자 일주의 큰 흙 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1998, "eventKo": "회장 취임 및 외환위기 그룹 재편", "impactKo": "외부 압력이 본인 자리의 결단으로 환원된 결정적 분기점입니다."},
+    {"year": 2022, "eventKo": "Pinehill Company 30억 달러 인수", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Indofood(IDX: INDF), First Pacific(HKEX: 142), PLDT(PSE: TEL) 등 Salim Group 본인·가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1972년 가족 합류, 1998년 회장 취임, 2022년 Pinehill 인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도네시아 100년 살림 가문 자본망, 인도네시아·필리핀·홍콩 다각화 그룹 거버넌스 구조, 그리고 글로벌 식음료(Indomie) 통로가 강점입니다.",
+    "currentAssetAllocationKo": "Salim Group 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 1998, "descriptionKo": "아시아 외환위기로 Salim Group 채무 부담이 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 그룹 재편과 자산 매각으로 통과했습니다.", "lessonKo": "거시 충격은 다각화 그룹 자본에 분기 단위로 영향을 줍니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도네시아 자본 시장이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 거시 사이클은 본업 매출에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도네시아 다각화 그룹 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "디지털 채널 가속과 본토 매출 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$3.2B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$5.3B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$8.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$11.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Salim Group 회장", "인도네시아 화교 100년 가문", "Indofood·Indomie 정체성", "First Pacific·PLDT 통로", "다각화 운영형 후계자"],
+  "characterKo": {
+    "strengths": "1972년 가족 사업 합류 후 50년 넘게 인도네시아 100년 화교 자본 가문의 한 축으로 자리잡은 끈기와, 1998년 외환위기 후 그룹 재편으로 본인 자리를 다시 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 거시 사이클과 다각화 그룹 거버넌스 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "100년 살림 가문 자본을 본인 세대에서 인도네시아 1위 다각화 그룹으로 환원하고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "인도네시아 100년 화교 자본 가문의 운영형 후계자 표본입니다. 외환위기 후 그룹 재편을 통해 다각화 1위 자리를 다시 환원한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Ja day pillar (high summer earth on rat water) and Sul month branch combine into a steady, externally-pressured profile. The format that channels wealth through external authority matches a 54-year arc from the 1972 family entry to the 1998 chairmanship and the 2022 Pinehill acquisition.",
+    "summaryKo": "일주는 무자라 한여름 큰 흙이 한겨울 물(쥐의 자리) 위에 놓인 형국으로, 단단한 흙이 외부의 큰 물로 결과물로 환원되는 자리입니다. 월지 술은 가을 끝 흙의 자리라 일간을 두 겹의 흙으로 단단히 다지는 통로입니다. 격국은 외부의 권위·압력과 결합하는 흐름이라, 1972년 가족 합류, 1998년 회장 취임, 2022년 Pinehill 인수까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Anthoni_Salim",
+    "https://www.salimgroup.com",
+    "https://www.forbes.com/profile/anthoni-salim/"
+  ]
+}

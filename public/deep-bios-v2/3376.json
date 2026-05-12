@@ -1,0 +1,73 @@
+{
+  "id": 3376,
+  "name": "Song Byung-joon",
+  "nameKo": "송병준",
+  "birthday": "1976-01-08",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$0.29B",
+  "nationality": "KR",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "기미",
+  "gyeokguk": "건록격",
+  "childhood": {
+    "summaryKo": "1976년 대한민국에서 태어났습니다. 정통 학력은 공학 트랙으로, 한양대 컴퓨터공학 학사를 거친 정통 한국 1세대 모바일 게임 인재 트랙입니다. 1999년 게임빌 창업으로 출발한 한국 1세대 모바일 게임 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 한국 1세대 모바일 게임 자수성가형 인물 (Com2uS·게임빌 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Com2uS"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1999년 한국 모바일 게임 회사 '게임빌'을 공동 창업해 본업 자리를 정립했고, 2013년 컴투스 인수로 본업 규모를 확장했습니다. 2014년 'Summoners War'(서머너즈 워) 글로벌 출시로 한국 모바일 게임의 글로벌 1위급 자리로 도약, 2010~2020년대에 본격 자본 시장 가치 환원이 진행됐습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.com2us.com"]
+  },
+  "careerTimeline": [
+    {"year": 1999, "event": "Co-founds Gamevil in Seoul", "eventKo": "서울에서 '게임빌' 공동 창업, 한국 모바일 게임 카테고리 진입", "whyItMatteredKo": "기미 일주의 늦여름 작은 흙 일간이 자기 자리의 권위를 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2009, "event": "Gamevil IPOs on KOSDAQ", "eventKo": "게임빌 코스닥 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 시기입니다."},
+    {"year": 2013, "event": "Acquires Com2uS for $640M", "eventKo": "컴투스 6억 4천만 달러에 인수, 본업 규모 확장", "whyItMatteredKo": "본업 카테고리의 규모 확장이 진행된 결정적 결단입니다."},
+    {"year": 2014, "event": "Launches Summoners War globally", "eventKo": "'서머너즈 워' 글로벌 출시, 한국 모바일 게임 글로벌 1위급 도약", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 자리로 환원된 결정적 분기점입니다."},
+    {"year": 2022, "event": "Acquires more global game studios", "eventKo": "Com2uS 글로벌 게임 스튜디오 추가 인수, 글로벌 다각화", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $0.29B in Technology", "eventKo": "포브스 2026 — 테크놀로지 2.9억 달러로 등재", "whyItMatteredKo": "Com2uS·게임빌 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1999, "eventKo": "게임빌 공동 창업", "impactKo": "기미 일주의 늦여름 작은 흙 일간이 자기 자리의 권위를 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2013, "eventKo": "컴투스 인수", "impactKo": "본업 카테고리의 규모 확장이 진행된 분기점입니다."},
+    {"year": 2014, "eventKo": "'서머너즈 워' 글로벌 출시", "impactKo": "본업 매출이 글로벌 카테고리 자리로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Com2uS(KOSDAQ: 078340), 게임빌 등 본인 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1999년 게임빌 창업, 2013년 컴투스 인수, 2014년 '서머너즈 워' 글로벌 출시가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 모바일 게임 카테고리 1세대 자리, '서머너즈 워' 글로벌 IP, 그리고 게임빌·컴투스 그룹 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Com2uS·게임빌 본인 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "글로벌 모바일 게임 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "글로벌 IP 강화와 카테고리 다각화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2021, "descriptionKo": "한국 게임 카테고리 사이클 다운으로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "글로벌 시장 비중 강화로 통과했습니다.", "lessonKo": "본토 단일 시장 의존은 카테고리 사이클에 직접 노출됩니다."},
+    {"year": 2024, "descriptionKo": "글로벌 모바일 게임 시장 둔화로 본업 매출이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과하고 있습니다.", "lessonKo": "사이클 카테고리는 본업 매출에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.15B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$0.22B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$0.27B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$0.29B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Com2uS·게임빌 회장", "한국 모바일 게임 1세대", "'서머너즈 워' 글로벌 IP", "한양대 컴공 트랙", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1999년 게임빌 공동 창업으로 한국 모바일 게임 카테고리 1위급 회사를 만든 카테고리 도약 본능과, 2014년 '서머너즈 워' 글로벌 출시로 본업을 글로벌 카테고리 1위 자리로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 모바일 게임 사이클과 본토 카테고리 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 한국 1세대 모바일 게임 자수성가 야망과 본인 세대에서 글로벌 모바일 게임 1위급 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "한국 1세대 모바일 게임 자수성가의 표본입니다. 게임빌·컴투스 그룹으로 한국 모바일 게임의 글로벌 1위 자리에 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Mi day pillar (late summer earth on goat earth) and Chuk month branch combine into a steady, self-rooted profile. The format that channels wealth through one's strong inner authority matches a 27-year arc from the 1999 Gamevil founding to the 2013 Com2uS acquisition and the 2014 Summoners War global launch.",
+    "summaryKo": "일주는 기미라 늦여름 작은 흙이 같은 늦여름 흙(양의 자리) 위에 놓인 형국으로, 부드러운 흙이 같은 흙 자리에 두 겹으로 단단히 다져지는 형상입니다. 월지 축은 겨울 끝 흙의 자리라 일간을 세 겹의 흙으로 단단히 결과물로 압축하는 통로입니다. 격국은 본인의 강한 자기 자리가 그대로 결과물로 환원되는 흐름이라, 1999년 게임빌 창업, 2013년 컴투스 인수, 2014년 '서머너즈 워' 글로벌 출시까지 모두 '본인의 강한 자리가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Com2uS",
+    "https://www.com2us.com",
+    "https://www.forbes.com/billionaires/"
+  ]
+}

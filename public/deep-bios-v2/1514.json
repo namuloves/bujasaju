@@ -1,0 +1,73 @@
+{
+  "id": 1514,
+  "name": "Tran Dinh Long",
+  "nameKo": "쩐 딘 롱",
+  "birthday": "1961-02-22",
+  "birthPlace": "Hai Duong, Vietnam",
+  "birthPlaceKo": "베트남 하이즈엉",
+  "netWorth": "$2.7B",
+  "nationality": "VN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "병술",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1961년 베트남 하이즈엉의 농촌 가정에서 태어났습니다. 하노이 경제대 학사를 거친 정통 학력 트랙으로, 1990년대 초 베트남 도이머이(개혁) 직후 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 베트남 1세대 철강 자수성가형 인물 (Hoa Phat Group 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Tran_Dinh_Long"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1992년 'Hoa Phat'(호아팟) 그룹 창업해 베트남 가구·기계 사업으로 출발했고, 2000년대 베트남 철강 카테고리에서 본업을 만들었습니다. 2007년 호치민 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 2010년대 베트남 1위 철강 회사로 도약했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.hoaphat.com.vn"]
+  },
+  "careerTimeline": [
+    {"year": 1992, "event": "Founds Hoa Phat in Hanoi", "eventKo": "하노이에서 'Hoa Phat' 그룹 창업, 베트남 도이머이 직후 가구·기계 사업 진입", "whyItMatteredKo": "병술 일주의 작은 불 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 2000, "event": "Hoa Phat enters steel category", "eventKo": "Hoa Phat 베트남 철강 카테고리 진입", "whyItMatteredKo": "본업의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2007, "event": "Hoa Phat IPOs on Ho Chi Minh Stock Exchange", "eventKo": "Hoa Phat 호치민 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2017, "event": "Hoa Phat becomes #1 steel producer in Vietnam", "eventKo": "Hoa Phat 베트남 철강 1위 자리 굳히기", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2021, "event": "Steel prices peak; Hoa Phat valuation surge", "eventKo": "글로벌 철강 가격 사상 정점기, Hoa Phat 시가총액 급등", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 결정적 결단입니다."},
+    {"year": 2024, "event": "Hoa Phat Dung Quat 2 expansion", "eventKo": "Hoa Phat Dung Quat 2 단지 확장 가동", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1992, "eventKo": "Hoa Phat 그룹 창업", "impactKo": "병술 일주의 작은 불 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 결정적 결단입니다."},
+    {"year": 2007, "eventKo": "Hoa Phat 호치민 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2017, "eventKo": "베트남 철강 1위 굳히기", "impactKo": "본업 매출이 카테고리 1위 자리로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "호치민 상장사 Hoa Phat Group(HPG) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1992년 창업, 2007년 호치민 상장, 2017년 베트남 1위가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "베트남 1위 철강 회사 정체성, 도이머이 1세대 자수성가 통로, 그리고 가족 자본망이 강점입니다.",
+    "currentAssetAllocationKo": "Hoa Phat Group 가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 베트남 철강 가격이 단기 위축됐습니다.", "howTheyOvercameKo": "베트남 인프라 정책 수혜로 V자 회복했습니다.", "lessonKo": "원자재 사이클은 본업 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "미·중 무역분쟁으로 글로벌 철강 사이클이 단기 시험받았습니다.", "howTheyOvercameKo": "본토 내수 비중 강화로 통과했습니다.", "lessonKo": "글로벌 정치 사이클은 본업 매출에 직접 영향을 줍니다."},
+    {"year": 2022, "descriptionKo": "글로벌 철강 가격 정상화로 Hoa Phat 시가총액이 정점 대비 큰 폭으로 조정됐습니다.", "howTheyOvercameKo": "Dung Quat 2 단지 확장과 단계적 회복을 시도했습니다.", "lessonKo": "원자재 가격 변동은 본업 평가의 분기 단위 변동을 만듭니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.3B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$3B", "sourceKo": "철강 가격 사상 정점"},
+    {"year": 2026, "netWorth": "$2.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Hoa Phat Group 창업주", "베트남 1위 철강", "도이머이 1세대 자수성가", "하이즈엉 출신", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1992년 베트남 도이머이 직후 출발해 베트남 1위 철강 회사를 만든 카테고리 도약 본능과, 2017년 카테고리 1위 자리를 굳힌 결단력이 강점입니다.",
+    "weaknesses": "글로벌 철강 사이클과 본토 인프라 정책 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "베트남 도이머이 1세대 자수성가형 야망과 본인 세대에서 베트남 철강 1위 회사를 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "베트남 1세대 철강 자수성가의 표본입니다. 도이머이 직후 가구 사업에서 베트남 1위 철강 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Sul day pillar (early spring fire on dog earth) and In month branch combine into a quietly burning, externally-resourced profile. The format that channels wealth through external resources matches a 32-year arc from the 1992 founding to the 2007 IPO and the 2017 #1 consolidation.",
+    "summaryKo": "일주는 병술이라 이른 봄 작은 불이 가을 끝 흙(개의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 단단한 흙으로 결과물을 빚어내는 자리입니다. 월지 인은 이른 봄 나무의 자리라 일간을 외부 자원의 큰 흐름과 결합시키는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1992년 창업, 2007년 호치민 상장, 2017년 베트남 1위까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tran_Dinh_Long",
+    "https://www.hoaphat.com.vn",
+    "https://www.forbes.com/profile/tran-dinh-long/"
+  ]
+}

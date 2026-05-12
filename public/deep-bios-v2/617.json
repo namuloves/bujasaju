@@ -1,0 +1,73 @@
+{
+  "id": 617,
+  "name": "Tsai Hong-tu",
+  "nameKo": "차이 훙투",
+  "birthday": "1952-08-01",
+  "birthPlace": "Taipei, Taiwan",
+  "birthPlaceKo": "대만 타이베이",
+  "netWorth": "$6.4B",
+  "nationality": "TW",
+  "industry": "Finance & Investments",
+  "gender": "M",
+  "ilju": "기묘",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1952년 대만 타이베이의 차이 가문에서 태어났습니다. 부친 차이완차이가 캐세이금융지주(국태금융홀딩스) 창업주였고, 본인은 정통 후계자 트랙으로 미국 콜롬비아 로스쿨 학위를 취득했습니다. 동생 차이밍중(리처드 차이)과 함께 가족 자본 운영의 한 축으로 자리잡았습니다.",
+    "capitalTypeKo": "재벌 2세대 — 캐세이금융지주(국태금융홀딩스) 가족 자본을 잇는 운영형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Cathay_Financial_Holding"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1980년대 가족 사업 합류, 1990년대 캐세이생명·캐세이세계상업은행 운영의 한 축으로 자리잡았습니다. 2001년 캐세이금융지주 출범 직후 그룹 회장으로 정식 취임, 2010년대 본토·동남아 확장으로 본업을 글로벌화했습니다.",
+    "selfMadeScore": 3,
+    "sources": ["https://www.cathayholdings.com"]
+  },
+  "careerTimeline": [
+    {"year": 1980, "event": "Joins family Cathay business", "eventKo": "캐세이 가족 사업 합류 (추정)", "whyItMatteredKo": "기묘 일주의 작은 흙 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1992, "event": "Senior management at Cathay Life", "eventKo": "캐세이생명 임원 라인 진입", "whyItMatteredKo": "본업 매출의 운영 통로가 만들어진 시기입니다."},
+    {"year": 2001, "event": "Cathay Financial Holding established; becomes Chairman", "eventKo": "캐세이금융지주(국태금융홀딩스) 출범, 그룹 회장 정식 취임", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 결단의 정점으로 환원된 결정적 결단입니다."},
+    {"year": 2010, "event": "Cathay expands across mainland China", "eventKo": "캐세이 본토 시장 본격 확장", "whyItMatteredKo": "본업 카테고리가 글로벌로 확장된 시기입니다."},
+    {"year": 2018, "event": "Cathay Financial expands ASEAN footprint", "eventKo": "캐세이금융지주 동남아 시장 확장", "whyItMatteredKo": "본업 매출의 글로벌 통로가 만들어진 시기입니다."},
+    {"year": 2024, "event": "Cathay Financial revenue passes NT$700B", "eventKo": "캐세이금융지주 연결 매출 7,000억 대만달러 돌파, 가족 평가 자산 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2001, "eventKo": "캐세이금융지주 출범과 회장 취임", "impactKo": "기묘 일주의 작은 흙 일간이 학습된 결과물의 흐름을 본인 결단의 정점으로 환원한 결정적 결단입니다."},
+    {"year": 2010, "eventKo": "캐세이 본토 시장 확장", "impactKo": "본업 카테고리가 글로벌로 확장된 분기점입니다."},
+    {"year": 2018, "eventKo": "캐세이 동남아 확장", "impactKo": "본업 매출의 글로벌 통로가 만들어진 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "대만 상장사 캐세이금융지주(2882) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다. 동생 차이밍중과 공동 보유 구조입니다.",
+    "wealthAcceleratorsKo": "2001년 지주사 출범, 2010년 본토 확장, 2018년 동남아 확장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "대만 보험·은행 카테고리 1위 자리, 본토·동남아 글로벌 통로, 그리고 형제 공동 운영 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "캐세이금융지주 가족 지분이 자산의 절대 비중. 형제 공동 보유 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 캐세이생명 자산 운용이 단기 압박을 받았습니다.", "howTheyOvercameKo": "보수적 자산 배분으로 V자 회복했습니다.", "lessonKo": "글로벌 자산 운용은 거시 충격에 평가가 직접 노출됩니다."},
+    {"year": 2015, "descriptionKo": "본토 시장 변동으로 일부 자산 운용이 단기 시험받았습니다.", "howTheyOvercameKo": "본토 매출 안정성으로 통과했습니다.", "lessonKo": "본토 시장 변동은 자산운용에 직접 영향을 줍니다."},
+    {"year": 2022, "descriptionKo": "글로벌 금리 인상기 보험 자산 운용이 시험받았습니다.", "howTheyOvercameKo": "보수적 자산 배분 강화로 통과 중입니다.", "lessonKo": "보험 자산 운용은 거시 사이클에 평가가 직접 노출됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$4.5B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$5.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$6.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["캐세이금융지주 회장", "차이완차이 장남", "동생 차이밍중과 공동 운영", "콜롬비아 로스쿨", "재벌 2세대"],
+  "characterKo": {
+    "strengths": "1980년 가족 사업 합류 후 45년 동안 캐세이금융지주를 보전·확장한 끈기와, 2001년 지주사 출범으로 본인 결단의 정점을 만든 결단력이 강점입니다.",
+    "weaknesses": "대만 단일 시장 의존도와 글로벌 자산 운용 사이클에 평가 자산이 직접 노출됩니다.",
+    "motivation": "부친 차이완차이의 가족 자본을 본인 세대에서 캐세이금융지주 1위 자리로 굳히고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "대만 금융 가문 2세대 운영형 후계자의 표본입니다. 형제 공동 운영으로 보험·은행 카테고리 1위를 유지한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Myo day pillar (mid-summer earth on rabbit wood) and Mi month branch combine into a softly nourished, learning-authority profile. The format that channels wealth through learned authority matches a 45-year arc from the 1980 family entry to the 2001 holdco formation and the 2018 ASEAN expansion.",
+    "summaryKo": "일주는 기묘라 한여름 끝 작은 흙이 봄 나무(토끼의 자리) 위에 놓인 형국으로, 부드러운 흙이 외부의 큰 나무에 의해 시험받는 자리입니다. 월지 미는 한여름 끝 흙의 자리라 일간을 두 겹의 흙으로 단단히 받쳐줍니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1980년 가족 진입, 2001년 지주사 출범, 2018년 동남아 확장까지 모두 '학습된 가족 자본이 단계적으로 카테고리 확장으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cathay_Financial_Holding",
+    "https://www.cathayholdings.com",
+    "https://www.forbes.com/profile/tsai-hong-tu/"
+  ]
+}

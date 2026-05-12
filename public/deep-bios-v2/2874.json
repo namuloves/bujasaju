@@ -1,0 +1,73 @@
+{
+  "id": 2874,
+  "name": "Ravi Modi",
+  "nameKo": "라비 모디",
+  "birthday": "1977-03-13",
+  "birthPlace": "Kolkata, India",
+  "birthPlaceKo": "인도 콜카타",
+  "netWorth": "$1.3B",
+  "nationality": "IN",
+  "industry": "Fashion & Retail",
+  "gender": "M",
+  "ilju": "기사",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1977년 인도 콜카타의 마르와리 상인 가문에서 태어났습니다. 정통 학력보다 시장 실무 경험이 토대인 1세대 자수성가형 인물로, 1990년대 가족 의류 상점에서 출발했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 남성 의류 자수성가형 인물 (Manyavar 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Manyavar"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1999년 'Manyavar'(만야바르) 의류 브랜드 정립으로 본업을 만들었고, 인도 결혼식·축제용 남성 전통 의류 카테고리에서 1위로 도약했습니다. 2021년 인도 증권거래소 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.manyavar.com"]
+  },
+  "careerTimeline": [
+    {"year": 1999, "event": "Founds Manyavar in Kolkata", "eventKo": "콜카타에서 'Manyavar' 의류 브랜드 정립, 인도 남성 결혼식·축제 의류 카테고리 진입", "whyItMatteredKo": "기사 일주의 작은 흙 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 2008, "event": "Manyavar expands across India", "eventKo": "Manyavar 인도 전역 매장 확장", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2015, "event": "Launches Mohey women's ethnic line", "eventKo": "여성 전통 의류 라인 'Mohey' 출시, 본업 카테고리 다각화", "whyItMatteredKo": "본업 매출의 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2018, "event": "Signs Amitabh Bachchan as global ambassador", "eventKo": "아미타브 바찬을 글로벌 앰버서더로 영입, 브랜드 정체성 강화", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리로 환원된 시기입니다."},
+    {"year": 2021, "event": "Vedant Fashions (Manyavar) IPOs in India", "eventKo": "Vedant Fashions(Manyavar) 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2024, "event": "Manyavar revenue passes ₹14B amid premium ethnic boom", "eventKo": "Manyavar 매출 140억 루피 돌파, 인도 프리미엄 전통 의류 호황기 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1999, "eventKo": "Manyavar 정립", "impactKo": "기사 일주의 작은 흙 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 결정적 결단입니다."},
+    {"year": 2015, "eventKo": "여성 라인 Mohey 출시", "impactKo": "본업 매출의 카테고리 다각화가 진행된 분기점입니다."},
+    {"year": 2021, "eventKo": "Vedant Fashions 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "인도 상장사 Vedant Fashions(NSE: MANYAVAR) 본인 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1999년 정립, 2015년 Mohey 출시, 2021년 인도 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 결혼식·축제용 남성 전통 의류 1위 자리, 콜카타 마르와리 자본망, 그리고 아미타브 바찬 앰버서더 통로가 강점입니다.",
+    "currentAssetAllocationKo": "Vedant Fashions 본인 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 소비가 단기 위축됐습니다.", "howTheyOvercameKo": "결혼식 수요 안정성으로 V자 회복했습니다.", "lessonKo": "결혼식 카테고리는 거시 충격에 비교적 안정적입니다."},
+    {"year": 2016, "descriptionKo": "인도 화폐 개혁(Demonetization)으로 의류 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 디지털 결제 강화로 통과했습니다.", "lessonKo": "정책 한 번에 의류 매출이 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 결혼식·축제 시장이 단기 마비됐습니다.", "howTheyOvercameKo": "이후 단계적 결혼식 회복과 디지털 채널 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 결혼식 카테고리에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.2B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$1B", "sourceKo": "Vedant 상장 직후"},
+    {"year": 2023, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Manyavar 창업주", "Vedant Fashions 회장", "인도 남성 결혼식 의류 1위", "콜카타 마르와리 가문", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1999년 Manyavar 정립으로 인도 결혼식·축제 의류 카테고리 1위 회사를 만든 카테고리 도약 본능과, 2018년 아미타브 바찬 앰버서더 영입 등 브랜드 정체성 결합 협상력이 강점입니다.",
+    "weaknesses": "인도 단일 시장 의존도와 결혼식·축제 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "콜카타 마르와리 1세대 자수성가형 야망과 본인 세대에서 인도 결혼식·축제 의류 1위 회사를 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 결혼식 의류 자수성가의 표본입니다. 작은 의류 상점에서 인도 1위 결혼식 의류 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Sa day pillar (early spring earth on snake fire) and Myo month branch combine into a softly nourished, externally-resourced profile. The format that channels wealth through external resources matches a 26-year arc from the 1999 founding to the 2015 Mohey launch and the 2021 IPO.",
+    "summaryKo": "일주는 기사라 이른 봄 작은 흙이 초여름 불(뱀의 자리) 위에 놓인 형국으로, 부드러운 흙이 외부의 강한 불에 의해 결과물로 빚어지는 자리입니다. 월지 묘는 봄 나무의 자리라 일간을 외부 자원의 큰 흐름과 결합시키는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1999년 Manyavar 정립, 2015년 Mohey 출시, 2021년 인도 상장까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Manyavar",
+    "https://www.manyavar.com",
+    "https://www.forbes.com/profile/ravi-modi/"
+  ]
+}
