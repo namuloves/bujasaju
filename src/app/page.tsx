@@ -2,16 +2,22 @@
 
 import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
-import Header from '@/components/Header';
-import TabBar, { TabKey } from '@/components/TabBar';
-import MatchTab from '@/components/match/MatchTab';
+import CleanNav, { CleanTab } from '@/components/browse-clean/CleanNav';
 import { loadEnrichedPeople } from '@/lib/data/enriched';
 
-// BrowseTab pulls in the full 3,300-person dataset + saju calc. Lazy-load it
-// so the default Match tab stays tiny.
-const BrowseTab = dynamic(
+// Match tab carries the legacy MatchTab (unchanged).
+const MatchTab = dynamic(() => import('@/components/match/MatchTab'), {
+  ssr: false,
+  loading: () => (
+    <div className="text-center py-16 text-sm text-gray-400">불러오는 중…</div>
+  ),
+});
+
+// Browse tab is the redesigned CleanBrowseView. It receives the nav as a
+// render-prop so the inline search lives inside the header.
+const CleanBrowseView = dynamic(
   () =>
-    import('@/components/BrowseTab').catch((err: unknown) => {
+    import('@/components/browse-clean/CleanBrowseView').catch((err: unknown) => {
       if (
         err instanceof Error &&
         err.name === 'ChunkLoadError' &&
@@ -29,27 +35,23 @@ const BrowseTab = dynamic(
   },
 );
 
-function getInitialTab(): TabKey {
+function getInitialTab(): CleanTab {
   if (typeof window === 'undefined') return 'match';
   const params = new URLSearchParams(window.location.search);
-  const t = params.get('tab');
-  return t === 'browse' ? 'browse' : 'match';
+  return params.get('tab') === 'browse' ? 'browse' : 'match';
 }
 
 export default function Home() {
-  const [tab, setTab] = useState<TabKey>('match');
+  const [tab, setTab] = useState<CleanTab>('match');
 
-  // Hydrate from URL on mount
   useEffect(() => {
     setTab(getInitialTab());
-    // Pre-warm the 2MB billionaire payload the instant the shell mounts so
-    // it's downloading in parallel with the user reading/filling in the
-    // Match form. By the time they hit "결과 보기" the data is ready.
+    // Pre-warm the 2MB billionaire payload so it's already loaded by the
+    // time the user switches to Browse or hits "결과 보기" on Match.
     void loadEnrichedPeople();
   }, []);
 
-  // Sync URL with tab
-  const handleChangeTab = (next: TabKey) => {
+  const handleChangeTab = (next: CleanTab) => {
     setTab(next);
     if (typeof window === 'undefined') return;
     const url = new URL(window.location.href);
@@ -57,12 +59,30 @@ export default function Home() {
     window.history.replaceState({}, '', url.toString());
   };
 
+  if (tab === 'browse') {
+    // CleanBrowseView owns its own <main> and renders the nav with the
+    // inline search field via this render-prop.
+    return (
+      <div className="min-h-screen bg-white">
+        <CleanBrowseView
+          nav={(search, onSearchChange) => (
+            <CleanNav
+              activeTab={tab}
+              onChange={handleChangeTab}
+              search={search}
+              onSearchChange={onSearchChange}
+            />
+          )}
+        />
+      </div>
+    );
+  }
+
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Header />
-      <TabBar activeTab={tab} onChange={handleChangeTab} />
-      <main className="max-w-7xl mx-auto px-4 py-6">
-        {tab === 'match' ? <MatchTab /> : <BrowseTab />}
+    <div className="min-h-screen bg-white">
+      <CleanNav activeTab={tab} onChange={handleChangeTab} />
+      <main className="max-w-6xl mx-auto px-6 pt-6 pb-24">
+        <MatchTab />
       </main>
     </div>
   );

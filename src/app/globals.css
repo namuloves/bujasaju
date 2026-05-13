@@ -59,3 +59,12 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), 'Pretendard', sans-serif;
 }
+
+/* Hide native scrollbars for horizontal chip rows / similar utility scrollers. */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
