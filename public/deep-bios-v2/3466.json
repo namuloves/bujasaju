@@ -1,0 +1,54 @@
+{
+  "id": 3466,
+  "name": "Kim Yoon",
+  "nameKo": "김윤",
+  "birthday": "1953-06-24",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$0.3B",
+  "nationality": "KR",
+  "industry": "Conglomerate",
+  "gender": "M",
+  "ilju": "병오",
+  "gyeokguk": "식신격",
+  "childhood": {"summaryKo": "1953년 대한민국에서 태어났습니다. 정통 학력은 경영 트랙으로, 한국 1세대 삼양 가문 후계자 정체성을 유년기부터 형성한 정통 한국 1세대 다각화 후계자 트랙입니다. 삼양 그룹 창업주 김연수의 손자입니다.", "capitalTypeKo": "재벌 후계자·운영형 자수성가 — 한국 1세대 삼양 가문 후계자 (Samyang Holdings 회장)입니다.", "sources": ["https://en.wikipedia.org/wiki/Samyang_Group"]},
+  "capitalOrigin": {"type": "inherited", "typeKo": "상속", "descriptionKo": "1970년대 가족 '삼양사' 합류로 본업을 잇기 시작했고, 1996년 회장 자리로 도약했습니다. 본업은 한국 1세대 식음료·화학·바이오 다각화 그룹 Samyang Holdings이고, 1990~2024년 한국 산업·바이오 호황기에 본업 자본이 정점에 도달했습니다.", "selfMadeScore": 5, "sources": ["https://www.samyang.com"]},
+  "careerTimeline": [
+    {"year": 1976, "event": "Joins family Samyang Group", "eventKo": "가족 삼양 그룹 합류", "whyItMatteredKo": "병오 일주의 한여름 큰 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1996, "event": "Becomes Chairman of Samyang Group", "eventKo": "삼양 그룹 회장 자리 도약", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다."},
+    {"year": 2011, "event": "Samyang Biopharma launches", "eventKo": "삼양 바이오팜 정립으로 바이오 카테고리 진출", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2015, "event": "Samyang restructures into Holdings model", "eventKo": "Samyang Holdings 지주사 체제 정립", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 결단입니다."},
+    {"year": 2022, "event": "Post-pandemic Korean conglomerate recovery", "eventKo": "포스트 코로나 한국 다각화 회복기 본업 매출 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $0.3B in Conglomerate", "eventKo": "포브스 2026 — 다각화 산업 3억 달러로 등재", "whyItMatteredKo": "Samyang Holdings 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1996, "eventKo": "삼양 그룹 회장 취임", "impactKo": "병오 일주의 한여름 큰 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 분기점입니다."},
+    {"year": 2011, "eventKo": "삼양 바이오팜 정립", "impactKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2015, "eventKo": "Samyang Holdings 지주사 체제 정립", "impactKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {"primaryIncomeSourceKo": "Samyang Holdings(KRX: 000070), Samyang Corp(KRX: 145990) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.", "wealthAcceleratorsKo": "1996년 회장 취임, 2011년 바이오팜 정립, 2015년 지주사 체제 정립이 자본 가치 가속의 세 단계입니다.", "structuralAdvantagesKo": "한국 1세대 다각화 그룹 자리, 정통 삼양 100년 가문 자본망, 그리고 식음료·화학·바이오 거버넌스 구조가 강점입니다.", "currentAssetAllocationKo": "Samyang Holdings 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."},
+  "failures": [
+    {"year": 1997, "descriptionKo": "외환위기로 한국 다각화 자본이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 그룹 재편으로 V자 회복했습니다.", "lessonKo": "거시 충격은 다각화 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 한국 다각화 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 거시 사이클은 본업 매출에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 한국 다각화 매출이 단기 변동받았습니다.", "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 다각화 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.18B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$0.25B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$0.28B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$0.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Samyang Holdings 회장", "한국 1세대 삼양 가문", "삼양 바이오팜 정체성", "정통 1세대 후계자", "100년 가문 후계자"],
+  "characterKo": {
+    "strengths": "1976년 가족 사업 합류 후 49년 동안 한국 1세대 삼양 가문의 한 축으로 자리잡은 끈기와, 1996년 회장 취임, 2011년 바이오팜 정립, 2015년 지주사 체제 정립으로 본업을 한국 다각화 카테고리 1위로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "한국 단일 시장 의존도와 글로벌 다각화 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "한국 1세대 삼양 가문 후계자 정체성과 본인 세대에서 가문 자본을 보전·확장하고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "한국 1세대 삼양 가문 후계자의 표본입니다. 가족 삼양에서 한국 다각화 그룹 회장으로 도약하고 바이오 카테고리로 본업을 환원시킨 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-O day pillar (midsummer big fire on horse fire) and O month branch combine into a brightly expressing, self-output profile. The format that channels wealth through one's bold creative output matches a 50-year arc from the 1976 family entry to the 1996 chairmanship and the 2015 holdings restructure.",
+    "summaryKo": "일주는 병오라 한여름 큰 불이 또 같은 한여름 불(말의 자리) 위에 놓인 형국으로, 큰 불이 자기 자리로 단단히 다져진 자리입니다. 월지 오는 또 같은 한여름 불의 자리라 일간을 세 겹의 불로 단단히 다지는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1976년 가족 합류, 1996년 회장 취임, 2015년 지주사 체제 정립까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": ["https://en.wikipedia.org/wiki/Samyang_Group", "https://www.samyang.com"]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 815,
+  "name": "Frank Wang",
+  "nameKo": "왕 타오",
+  "birthday": "1980-10-30",
+  "birthPlace": "Hangzhou, Zhejiang, China",
+  "birthPlaceKo": "중국 저장 항저우",
+  "netWorth": "$5.1B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "병자",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1980년 중국 저장 항저우에서 태어났습니다. 정통 학력은 전자공학 트랙으로, 홍콩과기대(HKUST) 학위를 거친 정통 중국 1세대 드론 자수성가 인재 트랙입니다.",
+    "capitalTypeKo": "1세대 자수성가 — 중국 본토 1세대 드론 가문 창업주 (DJI 정립)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Frank_Wang_(entrepreneur)"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2006년 HKUST 재학 중 'DJI Innovations' 정립으로 본업을 시작했고, 2013년 'Phantom' 컨슈머 드론 출시로 본업 카테고리를 환원했습니다. 본업은 글로벌 1위 컨슈머 드론 회사 DJI이고, 2015~2024년 글로벌 컨슈머 드론 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.dji.com"]
+  },
+  "careerTimeline": [
+    {"year": 2006, "event": "Founds DJI Innovations at HKUST", "eventKo": "HKUST 재학 중 DJI Innovations 정립", "whyItMatteredKo": "병자 일주의 한여름 큰 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2013, "event": "Launches Phantom consumer drone", "eventKo": "Phantom 컨슈머 드론 정립으로 본업 카테고리 환원", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2015, "event": "DJI captures 70%+ global drone market", "eventKo": "DJI 글로벌 컨슈머 드론 시장 70% 이상 점유", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 1위로 환원된 결정적 결단입니다."},
+    {"year": 2018, "event": "DJI valuation reaches $15B", "eventKo": "DJI 비상장 기업 가치 150억 달러 도달", "whyItMatteredKo": "본업 자본 가치가 글로벌 유니콘 카테고리 1위로 환원된 결정적 결단입니다."},
+    {"year": 2022, "event": "Post-pandemic global drone demand peaks", "eventKo": "포스트 코로나 글로벌 드론 수요 정점기 본업 매출 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $5.1B in Technology", "eventKo": "포브스 2026 — 테크놀로지 산업 51억 달러로 등재", "whyItMatteredKo": "DJI 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2006, "eventKo": "DJI Innovations 정립", "impactKo": "병자 일주의 한여름 큰 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2013, "eventKo": "Phantom 컨슈머 드론 정립", "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다."},
+    {"year": 2015, "eventKo": "DJI 글로벌 드론 시장 70% 이상 점유", "impactKo": "본업 매출이 글로벌 카테고리 1위로 환원된 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "DJI 비상장 본인 보유 지분 가치가 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2006년 DJI 정립, 2013년 Phantom 정립, 2015년 글로벌 카테고리 1위 도약이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 컨슈머 드론 카테고리 1위 자리, 정통 HKUST 전자공학 자본망, 그리고 본토·홍콩 글로벌 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "DJI 본인 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "DJI 내부 부패 스캔들로 본업 정체성이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 거버넌스 재편으로 통과했습니다.", "lessonKo": "급성장 카테고리는 거버넌스 사이클에 직접 영향을 줍니다."},
+    {"year": 2020, "descriptionKo": "미국 상무부 DJI 블랙리스트 등재로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "본토 매출 비중 강화와 단계적 시장 재편으로 통과했습니다.", "lessonKo": "글로벌 정책 사이클은 드론 매출에 직접 영향을 줍니다."},
+    {"year": 2023, "descriptionKo": "글로벌 드론 카테고리 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$3.6B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$4.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$4.8B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$5.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["DJI 창업주", "글로벌 드론 카테고리 1위", "정통 HKUST 전자공학 박사", "Phantom 정체성", "중국 1세대 본토 자수성가"],
+  "characterKo": {
+    "strengths": "2006년 본업 시작 후 19년 동안 중국 1세대 드론 자수성가의 한 축으로 자리잡은 끈기와, 2013년 Phantom 정립, 2015년 글로벌 카테고리 1위 도약으로 본업을 글로벌 드론 카테고리 1위로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 정책 사이클과 단일 카테고리 변동에 본업 매출이 직접 노출됩니다.",
+    "motivation": "중국 1세대 드론 자수성가 정체성과 본인 세대에서 본업을 글로벌 드론 카테고리 1위로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 1세대 본토 자수성가 드론 창업주의 표본입니다. HKUST 학부생에서 글로벌 컨슈머 드론 카테고리 1위 회사 창업주까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Ja day pillar (midsummer big fire on rat water) and Sul month branch combine into a brightly expressing, self-output profile. The format that channels wealth through one's bold creative output matches a 20-year arc from the 2006 founding to the 2013 Phantom launch and the 2015 global #1.",
+    "summaryKo": "일주는 병자라 한여름 큰 불이 한겨울 물(쥐의 자리) 위에 놓인 형국으로, 큰 불의 표현력이 외부 자원으로 결과물로 빚어지는 자리입니다. 월지 술은 가을 끝 흙의 자리라 일간을 외부 결과물로 압축하는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 2006년 DJI 정립, 2013년 Phantom 정립, 2015년 글로벌 1위까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Frank_Wang_(entrepreneur)",
+    "https://www.dji.com",
+    "https://www.forbes.com/profile/frank-wang/"
+  ]
+}

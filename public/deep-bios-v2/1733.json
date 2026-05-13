@@ -1,0 +1,73 @@
+{
+  "id": 1733,
+  "name": "Bhadresh Shah",
+  "nameKo": "바드레시 샤",
+  "birthday": "1951-10-07",
+  "birthPlace": "Ahmedabad, Gujarat, India",
+  "birthPlaceKo": "인도 구자라트 아메다바드",
+  "netWorth": "$2.3B",
+  "nationality": "IN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "경진",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1951년 인도 구자라트 아메다바드에서 태어났습니다. 정통 학력은 공학 트랙으로, IIT 카라그푸르 야금공학 학위를 거친 정통 인도 1세대 야금 자수성가 인재 트랙입니다.",
+    "capitalTypeKo": "1세대 자수성가 — 인도 1세대 야금·고크롬 가문 창업주 (AIA Engineering 정립)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/AIA_Engineering"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1978년 'AIA Engineering' 정립으로 본업을 시작했고, 1990~2010년대 글로벌 광업·시멘트·발전 카테고리 호황기에 본업 매출을 가속, 2005년 인도 증시 상장 후 자본 시장 가치 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.aiaengineering.com"]
+  },
+  "careerTimeline": [
+    {"year": 1978, "event": "Founds AIA Engineering in Ahmedabad", "eventKo": "아메다바드에서 'AIA Engineering' 정립", "whyItMatteredKo": "경진 일주의 가을 큰 쇠 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1995, "event": "AIA exports high-chrome grinding media globally", "eventKo": "AIA 고크롬 그라인딩 미디어 글로벌 수출 가속", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2005, "event": "AIA Engineering IPOs on Indian exchanges", "eventKo": "AIA Engineering 인도 증시 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 결단입니다."},
+    {"year": 2015, "event": "AIA captures global mining grinding share", "eventKo": "AIA 글로벌 광업 그라인딩 카테고리 점유율 가속", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 1위급으로 환원된 결정적 결단입니다."},
+    {"year": 2022, "event": "Post-pandemic global mining demand peaks", "eventKo": "포스트 코로나 글로벌 광업 회복기 본업 매출 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $2.3B in Manufacturing", "eventKo": "포브스 2026 — 제조업 23억 달러로 등재", "whyItMatteredKo": "AIA Engineering 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1978, "eventKo": "AIA Engineering 정립", "impactKo": "경진 일주의 가을 큰 쇠 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2005, "eventKo": "AIA Engineering 인도 증시 상장", "impactKo": "본업 매출이 자본 시장 가치로 환원된 분기점입니다."},
+    {"year": 2015, "eventKo": "글로벌 광업 그라인딩 카테고리 점유율 가속", "impactKo": "본업 매출이 글로벌 카테고리 1위급으로 환원된 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "AIA Engineering(NSE: AIAENG) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1978년 AIA 정립, 2005년 인도 증시 상장, 2015년 글로벌 카테고리 1위급 도약이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 고크롬 그라인딩 미디어 카테고리 1위급 자리, 정통 IIT 야금공학 자본망, 그리고 인도·글로벌 광업·시멘트·발전 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "AIA Engineering 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 1991, "descriptionKo": "인도 경제 자유화 초기 단계 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 시장 회복과 카테고리 재편으로 V자 회복했습니다.", "lessonKo": "정책 한 번에 야금 매출이 흔들립니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 글로벌 광업 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 거시 사이클은 광업 매출에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 광업 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 야금 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$2.1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["AIA Engineering 창업주", "글로벌 고크롬 그라인딩 1위급", "정통 IIT 야금공학 박사", "구자라트 아메다바드 정체성", "인도 1세대 야금 자수성가"],
+  "characterKo": {
+    "strengths": "1978년 본업 시작 후 47년 동안 인도 1세대 야금 자수성가의 한 축으로 자리잡은 끈기와, 1995년 글로벌 수출 가속, 2015년 글로벌 카테고리 1위급 도약으로 본업을 글로벌 야금 카테고리 1위급으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 단일 시장 의존도와 글로벌 광업 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "인도 1세대 야금 자수성가 정체성과 본인 세대에서 본업을 글로벌 카테고리 1위로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 자수성가 야금 창업주의 표본입니다. 정통 IIT 야금공학에서 글로벌 고크롬 그라인딩 카테고리 1위급 회사 회장까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gyeong-Jin day pillar (autumn big metal on dragon earth) and Sul month branch combine into a sharply standing, externally-pressured profile. The format that channels career through external authority matches a 48-year arc from the 1978 founding to the 2005 IPO and the 2015 global #1 leap.",
+    "summaryKo": "일주는 경진이라 가을 큰 쇠가 늦봄 흙(용의 자리) 위에 놓인 형국으로, 단단한 쇠가 단단한 흙으로 결과물로 압축되는 자리입니다. 월지 술은 가을 끝 흙의 자리라 일간을 두 겹의 흙으로 결과물로 압축하는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1978년 본업 정립, 2005년 인도 증시 상장, 2015년 글로벌 카테고리 1위급 도약까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/AIA_Engineering",
+    "https://www.aiaengineering.com",
+    "https://www.forbes.com/profile/bhadresh-shah/"
+  ]
+}

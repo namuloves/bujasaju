@@ -1,0 +1,58 @@
+{
+  "id": 1102,
+  "name": "Nirmal Minda",
+  "nameKo": "니르말 민다",
+  "birthday": "1957-11-07",
+  "birthPlace": "India",
+  "birthPlaceKo": "인도",
+  "netWorth": "$3.8B",
+  "nationality": "IN",
+  "industry": "Automotive",
+  "gender": "M",
+  "ilju": "계미",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1957년 인도에서 태어났습니다. 정통 학력은 공학 트랙으로, 가족 자동차 부품 사업 후계자 정체성을 유년기부터 형성한 정통 인도 1세대 자동차 부품 후계자 트랙입니다. 부친 S.L. 민다가 정립한 'Minda Industries'의 후계자입니다.",
+    "capitalTypeKo": "재벌 후계자·운영형 자수성가 — 인도 1세대 자동차 부품 가문 후계자 (UNO Minda 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/UNO_Minda"]
+  },
+  "capitalOrigin": {"type": "inherited", "typeKo": "상속", "descriptionKo": "1970년대 가족 'Minda Industries' 합류로 본업을 잇기 시작했고, 1992년 그룹 분리 후 'Minda Industries Limited' 정립으로 본업 카테고리를 환원했습니다. 본업은 인도 자동차 부품 1위급 회사 UNO Minda이고, 1990~2024년 인도 자동차 산업 호황기에 본업 자본이 정점에 도달했습니다.", "selfMadeScore": 7, "sources": ["https://www.unominda.com"]},
+  "careerTimeline": [
+    {"year": 1977, "event": "Joins family Minda Industries", "eventKo": "가족 Minda Industries 합류", "whyItMatteredKo": "계미 일주의 가을 작은 물 일간이 학습된 권위의 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1992, "event": "Minda family group splits", "eventKo": "Minda 가족 그룹 분리, 본인 본업 카테고리 환원", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 1995, "event": "Minda Industries IPO", "eventKo": "Minda Industries 인도 증시 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 결단입니다."},
+    {"year": 2015, "event": "Minda becomes #1 Indian auto component supplier", "eventKo": "Minda Industries 인도 1위급 자동차 부품 회사 자리", "whyItMatteredKo": "본업 매출이 인도 1위급 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2022, "event": "UNO Minda rebrand, post-pandemic peaks", "eventKo": "UNO Minda 리브랜드, 포스트 코로나 회복기 본업 매출 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $3.8B in Automotive", "eventKo": "포브스 2026 — 자동차 산업 38억 달러로 등재", "whyItMatteredKo": "UNO Minda 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1992, "eventKo": "Minda 가족 그룹 분리", "impactKo": "계미 일주의 가을 작은 물 일간이 학습된 권위의 흐름을 본인 자리로 환원한 분기점입니다."},
+    {"year": 1995, "eventKo": "Minda Industries 인도 증시 상장", "impactKo": "본업 매출이 자본 시장 가치로 환원된 분기점입니다."},
+    {"year": 2015, "eventKo": "인도 1위급 자동차 부품 회사 자리", "impactKo": "본업 매출이 인도 1위급 카테고리로 환원된 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {"primaryIncomeSourceKo": "UNO Minda(NSE: UNOMINDA) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.", "wealthAcceleratorsKo": "1992년 가족 그룹 분리, 1995년 인도 증시 상장, 2015년 인도 1위급 도약이 자본 가치 가속의 세 단계입니다.", "structuralAdvantagesKo": "인도 자동차 부품 카테고리 1위급 자리, 정통 1세대 자동차 부품 가문 자본망, 그리고 글로벌 OEM 거버넌스 구조가 강점입니다.", "currentAssetAllocationKo": "UNO Minda 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."},
+  "failures": [
+    {"year": 1991, "descriptionKo": "인도 경제 자유화 초기 단계 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 시장 회복과 카테고리 재편으로 V자 회복했습니다.", "lessonKo": "정책 한 번에 자동차 부품 매출이 흔들립니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 자동차 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 거시 사이클은 자동차 부품 매출에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 자동차 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 자동차 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.6B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$3.3B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$3.8B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["UNO Minda 회장", "인도 1세대 자동차 부품 가문", "정통 1세대 후계자", "글로벌 OEM 공급", "인도 자동차 부품 1위급"],
+  "characterKo": {
+    "strengths": "1977년 가족 사업 합류 후 48년 동안 인도 1세대 자동차 부품 가문의 한 축으로 자리잡은 끈기와, 1992년 가족 그룹 분리, 1995년 인도 증시 상장, 2015년 인도 1위급 도약으로 본업을 인도 자동차 부품 카테고리 1위급으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 단일 시장 의존도와 글로벌 자동차 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "인도 1세대 자동차 부품 가문 후계자 정체성과 본인 세대에서 본업을 인도 자동차 부품 카테고리 1위로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 자동차 부품 가문 후계자의 표본입니다. 가족 자동차 부품 회사에서 인도 자동차 부품 카테고리 1위급 회사 회장까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Mi day pillar (autumn small water on sheep earth) and Sul month branch combine into a softly flowing, learning-authority profile. The format that channels wealth through learned authority matches a 49-year arc from the 1977 family entry to the 1995 IPO and the 2015 #1 leap.",
+    "summaryKo": "일주는 계미라 가을 작은 물이 늦여름 흙(양의 자리) 위에 놓인 형국으로, 부드러운 물이 단단한 흙으로 결과물로 빚어지는 자리입니다. 월지 술은 가을 끝 흙의 자리라 일간을 두 겹의 흙으로 결과물로 압축하는 통로입니다. 격국은 학습된 권위와 외부 자원을 잇는 흐름이라, 1977년 가족 합류, 1995년 인도 증시 상장, 2015년 인도 1위급 도약까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": ["https://en.wikipedia.org/wiki/UNO_Minda", "https://www.unominda.com", "https://www.forbes.com/profile/nirmal-minda/"]
+}

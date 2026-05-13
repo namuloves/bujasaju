@@ -1,0 +1,44 @@
+{
+  "id": 710, "name": "Richard Liu", "nameKo": "류 창둥", "birthday": "1974-03-10",
+  "birthPlace": "Suqian, Jiangsu, China", "birthPlaceKo": "중국 장쑤 쑤첸",
+  "netWorth": "$5.7B", "nationality": "CN", "industry": "Technology", "gender": "M",
+  "ilju": "경술", "gyeokguk": "정관격",
+  "childhood": {"summaryKo": "1974년 중국 장쑤 쑤첸의 가난한 농민 가정에서 태어났습니다. 정통 학력은 사회학 트랙으로, 인민대 사회학 학위를 거친 정통 중국 1세대 인터넷 자수성가 인재 트랙입니다.", "capitalTypeKo": "1세대 자수성가 — 중국 본토 1세대 전자상거래 가문 창업주 (JD.com 정립)입니다.", "sources": ["https://en.wikipedia.org/wiki/Liu_Qiangdong"]},
+  "capitalOrigin": {"type": "self-made", "typeKo": "자수성가", "descriptionKo": "1998년 'Jingdong' 작은 컴퓨터 매장으로 본업을 시작했고, 2004년 'JD.com' 전자상거래 정립으로 본업 카테고리를 환원했습니다. 본업은 중국 2위 전자상거래 회사 JD.com이고, 2014년 나스닥 상장 후 자본 시장 가치 정점에 도달했습니다.", "selfMadeScore": 10, "sources": ["https://www.jd.com"]},
+  "careerTimeline": [
+    {"year": 1998, "event": "Founds Jingdong storefront in Beijing", "eventKo": "베이징 중관춘에서 작은 컴퓨터 매장 정립", "whyItMatteredKo": "경술 일주의 가을 큰 쇠 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2004, "event": "Pivots to JD.com online retail", "eventKo": "JD.com 전자상거래 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2010, "event": "JD launches in-house logistics network", "eventKo": "JD 자체 물류 네트워크 정립", "whyItMatteredKo": "본업 카테고리 차별화 자리가 정립된 결정적 결단입니다."},
+    {"year": 2014, "event": "JD.com IPOs on NASDAQ", "eventKo": "JD.com 나스닥 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 결단입니다."},
+    {"year": 2020, "event": "JD secondary listing on HKEX", "eventKo": "JD 홍콩 증시 2차 상장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $5.7B in Technology", "eventKo": "포브스 2026 — 테크놀로지 산업 57억 달러로 등재", "whyItMatteredKo": "JD.com 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2004, "eventKo": "JD.com 전자상거래 정립", "impactKo": "경술 일주의 가을 큰 쇠 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 분기점입니다."},
+    {"year": 2010, "eventKo": "JD 자체 물류 정립", "impactKo": "본업 카테고리 차별화 자리가 정립된 결정적 결단입니다."},
+    {"year": 2014, "eventKo": "JD.com 나스닥 상장", "impactKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {"primaryIncomeSourceKo": "JD.com(NASDAQ: JD; HKEX: 9618) 본인 보유 지분 가치와 배당이 자산의 핵심입니다.", "wealthAcceleratorsKo": "2004년 JD.com 정립, 2010년 자체 물류 정립, 2014년 나스닥 상장이 자본 가치 가속의 세 단계입니다.", "structuralAdvantagesKo": "중국 2위 전자상거래 카테고리 자리, 정통 인민대 자본망, 그리고 자체 물류·금융 거버넌스 구조가 강점입니다.", "currentAssetAllocationKo": "JD.com 본인 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."},
+  "failures": [
+    {"year": 2003, "descriptionKo": "사스(SARS) 위기로 중관춘 매장이 단기 마비됐습니다.", "howTheyOvercameKo": "온라인 전자상거래 카테고리 정립으로 V자 회복했습니다.", "lessonKo": "거시 충격은 오프라인 매출에 분기 단위로 직접 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "Richard Liu 미국 미네소타 사건으로 본업 정체성이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 거버넌스 재편과 사임으로 통과했습니다.", "lessonKo": "단일 창업주 의존은 거버넌스 사이클에 직접 영향을 줍니다."},
+    {"year": 2021, "descriptionKo": "중국 빅테크 규제 강화로 본업 매출이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 정책 협의로 통과했습니다.", "lessonKo": "중국 정책 사이클은 전자상거래 매출에 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2014, "netWorth": "$6.1B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$7.3B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$5.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["JD.com 창업주", "중국 2위 전자상거래", "자체 물류 정체성", "정통 인민대 사회학 인재", "중국 1세대 인터넷 자수성가"],
+  "characterKo": {
+    "strengths": "1998년 본업 시작 후 27년 동안 중국 본토 1세대 인터넷 자수성가의 한 축으로 자리잡은 끈기와, 2004년 JD.com 정립, 2010년 자체 물류 정립, 2014년 나스닥 상장으로 본업을 중국 2위 전자상거래 카테고리로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "중국 정책 사이클과 단일 창업주 거버넌스 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "중국 1세대 인터넷 자수성가 정체성과 본인 세대에서 본업을 중국 전자상거래 카테고리 1위급으로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 1세대 본토 자수성가 전자상거래 창업주의 표본입니다. 쑤첸 농민 가정에서 중국 2위 전자상거래 회사 창업주까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {"summary": "His Gyeong-Sul day pillar (autumn big metal on dog earth) and Myo month branch combine into a sharply standing, externally-pressured profile. The format that channels career through external authority matches a 28-year arc from the 1998 founding to the 2004 JD pivot and the 2014 IPO.",
+  "summaryKo": "일주는 경술이라 가을 큰 쇠가 가을 끝 흙(개의 자리) 위에 놓인 형국으로, 단단한 쇠가 단단한 흙으로 결과물을 압축하는 자리입니다. 월지 묘는 봄 작은 나무의 자리라 일간을 외부의 봄 자원으로 결과물로 다지는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1998년 본업 정립, 2004년 JD.com 정립, 2014년 나스닥 상장까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."},
+  "sources": ["https://en.wikipedia.org/wiki/Liu_Qiangdong", "https://www.jd.com", "https://www.forbes.com/profile/richard-liu/"]
+}

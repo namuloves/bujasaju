@@ -1,0 +1,73 @@
+{
+  "id": 864,
+  "name": "Lachhman Das Mittal",
+  "nameKo": "라치만 다스 미탈",
+  "birthday": "1930-11-05",
+  "birthPlace": "Hoshiarpur, Punjab, India",
+  "birthPlaceKo": "인도 펀자브 호시아르푸르",
+  "netWorth": "$4.7B",
+  "nationality": "IN",
+  "industry": "Automotive",
+  "gender": "M",
+  "ilju": "기미",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1930년 인도 펀자브 호시아르푸르의 농민 가정에서 태어났습니다. 정통 학력은 짧고, 청년기 보험 영업으로 본업을 시작한 정통 인도 1세대 트랙터 자수성가 트랙입니다.",
+    "capitalTypeKo": "1세대 자수성가 — 인도 1세대 트랙터 가문 창업주 (Sonalika Group 정립)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Lachhman_Das_Mittal"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1969년 'Sonalika Group' 정립으로 본업을 시작했고, 1995년 'International Tractors' 정립으로 본업 카테고리를 환원했습니다. 본업은 인도 3위 트랙터 제조사 'Sonalika ITL'이고, 2010~2024년 인도 농업·수출 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.sonalika.com"]
+  },
+  "careerTimeline": [
+    {"year": 1969, "event": "Founds Sonalika Group in Punjab", "eventKo": "펀자브에서 'Sonalika Group' 정립", "whyItMatteredKo": "기미 일주의 늦여름 작은 흙 일간이 학습된 권위의 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1995, "event": "Founds International Tractors", "eventKo": "International Tractors 정립으로 트랙터 카테고리 진출", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2006, "event": "Sonalika tractor exports accelerate", "eventKo": "Sonalika 트랙터 글로벌 수출 가속", "whyItMatteredKo": "본업 카테고리 글로벌 확장이 진행된 결정적 결단입니다."},
+    {"year": 2018, "event": "Becomes 3rd largest Indian tractor maker", "eventKo": "인도 3위 트랙터 제조사 자리 도약", "whyItMatteredKo": "본업 매출이 인도 1위급 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2022, "event": "Post-pandemic Indian agriculture peaks", "eventKo": "포스트 코로나 인도 농업 회복기 본업 매출 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $4.7B in Automotive", "eventKo": "포브스 2026 — 자동차 산업 47억 달러로 등재", "whyItMatteredKo": "Sonalika ITL 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1969, "eventKo": "Sonalika Group 정립", "impactKo": "기미 일주의 늦여름 작은 흙 일간이 학습된 권위의 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1995, "eventKo": "International Tractors 정립", "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다."},
+    {"year": 2018, "eventKo": "인도 3위 트랙터 제조사 자리 도약", "impactKo": "본업 매출이 인도 1위급 카테고리로 환원된 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Sonalika ITL 비상장 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1995년 International Tractors 정립, 2006년 글로벌 수출 가속, 2018년 인도 3위 도약이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 1세대 트랙터 카테고리 자리, 정통 펀자브 농민 자수성가 자본망, 그리고 인도·글로벌 농기계 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Sonalika ITL 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 1991, "descriptionKo": "인도 경제 자유화 초기 단계 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 시장 회복과 카테고리 재편으로 V자 회복했습니다.", "lessonKo": "정책 한 번에 농기계 매출이 흔들립니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 트랙터 수출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 거시 사이클은 농기계 수출에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 농기계 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 농기계 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$2.9B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$4.3B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$4.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Sonalika Group 창업주", "인도 3위 트랙터 제조사", "펀자브 농민 자수성가", "정통 보험 영업 출신", "95세 현역 회장"],
+  "characterKo": {
+    "strengths": "1969년 본업 시작 후 56년 동안 인도 1세대 트랙터 자수성가의 한 축으로 자리잡은 끈기와, 1995년 International Tractors 정립, 2018년 인도 3위 도약으로 본업을 인도 트랙터 카테고리 1위급으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 단일 시장 의존도와 글로벌 농기계 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "인도 1세대 트랙터 자수성가 정체성과 본인 세대에서 본업을 인도 트랙터 카테고리 1위급으로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 자수성가 트랙터 창업주의 표본입니다. 가난한 펀자브 농민 가정에서 인도 3위 트랙터 제조사 회장까지 도약하고 95세에도 현역으로 본업을 이끈 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Mi day pillar (late summer small earth on sheep earth) and Sul month branch combine into a quietly nourishing, learning-authority profile. The format that channels wealth through learned authority matches a 57-year arc from the 1969 founding to the 1995 ITL founding and the 2018 #3 leap.",
+    "summaryKo": "일주는 기미라 늦여름 작은 흙이 또 같은 늦여름 흙(양의 자리) 위에 놓인 형국으로, 부드러운 흙이 자기 자리로 단단히 뿌리내린 자리입니다. 월지 술은 가을 끝 흙의 자리라 일간을 세 겹의 흙으로 결과물로 압축하는 통로입니다. 격국은 학습된 권위와 외부 자원을 잇는 흐름이라, 1969년 본업 정립, 1995년 ITL 정립, 2018년 인도 3위 도약까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lachhman_Das_Mittal",
+    "https://www.sonalika.com",
+    "https://www.forbes.com/profile/lachhman-das-mittal/"
+  ]
+}

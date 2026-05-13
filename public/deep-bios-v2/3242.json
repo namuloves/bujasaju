@@ -1,0 +1,73 @@
+{
+  "id": 3242,
+  "name": "Vijay Shekhar Sharma",
+  "nameKo": "비자이 셰카르 샤르마",
+  "birthday": "1978-06-07",
+  "birthPlace": "Aligarh, Uttar Pradesh, India",
+  "birthPlaceKo": "인도 우타르프라데시 알리가르",
+  "netWorth": "$1B",
+  "nationality": "IN",
+  "industry": "Service",
+  "gender": "M",
+  "ilju": "경자",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1978년 인도 우타르프라데시 알리가르의 가난한 교사 가정에서 태어났습니다. 정통 학력은 공학 트랙으로, 델리공과대(DCE) 전자공학 학위를 거친 정통 인도 1세대 핀테크 자수성가 인재 트랙입니다.",
+    "capitalTypeKo": "1세대 자수성가 — 인도 1세대 핀테크 가문 창업주 (Paytm 정립)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Vijay_Shekhar_Sharma"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2000년 'One97 Communications' 정립으로 본업을 시작했고, 2010년 'Paytm' 모바일 결제 카테고리 정립으로 본업 카테고리를 환원했습니다. 본업은 인도 1세대 핀테크 회사 Paytm이고, 2021년 인도 증시 상장 후 자본 시장 가치 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.paytm.com"]
+  },
+  "careerTimeline": [
+    {"year": 2000, "event": "Founds One97 Communications", "eventKo": "'One97 Communications' 정립", "whyItMatteredKo": "경자 일주의 가을 큰 쇠 일간이 학습된 권위의 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2010, "event": "Launches Paytm digital payment", "eventKo": "Paytm 모바일 결제 카테고리 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2016, "event": "Demonetization boosts Paytm explosively", "eventKo": "인도 화폐 개혁(Demonetization)으로 Paytm 사용자 폭증", "whyItMatteredKo": "본업 매출이 인도 1위 핀테크 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2017, "event": "Paytm Payments Bank launches", "eventKo": "Paytm Payments Bank 정립", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2021, "event": "Paytm IPOs on Indian exchanges", "eventKo": "Paytm 인도 증시 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1B in Service", "eventKo": "포브스 2026 — 서비스 산업 10억 달러로 등재", "whyItMatteredKo": "Paytm 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2010, "eventKo": "Paytm 모바일 결제 정립", "impactKo": "경자 일주의 가을 큰 쇠 일간이 학습된 권위의 흐름을 본인 자리로 환원한 분기점입니다."},
+    {"year": 2016, "eventKo": "인도 화폐 개혁 Paytm 사용자 폭증", "impactKo": "본업 매출이 인도 1위 핀테크 카테고리로 환원된 분기점입니다."},
+    {"year": 2021, "eventKo": "Paytm 인도 증시 상장", "impactKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Paytm(NSE: PAYTM) 본인 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2010년 Paytm 정립, 2016년 화폐 개혁, 2021년 인도 증시 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 1세대 핀테크 카테고리 자리, 정통 DCE 전자공학 자본망, 그리고 Paytm·Paytm Payments Bank 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Paytm 본인 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "인도 핀테크 경쟁 격화(PhonePe·Google Pay)로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "프리미엄 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2022, "descriptionKo": "Paytm 상장 직후 주가 급락으로 본업 자본 가치가 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "글로벌 자본 시장 사이클은 핀테크 매출에 직접 영향을 줍니다."},
+    {"year": 2024, "descriptionKo": "인도중앙은행(RBI) Paytm Payments Bank 신규 입금 중단 명령으로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 정책 협의와 카테고리 재편으로 통과했습니다.", "lessonKo": "정책 한 번에 핀테크 매출이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2018, "netWorth": "$1.7B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$2.4B", "sourceKo": "포브스 추정 (상장 직후 정점)"},
+    {"year": 2023, "netWorth": "$0.9B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Paytm 창업주", "인도 1세대 핀테크 자수성가", "Demonetization 정체성", "정통 DCE 전자공학 인재", "Paytm Payments Bank 정체성"],
+  "characterKo": {
+    "strengths": "2000년 본업 시작 후 25년 동안 인도 1세대 핀테크 자수성가의 한 축으로 자리잡은 끈기와, 2010년 Paytm 정립, 2016년 화폐 개혁 수혜, 2021년 인도 증시 상장으로 본업을 인도 핀테크 카테고리 1위로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 정책 사이클과 글로벌 핀테크 경쟁에 본업 매출이 직접 노출됩니다.",
+    "motivation": "인도 1세대 핀테크 자수성가 정체성과 본인 세대에서 본업을 인도 핀테크 카테고리 1위로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 핀테크 자수성가 Paytm 창업주의 표본입니다. 알리가르 교사 가정에서 인도 핀테크 카테고리 1위 회사 창업주까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gyeong-Ja day pillar (autumn big metal on rat water) and O month branch combine into a sharply standing, learning-authority profile. The format that channels wealth through learned authority matches a 26-year arc from the 2000 founding to the 2010 Paytm pivot and the 2021 IPO.",
+    "summaryKo": "일주는 경자라 가을 큰 쇠가 한겨울 물(쥐의 자리) 위에 놓인 형국으로, 단단한 쇠가 큰 물로 결과물로 빚어지는 자리입니다. 월지 오는 한여름 불의 자리라 일간을 외부의 강한 불로 결과물로 다지는 통로입니다. 격국은 학습된 권위와 외부 자원을 잇는 흐름이라, 2000년 본업 정립, 2010년 Paytm 정립, 2021년 인도 증시 상장까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vijay_Shekhar_Sharma",
+    "https://www.paytm.com",
+    "https://www.forbes.com/profile/vijay-shekhar-sharma/"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": 3387,
+  "name": "Sophie Kim",
+  "nameKo": "김슬아",
+  "birthday": "1983-06-16",
+  "birthPlace": "Seoul, South Korea",
+  "birthPlaceKo": "대한민국 서울",
+  "netWorth": "$0.12B",
+  "nationality": "KR",
+  "industry": "E-commerce",
+  "gender": "F",
+  "ilju": "을해",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1983년 대한민국 서울에서 태어났습니다. 정통 학력은 정치학 트랙으로, 미국 웰즐리 칼리지 학위를 거친 정통 한국 1세대 전자상거래 자수성가 인재 트랙입니다.",
+    "capitalTypeKo": "1세대 자수성가 — 한국 1세대 새벽배송 가문 창업주 (Market Kurly 정립)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Kurly"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2014년 'Market Kurly' (주식회사 컬리) 정립으로 본업을 시작했고, 2015년 새벽배송 카테고리 정립으로 본업 카테고리를 환원했습니다. 본업은 한국 1세대 프리미엄 식품 새벽배송 회사 Kurly이고, 2023년 한국 증시 상장 준비로 자본 시장 가치 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.kurly.com"]
+  },
+  "careerTimeline": [
+    {"year": 2014, "event": "Founds Market Kurly food e-commerce", "eventKo": "'Market Kurly' 새벽배송 회사 정립", "whyItMatteredKo": "을해 일주의 봄 작은 나무 일간이 외부 자원의 큰 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2015, "event": "Launches Saekbyeok Dawn Delivery", "eventKo": "샛별배송 새벽배송 카테고리 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2018, "event": "Series D funding from Sequoia and Hillhouse", "eventKo": "세콰이어·힐하우스 시리즈 D 투자 유치", "whyItMatteredKo": "본업 매출이 글로벌 자본과 결합된 결정적 결단입니다."},
+    {"year": 2021, "event": "Series F at $3.3B valuation", "eventKo": "시리즈 F 투자 유치, 기업 가치 33억 달러로 평가", "whyItMatteredKo": "본업 자본 가치가 한국 유니콘 카테고리 1위로 환원된 결정적 결단입니다."},
+    {"year": 2023, "event": "Kurly IPO preparation paused due to market", "eventKo": "한국 증시 상장 준비 중단(시장 침체)", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원되는 시기가 단기 시험받은 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $0.12B in E-commerce", "eventKo": "포브스 2026 — 전자상거래 산업 1.2억 달러로 등재", "whyItMatteredKo": "Kurly 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2014, "eventKo": "Market Kurly 정립", "impactKo": "을해 일주의 봄 작은 나무 일간이 외부 자원의 큰 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2015, "eventKo": "샛별배송 카테고리 정립", "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다."},
+    {"year": 2021, "eventKo": "시리즈 F 33억 달러 평가", "impactKo": "본업 자본 가치가 한국 유니콘 카테고리 1위로 환원된 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Kurly 비상장 본인 보유 지분 가치가 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2014년 Kurly 정립, 2015년 샛별배송 정립, 2021년 시리즈 F가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 1세대 새벽배송 카테고리 자리, 정통 웰즐리 칼리지 자본망, 그리고 세콰이어·힐하우스 글로벌 자본 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Kurly 본인 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "Kurly 초기 단계 본업 매출 둔화로 자본 부족이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 투자 유치와 카테고리 재편으로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 자본 부족기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2022, "descriptionKo": "한국 새벽배송 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "프리미엄 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2023, "descriptionKo": "한국 IPO 시장 침체로 Kurly 증시 상장 준비가 단기 중단됐습니다.", "howTheyOvercameKo": "단계적 시장 회복 대기와 카테고리 재편으로 통과했습니다.", "lessonKo": "글로벌 자본 시장 사이클은 IPO 시기에 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2018, "netWorth": "$0.02B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$0.15B", "sourceKo": "포브스 추정 (시리즈 F 직후)"},
+    {"year": 2023, "netWorth": "$0.1B", "sourceKo": "포브스 추정 (IPO 중단 후)"},
+    {"year": 2026, "netWorth": "$0.12B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Market Kurly 창업주", "샛별배송 정체성", "한국 1세대 새벽배송 자수성가", "정통 웰즐리 칼리지 인재", "여성 1세대 유니콘 창업주"],
+  "characterKo": {
+    "strengths": "2014년 본업 시작 후 11년 동안 한국 1세대 새벽배송 자수성가의 한 축으로 자리잡은 끈기와, 2015년 샛별배송 정립, 2021년 시리즈 F 유치로 본업을 한국 유니콘 카테고리 1위로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "한국 단일 시장 의존도와 글로벌 자본 시장 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "한국 1세대 새벽배송 자수성가 정체성과 본인 세대에서 본업을 한국 유니콘 카테고리 1위로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "한국 1세대 새벽배송 자수성가 여성 창업주의 표본입니다. 웰즐리 칼리지 출신에서 한국 유니콘 카테고리 1위 회사 창업주까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Eul-Hae day pillar (small spring wood on winter pig water) and O month branch combine into a softly persistent, externally-resourced profile. The format that channels wealth through external resources matches an 11-year arc from the 2014 founding to the 2015 Dawn Delivery pivot and the 2021 Series F.",
+    "summaryKo": "일주는 을해라 봄 작은 나무가 초겨울 물(돼지의 자리) 위에 놓인 형국으로, 부드러운 나무가 큰 물의 자원과 결합되는 자리입니다. 월지 오는 한여름 불의 자리라 일간을 외부의 강한 불로 결과물로 다지는 통로입니다. 격국은 외부 자원의 큰 흐름이 본인 자리로 환원되는 흐름이라, 2014년 Kurly 정립, 2015년 샛별배송 정립, 2021년 시리즈 F까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kurly",
+    "https://www.kurly.com"
+  ]
+}

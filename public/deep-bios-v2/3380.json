@@ -1,0 +1,73 @@
+{
+  "id": 3380,
+  "name": "Kim Chang-han",
+  "nameKo": "김창한",
+  "birthday": "1974-09-13",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$0.21B",
+  "nationality": "KR",
+  "industry": "Gaming",
+  "gender": "M",
+  "ilju": "정사",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1974년 대한민국에서 태어났습니다. 정통 학력은 컴퓨터공학 트랙으로, 광주과학기술원(GIST) 석사 학위를 거친 정통 한국 1세대 게임 자수성가 인재 트랙입니다.",
+    "capitalTypeKo": "1세대 자수성가 — 한국 1세대 게임 가문 창업주 (KRAFTON, PUBG 정립)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Krafton"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2007년 '블루홀'(현 KRAFTON) 합류 후, 2016년 'PUBG' (PlayerUnknown's Battlegrounds) 디렉터로 정립으로 본업 카테고리를 환원했습니다. 본업은 글로벌 1위 배틀로얄 게임 회사 KRAFTON이고, 2021년 한국 증시 상장 후 자본 시장 가치 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.krafton.com"]
+  },
+  "careerTimeline": [
+    {"year": 2007, "event": "Joins Bluehole (later Krafton)", "eventKo": "블루홀(현 KRAFTON) 합류", "whyItMatteredKo": "정사 일주의 한여름 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2016, "event": "Becomes PUBG director", "eventKo": "PUBG 디렉터 자리 도약", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2017, "event": "PUBG global launch becomes #1 battle royale", "eventKo": "PUBG 글로벌 출시, 배틀로얄 카테고리 1위 도약", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 1위로 환원된 결정적 결단입니다."},
+    {"year": 2020, "event": "Becomes CEO of Krafton", "eventKo": "KRAFTON CEO 자리 도약", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다."},
+    {"year": 2021, "event": "Krafton IPOs on KOSPI", "eventKo": "KRAFTON 한국 코스피 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $0.21B in Gaming", "eventKo": "포브스 2026 — 게임 산업 2.1억 달러로 등재", "whyItMatteredKo": "KRAFTON 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2016, "eventKo": "PUBG 디렉터 자리 도약", "impactKo": "정사 일주의 한여름 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 분기점입니다."},
+    {"year": 2017, "eventKo": "PUBG 글로벌 출시", "impactKo": "본업 매출이 글로벌 카테고리 1위로 환원된 결정적 결단입니다."},
+    {"year": 2021, "eventKo": "KRAFTON 코스피 상장", "impactKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "KRAFTON(KRX: 259960) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2016년 PUBG 디렉터 자리, 2017년 PUBG 글로벌 출시, 2021년 KRAFTON 코스피 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 배틀로얄 카테고리 1위 자리, 정통 GIST 컴퓨터공학 자본망, 그리고 본인 IP·코스피 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "KRAFTON 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "PUBG 정립 직전 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "PUBG 정립과 배틀로얄 카테고리 정립으로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 전환기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2020, "descriptionKo": "PUBG 모바일 인도 차단으로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "BGMI(인도 전용) 출시와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "글로벌 게임 카테고리는 정책 사이클에 직접 영향을 줍니다."},
+    {"year": 2022, "descriptionKo": "KRAFTON 코스피 상장 후 주가 변동으로 본업 자본 가치가 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 신작 카테고리 재편으로 통과했습니다.", "lessonKo": "게임 카테고리는 자본 시장 사이클에 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2018, "netWorth": "$0.05B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$0.5B", "sourceKo": "포브스 추정 (상장 직후 정점)"},
+    {"year": 2023, "netWorth": "$0.18B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$0.21B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["KRAFTON CEO", "PUBG 디렉터·정체성", "글로벌 배틀로얄 카테고리 1위", "정통 GIST 컴퓨터공학 인재", "한국 1세대 게임 자수성가"],
+  "characterKo": {
+    "strengths": "2007년 본업 합류 후 18년 동안 한국 1세대 게임 자수성가의 한 축으로 자리잡은 끈기와, 2016년 PUBG 디렉터 자리, 2017년 PUBG 글로벌 출시, 2021년 KRAFTON 코스피 상장으로 본업을 글로벌 배틀로얄 카테고리 1위로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 게임 카테고리 변동과 정책·자본 시장 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "한국 1세대 게임 자수성가 정체성과 본인 세대에서 본업을 글로벌 게임 카테고리 1위로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "한국 1세대 게임 자수성가 PUBG 정체성의 표본입니다. 광주과기원 석사에서 글로벌 배틀로얄 카테고리 1위 회사 CEO까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Sa day pillar (midsummer small fire on snake fire) and Yu month branch combine into a brightly expressing, externally-pressured profile. The format that channels career through external authority matches a 19-year arc from the 2007 Bluehole entry to the 2017 PUBG launch and the 2021 IPO.",
+    "summaryKo": "일주는 정사라 한여름 작은 불이 또 같은 초여름 불(뱀의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 자기 자리로 단단히 다져진 자리입니다. 월지 유는 가을 쇠의 자리라 일간을 외부 결과물로 환원시키는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 2007년 블루홀 합류, 2017년 PUBG 글로벌 출시, 2021년 KRAFTON 코스피 상장까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Krafton",
+    "https://www.krafton.com",
+    "https://www.forbes.com/profile/kim-chang-han/"
+  ]
+}
