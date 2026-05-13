@@ -1,0 +1,73 @@
+{
+  "id": 106,
+  "name": "Wang Chuanfu",
+  "nameKo": "왕 촨푸",
+  "birthday": "1966-04-08",
+  "birthPlace": "Wuwei, Anhui, China",
+  "birthPlaceKo": "중국 안후이성 우웨이",
+  "netWorth": "$23.6B",
+  "nationality": "CN",
+  "industry": "Automotive",
+  "gender": "M",
+  "ilju": "정유",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1966년 중국 안후이성 우웨이의 농가에서 태어났습니다. 정통 학력은 화학·공학 트랙으로, 중남공업대학 화학 학사·베이징 비철금속 연구원 화학 석사를 거친 정통 본토 1세대 배터리·전기차 인재 트랙입니다. 정통 학력에서 출발한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 배터리·전기차 자수성가형 인물 (BYD 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Wang_Chuanfu"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1995년 사촌 뤼 샹양과 함께 'BYD'(비야디) 정립으로 본업 배터리 카테고리를 만들었고, 2003년 산시친촨자동차 인수로 자동차 카테고리로 환원했습니다. 2002년 홍콩 증권거래소 상장, 2008년 워런 버핏 버크셔 10% 지분 인수, 그리고 2023년 글로벌 전기차 1위 도약까지 본업 자본을 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.byd.com"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Co-founds BYD with cousin Lu Xiangyang", "eventKo": "사촌 뤼 샹양과 'BYD' 공동 창업, 본토 배터리 카테고리 진입", "whyItMatteredKo": "정유 일주의 가을 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2002, "event": "BYD IPOs on Hong Kong Stock Exchange", "eventKo": "BYD 홍콩 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2003, "event": "Acquires Tsinchuan Automobile, enters EV category", "eventKo": "산시친촨자동차 인수, 본업 카테고리 자동차로 환원", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2008, "event": "Warren Buffett's Berkshire buys 10% of BYD", "eventKo": "워런 버핏 버크셔 BYD 지분 10% 인수, 글로벌 자본 통로 형성", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2023, "event": "BYD surpasses Tesla as world's largest EV maker", "eventKo": "BYD 글로벌 전기차 판매 1위 도약 (테슬라 추월)", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $23.6B in Automotive", "eventKo": "포브스 2026 — 자동차 236억 달러로 등재", "whyItMatteredKo": "BYD 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "BYD 공동 창업", "impactKo": "정유 일주의 가을 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2008, "eventKo": "워런 버핏 버크셔 BYD 지분 인수", "impactKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 분기점입니다."},
+    {"year": 2023, "eventKo": "BYD 글로벌 전기차 1위 도약", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "BYD(HKEX: 1211, SZSE: 002594) 본인 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1995년 BYD 창업, 2008년 버핏 지분 인수, 2023년 글로벌 전기차 1위가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 전기차 1위 회사 본인 지분, 본토 배터리·전기차 수직 통합, 그리고 워런 버핏 버크셔 동맹 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "BYD 본인 지분이 자산의 절대 비중. 글로벌 자본 분산 보유 구조로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2012, "descriptionKo": "BYD 전기차 화재 안전 사고와 본토 자동차 시장 둔화로 본업 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 품질 개선과 본업 카테고리 재편으로 V자 회복했습니다.", "lessonKo": "자동차 카테고리는 품질 사고 한 번에 본업 평가가 직접 흔들립니다."},
+    {"year": 2018, "descriptionKo": "본토 전기차 보조금 축소로 BYD 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "글로벌 시장 비중 강화로 통과했습니다.", "lessonKo": "본토 의존 카테고리는 정책 사이클에 직접 노출됩니다."},
+    {"year": 2024, "descriptionKo": "글로벌 전기차 가격 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "글로벌 시장 비중 강화와 카테고리 재편으로 단계적 회복을 시도하고 있습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.7B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$6.2B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$17.8B", "sourceKo": "포브스 추정 (전기차 1위 도약기)"},
+    {"year": 2026, "netWorth": "$23.6B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["BYD 회장", "글로벌 전기차 1위", "본토 1세대 배터리 자수성가", "워런 버핏 동맹", "정통 화학·공학 트랙"],
+  "characterKo": {
+    "strengths": "1995년 BYD 공동 창업으로 본토 배터리·전기차 카테고리 1위 회사를 만든 카테고리 도약 본능과, 2008년 버핏 지분 인수 후 2023년 BYD 글로벌 전기차 1위 도약까지 본인 자본 가치를 환원시킨 흐름 감각이 강점입니다.",
+    "weaknesses": "본토 전기차 정책 사이클과 글로벌 자동차 가격 경쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 1세대 정통 화학·공학 자수성가 야망과 본인 세대에서 글로벌 전기차 1위 회사 회장으로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 배터리·전기차 자수성가의 표본입니다. 정통 화학 박사에서 글로벌 전기차 1위 회사 회장으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Yu day pillar (autumn small fire on rooster metal) and Jin month branch combine into a quietly burning, externally-pressured profile. The format that channels wealth through external authority matches a 31-year arc from the 1995 BYD founding to the 2008 Buffett deal and the 2023 EV global #1.",
+    "summaryKo": "일주는 정유라 가을 작은 불이 가을 쇠(닭의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 단단한 쇠로 결과물을 압축하는 자리입니다. 월지 진은 봄 끝 흙의 자리라 일간을 외부의 강한 흙으로 결과물로 압축하는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1995년 BYD 창업, 2008년 버핏 지분 인수, 2023년 글로벌 전기차 1위까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Wang_Chuanfu",
+    "https://www.byd.com",
+    "https://www.forbes.com/profile/wang-chuanfu/"
+  ]
+}

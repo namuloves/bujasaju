@@ -1,0 +1,73 @@
+{
+  "id": 573,
+  "name": "Robin Li",
+  "nameKo": "로빈 리 (리 옌훙)",
+  "birthday": "1968-11-17",
+  "birthPlace": "Yangquan, Shanxi, China",
+  "birthPlaceKo": "중국 산시성 양취안",
+  "netWorth": "$6.7B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "신묘",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1968년 산시성 양취안에서 태어났습니다. 베이징대 정보관리학과를 거쳐 미국 SUNY 버펄로 컴퓨터과학 석사를 취득한 정통 IT 인재 트랙입니다. 미국 닷컴 1세대 검색 엔지니어 정체성을 만들었습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 글로벌 검색 엔진 자수성가형 인물 (Baidu 공동 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Robin_Li"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1996년 미국에서 'RankDex' 검색 엔진을 만들었고, 2000년 베이징에서 쉬융과 함께 'Baidu'(바이두)를 공동 창업해 본토 검색 엔진 카테고리에서 본업을 만들었습니다. 2005년 NASDAQ 상장으로 본격 자본 시장 가치를 환원했고, 2010년대 본토 검색 엔진 1위 자리를 굳힌 후 AI·자율주행 카테고리로 본업을 다각화했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.baidu.com"]
+  },
+  "careerTimeline": [
+    {"year": 1996, "event": "Develops RankDex search engine in US", "eventKo": "미국에서 'RankDex' 검색 엔진 기술 개발", "whyItMatteredKo": "신묘 일주의 가을 쇠 일간이 자기가 만든 결과물로 부를 빚는 출발점입니다."},
+    {"year": 2000, "event": "Co-founds Baidu in Beijing", "eventKo": "베이징에서 쉬융과 함께 'Baidu' 공동 창업, 본토 검색 엔진 카테고리 진입", "whyItMatteredKo": "본업의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2005, "event": "Baidu IPOs on NASDAQ", "eventKo": "Baidu NASDAQ 상장, 본토 검색 1위 자리 자본 시장 환원", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 결정적 분기점입니다."},
+    {"year": 2010, "event": "Google exits China; Baidu becomes #1 search", "eventKo": "구글의 본토 철수로 Baidu 본토 검색 1위 자리 굳히기", "whyItMatteredKo": "외부 시스템(글로벌 정치)이 본업 매출 가속으로 환원된 결정적 결단입니다."},
+    {"year": 2017, "event": "Baidu pivots to AI and autonomous driving", "eventKo": "Baidu AI·자율주행 카테고리로 본격 전환", "whyItMatteredKo": "본업 매출의 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2024, "event": "Baidu launches ERNIE LLM amid global AI race", "eventKo": "Baidu ERNIE 대규모 언어 모델 출시, 글로벌 AI 경쟁기 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2000, "eventKo": "Baidu 공동 창업", "impactKo": "신묘 일주의 가을 쇠 일간이 자기가 만든 결과물로 부를 빚는 결정적 결단입니다."},
+    {"year": 2005, "eventKo": "Baidu NASDAQ 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2017, "eventKo": "AI·자율주행 카테고리 전환", "impactKo": "본업 매출의 카테고리 다각화가 진행된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "NASDAQ 상장사 Baidu(BIDU) 본인 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2000년 창업, 2005년 NASDAQ 상장, 2010년 구글 철수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 검색 엔진 1위 자리, AI·자율주행 카테고리 다각화 통로, 그리고 글로벌 자본 시장 통로가 강점입니다.",
+    "currentAssetAllocationKo": "Baidu 본인 지분이 자산의 절대 비중. 글로벌 자산 분산 보유 구조로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 본토 광고 시장이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 검색 점유 강화로 V자 회복했습니다.", "lessonKo": "광고 카테고리는 거시 사이클에 분기 단위로 영향을 줍니다."},
+    {"year": 2016, "descriptionKo": "Baidu 의료 광고 사기 사건('웨이쩌시' 사건)으로 본업 신뢰가 한 차례 시험받았습니다.", "howTheyOvercameKo": "광고 정책 강화와 단계적 신뢰 회복으로 통과했습니다.", "lessonKo": "광고 카테고리는 신뢰 시험 한 번에 매출이 흔들립니다."},
+    {"year": 2021, "descriptionKo": "본토 인터넷 규제 강화로 Baidu 시가총액이 정점 대비 큰 폭으로 조정됐습니다.", "howTheyOvercameKo": "AI·자율주행 카테고리 비중 강화로 단계적 회복을 시도했습니다.", "lessonKo": "본토 단일 시장 의존은 정책 사이클 한 번에 자본 가치가 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2005, "netWorth": "$1B", "sourceKo": "NASDAQ 상장 직후"},
+    {"year": 2011, "netWorth": "$9.4B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$15B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$6.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Baidu 공동 창업주", "본토 검색 1위", "베이징대 정보관리", "RankDex 발명", "AI·자율주행 전환"],
+  "characterKo": {
+    "strengths": "베이징대·미국 박사 학습 깊이를 본인 사업의 토대로 결합한 카테고리 결합 본능과, 2010년 구글 철수기 본토 검색 1위 자리를 굳힌 결단력이 강점입니다.",
+    "weaknesses": "본토 인터넷 규제 사이클과 글로벌 AI 경쟁에 본업 매출이 직접 노출됩니다.",
+    "motivation": "산시 양취안 1세대 IT 인재 정체성을 본인 세대에서 본토 검색 1위 회사로 환원하겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "중국 본토 1세대 글로벌 검색 엔진 자수성가의 표본입니다. 미국 박사 출신이 본토 1위 검색 회사를 만든 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Myo day pillar (early winter metal on rabbit wood) and Hae month branch combine into a sharply forged, output-focused profile. The format that channels wealth through what he produces matches a 24-year arc from the 2000 Baidu founding to the 2010 Google exit and the 2017 AI pivot.",
+    "summaryKo": "일주는 신묘라 초겨울 쇠 일간이 봄 나무(토끼의 자리) 위에 놓인 형국으로, 단단한 쇠가 외부의 큰 나무를 다듬어 결과물로 만드는 자리입니다. 월지 해는 한겨울 물의 자리라 일간을 외부 자원의 큰 흐름으로 환원시키는 통로입니다. 격국은 자기가 만든 결과물로 부를 빚는 흐름이라, 2000년 Baidu 창업, 2005년 NASDAQ 상장, 2017년 AI 전환까지 모두 '직접 만든 결과물이 단계적으로 본인 자본으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Robin_Li",
+    "https://www.baidu.com",
+    "https://www.forbes.com/profile/robin-li/"
+  ]
+}

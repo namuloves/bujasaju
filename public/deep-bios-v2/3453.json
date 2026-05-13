@@ -1,0 +1,73 @@
+{
+  "id": 3453,
+  "name": "Kim Jung-wan",
+  "nameKo": "김정완",
+  "birthday": "1957-08-13",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$0.2B",
+  "nationality": "KR",
+  "industry": "Food & Beverage",
+  "gender": "M",
+  "ilju": "정사",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "1957년 대한민국에서 태어났습니다. 정통 학력은 경영 트랙으로, 한국 매일유업 가문 후계자 정체성을 유년기부터 형성한 정통 한국 1세대 유제품 후계자 트랙입니다. 부친 김복용 매일유업 창업주의 후계자입니다.",
+    "capitalTypeKo": "재벌 후계자 — 한국 매일유업 가문의 운영형 후계자 (매일유업 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Maeil_Dairy_Industry"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1980년대 가족 매일유업 합류로 본업을 잇기 시작했고, 1990년대 매일유업 회장 자리에 도약했습니다. 본업은 한국 유제품·식음료 카테고리 1위급 회사이고, 2010~2020년대 한국 프리미엄 유제품·커피 카테고리 호황으로 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 5,
+    "sources": ["https://www.maeil.com"]
+  },
+  "careerTimeline": [
+    {"year": 1982, "event": "Joins family Maeil Dairy", "eventKo": "가족 매일유업 합류 (추정)", "whyItMatteredKo": "정사 일주의 가을 작은 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1997, "event": "Becomes Chairman of Maeil Dairy", "eventKo": "매일유업 회장 취임", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다."},
+    {"year": 2007, "event": "Launches premium yogurt brand 'Sangha'", "eventKo": "프리미엄 요거트 '상하목장' 브랜드 출시", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 시기입니다."},
+    {"year": 2014, "event": "Maeil Dairy IPOs on KOSDAQ", "eventKo": "매일유업 코스닥 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2022, "event": "Post-pandemic premium dairy demand peaks", "eventKo": "포스트 코로나 프리미엄 유제품 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $0.2B in Food & Beverage", "eventKo": "포브스 2026 — 식음료 2억 달러로 등재", "whyItMatteredKo": "매일유업 본인 보유 지분이 본업 자본 가치로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1982, "eventKo": "가족 매일유업 합류", "impactKo": "정사 일주의 가을 작은 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1997, "eventKo": "매일유업 회장 취임", "impactKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 분기점입니다."},
+    {"year": 2014, "eventKo": "매일유업 코스닥 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "매일유업(KOSDAQ: 267980) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1982년 가족 합류, 1997년 회장 취임, 2014년 매일유업 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 유제품·식음료 카테고리 1위급 자리, 매일유업 가문 자본망, 그리고 프리미엄 카테고리 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "매일유업 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 한국 식음료 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "프리미엄 카테고리 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 식음료 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "한국 유제품 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "프리미엄 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 한국 외식·커피 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 식음료 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.08B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$0.14B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$0.18B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$0.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["매일유업 회장", "한국 1세대 유제품 가문 후계자", "'상하목장' 정체성", "매일유업 코스닥 상장 주도", "정통 후계자"],
+  "characterKo": {
+    "strengths": "1982년 가족 사업 합류 후 44년 동안 한국 1세대 유제품 가문의 한 축으로 자리잡은 끈기와, 1997년 회장 취임 후 2014년 매일유업 상장으로 본업을 자본 시장 가치로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "한국 단일 시장 의존도와 식음료 가격 경쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "한국 1세대 유제품 가문 후계자 정체성과 본인 세대에서 프리미엄 유제품 1위급 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "한국 1세대 유제품 가문 후계자의 표본입니다. 가족 매일유업에서 한국 프리미엄 유제품·커피 1위급 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Sa day pillar (autumn small fire on snake fire) and Sin month branch combine into a quietly burning, self-expressing profile. The format that channels wealth through one's bold creative output matches a 44-year arc from the 1982 family entry to the 1997 chairmanship and the 2014 IPO.",
+    "summaryKo": "일주는 정사라 가을 작은 불이 초여름 불(뱀의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 두 겹의 불로 단단히 다져지는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1982년 가족 합류, 1997년 회장 취임, 2014년 코스닥 상장까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Maeil_Dairy_Industry",
+    "https://www.maeil.com",
+    "https://www.forbes.com/billionaires/"
+  ]
+}

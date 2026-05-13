@@ -1,0 +1,73 @@
+{
+  "id": 1630,
+  "name": "Or Wai Sheun",
+  "nameKo": "오 와이 슈언 (오 후이순)",
+  "birthday": "1951-06-01",
+  "birthPlace": "Hong Kong",
+  "birthPlaceKo": "홍콩",
+  "netWorth": "$2.5B",
+  "nationality": "HK",
+  "industry": "Real Estate",
+  "gender": "M",
+  "ilju": "임신",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1951년 홍콩에서 태어났습니다. 정통 학력보다 시장 실무 경험이 토대인 1세대 화교 자수성가형 인물로, 1970년대 홍콩 부동산 사업으로 출발했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 홍콩 1세대 부동산 자수성가형 인물 (KWG Group 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/KWG_Group"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1995년 'KWG Property Holding'(KWG 부동산 홀딩스) 창업해 본토 부동산 카테고리에서 본업을 만들었습니다. 2007년 홍콩증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 본토 도시 부동산 카테고리 1위급으로 도약했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.kwggroupholdings.com"]
+  },
+  "careerTimeline": [
+    {"year": 1975, "event": "Begins property business in Hong Kong", "eventKo": "홍콩에서 부동산 사업 시작 (추정)", "whyItMatteredKo": "임신 일주의 큰 물 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 1995, "event": "Founds KWG Property Holding", "eventKo": "'KWG Property Holding' 정립, 본토 부동산 카테고리 진입", "whyItMatteredKo": "본업의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2007, "event": "KWG IPOs on Hong Kong Stock Exchange", "eventKo": "KWG 홍콩증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2015, "event": "KWG expands across China cities", "eventKo": "KWG 본토 도시 부동산 시장 전역 확장", "whyItMatteredKo": "본업 카테고리가 본토 1위급으로 환원된 시기입니다."},
+    {"year": 2022, "event": "Chinese property crisis tests KWG", "eventKo": "본토 부동산 위기로 KWG 시가총액 단기 시험기", "whyItMatteredKo": "외부 시스템(거시 사이클)이 본업을 한 번에 시험한 분기점입니다."},
+    {"year": 2024, "event": "Family wealth maintained amid property recovery", "eventKo": "본토 부동산 사이클 회복 흐름과 함께 가족 자본 유지", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "KWG Property Holding 정립", "impactKo": "임신 일주의 큰 물 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 결정적 결단입니다."},
+    {"year": 2007, "eventKo": "KWG 홍콩 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2022, "eventKo": "본토 부동산 위기 시험기", "impactKo": "외부 시스템(거시 사이클)이 본업을 한 번에 시험한 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "홍콩 상장사 KWG Group Holdings(1813) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1995년 정립, 2007년 홍콩 상장, 2015년 본토 전역 확장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 도시 부동산 카테고리 1위급 자리, 광둥 거점 화교 자본망, 그리고 가족 신탁 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "KWG Group Holdings 가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 본토 부동산 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "장기 보유 전략과 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 부동산 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2017, "descriptionKo": "본토 부동산 규제 강화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 정책 적응과 카테고리 다각화로 통과했습니다.", "lessonKo": "정책 한 번에 부동산 매출이 흔들립니다."},
+    {"year": 2022, "descriptionKo": "본토 부동산 위기로 KWG 시가총액이 정점 대비 큰 폭으로 조정됐습니다.", "howTheyOvercameKo": "단계적 채무 재조정과 가족 자본 보전으로 통과 중입니다.", "lessonKo": "단일 시장 의존은 정책 사이클 한 번에 자본 가치가 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2007, "netWorth": "$1B", "sourceKo": "홍콩 상장 직후 추정"},
+    {"year": 2018, "netWorth": "$3B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$1.8B", "sourceKo": "본토 부동산 위기 후"},
+    {"year": 2026, "netWorth": "$2.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["KWG Property 창업주", "본토 도시 부동산 1위급", "홍콩 1세대 부동산", "광둥 화교 자본망", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1995년 KWG 정립으로 본토 도시 부동산 카테고리 1위급 회사를 만든 카테고리 도약 본능과, 본토 부동산 위기를 통과한 가족 자본 보전 결단력이 강점입니다.",
+    "weaknesses": "본토 부동산 정책 사이클과 거시 충격에 본업 매출이 직접 노출됩니다.",
+    "motivation": "홍콩 1세대 화교 자수성가형 야망과 본인 세대에서 본토 도시 부동산 1위급 회사를 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "홍콩 1세대 본토 부동산 자수성가의 표본입니다. 본토 부동산 위기 후에도 가족 자본을 보전한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-Sin day pillar (early summer water on monkey metal) and Sa month branch combine into a wide-flowing, externally-resourced profile. The format that channels wealth through external resources matches a 30-year arc from the 1995 founding to the 2007 IPO and the 2022 crisis.",
+    "summaryKo": "일주는 임신이라 한여름 큰 물이 가을 쇠(원숭이의 자리) 위에 놓인 형국으로, 풍부한 물이 단단한 쇠로 결과물로 환원되는 자리입니다. 월지 사는 초여름 불의 자리라 일간을 외부의 큰 흐름으로 시험하는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1995년 정립, 2007년 홍콩 상장, 2022년 부동산 위기까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약과 시험으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/KWG_Group",
+    "https://www.kwggroupholdings.com",
+    "https://www.forbes.com/profile/or-wai-sheun/"
+  ]
+}

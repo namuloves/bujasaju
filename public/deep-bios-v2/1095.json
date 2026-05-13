@@ -1,0 +1,73 @@
+{
+  "id": 1095,
+  "name": "Mahendra Choksi",
+  "nameKo": "마헨드라 촉시",
+  "birthday": "1941-04-19",
+  "birthPlace": "Mumbai, India",
+  "birthPlaceKo": "인도 뭄바이",
+  "netWorth": "$3.8B",
+  "nationality": "IN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "정유",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1941년 인도 뭄바이의 촉시 가문에서 태어났습니다. 정통 학력은 경영 트랙으로, 인도 1세대 페인트·산업 가문의 후계자 정체성을 유년기부터 형성했다고 전해집니다. 부친 자야니 촉시가 정립한 'Asian Paints' 인도 1위 페인트 회사의 후계 가문 인척입니다.",
+    "capitalTypeKo": "재벌 후계자 — 인도 100년 페인트 가문 (Asian Paints) 자본의 운영형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Asian_Paints"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1960년대 가족 'Asian Paints' 페인트 회사 합류로 본업을 잇기 시작했고, 본업은 인도 페인트 카테고리에서 가족 자본의 한 축으로 자리잡았습니다. 1980~2010년대 인도 페인트 호황기에 본업 매출을 가속, 본격 자본 시장 가치 환원이 진행됐습니다.",
+    "selfMadeScore": 4,
+    "sources": ["https://www.asianpaints.com"]
+  },
+  "careerTimeline": [
+    {"year": 1965, "event": "Joins family Asian Paints business", "eventKo": "가족 'Asian Paints' 페인트 회사 합류", "whyItMatteredKo": "정유 일주의 가을 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1982, "event": "Asian Paints becomes top paint company in India", "eventKo": "Asian Paints 인도 페인트 1위 도약", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 1991, "event": "Indian economic liberalization accelerates paint market", "eventKo": "인도 경제 자유화로 페인트 시장 가속", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 결정적 결단입니다."},
+    {"year": 2010, "event": "Asian Paints expands across Asia", "eventKo": "Asian Paints 아시아 전역 확장", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 자리로 환원된 시기입니다."},
+    {"year": 2020, "event": "Asian Paints market cap exceeds $40B", "eventKo": "Asian Paints 시가총액 400억 달러 돌파", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $3.8B in Manufacturing", "eventKo": "포브스 2026 — 제조업 38억 달러로 등재", "whyItMatteredKo": "Asian Paints 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1965, "eventKo": "가족 Asian Paints 합류", "impactKo": "정유 일주의 가을 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1991, "eventKo": "인도 경제 자유화", "impactKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 분기점입니다."},
+    {"year": 2020, "eventKo": "Asian Paints 시가총액 400억 달러", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Asian Paints(NSE: ASIANPAINT) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1965년 가족 합류, 1991년 자유화 가속, 2020년 시가총액 정점이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 페인트 카테고리 1위 자리, 인도 100년 페인트 가문 자본망, 그리고 아시아 분배망 통로가 강점입니다.",
+    "currentAssetAllocationKo": "Asian Paints 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 건설·페인트 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "본토 인프라 수요 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 페인트 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2016, "descriptionKo": "인도 화폐 개혁(Demonetization)으로 페인트 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복으로 통과했습니다.", "lessonKo": "정책 한 번에 건설·페인트 매출이 흔들립니다."},
+    {"year": 2022, "descriptionKo": "Reliance·Birla 등 신규 페인트 회사 진입으로 본업 카테고리 경쟁이 격화됐습니다.", "howTheyOvercameKo": "프리미엄 카테고리·서비스 비중 강화로 통과하고 있습니다.", "lessonKo": "단일 카테고리 의존은 신규 진입자 사이클에 본업 평가가 직접 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$2.2B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$3.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$3.8B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Asian Paints 가문 후계자", "인도 100년 페인트 가문", "정통 운영형 후계자", "촉시 가문 자본망", "인도 페인트 1위"],
+  "characterKo": {
+    "strengths": "1965년 가족 사업 합류 후 60년 가까이 인도 페인트 카테고리 1위 회사의 한 축으로 자리잡은 끈기와, 1991년 인도 자유화 흐름을 가문 자본 가속으로 환원시킨 흐름 감각이 강점입니다.",
+    "weaknesses": "인도 정책 사이클과 신규 진입자 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "100년 촉시 가문 자본을 본인 세대에서 인도 페인트 1위 회사로 환원하고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "인도 100년 페인트 가문의 운영형 후계자 표본입니다. 가족 페인트 회사에서 인도 페인트 1위·시가총액 400억 달러 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Yu day pillar (autumn small fire on rooster metal) and Jin month branch combine into a quietly burning, externally-pressured profile. The format that channels wealth through external authority matches a 61-year arc from the 1965 family entry to the 1991 liberalization and the 2020 market cap peak.",
+    "summaryKo": "일주는 정유라 가을 작은 불이 가을 쇠(닭의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 단단한 쇠로 결과물을 압축하는 자리입니다. 월지 진은 봄 끝 흙의 자리라 일간을 외부의 강한 흙으로 결과물로 압축하는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1965년 합류, 1991년 자유화, 2020년 시가총액 정점까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Asian_Paints",
+    "https://www.asianpaints.com",
+    "https://www.forbes.com/profile/mahendra-choksi/"
+  ]
+}

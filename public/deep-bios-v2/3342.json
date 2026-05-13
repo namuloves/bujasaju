@@ -1,0 +1,73 @@
+{
+  "id": 3342,
+  "name": "Park Chan-koo",
+  "nameKo": "박찬구",
+  "birthday": "1948-08-01",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$0.4B",
+  "nationality": "KR",
+  "industry": "Chemicals",
+  "gender": "M",
+  "ilju": "무오",
+  "gyeokguk": "양인격",
+  "childhood": {
+    "summaryKo": "1948년 대한민국에서 태어났습니다. 정통 학력은 경영 트랙으로, 부친 박인천이 정립한 가족 그룹 금호아시아나 가문의 후계자 정체성을 유년기부터 형성했다고 전해집니다. 형 박삼구와는 금호석유화학 경영권 분쟁기를 거친 인물입니다.",
+    "capitalTypeKo": "재벌 후계자 — 한국 금호석유화학 그룹 회장, 금호 가문 2세대 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Kumho_Petrochemical"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1970년대 가족 금호 그룹 합류로 본업을 잇기 시작했고, 1985년 금호석유화학 사장 취임 후 본업 카테고리를 화학으로 운영했습니다. 2009~2010년 형 박삼구와의 경영권 분쟁 후 2012년 금호석유화학 회장으로 복귀, 본업 자본을 독립 그룹으로 환원했습니다.",
+    "selfMadeScore": 4,
+    "sources": ["https://www.kkpc.com"]
+  },
+  "careerTimeline": [
+    {"year": 1976, "event": "Joins family Kumho Group after US studies", "eventKo": "미국 유학 후 가족 금호 그룹 합류", "whyItMatteredKo": "무오 일주의 큰 흙 일간이 본인 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1985, "event": "Becomes President of Kumho Petrochemical", "eventKo": "금호석유화학 사장 취임, 본업 화학 카테고리 운영", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 시기입니다."},
+    {"year": 2009, "event": "Family conflict over Kumho Group leadership", "eventKo": "형 박삼구와 금호 그룹 경영권 분쟁기", "whyItMatteredKo": "외부 압력이 본인 자리의 결단으로 환원된 결정적 분기점입니다."},
+    {"year": 2012, "event": "Returns as Chairman of Kumho Petrochemical", "eventKo": "금호석유화학 회장으로 복귀, 독립 그룹 자리 환원", "whyItMatteredKo": "본인 자리의 권위가 독립 그룹 회장 자리로 환원된 결정적 결단입니다."},
+    {"year": 2021, "event": "Daughter elected to board, family governance reshapes", "eventKo": "딸 박철완 이사 주주제안 등 가문 거버넌스 시험기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자리의 거버넌스 재편으로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $0.4B in Chemicals", "eventKo": "포브스 2026 — 화학 4억 달러로 등재", "whyItMatteredKo": "금호석유화학 본인 보유 지분이 본업 자본 가치로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1976, "eventKo": "금호 그룹 합류", "impactKo": "무오 일주의 큰 흙 일간이 본인 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2009, "eventKo": "금호 그룹 경영권 분쟁", "impactKo": "외부 압력이 본인 자리의 결단으로 환원된 결정적 분기점입니다."},
+    {"year": 2012, "eventKo": "금호석유화학 회장 복귀", "impactKo": "본인 자리의 권위가 독립 그룹 회장 자리로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "금호석유화학(KRX: 011780) 본인 및 가족 보유 지분 가치와 배당, 그리고 한국 부동산 보유분이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1976년 가족 합류, 2012년 회장 복귀, 2021년 가문 거버넌스 재편이 자리 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 화학 카테고리 1위급 자리, 금호 가문 자본망, 그리고 합성고무·합성수지 카테고리 통로가 강점입니다.",
+    "currentAssetAllocationKo": "금호석유화학 본인 및 가족 지분이 자산의 핵심. 한국 부동산이 보조적 비중으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2009, "descriptionKo": "형 박삼구와의 금호 그룹 경영권 분쟁이 본인 자리를 단기 시험했습니다.", "howTheyOvercameKo": "단계적 분쟁 협의와 금호석유화학 독립 환원으로 통과했습니다.", "lessonKo": "재벌 가문 경영권 분쟁은 본인 자리에 한 번에 큰 영향을 줍니다."},
+    {"year": 2021, "descriptionKo": "딸 박철완의 주주제안 등 가문 거버넌스 시험이 컸습니다.", "howTheyOvercameKo": "단계적 거버넌스 협의로 통과했습니다.", "lessonKo": "재벌 가문 거버넌스는 한 번의 주주제안에 본인 자리가 흔들릴 수 있습니다."},
+    {"year": 2023, "descriptionKo": "글로벌 화학 사이클 다운으로 금호석유화학 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과하고 있습니다.", "lessonKo": "단일 산업 의존은 글로벌 사이클 한 번에 매출이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.2B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$0.3B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$0.35B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$0.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["금호석유화학 회장", "금호 가문 2세대", "정통 후계자", "경영권 분쟁 후 독립 복귀", "한국 화학 산업 정체성"],
+  "characterKo": {
+    "strengths": "1976년 가족 합류 후 50년 가까이 한국 화학 카테고리의 한 축으로 자리잡은 끈기와, 2012년 금호석유화학 회장 복귀로 본인 자리를 독립 그룹 회장으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "한국 가문 거버넌스 사이클과 글로벌 화학 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "금호 가문 2세대 후계자 정체성과 본인 세대에서 가문 자본을 독립 그룹으로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "한국 금호 가문 2세대 후계자의 표본입니다. 가문 경영권 분쟁 후 독립 그룹 회장으로 자리를 환원시킨 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-O day pillar (high summer earth on horse fire) and Sin month branch combine into a steady, self-expressing profile. The format that channels wealth through one's bold creative output matches a 50-year arc from the 1976 entry to the 2009 conflict and the 2012 chairmanship return.",
+    "summaryKo": "일주는 무오라 한여름 큰 흙이 한여름 불(말의 자리) 위에 놓인 형국으로, 단단한 흙이 두 겹의 강한 불로 단단히 다져지는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 본인의 강한 자기 자리가 그대로 결과물로 환원되는 흐름이라, 1976년 합류, 2009년 분쟁, 2012년 회장 복귀까지 모두 '본인의 강한 자리가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kumho_Petrochemical",
+    "https://www.kkpc.com",
+    "https://www.forbes.com/profile/park-chan-koo/"
+  ]
+}

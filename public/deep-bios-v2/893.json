@@ -1,0 +1,73 @@
+{
+  "id": 893,
+  "name": "Tsai Ming-kai",
+  "nameKo": "차이 밍카이",
+  "birthday": "1950-04-06",
+  "birthPlace": "Taiwan",
+  "birthPlaceKo": "대만",
+  "netWorth": "$4.6B",
+  "nationality": "TW",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "신미",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1950년 대만에서 태어났습니다. 정통 학력은 공학 트랙으로, 대만대 전기공학 학사·미국 신시내티대 박사를 거친 정통 대만 1세대 반도체 인재 트랙입니다. 1976년 대만 'UMC' 입사로 반도체 경력을 시작한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 대만 1세대 반도체 자수성가형 인물 (MediaTek 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Tsai_Ming-kai"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1997년 'UMC'에서 분사해 'MediaTek'(미디어텍) 공동 창업으로 본업을 만들었고, 본토 모바일 반도체 카테고리 1위급으로 도약했습니다. 2001년 대만 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 2010~2020년대 글로벌 모바일·스마트폰 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.mediatek.com"]
+  },
+  "careerTimeline": [
+    {"year": 1976, "event": "Joins UMC in Taiwan", "eventKo": "대만 UMC 입사, 반도체 카테고리 진입", "whyItMatteredKo": "신미 일주의 가을 작은 쇠 일간이 학습된 권위의 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1997, "event": "Spins off MediaTek from UMC", "eventKo": "UMC에서 분사해 'MediaTek' 공동 창업", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2001, "event": "MediaTek IPOs on Taiwan Stock Exchange", "eventKo": "MediaTek 대만 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2007, "event": "MediaTek captures Chinese mobile market", "eventKo": "MediaTek 본토 모바일 시장 1위급 도약", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 자리로 환원된 시기입니다."},
+    {"year": 2020, "event": "MediaTek becomes #1 global smartphone chipset maker", "eventKo": "MediaTek 글로벌 스마트폰 칩셋 1위 도약", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $4.6B in Technology", "eventKo": "포브스 2026 — 테크놀로지 46억 달러로 등재", "whyItMatteredKo": "MediaTek 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1997, "eventKo": "MediaTek 공동 창업", "impactKo": "신미 일주의 가을 작은 쇠 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2001, "eventKo": "MediaTek 대만 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2020, "eventKo": "글로벌 스마트폰 칩셋 1위", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "MediaTek(TWSE: 2454) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1997년 MediaTek 창업, 2001년 대만 상장, 2020년 글로벌 1위 도약이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 스마트폰 칩셋 1위 자리, 대만 1세대 반도체 자본망, 그리고 정통 공학 박사 트랙이 강점입니다.",
+    "currentAssetAllocationKo": "MediaTek 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "본토 스마트폰 칩셋 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "프리미엄 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2018, "descriptionKo": "미·중 무역분쟁 초기에 글로벌 반도체 공급망 변동성이 본업을 단기 시험했습니다.", "howTheyOvercameKo": "본토 국산화 흐름과 함께 매출이 회복됐습니다.", "lessonKo": "본토 의존 카테고리는 정치 사이클에 직접 노출됩니다."},
+    {"year": 2023, "descriptionKo": "글로벌 스마트폰 사이클 둔화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "단일 산업 의존은 글로벌 사이클 한 번에 매출이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$4B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$4.6B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["MediaTek 공동 창업", "글로벌 스마트폰 칩셋 1위", "대만 1세대 반도체", "정통 공학 박사", "UMC 분사 출신"],
+  "characterKo": {
+    "strengths": "1997년 MediaTek 공동 창업으로 본업 카테고리를 모바일 반도체로 환원시킨 카테고리 도약 본능과, 2020년 글로벌 스마트폰 칩셋 1위 도약으로 본업을 글로벌 자본으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 반도체 사이클과 미·중 무역분쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 대만 1세대 반도체 자수성가 야망과 본인 세대에서 글로벌 모바일 칩셋 1위 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "대만 1세대 반도체 자수성가의 표본입니다. UMC 분사에서 글로벌 스마트폰 칩셋 1위 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Mi day pillar (autumn small metal on goat earth) and Jin month branch combine into a sharply chiseled, learning-authority profile. The format that channels wealth through learned authority matches a 50-year arc from the 1976 UMC entry to the 1997 MediaTek founding and the 2020 global #1 status.",
+    "summaryKo": "일주는 신미라 가을 작은 쇠가 늦여름 흙(양의 자리) 위에 놓인 형국으로, 단단한 작은 쇠가 외부의 강한 흙으로 결과물로 빚어지는 자리입니다. 월지 진은 봄 끝 흙의 자리라 일간을 두 겹의 흙으로 결과물로 압축하는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1997년 MediaTek 창업, 2001년 대만 상장, 2020년 글로벌 1위까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tsai_Ming-kai",
+    "https://www.mediatek.com",
+    "https://www.forbes.com/profile/tsai-ming-kai/"
+  ]
+}

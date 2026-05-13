@@ -1,0 +1,73 @@
+{
+  "id": 3430,
+  "name": "Kwon Ki-bum",
+  "nameKo": "권기범",
+  "birthday": "1967-03-23",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$0.2B",
+  "nationality": "KR",
+  "industry": "Pharmaceuticals",
+  "gender": "M",
+  "ilju": "병술",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1967년 대한민국에서 태어났습니다. 정통 학력은 경영 트랙으로, 한국 동국제약 가문의 후계자 정체성을 유년기부터 형성했다고 전해집니다. 부친 권동일 회장이 정립한 동국제약 가문의 2세대 후계자입니다.",
+    "capitalTypeKo": "재벌 후계자 — 한국 동국제약 그룹의 운영형 후계자 (동국제약·동국생명과학 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Dongkook_Pharmaceutical"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1990년대 가족 동국제약 합류로 본업을 잇기 시작했고, 2005년 대표이사 자리 도약 후 2014년 회장에 취임했습니다. 2018년 동국제약 합병·분할과 동국생명과학 정립으로 본업 자본을 재편성했고, 한국 제약 카테고리 운영의 한 축으로 자리잡았습니다.",
+    "selfMadeScore": 5,
+    "sources": ["https://www.dkpharm.co.kr"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Joins family Dongkook Pharmaceutical", "eventKo": "가족 동국제약 합류 (추정)", "whyItMatteredKo": "병술 일주의 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2005, "event": "Becomes President of Dongkook Pharmaceutical", "eventKo": "동국제약 대표이사 사장 취임", "whyItMatteredKo": "본업 자리의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2014, "event": "Becomes Chairman of Dongkook Pharmaceutical", "eventKo": "동국제약 회장 취임", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다."},
+    {"year": 2018, "event": "Restructures group via merger/split", "eventKo": "동국제약 그룹 합병·분할로 본업 자본 재편", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 시기입니다."},
+    {"year": 2022, "event": "Post-pandemic premium pharma demand peaks", "eventKo": "포스트 코로나 프리미엄 제약 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $0.2B in Pharmaceuticals", "eventKo": "포브스 2026 — 제약 2억 달러로 등재", "whyItMatteredKo": "동국제약 본인 보유 지분이 본업 자본 가치로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "가족 동국제약 합류", "impactKo": "병술 일주의 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2014, "eventKo": "동국제약 회장 취임", "impactKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 분기점입니다."},
+    {"year": 2018, "eventKo": "그룹 합병·분할로 본업 자본 재편", "impactKo": "본업 카테고리 다각화가 진행된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "동국제약(KRX: 086450), 동국생명과학(KRX: 086450) 등 본인 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1995년 가족 합류, 2014년 회장 취임, 2018년 그룹 재편이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 일반의약품·기능성 의약품 카테고리 자리, 동국제약 가문 자본망, 그리고 정통 후계자 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "동국제약 본인 및 가족 지분이 자산의 핵심. 한국 부동산이 보조적 비중으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 한국 제약 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 제약 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "그룹 합병·분할 과정에서 거버넌스 사이클이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 그룹 재편으로 통과했습니다.", "lessonKo": "재벌 가문 거버넌스는 한 번의 합병·분할에 본업 자본이 흔들릴 수 있습니다."},
+    {"year": 2023, "descriptionKo": "한국 제약 가격 협상 정책으로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "고부가 카테고리 비중 강화로 통과했습니다.", "lessonKo": "본토 의존 카테고리는 정책 사이클에 직접 노출됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.08B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$0.13B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$0.18B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$0.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["동국제약 회장", "동국제약 가문 2세대", "동국생명과학 회장", "한국 일반의약품 정체성", "정통 후계자"],
+  "characterKo": {
+    "strengths": "1995년 가족 합류 후 30년 동안 한국 동국제약 가문의 한 축으로 자리잡은 끈기와, 2014년 회장 취임 후 2018년 그룹 합병·분할로 본업 자본을 재편한 결단력이 강점입니다.",
+    "weaknesses": "한국 제약 정책 사이클과 가문 거버넌스 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "동국제약 가문 2세대 후계자 정체성과 본인 세대에서 가문 자본을 보전·이양하겠다는 산업 의식이 동력입니다.",
+    "legacy": "한국 동국제약 가문 2세대 후계자의 표본입니다. 가족 합류에서 회장·그룹 재편까지 본업 자본을 운영한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Sul day pillar (early summer fire on dog earth) and Myo month branch combine into a brightly expressing, externally-pressured profile. The format that channels wealth through external authority matches a 31-year arc from the 1995 family entry to the 2014 chairmanship and the 2018 group restructuring.",
+    "summaryKo": "일주는 병술이라 초여름 작은 불이 가을 끝 흙(개의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 단단한 흙으로 결과물로 빚어지는 자리입니다. 월지 묘는 봄 나무의 자리라 일간을 외부의 큰 자원·권위로 받쳐주는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1995년 가족 합류, 2014년 회장 취임, 2018년 그룹 재편까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dongkook_Pharmaceutical",
+    "https://www.dkpharm.co.kr",
+    "https://www.forbes.com/billionaires/"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 1251,
+  "name": "Sun Weijie",
+  "nameKo": "쑨 웨이제",
+  "birthday": "1963-07-26",
+  "birthPlace": "Shandong, China",
+  "birthPlaceKo": "중국 산둥성",
+  "netWorth": "$3.3B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "경오",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1963년 산둥성에서 태어났습니다. 정통 학력은 공학 트랙으로, 1990년대 산둥성에서 유전 장비 사업으로 출발한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 산둥성 1세대 유전 장비 자수성가형 인물 (Jereh Group 공동 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Jereh_Group"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1999년 산둥성 옌타이에서 'Jereh Oilfield Services' 공동 창업해 본토 유전 장비 카테고리에서 본업을 만들었습니다. 본인은 왕쿤샤오와 함께 공동 운영의 한 축으로 자리잡았고, 2010년 선전증권거래소 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.jereh.com"]
+  },
+  "careerTimeline": [
+    {"year": 1999, "event": "Co-founds Jereh in Yantai, Shandong", "eventKo": "산둥성 옌타이에서 'Jereh Oilfield Services' 공동 창업", "whyItMatteredKo": "경오 일주의 큰 쇠 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2005, "event": "Domestic oilfield boom drives capacity", "eventKo": "본토 유전 호황기, 본업 매출 토대 형성", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2010, "event": "Jereh Group IPOs on Shenzhen", "eventKo": "Jereh 그룹 선전증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2014, "event": "Global oil price crash tests Jereh margins", "eventKo": "글로벌 유가 급락기 본업 마진 시험기", "whyItMatteredKo": "외부 시스템(거시 사이클)이 본업 매출을 한 번에 시험한 분기점입니다."},
+    {"year": 2018, "event": "Jereh enters renewable energy category", "eventKo": "Jereh 신재생 에너지 카테고리 진입, 본업 다각화", "whyItMatteredKo": "본업 매출의 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2024, "event": "Jereh group revenue passes ¥10B amid energy demand", "eventKo": "Jereh 그룹 매출 100억 위안 돌파, 가족 평가 자산 정점", "whyItMatteredKo": "외부에 자기 결과물을 발산하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1999, "eventKo": "Jereh Oilfield Services 공동 창업", "impactKo": "경오 일주의 큰 쇠 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2010, "eventKo": "Jereh 선전 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2018, "eventKo": "신재생 에너지 카테고리 진입", "impactKo": "본업 매출의 카테고리 다각화가 진행된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전증권거래소 상장사 Jereh Group 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1999년 공동 창업, 2010년 선전 상장, 2018년 신재생 진입이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 유전 장비 1위급 자리, 신재생 카테고리 다각화 통로, 그리고 공동 창업 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Jereh Group 가족 지분이 자산의 절대 비중. 공동 창업 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "글로벌 유가 급락기 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "본토 시장 점유 강화로 단계적 회복했습니다.", "lessonKo": "원자재 사이클은 본업 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "미·중 무역분쟁으로 글로벌 유전 장비 수출이 단기 시험받았습니다.", "howTheyOvercameKo": "본토 내수 비중 강화와 신재생 진입으로 통과했습니다.", "lessonKo": "단일 시장 의존은 정치 사이클 한 번에 매출이 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 유전 활동이 단기 위축됐습니다.", "howTheyOvercameKo": "이후 단계적 유가 회복과 신재생 카테고리 가속으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.5B", "sourceKo": "상장 직후 추정"},
+    {"year": 2018, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$3B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$3.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Jereh Group 공동 창업주", "본토 유전 장비 1위급", "산둥성 옌타이 출신", "신재생 에너지 다각화", "왕쿤샤오와 공동 창업"],
+  "characterKo": {
+    "strengths": "1999년 산둥성에서 본토 유전 장비 카테고리 1위급 회사를 공동 창업한 카테고리 도약 본능과, 공동 운영 안정 구조가 강점입니다.",
+    "weaknesses": "글로벌 유가 사이클과 미·중 무역분쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "산둥성 1세대 자수성가형 야망과 본인 세대에서 본토 유전 장비 1위급 회사를 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 유전 장비 자수성가의 표본입니다. 공동 창업으로 본토 유전 장비 1위급 자리를 굳히고 신재생까지 확장한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gyeong-O day pillar (mid-summer metal on horse fire) and Mi month branch combine into a sharply forged, learning-authority profile. The format that channels wealth through learned authority matches a 25-year arc from the 1999 founding to the 2010 IPO and the 2018 renewable pivot.",
+    "summaryKo": "일주는 경오라 한여름 큰 쇠가 한여름 불(말의 자리) 위에 놓인 형국으로, 단단한 쇠가 강한 불에 의해 단단히 다듬어지는 자리입니다. 월지 미는 한여름 끝 흙의 자리라 일간을 외부의 큰 흐름과 결합시키는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1999년 공동 창업, 2010년 상장, 2018년 신재생 진입까지 모두 '학습된 결과물이 단계적으로 본인 자본으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jereh_Group",
+    "https://www.jereh.com",
+    "https://www.forbes.com/profile/sun-weijie/"
+  ]
+}

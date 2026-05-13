@@ -1,0 +1,73 @@
+{
+  "id": 1760,
+  "name": "Abhay Soi",
+  "nameKo": "아바이 소이",
+  "birthday": "1973-08-19",
+  "birthPlace": "India",
+  "birthPlaceKo": "인도",
+  "netWorth": "$2.3B",
+  "nationality": "IN",
+  "industry": "Healthcare",
+  "gender": "M",
+  "ilju": "정해",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1973년 인도에서 태어났습니다. 정통 학력은 경영 트랙으로, 미국 유학을 거친 정통 인도 신세대 헬스케어 인재 트랙입니다. 2000년대 초반 인도 부실 자산 투자 사업으로 출발해 의료 카테고리에 진입했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 신세대 헬스케어 자수성가형 인물 (Max Healthcare 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Abhay_Soi"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2001년 인도 부실 자산 투자 회사 'Radiant Investments' 창업으로 출발해 2007년 'Radiant Life Care' 헬스케어 회사 정립으로 본업 카테고리를 의료로 환원했습니다. 2019년 KKR의 Max Healthcare와 합병해 'Max Healthcare Institute' 정립, 2020년 인도 증권거래소 상장으로 본업 자본 가치를 환원했습니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://www.maxhealthcare.in"]
+  },
+  "careerTimeline": [
+    {"year": 2001, "event": "Founds Radiant Investments for distressed assets", "eventKo": "'Radiant Investments' 인도 부실 자산 투자 회사 창업", "whyItMatteredKo": "정해 일주의 가을 작은 불 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2007, "event": "Founds Radiant Life Care in healthcare", "eventKo": "'Radiant Life Care' 헬스케어 회사 정립, 본업 의료 카테고리 진입", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2015, "event": "Acquires BLK Hospital, Delhi", "eventKo": "델리 BLK 병원 인수, 본업 카테고리 확장", "whyItMatteredKo": "본업 매출의 카테고리 확장이 진행된 시기입니다."},
+    {"year": 2019, "event": "Merges with Max Healthcare backed by KKR", "eventKo": "KKR 후원의 Max Healthcare와 합병, 'Max Healthcare Institute' 정립", "whyItMatteredKo": "본업 매출이 인도 의료 1위급 회사로 환원된 결정적 결단입니다."},
+    {"year": 2020, "event": "Max Healthcare IPOs on Indian stock exchange", "eventKo": "Max Healthcare 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $2.3B in Healthcare", "eventKo": "포브스 2026 — 헬스케어 23억 달러로 등재", "whyItMatteredKo": "Max Healthcare 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2007, "eventKo": "Radiant Life Care 정립", "impactKo": "정해 일주의 가을 작은 불 일간이 자기 표현의 결과물을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2019, "eventKo": "Max Healthcare 합병", "impactKo": "본업 매출이 인도 의료 1위급 회사로 환원된 결정적 결단입니다."},
+    {"year": 2020, "eventKo": "Max Healthcare 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Max Healthcare Institute(NSE: MAXHEALTH) 본인 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2007년 Radiant Life Care 정립, 2019년 Max Healthcare 합병, 2020년 인도 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 의료 1위급 회사 자리, KKR 후원 자본 구조, 그리고 부실 자산 투자 출신의 인수합병 협상력이 강점입니다.",
+    "currentAssetAllocationKo": "Max Healthcare 본인 지분이 자산의 절대 비중. KKR 등 글로벌 파트너 거버넌스 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 부실 자산 투자 카테고리가 단기 시험받았습니다.", "howTheyOvercameKo": "헬스케어 카테고리 전환 가속으로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 거시 사이클에 직접 노출됩니다."},
+    {"year": 2016, "descriptionKo": "인도 화폐 개혁(Demonetization)으로 의료 카테고리 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복으로 통과했습니다.", "lessonKo": "정책 한 번에 의료 매출이 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 일반 의료 수요가 단기 마비됐습니다.", "howTheyOvercameKo": "코로나 치료 카테고리 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2018, "netWorth": "$0.4B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$1B", "sourceKo": "상장 직후"},
+    {"year": 2024, "netWorth": "$1.9B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Max Healthcare Institute 회장", "Radiant Life Care 창업", "부실 자산 투자 출신", "KKR 합병 협상자", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "2007년 Radiant Life Care 정립으로 본업 카테고리를 의료로 환원시킨 결단력과, 2019년 Max Healthcare 합병으로 인도 의료 1위급 회사 회장 자리에 도약한 인수합병 협상력이 강점입니다.",
+    "weaknesses": "인도 의료 정책 사이클과 글로벌 파트너 거버넌스 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 인도 신세대 자수성가 야망과 본인 세대에서 부실 자산 투자에서 인도 의료 1위급 회사 회장 자리로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 신세대 헬스케어 자수성가의 표본입니다. 부실 자산 투자에서 인도 의료 1위급 회사 회장 자리로 카테고리를 두 번 환원한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Hae day pillar (autumn small fire on pig water) and Sin month branch combine into a quietly burning, self-expressing profile. The format that channels wealth through one's creative output matches a 25-year arc from the 2001 founding to the 2019 Max Healthcare merger and the 2020 IPO.",
+    "summaryKo": "일주는 정해라 가을 작은 불이 한겨울 물(돼지의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 외부의 큰 물에 단단히 응축되는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 자기 표현의 결과물 흐름이라, 2001년 창업, 2019년 Max Healthcare 합병, 2020년 인도 상장까지 모두 '자기 표현의 결과물이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Abhay_Soi",
+    "https://www.maxhealthcare.in",
+    "https://www.forbes.com/profile/abhay-soi/"
+  ]
+}

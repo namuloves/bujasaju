@@ -1,0 +1,73 @@
+{
+  "id": 1372,
+  "name": "Choo Chong Ngen",
+  "nameKo": "주 종 응엔",
+  "birthday": "1953-04-21",
+  "birthPlace": "Singapore",
+  "birthPlaceKo": "싱가포르",
+  "netWorth": "$3B",
+  "nationality": "SG",
+  "industry": "Real Estate",
+  "gender": "M",
+  "ilju": "임인",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1953년 싱가포르의 화교계 가문에서 태어났습니다. 정통 학력보다 시장 실무 경험이 토대인 1세대 자수성가형 인물로, 1980년대 싱가포르 부동산·호텔 사업 진입으로 본업을 만든 1세대 자수성가의 표본입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 싱가포르 1세대 호텔·부동산 자수성가형 인물 (Hotel 81 그룹 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Choo_Chong_Ngen"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1995년 싱가포르에서 'Hotel 81' 정립으로 본업을 만들었고, 싱가포르 저가 호텔 카테고리 1위로 도약했습니다. 2010~2020년대 싱가포르 호텔·부동산 호황기에 'Worldwide Hotels' 그룹으로 확장, 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.worldwidehotels.com.sg"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Founds Hotel 81 in Singapore", "eventKo": "싱가포르에서 'Hotel 81' 정립, 저가 호텔 카테고리 진입", "whyItMatteredKo": "임인 일주의 큰 물 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 2005, "event": "Hotel 81 chain expands across Singapore", "eventKo": "Hotel 81 싱가포르 전역 체인 확장", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2010, "event": "Launches Worldwide Hotels Group", "eventKo": "Worldwide Hotels Group 정립, 호텔 다각화", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2015, "event": "Acquires Centara Grand Hotel in Bangkok", "eventKo": "방콕 센타라 그랜드 호텔 인수, 글로벌 호텔 카테고리 진입", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 자리로 환원된 시기입니다."},
+    {"year": 2022, "event": "Post-pandemic hotel demand peaks", "eventKo": "포스트 코로나 호텔 수요 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $3B in Real Estate", "eventKo": "포브스 2026 — 부동산 30억 달러로 등재", "whyItMatteredKo": "Worldwide Hotels 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "Hotel 81 정립", "impactKo": "임인 일주의 큰 물 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 결정적 결단입니다."},
+    {"year": 2010, "eventKo": "Worldwide Hotels Group 정립", "impactKo": "본업 카테고리 다각화가 진행된 분기점입니다."},
+    {"year": 2022, "eventKo": "포스트 코로나 호텔 수요 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Worldwide Hotels Group 비상장 본인 및 가족 보유 지분 가치, 그리고 싱가포르 부동산 보유분이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1995년 Hotel 81 정립, 2010년 Worldwide Hotels Group 정립, 2022년 포스트 코로나 회복이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "싱가포르 저가 호텔 카테고리 1위 자리, 싱가포르·동남아 호텔 분배망, 그리고 미디어 노출 최소화 전략이 강점입니다.",
+    "currentAssetAllocationKo": "Worldwide Hotels Group 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2003, "descriptionKo": "사스(SARS)로 싱가포르 호텔 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 시장 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 호텔 매출에 분기 단위로 직접 영향을 줍니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 싱가포르 호텔 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 호텔 사이클은 본업 매출에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 호텔 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "정부 격리 호텔 제공 등 비상 카테고리로 V자 회복했습니다.", "lessonKo": "거시 충격은 호텔 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.7B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Worldwide Hotels Group 회장", "싱가포르 저가 호텔 1위", "Hotel 81 정체성", "1세대 자수성가", "미디어 노출 최소화"],
+  "characterKo": {
+    "strengths": "1995년 Hotel 81 정립으로 싱가포르 저가 호텔 카테고리 1위 회사를 만든 카테고리 도약 본능과, 2010년 Worldwide Hotels Group 정립으로 본업을 다각화 그룹으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "거시 충격과 글로벌 호텔 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "싱가포르 화교 1세대 자수성가 야망과 본인 세대에서 싱가포르 저가 호텔 1위 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "싱가포르 화교 1세대 호텔·부동산 자수성가의 표본입니다. Hotel 81에서 글로벌 호텔 그룹으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-In day pillar (early winter water on tiger wood) and Jin month branch combine into a deeply flowing, externally-resourced profile. The format that channels wealth through external resources matches a 31-year arc from the 1995 Hotel 81 founding to the 2010 group launch and the 2022 post-pandemic peak.",
+    "summaryKo": "일주는 임인이라 초겨울 큰 물이 봄 나무(호랑이의 자리) 위에 놓인 형국으로, 풍부한 물이 외부의 큰 나무로 결과물로 환원되는 자리입니다. 월지 진은 봄 끝 흙의 자리라 일간을 외부의 강한 흙으로 결과물로 압축하는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1995년 Hotel 81 정립, 2010년 Worldwide Hotels 정립, 2022년 포스트 코로나 회복까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Choo_Chong_Ngen",
+    "https://www.worldwidehotels.com.sg",
+    "https://www.forbes.com/profile/choo-chong-ngen/"
+  ]
+}

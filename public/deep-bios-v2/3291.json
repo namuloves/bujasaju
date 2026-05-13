@@ -1,0 +1,73 @@
+{
+  "id": 3291,
+  "name": "Muhammed Aziz Khan",
+  "nameKo": "무함메드 아지즈 칸",
+  "birthday": "1955-03-01",
+  "birthPlace": "Bangladesh",
+  "birthPlaceKo": "방글라데시",
+  "netWorth": "$1B",
+  "nationality": "SG",
+  "industry": "Energy",
+  "gender": "M",
+  "ilju": "신유",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1955년 방글라데시에서 태어났습니다. 정통 학력은 공학 트랙으로, 1980년대 방글라데시에서 무역업으로 출발한 1세대 자수성가형 인물입니다. 2010년 이후 싱가포르 거주로 시민권을 옮긴 글로벌 사업가입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 방글라데시 출신 1세대 발전·인프라 자수성가형 인물 (Summit Group 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Summit_Group"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1985년 'Summit Group' 창업해 방글라데시 무역·인프라 사업을 정립, 1990년대 후반 방글라데시 첫 민간 발전 사업자로 도약했습니다. 현재 Summit Group은 방글라데시 전력 약 20%를 공급하며 통신·항만·LNG 등 다중 카테고리로 다각화됐습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.summitgrp.com"]
+  },
+  "careerTimeline": [
+    {"year": 1985, "event": "Founds Summit Group in Bangladesh", "eventKo": "방글라데시에서 'Summit Group' 창업, 무역업으로 출발", "whyItMatteredKo": "신유 일주의 가을 쇠 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1997, "event": "Becomes Bangladesh's first private power producer", "eventKo": "방글라데시 첫 민간 발전 사업자(IPP) 도약", "whyItMatteredKo": "본업의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2009, "event": "Summit Power lists in Bangladesh", "eventKo": "Summit Power 방글라데시 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2015, "event": "Summit expands into LNG and ports", "eventKo": "Summit LNG·항만 카테고리 진출, 본업 다각화", "whyItMatteredKo": "본업 매출의 카테고리 다각화가 진행된 시기입니다."},
+    {"year": 2020, "event": "Summit becomes Bangladesh's largest private infrastructure player", "eventKo": "Summit 방글라데시 최대 민간 인프라 그룹 자리 굳히기", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2024, "event": "Family wealth peaks; Singapore residence", "eventKo": "가족 평가 자산 정점, 싱가포르 시민권 통한 글로벌 자본 분산 구조", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1985, "eventKo": "Summit Group 창업", "impactKo": "신유 일주의 가을 쇠 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 1997, "eventKo": "방글라데시 첫 민간 발전 사업자 도약", "impactKo": "본업의 카테고리 통로가 만들어진 분기점입니다."},
+    {"year": 2009, "eventKo": "Summit Power 방글라데시 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "방글라데시 상장사 Summit Power International과 비상장 Summit Group 가족 지분이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1985년 창업, 1997년 IPP 도약, 2009년 방글라데시 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "방글라데시 민간 인프라 1위 자리, 발전·LNG·항만 다중 카테고리 분산, 그리고 싱가포르 시민권 통한 글로벌 자본 통로가 강점입니다.",
+    "currentAssetAllocationKo": "Summit Group 가족 지분이 자산의 절대 비중. 자녀 아이샤 칸(Ayesha Aziz Khan) 등 다음 세대로 단계적 이양 중입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 방글라데시 인프라 자금 조달이 단기 압박을 받았습니다.", "howTheyOvercameKo": "장기 PPA 계약 비중 강화로 V자 회복했습니다.", "lessonKo": "인프라 카테고리는 거시 사이클에 자금 조달이 직접 노출됩니다."},
+    {"year": 2018, "descriptionKo": "방글라데시 정치 사이클 변동으로 일부 인프라 사업이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 정책 적응과 카테고리 다각화로 통과했습니다.", "lessonKo": "단일 시장 의존은 정치 사이클 한 번에 본업이 흔들립니다."},
+    {"year": 2024, "descriptionKo": "방글라데시 8월 정치 격변으로 일부 자산 평가가 단기 시험받았습니다.", "howTheyOvercameKo": "싱가포르 거점 글로벌 자본 분산으로 통과 중입니다.", "lessonKo": "단일 시장 의존은 정치 사이클 한 번에 자산이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2009, "netWorth": "$0.3B", "sourceKo": "방글라데시 상장 직후 추정"},
+    {"year": 2018, "netWorth": "$0.8B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Summit Group 창업주", "방글라데시 첫 민간 발전 사업자", "방글라데시 출신", "싱가포르 시민권", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1985년 방글라데시에서 무역업으로 출발해 40년 동안 방글라데시 최대 민간 인프라 그룹을 만든 끈기와, 1997년 첫 민간 발전 사업자로 도약한 카테고리 도약 본능이 강점입니다.",
+    "weaknesses": "방글라데시 단일 시장 의존도와 정치 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "방글라데시 1세대 자수성가형 야망과 본인 세대에서 방글라데시 최대 민간 인프라 그룹을 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "방글라데시·싱가포르 1세대 인프라 자수성가의 표본입니다. 무역업에서 발전·LNG·항만까지 카테고리를 확장한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Yu day pillar (early spring metal on rooster metal) and Myo month branch combine into a sharply forged, learning-authority profile. The format that channels wealth through learned authority matches a 40-year arc from the 1985 founding to the 1997 IPP entry and the 2009 Bangladesh listing.",
+    "summaryKo": "일주는 신유라 이른 봄 쇠가 가을 쇠(닭의 자리) 위에 놓인 형국으로, 두 겹의 단단한 쇠가 결과물로 압축되는 자리입니다. 월지 묘는 봄 나무의 자리라 일간을 외부 자원의 큰 흐름과 결합시키는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1985년 창업, 1997년 IPP 도약, 2009년 방글라데시 상장까지 모두 '학습된 결과물이 단계적으로 본인 자본의 카테고리 1위로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Summit_Group",
+    "https://www.summitgrp.com",
+    "https://www.forbes.com/profile/muhammed-aziz-khan/"
+  ]
+}

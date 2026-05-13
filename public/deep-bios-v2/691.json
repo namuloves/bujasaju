@@ -1,0 +1,73 @@
+{
+  "id": 691,
+  "name": "Benu Gopal Bangur",
+  "nameKo": "베누 고팔 방구르",
+  "birthday": "1931-06-01",
+  "birthPlace": "Kolkata, India",
+  "birthPlaceKo": "인도 콜카타",
+  "netWorth": "$5.8B",
+  "nationality": "IN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "정해",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1931년 인도 콜카타의 마르와리 상인 가문에서 태어났습니다. 정통 학력은 경영 트랙으로, 인도 100년 마르와리 가문 자본의 후계자 정체성을 유년기부터 형성했다고 전해집니다. 부친 만디트 람 방구르가 정립한 가족 직물·시멘트 사업의 후계자입니다.",
+    "capitalTypeKo": "재벌 후계자 — 인도 마르와리 100년 가문 시멘트 자본의 운영형 후계자 (Shree Cement 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Bangur_family"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1950년대 가족 사업 합류로 본업을 잇기 시작했고, 1979년 'Shree Cement' 정립으로 본업 카테고리를 시멘트로 전환했습니다. 2000~2020년대 인도 시멘트 호황기에 본업 매출을 가속, 본격 자본 시장 가치 환원이 진행됐습니다.",
+    "selfMadeScore": 5,
+    "sources": ["https://www.shreecement.com"]
+  },
+  "careerTimeline": [
+    {"year": 1955, "event": "Joins family business in Kolkata", "eventKo": "콜카타 가족 사업 합류 (추정)", "whyItMatteredKo": "정해 일주의 가을 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1979, "event": "Founds Shree Cement", "eventKo": "'Shree Cement' 정립, 인도 시멘트 카테고리 진입", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 1985, "event": "Shree Cement starts production at Beawar plant", "eventKo": "라자스탄 베아와르 공장 가동, 본업 생산 토대 형성", "whyItMatteredKo": "본업 매출의 카테고리 통로가 확립된 시기입니다."},
+    {"year": 2000, "event": "Shree Cement expands across India", "eventKo": "Shree Cement 인도 전역 확장", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 자리로 환원된 시기입니다."},
+    {"year": 2018, "event": "Shree Cement becomes one of India's largest cement makers", "eventKo": "Shree Cement 인도 시멘트 1위급 회사 도약", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $5.8B in Manufacturing", "eventKo": "포브스 2026 — 제조업 58억 달러로 등재", "whyItMatteredKo": "Shree Cement 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1979, "eventKo": "Shree Cement 정립", "impactKo": "정해 일주의 가을 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 결정적 결단입니다."},
+    {"year": 2000, "eventKo": "Shree Cement 인도 전역 확장", "impactKo": "본업 매출이 카테고리 1위 자리로 환원된 분기점입니다."},
+    {"year": 2018, "eventKo": "Shree Cement 인도 1위급 도약", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Shree Cement(NSE: SHREECEM) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1979년 Shree Cement 정립, 2000년 인도 전역 확장, 2018년 인도 1위급 도약이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 시멘트 카테고리 1위급 자리, 라자스탄 광산 자원 통로, 그리고 마르와리 100년 가문 자본망이 강점입니다.",
+    "currentAssetAllocationKo": "Shree Cement 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 건설·시멘트 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "본토 인프라 수요 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 시멘트 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2016, "descriptionKo": "인도 화폐 개혁(Demonetization)으로 인도 건설 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복으로 통과했습니다.", "lessonKo": "정책 한 번에 건설 카테고리 매출이 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 건설 시장이 단기 마비됐습니다.", "howTheyOvercameKo": "인프라 투자 확대와 함께 V자 회복했습니다.", "lessonKo": "거시 충격은 시멘트 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$3.6B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$5.8B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Shree Cement 회장", "방구르 가문 후계자", "마르와리 100년 가문", "인도 시멘트 1위급", "90대 운영 정체성"],
+  "characterKo": {
+    "strengths": "1979년 Shree Cement 정립으로 본업 카테고리를 시멘트로 환원시킨 결단력과, 90세 넘어 회장 자리를 유지하며 본업을 운영한 끈기가 강점입니다.",
+    "weaknesses": "인도 단일 시장 의존도와 건설·시멘트 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "100년 방구르 가문 자본을 본인 세대에서 인도 시멘트 1위급 회사로 환원하고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "인도 마르와리 100년 가문의 운영형 후계자 표본입니다. 가족 직물 사업에서 인도 시멘트 1위급 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Hae day pillar (autumn small fire on pig water) and O month branch combine into a quietly burning, externally-pressured profile. The format that channels wealth through external authority matches a 71-year arc from the 1955 family entry to the 1979 Shree Cement founding and the 2018 industry-leading status.",
+    "summaryKo": "일주는 정해라 가을 작은 불이 한겨울 물(돼지의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 외부의 큰 물에 단단히 응축되는 자리입니다. 월지 오는 한여름 불의 자리라 일간을 외부의 강한 불로 결과물로 환원시키는 통로입니다. 격국은 외부의 권위·압력과 결합하는 흐름이라, 1955년 가족 합류, 1979년 Shree Cement 정립, 2018년 인도 1위급 도약까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bangur_family",
+    "https://www.shreecement.com",
+    "https://www.forbes.com/profile/benu-gopal-bangur/"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 229,
+  "name": "Jason Chang",
+  "nameKo": "제이슨 창 (장 첸셩)",
+  "birthday": "1944-05-01",
+  "birthPlace": "Taiwan",
+  "birthPlaceKo": "대만",
+  "netWorth": "$12.8B",
+  "nationality": "SG",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "을축",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1944년 대만에서 태어났습니다. 정통 학력은 공학 트랙으로, 1980년대 대만에서 반도체 패키징·테스트(OSAT) 사업으로 출발한 1세대 자수성가형 인물입니다. 대만계 싱가포르 화교 자본망의 1세대 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 글로벌 OSAT(반도체 패키징·테스트) 1위 회사 ASE 창업주입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Jason_Chang"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1984년 대만에서 'Advanced Semiconductor Engineering(ASE)'을 창업해 반도체 패키징·테스트 카테고리에서 본업을 만들었습니다. 1996년 ASE 대만 증권거래소 상장, 2018년 SPIL과 합병해 글로벌 OSAT 1위 자리를 굳혔습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.aseglobal.com"]
+  },
+  "careerTimeline": [
+    {"year": 1984, "event": "Founds ASE in Taiwan", "eventKo": "대만에서 'Advanced Semiconductor Engineering(ASE)' 창업, 반도체 패키징·테스트 카테고리 진입", "whyItMatteredKo": "을축 일주의 작은 나무 일간이 안정적으로 자산을 쌓는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1996, "event": "ASE IPOs on Taiwan Stock Exchange", "eventKo": "ASE 대만 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2003, "event": "ASE NYSE ADR listing", "eventKo": "ASE 뉴욕증권거래소 ADR 상장", "whyItMatteredKo": "본업 자본이 글로벌 자본 시장 가치로 한 번 더 환원된 시기입니다."},
+    {"year": 2010, "event": "ASE becomes #1 OSAT globally", "eventKo": "ASE 글로벌 OSAT 1위 자리 굳히기", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2018, "event": "ASE Holdings completes SPIL merger", "eventKo": "ASE 홀딩스 SPIL 합병 완료, 글로벌 OSAT 1위 자리 강화", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 결정적 결단입니다."},
+    {"year": 2024, "event": "ASE benefits from AI semiconductor boom", "eventKo": "ASE 글로벌 AI 반도체 호황 수혜, 가족 평가 자산 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1984, "eventKo": "ASE 창업", "impactKo": "을축 일주의 작은 나무 일간이 안정적으로 자산을 쌓는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 1996, "eventKo": "ASE 대만 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2018, "eventKo": "ASE-SPIL 합병", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "대만 상장사 ASE Technology Holding(3711) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1984년 창업, 1996년 대만 상장, 2018년 SPIL 합병이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 OSAT 1위 자리, 대만 반도체 생태계 결합 통로, 그리고 AI 반도체 호황 수혜가 강점입니다.",
+    "currentAssetAllocationKo": "ASE Technology Holding 가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 글로벌 반도체 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "장기 OEM 계약 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 반도체 사이클은 본업 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "SPIL 합병 직후 단기 통합 비용 부담이 컸습니다.", "howTheyOvercameKo": "단계적 운영 효율화와 글로벌 OSAT 1위 자리 굳히기로 통과했습니다.", "lessonKo": "큰 인수는 단기 통합 비용을 동반합니다."},
+    {"year": 2022, "descriptionKo": "글로벌 반도체 사이클 다운으로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "AI 반도체 카테고리 비중 강화로 V자 회복했습니다.", "lessonKo": "사이클 카테고리는 본업 매출에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$3B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$5B", "sourceKo": "SPIL 합병 후"},
+    {"year": 2023, "netWorth": "$10B", "sourceKo": "AI 반도체 호황"},
+    {"year": 2026, "netWorth": "$12.8B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["ASE 창업주", "글로벌 OSAT 1위", "대만계 싱가포르 화교", "SPIL 합병", "AI 반도체 수혜"],
+  "characterKo": {
+    "strengths": "1984년 대만에서 ASE를 창업해 40년 동안 글로벌 OSAT 1위 회사를 만든 끈기와, 2018년 SPIL 합병으로 본업 카테고리 1위 자리를 굳힌 협상력이 강점입니다.",
+    "weaknesses": "글로벌 반도체 사이클과 미·중 무역분쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "대만 1세대 자수성가형 야망과 본인 세대에서 글로벌 OSAT 1위 회사를 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "대만계 싱가포르 화교 1세대 반도체 자수성가의 표본입니다. 글로벌 OSAT 1위 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Eul-Chuk day pillar (late spring wood on cow earth) and Jin month branch combine into a softly nourished, wealth-accumulating profile. The format that builds wealth through stable assets matches a 40-year arc from the 1984 founding to the 1996 IPO and the 2018 SPIL merger.",
+    "summaryKo": "일주는 을축이라 봄 작은 나무가 한겨울 흙(소의 자리) 위에 놓인 형국으로, 작은 나무가 단단한 흙에 단단히 뿌리내린 자리입니다. 월지 진은 늦봄 흙의 자리라 일간을 두 겹의 흙으로 단단히 받쳐줍니다. 격국은 안정적으로 자산을 쌓는 흐름이라, 1984년 창업, 1996년 상장, 2018년 SPIL 합병까지 모두 '단단한 본인 자본이 단계적으로 글로벌 카테고리 1위로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jason_Chang",
+    "https://www.aseglobal.com",
+    "https://www.forbes.com/profile/jason-chang/"
+  ]
+}

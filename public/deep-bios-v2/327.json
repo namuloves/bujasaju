@@ -1,0 +1,72 @@
+{
+  "id": 327,
+  "name": "Bruce Cheng",
+  "nameKo": "브루스 정 (정 충푸)",
+  "birthday": "1936-11-03",
+  "birthPlace": "Taiwan",
+  "birthPlaceKo": "대만",
+  "netWorth": "$9.9B",
+  "nationality": "TW",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "기축",
+  "gyeokguk": "양인격",
+  "childhood": {
+    "summaryKo": "1936년 대만에서 태어났습니다. 정통 학력보다 시장 실무 경험이 토대인 1세대 자수성가형 인물입니다. 1990년대 글로벌 합성 섬유 사업으로 출발한 1세대 산업가입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 대만 1세대 합성 섬유·플라스틱 자수성가형 인물 (Far Eastern Group 차남)입니다.",
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년 'Eternal Materials' 정립으로 대만 합성 섬유·플라스틱 카테고리에서 본업을 만들었고, 2000년대 전자 화학 카테고리 진출로 본업을 글로벌 1위급 전자용 PCB 화학 회사로 도약시켰습니다. 글로벌 반도체·전자 공급망의 핵심 화학 기업입니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://realtimebillionaires.de/"]
+  },
+  "careerTimeline": [
+    {"year": 1990, "event": "Founds Eternal Materials in Taiwan", "eventKo": "대만에서 'Eternal Materials' 정립, 합성 섬유 카테고리 진입 (추정)", "whyItMatteredKo": "기축 일주의 작은 흙 일간이 강한 외부 자원을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 2000, "event": "Eternal Materials enters electronic chemicals", "eventKo": "Eternal Materials 전자 화학 카테고리 진입, 본업 카테고리 전환", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2010, "event": "Becomes major PCB chemicals supplier globally", "eventKo": "글로벌 PCB 화학 1위급 공급사로 도약", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2015, "event": "Family wealth surges with electronics boom", "eventKo": "글로벌 전자 호황기 가족 평가 자산 가속", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."},
+    {"year": 2021, "event": "Eternal Materials valuations peak with chip shortage", "eventKo": "글로벌 반도체 공급난기 본업 시가총액 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 결정적 결단입니다."},
+    {"year": 2024, "event": "Family wealth maintained amid AI semiconductor boom", "eventKo": "AI 반도체 호황 흐름과 함께 가족 자본 유지", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1990, "eventKo": "Eternal Materials 정립", "impactKo": "기축 일주의 작은 흙 일간이 강한 외부 자원을 본인 결과물로 변환한 결정적 결단입니다."},
+    {"year": 2000, "eventKo": "전자 화학 카테고리 진입", "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다."},
+    {"year": 2021, "eventKo": "글로벌 반도체 공급난기 시가총액 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "대만 상장사 Eternal Materials(1717) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1990년 정립, 2000년 전자 화학 전환, 2021년 시가총액 정점이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 PCB 화학 1위급 자리, 대만 반도체·전자 공급망 결합 통로, 그리고 가족 신탁 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Eternal Materials 가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 전자 화학 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 카테고리 다각화로 V자 회복했습니다.", "lessonKo": "거시 충격은 전자 화학 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "미·중 무역분쟁으로 글로벌 전자 공급망 변동성이 본업을 단기 시험했습니다.", "howTheyOvercameKo": "대만 본토 비중 강화로 통과했습니다.", "lessonKo": "글로벌 정치 사이클은 본업 매출에 직접 영향을 줍니다."},
+    {"year": 2022, "descriptionKo": "글로벌 반도체 사이클 다운으로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "AI 호황 흐름과 단계적 회복으로 통과했습니다.", "lessonKo": "사이클 카테고리는 본업 매출에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$2B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$5B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$11B", "sourceKo": "반도체 공급난기 정점"},
+    {"year": 2026, "netWorth": "$9.9B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Eternal Materials 회장", "글로벌 PCB 화학 1위급", "대만 1세대 산업가", "AI 반도체 수혜", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1990년 대만에서 Eternal Materials 정립으로 본업을 만든 카테고리 도약 본능과, 2000년 전자 화학 전환으로 본업 카테고리를 글로벌 1위급으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 반도체 사이클과 미·중 무역분쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "대만 1세대 자수성가형 야망과 본인 세대에서 글로벌 전자 화학 1위급 회사를 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "대만 1세대 글로벌 전자 화학 자수성가의 표본입니다. 합성 섬유에서 PCB 화학까지 카테고리를 전환한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Chuk day pillar (late autumn earth on cow earth) and Sul month branch combine into a deeply rooted, externally-pressured profile. The format that draws strength from challenge matches a 35-year arc from the 1990 founding to the 2000 electronic chemicals pivot and the 2021 chip-shortage peak.",
+    "summaryKo": "일주는 기축이라 가을 끝 작은 흙이 한겨울 흙(소의 자리) 위에 놓인 형국으로, 두 겹의 흙이 깊이로 다져진 자리입니다. 월지 술은 가을 끝 흙의 자리라 일간을 세 겹의 흙으로 단단히 받쳐줍니다. 격국은 강한 외부 자원을 본인 자본으로 변환하는 흐름이라, 1990년 정립, 2000년 전자 화학 전환, 2021년 공급난기 정점까지 모두 '단단한 본인 자본이 단계적으로 글로벌 카테고리 1위로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/billionaires/",
+    "https://realtimebillionaires.de/"
+  ]
+}

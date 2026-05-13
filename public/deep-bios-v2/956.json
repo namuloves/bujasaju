@@ -1,0 +1,73 @@
+{
+  "id": 956,
+  "name": "Baba Kalyani",
+  "nameKo": "바바 칼야니",
+  "birthday": "1949-01-07",
+  "birthPlace": "Pune, India",
+  "birthPlaceKo": "인도 푸네",
+  "netWorth": "$4.3B",
+  "nationality": "IN",
+  "industry": "Automotive",
+  "gender": "M",
+  "ilju": "정유",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1949년 인도 푸네의 칼야니 가문에서 태어났습니다. 정통 학력은 공학 트랙으로, BITS 필라니 공학 학사·MIT 공학 석사를 거친 정통 인도 1세대 산업 인재 트랙입니다. 1972년 미국 유학을 마치고 부친 닐칸트 칼야니가 정립한 가족 단조 사업에 합류했습니다.",
+    "capitalTypeKo": "재벌 후계자·운영형 자수성가 — 인도 단조·자동차 부품 가족 자본을 글로벌 1위급으로 환원한 인물 (Bharat Forge 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Baba_Kalyani"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1972년 부친의 Bharat Forge에 합류해 본업을 잇기 시작했고, 1997년 회장 취임 후 인도 단조·자동차 부품 카테고리에서 글로벌 1위급으로 도약했습니다. 2010~2020년대에 칼야니 그룹 다각화(국방, 풍력 발전, 인프라)로 본업 카테고리를 확장했습니다.",
+    "selfMadeScore": 6,
+    "sources": ["https://www.bharatforge.com"]
+  },
+  "careerTimeline": [
+    {"year": 1972, "event": "Joins family Bharat Forge after MIT", "eventKo": "MIT 공학 석사 후 가족 Bharat Forge 합류", "whyItMatteredKo": "정유 일주의 가을 작은 불 일간이 학습된 권위의 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1997, "event": "Becomes Chairman of Bharat Forge", "eventKo": "Bharat Forge 회장 취임", "whyItMatteredKo": "본인 자리의 권위가 운영의 정점 트랙으로 환원된 결정적 결단입니다."},
+    {"year": 2005, "event": "Bharat Forge becomes world's second-largest forging company", "eventKo": "Bharat Forge 글로벌 단조 2위 도약", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 자리로 환원된 시기입니다."},
+    {"year": 2014, "event": "Expands into defense manufacturing", "eventKo": "국방 제조 카테고리 진입, 칼야니 그룹 다각화 가속", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2022, "event": "Kalyani Group expands into renewable energy and infrastructure", "eventKo": "칼야니 그룹 신재생에너지·인프라 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리 확장으로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $4.3B in Automotive", "eventKo": "포브스 2026 — 자동차 43억 달러로 등재", "whyItMatteredKo": "Bharat Forge·칼야니 그룹 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1972, "eventKo": "Bharat Forge 합류", "impactKo": "정유 일주의 가을 작은 불 일간이 학습된 권위의 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1997, "eventKo": "Bharat Forge 회장 취임", "impactKo": "본인 자리의 권위가 운영 정점으로 환원된 분기점입니다."},
+    {"year": 2014, "eventKo": "국방 제조 카테고리 진입", "impactKo": "본업 카테고리 다각화가 진행된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Bharat Forge(NSE: BHARATFORG) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1972년 합류, 1997년 회장 취임, 2014년 국방 진입이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 단조 카테고리 1위 자리, 글로벌 자동차 부품 공급망의 인도 비중, 그리고 칼야니 그룹 다각화 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Bharat Forge 본인·가족 지분이 자산의 절대 비중, 칼야니 그룹 비상장 자회사 분산 보유 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 글로벌 자동차 부품 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "비용 효율 강화와 카테고리 다각화로 V자 회복했습니다.", "lessonKo": "글로벌 자동차 부품은 거시 사이클에 직접 노출됩니다."},
+    {"year": 2019, "descriptionKo": "글로벌 자동차 사이클 다운으로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "국방·인프라 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 사이클 한 번에 매출이 흔들립니다."},
+    {"year": 2024, "descriptionKo": "글로벌 전기차 전환으로 본업 단조 카테고리 구조가 단기 시험받고 있습니다.", "howTheyOvercameKo": "전기차 부품 카테고리 비중 강화로 단계적 전환을 시도하고 있습니다.", "lessonKo": "산업 전환 사이클은 카테고리 구조에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.8B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$2.2B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$3.6B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$4.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Bharat Forge 회장", "칼야니 그룹 회장", "글로벌 단조 2위", "MIT 공학 석사", "정통 산업 후계자"],
+  "characterKo": {
+    "strengths": "1997년 회장 취임 후 30년 가까이 Bharat Forge를 운영한 끈기와, 2014년 국방·신재생에너지 카테고리 다각화로 칼야니 그룹을 글로벌 산업 자본으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 자동차 부품 사이클과 산업 전환 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 인도 1세대 산업 후계자 정체성을 본인 세대에서 글로벌 단조 1위급 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 산업 가문의 운영형 후계자 표본입니다. 가족 단조 회사에서 글로벌 단조·국방·인프라 다각화 그룹으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Yu day pillar (autumn small fire on rooster metal) and Ja month branch combine into a quietly burning, learning-authority profile. The format that channels wealth through learned authority matches a 54-year arc from the 1972 entry to the 1997 chairmanship and the 2014 defense pivot.",
+    "summaryKo": "일주는 정유라 가을 작은 불이 가을 쇠(닭의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 단단한 쇠로 결과물을 압축하는 자리입니다. 월지 자는 한겨울 물의 자리라 일간을 외부의 큰 압력·시스템으로 단단히 응축시키는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1972년 합류, 1997년 회장 취임, 2014년 국방 진입까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Baba_Kalyani",
+    "https://www.bharatforge.com",
+    "https://www.forbes.com/profile/baba-kalyani/"
+  ]
+}

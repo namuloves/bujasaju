@@ -1,0 +1,73 @@
+{
+  "id": 98,
+  "name": "Lei Jun",
+  "nameKo": "레이 쥔",
+  "birthday": "1969-12-16",
+  "birthPlace": "Xiantao, Hubei, China",
+  "birthPlaceKo": "중국 후베이성 셴타오",
+  "netWorth": "$24.7B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "을축",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "1969년 후베이성 셴타오에서 태어났습니다. 우한대 컴퓨터공학 학사를 거쳐 정통 IT 인재 트랙입니다. 1991년 졸업 후 킹소프트(Kingsoft) 합류로 본인 IT 인생을 시작했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 킹소프트 CEO 출신이 본인 회사 샤오미·xiaomi Auto를 창업해 글로벌 빌리어네어로 도약한 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Lei_Jun"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1991년 킹소프트 합류, 1998년 킹소프트 CEO 취임으로 본업 운영자 정체성을 만들었습니다. 2010년 샤오미를 8인 공동 창업해 본인 회사로 도약, 2018년 홍콩 상장으로 본격 자본 시장 가치 환원, 2021년 'Xiaomi Auto'(샤오미 자동차) 진출로 EV 카테고리까지 확장했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.mi.com"]
+  },
+  "careerTimeline": [
+    {"year": 1991, "event": "Joins Kingsoft after graduating from Wuhan University", "eventKo": "우한대 졸업 후 킹소프트 합류, IT 인생 시작", "whyItMatteredKo": "을축 일주의 작은 나무 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1998, "event": "Becomes CEO of Kingsoft", "eventKo": "킹소프트 CEO 정식 취임, 본업 운영자 정체성 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2010, "event": "Founds Xiaomi with 8-founder team", "eventKo": "샤오미 8인 공동 창업, 본인 회사 운영자로 도약", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 사업으로 환원된 결정적 결단입니다."},
+    {"year": 2014, "event": "Xiaomi becomes #1 smartphone in China", "eventKo": "샤오미 본토 스마트폰 1위 자리 굳히기", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2018, "event": "Xiaomi IPOs in Hong Kong", "eventKo": "샤오미 홍콩증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 결정적 분기점입니다."},
+    {"year": 2024, "event": "Xiaomi SU7 EV launches; group revenue passes ¥360B", "eventKo": "샤오미 SU7 전기차 출시, 그룹 매출 3,600억 위안 돌파", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1998, "eventKo": "킹소프트 CEO 취임", "impactKo": "을축 일주의 작은 나무 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 결단의 정점으로 환원한 결정적 결단입니다."},
+    {"year": 2010, "eventKo": "샤오미 공동 창업", "impactKo": "외부 자원의 큰 흐름이 본인 사업으로 환원된 결정적 결단입니다."},
+    {"year": 2024, "eventKo": "샤오미 SU7 EV 출시", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "홍콩 상장사 샤오미 그룹(1810), 킹소프트(3888) 등 본인 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2010년 샤오미 공동 창업, 2018년 홍콩 상장, 2024년 SU7 EV 출시가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "샤오미 창업주 정체성, 본토 스마트폰 1위급 자리, 그리고 EV·생태계 다중 카테고리 통로가 강점입니다.",
+    "currentAssetAllocationKo": "샤오미 그룹 본인 지분이 자산의 절대 비중. 글로벌 자산 분산 보유 구조로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2016, "descriptionKo": "샤오미 본토 스마트폰 시장 점유율이 일시 하락했습니다.", "howTheyOvercameKo": "글로벌 시장 진출과 단계적 시장 점유 회복으로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 경쟁자 사이클 한 번에 매출이 흔들립니다."},
+    {"year": 2021, "descriptionKo": "본토 스마트폰 가격 경쟁 격화로 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "프리미엄 제품 비중 강화와 EV 카테고리 진입으로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2024, "descriptionKo": "샤오미 SU7 출시 직후 일부 안전 사고가 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 안전 강화와 글로벌 매출 가속으로 통과 중입니다.", "lessonKo": "신규 카테고리 진입은 단기 신뢰 시험을 동반합니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.5B", "sourceKo": "샤오미 창업 직후 추정"},
+    {"year": 2018, "netWorth": "$10B", "sourceKo": "샤오미 상장 직후"},
+    {"year": 2021, "netWorth": "$25B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$24.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["샤오미 창업주", "킹소프트 출신 CEO", "본토 스마트폰 1위", "Xiaomi Auto EV", "글로벌 테크 1세대"],
+  "characterKo": {
+    "strengths": "킹소프트 CEO 정체성을 본인 회사 샤오미 창업의 토대로 결합한 카테고리 결합 본능과, 2024년 SU7 EV 출시로 본업 카테고리를 전기차까지 확장한 결단력이 강점입니다.",
+    "weaknesses": "본토 스마트폰 가격 경쟁과 글로벌 EV 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "후베이 셴타오 1세대 IT 인재 정체성을 본인 세대에서 글로벌 테크 1위급 회사로 환원하겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "중국 본토 1세대 글로벌 테크 자수성가의 표본입니다. 킹소프트 CEO 출신이 샤오미 창업주로 도약하고 EV 카테고리까지 확장한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Eul-Chuk day pillar (winter wood on cow earth) and Ja month branch combine into a softly nourished, output-focused profile. The format that channels wealth through external production matches a 33-year arc from the 1991 Kingsoft entry to the 2010 Xiaomi founding and the 2024 SU7 launch.",
+    "summaryKo": "일주는 을축이라 한겨울 작은 나무가 한겨울 흙(소의 자리) 위에 놓인 형국으로, 작은 나무가 단단한 흙에 단단히 뿌리내린 자리입니다. 월지 자는 한겨울 물의 자리라 일간을 외부 자원의 큰 흐름과 결합시키는 통로입니다. 격국은 외부에 자기 결과물을 발산하는 흐름이라, 1991년 킹소프트 입사, 2010년 샤오미 창업, 2024년 SU7 출시까지 모두 '학습된 결과물이 단계적으로 본인 자본의 글로벌 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lei_Jun",
+    "https://www.mi.com",
+    "https://www.forbes.com/profile/lei-jun/"
+  ]
+}

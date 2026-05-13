@@ -1,0 +1,72 @@
+{
+  "id": 805,
+  "name": "Lin Lairong",
+  "nameKo": "린 라이룽",
+  "birthday": "1968-08-09",
+  "birthPlace": "China",
+  "birthPlaceKo": "중국",
+  "netWorth": "$5.1B",
+  "nationality": "CN",
+  "industry": "Metals & Mining",
+  "gender": "M",
+  "ilju": "신해",
+  "gyeokguk": "양인격",
+  "childhood": {
+    "summaryKo": "1968년 중국에서 태어났습니다. 정통 학력은 공학 트랙으로, 1990년대 본토 금속·광업 카테고리 진입으로 출발한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 금속·광업 자수성가형 인물입니다.",
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년대 본토 금속·광업 카테고리 진입으로 출발해 2010~2020년대 본토 광업·금속 호황기에 본업 매출을 가속, 2010~2020년대에 자본 시장 가치 환원이 진행됐습니다. 비공개 또는 부분 공개 회사 가족 지분 보유자로 추정됩니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://realtimebillionaires.de/"]
+  },
+  "careerTimeline": [
+    {"year": 1992, "event": "Begins metals/mining business in China", "eventKo": "본토 금속·광업 카테고리 진입 (추정)", "whyItMatteredKo": "신해 일주의 가을 작은 쇠 일간이 본인의 자기 자리 권위를 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2005, "event": "Domestic mining boom drives capacity", "eventKo": "본토 광업 호황기, 본업 매출 토대 형성", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2014, "event": "Capital event or domestic listing", "eventKo": "본업 자본 시장 이벤트 또는 본토 상장 (추정)", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 시기입니다."},
+    {"year": 2018, "event": "Battery metal demand drives capacity", "eventKo": "배터리 금속(리튬·니켈) 수요 가속으로 본업 매출 가속", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2022, "event": "Global EV battery boom peaks revenue", "eventKo": "글로벌 전기차 배터리 호황기 본업 매출 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $5.1B in Metals & Mining", "eventKo": "포브스 2026 — 금속·광업 51억 달러로 등재", "whyItMatteredKo": "조용히 쌓인 본업 자본이 부호 리스트에 정식 등재된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1992, "eventKo": "본토 금속·광업 카테고리 진입", "impactKo": "신해 일주의 가을 작은 쇠 일간이 본인의 자기 자리 권위를 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2014, "eventKo": "본업 자본 이벤트", "impactKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 분기점입니다."},
+    {"year": 2022, "eventKo": "글로벌 전기차 배터리 호황", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비공개 또는 부분 공개 본토 금속·광업 회사 가족 지분에서 나오는 자산이 핵심으로 추정됩니다.",
+    "wealthAcceleratorsKo": "1992년 진입, 2014년 자본 이벤트, 2022년 글로벌 전기차 배터리 호황이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 금속·광업 카테고리 점유, 글로벌 전기차 배터리 통로, 그리고 미디어 노출 최소화 전략이 강점으로 추정됩니다.",
+    "currentAssetAllocationKo": "본토 금속·광업 회사 가족 지분이 자산의 절대 비중으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 본토 광업 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 거시 사이클에 직접 노출됩니다."},
+    {"year": 2014, "descriptionKo": "글로벌 유가 폭락으로 본토 광업·금속 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 원자재 가격 사이클에 직접 노출됩니다."},
+    {"year": 2024, "descriptionKo": "글로벌 전기차 배터리 가격 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과하고 있습니다.", "lessonKo": "사이클 카테고리는 본업 매출에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$3.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$4.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$5.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["본토 금속·광업 1세대", "Hidden Founder", "정보 비공개", "글로벌 전기차 배터리 수혜", "미디어 노출 최소화"],
+  "characterKo": {
+    "strengths": "본토 금속·광업 카테고리에서 34년 가까이 본업을 운영한 끈기와, 글로벌 전기차 배터리 호황을 본인 자본 가치 가속으로 환원시킨 흐름 감각이 강점으로 추정됩니다.",
+    "weaknesses": "글로벌 원자재 가격 사이클과 본토 정책 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 1세대 금속·광업 자수성가 정체성과 미디어 노출 최소화를 본인 자산 운용 원칙으로 삼은 의식이 동력으로 보입니다.",
+    "legacy": "중국 본토 1세대 금속·광업 자수성가의 표본입니다. 미디어 노출 적은 채로 본업 자본만으로 부호 리스트에 진입한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Hae day pillar (autumn small metal on pig water) and Sin month branch combine into a sharply chiseled, self-rooted profile. The format that channels career through one's strong inner authority matches a 34-year arc from the 1992 entry to the 2014 capital event and the 2022 EV battery boom.",
+    "summaryKo": "일주는 신해라 가을 작은 쇠가 한겨울 물(돼지의 자리) 위에 놓인 형국으로, 단단한 작은 쇠가 외부의 큰 물로 결과물로 환원되는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 두 겹의 쇠로 결과물로 압축하는 통로입니다. 격국은 본인의 강한 자기 자리가 그대로 결과물로 환원되는 흐름이라, 1992년 진입, 2014년 자본 이벤트, 2022년 글로벌 전기차 배터리 호황까지 모두 '본인의 강한 자리가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/billionaires/",
+    "https://realtimebillionaires.de/"
+  ]
+}

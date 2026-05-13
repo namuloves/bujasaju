@@ -1,0 +1,73 @@
+{
+  "id": 1574,
+  "name": "Liang Xinjun",
+  "nameKo": "량 신쥔",
+  "birthday": "1968-10-01",
+  "birthPlace": "Hangzhou, China",
+  "birthPlaceKo": "중국 항저우",
+  "netWorth": "$2.6B",
+  "nationality": "SG",
+  "industry": "Finance & Investments",
+  "gender": "M",
+  "ilju": "갑진",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1968년 중국 항저우에서 태어났습니다. 정통 학력은 공학·경영 트랙으로, 푸단대 공학 학사·경영 석사를 거친 정통 본토 신세대 인재 트랙입니다. 1992년 푸단대 동문 궈광창과 함께 본업을 만들었고, 이후 싱가포르 시민권을 취득했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 종합 투자 자수성가형 인물 (Fosun 공동 창업)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Fosun_International"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1992년 상하이에서 푸단대 동문 4인과 'Fosun Group'(푸성 그룹) 공동 창업으로 본업을 만들었고, 본토 제약·자원·금융·미디어 다각화 투자 그룹으로 도약했습니다. 2007년 홍콩 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 2010~2020년대 글로벌 M&A 가속으로 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.fosun.com"]
+  },
+  "careerTimeline": [
+    {"year": 1992, "event": "Co-founds Fosun in Shanghai", "eventKo": "상하이에서 'Fosun Group' 공동 창업, 본토 다각화 투자 그룹 진입", "whyItMatteredKo": "갑진 일주의 봄 큰 나무 일간이 외부 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2007, "event": "Fosun IPOs on Hong Kong Stock Exchange", "eventKo": "Fosun International 홍콩 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2010, "event": "Fosun acquires Club Med stake", "eventKo": "Fosun이 클럽메드 지분 인수, 글로벌 M&A 시동", "whyItMatteredKo": "본업 카테고리가 글로벌로 확장된 결정적 결단입니다."},
+    {"year": 2015, "event": "Acquires Cirque du Soleil with consortium", "eventKo": "태양의 서커스 컨소시엄 인수, 글로벌 카테고리 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리 확장으로 환원된 시기입니다."},
+    {"year": 2017, "event": "Steps down as CEO of Fosun, becomes Vice Chairman", "eventKo": "Fosun CEO에서 부회장으로 전환, 거버넌스 자리로 이동", "whyItMatteredKo": "본인 자리가 운영형에서 거버넌스형으로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $2.6B in Finance & Investments", "eventKo": "포브스 2026 — 금융·투자 26억 달러로 등재", "whyItMatteredKo": "Fosun 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1992, "eventKo": "Fosun 공동 창업", "impactKo": "갑진 일주의 봄 큰 나무 일간이 외부 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2007, "eventKo": "Fosun 홍콩 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2015, "eventKo": "태양의 서커스 컨소시엄 인수", "impactKo": "외부 자원의 큰 흐름이 본업 카테고리 글로벌 확장으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Fosun International(HKEX: 656) 본인 보유 지분 가치와 배당, 그리고 글로벌 분산 자산이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1992년 Fosun 공동 창업, 2007년 홍콩 상장, 2015년 태양의 서커스 인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 다각화 투자 그룹 자리, 글로벌 M&A 협상 통로, 그리고 싱가포르 시민권을 통한 글로벌 자본 분산 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Fosun International 본인 지분과 글로벌 분산 자산이 자산의 핵심입니다."
+  },
+  "failures": [
+    {"year": 2015, "descriptionKo": "본토 자본 통제 강화로 Fosun 글로벌 M&A에 단기 압박이 가해졌습니다.", "howTheyOvercameKo": "단계적 자본 분산과 거버넌스 조정으로 통과했습니다.", "lessonKo": "본토 의존 카테고리는 정책 사이클에 직접 노출됩니다."},
+    {"year": 2017, "descriptionKo": "Fosun의 글로벌 M&A 사이클 종료기 본업 자본 평가가 단기 시험받았습니다.", "howTheyOvercameKo": "거버넌스 재편과 본업 카테고리 집중으로 통과했습니다.", "lessonKo": "글로벌 M&A 사이클은 한 번의 정책 변화에 자본 평가가 흔들립니다."},
+    {"year": 2022, "descriptionKo": "Fosun 부채 부담과 본토 부동산 경기 둔화로 자본 평가가 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 자산 매각과 부채 축소로 통과하고 있습니다.", "lessonKo": "다각화 그룹의 부채 사이클은 자본 평가에 직접 환원됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2015, "netWorth": "$3B", "sourceKo": "포브스 추정 (글로벌 M&A 정점)"},
+    {"year": 2022, "netWorth": "$2.3B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.6B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Fosun 공동 창업", "Fosun 부회장", "본토 1세대 다각화 투자", "푸단대 동문", "싱가포르 시민권"],
+  "characterKo": {
+    "strengths": "1992년 Fosun 공동 창업으로 본토 다각화 투자 그룹 1위급 회사를 만든 카테고리 도약 본능과, 2015년 태양의 서커스 컨소시엄 인수로 본업을 글로벌 자본으로 환원시킨 인수합병 협상력이 강점입니다.",
+    "weaknesses": "본토 정책 사이클과 글로벌 M&A 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 본토 1세대 자수성가 야망과 본인 세대에서 본토 다각화 투자에서 글로벌 자본으로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 종합 투자 자수성가의 표본입니다. 푸단대 동문 4인 공동 창업에서 글로벌 다각화 투자 그룹으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gap-Jin day pillar (early spring big wood on dragon earth) and Sul month branch combine into a tall-standing, externally-pressured profile. The format that channels wealth through external authority matches a 34-year arc from the 1992 Fosun founding to the 2007 Hong Kong IPO and the 2015 Cirque du Soleil acquisition.",
+    "summaryKo": "일주는 갑진이라 봄 큰 나무가 봄 끝 흙(용의 자리) 위에 놓인 형국으로, 큰 나무가 부드러운 흙에 단단히 뿌리내린 형상입니다. 월지 술은 가을 끝 흙의 자리라 일간을 외부의 두 겹 흙으로 결과물로 압축하는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1992년 Fosun 창업, 2007년 홍콩 상장, 2015년 태양의 서커스 인수까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fosun_International",
+    "https://www.fosun.com",
+    "https://www.forbes.com/profile/liang-xinjun/"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": 2945,
+  "name": "Jiang Zhaobai",
+  "nameKo": "장 자오바이",
+  "birthday": "1963-08-17",
+  "birthPlace": "China",
+  "birthPlaceKo": "중국",
+  "netWorth": "$1.2B",
+  "nationality": "CN",
+  "industry": "Real Estate",
+  "gender": "M",
+  "ilju": "임진",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1963년 중국에서 태어났습니다. 정통 학력은 경영 트랙으로, 1990년대 본토 부동산 카테고리 진입으로 출발한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 부동산 자수성가형 인물입니다.",
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년대 본토 부동산 카테고리 진입으로 출발해 2000~2010년대 본토 부동산 호황기에 본업 매출을 가속, 2010~2020년대에 자본 시장 가치 환원이 진행됐습니다. 비공개 또는 부분 공개 회사 가족 지분 보유자로 추정됩니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://realtimebillionaires.de/"]
+  },
+  "careerTimeline": [
+    {"year": 1992, "event": "Begins real estate business in China", "eventKo": "본토 부동산 카테고리 진입 (추정)", "whyItMatteredKo": "임진 일주의 봄 끝 큰 물 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2005, "event": "Domestic real estate boom drives capacity", "eventKo": "본토 부동산 호황기, 본업 매출 토대 형성", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2012, "event": "Capital event or domestic listing", "eventKo": "본업 자본 시장 이벤트 또는 본토 상장 (추정)", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 시기입니다."},
+    {"year": 2016, "event": "Domestic property cycle peaks", "eventKo": "본토 부동산 사이클 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2022, "event": "Diversifies into commercial property categories", "eventKo": "상업 부동산 카테고리 다각화", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.2B in Real Estate", "eventKo": "포브스 2026 — 부동산 12억 달러로 등재", "whyItMatteredKo": "조용히 쌓인 본업 자본이 부호 리스트에 정식 등재된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1992, "eventKo": "본토 부동산 카테고리 진입", "impactKo": "임진 일주의 봄 끝 큰 물 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2012, "eventKo": "본업 자본 이벤트", "impactKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 분기점입니다."},
+    {"year": 2022, "eventKo": "상업 부동산 다각화", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비공개 또는 부분 공개 본토 부동산 회사 가족 지분에서 나오는 자산이 핵심으로 추정됩니다.",
+    "wealthAcceleratorsKo": "1992년 진입, 2012년 자본 이벤트, 2022년 상업 부동산 다각화가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 부동산 카테고리 점유, 본토 도시화 정책 통로, 그리고 미디어 노출 최소화 전략이 강점으로 추정됩니다.",
+    "currentAssetAllocationKo": "본토 부동산 회사 가족 지분이 자산의 절대 비중으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 본토 부동산 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 내수 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 부동산 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2017, "descriptionKo": "본토 부동산 규제 강화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 사업 모델 재편으로 통과했습니다.", "lessonKo": "정책 한 번에 부동산 매출이 흔들립니다."},
+    {"year": 2022, "descriptionKo": "본토 부동산 경기 둔화로 본업 자본 평가가 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 자산 재편으로 통과하고 있습니다.", "lessonKo": "본토 부동산 경기는 본업 자본에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.5B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["본토 부동산 1세대", "Hidden Founder", "정보 비공개", "본토 도시화 통로", "미디어 노출 최소화"],
+  "characterKo": {
+    "strengths": "본토 부동산 카테고리에서 30년 이상 본업을 운영한 끈기와, 본토 도시화 흐름을 본인 자본 가치 가속으로 환원시킨 흐름 감각이 강점으로 추정됩니다.",
+    "weaknesses": "본토 부동산 정책 사이클과 거시 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 1세대 부동산 자수성가 정체성과 미디어 노출 최소화를 본인 자산 운용 원칙으로 삼은 의식이 동력으로 보입니다.",
+    "legacy": "중국 본토 1세대 부동산 자수성가의 표본입니다. 미디어 노출 적은 채로 본업 자본만으로 부호 리스트에 진입한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-Jin day pillar (early winter water on dragon earth) and Sin month branch combine into a deeply flowing, learning-authority profile. The format that channels wealth through learned authority matches a 34-year arc from the 1992 entry to the 2012 capital event and the 2022 commercial pivot.",
+    "summaryKo": "일주는 임진이라 초겨울 큰 물이 봄 끝 흙(용의 자리) 위에 놓인 형국으로, 풍부한 물이 부드러운 흙으로 결과물로 압축되는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1992년 진입, 2012년 자본 이벤트, 2022년 상업 부동산 다각화까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/billionaires/",
+    "https://realtimebillionaires.de/"
+  ]
+}

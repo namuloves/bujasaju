@@ -1,0 +1,73 @@
+{
+  "id": 1704,
+  "name": "Wei Ing-Chou",
+  "nameKo": "웨이 잉저우",
+  "birthday": "1953-07-01",
+  "birthPlace": "Changhua, Taiwan",
+  "birthPlaceKo": "대만 창화",
+  "netWorth": "$2.3B",
+  "nationality": "TW",
+  "industry": "Food & Beverage",
+  "gender": "M",
+  "ilju": "계축",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1953년 대만 창화에서 웨이 가문 4형제 중 장남으로 태어났습니다. 부친 웨이더허가 1958년 작은 식용유 공장을 운영했고, 1978년 부친 사망 후 4형제가 사업을 이어받았습니다.",
+    "capitalTypeKo": "재벌 2세대 — 형제 공동 운영의 한 축으로 가족 식품 사업을 잇는 운영형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Tingyi_Holdings"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1978년 부친 사망 후 동생 잉자오·잉헝과 함께 가족 식용유 공장을 이어받았고, 1989년 형제와 함께 중국 본토 톈진에 진출해 1992년 즉석면 브랜드 캉스푸를 출시했습니다. 1996년 팅이 홀딩스 홍콩 증시 상장 후 중국 즉석면 1위로 도약했고, 본인은 형제 공동 경영 안에서 운영을 분담해왔습니다.",
+    "selfMadeScore": 4,
+    "sources": ["https://www.tingyi.com"]
+  },
+  "careerTimeline": [
+    {"year": 1978, "event": "Joins family edible-oil business after father's death", "eventKo": "부친 사망 후 4형제 공동 경영으로 정신유공창 가족 식용유 사업 합류", "whyItMatteredKo": "계축 일주의 작은 물 일간이 외부의 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1989, "event": "Wei brothers enter mainland China via Tianjin", "eventKo": "톈진을 거점으로 중국 본토 진출, 합자회사 설립", "whyItMatteredKo": "본업의 글로벌 확장이 본격화된 분기점입니다."},
+    {"year": 1992, "event": "Launches Master Kong instant noodles", "eventKo": "캉스푸 즉석면 브랜드 출시, 중국 본토 1호 즉석면 회사로 도약", "whyItMatteredKo": "외부에 자기 결과물을 발산하는 흐름이 카테고리 1위 자리로 환원된 결정적 결단입니다."},
+    {"year": 1996, "event": "Tingyi Holdings lists on Hong Kong Stock Exchange", "eventKo": "팅이 홀딩스 홍콩 증시 상장, 자본 시장 가치 환원", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 시기입니다."},
+    {"year": 2012, "event": "PepsiCo China bottling alliance with Tingyi", "eventKo": "펩시코 중국 보틀링 사업 인수, 음료 카테고리로 다각화", "whyItMatteredKo": "본업 카테고리가 라면에서 음료까지 확장된 전환점입니다."},
+    {"year": 2022, "event": "Tingyi instant-noodle market share holds #1 in China post-COVID", "eventKo": "코로나 이후 캉스푸 중국 즉석면 1위 자리 유지", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점을 다진 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1978, "eventKo": "부친 사망 후 4형제 공동 경영 합류", "impactKo": "계축 일주의 작은 물 일간이 외부의 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 1992, "eventKo": "캉스푸 즉석면 출시", "impactKo": "외부에 자기 결과물을 발산하는 흐름이 카테고리 1위 자리로 환원된 분기점입니다."},
+    {"year": 1996, "eventKo": "팅이 홀딩스 홍콩 증시 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "홍콩 상장사 팅이 홀딩스 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다. 4형제 공동 보유 구조가 특징입니다.",
+    "wealthAcceleratorsKo": "1992년 캉스푸 출시, 1996년 홍콩 상장, 2012년 펩시 보틀링 인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "중국 즉석면 1위 시장 점유, 펩시 보틀링이라는 음료 다각화, 그리고 4형제 공동 경영 구조가 강점입니다.",
+    "currentAssetAllocationKo": "팅이 홀딩스 가족 지분이 자산의 절대 비중. 형제 잉자오·잉헝과 운영 분담 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 팅이 주가가 일시 하락해 가족 평가 자산이 단기에 줄었습니다.", "howTheyOvercameKo": "본토 내수 매출 안정성으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출보다 자본 시장 평가에 먼저 영향을 줍니다."},
+    {"year": 2014, "descriptionKo": "대만계 식용유 안전 논란이 본토 캉스푸 브랜드 신뢰에도 일시적 부정적 영향을 줬습니다.", "howTheyOvercameKo": "본토 공급망 분리 강조와 위생 인증 강화로 신뢰를 회복했습니다.", "lessonKo": "원적지 평판은 본업 브랜드 신뢰에 직접 영향을 줍니다."},
+    {"year": 2020, "descriptionKo": "코로나로 외식 채널이 위축돼 음료 매출이 압박을 받았지만 즉석면은 비축 수요로 호조였습니다.", "howTheyOvercameKo": "음료·라면 카테고리 간 매출 균형으로 사이클을 통과시켰습니다.", "lessonKo": "다중 카테고리 보유는 외부 충격을 흡수하는 자산입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$2.0B", "sourceKo": "포브스 추정"},
+    {"year": 2015, "netWorth": "$2.5B", "sourceKo": "팅이 정점기"},
+    {"year": 2020, "netWorth": "$2.0B", "sourceKo": "코로나 평가 조정"},
+    {"year": 2026, "netWorth": "$2.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["웨이 4형제 장남", "캉스푸 즉석면", "팅이 홀딩스", "대만계 본토 진출", "형제 공동 경영"],
+  "characterKo": {
+    "strengths": "1989년 본토 진출 직후 1992년 캉스푸 즉석면을 카테고리 1위로 끌어올린 결단력과, 4형제 공동 경영 안정 구조가 강점입니다.",
+    "weaknesses": "중국 본토 단일 시장 의존도가 높고, 형제 공동 경영이라 본인 단독 결단의 권한이 제한적입니다.",
+    "motivation": "부친의 작은 식용유 공장을 본인 세대에서 중국 1위 라면 회사로 만들겠다는 가문 의식과 4형제 공동 경영의 합의 의식이 동력입니다.",
+    "legacy": "대만계 화교 가문 2세대 운영형 후계자의 표본입니다. 본토 즉석면 1위 회사를 4형제 공동 경영으로 일궈낸 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Chuk day pillar (mid-summer water on cow earth) and O month branch combine into a softly nourished, externally-pressured profile. The format that channels wealth through external authority matches a 44-year arc from the 1978 family entry to the 1992 Master Kong launch and the 1996 Hong Kong listing.",
+    "summaryKo": "일주는 계축이라 한여름 작은 물이 한겨울 흙(소의 자리) 위에 놓인 형국으로, 부드러운 물이 단단한 흙에 모여 결과물로 빚어지는 자리입니다. 월지 오는 한여름 불의 자리라 일간을 외부의 큰 흐름으로 시험하는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1978년 가족 합류, 1992년 캉스푸 출시, 1996년 홍콩 상장까지 모두 '외부 시스템과의 결합이 본업 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tingyi_Holdings",
+    "https://www.tingyi.com",
+    "https://www.forbes.com/profile/wei-ing-chou/"
+  ]
+}

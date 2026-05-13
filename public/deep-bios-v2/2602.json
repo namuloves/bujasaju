@@ -1,0 +1,73 @@
+{
+  "id": 2602,
+  "name": "Satyanarayana Chava",
+  "nameKo": "사티아나라야나 차바",
+  "birthday": "1961-03-10",
+  "birthPlace": "Andhra Pradesh, India",
+  "birthPlaceKo": "인도 안드라프라데시주",
+  "netWorth": "$1.4B",
+  "nationality": "IN",
+  "industry": "Healthcare",
+  "gender": "M",
+  "ilju": "임인",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1961년 인도 안드라프라데시주에서 태어났습니다. 정통 학력은 화학 트랙으로, 안드라대 화학 박사를 거친 정통 인도 1세대 활성 의약품 원료(API) 인재 트랙입니다. 미국 제약 회사 경력을 거쳐 본업을 만든 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 활성 의약품 원료 자수성가형 인물 (Laurus Labs 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Laurus_Labs"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2005년 하이데라바드에서 'Laurus Labs' 정립으로 본업을 만들었고, 인도 항레트로바이러스(ARV) 활성 의약품 원료 카테고리에서 1위급으로 도약했습니다. 2016년 인도 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 2020~2024년 코로나 시기 활성 의약품 원료 수요 가속으로 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.lauruslabs.com"]
+  },
+  "careerTimeline": [
+    {"year": 2005, "event": "Founds Laurus Labs in Hyderabad", "eventKo": "하이데라바드에서 'Laurus Labs' 정립", "whyItMatteredKo": "임인 일주의 큰 물 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2010, "event": "Becomes top ARV API supplier", "eventKo": "글로벌 항레트로바이러스 활성 의약품 원료 1위급 도약", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2016, "event": "Laurus Labs IPOs on Indian stock exchange", "eventKo": "Laurus Labs 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2018, "event": "Expands into formulations business", "eventKo": "포뮬레이션(완제 의약품) 카테고리 확장", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 시기입니다."},
+    {"year": 2021, "event": "COVID-19 API demand peaks revenue", "eventKo": "코로나 활성 의약품 원료 수요로 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.4B in Healthcare", "eventKo": "포브스 2026 — 헬스케어 14억 달러로 등재", "whyItMatteredKo": "Laurus Labs 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2005, "eventKo": "Laurus Labs 정립", "impactKo": "임인 일주의 큰 물 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2016, "eventKo": "Laurus Labs 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2021, "eventKo": "코로나 활성 의약품 원료 수요 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Laurus Labs(NSE: LAURUSLABS) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2005년 Laurus Labs 정립, 2016년 인도 상장, 2021년 코로나 활성 의약품 원료 호황이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 항레트로바이러스 활성 의약품 원료 카테고리 1위급 자리, 정통 화학 박사 트랙, 그리고 글로벌 제약 공급망 통로가 강점입니다.",
+    "currentAssetAllocationKo": "Laurus Labs 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2017, "descriptionKo": "미국 식품의약국 공장 경고 서한으로 본업 수출이 단기 시험받았습니다.", "howTheyOvercameKo": "공장 개선 조치 완료와 재수출 승인으로 통과했습니다.", "lessonKo": "글로벌 제약 수출은 규제 사이클 한 번에 매출이 직접 흔들립니다."},
+    {"year": 2019, "descriptionKo": "글로벌 제약 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "고부가 활성 의약품 원료 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2023, "descriptionKo": "코로나 활성 의약품 원료 수요 정상화로 본업 매출 정점이 단기 조정됐습니다.", "howTheyOvercameKo": "장기 제약 수요와 단계적 회복을 시도하고 있습니다.", "lessonKo": "사이클 카테고리는 정점 이후 분기 단위로 매출이 조정됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2016, "netWorth": "$0.3B", "sourceKo": "상장 직후"},
+    {"year": 2020, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Laurus Labs 창업주", "인도 ARV 활성 의약품 원료 1위", "정통 화학 박사", "1세대 자수성가", "글로벌 제약 공급망"],
+  "characterKo": {
+    "strengths": "2005년 Laurus Labs 정립으로 본업 카테고리를 항레트로바이러스 활성 의약품 원료로 환원시킨 카테고리 도약 본능과, 2021년 코로나 시기 활성 의약품 원료 호황을 본인 자본 가치 정점으로 환원시킨 흐름 감각이 강점입니다.",
+    "weaknesses": "글로벌 제약 규제 사이클과 가격 경쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 인도 1세대 화학 박사 정체성과 본인 세대에서 인도 활성 의약품 원료 1위급 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 활성 의약품 원료 자수성가의 표본입니다. 정통 화학 박사에서 인도 항레트로바이러스 활성 의약품 원료 1위급 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-In day pillar (early winter water on tiger wood) and Myo month branch combine into a deeply flowing, learning-authority profile. The format that channels wealth through learned authority matches a 21-year arc from the 2005 Laurus founding to the 2016 IPO and the 2021 COVID-era surge.",
+    "summaryKo": "일주는 임인이라 초겨울 큰 물이 봄 나무(호랑이의 자리) 위에 놓인 형국으로, 풍부한 물이 외부의 큰 나무로 결과물로 환원되는 자리입니다. 월지 묘는 봄 나무의 자리라 일간을 두 겹의 봄 나무로 결과물로 환원시키는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 2005년 Laurus 정립, 2016년 인도 상장, 2021년 코로나 활성 의약품 원료 정점까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Laurus_Labs",
+    "https://www.lauruslabs.com",
+    "https://www.forbes.com/profile/satyanarayana-chava/"
+  ]
+}

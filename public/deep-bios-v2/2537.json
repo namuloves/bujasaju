@@ -1,0 +1,73 @@
+{
+  "id": 2537,
+  "name": "Shamsheer Vayalil",
+  "nameKo": "샴시르 바얄릴",
+  "birthday": "1977-01-11",
+  "birthPlace": "Kerala, India",
+  "birthPlaceKo": "인도 케랄라",
+  "netWorth": "$1.5B",
+  "nationality": "IN",
+  "industry": "Healthcare",
+  "gender": "M",
+  "ilju": "무진",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "1977년 인도 케랄라에서 태어났습니다. 인도 카스투르바 의대 학사를 거쳐 방사선학 전문의 자격을 취득한 정통 의료 인재 트랙입니다. UAE 아부다비에서 의사로 활동하며 본업을 만들었습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 의사 출신이 UAE 1세대 헬스케어 그룹 'Burjeel Holdings' 창업주로 도약한 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Burjeel_Holdings"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2000년대 후반 UAE 아부다비에서 방사선과 의사로 출발해 2007년 'Burjeel Holdings' 창업, UAE·중동 헬스케어 카테고리에서 본업을 만들었습니다. 2022년 아부다비 증권거래소(ADX) 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.burjeelholdings.com"]
+  },
+  "careerTimeline": [
+    {"year": 2002, "event": "Begins medical career in UAE", "eventKo": "UAE 아부다비에서 방사선과 의사 경력 시작 (추정)", "whyItMatteredKo": "무진 일주의 큰 흙 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2007, "event": "Founds Burjeel Holdings", "eventKo": "Burjeel Holdings 창업, UAE 헬스케어 카테고리 진입", "whyItMatteredKo": "본업의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2014, "event": "Burjeel expands across UAE/Oman", "eventKo": "Burjeel UAE·오만 시장 전역 확장", "whyItMatteredKo": "본업 매출의 카테고리 통로가 정점에 도달한 시기입니다."},
+    {"year": 2020, "event": "Pandemic boosts UAE healthcare demand", "eventKo": "코로나로 UAE 헬스케어 수요 가속, 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2022, "event": "Burjeel Holdings IPOs on Abu Dhabi Securities Exchange", "eventKo": "Burjeel Holdings 아부다비 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 결정적 분기점입니다."},
+    {"year": 2024, "event": "Burjeel expands further across MENA", "eventKo": "Burjeel 중동·북아프리카(MENA) 시장 추가 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2007, "eventKo": "Burjeel Holdings 창업", "impactKo": "무진 일주의 큰 흙 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2014, "eventKo": "Burjeel UAE·오만 확장", "impactKo": "본업 매출의 카테고리 통로가 정점에 도달한 분기점입니다."},
+    {"year": 2022, "eventKo": "Burjeel 아부다비 증권거래소 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "아부다비 상장사 Burjeel Holdings(ADX: BURJEEL) 본인 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2007년 창업, 2014년 UAE·오만 확장, 2022년 ADX 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "UAE·MENA 헬스케어 카테고리 점유, 인도계 의사 출신 정체성, 그리고 ADX 자본 시장 통로가 강점입니다.",
+    "currentAssetAllocationKo": "Burjeel Holdings 본인 지분이 자산의 절대 비중."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 UAE 헬스케어 시장이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 시장 회복과 카테고리 다각화로 V자 회복했습니다.", "lessonKo": "거시 충격은 헬스케어 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2020, "descriptionKo": "코로나 1차 락다운으로 일부 의료 절차가 단기 시험받았습니다.", "howTheyOvercameKo": "이후 코로나 치료 능력 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 카테고리 구성에 따라 양면적 영향을 줍니다."},
+    {"year": 2024, "descriptionKo": "MENA 헬스케어 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복을 시도하고 있습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2018, "netWorth": "$0.5B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$1.3B", "sourceKo": "ADX 상장 직후"},
+    {"year": 2024, "netWorth": "$1.4B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Burjeel Holdings 창업주", "UAE·MENA 헬스케어 1위급", "방사선과 의사 출신", "1977년생 빌리어네어", "케랄라 출신"],
+  "characterKo": {
+    "strengths": "케랄라 의사 출신이 UAE에서 본인 세대에서 MENA 헬스케어 1위급 회사를 만든 카테고리 도약 본능과, 2022년 ADX 상장으로 본업 매출을 자본 시장 가치로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "MENA 단일 시장 의존도와 가격 경쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "케랄라 의사 출신이 UAE 1세대 헬스케어 그룹을 만들겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "인도계 UAE 1세대 헬스케어 자수성가의 표본입니다. 의사 출신이 ADX 상장 회사 창업주로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Jin day pillar (winter earth on dragon earth) and Chuk month branch combine into a deeply rooted, output-focused profile. The format that channels wealth through what he produces matches a 17-year arc from the 2007 founding to the 2022 ADX IPO and the 2024 MENA expansion.",
+    "summaryKo": "일주는 무진이라 한겨울 큰 흙이 늦봄 흙(용의 자리) 위에 놓인 형국으로, 두 겹의 큰 흙이 외부 자원의 큰 흐름을 안에 모으는 자리입니다. 월지 축은 한겨울 흙의 자리라 일간을 세 겹의 흙으로 단단히 받쳐줍니다. 격국은 외부에 자기 결과물을 발산하는 흐름이라, 2007년 창업, 2014년 UAE 확장, 2022년 ADX 상장까지 모두 '학습된 결과물이 단계적으로 본인 자본으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Burjeel_Holdings",
+    "https://www.burjeelholdings.com",
+    "https://www.forbes.com/profile/shamsheer-vayalil/"
+  ]
+}

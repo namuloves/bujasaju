@@ -1,0 +1,73 @@
+{
+  "id": 1563,
+  "name": "Eugene Wu",
+  "nameKo": "유진 우 (우 둥성)",
+  "birthday": "1945-05-03",
+  "birthPlace": "Taipei, Taiwan",
+  "birthPlaceKo": "대만 타이베이",
+  "netWorth": "$2.6B",
+  "nationality": "TW",
+  "industry": "Finance & Investments",
+  "gender": "M",
+  "ilju": "임신",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1945년 대만 타이베이의 우 가문에서 태어났습니다. 부친 우훠스(Wu Ho-su)가 1963년 'Shin Kong Group'(신광 그룹) 창업주였고, 본인은 정통 후계자 트랙으로 미국 캘리포니아대 학위를 취득한 가문 2세대입니다.",
+    "capitalTypeKo": "재벌 2세대 — 신광금융지주 가족 자본을 잇는 운영형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Eugene_Wu"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1970년대 가족 사업 합류, 1986년 부친 사망 후 'Shin Kong Group' 가족 자본 분할 합의로 본인이 'Shin Kong Financial Holding'(신광금융지주) 라인을 잇는 운영자가 됐습니다. 2002년 신광금융지주 정식 출범으로 본인 결단의 정점에 자리잡았습니다.",
+    "selfMadeScore": 3,
+    "sources": ["https://www.skfh.com.tw"]
+  },
+  "careerTimeline": [
+    {"year": 1970, "event": "Joins family Shin Kong business", "eventKo": "Shin Kong 가족 사업 합류 (추정)", "whyItMatteredKo": "임신 일주의 큰 물 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1986, "event": "Father Wu Ho-su dies; family capital divides", "eventKo": "부친 우훠스 사망, 가족 자본 분할", "whyItMatteredKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 결정적 결단입니다."},
+    {"year": 1995, "event": "Senior management at Shin Kong Life Insurance", "eventKo": "Shin Kong 생명보험 임원 라인 진입", "whyItMatteredKo": "본업 매출의 운영 통로가 만들어진 시기입니다."},
+    {"year": 2002, "event": "Shin Kong Financial Holding established", "eventKo": "Shin Kong Financial Holding 정식 출범", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 결단의 정점으로 환원된 결정적 결단입니다."},
+    {"year": 2014, "event": "Shin Kong expands across Asia", "eventKo": "Shin Kong 아시아 시장 확장", "whyItMatteredKo": "본업 카테고리가 글로벌로 확장된 시기입니다."},
+    {"year": 2024, "event": "Shin Kong Financial revenue passes NT$200B", "eventKo": "Shin Kong Financial 연결 매출 2,000억 대만달러 돌파, 가족 평가 자산 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1986, "eventKo": "부친 사망 후 가족 자본 분할", "impactKo": "임신 일주의 큰 물 일간이 학습된 결과물의 흐름을 본인 결단의 정점으로 환원한 결정적 결단입니다."},
+    {"year": 2002, "eventKo": "Shin Kong Financial Holding 정식 출범", "impactKo": "외부 자원의 큰 흐름이 본인 결단의 정점으로 환원된 분기점입니다."},
+    {"year": 2014, "eventKo": "Shin Kong 아시아 시장 확장", "impactKo": "본업 카테고리가 글로벌로 확장된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "대만 상장사 Shin Kong Financial Holding(2888) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1986년 가족 분할, 2002년 Shin Kong Financial 출범, 2014년 아시아 확장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "대만 보험·은행 카테고리 점유, Shin Kong 그룹 가문 2세대 정체성, 그리고 가족 신탁 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Shin Kong Financial Holding 가족 지분이 자산의 절대 비중."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 Shin Kong 자산 운용이 단기 압박을 받았습니다.", "howTheyOvercameKo": "보수적 자산 배분으로 V자 회복했습니다.", "lessonKo": "글로벌 자산 운용은 거시 충격에 평가가 직접 노출됩니다."},
+    {"year": 2018, "descriptionKo": "본토 시장 변동성으로 일부 자산 운용이 단기 시험받았습니다.", "howTheyOvercameKo": "본토 매출 안정성으로 통과했습니다.", "lessonKo": "본토 시장 변동은 자산운용에 직접 영향을 줍니다."},
+    {"year": 2022, "descriptionKo": "글로벌 금리 인상기 보험 자산 운용이 시험받았습니다.", "howTheyOvercameKo": "보수적 자산 배분 강화로 통과 중입니다.", "lessonKo": "보험 자산 운용은 거시 사이클에 평가가 직접 노출됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$2B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$2.3B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.6B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Shin Kong Financial 회장", "우 가문 2세대", "우훠스 차남", "캘리포니아대 학위", "재벌 2세대"],
+  "characterKo": {
+    "strengths": "1970년 가족 사업 합류 후 55년 동안 Shin Kong 가족 자본을 보전·확장한 끈기와, 2002년 Shin Kong Financial 출범으로 본인 결단의 정점을 만든 결단력이 강점입니다.",
+    "weaknesses": "대만 단일 시장 의존도와 글로벌 자산 운용 사이클에 평가 자산이 직접 노출됩니다.",
+    "motivation": "부친 우훠스의 가족 자본을 본인 세대에서 Shin Kong Financial Holding으로 환원하고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "대만 금융 가문 2세대 운영형 후계자의 표본입니다. 가족 분할 후 Shin Kong Financial Holding을 만든 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-Sin day pillar (late spring water on monkey metal) and Jin month branch combine into a wide-flowing, learning-authority profile. The format that channels wealth through learned authority matches a 55-year arc from the 1970 family entry to the 1986 family split and the 2002 Shin Kong Financial formation.",
+    "summaryKo": "일주는 임신이라 늦봄 큰 물이 가을 쇠(원숭이의 자리) 위에 놓인 형국으로, 풍부한 물이 단단한 쇠로 결과물로 환원되는 자리입니다. 월지 진은 늦봄 흙의 자리라 일간을 외부의 큰 흐름과 결합시키는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1970년 가족 진입, 1986년 분할, 2002년 Shin Kong Financial 출범까지 모두 '학습된 가족 자본이 단계적으로 카테고리 확장으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Eugene_Wu",
+    "https://www.skfh.com.tw",
+    "https://www.forbes.com/profile/eugene-wu/"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 2629,
+  "name": "Sanjay Agarwal",
+  "nameKo": "산자이 아가왈",
+  "birthday": "1970-09-08",
+  "birthPlace": "Rajasthan, India",
+  "birthPlaceKo": "인도 라자스탄주",
+  "netWorth": "$1.4B",
+  "nationality": "IN",
+  "industry": "Finance & Investments",
+  "gender": "M",
+  "ilju": "신묘",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1970년 인도 라자스탄주의 마르와리 상인 가문에서 태어났습니다. 정통 학력은 회계 트랙으로, 인도 공인회계사(CA) 자격을 보유한 정통 인도 1세대 금융 인재 트랙입니다. 1996년 라자스탄 자이푸르에서 'AU Financiers' 정립으로 본업을 만들었습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 소액 금융·소형 은행 자수성가형 인물 (AU Small Finance Bank 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/AU_Small_Finance_Bank"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1996년 자이푸르에서 'AU Financiers' 비은행금융기관 정립으로 본업을 만들었고, 2017년 'AU Small Finance Bank' 소형 은행 라이선스 확보로 한 단계 도약했습니다. 같은 해 인도 증권거래소 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.aubank.in"]
+  },
+  "careerTimeline": [
+    {"year": 1996, "event": "Founds AU Financiers in Jaipur", "eventKo": "자이푸르에서 'AU Financiers' 비은행금융기관 정립", "whyItMatteredKo": "신묘 일주의 가을 작은 쇠 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2005, "event": "AU Financiers expands across Rajasthan", "eventKo": "AU Financiers 라자스탄 전역 확장", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2015, "event": "Receives Small Finance Bank in-principle license", "eventKo": "인도 중앙은행 소형 은행 사전 라이선스 확보", "whyItMatteredKo": "본업 카테고리가 비은행에서 은행으로 환원된 시기입니다."},
+    {"year": 2017, "event": "Becomes AU Small Finance Bank, IPOs on Indian stock exchange", "eventKo": "AU Small Finance Bank로 환원 후 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2024, "event": "AU acquires Fincare Small Finance Bank", "eventKo": "AU가 Fincare Small Finance Bank 인수, 본업 카테고리 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.4B in Finance & Investments", "eventKo": "포브스 2026 — 금융·투자 14억 달러로 등재", "whyItMatteredKo": "AU Small Finance Bank 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1996, "eventKo": "AU Financiers 정립", "impactKo": "신묘 일주의 가을 작은 쇠 일간이 자기 표현의 결과물을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2017, "eventKo": "AU Small Finance Bank 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2024, "eventKo": "Fincare 인수", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "AU Small Finance Bank(NSE: AUBANK) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1996년 AU Financiers 정립, 2017년 소형 은행·상장, 2024년 Fincare 인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 소형 은행 카테고리 1위급 자리, 라자스탄 마르와리 자본망, 그리고 비은행에서 은행으로 카테고리 환원 통로가 강점입니다.",
+    "currentAssetAllocationKo": "AU Small Finance Bank 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2016, "descriptionKo": "인도 화폐 개혁(Demonetization)으로 비은행 금융 거래가 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 소형 은행 라이선스 확보로 통과했습니다.", "lessonKo": "정책 한 번에 비은행 금융 카테고리 매출이 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 소형 금융 시장이 단기 마비됐습니다.", "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 소형 금융 매출에 분기 단위로 직접 영향을 줍니다."},
+    {"year": 2023, "descriptionKo": "인도 금리 사이클 변동으로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "금융 카테고리는 금리 사이클에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2017, "netWorth": "$0.4B", "sourceKo": "상장 직후"},
+    {"year": 2020, "netWorth": "$0.8B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["AU Small Finance Bank 창업주", "인도 1세대 소형 은행", "마르와리 자본망", "정통 공인회계사", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1996년 AU Financiers 정립으로 본업 카테고리를 비은행 금융으로 환원시킨 카테고리 도약 본능과, 2017년 소형 은행 라이선스 확보 후 상장으로 본업을 자본 시장 가치로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 정책 사이클과 금리 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 인도 1세대 마르와리 회계사 정체성과 본인 세대에서 비은행 금융에서 소형 은행 카테고리로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 소형 은행 자수성가의 표본입니다. 자이푸르 비은행 금융에서 인도 소형 은행 1위급 회사로 카테고리를 환원시킨 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Myo day pillar (autumn small metal on rabbit wood) and Yu month branch combine into a sharply chiseled, self-expressing profile. The format that channels wealth through one's creative output matches a 30-year arc from the 1996 AU founding to the 2017 IPO and the 2024 Fincare acquisition.",
+    "summaryKo": "일주는 신묘라 가을 작은 쇠가 봄 나무(토끼의 자리) 위에 놓인 형국으로, 단단한 작은 쇠가 봄 나무의 큰 자원으로 결과물로 빚어지는 자리입니다. 월지 유는 가을 쇠의 자리라 일간을 두 겹의 단단한 쇠로 결과물로 압축하는 통로입니다. 격국은 자기 표현의 결과물 흐름이라, 1996년 AU 정립, 2017년 상장, 2024년 Fincare 인수까지 모두 '자기 표현의 결과물이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/AU_Small_Finance_Bank",
+    "https://www.aubank.in",
+    "https://www.forbes.com/profile/sanjay-agarwal/"
+  ]
+}

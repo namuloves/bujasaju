@@ -1,0 +1,73 @@
+{
+  "id": 1192,
+  "name": "Ramon Ang",
+  "nameKo": "라몬 앙",
+  "birthday": "1954-01-14",
+  "birthPlace": "Cebu, Philippines",
+  "birthPlaceKo": "필리핀 세부",
+  "netWorth": "$3.5B",
+  "nationality": "PH",
+  "industry": "Food & Beverage",
+  "gender": "M",
+  "ilju": "경오",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1954년 필리핀 세부의 화교계 가문에서 태어났습니다. 정통 학력은 공학 트랙으로, 필리핀 1세대 다각화 산업 자수성가형 인물입니다. 1980년대 산미겔 그룹(San Miguel Corporation) 합류로 본업 정체성을 만들었습니다.",
+    "capitalTypeKo": "맨몸 자수성가·운영형 — 필리핀 1세대 다각화 그룹 자수성가형 인물 (San Miguel Corporation 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Ramon_Ang"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1989년 산미겔 그룹 합류로 본업을 잇기 시작했고, 2002년 부사장 자리에 도약, 2012년 사장에 취임했습니다. 본업은 필리핀 식음료·통신·에너지·인프라 다각화 그룹이고, 2010~2024년 필리핀 다각화 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://www.sanmiguel.com.ph"]
+  },
+  "careerTimeline": [
+    {"year": 1989, "event": "Joins San Miguel Corporation", "eventKo": "San Miguel Corporation 합류", "whyItMatteredKo": "경오 일주의 가을 큰 쇠 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2002, "event": "Becomes Vice Chairman of San Miguel", "eventKo": "San Miguel 부회장 자리 도약", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2012, "event": "Becomes President of San Miguel", "eventKo": "San Miguel 사장 취임", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다."},
+    {"year": 2015, "event": "Pivots San Miguel into infrastructure and energy", "eventKo": "San Miguel 인프라·에너지 카테고리 다각화", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2022, "event": "Post-pandemic Philippine recovery peaks", "eventKo": "포스트 코로나 필리핀 회복기 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $3.5B in Food & Beverage", "eventKo": "포브스 2026 — 식음료 35억 달러로 등재", "whyItMatteredKo": "San Miguel Corporation 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1989, "eventKo": "San Miguel 합류", "impactKo": "경오 일주의 가을 큰 쇠 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2012, "eventKo": "San Miguel 사장 취임", "impactKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 분기점입니다."},
+    {"year": 2022, "eventKo": "포스트 코로나 필리핀 회복", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "San Miguel Corporation(PSE: SMC) 본인 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1989년 합류, 2012년 사장 취임, 2022년 포스트 코로나 회복이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "필리핀 다각화 그룹 1위급 자리, 식음료·통신·에너지·인프라 거버넌스 구조, 그리고 정치 연결 통로가 강점입니다.",
+    "currentAssetAllocationKo": "San Miguel Corporation 본인 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 1997, "descriptionKo": "아시아 외환위기로 필리핀 자본 시장이 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 시장 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 다각화 그룹 자본에 분기 단위로 영향을 줍니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 필리핀 자본이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 거시 사이클은 본업 매출에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 필리핀 리테일·식음료 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2012, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$3.1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$3.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["San Miguel Corporation 회장", "필리핀 다각화 1위", "식음료·통신·에너지", "필리핀 화교 자수성가", "정통 후계 운영자"],
+  "characterKo": {
+    "strengths": "1989년 San Miguel Corporation 합류 후 35년 동안 필리핀 다각화 그룹의 한 축으로 자리잡은 끈기와, 2015년 인프라·에너지 다각화로 본업을 글로벌 자본으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "필리핀 단일 시장 의존도와 글로벌 거시 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "필리핀 화교 1세대 자수성가 야망과 본인 세대에서 산미겔을 필리핀 다각화 1위 그룹으로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "필리핀 1세대 다각화 그룹 운영자의 표본입니다. San Miguel 합류에서 필리핀 다각화 1위 그룹 회장으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gyeong-O day pillar (autumn metal on horse fire) and Chuk month branch combine into a sharply forged, self-expressing profile. The format that channels wealth through one's bold creative output matches a 37-year arc from the 1989 entry to the 2012 presidency and the 2022 post-pandemic peak.",
+    "summaryKo": "일주는 경오라 가을 큰 쇠가 한여름 불(말의 자리) 위에 놓인 형국으로, 단단한 쇠가 강한 불로 결과물로 다져지는 자리입니다. 월지 축은 겨울 끝 흙의 자리라 일간을 외부의 강한 흙으로 결과물로 빚어내는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1989년 합류, 2012년 사장 취임, 2022년 포스트 코로나 회복까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ramon_Ang",
+    "https://www.sanmiguel.com.ph",
+    "https://www.forbes.com/profile/ramon-ang/"
+  ]
+}

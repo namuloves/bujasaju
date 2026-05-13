@@ -1,0 +1,73 @@
+{
+  "id": 1277,
+  "name": "Kiran Mazumdar-Shaw",
+  "nameKo": "키란 마줌다르-샤우",
+  "birthday": "1953-03-23",
+  "birthPlace": "Bangalore, India",
+  "birthPlaceKo": "인도 벵갈루루",
+  "netWorth": "$3.2B",
+  "nationality": "IN",
+  "industry": "Healthcare",
+  "gender": "F",
+  "ilju": "계유",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1953년 인도 벵갈루루에서 태어났습니다. 부친은 인도 양조 회사 'United Breweries'(UB) 마스터 브루어였고, 본인은 호주 멜버른대 양조학 석사를 취득한 정통 학력 트랙입니다. 인도 1세대 여성 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 양조사 출신 여성이 인도 1세대 바이오테크 회사 'Biocon' 창업주로 도약한 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Kiran_Mazumdar-Shaw"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1978년 25세에 벵갈루루에서 'Biocon' 창업해 인도 1세대 바이오테크 카테고리에서 본업을 만들었습니다. 2004년 인도 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 2010년대 글로벌 바이오 시밀러·생명공학 카테고리로 본업을 글로벌화했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.biocon.com"]
+  },
+  "careerTimeline": [
+    {"year": 1978, "event": "Founds Biocon at age 25 in Bangalore", "eventKo": "25세에 벵갈루루에서 'Biocon' 창업, 인도 1세대 바이오테크 카테고리 진입", "whyItMatteredKo": "계유 일주의 작은 물 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1989, "event": "Biocon expands into pharmaceutical enzymes", "eventKo": "Biocon 의약품 효소 카테고리로 확장", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2004, "event": "Biocon IPOs in India", "eventKo": "Biocon 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2014, "event": "Biocon partners with Mylan for biosimilars", "eventKo": "Biocon, Mylan과 글로벌 바이오 시밀러 협업 시작", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2020, "event": "Pandemic boosts global biotech demand", "eventKo": "코로나로 글로벌 바이오테크 수요 가속, 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2024, "event": "Biocon Biologics expands global biosimilar portfolio", "eventKo": "Biocon Biologics 글로벌 바이오 시밀러 포트폴리오 확장", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1978, "eventKo": "25세에 Biocon 창업", "impactKo": "계유 일주의 작은 물 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2004, "eventKo": "Biocon 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2014, "eventKo": "Mylan과 글로벌 바이오 시밀러 협업", "impactKo": "외부 자원의 큰 흐름이 본업 카테고리로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "인도 상장사 Biocon(NSE: BIOCON), Biocon Biologics 등 본인 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1978년 창업, 2004년 인도 상장, 2014년 Mylan 협업이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 1세대 바이오테크 정체성, 글로벌 바이오 시밀러 카테고리 점유, 그리고 여성 1세대 자수성가형 정체성이 강점입니다.",
+    "currentAssetAllocationKo": "Biocon 본인 지분이 자산의 절대 비중. 자녀 세대로의 이양은 점진적 진행 중입니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "미국 FDA 인증 절차로 단기 비용 부담이 컸습니다.", "howTheyOvercameKo": "단계적 인증 통과와 글로벌 매출 가속으로 통과했습니다.", "lessonKo": "글로벌 인증 시스템은 본업 매출 진입을 분기 단위로 시험합니다."},
+    {"year": 2018, "descriptionKo": "인도 의약품 약가 인하 정책으로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "고부가 바이오 시밀러 카테고리 비중 강화로 통과했습니다.", "lessonKo": "정책 한 번에 카테고리 마진이 흔들립니다."},
+    {"year": 2022, "descriptionKo": "글로벌 바이오 시밀러 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "Mylan과의 글로벌 협업 강화로 통과 중입니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2004, "netWorth": "$0.5B", "sourceKo": "상장 직후 추정"},
+    {"year": 2014, "netWorth": "$1.5B", "sourceKo": "Mylan 협업 직후"},
+    {"year": 2022, "netWorth": "$3B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$3.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Biocon 창업주", "인도 1세대 여성 자수성가", "양조사 출신", "글로벌 바이오 시밀러", "여성 빌리어네어"],
+  "characterKo": {
+    "strengths": "25세 양조사 출신이 인도 1세대 바이오테크 회사를 만든 카테고리 도약 본능과, Mylan 글로벌 협업으로 본업을 글로벌화한 협상력이 강점입니다.",
+    "weaknesses": "글로벌 바이오 시밀러 가격 경쟁과 미국 FDA 인증 시스템에 본업 매출이 직접 노출됩니다.",
+    "motivation": "벵갈루루 1세대 여성 자수성가형 야망과 본인 세대에서 인도 1세대 바이오테크 회사를 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 여성 바이오테크 자수성가의 표본입니다. 양조사 출신 여성이 글로벌 바이오 시밀러 1위급 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Gye-Yu day pillar (early spring water on rooster metal) and Myo month branch combine into a softly flowing, output-focused profile. The format that channels wealth through external production matches a 46-year arc from the 1978 founding to the 2004 IPO and the 2014 Mylan partnership.",
+    "summaryKo": "일주는 계유라 이른 봄 작은 물이 가을 쇠(닭의 자리) 위에 놓인 형국으로, 부드러운 물이 단단한 쇠로 결과물로 환원되는 자리입니다. 월지 묘는 봄 나무의 자리라 일간을 외부 자원의 큰 흐름과 결과물로 환원시키는 통로입니다. 격국은 외부에 자기 결과물을 발산하는 흐름이라, 1978년 창업, 2004년 인도 상장, 2014년 Mylan 협업까지 모두 '직접 만든 결과물이 단계적으로 본인 자본으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kiran_Mazumdar-Shaw",
+    "https://www.biocon.com",
+    "https://www.forbes.com/profile/kiran-mazumdar-shaw/"
+  ]
+}

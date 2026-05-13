@@ -1,0 +1,73 @@
+{
+  "id": 3144,
+  "name": "Aidyn Rakhimbayev",
+  "nameKo": "아이딘 라힘바예프",
+  "birthday": "1972-09-20",
+  "birthPlace": "Kazakhstan",
+  "birthPlaceKo": "카자흐스탄",
+  "netWorth": "$1.1B",
+  "nationality": "KZ",
+  "industry": "Real Estate",
+  "gender": "M",
+  "ilju": "갑인",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1972년 카자흐스탄에서 태어났습니다. 정통 학력은 경영 트랙으로, 카자흐스탄 1세대 부동산 자수성가 정체성을 형성한 정통 카자흐스탄 1세대 부동산 자수성가 트랙입니다.",
+    "capitalTypeKo": "1세대 자수성가 — 카자흐스탄 1세대 부동산 가문 창업주 (BI Group 정립)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/BI_Group"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1995년 카자흐스탄에서 'BI Group' 정립으로 본업을 시작했고, 1990~2010년대 카자흐스탄 자원·인프라 호황기에 본업 매출을 가속, 2010~2024년 누르술탄·알마티 도시 개발 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.bi-group.org"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Founds BI Group in Kazakhstan", "eventKo": "카자흐스탄에서 'BI Group' 정립", "whyItMatteredKo": "갑인 일주의 봄 큰 나무 일간이 외부 자원의 큰 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1998, "event": "Astana becomes new Kazakh capital", "eventKo": "아스타나(누르술탄) 카자흐스탄 신수도 결정", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2008, "event": "BI Group becomes largest Kazakh developer", "eventKo": "BI Group 카자흐스탄 1위 부동산 개발사 도약", "whyItMatteredKo": "본업 매출이 카테고리 1위로 환원된 결정적 결단입니다."},
+    {"year": 2018, "event": "Nur-Sultan urban projects accelerate", "eventKo": "누르술탄 도시 개발 프로젝트 가속", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 시기입니다."},
+    {"year": 2022, "event": "Post-pandemic Kazakh real estate peaks", "eventKo": "포스트 코로나 카자흐스탄 부동산 회복기 본업 매출 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.1B in Real Estate", "eventKo": "포브스 2026 — 부동산 산업 11억 달러로 등재", "whyItMatteredKo": "BI Group 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "BI Group 정립", "impactKo": "갑인 일주의 봄 큰 나무 일간이 외부 자원의 큰 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2008, "eventKo": "카자흐스탄 1위 부동산 개발사 도약", "impactKo": "본업 매출이 카테고리 1위로 환원된 분기점입니다."},
+    {"year": 2022, "eventKo": "포스트 코로나 카자흐스탄 부동산 회복", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "BI Group 비상장 본인 및 가족 보유 지분 가치와 카자흐스탄 부동산 자산이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1995년 BI Group 정립, 2008년 카자흐스탄 1위 도약, 2022년 포스트 코로나 회복이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "카자흐스탄 1위 부동산 개발 카테고리 자리, 정통 1세대 자수성가 자본망, 그리고 누르술탄·알마티 도시 개발 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "BI Group 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 카자흐스탄 부동산 시장이 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 그룹 재편으로 V자 회복했습니다.", "lessonKo": "거시 충격은 부동산 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2015, "descriptionKo": "카자흐스탄 텡게 평가 절하로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 시장 회복으로 V자 회복했습니다.", "lessonKo": "환율 사이클은 부동산 매출에 직접 영향을 줍니다."},
+    {"year": 2022, "descriptionKo": "카자흐스탄 1월 시위로 본업 정체성이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 시장 회복과 정책 협의로 통과했습니다.", "lessonKo": "정치 사이클은 부동산 매출에 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.5B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$0.8B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["BI Group 창업주", "카자흐스탄 1위 부동산 개발사", "정통 1세대 자수성가", "누르술탄 도시 개발 정체성", "포스트 코로나 부동산 수혜"],
+  "characterKo": {
+    "strengths": "1995년 본업 정립 후 30년 동안 카자흐스탄 1세대 자수성가의 한 축으로 자리잡은 끈기와, 1998년 아스타나 신수도 결정·2008년 카자흐스탄 1위 도약으로 본업을 카자흐스탄 부동산 카테고리 1위로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "카자흐스탄 단일 시장 의존도와 글로벌 환율·정치 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "카자흐스탄 1세대 자수성가 정체성과 본인 세대에서 본업을 카자흐스탄 부동산 카테고리 1위로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "카자흐스탄 1세대 자수성가 부동산 개발사 창업주의 표본입니다. 카자흐스탄 신생 시장에서 카자흐스탄 1위 부동산 개발사 회장까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gap-In day pillar (early spring big wood on tiger wood) and Yu month branch combine into a tall-standing, externally-resourced profile. The format that channels wealth through external resources matches a 31-year arc from the 1995 founding to the 2008 #1 leap and the 2022 post-pandemic peak.",
+    "summaryKo": "일주는 갑인이라 봄 큰 나무가 또 같은 초봄 나무(호랑이의 자리) 위에 놓인 형국으로, 큰 나무가 자기 자리로 단단히 뿌리내린 형상입니다. 월지 유는 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 외부 자원의 큰 흐름이 본인 자리로 환원되는 흐름이라, 1995년 본업 정립, 2008년 카자흐스탄 1위 도약, 2022년 포스트 코로나 회복까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BI_Group",
+    "https://www.bi-group.org",
+    "https://www.forbes.com/profile/aidyn-rakhimbayev/"
+  ]
+}

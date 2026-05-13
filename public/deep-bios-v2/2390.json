@@ -1,0 +1,73 @@
+{
+  "id": 2390,
+  "name": "R.G. Chandramogan",
+  "nameKo": "R.G. 찬드라모간",
+  "birthday": "1949-03-01",
+  "birthPlace": "Tamil Nadu, India",
+  "birthPlaceKo": "인도 타밀나두",
+  "netWorth": "$1.6B",
+  "nationality": "IN",
+  "industry": "Food & Beverage",
+  "gender": "M",
+  "ilju": "경인",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1949년 인도 타밀나두 농촌 가정에서 태어났습니다. 정통 학력보다 시장 실무 경험이 토대인 1세대 자수성가형 인물로, 1970년 첸나이에서 아이스크림 사업으로 출발했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 유제품·아이스크림 자수성가형 인물 (Hatsun Agro Product 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Hatsun_Agro"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1970년 첸나이에서 'Arun Ice Creams' 시작으로 본업을 만들었고, 1985년 'Hatsun Agro Product' 정립해 인도 남부 유제품 카테고리 1위급으로 도약했습니다. 2000년 인도 증권거래소 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.hatsun.com"]
+  },
+  "careerTimeline": [
+    {"year": 1970, "event": "Begins ice cream business in Chennai", "eventKo": "첸나이에서 'Arun Ice Creams' 사업 시작", "whyItMatteredKo": "경인 일주의 큰 쇠 일간이 외부 압력을 자본으로 변환한 출발점입니다."},
+    {"year": 1985, "event": "Founds Hatsun Agro Product", "eventKo": "'Hatsun Agro Product' 정립, 인도 남부 유제품 카테고리 진입", "whyItMatteredKo": "본업의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 1995, "event": "Hatsun expands across South India dairy market", "eventKo": "Hatsun 인도 남부 유제품 시장 전역 확장, 'Arokya' 브랜드 정립", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원되기 시작한 시기입니다."},
+    {"year": 2000, "event": "Hatsun Agro Product IPOs in India", "eventKo": "Hatsun Agro Product 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2014, "event": "Hatsun becomes #1 private dairy in India", "eventKo": "Hatsun 인도 민간 유제품 1위 자리 굳히기", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2024, "event": "Hatsun revenue passes ₹85B amid premium dairy demand", "eventKo": "Hatsun 매출 850억 루피 돌파, 인도 프리미엄 유제품 호황기 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1985, "eventKo": "'Hatsun Agro Product' 정립", "impactKo": "경인 일주의 큰 쇠 일간이 외부 압력을 자본으로 변환한 결정적 결단입니다."},
+    {"year": 2000, "eventKo": "Hatsun 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2014, "eventKo": "인도 민간 유제품 1위 굳히기", "impactKo": "본업 매출이 카테고리 1위 자리로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "인도 상장사 Hatsun Agro Product(NSE: HATSUN) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1985년 정립, 2000년 인도 상장, 2014년 민간 1위가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 남부 유제품 카테고리 1위 자리, 'Arun'·'Arokya' 브랜드 통로, 그리고 농촌 농가 결합 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Hatsun Agro Product 가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 도시 소비가 단기 위축됐습니다.", "howTheyOvercameKo": "농촌 시장 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 도시 소비에 분기 단위로 영향을 줍니다."},
+    {"year": 2016, "descriptionKo": "인도 화폐 개혁(Demonetization)으로 우유 거래가 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 디지털 결제 강화로 통과했습니다.", "lessonKo": "정책 한 번에 우유 거래가 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 외식 채널 우유 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "이후 가정용 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.2B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$0.8B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$1.4B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.6B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Hatsun Agro Product 창업주", "인도 남부 유제품 1위", "Arun·Arokya 브랜드", "타밀나두 농촌 출신", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1970년 첸나이에서 아이스크림 사업으로 출발해 55년 동안 인도 민간 유제품 1위 회사를 만든 끈기와, 'Arun'·'Arokya' 브랜드를 본인 사업의 토대로 결합한 카테고리 운영 본능이 강점입니다.",
+    "weaknesses": "인도 단일 시장 의존도와 거시 충격에 본업 매출이 직접 노출됩니다.",
+    "motivation": "타밀나두 농촌 출신이 본인 세대에서 인도 남부 유제품 1위 회사를 만들겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "인도 1세대 유제품·아이스크림 자수성가의 표본입니다. 첸나이 작은 아이스크림 가게에서 인도 민간 유제품 1위 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gyeong-In day pillar (early spring metal on tiger wood) and In month branch combine into a sharply forged, externally-pressured profile. The format that channels wealth through external pressure matches a 55-year arc from the 1970 ice cream start to the 2000 IPO and the 2014 #1 consolidation.",
+    "summaryKo": "일주는 경인이라 이른 봄 큰 쇠가 같은 봄 나무(호랑이의 자리) 위에 놓인 형국으로, 단단한 쇠가 외부의 큰 나무를 다듬어주는 자리입니다. 월지 인도 또 같은 봄 나무의 자리라 일간을 두 겹의 나무로 압박합니다. 격국은 도전·압력을 자본으로 변환하는 흐름이라, 1970년 아이스크림 시작, 2000년 상장, 2014년 1위까지 모두 '외부 압력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hatsun_Agro",
+    "https://www.hatsun.com",
+    "https://www.forbes.com/profile/r-g-chandramogan/"
+  ]
+}

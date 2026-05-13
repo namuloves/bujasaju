@@ -1,0 +1,73 @@
+{
+  "id": 104,
+  "name": "Dang Yanbao",
+  "nameKo": "당 옌바오",
+  "birthday": "1973-02-01",
+  "birthPlace": "Ningxia, China",
+  "birthPlaceKo": "중국 닝샤후이족자치구",
+  "netWorth": "$23.9B",
+  "nationality": "CN",
+  "industry": "Metals & Mining",
+  "gender": "M",
+  "ilju": "무진",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1973년 중국 닝샤후이족자치구의 농가에서 태어났습니다. 정통 학력보다 시장 실무 경험이 토대인 신세대 자수성가형 인물로, 1990년대 후반 부친의 가족 광업 사업 합류로 본업을 만든 신세대 자수성가의 표본입니다.",
+    "capitalTypeKo": "재벌 후계자·운영형 자수성가 — 본토 1세대 광업 후계자 (Baofeng Energy 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Baofeng_Energy"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1990년대 후반 가족 광업 사업 합류로 본업을 잇기 시작했고, 2003년 'Baofeng Energy'(닝샤 바오펑) 정립으로 본업 카테고리를 환원했습니다. 2019년 상하이 증권거래소 상장, 2020~2024년 본토 석탄·석유화학 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 6,
+    "sources": ["https://www.baofengenergy.com"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Joins family coal business in Ningxia", "eventKo": "닝샤 가족 석탄 사업 합류 (추정)", "whyItMatteredKo": "무진 일주의 봄 끝 큰 흙 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2003, "event": "Founds Baofeng Energy", "eventKo": "'Baofeng Energy'(닝샤 바오펑) 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2010, "event": "Expands into coal-to-olefin chemical production", "eventKo": "석탄·석유화학 다운스트림 카테고리 확장", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2019, "event": "Baofeng Energy IPOs on Shanghai Stock Exchange", "eventKo": "Baofeng Energy 상하이 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2022, "event": "Global energy prices peak, Baofeng revenue surges", "eventKo": "글로벌 에너지 가격 정점으로 Baofeng 본업 매출 가속", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $23.9B in Metals & Mining", "eventKo": "포브스 2026 — 금속·광업 239억 달러로 등재", "whyItMatteredKo": "Baofeng Energy 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2003, "eventKo": "Baofeng Energy 정립", "impactKo": "무진 일주의 봄 끝 큰 흙 일간이 자기 표현의 결과물을 본인 자리로 환원한 결정적 결단입니다."},
+    {"year": 2019, "eventKo": "Baofeng Energy 상하이 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2022, "eventKo": "글로벌 에너지 가격 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Baofeng Energy(SSE: 600989) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2003년 Baofeng 정립, 2019년 상하이 상장, 2022년 에너지 가격 정점이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 석탄·석유화학 카테고리 1위급 자리, 닝샤 광산 자원 통로, 그리고 본토 에너지 정책 결합 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Baofeng Energy 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "글로벌 유가 폭락으로 본토 석유화학 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 원자재 가격 사이클에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 에너지 수요가 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 시장 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 에너지 매출에 분기 단위로 직접 영향을 줍니다."},
+    {"year": 2024, "descriptionKo": "글로벌 에너지 가격 정점 후 단기 조정됐습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "사이클 카테고리는 정점 이후 분기 단위로 매출이 조정됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$2B", "sourceKo": "포브스 추정"},
+    {"year": 2019, "netWorth": "$10B", "sourceKo": "상장 직후"},
+    {"year": 2023, "netWorth": "$19.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$23.9B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Baofeng Energy 회장", "본토 석탄·석유화학 1위급", "닝샤 광업 가문", "정통 후계자", "글로벌 에너지 가격 수혜"],
+  "characterKo": {
+    "strengths": "2003년 Baofeng Energy 정립으로 본토 석탄·석유화학 카테고리 1위급 회사를 만든 카테고리 도약 본능과, 2022년 글로벌 에너지 가격 정점을 본인 자본 가치 가속으로 환원시킨 흐름 감각이 강점입니다.",
+    "weaknesses": "글로벌 에너지 가격 사이클과 본토 거시 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 닝샤 1세대 후계자 정체성과 본인 세대에서 가족 광업 사업에서 본토 석유화학 1위급 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 신세대 광업·석유화학 후계자의 표본입니다. 가족 석탄 사업에서 본토 석탄·석유화학 1위급 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Jin day pillar (high summer earth on dragon earth) and In month branch combine into a steady, self-expressing profile. The format that channels wealth through one's bold creative output matches a 31-year arc from the 1995 family entry to the 2003 Baofeng founding and the 2022 energy peak.",
+    "summaryKo": "일주는 무진이라 한여름 큰 흙이 봄 끝 흙(용의 자리) 위에 놓인 형국으로, 단단한 흙이 같은 흙 자리에 두 겹으로 단단히 다져지는 형상입니다. 월지 인은 봄 나무의 자리라 일간을 외부의 큰 자원으로 받쳐주는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1995년 가족 합류, 2003년 Baofeng 정립, 2022년 에너지 가격 정점까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Baofeng_Energy",
+    "https://www.baofengenergy.com",
+    "https://www.forbes.com/profile/dang-yanbao/"
+  ]
+}

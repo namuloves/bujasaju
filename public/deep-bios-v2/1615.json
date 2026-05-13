@@ -1,0 +1,73 @@
+{
+  "id": 1615,
+  "name": "Wu Yiling",
+  "nameKo": "우 이링",
+  "birthday": "1949-10-24",
+  "birthPlace": "Hebei, China",
+  "birthPlaceKo": "중국 허베이성",
+  "netWorth": "$2.5B",
+  "nationality": "CN",
+  "industry": "Healthcare",
+  "gender": "M",
+  "ilju": "정해",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1949년 중국 허베이성에서 태어났습니다. 정통 학력은 중의학 트랙으로, 허베이의대 학사·박사를 거친 정통 본토 1세대 중의학 의사·과학자 트랙입니다. 본인 카테고리 정체성은 중국 전통의학(중의학)의 현대 제약 결합형 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 중의학 현대화 자수성가형 인물 (Yiling Pharmaceutical 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Yiling_Pharmaceutical"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년 허베이성에서 'Yiling Pharmaceutical'(이링제약) 정립으로 본업을 만들었고, 본토 중의학 현대화 카테고리에서 1위급으로 도약했습니다. 2011년 선전 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 2020년 코로나 시기 '연화청온' 약품 수요 가속으로 본업 매출이 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["http://www.yiling.cn"]
+  },
+  "careerTimeline": [
+    {"year": 1990, "event": "Founds Yiling Pharmaceutical in Hebei", "eventKo": "허베이성에서 'Yiling Pharmaceutical' 정립, 본토 중의학 현대화 카테고리 진입", "whyItMatteredKo": "정해 일주의 가을 작은 불 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2002, "event": "Develops Lianhua Qingwen capsule", "eventKo": "'연화청온'(롄화칭원) 캡슐 개발", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2009, "event": "Lianhua Qingwen included in H1N1 treatment list", "eventKo": "연화청온 H1N1 신종플루 치료 약품 목록 등재", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2011, "event": "Yiling Pharmaceutical IPOs on Shenzhen Stock Exchange", "eventKo": "이링제약 선전 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2020, "event": "Lianhua Qingwen demand surges during COVID-19", "eventKo": "코로나 시기 연화청온 수요 가속, 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $2.5B in Healthcare", "eventKo": "포브스 2026 — 헬스케어 25억 달러로 등재", "whyItMatteredKo": "이링제약 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1990, "eventKo": "이링제약 정립", "impactKo": "정해 일주의 가을 작은 불 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2011, "eventKo": "이링제약 선전 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2020, "eventKo": "코로나 시기 연화청온 수요 가속", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "이링제약(SZSE: 002603) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1990년 이링제약 정립, 2011년 선전 상장, 2020년 코로나 시기 연화청온 수요 가속이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 중의학 현대화 카테고리 1위 자리, 연화청온 정책 등재 통로, 그리고 정통 중의학 의사·과학자 정체성이 강점입니다.",
+    "currentAssetAllocationKo": "이링제약 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "본토 제약 가격 협상 정책으로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "중의학 카테고리 비중 강화로 통과했습니다.", "lessonKo": "본토 의존 카테고리는 정책 사이클에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나 시기 연화청온 효능 논란이 본업 카테고리 정체성을 단기 시험했습니다.", "howTheyOvercameKo": "공식 임상 데이터 공개와 정책 등재로 통과했습니다.", "lessonKo": "콘텐츠 카테고리는 한 번의 논란에 본업 평가가 직접 흔들립니다."},
+    {"year": 2023, "descriptionKo": "코로나 시기 연화청온 수요 정상화로 본업 매출 정점이 단기 조정됐습니다.", "howTheyOvercameKo": "장기 중의학 수요와 단계적 회복을 시도하고 있습니다.", "lessonKo": "사이클 카테고리는 정점 이후 분기 단위로 매출이 조정됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.5B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$2.8B", "sourceKo": "코로나 시기 정점 추정"},
+    {"year": 2023, "netWorth": "$2.2B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["이링제약 창업주", "본토 중의학 현대화 1위", "연화청온 개발자", "정통 중의학 의사·과학자", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1990년 이링제약 정립으로 본토 중의학 현대화 카테고리 1위 회사를 만든 카테고리 도약 본능과, 2020년 코로나 시기 연화청온 수요 가속을 본인 자본 가치 가속으로 환원시킨 흐름 감각이 강점입니다.",
+    "weaknesses": "본토 제약 정책 사이클과 중의학 카테고리 논란 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 본토 1세대 중의학 의사·과학자 정체성을 본인 세대에서 중의학 현대화 1위 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 중의학 현대화 자수성가의 표본입니다. 중의학 의사에서 중의학 현대 제약 1위 회사 회장으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Hae day pillar (autumn small fire on pig water) and Sul month branch combine into a quietly burning, learning-authority profile. The format that channels wealth through learned authority matches a 36-year arc from the 1990 founding to the 2011 IPO and the 2020 COVID surge.",
+    "summaryKo": "일주는 정해라 가을 작은 불이 한겨울 물(돼지의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 외부의 큰 물에 단단히 응축되는 자리입니다. 월지 술은 가을 끝 흙의 자리라 일간을 외부의 강한 흙으로 결과물로 빚어내는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1990년 이링제약 정립, 2011년 선전 상장, 2020년 연화청온 수요 가속까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yiling_Pharmaceutical",
+    "http://www.yiling.cn",
+    "https://www.forbes.com/profile/wu-yiling/"
+  ]
+}

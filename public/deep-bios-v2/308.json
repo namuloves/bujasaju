@@ -1,0 +1,73 @@
+{
+  "id": 308,
+  "name": "Vikram Lal",
+  "nameKo": "비크람 랄",
+  "birthday": "1942-03-05",
+  "birthPlace": "Delhi, India",
+  "birthPlaceKo": "인도 델리",
+  "netWorth": "$10.3B",
+  "nationality": "IN",
+  "industry": "Automotive",
+  "gender": "M",
+  "ilju": "정사",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1942년 인도 델리에서 태어났습니다. 정통 학력은 공학 트랙으로, 독일 다름슈타트 공과대학 기계공학 학위를 거친 정통 인도 1세대 자동차 인재 트랙입니다. 부친 만 모한 랄이 정립한 'Eicher' 인도 자동차 회사의 후계자입니다.",
+    "capitalTypeKo": "재벌 후계자·운영형 자수성가 — 인도 1세대 자동차 가문 후계자 (Eicher Motors 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Vikram_Lal"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1966년 가족 'Eicher' 인도 자동차 회사 합류로 본업을 잇기 시작했고, 1975년 회장 자리에 도약했습니다. 2000년대 'Royal Enfield' 모터사이클 카테고리 재정립으로 본업을 글로벌 클래식 모터사이클 카테고리로 환원했습니다.",
+    "selfMadeScore": 6,
+    "sources": ["https://www.eichermotors.com"]
+  },
+  "careerTimeline": [
+    {"year": 1966, "event": "Joins family Eicher tractor business", "eventKo": "가족 Eicher 트랙터 회사 합류", "whyItMatteredKo": "정사 일주의 한여름 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1975, "event": "Becomes Chairman of Eicher Group", "eventKo": "Eicher 그룹 회장 자리 도약", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다."},
+    {"year": 1994, "event": "Eicher Motors lists on Indian exchanges", "eventKo": "Eicher Motors 인도 증시 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 결단입니다."},
+    {"year": 2000, "event": "Royal Enfield revival under Eicher", "eventKo": "Royal Enfield 부활 프로젝트 시작", "whyItMatteredKo": "본업 카테고리 글로벌 클래식 모터사이클로 재정립된 결정적 결단입니다."},
+    {"year": 2015, "event": "Royal Enfield Continental GT global rollout", "eventKo": "Royal Enfield Continental GT 글로벌 출시로 카테고리 글로벌 1위 도약", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 1위로 환원된 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $10.3B in Automotive", "eventKo": "포브스 2026 — 자동차 산업 103억 달러로 등재", "whyItMatteredKo": "Eicher Motors 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1975, "eventKo": "Eicher 그룹 회장 취임", "impactKo": "정사 일주의 한여름 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 분기점입니다."},
+    {"year": 2000, "eventKo": "Royal Enfield 부활 프로젝트 시작", "impactKo": "본업 카테고리 글로벌 클래식 모터사이클로 재정립된 결정적 결단입니다."},
+    {"year": 2015, "eventKo": "Royal Enfield Continental GT 글로벌 출시", "impactKo": "본업 매출이 글로벌 카테고리 1위로 환원된 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Eicher Motors(NSE: EICHERMOT) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1975년 회장 취임, 2000년 Royal Enfield 부활, 2015년 글로벌 카테고리 1위 도약이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 클래식 모터사이클 카테고리 1위 자리, 정통 독일 공학 자본망, 그리고 인도 1세대 자동차 가문 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Eicher Motors 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 1990, "descriptionKo": "인도 트랙터 카테고리 경쟁 격화로 본업 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본업 카테고리 재편으로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 자동차 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 거시 사이클은 자동차 매출에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 자동차 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 자동차 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$4.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$7.6B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$10.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Eicher Motors 회장", "Royal Enfield 부활 정체성", "인도 1세대 자동차 가문", "정통 독일 공학 박사", "글로벌 클래식 모터사이클 1위"],
+  "characterKo": {
+    "strengths": "1966년 가족 Eicher 합류 후 59년 동안 인도 1세대 자동차 가문의 한 축으로 자리잡은 끈기와, 2000년 Royal Enfield 부활 프로젝트로 본업을 글로벌 클래식 모터사이클 카테고리 1위로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 단일 시장 의존도와 글로벌 자동차 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 인도 1세대 자동차 가문 후계자 정체성과 본인 세대에서 본업을 글로벌 카테고리 1위로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 자동차 가문 후계자의 표본입니다. 가족 트랙터 회사에서 글로벌 클래식 모터사이클 1위 Royal Enfield까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Sa day pillar (midsummer small fire on snake fire) and Myo month branch combine into a brightly expressing, externally-pressured profile. The format that channels wealth through external authority matches a 60-year arc from the 1966 family entry to the 1975 chairmanship and the 2000 Royal Enfield revival.",
+    "summaryKo": "일주는 정사라 한여름 작은 불이 또 같은 초여름 불(뱀의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 자기 자리로 단단히 다져진 자리입니다. 월지 묘는 봄 작은 나무의 자리라 일간을 외부 자원으로 다지는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1966년 가족 합류, 1975년 회장 취임, 2000년 Royal Enfield 부활까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vikram_Lal",
+    "https://www.eichermotors.com",
+    "https://www.forbes.com/profile/vikram-lal/"
+  ]
+}

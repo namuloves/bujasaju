@@ -1,0 +1,73 @@
+{
+  "id": 1184,
+  "name": "Luo Yuhao",
+  "nameKo": "뤄 위하오",
+  "birthday": "1989-09-01",
+  "birthPlace": "Shanghai, China",
+  "birthPlaceKo": "중국 상하이",
+  "netWorth": "$3.5B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "갑자",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1989년 상하이에서 태어났습니다. 상하이 자오통대(SJTU) 학사를 거친 정통 학력 트랙으로, 2012년 학교 친구 류웨이·차이하오위와 함께 'miHoYo'(미호요)를 공동 창업한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 글로벌 모바일 게임 자수성가형 인물 (miHoYo 공동 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/MiHoYo"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2012년 상하이 자오통대 친구 류웨이·차이하오위와 함께 'miHoYo' 공동 창업, 2014년 'Honkai Impact 3rd' 출시로 본토 모바일 게임 카테고리 진입했습니다. 2020년 'Genshin Impact' 글로벌 출시로 본인 자본이 한 번에 평가됐고, 2022~2024년 'Honkai: Star Rail'·'Zenless Zone Zero' 등 글로벌 1위급 모바일 게임 회사로 도약했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.mihoyo.com"]
+  },
+  "careerTimeline": [
+    {"year": 2012, "event": "Co-founds miHoYo with friends in Shanghai", "eventKo": "상하이 자오통대 친구 류웨이·차이하오위와 함께 miHoYo 공동 창업", "whyItMatteredKo": "갑자 일주의 큰 나무 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2014, "event": "Launches Honkai Impact 3rd", "eventKo": "'Honkai Impact 3rd' 출시, 본토 애니풍 모바일 게임 카테고리 진입", "whyItMatteredKo": "본업의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2020, "event": "Genshin Impact launches globally", "eventKo": "'Genshin Impact' 글로벌 출시, 본인 자본 한 번에 평가", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본으로 한 번에 환원된 결정적 분기점입니다."},
+    {"year": 2022, "event": "miHoYo's Genshin Impact passes $4B revenue", "eventKo": "Genshin Impact 누적 매출 40억 달러 돌파, 본업 매출 사상 정점", "whyItMatteredKo": "본업 매출이 카테고리 1위급으로 환원된 분기점입니다."},
+    {"year": 2023, "event": "Launches Honkai: Star Rail", "eventKo": "'Honkai: Star Rail' 글로벌 출시, 두 번째 글로벌 흥행작", "whyItMatteredKo": "본업 매출의 두 번째 정점이 다져진 시기입니다."},
+    {"year": 2024, "event": "Launches Zenless Zone Zero amid AI/gaming boom", "eventKo": "'Zenless Zone Zero' 글로벌 출시, 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2012, "eventKo": "miHoYo 공동 창업", "impactKo": "갑자 일주의 큰 나무 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2020, "eventKo": "Genshin Impact 글로벌 출시", "impactKo": "외부 자원의 큰 흐름이 본인 자본으로 한 번에 환원된 분기점입니다."},
+    {"year": 2024, "eventKo": "Zenless Zone Zero 글로벌 출시", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비상장 miHoYo 본인 지분이 자산의 절대 비중입니다. Genshin Impact·Honkai 등 글로벌 게임 매출 누적분이 자본 가치의 토대입니다.",
+    "wealthAcceleratorsKo": "2012년 공동 창업, 2020년 Genshin Impact 출시, 2023년 Honkai: Star Rail 출시가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 애니풍 글로벌 모바일 게임 1위급 자리, 자체 IP·엔진 통로, 그리고 친구 공동 창업의 안정 운영 구조가 강점입니다.",
+    "currentAssetAllocationKo": "miHoYo 비상장 본인 지분이 자산의 절대 비중. 글로벌 자산 분산 보유 구조로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "Honkai Impact 3rd 초기 출시 직후 본토 모바일 게임 시장 경쟁 격화로 매출 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 글로벌 출시로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 경쟁자 사이클 한 번에 매출이 흔들립니다."},
+    {"year": 2021, "descriptionKo": "본토 청소년 게임 시간 제한 조치로 본토 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "Genshin Impact 글로벌 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "본토 단일 시장 의존은 정책 사이클 한 번에 매출이 흔들립니다."},
+    {"year": 2024, "descriptionKo": "글로벌 모바일 게임 가격 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "신작 출시와 IP 다각화로 단계적 회복을 시도하고 있습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2018, "netWorth": "$0.3B", "sourceKo": "포브스 추정"},
+    {"year": 2021, "netWorth": "$2.5B", "sourceKo": "Genshin 1주년 직후"},
+    {"year": 2023, "netWorth": "$3.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$3.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["miHoYo 공동 창업주", "1989년생 빌리어네어", "Genshin Impact 개발자", "상하이 자오통대 출신", "글로벌 1세대 모바일 게임"],
+  "characterKo": {
+    "strengths": "상하이 자오통대 학습 깊이를 본인 사업의 토대로 결합한 카테고리 결합 본능과, Genshin Impact 글로벌 출시로 본업을 글로벌 1위급으로 도약시킨 결단력이 강점입니다.",
+    "weaknesses": "본토 청소년 게임 정책 사이클과 글로벌 모바일 게임 경쟁에 본업 매출이 직접 노출됩니다.",
+    "motivation": "상하이 1989년생 1세대 자수성가형 야망과 본인 세대에서 글로벌 모바일 게임 1위급 회사를 만들겠다는 자수성가형 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 글로벌 모바일 게임 자수성가의 표본입니다. 30대 초반에 글로벌 1위급 모바일 게임 회사 공동 창업주로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gap-Ja day pillar (early autumn wood on rat water) and Sin month branch combine into a tall, learning-authority profile. The format that channels wealth through learned authority matches a 12-year arc from the 2012 miHoYo founding to the 2020 Genshin launch and the 2024 Zenless launch.",
+    "summaryKo": "일주는 갑자라 가을 큰 나무가 한겨울 물(쥐의 자리) 위에 놓인 형국으로, 큰 나무가 풍부한 물에 단단히 뿌리내린 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 2012년 공동 창업, 2020년 Genshin 출시, 2024년 Zenless 출시까지 모두 '학습된 결과물이 단계적으로 본인 자본의 글로벌 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/MiHoYo",
+    "https://www.mihoyo.com",
+    "https://www.forbes.com/profile/luo-yuhao/"
+  ]
+}

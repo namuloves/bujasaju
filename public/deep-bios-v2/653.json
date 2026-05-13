@@ -1,0 +1,73 @@
+{
+  "id": 653,
+  "name": "Liu Yonghao",
+  "nameKo": "류 융하오",
+  "birthday": "1951-09-01",
+  "birthPlace": "Sichuan, China",
+  "birthPlaceKo": "중국 쓰촨성",
+  "netWorth": "$6.1B",
+  "nationality": "CN",
+  "industry": "Service",
+  "gender": "M",
+  "ilju": "갑진",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1951년 쓰촨성의 가난한 농촌 가정에서 4형제 중 한 명으로 태어났습니다. 형 류융싱 등과 함께 1980년대 메추라기 사육 사업으로 출발한 본토 1세대 사기업 표본의 한 명입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 쓰촨 4형제 중 한 명으로 본토 1세대 사기업 자수성가형 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Liu_Yonghao"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1982년 형들과 함께 쓰촨성에서 메추라기 사육으로 출발해 1986년 사료(Hope Group)로 카테고리 확장, 1995년 가족 자본 분할 합의로 본인이 'New Hope Group'(신희망)을 잇는 운영자가 됐습니다. 본토 1위 동물 사료 회사 New Hope Group 창업주이자 회장입니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.newhope.cn"]
+  },
+  "careerTimeline": [
+    {"year": 1982, "event": "Co-founds quail farming with brothers", "eventKo": "형들과 함께 쓰촨성에서 메추라기 사육 사업 출발", "whyItMatteredKo": "갑진 일주의 큰 나무 일간이 자기가 만든 결과물로 부를 빚는 출발점입니다."},
+    {"year": 1986, "event": "Expands into pig feed; co-founds Hope Group", "eventKo": "돼지 사료로 카테고리 확장, 형제 합작 호프 그룹(Hope Group) 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 1995, "event": "Brothers split family capital; Liu Yonghao keeps New Hope", "eventKo": "4형제 가족 자본 분할 합의, 본인 New Hope Group 운영자로 정식 자리잡음", "whyItMatteredKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 결정적 결단입니다."},
+    {"year": 2002, "event": "New Hope expands into dairy and finance", "eventKo": "New Hope 유제품·금융 카테고리로 다각화 시작", "whyItMatteredKo": "본업 매출의 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2011, "event": "New Hope Liuhe lists on Shenzhen", "eventKo": "New Hope Liuhe 선전 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2024, "event": "New Hope group revenue passes ¥150B amid pork cycle", "eventKo": "New Hope 그룹 연결 매출 1,500억 위안 돌파, 본토 돼지 사이클 정점기", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1982, "eventKo": "메추라기 사육 사업 출발", "impactKo": "갑진 일주의 큰 나무 일간이 자기가 만든 결과물로 부를 빚는 출발점입니다."},
+    {"year": 1995, "eventKo": "4형제 가족 자본 분할", "impactKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 결정적 결단입니다."},
+    {"year": 2011, "eventKo": "New Hope Liuhe 선전 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "선전 상장사 New Hope Liuhe(000876) 가족 지분과 비상장 New Hope Group 자산이 자산의 핵심입니다. 자녀 류창(Liu Chang)이 운영의 한 축으로 자리잡았습니다.",
+    "wealthAcceleratorsKo": "1986년 호프 그룹 정립, 1995년 분할, 2002년 카테고리 다각화, 2011년 선전 상장이 자본 가치 가속의 네 단계입니다.",
+    "structuralAdvantagesKo": "본토 사료 카테고리 1위 자리, 유제품·금융 카테고리 다각화 통로, 그리고 가족 신탁 안정 구조가 강점입니다.",
+    "currentAssetAllocationKo": "New Hope Group·New Hope Liuhe 가족 지분이 자산의 절대 비중. 자녀 류창이 후계자입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 본토 식육 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 내수 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 식육 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "본토 아프리카 돼지열병으로 사료·돼지 사이클이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 다각화로 통과했습니다.", "lessonKo": "전염병 사이클 한 번에 본업 매출이 흔들립니다."},
+    {"year": 2022, "descriptionKo": "본토 돼지 가격 변동성으로 New Hope 시가총액이 정점 대비 큰 폭으로 조정됐습니다.", "howTheyOvercameKo": "단계적 사이클 회복과 카테고리 다각화로 통과 중입니다.", "lessonKo": "본업 카테고리 의존은 사이클 한 번에 자본 가치가 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2000, "netWorth": "$0.5B", "sourceKo": "포브스 추정"},
+    {"year": 2011, "netWorth": "$3B", "sourceKo": "선전 상장 직후"},
+    {"year": 2018, "netWorth": "$5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$6.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["New Hope Group 창업주", "쓰촨 4형제 막내", "본토 사료 1위", "본토 1세대 사기업", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "쓰촨 농촌 출신이 메추라기 사육에서 출발해 본토 사료 1위 회사를 만든 카테고리 도약 본능과, 4형제 가족 자본 분할 합의를 끌어낸 협상력이 강점입니다.",
+    "weaknesses": "본토 식육·사료 사이클과 전염병 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "쓰촨 농촌 4형제가 본인 세대에서 본토 1세대 사기업 표본을 만들겠다는 자수성가형 야망이 동력입니다.",
+    "legacy": "중국 본토 1세대 사기업의 표본입니다. 메추라기 사육에서 사료·유제품·금융까지 카테고리를 확장한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gap-Jin day pillar (early autumn wood on dragon earth) and Sin month branch combine into a tall, output-focused profile. The format that channels wealth through what he produces matches a 42-year arc from the 1982 founding to the 1995 family split and the 2011 IPO.",
+    "summaryKo": "일주는 갑진이라 가을 큰 나무가 늦봄 흙(용의 자리) 위에 놓인 형국으로, 큰 나무가 풍부한 흙에 단단히 뿌리내린 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 자기가 만든 결과물로 부를 빚는 흐름이라, 1982년 메추라기, 1995년 가족 분할, 2011년 선전 상장까지 모두 '직접 만든 결과물이 단계적으로 본인 자본의 다중 카테고리로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Liu_Yonghao",
+    "https://www.newhope.cn",
+    "https://www.forbes.com/profile/liu-yonghao/"
+  ]
+}

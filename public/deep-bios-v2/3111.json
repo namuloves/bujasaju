@@ -1,0 +1,73 @@
+{
+  "id": 3111,
+  "name": "Ma Xiuhui",
+  "nameKo": "마 슈후이",
+  "birthday": "1971-01-07",
+  "birthPlace": "Zhejiang, China",
+  "birthPlaceKo": "중국 저장성",
+  "netWorth": "$1.1B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "F",
+  "ilju": "임진",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1971년 저장성에서 태어났습니다. 정통 학력은 공학 트랙으로, 1990년대 후반 본토 LED 조명 사업으로 출발한 1세대 자수성가형 여성 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 LED 조명 자수성가형 여성 인물 (OPPLE Lighting 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/OPPLE_Lighting"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1996년 'OPPLE Lighting' 공동 창업해 본토 가정용 조명 카테고리에서 본업을 만들었습니다. 2010년대 본토 LED 호황기에 본업 매출을 가속, 2016년 상하이 증권거래소 상장으로 본격 자본 시장 가치를 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.opple.com"]
+  },
+  "careerTimeline": [
+    {"year": 1996, "event": "Co-founds OPPLE Lighting in Zhejiang", "eventKo": "저장성에서 'OPPLE Lighting' 공동 창업, 본토 조명 카테고리 진입", "whyItMatteredKo": "임진 일주의 큰 물 일간이 외부의 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2005, "event": "OPPLE expands across China retail channels", "eventKo": "OPPLE 본토 리테일 채널 확장", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2010, "event": "OPPLE pivots to LED lighting category", "eventKo": "OPPLE LED 조명 카테고리로 본격 전환", "whyItMatteredKo": "본업 매출의 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2016, "event": "OPPLE Lighting IPOs on Shanghai (603515)", "eventKo": "OPPLE Lighting 상하이 증권거래소 상장(603515)", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2020, "event": "OPPLE expands smart lighting and B2B", "eventKo": "OPPLE 스마트 조명·B2B 카테고리 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리로 환원된 시기입니다."},
+    {"year": 2024, "event": "OPPLE maintains #1 lighting position in China", "eventKo": "OPPLE 본토 LED 조명 1위 자리 유지, 글로벌 30,000+ 매장 운영", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1996, "eventKo": "OPPLE Lighting 공동 창업", "impactKo": "임진 일주의 큰 물 일간이 외부의 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2010, "eventKo": "OPPLE LED 조명 카테고리 전환", "impactKo": "본업 매출의 카테고리 다각화가 진행된 분기점입니다."},
+    {"year": 2016, "eventKo": "OPPLE Lighting 상하이 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "상하이 상장사 OPPLE Lighting(603515) 가족 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1996년 창업, 2010년 LED 전환, 2016년 상하이 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 LED 조명 1위 자리, 글로벌 30,000+ 매장 네트워크, 그리고 스마트 조명·B2B 카테고리 다각화 통로가 강점입니다.",
+    "currentAssetAllocationKo": "OPPLE Lighting 가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 본토 조명 시장이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 내수 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 조명 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "본토 LED 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "프리미엄 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2022, "descriptionKo": "본토 부동산 부진으로 조명 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "글로벌 매출 비중 강화로 단계적 회복을 시도했습니다.", "lessonKo": "본토 단일 시장 의존은 정책 사이클 한 번에 매출이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2016, "netWorth": "$0.4B", "sourceKo": "상장 직후 추정"},
+    {"year": 2020, "netWorth": "$0.9B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["OPPLE Lighting 창업주", "본토 LED 조명 1위", "1971년생 여성 빌리어네어", "글로벌 30,000매장", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1996년 OPPLE Lighting 공동 창업으로 본업을 만든 카테고리 도약 본능과, 2010년 LED 전환으로 본업 카테고리를 본토 1위로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "본토 부동산 사이클과 LED 가격 경쟁에 본업 매출이 직접 노출됩니다.",
+    "motivation": "저장성 1세대 여성 자수성가형 야망과 본인 세대에서 본토 LED 1위 회사를 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 여성 LED 조명 자수성가의 표본입니다. 작은 조명 가게에서 글로벌 30,000매장 브랜드로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Im-Jin day pillar (winter water on dragon earth) and Chuk month branch combine into a deeply gathered, externally-pressured profile. The format that channels wealth through external authority matches a 28-year arc from the 1996 founding to the 2010 LED pivot and the 2016 IPO.",
+    "summaryKo": "일주는 임진이라 한겨울 큰 물이 늦봄 흙(용의 자리) 위에 놓인 형국으로, 풍부한 물이 단단한 흙에 막혀 깊이로 모이는 자리입니다. 월지 축은 한겨울 흙의 자리라 일간을 두 겹의 흙으로 단단히 받쳐줍니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1996년 창업, 2010년 LED 전환, 2016년 상하이 상장까지 모두 '외부 시스템과의 결합이 본업 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/OPPLE_Lighting",
+    "https://www.opple.com",
+    "https://www.forbes.com/profile/ma-xiuhui/"
+  ]
+}

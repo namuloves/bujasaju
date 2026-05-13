@@ -1,0 +1,73 @@
+{
+  "id": 1915,
+  "name": "Vivek Chand Burman",
+  "nameKo": "비벡 찬드 부르만",
+  "birthday": "1937-04-28",
+  "birthPlace": "Punjab, India",
+  "birthPlaceKo": "인도 펀자브주",
+  "netWorth": "$2.1B",
+  "nationality": "IN",
+  "industry": "Food & Beverage",
+  "gender": "M",
+  "ilju": "을유",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1937년 인도 펀자브주의 부르만 가문에서 태어났습니다. 정통 학력은 경영 트랙으로, 인도 100년 헬스케어·식음료 가문(Dabur) 후계자 정체성을 유년기부터 형성했다고 전해집니다. 가문은 1884년 창업주 닥터 S.K. 부르만이 정립한 인도 1세대 아유르베다·식음료 가문입니다.",
+    "capitalTypeKo": "재벌 후계자 — 인도 100년 Dabur 가문 자본의 운영형 후계자입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Dabur"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1960년대 가족 Dabur 사업 합류로 본업을 잇기 시작했고, 1979년 회장 자리 도약 후 1994년 Dabur 인도 증권거래소 상장을 주도했습니다. 2007년 회장에서 물러난 후 가문 자본의 한 축으로 자리잡았고, 2010~2020년대 인도 아유르베다·식음료 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 4,
+    "sources": ["https://www.dabur.com"]
+  },
+  "careerTimeline": [
+    {"year": 1962, "event": "Joins family Dabur business", "eventKo": "가족 Dabur 사업 합류 (추정)", "whyItMatteredKo": "을유 일주의 봄 작은 나무 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1979, "event": "Becomes Chairman of Dabur", "eventKo": "Dabur 회장 취임", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 시기입니다."},
+    {"year": 1994, "event": "Dabur IPOs on Indian stock exchange", "eventKo": "Dabur 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2007, "event": "Steps down as Chairman, hands over to next generation", "eventKo": "Dabur 회장 자리 다음 세대에 이양", "whyItMatteredKo": "본인 자리의 권위가 가문 거버넌스 통로로 환원된 결정적 결단입니다."},
+    {"year": 2018, "event": "Dabur expands global ayurveda category", "eventKo": "Dabur 글로벌 아유르베다 카테고리 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $2.1B in Food & Beverage", "eventKo": "포브스 2026 — 식음료 21억 달러로 등재", "whyItMatteredKo": "Dabur 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1962, "eventKo": "Dabur 가족 합류", "impactKo": "을유 일주의 봄 작은 나무 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1994, "eventKo": "Dabur 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2007, "eventKo": "회장 자리 이양", "impactKo": "본인 자리의 권위가 가문 거버넌스 통로로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Dabur India(NSE: DABUR) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1962년 가족 합류, 1994년 인도 상장, 2018년 글로벌 아유르베다 확장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 100년 Dabur 가문 자본망, 인도 아유르베다·식음료 카테고리 1위 자리, 그리고 가족 신탁 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Dabur India 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 소비재 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 소비재 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2016, "descriptionKo": "인도 화폐 개혁(Demonetization)으로 소비재 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복으로 통과했습니다.", "lessonKo": "정책 한 번에 소비재 매출이 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 오프라인 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "디지털 채널 가속과 본토 매출 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.8B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1.9B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Dabur 가문 후계자", "인도 100년 아유르베다 가문", "정통 운영형 후계자", "Dabur 인도 상장 주도", "가문 거버넌스 정체성"],
+  "characterKo": {
+    "strengths": "1962년 가족 사업 합류 후 60년 넘게 인도 100년 Dabur 가문의 한 축으로 자리잡은 끈기와, 1994년 인도 상장으로 본업을 자본 시장 가치로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 소비재 정책 사이클과 거시 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "100년 부르만 가문 자본을 본인 세대에서 보전·확장하고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "인도 100년 아유르베다·식음료 가문 후계자의 표본입니다. 가족 사업에서 인도 1위 아유르베다·소비재 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Eul-Yu day pillar (spring small wood on rooster metal) and Jin month branch combine into a flexibly rooted, self-expressing profile. The format that channels wealth through one's bold creative output matches a 64-year arc from the 1962 family entry to the 1994 IPO and the 2007 succession.",
+    "summaryKo": "일주는 을유라 봄 작은 나무가 가을 쇠(닭의 자리) 위에 놓인 형국으로, 부드러운 나무가 단단한 쇠로 결과물로 빚어지는 자리입니다. 월지 진은 봄 끝 흙의 자리라 일간을 외부의 강한 흙으로 결과물로 압축하는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1962년 가족 합류, 1994년 Dabur 상장, 2007년 회장 자리 이양까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dabur",
+    "https://www.dabur.com",
+    "https://www.forbes.com/profile/vivek-chand-burman/"
+  ]
+}

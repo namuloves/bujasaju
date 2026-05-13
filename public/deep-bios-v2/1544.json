@@ -1,0 +1,73 @@
+{
+  "id": 1544,
+  "name": "Anand Deshpande",
+  "nameKo": "아난드 데시판데",
+  "birthday": "1962-05-01",
+  "birthPlace": "Pune, India",
+  "birthPlaceKo": "인도 푸네",
+  "netWorth": "$2.6B",
+  "nationality": "IN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "기해",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1962년 인도 푸네에서 태어났습니다. 정통 학력은 공학 트랙으로, IIT 카라그푸르 공학 학사·인디애나대 컴퓨터과학 박사를 거친 정통 인도 1세대 IT 인재 트랙입니다. 미국 휴렛팩커드 경력을 거쳐 본업을 만든 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 IT 서비스 자수성가형 인물 (Persistent Systems 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Anand_Deshpande"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년 푸네에서 'Persistent Systems' 정립으로 본업을 만들었고, 인도 IT 서비스 카테고리에서 1위급으로 도약했습니다. 2010년 인도 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 2020~2024년 글로벌 디지털·인공지능 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.persistent.com"]
+  },
+  "careerTimeline": [
+    {"year": 1990, "event": "Founds Persistent Systems in Pune", "eventKo": "푸네에서 'Persistent Systems' 정립", "whyItMatteredKo": "기해 일주의 가을 작은 흙 일간이 외부 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2005, "event": "Persistent expands global IT services", "eventKo": "Persistent 글로벌 IT 서비스 카테고리 확장", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2010, "event": "Persistent Systems IPOs on Indian stock exchange", "eventKo": "Persistent Systems 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2018, "event": "Pivots into digital transformation services", "eventKo": "디지털 전환 서비스 카테고리로 환원", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2023, "event": "AI services drive revenue peak", "eventKo": "글로벌 인공지능 서비스 가속, 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $2.6B in Technology", "eventKo": "포브스 2026 — 테크놀로지 26억 달러로 등재", "whyItMatteredKo": "Persistent Systems 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1990, "eventKo": "Persistent Systems 정립", "impactKo": "기해 일주의 가을 작은 흙 일간이 외부 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2010, "eventKo": "Persistent 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2023, "eventKo": "글로벌 인공지능 서비스 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Persistent Systems(NSE: PERSISTENT) 본인 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1990년 Persistent 정립, 2010년 인도 상장, 2023년 인공지능 서비스 정점이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 IT 서비스 카테고리 1위급 자리, 글로벌 디지털 전환 서비스 통로, 그리고 정통 공학 박사 자본망이 강점입니다.",
+    "currentAssetAllocationKo": "Persistent Systems 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 글로벌 IT 서비스 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 IT 서비스는 거시 사이클에 직접 노출됩니다."},
+    {"year": 2015, "descriptionKo": "글로벌 IT 서비스 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "디지털 전환 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 IT 서비스 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "디지털 채널 가속과 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 IT 서비스 매출에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.5B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$2B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.6B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Persistent Systems 창업주", "인도 IT 서비스 1위급", "IIT 카라그푸르 동문", "인디애나대 컴퓨터과학 박사", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1990년 Persistent Systems 정립으로 인도 IT 서비스 카테고리 1위급 회사를 만든 카테고리 도약 본능과, 2023년 글로벌 인공지능 서비스 가속을 본인 자본 가치 정점으로 환원시킨 흐름 감각이 강점입니다.",
+    "weaknesses": "글로벌 IT 서비스 사이클과 가격 경쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 인도 1세대 공학 박사 정체성과 본인 세대에서 인도 IT 서비스 1위급 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 IT 서비스 자수성가의 표본입니다. 미국 휴렛팩커드 경력에서 인도 IT 서비스 1위급 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Hae day pillar (autumn small earth on pig water) and Sa month branch combine into a softly flowing, externally-pressured profile. The format that channels wealth through external authority matches a 36-year arc from the 1990 Persistent founding to the 2010 IPO and the 2023 AI services peak.",
+    "summaryKo": "일주는 기해라 가을 작은 흙이 한겨울 물(돼지의 자리) 위에 놓인 형국으로, 부드러운 흙이 외부의 큰 물로 결과물로 빚어지는 자리입니다. 월지 사는 초여름 불의 자리라 일간을 외부의 강한 불로 결과물로 다지는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1990년 Persistent 정립, 2010년 상장, 2023년 인공지능 서비스 정점까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Anand_Deshpande",
+    "https://www.persistent.com",
+    "https://www.forbes.com/profile/anand-deshpande/"
+  ]
+}

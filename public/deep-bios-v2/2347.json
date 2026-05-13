@@ -1,0 +1,72 @@
+{
+  "id": 2347,
+  "name": "Surjit Kumar Gupta",
+  "nameKo": "수르지트 쿠마르 굽타",
+  "birthday": "1942-01-13",
+  "birthPlace": "India",
+  "birthPlaceKo": "인도",
+  "netWorth": "$1.7B",
+  "nationality": "IN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "병인",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1942년 인도에서 태어났습니다. 정통 학력은 공학 트랙으로, 1970년대 인도 제조업 카테고리 진입으로 출발한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 제조업 자수성가형 인물입니다.",
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1970년대 인도 제조업 카테고리 진입으로 출발해 1990~2010년대 인도 산업 호황기에 본업 매출을 가속, 2010~2020년대에 자본 시장 가치 환원이 진행됐습니다. 비공개 또는 부분 공개 회사 가족 지분 보유자로 추정됩니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://realtimebillionaires.de/"]
+  },
+  "careerTimeline": [
+    {"year": 1975, "event": "Begins manufacturing business in India", "eventKo": "인도 제조업 카테고리 진입 (추정)", "whyItMatteredKo": "병인 일주의 작은 불 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1991, "event": "India liberalization accelerates manufacturing market", "eventKo": "인도 경제 자유화로 제조업 시장 가속", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2005, "event": "Capital event or domestic listing", "eventKo": "본업 자본 시장 이벤트 또는 인도 상장 (추정)", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 시기입니다."},
+    {"year": 2015, "event": "Manufacturing exports drive revenue", "eventKo": "글로벌 제조업 수출 카테고리 가속으로 본업 매출 가속", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2022, "event": "Post-pandemic industrial demand peaks", "eventKo": "포스트 코로나 산업 수요 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.7B in Manufacturing", "eventKo": "포브스 2026 — 제조업 17억 달러로 등재", "whyItMatteredKo": "조용히 쌓인 본업 자본이 부호 리스트에 정식 등재된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1975, "eventKo": "인도 제조업 카테고리 진입", "impactKo": "병인 일주의 작은 불 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2005, "eventKo": "본업 자본 이벤트", "impactKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 분기점입니다."},
+    {"year": 2022, "eventKo": "포스트 코로나 산업 수요 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비공개 또는 부분 공개 인도 제조 회사 가족 지분에서 나오는 자산이 핵심으로 추정됩니다.",
+    "wealthAcceleratorsKo": "1975년 진입, 2005년 자본 이벤트, 2022년 포스트 코로나 회복이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 제조업 카테고리 점유, 글로벌 제조 수출 통로, 그리고 미디어 노출 최소화 전략이 강점으로 추정됩니다.",
+    "currentAssetAllocationKo": "인도 제조 회사 가족 지분이 자산의 절대 비중으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 제조업 수출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 제조 수출은 거시 사이클에 직접 노출됩니다."},
+    {"year": 2016, "descriptionKo": "인도 화폐 개혁(Demonetization)으로 제조 거래가 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복으로 통과했습니다.", "lessonKo": "정책 한 번에 제조 매출이 흔들립니다."},
+    {"year": 2023, "descriptionKo": "글로벌 산업재 가격 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.6B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$1.3B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["인도 제조 1세대", "Hidden Founder", "정보 비공개", "글로벌 수출 통로", "미디어 노출 최소화"],
+  "characterKo": {
+    "strengths": "인도 제조업 카테고리에서 50년 가까이 본업을 운영한 끈기와, 인도 경제 자유화·산업 호황을 본인 자본 가치 가속으로 환원시킨 흐름 감각이 강점으로 추정됩니다.",
+    "weaknesses": "인도 정책 사이클과 글로벌 산업재 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "인도 1세대 제조 자수성가 정체성과 미디어 노출 최소화를 본인 자산 운용 원칙으로 삼은 의식이 동력으로 보입니다.",
+    "legacy": "인도 1세대 제조업 카테고리 자수성가의 표본입니다. 미디어 노출 적은 채로 본업 자본만으로 부호 리스트에 진입한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-In day pillar (early summer fire on tiger wood) and Chuk month branch combine into a brightly expressing, self-expressing profile. The format that channels wealth through one's bold creative output matches a 51-year arc from the 1975 entry to the 2005 capital event and the 2022 post-pandemic peak.",
+    "summaryKo": "일주는 병인이라 초여름 작은 불이 봄 나무(호랑이의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 봄 나무의 큰 자원으로 빚어지는 자리입니다. 월지 축은 겨울 끝 흙의 자리라 일간을 외부의 강한 흙으로 결과물로 빚어내는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1975년 진입, 2005년 자본 이벤트, 2022년 포스트 코로나 회복까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/billionaires/",
+    "https://realtimebillionaires.de/"
+  ]
+}

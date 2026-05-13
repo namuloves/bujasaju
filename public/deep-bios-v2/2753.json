@@ -1,0 +1,72 @@
+{
+  "id": 2753,
+  "name": "Kamlesh Jain",
+  "nameKo": "캄레시 자인",
+  "birthday": "1968-06-30",
+  "birthPlace": "Rajasthan, India",
+  "birthPlaceKo": "인도 라자스탄",
+  "netWorth": "$1.3B",
+  "nationality": "IN",
+  "industry": "Metals & Mining",
+  "gender": "M",
+  "ilju": "신미",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1968년 인도 라자스탄의 자인 가문에서 태어났습니다. 정통 학력보다 시장 실무 경험이 토대인 1세대 자인 자수성가형 인물로, 1990년대 후반 인도 금속 재활용 사업으로 출발했습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 자인 금속 재활용 자수성가형 인물입니다.",
+    "sources": ["https://www.forbes.com/billionaires/"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1990년대 후반 인도 라자스탄에서 금속 재활용(폐금속·전자 폐기물) 사업 진입으로 출발해 2010년대 글로벌 ESG·재활용 호황기에 본업 매출을 가속, 2010~2020년대에 자본 시장 가치 환원이 진행됐습니다. 비공개 또는 부분 공개 회사 가족 지분 보유자로 추정됩니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://realtimebillionaires.de/"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Begins metal recycling business in Rajasthan", "eventKo": "라자스탄 금속 재활용 사업 진입 (추정)", "whyItMatteredKo": "신미 일주의 가을 쇠 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2005, "event": "Indian recycling demand drives capacity buildout", "eventKo": "인도 금속 재활용 시장 호황기, 본업 매출 토대 형성", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2014, "event": "Capital event or domestic listing", "eventKo": "본업 자본 시장 이벤트 또는 인도 상장 (추정)", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 시기입니다."},
+    {"year": 2018, "event": "Global ESG demand drives recycling category", "eventKo": "글로벌 ESG 흐름으로 재활용 카테고리 수요 가속", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2022, "event": "Domestic recycling demand boosts margin", "eventKo": "본토 재활용 수요 가속, 본업 마진 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.3B in Metals & Mining", "eventKo": "포브스 2026 — 금속·광산 13억 달러로 등재", "whyItMatteredKo": "조용히 쌓인 본업 자본이 부호 리스트에 정식 등재된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "라자스탄 금속 재활용 사업 진입", "impactKo": "신미 일주의 가을 쇠 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2014, "eventKo": "본업 자본 이벤트", "impactKo": "본업 매출이 자본 시장 가치로 환원되기 시작한 분기점입니다."},
+    {"year": 2018, "eventKo": "글로벌 ESG 흐름으로 재활용 카테고리 수요 가속", "impactKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "비공개 또는 부분 공개 인도 금속 재활용 회사 가족 지분에서 나오는 자산이 핵심으로 추정됩니다.",
+    "wealthAcceleratorsKo": "1995년 진입, 2014년 자본 이벤트, 2018년 ESG 흐름 가속이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 금속 재활용 카테고리 점유, 자인 가문 자본망, 그리고 글로벌 ESG 흐름 통로가 강점으로 추정됩니다.",
+    "currentAssetAllocationKo": "인도 금속 재활용 회사 가족 지분이 자산의 절대 비중으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 금속 재활용 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 내수 비중 강화로 단계적 회복했습니다.", "lessonKo": "거시 충격은 재활용 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "본토 환경 규제 강화로 일부 재활용 공정이 단기 시험받았습니다.", "howTheyOvercameKo": "친환경 공정 전환으로 통과했습니다.", "lessonKo": "환경 규제는 본업 운영에 직접 영향을 줍니다."},
+    {"year": 2024, "descriptionKo": "글로벌 금속 가격 변동성으로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복을 시도하고 있습니다.", "lessonKo": "원자재 가격 변동은 본업 마진의 분기 단위 변동을 만듭니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2018, "netWorth": "$0.4B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$1.1B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["인도 금속 재활용 1세대", "Hidden Founder", "라자스탄 자인 가문", "ESG 흐름 수혜", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "라자스탄 자인 1세대 자수성가형 정체성과 본인 세대에서 인도 금속 재활용 카테고리에서 본업을 만든 끈기, 그리고 글로벌 ESG 흐름을 본인 자본 가속으로 환원시킨 흐름 감각이 강점으로 추정됩니다.",
+    "weaknesses": "인도 환경 규제 사이클과 글로벌 금속 가격 변동에 본업 매출이 직접 노출됩니다.",
+    "motivation": "라자스탄 자인 1세대 자수성가형 야망과 본인 세대에서 인도 재활용 카테고리에서 본업을 키우겠다는 산업 의식이 동력으로 보입니다.",
+    "legacy": "인도 1세대 금속 재활용 자수성가의 표본입니다. 미디어 노출 적은 채로 본업 자본만으로 부호 리스트에 진입한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Mi day pillar (early summer metal on goat earth) and O month branch combine into a sharply forged, learning-authority profile. The format that channels wealth through learned authority matches a 30-year arc from the 1995 entry to the 2014 capital event and the 2018 ESG surge.",
+    "summaryKo": "일주는 신미라 초여름 쇠가 한여름 끝 흙(양의 자리) 위에 놓인 형국으로, 단단한 쇠가 흙으로 단단히 받쳐진 자리입니다. 월지 오는 한여름 불의 자리라 일간을 외부의 큰 흐름으로 시험하는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1995년 진입, 2014년 자본 이벤트, 2018년 ESG 가속까지 모두 '학습된 결과물이 단계적으로 본인 자본으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.forbes.com/billionaires/",
+    "https://realtimebillionaires.de/"
+  ]
+}

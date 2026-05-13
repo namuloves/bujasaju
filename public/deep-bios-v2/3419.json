@@ -1,0 +1,73 @@
+{
+  "id": 3419,
+  "name": "Koo Ja-yup",
+  "nameKo": "구자엽",
+  "birthday": "1951-12-30",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$0.2B",
+  "nationality": "KR",
+  "industry": "Cable manufacturing",
+  "gender": "M",
+  "ilju": "갑진",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1951년 대한민국에서 태어났습니다. 정통 학력은 경영 트랙으로, 한국 1세대 LG 가문(LG·GS 가문 인척)의 후계자 정체성을 유년기부터 형성한 정통 한국 1세대 후계자 트랙입니다.",
+    "capitalTypeKo": "재벌 후계자 — 한국 LG 가문 인척 후계자 (LS전선 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/LS_Cable_%26_System"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1970년대 가족 LG 그룹 합류로 본업을 잇기 시작했고, 2003년 LG에서 LS그룹 분할 후 LS전선 회장 자리에 도약했습니다. 본업은 한국 전선·케이블 카테고리 1위급 회사이고, 2010~2024년 본토·글로벌 인프라 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 4,
+    "sources": ["https://www.lscns.com"]
+  },
+  "careerTimeline": [
+    {"year": 1975, "event": "Joins family LG group business", "eventKo": "가족 LG 그룹 합류 (추정)", "whyItMatteredKo": "갑진 일주의 봄 큰 나무 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2003, "event": "LG splits, joins LS Group", "eventKo": "LG에서 LS그룹 분할 후 LS그룹 합류", "whyItMatteredKo": "본인 자리의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2012, "event": "Becomes Chairman of LS Cable & System", "eventKo": "LS전선 회장 자리 도약", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다."},
+    {"year": 2018, "event": "LS Cable expands into US submarine cable market", "eventKo": "LS전선 미국 해저 케이블 시장 진입", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 시기입니다."},
+    {"year": 2024, "event": "AI/data center demand drives revenue peak", "eventKo": "글로벌 인공지능·데이터 센터 수요 가속으로 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $0.2B in Cable manufacturing", "eventKo": "포브스 2026 — 케이블 제조 2억 달러로 등재", "whyItMatteredKo": "LS전선 본인 보유 지분이 본업 자본 가치로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1975, "eventKo": "가족 LG 그룹 합류", "impactKo": "갑진 일주의 봄 큰 나무 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2012, "eventKo": "LS전선 회장 자리 도약", "impactKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 분기점입니다."},
+    {"year": 2024, "eventKo": "글로벌 인공지능 수요 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "LS전선·LS그룹 비상장 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1975년 가족 합류, 2012년 회장 취임, 2024년 인공지능 수요 정점이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 전선·케이블 카테고리 1위급 자리, LG·LS 가문 자본망, 그리고 글로벌 해저 케이블 통로가 강점입니다.",
+    "currentAssetAllocationKo": "LS전선·LS그룹 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2003, "descriptionKo": "LG에서 LS그룹 분할 협상기 가문 거버넌스가 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 가문 합의로 통과했습니다.", "lessonKo": "재벌 가문 분할은 가문 거버넌스에 한 번에 큰 영향을 줍니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 한국 케이블 수출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 케이블 수출은 거시 사이클에 직접 노출됩니다."},
+    {"year": 2024, "descriptionKo": "글로벌 케이블 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "고부가 해저·인공지능 카테고리 비중 강화로 통과하고 있습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.08B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$0.13B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$0.18B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$0.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["LS전선 회장", "LG·LS 가문 후계자", "한국 전선·케이블 1위급", "정통 후계자", "글로벌 해저 케이블"],
+  "characterKo": {
+    "strengths": "1975년 가족 합류 후 50년 가까이 한국 LG·LS 가문의 한 축으로 자리잡은 끈기와, 2012년 LS전선 회장 자리 도약 후 2024년 인공지능 수요 가속을 본인 자본 가치 가속으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "한국 가문 거버넌스 사이클과 글로벌 케이블 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "한국 LG·LS 가문 후계자 정체성과 본인 세대에서 한국 전선·케이블 1위급 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "한국 LG·LS 100년 가문의 운영형 후계자 표본입니다. 가족 LG에서 LS전선 회장 자리로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gap-Jin day pillar (early spring big wood on dragon earth) and Ja month branch combine into a tall-standing, externally-pressured profile. The format that channels wealth through external authority matches a 51-year arc from the 1975 family entry to the 2012 chairmanship and the 2024 AI demand surge.",
+    "summaryKo": "일주는 갑진이라 봄 큰 나무가 봄 끝 흙(용의 자리) 위에 놓인 형국으로, 큰 나무가 부드러운 흙에 단단히 뿌리내린 형상입니다. 월지 자는 한겨울 물의 자리라 일간을 외부의 큰 자원·시스템으로 받쳐주는 통로입니다. 격국은 외부의 권위·압력과 결합하는 흐름이라, 1975년 가족 합류, 2012년 LS전선 회장 취임, 2024년 인공지능 수요 정점까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/LS_Cable_%26_System",
+    "https://www.lscns.com",
+    "https://www.forbes.com/billionaires/"
+  ]
+}

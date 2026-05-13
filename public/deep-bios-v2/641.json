@@ -1,0 +1,73 @@
+{
+  "id": 641,
+  "name": "Rahul Bhatia",
+  "nameKo": "라훌 바티아",
+  "birthday": "1959-06-10",
+  "birthPlace": "New Delhi, India",
+  "birthPlaceKo": "인도 뉴델리",
+  "netWorth": "$6.2B",
+  "nationality": "IN",
+  "industry": "Service",
+  "gender": "M",
+  "ilju": "계해",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1959년 인도 뉴델리에서 태어났습니다. 부친은 인도 1세대 여행업 사업가였고, 본인은 캐나다 워털루대 학사를 거쳐 1990년대 인도 여행업·항공업으로 출발한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 항공 자수성가형 인물 (IndiGo 공동 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Rahul_Bhatia"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1989년 'InterGlobe Enterprises' 정립으로 여행업 본업을 만들었고, 2006년 라케시 간곤과 함께 인도 LCC 'IndiGo'(인터글로브 항공)를 공동 창업했습니다. 2015년 IndiGo 인도 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 인도 LCC 1위 자리를 굳혔습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.goindigo.in"]
+  },
+  "careerTimeline": [
+    {"year": 1989, "event": "Founds InterGlobe Enterprises", "eventKo": "'InterGlobe Enterprises' 정립, 인도 여행업 카테고리 진입", "whyItMatteredKo": "계해 일주의 작은 물 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2006, "event": "Co-founds IndiGo airline with Rakesh Gangwal", "eventKo": "라케시 간곤과 함께 인도 LCC 'IndiGo' 공동 창업", "whyItMatteredKo": "본업의 두 번째 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2010, "event": "IndiGo becomes #1 LCC in India", "eventKo": "IndiGo 인도 LCC 1위 자리 굳히기", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2015, "event": "IndiGo (InterGlobe Aviation) IPOs in India", "eventKo": "IndiGo(인터글로브 항공) 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2022, "event": "IndiGo recovers post-pandemic; expands global routes", "eventKo": "IndiGo 코로나 이후 V자 회복, 글로벌 노선 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2024, "event": "IndiGo group revenue passes ₹700B amid global expansion", "eventKo": "IndiGo 그룹 매출 7,000억 루피 돌파, 글로벌 항공 호황기 정점", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1989, "eventKo": "InterGlobe Enterprises 정립", "impactKo": "계해 일주의 작은 물 일간이 학습된 결과물의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2006, "eventKo": "IndiGo 공동 창업", "impactKo": "본업의 두 번째 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2015, "eventKo": "IndiGo 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "인도 상장사 InterGlobe Aviation(NSE: INDIGO) 가족 지분과 비상장 InterGlobe Enterprises 자산이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1989년 InterGlobe 정립, 2006년 IndiGo 창업, 2015년 IndiGo 인도 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 LCC 1위 자리, 여행업·호텔·항공 다중 카테고리 분산, 그리고 가족 자본망이 강점입니다.",
+    "currentAssetAllocationKo": "InterGlobe Aviation 가족 지분이 자산의 절대 비중. 자녀 세대로의 이양은 점진적 진행 중입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 항공 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "LCC 가격 정책 강화로 V자 회복했습니다.", "lessonKo": "항공 카테고리는 거시 사이클에 매출이 직접 노출됩니다."},
+    {"year": 2019, "descriptionKo": "공동 창업주 라케시 간곤과의 분쟁으로 본업 운영자 정체성이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 합의와 운영 안정화로 통과했습니다.", "lessonKo": "공동 창업 사이의 갈등은 본업 운영자 정체성을 시험합니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 항공업이 사상 최대 위기를 맞아 IndiGo도 단기 적자에 빠졌습니다.", "howTheyOvercameKo": "단계적 회복과 글로벌 노선 확장으로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 거시 충격 한 번에 본업이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$1.5B", "sourceKo": "IndiGo 상장 직후"},
+    {"year": 2018, "netWorth": "$3B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$6.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["IndiGo 공동 창업주", "InterGlobe Enterprises", "인도 LCC 1위", "라케시 간곤과 분쟁", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1989년 InterGlobe 정립으로 여행업을 만든 카테고리 도약 본능과, 2006년 IndiGo 공동 창업으로 인도 LCC 1위 자리를 굳힌 결단력이 강점입니다.",
+    "weaknesses": "글로벌 항공 사이클과 공동 창업 분쟁이 본업 운영자 정체성을 시험합니다.",
+    "motivation": "뉴델리 1세대 자수성가형 야망과 본인 세대에서 인도 LCC 1위 회사를 만들겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 LCC 자수성가의 표본입니다. 여행업에서 항공업까지 카테고리를 확장한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Hae day pillar (early summer water on pig water) and O month branch combine into a deeply gathered, learning-authority profile. The format that channels wealth through learned authority matches a 35-year arc from the 1989 InterGlobe to the 2006 IndiGo founding and the 2015 IPO.",
+    "summaryKo": "일주는 계해라 초여름 작은 물이 한겨울 물(돼지의 자리) 위에 놓인 형국으로, 두 겹의 물이 깊이로 모이는 자리입니다. 월지 오는 한여름 불의 자리라 일간을 외부의 큰 흐름으로 시험하는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1989년 InterGlobe, 2006년 IndiGo 창업, 2015년 상장까지 모두 '학습된 결과물이 단계적으로 본인 자본으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rahul_Bhatia",
+    "https://www.goindigo.in",
+    "https://www.forbes.com/profile/rahul-bhatia/"
+  ]
+}

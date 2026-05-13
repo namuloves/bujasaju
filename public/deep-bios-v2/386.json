@@ -1,0 +1,73 @@
+{
+  "id": 386,
+  "name": "Rajan Mittal",
+  "nameKo": "라잔 미탈",
+  "birthday": "1960-01-05",
+  "birthPlace": "Punjab, India",
+  "birthPlaceKo": "인도 펀자브주",
+  "netWorth": "$8.7B",
+  "nationality": "IN",
+  "industry": "Telecom",
+  "gender": "M",
+  "ilju": "임진",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1960년 인도 펀자브주의 미탈 가문에서 태어났습니다. 정통 학력은 경영 트랙으로, 인도 1세대 통신 가문의 후계자 정체성을 유년기부터 형성했다고 전해집니다. 형 수닐 미탈(Bharti Airtel 회장)과 함께 가족 사업을 운영한 1세대 자수성가의 표본입니다.",
+    "capitalTypeKo": "재벌 후계자·운영형 자수성가 — 인도 1세대 통신 가문 미탈 형제 (Bharti Enterprises 부회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Bharti_Enterprises"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1976년 형 수닐 미탈과 함께 가족 자전거 부품 사업으로 출발, 1995년 'Bharti Cellular' 정립으로 본업 통신 카테고리를 만들었습니다. 2001년 인도 'Bharti Airtel' 정립과 인도 증권거래소 상장으로 본업 자본을 환원했고, 2010~2020년대 글로벌 통신·금융 카테고리 확장으로 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://www.bharti.com"]
+  },
+  "careerTimeline": [
+    {"year": 1976, "event": "Joins family business with brother Sunil", "eventKo": "형 수닐 미탈과 가족 자전거 부품 사업 합류", "whyItMatteredKo": "임진 일주의 봄 끝 큰 물 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 1995, "event": "Founds Bharti Cellular for mobile telecom", "eventKo": "'Bharti Cellular' 정립, 인도 모바일 통신 카테고리 진입", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2001, "event": "Bharti Airtel IPOs on Indian stock exchange", "eventKo": "Bharti Airtel 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2010, "event": "Acquires Zain Africa for $10.7B", "eventKo": "Zain Africa 107억 달러에 인수, 글로벌 카테고리 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리 글로벌 확장으로 환원된 시기입니다."},
+    {"year": 2018, "event": "Bharti AXA Life joint venture matures", "eventKo": "Bharti AXA Life 합작 본업 자본 환원 시기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $8.7B in Telecom", "eventKo": "포브스 2026 — 통신 87억 달러로 등재", "whyItMatteredKo": "Bharti Enterprises 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "Bharti Cellular 정립", "impactKo": "임진 일주의 봄 끝 큰 물 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 결정적 결단입니다."},
+    {"year": 2001, "eventKo": "Bharti Airtel 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2010, "eventKo": "Zain Africa 107억 달러 인수", "impactKo": "외부 자원의 큰 흐름이 본업 카테고리 글로벌 확장으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Bharti Airtel(NSE: BHARTIARTL), Bharti Enterprises 비상장 본인·가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1995년 Bharti Cellular 정립, 2001년 상장, 2010년 Zain Africa 인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 통신 카테고리 1위 자리, 인도·아프리카 글로벌 통신 분배망, 그리고 미탈 형제 가족 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Bharti Enterprises·Bharti Airtel 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 통신 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화와 글로벌 확장 가속으로 V자 회복했습니다.", "lessonKo": "거시 충격은 통신 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2016, "descriptionKo": "릴라이언스 지오(Jio) 진입으로 인도 통신 가격 경쟁이 격화됐습니다.", "howTheyOvercameKo": "단계적 가격 경쟁 대응과 4G·5G 강화로 통과했습니다.", "lessonKo": "신규 진입자 사이클은 본업 매출에 분기 단위로 직접 영향을 줍니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 통신 매출과 결제가 단기 시험받았습니다.", "howTheyOvercameKo": "디지털 채널 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 통신 매출에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$4B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$5.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$7.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$8.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Bharti Enterprises 부회장", "Bharti Airtel 가족", "인도 통신 1위 가문", "미탈 형제", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1976년 형 수닐과 가족 사업 합류 후 50년 동안 인도 통신 카테고리 1위 회사의 한 축으로 자리잡은 끈기와, 1995년 Bharti Cellular 정립으로 본업 카테고리를 통신으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 통신 가격 경쟁 사이클과 글로벌 거시 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 인도 1세대 통신 자수성가 야망과 본인 세대에서 인도 통신 1위 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 통신 가문 미탈 형제 후계자의 표본입니다. 자전거 부품 사업에서 인도 통신 1위 회사 가족 자본 한 축으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-Jin day pillar (early winter water on dragon earth) and Ja month branch combine into a deeply flowing, externally-resourced profile. The format that channels wealth through external resources matches a 50-year arc from the 1976 family entry to the 1995 Bharti Cellular and the 2010 Zain Africa deal.",
+    "summaryKo": "일주는 임진이라 초겨울 큰 물이 봄 끝 흙(용의 자리) 위에 놓인 형국으로, 풍부한 물이 부드러운 흙으로 결과물로 압축되는 자리입니다. 월지 자는 한겨울 물의 자리라 일간을 두 겹의 큰 물로 응축합니다. 격국은 큰 외부 자원의 흐름이라, 1976년 가족 합류, 1995년 Bharti Cellular 정립, 2010년 Zain Africa 인수까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bharti_Enterprises",
+    "https://www.bharti.com",
+    "https://www.forbes.com/profile/rajan-mittal/"
+  ]
+}

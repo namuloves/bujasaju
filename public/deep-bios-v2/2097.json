@@ -1,0 +1,73 @@
+{
+  "id": 2097,
+  "name": "Yasuhiro Fukushima",
+  "nameKo": "후쿠시마 야스히로",
+  "birthday": "1947-08-18",
+  "birthPlace": "Tokyo, Japan",
+  "birthPlaceKo": "일본 도쿄",
+  "netWorth": "$1.9B",
+  "nationality": "JP",
+  "industry": "Media & Entertainment",
+  "gender": "M",
+  "ilju": "기사",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "1947년 일본 도쿄에서 태어났습니다. 정통 학력은 부동산 사업 트랙으로, 1970년대 일본 고도성장기 부동산·게임 카테고리 진입으로 출발한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 일본 1세대 비디오 게임 자수성가형 인물 (Enix 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Yasuhiro_Fukushima"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1975년 도쿄에서 부동산 광고 회사 'Eidansha Boshu Service Center' 창업으로 출발해 1982년 게임 회사 'Enix'로 전환했고, 1986년 'Dragon Quest'(드래곤 퀘스트) 시리즈로 일본 RPG 카테고리 1위로 도약했습니다. 2003년 Square과 합병해 'Square Enix' 정립으로 본업 자본을 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.square-enix.com"]
+  },
+  "careerTimeline": [
+    {"year": 1975, "event": "Founds Eidansha Boshu Service Center", "eventKo": "도쿄에서 부동산 광고 회사 'Eidansha Boshu Service Center' 창업", "whyItMatteredKo": "기사 일주의 봄 끝 작은 흙 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1982, "event": "Pivots into video games as Enix", "eventKo": "비디오 게임 카테고리 전환, 'Enix' 회사 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 1986, "event": "Launches Dragon Quest series", "eventKo": "Dragon Quest 시리즈 출시, 일본 RPG 1위 도약", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 결정적 분기점입니다."},
+    {"year": 1991, "event": "Enix IPOs on Tokyo Stock Exchange", "eventKo": "Enix 도쿄 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 시기입니다."},
+    {"year": 2003, "event": "Merges with Square to form Square Enix", "eventKo": "Square과 합병해 'Square Enix' 정립", "whyItMatteredKo": "본업 매출이 글로벌 RPG 1위급 회사로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.9B in Media & Entertainment", "eventKo": "포브스 2026 — 미디어·엔터테인먼트 19억 달러로 등재", "whyItMatteredKo": "Square Enix 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1982, "eventKo": "비디오 게임 카테고리 전환", "impactKo": "기사 일주의 봄 끝 작은 흙 일간이 자기 표현의 결과물을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 1986, "eventKo": "Dragon Quest 시리즈 출시", "impactKo": "본업 매출이 카테고리 1위 자리로 환원된 분기점입니다."},
+    {"year": 2003, "eventKo": "Square Enix 합병", "impactKo": "본업 매출이 글로벌 RPG 1위급 회사로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Square Enix Holdings(TSE: 9684) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1982년 게임 전환, 1986년 Dragon Quest 출시, 2003년 Square Enix 합병이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "일본 비디오 게임 카테고리 1위 자리, Dragon Quest·Final Fantasy 시리즈 통로, 그리고 일본 1세대 게임 산업 네트워크가 강점입니다.",
+    "currentAssetAllocationKo": "Square Enix 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2003, "descriptionKo": "Square과 합병 협상 과정에서 가문 자본 통제력이 단기 시험받았습니다.", "howTheyOvercameKo": "합병 구조 협상으로 가족 지분 안정화하며 통과했습니다.", "lessonKo": "합병은 가문 자본 통제력에 한 번에 큰 영향을 줍니다."},
+    {"year": 2013, "descriptionKo": "Square Enix 모바일·콘솔 전환기 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "Final Fantasy XIV 재출시 성공으로 통과했습니다.", "lessonKo": "산업 전환 사이클은 카테고리 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2024, "descriptionKo": "Square Enix 글로벌 게임 매출이 단기 시험받고 있습니다.", "howTheyOvercameKo": "글로벌 IP·모바일 전략 강화로 단계적 회복을 시도하고 있습니다.", "lessonKo": "단일 산업 의존은 글로벌 사이클 한 번에 매출이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.6B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1.7B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.9B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Enix 창업주", "Square Enix 가족", "일본 비디오 게임 1세대", "Dragon Quest 산업 정체성", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1975년 부동산 광고 회사에서 1982년 비디오 게임으로 카테고리를 환원시킨 카테고리 도약 본능과, 1986년 Dragon Quest로 일본 RPG 1위 회사를 만든 산업 결단력이 강점입니다.",
+    "weaknesses": "글로벌 게임 사이클과 산업 전환 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "일본 1세대 비디오 게임 자수성가 정체성과 본인 세대에서 글로벌 RPG 1위 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "일본 1세대 비디오 게임 자수성가의 표본입니다. 부동산 광고에서 글로벌 RPG 1위 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Sa day pillar (early spring earth on snake fire) and Sin month branch combine into a softly nourished, self-expressing profile. The format that channels wealth through bold creative output matches a 50-year arc from the 1975 founding to the 1986 Dragon Quest launch and the 2003 Square Enix merger.",
+    "summaryKo": "일주는 기사라 이른 봄 작은 흙이 초여름 불(뱀의 자리) 위에 놓인 형국으로, 부드러운 흙이 외부의 강한 불에 의해 결과물로 빚어지는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1975년 창업, 1986년 Dragon Quest, 2003년 Square Enix 합병까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yasuhiro_Fukushima",
+    "https://www.square-enix.com",
+    "https://www.forbes.com/profile/yasuhiro-fukushima/"
+  ]
+}

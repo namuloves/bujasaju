@@ -1,0 +1,73 @@
+{
+  "id": 3378,
+  "name": "Hong Ra-young",
+  "nameKo": "홍라영",
+  "birthday": "1960-01-10",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$220M",
+  "nationality": "KR",
+  "industry": "Arts",
+  "gender": "F",
+  "ilju": "정유",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1960년 한국에서 태어났습니다. 정통 학력은 서울대 미학과 학사, 미국 대학원 미술사 학위로 정통 미술 인재 트랙입니다. 삼성 가문 이건희 회장의 사위 홍석현 회장의 동생이고, 부친 홍진기 (중앙일보 회장)를 통해 가족 자본의 한 축으로 자리잡았습니다.",
+    "capitalTypeKo": "재벌 2세대 — 중앙일보·삼성 가문 인척으로 미술 카테고리에서 본업 정체성을 만든 인물입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Leeum"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1990년대 호암미술관·리움미술관에서 큐레이터로 출발해 2003년 리움미술관 총괄부관장으로 정식 취임, 한국 1세대 글로벌 사립미술관 정체성을 만들었습니다. 본업은 가족 자본 운영보다 미술 카테고리 운영에 집중된 정체성이지만, 가족 자본의 일부를 잇는 후계자 위치입니다.",
+    "selfMadeScore": 4,
+    "sources": ["https://www.leeum.org"]
+  },
+  "careerTimeline": [
+    {"year": 1985, "event": "Joins Hoam Art Museum as curator", "eventKo": "호암미술관 큐레이터 합류 (추정)", "whyItMatteredKo": "정유 일주의 가을 작은 불 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2003, "event": "Becomes Deputy Director of Leeum Museum of Art", "eventKo": "리움미술관 총괄부관장 정식 취임", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2004, "event": "Leeum Museum opens in Hannam-dong", "eventKo": "리움미술관 한남동 본관 개관", "whyItMatteredKo": "본업 카테고리가 한국 1위급 사립미술관으로 환원된 결정적 결단입니다."},
+    {"year": 2014, "event": "Manages Leeum amid Lee family controversies", "eventKo": "삼성 가문 관련 논란 속에서 리움미술관 운영 안정 유지", "whyItMatteredKo": "외부 시스템(가족 분쟁·법)이 본업을 한 번에 시험한 분기점입니다."},
+    {"year": 2017, "event": "Leeum temporary closure amid family issues", "eventKo": "삼성 가문 이슈로 리움미술관 일시 휴관", "whyItMatteredKo": "외부 시스템이 본업 운영을 한 번에 시험한 시기입니다."},
+    {"year": 2021, "event": "Leeum reopens and resumes global exhibitions", "eventKo": "리움미술관 재개관, 글로벌 전시 재개", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2003, "eventKo": "리움미술관 총괄부관장 취임", "impactKo": "정유 일주의 가을 작은 불 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2004, "eventKo": "리움미술관 한남동 개관", "impactKo": "본업 카테고리가 한국 1위급 사립미술관으로 환원된 분기점입니다."},
+    {"year": 2017, "eventKo": "삼성 가문 이슈로 일시 휴관", "impactKo": "외부 시스템이 본업 운영을 한 번에 시험한 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "홍진기 가족 신탁 잔존 권리와 중앙일보 가족 지분, 그리고 미술관 운영자 정체성에서 나오는 외부 평판 자본이 자산의 핵심으로 추정됩니다.",
+    "wealthAcceleratorsKo": "2003년 리움 부관장 취임, 2004년 한남동 개관, 2017년 일시 휴관 후 재개관이 본인 운영자 정체성의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 1위급 사립미술관 운영자 정체성, 삼성·중앙일보 가족 자본망 인척 통로, 그리고 글로벌 미술계 인맥이 강점입니다.",
+    "currentAssetAllocationKo": "가족 자본 잔존 권리와 미술관 운영자 보상이 자산의 핵심으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 한국 미술 시장이 단기 위축됐습니다.", "howTheyOvercameKo": "장기 컬렉션 보유 전략으로 V자 회복했습니다.", "lessonKo": "미술 카테고리는 거시 사이클에 평가가 직접 노출됩니다."},
+    {"year": 2017, "descriptionKo": "삼성 가문 이슈로 리움미술관 운영이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 재개관과 단계적 전시 재개로 통과했습니다.", "lessonKo": "외부 시스템 충돌은 본업 운영에 직접 영향을 줍니다."},
+    {"year": 2020, "descriptionKo": "코로나로 미술관 운영이 단기 중단됐습니다.", "howTheyOvercameKo": "이후 단계적 재개관과 디지털 전시 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$100M", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$180M", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$200M", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$220M", "sourceKo": "공시 기반 추정"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["전 리움미술관 부관장", "홍진기 차녀", "삼성·중앙일보 가족 인척", "한국 1세대 글로벌 큐레이터", "미술계 운영자"],
+  "characterKo": {
+    "strengths": "한국 1세대 글로벌 큐레이터 정체성을 리움미술관 운영자로 환원한 카테고리 결합 본능과, 글로벌 미술계 인맥 네트워크가 강점입니다.",
+    "weaknesses": "삼성·중앙일보 가족 자본망의 외부 시스템 사이클에 본업 운영자 정체성이 직접 노출됩니다.",
+    "motivation": "홍진기·홍석현 가족 자본을 본인 세대에서 미술 카테고리 운영자 정체성으로 환원하겠다는 가문 의식이 동력입니다.",
+    "legacy": "한국 1세대 글로벌 사립미술관 운영자의 표본입니다. 미술 카테고리 운영자로 가족 자본의 한 축을 환원한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Jeong-Yu day pillar (winter fire on rooster metal) and Chuk month branch combine into a sharply refined, output-focused profile. The format that channels wealth through external production matches a 40-year arc from the 1985 Hoam entry to the 2004 Leeum opening and the 2021 reopening.",
+    "summaryKo": "일주는 정유라 한겨울 작은 불이 가을 쇠(닭의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 단단한 쇠로 결과물을 빚어내는 자리입니다. 월지 축은 한겨울 흙의 자리라 일간을 외부의 큰 흐름과 결합시키는 통로입니다. 격국은 외부에 자기 결과물을 발산하는 흐름이라, 1985년 호암 입사, 2004년 리움 개관, 2021년 재개관까지 모두 '학습된 결과물이 단계적으로 본인 운영자 정체성으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Leeum",
+    "https://www.leeum.org",
+    "https://namu.wiki"
+  ]
+}

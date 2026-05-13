@@ -1,0 +1,73 @@
+{
+  "id": 2395,
+  "name": "Kishin RK",
+  "nameKo": "키신 RK",
+  "birthday": "1983-05-05",
+  "birthPlace": "Singapore",
+  "birthPlaceKo": "싱가포르",
+  "netWorth": "$1.6B",
+  "nationality": "SG",
+  "industry": "Real Estate",
+  "gender": "M",
+  "ilju": "계사",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1983년 싱가포르의 인도계 신디 가문에서 태어났습니다. 정통 학력은 경영 트랙으로, 영국 유학을 거친 정통 싱가포르 1세대 부동산 가문 후계자 인재 트랙입니다. 부친 라지쿠마르가 정립한 'Royal Brothers Group' 부동산 가문의 후계자입니다.",
+    "capitalTypeKo": "재벌 후계자·운영형 자수성가 — 싱가포르 1세대 부동산 가문 후계자 (RB Capital 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Kishin_RK"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "2005년 영국 유학 후 가족 'Royal Brothers Group' 합류로 본업을 잇기 시작했고, 2010년 'RB Capital' 정립으로 본업 카테고리를 환원했습니다. 본업은 비상장 본인·가족 보유 부동산이고, 2015~2024년 싱가포르 럭셔리 부동산 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 5,
+    "sources": ["https://www.rbcapital.sg"]
+  },
+  "careerTimeline": [
+    {"year": 2005, "event": "Joins family Royal Brothers Group", "eventKo": "가족 Royal Brothers Group 합류", "whyItMatteredKo": "계사 일주의 가을 작은 물 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2010, "event": "Founds RB Capital in Singapore", "eventKo": "싱가포르에서 'RB Capital' 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2014, "event": "Develops Holiday Inn Express Singapore", "eventKo": "Holiday Inn Express 싱가포르 호텔 개발", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 시기입니다."},
+    {"year": 2018, "event": "Expands InterContinental Singapore Robertson Quay", "eventKo": "InterContinental 로버트슨 퀘이 호텔 확장, 럭셔리 카테고리 도약", "whyItMatteredKo": "본업 매출이 카테고리 1위급으로 환원된 결정적 결단입니다."},
+    {"year": 2022, "event": "Post-pandemic Singapore luxury property peaks", "eventKo": "포스트 코로나 싱가포르 럭셔리 부동산 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.6B in Real Estate", "eventKo": "포브스 2026 — 부동산 16억 달러로 등재", "whyItMatteredKo": "RB Capital 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2005, "eventKo": "가족 Royal Brothers Group 합류", "impactKo": "계사 일주의 가을 작은 물 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2010, "eventKo": "RB Capital 정립", "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다."},
+    {"year": 2022, "eventKo": "포스트 코로나 싱가포르 럭셔리 부동산 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "RB Capital 비상장 본인 및 가족 보유 지분 가치, 그리고 싱가포르 럭셔리 부동산 자산이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2005년 가족 합류, 2010년 RB Capital 정립, 2022년 포스트 코로나 회복이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "싱가포르 럭셔리 부동산 카테고리 자리, 인도계 신디 가문 자본망, 그리고 글로벌 럭셔리 호텔 카테고리 결합이 강점입니다.",
+    "currentAssetAllocationKo": "RB Capital 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "싱가포르 부동산 시장 둔화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "프리미엄 호텔 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 시장 의존은 거시 사이클에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 싱가포르 호텔 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "정부 격리 호텔 제공 등 비상 카테고리로 V자 회복했습니다.", "lessonKo": "거시 충격은 호텔 매출에 분기 단위로 직접 영향을 줍니다."},
+    {"year": 2024, "descriptionKo": "글로벌 금리 인상으로 싱가포르 부동산 가치가 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "부동산 카테고리는 금리 사이클에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.6B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1.4B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.6B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["RB Capital 회장", "싱가포르 1세대 부동산 가문", "InterContinental Robertson Quay 정체성", "신디 가문", "정통 후계자"],
+  "characterKo": {
+    "strengths": "2005년 가족 사업 합류 후 20년 동안 싱가포르 1세대 부동산 가문의 한 축으로 자리잡은 끈기와, 2010년 RB Capital 정립으로 본업을 럭셔리 호텔 카테고리로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "싱가포르 단일 시장 의존도와 글로벌 금리 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "싱가포르 1세대 인도계 신디 가문 후계자 정체성과 본인 세대에서 가족 부동산 사업에서 럭셔리 호텔까지 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "싱가포르 1세대 부동산 가문 후계자의 표본입니다. 가족 부동산 사업에서 InterContinental·Holiday Inn 럭셔리 호텔로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Sa day pillar (autumn small water on snake fire) and Sa month branch combine into a softly flowing, self-expressing profile. The format that channels wealth through one's bold creative output matches a 21-year arc from the 2005 family entry to the 2010 RB Capital founding and the 2022 post-pandemic peak.",
+    "summaryKo": "일주는 계사라 가을 작은 물이 초여름 불(뱀의 자리) 위에 놓인 형국으로, 부드러운 물이 강한 불로 결과물로 빚어지는 자리입니다. 월지 사도 또 같은 초여름 불의 자리라 일간을 세 겹의 불로 단단히 다지는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 2005년 가족 합류, 2010년 RB Capital 정립, 2022년 포스트 코로나 회복까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kishin_RK",
+    "https://www.rbcapital.sg",
+    "https://www.forbes.com/profile/kishin-rk/"
+  ]
+}

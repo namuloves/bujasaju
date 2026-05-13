@@ -1,0 +1,73 @@
+{
+  "id": 3010,
+  "name": "Zhang Xin",
+  "nameKo": "장 신",
+  "birthday": "1965-08-24",
+  "birthPlace": "Beijing, China",
+  "birthPlaceKo": "중국 베이징",
+  "netWorth": "$1.2B",
+  "nationality": "CN",
+  "industry": "Real Estate",
+  "gender": "F",
+  "ilju": "경술",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1965년 중국 베이징에서 태어났고 1980년대 홍콩으로 이주했습니다. 정통 학력은 영국 유학 트랙으로, 영국 케임브리지대 경제학 석사를 거친 정통 본토 1세대 부동산 인재 트랙입니다. 1990년대 골드만삭스 홍콩 경력을 거쳐 본업을 만든 1세대 자수성가형 여성 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 부동산 자수성가형 여성 인물 (SOHO China 공동 창업)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Zhang_Xin"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1995년 남편 판스이와 함께 'SOHO China' 공동 창업으로 본업을 만들었고, 베이징·상하이 프리미엄 상업 부동산 카테고리에서 1위급으로 도약했습니다. 2007년 홍콩 증권거래소 상장, 2014~2024년 본토 부동산 둔화기에 자산 매각으로 본인 자본을 부분 환원했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.sohochina.com"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Co-founds SOHO China with husband Pan Shiyi", "eventKo": "남편 판스이와 'SOHO China' 공동 창업", "whyItMatteredKo": "경술 일주의 가을 큰 쇠 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 2007, "event": "SOHO China IPOs on Hong Kong Stock Exchange", "eventKo": "SOHO China 홍콩 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2014, "event": "Begins selling Chinese commercial property portfolio", "eventKo": "본토 상업 부동산 포트폴리오 매각 시작", "whyItMatteredKo": "본업 카테고리 재편이 진행된 결정적 결단입니다."},
+    {"year": 2021, "event": "Blackstone bid for SOHO China collapses", "eventKo": "블랙스톤 SOHO China 인수 시도 무산, 본업 자본 평가 단기 시험", "whyItMatteredKo": "외부 압력이 본인 자리의 결단으로 환원된 시기입니다."},
+    {"year": 2024, "event": "Diversifies into global property and tech investments", "eventKo": "글로벌 부동산·테크 투자 카테고리 다각화", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.2B in Real Estate", "eventKo": "포브스 2026 — 부동산 12억 달러로 등재", "whyItMatteredKo": "SOHO China 본인·가족 보유 지분과 글로벌 분산 자본이 본업 자본 가치로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "SOHO China 공동 창업", "impactKo": "경술 일주의 가을 큰 쇠 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 결정적 결단입니다."},
+    {"year": 2007, "eventKo": "SOHO China 홍콩 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2021, "eventKo": "블랙스톤 인수 무산", "impactKo": "외부 압력이 본인 자리의 결단으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "SOHO China(HKEX: 410) 본인 및 가족 보유 지분 가치, 그리고 글로벌 부동산·테크 분산 자본이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1995년 SOHO China 정립, 2007년 홍콩 상장, 2024년 글로벌 다각화가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 프리미엄 상업 부동산 카테고리 자리, 글로벌 자본 분산 구조, 그리고 케임브리지·골드만삭스 경력 통로가 강점입니다.",
+    "currentAssetAllocationKo": "SOHO China 본인·가족 지분과 글로벌 분산 자본이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2017, "descriptionKo": "본토 상업 부동산 경기 둔화로 본업 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 자산 매각과 글로벌 카테고리 다각화로 통과했습니다.", "lessonKo": "본토 부동산 경기는 본업 자본에 분기 단위로 직접 영향을 줍니다."},
+    {"year": 2021, "descriptionKo": "블랙스톤 SOHO China 인수 시도 무산으로 본업 자본 평가가 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 자산 매각으로 통과했습니다.", "lessonKo": "글로벌 인수합병 사이클은 본업 자본 평가에 한 번에 큰 영향을 줍니다."},
+    {"year": 2024, "descriptionKo": "본토 부동산 둔화로 본업 자본 평가가 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "본토 부동산 의존은 거시 사이클에 직접 노출됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$2.7B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$3.6B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["SOHO China 공동 창업", "본토 1세대 프리미엄 상업 부동산", "여성 자수성가", "골드만삭스 출신", "케임브리지대 경제학 석사"],
+  "characterKo": {
+    "strengths": "1995년 SOHO China 공동 창업으로 본토 프리미엄 상업 부동산 카테고리 1위급 회사를 만든 카테고리 도약 본능과, 2024년 글로벌 부동산·테크 투자 다각화로 본업을 글로벌 자본으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "본토 부동산 사이클과 글로벌 인수합병 사이클에 본업 자본이 직접 노출됩니다.",
+    "motivation": "본토 1세대 여성 부동산 자수성가 야망과 본인 세대에서 본토 부동산에서 글로벌 분산 자본까지 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 여성 부동산 자수성가의 표본입니다. 골드만삭스에서 본토 프리미엄 상업 부동산 1위급 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Gyeong-Sul day pillar (autumn metal on dog earth) and Sin month branch combine into a sharply forged, externally-resourced profile. The format that channels wealth through external resources matches a 31-year arc from the 1995 SOHO founding to the 2007 IPO and the 2021 Blackstone deal collapse.",
+    "summaryKo": "일주는 경술이라 가을 큰 쇠가 가을 끝 흙(개의 자리) 위에 놓인 형국으로, 단단한 쇠가 흙으로 받쳐져 결과물로 압축되는 자리입니다. 월지 신은 가을 쇠의 자리라 일간을 두 겹의 쇠로 결과물로 압축하는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1995년 SOHO 정립, 2007년 홍콩 상장, 2024년 글로벌 다각화까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Zhang_Xin",
+    "https://www.sohochina.com",
+    "https://www.forbes.com/profile/zhang-xin/"
+  ]
+}

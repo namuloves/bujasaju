@@ -1,0 +1,73 @@
+{
+  "id": 53,
+  "name": "William Ding",
+  "nameKo": "윌리엄 딩 (딩 레이)",
+  "birthday": "1971-10-01",
+  "birthPlace": "Ningbo, Zhejiang, China",
+  "birthPlaceKo": "중국 저장성 닝보",
+  "netWorth": "$37.3B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "기미",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1971년 중국 저장성 닝보에서 태어났습니다. 정통 학력은 공학 트랙으로, 청두 전자과기대 통신공학 학사를 거친 정통 본토 1세대 인터넷 인재 트랙입니다. 1997년 26세에 'NetEase' 정립으로 본업을 만든 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 인터넷·게임 자수성가형 인물 (NetEase 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/William_Ding"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1997년 광저우에서 'NetEase'(왕이) 정립으로 본업을 만들었고, 본토 인터넷 포털 카테고리에서 1위급으로 도약했습니다. 2000년 나스닥 상장 후 2002년 'Westward Journey' MMORPG 출시로 본토 온라인 게임 카테고리 1위급으로 환원, 2020년 홍콩 이중 상장으로 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.163.com"]
+  },
+  "careerTimeline": [
+    {"year": 1997, "event": "Founds NetEase in Guangzhou", "eventKo": "광저우에서 'NetEase' 정립", "whyItMatteredKo": "기미 일주의 늦여름 작은 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2000, "event": "NetEase IPOs on NASDAQ", "eventKo": "NetEase 나스닥 상장", "whyItMatteredKo": "본업 매출이 글로벌 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2002, "event": "Launches 'Westward Journey' online game", "eventKo": "'대화서유'(Westward Journey) 온라인 게임 출시, 본토 게임 1위 도약", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2018, "event": "NetEase Music IPOs on Hong Kong Stock Exchange", "eventKo": "NetEase Music 홍콩 증권거래소 상장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리 확장으로 환원된 시기입니다."},
+    {"year": 2020, "event": "NetEase lists secondary on Hong Kong Stock Exchange", "eventKo": "NetEase 홍콩 증권거래소 2차 상장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $37.3B in Technology", "eventKo": "포브스 2026 — 테크놀로지 373억 달러로 등재", "whyItMatteredKo": "NetEase 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1997, "eventKo": "NetEase 정립", "impactKo": "기미 일주의 늦여름 작은 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2000, "eventKo": "NetEase 나스닥 상장", "impactKo": "본업 매출이 글로벌 자본 시장 가치로 환원된 분기점입니다."},
+    {"year": 2020, "eventKo": "NetEase 홍콩 2차 상장", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "NetEase(NASDAQ: NTES, HKEX: 9999) 본인 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1997년 NetEase 정립, 2000년 나스닥 상장, 2020년 홍콩 2차 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 인터넷 포털·온라인 게임 카테고리 1위급 자리, 글로벌 자본 시장 이중 상장 구조, 그리고 NetEase Music 등 카테고리 다각화 거버넌스가 강점입니다.",
+    "currentAssetAllocationKo": "NetEase 본인 지분이 자산의 절대 비중. 글로벌 자본 분산 보유 구조로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2001, "descriptionKo": "닷컴 버블 붕괴와 NetEase 회계 부정 의혹으로 본업 자본이 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 거버넌스 회복과 2002년 게임 카테고리 환원으로 V자 회복했습니다.", "lessonKo": "버블 사이클은 본업 자본 평가에 한 번에 큰 영향을 줍니다."},
+    {"year": 2021, "descriptionKo": "본토 게임 카테고리 규제 강화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "글로벌 게임 비중 강화로 통과했습니다.", "lessonKo": "본토 의존 카테고리는 정책 사이클에 직접 노출됩니다."},
+    {"year": 2024, "descriptionKo": "본토 미성년자 게임 규제로 본업 매출이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "본토 정책 한 번에 게임 카테고리 매출이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$15.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$28.7B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$37.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["NetEase 창업주", "본토 인터넷·게임 1위급", "26세 창업주", "닷컴 버블 회복형", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1997년 NetEase 정립으로 본토 인터넷 포털 카테고리 1위급 회사를 만든 카테고리 도약 본능과, 2001년 닷컴 버블 후 2002년 'Westward Journey' 출시로 본업을 게임 1위 자리로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "본토 게임 정책 사이클과 글로벌 인터넷 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 본토 1세대 인터넷 자수성가 야망과 본인 세대에서 본토 인터넷·게임 1위 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 인터넷·게임 자수성가의 표본입니다. 26세 창업에서 글로벌 게임·인터넷 포털 1위급 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gi-Mi day pillar (late summer earth on goat earth) and Sul month branch combine into a steady, learning-authority profile. The format that channels wealth through learned authority matches a 29-year arc from the 1997 NetEase founding to the 2000 NASDAQ IPO and the 2020 Hong Kong dual listing.",
+    "summaryKo": "일주는 기미라 늦여름 작은 흙이 같은 늦여름 흙(양의 자리) 위에 놓인 형국으로, 부드러운 흙이 같은 흙 자리에 두 겹으로 단단히 다져지는 형상입니다. 월지 술은 가을 끝 흙의 자리라 일간을 세 겹의 흙으로 결과물로 압축하는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1997년 NetEase 정립, 2000년 나스닥 상장, 2020년 홍콩 2차 상장까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/William_Ding",
+    "https://www.163.com",
+    "https://www.forbes.com/profile/william-ding/"
+  ]
+}

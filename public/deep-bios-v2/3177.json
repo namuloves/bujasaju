@@ -1,0 +1,73 @@
+{
+  "id": 3177,
+  "name": "Krishna Kumar Bangur",
+  "nameKo": "크리슈나 쿠마르 방구르",
+  "birthday": "1960-07-02",
+  "birthPlace": "Kolkata, India",
+  "birthPlaceKo": "인도 콜카타",
+  "netWorth": "$1.1B",
+  "nationality": "IN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "신묘",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "1960년 인도 콜카타의 마르와리 방구르 가문에서 태어났습니다. 정통 학력은 경영 트랙으로, 마르와리 100년 산업 가문 후계자 정체성을 유년기부터 형성한 정통 인도 1세대 산업 후계자 트랙입니다. Graphite India 가족 자본의 한 축입니다.",
+    "capitalTypeKo": "재벌 후계자 — 인도 100년 마르와리 가문 자본의 운영형 후계자 (Graphite India 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Graphite_India"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1980년대 가족 'Graphite India' 합류로 본업을 잇기 시작했고, 인도 흑연 전극(Graphite Electrode) 카테고리에서 1위급으로 도약했습니다. 본업은 인도 증권거래소 상장(NSE: GRAPHITE)이고, 2010~2020년대 글로벌 철강·전기차 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 5,
+    "sources": ["https://www.graphiteindia.com"]
+  },
+  "careerTimeline": [
+    {"year": 1985, "event": "Joins family Graphite India business", "eventKo": "가족 'Graphite India' 합류 (추정)", "whyItMatteredKo": "신묘 일주의 가을 작은 쇠 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2000, "event": "Graphite India expands across India", "eventKo": "Graphite India 인도 전역 매출 확장", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2010, "event": "Becomes Chairman of Graphite India", "eventKo": "Graphite India 회장 자리 도약", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다."},
+    {"year": 2017, "event": "Graphite electrode prices spike on global supply", "eventKo": "글로벌 흑연 전극 공급 부족으로 본업 매출 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2022, "event": "Post-pandemic steel demand peaks revenue", "eventKo": "포스트 코로나 철강 수요 가속으로 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.1B in Manufacturing", "eventKo": "포브스 2026 — 제조업 11억 달러로 등재", "whyItMatteredKo": "Graphite India 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1985, "eventKo": "Graphite India 합류", "impactKo": "신묘 일주의 가을 작은 쇠 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2010, "eventKo": "Graphite India 회장 취임", "impactKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 분기점입니다."},
+    {"year": 2017, "eventKo": "흑연 전극 공급 부족 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Graphite India(NSE: GRAPHITE) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1985년 가족 합류, 2010년 회장 취임, 2017년 흑연 전극 공급 부족 정점이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 흑연 전극 카테고리 1위 자리, 마르와리 100년 가문 자본망, 그리고 글로벌 철강·전기차 통로가 강점입니다.",
+    "currentAssetAllocationKo": "Graphite India 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 흑연 전극 수출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 산업재 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2019, "descriptionKo": "글로벌 철강 수요 둔화로 본업 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "포스트 코로나 회복 흐름으로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 사이클 한 번에 매출이 흔들립니다."},
+    {"year": 2024, "descriptionKo": "글로벌 흑연 전극 가격 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "고부가 카테고리 비중 강화로 단계적 회복을 시도하고 있습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.4B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$2B", "sourceKo": "흑연 전극 가격 정점기 추정"},
+    {"year": 2023, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Graphite India 회장", "마르와리 100년 가문 후계자", "글로벌 흑연 전극 1위급", "방구르 가문 자본망", "정통 후계자"],
+  "characterKo": {
+    "strengths": "1985년 가족 사업 합류 후 40년 동안 인도 100년 마르와리 가문의 한 축으로 자리잡은 끈기와, 2010년 회장 취임 후 2017년 흑연 전극 공급 부족 정점을 본인 자본 가치 가속으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 철강·전기차 사이클과 흑연 전극 가격 경쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "100년 방구르 가문 자본을 본인 세대에서 보전·확장하고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "인도 100년 마르와리 가문 후계자의 표본입니다. 가족 흑연 전극 사업에서 인도 흑연 전극 1위 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Myo day pillar (autumn small metal on rabbit wood) and Mi month branch combine into a sharply chiseled, self-expressing profile. The format that channels wealth through one's bold creative output matches a 41-year arc from the 1985 family entry to the 2010 chairmanship and the 2017 graphite peak.",
+    "summaryKo": "일주는 신묘라 가을 작은 쇠가 봄 나무(토끼의 자리) 위에 놓인 형국으로, 단단한 작은 쇠가 봄 나무의 큰 자원으로 결과물로 빚어지는 자리입니다. 월지 미는 늦여름 흙의 자리라 일간을 외부의 강한 흙으로 결과물로 빚어내는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1985년 가족 합류, 2010년 회장 취임, 2017년 흑연 전극 정점까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Graphite_India",
+    "https://www.graphiteindia.com",
+    "https://www.forbes.com/profile/krishna-kumar-bangur/"
+  ]
+}
