@@ -1,0 +1,73 @@
+{
+  "id": 31,
+  "name": "Gautam Adani",
+  "nameKo": "고탐 아다니",
+  "birthday": "1962-06-24",
+  "birthPlace": "Ahmedabad, Gujarat, India",
+  "birthPlaceKo": "인도 구자라트주 아메다바드",
+  "netWorth": "$58.9B",
+  "nationality": "IN",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "계사",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1962년 인도 구자라트주 아메다바드의 자인교 마르와리 가문에서 태어났습니다. 정통 학력은 학부 중퇴 트랙으로, 구자라트대 상학과를 중퇴하고 1978년 16세에 뭄바이로 이주해 다이아몬드 거래 사업으로 출발한 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 다각화 그룹 자수성가형 인물 (Adani Group 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Gautam_Adani"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1988년 아메다바드에서 'Adani Exports' 정립으로 본업을 만들었고, 1994년 'Mundra Port' 개발로 인도 민영 항만 카테고리 1위급으로 도약했습니다. 2010~2024년 인도 민영 인프라·에너지·로지스틱스 다각화로 본업 자본이 정점에 도달, 한때 아시아 1위 부호 자리에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.adani.com"]
+  },
+  "careerTimeline": [
+    {"year": 1988, "event": "Founds Adani Exports in Ahmedabad", "eventKo": "아메다바드에서 'Adani Exports' 정립", "whyItMatteredKo": "계사 일주의 가을 작은 물 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1994, "event": "Begins Mundra Port development", "eventKo": "구자라트 문드라 항만 개발 시작, 인도 민영 항만 카테고리 1위 도약", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2008, "event": "Adani Power IPO on Indian stock exchange", "eventKo": "Adani Power 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2020, "event": "Adani Group expands into renewable energy and data centers", "eventKo": "Adani Group 신재생·데이터 센터 카테고리 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2023, "event": "Hindenburg Research short-seller report rocks Adani", "eventKo": "힌덴부르크 리서치 공매도 보고서로 Adani 자본 평가 단기 마비", "whyItMatteredKo": "외부 압력이 본인 자리의 결단으로 환원된 결정적 시험기입니다."},
+    {"year": 2026, "event": "Forbes 2026: $58.9B in Diversified", "eventKo": "포브스 2026 — 다각화 산업 589억 달러로 등재", "whyItMatteredKo": "Adani Group 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1994, "eventKo": "Mundra Port 개발", "impactKo": "계사 일주의 가을 작은 물 일간이 자기 표현의 결과물을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2008, "eventKo": "Adani Power 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2023, "eventKo": "힌덴부르크 공매도 보고서", "impactKo": "외부 압력이 본인 자리의 결단으로 환원된 만년의 결정적 시험기입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Adani Enterprises(NSE: ADANIENT), Adani Ports(NSE: ADANIPORTS), Adani Green Energy(NSE: ADANIGREEN), Adani Power(NSE: ADANIPOWER) 등 본인·가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1988년 Adani Exports 정립, 1994년 Mundra Port 개발, 2008년 Adani Power 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 민영 인프라·에너지·항만 카테고리 1위 자리, 구자라트 마르와리 자본망, 그리고 인도 모디 정부와의 정치 연결 통로가 강점입니다.",
+    "currentAssetAllocationKo": "Adani Group 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 1998, "descriptionKo": "1998년 납치 사건으로 본인 자리가 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 본업 가속으로 V자 회복했습니다.", "lessonKo": "본인 위협 사이클은 한 번에 본업 자리에 큰 영향을 줍니다."},
+    {"year": 2008, "descriptionKo": "뭄바이 테러 사건 시기 본업 자본이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 시장 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 인프라 자본에 분기 단위로 영향을 줍니다."},
+    {"year": 2023, "descriptionKo": "힌덴부르크 공매도 보고서로 Adani Group 주가가 1500억 달러 폭락했습니다.", "howTheyOvercameKo": "단계적 부채 축소와 글로벌 자본 도입으로 통과하고 있습니다.", "lessonKo": "공매도 사이클은 자본 평가에 한 번에 큰 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$5B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$10B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$150B", "sourceKo": "포브스 추정 (아시아 1위 정점기)"},
+    {"year": 2026, "netWorth": "$58.9B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Adani Group 회장", "인도 민영 인프라 1위", "Mundra Port 정체성", "힌덴부르크 회복형", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1988년 Adani Exports 정립과 1994년 Mundra Port 개발로 인도 민영 항만 카테고리 1위 회사를 만든 카테고리 도약 본능과, 2023년 힌덴부르크 공매도 보고서 후에도 단계적 회복으로 본업 자본을 다시 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 정치 사이클과 글로벌 공매도 사이클에 본업 자본이 직접 노출됩니다.",
+    "motivation": "정통 인도 1세대 자수성가 야망과 본인 세대에서 다이아몬드 거래에서 인도 민영 인프라 1위 그룹으로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 자수성가의 표본입니다. 16세 다이아몬드 거래에서 인도 민영 인프라 1위·아시아 1위 부호까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Sa day pillar (autumn small water on snake fire) and O month branch combine into a softly flowing, self-expressing profile. The format that channels wealth through one's bold creative output matches a 38-year arc from the 1988 Adani Exports founding to the 1994 Mundra Port and the 2023 Hindenburg test.",
+    "summaryKo": "일주는 계사라 가을 작은 물이 초여름 불(뱀의 자리) 위에 놓인 형국으로, 부드러운 물이 강한 불로 결과물로 빚어지는 자리입니다. 월지 오는 한여름 불의 자리라 일간을 외부의 강한 불로 결과물로 다지는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1988년 Adani Exports 정립, 1994년 Mundra Port, 2008년 Adani Power 상장까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gautam_Adani",
+    "https://www.adani.com",
+    "https://www.forbes.com/profile/gautam-adani/"
+  ]
+}

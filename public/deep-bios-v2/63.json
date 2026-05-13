@@ -1,0 +1,73 @@
+{
+  "id": 63,
+  "name": "He Xiangjian",
+  "nameKo": "허 샹젠",
+  "birthday": "1942-08-11",
+  "birthPlace": "Shunde, Guangdong, China",
+  "birthPlaceKo": "중국 광둥성 순더",
+  "netWorth": "$32.2B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "병신",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1942년 중국 광둥성 순더의 농가에서 태어났습니다. 정통 학력보다 시장 실무 경험이 토대인 1세대 자수성가형 인물로, 26세에 농촌 협동조합 공장에서 출발한 본토 1세대 가전 자수성가의 표본입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 가전 자수성가형 인물 (Midea Group 창업주)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/He_Xiangjian"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1968년 순더 농촌 협동조합 공장에서 'Beijiao Plastic Production Group' 공동 정립으로 본업을 만들었고, 1980년 가전 카테고리로 전환해 'Midea'(메이디) 정립으로 본업 자본을 만들었습니다. 1993년 선전 증권거래소 상장, 2010~2020년대 글로벌 가전 1위급 자리에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.midea.com"]
+  },
+  "careerTimeline": [
+    {"year": 1968, "event": "Co-founds village plastic cooperative in Shunde", "eventKo": "순더 농촌 플라스틱 협동조합 공동 정립", "whyItMatteredKo": "병신 일주의 작은 불 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1980, "event": "Pivots into home appliances as Midea", "eventKo": "가전 카테고리 전환, 'Midea' 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 1993, "event": "Midea Group IPOs on Shenzhen Stock Exchange", "eventKo": "Midea Group 선전 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2012, "event": "Steps down as Chairman of Midea, hands over to next generation", "eventKo": "Midea 회장 자리에서 물러나며 전문경영인 팡 흥보에게 이양", "whyItMatteredKo": "본인 자리의 권위가 다음 세대로 환원된 시기입니다."},
+    {"year": 2017, "event": "Midea acquires German KUKA robotics for $5B", "eventKo": "독일 KUKA 로봇 50억 달러 인수, 글로벌 산업 자동화 카테고리 진입", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리 글로벌 확장으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $32.2B in Manufacturing", "eventKo": "포브스 2026 — 제조업 322억 달러로 등재", "whyItMatteredKo": "Midea Group 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1980, "eventKo": "Midea 가전 카테고리 전환", "impactKo": "병신 일주의 작은 불 일간이 자기 표현의 결과물을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 1993, "eventKo": "Midea Group 선전 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2017, "eventKo": "KUKA 로봇 50억 달러 인수", "impactKo": "외부 자원의 큰 흐름이 본업 카테고리 글로벌 확장으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Midea Group(SZSE: 000333, HKEX: 0300) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1980년 Midea 정립, 1993년 선전 상장, 2017년 KUKA 인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 가전 카테고리 1위급 자리, KUKA 산업 자동화 카테고리 통로, 그리고 본토 1세대 제조 가문 자본망이 강점입니다.",
+    "currentAssetAllocationKo": "Midea Group 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 본토 가전 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 가전 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2017, "descriptionKo": "KUKA 인수 후 글로벌 통합 비용이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 글로벌 운영 통합으로 통과했습니다.", "lessonKo": "글로벌 인수합병은 통합 사이클에 분기 단위로 큰 영향을 줍니다."},
+    {"year": 2024, "descriptionKo": "글로벌 가전 가격 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "고부가 카테고리·산업 자동화 비중 강화로 단계적 회복을 시도하고 있습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$3.4B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$22.7B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$30B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$32.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Midea Group 창업주", "글로벌 가전 1위급", "KUKA 로봇 인수", "본토 1세대 자수성가", "전문경영인 이양 모델"],
+  "characterKo": {
+    "strengths": "1968년 농촌 협동조합 공장에서 1980년 Midea로 카테고리 환원시킨 도약 본능과, 2012년 전문경영인 이양과 2017년 KUKA 인수로 본업을 글로벌 자본으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 가전 가격 경쟁 사이클과 본토 거시 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 1세대 자수성가 야망과 본인 세대에서 농촌 공장에서 글로벌 가전·산업 자동화 1위급 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 가전 자수성가의 표본입니다. 농촌 협동조합에서 글로벌 가전·로봇 1위급 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Sin day pillar (early summer fire on monkey metal) and Sin month branch combine into a quietly burning, self-expressing profile. The format that channels wealth through one's bold creative output matches a 58-year arc from the 1968 cooperative founding to the 1980 Midea pivot and the 2017 KUKA acquisition.",
+    "summaryKo": "일주는 병신이라 초여름 작은 불이 가을 쇠(원숭이의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 단단한 쇠로 결과물을 빚어내는 자리입니다. 월지 신도 또 같은 가을 쇠의 자리라 일간을 두 겹의 쇠로 결과물로 압축하는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1968년 협동조합 정립, 1980년 Midea 전환, 1993년 선전 상장, 2017년 KUKA 인수까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/He_Xiangjian",
+    "https://www.midea.com",
+    "https://www.forbes.com/profile/he-xiangjian/"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 2917,
+  "name": "Tianqiao Chen",
+  "nameKo": "톈차오 천",
+  "birthday": "1973-05-16",
+  "birthPlace": "Zhejiang, China",
+  "birthPlaceKo": "중국 저장성",
+  "netWorth": "$1.2B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "gender": "M",
+  "ilju": "임자",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1973년 중국 저장성에서 태어났습니다. 정통 학력은 경영 트랙으로, 푸단대 경영학과 학사를 거친 정통 본토 신세대 게임 인재 트랙입니다. 1999년 26세에 'Shanda Networking' 정립으로 본업을 만든 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 모바일·온라인 게임 자수성가형 인물 (Shanda Group 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Tianqiao_Chen"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1999년 상하이에서 'Shanda Networking' 정립으로 본업을 만들었고, 본토 온라인 게임 카테고리에서 1위급으로 도약했습니다. 2004년 나스닥 상장 후 2012년 본인 자발적 상장 폐지, 2014년 'Shanda Group'으로 환원해 본인 자본을 글로벌 투자 자본으로 환원했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://en.wikipedia.org/wiki/Shanda_Group"]
+  },
+  "careerTimeline": [
+    {"year": 1999, "event": "Founds Shanda Networking in Shanghai", "eventKo": "상하이에서 'Shanda Networking' 정립", "whyItMatteredKo": "임자 일주의 큰 물 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2004, "event": "Shanda IPOs on NASDAQ", "eventKo": "Shanda 나스닥 상장, 글로벌 자본 시장 환원", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2012, "event": "Voluntarily takes Shanda private", "eventKo": "Shanda 자발적 상장 폐지, 본인 자본 통합", "whyItMatteredKo": "본업 자본이 본인 자본 통합으로 환원된 결정적 결단입니다."},
+    {"year": 2014, "event": "Reorganizes as Shanda Group, pivots to global investments", "eventKo": "'Shanda Group' 환원, 글로벌 투자 자본 카테고리 전환", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2020, "event": "Invests in global biotech and brain research", "eventKo": "글로벌 바이오·뇌과학 투자 카테고리 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.2B in Technology", "eventKo": "포브스 2026 — 테크놀로지 12억 달러로 등재", "whyItMatteredKo": "Shanda Group 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1999, "eventKo": "Shanda Networking 정립", "impactKo": "임자 일주의 큰 물 일간이 자기 표현의 결과물을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2004, "eventKo": "Shanda 나스닥 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2014, "eventKo": "Shanda Group 글로벌 투자 자본 환원", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Shanda Group 비상장 본인 보유 지분, 글로벌 바이오·뇌과학·테크 투자 자본이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1999년 Shanda 정립, 2004년 나스닥 상장, 2014년 글로벌 투자 환원이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 1세대 온라인 게임 정체성, 글로벌 투자 자본망, 그리고 비상장 운영 자본 효율 모델이 강점입니다.",
+    "currentAssetAllocationKo": "Shanda Group 본인 지분과 글로벌 투자 자본이 자산의 핵심입니다."
+  },
+  "failures": [
+    {"year": 2009, "descriptionKo": "글로벌 금융위기 시기 Shanda 본업 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 사업 모델 재편으로 V자 회복했습니다.", "lessonKo": "글로벌 게임 사이클은 거시 충격에 직접 노출됩니다."},
+    {"year": 2012, "descriptionKo": "Shanda 자발적 상장 폐지 협상기 본업 자본이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 상장 폐지 진행으로 통과했습니다.", "lessonKo": "비상장 환원 사이클은 본업 자본 평가에 한 번에 큰 영향을 줍니다."},
+    {"year": 2021, "descriptionKo": "본토 게임 카테고리 규제 강화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "글로벌 투자 카테고리 비중 강화로 통과했습니다.", "lessonKo": "본토 의존 카테고리는 정책 사이클에 직접 노출됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2005, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2014, "netWorth": "$2B", "sourceKo": "비상장 환원 후 추정"},
+    {"year": 2023, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Shanda Group 회장", "본토 1세대 온라인 게임 자수성가", "글로벌 바이오·뇌과학 투자자", "자발적 상장 폐지", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1999년 Shanda 정립으로 본토 온라인 게임 카테고리 1위급 회사를 만든 카테고리 도약 본능과, 2014년 Shanda Group 환원으로 본업을 글로벌 투자 자본으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "본토 정책 사이클과 글로벌 게임 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 1세대 게임 자수성가 야망과 본인 세대에서 게임에서 글로벌 바이오·뇌과학 투자까지 카테고리를 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 게임 자수성가의 표본입니다. 26세 게임 창업에서 글로벌 바이오·뇌과학 투자자까지 카테고리를 두 번 환원한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-Ja day pillar (early winter water on rat water) and Sa month branch combine into a deeply flowing, self-expressing profile. The format that channels wealth through one's bold creative output matches a 27-year arc from the 1999 Shanda founding to the 2004 NASDAQ IPO and the 2014 global investment pivot.",
+    "summaryKo": "일주는 임자라 초겨울 큰 물이 같은 한겨울 물(쥐의 자리) 위에 놓인 형국으로, 풍부한 물이 같은 큰 물 자리에 두 겹으로 응축되는 형상입니다. 월지 사는 초여름 불의 자리라 일간을 외부의 강한 불로 결과물로 다지는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1999년 Shanda 정립, 2004년 나스닥 상장, 2014년 글로벌 투자 환원까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tianqiao_Chen",
+    "https://en.wikipedia.org/wiki/Shanda_Group",
+    "https://www.forbes.com/profile/tianqiao-chen/"
+  ]
+}

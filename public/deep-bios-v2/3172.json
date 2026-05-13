@@ -1,0 +1,73 @@
+{
+  "id": 3172,
+  "name": "William Fung",
+  "nameKo": "윌리엄 펑",
+  "birthday": "1949-02-21",
+  "birthPlace": "Hong Kong",
+  "birthPlaceKo": "홍콩",
+  "netWorth": "$1.1B",
+  "nationality": "HK",
+  "industry": "Logistics",
+  "gender": "M",
+  "ilju": "임오",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1949년 홍콩의 펑 가문에서 태어났습니다. 정통 학력은 영국·미국 유학 트랙으로, 프린스턴대 학사·하버드 경영대 석사를 거친 정통 홍콩 1세대 무역 가문의 후계자 인재 트랙입니다. 형 빅터 펑과 함께 'Li & Fung'(리펑) 1906년 창업 가문의 3세대 후계자입니다.",
+    "capitalTypeKo": "재벌 후계자·운영형 — 홍콩 100년 무역 가문 운영형 후계자 (Li & Fung 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Li_%26_Fung"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1970년대 가족 'Li & Fung' 무역 회사 합류로 본업을 잇기 시작했고, 형 빅터 펑과 함께 1992년 홍콩 증권거래소 상장으로 본업 자본을 환원했습니다. 2000~2010년대 글로벌 의류 공급망 1위급으로 도약, 2014년 회장 자리에 도달했습니다.",
+    "selfMadeScore": 5,
+    "sources": ["https://www.lifung.com"]
+  },
+  "careerTimeline": [
+    {"year": 1972, "event": "Joins family Li & Fung after Harvard MBA", "eventKo": "하버드 경영대 석사 후 가족 'Li & Fung' 합류", "whyItMatteredKo": "임오 일주의 큰 물 일간이 외부 자원의 큰 흐름을 본인 결과물로 환원한 출발점입니다."},
+    {"year": 1992, "event": "Li & Fung IPOs on Hong Kong Stock Exchange", "eventKo": "Li & Fung 홍콩 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2000, "event": "Li & Fung becomes top global supply chain manager", "eventKo": "Li & Fung 글로벌 의류 공급망 1위급 도약", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 자리로 환원된 시기입니다."},
+    {"year": 2014, "event": "Becomes Group Chairman of Li & Fung", "eventKo": "Li & Fung 그룹 회장 취임", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다."},
+    {"year": 2020, "event": "Li & Fung delists, family takes private", "eventKo": "Li & Fung 비상장 환원, 가족 자본 통합", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.1B in Logistics", "eventKo": "포브스 2026 — 물류 11억 달러로 등재", "whyItMatteredKo": "Li & Fung 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1972, "eventKo": "Li & Fung 합류", "impactKo": "임오 일주의 큰 물 일간이 외부 자원의 큰 흐름을 본인 결과물로 환원한 출발점입니다."},
+    {"year": 1992, "eventKo": "Li & Fung 홍콩 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2020, "eventKo": "Li & Fung 비상장 환원", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Li & Fung Limited 비상장 본인 및 가족 보유 지분 가치, 그리고 글로벌 분산 자본이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1972년 합류, 1992년 홍콩 상장, 2020년 비상장 환원이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "홍콩 100년 무역 가문 자본망, 글로벌 의류 공급망 통로, 그리고 하버드 경영대 출신 정통 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Li & Fung 본인·가족 지분이 자산의 절대 비중. 글로벌 분산 자산 보유 구조로 추정됩니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 글로벌 의류 공급망 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 의류 공급망은 거시 사이클에 직접 노출됩니다."},
+    {"year": 2017, "descriptionKo": "글로벌 의류 직접 발주 전환으로 Li & Fung 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 사업 모델 재편으로 통과했습니다.", "lessonKo": "산업 전환 사이클은 카테고리 정체성에 분기 단위로 영향을 줍니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 의류 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "비상장 환원과 단계적 회복으로 통과했습니다.", "lessonKo": "거시 충격은 글로벌 무역 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Li & Fung 그룹 회장", "홍콩 100년 무역 가문 3세대", "하버드 경영대 석사", "글로벌 의류 공급망", "정통 후계자"],
+  "characterKo": {
+    "strengths": "1972년 Li & Fung 합류 후 50년 넘게 홍콩 100년 무역 가문의 한 축으로 자리잡은 끈기와, 1992년 홍콩 상장으로 본업을 자본 시장 가치로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 의류 공급망 사이클과 산업 전환 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "100년 펑 가문 자본을 본인 세대에서 글로벌 의류 공급망 1위급 회사로 환원하고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "홍콩 100년 무역 가문 3세대 후계자의 표본입니다. 가족 무역 회사에서 글로벌 의류 공급망 1위급 회사 회장으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Im-O day pillar (early winter water on horse fire) and In month branch combine into a deeply flowing, externally-resourced profile. The format that channels wealth through external resources matches a 54-year arc from the 1972 family entry to the 1992 IPO and the 2020 take-private.",
+    "summaryKo": "일주는 임오라 초겨울 큰 물이 한여름 불(말의 자리) 위에 놓인 형국으로, 풍부한 물이 강한 불로 결과물로 빚어지는 자리입니다. 월지 인은 봄 나무의 자리라 일간을 외부의 큰 자원으로 받쳐주는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1972년 합류, 1992년 홍콩 상장, 2020년 비상장 환원까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Li_%26_Fung",
+    "https://www.lifung.com",
+    "https://www.forbes.com/profile/william-fung/"
+  ]
+}

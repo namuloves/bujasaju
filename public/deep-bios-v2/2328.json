@@ -1,0 +1,73 @@
+{
+  "id": 2328,
+  "name": "Andrew Tan",
+  "nameKo": "앤드루 탄",
+  "birthday": "1952-02-01",
+  "birthPlace": "Fujian, China",
+  "birthPlaceKo": "중국 푸젠",
+  "netWorth": "$1.7B",
+  "nationality": "PH",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "정축",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1952년 중국 푸젠에서 태어났고, 가난한 가정에서 어린 시절 가족과 함께 필리핀 마닐라로 이주한 인물입니다. 정통 학력은 회계 트랙으로, 필리핀 대학교에서 회계를 공부한 정통 필리핀 1세대 자수성가 인재 트랙입니다.",
+    "capitalTypeKo": "1세대 자수성가 — 필리핀 1세대 다각화 그룹 창업주 (Megaworld, Alliance Global Group 정립)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Andrew_Tan"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1980년대 'Consolidated Distillers'(Emperador Distillers의 전신) 정립으로 본업을 시작했고, 1989년 'Megaworld Corporation' 정립으로 부동산 카테고리로 진출했습니다. 1990~2024년 필리핀 부동산·주류·식음료·관광 다각화 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 8,
+    "sources": ["https://www.allianceglobalinc.com"]
+  },
+  "careerTimeline": [
+    {"year": 1982, "event": "Founds Consolidated Distillers liquor business", "eventKo": "주류 회사 'Consolidated Distillers' 정립", "whyItMatteredKo": "정축 일주의 한여름 작은 불 일간이 외부 자원의 큰 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1989, "event": "Founds Megaworld real estate in Philippines", "eventKo": "필리핀에서 'Megaworld' 부동산 회사 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 1999, "event": "Megaworld lists on Philippine Stock Exchange", "eventKo": "Megaworld 필리핀 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 시기입니다."},
+    {"year": 2007, "event": "Alliance Global Group consolidates holdings", "eventKo": "Alliance Global Group 정립으로 다각화 그룹 환원", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2022, "event": "Post-pandemic Philippine diversified peaks", "eventKo": "포스트 코로나 필리핀 다각화 호황기 본업 매출 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.7B in Diversified", "eventKo": "포브스 2026 — 다각화 산업 17억 달러로 등재", "whyItMatteredKo": "Alliance Global·Megaworld 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1982, "eventKo": "Consolidated Distillers 정립", "impactKo": "정축 일주의 한여름 작은 불 일간이 외부 자원의 큰 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1989, "eventKo": "Megaworld 정립", "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다."},
+    {"year": 2007, "eventKo": "Alliance Global Group 정립", "impactKo": "본업 카테고리 다각화로 본인 자리를 그룹 운영 정점 트랙으로 환원한 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Alliance Global Group(PSE: AGI), Megaworld(PSE: MEG), Emperador(PSE: EMP) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1989년 Megaworld 정립, 2007년 Alliance Global 정립, 2022년 포스트 코로나 회복이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "필리핀 부동산·주류·식음료·관광 다각화 카테고리 자리, 글로벌 브랜디 1위(Emperador) 자본망, 그리고 화교 1세대 자수성가 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Alliance Global Group 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 1997, "descriptionKo": "아시아 외환위기로 필리핀 부동산 시장이 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 그룹 재편으로 V자 회복했습니다.", "lessonKo": "거시 충격은 부동산 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 필리핀 자본이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 거시 사이클은 본업 매출에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 필리핀 관광·부동산 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 다각화 그룹 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1.6B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Alliance Global Group 회장", "Megaworld 창업주", "필리핀 1세대 자수성가", "Emperador 글로벌 브랜디 1위", "정통 회계 인재"],
+  "characterKo": {
+    "strengths": "1982년 본업 정립 후 43년 동안 필리핀 1세대 자수성가의 한 축으로 자리잡은 끈기와, 1989년 Megaworld 정립, 2007년 Alliance Global 정립으로 본업을 다각화 그룹으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "필리핀 단일 시장 의존도와 글로벌 거시 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "필리핀 화교 1세대 자수성가 정체성과 본인 세대에서 본업을 글로벌 카테고리 1위로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "필리핀 1세대 자수성가 다각화 그룹 창업주의 표본입니다. 가난한 푸젠 이주 가정에서 필리핀 다각화 그룹 회장으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Chuk day pillar (midsummer small fire on winter ox earth) and In month branch combine into a brightly expressing, externally-resourced profile. The format that channels wealth through external resources matches a 44-year arc from the 1982 founding to the 1989 Megaworld founding and the 2007 Alliance Global consolidation.",
+    "summaryKo": "일주는 정축이라 한여름 작은 불이 늦겨울 흙(소의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 단단한 흙으로 결과물을 압축하는 자리입니다. 월지 인은 초봄 큰 나무의 자리라 일간을 두 겹의 자원으로 단단히 다지는 통로입니다. 격국은 외부 자원의 큰 흐름이 본인 자리로 환원되는 흐름이라, 1982년 본업 정립, 1989년 Megaworld 정립, 2007년 Alliance Global 정립까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Andrew_Tan",
+    "https://www.allianceglobalinc.com",
+    "https://www.forbes.com/profile/andrew-tan/"
+  ]
+}

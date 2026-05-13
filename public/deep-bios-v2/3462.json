@@ -1,0 +1,73 @@
+{
+  "id": 3462,
+  "name": "Yoon Hong-geun",
+  "nameKo": "윤홍근",
+  "birthday": "1955-11-11",
+  "birthPlace": "South Korea",
+  "birthPlaceKo": "대한민국",
+  "netWorth": "$0.2B",
+  "nationality": "KR",
+  "industry": "Food & Beverage",
+  "gender": "M",
+  "ilju": "병자",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1955년 대한민국에서 태어났습니다. 정통 학력은 경영 트랙으로, 한국 1세대 외식 산업 자수성가형 인물입니다. 1984년 '제너시스BBQ' 정립으로 본업을 만든 한국 1세대 프랜차이즈 자수성가의 표본입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 한국 1세대 외식 프랜차이즈 자수성가형 인물 (제너시스BBQ 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Genesis_BBQ"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1984년 한국에서 '제너시스BBQ'(BBQ 치킨) 정립으로 본업을 만들었고, 한국·글로벌 치킨 프랜차이즈 카테고리에서 1위급으로 도약했습니다. 본업은 비상장 본인·가족 보유 지분이고, 2010~2024년 글로벌 K-food 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.bbq.co.kr"]
+  },
+  "careerTimeline": [
+    {"year": 1984, "event": "Founds Genesis BBQ in South Korea", "eventKo": "한국에서 '제너시스BBQ' 정립", "whyItMatteredKo": "병자 일주의 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1995, "event": "BBQ Chicken opens first global store", "eventKo": "BBQ 치킨 첫 해외 매장 오픈", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2010, "event": "BBQ Chicken expands globally", "eventKo": "BBQ 치킨 글로벌 전역 매장 확장", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2019, "event": "BBQ Chicken reaches 500+ global stores", "eventKo": "BBQ 치킨 글로벌 500개 이상 매장 도달", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 결정적 결단입니다."},
+    {"year": 2022, "event": "Post-pandemic global K-food boom peaks revenue", "eventKo": "포스트 코로나 글로벌 K-food 호황기 본업 매출 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $0.2B in Food & Beverage", "eventKo": "포브스 2026 — 식음료 2억 달러로 등재", "whyItMatteredKo": "제너시스BBQ 본인 보유 지분이 본업 자본 가치로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1984, "eventKo": "제너시스BBQ 정립", "impactKo": "병자 일주의 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2010, "eventKo": "BBQ 치킨 글로벌 확장", "impactKo": "본업 매출이 카테고리 1위 자리로 환원된 분기점입니다."},
+    {"year": 2022, "eventKo": "포스트 코로나 K-food 호황", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "제너시스BBQ 비상장 본인 및 가족 보유 지분 가치와 영업이익, 그리고 한국 부동산 보유분이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1984년 BBQ 정립, 2010년 글로벌 확장, 2022년 K-food 호황이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국·글로벌 치킨 프랜차이즈 카테고리 1위급 자리, 글로벌 K-food 통로, 그리고 비상장 운영 자본 효율 모델이 강점입니다.",
+    "currentAssetAllocationKo": "제너시스BBQ 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 BBQ 글로벌 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 외식 사이클은 거시 사이클에 직접 노출됩니다."},
+    {"year": 2016, "descriptionKo": "한국 살충제 계란 사태 등 식품 안전 사이클이 본업을 단기 시험했습니다.", "howTheyOvercameKo": "단계적 품질 회복으로 통과했습니다.", "lessonKo": "외식 카테고리는 식품 안전 사이클에 한 번에 큰 영향을 줍니다."},
+    {"year": 2020, "descriptionKo": "코로나로 한국 외식 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "배달 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 외식 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.08B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$0.12B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$0.17B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$0.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["제너시스BBQ 회장", "한국 1세대 외식 프랜차이즈", "BBQ 치킨 글로벌 정체성", "K-food 호황 수혜", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1984년 제너시스BBQ 정립으로 한국·글로벌 치킨 프랜차이즈 카테고리 1위급 회사를 만든 카테고리 도약 본능과, 2010년 글로벌 확장으로 본업을 K-food 1위급 회사로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "한국·글로벌 외식 사이클과 식품 안전 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "한국 1세대 외식 프랜차이즈 자수성가 야망과 본인 세대에서 글로벌 K-food 1위 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "한국 1세대 외식 프랜차이즈 자수성가의 표본입니다. 한국 치킨에서 글로벌 K-food 1위 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Ja day pillar (early summer fire on rat water) and Hae month branch combine into a quietly burning, externally-pressured profile. The format that channels wealth through external authority matches a 42-year arc from the 1984 Genesis BBQ founding to the 2010 global expansion and the 2022 K-food peak.",
+    "summaryKo": "일주는 병자라 초여름 작은 불이 한겨울 물(쥐의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 외부의 큰 물에 단단히 응축되는 자리입니다. 월지 해는 한겨울 물의 자리라 일간을 두 겹의 큰 물·시스템으로 결합시키는 통로입니다. 격국은 외부의 권위·압력과 결합하는 흐름이라, 1984년 제너시스BBQ 정립, 2010년 글로벌 확장, 2022년 K-food 호황까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Genesis_BBQ",
+    "https://www.bbq.co.kr",
+    "https://www.forbes.com/billionaires/"
+  ]
+}

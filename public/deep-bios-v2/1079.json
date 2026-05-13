@@ -1,0 +1,73 @@
+{
+  "id": 1079,
+  "name": "Fang Wei",
+  "nameKo": "팡 웨이",
+  "birthday": "1973-09-04",
+  "birthPlace": "Jiangxi, China",
+  "birthPlaceKo": "중국 장시성",
+  "netWorth": "$3.9B",
+  "nationality": "CN",
+  "industry": "Manufacturing",
+  "gender": "M",
+  "ilju": "계묘",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1973년 중국 장시성에서 태어났습니다. 정통 학력은 공학 트랙으로, 2000년대 본토 철강·산업 카테고리 진입으로 출발한 신세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 신세대 철강·산업 자수성가형 인물 (Fangda Carbon 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Fangda_Carbon"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2000년대 본토 'Fangda Group' 정립으로 본업을 만들었고, 본토 흑연 전극·철강·항공 카테고리 1위급 회사로 도약했습니다. 2002년 'Fangda Carbon New Material' 상장, 2017년 흑연 전극 가격 급등으로 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.fangda-group.com"]
+  },
+  "careerTimeline": [
+    {"year": 2002, "event": "Founds Fangda Group", "eventKo": "'Fangda Group' 정립", "whyItMatteredKo": "계묘 일주의 가을 작은 물 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2004, "event": "Fangda Carbon IPOs on Shanghai Stock Exchange", "eventKo": "Fangda Carbon New Material 상하이 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2010, "event": "Acquires Hainan Airlines stake", "eventKo": "하이난 항공 지분 인수, 항공 카테고리 다각화", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2017, "event": "Graphite electrode prices spike, drives revenue", "eventKo": "글로벌 흑연 전극 공급 부족으로 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."},
+    {"year": 2023, "event": "Acquires Hainan Airlines restructured assets", "eventKo": "하이난 항공 구조조정 자산 재인수, 본업 카테고리 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $3.9B in Manufacturing", "eventKo": "포브스 2026 — 제조업 39억 달러로 등재", "whyItMatteredKo": "Fangda Group 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2002, "eventKo": "Fangda Group 정립", "impactKo": "계묘 일주의 가을 작은 물 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2017, "eventKo": "흑연 전극 공급 부족 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 분기점입니다."},
+    {"year": 2023, "eventKo": "하이난 항공 재인수", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Fangda Carbon New Material(SSE: 600516), Fangda Group 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2002년 Fangda Group 정립, 2017년 흑연 전극 정점, 2023년 하이난 항공 재인수가 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 흑연 전극·철강·항공 다각화 자리, 본토 신세대 자수성가 자본망, 그리고 비상장·상장 결합 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Fangda Group·Fangda Carbon 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2014, "descriptionKo": "글로벌 철강 사이클 둔화로 본업 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화와 카테고리 재편으로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 사이클 한 번에 매출이 흔들립니다."},
+    {"year": 2019, "descriptionKo": "글로벌 흑연 전극 가격 정점 후 단기 조정됐습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "사이클 카테고리는 정점 이후 분기 단위로 매출이 조정됩니다."},
+    {"year": 2022, "descriptionKo": "글로벌 거시 둔화로 본업 매출이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "본토 단일 시장 의존은 거시 사이클 한 번에 매출이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.8B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$3.5B", "sourceKo": "흑연 전극 정점기 추정"},
+    {"year": 2023, "netWorth": "$3.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$3.9B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Fangda Group 회장", "본토 흑연 전극 1위급", "Fangda Carbon 정체성", "하이난 항공 인수자", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "2002년 Fangda Group 정립으로 본토 흑연 전극·철강 카테고리 1위급 회사를 만든 카테고리 도약 본능과, 2017년 흑연 전극 가격 정점·2023년 하이난 항공 재인수로 본업을 다각화 자본으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "글로벌 철강·전극 가격 사이클과 항공 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 신세대 자수성가 야망과 본인 세대에서 흑연 전극·철강·항공까지 다각화 그룹으로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 신세대 다각화 자수성가의 표본입니다. 흑연 전극·철강에서 하이난 항공까지 카테고리를 다각화한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Myo day pillar (autumn small water on rabbit wood) and Yu month branch combine into a softly flowing, learning-authority profile. The format that channels wealth through learned authority matches a 24-year arc from the 2002 Fangda founding to the 2017 graphite peak and the 2023 Hainan Airlines deal.",
+    "summaryKo": "일주는 계묘라 가을 작은 물이 봄 나무(토끼의 자리) 위에 놓인 형국으로, 부드러운 물이 봄 나무의 큰 자원으로 결과물로 빚어지는 자리입니다. 월지 유는 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 2002년 Fangda Group 정립, 2017년 흑연 전극 정점, 2023년 하이난 항공 재인수까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fangda_Carbon",
+    "https://www.fangda-group.com",
+    "https://www.forbes.com/profile/fang-wei/"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 1294,
+  "name": "Chen Fashu",
+  "nameKo": "천 파슈",
+  "birthday": "1960-10-26",
+  "birthPlace": "Fujian, China",
+  "birthPlaceKo": "중국 푸젠성",
+  "netWorth": "$3.2B",
+  "nationality": "CN",
+  "industry": "Finance & Investments",
+  "gender": "M",
+  "ilju": "정해",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "1960년 중국 푸젠성에서 태어났습니다. 정통 학력보다 시장 실무 경험이 토대인 1세대 자수성가형 인물로, 1980년대 푸젠성 농촌 사업에서 출발한 1세대 자수성가의 표본입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 금융·투자 자수성가형 인물 (New Huadu Industrial Group 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Chen_Fashu"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1980년대 후반 본토 'New Huadu' 다각화 사업 정립으로 본업을 만들었고, 본토 리테일·자산투자 카테고리에서 1위급으로 도약했습니다. 2008년 Tsingtao Brewery 등 본업 카테고리 다각화 인수, 2010~2020년대 본토 자본 시장 가치 환원이 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["http://www.newhuadu.com"]
+  },
+  "careerTimeline": [
+    {"year": 1986, "event": "Founds New Huadu in Fujian", "eventKo": "푸젠성에서 'New Huadu' 정립", "whyItMatteredKo": "정해 일주의 가을 작은 불 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2000, "event": "Expands into retail and resources", "eventKo": "리테일·자원 카테고리 확장", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2008, "event": "Acquires stake in Tsingtao Brewery", "eventKo": "Tsingtao 맥주 지분 인수, 본업 카테고리 확장", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2010, "event": "New Huadu Industrial IPOs on Shenzhen Stock Exchange", "eventKo": "New Huadu Industrial 선전 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2022, "event": "Post-pandemic capital portfolio peaks", "eventKo": "포스트 코로나 자본 포트폴리오 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $3.2B in Finance & Investments", "eventKo": "포브스 2026 — 금융·투자 32억 달러로 등재", "whyItMatteredKo": "New Huadu·다각화 자본 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1986, "eventKo": "New Huadu 정립", "impactKo": "정해 일주의 가을 작은 불 일간이 자기 표현의 결과물을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2008, "eventKo": "Tsingtao 맥주 지분 인수", "impactKo": "본업 카테고리 다각화가 진행된 분기점입니다."},
+    {"year": 2010, "eventKo": "New Huadu Industrial 선전 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "New Huadu Industrial(SZSE: 002264) 본인 및 가족 보유 지분 가치와 배당, 그리고 Tsingtao 맥주 등 다각화 자본이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1986년 New Huadu 정립, 2008년 Tsingtao 지분 인수, 2010년 선전 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 다각화 자본망, 푸젠 1세대 자수성가 자본망, 그리고 본토 리테일·자산투자 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "New Huadu·다각화 자본 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 본토 자본 시장이 단기 위축됐습니다.", "howTheyOvercameKo": "Tsingtao 지분 인수 등 카테고리 다각화로 V자 회복했습니다.", "lessonKo": "거시 충격은 다각화 그룹 자본에 분기 단위로 영향을 줍니다."},
+    {"year": 2015, "descriptionKo": "본토 주식 시장 급락기 본업 자본이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 시장 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "본토 자본 시장 사이클은 본업 자본에 분기 단위로 직접 영향을 줍니다."},
+    {"year": 2022, "descriptionKo": "본토 거시 둔화로 본업 자본 평가가 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 자산 재편으로 통과했습니다.", "lessonKo": "본토 단일 시장 의존은 거시 사이클 한 번에 매출이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$3B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$2.9B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$3.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["New Huadu 회장", "본토 1세대 다각화 자수성가", "Tsingtao 맥주 지분", "푸젠 자본망", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1986년 New Huadu 정립으로 본업을 만든 카테고리 도약 본능과, 2008년 Tsingtao 지분 인수로 본업을 다각화 자본으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "본토 자본 시장 사이클과 다각화 그룹 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 1세대 푸젠 자수성가 야망과 본인 세대에서 본토 다각화 자본 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 다각화 자수성가의 표본입니다. 푸젠 농촌 사업에서 본토 다각화 자본 그룹으로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Hae day pillar (autumn small fire on pig water) and Sul month branch combine into a quietly burning, self-expressing profile. The format that channels wealth through one's bold creative output matches a 40-year arc from the 1986 New Huadu founding to the 2008 Tsingtao deal and the 2010 Shenzhen IPO.",
+    "summaryKo": "일주는 정해라 가을 작은 불이 한겨울 물(돼지의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 외부의 큰 물에 단단히 응축되는 자리입니다. 월지 술은 가을 끝 흙의 자리라 일간을 외부의 강한 흙으로 결과물로 빚어내는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1986년 New Huadu 정립, 2008년 Tsingtao 인수, 2010년 선전 상장까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chen_Fashu",
+    "http://www.newhuadu.com",
+    "https://www.forbes.com/profile/chen-fashu/"
+  ]
+}

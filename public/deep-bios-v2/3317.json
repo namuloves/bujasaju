@@ -1,0 +1,73 @@
+{
+  "id": 3317,
+  "name": "Lee Byung-chul",
+  "nameKo": "이병철",
+  "birthday": "1910-02-12",
+  "birthPlace": "Uiryeong, Gyeongsangnam-do, Korea",
+  "birthPlaceKo": "대한민국 경상남도 의령",
+  "netWorth": "$0B",
+  "nationality": "KR",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "무신",
+  "gyeokguk": "편관격",
+  "childhood": {
+    "summaryKo": "1910년 경상남도 의령의 농가에서 태어났습니다. 정통 학력은 와세다대 정치경제학과 중퇴 트랙으로, 일제강점기 한국 1세대 산업 자본 형성기에 출발한 1세대 자수성가의 표본입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 한국 1세대 다각화 그룹 자수성가형 인물 (삼성그룹 창업주, 1987년 별세)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Lee_Byung-chul"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1938년 대구에서 '삼성상회' 정립으로 본업을 만들었고, 1953년 '제일제당' 설립, 1969년 '삼성전자' 정립으로 한국 1세대 다각화 그룹의 시작을 만들었습니다. 1987년 별세 후 가족이 그룹을 분할 운영(삼성, CJ, 신세계, 한솔)했고, 현재는 가문 후계 자산만 일부 잔존하는 정체성 인물입니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.samsung.com"]
+  },
+  "careerTimeline": [
+    {"year": 1938, "event": "Founds Samsung Sanghoe in Daegu", "eventKo": "대구에서 '삼성상회' 정립", "whyItMatteredKo": "무신 일주의 한여름 큰 흙 일간이 외부 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1953, "event": "Founds Cheil Sugar Manufacturing", "eventKo": "'제일제당' 설립, 한국 1세대 제조업 진입", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 1963, "event": "Founds Cheil Industries (textile)", "eventKo": "'제일모직' 정립, 본업 다각화 시작", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 시기입니다."},
+    {"year": 1969, "event": "Founds Samsung Electronics", "eventKo": "'삼성전자' 정립, 한국 전자 산업 1세대 카테고리 진입", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 결정적 결단입니다."},
+    {"year": 1983, "event": "Pushes Samsung into semiconductor industry", "eventKo": "삼성전자 반도체 사업 본격 진입 선언", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 카테고리 환원으로 진행된 만년의 결정적 결단입니다."},
+    {"year": 1987, "event": "Passes away, Samsung Group succeeded by Lee Kun-hee", "eventKo": "별세, 삼성그룹 차남 이건희 회장 승계", "whyItMatteredKo": "본업 자본이 다음 세대로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1938, "eventKo": "삼성상회 정립", "impactKo": "무신 일주의 한여름 큰 흙 일간이 외부 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 1969, "eventKo": "삼성전자 정립", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 분기점입니다."},
+    {"year": 1983, "eventKo": "반도체 사업 본격 진입", "impactKo": "외부 자원의 큰 흐름이 본업 카테고리 환원으로 진행된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "별세 후 본인 자산은 대부분 가족(이건희·이맹희·이숙희 등)에 상속됐고, 현재 삼성·CJ·신세계·한솔 등 후계 그룹 가족 자본으로 운영됩니다.",
+    "wealthAcceleratorsKo": "1938년 삼성상회 정립, 1969년 삼성전자 정립, 1983년 반도체 사업 진입이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "한국 1세대 다각화 그룹 시조 자리, 제조·전자·반도체·금융·리테일 통합 거버넌스 구조, 그리고 한국 산업 정책 결합 통로가 강점입니다.",
+    "currentAssetAllocationKo": "1987년 별세 후 본인 자산은 후계 가족에 상속됐고, 현재 본인 보유 자산은 0에 가깝습니다."
+  },
+  "failures": [
+    {"year": 1966, "descriptionKo": "한국비료 사카린 밀수 사건으로 본인 자리가 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 사퇴와 그룹 재편으로 통과했습니다.", "lessonKo": "재벌 그룹 정치 사이클은 본인 자리에 한 번에 큰 영향을 줍니다."},
+    {"year": 1969, "descriptionKo": "삼성전자 정립 초기 전자 산업 경험 부족으로 본업이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 일본 기술 결합과 국산화 가속으로 통과했습니다.", "lessonKo": "신규 카테고리 진입은 학습 곡선 사이클에 분기 단위로 영향을 줍니다."},
+    {"year": 1983, "descriptionKo": "반도체 사업 진입기 초기 손실이 본업 자본을 단기 시험했습니다.", "howTheyOvercameKo": "단계적 D램 사업 강화로 V자 회복했습니다.", "lessonKo": "장기 산업 도약은 단기 손실을 감수해야 합니다."}
+  ],
+  "wealthHistory": [
+    {"year": 1980, "netWorth": "$0.3B", "sourceKo": "추정 (당시 한국 1위 부호)"},
+    {"year": 1987, "netWorth": "$0.5B", "sourceKo": "별세 직전 추정"},
+    {"year": 2010, "netWorth": "$0B", "sourceKo": "별세 후 후계 자본"},
+    {"year": 2026, "netWorth": "$0B", "sourceKo": "포브스 2026 (역사 인물)"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["삼성그룹 창업주", "한국 1세대 다각화 그룹 시조", "삼성상회·제일제당·삼성전자 정립자", "반도체 사업 진입 결단자", "1세대 자수성가 (역사 인물)"],
+  "characterKo": {
+    "strengths": "1938년 삼성상회 정립으로 한국 1세대 다각화 그룹의 시작을 만든 카테고리 도약 본능과, 1983년 반도체 사업 진입으로 본업을 글로벌 자본으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "한국 정치 사이클과 그룹 정치 사이클에 본업 자리가 직접 노출됩니다.",
+    "motivation": "정통 한국 1세대 자수성가 야망과 본인 세대에서 식민지 한국 농가에서 한국 1위 다각화 그룹 시조로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "한국 1세대 다각화 그룹 시조의 표본입니다. 일제강점기 농가에서 한국 1위 그룹(삼성·CJ·신세계·한솔 분할 후 모두 글로벌 자본) 시조로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Sin day pillar (high summer earth on monkey metal) and In month branch combine into a steady, externally-pressured profile. The format that channels wealth through external authority matches a 49-year arc from the 1938 Samsung Sanghoe founding to the 1969 Samsung Electronics launch and the 1983 semiconductor pivot.",
+    "summaryKo": "일주는 무신이라 한여름 큰 흙이 가을 쇠(원숭이의 자리) 위에 놓인 형국으로, 단단한 흙이 가을 쇠로 결과물을 빚어내는 자리입니다. 월지 인은 봄 나무의 자리라 일간을 외부의 큰 자원·권위로 받쳐주는 통로입니다. 격국은 외부의 권위·압력과 결합하는 흐름이라, 1938년 삼성상회 정립, 1969년 삼성전자 정립, 1983년 반도체 사업 진입까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lee_Byung-chul",
+    "https://www.samsung.com",
+    "https://www.forbes.com/billionaires/"
+  ]
+}

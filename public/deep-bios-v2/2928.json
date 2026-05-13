@@ -1,0 +1,73 @@
+{
+  "id": 2928,
+  "name": "Cheah Cheng Hye",
+  "nameKo": "체아 청 헤",
+  "birthday": "1954-03-18",
+  "birthPlace": "Penang, Malaysia",
+  "birthPlaceKo": "말레이시아 페낭",
+  "netWorth": "$1.2B",
+  "nationality": "MY",
+  "industry": "Finance & Investments",
+  "gender": "M",
+  "ilju": "계유",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1954년 말레이시아 페낭의 화교계 가문에서 태어났습니다. 정통 학력은 자율 학습 트랙으로, 정규 대학 학력 없이 1970년대 홍콩 금융 카테고리 진입으로 출발한 1세대 자수성가형 인물입니다. 가난한 가정 출신으로 자율 학습으로 금융 분석가가 된 본인 정체성의 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 말레이시아·홍콩 1세대 자산운용 자수성가형 인물 (Value Partners 공동 창업)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Cheah_Cheng_Hye"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1993년 홍콩에서 'Value Partners' 공동 창업으로 본업을 만들었고, 아시아 가치 투자 카테고리에서 1위급으로 도약했습니다. 2007년 홍콩 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 2010~2020년대 아시아 자산운용 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.valuepartners.com.hk"]
+  },
+  "careerTimeline": [
+    {"year": 1971, "event": "Begins career as journalist in Penang", "eventKo": "페낭에서 기자 경력 시작", "whyItMatteredKo": "계유 일주의 가을 작은 물 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 1989, "event": "Joins Morgan Grenfell as analyst in Hong Kong", "eventKo": "홍콩 모건 그렌펠 분석가 합류", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 1993, "event": "Co-founds Value Partners in Hong Kong", "eventKo": "홍콩에서 'Value Partners' 공동 창업", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2007, "event": "Value Partners IPOs on Hong Kong Stock Exchange", "eventKo": "Value Partners 홍콩 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2018, "event": "Steps down as CEO, remains Chairman", "eventKo": "CEO 자리에서 물러나며 회장 자리 유지", "whyItMatteredKo": "본인 자리가 운영형에서 거버넌스형으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.2B in Finance & Investments", "eventKo": "포브스 2026 — 금융·투자 12억 달러로 등재", "whyItMatteredKo": "Value Partners 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1989, "eventKo": "모건 그렌펠 합류", "impactKo": "계유 일주의 가을 작은 물 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 1993, "eventKo": "Value Partners 공동 창업", "impactKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2007, "eventKo": "Value Partners 홍콩 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Value Partners Group(HKEX: 806) 본인 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1993년 Value Partners 창업, 2007년 홍콩 상장, 2018년 회장 자리 환원이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "아시아 가치 투자 카테고리 1위급 자리, 홍콩·말레이시아 자본망, 그리고 자율 학습 분석가 정체성이 강점입니다.",
+    "currentAssetAllocationKo": "Value Partners 본인 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 1997, "descriptionKo": "아시아 외환위기로 Value Partners 자산운용 자본이 단기 위축됐습니다.", "howTheyOvercameKo": "가치 투자 철학을 지키며 단계적 시장 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 자산운용 자본에 분기 단위로 영향을 줍니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 글로벌 자산운용 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "장기 가치 투자 전략으로 V자 회복했습니다.", "lessonKo": "글로벌 금융 사이클은 본업 매출에 직접 노출됩니다."},
+    {"year": 2022, "descriptionKo": "본토 부동산·자본 시장 둔화로 Value Partners 본업 자본이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "아시아 가치 투자는 본토 사이클에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.6B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$1.4B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Value Partners 회장", "아시아 가치 투자 1위급", "홍콩·말레이시아 화교", "자율 학습 분석가", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1971년 기자 출신에서 1989년 분석가, 1993년 Value Partners 공동 창업까지 본업 카테고리를 자산운용으로 환원시킨 카테고리 도약 본능과, 2007년 홍콩 상장으로 본업을 자본 시장 가치로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "아시아 가치 투자 사이클과 글로벌 금융 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "말레이시아 화교 1세대 자수성가 야망과 본인 세대에서 가난한 가정 출신에서 아시아 가치 투자 1위급 회사 회장으로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "말레이시아·홍콩 1세대 자산운용 자수성가의 표본입니다. 정규 대학 학력 없는 기자 출신이 아시아 가치 투자 1위급 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Yu day pillar (autumn small water on rooster metal) and Myo month branch combine into a softly flowing, externally-resourced profile. The format that channels wealth through external resources matches a 55-year arc from the 1971 journalism start to the 1993 Value Partners founding and the 2007 IPO.",
+    "summaryKo": "일주는 계유라 가을 작은 물이 가을 쇠(닭의 자리) 위에 놓인 형국으로, 부드러운 물이 단단한 쇠로 받쳐져 결과물로 빚어지는 자리입니다. 월지 묘는 봄 나무의 자리라 일간을 외부의 큰 자원·권위로 받쳐주는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1971년 기자 출발, 1993년 Value Partners 창업, 2007년 홍콩 상장까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cheah_Cheng_Hye",
+    "https://www.valuepartners.com.hk",
+    "https://www.forbes.com/profile/cheah-cheng-hye/"
+  ]
+}

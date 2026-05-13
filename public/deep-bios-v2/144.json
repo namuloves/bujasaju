@@ -1,0 +1,73 @@
+{
+  "id": 144,
+  "name": "Prajogo Pangestu",
+  "nameKo": "프라조고 팡에스투",
+  "birthday": "1944-05-13",
+  "birthPlace": "Sambas, West Kalimantan, Indonesia",
+  "birthPlaceKo": "인도네시아 서칼리만탄 삼바스",
+  "netWorth": "$18B",
+  "nationality": "ID",
+  "industry": "Diversified",
+  "gender": "M",
+  "ilju": "정축",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1944년 인도네시아 서칼리만탄 삼바스의 화교 가난한 가정에서 태어났습니다. 정규 학력은 짧고, 청년기 목재 회사 운전기사·영업직으로 본업을 시작한 정통 인도네시아 1세대 자수성가 트랙입니다.",
+    "capitalTypeKo": "1세대 자수성가 — 인도네시아 1세대 목재·석유화학 가문 창업주 (Barito Pacific 정립)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Prajogo_Pangestu"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1970년대 인도네시아 목재 회사 'Djajanti Group' 합류로 본업을 시작했고, 1990년대 'Barito Pacific Timber' 인수로 본업 카테고리를 환원했습니다. 본업은 인도네시아 1위 석유화학·전력·신재생 그룹이고, 2010~2024년 인도네시아 자원·인프라 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.barito-pacific.com"]
+  },
+  "careerTimeline": [
+    {"year": 1969, "event": "Joins Djajanti Group timber business", "eventKo": "Djajanti 목재 그룹 합류", "whyItMatteredKo": "정축 일주의 한여름 작은 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1993, "event": "Acquires Barito Pacific Timber", "eventKo": "Barito Pacific Timber 인수, 본업 카테고리 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2007, "event": "Chandra Asri Petrochemical acquired", "eventKo": "찬드라 아스리 페트로케미컬 인수로 석유화학 카테고리 진출", "whyItMatteredKo": "본업 매출이 자원에서 석유화학 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2018, "event": "Barito Renewables ramps geothermal portfolio", "eventKo": "Barito Renewables 지열·신재생 카테고리 가속", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2023, "event": "Barito Renewables IPOs surges valuation", "eventKo": "Barito Renewables 인도네시아 증시 상장 후 가치 급등", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $18B in Diversified", "eventKo": "포브스 2026 — 다각화 산업 180억 달러로 등재", "whyItMatteredKo": "Barito Pacific·Chandra Asri·Barito Renewables 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1993, "eventKo": "Barito Pacific Timber 인수", "impactKo": "정축 일주의 한여름 작은 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 분기점입니다."},
+    {"year": 2007, "eventKo": "Chandra Asri 인수", "impactKo": "본업 매출이 자원에서 석유화학 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2023, "eventKo": "Barito Renewables 상장", "impactKo": "본업 매출이 자본 시장 가치 정점으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Barito Pacific(IDX: BRPT), Chandra Asri(IDX: TPIA), Barito Renewables(IDX: BREN) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1993년 Barito Pacific 인수, 2007년 Chandra Asri 인수, 2023년 Barito Renewables 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도네시아 1위 석유화학·신재생 그룹 자리, 정통 자수성가 자본망, 그리고 자원·인프라·신재생 결합 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Barito Pacific 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 1997, "descriptionKo": "아시아 외환위기로 인도네시아 자본 시장이 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 그룹 재편으로 V자 회복했습니다.", "lessonKo": "거시 충격은 자원 그룹 자본에 분기 단위로 영향을 줍니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도네시아 석유화학 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 거시 사이클은 본업 매출에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도네시아 자원·석유화학 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "신재생 카테고리 가속과 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 자원 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.6B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$5.4B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$58B", "sourceKo": "포브스 추정 (BREN 상장 직후 정점)"},
+    {"year": 2026, "netWorth": "$18B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Barito Pacific 창업주", "인도네시아 1세대 자수성가", "운전기사 출신 화교", "Chandra Asri·Barito Renewables 회장", "정통 자원·석유화학·신재생"],
+  "characterKo": {
+    "strengths": "1969년 목재 회사 합류 후 56년 동안 인도네시아 1세대 자수성가의 한 축으로 자리잡은 끈기와, 1993년 Barito Pacific 인수, 2007년 Chandra Asri 인수, 2023년 Barito Renewables 상장으로 본업을 자원에서 석유화학·신재생까지 단계적으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도네시아 단일 시장 의존도와 글로벌 자원·석유화학 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "인도네시아 화교 1세대 자수성가 정체성과 본인 세대에서 본업을 자원에서 신재생까지 단계적으로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도네시아 1세대 자수성가 자원·석유화학·신재생 그룹 창업주의 표본입니다. 화교 운전기사에서 인도네시아 최대 부호 자리까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Chuk day pillar (midsummer small fire on winter ox earth) and Sa month branch combine into a brightly expressing, self-rooted profile. The format that channels wealth through one's bold creative output matches a 57-year arc from the 1969 timber entry to the 1993 Barito Pacific acquisition and the 2023 Renewables IPO.",
+    "summaryKo": "일주는 정축이라 한여름 작은 불이 늦겨울 흙(소의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 단단한 흙으로 결과물을 압축하는 자리입니다. 월지 사는 초여름 불의 자리라 일간을 외부의 강한 불로 결과물로 다지는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1969년 목재 합류, 1993년 Barito Pacific 인수, 2023년 Barito Renewables 상장까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Prajogo_Pangestu",
+    "https://www.barito-pacific.com",
+    "https://www.forbes.com/profile/prajogo-pangestu/"
+  ]
+}

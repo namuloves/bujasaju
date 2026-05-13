@@ -1,0 +1,73 @@
+{
+  "id": 3003,
+  "name": "Habil Khorakiwala",
+  "nameKo": "하빌 코라키왈라",
+  "birthday": "1942-09-22",
+  "birthPlace": "Gujarat, India",
+  "birthPlaceKo": "인도 구자라트주",
+  "netWorth": "$1.2B",
+  "nationality": "IN",
+  "industry": "Healthcare",
+  "gender": "M",
+  "ilju": "무인",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "1942년 인도 구자라트주의 다우디 보흐라 무슬림 가문에서 태어났습니다. 정통 학력은 약학 트랙으로, 뭄바이대 약학 학사·미국 퍼듀대 약학 박사를 거친 정통 인도 1세대 제약 인재 트랙입니다. 가문 약국 사업을 잇는 후계자 정체성의 인물입니다.",
+    "capitalTypeKo": "재벌 후계자·운영형 자수성가 — 인도 1세대 제약 가문 후계자 (Wockhardt 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Wockhardt"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1967년 뭄바이에서 가족 'Wockhardt'(욕하르트) 제약 회사 정립으로 본업을 만들었고, 인도 1세대 글로벌 제약 회사 카테고리 1위급으로 도약했습니다. 1998년 인도 증권거래소 상장, 2009년 채무 사태와 회복까지 굴곡의 자수성가 정체성을 보유한 인물입니다.",
+    "selfMadeScore": 7,
+    "sources": ["https://www.wockhardt.com"]
+  },
+  "careerTimeline": [
+    {"year": 1967, "event": "Founds Wockhardt in Mumbai", "eventKo": "뭄바이에서 'Wockhardt' 정립", "whyItMatteredKo": "무인 일주의 큰 흙 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1998, "event": "Wockhardt IPOs on Indian stock exchange", "eventKo": "Wockhardt 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2003, "event": "Acquires CP Pharmaceuticals UK", "eventKo": "영국 CP Pharmaceuticals 인수, 글로벌 카테고리 확장", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2009, "event": "Debt crisis, enters corporate debt restructuring", "eventKo": "Wockhardt 채무 사태, 채무 구조조정 진입", "whyItMatteredKo": "외부 압력이 본인 자리의 결단으로 환원된 결정적 시험기입니다."},
+    {"year": 2020, "event": "Pandemic-era pharma demand accelerates revenue", "eventKo": "코로나 시기 제약 수요 가속으로 본업 매출 회복", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.2B in Healthcare", "eventKo": "포브스 2026 — 헬스케어 12억 달러로 등재", "whyItMatteredKo": "Wockhardt 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1967, "eventKo": "Wockhardt 정립", "impactKo": "무인 일주의 큰 흙 일간이 자기 표현의 결과물을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 1998, "eventKo": "Wockhardt 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2009, "eventKo": "Wockhardt 채무 사태", "impactKo": "외부 압력이 본인 자리의 결단으로 환원된 결정적 시험기입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Wockhardt(NSE: WOCKPHARMA) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1967년 Wockhardt 정립, 1998년 인도 상장, 2020년 코로나 시기 제약 수요 가속이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 1세대 제약 카테고리 자리, 정통 약학 박사 트랙, 그리고 굴곡 후 회복 정체성이 강점입니다.",
+    "currentAssetAllocationKo": "Wockhardt 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 Wockhardt 글로벌 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 제약 매출은 거시 사이클에 직접 노출됩니다."},
+    {"year": 2009, "descriptionKo": "Wockhardt 채무 사태로 본업 자본 평가가 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 채무 구조조정과 자산 매각으로 통과했습니다.", "lessonKo": "글로벌 제약 회사 부채 사이클은 본업 자본에 한 번에 큰 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "미국 식품의약국 공장 경고 서한으로 본업 수출이 단기 시험받았습니다.", "howTheyOvercameKo": "공장 개선 조치 완료와 재수출 승인으로 통과했습니다.", "lessonKo": "글로벌 제약 수출은 규제 사이클 한 번에 매출이 직접 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$0.9B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Wockhardt 회장", "인도 1세대 제약 자수성가", "정통 약학 박사", "구자라트 다우디 보흐라 가문", "굴곡 후 회복형 후계자"],
+  "characterKo": {
+    "strengths": "1967년 Wockhardt 정립으로 본업 카테고리를 인도 1세대 제약으로 만든 카테고리 도약 본능과, 2009년 채무 사태 후 단계적 회복으로 본업 자리를 환원시킨 끈기가 강점입니다.",
+    "weaknesses": "글로벌 제약 규제 사이클과 거시 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 인도 1세대 약학자 정체성과 본인 세대에서 인도 1세대 글로벌 제약 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 제약 가문의 표본입니다. 채무 사태 후 회복까지 한 인생 안에서 굴곡을 통과한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-In day pillar (high summer earth on tiger wood) and Yu month branch combine into a steady, self-expressing profile. The format that channels wealth through one's bold creative output matches a 59-year arc from the 1967 founding to the 1998 IPO and the 2009 debt crisis.",
+    "summaryKo": "일주는 무인이라 한여름 큰 흙이 봄 나무(호랑이의 자리) 위에 놓인 형국으로, 단단한 흙이 봄 나무의 큰 자원에 의해 결과물로 빚어지는 자리입니다. 월지 유는 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1967년 Wockhardt 정립, 1998년 상장, 2009년 채무 사태까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Wockhardt",
+    "https://www.wockhardt.com",
+    "https://www.forbes.com/profile/habil-khorakiwala/"
+  ]
+}

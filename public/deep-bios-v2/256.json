@@ -1,0 +1,73 @@
+{
+  "id": 256,
+  "name": "Cao Renxian",
+  "nameKo": "차오 런셴",
+  "birthday": "1968-07-24",
+  "birthPlace": "Jiangsu, China",
+  "birthPlaceKo": "중국 장쑤성",
+  "netWorth": "$11.5B",
+  "nationality": "CN",
+  "industry": "Energy",
+  "gender": "M",
+  "ilju": "을미",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "1968년 중국 장쑤성에서 태어났습니다. 정통 학력은 공학 트랙으로, 허페이공업대 자동제어 학사를 거친 정통 본토 1세대 전기 인재 트랙입니다. 1996년 본토 인버터 시장 진입으로 본업을 만든 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 태양광 인버터 자수성가형 인물 (Sungrow Power 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Sungrow_Power"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1997년 'Sungrow Power'(양광전원) 정립으로 본업을 만들었고, 본토 태양광 인버터 카테고리에서 글로벌 1위급으로 도약했습니다. 2011년 선전 증권거래소 상장, 2020~2024년 글로벌 신재생·에너지 저장 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://en.sungrowpower.com"]
+  },
+  "careerTimeline": [
+    {"year": 1997, "event": "Founds Sungrow Power in Hefei", "eventKo": "허페이에서 'Sungrow Power' 정립, 본토 인버터 카테고리 진입", "whyItMatteredKo": "을미 일주의 봄 작은 나무 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 출발점입니다."},
+    {"year": 2003, "event": "Pivots into solar inverter category", "eventKo": "태양광 인버터 카테고리 전환", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2011, "event": "Sungrow IPOs on Shenzhen Stock Exchange", "eventKo": "Sungrow 선전 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2018, "event": "Becomes #1 global solar inverter maker", "eventKo": "Sungrow 글로벌 태양광 인버터 1위 도약", "whyItMatteredKo": "본업 매출이 글로벌 카테고리 자리로 환원된 시기입니다."},
+    {"year": 2023, "event": "Energy storage business accelerates revenue", "eventKo": "에너지 저장 사업 가속으로 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $11.5B in Energy", "eventKo": "포브스 2026 — 에너지 115억 달러로 등재", "whyItMatteredKo": "Sungrow Power 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1997, "eventKo": "Sungrow Power 정립", "impactKo": "을미 일주의 봄 작은 나무 일간이 외부 자원의 큰 흐름을 본인 결과물로 변환한 결정적 결단입니다."},
+    {"year": 2011, "eventKo": "Sungrow 선전 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2023, "eventKo": "에너지 저장 사업 가속", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Sungrow Power(SZSE: 300274) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1997년 Sungrow 정립, 2011년 선전 상장, 2023년 에너지 저장 사업 가속이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "글로벌 태양광 인버터 1위 자리, 본토 신재생·에너지 저장 카테고리 통로, 그리고 정통 공학 자본망이 강점입니다.",
+    "currentAssetAllocationKo": "Sungrow Power 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "본토 태양광 보조금 축소로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "글로벌 시장 비중 강화로 V자 회복했습니다.", "lessonKo": "본토 의존 카테고리는 정책 사이클에 직접 노출됩니다."},
+    {"year": 2022, "descriptionKo": "글로벌 태양광 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "고부가 에너지 저장 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2024, "descriptionKo": "글로벌 신재생 사이클 다운으로 본업 매출이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과하고 있습니다.", "lessonKo": "사이클 카테고리는 본업 매출에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$5.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$10.4B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$11.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Sungrow Power 회장", "글로벌 태양광 인버터 1위", "본토 신재생 1세대", "허페이공업대 동문", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1997년 Sungrow Power 정립으로 본토 태양광 인버터 카테고리 1위 회사를 만든 카테고리 도약 본능과, 2023년 에너지 저장 사업 가속으로 본업을 글로벌 신재생 자본으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "본토 정책 사이클과 글로벌 신재생 가격 경쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 1세대 태양광 인버터 자수성가 야망과 본인 세대에서 글로벌 태양광·에너지 저장 1위 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 1세대 태양광 인버터 자수성가의 표본입니다. 정통 공학 박사에서 글로벌 신재생 1위 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Eul-Mi day pillar (spring small wood on goat earth) and Mi month branch combine into a flexibly nourished, externally-resourced profile. The format that channels wealth through external resources matches a 29-year arc from the 1997 Sungrow founding to the 2011 IPO and the 2023 energy storage surge.",
+    "summaryKo": "일주는 을미라 봄 작은 나무가 늦여름 흙(양의 자리) 위에 놓인 형국으로, 부드러운 나무가 외부의 강한 흙으로 결과물로 빚어지는 자리입니다. 월지 미도 또 같은 늦여름 흙의 자리라 일간을 두 겹의 흙으로 결과물로 압축하는 통로입니다. 격국은 큰 외부 자원의 흐름이라, 1997년 Sungrow 정립, 2011년 선전 상장, 2023년 에너지 저장 가속까지 모두 '외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sungrow_Power",
+    "https://en.sungrowpower.com",
+    "https://www.forbes.com/profile/cao-renxian/"
+  ]
+}

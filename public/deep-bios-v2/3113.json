@@ -1,0 +1,73 @@
+{
+  "id": 3113,
+  "name": "Kanjibhai Virani",
+  "nameKo": "캉지바이 비라니",
+  "birthday": "1962-01-18",
+  "birthPlace": "Gujarat, India",
+  "birthPlaceKo": "인도 구자라트주",
+  "netWorth": "$1.1B",
+  "nationality": "IN",
+  "industry": "Food & Beverage",
+  "gender": "M",
+  "ilju": "병진",
+  "gyeokguk": "정재격",
+  "childhood": {
+    "summaryKo": "1962년 인도 구자라트주의 비라니 가문에서 태어났습니다. 정통 학력보다 시장 실무 경험이 토대인 1세대 자수성가형 인물로, 형 찬두바이·동생 비푸르바이와 함께 본업을 만든 1세대 자수성가의 표본입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 인도 1세대 짭짤 스낵 자수성가형 인물 (Balaji Wafers 공동 창업)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Balaji_Wafers"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1982년 형제들과 함께 인도 구자라트주에서 'Balaji Wafers' 정립으로 본업을 만들었고, 인도 짭짤 스낵 카테고리에서 1위급으로 도약했습니다. 2010~2020년대 인도 소비 호황기에 본업 매출이 정점에 도달, 비상장 본인·가족 보유 지분으로 본업 자본을 운영하는 정체성을 보유했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.balajiwafers.com"]
+  },
+  "careerTimeline": [
+    {"year": 1978, "event": "Joins family cinema canteen business", "eventKo": "가족 영화관 매점 사업 합류", "whyItMatteredKo": "병진 일주의 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1982, "event": "Co-founds Balaji Wafers with brothers", "eventKo": "형제들과 'Balaji Wafers' 공동 창업, 인도 짭짤 스낵 카테고리 진입", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 1995, "event": "Expands across Gujarat market", "eventKo": "구자라트 시장 전역 매출 확장", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
+    {"year": 2010, "event": "Balaji Wafers becomes top regional brand", "eventKo": "Balaji Wafers 인도 서부·중부 짭짤 스낵 1위 도약", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 결정적 결단입니다."},
+    {"year": 2022, "event": "Post-pandemic snack demand peaks", "eventKo": "포스트 코로나 스낵 수요 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.1B in Food & Beverage", "eventKo": "포브스 2026 — 식음료 11억 달러로 등재", "whyItMatteredKo": "Balaji Wafers 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1982, "eventKo": "Balaji Wafers 공동 창업", "impactKo": "병진 일주의 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2010, "eventKo": "Balaji Wafers 인도 1위급 도약", "impactKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 분기점입니다."},
+    {"year": 2022, "eventKo": "포스트 코로나 스낵 수요 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Balaji Wafers 비상장 본인 및 가족 보유 지분 가치와 영업이익이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1982년 Balaji Wafers 창업, 2010년 인도 1위급, 2022년 포스트 코로나 회복이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 짭짤 스낵 카테고리 1위 자리, 구자라트 가문 자본망, 그리고 비상장 운영 자본 효율 모델이 강점입니다.",
+    "currentAssetAllocationKo": "Balaji Wafers 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 소비재 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 소비재 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2018, "descriptionKo": "인도 짭짤 스낵 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "프리미엄 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 오프라인 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "디지털 채널 가속과 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 리테일 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$0.3B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$0.7B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.1B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Balaji Wafers 공동 창업", "인도 짭짤 스낵 1위", "구자라트 가족", "비라니 형제", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1982년 형제들과 Balaji Wafers 공동 창업으로 인도 짭짤 스낵 카테고리 1위 회사를 만든 카테고리 도약 본능과, 외부 펀딩 없이 비상장 본인·가족 자본만으로 본업을 운영한 자본 효율 결단력이 강점입니다.",
+    "weaknesses": "인도 소비재 사이클과 가격 경쟁 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "구자라트 1세대 자수성가 야망과 본인 세대에서 인도 짭짤 스낵 1위 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 짭짤 스낵 자수성가의 표본입니다. 영화관 매점에서 인도 짭짤 스낵 1위 회사로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Byeong-Jin day pillar (early summer fire on dragon earth) and Chuk month branch combine into a brightly expressing, externally-pressured profile. The format that channels wealth through external authority matches a 48-year arc from the 1978 family entry to the 1982 Balaji founding and the 2022 post-pandemic peak.",
+    "summaryKo": "일주는 병진이라 초여름 작은 불이 봄 끝 흙(용의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 부드러운 흙으로 결과물을 빚어내는 자리입니다. 월지 축은 겨울 끝 흙의 자리라 일간을 외부의 강한 흙으로 결과물로 빚어내는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1982년 Balaji 창업, 2010년 인도 1위급, 2022년 포스트 코로나 회복까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Balaji_Wafers",
+    "https://www.balajiwafers.com",
+    "https://www.forbes.com/profile/kanjibhai-virani/"
+  ]
+}

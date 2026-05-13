@@ -1,0 +1,73 @@
+{
+  "id": 615,
+  "name": "Yasumitsu Shigeta",
+  "nameKo": "시게타 야스미쓰",
+  "birthday": "1965-02-25",
+  "birthPlace": "Tokyo, Japan",
+  "birthPlaceKo": "일본 도쿄",
+  "netWorth": "$6.4B",
+  "nationality": "JP",
+  "industry": "Telecom",
+  "gender": "M",
+  "ilju": "경술",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1965년 일본 도쿄에서 태어났습니다. 정통 학력은 경영 트랙으로, 일본 1세대 모바일 통신 인재 트랙입니다. 24세에 본인 자본으로 'Hikari Tsushin' 정립으로 본업을 만든 1세대 자수성가형 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 일본 1세대 통신 자수성가형 인물 (Hikari Tsushin 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Hikari_Tsushin"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1988년 24세에 도쿄에서 'Hikari Tsushin'(히카리 통신) 정립으로 본업을 만들었고, 일본 통신·법인 영업 카테고리에서 1위급으로 도약했습니다. 1999년 도쿄 증권거래소 상장, 2000년 닷컴 버블 후 본업 자본 재편, 2010~2020년대 일본 디지털·5G 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.hikari.co.jp"]
+  },
+  "careerTimeline": [
+    {"year": 1988, "event": "Founds Hikari Tsushin in Tokyo at age 24", "eventKo": "도쿄에서 24세에 'Hikari Tsushin' 정립", "whyItMatteredKo": "경술 일주의 가을 큰 쇠 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 1999, "event": "Hikari Tsushin IPOs on Tokyo Stock Exchange", "eventKo": "Hikari Tsushin 도쿄 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2000, "event": "Dot-com bubble bursts, stock crashes 99%", "eventKo": "닷컴 버블 붕괴로 주가 99% 폭락", "whyItMatteredKo": "외부 압력이 본인 자리의 결단으로 환원된 결정적 시험기입니다."},
+    {"year": 2010, "event": "Pivots to recurring B2B telecom subscriptions", "eventKo": "B2B 통신 구독 카테고리로 전환, 본업 자본 재편 완료", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2022, "event": "Recurring subscription model peaks revenue", "eventKo": "B2B 구독 모델 본업 매출 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $6.4B in Telecom", "eventKo": "포브스 2026 — 통신 64억 달러로 등재", "whyItMatteredKo": "Hikari Tsushin 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1988, "eventKo": "Hikari Tsushin 정립", "impactKo": "경술 일주의 가을 큰 쇠 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2000, "eventKo": "닷컴 버블 폭락", "impactKo": "외부 압력이 본인 자리의 결단으로 환원된 결정적 시험기입니다."},
+    {"year": 2010, "eventKo": "B2B 통신 구독으로 전환", "impactKo": "본업 카테고리 다각화가 진행된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Hikari Tsushin(TSE: 9435) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1988년 Hikari Tsushin 정립, 2010년 B2B 구독 전환, 2022년 매출 정점이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "일본 B2B 통신 구독 카테고리 1위 자리, 안정적 현금 흐름 구조, 그리고 닷컴 버블 후 회복 정체성이 강점입니다.",
+    "currentAssetAllocationKo": "Hikari Tsushin 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2000, "descriptionKo": "닷컴 버블 붕괴로 Hikari Tsushin 주가가 99% 폭락하며 본업 자본이 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 사업 모델 재편과 B2B 구독 전환으로 회복했습니다.", "lessonKo": "버블 사이클은 본업 자본 평가에 한 번에 큰 영향을 줍니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 일본 자본 시장이 단기 위축됐습니다.", "howTheyOvercameKo": "B2B 구독 안정 매출로 V자 회복했습니다.", "lessonKo": "안정적 구독 모델은 거시 충격에 회복력이 강합니다."},
+    {"year": 2020, "descriptionKo": "코로나로 일본 B2B 영업이 단기 시험받았습니다.", "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.8B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$3.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$5.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$6.4B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Hikari Tsushin 회장", "일본 1세대 통신 자수성가", "닷컴 버블 회복형", "B2B 구독 모델", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "1988년 Hikari Tsushin 정립으로 본업을 만든 카테고리 도약 본능과, 2000년 닷컴 버블 99% 폭락 후 B2B 구독 모델로 본업을 재편한 끈기가 강점입니다.",
+    "weaknesses": "일본 단일 시장 의존도와 글로벌 거시 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "정통 일본 1세대 통신 자수성가 야망과 본인 세대에서 닷컴 버블 후에도 본업 자본을 재편하겠다는 산업 의식이 동력입니다.",
+    "legacy": "일본 1세대 통신 자수성가의 표본입니다. 닷컴 버블 99% 폭락 후 B2B 구독 모델로 회복해 부호 리스트에 진입한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gyeong-Sul day pillar (autumn metal on dog earth) and In month branch combine into a sharply forged, learning-authority profile. The format that channels wealth through learned authority matches a 38-year arc from the 1988 founding to the 2000 dot-com crash and the 2010 B2B pivot.",
+    "summaryKo": "일주는 경술이라 가을 큰 쇠가 가을 끝 흙(개의 자리) 위에 놓인 형국으로, 단단한 쇠가 흙으로 받쳐져 결과물로 압축되는 자리입니다. 월지 인은 봄 나무의 자리라 일간을 외부의 큰 자원·권위로 받쳐주는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1988년 Hikari 정립, 2000년 버블 후 재편, 2010년 B2B 구독 전환까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hikari_Tsushin",
+    "https://www.hikari.co.jp",
+    "https://www.forbes.com/profile/yasumitsu-shigeta/"
+  ]
+}

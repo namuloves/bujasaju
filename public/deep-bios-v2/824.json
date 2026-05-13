@@ -1,0 +1,73 @@
+{
+  "id": 824,
+  "name": "Chandru Raheja",
+  "nameKo": "찬드루 라헤자",
+  "birthday": "1940-10-01",
+  "birthPlace": "Mumbai, India",
+  "birthPlaceKo": "인도 뭄바이",
+  "netWorth": "$5B",
+  "nationality": "IN",
+  "industry": "Real Estate",
+  "gender": "M",
+  "ilju": "정축",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1940년 인도 뭄바이의 신디 라헤자 가문에서 태어났습니다. 정통 학력은 경영 트랙으로, 인도 1세대 부동산 가문의 후계자 정체성을 유년기부터 형성한 정통 인도 1세대 부동산 후계자 트랙입니다.",
+    "capitalTypeKo": "재벌 후계자·운영형 자수성가 — 인도 1세대 뭄바이 부동산 가문 (K Raheja Corp 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Chandru_Raheja"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1960년대 가족 라헤자 가문 부동산 사업 합류로 본업을 잇기 시작했고, 1980~2000년대 뭄바이 부동산 호황기에 'K Raheja Corp' 정립으로 본업을 환원했습니다. 2007년 'Shoppers Stop' 인도 증권거래소 상장, 2010~2020년대 인도 부동산·리테일 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 5,
+    "sources": ["https://www.krahejacorp.com"]
+  },
+  "careerTimeline": [
+    {"year": 1960, "event": "Joins family Raheja real estate", "eventKo": "가족 라헤자 부동산 사업 합류 (추정)", "whyItMatteredKo": "정축 일주의 겨울 끝 작은 불 일간이 학습된 권위의 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1985, "event": "Splits family business, establishes K Raheja Corp", "eventKo": "라헤자 가문 분할 후 K Raheja Corp 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 1995, "event": "Launches Inorbit malls and Shoppers Stop", "eventKo": "Inorbit 쇼핑몰·Shoppers Stop 등 리테일 카테고리 진입", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2007, "event": "Shoppers Stop IPOs on Indian stock exchange", "eventKo": "Shoppers Stop 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2022, "event": "Post-pandemic Mumbai property and retail recovery peaks", "eventKo": "포스트 코로나 뭄바이 부동산·리테일 회복기 본업 자본 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $5B in Real Estate", "eventKo": "포브스 2026 — 부동산 50억 달러로 등재", "whyItMatteredKo": "K Raheja Corp 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1985, "eventKo": "K Raheja Corp 정립", "impactKo": "정축 일주의 겨울 끝 작은 불 일간이 학습된 권위의 흐름을 본인 자리로 환원한 결정적 결단입니다."},
+    {"year": 2007, "eventKo": "Shoppers Stop 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2022, "eventKo": "포스트 코로나 뭄바이 부동산·리테일 정점", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "K Raheja Corp 비상장 본인·가족 지분, Shoppers Stop(NSE: SHOPERSTOP), Mindspace Business Parks REIT 본인 보유 지분이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1985년 K Raheja Corp 정립, 2007년 Shoppers Stop 상장, 2022년 포스트 코로나 회복이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 뭄바이 프리미엄 부동산 카테고리 자리, Shoppers Stop·Inorbit 리테일 다각화, 그리고 인도 신디 가문 자본망이 강점입니다.",
+    "currentAssetAllocationKo": "K Raheja Corp 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 뭄바이 부동산·리테일 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 부동산 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2016, "descriptionKo": "인도 화폐 개혁(Demonetization)으로 인도 리테일 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 디지털 결제 강화로 통과했습니다.", "lessonKo": "정책 한 번에 리테일 매출이 흔들립니다."},
+    {"year": 2020, "descriptionKo": "코로나로 인도 부동산·리테일 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "디지털 채널 가속과 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$3B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$4.2B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["K Raheja Corp 회장", "인도 1세대 부동산 가문", "Shoppers Stop·Inorbit 정체성", "신디 가문 자본망", "정통 후계자"],
+  "characterKo": {
+    "strengths": "1960년 가족 사업 합류 후 65년 동안 인도 뭄바이 1세대 부동산 가문의 한 축으로 자리잡은 끈기와, 1995년 리테일 카테고리 진입으로 본업을 다각화 자본으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 단일 시장 의존도와 부동산·리테일 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "인도 1세대 신디 라헤자 가문 후계자 정체성과 본인 세대에서 가족 부동산 사업에서 뭄바이 부동산·리테일 1위급 회사로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 뭄바이 부동산·리테일 가문 후계자의 표본입니다. 가족 부동산 사업에서 K Raheja Corp·Shoppers Stop·Inorbit까지 다각화한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Chuk day pillar (winter end small fire on ox earth) and Yu month branch combine into a quietly burning, learning-authority profile. The format that channels wealth through learned authority matches a 66-year arc from the 1960 family entry to the 1985 K Raheja split and the 2022 post-pandemic peak.",
+    "summaryKo": "일주는 정축이라 겨울 끝 작은 불이 같은 겨울 끝 흙(소의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 부드러운 흙으로 결과물을 빚어내는 자리입니다. 월지 유는 가을 쇠의 자리라 일간을 외부의 단단한 결과물로 환원시키는 통로입니다. 격국은 학습된 권위와 가문 자본을 잇는 흐름이라, 1960년 가족 합류, 1985년 K Raheja Corp 정립, 2007년 Shoppers Stop 상장까지 모두 '학습된 권위가 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chandru_Raheja",
+    "https://www.krahejacorp.com",
+    "https://www.forbes.com/profile/chandru-raheja/"
+  ]
+}

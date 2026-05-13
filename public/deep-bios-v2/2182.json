@@ -1,0 +1,73 @@
+{
+  "id": 2182,
+  "name": "Zhou Yahui",
+  "nameKo": "저우 야후이",
+  "birthday": "1977-02-25",
+  "birthPlace": "China",
+  "birthPlaceKo": "중국",
+  "netWorth": "$1.8B",
+  "nationality": "CN",
+  "industry": "Media & Entertainment",
+  "gender": "M",
+  "ilju": "계축",
+  "gyeokguk": "상관격",
+  "childhood": {
+    "summaryKo": "1977년 중국에서 태어났습니다. 정통 학력은 공학 트랙으로, 2000년대 본토 모바일 게임 카테고리 진입으로 출발한 신세대 자수성가형 인물입니다. Kunlun Tech(쿤룬테크) 창업주 정체성의 인물입니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 본토 신세대 모바일 게임·인공지능 자수성가형 인물 (Kunlun Tech 회장)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Kunlun_Tech"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2008년 'Kunlun Tech'(쿤룬테크) 정립으로 본업을 만들었고, 본토 모바일 게임 카테고리에서 1위급으로 도약했습니다. 2015년 선전 증권거래소 상장, 2017년 그라인더(Grindr) 인수, 2022~2024년 인공지능 카테고리 전환으로 본업 자본을 환원시켰습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.kunlun.com"]
+  },
+  "careerTimeline": [
+    {"year": 2008, "event": "Founds Kunlun Tech in Beijing", "eventKo": "베이징에서 'Kunlun Tech' 정립, 본토 모바일 게임 카테고리 진입", "whyItMatteredKo": "계축 일주의 가을 작은 물 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
+    {"year": 2015, "event": "Kunlun Tech IPOs on Shenzhen Stock Exchange", "eventKo": "Kunlun Tech 선전 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
+    {"year": 2017, "event": "Acquires Grindr LGBT social app", "eventKo": "Grindr LGBT 소셜 앱 인수, 글로벌 카테고리 진입", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2020, "event": "Divests Grindr amid US regulatory pressure", "eventKo": "미국 규제 압력으로 Grindr 매각", "whyItMatteredKo": "외부 압력이 본업 카테고리 재편으로 환원된 시기입니다."},
+    {"year": 2023, "event": "Pivots to AI applications and large models", "eventKo": "본토 인공지능 응용·대형 모델로 카테고리 전환", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.8B in Media & Entertainment", "eventKo": "포브스 2026 — 미디어·엔터테인먼트 18억 달러로 등재", "whyItMatteredKo": "Kunlun Tech 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2008, "eventKo": "Kunlun Tech 정립", "impactKo": "계축 일주의 가을 작은 물 일간이 자기 표현의 결과물을 본인 사업으로 환원한 결정적 결단입니다."},
+    {"year": 2015, "eventKo": "Kunlun Tech 선전 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
+    {"year": 2023, "eventKo": "본토 인공지능 카테고리 전환", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Kunlun Tech(SZSE: 300418) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2008년 Kunlun Tech 정립, 2015년 선전 상장, 2023년 인공지능 카테고리 전환이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "본토 모바일 게임 카테고리 1위급 자리, 본토 인공지능 카테고리 통로, 그리고 신세대 자본망이 강점입니다.",
+    "currentAssetAllocationKo": "Kunlun Tech 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2018, "descriptionKo": "Grindr 미국 외국인투자위원회(CFIUS) 압력으로 본업 카테고리 자리가 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 Grindr 매각으로 통과했습니다.", "lessonKo": "글로벌 카테고리는 정치 사이클에 직접 노출됩니다."},
+    {"year": 2021, "descriptionKo": "본토 게임 카테고리 규제 강화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 사업 모델 재편으로 통과했습니다.", "lessonKo": "정책 한 번에 게임 카테고리 매출이 흔들립니다."},
+    {"year": 2024, "descriptionKo": "글로벌 인공지능 카테고리 경쟁 격화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "산업 전환 사이클은 카테고리 정체성에 분기 단위로 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$1B", "sourceKo": "상장 직후"},
+    {"year": 2020, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.8B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Kunlun Tech 회장", "본토 신세대 모바일 게임", "Grindr 인수·매각 경험", "본토 인공지능 전환", "1세대 자수성가"],
+  "characterKo": {
+    "strengths": "2008년 Kunlun Tech 정립으로 본토 모바일 게임 카테고리 1위급 회사를 만든 카테고리 도약 본능과, 2023년 인공지능 카테고리 전환으로 본업을 재정의한 결단력이 강점입니다.",
+    "weaknesses": "본토 정책 사이클과 글로벌 카테고리 정치 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "본토 신세대 모바일 게임 자수성가 야망과 본인 세대에서 게임에서 인공지능까지 카테고리를 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "중국 본토 신세대 모바일 게임·인공지능 자수성가의 표본입니다. 게임에서 Grindr·인공지능까지 카테고리를 두 번 환원한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Chuk day pillar (autumn small water on ox earth) and In month branch combine into a softly flowing, self-expressing profile. The format that channels wealth through one's bold creative output matches an 18-year arc from the 2008 Kunlun founding to the 2015 IPO and the 2023 AI pivot.",
+    "summaryKo": "일주는 계축이라 가을 작은 물이 겨울 끝 흙(소의 자리) 위에 놓인 형국으로, 부드러운 물이 단단한 흙으로 결과물로 빚어지는 자리입니다. 월지 인은 봄 나무의 자리라 일간을 외부의 큰 자원으로 받쳐주는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 2008년 Kunlun 정립, 2015년 선전 상장, 2023년 인공지능 전환까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kunlun_Tech",
+    "https://www.kunlun.com",
+    "https://www.forbes.com/profile/zhou-yahui/"
+  ]
+}

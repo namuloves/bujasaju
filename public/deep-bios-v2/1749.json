@@ -1,0 +1,73 @@
+{
+  "id": 1749,
+  "name": "Acharya Balkrishna",
+  "nameKo": "아차리아 발크리슈나",
+  "birthday": "1972-07-25",
+  "birthPlace": "Haridwar, Uttarakhand, India",
+  "birthPlaceKo": "인도 우타라칸드 하리드와르",
+  "netWorth": "$2.3B",
+  "nationality": "IN",
+  "industry": "Food & Beverage",
+  "gender": "M",
+  "ilju": "정사",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1972년 인도 우타라칸드 하리드와르의 네팔계 가난한 가정에서 태어났습니다. 정통 학력은 아유르베다 트랙으로, 어린 시절부터 요가 스승 람데브와 함께 자란 정통 인도 1세대 아유르베다 자수성가 트랙입니다.",
+    "capitalTypeKo": "1세대 자수성가 — 인도 1세대 아유르베다 식음료 가문 창업주 (Patanjali Ayurved 정립)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Acharya_Balkrishna"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1995년 람데브와 함께 'Divya Yog Mandir Trust' 정립으로 본업을 시작했고, 2006년 'Patanjali Ayurved' 정립으로 본업 카테고리를 환원했습니다. 본업은 인도 아유르베다 식음료·소비재 회사이고, 2015~2024년 인도 아유르베다·내수 소비 호황기에 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.patanjaliayurved.org"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Founds Divya Yog Mandir Trust with Ramdev", "eventKo": "람데브와 함께 'Divya Yog Mandir Trust' 정립", "whyItMatteredKo": "정사 일주의 한여름 작은 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2006, "event": "Founds Patanjali Ayurved consumer goods", "eventKo": "Patanjali Ayurved 정립, 본업 카테고리 환원", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
+    {"year": 2016, "event": "Patanjali revenue exceeds Rs 100 billion", "eventKo": "Patanjali 매출 1000억 루피 돌파", "whyItMatteredKo": "본업 매출이 인도 1위급 소비재 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 2019, "event": "Acquires Ruchi Soya for edible oil category", "eventKo": "Ruchi Soya 인수로 식용유 카테고리 진출", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2022, "event": "Patanjali Foods IPO Indian market", "eventKo": "Patanjali Foods 인도 증시 재상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $2.3B in F&B", "eventKo": "포브스 2026 — 식음료 산업 23억 달러로 등재", "whyItMatteredKo": "Patanjali·Ruchi Soya 본인·단체 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1995, "eventKo": "Divya Yog Mandir Trust 정립", "impactKo": "정사 일주의 한여름 작은 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2006, "eventKo": "Patanjali Ayurved 정립", "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다."},
+    {"year": 2022, "eventKo": "Patanjali Foods 인도 증시 재상장", "impactKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Patanjali Foods(NSE: PATANJALI), Patanjali Ayurved 비상장 본인 및 단체 보유 지분 가치와 배당이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2006년 Patanjali 정립, 2016년 매출 1000억 루피 돌파, 2022년 Patanjali Foods 상장이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "인도 아유르베다 카테고리 1위급 자리, 정통 람데브 요가 스승 자본망, 그리고 아유르베다·식음료·소비재 결합 거버넌스 구조가 강점입니다.",
+    "currentAssetAllocationKo": "Patanjali·Ruchi Soya 본인·단체 지분이 자산의 절대 비중. 단체 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 2017, "descriptionKo": "Patanjali 매출 둔화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "카테고리 재편으로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 경쟁기에 마진이 가장 먼저 흔들립니다."},
+    {"year": 2019, "descriptionKo": "Ruchi Soya 인수 부채 부담으로 본업이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 인수 부채 사이클에 직접 영향을 줍니다."},
+    {"year": 2023, "descriptionKo": "Patanjali 광고 규제로 본업 매출이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 정책 협의로 통과했습니다.", "lessonKo": "정책 한 번에 식음료 매출이 흔들립니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2015, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$5B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$2.1B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Patanjali Ayurved 창업주", "인도 1세대 아유르베다 자수성가", "람데브 동지", "Patanjali Foods 회장", "정통 아유르베다 정체성"],
+  "characterKo": {
+    "strengths": "1995년 본업 시작 후 30년 동안 인도 1세대 아유르베다 자수성가의 한 축으로 자리잡은 끈기와, 2006년 Patanjali 정립, 2022년 Patanjali Foods 상장으로 본업을 인도 아유르베다 카테고리 1위급으로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "인도 단일 시장 의존도와 정책·광고 규제 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "인도 1세대 아유르베다 자수성가 정체성과 본인 세대에서 본업을 인도 아유르베다 카테고리 1위로 환원하겠다는 산업 의식이 동력입니다.",
+    "legacy": "인도 1세대 아유르베다 자수성가 식음료 창업주의 표본입니다. 네팔계 가난한 가정에서 인도 아유르베다 카테고리 1위 회사 회장까지 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Sa day pillar (midsummer small fire on snake fire) and Mi month branch combine into a brightly expressing, self-rooted profile. The format that channels wealth through one's bold creative output matches a 31-year arc from the 1995 trust founding to the 2006 Patanjali founding and the 2022 IPO.",
+    "summaryKo": "일주는 정사라 한여름 작은 불이 또 같은 초여름 불(뱀의 자리) 위에 놓인 형국으로, 작은 불의 표현력이 자기 자리로 단단히 다져진 자리입니다. 월지 미는 늦여름 흙의 자리라 일간을 외부 결과물로 압축하는 통로입니다. 격국은 본인의 강한 표현력이 결과물로 외부에 환원되는 흐름이라, 1995년 단체 정립, 2006년 Patanjali 정립, 2022년 Patanjali Foods 상장까지 모두 '본인의 표현력이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Acharya_Balkrishna",
+    "https://www.patanjaliayurved.org",
+    "https://www.forbes.com/profile/acharya-balkrishna/"
+  ]
+}

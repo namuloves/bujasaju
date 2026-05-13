@@ -1,0 +1,73 @@
+{
+  "id": 2201,
+  "name": "Kwee Liong Keng",
+  "nameKo": "콰이 리옹 켕",
+  "birthday": "1945-02-13",
+  "birthPlace": "Singapore",
+  "birthPlaceKo": "싱가포르",
+  "netWorth": "$1.8B",
+  "nationality": "SG",
+  "industry": "Real Estate",
+  "gender": "M",
+  "ilju": "계축",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1945년 싱가포르의 콰이 가문에서 태어났습니다. 정통 학력은 경영 트랙으로, 싱가포르 100년 부동산 가문 후계자 정체성을 형성한 정통 1세대 부동산 인재 트랙입니다. 콰이 형제는 'Pontiac Land Group' 가문 자본의 한 축입니다.",
+    "capitalTypeKo": "재벌 후계자 — 싱가포르 100년 부동산 가문 콰이 형제 (Pontiac Land Group)입니다.",
+    "sources": ["https://en.wikipedia.org/wiki/Pontiac_Land_Group"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1970년대 가족 'Pontiac Land Group' 합류로 본업을 잇기 시작했고, 본업은 싱가포르 프리미엄 호텔·부동산 카테고리에서 가족 자본의 한 축으로 자리잡았습니다. 1980~2010년대 싱가포르 부동산 호황과 글로벌 호텔 카테고리 확장으로 본업 자본이 정점에 도달했습니다.",
+    "selfMadeScore": 4,
+    "sources": ["https://www.pontiac-land.com"]
+  },
+  "careerTimeline": [
+    {"year": 1970, "event": "Joins family Pontiac Land Group", "eventKo": "가족 Pontiac Land Group 합류 (추정)", "whyItMatteredKo": "계축 일주의 가을 작은 물 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 1985, "event": "Singapore property boom drives portfolio", "eventKo": "싱가포르 부동산 호황기, 본업 매출 토대 형성", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
+    {"year": 2002, "event": "Acquires Capella Singapore hotel project", "eventKo": "Capella 싱가포르 호텔 프로젝트 정립, 프리미엄 호텔 카테고리 확장", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
+    {"year": 2009, "event": "Capella Singapore opens", "eventKo": "Capella 싱가포르 호텔 오픈, 글로벌 프리미엄 호텔 카테고리 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
+    {"year": 2022, "event": "Post-pandemic luxury property recovery boosts portfolio", "eventKo": "포스트 코로나 럭셔리 부동산 회복기 본업 자본 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
+    {"year": 2026, "event": "Forbes 2026: $1.8B in Real Estate", "eventKo": "포브스 2026 — 부동산 18억 달러로 등재", "whyItMatteredKo": "Pontiac Land Group 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1970, "eventKo": "Pontiac Land Group 합류", "impactKo": "계축 일주의 가을 작은 물 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
+    {"year": 2002, "eventKo": "Capella 싱가포르 정립", "impactKo": "본업 카테고리 다각화가 진행된 분기점입니다."},
+    {"year": 2022, "eventKo": "포스트 코로나 럭셔리 부동산 회복", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "Pontiac Land Group 비상장 본인 및 가족 보유 지분 가치, 그리고 싱가포르·글로벌 호텔·부동산 자산이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1970년 가족 합류, 2002년 Capella 정립, 2022년 포스트 코로나 회복이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "싱가포르 100년 콰이 가문 자본망, Capella·기타 럭셔리 호텔 카테고리 통로, 그리고 비상장 운영 자본 효율 모델이 강점입니다.",
+    "currentAssetAllocationKo": "Pontiac Land Group 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
+  },
+  "failures": [
+    {"year": 1997, "descriptionKo": "아시아 외환위기로 싱가포르 부동산 시장이 단기 위축됐습니다.", "howTheyOvercameKo": "장기 보유 전략으로 V자 회복했습니다.", "lessonKo": "거시 충격은 부동산 매출에 분기 단위로 영향을 줍니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 싱가포르 럭셔리 부동산 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "Capella 호텔 오픈 등 단계적 시장 회복으로 V자 회복했습니다.", "lessonKo": "글로벌 부동산은 거시 사이클에 직접 노출됩니다."},
+    {"year": 2020, "descriptionKo": "코로나로 글로벌 럭셔리 호텔 매출이 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 시장 회복과 디지털 채널 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 호텔 매출에 분기 단위로 직접 영향을 줍니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1B", "sourceKo": "포브스 추정"},
+    {"year": 2018, "netWorth": "$1.4B", "sourceKo": "포브스 추정"},
+    {"year": 2023, "netWorth": "$1.6B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.8B", "sourceKo": "포브스 2026 빌리어네어즈"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["Pontiac Land Group 가족", "싱가포르 100년 부동산 가문", "Capella 호텔 정체성", "콰이 형제", "정통 후계자"],
+  "characterKo": {
+    "strengths": "1970년 가족 사업 합류 후 55년 동안 싱가포르 100년 부동산 가문의 한 축으로 자리잡은 끈기와, 2002년 Capella 정립으로 본업을 글로벌 럭셔리 호텔 카테고리로 환원시킨 결단력이 강점입니다.",
+    "weaknesses": "싱가포르 단일 시장 의존도와 글로벌 럭셔리 호텔 사이클에 본업 매출이 직접 노출됩니다.",
+    "motivation": "100년 콰이 가문 부동산 자본을 본인 세대에서 보전·확장하고 다음 세대로 이양하겠다는 가문 의식이 동력입니다.",
+    "legacy": "싱가포르 100년 부동산 가문 후계자의 표본입니다. 가족 부동산 사업에서 Capella·글로벌 럭셔리 호텔 카테고리로 도약한 보기 드문 모델입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Chuk day pillar (autumn small water on ox earth) and In month branch combine into a softly flowing, externally-pressured profile. The format that channels wealth through external authority matches a 55-year arc from the 1970 family entry to the 2002 Capella project and the 2022 post-pandemic peak.",
+    "summaryKo": "일주는 계축이라 가을 작은 물이 겨울 끝 흙(소의 자리) 위에 놓인 형국으로, 부드러운 물이 단단한 흙으로 결과물로 빚어지는 자리입니다. 월지 인은 봄 나무의 자리라 일간을 외부의 큰 자원으로 받쳐주는 통로입니다. 격국은 외부의 권위·시스템과 결합하는 흐름이라, 1970년 가족 합류, 2002년 Capella 정립, 2022년 포스트 코로나 회복까지 모두 '외부 권위·시스템과의 결합이 본인 자본의 단계적 도약으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pontiac_Land_Group",
+    "https://www.pontiac-land.com",
+    "https://www.forbes.com/profile/kwee-liong-keng/"
+  ]
+}
