@@ -18,19 +18,6 @@ interface PersonCardProps {
   defaultShowChart?: boolean;
 }
 
-const FLAG_MAP: Record<string, string> = {
-  US: '🇺🇸', KR: '🇰🇷', CN: '🇨🇳', JP: '🇯🇵', IN: '🇮🇳', FR: '🇫🇷',
-  DE: '🇩🇪', GB: '🇬🇧', IT: '🇮🇹', ES: '🇪🇸', CA: '🇨🇦', AU: '🇦🇺',
-  BR: '🇧🇷', MX: '🇲🇽', RU: '🇷🇺', HK: '🇭🇰', TW: '🇹🇼', SG: '🇸🇬',
-  IL: '🇮🇱', SE: '🇸🇪', NL: '🇳🇱', CH: '🇨🇭', TH: '🇹🇭', PH: '🇵🇭',
-  ID: '🇮🇩', MY: '🇲🇾', ZA: '🇿🇦', NG: '🇳🇬', EG: '🇪🇬', SA: '🇸🇦',
-  AE: '🇦🇪', AT: '🇦🇹', DK: '🇩🇰', CL: '🇨🇱', CO: '🇨🇴', NZ: '🇳🇿',
-  IE: '🇮🇪', UA: '🇺🇦', CZ: '🇨🇿', GE: '🇬🇪', LB: '🇱🇧', PK: '🇵🇰',
-  PT: '🇵🇹', AR: '🇦🇷', BB: '🇧🇧', BG: '🇧🇬', GR: '🇬🇷', KE: '🇰🇪',
-  ZW: '🇿🇼', DZ: '🇩🇿', KW: '🇰🇼', FI: '🇫🇮', LV: '🇱🇻', IR: '🇮🇷',
-  HU: '🇭🇺', MC: '🇲🇨', UZ: '🇺🇿', ET: '🇪🇹',
-};
-
 const COUNTRY_NAME: Record<string, string> = {
   US: 'United States', KR: 'South Korea', CN: 'China', JP: 'Japan', IN: 'India', FR: 'France',
   DE: 'Germany', GB: 'United Kingdom', IT: 'Italy', ES: 'Spain', CA: 'Canada', AU: 'Australia',
@@ -43,11 +30,6 @@ const COUNTRY_NAME: Record<string, string> = {
   ZW: 'Zimbabwe', DZ: 'Algeria', KW: 'Kuwait', FI: 'Finland', LV: 'Latvia', IR: 'Iran',
   HU: 'Hungary', MC: 'Monaco', UZ: 'Uzbekistan', ET: 'Ethiopia',
 };
-
-function getFlag(nationality: string): string {
-  const primary = nationality.split('/')[0];
-  return FLAG_MAP[primary] || '🌍';
-}
 
 function getBirthplace(nationality: string): string {
   const parts = nationality.split('/');
@@ -197,9 +179,6 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
             target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=200&background=random&bold=true`;
           }}
         />
-        <div className="absolute top-2 left-2 text-lg">
-          {getFlag(person.nationality)}
-        </div>
       </div>
 
       {/* Info */}

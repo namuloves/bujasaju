@@ -8,23 +8,6 @@ import { nationalityToKorean } from '@/components/FilterPanel';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
 
-const FLAG_MAP: Record<string, string> = {
-  US: '🇺🇸', KR: '🇰🇷', CN: '🇨🇳', JP: '🇯🇵', IN: '🇮🇳', FR: '🇫🇷',
-  DE: '🇩🇪', GB: '🇬🇧', IT: '🇮🇹', ES: '🇪🇸', CA: '🇨🇦', AU: '🇦🇺',
-  BR: '🇧🇷', MX: '🇲🇽', RU: '🇷🇺', HK: '🇭🇰', TW: '🇹🇼', SG: '🇸🇬',
-  IL: '🇮🇱', SE: '🇸🇪', NL: '🇳🇱', CH: '🇨🇭', TH: '🇹🇭', PH: '🇵🇭',
-  ID: '🇮🇩', MY: '🇲🇾', ZA: '🇿🇦', NG: '🇳🇬', EG: '🇪🇬', SA: '🇸🇦',
-  AE: '🇦🇪', AT: '🇦🇹', DK: '🇩🇰', CL: '🇨🇱', CO: '🇨🇴', NZ: '🇳🇿',
-  IE: '🇮🇪', UA: '🇺🇦', CZ: '🇨🇿', GE: '🇬🇪', LB: '🇱🇧', PK: '🇵🇰',
-  PT: '🇵🇹', AR: '🇦🇷', BB: '🇧🇧', BG: '🇧🇬', GR: '🇬🇷', KE: '🇰🇪',
-  ZW: '🇿🇼', DZ: '🇩🇿', KW: '🇰🇼', FI: '🇫🇮', LV: '🇱🇻', IR: '🇮🇷',
-  HU: '🇭🇺', MC: '🇲🇨', UZ: '🇺🇿', ET: '🇪🇹',
-};
-
-function getFlag(nationality: string): string {
-  return FLAG_MAP[nationality.split('/')[0]] || '🌍';
-}
-
 const USD_TO_KRW = 1480.71;
 
 function formatNetWorthKrw(netWorthBillionsUsd: number): string {
@@ -81,9 +64,6 @@ export default function FeaturedPersonCard({ person }: Props) {
             target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=400&background=random&bold=true`;
           }}
         />
-        <div className="absolute top-2 left-2 text-lg">
-          {getFlag(person.nationality)}
-        </div>
       </div>
 
       {/* Info */}

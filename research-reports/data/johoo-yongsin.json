@@ -1,0 +1,156 @@
+{
+  "_source": "한문성명학 카페 (https://m.cafe.daum.net/scholarlyname/8Duz/19) — 궁통보감 조후용신 일람",
+  "_fetched": "2026-05-04",
+  "_format": "{ 일간: { 월: { primary: 주용신, secondary: [보좌용신들] } } }",
+  "_note": "괄호 안 첫 글자가 주용신, 나머지가 보좌용신. 일부 칸은 보좌가 없거나 4개 이상.",
+
+  "갑": {
+    "인": { "primary": "병", "secondary": ["계"] },
+    "묘": { "primary": "경", "secondary": ["병", "정"] },
+    "진": { "primary": "경", "secondary": ["정", "임"] },
+    "사": { "primary": "계", "secondary": ["정", "경"] },
+    "오": { "primary": "계", "secondary": ["정", "경"] },
+    "미": { "primary": "계", "secondary": ["정", "경"] },
+    "신": { "primary": "경", "secondary": ["정", "임"] },
+    "유": { "primary": "경", "secondary": ["정", "병"] },
+    "술": { "primary": "경", "secondary": ["계", "정"] },
+    "해": { "primary": "경", "secondary": ["정", "병"] },
+    "자": { "primary": "정", "secondary": ["경", "병"] },
+    "축": { "primary": "정", "secondary": ["경", "병"] }
+  },
+
+  "을": {
+    "인": { "primary": "병", "secondary": ["계"] },
+    "묘": { "primary": "병", "secondary": ["계"] },
+    "진": { "primary": "계", "secondary": ["병", "무"] },
+    "사": { "primary": "계", "secondary": ["경", "신"] },
+    "오": { "primary": "계", "secondary": ["병"] },
+    "미": { "primary": "계", "secondary": ["병"] },
+    "신": { "primary": "병", "secondary": ["계", "기"] },
+    "유": { "primary": "계", "secondary": ["병", "정"] },
+    "술": { "primary": "계", "secondary": ["신"] },
+    "해": { "primary": "병", "secondary": ["무"] },
+    "자": { "primary": "병", "secondary": [] },
+    "축": { "primary": "병", "secondary": [] }
+  },
+
+  "병": {
+    "인": { "primary": "임", "secondary": ["경"] },
+    "묘": { "primary": "임", "secondary": ["기"] },
+    "진": { "primary": "임", "secondary": ["갑"] },
+    "사": { "primary": "임", "secondary": ["경", "계"] },
+    "오": { "primary": "임", "secondary": ["경"] },
+    "미": { "primary": "임", "secondary": ["경"] },
+    "신": { "primary": "임", "secondary": ["무"] },
+    "유": { "primary": "임", "secondary": ["계"] },
+    "술": { "primary": "갑", "secondary": ["임", "계"] },
+    "해": { "primary": "갑", "secondary": ["무", "경", "임"] },
+    "자": { "primary": "임", "secondary": ["무", "기"] },
+    "축": { "primary": "임", "secondary": ["갑"] }
+  },
+
+  "정": {
+    "인": { "primary": "갑", "secondary": ["경"] },
+    "묘": { "primary": "경", "secondary": ["갑"] },
+    "진": { "primary": "갑", "secondary": ["경"] },
+    "사": { "primary": "갑", "secondary": ["경"] },
+    "오": { "primary": "임", "secondary": ["경", "계"] },
+    "미": { "primary": "갑", "secondary": ["임", "경"] },
+    "신": { "primary": "갑", "secondary": ["경", "병", "무"] },
+    "유": { "primary": "갑", "secondary": ["경", "병", "무"] },
+    "술": { "primary": "갑", "secondary": ["경", "무"] },
+    "해": { "primary": "갑", "secondary": ["경"] },
+    "자": { "primary": "갑", "secondary": ["경"] },
+    "축": { "primary": "갑", "secondary": ["경"] }
+  },
+
+  "무": {
+    "인": { "primary": "병", "secondary": ["갑", "계"] },
+    "묘": { "primary": "병", "secondary": ["갑", "계"] },
+    "진": { "primary": "갑", "secondary": ["병", "계"] },
+    "사": { "primary": "갑", "secondary": ["병", "계"] },
+    "오": { "primary": "임", "secondary": ["갑", "병"] },
+    "미": { "primary": "계", "secondary": ["갑", "병"] },
+    "신": { "primary": "병", "secondary": ["갑", "계"] },
+    "유": { "primary": "병", "secondary": ["계"] },
+    "술": { "primary": "갑", "secondary": ["병", "계"] },
+    "해": { "primary": "갑", "secondary": ["병"] },
+    "자": { "primary": "병", "secondary": ["갑"] },
+    "축": { "primary": "병", "secondary": ["갑"] }
+  },
+
+  "기": {
+    "인": { "primary": "병", "secondary": ["계", "갑"] },
+    "묘": { "primary": "갑", "secondary": ["병", "계"] },
+    "진": { "primary": "병", "secondary": ["갑", "계"] },
+    "사": { "primary": "계", "secondary": ["병"] },
+    "오": { "primary": "계", "secondary": ["병"] },
+    "미": { "primary": "계", "secondary": ["병"] },
+    "신": { "primary": "병", "secondary": ["계"] },
+    "유": { "primary": "병", "secondary": ["계"] },
+    "술": { "primary": "갑", "secondary": ["병", "계"] },
+    "해": { "primary": "병", "secondary": ["갑", "무"] },
+    "자": { "primary": "병", "secondary": ["갑", "무"] },
+    "축": { "primary": "병", "secondary": ["갑", "무"] }
+  },
+
+  "경": {
+    "인": { "primary": "무", "secondary": ["갑", "임", "병", "정"] },
+    "묘": { "primary": "정", "secondary": ["갑", "병", "경"] },
+    "진": { "primary": "갑", "secondary": ["정", "임", "계"] },
+    "사": { "primary": "임", "secondary": ["무", "병", "정"] },
+    "오": { "primary": "임", "secondary": ["계"] },
+    "미": { "primary": "정", "secondary": ["갑"] },
+    "신": { "primary": "정", "secondary": ["갑"] },
+    "유": { "primary": "정", "secondary": ["갑", "병"] },
+    "술": { "primary": "갑", "secondary": ["임"] },
+    "해": { "primary": "정", "secondary": ["병"] },
+    "자": { "primary": "정", "secondary": ["갑", "병"] },
+    "축": { "primary": "병", "secondary": ["정", "갑"] }
+  },
+
+  "신": {
+    "인": { "primary": "기", "secondary": ["임", "경"] },
+    "묘": { "primary": "임", "secondary": ["갑"] },
+    "진": { "primary": "임", "secondary": ["갑"] },
+    "사": { "primary": "임", "secondary": ["갑", "계"] },
+    "오": { "primary": "임", "secondary": ["기", "계"] },
+    "미": { "primary": "임", "secondary": ["경", "갑"] },
+    "신": { "primary": "임", "secondary": ["갑", "무"] },
+    "유": { "primary": "임", "secondary": ["갑"] },
+    "술": { "primary": "임", "secondary": ["병"] },
+    "해": { "primary": "임", "secondary": ["병"] },
+    "자": { "primary": "병", "secondary": ["무", "임", "갑"] },
+    "축": { "primary": "병", "secondary": ["임", "무", "기"] }
+  },
+
+  "임": {
+    "인": { "primary": "경", "secondary": ["병", "무"] },
+    "묘": { "primary": "무", "secondary": ["신", "경"] },
+    "진": { "primary": "갑", "secondary": ["경"] },
+    "사": { "primary": "임", "secondary": ["경", "신", "계"] },
+    "오": { "primary": "계", "secondary": ["경", "신"] },
+    "미": { "primary": "신", "secondary": ["갑", "계"] },
+    "신": { "primary": "무", "secondary": ["정"] },
+    "유": { "primary": "갑", "secondary": ["경"] },
+    "술": { "primary": "갑", "secondary": ["병"] },
+    "해": { "primary": "무", "secondary": ["병", "경"] },
+    "자": { "primary": "무", "secondary": ["병"] },
+    "축": { "primary": "병", "secondary": ["정", "갑"] }
+  },
+
+  "계": {
+    "인": { "primary": "신", "secondary": ["병"] },
+    "묘": { "primary": "경", "secondary": ["신"] },
+    "진": { "primary": "병", "secondary": ["신", "갑"] },
+    "사": { "primary": "신", "secondary": ["경"] },
+    "오": { "primary": "경", "secondary": ["신", "임", "계"] },
+    "미": { "primary": "경", "secondary": ["신", "임", "계"] },
+    "신": { "primary": "정", "secondary": ["갑"] },
+    "유": { "primary": "신", "secondary": ["병"] },
+    "술": { "primary": "신", "secondary": ["갑", "임", "계"] },
+    "해": { "primary": "경", "secondary": ["신", "무", "정"] },
+    "자": { "primary": "병", "secondary": ["신"] },
+    "축": { "primary": "병", "secondary": ["정"] }
+  }
+}
