@@ -1,0 +1,261 @@
+{
+  "id": "322",
+  "name": "Michael ByungJu Kim",
+  "nameKo": "김병주",
+  "netWorth": 9.9,
+  "nationality": "US",
+  "industry": "Finance & Investments",
+
+  "childhood": {
+    "birthPlace": "Jinhae, South Gyeongsang Province, South Korea",
+    "birthPlaceKo": "경상남도 진해, 대한민국",
+    "familyBackground": "Born to a Korean Army officer family. His mother's extended family was largely killed in a US Air Force misdirected airstrike during the Korean War — only his mother and her brother survived. Father Kim Ki Yong was a career military officer who eventually decided to emigrate the family to the United States during the Park Chung-hee era. Has one younger sister. Married Park Kyung-ah, daughter of Park Tae-joon, founder of POSCO and former Prime Minister of South Korea — a marriage that placed Kim inside one of the most powerful industrial dynasties in modern Korea.",
+    "familyBackgroundKo": "아버지 김기영은 육군 장교. 어머니는 한국전쟁 중 미 공군 오폭으로 외가 친족 대부분을 잃고 외삼촌과 둘만 살아남은 가족사를 가짐. 부친이 박정희 시기 한국 사회 분위기를 이유로 가족 미국 이주 결정. 여동생 한 명. 부인 박경아는 포스코 창업자이자 전 국무총리 박태준의 딸로, 결혼을 통해 한국 산업화 1세대 가문과 직접 연결됨.",
+    "education": "Newark Academy (NJ) for high school; BA in English Literature (Phi Beta Kappa, with Honors) from Haverford College, 1985; MBA from Harvard Business School, 1990. Fulbright Scholar.",
+    "educationKo": "뉴저지 뉴어크 아카데미 졸업 후 해버포드 칼리지 영문학 학사(1985, 우등·파이베타카파). 풀브라이트 장학생. 하버드 경영대학원 MBA(1990).",
+    "earlyLife": "Sent to the US alone at age 11 in 1974, initially living with an uncle in West Orange, New Jersey; parents and sister followed about a year later. Spoke no English on arrival and was placed back a grade. Wrote his way out of isolation — became an avid reader of American literature and later wrote his own autobiographical novel about that journey ('Offerings', 2020). Family was middle-class on a Korean officer's salary, not wealthy — his first capital was entirely earned.",
+    "earlyLifeKo": "1974년 11세 때 단신으로 미국행, 뉴저지 웨스트오렌지의 삼촌 집에 1년쯤 거주 후 부모·여동생 합류. 도착 당시 영어 한 마디 못 해 학년을 하향 배정. 책으로 외로움을 견디면서 미국 문학에 빠졌고, 훗날 이 시절을 토대로 자전 소설 'Offerings'(2020)을 직접 집필. 한국 군인 월급으로 살던 중산층 가정이라 초기 자본은 전무, 본인이 0에서 쌓아 올림.",
+    "source": "https://en.wikipedia.org/wiki/Michael_Kim_(businessman) ; https://www.newspim.com/news/view/20250408000922 ; https://namu.wiki/w/김병주(기업인)"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 한국 장교 가정 출신 이민자로 첫 자본은 골드만삭스·살로몬 연봉과 칼라일 파트너 보너스에서 나온 인적 자본 축적분이다. 다만 결혼(박태준 일가)을 통해 확보한 한국 산업·정관계 네트워크가 2005년 MBK 창업 시 한국 대기업·금융권 LP 모집에 결정적 무형 자본으로 작용했다고 평가됨.",
+    "source": "https://en.wikipedia.org/wiki/Michael_Kim_(businessman) ; https://www.businesspost.co.kr/BP?command=article_view&num=413879"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1985,
+      "age": 21,
+      "event": "Graduated Haverford College with BA in English Literature (Phi Beta Kappa). Joined Goldman Sachs M&A in New York as an analyst.",
+      "eventKo": "해버포드 칼리지 영문학 학사 졸업(파이베타카파). 골드만삭스 뉴욕 M&A 부문 애널리스트 입사.",
+      "whyItMatteredKo": "문과 전공 한국계 이민자가 1980년대 중반 뉴욕 골드만삭스 M&A에 들어간 것은 당시 매우 이례적. 여기서 인수합병 자본 구조 설계의 1차 훈련을 받음.",
+      "whatTheyRiskedKo": "교수가 되라는 영문학 멘토들의 권유, 안정적인 학문 경로",
+      "source": "https://en.wikipedia.org/wiki/Michael_Kim_(businessman) ; https://www.koreawho.com/profile/MichaelByungjuKim"
+    },
+    {
+      "year": 1990,
+      "age": 26,
+      "event": "Completed MBA at Harvard Business School. Returned to investment banking, eventually leading M&A and Asian investment banking at Salomon Smith Barney.",
+      "eventKo": "하버드 비즈니스스쿨 MBA 졸업. 다시 투자은행으로 복귀해 살로몬 스미스 바니에서 M&A 및 아시아 IB 부문을 이끌게 됨.",
+      "whyItMatteredKo": "MBA 직후 산업 사이드(컨설팅·사업)가 아닌 IB로 돌아간 결정이 1997년 아시아 외환위기 직전 아시아 자본 시장 네트워크를 가장 두텁게 가진 30대 한국계 IB 시니어로 위치시키는 결과를 만듦.",
+      "source": "https://en.wikipedia.org/wiki/Michael_Kim_(businessman) ; https://michaelbkim.org/"
+    },
+    {
+      "year": 1999,
+      "age": 35,
+      "event": "Joined The Carlyle Group; rose to head of Carlyle Asia Partners, leading its private equity activities across Korea, Japan, China and Southeast Asia.",
+      "eventKo": "사모펀드 칼라일 그룹 합류, 칼라일 아시아 파트너스 대표로 승진해 한국·일본·중국·동남아 PE 투자를 총괄.",
+      "whyItMatteredKo": "1997 외환위기 이후 한국·일본·동남아의 기업 구조조정 자산이 헐값에 풀린 시기에 아시아 PE 전선의 최전방에 있었던 경험이 곧 MBK 창업의 베이스 데이터셋이 됨. 한미은행 매각 같은 굵직한 한국 딜을 칼라일 깃발 아래 수행.",
+      "source": "https://www.businesspost.co.kr/BP?command=article_view&num=413879 ; https://namu.wiki/w/MBK파트너스"
+    },
+    {
+      "year": 2005,
+      "age": 41,
+      "event": "Left Carlyle with four partners and founded MBK Partners in Seoul, raising a $1.56B Fund I — at the time the largest debut Asia-focused buyout fund.",
+      "eventKo": "칼라일 동료 4인과 함께 독립, 서울에 MBK 파트너스 창업. 1호 펀드 15.6억 달러 조성으로 당시 아시아 토종 신생 바이아웃 펀드 사상 최대 규모.",
+      "whyItMatteredKo": "글로벌 GP의 아시아 지점장이 아니라 '아시아 자본·아시아 인력·아시아 인사이트'로 운영되는 독립 GP라는 포지셔닝을 시장에 처음 제시. 한국·일본·중국 토종 LP(국민연금·기업·재단)를 본격적으로 PE 자금원으로 끌어들이는 전환점.",
+      "whatTheyRiskedKo": "칼라일에서 보장된 슈퍼시니어 직급·보너스, 글로벌 브랜드 후광",
+      "whoHelpedKo": "공동창업자 윤종하, 김광일, Jin-Young Park, Kuo-Chuan Kung 등 칼라일 아시아 동료들; 박태준 가문 네트워크를 통한 초기 한국 LP",
+      "source": "https://en.wikipedia.org/wiki/Michael_Kim_(businessman) ; https://ko.wikipedia.org/wiki/MBK_파트너스"
+    },
+    {
+      "year": 2008,
+      "age": 44,
+      "event": "Closed MBK Fund II at $1.56B in early 2008 — just before the global financial crisis. Sat on dry powder while asset prices collapsed across Asia.",
+      "eventKo": "2008년 초 MBK 2호 펀드 15.6억 달러 클로징 — 글로벌 금융위기 직전. 자산 가격 급락기 동안 자본을 묶어두지 않고 보유.",
+      "whyItMatteredKo": "위기를 자기에게 유리하게 쓴 첫 사이클. 2009-2010년 일본 야요이(회계 소프트웨어), 한국 코웨이·HK저축은행 등 저점 매수의 연료가 이 펀드였음.",
+      "source": "https://namu.wiki/w/MBK파트너스"
+    },
+    {
+      "year": 2012,
+      "age": 48,
+      "event": "Acquired control of Coway (Korean water purifier rental giant) for about ₩1.2T from Woongjin Group as it broke up under debt restructuring.",
+      "eventKo": "웅진그룹 부채 구조조정 매물로 나온 코웨이를 약 1.2조 원에 인수, 한국 정수기 렌탈 시장 1위 기업의 경영권 확보.",
+      "whyItMatteredKo": "MBK가 '대기업 그룹 해체 매물을 받아 가치 재구축 후 매각'하는 한국형 LBO 모델을 본격 가동한 대표 사례. 2018년 SK네트웍스 등에 약 1.7조 원에 매각하며 약 4-5천억 원 차익.",
+      "source": "https://namu.wiki/w/MBK파트너스 ; https://www.lawtimes.co.kr/news/206378"
+    },
+    {
+      "year": 2015,
+      "age": 51,
+      "event": "Led $6.3B buyout of Homeplus (Tesco's Korean hypermarket chain) — the largest leveraged buyout in Asia-Pacific that year and the largest in Korean private equity history.",
+      "eventKo": "테스코 한국법인 홈플러스를 7조 2,000억 원(약 63억 달러)에 인수. 그해 아시아·태평양 최대 LBO이자 한국 PE 사상 최대 딜.",
+      "whyItMatteredKo": "한국 시장 단일 딜로 '아시아 PE의 대부' 별명을 정착시킨 결정. 동시에 향후 10년간 MBK의 가장 큰 운영 부담이 됨 — 오프라인 대형마트 산업이 이커머스에 잠식되며 매각·구조조정 모두 막힌 자산이 됨.",
+      "whatTheyRiskedKo": "신규 펀드 자본의 상당 부분을 한 자산에 집중, 단일 산업 사이클 리스크 노출",
+      "source": "https://www.bizhankook.com/bk/article/29292 ; https://en.wikipedia.org/wiki/Michael_Kim_(businessman)"
+    },
+    {
+      "year": 2018,
+      "age": 54,
+      "event": "Closed MBK Fund IV at $4.1B; AUM crossed $20B. Initiated activist position pushing for KT&G governance changes alongside Carl Icahn-style minority campaigns.",
+      "eventKo": "MBK 4호 펀드 41억 달러 클로징, 운용자산 200억 달러 돌파. 한국 시장에서 행동주의형 소수지분 캠페인(KT&G 거버넌스 개선 요구 등) 병행.",
+      "whyItMatteredKo": "바이아웃 단독 모델에서 행동주의·소수지분·구조조정 자문까지 영역 확장. 이때부터 '한국 재벌 거버넌스의 외부 압력자'라는 정치적 색채를 본격적으로 띠게 됨.",
+      "source": "https://namu.wiki/w/MBK파트너스"
+    },
+    {
+      "year": 2019,
+      "age": 55,
+      "event": "Acquired Lotte Card from Lotte Group for ₩1.38T as Lotte unwound financial subsidiaries under the General Act on Financial Holding Companies.",
+      "eventKo": "롯데지주가 금융지주법 규제로 매각해야 했던 롯데카드를 1조 3,810억 원에 인수.",
+      "whyItMatteredKo": "재벌 규제 변화로 풀린 금융 자산을 PE가 흡수하는 패턴. MBK는 이후 BC카드 지분·우리은행 매각설 등 한국 금융 산업 재편의 단골 후보가 됨.",
+      "source": "https://www.lawtimes.co.kr/news/206378 ; https://namu.wiki/w/MBK파트너스"
+    },
+    {
+      "year": 2020,
+      "age": 56,
+      "event": "Published debut autobiographical novel 'Offerings' (Arcade Publishing, NY) about a Korean immigrant boy in 1970s New Jersey. Spent over a decade writing it.",
+      "eventKo": "10여 년에 걸쳐 쓴 자전적 소설 'Offerings'(Arcade Publishing 뉴욕) 출간. 1970년대 뉴저지로 이민 온 한국 소년의 이야기.",
+      "whyItMatteredKo": "PE 거물의 부업이 아니라 본인이 가장 자랑스러워하는 정체성 작업. 영문학에 입문했던 21살의 자기와 다시 연결되는 의미. 동시에 한국 LP·언론과의 거리감을 줄이는 소프트파워 자산.",
+      "source": "https://michaelbkim.org/ ; https://en.wikipedia.org/wiki/Michael_Kim_(businessman)"
+    },
+    {
+      "year": 2022,
+      "age": 58,
+      "event": "Closed MBK Fund V at $6.5B — the largest North Asia-focused buyout fund ever raised at the time. Forbes placed him on its Asia rich list as a US-based billionaire managing Asia capital.",
+      "eventKo": "MBK 5호 펀드 65억 달러 클로징 — 당시 북아시아 단독 타깃 바이아웃 펀드 사상 최대 규모. 포브스 아시아 부자 리스트에 '미국 국적·아시아 자본 운용' 억만장자로 등재.",
+      "whyItMatteredKo": "한국·일본·중국·홍콩 LP 신뢰가 누적 결과물로 굳어진 시점. 이 펀드의 자금이 2024년 고려아연 적대적 인수 시도의 실탄이 됨.",
+      "source": "https://en.wikipedia.org/wiki/Michael_Kim_(businessman) ; https://www.forbes.com/profile/michael-kim/"
+    },
+    {
+      "year": 2024,
+      "age": 60,
+      "event": "Launched hostile tender offer for Korea Zinc shares jointly with the Young Poong founding family, attempting to break the Choi family's control of the world's largest non-ferrous metals refiner. Triggered the largest M&A defense battle in Korean history.",
+      "eventKo": "영풍 장형진 가문과 손잡고 세계 최대 비철금속 제련사 고려아연에 대한 공개매수·적대적 경영권 인수 시도. 한국 M&A 역사상 최대 방어전 촉발.",
+      "whyItMatteredKo": "MBK가 '대주주가 원치 않는 인수'라는 일선을 처음 한국 대기업 대상으로 넘어선 사례. 정치권·노조·시민단체·금융당국이 동시에 개입하며 '검은머리 외국인' 비판이 가장 거세진 시점.",
+      "whatTheyRiskedKo": "한국 정부·국민연금 LP와의 관계, 향후 한국 내 우호적 딜소싱 채널, 개인 평판",
+      "source": "https://news.nate.com/view/20250324n23924 ; https://www.mediatoday.co.kr/news/articleView.html?idxno=120492"
+    },
+    {
+      "year": 2025,
+      "age": 61,
+      "event": "Korea Zinc tender offer effectively defeated as Choi family raised counter-bids and secured supporting shareholders; Homeplus operating losses widened, prompting MBK to consider restructuring options. Personal net worth at $9.9B per Forbes Real-Time list.",
+      "eventKo": "고려아연 적대적 인수 시도, 최씨 일가의 맞공개매수·우호지분 확보로 사실상 실패. 동시에 홈플러스 영업손실 확대로 구조조정 옵션 검토. 포브스 실시간 기준 개인 순자산 99억 달러.",
+      "whyItMatteredKo": "MBK의 한국 시장 정치 자본이 처음으로 한계를 드러낸 해. 동시에 일본·중국 자산이 펀드 V 수익률을 떠받치며 글로벌 LP 신뢰는 유지. 김병주 개인은 한국 내 인터뷰를 거의 끊고 자선·문학 활동으로 무게중심 이동.",
+      "source": "https://news.nate.com/view/20250324n23924 ; https://www.forbes.com/profile/michael-kim/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1974,
+      "age": 11,
+      "decisionKo": "11세에 단신으로 미국행, 1년간 삼촌 집에서 가족 없이 적응",
+      "alternativeKo": "한국에 남아 사관학교·SKY 경로를 따랐다면 한국 군·관·재계 엘리트 경로",
+      "outcomeKo": "영어·미국 문학 습득이 훗날 골드만삭스·하버드·칼라일로 이어지는 진입 자본이 됨",
+      "source": "https://www.newspim.com/news/view/20250408000922"
+    },
+    {
+      "year": 1985,
+      "age": 21,
+      "decisionKo": "영문학 학사로 학계가 아닌 골드만삭스 M&A 분석가로 진입",
+      "alternativeKo": "영문학 박사·대학 교수 경로",
+      "outcomeKo": "1990년대 IB 호황과 1997 외환위기를 자본 시장 안에서 통과, 35세에 칼라일 아시아 책임자 자리에 도달",
+      "source": "https://en.wikipedia.org/wiki/Michael_Kim_(businessman)"
+    },
+    {
+      "year": 2005,
+      "age": 41,
+      "decisionKo": "칼라일 시니어 자리 박차고 동료 4명과 독립, 서울에 MBK 창업",
+      "alternativeKo": "칼라일 글로벌 매니징 디렉터로 잔류, 안정적인 글로벌 PE 커리어 유지",
+      "outcomeKo": "20년 만에 운용자산 300억 달러 + 아시아 최대 독립 PE로 성장, 본인 순자산 100억 달러 근접",
+      "source": "https://en.wikipedia.org/wiki/Michael_Kim_(businessman)"
+    },
+    {
+      "year": 2024,
+      "age": 60,
+      "decisionKo": "고려아연 대주주가 거부하는 적대적 공개매수 단행",
+      "alternativeKo": "재벌 가문과 협상하는 우호적 거래 모델 유지",
+      "outcomeKo": "딜은 사실상 실패, 동시에 한국 정치권·여론과의 마찰 비용 누적 — 향후 한국 딜소싱에 장기 비용",
+      "source": "https://news.nate.com/view/20250324n23924"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "MBK Partners 5개 펀드(AUM 약 300억 달러)의 GP 지분 보유 — 관리보수(연 약 1.5-2%)와 성과보수(carry, 통상 초과수익의 20%)에서 분배받는 누적 현금흐름이 핵심. 본인 GP commitment 지분의 자체 수익도 포함.",
+    "industryKo": "사모펀드(바이아웃)",
+    "businessModelKo": "한국·일본·중국 LP에서 자본 모금 → 한국 재벌 해체·일본 비핵심 자산·중국 소비재 등 통제권 인수 → 3-7년 운영 개선 후 매각·IPO. 한국에서는 재벌 규제·세대교체 사이클의 외부 구조조정자 역할.",
+    "moatKo": "① 칼라일에서 10년간 쌓은 아시아 산업 데이터·LP 신뢰. ② 박태준 가문 네트워크로 확보한 한국 정관계·국민연금 LP 접근. ③ 한국·일본·중국에 동시 운영팀을 둔 유일한 토종 메가 GP. ④ Forbes·Bloomberg 인용도 높은 개인 브랜드.",
+    "luckVsSkillKo": "운(40%): 1997 외환위기·2008 글로벌 금융위기·2012 웅진 디폴트 등 자산 가격이 폭락한 사이클마다 펀드 모금이 직전에 완료됐던 타이밍이 절묘. 실력(60%): 영문학 출신답게 LP·언론 커뮤니케이션이 뛰어남, 한·미·아시아 3중 정체성으로 자본·딜·인력의 다리 역할, 칼라일 동료를 그대로 데려와 즉시 가동 가능한 팀 구축."
+  },
+
+  "personalTraits": {
+    "knownFor": "Founder and chairman of MBK Partners, Asia's largest independent private equity firm; called 'the godfather of Asian private equity'; novelist (Offerings, 2020); son-in-law of POSCO founder Park Tae-joon.",
+    "knownForKo": "아시아 최대 독립 사모펀드 MBK 파트너스 창립자 겸 회장. '아시아 PE의 대부'로 불림. 자전 소설 'Offerings'(2020) 저자. 포스코 창업자 박태준의 사위.",
+    "philanthropy": "Pledged $7.5M for Kim Hall dormitory at Haverford College (named for his father Kim Ki Yong). Chairs the Haverford College Board of Managers and the MBK Scholarship Foundation, which supports Korean students studying abroad.",
+    "philanthropyKo": "해버포드 칼리지에 750만 달러 기부, 아버지 김기영 이름의 'Kim Hall' 기숙사 건립. 해버포드 이사회 의장 및 MBK 장학재단 이사장 — 재단은 한국 학생 해외 유학 지원.",
+    "controversies": "Criticized in Korean media as a 'gomeungeori weguggin' (Korean-American who exploits Korean market with foreign tax status). The 2024 hostile bid for Korea Zinc drew accusations of national-strategic-asset risk. Homeplus financial deterioration has been used to question MBK's operational management quality.",
+    "controversiesKo": "한국 언론에서 '검은머리 외국인'(미국 국적으로 한국 시장 수익을 챙긴다는 비판) 표현 빈번. 2024년 고려아연 적대적 인수 시도는 '국가 전략자산 위험' 비판을 불러옴. 홈플러스 재무 악화는 MBK 운영 능력에 대한 회의론의 빌미가 됨."
+  },
+
+  "characterKo": {
+    "summaryKo": "외향형 사교가가 아니라 작가 기질의 내향형 분석가에 가깝다는 평. 한국·일본·미국 LP 미팅에서 사용하는 언어와 어휘를 정확히 분리해서 쓴다는 점이 동료들의 공통 증언. 한국 언론 노출은 의도적으로 줄이고, 결정적 시점에만 짧은 코멘트로 메시지를 던지는 스타일.",
+    "tagsKo": ["문학적 자본가", "장기 호흡", "네트워크 관리자", "한미아 3중 정체성", "비공개 선호"]
+  },
+
+  "failures": [
+    {
+      "year": 2015,
+      "description": "The $6.3B Homeplus acquisition was correctly timed at the peak of Korean hypermarket value and never recovered. By 2020 e-commerce had structurally compressed margins, and by 2024-2025 Homeplus operating losses widened while a clean exit (IPO or strategic sale) remained blocked. The asset became MBK's single largest source of mark-down risk.",
+      "descriptionKo": "63억 달러 홈플러스 인수는 한국 대형마트 가치가 정점을 찍은 시점에 들어간 셈이 됐고, 이커머스 부상으로 구조적 마진 압축을 받아 회복하지 못함. 2024-25년 영업손실이 확대됐지만 IPO·전략적 매각 어떤 회수 경로도 막혀, MBK 전체 펀드 평가가치에 가장 큰 감점 요인.",
+      "lesson": "Even disciplined LBO models cannot outrun an entire offline retail format being eaten by a new technology stack — sector risk is sometimes irreducible by operational improvement.",
+      "lessonKo": "운영 개선만으로는 산업 자체가 신기술 스택에 잠식될 때 구조적 가치 하락을 막을 수 없다 — 섹터 리스크는 LBO 규율로도 상쇄 불가능한 영역이 있다.",
+      "source": "https://www.bizhankook.com/bk/article/29292 ; https://news.nate.com/view/20250324n23924"
+    },
+    {
+      "year": 2024,
+      "description": "The hostile Korea Zinc tender offer with Young Poong family was effectively repelled by the Choi family's counter-buyback and supporting shareholders. The campaign also triggered political and union backlash over 'foreign capital threatening a strategic non-ferrous metals refiner', damaging MBK's domestic political capital for years to come.",
+      "descriptionKo": "영풍 장형진 가문과 함께한 고려아연 공개매수는 최씨 일가의 맞공개매수·우호지분 확보로 사실상 격퇴됨. '외국 자본이 전략적 비철금속 제련사를 위협한다'는 정치·노조 반발도 동반, 한국 내 정치 자본에 장기 손실.",
+      "lesson": "In Korea, hostile bids against industrial-strategic assets are not purely a financial contest — political, labor, and media coalitions can override pure capital logic. Korean market access is itself a finite, depletable resource.",
+      "lessonKo": "한국에서 전략적 산업 자산에 대한 적대적 인수는 자본 논리만으론 풀리지 않는다 — 정치·노조·언론 연합이 자본 논리를 무력화할 수 있다. 한국 시장 접근권 자체가 유한·소모성 자원이라는 깨달음.",
+      "source": "https://news.nate.com/view/20250324n23924 ; https://www.mediatoday.co.kr/news/articleView.html?idxno=120492"
+    },
+    {
+      "year": 2018,
+      "description": "Coway exit at ~₩1.7T to SK Networks delivered respectable but not blockbuster returns relative to the energy MBK had poured into governance overhaul, and the trade later attracted criticism that the multi-year holding period (2012-2018) was longer than originally pitched to LPs.",
+      "descriptionKo": "2018년 코웨이를 SK네트웍스에 약 1조 7,000억 원에 매각 — 거버넌스 개선에 쏟은 에너지 대비 회수 배수는 적정 수준에 그침. 당초 LP에 제시한 보유 기간보다 길어졌다는 비판도 받음.",
+      "lesson": "Operational turnarounds in Korean conglomerate spin-outs often take longer than the standard 3-5 year PE clock, requiring patient LP communication to avoid being labeled a stuck position.",
+      "lessonKo": "한국 그룹 분리 매물의 턴어라운드는 일반 PE의 3-5년 시계보다 길게 걸리는 경우가 많아, LP 커뮤니케이션을 길게 끌고 갈 능력이 별도로 필요하다.",
+      "source": "https://namu.wiki/w/MBK파트너스"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2016, "netWorth": 0.9 },
+    { "year": 2019, "netWorth": 1.6 },
+    { "year": 2021, "netWorth": 4.6 },
+    { "year": 2023, "netWorth": 7.5 },
+    { "year": 2024, "netWorth": 9.7 },
+    { "year": 2025, "netWorth": 9.9 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "I'm a Korean-American. That's not a hyphenated identity I want to dissolve — it's the asset.",
+      "textKo": "나는 한국계 미국인이다. 이 정체성은 하이픈으로 약화시킬 게 아니라, 그 자체가 자산이다.",
+      "context": "Interview discussing his bi-cultural background and MBK's competitive edge",
+      "contextKo": "이중 문화 정체성이 MBK 경쟁력의 일부라고 설명한 인터뷰",
+      "source": "https://www.newspim.com/news/view/20250408000922"
+    },
+    {
+      "text": "Writing 'Offerings' took me longer than building MBK. The novel is the harder thing.",
+      "textKo": "소설 'Offerings'를 쓰는 데 MBK를 키운 시간보다 더 오래 걸렸다. 소설 쪽이 더 어려운 일이었다.",
+      "context": "On publishing his autobiographical novel after a decade of writing",
+      "contextKo": "10년 넘게 쓴 자전 소설 출간 소감",
+      "source": "https://michaelbkim.org/"
+    }
+  ],
+
+  "books": {
+    "authored": [
+      { "title": "Offerings", "year": 2020, "noteKo": "1970년대 뉴저지로 이민 온 한국 소년의 자전적 소설. 뉴욕 Arcade Publishing 출간." }
+    ],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Jeong-Chuk day pillar paired with a Sin-Yu month sits squarely in 'pyeonjae-gyeok' — a chart framed by oversized external wealth that has to be actively channeled, which matches a career built on moving other people's capital at scale.",
+    "summaryKo": "정축 일주에 신유 월지가 겹친 편재격(偏財格, 자기 손에 잡히는 월급이 아닌 외부의 큰 자본을 운용해 수익을 내는 구조)은 사모펀드 운용자의 본업과 거의 일대일로 대응합니다. 정화 일간은 등불·문명의 빛이라 분석·문헌·정밀함을 좋아하는 기질을 깔고 있고, 일지 축토는 금(재성)의 창고 자리라 자본을 '저장하고 꺼내 쓰는' 직업적 본능을 강화합니다. 연주 계묘의 묘목은 정인(학문)으로 영문학·하버드 MBA로 이어진 학습 자본을 설명하고, 신유월에 천간·지지 모두 신금이 들어와 편재가 두텁다 보니 11세 단신 이민·소설 집필·아시아 전역 LP 모집처럼 '외부 자원을 내 것으로 끌어와 재구성하는' 패턴이 반복됩니다. 약점은 정화가 가을 금에 둘러싸여 빛이 약해질 수 있다는 점 — 2024년 고려아연 적대적 인수처럼 한 번에 너무 큰 재성에 부딪히면 도리어 자기 신뢰자본을 깎는 국면이 나옵니다."
+  }
+}
