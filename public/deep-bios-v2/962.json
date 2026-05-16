@@ -1,0 +1,38 @@
+{
+  "id": "962", "name": "Pablo Legorreta", "nameKo": "파블로 레고레타",
+  "netWorth": 4.3, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Mexico", "birthPlaceKo": "멕시코",
+    "familyBackground": "Born to wealthy Mexican family; emigrated to US for finance career.",
+    "familyBackgroundKo": "부유한 멕시코 가정에서 출생; 금융 경력을 위해 미국 이민.",
+    "education": "Universidad Anáhuac, Mexico City.", "educationKo": "멕시코시티 Universidad Anáhuac.",
+    "earlyLife": "Worked at Lazard before founding Royalty Pharma in 1996; pioneered the pharmaceutical-royalty investment business model.",
+    "earlyLifeKo": "1996년 Royalty Pharma 창립 전 Lazard에서 근무; 제약 로열티 투자 사업 모델 개척.",
+    "source": "https://en.wikipedia.org/wiki/Royalty_Pharma"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Royalty Pharma 30년 누적 + 2020 IPO." },
+  "careerTimeline": [
+    { "year": 1996, "age": 32, "event": "Founded Royalty Pharma — first to monetize pharmaceutical royalty streams as standalone asset class.", "eventKo": "Royalty Pharma 창립 — 제약 로열티 흐름을 독립 자산 클래스로 수익화한 첫 회사.", "whyItMatteredKo": "출발선." },
+    { "year": 2020, "age": 56, "event": "Royalty Pharma IPO on Nasdaq at $17B+ valuation — largest healthcare-IPO of 2020.", "eventKo": "Royalty Pharma 나스닥 IPO 170억 달러+ 평가 — 2020 최대 헬스케어 IPO.", "whyItMatteredKo": "24년 회사 결정적 가시화." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $4.3B per Forbes Real-Time. Continues as Royalty Pharma CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러. Royalty Pharma CEO 계속.", "whyItMatteredKo": "29년 단일 회사 정점." }
+  ],
+  "turningPoints": [{ "year": 1996, "age": 32, "decisionKo": "Royalty Pharma 창립 — 제약 로열티 카테고리 개척", "alternativeKo": "전통 IB 잔류", "outcomeKo": "단일 카테고리 정의자 + 평생 부" }],
+  "moneyMechanics": { "primaryRevenueKo": "Royalty Pharma(나스닥 상장) 공동 창립자 지분", "industryKo": "제약 로열티 투자", "businessModelKo": "제약 회사로부터 약물 로열티 흐름 매수·운용", "moatKo": "29년 누적 제약 로열티 거래 네트워크 + 카테고리 선점", "luckVsSkillKo": "운(35%): 제약 로열티 카테고리 부상. 실력(65%): 카테고리 정의·29년 운영." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of Royalty Pharma — pioneered pharmaceutical-royalty investment model; one of largest pharma-investment firms globally.",
+    "knownForKo": "Royalty Pharma 창립자·CEO — 제약 로열티 투자 모델 개척; 글로벌 최대 제약 투자 회사 중 하나.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard pharma-industry pricing debates implicate royalty-investment business model.",
+    "controversiesKo": "표준 제약 산업 가격 논쟁이 로열티 투자 사업 모델 연관."
+  },
+  "characterKo": { "summaryKo": "제약 로열티 카테고리 정의 자수성가.", "tagsKo": ["Royalty Pharma", "제약 로열티 개척자", "멕시코 출신"] },
+  "failures": [
+    { "year": 2022, "description": "Royalty Pharma stock declined as biotech sector entered prolonged downcycle.", "descriptionKo": "바이오텍 부문이 연장된 다운사이클 진입하면서 Royalty Pharma 주가 하락.", "lesson": "Pharma-royalty values track underlying biotech cycles.", "lessonKo": "제약 로열티 가치가 기저 바이오텍 사이클 추적." },
+    { "year": 2023, "description": "Interest-rate environment compressed pharma-royalty discount rates affecting deal economics.", "descriptionKo": "금리 환경이 거래 경제 영향 미치는 제약 로열티 할인율 압축.", "lesson": "Royalty-investment business is rate-sensitive.", "lessonKo": "로열티 투자 사업은 금리 민감." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 4.0 }, { "year": 2022, "netWorth": 3.6 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Every approved drug creates a royalty stream. We invest in those streams.", "textKo": "모든 승인된 약은 로열티 흐름을 만든다. 우리는 그 흐름에 투자한다.", "context": "Royalty Pharma philosophy", "contextKo": "Royalty Pharma 철학", "source": "https://www.royaltypharma.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-O day pillar in Sul month — 'pyeon-gwan-gyeok', external authority pressure, fitting pharma-investment operator under continuous regulatory cycles.", "summaryKo": "병오 일주 + 술월 편관격은 지속적 규제 사이클 환경의 제약 투자 운영자와 호응." }
+}

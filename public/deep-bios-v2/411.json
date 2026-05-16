@@ -1,0 +1,40 @@
+{
+  "id": "411", "name": "Kjell Inge Rokke", "nameKo": "셸 잉게 로케",
+  "netWorth": 8.3, "nationality": "NO", "industry": "Logistics",
+  "childhood": {
+    "birthPlace": "Molde, Norway", "birthPlaceKo": "노르웨이 몰데",
+    "familyBackground": "Born to working-class Norwegian fishing family.",
+    "familyBackgroundKo": "노동자 계급 노르웨이 어업 가정에서 출생.",
+    "education": "Limited; self-taught fishing-and-business operator.", "educationKo": "제한적; 어업·사업 운영 독학.",
+    "earlyLife": "Worked as Alaskan fishing trawler operator; built American Seafoods Corporation; expanded into shipping and industrial holdings via Aker ASA.",
+    "earlyLifeKo": "알래스카 어업 트롤러 운영자로 근무; American Seafoods Corporation 구축; Aker ASA를 통해 해운·산업 보유로 확장.",
+    "source": "https://en.wikipedia.org/wiki/Kjell_Inge_R%C3%B8kke"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "알래스카 어업 + Aker ASA 자수성가." },
+  "careerTimeline": [
+    { "year": 1980, "age": 22, "event": "Worked as Alaskan trawler operator; began building American Seafoods.", "eventKo": "알래스카 트롤러 운영자로 근무; American Seafoods 구축 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1996, "age": 38, "event": "Acquired Aker Maritime; expanded into offshore oil services and Norwegian industrial conglomerate.", "eventKo": "Aker Maritime 인수; 해상 석유 서비스·노르웨이 산업 그룹으로 확장.", "whyItMatteredKo": "산업 자본가로 변환." },
+    { "year": 2010, "age": 52, "event": "Aker ASA expanded across oil services, shipping, seafood, and other Norwegian industrial sectors.", "eventKo": "Aker ASA가 석유 서비스·해운·해산물·기타 노르웨이 산업 부문으로 확장.", "whyItMatteredKo": "노르웨이 메이저 그룹 자리." },
+    { "year": 2025, "age": 67, "event": "Personal net worth at $8.3B per Forbes Real-Time. Continues Aker ASA chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 83억 달러. Aker ASA 의장 계속.", "whyItMatteredKo": "45년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1996, "age": 38, "decisionKo": "Aker Maritime 인수로 산업가 전환", "alternativeKo": "어업 단일 집중", "outcomeKo": "노르웨이 산업 메이저 그룹" }],
+  "moneyMechanics": { "primaryRevenueKo": "Aker ASA + American Seafoods + 노르웨이 산업 그룹", "industryKo": "해운·어업·해상 석유·산업", "businessModelKo": "노르웨이 본거지 다각화 산업 그룹", "moatKo": "45년 누적 노르웨이 해양·산업 인프라", "luckVsSkillKo": "운(40%): 노르웨이 자원 시대. 실력(60%): 어업→산업 변환." },
+  "personalTraits": {
+    "knownFor": "Founder of Aker ASA, American Seafoods; one of Norway's wealthiest self-made industrialists.",
+    "knownForKo": "Aker ASA·American Seafoods 창립자; 노르웨이 가장 부유한 자수성가 산업가 중 한 명.",
+    "philanthropy": "REV Ocean philanthropic initiative on ocean conservation; major Norwegian education and arts support.",
+    "philanthropyKo": "해양 보전에 대한 REV Ocean 자선 사업; 주요 노르웨이 교육·예술 지원.",
+    "controversies": "1990s Norwegian tax-avoidance debates; some Aker operational issues; standard Norwegian industrial-magnate political-business commentary.",
+    "controversiesKo": "1990년대 노르웨이 세금 회피 논쟁; 일부 Aker 운영 문제; 표준 노르웨이 산업 거물 정치-사업 코멘터리."
+  },
+  "characterKo": { "summaryKo": "노르웨이 어업→산업 자수성가 가부장.", "tagsKo": ["Aker ASA", "American Seafoods", "REV Ocean", "노르웨이 자수성가"] },
+  "failures": [
+    { "year": 2008, "description": "2008 financial crisis impacted Aker shipping and industrial operations.", "descriptionKo": "2008 금융위기가 Aker 해운·산업 운영 영향.", "lesson": "Industrial diversification still faces macro risk.", "lessonKo": "산업 다각화도 거시 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 affected oil services and global shipping.", "descriptionKo": "COVID-19이 석유 서비스·글로벌 해운 영향.", "lesson": "Energy-and-shipping exposed to demand cycles.", "lessonKo": "에너지·해운이 수요 사이클 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.4 }, { "year": 2020, "netWorth": 4.6 }, { "year": 2024, "netWorth": 7.8 }, { "year": 2025, "netWorth": 8.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I started fishing in Alaska. I never stopped working with the ocean.", "textKo": "나는 알래스카에서 어업을 시작했다. 바다와 함께 일하는 것을 결코 멈추지 않았다.", "context": "On career", "contextKo": "경력에 대해", "source": "https://www.akerasa.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Hae day pillar in Sul month — 'jeongin-gyeok', maternal-academic foundation, fitting self-taught Nordic industrialist.", "summaryKo": "을해 일주 + 술월 정인격은 노르웨이 자수성가 산업가 정체성과 호응." }
+}

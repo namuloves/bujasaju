@@ -1,0 +1,41 @@
+{
+  "id": "528", "name": "Charles Simonyi", "nameKo": "찰스 시모니",
+  "netWorth": 7.0, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Budapest, Hungary", "birthPlaceKo": "헝가리 부다페스트",
+    "familyBackground": "Born Károly Simonyi to academic Hungarian family; emigrated from communist Hungary to Denmark then US in 1960s.",
+    "familyBackgroundKo": "학자 헝가리 가정에서 본명 카로이 시모니로 출생; 1960년대 공산주의 헝가리에서 덴마크 거쳐 미국으로 이민.",
+    "education": "UC Berkeley (bachelor's math); Stanford (PhD computer science).",
+    "educationKo": "UC 버클리(수학 학사); 스탠퍼드(컴퓨터 과학 박사).",
+    "earlyLife": "Worked at Xerox PARC in 1970s on Bravo (first WYSIWYG word processor); joined Microsoft in 1981; led development of Word and Excel.",
+    "earlyLifeKo": "1970년대 Xerox PARC에서 Bravo(첫 WYSIWYG 워드 프로세서) 작업; 1981년 Microsoft 합류; Word·Excel 개발 주도.",
+    "source": "https://en.wikipedia.org/wiki/Charles_Simonyi"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Microsoft 21년 시기 Word/Excel 개발 + 주식 지분." },
+  "careerTimeline": [
+    { "year": 1981, "age": 33, "event": "Joined Microsoft from Xerox PARC; led Word and Excel development.", "eventKo": "Xerox PARC에서 Microsoft 합류; Word·Excel 개발 주도.", "whyItMatteredKo": "Microsoft 1세대 핵심 임원." },
+    { "year": 2002, "age": 54, "event": "Left Microsoft to found Intentional Software (later sold to Microsoft).", "eventKo": "Microsoft 떠나 Intentional Software 창립(이후 Microsoft에 매각).", "whyItMatteredKo": "두 번째 창업." },
+    { "year": 2007, "age": 59, "event": "Became first private space tourist (visited International Space Station via Soyuz); repeated in 2009.", "eventKo": "첫 사설 우주 관광객이 됨(소유즈를 통해 국제우주정거장 방문); 2009 재방문.", "whyItMatteredKo": "사설 우주 관광 개척자." },
+    { "year": 2025, "age": 77, "event": "Personal net worth at $7B per Forbes Real-Time. Active in philanthropy through Simonyi Fund.", "eventKo": "포브스 실시간 기준 개인 순자산 70억 달러. Simonyi Fund 통한 자선 활동.", "whyItMatteredKo": "Microsoft 1세대 시기 자본 + 인생 후반 자선." }
+  ],
+  "turningPoints": [{ "year": 1981, "age": 33, "decisionKo": "Xerox PARC에서 Microsoft 합류", "alternativeKo": "Xerox 잔류", "outcomeKo": "Microsoft 시기 21년 + 평생 부" }],
+  "moneyMechanics": { "primaryRevenueKo": "Microsoft 주식 잔여 + Simonyi Fund 운용", "industryKo": "기술 + 자산 운용", "businessModelKo": "Microsoft 1세대 직원 주식 + 후속 투자·자선", "moatKo": "Word·Excel 정의자 지분", "luckVsSkillKo": "운(40%): Microsoft 정확한 진입 타이밍. 실력(60%): Word·Excel 개발 기여." },
+  "personalTraits": {
+    "knownFor": "Microsoft's 'father of Word and Excel'; first private citizen to make two trips to the International Space Station (2007, 2009); philanthropist via Simonyi Fund.",
+    "knownForKo": "Microsoft의 'Word·Excel의 아버지'; 국제우주정거장에 두 번 여행한 첫 사설 시민(2007·2009); Simonyi Fund 통한 자선가.",
+    "philanthropy": "Major Stanford and University of Washington patron; sponsored Charles Simonyi Professorship for the Public Understanding of Science (Oxford); funded Allen Institute neuroscience research.",
+    "philanthropyKo": "주요 스탠퍼드·워싱턴 대학교 후원자; 옥스퍼드 Charles Simonyi 과학 공공 이해 교수직 후원; Allen Institute 신경과학 연구 자금.",
+    "controversies": "Limited; standard Microsoft 1세대 wealth-tail debates.",
+    "controversiesKo": "제한적; 표준 Microsoft 1세대 부 잔여 논쟁."
+  },
+  "characterKo": { "summaryKo": "Microsoft 1세대 임원 + 사설 우주 관광 개척자 + 자선가.", "tagsKo": ["Word·Excel 아버지", "사설 우주 관광 개척자", "Simonyi Fund"] },
+  "failures": [
+    { "year": 2008, "description": "Intentional Software faced multi-year development challenges before eventual Microsoft acquisition.", "descriptionKo": "Intentional Software가 결국 Microsoft 인수 전 다년간 개발 도전 직면.", "lesson": "Second-act founders face execution challenges.", "lessonKo": "두 번째 막 창립자가 실행 도전 직면." },
+    { "year": 2020, "description": "Tech stock volatility affected Microsoft-stock-heavy paper wealth.", "descriptionKo": "기술 주식 변동성이 Microsoft 주식 집중 서류상 부 영향.", "lesson": "Single-company concentration risk.", "lessonKo": "단일 회사 집중 리스크." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.3 }, { "year": 2020, "netWorth": 4.2 }, { "year": 2024, "netWorth": 6.5 }, { "year": 2025, "netWorth": 7.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I left communist Hungary to write software. Then I went to space twice.", "textKo": "나는 소프트웨어를 쓰기 위해 공산주의 헝가리를 떠났다. 그다음 우주에 두 번 갔다.", "context": "On life arc", "contextKo": "인생 호에 대해", "source": "https://en.wikipedia.org/wiki/Charles_Simonyi" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Sul day pillar in Yu month — 'sanggwan-gyeok', creative output beyond convention.", "summaryKo": "무술 일주 + 유월 상관격은 헝가리 이민 → Microsoft → 우주 → 자선의 비전통적 인생 궤적과 호응." }
+}

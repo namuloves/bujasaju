@@ -1,0 +1,51 @@
+{
+  "id": "445",
+  "name": "Jonathan Gray",
+  "nameKo": "조나단 그레이",
+  "netWorth": 7.8,
+  "nationality": "US",
+  "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Highland Park, Illinois, USA",
+    "birthPlaceKo": "미국 일리노이주 하이랜드 파크",
+    "familyBackground": "Born to upper-middle-class Jewish family in Chicago suburb; father an executive in private business. Education-focused upbringing.",
+    "familyBackgroundKo": "시카고 교외 상위 중산층 유대인 가정에서 출생; 아버지는 사설 사업 임원. 교육 중심 양육.",
+    "education": "BA in English and BSc in Economics from University of Pennsylvania (Wharton). Joined Blackstone immediately after graduation.",
+    "educationKo": "펜실베이니아 대학교(와튼) 영어 학사 + 경제학 학사. 졸업 직후 Blackstone 합류.",
+    "earlyLife": "Joined Blackstone in 1992 at age 22 as analyst; remained at Blackstone for entire 30+ year career.",
+    "earlyLifeKo": "1992년 22세에 Blackstone 애널리스트 합류; 30+년 경력 전체를 Blackstone에서 보냄.",
+    "source": "https://en.wikipedia.org/wiki/Jon_Gray_(executive) ; https://www.blackstone.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "100% 자수성가. 30+년 Blackstone carry — 글로벌 부동산 사모펀드 사상 최대 펀드 시리즈 주도." },
+  "careerTimeline": [
+    { "year": 1992, "age": 22, "event": "Joined Blackstone as analyst straight from Wharton — beginning of unbroken 30+ year career at one firm.", "eventKo": "와튼에서 직접 Blackstone 애널리스트 합류 — 한 회사에서의 30+년 끊김 없는 경력의 시작.", "whyItMatteredKo": "단일 회사 경력의 시작." },
+    { "year": 2005, "age": 35, "event": "Promoted to head Blackstone's real estate business; led massive global real estate fund-raising and acquisitions through pre-financial crisis and after.", "eventKo": "Blackstone 부동산 사업 책임자로 승진; 금융위기 전후 거대 글로벌 부동산 펀드 모금·인수 주도.", "whyItMatteredKo": "Blackstone Real Estate가 세계 최대 부동산 PE로 변환." },
+    { "year": 2007, "age": 37, "event": "Led $39B leveraged buyout of Equity Office Properties — at the time the largest US LBO ever; immediately broke up portfolio with timely sales just before the 2008 crash.", "eventKo": "Equity Office Properties 390억 달러 LBO 주도 — 당시 미국 최대 LBO; 2008 폭락 직전 적시 매각으로 즉시 포트폴리오 해체.", "whyItMatteredKo": "사이클 정점 매각 타이밍의 역사적 사례." },
+    { "year": 2018, "age": 48, "event": "Named Blackstone President and Chief Operating Officer; became Steve Schwarzman's likely successor.", "eventKo": "Blackstone 사장·COO 임명; Steve Schwarzman의 가능성 있는 후계자가 됨.", "whyItMatteredKo": "글로벌 PE 1위 회사의 후계자 정체성." },
+    { "year": 2022, "age": 52, "event": "Blackstone's real estate funds (including BREIT) crossed $300B+ AUM; Gray's leadership defined the firm's largest single asset class.", "eventKo": "Blackstone 부동산 펀드(BREIT 포함)가 3,000억 달러+ AUM 돌파; Gray의 리더십이 회사의 최대 단일 자산 카테고리를 정의.", "whyItMatteredKo": "단일 사업 부문의 결정적 규모 도약." },
+    { "year": 2025, "age": 55, "event": "Personal net worth at $7.8B per Forbes Real-Time. Continues as Blackstone President and Chief Operating Officer.", "eventKo": "포브스 실시간 기준 개인 순자산 78억 달러. Blackstone 사장·COO 계속.", "whyItMatteredKo": "30+년 단일 회사 carry 누적의 정점." }
+  ],
+  "turningPoints": [
+    { "year": 2005, "age": 35, "decisionKo": "Blackstone 부동산 사업 책임자 승진", "alternativeKo": "다른 자산 클래스 담당", "outcomeKo": "Blackstone Real Estate 글로벌 1위 + 본인 carry 가장 큰 동력" },
+    { "year": 2007, "age": 37, "decisionKo": "Equity Office Properties 390억 달러 인수 직후 즉시 분할 매각", "alternativeKo": "장기 보유", "outcomeKo": "2008 폭락 회피 — 사이클 감각의 역사적 사례" }
+  ],
+  "moneyMechanics": { "primaryRevenueKo": "Blackstone 30+년 누적 carry + Blackstone 주식 지분", "industryKo": "사모펀드(부동산 중심)", "businessModelKo": "글로벌 부동산 LBO + 비공개 부동산 펀드(BREIT 등) 매니징 파트너 carry", "moatKo": "30+년 단일 회사 carry + 부동산 산업 인맥", "luckVsSkillKo": "운(35%): 1990년대 PE 산업 부상 사이클. 실력(65%): 30+년 일관된 부동산 사이클 감각, 2007 EOP 매각 타이밍." },
+  "personalTraits": {
+    "knownFor": "President and COO of Blackstone Inc; head of Blackstone's $300B+ real estate business; led 2007 $39B Equity Office Properties LBO and timely sale; Steve Schwarzman's apparent successor.",
+    "knownForKo": "Blackstone Inc 사장·COO; Blackstone의 3,000억 달러+ 부동산 사업 책임자; 2007 390억 달러 Equity Office Properties LBO와 적시 매각 주도; Steve Schwarzman의 명백한 후계자.",
+    "philanthropy": "Gray Foundation funds gynecologic-cancer research and treatment, particularly at Memorial Sloan Kettering and Penn Medicine; supports University of Pennsylvania.",
+    "philanthropyKo": "Gray Foundation이 부인암 연구·치료(특히 Memorial Sloan Kettering·Penn Medicine) 자금; 펜실베이니아 대학교 지원.",
+    "controversies": "BREIT investor redemption restrictions in 2022 drew regulatory and investor commentary; Blackstone's residential-rental holdings have faced labor-and-housing-rights criticism.",
+    "controversiesKo": "2022 BREIT 투자자 환매 제한이 규제·투자자 코멘터리 야기; Blackstone의 주거 임대 보유가 노동·주거권 비판 직면."
+  },
+  "characterKo": { "summaryKo": "30+년 단일 회사 매니징 파트너 경력의 가장 성공적인 미국 PE 사례 중 한 명.", "tagsKo": ["Blackstone 30년", "부동산 PE", "EOP 매각 타이밍", "Schwarzman 후계자"] },
+  "failures": [
+    { "year": 2022, "description": "BREIT (Blackstone Real Estate Income Trust) faced unprecedented investor redemption requests during 2022-2023; Blackstone limited withdrawals, drawing regulatory and industry criticism over liquidity-mismatch concerns.", "descriptionKo": "BREIT가 2022-2023 동안 전례 없는 투자자 환매 요청 직면; Blackstone이 인출 제한, 유동성 불일치 우려에 대한 규제·산업 비판 야기.", "lesson": "Open-ended real estate funds have inherent liquidity-mismatch risk that compresses during regime-shift markets.", "lessonKo": "개방형 부동산 펀드는 체제 전환 시장에서 압축되는 본질적인 유동성 불일치 리스크를 갖는다." },
+    { "year": 2023, "description": "Blackstone residential-rental and warehouse-portfolio acquisitions drew sustained criticism from US progressive politicians over housing-affordability and labor-rights issues.", "descriptionKo": "Blackstone 주거 임대·창고 포트폴리오 인수가 주거 적정성·노동권 문제로 미국 진보 정치인들의 지속적 비판 야기.", "lesson": "Mass-scale residential ownership by private equity creates political-narrative liability that compounds across electoral cycles.", "lessonKo": "사모펀드의 대규모 주거 소유는 선거 사이클에 걸쳐 누적되는 정치 서사 부담을 만든다." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 2.2 }, { "year": 2021, "netWorth": 5.7 }, { "year": 2023, "netWorth": 6.5 }, { "year": 2025, "netWorth": 7.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Real estate is patient capital meeting urban demographics. Both move slowly but inexorably.", "textKo": "부동산은 인내 자본이 도시 인구 통계학을 만나는 것이다. 둘 다 천천히 그러나 끊임없이 움직인다.", "context": "On Blackstone Real Estate strategy", "contextKo": "Blackstone Real Estate 전략에 대해", "source": "https://www.blackstone.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in Chuk month — 'siksin-gyeok' (steady creative output under winter earth), fitting a PE managing partner who consistently delivered fund returns over 30+ years.", "summaryKo": "을묘 일주 + 축월 식신격은 30+년 단일 회사 일관된 carry 생산자의 인생과 호응. 을목 일간·묘목 일지의 비견은 단일 회사 동료 파트너십 자리." }
+}

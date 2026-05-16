@@ -1,0 +1,236 @@
+{
+  "id": "306",
+  "name": "Arthur Blank",
+  "nameKo": "아서 블랭크",
+  "netWorth": 10.3,
+  "nationality": "US",
+  "industry": "Sports",
+
+  "childhood": {
+    "birthPlace": "Flushing, Queens, New York, USA",
+    "birthPlaceKo": "미국 뉴욕주 퀸스 플러싱",
+    "familyBackground": "Born Arthur Morris Blank to a middle-class Jewish family in Queens. Father Max Blank was a successful drug distributor who owned Sherry Pharmaceuticals. Father died of heart attack when Arthur was 15, forcing early adult responsibility. Mother Molly took over the family business and ran it successfully — a powerful role model for Arthur about resilience and entrepreneurship.",
+    "familyBackgroundKo": "퀸스 중산층 유대인 가정에서 본명 아서 모리스 블랭크로 출생. 아버지 맥스 블랭크는 Sherry Pharmaceuticals를 소유한 성공한 의약품 유통업자. 아서가 15세에 아버지가 심장마비로 사망 — 조기 성인 책임감 부여. 어머니 몰리가 가족 사업을 인수해 성공적으로 운영 — 회복력·기업가정신에 대한 강력한 롤모델.",
+    "education": "Bachelor's in business administration from Babson College, Massachusetts, 1963. Member of Tau Epsilon Phi fraternity.",
+    "educationKo": "매사추세츠 배브슨 칼리지 경영학 학사(1963). Tau Epsilon Phi 동아리 회원.",
+    "earlyLife": "Father's death at 15 forced Arthur into early maturity. After Babson, joined his mother's pharmacy distribution business; later worked at Arthur Young accounting and Daylin Inc. Met Bernie Marcus while both were senior executives at Handy Dan Home Improvement Centers in California — the partnership that would later create Home Depot.",
+    "earlyLifeKo": "15세 아버지 사망으로 조기 성숙. 배브슨 졸업 후 어머니의 약국 유통 사업에 합류, 이후 Arthur Young 회계법인·Daylin Inc 근무. 캘리포니아 Handy Dan Home Improvement Centers 시니어 임원 시절 버니 마커스를 만남 — 훗날 홈디포를 만든 파트너십의 출발.",
+    "source": "https://en.wikipedia.org/wiki/Arthur_Blank ; https://en.wikipedia.org/wiki/The_Home_Depot ; https://www.forbes.com/profile/arthur-blank/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 가족이 중산층 의약품 유통업이었지만 그것을 상속하진 않음. 본격적인 부는 1978년 버니 마커스와 함께 Handy Dan에서 해고된 직후 The Home Depot 공동 창업으로 시작 — 가족 자본 없이 외부 투자자(Ross Perot의 EDS는 거절했고 Ken Langone 등이 후원)로 종잣돈 조달.",
+    "source": "https://en.wikipedia.org/wiki/The_Home_Depot"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1963,
+      "age": 21,
+      "event": "Graduated Babson College with a business degree; joined his mother's pharmacy distribution business and later Arthur Young accounting firm.",
+      "eventKo": "배브슨 칼리지 경영학 학사 졸업, 어머니의 약국 유통 사업 합류 후 Arthur Young 회계법인 근무.",
+      "whyItMatteredKo": "회계·재무 훈련이 향후 모든 운영 결정의 토대. 어머니 사업에서 배운 회복력과 회계법인의 디테일이 결합.",
+      "source": "https://en.wikipedia.org/wiki/Arthur_Blank"
+    },
+    {
+      "year": 1972,
+      "age": 30,
+      "event": "Joined Handy Dan Home Improvement Centers in California — a regional home-improvement chain — where he met fellow executive Bernie Marcus. Rose to senior management.",
+      "eventKo": "캘리포니아 Handy Dan Home Improvement Centers 합류 — 지역 주택 개량 체인 — 동료 임원 버니 마커스를 만남. 시니어 매니지먼트 승진.",
+      "whyItMatteredKo": "주택 개량 소매업의 운영 메커니즘을 처음 학습 — 이후 홈디포 모델의 모든 차별화(창고형 매장·전문가 직원·저가)가 여기에서 거꾸로 재설계됨.",
+      "source": "https://en.wikipedia.org/wiki/The_Home_Depot"
+    },
+    {
+      "year": 1978,
+      "age": 36,
+      "event": "Fired from Handy Dan along with Bernie Marcus in a corporate power struggle. The firing became the catalyst for them to co-found The Home Depot in Atlanta with backing from Ken Langone and Pat Farrah.",
+      "eventKo": "기업 권력 다툼으로 버니 마커스와 함께 Handy Dan에서 해고됨. 이 해고가 켄 랭곤·팻 패라의 후원으로 애틀랜타에서 The Home Depot 공동 창업의 촉매가 됨.",
+      "whyItMatteredKo": "해고가 인생 최대의 행운 — 회사를 차리지 않으면 안 되는 상황이 강제로 만들어짐. 미국 주택 개량 소매 산업을 완전히 재정의할 회사의 출발선.",
+      "whatTheyRiskedKo": "30대 중반의 안정적 임원 커리어, 캘리포니아 가족 생활",
+      "whoHelpedKo": "공동창업자 버니 마커스, 자본 후원 켄 랭곤·팻 패라",
+      "source": "https://en.wikipedia.org/wiki/The_Home_Depot"
+    },
+    {
+      "year": 1981,
+      "age": 39,
+      "event": "Home Depot IPO on the NASDAQ — three years after founding. Marcus served as CEO, Blank as President. Rapid expansion across the Sun Belt followed.",
+      "eventKo": "Home Depot 창업 3년 만에 나스닥 상장. 마커스가 CEO, 블랭크가 사장 — 미국 남부 선벨트 전역으로 빠른 확장.",
+      "whyItMatteredKo": "창업 3년 만의 상장은 1980년대 소매업에서도 매우 이례적 속도. 확장 자본 확보와 동시에 거대 카테고리 정의 완료.",
+      "source": "https://en.wikipedia.org/wiki/The_Home_Depot"
+    },
+    {
+      "year": 1997,
+      "age": 55,
+      "event": "Succeeded Bernie Marcus as CEO of The Home Depot. Continued the company's growth into the world's largest home-improvement retailer.",
+      "eventKo": "버니 마커스의 뒤를 이어 The Home Depot CEO 취임. 회사를 세계 최대 주택 개량 소매업체로 성장 계속.",
+      "whyItMatteredKo": "공동창업자 19년 파트너십이 분쟁 없이 단일 CEO 체제로 전환된 시점. 거버넌스 모범 사례.",
+      "source": "https://en.wikipedia.org/wiki/The_Home_Depot"
+    },
+    {
+      "year": 2001,
+      "age": 59,
+      "event": "Stepped down as Home Depot CEO; reported he had been pushed out by the board partly over employee culture concerns. Within months purchased the NFL's Atlanta Falcons for $545M.",
+      "eventKo": "Home Depot CEO 사임 — 이사회가 부분적으로 직원 문화 우려로 그를 밀어냈다고 보도. 수개월 내 NFL 애틀랜타 팰콘스를 5억 4,500만 달러에 인수.",
+      "whyItMatteredKo": "23년 사업 정체성에서 스포츠 구단주 정체성으로 전환 — 강제 퇴임을 인생의 다음 단계로 즉시 환산.",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons ; https://en.wikipedia.org/wiki/The_Home_Depot"
+    },
+    {
+      "year": 2014,
+      "age": 72,
+      "event": "Founded Atlanta United FC as an MLS expansion team — built the team into one of MLS's most successful clubs, winning the 2018 MLS Cup. Also broke ground on Mercedes-Benz Stadium (Falcons + Atlanta United) — a $1.6B venue funded primarily by his own capital plus public bonds.",
+      "eventKo": "MLS 확장 팀 Atlanta United FC 창립 — 팀을 MLS 가장 성공적인 클럽 중 하나로 키워 2018 MLS 컵 우승. 동시에 메르세데스-벤츠 스타디움(팰콘스·애틀랜타 유나이티드) 착공 — 본인 자본 + 공공 채권으로 16억 달러 경기장.",
+      "whyItMatteredKo": "스포츠 구단주 정체성의 정점 — 2개 메이저 프로 스포츠 구단 + 최첨단 경기장 동시 운영. 애틀랜타 도시 정체성에 결정적 기여.",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_United_FC ; https://en.wikipedia.org/wiki/Mercedes-Benz_Stadium"
+    },
+    {
+      "year": 2017,
+      "age": 75,
+      "event": "Atlanta Falcons reached Super Bowl LI but suffered one of the most painful collapses in NFL history — leading 28-3 in the third quarter and losing 34-28 in overtime to the New England Patriots. The defeat became a defining painful event of his sports ownership career.",
+      "eventKo": "애틀랜타 팰콘스가 Super Bowl LI 진출 — NFL 사상 가장 고통스러운 역전패 중 하나를 당함. 3쿼터 28-3 리드에서 연장전 34-28 패배(상대 뉴잉글랜드 패트리어츠). 그의 스포츠 구단주 경력의 가장 아픈 사건.",
+      "whyItMatteredKo": "스포츠 구단주의 통제 불가능성을 가장 극단적으로 경험한 사건. 사업가 출신 구단주에게 평생의 운영 규율과 스포츠 결과의 분리감을 가르침.",
+      "source": "https://en.wikipedia.org/wiki/Super_Bowl_LI"
+    },
+    {
+      "year": 2020,
+      "age": 78,
+      "event": "Founded Westside Future Fund and accelerated philanthropy through the Arthur M. Blank Family Foundation, focusing on Atlanta neighborhood revitalization, Montana wilderness conservation, and youth development.",
+      "eventKo": "Westside Future Fund 창립, Arthur M. Blank Family Foundation을 통한 자선 가속 — 애틀랜타 동네 재활성화·몬태나 자연 보전·청소년 개발에 집중.",
+      "whyItMatteredKo": "스포츠 구단주에서 도시 재생 자본가로 정체성 추가. 애틀랜타 서부 흑인 거주 지역 재개발이 평생 자선의 핵심.",
+      "source": "https://www.blankfoundation.org"
+    },
+    {
+      "year": 2023,
+      "age": 81,
+      "event": "Continued as principal owner and chairman of the Atlanta Falcons and Atlanta United, AMB Group (family office), and PGA Tour partner. Signed The Giving Pledge in 2010 committing to donate the majority of his wealth.",
+      "eventKo": "애틀랜타 팰콘스·애틀랜타 유나이티드 최대 소유주이자 의장, AMB Group(가족 사무소), PGA 투어 파트너 활동 계속. 2010년 Giving Pledge 서명 — 부의 대부분을 기부하기로 약속.",
+      "whyItMatteredKo": "스포츠 구단주의 다음 단계 — 다세대 자선 가문으로 정체성 정착. 80대에도 매주 팰콘스 경기장에 직접 등장하는 운영 깊이.",
+      "source": "https://givingpledge.org/pledger?pledgerId=15"
+    },
+    {
+      "year": 2025,
+      "age": 83,
+      "event": "Personal net worth at $10.3B per Forbes Real-Time. The Blank family controls AMB Sports & Entertainment, AMB West (Montana ranching and conservation), and major Atlanta urban-redevelopment assets through Westside Future Fund.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 103억 달러. 블랭크 가족은 AMB Sports & Entertainment·AMB West(몬태나 목장·보전)·Westside Future Fund 통한 애틀랜타 도시 재개발 자산 통제.",
+      "whyItMatteredKo": "15세에 아버지를 잃은 청년이 80대에 미국 최대 가족 스포츠·자선 그룹 중 하나의 가부장이 된 결과. 미국 자본주의의 가장 영속적인 다세대 가족 자본 모델 중 하나.",
+      "source": "https://www.forbes.com/profile/arthur-blank/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1957,
+      "age": 15,
+      "decisionKo": "아버지 사망 후 어머니의 사업 운영을 옆에서 도우며 책임감 일찍 학습",
+      "alternativeKo": "보호받는 청소년기 유지",
+      "outcomeKo": "조기 성숙이 평생 모든 결정의 심리적 토대 — 어머니 몰리의 회복력이 인생 멘토",
+      "source": "https://en.wikipedia.org/wiki/Arthur_Blank"
+    },
+    {
+      "year": 1978,
+      "age": 36,
+      "decisionKo": "Handy Dan 해고를 새 회사 창업의 기회로 즉시 전환",
+      "alternativeKo": "다른 소매업체에 임원 재취업",
+      "outcomeKo": "Home Depot 공동 창업 — 미국 주택 개량 산업 정의 + 평생 부의 거의 전부",
+      "source": "https://en.wikipedia.org/wiki/The_Home_Depot"
+    },
+    {
+      "year": 2001,
+      "age": 59,
+      "decisionKo": "Home Depot 강제 퇴임 직후 NFL 애틀랜타 팰콘스 인수로 스포츠 구단주로 정체성 전환",
+      "alternativeKo": "사업 재진입 또는 은퇴",
+      "outcomeKo": "23년 사업가 → 23년+ 스포츠 구단주·자선가 — 인생 후반의 새 카테고리",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_Falcons"
+    },
+    {
+      "year": 2014,
+      "age": 72,
+      "decisionKo": "MLS Atlanta United 창립과 16억 달러 메르세데스-벤츠 스타디움 동시 추진",
+      "alternativeKo": "팰콘스 단일 구단 유지",
+      "outcomeKo": "애틀랜타 도시 정체성의 결정적 기여 — 스포츠 구단주 정점의 야망",
+      "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_Stadium"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "AMB Group(비공개 가족 사무소) — 애틀랜타 팰콘스 NFL 구단(가치 ~$5B), 애틀랜타 유나이티드 MLS 구단, 메르세데스-벤츠 스타디움 운영, 몬태나 약 6만 에이커+ 목장(AMB West), 다양한 사모 투자 포지션. 부차적으로 The Home Depot 잔여 지분(매우 작음).",
+    "industryKo": "스포츠 구단 운영, 부동산, 자선",
+    "businessModelKo": "프로 스포츠 구단 평가가치 상승 + 스타디움 운영 수익 + 몬태나 목장·관광 자산. 비공개 가족 소유로 공시 없음. AMB Group이 다세대 자산을 통합 운영.",
+    "moatKo": "① NFL·MLS 같은 희소 라이선스의 영구적 자산 가치. ② 메르세데스-벤츠 스타디움이라는 자체 인프라 자산. ③ 애틀랜타 도시 정치·사회 자본의 30년 누적. ④ 자선·도시 재개발을 통한 지역 사회 자본.",
+    "luckVsSkillKo": "운(40%): 1978년 Handy Dan 해고가 강제로 창업으로 밀어넣은 타이밍, 1980년대 미국 교외 자가 보유 붐이 홈디포 모델에 정확히 들어맞음, 1990년대 NFL 구단 가치가 폭증한 사이클. 실력(60%): 50년 일관된 운영 규율, 사업가-구단주 정체성 전환의 즉시성, 거버넌스 분쟁 없는 파트너십 관리(마커스와 23년), Giving Pledge 등 장기 자선 자본 설계."
+  },
+
+  "personalTraits": {
+    "knownFor": "Co-founder of The Home Depot (with Bernie Marcus) — built into the world's largest home-improvement retailer; owner of the NFL Atlanta Falcons and MLS Atlanta United; built Mercedes-Benz Stadium in Atlanta; major philanthropist through the Arthur M. Blank Family Foundation; Giving Pledge signatory.",
+    "knownForKo": "버니 마커스와 공동 The Home Depot 창업 — 세계 최대 주택 개량 소매업체. NFL 애틀랜타 팰콘스·MLS 애틀랜타 유나이티드 구단주. 애틀랜타 메르세데스-벤츠 스타디움 건설. Arthur M. Blank Family Foundation 통한 주요 자선가. Giving Pledge 서명자.",
+    "philanthropy": "Arthur M. Blank Family Foundation funds youth development, Atlanta westside neighborhood revitalization (Westside Future Fund), Montana wilderness conservation, and disaster relief. Lifetime giving over $1B. Signatory of The Giving Pledge (2010) committing majority of wealth.",
+    "philanthropyKo": "Arthur M. Blank Family Foundation이 청소년 개발·애틀랜타 서부 동네 재활성화(Westside Future Fund)·몬태나 자연 보전·재난 구호 지원. 평생 기부 10억 달러 이상. 2010년 Giving Pledge 서명으로 부의 대부분 기부 약속.",
+    "controversies": "2001 Home Depot board pushed him out — public version vs. internal version of the departure differed; Atlanta Falcons NFL team has faced critics over various coaching and front-office decisions; Mercedes-Benz Stadium financing drew local political debate over public bond support; no major personal scandals.",
+    "controversiesKo": "2001년 Home Depot 이사회가 그를 밀어냄 — 사임의 공개 버전과 내부 버전이 다름. 애틀랜타 팰콘스 NFL 팀은 코칭·프런트오피스 결정에서 비판 받음. 메르세데스-벤츠 스타디움 자금 조달의 공공 채권 지원 관련 지역 정치 논쟁. 본인 개인 스캔들은 없음."
+  },
+
+  "characterKo": {
+    "summaryKo": "회계사 정확성과 스포츠 구단주 열정을 동시에 가진 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '회의 시작 전 30분간 매주 데이터 검토를 본인이 직접 한다는 점'과 '15세 아버지 사망의 트라우마를 평생의 자선·청소년 후원 동기로 직접 연결한다는 점'. 80대에도 매주 팰콘스 경기장에 직접 등장.",
+    "tagsKo": ["조기 성숙형", "회계사 정확성", "스포츠 구단주 열정", "도시 재개발 자선가", "Giving Pledge"]
+  },
+
+  "failures": [
+    {
+      "year": 2001,
+      "description": "Removed as CEO of The Home Depot by a board that wanted to bring in outside professional management (Robert Nardelli); the departure was framed as voluntary retirement but was widely reported as a forced removal driven by board concerns over employee morale and operational style.",
+      "descriptionKo": "Robert Nardelli 같은 외부 전문 경영진을 들이려는 이사회에 의해 The Home Depot CEO에서 제거됨 — 사임이 자발적 은퇴로 포장됐지만 직원 사기·운영 스타일에 대한 이사회 우려로 인한 강제 퇴임으로 광범위 보도.",
+      "lesson": "Founder-driven culture cannot fully insulate against board-driven succession decisions; external CEO transitions destroy founder-era cultural moats that take decades to rebuild.",
+      "lessonKo": "창업자 주도 문화는 이사회 주도 승계 결정으로부터 완전히 보호되지 않는다. 외부 CEO 전환은 수십 년 걸리는 창업자 시대 문화 해자를 파괴한다.",
+      "source": "https://en.wikipedia.org/wiki/The_Home_Depot"
+    },
+    {
+      "year": 2017,
+      "description": "The Atlanta Falcons' historic collapse in Super Bowl LI — leading 28-3 in the third quarter and losing 34-28 in overtime — became one of the most analyzed defeats in NFL history. The defeat shadowed the franchise's culture for multiple seasons afterward and triggered front-office instability.",
+      "descriptionKo": "Super Bowl LI에서 애틀랜타 팰콘스의 역사적 역전패 — 3쿼터 28-3 리드에서 연장전 34-28 패배 — NFL 역사상 가장 많이 분석된 패배 중 하나. 패배가 여러 시즌 동안 프랜차이즈 문화에 그늘을 드리우고 프런트오피스 불안정을 촉발.",
+      "lesson": "Sports ownership produces outcomes that no operational discipline can guarantee; investing in pro sports requires accepting that some losses are not solvable problems.",
+      "lessonKo": "스포츠 구단주는 어떤 운영 규율로도 보장할 수 없는 결과를 만든다. 프로 스포츠 투자는 일부 패배가 해결 가능한 문제가 아님을 받아들이는 것이 필요하다.",
+      "source": "https://en.wikipedia.org/wiki/Super_Bowl_LI"
+    },
+    {
+      "year": 2022,
+      "description": "Atlanta United's MLS performance declined significantly after its 2018 championship; the club went through multiple coaches and front-office shakeups before regaining competitive form. Demonstrated the challenge of sustaining a championship culture across multiple league sport cycles.",
+      "descriptionKo": "애틀랜타 유나이티드의 MLS 성적이 2018년 우승 후 크게 하락 — 다수의 감독·프런트오피스 교체를 거쳐 경쟁력 회복. 다리그 스포츠 사이클에서 우승 문화 유지의 어려움을 입증.",
+      "lesson": "Building a championship sports franchise once is hard; sustaining it across coaching and player turnover cycles is structurally harder than founders typically appreciate.",
+      "lessonKo": "한 번 챔피언십 스포츠 프랜차이즈를 만드는 것은 어렵다. 코치·선수 회전 사이클에 걸쳐 유지하는 것은 창업자가 일반적으로 인식하는 것보다 구조적으로 더 어렵다.",
+      "source": "https://en.wikipedia.org/wiki/Atlanta_United_FC"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2010, "netWorth": 1.3 },
+    { "year": 2015, "netWorth": 3.5 },
+    { "year": 2018, "netWorth": 5.0 },
+    { "year": 2020, "netWorth": 6.0 },
+    { "year": 2022, "netWorth": 8.4 },
+    { "year": 2024, "netWorth": 10.3 },
+    { "year": 2025, "netWorth": 10.3 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "My father died when I was 15. Every decision since is partly a decision he would have wanted me to make.",
+      "textKo": "내가 15세에 아버지가 돌아가셨다. 그 이후 모든 결정은 부분적으로 아버지가 내가 내리길 원했을 결정이다.",
+      "context": "Frequent remark on his early-life trauma and lifelong philanthropy motivation",
+      "contextKo": "초기 트라우마와 평생 자선 동기에 대한 자주 인용된 발언",
+      "source": "https://www.blankfoundation.org"
+    }
+  ],
+
+  "books": {
+    "authored": [
+      { "title": "Good Company", "year": 2020, "noteKo": "그의 사업 철학과 가족·자선 가치관을 정리한 회고록." }
+    ],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Gye-Mi day pillar in a Yu month forms a 'pyeon-gwan-gyeok' chart — small water under autumn metal authority, fitting a life shaped by early loss and forced maturity that became disciplined enterprise and disciplined giving.",
+    "summaryKo": "계미 일주가 유월에 자리잡은 편관격(강한 외부 권위·압박이 자기 자본을 둘러싸는 구조)은 15세 아버지 사망이라는 조기 상실과 강제 성숙이 평생 운영·자선 규율로 전환된 그의 인생과 호응합니다. 계수 일간은 작은 흐름의 물·세부의 기질로 회계사 정확성을 깔고 있고, 일지 미토 안의 정화·기토·을목이 편재·편관·식상을 한 자리에 묶어 — 외부 자본(소매·스포츠)·규제 권위(NFL·MLS)·자기 표현(자선)이 동시에 작용하는 구조를 그대로 그려냅니다. 월지 유금이 편인(어머니·학문)으로 어머니 몰리가 평생의 멘토가 된 점을 설명. 약점은 편관격이 너무 강하면 자기 신뢰가 흔들릴 수 있다는 점인데, 2001 Home Depot 강제 퇴임이 그 표면화로 읽힙니다 — 그러나 즉시 스포츠 구단주로 정체성을 전환해 편관을 다시 통제 가능한 영역으로 가져온 결정이 사주의 결을 따른 결과로 읽힙니다."
+  }
+}

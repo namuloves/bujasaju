@@ -1,0 +1,41 @@
+{
+  "id": "683", "name": "Elizabeth Uihlein", "nameKo": "엘리자베스 울라인",
+  "netWorth": 5.8, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Chicago area, Illinois, USA", "birthPlaceKo": "미국 일리노이주 시카고 인근",
+    "familyBackground": "Born Elizabeth McCarthy to working-class Catholic Chicago family. Met husband Richard Uihlein who was descended from the Uihlein/Schlitz beer family but inherited limited capital.",
+    "familyBackgroundKo": "노동자 계급 가톨릭 시카고 가정에서 본명 엘리자베스 매카시로 출생. Uihlein/Schlitz 맥주 가족의 후손이지만 제한된 자본을 상속한 남편 리처드 울라인과 만남.",
+    "education": "Local Chicago-area education.", "educationKo": "지역 시카고 인근 교육.",
+    "earlyLife": "Co-founded Uline (industrial packaging supplier) with husband Richard in 1980 from their basement; built it into one of America's largest industrial-packaging distributors.",
+    "earlyLifeKo": "1980년 남편 리처드와 지하실에서 Uline(산업 포장 공급자) 공동 창립; 미국 최대 산업 포장 유통업체 중 하나로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Uline ; https://www.forbes.com/profile/elizabeth-uihlein/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "100% 자수성가. 1980년 부부 공동 창립 + 45년 누적." },
+  "careerTimeline": [
+    { "year": 1980, "age": 35, "event": "Co-founded Uline with husband Richard from basement office; initial product was a single industrial-shipping carton.", "eventKo": "남편 리처드와 지하실 사무실에서 Uline 공동 창립; 초기 제품은 단일 산업 출하 카톤.", "whyItMatteredKo": "45년 부부 가족 사업의 출발선." },
+    { "year": 2000, "age": 55, "event": "Uline crossed $300M revenue; expanded distribution centers across US and Canada.", "eventKo": "Uline 매출 3억 달러 돌파; 미국·캐나다 전역에 유통 센터 확장.", "whyItMatteredKo": "지역 사업에서 전국 메이저로 변환." },
+    { "year": 2010, "age": 65, "event": "Uline revenue passed $1B; 100% privately family-owned; refused PE buyout offers.", "eventKo": "Uline 매출 10억 달러 돌파; 100% 사설 가족 소유; PE 매수 제안 거부.", "whyItMatteredKo": "비공개 가족 통제 정체성 유지." },
+    { "year": 2018, "age": 73, "event": "Began major Republican political donations alongside husband; became one of largest individual donors to Republican causes through 2010s-2020s.", "eventKo": "남편과 함께 주요 공화당 정치 기부 시작; 2010-2020년대 공화당 활동에 가장 큰 개별 기부자 중 한 명이 됨.", "whyItMatteredKo": "사업가에서 정치 자본가로 정체성 확장." },
+    { "year": 2025, "age": 80, "event": "Personal net worth at $5.8B per Forbes Real-Time. Uline continues as 100% family-owned with $7B+ revenue.", "eventKo": "포브스 실시간 기준 개인 순자산 58억 달러. Uline이 70억 달러+ 매출로 100% 가족 소유 계속.", "whyItMatteredKo": "45년 부부 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1980, "age": 35, "decisionKo": "남편과 지하실에서 Uline 공동 창립", "alternativeKo": "전통 직장", "outcomeKo": "45년 후 미국 최대 산업 포장 유통업체" }],
+  "moneyMechanics": { "primaryRevenueKo": "Uline(100% 비공개 가족 소유)", "industryKo": "산업 포장·물류 용품", "businessModelKo": "산업·이커머스 고객 대상 운송·포장 용품 카탈로그 유통", "moatKo": "45년 누적 카탈로그 인프라 + 100% 가족 통제", "luckVsSkillKo": "운(30%): 이커머스 사이클. 실력(70%): 45년 부부 일관성, 비공개 운영." },
+  "personalTraits": {
+    "knownFor": "Co-founder and President of Uline — America's largest privately held industrial packaging distributor; major Republican political donor with husband Richard Uihlein.",
+    "knownForKo": "미국 최대 사설 산업 포장 유통업체 Uline 공동 창립자·사장; 남편 리처드 울라인과 함께 주요 공화당 정치 기부자.",
+    "philanthropy": "Uihlein Family Foundation funds conservative-leaning political causes, Wisconsin and Illinois education, and Republican-aligned policy institutes.",
+    "philanthropyKo": "Uihlein 가족 재단이 보수 성향 정치 활동·위스콘신·일리노이 교육·공화당 정렬 정책 연구소 자금.",
+    "controversies": "Significant Republican political donations have drawn sustained progressive criticism; some Uihlein-funded political groups have been controversial; Uline has faced standard distribution-industry labor scrutiny.",
+    "controversiesKo": "상당한 공화당 정치 기부가 지속적 진보 비판 야기; Uihlein 자금 정치 그룹 일부가 논란; Uline이 표준 유통 산업 노동 감시 직면."
+  },
+  "characterKo": { "summaryKo": "부부 자수성가 + 정치 후원자 정체성.", "tagsKo": ["Uline 부부 창립", "공화당 후원자", "비공개 가족"] },
+  "failures": [
+    { "year": 2017, "description": "Uihlein political donations drew sustained protest at Uline distribution centers and consumer boycott calls.", "descriptionKo": "Uihlein 정치 기부가 Uline 유통 센터 지속적 시위·소비자 보이콧 요청 야기.", "lesson": "Political-donation visibility creates consumer-and-employee reputation tails.", "lessonKo": "정치 기부 가시성은 소비자·직원 평판 잔여를 만든다." },
+    { "year": 2020, "description": "COVID-19 supply chain disruptions challenged Uline's distribution operations.", "descriptionKo": "COVID-19 공급망 혼란이 Uline 유통 운영에 도전.", "lesson": "Industrial distribution faces pandemic-scale supply-chain risk.", "lessonKo": "산업 유통은 팬데믹 규모 공급망 리스크에 직면." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 3.5 }, { "year": 2021, "netWorth": 4.5 }, { "year": 2024, "netWorth": 5.5 }, { "year": 2025, "netWorth": 5.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "We started in a basement with one carton. We never took outside money.", "textKo": "우리는 지하실에서 한 카톤으로 시작했다. 외부 자본을 받지 않았다.", "context": "Uline founding philosophy", "contextKo": "Uline 창립 철학", "source": "https://www.uline.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Chuk day pillar in O month — 'jeonggwan-gyeok' (steady authority + capital), fitting 45-year disciplined family-business builder.", "summaryKo": "정축 일주 + 오월 정관격은 45년 규율 있는 가족 사업 가부장과 호응." }
+}

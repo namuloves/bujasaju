@@ -1,0 +1,38 @@
+{
+  "id": "314", "name": "Lin Bin", "nameKo": "린빈",
+  "netWorth": 10.2, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Wuhan, China", "birthPlaceKo": "중국 우한",
+    "familyBackground": "Born to Chinese family during Cultural Revolution era.", "familyBackgroundKo": "문화대혁명 시기 중국 가정에서 출생.",
+    "education": "Wuhan University; Drexel University PhD.", "educationKo": "우한 대학교; Drexel 대학교 박사.",
+    "earlyLife": "Worked at Microsoft and Google before co-founding Xiaomi with Lei Jun in 2010 as Vice President; built Xiaomi into one of world's largest smartphone makers.",
+    "earlyLifeKo": "Microsoft·Google에서 근무 후 2010년 Lei Jun과 Xiaomi 공동 창립(부사장); Xiaomi를 세계 최대 스마트폰 제조사 중 하나로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Xiaomi ; https://www.mi.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Xiaomi 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2010, "age": 42, "event": "Co-founded Xiaomi with Lei Jun.", "eventKo": "Lei Jun과 Xiaomi 공동 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 2018, "age": 50, "event": "Xiaomi IPO on Hong Kong Stock Exchange at $54B valuation.", "eventKo": "Xiaomi 홍콩 증시 540억 달러 평가 IPO.", "whyItMatteredKo": "결정적 가시화." },
+    { "year": 2024, "age": 56, "event": "Xiaomi launched first EV (SU7); company became major Chinese EV player alongside smartphone business.", "eventKo": "Xiaomi 첫 EV(SU7) 출시; 회사가 스마트폰 사업과 함께 주요 중국 EV 사업자가 됨.", "whyItMatteredKo": "EV 시대 확장." },
+    { "year": 2025, "age": 57, "event": "Personal net worth at $10.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 102억 달러.", "whyItMatteredKo": "15년 단일 회사 결과." }
+  ],
+  "turningPoints": [{ "year": 2010, "age": 42, "decisionKo": "Google에서 Xiaomi 공동 창립", "alternativeKo": "Google 잔류", "outcomeKo": "Xiaomi 글로벌 스마트폰 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Xiaomi(홍콩 증시) 공동 창립자 지분", "industryKo": "스마트폰·IoT·EV", "businessModelKo": "글로벌 스마트폰 + 스마트홈 + EV", "moatKo": "Xiaomi 브랜드 + 가성비 가치 포지셔닝", "luckVsSkillKo": "운(45%): 중국 스마트폰 시대. 실력(55%): 15년 공동 창립자 운영." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Xiaomi; former Vice President of Xiaomi; one of major China-tech billionaires.",
+    "knownForKo": "Xiaomi 공동 창립자; 전 Xiaomi 부사장; 주요 중국 기술 억만장자 중 한 명.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Xiaomi has faced US trade-restriction listings (CMC list) and standard Chinese tech-industry scrutiny.",
+    "controversiesKo": "Xiaomi가 미국 무역 제한 명단(CMC 명단)·표준 중국 기술 산업 감시 직면."
+  },
+  "characterKo": { "summaryKo": "Xiaomi 공동 창립자 + 중국 기술 메이저.", "tagsKo": ["Xiaomi 공동 창립자", "중국 스마트폰"] },
+  "failures": [
+    { "year": 2021, "description": "Brief US trade-restriction listing (later removed) affected operations.", "descriptionKo": "잠시 미국 무역 제한 명단(이후 제거)이 운영 영향.", "lesson": "Chinese tech faces geopolitical exposure.", "lessonKo": "중국 기술이 지정학적 노출 직면." },
+    { "year": 2023, "description": "Chinese smartphone market saturation.", "descriptionKo": "중국 스마트폰 시장 포화.", "lesson": "Mature markets compress growth.", "lessonKo": "성숙 시장이 성장 압축." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 7.0 }, { "year": 2022, "netWorth": 6.8 }, { "year": 2024, "netWorth": 9.5 }, { "year": 2025, "netWorth": 10.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Xiaomi makes premium products at people's prices.", "textKo": "Xiaomi는 사람들의 가격에 프리미엄 제품을 만든다.", "context": "Xiaomi positioning", "contextKo": "Xiaomi 포지셔닝", "source": "https://www.mi.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Chuk day pillar in Chuk month — 'siksin-gyeok', steady output.", "summaryKo": "신축 일주 + 축월 식신격은 Xiaomi 공동 창립자 안정적 자본 누적과 호응." }
+}

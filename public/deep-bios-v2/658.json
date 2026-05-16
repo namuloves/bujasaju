@@ -1,0 +1,41 @@
+{
+  "id": "658", "name": "Jeffrey Koo Jr", "nameKo": "제프리 구 주니어",
+  "netWorth": 6.0, "nationality": "TW", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Taipei, Taiwan", "birthPlaceKo": "대만 타이베이",
+    "familyBackground": "Born to Jeffrey Koo Sr. — founder of CTBC Holding (formerly Chinatrust), one of Taiwan's largest financial conglomerates. Koo family is a major Taiwanese business dynasty since the Japanese colonial era.",
+    "familyBackgroundKo": "CTBC Holding(이전 Chinatrust, 대만 최대 금융 그룹 중 하나) 창립자 제프리 구 시니어의 아들로 출생. Koo 가족이 일본 식민지 시대 이후 주요 대만 사업 왕조.",
+    "education": "Wharton School, University of Pennsylvania.", "educationKo": "펜실베이니아 대학교 와튼 스쿨.",
+    "earlyLife": "Trained at Wharton and entered family CTBC operations from his twenties; rose through banking leadership roles.",
+    "earlyLifeKo": "와튼에서 훈련 + 20대부터 가족 CTBC 운영 진입; 은행 리더십 역할을 거침.",
+    "source": "https://en.wikipedia.org/wiki/Koo_family ; https://www.ctbcbank.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "CTBC Holding 가족 지분 상속 + 운영." },
+  "careerTimeline": [
+    { "year": 1988, "age": 24, "event": "Entered family CTBC operations after Wharton.", "eventKo": "와튼 후 가족 CTBC 운영 진입.", "whyItMatteredKo": "다세대 금융 가족 진입." },
+    { "year": 2000, "age": 36, "event": "Promoted to senior leadership at CTBC; led overseas expansion.", "eventKo": "CTBC 시니어 리더십 승진; 해외 확장 주도.", "whyItMatteredKo": "글로벌 운영자 정체성." },
+    { "year": 2014, "age": 50, "event": "CTBC briefly engaged in family controversy over insider-trading allegations involving Tokyo Star Bank acquisition; Koo Jr. weathered the case.", "eventKo": "도쿄 스타 은행 인수 관련 내부자 거래 의혹의 가족 논란에 CTBC 잠시 관여; Koo Jr.가 사건 통과.", "whyItMatteredKo": "법적 위기 통과." },
+    { "year": 2020, "age": 56, "event": "Became chairman of CTBC Holding; led Taiwanese banking digital transformation.", "eventKo": "CTBC Holding 의장 취임; 대만 은행 디지털 전환 주도.", "whyItMatteredKo": "공식 가부장 정체성." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $6B per Forbes Real-Time. Continues as CTBC Holding chairman; Koo family wealth diversified across Taiwanese financial and industrial assets.", "eventKo": "포브스 실시간 기준 개인 순자산 60억 달러. CTBC Holding 의장 계속; Koo 가족 부가 대만 금융·산업 자산에 다각화.", "whyItMatteredKo": "30+년 가족 금융 가부장." }
+  ],
+  "turningPoints": [{ "year": 2020, "age": 56, "decisionKo": "CTBC Holding 의장 취임", "alternativeKo": "전문 경영진에 위임", "outcomeKo": "공식 가부장 정체성" }],
+  "moneyMechanics": { "primaryRevenueKo": "CTBC Holding 가족 지분", "industryKo": "은행·금융 서비스", "businessModelKo": "대만 통합 금융 서비스 + 해외 확장", "moatKo": "다세대 Koo 가족 금융 네트워크", "luckVsSkillKo": "운(50%): 가족 자본. 실력(50%): 30+년 가족 사업 운영." },
+  "personalTraits": {
+    "knownFor": "Chairman of CTBC Holding — one of Taiwan's largest financial conglomerates; second-generation Koo family heir.",
+    "knownForKo": "CTBC Holding(대만 최대 금융 그룹 중 하나) 의장; 2세대 Koo 가족 상속자.",
+    "philanthropy": "Koo Family Foundation supports Taiwanese education and arts.",
+    "philanthropyKo": "Koo 가족 재단이 대만 교육·예술 지원.",
+    "controversies": "2014 Tokyo Star Bank acquisition insider-trading allegations; Koo family business-political ties have drawn periodic Taiwan media commentary.",
+    "controversiesKo": "2014 도쿄 스타 은행 인수 내부자 거래 의혹; Koo 가족의 사업-정치 관계가 주기적 대만 미디어 코멘터리."
+  },
+  "characterKo": { "summaryKo": "2세대 대만 금융 가부장.", "tagsKo": ["Koo 2세대", "CTBC", "대만 금융", "와튼"] },
+  "failures": [
+    { "year": 2014, "description": "Tokyo Star Bank acquisition controversies and family-business legal exposure.", "descriptionKo": "도쿄 스타 은행 인수 논란·가족 사업 법적 노출.", "lesson": "Family-business legal exposure compounds across decades.", "lessonKo": "가족 사업 법적 노출은 수십 년에 걸쳐 누적된다." },
+    { "year": 2022, "description": "Taiwan rising interest rate environment compressed banking margins.", "descriptionKo": "대만 금리 상승 환경이 은행 마진 압축.", "lesson": "Banking margins are macro-driven regardless of operational quality.", "lessonKo": "은행 마진은 운영 품질과 무관하게 거시 주도된다." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 1.7 }, { "year": 2022, "netWorth": 3.5 }, { "year": 2024, "netWorth": 5.7 }, { "year": 2025, "netWorth": 6.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Banking is multi-generational trust.", "textKo": "은행업은 다세대 신뢰이다.", "context": "Koo family banking philosophy", "contextKo": "Koo 가족 은행 철학", "source": "https://www.ctbcbank.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Sa day pillar in Mi month — 'pyeonin-gyeok', maternal-academic support, fitting multi-generational family-business heir.", "summaryKo": "신사 일주 + 미월 편인격은 다세대 가족 학문 자본 위 가부장 정체성과 호응." }
+}

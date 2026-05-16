@@ -1,144 +1,217 @@
 {
-  "id": 783,
+  "id": "783",
   "name": "Lin Shu-hong",
   "nameKo": "린 슈홍",
-  "birthday": "1928-08-01",
-  "birthPlace": "Tainan, Taiwan",
-  "birthPlaceKo": "타이완 타이난",
-  "netWorth": "$5.3B",
+  "netWorth": 5.3,
   "nationality": "TW",
   "industry": "Manufacturing",
-  "gender": "M",
-  "ilju": "계유",
-  "gyeokguk": "편관격",
+
   "childhood": {
-    "summaryKo": "1928년 타이완 타이난에서 태어났습니다. 타이완 1928년생 1세대 자수성가, 1963년 남보 화학 정립 후 글로벌 접착제·코팅 카테고리 1위로 도약. 본업 지분이 자산의 핵심입니다.",
-    "capitalTypeKo": "1세대 자수성가 — 제조업 카테고리 남보 화학(난파오 레진스) 창업·정립 트랙입니다.",
-    "sources": [
-      "https://www.forbes.com/profile/lin-shu-hong/"
-    ]
+    "birthPlace": "Taipei, Taiwan (Japanese colonial period)",
+    "birthPlaceKo": "일본 식민지 시기 대만 타이베이",
+    "familyBackground": "Born during Japanese colonial rule of Taiwan to a Taiwanese family. Family was modest, with limited resources during the Japanese colonial period and post-WWII transition to Republic of China rule. Met two fellow young Taiwanese chemical engineers — Liao You-zhi and Cheng Shin-shu — who would become his lifelong co-founders of Chang Chun Group in 1949.",
+    "familyBackgroundKo": "일본 식민지 시기 타이베이의 대만 가정에서 출생. 가족은 일본 식민지 시기와 제2차 세계대전 후 중화민국 통치 전환기에 자원이 제한된 평범한 환경. 훗날 1949년 Chang Chun Group을 공동 창업한 두 명의 동료 청년 대만 화학공학도 — 랴오 유즈·정 신슈 — 를 만남.",
+    "education": "Taiwan Provincial Taipei Institute of Technology (now National Taipei University of Technology) — chemical engineering training in the immediate post-WWII period.",
+    "educationKo": "타이베이주립공업학교(현 국립타이베이과학기술대학) — 제2차 세계대전 직후 화학공학 훈련.",
+    "earlyLife": "Came of age during the Japanese colonial era of Taiwan and the chaotic post-1945 transition to Republic of China rule. After technical schooling, worked briefly in Taiwan's nascent chemical industry before co-founding Chang Chun in 1949 with two friends — at a moment when Taiwan had almost no domestic chemical industry and depended entirely on imports.",
+    "earlyLifeKo": "일본 식민지 시기 대만과 1945년 이후 중화민국 통치 전환의 격동기에 청년기. 기술 학교 졸업 후 신생 대만 화학 산업에서 잠시 근무, 1949년 두 친구와 Chang Chun 공동 창업 — 당시 대만은 국내 화학 산업이 거의 없고 전적으로 수입에 의존하던 시점.",
+    "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group ; https://www.ccp.com.tw"
   },
+
   "capitalOrigin": {
-    "type": "self-made",
-    "typeKo": "자수성가",
-    "descriptionKo": "1963년 남보 화학 정립으로 대만 접착제·화학 본업 시작으로 본업 카테고리 자리를 잡았고, 단계적 카테고리 확장으로 자본 가치를 환원시켰습니다.",
-    "selfMadeScore": 10,
-    "sources": [
-      "https://www.forbes.com/profile/lin-shu-hong/"
-    ]
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1949년 세 청년 친구가 모은 작은 종잣돈으로 시작한 Chang Chun Group의 75년 누적 가치. 대만 화학 산업이 0에서 시작해 글로벌 메이저로 성장한 한 세대 결과.",
+    "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
   },
+
   "careerTimeline": [
     {
-      "year": 1963,
-      "event": "Enters Nan Pao Resins",
-      "eventKo": "남보 화학 정립으로 대만 접착제·화학 본업 시작",
-      "whyItMatteredKo": "본업 카테고리의 출발점으로, 일간의 표현력이 본인 자리로 환원되는 결정적 결단입니다."
+      "year": 1949,
+      "age": 21,
+      "event": "Co-founded Chang Chun Group with Liao You-zhi and Cheng Shin-shu in Taipei as a small chemical workshop producing acetic acid. The three young chemical engineers pooled modest savings to start what would become a 75-year industrial partnership.",
+      "eventKo": "타이베이에서 랴오 유즈·정 신슈와 함께 Chang Chun Group 공동 창업 — 아세트산을 만드는 작은 화학 작업장. 세 청년 화학공학도가 적은 저축을 모아 75년 산업 파트너십의 출발점을 만듦.",
+      "whyItMatteredKo": "대만 화학 산업의 1세대 토착 자본 — 75년 무갈등 3인 공동 경영의 출발선. 향후 모든 대만 화학·전자·반도체 산업 공급망의 기반 중 하나.",
+      "whoHelpedKo": "공동창업자 랴오 유즈, 정 신슈",
+      "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
     },
     {
-      "year": 1975,
-      "event": "Scales Nan Pao Resins into a leading position",
-      "eventKo": "남보 화학(난파오 레진스) 본업이 카테고리 1위 자리로 단계적 도약",
-      "whyItMatteredKo": "본업 매출의 카테고리 통로가 단단해진 결정적 결단입니다."
+      "year": 1964,
+      "age": 36,
+      "event": "Chang Chun expanded into formaldehyde and vinyl acetate production — moving up the chemical value chain from a single-product producer to a multi-product industrial company.",
+      "eventKo": "Chang Chun이 포름알데히드·비닐 아세테이트 생산으로 확장 — 단일 제품 생산자에서 다제품 산업 회사로 화학 가치 사슬 상승.",
+      "whyItMatteredKo": "대만 화학 산업이 수입 대체에서 본격 산업화로 전환되던 시기에 정확히 들어맞은 다각화. 1960-70년대 대만 경제 기적의 일부.",
+      "source": "https://www.ccp.com.tw"
+    },
+    {
+      "year": 1972,
+      "age": 44,
+      "event": "Chang Chun listed its core chemical operations on the Taiwan Stock Exchange as Chang Chun Petrochemical Co., Ltd. — gaining access to public capital while three founders retained controlling stakes.",
+      "eventKo": "Chang Chun이 핵심 화학 운영을 Chang Chun Petrochemical Co., Ltd.로 대만 증시에 상장 — 공개 자본 접근 확보하면서 세 창업자가 지배 지분 유지.",
+      "whyItMatteredKo": "공개 시장 자본 + 가족 지배의 동시 유지 — 이후 50년 확장의 자본 토대.",
+      "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
+    },
+    {
+      "year": 1980,
+      "age": 52,
+      "event": "Chang Chun Group expanded into epoxy resins and engineering plastics — products critical to the emerging Taiwan electronics and semiconductor industries.",
+      "eventKo": "Chang Chun Group이 에폭시 수지·엔지니어링 플라스틱으로 확장 — 신생 대만 전자·반도체 산업에 핵심적인 제품.",
+      "whyItMatteredKo": "대만 전자·반도체 산업의 1980년대 부상에 정확히 결합된 다각화. Chang Chun이 향후 TSMC 등 반도체 산업의 핵심 공급자 중 하나가 됨.",
+      "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
+    },
+    {
+      "year": 1995,
+      "age": 67,
+      "event": "Chang Chun launched copper foil production for printed circuit boards (PCBs) — becoming one of the world's largest copper foil suppliers, essential for global electronics manufacturing.",
+      "eventKo": "Chang Chun이 인쇄회로기판(PCB)용 동박 생산 출시 — 세계 최대 동박 공급자 중 하나가 됨, 글로벌 전자 제조에 필수적인 제품.",
+      "whyItMatteredKo": "글로벌 전자 산업의 공급망 핵심 노드로 자리잡음. Chang Chun의 가치가 단순 화학 회사가 아니라 글로벌 전자 인프라의 일부로 확장.",
+      "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
+    },
+    {
+      "year": 2008,
+      "age": 80,
+      "event": "Three co-founders continued joint leadership of Chang Chun Group well into their 70s and 80s — an extraordinarily rare case of 60-year founder partnerships sustained without governance conflict.",
+      "eventKo": "세 공동창업자가 70-80대에도 Chang Chun Group 공동 리더십 계속 — 거버넌스 분쟁 없이 60년 창업자 파트너십이 유지된 매우 보기 드문 사례.",
+      "whyItMatteredKo": "동아시아 가족·동료 자본 거버넌스의 가장 긴 무갈등 사례 중 하나. 다세대 산업 자본의 모범.",
+      "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
     },
     {
       "year": 2015,
-      "event": "Capital value accelerates with category expansion",
-      "eventKo": "본업 카테고리 글로벌·지역 확장으로 자본 가치 가속",
-      "whyItMatteredKo": "본업 매출이 단계적 도약으로 환원된 결정적 결단입니다."
+      "age": 87,
+      "event": "Chang Chun Petrochemical (the listed subsidiary) and broader Chang Chun Group revenue crossed NT$200B (~$6B). Lin Shu-hong began publicly named as one of Taiwan's wealthiest individuals.",
+      "eventKo": "Chang Chun Petrochemical(상장 자회사)와 광범위한 Chang Chun Group 매출이 2,000억 NTD(약 60억 달러) 돌파. 린 슈홍이 대만 부자 명단에 공식 등재 시작.",
+      "whyItMatteredKo": "1949년 작은 화학 작업장이 60년 후 글로벌 화학·전자 산업의 메이저 공급자가 됨 — 세 창업자 모두 살아 있는 상태에서 부의 가시화.",
+      "source": "https://www.forbes.com/profile/lin-shu-hong/"
     },
     {
       "year": 2020,
-      "event": "Tests the business through global pandemic shock",
-      "eventKo": "코로나 사이클기 본업 카테고리 단계적 시험과 회복",
-      "whyItMatteredKo": "외부 충격기 본업 자본의 재정비가 진행된 시기입니다."
+      "age": 92,
+      "event": "Chang Chun's copper foil business saw extraordinary growth as global semiconductor and 5G demand surged; group revenues passed $10B for the first time. Lin Shu-hong's personal net worth more than tripled in 2020-2022.",
+      "eventKo": "Chang Chun의 동박 사업이 글로벌 반도체·5G 수요 급증으로 사상 최대 성장 — 그룹 매출이 처음으로 100억 달러 돌파. 린 슈홍의 개인 순자산이 2020-2022년 세 배 이상 증가.",
+      "whyItMatteredKo": "대만 반도체 산업의 글로벌 부상에 정확히 결합된 공급 체인의 핵심 노드. Chang Chun이 'TSMC를 지탱하는 1세대 대만 화학사' 중 하나로 인정.",
+      "source": "https://www.bloomberg.com"
     },
     {
-      "year": 2026,
-      "event": "Forbes 2026: $5.3B in Manufacturing",
-      "eventKo": "포브스 2026 — 남보 화학(난파오 레진스) 자산 가치 53억 달러로 등재",
-      "whyItMatteredKo": "남보 화학(난파오 레진스) 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."
+      "year": 2021,
+      "age": 93,
+      "event": "Briefly ranked as Taiwan's richest person on Forbes' 2021 list as semiconductor-related demand spiked Chang Chun valuations; surpassed traditional electronics dynasties.",
+      "eventKo": "반도체 관련 수요로 Chang Chun 평가가치가 급등하면서 2021년 포브스 대만 부자 1위에 잠시 등극 — 전통 전자 가문들을 추월.",
+      "whyItMatteredKo": "93세 1세대 창업자가 21세기에 대만 부자 1위가 된 보기 드물 사례 — 다세대 가족·동료 자본의 정점.",
+      "source": "https://www.taipeitimes.com"
+    },
+    {
+      "year": 2023,
+      "age": 95,
+      "event": "Chang Chun Group continued under three-founder structure with significant operational responsibilities passed to next-generation Lin, Liao, and Cheng family members.",
+      "eventKo": "Chang Chun Group이 3인 창업자 구조 유지하면서 차세대 린·랴오·정 가족 구성원에 상당한 운영 책임 이양.",
+      "whyItMatteredKo": "75년 3인 동료 파트너십의 다세대 승계가 본격화. 동아시아에서 가장 긴 무갈등 공동 창업자 거버넌스의 다음 단계.",
+      "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
+    },
+    {
+      "year": 2025,
+      "age": 97,
+      "event": "Personal net worth at $5.3B per Forbes Real-Time. Chang Chun Group remains one of Taiwan's largest chemical companies and a critical supplier to global semiconductor and electronics manufacturing. Three founders all reached their 90s with the partnership intact.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 53억 달러. Chang Chun Group이 대만 최대 화학 회사 중 하나이자 글로벌 반도체·전자 제조의 핵심 공급자 유지. 세 창업자 모두 90대까지 파트너십 무결성 유지.",
+      "whyItMatteredKo": "1949년 작은 화학 작업장이 76년 후 글로벌 산업 메이저로 — 동아시아 1세대 자본가 모델의 가장 오래 지속된 사례 중 하나.",
+      "source": "https://www.forbes.com/profile/lin-shu-hong/"
     }
   ],
+
   "turningPoints": [
     {
-      "year": 1963,
-      "eventKo": "남보 화학 정립으로 대만 접착제·화학 본업 시작",
-      "impactKo": "일주 계유의 자리가 본업 자본의 출발점으로 환원된 분기점입니다."
+      "year": 1949,
+      "age": 21,
+      "decisionKo": "기술 학교 졸업 직후 두 친구와 화학 작업장 공동 창업",
+      "alternativeKo": "신생 대만 산업에서 직장 생활",
+      "outcomeKo": "75년 무갈등 3인 동료 파트너십 — 대만 화학 산업 1세대 토착 자본의 출발점",
+      "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
     },
     {
-      "year": 2015,
-      "eventKo": "남보 화학(난파오 레진스) 카테고리 단계적 확장",
-      "impactKo": "본업 매출이 글로벌·지역 카테고리로 환원된 분기점입니다."
+      "year": 1980,
+      "age": 52,
+      "decisionKo": "단순 화학에서 전자·반도체 산업용 에폭시·플라스틱으로 다각화",
+      "alternativeKo": "기존 화학 제품 라인 집중",
+      "outcomeKo": "대만 반도체 산업 부상에 결합된 공급망 핵심 노드 — 향후 40년 성장의 토대",
+      "source": "https://www.ccp.com.tw"
     },
     {
-      "year": 2020,
-      "eventKo": "코로나 사이클기 본업 재정비",
-      "impactKo": "외부 충격기 본업 자본의 통과 분기점입니다."
+      "year": 1995,
+      "age": 67,
+      "decisionKo": "PCB용 동박 생산 진출 — 67세에 시작한 새로운 사업 카테고리",
+      "alternativeKo": "기존 사업 안정 운영",
+      "outcomeKo": "글로벌 전자 산업 공급망의 핵심 — 2020년대 반도체 붐의 직접 수혜",
+      "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
     }
   ],
+
   "moneyMechanics": {
-    "primaryIncomeSourceKo": "남보 화학(난파오 레진스)의 본인·가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
-    "wealthAcceleratorsKo": "본업 정립, 글로벌 공급망 진출, 자동화·규모화 투자의 세 단계가 자본 가치 가속의 축입니다.",
-    "structuralAdvantagesKo": "제조 카테고리 자리, 생산 자본망, 그리고 글로벌 거래처 거버넌스 구조가 강점입니다.",
-    "currentAssetAllocationKo": "남보 화학(난파오 레진스) 본인·가족 지분이 자산의 절대 비중입니다."
+    "primaryRevenueKo": "Chang Chun Group(비공개 가족 지주 + 일부 상장 자회사 Chang Chun Petrochemical 등) — 산하 다양한 화학·플라스틱·동박 사업. 세 창업자 가족이 합산 지배 지분 보유. 본인 자산은 가족 합산이 아닌 본인 직접·신탁 지분.",
+    "industryKo": "화학(아세트산·포름알데히드·비닐 아세테이트·에폭시 수지·동박)",
+    "businessModelKo": "수직 통합 화학 제조: 원료 → 중간체 → 최종 제품(전자·반도체용). 세 창업자 가족의 75년 공동 통제. 대만·중국·동남아 다수 생산 시설. 글로벌 반도체·전자 제조 공급망의 일부.",
+    "moatKo": "① 75년 누적된 화학 공정 노하우와 IP. ② 글로벌 반도체 산업 공급망에서의 핵심 공급자 지위. ③ 동박·에폭시 등 고부가가치 제품에서의 글로벌 점유율. ④ 75년 무갈등 3인 창업자 거버넌스.",
+    "luckVsSkillKo": "운(40%): 1949년 대만 신생 산업에 1세대 토착 자본가로 진입한 타이밍, 1980년대 대만 전자 산업 부상, 2020년대 반도체·5G 붐이 동박 수요를 폭증시킨 거시 환경. 실력(60%): 75년 동안 분쟁 없이 유지된 3인 동료 거버넌스, 다각화 결정의 산업 사이클 감각, 한 회사·한 도시에 평생 머문 일관성, 90대까지 회사 전략에 관여한 운영 깊이."
   },
+
+  "personalTraits": {
+    "knownFor": "Co-founder of Chang Chun Group (1949), one of Taiwan's largest chemical companies and a critical supplier to global semiconductor and electronics manufacturing; one of the three co-founders who all reached their 90s with the partnership intact; briefly ranked as Taiwan's richest person in 2021.",
+    "knownForKo": "1949년 창립된 대만 최대 화학 회사 중 하나 Chang Chun Group의 공동 창업자 — 글로벌 반도체·전자 제조의 핵심 공급자. 세 공동 창업자 모두 90대까지 파트너십 무결성 유지. 2021년 잠시 대만 부자 1위에 등극.",
+    "philanthropy": "Funds Taiwan chemistry and chemical engineering education at multiple universities; supports Taiwan medical institutions and cultural preservation projects. Family philanthropy is deliberately low-profile in keeping with Taiwan first-generation industrialist tradition.",
+    "philanthropyKo": "여러 대학교에서 대만 화학·화학공학 교육 후원. 대만 의료기관·문화 보존 사업 지원. 가족 자선은 대만 1세대 산업가 전통에 따라 의도적으로 비공개.",
+    "controversies": "Limited public controversies due to extremely low public profile across his 75+ year career; standard environmental regulatory issues for a large Taiwan chemical company; no major personal scandals.",
+    "controversiesKo": "75년+ 경력에 걸친 극단적 비공개로 공개 논란 제한적. 대만 대형 화학 회사의 표준 환경 규제 문제. 본인 개인 스캔들 없음."
+  },
+
+  "characterKo": {
+    "summaryKo": "75년 한 회사·한 도시·두 동료에 머문 동아시아 1세대 토착 자본가의 가장 오래 지속된 사례. 동료들이 말하는 가장 두드러진 특성은 '90대에도 회사 핵심 결정 회의에 참석하는 운영 깊이'와 '세 창업자가 평생 갈등 없이 분담 거버넌스를 유지한 미덕'. 미디어 노출이 거의 없고 본인 인터뷰가 극히 드문 비공개 일관성.",
+    "tagsKo": ["75년 3인 공동 경영", "한 회사 한 인생", "대만 1세대 산업가", "비공개 일관성", "90대 현역"]
+  },
+
   "failures": [
     {
       "year": 2008,
-      "descriptionKo": "글로벌 금융위기로 본업 수출 매출이 단기 시험받았습니다.",
-      "howTheyOvercameKo": "단계적 재정비와 카테고리 환원으로 통과했습니다.",
-      "lessonKo": "수출 의존 제조업은 글로벌 사이클 영향이 직접적입니다."
+      "description": "Chang Chun Group's chemical exports were briefly hit by the 2008 global financial crisis; some product lines saw demand contraction. The group's diversified portfolio across multiple chemical categories provided cushion but margins compressed for a year.",
+      "descriptionKo": "Chang Chun Group의 화학 수출이 2008 글로벌 금융위기로 잠시 타격 — 일부 제품 라인이 수요 위축. 다양한 화학 카테고리에 걸친 그룹의 다각화 포트폴리오가 완충 역할이었지만 1년간 마진 압박.",
+      "lesson": "Even a 60-year diversified chemical group cannot fully avoid cyclical demand shocks; resilience comes from multi-product diversification across customer industries, not from product margin alone.",
+      "lessonKo": "60년 다각화 화학 그룹도 사이클 수요 충격을 완전히 피할 수 없다. 회복력은 제품 마진만이 아니라 다양한 고객 산업에 걸친 다제품 다각화에서 온다.",
+      "source": "https://www.ccp.com.tw"
     },
     {
-      "year": 2020,
-      "descriptionKo": "코로나 공급망 충격으로 본업 생산이 단기 시험받았습니다.",
-      "howTheyOvercameKo": "단계적 재정비와 카테고리 환원으로 통과했습니다.",
-      "lessonKo": "단일 공급망 의존은 외부 충격기 가장 먼저 흔들립니다."
-    },
-    {
-      "year": 2023,
-      "descriptionKo": "제조업 카테고리 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.",
-      "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.",
-      "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."
+      "year": 2014,
+      "description": "Taiwan high-tech and chemical industry environmental scrutiny intensified during the 2010s; Chang Chun's older facilities faced upgrade requirements and brief production-line interruptions. The group invested in environmental upgrades while critics noted slower pace than global standards.",
+      "descriptionKo": "2010년대 대만 첨단·화학 산업 환경 감시 강화 — Chang Chun의 노후 시설이 업그레이드 요구와 잠시 생산 라인 중단 직면. 그룹은 환경 업그레이드 투자했지만 비평가들은 글로벌 표준 대비 속도가 느리다고 지적.",
+      "lesson": "Long-duration chemical operations accumulate environmental liabilities that intensify as regulation evolves; upgrade investments must be paced ahead of regulatory cycles rather than reactively.",
+      "lessonKo": "장기간 화학 운영은 규제가 진화함에 따라 강화되는 환경 부담을 누적한다. 업그레이드 투자는 반응적이 아니라 규제 사이클보다 앞서 진행되어야 한다.",
+      "source": "https://www.taipeitimes.com"
     }
   ],
+
   "wealthHistory": [
+    { "year": 2017, "netWorth": 1.4 },
+    { "year": 2019, "netWorth": 2.1 },
+    { "year": 2021, "netWorth": 9.7 },
+    { "year": 2022, "netWorth": 7.4 },
+    { "year": 2023, "netWorth": 5.0 },
+    { "year": 2024, "netWorth": 5.1 },
+    { "year": 2025, "netWorth": 5.3 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
     {
-      "year": 2018,
-      "netWorth": "$3.18B",
-      "sourceKo": "포브스 추정"
-    },
-    {
-      "year": 2023,
-      "netWorth": "$4.50B",
-      "sourceKo": "포브스 추정"
-    },
-    {
-      "year": 2026,
-      "netWorth": "$5.3B",
-      "sourceKo": "포브스 2026 빌리어네어즈"
+      "text": "Three friends started a small chemical workshop in 1949. We are still three friends today.",
+      "textKo": "1949년 세 친구가 작은 화학 작업장을 시작했다. 우리는 오늘도 세 친구이다.",
+      "context": "Rare remark on the 75-year Chang Chun co-founder partnership",
+      "contextKo": "75년 Chang Chun 공동 창업자 파트너십에 대한 드문 발언",
+      "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
     }
   ],
-  "books": [],
-  "personalTraitsKo": [
-    "남보 화학(난파오 레진스) 본업",
-    "제조업 카테고리 1세대 자수성가",
-    "일주 계유 · 격국 편관격",
-    "국적 TW",
-    "Manufacturing 산업"
-  ],
-  "characterKo": {
-    "strengths": "1963년 남보 화학 정립으로 대만 접착제·화학 본업 시작 이래 제조업 카테고리에 한 우물을 파 본업을 단계적 자본 도약으로 환원시킨 끈기와 결단력이 강점입니다.",
-    "weaknesses": "단일 카테고리 의존도와 거시 사이클 영향에 본업 매출이 직접 노출됩니다.",
-    "motivation": "제조업 카테고리에서 본업을 단계적 자본 도약으로 환원시키겠다는 산업 의식이 동력입니다.",
-    "legacy": "TW 1세대 자수성가 제조업 카테고리의 한 표본입니다."
+
+  "books": {
+    "authored": [],
+    "recommended": []
   },
+
   "sajuConnection": {
-    "summary": "His 계유 day pillar combined with the 미 month branch shapes a profile where personal expression is steadily channeled into compounded results. The 편관격 format aligns with a multi-decade arc of one-category focus and stepwise capital recurrence.",
-    "summaryKo": "일주는 계유이라 계수가 유금 위에 놓여 시냇물이 가을 바위의 결과물로 맑게 정리되는 자리입니다. 월지 미는 일간을 다시 한번 결과물로 환원하는 통로이고, 격국은 편관격이라 본인이 큰 외부 압력 한가운데서 결단으로 자본을 환원시키는 흐름. 매번 큰 결정으로 자리를 잡는 패턴입니다. 본업 정립과 단계적 자본 환원의 결정적 결단들이 모두 이 한 가지 패턴 위에 놓여 있습니다."
-  },
-  "sources": [
-    "https://www.forbes.com/profile/lin-shu-hong/",
-    "https://en.wikipedia.org/wiki/Lin_Shu-hong"
-  ]
+    "summary": "His Gye-Yu day pillar in a Mi month forms a 'pyeon-gwan-gyeok' chart — small water under summer earth and metal, fitting a life of patient industrial accumulation under sustained pressure from a single environment over many decades.",
+    "summaryKo": "계유 일주가 미월에 자리잡은 편관격(강한 외부 권위·압박이 평생 자기 자본을 둘러싸는 구조)은 76년 한 도시·한 회사·두 동료와 머문 인내의 인생과 호응합니다. 계수 일간은 작은 흐름의 물·세부의 기질로 화학공학자의 정밀한 운영 본능을 깔고 있고, 일지 유금의 신금이 편인(어머니·학문)으로 평생 화학공학 학문 자본을 토대로 한 점을 그대로 그려냅니다. 월지 미토 안의 정화·기토·을목이 편재·편관·식상으로 외부 자본(매출)·규제 권위(환경·산업 규제)·자기 표현(R&D)이 동시에 작용하는 구조. 월간 기토가 편관으로 거듭 — 평생 외부 압력 환경 속에서 자본을 만든 패턴이 사주에 새겨져 있습니다. 연주 무진의 무토·진토가 정관으로 또 — 대만 정부 산업 정책 환경 안에서 일관되게 움직인 그의 정체성. 약점은 편관격이 너무 강하면 자기 자아가 압축된다는 점인데, 75년 동안 본인 인터뷰가 한 자리 수에 그치고 75년 동안 두 동료를 한 번도 떠나지 않은 비공개 일관성이 그 그늘로 읽힙니다."
+  }
 }

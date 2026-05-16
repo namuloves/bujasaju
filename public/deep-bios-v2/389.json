@@ -1,0 +1,39 @@
+{
+  "id": "389", "name": "Otto Toto Sugiri", "nameKo": "오토 토토 수기리",
+  "netWorth": 8.7, "nationality": "ID", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Bandung, Indonesia", "birthPlaceKo": "인도네시아 반둥",
+    "familyBackground": "Born to Chinese-Indonesian family; engineering-focused upbringing in West Java.",
+    "familyBackgroundKo": "화교 인도네시아인 가정에서 출생; 서자바에서 공학 중심 양육.",
+    "education": "Engineering degree in West Germany during 1970s.", "educationKo": "1970년대 서독에서 공학 학위.",
+    "earlyLife": "Worked in early Indonesian IT industry in 1980s-90s; co-founded data center DCI Indonesia in 2011 as Indonesia's data infrastructure became critical.",
+    "earlyLifeKo": "1980-90년대 초기 인도네시아 IT 산업에서 근무; 2011년 인도네시아 데이터 인프라가 핵심이 되면서 데이터 센터 DCI Indonesia 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Otto_Toto_Sugiri ; https://www.dci-indonesia.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "1세대 인도네시아 IT 자수성가 + DCI Indonesia 가치." },
+  "careerTimeline": [
+    { "year": 2011, "age": 58, "event": "Co-founded DCI Indonesia — first Tier 4 data center in Indonesia.", "eventKo": "DCI Indonesia 공동 창립 — 인도네시아 첫 Tier 4 데이터 센터.", "whyItMatteredKo": "인도네시아 데이터 인프라 시대 출발선." },
+    { "year": 2021, "age": 68, "event": "DCI Indonesia IPO on IDX — became Asia's best-performing IPO of 2021 with stock surging over 10,000%.", "eventKo": "DCI Indonesia IDX IPO — 주가가 10,000%+ 급등하며 2021 아시아 최고 성과 IPO.", "whyItMatteredKo": "단일 IPO 폭증의 결정적 단계." },
+    { "year": 2023, "age": 70, "event": "DCI Indonesia continued expansion as Indonesian cloud and AI demand surged; backed by Salim Group and other Indonesian conglomerates.", "eventKo": "인도네시아 클라우드·AI 수요 급증으로 DCI Indonesia 확장 계속; Salim Group·기타 인도네시아 그룹 후원.", "whyItMatteredKo": "AI 시대 데이터 센터 수요 수혜." },
+    { "year": 2025, "age": 72, "event": "Personal net worth at $8.7B per Forbes Real-Time. Continues DCI Indonesia leadership.", "eventKo": "포브스 실시간 기준 개인 순자산 87억 달러. DCI Indonesia 리더십 계속.", "whyItMatteredKo": "1세대 인도네시아 IT 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 2011, "age": 58, "decisionKo": "58세에 DCI Indonesia 공동 창립", "alternativeKo": "은퇴", "outcomeKo": "10년 후 10,000%+ IPO" }],
+  "moneyMechanics": { "primaryRevenueKo": "DCI Indonesia(IDX) 지분", "industryKo": "데이터 센터·클라우드 인프라", "businessModelKo": "Tier 4 인도네시아 데이터 센터 + AI/클라우드 수요", "moatKo": "인도네시아 첫 Tier 4 데이터 센터", "luckVsSkillKo": "운(60%): 인도네시아 데이터 시대. 실력(40%): 58세 늦은 창업 결단." },
+  "personalTraits": {
+    "knownFor": "Co-founder of DCI Indonesia — Indonesia's first Tier 4 data center; benefited from 2021 IDX IPO that became Asia's best-performing IPO.",
+    "knownForKo": "DCI Indonesia(인도네시아 첫 Tier 4 데이터 센터) 공동 창립자; 2021 IDX IPO가 아시아 최고 성과 IPO가 된 수혜자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "DCI Indonesia stock volatility and Indonesian Capital Markets Authority scrutiny over 2021 trading spike.",
+    "controversiesKo": "DCI Indonesia 주가 변동성과 2021 거래 급등에 대한 인도네시아 자본 시장 당국 감시."
+  },
+  "characterKo": { "summaryKo": "58세 늦은 창업의 인도네시아 1세대 IT 자수성가.", "tagsKo": ["DCI Indonesia", "58세 창업자", "AI 데이터 센터"] },
+  "failures": [
+    { "year": 2022, "description": "DCI Indonesia stock volatility prompted regulatory scrutiny over potential market manipulation.", "descriptionKo": "DCI Indonesia 주가 변동성이 시장 조작 가능성에 대한 규제 감시 야기.", "lesson": "Single-stock IPO spikes invite regulatory scrutiny.", "lessonKo": "단일 주식 IPO 급등은 규제 감시 야기." },
+    { "year": 2023, "description": "Competitive pressure from international cloud providers entering Indonesia.", "descriptionKo": "국제 클라우드 제공자의 인도네시아 진입으로부터 경쟁 압박.", "lesson": "Domestic data-center monopoly cannot fully defend against global cloud entry.", "lessonKo": "국내 데이터 센터 독점은 글로벌 클라우드 진입을 완전히 방어할 수 없다." }
+  ],
+  "wealthHistory": [{ "year": 2021, "netWorth": 3.0 }, { "year": 2023, "netWorth": 6.0 }, { "year": 2024, "netWorth": 7.5 }, { "year": 2025, "netWorth": 8.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Indonesia needed its own data infrastructure. We built it at 58.", "textKo": "인도네시아는 자체 데이터 인프라가 필요했다. 우리는 58세에 그것을 만들었다.", "context": "On founding DCI Indonesia", "contextKo": "DCI Indonesia 창립에 대해", "source": "https://www.dci-indonesia.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Chuk day pillar in Yu month — 'pyeonjae-gyeok', large external capital, fitting late-life founder of a high-growth data infrastructure company.", "summaryKo": "정축 일주 + 유월 편재격은 58세 늦은 창업으로 거대 자본 사이클 수혜한 인생과 호응." }
+}

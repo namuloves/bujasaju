@@ -1,0 +1,69 @@
+{
+  "id": "548",
+  "name": "Michael Moritz",
+  "nameKo": "마이클 조너선 모리츠",
+  "netWorth": 6.9,
+  "nationality": "US",
+  "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Cardiff, Wales, UK",
+    "birthPlaceKo": "영국 웨일스 카디프",
+    "familyBackground": "Born to a Welsh-Jewish family in Cardiff; father was a refugee from Nazi Germany who taught medieval history at Cardiff University. Middle-class academic family, no inherited capital.",
+    "familyBackgroundKo": "카디프의 웨일스-유대인 가정에서 출생; 아버지는 카디프 대학교에서 중세사를 가르친 나치 독일 난민. 중산층 학자 가정, 상속 자본 없음.",
+    "education": "Christ Church, Oxford (history); MBA from Wharton School. Originally trained as journalist.",
+    "educationKo": "옥스퍼드 크라이스트 처치(역사학); 와튼 스쿨 MBA. 원래 언론인 훈련.",
+    "earlyLife": "Worked as Time magazine technology correspondent in Silicon Valley in 1980s; authored 'The Little Kingdom' (1984) — biography of Steve Jobs and early Apple. Journalism gave him deep access to Silicon Valley founders that he would later use as VC.",
+    "earlyLifeKo": "1980년대 실리콘밸리에서 Time 잡지 기술 특파원으로 근무; 'The Little Kingdom'(1984) — 스티브 잡스와 초기 애플 전기 — 저술. 언론인 활동이 실리콘밸리 창업자들과의 깊은 접근권을 제공, 향후 VC로서 활용.",
+    "source": "https://en.wikipedia.org/wiki/Michael_Moritz ; https://www.sequoiacap.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "100% 자수성가. 1986년 Sequoia Capital 합류 후 30년 누적된 carry — Yahoo·Google·PayPal·LinkedIn·Stripe 등 초기 투자 결정." },
+  "careerTimeline": [
+    { "year": 1986, "age": 32, "event": "Joined Sequoia Capital as partner — transitioned from journalism to venture capital.", "eventKo": "Sequoia Capital 파트너 합류 — 언론에서 VC로 전환.", "whyItMatteredKo": "실리콘밸리 1티어 VC의 시니어 파트너 자리 — 30년 carry 누적의 출발선." },
+    { "year": 1995, "age": 41, "event": "Led Sequoia's investment in Yahoo!; the company's 1996 IPO became one of the most successful early-internet returns.", "eventKo": "Sequoia의 Yahoo! 투자 주도; 회사의 1996 IPO가 초기 인터넷 가장 성공적 수익 중 하나가 됨.", "whyItMatteredKo": "VC 평판의 결정적 단계." },
+    { "year": 1999, "age": 45, "event": "Co-led Sequoia's investment in Google with John Doerr (Kleiner Perkins) — investing $12.5M for ~10% stake; one of the most successful VC returns in history.", "eventKo": "John Doerr(Kleiner Perkins)와 Sequoia의 Google 투자 공동 주도 — 약 10% 지분에 1,250만 달러 투자; 역사상 가장 성공적인 VC 수익 중 하나.", "whyItMatteredKo": "평생 carry의 가장 큰 단일 결정." },
+    { "year": 2002, "age": 48, "event": "Invested in PayPal pre-eBay-acquisition; later invested in LinkedIn, YouTube, and other key Web 2.0 companies through Sequoia.", "eventKo": "eBay 인수 전 PayPal 투자; 이후 Sequoia 통해 LinkedIn·YouTube·기타 핵심 Web 2.0 회사 투자.", "whyItMatteredKo": "다수의 메가 성공 누적 — VC 명성 최고조." },
+    { "year": 2010, "age": 56, "event": "Diagnosed with rare medical condition that doctors estimated would limit his remaining productive years; announced gradual transition from day-to-day Sequoia roles.", "eventKo": "남은 생산적 시간을 제한할 것이라고 의사들이 추정한 희귀 의학 상태 진단 — Sequoia 일상 역할에서 점진적 전환 발표.", "whyItMatteredKo": "개인 건강 위기에도 향후 15년+ 활동 계속." },
+    { "year": 2012, "age": 58, "event": "Invested early in Stripe — the online payments company founded by Patrick and John Collison; later became one of Sequoia's most valuable holdings.", "eventKo": "Stripe(Patrick·John Collison 형제 창립 온라인 결제 회사) 초기 투자 — 이후 Sequoia의 가장 가치 있는 보유 중 하나가 됨.", "whyItMatteredKo": "다음 세대 핀테크 투자의 결정적 베팅." },
+    { "year": 2022, "age": 67, "event": "Stepped down as Senior Partner of Sequoia Capital after 36 years; founded Sequoia Heritage (private wealth management). Continued investing through Sequoia Heritage and personal initiatives.", "eventKo": "36년 후 Sequoia Capital 시니어 파트너에서 사임 — Sequoia Heritage(사설 부 관리) 창립. Sequoia Heritage·개인 이니셔티브를 통한 투자 계속.", "whyItMatteredKo": "Sequoia 시니어 파트너 시기의 종결 — 인생 후반 단계." },
+    { "year": 2025, "age": 71, "event": "Personal net worth at $6.9B per Forbes Real-Time. Continues Sequoia Heritage operations and philanthropy through Crankstart Foundation.", "eventKo": "포브스 실시간 기준 개인 순자산 69억 달러. Sequoia Heritage 운영과 Crankstart Foundation 통한 자선 계속.", "whyItMatteredKo": "30+년 VC carry 누적의 정점." }
+  ],
+  "turningPoints": [
+    { "year": 1986, "age": 32, "decisionKo": "Time 잡지 기술 특파원에서 Sequoia Capital VC 파트너로 전환", "alternativeKo": "언론인 경력 유지", "outcomeKo": "30+년 VC carry — 평생 부의 거의 전부" },
+    { "year": 1999, "age": 45, "decisionKo": "Sequoia의 Google 투자 공동 주도", "alternativeKo": "다른 인터넷 회사 베팅", "outcomeKo": "역사상 가장 성공적인 VC 수익 중 하나" }
+  ],
+  "moneyMechanics": { "primaryRevenueKo": "Sequoia Capital 36년 carry + Sequoia Heritage 가족 사무소", "industryKo": "벤처 캐피탈·가족 사무소", "businessModelKo": "Sequoia 누적 carry + 사적 가족 자본 운용", "moatKo": "30+년 실리콘밸리 1티어 VC 네트워크·평판", "luckVsSkillKo": "운(40%): 인터넷 시대 정확한 진입. 실력(60%): 36년 일관된 평가·종목 선택 능력." },
+  "personalTraits": {
+    "knownFor": "Sequoia Capital senior partner (1986-2022); led/co-led seminal investments in Yahoo, Google, PayPal, LinkedIn, YouTube, Stripe; former Time magazine tech correspondent; author of 'The Little Kingdom' (1984), early Steve Jobs biography.",
+    "knownForKo": "Sequoia Capital 시니어 파트너(1986-2022); Yahoo·Google·PayPal·LinkedIn·YouTube·Stripe 등 시조적 투자 주도·공동 주도; 전 Time 잡지 기술 특파원; 초기 스티브 잡스 전기 'The Little Kingdom'(1984) 저자.",
+    "philanthropy": "Crankstart Foundation (founded with wife Harriet Heyman) supports UC Berkeley undergraduate scholarships and Oxford University.",
+    "philanthropyKo": "Crankstart Foundation(부인 Harriet Heyman과 창립)이 UC 버클리 학부 장학금·옥스퍼드 대학교 지원.",
+    "controversies": "Limited public controversies; some commentary on Sequoia's late-2010s diversification strategy and his role in Sequoia Capital China operations.",
+    "controversiesKo": "공개 논란 제한적; Sequoia의 2010년대 후반 다각화 전략과 Sequoia Capital China 운영에서의 그의 역할에 대한 일부 코멘터리."
+  },
+  "characterKo": {
+    "summaryKo": "언론인 출신 VC의 가장 성공적인 사례. 동료들이 말하는 가장 두드러진 특성은 '창업자의 이야기와 사람을 평가하는 언론인 본능을 36년 VC 결정에 일관되게 적용한 점'.",
+    "tagsKo": ["언론인 출신 VC", "Google 투자자", "Crankstart Foundation", "36년 Sequoia"]
+  },
+  "failures": [
+    { "year": 2010, "description": "Rare medical-condition diagnosis raised public uncertainty about his future productivity; he chose to continue working through the diagnosis.", "descriptionKo": "희귀 의학 상태 진단이 향후 생산성에 대한 공개 불확실성 야기 — 진단을 통해 계속 일하기로 선택.", "lesson": "Even disciplined investors face health-event uncertainty; productive longevity depends on continued effort, not assurance.", "lessonKo": "규율 있는 투자자도 건강 사건 불확실성에 직면한다. 생산적 장수는 보장이 아닌 지속 노력에 달려 있다." },
+    { "year": 2018, "description": "Sequoia Capital China's separation from Sequoia US in 2023 drew industry commentary about the firm's earlier strategic choices around Chinese expansion.", "descriptionKo": "2023년 Sequoia Capital China의 Sequoia US로부터의 분리가 중국 확장 관련 회사의 이전 전략적 선택에 대한 산업 코멘터리 야기.", "lesson": "Global VC expansion across jurisdictions creates geopolitical separation risks that compound across decades.", "lessonKo": "관할권을 가로지른 글로벌 VC 확장은 수십 년에 걸쳐 누적되는 지정학적 분리 리스크를 만든다." }
+  ],
+  "wealthHistory": [
+    { "year": 2015, "netWorth": 2.5 },
+    { "year": 2020, "netWorth": 4.2 },
+    { "year": 2024, "netWorth": 6.5 },
+    { "year": 2025, "netWorth": 6.9 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [
+    { "text": "I was a journalist who learned that founder stories tell you almost everything you need to know about a company's future.", "textKo": "나는 창업자의 이야기가 회사의 미래에 대해 알아야 할 거의 모든 것을 알려준다는 것을 배운 언론인이었다.", "context": "On his journalist-to-VC transition", "contextKo": "언론인-VC 전환에 대해", "source": "https://en.wikipedia.org/wiki/Michael_Moritz" }
+  ],
+  "books": {
+    "authored": [{ "title": "The Little Kingdom: The Private Story of Apple Computer", "year": 1984, "noteKo": "초기 스티브 잡스 전기." }],
+    "recommended": []
+  },
+  "sajuConnection": {
+    "summary": "Sin-Mi day pillar in Yu month — 'siksin-gyeok' (steady creative output under autumn metal authority), fitting a journalist-VC who consistently produced winning investments over 36 years.",
+    "summaryKo": "신미 일주가 유월에 자리잡은 식신격(일간이 만들어 내는 식상 에너지가 안정적으로 재물을 생산하는 구조)은 언론인-VC로서 36년 일관된 성공 투자를 만든 그의 인생과 호응합니다. 신금 일간은 정련된 금속·정밀의 기질, 일지 미토는 식상의 자리 — 자기 표현(평가·종목 선택)이 안정적으로 자본을 생산하는 구조."
+  }
+}

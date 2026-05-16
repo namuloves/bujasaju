@@ -1,0 +1,233 @@
+{
+  "id": "337",
+  "name": "Graeme Hart",
+  "nameKo": "그래이엄 하트",
+  "netWorth": 9.6,
+  "nationality": "NZ",
+  "industry": "Finance & Investments",
+
+  "childhood": {
+    "birthPlace": "Auckland, New Zealand",
+    "birthPlaceKo": "뉴질랜드 오클랜드",
+    "familyBackground": "Born Graeme Richard Hart to a working-class family in Auckland. Father was a tow-truck driver. Family had no business background, no inherited capital, and limited formal education resources. The most quintessential New Zealand self-made billionaire story.",
+    "familyBackgroundKo": "본명 그래이엄 리처드 하트, 오클랜드의 노동자 가정에서 출생. 아버지는 견인 트럭 운전사. 가족은 사업 배경·상속 자본·정규 교육 자원이 제한적. 가장 전형적인 뉴질랜드 자수성가 억만장자 이야기.",
+    "education": "Left school at age 16. Self-taught in business through hands-on entrepreneurship; later earned an MBA from the University of Otago in his thirties — unusual for a self-made business owner to return to formal education.",
+    "educationKo": "16세에 학교 중퇴. 실전 기업가 정신을 통한 사업 독학; 이후 30대에 오타고 대학교 MBA 취득 — 자수성가 사업자가 정규 교육으로 돌아간 보기 드운 사례.",
+    "earlyLife": "Worked as a tow-truck driver alongside his father, then a panel beater, before starting small print and stationery businesses in his twenties. Built early capital through buying small struggling businesses, restructuring them, and selling at a profit — the playbook that would later be scaled to multibillion-dollar global private equity.",
+    "earlyLifeKo": "아버지와 함께 견인 트럭 운전사로 일하다 패널 비터(자동차 외판 수리공)로 전환, 20대에 작은 인쇄·문구 사업 시작. 작은 부실 사업을 사 구조조정 후 차익에 매각하는 방식으로 초기 자본 축적 — 향후 수십억 달러 글로벌 사모펀드로 확장될 플레이북.",
+    "source": "https://en.wikipedia.org/wiki/Graeme_Hart ; https://www.forbes.com/profile/graeme-hart/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 가족 자본 없음, 16세 학교 중퇴. 첫 자본은 1980-90년대 뉴질랜드 소규모 사업 인수·구조조정·매각의 누적 수익. 본격적인 부는 1997년 Whitcoulls 인수에서 시작, 이후 Burns Philp(2003), Carter Holt Harvey(2006), Reynolds Group/Pactiv·SIG Combibloc 같은 글로벌 포장재 인수에서 발생.",
+    "source": "https://en.wikipedia.org/wiki/Graeme_Hart"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1971,
+      "age": 16,
+      "event": "Left school at age 16 to work as a tow-truck driver with his father, then transitioned to panel-beating (auto body work) — the start of decades of physical-labor exposure that informed his understanding of working-class economics.",
+      "eventKo": "16세에 학교 중퇴, 아버지와 견인 트럭 운전사로 일한 후 패널 비터(자동차 외판 수리공)로 전환 — 수십 년 육체 노동 노출의 시작, 노동자 계급 경제학 이해의 기반.",
+      "whyItMatteredKo": "정규 교육 없이 사업가가 된 평생 정체성의 출발선. 노동 현장의 자본 흐름을 직접 학습.",
+      "source": "https://en.wikipedia.org/wiki/Graeme_Hart"
+    },
+    {
+      "year": 1985,
+      "age": 30,
+      "event": "Returned to formal education while running small businesses — earned MBA from University of Otago. Unusual for a self-made entrepreneur to invest in formal business education after starting companies.",
+      "eventKo": "소규모 사업 운영하면서 정규 교육으로 복귀 — 오타고 대학교 MBA 취득. 자수성가 기업가가 회사 시작 후 정규 경영 교육에 투자한 보기 드운 사례.",
+      "whyItMatteredKo": "실전 경험에 학문 자본을 더하는 결정 — 향후 글로벌 LBO·구조조정 거래의 분석적 기반.",
+      "source": "https://en.wikipedia.org/wiki/Graeme_Hart"
+    },
+    {
+      "year": 1997,
+      "age": 42,
+      "event": "Acquired Whitcoulls, the New Zealand-Australia stationery and book retailer, in a leveraged buyout — first major LBO that would define his career playbook. Bought struggling businesses with debt, restructured operations, sold for gain.",
+      "eventKo": "Whitcoulls(뉴질랜드-호주 문구·서적 소매업체)를 차입 매수(LBO)로 인수 — 평생 경력 플레이북을 정의할 첫 메이저 LBO. 부채로 부실 사업 매수, 운영 구조조정, 차익 매각.",
+      "whyItMatteredKo": "LBO 거래자 정체성 확립 — 향후 25년 더 큰 글로벌 거래의 출발선.",
+      "source": "https://en.wikipedia.org/wiki/Whitcoulls"
+    },
+    {
+      "year": 2003,
+      "age": 48,
+      "event": "Acquired Australia's Burns Philp & Co (food ingredients/yeast manufacturer) for about $2.2B in a hostile LBO — at the time the largest leveraged buyout in Australasian history.",
+      "eventKo": "호주의 Burns Philp & Co(식품 원료·이스트 제조사)를 적대적 LBO로 약 22억 달러에 인수 — 당시 오스트랄라시아 역사상 최대 차입 매수.",
+      "whyItMatteredKo": "지역(뉴질랜드·호주) LBO 거래자에서 글로벌 LBO 거래자로 도약. 이후 모든 거대 거래의 자본 토대.",
+      "source": "https://en.wikipedia.org/wiki/Graeme_Hart"
+    },
+    {
+      "year": 2006,
+      "age": 51,
+      "event": "Acquired Carter Holt Harvey — New Zealand's largest forestry and packaging conglomerate — for about NZ$3.3B. Began transformation from packaging-adjacent buyer to global packaging consolidator.",
+      "eventKo": "Carter Holt Harvey(뉴질랜드 최대 임업·포장 그룹)를 약 33억 NZD에 인수. 포장 인접 매수자에서 글로벌 포장 통합자로의 변환 시작.",
+      "whyItMatteredKo": "포장 산업 통합 전략의 본격 시작 — 단일 거대 거래가 향후 10년 글로벌 메가 인수의 토대.",
+      "source": "https://en.wikipedia.org/wiki/Carter_Holt_Harvey"
+    },
+    {
+      "year": 2010,
+      "age": 55,
+      "event": "Acquired Reynolds Group Holdings (US aluminum-foil and consumer-packaging giant) for about $3.8B, then bought Pactiv (food packaging including Hefty trash bags) for $4.5B in late 2010 — combining them into one of the world's largest food and consumer packaging companies.",
+      "eventKo": "Reynolds Group Holdings(미국 알루미늄 호일·소비자 포장 거대 기업)를 약 38억 달러에 인수, 2010년 후반 Pactiv(Hefty 쓰레기 봉투 포함 식품 포장) 45억 달러 인수 — 두 회사를 합쳐 세계 최대 식품·소비자 포장 회사 중 하나로 통합.",
+      "whyItMatteredKo": "단일 연도에 두 차례 거대 미국 인수 — 글로벌 포장 산업의 가장 큰 단일 가족 자본가로 부상.",
+      "whatTheyRiskedKo": "두 차례 거대 차입 매수로 그룹 부채가 수백억 달러대로 급증",
+      "source": "https://en.wikipedia.org/wiki/Reynolds_Group_Holdings"
+    },
+    {
+      "year": 2014,
+      "age": 59,
+      "event": "Acquired Closure Systems International and other specialty packaging assets, continuing to roll up the global packaging industry under his Rank Group umbrella.",
+      "eventKo": "Closure Systems International 등 특수 포장 자산 인수 — 그의 Rank Group 우산 아래 글로벌 포장 산업의 통합 계속.",
+      "whyItMatteredKo": "단일 인수 매수자가 아니라 산업 통합 전략의 일관성 — 글로벌 포장 자산의 가족 통제 누적.",
+      "source": "https://en.wikipedia.org/wiki/Graeme_Hart"
+    },
+    {
+      "year": 2018,
+      "age": 63,
+      "event": "Began selectively divesting Reynolds Group assets to pay down debt and crystallize gains — sold SIG Combibloc IPO in 2018 (~$5B), Beverage Packaging division to Olympus Partners (2019), and Closures business to a consortium led by Brookfield (2020-2021).",
+      "eventKo": "Reynolds Group 자산 선별적 매각 시작 — 부채 상환과 차익 실현. 2018년 SIG Combibloc IPO(약 50억 달러), 2019년 음료 포장 부문을 Olympus Partners에 매각, 2020-2021년 Closures 사업을 Brookfield 주도 컨소시엄에 매각.",
+      "whyItMatteredKo": "10년 누적된 부채 매수자에서 부채 상환·차익 실현 모드로 전환. 25년 누적 부의 결정적 실현 단계.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2020,
+      "age": 65,
+      "event": "Reynolds Consumer Products (the Hefty/Reynolds brands business) listed on Nasdaq via IPO in January 2020 at about $9.7B market cap. Hart retained majority ownership.",
+      "eventKo": "Reynolds Consumer Products(Hefty·Reynolds 브랜드 사업)이 2020년 1월 나스닥 IPO — 약 97억 달러 시가총액. 하트가 최대 지분 유지.",
+      "whyItMatteredKo": "단일 자산을 공개 시장에 노출시킴으로써 가치 가시화 — 비공개 LBO 거래자가 공개 시장 자본가로 전환된 단계.",
+      "source": "https://en.wikipedia.org/wiki/Reynolds_Consumer_Products"
+    },
+    {
+      "year": 2025,
+      "age": 70,
+      "event": "Personal net worth at $9.6B per Forbes Real-Time. Rank Group remains one of the world's largest private packaging holding companies, with assets across Reynolds, Pactiv Evergreen, and various global packaging businesses.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 96억 달러. Rank Group이 Reynolds·Pactiv Evergreen·다양한 글로벌 포장 사업 자산에 걸친 세계 최대 사설 포장 지주 회사 중 하나로 유지.",
+      "whyItMatteredKo": "16세 학교 중퇴자가 70세에 뉴질랜드 최고 부자이자 세계 포장 산업 최대 자본가 중 한 명이 됨 — 뉴질랜드 역사상 가장 큰 자수성가 사례.",
+      "source": "https://www.forbes.com/profile/graeme-hart/"
+    },
+    {
+      "year": 2012,
+      "age": 57,
+      "event": "Acquired Graham Packaging from Silgan Holdings in a complex tri-party deal involving Reynolds Group — added rigid plastic packaging to the portfolio, deepening the food-and-beverage packaging integration.",
+      "eventKo": "Reynolds Group 관련 복잡한 3자 거래에서 Silgan Holdings로부터 Graham Packaging 인수 — 강성 플라스틱 포장 추가, 식음료 포장 통합 심화.",
+      "whyItMatteredKo": "포장 자산 수직 통합의 단계 — 알루미늄·종이·플라스틱·유리를 한 가족 그룹 아래 묶음.",
+      "source": "https://en.wikipedia.org/wiki/Graham_Packaging"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1971,
+      "age": 16,
+      "decisionKo": "정규 교육 중퇴 후 노동 현장에서 시작",
+      "alternativeKo": "고등 교육 진학",
+      "outcomeKo": "실전 경험 기반 사업가 정체성 — 향후 학문 자본(MBA)을 더함",
+      "source": "https://en.wikipedia.org/wiki/Graeme_Hart"
+    },
+    {
+      "year": 1997,
+      "age": 42,
+      "decisionKo": "지역 소규모 사업에서 Whitcoulls LBO로 거대 차입 매수자 정체성 시작",
+      "alternativeKo": "소규모 사업 유지",
+      "outcomeKo": "LBO 거래자 정체성 — 25년 누적 메가 인수의 토대",
+      "source": "https://en.wikipedia.org/wiki/Whitcoulls"
+    },
+    {
+      "year": 2010,
+      "age": 55,
+      "decisionKo": "단일 연도에 Reynolds + Pactiv 두 거대 미국 인수 — 글로벌 포장 통합 본격화",
+      "alternativeKo": "지역 거래 유지",
+      "outcomeKo": "세계 최대 사설 포장 자본가로 도약 — 평생 부의 거의 전부 설명",
+      "source": "https://en.wikipedia.org/wiki/Reynolds_Group_Holdings"
+    },
+    {
+      "year": 2018,
+      "age": 63,
+      "decisionKo": "10년 누적된 부채 매수자에서 자산 매각·차익 실현 모드로 전환",
+      "alternativeKo": "장기 보유 유지",
+      "outcomeKo": "차익 결정적 실현 — 다세대 가족 자본으로 정착",
+      "source": "https://www.bloomberg.com"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "Rank Group(비공개 가족 지주 — 가족 합산 99%+) — Reynolds Consumer Products·Pactiv Evergreen·기타 글로벌 포장 자산. 본인 자산의 거의 전부가 Rank Group 가치. 부차적으로 뉴질랜드 부동산, 글로벌 사모 투자.",
+    "industryKo": "포장재(알루미늄 호일·식품 포장·플라스틱 용기), 가족 지주 운영",
+    "businessModelKo": "차입 매수(LBO) 전략: 부실하거나 저평가된 포장 회사 매수 → 부채로 자금 조달 → 운영 구조조정 → 자산 매각 또는 IPO. 25년 동안 반복 적용. 뉴질랜드 본거지 비공개 가족 지주가 글로벌 자산을 통합 운영.",
+    "moatKo": "① 25년 누적된 LBO·구조조정 노하우. ② 글로벌 포장 산업의 가족 통합 자산. ③ Rank Group 비공개 구조의 의사결정 속도. ④ 다세대 자녀들이 운영에 참여하면서도 본인이 핵심 거래 결정 유지.",
+    "luckVsSkillKo": "운(30%): 2010년 Reynolds·Pactiv가 매물로 나온 사이클, 글로벌 포장 산업 통합 트렌드의 거시 환경, 2018-2020년 자산 매각 시점이 사이클 정점이었던 타이밍. 실력(70%): 16세 노동자에서 글로벌 자본가로 변환의 결단, 25년 일관된 LBO 플레이북, 단일 가족 비공개 구조의 의사결정 규율, 매수-구조조정-매각 사이클의 완벽한 집행."
+  },
+
+  "personalTraits": {
+    "knownFor": "Founder and principal of Rank Group; New Zealand's wealthiest person for many years; built the world's largest privately owned packaging empire through serial leveraged buyouts of Reynolds, Pactiv, SIG Combibloc, Graham Packaging, and other major packaging companies; school dropout at 16 who later returned to earn an MBA.",
+    "knownForKo": "Rank Group 창립자·주역. 수년간 뉴질랜드 최고 부자. Reynolds·Pactiv·SIG Combibloc·Graham Packaging 등 주요 포장 회사의 연속 차입 매수를 통해 세계 최대 사설 포장 제국 구축. 16세 학교 중퇴 후 훗날 MBA 취득.",
+    "philanthropy": "Hart family philanthropy is deliberately low-profile; supports New Zealand educational institutions and community projects but rarely publicized. Has not signed The Giving Pledge.",
+    "philanthropyKo": "하트 가족 자선은 의도적으로 비공개; 뉴질랜드 교육기관·지역 사회 프로젝트 후원하지만 거의 공표되지 않음. Giving Pledge 미서명.",
+    "controversies": "Reynolds Group debt levels in the 2010s drew bond-market and rating-agency scrutiny; some LBO targets faced workforce reductions and operational changes that drew union and community criticism in the US and Europe; New Zealand wealth-concentration debate periodically focuses on Hart given his dominance in NZ rich lists.",
+    "controversiesKo": "2010년대 Reynolds Group 부채 수준이 채권 시장·신용 평가 기관 감시 받음. 일부 LBO 대상이 미국·유럽에서 노조·지역 사회 비판을 받은 인력 감축·운영 변경. 뉴질랜드 부 집중 논쟁이 NZ 부자 명단에서의 그의 지배력 때문에 주기적으로 그를 표적."
+  },
+
+  "characterKo": {
+    "summaryKo": "노동자 출신의 LBO 거래자가 비공개 일관성을 25년 유지한 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '인터뷰가 사실상 0에 가까운 비공개 일관성'과 '거대 거래의 모든 디테일을 본인이 직접 검토하는 운영 깊이'. 뉴질랜드 자본가로서의 정체성을 의도적으로 유지.",
+    "tagsKo": ["16세 중퇴자", "25년 LBO 거래자", "비공개 일관성", "글로벌 포장 통합자", "뉴질랜드 자수성가"]
+  },
+
+  "failures": [
+    {
+      "year": 2013,
+      "description": "Reynolds Group's debt levels exceeded $19B at peak, drawing repeated credit-rating downgrades and bond-market concerns about sustainability of the leveraged structure. Took years of refinancing and selective asset sales to bring leverage to manageable levels.",
+      "descriptionKo": "Reynolds Group 부채가 정점에 190억 달러 초과 — 반복적 신용 등급 강등과 차입 구조 지속가능성에 대한 채권 시장 우려. 레버리지를 관리 가능한 수준으로 가져오는 데 수년의 재금융·선별적 자산 매각 필요.",
+      "lesson": "Aggressive LBO leverage that worked through one credit cycle becomes structurally fragile through the next; multi-year debt management is its own discipline separate from acquisition skill.",
+      "lessonKo": "한 신용 사이클을 통과한 공격적 LBO 레버리지는 다음 사이클을 통해 구조적으로 취약해진다. 다년간 부채 관리는 인수 능력과 별개의 규율이다.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2017,
+      "description": "Some Pactiv plants in the US faced workforce reduction and consolidation pressures that drew union opposition and political criticism, particularly in midwestern manufacturing communities. The LBO playbook of efficiency-driven consolidation has predictable labor costs.",
+      "descriptionKo": "미국 일부 Pactiv 공장이 인력 감축·통합 압박에 직면 — 노조 반대와 정치적 비판(특히 중서부 제조 공동체). 효율성 주도 통합의 LBO 플레이북은 예측 가능한 노동 비용을 동반.",
+      "lesson": "Industrial consolidation creates community-level political costs that are not priced in standard LBO models; these costs return as future regulatory and ESG headwinds.",
+      "lessonKo": "산업 통합은 표준 LBO 모델에 가격 책정되지 않은 공동체 수준의 정치적 비용을 만든다. 이 비용은 미래 규제·ESG 역풍으로 돌아온다.",
+      "source": "https://www.reuters.com"
+    },
+    {
+      "year": 2020,
+      "description": "Reynolds Consumer Products IPO in January 2020 priced at the lower end of its range and stock underperformed peers in the first 18 months as packaging-sector valuations compressed; demonstrated that even successful operations face market timing risk on public-market exits.",
+      "descriptionKo": "Reynolds Consumer Products 2020년 1월 IPO가 가격 범위 하단에서 책정 — 포장 부문 평가 압축으로 첫 18개월 동안 동종 대비 부진. 성공적인 운영도 공개 시장 매각에 시장 타이밍 리스크에 직면함을 입증.",
+      "lesson": "An IPO is a single trading day's pricing; underlying business value can be uncorrelated to that pricing for months or years; multi-stage exit strategy must price in market-timing variance.",
+      "lessonKo": "IPO는 단일 거래일의 가격 결정이다. 기저 사업 가치는 그 가격과 수개월 또는 수년 동안 비상관일 수 있다. 다단계 매각 전략은 시장 타이밍 변동성을 가격에 반영해야 한다.",
+      "source": "https://en.wikipedia.org/wiki/Reynolds_Consumer_Products"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2010, "netWorth": 5.5 },
+    { "year": 2015, "netWorth": 7.3 },
+    { "year": 2018, "netWorth": 8.0 },
+    { "year": 2021, "netWorth": 9.6 },
+    { "year": 2023, "netWorth": 9.0 },
+    { "year": 2024, "netWorth": 11.7 },
+    { "year": 2025, "netWorth": 9.6 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "I left school at 16. The school of leveraged buyouts teaches everything else.",
+      "textKo": "16세에 학교를 떠났다. 차입 매수의 학교가 나머지 모든 것을 가르친다.",
+      "context": "Reported remark on his self-taught LBO career",
+      "contextKo": "독학 LBO 경력에 대한 보도된 발언",
+      "source": "https://www.forbes.com/profile/graeme-hart/"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Mu-Sul day pillar in a Sa month forms a 'sanggwan-gyeok' chart — vast earth under summer fire authority, fitting a self-taught operator who built a global empire through aggressive yet patient creative restructuring across multiple market cycles.",
+    "summaryKo": "무술 일주가 사월에 자리잡은 상관격(자기 표현·창의력이 정해진 권위를 넘어 흘러가는 구조)은 16세 중퇴자가 LBO라는 비정통 경로로 글로벌 포장 제국을 구축한 그의 인생과 호응합니다. 무토 일간은 큰 산·안정된 흙의 기질로 거대 자산 인수의 든든한 토대 역할과 잘 맞고, 일지·월지의 술토·사화 안에 정관·정인·상관의 결합이 있어 — 공식 권위(자본 시장 규제)·학문(MBA)·자기 표현(LBO 거래 디자인)이 한 자리에 묶여 있는 구조를 그대로 그려냅니다. 월간 신금이 상관으로 자기 표현(거래 구조 설계)의 강한 동력. 연주 을미의 을목·미토가 정관·겁재로 공식 권위 환경과 동료(가족·운영진)의 자리. 약점은 상관격이 너무 강하면 정관(공식 권위)과 충돌할 수 있다는 점인데, 2013년 Reynolds 부채 수준에 대한 신용 평가·채권 시장 감시가 그 표면화로 읽힙니다."
+  }
+}

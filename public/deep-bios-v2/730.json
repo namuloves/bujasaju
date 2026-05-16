@@ -1,0 +1,40 @@
+{
+  "id": "730", "name": "Romesh T. Wadhwani", "nameKo": "로메시 T. 와드와니",
+  "netWorth": 5.5, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Karachi (then India, now Pakistan)", "birthPlaceKo": "카라치(당시 인도, 현 파키스탄)",
+    "familyBackground": "Born to Indian Sindhi family that fled to India during 1947 partition.",
+    "familyBackgroundKo": "1947 분할 동안 인도로 도피한 인도 신디 가정에서 출생.",
+    "education": "IIT Bombay; PhD Carnegie Mellon.", "educationKo": "IIT 봄베이; Carnegie Mellon 박사.",
+    "earlyLife": "Founded Aspect Development (sold to i2 Technologies for $9.3B in 2000); founded Symphony Technology Group (private equity).",
+    "earlyLifeKo": "Aspect Development 창립(2000년 i2 Technologies에 93억 달러 매각); Symphony Technology Group(사모펀드) 창립.",
+    "source": "https://en.wikipedia.org/wiki/Romesh_Wadhwani"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Aspect Development 매각 + Symphony Technology Group PE." },
+  "careerTimeline": [
+    { "year": 1991, "age": 44, "event": "Founded Aspect Development.", "eventKo": "Aspect Development 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 2000, "age": 53, "event": "Sold Aspect Development to i2 Technologies for $9.3B (peak dot-com era).", "eventKo": "Aspect Development를 i2 Technologies에 93억 달러 매각(닷컴 정점 시대).", "whyItMatteredKo": "단일 매각 결정적 동력." },
+    { "year": 2002, "age": 55, "event": "Founded Symphony Technology Group (PE firm) and Wadhwani Foundation.", "eventKo": "Symphony Technology Group(PE 회사)·Wadhwani Foundation 창립.", "whyItMatteredKo": "사업가에서 PE·자선가 전환." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $5.5B per Forbes Real-Time. Continues Symphony Technology Group operations.", "eventKo": "포브스 실시간 기준 개인 순자산 55억 달러. Symphony Technology Group 운영 계속.", "whyItMatteredKo": "다중 사업 누적." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 53, "decisionKo": "닷컴 정점에 Aspect Development 93억 달러 매각", "alternativeKo": "독립 운영 유지", "outcomeKo": "정점 매각 + PE 변환" }],
+  "moneyMechanics": { "primaryRevenueKo": "Symphony Technology Group PE + 사적 투자", "industryKo": "사모펀드(기술 중심) + 자선", "businessModelKo": "기술 LBO + 자선 자본가", "moatKo": "Aspect Development 정점 매각 + 30+년 기술 인맥", "luckVsSkillKo": "운(35%): 닷컴 정점 매각 타이밍. 실력(65%): 30+년 기술 PE 운영." },
+  "personalTraits": {
+    "knownFor": "Founder of Aspect Development (sold for $9.3B in 2000) and Symphony Technology Group (PE).",
+    "knownForKo": "Aspect Development(2000 93억 달러 매각)·Symphony Technology Group(PE) 창립자.",
+    "philanthropy": "Wadhwani Foundation funds job creation and education in India, US, and developing countries.",
+    "philanthropyKo": "Wadhwani Foundation이 인도·미국·개발도상국 일자리 창출·교육 자금.",
+    "controversies": "Standard PE-industry portfolio company labor and operational debates.",
+    "controversiesKo": "표준 PE 산업 포트폴리오 회사 노동·운영 논쟁."
+  },
+  "characterKo": { "summaryKo": "다중 경력 인도계 미국 PE·자선가.", "tagsKo": ["Aspect Development", "Symphony Technology Group", "Wadhwani Foundation"] },
+  "failures": [
+    { "year": 2008, "description": "2008 financial crisis affected PE operations.", "descriptionKo": "2008 금융위기가 PE 운영 영향.", "lesson": "PE faces cycle risk.", "lessonKo": "PE가 사이클 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 tech valuations volatility.", "descriptionKo": "COVID-19 기술 평가 변동성.", "lesson": "Tech-PE exposed to sector cycles.", "lessonKo": "기술 PE가 부문 사이클 노출." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 3.1 }, { "year": 2024, "netWorth": 5.3 }, { "year": 2025, "netWorth": 5.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "We sold Aspect for nine billion. The foundation is how I spent it.", "textKo": "우리는 Aspect를 90억 달러에 팔았다. 재단이 내가 그것을 쓴 방법이다.", "context": "On Wadhwani Foundation", "contextKo": "Wadhwani Foundation에 대해", "source": "https://www.wfglobal.org" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Ja day pillar in Shin month — 'siksin-gyeok', steady output.", "summaryKo": "병자 일주 + 신월 식신격은 다중 경력 자수성가와 호응." }
+}

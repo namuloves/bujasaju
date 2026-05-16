@@ -1,0 +1,40 @@
+{
+  "id": "685", "name": "Lai Meisong", "nameKo": "라이 메이송",
+  "netWorth": 5.8, "nationality": "CN", "industry": "Logistics",
+  "childhood": {
+    "birthPlace": "Shaoxing, Zhejiang, China", "birthPlaceKo": "중국 저장성 사오싱",
+    "familyBackground": "Born to working-class Zhejiang family; brother of ZTO Express founder Lai Meihua (also a billionaire).",
+    "familyBackgroundKo": "노동자 계급 저장 가정에서 출생; ZTO Express 창립자 라이 메이화의 형제(역시 억만장자).",
+    "education": "Limited formal higher education; self-taught logistics operator.", "educationKo": "정규 고등교육 제한적; 물류 운영 독학.",
+    "earlyLife": "Worked in early 2000s Zhejiang express-delivery industry; founded ZTO Express in 2002 with brother and other partners — became one of China's largest express delivery companies.",
+    "earlyLifeKo": "2000년대 초 저장 택배 산업에서 근무; 2002년 형제·파트너들과 ZTO Express 창립 — 중국 최대 택배 회사 중 하나가 됨.",
+    "source": "https://en.wikipedia.org/wiki/ZTO_Express ; https://www.forbes.com/profile/lai-meisong/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "100% 자수성가. 2002 ZTO Express 공동 창립 + 2016 NYSE IPO." },
+  "careerTimeline": [
+    { "year": 2002, "age": 32, "event": "Co-founded ZTO Express in Zhejiang.", "eventKo": "저장에서 ZTO Express 공동 창립.", "whyItMatteredKo": "중국 이커머스 시대 택배 산업 출발선." },
+    { "year": 2016, "age": 46, "event": "ZTO Express NYSE IPO at $14B valuation — one of largest US IPOs by Chinese company.", "eventKo": "ZTO Express 140억 달러 평가로 NYSE IPO — 중국 회사의 미국 IPO 사상 최대 중 하나.", "whyItMatteredKo": "14년 회사 결정적 가시화." },
+    { "year": 2020, "age": 50, "event": "ZTO secondary listing on Hong Kong Stock Exchange; revenue boosted by e-commerce + COVID online ordering boom.", "eventKo": "ZTO 홍콩 증시 2차 상장; 이커머스 + COVID 온라인 주문 붐으로 매출 부스트.", "whyItMatteredKo": "글로벌 자본 시장 다변화." },
+    { "year": 2023, "age": 53, "event": "ZTO became China's largest express delivery company by parcel volume; revenue around $5.5B+.", "eventKo": "ZTO가 소포량 기준 중국 최대 택배 회사가 됨; 매출 약 55억 달러+.", "whyItMatteredKo": "중국 택배 1위 자리 굳힘." },
+    { "year": 2025, "age": 55, "event": "Personal net worth at $5.8B per Forbes Real-Time. Continues as ZTO Express chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 58억 달러. ZTO Express 의장 계속.", "whyItMatteredKo": "23년 단일 회사 누적 결과." }
+  ],
+  "turningPoints": [{ "year": 2016, "age": 46, "decisionKo": "ZTO NYSE IPO", "alternativeKo": "비공개 유지", "outcomeKo": "공개 시장 평가 + 글로벌 자본 접근" }],
+  "moneyMechanics": { "primaryRevenueKo": "ZTO Express(NYSE·HKEX 상장) 지분", "industryKo": "택배·물류", "businessModelKo": "중국 이커머스 택배 운영자", "moatKo": "23년 누적 택배 네트워크", "luckVsSkillKo": "운(50%): 중국 이커머스 사이클. 실력(50%): 23년 운영 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and chairman of ZTO Express — China's largest express delivery company by parcel volume.",
+    "knownForKo": "ZTO Express(소포량 기준 중국 최대 택배 회사) 공동 창립자·의장.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard Chinese logistics-industry labor and emissions debates.",
+    "controversiesKo": "표준 중국 물류 산업 노동·배출 논쟁."
+  },
+  "characterKo": { "summaryKo": "중국 이커머스 시대 택배 자수성가의 표준 사례.", "tagsKo": ["저장 택배", "ZTO Express", "이커머스 수혜자"] },
+  "failures": [
+    { "year": 2021, "description": "Chinese tech regulation crackdown affected ZTO Express stock; share price declined materially through 2021-2023.", "descriptionKo": "중국 기술 규제 단속이 ZTO Express 주가에 영향; 2021-2023년 주가 상당히 하락.", "lesson": "Chinese listed companies face regime-policy-shift risk regardless of operational quality.", "lessonKo": "중국 상장 회사는 운영 품질과 무관하게 체제 정책 변화 리스크에 직면한다." },
+    { "year": 2023, "description": "Intense Chinese express-delivery price war compressed margins; multiple competitors operated at losses.", "descriptionKo": "치열한 중국 택배 가격 전쟁이 마진 압축; 다수 경쟁사가 손실에서 운영.", "lesson": "Domestic logistics monopoly cannot fully insulate against industry-wide pricing wars.", "lessonKo": "국내 물류 독점은 산업 전반 가격 전쟁으로부터 완전히 보호하지 못한다." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 4.5 }, { "year": 2022, "netWorth": 3.8 }, { "year": 2024, "netWorth": 5.3 }, { "year": 2025, "netWorth": 5.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Every parcel delivered is one trust earned.", "textKo": "배달된 모든 소포는 얻은 신뢰 하나이다.", "context": "On ZTO operations", "contextKo": "ZTO 운영에 대해", "source": "https://www.zto.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in Hae month — 'siksin-gyeok' (creative-productive flow), fitting express-delivery operator.", "summaryKo": "을묘 일주 + 해월 식신격은 택배 자기 표현·생산자 정체성과 호응." }
+}

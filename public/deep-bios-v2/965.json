@@ -1,0 +1,209 @@
+{
+  "id": "965",
+  "name": "Stewart Rahr",
+  "nameKo": "스튜어트 라흐르",
+  "netWorth": 4.3,
+  "nationality": "US",
+  "industry": "Healthcare",
+
+  "childhood": {
+    "birthPlace": "New York City, USA",
+    "birthPlaceKo": "미국 뉴욕시",
+    "familyBackground": "Born to a Jewish family in New York; father Jack Rahr founded Kinray Inc, a small pharmaceutical wholesale distribution business in Queens in 1944. Family was middle-class with a small but steady second-generation business — Stewart later took over and turned it into one of the largest US drug wholesalers.",
+    "familyBackgroundKo": "뉴욕의 유대인 가정에서 출생; 아버지 잭 라흐르가 1944년 퀸스에 소규모 의약품 도매 유통 사업 Kinray Inc 창업. 가족은 작지만 안정적인 2세대 사업을 가진 중산층 — 스튜어트가 훗날 이를 인수해 미국 최대 의약품 도매업체 중 하나로 키움.",
+    "education": "Public high school in New York; did not pursue formal college education. Self-taught in pharmaceutical wholesale, logistics, and finance through hands-on apprenticeship in the family business.",
+    "educationKo": "뉴욕 공립 고등학교; 정규 대학 교육 없음. 가족 사업에서 직접 도제식 학습으로 의약품 도매·물류·재무를 독학.",
+    "earlyLife": "Grew up working in his father Jack's small Kinray warehouse in Queens during summers and after school. Took over Kinray in his twenties after his father's later involvement reduced, eventually buying out partners. Spent decades building Kinray into a major regional then national pharmaceutical wholesaler.",
+    "earlyLifeKo": "퀸스의 작은 Kinray 창고에서 여름·방과 후 일하며 성장. 20대에 아버지의 일선 활동이 줄어들면서 Kinray 인수, 결국 파트너 지분 매입. 수십 년에 걸쳐 Kinray를 지역 → 전국 주요 의약품 도매업체로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Stewart_Rahr ; https://www.forbes.com/profile/stewart-rahr/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "mixed",
+    "explanationKo": "아버지 잭 라흐르가 1944년 창업한 Kinray Inc를 사실상 상속에 가까운 형태로 인수했지만 회사 규모가 매우 작았기에 그가 키운 가치가 거의 전부. 본격적인 부는 2010년 Cardinal Health에 Kinray를 13억 달러에 매각하면서 발생.",
+    "source": "https://en.wikipedia.org/wiki/Stewart_Rahr"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1968,
+      "age": 22,
+      "event": "Joined Kinray Inc — his father's small pharmaceutical wholesale distribution business in Queens, New York — full-time. Began learning the wholesale drug industry from the warehouse floor up.",
+      "eventKo": "퀸스의 아버지 소규모 의약품 도매 유통 사업 Kinray Inc에 풀타임 합류. 창고 바닥에서부터 도매 의약품 산업 학습 시작.",
+      "whyItMatteredKo": "도매 산업의 모든 운영 디테일을 본인이 직접 학습 — 이후 회사 확장의 모든 결정의 기반.",
+      "source": "https://en.wikipedia.org/wiki/Stewart_Rahr"
+    },
+    {
+      "year": 1980,
+      "age": 34,
+      "event": "Assumed full operational control of Kinray as his father reduced involvement. Began aggressive customer-acquisition strategy targeting independent pharmacies that the big three wholesalers (McKesson, AmerisourceBergen, Cardinal Health) underserved.",
+      "eventKo": "아버지의 일선 활동 축소로 Kinray 운영 통제권 인수. 3대 도매업체(McKesson·AmerisourceBergen·Cardinal Health)가 서비스 부족한 독립 약국을 표적으로 한 공격적 고객 확보 전략 시작.",
+      "whyItMatteredKo": "거대 도매업체들이 무시한 틈새(독립 약국)를 집중 — 이후 30년 Kinray 차별화의 핵심.",
+      "source": "https://en.wikipedia.org/wiki/Kinray"
+    },
+    {
+      "year": 1995,
+      "age": 49,
+      "event": "Kinray crossed $1B in annual revenue as it expanded across the US Northeast supplying thousands of independent pharmacies. Built reputation as the wholesaler that treated small independent pharmacies as priority customers.",
+      "eventKo": "Kinray가 연 매출 10억 달러 돌파 — 미국 북동부 전역으로 확장해 수천 개 독립 약국 공급. 소형 독립 약국을 우선 고객으로 대우하는 도매업체 평판 확립.",
+      "whyItMatteredKo": "거대 도매업체와 경쟁하지 않고 거대 도매업체가 소홀히 한 시장을 공략한 차별화 모델의 정점.",
+      "source": "https://en.wikipedia.org/wiki/Kinray"
+    },
+    {
+      "year": 2005,
+      "age": 59,
+      "event": "Kinray surpassed $3B in annual revenue; the company became the largest privately held US pharmaceutical wholesaler. Rahr personally retained majority ownership throughout — refused multiple private-equity buyout offers.",
+      "eventKo": "Kinray가 연 매출 30억 달러 돌파 — 미국 최대 비공개 의약품 도매업체. 라흐르는 평생 최대주주 유지, 다수의 PE 인수 제안 거부.",
+      "whyItMatteredKo": "비공개 가족 소유 유지가 그의 정체성의 핵심 — 외부 자본 도입을 거부하고 자기 자본만으로 운영.",
+      "source": "https://en.wikipedia.org/wiki/Kinray"
+    },
+    {
+      "year": 2010,
+      "age": 64,
+      "event": "Sold Kinray to Cardinal Health for $1.3B in cash, becoming an instant billionaire. The sale was unusual for a pure family-owned distributor — Rahr had built the company with no outside capital and sold for full cash.",
+      "eventKo": "Kinray를 Cardinal Health에 13억 달러 현금에 매각, 즉시 억만장자가 됨. 외부 자본 없이 가족 소유로만 키운 도매업체가 전액 현금으로 매각된 보기 드문 사례.",
+      "whyItMatteredKo": "30년 누적된 도매 자산을 단일 거래로 현금화. 이후 그의 인생 후반은 자본 운용·자선·미디어 등장에 집중.",
+      "whatTheyRiskedKo": "회사 매각의 즉시성 — 다세대 가족 자본으로의 전환을 시도하지 않음",
+      "source": "https://www.cardinalhealth.com/en/about-us/history.html ; https://www.forbes.com/profile/stewart-rahr/"
+    },
+    {
+      "year": 2012,
+      "age": 66,
+      "event": "Adopted the public nickname 'Stewie Rah Rah, Number One King of All Fun' and began heavily publicizing his celebrity-philanthropy lifestyle through Instagram, parties, and high-profile charitable gala appearances. Marked a sharp transition from low-profile distributor to high-visibility billionaire socialite.",
+      "eventKo": "공개 별명 'Stewie Rah Rah, Number One King of All Fun' 채택, 인스타그램·파티·고프로필 자선 갈라 등장 통한 셀러브리티-자선 라이프스타일을 적극 홍보. 저자세 도매업자에서 고노출 억만장자 소셜라이트로 급격한 정체성 전환.",
+      "whyItMatteredKo": "매각 후 평생의 비공개 노출 정체성을 완전히 뒤집은 결정. 미국 미디어에서 가장 가시적인 1세대 자수성가 억만장자 중 한 명으로 자리잡음.",
+      "source": "https://www.nytimes.com ; https://www.forbes.com/profile/stewart-rahr/"
+    },
+    {
+      "year": 2014,
+      "age": 68,
+      "event": "Signed The Giving Pledge in 2014, committing to donate the majority of his fortune. Made several large public donations to medical research, particularly cancer charities and New York hospitals.",
+      "eventKo": "2014년 Giving Pledge 서명, 부의 대부분 기부 약속. 의료 연구(특히 암 자선·뉴욕 병원)에 다수 대규모 공개 기부.",
+      "whyItMatteredKo": "셀러브리티 라이프스타일과 진지한 자선이 동시에 진행 — 표면적 소셜라이트와 실제 기부 자본가의 이중 정체성.",
+      "source": "https://givingpledge.org"
+    },
+    {
+      "year": 2014,
+      "age": 68,
+      "event": "Convicted of misdemeanor harassment in a 2013-2014 incident involving his ex-girlfriend and a knife threat; received probation. The criminal case briefly damaged his philanthropic reputation but he continued public-facing philanthropy.",
+      "eventKo": "2013-2014년 전 여자친구 관련 칼 위협 사건으로 경범죄 괴롭힘 유죄 — 보호관찰. 형사 사건이 잠시 자선 평판을 손상시켰지만 공개 자선 활동 계속.",
+      "whyItMatteredKo": "후반 인생 자선 정체성의 가장 큰 위기 — 공개 노출 전략이 부정적 사건과 결합될 때의 비용.",
+      "source": "https://www.nydailynews.com"
+    },
+    {
+      "year": 2018,
+      "age": 72,
+      "event": "Continued large-scale charitable giving including substantial donations to Memorial Sloan Kettering Cancer Center, Mount Sinai Health System, and various Jewish charities; maintained high-profile social presence on Instagram and at celebrity events.",
+      "eventKo": "Memorial Sloan Kettering 암 센터·Mount Sinai 헬스 시스템·다양한 유대 자선 단체에 대규모 기부 계속. 인스타그램·셀러브리티 행사에서 고프로필 소셜 존재감 유지.",
+      "whyItMatteredKo": "셀러브리티 자선가 정체성의 정착 — 미국에서 보기 드문 도매업자 출신 메이저 자선가.",
+      "source": "https://www.mskcc.org"
+    },
+    {
+      "year": 2025,
+      "age": 79,
+      "event": "Personal net worth at $4.3B per Forbes Real-Time. Continues philanthropic giving and high-profile public lifestyle from New York and Palm Beach bases.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러. 뉴욕·팜비치 기반으로 자선 기부와 고프로필 공개 라이프스타일 유지.",
+      "whyItMatteredKo": "1968년 퀸스 창고에서 시작해 2010년 13억 달러 매각으로 인생 후반 정체성을 완전히 재설계한 미국 자수성가 모델의 보기 드문 변종.",
+      "source": "https://www.forbes.com/profile/stewart-rahr/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1980,
+      "age": 34,
+      "decisionKo": "거대 도매업체가 무시한 독립 약국을 표적으로 한 차별화 전략",
+      "alternativeKo": "거대 도매업체와 직접 경쟁",
+      "outcomeKo": "30년 누적된 비공개 가족 도매업체 — 2010년 13억 달러 매각의 토대",
+      "source": "https://en.wikipedia.org/wiki/Kinray"
+    },
+    {
+      "year": 2010,
+      "age": 64,
+      "decisionKo": "30년 키운 비공개 가족 회사를 단일 거래로 전액 현금 매각",
+      "alternativeKo": "다세대 가족 자본으로 보유 유지",
+      "outcomeKo": "즉시 억만장자 — 인생 후반 자선·셀러브리티 정체성의 자본 토대",
+      "source": "https://www.cardinalhealth.com"
+    },
+    {
+      "year": 2012,
+      "age": 66,
+      "decisionKo": "비공개 도매업자 정체성을 셀러브리티-자선가 정체성으로 완전 전환",
+      "alternativeKo": "조용한 자선·자산 운용 유지",
+      "outcomeKo": "미국 미디어에서 가장 가시적인 1세대 자수성가 억만장자 중 한 명 — 평판은 양날의 검",
+      "source": "https://www.forbes.com/profile/stewart-rahr/"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "2010년 Kinray Inc 매각 대금 13억 달러를 핵심 자본으로 한 비공개 가족 사무소. 자본 운용은 주식·채권·부동산·사모 투자 등 전통 가족 사무소 포트폴리오. 부의 절대다수가 2010년 매각 대금에 기반.",
+    "industryKo": "자산 운용(매각 후), 자선, 의약품 도매(과거)",
+    "businessModelKo": "2010년 이전: Kinray가 독립 약국 대상 의약품 도매 — 거대 도매업체의 틈새. 2010년 이후: 매각 대금 운용 + Giving Pledge 통한 대규모 자선 + 셀러브리티 노출형 라이프스타일.",
+    "moatKo": "① 1968-2010년 누적된 Kinray 도매 평판이 매각 가치를 설명. ② Cardinal Health 매각 대금의 단일 자본 토대. ③ Giving Pledge 서명자로서의 자선 가시성. ④ 뉴욕·팜비치 사회 자본 네트워크.",
+    "luckVsSkillKo": "운(50%): 1944년 아버지가 의약품 도매에 진입한 가족 자본 운, 1990년대-2000년대 미국 의약품 도매 산업의 통합 사이클이 Kinray 가치를 끌어올림, 2010년 Cardinal Health 매각이 산업 통합 정점이었던 타이밍. 실력(50%): 거대 도매업체와 정면 경쟁하지 않은 차별화 전략, 30년 비공개 가족 소유 유지, 매각 가치를 극대화한 협상 능력, 인생 후반 정체성 재설계의 즉시성."
+  },
+
+  "personalTraits": {
+    "knownFor": "Former owner of Kinray Inc — built into the largest privately held US pharmaceutical wholesaler before selling to Cardinal Health for $1.3B in 2010; high-profile post-retirement billionaire socialite known by the nickname 'Stewie Rah Rah'; Giving Pledge signatory and major medical-research philanthropist.",
+    "knownForKo": "Kinray Inc 전 소유주 — 미국 최대 비공개 의약품 도매업체로 키워 2010년 Cardinal Health에 13억 달러 매각. 'Stewie Rah Rah' 별명으로 알려진 은퇴 후 고프로필 억만장자 소셜라이트. Giving Pledge 서명자이자 주요 의료 연구 자선가.",
+    "philanthropy": "Signed The Giving Pledge (2014). Major donor to Memorial Sloan Kettering Cancer Center, Mount Sinai Health System, NYU Langone, various Jewish charities, and disaster-relief organizations. Cumulative giving in the hundreds of millions.",
+    "philanthropyKo": "Giving Pledge 서명자(2014). Memorial Sloan Kettering 암 센터·Mount Sinai 헬스 시스템·NYU 랭곤·다양한 유대 자선 단체·재난 구호 기관의 주요 기부자. 누적 기부 수억 달러.",
+    "controversies": "2013-2014 misdemeanor harassment conviction involving a knife threat to his ex-girlfriend — received probation; his post-retirement Instagram and party lifestyle drew media criticism as undignified for a major philanthropist; family ownership history of Kinray included occasional partner disputes that were settled privately.",
+    "controversiesKo": "2013-2014년 전 여자친구에 대한 칼 위협 경범죄 괴롭힘 유죄 — 보호관찰. 은퇴 후 인스타그램·파티 라이프스타일이 주요 자선가에 부적절하다는 미디어 비판. Kinray의 가족 소유 역사에 간헐적 파트너 분쟁이 사적으로 합의."
+  },
+
+  "characterKo": {
+    "summaryKo": "30년 비공개 도매업자에서 셀러브리티-자선가로 완전히 전환한 미국 자수성가의 보기 드운 변종. 동료들이 말하는 가장 두드러진 특성은 '매각 직후 정체성을 즉시 180도 전환한 결단'과 '진지한 의료 자선과 화려한 소셜 노출을 동시에 운영하는 이중 정체성'. 미국 미디어에 자주 등장하는 셀러브리티 억만장자 모형의 한 케이스.",
+    "tagsKo": ["퀸스 도매업자", "매각 후 셀러브리티", "Giving Pledge", "이중 정체성", "1세대 자수성가"]
+  },
+
+  "failures": [
+    {
+      "year": 2014,
+      "description": "Misdemeanor harassment conviction involving a knife threat to an ex-girlfriend resulted in probation; the criminal case briefly damaged his philanthropic image and was widely reported in US tabloid and society press.",
+      "descriptionKo": "전 여자친구에 대한 칼 위협 사건으로 경범죄 괴롭힘 유죄, 보호관찰 — 형사 사건이 잠시 자선 이미지를 손상, 미국 타블로이드·사회 언론에 광범위 보도.",
+      "lesson": "Choosing a high-public-profile post-retirement identity exposes private behavior to the same level of scrutiny as the public persona; reputation management for celebrity-philanthropists requires multi-decade behavioral discipline.",
+      "lessonKo": "은퇴 후 고프로필 정체성을 선택하면 사적 행동이 공개 인격과 같은 수준의 감시에 노출된다. 셀러브리티-자선가의 평판 관리는 수십 년 행동 규율을 요구한다.",
+      "source": "https://www.nydailynews.com"
+    },
+    {
+      "year": 2008,
+      "description": "Kinray's business briefly suffered during the 2008 financial crisis as some independent pharmacies — Kinray's core customer base — closed or were absorbed by chains; revenue growth stalled before resuming. Demonstrated the structural pressure on independent pharmacy distribution.",
+      "descriptionKo": "Kinray 사업이 2008 금융위기 기간 잠시 부진 — 핵심 고객인 일부 독립 약국이 폐점 또는 체인에 흡수, 매출 성장 정체 후 재개. 독립 약국 유통의 구조적 압박을 보여줌.",
+      "lesson": "Niche distribution moats can be eroded by chain consolidation in the customer base; even differentiation strategies need to anticipate downstream channel evolution.",
+      "lessonKo": "틈새 유통 해자는 고객 기반의 체인 통합으로 잠식될 수 있다. 차별화 전략도 하류 채널 진화를 예측해야 한다.",
+      "source": "https://en.wikipedia.org/wiki/Kinray"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2010, "netWorth": 1.2 },
+    { "year": 2014, "netWorth": 1.5 },
+    { "year": 2018, "netWorth": 1.4 },
+    { "year": 2021, "netWorth": 3.7 },
+    { "year": 2023, "netWorth": 4.1 },
+    { "year": 2024, "netWorth": 4.2 },
+    { "year": 2025, "netWorth": 4.3 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "I built a quiet business for forty years. Now I get to be loud. Both are mine.",
+      "textKo": "40년 동안 조용한 사업을 만들었다. 이제 시끄러울 수 있다. 둘 다 내 것이다.",
+      "context": "Self-described on his post-2010 transition from low-profile distributor to celebrity-philanthropist",
+      "contextKo": "2010년 이후 저자세 도매업자에서 셀러브리티-자선가로의 전환에 대한 자기 설명",
+      "source": "https://www.forbes.com/profile/stewart-rahr/"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Gye-Hae day pillar in an In month forms a 'jeongin-gyeok' chart — small water drawing from spring wood, fitting a life of patient quiet enterprise that was then transformed by a single decision into loud philanthropy and visibility.",
+    "summaryKo": "계해 일주가 인월에 자리잡은 정인격(어머니·학문·가족 토대 자본이 평생 자본의 근간이 되는 구조)은 아버지 잭의 작은 Kinray를 토대로 평생을 조용히 키운 후 단일 결정(2010 매각)으로 인생을 180도 전환한 그의 인생과 호응합니다. 계수 일간은 작은 흐름의 물·세부의 기질로 도매업자의 일관된 운영 규율을 깔고 있고, 일지·월지 모두 인목·해수의 인성 자리에 가까워 평생 가족 자본(아버지의 회사)이 핵심 토대라는 점을 그대로 그려냅니다. 연주 병술의 병화·술토가 정재(고정 자본)·정관(공식 권위)으로 의약품 도매 규제 산업 안에서 일관되게 자본을 누적한 패턴을 설명. 월간 경금이 정인으로 가족·아버지 자본을 거듭 강화. 약점은 정인격이 사이클 변화에 느리게 반응한다는 점인데, 2010년 매각 후 갑작스러운 인격 전환과 2014년 형사 사건이 그 그늘로 읽힙니다."
+  }
+}

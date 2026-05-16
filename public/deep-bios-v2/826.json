@@ -1,0 +1,38 @@
+{
+  "id": "826", "name": "Fernand Huts", "nameKo": "페르낭 휘츠",
+  "netWorth": 5.0, "nationality": "BE", "industry": "Logistics",
+  "childhood": {
+    "birthPlace": "Belgium", "birthPlaceKo": "벨기에",
+    "familyBackground": "Born to working-class Belgian family.", "familyBackgroundKo": "노동자 계급 벨기에 가정에서 출생.",
+    "education": "Belgian secondary; self-taught business operator.", "educationKo": "벨기에 중등; 사업 운영 독학.",
+    "earlyLife": "Worked early career in Belgian logistics; built Katoen Natie (Antwerp port logistics) from small operation into Belgium's largest privately held logistics group.",
+    "earlyLifeKo": "초기 경력으로 벨기에 물류에서 근무; Katoen Natie(앤트워프 항구 물류)를 작은 운영에서 벨기에 최대 사설 물류 그룹으로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Fernand_Huts"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Katoen Natie 자수성가." },
+  "careerTimeline": [
+    { "year": 1981, "age": 31, "event": "Acquired small Belgian port logistics operation; began aggressive expansion.", "eventKo": "작은 벨기에 항구 물류 운영 인수; 공격적 확장 시작.", "whyItMatteredKo": "Katoen Natie 출발선." },
+    { "year": 2000, "age": 50, "event": "Katoen Natie expanded into multiple European and global port operations.", "eventKo": "Katoen Natie가 다수 유럽·글로벌 항구 운영으로 확장.", "whyItMatteredKo": "글로벌 메이저 자리." },
+    { "year": 2025, "age": 75, "event": "Personal net worth at $5B per Forbes Real-Time. Continues Katoen Natie operations.", "eventKo": "포브스 실시간 기준 개인 순자산 50억 달러. Katoen Natie 운영 계속.", "whyItMatteredKo": "44년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1981, "age": 31, "decisionKo": "Katoen Natie 인수·확장 시작", "alternativeKo": "전통 직장", "outcomeKo": "벨기에 최대 사설 물류 그룹" }],
+  "moneyMechanics": { "primaryRevenueKo": "Katoen Natie(100% 비공개)", "industryKo": "항구 물류·창고·운송", "businessModelKo": "Antwerp 본거지 + 글로벌 항구 운영", "moatKo": "44년 누적 항구 물류 인프라", "luckVsSkillKo": "운(35%): 유럽 물류 시대. 실력(65%): 44년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder and chairman of Katoen Natie — Belgium's largest privately held logistics group.",
+    "knownForKo": "Katoen Natie(벨기에 최대 사설 물류 그룹) 창립자·의장.",
+    "philanthropy": "Huts family supports Belgian cultural institutions.",
+    "philanthropyKo": "Huts 가족이 벨기에 문화 기관 지원.",
+    "controversies": "Standard port logistics labor and environmental scrutiny.",
+    "controversiesKo": "표준 항구 물류 노동·환경 감시."
+  },
+  "characterKo": { "summaryKo": "벨기에 자수성가 항구 물류 가부장.", "tagsKo": ["Katoen Natie", "벨기에 항구 물류", "44년 자수성가"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted global supply chains affecting port operations.", "descriptionKo": "COVID-19이 글로벌 공급망 혼란으로 항구 운영 영향.", "lesson": "Port logistics face macro disruption.", "lessonKo": "항구 물류가 거시 혼란 직면." },
+    { "year": 2022, "description": "Antwerp port congestion and Russia-Ukraine war disrupted European logistics flows.", "descriptionKo": "앤트워프 항구 혼잡·러-우 전쟁이 유럽 물류 흐름 혼란.", "lesson": "Geopolitical events compound port logistics risk.", "lessonKo": "지정학적 사건이 항구 물류 리스크 누적." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 1.5 }, { "year": 2022, "netWorth": 4.5 }, { "year": 2024, "netWorth": 4.8 }, { "year": 2025, "netWorth": 5.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Antwerp moves the world's goods. Katoen Natie moves Antwerp.", "textKo": "앤트워프가 세계 상품을 움직인다. Katoen Natie가 앤트워프를 움직인다.", "context": "Katoen Natie identity", "contextKo": "Katoen Natie 정체성", "source": "https://www.katoennatie.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Shin day pillar in O month — 'pyeonin-gyeok', academic/family foundation, fitting Belgian self-made logistics operator.", "summaryKo": "갑신 일주 + 오월 편인격은 벨기에 자수성가 물류 운영자와 호응." }
+}

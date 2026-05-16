@@ -1,0 +1,40 @@
+{
+  "id": "1114", "name": "Takahisa Takahara", "nameKo": "다카하라 다카히사",
+  "netWorth": 3.7, "nationality": "JP", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Japan", "birthPlaceKo": "일본",
+    "familyBackground": "Born to Takahara family — owners of Unicharm Corporation (Japanese personal-care products: feminine-hygiene, diapers, masks). Father Keiichiro Takahara founded the company in 1961.",
+    "familyBackgroundKo": "Unicharm Corporation(일본 개인 케어 제품: 여성 위생·기저귀·마스크) 소유 가족 Takahara 가족에서 출생. 아버지 다카하라 케이이치로가 1961년 회사 창립.",
+    "education": "Japanese university; MBA from Cornell.", "educationKo": "일본 대학교; 코넬 MBA.",
+    "earlyLife": "Joined family Unicharm operations; succeeded father as CEO/President.",
+    "earlyLifeKo": "가족 Unicharm 운영 합류; 아버지를 이어 CEO·사장 승계.",
+    "source": "https://en.wikipedia.org/wiki/Unicharm"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Takahara 가족 Unicharm 자본." },
+  "careerTimeline": [
+    { "year": 2001, "age": 40, "event": "Became Unicharm CEO/President.", "eventKo": "Unicharm CEO·사장 취임.", "whyItMatteredKo": "차세대 가부장 정체성." },
+    { "year": 2010, "age": 49, "event": "Unicharm aggressive Asian expansion — Indonesia, Vietnam, Thailand, China.", "eventKo": "Unicharm 공격적 아시아 확장 — 인도네시아·베트남·태국·중국.", "whyItMatteredKo": "글로벌 아시아 메이저 자리." },
+    { "year": 2020, "age": 59, "event": "COVID-19 boosted Unicharm mask demand; major Asian PPE supplier.", "eventKo": "COVID-19이 Unicharm 마스크 수요 부스트; 주요 아시아 PPE 공급자.", "whyItMatteredKo": "팬데믹 환경 수혜." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $3.7B per Forbes Real-Time. Continues Unicharm CEO/President; family also holds significant stake.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러. Unicharm CEO·사장 계속; 가족이 또한 상당한 지분 보유.", "whyItMatteredKo": "24년 가족 가부장 정점." }
+  ],
+  "turningPoints": [{ "year": 2001, "age": 40, "decisionKo": "Unicharm CEO·사장 취임", "alternativeKo": "전문 경영진 위임", "outcomeKo": "24년 가족 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Unicharm Corporation(Tokyo Stock Exchange 상장) 가족 지분(약 16%)", "industryKo": "개인 케어 제품(여성 위생·기저귀·마스크)", "businessModelKo": "일본·아시아 개인 케어 제품 메이저", "moatKo": "64년 누적 일본 위생 제품 브랜드", "luckVsSkillKo": "운(40%): 아시아 가처분 소득 부상. 실력(60%): 24년 일관된 운영." },
+  "personalTraits": {
+    "knownFor": "President and CEO of Unicharm Corporation — major Japanese-and-Asian personal care products manufacturer; second-generation Takahara family heir.",
+    "knownForKo": "Unicharm Corporation(주요 일본·아시아 개인 케어 제품 제조사) 사장·CEO; 2세대 Takahara 가족 상속자.",
+    "philanthropy": "Unicharm Foundation supports Japanese education and health initiatives.",
+    "philanthropyKo": "Unicharm 재단이 일본 교육·건강 사업 지원.",
+    "controversies": "Standard consumer-goods industry environmental scrutiny over plastic packaging.",
+    "controversiesKo": "플라스틱 포장에 대한 표준 소비재 산업 환경 감시."
+  },
+  "characterKo": { "summaryKo": "일본 다세대 개인 케어 가부장.", "tagsKo": ["Unicharm", "Cornell MBA", "일본 위생 제품", "아시아 메이저"] },
+  "failures": [
+    { "year": 2022, "description": "Post-COVID mask demand normalization; supply-chain inventory excess.", "descriptionKo": "COVID 후 마스크 수요 정상화; 공급망 재고 초과.", "lesson": "Pandemic-driven demand spikes normalize.", "lessonKo": "팬데믹 주도 수요 급증 정상화." },
+    { "year": 2023, "description": "Yen depreciation pressured Unicharm import-cost margins.", "descriptionKo": "엔화 평가절하가 Unicharm 수입 비용 마진 압박.", "lesson": "Japanese exporters face currency exposure.", "lessonKo": "일본 수출업체가 통화 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 2.4 }, { "year": 2022, "netWorth": 4.2 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Father started with feminine hygiene. We expanded to all of Asia's personal care.", "textKo": "아버지가 여성 위생으로 시작했다. 우리는 아시아 모든 개인 케어로 확장했다.", "context": "Unicharm family heritage", "contextKo": "Unicharm 가족 유산", "source": "https://www.unicharm.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-O day pillar in Mi month — 'jeongin-gyeok', academic/family foundation, fitting MBA-trained second-generation heir.", "summaryKo": "병오 일주 + 미월 정인격은 MBA 훈련 2세대 상속자와 호응." }
+}

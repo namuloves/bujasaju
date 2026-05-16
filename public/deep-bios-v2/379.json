@@ -1,0 +1,241 @@
+{
+  "id": "379",
+  "name": "Patrick Soon-Shiong",
+  "nameKo": "패트릭 순시옹",
+  "netWorth": 8.9,
+  "nationality": "US",
+  "industry": "Healthcare",
+
+  "childhood": {
+    "birthPlace": "Port Elizabeth, Eastern Cape, South Africa",
+    "birthPlaceKo": "남아프리카공화국 동케이프주 포트엘리자베스",
+    "familyBackground": "Fourth of nine children born to Hakka Chinese parents who fled Guangdong during the Japanese invasion of China in the 1930s and resettled in apartheid-era South Africa. Father was a Hakka herbalist who practiced traditional Chinese medicine; mother ran the household. Family lived under racial classification as 'Chinese' — a status between white and black under apartheid that meant limited but real access to better schools.",
+    "familyBackgroundKo": "1930년대 일본의 중국 침략기에 광둥성을 떠나 남아공으로 이주한 객가(하카) 중국인 부모의 9남매 중 넷째. 아버지는 객가 한의사로 전통 중국 의술을 펼침. 어머니는 가사 담당. 가족은 아파르트헤이트 시기 '중국인' 인종 분류 — 백인과 흑인 사이의 회색 지대 — 로 분류돼 흑인보다는 나은 학교 진학이 가능했음.",
+    "education": "University of the Witwatersrand Medical School, MBBCh 1975 (graduated at age 23, fourth in class). Fellowship in surgery at the University of British Columbia, Canada; transplant surgery fellowship at UCLA from 1980. MSc in surgical sciences from UBC.",
+    "educationKo": "비트바테르스란트 대학교 의과대학 MBBCh 1975(23세 졸업, 차석). 캐나다 UBC에서 외과 펠로십, 1980년부터 UCLA 이식외과 펠로십. UBC 외과 석사.",
+    "earlyLife": "Worked alongside his father in the family herbal shop from childhood, observing patients with no access to mainstream medicine. At 23 he was already a qualified physician but, as 'non-white' in apartheid South Africa, could not work at most white hospitals — emigrated to Canada in 1977, then to the US in 1980.",
+    "earlyLifeKo": "어릴 적부터 아버지 한약방에서 환자를 도우며 일반 의료에 접근하지 못하는 사람들을 관찰. 23세에 의사 자격을 땄지만 아파르트헤이트 남아공에서 '비백인'이라 대부분 백인 병원에서 근무가 불가능 — 1977년 캐나다로, 1980년 미국으로 이주.",
+    "source": "https://en.wikipedia.org/wiki/Patrick_Soon-Shiong ; https://www.forbes.com/profile/patrick-soon-shiong/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 가족 자본은 아버지의 작은 한약방이 전부였고, 의사 봉급과 자기 특허(Abraxane, 알부민 결합 파클리탁셀) 라이선스·매각 대금이 모든 자본의 원천. 2010년 Abraxis를 셀진(Celgene)에 29억 달러, APP Pharmaceuticals를 프레제니우스에 46억 달러에 매각하며 약 70억 달러 규모 현금을 단번에 확보, 이것이 NantWorks 제국의 종잣돈.",
+    "source": "https://en.wikipedia.org/wiki/Patrick_Soon-Shiong"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1980,
+      "age": 28,
+      "event": "Began transplant surgery fellowship at UCLA; performed UCLA's first whole-pancreas transplant in 1984 and pioneered pancreatic islet cell transplantation experiments.",
+      "eventKo": "UCLA 이식외과 펠로십 시작. 1984년 UCLA 최초의 췌장 전이식 집도, 췌도세포(islet) 이식 실험 개척.",
+      "whyItMatteredKo": "당뇨병 환자에게 인슐린 주사 없는 삶을 가능케 한다는 비전이 그의 평생 의학 정체성을 정의. 동시에 'surgeon-scientist'(외과의이자 연구자)로서 후속 사업·약 개발의 임상 신뢰성을 확보.",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Soon-Shiong"
+    },
+    {
+      "year": 1991,
+      "age": 39,
+      "event": "Left UCLA faculty to found VivoRx in Los Angeles, developing pancreatic islet encapsulation technology; later spun out drug development arm.",
+      "eventKo": "UCLA 교수직을 떠나 로스앤젤레스에서 VivoRx 창업, 췌도세포 캡슐화 기술 개발. 이후 약 개발 부문 분사.",
+      "whyItMatteredKo": "임상 연구자에서 사업가로 정체성 확장. 췌도 이식 자체는 결국 임상에서 광범위한 성공을 거두지 못했지만, 회사의 '약물 전달' 플랫폼 기술이 훗날 Abraxane로 재편됨.",
+      "whatTheyRiskedKo": "UCLA 정교수 트랙 안정성, 미국 의대 외과 시니어 진입 경로",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Soon-Shiong"
+    },
+    {
+      "year": 1998,
+      "age": 46,
+      "event": "Developed nab-paclitaxel (Abraxane) — paclitaxel bound to human albumin nanoparticles — overcoming the toxicity of standard Taxol formulations. American Pharmaceutical Partners (APP) and Abraxis BioScience built around this technology.",
+      "eventKo": "알부민 나노입자에 파클리탁셀을 결합한 nab-paclitaxel(Abraxane) 개발 — 기존 Taxol 제형의 독성 문제 해결. American Pharmaceutical Partners(APP)와 Abraxis BioScience를 이 기술 기반으로 구축.",
+      "whyItMatteredKo": "개인 발명 한 건이 이후 모든 부의 원천이 됨. 2005년 FDA 승인(전이성 유방암), 2012년 폐암·췌장암 적응증 추가로 연 매출 10억 달러 블록버스터로 성장.",
+      "source": "https://en.wikipedia.org/wiki/Abraxane ; https://www.fda.gov"
+    },
+    {
+      "year": 2008,
+      "age": 56,
+      "event": "Sold American Pharmaceutical Partners (APP) to Fresenius of Germany for about $4.6B in cash and stock. Soon-Shiong personally received the bulk of the proceeds.",
+      "eventKo": "APP를 독일 프레제니우스에 약 46억 달러(현금·주식)에 매각. 본인이 매각 대금 대부분을 직접 수령.",
+      "whyItMatteredKo": "단일 거래로 개인 자산이 수십억 달러대로 진입. 이때부터 'LA에서 가장 부유한 사람' 타이틀 시작, NantWorks 우산 회사 설립의 직접 자본.",
+      "source": "https://www.wsj.com/articles/SB121094200055812491"
+    },
+    {
+      "year": 2010,
+      "age": 58,
+      "event": "Sold Abraxis BioScience to Celgene for $2.9B in cash and stock plus contingent value rights. Retained intellectual property licenses that became basis for later NantBioScience pipeline.",
+      "eventKo": "Abraxis BioScience를 셀진(Celgene)에 현금·주식 29억 달러 + 조건부 가치 권리 형태로 매각. NantBioScience 파이프라인의 기반이 된 IP 라이선스는 보유.",
+      "whyItMatteredKo": "Abraxane의 잔여 수익권을 보존하면서 현금화한 영리한 거래 구조. 이후 거의 모든 거래에서 'IP는 끝까지 본인 통제, 현금은 빠르게 회수' 패턴 반복.",
+      "source": "https://www.celgene.com/news ; https://en.wikipedia.org/wiki/Abraxis_BioScience"
+    },
+    {
+      "year": 2011,
+      "age": 59,
+      "event": "Founded NantWorks LLC as private holding company overseeing healthcare, biotech, and tech investments. Subsidiaries include NantHealth, NantKwest (later ImmunityBio), NantBioScience, NantOmics, NantCloud, NantStudio.",
+      "eventKo": "헬스케어·바이오·기술 투자를 총괄하는 사설 지주회사 NantWorks LLC 설립. 자회사로 NantHealth, NantKwest(훗날 ImmunityBio), NantBioScience, NantOmics, NantCloud, NantStudio 등.",
+      "whyItMatteredKo": "단일 회사 단일 약 모델에서 '의료 + 데이터 + 영상의학 + 게놈학' 수직 통합 플랫폼으로 확장. 이 전환이 거대 자본을 단기간 소진하는 양날의 검이 됨.",
+      "source": "https://www.nantworks.com ; https://en.wikipedia.org/wiki/NantWorks"
+    },
+    {
+      "year": 2015,
+      "age": 63,
+      "event": "Took NantKwest public on Nasdaq; stock initially surged then collapsed. Acquired minority interest (~4.5%) in the Los Angeles Lakers from the Buss family for about $135M.",
+      "eventKo": "NantKwest 나스닥 상장 — 초반 급등 후 폭락. 같은 해 LA 레이커스 소수지분(약 4.5%)을 버스 가문으로부터 약 1억 3,500만 달러에 인수.",
+      "whyItMatteredKo": "공공 시장 상장은 NantKwest 외에도 NantHealth(2016)로 이어지지만 두 회사 모두 IPO 이후 가치 하락. 한편 레이커스 지분은 LA의 사회·미디어 자본을 강화하는 비금전적 투자.",
+      "source": "https://en.wikipedia.org/wiki/ImmunityBio ; https://www.latimes.com"
+    },
+    {
+      "year": 2018,
+      "age": 66,
+      "event": "Acquired the Los Angeles Times, San Diego Union-Tribune, and other Tronc papers for about $500M cash. Returned editorial control of LA Times to Los Angeles after years of Chicago-based Tribune ownership.",
+      "eventKo": "Tronc로부터 LA 타임스·샌디에이고 유니언트리뷴 등 신문 자산을 약 5억 달러 현금에 인수. 시카고 본사 소유 시절 끝내고 LA 타임스 편집권을 LA로 환원.",
+      "whyItMatteredKo": "의료·바이오 자본가가 미디어 자산을 인수한 보기 드문 사례. LA·캘리포니아 지역 사회 자본을 본격적으로 축적, NantWorks 광고·언론 노출도 자연스럽게 강화.",
+      "whatTheyRiskedKo": "신문 산업 구조적 쇠퇴의 손실 흡수, 정치 압력 노출",
+      "source": "https://en.wikipedia.org/wiki/Los_Angeles_Times ; https://www.nytimes.com/2018/02/07/business/media/tronc-la-times-soon-shiong.html"
+    },
+    {
+      "year": 2021,
+      "age": 69,
+      "event": "Merged NantKwest with ImmunityBio in a stock deal to consolidate cancer immunotherapy pipeline. Began global rollout discussions for nogapendekin alfa inbakicept (N-803/Anktiva).",
+      "eventKo": "NantKwest와 ImmunityBio를 주식 합병해 암 면역치료 파이프라인 통합. 노가펜덱인 알파 인바키셉트(N-803/Anktiva) 글로벌 출시 논의 본격화.",
+      "whyItMatteredKo": "10년 이상 끌어온 N-803 프로젝트의 마지막 단계로 진입. 합병 회사 ImmunityBio 주가는 코로나 백신 후보군 기대감으로 단기 급등 후 임상 결과에 따라 출렁임.",
+      "source": "https://www.immunitybio.com/news ; https://en.wikipedia.org/wiki/ImmunityBio"
+    },
+    {
+      "year": 2024,
+      "age": 72,
+      "event": "FDA approved Anktiva (N-803) for BCG-unresponsive non-muscle invasive bladder cancer in April — first major drug approval for ImmunityBio. Stock more than doubled following approval.",
+      "eventKo": "4월 FDA가 BCG 불응성 비근육침습성 방광암 치료제 Anktiva(N-803) 승인 — ImmunityBio 최초 주력 약 승인. 승인 직후 주가 두 배 이상 급등.",
+      "whyItMatteredKo": "20년 가까이 끌어온 면역치료제 베팅이 처음으로 FDA 승인이라는 결정적 검증을 통과. 'Abraxane 이후 두 번째 본인 발명 블록버스터'를 위한 첫 토대.",
+      "source": "https://www.fda.gov/news-events/press-announcements ; https://www.immunitybio.com/news"
+    },
+    {
+      "year": 2025,
+      "age": 73,
+      "event": "Expanded Anktiva indications globally (UK MHRA, EU EMA filings) and began Phase 3 trials in lung and pancreatic cancers. Net worth at $8.9B per Forbes Real-Time. LA Times under continued cost-cutting after staff buyouts in 2024.",
+      "eventKo": "Anktiva 적응증을 글로벌로 확장(영국 MHRA·EU EMA 신청), 폐암·췌장암 3상 시작. 포브스 실시간 기준 개인 순자산 89억 달러. LA 타임스는 2024년 인력 감축 이후에도 추가 비용 절감 진행.",
+      "whyItMatteredKo": "단일 약 글로벌 확장과 적응증 확대가 2026년 이후 수년간 회사 가치를 결정. 동시에 신문 자산의 운영 손실은 점차 NantWorks의 정치·미디어 자본 비용으로 정착.",
+      "source": "https://www.forbes.com/profile/patrick-soon-shiong/ ; https://www.latimes.com"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1977,
+      "age": 25,
+      "decisionKo": "아파르트헤이트 남아공의 인종 제한을 피해 캐나다·미국으로 이주",
+      "alternativeKo": "남아공에 남아 비백인 의료기관에 한정된 외과의 경력",
+      "outcomeKo": "UCLA 이식외과 펠로십과 미국 의약품 시장 접근, 이후 모든 사업의 인프라",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Soon-Shiong"
+    },
+    {
+      "year": 1991,
+      "age": 39,
+      "decisionKo": "UCLA 정교수 트랙을 포기하고 VivoRx 창업",
+      "alternativeKo": "안정적인 외과의·연구자 커리어",
+      "outcomeKo": "Abraxane 발명으로 이어지는 사업가-연구자 정체성 확립, 30년 후 수십억 달러 자산",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Soon-Shiong"
+    },
+    {
+      "year": 2010,
+      "age": 58,
+      "decisionKo": "Abraxis 매각 시 IP 라이선스를 분리해 보유, 현금만 회수",
+      "alternativeKo": "회사 일괄 매각으로 단순 현금화",
+      "outcomeKo": "이후 ImmunityBio·Anktiva 등 후속 파이프라인의 법적 토대가 됨",
+      "source": "https://www.celgene.com/news"
+    },
+    {
+      "year": 2018,
+      "age": 66,
+      "decisionKo": "쇠퇴 산업인 신문을 5억 달러 현금으로 인수",
+      "alternativeKo": "동일 자금을 바이오 R&D 또는 부동산·주식 포트폴리오에 투입",
+      "outcomeKo": "재무적 손실 + 정치·문화 자본 강화 — 캘리포니아 정치권 영향력 증대",
+      "source": "https://www.nytimes.com/2018/02/07/business/media/tronc-la-times-soon-shiong.html"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "ImmunityBio(NASDAQ:IBRX) 지분 약 80% 보유 — 자산 대부분이 이 회사 시가총액에 묶임. Anktiva(N-803) 매출과 후속 파이프라인 가치가 핵심 변수. 부차적으로 NantHealth·NantOmics·LA 타임스 등 NantWorks 산하 자산.",
+    "industryKo": "헬스케어(암 면역치료·약물 전달 기술), 미디어",
+    "businessModelKo": "본인 발명 IP를 자회사로 분리해 별도 상장 또는 매각 → 매각 대금으로 새 자회사 설립 → 다시 본인 IP를 이전하는 순환 구조. 거대 매각으로 일시에 현금화, 후속 사업은 그 현금으로 장기 베팅.",
+    "moatKo": "① 본인이 발명자인 약물 전달 플랫폼(알부민 결합 나노입자)의 특허 누적. ② FDA·EMA 임상 데이터셋. ③ LA 타임스 등 미디어를 통한 의료·정치 담론 영향력. ④ 외과 의사로서 임상 신뢰성 — 마케팅 발언과 임상 데이터 사이를 본인이 직접 연결.",
+    "luckVsSkillKo": "운(35%): 1990년대 후반 알부민 결합 기술이 마침 FDA 승인 패스가 열린 시기에 들어맞음, 2008-2010년 두 차례 매각이 금융위기 직전·직후 절묘한 타이밍, 2024년 Anktiva 승인이 ImmunityBio가 자본 소진 직전에 발표됨. 실력(65%): 30년에 걸친 일관된 IP 축적, 외과의 출신의 임상 데이터 해독 능력, 자회사 분리·재합병의 자본 구조 설계, 정치·미디어·의료 자본의 동시 운용 능력."
+  },
+
+  "personalTraits": {
+    "knownFor": "Surgeon-inventor turned biotech billionaire; invented Abraxane (nab-paclitaxel); founder of NantWorks/ImmunityBio; owner of the Los Angeles Times; minority owner of the LA Lakers.",
+    "knownForKo": "외과의 출신 발명가-바이오 억만장자. 항암제 Abraxane 발명. NantWorks/ImmunityBio 설립자. LA 타임스 소유주. LA 레이커스 소수 지분 보유.",
+    "philanthropy": "Chan Soon-Shiong Family Foundation funds medical research, education, and Korean-American/Chinese-American community projects. Pledged hundreds of millions to St. John's Health Center, Children's Hospital LA, and global cancer-care access via NantHealth.",
+    "philanthropyKo": "Chan Soon-Shiong Family Foundation을 통해 의료 연구·교육·아시아계 커뮤니티 지원. 세인트존스 헬스 센터·LA 어린이병원 등에 수억 달러 기부, NantHealth를 통한 글로벌 암 치료 접근성 향상 프로젝트.",
+    "controversies": "Accused of self-dealing through his foundation in a 2017 STAT News investigation; whistleblower lawsuits over NantHealth contracts with the University of Utah; criticism that NantKwest/ImmunityBio public-market communications repeatedly outpaced clinical data; LA Times newsroom layoffs and political tensions; 2020 COVID-19 vaccine candidate marketing criticized as overstated.",
+    "controversiesKo": "2017년 STAT News 조사에서 본인 재단을 통한 자기거래 의혹; NantHealth-유타대 계약 관련 내부고발 소송; NantKwest/ImmunityBio의 시장 커뮤니케이션이 임상 데이터보다 앞서간다는 비판 반복; LA 타임스 인력 감축·편집 갈등; 2020년 COVID-19 백신 후보 마케팅 과장 비판."
+  },
+
+  "characterKo": {
+    "summaryKo": "외과의 특유의 정밀함과 사업가의 광범위한 베팅 본능을 한 몸에 가진 사람. 인터뷰·기자회견에서 환자 사례를 본인 입으로 직접 설명할 때와 시장 발표를 할 때의 어조가 거의 다르지 않다는 점이 동료들의 공통 증언. 한 분야 깊이 파기보단 의료·데이터·미디어·스포츠를 동시에 통합하려는 플랫폼적 야망이 강함.",
+    "tagsKo": ["외과의-발명가", "수직 통합 야망", "미디어 자본가", "이민자 정체성", "1인 다 직책"]
+  },
+
+  "failures": [
+    {
+      "year": 2016,
+      "description": "NantHealth IPO at $14 fell more than 80% within 18 months as customers (notably University of Utah) terminated contracts and revenue missed forecasts; STAT News investigation alleged Soon-Shiong's foundation had funneled grants back to his own for-profit entities.",
+      "descriptionKo": "NantHealth가 14달러에 상장 후 18개월 내 80% 이상 하락 — 유타대 등 핵심 고객이 계약 해지하며 매출 미달, STAT News는 그의 재단 기부금이 본인 영리회사로 환류되는 자기거래 의혹을 보도.",
+      "lesson": "Vertically integrating personal philanthropy, public-market entities, and private holdings invites disclosure scrutiny that no amount of communications can fully neutralize.",
+      "lessonKo": "개인 재단·상장사·비상장 지주를 수직 통합하면 어떤 커뮤니케이션으로도 완전히 무마할 수 없는 공시·이해상충 감시가 따라붙는다.",
+      "source": "https://www.statnews.com/2016/12/19/soon-shiong-nanthealth-foundation/"
+    },
+    {
+      "year": 2018,
+      "description": "NantKwest/ImmunityBio repeatedly delayed N-803 (later Anktiva) clinical timelines through 2018-2023 as FDA requested additional trial design changes; share price collapsed multiple times before final 2024 approval.",
+      "descriptionKo": "NantKwest/ImmunityBio의 N-803(훗날 Anktiva) 임상 일정이 2018-2023년 사이 반복 지연 — FDA가 시험 설계 변경 요구. 최종 2024년 승인 전까지 주가가 여러 차례 폭락.",
+      "lesson": "Public-market biotech valuations cannot survive repeated FDA timeline misses; outside-in market communication must align with inside-out clinical reality on a one-trial-at-a-time basis.",
+      "lessonKo": "공개 시장 바이오 기업의 가치는 반복적인 FDA 일정 지연을 버틸 수 없다. 시장 커뮤니케이션은 임상 현실과 한 시험 단위로 정확히 맞춰야 한다.",
+      "source": "https://en.wikipedia.org/wiki/ImmunityBio ; https://www.fiercebiotech.com"
+    },
+    {
+      "year": 2020,
+      "description": "Publicly promoted COVID-19 vaccine candidate developed by ImmunityBio with bold claims of unique advantages over Pfizer/Moderna mRNA platforms; the vaccine never reached US authorization and trials were quietly wound down, drawing accusations of pandemic-era overselling.",
+      "descriptionKo": "ImmunityBio의 COVID-19 백신 후보를 화이자·모더나 mRNA 대비 차별적 장점이 있다고 공개적으로 홍보 — 백신은 미국 승인까지 가지 못하고 임상이 조용히 종료, 팬데믹 시기 과장 마케팅이라는 비판 누적.",
+      "lesson": "A founder-CEO doubling as the public face of clinical optimism becomes a regulatory and reputational liability when timelines slip; clinical communication should be delegated to data, not personality.",
+      "lessonKo": "창업자 CEO가 임상 낙관론의 얼굴을 직접 맡으면 일정이 미끄러질 때 규제·평판 모두에서 부담이 커진다. 임상 메시지는 인격이 아니라 데이터에 위임해야 한다.",
+      "source": "https://www.statnews.com ; https://www.latimes.com"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2010, "netWorth": 7.0 },
+    { "year": 2015, "netWorth": 11.7 },
+    { "year": 2018, "netWorth": 7.8 },
+    { "year": 2021, "netWorth": 7.1 },
+    { "year": 2023, "netWorth": 5.9 },
+    { "year": 2024, "netWorth": 7.4 },
+    { "year": 2025, "netWorth": 8.9 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "I want to be the architect of the next generation of healthcare. The patient must be at the center.",
+      "textKo": "나는 다음 세대 헬스케어의 설계자가 되고 싶다. 환자가 중심에 있어야 한다.",
+      "context": "Frequently repeated in NantWorks investor and patient advocacy events",
+      "contextKo": "NantWorks 투자자·환자 옹호 행사에서 반복 인용",
+      "source": "https://www.nantworks.com"
+    },
+    {
+      "text": "My father taught me as a healer. That is the lens I never put down.",
+      "textKo": "아버지가 나를 치유자로 가르쳤다. 그 시선은 한 번도 내려놓은 적이 없다.",
+      "context": "On his Hakka-Chinese herbalist upbringing in South Africa",
+      "contextKo": "남아공에서 객가 한의사 아버지에게 자란 어린 시절에 대해",
+      "source": "https://www.forbes.com/profile/patrick-soon-shiong/"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Byeong-Ja day pillar with a Mi-month frame sits in 'sanggwan-gyeok' — a chart where personal creative expression and intellectual force outrun convention, which matches an inventor-surgeon-turned-platform-builder.",
+    "summaryKo": "병자 일주가 미월에 자리잡은 상관격(자기 창조성과 표현 욕구가 관습보다 앞서는 구조)은 외과의이자 발명가, 거기에 미디어·스포츠까지 묶는 그의 다중 정체성과 정확히 호응합니다. 병화 일간은 태양·공개적 빛이라 환자·기자·투자자 앞에서 직접 말하는 성향을 자연스럽게 끌어내고, 일지 자수에 계수가 정관(공식 권위)으로 숨어 있어 의사 면허·FDA 같은 제도 권위와 평생 협상하는 명조입니다. 월간 정화가 비겁(같은 불)으로 가까이 있어 본인이 회사들의 얼굴 역할을 떠맡고, 월지 미토 안의 정화·기토·을목 조합이 식상·재성·인성이 한 자리에 모인 형태라 '연구 → 환자 사례 → 자본 → 다시 연구'로 순환하는 그의 경력을 도식 그대로 보여줍니다. 약점은 상관격이 공식 제도(정관)와 부딪힐 때 — 2016년 STAT News 조사, 2020년 COVID 백신 과장 비판이 정관 충돌이 표면화한 시점입니다."
+  }
+}

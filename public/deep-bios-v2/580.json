@@ -1,0 +1,223 @@
+{
+  "id": "580",
+  "name": "Joseph Liemandt",
+  "nameKo": "조셉 리맨트",
+  "netWorth": 6.6,
+  "nationality": "US",
+  "industry": "Technology",
+
+  "childhood": {
+    "birthPlace": "United States",
+    "birthPlaceKo": "미국",
+    "familyBackground": "Born Joseph A. Liemandt to a middle-class American family. Father was a successful General Electric executive — providing comfortable suburban upbringing but no significant inherited capital. Family environment was business-oriented and education-focused.",
+    "familyBackgroundKo": "본명 조셉 A. 리맨트, 미국 중산층 가정에서 출생. 아버지는 성공적인 General Electric 임원 — 편안한 교외 양육 환경 제공했지만 상속 자본은 미미. 가족 환경은 사업 지향·교육 중심.",
+    "education": "Attended Stanford University; dropped out one semester before graduation to found Trilogy Software (originally Trilogy Development Group) with classmates John Lynch, Christy Jones, and Tom Carter in 1989. The Stanford dropout decision became a defining moment of his entrepreneurial identity.",
+    "educationKo": "스탠퍼드 대학교 진학; 1989년 동급생 존 린치·크리스티 존스·톰 카터와 Trilogy Software(원래 Trilogy Development Group) 창업을 위해 졸업 한 학기 전 중퇴. 스탠퍼드 중퇴 결정이 그의 기업가 정체성의 정의적 순간.",
+    "earlyLife": "Came of age during the late 1980s Silicon Valley boom while at Stanford. Built first software prototype as part of college coursework and group projects; the configure-price-quote (CPQ) software concept was developed during Stanford undergraduate years and became the basis for Trilogy.",
+    "earlyLifeKo": "스탠퍼드 재학 중 1980년대 후반 실리콘밸리 붐 동안 청년기. 대학 과제·그룹 프로젝트의 일환으로 첫 소프트웨어 프로토타입 구축 — CPQ(configure-price-quote) 소프트웨어 개념이 스탠퍼드 학부 시절 개발됐고 Trilogy의 토대가 됨.",
+    "source": "https://en.wikipedia.org/wiki/Joe_Liemandt ; https://en.wikipedia.org/wiki/Trilogy_(software_company) ; https://www.forbes.com/profile/joe-liemandt/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1989년 Trilogy Software 창업 후 1990년대 후반 엔터프라이즈 소프트웨어 붐 시기의 회사 가치 폭증. 본격적인 부는 2000년대 ESW Capital(Enterprise Software Acquisitions)로 회사를 변환해 부실 엔터프라이즈 SW 회사를 인수·통합하는 사모펀드 모델로 누적된 부.",
+    "source": "https://en.wikipedia.org/wiki/Trilogy_(software_company)"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1989,
+      "age": 21,
+      "event": "Co-founded Trilogy Software with three Stanford classmates; dropped out of Stanford one semester before graduation. Initially focused on configure-price-quote (CPQ) software for the IBM mainframe / enterprise software market.",
+      "eventKo": "세 명의 스탠퍼드 동급생과 Trilogy Software 공동 창업 — 졸업 한 학기 전 스탠퍼드 중퇴. 초기에는 IBM 메인프레임/엔터프라이즈 SW 시장용 CPQ 소프트웨어에 집중.",
+      "whyItMatteredKo": "1990-2000년대 엔터프라이즈 소프트웨어 붐의 가장 초기 단계 진입 — 향후 모든 결정의 출발선.",
+      "source": "https://en.wikipedia.org/wiki/Trilogy_(software_company)"
+    },
+    {
+      "year": 1995,
+      "age": 27,
+      "event": "Moved Trilogy headquarters from Silicon Valley to Austin, Texas — a contrarian decision that anticipated Austin's later emergence as a tech hub. Trilogy grew rapidly with major Fortune 500 enterprise customers.",
+      "eventKo": "Trilogy 본사를 실리콘밸리에서 텍사스 오스틴으로 이전 — 오스틴의 후속 기술 허브 부상을 예측한 반대 결정. Trilogy가 포춘 500 엔터프라이즈 고객들과 빠르게 성장.",
+      "whyItMatteredKo": "실리콘밸리 외부 기술 허브 베팅의 초기 사례 — 향후 오스틴 기술 생태계 형성에 기여.",
+      "source": "https://en.wikipedia.org/wiki/Trilogy_(software_company)"
+    },
+    {
+      "year": 1999,
+      "age": 31,
+      "event": "Trilogy Software peaked at over $1B in valuation during the late 1990s dot-com era; Liemandt was profiled by Forbes as one of the youngest self-made billionaires at age 30. The 'Trilogy University' new-hire training program drew significant industry attention.",
+      "eventKo": "Trilogy Software가 1990년대 후반 닷컴 시기에 10억 달러+ 평가가치 정점 — 리맨트가 30세에 포브스의 가장 어린 자수성가 억만장자 중 한 명으로 프로필됨. 'Trilogy 대학교' 신입 훈련 프로그램이 상당한 산업 주목을 받음.",
+      "whyItMatteredKo": "30세 자수성가 억만장자 정체성 확립 — 향후 모든 ESW 전략의 평판 토대.",
+      "source": "https://en.wikipedia.org/wiki/Trilogy_(software_company)"
+    },
+    {
+      "year": 2001,
+      "age": 33,
+      "event": "Dot-com bust collapsed Trilogy's valuation; Liemandt began transforming Trilogy from a single product company into ESW Capital — a private equity vehicle for acquiring distressed enterprise software companies and turning them around.",
+      "eventKo": "닷컴 버블 붕괴로 Trilogy 평가가치 붕괴 — 리맨트가 Trilogy를 단일 제품 회사에서 부실 엔터프라이즈 SW 회사 인수·턴어라운드 사모펀드 ESW Capital로 변환 시작.",
+      "whyItMatteredKo": "위기를 단일 회사에서 사모펀드 플랫폼으로 전환의 결정적 단계 — 향후 25년 운영 모델의 토대.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Liemandt"
+    },
+    {
+      "year": 2010,
+      "age": 42,
+      "event": "ESW Capital crossed 30+ acquired software companies. The model: buy small struggling enterprise SW companies cheaply, dramatically reduce costs through Crossover Workplace (remote-work talent platform), and operate them as cash-flow assets.",
+      "eventKo": "ESW Capital이 30+ 인수 SW 회사 돌파. 모델: 작은 어려움 겪는 엔터프라이즈 SW 회사를 저렴하게 매수, Crossover Workplace(원격 근무 인재 플랫폼)를 통한 극적 비용 감소, 현금 흐름 자산으로 운영.",
+      "whyItMatteredKo": "단순 인수가 아니라 운영 모델 (원격 근무·글로벌 인재) 통합의 사모펀드 정체성 정착.",
+      "source": "https://en.wikipedia.org/wiki/Trilogy_(software_company)"
+    },
+    {
+      "year": 2015,
+      "age": 47,
+      "event": "ESW Capital portfolio crossed 50+ acquired companies including names like Aurea Software, GFI Software, and dozens of niche enterprise tools. Crossover Workplace global talent platform became a defining differentiator.",
+      "eventKo": "ESW Capital 포트폴리오가 Aurea Software·GFI Software 및 수십 개 틈새 엔터프라이즈 도구를 포함해 50+ 인수 회사 돌파. Crossover Workplace 글로벌 인재 플랫폼이 정의적 차별화가 됨.",
+      "whyItMatteredKo": "엔터프라이즈 SW의 부실 자산을 통합하는 단일 가장 큰 사적 운영자가 됨 — 비공개 가족 자본 사모펀드의 가장 큰 사례 중 하나.",
+      "source": "https://www.esw.com"
+    },
+    {
+      "year": 2018,
+      "age": 50,
+      "event": "Crossover Workplace expanded as a global remote-work talent platform — paying high US-equivalent wages to engineers in lower-cost geographies for ESW portfolio companies. The model anticipated the post-2020 remote-work boom.",
+      "eventKo": "Crossover Workplace가 글로벌 원격 근무 인재 플랫폼으로 확장 — ESW 포트폴리오 회사를 위해 저비용 지역의 엔지니어에게 미국 동등 임금 지급. 2020 이후 원격 근무 붐을 예측한 모델.",
+      "whyItMatteredKo": "ESW 회사들의 글로벌 인재 활용 — 비용 우위의 영구적 운영 차별화.",
+      "source": "https://www.crossover.com"
+    },
+    {
+      "year": 2020,
+      "age": 52,
+      "event": "COVID-19 vindicated the Crossover remote-work model and accelerated ESW Capital's portfolio company performance. Multiple ESW companies saw demand boosts for enterprise software in remote-work scenarios.",
+      "eventKo": "COVID-19가 Crossover 원격 근무 모델을 검증하고 ESW Capital 포트폴리오 회사 성과 가속. 다수 ESW 회사들이 원격 근무 시나리오에서 엔터프라이즈 SW 수요 부스트.",
+      "whyItMatteredKo": "10년 일찍 시작한 원격 근무 모델이 거시 환경 변화로 결정적으로 검증된 시점.",
+      "source": "https://www.crossover.com"
+    },
+    {
+      "year": 2023,
+      "age": 55,
+      "event": "ESW Capital continued portfolio expansion to 75+ acquired enterprise software companies; combined revenue of portfolio approached $1B+ annually with high profit margins through aggressive cost reduction.",
+      "eventKo": "ESW Capital이 75+ 인수 엔터프라이즈 SW 회사로 포트폴리오 확장 계속 — 공격적 비용 감소를 통해 포트폴리오 매출 합계가 연 10억 달러+에 근접, 높은 이익 마진.",
+      "whyItMatteredKo": "비공개 가족 사모펀드 모델의 결정적 확장 — 글로벌 엔터프라이즈 SW 통합자 중 하나로 자리잡음.",
+      "source": "https://www.esw.com"
+    },
+    {
+      "year": 2025,
+      "age": 57,
+      "event": "Personal net worth at $6.6B per Forbes Real-Time. ESW Capital remains 100% privately held by Liemandt; continues acquiring and operating enterprise software companies through the Crossover remote-talent model.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 66억 달러. ESW Capital은 리맨트가 100% 비공개 보유 계속 — Crossover 원격 인재 모델을 통해 엔터프라이즈 SW 회사 인수·운영 계속.",
+      "whyItMatteredKo": "1989년 21세 스탠퍼드 중퇴자가 36년 후 글로벌 엔터프라이즈 SW 통합자가 됨 — 미국 단일 창업자 자수성가의 보기 드운 사례.",
+      "source": "https://www.forbes.com/profile/joe-liemandt/"
+    },
+    {
+      "year": 2005,
+      "age": 37,
+      "event": "Trilogy fully transitioned business model from product company to acquisition-and-operations platform. Liemandt began publicly described as 'the quiet billionaire' running a vast enterprise software empire from Austin.",
+      "eventKo": "Trilogy가 제품 회사에서 인수-운영 플랫폼으로 사업 모델 완전 전환. 리맨트가 공개적으로 '조용한 억만장자'로 묘사되기 시작 — 오스틴에서 거대 엔터프라이즈 SW 제국 운영.",
+      "whyItMatteredKo": "공개 노출이 거의 없는 비공개 운영자 정체성 정착 — 향후 모든 운영 결정의 일관성.",
+      "source": "https://en.wikipedia.org/wiki/Joe_Liemandt"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1989,
+      "age": 21,
+      "decisionKo": "스탠퍼드 졸업 한 학기 전 중퇴, Trilogy 공동 창업",
+      "alternativeKo": "졸업 후 안정적 IB·컨설팅 경로",
+      "outcomeKo": "30세 자수성가 억만장자 — 평생 부의 출발선",
+      "source": "https://en.wikipedia.org/wiki/Joe_Liemandt"
+    },
+    {
+      "year": 1995,
+      "age": 27,
+      "decisionKo": "실리콘밸리에서 오스틴으로 본사 이전 — 반대 지리 베팅",
+      "alternativeKo": "실리콘밸리 잔류",
+      "outcomeKo": "오스틴 기술 허브 형성에 기여 + 비용 우위 확보",
+      "source": "https://en.wikipedia.org/wiki/Trilogy_(software_company)"
+    },
+    {
+      "year": 2001,
+      "age": 33,
+      "decisionKo": "닷컴 버블 붕괴 시 단일 제품 회사를 사모펀드 플랫폼(ESW Capital)으로 변환",
+      "alternativeKo": "전통 SW 회사로 회복 시도",
+      "outcomeKo": "25년 누적된 75+ 인수 SW 회사 포트폴리오 — 평생 부의 가장 큰 동력",
+      "source": "https://en.wikipedia.org/wiki/Joe_Liemandt"
+    },
+    {
+      "year": 2018,
+      "age": 50,
+      "decisionKo": "Crossover Workplace 글로벌 원격 근무 인재 플랫폼 확장",
+      "alternativeKo": "기존 미국 본사 모델 유지",
+      "outcomeKo": "COVID-19 후 원격 근무 표준화의 가장 큰 수혜자 중 한 명 — 영구적 비용 우위 확보",
+      "source": "https://www.crossover.com"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "ESW Capital(100% 비공개 리맨트 단독 소유) — 75+ 인수 엔터프라이즈 SW 회사 포트폴리오. 회사 합산 매출 10억 달러+ 연. Crossover Workplace 글로벌 원격 인재 플랫폼이 운영의 핵심 차별화.",
+    "industryKo": "엔터프라이즈 소프트웨어 인수·운영(사모펀드 스타일)",
+    "businessModelKo": "1단계: 부실 또는 저평가된 엔터프라이즈 SW 회사 인수. 2단계: 미국 인력을 Crossover 통한 저비용 글로벌 인력으로 교체. 3단계: 비용 최적화로 높은 이익 마진 실현. 4단계: 현금 흐름 자산으로 영구 보유. 비공개 100% 단독 소유로 외부 자본 압박 없음.",
+    "moatKo": "① 75+ 회사 누적된 인수·운영 노하우. ② Crossover Workplace의 글로벌 인재 풀 — 신규 진입자가 따라잡기 어려움. ③ 비공개 단독 소유의 의사결정 속도와 인내. ④ 36년 누적된 엔터프라이즈 SW 산업 지식.",
+    "luckVsSkillKo": "운(30%): 1989년 엔터프라이즈 SW 산업이 통합 직전이었던 타이밍, 2001 닷컴 붕괴가 부실 자산 매수 기회 창출, 2020 COVID이 Crossover 원격 모델 검증. 실력(70%): 21세 스탠퍼드 중퇴의 결단, 1995 오스틴 이전의 반대 베팅, 2001 사업 모델 변환의 결정, 36년 비공개 일관성, Crossover 글로벌 인재 플랫폼 설계."
+  },
+
+  "personalTraits": {
+    "knownFor": "Founder of Trilogy Software (1989) and ESW Capital — a private enterprise software holding company that has acquired and operated 75+ enterprise SW companies; founder of Crossover Workplace, a global remote-work talent platform that anticipated the post-2020 remote-work shift by a decade; one of America's most low-profile self-made billionaires.",
+    "knownForKo": "Trilogy Software(1989)와 ESW Capital 창립자 — 75+ 엔터프라이즈 SW 회사를 인수·운영한 사설 엔터프라이즈 SW 지주 회사. 2020년 후 원격 근무 전환을 10년 일찍 예측한 글로벌 원격 근무 인재 플랫폼 Crossover Workplace 창립자. 미국 가장 노출 적은 자수성가 억만장자 중 한 명.",
+    "philanthropy": "Liemandt Foundation focuses on transforming K-12 education through game-based learning and innovative pedagogy. Founded a Stanford alumni initiative; major donor to Stanford University. Family kept deliberately low public profile.",
+    "philanthropyKo": "Liemandt Foundation이 게임 기반 학습·혁신적 교육법을 통한 K-12 교육 변환에 집중. 스탠퍼드 동문 이니셔티브 설립; 스탠퍼드 대학교 주요 기부자. 가족은 의도적으로 낮은 공개 프로필 유지.",
+    "controversies": "Trilogy's aggressive workplace culture in the 1990s and Crossover's global wage-arbitrage model drew criticism from US tech labor advocates over offshoring; portfolio companies have occasionally faced customer-relationship issues during cost-reduction transitions; standard enterprise-SW industry consolidation debates.",
+    "controversiesKo": "Trilogy의 1990년대 공격적 일터 문화와 Crossover의 글로벌 임금 차익 모델이 오프쇼어링에 대한 미국 기술 노동 옹호자들의 비판을 받음. 포트폴리오 회사들이 비용 감소 전환 동안 간헐적 고객 관계 문제. 표준 엔터프라이즈 SW 산업 통합 논쟁."
+  },
+
+  "characterKo": {
+    "summaryKo": "36년 비공개 일관성을 유지한 단일 창업자 사모펀드 운영자의 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '본인 인터뷰가 사실상 0에 가까운 비공개 일관성'과 '21세 스탠퍼드 중퇴 결정의 동력이 36년 후에도 운영 결정의 일관성으로 남아 있는 점'. 오스틴 기술 생태계의 가장 비공개적인 거물 중 한 명.",
+    "tagsKo": ["스탠퍼드 중퇴자", "오스틴 비공개 거물", "75+ SW 인수자", "원격 근무 10년 선구자", "단독 가족 사모펀드"]
+  },
+
+  "failures": [
+    {
+      "year": 2001,
+      "description": "Trilogy Software's valuation collapsed from over $1B to a fraction during the dot-com bust; many of the company's late-1990s enterprise customers cut budgets sharply and Liemandt had to absorb significant write-downs and layoffs.",
+      "descriptionKo": "Trilogy Software 평가가치가 닷컴 버블 붕괴 동안 10억 달러+에서 일부 분의 1로 붕괴 — 회사의 1990년대 후반 엔터프라이즈 고객들이 예산을 가파르게 감축, 리맨트가 상당한 평가절하·정리해고 흡수 필요.",
+      "lesson": "Even successful enterprise SW companies are exposed to customer-budget cycles; the lesson taught Liemandt to pivot from product business to acquisition-platform business that benefits from downturns.",
+      "lessonKo": "성공적인 엔터프라이즈 SW 회사도 고객 예산 사이클에 노출된다. 그 교훈이 리맨트를 제품 사업에서 침체기에 이익을 얻는 인수 플랫폼 사업으로 전환시켰다.",
+      "source": "https://en.wikipedia.org/wiki/Trilogy_(software_company)"
+    },
+    {
+      "year": 2015,
+      "description": "Some ESW Capital portfolio companies' aggressive cost reductions led to customer-relationship damage and quality concerns; in certain markets the model drew industry criticism for treating enterprise software customers as captive revenue extraction targets.",
+      "descriptionKo": "일부 ESW Capital 포트폴리오 회사들의 공격적 비용 감소가 고객 관계 손상·품질 우려 야기 — 특정 시장에서 모델이 엔터프라이즈 SW 고객을 포로 매출 추출 표적으로 다룬다는 산업 비판을 받음.",
+      "lesson": "Aggressive operational cost-cutting in acquired enterprise software companies creates customer-base attrition risk that erodes long-term cash-flow value; financial discipline and customer trust are not always aligned.",
+      "lessonKo": "인수된 엔터프라이즈 SW 회사의 공격적 운영 비용 감소는 장기 현금 흐름 가치를 잠식하는 고객 베이스 마모 리스크를 만든다. 재무 규율과 고객 신뢰가 늘 정렬되지는 않는다.",
+      "source": "https://www.esw.com"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2015, "netWorth": 2.0 },
+    { "year": 2018, "netWorth": 3.2 },
+    { "year": 2020, "netWorth": 4.0 },
+    { "year": 2022, "netWorth": 5.0 },
+    { "year": 2024, "netWorth": 6.2 },
+    { "year": 2025, "netWorth": 6.6 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "I dropped out of Stanford one semester before graduation. The cost was a degree. The gain was 35 years of compounding.",
+      "textKo": "나는 스탠퍼드 졸업 한 학기 전 중퇴했다. 비용은 학위였다. 이익은 35년의 복리였다.",
+      "context": "Attributed remark on his 1989 dropout decision",
+      "contextKo": "1989년 중퇴 결정에 대한 귀속 발언",
+      "source": "https://en.wikipedia.org/wiki/Joe_Liemandt"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Jeong-Mi day pillar in a Mi month forms a 'siksin-gyeok' chart — a candle-flame in summer earth producing steady creative output, fitting a one-founder operator who turned a college dropout decision into a 36-year compounded software-acquisition machine.",
+    "summaryKo": "정미 일주가 미월에 자리잡은 식신격(일간이 만들어 내는 식상 에너지가 안정적으로 재물을 생산하는 구조)은 21세 스탠퍼드 중퇴 결정을 36년 복리 소프트웨어 인수 머신으로 변환한 그의 인생과 거의 그대로 호응합니다. 정화 일간은 등불·문헌의 빛이라 분석·문헌·세밀한 빛의 본능을 깔고 있고, 일지·월지의 미토가 식상(자기 표현·생산)을 거듭 — 36년 일관된 SW 인수·운영의 자기 표현이 사주 자체에 새겨져 있습니다. 약점은 식신격이 너무 강하면 정관(공식 권위)과 충돌할 수 있다는 점이지만, 비공개 사적 운영의 일관성이 그 충돌을 피한 패턴으로 읽힙니다."
+  }
+}

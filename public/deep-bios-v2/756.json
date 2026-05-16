@@ -1,0 +1,41 @@
+{
+  "id": "756", "name": "Anthony von Mandl", "nameKo": "앤서니 본 만들",
+  "netWorth": 5.4, "nationality": "CA", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Vancouver, British Columbia, Canada", "birthPlaceKo": "캐나다 브리티시컬럼비아주 밴쿠버",
+    "familyBackground": "Born to Austrian-Canadian family. Father a Vienna refugee who came to Canada via Brazil. Family middle-class.",
+    "familyBackgroundKo": "오스트리아-캐나다 가정에서 출생. 아버지가 브라질을 거쳐 캐나다로 온 비엔나 난민. 가족 중산층.",
+    "education": "University of British Columbia.", "educationKo": "브리티시컬럼비아 대학교.",
+    "earlyLife": "Founded Mark Anthony Group in 1972 with wine import operations; transformed it into one of North America's largest beverage companies.",
+    "earlyLifeKo": "1972년 와인 수입 운영으로 Mark Anthony Group 창립; 북미 최대 음료 회사 중 하나로 변환.",
+    "source": "https://en.wikipedia.org/wiki/Mark_Anthony_Group ; https://www.forbes.com/profile/anthony-von-mandl/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Mark Anthony Group + White Claw 폭증." },
+  "careerTimeline": [
+    { "year": 1972, "age": 22, "event": "Founded Mark Anthony Group as wine importer.", "eventKo": "Mark Anthony Group을 와인 수입업체로 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 1996, "age": 46, "event": "Launched Mike's Hard Lemonade — premixed alcoholic beverage; became major US category leader.", "eventKo": "Mike's Hard Lemonade 출시 — 사전 혼합 알코올 음료; 주요 미국 카테고리 리더가 됨.", "whyItMatteredKo": "RTD(즉시 음용) 카테고리 개척." },
+    { "year": 2016, "age": 66, "event": "Launched White Claw Hard Seltzer — became defining beverage of 2019-2020 'hard seltzer summer' in US.", "eventKo": "White Claw Hard Seltzer 출시 — 미국 2019-2020 'hard seltzer 여름'의 정의적 음료가 됨.", "whyItMatteredKo": "단일 제품 카테고리 폭증의 결정적 단계." },
+    { "year": 2019, "age": 69, "event": "White Claw became US's number-one hard seltzer brand; revenue surged dramatically; created hard-seltzer cultural moment.", "eventKo": "White Claw가 미국 1위 hard seltzer 브랜드가 됨; 매출 극적 급증; hard seltzer 문화적 순간 창출.", "whyItMatteredKo": "글로벌 음료 트렌드 정점." },
+    { "year": 2025, "age": 75, "event": "Personal net worth at $5.4B per Forbes Real-Time. Continues Mark Anthony Brands operations.", "eventKo": "포브스 실시간 기준 개인 순자산 54억 달러. Mark Anthony Brands 운영 계속.", "whyItMatteredKo": "53년 가족 사업 정점." }
+  ],
+  "turningPoints": [{ "year": 2016, "age": 66, "decisionKo": "White Claw 출시", "alternativeKo": "기존 Mike's Hard Lemonade 집중", "outcomeKo": "카테고리 정의 + 가족 부 폭증" }],
+  "moneyMechanics": { "primaryRevenueKo": "Mark Anthony Brands(비공개) — White Claw, Mike's Hard Lemonade 등", "industryKo": "RTD 알코올 음료", "businessModelKo": "RTD 알코올 음료 카테고리 정의·브랜드 운영", "moatKo": "White Claw 카테고리 선점", "luckVsSkillKo": "운(50%): hard seltzer 문화적 순간. 실력(50%): RTD 카테고리 53년 학습." },
+  "personalTraits": {
+    "knownFor": "Founder of Mark Anthony Group; creator of White Claw Hard Seltzer — the defining beverage of America's 2019-2020 'hard seltzer summer'.",
+    "knownForKo": "Mark Anthony Group 창립자; White Claw Hard Seltzer — 미국 2019-2020 'hard seltzer 여름'의 정의적 음료 — 창시자.",
+    "philanthropy": "Limited public disclosure; some Okanagan Valley wine industry support.",
+    "philanthropyKo": "공개 공시 제한적; 일부 오카나간 밸리 와인 산업 지원.",
+    "controversies": "White Claw faced cultural-backlash debates over masculinity and consumer culture; some marketing controversies; standard alcoholic-beverage regulatory scrutiny.",
+    "controversiesKo": "White Claw가 남성성·소비 문화에 대한 문화적 반발 논쟁 직면; 일부 마케팅 논란; 표준 알코올 음료 규제 감시."
+  },
+  "characterKo": { "summaryKo": "53년 RTD 음료 자수성가 + White Claw 카테고리 정의자.", "tagsKo": ["White Claw", "Mike's Hard Lemonade", "RTD 알코올 음료"] },
+  "failures": [
+    { "year": 2020, "description": "Hard seltzer cultural moment normalized post-2020; White Claw revenue growth slowed significantly through 2022-2023.", "descriptionKo": "hard seltzer 문화적 순간이 2020 후 정상화; White Claw 매출 성장이 2022-2023 상당히 둔화.", "lesson": "Cultural-moment brands face inevitable normalization.", "lessonKo": "문화적 순간 브랜드는 불가피한 정상화 직면." },
+    { "year": 2023, "description": "Increased hard-seltzer competition from major brewers compressed margins.", "descriptionKo": "주요 양조업체로부터의 hard seltzer 경쟁 증가가 마진 압축.", "lesson": "Category-leader status invites competitive entry.", "lessonKo": "카테고리 리더 지위는 경쟁 진입 야기." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 4.5 }, { "year": 2022, "netWorth": 5.5 }, { "year": 2024, "netWorth": 5.2 }, { "year": 2025, "netWorth": 5.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "White Claw was three years of R&D before one summer of cultural takeover.", "textKo": "White Claw는 한 여름의 문화적 장악 전 3년의 R&D였다.", "context": "On White Claw launch", "contextKo": "White Claw 출시에 대해", "source": "https://www.markanthony.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Myo month — 'jeongjae-gyeok', steady wealth + creative output, fitting RTD beverage entrepreneur.", "summaryKo": "갑진 일주 + 묘월 정재격은 RTD 음료 기업가 정체성과 호응." }
+}

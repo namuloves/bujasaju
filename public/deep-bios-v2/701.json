@@ -1,0 +1,242 @@
+{
+  "id": "701",
+  "name": "John Henry",
+  "nameKo": "존 헨리",
+  "netWorth": 5.7,
+  "nationality": "US",
+  "industry": "Sports",
+
+  "childhood": {
+    "birthPlace": "Quincy, Illinois, USA",
+    "birthPlaceKo": "미국 일리노이주 퀸시",
+    "familyBackground": "Born John William Henry II to a soybean-farming family in rural Illinois. Family moved to Arkansas and later California as his parents shifted from farming to wider trade. Limited formal financial resources during his childhood; his early love of baseball came from listening to St. Louis Cardinals games on AM radio in rural Illinois.",
+    "familyBackgroundKo": "본명 존 윌리엄 헨리 2세, 일리노이 농촌의 콩 농가에서 출생. 부모가 농업에서 더 넓은 거래로 전환하면서 가족이 아칸소를 거쳐 캘리포니아로 이주. 어린 시절 정규 재정 자원 제한적; 어릴 적 야구 사랑은 일리노이 농촌에서 AM 라디오로 세인트루이스 카디널스 경기 들으며 시작.",
+    "education": "Attended community colleges in California and the University of California, Riverside, but never completed a formal degree. Self-taught in commodity trading and finance through hands-on experience.",
+    "educationKo": "캘리포니아 커뮤니티 칼리지와 UC 리버사이드 진학, 정규 학위 미완료. 실전 경험을 통해 상품 거래·재무 독학.",
+    "earlyLife": "Worked on the family's soybean farm in childhood; developed a quantitative interest in agricultural commodity price patterns at an early age. Began experimenting with systematic commodity trading in his twenties, using mathematical models to identify trends in soybean and other agricultural futures.",
+    "earlyLifeKo": "어린 시절 가족 콩 농장에서 일하면서 농산물 상품 가격 패턴에 대한 정량적 관심 일찍 발달. 20대에 체계적 상품 거래 실험 시작 — 콩·기타 농산물 선물의 트렌드 식별을 위한 수학 모델 사용.",
+    "source": "https://en.wikipedia.org/wiki/John_W._Henry ; https://en.wikipedia.org/wiki/John_W._Henry_%26_Company ; https://www.forbes.com/profile/john-henry/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1970년대 농산물 상품 거래의 누적 수익. 본격적인 부는 1981년 John W. Henry & Company 설립 후 시스템 트렌드 추종 헤지펀드의 30년 누적 운용 보수·성과 보수에서 발생, 이후 스포츠 구단(보스턴 레드삭스·리버풀 FC) 가치 상승.",
+    "source": "https://en.wikipedia.org/wiki/John_W._Henry"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1976,
+      "age": 27,
+      "event": "Began experimenting with systematic commodity trading strategies focused on agricultural futures, using trend-following mathematical models. Self-taught approach borrowed from early academic work on price momentum.",
+      "eventKo": "농산물 선물 중심의 체계적 상품 거래 전략 실험 시작 — 트렌드 추종 수학 모델 사용. 가격 모멘텀에 대한 초기 학술 연구에서 차용한 독학 접근법.",
+      "whyItMatteredKo": "시스템 트레이딩이 학계·기관 영역 밖에서 개인 투자자에게 거의 없던 시기에 진입 — 향후 40년 헤지펀드 경력의 모든 결정의 기반.",
+      "source": "https://en.wikipedia.org/wiki/John_W._Henry"
+    },
+    {
+      "year": 1981,
+      "age": 32,
+      "event": "Founded John W. Henry & Company (JWH) in Newport Beach, California — a systematic trend-following commodity trading advisor (CTA). One of the earliest pure-systematic CTAs in US futures markets.",
+      "eventKo": "캘리포니아 뉴포트 비치에 John W. Henry & Company(JWH) 설립 — 시스템 트렌드 추종 상품 거래 자문(CTA). 미국 선물 시장에서 가장 초기의 순수 시스템 CTA 중 하나.",
+      "whyItMatteredKo": "시스템 트레이딩의 선구자 위치 확보 — 1980년대 트렌드 추종 헤지펀드 산업 자체를 정의한 그룹의 일원.",
+      "whatTheyRiskedKo": "안정적 직장 대신 본인 자본을 시스템 모델에 베팅",
+      "source": "https://en.wikipedia.org/wiki/John_W._Henry_%26_Company"
+    },
+    {
+      "year": 1989,
+      "age": 40,
+      "event": "JWH's assets under management surpassed $1B as institutional investors embraced systematic trend-following CTAs. Became one of the most successful trend-following managers globally.",
+      "eventKo": "JWH의 운용자산이 10억 달러 돌파 — 기관 투자자가 시스템 트렌드 추종 CTA를 본격 도입. 글로벌 가장 성공적인 트렌드 추종 운용자 중 한 명이 됨.",
+      "whyItMatteredKo": "시스템 트레이딩이 상업적 카테고리로 검증된 첫 사이클의 정점. JWH가 글로벌 메이저 헤지펀드 자리 굳힘.",
+      "source": "https://en.wikipedia.org/wiki/John_W._Henry_%26_Company"
+    },
+    {
+      "year": 1991,
+      "age": 42,
+      "event": "Purchased the Tucson Toros minor-league baseball team, his first sports franchise. Began the gradual transition from finance to baseball ownership that would define his second career.",
+      "eventKo": "마이너리그 야구팀 Tucson Toros 인수 — 첫 스포츠 프랜차이즈. 향후 2번째 경력을 정의하게 될 금융에서 야구 소유로의 점진적 전환의 시작.",
+      "whyItMatteredKo": "어릴 적 라디오 야구 사랑이 본격적인 스포츠 자본가 정체성으로 전환되기 시작한 시점. 야구 구단 운영 학습의 출발선.",
+      "source": "https://en.wikipedia.org/wiki/John_W._Henry"
+    },
+    {
+      "year": 1999,
+      "age": 50,
+      "event": "Purchased majority stake in the MLB Florida Marlins (now Miami Marlins) from Wayne Huizenga. Owned the team through 2002 — won the World Series in 2003 just after he sold (sale to Jeffrey Loria included transitional terms).",
+      "eventKo": "Wayne Huizenga로부터 MLB Florida Marlins(현 Miami Marlins) 최대 지분 인수 — 2002년까지 소유. 매각 직후 2003년 월드시리즈 우승(Jeffrey Loria 매각에는 전환적 조건 포함).",
+      "whyItMatteredKo": "야구 메이저 리그 구단주 경험을 짧게 한 후 다음 단계(레드삭스)로 이동. 야구 산업 거버넌스의 깊은 학습 기회.",
+      "source": "https://en.wikipedia.org/wiki/Miami_Marlins"
+    },
+    {
+      "year": 2002,
+      "age": 53,
+      "event": "Led a consortium that acquired the Boston Red Sox, Fenway Park, and NESN regional sports network from the Yawkey Trust for $660M. The Henry-led group included Tom Werner and Larry Lucchino.",
+      "eventKo": "Yawkey Trust로부터 6억 6,000만 달러에 Boston Red Sox·Fenway Park·NESN 지역 스포츠 네트워크를 인수한 컨소시엄 주도. 헨리 주도 그룹에 Tom Werner·Larry Lucchino 포함.",
+      "whyItMatteredKo": "한 스포츠 구단 + 상징적 경기장 + 미디어 자산을 동시 인수한 보기 드문 패키지 거래. 향후 20년 헨리의 정체성의 핵심.",
+      "whoHelpedKo": "공동 인수자 Tom Werner·Larry Lucchino, 자본 컨소시엄",
+      "source": "https://en.wikipedia.org/wiki/Fenway_Sports_Group"
+    },
+    {
+      "year": 2004,
+      "age": 55,
+      "event": "Boston Red Sox won the World Series for the first time since 1918, ending the 'Curse of the Bambino' — one of the most emotionally significant sports moments of his life and a defining cultural event for Boston.",
+      "eventKo": "Boston Red Sox가 1918년 이후 처음으로 월드시리즈 우승 — 'Curse of the Bambino' 종결, 그의 인생에서 정서적으로 가장 의미 있는 스포츠 순간이자 보스턴의 정의적 문화 사건.",
+      "whyItMatteredKo": "구단주 인수 2년 만의 챔피언십이 헨리 개인 브랜드와 그룹 가치를 영구적으로 정의. 야구 비즈니스에서 가장 빠른 인수자→챔피언 전환 중 하나.",
+      "source": "https://en.wikipedia.org/wiki/2004_World_Series"
+    },
+    {
+      "year": 2010,
+      "age": 61,
+      "event": "Fenway Sports Group (FSG, the Henry-led ownership company) acquired Liverpool FC in the English Premier League from previous owners Tom Hicks and George Gillett — Liverpool was in financial distress at the time.",
+      "eventKo": "Fenway Sports Group(FSG, 헨리 주도 소유 회사)이 잉글랜드 프리미어 리그 Liverpool FC를 이전 소유주 Tom Hicks·George Gillett로부터 인수 — 당시 리버풀은 재정 곤란 상태.",
+      "whyItMatteredKo": "야구 단일 정체성에서 글로벌 축구 + 야구로 확장 — 글로벌 스포츠 자본가의 정점.",
+      "source": "https://en.wikipedia.org/wiki/Fenway_Sports_Group"
+    },
+    {
+      "year": 2013,
+      "age": 64,
+      "event": "Purchased The Boston Globe newspaper from The New York Times Company for $70M. Added local Boston media to the Red Sox + NESN + Fenway portfolio.",
+      "eventKo": "The New York Times Company로부터 The Boston Globe 신문을 7,000만 달러에 인수. Red Sox·NESN·Fenway 포트폴리오에 보스턴 지역 미디어 추가.",
+      "whyItMatteredKo": "보스턴 도시 자본 통제의 정점 — 스포츠 구단 + 경기장 + 스포츠 네트워크 + 지역 신문이 한 가족 그룹 아래 통합.",
+      "source": "https://en.wikipedia.org/wiki/The_Boston_Globe"
+    },
+    {
+      "year": 2019,
+      "age": 70,
+      "event": "Liverpool FC won the UEFA Champions League under Jürgen Klopp; the following year (2019-20 season) won the Premier League title for the first time in 30 years. FSG's value soared as Liverpool became one of the world's most valuable football clubs.",
+      "eventKo": "Liverpool FC가 위르겐 클롭 감독 아래 UEFA 챔피언스 리그 우승; 다음 시즌(2019-20) 30년 만에 프리미어 리그 우승. 리버풀이 세계 가장 가치 있는 축구 클럽 중 하나가 되며 FSG 가치 폭증.",
+      "whyItMatteredKo": "야구 우승(2004·2007·2013·2018)과 축구 우승(2019·2020·2022)의 동시 통과 — 두 스포츠에서 모두 정점을 만든 보기 드운 구단주.",
+      "source": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+    },
+    {
+      "year": 2021,
+      "age": 72,
+      "event": "FSG took a minority strategic investment from RedBird Capital Partners — first outside equity since the original 2002 Red Sox purchase, valuing FSG at about $7.4B. Used capital for further sports investments including Pittsburgh Penguins NHL stake.",
+      "eventKo": "FSG가 RedBird Capital Partners로부터 소수 전략 투자 유치 — 2002년 Red Sox 인수 이후 첫 외부 지분, FSG 가치 약 74억 달러 평가. 자본은 Pittsburgh Penguins NHL 지분 등 스포츠 투자 확장에 사용.",
+      "whyItMatteredKo": "19년 단일 가족 소유 후 외부 자본 도입 — 다세대 자본 구조로의 전환과 추가 스포츠 자산 인수의 동시 단계.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2025,
+      "age": 76,
+      "event": "Personal net worth at $5.7B per Forbes Real-Time. Fenway Sports Group owns the Boston Red Sox (MLB), Liverpool FC (EPL), Pittsburgh Penguins (NHL), Fenway Park, NESN, RFK Racing (NASCAR), and Boston Globe Media. Henry continues as principal owner and chairman.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 57억 달러. Fenway Sports Group이 Boston Red Sox(MLB)·Liverpool FC(EPL)·Pittsburgh Penguins(NHL)·Fenway Park·NESN·RFK Racing(NASCAR)·Boston Globe Media 소유. 헨리는 최대 소유주·의장 유지.",
+      "whyItMatteredKo": "1976년 시스템 트레이더에서 2025년 글로벌 스포츠 자본가로의 50년 변환의 정점. 두 스포츠(MLB·EPL)에서 모두 챔피언십을 만든 보기 드운 다세대 스포츠 자본가.",
+      "source": "https://www.forbes.com/profile/john-henry/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1981,
+      "age": 32,
+      "decisionKo": "농산물 거래 학습을 본인 자본 헤지펀드(JWH)로 사업화",
+      "alternativeKo": "안정적 거래자 또는 IB 시니어 경로",
+      "outcomeKo": "시스템 트렌드 추종 헤지펀드 산업 1세대 — 30년 누적 수익이 스포츠 인수 자본",
+      "source": "https://en.wikipedia.org/wiki/John_W._Henry_%26_Company"
+    },
+    {
+      "year": 2002,
+      "age": 53,
+      "decisionKo": "Boston Red Sox + Fenway + NESN 패키지 인수로 스포츠 자본가 정체성 확립",
+      "alternativeKo": "헤지펀드 단일 집중 유지",
+      "outcomeKo": "2004 월드시리즈 우승 + 23년 누적 가치 상승 — 단일 인수가 평생 정체성의 핵심",
+      "source": "https://en.wikipedia.org/wiki/Fenway_Sports_Group"
+    },
+    {
+      "year": 2010,
+      "age": 61,
+      "decisionKo": "재정 곤란 시기 Liverpool FC 인수 — 글로벌 스포츠 자본가로 확장",
+      "alternativeKo": "MLB 단일 집중 유지",
+      "outcomeKo": "야구 + 축구 두 스포츠 정점 만든 보기 드운 다스포츠 구단주",
+      "source": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+    },
+    {
+      "year": 2021,
+      "age": 72,
+      "decisionKo": "RedBird Capital의 소수 외부 자본 도입",
+      "alternativeKo": "100% 단일 가족 소유 유지",
+      "outcomeKo": "다세대 자본 구조 전환 + 추가 스포츠 자산 인수 자금 확보",
+      "source": "https://www.bloomberg.com"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "Fenway Sports Group(FSG, 비공개 가족 + RedBird 소수) — Boston Red Sox + Liverpool FC + Pittsburgh Penguins + Fenway Park + NESN + RFK Racing + Boston Globe Media. 본인 자산의 거의 전부가 FSG 가치. 헤지펀드 JWH는 2012년 자기 자본 운용으로 축소.",
+    "industryKo": "스포츠 구단 운영, 미디어, 스포츠 베팅, 경주 시리즈",
+    "businessModelKo": "MLB + EPL + NHL + NASCAR 등 다리그 구단 평가가치 상승 + 경기장 인프라(Fenway Park, Anfield) 운영 수익 + NESN 지역 스포츠 미디어 + Boston Globe 지역 신문. 챔피언십이 가치 상승의 핵심 동력. 외부 자본은 2021년 RedBird 소수 지분 + 다세대 가족 거버넌스.",
+    "moatKo": "① MLB·EPL·NHL 같은 희소 라이선스의 영구적 자산 가치. ② Boston·Liverpool 두 도시의 사회·문화 자본 통합. ③ 두 스포츠(MLB+EPL) 동시 챔피언십의 평판 자본. ④ 시스템 트레이딩 30년 운영 학습의 데이터 기반 의사결정.",
+    "luckVsSkillKo": "운(45%): 2002년 Yawkey Trust가 Red Sox를 매각한 타이밍, 2010년 Liverpool이 재정 곤란으로 매물로 나온 사이클, 2010년대 글로벌 스포츠 미디어 권리 가치 폭증. 실력(55%): 1976년 시스템 거래 학습의 데이터 기반 의사결정, 야구·축구 두 스포츠에서 모두 챔피언십 만든 운영 능력, 19년 후 외부 자본 도입의 사이클 감각."
+  },
+
+  "personalTraits": {
+    "knownFor": "Principal owner of Fenway Sports Group — owner of the Boston Red Sox (MLB), Liverpool FC (Premier League), Pittsburgh Penguins (NHL), Fenway Park, NESN, RFK Racing, and The Boston Globe; former systematic-trend-following hedge fund manager who founded John W. Henry & Company in 1981; won World Series titles in 2004, 2007, 2013, and 2018 with the Red Sox and Premier League and Champions League titles with Liverpool.",
+    "knownForKo": "Fenway Sports Group 최대 소유주 — Boston Red Sox(MLB)·Liverpool FC(프리미어 리그)·Pittsburgh Penguins(NHL)·Fenway Park·NESN·RFK Racing·The Boston Globe 보유. 1981년 John W. Henry & Company를 설립한 전 시스템 트렌드 추종 헤지펀드 매니저. Red Sox로 2004·2007·2013·2018 월드시리즈, 리버풀로 프리미어 리그·챔피언스 리그 우승.",
+    "philanthropy": "Boston Red Sox Foundation funds children's cancer research, youth baseball, and Boston-area social welfare. Liverpool FC Foundation funds Merseyside community programs. Personal philanthropy through the John W. Henry Family Foundation supports Cuban-American programs, journalism education (after Boston Globe acquisition), and arts in Boston and Liverpool.",
+    "philanthropyKo": "Boston Red Sox Foundation이 어린이 암 연구·청소년 야구·보스턴 지역 사회복지 자금. Liverpool FC Foundation이 머지사이드 지역 사회 프로그램 자금. John W. Henry Family Foundation 통한 개인 자선이 쿠바계 미국인 프로그램·언론 교육(Boston Globe 인수 후)·보스턴·리버풀 예술 후원.",
+    "controversies": "Red Sox occasionally face criticism over front-office and player compensation decisions; Liverpool's involvement in the European Super League proposal (2021) drew massive fan backlash and resulted in a forced withdrawal and apology; FSG ownership of multiple sports properties raises occasional antitrust and concentration debate; The Boston Globe acquisition raised questions about editorial independence (resolved through governance structures).",
+    "controversiesKo": "Red Sox는 프런트오피스·선수 보수 결정에 간헐적 비판. 리버풀의 유러피언 슈퍼 리그 제안 참여(2021)가 거대 팬 반발을 불러 강제 철회·사과 결과. FSG의 다 스포츠 자산 보유가 간헐적 반독점·집중 논쟁. Boston Globe 인수가 편집권 독립 의문 야기(거버넌스 구조 통해 해결)."
+  },
+
+  "characterKo": {
+    "summaryKo": "시스템 트레이더 정체성의 데이터 기반 의사결정을 스포츠 구단 운영에 일관되게 적용하는 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '구단 트레이드 결정도 헤지펀드 신호처럼 정량적 모델로 본다는 점'과 '미디어 노출이 매우 적지만 결정적 순간에는 본인이 직접 메시지를 낸다는 점'. 보스턴·리버풀 두 도시의 정서적 무게를 동시에 감당.",
+    "tagsKo": ["시스템 트레이더형 구단주", "다스포츠 자본가", "보스턴-리버풀 양도시", "데이터 기반 의사결정", "미디어 통합"]
+  },
+
+  "failures": [
+    {
+      "year": 2003,
+      "description": "Sold the Florida Marlins to Jeffrey Loria shortly before the team won the 2003 World Series; the timing was widely cited as one of the worst sale-timing decisions in MLB ownership history.",
+      "descriptionKo": "팀이 2003 월드시리즈 우승 직전에 Florida Marlins를 Jeffrey Loria에게 매각 — 타이밍이 MLB 구단주 역사상 최악의 매각 타이밍 결정 중 하나로 광범위 인용.",
+      "lesson": "Sports franchise value can pivot within a single season; selling for a competing acquisition (the Red Sox in 2002) is rational but exposes you to specific-timing regret that lingers for years.",
+      "lessonKo": "스포츠 프랜차이즈 가치는 한 시즌 안에 전환될 수 있다. 경쟁 인수(2002 Red Sox)를 위해 매각하는 것은 합리적이지만 수년간 지속되는 특정 타이밍 후회에 노출된다.",
+      "source": "https://en.wikipedia.org/wiki/Miami_Marlins"
+    },
+    {
+      "year": 2021,
+      "description": "Liverpool FC was a founding member of the announced European Super League — a breakaway competition that triggered massive fan protests, threats from UEFA and FIFA, and political condemnation within 48 hours. FSG was forced to withdraw Liverpool and Henry personally issued a public video apology to Liverpool supporters.",
+      "descriptionKo": "Liverpool FC가 발표된 유러피언 슈퍼 리그의 창립 멤버 — 분리 대회가 48시간 안에 거대 팬 시위·UEFA·FIFA 위협·정치적 비난 촉발. FSG가 Liverpool 철회 강제, 헨리가 리버풀 지지자에게 개인 비디오 사과 발표.",
+      "lesson": "Sports ownership has a stakeholder structure (fans, leagues, governments, media) where the financial logic of the owner is the smallest vote; major strategic moves must price fan-base reaction first.",
+      "lessonKo": "스포츠 구단주는 팬·리그·정부·미디어 같은 이해관계자 구조를 가지며 소유주의 재무 논리가 가장 작은 표이다. 주요 전략적 움직임은 팬 베이스 반응을 가장 먼저 가격에 반영해야 한다.",
+      "source": "https://en.wikipedia.org/wiki/European_Super_League"
+    },
+    {
+      "year": 2012,
+      "description": "John W. Henry & Company suffered significant losses in 2011-2012 as trend-following systematic strategies underperformed in low-volatility, low-trend market environments. The firm reduced its outside-investor business and eventually became a primarily personal-capital vehicle.",
+      "descriptionKo": "John W. Henry & Company가 2011-2012년 큰 손실 — 시스템 트렌드 추종 전략이 저변동성·저트렌드 시장 환경에서 부진. 회사가 외부 투자자 사업을 축소하고 결국 본인 자본 운용 중심으로 전환.",
+      "lesson": "Quantitative strategies that worked across decades can fail in regime-shifted markets; even sophisticated managers must accept that their model becomes a legacy product as markets evolve.",
+      "lessonKo": "수십 년에 걸쳐 작동한 정량 전략은 체제 전환 시장에서 실패할 수 있다. 정교한 운용자도 시장이 진화함에 따라 모델이 유산 제품이 됨을 받아들여야 한다.",
+      "source": "https://en.wikipedia.org/wiki/John_W._Henry_%26_Company"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2010, "netWorth": 1.5 },
+    { "year": 2015, "netWorth": 2.2 },
+    { "year": 2018, "netWorth": 2.6 },
+    { "year": 2021, "netWorth": 3.2 },
+    { "year": 2023, "netWorth": 3.8 },
+    { "year": 2024, "netWorth": 5.0 },
+    { "year": 2025, "netWorth": 5.7 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "Numbers do not lie. People do. Sports teaches you which side of that to live on.",
+      "textKo": "숫자는 거짓말하지 않는다. 사람이 한다. 스포츠는 그 어느 쪽에서 살아야 하는지 가르친다.",
+      "context": "On applying systematic-trader discipline to sports franchise management",
+      "contextKo": "시스템 트레이더 규율을 스포츠 프랜차이즈 경영에 적용하는 데 대해",
+      "source": "https://www.forbes.com/profile/john-henry/"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Byeong-O day pillar in a Yu month forms a 'jeonggwan-gyeok' chart — bright fire under autumn metal authority, fitting a quantitative trader who built systematic discipline into one of the most visible American sports ownership careers.",
+    "summaryKo": "병오 일주가 유월에 자리잡은 정관격(공식 권위·규제·구조 아래 자기 자본을 만들어 가는 구조)은 MLB·EPL·NHL이라는 세 가지 강한 정관 환경 안에서 시스템 트레이더 규율을 일관되게 적용한 그의 인생과 호응합니다. 병화 일간은 태양·공개적 빛의 기질로 보스턴·리버풀 두 도시의 정서적 무게를 떠받치는 본능과 맞물립니다. 일지·월지의 오화·유금이 양인(자기 의지)·정재(고정 자본) 결합으로 — 시스템 트레이더 시기 자기 자본 운용 + 스포츠 구단 시기 안정적 자산 가치 상승 양쪽을 그대로 그려냅니다. 연주 기축의 기토·축토가 상관(자기 표현)·식상으로 데이터 기반 의사결정의 본능. 월간 계수가 정관으로 또 — 평생 규제·리그·미디어 권위 안에서 움직인 그의 정체성. 약점은 정관격이 너무 강하면 식상(자기 표현·팬 정서)과 충돌할 수 있다는 점인데, 2021년 유러피언 슈퍼 리그 사태가 그 표면화로 — 재무 논리(정관)와 팬 정서(상관)의 충돌이 그 그늘로 읽힙니다."
+  }
+}

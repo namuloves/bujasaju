@@ -1,0 +1,47 @@
+{
+  "id": "838",
+  "name": "Igor Altushkin",
+  "nameKo": "이고르 알투슈킨",
+  "netWorth": 4.9,
+  "nationality": "RU",
+  "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Sverdlovsk (now Yekaterinburg), Russian SFSR, Soviet Union",
+    "birthPlaceKo": "소비에트 러시아 SFSR 스베르들롭스크(현 예카테린부르크)",
+    "familyBackground": "Born in industrial Urals city of Sverdlovsk during late Soviet era. Family middle-class; no inherited capital.",
+    "familyBackgroundKo": "소비에트 후기 우랄 산업 도시 스베르들롭스크에서 출생. 가족 중산층; 상속 자본 없음.",
+    "education": "Engineering training in Soviet/Russian educational system.",
+    "educationKo": "소비에트/러시아 교육 체계의 공학 훈련.",
+    "earlyLife": "Started as scrap metal trader in 1990s post-Soviet Yekaterinburg; built capital through aggressive Ural-region copper-scrap trading before founding Russian Copper Company (RCC) in 2004.",
+    "earlyLifeKo": "1990년대 포스트소비에트 예카테린부르크에서 스크랩 금속 거래자로 시작; 2004년 Russian Copper Company(RCC) 창립 전 공격적 우랄 지역 구리 스크랩 거래로 자본 구축.",
+    "source": "https://en.wikipedia.org/wiki/Igor_Altushkin ; https://www.rmk-group.ru"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "100% 자수성가. 1990년대 우랄 구리 스크랩 거래 누적 + 2004년 Russian Copper Company 창립 후 러시아 3위 구리 생산자로 성장." },
+  "careerTimeline": [
+    { "year": 1992, "age": 22, "event": "Began scrap metal trading in Yekaterinburg.", "eventKo": "예카테린부르크에서 스크랩 금속 거래 시작.", "whyItMatteredKo": "우랄 광업 산업의 1990년대 자본 축적 출발선." },
+    { "year": 2004, "age": 34, "event": "Founded Russian Copper Company (RCC) by consolidating Ural-region copper assets; became Russia's third-largest copper producer.", "eventKo": "Ural 지역 구리 자산 통합으로 Russian Copper Company(RCC) 창립; 러시아 3위 구리 생산자가 됨.", "whyItMatteredKo": "거래자에서 산업 운영자로 전환." },
+    { "year": 2010, "age": 40, "event": "RCC expanded through acquisitions including Mikheevsky and Tominsky copper deposits in Chelyabinsk; major capex investments.", "eventKo": "RCC가 첼랴빈스크의 Mikheevsky·Tominsky 구리 광산 인수 등 통한 확장; 주요 자본 투자.", "whyItMatteredKo": "광산 매장량 확장 — 평생 부의 토대." },
+    { "year": 2022, "age": 52, "event": "After Russia's invasion of Ukraine, EU and UK added Altushkin to sanctions lists; global copper market access restricted.", "eventKo": "러시아의 우크라이나 침공 후 EU·영국이 Altushkin을 제재 명단에 추가; 글로벌 구리 시장 접근 제한.", "whyItMatteredKo": "글로벌 자본가 정체성 종결." },
+    { "year": 2025, "age": 55, "event": "Personal net worth at $4.9B per Forbes Real-Time. RCC continues as Russian copper producer; family ownership restructured for sanctions environment.", "eventKo": "포브스 실시간 기준 개인 순자산 49억 달러. RCC가 러시아 구리 생산자로 계속; 제재 환경을 위한 가족 소유 재구조화.", "whyItMatteredKo": "1990년대 자수성가의 30년 누적 결과 — 제재에도 러시아 내수 자본 안정성." }
+  ],
+  "turningPoints": [{ "year": 2004, "age": 34, "decisionKo": "스크랩 거래자에서 RCC 창립으로 산업가 정체성 전환", "alternativeKo": "거래자 잔류", "outcomeKo": "러시아 3위 구리 생산자 — 평생 부의 토대" }],
+  "moneyMechanics": { "primaryRevenueKo": "Russian Copper Company(RCC, 비공개) 통제 지분", "industryKo": "구리 채굴·제련", "businessModelKo": "우랄 지역 구리 매장량 통합 + 제련", "moatKo": "1990년대 누적된 우랄 구리 산업 지위", "luckVsSkillKo": "운(45%): 1990년대 러시아 광업 사이클. 실력(55%): 거래자→산업가 변환, 매장량 통합 능력." },
+  "personalTraits": {
+    "knownFor": "Founder of Russian Copper Company (RCC) — Russia's third-largest copper producer; under EU/UK sanctions since 2022.",
+    "knownForKo": "Russian Copper Company(RCC, 러시아 3위 구리 생산자) 창립자; 2022년부터 EU/영국 제재 대상.",
+    "philanthropy": "Funds Yekaterinburg cultural and Orthodox church initiatives; supports Russian metal-industry educational programs.",
+    "philanthropyKo": "예카테린부르크 문화·정교회 사업 자금; 러시아 금속 산업 교육 프로그램 지원.",
+    "controversies": "RCC mining operations have faced sustained environmental criticism (particularly over Tominsky open-pit copper project near Chelyabinsk); 2022 Western sanctions for Ukraine war ties.",
+    "controversiesKo": "RCC 광업 운영이 지속적 환경 비판 직면(특히 첼랴빈스크 근처 Tominsky 노천 구리 프로젝트); 2022 우크라이나 전쟁 관계 서방 제재."
+  },
+  "characterKo": { "summaryKo": "1990년대 우랄 자수성가 1세대 산업가의 표준 사례 — 거래자에서 산업 운영자로 30년 변환.", "tagsKo": ["우랄 구리", "1990년대 자수성가", "RCC 창립자", "서방 제재"] },
+  "failures": [
+    { "year": 2015, "description": "Tominsky copper project drew sustained environmental protests in Chelyabinsk over water-supply and air-quality concerns; multi-year regulatory and community-relations crisis.", "descriptionKo": "Tominsky 구리 프로젝트가 첼랴빈스크에서 물 공급·대기 질 우려로 지속적 환경 시위 — 다년간 규제·지역 사회 관계 위기.", "lesson": "Major open-pit mining projects in populated regions require community-relations investment from project inception.", "lessonKo": "인구 밀집 지역의 주요 노천 광업 프로젝트는 프로젝트 시작부터 지역 사회 관계 투자가 필요하다." },
+    { "year": 2022, "description": "EU/UK sanctions cut RCC from Western copper-trading networks overnight; required pivot to Chinese and Asian copper buyers.", "descriptionKo": "EU/영국 제재가 RCC를 하룻밤에 서방 구리 거래 네트워크에서 차단 — 중국·아시아 구리 매수자로 전환 필요.", "lesson": "Resource-export wealth is exposed to single-event geopolitical shifts that compress global market access.", "lessonKo": "자원 수출 부는 글로벌 시장 접근을 압축하는 단일 사건 지정학적 변화에 노출된다." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 1.6 }, { "year": 2021, "netWorth": 3.4 }, { "year": 2024, "netWorth": 4.7 }, { "year": 2025, "netWorth": 4.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I started with scrap. The Urals are made of copper if you know where to look.", "textKo": "나는 스크랩으로 시작했다. 우랄은 어디를 봐야 하는지 알면 구리로 만들어져 있다.", "context": "On his early scrap-trading start", "contextKo": "초기 스크랩 거래 시작에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in Yu month — 'siksin-gyeok' (creative output under autumn metal), fitting an industrial operator who produced sustained capital from metal extraction.", "summaryKo": "계사 일주 + 유월 식신격은 구리 산업 운영자의 안정적 자본 생산과 호응 — 일지 사화·월지 유금이 식상·정관의 결합으로 정밀 산업·규제 환경." }
+}

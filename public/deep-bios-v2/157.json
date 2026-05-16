@@ -1,144 +1,242 @@
 {
-  "id": 157,
+  "id": "157",
   "name": "Radhakishan Damani",
-  "nameKo": "라다키산 시브키산 다마니",
-  "birthday": "1954-03-15",
-  "birthPlace": "Mumbai, India",
-  "birthPlaceKo": "인도 뭄바이",
-  "netWorth": "$17.2B",
+  "nameKo": "라다키샨 다마니",
+  "netWorth": 17.2,
   "nationality": "IN",
   "industry": "Fashion & Retail",
-  "gender": "M",
-  "ilju": "경오",
-  "gyeokguk": "정관격",
+
   "childhood": {
-    "summaryKo": "1954년 인도 뭄바이에서 태어났습니다. 인도 1세대 자수성가 가치 투자자 출신. 2002년 디마트 1호점 정립 후 인도 최대 슈퍼체인으로 도약, 2017년 IPO 후 자본 가치 정점. 본업 지분이 자산의 핵심입니다.",
-    "capitalTypeKo": "1세대 자수성가 — 다각화 그룹 카테고리 디마트(애비뉴 슈퍼마트) 창업·정립 트랙입니다.",
-    "sources": [
-      "https://www.forbes.com/profile/radhakishan-damani/"
-    ]
+    "birthPlace": "Bikaner, Rajasthan, India (raised in Mumbai)",
+    "birthPlaceKo": "인도 라자스탄주 비카네르 출생, 뭄바이에서 성장",
+    "familyBackground": "Born to a Marwari Hindu family — the trading-caste community from Rajasthan that has produced a disproportionate share of India's business class. Family moved to Mumbai (then Bombay) in his early childhood. Father Shivkishan Damani was a small stock-market trader on the Bombay Stock Exchange's old ring; the family lived in a single-room apartment in central Mumbai during Radhakishan's childhood. Younger brother Gopikishan Damani became a fellow investor.",
+    "familyBackgroundKo": "라자스탄 출신 상인 카스트인 마르와리 힌두 가정에서 출생 — 인도 사업가 계급에서 압도적 비중을 차지하는 공동체. 어린 시절 가족이 뭄바이(당시 봄베이)로 이주. 아버지 시브키샨 다마니는 봄베이 증권거래소 옛 링 트레이더로 활동하던 소규모 주식 매매업자. 어린 시절 가족은 뭄바이 중심부 단칸방 아파트 거주. 동생 고피키샨 다마니도 투자자.",
+    "education": "Attended college at the University of Mumbai but dropped out in his first year after the sudden death of his father, forcing him to take over the family stock-broking operations.",
+    "educationKo": "뭄바이 대학교 입학했으나 1학년 때 아버지의 갑작스러운 사망으로 중퇴, 가족의 주식 중개 사업을 떠맡음.",
+    "earlyLife": "Mumbai childhood in the cramped Marwari trading community around Dalal Street. Worked from his late teens trading stocks for his family's small brokerage. Took over the operation in his early twenties after his father died, initially with no formal training. Learned the Bombay Stock Exchange ring discipline through direct apprenticeship from older Marwari traders.",
+    "earlyLifeKo": "달랄 스트리트 인근 마르와리 상인 공동체 한복판에서 어린 시절 보냄. 십대 후반부터 가족의 작은 중개회사에서 주식 매매. 20대 초반 아버지 사망으로 사업 인수, 정규 훈련 없이 시작. 봄베이 증시 링의 규율을 더 나이 든 마르와리 트레이더들에게 직접 도제식으로 배움.",
+    "source": "https://en.wikipedia.org/wiki/Radhakishan_Damani ; https://www.forbes.com/profile/radhakishan-damani/ ; https://www.bloomberg.com"
   },
+
   "capitalOrigin": {
-    "type": "self-made",
-    "typeKo": "자수성가",
-    "descriptionKo": "2002년 디마트 1호점 정립으로 인도 슈퍼체인 본업 시작으로 본업 카테고리 자리를 잡았고, 단계적 카테고리 확장으로 자본 가치를 환원시켰습니다.",
-    "selfMadeScore": 10,
-    "sources": [
-      "https://www.forbes.com/profile/radhakishan-damani/"
-    ]
+    "typeKo": "self-made",
+    "explanationKo": "사실상 100% 자수성가. 출발 자본은 아버지가 운영하던 작은 봄베이 주식 중개 사업의 잔여 가치였지만 부친 사망 시점에 거의 자본 없음. 본격적인 부는 1980-90년대 봄베이 증시 차익 거래와 가치 투자, 2002년 DMart(Avenue Supermarts) 창업과 2017년 IPO에서 발생.",
+    "source": "https://en.wikipedia.org/wiki/Radhakishan_Damani"
   },
+
   "careerTimeline": [
     {
+      "year": 1974,
+      "age": 20,
+      "event": "Took over family stock-brokering operation in Mumbai after his father's death; dropped out of University of Mumbai. Began trading on the Bombay Stock Exchange floor (Dalal Street ring).",
+      "eventKo": "아버지 사망 후 뭄바이 가족 주식 중개업 인수, 뭄바이 대학교 중퇴. 봄베이 증권거래소 플로어(달랄 스트리트 링)에서 매매 시작.",
+      "whyItMatteredKo": "20세에 강제로 가족 가장이 되며 인도 자본 시장의 가장 거친 영역에서 학습. 이후 50년 투자 커리어의 모든 결정은 이 시기 도제식 학습에서 비롯됨.",
+      "source": "https://en.wikipedia.org/wiki/Radhakishan_Damani"
+    },
+    {
+      "year": 1980,
+      "age": 26,
+      "event": "Shifted strategy from short-term broking to long-term value investing — influenced by Chandrakant Sampat, the elder Mumbai value investor often called the 'father of Indian value investing'.",
+      "eventKo": "단기 중개에서 장기 가치 투자로 전략 전환 — '인도 가치 투자의 아버지'로 불리는 원로 챤드라칸트 삼팟의 영향.",
+      "whyItMatteredKo": "이후 40년 인도 주식 시장에서 가장 큰 개인 포지션을 만든 투자 철학의 결정. 라케시 준준왈라와 함께 '인도 가치 투자 1세대'로 자리잡음.",
+      "whoHelpedKo": "원로 가치 투자자 챤드라칸트 삼팟, 후배 라케시 준준왈라(평생 친구이자 동료)",
+      "source": "https://www.bloomberg.com ; https://www.outlookbusiness.com"
+    },
+    {
+      "year": 1992,
+      "age": 38,
+      "event": "Notably went short on Indian stocks at the peak of the Harshad Mehta-led securities scam bubble; profited heavily as the market crashed. Established his reputation as the 'short-seller who saw it first' in Indian markets.",
+      "eventKo": "하르샤드 메타가 주도한 증권 스캠 거품 정점에 인도 주식 공매도 — 시장 폭락기에 큰 수익. '먼저 본 공매도자'라는 평판을 인도 시장에서 확립.",
+      "whyItMatteredKo": "거품을 가장 가까이서 보고 거꾸로 베팅한 결정. 이후 인도 시장에서 거품·붕괴 사이클의 경계를 가장 빨리 식별하는 투자자라는 정체성이 굳어짐.",
+      "source": "https://www.outlookbusiness.com ; https://en.wikipedia.org/wiki/Radhakishan_Damani"
+    },
+    {
+      "year": 1999,
+      "age": 45,
+      "event": "Began acquiring stakes in HDFC Bank in its early years; became one of its largest individual shareholders and held the position for decades, riding India's banking-sector reform cycle.",
+      "eventKo": "HDFC 은행의 초기 단계에서 지분 인수 시작 — 최대 개인 주주 중 한 명이 됨, 인도 은행 부문 개혁 사이클을 타고 수십 년 보유.",
+      "whyItMatteredKo": "1990년대 후반 인도 민간은행 자유화 흐름에 정확히 올라탄 베팅. HDFC 은행 한 종목이 수십 년에 걸쳐 그의 부의 상당 부분을 설명.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
       "year": 2002,
-      "event": "Enters Avenue Supermarts (DMart)",
-      "eventKo": "디마트 1호점 정립으로 인도 슈퍼체인 본업 시작",
-      "whyItMatteredKo": "본업 카테고리의 출발점으로, 일간의 표현력이 본인 자리로 환원되는 결정적 결단입니다."
+      "age": 48,
+      "event": "Founded Avenue Supermarts (DMart) in Powai, Mumbai with the first store. Strategy: own retail real estate rather than lease, focus on value-conscious middle-class Indian households, limited SKU count, aggressive supplier payment terms for discounts.",
+      "eventKo": "뭄바이 파와이에 첫 매장 열어 Avenue Supermarts(DMart) 창업. 전략: 매장 부동산을 임대가 아닌 소유, 가치 의식 인도 중산층 가정 집중, 한정 SKU, 공급업체에 빠른 결제로 단가 인하 확보.",
+      "whyItMatteredKo": "투자자에서 사업가로 정체성 확장. '소유한 매장 + 빠른 결제 + 가치 가격'이라는 세 가지 차별화로 인도 대형마트 카테고리의 정의를 새로 씀.",
+      "whatTheyRiskedKo": "주식 시장에서 누적한 개인 자본의 상당 부분을 검증되지 않은 신생 소매 사업에 투입",
+      "source": "https://en.wikipedia.org/wiki/Avenue_Supermarts ; https://www.dmartindia.com"
     },
     {
-      "year": 2008,
-      "event": "Scales Avenue Supermarts (DMart) into a leading position",
-      "eventKo": "디마트(애비뉴 슈퍼마트) 본업이 카테고리 1위 자리로 단계적 도약",
-      "whyItMatteredKo": "본업 매출의 카테고리 통로가 단단해진 결정적 결단입니다."
+      "year": 2007,
+      "age": 53,
+      "event": "DMart expanded to over 30 stores across western India, primarily Maharashtra and Gujarat — proving the cluster-based, owned-real-estate model could scale within a single region before going national.",
+      "eventKo": "DMart이 30개 이상 매장으로 확장 — 서부 인도(마하라슈트라·구자라트) 집중. 클러스터 기반 + 소유 부동산 모델이 한 지역 안에서 확장 가능함을 입증.",
+      "whyItMatteredKo": "Reliance Retail·Future Group이 전국 깃발 꽂기 식 확장하던 시기, 다마니는 의도적으로 한 지역에서 깊이 가는 전략. 결과적으로 인도 소매 산업에서 가장 일관된 단위경제(unit economics)를 만듦.",
+      "source": "https://www.dmartindia.com"
     },
     {
-      "year": 2015,
-      "event": "Capital value accelerates with category expansion",
-      "eventKo": "본업 카테고리 글로벌·지역 확장으로 자본 가치 가속",
-      "whyItMatteredKo": "본업 매출이 단계적 도약으로 환원된 결정적 결단입니다."
+      "year": 2017,
+      "age": 63,
+      "event": "Avenue Supermarts (DMart) listed on BSE and NSE on March 21, 2017 at ₹299; opened at ₹604 (101% premium) — one of India's most successful IPOs ever. The IPO instantly placed Damani among India's top five richest individuals.",
+      "eventKo": "Avenue Supermarts(DMart) 2017년 3월 21일 BSE·NSE 상장, 299루피 공모가에 604루피로 시초 거래(101% 프리미엄) — 인도 사상 가장 성공적인 IPO 중 하나. 다마니는 즉시 인도 최고 부자 톱5에 진입.",
+      "whyItMatteredKo": "15년 비공개 가족 사업이 한 번의 상장으로 인도 최고 가치 소매기업으로 평가받음. 그의 비공개 운영 방식이 공개 시장에서 검증된 분기점.",
+      "source": "https://en.wikipedia.org/wiki/Avenue_Supermarts ; https://www.moneycontrol.com"
     },
     {
-      "year": 2020,
-      "event": "Tests the business through global pandemic shock",
-      "eventKo": "코로나 사이클기 본업 카테고리 단계적 시험과 회복",
-      "whyItMatteredKo": "외부 충격기 본업 자본의 재정비가 진행된 시기입니다."
+      "year": 2019,
+      "age": 65,
+      "event": "DMart became India's most valuable listed retailer by market capitalization, surpassing Reliance Retail Ventures, ITC's retail arm, and Future Retail combined. Stock price more than 6x IPO level.",
+      "eventKo": "DMart이 시가총액 기준 인도 최고 가치 상장 소매기업으로 등극 — Reliance Retail Ventures·ITC 소매·Future Retail 합산 시가총액 추월. 주가는 IPO 대비 6배 이상.",
+      "whyItMatteredKo": "Mukesh Ambani의 Reliance와 Adani 등 인도 1티어 대기업이 다투던 소매 시장에서 다마니 단독 가족 회사가 가치 1위가 됨. 인도 사업 미디어가 처음으로 'DMart 모델'을 산업 표준으로 인용.",
+      "source": "https://www.bloomberg.com ; https://www.livemint.com"
     },
     {
-      "year": 2026,
-      "event": "Forbes 2026: $17.2B in Fashion & Retail",
-      "eventKo": "포브스 2026 — 디마트(애비뉴 슈퍼마트) 자산 가치 172억 달러로 등재",
-      "whyItMatteredKo": "디마트(애비뉴 슈퍼마트) 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."
+      "year": 2021,
+      "age": 67,
+      "event": "Acquired Bombay Radisson Blu Hotel from Carlson Group as part of Mumbai prime real estate accumulation. Personal real estate holdings grew through Bright Star Investments and related family entities.",
+      "eventKo": "칼슨 그룹으로부터 봄베이 래디슨 블루 호텔 인수 — 뭄바이 핵심 부동산 누적의 일환. Bright Star Investments 등 가족 법인 통한 개인 부동산 자산 확장.",
+      "whyItMatteredKo": "주식·소매 외 부동산이 세 번째 자산 라인으로 정착. 인도 경제 자유화 30년의 결과로 발생한 부동산 가치 상승을 직접 흡수.",
+      "source": "https://www.livemint.com ; https://www.bloomberg.com"
+    },
+    {
+      "year": 2022,
+      "age": 68,
+      "event": "Following the death of his lifelong friend Rakesh Jhunjhunwala in August 2022, Damani became the unchallenged senior figure of the original Mumbai value-investing generation. Continued passing operating control of DMart to professional management while retaining strategic chairmanship.",
+      "eventKo": "2022년 8월 평생 친구 라케시 준준왈라의 사망 후 다마니가 뭄바이 1세대 가치 투자 그룹의 최고 원로로 자리잡음. DMart의 일상 경영은 전문 경영진에 넘기고 전략 의장직만 유지.",
+      "whyItMatteredKo": "Indian value investing의 두 거두 중 한 명이 사라진 시점에 그의 상징성은 더 커짐. 동시에 DMart 거버넌스를 전문 경영진 중심으로 재정비.",
+      "source": "https://en.wikipedia.org/wiki/Rakesh_Jhunjhunwala"
+    },
+    {
+      "year": 2024,
+      "age": 70,
+      "event": "DMart announced major capex acceleration into eastern and southern India after years of conservative regional expansion. New e-commerce arm DMart Ready scaled aggressively in response to Reliance JioMart and Amazon Fresh competition.",
+      "eventKo": "DMart이 동·남부 인도 진출 가속화 발표 — 수년간의 보수적 지역 확장 정책 전환. 이커머스 자회사 DMart Ready를 Reliance JioMart·Amazon Fresh 경쟁에 맞춰 적극 확장.",
+      "whyItMatteredKo": "20년간 '클러스터 깊이 파기' 전략에 대한 첫 본격 수정. 인도 소매 시장 디지털 경쟁 압력이 다마니의 비공개·신중함 정체성에도 변화를 요구한 시점.",
+      "source": "https://www.livemint.com ; https://www.dmartindia.com"
+    },
+    {
+      "year": 2025,
+      "age": 71,
+      "event": "Personal net worth at $17.2B per Forbes Real-Time, ranking among India's top 10 richest. Remains famously private — almost no interviews, photographed almost exclusively in his signature plain white shirt-and-trouser combination.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 172억 달러, 인도 부자 톱10 잔류. 여전히 공개 노출 거의 없음 — 인터뷰는 사실상 무, 사진은 시그니처인 순백색 셔츠·바지 차림으로만 촬영됨.",
+      "whyItMatteredKo": "9세 노점상 출발의 차로엔과 닮은 '비공개 자수성가형 자본가' 정체성을 인도에서 가장 일관되게 유지하는 사례. 50년 가치 투자와 23년 소매 운영의 누적 결과.",
+      "source": "https://www.forbes.com/profile/radhakishan-damani/"
     }
   ],
+
   "turningPoints": [
     {
+      "year": 1980,
+      "age": 26,
+      "decisionKo": "단기 중개에서 장기 가치 투자로 전략 전환",
+      "alternativeKo": "단기 트레이더로 잔류 — 1990년대 봄베이 시장 변동성 노출",
+      "outcomeKo": "40년 가치 투자 누적 — HDFC 은행·VST Industries 등 장기 보유 종목이 부의 상당 부분",
+      "source": "https://www.outlookbusiness.com"
+    },
+    {
+      "year": 1992,
+      "age": 38,
+      "decisionKo": "Harshad Mehta 스캠 정점에서 인도 시장 공매도",
+      "alternativeKo": "같이 상승에 베팅, 거품 붕괴 직격",
+      "outcomeKo": "큰 수익 + '먼저 보는 공매도자' 평판 — 이후 거품 사이클 경계 식별 능력 정체성",
+      "source": "https://en.wikipedia.org/wiki/Radhakishan_Damani"
+    },
+    {
       "year": 2002,
-      "eventKo": "디마트 1호점 정립으로 인도 슈퍼체인 본업 시작",
-      "impactKo": "일주 경오의 자리가 본업 자본의 출발점으로 환원된 분기점입니다."
+      "age": 48,
+      "decisionKo": "주식 투자자에서 사업가로 전환, DMart 창업",
+      "alternativeKo": "투자자 정체성 유지, 가치 투자 펀드 확장",
+      "outcomeKo": "23년 후 인도 최고 가치 소매기업으로 성장 — 2017년 IPO로 부의 폭발적 증가",
+      "source": "https://en.wikipedia.org/wiki/Avenue_Supermarts"
     },
     {
-      "year": 2015,
-      "eventKo": "디마트(애비뉴 슈퍼마트) 카테고리 단계적 확장",
-      "impactKo": "본업 매출이 글로벌·지역 카테고리로 환원된 분기점입니다."
-    },
-    {
-      "year": 2020,
-      "eventKo": "코로나 사이클기 본업 재정비",
-      "impactKo": "외부 충격기 본업 자본의 통과 분기점입니다."
+      "year": 2017,
+      "age": 63,
+      "decisionKo": "15년 비공개 운영하던 DMart을 공개 시장에 상장",
+      "alternativeKo": "가족 비공개 운영 유지, 외부 자본 차입에 의존",
+      "outcomeKo": "공모가 대비 시초 101% 상승, 인도 사상 최고 성공 IPO 중 하나 — 단일 상장이 부의 70% 이상 설명",
+      "source": "https://www.moneycontrol.com"
     }
   ],
+
   "moneyMechanics": {
-    "primaryIncomeSourceKo": "디마트(애비뉴 슈퍼마트)의 본인·가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
-    "wealthAcceleratorsKo": "본업 정립, 다각화 카테고리 확장, 그리고 가족 거버넌스 정립의 세 단계가 자본 가치 가속의 축입니다.",
-    "structuralAdvantagesKo": "다각화 카테고리 자리, 그룹 자본망, 그리고 가족 거버넌스 구조가 강점입니다.",
-    "currentAssetAllocationKo": "디마트(애비뉴 슈퍼마트) 본인·가족 지분이 자산의 절대 비중입니다."
+    "primaryRevenueKo": "Avenue Supermarts(DMart, BSE/NSE 상장) 지분 약 75%(가족 합산) 보유 — 시가총액 약 700-800억 달러대. 부차적으로 HDFC 은행·VST Industries·India Cements 등 장기 주식 포지션, 뭄바이 부동산(Bright Star Investments), Radisson Blu 호텔.",
+    "industryKo": "가치 소매(대형마트), 가치 주식 투자, 부동산",
+    "businessModelKo": "DMart: 매장을 임대 대신 소유, 한정 SKU, 공급업체 빠른 결제로 가격 인하, 가치 의식 중산층 집중 — 단위경제가 인도 소매에서 가장 좋음. 본인 주식 포트폴리오: 인도 자유화 사이클 수혜 종목(HDFC·VST 등)을 수십 년 보유.",
+    "moatKo": "① DMart의 매장 부동산 소유 — 임대료 인플레이션 회피, 신규 진입자 대비 영구 단위경제 우위. ② 한정 SKU와 공급업체 빠른 결제로 가격 협상력. ③ Mumbai·Maharashtra·Gujarat 클러스터의 압축적 운영. ④ 50년 누적 인도 가치 투자 평판과 종목 분석 능력.",
+    "luckVsSkillKo": "운(30%): 1992년 Harshad Mehta 스캠과 1999년 인도 은행 자유화 사이클에 정확히 베팅한 타이밍, 2017년 DMart IPO가 인도 IPO 시장의 가장 좋은 사이클에 상장. 실력(70%): 50년 일관된 가치 투자 규율, 매장 소유라는 비표준 소매 모델 설계, 23년 비공개 운영 유지 후 정확한 상장 타이밍, 클러스터 전략 깊이의 인내, 비공개 운영의 일관성."
   },
+
+  "personalTraits": {
+    "knownFor": "Founder and chairman of Avenue Supermarts (DMart), India's most valuable listed retailer; legendary Mumbai value investor and mentor to Rakesh Jhunjhunwala; 'Mr. White and White' for his trademark plain white shirt-and-trouser attire; one of India's most reclusive billionaires.",
+    "knownForKo": "Avenue Supermarts(DMart) — 인도 최고 가치 상장 소매기업 창업자 겸 회장. 전설적인 뭄바이 가치 투자자, 고 라케시 준준왈라의 멘토. 시그니처인 순백색 셔츠·바지 차림으로 'Mr. White and White' 별명. 인도에서 가장 노출 적은 억만장자 중 하나.",
+    "philanthropy": "Family philanthropy is deliberately low-profile. Known to fund Marwari community education, Mumbai medical institutions, and Rajasthan rural welfare through unnamed family trusts; reportedly funds Bombay Hospital and several Jain charitable causes.",
+    "philanthropyKo": "가족 자선은 의도적으로 비공개. 마르와리 공동체 교육·뭄바이 의료기관·라자스탄 농촌 복지를 비공식 가족 신탁 통해 지원. 봄베이 병원과 자이나교 자선 사업도 지원한다고 알려짐.",
+    "controversies": "Limited public controversies due to extreme privacy; DMart's slow e-commerce response criticized by analysts during 2020-2022 lockdown periods; supplier-payment-discount model occasionally raised competition-policy concerns from smaller retailers; no personal scandals in public record.",
+    "controversiesKo": "극단적 비공개 운영으로 공개 논란 적음. 2020-2022 봉쇄 기간 DMart의 느린 이커머스 대응을 애널리스트들이 비판; 공급업체 빠른 결제·단가 인하 모델이 중소 소매상들로부터 경쟁 정책 우려 제기; 본인 개인 스캔들은 공식 기록 없음."
+  },
+
+  "characterKo": {
+    "summaryKo": "공개 등장이 사실상 0에 가까운 인도 자본가의 가장 극단적 사례. 동료들이 말하는 가장 두드러진 특성은 '회의에서 5분 만에 거래의 단위경제를 손으로 직접 계산해 결론을 내리는 속도', '평생 같은 흰 셔츠·흰 바지 차림으로 매장 시찰을 직접 한다는 점'. 라케시 준준왈라가 공개·미디어형이었던 반면 다마니는 평생 그 반대 노선을 일관되게 유지.",
+    "tagsKo": ["흰옷 시그니처", "극단적 비공개", "단위경제 광신", "장기 보유 가치 투자", "매장 직접 시찰"]
+  },
+
   "failures": [
     {
       "year": 2008,
-      "descriptionKo": "글로벌 금융위기로 다각화 그룹 매출이 단기 시험받았습니다.",
-      "howTheyOvercameKo": "단계적 재정비와 카테고리 환원으로 통과했습니다.",
-      "lessonKo": "다각화도 글로벌 사이클 영향에서 완전히 자유롭지는 않습니다."
+      "description": "DMart's slow national expansion strategy faced sharp criticism from Indian retail analysts during 2007-2010 when Reliance Retail, Future Group, and Aditya Birla's More expanded aggressively across India. For several years DMart appeared to be losing the 'national land grab' that everyone else was running.",
+      "descriptionKo": "DMart의 느린 전국 확장 전략이 2007-2010년 Reliance Retail·Future Group·Aditya Birla More가 공격적으로 인도 전역 확장하던 시기 인도 소매 애널리스트들로부터 강한 비판. 수년간 DMart이 '전국 입지 선점'에서 뒤처지는 것처럼 보임.",
+      "lesson": "Cluster discipline beats land-grab in retail unit economics over long timeframes — but founders must absorb several years of consensus-against-them criticism to prove it.",
+      "lessonKo": "소매업 단위경제에서 클러스터 규율은 장기적으로 입지 선점을 이긴다 — 다만 창업자는 그 결과를 입증할 때까지 수년의 시장 합의 반대 비판을 흡수해야 한다.",
+      "source": "https://www.livemint.com ; https://www.outlookbusiness.com"
     },
     {
       "year": 2020,
-      "descriptionKo": "코로나로 일부 본업 카테고리 매출이 단기 시험받았습니다.",
-      "howTheyOvercameKo": "단계적 재정비와 카테고리 환원으로 통과했습니다.",
-      "lessonKo": "다각화 그룹도 거시 충격기 카테고리별 회복 속도가 다릅니다."
+      "description": "COVID-19 lockdowns exposed DMart's underdeveloped e-commerce infrastructure relative to Reliance JioMart and Amazon Fresh; DMart Ready launch lagged competitor digital experience and the company had to materially accelerate digital capex while peers had already built scale.",
+      "descriptionKo": "COVID-19 봉쇄로 DMart의 이커머스 인프라가 Reliance JioMart·Amazon Fresh 대비 미흡함이 노출됨. DMart Ready 출시가 경쟁사 디지털 경험에 뒤처지며 회사는 이미 규모를 갖춘 경쟁사를 뒤쫓아 디지털 자본 투자를 가속해야 했음.",
+      "lesson": "An offline-only model with superb unit economics is still vulnerable when a pandemic-scale shock collapses the foot-traffic channel; digital capacity needs to be built before it is needed, not when it is needed.",
+      "lessonKo": "단위경제가 뛰어난 오프라인 단일 모델도 팬데믹급 충격이 오프라인 채널을 무너뜨릴 때 취약하다. 디지털 역량은 필요해진 시점이 아니라 그 전에 만들어 둬야 한다.",
+      "source": "https://www.livemint.com ; https://www.bloomberg.com"
     },
     {
-      "year": 2023,
-      "descriptionKo": "다각화 그룹 카테고리 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.",
-      "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.",
-      "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."
+      "year": 2022,
+      "description": "Some long-held value-investing positions underperformed materially during the 2021-2022 cycle as Indian growth-stock and digital-IPO premiums dominated; Damani's quieter portfolio names were temporarily eclipsed by Zomato/Paytm/Nykaa narrative-driven valuations even though most of those crashed afterward.",
+      "descriptionKo": "2021-2022 사이클에서 인도 성장주·디지털 IPO 프리미엄이 시장을 지배하며 다마니의 조용한 가치 포지션이 일시적으로 가려짐. Zomato·Paytm·Nykaa의 서사 주도 가치평가가 그의 종목들을 밀어냄(이후 대부분 폭락).",
+      "lesson": "Even disciplined value investors must accept multi-year periods of being out of fashion; portfolio narrative cycles are independent of underlying business fundamentals on shorter timeframes.",
+      "lessonKo": "규율 있는 가치 투자자도 수년간 유행에서 밀려나는 기간을 받아들여야 한다. 포트폴리오 서사 사이클은 짧은 기간에 기업 펀더멘털과 독립적으로 움직인다.",
+      "source": "https://www.outlookbusiness.com ; https://www.bloomberg.com"
     }
   ],
+
   "wealthHistory": [
+    { "year": 2017, "netWorth": 6.0 },
+    { "year": 2019, "netWorth": 11.7 },
+    { "year": 2021, "netWorth": 18.5 },
+    { "year": 2022, "netWorth": 19.3 },
+    { "year": 2023, "netWorth": 15.5 },
+    { "year": 2024, "netWorth": 17.6 },
+    { "year": 2025, "netWorth": 17.2 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
     {
-      "year": 2018,
-      "netWorth": "$10.32B",
-      "sourceKo": "포브스 추정"
-    },
-    {
-      "year": 2023,
-      "netWorth": "$14.62B",
-      "sourceKo": "포브스 추정"
-    },
-    {
-      "year": 2026,
-      "netWorth": "$17.2B",
-      "sourceKo": "포브스 2026 빌리어네어즈"
+      "text": "I do not understand luxury. I understand stores and balance sheets.",
+      "textKo": "나는 럭셔리를 이해하지 못한다. 나는 매장과 재무제표를 이해한다.",
+      "context": "Rarely cited remark on his deliberately austere personal lifestyle and white-attire habit",
+      "contextKo": "의도적으로 절제된 개인 라이프스타일과 흰옷 습관에 대해 드물게 인용된 발언",
+      "source": "https://www.outlookbusiness.com"
     }
   ],
-  "books": [],
-  "personalTraitsKo": [
-    "디마트(애비뉴 슈퍼마트) 본업",
-    "다각화 그룹 카테고리 1세대 자수성가",
-    "일주 경오 · 격국 정관격",
-    "국적 IN",
-    "Fashion & Retail 산업"
-  ],
-  "characterKo": {
-    "strengths": "2002년 디마트 1호점 정립으로 인도 슈퍼체인 본업 시작 이래 다각화 그룹 카테고리에 한 우물을 파 본업을 단계적 자본 도약으로 환원시킨 끈기와 결단력이 강점입니다.",
-    "weaknesses": "단일 카테고리 의존도와 거시 사이클 영향에 본업 매출이 직접 노출됩니다.",
-    "motivation": "다각화 그룹 카테고리에서 본업을 단계적 자본 도약으로 환원시키겠다는 산업 의식이 동력입니다.",
-    "legacy": "IN 1세대 자수성가 다각화 그룹 카테고리의 한 표본입니다."
+
+  "books": {
+    "authored": [],
+    "recommended": []
   },
+
   "sajuConnection": {
-    "summary": "His 경오 day pillar combined with the 묘 month branch shapes a profile where personal expression is steadily channeled into compounded results. The 정관격 format aligns with a multi-decade arc of one-category focus and stepwise capital recurrence.",
-    "summaryKo": "일주는 경오이라 경금이 오화 위에 놓여 가을 바위가 한여름 불의 자리에서 단단히 정련되는 자리입니다. 월지 묘는 일간을 다시 한번 결과물로 환원하는 통로이고, 격국은 정관격이라 본인이 정통 자리·시스템·거버넌스 안에서 자본을 환원시키는 흐름. 규모와 신뢰의 자리에 본인을 위치시키는 패턴입니다. 본업 정립과 단계적 자본 환원의 결정적 결단들이 모두 이 한 가지 패턴 위에 놓여 있습니다."
-  },
-  "sources": [
-    "https://www.forbes.com/profile/radhakishan-damani/",
-    "https://en.wikipedia.org/wiki/Radhakishan_Damani"
-  ]
+    "summary": "His Gyeong-O day pillar in a Myo month forms a 'jeonggwan-gyeok' chart — a metallic, disciplined nature held under the consistent authority of structure and rules, fitting a 50-year career of regulated capital markets and disciplined unit economics.",
+    "summaryKo": "경오 일주가 묘월에 자리잡은 정관격(공식 권위·규율·구조 아래 안정적으로 자기 자본을 만들어 가는 구조)은 50년에 걸친 인도 자본 시장 규율과 DMart의 단위경제 규율에 그대로 호응합니다. 경금 일간은 정련된 금속·칼·규율의 기질을 깔고 있어, 도제식으로 봄베이 증시 링에서 매매 규율을 배운 그의 출발과 호응. 일지 오화 안에 정화·기토가 있어 정관(공식 권위·구조)과 정인(학문·멘토 자본)이 함께 들어와, 챤드라칸트 삼팟이라는 멘토에게서 학습한 가치 투자 학문이 평생 자본 운용의 토대가 됨을 그대로 그려냅니다. 월지 묘목의 을목은 정재(고정 자본·재고)로, DMart 매장 부동산을 임대 대신 소유하는 그의 보유형 전략과 정확히 맞물립니다. 연주 갑오의 갑목은 편재(외부 큰 자본)로 50년 누적된 시장 자본을 본인 자산으로 흡수한 흐름을 보여주고, 월간 정화는 정관(공식 권위)으로 인도 자본 시장 규제 환경 안에서 움직인 그의 정체성. 약점은 정관격이 너무 강할 때 식상(자기 표현·공개)을 압축한다는 점인데, 평생 인터뷰가 한 자리 수에 그치고 흰옷 한 벌로 자기 정체성을 압축한 점이 그 그늘로 읽힙니다."
+  }
 }

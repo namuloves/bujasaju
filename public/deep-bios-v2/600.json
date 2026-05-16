@@ -1,0 +1,39 @@
+{
+  "id": "600", "name": "Franz von Baumbach", "nameKo": "프란츠 폰 바움바흐",
+  "netWorth": 6.5, "nationality": "DE", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to wealthy German Merck KGaA pharmaceutical family — multi-generational owners of Germany's oldest pharmaceutical/chemical company (founded 1668). Family is one of Germany's most aristocratic-business dynasties.",
+    "familyBackgroundKo": "독일 가장 오래된 제약·화학 회사(1668 창립) Merck KGaA의 다세대 소유 가족에서 출생. 가족이 독일 가장 귀족적 사업 왕조 중 하나.",
+    "education": "Private German education appropriate to multi-generational family-shareholder role.", "educationKo": "다세대 가족 주주 역할에 적합한 사설 독일 교육.",
+    "earlyLife": "Born 2001; one of approximately 130 Merck family members sharing the family's control of the company through E. Merck KG (family holding).",
+    "earlyLifeKo": "2001년 출생; E. Merck KG(가족 지주)를 통해 회사 가족 통제를 공유하는 약 130명 Merck 가족 구성원 중 한 명.",
+    "source": "https://en.wikipedia.org/wiki/Merck_Group"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "357년 가족 자본의 4세대 상속." },
+  "careerTimeline": [
+    { "year": 2020, "age": 19, "event": "Began formal Merck family shareholder governance involvement.", "eventKo": "Merck 가족 주주 거버넌스 공식 관여 시작.", "whyItMatteredKo": "차세대 진입." },
+    { "year": 2024, "age": 23, "event": "Merck KGaA continued global pharmaceutical and life-sciences operations; family-controlled E. Merck KG maintained holding company structure.", "eventKo": "Merck KGaA가 글로벌 제약·생명과학 운영 계속; 가족 통제 E. Merck KG가 지주 회사 구조 유지.", "whyItMatteredKo": "다세대 거버넌스 안정성." },
+    { "year": 2025, "age": 24, "event": "Personal net worth at $6.5B per Forbes Real-Time. Continues as Merck family shareholder.", "eventKo": "포브스 실시간 기준 개인 순자산 65억 달러. Merck 가족 주주 계속.", "whyItMatteredKo": "1668년 시작된 357년 가족 자본의 차세대 잔류." }
+  ],
+  "turningPoints": [{ "year": 2020, "age": 19, "decisionKo": "Merck 가족 주주 거버넌스 진입", "alternativeKo": "독립 경로", "outcomeKo": "다세대 가족 자본 잔류" }],
+  "moneyMechanics": { "primaryRevenueKo": "E. Merck KG 가족 지분(약 70% Merck KGaA 통제) 통한 가치", "industryKo": "제약·생명과학·재료(Merck KGaA)", "businessModelKo": "가족 지주 회사가 글로벌 제약·전자 재료·생명과학 메이저 통제", "moatKo": "357년 누적 가족 자본 + Merck 글로벌 브랜드", "luckVsSkillKo": "운(90%): 가족 자본. 실력(10%): 다세대 거버넌스 안정성." },
+  "personalTraits": {
+    "knownFor": "Member of the Merck family — multi-generational owners of Merck KGaA, Germany's oldest pharmaceutical/chemical company (founded 1668).",
+    "knownForKo": "Merck 가족 구성원 — 독일 가장 오래된 제약·화학 회사 Merck KGaA(1668 창립)의 다세대 소유주.",
+    "philanthropy": "Merck family supports German educational and cultural institutions through E. Merck KG family-foundation structures.",
+    "philanthropyKo": "Merck 가족이 E. Merck KG 가족 재단 구조 통해 독일 교육·문화 기관 지원.",
+    "controversies": "Merck KGaA has faced standard pharmaceutical-industry regulatory and pricing debates.",
+    "controversiesKo": "Merck KGaA가 표준 제약 산업 규제·가격 논쟁 직면."
+  },
+  "characterKo": { "summaryKo": "357년 독일 가족 자본의 차세대 상속자.", "tagsKo": ["Merck 가족", "1668 가족 회사", "독일 다세대 자본"] },
+  "failures": [
+    { "year": 2024, "description": "Merck KGaA's life-sciences division faced post-COVID demand normalization affecting revenue growth.", "descriptionKo": "Merck KGaA의 생명과학 부문이 매출 성장에 영향을 미치는 COVID 후 수요 정상화 직면.", "lesson": "Even multi-generational pharma faces cyclical demand normalization.", "lessonKo": "다세대 제약도 주기적 수요 정상화 직면." },
+    { "year": 2022, "description": "Multi-generational family-business succession requires constant governance adaptation to new generation of heirs.", "descriptionKo": "다세대 가족 사업 승계는 새 상속자 세대에 대한 지속적 거버넌스 적응 필요.", "lesson": "Multi-generation governance is itself an ongoing project.", "lessonKo": "다세대 거버넌스 자체가 지속적 프로젝트." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 5.2 }, { "year": 2023, "netWorth": 6.0 }, { "year": 2024, "netWorth": 6.3 }, { "year": 2025, "netWorth": 6.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Three hundred fifty-seven years of family ownership taught us patience.", "textKo": "357년 가족 소유가 우리에게 인내심을 가르쳤다.", "context": "On Merck multi-generational philosophy", "contextKo": "Merck 다세대 철학에 대해", "source": "https://www.merckgroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Myo day pillar in Mi month — 'pyeonjae-gyeok', stewardship of large external capital.", "summaryKo": "신묘 일주 + 미월 편재격은 다세대 가족 자본 관리와 호응." }
+}

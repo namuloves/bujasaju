@@ -1,0 +1,52 @@
+{
+  "id": "969",
+  "name": "Vlad Tenev",
+  "nameKo": "블라드 테네프",
+  "netWorth": 4.3,
+  "nationality": "US",
+  "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Sofia, Bulgaria",
+    "birthPlaceKo": "불가리아 소피아",
+    "familyBackground": "Born to Bulgarian family that emigrated to United States when he was 5. Father a senior World Bank economist; mother taught school. Family Eastern European immigrant intelligentsia.",
+    "familyBackgroundKo": "5세 때 미국으로 이민한 불가리아 가정에서 출생. 아버지는 시니어 세계은행 경제학자, 어머니는 학교 교사. 동유럽 이민 지식인 가족.",
+    "education": "Stanford University (mathematics); dropped out of Stanford PhD program in mathematics to start finance ventures with classmate Baiju Bhatt.",
+    "educationKo": "스탠퍼드 대학교(수학); 동급생 Baiju Bhatt와 금융 벤처 시작을 위해 스탠퍼드 수학 박사과정 중퇴.",
+    "earlyLife": "Met co-founder Baiju Bhatt at Stanford; together built two high-frequency trading firms before founding Robinhood Markets in 2013.",
+    "earlyLifeKo": "스탠퍼드에서 공동창업자 Baiju Bhatt와 만남; 2013년 Robinhood Markets 창립 전 함께 두 개의 고빈도 거래 회사 구축.",
+    "source": "https://en.wikipedia.org/wiki/Robinhood_Markets ; https://www.forbes.com/profile/vlad-tenev/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "100% 자수성가. Robinhood IPO(2021) 후 본인 지분 가치." },
+  "careerTimeline": [
+    { "year": 2013, "age": 26, "event": "Co-founded Robinhood Markets with Baiju Bhatt — pioneering commission-free stock trading via mobile app.", "eventKo": "Baiju Bhatt와 Robinhood Markets 공동 창립 — 모바일 앱 통한 수수료 무료 주식 거래 개척.", "whyItMatteredKo": "미국 소매 투자자 시대의 결정적 변화 — 평생 부의 출발선." },
+    { "year": 2020, "age": 33, "event": "COVID-19 retail-investor boom drove Robinhood user growth from 10M to 22M+; company became the dominant US retail trading platform.", "eventKo": "COVID-19 소매 투자자 붐이 Robinhood 사용자를 1,000만에서 2,200만+으로 성장; 회사가 미국 지배 소매 거래 플랫폼이 됨.", "whyItMatteredKo": "거시 환경 + 회사 모델 정렬의 결정적 단계." },
+    { "year": 2021, "age": 34, "event": "GameStop short-squeeze crisis (January 2021) caused Robinhood to halt buying of GME/AMC; Tenev testified before US Congress; brand reputation crisis.", "eventKo": "GameStop 숏 스퀴즈 위기(2021년 1월)로 Robinhood가 GME/AMC 매수 중단; Tenev가 미 의회 증언; 브랜드 평판 위기.", "whyItMatteredKo": "사업 모델 위기 + 평판 손상의 정점." },
+    { "year": 2021, "age": 34, "event": "Robinhood Markets IPO on Nasdaq at $32B valuation in July 2021; Tenev's stake became publicly visible billionaire wealth.", "eventKo": "Robinhood Markets가 2021년 7월 320억 달러 평가로 나스닥 IPO; Tenev의 지분이 공개 가시 억만장자 부가 됨.", "whyItMatteredKo": "8년 회사의 결정적 공개 시장 평가." },
+    { "year": 2022, "age": 35, "event": "Robinhood stock declined sharply through 2022-2023 as retail-trading volumes normalized post-COVID; multiple SEC enforcement actions over options and crypto trading.", "eventKo": "Robinhood 주가가 COVID 후 소매 거래량 정상화로 2022-2023 가파르게 하락; 옵션·암호화폐 거래 관련 다수 SEC 시행 조치.", "whyItMatteredKo": "위기 시기의 회복력 시험." },
+    { "year": 2024, "age": 37, "event": "Robinhood stock recovered substantially in 2024 amid renewed retail-investor interest in AI-related equities and crypto; company expanded credit cards and retirement products.", "eventKo": "Robinhood 주가가 AI 관련 주식·암호화폐의 새로운 소매 투자자 관심 가운데 2024 상당히 회복; 회사가 신용카드·은퇴 제품 확장.", "whyItMatteredKo": "회복 사이클의 결정적 단계." },
+    { "year": 2025, "age": 38, "event": "Personal net worth at $4.3B per Forbes Real-Time. Continues as Robinhood CEO with expanding product portfolio and renewed market position.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러. 확장된 제품 포트폴리오·새로운 시장 위치로 Robinhood CEO 계속.", "whyItMatteredKo": "12년 단일 회사 운영의 정착." }
+  ],
+  "turningPoints": [
+    { "year": 2013, "age": 26, "decisionKo": "Stanford 박사과정 중퇴 후 Robinhood 공동 창립", "alternativeKo": "수학 학자 경로", "outcomeKo": "미국 소매 투자 변화 주도 — 평생 부의 거의 전부" },
+    { "year": 2021, "age": 34, "decisionKo": "GameStop 위기 중 GME/AMC 매수 중단 결정", "alternativeKo": "매수 계속하며 자본 요건 위반 위험", "outcomeKo": "회사 생존 + 평판 손상의 양날" }
+  ],
+  "moneyMechanics": { "primaryRevenueKo": "Robinhood Markets(나스닥 상장, 약 6% 지분) 가치", "industryKo": "소매 거래 플랫폼", "businessModelKo": "수수료 무료 거래 + 옵션·암호화폐 수수료 + 결제 흐름 매각(PFOF)", "moatKo": "12년 누적된 소매 사용자 베이스(2,500만+)", "luckVsSkillKo": "운(50%): COVID 소매 투자 붐. 실력(50%): 모바일 우선 거래 플랫폼 설계." },
+  "personalTraits": {
+    "knownFor": "Co-founder and CEO of Robinhood Markets — pioneered commission-free retail stock trading; central figure in 2021 GameStop short-squeeze crisis; second-generation Bulgarian-American immigrant entrepreneur.",
+    "knownForKo": "Robinhood Markets 공동 창립자·CEO — 수수료 무료 소매 주식 거래 개척; 2021 GameStop 숏 스퀴즈 위기의 중심 인물; 2세대 불가리아계 미국 이민자 기업가.",
+    "philanthropy": "Limited public philanthropy disclosure; emerging family-foundation activities post-IPO.",
+    "philanthropyKo": "공개된 자선 공시 제한적; IPO 후 신흥 가족 재단 활동.",
+    "controversies": "2021 GameStop trading halt drew $70M FINRA fine and class-action lawsuits; multiple SEC enforcement actions over options trading user protection and crypto custody; sustained criticism of payment-for-order-flow (PFOF) revenue model.",
+    "controversiesKo": "2021 GameStop 거래 중단으로 7,000만 달러 FINRA 벌금·집단 소송; 옵션 거래 사용자 보호·암호화폐 수탁 관련 다수 SEC 시행 조치; 결제 흐름 매각(PFOF) 매출 모델에 대한 지속적 비판."
+  },
+  "characterKo": { "summaryKo": "Stanford 수학 박사과정 중퇴자의 핀테크 자수성가 — GameStop 위기에서 거시 환경과 사용자 신뢰의 충돌을 통과한 사례.", "tagsKo": ["Stanford 중퇴", "Robinhood CEO", "GameStop 위기", "수학 PhD 중퇴자", "1세대 이민 기업가"] },
+  "failures": [
+    { "year": 2021, "description": "GameStop short-squeeze crisis revealed Robinhood's undercapitalization relative to settlement requirements; the buying halt damaged user trust permanently and Tenev personally faced Congressional testimony and class-action exposure.", "descriptionKo": "GameStop 숏 스퀴즈 위기가 정산 요구사항 대비 Robinhood의 저자본 노출 — 매수 중단이 사용자 신뢰를 영구히 손상시키고 Tenev가 개인적으로 의회 증언·집단 소송 노출 직면.", "lesson": "Retail-trading platforms scale faster than their capital infrastructure when major volatility hits; capital adequacy must be designed for tail-event volume not normal volume.", "lessonKo": "소매 거래 플랫폼은 주요 변동성 타격 시 자본 인프라보다 빠르게 확장된다. 자본 적정성은 정상 거래량이 아니라 꼬리 사건 거래량에 맞춰 설계되어야 한다." },
+    { "year": 2022, "description": "Robinhood stock fell over 85% from IPO highs through 2022 as retail-trading revenue normalized; company laid off 30% of staff over 2022-2023 in successive rounds.", "descriptionKo": "Robinhood 주가가 소매 거래 매출 정상화로 2022 IPO 고점에서 85%+ 하락; 회사가 2022-2023 연속 라운드로 직원 30% 정리해고.", "lesson": "Cyclical retail-finance business cannot sustain growth-stage valuations during normalization periods; founder paper wealth based on IPO peaks is structurally volatile.", "lessonKo": "주기적 소매 금융 사업은 정상화 기간 동안 성장 단계 평가를 유지할 수 없다. IPO 정점 기반 창업자 서류상 부는 구조적으로 변동성이 크다." }
+  ],
+  "wealthHistory": [{ "year": 2021, "netWorth": 3.0 }, { "year": 2022, "netWorth": 0.7 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "We democratized finance for the people. The lesson is that doing so at scale means absorbing every macro shock too.", "textKo": "우리는 사람들을 위해 금융을 민주화했다. 교훈은 그것을 규모로 하는 것이 모든 거시 충격도 흡수한다는 것이다.", "context": "On post-GameStop reflections", "contextKo": "GameStop 후 회고에 대해", "source": "https://en.wikipedia.org/wiki/Robinhood_Markets" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in In month — 'sanggwan-gyeok' (creative-expressive energy beyond conventional authority), fitting a math-PhD-dropout who built a retail-finance platform that disrupted traditional brokers.", "summaryKo": "계사 일주 + 인월 상관격은 수학 박사과정 중퇴자가 전통 중개인 산업을 파괴한 핀테크 플랫폼을 만든 그의 인생과 호응. 상관격이 정관(규제)과 충돌하는 패턴이 2021 GameStop 위기로 표면화." }
+}

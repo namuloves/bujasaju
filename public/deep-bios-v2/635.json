@@ -1,0 +1,53 @@
+{
+  "id": "635",
+  "name": "Richard Li",
+  "nameKo": "리처드 리",
+  "netWorth": 6.2,
+  "nationality": "HK",
+  "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Hong Kong",
+    "birthPlaceKo": "홍콩",
+    "familyBackground": "Born Richard Li Tzar-kai to Li Ka-shing — Hong Kong's most powerful business tycoon and CK Hutchison/Cheung Kong founder. Younger son; elder brother Victor Li now runs father's main empire. Family Cantonese-Chinese; education was deliberately Western-oriented (boarding school + US universities).",
+    "familyBackgroundKo": "홍콩 최강 사업 거물 CK Hutchison/Cheung Kong 창립자 리카싱의 아들 본명 리츠치카이로 출생. 차남; 형 빅터 리가 아버지의 주요 제국 운영. 광둥 화교 가족; 교육은 의도적으로 서양 지향(기숙학교 + 미국 대학).",
+    "education": "Stanford University (computer engineering); spent time at Salomon Brothers New York after college.",
+    "educationKo": "스탠퍼드 대학교(컴퓨터공학); 졸업 후 살로몬 브라더스 뉴욕에서 시간 보냄.",
+    "earlyLife": "Grew up as the younger son of a self-made tycoon; consciously sought to build his own identity separate from his father. Returned to Hong Kong to enter business but with explicit emphasis on technology rather than father's real estate.",
+    "earlyLifeKo": "자수성가 거물의 차남으로 성장; 의식적으로 아버지와 분리된 본인의 정체성 구축을 추구. 홍콩으로 돌아와 사업 진입, 그러나 아버지의 부동산 대신 기술에 명시적 강조.",
+    "source": "https://en.wikipedia.org/wiki/Richard_Li ; https://www.pccw.com"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "아버지로부터 일부 자본 지원받았지만 본인이 PCCW·FWD Group을 별도 사업 라인으로 키움 — 부분 상속+자수성가." },
+  "careerTimeline": [
+    { "year": 1990, "age": 24, "event": "Founded STAR TV (Satellite Television Asian Region) — pan-Asian satellite broadcaster.", "eventKo": "STAR TV(Satellite Television Asian Region) 창립 — 범아시아 위성 방송사.", "whyItMatteredKo": "아버지와 분리된 첫 본인 사업." },
+    { "year": 1993, "age": 27, "event": "Sold STAR TV to Rupert Murdoch's News Corporation for $950M — instant validation as independent entrepreneur.", "eventKo": "STAR TV를 Rupert Murdoch의 News Corporation에 9.5억 달러에 매각 — 독립 기업가로 즉시 검증.", "whyItMatteredKo": "독립 사업가 정체성의 결정적 단계." },
+    { "year": 1999, "age": 33, "event": "Founded Pacific Century CyberWorks (later PCCW); through aggressive M&A acquired Cable & Wireless HKT (Hong Kong's main telco) for $35B in 2000 — at the time among Asia's largest M&A deals.", "eventKo": "Pacific Century CyberWorks(이후 PCCW) 창립; 공격적 M&A로 2000년 Cable & Wireless HKT(홍콩 주요 통신사)를 350억 달러에 인수 — 당시 아시아 최대 M&A 거래 중 하나.", "whyItMatteredKo": "닷컴 시대 정점의 거대 인수 — 향후 평판의 양날의 검." },
+    { "year": 2001, "age": 35, "event": "Dot-com bust collapsed PCCW share price by 90%; the HKT acquisition's debt burden became a multi-year crisis; family wealth declined sharply.", "eventKo": "닷컴 버블 붕괴로 PCCW 주가 90% 폭락; HKT 인수의 부채 부담이 다년간 위기가 됨; 가족 부 가파르게 감소.", "whyItMatteredKo": "단일 인수의 과지불 비용 — 인생 최대 시험." },
+    { "year": 2013, "age": 47, "event": "Acquired ING's Asian insurance operations for $2.2B; created FWD Group as standalone Asian life insurance company.", "eventKo": "ING의 아시아 보험 운영을 22억 달러에 인수; 독립 아시아 생명보험 회사 FWD Group 창립.", "whyItMatteredKo": "단일 통신·미디어 의존에서 보험으로 다각화 — 평생 부의 두 번째 동력." },
+    { "year": 2021, "age": 55, "event": "FWD Group filed for US IPO but withdrew amid market conditions; later refiled in Hong Kong. FWD became one of Asia's largest pan-Asian insurers.", "eventKo": "FWD Group이 미국 IPO 신청했지만 시장 여건으로 철회; 이후 홍콩에서 재신청. FWD가 아시아 최대 범아시아 보험사 중 하나가 됨.", "whyItMatteredKo": "8년 누적된 보험 사업 가치의 공개 시장 평가 시도." },
+    { "year": 2024, "age": 58, "event": "FWD Group IPO on Hong Kong Stock Exchange — gave public-market valuation to Asian insurance arm. PCCW continues as telecoms-media operator in Hong Kong.", "eventKo": "FWD Group 홍콩 증시 IPO — 아시아 보험 부문에 공개 시장 평가 제공. PCCW는 홍콩 통신-미디어 운영자로 계속.", "whyItMatteredKo": "보험 자산의 결정적 가시화 — 가족 자본 다각화의 정점." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $6.2B per Forbes Real-Time. Continues PCCW chairman and FWD Group major shareholder roles. Father Li Ka-shing now 96; family succession architecture mature.", "eventKo": "포브스 실시간 기준 개인 순자산 62억 달러. PCCW 의장과 FWD Group 주요 주주 역할 계속. 아버지 리카싱 96세; 가족 승계 구조 성숙.", "whyItMatteredKo": "아버지의 그늘에서 별도 정체성 35년 구축의 결과." }
+  ],
+  "turningPoints": [
+    { "year": 1990, "age": 24, "decisionKo": "아버지 사업에 합류하지 않고 STAR TV 독립 창업", "alternativeKo": "Cheung Kong/CK Hutchison에 합류", "outcomeKo": "독립 기업가 정체성 평생 유지" },
+    { "year": 2000, "age": 34, "decisionKo": "닷컴 정점에 HKT 350억 달러 인수", "alternativeKo": "보수적 운영", "outcomeKo": "21년+ 회복기 필요한 부채 부담" }
+  ],
+  "moneyMechanics": { "primaryRevenueKo": "PCCW(홍콩 증시 상장) 지분 + FWD Group(홍콩 증시 상장) 지분 + 가족 신탁 자산", "industryKo": "통신·미디어, 생명보험", "businessModelKo": "PCCW: 홍콩 통신·미디어 통합 운영자. FWD: 범아시아 생명보험. 두 라인 모두 본인 통제.", "moatKo": "홍콩 통신 인프라 + FWD 범아시아 입지 + 리 가족 자본 인맥", "luckVsSkillKo": "운(50%): 리카싱 가족 자본 운, 1993 STAR TV 매각 타이밍. 실력(50%): 35년 독립 정체성 유지, 다각화 결단." },
+  "personalTraits": {
+    "knownFor": "Founder of PCCW (Hong Kong's largest telco-media operator) and FWD Group (pan-Asian insurer); younger son of Li Ka-shing who built independent business identity outside father's empire.",
+    "knownForKo": "PCCW(홍콩 최대 통신-미디어 운영자)·FWD Group(범아시아 보험사) 창립자. 아버지 제국 밖에서 독립 사업 정체성 구축한 리카싱의 차남.",
+    "philanthropy": "Li Ka Shing Foundation (family-wide); separate Richard Li philanthropic activities deliberately understated.",
+    "philanthropyKo": "Li Ka Shing 재단(가족 전체); 별도 리처드 리 자선 활동은 의도적으로 절제됨.",
+    "controversies": "2000 HKT acquisition widely seen as overpayment; PCCW privatization attempts faced minority-shareholder objections; sustained Hong Kong media commentary on his independent path from his father.",
+    "controversiesKo": "2000 HKT 인수가 과지불로 광범위 인식; PCCW 비공개화 시도가 소수 주주 반대 직면; 아버지로부터의 독립 경로에 대한 지속적 홍콩 미디어 코멘터리."
+  },
+  "characterKo": { "summaryKo": "아시아 최대 자수성가 거물의 차남으로서 독립 사업 정체성을 35년 유지한 보기 드운 사례.", "tagsKo": ["리카싱 차남", "STAR TV 매각자", "PCCW", "FWD Group", "독립 정체성"] },
+  "failures": [
+    { "year": 2001, "description": "HKT acquisition at $35B at dot-com peak became a $30B+ debt overhang; PCCW share value fell 90% and took two decades to partially recover.", "descriptionKo": "닷컴 정점 350억 달러 HKT 인수가 300억 달러+ 부채 부담이 됨; PCCW 주가 90% 하락, 부분 회복까지 20년 소요.", "lesson": "Single-deal overpayment at cycle tops can permanently impair a company's growth trajectory.", "lessonKo": "사이클 정점 단일 거래 과지불은 회사 성장 궤적을 영구히 손상시킬 수 있다." },
+    { "year": 2021, "description": "FWD Group's first US IPO attempt was withdrawn amid weak market conditions and SPAC-era valuation compression; refiling required.", "descriptionKo": "FWD Group의 첫 미국 IPO 시도가 약한 시장 여건·SPAC 시대 평가 압축으로 철회 — 재신청 필요.", "lesson": "IPO timing across jurisdictions requires patient capital and willingness to wait through market cycles.", "lessonKo": "관할권에 걸친 IPO 타이밍은 인내 자본과 시장 사이클 기다림을 요구한다." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 4.4 }, { "year": 2022, "netWorth": 4.5 }, { "year": 2024, "netWorth": 5.7 }, { "year": 2025, "netWorth": 6.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I did not want to be my father's son in his business. I wanted to be a businessman who happens to be my father's son.", "textKo": "나는 아버지의 사업에서 아버지의 아들이 되고 싶지 않았다. 우연히 아버지의 아들인 사업가가 되고 싶었다.", "context": "On his independent business identity", "contextKo": "독립 사업 정체성에 대해", "source": "https://en.wikipedia.org/wiki/Richard_Li" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Mi day pillar in Sul month — 'jeongin-gyeok', maternal-academic support under autumn earth, fitting independence built on father-family education plus Western academic training.", "summaryKo": "신미 일주가 술월에 자리잡은 정인격은 아버지 가족의 학문 자본 + 서양 학술 훈련 위에 독립 정체성을 35년 구축한 그의 인생과 호응합니다. 신금 일간의 정밀함, 일지 미토의 식상(자기 표현), 월지 술토의 정관(공식 권위 환경 — 아버지의 그늘)이 맞물려 있는 구조." }
+}

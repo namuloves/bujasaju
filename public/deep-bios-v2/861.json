@@ -1,0 +1,42 @@
+{
+  "id": "861", "name": "Sanjiv Bajaj", "nameKo": "산지브 바자즈",
+  "netWorth": 4.8, "nationality": "IN", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Pune, Maharashtra, India", "birthPlaceKo": "인도 마하라슈트라주 푸네",
+    "familyBackground": "Born to Rahul Bajaj — chairman of Bajaj Group, one of India's largest industrial conglomerates (scooters, motorcycles, finance). Bajaj is a Marwari Hindu family from Rajasthan with multi-generational business presence.",
+    "familyBackgroundKo": "Bajaj 그룹(스쿠터·오토바이·금융, 인도 최대 산업 그룹 중 하나) 의장 라훌 바자즈의 아들로 출생. Bajaj는 다세대 사업 존재감을 가진 라자스탄 출신 마르와리 힌두 가족.",
+    "education": "BSc from Pune University; MSc from Warwick UK; MBA from Harvard Business School.",
+    "educationKo": "푸네 대학교 이학사; 영국 워릭 이학석사; 하버드 비즈니스스쿨 MBA.",
+    "earlyLife": "Trained in family finance arm Bajaj Finserv from his thirties; led the conglomerate's pivot from auto-only to diversified finance.",
+    "earlyLifeKo": "30대부터 가족 금융 부문 Bajaj Finserv에서 훈련; 그룹의 자동차 전용에서 다각화 금융으로의 전환 주도.",
+    "source": "https://en.wikipedia.org/wiki/Bajaj_Group ; https://www.bajajfinserv.in"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "Bajaj 가족 지분 + Bajaj Finserv 본인 운영 주도." },
+  "careerTimeline": [
+    { "year": 2000, "age": 30, "event": "Joined Bajaj Group; began leading financial services arm.", "eventKo": "Bajaj 그룹 합류; 금융 서비스 부문 주도 시작.", "whyItMatteredKo": "차세대 운영자 진입." },
+    { "year": 2008, "age": 38, "event": "Led demerger that created Bajaj Finserv (financial services) and Bajaj Holdings & Investment as separate listed entities.", "eventKo": "Bajaj Finserv(금융 서비스)와 Bajaj Holdings & Investment를 별도 상장 법인으로 만든 분할 주도.", "whyItMatteredKo": "그룹 구조의 결정적 재편." },
+    { "year": 2018, "age": 48, "event": "Bajaj Finance became one of India's largest non-bank financial companies (NBFCs); Bajaj Finserv stock surged.", "eventKo": "Bajaj Finance가 인도 최대 NBFC 중 하나가 됨; Bajaj Finserv 주가 급등.", "whyItMatteredKo": "금융 부문이 가족 부의 가장 큰 동력이 됨." },
+    { "year": 2022, "age": 52, "event": "Father Rahul Bajaj died on February 12, 2022 at age 83; Sanjiv became chairman of Bajaj Finserv.", "eventKo": "아버지 라훌 바자즈가 2022년 2월 12일 83세로 사망; 산지브가 Bajaj Finserv 의장 취임.", "whyItMatteredKo": "다세대 가부장 정체성 정식 인수." },
+    { "year": 2025, "age": 55, "event": "Personal net worth at $4.8B per Forbes Real-Time. Continues chairman of Bajaj Finserv and major Bajaj group governance roles.", "eventKo": "포브스 실시간 기준 개인 순자산 48억 달러. Bajaj Finserv 의장과 주요 Bajaj 그룹 거버넌스 역할 계속.", "whyItMatteredKo": "25+년 차세대 운영자 결과." }
+  ],
+  "turningPoints": [{ "year": 2008, "age": 38, "decisionKo": "Bajaj Finserv 분할 주도", "alternativeKo": "통합 그룹 유지", "outcomeKo": "금융 부문 별도 평가 + 가족 부의 가장 큰 동력" }],
+  "moneyMechanics": { "primaryRevenueKo": "Bajaj Finserv(BSE/NSE 상장) + Bajaj Holdings 가족 지분", "industryKo": "다각화(소비자 금융·보험·자동차)", "businessModelKo": "인도 NBFC + 보험 + 자동차 가족 그룹", "moatKo": "다세대 인도 가족 금융 인맥", "luckVsSkillKo": "운(40%): 인도 NBFC 사이클. 실력(60%): 2008 분할 결정, 25+년 운영." },
+  "personalTraits": {
+    "knownFor": "Chairman of Bajaj Finserv; led financial-services arm of Bajaj Group; son of late Rahul Bajaj.",
+    "knownForKo": "Bajaj Finserv 의장; Bajaj 그룹 금융 서비스 부문 주도; 고 라훌 바자즈의 아들.",
+    "philanthropy": "Bajaj family supports Indian education and healthcare initiatives.",
+    "philanthropyKo": "Bajaj 가족이 인도 교육·헬스케어 사업 지원.",
+    "controversies": "Bajaj Finance has faced periodic NBFC regulatory scrutiny over lending practices.",
+    "controversiesKo": "Bajaj Finance가 대출 관행에 대한 주기적 NBFC 규제 감시 직면."
+  },
+  "characterKo": { "summaryKo": "다세대 인도 가족 그룹 차세대 운영자.", "tagsKo": ["Bajaj 차세대", "Harvard MBA", "Bajaj Finserv", "인도 NBFC"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted Indian consumer lending; Bajaj Finance faced significant non-performing-loan provisions.", "descriptionKo": "COVID-19이 인도 소비자 대출 혼란; Bajaj Finance가 상당한 부실 대출 충당금 직면.", "lesson": "Consumer-lending NBFCs are macro-cycle exposed.", "lessonKo": "소비자 대출 NBFC는 거시 사이클 노출된다." },
+    { "year": 2023, "description": "RBI restrictions on Bajaj Finance digital lending products forced operational reconfiguration.", "descriptionKo": "RBI의 Bajaj Finance 디지털 대출 제품 제한이 운영 재구성 강제.", "lesson": "Indian financial-services regulation evolves rapidly affecting NBFC business models.", "lessonKo": "인도 금융 서비스 규제는 NBFC 사업 모델에 영향을 미치며 빠르게 진화한다." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 1.5 }, { "year": 2022, "netWorth": 6.4 }, { "year": 2024, "netWorth": 5.3 }, { "year": 2025, "netWorth": 4.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Indian middle class is our customer. Trust is our product.", "textKo": "인도 중산층이 우리 고객이다. 신뢰가 우리 제품이다.", "context": "Bajaj Finserv strategy", "contextKo": "Bajaj Finserv 전략", "source": "https://www.bajajfinserv.in" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Sa day pillar in Sul month — 'jeongjae-gyeok', steady wealth accumulation, fitting multi-generational financial-family heir.", "summaryKo": "신사 일주 + 술월 정재격은 다세대 가족 금융 사업의 안정적 자본 누적과 호응." }
+}

@@ -1,0 +1,239 @@
+{
+  "id": "294",
+  "name": "Mark Stevens",
+  "nameKo": "마크 스티븐스",
+  "netWorth": 10.6,
+  "nationality": "US",
+  "industry": "Finance & Investments",
+
+  "childhood": {
+    "birthPlace": "United States",
+    "birthPlaceKo": "미국",
+    "familyBackground": "Born Mark Anthony Stevens to a middle-class American family. Family background remains largely private — typical of Silicon Valley venture capitalists who reached prominence in their forties.",
+    "familyBackgroundKo": "본명 마크 앤서니 스티븐스, 미국 중산층 가정 출신. 가족 배경은 대체로 비공개 — 40대에 부상한 실리콘밸리 벤처캐피탈리스트들의 전형.",
+    "education": "Bachelor's and Master's degrees in Electrical Engineering from the University of Southern California (USC); MBA from Harvard Business School. Engineering-first training that would inform his decades of semiconductor-focused venture investing.",
+    "educationKo": "남캘리포니아 대학교(USC) 전기공학 학사·석사; 하버드 비즈니스스쿨 MBA. 공학 우선 훈련이 수십 년 반도체 중심 벤처 투자의 기반.",
+    "earlyLife": "Worked as an engineer at Intel Corporation in the 1980s — the formative semiconductor-industry experience that would define his career. The Intel period gave him direct exposure to chip design, manufacturing economics, and the founding generation of Silicon Valley semiconductor entrepreneurs.",
+    "earlyLifeKo": "1980년대 Intel Corporation에서 엔지니어로 근무 — 평생 경력을 정의할 반도체 산업의 형성적 경험. Intel 시기가 칩 설계·제조 경제학·실리콘밸리 반도체 1세대 창업자들에 대한 직접 노출을 줌.",
+    "source": "https://en.wikipedia.org/wiki/Mark_Stevens_(venture_capitalist) ; https://www.forbes.com/profile/mark-stevens/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1980년대 Intel 엔지니어 봉급과 하버드 MBA 후 시니어 IB 보수. 본격적인 부는 1989년 Sequoia Capital 파트너 합류 후 Google·Yahoo·NVIDIA·YouTube·Cisco·PayPal 등 시그니처 투자의 carry로부터 발생, 특히 NVIDIA 초기 투자의 다세대 누적 수익이 평생 부의 핵심.",
+    "source": "https://en.wikipedia.org/wiki/Mark_Stevens_(venture_capitalist)"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1980,
+      "age": 20,
+      "event": "Earned electrical engineering bachelor's from USC, then master's. Joined Intel Corporation as an engineer in the early 1980s — formative semiconductor-industry training.",
+      "eventKo": "USC 전기공학 학사·석사 취득, 1980년대 초 Intel Corporation 엔지니어로 입사 — 반도체 산업의 형성적 훈련.",
+      "whyItMatteredKo": "엔지니어로서 반도체 산업의 모든 층(설계·제조·창업)을 직접 학습 — 향후 30년 반도체 중심 VC 투자의 토대.",
+      "source": "https://en.wikipedia.org/wiki/Mark_Stevens_(venture_capitalist)"
+    },
+    {
+      "year": 1989,
+      "age": 29,
+      "event": "Joined Sequoia Capital — one of Silicon Valley's most prestigious venture capital firms, founded by Don Valentine in 1972. Began specializing in semiconductor, software, and systems-related investments.",
+      "eventKo": "Sequoia Capital 합류 — 1972년 Don Valentine 창립의 실리콘밸리 가장 권위 있는 벤처캐피탈 중 하나. 반도체·소프트웨어·시스템 관련 투자 전문화 시작.",
+      "whyItMatteredKo": "실리콘밸리 1티어 VC의 5명 투표 파트너 중 한 명 — 향후 30년 가장 성공적인 미국 벤처 투자 결정 중 일부를 직접 결정.",
+      "source": "https://en.wikipedia.org/wiki/Sequoia_Capital"
+    },
+    {
+      "year": 1993,
+      "age": 33,
+      "event": "Led Sequoia's investment in NVIDIA Corporation — at the time a small graphics chip startup founded by Jensen Huang, Chris Malachowsky, and Curtis Priem. Stevens joined NVIDIA's board.",
+      "eventKo": "Sequoia의 NVIDIA Corporation 투자 주도 — 당시 젠슨 황·크리스 말라초프스키·커티스 프리엠이 창업한 작은 그래픽 칩 스타트업. 스티븐스가 NVIDIA 이사회 합류.",
+      "whyItMatteredKo": "역사상 가장 성공적인 벤처 투자 중 하나의 최초 결정 — 30년 후 NVIDIA가 글로벌 시가총액 톱 기업이 되면서 그의 평생 부의 가장 큰 단일 동력.",
+      "source": "https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+      "year": 1999,
+      "age": 39,
+      "event": "Sequoia made its early investment in Google (1999) — Stevens was a partner during this iconic moment. Sequoia's $12.5M check with Kleiner Perkins became one of the most successful VC investments in history.",
+      "eventKo": "Sequoia가 Google(1999) 초기 투자 — 스티븐스가 이 상징적 순간의 파트너. Sequoia의 Kleiner Perkins와의 1,250만 달러 수표가 역사상 가장 성공적인 VC 투자 중 하나가 됨.",
+      "whyItMatteredKo": "Sequoia의 Google 투자는 회사 평생 가치를 정의했지만 스티븐스는 한 명의 파트너로서 그 성공의 일부를 공유 — 다른 파트너들이 주도했지만 그도 시그니처 거래에 참여.",
+      "source": "https://en.wikipedia.org/wiki/Google"
+    },
+    {
+      "year": 2000,
+      "age": 40,
+      "event": "Continued role in major Sequoia investments including Yahoo, Cisco, PayPal, and other semiconductor and software companies that defined the early dot-com era and post-bubble recovery.",
+      "eventKo": "Yahoo·Cisco·PayPal·기타 반도체·소프트웨어 회사 등 닷컴 초기와 버블 후 회복을 정의한 Sequoia 주요 투자에 계속 관여.",
+      "whyItMatteredKo": "Sequoia 5인 투표 파트너 중 한 명으로서 회사의 가장 성공적인 투자 시기에 핵심 의사결정자.",
+      "source": "https://en.wikipedia.org/wiki/Sequoia_Capital"
+    },
+    {
+      "year": 2007,
+      "age": 47,
+      "event": "Reached as high as #10 on Forbes Midas List of top venture capitalists — one of the highest rankings ever for a semiconductor-focused VC.",
+      "eventKo": "포브스 미다스 리스트(최고 벤처캐피탈리스트) 최고 10위까지 진입 — 반도체 중심 VC로는 역사상 가장 높은 순위 중 하나.",
+      "whyItMatteredKo": "공개적 VC 명성의 정점 — 반도체 투자의 가장 잘 알려진 미국 VC 중 한 명으로 자리잡음.",
+      "source": "https://www.forbes.com/midas/"
+    },
+    {
+      "year": 2012,
+      "age": 52,
+      "event": "Left Sequoia Capital after 23 years as a partner; founded S-Cubed Capital as his own family office in Menlo Park, California. The transition allowed him to invest personal capital without Sequoia's institutional constraints.",
+      "eventKo": "23년 파트너 후 Sequoia Capital 떠남 — 캘리포니아 멘로 파크에 본인 가족 사무소 S-Cubed Capital 설립. 이 전환이 Sequoia의 기관 제약 없이 개인 자본 투자 가능하게 함.",
+      "whyItMatteredKo": "기관 VC에서 가족 사무소 모델로 정체성 전환 — 이후 NVIDIA 같은 단일 포지션을 장기 보유 가능한 구조.",
+      "source": "http://www.scubedcap.com"
+    },
+    {
+      "year": 2013,
+      "age": 53,
+      "event": "Purchased about 6% of the Golden State Warriors NBA team from Vivek Ranadivé (who was buying the Sacramento Kings) — became a minority owner during the team's rise to multiple NBA championships.",
+      "eventKo": "Vivek Ranadivé(Sacramento Kings 인수 중이었음)로부터 Golden State Warriors NBA 팀의 약 6% 매수 — 팀의 다중 NBA 챔피언십 부상기에 소수 소유주가 됨.",
+      "whyItMatteredKo": "VC 정체성에서 스포츠 자본가 정체성 추가 — 스티븐스 가족이 NBA 가장 성공적인 다이내스티의 일부가 됨.",
+      "source": "https://www.nba.com/warriors"
+    },
+    {
+      "year": 2019,
+      "age": 59,
+      "event": "Briefly suspended from NBA after shoving Toronto Raptors player Kyle Lowry during NBA Finals Game 3; received $500K fine and 1-year ban from Golden State Warriors events. Caused significant personal reputation damage.",
+      "eventKo": "NBA 결승전 3차전에서 토론토 랩터스 선수 카일 라우리를 밀친 후 NBA에서 일시 정지 — 50만 달러 벌금과 Golden State Warriors 행사 1년 출입 금지. 개인 평판에 상당한 손상.",
+      "whyItMatteredKo": "스포츠 구단주의 미디어 노출과 행동 규율의 한계가 표면화된 사건. 이후 스포츠 구단 미디어 노출 줄임.",
+      "source": "https://globalnews.ca"
+    },
+    {
+      "year": 2023,
+      "age": 63,
+      "event": "NVIDIA stock surged dramatically as AI demand for GPU computing exploded. Stevens' personal NVIDIA holdings (held since 1993 IPO era plus accumulated) drove his net worth from billions to multi-billions within 2-3 years.",
+      "eventKo": "NVIDIA 주가가 AI GPU 컴퓨팅 수요 폭증으로 극적 상승. 스티븐스의 NVIDIA 개인 보유(1993 IPO 시기부터 + 누적)가 2-3년 만에 그의 순자산을 수십억 달러에서 수백억 달러대로 끌어올림.",
+      "whyItMatteredKo": "30년 누적된 NVIDIA 포지션이 AI 시대 본격화로 단일 자산의 가치 폭증 사이클을 만남 — 그가 NVIDIA 이사회 멤버였던 30년이 다세대 자산이 됨.",
+      "source": "https://www.craincurrency.com"
+    },
+    {
+      "year": 2025,
+      "age": 65,
+      "event": "Personal net worth at $10.6B per Forbes Real-Time. S-Cubed Capital continues as family office. Remains on NVIDIA board of directors — one of the most valuable individual board seats in global capital markets.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 106억 달러. S-Cubed Capital이 가족 사무소로 운영 계속. NVIDIA 이사회 멤버 유지 — 글로벌 자본 시장에서 가장 가치 있는 개인 이사회 자리 중 하나.",
+      "whyItMatteredKo": "1993년 NVIDIA 초기 베팅의 30년 누적 결과가 정점에 도달. 단일 VC 결정이 평생 부의 거의 전부를 설명하는 보기 드운 사례.",
+      "source": "https://www.forbes.com/profile/mark-stevens/"
+    },
+    {
+      "year": 2017,
+      "age": 57,
+      "event": "Stevens family donated $50M to the University of Southern California Viterbi School of Engineering, which named the Mark and Mary Stevens Neuroimaging and Informatics Institute. Began establishing significant philanthropic footprint at his alma mater.",
+      "eventKo": "스티븐스 가족이 USC Viterbi 공학 스쿨에 5,000만 달러 기부 — Mark and Mary Stevens 뇌영상·정보학 연구소 명명. 모교에서 상당한 자선 발자국을 만들기 시작.",
+      "whyItMatteredKo": "VC·스포츠 자본가 정체성에 자선가 정체성 추가 — USC 모교에서의 다세대 가족 명명권 확보.",
+      "source": "https://viterbischool.usc.edu"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1989,
+      "age": 29,
+      "decisionKo": "Intel 엔지니어 + 하버드 MBA 경력을 Sequoia Capital VC 파트너십으로 전환",
+      "alternativeKo": "Intel 시니어 임원 또는 다른 IB 경로",
+      "outcomeKo": "23년 Sequoia 파트너십 — 평생 부의 가장 큰 토대",
+      "source": "https://en.wikipedia.org/wiki/Sequoia_Capital"
+    },
+    {
+      "year": 1993,
+      "age": 33,
+      "decisionKo": "Sequoia의 NVIDIA 초기 투자 주도, NVIDIA 이사회 합류",
+      "alternativeKo": "다른 반도체 스타트업 투자",
+      "outcomeKo": "30년 후 글로벌 시가총액 톱 기업의 이사회 자리 — 평생 부의 가장 큰 단일 동력",
+      "source": "https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+      "year": 2012,
+      "age": 52,
+      "decisionKo": "Sequoia 파트너에서 가족 사무소(S-Cubed)로 전환",
+      "alternativeKo": "Sequoia 파트너십 유지",
+      "outcomeKo": "기관 제약 없이 NVIDIA 같은 단일 포지션 장기 보유 가능 — AI 시대 가치 폭증 흡수의 결정적 구조",
+      "source": "http://www.scubedcap.com"
+    },
+    {
+      "year": 2013,
+      "age": 53,
+      "decisionKo": "Golden State Warriors NBA 소수 지분 인수 — VC에서 스포츠 자본가로 확장",
+      "alternativeKo": "VC 단일 정체성 유지",
+      "outcomeKo": "NBA 다이내스티 시기의 자본 가치 + 정체성 다각화",
+      "source": "https://www.nba.com/warriors"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "S-Cubed Capital(비공개 가족 사무소) — NVIDIA 장기 포지션이 자산의 가장 큰 단일 부분. 부차적으로 Golden State Warriors 약 6% 지분, Sequoia 시기 누적 carry, 기타 기술주·사모 투자.",
+    "industryKo": "벤처 캐피탈·가족 사무소, 스포츠 구단(소수)",
+    "businessModelKo": "1989-2012 Sequoia 파트너십 누적 carry + 1993 NVIDIA 투자의 30년 누적 가치. 2012 이후 S-Cubed Capital을 통한 가족 자본 운용. NBA 구단 지분 평가가치.",
+    "moatKo": "① 1993년 NVIDIA 초기 베팅의 30년 누적 결과 — 단일 결정이 평생 부의 거의 전부 설명. ② NVIDIA 이사회 자리의 영구적 정보·관계 자본. ③ Sequoia 23년 파트너십 누적 인맥. ④ Golden State Warriors 다이내스티 평판 자본.",
+    "luckVsSkillKo": "운(50%): 1993년 NVIDIA 창업자들이 마침 Sequoia에 자금을 받으러 온 타이밍, 1989년 Sequoia가 마침 새 파트너를 영입하던 시점, 2010-2020년대 AI/GPU 수요 폭증의 거시 환경. 실력(50%): 엔지니어 출신 VC의 기술 평가 능력, 30년 동안 NVIDIA 포지션을 매도하지 않은 보유 규율, Sequoia에서 S-Cubed로의 전환 사이클 감각, 다양한 vintage VC 펀드의 누적 carry 운용."
+  },
+
+  "personalTraits": {
+    "knownFor": "Founder of S-Cubed Capital family office; former general partner at Sequoia Capital for 23 years (1989-2012); led Sequoia's 1993 investment in NVIDIA and remained on its board for over 30 years; minority owner of the NBA Golden State Warriors.",
+    "knownForKo": "S-Cubed Capital 가족 사무소 창립자. Sequoia Capital의 전 제너럴 파트너(1989-2012, 23년). Sequoia의 1993 NVIDIA 투자 주도 + 30년 이상 이사회 멤버. NBA Golden State Warriors 소수 소유주.",
+    "philanthropy": "Stevens family donated $50M to USC Viterbi (named the Mark and Mary Stevens Neuroimaging and Informatics Institute) in 2017; broader philanthropy through the Mark and Mary Stevens Family Foundation supporting medical research, education, and youth programs.",
+    "philanthropyKo": "2017년 스티븐스 가족이 USC Viterbi에 5,000만 달러 기부(Mark and Mary Stevens 뇌영상·정보학 연구소 명명). Mark and Mary Stevens Family Foundation 통한 광범위한 자선이 의학 연구·교육·청소년 프로그램 지원.",
+    "controversies": "2019 NBA Finals incident where he shoved Kyle Lowry led to $500K fine and one-year team-event suspension; his family-foundation contributions to political causes have drawn occasional progressive criticism; the cultural concentration of Silicon Valley wealth around a handful of NVIDIA-era VCs has invited general critique.",
+    "controversiesKo": "2019년 NBA 결승 카일 라우리 사건으로 50만 달러 벌금·1년 팀 행사 정지. 가족 재단의 정치적 기부가 간헐적 진보주의 비판. NVIDIA 시대 VC 소수에 집중된 실리콘밸리 부의 문화적 집중에 대한 일반적 비판."
+  },
+
+  "characterKo": {
+    "summaryKo": "Intel 엔지니어 출신의 분석가형 VC가 30년 한 회사(NVIDIA)에 대한 베팅으로 평생 부의 거의 전부를 만든 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 'NVIDIA 이사회 회의의 디테일을 30년간 본인이 직접 검토했다는 운영 깊이'와 '스포츠 행사에서의 감정 분출과 평소의 비공개 일관성이 대조된다는 점'.",
+    "tagsKo": ["엔지니어형 VC", "30년 단일 포지션 보유", "NVIDIA 이사회", "가족 사무소", "NBA 소수 소유주"]
+  },
+
+  "failures": [
+    {
+      "year": 2000,
+      "description": "The 2000 dot-com bust hit many of Sequoia's late-1990s investments severely; while NVIDIA, Google, and a few others survived and thrived, the broader portfolio absorbed significant write-downs and the firm had to return capital. Stevens' personal carry from that vintage was sharply reduced.",
+      "descriptionKo": "2000 닷컴 버블 붕괴가 Sequoia의 1990년대 후반 투자 다수를 심하게 타격 — NVIDIA·Google·기타 일부는 생존·성장했지만 광범위한 포트폴리오가 상당한 평가절하 흡수, 회사는 자본 반환 필요. 그 빈티지에서 스티븐스의 개인 carry 급감.",
+      "lesson": "VC vintage-year returns can swing wildly with macro cycles; even the most successful firms have vintages that earn carry only from a few outsized winners.",
+      "lessonKo": "VC 빈티지 연도 수익은 거시 사이클과 함께 크게 변동할 수 있다. 가장 성공적인 회사도 소수의 비대한 승자에서만 carry를 얻는 빈티지를 가진다.",
+      "source": "https://en.wikipedia.org/wiki/Sequoia_Capital"
+    },
+    {
+      "year": 2019,
+      "description": "During Game 3 of the 2019 NBA Finals, Stevens leaned out of his courtside seat and shoved Toronto Raptors player Kyle Lowry after Lowry crashed into his row. The NBA fined him $500,000 and banned him from team facilities and events for the 2019-2020 season — a humiliating reputational moment broadcast globally.",
+      "descriptionKo": "2019년 NBA 결승전 3차전에서 스티븐스가 코트사이드 자리에서 몸을 기울여 라우리가 그의 줄에 부딪힌 후 토론토 랩터스 선수 카일 라우리를 밀침. NBA가 50만 달러 벌금·2019-2020 시즌 팀 시설·행사 출입 금지 — 전 세계로 방송된 굴욕적 평판의 순간.",
+      "lesson": "Owners with public-facing roles in major leagues operate as the league's image whether they want to or not; a single emotional moment broadcast globally can undo decades of careful professional reputation.",
+      "lessonKo": "메이저 리그에서 공개 역할을 가진 소유주는 원하든 원치 않든 리그의 이미지로 작동한다. 전 세계로 방송된 단일 감정의 순간이 수십 년의 신중한 직업적 평판을 무효화할 수 있다.",
+      "source": "https://globalnews.ca/news/5363479/mark-stevens-warriors-kyle-lowry/"
+    },
+    {
+      "year": 2018,
+      "description": "Some of Stevens' post-2012 personal investments outside Sequoia's institutional structure underperformed compared to his Sequoia-era track record; the move from institutional VC to family-office investing involves a learning curve that even experienced GPs encounter.",
+      "descriptionKo": "스티븐스의 2012 이후 Sequoia 기관 구조 외부 개인 투자 일부가 Sequoia 시기 트랙 레코드 대비 부진 — 기관 VC에서 가족 사무소 투자로의 이동은 경험 있는 GP도 거치는 학습 곡선.",
+      "lesson": "Institutional VC success depends on the firm's deal-flow and partnership voting; transitioning to family-office investing requires re-building deal-flow on solo terms and accepting that some firm-level edges are not transferable.",
+      "lessonKo": "기관 VC의 성공은 회사의 거래 흐름과 파트너십 투표에 달려 있다. 가족 사무소 투자로 전환은 단독으로 거래 흐름을 다시 만들고 일부 회사 단위의 우위가 이전되지 않음을 받아들이는 것을 요구한다.",
+      "source": "http://www.scubedcap.com"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2018, "netWorth": 1.6 },
+    { "year": 2020, "netWorth": 2.5 },
+    { "year": 2021, "netWorth": 4.0 },
+    { "year": 2023, "netWorth": 4.7 },
+    { "year": 2024, "netWorth": 9.4 },
+    { "year": 2025, "netWorth": 10.6 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "I bought NVIDIA in 1993 and I never sold. Compounding works if you stay out of its way.",
+      "textKo": "1993년에 NVIDIA를 샀고 한 번도 팔지 않았다. 복리는 그 길을 비켜 주면 작동한다.",
+      "context": "Reported remark on his three-decade NVIDIA position",
+      "contextKo": "30년 NVIDIA 포지션에 대한 보도된 발언",
+      "source": "https://www.craincurrency.com"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Eul-Hae day pillar in an In month forms a 'jeongjae-gyeok' chart — slender wood drawing patient water from spring roots, fitting a VC who held one investment (NVIDIA) for 30 years across multiple market cycles.",
+    "summaryKo": "을해 일주가 인월에 자리잡은 정재격(정해진 자리에서 꾸준히 누적되는 재물 구조)은 1993년 NVIDIA 한 자산을 30년간 매도하지 않고 보유한 그의 인생과 거의 그대로 호응합니다. 을목 일간은 작은 풀·꽃·문예의 기질로 분석가형 VC의 디테일 본능을 깔고 있고, 일지 해수가 정인(어머니·학문·인내)으로 평생 학문 자본(USC·하버드)과 인내심의 토대를 그대로 그려냅니다. 월지 인목이 비견(같은 목)으로 — 평생 한 카테고리(반도체·기술)에 집중한 자기 정체성의 자리. 연주 경자의 경금이 정관(공식 권위)으로 Sequoia 파트너십·NVIDIA 이사회·NBA 거버넌스라는 세 가지 공식 권위 환경에서 움직인 그의 정체성. 약점은 정재격이 너무 강하면 식상(자기 표현·감정)을 압축한다는 점인데, 2019년 카일 라우리 사건에서 평소 비공개 일관성의 반대편이 폭발한 패턴이 그 그늘로 읽힙니다."
+  }
+}

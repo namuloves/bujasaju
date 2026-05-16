@@ -1,0 +1,241 @@
+{
+  "id": "500",
+  "name": "Jorge Moll Filho",
+  "nameKo": "조르지 몰 필류",
+  "netWorth": 7.3,
+  "nationality": "BR",
+  "industry": "Healthcare",
+
+  "childhood": {
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "birthPlaceKo": "브라질 리우데자네이루",
+    "familyBackground": "Born Jorge Neval Moll Filho into a middle-class Brazilian family. Father Jorge Moll (senior) was a physician — the medical-family tradition that pushed Jorge toward medicine from a young age. Lebanese-Syrian Brazilian heritage typical of the influential Levantine immigrant community in 20th-century Brazil.",
+    "familyBackgroundKo": "본명 조르지 네발 몰 필류, 브라질 중산층 가정에서 출생. 아버지 조르지 몰 시니어는 의사 — 어린 시절부터 그를 의학으로 이끈 의료 가족 전통. 20세기 브라질의 영향력 있는 레반트 이민 공동체에 전형적인 레바논-시리아계 브라질 유산.",
+    "education": "Medical degree from the Federal University of Rio de Janeiro (UFRJ); cardiology specialization. Later earned master's in public health from UFRJ — combination of clinical and health-systems training.",
+    "educationKo": "리우데자네이루 연방대학교(UFRJ) 의학 학사; 심장학 전문의. 이후 UFRJ에서 공중보건 석사 — 임상·보건 시스템 훈련의 결합.",
+    "earlyLife": "Trained as a cardiologist in Rio de Janeiro through the 1960s-70s; early career was clinical practice rather than business. The transition to healthcare entrepreneurship began in his thirties when he saw the inefficient and fragmented state of Brazilian private healthcare and decided to build an integrated network.",
+    "earlyLifeKo": "1960-70년대 리우데자네이루에서 심장 전문의로 훈련; 초기 경력은 사업이 아니라 임상. 30대에 브라질 사기업 의료의 비효율적이고 분절된 상태를 보고 통합 네트워크를 만들기로 결정하면서 헬스케어 기업가 정체성으로 전환.",
+    "source": "https://en.wikipedia.org/wiki/Jorge_Moll_Filho ; https://www.rededor.com.br ; https://www.forbes.com/profile/jorge-moll-filho/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1970년대 심장 전문의 임상 수익과 1977년부터 시작한 리우데자네이루 클리닉·실험실 인수의 누적 수익. 본격적인 부는 2000년대 Rede D'Or 통합 + 2010년 GIC·BTG Pactual 투자 + 2020년 IPO에서 발생.",
+    "source": "https://en.wikipedia.org/wiki/Jorge_Moll_Filho"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1977,
+      "age": 31,
+      "event": "Began acquiring clinics and laboratories in Rio de Janeiro at age 31. Started consolidating fragmented private healthcare services that became the foundation for Rede D'Or.",
+      "eventKo": "31세에 리우데자네이루의 클리닉·실험실 인수 시작 — Rede D'Or의 토대가 될 분절된 사기업 의료 서비스 통합 시작.",
+      "whyItMatteredKo": "임상의에서 헬스케어 사업가로 정체성 전환의 출발선 — 50년 헬스케어 통합 전략의 시작.",
+      "source": "https://en.wikipedia.org/wiki/Jorge_Moll_Filho"
+    },
+    {
+      "year": 1985,
+      "age": 39,
+      "event": "Founded Cardiolab — a diagnostic clinic group focused on cardiology imaging and tests. Cardiolab became the early profitable engine that funded later hospital acquisitions.",
+      "eventKo": "Cardiolab 설립 — 심장 영상·검사 중심 진단 클리닉 그룹. Cardiolab이 향후 병원 인수의 자금원이 된 초기 수익 엔진.",
+      "whyItMatteredKo": "전문의 정체성을 자기 사업으로 환산한 첫 본격 단계. 임상 신뢰가 사업 가치로 전환.",
+      "source": "https://www.rededor.com.br"
+    },
+    {
+      "year": 1994,
+      "age": 48,
+      "event": "Acquired the former Copa D'Or hotel in Copacabana, Rio de Janeiro, and converted it into the Copa D'Or hospital. The hotel-to-hospital conversion became one of his signature strategies — buying real estate, converting to hospital infrastructure.",
+      "eventKo": "리우 코파카바나의 옛 Copa D'Or 호텔 인수, Copa D'Or 병원으로 전환. 호텔-병원 전환이 그의 시그니처 전략 중 하나 — 부동산 매수, 병원 인프라로 전환.",
+      "whyItMatteredKo": "병원을 짓는 것이 아니라 호텔을 전환하는 자본 효율적 접근 — 향후 모든 D'Or 병원의 모델.",
+      "source": "https://www.rededor.com.br"
+    },
+    {
+      "year": 1998,
+      "age": 52,
+      "event": "Acquired a hotel in Barra da Tijuca, Rio de Janeiro and converted it into the Barra D'Or hospital — second hotel-to-hospital conversion, proving the model could scale.",
+      "eventKo": "리우 바라 다 티주카의 호텔 인수, Barra D'Or 병원으로 전환 — 두 번째 호텔-병원 전환, 모델이 확장 가능함을 입증.",
+      "whyItMatteredKo": "호텔-병원 전환 모델의 두 번째 검증 — 향후 수십 개 D'Or 병원의 표준 플레이북.",
+      "source": "https://www.rededor.com.br"
+    },
+    {
+      "year": 2005,
+      "age": 59,
+      "event": "Formalized Rede D'Or as a integrated hospital network brand in Rio de Janeiro. Began aggressive acquisition of regional hospitals across Brazil's southeast.",
+      "eventKo": "Rede D'Or를 리우데자네이루의 통합 병원 네트워크 브랜드로 공식화. 브라질 남동부 전역에 걸친 지역 병원 공격적 인수 시작.",
+      "whyItMatteredKo": "지역 단일 병원에서 전국 네트워크로 확장의 시작 — 향후 브라질 최대 병원 네트워크의 토대.",
+      "source": "https://www.rededor.com.br"
+    },
+    {
+      "year": 2010,
+      "age": 64,
+      "event": "Singapore's sovereign wealth fund GIC and Brazilian investment bank BTG Pactual invested in Rede D'Or — the first major institutional capital injection. Provided fuel for aggressive nationwide expansion.",
+      "eventKo": "싱가포르 국부펀드 GIC와 브라질 IB BTG Pactual이 Rede D'Or에 투자 — 첫 메이저 기관 자본 주입. 공격적인 전국 확장의 연료.",
+      "whyItMatteredKo": "가족 + 임상의 자금에서 글로벌 기관 자본으로 자본 구조 전환 — 향후 IPO의 토대.",
+      "whoHelpedKo": "GIC 싱가포르 국부펀드, BTG Pactual",
+      "source": "https://www.rededor.com.br"
+    },
+    {
+      "year": 2014,
+      "age": 68,
+      "event": "Forbes first listed Jorge Moll Filho and family as US dollar billionaires, with Rede D'Or expanding rapidly across Brazilian states.",
+      "eventKo": "포브스가 처음으로 조르지 몰 필류와 가족을 미국 달러 억만장자로 등재 — Rede D'Or가 브라질 주에 걸쳐 빠르게 확장.",
+      "whyItMatteredKo": "40년 누적된 헬스케어 통합이 처음으로 공개 부 가시화 — 임상의 출신 자수성가 헬스케어 자본가의 대표 사례.",
+      "source": "https://www.forbes.com/profile/jorge-moll-filho/"
+    },
+    {
+      "year": 2015,
+      "age": 69,
+      "event": "Rede D'Or acquired the São Luiz healthcare group — a major Brazilian hospital chain — and rebranded the combined entity as Rede D'Or São Luiz. Created the largest integrated healthcare network in Brazil.",
+      "eventKo": "Rede D'Or가 São Luiz 헬스케어 그룹 — 주요 브라질 병원 체인 — 인수, 합병 회사를 Rede D'Or São Luiz로 리브랜드. 브라질 최대 통합 헬스케어 네트워크 창출.",
+      "whyItMatteredKo": "단일 인수로 브라질 헬스케어 시장 1위 자리 굳힘 — 평생 통합 전략의 정점.",
+      "source": "https://en.wikipedia.org/wiki/Rede_D%27Or_S%C3%A3o_Luiz"
+    },
+    {
+      "year": 2020,
+      "age": 74,
+      "event": "Rede D'Or São Luiz IPO on the B3 (São Paulo Stock Exchange) in December 2020 at a market cap of about $14B — one of Brazil's largest IPOs ever, in the middle of COVID-19 pandemic when healthcare demand was historic.",
+      "eventKo": "Rede D'Or São Luiz가 2020년 12월 브라질 B3(상파울루 증시) IPO — 시가총액 약 140억 달러, 브라질 사상 최대 IPO 중 하나. COVID-19 팬데믹 중 헬스케어 수요가 사상 최대일 때.",
+      "whyItMatteredKo": "43년 누적된 헬스케어 통합 사업이 공개 시장에서 결정적 평가 — IPO 타이밍이 팬데믹 의료 수요 정점과 정확히 맞물림.",
+      "source": "https://en.wikipedia.org/wiki/Rede_D%27Or_S%C3%A3o_Luiz"
+    },
+    {
+      "year": 2022,
+      "age": 76,
+      "event": "Rede D'Or São Luiz acquired SulAmérica — one of Brazil's largest health insurers — for about BRL 14B (~$3B), creating an integrated provider-payer model unique in Brazil.",
+      "eventKo": "Rede D'Or São Luiz가 SulAmérica — 브라질 최대 건강보험사 중 하나 — 를 약 140억 BRL(약 30억 달러)에 인수, 브라질에서 독특한 통합 의료-보험 모델 창출.",
+      "whyItMatteredKo": "병원 네트워크 + 건강보험사의 수직 통합 — 글로벌 헬스케어 통합 모델 중 가장 큰 단일 사례 중 하나.",
+      "source": "https://en.wikipedia.org/wiki/Rede_D%27Or_S%C3%A3o_Luiz"
+    },
+    {
+      "year": 2024,
+      "age": 78,
+      "event": "Rede D'Or São Luiz continued expansion as one of Brazil's largest companies, with over 12,000 hospital beds and integrated insurance operations. Jorge Moll's son Pedro Moll became increasingly active in operations as part of family-succession planning.",
+      "eventKo": "Rede D'Or São Luiz가 12,000개+ 병상과 통합 보험 운영으로 브라질 최대 회사 중 하나로 확장 계속. 조르지 몰의 아들 페드로 몰이 가족 승계 계획의 일환으로 운영에 점점 더 활동적.",
+      "whyItMatteredKo": "임상의에서 헬스케어 자본가로의 정체성이 다세대 가족 자본으로 정착. 2세대 승계의 본격 단계.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2025,
+      "age": 79,
+      "event": "Personal net worth at $7.3B per Forbes Real-Time. Rede D'Or São Luiz remains Brazil's largest healthcare provider with integrated insurance, hospital, lab, and oncology operations across the country.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 73억 달러. Rede D'Or São Luiz가 통합 보험·병원·실험실·종양학 운영으로 브라질 최대 헬스케어 제공자 유지.",
+      "whyItMatteredKo": "1977년 31세 심장 전문의의 첫 클리닉 인수가 48년 후 브라질 최대 헬스케어 그룹으로 — 임상의 출신 1세대 자본가의 가장 큰 라틴아메리카 사례.",
+      "source": "https://www.forbes.com/profile/jorge-moll-filho/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1977,
+      "age": 31,
+      "decisionKo": "심장 전문의 임상에서 클리닉·실험실 인수자로 정체성 확장",
+      "alternativeKo": "임상의 단독 경로 유지",
+      "outcomeKo": "48년 헬스케어 통합 — 평생 부의 거의 전부의 출발선",
+      "source": "https://en.wikipedia.org/wiki/Jorge_Moll_Filho"
+    },
+    {
+      "year": 1994,
+      "age": 48,
+      "decisionKo": "호텔을 병원으로 전환하는 자본 효율적 모델 채택",
+      "alternativeKo": "신규 병원 건설",
+      "outcomeKo": "수십 개 D'Or 병원의 표준 플레이북 — 빠르고 저렴한 인프라 확장",
+      "source": "https://www.rededor.com.br"
+    },
+    {
+      "year": 2010,
+      "age": 64,
+      "decisionKo": "가족·임상의 자본에서 GIC·BTG Pactual 기관 자본으로 자본 구조 전환",
+      "alternativeKo": "가족 비공개 운영 유지",
+      "outcomeKo": "전국 공격적 확장의 자금 토대 — 2020 IPO의 거버넌스 토대",
+      "source": "https://www.rededor.com.br"
+    },
+    {
+      "year": 2022,
+      "age": 76,
+      "decisionKo": "병원 네트워크 + SulAmérica 건강보험 수직 통합",
+      "alternativeKo": "병원 단일 사업 유지",
+      "outcomeKo": "글로벌에서 보기 드운 통합 의료-보험 모델 — 브라질 헬스케어 시장의 가장 큰 단일 가치 사슬 통제",
+      "source": "https://en.wikipedia.org/wiki/Rede_D%27Or_S%C3%A3o_Luiz"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "Rede D'Or São Luiz(브라질 B3 상장, 가족 약 72%) — 브라질 최대 통합 헬스케어 네트워크. 12,000+ 병상의 병원 네트워크 + SulAmérica 건강보험 + 실험실·종양학·외래. 본인 자산의 거의 전부가 회사 시가총액에 묶임.",
+    "industryKo": "헬스케어(병원·보험·실험실·종양학)",
+    "businessModelKo": "수직 통합 헬스케어: 병원 네트워크 + 건강보험사 + 진단 클리닉 + 종양학 센터를 한 회사 아래 통합. 1977년 이후 일관된 인수 통합 전략 — 호텔→병원 전환, 지역 병원 인수, 보험사 인수. 브라질 헬스케어 시장의 가장 큰 단일 가치 사슬 통제자.",
+    "moatKo": "① 브라질 12,000+ 병상의 영구적 인프라. ② SulAmérica 통합으로 의료-보험 통합 모델 — 브라질에서 독특. ③ 호텔→병원 전환의 50년 누적 노하우. ④ 임상의 출신 창업자의 의료 신뢰 평판. ⑤ GIC·BTG Pactual 같은 글로벌·브라질 기관 자본 관계.",
+    "luckVsSkillKo": "운(40%): 1977년 브라질 사기업 의료가 통합 직전이었던 시기에 진입한 타이밍, 2010년대 브라질 헬스케어 통합 사이클, 2020년 IPO가 COVID-19 의료 수요 정점과 맞물림. 실력(60%): 임상의에서 사업가로의 정체성 전환의 결단, 호텔-병원 전환의 자본 효율적 모델, 50년 일관된 통합 전략, 다세대 가족 거버넌스 + 기관 자본 결합."
+  },
+
+  "personalTraits": {
+    "knownFor": "Founder and principal owner of Rede D'Or São Luiz — Brazil's largest integrated healthcare network with over 12,000 hospital beds; cardiologist-turned-entrepreneur who built the network through aggressive acquisitions starting in 1977; in 2022 added SulAmérica health insurance to create a unique integrated provider-payer model in Brazil.",
+    "knownForKo": "12,000+ 병상의 브라질 최대 통합 헬스케어 네트워크 Rede D'Or São Luiz 창립자·최대 소유주. 1977년부터 공격적 인수를 통해 네트워크를 구축한 심장 전문의 출신 기업가. 2022년 SulAmérica 건강보험을 추가해 브라질에서 독특한 통합 의료-보험 모델 창출.",
+    "philanthropy": "Moll Foundation funds Brazilian medical research, particularly cardiology and neuroscience; D'Or Institute for Research and Education (IDOR) is one of Brazil's leading biomedical research institutions, founded with family funding. Also supports Rio de Janeiro educational and cultural institutions.",
+    "philanthropyKo": "몰 재단이 브라질 의학 연구(특히 심장학·뇌과학) 자금. 가족 자금으로 설립된 D'Or 연구·교육 연구소(IDOR)가 브라질 주요 생체의학 연구기관 중 하나. 리우데자네이루 교육·문화 기관도 지원.",
+    "controversies": "Rede D'Or has faced periodic scrutiny over hospital pricing practices and the political-economic influence of healthcare consolidation in Brazil; SulAmérica acquisition raised competition-policy concerns reviewed by Brazilian regulators (CADE) before approval; some labor-relations issues at consolidated hospital sites typical of the industry.",
+    "controversiesKo": "Rede D'Or는 병원 가격 관행과 브라질 헬스케어 통합의 정치·경제 영향력에 대한 주기적 감시 받음. SulAmérica 인수가 브라질 규제기관(CADE) 승인 전 경쟁 정책 우려 제기. 통합 병원 부지의 산업 일반적 노동 관계 문제."
+  },
+
+  "characterKo": {
+    "summaryKo": "심장 전문의 정체성을 평생 유지하면서 48년에 걸쳐 브라질 최대 헬스케어 그룹을 일군 보기 드운 임상의 출신 자본가. 동료들이 말하는 가장 두드러진 특성은 '병원 운영 회의에서 임상 디테일까지 본인이 직접 검토한다는 운영 깊이'와 '미디어 노출이 매우 적지만 의료 학회에는 정기적으로 등장한다는 점'. 가족 + 기관 자본 결합 거버넌스의 균형.",
+    "tagsKo": ["심장 전문의 출신", "호텔-병원 전환자", "48년 통합 전략", "의료-보험 수직 통합", "브라질 헬스케어 1세대"]
+  },
+
+  "failures": [
+    {
+      "year": 2017,
+      "description": "Brazilian recession of 2015-2017 and broader healthcare-sector debate over hospital pricing practices put pressure on Rede D'Or's expansion pace; some regional acquisition targets had to be restructured or partially divested as financing conditions tightened.",
+      "descriptionKo": "2015-2017년 브라질 경기침체와 병원 가격 관행에 대한 광범위한 헬스케어 부문 논쟁이 Rede D'Or 확장 속도에 압박 — 금융 조건 강화로 일부 지역 인수 대상이 구조조정 또는 부분 매각 필요.",
+      "lesson": "Healthcare consolidation depends on stable financing conditions; aggressive growth strategies must be paced to credit-cycle realities.",
+      "lessonKo": "헬스케어 통합은 안정적 금융 조건에 의존한다. 공격적 성장 전략은 신용 사이클 현실에 맞춰 페이스를 조정해야 한다.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2020,
+      "description": "COVID-19 pandemic created both extraordinary demand (ICU beds, ventilators) and operational crisis (PPE shortages, staff illness, regulatory scrutiny over patient pricing during crisis). Required massive operational pivot during Brazil's most severe pandemic period.",
+      "descriptionKo": "COVID-19 팬데믹이 비범한 수요(중환자실 병상·인공호흡기)와 운영 위기(PPE 부족·직원 질병·위기 중 환자 가격에 대한 규제 감시)를 동시에 창출. 브라질의 가장 심한 팬데믹 기간 거대 운영 전환 필요.",
+      "lesson": "Pandemic-scale health crises test the limits of even the most integrated healthcare network; capacity planning must build in buffers that look excessive during normal times.",
+      "lessonKo": "팬데믹 규모 보건 위기는 가장 통합된 헬스케어 네트워크의 한계도 시험한다. 수용 계획은 평시에 과도해 보이는 버퍼를 만들어야 한다.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2022,
+      "description": "Rede D'Or São Luiz stock significantly underperformed in 2021-2022 from IPO highs as Brazilian interest rates rose sharply and healthcare-sector valuations compressed; the SulAmérica integration created additional execution risk.",
+      "descriptionKo": "Rede D'Or São Luiz 주가가 IPO 고점에서 2021-2022년 크게 부진 — 브라질 금리 급등과 헬스케어 부문 평가 압축. SulAmérica 통합이 추가 실행 리스크 창출.",
+      "lesson": "IPO valuations set during low-rate macro conditions get repriced when rates normalize; multi-year operational execution must compensate for compressed multiples.",
+      "lessonKo": "저금리 거시 조건에서 책정된 IPO 평가는 금리 정상화 시 재가격된다. 다년간 운영 실행이 압축된 배수를 보상해야 한다.",
+      "source": "https://www.bloomberg.com"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2015, "netWorth": 1.5 },
+    { "year": 2018, "netWorth": 3.0 },
+    { "year": 2020, "netWorth": 9.0 },
+    { "year": 2022, "netWorth": 7.7 },
+    { "year": 2023, "netWorth": 6.4 },
+    { "year": 2024, "netWorth": 7.4 },
+    { "year": 2025, "netWorth": 7.3 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "I am a cardiologist first. Every hospital we run starts with that question — what does the patient need?",
+      "textKo": "나는 먼저 심장 전문의이다. 우리가 운영하는 모든 병원은 그 질문에서 시작한다 — 환자에게 필요한 것은 무엇인가?",
+      "context": "Frequently cited remark on his clinical-to-business identity transition",
+      "contextKo": "임상-사업 정체성 전환에 대한 자주 인용된 발언",
+      "source": "https://www.gemway.com"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Im-Jin day pillar in a Chuk month forms a 'jeongjae-gyeok' chart — abundant water held in deep winter earth, fitting a clinician-entrepreneur who patiently accumulated a single category of asset (healthcare facilities) across five decades.",
+    "summaryKo": "임진 일주가 축월에 자리잡은 정재격(정해진 자리에서 꾸준히 누적되는 재물 구조)은 1977년 한 클리닉부터 시작해 48년에 걸쳐 한 카테고리(헬스케어)에 누적 자본을 일군 그의 인생과 거의 그대로 호응합니다. 임수 일간은 큰 흐름의 물·끊임없는 흐름의 기질로 환자 흐름·자본 흐름을 모두 다루는 헬스케어 자본가의 본능과 맞물립니다. 일지 진토 안의 무토·을목·계수가 편관·식상·겁재로 권력 환경(브라질 보건 규제)·자기 표현(임상 정체성)·동료(가족·기관 파트너) 세 요소가 동시에 작용하는 구조를 그대로 그려냅니다. 월지 축토의 기토·신금·계수가 정관·정인·겁재로 또 — 공식 권위(보건 규제)·학문(의학)·동료(기관 자본)가 한 자리에 묶여 있는 구조. 월간 정화가 정재로 안정된 재물 누적의 자리. 연주 갑신의 갑목·신금이 식상·편인으로 자기 표현과 학문 자본을 거듭. 약점은 정재격이 사이클 변화에 느리게 반응한다는 점인데, 2021-2022 금리 상승기에 IPO 가치가 크게 압축된 점이 그 그늘로 읽힙니다."
+  }
+}

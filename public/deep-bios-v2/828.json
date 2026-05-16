@@ -1,0 +1,40 @@
+{
+  "id": "828", "name": "Mike Brown", "nameKo": "마이클 브라운",
+  "netWorth": 5.0, "nationality": "US", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "Massillon, Ohio, USA", "birthPlaceKo": "미국 오하이오주 매실론",
+    "familyBackground": "Born to Paul Brown — legendary NFL coach and co-founder of the Cleveland Browns and Cincinnati Bengals. Brown family is foundational to NFL history.",
+    "familyBackgroundKo": "전설적인 NFL 감독이자 Cleveland Browns·Cincinnati Bengals 공동 창립자 폴 브라운의 아들로 출생. Brown 가족이 NFL 역사의 기초.",
+    "education": "Dartmouth College.", "educationKo": "다트머스 칼리지.",
+    "earlyLife": "Worked alongside father Paul Brown in early Cleveland Browns and Cincinnati Bengals operations; took over Bengals after father's 1991 death.",
+    "earlyLifeKo": "초기 Cleveland Browns·Cincinnati Bengals 운영에서 아버지 폴 브라운과 함께 근무; 1991년 아버지 사망 후 Bengals 인수.",
+    "source": "https://en.wikipedia.org/wiki/Mike_Brown_(American_football)"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "1991년 아버지 사망 후 Cincinnati Bengals 단독 상속." },
+  "careerTimeline": [
+    { "year": 1968, "age": 33, "event": "Helped father Paul Brown found the Cincinnati Bengals (AFL/NFL); served as general manager.", "eventKo": "아버지 폴 브라운의 Cincinnati Bengals(AFL/NFL) 창립 도움; 단장 역임.", "whyItMatteredKo": "NFL 가족 유산의 출발선." },
+    { "year": 1991, "age": 56, "event": "Father Paul Brown died; Mike inherited Bengals ownership and became principal owner.", "eventKo": "아버지 폴 브라운 사망; 마이크가 Bengals 소유 상속·최대 소유주가 됨.", "whyItMatteredKo": "단독 NFL 구단주 정체성." },
+    { "year": 2000, "age": 65, "event": "Paul Brown Stadium opened in Cincinnati; controversial public-funding deal between Bengals and Hamilton County drew sustained local criticism.", "eventKo": "신시내티에 폴 브라운 스타디움 개장; Bengals와 해밀턴 카운티 간 공공 자금 거래가 지속적 지역 비판 야기.", "whyItMatteredKo": "구단주 평판의 결정적 단계." },
+    { "year": 2021, "age": 86, "event": "Bengals reached Super Bowl LVI under coach Zac Taylor — first Super Bowl appearance in 33 years.", "eventKo": "Zac Taylor 감독 아래 Bengals가 Super Bowl LVI 진출 — 33년 만의 첫 슈퍼볼 출전.", "whyItMatteredKo": "다년간 부진 후 결정적 회복." },
+    { "year": 2025, "age": 90, "event": "Personal net worth at $5B per Forbes Real-Time. Continues as Cincinnati Bengals principal owner; one of NFL's longest-tenured owners.", "eventKo": "포브스 실시간 기준 개인 순자산 50억 달러. Cincinnati Bengals 최대 소유주 계속; NFL 가장 오랜 재임 소유주 중 한 명.", "whyItMatteredKo": "57+년 NFL 가족 유산." }
+  ],
+  "turningPoints": [{ "year": 1991, "age": 56, "decisionKo": "아버지 사망 후 Bengals 단독 소유 인수", "alternativeKo": "지분 매각", "outcomeKo": "34년 단독 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Cincinnati Bengals NFL 프랜차이즈(가족 100% 소유)", "industryKo": "프로 스포츠 구단", "businessModelKo": "NFL 중계권 + 경기일 매출 + 스폰서십", "moatKo": "NFL 32개 구단 중 하나의 영구 라이선스", "luckVsSkillKo": "운(70%): 아버지 가족 자본. 실력(30%): 34년 단독 운영." },
+  "personalTraits": {
+    "knownFor": "Principal owner of Cincinnati Bengals NFL franchise since 1991; son of legendary coach Paul Brown.",
+    "knownForKo": "1991년 이후 Cincinnati Bengals NFL 프랜차이즈 최대 소유주; 전설적인 감독 폴 브라운의 아들.",
+    "philanthropy": "Limited public disclosure; Bengals foundation supports Cincinnati youth programs.", "philanthropyKo": "공개 공시 제한적; Bengals 재단이 신시내티 청소년 프로그램 지원.",
+    "controversies": "Multi-decade Bengals fan criticism over front-office decisions, including coaching turnover and stadium-financing controversies; long-running franchise underperformance until 2021 Super Bowl run.",
+    "controversiesKo": "감독 교체·스타디움 자금 논란 등 프런트오피스 결정에 대한 다년간 Bengals 팬 비판; 2021 슈퍼볼 진출 전까지 장기 프랜차이즈 부진."
+  },
+  "characterKo": { "summaryKo": "34년 NFL 가족 가부장.", "tagsKo": ["Paul Brown 아들", "Bengals 단독 소유주", "NFL 장기 재임"] },
+  "failures": [
+    { "year": 2000, "description": "Paul Brown Stadium public-funding deal drew sustained Hamilton County financial criticism.", "descriptionKo": "폴 브라운 스타디움 공공 자금 거래가 지속적 해밀턴 카운티 재정 비판.", "lesson": "Public-sports-stadium financing creates political costs.", "lessonKo": "공공 스포츠 스타디움 자금이 정치 비용 야기." },
+    { "year": 2010, "description": "Bengals franchise had long stretch of underperformance (no playoff wins 1990-2020); fan-relationship damage compounded.", "descriptionKo": "Bengals 프랜차이즈가 장기 부진(1990-2020 플레이오프 승리 없음); 팬 관계 손상 누적.", "lesson": "Family sports ownership requires patient capital but also operational accountability.", "lessonKo": "가족 스포츠 소유는 인내 자본 + 운영 책임 모두 요구." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.9 }, { "year": 2024, "netWorth": 4.6 }, { "year": 2025, "netWorth": 5.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "My father built this team. I just keep it.", "textKo": "아버지가 이 팀을 만들었다. 나는 단지 지킨다.", "context": "On Bengals stewardship", "contextKo": "Bengals 관리에 대해", "source": "https://www.bengals.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-O day pillar in Shin month — 'pyeon-gwan-gyeok', steady authority + external pressure, fitting multi-decade NFL family heir.", "summaryKo": "무오 일주 + 신월 편관격은 다년간 NFL 가족 상속자와 호응." }
+}

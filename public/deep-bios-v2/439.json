@@ -1,0 +1,42 @@
+{
+  "id": "439", "name": "Rodolphe Saade", "nameKo": "로돌프 사데",
+  "netWorth": 7.9, "nationality": "FR", "industry": "Logistics",
+  "childhood": {
+    "birthPlace": "Lebanon", "birthPlaceKo": "레바논",
+    "familyBackground": "Born to Saadé family — Lebanese-French shipping dynasty owning CMA CGM (one of world's largest container shipping companies). Family migrated to France during Lebanese civil war.",
+    "familyBackgroundKo": "Saadé 가족(CMA CGM — 세계 최대 컨테이너 해운 회사 중 하나 — 소유 레바논-프랑스 해운 왕조)에서 출생. 가족이 레바논 내전 동안 프랑스로 이주.",
+    "education": "ESSEC Business School, France.", "educationKo": "프랑스 ESSEC Business School.",
+    "earlyLife": "Joined family CMA CGM operations from his twenties; succeeded father Jacques Saadé as CEO/Chairman in 2017.",
+    "earlyLifeKo": "20대부터 가족 CMA CGM 운영 합류; 2017년 아버지 자크 사데를 이어 CEO/의장 승계.",
+    "source": "https://en.wikipedia.org/wiki/CMA_CGM"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Saadé 가족 CMA CGM 100% 소유." },
+  "careerTimeline": [
+    { "year": 1994, "age": 24, "event": "Joined family CMA CGM after ESSEC.", "eventKo": "ESSEC 후 가족 CMA CGM 합류.", "whyItMatteredKo": "차세대 진입." },
+    { "year": 2017, "age": 47, "event": "Succeeded father Jacques Saadé as CMA CGM Chairman/CEO.", "eventKo": "아버지 자크 사데를 이어 CMA CGM 의장·CEO 승계.", "whyItMatteredKo": "공식 가부장 정체성." },
+    { "year": 2018, "age": 48, "event": "Father Jacques Saadé died; Rodolphe became sole controlling family member.", "eventKo": "아버지 자크 사데 사망; 로돌프가 단독 통제 가족 구성원이 됨.", "whyItMatteredKo": "단독 가부장." },
+    { "year": 2021, "age": 51, "event": "COVID-19 supply-chain disruption created shipping rate surge; CMA CGM profits exceeded $20B in 2021-2022 alone.", "eventKo": "COVID-19 공급망 혼란이 해운 요금 급등 야기; CMA CGM 이익이 2021-2022만으로 200억 달러 초과.", "whyItMatteredKo": "팬데믹 환경 폭증 수혜." },
+    { "year": 2024, "age": 54, "event": "CMA CGM diversified massively into logistics (Bolloré Africa Logistics 2022, Wincanton 2024), media (BFM TV, La Tribune), retail logistics, and other sectors.", "eventKo": "CMA CGM이 물류(Bolloré Africa Logistics 2022·Wincanton 2024)·미디어(BFM TV·La Tribune)·소매 물류·기타 부문으로 거대 다각화.", "whyItMatteredKo": "해운 단일 의존에서 거대 글로벌 그룹으로 변환." },
+    { "year": 2025, "age": 55, "event": "Personal net worth at $7.9B per Forbes Real-Time. Continues CMA CGM Chairman/CEO; family also owns Tanya Saadé Zeenny sister's stake.", "eventKo": "포브스 실시간 기준 개인 순자산 79억 달러. CMA CGM 의장·CEO 계속; 가족이 자매 Tanya Saadé Zeenny의 지분도 보유.", "whyItMatteredKo": "다세대 가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 47, "decisionKo": "CMA CGM CEO·의장 승계", "alternativeKo": "전문 경영진에 위임", "outcomeKo": "단독 가부장" }, { "year": 2021, "age": 51, "decisionKo": "COVID 수익 활용 다각화", "alternativeKo": "해운 단일 집중", "outcomeKo": "거대 글로벌 그룹 변환" }],
+  "moneyMechanics": { "primaryRevenueKo": "CMA CGM(100% 가족 소유) — 컨테이너 해운 + 물류 + 미디어 + 항공 화물", "industryKo": "해운·물류·미디어", "businessModelKo": "글로벌 컨테이너 해운 + 다각화 인수", "moatKo": "세계 톱3 컨테이너 해운사 + 70+년 가족 자본", "luckVsSkillKo": "운(45%): COVID 해운 사이클. 실력(55%): 다각화 결단." },
+  "personalTraits": {
+    "knownFor": "Chairman/CEO of CMA CGM — third-largest container shipping company in world; led major COVID-era profits + diversification into logistics, media, air cargo.",
+    "knownForKo": "CMA CGM(세계 3위 컨테이너 해운사) 의장·CEO; 주요 COVID 시대 이익 + 물류·미디어·항공 화물 다각화 주도.",
+    "philanthropy": "Saadé family supports French-Lebanese cultural initiatives and various French educational and humanitarian causes.",
+    "philanthropyKo": "Saadé 가족이 프랑스-레바논 문화 사업과 다양한 프랑스 교육·인도주의 활동 지원.",
+    "controversies": "CMA CGM-Bolloré Africa Logistics acquisition drew French anti-monopoly scrutiny; some BFM TV editorial-direction controversies; CMA CGM oversaw 2024 Suez Canal disruption-period operations.",
+    "controversiesKo": "CMA CGM-Bolloré Africa Logistics 인수가 프랑스 반독점 감시 야기; 일부 BFM TV 편집 방향 논란; CMA CGM이 2024 수에즈 운하 혼란 기간 운영 감독."
+  },
+  "characterKo": { "summaryKo": "프랑스-레바논 해운 다세대 가부장.", "tagsKo": ["CMA CGM", "Saadé 가족", "COVID 해운 폭증 수혜", "다각화 인수"] },
+  "failures": [
+    { "year": 2022, "description": "COVID-driven shipping rate boom started normalizing; CMA CGM had to plan for post-boom margin compression.", "descriptionKo": "COVID 주도 해운 요금 붐 정상화 시작; CMA CGM이 붐 후 마진 압축 계획 필요.", "lesson": "Shipping is highly cyclical; boom years must fund cycle-bust periods.", "lessonKo": "해운은 매우 주기적; 붐 년이 사이클 붕괴 기간 자금 조달 필요." },
+    { "year": 2024, "description": "Red Sea Houthi attacks disrupted Suez Canal traffic; CMA CGM had to absorb routing-cost increases.", "descriptionKo": "홍해 후티 공격이 수에즈 운하 교통 혼란; CMA CGM이 라우팅 비용 증가 흡수 필요.", "lesson": "Geopolitical maritime risk compounds shipping cycle volatility.", "lessonKo": "지정학적 해상 리스크가 해운 사이클 변동성 누적." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 6.0 }, { "year": 2022, "netWorth": 12.5 }, { "year": 2024, "netWorth": 8.5 }, { "year": 2025, "netWorth": 7.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "We move 12% of the world's containers. Every CMA CGM ship carries Lebanese ambition.", "textKo": "우리는 세계 컨테이너의 12%를 운반한다. 모든 CMA CGM 선박이 레바논 야망을 실어 나른다.", "context": "On CMA CGM identity", "contextKo": "CMA CGM 정체성에 대해", "source": "https://www.cmacgm-group.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-O day pillar in In month — 'pyeon-gwan-gyeok', powerful external authority, fitting multi-generational shipping heir under intense global trade cycles.", "summaryKo": "임오 일주 + 인월 편관격은 강한 글로벌 무역 사이클 환경의 다세대 해운 가부장과 호응." }
+}

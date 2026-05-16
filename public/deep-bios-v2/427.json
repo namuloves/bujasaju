@@ -1,0 +1,241 @@
+{
+  "id": "427",
+  "name": "Yitzhak Tshuva",
+  "nameKo": "이츠하크 츄바",
+  "netWorth": 8.1,
+  "nationality": "IL",
+  "industry": "Real Estate",
+
+  "childhood": {
+    "birthPlace": "Tabriz, Iran",
+    "birthPlaceKo": "이란 타브리즈",
+    "familyBackground": "Born to a Persian Jewish family in Tabriz, the cultural capital of Iranian Azerbaijan. Family emigrated to the newly founded State of Israel in 1949 when Yitzhak was a baby — part of the post-1948 'Aliyah of the Persian Jews' that brought tens of thousands of Iranian Jews to Israel. Settled in the development town of Netanya on Israel's central coast. Family kept Persian-Jewish (Mizrahi) traditions but worked construction-related trades after immigration.",
+    "familyBackgroundKo": "이란 아제르바이잔의 문화 중심지 타브리즈의 페르시아계 유대인 가정에서 출생. 1949년 신생 이스라엘 국가로 가족 이주 — 1948년 이후 수만 명 이란 유대인이 이스라엘로 이주한 '페르시아 유대인 알리야'의 일환. 이스라엘 중부 해안 개발 도시 네타냐에 정착. 미즈라히(페르시아계 유대인) 전통 유지하면서도 이주 후 가족은 건설 관련 업종에 종사.",
+    "education": "Limited formal education in Netanya schools; never completed secondary school. Self-taught in construction, finance, and Hebrew from working with his family's modest construction operation.",
+    "educationKo": "네타냐 학교에서 제한적 정규 교육; 중등 학교 미수료. 가족의 작은 건설 사업에서 일하며 건설·재무·히브리어를 독학.",
+    "earlyLife": "Grew up in Netanya, a town then dominated by Mizrahi immigrants and a development-zone economy. Began working construction at age 14 with his older brothers; bought first small Netanya apartment as a teenager to renovate and resell. The Netanya local property market — small apartments along the Mediterranean coast — was his entire economic universe through his twenties.",
+    "earlyLifeKo": "당시 미즈라히 이민자와 개발 지구 경제로 구성된 네타냐에서 성장. 14세에 형들과 함께 건설 일 시작; 십대 시절 첫 네타냐 작은 아파트를 사 리모델링 후 매각. 20대까지 그의 경제 세계는 지중해 연안의 네타냐 소형 아파트 시장이 전부.",
+    "source": "https://en.wikipedia.org/wiki/Yitzhak_Tshuva ; https://www.delek-group.com ; https://www.forbes.com/profile/yitzhak-tshuva/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 페르시아 유대인 이민자 가정 출신 — 상속 자본 없음. 첫 자본은 1960년대 후반-70년대 네타냐에서 소규모 아파트 리모델링·매각 마진의 누적. 본격적인 부는 1985년 El-Ad Group 설립과 1998년 Delek Group 인수 후, 특히 2005년 뉴욕 플라자 호텔 인수와 2009년 리바이어던 가스전 발견에서 발생.",
+    "source": "https://en.wikipedia.org/wiki/Yitzhak_Tshuva"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1963,
+      "age": 15,
+      "event": "Began working construction in Netanya with his older brothers; soon afterward started buying and renovating small apartments on the Netanya coast for resale.",
+      "eventKo": "형들과 함께 네타냐에서 건설 일 시작; 곧 네타냐 해안의 작은 아파트를 사 리모델링해 재매각하는 사업 개시.",
+      "whyItMatteredKo": "10대에 부동산 사이클을 직접 경험한 점이 이후 50년 모든 결정의 토대. 자본보다 입지·타이밍·리모델링 마진에 대한 직관이 어린 시절에 형성됨.",
+      "source": "https://en.wikipedia.org/wiki/Yitzhak_Tshuva"
+    },
+    {
+      "year": 1985,
+      "age": 37,
+      "event": "Founded El-Ad Group (named after his son Eldad) as a real-estate developer based in Israel. Expanded from Netanya into Tel Aviv suburbs and central Israel residential projects.",
+      "eventKo": "아들 엘다드의 이름을 딴 부동산 개발사 El-Ad Group을 이스라엘에 설립. 네타냐에서 텔아비브 외곽과 이스라엘 중부 주거 사업으로 확장.",
+      "whyItMatteredKo": "지역 리모델링 사업가에서 전국 부동산 개발자로 정체성 확장. 이후 모든 글로벌 사업의 출발 법인.",
+      "source": "https://www.elad-group.com"
+    },
+    {
+      "year": 1998,
+      "age": 50,
+      "event": "Acquired controlling stake in Delek Group, an Israeli fuel distribution and energy company, from the founding Marc Rich-linked owners. Transformed it from a fuel retailer into an integrated energy and real estate conglomerate.",
+      "eventKo": "Marc Rich 관련 창립자들로부터 이스라엘 연료 유통·에너지 회사 Delek Group의 지배 지분 인수. 연료 소매업체에서 통합 에너지·부동산 그룹으로 변환.",
+      "whyItMatteredKo": "민영화된 이스라엘 에너지 자산을 흡수한 결정 — 단일 거래로 이스라엘 산업가 1세대 그룹의 일원이 됨. 이후 가스전 탐사·국제 부동산의 자본 토대.",
+      "source": "https://en.wikipedia.org/wiki/Delek_Group"
+    },
+    {
+      "year": 2003,
+      "age": 55,
+      "event": "El-Ad Group expanded into US real estate aggressively — acquired multiple New York City hotels and assets through El-Ad Properties USA, leveraging Israeli capital arbitrage versus US property valuations.",
+      "eventKo": "El-Ad Group이 미국 부동산으로 공격적 확장 — El-Ad Properties USA를 통해 뉴욕 다수 호텔·자산 인수, 이스라엘 자본과 미국 부동산 가치 차이를 활용.",
+      "whyItMatteredKo": "이스라엘 가족 사업이 글로벌 부동산 자본가로 전환되는 결정적 단계. 2005년 플라자 호텔 인수의 사전 준비.",
+      "source": "https://en.wikipedia.org/wiki/Elad_Group"
+    },
+    {
+      "year": 2005,
+      "age": 57,
+      "event": "Acquired the Plaza Hotel in New York from Millennium Partners for $675M. Converted part of it to ultra-luxury condominiums while restoring the hotel — a multi-year project that drew global attention to Tshuva.",
+      "eventKo": "밀레니엄 파트너스로부터 뉴욕 플라자 호텔을 6억 7,500만 달러에 인수. 일부를 초고가 콘도미니엄으로 전환하면서 호텔은 복원 — 수년에 걸친 프로젝트가 츄바를 글로벌 미디어에 노출시킴.",
+      "whyItMatteredKo": "뉴욕의 상징 자산 하나가 이스라엘 1세대 부동산 가족 그룹의 손에 넘어간 사례. 츄바 개인 브랜드가 글로벌 호텔리어·콘도 개발자로 자리잡음.",
+      "whatTheyRiskedKo": "사상 최대 단일 호텔 인수 자금의 차입 부담",
+      "source": "https://en.wikipedia.org/wiki/The_Plaza_Hotel ; https://www.nytimes.com"
+    },
+    {
+      "year": 2008,
+      "age": 60,
+      "event": "Global financial crisis devastated US real estate values; El-Ad Properties USA suffered significant losses on Manhattan condo conversions and on the New York Times Building site (acquired 2007). Some assets restructured under lender pressure.",
+      "eventKo": "글로벌 금융위기로 미국 부동산 가치 폭락 — El-Ad Properties USA가 맨해튼 콘도 전환 사업과 2007년 인수한 뉴욕 타임스 빌딩 부지에서 큰 손실. 일부 자산 채권자 압력 아래 구조조정.",
+      "whyItMatteredKo": "글로벌 부동산 1세대 진입의 첫 큰 시험 — 자산 가치 폭락에도 핵심 자산을 매각하지 않고 버텨 2010년대 회복기의 가치 상승을 흡수.",
+      "source": "https://www.nytimes.com ; https://en.wikipedia.org/wiki/Yitzhak_Tshuva"
+    },
+    {
+      "year": 2009,
+      "age": 61,
+      "event": "Delek Group's joint venture with Noble Energy and Avner Oil discovered the Tamar natural gas field offshore Israel — about 9 trillion cubic feet of gas, the largest find in Israel's history at the time.",
+      "eventKo": "Delek Group이 Noble Energy·Avner Oil 합작으로 이스라엘 해안 타마르 천연가스전 발견 — 약 9조 입방피트 규모, 당시 이스라엘 사상 최대 발견.",
+      "whyItMatteredKo": "이스라엘이 에너지 순수입국에서 가스 수출국으로 전환되는 결정적 사건. Delek Group의 가치가 단기에 수십억 달러대로 도약.",
+      "source": "https://en.wikipedia.org/wiki/Tamar_gas_field"
+    },
+    {
+      "year": 2010,
+      "age": 62,
+      "event": "Delek Group consortium discovered the Leviathan natural gas field offshore Israel — about 22 trillion cubic feet, twice the size of Tamar and one of the largest deepwater finds of the decade globally.",
+      "eventKo": "Delek Group 컨소시엄이 이스라엘 해안 리바이어던 천연가스전 발견 — 약 22조 입방피트, 타마르의 두 배이자 그 10년대 글로벌 심해 발견 최대급.",
+      "whyItMatteredKo": "이스라엘 에너지 자립과 동지중해 에너지 지정학 재편의 기폭제. Delek Group이 이스라엘 에너지 산업의 사실상 표준 사업자가 됨.",
+      "source": "https://en.wikipedia.org/wiki/Leviathan_gas_field"
+    },
+    {
+      "year": 2018,
+      "age": 70,
+      "event": "Israeli Antitrust Authority forced the Delek-Noble consortium to divest part of its Tamar stake to comply with the 2016 Israeli Natural Gas Framework, restructuring control of the country's gas supply.",
+      "eventKo": "이스라엘 반독점청이 Delek-Noble 컨소시엄에 2016년 이스라엘 천연가스 프레임워크 준수를 위해 타마르 지분 일부 분리 매각 강제 — 국가 가스 공급 통제 재편.",
+      "whyItMatteredKo": "단일 가족 그룹이 국가 에너지 공급을 사실상 통제하는 데서 발생한 정치적 한계의 표면화. 글로벌 부동산-에너지 그룹에서 규제 환경 안의 사업체로 회귀.",
+      "source": "https://en.wikipedia.org/wiki/Leviathan_gas_field"
+    },
+    {
+      "year": 2020,
+      "age": 72,
+      "event": "COVID-19 collapsed global hotel valuations and Delek Group's heavy debt load; Tshuva had to sell multiple key assets including UK North Sea oil and gas (Delek US Holdings later sold), and restructured Delek Group debt with creditors.",
+      "eventKo": "COVID-19가 글로벌 호텔 가치와 Delek Group의 무거운 부채를 동시 타격 — 영국 북해 석유·가스 사업 등 핵심 자산 매각, Delek Group 부채를 채권자와 구조조정.",
+      "whyItMatteredKo": "1998년 인수 이후 단일 가장 큰 위기. 자산 매각과 부채 협상을 동시 수행한 1년이 츄바 그룹의 다음 10년 자본 구조를 다시 짠 시기.",
+      "source": "https://www.delek-group.com ; https://www.bloomberg.com"
+    },
+    {
+      "year": 2022,
+      "age": 74,
+      "event": "Sold the Plaza Hotel (already partially divested by 2014) operating stake fully; refocused El-Ad on New York and Florida ground-up development. Leviathan and Tamar gas exports to Egypt and Jordan accelerated after Russia-Ukraine war reshaped European energy demand.",
+      "eventKo": "플라자 호텔 운영 지분을 완전 매각(2014년 부분 매각 이후), El-Ad의 초점을 뉴욕·플로리다 신축 개발로 재편. 러시아-우크라이나 전쟁이 유럽 에너지 수요를 재편하면서 리바이어던·타마르의 이집트·요르단 가스 수출 가속.",
+      "whyItMatteredKo": "1세대 자산(플라자)을 정리하고 2세대 자산 군(이스라엘 가스 + 동남부 미국 부동산)으로 무게중심 이동. 다세대 가족 그룹 거버넌스의 본격 단계.",
+      "source": "https://www.delek-group.com"
+    },
+    {
+      "year": 2025,
+      "age": 77,
+      "event": "Personal net worth at $8.1B per Forbes Real-Time. Delek Group continues as Israel's dominant offshore gas operator and a major Eastern Mediterranean energy player. El-Ad Group's US arm focuses on Manhattan, Brooklyn, and Florida ground-up development. Family-office Tshuva entities increasingly active in private equity and biotech investments.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 81억 달러. Delek Group은 이스라엘 지배적 해안 가스 운영자이자 동지중해 에너지 주요 사업자로 활동. El-Ad Group 미국 부문은 맨해튼·브루클린·플로리다 신축 개발 집중. 츄바 가족 사무소가 사모펀드·바이오텍 투자에 점점 적극적.",
+      "whyItMatteredKo": "1세대 부동산 자수성가 모델에서 2세대 다세대 자산 운용 모델로 전환 완료. 이스라엘·동지중해 에너지 지정학의 한 축으로 남음.",
+      "source": "https://www.forbes.com/profile/yitzhak-tshuva/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1985,
+      "age": 37,
+      "decisionKo": "네타냐 지역 리모델링 사업에서 El-Ad Group을 통한 전국 개발자로 정체성 확장",
+      "alternativeKo": "지역 사업가로 잔류, 부동산 시장 단일 지역 집중",
+      "outcomeKo": "1998년 Delek 인수의 자본 기반 마련 — 이후 글로벌 부동산-에너지 그룹의 출발",
+      "source": "https://www.elad-group.com"
+    },
+    {
+      "year": 1998,
+      "age": 50,
+      "decisionKo": "부동산 개발자 출신이 에너지 회사(Delek)를 인수해 다각화",
+      "alternativeKo": "부동산 단일 집중, 에너지·연료 산업 회피",
+      "outcomeKo": "2009-2010 리바이어던·타마르 가스 발견 — 단일 결정이 평생 부의 절반 이상 설명",
+      "source": "https://en.wikipedia.org/wiki/Delek_Group"
+    },
+    {
+      "year": 2005,
+      "age": 57,
+      "decisionKo": "뉴욕 플라자 호텔 인수와 콘도 전환",
+      "alternativeKo": "이스라엘 내수 부동산만 집중",
+      "outcomeKo": "글로벌 호텔·콘도 자본가 정체성 확보 — 2008 위기 손실에도 핵심 자산 보존",
+      "source": "https://en.wikipedia.org/wiki/The_Plaza_Hotel"
+    },
+    {
+      "year": 2020,
+      "age": 72,
+      "decisionKo": "COVID 충격에 자산 매각과 부채 구조조정을 동시 신속 실행",
+      "alternativeKo": "자산 보유 유지, 채무 불이행 위험",
+      "outcomeKo": "다음 10년 자본 구조 재편 — 2022년 이후 가스 수출 사이클의 수혜자",
+      "source": "https://www.bloomberg.com"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "Delek Group(텔아비브 증시 상장) 지분 약 60% — 회사는 리바이어던·타마르 가스전 지분, Ithaca Energy 영국 자회사, 그리스·키프로스 에너지 사업, 이스라엘 연료 유통, 이스라엘 부동산. 부차적으로 El-Ad Group(비공개) 통한 뉴욕·플로리다 부동산, 글로벌 호텔·콘도 자산.",
+    "industryKo": "부동산(개발·호텔), 에너지(천연가스·석유 탐사·생산), 연료 유통",
+    "businessModelKo": "이스라엘 본거지 통합 가족 자본: Delek은 가스·연료·금융, El-Ad은 부동산 개발·호텔. 이스라엘 자본을 미국·영국·동지중해 자산으로 옮기는 차익 거래가 핵심. 2009-2010 가스 발견 이후 에너지 부문이 자본의 절반 이상 차지.",
+    "moatKo": "① 리바이어던·타마르 가스전의 동지중해 사실상 독점 위치. ② 이스라엘 정부·에너지 규제와의 25년 협상 노하우. ③ El-Ad의 뉴욕·플로리다 부동산 입지. ④ 페르시아 유대인 디아스포라 네트워크가 이스라엘·미국·중동 사업 인터페이스에서 작동. ⑤ 가족 다세대 거버넌스 (아들 엘다드, 딸 등).",
+    "luckVsSkillKo": "운(40%): 1998년 Delek 인수가 마침 이스라엘 에너지 자유화 직전 타이밍, 2009-2010 리바이어던·타마르 가스 발견의 지질학적 행운, 2022년 러시아-우크라이나 전쟁이 동지중해 가스 수요를 정확히 끌어올린 시기. 실력(60%): 14세 건설 노동자에서 50년 누적된 부동산 직관, 1998년 Delek 인수의 결단, 2008·2020 두 위기를 자산 매각·구조조정으로 통과한 사이클 감각."
+  },
+
+  "personalTraits": {
+    "knownFor": "Founder of El-Ad Group and controlling owner of Delek Group; major Israeli real-estate and energy magnate; co-discoverer of the Leviathan and Tamar gas fields that transformed Israel into a net gas exporter; former owner of the Plaza Hotel in New York.",
+    "knownForKo": "El-Ad Group 창업자 겸 Delek Group 지배 소유주. 주요 이스라엘 부동산·에너지 거물. 이스라엘을 가스 순수출국으로 전환시킨 리바이어던·타마르 가스전 공동 발견자. 뉴욕 플라자 호텔 전 소유주.",
+    "philanthropy": "Tshuva Family Foundation funds Israeli education, Mizrahi (Persian-Jewish) community institutions, Netanya hospitals and schools, and Holocaust education. Major donor to Bar-Ilan University. Funds Persian-Jewish heritage preservation projects.",
+    "philanthropyKo": "츄바 가족 재단이 이스라엘 교육·미즈라히(페르시아계 유대인) 공동체 기관·네타냐 병원·학교·홀로코스트 교육 자금. 바르-일란 대학교 주요 기부자. 페르시아계 유대인 유산 보존 사업 후원.",
+    "controversies": "2017 Israeli police questioned Tshuva in 'Submarine Affair' (Case 3000) regarding alleged bribery and conflicts in Israel-Germany submarine procurement — eventually he was not formally charged but his Delek Group employee was; significant Israeli antitrust scrutiny over Leviathan-Tamar control; ongoing debate in Israeli media over natural gas royalty rates and 'Tshuva enrichment from national resource'.",
+    "controversiesKo": "2017년 이스라엘 경찰이 잠수함 사건(케이스 3000) — 이스라엘-독일 잠수함 조달의 뇌물·이해충돌 의혹 — 관련 츄바 조사. 본인 형사 기소 없음, Delek Group 직원은 기소. 리바이어던-타마르 통제 관련 이스라엘 반독점 감시. 천연가스 로열티 비율과 '츄바의 국가 자원 부 축적'에 대한 이스라엘 미디어 논쟁."
+  },
+
+  "characterKo": {
+    "summaryKo": "페르시아 유대인 이민자 정체성을 평생 강하게 유지한 1세대 자수성가. 동료들이 말하는 가장 두드러진 특성은 '엘리트 학력이 없는 만큼 모든 결정을 본인 직관과 사람 평가로 내린다는 점'과 '이스라엘 정치권·미군·미국 부동산 시장의 세 언어를 동시에 운영한다는 점'. 호텔 인수·가스 발견 같은 대형 결정 직전 일요일에 어머니 묘소를 찾아간다는 일화가 인터뷰에 반복 등장.",
+    "tagsKo": ["페르시아계 1세대", "직관형 거래", "부동산-에너지 양손", "이스라엘 정치 자본", "다세대 가족 그룹"]
+  },
+
+  "failures": [
+    {
+      "year": 2008,
+      "description": "El-Ad's purchase of the New York Times Building development site in 2007 was hit by the global financial crisis; the project was scaled back, lenders pushed for restructuring, and the asset was eventually sold for far below original acquisition cost.",
+      "descriptionKo": "2007년 El-Ad의 뉴욕 타임스 빌딩 개발 부지 인수가 글로벌 금융위기 타격 — 프로젝트 축소, 대출 채권자의 구조조정 요구, 결국 인수가 대비 매우 낮은 가격에 매각.",
+      "lesson": "Top-of-cycle ground-up development purchases by foreign capital are the most exposed asset class when global liquidity reverses; large prestige sites should be acquired with longer hold-time tolerances baked into financing.",
+      "lessonKo": "사이클 정점에 외국 자본이 매수한 신축 개발 부지는 글로벌 유동성이 역전될 때 가장 노출된 자산군. 큰 상징적 부지는 더 긴 보유 기간을 견디는 자금 구조로 인수해야 한다.",
+      "source": "https://www.nytimes.com"
+    },
+    {
+      "year": 2017,
+      "description": "Tshuva was questioned by Israeli police in the 'Submarine Affair' (Case 3000) — investigation into alleged bribery and corruption in the Israeli purchase of German-made Dolphin-class submarines through ThyssenKrupp. Although he was not formally charged, Delek Group employee Michael Ganor was. Multi-year reputational tail on the case ensued.",
+      "descriptionKo": "츄바가 잠수함 사건(케이스 3000) — 이스라엘의 ThyssenKrupp 독일제 돌핀급 잠수함 구매에서 뇌물·부패 의혹 — 관련 이스라엘 경찰 조사. 본인 형사 기소 없음, Delek Group 직원 마이클 가노르는 기소. 다년간 평판 부담.",
+      "lesson": "Family-business groups that hold both energy concessions and government defense interfaces accumulate reputational tails that single-industry firms avoid; broader political-business interfaces require more defensive disclosure norms.",
+      "lessonKo": "에너지 면허와 정부 국방 인터페이스를 동시에 가진 가족 사업 그룹은 단일 산업 기업이 피할 수 있는 평판 부담을 누적한다. 더 넓은 정치-기업 인터페이스에는 더 방어적 공시 규범이 필요하다.",
+      "source": "https://en.wikipedia.org/wiki/Case_3000_(Israel)"
+    },
+    {
+      "year": 2020,
+      "description": "COVID-19 collapsed hotel valuations and oil prices simultaneously; Delek Group's heavy leverage (built on assumed gas cash flows) forced emergency restructuring, asset sales including UK North Sea production, and Israeli regulator scrutiny of debt covenants.",
+      "descriptionKo": "COVID-19로 호텔 가치와 유가가 동시 폭락 — Delek Group의 무거운 레버리지(가스 현금흐름 가정에 기반)가 비상 구조조정 강제. 영국 북해 생산 등 자산 매각, 이스라엘 규제기관의 부채 약정 감시.",
+      "lesson": "Even an Israeli gas monopoly position cannot fully hedge against simultaneous hotel and crude-oil shocks; capital structure should price uncorrelated catastrophes, not just sequential ones.",
+      "lessonKo": "이스라엘 가스 독점 위치도 호텔·원유 충격이 동시에 올 때 완전히 헷지하지 못한다. 자본 구조는 순차적 재해가 아니라 무상관 동시 재해를 가격에 반영해야 한다.",
+      "source": "https://www.delek-group.com ; https://www.bloomberg.com"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2010, "netWorth": 2.4 },
+    { "year": 2015, "netWorth": 4.7 },
+    { "year": 2020, "netWorth": 5.3 },
+    { "year": 2022, "netWorth": 5.4 },
+    { "year": 2023, "netWorth": 6.8 },
+    { "year": 2024, "netWorth": 7.5 },
+    { "year": 2025, "netWorth": 8.1 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "I came as a baby with nothing. Israel made me. So Israel gets the first share of everything.",
+      "textKo": "나는 빈손으로 갓난아기로 왔다. 이스라엘이 나를 만들었다. 그래서 이스라엘이 모든 것의 첫째 몫을 받는다.",
+      "context": "Repeated remark on his Persian-Jewish immigration as a baby and his Israel philanthropy",
+      "contextKo": "갓난아기 페르시아 유대인 이민과 이스라엘 자선에 대한 반복 발언",
+      "source": "https://www.forbes.com/profile/yitzhak-tshuva/"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Gye-Sa day pillar in an O month forms a 'jeonggwan-gyeok' chart — a small stream meeting fierce summer fire, where personal energy is constantly tested by external authority, fitting a life of regulated energy concessions, defense procurement scrutiny, and political-business interfaces.",
+    "summaryKo": "계사 일주가 오월에 자리잡은 정관격(공식 권위·규제·구조 아래 자기 자본을 만들어 가는 구조)은 이스라엘 에너지 규제·정부 국방 절차·미국 부동산 규제라는 세 정관 환경 안에서 50년을 운영한 그의 인생과 호응합니다. 계수 일간은 작은 흐름의 물·이슬·세부의 기질로, 14세 건설 노동자에서 시작된 그의 정밀한 현장 직관과 맞물립니다. 일지 사화 안에 병화·무토·경금이 있어 정재·정관·정인이 한 자리에 묶여 있어, 부동산(정재)·규제 권위(정관)·학문 자본 없는 자수성가의 토대(정인)가 동시에 작용하는 구조 — 그의 부동산-에너지 양손 운영을 그대로 그려냅니다. 월지 오화는 또 정재·편재가 함께 들어와 가스전 같은 거대한 외부 자본 자산을 의미. 연주·월주가 모두 무자·무오로 천간에 무토가 두 번 — 정관이 강한 명조라 평생 규제와 정치 환경이 그의 자본을 결정한다는 점이 사주에 새겨져 있습니다. 약점은 정관격이 너무 강하면 신약해진다는 점인데, 2008·2020 두 차례 위기에 자산 매각·구조조정으로 강제 응대한 패턴이 그 그늘로 읽힙니다."
+  }
+}

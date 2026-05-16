@@ -1,0 +1,41 @@
+{
+  "id": "801", "name": "Murat Ulker", "nameKo": "무라트 윌케르",
+  "netWorth": 5.2, "nationality": "TR", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Istanbul, Turkey", "birthPlaceKo": "터키 이스탄불",
+    "familyBackground": "Born to Ülker family — founders of Turkey's largest confectionery group (Ülker Bisküvi). Family is one of Turkey's most powerful business dynasties.",
+    "familyBackgroundKo": "Ülker 가족(터키 최대 제과 그룹 Ülker Bisküvi 창립자)에서 출생. 가족이 터키 가장 강력한 사업 왕조 중 하나.",
+    "education": "Bosphorus University, Istanbul.", "educationKo": "이스탄불 보스포러스 대학교.",
+    "earlyLife": "Took over family Ülker business expanding it through Yıldız Holding into multi-category food conglomerate.",
+    "earlyLifeKo": "Yıldız Holding을 통해 다 카테고리 식품 그룹으로 확장하면서 가족 Ülker 사업 인수.",
+    "source": "https://en.wikipedia.org/wiki/Murat_%C3%9Clker ; https://en.wikipedia.org/wiki/Y%C4%B1ld%C4%B1z_Holding"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Ülker 가족 자본 + 본인 Yıldız Holding 확장." },
+  "careerTimeline": [
+    { "year": 1984, "age": 25, "event": "Joined family Ülker confectionery business after Bosphorus University.", "eventKo": "보스포러스 대학교 후 가족 Ülker 제과 사업 합류.", "whyItMatteredKo": "차세대 진입." },
+    { "year": 1997, "age": 38, "event": "Created Yıldız Holding as parent of family operations; began aggressive multi-category food expansion.", "eventKo": "가족 운영의 모회사로 Yıldız Holding 창설; 공격적 다 카테고리 식품 확장 시작.", "whyItMatteredKo": "단일 회사에서 그룹으로 변환." },
+    { "year": 2007, "age": 48, "event": "Yıldız Holding acquired Godiva Chocolatier from Campbell Soup for $850M — landmark Turkish-led acquisition of premium global confectionery brand.", "eventKo": "Yıldız Holding이 Campbell Soup로부터 Godiva Chocolatier를 8.5억 달러에 인수 — 프리미엄 글로벌 제과 브랜드의 터키 주도 랜드마크 인수.", "whyItMatteredKo": "터키 식품의 글로벌 도약." },
+    { "year": 2014, "age": 55, "event": "Yıldız Holding acquired United Biscuits (UK biscuit maker) for £2B; built one of Europe's largest snack food groups.", "eventKo": "Yıldız Holding이 United Biscuits(영국 비스킷 제조사) 20억 파운드 인수; 유럽 최대 스낵 식품 그룹 중 하나 구축.", "whyItMatteredKo": "유럽 글로벌 메이저 자리." },
+    { "year": 2025, "age": 66, "event": "Personal net worth at $5.2B per Forbes Real-Time. Continues Yıldız Holding leadership.", "eventKo": "포브스 실시간 기준 개인 순자산 52억 달러. Yıldız Holding 리더십 계속.", "whyItMatteredKo": "40+년 가족 식품 가부장 누적 결과." }
+  ],
+  "turningPoints": [{ "year": 2007, "age": 48, "decisionKo": "Godiva 8.5억 달러 인수", "alternativeKo": "터키 내수 집중", "outcomeKo": "글로벌 메이저 자리 굳힘" }],
+  "moneyMechanics": { "primaryRevenueKo": "Yıldız Holding(비공개) — Ülker·Godiva·McVitie's·United Biscuits 등", "industryKo": "식품 제조(제과·스낵·음료)", "businessModelKo": "터키 본거지 + 글로벌 프리미엄 브랜드 인수 통합", "moatKo": "40+년 누적 식품 가족 제국", "luckVsSkillKo": "운(40%): 터키 식품 산업 사이클. 실력(60%): 글로벌 인수 통합." },
+  "personalTraits": {
+    "knownFor": "Chairman of Yıldız Holding (parent of Ülker) — Turkey's largest food conglomerate; led 2007 $850M Godiva acquisition and 2014 £2B United Biscuits acquisition.",
+    "knownForKo": "Yıldız Holding(Ülker의 모회사, 터키 최대 식품 그룹) 의장; 2007 8.5억 달러 Godiva 인수와 2014 20억 파운드 United Biscuits 인수 주도.",
+    "philanthropy": "Ülker Foundation supports Turkish education and Islamic cultural institutions.",
+    "philanthropyKo": "Ülker 재단이 터키 교육·이슬람 문화 기관 지원.",
+    "controversies": "Yıldız Holding faced 2019 debt-restructuring crisis after aggressive global expansion; Turkish currency volatility complicated foreign-currency debt management; some Turkish political-business ties debate.",
+    "controversiesKo": "공격적 글로벌 확장 후 Yıldız Holding이 2019 부채 구조조정 위기 직면; 터키 통화 변동성이 외화 부채 관리 복잡화; 일부 터키 정치-사업 관계 논쟁."
+  },
+  "characterKo": { "summaryKo": "터키 식품 가족 글로벌 가부장.", "tagsKo": ["Yıldız Holding", "Ülker 후계자", "Godiva 인수자", "United Biscuits 인수자"] },
+  "failures": [
+    { "year": 2019, "description": "Yıldız Holding required major debt restructuring as Turkish currency depreciation and aggressive global acquisition debt became unsustainable; Godiva sold partially to Korean Magnit and other buyers.", "descriptionKo": "터키 통화 평가절하·공격적 글로벌 인수 부채가 지속 불가능해지면서 Yıldız Holding이 주요 부채 구조조정 필요; Godiva가 한국 매그닛·기타 매수자에 부분 매각.", "lesson": "Foreign-currency-debt-financed global expansion is vulnerable to home-currency volatility.", "lessonKo": "외화 부채 자금 조달 글로벌 확장은 자국 통화 변동성에 취약하다." },
+    { "year": 2023, "description": "Continued Turkish lira volatility pressured Yıldız Holding margins; debt-restructuring needed throughout 2022-2024.", "descriptionKo": "지속된 터키 리라 변동성이 Yıldız Holding 마진 압박; 2022-2024 전반에 걸친 부채 구조조정 필요.", "lesson": "Turkish-domiciled multi-national wealth faces sustained currency-cycle risk.", "lessonKo": "터키 본거지 다국적 부는 지속적 통화 사이클 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.4 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 4.7 }, { "year": 2025, "netWorth": 5.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "From Ülker biscuits to Godiva chocolates, our family has fed appetites for 80 years.", "textKo": "Ülker 비스킷에서 Godiva 초콜릿까지, 우리 가족은 80년 동안 입맛을 채워왔다.", "context": "On Ülker family food heritage", "contextKo": "Ülker 가족 식품 유산에 대해", "source": "https://www.yildizholding.com.tr" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Myo month — 'sanggwan-gyeok', creative output, fitting multi-generational food entrepreneur with global brand strategy.", "summaryKo": "갑진 일주 + 묘월 상관격은 글로벌 브랜드 전략의 다세대 식품 기업가와 호응." }
+}

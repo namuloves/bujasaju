@@ -1,0 +1,44 @@
+{
+  "id": "997", "name": "David Rubenstein", "nameKo": "데이비드 마크 루벤스타인",
+  "netWorth": 4.1, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Baltimore, Maryland, USA", "birthPlaceKo": "미국 메릴랜드주 볼티모어",
+    "familyBackground": "Born to working-class Jewish family in Baltimore; father a US postal worker. No inherited capital.",
+    "familyBackgroundKo": "볼티모어 노동자 계급 유대인 가정에서 출생; 아버지는 미국 우편 노동자. 상속 자본 없음.",
+    "education": "Duke University; J.D. from University of Chicago Law School.", "educationKo": "듀크 대학교; 시카고 대학교 로스쿨 J.D.",
+    "earlyLife": "Worked as Deputy Assistant for Domestic Policy to President Jimmy Carter; co-founded The Carlyle Group in 1987 with Bill Conway and Dan D'Aniello.",
+    "earlyLifeKo": "지미 카터 대통령의 국내 정책 부 보좌관으로 근무; 1987년 Bill Conway·Dan D'Aniello와 The Carlyle Group 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/David_Rubenstein ; https://www.carlyle.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Carlyle Group 38년 누적 carry." },
+  "careerTimeline": [
+    { "year": 1987, "age": 38, "event": "Co-founded The Carlyle Group with Bill Conway and Dan D'Aniello in Washington DC.", "eventKo": "워싱턴 DC에서 Bill Conway·Dan D'Aniello와 The Carlyle Group 공동 창립.", "whyItMatteredKo": "38년 단일 회사 carry 출발선." },
+    { "year": 2012, "age": 63, "event": "Carlyle Group IPO on Nasdaq; cemented carlyle position as one of world's top three PE firms.", "eventKo": "Carlyle Group 나스닥 IPO; carlyle 위치를 세계 톱3 PE 회사 중 하나로 굳힘.", "whyItMatteredKo": "공개 시장 평가의 결정적 단계." },
+    { "year": 2018, "age": 69, "event": "Stepped down as Carlyle co-CEO; remained co-chairman of board.", "eventKo": "Carlyle 공동 CEO에서 사임; 이사회 공동 의장 잔류.", "whyItMatteredKo": "운영자에서 의장으로 전환." },
+    { "year": 2020, "age": 71, "event": "Major media personality through 'The David Rubenstein Show' interviews with global business leaders; authored multiple books on business and history.", "eventKo": "글로벌 비즈니스 리더 인터뷰 'The David Rubenstein Show'를 통한 주요 미디어 인격; 사업·역사에 관한 다수 책 저술.", "whyItMatteredKo": "미디어·작가 정체성 확립." },
+    { "year": 2025, "age": 76, "event": "Personal net worth at $4.1B per Forbes Real-Time. Continues as Carlyle co-chairman; major Washington DC philanthropist; chairman of Smithsonian Institution and Kennedy Center.", "eventKo": "포브스 실시간 기준 개인 순자산 41억 달러. Carlyle 공동 의장 계속; 주요 워싱턴 DC 자선가; Smithsonian Institution·Kennedy Center 의장.", "whyItMatteredKo": "38+년 단일 회사 + 자선가 정체성 정점." }
+  ],
+  "turningPoints": [
+    { "year": 1987, "age": 38, "decisionKo": "정치 경력 떠나 Carlyle Group 공동 창립", "alternativeKo": "정부·법률 경력 잔류", "outcomeKo": "38+년 carry — 평생 부의 거의 전부" },
+    { "year": 2018, "age": 69, "decisionKo": "공동 CEO에서 미디어·자선가 정체성으로 전환", "alternativeKo": "CEO 잔류", "outcomeKo": "워싱턴 DC 시민 자본가 정체성" }
+  ],
+  "moneyMechanics": { "primaryRevenueKo": "Carlyle Group(Nasdaq 상장) 공동 창립자 지분 + 38+년 carry", "industryKo": "사모펀드", "businessModelKo": "글로벌 PE + 공동 의장 carry", "moatKo": "38+년 워싱턴 DC + 글로벌 PE 인맥", "luckVsSkillKo": "운(35%): 1980년대 PE 산업 부상. 실력(65%): 38+년 회사 운영." },
+  "personalTraits": {
+    "knownFor": "Co-founder of The Carlyle Group; chairman of Smithsonian Institution, Kennedy Center, Council on Foreign Relations; host of 'The David Rubenstein Show'; signed The Giving Pledge.",
+    "knownForKo": "The Carlyle Group 공동 창립자; Smithsonian Institution·Kennedy Center·외교협회 의장; 'The David Rubenstein Show' 진행자; Giving Pledge 서명.",
+    "philanthropy": "'Patriotic philanthropy' — major patron of US national monuments (Lincoln Memorial, Washington Monument, Iwo Jima Memorial); rare-document collector who lends Magna Carta, Declaration of Independence to public; major DC institutions patron.",
+    "philanthropyKo": "'애국 자선' — 미국 국가 기념물(링컨 기념관·워싱턴 기념탑·이오지마 기념관) 주요 후원자; Magna Carta·독립선언서를 공공에 대여하는 희귀 문서 수집가; 주요 DC 기관 후원자.",
+    "controversies": "Carlyle's George H.W. Bush, James Baker, John Major political connections drew sustained progressive criticism over 1990s-2000s government-business interface; Carlyle's defense-industry investments criticized.",
+    "controversiesKo": "Carlyle의 조지 H.W. 부시·제임스 베이커·존 메이저 정치 연결이 1990-2000년대 정부-사업 인터페이스에 대한 지속적 진보 비판; Carlyle의 방산 산업 투자 비판."
+  },
+  "characterKo": { "summaryKo": "워싱턴 DC PE 가부장 + 미디어 인격 + '애국 자선가' 정체성.", "tagsKo": ["Carlyle 공동 창립자", "Smithsonian 의장", "Kennedy Center 의장", "Giving Pledge"] },
+  "failures": [
+    { "year": 2001, "description": "Carlyle drew sustained criticism over its George H.W. Bush, James Baker, and other government-business connections, particularly after 9/11 when Carlyle had Saudi-bin-Laden-family investments.", "descriptionKo": "Carlyle이 조지 H.W. 부시·제임스 베이커 등 정부-사업 연결에 대한 지속적 비판 직면 — 특히 9/11 후 Carlyle이 사우디-빈라덴 가족 투자를 가졌을 때.", "lesson": "Government-political interface in PE carries reputational tail risk.", "lessonKo": "PE의 정부-정치 인터페이스는 평판 잔여 리스크 동반." },
+    { "year": 2022, "description": "Carlyle Group stock and BREIT-style fund redemption pressures in 2022-2023 created industry-wide concerns.", "descriptionKo": "2022-2023 Carlyle Group 주가·BREIT 스타일 펀드 환매 압박이 산업 전반 우려 야기.", "lesson": "Public PE stocks face cyclical compression.", "lessonKo": "공개 PE 주식은 주기적 압축 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 3.7 }, { "year": 2025, "netWorth": 4.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I went into private equity because I had no other useful skills.", "textKo": "나는 다른 유용한 기술이 없어서 사모펀드에 들어갔다.", "context": "Self-deprecating quote on Carlyle origins", "contextKo": "Carlyle 기원에 대한 자조적 인용", "source": "https://www.carlyle.com" }],
+  "books": { "authored": [{ "title": "How to Lead", "year": 2020, "noteKo": "글로벌 리더 인터뷰 모음." }, { "title": "The American Story", "year": 2019, "noteKo": "미국 역사 작품." }], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Yu day pillar in Shin month — 'jeongin-gyeok', maternal-academic support, fitting Duke + Chicago Law trained PE pioneer.", "summaryKo": "계유 일주 + 신월 정인격은 듀크 + 시카고 로스쿨 학문 자본 + PE 가부장 정체성과 호응." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "625", "name": "Jim Davis", "nameKo": "짐 데이비스",
+  "netWorth": 6.3, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Brighton, Massachusetts, USA", "birthPlaceKo": "미국 매사추세츠주 브라이튼",
+    "familyBackground": "Born to working-class Boston family.", "familyBackgroundKo": "노동자 계급 보스턴 가정에서 출생.",
+    "education": "Boston Latin Academy; Bentley University.", "educationKo": "보스턴 라틴 아카데미; Bentley 대학교.",
+    "earlyLife": "Acquired struggling New Balance Athletic Shoe in 1972 for $100,000 with $10,000 down; transformed it into one of America's largest privately held athletic-shoe brands.",
+    "earlyLifeKo": "1972년 10,000달러 다운페이먼트로 부실한 New Balance Athletic Shoe를 100,000달러에 인수; 미국 최대 사설 운동화 브랜드 중 하나로 변환.",
+    "source": "https://en.wikipedia.org/wiki/Jim_Davis_(billionaire)"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "New Balance 53년 누적 100% 가족 소유." },
+  "careerTimeline": [
+    { "year": 1972, "age": 29, "event": "Acquired New Balance Athletic Shoe for $100,000 ($10,000 down).", "eventKo": "10,000달러 다운페이먼트로 New Balance Athletic Shoe를 100,000달러에 인수.", "whyItMatteredKo": "출발선." },
+    { "year": 2000, "age": 57, "event": "New Balance became one of America's largest athletic-shoe brands; remained 100% family-owned despite repeated buyout offers.", "eventKo": "New Balance가 미국 최대 운동화 브랜드 중 하나가 됨; 반복된 매수 제안에도 100% 가족 소유 유지.", "whyItMatteredKo": "비공개 가족 통제 정체성." },
+    { "year": 2020, "age": 77, "event": "COVID-19 boosted athleisure demand; New Balance benefited from sustained sneaker culture growth.", "eventKo": "COVID-19이 애슬레저 수요 부스트; New Balance가 지속적 스니커 문화 성장 수혜.", "whyItMatteredKo": "스니커 문화 부상 수혜." },
+    { "year": 2025, "age": 82, "event": "Personal net worth at $6.3B per Forbes Real-Time. Continues New Balance chairman with daughter-in-law Anne Davis Designs as CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 63억 달러. 며느리 Anne Davis Designs가 CEO로 New Balance 의장 계속.", "whyItMatteredKo": "53년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1972, "age": 29, "decisionKo": "New Balance 100,000달러 인수", "alternativeKo": "직장 잔류", "outcomeKo": "53년 후 미국 최대 사설 운동화 브랜드" }],
+  "moneyMechanics": { "primaryRevenueKo": "New Balance Athletic Shoe(100% 가족 소유)", "industryKo": "운동화·애슬레저", "businessModelKo": "프리미엄 미국 제조 운동화 + 글로벌 유통", "moatKo": "미국 제조 정체성 + 53년 가족 통제", "luckVsSkillKo": "운(35%): 스니커 문화 시대. 실력(65%): 53년 가족 통제 + 미국 제조 정체성." },
+  "personalTraits": {
+    "knownFor": "Chairman of New Balance Athletic Shoe — one of America's largest privately held athletic shoe brands; refused multiple buyout offers over 53 years.",
+    "knownForKo": "New Balance Athletic Shoe(미국 최대 사설 운동화 브랜드 중 하나) 의장; 53년 동안 다수의 매수 제안 거부.",
+    "philanthropy": "Davis Family Foundation supports Boston-area medical and educational institutions.",
+    "philanthropyKo": "Davis 가족 재단이 보스턴 지역 의료·교육 기관 지원.",
+    "controversies": "2016 New Balance political donations to Trump campaign drew consumer boycott; New Balance's 'Made in USA' positioning faced periodic scrutiny over actual percentage of US-made products.",
+    "controversiesKo": "2016 New Balance의 트럼프 캠페인 정치 기부가 소비자 보이콧 야기; New Balance의 'Made in USA' 포지셔닝이 실제 미국 제조 제품 비율에 대한 주기적 감시 직면."
+  },
+  "characterKo": { "summaryKo": "53년 비공개 가족 통제 운동화 가부장.", "tagsKo": ["New Balance", "53년 가족 소유", "Made in USA"] },
+  "failures": [
+    { "year": 2016, "description": "Trump-donation revelation triggered consumer-base controversy and boycott.", "descriptionKo": "트럼프 기부 폭로가 소비자 베이스 논란·보이콧 촉발.", "lesson": "Politically visible brand activity creates consumer reaction.", "lessonKo": "정치적으로 가시적 브랜드 활동이 소비자 반응 야기." },
+    { "year": 2020, "description": "US manufacturing during COVID faced operational challenges.", "descriptionKo": "COVID 동안 미국 제조가 운영 도전 직면.", "lesson": "Domestic manufacturing exposes pandemic-supply-chain risk.", "lessonKo": "국내 제조가 팬데믹 공급망 리스크 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.5 }, { "year": 2020, "netWorth": 4.3 }, { "year": 2024, "netWorth": 6.0 }, { "year": 2025, "netWorth": 6.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I paid 10,000 dollars down for New Balance. I will never sell it.", "textKo": "나는 New Balance에 10,000달러 다운페이먼트를 했다. 결코 팔지 않을 것이다.", "context": "On 53-year ownership", "contextKo": "53년 소유에 대해", "source": "https://www.newbalance.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Hae day pillar in Sa month — 'siksin-gyeok', creative output, fitting brand-building entrepreneur.", "summaryKo": "을해 일주 + 사월 식신격은 53년 브랜드 구축 자수성가 정체성과 호응." }
+}

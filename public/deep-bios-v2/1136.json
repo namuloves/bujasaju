@@ -1,0 +1,36 @@
+{
+  "id": "1136", "name": "Alceu Elias Feldmann", "nameKo": "알세우 엘리아스 펠드만",
+  "netWorth": 3.7, "nationality": "BR", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "Brazil", "birthPlaceKo": "브라질",
+    "familyBackground": "Born to Brazilian family.", "familyBackgroundKo": "브라질 가정에서 출생.",
+    "education": "Brazilian engineering education.", "educationKo": "브라질 공학 교육.",
+    "earlyLife": "Built Fertipar Group (Brazilian fertilizer producer) and energy operations into one of Brazil's largest agribusiness-energy groups.",
+    "earlyLifeKo": "Fertipar Group(브라질 비료 생산자)·에너지 운영을 브라질 최대 농업비즈니스-에너지 그룹 중 하나로 키움.",
+    "source": "https://www.forbes.com/profile/alceu-elias-feldmann/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Fertipar Group 50년 누적." },
+  "careerTimeline": [
+    { "year": 1976, "age": 27, "event": "Founded Fertipar Group as Brazilian fertilizer distributor.", "eventKo": "Fertipar Group을 브라질 비료 유통업체로 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 2000, "age": 51, "event": "Expanded into Brazilian agribusiness production and energy operations.", "eventKo": "브라질 농업비즈니스 생산·에너지 운영으로 확장.", "whyItMatteredKo": "다각화 시작." },
+    { "year": 2025, "age": 76, "event": "Personal net worth at $3.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러.", "whyItMatteredKo": "50년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1976, "age": 27, "decisionKo": "Fertipar 창립", "alternativeKo": "직장", "outcomeKo": "50년 후 메이저 농업비즈니스" }],
+  "moneyMechanics": { "primaryRevenueKo": "Fertipar Group(비공개) + 에너지 운영", "industryKo": "비료·농업비즈니스·에너지", "businessModelKo": "브라질 농업 인프라 + 에너지", "moatKo": "50년 누적 브라질 농업 네트워크", "luckVsSkillKo": "운(50%): 브라질 농업 사이클. 실력(50%): 50년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Fertipar Group — major Brazilian fertilizer and agribusiness conglomerate.",
+    "knownForKo": "Fertipar Group(주요 브라질 비료·농업비즈니스 그룹) 창립자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard Brazilian agribusiness environmental scrutiny.", "controversiesKo": "표준 브라질 농업비즈니스 환경 감시."
+  },
+  "characterKo": { "summaryKo": "브라질 50년 농업비즈니스 자수성가.", "tagsKo": ["Fertipar Group", "브라질 농업비즈니스"] },
+  "failures": [
+    { "year": 2014, "description": "Brazilian recession affected agribusiness margins.", "descriptionKo": "브라질 경기침체가 농업비즈니스 마진 영향.", "lesson": "Single-country commodity exposure.", "lessonKo": "단일 국가 상품 노출." },
+    { "year": 2020, "description": "COVID-19 commodity volatility.", "descriptionKo": "COVID-19 상품 변동성.", "lesson": "Macro events affect commodities.", "lessonKo": "거시 사건이 상품 영향." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Brazilian soil feeds the world.", "textKo": "브라질 토양이 세계를 먹여 살린다.", "context": "Fertipar philosophy", "contextKo": "Fertipar 철학", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Jin day pillar in O month — 'pyeonin-gyeok', maternal foundation.", "summaryKo": "임진 일주 + 오월 편인격은 50년 자수성가와 호응." }
+}

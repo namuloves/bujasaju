@@ -1,0 +1,252 @@
+{
+  "id": "415",
+  "name": "Brian Armstrong",
+  "nameKo": "브라이언 암스트롱",
+  "netWorth": 8.3,
+  "nationality": "US",
+  "industry": "Finance & Investments",
+
+  "childhood": {
+    "birthPlace": "San Jose, California, USA",
+    "birthPlaceKo": "캘리포니아주 산호세, 미국",
+    "familyBackground": "Both parents are engineers who met at IBM. Father is an engineer, mother also an engineer; family moved between California and Texas during his childhood. Has a sister. Solidly upper-middle-class STEM household — no inherited capital, but strong technical environment from a very young age.",
+    "familyBackgroundKo": "부모 모두 엔지니어로 IBM에서 만남. 어린 시절 가족이 캘리포니아와 텍사스를 오감. 여동생 한 명. 상속 자본은 없는 중상류층 이공계 가정 — 어린 시절부터 기술적 환경에 노출.",
+    "education": "Rice University (Houston, TX): BS in Computer Science (2005), BS in Economics (2005), MS in Computer Science (2006) — completed all three in five years.",
+    "educationKo": "라이스 대학교(휴스턴) 컴퓨터 공학 학사(2005), 경제학 학사(2005), 컴퓨터 공학 석사(2006) — 5년에 학사 2개·석사 1개 동시 취득.",
+    "earlyLife": "Built his first paid software product (a tutoring marketplace called UniversityTutor.com) while still at Rice. Spent time in Buenos Aires after graduation teaching computer science in English, where he saw 25%+ Argentine peso inflation first-hand — formative exposure to currency failure that he later cited as a key motivator for going into crypto.",
+    "earlyLifeKo": "라이스 재학 중 첫 유료 소프트웨어 사업(과외 매칭 사이트 UniversityTutor.com)을 직접 운영. 졸업 후 부에노스아이레스에서 영어로 컴퓨터 공학을 가르치며 아르헨티나 페소의 연 25% 인플레이션을 현장에서 목격 — 이후 암호화폐 진입의 동기로 본인이 반복 인용하는 경험.",
+    "source": "https://en.wikipedia.org/wiki/Brian_Armstrong_(businessman) ; https://www.coinbase.com/blog ; https://www.forbes.com/profile/brian-armstrong/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 부모 모두 엔지니어 직장인이라 상속 자본 없음. 첫 자본은 라이스 재학 중 부업 사이트 수익과 Deloitte/IBM/Airbnb 정규직 연봉 일부였고, 본격적인 부는 2012년 코인베이스 창업 후 회사 지분(2021년 상장 직전 약 19.8%, IPO 후 약 16% 보유)에서 나옴.",
+    "source": "https://en.wikipedia.org/wiki/Brian_Armstrong_(businessman) ; https://www.coinbase.com/legal/disclosures"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 2003,
+      "age": 20,
+      "event": "Founded UniversityTutor.com while a sophomore at Rice — a marketplace matching college students with tutors; grew to serve dozens of US campuses before he later sold it.",
+      "eventKo": "라이스 2학년 때 UniversityTutor.com 창업 — 대학생-과외 매칭 마켓플레이스. 미국 여러 캠퍼스로 확장 후 훗날 매각.",
+      "whyItMatteredKo": "20세에 첫 양방향 마켓플레이스를 설계·운영해본 경험. '수수료를 떼는 플랫폼' 사고방식이 코인베이스의 비즈니스 모델(거래 수수료)로 그대로 이어짐.",
+      "source": "https://en.wikipedia.org/wiki/Brian_Armstrong_(businessman)"
+    },
+    {
+      "year": 2007,
+      "age": 24,
+      "event": "After Rice MS, joined Deloitte & Touche as an enterprise risk consultant, then IBM as a Java developer.",
+      "eventKo": "라이스 석사 졸업 후 딜로이트(엔터프라이즈 리스크 컨설턴트) → IBM(자바 개발자) 차례 근무.",
+      "whyItMatteredKo": "대기업에서 본 결제·KYC·리스크 컴플라이언스 시스템의 한계가 훗날 코인베이스에 '규제 친화적 거래소'라는 차별화 포지션을 잡게 한 배경.",
+      "source": "https://en.wikipedia.org/wiki/Brian_Armstrong_(businessman)"
+    },
+    {
+      "year": 2010,
+      "age": 27,
+      "event": "Joined Airbnb as a software engineer working on payment fraud prevention across 17 currencies. Read Satoshi Nakamoto's Bitcoin whitepaper in November 2010 during Christmas break.",
+      "eventKo": "에어비앤비 입사, 17개국 결제 사기 방지 엔지니어로 근무. 2010년 11월 휴가 중 사토시 나카모토 비트코인 백서를 읽음.",
+      "whyItMatteredKo": "다국 결제 시스템의 마찰을 직접 경험한 직후 비트코인 백서를 읽음 — 두 데이터셋이 머릿속에서 합쳐지며 '암호화폐 거래소'가 그의 인생 가설이 됨.",
+      "source": "https://en.wikipedia.org/wiki/Brian_Armstrong_(businessman) ; https://www.youtube.com/watch?v=Y8YBxJUMVDA"
+    },
+    {
+      "year": 2012,
+      "age": 29,
+      "event": "Quit Airbnb in early 2012 and founded Coinbase with Fred Ehrsam (ex-Goldman Sachs FX trader). Admitted to Y Combinator Summer 2012 batch.",
+      "eventKo": "2012년 초 에어비앤비 퇴사, 골드만삭스 외환 트레이더 출신 프레드 에르삼과 코인베이스 공동 창업. Y Combinator 2012년 여름 배치 입학.",
+      "whyItMatteredKo": "Ehrsam(금융업)+Armstrong(엔지니어)의 결합이 코인베이스의 '규제 친화 + UX 친화'라는 양손 잡기 전략의 인적 기반. YC 인큐베이션이 USV(Fred Wilson) 시리즈 A로 직결됨.",
+      "whatTheyRiskedKo": "Airbnb 시리즈 B 시기 스톡옵션 — 행사 시 수백만 달러로 평가되던 자산",
+      "whoHelpedKo": "공동창업자 Fred Ehrsam, YC 파트너 Garry Tan·Paul Graham, 시리즈 A 리드 USV Fred Wilson",
+      "source": "https://en.wikipedia.org/wiki/Coinbase ; https://www.ycombinator.com/companies/coinbase"
+    },
+    {
+      "year": 2013,
+      "age": 30,
+      "event": "Closed Series A led by Union Square Ventures ($5M) and Series B led by Andreessen Horowitz ($25M, Dec 2013).",
+      "eventKo": "USV(Fred Wilson) 주도 시리즈 A 500만 달러, 같은 해 12월 안드레센 호로위츠 주도 시리즈 B 2,500만 달러 마감.",
+      "whyItMatteredKo": "Web2 시대 최고 VC들의 첫 본격 크립토 베팅 대상이 됨. 'Tier-1 VC가 신뢰하는 합법 크립토 기업'이라는 브랜드 자본 확보, 이후 모든 라이선스·은행 파트너십 협상에서 가장 큰 무기.",
+      "source": "https://en.wikipedia.org/wiki/Coinbase"
+    },
+    {
+      "year": 2017,
+      "age": 34,
+      "event": "Bitcoin price surged from $1K to nearly $20K; Coinbase iOS app hit #1 on the US App Store in December. Revenue jumped from ~$50M (2016) to over $1B for the year.",
+      "eventKo": "비트코인 가격이 1,000달러에서 2만 달러 근처까지 폭등, 12월 코인베이스 iOS 앱이 미국 앱스토어 1위. 매출이 2016년 약 5천만 달러에서 2017년 10억 달러 이상으로 폭증.",
+      "whyItMatteredKo": "한 해 매출 20배 폭증 — 회사가 일반 소비자에게 처음 대중적으로 노출된 사이클. 이후 시리즈 D·E·F·금융기관 라이선스가 줄줄이 가능해진 변곡점.",
+      "source": "https://en.wikipedia.org/wiki/Coinbase ; https://www.cnbc.com/coinbase"
+    },
+    {
+      "year": 2020,
+      "age": 37,
+      "event": "Published 'Coinbase is a mission focused company' blog post in September, banning internal political activism. Roughly 60 employees (~5%) accepted exit packages and left.",
+      "eventKo": "9월 'Coinbase is a mission focused company' 블로그 글로 사내 정치 활동 금지 정책 공표. 약 60명(전체 5%)이 퇴직 패키지를 받고 떠남.",
+      "whyItMatteredKo": "BLM·내부 정치 발언이 격렬해진 시기, 실리콘밸리 표준 대비 정면 반대 노선을 선택. 이후 머스크·셰필드 등 동조자가 이 글을 인용 — '미션 집중' 경영 담론의 원형 사례가 됨. 한편 다양성·포용 비판도 동반.",
+      "whatTheyRiskedKo": "실리콘밸리 인재 풀의 일부 — 정치 의식 높은 엔지니어들의 이탈",
+      "source": "https://www.coinbase.com/blog/coinbase-is-a-mission-focused-company"
+    },
+    {
+      "year": 2021,
+      "age": 38,
+      "event": "Coinbase direct-listed on Nasdaq (COIN) on April 14 at a $86B peak market cap. Armstrong's stake of about 19.8% briefly placed his net worth near $20B.",
+      "eventKo": "4월 14일 코인베이스 나스닥 직접 상장(DPO), 시총 최고 860억 달러. 약 19.8% 지분 보유한 암스트롱 개인 순자산이 일시적으로 200억 달러 근처.",
+      "whyItMatteredKo": "암호화폐 회사가 미국 메인 거래소에 정식 직상장한 첫 사례. 규제 친화 노선이 자본 시장 정통성으로 환금된 순간.",
+      "source": "https://en.wikipedia.org/wiki/Coinbase ; https://www.forbes.com/profile/brian-armstrong/"
+    },
+    {
+      "year": 2022,
+      "age": 39,
+      "event": "Crypto winter following Terra/Luna collapse and FTX bankruptcy. Coinbase laid off about 18% of staff (~1,100 employees) in June; COIN stock fell from ~$340 to under $40 within 12 months.",
+      "eventKo": "테라·루나·FTX 붕괴로 시작된 크립토 겨울. 6월 약 1,100명(18%) 정리해고. COIN 주가가 약 340달러에서 12개월 내 40달러 미만으로 하락.",
+      "whyItMatteredKo": "FTX와 달리 자기자본 비율과 회계 분리를 지킨 덕분에 해킹·뱅크런 없이 생존. 동시에 직원 수와 신규 사업 라인을 1년 만에 대폭 정리하며 '집중과 비용 규율' 경영 모드로 전환.",
+      "source": "https://www.coinbase.com/blog/a-difficult-decision ; https://en.wikipedia.org/wiki/Coinbase"
+    },
+    {
+      "year": 2023,
+      "age": 40,
+      "event": "SEC sued Coinbase in June, alleging it operated as an unregistered securities exchange. Armstrong publicly refused to settle and committed to litigating, while expanding internationally (Bermuda license, EU MiCA prep).",
+      "eventKo": "6월 SEC가 코인베이스를 미등록 증권 거래소 운영 혐의로 제소. 암스트롱은 공개적으로 합의 거부 — 법정 다툼 선언과 함께 버뮤다 라이선스·EU MiCA 대비 등 해외 확장 가속.",
+      "whyItMatteredKo": "산업 전체가 미국 SEC와의 충돌 국면에 들어간 가운데 코인베이스를 산업 변호인 역할로 위치시킴. 그 결과 2024년 트럼프 재선 + 친크립토 정책 전환 시 가장 직접적인 수혜자가 됨.",
+      "source": "https://www.sec.gov/news/press-release/2023-102 ; https://www.coinbase.com/blog"
+    },
+    {
+      "year": 2024,
+      "age": 41,
+      "event": "Federal court dismissed key parts of the SEC complaint in July. Bitcoin spot ETFs launched in January with Coinbase as the dominant custodian. After November US election, COIN stock more than doubled into year-end.",
+      "eventKo": "7월 연방법원이 SEC 소송의 핵심 청구 일부를 기각. 1월 비트코인 현물 ETF 출범으로 코인베이스가 압도적 수탁기관 지위 확보. 11월 미국 대선 이후 COIN 주가 두 배 이상 상승.",
+      "whyItMatteredKo": "23년 가장 큰 리스크였던 SEC 소송이 2024년 정치 변화와 사법 판단 둘 다에서 유리하게 전환됨. ETF 수탁 수수료라는 신규·구조적 현금흐름 라인 확보.",
+      "source": "https://www.coinbase.com/blog ; https://www.theblock.co/post/300000/sec-coinbase-court-ruling"
+    },
+    {
+      "year": 2025,
+      "age": 42,
+      "event": "Co-founded and funded NewLimit (anti-aging biotech with Blake Byers and David Sinclair) Series C. Personal net worth at $8.3B per Forbes Real-Time. Trump administration named crypto-friendly SEC chair, allowing Coinbase to formally drop multiple regulatory disputes.",
+      "eventKo": "Blake Byers·David Sinclair와 함께 NewLimit(노화 역전 바이오텍) Series C 공동 펀딩 주도. 포브스 실시간 기준 개인 순자산 83억 달러. 트럼프 행정부가 친크립토 SEC 위원장 임명, 코인베이스 다수 규제 분쟁 공식 종결.",
+      "whyItMatteredKo": "PE·바이오·AI로 자본 포트폴리오 다변화 시작. 코인베이스 의존도를 점차 낮추는 작업.",
+      "source": "https://www.newlimit.com ; https://www.forbes.com/profile/brian-armstrong/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 2010,
+      "age": 27,
+      "decisionKo": "에어비앤비 결제 엔지니어로 17개 통화를 다루던 시기 비트코인 백서를 정독, 다음 1년 안에 사이드 프로젝트로 토이 거래소 코드 작성",
+      "alternativeKo": "에어비앤비 직원으로 잔류(상장 후 약 1-2천만 달러 가치)",
+      "outcomeKo": "코인베이스 창업의 직접적 기술·심리적 출발선",
+      "source": "https://en.wikipedia.org/wiki/Brian_Armstrong_(businessman)"
+    },
+    {
+      "year": 2014,
+      "age": 31,
+      "decisionKo": "Mt.Gox 붕괴 직후, 업계 전체가 의심받던 시기에 코인베이스의 라이선스·은행 파트너십 등록을 적극 추진",
+      "alternativeKo": "다른 거래소들처럼 회색 지대에서 운영, 더 빠른 자산 상장으로 단기 거래량 추구",
+      "outcomeKo": "2021년 미국 직상장 자격, 2024년 비트코인 ETF 수탁 독점 — 규제 친화 노선의 누적 보상",
+      "source": "https://en.wikipedia.org/wiki/Coinbase"
+    },
+    {
+      "year": 2020,
+      "age": 37,
+      "decisionKo": "사내 정치 발언 금지 정책 공개 선언, 약 60명 이탈 감수",
+      "alternativeKo": "실리콘밸리 평균에 동조해 BLM·정치 이슈에 적극 발언",
+      "outcomeKo": "단기적 인재 이탈 vs 장기적 '미션 집중' 브랜드 자본 — 머스크·다른 CEO들이 후속 인용, 일부 인재 풀 손실은 회복",
+      "source": "https://www.coinbase.com/blog/coinbase-is-a-mission-focused-company"
+    },
+    {
+      "year": 2023,
+      "age": 40,
+      "decisionKo": "SEC와 합의 거부, 산업 전체를 대표해 법정 싸움 선택",
+      "alternativeKo": "타협 합의금 지불 후 영업 안정성 확보",
+      "outcomeKo": "2024년 법원 일부 기각 + 행정 변화로 산업 영웅 포지셔닝, ETF 수탁 사업 본격화",
+      "source": "https://www.coinbase.com/blog"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "Coinbase Global Inc.(NASDAQ:COIN) 지분 약 16% 보유. 거래 수수료(소비자·기관)·수탁·스테이킹·USDC 협력 수익에서 발생하는 회사 가치가 본인 자산의 사실상 전부.",
+    "industryKo": "암호화폐 거래소·디지털 자산 인프라",
+    "businessModelKo": "소매 거래 수수료(고마진) + 기관 거래·수탁(저마진, 대량) + 스테이킹 수익 + 비트코인/이더리움 ETF 수탁 수수료(2024년부터 구조적 신규 라인). 거래 사이클에 매출이 크게 출렁이는 변동성 비즈니스.",
+    "moatKo": "① 미국 50개 주 + EU MiCA + 영국·캐나다·아시아 라이선스 누적 — 후발주자가 따라잡기 가장 어려운 자산. ② Tier-1 미국 은행과의 결제 통로. ③ BlackRock·Fidelity 등 ETF 발행자가 의존하는 수탁 인프라. ④ 약 1억 명 검증 사용자 데이터베이스.",
+    "luckVsSkillKo": "운(40%): 2017·2021 크립토 광풍 사이클 두 번을 거래소 1위로 통과, 2022 FTX 붕괴가 경쟁사 쪽에서 일어남, 2024 미 대선 결과가 SEC 분쟁 직후 친크립토 행정으로 전환. 실력(60%): 규제 친화 노선의 일관성, 자기 자본 보호와 회계 분리, '미션 집중' 경영 담론으로 직원·주주 정렬, 엔지니어로서 보안 표준을 직접 정의."
+  },
+
+  "personalTraits": {
+    "knownFor": "Founder and CEO of Coinbase, the largest US-regulated cryptocurrency exchange; vocal advocate of 'mission-focused' company governance; engineer-CEO who personally writes long-form blog posts on company philosophy.",
+    "knownForKo": "미국 최대 규제 친화 암호화폐 거래소 코인베이스 창업자 겸 CEO. '미션 집중' 기업 거버넌스 옹호자. 회사 철학을 본인이 직접 장문 블로그로 쓰는 엔지니어형 CEO.",
+    "philanthropy": "Signed The Giving Pledge in 2018 (one of the youngest signatories). Founder of GiveCrypto.org. Major funder of NewLimit (anti-aging research) and ResearchHub (open science). Public supporter of effective altruism style of giving.",
+    "philanthropyKo": "2018년 Giving Pledge 서명(역대 최연소 서명자 중 하나). GiveCrypto.org 창립. NewLimit(노화 연구), ResearchHub(오픈 사이언스) 주요 후원자. 효과적 이타주의 스타일 기부 옹호.",
+    "controversies": "Coinbase BCH insider-trading allegations (2017-2018); criticism of internal political-speech ban (2020); SEC unregistered-securities lawsuit (2023-2024); donations to crypto-aligned super PACs (Fairshake) in 2024 US elections that raised influence-peddling concerns.",
+    "controversiesKo": "2017-18년 비트코인 캐시 상장 직전 내부자 가격 조작 의혹; 2020년 사내 정치 발언 금지 정책 비판; 2023-24년 SEC 미등록 증권 거래소 소송; 2024년 미 대선 친크립토 슈퍼팩(Fairshake) 거액 기부로 영향력 매수 논란."
+  },
+
+  "characterKo": {
+    "summaryKo": "엔지니어 출신답게 사람보다 시스템·문서·블로그로 의사를 표현하는 내향형. 사회적 이슈에 즉답을 피하고, 길게 쓴 글로 입장을 정리해 1년 단위로 메시지를 일관성 있게 끌고 가는 방식. 워싱턴 정치권을 상대할 때도 정면 대결보단 법적 절차와 미디어 노출을 병용.",
+    "tagsKo": ["엔지니어형 CEO", "장기 일관성", "규제 친화", "내향 문서형", "미션 집중"]
+  },
+
+  "failures": [
+    {
+      "year": 2018,
+      "description": "Coinbase listed Bitcoin Cash (BCH) on December 19, 2017, and BCH price spiked roughly 50% in the minutes before listing — sparking widespread accusations of insider trading by Coinbase staff. Internal review cleared employees but no public details were released; a class-action lawsuit followed.",
+      "descriptionKo": "2017년 12월 19일 비트코인 캐시(BCH) 상장 직전 가격이 단 몇 분 만에 약 50% 폭등 — 코인베이스 직원 내부자 거래 의혹 광범위 제기. 내부 조사는 직원 면책 결론이지만 공개 자료는 없었고 집단소송이 이어짐.",
+      "lesson": "Listing policy at a regulated exchange must be paired with airtight pre-announcement information control; ambiguity invites multi-year reputational litigation.",
+      "lessonKo": "규제 거래소의 상장 정책은 사전 정보 통제와 한 세트여야 한다. 모호함은 수년에 걸친 평판 소송으로 직결된다.",
+      "source": "https://en.wikipedia.org/wiki/Coinbase ; https://www.coindesk.com/policy/coinbase-bitcoin-cash"
+    },
+    {
+      "year": 2022,
+      "description": "Hired aggressively into the 2021 bull market (headcount nearly tripled), then had to lay off 18% in June 2022 and an additional ~20% in early 2023. Several never-launched products (Coinbase NFT marketplace, Coinbase Bytes media) were quietly shelved.",
+      "descriptionKo": "2021년 상승장에 직원 수를 거의 3배로 늘렸다가 2022년 6월 18% 정리해고, 2023년 초 추가 약 20% 감축. 출시 직후 폐기된 제품(Coinbase NFT, Coinbase Bytes 등) 다수.",
+      "lesson": "Crypto revenue is structurally tied to a multi-year cycle, so hiring on bull-market run-rates is a recurring failure mode for the entire industry — discipline must be set during the up-cycle, not the down-cycle.",
+      "lessonKo": "암호화폐 매출은 구조적으로 다년간 사이클에 묶여 있어 강세장 매출에 맞춰 인력을 늘리는 건 업계 전체의 반복 실패 패턴. 비용 규율은 하락기가 아니라 상승기에 설정해야 한다.",
+      "source": "https://www.coinbase.com/blog/a-difficult-decision ; https://en.wikipedia.org/wiki/Coinbase"
+    },
+    {
+      "year": 2018,
+      "description": "Tagomi acquisition and early institutional prime brokerage push struggled to gain share against competitors like Fidelity Digital Assets and TradFi banks for several years, partly because Coinbase's retail brand was perceived as too consumer-facing for institutional clients.",
+      "descriptionKo": "타고미 인수와 초기 기관용 프라임 브로커리지 사업이 Fidelity Digital Assets·전통 은행 대비 점유율 확보에 수년간 고전 — 코인베이스의 소매 브랜드가 기관 고객에게 너무 일반인 친화로 보였기 때문.",
+      "lesson": "A consumer brand cannot automatically be transferred to institutional markets; institutional credibility requires separate organization, sales, and risk infrastructure built from scratch.",
+      "lessonKo": "소비자 브랜드는 기관 시장으로 자동 이식되지 않는다. 기관 신뢰는 별도의 조직·세일즈·리스크 인프라를 처음부터 새로 만들어야 한다.",
+      "source": "https://www.theblock.co/post/coinbase-prime ; https://www.bloomberg.com"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2018, "netWorth": 1.0 },
+    { "year": 2021, "netWorth": 19.7 },
+    { "year": 2022, "netWorth": 2.2 },
+    { "year": 2023, "netWorth": 2.5 },
+    { "year": 2024, "netWorth": 8.3 },
+    { "year": 2025, "netWorth": 8.3 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "We have a responsibility to be politically neutral as a company. We don't engage in social activism that isn't core to our mission.",
+      "textKo": "회사로서 우리는 정치적으로 중립일 책임이 있다. 우리는 미션과 무관한 사회 운동에는 관여하지 않는다.",
+      "context": "2020 'Coinbase is a mission focused company' blog post",
+      "contextKo": "2020년 'Coinbase is a mission focused company' 블로그 글",
+      "source": "https://www.coinbase.com/blog/coinbase-is-a-mission-focused-company"
+    },
+    {
+      "text": "Crypto is one of the most powerful tools we have to bring economic freedom to the world.",
+      "textKo": "암호화폐는 세계에 경제적 자유를 가져올 가장 강력한 도구 중 하나이다.",
+      "context": "Repeated statement at Coinbase investor days and on X",
+      "contextKo": "코인베이스 투자자의 날·X 등에서 반복 인용",
+      "source": "https://www.coinbase.com/blog"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": [
+      { "title": "The Sovereign Individual", "author": "James Dale Davidson, Lord William Rees-Mogg", "whyKo": "암호화폐·국가 권력 변화에 대한 그의 세계관의 출발점으로 그가 반복 인용." },
+      { "title": "Atlas Shrugged", "author": "Ayn Rand", "whyKo": "자유주의·창조자 중심 가치관의 토대로 본인이 추천한 책." }
+    ]
+  },
+
+  "sajuConnection": {
+    "summary": "His Gye-Chuk day pillar in a Chuk month forms a 'pyeon-gwan-gyeok' chart — a life shaped by external pressure and authority that he eventually answers with structural rebellion rather than compliance.",
+    "summaryKo": "계축 일주에 같은 축월의 편관격(강한 외부 압력·권위·도전 구조)은 SEC·세계 각국 규제와 끊임없이 부딪히며 회사를 키워온 그의 커리어와 거의 그대로 겹칩니다. 계수 일간은 작은 흐름의 물이라 분산·연결·정보 네트워크 메타포에 강한 기질이고, 일지 축토에 신금(편인)이 숨어 있어 기술적 디테일과 보안에 집착하는 본능을 줍니다. 월간 계수가 비견으로 같은 자수가 또 하나 — 공동창업자 프레드 에르삼이 같은 동력으로 옆에 선 구조가 차트에 보입니다. 임술 연주의 술토는 정관(공식 규제)으로, 어릴 때부터 규제·공식 기관의 영향을 받는 환경 — 부모 모두 IBM 엔지니어였던 가정과 호응합니다. 편관격이 정면 돌파할수록 자기 자본이 단단해지는 명조라, 2023년 SEC 합의 거부 같은 정면 대결 선택이 단기 손실보다 장기 자본을 키운 패턴은 사주의 결을 그대로 따른 결과로 읽힙니다."
+  }
+}

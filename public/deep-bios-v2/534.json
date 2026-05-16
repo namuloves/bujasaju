@@ -1,0 +1,40 @@
+{
+  "id": "534", "name": "Daniela Amodei", "nameKo": "다니엘라 아모데이",
+  "netWorth": 7.0, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "United States", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Italian-American family. Sister of Dario Amodei (Anthropic co-founder/CEO); siblings became co-founders of major AI safety company.",
+    "familyBackgroundKo": "이탈리아계 미국 가정에서 출생. Dario Amodei(Anthropic 공동 창립자·CEO)의 자매; 형제가 주요 AI 안전 회사의 공동 창립자가 됨.",
+    "education": "University of California, Santa Cruz.", "educationKo": "캘리포니아 대학교 산타크루스 캠퍼스.",
+    "earlyLife": "Worked at OpenAI as VP of Safety and Policy before co-founding Anthropic with brother Dario and other OpenAI veterans in 2021.",
+    "earlyLifeKo": "2021년 형 Dario 및 다른 OpenAI 베테랑들과 Anthropic 공동 창립 전 OpenAI에서 안전·정책 부사장으로 근무.",
+    "source": "https://en.wikipedia.org/wiki/Anthropic ; https://www.anthropic.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Anthropic 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2021, "age": 33, "event": "Co-founded Anthropic as AI safety company with brother Dario and others from OpenAI; became President of the company.", "eventKo": "형 Dario와 다른 OpenAI 출신과 AI 안전 회사로 Anthropic 공동 창립; 회사 사장이 됨.", "whyItMatteredKo": "AI 시대 안전 중심 회사의 출발선." },
+    { "year": 2023, "age": 36, "event": "Anthropic raised significant rounds from Google Cloud ($300M), Amazon ($4B), and other investors; Claude AI assistant launched and gained major commercial adoption.", "eventKo": "Anthropic이 Google Cloud(3억 달러)·Amazon(40억 달러)·기타 투자자로부터 상당한 라운드 조달; Claude AI 어시스턴트 출시·주요 상업 채택 획득.", "whyItMatteredKo": "AI 자금 사이클 정점 진입." },
+    { "year": 2024, "age": 37, "event": "Anthropic valuation reached $60B+ in 2024 funding rounds; one of world's most valuable private AI companies.", "eventKo": "Anthropic 가치가 2024 자금 조달 라운드에서 600억 달러+ 도달; 세계 가장 가치 있는 사설 AI 회사 중 하나.", "whyItMatteredKo": "3년 만의 메가 가치 도약." },
+    { "year": 2025, "age": 38, "event": "Personal net worth at $7B per Forbes Real-Time. Continues as Anthropic President.", "eventKo": "포브스 실시간 기준 개인 순자산 70억 달러. Anthropic 사장 계속.", "whyItMatteredKo": "4년 단일 회사의 결정적 가치." }
+  ],
+  "turningPoints": [{ "year": 2021, "age": 33, "decisionKo": "OpenAI 떠나 Anthropic 공동 창립", "alternativeKo": "OpenAI 잔류", "outcomeKo": "AI 안전 카테고리 정의 + 600억 달러+ 회사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Anthropic 공동 창립자 지분 가치", "industryKo": "AI(대규모 언어 모델·AI 안전)", "businessModelKo": "Claude AI 어시스턴트 + 엔터프라이즈 AI API", "moatKo": "AI 안전 중심 차별화 + OpenAI 출신 인적 자본 + Google·Amazon 파트너십", "luckVsSkillKo": "운(60%): AI 시대 정확한 진입. 실력(40%): OpenAI에서의 사전 경력 + 안전 중심 정체성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and President of Anthropic — major AI safety-focused company developing Claude AI; sister of Anthropic CEO Dario Amodei; one of youngest women billionaires from AI sector.",
+    "knownForKo": "Anthropic(Claude AI 개발 주요 AI 안전 중심 회사) 공동 창립자·사장; Anthropic CEO Dario Amodei의 자매; AI 부문 최연소 여성 억만장자 중 한 명.",
+    "philanthropy": "Limited public disclosure as company is in growth phase.",
+    "philanthropyKo": "회사가 성장 단계이므로 공개 공시 제한적.",
+    "controversies": "Anthropic and OpenAI rivalry has drawn industry commentary; standard AI-industry safety vs commercial-development tension debates.",
+    "controversiesKo": "Anthropic과 OpenAI 경쟁이 산업 코멘터리 야기; 표준 AI 산업 안전 대 상업 개발 긴장 논쟁."
+  },
+  "characterKo": { "summaryKo": "OpenAI 출신 AI 안전 중심 회사 공동 창립자 사장.", "tagsKo": ["Anthropic 사장", "Dario 자매", "AI 안전", "OpenAI 출신"] },
+  "failures": [
+    { "year": 2023, "description": "Anthropic faced massive computing-resource and capital requirements; raised multiple billion-dollar rounds in rapid succession to keep up with OpenAI competition.", "descriptionKo": "Anthropic이 거대 컴퓨팅 리소스·자본 요구사항 직면; OpenAI 경쟁 따라잡기 위해 연속 10억 달러 라운드 다수 조달.", "lesson": "AI safety positioning requires enormous capital that compounds founder dilution.", "lessonKo": "AI 안전 포지셔닝은 창업자 희석 누적 거대 자본 요구." },
+    { "year": 2024, "description": "Major AI safety vs commercial-product tension created internal and public debates over Anthropic strategy.", "descriptionKo": "주요 AI 안전 대 상업 제품 긴장이 Anthropic 전략에 대한 내부·공개 논쟁 야기.", "lesson": "Safety-first AI companies face mission-vs-revenue trade-offs continuously.", "lessonKo": "안전 우선 AI 회사는 사명 대 매출 트레이드오프 지속 직면." }
+  ],
+  "wealthHistory": [{ "year": 2023, "netWorth": 1.0 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 7.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "AI safety is not a constraint on AI development. It is the path to useful AI.", "textKo": "AI 안전은 AI 개발에 대한 제약이 아니다. 유용한 AI로 가는 길이다.", "context": "Anthropic mission", "contextKo": "Anthropic 사명", "source": "https://www.anthropic.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-O day pillar in Mi month — 'jeongjae-gyeok', steady wealth + creative authority, fitting AI company co-founder.", "summaryKo": "임오 일주 + 미월 정재격은 AI 안전 회사 공동 창립자의 인생과 호응." }
+}

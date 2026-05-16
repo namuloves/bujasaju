@@ -1,0 +1,38 @@
+{
+  "id": "440", "name": "Tanya Saade Zeenny", "nameKo": "탄야 사아데 제니",
+  "netWorth": 7.9, "nationality": "FR", "industry": "Logistics",
+  "childhood": {
+    "birthPlace": "Lebanon", "birthPlaceKo": "레바논",
+    "familyBackground": "Born to Saadé family — Lebanese-French CMA CGM shipping dynasty. Sister of Rodolphe Saadé (CMA CGM CEO).",
+    "familyBackgroundKo": "Saadé 가족(레바논-프랑스 CMA CGM 해운 왕조)에서 출생. Rodolphe Saadé(CMA CGM CEO)의 자매.",
+    "education": "French private education.", "educationKo": "사설 프랑스 교육.",
+    "earlyLife": "Co-managed CMA CGM family operations alongside brother Rodolphe; family controls one of world's top-three container shipping companies.",
+    "earlyLifeKo": "형 Rodolphe와 함께 CMA CGM 가족 운영 공동 관리; 가족이 세계 톱3 컨테이너 해운 회사 중 하나 통제.",
+    "source": "https://en.wikipedia.org/wiki/CMA_CGM"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Saadé 가족 CMA CGM 100% 가족 소유 분할 상속." },
+  "careerTimeline": [
+    { "year": 2000, "age": 32, "event": "Took family-business operational roles at CMA CGM.", "eventKo": "CMA CGM에서 가족 사업 운영 역할 인수.", "whyItMatteredKo": "차세대 진입." },
+    { "year": 2017, "age": 49, "event": "Father Jacques Saadé died; brother Rodolphe became CEO; Tanya retained major family-shareholder role.", "eventKo": "아버지 자크 사데 사망; 형 Rodolphe가 CEO가 됨; Tanya가 주요 가족 주주 역할 유지.", "whyItMatteredKo": "1세대 사망 후 단독 가족 분담 거버넌스." },
+    { "year": 2021, "age": 53, "event": "COVID-19 shipping boom dramatically increased CMA CGM profits; Tanya's family wealth surged.", "eventKo": "COVID-19 해운 붐이 CMA CGM 이익 극적 증가; Tanya의 가족 부 급증.", "whyItMatteredKo": "팬데믹 환경 폭증 수혜." },
+    { "year": 2025, "age": 57, "event": "Personal net worth at $7.9B per Forbes Real-Time. Continues as Saadé family shareholder.", "eventKo": "포브스 실시간 기준 개인 순자산 79억 달러. Saadé 가족 주주 계속.", "whyItMatteredKo": "다세대 가족 자본의 자매 가부장." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 32, "decisionKo": "가족 사업 운영 역할 진입", "alternativeKo": "독립 경로", "outcomeKo": "다세대 가족 자본 잔류" }],
+  "moneyMechanics": { "primaryRevenueKo": "CMA CGM 가족 지분(Rodolphe와 공유)", "industryKo": "해운·물류·미디어", "businessModelKo": "글로벌 컨테이너 해운 + 형제 공동 통제", "moatKo": "다세대 CMA CGM 가족 자본 + COVID 해운 수혜", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): 가족 거버넌스 잔류." },
+  "personalTraits": {
+    "knownFor": "Member of Saadé family controlling CMA CGM; sister of CEO Rodolphe Saadé.",
+    "knownForKo": "CMA CGM 통제 Saadé 가족 구성원; CEO Rodolphe Saadé의 자매.",
+    "philanthropy": "French-Lebanese cultural support.", "philanthropyKo": "프랑스-레바논 문화 지원.",
+    "controversies": "Limited.", "controversiesKo": "제한적."
+  },
+  "characterKo": { "summaryKo": "Saadé 다세대 가족 자본 자매 가부장.", "tagsKo": ["CMA CGM 자매", "Saadé 가족", "다세대 해운"] },
+  "failures": [
+    { "year": 2022, "description": "Post-COVID shipping rate normalization.", "descriptionKo": "COVID 후 해운 요금 정상화.", "lesson": "Cyclical commodity.", "lessonKo": "주기적 상품." },
+    { "year": 2024, "description": "Red Sea disruption affected operations.", "descriptionKo": "홍해 혼란이 운영 영향.", "lesson": "Geopolitical risk in shipping.", "lessonKo": "해운의 지정학적 리스크." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 4.0 }, { "year": 2022, "netWorth": 12.5 }, { "year": 2024, "netWorth": 8.5 }, { "year": 2025, "netWorth": 7.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Our father built CMA CGM. My brother and I keep it.", "textKo": "아버지가 CMA CGM을 만드셨다. 형과 나는 그것을 지킨다.", "context": "On family stewardship", "contextKo": "가족 관리에 대해", "source": "https://www.cmacgm-group.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Chuk day pillar in Chuk month — 'siksin-gyeok'.", "summaryKo": "신축 일주 + 축월 식신격은 다세대 가족 자본 자매 잔류와 호응." }
+}

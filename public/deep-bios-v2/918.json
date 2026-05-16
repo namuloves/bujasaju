@@ -1,0 +1,40 @@
+{
+  "id": "918", "name": "Albert Chao", "nameKo": "앨버트 차오",
+  "netWorth": 4.5, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Shanghai, China", "birthPlaceKo": "중국 상하이",
+    "familyBackground": "Born to Chao family — founders of Westlake Chemical (US petrochemicals). Family fled communist China to Taiwan then emigrated to US.",
+    "familyBackgroundKo": "Westlake Chemical(미국 석유화학) 창립자 Chao 가족에서 출생. 가족이 공산주의 중국에서 대만으로 도피 후 미국으로 이민.",
+    "education": "Stanford University; MBA from Columbia.", "educationKo": "스탠퍼드 대학교; 컬럼비아 MBA.",
+    "earlyLife": "Joined family Westlake Chemical from his thirties; led major expansions.",
+    "earlyLifeKo": "30대부터 가족 Westlake Chemical 합류; 주요 확장 주도.",
+    "source": "https://en.wikipedia.org/wiki/Westlake_Corporation"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Chao 가족의 Westlake Chemical 가족 자본." },
+  "careerTimeline": [
+    { "year": 1986, "age": 37, "event": "Joined Westlake Chemical Corporation founded by father T.T. Chao.", "eventKo": "아버지 T.T. Chao가 창립한 Westlake Chemical Corporation 합류.", "whyItMatteredKo": "차세대 진입." },
+    { "year": 2004, "age": 55, "event": "Westlake Chemical IPO on NYSE.", "eventKo": "Westlake Chemical NYSE IPO.", "whyItMatteredKo": "공개 시장 가시화." },
+    { "year": 2016, "age": 67, "event": "Westlake acquired Axiall ($3.8B) — major polymer producer.", "eventKo": "Westlake가 주요 폴리머 생산자 Axiall(38억 달러) 인수.", "whyItMatteredKo": "글로벌 메이저 자리." },
+    { "year": 2025, "age": 76, "event": "Personal net worth at $4.5B per Forbes Real-Time. Continues as Westlake Chairman/CEO; brother James Chao also major shareholder.", "eventKo": "포브스 실시간 기준 개인 순자산 45억 달러. Westlake 의장·CEO 계속; 형제 James Chao도 주요 주주.", "whyItMatteredKo": "다세대 화학 가족 가부장." }
+  ],
+  "turningPoints": [{ "year": 1986, "age": 37, "decisionKo": "Westlake 가족 사업 합류", "alternativeKo": "독립 경력", "outcomeKo": "다세대 가족 가부장 정체성" }],
+  "moneyMechanics": { "primaryRevenueKo": "Westlake Corporation(NYSE 상장) 가족 지분(약 70%)", "industryKo": "석유화학·폴리머", "businessModelKo": "글로벌 PVC·올레핀·폴리머 제조", "moatKo": "다세대 미국 석유화학 인프라", "luckVsSkillKo": "운(50%): 가족 자본. 실력(50%): 글로벌 인수·확장." },
+  "personalTraits": {
+    "knownFor": "Chairman and CEO of Westlake Corporation — major US petrochemical and polymer manufacturer; son of T.T. Chao who founded the company.",
+    "knownForKo": "Westlake Corporation(주요 미국 석유화학·폴리머 제조사) 의장·CEO; 회사를 창립한 T.T. Chao의 아들.",
+    "philanthropy": "Chao family supports Asian-American educational and cultural initiatives.",
+    "philanthropyKo": "Chao 가족이 아시아계 미국인 교육·문화 사업 지원.",
+    "controversies": "Westlake Chemical has faced environmental compliance debates; standard petrochemical-industry scrutiny.",
+    "controversiesKo": "Westlake Chemical이 환경 준수 논쟁 직면; 표준 석유화학 산업 감시."
+  },
+  "characterKo": { "summaryKo": "다세대 미국 화학 가족 가부장.", "tagsKo": ["Westlake Chemical", "Chao 가족", "Stanford+Columbia"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 affected petrochemical demand; pricing pressure.", "descriptionKo": "COVID-19이 석유화학 수요 영향; 가격 압박.", "lesson": "Petrochemicals are cyclical.", "lessonKo": "석유화학은 주기적." },
+    { "year": 2023, "description": "Polymer demand weakness pressured Westlake margins.", "descriptionKo": "폴리머 수요 약세가 Westlake 마진 압박.", "lesson": "Single-industry concentration exposes margin cycles.", "lessonKo": "단일 산업 집중이 마진 사이클 노출." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 2.4 }, { "year": 2022, "netWorth": 4.7 }, { "year": 2024, "netWorth": 4.3 }, { "year": 2025, "netWorth": 4.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Father built Westlake when he could barely speak English. We built it bigger.", "textKo": "아버지가 거의 영어를 말할 수 없을 때 Westlake를 만들었다. 우리는 더 크게 만들었다.", "context": "Chao family heritage", "contextKo": "Chao 가족 유산", "source": "https://www.westlake.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-O day pillar in Mi month — 'jeongjae-gyeok', steady wealth accumulation.", "summaryKo": "병오 일주 + 미월 정재격은 다세대 화학 가족 가부장의 안정적 자본 누적과 호응." }
+}

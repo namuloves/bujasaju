@@ -1,0 +1,260 @@
+{
+  "id": "231",
+  "name": "Hasso Plattner",
+  "nameKo": "하소 플라트너",
+  "netWorth": 12.6,
+  "nationality": "DE",
+  "industry": "Technology",
+
+  "childhood": {
+    "birthPlace": "Berlin, Germany",
+    "birthPlaceKo": "독일 베를린",
+    "familyBackground": "Born in Berlin during the final phase of World War II to an upper-middle-class professional family. Father was an ophthalmologist (eye surgeon); mother managed the household. Family lived through the immediate post-war division of Berlin and the early West German reconstruction (Wirtschaftswunder).",
+    "familyBackgroundKo": "2차대전 막바지 베를린에서 의사 가정의 아들로 태어남. 아버지는 안과 전문의, 어머니는 가사 담당. 전후 분단된 베를린과 서독 경제 부흥기(라인 강의 기적)를 청소년기에 통과한 세대.",
+    "education": "University of Karlsruhe (now KIT) — diploma in communications engineering (Nachrichtentechnik), graduated 1968.",
+    "educationKo": "카를스루에 공과대학교(현 KIT) 통신공학 디플롬, 1968년 졸업.",
+    "earlyLife": "Grew up surrounded by classical music and sailing — both lifelong passions. Showed strong mathematical and engineering aptitude in Gymnasium years; chose Karlsruhe over Berlin partly because German postwar IT engineering was concentrated in southwest Germany around IBM Böblingen and the nascent computer science departments.",
+    "earlyLifeKo": "어릴 때부터 클래식 음악과 요트를 즐겼고 두 가지 모두 평생 취미가 됨. 김나지움 시절 수학·공학 재능 두각. 카를스루에를 베를린 대신 택한 이유 중 하나는 전후 독일 IT 공학이 IBM 뵈블링겐과 신생 전산학과를 중심으로 서남부에 모여 있었기 때문.",
+    "source": "https://en.wikipedia.org/wiki/Hasso_Plattner ; https://hpi.de/en/the-hpi/hasso-plattner.html"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 의사 집안 출신이지만 상속 자본 없이 1972년 IBM 동료 4명과 SAP 창업, 2만 마르크가량의 종잣돈으로 시작. 모든 부는 SAP 지분(현재 약 6% 보유)의 50년 누적 가치 상승에서 발생.",
+    "source": "https://en.wikipedia.org/wiki/SAP_SE ; https://www.forbes.com/profile/hasso-plattner/"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1968,
+      "age": 24,
+      "event": "Joined IBM Germany as a systems engineer in Mannheim/Böblingen after graduating from Karlsruhe. Worked on early business application implementations for German industrial clients.",
+      "eventKo": "카를스루에 졸업 후 IBM 독일 만하임·뵈블링겐 지사에 시스템 엔지니어로 입사. 독일 산업 고객 대상 초기 비즈니스 애플리케이션 구현 담당.",
+      "whyItMatteredKo": "IBM 내부에서 메인프레임 환경의 기업 회계·생산관리 시스템을 처음 설계하는 경험. 훗날 SAP의 기본 제품 R/1·R/2의 청사진을 거의 그대로 가져옴.",
+      "source": "https://en.wikipedia.org/wiki/Hasso_Plattner"
+    },
+    {
+      "year": 1972,
+      "age": 28,
+      "event": "Co-founded SAP (Systemanalyse Programmentwicklung) in Weinheim with four IBM colleagues — Dietmar Hopp, Klaus Tschira, Claus Wellenreuther, Hans-Werner Hector — after IBM cancelled their assigned project for ICI's German subsidiary.",
+      "eventKo": "IBM이 ICI 독일법인용 프로젝트를 취소하자, 동료 디트마 호프·클라우스 치라·클라우스 벨렌로이터·한스베르너 헥토르와 함께 바인하임에서 SAP(Systemanalyse Programmentwicklung) 공동 창업.",
+      "whyItMatteredKo": "한 번 시작한 프로젝트를 회사가 접었다고 포기하지 않은 결정 — 이 패턴이 SAP의 50년 문화('한 번 시작한 고객 약속은 끝까지 책임진다')의 원형이 됨. 첫 고객 ICI 독일법인의 회계 시스템이 SAP R/1의 토대.",
+      "whatTheyRiskedKo": "IBM 정사원의 안정성과 1970년대 초 독일 화이트칼라 연봉",
+      "whoHelpedKo": "공동창업자 4인, 초기 고객 ICI 독일법인",
+      "source": "https://en.wikipedia.org/wiki/SAP_SE ; https://www.sap.com/about/history.html"
+    },
+    {
+      "year": 1979,
+      "age": 35,
+      "event": "Launched SAP R/2 — a mainframe-based integrated business application suite for the IBM mainframe era. Became the standard ERP product for European multinationals through the 1980s.",
+      "eventKo": "메인프레임 기반 통합 비즈니스 애플리케이션 SAP R/2 출시. 1980년대 유럽 다국적기업의 ERP 표준이 됨.",
+      "whyItMatteredKo": "단일 제품으로 회계·재고·생산·HR을 통합한다는 '하나의 데이터베이스' 사상이 처음 시장에서 검증됨. 글로벌 기업의 백오피스를 묶는 산업 표준 자리를 확보.",
+      "source": "https://en.wikipedia.org/wiki/SAP_R/2"
+    },
+    {
+      "year": 1988,
+      "age": 44,
+      "event": "SAP listed on the Frankfurt Stock Exchange. Plattner became one of the public-facing CEOs of a then-mid-cap German tech firm.",
+      "eventKo": "SAP 프랑크푸르트 증시 상장. 플라트너는 당시 중형주였던 독일 IT 기업의 대표 얼굴 중 한 명으로 부상.",
+      "whyItMatteredKo": "독일에서 IT 기업이 자본 시장 자금으로 글로벌 확장을 추진하는 패턴의 시초. SAP는 이후 30년간 독일 증시 대장주 위치를 유지.",
+      "source": "https://en.wikipedia.org/wiki/SAP_SE"
+    },
+    {
+      "year": 1992,
+      "age": 48,
+      "event": "Launched SAP R/3 — the breakthrough client-server ERP product that replaced mainframes with PC-server architecture. Became the dominant global enterprise software platform within five years.",
+      "eventKo": "PC-서버 기반 클라이언트-서버 ERP 제품 SAP R/3 출시 — 메인프레임을 대체. 5년 만에 글로벌 엔터프라이즈 소프트웨어 지배 제품으로 등극.",
+      "whyItMatteredKo": "Oracle·Microsoft 기반 PC 서버 시대로의 기술 전환에 가장 일찍 성공한 ERP. 1990년대 글로벌 다국적기업의 90% 이상이 도입, SAP를 세계 4대 SW 회사 반열에 올림.",
+      "source": "https://en.wikipedia.org/wiki/SAP_R/3 ; https://www.sap.com"
+    },
+    {
+      "year": 1997,
+      "age": 53,
+      "event": "Became co-CEO of SAP alongside Henning Kagermann after Dietmar Hopp transitioned to supervisory board. Led North America expansion personally — relocated to California-based SAP Labs in Palo Alto.",
+      "eventKo": "디트마 호프가 감사위원회로 이동하면서 헤닝 카거만과 공동 CEO 체제. 북미 확장을 직접 지휘 — 캘리포니아 팔로알토 SAP Labs에 본인 거주지 옮김.",
+      "whyItMatteredKo": "유럽 회사를 실리콘밸리 한복판에서 직접 경영한 첫 독일 CEO. 1990년대 후반 SAP 미국 매출 폭증의 직접 동력.",
+      "source": "https://en.wikipedia.org/wiki/Hasso_Plattner"
+    },
+    {
+      "year": 1998,
+      "age": 54,
+      "event": "Founded the Hasso Plattner Institute (HPI) at the University of Potsdam — a privately funded computer science school awarding IT systems engineering degrees. SAP listed on NYSE the same year.",
+      "eventKo": "포츠담 대학교에 사립 컴퓨터공학 학교 하소 플라트너 인스티튜트(HPI) 설립 — IT 시스템 공학 학위 수여. 같은 해 SAP 뉴욕 증시 상장.",
+      "whyItMatteredKo": "독일 IT 인재 부족 문제를 직접 해결하기 위한 사재 출연. HPI는 현재 유럽 최고 수준 IT 시스템 공학 학교로 자리 잡았고, 스탠퍼드 d.school과 자매 기관 관계를 통해 '디자인 씽킹' 글로벌 확산에 기여.",
+      "whatTheyRiskedKo": "수억 유로 사재 — 회수 없는 영구 출연",
+      "source": "https://hpi.de/en/ ; https://en.wikipedia.org/wiki/Hasso_Plattner_Institute"
+    },
+    {
+      "year": 2002,
+      "age": 58,
+      "event": "Acquired the San Jose Sharks NHL hockey franchise as part of a Silicon Valley investor group, eventually becoming majority owner.",
+      "eventKo": "실리콘밸리 투자자 그룹의 일원으로 NHL 산호세 샤크스 인수, 이후 최대주주.",
+      "whyItMatteredKo": "독일 출신 IT 거물이 미국 프로 스포츠 구단주가 된 보기 드문 사례. 캘리포니아 거주·SAP 미국 사업·실리콘밸리 네트워크의 종합 자산화.",
+      "source": "https://en.wikipedia.org/wiki/San_Jose_Sharks"
+    },
+    {
+      "year": 2003,
+      "age": 59,
+      "event": "Stepped down as co-CEO of SAP and became chairman of the supervisory board (Aufsichtsratsvorsitzender). Began publishing academic papers on in-memory computing.",
+      "eventKo": "SAP 공동 CEO 사임, 감사위원회 의장(독일식 거버넌스 최고직)으로 전환. 인메모리 컴퓨팅에 관한 학술 논문 발표 시작.",
+      "whyItMatteredKo": "운영자에서 장기 기술 비전 설계자로 역할 전환. 이후 20년간 SAP 기술 로드맵을 사실상 본인이 주도하게 됨.",
+      "source": "https://en.wikipedia.org/wiki/Hasso_Plattner"
+    },
+    {
+      "year": 2010,
+      "age": 66,
+      "event": "Launched SAP HANA — an in-memory database he had personally championed since 2007, redefining SAP from a software application company into a data platform company.",
+      "eventKo": "2007년부터 본인이 직접 주도해온 인메모리 데이터베이스 SAP HANA 출시. SAP를 비즈니스 응용 회사에서 데이터 플랫폼 회사로 재정의.",
+      "whyItMatteredKo": "60대 후반에 회사의 핵심 기술 베팅을 한 번 더 갈아엎은 결정. HANA는 2010년대 후반 SAP S/4HANA(ERP 차세대 버전)로 이어져 클라우드 전환의 기술 기반이 됨.",
+      "source": "https://en.wikipedia.org/wiki/SAP_HANA ; https://hpi.de"
+    },
+    {
+      "year": 2015,
+      "age": 71,
+      "event": "Stanford d.school received a $35M expansion gift from his foundation, cementing his role as patron of design thinking education in Silicon Valley.",
+      "eventKo": "스탠포드 d.school에 그의 재단이 3,500만 달러 확장 기부 — 실리콘밸리 디자인 씽킹 교육의 최대 후원자 지위 확립.",
+      "whyItMatteredKo": "엔터프라이즈 SW와 디자인 씽킹이라는 두 영역을 잇는 사람으로 자리잡음. HPI-Stanford d.school 양방향 교환 프로그램의 핵심 자본.",
+      "source": "https://dschool.stanford.edu ; https://en.wikipedia.org/wiki/Hasso_Plattner"
+    },
+    {
+      "year": 2024,
+      "age": 80,
+      "event": "Stepped down as chairman of SAP's supervisory board after 21 years; succeeded by Pekka Ala-Pietilä. Confirmed continued involvement through Hasso Plattner Foundation and HPI.",
+      "eventKo": "21년 만에 SAP 감사위원회 의장직에서 사임 — 페카 알라피에틸레가 후임. 하소 플라트너 재단과 HPI를 통한 활동은 계속.",
+      "whyItMatteredKo": "52년 동안 SAP에서 보낸 한 사이클의 마무리. 일선 거버넌스에서 물러나도 기술 비전·자선·교육 측면 영향력은 유지.",
+      "source": "https://www.sap.com/about/company/management.html ; https://en.wikipedia.org/wiki/Hasso_Plattner"
+    },
+    {
+      "year": 2025,
+      "age": 81,
+      "event": "Hasso Plattner Foundation continued as one of Europe's largest private foundations by assets; net worth at $12.6B per Forbes Real-Time as SAP stock benefited from generative AI integration wave.",
+      "eventKo": "하소 플라트너 재단은 유럽 최대 사립 재단 중 하나로 자산 운영 계속. SAP 주가가 생성형 AI 통합 흐름으로 상승, 포브스 실시간 기준 개인 순자산 126억 달러.",
+      "whyItMatteredKo": "기업 일선에서 물러난 뒤에도 회사 가치가 그를 다시 부유하게 만든 단계. 자선·교육 자본이 그의 정체성의 중심이 됨.",
+      "source": "https://www.forbes.com/profile/hasso-plattner/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1972,
+      "age": 28,
+      "decisionKo": "IBM이 취소한 프로젝트를 본인들이 독립 회사로 살리겠다고 결정",
+      "alternativeKo": "IBM 정사원으로 잔류, 1970년대 독일 IT 표준 경력",
+      "outcomeKo": "SAP가 50년 후 시가총액 3,000억 달러 회사로 성장, 본인은 독일 최고 부자 중 하나",
+      "source": "https://en.wikipedia.org/wiki/SAP_SE"
+    },
+    {
+      "year": 1997,
+      "age": 53,
+      "decisionKo": "공동 CEO 시기 본인이 직접 캘리포니아로 거주지를 옮기고 미국 시장을 진두지휘",
+      "alternativeKo": "독일 본사에 머물며 카거만에게 미국 시장 위임",
+      "outcomeKo": "1990년대 말 SAP 북미 매출 폭증, NYSE 상장의 기반, 실리콘밸리 네트워크 형성",
+      "source": "https://en.wikipedia.org/wiki/Hasso_Plattner"
+    },
+    {
+      "year": 2007,
+      "age": 63,
+      "decisionKo": "60대 중반에 인메모리 컴퓨팅(HANA)을 SAP의 차세대 핵심 기술로 직접 밀어붙임",
+      "alternativeKo": "안정적인 R/3·ECC 라인 유지, 클라우드 전환만 점진적 추진",
+      "outcomeKo": "S/4HANA로 이어지는 클라우드·AI 시대 기술 토대 확보 — SAP가 Oracle 데이터베이스 의존에서 벗어남",
+      "source": "https://en.wikipedia.org/wiki/SAP_HANA"
+    },
+    {
+      "year": 1998,
+      "age": 54,
+      "decisionKo": "현금이 충분한 시점에 영리 사업 확장 대신 사립 IT 대학(HPI)에 사재 출연",
+      "alternativeKo": "M&A 자금화, 더 빠른 회사 외형 성장",
+      "outcomeKo": "독일·유럽 IT 인재 풀의 장기 공급원 확보, 본인 평판·교육 자본의 핵심 자산화",
+      "source": "https://hpi.de"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "SAP SE 지분 약 6% 보유 — 배당 + 주가 상승. 시가총액 약 3,000억 달러 회사의 6%만으로 개인 자산이 150억 달러 근처에 형성됨. 부차적으로 NHL 산호세 샤크스 구단가치, 부동산, 사재 출연 후 잔여 재단 자산.",
+    "industryKo": "엔터프라이즈 소프트웨어(ERP·데이터베이스·클라우드)",
+    "businessModelKo": "SAP는 라이선스(전통) + 유지보수(매년) + 클라우드 구독으로 매출 발생. 한 번 도입된 고객은 ERP 교체 비용이 매우 커 평균 보유 기간 20년 이상. 플라트너 본인은 SAP 지분 보유와 동시에 신생 기술 영역(인메모리, 디자인 씽킹, AI) 비전 제시자 역할.",
+    "moatKo": "① 글로벌 다국적기업 백오피스의 사실상 표준 지위. ② R/2→R/3→S/4HANA 50년 데이터 호환 기록. ③ HPI를 통한 독일 IT 인재 풀 직접 공급. ④ NYSE/프랑크푸르트 동시 상장으로 확보한 글로벌 자본 접근성. ⑤ 디자인 씽킹 등 SW 외 분야 평판 자본.",
+    "luckVsSkillKo": "운(30%): 1972년 IBM이 마침 프로젝트를 취소해 강제로 독립할 수밖에 없었던 상황, 1990년대 글로벌화 + 다국적기업 ERP 일제 도입 사이클, 2020년대 클라우드/AI 시대 SAP가 다시 평가받는 사이클. 실력(70%): 기술 비전을 10-20년 단위로 미리 던지고 실제 제품화까지 끈질기게 끌고 가는 능력, 공동창업자 5인 체제의 거버넌스 갈등을 거의 일으키지 않고 50년 유지, 디자인 씽킹·HPI 같은 비핵심 영역을 본업의 장기 자산으로 전환."
+  },
+
+  "personalTraits": {
+    "knownFor": "Co-founder of SAP SE; pioneer of integrated enterprise resource planning software; longest-serving SAP supervisory board chairman (2003-2024); founder of the Hasso Plattner Institute; major patron of design thinking education at Stanford d.school; owner of NHL's San Jose Sharks.",
+    "knownForKo": "SAP 공동 창업자, 통합 ERP 소프트웨어 개척자. SAP 감사위원회 의장 21년 재임(2003-2024). 하소 플라트너 인스티튜트 설립자. 스탠포드 d.school 디자인 씽킹 교육의 최대 후원자. NHL 산호세 샤크스 구단주.",
+    "philanthropy": "Hasso Plattner Foundation — one of Europe's largest private foundations — funds HPI, Stanford d.school, the Museum Barberini in Potsdam (which hosts his personal Impressionist art collection), African community projects via Plattner Foundation South Africa, and digital education across Germany.",
+    "philanthropyKo": "유럽 최대 사립 재단 중 하나인 하소 플라트너 재단은 HPI·스탠포드 d.school·포츠담 바르베리니 미술관(본인 인상주의 컬렉션 소장)·플라트너 재단 남아공 지부·독일 디지털 교육에 기부.",
+    "controversies": "Long supervisory board tenure (21 years) criticized as concentrating power; clash with former co-CEO Léo Apotheker (forced out 2010) raised governance concerns; HANA strategy criticized for forcing customers into expensive migrations; San Jose Sharks team performance issues drawing fan complaints.",
+    "controversiesKo": "21년 감사위 의장 재임이 권력 집중이라는 비판; 전 공동 CEO 레오 아포테커 축출(2010) 거버넌스 논란; HANA 전략이 고객에게 비싼 마이그레이션 강요한다는 비판; 산호세 샤크스 팀 성적 부진에 따른 팬 불만."
+  },
+
+  "characterKo": {
+    "summaryKo": "엔지니어로 시작했지만 본업의 핵심 사고는 '디자인 씽킹'에 가까운 사람. 한 가지 기술 비전을 10-20년 단위로 던지고 끝까지 끌고 가는 끈기가 특징. 독일식 정밀함과 실리콘밸리식 디자인 감각을 동시에 구사하는 보기 드문 조합, 동료들은 '회의에서 화이트보드에 직접 회로도를 그리는 80대 의장'이라 묘사.",
+    "tagsKo": ["50년 한 회사", "장기 기술 비전", "디자인 씽킹 후원자", "독일-실리콘밸리 가교", "교육·예술 자본가"]
+  },
+
+  "failures": [
+    {
+      "year": 2010,
+      "description": "Forced out co-CEO Léo Apotheker after eight months when Apotheker failed to win SAP board confidence over the HANA in-memory strategy. The internal power struggle damaged SAP's leadership stability and triggered governance criticism from institutional investors.",
+      "descriptionKo": "공동 CEO 레오 아포테커가 HANA 인메모리 전략에서 이사회 신뢰를 얻지 못하자 취임 8개월 만에 축출. 이 내부 권력 다툼은 SAP 리더십 안정성을 훼손하고 기관 투자자들의 거버넌스 비판을 불러옴.",
+      "lesson": "Founder-chairman dominance can preserve technical direction but raises CEO turnover and governance perception costs that compound over decades.",
+      "lessonKo": "창업자-의장 우위 구조는 기술 방향성을 지키는 데 유리하지만 CEO 교체와 거버넌스 인식 비용이 수십 년 동안 누적된다.",
+      "source": "https://en.wikipedia.org/wiki/SAP_SE ; https://www.handelsblatt.com"
+    },
+    {
+      "year": 2015,
+      "description": "SAP's transition from on-premise license sales to cloud subscription model lagged Oracle and Salesforce for several years. S/4HANA adoption was slower than expected, partly because customers resisted forced migration and the licensing economics created revenue dips during transition.",
+      "descriptionKo": "SAP의 온프레미스 라이선스에서 클라우드 구독 모델로의 전환이 오라클·세일즈포스 대비 수년간 뒤처짐. S/4HANA 도입 속도도 기대보다 늦었음 — 고객들이 강제 마이그레이션에 저항했고 라이선스 경제학상 전환기 매출이 줄었기 때문.",
+      "lesson": "A 50-year-old enterprise software franchise cannot reprice its installed base on the timeline of a pure SaaS company; customer migration must be staged over a decade to avoid revenue shock.",
+      "lessonKo": "50년 된 엔터프라이즈 SW 프랜차이즈는 순수 SaaS 회사의 일정으로 기존 고객 가격을 재조정할 수 없다. 고객 마이그레이션은 10년 단위로 단계화해야 매출 충격을 피한다.",
+      "source": "https://www.wsj.com ; https://en.wikipedia.org/wiki/SAP_S/4HANA"
+    },
+    {
+      "year": 2019,
+      "description": "SAP's brief experiment with Bill McDermott as American-style growth CEO ended with McDermott's departure to ServiceNow; subsequent CEO Christian Klein faced restructuring costs and stock underperformance until the post-2023 AI rebound.",
+      "descriptionKo": "빌 맥더모트의 미국식 성장 CEO 체제가 그가 ServiceNow로 떠나면서 끝남. 후임 크리스티안 클라인은 2023년 이후 AI 반등 전까지 구조조정 비용과 주가 부진에 시달림.",
+      "lesson": "Imported American growth-style leadership in a German engineering culture creates short-term lift but long-term integration costs; cultural fit at the CEO level matters as much as KPI fit.",
+      "lessonKo": "독일 공학 문화에 미국식 성장 CEO를 이식하면 단기 상승은 가능하지만 장기 통합 비용이 크다. CEO 차원에서 KPI 적합성만큼 문화 적합성도 중요하다.",
+      "source": "https://www.handelsblatt.com ; https://en.wikipedia.org/wiki/SAP_SE"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2010, "netWorth": 6.2 },
+    { "year": 2015, "netWorth": 10.2 },
+    { "year": 2020, "netWorth": 13.7 },
+    { "year": 2022, "netWorth": 7.6 },
+    { "year": 2023, "netWorth": 8.4 },
+    { "year": 2024, "netWorth": 11.2 },
+    { "year": 2025, "netWorth": 12.6 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "We did not start SAP to become rich. We started it because IBM cancelled our project and we wanted to finish what we started.",
+      "textKo": "우리는 부자가 되려고 SAP를 시작한 게 아니다. IBM이 우리 프로젝트를 취소했고, 우리가 시작한 일을 끝내고 싶었기 때문이다.",
+      "context": "Frequently retold founding story in HPI lectures",
+      "contextKo": "HPI 강연 등에서 자주 인용되는 창업 비화",
+      "source": "https://hpi.de"
+    },
+    {
+      "text": "If you don't change the technology yourself, somebody else will change it for you.",
+      "textKo": "스스로 기술을 바꾸지 않으면, 다른 누군가가 당신을 위해 바꾸어 버린다.",
+      "context": "Public defense of the HANA in-memory bet around 2010",
+      "contextKo": "2010년 무렵 HANA 인메모리 베팅을 공개 옹호하며 한 발언",
+      "source": "https://en.wikipedia.org/wiki/SAP_HANA"
+    }
+  ],
+
+  "books": {
+    "authored": [
+      { "title": "In-Memory Data Management: Technology and Applications", "year": 2011, "noteKo": "Alexander Zeier와 공저, 인메모리 데이터베이스의 학술적 정당화 — HANA 전략의 이론적 토대." }
+    ],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Gap-Sin day pillar in a Chuk month forms a 'jeongjae-gyeok' chart — calculated, patient wealth-building rather than speculative leaps, which mirrors a career of 50 years inside one company.",
+    "summaryKo": "갑신 일주에 축월의 정재격(정해진 자리에서 꾸준히 모이는 재물 구조)은 한 회사(SAP)에 50년을 머물면서 부를 누적시킨 그의 경력과 거의 그대로 호응합니다. 갑목 일간은 큰 나무·기둥 같은 시스템 사고를 자연스럽게 끌어내고, 일지 신금이 칠살(편관, 강한 압박)을 깔고 있어 IBM·경쟁사·이사회의 압력 환경 속에서 본인이 단단해진 명조. 월간 을목은 비겁(같은 목)으로, 공동창업자 5인 체제가 갈등 없이 오래 유지된 자리. 월지 축토 안의 신금·기토·계수 조합은 정관(공식 거버넌스)·정재(누적 재물)·정인(학문) 세 요소가 한 자리에 모여 있어 'SAP 의장 + HPI 설립자 + 음악·예술 후원자'라는 그의 다중 역할을 그대로 그려냅니다. 약점은 정재격이 한 자리에 머무를 때 가장 강하다는 점 — 21년 감사위 의장 재임이 권력 집중 비판으로 이어진 것은 정재격이 너무 오래 유지될 때 나타나는 그늘로 읽힙니다."
+  }
+}

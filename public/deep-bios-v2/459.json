@@ -1,0 +1,41 @@
+{
+  "id": "459", "name": "Wolfgang Marguerre", "nameKo": "볼프강 마르게레",
+  "netWorth": 7.7, "nationality": "DE", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to German family; founded Octapharma after working in pharmaceutical industry.",
+    "familyBackgroundKo": "독일 가정에서 출생; 제약 산업 근무 후 Octapharma 창립.",
+    "education": "German pharmaceutical/business training.", "educationKo": "독일 제약·사업 훈련.",
+    "earlyLife": "Founded Octapharma in 1983 as plasma-protein-products company; built it into one of the world's largest human-plasma fractionators.",
+    "earlyLifeKo": "1983년 혈장 단백질 제품 회사로 Octapharma 창립; 세계 최대 인간 혈장 분획자 중 하나로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Octapharma"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Octapharma 100% 가족 소유 + 40+년 누적." },
+  "careerTimeline": [
+    { "year": 1983, "age": 42, "event": "Founded Octapharma in Lachen, Switzerland as plasma-protein-products manufacturer.", "eventKo": "스위스 라헨에 혈장 단백질 제품 제조사 Octapharma 창립.", "whyItMatteredKo": "40+년 가족 사업 출발선." },
+    { "year": 2000, "age": 59, "event": "Octapharma crossed major milestones in immunoglobulin and clotting-factor production.", "eventKo": "Octapharma가 면역글로불린·응고 인자 생산의 주요 이정표 돌파.", "whyItMatteredKo": "제품 라인 확장." },
+    { "year": 2015, "age": 74, "event": "Octapharma revenue crossed €1B+; expanded global plasma-collection network across US, Europe, Asia.", "eventKo": "Octapharma 매출 10억 유로+ 돌파; 미국·유럽·아시아에 걸친 글로벌 혈장 수집 네트워크 확장.", "whyItMatteredKo": "글로벌 메이저 자리." },
+    { "year": 2020, "age": 79, "event": "COVID-19 boosted demand for immunoglobulin and plasma-derived products; Octapharma was major pandemic-response supplier.", "eventKo": "COVID-19이 면역글로불린·혈장 유래 제품 수요 부스트; Octapharma가 주요 팬데믹 대응 공급자.", "whyItMatteredKo": "팬데믹 환경 수혜." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $7.7B per Forbes Real-Time. Continues Octapharma chairman role; sons run day-to-day operations.", "eventKo": "포브스 실시간 기준 개인 순자산 77억 달러. Octapharma 의장 역할 계속; 아들들이 일상 운영.", "whyItMatteredKo": "42년 가족 사업 정점." }
+  ],
+  "turningPoints": [{ "year": 1983, "age": 42, "decisionKo": "42세에 Octapharma 창립", "alternativeKo": "기존 제약 회사 잔류", "outcomeKo": "40+년 가족 사업 — 평생 부의 거의 전부" }],
+  "moneyMechanics": { "primaryRevenueKo": "Octapharma(100% 가족 소유)", "industryKo": "혈장 분획·면역글로불린·응고 인자", "businessModelKo": "글로벌 혈장 수집 + 분획 제조", "moatKo": "혈장 산업의 진입 장벽 + 40+년 누적 IP", "luckVsSkillKo": "운(30%): 글로벌 혈장 수요. 실력(70%): 40+년 단일 회사·100% 가족 소유." },
+  "personalTraits": {
+    "knownFor": "Founder and chairman of Octapharma — one of the world's largest plasma-derived medicines manufacturers; 100% family-owned for 40+ years.",
+    "knownForKo": "Octapharma(세계 최대 혈장 유래 의약품 제조사 중 하나) 창립자·의장; 40+년 100% 가족 소유.",
+    "philanthropy": "Marguerre family supports German and Swiss medical research.",
+    "philanthropyKo": "Marguerre 가족이 독일·스위스 의학 연구 지원.",
+    "controversies": "Standard plasma-industry ethical debates over paid plasma donation; Octapharma faced regulatory scrutiny over various product safety concerns.",
+    "controversiesKo": "유료 혈장 기증에 대한 표준 혈장 산업 윤리 논쟁; Octapharma가 다양한 제품 안전 우려에 대한 규제 감시 직면."
+  },
+  "characterKo": { "summaryKo": "40+년 100% 가족 소유 제약 가부장.", "tagsKo": ["Octapharma", "혈장 분획", "100% 가족 소유", "독일-스위스 제약"] },
+  "failures": [
+    { "year": 2010, "description": "Some Octapharma products faced regulatory recalls and safety scrutiny in multiple jurisdictions.", "descriptionKo": "일부 Octapharma 제품이 다수 관할권에서 규제 리콜·안전 감시 직면.", "lesson": "Plasma-derived products face cross-jurisdiction safety scrutiny.", "lessonKo": "혈장 유래 제품은 교차 관할권 안전 감시 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted plasma collection from voluntary donors; supply chain pressure throughout 2020-2021.", "descriptionKo": "COVID-19이 자원 기증자로부터 혈장 수집 혼란; 2020-2021 공급망 압박.", "lesson": "Plasma supply chain depends on voluntary donor accessibility.", "lessonKo": "혈장 공급망은 자원 기증자 접근성에 의존." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 2.0 }, { "year": 2021, "netWorth": 5.5 }, { "year": 2024, "netWorth": 7.0 }, { "year": 2025, "netWorth": 7.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Plasma is a gift of life. We process it with respect for the donor.", "textKo": "혈장은 생명의 선물이다. 우리는 기증자에 대한 존중으로 그것을 처리한다.", "context": "Octapharma philosophy", "contextKo": "Octapharma 철학", "source": "https://www.octapharma.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Mi day pillar in Sa month — 'jeongjae-gyeok', steady wealth accumulation.", "summaryKo": "계미 일주 + 사월 정재격은 40+년 안정적 가족 사업 누적과 호응." }
+}

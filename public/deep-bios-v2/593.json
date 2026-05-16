@@ -1,0 +1,250 @@
+{
+  "id": "593",
+  "name": "Xu Hang",
+  "nameKo": "쉬 항",
+  "netWorth": 6.5,
+  "nationality": "HK",
+  "industry": "Healthcare",
+
+  "childhood": {
+    "birthPlace": "Mainland China",
+    "birthPlaceKo": "중국 본토",
+    "familyBackground": "Born in mainland China during the Cultural Revolution era. Family background was middle-class, intellectual-leaning — typical of children who would later pass the rigorous Tsinghua University entrance examinations. No inherited capital or business; the family's main legacy was an emphasis on engineering education during a period when many such opportunities had been disrupted by political turmoil.",
+    "familyBackgroundKo": "문화대혁명 시기 중국 본토에서 출생. 가정은 중산층 지식인 성향 — 훗날 칭화 대학교 까다로운 입시를 통과한 자녀들의 전형. 상속 자본·사업 없음. 가족 유산은 정치적 격동기에 많은 기회가 무너지던 시기에 공학 교육을 강조한 점.",
+    "education": "Bachelor's degree from Tsinghua University, Department of Electrical Engineering. Master's in biomedical engineering from the same department at Tsinghua. Executive MBA from China Europe International Business School (CEIBS), 2002.",
+    "educationKo": "칭화 대학교 전기공학과 학사. 같은 학과 생체의공학 석사. 중국유럽국제공상학원(CEIBS) 경영학 EMBA 2002년 졸업.",
+    "earlyLife": "Came of age during China's post-Cultural Revolution opening. Studied biomedical engineering at China's top engineering university at a moment when modern Chinese medical-device industry did not yet exist. After graduation invented what is regarded as China's first domestic color B-ultrasound imaging machine — winning the National Progress Award and giving him the technical credibility to later co-found Mindray.",
+    "earlyLifeKo": "문화대혁명 이후 중국 개방기에 청년기. 중국 현대 의료기기 산업이 아직 존재하지 않던 시점에 중국 최고 공대에서 생체의공학 전공. 졸업 후 중국 최초의 국산 컬러 B초음파 영상기기를 발명한 것으로 평가됨 — 국가과학기술진보상 수상, 훗날 마인드레이 공동 창업의 기술적 신뢰 자본.",
+    "source": "https://en.wikipedia.org/wiki/Xu_Hang ; https://en.wikipedia.org/wiki/Mindray ; https://www.forbes.com/profile/xu-hang/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1980년대 후반-1990년 칭화 졸업 후 의료기기 연구원 봉급과 첫 발명품(국산 컬러 B초음파)의 산업 신뢰 자본. 본격적인 부는 1991년 선전에서 Li Xiting, Cheng Minghe와 공동 창업한 마인드레이의 30년 누적 가치 상승에서 발생.",
+    "source": "https://en.wikipedia.org/wiki/Mindray"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1988,
+      "age": 26,
+      "event": "Graduated from Tsinghua University Department of Electrical Engineering and joined a Chinese medical-device research institute. Began working on ultrasound imaging technology.",
+      "eventKo": "칭화 대학교 전기공학과 졸업, 중국 의료기기 연구소 입사. 초음파 영상 기술 작업 시작.",
+      "whyItMatteredKo": "중국 현대 의료기기 산업의 토대를 닦는 1세대 엔지니어 그룹의 일원이 됨. 이후 마인드레이의 모든 제품군의 기술적 출발점.",
+      "source": "https://en.wikipedia.org/wiki/Xu_Hang"
+    },
+    {
+      "year": 1990,
+      "age": 28,
+      "event": "Invented what was recognized as China's first domestic color B-ultrasound imaging machine; received the National Progress Award. Established his reputation as one of China's leading young biomedical engineers.",
+      "eventKo": "중국 최초 국산 컬러 B초음파 영상기기 발명 — 국가과학기술진보상 수상. 중국 청년 1세대 의료공학자의 대표 인물로 부상.",
+      "whyItMatteredKo": "외국산 수입 의존이 절대적이던 중국 의료기기 시장에서 '국산화 가능'이라는 가설을 처음 검증. 이후 마인드레이의 30년 전략의 핵심 메시지.",
+      "source": "https://en.wikipedia.org/wiki/Xu_Hang"
+    },
+    {
+      "year": 1991,
+      "age": 29,
+      "event": "Co-founded Shenzhen Mindray Bio-Medical Electronics with Li Xiting and Cheng Minghe in Shenzhen. Initial focus: medical monitors and ultrasound systems for the Chinese hospital market — replacing imported equipment from GE, Philips, and Siemens at lower price points.",
+      "eventKo": "Li Xiting·Cheng Minghe와 함께 선전에서 마인드레이 의료전자(Shenzhen Mindray Bio-Medical Electronics) 공동 창업. 초기 초점: 중국 병원 시장용 환자 모니터·초음파 시스템 — GE·필립스·지멘스 수입 장비를 더 낮은 가격에 대체.",
+      "whyItMatteredKo": "선전 경제특구의 1990년대 초기 창업 생태계에서 의료기기 카테고리를 선점. 30년 후 중국 최대 의료기기 기업의 출발선.",
+      "whatTheyRiskedKo": "연구소 정규직 신분과 안정적 봉급, 1990년대 초 중국 민간 창업의 정치적 불확실성",
+      "whoHelpedKo": "공동창업자 Li Xiting(생체의공학 전공)·Cheng Minghe(전기공학 전공), 선전 경제특구 정책 환경",
+      "source": "https://en.wikipedia.org/wiki/Mindray"
+    },
+    {
+      "year": 2000,
+      "age": 38,
+      "event": "Mindray launched its first internationally certified patient monitor product line; began entering Asian and Latin American export markets. Annual revenue passed RMB 100M.",
+      "eventKo": "마인드레이가 국제 인증 환자 모니터 제품 라인 출시, 아시아·라틴아메리카 수출 시장 진입 개시. 연 매출 1억 위안 돌파.",
+      "whyItMatteredKo": "중국 내수 의존에서 수출 시장 진입으로 정체성 확장 — 향후 글로벌 의료기기 회사의 출발.",
+      "source": "https://en.wikipedia.org/wiki/Mindray"
+    },
+    {
+      "year": 2002,
+      "age": 40,
+      "event": "Completed Executive MBA at China Europe International Business School (CEIBS). Began upgrading Mindray's corporate governance to international standards in preparation for overseas listing.",
+      "eventKo": "중국유럽국제공상학원(CEIBS) EMBA 졸업. 해외 상장 대비 마인드레이의 기업 거버넌스를 국제 표준으로 업그레이드 시작.",
+      "whyItMatteredKo": "엔지니어 창업자가 글로벌 경영자로 전환하는 학습 단계. 이후 2006년 NYSE 상장의 거버넌스 토대.",
+      "source": "https://www.ceibs.edu"
+    },
+    {
+      "year": 2006,
+      "age": 44,
+      "event": "Mindray completed IPO on the New York Stock Exchange (NYSE: MR) in September 2006 at a market cap of about $1.6B — the first medical device company from mainland China to list on a major US exchange.",
+      "eventKo": "마인드레이가 2006년 9월 뉴욕 증권거래소(NYSE: MR) 상장 — 시가총액 약 16억 달러. 미국 주요 거래소 상장한 첫 중국 본토 의료기기 회사.",
+      "whyItMatteredKo": "중국 의료기기 산업이 글로벌 자본 시장에 평가받은 첫 사례. 이후 모든 중국 의료기기 회사의 글로벌 진출 기준점.",
+      "source": "https://en.wikipedia.org/wiki/Mindray"
+    },
+    {
+      "year": 2008,
+      "age": 46,
+      "event": "Mindray acquired the patient monitoring business of Datascope Corporation (US) for $209M — a major reverse acquisition where a Chinese company bought a US-based competitor's product line. Doubled Mindray's North American presence overnight.",
+      "eventKo": "마인드레이가 미국 Datascope Corporation의 환자 모니터링 사업을 2억 900만 달러에 인수 — 중국 회사가 미국 경쟁사의 제품 라인을 인수한 보기 드문 역방향 거래. 마인드레이의 북미 입지를 하룻밤에 두 배로 확장.",
+      "whyItMatteredKo": "중국 회사가 미국 기술 회사를 인수하는 사례가 본격적으로 등장한 시기의 대표 거래. 마인드레이가 글로벌 메이저 의료기기 회사 반열에 진입.",
+      "source": "https://www.bloomberg.com ; https://en.wikipedia.org/wiki/Mindray"
+    },
+    {
+      "year": 2016,
+      "age": 54,
+      "event": "Xu retired from his role as co-CEO of Mindray after 25 years of operational leadership; remained as Chairman of the Board. Co-founder Li Xiting and professional managers took over operations.",
+      "eventKo": "25년간 운영 리더십 후 마인드레이 공동 CEO 자리에서 은퇴, 이사회 의장직 유지. 공동창업자 Li Xiting과 전문 경영진이 운영 인수.",
+      "whyItMatteredKo": "엔지니어 창업자가 전략·자선 영역으로 무게중심 이동. 마인드레이의 다세대 거버넌스 설계의 본격 단계.",
+      "source": "https://en.wikipedia.org/wiki/Xu_Hang"
+    },
+    {
+      "year": 2016,
+      "age": 54,
+      "event": "Mindray was taken private from NYSE through a management buyout led by founders and Chinese investors at a $3.3B valuation — taking advantage of US-listed Chinese company valuation discount to restructure for eventual Chinese exchange relisting.",
+      "eventKo": "마인드레이가 창업자·중국 투자자 주도 경영진 매입으로 NYSE에서 33억 달러 가치에 비공개화 — 미국 상장 중국 기업의 가치 할인을 활용해 향후 중국 거래소 재상장을 위한 구조 재편.",
+      "whyItMatteredKo": "지정학적 자본 시장 차익을 활용한 결정. NYSE에서 비공개화 후 중국 상장으로 재배치하는 모형의 가장 큰 사례 중 하나.",
+      "source": "https://en.wikipedia.org/wiki/Mindray"
+    },
+    {
+      "year": 2018,
+      "age": 56,
+      "event": "Mindray relisted on the ChiNext board of the Shenzhen Stock Exchange (300760.SZ) in October 2018 at a market cap of about $11B — more than three times the take-private valuation just two years earlier.",
+      "eventKo": "마인드레이가 2018년 10월 선전 증권거래소 ChiNext 보드(300760.SZ)에 재상장 — 시가총액 약 110억 달러로 2년 전 비공개화 가치의 세 배 이상.",
+      "whyItMatteredKo": "지정학적 차익 거래의 가장 성공적인 사례 중 하나. 같은 회사가 미국에서 비공개화되고 중국에서 재상장되며 가치 3배 — 자본 시장 차익이 단일 결정으로 실현.",
+      "source": "https://en.wikipedia.org/wiki/Mindray"
+    },
+    {
+      "year": 2020,
+      "age": 58,
+      "event": "COVID-19 pandemic drove unprecedented global demand for Mindray's patient monitors, ventilators, and ICU equipment. Stock price more than tripled in 2020-2021 as Mindray products were sold to hospitals worldwide.",
+      "eventKo": "COVID-19 팬데믹으로 마인드레이의 환자 모니터·인공호흡기·중환자실 장비에 사상 최대 글로벌 수요. 마인드레이 제품이 전 세계 병원에 판매되며 2020-2021 주가가 세 배 이상 상승.",
+      "whyItMatteredKo": "글로벌 의료기기 메이저 지위가 팬데믹 환경에서 본격 검증된 시기. Xu Hang의 개인 자산도 단기간에 약 2배 증가.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2024,
+      "age": 62,
+      "event": "Mindray reported RMB 36.7B (~$5.1B) in annual revenue with operations in over 190 countries and more than 18,000 employees worldwide. Xu Hang and wife Gu Fang reportedly purchased multiple US and Hong Kong luxury residences between 2022-2024 totaling over $250M.",
+      "eventKo": "마인드레이가 연 매출 367억 위안(약 51억 달러), 190개 이상 국가에서 운영, 전 세계 18,000명 이상 고용. 쉬 항·부인 구팡(Gu Fang)이 2022-2024년 미국·홍콩 럭셔리 주택 다수를 합산 2억 5,000만 달러 이상에 매입한 것으로 보도.",
+      "whyItMatteredKo": "1991년 선전 창업 30+년 후 글로벌 의료기기 톱티어 자리 굳힘. 동시에 가족 자산이 글로벌 부동산으로 분산되는 단계.",
+      "source": "https://www.caproasia.com ; https://www.bloomberg.com"
+    },
+    {
+      "year": 2025,
+      "age": 63,
+      "event": "Personal net worth at $6.5B per Forbes Real-Time; combined family wealth with co-founder Li Xiting and CEO Cheng Minghe makes them one of China's top healthcare-industry billionaire groups. Continues as Mindray Chairman and is also Chairman of Shenzhen Parkland Group.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 65억 달러; 공동창업자 Li Xiting·CEO Cheng Minghe와의 가족 자산 합산은 중국 헬스케어 산업 최대 억만장자 그룹 중 하나. 마인드레이 의장직 유지 + 선전 Parkland Group 의장.",
+      "whyItMatteredKo": "엔지니어 창업자에서 다층 자본가로 전환 완료 — 마인드레이를 통해 중국 의료기기 산업 자체를 글로벌화시킨 한 세대의 결과.",
+      "source": "https://www.forbes.com/profile/xu-hang/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1990,
+      "age": 28,
+      "decisionKo": "중국 최초 국산 컬러 B초음파 기기 발명 — 외국산 의존 가설을 깨는 베팅",
+      "alternativeKo": "수입 대리점 또는 외국 의료기기 회사 중국 지사 근무",
+      "outcomeKo": "마인드레이 공동 창업의 기술적 신뢰 토대 — 이후 30년 가치의 출발점",
+      "source": "https://en.wikipedia.org/wiki/Xu_Hang"
+    },
+    {
+      "year": 1991,
+      "age": 29,
+      "decisionKo": "연구소 정규직을 박차고 선전에서 마인드레이 공동 창업",
+      "alternativeKo": "연구소 잔류, 학자·정부 엔지니어 경로",
+      "outcomeKo": "30년 후 글로벌 의료기기 톱티어 회사 — 단일 창업 결정이 평생 부의 거의 전부 설명",
+      "source": "https://en.wikipedia.org/wiki/Mindray"
+    },
+    {
+      "year": 2008,
+      "age": 46,
+      "decisionKo": "Datascope 미국 환자 모니터링 사업을 2억 달러+에 역인수",
+      "alternativeKo": "유기적 성장 유지, 글로벌 메이저와 라이선스 협력",
+      "outcomeKo": "마인드레이가 글로벌 의료기기 메이저 반열에 진입 — 미국 시장 점유율 도약",
+      "source": "https://en.wikipedia.org/wiki/Mindray"
+    },
+    {
+      "year": 2016,
+      "age": 54,
+      "decisionKo": "NYSE에서 비공개화 후 중국 상장으로 재배치",
+      "alternativeKo": "NYSE 상장 유지, 미국 자본 시장 접근 우선",
+      "outcomeKo": "2년 만에 시가총액 3배 — 지정학적 자본 시장 차익 거래의 가장 성공적 사례",
+      "source": "https://en.wikipedia.org/wiki/Mindray"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "Shenzhen Mindray Bio-Medical Electronics(선전 증시 ChiNext 상장, 가족·창업자 합산 지분 약 20-25%) — 환자 모니터·인공호흡기·초음파·체외 진단·외과 영상 등 의료기기 글로벌 판매. 부차적으로 선전 Parkland Group 부동산, 가족 직접 보유 미국·홍콩 부동산.",
+    "industryKo": "의료기기(환자 모니터링·초음파·체외 진단·인공호흡기·외과 영상)",
+    "businessModelKo": "수직 통합 의료기기 제조사: 자체 R&D + 선전 제조 + 190개국 직판/대리점 네트워크. 'GE·필립스·지멘스를 더 낮은 가격에' 전략으로 신흥국 시장 선점, 이후 선진국 중하위 가격대로 확장. 매출의 약 절반이 중국 내수, 절반이 수출. COVID-19 이후 글로벌 인지도 대폭 상승.",
+    "moatKo": "① 중국 의료기기 산업 1세대 R&D 인력 풀과 30년 누적 IP. ② 190개국 직판·대리점 네트워크 — 신흥국 시장의 사실상 표준 공급자. ③ 중국 정부 보건 조달 채널의 30년 관계. ④ 'GE-Philips-Siemens 대안'이라는 분명한 포지셔닝. ⑤ COVID-19 글로벌 신뢰 자본.",
+    "luckVsSkillKo": "운(35%): 1990년 중국 의료기기 국산화가 정부 정책적 우호 환경에 있었던 타이밍, 2006년 NYSE 상장이 중국 IPO 사이클 정점이었던 점, 2018년 중국 상장이 미국-중국 자본 시장 가치 격차의 최대 시점, 2020년 COVID이 마인드레이 제품군에 정확히 들어맞은 점. 실력(65%): 엔지니어 출신 창업자 3인 체제의 30년 무갈등 거버넌스, 1세대 제품의 일관된 R&D 깊이, 자본 시장 차익(NYSE→ChiNext) 결정의 사이클 감각, 거버넌스를 전문 경영진에 위임한 후 회사 가치 폭증."
+  },
+
+  "personalTraits": {
+    "knownFor": "Co-founder of Shenzhen Mindray Bio-Medical Electronics, China's largest and globally most successful medical-device company; engineer-CEO who invented China's first domestic color B-ultrasound machine before turning entrepreneur; one of the most low-profile billionaires among China's top healthcare entrepreneurs.",
+    "knownForKo": "중국 최대이자 글로벌에서 가장 성공한 의료기기 회사 Shenzhen Mindray Bio-Medical Electronics 공동 창업자. 사업가가 되기 전 중국 최초의 국산 컬러 B초음파 기기를 발명한 엔지니어-CEO. 중국 헬스케어 톱 사업가 중 가장 노출 적은 억만장자 중 한 명.",
+    "philanthropy": "Major donor to Tsinghua University biomedical engineering programs and CEIBS executive education. Funds Shenzhen Mindray Bio-Medical Engineering Talent Development programs. Personally supports rural Chinese hospital infrastructure projects through Mindray Foundation channels.",
+    "philanthropyKo": "칭화 대학교 생체의공학 프로그램과 CEIBS 임원 교육의 주요 기부자. Shenzhen Mindray 생체의공학 인재 개발 프로그램 자금. Mindray 재단을 통해 중국 농촌 병원 인프라 사업 후원.",
+    "controversies": "Limited public controversies due to low-profile operation; Mindray faced US Trump administration tariff and technology-transfer pressures from 2018; family's large real estate purchases in the US and Hong Kong drew Chinese press attention as potential capital outflow indicators; standard medical-device industry recall and quality questions on individual product lines but no major regulatory action.",
+    "controversiesKo": "비공개 운영으로 공개 논란 제한적. 마인드레이는 2018년부터 미국 트럼프 행정부의 관세·기술 이전 압력에 노출. 가족의 미국·홍콩 대형 부동산 매입이 자본 유출 신호로 중국 언론의 주목을 받음. 개별 제품 라인의 표준적 의료기기 산업 리콜·품질 문제는 있었지만 주요 규제 조치는 없음."
+  },
+
+  "characterKo": {
+    "summaryKo": "엔지니어 정체성을 끝까지 유지한 중국 1세대 의료기기 창업자. 동료들이 말하는 가장 두드러진 특성은 '회사 내 모든 신제품 사양을 본인이 직접 검토한다는 점'과 '공개 인터뷰가 극히 드물지만 학문 행사(Tsinghua·CEIBS)에는 자주 등장한다는 점'. 공동창업자 3인 체제의 30년 무갈등이 그의 협력형 거버넌스 본능의 증거.",
+    "tagsKo": ["엔지니어형 창업자", "30년 3인 공동 경영", "비공개 운영", "학문 후원자", "지정학적 차익 거래자"]
+  },
+
+  "failures": [
+    {
+      "year": 2015,
+      "description": "Mindray's NYSE-listed stock significantly underperformed Chinese-listed medical device peers for years due to 'China discount' valuation gap. Despite strong fundamentals, the company traded at a multiple roughly half of its Chinese-listed competitors — prompting the eventual take-private decision in 2016.",
+      "descriptionKo": "마인드레이의 NYSE 상장 주식이 'China discount' 가치 격차로 수년간 중국 상장 의료기기 경쟁사 대비 큰 폭으로 부진. 강한 펀더멘털에도 중국 상장 경쟁사 대비 약 절반 수준의 배수에 거래 — 결국 2016년 비공개화 결정의 원인.",
+      "lesson": "Listing jurisdiction can compress valuation as much as 50% even with identical fundamentals; sometimes capital structure decisions matter more than operating performance.",
+      "lessonKo": "상장 관할권은 동일한 펀더멘털에서도 가치를 50%까지 압축할 수 있다. 때로는 자본 구조 결정이 운영 실적보다 더 중요하다.",
+      "source": "https://en.wikipedia.org/wiki/Mindray ; https://www.bloomberg.com"
+    },
+    {
+      "year": 2019,
+      "description": "Mindray was named in US Trade Representative Section 301 reviews of Chinese medical-device imports for technology-transfer scrutiny; some product categories faced US tariff pressure. Forced Mindray to expand its US manufacturing footprint and adjust supply chains.",
+      "descriptionKo": "마인드레이가 미 USTR Section 301 검토에서 중국 의료기기 수입의 기술 이전 감시 대상 — 일부 제품 카테고리가 미국 관세 압력. 마인드레이는 미국 제조 입지 확장과 공급망 조정 강제.",
+      "lesson": "Even non-strategic Chinese exports become geopolitical assets when broader US-China tensions rise; supply-chain resilience must be built before, not after, trade-policy shifts.",
+      "lessonKo": "비전략적 중국 수출도 광범위한 미-중 긴장 고조 시 지정학적 자산이 된다. 공급망 회복력은 무역 정책 변화 이후가 아니라 그 전에 만들어야 한다.",
+      "source": "https://ustr.gov ; https://www.bloomberg.com"
+    },
+    {
+      "year": 2022,
+      "description": "Mindray's stock fell over 40% from 2021 highs as broader Chinese healthcare regulation pressures (volume-based procurement reforms, anti-corruption campaigns targeting hospital procurement) hit medical-device industry pricing power. Took multiple years to stabilize earnings expectations.",
+      "descriptionKo": "마인드레이 주가가 2021년 고점 대비 40% 이상 하락 — 광범위한 중국 헬스케어 규제 압력(집단 조달 개혁·병원 조달 부패 단속)이 의료기기 산업 가격 결정력을 타격. 실적 기대치 안정화에 수년 소요.",
+      "lesson": "Domestic regulatory environment in China can compress healthcare margins faster than companies can adjust; pricing power that took decades to build can be re-priced in a single policy cycle.",
+      "lessonKo": "중국 국내 규제 환경은 회사가 조정할 수 있는 속도보다 빠르게 헬스케어 마진을 압축할 수 있다. 수십 년에 걸쳐 만든 가격 결정력이 단일 정책 사이클에서 재가격될 수 있다.",
+      "source": "https://www.bloomberg.com ; https://www.scmp.com"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2015, "netWorth": 0.9 },
+    { "year": 2018, "netWorth": 5.7 },
+    { "year": 2020, "netWorth": 14.3 },
+    { "year": 2022, "netWorth": 11.4 },
+    { "year": 2023, "netWorth": 9.8 },
+    { "year": 2024, "netWorth": 7.4 },
+    { "year": 2025, "netWorth": 6.5 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "Engineering is the foundation. Without engineering, we are just selling cheap copies. With engineering, we are an alternative.",
+      "textKo": "공학이 토대이다. 공학 없이는 우리는 단지 싸구려 복제품을 파는 것이다. 공학과 함께라면 우리는 대안이다.",
+      "context": "Frequently cited remark at Tsinghua and CEIBS lectures on Mindray's R&D philosophy",
+      "contextKo": "마인드레이의 R&D 철학에 대한 칭화·CEIBS 강의 자주 인용 발언",
+      "source": "https://www.ceibs.edu/xu-hang-growing-mindray"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Gyeong-Sin day pillar in a Sa month forms a 'jeongjae-gyeok' chart — refined metal under southern fire, fitting a precision engineer who patiently built a category-defining medical-device company over three decades.",
+    "summaryKo": "경신 일주가 사월에 자리잡은 정재격(정해진 자리에서 꾸준히 누적되는 재물 구조)은 한 회사(마인드레이)에 30년을 머물면서 의료기기라는 한 카테고리를 정의해 낸 그의 인생과 호응합니다. 경금 일간은 정련된 금속·정밀 도구의 기질로 정밀 의료기기 엔지니어의 본업과 거의 일대일 대응. 일지·월지가 모두 화의 영역(신금은 양인 자리이긴 하지만, 사월의 병화가 편관) — 외부 권위·정부 보건 규제·미국 수출 규제라는 강한 외부 환경 속에서 정련된 자기 자본을 만든 패턴을 그대로 그려냅니다. 월지 사화 안의 병화·무토·경금이 편관·편인·비견으로 한 자리에 묶여 있어, 권위(규제)·학문(엔지니어링)·동료(공동창업자 3인) 세 가지가 동시에 작용하는 구조를 설명합니다. 연주 임인의 임수·인목이 식상·편재로 자기 표현(R&D 발표)과 외부 자본(매출)을 함께 그립니다. 약점은 정재격이 사이클 변화에 느리게 반응한다는 점인데, 2022년 중국 헬스케어 규제 충격에 회사 가치가 단숨에 압축된 점이 그 그늘로 읽힙니다."
+  }
+}

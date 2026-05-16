@@ -1,0 +1,37 @@
+{
+  "id": "1212", "name": "Georg von Opel", "nameKo": "게오르크 폰 오펠",
+  "netWorth": 3.4, "nationality": "CH", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Germany/Switzerland", "birthPlaceKo": "독일/스위스",
+    "familyBackground": "Born to von Opel family — descended from Adam Opel who founded German auto-maker Opel in 1862. Family inherited Opel-sale proceeds; Georg built additional wealth through Hansa Aktiengesellschaft investments.",
+    "familyBackgroundKo": "1862년 독일 자동차 메이커 Opel 창립한 Adam Opel의 후손 von Opel 가족에서 출생. 가족이 Opel 매각 대금 상속; 게오르크가 Hansa Aktiengesellschaft 투자 통해 추가 부 구축.",
+    "education": "Swiss private education.", "educationKo": "스위스 사설 교육.",
+    "earlyLife": "Pursued professional sailing and yacht-racing career; managed family-investment vehicles through Switzerland.",
+    "earlyLifeKo": "프로 세일링·요트 레이싱 경력 추구; 스위스를 통한 가족 투자 법인 관리.",
+    "source": "https://en.wikipedia.org/wiki/Georg_von_Opel"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Opel 가족 자본 + 본인 투자 운용." },
+  "careerTimeline": [
+    { "year": 1995, "age": 29, "event": "Began managing family investments through Hansa Aktiengesellschaft and other Swiss-domiciled entities.", "eventKo": "Hansa Aktiengesellschaft 및 기타 스위스 도미사일 법인을 통한 가족 투자 관리 시작.", "whyItMatteredKo": "가족 자본 운용 진입." },
+    { "year": 2010, "age": 44, "event": "Competed in professional sailing including America's Cup-class events.", "eventKo": "아메리카컵급 행사 등 프로 세일링 경쟁.", "whyItMatteredKo": "스포츠 정체성 확립." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $3.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러.", "whyItMatteredKo": "Opel 가족 자본 운용." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 29, "decisionKo": "가족 자본 운용 진입", "alternativeKo": "독립 경력", "outcomeKo": "다세대 가족 자본 운용" }],
+  "moneyMechanics": { "primaryRevenueKo": "Opel 가족 자본 + Hansa Aktiengesellschaft 투자 + 스위스 부동산", "industryKo": "투자·자산 운용", "businessModelKo": "가족 신탁·투자 법인 운용", "moatKo": "Opel 다세대 가족 자본", "luckVsSkillKo": "운(70%): 가족 자본. 실력(30%): 자산 운용 규율." },
+  "personalTraits": {
+    "knownFor": "Descendant of Opel automotive family; Swiss-resident investor; professional sailing competitor.",
+    "knownForKo": "Opel 자동차 가족의 후손; 스위스 거주 투자자; 프로 세일링 경쟁자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited.", "controversiesKo": "제한적."
+  },
+  "characterKo": { "summaryKo": "Opel 가족 후손 + 프로 세일러.", "tagsKo": ["Opel 가족 후손", "스위스 거주", "프로 세일러"] },
+  "failures": [
+    { "year": 2008, "description": "Family investment performance affected by 2008 financial crisis.", "descriptionKo": "가족 투자 성과가 2008 금융위기 영향.", "lesson": "Multi-asset portfolios face macro risk.", "lessonKo": "다 자산 포트폴리오가 거시 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 affected investment values broadly.", "descriptionKo": "COVID-19이 투자 가치 광범위 영향.", "lesson": "Macro events affect all asset classes.", "lessonKo": "거시 사건이 모든 자산 클래스 영향." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 2.7 }, { "year": 2024, "netWorth": 3.3 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Wealth requires both capital and patience.", "textKo": "부는 자본과 인내 둘 다 필요하다.", "context": "Family investment philosophy", "contextKo": "가족 투자 철학", "source": "https://en.wikipedia.org/wiki/Georg_von_Opel" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Hae day pillar in Jin month — 'jeonggwan-gyeok', steady authority.", "summaryKo": "계해 일주 + 진월 정관격은 다세대 가족 자본 운용과 호응." }
+}

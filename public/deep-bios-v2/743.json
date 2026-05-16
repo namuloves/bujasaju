@@ -1,0 +1,41 @@
+{
+  "id": "743", "name": "Giuseppe DeLonghi", "nameKo": "주세페 델롱기",
+  "netWorth": 5.4, "nationality": "IT", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Treviso, Italy", "birthPlaceKo": "이탈리아 트레비소",
+    "familyBackground": "Born to De'Longhi family — owners of De'Longhi small-appliances dynasty founded as small Treviso workshop in 1902.",
+    "familyBackgroundKo": "1902년 작은 트레비소 공방으로 창립된 De'Longhi 소형 가전 왕조의 De'Longhi 가족에서 출생.",
+    "education": "Italian engineering and business education.", "educationKo": "이탈리아 공학·사업 교육.",
+    "earlyLife": "Took over family De'Longhi business in 1970s; transformed it from regional Italian appliance maker into global premium small-appliance brand.",
+    "earlyLifeKo": "1970년대 가족 De'Longhi 사업 인수; 지역 이탈리아 가전 제조사에서 글로벌 프리미엄 소형 가전 브랜드로 변환.",
+    "source": "https://en.wikipedia.org/wiki/De%27Longhi"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "De'Longhi 가족 사업 + 본인 글로벌 변환." },
+  "careerTimeline": [
+    { "year": 1975, "age": 36, "event": "Took over family De'Longhi appliance operations.", "eventKo": "가족 De'Longhi 가전 운영 인수.", "whyItMatteredKo": "차세대 진입." },
+    { "year": 2001, "age": 62, "event": "De'Longhi Spa listed on Milan Stock Exchange.", "eventKo": "De'Longhi Spa 밀라노 증시 상장.", "whyItMatteredKo": "글로벌 자본 시장 접근." },
+    { "year": 2012, "age": 73, "event": "Acquired Braun small-appliances business from Procter & Gamble; expanded global premium positioning.", "eventKo": "Procter & Gamble로부터 Braun 소형 가전 사업 인수; 글로벌 프리미엄 포지셔닝 확장.", "whyItMatteredKo": "글로벌 브랜드 확장의 결정적 단계." },
+    { "year": 2020, "age": 81, "event": "COVID-19 boosted demand for home espresso machines and small appliances; De'Longhi share price surged.", "eventKo": "COVID-19이 가정 에스프레소 머신·소형 가전 수요 부스트; De'Longhi 주가 급등.", "whyItMatteredKo": "팬데믹 환경 수혜." },
+    { "year": 2025, "age": 86, "event": "Personal net worth at $5.4B per Forbes Real-Time. Continues De'Longhi family ownership and operations.", "eventKo": "포브스 실시간 기준 개인 순자산 54억 달러. De'Longhi 가족 소유·운영 계속.", "whyItMatteredKo": "50년 가족 사업 정점." }
+  ],
+  "turningPoints": [{ "year": 2001, "age": 62, "decisionKo": "De'Longhi 밀라노 증시 상장", "alternativeKo": "비공개 운영", "outcomeKo": "공개 시장 자본 + 가족 통제 유지" }],
+  "moneyMechanics": { "primaryRevenueKo": "De'Longhi Spa(밀라노 증시) 가족 지분", "industryKo": "소형 가전(에스프레소 머신·커피·요리)", "businessModelKo": "이탈리아 프리미엄 가전 브랜드 + 글로벌 유통", "moatKo": "1902년 이후 누적된 브랜드 + 에스프레소 머신 기술", "luckVsSkillKo": "운(40%): 글로벌 커피 문화 사이클. 실력(60%): 50년 단일 산업 집중." },
+  "personalTraits": {
+    "knownFor": "Chairman of De'Longhi Spa — global premium small-appliance manufacturer (espresso machines, coffee makers, kitchen appliances).",
+    "knownForKo": "De'Longhi Spa(글로벌 프리미엄 소형 가전 제조사 — 에스프레소 머신·커피 메이커·주방 가전) 의장.",
+    "philanthropy": "Italian cultural and educational support; deliberately low-profile.",
+    "philanthropyKo": "이탈리아 문화·교육 지원; 의도적으로 비공개.",
+    "controversies": "Standard appliance-industry environmental and labor commentary; no major personal scandals.",
+    "controversiesKo": "표준 가전 산업 환경·노동 코멘터리; 본인 주요 스캔들 없음."
+  },
+  "characterKo": { "summaryKo": "이탈리아 다세대 프리미엄 가전 가부장.", "tagsKo": ["De'Longhi 가부장", "에스프레소 머신", "이탈리아 가전"] },
+  "failures": [
+    { "year": 2022, "description": "De'Longhi share price declined as post-COVID demand normalization compressed margins.", "descriptionKo": "COVID 후 수요 정상화가 마진 압축하면서 De'Longhi 주가 하락.", "lesson": "Demand spikes from temporary shocks normalize over time.", "lessonKo": "일시적 충격에서 비롯된 수요 급증은 시간이 지나면서 정상화된다." },
+    { "year": 2015, "description": "Braun integration challenges took multi-year operational alignment.", "descriptionKo": "Braun 통합 도전이 다년간 운영 정렬 필요.", "lesson": "Cross-cultural acquisition integration is multi-year work.", "lessonKo": "교차 문화 인수 통합은 다년간 작업." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 2.5 }, { "year": 2021, "netWorth": 6.5 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "An espresso machine is everyday luxury. We make it for every kitchen.", "textKo": "에스프레소 머신은 일상의 럭셔리이다. 우리는 모든 주방을 위해 만든다.", "context": "De'Longhi brand philosophy", "contextKo": "De'Longhi 브랜드 철학", "source": "https://www.delonghi.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Myo day pillar in Jin month — 'jeongin-gyeok', maternal-academic foundation, fitting multi-generational appliance heir.", "summaryKo": "신묘 일주 + 진월 정인격은 다세대 가전 가족 상속자와 호응." }
+}

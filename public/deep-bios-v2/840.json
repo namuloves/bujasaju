@@ -1,0 +1,232 @@
+{
+  "id": "840",
+  "name": "Andrew Karam",
+  "nameKo": "앤드루 카람",
+  "netWorth": 4.9,
+  "nationality": "US",
+  "industry": "Technology",
+
+  "childhood": {
+    "birthPlace": "United States",
+    "birthPlaceKo": "미국",
+    "familyBackground": "Born to a middle-class American family. Family background remains largely private — typical of millennial-generation Silicon Valley tech founders. No documented inherited capital or family business background.",
+    "familyBackgroundKo": "미국 중산층 가정에서 출생. 가족 배경 대체로 비공개 — 밀레니얼 세대 실리콘밸리 기술 창업자들의 전형. 문서화된 상속 자본·가족 사업 배경 없음.",
+    "education": "Bachelor of Arts in economics and Bachelor of Science in engineering from Tufts University. Dual-degree program reflected the analytical-and-quantitative orientation that would inform his later mobile-app and ad-tech career.",
+    "educationKo": "Tufts 대학교 경제학 학사·공학 학사 — 듀얼 학위 프로그램이 향후 모바일 앱·광고 기술 경력에 영향을 줄 분석·정량 지향성 반영.",
+    "earlyLife": "Came of age during the smartphone era. After graduating from Tufts, entered the early mobile app and ad-tech industries as the iOS App Store ecosystem was forming. Met future co-founder Adam Foroughi and co-founded Social Hour in 2008 — focused on mobile social marketing.",
+    "earlyLifeKo": "스마트폰 시대에 청년기. Tufts 졸업 후 iOS 앱 스토어 생태계가 형성되던 시기 초기 모바일 앱·광고 기술 산업에 진입. 미래 공동창업자 애덤 포로기와 만나 2008년 Social Hour 공동 창업 — 모바일 소셜 마케팅 집중.",
+    "source": "https://en.wikipedia.org/wiki/Andrew_Karam ; https://en.wikipedia.org/wiki/AppLovin ; https://www.forbes.com/profile/andrew-karam/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 2012년 Social Hour의 PlayPhone 매각(5,150만 달러 주식)에서 발생. 본격적인 부는 2012년 AppLovin 공동 창업 후 2021년 나스닥 IPO(240억 달러 평가가치)와 AppLovin이 AI 광고 플랫폼으로 변환되면서 발생한 다년간 주가 폭증에서 발생.",
+    "source": "https://en.wikipedia.org/wiki/AppLovin"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 2004,
+      "age": 22,
+      "event": "Graduated Tufts University with dual degrees in economics and engineering. Entered the early-stage mobile and internet technology industry just as smartphones were emerging.",
+      "eventKo": "Tufts 대학교 경제학·공학 듀얼 학위로 졸업. 스마트폰이 등장하던 시기 초기 단계 모바일·인터넷 기술 산업에 진입.",
+      "whyItMatteredKo": "스마트폰 혁명 직전 청년기 — 향후 모든 결정의 거시 환경 타이밍.",
+      "source": "https://en.wikipedia.org/wiki/Andrew_Karam"
+    },
+    {
+      "year": 2008,
+      "age": 26,
+      "event": "Co-founded Social Hour with Adam Foroughi — focused on mobile social marketing services including lead generation and cross-promotion tools. The company was a niche player in the early mobile-app ad ecosystem.",
+      "eventKo": "애덤 포로기와 Social Hour 공동 창업 — 리드 제너레이션·교차 프로모션 도구 등 모바일 소셜 마케팅 서비스 집중. 초기 모바일 앱 광고 생태계의 틈새 회사.",
+      "whyItMatteredKo": "첫 창업 — 향후 AppLovin 공동 창업의 인적·기술 토대.",
+      "whoHelpedKo": "공동창업자 애덤 포로기",
+      "source": "https://en.wikipedia.org/wiki/AppLovin"
+    },
+    {
+      "year": 2012,
+      "age": 30,
+      "event": "Social Hour acquired by PlayPhone for $51.5M in stock — Karam's first major exit. Same year, co-founded AppLovin in Palo Alto with Adam Foroughi and John Krystynak — focused on mobile-app marketing technology.",
+      "eventKo": "Social Hour가 PlayPhone에 5,150만 달러 주식에 인수 — 카람의 첫 주요 출구. 같은 해 팔로알토에서 애덤 포로기·존 크리스티낙과 AppLovin 공동 창업 — 모바일 앱 마케팅 기술 집중.",
+      "whyItMatteredKo": "첫 매각 + 즉시 더 큰 베팅으로 재투입 — 향후 평생 부의 가장 큰 단일 결정.",
+      "whoHelpedKo": "공동창업자 애덤 포로기, 존 크리스티낙",
+      "source": "https://en.wikipedia.org/wiki/AppLovin"
+    },
+    {
+      "year": 2016,
+      "age": 34,
+      "event": "AppLovin received $1.4B acquisition offer from Chinese Orient Hontai Capital; the deal was eventually blocked by CFIUS on national-security grounds. The blocked acquisition led to AppLovin staying independent and growing further.",
+      "eventKo": "AppLovin이 중국 Orient Hontai Capital의 14억 달러 인수 제안 받음 — 거래가 결국 국가 안보 이유로 CFIUS에 의해 차단. 차단된 인수가 AppLovin을 독립 유지하며 더 성장하게 함.",
+      "whyItMatteredKo": "매각 차단이 회사의 다음 단계 성장의 전제 조건 — 단기 출구 대신 장기 가치 베팅의 강제.",
+      "source": "https://en.wikipedia.org/wiki/AppLovin"
+    },
+    {
+      "year": 2018,
+      "age": 36,
+      "event": "KKR invested $400M in AppLovin at a $2B valuation; capital fueled continued mobile-app marketing platform growth and the company's later AI-and-data investments.",
+      "eventKo": "KKR이 AppLovin에 20억 달러 평가가치로 4억 달러 투자 — 자본이 모바일 앱 마케팅 플랫폼 성장과 회사의 후속 AI·데이터 투자 연료.",
+      "whyItMatteredKo": "KKR 같은 메가 PE 자본 진입 — 향후 IPO의 결정적 토대.",
+      "source": "https://www.kkr.com"
+    },
+    {
+      "year": 2021,
+      "age": 39,
+      "event": "AppLovin IPO on Nasdaq in April 2021 — raised $2B at a $24B+ valuation. One of the largest mobile-tech IPOs of 2021. Karam personally received massive paper wealth as a co-founder shareholder.",
+      "eventKo": "AppLovin이 2021년 4월 나스닥 IPO — 240억 달러+ 평가가치에 20억 달러 조달. 2021년 가장 큰 모바일 기술 IPO 중 하나. 카람이 공동창업자 주주로서 거대한 서류상 부 개인 수령.",
+      "whyItMatteredKo": "9년 누적된 AppLovin 지분이 공개 시장에서 결정적 평가 — 단일 IPO가 평생 부의 토대.",
+      "source": "https://en.wikipedia.org/wiki/AppLovin"
+    },
+    {
+      "year": 2022,
+      "age": 40,
+      "event": "AppLovin stock declined sharply from 2021 highs in the broader tech sell-off; share price fell from over $80 to under $15 by late 2022. Karam's paper wealth declined dramatically but the company continued operations.",
+      "eventKo": "AppLovin 주가가 광범위한 기술 매도 속에서 2021 고점에서 가파르게 하락 — 2022년 후반까지 80달러+에서 15달러 미만으로. 카람의 서류상 부가 극적으로 감소했지만 회사는 운영 계속.",
+      "whyItMatteredKo": "기술 사이클 하락기의 서류상 부 변동성 — 향후 회복의 기반 마련.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2023,
+      "age": 41,
+      "event": "AppLovin pivoted aggressively toward AI-powered advertising platform (Adjust + Axon AI engine); stock began recovering as AI integration generated material revenue and margin growth.",
+      "eventKo": "AppLovin이 AI 동력 광고 플랫폼(Adjust + Axon AI 엔진)으로 공격적으로 전환 — AI 통합이 상당한 매출·마진 성장을 생성하면서 주가 회복 시작.",
+      "whyItMatteredKo": "AI 시대 가치 폭증의 결정적 단계 — 향후 1-2년 회사 가치를 결정한 변환.",
+      "source": "https://www.applovin.com"
+    },
+    {
+      "year": 2024,
+      "age": 42,
+      "event": "AppLovin stock surged dramatically in 2024 as AI-driven ad targeting generated unprecedented revenue growth (FY2024 revenue $4.7B+, up 43% YoY). Karam's net worth peaked around $9B before he reduced his stake.",
+      "eventKo": "AppLovin 주가가 AI 주도 광고 타깃팅이 전례 없는 매출 성장(FY2024 매출 47억 달러+, YoY 43% 증가)을 생성하면서 2024년 극적으로 급등. 카람의 순자산이 그가 지분 감소 전 90억 달러 근처 정점.",
+      "whyItMatteredKo": "AI 시대 광고 플랫폼의 결정적 검증 — 2021 IPO 가치를 넘어선 상승.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2024,
+      "age": 42,
+      "event": "Reduced AppLovin stake below SEC's 5% disclosure threshold in September 2024; left AppLovin three months later to focus on philanthropy and private investing.",
+      "eventKo": "2024년 9월 AppLovin 지분을 SEC 5% 공시 한도 아래로 감소; 3개월 후 AppLovin 떠나 자선·사적 투자에 집중.",
+      "whyItMatteredKo": "기업가 정체성에서 가족 사무소 운영자·자선가 정체성으로 전환 — 인생 후반 새 카테고리.",
+      "source": "https://www.insidertrades.com"
+    },
+    {
+      "year": 2025,
+      "age": 43,
+      "event": "Personal net worth at $4.9B per Forbes Real-Time after significant AppLovin stake reduction. Continues to manage private investments and philanthropic activities post-AppLovin.",
+      "eventKo": "포브스 실시간 기준 개인 순자산 49억 달러 — 상당한 AppLovin 지분 감소 후. AppLovin 후 사적 투자·자선 활동 관리 계속.",
+      "whyItMatteredKo": "2008년 26세 첫 창업이 17년 후 인생 후반 자본가·자선가 정체성으로 변환 — 빠른 자수성가의 사례.",
+      "source": "https://www.forbes.com/profile/andrew-karam/"
+    },
+    {
+      "year": 2014,
+      "age": 32,
+      "event": "AppLovin expanded into broader mobile-app monetization and user-acquisition technology — gradually became one of the leading mobile ad-tech platforms globally.",
+      "eventKo": "AppLovin이 광범위한 모바일 앱 수익화·사용자 획득 기술로 확장 — 점진적으로 글로벌 선도 모바일 광고 기술 플랫폼 중 하나가 됨.",
+      "whyItMatteredKo": "단일 제품에서 플랫폼 회사로 변환 — 향후 IPO 평가의 토대.",
+      "source": "https://en.wikipedia.org/wiki/AppLovin"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 2008,
+      "age": 26,
+      "decisionKo": "Tufts 졸업 후 모바일 앱·광고 기술 산업 진입",
+      "alternativeKo": "전통 IB·컨설팅 경로",
+      "outcomeKo": "Social Hour 공동 창업 — AppLovin의 인적·기술 토대",
+      "source": "https://en.wikipedia.org/wiki/AppLovin"
+    },
+    {
+      "year": 2012,
+      "age": 30,
+      "decisionKo": "Social Hour 매각 직후 AppLovin 공동 창업으로 즉시 재투입",
+      "alternativeKo": "출구 자본으로 안정적 사모펀드·VC 활동",
+      "outcomeKo": "9년 누적된 AppLovin이 240억 달러 IPO — 평생 부의 가장 큰 단일 동력",
+      "source": "https://en.wikipedia.org/wiki/AppLovin"
+    },
+    {
+      "year": 2016,
+      "age": 34,
+      "decisionKo": "Orient Hontai 14억 달러 인수 차단을 받아들이고 독립 유지",
+      "alternativeKo": "매각 도전 또는 다른 인수자 찾기",
+      "outcomeKo": "독립 유지가 향후 5년 회사 가치를 17배+로 만든 토대",
+      "source": "https://en.wikipedia.org/wiki/AppLovin"
+    },
+    {
+      "year": 2024,
+      "age": 42,
+      "decisionKo": "AI 시대 정점에 AppLovin 지분 감소 + 회사 떠나기",
+      "alternativeKo": "지분 유지로 추가 상승 추구",
+      "outcomeKo": "자본 다각화 + 자선·사적 투자 정체성 전환 — 인생 후반 단계의 결정적 변환",
+      "source": "https://www.insidertrades.com"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "잔여 AppLovin 주식 + 2024년 지분 매각 대금 + Social Hour 매각 대금의 가족 사무소 운용. 사적 투자 포트폴리오(주식·채권·벤처·부동산).",
+    "industryKo": "모바일 광고 기술(과거 자본 토대), 자산 운용(현재)",
+    "businessModelKo": "2008-2024년 단일 회사(Social Hour → AppLovin) 누적 자본. 2024년 후 가족 사무소 모델 — 자선·사적 투자 다각화. 비공개 운영.",
+    "moatKo": "① 17년 누적된 AppLovin 지분의 단일 자본 토대. ② 2008년 이후 모바일 광고 기술 산업 노하우. ③ 실리콘밸리 1티어 VC·테크 네트워크. ④ 가족 사무소 사적 운영의 일관성.",
+    "luckVsSkillKo": "운(50%): 2008년 스마트폰 혁명 직전 산업 진입의 시기, 2016 CFIUS 차단이 매각을 강제로 지연시킨 점, 2021 IPO 시장 사이클, 2023-2024 AI 광고 부상. 실력(50%): 17년 단일 카테고리 집중, 2012 Social Hour 매각 직후 AppLovin 즉시 재투입, KKR 자본 유치, IPO 후 회사 운영 안정성, 정점에 지분 감소 결정."
+  },
+
+  "personalTraits": {
+    "knownFor": "Co-founder of AppLovin (2012) — one of the world's largest mobile ad-tech platforms and a top-performing 2021 tech IPO; co-founder of Social Hour (sold 2012); reduced AppLovin stake in late 2024 to focus on philanthropy and private investing.",
+    "knownForKo": "AppLovin(2012) 공동 창립자 — 세계 최대 모바일 광고 기술 플랫폼 중 하나, 2021 톱 성과 기술 IPO. Social Hour 공동 창립자(2012 매각). 2024년 후반 AppLovin 지분 감소로 자선·사적 투자 집중 전환.",
+    "philanthropy": "Limited public philanthropy disclosure to date; post-2024 family-foundation activities expected to grow over time. Some involvement in tech-education and engineering scholarship initiatives.",
+    "philanthropyKo": "현재까지 공개된 자선 공시 제한적. 2024 후 가족 재단 활동이 향후 성장 예상. 일부 기술 교육·공학 장학금 사업 관여.",
+    "controversies": "AppLovin has faced regulatory scrutiny over user data and child-targeted advertising in the mobile-app ecosystem; some analyst criticism of the company's aggressive ad-targeting practices; standard Silicon Valley tech-founder commentary; no major personal scandals.",
+    "controversiesKo": "AppLovin이 모바일 앱 생태계의 사용자 데이터·어린이 표적 광고에 대한 규제 감시 직면. 회사의 공격적 광고 타깃팅 관행에 대한 일부 애널리스트 비판. 표준 실리콘밸리 기술 창업자 코멘터리. 본인 개인 스캔들 없음."
+  },
+
+  "characterKo": {
+    "summaryKo": "밀레니얼 세대 모바일 앱 시대 자수성가의 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '17년 한 카테고리에 집중한 일관성'과 '2024년 정점에 지분을 줄이고 떠난 결단력'. 공동창업자 포로기보다 미디어 노출이 훨씬 적은 비공개 일관성.",
+    "tagsKo": ["밀레니얼 자수성가", "모바일 앱 17년", "공동창업자형", "정점 출구 감각", "사적 운영"]
+  },
+
+  "failures": [
+    {
+      "year": 2022,
+      "description": "AppLovin stock declined over 80% from 2021 highs during the broader tech sell-off; Karam's paper wealth declined sharply through 2022-2023 as the company faced both macro headwinds and questions about its core business model relative to broader ad-tech competition.",
+      "descriptionKo": "AppLovin 주가가 광범위한 기술 매도 속에서 2021 고점에서 80%+ 하락 — 카람의 서류상 부가 회사가 거시 역풍과 광범위한 광고 기술 경쟁 대비 핵심 사업 모델에 대한 의문에 직면하면서 2022-2023년 가파르게 감소.",
+      "lesson": "Tech IPO valuations set during low-rate cycles get repriced rapidly when conditions change; founder paper wealth based on a single-stock position is structurally volatile.",
+      "lessonKo": "저금리 사이클 동안 책정된 기술 IPO 평가는 조건 변화 시 빠르게 재가격된다. 단일 주식 포지션에 기반한 창업자 서류상 부는 구조적으로 변동성이 크다.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2023,
+      "description": "AppLovin's mobile-ad business faced sustained competitive pressure from Apple's privacy changes (ATT), TikTok's growth, and Meta's ad-targeting recovery; the company had to invest heavily in AI-based ad targeting to maintain growth.",
+      "descriptionKo": "AppLovin의 모바일 광고 사업이 Apple의 개인정보 변경(ATT)·TikTok 성장·Meta의 광고 타깃팅 회복으로부터 지속적 경쟁 압박 직면 — 회사가 성장 유지를 위해 AI 기반 광고 타깃팅에 대규모 투자 필요.",
+      "lesson": "Mobile-ad-tech businesses are exposed to platform-policy changes that can compress margins regardless of operational execution; pivot to AI was necessary survival.",
+      "lessonKo": "모바일 광고 기술 사업은 운영 실행과 무관하게 마진을 압축할 수 있는 플랫폼 정책 변경에 노출된다. AI 전환이 필요한 생존이었다.",
+      "source": "https://www.applovin.com"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2021, "netWorth": 3.5 },
+    { "year": 2022, "netWorth": 1.4 },
+    { "year": 2023, "netWorth": 2.5 },
+    { "year": 2024, "netWorth": 7.8 },
+    { "year": 2025, "netWorth": 4.9 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "We built a mobile platform when most people thought mobile was just a smaller version of the web.",
+      "textKo": "대부분 사람들이 모바일을 단지 웹의 작은 버전이라고 생각할 때 우리는 모바일 플랫폼을 만들었다.",
+      "context": "Attributed remark on AppLovin's early mobile-first bet",
+      "contextKo": "AppLovin의 초기 모바일 우선 베팅에 대한 귀속 발언",
+      "source": "https://en.wikipedia.org/wiki/AppLovin"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Byeong-In day pillar in an In month forms a 'pyeon-gwan-gyeok' chart — fire on tiger wood under spring wood authority, fitting a high-energy founder who navigated tech-platform power dynamics through repeated reinvention.",
+    "summaryKo": "병인 일주가 인월에 자리잡은 편관격(강한 외부 권력·압박이 평생 자기 자본을 둘러싸는 구조)은 Apple·Google·중국 인수자·SEC 같은 거대 외부 환경을 통과한 17년 모바일 광고 기술 사업의 인생과 호응합니다. 병화 일간은 태양·공개적 빛으로 미디어·앱 플랫폼이라는 가시적 영역에 자연스럽고, 일지 인목 안의 갑목·병화·무토가 편인·비견·식상으로 학문(Tufts 듀얼 학위)·공동창업자·자기 표현이 한 자리에 묶여 있는 구조. 월지 인목이 같은 비견·편인으로 — 17년 단일 카테고리·공동창업자 협력의 자리가 사주에 새겨져 있음."
+  }
+}

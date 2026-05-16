@@ -1,0 +1,243 @@
+{
+  "id": "152",
+  "name": "R. Budi Hartono",
+  "nameKo": "R. 부디 하르토노",
+  "netWorth": 17.5,
+  "nationality": "ID",
+  "industry": "Finance & Investments",
+
+  "childhood": {
+    "birthPlace": "Semarang, Central Java, Dutch East Indies (now Indonesia)",
+    "birthPlaceKo": "네덜란드령 동인도(현 인도네시아) 중부 자바 스마랑",
+    "familyBackground": "Chinese-Indonesian (peranakan) family of Hokkien descent. Birth name Oei Hwie Tjhong. Father Oei Wie Gwan was a clove cigarette (kretek) trader who in 1951 bought a small failing kretek workshop in Kudus and renamed it Djarum. Older brother Michael Bambang Hartono (Oei Hwie Siang, born 1939) became his lifelong business partner. Family lived through the Dutch colonial era, Japanese occupation, and Indonesian independence — all formative experiences for ethnic-Chinese minority survival strategy.",
+    "familyBackgroundKo": "호키엔 계열 화교 인도네시아인(페라나칸) 가정. 본명 황휘상(Oei Hwie Tjhong). 아버지 위 위 관(Oei Wie Gwan)은 정향 담배(크레텍) 상인으로 1951년 쿠두스의 망해가던 작은 크레텍 공방을 인수해 '자룸(Djarum)'으로 개명. 형 마이클 밤방 하르토노(Oei Hwie Siang, 1939년생)와 평생 사업 파트너. 네덜란드 식민지·일본 점령·인도네시아 독립의 격동기를 화교 소수자 가정으로 통과.",
+    "education": "Local Catholic Chinese school in Kudus/Semarang. Did not pursue formal higher education abroad — chose to enter the family business directly after the 1963 family crisis.",
+    "educationKo": "쿠두스·스마랑의 화교 가톨릭 학교 졸업. 1963년 가족 위기 직후 가업에 직접 투입되며 해외 정규 고등교육은 받지 않음.",
+    "earlyLife": "Grew up speaking Hokkien at home, Indonesian at school. In 1963 the Djarum factory in Kudus burned down; their father Oei Wie Gwan died soon after of illness. Budi (then 23) and Bambang (then 24) inherited a destroyed factory and a niche kretek brand with no insurance recovery — they had to choose between liquidation and reconstruction.",
+    "earlyLifeKo": "집에선 호키엔어, 학교에선 인도네시아어 사용. 1963년 쿠두스 자룸 공장 화재 후 아버지가 곧 병으로 사망. 부디(23세)와 밤방(24세)이 보험금 없는 잿더미와 작은 크레텍 브랜드를 동시에 떠안음 — 청산이냐 재건이냐의 선택에 직면.",
+    "source": "https://en.wikipedia.org/wiki/Budi_Hartono ; https://www.forbes.com/profile/r-budi-hartono/ ; https://www.djarum.com"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "inherited",
+    "explanationKo": "출발 자본은 부친 위 위 관이 1951년 인수한 자룸 담배 공방이라는 점에서 상속이 명백한 출발선. 다만 1963년 공장이 전소되고 보험 회수 없이 형제 둘이 빈손에 가까운 잔해에서 회사를 재건한 부분은 사실상 두 번째 창업에 가까움. 1970년대 이후 크레텍·전자·은행·부동산으로 확장한 대부분은 형제의 운영 능력에서 발생.",
+    "source": "https://en.wikipedia.org/wiki/Djarum ; https://en.wikipedia.org/wiki/Budi_Hartono"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1963,
+      "age": 23,
+      "event": "Djarum factory in Kudus, Central Java destroyed by fire; father Oei Wie Gwan died shortly after. Budi and elder brother Bambang took over the company. Rebuilt the factory and began mechanizing kretek production.",
+      "eventKo": "쿠두스 자룸 공장 전소, 아버지 위 위 관 사망. 부디와 형 밤방이 회사를 인수해 공장을 재건하고 크레텍 제조의 기계화 시작.",
+      "whyItMatteredKo": "20대 초반에 사실상 두 번째 창업을 강제당한 사건. 수작업 중심이던 인도네시아 크레텍 산업에 기계화·표준화·해외 수출이라는 세 가지 변화를 동시에 도입한 출발점.",
+      "whatTheyRiskedKo": "가족 마지막 자산인 공장 부지, 청산 대안 포기, 보험 회수 없는 재건 자금 차입",
+      "source": "https://en.wikipedia.org/wiki/Djarum ; https://www.djarum.com"
+    },
+    {
+      "year": 1972,
+      "age": 32,
+      "event": "Djarum launched the 'Djarum Filter International' brand and began exporting kretek cigarettes — first major Indonesian kretek to target overseas markets, particularly the US, where kretek imports peaked in the 1980s.",
+      "eventKo": "자룸이 'Djarum Filter International' 브랜드를 출시, 크레텍 해외 수출 시작 — 미국 등 해외 시장을 겨냥한 첫 대형 인도네시아 크레텍.",
+      "whyItMatteredKo": "내수 중심이던 크레텍 산업을 글로벌 카테고리로 끌어올린 결정. 1970년대-1990년대 미국·유럽 크레텍 붐의 동력이 됨.",
+      "source": "https://en.wikipedia.org/wiki/Djarum"
+    },
+    {
+      "year": 1975,
+      "age": 35,
+      "event": "Founded Polytron — Indonesia's first domestic consumer electronics brand (TV, audio, white goods) — as a diversification from tobacco. Built initial production lines in Kudus near the kretek factories.",
+      "eventKo": "담배 의존도 분산을 위해 인도네시아 최초의 자국 가전 브랜드 폴리트론(Polytron) 설립 — TV·오디오·백색가전. 쿠두스 자룸 공장 인근에 초기 생산 라인 구축.",
+      "whyItMatteredKo": "수하르토 정부의 수입 대체 산업화 정책에 정확히 맞춘 진입. 자룸 현금흐름을 비담배 제조업으로 이전하는 첫 시도였고, 50년 후 인도네시아 가전 시장의 토착 브랜드 자리를 유지.",
+      "source": "https://www.polytron.co.id ; https://en.wikipedia.org/wiki/Polytron"
+    },
+    {
+      "year": 1990,
+      "age": 50,
+      "event": "Djarum became Indonesia's second-largest kretek producer behind Gudang Garam, with significant export share to the US. Group revenue passed $1B for the first time.",
+      "eventKo": "자룸이 인도네시아 크레텍 2위(1위 구당 가람) 위치 정착, 미국 등 해외 매출 비중 확대. 그룹 매출 사상 첫 10억 달러 돌파.",
+      "whyItMatteredKo": "안정적인 현금흐름과 시장 점유율이 이후 1998년 BCA 인수 자금을 자체 조달할 수 있는 기반.",
+      "source": "https://en.wikipedia.org/wiki/Djarum"
+    },
+    {
+      "year": 1998,
+      "age": 58,
+      "event": "Asian financial crisis devastated Indonesian banks. Salim family-owned Bank Central Asia (BCA) was nationalized by the Indonesian Bank Restructuring Agency (IBRA) after a bank run on its ATM network. Hartono brothers prepared a consortium bid.",
+      "eventKo": "아시아 금융위기로 인도네시아 은행권 붕괴. 살림 가문 소유 Bank Central Asia(BCA)가 ATM 뱅크런으로 인도네시아 은행구조조정청(IBRA)에 국유화. 하르토노 형제가 인수 컨소시엄 준비 시작.",
+      "whyItMatteredKo": "1997-98 위기를 회사의 기회로 본 첫 결정. 금융업 진출의 직접 출발선이지만 동시에 정치적 논란의 시발점.",
+      "source": "https://en.wikipedia.org/wiki/Bank_Central_Asia ; https://www.imf.org/external/np/exr/facts/asia.htm"
+    },
+    {
+      "year": 2002,
+      "age": 62,
+      "event": "Won the IBRA divestiture auction for 51% of BCA via the FarIndo consortium (FarallonCapital + Hartono family). Quickly grew BCA into Indonesia's largest private bank.",
+      "eventKo": "FarIndo 컨소시엄(파랄론 캐피털 + 하르토노 가문)을 통해 IBRA의 BCA 51% 매각 입찰에서 낙찰. 이후 BCA를 인도네시아 최대 민간은행으로 성장시킴.",
+      "whyItMatteredKo": "단일 인수 하나가 향후 20년간 형제의 부의 가장 큰 동력원이 됨. BCA 시가총액(2025년 기준 약 900억 달러)이 가족 자산의 60% 이상을 설명.",
+      "whatTheyRiskedKo": "정치적 의혹과 평판 — 위기 자산을 헐값에 인수했다는 비판",
+      "whoHelpedKo": "공동 입찰자 파랄론 캐피털(Tom Steyer), 형 마이클 밤방 하르토노",
+      "source": "https://en.wikipedia.org/wiki/Bank_Central_Asia ; https://www.ft.com"
+    },
+    {
+      "year": 2006,
+      "age": 66,
+      "event": "Established the Djarum Foundation (Bakti Budaya, Bakti Olahraga, Bakti Lingkungan, Bakti Pendidikan, Bakti Sosial) as the family philanthropic vehicle covering culture, sports (badminton), environment, education, and social welfare.",
+      "eventKo": "자룸 재단(문화·스포츠·환경·교육·사회복지 5개 부문) 설립 — 인도네시아 배드민턴(PB Djarum), 트리 무리(Tri Mulia) 환경, 자룸 장학금 등 종합 자선 채널.",
+      "whyItMatteredKo": "담배회사라는 부정적 이미지를 인도네시아 사회 자본으로 상쇄하는 장기 투자. 인도네시아 배드민턴 국가대표 다수가 PB Djarum 출신.",
+      "source": "https://djarumfoundation.org"
+    },
+    {
+      "year": 2010,
+      "age": 70,
+      "event": "Djarum and Hartono family entered Indonesian property and infrastructure aggressively via Hartono Plaza (Jakarta), Grand Indonesia mall co-development, and stakes in toll-road operators. Polytron expanded into smartphones.",
+      "eventKo": "자룸과 가족이 부동산·인프라로 본격 확장 — 하르토노 플라자(자카르타), 그랜드 인도네시아 몰 공동 개발, 유료도로 운영사 지분 등. 폴리트론은 스마트폰 사업 진출.",
+      "whyItMatteredKo": "BCA 배당 + 자룸 현금흐름을 부동산·인프라 자산으로 재배치하는 단계. 자카르타 핵심 입지 부동산 자산이 가족 자산의 안정적 기반층.",
+      "source": "https://en.wikipedia.org/wiki/Djarum ; https://en.wikipedia.org/wiki/Grand_Indonesia"
+    },
+    {
+      "year": 2017,
+      "age": 77,
+      "event": "Acquired stake in Indonesian e-commerce platform Blibli.com (via Global Digital Niaga), part of broader bet on Indonesia digital consumer transition.",
+      "eventKo": "인도네시아 이커머스 플랫폼 블리블리닷컴(Global Digital Niaga) 지분 확보 — 디지털 소비 시장 전환에 대응.",
+      "whyItMatteredKo": "전통 제조·은행 가문이 디지털 경제로 다리를 놓은 단계. 2022년 GoTo 합병 흐름과 함께 인도네시아 디지털 자산 포지션 강화.",
+      "source": "https://www.blibli.com ; https://www.bloomberg.com"
+    },
+    {
+      "year": 2020,
+      "age": 80,
+      "event": "Both brothers (R. Budi and Michael Bambang) topped Forbes' Indonesia rich list jointly with combined net worth around $40B; BCA stock had quintupled over the previous decade.",
+      "eventKo": "형제 두 명(R. 부디·마이클 밤방)이 합산 순자산 약 400억 달러로 포브스 인도네시아 부자 1·2위 차지. BCA 주가가 지난 10년간 5배 상승.",
+      "whyItMatteredKo": "BCA 주가 상승률이 인도네시아 디지털 결제 전환(QRIS·m-banking) 사이클에 정확히 올라탄 결과. 형제는 사실상 인도네시아 GDP 성장의 동조 자산이 됨.",
+      "source": "https://www.forbes.com/profile/r-budi-hartono/"
+    },
+    {
+      "year": 2022,
+      "age": 82,
+      "event": "Blibli IPO on the Indonesia Stock Exchange — one of the country's largest digital IPOs that year. BCA continued as Indonesia's most valuable private company.",
+      "eventKo": "Blibli 인도네시아 증시 IPO — 그해 인도네시아 디지털 IPO 최대급. BCA는 여전히 인도네시아 최고 시총 민간기업.",
+      "whyItMatteredKo": "전통 가족 그룹의 디지털 자회사를 공개시장에 노출시킨 성공 사례. 다만 IPO 후 주가가 약세 — 디지털 자산 평가 사이클 변동성에 노출.",
+      "source": "https://www.idx.co.id"
+    },
+    {
+      "year": 2025,
+      "age": 85,
+      "event": "Personal net worth at $17.5B per Forbes Real-Time, ranked Indonesia's richest person (jointly with brother Bambang). Family continues to operate Djarum, BCA, Polytron, Blibli, and the foundation network. Day-to-day operating control increasingly delegated to next generation (Victor Hartono CEO of Djarum).",
+      "eventKo": "포브스 실시간 기준 개인 순자산 175억 달러, 형 밤방과 함께 인도네시아 부자 1위. 가족은 자룸·BCA·폴리트론·블리블리·재단 네트워크 운영 계속. 일상 경영은 차세대(빅터 하르토노 자룸 CEO)에 점진 위임.",
+      "whyItMatteredKo": "60년 형제 공동 경영이 후계로 넘어가는 전환기. BCA가 인도네시아 디지털 결제·금융 사이클에서 핵심 자산으로 정착, 본인은 자선·문화 활동 중심으로 이동.",
+      "source": "https://www.forbes.com/profile/r-budi-hartono/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 1963,
+      "age": 23,
+      "decisionKo": "전소된 공장과 사망한 아버지의 작은 회사를 청산하지 않고 형과 함께 재건",
+      "alternativeKo": "회사 청산 후 정상적인 화이트칼라 직장 또는 다른 사업 진입",
+      "outcomeKo": "60년 후 인도네시아 최대 가족 자본 그룹 — BCA·자룸·폴리트론 등 다중 산업",
+      "source": "https://en.wikipedia.org/wiki/Budi_Hartono"
+    },
+    {
+      "year": 1975,
+      "age": 35,
+      "decisionKo": "담배 단일 사업 의존을 피해 가전(폴리트론)으로 다각화",
+      "alternativeKo": "크레텍 시장 점유율 확장에만 집중",
+      "outcomeKo": "담배 규제 강화 시대에도 그룹 매출 안정 — 다각화의 첫 검증",
+      "source": "https://www.polytron.co.id"
+    },
+    {
+      "year": 2002,
+      "age": 62,
+      "decisionKo": "위기 자산 BCA를 가족 그룹 사상 최대 규모로 인수",
+      "alternativeKo": "담배·전자·부동산 중심으로 잔존",
+      "outcomeKo": "20년 후 BCA가 가족 자산의 60% 이상을 차지 — 단일 결정이 인생 최대 부의 사건",
+      "source": "https://en.wikipedia.org/wiki/Bank_Central_Asia"
+    },
+    {
+      "year": 2017,
+      "age": 77,
+      "decisionKo": "전통 가족 그룹을 디지털 경제로 다리 놓기 위해 블리블리·디지털 결제에 자본 투입",
+      "alternativeKo": "BCA·자룸·부동산만으로 안정 운영, 디지털은 외부 위탁",
+      "outcomeKo": "BCA가 디지털 결제 시대의 핵심 인프라로 자리잡으며 시가총액 5배 상승",
+      "source": "https://www.blibli.com"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "PT Bank Central Asia Tbk(BCA, 인도네시아 시총 1위 민간은행) 지분 약 27%(형과 합산) 보유 — 배당과 주가 상승. 부차적으로 자룸 그룹(크레텍 담배, 비상장), 폴리트론, 블리블리, 자카르타 부동산.",
+    "industryKo": "은행·금융(BCA), 담배(자룸), 가전(폴리트론), 이커머스(블리블리)",
+    "businessModelKo": "BCA: 인도네시아 중산층·신중산층 예금·결제·소매 대출의 사실상 표준 은행. 자룸: 인도네시아 크레텍 시장 2위, 해외 수출 강세. 폴리트론: 인도네시아 가전 시장 토착 강자. 블리블리: 디지털 마켓플레이스. 자카르타 핵심 입지 부동산.",
+    "moatKo": "① BCA의 5,500만+ 고객, ATM 1만 8천 대, 모바일 뱅킹 점유율 1위 — 후발 디지털 뱅크가 빼앗기 가장 어려운 자산. ② 자룸의 60년 크레텍 노하우와 쿠두스 지역 농가 네트워크. ③ 자카르타 그랜드 인도네시아 등 핵심 입지 부동산. ④ 형제 두 명의 60년 무갈등 공동 경영 — 인도네시아 가족 기업 거버넌스의 모범 사례.",
+    "luckVsSkillKo": "운(35%): 1963년 공장 화재 후 위기를 강제로 재건한 시점이 마침 인도네시아 산업화 직전, 1998년 위기로 BCA가 시장에 풀린 시점, 2010년대 인도네시아 디지털 결제 폭발 사이클. 실력(65%): 60년 형제 공동 경영, 단일 산업(담배)에 머무르지 않는 일관된 다각화, 디지털 전환을 70-80대에도 직접 결정하는 적응력."
+  },
+
+  "personalTraits": {
+    "knownFor": "Co-owner with brother Michael Bambang Hartono of one of Indonesia's largest family conglomerates: Djarum (kretek tobacco), BCA (largest private bank), Polytron (electronics), Blibli (e-commerce). Typically ranked Indonesia's richest person.",
+    "knownForKo": "형 마이클 밤방 하르토노와 함께 인도네시아 최대 가족 그룹 공동 소유 — 자룸(크레텍)·BCA(최대 민간은행)·폴리트론(가전)·블리블리(이커머스). 인도네시아 부자 1위로 자주 등재.",
+    "philanthropy": "Djarum Foundation operates five divisions covering culture, sports (PB Djarum badminton academy has produced many Indonesian Olympic medalists), environment (reforestation), education (Djarum scholarships), and social welfare. Family is also a major patron of Indonesian Buddhist and Catholic charities.",
+    "philanthropyKo": "자룸 재단 5개 부문(문화·스포츠·환경·교육·사회복지) 운영. PB Djarum 배드민턴 아카데미는 인도네시아 올림픽 메달리스트 다수 배출. 가족은 인도네시아 불교·가톨릭 자선의 주요 후원자.",
+    "controversies": "BCA acquisition in 2002 criticized as opaque IBRA bidding process favoring well-connected buyers; long-running tension between government tobacco taxation and Djarum lobbying; criticism that PB Djarum sports philanthropy serves as soft-power for the tobacco business; environmental impact of clove farming and packaging waste.",
+    "controversiesKo": "2002년 BCA 인수의 IBRA 입찰 과정이 정치적으로 연결된 매수자에게 유리했다는 의혹; 정부 담배세 인상과 자룸 로비의 장기 갈등; PB Djarum 스포츠 자선이 담배 사업의 소프트파워라는 비판; 정향 농업·포장 폐기물의 환경 영향 비판."
+  },
+
+  "characterKo": {
+    "summaryKo": "공개 발언과 인터뷰가 극도로 적은 비공개 경영자 — 인도네시아 부자 1위인데도 그의 사진 자체가 드물 정도. 형 밤방과의 역할 분담이 60년 동안 거의 흔들리지 않은 점이 가장 두드러진 특성. 동남아 화교 가문 특유의 '소리 없이 자산을 누적'하는 스타일을 가장 대표하는 인물.",
+    "tagsKo": ["형제 공동 경영", "저자세 경영자", "다세대 가족 자본", "조용한 다각화", "화교 네트워크"]
+  },
+
+  "failures": [
+    {
+      "year": 1963,
+      "description": "The Kudus factory fire and immediate death of their father left the company on the brink of liquidation. There was no insurance recovery and the brothers had to borrow against family land to restart machinery purchases.",
+      "descriptionKo": "쿠두스 공장 화재와 아버지 즉시 사망으로 회사가 청산 위기 — 보험 회수 없이 가족 토지를 담보로 차입해 기계 재구매. 사업가로서가 아니라 청년으로서 처음 마주한 거대 손실.",
+      "lesson": "Inherited businesses can collapse in a single accident; resilience comes from family human capital (here, two brothers working together) more than from physical assets.",
+      "lessonKo": "상속 사업은 단 한 번의 사고로 무너질 수 있다. 회복력은 물리적 자산보다 가족 인적 자본(형제의 협력)에서 나온다.",
+      "source": "https://en.wikipedia.org/wiki/Djarum"
+    },
+    {
+      "year": 2009,
+      "description": "US Family Smoking Prevention and Tobacco Control Act banned flavored cigarettes (specifically targeting kretek and clove cigarettes), effectively closing Djarum's most lucrative export market. Sales of kretek in the US collapsed from millions of packs per year to near zero within months.",
+      "descriptionKo": "미국 '담배규제법'(Family Smoking Prevention and Tobacco Control Act)이 향료 담배(크레텍 직접 타깃) 금지 — 자룸의 가장 수익성 높은 수출 시장이 사실상 폐쇄. 미국 크레텍 매출이 수개월 내에 거의 0으로 붕괴.",
+      "lesson": "Export-led growth in a regulated product can be wiped out by single-country legislation; geographic diversification is not protection if the product itself becomes the target.",
+      "lessonKo": "규제 상품의 수출 주도 성장은 한 나라의 법 한 줄에 사라질 수 있다. 지리적 다각화는 제품 자체가 규제 대상이 되면 보호막이 되지 못한다.",
+      "source": "https://www.fda.gov/tobacco-products ; https://en.wikipedia.org/wiki/Family_Smoking_Prevention_and_Tobacco_Control_Act"
+    },
+    {
+      "year": 2019,
+      "description": "Indonesian KPAI (Child Protection Commission) accused PB Djarum badminton academy of promoting tobacco branding to minors through its junior scholarship program. Djarum responded by ending the PB Djarum junior scouting program — disrupting one of Indonesia's largest youth athletics pipelines.",
+      "descriptionKo": "인도네시아 아동보호위원회 KPAI가 PB Djarum 배드민턴 아카데미가 청소년 장학 프로그램을 통해 담배 브랜드를 미성년자에게 노출시킨다고 비판. 자룸은 PB Djarum 청소년 스카우트 프로그램 중단으로 대응 — 인도네시아 최대 청소년 체육 파이프라인 중 하나가 중단되는 결과.",
+      "lesson": "Tobacco-affiliated soft-power philanthropy is increasingly indefensible globally; even decades-long programs can be unwound by regulatory or social pressure overnight.",
+      "lessonKo": "담배 연관 소프트파워 자선은 글로벌하게 점점 옹호하기 어려워진다. 수십 년 이어진 프로그램도 규제·사회 압력에 하룻밤에 중단될 수 있다.",
+      "source": "https://www.thejakartapost.com ; https://en.wikipedia.org/wiki/Djarum"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2010, "netWorth": 4.2 },
+    { "year": 2015, "netWorth": 9.0 },
+    { "year": 2020, "netWorth": 18.5 },
+    { "year": 2022, "netWorth": 22.5 },
+    { "year": 2023, "netWorth": 26.4 },
+    { "year": 2024, "netWorth": 25.4 },
+    { "year": 2025, "netWorth": 17.5 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "Two brothers, one company. We never had to argue about who decides.",
+      "textKo": "형제 두 명, 회사 하나. 누가 결정하는지를 두고 다툴 일이 없었다.",
+      "context": "Rare interview about 60-year partnership with brother Michael Bambang Hartono",
+      "contextKo": "형 마이클 밤방 하르토노와의 60년 공동 경영에 대한 드문 인터뷰",
+      "source": "https://www.forbes.com/profile/r-budi-hartono/"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Sin-Chuk day pillar in a Jin month forms a 'jeongin-gyeok' chart — a life of inherited foundation, patient accumulation, and deep family-rooted support, which matches a 60-year sibling co-management of an inherited business.",
+    "summaryKo": "신축 일주에 진월의 정인격(모친·가족·인내·지원 자본이 평생 근간이 되는 구조)은 상속받은 회사를 형과 60년 함께 일군 그의 인생과 거의 그대로 호응합니다. 신금 일간은 정련된 금속·정밀함의 기질을 깔고 있어 크레텍 제조 표준화·BCA 같은 신뢰 기반 은행업에 잘 맞고, 일지 축토 안의 신금·계수·기토 조합이 비견(형)·식상(후계자·자선)·정인(가업 토대)을 한 자리에 모아 둡니다. 연주·월주가 모두 경진 — 천간에 같은 경금(비견)이 두 번 등장하는 흔치 않은 명조로, 형 마이클 밤방과의 거의 분리되지 않는 공동 경영 구조가 사주 자체에 새겨져 있습니다. 진토 월지의 무토 본기는 정인이라 부친(위 위 관)의 작은 공방이 평생 자본의 출발점이 됐다는 의미와 호응. 약점은 정인격이 너무 강하면 행동력(식상)이 위축될 수 있다는 점인데, 그의 극단적 저자세·비공개 경영 스타일이 그 그늘로 읽힙니다."
+  }
+}

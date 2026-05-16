@@ -1,0 +1,39 @@
+{
+  "id": "400", "name": "Michael Dorrell", "nameKo": "마이클 도렐",
+  "netWorth": 8.5, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Australia", "birthPlaceKo": "호주",
+    "familyBackground": "Born in Australia; emigrated to US for finance career.",
+    "familyBackgroundKo": "호주에서 출생; 금융 경력을 위해 미국 이민.",
+    "education": "University of Sydney; INSEAD MBA.", "educationKo": "시드니 대학교; INSEAD MBA.",
+    "earlyLife": "Worked at Macquarie Group infrastructure-investing in 1990s-2000s; co-founded Stonepeak Infrastructure Partners in 2011.",
+    "earlyLifeKo": "1990-2000년대 Macquarie Group 인프라 투자에서 근무; 2011년 Stonepeak Infrastructure Partners 공동 창립.",
+    "source": "https://www.stonepeak.com ; https://www.forbes.com/profile/michael-dorrell/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Stonepeak Infrastructure Partners 공동 창립자 carry." },
+  "careerTimeline": [
+    { "year": 2011, "age": 38, "event": "Co-founded Stonepeak Infrastructure Partners — focused on North American infrastructure private equity.", "eventKo": "북미 인프라 사모펀드 집중 Stonepeak Infrastructure Partners 공동 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 2020, "age": 47, "event": "Stonepeak AUM crossed $30B; multiple successful infrastructure funds.", "eventKo": "Stonepeak AUM 300억 달러 돌파; 다수 성공적 인프라 펀드.", "whyItMatteredKo": "규모 도약." },
+    { "year": 2024, "age": 51, "event": "Stonepeak AUM crossed $70B; one of world's largest infrastructure PE firms.", "eventKo": "Stonepeak AUM 700억 달러 돌파; 세계 최대 인프라 PE 회사 중 하나.", "whyItMatteredKo": "글로벌 인프라 PE 메이저 자리." },
+    { "year": 2025, "age": 52, "event": "Personal net worth at $8.5B per Forbes Real-Time. Continues as Stonepeak managing partner.", "eventKo": "포브스 실시간 기준 개인 순자산 85억 달러. Stonepeak 매니징 파트너 계속.", "whyItMatteredKo": "14년 단일 회사 carry 정점." }
+  ],
+  "turningPoints": [{ "year": 2011, "age": 38, "decisionKo": "Macquarie에서 Stonepeak 공동 창립", "alternativeKo": "Macquarie 잔류", "outcomeKo": "14년 단일 회사 carry — 평생 부의 거의 전부" }],
+  "moneyMechanics": { "primaryRevenueKo": "Stonepeak Infrastructure Partners 매니징 파트너 carry + GP commitment", "industryKo": "사모펀드(인프라)", "businessModelKo": "북미·글로벌 인프라 LBO + 양보 운영", "moatKo": "14년 누적 인프라 인맥 + 전문성", "luckVsSkillKo": "운(40%): 인프라 자산 클래스 부상. 실력(60%): 14년 단일 회사 운영." },
+  "personalTraits": {
+    "knownFor": "Co-founder and CEO of Stonepeak Infrastructure Partners — one of world's largest infrastructure-focused private equity firms.",
+    "knownForKo": "Stonepeak Infrastructure Partners(세계 최대 인프라 중심 사모펀드 회사 중 하나) 공동 창립자·CEO.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard PE-industry leverage and operational scrutiny.",
+    "controversiesKo": "표준 PE 산업 레버리지·운영 감시."
+  },
+  "characterKo": { "summaryKo": "호주 출신 미국 인프라 PE 자수성가.", "tagsKo": ["Stonepeak", "인프라 PE", "호주-미국"] },
+  "failures": [
+    { "year": 2022, "description": "Some Stonepeak infrastructure investments faced rising-rate pressure.", "descriptionKo": "일부 Stonepeak 인프라 투자가 금리 상승 압박 직면.", "lesson": "Infrastructure financing exposed to rate cycles.", "lessonKo": "인프라 자금은 금리 사이클 노출." },
+    { "year": 2024, "description": "Competition from BlackRock-Global Infrastructure Partners and other infrastructure-PE majors compressed fund returns.", "descriptionKo": "BlackRock-Global Infrastructure Partners 및 기타 인프라 PE 메이저로부터의 경쟁이 펀드 수익 압축.", "lesson": "Infrastructure PE has become crowded asset class.", "lessonKo": "인프라 PE가 붐비는 자산 클래스가 됨." }
+  ],
+  "wealthHistory": [{ "year": 2021, "netWorth": 1.5 }, { "year": 2023, "netWorth": 4.0 }, { "year": 2024, "netWorth": 7.6 }, { "year": 2025, "netWorth": 8.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Infrastructure is the asset class that never sleeps. Highways, pipelines, ports — all generate cash daily.", "textKo": "인프라는 결코 잠들지 않는 자산 클래스이다. 고속도로·파이프라인·항구 — 모두 매일 현금 생성.", "context": "Stonepeak strategy", "contextKo": "Stonepeak 전략", "source": "https://www.stonepeak.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-O day pillar in Shin month — 'pyeonin-gyeok', maternal-academic foundation, fitting INSEAD MBA finance career path.", "summaryKo": "임오 일주 + 신월 편인격은 INSEAD MBA 금융 경력과 호응." }
+}

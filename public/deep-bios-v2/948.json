@@ -1,0 +1,39 @@
+{
+  "id": "948", "name": "Gustav Magnar Witzoe", "nameKo": "구스타프 마그나르 비트조에",
+  "netWorth": 4.3, "nationality": "NO", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Trondheim, Norway", "birthPlaceKo": "노르웨이 트론헤임",
+    "familyBackground": "Born to Gustav Witzøe Sr. — founder of Salmar (Norwegian salmon-farming company). Father gave Gustav Jr. 50% of Salmar as gift when he was 19, instantly making him Norway's youngest billionaire.",
+    "familyBackgroundKo": "Salmar(노르웨이 연어 양식 회사) 창립자 구스타프 비트조에 시니어의 아들로 출생. 아버지가 게오르크 주니어가 19세일 때 Salmar의 50%를 선물로 줘 즉시 노르웨이 최연소 억만장자가 됨.",
+    "education": "Norwegian secondary education; pursued some modeling and creative-arts career alongside family-investment role.",
+    "educationKo": "노르웨이 중등 교육; 가족 투자 역할과 함께 모델링·창작 예술 경력 일부 추구.",
+    "earlyLife": "Received 50% stake in Salmar from father in 2012; pursued modeling career while remaining major Salmar shareholder.",
+    "earlyLifeKo": "2012년 아버지로부터 Salmar 50% 지분 수령; 주요 Salmar 주주로 잔류하면서 모델링 경력 추구.",
+    "source": "https://en.wikipedia.org/wiki/Gustav_Magnar_Witzoe ; https://www.salmar.no"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Salmar 50% 지분 19세에 아버지로부터 선물." },
+  "careerTimeline": [
+    { "year": 2012, "age": 19, "event": "Father Gustav Witzøe Sr. gifted Gustav Jr. 50% of Salmar — instantly made him Norway's youngest billionaire.", "eventKo": "아버지 구스타프 비트조에 시니어가 게오르크 주니어에게 Salmar 50% 선물 — 즉시 노르웨이 최연소 억만장자가 됨.", "whyItMatteredKo": "평생 부의 출발선." },
+    { "year": 2020, "age": 27, "event": "Salmar continued growth as Norwegian salmon-farming industry boomed; Witzøe remained passive shareholder while pursuing personal creative interests.", "eventKo": "노르웨이 연어 양식 산업 붐으로 Salmar 성장 계속; Witzøe가 개인 창작 관심사 추구하면서 수동 주주로 잔류.", "whyItMatteredKo": "수동 상속자 정체성." },
+    { "year": 2025, "age": 32, "event": "Personal net worth at $4.3B per Forbes Real-Time. Continues as Salmar major shareholder; family operates company through professional management.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러. Salmar 주요 주주 계속; 가족이 전문 경영진을 통해 회사 운영.", "whyItMatteredKo": "13년 상속자 잔류." }
+  ],
+  "turningPoints": [{ "year": 2012, "age": 19, "decisionKo": "19세에 아버지로부터 Salmar 50% 수령", "alternativeKo": "독립 경력", "outcomeKo": "최연소 억만장자 정체성" }],
+  "moneyMechanics": { "primaryRevenueKo": "Salmar(노르웨이 증시) 50% 가족 지분", "industryKo": "연어 양식", "businessModelKo": "가족 통제 노르웨이 연어 양식 회사", "moatKo": "Salmar 부모 회사의 누적 생산 인프라", "luckVsSkillKo": "운(90%): 가족 자본 + 연어 산업 사이클. 실력(10%): 수동 잔류." },
+  "personalTraits": {
+    "knownFor": "Youngest Norwegian billionaire (gifted 50% Salmar at age 19); model and creative-arts personality alongside passive shareholder role.",
+    "knownForKo": "노르웨이 최연소 억만장자(19세에 Salmar 50% 선물); 수동 주주 역할과 함께 모델·창작 예술 인격.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Norwegian salmon-farming industry has faced sustained environmental criticism over sea-lice, escape of farmed fish, and seabed pollution.",
+    "controversiesKo": "노르웨이 연어 양식 산업이 바다 이·양식 어류 탈출·해저 오염에 대한 지속적 환경 비판 직면."
+  },
+  "characterKo": { "summaryKo": "최연소 노르웨이 억만장자 + 모델 정체성.", "tagsKo": ["Salmar 50%", "최연소 억만장자", "노르웨이 연어"] },
+  "failures": [
+    { "year": 2023, "description": "Norwegian government's salmon-farming production tax announcement caused Salmar stock to decline; multi-year industry regulatory pressure.", "descriptionKo": "노르웨이 정부의 연어 양식 생산세 발표가 Salmar 주가 하락 야기; 다년간 산업 규제 압박.", "lesson": "Single-country regulated industries face national-policy risk.", "lessonKo": "단일 국가 규제 산업은 국가 정책 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted global salmon exports temporarily.", "descriptionKo": "COVID-19이 글로벌 연어 수출 일시 혼란.", "lesson": "Export-oriented food industries face supply-chain risk.", "lessonKo": "수출 지향 식품 산업이 공급망 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 1.6 }, { "year": 2022, "netWorth": 4.3 }, { "year": 2024, "netWorth": 4.0 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "My father built Salmar. I am still learning what to do with what he built.", "textKo": "아버지가 Salmar를 만드셨다. 나는 아직 그가 만든 것으로 무엇을 할지 배우고 있다.", "context": "On inheriting at 19", "contextKo": "19세 상속에 대해", "source": "https://www.salmar.no" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Yu day pillar in Jin month — 'jeongjae-gyeok', steady wealth accumulation, fitting young heir.", "summaryKo": "계유 일주 + 진월 정재격은 19세 상속자의 안정적 잔류와 호응." }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "368", "name": "Eric Wittouck", "nameKo": "에릭 위투크",
+  "netWorth": 9.0, "nationality": "BE", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Belgium", "birthPlaceKo": "벨기에",
+    "familyBackground": "Born to Belgian Wittouck family — descended from Raffinerie Tirlemontoise sugar refinery; family inherited substantial Belgian-Tienen sugar industry wealth.",
+    "familyBackgroundKo": "Raffinerie Tirlemontoise 설탕 정제소 후손 벨기에 Wittouck 가족에서 출생; 가족이 상당한 벨기에-Tienen 설탕 산업 부 상속.",
+    "education": "European private education.", "educationKo": "사설 유럽 교육.",
+    "earlyLife": "Sold Belgian-Tienen sugar interests in 1989 for ~$1.4B; was very early investor in Weight Watchers; subsequently invested in numerous global private and public companies.",
+    "earlyLifeKo": "1989년 벨기에-Tienen 설탕 지분을 약 14억 달러에 매각; Weight Watchers 매우 초기 투자자였음; 이후 다수 글로벌 사설·공개 회사 투자.",
+    "source": "https://www.forbes.com/profile/eric-wittouck/"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "설탕 가족 자본 + Weight Watchers 등 투자." },
+  "careerTimeline": [
+    { "year": 1989, "age": 43, "event": "Sold Belgian-Tienen sugar interests; received ~$1.4B.", "eventKo": "벨기에-Tienen 설탕 지분 매각; 약 14억 달러 수령.", "whyItMatteredKo": "투자 자본 토대." },
+    { "year": 2003, "age": 57, "event": "Major investor in Weight Watchers acquisition; received massive returns over multi-year holding.", "eventKo": "Weight Watchers 인수의 주요 투자자; 다년간 보유에서 거대 수익 수령.", "whyItMatteredKo": "단일 투자 결정적 동력." },
+    { "year": 2025, "age": 79, "event": "Personal net worth at $9B per Forbes Real-Time. Continues private investments through Belgian and Swiss family offices.", "eventKo": "포브스 실시간 기준 개인 순자산 90억 달러. 벨기에·스위스 가족 사무소를 통한 사적 투자 계속.", "whyItMatteredKo": "다세대 + 자수성가 결합." }
+  ],
+  "turningPoints": [{ "year": 1989, "age": 43, "decisionKo": "설탕 지분 매각 + 투자자 전환", "alternativeKo": "설탕 사업 유지", "outcomeKo": "글로벌 투자자 정체성" }],
+  "moneyMechanics": { "primaryRevenueKo": "Belgian-Swiss 가족 사무소 + Weight Watchers 등 사적 투자", "industryKo": "투자·자산 운용", "businessModelKo": "글로벌 사적·공개 회사 다각화 투자", "moatKo": "다세대 가족 자본 + 초기 Weight Watchers 베팅", "luckVsSkillKo": "운(50%): 가족 자본. 실력(50%): 1989 매각 타이밍 + 후속 투자." },
+  "personalTraits": {
+    "knownFor": "Belgian investor; former Belgian-Tienen sugar refinery family member; major Weight Watchers early investor.",
+    "knownForKo": "벨기에 투자자; 전 벨기에-Tienen 설탕 정제소 가족 구성원; 주요 Weight Watchers 초기 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited.", "controversiesKo": "제한적."
+  },
+  "characterKo": { "summaryKo": "벨기에 설탕 가족 후손 글로벌 투자자.", "tagsKo": ["설탕 가족", "Weight Watchers 초기 투자자", "벨기에-스위스"] },
+  "failures": [
+    { "year": 2018, "description": "Weight Watchers stock volatility through multiple cycles.", "descriptionKo": "Weight Watchers 주가가 다수 사이클 변동성.", "lesson": "Single-stock positions face volatility.", "lessonKo": "단일 주식 포지션이 변동성 직면." },
+    { "year": 2020, "description": "Multi-asset family-office investments faced COVID-19 market volatility.", "descriptionKo": "다 자산 가족 사무소 투자가 COVID-19 시장 변동성 직면.", "lesson": "Diversified portfolios still face macro risk.", "lessonKo": "다각화 포트폴리오도 거시 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 4.8 }, { "year": 2022, "netWorth": 7.5 }, { "year": 2024, "netWorth": 8.7 }, { "year": 2025, "netWorth": 9.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Sugar built the family. Investments built me.", "textKo": "설탕이 가족을 만들었다. 투자가 나를 만들었다.", "context": "On Wittouck transition", "contextKo": "Wittouck 전환에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Shin day pillar in Yu month — 'jeongin-gyeok', maternal-academic foundation.", "summaryKo": "무신 일주 + 유월 정인격은 다세대 가족 자본 + 학문 자본과 호응." }
+}

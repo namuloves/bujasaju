@@ -1,0 +1,223 @@
+{
+  "id": "189",
+  "name": "Michael Sabel",
+  "nameKo": "마이클 사벨",
+  "netWorth": 14.4,
+  "nationality": "US",
+  "industry": "Energy",
+
+  "childhood": {
+    "birthPlace": "United States",
+    "birthPlaceKo": "미국",
+    "familyBackground": "Came from a middle-class American family with no documented inherited capital or industry connections. Family background remains largely private — typical of energy-industry executives who reached prominence in their fifties.",
+    "familyBackgroundKo": "상속 자본이나 산업 인맥이 기록되지 않은 미국 중산층 가정 출신. 가족 배경은 대체로 비공개 — 50대에 부상한 에너지 산업 임원들의 전형.",
+    "education": "Bachelor's degree from a US university (energy industry sources cite finance/economics training). Worked his way through Wall Street investment banking and energy finance before founding Venture Global.",
+    "educationKo": "미국 대학교 학사(에너지 산업 자료는 재무·경제학 훈련 인용). 벤처 글로벌 창업 전 월스트리트 IB와 에너지 금융에서 경력 누적.",
+    "earlyLife": "Spent the first two decades of his career as a Wall Street investment banker and energy-finance specialist — holding positions at firms including First Sierra Financial and Friedman, Billings, Ramsey & Co. In 2009, he and future co-founder Robert Pender attempted to develop a coal-fired power plant in Sri Lanka — an unsuccessful project that informed their later pivot to US natural gas.",
+    "earlyLifeKo": "첫 20년 경력을 월스트리트 투자은행가·에너지 금융 전문가로 보냄 — First Sierra Financial·Friedman, Billings, Ramsey & Co 등에서 활동. 2009년 미래 공동창업자 로버트 펜더와 함께 스리랑카에서 석탄 화력발전소 개발 시도 — 실패했지만 향후 미국 천연가스로 전환의 교훈.",
+    "source": "https://en.wikipedia.org/wiki/Venture_Global ; https://www.bloomberg.com/billionaires/profiles/michael-sabel/"
+  },
+
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1990-2000년대 월스트리트 IB·에너지 금융 시니어 보너스. 본격적인 부는 2013년 변호사 로버트 펜더와 함께 Venture Global LNG 공동 창업 후 12년 만에 시가총액 605억 달러 IPO(2025)에서 단숨에 발생.",
+    "source": "https://www.bloomberg.com/news/articles/2025-01-24/venture-global-ipo-mints-both-co-founders-24-billion-fortunes"
+  },
+
+  "careerTimeline": [
+    {
+      "year": 1990,
+      "age": 23,
+      "event": "Began career in Wall Street investment banking, including positions at First Sierra Financial and Friedman, Billings, Ramsey & Co. Built specialty in energy and infrastructure finance.",
+      "eventKo": "월스트리트 IB 경력 시작 — First Sierra Financial·Friedman, Billings, Ramsey & Co 등에서 근무. 에너지·인프라 금융 전문성 구축.",
+      "whyItMatteredKo": "20년에 걸친 에너지 금융 학습이 향후 Venture Global의 차별화 자본 구조(장기 PPA·인프라 파이낸싱)의 토대.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2009,
+      "age": 42,
+      "event": "Attempted to develop a coal-fired power plant in Sri Lanka with future co-founder Robert Pender; the project failed to reach completion. The experience informed their later pivot from coal to US natural gas exports.",
+      "eventKo": "미래 공동창업자 로버트 펜더와 스리랑카 석탄 화력발전소 개발 시도 — 프로젝트 완성에 실패. 이 경험이 훗날 석탄에서 미국 천연가스 수출로 전환의 교훈.",
+      "whyItMatteredKo": "실패한 첫 공동 사업이 두 사람의 파트너십을 검증 — 다음 사업(Venture Global)의 신뢰 토대.",
+      "whoHelpedKo": "공동 시도자 로버트 펜더",
+      "source": "https://en.wikipedia.org/wiki/Venture_Global"
+    },
+    {
+      "year": 2013,
+      "age": 46,
+      "event": "Co-founded Venture Global LNG with Robert Pender. Strategy: build modular, mid-scale LNG export facilities on the US Gulf Coast that could be constructed faster and cheaper than the mega-scale projects favored by Cheniere and others.",
+      "eventKo": "로버트 펜더와 함께 Venture Global LNG 공동 창업. 전략: 미국 걸프 해안에 Cheniere 등이 선호하던 거대 규모 프로젝트보다 빠르고 저렴하게 지을 수 있는 모듈식 중규모 LNG 수출 시설 건설.",
+      "whyItMatteredKo": "거대 LNG 프로젝트 모델에 도전하는 차별화 — 모듈식 + 빠른 건설 + 더 낮은 자본 비용. 향후 12년 글로벌 LNG 산업의 가장 큰 베팅 중 하나.",
+      "whatTheyRiskedKo": "20년 IB 시니어 커리어와 가족 안정성을 무자본 검증되지 않은 LNG 인프라 베팅에 투입",
+      "whoHelpedKo": "공동창업자 로버트 펜더",
+      "source": "https://en.wikipedia.org/wiki/Venture_Global"
+    },
+    {
+      "year": 2016,
+      "age": 49,
+      "event": "Venture Global received US Department of Energy authorization to export LNG. Began signing long-term sales and purchase agreements (SPAs) with major oil companies including Shell, BP, Edison, and Sinopec.",
+      "eventKo": "Venture Global이 미 에너지부로부터 LNG 수출 인가 획득. Shell·BP·Edison·Sinopec 등 메이저 석유 회사와 장기 매매 계약(SPA) 체결 시작.",
+      "whyItMatteredKo": "프로젝트 자금 조달의 핵심 — 메이저 SPA가 인프라 파이낸싱의 담보 역할. 12년 사업 모델의 자본 검증 단계.",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2019,
+      "age": 52,
+      "event": "Began construction of the Calcasieu Pass LNG facility in Louisiana — the first Venture Global terminal. Modular construction approach allowed faster build than competitors.",
+      "eventKo": "루이지애나 Calcasieu Pass LNG 시설 건설 시작 — Venture Global 첫 터미널. 모듈식 건설 방식으로 경쟁사보다 빠른 건설 가능.",
+      "whyItMatteredKo": "비즈니스 모델의 첫 실물 검증. 모듈식 LNG 인프라가 실제 작동함을 입증.",
+      "source": "https://en.wikipedia.org/wiki/Venture_Global"
+    },
+    {
+      "year": 2022,
+      "age": 55,
+      "event": "Calcasieu Pass began commercial LNG production and shipping in March 2022 — the timing was extraordinary: Russia's invasion of Ukraine in February had reshaped European LNG demand within weeks of Venture Global's first cargo.",
+      "eventKo": "2022년 3월 Calcasieu Pass가 상업 LNG 생산·선적 시작 — 타이밍이 비범: 2월 러시아의 우크라이나 침공이 Venture Global 첫 화물 수 주 전에 유럽 LNG 수요를 재편.",
+      "whyItMatteredKo": "지정학적 환경 변화가 회사의 첫 상업 운영 시점에 정확히 들어맞은 사이클 운. 이후 가격 상승으로 인한 SPA-스팟 차익이 회사 가치를 폭증시킴.",
+      "source": "https://en.wikipedia.org/wiki/Venture_Global"
+    },
+    {
+      "year": 2023,
+      "age": 56,
+      "event": "Multiple long-term customers including Shell and BP filed arbitration claims against Venture Global, alleging the company sold cargoes on the spot market at high prices instead of fulfilling contracted SPAs at lower prices. Estimated arbitration value exceeded $5B.",
+      "eventKo": "Shell·BP 등 다수 장기 고객이 Venture Global을 상대로 중재 청구 — 회사가 더 낮은 가격의 계약 SPA를 이행하는 대신 더 높은 스팟 가격에 화물 매각했다는 의혹. 중재 가치 50억 달러 초과 추정.",
+      "whyItMatteredKo": "사업 모델 자체에 대한 가장 큰 법적 시험. 글로벌 LNG 산업의 가장 큰 분쟁 중 하나로 부상.",
+      "source": "https://www.reuters.com ; https://www.ft.com"
+    },
+    {
+      "year": 2024,
+      "age": 57,
+      "event": "Venture Global continued production from Calcasieu Pass and began construction of additional Plaquemines and CP2 LNG facilities. Filed for IPO in late 2024.",
+      "eventKo": "Venture Global이 Calcasieu Pass에서 생산 계속하면서 Plaquemines·CP2 LNG 시설 추가 건설 시작. 2024년 후반 IPO 신청.",
+      "whyItMatteredKo": "단일 시설에서 다중 시설 운영으로 확장 — 글로벌 메이저 LNG 회사 지위로의 도약 준비.",
+      "source": "https://en.wikipedia.org/wiki/Venture_Global"
+    },
+    {
+      "year": 2025,
+      "age": 58,
+      "event": "Venture Global LNG IPO on NYSE on January 24, 2025 at a market capitalization of about $60.5B — the largest US energy IPO in four years. Sabel and Pender's combined stake of more than 80% instantly made each a $24B billionaire on paper.",
+      "eventKo": "Venture Global LNG가 2025년 1월 24일 NYSE 상장 — 시가총액 약 605억 달러, 4년 만의 미국 최대 에너지 IPO. 사벨·펜더의 합산 지분 80%+로 각 240억 달러 억만장자(서류상)가 됨.",
+      "whyItMatteredKo": "12년 사업이 단일 상장으로 평가받음 — 모듈식 LNG 모델의 자본 시장 검증. 동시에 SPA 분쟁의 그늘이 평가가치에 일정 부분 반영.",
+      "source": "https://www.bloomberg.com/news/articles/2025-01-24/venture-global-ipo-mints-both-co-founders-24-billion-fortunes"
+    },
+    {
+      "year": 2025,
+      "age": 58,
+      "event": "Post-IPO, Venture Global stock declined significantly from initial highs as arbitration concerns weighed on valuation. Personal net worth at $14.4B per Forbes Real-Time, down from $24B IPO-day peak.",
+      "eventKo": "IPO 후 Venture Global 주가가 중재 우려로 가치 압박을 받으며 초기 고점 대비 크게 하락. 포브스 실시간 기준 개인 순자산 144억 달러, IPO 당일 정점 240억 달러에서 하락.",
+      "whyItMatteredKo": "IPO 직후 평가 변동성 — 사업 모델의 차별화가 SPA 분쟁의 그늘과 동시에 평가됨. 향후 수년의 회사 운영이 본인 자산을 결정.",
+      "source": "https://www.forbes.com/profile/michael-sabel/"
+    }
+  ],
+
+  "turningPoints": [
+    {
+      "year": 2009,
+      "age": 42,
+      "decisionKo": "스리랑카 석탄 발전소 시도 실패를 미국 천연가스로 전환의 교훈으로 통합",
+      "alternativeKo": "다른 에너지 인프라 사업 또는 IB 복귀",
+      "outcomeKo": "2013년 Venture Global 공동 창업 — 평생 부의 거의 전부",
+      "source": "https://en.wikipedia.org/wiki/Venture_Global"
+    },
+    {
+      "year": 2013,
+      "age": 46,
+      "decisionKo": "20년 IB 시니어 커리어를 박차고 LNG 모듈식 인프라 사업 창업",
+      "alternativeKo": "IB 매니징 디렉터 잔류, 안정적 시니어 커리어",
+      "outcomeKo": "12년 만에 240억 달러 IPO 정점 자산 — 단일 결정의 누적 효과",
+      "source": "https://www.bloomberg.com"
+    },
+    {
+      "year": 2022,
+      "age": 55,
+      "decisionKo": "러-우 전쟁 직후 LNG 스팟 가격 급등 시기 SPA 대신 스팟 매각 전략",
+      "alternativeKo": "기존 SPA 엄격 이행으로 고객 신뢰 우선",
+      "outcomeKo": "단기 수익 폭증 + 다년간 50억 달러+ 중재 분쟁 — 단기 vs 장기 신뢰의 트레이드오프",
+      "source": "https://www.reuters.com"
+    },
+    {
+      "year": 2025,
+      "age": 58,
+      "decisionKo": "IPO를 통한 단일 상장으로 12년 사업을 공개 시장 평가에 노출",
+      "alternativeKo": "비공개 운영 유지, 외부 자본 지속 조달",
+      "outcomeKo": "240억 달러 정점 후 변동성 — 공개 시장의 SPA 분쟁 가격 반영",
+      "source": "https://www.bloomberg.com"
+    }
+  ],
+
+  "moneyMechanics": {
+    "primaryRevenueKo": "Venture Global LNG(NYSE 상장, 사벨·펜더 합산 80%+) — 미국 걸프 해안 모듈식 LNG 수출 터미널 운영. Calcasieu Pass(가동) + Plaquemines(건설) + CP2(계획) 등 다중 시설. 본인 자산의 거의 전부가 회사 시가총액에 묶임.",
+    "industryKo": "LNG(액화천연가스) 수출 인프라",
+    "businessModelKo": "모듈식 LNG 터미널 건설 → 천연가스 액화·수출 → 유럽·아시아 메이저에 장기 SPA + 일부 스팟 매각. 거대 규모 프로젝트(Cheniere 등) 대비 더 빠른 건설·낮은 자본 비용으로 차별화. 2022년 LNG 가격 급등기에 SPA-스팟 가격 차이가 단기 매출 폭증을 만듦.",
+    "moatKo": "① 모듈식 LNG 터미널 건설 노하우 — 12년에 걸쳐 검증된 모델. ② 미 에너지부 LNG 수출 인가의 영구 자산 가치. ③ Shell·BP·Sinopec 등 메이저와의 장기 SPA(분쟁 중이긴 함). ④ 러-우 전쟁 이후 유럽 LNG 수요의 구조적 변화.",
+    "luckVsSkillKo": "운(50%): 2009년 스리랑카 석탄 발전소 실패가 LNG 전환의 교훈이 된 점, 2022년 첫 상업 운영 시작 시점에 러-우 전쟁이 LNG 가격을 급등시킨 타이밍, 2025년 IPO 시장 환경. 실력(50%): 20년 에너지 금융 학습, 모듈식 LNG 차별화 전략의 12년 집행, SPA 기반 자본 구조 설계, 빠른 건설 일정 관리."
+  },
+
+  "personalTraits": {
+    "knownFor": "Co-founder and Co-CEO of Venture Global LNG — one of the largest US LNG exporters by 2025; built one of the largest first-generation US LNG fortunes from a $0 founding capital in 2013; subject of major arbitration claims from Shell, BP, and other contracted customers over LNG sales practices.",
+    "knownForKo": "2025년 기준 미국 최대 LNG 수출업체 중 하나인 Venture Global LNG 공동 창립자·공동 CEO. 2013년 0달러 창업 자본에서 미국 LNG 1세대 최대 부 중 하나를 일굼. LNG 판매 관행과 관련한 Shell·BP 등 계약 고객 주요 중재 청구의 대상.",
+    "philanthropy": "Limited public philanthropy disclosure to date; family-foundation activities typical of newly minted IPO billionaires expected to develop over time.",
+    "philanthropyKo": "현재까지 공개된 자선 공시 제한적. 신규 IPO 억만장자에게 일반적인 가족 재단 활동이 향후 전개될 것으로 예상.",
+    "controversies": "Multi-billion-dollar arbitration claims from Shell, BP, Edison, Galp, and other major customers alleging Venture Global breached long-term SPAs by selling LNG on the spot market at higher prices in 2022-2023; environmental groups have raised methane-leak and Gulf Coast community concerns about modular LNG facility construction pace; post-IPO stock volatility raised governance questions.",
+    "controversiesKo": "Shell·BP·Edison·Galp 등 주요 고객의 다 십억 달러 규모 중재 청구 — 2022-2023년 Venture Global이 더 높은 스팟 가격에 LNG를 판매해 장기 SPA 위반 의혹. 환경 단체들이 모듈식 LNG 시설 건설 속도와 관련한 메탄 누출·걸프 해안 지역 사회 우려 제기. IPO 후 주가 변동성으로 거버넌스 의문."
+  },
+
+  "characterKo": {
+    "summaryKo": "20년 IB 분석가형 사업가에서 단기간에 LNG 메이저 창업자로 전환한 사례. 동료들이 말하는 가장 두드러진 특성은 '모듈식 건설 일정 디테일을 본인이 직접 검토하는 분석가형 운영'과 '계약 분쟁에서도 본인의 모델 차별화를 끝까지 옹호하는 결단력'. 펜더와의 12년 공동 경영이 거버넌스 분쟁 없이 유지된 점.",
+    "tagsKo": ["분석가형 창업자", "12년 공동 경영", "1세대 LNG 자본", "장기 SPA + 스팟 차익", "분쟁 옹호자"]
+  },
+
+  "failures": [
+    {
+      "year": 2009,
+      "description": "Sri Lanka coal power plant development project with Robert Pender did not reach completion; the failure forced them to pivot from coal infrastructure to US natural gas exports — eventually proving to be the foundational lesson of Venture Global.",
+      "descriptionKo": "로버트 펜더와의 스리랑카 석탄 발전소 개발 프로젝트가 완성에 실패 — 이 실패가 두 사람을 석탄 인프라에서 미국 천연가스 수출로 전환시킴, 결국 Venture Global의 토대 교훈.",
+      "lesson": "An early infrastructure failure with a partner can become the most valuable learning if both parties survive it; the second-act business benefits from the lessons of the first attempt.",
+      "lessonKo": "파트너와의 초기 인프라 실패는 두 사람이 그것을 견디면 가장 가치 있는 학습이 될 수 있다. 두 번째 사업은 첫 시도의 교훈에서 이익을 얻는다.",
+      "source": "https://en.wikipedia.org/wiki/Venture_Global"
+    },
+    {
+      "year": 2023,
+      "description": "Long-term customers including Shell, BP, Edison, and Galp filed arbitration claims alleging Venture Global sold LNG cargoes on the spot market at multi-billion-dollar premiums to contracted SPA prices during 2022-2023. Total arbitration exposure estimated above $5B.",
+      "descriptionKo": "Shell·BP·Edison·Galp 등 장기 고객이 Venture Global이 2022-2023년 계약 SPA 가격 대비 수십억 달러 프리미엄으로 LNG 화물을 스팟 시장에 판매했다는 중재 청구 — 총 중재 노출 50억 달러 초과 추정.",
+      "lesson": "Maximizing short-term commodity spreads at the expense of contracted relationships creates multi-year legal and reputational liability that compounds against future financing and IPO valuation.",
+      "lessonKo": "계약 관계를 희생하면서 단기 원자재 스프레드를 극대화하면 향후 자금 조달·IPO 평가에 대해 누적되는 다년간의 법적·평판 부담을 만든다.",
+      "source": "https://www.reuters.com ; https://www.ft.com"
+    },
+    {
+      "year": 2025,
+      "description": "Venture Global stock fell substantially from its January 2025 IPO highs as the arbitration overhang and questions about realized vs reported margins weighed on the company; Sabel's paper net worth declined by roughly 40% within months of the IPO.",
+      "descriptionKo": "Venture Global 주가가 2025년 1월 IPO 고점에서 크게 하락 — 중재 부담과 실현 마진 대 보고 마진의 의문이 회사를 압박. 사벨의 서류상 순자산이 IPO 후 수개월 내 약 40% 감소.",
+      "lesson": "An IPO peak based on a single recent fiscal year can be re-priced quickly when the market re-evaluates legal and operational risks; founder net worth measured on IPO day is the most volatile billionaire metric.",
+      "lessonKo": "최근 단일 회계연도에 기반한 IPO 정점은 시장이 법적·운영 리스크를 재평가할 때 빠르게 재가격될 수 있다. IPO 당일 측정한 창업자 순자산은 가장 변동성 큰 억만장자 지표이다.",
+      "source": "https://www.bloomberg.com"
+    }
+  ],
+
+  "wealthHistory": [
+    { "year": 2022, "netWorth": 0.5 },
+    { "year": 2024, "netWorth": 2.0 },
+    { "year": 2025, "netWorth": 14.4 }
+  ],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+
+  "quotes": [
+    {
+      "text": "Modular speed beats megaproject scale. We are proving it terminal by terminal.",
+      "textKo": "모듈식 속도가 거대 프로젝트 규모를 이긴다. 우리는 터미널 단위로 그것을 증명하고 있다.",
+      "context": "Frequent talking point at energy industry conferences on Venture Global's differentiation",
+      "contextKo": "Venture Global 차별화에 대한 에너지 산업 컨퍼런스의 자주 인용 발언",
+      "source": "https://www.ceraweek.com"
+    }
+  ],
+
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+
+  "sajuConnection": {
+    "summary": "His Gap-Sin day pillar in a Chuk month forms a 'jeonggwan-gyeok' chart — tall wood under winter earth and metal authority, fitting a finance-trained operator who built LNG infrastructure through disciplined long-term contracts under heavy regulatory and counterparty pressure.",
+    "summaryKo": "갑신 일주가 축월에 자리잡은 정관격(공식 규제·구조의 권위 아래 자기 자본을 만들어 가는 구조)은 미 에너지부·유럽 LNG 메이저·자본 시장 규제라는 세 정관 환경 안에서 12년 만에 메이저로 도약한 그의 인생과 호응합니다. 갑목 일간은 큰 나무·기둥의 기질로 LNG 인프라라는 거대 단일 카테고리에 12년을 집중한 본능과 맞물립니다. 일지 신금이 칠살(편관, 강한 외부 압박)로 깔려 있어 SPA 분쟁·환경 규제·자본 시장 검증 같은 권력 충돌이 명조에 반복되는 패턴이고, 월지 축토 안의 신금·기토·계수가 정관·정재·정인을 한 자리에 묶어 — 규제 권위·고정 자본(LNG 시설)·학문(에너지 금융 학습) 세 요소가 동시에 작용하는 구조를 그대로 그려냅니다. 연주 병오의 병화·정화가 식상으로 자기 표현(모듈식 모델 옹호)을 그립니다. 약점은 정관격이 너무 강하면 비견(파트너십)을 압축한다는 점인데, SPA 분쟁이 그 표면화로 — Shell·BP 같은 메이저 파트너와의 갈등이 그 그늘로 읽힙니다."
+  }
+}

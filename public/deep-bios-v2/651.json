@@ -1,0 +1,38 @@
+{
+  "id": "651", "name": "Michael Herz", "nameKo": "마이클 헤르츠",
+  "netWorth": 6.1, "nationality": "DE", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Hamburg, Germany", "birthPlaceKo": "독일 함부르크",
+    "familyBackground": "Born to Herz family — owners of Tchibo (German coffee-and-retail chain). Brother Wolfgang Herz also major shareholder.",
+    "familyBackgroundKo": "Tchibo(독일 커피-소매 체인) 소유 Herz 가족에서 출생. 형제 Wolfgang Herz도 주요 주주.",
+    "education": "German private education.", "educationKo": "사설 독일 교육.",
+    "earlyLife": "Inherited Tchibo and Beiersdorf stakes from father Max Herz; managed family wealth through Maxingvest holding.",
+    "earlyLifeKo": "아버지 Max Herz로부터 Tchibo·Beiersdorf 지분 상속; Maxingvest 지주를 통한 가족 부 관리.",
+    "source": "https://en.wikipedia.org/wiki/Tchibo"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Herz 가족의 Tchibo·Beiersdorf 자본." },
+  "careerTimeline": [
+    { "year": 1965, "age": 22, "event": "Father Max Herz died; inheritance restructuring began.", "eventKo": "아버지 Max Herz 사망; 상속 재구조화 시작.", "whyItMatteredKo": "가족 자본 인수 단계." },
+    { "year": 1980, "age": 37, "event": "Maxingvest formed as family holding; controls Tchibo and major Beiersdorf stake.", "eventKo": "Maxingvest가 가족 지주로 형성; Tchibo와 주요 Beiersdorf 지분 통제.", "whyItMatteredKo": "공식 가족 자본 구조." },
+    { "year": 2007, "age": 64, "event": "Family expanded Beiersdorf stake significantly through joint shareholding.", "eventKo": "가족이 공동 주식을 통해 Beiersdorf 지분 크게 확장.", "whyItMatteredKo": "Beiersdorf 자본 가치 강화." },
+    { "year": 2025, "age": 82, "event": "Personal net worth at $6.1B per Forbes Real-Time. Continues Herz family shareholder role.", "eventKo": "포브스 실시간 기준 개인 순자산 61억 달러. Herz 가족 주주 역할 계속.", "whyItMatteredKo": "60년 다세대 가부장." }
+  ],
+  "turningPoints": [{ "year": 1965, "age": 22, "decisionKo": "아버지 사망 후 가족 자본 인수", "alternativeKo": "독립 경로", "outcomeKo": "60년 다세대 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Maxingvest(비공개) — Tchibo + Beiersdorf 지분", "industryKo": "커피·소매·소비재(Nivea 등)", "businessModelKo": "가족 지주 통한 Tchibo + Beiersdorf 통제", "moatKo": "Tchibo·Beiersdorf 다세대 가족 자본", "luckVsSkillKo": "운(85%): 가족 자본. 실력(15%): 다세대 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Member of Herz family controlling Maxingvest (Tchibo, Beiersdorf).",
+    "knownForKo": "Maxingvest(Tchibo·Beiersdorf) 통제 Herz 가족 구성원.",
+    "philanthropy": "German cultural support.", "philanthropyKo": "독일 문화 지원.",
+    "controversies": "Limited.", "controversiesKo": "제한적."
+  },
+  "characterKo": { "summaryKo": "독일 다세대 가족 자본 가부장.", "tagsKo": ["Tchibo", "Beiersdorf", "Maxingvest"] },
+  "failures": [
+    { "year": 2008, "description": "2008 financial crisis affected consumer-goods sector.", "descriptionKo": "2008 금융위기가 소비재 부문 영향.", "lesson": "Consumer goods are cycle-exposed.", "lessonKo": "소비재가 사이클 노출." },
+    { "year": 2020, "description": "COVID-19 disrupted Tchibo retail operations.", "descriptionKo": "COVID-19이 Tchibo 소매 운영 혼란.", "lesson": "Retail faces pandemic risk.", "lessonKo": "소매가 팬데믹 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 4.5 }, { "year": 2024, "netWorth": 5.8 }, { "year": 2025, "netWorth": 6.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family ownership is a long game.", "textKo": "가족 소유는 긴 게임이다.", "context": "Herz family philosophy", "contextKo": "Herz 가족 철학", "source": "https://www.tchibo.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Chuk day pillar in Yu month — 'siksin-gyeok', steady output.", "summaryKo": "기축 일주 + 유월 식신격은 다세대 가족 자본 안정성과 호응." }
+}

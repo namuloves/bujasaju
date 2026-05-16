@@ -1,0 +1,39 @@
+{
+  "id": "645", "name": "Anna Viegener", "nameKo": "안나 비게너",
+  "netWorth": 6.2, "nationality": "DE", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Viegener family — owners of Viega (German pipe-and-fitting company founded 1899).",
+    "familyBackgroundKo": "Viegener 가족(1899 창립 독일 파이프·피팅 회사 Viega 소유주)에서 출생.",
+    "education": "Private German education.", "educationKo": "사설 독일 교육.",
+    "earlyLife": "One of multiple young Viegener heirs; family operates company through professional management.",
+    "earlyLifeKo": "다수의 젊은 Viegener 상속자 중 한 명; 가족이 전문 경영진을 통해 회사 운영.",
+    "source": "https://en.wikipedia.org/wiki/Viega"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "126년 가족 자본의 차세대 상속." },
+  "careerTimeline": [
+    { "year": 2015, "age": 24, "event": "Began Viegener family shareholder governance involvement.", "eventKo": "Viegener 가족 주주 거버넌스 관여 시작.", "whyItMatteredKo": "차세대 진입." },
+    { "year": 2018, "age": 27, "event": "Viega global expansion in North America and Asia continued under professional management; Viegener family retained 100% ownership.", "eventKo": "전문 경영진 하에 Viega 북미·아시아 글로벌 확장 계속; Viegener 가족 100% 소유 유지.", "whyItMatteredKo": "가족 통제 글로벌 확장 단계." },
+    { "year": 2022, "age": 31, "event": "Viega 125th anniversary year; family confirmed long-term private-ownership strategy.", "eventKo": "Viega 125주년; 가족이 장기 비공개 소유 전략 확인.", "whyItMatteredKo": "다세대 가족 자본 유지 결정." },
+    { "year": 2025, "age": 34, "event": "Personal net worth at $6.2B per Forbes Real-Time. Continues as Viegener family heir.", "eventKo": "포브스 실시간 기준 개인 순자산 62억 달러. Viegener 가족 상속자로 계속.", "whyItMatteredKo": "126년 가족 자본 차세대 잔류." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 24, "decisionKo": "가족 거버넌스 진입", "alternativeKo": "독립 경로", "outcomeKo": "다세대 가족 자본 잔류" }],
+  "moneyMechanics": { "primaryRevenueKo": "Viega(100% 가족 소유) 가족 지분", "industryKo": "파이프·피팅 제조", "businessModelKo": "독일 프리미엄 배관·HVAC 제품", "moatKo": "126년 누적 독일 제조 인프라", "luckVsSkillKo": "운(90%): 가족 자본. 실력(10%): 다세대 거버넌스 잔류." },
+  "personalTraits": {
+    "knownFor": "Heir to Viega family fortune — owners of German pipe-and-fitting manufacturer founded 1899.",
+    "knownForKo": "1899 창립 독일 파이프·피팅 제조사 소유 가족 Viega의 상속자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard industrial-manufacturer environmental scrutiny.",
+    "controversiesKo": "제한적; 표준 산업 제조사 환경 감시."
+  },
+  "characterKo": { "summaryKo": "126년 독일 가족 자본의 차세대 상속자.", "tagsKo": ["Viega 가족", "126년 가족 회사"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted construction supply chains affecting Viega operations.", "descriptionKo": "COVID-19이 Viega 운영에 영향 미친 건설 공급망 혼란.", "lesson": "Manufacturing depends on construction-cycle health.", "lessonKo": "제조는 건설 사이클 건강에 의존." },
+    { "year": 2023, "description": "Rising European energy costs pressured German manufacturer margins.", "descriptionKo": "유럽 에너지 비용 상승이 독일 제조사 마진 압박.", "lesson": "Energy-intensive manufacturing faces macro-cost shocks.", "lessonKo": "에너지 집약 제조는 거시 비용 충격 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 4.5 }, { "year": 2024, "netWorth": 5.8 }, { "year": 2025, "netWorth": 6.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family ownership is a multi-generational responsibility.", "textKo": "가족 소유는 다세대 책임이다.", "context": "Viegener family", "contextKo": "Viegener 가족", "source": "https://www.viega.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Shin day pillar in Sul month — 'pyeon-gwan-gyeok', sustained external authority.", "summaryKo": "경신 일주 + 술월 편관격은 다세대 가족 자본 잔류와 호응." }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "686", "name": "John A. Sobrato", "nameKo": "존 앨버트 소브라토",
+  "netWorth": 5.8, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "San Francisco, California, USA", "birthPlaceKo": "미국 캘리포니아주 샌프란시스코",
+    "familyBackground": "Born to John A. Sobrato Sr. — Italian-American real estate developer in Silicon Valley.",
+    "familyBackgroundKo": "실리콘밸리 이탈리아계 미국 부동산 개발자 존 A. 소브라토 시니어의 아들로 출생.",
+    "education": "Santa Clara University.", "educationKo": "산타클라라 대학교.",
+    "earlyLife": "Joined family Sobrato Development Companies in Silicon Valley; built it into one of the largest landlords of Silicon Valley tech companies.",
+    "earlyLifeKo": "실리콘밸리 가족 Sobrato Development Companies 합류; 실리콘밸리 기술 회사의 최대 임대인 중 하나로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Sobrato_Organization"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "가족 부동산 사업 + 본인 실리콘밸리 확장." },
+  "careerTimeline": [
+    { "year": 1980, "age": 41, "event": "Took expanded role in Sobrato Development Companies; began aggressive Silicon Valley commercial real estate development.", "eventKo": "Sobrato Development Companies 확장 역할 인수; 공격적 실리콘밸리 상업 부동산 개발 시작.", "whyItMatteredKo": "실리콘밸리 부동산 시대 출발선." },
+    { "year": 2000, "age": 61, "event": "Sobrato Organization owned and leased buildings to Apple, Google, Cisco, Facebook, and other major Silicon Valley tech tenants.", "eventKo": "Sobrato Organization이 Apple·Google·Cisco·Facebook 등 주요 실리콘밸리 기술 임차인에 건물 소유·임대.", "whyItMatteredKo": "실리콘밸리 기술 산업의 핵심 인프라 공급자." },
+    { "year": 2020, "age": 81, "event": "Silicon Valley commercial real estate values continued to rise; Sobrato family wealth grew sharply.", "eventKo": "실리콘밸리 상업 부동산 가치 계속 상승; Sobrato 가족 부 가파르게 성장.", "whyItMatteredKo": "기술 산업 호황 수혜." },
+    { "year": 2025, "age": 86, "event": "Personal net worth at $5.8B per Forbes Real-Time. Son John M. Sobrato leads operations.", "eventKo": "포브스 실시간 기준 개인 순자산 58억 달러. 아들 존 M. 소브라토가 운영 주도.", "whyItMatteredKo": "다세대 실리콘밸리 부동산 가부장." }
+  ],
+  "turningPoints": [{ "year": 1980, "age": 41, "decisionKo": "실리콘밸리 상업 부동산 집중", "alternativeKo": "다각화 부동산", "outcomeKo": "실리콘밸리 기술 산업의 핵심 임대인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Sobrato Development Companies(100% 가족 소유)", "industryKo": "상업 부동산(실리콘밸리)", "businessModelKo": "실리콘밸리 기술 임차인 대상 사무실·창고 임대", "moatKo": "실리콘밸리 핵심 입지 60+년 누적", "luckVsSkillKo": "운(50%): 실리콘밸리 기술 산업 사이클. 실력(50%): 60+년 단일 지역 집중." },
+  "personalTraits": {
+    "knownFor": "Patriarch of Sobrato Organization — major Silicon Valley commercial real estate developer; landlord to Apple, Google, Cisco, Facebook, and other major tech tenants.",
+    "knownForKo": "Sobrato Organization(주요 실리콘밸리 상업 부동산 개발자) 가부장; Apple·Google·Cisco·Facebook 등 주요 기술 임차인의 임대인.",
+    "philanthropy": "Sobrato Family Foundation major Silicon Valley philanthropist; signed The Giving Pledge.",
+    "philanthropyKo": "Sobrato Family Foundation의 주요 실리콘밸리 자선가; Giving Pledge 서명.",
+    "controversies": "Bay Area housing-affordability debates implicate Silicon Valley commercial property owners.",
+    "controversiesKo": "베이 에어리어 주거 적정성 논쟁이 실리콘밸리 상업 부동산 소유주 연관."
+  },
+  "characterKo": { "summaryKo": "실리콘밸리 부동산 60+년 가부장.", "tagsKo": ["Sobrato Organization", "실리콘밸리 부동산", "Giving Pledge"] },
+  "failures": [
+    { "year": 2008, "description": "2008 financial crisis briefly compressed commercial real estate values.", "descriptionKo": "2008 금융위기가 상업 부동산 가치 잠시 압축.", "lesson": "Commercial real estate is cycle-exposed.", "lessonKo": "상업 부동산은 사이클 노출." },
+    { "year": 2023, "description": "Post-COVID office-market vacancy increases affected Silicon Valley commercial real estate.", "descriptionKo": "COVID 후 사무실 시장 공실 증가가 실리콘밸리 상업 부동산 영향.", "lesson": "Remote-work shift affects office-real-estate values.", "lessonKo": "원격 근무 변화가 사무실 부동산 가치 영향." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 5.5 }, { "year": 2020, "netWorth": 5.5 }, { "year": 2024, "netWorth": 5.7 }, { "year": 2025, "netWorth": 5.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "We build the buildings. Silicon Valley fills them with companies.", "textKo": "우리는 건물을 만든다. 실리콘밸리가 회사로 채운다.", "context": "Sobrato Organization philosophy", "contextKo": "Sobrato Organization 철학", "source": "https://www.sobrato.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Shin day pillar in Sa month — 'jeongin-gyeok', maternal-academic support fits family-business heir.", "summaryKo": "경신 일주 + 사월 정인격은 가족 부동산 가부장과 호응." }
+}

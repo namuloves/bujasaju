@@ -1,0 +1,40 @@
+{
+  "id": "671", "name": "Rick Caruso", "nameKo": "릭 조셉 카루소",
+  "netWorth": 5.9, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Los Angeles, California, USA", "birthPlaceKo": "미국 캘리포니아주 로스앤젤레스",
+    "familyBackground": "Born to Henry Caruso — founder of Dollar Rent A Car. Family Italian-American Catholic.",
+    "familyBackgroundKo": "Dollar Rent A Car 창립자 Henry Caruso의 아들로 출생. 가족 이탈리아계 미국 가톨릭.",
+    "education": "USC; J.D. from Pepperdine.", "educationKo": "USC; Pepperdine J.D.",
+    "earlyLife": "Practiced law before founding Caruso real estate company in 1987; built premier Los Angeles outdoor shopping centers (The Grove, Americana at Brand).",
+    "earlyLifeKo": "1987년 Caruso 부동산 회사 창립 전 법률 실무; 프리미어 로스앤젤레스 야외 쇼핑센터(The Grove·Americana at Brand) 구축.",
+    "source": "https://en.wikipedia.org/wiki/Rick_Caruso"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Caruso Properties 자수성가." },
+  "careerTimeline": [
+    { "year": 1987, "age": 28, "event": "Founded Caruso real estate development company.", "eventKo": "Caruso 부동산 개발 회사 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 2002, "age": 43, "event": "Opened The Grove at Farmers Market — became one of America's most successful shopping centers.", "eventKo": "Farmers Market의 The Grove 개장 — 미국 가장 성공적 쇼핑센터 중 하나가 됨.", "whyItMatteredKo": "결정적 자산." },
+    { "year": 2022, "age": 63, "event": "Ran for Los Angeles Mayor; lost to Karen Bass but raised political profile.", "eventKo": "로스앤젤레스 시장 출마; Karen Bass에게 패배했지만 정치적 프로필 상승.", "whyItMatteredKo": "정치 정체성 확장." },
+    { "year": 2025, "age": 66, "event": "Personal net worth at $5.9B per Forbes Real-Time. Continues Caruso real estate operations.", "eventKo": "포브스 실시간 기준 개인 순자산 59억 달러. Caruso 부동산 운영 계속.", "whyItMatteredKo": "38년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1987, "age": 28, "decisionKo": "법률에서 부동산 개발로", "alternativeKo": "법률 잔류", "outcomeKo": "LA 프리미어 부동산 자수성가" }, { "year": 2022, "age": 63, "decisionKo": "LA 시장 출마", "alternativeKo": "사업가 잔류", "outcomeKo": "정치-사업 이중 정체성" }],
+  "moneyMechanics": { "primaryRevenueKo": "Caruso Properties(비공개)", "industryKo": "프리미어 부동산·쇼핑센터", "businessModelKo": "LA 야외 쇼핑센터 (The Grove·Americana 등)", "moatKo": "LA 프리미어 입지 + 디자인 차별화", "luckVsSkillKo": "운(40%): LA 부동산 사이클. 실력(60%): 38년 단일 카테고리 집중." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of Caruso real estate company; developer of The Grove, Americana at Brand, and other LA premier outdoor shopping centers; ran for Los Angeles Mayor 2022.",
+    "knownForKo": "Caruso 부동산 회사 창립자·CEO; The Grove·Americana at Brand 및 기타 LA 프리미어 야외 쇼핑센터 개발자; 2022 로스앤젤레스 시장 출마.",
+    "philanthropy": "Caruso Family Foundation supports LA medical and educational institutions; major donor to USC.",
+    "philanthropyKo": "Caruso 가족 재단이 LA 의료·교육 기관 지원; USC 주요 기부자.",
+    "controversies": "2022 LA Mayor race drew sustained political debate over wealth-in-politics; some Caruso shopping-center labor relations issues.",
+    "controversiesKo": "2022 LA 시장 선거가 정치 내 부에 대한 지속적 정치 논쟁 야기; 일부 Caruso 쇼핑센터 노사 관계 문제."
+  },
+  "characterKo": { "summaryKo": "LA 부동산 자수성가 + 정치인.", "tagsKo": ["The Grove", "LA 부동산", "2022 LA 시장 후보"] },
+  "failures": [
+    { "year": 2022, "description": "Lost LA Mayoral race despite massive personal-fortune spending.", "descriptionKo": "거대 개인 부 지출에도 LA 시장 선거 패배.", "lesson": "Wealth does not guarantee electoral success.", "lessonKo": "부가 선거 성공을 보장하지 않는다." },
+    { "year": 2020, "description": "COVID-19 disrupted outdoor shopping-center traffic.", "descriptionKo": "COVID-19이 야외 쇼핑센터 트래픽 혼란.", "lesson": "Retail concentrates risk.", "lessonKo": "소매가 리스크 집중." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 4.3 }, { "year": 2022, "netWorth": 4.3 }, { "year": 2024, "netWorth": 5.4 }, { "year": 2025, "netWorth": 5.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I build places where Los Angeles actually wants to spend time.", "textKo": "나는 로스앤젤레스가 실제로 시간을 보내고 싶은 장소를 만든다.", "context": "Caruso properties philosophy", "contextKo": "Caruso 부동산 철학", "source": "https://www.caruso.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Chuk day pillar in Chuk month — 'pyeon-gwan-gyeok', strong external authority.", "summaryKo": "기축 일주 + 축월 편관격은 LA 부동산 + 정치 이중 정체성과 호응." }
+}

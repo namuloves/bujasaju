@@ -1,0 +1,41 @@
+{
+  "id": "782", "name": "Venu Srinivasan", "nameKo": "베누 스리니바산",
+  "netWorth": 5.3, "nationality": "IN", "industry": "Automotive",
+  "childhood": {
+    "birthPlace": "Chennai, Tamil Nadu, India", "birthPlaceKo": "인도 타밀나두주 첸나이",
+    "familyBackground": "Born to Srinivasan family — third-generation industrial dynasty owning TVS Motor Company (Indian two-wheeler maker founded 1911).",
+    "familyBackgroundKo": "TVS Motor Company(1911 창립 인도 이륜차 제조사)를 소유하는 3세대 산업 왕조 Srinivasan 가족에서 출생.",
+    "education": "Engineering at College of Engineering Guindy, Chennai; MBA from Purdue.", "educationKo": "첸나이 College of Engineering Guindy 공학; Purdue MBA.",
+    "earlyLife": "Joined family TVS in 1970s; led modernization of TVS Motor; founded various TVS-affiliated industrial operations.",
+    "earlyLifeKo": "1970년대 가족 TVS 합류; TVS Motor 현대화 주도; 다양한 TVS 계열 산업 운영 창립.",
+    "source": "https://en.wikipedia.org/wiki/Venu_Srinivasan ; https://www.tvsmotor.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "TVS 가족 자본 + 본인 운영 주도." },
+  "careerTimeline": [
+    { "year": 1979, "age": 27, "event": "Joined TVS Motor Company; led modernization.", "eventKo": "TVS Motor Company 합류; 현대화 주도.", "whyItMatteredKo": "차세대 진입." },
+    { "year": 1985, "age": 33, "event": "TVS Motor launched joint venture with Suzuki — TVS-Suzuki — producing motorcycles in India.", "eventKo": "TVS Motor가 Suzuki와 합작 — TVS-Suzuki — 인도 오토바이 생산.", "whyItMatteredKo": "글로벌 파트너십 시작." },
+    { "year": 2001, "age": 49, "event": "TVS-Suzuki joint venture ended; TVS Motor began independent product development; introduced TVS Apache motorcycle line.", "eventKo": "TVS-Suzuki 합작 종료; TVS Motor 독립 제품 개발 시작; TVS Apache 오토바이 라인 도입.", "whyItMatteredKo": "독립 인도 제조사 정체성." },
+    { "year": 2020, "age": 68, "event": "TVS Motor expanded electric vehicle operations including TVS iQube; became major Indian EV two-wheeler player.", "eventKo": "TVS Motor가 TVS iQube 포함 전기차 운영 확장; 주요 인도 EV 이륜차 사업자가 됨.", "whyItMatteredKo": "EV 시대 진입." },
+    { "year": 2025, "age": 73, "event": "Personal net worth at $5.3B per Forbes Real-Time. Continues TVS Motor chairman role; grandson Sudarshan Venu now CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 53억 달러. TVS Motor 의장 역할 계속; 손자 수다르샨 베누가 이제 CEO.", "whyItMatteredKo": "TVS 4세대 승계." }
+  ],
+  "turningPoints": [{ "year": 2001, "age": 49, "decisionKo": "Suzuki 합작 종료 후 TVS 독립 제품 개발", "alternativeKo": "합작 계속", "outcomeKo": "TVS Apache 등 독립 브랜드 라인 + 가족 IP 보유" }],
+  "moneyMechanics": { "primaryRevenueKo": "TVS Motor Company(NSE 상장) 가족 지분", "industryKo": "이륜차 제조(오토바이·스쿠터·EV)", "businessModelKo": "인도 이륜차 생산 + EV 확장 + 글로벌 수출", "moatKo": "1911년 이후 TVS 브랜드 + 인도 제조 인프라", "luckVsSkillKo": "운(50%): 인도 이륜차 산업 사이클. 실력(50%): 50년 가족 사업 운영." },
+  "personalTraits": {
+    "knownFor": "Chairman of TVS Motor Company — major Indian two-wheeler manufacturer; chairman of Sundaram-Clayton Group.",
+    "knownForKo": "TVS Motor Company(주요 인도 이륜차 제조사) 의장; Sundaram-Clayton Group 의장.",
+    "philanthropy": "Padma Bhushan recipient; Sri Ramakrishna Education Foundation supports Tamil Nadu education.",
+    "philanthropyKo": "Padma Bhushan 수상자; Sri Ramakrishna Education Foundation이 타밀나두 교육 지원.",
+    "controversies": "Standard Indian automotive industry labor and emissions debates.",
+    "controversiesKo": "표준 인도 자동차 산업 노동·배출 논쟁."
+  },
+  "characterKo": { "summaryKo": "다세대 인도 자동차 가부장.", "tagsKo": ["TVS Motor", "인도 이륜차", "다세대 가족"] },
+  "failures": [
+    { "year": 2001, "description": "TVS-Suzuki joint venture dissolution required years to rebuild independent product lineup.", "descriptionKo": "TVS-Suzuki 합작 해체가 독립 제품 라인업 재구축에 다년간 필요.", "lesson": "Joint venture dissolution carries multi-year operational rebuild cost.", "lessonKo": "합작 해체는 다년간 운영 재구축 비용 동반." },
+    { "year": 2020, "description": "COVID-19 disrupted Indian two-wheeler demand; TVS Motor margins compressed.", "descriptionKo": "COVID-19이 인도 이륜차 수요 혼란; TVS Motor 마진 압축.", "lesson": "Indian consumer durables face macro-cycle exposure.", "lessonKo": "인도 소비재가 거시 사이클 노출." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 1.4 }, { "year": 2022, "netWorth": 2.2 }, { "year": 2024, "netWorth": 4.6 }, { "year": 2025, "netWorth": 5.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Indian roads will be electric. TVS will be on those roads.", "textKo": "인도 도로는 전기일 것이다. TVS는 그 도로 위에 있을 것이다.", "context": "On TVS EV strategy", "contextKo": "TVS EV 전략에 대해", "source": "https://www.tvsmotor.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Myo day pillar in Ja month — 'sanggwan-gyeok', creative output, fitting multi-generational manufacturer.", "summaryKo": "신묘 일주 + 자월 상관격은 다세대 제조 가족 가부장과 호응." }
+}

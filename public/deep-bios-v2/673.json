@@ -1,0 +1,39 @@
+{
+  "id": "673", "name": "Vivek Chaand Sehgal", "nameKo": "비벡 찬드 세갈",
+  "netWorth": 5.9, "nationality": "AU", "industry": "Automotive",
+  "childhood": {
+    "birthPlace": "India", "birthPlaceKo": "인도",
+    "familyBackground": "Born to Indian family; immigrated to Australia.",
+    "familyBackgroundKo": "인도 가정에서 출생; 호주로 이민.",
+    "education": "Indian and Australian education.", "educationKo": "인도·호주 교육.",
+    "earlyLife": "Founded Samvardhana Motherson Group in 1975 with mother; built Indian automotive-parts supplier into global Tier 1 supplier for Mercedes-Benz, Volkswagen, Audi, and others.",
+    "earlyLifeKo": "1975년 어머니와 Samvardhana Motherson Group 창립; 인도 자동차 부품 공급자를 메르세데스-벤츠·폭스바겐·아우디 등의 글로벌 Tier 1 공급자로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Samvardhana_Motherson_Group"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Samvardhana Motherson 50년 누적." },
+  "careerTimeline": [
+    { "year": 1975, "age": 19, "event": "Co-founded Samvardhana Motherson Group with mother Swarn Lata Sehgal.", "eventKo": "어머니 Swarn Lata Sehgal과 Samvardhana Motherson Group 공동 창립.", "whyItMatteredKo": "50년 가족 사업 출발선." },
+    { "year": 1990, "age": 34, "event": "Began global Tier 1 automotive supply contracts; expanded into multiple countries.", "eventKo": "글로벌 Tier 1 자동차 공급 계약 시작; 다수 국가로 확장.", "whyItMatteredKo": "글로벌 메이저 자리." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $5.9B per Forbes Real-Time. Continues Samvardhana Motherson Group leadership; one of world's largest automotive component manufacturers.", "eventKo": "포브스 실시간 기준 개인 순자산 59억 달러. Samvardhana Motherson Group 리더십 계속; 세계 최대 자동차 부품 제조사 중 하나.", "whyItMatteredKo": "50년 가족 사업 정점." }
+  ],
+  "turningPoints": [{ "year": 1975, "age": 19, "decisionKo": "19세에 어머니와 공동 창립", "alternativeKo": "직장", "outcomeKo": "50년 후 글로벌 자동차 메이저 부품" }],
+  "moneyMechanics": { "primaryRevenueKo": "Samvardhana Motherson Group(BSE/NSE 상장) 가족 지분", "industryKo": "자동차 부품 제조", "businessModelKo": "글로벌 Tier 1 자동차 부품 공급자", "moatKo": "메르세데스·VW·Audi 등 OEM 50년 관계", "luckVsSkillKo": "운(35%): 인도 자동차 산업 부상. 실력(65%): 50년 단일 회사·글로벌 확장." },
+  "personalTraits": {
+    "knownFor": "Founder and Chairman of Samvardhana Motherson Group — one of world's largest automotive components manufacturers; major Tier 1 supplier to Mercedes-Benz, Volkswagen, Audi, Renault, BMW.",
+    "knownForKo": "Samvardhana Motherson Group(세계 최대 자동차 부품 제조사 중 하나) 창립자·의장; 메르세데스-벤츠·폭스바겐·아우디·르노·BMW의 주요 Tier 1 공급자.",
+    "philanthropy": "Family supports Indian education through Sehgal Family Foundation.",
+    "philanthropyKo": "가족이 Sehgal 가족 재단을 통해 인도 교육 지원.",
+    "controversies": "Standard automotive-supplier labor and environmental scrutiny.",
+    "controversiesKo": "표준 자동차 공급자 노동·환경 감시."
+  },
+  "characterKo": { "summaryKo": "인도 자수성가 글로벌 자동차 부품 가부장.", "tagsKo": ["Samvardhana Motherson", "글로벌 Tier 1 공급자", "19세 창립자"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted global auto supply chain.", "descriptionKo": "COVID-19이 글로벌 자동차 공급망 혼란.", "lesson": "Auto supply exposed to OEM cycles.", "lessonKo": "자동차 공급이 OEM 사이클 노출." },
+    { "year": 2023, "description": "EV transition pressures combustion-era auto suppliers.", "descriptionKo": "EV 전환이 내연기관 시대 자동차 공급자 압박.", "lesson": "Industry technology shifts compress legacy positions.", "lessonKo": "산업 기술 변화가 유산 위치 압축." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 1.5 }, { "year": 2024, "netWorth": 5.5 }, { "year": 2025, "netWorth": 5.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Mother and I started with one customer. Now we have every major automaker.", "textKo": "어머니와 나는 한 고객으로 시작했다. 이제 우리는 모든 주요 자동차 제조사를 가지고 있다.", "context": "On Samvardhana Motherson heritage", "contextKo": "Samvardhana Motherson 유산에 대해", "source": "https://www.motherson.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Sul day pillar in Yu month — 'jeongin-gyeok', maternal foundation, fitting mother-son co-founder.", "summaryKo": "무술 일주 + 유월 정인격은 어머니와 공동 창립한 정체성과 호응." }
+}

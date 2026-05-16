@@ -1,0 +1,39 @@
+{
+  "id": "666", "name": "Trevor Rees-Jones", "nameKo": "트레버 리스-존스",
+  "netWorth": 6.0, "nationality": "US", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "Texas, USA", "birthPlaceKo": "미국 텍사스",
+    "familyBackground": "Born to middle-class Texas family.", "familyBackgroundKo": "텍사스 중산층 가정에서 출생.",
+    "education": "Dartmouth College; J.D. from Southern Methodist University.", "educationKo": "다트머스 칼리지; SMU J.D.",
+    "earlyLife": "Practiced law before founding Chief Oil & Gas in 1994; pioneered Texas Barnett Shale natural-gas drilling.",
+    "earlyLifeKo": "1994년 Chief Oil & Gas 창립 전 법률 실무; 텍사스 Barnett Shale 천연가스 시추 개척.",
+    "source": "https://www.forbes.com/profile/trevor-rees-jones/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Chief Oil & Gas Barnett Shale 베팅 + Chesapeake Energy 매각." },
+  "careerTimeline": [
+    { "year": 1994, "age": 43, "event": "Founded Chief Oil & Gas; began Barnett Shale exploration.", "eventKo": "Chief Oil & Gas 창립; Barnett Shale 탐사 시작.", "whyItMatteredKo": "셰일 가스 시대 출발선." },
+    { "year": 2006, "age": 55, "event": "Sold portions of Chief Oil & Gas to Chesapeake Energy for $2.6B+; further sales over 2007-2011.", "eventKo": "Chief Oil & Gas 일부를 Chesapeake Energy에 26억 달러+ 매각; 2007-2011 추가 매각.", "whyItMatteredKo": "셰일 가스 정점 매각." },
+    { "year": 2012, "age": 61, "event": "Continued operating Chief Oil & Gas in Marcellus Shale; major Texas philanthropist through Rees-Jones Foundation.", "eventKo": "Marcellus Shale에서 Chief Oil & Gas 운영 계속; Rees-Jones Foundation 통한 주요 텍사스 자선가.", "whyItMatteredKo": "자선가 정체성." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $6B per Forbes Real-Time. Continues Chief Oil & Gas operations + philanthropy.", "eventKo": "포브스 실시간 기준 개인 순자산 60억 달러. Chief Oil & Gas 운영 + 자선 계속.", "whyItMatteredKo": "31년 단일 회사 누적." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 43, "decisionKo": "법률에서 셰일 가스 사업으로", "alternativeKo": "법률 잔류", "outcomeKo": "Barnett Shale 개척 + 평생 부" }],
+  "moneyMechanics": { "primaryRevenueKo": "Chief Oil & Gas 매각 대금 + 잔여 운영", "industryKo": "셰일 천연가스", "businessModelKo": "Barnett·Marcellus Shale 탐사·생산", "moatKo": "셰일 가스 1세대 개척자 IP", "luckVsSkillKo": "운(40%): 셰일 가스 시대. 실력(60%): 1994 베팅." },
+  "personalTraits": {
+    "knownFor": "Founder of Chief Oil & Gas; Texas Barnett Shale natural-gas pioneer; major Dallas philanthropist.",
+    "knownForKo": "Chief Oil & Gas 창립자; 텍사스 Barnett Shale 천연가스 개척자; 주요 댈러스 자선가.",
+    "philanthropy": "Rees-Jones Foundation major Dallas-Fort Worth area patron of education, healthcare, religious institutions; signed The Giving Pledge.",
+    "philanthropyKo": "Rees-Jones Foundation의 댈러스-포트워스 지역 교육·헬스케어·종교 기관 주요 후원자; Giving Pledge 서명.",
+    "controversies": "Standard fracking and shale-gas environmental debates.",
+    "controversiesKo": "표준 프래킹·셰일 가스 환경 논쟁."
+  },
+  "characterKo": { "summaryKo": "텍사스 셰일 가스 1세대 개척자 + 자선가.", "tagsKo": ["Chief Oil & Gas", "Barnett Shale", "Giving Pledge", "댈러스 자선가"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 collapsed natural gas prices; Chief Oil & Gas absorbed margin pressure.", "descriptionKo": "COVID-19이 천연가스 가격 붕괴; Chief Oil & Gas가 마진 압박 흡수.", "lesson": "Commodity prices cycle.", "lessonKo": "원자재 가격 사이클." },
+    { "year": 2015, "description": "Oil-gas-price crash compressed shale economics through 2015-2016.", "descriptionKo": "유가-가스 가격 폭락이 2015-2016 셰일 경제 압축.", "lesson": "Shale operators exposed to commodity-cycle risk.", "lessonKo": "셰일 운영자가 원자재 사이클 리스크 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.7 }, { "year": 2020, "netWorth": 4.5 }, { "year": 2024, "netWorth": 5.8 }, { "year": 2025, "netWorth": 6.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Lawyers learn to read contracts. Oilmen learn to read rocks.", "textKo": "변호사는 계약을 읽는 법을 배운다. 석유인은 바위를 읽는 법을 배운다.", "context": "On career transition", "contextKo": "경력 전환에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Shin day pillar in Shin month — 'siksin-gyeok', creative output, fitting shale pioneer.", "summaryKo": "갑신 일주 + 신월 식신격은 셰일 개척자 정체성과 호응." }
+}

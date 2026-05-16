@@ -1,0 +1,39 @@
+{
+  "id": "907", "name": "Laurence Graff", "nameKo": "로렌스 그래프",
+  "netWorth": 4.5, "nationality": "GB", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "London, England", "birthPlaceKo": "잉글랜드 런던",
+    "familyBackground": "Born to working-class East London Jewish family.", "familyBackgroundKo": "노동자 계급 동런던 유대인 가정에서 출생.",
+    "education": "Left school at 15.", "educationKo": "15세에 학교 중퇴.",
+    "earlyLife": "Apprenticed as jeweler in London Hatton Garden diamond district from age 15; built Graff Diamonds into premier global high-jewelry brand.",
+    "earlyLifeKo": "15세부터 런던 Hatton Garden 다이아몬드 지구에서 보석상 도제; Graff Diamonds를 프리미어 글로벌 고급 보석 브랜드로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Laurence_Graff"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Graff Diamonds 60+년 자수성가." },
+  "careerTimeline": [
+    { "year": 1962, "age": 24, "event": "Founded Graff Diamonds.", "eventKo": "Graff Diamonds 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 1973, "age": 35, "event": "Began direct sourcing of rare diamonds from southern Africa.", "eventKo": "남아프리카에서 희귀 다이아몬드 직접 조달 시작.", "whyItMatteredKo": "프리미어 보석 포지셔닝." },
+    { "year": 2000, "age": 62, "event": "Acquired Safdico (South African diamond cutter) for vertical integration.", "eventKo": "수직 통합을 위한 Safdico(남아공 다이아몬드 절단기) 인수.", "whyItMatteredKo": "원석에서 소매까지 통합." },
+    { "year": 2025, "age": 87, "event": "Personal net worth at $4.5B per Forbes Real-Time. Continues Graff Diamonds operations; son Francois Graff is CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 45억 달러. Graff Diamonds 운영 계속; 아들 Francois Graff가 CEO.", "whyItMatteredKo": "63년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1962, "age": 24, "decisionKo": "Graff Diamonds 창립", "alternativeKo": "직장", "outcomeKo": "63년 후 프리미어 글로벌 보석 브랜드" }],
+  "moneyMechanics": { "primaryRevenueKo": "Graff Diamonds(100% 가족 소유)", "industryKo": "고급 보석", "businessModelKo": "원석 → 절단 → 디자인 → 글로벌 매장 수직 통합", "moatKo": "63년 누적 희귀 다이아몬드 자산 + 글로벌 럭셔리 시장", "luckVsSkillKo": "운(30%): 글로벌 럭셔리 사이클. 실력(70%): 63년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Graff Diamonds; 60+ year self-made high-jewelry magnate.",
+    "knownForKo": "Graff Diamonds 창립자; 60+년 자수성가 고급 보석 거물.",
+    "philanthropy": "FACET Foundation supports African educational and conservation initiatives.",
+    "philanthropyKo": "FACET 재단이 아프리카 교육·보전 사업 지원.",
+    "controversies": "Diamond industry conflict-diamond debates and standard luxury-industry tax-domicile scrutiny.",
+    "controversiesKo": "다이아몬드 산업 분쟁 다이아몬드 논쟁·표준 럭셔리 산업 세금 거주지 감시."
+  },
+  "characterKo": { "summaryKo": "런던 동부 노동자 계급에서 글로벌 다이아몬드 거물.", "tagsKo": ["Graff Diamonds", "63년 자수성가", "고급 보석"] },
+  "failures": [
+    { "year": 2009, "description": "2008 luxury market crash affected high-jewelry sales.", "descriptionKo": "2008 럭셔리 시장 폭락이 고급 보석 판매 영향.", "lesson": "Luxury exposed to wealth-cycle.", "lessonKo": "럭셔리가 부 사이클 노출." },
+    { "year": 2020, "description": "COVID-19 closed luxury retail temporarily.", "descriptionKo": "COVID-19이 럭셔리 소매 일시 폐쇄.", "lesson": "Physical retail faces pandemic risk.", "lessonKo": "물리적 소매가 팬데믹 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.1 }, { "year": 2020, "netWorth": 3.3 }, { "year": 2024, "netWorth": 4.3 }, { "year": 2025, "netWorth": 4.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I left school at 15 to learn diamonds. Sixty years later I still learn.", "textKo": "나는 15세에 다이아몬드를 배우러 학교를 떠났다. 60년 후에도 여전히 배운다.", "context": "On craftsmanship", "contextKo": "장인정신에 대해", "source": "https://www.graff.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Ja day pillar in O month — 'siksin-gyeok', creative output, fitting craftsman jeweler.", "summaryKo": "병자 일주 + 오월 식신격은 장인 보석상 자수성가와 호응." }
+}

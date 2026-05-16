@@ -1,0 +1,42 @@
+{
+  "id": "886", "name": "Eduardo Hochschild", "nameKo": "에두아르도 호흐실트",
+  "netWorth": 4.6, "nationality": "PE", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Lima, Peru", "birthPlaceKo": "페루 리마",
+    "familyBackground": "Born to Hochschild family — German-Jewish-Peruvian mining dynasty. Grandfather Mauricio Hochschild built the Hochschild Mining empire across South America in the 20th century. Father Luis Hochschild also led the family business.",
+    "familyBackgroundKo": "Hochschild 가족(독일-유대인-페루 광업 왕조)에서 출생. 할아버지 Mauricio Hochschild가 20세기 남아메리카 전역에 걸쳐 Hochschild Mining 제국 구축. 아버지 Luis Hochschild도 가족 사업 주도.",
+    "education": "Brown University and Tufts University (engineering/business).",
+    "educationKo": "브라운 대학교·Tufts 대학교(공학/경영).",
+    "earlyLife": "Joined family Hochschild Mining operations in his twenties; took over leadership in 1996.",
+    "earlyLifeKo": "20대에 가족 Hochschild Mining 운영 합류; 1996년 리더십 인수.",
+    "source": "https://en.wikipedia.org/wiki/Hochschild_Mining"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Hochschild 가족 광업 자본 + 본인 운영 주도." },
+  "careerTimeline": [
+    { "year": 1996, "age": 33, "event": "Took over leadership of Hochschild Mining following father's withdrawal.", "eventKo": "아버지 철수 후 Hochschild Mining 리더십 인수.", "whyItMatteredKo": "차세대 가부장 정체성 시작." },
+    { "year": 2006, "age": 43, "event": "Hochschild Mining IPO on London Stock Exchange — gave public-market valuation to family silver-gold operations across Peru and Argentina.", "eventKo": "Hochschild Mining 런던 증시 IPO — 페루·아르헨티나의 가족 은·금 운영에 공개 시장 평가 제공.", "whyItMatteredKo": "가족 자본 가시화의 결정적 단계." },
+    { "year": 2014, "age": 51, "event": "Founded Cementos Pacasmayo (Peruvian cement) and diversified family wealth beyond mining; chairman of Innovative Education programs in Peru.", "eventKo": "Cementos Pacasmayo(페루 시멘트) 창립과 광업 너머 가족 부 다각화; 페루 혁신 교육 프로그램 의장.", "whyItMatteredKo": "단일 산업 의존 해소." },
+    { "year": 2020, "age": 57, "event": "COVID-19 boosted gold and silver prices; Hochschild Mining benefited from commodity supercycle but Peruvian political instability created operational challenges.", "eventKo": "COVID-19이 금·은 가격 부스트; Hochschild Mining이 상품 슈퍼 사이클 수혜였지만 페루 정치 불안정성이 운영 도전 야기.", "whyItMatteredKo": "거시 환경 + 지역 정치의 양날." },
+    { "year": 2025, "age": 62, "event": "Personal net worth at $4.6B per Forbes Real-Time. Continues as Hochschild Mining executive chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 46억 달러. Hochschild Mining 집행 의장 계속.", "whyItMatteredKo": "30년 가족 가부장 누적 결과." }
+  ],
+  "turningPoints": [{ "year": 1996, "age": 33, "decisionKo": "가족 광업 리더십 인수", "alternativeKo": "다른 직업 경로", "outcomeKo": "30년 가족 가부장" }, { "year": 2014, "age": 51, "decisionKo": "광업 너머 시멘트·교육으로 다각화", "alternativeKo": "광업 단일 집중", "outcomeKo": "다각화 가족 자본" }],
+  "moneyMechanics": { "primaryRevenueKo": "Hochschild Mining(LSE 상장) + Cementos Pacasmayo + Peruvian 사적 투자", "industryKo": "광업(은·금)·시멘트·교육 자선", "businessModelKo": "남미 금속 광업 + 페루 시멘트·교육 다각화", "moatKo": "다세대 페루 광업 인맥 + 글로벌 자본 시장 접근", "luckVsSkillKo": "운(50%): 가족 자본. 실력(50%): 30년 운영 + 다각화." },
+  "personalTraits": {
+    "knownFor": "Executive Chairman of Hochschild Mining; third-generation heir of South American silver-gold dynasty; Peru's leading private-sector educational philanthropist (founded Toulouse Lautrec Institute).",
+    "knownForKo": "Hochschild Mining 집행 의장; 남미 은-금 왕조의 3세대 상속자; 페루의 선도 사설 부문 교육 자선가(Toulouse Lautrec Institute 창립).",
+    "philanthropy": "Founded Toulouse Lautrec Institute (Peru's leading design school) and Innova Schools network (low-cost private schools across Peru).",
+    "philanthropyKo": "Toulouse Lautrec Institute(페루의 선도 디자인 학교)와 Innova Schools 네트워크(페루 전역 저비용 사립학교) 창립.",
+    "controversies": "Hochschild Mining has faced sustained environmental criticism over mining operations in Peruvian highlands; Peruvian political instability creates ongoing operational risk.",
+    "controversiesKo": "Hochschild Mining이 페루 고원 광업 운영에 대한 지속적 환경 비판 직면; 페루 정치 불안정성이 지속적 운영 리스크 창출."
+  },
+  "characterKo": { "summaryKo": "3세대 페루 광업 가부장 + 교육 자선가 정체성.", "tagsKo": ["Hochschild Mining", "3세대 광업", "Innova Schools", "페루 교육"] },
+  "failures": [
+    { "year": 2021, "description": "Peruvian government temporarily threatened to revoke Hochschild Mining permits in Ayacucho region; multi-month political-regulatory crisis.", "descriptionKo": "페루 정부가 아야쿠초 지역 Hochschild Mining 면허 취소 위협 일시; 다월 정치-규제 위기.", "lesson": "Mining permits face regime-change-style political risk.", "lessonKo": "광업 면허는 정권 교체식 정치 리스크에 직면한다." },
+    { "year": 2023, "description": "Multi-year Peruvian political instability and protests disrupted multiple mining operations across the region.", "descriptionKo": "다년간 페루 정치 불안정성·시위가 지역 다수 광업 운영 혼란.", "lesson": "Country-concentrated mining wealth is exposed to single-country political cycles.", "lessonKo": "국가 집중 광업 부는 단일 국가 정치 사이클에 노출된다." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 2.1 }, { "year": 2022, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.3 }, { "year": 2025, "netWorth": 4.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Peruvian metals built our family. Peruvian education is how we give back.", "textKo": "페루 금속이 우리 가족을 만들었다. 페루 교육은 우리가 돌려주는 방법이다.", "context": "On Innova Schools and Toulouse Lautrec", "contextKo": "Innova Schools·Toulouse Lautrec에 대해", "source": "https://www.innovaschools.edu.pe" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Sa day pillar in Hae month — 'siksin-gyeok', steady creative output, fitting a third-generation mining-and-education heir.", "summaryKo": "신사 일주 + 해월 식신격은 3세대 광업·교육 자선가의 정체성과 호응." }
+}
