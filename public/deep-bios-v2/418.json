@@ -1,0 +1,40 @@
+{
+  "id": "418", "name": "Patrick Drahi", "nameKo": "패트릭 드라히",
+  "netWorth": 8.2, "nationality": "FR", "industry": "Telecom",
+  "childhood": {
+    "birthPlace": "Casablanca, Morocco", "birthPlaceKo": "모로코 카사블랑카",
+    "familyBackground": "Born to Moroccan-Jewish family in Casablanca; migrated to France with parents.", "familyBackgroundKo": "카사블랑카 모로코 유대인 가정에서 출생; 부모와 프랑스 이주.",
+    "education": "Ecole Polytechnique; Telecom ParisTech.", "educationKo": "에콜 폴리테크닉; 텔레콤 파리테크.",
+    "earlyLife": "Worked at Philips, ABC Communications; built career in French cable telecoms; founded Numericable in 1990s; built Altice as global telecom-and-media holding.",
+    "earlyLifeKo": "Philips·ABC Communications 근무; 프랑스 케이블 통신 경력 구축; 1990년대 Numericable 창립; Altice를 글로벌 통신·미디어 지주로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Patrick_Drahi"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Altice 30+년 자수성가 — 레버리지 통신 인수." },
+  "careerTimeline": [
+    { "year": 1991, "age": 28, "event": "Founded Numericable cable-TV business in France.", "eventKo": "프랑스에서 Numericable 케이블 TV 사업 창립.", "whyItMatteredKo": "통신 출발선." },
+    { "year": 2002, "age": 39, "event": "Founded Altice as international telecom holding company.", "eventKo": "Altice를 국제 통신 지주 회사로 창립.", "whyItMatteredKo": "Altice 출발선." },
+    { "year": 2014, "age": 51, "event": "Acquired SFR (France's #2 mobile carrier) for €13B; Altice France major.", "eventKo": "SFR(프랑스 2위 모바일 사업자)를 130억 유로 인수; Altice France 메이저.", "whyItMatteredKo": "프랑스 메이저 단계." },
+    { "year": 2015, "age": 52, "event": "Acquired Cablevision (US) for $17.7B; Altice USA became major US cable operator.", "eventKo": "Cablevision(미국)을 177억 달러 인수; Altice USA가 주요 미국 케이블 운영사가 됨.", "whyItMatteredKo": "미국 메이저 단계." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $8.2B per Forbes Real-Time. Altice continues debt restructuring amid sustained scrutiny.", "eventKo": "포브스 실시간 기준 개인 순자산 82억 달러. 지속적 감시 속에 Altice 부채 재구조화 계속.", "whyItMatteredKo": "30+년 자수성가 + 부채 잔여." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 51, "decisionKo": "공격적 레버리지로 SFR 인수", "alternativeKo": "유기적 성장", "outcomeKo": "글로벌 통신 거물 + 거대 부채 부담" }],
+  "moneyMechanics": { "primaryRevenueKo": "Altice Europe + Altice USA + 다각화 미디어", "industryKo": "통신·케이블·미디어", "businessModelKo": "레버리지 통신 인수·통합 + 케이블·모바일·미디어", "moatKo": "30+년 통신 인수·통합 노하우 + 글로벌 인프라", "luckVsSkillKo": "운(35%): 저금리 시대 레버리지. 실력(65%): 30+년 통합 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Altice; one of France's wealthiest telecom magnates; major Sotheby's owner.",
+    "knownForKo": "Altice 창립자; 프랑스 최대 통신 거물 중 한 명; 주요 Sotheby's 소유주.",
+    "philanthropy": "Drahi Foundation supports Jewish education and Israeli causes.",
+    "philanthropyKo": "Drahi 재단이 유대인 교육·이스라엘 사업 지원.",
+    "controversies": "2023 Altice USA fraud and bribery investigation by Portuguese, French, and US authorities; massive Altice debt scrutiny.",
+    "controversiesKo": "2023 포르투갈·프랑스·미국 당국의 Altice USA 사기·뇌물 조사; 거대 Altice 부채 감시."
+  },
+  "characterKo": { "summaryKo": "모로코 출신 프랑스 통신 거물 + 레버리지 인수 전략가.", "tagsKo": ["Altice", "Sotheby's", "레버리지 통신", "프랑스·모로코"] },
+  "failures": [
+    { "year": 2023, "description": "Multi-jurisdictional fraud/bribery investigation across Portugal, France, US; major reputational damage.", "descriptionKo": "포르투갈·프랑스·미국 다관할 사기·뇌물 조사; 주요 평판 손상.", "lesson": "Aggressive leveraged acquisitions create cross-border legal exposure.", "lessonKo": "공격적 레버리지 인수가 국경 간 법적 노출 야기." },
+    { "year": 2022, "description": "Rising interest rates compressed Altice's heavily leveraged structure; debt restructuring required.", "descriptionKo": "금리 상승으로 Altice의 고 레버리지 구조 압축; 부채 재구조화 필요.", "lesson": "Leveraged-acquisition models face rate-cycle exposure.", "lessonKo": "레버리지 인수 모델은 금리 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 14.0 }, { "year": 2020, "netWorth": 7.6 }, { "year": 2024, "netWorth": 6.8 }, { "year": 2025, "netWorth": 8.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Telecom is a business of network effects and patience.", "textKo": "통신은 네트워크 효과와 인내의 사업이다.", "context": "On telecom industry", "contextKo": "통신 산업에 대해", "source": "https://www.altice.net" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Mi day pillar in Shin month — 'jeonggwan-gyeok', formal authority, fitting heavily regulated telecom operator.", "summaryKo": "을미 일주 + 신월 정관격(공식 권위·규제 아래에서 일하는 구조)은 30+년 통신 산업의 정부 규제·라이선스·국가 안보 환경과 호응합니다. 을목 일간의 부드러운 식물 기질이 케이블·미디어라는 콘텐츠 산업과 통하고, 신금 월지의 금 기운이 통신 인프라의 정밀 운영과 통합니다." }
+}

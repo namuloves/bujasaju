@@ -1,0 +1,38 @@
+{
+  "id": "922", "name": "Fabien Pinckaers", "nameKo": "파비앙 핀카에르스",
+  "netWorth": 4.4, "nationality": "BE", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Belgium", "birthPlaceKo": "벨기에",
+    "familyBackground": "Born to Belgian middle-class family.", "familyBackgroundKo": "벨기에 중산층 가정에서 출생.",
+    "education": "Universite catholique de Louvain (computer engineering).", "educationKo": "루뱅 가톨릭 대학교(컴퓨터 공학).",
+    "earlyLife": "Founded TinyERP (later Odoo) in 2005 as student project — open-source business-management software.",
+    "earlyLifeKo": "2005년 학생 프로젝트로 TinyERP(이후 Odoo) 창립 — 오픈소스 비즈니스 관리 소프트웨어.",
+    "source": "https://en.wikipedia.org/wiki/Odoo"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Odoo 20년 자수성가." },
+  "careerTimeline": [
+    { "year": 2005, "age": 26, "event": "Founded TinyERP (later Odoo) in Belgium as open-source ERP.", "eventKo": "벨기에에서 TinyERP(이후 Odoo) 오픈소스 ERP 창립.", "whyItMatteredKo": "20년 자수성가 출발선." },
+    { "year": 2014, "age": 35, "event": "Rebranded as Odoo; transitioned to SaaS subscription model.", "eventKo": "Odoo로 리브랜딩; SaaS 구독 모델로 전환.", "whyItMatteredKo": "SaaS 단계." },
+    { "year": 2019, "age": 40, "event": "Odoo raised $90M Series B at $1B+ valuation; became unicorn.", "eventKo": "Odoo가 10억 달러+ 밸류에이션 시리즈 B 9,000만 달러 조달; 유니콘이 됨.", "whyItMatteredKo": "유니콘 단계." },
+    { "year": 2023, "age": 44, "event": "Odoo raised $150M+ at $5B+ valuation; major SMB ERP leader.", "eventKo": "Odoo가 50억 달러+ 밸류에이션 1억 5,000만 달러+ 조달; 주요 SMB ERP 리더.", "whyItMatteredKo": "유니콘 정점." },
+    { "year": 2025, "age": 46, "event": "Personal net worth at $4.4B per Forbes Real-Time. Continues as Odoo CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 44억 달러. Odoo CEO 계속.", "whyItMatteredKo": "20년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 35, "decisionKo": "오픈소스에서 SaaS 구독 모델로 전환", "alternativeKo": "오픈소스 잔류", "outcomeKo": "11년 후 50억 달러+ SMB ERP 유니콘" }],
+  "moneyMechanics": { "primaryRevenueKo": "Odoo S.A.(비공개) 창립자 지분", "industryKo": "엔터프라이즈 SaaS(ERP)", "businessModelKo": "오픈소스 + SaaS 구독 + 글로벌 파트너 네트워크", "moatKo": "오픈소스 커뮤니티 + 20년 SMB 고객 베이스", "luckVsSkillKo": "운(30%): SaaS 부상. 실력(70%): 20년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of Odoo; pioneering open-source enterprise software entrepreneur.",
+    "knownForKo": "Odoo 창립자·CEO; 선구적 오픈소스 엔터프라이즈 소프트웨어 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard SaaS-pricing controversies with open-source community.", "controversiesKo": "제한적; 오픈소스 커뮤니티와의 표준 SaaS 가격 논란."
+  },
+  "characterKo": { "summaryKo": "벨기에 학생 프로젝트가 Odoo 글로벌 SMB ERP 유니콘이 됨.", "tagsKo": ["Odoo", "오픈소스 ERP", "벨기에 기업가"] },
+  "failures": [
+    { "year": 2014, "description": "Open-source community pushback against move toward proprietary SaaS modules.", "descriptionKo": "오픈소스 커뮤니티가 비공개 SaaS 모듈로의 전환에 반발.", "lesson": "Open-source business-model transitions create community-trust risk.", "lessonKo": "오픈소스 비즈니스 모델 전환은 커뮤니티 신뢰 리스크 야기." },
+    { "year": 2022, "description": "Rising interest rates and SaaS-stock decline compressed Odoo valuation environment.", "descriptionKo": "금리 상승·SaaS 주식 하락이 Odoo 밸류에이션 환경 압축.", "lesson": "Private SaaS valuations follow public-market cycle.", "lessonKo": "비공개 SaaS 밸류에이션은 공개 시장 사이클을 따른다." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.2 }, { "year": 2023, "netWorth": 4.0 }, { "year": 2024, "netWorth": 4.2 }, { "year": 2025, "netWorth": 4.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Open source removed the SAP price tag from the SMB world.", "textKo": "오픈소스는 SAP 가격표를 SMB 세계에서 제거했다.", "context": "On Odoo origins", "contextKo": "Odoo 기원에 대해", "source": "https://www.odoo.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Mi day pillar in Jin month — 'jeongin-gyeok', maternal-academic foundation, fitting university-startup founder.", "summaryKo": "신미 일주 + 진월 정인격(공식 자격·학문 자본)은 대학교 학생 프로젝트로 시작해 글로벌 SaaS 유니콘으로 성장한 그의 학문·문서 자본 기반 자수성가와 호응합니다. 신금 일간의 예리한 금속 기질이 소프트웨어 코드의 정밀함과 통하고, 미토 일지·진토 월지의 토 기운이 20년 회사 자본의 안정 기반을 가리킵니다." }
+}

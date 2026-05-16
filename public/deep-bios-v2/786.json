@@ -1,0 +1,38 @@
+{
+  "id": "786", "name": "Reinhold Schmieding", "nameKo": "라인홀드 슈미딩",
+  "netWorth": 5.2, "nationality": "US", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Michigan State University.", "educationKo": "미시간 주립대학교.",
+    "earlyLife": "Founded Arthrex in 1981 — orthopedic-surgical-instruments and implants manufacturer focused on arthroscopy and minimally invasive surgery.",
+    "earlyLifeKo": "1981년 Arthrex 창립 — 관절경·최소 침습 수술 집중 정형외과 수술 기구·임플란트 제조사.",
+    "source": "https://www.forbes.com/profile/reinhold-schmieding/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Arthrex 44년 자수성가 (100% 소유)." },
+  "careerTimeline": [
+    { "year": 1981, "age": 26, "event": "Founded Arthrex in Munich, Germany; began orthopedic-surgery products.", "eventKo": "독일 뮌헨에서 Arthrex 창립; 정형외과 수술 제품 시작.", "whyItMatteredKo": "44년 자수성가 출발선." },
+    { "year": 1991, "age": 36, "event": "Moved Arthrex US HQ to Naples, Florida; expanded US operations.", "eventKo": "Arthrex 미국 본사를 플로리다 네이플스로 이전; 미국 운영 확장.", "whyItMatteredKo": "미국 확장 단계." },
+    { "year": 2010, "age": 55, "event": "Arthrex became major global arthroscopy-equipment manufacturer; expanded sports-medicine portfolio.", "eventKo": "Arthrex가 주요 글로벌 관절경 장비 제조사가 됨; 스포츠 의학 포트폴리오 확장.", "whyItMatteredKo": "글로벌 메이저 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $5.2B per Forbes Real-Time. Arthrex revenue exceeds $4B annually as 100%-owned company.", "eventKo": "포브스 실시간 기준 개인 순자산 52억 달러. Arthrex가 100% 소유 회사로 연 매출 40억 달러+.", "whyItMatteredKo": "44년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1991, "age": 36, "decisionKo": "Arthrex 미국 본사 플로리다로 이전", "alternativeKo": "독일 잔류", "outcomeKo": "34년 후 미국 최대 비공개 정형외과 회사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Arthrex Inc.(100% 소유)", "industryKo": "정형외과 수술 기구·임플란트", "businessModelKo": "관절경·스포츠 의학 + 외과의 훈련 + 글로벌 채널", "moatKo": "44년 외과의 훈련 네트워크 + 100% 소유 (IPO 없음)", "luckVsSkillKo": "운(30%): 글로벌 정형외과 시장 부상. 실력(70%): 44년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder and 100% owner of Arthrex; pioneering orthopedic-surgical-instruments entrepreneur; major Naples, Florida philanthropist.",
+    "knownForKo": "Arthrex 창립자·100% 소유주; 선구적 정형외과 수술 기구 기업가; 주요 플로리다 네이플스 자선가.",
+    "philanthropy": "Supports Naples, Florida community, Naples Children & Education Foundation.",
+    "philanthropyKo": "플로리다 네이플스 지역 사회·Naples Children & Education Foundation 지원.",
+    "controversies": "Standard medical-device industry FDA scrutiny.", "controversiesKo": "표준 의료 기기 산업 FDA 감시."
+  },
+  "characterKo": { "summaryKo": "Arthrex 44년 100% 소유 자수성가 — 비공개 정형외과 메이저.", "tagsKo": ["Arthrex", "100% 소유", "44년 자수성가", "네이플스 자선가"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted elective orthopedic surgeries globally; Arthrex revenue briefly compressed.", "descriptionKo": "COVID-19이 글로벌 선택적 정형외과 수술 혼란; Arthrex 매출 잠시 압축.", "lesson": "Elective medical devices face pandemic exposure.", "lessonKo": "선택적 의료 기기는 팬데믹 노출 직면." },
+    { "year": 2008, "description": "Global financial crisis briefly compressed elective-surgery demand; Arthrex absorbed slowdown.", "descriptionKo": "글로벌 금융위기로 선택적 수술 수요 잠시 압축; Arthrex가 둔화 흡수.", "lesson": "Elective surgery faces wealth-cycle compression.", "lessonKo": "선택적 수술은 부 사이클 압축 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I have never taken Arthrex public. I see no reason to start.", "textKo": "Arthrex를 공개한 적이 없다. 시작할 이유가 없다.", "context": "On private ownership", "contextKo": "비공개 소유에 대해", "source": "https://www.arthrex.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Ja day pillar in Ja month — 'siksin-gyeok', creative output, fitting medical-device innovator.", "summaryKo": "갑자 일주 + 자월 식신격(창의적 결과물·표현)은 44년에 걸쳐 정형외과 수술 기구라는 손재주·창의 산업에서 끊임없이 새 기구를 개발해온 그의 경로와 호응합니다. 갑목 일간의 큰 나무·기둥 기질이 100% 소유 회사 가부장 역할과 통하고, 자수 일지·자수 월지의 강한 수 기운이 자본의 거대 유동성과 통합니다." }
+}

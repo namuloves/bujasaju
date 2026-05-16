@@ -1,0 +1,39 @@
+{
+  "id": "966", "name": "Michael Jeffrey Jordan", "nameKo": "마이클 제프리 조던",
+  "netWorth": 4.3, "nationality": "US", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "Brooklyn, New York, USA", "birthPlaceKo": "미국 뉴욕 브루클린",
+    "familyBackground": "Born to working-class African-American family; raised in North Carolina.", "familyBackgroundKo": "노동자 계급 아프리카계 미국인 가정에서 출생; 노스캐롤라이나에서 성장.",
+    "education": "University of North Carolina (cultural geography).", "educationKo": "노스캐롤라이나 대학교(문화 지리학).",
+    "earlyLife": "Played college basketball at UNC; drafted by Chicago Bulls in 1984; 6× NBA champion; signed Nike Air Jordan deal in 1984.",
+    "earlyLifeKo": "UNC에서 대학 농구; 1984년 시카고 불스에 드래프트; 6회 NBA 챔피언; 1984년 Nike 에어 조던 계약.",
+    "source": "https://en.wikipedia.org/wiki/Michael_Jordan"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Nike Air Jordan 로열티 + Charlotte Hornets 매각." },
+  "careerTimeline": [
+    { "year": 1984, "age": 21, "event": "Drafted by Chicago Bulls; signed Nike Air Jordan endorsement.", "eventKo": "시카고 불스에 드래프트; Nike 에어 조던 광고 계약.", "whyItMatteredKo": "Nike 로열티 출발선." },
+    { "year": 1998, "age": 35, "event": "Won 6th NBA championship; retired (first time); Air Jordan brand cemented as global phenomenon.", "eventKo": "6회 NBA 챔피언; 은퇴(첫 번째); 에어 조던 브랜드가 글로벌 현상으로 굳혀짐.", "whyItMatteredKo": "농구·브랜드 정점." },
+    { "year": 2010, "age": 47, "event": "Acquired Charlotte Bobcats (later Hornets) NBA team for $275M.", "eventKo": "Charlotte Bobcats(이후 Hornets) NBA 팀 2억 7,500만 달러에 인수.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 2023, "age": 60, "event": "Sold majority stake in Charlotte Hornets for $3B+ — major exit.", "eventKo": "Charlotte Hornets 다수 지분을 30억 달러+ 매각 — 주요 엑시트.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2025, "age": 62, "event": "Personal net worth at $4.3B per Forbes Real-Time. Nike Air Jordan royalties continue to drive wealth.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러. Nike 에어 조던 로열티가 부 계속 견인.", "whyItMatteredKo": "스포츠·브랜드 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1984, "age": 21, "decisionKo": "Nike Air Jordan 신인 엔도스먼트 계약 (당시 비전형)", "alternativeKo": "Adidas·기존 회사 계약", "outcomeKo": "40년 후 글로벌 스포츠 브랜드 + 40억 달러 부" }],
+  "moneyMechanics": { "primaryRevenueKo": "Nike Air Jordan 브랜드 로열티 + Charlotte Hornets 매각 대금 + Cincoro 데킬라", "industryKo": "스포츠 + 브랜드 라이선싱", "businessModelKo": "Nike 영구 로열티 + NBA 팀 매각 + 다각화 투자", "moatKo": "농구 역사의 사실상 표준 + Nike 영구 계약", "luckVsSkillKo": "운(20%): NBA 시대 + Nike 계약 타이밍. 실력(80%): 농구 역량 + 평생 브랜드 일관성." },
+  "personalTraits": {
+    "knownFor": "Greatest NBA player ever; Air Jordan brand namesake; former Charlotte Hornets majority owner; first basketball-player billionaire.",
+    "knownForKo": "역대 최고 NBA 선수; 에어 조던 브랜드 이름; 전 Charlotte Hornets 다수 소유주; 최초 농구 선수 억만장자.",
+    "philanthropy": "Michael Jordan Foundation supports education, hospitals; 2020 $100M criminal-justice and education donation.", "philanthropyKo": "Michael Jordan Foundation이 교육·병원 지원; 2020 1억 달러 형사 사법·교육 기부.",
+    "controversies": "Multiple gambling scandals during NBA career; 1993 father's murder; Charlotte Hornets fan criticism over team performance.",
+    "controversiesKo": "NBA 경력 중 다수 도박 스캔들; 1993 아버지 살해; 팀 성과에 대한 Charlotte Hornets 팬 비판."
+  },
+  "characterKo": { "summaryKo": "역대 최고 NBA 선수 + Air Jordan 영구 브랜드 + 첫 농구 선수 억만장자.", "tagsKo": ["Air Jordan", "Chicago Bulls 6회 챔피언", "Charlotte Hornets", "첫 농구 선수 억만장자"] },
+  "failures": [
+    { "year": 1995, "description": "MLB minor-league baseball stint (1994-1995) widely criticized; returned to NBA.", "descriptionKo": "MLB 마이너 리그 야구(1994-1995) 광범위 비판; NBA 복귀.", "lesson": "Even elite athletes face cross-sport adaptation difficulty.", "lessonKo": "엘리트 운동선수도 종목 간 적응 어려움 직면." },
+    { "year": 2010, "description": "Charlotte Bobcats/Hornets struggled with team performance and revenue during Jordan ownership 2010-2020s.", "descriptionKo": "Jordan 소유 2010-2020년대 동안 Charlotte Bobcats/Hornets가 팀 성과·매출에 어려움.", "lesson": "Player greatness does not transfer to ownership success.", "lessonKo": "선수 위대함이 소유주 성공으로 이전되지 않는다." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.6 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I've failed over and over again. That is why I succeed.", "textKo": "나는 거듭 실패했다. 그래서 성공한다.", "context": "On career philosophy", "contextKo": "경력 철학에 대해", "source": "https://en.wikipedia.org/wiki/Michael_Jordan" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Myo day pillar in In month — 'jeongjae-gyeok', steady brand-royalty accumulation, fitting endorsement-fueled wealth.", "summaryKo": "신묘 일주 + 인월 정재격(고정 자산·꾸준한 매출)은 40년에 걸쳐 영구 Air Jordan 로열티라는 매년 누적되는 안정 자본과 호응합니다. 신금 일간의 예리한 금속·정밀 분석 기질이 농구 게임 결단의 정밀함과 통하고, 묘목 일지·인목 월지의 강한 목 기운이 평생 성장한 브랜드 가치를 가리킵니다." }
+}

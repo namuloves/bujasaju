@@ -1,0 +1,40 @@
+{
+  "id": "973", "name": "Sukanto Tanoto", "nameKo": "수칸토 타노토",
+  "netWorth": 4.2, "nationality": "ID", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Medan, Indonesia", "birthPlaceKo": "인도네시아 메단",
+    "familyBackground": "Born to Indonesian-Chinese family in Sumatra; left school at 17 due to family financial difficulties.", "familyBackgroundKo": "수마트라 인도네시아·중국 가정에서 출생; 17세에 가족 재정 어려움으로 학교 떠남.",
+    "education": "Limited formal education; later honorary degrees.", "educationKo": "정규 교육 제한적; 이후 명예 학위.",
+    "earlyLife": "Built career in plywood and palm-oil; founded Royal Golden Eagle (RGE) Group — Indonesian pulp/paper, palm-oil, viscose-rayon conglomerate.",
+    "earlyLifeKo": "합판·팜유 경력 구축; Royal Golden Eagle(RGE) Group 창립 — 인도네시아 펄프·종이·팜유·비스코스 레이온 대기업.",
+    "source": "https://en.wikipedia.org/wiki/Sukanto_Tanoto"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "RGE Group 50+년 자수성가." },
+  "careerTimeline": [
+    { "year": 1967, "age": 18, "event": "Began Sumatra plywood and timber trade.", "eventKo": "수마트라 합판·목재 무역 시작.", "whyItMatteredKo": "58년 자수성가 출발선." },
+    { "year": 1980, "age": 31, "event": "Founded Royal Golden Eagle (RGE) Group; began Indonesian pulp/paper expansion.", "eventKo": "Royal Golden Eagle(RGE) Group 창립; 인도네시아 펄프·종이 확장 시작.", "whyItMatteredKo": "RGE 출발선." },
+    { "year": 2000, "age": 51, "event": "RGE Group expanded into palm-oil and viscose-rayon — became major diversified Indonesian conglomerate.", "eventKo": "RGE Group이 팜유·비스코스 레이온 확장 — 주요 다각화 인도네시아 대기업이 됨.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2018, "age": 69, "event": "RGE Group expanded into specialty cellulose for textiles, energy biomass.", "eventKo": "RGE Group이 섬유용 특수 셀룰로스·에너지 바이오매스 확장.", "whyItMatteredKo": "전문화 단계." },
+    { "year": 2025, "age": 76, "event": "Personal net worth at $4.2B per Forbes Real-Time. Continues as RGE Group chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 42억 달러. RGE Group 의장 계속.", "whyItMatteredKo": "58년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1980, "age": 31, "decisionKo": "합판 무역에서 펄프·종이 + 팜유 + 다각화로 전환", "alternativeKo": "합판 잔류", "outcomeKo": "45년 후 다각화 인도네시아 대기업 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "RGE Group (April, Apical, Bracell, Sateri) 가족 통제", "industryKo": "펄프·종이 + 팜유 + 비스코스 레이온 + 에너지 다각화", "businessModelKo": "수마트라·중국·브라질 산림·농업 자원 + 글로벌 셀룰로스·팜유 수출", "moatKo": "50+년 인도네시아 산림 입지 + 가족 통제", "luckVsSkillKo": "운(45%): 1980-2020 아시아 산림·팜유 슈퍼사이클. 실력(55%): 50+년 단일 비전 다각화." },
+  "personalTraits": {
+    "knownFor": "Founder of Royal Golden Eagle (RGE) Group; Indonesian palm-oil, pulp/paper, viscose-rayon magnate.",
+    "knownForKo": "Royal Golden Eagle(RGE) Group 창립자; 인도네시아 팜유·펄프·종이·비스코스 레이온 거물.",
+    "philanthropy": "Tanoto Foundation supports Indonesian education, healthcare research; major SMU Tanoto School of Education patron.",
+    "philanthropyKo": "Tanoto 재단이 인도네시아 교육·헬스케어 연구 지원; 주요 SMU Tanoto 교육 학교 후원자.",
+    "controversies": "Sustained Indonesian deforestation, peatland fire, and labor criticism from NGOs; 1990s-2000s tax disputes with Indonesian government.",
+    "controversiesKo": "NGO들로부터 지속적 인도네시아 산림 파괴·이탄지 화재·노동 비판; 1990-2000년대 인도네시아 정부와 세금 분쟁."
+  },
+  "characterKo": { "summaryKo": "수마트라 합판 무역에서 인도네시아 산림·팜유 대기업 가부장으로 58년 자수성가.", "tagsKo": ["RGE Group", "April", "팜유·펄프", "58년 자수성가"] },
+  "failures": [
+    { "year": 2015, "description": "Indonesian peatland fires sparked sustained NGO and consumer-brand boycott of RGE/April pulp products.", "descriptionKo": "인도네시아 이탄지 화재가 RGE/April 펄프 제품에 대한 지속적 NGO·소비자 브랜드 보이콧 촉발.", "lesson": "Resource-extraction industries face environmental tail risk.", "lessonKo": "자원 추출 산업은 환경 잔여 리스크 직면." },
+    { "year": 2007, "description": "Indonesian government dispute over $190M tax claim led to multi-year legal battles.", "descriptionKo": "인도네시아 정부가 1억 9,000만 달러 세금 청구 분쟁이 다년간 법적 다툼 야기.", "lesson": "Resource-extraction in single country faces state-vs-business risk.", "lessonKo": "단일 국가 자원 추출은 국가 대 사업 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.4 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 4.0 }, { "year": 2025, "netWorth": 4.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Indonesia's forests fed my family. Now they must feed the world responsibly.", "textKo": "인도네시아의 숲이 내 가족을 먹였다. 이제 그 숲이 세계를 책임 있게 먹여야 한다.", "context": "On forest stewardship", "contextKo": "산림 청지기에 대해", "source": "https://www.rgei.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Chuk day pillar in Ja month — 'jeongin-gyeok', maternal-academic-family support, fitting late-blooming diversified industrial.", "summaryKo": "기축 일주 + 자월 정인격(가족·문서·자격 권위)은 50+년에 걸쳐 가족 자본을 산림·팜유·펄프로 누적해온 그의 경로와 호응합니다. 기토 일간의 작은 흙·세밀한 농경 기질이 산림 + 팜유라는 농업 산업과 직접 통하고, 축토 일지·자수 월지의 토·수 기운이 자본의 안정 기반 + 자본 유동성을 가리킵니다." }
+}

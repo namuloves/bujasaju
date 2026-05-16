@@ -1,0 +1,39 @@
+{
+  "id": "460", "name": "Steven M. Rales", "nameKo": "스티븐 M. 레일스",
+  "netWorth": 7.7, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family; brother of Mitchell Rales.", "familyBackgroundKo": "미국 가정에서 출생; 미첼 레일스의 형제.",
+    "education": "Miami University; DePaul Law School.", "educationKo": "마이애미 대학교; 드폴 로스쿨.",
+    "earlyLife": "Co-founded Danaher Corporation in 1984 with brother Mitchell — pioneering manufacturing-conglomerate roll-up.",
+    "earlyLifeKo": "1984년 형제 미첼과 Danaher Corporation 공동 창립 — 선구적 제조 대기업 롤업.",
+    "source": "https://en.wikipedia.org/wiki/Danaher_Corporation"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Danaher Corporation 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1980, "age": 29, "event": "Began business career with brother Mitchell Rales in real estate.", "eventKo": "형제 미첼 레일스와 부동산 사업 경력 시작.", "whyItMatteredKo": "사업 출발선." },
+    { "year": 1984, "age": 33, "event": "Co-founded Danaher Corporation with brother Mitchell; pioneered Danaher Business System lean-management.", "eventKo": "형제 미첼과 Danaher Corporation 공동 창립; Danaher Business System 린 경영 개척.", "whyItMatteredKo": "Danaher 출발선." },
+    { "year": 2010, "age": 59, "event": "Danaher became one of S&P 500's top performers; spun off Fortive (industrial) and Veralto (water).", "eventKo": "Danaher가 S&P 500 톱 성과자 중 하나가 됨; Fortive(산업)·Veralto(물) 분사.", "whyItMatteredKo": "다각화 + 분사 단계." },
+    { "year": 2016, "age": 65, "event": "Founded Glenstone Museum — major contemporary-art museum near Washington DC.", "eventKo": "Glenstone Museum 창립 — 워싱턴 DC 근처 주요 현대 미술관.", "whyItMatteredKo": "예술 자선가 단계." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $7.7B per Forbes Real-Time. Continues as Danaher major shareholder and Glenstone director.", "eventKo": "포브스 실시간 기준 개인 순자산 77억 달러. Danaher 주요 주주·Glenstone 디렉터 계속.", "whyItMatteredKo": "41년 Danaher + 예술 자선가 정점." }
+  ],
+  "turningPoints": [{ "year": 1984, "age": 33, "decisionKo": "형제와 Danaher 공동 창립", "alternativeKo": "부동산 잔류", "outcomeKo": "41년 후 글로벌 제조 대기업 + 예술 자선가" }],
+  "moneyMechanics": { "primaryRevenueKo": "Danaher Corporation(NYSE 상장) + Fortive + Veralto 공동 창립자 지분", "industryKo": "산업 제조 다각화 (생명과학·진단·환경 도구)", "businessModelKo": "Danaher Business System 운영 효율 + 인수·통합", "moatKo": "41년 인수 통합 + DBS 운영 노하우", "luckVsSkillKo": "운(20%): 1984-2025 S&P 황금기. 실력(80%): 41년 단일 비전 + DBS 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Danaher Corporation; co-founder of Glenstone Museum; renowned art collector.",
+    "knownForKo": "Danaher Corporation 공동 창립자; Glenstone Museum 공동 창립자; 명망 있는 미술품 수집가.",
+    "philanthropy": "Glenstone Foundation operates major contemporary-art museum free to public.", "philanthropyKo": "Glenstone 재단이 대중에게 무료인 주요 현대 미술관 운영.",
+    "controversies": "Glenstone Museum public-access policies criticized by some; standard manufacturing-conglomerate regulatory scrutiny.",
+    "controversiesKo": "Glenstone Museum 공공 접근 정책이 일부 비판; 표준 제조 대기업 규제 감시."
+  },
+  "characterKo": { "summaryKo": "Danaher 공동 창립 + Glenstone 현대 미술관 창립.", "tagsKo": ["Danaher", "Glenstone Museum", "DBS 시스템"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis briefly compressed Danaher acquisitions and stock price.", "descriptionKo": "글로벌 금융위기로 Danaher 인수·주가 잠시 압축.", "lesson": "Industrial-conglomerate M&A pro-cyclical.", "lessonKo": "산업 대기업 M&A는 순응 사이클." },
+    { "year": 2020, "description": "COVID-19 disrupted industrial-equipment customer demand; Danaher absorbed brief slowdown.", "descriptionKo": "COVID-19이 산업 장비 고객 수요 혼란; Danaher가 단기 둔화 흡수.", "lesson": "Industrial demand pro-cyclical with manufacturing capex.", "lessonKo": "산업 수요는 제조업 설비 투자와 순응 사이클." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.9 }, { "year": 2020, "netWorth": 4.5 }, { "year": 2024, "netWorth": 7.3 }, { "year": 2025, "netWorth": 7.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Danaher is a system, not a strategy.", "textKo": "Danaher는 전략이 아닌 시스템이다.", "context": "On Danaher Business System", "contextKo": "Danaher Business System에 대해", "source": "https://www.danaher.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-O day pillar in Myo month — 'jeongjae-gyeok', steady accumulation, fitting industrial-roll-up master.", "summaryKo": "경오 일주 + 묘월 정재격(고정 자산·꾸준한 매출)은 41년에 걸쳐 운영 효율을 통해 안정 자본을 누적한 Danaher 모델과 호응합니다. 경금 일간의 단단한 금속·결단력이 산업 회사 인수·통합의 결단과 통하고, 오화 일지의 화 기운이 미술 자선가 + 예술 활동의 표현 욕구를 가리키며, 정재격이 41년 운영 자본 일관성과 통합니다." }
+}

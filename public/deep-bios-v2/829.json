@@ -1,0 +1,40 @@
+{
+  "id": "829", "name": "Cho Tak Wong", "nameKo": "차오더왕",
+  "netWorth": 5.0, "nationality": "HK", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Fujian, China", "birthPlaceKo": "중국 푸젠성",
+    "familyBackground": "Born to poor Chinese family during Cultural Revolution era.", "familyBackgroundKo": "문화대혁명 시대 가난한 중국 가정에서 출생.",
+    "education": "Left school in 9th grade due to family poverty.", "educationKo": "가족 빈곤으로 9학년에 학교 중퇴.",
+    "earlyLife": "Worked as bicycle repairman, salesman, fruit hawker; founded Fuyao Glass Industry Group in 1987 — became world's largest automotive-glass manufacturer.",
+    "earlyLifeKo": "자전거 수리공·판매원·과일 노점상으로 근무; 1987년 Fuyao Glass Industry Group 창립 — 세계 최대 자동차 유리 제조사가 됨.",
+    "source": "https://en.wikipedia.org/wiki/Cao_Dewang"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Fuyao Glass 38년 자수성가." },
+  "careerTimeline": [
+    { "year": 1976, "age": 30, "event": "Began Chinese small-business trading after Cultural Revolution.", "eventKo": "문화대혁명 후 중국 소규모 사업 무역 시작.", "whyItMatteredKo": "사업 출발선." },
+    { "year": 1987, "age": 41, "event": "Founded Fuyao Glass Industry Group in Fujian.", "eventKo": "푸젠에서 Fuyao Glass Industry Group 창립.", "whyItMatteredKo": "Fuyao 출발선." },
+    { "year": 1993, "age": 47, "event": "Fuyao IPO on Shanghai Stock Exchange.", "eventKo": "Fuyao 상하이 증시 IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2014, "age": 68, "event": "Acquired former GM plant in Moraine, Ohio; turned into Fuyao America — documentary 'American Factory' filmed.", "eventKo": "오하이오 모레인 옛 GM 공장 인수; Fuyao America로 전환 — 다큐멘터리 'American Factory' 촬영.", "whyItMatteredKo": "미국 단계." },
+    { "year": 2025, "age": 79, "event": "Personal net worth at $5.0B per Forbes Real-Time. Continues as Fuyao Glass chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 50억 달러. Fuyao Glass 의장 계속.", "whyItMatteredKo": "38년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1987, "age": 41, "decisionKo": "푸젠에서 자동차 유리 제조사 창립", "alternativeKo": "소규모 사업 잔류", "outcomeKo": "38년 후 세계 최대 자동차 유리 제조사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Fuyao Glass Industry Group(상하이·홍콩 증시) 창립자 지분", "industryKo": "자동차 유리 제조", "businessModelKo": "글로벌 자동차 OEM 공급 + 중국·미국·러시아 생산 기지", "moatKo": "38년 자동차 유리 OEM 인증 + 글로벌 생산 인프라", "luckVsSkillKo": "운(25%): 1990-2010 중국 산업 부상. 실력(75%): 38년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Fuyao Glass; world's largest automotive-glass manufacturer; subject of Oscar-winning 'American Factory' documentary.",
+    "knownForKo": "Fuyao Glass 창립자; 세계 최대 자동차 유리 제조사; 오스카 수상 'American Factory' 다큐멘터리 주인공.",
+    "philanthropy": "Major Chinese philanthropist; Heren Charity Foundation donated $1B+; outspoken Chinese business commentator.",
+    "philanthropyKo": "주요 중국 자선가; Heren Charity Foundation이 10억 달러+ 기부; 노골적 중국 사업 평론가.",
+    "controversies": "Fuyao America labor and union disputes in Ohio; 'American Factory' documentary depicted tensions; outspoken political views.",
+    "controversiesKo": "Fuyao America 오하이오 노동·노조 분쟁; 'American Factory' 다큐멘터리가 긴장 묘사; 노골적 정치 견해."
+  },
+  "characterKo": { "summaryKo": "9학년 중퇴 가난한 농부가 세계 자동차 유리 1위 거물로 38년 자수성가.", "tagsKo": ["Fuyao Glass", "American Factory", "38년 자수성가"] },
+  "failures": [
+    { "year": 2017, "description": "Fuyao America Ohio plant faced union-organizing campaigns; depicted in 'American Factory' documentary.", "descriptionKo": "Fuyao America 오하이오 공장이 노조 조직 캠페인 직면; 'American Factory' 다큐멘터리에 묘사.", "lesson": "Cross-border manufacturing faces labor-cultural friction.", "lessonKo": "국경 간 제조는 노동 문화 마찰 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Chinese and US auto-manufacturing operations; Fuyao revenue compressed.", "descriptionKo": "COVID-19이 중국·미국 자동차 제조 운영 혼란; Fuyao 매출 압축.", "lesson": "Auto-parts manufacturers face pandemic-supply-chain exposure.", "lessonKo": "자동차 부품 제조사는 팬데믹 공급망 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.7 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.8 }, { "year": 2025, "netWorth": 5.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Glass is invisible. The work is not.", "textKo": "유리는 보이지 않는다. 일은 그렇지 않다.", "context": "On manufacturing", "contextKo": "제조업에 대해", "source": "https://www.fuyaogroup.com" }],
+  "books": { "authored": [{ "title": "Heart Like Fire", "year": 2013, "noteKo": "자서전." }], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Chuk day pillar in Sa month — 'pyeon-jae-gyeok', large external wealth, fitting global manufacturing magnate.", "summaryKo": "기축 일주 + 사월 편재격(크고 유동적인 외부 자본)은 글로벌 자동차 OEM이라는 거대 외부 자본 흐름과 호응합니다. 기토 일간의 작은 흙·세밀한 농경 기질이 38년 누적 인내심을 가리키고, 축토 일지의 토 기운이 산업 자본의 안정 기반을 가리키며, 사화 월지의 화 기운이 유리 제조라는 고온 산업과 통합니다." }
+}

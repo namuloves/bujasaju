@@ -1,0 +1,38 @@
+{
+  "id": "659", "name": "Cai Haoyu", "nameKo": "차이 하오위",
+  "netWorth": 6.0, "nationality": "CN", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Shanghai Jiao Tong University.", "educationKo": "상하이 자오퉁 대학교.",
+    "earlyLife": "Co-founded miHoYo with Liu Wei and Luo Yuhao in 2012 — Chinese game studio that built Genshin Impact into one of world's largest mobile RPGs.",
+    "earlyLifeKo": "2012년 류 웨이·뤄 위하오와 miHoYo 공동 창립 — Genshin Impact를 세계 최대 모바일 RPG 중 하나로 만든 중국 게임 스튜디오.",
+    "source": "https://en.wikipedia.org/wiki/MiHoYo"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "miHoYo 공동 창립자 지분 13년 자수성가." },
+  "careerTimeline": [
+    { "year": 2012, "age": 25, "event": "Co-founded miHoYo at Shanghai Jiao Tong University.", "eventKo": "상하이 자오퉁 대학교에서 miHoYo 공동 창립.", "whyItMatteredKo": "13년 자수성가 출발선." },
+    { "year": 2016, "age": 29, "event": "Released Honkai Impact 3rd — first major mobile RPG success.", "eventKo": "Honkai Impact 3rd 출시 — 첫 주요 모바일 RPG 성공.", "whyItMatteredKo": "RPG 단계." },
+    { "year": 2020, "age": 33, "event": "Released Genshin Impact — became global phenomenon, exceeded $1B revenue in 6 months.", "eventKo": "Genshin Impact 출시 — 글로벌 현상이 됨, 6개월에 10억 달러 매출 초과.", "whyItMatteredKo": "글로벌 정점 단계." },
+    { "year": 2024, "age": 37, "event": "Released Honkai: Star Rail and Zenless Zone Zero; multi-game portfolio expanded.", "eventKo": "Honkai: Star Rail·Zenless Zone Zero 출시; 다게임 포트폴리오 확장.", "whyItMatteredKo": "포트폴리오 단계." },
+    { "year": 2025, "age": 38, "event": "Personal net worth at $6.0B per Forbes Real-Time. Continues as miHoYo founder.", "eventKo": "포브스 실시간 기준 개인 순자산 60억 달러. miHoYo 창립자 계속.", "whyItMatteredKo": "13년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 2020, "age": 33, "decisionKo": "Genshin Impact 출시 — 무료 + 가챠 모델 글로벌 전개", "alternativeKo": "중국 시장 집중", "outcomeKo": "13년 후 세계 최대 모바일 RPG 스튜디오" }],
+  "moneyMechanics": { "primaryRevenueKo": "miHoYo(HoYoverse, 비공개) 공동 창립자 지분", "industryKo": "게임 (모바일 RPG·가챠)", "businessModelKo": "무료 게임 + 가챠 + 글로벌 다중 플랫폼 RPG", "moatKo": "13년 RPG 게임 노하우 + 글로벌 팬덤", "luckVsSkillKo": "운(30%): 2020 Genshin Impact 출시 타이밍. 실력(70%): 13년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of miHoYo/HoYoverse; co-creator of Genshin Impact, Honkai Impact, Star Rail; Chinese game-industry pioneer.",
+    "knownForKo": "miHoYo/HoYoverse 공동 창립자; Genshin Impact·Honkai Impact·Star Rail 공동 창작자; 중국 게임 산업 선구자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Genshin Impact gacha-monetization criticized; Chinese tech regulatory environment.", "controversiesKo": "Genshin Impact 가챠 수익화 비판; 중국 기술 규제 환경."
+  },
+  "characterKo": { "summaryKo": "Shanghai Jiao Tong 학생 프로젝트가 Genshin Impact 글로벌 모바일 RPG 메이저로 13년 자수성가.", "tagsKo": ["miHoYo", "Genshin Impact", "13년 자수성가"] },
+  "failures": [
+    { "year": 2021, "description": "Chinese government tightened minor gaming-time restrictions; gaming industry compression.", "descriptionKo": "중국 정부가 미성년자 게임 시간 제한 강화; 게임 산업 압축.", "lesson": "Chinese gaming faces regulatory cycle.", "lessonKo": "중국 게임은 규제 사이클 직면." },
+    { "year": 2024, "description": "Zenless Zone Zero received mixed reception; revenue growth from Genshin Impact normalized.", "descriptionKo": "Zenless Zone Zero가 엇갈린 반응; Genshin Impact의 매출 성장 정상화.", "lesson": "Sequel-launch results uncertain even for hit-studio.", "lessonKo": "히트 스튜디오도 후속작 출시 결과는 불확실." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2022, "netWorth": 4.0 }, { "year": 2024, "netWorth": 5.8 }, { "year": 2025, "netWorth": 6.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Tech otaku save the world.", "textKo": "기술 오타쿠가 세계를 구한다.", "context": "miHoYo founding slogan", "contextKo": "miHoYo 창립 슬로건", "source": "https://www.mihoyo.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sul day pillar in Jin month — 'pyeon-jae-gyeok', large external wealth from creative output, fitting mobile-game founder.", "summaryKo": "경술 일주 + 진월 편재격(크고 유동적인 외부 자본)은 13년에 걸쳐 글로벌 모바일 게임 시장에서 거대 외부 자본을 끌어들인 그의 경로와 호응합니다. 경금 일간의 단단한 금속·결단력이 게임 디자인의 정밀한 시스템 결단과 통하고, 술토 일지·진토 월지의 토 기운이 게임 회사의 안정 기반을 가리킵니다." }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "768", "name": "Rakesh Gangwal", "nameKo": "라케시 강왈",
+  "netWorth": 5.3, "nationality": "US", "industry": "Service",
+  "childhood": {
+    "birthPlace": "India", "birthPlaceKo": "인도",
+    "familyBackground": "Born to Indian middle-class family; migrated to US.", "familyBackgroundKo": "인도 중산층 가정에서 출생; 미국 이주.",
+    "education": "IIT Kanpur; Wharton MBA.", "educationKo": "IIT 칸푸르; 와튼 MBA.",
+    "earlyLife": "Joined Booz Allen Hamilton; rose at United Airlines and US Airways; co-founded IndiGo airline in 2006 with Rahul Bhatia.",
+    "earlyLifeKo": "Booz Allen Hamilton 합류; 유나이티드 항공과 US Airways에서 부상; 2006년 라훌 바티아와 IndiGo 항공 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Rakesh_Gangwal"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "IndiGo 공동 창립자 지분 19년 자수성가." },
+  "careerTimeline": [
+    { "year": 1985, "age": 32, "event": "Began consulting career; joined US Airways management.", "eventKo": "컨설팅 경력 시작; US Airways 경영진 합류.", "whyItMatteredKo": "항공 경력 출발선." },
+    { "year": 1998, "age": 45, "event": "Became CEO of US Airways; restructured airline through bankruptcy.", "eventKo": "US Airways CEO 취임; 파산을 통한 항공 회사 재구조화.", "whyItMatteredKo": "항공 CEO 단계." },
+    { "year": 2006, "age": 53, "event": "Co-founded IndiGo airline (InterGlobe Aviation) with Rahul Bhatia.", "eventKo": "라훌 바티아와 IndiGo 항공(InterGlobe Aviation) 공동 창립.", "whyItMatteredKo": "IndiGo 출발선." },
+    { "year": 2015, "age": 62, "event": "IndiGo IPO on BSE/NSE; became India's largest domestic airline.", "eventKo": "IndiGo BSE/NSE IPO; 인도 최대 국내 항공사가 됨.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2025, "age": 72, "event": "Personal net worth at $5.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 53억 달러.", "whyItMatteredKo": "19년 IndiGo 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2006, "age": 53, "decisionKo": "53세에 미국 떠나 인도 항공 창립", "alternativeKo": "미국 경력 잔류", "outcomeKo": "19년 후 인도 최대 항공사 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "InterGlobe Aviation(IndiGo, BSE/NSE 상장) 공동 창립자 지분", "industryKo": "항공·운송", "businessModelKo": "인도 저비용 항공 — 단일 기종 + 단거리 노선 네트워크", "moatKo": "인도 1위 시장 점유율 + 단일 기종 효율성", "luckVsSkillKo": "운(30%): 2006-2025 인도 항공 시장 부상. 실력(70%): 미국 항공 CEO 경력 + 19년 IndiGo 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of IndiGo (InterGlobe Aviation); former US Airways CEO; major Indian airline-industry leader.",
+    "knownForKo": "IndiGo(InterGlobe Aviation) 공동 창립자; 전 US Airways CEO; 주요 인도 항공 산업 리더.",
+    "philanthropy": "Major patron of Wharton, IIT Kanpur; supports Indian education.",
+    "philanthropyKo": "주요 와튼·IIT 칸푸르 후원자; 인도 교육 지원.",
+    "controversies": "Public dispute with co-founder Rahul Bhatia (2019) over governance; Gangwal exited IndiGo board.",
+    "controversiesKo": "공동 창립자 라훌 바티아와 거버넌스 공개 분쟁(2019); 강왈이 IndiGo 이사회에서 퇴장."
+  },
+  "characterKo": { "summaryKo": "와튼 MBA + 미국 항공 CEO + IndiGo 인도 1위 항공 공동 창립자.", "tagsKo": ["IndiGo", "와튼 MBA", "미국·인도 항공"] },
+  "failures": [
+    { "year": 2002, "description": "US Airways filed Chapter 11 bankruptcy under Gangwal's tenure; airline absorbed restructuring costs.", "descriptionKo": "강왈 재임 중 US Airways 챕터 11 파산 신청; 항공사가 재구조화 비용 흡수.", "lesson": "Legacy US airlines exposed to post-9/11 structural decline.", "lessonKo": "레거시 미국 항공사는 9/11 이후 구조적 쇠퇴 노출." },
+    { "year": 2019, "description": "Bhatia-Gangwal public dispute over IndiGo governance compressed share price.", "descriptionKo": "바티아-강왈 IndiGo 거버넌스 공개 분쟁이 주가 압축.", "lesson": "Co-founder governance disputes magnify public-company risk.", "lessonKo": "공동 창립자 거버넌스 분쟁이 공개 회사 리스크 증폭." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Indian aviation needed a Southwest Airlines. We built one.", "textKo": "인도 항공은 사우스웨스트가 필요했다. 우리가 만들었다.", "context": "On IndiGo origins", "contextKo": "IndiGo 기원에 대해", "source": "https://www.goindigo.in" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Chuk day pillar in Mi month — 'siksin-gyeok', creative output, fitting airline co-founder.", "summaryKo": "정축 일주 + 미월 식신격(창의적 결과물·표현)은 19년에 걸쳐 인도 저비용 항공이라는 거대 새 카테고리를 만들어낸 그의 창의적 자본 누적과 호응합니다. 정화 일간의 따뜻한 불 기질이 거대 항공 회사의 안정 운영과 통하고, 축토 일지·미토 월지의 토 기운이 인프라 자본의 안정 기반을 가리킵니다." }
+}

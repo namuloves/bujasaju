@@ -1,0 +1,43 @@
+{
+  "id": "216", "name": "Kenneth Lawrence Fisher", "nameKo": "케네스 로렌스 피셔",
+  "netWorth": 13.2, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "San Francisco, California, USA", "birthPlaceKo": "미국 캘리포니아 샌프란시스코",
+    "familyBackground": "Born to Philip Fisher — pioneering growth investor and author of 'Common Stocks and Uncommon Profits'.", "familyBackgroundKo": "선구적 성장 투자자이자 '위대한 기업에 투자하라' 저자 필립 피셔의 아들.",
+    "education": "Humboldt State University (economics).", "educationKo": "험볼트 주립대학교(경제학).",
+    "earlyLife": "Founded Fisher Investments in 1979; built it into one of the largest US wealth-management firms.",
+    "earlyLifeKo": "1979년 Fisher Investments 창립; 미국 최대 자산관리 회사 중 하나로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Kenneth_Fisher"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Fisher Investments 45년 자수성가." },
+  "careerTimeline": [
+    { "year": 1979, "age": 28, "event": "Founded Fisher Investments in California with father's growth-investing legacy.", "eventKo": "아버지 성장 투자 유산과 함께 캘리포니아에서 Fisher Investments 창립.", "whyItMatteredKo": "45년 자수성가 출발선." },
+    { "year": 1984, "age": 33, "event": "Began long-running Forbes 'Portfolio Strategy' column — 32-year column run.", "eventKo": "장기 Forbes 'Portfolio Strategy' 칼럼 시작 — 32년 칼럼 연재.", "whyItMatteredKo": "미디어 인지도 출발선." },
+    { "year": 2005, "age": 54, "event": "Fisher Investments AUM crossed $30B; expanded internationally to UK and Europe.", "eventKo": "Fisher Investments AUM 300억 달러 돌파; 영국·유럽 국제 확장.", "whyItMatteredKo": "글로벌 메이저 단계." },
+    { "year": 2016, "age": 65, "event": "Stepped down as CEO of Fisher Investments; remained executive chairman.", "eventKo": "Fisher Investments CEO에서 사임; 집행 의장 잔류.", "whyItMatteredKo": "운영자에서 의장 전환." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $13.2B per Forbes Real-Time. Fisher Investments manages $275B+ AUM.", "eventKo": "포브스 실시간 기준 개인 순자산 132억 달러. Fisher Investments가 2,750억 달러+ AUM 운용.", "whyItMatteredKo": "45년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1979, "age": 28, "decisionKo": "아버지의 명성을 받지 않고 독립 회사 창립", "alternativeKo": "아버지 회사 잔류", "outcomeKo": "45년 후 미국 최대 독립 자산관리 회사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Fisher Investments(100% 소유) — 자산관리 수수료", "industryKo": "자산관리·웰스 매니지먼트", "businessModelKo": "직접 마케팅 + 별도 계정 + 글로벌 부유층 고객", "moatKo": "45년 트랙 레코드 + 직접 마케팅 노하우 + 100% 소유", "luckVsSkillKo": "운(30%): 1980-2020 주식시장 황금기. 실력(70%): 45년 일관성 + 마케팅 혁신." },
+  "personalTraits": {
+    "knownFor": "Founder of Fisher Investments; son of Philip Fisher; longtime Forbes columnist; author of multiple investment books.",
+    "knownForKo": "Fisher Investments 창립자; 필립 피셔의 아들; 장기 Forbes 칼럼니스트; 다수 투자 책 저자.",
+    "philanthropy": "Fisher family supports redwood conservation (Save the Redwoods League) and forestry research.",
+    "philanthropyKo": "Fisher 가족이 레드우드 보전(Save the Redwoods League)·임업 연구 지원.",
+    "controversies": "2019 inappropriate-comments incident at Tiburon CEO Summit triggered $4B+ AUM redemptions; SEC scrutiny.",
+    "controversiesKo": "2019년 Tiburon CEO Summit에서의 부적절 발언 사건이 40억 달러+ AUM 환매 촉발; SEC 감시."
+  },
+  "characterKo": { "summaryKo": "필립 피셔의 아들이자 Fisher Investments 창립자 — 45년 미국 최대 독립 자산관리.", "tagsKo": ["Fisher Investments", "필립 피셔 아들", "45년 자수성가", "Forbes 칼럼"] },
+  "failures": [
+    { "year": 2019, "description": "Made inappropriate comments at Tiburon CEO Summit; clients pulled $4B+ in AUM; major reputational crisis.", "descriptionKo": "Tiburon CEO Summit에서 부적절 발언; 고객들이 40억 달러+ AUM 인출; 주요 평판 위기.", "lesson": "Public personality risk magnified for wealth-management firms.", "lessonKo": "자산관리 회사의 공개 인격 리스크는 증폭된다.", "source": "https://www.wsj.com" },
+    { "year": 2022, "description": "Bear market and growth-stock decline compressed Fisher Investments AUM and fee income.", "descriptionKo": "약세장·성장주 하락으로 Fisher Investments AUM·수수료 수입 압축.", "lesson": "Wealth management is structurally tied to market cycles.", "lessonKo": "자산관리는 구조적으로 시장 사이클에 묶임." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.7 }, { "year": 2020, "netWorth": 4.3 }, { "year": 2024, "netWorth": 12.0 }, { "year": 2025, "netWorth": 13.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "My father's edge was concentration. Mine is patience.", "textKo": "아버지의 강점은 집중이었다. 나의 강점은 인내다.", "context": "On his father Philip Fisher", "contextKo": "아버지 필립 피셔에 대해", "source": "https://www.fisherinvestments.com" }],
+  "books": { "authored": [
+    { "title": "100 Minds That Made the Market", "year": 1993, "noteKo": "투자 역사 인물 100명." },
+    { "title": "The Only Three Questions That Count", "year": 2006, "noteKo": "투자 의사결정 프레임워크." }
+  ], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Jin day pillar in Hae month — 'jeongin-gyeok', maternal-academic foundation, fitting investor son of legendary investor father.", "summaryKo": "무진 일주 + 해월 정인격(가족·문서·자격 권위)은 아버지 필립 피셔의 성장 투자 유산을 이어 45년간 자기 회사를 세운 그의 경로와 호응합니다. 무토 일간의 큰 산 기질이 거대 자산관리 회사 가부장 역할과 통하고, 정인격이 아버지 유산·책·칼럼·자격이라는 학문·문서 자본을 평생 활용한 구조와 통합니다." }
+}

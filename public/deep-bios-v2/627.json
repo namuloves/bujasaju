@@ -1,0 +1,39 @@
+{
+  "id": "627", "name": "Stefano Pessina", "nameKo": "스테파노 페시나",
+  "netWorth": 6.3, "nationality": "MC", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Pescara, Italy", "birthPlaceKo": "이탈리아 페스카라",
+    "familyBackground": "Born to Italian family in Pescara.", "familyBackgroundKo": "페스카라 이탈리아 가정에서 출생.",
+    "education": "Polytechnic University of Milan (nuclear engineering).", "educationKo": "밀라노 폴리테크닉 대학교(원자력 공학).",
+    "earlyLife": "Joined family Alleanza pharmaceutical-distribution business in 1977; led series of mergers building Alliance Boots; merged with Walgreens in 2014.",
+    "earlyLifeKo": "1977년 가족 Alleanza 제약 유통 사업 합류; Alliance Boots를 만드는 일련의 합병 주도; 2014년 Walgreens와 합병.",
+    "source": "https://en.wikipedia.org/wiki/Stefano_Pessina"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Alleanza → Alliance UniChem → Alliance Boots → Walgreens Boots Alliance 48년 자수성가." },
+  "careerTimeline": [
+    { "year": 1977, "age": 36, "event": "Joined family Alleanza pharmaceutical-distribution in Italy.", "eventKo": "이탈리아 가족 Alleanza 제약 유통 합류.", "whyItMatteredKo": "48년 자수성가 출발선." },
+    { "year": 1991, "age": 50, "event": "Began aggressive European pharmacy-distribution consolidation through Alleanza.", "eventKo": "Alleanza를 통해 공격적 유럽 약국 유통 통합 시작.", "whyItMatteredKo": "합병 단계." },
+    { "year": 2006, "age": 65, "event": "Merged Alliance UniChem with Boots Group to form Alliance Boots.", "eventKo": "Alliance UniChem이 Boots Group과 합병해 Alliance Boots 형성.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2014, "age": 73, "event": "Alliance Boots merged with Walgreens to form Walgreens Boots Alliance — became one of world's largest pharmacy chains.", "eventKo": "Alliance Boots가 Walgreens와 합병해 Walgreens Boots Alliance 형성 — 세계 최대 약국 체인 중 하나가 됨.", "whyItMatteredKo": "글로벌 정점 단계." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $6.3B per Forbes Real-Time. Walgreens Boots Alliance continues as major global pharmacy.", "eventKo": "포브스 실시간 기준 개인 순자산 63억 달러. Walgreens Boots Alliance가 주요 글로벌 약국으로 계속.", "whyItMatteredKo": "48년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 73, "decisionKo": "Alliance Boots를 Walgreens와 합병", "alternativeKo": "Alliance Boots 독립 유지", "outcomeKo": "글로벌 약국 메이저 + 73세에 모나코 거주 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Walgreens Boots Alliance(NASDAQ 상장) 주요 주주", "industryKo": "약국 소매·도매·유통", "businessModelKo": "글로벌 약국 + 도매 유통 + 처방 약품", "moatKo": "48년 유럽 약국 통합 노하우 + 글로벌 인프라", "luckVsSkillKo": "운(30%): 유럽 약국 통합 시기. 실력(70%): 48년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Pioneer of European pharmacy consolidation; former CEO of Walgreens Boots Alliance; major Monaco-based pharmaceutical executive.",
+    "knownForKo": "유럽 약국 통합 선구자; 전 Walgreens Boots Alliance CEO; 주요 모나코 기반 제약 임원.",
+    "philanthropy": "Pessina supports Italian medical-research and education.", "philanthropyKo": "페시나가 이탈리아 의료 연구·교육 지원.",
+    "controversies": "Monaco tax-domicile criticism; Walgreens Boots Alliance retail-store layoffs and labor disputes; 2024 partial KKR private deal disputed.",
+    "controversiesKo": "모나코 세금 거주지 비판; Walgreens Boots Alliance 소매 매장 정리해고·노동 분쟁; 2024 부분적 KKR 비공개 딜 분쟁."
+  },
+  "characterKo": { "summaryKo": "이탈리아 출신 모나코 거주 유럽 약국 통합 거물 — 48년 자수성가.", "tagsKo": ["Walgreens Boots Alliance", "유럽 약국 통합", "모나코 거주"] },
+  "failures": [
+    { "year": 2024, "description": "Walgreens stock fell 70%+ over 2022-2024 as US retail-pharmacy faced structural decline.", "descriptionKo": "미국 소매 약국이 구조적 쇠퇴 직면하면서 2022-2024 동안 Walgreens 주가 70%+ 하락.", "lesson": "Retail pharmacy faces internet-disruption and reimbursement compression.", "lessonKo": "소매 약국은 인터넷 파괴·환급 압축 직면." },
+    { "year": 2020, "description": "COVID-19 initially disrupted Walgreens Boots Alliance global operations.", "descriptionKo": "COVID-19이 초기 Walgreens Boots Alliance 글로벌 운영 혼란.", "lesson": "Retail-pharmacy faces pandemic operational risk.", "lessonKo": "소매 약국은 팬데믹 운영 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 13.3 }, { "year": 2020, "netWorth": 10.9 }, { "year": 2024, "netWorth": 6.0 }, { "year": 2025, "netWorth": 6.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Pharmacy is a local business everywhere.", "textKo": "약국은 어디서나 지역 사업이다.", "context": "On pharmacy consolidation", "contextKo": "약국 통합에 대해", "source": "https://www.walgreensbootsalliance.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Mi day pillar in Sa month — 'jeongjae-gyeok', steady accumulation through M&A, fitting consolidation strategist.", "summaryKo": "계미 일주 + 사월 정재격(고정 자산·꾸준한 매출)은 48년에 걸쳐 약국 유통이라는 안정 매출 산업을 합병·통합으로 누적해온 그의 경로와 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 합병·통합의 정밀 평가와 통하고, 미토 일지·사화 월지의 토·화 기운이 자본의 안정 누적 + 결단 표현을 가리킵니다." }
+}

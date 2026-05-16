@@ -1,0 +1,39 @@
+{
+  "id": "680", "name": "Thomas Pritzker", "nameKo": "토마스 프리츠커",
+  "netWorth": 5.8, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Chicago, Illinois, USA", "birthPlaceKo": "미국 일리노이주 시카고",
+    "familyBackground": "Born to Jay Pritzker — founder of Hyatt Hotels Corporation and head of the Pritzker family business dynasty.", "familyBackgroundKo": "Hyatt Hotels Corporation 창립자 + Pritzker 가족 사업 왕조 수장 제이 프리츠커의 아들.",
+    "education": "Claremont McKenna College; University of Chicago JD and MBA.", "educationKo": "클레어몬트 매케나 칼리지; 시카고 대학교 JD·MBA.",
+    "earlyLife": "Joined Pritzker family business; took over as head of Hyatt Hotels and Pritzker family business operations after father's death.",
+    "earlyLifeKo": "Pritzker 가족 사업 합류; 아버지 사망 후 Hyatt Hotels와 Pritzker 가족 사업 운영 수장 인수.",
+    "source": "https://en.wikipedia.org/wiki/Thomas_Pritzker"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Pritzker 가족 자본 다세대 상속." },
+  "careerTimeline": [
+    { "year": 1976, "age": 26, "event": "Joined Pritzker family operations after University of Chicago.", "eventKo": "시카고 대학교 후 Pritzker 가족 운영 합류.", "whyItMatteredKo": "가족 자본 운용 출발선." },
+    { "year": 1999, "age": 49, "event": "Father Jay Pritzker died; Thomas became head of Pritzker family business and Hyatt Hotels.", "eventKo": "아버지 제이 프리츠커 사망; 토마스가 Pritzker 가족 사업과 Hyatt Hotels 수장 취임.", "whyItMatteredKo": "가족 가부장 단계." },
+    { "year": 2002, "age": 52, "event": "Pritzker family wealth restructuring divided $15B+ assets among cousins; Thomas received significant Hyatt stake.", "eventKo": "Pritzker 가족 부 재구조화가 150억 달러+ 자산을 사촌들 간 분할; 토마스가 상당한 Hyatt 지분 수령.", "whyItMatteredKo": "재구조화 단계." },
+    { "year": 2009, "age": 59, "event": "Hyatt Hotels IPO on NYSE; Thomas became chairman of public company.", "eventKo": "Hyatt Hotels NYSE IPO; 토마스가 공개 회사 의장 취임.", "whyItMatteredKo": "공개 시장 평가 단계." },
+    { "year": 2025, "age": 75, "event": "Personal net worth at $5.8B per Forbes Real-Time. Continues as Hyatt Hotels chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 58억 달러. Hyatt Hotels 의장 계속.", "whyItMatteredKo": "다세대 가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 49, "decisionKo": "아버지 사후 Pritzker 가족 수장 인수", "alternativeKo": "전문 경영진 위임", "outcomeKo": "26년 가족 가부장 + Hyatt 의장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Hyatt Hotels Corporation(NYSE 상장) 가족 지분 + Pritzker Organization", "industryKo": "호텔·자산운용", "businessModelKo": "호텔 운영 + Pritzker 가족 다각화 투자", "moatKo": "다세대 Pritzker 가족 자본", "luckVsSkillKo": "운(75%): 가족 자본. 실력(25%): 가족 거버넌스 일관성." },
+  "personalTraits": {
+    "knownFor": "Chairman of Hyatt Hotels Corporation; head of Pritzker Organization; founder of Pritzker Architecture Prize.",
+    "knownForKo": "Hyatt Hotels Corporation 의장; Pritzker Organization 수장; Pritzker 건축상 창립자.",
+    "philanthropy": "Pritzker Architecture Prize (Nobel of architecture); Pritzker family supports Chicago cultural institutions.",
+    "philanthropyKo": "Pritzker 건축상(건축계의 노벨상); Pritzker 가족이 시카고 문화 기관 지원.",
+    "controversies": "Pritzker 2002 family inheritance restructuring drew sustained tax-trust scrutiny.", "controversiesKo": "Pritzker 2002 가족 상속 재구조화가 지속적 세금·신탁 감시 야기."
+  },
+  "characterKo": { "summaryKo": "Pritzker 가족 가부장 + Hyatt 의장 + Pritzker 건축상.", "tagsKo": ["Hyatt Hotels", "Pritzker 가족", "Pritzker 건축상"] },
+  "failures": [
+    { "year": 2002, "description": "Pritzker family inheritance restructuring created multi-year tax-trust scrutiny and family conflict.", "descriptionKo": "Pritzker 가족 상속 재구조화가 다년간 세금·신탁 감시와 가족 갈등 야기.", "lesson": "Multi-generational family trusts create legal-narrative tail.", "lessonKo": "다세대 가족 신탁은 법적 서사 잔여 야기." },
+    { "year": 2020, "description": "COVID-19 collapsed global hotel occupancy; Hyatt absorbed major operating losses.", "descriptionKo": "COVID-19이 글로벌 호텔 점유율 붕괴; Hyatt이 주요 운영 손실 흡수.", "lesson": "Hospitality faces pandemic-cycle exposure.", "lessonKo": "환대 산업은 팬데믹 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.7 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 5.4 }, { "year": 2025, "netWorth": 5.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family businesses survive by investing decades, not quarters.", "textKo": "가족 사업은 분기가 아닌 10년 단위로 투자해 살아남는다.", "context": "On family-business stewardship", "contextKo": "가족 사업 청지기에 대해", "source": "https://www.hyatt.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Shin day pillar in Sa month — 'jeongin-gyeok', maternal-academic foundation, fitting JD/MBA family-business heir.", "summaryKo": "임신 일주 + 사월 정인격(공식 자격·가족 권위)은 시카고 대학교 JD/MBA 학위 + Pritzker 가족 자본의 청지기 정체성과 호응합니다. 임수 일간의 큰 물 기질이 다세대 가족 자본 가부장 역할과 통하고, 정인격이 평생 가족·학문 자본의 지지를 받는 구조와 통합니다." }
+}

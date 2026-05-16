@@ -1,0 +1,39 @@
+{
+  "id": "532", "name": "Kerry Stokes", "nameKo": "케리 스토크스",
+  "netWorth": 7.0, "nationality": "AU", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Melbourne, Australia", "birthPlaceKo": "호주 멜버른",
+    "familyBackground": "Born to working-class single mother; adopted; had difficult childhood.", "familyBackgroundKo": "노동자 계급 미혼모에서 출생; 입양; 어려운 어린 시절.",
+    "education": "Left school early; no formal higher education.", "educationKo": "학교 일찍 떠남; 정규 고등교육 없음.",
+    "earlyLife": "Worked as TV antenna installer; built career through Channel Seven (TV broadcasting); founded Seven West Media and Seven Group Holdings.",
+    "earlyLifeKo": "TV 안테나 설치공 근무; 채널 세븐(TV 방송)을 통해 경력 구축; Seven West Media와 Seven Group Holdings 창립.",
+    "source": "https://en.wikipedia.org/wiki/Kerry_Stokes"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Seven Network + Seven Group Holdings 50+년 자수성가." },
+  "careerTimeline": [
+    { "year": 1960, "age": 20, "event": "Began TV antenna installation business in Western Australia.", "eventKo": "서호주에서 TV 안테나 설치 사업 시작.", "whyItMatteredKo": "65년 자수성가 출발선." },
+    { "year": 1995, "age": 55, "event": "Acquired controlling stake in Australia's Seven Network TV broadcaster.", "eventKo": "호주 Seven Network TV 방송사 지배 지분 인수.", "whyItMatteredKo": "미디어 메이저 단계." },
+    { "year": 2007, "age": 67, "event": "Reorganized Seven West Media; expanded into print, online, and mining-services through WesTrac.", "eventKo": "Seven West Media 재구조화; WesTrac 통한 인쇄·온라인·광업 서비스 확장.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2010, "age": 70, "event": "Acquired Caterpillar Australia dealership through Seven Group; major mining-equipment distributor.", "eventKo": "Seven Group 통해 Caterpillar Australia 딜러십 인수; 주요 광업 장비 유통.", "whyItMatteredKo": "산업 자본 단계." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $7.0B per Forbes Real-Time. Continues as Seven Group chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 70억 달러. Seven Group 의장 계속.", "whyItMatteredKo": "65년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 55, "decisionKo": "Seven Network 지배 지분 인수", "alternativeKo": "지역 사업 잔류", "outcomeKo": "30년 후 호주 미디어 + 산업 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Seven Group Holdings(ASX 상장) — Seven Network 방송 + WesTrac Caterpillar 유통 + Coates 임대 + 에너지", "industryKo": "미디어 + 산업 + 에너지 다각화", "businessModelKo": "TV 방송 + 광업 장비 유통 + 임대 + 에너지", "moatKo": "호주 미디어·산업 메이저 통합 + 50+년 자본", "luckVsSkillKo": "운(40%): 호주 광업 슈퍼사이클. 실력(60%): 65년 자수성가 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder/chairman of Seven Group Holdings; major Australian media-and-industrial magnate; rose from poverty.",
+    "knownForKo": "Seven Group Holdings 창립자·의장; 주요 호주 미디어·산업 거물; 빈곤에서 상승.",
+    "philanthropy": "Major patron of Australian veterans, Western Australia community.", "philanthropyKo": "주요 호주 군 참전 용사·서호주 지역 사회 후원자.",
+    "controversies": "Seven Network journalism scandals; tax-affairs scrutiny; Coalition political donations criticized.",
+    "controversiesKo": "Seven Network 저널리즘 스캔들; 세금 사안 감시; 자유당 정치 기부 비판."
+  },
+  "characterKo": { "summaryKo": "안테나 설치공에서 호주 미디어·산업 거물로 65년 자수성가.", "tagsKo": ["Seven Group", "WesTrac", "안테나 설치공 출신"] },
+  "failures": [
+    { "year": 2018, "description": "Seven Network struggled with journalistic standards scandals; circulation/ratings declined.", "descriptionKo": "Seven Network이 저널리즘 표준 스캔들 직면; 발행 부수·시청률 하락.", "lesson": "Legacy media faces digital-disruption and quality scrutiny.", "lessonKo": "레거시 미디어가 디지털 파괴와 품질 감시 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Seven West Media advertising and Seven Group industrial-services demand.", "descriptionKo": "COVID-19이 Seven West Media 광고와 Seven Group 산업 서비스 수요 혼란.", "lesson": "Diversified group exposed to multiple sector cycles simultaneously.", "lessonKo": "다각화 그룹이 다수 부문 사이클에 동시 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.3 }, { "year": 2020, "netWorth": 4.0 }, { "year": 2024, "netWorth": 6.5 }, { "year": 2025, "netWorth": 7.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Antennas, television, mining trucks — all of them carry signals.", "textKo": "안테나·텔레비전·광업 트럭 — 모두 신호를 운반한다.", "context": "On diversified business", "contextKo": "다각화 사업에 대해", "source": "https://www.sevengroup.com.au" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Mi day pillar in Yu month — 'pyeon-gwan-gyeok', strong external authority, fitting media-and-industrial magnate.", "summaryKo": "기미 일주 + 유월 편관격(강한 외부 압박·권력 충돌)은 65년에 걸쳐 호주 미디어 산업의 규제·정치·경쟁이라는 격렬한 권력 환경을 통과한 그의 경로와 호응합니다. 기토 일간의 농경 기질이 65년 누적 인내심을 가리키고, 미토 일지의 토 기운이 미디어·산업 자본의 안정 기반을 가리킵니다." }
+}

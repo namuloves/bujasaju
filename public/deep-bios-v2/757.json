@@ -1,0 +1,40 @@
+{
+  "id": "757", "name": "Jeffrey Stuart Skoll", "nameKo": "제프 스콜",
+  "netWorth": 5.4, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Montreal, Canada", "birthPlaceKo": "캐나다 몬트리올",
+    "familyBackground": "Born to Canadian middle-class family; raised in Toronto.", "familyBackgroundKo": "캐나다 중산층 가정에서 출생; 토론토에서 성장.",
+    "education": "University of Toronto; Stanford GSB MBA.", "educationKo": "토론토 대학교; 스탠퍼드 GSB MBA.",
+    "earlyLife": "Met Pierre Omidyar at Stanford GSB; became founding president of eBay in 1996; founded Participant Media in 2004.",
+    "earlyLifeKo": "스탠퍼드 GSB에서 피에르 오미디아르를 만남; 1996년 eBay 창립 사장이 됨; 2004년 Participant Media 창립.",
+    "source": "https://en.wikipedia.org/wiki/Jeffrey_Skoll"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "eBay 창립 사장 지분 + 다각화." },
+  "careerTimeline": [
+    { "year": 1996, "age": 31, "event": "Became founding president of eBay; transformed startup into public company.", "eventKo": "eBay 창립 사장이 됨; 스타트업을 공개 회사로 변환.", "whyItMatteredKo": "eBay 출발선." },
+    { "year": 1998, "age": 33, "event": "eBay IPO on NASDAQ; cemented Skoll's billionaire status.", "eventKo": "eBay 나스닥 IPO; 스콜의 억만장자 지위 굳힘.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2001, "age": 36, "event": "Founded Skoll Foundation — social-entrepreneurship grants.", "eventKo": "Skoll Foundation 창립 — 사회 기업가 보조금.", "whyItMatteredKo": "자선 정체성 출발선." },
+    { "year": 2004, "age": 39, "event": "Founded Participant Media — social-impact film production (Spotlight, Inconvenient Truth).", "eventKo": "Participant Media 창립 — 사회 임팩트 영화 제작(Spotlight, 불편한 진실).", "whyItMatteredKo": "미디어 단계." },
+    { "year": 2025, "age": 60, "event": "Personal net worth at $5.4B per Forbes Real-Time. Major social-entrepreneurship philanthropist.", "eventKo": "포브스 실시간 기준 개인 순자산 54억 달러. 주요 사회 기업가 자선가.", "whyItMatteredKo": "eBay 자본 + 사회 자선가 정점." }
+  ],
+  "turningPoints": [{ "year": 1996, "age": 31, "decisionKo": "Stanford 후 eBay 창립 사장 합류", "alternativeKo": "기존 기업 취업", "outcomeKo": "29년 후 eBay 자본 + 글로벌 사회 자선가" }],
+  "moneyMechanics": { "primaryRevenueKo": "eBay 초기 지분 매각 대금 + Capricorn Investment Group 다각화", "industryKo": "기술 매각 후 자산운용 + 임팩트 투자", "businessModelKo": "eBay 매각 대금 + Capricorn 임팩트 투자 + Skoll 재단", "moatKo": "eBay 창립 사장 자본 + 임팩트 자선 인프라", "luckVsSkillKo": "운(45%): eBay 창립 합류 타이밍. 실력(55%): 사회 자본 변환 + 임팩트 투자 일관성." },
+  "personalTraits": {
+    "knownFor": "Founding president of eBay; founder of Skoll Foundation, Participant Media; pioneering social entrepreneur and impact investor.",
+    "knownForKo": "eBay 창립 사장; Skoll Foundation·Participant Media 창립자; 선구적 사회 기업가·임팩트 투자자.",
+    "philanthropy": "Skoll Foundation, Skoll Centre for Social Entrepreneurship at Oxford, Capricorn Investment Group, Participant Media — major social-impact platforms.",
+    "philanthropyKo": "Skoll Foundation, 옥스퍼드 Skoll Centre for Social Entrepreneurship, Capricorn Investment Group, Participant Media — 주요 사회 임팩트 플랫폼.",
+    "controversies": "Participant Media discontinued operations in 2024; major reputational scrutiny.",
+    "controversiesKo": "Participant Media가 2024 운영 중단; 주요 평판 감시."
+  },
+  "characterKo": { "summaryKo": "eBay 창립 사장 + 임팩트 투자·사회 영화 선구자.", "tagsKo": ["eBay 창립 사장", "Skoll Foundation", "Participant Media"] },
+  "failures": [
+    { "year": 2024, "description": "Participant Media ceased operations after 20 years; major social-impact-media venture closed.", "descriptionKo": "Participant Media가 20년 후 운영 중단; 주요 사회 임팩트 미디어 벤처 폐쇄.", "lesson": "Mission-driven media struggles to balance commercial viability.", "lessonKo": "미션 주도 미디어는 상업적 생존력의 균형에 어려움 직면." },
+    { "year": 2008, "description": "eBay stock fell during global financial crisis; Skoll's diversified portfolio absorbed losses.", "descriptionKo": "글로벌 금융위기 동안 eBay 주가 하락; 스콜의 다각화 포트폴리오가 손실 흡수.", "lesson": "Tech-stock concentration faces crisis-cycle risk.", "lessonKo": "기술주 집중은 위기 사이클 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.2 }, { "year": 2020, "netWorth": 5.2 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Profit is a tool. The mission is the work.", "textKo": "이익은 도구다. 미션이 일이다.", "context": "On social entrepreneurship", "contextKo": "사회 기업가 정신에 대해", "source": "https://www.skoll.org" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-O day pillar in Chuk month — 'jeonggwan-gyeok', formal authority for social mission, fitting social-entrepreneurship pioneer.", "summaryKo": "경오 일주 + 축월 정관격(공식 권위·규제 아래에서 일하는 구조)은 사회 임팩트 자선이라는 공식 권위·미션 기반 산업과 호응합니다. 경금 일간의 단단한 금속·결단력이 eBay 창립 사장 + 자선 결단의 결단력과 통하고, 오화 일지의 화 기운이 영화·미디어를 통한 사회 표현 욕구를 가리킵니다." }
+}

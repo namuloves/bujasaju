@@ -1,0 +1,40 @@
+{
+  "id": "410", "name": "Leonard Norman Stern", "nameKo": "레너드 노먼 스턴",
+  "netWorth": 8.3, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "New York, USA", "birthPlaceKo": "미국 뉴욕",
+    "familyBackground": "Born to Hartz Mountain pet-supplies family business founders.", "familyBackgroundKo": "Hartz Mountain 반려동물 용품 가족 사업 창립자 가정에서 출생.",
+    "education": "NYU Stern School of Business.", "educationKo": "NYU 스턴 비즈니스 스쿨.",
+    "earlyLife": "Took over Hartz Mountain pet-supplies business; diversified into real estate (Hartz Mountain Industries); founded Village Voice.",
+    "earlyLifeKo": "Hartz Mountain 반려동물 용품 사업 인수; 부동산(Hartz Mountain Industries) 다각화; Village Voice 창립.",
+    "source": "https://en.wikipedia.org/wiki/Leonard_Stern"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "Hartz Mountain 가족 자본 + 본인 부동산 다각화." },
+  "careerTimeline": [
+    { "year": 1959, "age": 21, "event": "Joined Hartz Mountain Corporation after NYU.", "eventKo": "NYU 후 Hartz Mountain Corporation 합류.", "whyItMatteredKo": "가족 사업 진입." },
+    { "year": 1970, "age": 32, "event": "Founded Hartz Mountain Industries to invest pet-supplies profits into New Jersey real estate.", "eventKo": "반려동물 용품 수익을 뉴저지 부동산에 투자하기 위해 Hartz Mountain Industries 창립.", "whyItMatteredKo": "부동산 다각화 단계." },
+    { "year": 1985, "age": 47, "event": "Hartz Mountain Industries became one of New Jersey's largest commercial real-estate developers.", "eventKo": "Hartz Mountain Industries가 뉴저지 최대 상업 부동산 개발사 중 하나가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2005, "age": 67, "event": "Sold pet-supplies business to Sumitomo; remained focused on real estate.", "eventKo": "반려동물 용품 사업을 Sumitomo에 매각; 부동산 집중 잔류.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2025, "age": 87, "event": "Personal net worth at $8.3B per Forbes Real-Time. Continues as Hartz Mountain Industries chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 83억 달러. Hartz Mountain Industries 의장 계속.", "whyItMatteredKo": "60+년 자수성가 + 가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1970, "age": 32, "decisionKo": "반려동물 용품 수익을 뉴저지 부동산에 투자", "alternativeKo": "반려동물 사업 집중", "outcomeKo": "55년 후 뉴저지 부동산 메이저 + NYU 스턴 명명" }],
+  "moneyMechanics": { "primaryRevenueKo": "Hartz Mountain Industries(100% 가족 소유) — 뉴저지 상업 부동산", "industryKo": "상업 부동산 + 미디어", "businessModelKo": "뉴저지 + 뉴욕 상업 부동산 + Village Voice 미디어", "moatKo": "뉴저지 65년 부동산 입지 + 가족 자본", "luckVsSkillKo": "운(40%): 1970-2000 뉴저지 부동산 개발 시대. 실력(60%): 60+년 단일 비전." },
+  "personalTraits": {
+    "knownFor": "Chairman of Hartz Mountain Industries; founder of Village Voice; major NYU patron (Stern School named after him).",
+    "knownForKo": "Hartz Mountain Industries 의장; Village Voice 창립자; 주요 NYU 후원자(스턴 비즈니스 스쿨 명명).",
+    "philanthropy": "Stern Family Foundation supports NYU, Jewish community, education ($100M+ NYU gifts).",
+    "philanthropyKo": "Stern Family Foundation이 NYU·유대인 공동체·교육 지원(1억 달러+ NYU 기부).",
+    "controversies": "Village Voice sold in 2005; eventual closure of newspaper drew nostalgic criticism.",
+    "controversiesKo": "Village Voice 2005 매각; 결국 신문 폐간이 향수에 찬 비판 야기."
+  },
+  "characterKo": { "summaryKo": "Hartz Mountain 가족 자본 + 뉴저지 부동산 + Village Voice 미디어.", "tagsKo": ["Hartz Mountain Industries", "NYU 스턴", "뉴저지 부동산", "Village Voice"] },
+  "failures": [
+    { "year": 1996, "description": "Village Voice newspaper struggled with internet-era advertising disruption; eventually sold in 2005.", "descriptionKo": "Village Voice 신문이 인터넷 시대 광고 혼란 직면; 결국 2005 매각.", "lesson": "Print media destroyed by internet advertising shift.", "lessonKo": "인쇄 미디어가 인터넷 광고 전환에 파괴됨." },
+    { "year": 2020, "description": "COVID-19 disrupted New Jersey commercial-real-estate occupancy; office demand fell.", "descriptionKo": "COVID-19이 뉴저지 상업 부동산 점유율 혼란; 사무실 수요 하락.", "lesson": "Office real-estate exposed to remote-work shift.", "lessonKo": "사무실 부동산은 원격 근무 전환 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.0 }, { "year": 2020, "netWorth": 5.0 }, { "year": 2024, "netWorth": 8.0 }, { "year": 2025, "netWorth": 8.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I never wanted to be the biggest. I wanted to be the most reliable.", "textKo": "가장 크게 되고 싶지 않았다. 가장 신뢰받는 것이 되고 싶었다.", "context": "On business philosophy", "contextKo": "사업 철학에 대해", "source": "https://www.hartzmountain.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Mi day pillar in Myo month — 'pyeon-gwan-gyeok', strong external authority, fitting real-estate magnate with sustained regulatory exposure.", "summaryKo": "기미 일주 + 묘월 편관격(강한 외부 압박·권력 충돌)은 60+년 뉴저지 부동산 산업의 끊임없는 정부·규제·조세 환경과 호응합니다. 기토 일간의 농경 기질이 60+년 누적 인내심을 가리키고, 묘목 월지의 목 기운이 자본의 누적 성장을 가리킵니다." }
+}

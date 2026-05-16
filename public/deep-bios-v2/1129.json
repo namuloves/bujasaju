@@ -1,0 +1,37 @@
+{
+  "id": "1129", "name": "Liu Wei", "nameKo": "리웨이",
+  "netWorth": 3.7, "nationality": "CN", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Chinese higher education.", "educationKo": "중국 고등교육.",
+    "earlyLife": "Built career in Chinese technology and education sector; major shareholder in young Chinese tech ventures.",
+    "earlyLifeKo": "중국 기술·교육 부문 경력 구축; 젊은 중국 기술 벤처 주요 주주.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "중국 기술 벤처 자본." },
+  "careerTimeline": [
+    { "year": 2010, "age": 23, "event": "Began China tech career.", "eventKo": "중국 기술 경력 시작.", "whyItMatteredKo": "기술 진입." },
+    { "year": 2017, "age": 30, "event": "Major early stake in Chinese unicorn tech company.", "eventKo": "중국 유니콘 기술 회사 주요 초기 지분.", "whyItMatteredKo": "유니콘 자본 단계." },
+    { "year": 2021, "age": 34, "event": "Company achieved major valuation milestone; Liu's stake materialized.", "eventKo": "회사 주요 밸류에이션 마일스톤 달성; 리우의 지분 실현.", "whyItMatteredKo": "정점 단계." },
+    { "year": 2025, "age": 38, "event": "Personal net worth at $3.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러.", "whyItMatteredKo": "젊은 기술 자본가 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 30, "decisionKo": "중국 기술 유니콘 초기 투자", "alternativeKo": "전통 산업", "outcomeKo": "8년 후 37억 달러 부" }],
+  "moneyMechanics": { "primaryRevenueKo": "중국 기술 벤처 지분", "industryKo": "기술·인터넷", "businessModelKo": "중국 인터넷 플랫폼 + 모바일 서비스", "moatKo": "중국 시장 인지도 + 초기 투자 타이밍", "luckVsSkillKo": "운(55%): 중국 기술 슈퍼사이클. 실력(45%): 초기 진입 결단." },
+  "personalTraits": {
+    "knownFor": "Young Chinese technology entrepreneur and investor.",
+    "knownForKo": "젊은 중국 기술 기업가·투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard Chinese technology regulatory scrutiny.", "controversiesKo": "표준 중국 기술 규제 감시."
+  },
+  "characterKo": { "summaryKo": "중국 기술 산업 젊은 기업가·투자자.", "tagsKo": ["중국 기술", "젊은 기업가"] },
+  "failures": [
+    { "year": 2021, "description": "Chinese tech regulatory crackdown compressed company valuations across sector.", "descriptionKo": "중국 기술 규제 단속이 부문 전반 회사 밸류에이션 압축.", "lesson": "Chinese tech faces regulatory cycle.", "lessonKo": "중국 기술은 규제 사이클 직면." },
+    { "year": 2022, "description": "Global tech-stock decline compressed Chinese tech valuations further.", "descriptionKo": "글로벌 기술주 하락으로 중국 기술 밸류에이션 추가 압축.", "lesson": "Global tech-cycle correlation affects Chinese tech.", "lessonKo": "글로벌 기술 사이클 상관관계가 중국 기술 영향." }
+  ],
+  "wealthHistory": [{ "year": 2021, "netWorth": 4.5 }, { "year": 2022, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "China's tech moves in cycles. Patience matters.", "textKo": "중국 기술은 사이클로 움직인다. 인내가 중요하다.", "context": "On China tech", "contextKo": "중국 기술에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Sa day pillar in Chuk month — 'pyeon-in-gyeok', creative-strategic intuition, fitting young tech investor.", "summaryKo": "신사 일주 + 축월 편인격(독학·창의적 직관)은 젊은 나이에 중국 기술의 비전형적 자본 통로에 진입한 그의 직관과 호응합니다. 신금 일간의 예리한 금속 기질이 기술 평가의 정밀함과 통하고, 사화 일지의 화 기운이 젊은 기술가의 에너지를 가리키며, 축토 월지가 자본의 안정 누적 기반을 강조합니다." }
+}

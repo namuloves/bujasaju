@@ -1,0 +1,40 @@
+{
+  "id": "855", "name": "Tom Golisano", "nameKo": "블레이즈 토머스 골리사노",
+  "netWorth": 4.8, "nationality": "US", "industry": "Service",
+  "childhood": {
+    "birthPlace": "Rochester, New York, USA", "birthPlaceKo": "미국 뉴욕주 로체스터",
+    "familyBackground": "Born to Italian-American family in upstate New York.", "familyBackgroundKo": "뉴욕주 북부 이탈리아·미국 가정에서 출생.",
+    "education": "Alfred State College (associate degree).", "educationKo": "앨프리드 주립 칼리지(준학사).",
+    "earlyLife": "Worked at Electronic Accounting Systems; founded Paychex in 1971 with $3,000 to provide payroll services for small businesses.",
+    "earlyLifeKo": "Electronic Accounting Systems 근무; 1971년 3,000달러로 소기업용 급여 서비스 제공 Paychex 창립.",
+    "source": "https://en.wikipedia.org/wiki/Tom_Golisano"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Paychex 54년 자수성가." },
+  "careerTimeline": [
+    { "year": 1971, "age": 29, "event": "Founded Paychex in Rochester, New York with $3,000 to serve small-business payroll.", "eventKo": "뉴욕 로체스터에서 3,000달러로 소기업 급여 서비스 Paychex 창립.", "whyItMatteredKo": "54년 자수성가 출발선." },
+    { "year": 1983, "age": 41, "event": "Paychex IPO on NASDAQ; cemented small-business payroll-services leadership.", "eventKo": "Paychex 나스닥 IPO; 소기업 급여 서비스 리더십 굳힘.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 1998, "age": 56, "event": "Ran for New York governor on Independence Party ticket (lost); built political profile.", "eventKo": "독립당 후보로 뉴욕 주지사 출마(낙선); 정치 프로필 구축.", "whyItMatteredKo": "정치 정체성 추가." },
+    { "year": 2004, "age": 62, "event": "Stepped down as Paychex CEO; remained chairman.", "eventKo": "Paychex CEO에서 사임; 의장 잔류.", "whyItMatteredKo": "운영자에서 의장 전환." },
+    { "year": 2025, "age": 83, "event": "Personal net worth at $4.8B per Forbes Real-Time. Continues as Paychex chairman and philanthropist.", "eventKo": "포브스 실시간 기준 개인 순자산 48억 달러. Paychex 의장·자선가 계속.", "whyItMatteredKo": "54년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1971, "age": 29, "decisionKo": "3,000달러로 Paychex 창립", "alternativeKo": "회계 회사 직원 잔류", "outcomeKo": "54년 후 미국 최대 소기업 급여 서비스" }],
+  "moneyMechanics": { "primaryRevenueKo": "Paychex(NASDAQ 상장) 창립자 지분", "industryKo": "급여 서비스 SaaS", "businessModelKo": "구독 기반 급여·HR 서비스 + 보험 부가", "moatKo": "54년 트랙 레코드 + 70만+개 소기업 고객 베이스", "luckVsSkillKo": "운(25%): 1970-2020 미국 소기업 부상. 실력(75%): 54년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Paychex; major Rochester philanthropist; former owner of Buffalo Sabres NHL team; political activist.",
+    "knownForKo": "Paychex 창립자; 주요 로체스터 자선가; 전 버펄로 세이버스 NHL 팀 소유주; 정치 활동가.",
+    "philanthropy": "Golisano Foundation supports intellectual disabilities, healthcare; named Children's Hospital and University facilities.",
+    "philanthropyKo": "Golisano Foundation이 지적 장애·헬스케어 지원; 어린이 병원·대학 시설 명명.",
+    "controversies": "Multiple unsuccessful New York gubernatorial runs (1994, 1998, 2002); polarizing tax-policy advocacy.",
+    "controversiesKo": "다수 실패한 뉴욕 주지사 출마(1994, 1998, 2002); 양극화된 세금 정책 옹호."
+  },
+  "characterKo": { "summaryKo": "Paychex 54년 자수성가 + 로체스터 자선가 + 정치 활동가.", "tagsKo": ["Paychex", "54년 자수성가", "로체스터 자선가"] },
+  "failures": [
+    { "year": 1994, "description": "Lost New York governor race as Independence Party candidate; lost three additional gubernatorial races.", "descriptionKo": "독립당 후보로 뉴욕 주지사 선거 패배; 추가 세 번 주지사 선거 패배.", "lesson": "Third-party political viability extremely limited in US.", "lessonKo": "미국에서 제3당 정치 생존력은 매우 제한적." },
+    { "year": 2020, "description": "COVID-19 disrupted small-business payroll volumes; Paychex revenue temporarily compressed.", "descriptionKo": "COVID-19이 소기업 급여 규모 혼란; Paychex 매출 일시 압축.", "lesson": "Small-business SaaS exposed to SMB economic cycle.", "lessonKo": "소기업 SaaS는 SMB 경제 사이클 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.7 }, { "year": 2020, "netWorth": 3.2 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Three thousand dollars and a folder of unhappy small-business owners — that was the company.", "textKo": "3,000달러와 불만족한 소기업 소유주 폴더 — 그것이 회사였다.", "context": "On Paychex origins", "contextKo": "Paychex 기원에 대해", "source": "https://www.paychex.com" }],
+  "books": { "authored": [{ "title": "Built, Not Born", "year": 2020, "noteKo": "기업가 정신 회고록." }], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-In day pillar in Hae month — 'sanggwan-gyeok', creative output, fitting service-business founder.", "summaryKo": "병인 일주 + 해월 상관격(창의적 결과물·표현)은 54년 동안 소기업이라는 무시받던 시장을 거대 SaaS 산업으로 만든 그의 창의적 자수성가와 호응합니다. 병화 일간의 큰 불·태양 기질이 미국 70만+개 소기업에 빛처럼 도달하는 서비스와 통하고, 인목 일지의 목 기운이 54년 회사 성장을 가리킵니다." }
+}

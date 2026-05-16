@@ -1,0 +1,40 @@
+{
+  "id": "108", "name": "Harry Oskar Triguboff", "nameKo": "해리 트리구보프",
+  "netWorth": 22.7, "nationality": "AU", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Dalian, China", "birthPlaceKo": "중국 다롄",
+    "familyBackground": "Born to Russian-Jewish family in China; family fled Soviet Russia in 1917; lived in China through WWII.", "familyBackgroundKo": "중국에서 러시아 유대인 가정에서 출생; 가족이 1917년 소련에서 도망; 2차대전 동안 중국 거주.",
+    "education": "University of Leeds (textiles).", "educationKo": "리즈 대학교(섬유).",
+    "earlyLife": "Migrated to Australia in 1948 with family; worked in textile and taxi businesses; founded Meriton Group in 1963.",
+    "earlyLifeKo": "1948년 가족과 호주 이주; 섬유·택시 사업 종사; 1963년 Meriton Group 창립.",
+    "source": "https://en.wikipedia.org/wiki/Harry_Triguboff"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Meriton Group 62년 자수성가." },
+  "careerTimeline": [
+    { "year": 1963, "age": 30, "event": "Founded Meriton Group in Sydney with one apartment block development.", "eventKo": "시드니에서 아파트 블록 한 곳 개발로 Meriton Group 창립.", "whyItMatteredKo": "62년 자수성가 출발선." },
+    { "year": 1975, "age": 42, "event": "Pioneered high-density apartment development in Sydney suburbs.", "eventKo": "시드니 교외 고밀도 아파트 개발 개척.", "whyItMatteredKo": "도시 밀도 전략." },
+    { "year": 1995, "age": 62, "event": "Meriton became Australia's largest apartment builder; major Sydney landlord.", "eventKo": "Meriton이 호주 최대 아파트 건설사가 됨; 주요 시드니 지주.", "whyItMatteredKo": "메이저 자리." },
+    { "year": 2010, "age": 77, "event": "Built Meriton Serviced Apartments — short-term rental + hotel platform; built largest serviced-apartment chain in Australia.", "eventKo": "Meriton Serviced Apartments 구축 — 단기 임대·호텔 플랫폼; 호주 최대 서비스 아파트 체인 구축.", "whyItMatteredKo": "임대 + 호텔 확장." },
+    { "year": 2025, "age": 92, "event": "Personal net worth at $22.7B per Forbes Real-Time. Continues actively running Meriton Group at age 92.", "eventKo": "포브스 실시간 기준 개인 순자산 227억 달러. 92세에 Meriton Group 적극 운영 계속.", "whyItMatteredKo": "62년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1963, "age": 30, "decisionKo": "섬유·택시에서 아파트 개발로 전환", "alternativeKo": "섬유 경력 잔류", "outcomeKo": "62년 후 호주 최대 아파트 건설사 + 92세 현역" }],
+  "moneyMechanics": { "primaryRevenueKo": "Meriton Group(100% 가족 소유) — 아파트 분양 + 임대 + 서비스 아파트", "industryKo": "주택 부동산 개발", "businessModelKo": "시드니 고밀도 아파트 개발 + 자체 임대·호텔 운영", "moatKo": "62년 시드니 부동산 입지 + 가족 통제 자본", "luckVsSkillKo": "운(35%): 호주 이민 시대 + 시드니 도시화. 실력(65%): 62년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Meriton Group — Australia's largest apartment builder; active at age 92; legendary Sydney property baron.",
+    "knownForKo": "Meriton Group 창립자 — 호주 최대 아파트 건설사; 92세 현역; 전설적 시드니 부동산 거물.",
+    "philanthropy": "Major patron of Jewish-Australian cultural institutions and Sydney community causes.",
+    "philanthropyKo": "주요 호주 유대인 문화 기관·시드니 지역 사업 후원자.",
+    "controversies": "Frequent public clashes with Sydney planning authorities over density and height restrictions; political donor controversies.",
+    "controversiesKo": "밀도·높이 제한에 대한 시드니 계획 당국과의 빈번한 공개 충돌; 정치 기부자 논란."
+  },
+  "characterKo": { "summaryKo": "중국 출생 러시아 유대인 이민자가 시드니 부동산 거물로 — 92세 현역.", "tagsKo": ["Meriton Group", "62년 자수성가", "92세 현역", "시드니 거물"] },
+  "failures": [
+    { "year": 2018, "description": "Australian apartment-market oversupply and Chinese-buyer slowdown compressed Meriton sales.", "descriptionKo": "호주 아파트 시장 공급 과잉·중국인 매수자 둔화로 Meriton 매출 압축.", "lesson": "Single-country apartment developers face cyclical oversupply.", "lessonKo": "단일 국가 아파트 개발사는 주기적 공급 과잉 직면." },
+    { "year": 2020, "description": "COVID-19 collapsed serviced-apartment occupancy; Meriton's hotel arm absorbed losses.", "descriptionKo": "COVID-19이 서비스 아파트 객실 점유율 붕괴; Meriton 호텔 부문이 손실 흡수.", "lesson": "Short-term rental exposes to travel disruption.", "lessonKo": "단기 임대는 여행 혼란에 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 6.5 }, { "year": 2020, "netWorth": 12.0 }, { "year": 2024, "netWorth": 21.0 }, { "year": 2025, "netWorth": 22.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I don't retire because I'd be bored. Building is the work I love.", "textKo": "지루할 테니 은퇴하지 않는다. 짓는 것이 내가 사랑하는 일이다.", "context": "On working at age 90+", "contextKo": "90대 현역에 대해", "source": "https://www.meriton.com.au" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Jin day pillar in In month — 'pyeon-gwan-gyeok', strong external pressure-authority, fitting decades of building-regulation battles.", "summaryKo": "무진 일주 + 인월 편관격(강한 외부 압박·권력 충돌)은 60+년 시드니 계획 당국과의 끊임없는 충돌과 호응합니다. 무토 일간의 큰 산 기질이 92세 현역 가부장 역할과 통하고, 진토 일지의 토 기운이 부동산 자산 누적을 가리키며, 편관격이 평생 권력 충돌을 통과해 부를 짓는 구조와 맞물립니다." }
+}

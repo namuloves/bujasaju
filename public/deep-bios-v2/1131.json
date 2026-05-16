@@ -1,0 +1,39 @@
+{
+  "id": "1131", "name": "John Joseph Fisher", "nameKo": "존 조지프 피셔",
+  "netWorth": 3.7, "nationality": "US", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "California, USA", "birthPlaceKo": "미국 캘리포니아",
+    "familyBackground": "Born to Donald and Doris Fisher — founders of Gap Inc. (American clothing retailer founded 1969).", "familyBackgroundKo": "Gap Inc.(1969 창립 미국 의류 소매사) 창립자 도널드·도리스 피셔 부부의 아들.",
+    "education": "Princeton University; Stanford GSB MBA.", "educationKo": "프린스턴 대학교; 스탠퍼드 GSB MBA.",
+    "earlyLife": "Inherited Gap Inc. family stake; founded Sansome Partners family office; co-owner of Oakland Athletics MLB team.",
+    "earlyLifeKo": "Gap Inc. 가족 지분 상속; Sansome Partners 가족 사무실 창립; Oakland Athletics MLB 팀 공동 소유주.",
+    "source": "https://en.wikipedia.org/wiki/John_J._Fisher"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Gap Inc. 가족 자본 + Oakland Athletics." },
+  "careerTimeline": [
+    { "year": 1990, "age": 29, "event": "Began Fisher family operations after Stanford GSB.", "eventKo": "스탠퍼드 GSB 후 Fisher 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2005, "age": 44, "event": "Acquired Oakland Athletics MLB team via Lewis Wolff and John Fisher group.", "eventKo": "Lewis Wolff·John Fisher 그룹 통해 Oakland Athletics MLB 팀 인수.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 2016, "age": 55, "event": "Became majority owner of Oakland Athletics; began long-running stadium dispute with Oakland city.", "eventKo": "Oakland Athletics 다수 소유주가 됨; Oakland 시와 장기 스타디움 분쟁 시작.", "whyItMatteredKo": "스포츠 단독 소유 단계." },
+    { "year": 2023, "age": 62, "event": "Announced Athletics move from Oakland to Las Vegas; faced fan and Bay Area political backlash.", "eventKo": "Athletics를 Oakland에서 라스베이거스로 이전 발표; 팬·베이 에어리어 정치 반발 직면.", "whyItMatteredKo": "분쟁 정점 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $3.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러.", "whyItMatteredKo": "가족 자본 + 스포츠 정점." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 44, "decisionKo": "Oakland Athletics 인수", "alternativeKo": "Gap 가족 자본만 유지", "outcomeKo": "스포츠 자본 + 베이 에어리어 정치 분쟁" }],
+  "moneyMechanics": { "primaryRevenueKo": "Gap Inc. 가족 지분 + Sansome Partners + Oakland Athletics 지분", "industryKo": "소매 + 스포츠 가족 자본", "businessModelKo": "Gap 가족 지분 + 베이 에어리어 부동산 + MLB 팀", "moatKo": "Gap 다세대 가족 자본", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): Athletics 운영." },
+  "personalTraits": {
+    "knownFor": "Co-owner of Oakland Athletics; major shareholder of Gap Inc.; Fisher family heir.",
+    "knownForKo": "Oakland Athletics 공동 소유주; Gap Inc. 주요 주주; Fisher 가족 상속자.",
+    "philanthropy": "Fisher family supports Bay Area education, environmental causes.", "philanthropyKo": "Fisher 가족이 베이 에어리어 교육·환경 사업 지원.",
+    "controversies": "Long-running public dispute with Oakland fans over Athletics relocation to Las Vegas; minimal stadium investment criticism.",
+    "controversiesKo": "Athletics 라스베이거스 이전에 대한 Oakland 팬과 장기 공개 분쟁; 최소 스타디움 투자 비판."
+  },
+  "characterKo": { "summaryKo": "Gap 가족 자본 상속자 + Oakland Athletics 논란의 소유주.", "tagsKo": ["Gap 가족", "Oakland Athletics", "라스베이거스 이전 논란"] },
+  "failures": [
+    { "year": 2023, "description": "Athletics relocation to Las Vegas drew Oakland fan boycotts and political backlash; brand damage.", "descriptionKo": "Athletics 라스베이거스 이전이 Oakland 팬 보이콧·정치 반발 야기; 브랜드 손상.", "lesson": "Sports-team relocations create lasting fan-base damage.", "lessonKo": "스포츠 팀 이전은 지속적 팬 베이스 손상 야기." },
+    { "year": 2020, "description": "COVID-19 collapsed Gap Inc. retail sales; Fisher family stake compressed.", "descriptionKo": "COVID-19이 Gap Inc. 소매 매출 붕괴; Fisher 가족 지분 압축.", "lesson": "Retail-apparel exposed to pandemic-cycle shocks.", "lessonKo": "소매 의류는 팬데믹 사이클 충격 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 2.7 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family wealth must serve more than family.", "textKo": "가족 부는 가족 이상을 섬겨야 한다.", "context": "On family stewardship", "contextKo": "가족 청지기에 대해", "source": "https://en.wikipedia.org/wiki/John_J._Fisher" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Chuk day pillar in Sa month — 'pyeon-in-gyeok', creative intuition, fitting heir with unconventional investments.", "summaryKo": "을축 일주 + 사월 편인격(독학·창의적 직관)은 Gap 가족 자본을 스포츠·부동산 등 비전형적 자본 통로로 다각화한 그의 경로와 호응합니다. 을목 일간의 부드러운 식물 기질이 가족 자본의 청지기 역할과 통하고, 축토 일지·사화 월지의 토·화 기운이 자본 누적 + 결단 표현을 가리킵니다." }
+}

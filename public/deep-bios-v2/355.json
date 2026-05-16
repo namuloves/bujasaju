@@ -1,0 +1,39 @@
+{
+  "id": "355", "name": "Todd Boehly", "nameKo": "토드 볼리",
+  "netWorth": 9.3, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Maryland, USA", "birthPlaceKo": "미국 메릴랜드",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "College of William and Mary; London School of Economics.", "educationKo": "윌리엄 앤드 메리 칼리지; 런던 스쿨 오브 이코노믹스.",
+    "earlyLife": "Joined Credit Suisse and Citi; rose at Guggenheim Partners; co-founded Eldridge Industries in 2015 — diversified holding company.",
+    "earlyLifeKo": "Credit Suisse·Citi 합류; Guggenheim Partners에서 부상; 2015년 Eldridge Industries 공동 창립 — 다각화 지주 회사.",
+    "source": "https://en.wikipedia.org/wiki/Todd_Boehly"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Eldridge Industries + 다각화 투자." },
+  "careerTimeline": [
+    { "year": 1996, "age": 23, "event": "Began Wall Street career at Credit Suisse and Citi.", "eventKo": "Credit Suisse·Citi에서 월스트리트 경력 시작.", "whyItMatteredKo": "금융 경력 출발선." },
+    { "year": 2002, "age": 29, "event": "Joined Guggenheim Partners; rose to president.", "eventKo": "Guggenheim Partners 합류; 사장 승진.", "whyItMatteredKo": "PE·자산운용 단계." },
+    { "year": 2012, "age": 39, "event": "Part of Guggenheim consortium acquiring Los Angeles Dodgers for $2.15B.", "eventKo": "Guggenheim 컨소시엄의 로스앤젤레스 다저스 21억 5,000만 달러 인수 참여.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 2015, "age": 42, "event": "Founded Eldridge Industries — diversified holding company spanning media, insurance, sports, real estate.", "eventKo": "Eldridge Industries 창립 — 미디어·보험·스포츠·부동산 다각화 지주 회사.", "whyItMatteredKo": "독립 다각화 단계." },
+    { "year": 2022, "age": 49, "event": "Led $5.3B Chelsea FC acquisition; became Chelsea co-owner.", "eventKo": "53억 달러 첼시 FC 인수 주도; 첼시 공동 소유주가 됨.", "whyItMatteredKo": "글로벌 스포츠 자본 단계." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 42, "decisionKo": "Guggenheim 떠나 Eldridge 창립", "alternativeKo": "Guggenheim 사장 잔류", "outcomeKo": "독립 다각화 + 첼시 FC + 다저스 공동 소유" }],
+  "moneyMechanics": { "primaryRevenueKo": "Eldridge Industries(다각화) + LA Dodgers + Chelsea FC + 미디어 자산", "industryKo": "다각화 지주", "businessModelKo": "보험·미디어·스포츠·부동산·기술 다각화 투자", "moatKo": "다각화 자본 + 글로벌 스포츠 인지도", "luckVsSkillKo": "운(35%): 2012 다저스 + 2022 첼시 인수 타이밍. 실력(65%): 10년 Eldridge 다각화 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and CEO of Eldridge Industries; co-owner of Los Angeles Dodgers (MLB) and Chelsea FC; major sports-and-media investor.",
+    "knownForKo": "Eldridge Industries 공동 창립자·CEO; 로스앤젤레스 다저스(MLB)·첼시 FC 공동 소유주; 주요 스포츠·미디어 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Chelsea FC ownership has faced fan criticism over transfer-spending strategy and managerial changes.",
+    "controversiesKo": "첼시 FC 소유권이 이적 지출 전략·감독 교체에 대한 팬 비판 직면."
+  },
+  "characterKo": { "summaryKo": "Eldridge 다각화 + 다저스·첼시 공동 소유 + 미디어 투자자.", "tagsKo": ["Eldridge Industries", "LA Dodgers", "Chelsea FC", "Guggenheim 출신"] },
+  "failures": [
+    { "year": 2022, "description": "Chelsea FC spent £1B+ on player transfers post-acquisition without immediate trophy results; fan criticism.", "descriptionKo": "첼시 FC가 인수 후 10억 파운드+ 선수 이적 지출했지만 즉시 트로피 결과 없음; 팬 비판.", "lesson": "Sports-club ownership requires patience over rapid restructuring.", "lessonKo": "스포츠 클럽 소유는 빠른 재구조화보다 인내 필요." },
+    { "year": 2022, "description": "Rising interest rates compressed Eldridge's leveraged investments in real estate and media.", "descriptionKo": "금리 상승으로 Eldridge의 부동산·미디어 레버리지 투자 압축.", "lesson": "Leveraged diversified holdings sensitive to rate environment.", "lessonKo": "레버리지 다각화 보유는 금리 환경에 민감." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 4.5 }, { "year": 2024, "netWorth": 8.5 }, { "year": 2025, "netWorth": 9.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Sports teams are global brands, not just teams.", "textKo": "스포츠 팀은 단순히 팀이 아니라 글로벌 브랜드다.", "context": "On Chelsea FC acquisition", "contextKo": "첼시 FC 인수에 대해", "source": "https://www.eldridge.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Mi day pillar in Yu month — 'siksin-gyeok', creative diversified output, fitting multi-asset deal-maker.", "summaryKo": "기미 일주 + 유월 식신격(창의적 결과물·표현)은 미디어·스포츠·보험을 가로지르는 다각화 딜메이킹이라는 끊임없는 창의적 자본 결합과 호응합니다. 기토 일간의 작은 흙·세밀한 농경 기질이 다각화 딜의 정밀 평가와 통하고, 미토 일지의 토 기운이 다부문 자본의 안정 기반을 가리킵니다." }
+}

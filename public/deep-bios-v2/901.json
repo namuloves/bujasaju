@@ -1,0 +1,40 @@
+{
+  "id": "901", "name": "David Robert Filo", "nameKo": "데이비드 로버트 필로",
+  "netWorth": 4.6, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Wisconsin, USA", "birthPlaceKo": "미국 위스콘신",
+    "familyBackground": "Born to American middle-class family in Wisconsin; raised in Louisiana.", "familyBackgroundKo": "위스콘신 미국 중산층 가정에서 출생; 루이지애나에서 성장.",
+    "education": "Tulane University; Stanford PhD program (electrical engineering, did not complete).", "educationKo": "툴레인 대학교; 스탠퍼드 박사 과정(전기공학, 미완료).",
+    "earlyLife": "Co-founded Yahoo with Jerry Yang in 1994 while Stanford PhD students; built first major web directory.",
+    "earlyLifeKo": "1994년 스탠퍼드 박사 과정 학생일 때 제리 양과 Yahoo 공동 창립; 최초 주요 웹 디렉토리 구축.",
+    "source": "https://en.wikipedia.org/wiki/David_Filo"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Yahoo 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1994, "age": 28, "event": "Co-founded Yahoo with Jerry Yang in their Stanford trailer; built web directory.", "eventKo": "스탠퍼드 트레일러에서 제리 양과 Yahoo 공동 창립; 웹 디렉토리 구축.", "whyItMatteredKo": "Yahoo 출발선." },
+    { "year": 1996, "age": 30, "event": "Yahoo IPO on NASDAQ; cemented internet-era leadership.", "eventKo": "Yahoo 나스닥 IPO; 인터넷 시대 리더십 굳힘.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2008, "age": 42, "event": "Yahoo rejected Microsoft $44.6B acquisition offer; major strategic mistake.", "eventKo": "Yahoo가 마이크로소프트 446억 달러 인수 제안 거절; 주요 전략 실수.", "whyItMatteredKo": "엑시트 실패 단계." },
+    { "year": 2017, "age": 51, "event": "Yahoo's core business sold to Verizon for $4.5B; remaining stake renamed Altaba.", "eventKo": "Yahoo 핵심 사업이 Verizon에 45억 달러 매각; 잔여 지분이 Altaba로 개명.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $4.6B per Forbes Real-Time. Lives quietly; major Stanford patron.", "eventKo": "포브스 실시간 기준 개인 순자산 46억 달러. 조용히 거주; 주요 스탠퍼드 후원자.", "whyItMatteredKo": "Yahoo 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 28, "decisionKo": "박사 과정에서 Yahoo 창립", "alternativeKo": "박사 학위 완료", "outcomeKo": "30년 후 Yahoo 공동 창립자로 46억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Yahoo/Altaba 매각 대금 + Stanford 기부 자본 + 글로벌 다각화 투자", "industryKo": "기술 매각 후 자산운용", "businessModelKo": "Yahoo 매각 대금 + 글로벌 자산 분포", "moatKo": "Yahoo 공동 창립자 자본 + 학문 인맥", "luckVsSkillKo": "운(60%): 1994-1996 인터넷 시대 + Yahoo IPO 타이밍. 실력(40%): 스탠퍼드 + 30년 자본 보유." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Yahoo; one of the inventors of web search; reclusive billionaire.",
+    "knownForKo": "Yahoo 공동 창립자; 웹 검색 발명자 중 한 명; 은둔형 억만장자.",
+    "philanthropy": "Major Tulane and Stanford patron; supports educational and engineering initiatives.",
+    "philanthropyKo": "주요 툴레인·스탠퍼드 후원자; 교육·엔지니어링 사업 지원.",
+    "controversies": "Yahoo 2008 Microsoft offer rejection retrospectively criticized as one of tech's biggest mistakes.",
+    "controversiesKo": "Yahoo 2008 마이크로소프트 제안 거절이 회고적으로 기술계 최대 실수 중 하나로 비판."
+  },
+  "characterKo": { "summaryKo": "Yahoo 공동 창립자 + 은둔형 30+년 자본 보유자.", "tagsKo": ["Yahoo 공동 창립", "은둔형 억만장자", "스탠퍼드 후원자"] },
+  "failures": [
+    { "year": 2008, "description": "Yahoo board rejected Microsoft $44.6B acquisition offer; subsequent value destruction reached $30B+.", "descriptionKo": "Yahoo 이사회가 마이크로소프트 446억 달러 인수 제안 거절; 이후 가치 파괴가 300억 달러+ 도달.", "lesson": "Founder pride can destroy enormous shareholder value.", "lessonKo": "창립자 자존심이 거대한 주주 가치를 파괴할 수 있다." },
+    { "year": 2017, "description": "Yahoo eventually sold core business to Verizon for $4.5B — 10% of Microsoft's earlier offer.", "descriptionKo": "Yahoo이 결국 핵심 사업을 Verizon에 45억 달러 매각 — 마이크로소프트의 이전 제안의 10%.", "lesson": "Strategic timing mistakes compound over a decade.", "lessonKo": "전략 타이밍 실수는 10년에 걸쳐 복리된다." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 4.3 }, { "year": 2025, "netWorth": 4.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "We built Yahoo because we needed it to organize our own bookmarks.", "textKo": "우리는 우리 자신의 북마크를 정리하기 위해 Yahoo를 만들었다.", "context": "On Yahoo origins", "contextKo": "Yahoo 기원에 대해", "source": "https://en.wikipedia.org/wiki/David_Filo" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Jin month — 'pyeon-in-gyeok', creative intuition, fitting PhD-dropout dotcom co-founder.", "summaryKo": "갑진 일주 + 진월 편인격(독학·창의적 직관)은 박사 과정 중 디렉토리 만들기 같은 비전형적 결정에서 인터넷 메이저로 이어진 그의 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 거대 인터넷 회사 가부장 역할과 통하고, 일지·월지 모두 진토로 거대한 자본의 안정 기반을 이중으로 강조합니다." }
+}

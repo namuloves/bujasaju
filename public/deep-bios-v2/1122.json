@@ -1,0 +1,38 @@
+{
+  "id": "1122", "name": "Louis Le Duff", "nameKo": "루이 르 뒤프",
+  "netWorth": 3.7, "nationality": "FR", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Brittany, France", "birthPlaceKo": "프랑스 브르타뉴",
+    "familyBackground": "Born to working-class Breton farming family.", "familyBackgroundKo": "노동자 계급 브르타뉴 농가에서 출생.",
+    "education": "Studied business; PhD attempts.", "educationKo": "경영학 수학; 박사 시도.",
+    "earlyLife": "Founded Brioche Doree bakery chain in 1976; built Groupe Le Duff into global bakery-cafe operator.",
+    "earlyLifeKo": "1976년 Brioche Doree 베이커리 체인 창립; Groupe Le Duff를 글로벌 베이커리·카페 운영사로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Louis_Le_Duff"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Groupe Le Duff 50년 자수성가." },
+  "careerTimeline": [
+    { "year": 1976, "age": 30, "event": "Founded Brioche Doree bakery in Brest, France.", "eventKo": "프랑스 브레스트에서 Brioche Doree 베이커리 창립.", "whyItMatteredKo": "50년 자수성가 출발선." },
+    { "year": 1996, "age": 50, "event": "Acquired Bridor industrial bakery; vertical integration into frozen baked goods.", "eventKo": "Bridor 산업 베이커리 인수; 냉동 베이커리 제품 수직 통합.", "whyItMatteredKo": "B2B 자본 추가." },
+    { "year": 2008, "age": 62, "event": "Acquired Mimi's Cafe (US); expanded into US casual-dining and bakery-cafe market.", "eventKo": "Mimi's Cafe(미국) 인수; 미국 캐주얼 다이닝·베이커리 카페 시장 확장.", "whyItMatteredKo": "미국 시장 진입." },
+    { "year": 2018, "age": 72, "event": "Groupe Le Duff revenue crossed €2B globally; major France-based bakery group.", "eventKo": "Groupe Le Duff 매출이 글로벌 20억 유로 돌파; 주요 프랑스 베이커리 그룹.", "whyItMatteredKo": "글로벌 메이저 자리." },
+    { "year": 2025, "age": 79, "event": "Personal net worth at $3.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러.", "whyItMatteredKo": "50년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1976, "age": 30, "decisionKo": "브레스트에서 베이커리 체인 창립", "alternativeKo": "지역 가게 잔류", "outcomeKo": "50년 후 글로벌 베이커리 그룹" }],
+  "moneyMechanics": { "primaryRevenueKo": "Groupe Le Duff(100% 가족 소유) — Brioche Doree·Bridor·기타 브랜드", "industryKo": "베이커리·카페", "businessModelKo": "프랜차이즈 + 산업 베이커리 B2B + 글로벌 매장", "moatKo": "50년 누적 프랑스 베이커리 브랜드 + 산업 생산 인프라", "luckVsSkillKo": "운(35%): 1970년대 프랑스 베이커리 산업 성장. 실력(65%): 50년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Groupe Le Duff (Brioche Doree, Bridor); major French bakery magnate.",
+    "knownForKo": "Groupe Le Duff(Brioche Doree, Bridor) 창립자; 주요 프랑스 베이커리 거물.",
+    "philanthropy": "Brittany community development support.", "philanthropyKo": "브르타뉴 지역 사회 개발 지원.",
+    "controversies": "Standard food-industry labor and supply-chain debates.", "controversiesKo": "표준 식품 산업 노동·공급망 논쟁."
+  },
+  "characterKo": { "summaryKo": "브르타뉴 농가에서 글로벌 베이커리 거물로 50년 자수성가.", "tagsKo": ["Brioche Doree", "Bridor", "50년 자수성가"] },
+  "failures": [
+    { "year": 2008, "description": "Acquired Mimi's Cafe at near-peak; subsequent US casual-dining downturn compressed value.", "descriptionKo": "Mimi's Cafe를 거의 정점에서 인수; 이후 미국 캐주얼 다이닝 침체로 가치 압축.", "lesson": "M&A timing matters more than strategic fit.", "lessonKo": "M&A 타이밍이 전략적 적합성보다 중요." },
+    { "year": 2020, "description": "COVID-19 closed bakery-cafe locations globally; B2B bakery sales also disrupted.", "descriptionKo": "COVID-19이 베이커리 카페를 글로벌 폐쇄; B2B 베이커리 판매도 혼란.", "lesson": "Hospitality-linked bakeries face pandemic exposure.", "lessonKo": "환대 산업 연계 베이커리는 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.6 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Brittany taught me bread. The world taught me business.", "textKo": "브르타뉴는 나에게 빵을 가르쳤다. 세계는 사업을 가르쳤다.", "context": "On global expansion", "contextKo": "글로벌 확장에 대해", "source": "https://www.groupeleduff.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Mi day pillar in Mi month — 'pyeon-in-gyeok', maternal-academic intuition channeled into food entrepreneurship.", "summaryKo": "정미 일주 + 미월 편인격(독학·창의적 직관)은 박사 시도 후 50년 베이커리 자수성가로 이어진 그의 경로와 호응합니다. 정화 일간의 따뜻한 불(빵 굽는 불) 이미지가 베이커리 산업과 직접 통하고, 미토 월지의 토 기운이 글로벌 매장 인프라 누적을 가리킵니다." }
+}

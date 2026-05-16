@@ -1,0 +1,39 @@
+{
+  "id": "682", "name": "Annette Lerner", "nameKo": "아네트 러너",
+  "netWorth": 5.8, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Married Theodore Lerner in 1951; together they built Lerner Enterprises — major Washington DC real-estate developer.", "familyBackgroundKo": "1951년 시어도어 러너와 결혼; 함께 Lerner Enterprises 구축 — 주요 워싱턴 DC 부동산 개발사.",
+    "education": "American education in 1940s.", "educationKo": "1940년대 미국 교육.",
+    "earlyLife": "Worked alongside husband Ted Lerner building Lerner Enterprises from 1950s; co-owner of Washington Nationals MLB team since 2006.",
+    "earlyLifeKo": "1950년대부터 남편 테드 러너와 Lerner Enterprises 구축에 함께 일함; 2006년부터 Washington Nationals MLB 팀 공동 소유주.",
+    "source": "https://en.wikipedia.org/wiki/Theodore_Lerner"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Lerner Enterprises 부부 공동 70+년 자수성가." },
+  "careerTimeline": [
+    { "year": 1952, "age": 22, "event": "Married Theodore Lerner; began Washington DC real-estate business together.", "eventKo": "시어도어 러너와 결혼; 함께 워싱턴 DC 부동산 사업 시작.", "whyItMatteredKo": "70+년 부부 자수성가 출발선." },
+    { "year": 1980, "age": 50, "event": "Lerner Enterprises became major Washington DC commercial real-estate developer.", "eventKo": "Lerner Enterprises가 주요 워싱턴 DC 상업 부동산 개발사가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2006, "age": 76, "event": "Lerner family acquired Washington Nationals MLB team for $450M.", "eventKo": "Lerner 가족이 Washington Nationals MLB 팀을 4억 5,000만 달러에 인수.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 2023, "age": 93, "event": "Husband Ted Lerner died at 97; Annette became senior family stakeholder.", "eventKo": "남편 테드 러너 97세 사망; 아네트가 시니어 가족 주주가 됨.", "whyItMatteredKo": "여성 가부장 단계." },
+    { "year": 2025, "age": 96, "event": "Personal net worth at $5.8B per Forbes Real-Time. Continues as Lerner Enterprises and Nationals family stakeholder.", "eventKo": "포브스 실시간 기준 개인 순자산 58억 달러. Lerner Enterprises와 Nationals 가족 주주 계속.", "whyItMatteredKo": "70+년 부부 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1952, "age": 22, "decisionKo": "테드 러너와 결혼·DC 부동산 공동 사업", "alternativeKo": "전통적 주부", "outcomeKo": "70+년 후 워싱턴 DC 부동산 메이저 가족 자본" }],
+  "moneyMechanics": { "primaryRevenueKo": "Lerner Enterprises(가족 통제) + Washington Nationals 가족 지분", "industryKo": "부동산 + 스포츠", "businessModelKo": "워싱턴 DC 상업·주거 부동산 + MLB 팀", "moatKo": "70+년 워싱턴 DC 입지 + Lerner 가족 통제", "luckVsSkillKo": "운(30%): 워싱턴 DC 부 집중. 실력(70%): 70+년 부부 공동 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Lerner Enterprises with husband Ted Lerner; co-owner of Washington Nationals MLB.",
+    "knownForKo": "남편 테드 러너와 Lerner Enterprises 공동 창립자; Washington Nationals MLB 공동 소유주.",
+    "philanthropy": "Lerner family supports Washington DC arts, education, Jewish causes.",
+    "philanthropyKo": "Lerner 가족이 워싱턴 DC 예술·교육·유대인 사업 지원.",
+    "controversies": "Standard real-estate development and sports-ownership scrutiny.", "controversiesKo": "표준 부동산 개발·스포츠 소유 감시."
+  },
+  "characterKo": { "summaryKo": "70+년 부부 공동 워싱턴 DC 부동산 + Washington Nationals 가족 자본의 시니어 가부장.", "tagsKo": ["Lerner Enterprises", "Washington Nationals", "70+년 부부 자본"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Washington DC commercial real-estate; Lerner Enterprises absorbed cyclical pressure.", "descriptionKo": "글로벌 금융위기로 워싱턴 DC 상업 부동산 압축; Lerner Enterprises가 사이클 압박 흡수.", "lesson": "Commercial real-estate exposed to credit-cycle compression.", "lessonKo": "상업 부동산은 신용 사이클 압축 노출." },
+    { "year": 2020, "description": "COVID-19 closed Washington Nationals games and DC retail; Lerner Enterprises rental income compressed.", "descriptionKo": "COVID-19이 Washington Nationals 경기·DC 소매 폐쇄; Lerner Enterprises 임대 수입 압축.", "lesson": "Diversified real-estate-and-sports faces pandemic exposure.", "lessonKo": "다각화 부동산·스포츠는 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.5 }, { "year": 2020, "netWorth": 4.8 }, { "year": 2024, "netWorth": 5.6 }, { "year": 2025, "netWorth": 5.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Ted built. I helped build. The buildings are still standing.", "textKo": "테드가 지었다. 내가 짓는 것을 도왔다. 건물은 아직 서 있다.", "context": "On husband Ted Lerner", "contextKo": "남편 테드 러너에 대해", "source": "https://www.lernerenterprises.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Shin day pillar in In month — 'pyeon-gwan-gyeok', strong external authority, fitting decades of real-estate dispute environment.", "summaryKo": "무신 일주 + 인월 편관격(강한 외부 압박·권력 충돌)은 70+년 워싱턴 DC 부동산 산업의 끊임없는 정부·규제·정치 환경과 호응합니다. 무토 일간의 큰 산 기질이 70+년 부부 자수성가의 안정 가부장 역할과 통하고, 신금 일지의 금 기운이 부동산이라는 단단한 자산을 가리키며, 인목 월지가 가족 자본의 누적 성장을 강조합니다." }
+}

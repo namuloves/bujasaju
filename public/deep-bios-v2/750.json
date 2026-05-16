@@ -1,0 +1,37 @@
+{
+  "id": "750", "name": "Jerzy Starak", "nameKo": "예르지 스타락",
+  "netWorth": 5.4, "nationality": "PL", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Poland", "birthPlaceKo": "폴란드",
+    "familyBackground": "Born to Polish family during Soviet era.", "familyBackgroundKo": "소련 시대 폴란드 가정에서 출생.",
+    "education": "Polish higher education.", "educationKo": "폴란드 고등교육.",
+    "earlyLife": "Built career in Polish pharmaceutical industry; acquired Polpharma — Poland's largest pharmaceutical manufacturer; built Sopharma and Polpharma Group.",
+    "earlyLifeKo": "폴란드 제약 산업 경력 구축; 폴란드 최대 제약 제조사 Polpharma 인수; Sopharma·Polpharma Group 구축.",
+    "source": "https://en.wikipedia.org/wiki/Polpharma"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Polpharma 30+년 자수성가." },
+  "careerTimeline": [
+    { "year": 1990, "age": 43, "event": "Founded Polpharma post-communist privatization; began Polish pharma acquisition.", "eventKo": "공산주의 후 민영화에서 Polpharma 창립; 폴란드 제약 인수 시작.", "whyItMatteredKo": "30+년 자수성가 출발선." },
+    { "year": 2000, "age": 53, "event": "Polpharma became Poland's largest generic-pharmaceutical maker.", "eventKo": "Polpharma가 폴란드 최대 제네릭 제약 제조사가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2010, "age": 63, "event": "Polpharma expanded across Russia, CIS, and Central/Eastern Europe.", "eventKo": "Polpharma가 러시아·CIS·중·동부 유럽 전역 확장.", "whyItMatteredKo": "지역 확장 단계." },
+    { "year": 2025, "age": 77, "event": "Personal net worth at $5.4B per Forbes Real-Time. Continues as Polpharma chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 54억 달러. Polpharma 의장 계속.", "whyItMatteredKo": "30+년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 43, "decisionKo": "공산주의 후 폴란드 제약 인수", "alternativeKo": "정부 직장 잔류", "outcomeKo": "35년 후 폴란드 제약 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Polpharma SA + Sopharma 폴란드·동유럽 제약 사업", "industryKo": "제네릭 제약·OTC", "businessModelKo": "제네릭 + OTC + 동유럽 제약 시장 통합", "moatKo": "30+년 폴란드 제약 시장 + 동유럽 인맥", "luckVsSkillKo": "운(45%): 1990년대 폴란드 민영화 + 동유럽 시장 부상. 실력(55%): 30+년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Polpharma; major Polish pharmaceutical industrialist; one of Poland's wealthiest people.",
+    "knownForKo": "Polpharma 창립자; 주요 폴란드 제약 산업가; 폴란드 최대 부자 중 한 명.",
+    "philanthropy": "Polpharma Foundation supports Polish medical research and education.", "philanthropyKo": "Polpharma 재단이 폴란드 의료 연구·교육 지원.",
+    "controversies": "Standard generic-pharmaceutical industry regulatory scrutiny.", "controversiesKo": "표준 제네릭 제약 산업 규제 감시."
+  },
+  "characterKo": { "summaryKo": "공산주의 후 Polpharma 30+년 자수성가 — 폴란드 제약 메이저.", "tagsKo": ["Polpharma", "폴란드 제약", "30+년 자수성가"] },
+  "failures": [
+    { "year": 2014, "description": "Russia-Ukraine 2014 sanctions disrupted Polpharma's Russian and CIS sales channels.", "descriptionKo": "2014 러시아-우크라이나 제재가 Polpharma의 러시아·CIS 판매 채널 혼란.", "lesson": "Cross-border pharma exposed to geopolitical risk.", "lessonKo": "국경 간 제약은 지정학적 리스크 노출." },
+    { "year": 2022, "description": "Post-2022 sanctions further compressed Polpharma's Russian operations.", "descriptionKo": "2022 이후 제재로 Polpharma의 러시아 운영 추가 압축.", "lesson": "Sustained geopolitical exposure compresses cross-border pharma.", "lessonKo": "지속적 지정학 노출은 국경 간 제약 압축." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 2.8 }, { "year": 2024, "netWorth": 5.2 }, { "year": 2025, "netWorth": 5.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Poland was a pharmaceutical market unmet. We met it.", "textKo": "폴란드는 충족되지 않은 제약 시장이었다. 우리가 충족시켰다.", "context": "On Polpharma origins", "contextKo": "Polpharma 기원에 대해", "source": "https://www.polpharma.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Chuk day pillar in Ja month — 'jeongin-gyeok', maternal-academic foundation, fitting pharmacist-industrialist.", "summaryKo": "을축 일주 + 자월 정인격(공식 자격·학문 자본)은 제약 산업이라는 정부 인증·자격·연구 자본 기반 산업과 호응합니다. 을목 일간의 부드러운 식물 기질이 약초·약품이라는 의료 산업과 통하고, 축토 일지·자수 월지의 토·수 기운이 자본의 안정 누적 + 유동성을 가리킵니다." }
+}

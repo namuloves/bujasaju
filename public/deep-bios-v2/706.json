@@ -1,0 +1,38 @@
+{
+  "id": "706", "name": "Margarita Louis-Dreyfus", "nameKo": "마르가리타 루이-드레퓌스",
+  "netWorth": 5.7, "nationality": "CH", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Leningrad, USSR (now St. Petersburg, Russia)", "birthPlaceKo": "소련 레닌그라드(현 러시아 상트페테르부르크)",
+    "familyBackground": "Born to working-class Soviet Russian family; orphaned young.", "familyBackgroundKo": "소련 러시아 노동자 계급 가정에서 출생; 어린 나이에 고아.",
+    "education": "Soviet education; later moved to West.", "educationKo": "소련 교육; 이후 서방 이주.",
+    "earlyLife": "Married Robert Louis-Dreyfus (heir of Louis-Dreyfus commodity-trading dynasty) in 1992; took over Louis Dreyfus Company chairmanship after his 2009 death.",
+    "earlyLifeKo": "1992년 로베르 루이-드레퓌스(Louis-Dreyfus 원자재 거래 왕조 상속자)와 결혼; 2009년 그의 사망 후 Louis Dreyfus Company 의장직 인수.",
+    "source": "https://en.wikipedia.org/wiki/Margarita_Louis-Dreyfus"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Louis-Dreyfus 가족 자본 — 남편 사후 인수." },
+  "careerTimeline": [
+    { "year": 1992, "age": 30, "event": "Married Robert Louis-Dreyfus; entered Louis-Dreyfus family business orbit.", "eventKo": "로베르 루이-드레퓌스와 결혼; Louis-Dreyfus 가족 사업 궤도 진입.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2009, "age": 47, "event": "Husband Robert Louis-Dreyfus died of leukemia at 63; Margarita inherited Louis Dreyfus Company chairmanship.", "eventKo": "남편 로베르 루이-드레퓌스가 63세 백혈병으로 사망; 마르가리타가 Louis Dreyfus Company 의장직 상속.", "whyItMatteredKo": "여성 가부장 단계." },
+    { "year": 2015, "age": 53, "event": "Louis Dreyfus Company restructured under Margarita's leadership; consolidated cousin family stakes.", "eventKo": "마르가리타 리더십 하에 Louis Dreyfus Company 재구조화; 사촌 가족 지분 통합.", "whyItMatteredKo": "재구조화 단계." },
+    { "year": 2020, "age": 58, "event": "Sold 45% Louis Dreyfus Company stake to ADQ (Abu Dhabi sovereign wealth) for $800M+; remained chair.", "eventKo": "Louis Dreyfus Company 45% 지분을 ADQ(아부다비 국부펀드)에 8억 달러+ 매각; 의장 잔류.", "whyItMatteredKo": "부분 엑시트 단계." },
+    { "year": 2025, "age": 63, "event": "Personal net worth at $5.7B per Forbes Real-Time. Continues as Louis Dreyfus Company chair.", "eventKo": "포브스 실시간 기준 개인 순자산 57억 달러. Louis Dreyfus Company 의장 계속.", "whyItMatteredKo": "16년 여성 가부장 정점." }
+  ],
+  "turningPoints": [{ "year": 2009, "age": 47, "decisionKo": "남편 사후 거래 왕조 의장직 인수", "alternativeKo": "전문 경영진 위임", "outcomeKo": "16+년 여성 글로벌 원자재 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Louis Dreyfus Company(비공개) 지배 지분", "industryKo": "농업 원자재 거래", "businessModelKo": "글로벌 곡물·면화·커피·설탕·금속 거래", "moatKo": "170+년 글로벌 거래 인프라 + 가족 통제", "luckVsSkillKo": "운(70%): 가족 자본 + 결혼. 실력(30%): 16년 가부장 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Chair of Louis Dreyfus Company; one of world's few women leading a major global commodity-trading dynasty.",
+    "knownForKo": "Louis Dreyfus Company 의장; 주요 글로벌 원자재 거래 왕조를 이끄는 세계 소수 여성 중 한 명.",
+    "philanthropy": "Louis-Dreyfus Foundation supports Geneva community and global hunger initiatives.", "philanthropyKo": "Louis-Dreyfus 재단이 제네바 지역 사회·글로벌 기아 사업 지원.",
+    "controversies": "Multi-year family-stake consolidation drew internal Louis-Dreyfus family disputes.", "controversiesKo": "다년간 가족 지분 통합이 내부 Louis-Dreyfus 가족 분쟁 야기."
+  },
+  "characterKo": { "summaryKo": "고아 출신 소련 여성이 Louis Dreyfus 글로벌 원자재 거래 왕조 의장으로.", "tagsKo": ["Louis Dreyfus Company", "여성 가부장", "소련 출신"] },
+  "failures": [
+    { "year": 2015, "description": "Commodity-price crash 2015-2016 compressed Louis Dreyfus Company margins.", "descriptionKo": "2015-2016 원자재 가격 폭락으로 Louis Dreyfus Company 마진 압축.", "lesson": "Commodity-trading exposed to global cycle.", "lessonKo": "원자재 거래는 글로벌 사이클 노출." },
+    { "year": 2018, "description": "Family-stake consolidation efforts drew sustained internal Louis-Dreyfus family disputes.", "descriptionKo": "가족 지분 통합 노력이 지속적 내부 Louis-Dreyfus 가족 분쟁 야기.", "lesson": "Multi-generational family ownership creates governance friction.", "lessonKo": "다세대 가족 소유는 거버넌스 마찰 야기." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 5.5 }, { "year": 2020, "netWorth": 5.4 }, { "year": 2024, "netWorth": 5.5 }, { "year": 2025, "netWorth": 5.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I inherited a company. I had to earn the right to run it.", "textKo": "회사를 상속받았다. 그것을 운영할 권리는 얻어야 했다.", "context": "On husband's death", "contextKo": "남편의 사망에 대해", "source": "https://www.ldc.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-O day pillar in Sa month — 'jeongjae-gyeok', steady accumulation, fitting commodity-trading widow-chair.", "summaryKo": "경오 일주 + 사월 정재격(고정 자산·꾸준한 매출)은 170+년 농업 원자재 거래라는 거대 안정 매출 산업과 호응합니다. 경금 일간의 단단한 금속·결단력이 남편 사후 거대 회사 의장직 인수의 결단과 통하고, 오화 일지·사화 월지의 강한 화 기운이 거버넌스를 이끄는 표현력을 가리킵니다." }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "1160", "name": "William Mills Wrigley Jr.", "nameKo": "윌리엄 밀스 리글리 주니어",
+  "netWorth": 3.6, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Chicago, Illinois, USA", "birthPlaceKo": "미국 일리노이주 시카고",
+    "familyBackground": "Born to William Wrigley Jr. (III) — fourth-generation Wrigley chewing-gum family.", "familyBackgroundKo": "윌리엄 리글리 주니어 3세(Wrigley 껌 4세대 가족)의 아들.",
+    "education": "Duke University.", "educationKo": "듀크 대학교.",
+    "earlyLife": "Joined family Wrigley operations; oversaw transition after 2008 sale of Wrigley to Mars Inc. for $23B.", "earlyLifeKo": "가족 Wrigley 운영 합류; 2008년 Wrigley를 Mars Inc.에 230억 달러 매각 후 전환 감독.",
+    "source": "https://en.wikipedia.org/wiki/William_Wrigley_Jr._IV"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Wrigley 가족 매각 대금 상속." },
+  "careerTimeline": [
+    { "year": 1985, "age": 22, "event": "Began Wrigley family operations after Duke University.", "eventKo": "듀크 대학교 후 Wrigley 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1999, "age": 36, "event": "Became Wrigley CEO after father; led acquisitions including Hubba Bubba.", "eventKo": "아버지 후 Wrigley CEO 취임; Hubba Bubba 등 인수 주도.", "whyItMatteredKo": "운영 단계." },
+    { "year": 2008, "age": 45, "event": "Sold Wrigley to Mars Inc. for $23B (with Berkshire Hathaway financing) — one of largest food deals.", "eventKo": "Wrigley를 Mars Inc.에 230억 달러 매각(Berkshire Hathaway 자금 조달) — 최대 식품 딜 중 하나.", "whyItMatteredKo": "엑시트 정점 단계." },
+    { "year": 2010, "age": 47, "event": "Pivoted to investing through Wrigley Management; founded Storied Media Group.", "eventKo": "Wrigley Management을 통해 투자로 피벗; Storied Media Group 창립.", "whyItMatteredKo": "투자가 단계." },
+    { "year": 2025, "age": 62, "event": "Personal net worth at $3.6B per Forbes Real-Time. Continues as investor and Chicago Cubs partial-owner.", "eventKo": "포브스 실시간 기준 개인 순자산 36억 달러. 투자자·시카고 컵스 부분 소유주 계속.", "whyItMatteredKo": "엑시트 + 투자 정점." }
+  ],
+  "turningPoints": [{ "year": 2008, "age": 45, "decisionKo": "가족 회사 Wrigley를 Mars에 230억 달러 매각", "alternativeKo": "비공개 잔류", "outcomeKo": "다세대 가족 자본의 결정적 엑시트" }],
+  "moneyMechanics": { "primaryRevenueKo": "Wrigley 매각 대금 + Wrigley Management 투자 + Storied Media + Chicago Cubs 부분 지분", "industryKo": "투자 + 미디어 + 스포츠", "businessModelKo": "Wrigley 매각 대금 + 다각화 투자 + 미디어 + 스포츠", "moatKo": "Wrigley 가족 자본 + 매각 후 다각화", "luckVsSkillKo": "운(60%): 가족 자본 + Berkshire 자금 조달 매각. 실력(40%): 매각 + 다각화 결단." },
+  "personalTraits": {
+    "knownFor": "Former CEO of Wrigley Company; oversaw $23B sale to Mars; Chicago Cubs partial owner.",
+    "knownForKo": "전 Wrigley Company CEO; Mars 230억 달러 매각 감독; 시카고 컵스 부분 소유주.",
+    "philanthropy": "Wrigley family supports Chicago institutions, marine research.", "philanthropyKo": "Wrigley 가족이 시카고 기관·해양 연구 지원.",
+    "controversies": "Standard family-business sale and post-sale governance scrutiny.", "controversiesKo": "표준 가족 사업 매각·매각 후 거버넌스 감시."
+  },
+  "characterKo": { "summaryKo": "Wrigley 4세대 CEO + 230억 달러 Mars 매각 + 시카고 컵스 부분 소유주.", "tagsKo": ["Wrigley Company", "Mars 매각", "시카고 컵스"] },
+  "failures": [
+    { "year": 2008, "description": "Wrigley sale to Mars happened during global financial crisis; price reflected tight credit markets.", "descriptionKo": "Wrigley의 Mars 매각이 글로벌 금융위기 동안 발생; 가격이 빡빡한 신용 시장 반영.", "lesson": "Crisis-era M&A may capture less value than peak-cycle sales.", "lessonKo": "위기 시기 M&A는 정점 사이클 매각보다 적은 가치를 포착할 수 있다." },
+    { "year": 2022, "description": "Post-COVID media-stock decline compressed Storied Media Group investments.", "descriptionKo": "팬데믹 후 미디어주 하락이 Storied Media Group 투자 압축.", "lesson": "Media-investment cyclical.", "lessonKo": "미디어 투자는 주기적." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 3.4 }, { "year": 2025, "netWorth": 3.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Selling Wrigley was the hardest thing I have done. Doing it well was the best.", "textKo": "Wrigley 매각이 내가 한 가장 어려운 일이었다. 잘 한 것이 최고였다.", "context": "On 2008 Wrigley sale", "contextKo": "2008 Wrigley 매각에 대해", "source": "https://en.wikipedia.org/wiki/Wrigley_Company" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Shin day pillar in Sul month — 'pyeonjae-gyeok', large external wealth, fitting CEO who orchestrated $23B exit.", "summaryKo": "무신 일주 + 술월 편재격(크고 유동적인 외부 자본)은 230억 달러 매각이라는 거대 외부 자본 이전을 주도한 그의 결단과 호응합니다. 무토 일간의 큰 산 기질이 가족 회사 가부장 역할과 통하고, 신금 일지의 금 기운이 매각·딜의 정밀 결단을 가리키며, 술토 월지가 자본의 안정 기반을 강조합니다." }
+}

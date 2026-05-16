@@ -1,0 +1,40 @@
+{
+  "id": "357", "name": "Kenneth Gerard Langone", "nameKo": "케네스 제라드 랑곤",
+  "netWorth": 9.2, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Roslyn Heights, New York, USA", "birthPlaceKo": "미국 뉴욕주 로슬린 하이츠",
+    "familyBackground": "Born to Italian-American working-class family.", "familyBackgroundKo": "이탈리아·미국 노동자 계급 가정에서 출생.",
+    "education": "Bucknell University; NYU Stern MBA.", "educationKo": "버크넬 대학교; NYU 스턴 MBA.",
+    "earlyLife": "Joined Wall Street; co-founded Invemed Associates; helped finance The Home Depot founders (Bernie Marcus and Arthur Blank) in 1978; became Home Depot board member.",
+    "earlyLifeKo": "월스트리트 합류; Invemed Associates 공동 창립; 1978년 Home Depot 창립자들(버니 마커스·아서 블랭크) 자금 조달 도움; Home Depot 이사회 구성원이 됨.",
+    "source": "https://en.wikipedia.org/wiki/Ken_Langone"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Home Depot 초기 투자 + Invemed Associates." },
+  "careerTimeline": [
+    { "year": 1968, "age": 32, "event": "Founded Invemed Associates — New York investment firm.", "eventKo": "Invemed Associates 창립 — 뉴욕 투자 회사.", "whyItMatteredKo": "투자 회사 출발선." },
+    { "year": 1978, "age": 42, "event": "Helped finance Bernie Marcus and Arthur Blank to found The Home Depot.", "eventKo": "버니 마커스·아서 블랭크의 Home Depot 창립 자금 조달 도움.", "whyItMatteredKo": "Home Depot 초기 투자." },
+    { "year": 1981, "age": 45, "event": "Home Depot IPO; Langone's stake materialized as substantial.", "eventKo": "Home Depot IPO; 랑곤의 지분이 상당해짐.", "whyItMatteredKo": "공개 시장 평가 단계." },
+    { "year": 2002, "age": 66, "event": "Stepped down from Home Depot board; remained major shareholder.", "eventKo": "Home Depot 이사회에서 사임; 주요 주주 잔류.", "whyItMatteredKo": "이사회 종결 단계." },
+    { "year": 2025, "age": 89, "event": "Personal net worth at $9.2B per Forbes Real-Time. Continues as major philanthropist and political donor.", "eventKo": "포브스 실시간 기준 개인 순자산 92억 달러. 주요 자선가·정치 기부자 계속.", "whyItMatteredKo": "Home Depot + 자선가 정점." }
+  ],
+  "turningPoints": [{ "year": 1978, "age": 42, "decisionKo": "Home Depot 창립자들에게 자금 조달", "alternativeKo": "다른 거래 집중", "outcomeKo": "47년 후 Home Depot 초기 투자로 평생 부 결정화" }],
+  "moneyMechanics": { "primaryRevenueKo": "Home Depot 초기 지분 + Invemed Associates 가족 사무실", "industryKo": "투자 + 가족 사무실", "businessModelKo": "Home Depot 장기 보유 + Invemed Associates 투자", "moatKo": "Home Depot 초기 투자 + 뉴욕 은행 인맥", "luckVsSkillKo": "운(40%): 1978 Home Depot 합류 타이밍. 실력(60%): 뉴욕 은행 인맥 + 47년 보유." },
+  "personalTraits": {
+    "knownFor": "Co-financier of The Home Depot; major NYU Langone Health donor; outspoken conservative political voice.",
+    "knownForKo": "Home Depot 공동 자금 조달자; 주요 NYU Langone Health 기부자; 노골적 보수 정치 목소리.",
+    "philanthropy": "Major NYU Langone Health donor ($1B+); supports Harlem schools, Catholic education.",
+    "philanthropyKo": "주요 NYU Langone Health 기부자(10억 달러+); 할렘 학교·가톨릭 교육 지원.",
+    "controversies": "Vocal conservative political views; 2003 NYSE compensation scandal involving Dick Grasso (Langone was board chair).",
+    "controversiesKo": "노골적 보수 정치 견해; 2003 NYSE 보수 스캔들(랑곤이 이사회 의장이었던 시기 딕 그라소 사건)."
+  },
+  "characterKo": { "summaryKo": "Home Depot 초기 자금 조달자 + NYU Langone Health 주요 기부자.", "tagsKo": ["Home Depot 자금 조달", "NYU Langone Health", "보수 정치 목소리"] },
+  "failures": [
+    { "year": 2003, "description": "NYSE Chairman Dick Grasso compensation scandal occurred under Langone's board chair tenure; SEC scrutiny.", "descriptionKo": "랑곤의 이사회 의장 재임 중 NYSE 의장 딕 그라소 보수 스캔들 발생; SEC 감시.", "lesson": "Board governance failures create board-chair personal exposure.", "lessonKo": "이사회 거버넌스 실패가 이사회 의장 개인 노출 야기." },
+    { "year": 2020, "description": "COVID-19 disrupted Home Depot supply chains briefly; stock fell before pandemic-driven home-improvement boom.", "descriptionKo": "COVID-19이 Home Depot 공급망 잠시 혼란; 팬데믹 주도 주택 개선 붐 전 주가 하락.", "lesson": "Even pandemic beneficiaries face initial supply shocks.", "lessonKo": "팬데믹 수혜자도 초기 공급 충격 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.7 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 8.5 }, { "year": 2025, "netWorth": 9.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I'm not a self-made man. I'm a Bernie-and-Arthur-made man.", "textKo": "나는 자수성가가 아니다. 버니와 아서가 만든 사람이다.", "context": "On Home Depot origins", "contextKo": "Home Depot 기원에 대해", "source": "https://en.wikipedia.org/wiki/Ken_Langone" }],
+  "books": { "authored": [{ "title": "I Love Capitalism!", "year": 2018, "noteKo": "자수성가 회고록·정치 견해." }], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Mi day pillar in Yu month — 'pyeon-gwan-gyeok', strong external authority, fitting financier-with-political-voice.", "summaryKo": "을미 일주 + 유월 편관격(강한 외부 압박·권력 충돌)은 47년 월스트리트·정치·NYSE 의장 등 끊임없는 권력 충돌 환경을 통과한 그의 경로와 호응합니다. 을목 일간의 부드러운 식물 + 미토 일지의 토 기운이 가족 + 자선의 사람-중심 정체성을 가리키고, 유금 월지의 금 기운이 금융 결단의 예리함을 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "785", "name": "Michel Leclercq", "nameKo": "미셸 르클레르크",
+  "netWorth": 5.2, "nationality": "FR", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "France", "birthPlaceKo": "프랑스",
+    "familyBackground": "Born to Mulliez family — French Northern textile and retail dynasty (Auchan, Decathlon, Leroy Merlin).", "familyBackgroundKo": "프랑스 북부 섬유·소매 왕조 Mulliez 가족(Auchan·Decathlon·Leroy Merlin)에서 출생.",
+    "education": "French higher education.", "educationKo": "프랑스 고등교육.",
+    "earlyLife": "Founded Decathlon in 1976 in Lille — pioneering sporting-goods retailer; became one of France's largest privately held retailers.",
+    "earlyLifeKo": "1976년 릴에서 Decathlon 창립 — 선구적 스포츠용품 소매사; 프랑스 최대 비공개 소매사 중 하나가 됨.",
+    "source": "https://en.wikipedia.org/wiki/Michel_Leclercq"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Decathlon 49년 자수성가 + Mulliez 가족 인맥." },
+  "careerTimeline": [
+    { "year": 1976, "age": 37, "event": "Founded Decathlon in Lille, France; first sporting-goods store opened.", "eventKo": "프랑스 릴에서 Decathlon 창립; 첫 스포츠용품 매장 개장.", "whyItMatteredKo": "49년 자수성가 출발선." },
+    { "year": 1986, "age": 47, "event": "Decathlon began developing private-label sporting equipment brands (Quechua, Domyos, etc.).", "eventKo": "Decathlon이 자체 브랜드 스포츠 장비 브랜드(Quechua·Domyos 등) 개발 시작.", "whyItMatteredKo": "PB 브랜드 단계." },
+    { "year": 2000, "age": 61, "event": "Decathlon expanded internationally; entered Asian, North American markets.", "eventKo": "Decathlon 국제 확장; 아시아·북미 시장 진입.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2020, "age": 81, "event": "Decathlon revenue exceeded €13B globally; became world's largest sporting-goods retailer.", "eventKo": "Decathlon 매출이 글로벌 130억 유로 초과; 세계 최대 스포츠용품 소매사가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 86, "event": "Personal net worth at $5.2B per Forbes Real-Time. Decathlon remains family-controlled.", "eventKo": "포브스 실시간 기준 개인 순자산 52억 달러. Decathlon이 가족 통제 잔류.", "whyItMatteredKo": "49년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1976, "age": 37, "decisionKo": "스포츠용품 단일 카테고리 매장 창립", "alternativeKo": "Mulliez 가족 회사 잔류", "outcomeKo": "49년 후 세계 최대 스포츠용품 소매사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Decathlon SAS(100% 가족 소유)", "industryKo": "스포츠용품 소매·제조", "businessModelKo": "PB 브랜드 중심 글로벌 매장 + 옴니채널 + 자체 제조", "moatKo": "49년 PB 브랜드 + 글로벌 매장 네트워크 + Mulliez 가족 자본", "luckVsSkillKo": "운(30%): 글로벌 피트니스·아웃도어 부상. 실력(70%): 49년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Decathlon; member of Mulliez family business dynasty; world's largest sporting-goods retail entrepreneur.",
+    "knownForKo": "Decathlon 창립자; Mulliez 가족 사업 왕조 구성원; 세계 최대 스포츠용품 소매 기업가.",
+    "philanthropy": "Supports French Northern community development.", "philanthropyKo": "프랑스 북부 지역 사회 개발 지원.",
+    "controversies": "Decathlon faced labor and supply-chain criticism; 2019 hijab controversy in France.",
+    "controversiesKo": "Decathlon이 노동·공급망 비판 직면; 2019 프랑스 히잡 논란."
+  },
+  "characterKo": { "summaryKo": "Mulliez 가족의 Decathlon 49년 자수성가 — 세계 최대 스포츠용품 소매.", "tagsKo": ["Decathlon", "Mulliez 가족", "49년 자수성가"] },
+  "failures": [
+    { "year": 2019, "description": "Decathlon's announced 'sport hijab' for Muslim athletes withdrawn after French political controversy.", "descriptionKo": "Decathlon이 발표한 무슬림 운동선수용 '스포츠 히잡'이 프랑스 정치 논란 후 철회.", "lesson": "Cultural-product launches face national-political risk.", "lessonKo": "문화 제품 출시는 국가 정치 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 closed Decathlon stores globally; revenue compressed temporarily.", "descriptionKo": "COVID-19이 Decathlon 매장을 글로벌 폐쇄; 매출 일시 압축.", "lesson": "Retail-store concentration faces pandemic exposure.", "lessonKo": "소매 매장 집중은 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Sport belongs to everyone. Price barriers must fall.", "textKo": "스포츠는 모두의 것이다. 가격 장벽은 무너져야 한다.", "context": "On Decathlon mission", "contextKo": "Decathlon 미션에 대해", "source": "https://www.decathlon.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Ja day pillar in Sa month — 'jeongjae-gyeok', steady accumulation, fitting sporting-retail builder.", "summaryKo": "갑자 일주 + 사월 정재격(고정 자산·꾸준한 매출)은 49년에 걸쳐 글로벌 매장 네트워크라는 거대 안정 자산을 누적한 그의 경로와 호응합니다. 갑목 일간의 큰 나무·기둥 기질이 글로벌 회사 가부장 역할과 통하고, 자수 일지의 수 기운이 자본 유동성을 가리키며, 사화 월지가 매장 확장의 에너지를 강조합니다." }
+}

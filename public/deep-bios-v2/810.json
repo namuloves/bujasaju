@@ -1,0 +1,39 @@
+{
+  "id": "810", "name": "Jean Pritzker", "nameKo": "진 프리츠커",
+  "netWorth": 5.1, "nationality": "US", "industry": "Service",
+  "childhood": {
+    "birthPlace": "Chicago, Illinois, USA", "birthPlaceKo": "미국 일리노이주 시카고",
+    "familyBackground": "Born to Jay Pritzker — founder of Hyatt Hotels Corporation. Sister of Thomas, J.B., and Penny Pritzker.", "familyBackgroundKo": "Hyatt Hotels Corporation 창립자 제이 프리츠커의 딸. 토마스·J.B.·페니 프리츠커의 누이.",
+    "education": "Stanford University.", "educationKo": "스탠퍼드 대학교.",
+    "earlyLife": "Inherited Pritzker family stake; founded Pritzker Pucker Family Foundation; co-founded Madison Wells Live media-and-entertainment investment firm.",
+    "earlyLifeKo": "Pritzker 가족 지분 상속; Pritzker Pucker 가족 재단 창립; Madison Wells Live 미디어·엔터테인먼트 투자 회사 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/J._B._Pritzker"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Pritzker 가족 자본 다세대 상속." },
+  "careerTimeline": [
+    { "year": 1985, "age": 23, "event": "Began Pritzker family operations after Stanford.", "eventKo": "스탠퍼드 후 Pritzker 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2002, "age": 40, "event": "Pritzker family wealth restructuring; Jean received significant individual stake.", "eventKo": "Pritzker 가족 부 재구조화; 진이 상당한 개별 지분 수령.", "whyItMatteredKo": "재구조화 단계." },
+    { "year": 2008, "age": 46, "event": "Co-founded Madison Wells Live — film and live-entertainment production.", "eventKo": "Madison Wells Live 공동 창립 — 영화·라이브 엔터테인먼트 제작.", "whyItMatteredKo": "미디어 단계." },
+    { "year": 2020, "age": 58, "event": "Continued as Pritzker Pucker Family Foundation principal; supports Chicago arts and education.", "eventKo": "Pritzker Pucker 가족 재단 주체로 계속; 시카고 예술·교육 지원.", "whyItMatteredKo": "자선가 단계." },
+    { "year": 2025, "age": 63, "event": "Personal net worth at $5.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 51억 달러.", "whyItMatteredKo": "가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2008, "age": 46, "decisionKo": "Madison Wells Live 미디어 회사 공동 창립", "alternativeKo": "수동 상속자", "outcomeKo": "미디어·엔터테인먼트 자본가 정체성" }],
+  "moneyMechanics": { "primaryRevenueKo": "Pritzker 가족 자본 + Madison Wells Live 미디어 + 다각화 투자", "industryKo": "가족 자본 + 미디어·엔터테인먼트 투자", "businessModelKo": "Pritzker 신탁 + Madison Wells 영화·공연 + 부동산", "moatKo": "다세대 Pritzker 가족 자본", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): Madison Wells 미디어 + 자선 운영." },
+  "personalTraits": {
+    "knownFor": "Member of Pritzker family; co-founder of Madison Wells Live; Pritzker Pucker Family Foundation principal.",
+    "knownForKo": "Pritzker 가족 구성원; Madison Wells Live 공동 창립자; Pritzker Pucker 가족 재단 주체.",
+    "philanthropy": "Pritzker Pucker Foundation supports Chicago arts, education, healthcare.",
+    "philanthropyKo": "Pritzker Pucker 재단이 시카고 예술·교육·헬스케어 지원.",
+    "controversies": "Pritzker 2002 family inheritance restructuring drew multi-year tax-trust scrutiny.", "controversiesKo": "Pritzker 2002 가족 상속 재구조화가 다년간 세금·신탁 감시 야기."
+  },
+  "characterKo": { "summaryKo": "Pritzker 가족 + Madison Wells Live + 시카고 자선가.", "tagsKo": ["Pritzker 가족", "Madison Wells Live", "시카고 자선가"] },
+  "failures": [
+    { "year": 2002, "description": "Pritzker family inheritance restructuring drew multi-year tax-trust scrutiny.", "descriptionKo": "Pritzker 가족 상속 재구조화가 다년간 세금·신탁 감시 야기.", "lesson": "Multi-generational family trusts create legal-narrative tail.", "lessonKo": "다세대 가족 신탁은 법적 서사 잔여 야기." },
+    { "year": 2020, "description": "COVID-19 disrupted Madison Wells Live's film production and live-entertainment operations.", "descriptionKo": "COVID-19이 Madison Wells Live의 영화 제작·라이브 엔터테인먼트 운영 혼란.", "lesson": "Entertainment investments face pandemic-cycle exposure.", "lessonKo": "엔터테인먼트 투자는 팬데믹 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.0 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 4.8 }, { "year": 2025, "netWorth": 5.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family wealth is most useful when invested in things money cannot directly buy.", "textKo": "가족 부는 돈이 직접 살 수 없는 것에 투자될 때 가장 유용하다.", "context": "On family philanthropy", "contextKo": "가족 자선에 대해", "source": "https://www.madisonwells.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Ja day pillar in O month — 'pyeon-gwan-gyeok', strong external authority, fitting heir with active investing role.", "summaryKo": "경자 일주 + 오월 편관격(강한 외부 압박·권력 충돌)은 거대 가족 자본의 청지기로서 직면하는 가족·세금·미디어 권력 환경과 호응합니다. 경금 일간의 단단한 금속·결단력이 가족 자본 거버넌스 결단의 결단력과 통하고, 자수 일지·오화 월지가 자본 유동성 + 미디어·영화의 표현 욕구를 가리킵니다." }
+}

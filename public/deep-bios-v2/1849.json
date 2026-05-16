@@ -1,0 +1,40 @@
+{
+  "id": "1849", "name": "Aneel Bhusri", "nameKo": "아닐 부스리",
+  "netWorth": 2.2, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "California, USA", "birthPlaceKo": "미국 캘리포니아",
+    "familyBackground": "Born to Indian-American family.", "familyBackgroundKo": "인도계 미국인 가정에서 출생.",
+    "education": "Brown University; Stanford GSB MBA.", "educationKo": "브라운 대학교; 스탠퍼드 GSB MBA.",
+    "earlyLife": "Joined PeopleSoft after Stanford; rose through ranks; co-founded Workday in 2005 with Dave Duffield after Oracle hostile takeover of PeopleSoft.",
+    "earlyLifeKo": "스탠퍼드 후 PeopleSoft 합류; 승진; 오라클의 PeopleSoft 적대적 인수 후 2005년 데이브 더필드와 Workday 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Aneel_Bhusri"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Workday 공동 창립자 지분 20년 누적." },
+  "careerTimeline": [
+    { "year": 1993, "age": 27, "event": "Joined PeopleSoft after Stanford GSB; rose to vice chairman.", "eventKo": "스탠퍼드 GSB 후 PeopleSoft 합류; 부회장 승진.", "whyItMatteredKo": "엔터프라이즈 소프트웨어 경력 출발선." },
+    { "year": 2005, "age": 39, "event": "Co-founded Workday with Dave Duffield after Oracle acquired PeopleSoft.", "eventKo": "오라클이 PeopleSoft 인수 후 데이브 더필드와 Workday 공동 창립.", "whyItMatteredKo": "독립 SaaS 출발선." },
+    { "year": 2012, "age": 46, "event": "Workday IPO on NYSE; market cap exceeded $9B on day one.", "eventKo": "Workday NYSE IPO; 첫날 시가총액 90억 달러 초과.", "whyItMatteredKo": "공개 시장 평가 단계." },
+    { "year": 2014, "age": 48, "event": "Became sole CEO of Workday; led company to enterprise HCM/Finance leader.", "eventKo": "Workday 단독 CEO 취임; 회사를 엔터프라이즈 HCM/재무 선도자로 주도.", "whyItMatteredKo": "최고 경영진 단계." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $2.2B per Forbes Real-Time. Continues as Workday executive chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 22억 달러. Workday 집행 의장 계속.", "whyItMatteredKo": "20년 Workday 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 39, "decisionKo": "PeopleSoft 인수 후 Workday 공동 창립", "alternativeKo": "오라클 합류", "outcomeKo": "20년 후 엔터프라이즈 SaaS 메이저 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Workday(NASDAQ 상장) 공동 창립자 지분", "industryKo": "엔터프라이즈 SaaS(HCM·재무)", "businessModelKo": "구독 기반 클라우드 HCM·재무 소프트웨어", "moatKo": "엔터프라이즈 데이터 락인 + 20년 누적 고객 신뢰", "luckVsSkillKo": "운(40%): 2005-2012 클라우드 SaaS 황금기. 실력(60%): 20년 일관성 + 오라클과의 차별화." },
+  "personalTraits": {
+    "knownFor": "Co-founder and executive chairman of Workday; pioneering enterprise SaaS executive.",
+    "knownForKo": "Workday 공동 창립자·집행 의장; 선구적 엔터프라이즈 SaaS 임원.",
+    "philanthropy": "Active venture philanthropist; supports education and tech-diversity initiatives.",
+    "philanthropyKo": "활동적 벤처 자선가; 교육·기술 다양성 사업 지원.",
+    "controversies": "Limited; standard enterprise-software competition with Oracle and SAP.",
+    "controversiesKo": "제한적; 오라클·SAP와의 표준 엔터프라이즈 소프트웨어 경쟁."
+  },
+  "characterKo": { "summaryKo": "PeopleSoft 베테랑이 오라클 적대적 인수 후 Workday로 부활.", "tagsKo": ["Workday 공동 창립", "엔터프라이즈 SaaS", "오라클 라이벌"] },
+  "failures": [
+    { "year": 2004, "description": "Oracle hostile takeover of PeopleSoft displaced Bhusri and Duffield from their company.", "descriptionKo": "오라클의 PeopleSoft 적대적 인수가 부스리와 더필드를 회사에서 밀어냄.", "lesson": "Hostile M&A can erase career equity overnight.", "lessonKo": "적대적 M&A는 경력 자본을 하룻밤에 지울 수 있다.", "source": "https://en.wikipedia.org/wiki/Aneel_Bhusri" },
+    { "year": 2022, "description": "Workday stock fell 50%+ during tech-stock rerating; growth-rate slowdown concerns.", "descriptionKo": "기술주 재평가 동안 Workday 주가 50%+ 하락; 성장률 둔화 우려.", "lesson": "Growth-SaaS valuations highly cyclical.", "lessonKo": "성장 SaaS 밸류에이션은 매우 주기적." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 2.0 }, { "year": 2025, "netWorth": 2.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "We started Workday so PeopleSoft customers had somewhere to go.", "textKo": "PeopleSoft 고객들이 갈 곳이 있도록 Workday를 시작했다.", "context": "On Workday founding", "contextKo": "Workday 창립에 대해", "source": "https://www.workday.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-O day pillar in Chuk month — 'jeongjae-gyeok', steady accumulation, fitting long-term subscription-software founder.", "summaryKo": "갑오 일주 + 축월 정재격(고정 자산·꾸준한 매출)은 구독 기반 SaaS 사업의 안정적 반복 매출 모델과 호응합니다. 갑목 일간의 큰 기둥 기질이 회사 창립자·CEO·의장 역할과 통하고, 정재격의 안정 지향이 20년 단일 회사 일관성과 통합니다." }
+}

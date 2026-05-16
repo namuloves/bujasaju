@@ -1,0 +1,40 @@
+{
+  "id": "1257", "name": "Alan Howard", "nameKo": "앨런 하워드",
+  "netWorth": 3.3, "nationality": "GB", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "London, England", "birthPlaceKo": "잉글랜드 런던",
+    "familyBackground": "Born to North London Jewish family.", "familyBackgroundKo": "북런던 유대인 가정에서 출생.",
+    "education": "Imperial College London (chemical engineering, first-class honours).", "educationKo": "런던 임페리얼 칼리지(화학공학 1등급 우등).",
+    "earlyLife": "Joined Salomon Brothers as fixed-income trader; rose through Credit Suisse; co-founded Brevan Howard in 2002.",
+    "earlyLifeKo": "Salomon Brothers 채권 트레이더로 합류; Credit Suisse 거쳐 2002년 Brevan Howard 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Alan_Howard"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Brevan Howard 23년 누적 헤지펀드 수수료·자기 자본." },
+  "careerTimeline": [
+    { "year": 1986, "age": 23, "event": "Joined Salomon Brothers London as fixed-income trader.", "eventKo": "Salomon Brothers 런던 채권 트레이더로 합류.", "whyItMatteredKo": "금융 경력 출발선." },
+    { "year": 2002, "age": 39, "event": "Co-founded Brevan Howard Asset Management with four colleagues.", "eventKo": "동료 4명과 Brevan Howard Asset Management 공동 창립.", "whyItMatteredKo": "독립 헤지펀드 출발선." },
+    { "year": 2008, "age": 45, "event": "Brevan Howard's master fund returned ~20% during global financial crisis; AUM crossed $30B+.", "eventKo": "Brevan Howard 마스터 펀드가 글로벌 금융위기 동안 약 20% 수익; AUM 300억 달러+ 돌파.", "whyItMatteredKo": "위기 알파의 결정적 단계." },
+    { "year": 2017, "age": 54, "event": "Moved Brevan Howard headquarters from London to Jersey for tax reasons; faced industry scrutiny.", "eventKo": "Brevan Howard 본사를 세금 사유로 런던에서 저지로 이전; 산업 감시 직면.", "whyItMatteredKo": "관할권 이전 단계." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $3.3B per Forbes Real-Time. Continues as Brevan Howard major shareholder.", "eventKo": "포브스 실시간 기준 개인 순자산 33억 달러. Brevan Howard 주요 주주 계속.", "whyItMatteredKo": "23년 헤지펀드 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2002, "age": 39, "decisionKo": "Credit Suisse 떠나 독립 헤지펀드 창립", "alternativeKo": "은행 경력 잔류", "outcomeKo": "23년 후 글로벌 매크로 헤지펀드 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Brevan Howard Asset Management 공동 창립자 지분 + 헤지펀드 수수료", "industryKo": "헤지펀드(글로벌 매크로)", "businessModelKo": "글로벌 매크로 전략 — 채권·통화·원자재 변동성 거래", "moatKo": "23년 글로벌 매크로 트랙 레코드 + 위기 알파", "luckVsSkillKo": "운(35%): 2000년대 글로벌 매크로 알파 황금기. 실력(65%): 23년 일관성 + 2008 위기 알파." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Brevan Howard Asset Management; one of UK's most successful global-macro hedge-fund managers.",
+    "knownForKo": "Brevan Howard Asset Management 공동 창립자; 영국에서 가장 성공한 글로벌 매크로 헤지펀드 매니저 중 한 명.",
+    "philanthropy": "Howard Foundation supports UK education and Jewish causes.",
+    "philanthropyKo": "Howard Foundation이 영국 교육·유대인 사업 지원.",
+    "controversies": "2017 tax-domicile move from London to Jersey drew political criticism; UK Parliament inquiries.",
+    "controversiesKo": "2017 런던에서 저지로의 세금 거주지 이전이 정치적 비판 야기; 영국 의회 조사."
+  },
+  "characterKo": { "summaryKo": "임페리얼 화학공학 출신 글로벌 매크로 헤지펀드 거물.", "tagsKo": ["Brevan Howard", "글로벌 매크로", "임페리얼 출신"] },
+  "failures": [
+    { "year": 2013, "description": "Brevan Howard master fund returned only ~3% — first weak year, triggering investor redemptions.", "descriptionKo": "Brevan Howard 마스터 펀드 약 3% 수익 — 첫 약한 해, 투자자 환매 촉발.", "lesson": "Global macro strategy faces variance risk; performance memory is short.", "lessonKo": "글로벌 매크로 전략은 변동성 리스크 직면; 성과 기억은 짧다." },
+    { "year": 2017, "description": "Tax-domicile move from UK to Jersey drew sustained political and media criticism.", "descriptionKo": "영국에서 저지로 세금 거주지 이전이 지속적 정치·언론 비판 야기.", "lesson": "Tax optimization creates reputational tail risk.", "lessonKo": "세금 최적화가 평판 잔여 리스크 야기." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.6 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 3.1 }, { "year": 2025, "netWorth": 3.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Macro is patience punctuated by conviction.", "textKo": "매크로는 확신으로 구두점이 찍힌 인내다.", "context": "On global-macro trading", "contextKo": "글로벌 매크로 거래에 대해", "source": "https://www.brevanhoward.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Mi day pillar in Yu month — 'pyeonjae-gyeok', large external capital, fitting hedge-fund manager.", "summaryKo": "정미 일주 + 유월 편재격(크고 유동적인 외부 자본)은 글로벌 매크로 헤지펀드의 거대 외부 자본 운용과 정확히 호응합니다. 정화 일간의 분석 기질이 임페리얼 화학공학 + 매크로 분석 두뇌와 통하고, 편재격이 자기 자본보다 거대한 외부 자본을 다루는 직업과 맞물립니다." }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "1039", "name": "Norman Braman", "nameKo": "노먼 브라만",
+  "netWorth": 4.0, "nationality": "US", "industry": "Automotive",
+  "childhood": {
+    "birthPlace": "West Chester, Pennsylvania, USA", "birthPlaceKo": "미국 펜실베이니아주 웨스트 체스터",
+    "familyBackground": "Born to working-class Jewish family in Pennsylvania.", "familyBackgroundKo": "펜실베이니아 노동자 계급 유대인 가정에서 출생.",
+    "education": "Temple University.", "educationKo": "템플 대학교.",
+    "earlyLife": "Built career in auto-dealership business; assembled major Miami-area auto-dealership network; owned Philadelphia Eagles NFL team 1985-1994.",
+    "earlyLifeKo": "자동차 딜러 사업 경력 구축; 주요 마이애미 지역 자동차 딜러 네트워크 조립; 1985-1994 필라델피아 이글스 NFL 팀 소유.",
+    "source": "https://en.wikipedia.org/wiki/Norman_Braman"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Braman Motors 자동차 딜러 네트워크 60+년 자수성가." },
+  "careerTimeline": [
+    { "year": 1972, "age": 40, "event": "Founded Braman Motors auto-dealership in Florida.", "eventKo": "플로리다에서 Braman Motors 자동차 딜러 창립.", "whyItMatteredKo": "53년 자수성가 출발선." },
+    { "year": 1985, "age": 53, "event": "Acquired Philadelphia Eagles NFL team for $65M.", "eventKo": "필라델피아 이글스 NFL 팀을 6,500만 달러에 인수.", "whyItMatteredKo": "스포츠 단계." },
+    { "year": 1994, "age": 62, "event": "Sold Philadelphia Eagles for $185M; refocused on auto dealerships.", "eventKo": "필라델피아 이글스를 1억 8,500만 달러에 매각; 자동차 딜러 재집중.", "whyItMatteredKo": "엑시트 + 재집중." },
+    { "year": 2010, "age": 78, "event": "Braman Motors became one of US's largest privately held auto-dealership networks.", "eventKo": "Braman Motors가 미국 최대 비공개 자동차 딜러 네트워크 중 하나가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 93, "event": "Personal net worth at $4.0B per Forbes Real-Time. Major Miami philanthropist.", "eventKo": "포브스 실시간 기준 개인 순자산 40억 달러. 주요 마이애미 자선가.", "whyItMatteredKo": "53+년 자수성가 + 93세 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 53, "decisionKo": "Eagles 인수 + 9년 후 매각", "alternativeKo": "자동차 딜러 집중", "outcomeKo": "스포츠 자본 + 평생 자동차 딜러 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Braman Motors(100% 가족 소유) — 럭셔리 자동차 딜러 네트워크", "industryKo": "자동차 소매(럭셔리 브랜드)", "businessModelKo": "BMW·롤스로이스·벤틀리·캐딜락 등 럭셔리 딜러 네트워크", "moatKo": "53+년 마이애미 부유층 인맥 + 럭셔리 브랜드 라이선스", "luckVsSkillKo": "운(25%): 마이애미 부 집중. 실력(75%): 53년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Braman Motors luxury auto dealerships; former owner of Philadelphia Eagles NFL team; major Miami philanthropist.",
+    "knownForKo": "Braman Motors 럭셔리 자동차 딜러 창립자; 전 필라델피아 이글스 NFL 팀 소유주; 주요 마이애미 자선가.",
+    "philanthropy": "Norman & Irma Braman Family Foundation supports Miami education, Jewish causes, museums; major $100M+ Miami patron.",
+    "philanthropyKo": "Norman & Irma Braman 가족 재단이 마이애미 교육·유대인 사업·박물관 지원; 주요 1억 달러+ 마이애미 후원자.",
+    "controversies": "Long-running political conflict with then-Miami mayor Carlos Gimenez over Marlins stadium financing.",
+    "controversiesKo": "Marlins 스타디움 자금 조달에 대해 당시 마이애미 시장 카를로스 히메네스와 장기 정치 갈등."
+  },
+  "characterKo": { "summaryKo": "Braman Motors 53+년 자수성가 + 마이애미 자선가 + 93세 현역.", "tagsKo": ["Braman Motors", "Philadelphia Eagles", "마이애미 자선가"] },
+  "failures": [
+    { "year": 2009, "description": "2008 financial crisis collapsed luxury-car demand; Braman Motors absorbed cyclical pressure.", "descriptionKo": "2008 금융위기로 럭셔리 차 수요 붕괴; Braman Motors가 사이클 압박 흡수.", "lesson": "Luxury auto exposed to wealth-cycle compression.", "lessonKo": "럭셔리 자동차는 부 사이클 압축 노출." },
+    { "year": 2020, "description": "COVID-19 disrupted auto-dealership operations; chip shortages constrained inventory.", "descriptionKo": "COVID-19이 자동차 딜러 운영 혼란; 칩 부족이 재고 제한.", "lesson": "Dealership operations depend on manufacturer supply.", "lessonKo": "딜러 운영은 제조사 공급에 의존." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.4 }, { "year": 2024, "netWorth": 3.8 }, { "year": 2025, "netWorth": 4.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Cars sell themselves. Service sells the next car.", "textKo": "차는 스스로 팔린다. 서비스가 다음 차를 판다.", "context": "On auto-dealership business", "contextKo": "자동차 딜러 사업에 대해", "source": "https://www.bramanmotors.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in Shin month — 'jeongjae-gyeok', steady accumulation, fitting dealership-network builder.", "summaryKo": "을묘 일주 + 신월 정재격(고정 자산·꾸준한 매출)은 53+년에 걸쳐 마이애미 럭셔리 자동차 딜러라는 안정 매출 모델을 누적한 그의 경로와 호응합니다. 을목 일간 + 묘목 일지의 강한 목 기운이 사업 성장 욕구를 가리키고, 신금 월지의 금 기운이 자동차라는 금속 산업과 통합니다." }
+}

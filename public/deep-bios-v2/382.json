@@ -1,0 +1,40 @@
+{
+  "id": "382", "name": "David Elliot Shaw", "nameKo": "데이비드 엘리엇 쇼",
+  "netWorth": 8.8, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Los Angeles, California, USA", "birthPlaceKo": "미국 캘리포니아 로스앤젤레스",
+    "familyBackground": "Born to academic family in Los Angeles.", "familyBackgroundKo": "로스앤젤레스 학자 가정에서 출생.",
+    "education": "UC San Diego (BS); Stanford PhD in computer science.", "educationKo": "UC 샌디에이고(학사); 스탠퍼드 컴퓨터 과학 박사.",
+    "earlyLife": "Joined Columbia University computer science faculty; founded D.E. Shaw & Co. in 1988 — pioneering quantitative hedge fund.",
+    "earlyLifeKo": "컬럼비아 대학교 컴퓨터 과학 교수진 합류; 1988년 D.E. Shaw & Co. 창립 — 선구적 계량 헤지펀드.",
+    "source": "https://en.wikipedia.org/wiki/David_E._Shaw"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "D.E. Shaw & Co. 37년 누적 자본." },
+  "careerTimeline": [
+    { "year": 1980, "age": 29, "event": "Joined Columbia University as assistant professor of computer science.", "eventKo": "컬럼비아 대학교 컴퓨터 과학 조교수로 합류.", "whyItMatteredKo": "학문 자본 출발선." },
+    { "year": 1988, "age": 37, "event": "Founded D.E. Shaw & Co. — pioneering quantitative/algorithmic hedge fund.", "eventKo": "D.E. Shaw & Co. 창립 — 선구적 계량/알고리즘 헤지펀드.", "whyItMatteredKo": "퀀트 펀드 시대 출발선." },
+    { "year": 1994, "age": 43, "event": "D.E. Shaw hired Jeff Bezos who later left to found Amazon.", "eventKo": "D.E. Shaw가 제프 베조스 채용 — 이후 베조스가 떠나 Amazon 창립.", "whyItMatteredKo": "퀀트 펀드의 인재 산업 영향." },
+    { "year": 2001, "age": 50, "event": "Stepped back from active management; founded D.E. Shaw Research — computational biochemistry institute.", "eventKo": "활동적 운영에서 물러남; D.E. Shaw Research 창립 — 계산 생화학 연구소.", "whyItMatteredKo": "학자 정체성 부활 단계." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $8.8B per Forbes Real-Time. D.E. Shaw & Co. manages $60B+ AUM.", "eventKo": "포브스 실시간 기준 개인 순자산 88억 달러. D.E. Shaw & Co.가 600억 달러+ AUM 운용.", "whyItMatteredKo": "37년 퀀트 펀드 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1988, "age": 37, "decisionKo": "교수직 떠나 퀀트 헤지펀드 창립", "alternativeKo": "학자 잔류", "outcomeKo": "37년 후 퀀트 펀드 선구자 + 80억 달러 부" }],
+  "moneyMechanics": { "primaryRevenueKo": "D.E. Shaw & Co. 창립자 지분 + 펀드 carry + D.E. Shaw Research", "industryKo": "퀀트 헤지펀드 + 계산 생화학", "businessModelKo": "알고리즘 트레이딩 + 통계 차익 거래 + 연구 R&D", "moatKo": "37년 퀀트 인프라 + 컴퓨터 과학 PhD 두뇌풀", "luckVsSkillKo": "운(20%): 1988-2025 퀀트 황금기. 실력(80%): PhD + 37년 알고리즘 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of D.E. Shaw & Co.; pioneering computational biochemistry investor; former Bezos employer.",
+    "knownForKo": "D.E. Shaw & Co. 창립자; 선구적 계산 생화학 투자자; 전 베조스 고용주.",
+    "philanthropy": "D.E. Shaw Research advances biomedical computational research; Shaw foundation supports science education.",
+    "philanthropyKo": "D.E. Shaw Research가 생의학 계산 연구 진전; Shaw 재단이 과학 교육 지원.",
+    "controversies": "D.E. Shaw faced industry-wide quant-fund regulatory scrutiny; talent-poaching disputes with other funds.",
+    "controversiesKo": "D.E. Shaw가 산업 전반 퀀트 펀드 규제 감시 직면; 다른 펀드와의 인재 영입 분쟁."
+  },
+  "characterKo": { "summaryKo": "스탠퍼드 PhD 컬럼비아 교수가 창립한 퀀트 헤지펀드 + 계산 생화학 연구소.", "tagsKo": ["D.E. Shaw", "퀀트 펀드 선구자", "PhD 학자", "베조스 전 고용주"] },
+  "failures": [
+    { "year": 1998, "description": "D.E. Shaw absorbed losses during LTCM-era quant-fund crisis; rebuilt portfolios.", "descriptionKo": "D.E. Shaw가 LTCM 시대 퀀트 펀드 위기 동안 손실 흡수; 포트폴리오 재구축.", "lesson": "Quant strategies share systemic crisis risk.", "lessonKo": "퀀트 전략은 체계적 위기 리스크를 공유." },
+    { "year": 2008, "description": "D.E. Shaw funds suffered double-digit losses during global financial crisis.", "descriptionKo": "D.E. Shaw 펀드가 글로벌 금융위기 동안 두 자릿수 손실.", "lesson": "Even sophisticated quants face market-stress correlation.", "lessonKo": "정교한 퀀트도 시장 스트레스 상관관계 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.4 }, { "year": 2020, "netWorth": 7.3 }, { "year": 2024, "netWorth": 8.3 }, { "year": 2025, "netWorth": 8.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Mathematics applied at scale produces results that intuition cannot match.", "textKo": "규모에서 적용된 수학은 직관이 따라잡을 수 없는 결과를 낳는다.", "context": "On quantitative finance", "contextKo": "계량 금융에 대해", "source": "https://www.deshaw.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Jin day pillar in Myo month — 'sanggwan-gyeok', creative-intellectual output, fitting PhD-founder quant.", "summaryKo": "무진 일주 + 묘월 상관격(창의적 결과물·표현)은 PhD 학문에서 퀀트 알고리즘으로, 다시 계산 생화학 연구로 끊임없이 창의적 결과물을 만들어낸 그의 경로와 호응합니다. 무토 일간의 큰 산 기질이 거대 펀드 가부장 역할과 통하고, 묘목 월지의 목 기운이 학문·연구의 성장 욕구를 가리킵니다." }
+}

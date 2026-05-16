@@ -1,0 +1,40 @@
+{
+  "id": "868", "name": "Daniel Anthony D'Aniello", "nameKo": "대니얼 앤서니 다니엘로",
+  "netWorth": 4.7, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Butler, Pennsylvania, USA", "birthPlaceKo": "미국 펜실베이니아주 버틀러",
+    "familyBackground": "Born to Italian-American working-class family.", "familyBackgroundKo": "이탈리아·미국 노동자 계급 가정에서 출생.",
+    "education": "Syracuse University; Harvard MBA.", "educationKo": "시러큐스 대학교; 하버드 MBA.",
+    "earlyLife": "US Navy supply officer; CFO at Marriott Corporation; co-founded The Carlyle Group in 1987 with David Rubenstein and Bill Conway.",
+    "earlyLifeKo": "미 해군 보급 장교; Marriott Corporation CFO; 1987년 데이비드 루벤스타인·빌 코노웨이와 Carlyle Group 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Daniel_D%27Aniello"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Carlyle Group 공동 창립자 38+년 carry." },
+  "careerTimeline": [
+    { "year": 1968, "age": 22, "event": "Joined US Navy after Syracuse; served as supply officer.", "eventKo": "시러큐스 후 미 해군 합류; 보급 장교로 복무.", "whyItMatteredKo": "군 경력 출발선." },
+    { "year": 1978, "age": 32, "event": "Joined Marriott Corporation after Harvard MBA; rose to vice president.", "eventKo": "하버드 MBA 후 Marriott Corporation 합류; 부사장 부상.", "whyItMatteredKo": "사업 경력 단계." },
+    { "year": 1987, "age": 41, "event": "Co-founded The Carlyle Group with Rubenstein and Conway in Washington DC.", "eventKo": "워싱턴 DC에서 루벤스타인·코노웨이와 Carlyle Group 공동 창립.", "whyItMatteredKo": "PE 출발선." },
+    { "year": 2012, "age": 66, "event": "Carlyle Group IPO on NASDAQ; cemented top-3 PE firm position.", "eventKo": "Carlyle Group 나스닥 IPO; 톱3 PE 회사 자리 굳힘.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $4.7B per Forbes Real-Time. Continues as Carlyle co-chairman; major conservative philanthropist.", "eventKo": "포브스 실시간 기준 개인 순자산 47억 달러. Carlyle 공동 의장 계속; 주요 보수 자선가.", "whyItMatteredKo": "38+년 PE 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1987, "age": 41, "decisionKo": "Marriott 떠나 PE 회사 공동 창립", "alternativeKo": "기업 경력 잔류", "outcomeKo": "38+년 후 세계 톱3 PE 회사 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Carlyle Group(NASDAQ 상장) 공동 창립자 지분 + 38+년 carry", "industryKo": "사모펀드", "businessModelKo": "글로벌 PE + 신용 + 부동산 + 보험 자산운용", "moatKo": "38+년 워싱턴 DC + 글로벌 PE 인맥", "luckVsSkillKo": "운(30%): 1980-2010 PE 황금기. 실력(70%): 38+년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of The Carlyle Group; conservative philanthropist; American Enterprise Institute and Heritage Foundation patron.",
+    "knownForKo": "Carlyle Group 공동 창립자; 보수 자선가; American Enterprise Institute와 Heritage Foundation 후원자.",
+    "philanthropy": "Major patron of American Enterprise Institute, Catholic University, Syracuse University.",
+    "philanthropyKo": "American Enterprise Institute·가톨릭 대학교·시러큐스 대학교 주요 후원자.",
+    "controversies": "Carlyle's George H.W. Bush political ties drew sustained criticism in 1990s-2000s; 2001 9/11 Saudi-bin-Laden investment scandal.",
+    "controversiesKo": "Carlyle의 조지 H.W. 부시 정치 연결이 1990-2000년대 지속적 비판 야기; 2001 9/11 사우디·빈라덴 투자 스캔들."
+  },
+  "characterKo": { "summaryKo": "Carlyle Group 공동 창립 + 보수 정치 자선가.", "tagsKo": ["Carlyle Group", "AEI 후원자", "해군 출신"] },
+  "failures": [
+    { "year": 2001, "description": "Carlyle faced sustained criticism over Saudi-bin-Laden-family investments after 9/11 attacks.", "descriptionKo": "9/11 공격 후 Carlyle이 사우디·빈라덴 가족 투자에 대해 지속적 비판 직면.", "lesson": "Politically connected PE carries reputational tail risk.", "lessonKo": "정치 연결 PE는 평판 잔여 리스크 동반." },
+    { "year": 2022, "description": "Carlyle Group stock fell during 2022-2023 PE-sector compression.", "descriptionKo": "2022-2023 PE 부문 압축 동안 Carlyle Group 주가 하락.", "lesson": "Public PE stocks face cyclical compression.", "lessonKo": "공개 PE 주식은 주기적 압축 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "The Navy taught me logistics. PE is logistics with bigger ships.", "textKo": "해군이 물류를 가르쳤다. PE는 더 큰 배의 물류다.", "context": "On PE career origins", "contextKo": "PE 경력 기원에 대해", "source": "https://www.carlyle.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Myo day pillar in Yu month — 'pyeon-gwan-gyeok', strong external authority, fitting institutional PE co-founder.", "summaryKo": "신묘 일주 + 유월 편관격(강한 외부 압박·권력 충돌)은 38+년 워싱턴 DC PE 산업이 정부·정치·규제와 끊임없이 연결된 환경과 호응합니다. 신금 일간의 예리한 금속·정밀 분석 기질이 PE 딜 평가와 통하고, 묘목 일지·유금 월지의 강한 금 기운이 PE라는 자본 금속 산업의 강도를 가리킵니다." }
+}

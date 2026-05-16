@@ -1,0 +1,37 @@
+{
+  "id": "1551", "name": "George Thomas Muthoot", "nameKo": "조지 토머스 무투트",
+  "netWorth": 2.6, "nationality": "IN", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Kerala, India", "birthPlaceKo": "인도 케랄라",
+    "familyBackground": "Born to Muthoot family — owners of Muthoot Group (Indian gold-loan and financial services).", "familyBackgroundKo": "Muthoot Group(인도 금 대출·금융 서비스) 소유 Muthoot 가족에서 출생.",
+    "education": "Indian higher education.", "educationKo": "인도 고등교육.",
+    "earlyLife": "Joined Muthoot family business; helped build Muthoot Finance into India's largest gold-loan company.",
+    "earlyLifeKo": "Muthoot 가족 사업 합류; Muthoot Finance를 인도 최대 금 대출 회사로 키우는 데 기여.",
+    "source": "https://en.wikipedia.org/wiki/Muthoot_Finance"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Muthoot 가족 사업 다세대 자본." },
+  "careerTimeline": [
+    { "year": 1975, "age": 25, "event": "Joined Muthoot family business operations in Kerala.", "eventKo": "케랄라 Muthoot 가족 사업 운영 합류.", "whyItMatteredKo": "50년 가족 자본 운용 출발선." },
+    { "year": 2001, "age": 51, "event": "Muthoot Finance received RBI registration as NBFC; began scaling gold-loan operations nationally.", "eventKo": "Muthoot Finance가 RBI NBFC 등록; 금 대출 운영 전국 확장 시작.", "whyItMatteredKo": "전국 NBFC 라이선스 단계." },
+    { "year": 2011, "age": 61, "event": "Muthoot Finance IPO on BSE/NSE; family wealth crystallized publicly.", "eventKo": "Muthoot Finance BSE/NSE IPO; 가족 부 공개적 결정화.", "whyItMatteredKo": "공개 시장 평가 단계." },
+    { "year": 2025, "age": 75, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "50년 가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1975, "age": 25, "decisionKo": "가족 금융 서비스 사업 진입", "alternativeKo": "독립 경로", "outcomeKo": "인도 최대 금 대출 회사 가족 자본" }],
+  "moneyMechanics": { "primaryRevenueKo": "Muthoot Finance(BSE/NSE 상장) 가족 지분", "industryKo": "금 담보 대출·NBFC", "businessModelKo": "인도 농촌·도시 금 담보 단기 대출 네트워크", "moatKo": "다세대 케랄라 신뢰 + 전국 NBFC 지점망", "luckVsSkillKo": "운(50%): 인도 금융 포용 부상. 실력(50%): 50년 가족 일관성." },
+  "personalTraits": {
+    "knownFor": "Member of Muthoot family; co-leader of Muthoot Finance — India's largest gold-loan company.",
+    "knownForKo": "Muthoot 가족 구성원; 인도 최대 금 대출 회사 Muthoot Finance 공동 리더.",
+    "philanthropy": "Muthoot family supports Kerala healthcare and education.", "philanthropyKo": "Muthoot 가족이 케랄라 헬스케어·교육 지원.",
+    "controversies": "Standard NBFC regulatory and gold-loan industry scrutiny.", "controversiesKo": "표준 NBFC 규제·금 대출 산업 감시."
+  },
+  "characterKo": { "summaryKo": "케랄라 Muthoot 가족 다세대 자본 + 인도 최대 금 대출 NBFC.", "tagsKo": ["Muthoot Finance", "케랄라 가족", "금 담보 대출"] },
+  "failures": [
+    { "year": 2013, "description": "RBI tightened NBFC gold-loan regulations; Muthoot Finance margins compressed.", "descriptionKo": "RBI가 NBFC 금 대출 규제 강화; Muthoot Finance 마진 압축.", "lesson": "NBFC depends on regulatory predictability.", "lessonKo": "NBFC는 규제 예측 가능성에 의존." },
+    { "year": 2020, "description": "COVID-19 disrupted India's rural lending operations; collection cycles extended.", "descriptionKo": "COVID-19이 인도 농촌 대출 운영 혼란; 수금 주기 연장.", "lesson": "Rural lending faces pandemic-cycle exposure.", "lessonKo": "농촌 대출은 팬데믹 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.4 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Gold is trust held in physical form.", "textKo": "금은 물리적 형태로 보유된 신뢰다.", "context": "On gold-loan business", "contextKo": "금 대출 사업에 대해", "source": "https://www.muthootfinance.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-O day pillar in Ja month — 'pyeonjae-gyeok', large external capital, fitting NBFC lender.", "summaryKo": "갑오 일주 + 자월 편재격(크고 유동적인 외부 자본)은 NBFC 금 대출 산업의 거대 외부 자본 흐름과 호응합니다. 갑목 일간의 큰 기둥 기질이 가족 회사 가부장 역할과 통하고, 자수 월지의 수 기운이 자본 유동성과 통합니다." }
+}

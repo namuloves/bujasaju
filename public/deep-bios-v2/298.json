@@ -1,0 +1,40 @@
+{
+  "id": "298", "name": "Tobi Lutke", "nameKo": "토비 뤼트케",
+  "netWorth": 10.5, "nationality": "CA", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Koblenz, Germany", "birthPlaceKo": "독일 코블렌츠",
+    "familyBackground": "Born to German middle-class family.", "familyBackgroundKo": "독일 중산층 가정에서 출생.",
+    "education": "Trade-school apprenticeship in computer programming; no university degree.", "educationKo": "컴퓨터 프로그래밍 직업 훈련 도제; 대학 학위 없음.",
+    "earlyLife": "Migrated to Canada in 2002; co-founded Snowdevil online snowboard shop — which evolved into Shopify e-commerce platform in 2006.",
+    "earlyLifeKo": "2002년 캐나다 이주; 온라인 스노보드 가게 Snowdevil 공동 창립 — 2006년 Shopify 이커머스 플랫폼으로 진화.",
+    "source": "https://en.wikipedia.org/wiki/Tobi_L%C3%BCtke"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Shopify 19년 누적 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2004, "age": 24, "event": "Co-founded Snowdevil online snowboard shop in Ottawa with Scott Lake.", "eventKo": "스콧 레이크와 오타와에서 온라인 스노보드 가게 Snowdevil 공동 창립.", "whyItMatteredKo": "Shopify 기원 출발선." },
+    { "year": 2006, "age": 26, "event": "Pivoted Snowdevil's e-commerce engine into Shopify SaaS platform.", "eventKo": "Snowdevil 이커머스 엔진을 Shopify SaaS 플랫폼으로 피벗.", "whyItMatteredKo": "SaaS 출발선." },
+    { "year": 2015, "age": 35, "event": "Shopify IPO on NYSE and TSX; raised $131M.", "eventKo": "Shopify NYSE·TSX IPO; 1억 3,100만 달러 조달.", "whyItMatteredKo": "공개 시장 평가 단계." },
+    { "year": 2020, "age": 40, "event": "COVID-19 e-commerce boom propelled Shopify to second-largest US e-commerce platform after Amazon.", "eventKo": "COVID-19 이커머스 붐으로 Shopify가 Amazon 다음 미국 2위 이커머스 플랫폼으로 도약.", "whyItMatteredKo": "팬데믹 정점 단계." },
+    { "year": 2025, "age": 44, "event": "Personal net worth at $10.5B per Forbes Real-Time. Continues as Shopify CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 105억 달러. Shopify CEO 계속.", "whyItMatteredKo": "19년 Shopify 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2006, "age": 26, "decisionKo": "스노보드 가게에서 SaaS 플랫폼으로 피벗", "alternativeKo": "스노보드 사업 잔류", "outcomeKo": "19년 후 글로벌 2위 이커머스 플랫폼" }],
+  "moneyMechanics": { "primaryRevenueKo": "Shopify Inc.(NYSE 상장) 창립자 지분", "industryKo": "이커머스 SaaS", "businessModelKo": "구독 + 결제·배송 부가 서비스 + 머천트 수수료", "moatKo": "190+개국 머천트 베이스 + 풀 스택 이커머스 인프라", "luckVsSkillKo": "운(35%): 2006-2025 SaaS·이커머스 황금기. 실력(65%): 19년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of Shopify; one of Canada's most prominent tech leaders; outspoken on AI and remote work.",
+    "knownForKo": "Shopify 창립자·CEO; 캐나다 가장 유명한 기술 리더 중 한 명; AI·원격 근무에 대해 노골적.",
+    "philanthropy": "Tobi Lutke Foundation supports Canadian education and tech-talent development.",
+    "philanthropyKo": "Tobi Lutke Foundation이 캐나다 교육·기술 인재 개발 지원.",
+    "controversies": "2022 layoffs (10% of workforce) drew criticism; 2023 controversial 'Shopify is not a family' memo to staff.",
+    "controversiesKo": "2022 정리해고(직원 10%)가 비판 야기; 2023 직원 대상 논란의 'Shopify is not a family' 메모."
+  },
+  "characterKo": { "summaryKo": "독일 출신 도제 프로그래머가 Shopify로 글로벌 이커머스 메이저 창립.", "tagsKo": ["Shopify CEO", "도제 출신", "이커머스 SaaS", "AI 옹호자"] },
+  "failures": [
+    { "year": 2022, "description": "Post-COVID e-commerce normalization collapsed Shopify stock 75%+; major layoffs.", "descriptionKo": "팬데믹 후 이커머스 정상화로 Shopify 주가 75%+ 붕괴; 주요 정리해고.", "lesson": "Pandemic-pull-forward demand creates post-cycle drawdown.", "lessonKo": "팬데믹 수요 당김은 사이클 후 하락 야기." },
+    { "year": 2023, "description": "Shopify sold logistics/fulfillment unit to Flexport at a loss after acquisition fiasco.", "descriptionKo": "인수 실패 후 Shopify가 물류·이행 부문을 Flexport에 손실로 매각.", "lesson": "Vertical integration into logistics is operationally hard.", "lessonKo": "물류 수직 통합은 운영상 어렵다." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 7.0 }, { "year": 2022, "netWorth": 3.5 }, { "year": 2024, "netWorth": 9.6 }, { "year": 2025, "netWorth": 10.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Shopify makes commerce better for everyone — that's the actual mission.", "textKo": "Shopify는 모두를 위해 상거래를 더 좋게 만든다 — 그것이 실제 미션이다.", "context": "On company mission", "contextKo": "회사 미션에 대해", "source": "https://www.shopify.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-In day pillar in Mi month — 'sanggwan-gyeok', creative output, fitting self-taught coder turned SaaS founder.", "summaryKo": "경인 일주 + 미월 상관격(창의적 결과물·표현)은 학위 없이 코드만으로 글로벌 이커머스 플랫폼을 만든 그의 창의적 자수성가와 호응합니다. 경금 일간의 단단한 금속·결단력이 매년 거대 SaaS 회사를 운영하는 결단과 통하고, 인목 일지의 목 기운이 19년 회사 성장 욕구를 가리킵니다." }
+}

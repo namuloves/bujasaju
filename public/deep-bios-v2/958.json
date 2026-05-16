@@ -1,0 +1,39 @@
+{
+  "id": "958", "name": "Wang Jianlin", "nameKo": "왕젠린",
+  "netWorth": 4.3, "nationality": "CN", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Sichuan, China", "birthPlaceKo": "중국 쓰촨성",
+    "familyBackground": "Born to PLA (People's Liberation Army) military family during Mao era.", "familyBackgroundKo": "마오 시대 PLA(인민해방군) 군 가정에서 출생.",
+    "education": "PLA Liaoning Provincial Military University; later studied management.", "educationKo": "PLA 랴오닝성 군사대학교; 이후 경영학 수학.",
+    "earlyLife": "Served in PLA for 17 years; founded Dalian Wanda Group in 1988 — China's largest commercial real-estate developer; later expanded into movies, sports, retail.",
+    "earlyLifeKo": "PLA 17년 복무; 1988년 다롄 완다 그룹 창립 — 중국 최대 상업 부동산 개발사; 이후 영화·스포츠·소매로 확장.",
+    "source": "https://en.wikipedia.org/wiki/Wang_Jianlin"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Wanda Group 37년 자수성가." },
+  "careerTimeline": [
+    { "year": 1988, "age": 34, "event": "Founded Dalian Wanda Group after leaving PLA.", "eventKo": "PLA 떠난 후 다롄 완다 그룹 창립.", "whyItMatteredKo": "37년 자수성가 출발선." },
+    { "year": 2000, "age": 46, "event": "Pioneered 'Wanda Plaza' commercial-real-estate complex format in Chinese cities.", "eventKo": "중국 도시에서 'Wanda Plaza' 상업 부동산 복합 형식 개척.", "whyItMatteredKo": "비즈니스 모델 확립." },
+    { "year": 2012, "age": 58, "event": "Acquired AMC Theaters for $2.6B; expanded into global movie-theater chain.", "eventKo": "AMC Theaters를 26억 달러 인수; 글로벌 영화관 체인 확장.", "whyItMatteredKo": "글로벌 다각화 단계." },
+    { "year": 2017, "age": 63, "event": "Chinese government tightened Wanda overseas expansion; Wang forced to sell hotels and theme parks.", "eventKo": "중국 정부가 Wanda 해외 확장 규제; 왕이 호텔·테마파크 매각 강제.", "whyItMatteredKo": "규제 정점 단계." },
+    { "year": 2025, "age": 71, "event": "Personal net worth at $4.3B per Forbes Real-Time. Continues Wanda restructuring under regulatory pressure.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러. 규제 압박 하에 Wanda 재구조화 계속.", "whyItMatteredKo": "37년 자본 + 규제 잔여." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 63, "decisionKo": "정부 압박에 해외 자산 매각", "alternativeKo": "확장 계속", "outcomeKo": "Wanda 재구조화 + 부 -75% 압축" }],
+  "moneyMechanics": { "primaryRevenueKo": "Dalian Wanda Group 지분 — 상업 부동산 + 영화관 + 소매", "industryKo": "상업 부동산·영화·다각화", "businessModelKo": "Wanda Plaza 복합 + 영화관 + 글로벌 자산", "moatKo": "37년 중국 도시 부동산 인프라", "luckVsSkillKo": "운(50%): 1990-2010 중국 도시화. 실력(50%): 37년 단일 비전 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Dalian Wanda Group; once China's wealthiest man; pioneer of Chinese commercial-real-estate complex format.",
+    "knownForKo": "다롄 완다 그룹 창립자; 한때 중국 최대 부자; 중국 상업 부동산 복합 형식 선구자.",
+    "philanthropy": "Major Chinese education and disaster-relief donor.", "philanthropyKo": "주요 중국 교육·재난 구호 기부자.",
+    "controversies": "2017 Chinese government forced asset sales; 'AMC' overseas acquisition controversial; Wanda corporate-debt scrutiny.",
+    "controversiesKo": "2017 중국 정부 강제 자산 매각; 'AMC' 해외 인수 논란; Wanda 기업 부채 감시."
+  },
+  "characterKo": { "summaryKo": "PLA 출신 Wanda 창립자 — 중국 부동산 거물에서 정부 규제로 -75% 압축.", "tagsKo": ["Wanda Group", "PLA 출신", "정부 압박"] },
+  "failures": [
+    { "year": 2017, "description": "Chinese government's 'gray rhino' overseas-investment crackdown forced Wanda to fire-sale $20B+ assets.", "descriptionKo": "중국 정부의 '회색 코뿔소' 해외 투자 단속이 Wanda에 200억 달러+ 자산 헐값 매각 강제.", "lesson": "Chinese tycoons exposed to political-cycle risk.", "lessonKo": "중국 대기업 총수는 정치 사이클 리스크 노출." },
+    { "year": 2023, "description": "Chinese property crisis intensified; Wanda commercial-rental income compressed; debt restructuring required.", "descriptionKo": "중국 부동산 위기 심화; Wanda 상업 임대 수입 압축; 부채 재구조화 필요.", "lesson": "China commercial real-estate face systemic compression.", "lessonKo": "중국 상업 부동산은 체계적 압축 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 26.2 }, { "year": 2020, "netWorth": 15.5 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "The mall was the city's living room. Now the internet is.", "textKo": "쇼핑몰은 도시의 거실이었다. 이제는 인터넷이 그렇다.", "context": "On retail evolution", "contextKo": "소매 진화에 대해", "source": "https://www.wanda-group.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-In day pillar in Yu month — 'sanggwan-gyeok', creative-strong expression, fitting PLA-trained entrepreneur turned tycoon.", "summaryKo": "경인 일주 + 유월 상관격(창의적 결과물·자기 표현·권위 충돌)은 PLA에서 사업가로 전환해 정부 규제와 충돌하면서도 거대 자본을 누적한 그의 경로와 호응합니다. 경금 일간의 단단한 금속·결단력이 군 출신의 결단과 통하고, 일지·월지 모두 금 기운으로 강한 자기 자본 + 권위와의 끊임없는 충돌이라는 일생 패턴이 그려집니다." }
+}

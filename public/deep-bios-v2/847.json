@@ -1,0 +1,39 @@
+{
+  "id": "847", "name": "Lorinc Meszaros", "nameKo": "뢰린츠 메사로시",
+  "netWorth": 4.9, "nationality": "HU", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Felcsut, Hungary", "birthPlaceKo": "헝가리 펠초트",
+    "familyBackground": "Born to working-class Hungarian family in small village of Felcsut.", "familyBackgroundKo": "펠초트 작은 마을 노동자 계급 헝가리 가정에서 출생.",
+    "education": "Hungarian secondary education; gas-fitter vocational training.", "educationKo": "헝가리 중등교육; 가스 설비공 직업 훈련.",
+    "earlyLife": "Worked as gas-fitter; befriended Viktor Orban in Felcsut; built Meszaros es Meszaros gas-fitting company; massive wealth accumulation after Orban became Hungarian PM in 2010.",
+    "earlyLifeKo": "가스 설비공 근무; 펠초트에서 빅토르 오르반과 친구가 됨; Meszaros es Meszaros 가스 설비 회사 구축; 2010년 오르반이 헝가리 총리가 된 후 거대 부 누적.",
+    "source": "https://en.wikipedia.org/wiki/L%C5%91rinc_M%C3%A9sz%C3%A1ros"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Meszaros es Meszaros + 오르반 정치 인맥 — 정치-사업 가속화." },
+  "careerTimeline": [
+    { "year": 1985, "age": 19, "event": "Began working as gas-fitter in Hungarian village of Felcsut.", "eventKo": "헝가리 펠초트 마을에서 가스 설비공 근무 시작.", "whyItMatteredKo": "노동자 경력 출발선." },
+    { "year": 2000, "age": 34, "event": "Founded Meszaros es Meszaros gas-fitting company.", "eventKo": "Meszaros es Meszaros 가스 설비 회사 창립.", "whyItMatteredKo": "사업 출발선." },
+    { "year": 2010, "age": 44, "event": "Childhood friend Viktor Orban became Hungarian PM; Meszaros began rapid business expansion.", "eventKo": "어린 시절 친구 빅토르 오르반이 헝가리 총리 취임; 메사로시가 빠른 사업 확장 시작.", "whyItMatteredKo": "정치 인맥 가속화 출발선." },
+    { "year": 2018, "age": 52, "event": "Became Hungary's wealthiest person; controlled construction, media, banking, agriculture, tourism.", "eventKo": "헝가리 최대 부자가 됨; 건설·미디어·은행·농업·관광 통제.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $4.9B per Forbes Real-Time. Multiple Opus Global subsidiaries control major Hungarian industries.", "eventKo": "포브스 실시간 기준 개인 순자산 49억 달러. 다수 Opus Global 자회사가 주요 헝가리 산업 통제.", "whyItMatteredKo": "정치-사업 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2010, "age": 44, "decisionKo": "오르반 총리 인맥 활용", "alternativeKo": "지역 가스 사업 잔류", "outcomeKo": "15년 후 헝가리 최대 부자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Opus Global Nyrt. + Meszaros es Meszaros + 다수 헝가리 자회사", "industryKo": "건설·미디어·은행·농업·관광 다각화", "businessModelKo": "헝가리 정부 조달 + EU 자금 사업 + 다각화", "moatKo": "오르반 총리 정치 인맥 + 헝가리 정부 조달", "luckVsSkillKo": "운(80%): 오르반 정치 인맥. 실력(20%): 사업 운영." },
+  "personalTraits": {
+    "knownFor": "Hungary's wealthiest person; childhood friend of Viktor Orban; controller of Opus Global Hungarian conglomerate.",
+    "knownForKo": "헝가리 최대 부자; 빅토르 오르반의 어린 시절 친구; Opus Global 헝가리 대기업 통제자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Meszaros's wealth growth widely criticized as Orban-era cronyism; EU governance and rule-of-law disputes implicate Meszaros.",
+    "controversiesKo": "메사로시의 부 성장이 오르반 시대 정실주의로 광범위 비판; EU 거버넌스·법치주의 분쟁이 메사로시 연루."
+  },
+  "characterKo": { "summaryKo": "가스 설비공이 오르반 정치 인맥으로 헝가리 최대 부자가 됨.", "tagsKo": ["Opus Global", "오르반 인맥", "헝가리 최대 부자"] },
+  "failures": [
+    { "year": 2017, "description": "EU anti-fraud office (OLAF) opened investigation into Hungarian public-procurement contracts involving Meszaros companies.", "descriptionKo": "EU 사기 방지 사무소(OLAF)가 메사로시 회사 관련 헝가리 공공 조달 계약 조사 시작.", "lesson": "Politically tied wealth faces cross-border regulatory exposure.", "lessonKo": "정치 연계 부는 국경 간 규제 노출 직면." },
+    { "year": 2024, "description": "EU pressure on Hungarian rule of law threatened Meszaros's EU-fund-tied businesses.", "descriptionKo": "EU의 헝가리 법치주의 압박이 메사로시의 EU 자금 연계 사업 위협.", "lesson": "EU-funded business face EU governance conditionality.", "lessonKo": "EU 자금 사업은 EU 거버넌스 조건 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.0 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I am a gas-fitter who learned business.", "textKo": "나는 사업을 배운 가스 설비공이다.", "context": "On wealth origins", "contextKo": "부의 기원에 대해", "source": "https://www.opusglobal.hu" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in In month — 'jeonggwan-gyeok', formal authority through politics, fitting politically tied conglomerate builder.", "summaryKo": "을묘 일주 + 인월 정관격(공식 권위·정치 권력)은 정치 인맥을 통해 부를 누적한 그의 경로와 정확히 호응합니다. 을목 일간의 부드러운 식물 + 묘목 일지·인목 월지의 강한 목 기운이 거대한 자본 성장 욕구를 가리키고, 정관격이 정치 권위의 보호 아래에서 사업을 운영하는 구조와 통합니다." }
+}

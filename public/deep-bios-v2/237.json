@@ -1,0 +1,40 @@
+{
+  "id": "237", "name": "Leon David Black", "nameKo": "레온 데이비드 블랙",
+  "netWorth": 12.3, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "New York, USA", "birthPlaceKo": "미국 뉴욕",
+    "familyBackground": "Born to Eli Black — chairman of United Brands; father committed suicide in 1975 amid bribery scandal.", "familyBackgroundKo": "United Brands 회장 일라이 블랙의 아들; 아버지가 1975년 뇌물 스캔들 중 자살.",
+    "education": "Dartmouth College; Harvard MBA.", "educationKo": "다트머스 칼리지; 하버드 MBA.",
+    "earlyLife": "Joined Drexel Burnham Lambert; rose with Michael Milken in junk-bond era; co-founded Apollo Global Management in 1990 after Drexel collapse.",
+    "earlyLifeKo": "Drexel Burnham Lambert 합류; 정크본드 시대에 마이클 밀켄과 함께 부상; Drexel 붕괴 후 1990년 Apollo Global Management 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Leon_Black"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Apollo 공동 창립자 지분 + 35년 carry." },
+  "careerTimeline": [
+    { "year": 1977, "age": 26, "event": "Joined Drexel Burnham Lambert junk-bond department.", "eventKo": "Drexel Burnham Lambert 정크본드 부서 합류.", "whyItMatteredKo": "PE·LBO 경력 출발선." },
+    { "year": 1990, "age": 39, "event": "Co-founded Apollo Global Management after Drexel collapse with Joshua Harris and Marc Rowan.", "eventKo": "Drexel 붕괴 후 조슈아 해리스·마크 로언과 Apollo Global Management 공동 창립.", "whyItMatteredKo": "PE 메이저 출발선." },
+    { "year": 2011, "age": 60, "event": "Apollo Global Management IPO on NYSE; cemented Apollo position as one of world's top PE firms.", "eventKo": "Apollo Global Management NYSE IPO; Apollo 위치를 세계 톱 PE 회사 중 하나로 굳힘.", "whyItMatteredKo": "공개 시장 평가 단계." },
+    { "year": 2021, "age": 70, "event": "Stepped down as Apollo CEO after Epstein-related financial-ties scrutiny; remained major shareholder.", "eventKo": "엡스타인 관련 금융 연계 감시 후 Apollo CEO에서 사임; 주요 주주 잔류.", "whyItMatteredKo": "평판 위기 단계." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $12.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 123억 달러.", "whyItMatteredKo": "35년 PE carry 정점." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 39, "decisionKo": "Drexel 붕괴 후 Apollo 공동 창립", "alternativeKo": "기존 은행 합류", "outcomeKo": "35년 후 세계 톱3 PE 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Apollo Global Management(NYSE 상장) 공동 창립자 지분 + 35년 carry", "industryKo": "사모펀드", "businessModelKo": "PE + 신용 + 부동산 + 보험 자산운용", "moatKo": "Drexel 정크본드 시대 LBO 노하우 + 35년 인맥", "luckVsSkillKo": "운(35%): 1980-90년대 정크본드 + 2000년대 PE 황금기. 실력(65%): 35년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Apollo Global Management; legendary PE dealmaker; major art collector.",
+    "knownForKo": "Apollo Global Management 공동 창립자; 전설적 PE 딜메이커; 주요 미술품 수집가.",
+    "philanthropy": "Major patron of New York cultural institutions; Black Family Foundation.",
+    "philanthropyKo": "주요 뉴욕 문화 기관 후원자; Black Family Foundation.",
+    "controversies": "2019-2021 Jeffrey Epstein financial-ties scandal triggered $158M payments review; lawsuit allegations; CEO resignation.",
+    "controversiesKo": "2019-2021 제프리 엡스타인 금융 연계 스캔들이 1억 5,800만 달러 지급 검토 촉발; 소송 의혹; CEO 사임."
+  },
+  "characterKo": { "summaryKo": "Drexel·정크본드 시대 베테랑이 Apollo로 PE 메이저 — 엡스타인 사건으로 CEO 사임.", "tagsKo": ["Apollo Global", "Drexel 출신", "PE 거물", "엡스타인 사건"] },
+  "failures": [
+    { "year": 1989, "description": "Drexel Burnham Lambert collapsed amid SEC scandal; Black's first employer destroyed.", "descriptionKo": "Drexel Burnham Lambert가 SEC 스캔들 중 붕괴; 블랙의 첫 직장 파괴.", "lesson": "Firms tied to single individual (Milken) carry concentration risk.", "lessonKo": "단일 개인(밀켄) 의존 회사는 집중 리스크 동반." },
+    { "year": 2021, "description": "Epstein financial-ties scrutiny forced CEO resignation; major reputational damage.", "descriptionKo": "엡스타인 금융 연계 감시로 CEO 사임 강제; 주요 평판 손상.", "lesson": "Personal-relationship reputational risk magnified for PE leaders.", "lessonKo": "PE 리더의 개인 관계 평판 리스크는 증폭된다." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 5.3 }, { "year": 2020, "netWorth": 8.7 }, { "year": 2024, "netWorth": 11.2 }, { "year": 2025, "netWorth": 12.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "In private equity, the deal you don't do matters as much as the one you do.", "textKo": "사모펀드에서 하지 않은 딜은 한 딜만큼 중요하다.", "context": "On PE discipline", "contextKo": "PE 규율에 대해", "source": "https://www.apollo.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Shin day pillar in Mi month — 'sanggwan-gyeok', creative output, fitting deal-making PE founder.", "summaryKo": "임신 일주 + 미월 상관격(창의적 결과물·표현)은 정크본드·LBO·PE라는 끊임없이 새 딜을 짜내는 직업과 호응합니다. 임수 일간의 큰 물 기질이 거대 자본 유동성과 통하고, 신금 일지의 금 기운이 분석·매수 매도 의사결정의 예리함을 가리키며, 상관격이 평생 창의적 딜 구조를 짠 경로와 통합니다." }
+}

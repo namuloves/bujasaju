@@ -1,0 +1,40 @@
+{
+  "id": "928", "name": "Eduardo Eurnekian", "nameKo": "에두아르도 에우르네키안",
+  "netWorth": 4.4, "nationality": "AR", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Buenos Aires, Argentina", "birthPlaceKo": "아르헨티나 부에노스아이레스",
+    "familyBackground": "Born to Armenian immigrant family in Argentina.", "familyBackgroundKo": "아르헨티나의 아르메니아 이민자 가정에서 출생.",
+    "education": "Argentine secondary education.", "educationKo": "아르헨티나 중등교육.",
+    "earlyLife": "Built career in Argentine textile and cable-TV businesses; founded Cablevisin and acquired Aeropuertos Argentina 2000 — privatized Argentine airport network.",
+    "earlyLifeKo": "아르헨티나 섬유·케이블 TV 사업 경력 구축; Cablevisin 창립 + Aeropuertos Argentina 2000 인수 — 민영화된 아르헨티나 공항 네트워크.",
+    "source": "https://en.wikipedia.org/wiki/Eduardo_Eurnekian"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Corporacion America 60+년 자수성가." },
+  "careerTimeline": [
+    { "year": 1955, "age": 23, "event": "Began Argentine textile manufacturing business.", "eventKo": "아르헨티나 섬유 제조 사업 시작.", "whyItMatteredKo": "60+년 자수성가 출발선." },
+    { "year": 1985, "age": 53, "event": "Founded Cablevisin cable-TV company; built into major Argentine media operator.", "eventKo": "Cablevisin 케이블 TV 회사 창립; 주요 아르헨티나 미디어 운영사로 성장.", "whyItMatteredKo": "미디어 자본 단계." },
+    { "year": 1998, "age": 66, "event": "Acquired Aeropuertos Argentina 2000 — 33-airport privatization concession including Buenos Aires Ezeiza.", "eventKo": "Aeropuertos Argentina 2000 인수 — 부에노스아이레스 에세이사 포함 33개 공항 민영화 양허.", "whyItMatteredKo": "인프라 자본 단계." },
+    { "year": 2015, "age": 83, "event": "Corporacion America expanded to operate 50+ airports in 7 countries.", "eventKo": "Corporacion America가 7개국 50+개 공항 운영으로 확장.", "whyItMatteredKo": "글로벌 공항 메이저 단계." },
+    { "year": 2025, "age": 93, "event": "Personal net worth at $4.4B per Forbes Real-Time. Continues as Corporacion America chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 44억 달러. Corporacion America 의장 계속.", "whyItMatteredKo": "60+년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1998, "age": 66, "decisionKo": "미디어에서 공항 민영화로 전환", "alternativeKo": "미디어 집중", "outcomeKo": "글로벌 공항 운영사 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Corporacion America(100% 가족 소유) — 공항 운영 + 다각화", "industryKo": "공항 인프라 + 미디어 + 에너지", "businessModelKo": "공항 양허 + 면세점 + 인프라 운영", "moatKo": "다국가 공항 양허 + 60+년 아르헨티나 인맥", "luckVsSkillKo": "운(45%): 1990년대 라틴 아메리카 민영화 흐름. 실력(55%): 60+년 다각화 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Corporacion America Airports; pioneering Argentine airport-privatization operator; Armenian-Argentine business patriarch.",
+    "knownForKo": "Corporacion America Airports 창립자; 선구적 아르헨티나 공항 민영화 운영자; 아르메니아·아르헨티나 사업 가부장.",
+    "philanthropy": "Fundacion Eduardo Eurnekian supports Argentine-Armenian community and education.",
+    "philanthropyKo": "Fundacion Eduardo Eurnekian이 아르헨티나·아르메니아 공동체·교육 지원.",
+    "controversies": "Aeropuertos Argentina 2000 concession terms drew political criticism; Argentine government renegotiation disputes.",
+    "controversiesKo": "Aeropuertos Argentina 2000 양허 조건이 정치적 비판 야기; 아르헨티나 정부 재협상 분쟁."
+  },
+  "characterKo": { "summaryKo": "아르메니아 이민자가 아르헨티나 공항 인프라 가부장으로 60+년 자수성가.", "tagsKo": ["Corporacion America", "공항 운영", "60+년 자수성가"] },
+  "failures": [
+    { "year": 2001, "description": "Argentine financial crisis collapsed peso and airport-traffic; Aeropuertos Argentina 2000 nearly defaulted.", "descriptionKo": "아르헨티나 금융위기로 페소·공항 통행량 붕괴; Aeropuertos Argentina 2000 거의 디폴트.", "lesson": "Infrastructure concessions face currency and macro risk.", "lessonKo": "인프라 양허는 통화·거시 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 collapsed global airport traffic; Corporacion America revenue plunged 70%+ at trough.", "descriptionKo": "COVID-19이 글로벌 공항 통행량 붕괴; Corporacion America 매출이 저점에서 70%+ 급락.", "lesson": "Airport operators carry maximum pandemic exposure.", "lessonKo": "공항 운영자는 최대 팬데믹 노출 동반." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.4 }, { "year": 2020, "netWorth": 0.9 }, { "year": 2024, "netWorth": 4.2 }, { "year": 2025, "netWorth": 4.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Airports are cities with one entrance.", "textKo": "공항은 입구가 하나인 도시다.", "context": "On airport operations", "contextKo": "공항 운영에 대해", "source": "https://www.corporacionamerica.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Hae day pillar in Hae month — 'siksin-gyeok' with strong water, fitting infrastructure-flow business.", "summaryKo": "기해 일주 + 해월 식신격(창의적 결과물·표현·유동)은 60+년에 걸쳐 사업을 끊임없이 다각화하며 공항이라는 거대 유동 인프라에 도달한 그의 경로와 호응합니다. 기토 일간의 농경 기질이 60+년 누적의 인내심을 가리키고, 해수 일지·해수 월지의 강한 수 기운이 공항이라는 사람·자본의 거대 유동 통로 사업과 통합니다." }
+}

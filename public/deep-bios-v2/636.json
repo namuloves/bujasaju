@@ -1,0 +1,37 @@
+{
+  "id": "636", "name": "Remon Vos", "nameKo": "레몬 보스",
+  "netWorth": 6.2, "nationality": "NL", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Netherlands", "birthPlaceKo": "네덜란드",
+    "familyBackground": "Born to Dutch middle-class family.", "familyBackgroundKo": "네덜란드 중산층 가정에서 출생.",
+    "education": "Dutch higher education.", "educationKo": "네덜란드 고등교육.",
+    "earlyLife": "Founded CTP Invest in 1998 — Central European industrial logistics-real-estate developer; built into region's largest logistics-property owner.",
+    "earlyLifeKo": "1998년 CTP Invest 창립 — 중부 유럽 산업 물류 부동산 개발사; 지역 최대 물류 부동산 소유주로 키움.",
+    "source": "https://en.wikipedia.org/wiki/CTP_(company)"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "CTP Invest 27년 자수성가." },
+  "careerTimeline": [
+    { "year": 1998, "age": 28, "event": "Founded CTP Invest in Czech Republic.", "eventKo": "체코에서 CTP Invest 창립.", "whyItMatteredKo": "27년 자수성가 출발선." },
+    { "year": 2010, "age": 40, "event": "CTP expanded across Central and Eastern Europe — Czechia, Slovakia, Poland, Hungary, Romania.", "eventKo": "CTP가 중·동부 유럽 전역 확장 — 체코·슬로바키아·폴란드·헝가리·루마니아.", "whyItMatteredKo": "지역 메이저 단계." },
+    { "year": 2021, "age": 51, "event": "CTP IPO on Euronext Amsterdam; raised €854M.", "eventKo": "CTP가 Euronext 암스테르담 IPO; 8억 5,400만 유로 조달.", "whyItMatteredKo": "공개 시장 평가 단계." },
+    { "year": 2025, "age": 55, "event": "Personal net worth at $6.2B per Forbes Real-Time. CTP continues as Central Europe's largest logistics-property REIT.", "eventKo": "포브스 실시간 기준 개인 순자산 62억 달러. CTP가 중부 유럽 최대 물류 부동산 리츠로 계속.", "whyItMatteredKo": "27년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1998, "age": 28, "decisionKo": "체코에서 물류 부동산 개발 시작", "alternativeKo": "네덜란드 잔류", "outcomeKo": "27년 후 중부 유럽 물류 부동산 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "CTP N.V.(Euronext 상장) 창립자 지분", "industryKo": "산업 물류 부동산", "businessModelKo": "중·동부 유럽 물류 창고 + 산업 단지 임대", "moatKo": "27년 지역 입지 + 글로벌 물류 고객 베이스", "luckVsSkillKo": "운(35%): 2000-2020 동유럽 산업 통합 + 이커머스 부상. 실력(65%): 27년 단일 비전." },
+  "personalTraits": {
+    "knownFor": "Founder of CTP; Central European logistics-real-estate pioneer; Dutch-born industrial real-estate magnate.",
+    "knownForKo": "CTP 창립자; 중부 유럽 물류 부동산 선구자; 네덜란드 출생 산업 부동산 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard real-estate development environmental and zoning scrutiny.", "controversiesKo": "표준 부동산 개발 환경·구역 감시."
+  },
+  "characterKo": { "summaryKo": "네덜란드 출신 중부 유럽 물류 부동산 27년 자수성가.", "tagsKo": ["CTP", "중부 유럽 물류", "산업 부동산"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted logistics tenant retail demand briefly; CTP absorbed short-term occupancy uncertainty.", "descriptionKo": "COVID-19이 물류 테넌트 소매 수요 단기 혼란; CTP가 단기 점유율 불확실성 흡수.", "lesson": "Logistics property tied to consumer-demand cycle.", "lessonKo": "물류 부동산은 소비자 수요 사이클에 묶임." },
+    { "year": 2022, "description": "Rising European interest rates compressed real-estate valuations; CTP share price fell.", "descriptionKo": "유럽 금리 상승으로 부동산 밸류에이션 압축; CTP 주가 하락.", "lesson": "REITs sensitive to interest-rate cycle.", "lessonKo": "리츠는 금리 사이클에 민감." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 3.0 }, { "year": 2022, "netWorth": 5.5 }, { "year": 2024, "netWorth": 6.0 }, { "year": 2025, "netWorth": 6.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Eastern Europe needed warehouses. We arrived early.", "textKo": "동유럽은 창고가 필요했다. 우리가 일찍 도착했다.", "context": "On CTP origins", "contextKo": "CTP 기원에 대해", "source": "https://www.ctp.eu" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Yu day pillar in Yu month — 'pyeon-in-gyeok', creative-strategic intuition, fitting first-mover into emerging region.", "summaryKo": "정유 일주 + 유월 편인격(독학·창의적 직관)은 27년 전 동유럽이라는 비전형적 시장에 일찍 진입한 직관적 결단과 호응합니다. 정화 일간의 따뜻한 불 기질이 거대 물류 부동산 산업의 신호와 통하고, 일지·월지 모두 유금으로 부동산 자산이라는 '단단한 금속·고정 자본'을 이중으로 강조합니다." }
+}

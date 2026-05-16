@@ -1,0 +1,37 @@
+{
+  "id": "873", "name": "Chen Weiliang", "nameKo": "천 웨이량",
+  "netWorth": 4.7, "nationality": "CN", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Fujian, China", "birthPlaceKo": "중국 푸젠성",
+    "familyBackground": "Born to working-class Fujian family.", "familyBackgroundKo": "푸젠성 노동자 계급 가정에서 출생.",
+    "education": "Chinese secondary education; pursued business directly.", "educationKo": "중국 중등교육; 사업 직접 진입.",
+    "earlyLife": "Began career in Fujian's coastal manufacturing supply chains; built textile and chemicals operations.",
+    "earlyLifeKo": "푸젠 연안 제조 공급망에서 경력 시작; 섬유·화학 운영 구축.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "푸젠 제조업 누적 자본." },
+  "careerTimeline": [
+    { "year": 1995, "age": 19, "event": "Began Fujian small-business operations in textile and trading.", "eventKo": "푸젠에서 섬유·무역 소규모 사업 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2005, "age": 29, "event": "Expanded into chemicals manufacturing; built integrated production base.", "eventKo": "화학 제조로 확장; 통합 생산 기지 구축.", "whyItMatteredKo": "제조업 자본 축적 단계." },
+    { "year": 2015, "age": 39, "event": "Continued expansion through China's manufacturing supply chain growth.", "eventKo": "중국 제조 공급망 성장과 함께 확장 계속.", "whyItMatteredKo": "글로벌 공급망 통합." },
+    { "year": 2025, "age": 49, "event": "Personal net worth at $4.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 47억 달러.", "whyItMatteredKo": "30년 푸젠 제조 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 19, "decisionKo": "푸젠 제조업 진입", "alternativeKo": "임금 노동", "outcomeKo": "30년 후 억만장자" }],
+  "moneyMechanics": { "primaryRevenueKo": "푸젠 제조 회사 지분 (섬유·화학)", "industryKo": "제조업", "businessModelKo": "푸젠 기반 공급망 + 글로벌 수출", "moatKo": "30년 푸젠 제조 인프라", "luckVsSkillKo": "운(40%): 중국 제조업 부상. 실력(60%): 30년 일관성." },
+  "personalTraits": {
+    "knownFor": "Fujian-based manufacturing entrepreneur; textile and chemicals magnate.",
+    "knownForKo": "푸젠 기반 제조 기업가; 섬유·화학 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard China-manufacturing environmental scrutiny.", "controversiesKo": "표준 중국 제조업 환경 감시."
+  },
+  "characterKo": { "summaryKo": "푸젠 노동자 출신의 30년 제조업 자수성가.", "tagsKo": ["푸젠 제조", "30년 자수성가"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted Chinese export supply chains.", "descriptionKo": "COVID-19이 중국 수출 공급망 혼란.", "lesson": "Export manufacturing faces global-cycle risk.", "lessonKo": "수출 제조는 글로벌 사이클 리스크 직면." },
+    { "year": 2022, "description": "Chinese property crisis and consumer-goods slowdown compressed industrial margins.", "descriptionKo": "중국 부동산 위기·소비재 둔화가 산업 마진 압박.", "lesson": "China-internal demand drives manufacturer revenue.", "lessonKo": "중국 내수 수요가 제조업 매출 좌우." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 2.1 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Fujian's coast made traders. The factories made wealth.", "textKo": "푸젠 연안은 무역상을 만들었다. 공장이 부를 만들었다.", "context": "On Fujian manufacturing", "contextKo": "푸젠 제조에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Yu day pillar in Mi month — 'pyeonjae-gyeok', large external wealth, fitting export-manufacturing entrepreneur.", "summaryKo": "을유 일주 + 미월 편재격(크고 유동적인 외부 자본)은 푸젠 제조업의 글로벌 수출 매출과 호응합니다. 미토 월지의 토 기운이 제조 인프라 누적을 가리키고, 편재격의 외부 자본 흐름이 30년 누적 수출 매출과 통합니다." }
+}

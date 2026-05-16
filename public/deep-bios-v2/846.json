@@ -1,0 +1,39 @@
+{
+  "id": "846", "name": "Eren Ozmen", "nameKo": "에렌 외즈멘",
+  "netWorth": 4.9, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Diyarbakir, Turkey", "birthPlaceKo": "터키 디야르바키르",
+    "familyBackground": "Born to Turkish family.", "familyBackgroundKo": "터키 가정에서 출생.",
+    "education": "Bogazici University; Reno MBA in US.", "educationKo": "보스포루스 대학교; 미국 리노 MBA.",
+    "earlyLife": "Migrated to US in 1980s; with husband Fatih Ozmen acquired Sierra Nevada Corporation (SNC) in 1994; built into major defense and aerospace contractor.",
+    "earlyLifeKo": "1980년대 미국 이주; 남편 파티 외즈멘과 1994년 Sierra Nevada Corporation(SNC) 인수; 주요 방산·항공우주 계약자로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Sierra_Nevada_Corporation"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Sierra Nevada Corporation 31년 자수성가." },
+  "careerTimeline": [
+    { "year": 1981, "age": 23, "event": "Migrated to US for MBA at University of Nevada Reno.", "eventKo": "네바다 리노 대학교 MBA 위해 미국 이주.", "whyItMatteredKo": "미국 경력 출발선." },
+    { "year": 1994, "age": 36, "event": "Acquired Sierra Nevada Corporation with husband for $5M; began defense contracting.", "eventKo": "남편과 Sierra Nevada Corporation 500만 달러 인수; 방산 계약 시작.", "whyItMatteredKo": "31년 자수성가 출발선." },
+    { "year": 2010, "age": 52, "event": "SNC became major NASA commercial-crew contractor; won Dream Chaser spaceplane contracts.", "eventKo": "SNC가 주요 NASA 상업 승무원 계약자가 됨; Dream Chaser 우주비행기 계약 수주.", "whyItMatteredKo": "항공우주 단계." },
+    { "year": 2024, "age": 66, "event": "SNC IPO'd portions; revenue exceeded $4B in defense/space.", "eventKo": "SNC가 부분 IPO; 방산·우주 매출 40억 달러 초과.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 67, "event": "Personal net worth at $4.9B per Forbes Real-Time. Continues as SNC chair.", "eventKo": "포브스 실시간 기준 개인 순자산 49억 달러. SNC 의장 계속.", "whyItMatteredKo": "31년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 36, "decisionKo": "남편과 500만 달러에 SNC 인수", "alternativeKo": "기존 기업 경력", "outcomeKo": "31년 후 미국 방산·항공우주 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Sierra Nevada Corporation(가족 통제) 지분", "industryKo": "방산·항공우주", "businessModelKo": "미군·NASA 계약 + Dream Chaser 우주비행기 + 첩보 시스템", "moatKo": "31년 방산 인증 + 미군·NASA 인맥 + 부부 공동 경영", "luckVsSkillKo": "운(30%): 2000-2020 미국 방산 부상. 실력(70%): 31년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Chair and co-owner of Sierra Nevada Corporation with husband Fatih Ozmen; major Turkish-American defense entrepreneur.",
+    "knownForKo": "남편 파티 외즈멘과 Sierra Nevada Corporation 의장·공동 소유주; 주요 터키계 미국 방산 기업가.",
+    "philanthropy": "Supports Turkish-American education and women in STEM.", "philanthropyKo": "터키·미국 교육·STEM 여성 지원.",
+    "controversies": "Standard defense-contractor regulatory scrutiny; Dream Chaser program delays.",
+    "controversiesKo": "표준 방산 계약자 규제 감시; Dream Chaser 프로그램 지연."
+  },
+  "characterKo": { "summaryKo": "터키 출생 미국 방산 거물 — 부부 공동 자수성가.", "tagsKo": ["Sierra Nevada Corp", "Dream Chaser", "터키계 미국"] },
+  "failures": [
+    { "year": 2014, "description": "Dream Chaser lost NASA Commercial Crew Program to SpaceX and Boeing; SNC contract delays.", "descriptionKo": "Dream Chaser가 NASA 상업 승무원 프로그램을 SpaceX·보잉에 상실; SNC 계약 지연.", "lesson": "Aerospace contracts face winner-take-most allocation.", "lessonKo": "항공우주 계약은 승자 독식 배분 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted SNC defense-program timelines.", "descriptionKo": "COVID-19이 SNC 방산 프로그램 일정 혼란.", "lesson": "Defense programs face supply-chain pandemic exposure.", "lessonKo": "방산 프로그램은 공급망 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.4 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.7 }, { "year": 2025, "netWorth": 4.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Defense contracts demand patience that other industries do not.", "textKo": "방산 계약은 다른 산업이 요구하지 않는 인내를 요구한다.", "context": "On defense business", "contextKo": "방산 사업에 대해", "source": "https://www.sncorp.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Mi day pillar in Shin month — 'jeongin-gyeok', maternal-academic foundation, fitting MBA-trained defense executive.", "summaryKo": "계미 일주 + 신월 정인격(공식 자격·학문 자본)은 MBA 학위 + 31년 방산 계약자라는 정부 인증·자격 기반 산업과 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 방산 계약의 정밀 입찰과 통하고, 미토 일지·신금 월지의 토·금 기운이 인프라 자본의 안정 기반과 정밀함을 가리킵니다." }
+}

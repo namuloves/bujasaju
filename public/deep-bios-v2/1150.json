@@ -1,0 +1,39 @@
+{
+  "id": "1150", "name": "Ricardo Salinas Pliego", "nameKo": "리카르도 베냐민 살리나스 플리에고",
+  "netWorth": 3.6, "nationality": "MX", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Mexico City, Mexico", "birthPlaceKo": "멕시코 멕시코시티",
+    "familyBackground": "Born to Salinas family — owners of Salinas y Rocha furniture retail. Inherited Elektra retail business.", "familyBackgroundKo": "Salinas y Rocha 가구 소매 소유 Salinas 가족에서 출생. Elektra 소매 사업 상속.",
+    "education": "ITESM Monterrey (industrial engineering); Tulane MBA.", "educationKo": "ITESM 몬테레이(산업공학); 툴레인 MBA.",
+    "earlyLife": "Took over family Elektra retail business; built it into pan-Latin American consumer-finance and retail empire including Banco Azteca.",
+    "earlyLifeKo": "가족 Elektra 소매 사업 인수; Banco Azteca 포함 범 라틴 아메리카 소비자 금융·소매 제국으로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Ricardo_Salinas_Pliego"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "가족 Elektra 자본 + 본인 Banco Azteca·TV Azteca 확장." },
+  "careerTimeline": [
+    { "year": 1981, "age": 26, "event": "Joined family Elektra retail business in Mexico.", "eventKo": "멕시코 가족 Elektra 소매 사업 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1993, "age": 38, "event": "Acquired Imevision government TV stations — founded TV Azteca as second-largest Mexican TV network.", "eventKo": "Imevision 정부 TV 방송국 인수 — 멕시코 2위 TV 네트워크 TV Azteca 창립.", "whyItMatteredKo": "미디어 자본 단계." },
+    { "year": 2002, "age": 47, "event": "Founded Banco Azteca — consumer bank for low-income Latin Americans.", "eventKo": "Banco Azteca 창립 — 저소득 라틴 아메리카인용 소비자 은행.", "whyItMatteredKo": "금융 포용 단계." },
+    { "year": 2017, "age": 62, "event": "Major Bitcoin advocate; began converting Banco Azteca to crypto-friendly bank.", "eventKo": "주요 비트코인 옹호자; Banco Azteca를 암호화폐 친화 은행으로 전환 시작.", "whyItMatteredKo": "암호화폐 자본가 정체성." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $3.6B per Forbes Real-Time. Grupo Salinas continues as major Mexican conglomerate.", "eventKo": "포브스 실시간 기준 개인 순자산 36억 달러. Grupo Salinas가 주요 멕시코 대기업으로 계속.", "whyItMatteredKo": "다각화 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1993, "age": 38, "decisionKo": "가족 소매에서 미디어·금융 다각화", "alternativeKo": "Elektra 단일 사업 잔류", "outcomeKo": "멕시코 다부문 대기업 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Grupo Salinas — Elektra 소매 + Banco Azteca 은행 + TV Azteca 미디어", "industryKo": "소매·은행·미디어 다각화", "businessModelKo": "저소득 라틴 아메리카인 대상 소매·소비자 금융·TV 통합", "moatKo": "30+년 멕시코 저소득 고객 데이터 + 다부문 통합", "luckVsSkillKo": "운(40%): 멕시코 신흥 경제. 실력(60%): 30+년 다각화 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Grupo Salinas; major Mexican conglomerate including Elektra, Banco Azteca, TV Azteca; outspoken Bitcoin advocate.",
+    "knownForKo": "Grupo Salinas 창립자; Elektra·Banco Azteca·TV Azteca 포함 주요 멕시코 대기업; 노골적 비트코인 옹호자.",
+    "philanthropy": "Fundacion Azteca supports Mexican education, health.", "philanthropyKo": "Fundacion Azteca가 멕시코 교육·건강 지원.",
+    "controversies": "Multiple Mexican tax disputes; SAT (Mexico's IRS) claims billions in unpaid taxes; 1996 SEC fraud charges (settled).",
+    "controversiesKo": "다수 멕시코 세금 분쟁; SAT(멕시코 국세청)가 수십억 달러 미납 세금 청구; 1996 SEC 사기 혐의(합의)."
+  },
+  "characterKo": { "summaryKo": "Elektra 가족 자본을 멕시코 다부문 대기업으로 — 비트코인 옹호자.", "tagsKo": ["Grupo Salinas", "TV Azteca", "Banco Azteca", "비트코인 옹호자"] },
+  "failures": [
+    { "year": 1996, "description": "SEC fraud charges over undisclosed transactions involving TV Azteca; eventually settled with $7.5M fine.", "descriptionKo": "TV Azteca 관련 미공시 거래 SEC 사기 혐의; 결국 750만 달러 벌금으로 합의.", "lesson": "Cross-listed Mexican firms face US regulatory scrutiny.", "lessonKo": "교차 상장 멕시코 회사는 미국 규제 감시 직면." },
+    { "year": 2023, "description": "Mexican SAT initiated multi-billion-dollar tax-claim disputes; ongoing legal battles.", "descriptionKo": "멕시코 SAT가 수십억 달러 세금 청구 분쟁 시작; 진행 중 법적 다툼.", "lesson": "Concentration in single country creates state-vs-business exposure.", "lessonKo": "단일 국가 집중은 국가 대 사업 노출 야기." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 6.2 }, { "year": 2020, "netWorth": 12.9 }, { "year": 2024, "netWorth": 4.4 }, { "year": 2025, "netWorth": 3.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Banking the poor is more profitable than banking the rich.", "textKo": "가난한 사람을 위한 은행이 부자를 위한 은행보다 수익성이 높다.", "context": "On Banco Azteca", "contextKo": "Banco Azteca에 대해", "source": "https://www.gruposalinas.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Chuk day pillar in Sul month — 'jeongjae-gyeok', steady accumulation, fitting low-income consumer-finance empire.", "summaryKo": "계축 일주 + 술월 정재격(고정 자산·꾸준한 매출)은 저소득 라틴 아메리카 소비자 대출·소매라는 작은 단위의 거대 누적 사업과 호응합니다. 계수 일간의 작은 물·세밀한 데이터 분석 기질이 소비자 신용 데이터 사업과 통하고, 정재격이 30+년 누적된 저소득 고객 베이스라는 안정 자본과 통합니다." }
+}

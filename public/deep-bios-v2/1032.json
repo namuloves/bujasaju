@@ -1,0 +1,40 @@
+{
+  "id": "1032", "name": "Falguni Nayar", "nameKo": "팔구니 산제이 나야르",
+  "netWorth": 4.0, "nationality": "IN", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Mumbai, India", "birthPlaceKo": "인도 뭄바이",
+    "familyBackground": "Born to Gujarati middle-class family in Mumbai.", "familyBackgroundKo": "뭄바이 구자라티 중산층 가정에서 출생.",
+    "education": "IIM Ahmedabad MBA.", "educationKo": "IIM 아메다바드 MBA.",
+    "earlyLife": "Joined Kotak Mahindra Capital; rose to managing director; left at age 50 to found Nykaa beauty-e-commerce in 2012.",
+    "earlyLifeKo": "Kotak Mahindra Capital 합류; 상무이사 부상; 50세에 떠나 2012년 Nykaa 뷰티 이커머스 창립.",
+    "source": "https://en.wikipedia.org/wiki/Falguni_Nayar"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Nykaa 13년 자수성가 + Kotak 은행 경력." },
+  "careerTimeline": [
+    { "year": 1985, "age": 22, "event": "Began career at A.F. Ferguson; joined Kotak Mahindra Capital in 1995.", "eventKo": "A.F. Ferguson에서 경력 시작; 1995년 Kotak Mahindra Capital 합류.", "whyItMatteredKo": "은행 경력 출발선." },
+    { "year": 2012, "age": 49, "event": "Left Kotak as managing director; founded Nykaa beauty e-commerce.", "eventKo": "Kotak 상무이사에서 떠나 Nykaa 뷰티 이커머스 창립.", "whyItMatteredKo": "Nykaa 출발선." },
+    { "year": 2020, "age": 57, "event": "Nykaa expanded to fashion + 100+ offline stores; COVID-19 boosted online beauty.", "eventKo": "Nykaa가 패션 + 100+개 오프라인 매장 확장; COVID-19이 온라인 뷰티 부스트.", "whyItMatteredKo": "옴니채널 단계." },
+    { "year": 2021, "age": 58, "event": "Nykaa IPO on BSE/NSE; first Indian female-founder unicorn IPO; Falguni became India's richest self-made woman.", "eventKo": "Nykaa BSE/NSE IPO; 첫 인도 여성 창립자 유니콘 IPO; 팔구니가 인도 최대 여성 자수성가 부자가 됨.", "whyItMatteredKo": "여성 자수성가 정점 단계." },
+    { "year": 2025, "age": 62, "event": "Personal net worth at $4.0B per Forbes Real-Time. Continues as Nykaa CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 40억 달러. Nykaa CEO 계속.", "whyItMatteredKo": "13년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 2012, "age": 49, "decisionKo": "50세에 은행 떠나 뷰티 이커머스 창업", "alternativeKo": "Kotak 시니어 잔류", "outcomeKo": "13년 후 인도 최대 여성 자수성가 부자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Nykaa(FSN E-Commerce Ventures, BSE/NSE 상장) 창립자 지분", "industryKo": "이커머스(뷰티·패션)", "businessModelKo": "인도 뷰티·패션 온라인 + 옴니채널 + PB 상품", "moatKo": "인도 1위 뷰티 이커머스 브랜드 + 여성 창립자 인지도", "luckVsSkillKo": "운(35%): 2012-2021 인도 이커머스 부상. 실력(65%): 50세 창업의 결단력 + 13년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of Nykaa; India's most prominent female self-made tech entrepreneur.",
+    "knownForKo": "Nykaa 창립자·CEO; 인도 최고 여성 자수성가 기술 기업가.",
+    "philanthropy": "Nayar Foundation supports women's education and Indian arts.",
+    "philanthropyKo": "Nayar Foundation이 여성 교육·인도 예술 지원.",
+    "controversies": "2022 Nykaa bonus-share split decision drew minority shareholder criticism.",
+    "controversiesKo": "2022 Nykaa 보너스 주식 분할 결정이 소액 주주 비판 야기."
+  },
+  "characterKo": { "summaryKo": "Kotak 은행 임원이 50세에 떠나 인도 최대 뷰티 이커머스 창립.", "tagsKo": ["Nykaa", "인도 여성 자수성가", "50세 창업", "Kotak 출신"] },
+  "failures": [
+    { "year": 2022, "description": "Nykaa stock fell 60%+ post-IPO after lock-up expiration and growth-rate concerns.", "descriptionKo": "Nykaa 주가가 락업 만료·성장률 우려 후 IPO 후 60%+ 하락.", "lesson": "Indian tech IPO valuations face post-IPO compression.", "lessonKo": "인도 기술 IPO 밸류에이션은 IPO 후 압축 직면." },
+    { "year": 2022, "description": "Bonus-share split timing drew accusations of insider opportunism.", "descriptionKo": "보너스 주식 분할 타이밍이 내부자 기회주의 의혹 야기.", "lesson": "Founder-controlled IPOs face minority-shareholder governance scrutiny.", "lessonKo": "창립자 통제 IPO는 소액 주주 거버넌스 감시 직면." }
+  ],
+  "wealthHistory": [{ "year": 2021, "netWorth": 7.3 }, { "year": 2022, "netWorth": 3.0 }, { "year": 2024, "netWorth": 3.8 }, { "year": 2025, "netWorth": 4.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I left banking at 50 because beauty was unconquered.", "textKo": "뷰티가 미정복이었기에 50세에 은행을 떠났다.", "context": "On founding Nykaa", "contextKo": "Nykaa 창업에 대해", "source": "https://www.nykaa.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in In month — 'sanggwan-gyeok', creative output, fitting beauty-e-commerce founder.", "summaryKo": "계사 일주 + 인월 상관격(창의적 결과물·표현)은 50세 늦은 창업으로 인도 뷰티라는 비전형적 카테고리를 개척한 그녀의 창의적 자수성가와 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 은행가 + 뷰티 큐레이터의 정밀 사고와 통하고, 사화 일지의 화 기운이 50세 창업의 열정을 가리키며, 인목 월지가 회사 성장 욕구를 강조합니다." }
+}

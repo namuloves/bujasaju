@@ -1,0 +1,37 @@
+{
+  "id": "643", "name": "Thomas Kaeser", "nameKo": "토마스 카이저",
+  "netWorth": 6.2, "nationality": "DE", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Kaeser family — owners of Kaeser Kompressoren (German industrial air-compressor manufacturer, founded 1919).", "familyBackgroundKo": "Kaeser Kompressoren(1919 창립 독일 산업 공기 압축기 제조사) 소유 Kaeser 가족에서 출생.",
+    "education": "German higher education.", "educationKo": "독일 고등교육.",
+    "earlyLife": "Joined family Kaeser Kompressoren operations; took over leadership; built it into global industrial compressor manufacturer.",
+    "earlyLifeKo": "가족 Kaeser Kompressoren 운영 합류; 리더십 인수; 글로벌 산업 압축기 제조사로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Kaeser_Kompressoren"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Kaeser Kompressoren 106+년 가족 자본." },
+  "careerTimeline": [
+    { "year": 1980, "age": 27, "event": "Joined family Kaeser Kompressoren operations.", "eventKo": "가족 Kaeser Kompressoren 운영 합류.", "whyItMatteredKo": "45년 가족 운영 출발선." },
+    { "year": 1995, "age": 42, "event": "Kaeser expanded into Eastern Europe and Asia.", "eventKo": "Kaeser가 동유럽·아시아 확장.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2015, "age": 62, "event": "Kaeser became one of world's top 3 industrial-compressor manufacturers.", "eventKo": "Kaeser가 세계 톱3 산업 압축기 제조사가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 71, "event": "Personal net worth at $6.2B per Forbes Real-Time. Continues as Kaeser Kompressoren CEO/owner.", "eventKo": "포브스 실시간 기준 개인 순자산 62억 달러. Kaeser Kompressoren CEO·소유주 계속.", "whyItMatteredKo": "106+년 가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1980, "age": 27, "decisionKo": "가족 회사 합류·운영 인수", "alternativeKo": "독립 경로", "outcomeKo": "45년 후 세계 톱3 산업 압축기 가족 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Kaeser Kompressoren(100% 가족 소유)", "industryKo": "산업 공기 압축기 제조", "businessModelKo": "공기 압축기 + 서비스 계약 + 글로벌 산업 고객", "moatKo": "106+년 가족 자본 + 글로벌 서비스 네트워크", "luckVsSkillKo": "운(70%): 가족 자본 + 독일 제조업 부상. 실력(30%): 45년 거버넌스 일관성." },
+  "personalTraits": {
+    "knownFor": "CEO and owner of Kaeser Kompressoren; major German industrial-manufacturing family business.",
+    "knownForKo": "Kaeser Kompressoren CEO·소유주; 주요 독일 산업 제조 가족 사업.",
+    "philanthropy": "Kaeser family supports German engineering education.", "philanthropyKo": "Kaeser 가족이 독일 엔지니어링 교육 지원.",
+    "controversies": "Standard industrial-manufacturer environmental and labor scrutiny.", "controversiesKo": "표준 산업 제조사 환경·노동 감시."
+  },
+  "characterKo": { "summaryKo": "Kaeser Kompressoren 106+년 가족 자본의 가부장.", "tagsKo": ["Kaeser Kompressoren", "독일 산업 가족", "공기 압축기"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed industrial-equipment orders; Kaeser absorbed cyclical pressure.", "descriptionKo": "글로벌 금융위기로 산업 장비 주문 압축; Kaeser가 사이클 압박 흡수.", "lesson": "Capital-equipment cyclical with manufacturing-industry capex.", "lessonKo": "자본 장비는 제조업 설비 투자 사이클과 동조." },
+    { "year": 2022, "description": "European energy crisis compressed Kaeser's German energy costs and customer demand.", "descriptionKo": "유럽 에너지 위기로 Kaeser 독일 에너지 비용·고객 수요 압축.", "lesson": "Energy-intensive manufacturer faces macro-cost shock.", "lessonKo": "에너지 집약 제조사는 거시 비용 충격 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.0 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 6.0 }, { "year": 2025, "netWorth": 6.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Compressors are invisible. Industry depends on them.", "textKo": "압축기는 보이지 않는다. 산업이 그것에 의존한다.", "context": "On industrial business", "contextKo": "산업 사업에 대해", "source": "https://www.kaeser.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Yu day pillar in Shin month — 'jeongjae-gyeok', steady accumulation, fitting family-industrial heir.", "summaryKo": "정유 일주 + 신월 정재격(고정 자산·꾸준한 매출)은 산업 압축기 + 서비스 계약이라는 반복 매출 모델과 호응합니다. 정화 일간의 따뜻한 불 기질이 가족 회사 가부장 역할과 통하고, 일지·월지 모두 금 기운으로 산업 금속 제조 산업과 통합니다." }
+}

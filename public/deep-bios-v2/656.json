@@ -1,0 +1,39 @@
+{
+  "id": "656", "name": "Mark Cuban", "nameKo": "마크 큐번",
+  "netWorth": 6.0, "nationality": "US", "industry": "Media & Entertainment",
+  "childhood": {
+    "birthPlace": "Pittsburgh, Pennsylvania, USA", "birthPlaceKo": "미국 펜실베이니아주 피츠버그",
+    "familyBackground": "Born to Jewish family in Pittsburgh; father an upholsterer.", "familyBackgroundKo": "피츠버그 유대인 가정에서 출생; 아버지는 가구 천갈이공.",
+    "education": "Indiana University (business).", "educationKo": "인디애나 대학교(경영학).",
+    "earlyLife": "Sold trash bags door-to-door as a kid; founded MicroSolutions software-reseller (sold for $6M in 1990); co-founded Broadcast.com (sold to Yahoo for $5.7B in 1999).",
+    "earlyLifeKo": "어린 시절 쓰레기봉투를 집집마다 판매; MicroSolutions 소프트웨어 재판매사 창립(1990년 600만 달러 매각); Broadcast.com 공동 창립(1999년 Yahoo에 57억 달러 매각).",
+    "source": "https://en.wikipedia.org/wiki/Mark_Cuban"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Broadcast.com 매각 + Dallas Mavericks + 다각화 투자." },
+  "careerTimeline": [
+    { "year": 1983, "age": 25, "event": "Founded MicroSolutions software reseller in Dallas.", "eventKo": "댈러스에서 MicroSolutions 소프트웨어 재판매사 창립.", "whyItMatteredKo": "첫 사업 출발선." },
+    { "year": 1995, "age": 37, "event": "Co-founded AudioNet (later Broadcast.com) — first major streaming-audio site.", "eventKo": "AudioNet(이후 Broadcast.com) 공동 창립 — 첫 주요 스트리밍 오디오 사이트.", "whyItMatteredKo": "Broadcast 출발선." },
+    { "year": 1999, "age": 41, "event": "Sold Broadcast.com to Yahoo for $5.7B in stock; cashed out near top.", "eventKo": "Broadcast.com을 Yahoo에 주식 57억 달러 매각; 정점 근처에서 현금화.", "whyItMatteredKo": "정점 엑시트." },
+    { "year": 2000, "age": 42, "event": "Acquired Dallas Mavericks NBA team for $285M; led team to 2011 NBA championship.", "eventKo": "Dallas Mavericks NBA 팀 2억 8,500만 달러 인수; 2011 NBA 챔피언으로 이끔.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 2025, "age": 66, "event": "Personal net worth at $6.0B per Forbes Real-Time. Sold majority of Dallas Mavericks in 2023; major Shark Tank investor.", "eventKo": "포브스 실시간 기준 개인 순자산 60억 달러. 2023 Dallas Mavericks 다수 매각; 주요 Shark Tank 투자자.", "whyItMatteredKo": "다각화 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 41, "decisionKo": "Broadcast.com을 Yahoo 주식 57억 달러에 매각 + Yahoo 주식 헷지", "alternativeKo": "운영 잔류", "outcomeKo": "정점 매각 + Yahoo 주식 헷지로 평생 부 보존" }],
+  "moneyMechanics": { "primaryRevenueKo": "Broadcast.com 매각 + Dallas Mavericks 매각 + 다각화 벤처 + Shark Tank 미디어", "industryKo": "기술 매각 + 스포츠 + 미디어 + 벤처 투자", "businessModelKo": "Yahoo 매각 대금 + NBA 팀 + 벤처 + Cost Plus Drugs 약국", "moatKo": "정점 엑시트 노하우 + Shark Tank 브랜드", "luckVsSkillKo": "운(40%): 1999 Yahoo IPO 정점. 실력(60%): 매각 + 다각화 + 미디어 브랜딩 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Broadcast.com; former Dallas Mavericks owner; Shark Tank investor; outspoken political commentator.",
+    "knownForKo": "Broadcast.com 공동 창립자; 전 Dallas Mavericks 소유주; Shark Tank 투자자; 노골적 정치 평론가.",
+    "philanthropy": "Mark Cuban Foundation supports veterans, youth, AI ethics; Cost Plus Drugs cuts pharmacy prices.", "philanthropyKo": "Mark Cuban 재단이 군 참전 용사·청소년·AI 윤리 지원; Cost Plus Drugs가 약국 가격 인하.",
+    "controversies": "Multiple NBA fines for criticizing officials; 2008 SEC insider-trading case (eventually cleared); ongoing political commentary controversies.",
+    "controversiesKo": "심판 비판으로 다수 NBA 벌금; 2008 SEC 내부자 거래 사건(결국 무혐의); 진행 중 정치 평론 논란."
+  },
+  "characterKo": { "summaryKo": "Broadcast.com 닷컴 정점 매각 + Mavericks + Shark Tank — 미디어 자본가.", "tagsKo": ["Broadcast.com", "Dallas Mavericks", "Shark Tank", "Cost Plus Drugs"] },
+  "failures": [
+    { "year": 2008, "description": "SEC accused Cuban of insider trading in Mamma.com stock; eventually cleared in 2013 trial.", "descriptionKo": "SEC가 큐번을 Mamma.com 주식 내부자 거래로 고발; 2013 재판에서 결국 무혐의.", "lesson": "Public investors face regulatory scrutiny even when ultimately cleared.", "lessonKo": "공개 투자자는 결국 무혐의여도 규제 감시 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Dallas Mavericks games and NBA revenue; Cuban absorbed cyclical losses.", "descriptionKo": "COVID-19이 Dallas Mavericks 경기·NBA 매출 혼란; 큐번이 사이클 손실 흡수.", "lesson": "Sports-team revenue exposed to attendance shocks.", "lessonKo": "스포츠 팀 매출은 관중 충격 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.0 }, { "year": 2020, "netWorth": 4.2 }, { "year": 2024, "netWorth": 5.7 }, { "year": 2025, "netWorth": 6.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Sell your business when stock is hot, not when you need money.", "textKo": "돈이 필요할 때가 아니라 주식이 뜨거울 때 사업을 팔아라.", "context": "On Broadcast.com sale", "contextKo": "Broadcast.com 매각에 대해", "source": "https://www.markcuban.com" }],
+  "books": { "authored": [{ "title": "How to Win at the Sport of Business", "year": 2011, "noteKo": "기업가 정신 회고록." }], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Yu day pillar in Mi month — 'geollok-gyeok' or 'jeonggwan' with strong self-energy, fitting outspoken entrepreneur.", "summaryKo": "기유 일주 + 미월 건록격(강한 자기 자본 + 자신감)은 큐번의 노골적 발언·자기 브랜딩과 호응합니다. 기토 일간의 농경 기질이 닷컴·NBA·약국이라는 다각화 자본 누적과 통하고, 유금 일지의 금 기운이 정점 매각 결단의 예리함을 가리키며, 미토 월지가 자기 자본의 안정 기반을 강조합니다." }
+}

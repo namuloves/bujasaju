@@ -1,0 +1,37 @@
+{
+  "id": "1007", "name": "Danielle Bellon", "nameKo": "다니엘 벨롱",
+  "netWorth": 4.1, "nationality": "FR", "industry": "Service",
+  "childhood": {
+    "birthPlace": "France", "birthPlaceKo": "프랑스",
+    "familyBackground": "Born to French Bellon family — founders of Sodexo (French food services and facilities management).", "familyBackgroundKo": "Sodexo(프랑스 식음 서비스·시설 관리) 창립자 프랑스 Bellon 가족에서 출생.",
+    "education": "French higher education.", "educationKo": "프랑스 고등교육.",
+    "earlyLife": "Inherited substantial Bellon SA family stake (controlling Sodexo); remains family stakeholder.",
+    "earlyLifeKo": "Bellon SA(Sodexo 통제) 가족 지분 상당히 상속; 가족 주주 잔류.",
+    "source": "https://en.wikipedia.org/wiki/Sodexo"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Bellon SA 가족 자본 — Sodexo 60년 자본 상속." },
+  "careerTimeline": [
+    { "year": 1980, "age": 40, "event": "Began Bellon family governance involvement.", "eventKo": "Bellon 가족 거버넌스 관여 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1998, "age": 58, "event": "Sodexho IPO consolidated global food-services position; family wealth crystallized.", "eventKo": "Sodexo IPO가 글로벌 식음 서비스 위치 굳힘; 가족 부 결정화.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2020, "age": 80, "event": "Sodexo continued as global food-services major; family Bellon SA stake substantial.", "eventKo": "Sodexo가 글로벌 식음 서비스 메이저로 계속; 가족 Bellon SA 지분 상당.", "whyItMatteredKo": "다세대 가족 자본 유지." },
+    { "year": 2025, "age": 85, "event": "Personal net worth at $4.1B per Forbes Real-Time. Continues as Bellon family stakeholder.", "eventKo": "포브스 실시간 기준 개인 순자산 41억 달러. Bellon 가족 주주 계속.", "whyItMatteredKo": "60년 가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1980, "age": 40, "decisionKo": "가족 거버넌스 진입", "alternativeKo": "독립 경로", "outcomeKo": "다세대 가족 자본의 안정적 주주" }],
+  "moneyMechanics": { "primaryRevenueKo": "Bellon SA(Sodexo 통제 회사) 가족 지분", "industryKo": "식음 서비스·시설 관리", "businessModelKo": "글로벌 식음 서비스 + 직원 혜택 + 시설 관리", "moatKo": "60년 가족 자본 + 글로벌 식음 서비스 인프라", "luckVsSkillKo": "운(85%): 가족 자본. 실력(15%): 가족 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Bellon family member; major shareholder of Sodexo through Bellon SA.",
+    "knownForKo": "Bellon 가족 구성원; Bellon SA를 통한 Sodexo 주요 주주.",
+    "philanthropy": "Limited public disclosure; Stop Hunger global initiative.", "philanthropyKo": "공개 공시 제한적; Stop Hunger 글로벌 사업.",
+    "controversies": "Sodexo faced sustained labor and prison-services contract criticism.", "controversiesKo": "Sodexo가 노동·교도소 서비스 계약 지속적 비판 직면."
+  },
+  "characterKo": { "summaryKo": "Sodexo 60년 가족 자본의 다세대 상속자.", "tagsKo": ["Sodexo", "Bellon 가족", "식음 서비스"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 closed Sodexo's catering operations globally; revenue plunged temporarily.", "descriptionKo": "COVID-19이 Sodexo 케이터링 운영을 글로벌 폐쇄; 매출 일시 급락.", "lesson": "Hospitality-services exposed to pandemic shocks.", "lessonKo": "환대 서비스는 팬데믹 충격 노출." },
+    { "year": 2015, "description": "Sodexo prison-services contracts drew sustained European political and human-rights criticism.", "descriptionKo": "Sodexo 교도소 서비스 계약이 지속적 유럽 정치·인권 비판 야기.", "lesson": "Government-services contracts carry political reputational risk.", "lessonKo": "정부 서비스 계약은 정치 평판 리스크 동반." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.0 }, { "year": 2020, "netWorth": 3.2 }, { "year": 2024, "netWorth": 3.9 }, { "year": 2025, "netWorth": 4.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family ownership thinks in three generations.", "textKo": "가족 소유는 3세대로 생각한다.", "context": "On family stewardship", "contextKo": "가족 청지기에 대해", "source": "https://www.sodexo.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Sa day pillar in In month — 'jeongin-gyeok', maternal-family support, fitting inherited heir.", "summaryKo": "신사 일주 + 인월 정인격(가족·문서·자격 권위)은 다세대 Sodexo 가족 자본의 청지기 정체성과 호응합니다. 신금 일간의 예리한 금속 기질이 가족 자본의 정밀 거버넌스와 통하고, 사화 일지의 화 기운이 식음 서비스라는 사람을 먹이는 산업과 통하며, 인목 월지가 가족 자본의 성장을 가리킵니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "664", "name": "John Reece", "nameKo": "존 리스",
+  "netWorth": 6.0, "nationality": "GB", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "United Kingdom", "birthPlaceKo": "영국",
+    "familyBackground": "Born to British middle-class family.", "familyBackgroundKo": "영국 중산층 가정에서 출생.",
+    "education": "British higher education.", "educationKo": "영국 고등교육.",
+    "earlyLife": "Joined Ineos Group early; rose to senior leadership alongside founder Jim Ratcliffe; built Ineos into global petrochemical major.",
+    "earlyLifeKo": "Ineos Group 일찍 합류; 창립자 짐 래트클리프와 함께 시니어 리더십 부상; Ineos를 글로벌 석유화학 메이저로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Ineos"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Ineos Group 시니어 파트너 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 28, "event": "Began industrial-chemicals career in UK.", "eventKo": "영국 산업 화학 경력 시작.", "whyItMatteredKo": "산업 경력 출발선." },
+    { "year": 1998, "age": 41, "event": "Joined Jim Ratcliffe at Ineos Group founding; became senior executive.", "eventKo": "Ineos Group 창립에 짐 래트클리프 합류; 시니어 임원 취임.", "whyItMatteredKo": "Ineos 출발선." },
+    { "year": 2008, "age": 51, "event": "Ineos absorbed major refinery and petrochemical assets through aggressive LBO strategy.", "eventKo": "Ineos가 공격적 LBO 전략으로 주요 정유·석유화학 자산 흡수.", "whyItMatteredKo": "글로벌 메이저 단계." },
+    { "year": 2020, "age": 63, "event": "Ineos diversified into automotive (Grenadier) and sports (rugby, cycling); Reece major partner.", "eventKo": "Ineos가 자동차(Grenadier)·스포츠(럭비·사이클링) 다각화; 리스가 주요 파트너.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 68, "event": "Personal net worth at $6.0B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 60억 달러.", "whyItMatteredKo": "Ineos 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1998, "age": 41, "decisionKo": "Ineos Group 시니어 파트너 합류", "alternativeKo": "대기업 잔류", "outcomeKo": "27년 후 글로벌 석유화학 메이저 파트너" }],
+  "moneyMechanics": { "primaryRevenueKo": "Ineos Group 시니어 파트너 지분", "industryKo": "석유화학·정유 + 자동차·스포츠", "businessModelKo": "LBO·인수 통합 + 운영 효율 + 다각화", "moatKo": "27년 Ineos 시니어 파트너 + 래트클리프 파트너십", "luckVsSkillKo": "운(35%): 2000-2010 LBO 시대. 실력(65%): 27년 시니어 운영." },
+  "personalTraits": {
+    "knownFor": "Ineos Group senior executive and major shareholder; long-time partner of Jim Ratcliffe.",
+    "knownForKo": "Ineos Group 시니어 임원·주요 주주; 짐 래트클리프의 장기 파트너.",
+    "philanthropy": "Reece supports UK chemical-engineering education and Manchester United football.", "philanthropyKo": "리스가 영국 화학공학 교육·맨체스터 유나이티드 축구 지원.",
+    "controversies": "Ineos faced sustained environmental scrutiny over fracking and refinery operations.", "controversiesKo": "Ineos가 프래킹·정유 운영에 대한 지속적 환경 감시 직면."
+  },
+  "characterKo": { "summaryKo": "Ineos Group 27년 시니어 파트너 + 래트클리프 동맹자.", "tagsKo": ["Ineos", "Ratcliffe 파트너", "영국 산업"] },
+  "failures": [
+    { "year": 2014, "description": "UK fracking ambitions blocked by 2014-2019 moratorium; Ineos lost UK shale investment value.", "descriptionKo": "영국 프래킹 야망이 2014-2019 중단으로 차단; Ineos가 영국 셰일 투자 가치 상실.", "lesson": "Energy investments exposed to political-policy reversal.", "lessonKo": "에너지 투자는 정치 정책 역전 노출." },
+    { "year": 2022, "description": "European energy crisis compressed Ineos petrochemical margins.", "descriptionKo": "유럽 에너지 위기로 Ineos 석유화학 마진 압축.", "lesson": "Energy-intensive industries face macro-cost shocks.", "lessonKo": "에너지 집약 산업은 거시 비용 충격 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 5.8 }, { "year": 2025, "netWorth": 6.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Chemistry is the invisible foundation of modern life.", "textKo": "화학은 현대 생활의 보이지 않는 토대다.", "context": "On petrochemicals", "contextKo": "석유화학에 대해", "source": "https://www.ineos.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-In day pillar in Myo month — 'jeongjae-gyeok', steady accumulation, fitting LBO-rollup industrial partner.", "summaryKo": "무인 일주 + 묘월 정재격(고정 자산·꾸준한 매출)은 27년에 걸쳐 LBO·롤업으로 거대 산업 자본을 누적한 그의 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 산업 회사 파트너 역할과 통하고, 인목 일지·묘목 월지의 강한 목 기운이 산업 자본의 누적 성장을 가리킵니다." }
+}

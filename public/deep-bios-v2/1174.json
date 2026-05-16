@@ -1,0 +1,39 @@
+{
+  "id": "1174", "name": "Frank Fertitta III", "nameKo": "프랭크 페르티타",
+  "netWorth": 3.5, "nationality": "US", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "Las Vegas, Nevada, USA", "birthPlaceKo": "미국 네바다주 라스베이거스",
+    "familyBackground": "Born to Frank Fertitta Jr. — founder of Station Casinos. Brother of Lorenzo Fertitta.", "familyBackgroundKo": "Station Casinos 창립자 프랭크 페르티타 주니어의 아들. 로렌초 페르티타의 형제.",
+    "education": "USC business school.", "educationKo": "USC 비즈니스 스쿨.",
+    "earlyLife": "Joined family Station Casinos operations; took over with brother Lorenzo; co-acquired UFC mixed-martial-arts league for $2M in 2001.",
+    "earlyLifeKo": "가족 Station Casinos 운영 합류; 형제 로렌초와 인수; 2001년 UFC MMA 리그를 200만 달러에 공동 인수.",
+    "source": "https://en.wikipedia.org/wiki/Frank_Fertitta_III"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "Station Casinos 가족 자본 + UFC 본인 투자." },
+  "careerTimeline": [
+    { "year": 1985, "age": 23, "event": "Joined family Station Casinos operations after USC.", "eventKo": "USC 후 가족 Station Casinos 운영 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2001, "age": 39, "event": "Co-acquired UFC mixed-martial-arts league for $2M with brother Lorenzo and Dana White.", "eventKo": "형제 로렌초·데이나 화이트와 UFC MMA 리그 200만 달러 공동 인수.", "whyItMatteredKo": "MMA 자본 출발선." },
+    { "year": 2007, "age": 45, "event": "Took Station Casinos private in $5.4B LBO; later filed Chapter 11.", "eventKo": "Station Casinos 54억 달러 LBO로 비공개화; 이후 챕터 11 신청.", "whyItMatteredKo": "LBO 단계." },
+    { "year": 2016, "age": 54, "event": "Sold UFC to WME-IMG for $4B+; one of sports' largest deals.", "eventKo": "UFC를 WME-IMG에 40억 달러+ 매각; 스포츠 최대 딜 중 하나.", "whyItMatteredKo": "UFC 엑시트 정점." },
+    { "year": 2025, "age": 63, "event": "Personal net worth at $3.5B per Forbes Real-Time. Continues as Station Casinos CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 35억 달러. Station Casinos CEO 계속.", "whyItMatteredKo": "카지노 + UFC 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2001, "age": 39, "decisionKo": "200만 달러에 UFC 인수", "alternativeKo": "카지노 집중", "outcomeKo": "15년 후 40억 달러 매각" }],
+  "moneyMechanics": { "primaryRevenueKo": "Station Casinos(Red Rock Resorts, NASDAQ 상장) 가족 지분 + UFC 매각 대금", "industryKo": "카지노·게이밍 + 스포츠 매각", "businessModelKo": "라스베이거스 카지노 + 다각화 + UFC 매각 후 재투자", "moatKo": "라스베이거스 가족 자본 + UFC 변환 노하우", "luckVsSkillKo": "운(50%): UFC 시대 + 매각 타이밍. 실력(50%): MMA 산업 변환." },
+  "personalTraits": {
+    "knownFor": "Chairman of Station Casinos; co-acquired UFC at $2M then sold for $4B; major Las Vegas casino magnate.",
+    "knownForKo": "Station Casinos 의장; 200만 달러에 UFC 공동 인수 후 40억 달러 매각; 주요 라스베이거스 카지노 거물.",
+    "philanthropy": "Fertitta family supports Las Vegas community and Catholic education.", "philanthropyKo": "Fertitta 가족이 라스베이거스 지역 사회·가톨릭 교육 지원.",
+    "controversies": "Station Casinos 2009 Chapter 11 bankruptcy and labor-union disputes; UFC fighter-pay criticism.",
+    "controversiesKo": "Station Casinos 2009 챕터 11 파산·노조 분쟁; UFC 선수 보수 비판."
+  },
+  "characterKo": { "summaryKo": "Station Casinos 가족 카지노 + UFC 400배 매각.", "tagsKo": ["Station Casinos", "UFC 인수·매각", "라스베이거스"] },
+  "failures": [
+    { "year": 2009, "description": "Station Casinos LBO failed; filed Chapter 11; Fertittas regained control via restructuring.", "descriptionKo": "Station Casinos LBO 실패; 챕터 11 신청; Fertitta가 재구조화로 통제 회복.", "lesson": "Highly leveraged LBOs face credit-cycle risk.", "lessonKo": "고 레버리지 LBO는 신용 사이클 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 closed Las Vegas casinos; Station Casinos revenue plunged.", "descriptionKo": "COVID-19이 라스베이거스 카지노 폐쇄; Station Casinos 매출 급락.", "lesson": "Casino-gaming faces pandemic-cycle exposure.", "lessonKo": "카지노·게이밍은 팬데믹 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.6 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.3 }, { "year": 2025, "netWorth": 3.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "UFC was a sport nobody wanted. So we paid two million dollars.", "textKo": "UFC는 아무도 원하지 않는 스포츠였다. 그래서 200만 달러를 냈다.", "context": "On UFC acquisition", "contextKo": "UFC 인수에 대해", "source": "https://www.stationcasinos.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in In month — 'sanggwan-gyeok', creative output, fitting MMA-industry pioneer.", "summaryKo": "계사 일주 + 인월 상관격(창의적 결과물·표현)은 무시받던 MMA 스포츠를 글로벌 메이저로 변환한 그의 창의적 자본 누적과 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 카지노 + 스포츠 산업의 데이터 사고와 통하고, 사화 일지의 화 기운이 격투기·라스베이거스라는 화 산업과 통합니다." }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "869", "name": "George H. Bishop", "nameKo": "조지 H. 비숍",
+  "netWorth": 4.7, "nationality": "US", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American middle-class family.", "familyBackgroundKo": "미국 중산층 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Built career in US oil and gas exploration; founded GeoSouthern Energy in 1981 — Texas-Louisiana shale-gas operator.",
+    "earlyLifeKo": "미국 석유·가스 탐사 경력 구축; 1981년 GeoSouthern Energy 창립 — 텍사스·루이지애나 셰일 가스 운영사.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "GeoSouthern Energy 44년 자수성가." },
+  "careerTimeline": [
+    { "year": 1981, "age": 44, "event": "Founded GeoSouthern Energy in Texas.", "eventKo": "텍사스에서 GeoSouthern Energy 창립.", "whyItMatteredKo": "44년 자수성가 출발선." },
+    { "year": 2010, "age": 73, "event": "GeoSouthern expanded into Eagle Ford shale acreage during US shale boom.", "eventKo": "미국 셰일 붐 동안 GeoSouthern이 Eagle Ford 셰일 면적 확장.", "whyItMatteredKo": "셰일 자본 단계." },
+    { "year": 2013, "age": 76, "event": "Sold Eagle Ford assets to Devon Energy for $6B — major shale exit.", "eventKo": "Eagle Ford 자산을 Devon Energy에 60억 달러 매각 — 주요 셰일 엑시트.", "whyItMatteredKo": "정점 엑시트 단계." },
+    { "year": 2025, "age": 87, "event": "Personal net worth at $4.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 47억 달러.", "whyItMatteredKo": "44년 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2013, "age": 76, "decisionKo": "Eagle Ford 셰일 자산 60억 달러 매각", "alternativeKo": "운영 계속", "outcomeKo": "엑시트 + 평생 부 결정화" }],
+  "moneyMechanics": { "primaryRevenueKo": "GeoSouthern Energy 매각 대금 + 잔여 운영", "industryKo": "석유·가스 탐사·셰일", "businessModelKo": "Eagle Ford·기타 셰일 탐사·생산 + 매각 후 잔여 자산", "moatKo": "44년 미국 석유 탐사 경력 + 셰일 1세대 자본", "luckVsSkillKo": "운(45%): 2010-2013 셰일 슈퍼사이클 + 매각 타이밍. 실력(55%): 44년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of GeoSouthern Energy; Texas shale-gas pioneer; major Eagle Ford operator before 2013 Devon sale.",
+    "knownForKo": "GeoSouthern Energy 창립자; 텍사스 셰일 가스 선구자; 2013 Devon 매각 전 주요 Eagle Ford 운영자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard fracking and shale-gas environmental debates.", "controversiesKo": "표준 프래킹·셰일 가스 환경 논쟁."
+  },
+  "characterKo": { "summaryKo": "텍사스 셰일 가스 1세대 + 60억 달러 정점 엑시트.", "tagsKo": ["GeoSouthern Energy", "Eagle Ford", "셰일 1세대"] },
+  "failures": [
+    { "year": 2015, "description": "Oil-gas price crash 2015 compressed remaining GeoSouthern operations.", "descriptionKo": "2015 유가·가스 가격 폭락이 잔여 GeoSouthern 운영 압축.", "lesson": "Shale operators face commodity-cycle risk.", "lessonKo": "셰일 운영자는 원자재 사이클 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 collapsed oil prices; shale revenue compressed.", "descriptionKo": "COVID-19이 유가 붕괴; 셰일 매출 압축.", "lesson": "Oil-and-gas exposed to global demand cycle.", "lessonKo": "석유·가스는 글로벌 수요 사이클 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.3 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Shale rewards the patient and breaks the impatient.", "textKo": "셰일은 인내심 있는 자에게 보상하고 조급한 자를 무너뜨린다.", "context": "On shale exploration", "contextKo": "셰일 탐사에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-In day pillar in Yu month — 'sanggwan-gyeok', creative-strong expression, fitting wildcatter founder.", "summaryKo": "병인 일주 + 유월 상관격(창의적 결과물·표현·권위 충돌)은 44년 텍사스 석유 탐사라는 위험·창의 산업과 호응합니다. 병화 일간의 큰 불·태양 기질이 시추 + 탐사 결단의 결단력과 통하고, 인목 일지의 목 기운이 44년 회사 성장을 가리키며, 상관격이 셰일이라는 비전형적 자본 누적 방식과 통합니다." }
+}

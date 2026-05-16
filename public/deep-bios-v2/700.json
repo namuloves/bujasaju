@@ -1,0 +1,39 @@
+{
+  "id": "700", "name": "Thomas Secunda", "nameKo": "토마스 세쿤다",
+  "netWorth": 5.7, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Binghamton University; NYU MBA.", "educationKo": "빙햄턴 대학교; NYU MBA.",
+    "earlyLife": "Worked at Salomon Brothers; co-founded Bloomberg L.P. with Michael Bloomberg, Charles Zegar, and Duncan MacMillan in 1981 — financial-data terminal pioneer.",
+    "earlyLifeKo": "Salomon Brothers 근무; 1981년 마이클 블룸버그·찰스 제가·던칸 맥밀란과 Bloomberg L.P. 공동 창립 — 금융 데이터 단말기 선구자.",
+    "source": "https://en.wikipedia.org/wiki/Bloomberg_L.P."
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Bloomberg L.P. 공동 창립자 지분 44년 자수성가." },
+  "careerTimeline": [
+    { "year": 1981, "age": 27, "event": "Co-founded Bloomberg L.P. as one of four original partners.", "eventKo": "Bloomberg L.P. 4명 원래 파트너 중 한 명으로 공동 창립.", "whyItMatteredKo": "44년 자수성가 출발선." },
+    { "year": 1990, "age": 36, "event": "Bloomberg Terminal became the dominant financial-data platform.", "eventKo": "Bloomberg Terminal이 지배적 금융 데이터 플랫폼이 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2001, "age": 47, "event": "Michael Bloomberg became NYC mayor; Secunda remained at Bloomberg L.P.", "eventKo": "마이클 블룸버그가 NYC 시장 취임; 세쿤다가 Bloomberg L.P. 잔류.", "whyItMatteredKo": "파트너 단계." },
+    { "year": 2015, "age": 61, "event": "Bloomberg Terminal exceeded 300,000 subscribers globally; Secunda's stake substantial.", "eventKo": "Bloomberg Terminal이 글로벌 300,000+ 구독자 초과; 세쿤다의 지분 상당.", "whyItMatteredKo": "글로벌 메이저 정점." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $5.7B per Forbes Real-Time. Continues as Bloomberg L.P. founding partner.", "eventKo": "포브스 실시간 기준 개인 순자산 57억 달러. Bloomberg L.P. 창립 파트너 계속.", "whyItMatteredKo": "44년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1981, "age": 27, "decisionKo": "Salomon Brothers 떠나 Bloomberg 공동 창립", "alternativeKo": "은행 경력 잔류", "outcomeKo": "44년 후 글로벌 금융 데이터 인프라 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Bloomberg L.P.(비공개) 공동 창립자 지분 (약 13%)", "industryKo": "금융 데이터·미디어", "businessModelKo": "Bloomberg Terminal 구독 + 미디어 + 거래 기술", "moatKo": "44년 글로벌 금융 데이터 사실상 표준", "luckVsSkillKo": "운(30%): 1981 Bloomberg 합류 타이밍. 실력(70%): 44년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Bloomberg L.P.; one of four original Bloomberg partners; longtime financial-technology executive.",
+    "knownForKo": "Bloomberg L.P. 공동 창립자; 4명 원래 Bloomberg 파트너 중 한 명; 장기 금융 기술 임원.",
+    "philanthropy": "Active in Westchester County, NY community and Jewish causes.",
+    "philanthropyKo": "뉴욕 웨스트체스터 카운티 지역 사회·유대인 사업에 활발.",
+    "controversies": "Limited; standard private-company financial-data scrutiny.", "controversiesKo": "제한적; 표준 비공개 회사 금융 데이터 감시."
+  },
+  "characterKo": { "summaryKo": "Bloomberg L.P. 4명 원래 공동 창립자 — 44년 글로벌 금융 데이터 인프라.", "tagsKo": ["Bloomberg L.P. 공동 창립", "Bloomberg Terminal", "44년 자수성가"] },
+  "failures": [
+    { "year": 2013, "description": "Bloomberg journalists scandal — terminal reporters accessed Bloomberg subscriber data inappropriately.", "descriptionKo": "Bloomberg 저널리스트 스캔들 — 단말기 기자가 Bloomberg 구독자 데이터에 부적절 접근.", "lesson": "Data-platform reputations sensitive to internal-access disputes.", "lessonKo": "데이터 플랫폼 평판은 내부 접근 분쟁에 민감." },
+    { "year": 2020, "description": "COVID-19 reduced Bloomberg trading-floor terminal demand briefly.", "descriptionKo": "COVID-19이 Bloomberg 거래장 단말기 수요 잠시 축소.", "lesson": "Office-based financial-data exposure to remote-work shift.", "lessonKo": "사무실 기반 금융 데이터는 원격 근무 전환 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.3 }, { "year": 2020, "netWorth": 3.7 }, { "year": 2024, "netWorth": 5.5 }, { "year": 2025, "netWorth": 5.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Terminals are data. Data is power for those who use it well.", "textKo": "단말기는 데이터다. 데이터는 잘 사용하는 자의 권력이다.", "context": "On Bloomberg Terminal", "contextKo": "Bloomberg Terminal에 대해", "source": "https://www.bloomberg.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sul day pillar in O month — 'jeonggwan-gyeok', formal authority, fitting institutional financial-data co-founder.", "summaryKo": "경술 일주 + 오월 정관격(공식 권위·규제 아래에서 일하는 구조)은 44년 글로벌 금융 데이터 산업의 규제·정부·은행 환경과 호응합니다. 경금 일간의 단단한 금속·결단력이 금융 데이터 정밀 운영과 통하고, 술토 일지의 토 기운이 데이터 인프라 안정 기반을 가리키며, 오화 월지의 화 기운이 정보 전송·미디어의 표현 욕구를 강조합니다." }
+}

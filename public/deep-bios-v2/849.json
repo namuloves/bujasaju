@@ -1,0 +1,39 @@
+{
+  "id": "849", "name": "Andrei Bokarev", "nameKo": "안드레이 보카레프",
+  "netWorth": 4.9, "nationality": "RU", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Russia", "birthPlaceKo": "러시아",
+    "familyBackground": "Born to Soviet Russian family.", "familyBackgroundKo": "소련 러시아 가정에서 출생.",
+    "education": "Russian higher education.", "educationKo": "러시아 고등교육.",
+    "earlyLife": "Built career in Russian railway equipment and coal-mining; controls Transmashholding (Russia's largest rail-equipment maker) and Kuzbassrazrezugol (major coal miner).",
+    "earlyLifeKo": "러시아 철도 장비·석탄 광업 경력 구축; Transmashholding(러시아 최대 철도 장비 제조사)·Kuzbassrazrezugol(주요 석탄 광부) 통제.",
+    "source": "https://www.forbes.com/profile/andrei-bokarev/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Transmashholding + 석탄 광업 누적." },
+  "careerTimeline": [
+    { "year": 1995, "age": 29, "event": "Began Russian railway-equipment industry career.", "eventKo": "러시아 철도 장비 산업 경력 시작.", "whyItMatteredKo": "산업 출발선." },
+    { "year": 2002, "age": 36, "event": "Acquired control of Transmashholding — Russian railway equipment manufacturer.", "eventKo": "Transmashholding 통제 인수 — 러시아 철도 장비 제조사.", "whyItMatteredKo": "철도 자본 단계." },
+    { "year": 2010, "age": 44, "event": "Acquired major coal-mining operations through Kuzbassrazrezugol.", "eventKo": "Kuzbassrazrezugol 통해 주요 석탄 광업 운영 인수.", "whyItMatteredKo": "석탄 자본 단계." },
+    { "year": 2020, "age": 54, "event": "Major Russian industrial magnate; Transmashholding supplied Russian Railways with rolling stock.", "eventKo": "주요 러시아 산업 거물; Transmashholding이 러시아 철도공사에 차량 공급.", "whyItMatteredKo": "산업 정점 단계." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $4.9B per Forbes Real-Time. Under EU/UK sanctions since 2022.", "eventKo": "포브스 실시간 기준 개인 순자산 49억 달러. 2022년 이후 EU/영국 제재.", "whyItMatteredKo": "산업 자본 + 제재 잔여." }
+  ],
+  "turningPoints": [{ "year": 2002, "age": 36, "decisionKo": "Transmashholding 통제 인수", "alternativeKo": "지역 산업 잔류", "outcomeKo": "23년 후 러시아 철도 장비 + 석탄 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Transmashholding + Kuzbassrazrezugol + UMMC 지분", "industryKo": "철도 장비 제조 + 석탄 광업 + 금속", "businessModelKo": "러시아 정부 조달 철도 + 석탄 수출 + 금속", "moatKo": "러시아 정부 조달 인맥 + 산업 인프라", "luckVsSkillKo": "운(50%): 2000년대 러시아 산업 부상 + 정부 조달. 실력(50%): 23년 산업 운영." },
+  "personalTraits": {
+    "knownFor": "Controller of Transmashholding (Russia's largest rail-equipment maker); major coal-mining magnate.",
+    "knownForKo": "Transmashholding(러시아 최대 철도 장비 제조사) 통제자; 주요 석탄 광업 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "EU/UK sanctions since 2022 over alleged Kremlin ties; railway-equipment government-contract scrutiny.",
+    "controversiesKo": "2022년 이후 크렘린 연계 의혹으로 EU/영국 제재; 철도 장비 정부 계약 감시."
+  },
+  "characterKo": { "summaryKo": "Transmashholding + 석탄 광업 러시아 산업 거물.", "tagsKo": ["Transmashholding", "Kuzbassrazrezugol", "러시아 산업"] },
+  "failures": [
+    { "year": 2014, "description": "Russia-Ukraine 2014 sanctions disrupted Transmashholding Western component supply chains.", "descriptionKo": "2014 러시아-우크라이나 제재가 Transmashholding 서방 부품 공급망 혼란.", "lesson": "Industrial manufacturers exposed to geopolitical supply-chain risk.", "lessonKo": "산업 제조사는 지정학적 공급망 리스크 노출." },
+    { "year": 2022, "description": "EU/UK sanctions targeted Bokarev personally; froze European assets.", "descriptionKo": "EU·영국 제재가 보카레프 개인 표적; 유럽 자산 동결.", "lesson": "Russian-tied wealth carries sanction risk.", "lessonKo": "러시아 연계 부는 제재 리스크 동반." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.6 }, { "year": 2020, "netWorth": 2.6 }, { "year": 2024, "netWorth": 4.7 }, { "year": 2025, "netWorth": 4.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Railways are the spine of a country. Russia is long.", "textKo": "철도는 국가의 척추다. 러시아는 길다.", "context": "On Russian rail equipment", "contextKo": "러시아 철도 장비에 대해", "source": "https://www.tmholding.ru" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in Sul month — 'jeongjae-gyeok', steady accumulation, fitting industrial-government supplier.", "summaryKo": "을묘 일주 + 술월 정재격(고정 자산·꾸준한 매출)은 러시아 정부 조달 철도 장비라는 거대 안정 매출 모델과 호응합니다. 을목 일간 + 묘목 일지의 강한 목 기운이 23년 산업 회사의 성장을 가리키고, 술토 월지의 토 기운이 산업 인프라 자본을 가리킵니다." }
+}

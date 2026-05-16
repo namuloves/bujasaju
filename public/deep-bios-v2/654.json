@@ -1,0 +1,40 @@
+{
+  "id": "654", "name": "William Edward Haslam", "nameKo": "빌 해슬럼",
+  "netWorth": 6.0, "nationality": "US", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Knoxville, Tennessee, USA", "birthPlaceKo": "미국 테네시주 녹스빌",
+    "familyBackground": "Born to Jim Haslam — founder of Pilot Corporation (US truck-stop chain). Brother of Jimmy Haslam who runs Pilot today.", "familyBackgroundKo": "Pilot Corporation(미국 트럭 정거장 체인) 창립자 짐 해슬럼의 아들. 현 Pilot 운영자 지미 해슬럼의 형제.",
+    "education": "Emory University.", "educationKo": "에모리 대학교.",
+    "earlyLife": "Joined Pilot family business; entered Tennessee politics — Knoxville mayor (2003-2011), Tennessee governor (2011-2019).",
+    "earlyLifeKo": "Pilot 가족 사업 합류; 테네시 정치 진입 — 녹스빌 시장(2003-2011), 테네시 주지사(2011-2019).",
+    "source": "https://en.wikipedia.org/wiki/Bill_Haslam"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Pilot Corporation 가족 자본." },
+  "careerTimeline": [
+    { "year": 1980, "age": 22, "event": "Joined Pilot Corporation after Emory graduation.", "eventKo": "에모리 졸업 후 Pilot Corporation 합류.", "whyItMatteredKo": "가족 사업 진입." },
+    { "year": 1999, "age": 41, "event": "Pilot acquired Flying J — became Pilot Flying J, North America's largest truck-stop chain.", "eventKo": "Pilot이 Flying J 인수 — 북미 최대 트럭 정거장 체인 Pilot Flying J가 됨.", "whyItMatteredKo": "메이저 자리." },
+    { "year": 2003, "age": 45, "event": "Elected Mayor of Knoxville, Tennessee — left day-to-day Pilot operations.", "eventKo": "테네시 녹스빌 시장 당선 — Pilot 일상 운영 떠남.", "whyItMatteredKo": "정치 정체성 출발선." },
+    { "year": 2011, "age": 53, "event": "Elected Governor of Tennessee; served two terms 2011-2019.", "eventKo": "테네시 주지사 당선; 2011-2019 두 임기 봉직.", "whyItMatteredKo": "주지사 단계." },
+    { "year": 2025, "age": 67, "event": "Personal net worth at $6.0B per Forbes Real-Time. Continues as Pilot family stakeholder.", "eventKo": "포브스 실시간 기준 개인 순자산 60억 달러. Pilot 가족 주주 계속.", "whyItMatteredKo": "사업가·정치인 이중 정체성 정점." }
+  ],
+  "turningPoints": [{ "year": 2003, "age": 45, "decisionKo": "Pilot 운영에서 정치로 전환 — 시장 선거 출마", "alternativeKo": "사업가 잔류", "outcomeKo": "주지사 + 가족 자본 이중 정체성" }],
+  "moneyMechanics": { "primaryRevenueKo": "Pilot Travel Centers 가족 지분(현재 Berkshire Hathaway가 매수 진행)", "industryKo": "소매·연료 소매(트럭 정거장)", "businessModelKo": "트럭 정거장 + 연료·식음료 + 편의점 네트워크", "moatKo": "북미 최대 트럭 정거장 네트워크 + 가족 통제", "luckVsSkillKo": "운(60%): 가족 자본 + 미국 화물 산업 성장. 실력(40%): 시장·주지사 정치 경력." },
+  "personalTraits": {
+    "knownFor": "Former Governor of Tennessee (2011-2019); member of Haslam family — Pilot Travel Centers; Tennessee philanthropist.",
+    "knownForKo": "전 테네시 주지사(2011-2019); Haslam 가족 구성원 — Pilot Travel Centers; 테네시 자선가.",
+    "philanthropy": "Haslam family supports Tennessee education, University of Tennessee, Knoxville community.",
+    "philanthropyKo": "Haslam 가족이 테네시 교육·테네시 대학교·녹스빌 지역 사회 지원.",
+    "controversies": "Pilot Flying J fraud scandal (2013) at company level — Bill Haslam not personally implicated; political controversies as governor.",
+    "controversiesKo": "Pilot Flying J 사기 스캔들(2013) 회사 차원 — 빌 해슬럼 개인 연루 없음; 주지사로서 정치 논란."
+  },
+  "characterKo": { "summaryKo": "Pilot 가족 사업가에서 테네시 주지사로 — 사업·정치 이중 정체성.", "tagsKo": ["Pilot Travel Centers", "테네시 주지사", "Haslam 가족"] },
+  "failures": [
+    { "year": 2013, "description": "Pilot Flying J FBI investigation found systematic rebate-fraud against trucking customers; $92M settlement.", "descriptionKo": "Pilot Flying J FBI 조사가 트럭 고객 대상 체계적 리베이트 사기 발견; 9,200만 달러 합의.", "lesson": "Family-business operational risk creates governor-political exposure.", "lessonKo": "가족 사업 운영 리스크가 주지사·정치 노출 야기." },
+    { "year": 2020, "description": "COVID-19 disrupted truck-stop foot traffic and fuel sales; Pilot absorbed cyclical pressure.", "descriptionKo": "COVID-19이 트럭 정거장 통행·연료 매출 혼란; Pilot이 사이클 압박 흡수.", "lesson": "Travel-retail faces pandemic exposure.", "lessonKo": "여행 소매는 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 5.6 }, { "year": 2025, "netWorth": 6.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I went into politics because business gave me everything I needed to take risk.", "textKo": "사업이 나에게 리스크를 감수할 모든 것을 줬기에 정치에 들어갔다.", "context": "On political career", "contextKo": "정치 경력에 대해", "source": "https://en.wikipedia.org/wiki/Bill_Haslam" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Shin day pillar in Shin month — 'pyeon-in-gyeok', creative-intuitive intelligence, fitting CEO-turned-politician.", "summaryKo": "임신 일주 + 신월 편인격(독학·창의적 직관)은 사업가에서 시장·주지사로의 전환과 호응합니다. 임수 일간의 큰 물 기질이 사업 자본 + 정치 자본의 유동적 전환과 통하고, 신금 일지·신금 월지의 금 기운이 분석·결단의 예리함을 가리킵니다." }
+}

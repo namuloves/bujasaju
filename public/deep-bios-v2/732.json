@@ -1,0 +1,40 @@
+{
+  "id": "732", "name": "James Neal Blue", "nameKo": "제임스 닐 블루",
+  "netWorth": 5.5, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Yale University.", "educationKo": "예일 대학교.",
+    "earlyLife": "With brother Linden Blue acquired General Atomics in 1986 from Chevron; built into major US defense and nuclear-energy contractor.",
+    "earlyLifeKo": "동생 린든 블루와 1986년 Chevron에서 General Atomics 인수; 주요 미국 방산·원자력 계약자로 키움.",
+    "source": "https://en.wikipedia.org/wiki/General_Atomics"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "General Atomics 39년 자수성가." },
+  "careerTimeline": [
+    { "year": 1986, "age": 51, "event": "Acquired General Atomics from Chevron with brother Linden for $50M.", "eventKo": "동생 린든과 General Atomics를 Chevron에서 5,000만 달러에 인수.", "whyItMatteredKo": "39년 자수성가 출발선." },
+    { "year": 1995, "age": 60, "event": "General Atomics developed Predator drone — became major US military unmanned-aircraft supplier.", "eventKo": "General Atomics가 Predator 드론 개발 — 주요 미군 무인기 공급사가 됨.", "whyItMatteredKo": "방산 단계." },
+    { "year": 2010, "age": 75, "event": "General Atomics Predator/Reaper drones became cornerstone of US counterterrorism strategy.", "eventKo": "General Atomics Predator/Reaper 드론이 미국 대테러 전략의 초석이 됨.", "whyItMatteredKo": "방산 정점 단계." },
+    { "year": 2020, "age": 85, "event": "General Atomics expanded into nuclear-fusion research and electromagnetic-launch systems.", "eventKo": "General Atomics가 핵융합 연구·전자기 발사 시스템 확장.", "whyItMatteredKo": "기술 다각화 단계." },
+    { "year": 2025, "age": 90, "event": "Personal net worth at $5.5B per Forbes Real-Time. Continues as General Atomics chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 55억 달러. General Atomics 의장 계속.", "whyItMatteredKo": "39년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1986, "age": 51, "decisionKo": "동생과 Chevron에서 General Atomics 5,000만 달러 인수", "alternativeKo": "기존 사업 잔류", "outcomeKo": "39년 후 미국 방산 + 핵 기술 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "General Atomics(비공개) 가족 통제 지분", "industryKo": "방산·원자력·기술", "businessModelKo": "Predator/Reaper 드론 + 핵융합·전자기 발사 + 정부 R&D 계약", "moatKo": "39년 미군·DOE 인증 + 핵 기술 IP + 형제 파트너십", "luckVsSkillKo": "운(30%): 1995-2020 대테러 시대 드론 수요. 실력(70%): 39년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Chairman of General Atomics; pioneering military-drone and nuclear-fusion industrialist; with brother Linden Blue.",
+    "knownForKo": "General Atomics 의장; 선구적 군용 드론·핵융합 산업가; 동생 린든 블루와 함께.",
+    "philanthropy": "Major Yale University and San Diego patron; supports nuclear-energy research.",
+    "philanthropyKo": "주요 예일 대학교·샌디에이고 후원자; 핵 에너지 연구 지원.",
+    "controversies": "Predator/Reaper drone strikes drew sustained civilian-casualty criticism; ethical-warfare debates.",
+    "controversiesKo": "Predator/Reaper 드론 공격이 지속적 민간인 사상자 비판 야기; 윤리적 전쟁 논쟁."
+  },
+  "characterKo": { "summaryKo": "General Atomics 39년 자수성가 — 미국 군용 드론·핵융합 산업가.", "tagsKo": ["General Atomics", "Predator 드론", "핵융합"] },
+  "failures": [
+    { "year": 2010, "description": "Predator/Reaper drone strikes drew sustained international criticism over civilian casualties.", "descriptionKo": "Predator/Reaper 드론 공격이 민간인 사상자에 대한 지속적 국제 비판 야기.", "lesson": "Defense-industry products carry ethical-reputation tail risk.", "lessonKo": "방산 제품은 윤리 평판 잔여 리스크 동반." },
+    { "year": 2020, "description": "General Atomics nuclear-fusion research investments showed long timelines; commercial fusion remained distant.", "descriptionKo": "General Atomics 핵융합 연구 투자가 장기 일정 보여줌; 상업 핵융합이 여전히 멀리.", "lesson": "Frontier-technology R&D requires multi-decade patience.", "lessonKo": "프론티어 기술 R&D는 다수 십년 인내 요구." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.9 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 5.3 }, { "year": 2025, "netWorth": 5.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Drones changed warfare. Fusion will change energy.", "textKo": "드론이 전쟁을 바꿨다. 핵융합이 에너지를 바꿀 것이다.", "context": "On General Atomics future", "contextKo": "General Atomics 미래에 대해", "source": "https://www.ga.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sul day pillar in Myo month — 'jeongin-gyeok', maternal-academic foundation, fitting Yale-trained defense-industrialist.", "summaryKo": "경술 일주 + 묘월 정인격(공식 자격·학문 자본)은 예일 학위 + 핵 기술 + 방산 계약이라는 정부 인증·학문 자본 기반 산업과 호응합니다. 경금 일간의 단단한 금속·결단력이 방산 결단의 결단력과 통하고, 술토 일지의 토 기운이 39년 회사 자본의 안정 기반을 가리키며, 묘목 월지가 회사·기술의 누적 성장을 강조합니다." }
+}

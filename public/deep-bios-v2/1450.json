@@ -1,0 +1,40 @@
+{
+  "id": "1450", "name": "Jay-Z (Shawn Corey Carter)", "nameKo": "션 코리 카터",
+  "netWorth": 2.8, "nationality": "US", "industry": "Media & Entertainment",
+  "childhood": {
+    "birthPlace": "Brooklyn, New York, USA", "birthPlaceKo": "미국 뉴욕 브루클린",
+    "familyBackground": "Born to working-class African-American family in Marcy Houses housing project, Brooklyn. Father abandoned family.", "familyBackgroundKo": "브루클린 Marcy Houses 공공주택 단지의 노동자 계급 아프리카계 미국인 가정에서 출생. 아버지가 가족 버림.",
+    "education": "Dropped out of high school; self-taught business and music.", "educationKo": "고등학교 중퇴; 독학 사업·음악.",
+    "earlyLife": "Pursued hip-hop career; co-founded Roc-A-Fella Records in 1995 after no major label signed him.",
+    "earlyLifeKo": "힙합 경력 추구; 주요 레이블이 계약하지 않아 1995년 Roc-A-Fella Records 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Jay-Z"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "음악 + Roc Nation + 사업 다각화." },
+  "careerTimeline": [
+    { "year": 1995, "age": 26, "event": "Co-founded Roc-A-Fella Records with Damon Dash and Kareem Burke.", "eventKo": "데이먼 대시·카림 버크와 Roc-A-Fella Records 공동 창립.", "whyItMatteredKo": "독립 음악 사업 출발선." },
+    { "year": 2003, "age": 34, "event": "Released 'The Black Album' (planned retirement album); Roc-A-Fella sold to Universal Music for $50M+.", "eventKo": "'The Black Album' 발표(은퇴 계획 앨범); Roc-A-Fella가 Universal Music에 5,000만 달러+ 매각.", "whyItMatteredKo": "음악 자본 정점." },
+    { "year": 2008, "age": 39, "event": "Founded Roc Nation — full-service entertainment company; took over multiple artists' management.", "eventKo": "Roc Nation 창립 — 풀 서비스 엔터테인먼트 회사; 다수 아티스트 매니지먼트 인수.", "whyItMatteredKo": "사업 자본가 정체성." },
+    { "year": 2021, "age": 52, "event": "Sold Tidal music-streaming stake to Square (now Block); cashed $300M+.", "eventKo": "Tidal 음악 스트리밍 지분을 Square(현 Block)에 매각; 3억 달러+ 현금화.", "whyItMatteredKo": "기술 자본 단계." },
+    { "year": 2025, "age": 56, "event": "Personal net worth at $2.8B per Forbes Real-Time. Hip-hop's first billionaire continues across music, fashion, spirits, sports.", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러. 힙합 최초 억만장자가 음악·패션·주류·스포츠 전반 계속.", "whyItMatteredKo": "다각화 자본가 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 26, "decisionKo": "메이저 레이블 거절 후 독립 레이블 창립", "alternativeKo": "메이저 레이블 계약 기다림", "outcomeKo": "30년 후 힙합 최초 억만장자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Roc Nation + Armand de Brignac(주류) + D'USSE(주류) + 음악 카탈로그 로열티 + 스포츠 에이전시", "industryKo": "엔터테인먼트·음악·주류·스포츠 다각화", "businessModelKo": "음악 카탈로그 + 사업 다각화 + 비욘세 가족 자본", "moatKo": "30년 힙합 인지도 + 다부문 사업 통합", "luckVsSkillKo": "운(30%): 1990-2000년대 힙합 메인스트림화. 실력(70%): 독학 사업 + 다각화 일관성." },
+  "personalTraits": {
+    "knownFor": "Hip-hop's first billionaire; founder of Roc-A-Fella Records and Roc Nation; husband of Beyonce; major brand investor.",
+    "knownForKo": "힙합 최초 억만장자; Roc-A-Fella Records와 Roc Nation 창립자; 비욘세의 남편; 주요 브랜드 투자자.",
+    "philanthropy": "Shawn Carter Foundation supports inner-city education; Reform Alliance criminal-justice advocacy.",
+    "philanthropyKo": "Shawn Carter Foundation이 도심 교육 지원; Reform Alliance 형사 사법 옹호.",
+    "controversies": "Multiple lyric-related controversies; 1999 nightclub stabbing assault charge (settled); Tidal acquisition criticism.",
+    "controversiesKo": "다수 가사 관련 논란; 1999 나이트클럽 칼부림 폭행 혐의(합의); Tidal 인수 비판."
+  },
+  "characterKo": { "summaryKo": "브루클린 Marcy Houses에서 힙합 최초 억만장자로 — 음악·주류·스포츠 다각화.", "tagsKo": ["힙합 최초 억만장자", "Roc Nation", "비욘세 가족", "Marcy Houses 출신"] },
+  "failures": [
+    { "year": 2015, "description": "Tidal music-streaming service struggled with subscriber growth vs Apple Music/Spotify; widely criticized.", "descriptionKo": "Tidal 음악 스트리밍 서비스가 Apple Music·Spotify 대비 구독자 성장 부진; 광범위한 비판.", "lesson": "Music-streaming requires scale beyond celebrity ownership.", "lessonKo": "음악 스트리밍은 셀러브리티 소유 이상의 규모 요구." },
+    { "year": 2024, "description": "Diddy criminal case spawned secondary lawsuits naming Jay-Z; reputational scrutiny.", "descriptionKo": "디디 형사 사건이 Jay-Z를 지명한 부차 소송 야기; 평판 감시.", "lesson": "Music-industry network creates secondary legal exposure.", "lessonKo": "음악 산업 네트워크가 부차적 법적 노출 야기." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.6 }, { "year": 2020, "netWorth": 1.0 }, { "year": 2022, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I'm not a businessman, I'm a business, man.", "textKo": "나는 사업가가 아니다. 나는 사업이다, 친구.", "context": "On business identity (Diamonds From Sierra Leone Remix)", "contextKo": "사업가 정체성에 대해 (Diamonds From Sierra Leone Remix)", "source": "https://en.wikipedia.org/wiki/Jay-Z" }],
+  "books": { "authored": [{ "title": "Decoded", "year": 2010, "noteKo": "회고록·가사 해설." }], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Chuk day pillar in Hae month — 'siksin-gyeok', creative output, fitting hip-hop artist turned entrepreneur.", "summaryKo": "계축 일주 + 해월 식신격(창의적 결과물·표현·문화)은 가사라는 끊임없는 창의적 결과물에서 시작해 사업 다각화로 이어진 그의 경로와 정확히 호응합니다. 계수 일간의 작은 물·세밀한 사고가 가사 작성·사업 의사결정의 정밀함과 통하고, 식신격이 평생 창의적 표현으로 부를 짓는 구조와 통합니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "220", "name": "Simon Reuben", "nameKo": "사이먼 루벤",
+  "netWorth": 13.1, "nationality": "GB", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Mumbai, India", "birthPlaceKo": "인도 뭄바이",
+    "familyBackground": "Born to Iraqi-Jewish family in Mumbai; migrated to London in 1950s.", "familyBackgroundKo": "뭄바이 이라크 유대인 가정에서 출생; 1950년대 런던 이주.",
+    "education": "Limited formal education; pursued trade directly.", "educationKo": "정규 교육 제한적; 무역 직접 진입.",
+    "earlyLife": "Began career in London carpet trading; expanded into metals trading; founded Trans-World Group; acquired major Russian aluminum smelters in 1990s.",
+    "earlyLifeKo": "런던 카펫 무역에서 경력 시작; 금속 거래로 확장; Trans-World Group 창립; 1990년대 주요 러시아 알루미늄 제련소 인수.",
+    "source": "https://en.wikipedia.org/wiki/Reuben_brothers"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Trans-World Group + Reuben Brothers 다각화." },
+  "careerTimeline": [
+    { "year": 1959, "age": 18, "event": "Began London commodity-trading career in carpets and metals.", "eventKo": "런던 카펫·금속 원자재 거래 경력 시작.", "whyItMatteredKo": "65+년 자수성가 출발선." },
+    { "year": 1990, "age": 49, "event": "With brother David Reuben, acquired control of major Russian aluminum smelters in post-Soviet privatization.", "eventKo": "동생 데이비드 루벤과 소련 해체 후 민영화에서 주요 러시아 알루미늄 제련소 통제 인수.", "whyItMatteredKo": "러시아 자본 단계." },
+    { "year": 2000, "age": 59, "event": "Sold Russian aluminum interests; pivoted to UK real estate and global PE through Reuben Brothers.", "eventKo": "러시아 알루미늄 지분 매각; Reuben Brothers를 통해 영국 부동산·글로벌 PE로 피벗.", "whyItMatteredKo": "재배치 단계." },
+    { "year": 2015, "age": 74, "event": "Reuben Brothers became one of UK's largest private investment groups — real estate + hotels + tech ventures.", "eventKo": "Reuben Brothers가 영국 최대 비공개 투자 그룹 중 하나가 됨 — 부동산·호텔·기술 벤처.", "whyItMatteredKo": "다각화 정점 단계." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $13.1B per Forbes Real-Time. Continues with brother David as Reuben Brothers co-leaders.", "eventKo": "포브스 실시간 기준 개인 순자산 131억 달러. 동생 데이비드와 Reuben Brothers 공동 리더 계속.", "whyItMatteredKo": "65+년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 59, "decisionKo": "러시아 알루미늄에서 영국 부동산·글로벌 PE로 피벗", "alternativeKo": "러시아 운영 잔류", "outcomeKo": "25년 후 글로벌 다각화 거물 — 러시아 리스크 회피" }],
+  "moneyMechanics": { "primaryRevenueKo": "Reuben Brothers — 영국 부동산 + 호텔 + 글로벌 PE 다각화", "industryKo": "부동산 + PE 다각화", "businessModelKo": "런던 부동산 + 럭셔리 호텔 + 글로벌 PE 투자", "moatKo": "65+년 글로벌 인맥 + 형제 파트너십", "luckVsSkillKo": "운(40%): 1990년대 러시아 + 2000년대 영국 부동산 부상. 실력(60%): 65+년 형제 파트너십 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Reuben Brothers with brother David; one of UK's wealthiest private investors; major London real-estate owner.",
+    "knownForKo": "동생 데이비드와 Reuben Brothers 공동 창립자; 영국 최대 비공개 투자자 중 한 명; 주요 런던 부동산 소유주.",
+    "philanthropy": "Reuben Foundation supports UK education, healthcare; major Oxford University patron (Reuben College).",
+    "philanthropyKo": "Reuben Foundation이 영국 교육·헬스케어 지원; 주요 옥스퍼드 대학교 후원자(Reuben College).",
+    "controversies": "1990s Russian aluminum-industry violence and legal disputes; Trans-World Group accused in 'Aluminum Wars'.", "controversiesKo": "1990년대 러시아 알루미늄 산업 폭력·법적 분쟁; Trans-World Group이 '알루미늄 전쟁'에 고발됨."
+  },
+  "characterKo": { "summaryKo": "뭄바이 출신 형제가 영국 최대 비공개 투자 그룹으로 65+년 자수성가.", "tagsKo": ["Reuben Brothers", "Trans-World Group", "런던 부동산"] },
+  "failures": [
+    { "year": 1995, "description": "Russian 'Aluminum Wars' involved violent business disputes; Trans-World Group personnel killed; legal scrutiny.", "descriptionKo": "러시아 '알루미늄 전쟁'이 폭력적 사업 분쟁 포함; Trans-World Group 인원 사망; 법적 감시.", "lesson": "Russian 1990s resource sector carried physical and legal risk.", "lessonKo": "러시아 1990년대 자원 부문은 물리적·법적 리스크 동반." },
+    { "year": 2009, "description": "Global financial crisis compressed UK real-estate valuations briefly.", "descriptionKo": "글로벌 금융위기로 영국 부동산 밸류에이션 잠시 압축.", "lesson": "Even diversified portfolios face market-cycle drawdown.", "lessonKo": "다각화 포트폴리오도 시장 사이클 하락 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 7.6 }, { "year": 2020, "netWorth": 8.5 }, { "year": 2024, "netWorth": 12.6 }, { "year": 2025, "netWorth": 13.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Trade is patience and brothers.", "textKo": "무역은 인내와 형제다.", "context": "On family-business partnership", "contextKo": "가족 사업 파트너십에 대해", "source": "https://www.reubenbrothers.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Yu day pillar in Jin month — 'jeongjae-gyeok', steady accumulation, fitting decades-long commodity-trader.", "summaryKo": "기유 일주 + 진월 정재격(고정 자산·꾸준한 매출)은 65+년에 걸쳐 카펫·금속·부동산이라는 안정 자본을 누적해온 그의 경로와 호응합니다. 기토 일간의 작은 흙·세밀한 농경 기질이 65+년 누적 인내심을 가리키고, 유금 일지의 금 기운이 금속 거래·부동산이라는 단단한 자산과 통하며, 진토 월지가 가족·형제 자본의 안정 기반을 강조합니다." }
+}

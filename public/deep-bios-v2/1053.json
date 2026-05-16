@@ -1,0 +1,39 @@
+{
+  "id": "1053", "name": "Clive Frederick Palmer", "nameKo": "클라이브 프레더릭 파머",
+  "netWorth": 3.9, "nationality": "AU", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Melbourne, Australia", "birthPlaceKo": "호주 멜버른",
+    "familyBackground": "Born to Australian family.", "familyBackgroundKo": "호주 가정에서 출생.",
+    "education": "Limited formal higher education.", "educationKo": "정규 고등교육 제한적.",
+    "earlyLife": "Built career in Queensland real estate; founded Mineralogy Pty Ltd — Australian iron-ore mining and exploration company.",
+    "earlyLifeKo": "퀸즐랜드 부동산 경력 구축; Mineralogy Pty Ltd 창립 — 호주 철광석 광업·탐사 회사.",
+    "source": "https://en.wikipedia.org/wiki/Clive_Palmer"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Mineralogy 철광석 권리 + 정치 자본." },
+  "careerTimeline": [
+    { "year": 1980, "age": 26, "event": "Built Queensland real-estate development business.", "eventKo": "퀸즐랜드 부동산 개발 사업 구축.", "whyItMatteredKo": "초기 자본 출발선." },
+    { "year": 1986, "age": 32, "event": "Founded Mineralogy Pty Ltd; acquired vast Western Australian iron-ore tenements.", "eventKo": "Mineralogy Pty Ltd 창립; 광대한 서호주 철광석 광권 인수.", "whyItMatteredKo": "광업 자본 단계." },
+    { "year": 2006, "age": 52, "event": "Signed major China First royalty deal with Sinosteel for iron-ore tenements; royalty income began.", "eventKo": "Sinosteel과 철광석 광권 China First 로열티 딜 체결; 로열티 수입 시작.", "whyItMatteredKo": "로열티 자본 단계." },
+    { "year": 2013, "age": 59, "event": "Elected to Australian Parliament; founded Palmer United Party.", "eventKo": "호주 의회 당선; Palmer United Party 창립.", "whyItMatteredKo": "정치 자본가 단계." },
+    { "year": 2025, "age": 71, "event": "Personal net worth at $3.9B per Forbes Real-Time. Continues mining royalties and political activity.", "eventKo": "포브스 실시간 기준 개인 순자산 39억 달러. 광업 로열티·정치 활동 계속.", "whyItMatteredKo": "광업 + 정치 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1986, "age": 32, "decisionKo": "부동산에서 광업 권리로 전환", "alternativeKo": "부동산 잔류", "outcomeKo": "39년 후 호주 광업 거물 + 정치인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Mineralogy Pty Ltd — China First Sinosteel 로열티 + Citic Pacific 분쟁 결제", "industryKo": "광업 권리·로열티", "businessModelKo": "서호주 철광석 광권 + 중국 광업 회사 라이선스 + 정치", "moatKo": "광업 권리 + 호주 정치 자본", "luckVsSkillKo": "운(60%): 2000-2010 중국 철광석 수요 슈퍼사이클. 실력(40%): 권리 획득 + 협상 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Mineralogy; Australian politician (former MP); founder of Palmer United Party and United Australia Party.",
+    "knownForKo": "Mineralogy 창립자; 호주 정치인(전 의원); Palmer United Party와 United Australia Party 창립자.",
+    "philanthropy": "Built Titanic II replica project (unbuilt); supports Queensland golf and sports.", "philanthropyKo": "Titanic II 복제 프로젝트(미건설); 퀸즐랜드 골프·스포츠 지원.",
+    "controversies": "Multiple court disputes including 30B+ AUD Citic Pacific royalty case; Queensland Nickel collapse 2016 with 800 layoffs; anti-vaccine politics.",
+    "controversiesKo": "300억+ 호주 달러 Citic Pacific 로열티 사건 포함 다수 법원 분쟁; 2016 Queensland Nickel 붕괴·800명 정리해고; 반 백신 정치."
+  },
+  "characterKo": { "summaryKo": "호주 광업 + 정치인 — 거대 법원 분쟁과 정치 야망 결합 거물.", "tagsKo": ["Mineralogy", "Palmer United Party", "Queensland Nickel", "Citic Pacific 분쟁"] },
+  "failures": [
+    { "year": 2016, "description": "Queensland Nickel refinery collapse forced 800 layoffs; massive political and legal backlash.", "descriptionKo": "Queensland Nickel 정유소 붕괴로 800명 정리해고 강제; 거대 정치·법적 반발.", "lesson": "Single-asset commodity exposure faces operational failure risk.", "lessonKo": "단일 자산 원자재 노출은 운영 실패 리스크 직면." },
+    { "year": 2013, "description": "Palmer United Party initial parliamentary impact dissipated within years; political career limited.", "descriptionKo": "Palmer United Party 초기 의회 임팩트가 수년 내 소실; 정치 경력 제한적.", "lesson": "Third-party Australian politics limited in viability.", "lessonKo": "호주 제3당 정치는 생존력 제한." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.2 }, { "year": 2020, "netWorth": 4.5 }, { "year": 2024, "netWorth": 3.8 }, { "year": 2025, "netWorth": 3.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Mining royalties are politics with iron ore.", "textKo": "광업 로열티는 철광석으로 하는 정치다.", "context": "On mining-rights business", "contextKo": "광업 권리 사업에 대해", "source": "https://www.mineralogy.com.au" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Sa day pillar in Myo month — 'pyeon-gwan-gyeok', strong external authority, fitting royalty-litigant politician.", "summaryKo": "신사 일주 + 묘월 편관격(강한 외부 압박·권력 충돌)은 광업 권리 분쟁·정치 활동이라는 끊임없는 권력 충돌 환경과 호응합니다. 신금 일간의 예리한 금속 기질이 법정 분쟁·정치 결단의 결단력과 통하고, 사화 일지의 화 기운이 정치 표현 욕구를 가리키며, 묘목 월지가 자본 누적 성장을 강조합니다." }
+}

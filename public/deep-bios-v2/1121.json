@@ -1,0 +1,38 @@
+{
+  "id": "1121", "name": "Kavitark Ram Shriram", "nameKo": "카비타크 람 슈리람",
+  "netWorth": 3.7, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Chennai, India", "birthPlaceKo": "인도 첸나이",
+    "familyBackground": "Born to Indian middle-class family.", "familyBackgroundKo": "인도 중산층 가정에서 출생.",
+    "education": "Loyola College Chennai (mathematics).", "educationKo": "첸나이 로욜라 칼리지(수학).",
+    "earlyLife": "Migrated to US; joined Netscape; founded Junglee (acquired by Amazon for $250M in 1998); became Amazon executive; early angel investor in Google.",
+    "earlyLifeKo": "미국 이주; Netscape 합류; Junglee 창립(1998년 Amazon에 2억 5,000만 달러 인수); Amazon 임원이 됨; Google 초기 엔젤 투자.",
+    "source": "https://en.wikipedia.org/wiki/Ram_Shriram"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Google 초기 엔젤 투자 + Junglee 매각." },
+  "careerTimeline": [
+    { "year": 1994, "age": 37, "event": "Joined Netscape; one of early management members.", "eventKo": "Netscape 합류; 초기 경영진 중 한 명.", "whyItMatteredKo": "인터넷 시대 출발선." },
+    { "year": 1996, "age": 39, "event": "Co-founded Junglee — comparison-shopping engine.", "eventKo": "Junglee 공동 창립 — 비교 쇼핑 엔진.", "whyItMatteredKo": "독립 창업 단계." },
+    { "year": 1998, "age": 41, "event": "Amazon acquired Junglee for $250M; Shriram became Amazon VP business development.", "eventKo": "Amazon이 Junglee를 2억 5,000만 달러 인수; 슈리람이 Amazon 사업 개발 부사장이 됨.", "whyItMatteredKo": "매각 + Amazon 단계." },
+    { "year": 1998, "age": 41, "event": "Became one of Google's first angel investors ($250K) and early board member; stake worth $1B+ at Google IPO.", "eventKo": "Google 최초 엔젤 투자자(25만 달러) + 초기 이사회 구성원 중 한 명; Google IPO 시 지분 10억 달러+.", "whyItMatteredKo": "Google 자본 단계." },
+    { "year": 2025, "age": 68, "event": "Personal net worth at $3.7B per Forbes Real-Time. Continues as Google/Alphabet board member; major VC investor.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러. Google/Alphabet 이사회 구성원 계속; 주요 VC 투자자.", "whyItMatteredKo": "Google 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1998, "age": 41, "decisionKo": "두 명의 스탠퍼드 학생에게 25만 달러 엔젤 투자", "alternativeKo": "Amazon 잔류", "outcomeKo": "27년 후 평생 부의 주축 + Alphabet 이사회" }],
+  "moneyMechanics": { "primaryRevenueKo": "Alphabet(Google) 초기 지분 + Sherpalo Ventures VC", "industryKo": "기술 VC + 엔젤 투자", "businessModelKo": "Google 장기 보유 + Sherpalo Ventures 인도·미국 VC", "moatKo": "Google 초기 엔젤 + 27년 인도 VC 인맥", "luckVsSkillKo": "운(50%): 1998 Google 엔젤 타이밍. 실력(50%): Netscape + Junglee + Amazon + Sherpalo 일관성." },
+  "personalTraits": {
+    "knownFor": "Google's first angel investor; Alphabet board member; founder of Sherpalo Ventures; key India-US tech bridge.",
+    "knownForKo": "Google 최초 엔젤 투자자; Alphabet 이사회 구성원; Sherpalo Ventures 창립자; 핵심 인도·미국 기술 가교.",
+    "philanthropy": "Major patron of Stanford University and Indian education.", "philanthropyKo": "주요 스탠퍼드 대학교·인도 교육 후원자.",
+    "controversies": "Limited; standard early-investor wealth-concentration scrutiny.", "controversiesKo": "제한적; 표준 초기 투자자 부 집중 감시."
+  },
+  "characterKo": { "summaryKo": "Google 최초 엔젤 투자자 + Alphabet 이사회 + 인도·미국 VC 가교.", "tagsKo": ["Google 첫 엔젤", "Alphabet 이사회", "Sherpalo Ventures"] },
+  "failures": [
+    { "year": 2001, "description": "Dot-com crash compressed Sherpalo and Junglee-era investments; absorbed venture losses.", "descriptionKo": "닷컴 붕괴로 Sherpalo와 Junglee 시대 투자 압축; 벤처 손실 흡수.", "lesson": "Even successful angels face venture-class drawdowns.", "lessonKo": "성공한 엔젤도 벤처 클래스 하락 직면." },
+    { "year": 2022, "description": "Tech-stock decline compressed Alphabet and growth-VC portfolio.", "descriptionKo": "기술주 하락으로 Alphabet과 성장 VC 포트폴리오 압축.", "lesson": "Concentrated tech exposure faces market-cycle risk.", "lessonKo": "집중된 기술 노출은 시장 사이클 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.7 }, { "year": 2020, "netWorth": 2.9 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Larry and Sergey just needed someone to say yes early.", "textKo": "래리와 세르게이는 누군가 일찍 예라고 말해줄 필요가 있었다.", "context": "On Google angel investment", "contextKo": "Google 엔젤 투자에 대해", "source": "https://www.sherpalo.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in Chuk month — 'pyeon-in-gyeok', creative-strategic intuition, fitting early-stage angel investor.", "summaryKo": "계사 일주 + 축월 편인격(독학·창의적 직관)은 1998년 두 명의 박사 과정 학생을 알아본 비전형적 엔젤 투자라는 직관과 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 초기 단계 기업가 평가와 통하고, 사화 일지의 화 기운이 초기 투자의 열정을 가리키며, 편인격이 비전형적 자본 누적 통로와 통합니다." }
+}

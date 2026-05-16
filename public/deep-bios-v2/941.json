@@ -1,0 +1,38 @@
+{
+  "id": "941", "name": "Byron David Trott", "nameKo": "바이런 데이비드 트로트",
+  "netWorth": 4.3, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Union, Missouri, USA", "birthPlaceKo": "미국 미주리주 유니언",
+    "familyBackground": "Born to small-town Missouri family.", "familyBackgroundKo": "미주리 소도시 가정에서 출생.",
+    "education": "University of Chicago BA and MBA.", "educationKo": "시카고 대학교 학사·MBA.",
+    "earlyLife": "Joined Goldman Sachs; rose to head of Chicago office and major family-business banking relationships including Warren Buffett's; founded BDT & Company in 2009.",
+    "earlyLifeKo": "Goldman Sachs 합류; 시카고 사무소 수장과 워런 버핏 포함 주요 가족 사업 은행 관계 책임자로 부상; 2009년 BDT & Company 창립.",
+    "source": "https://en.wikipedia.org/wiki/Byron_Trott"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Goldman Sachs 경력 + BDT & Company 16년 자수성가." },
+  "careerTimeline": [
+    { "year": 1982, "age": 24, "event": "Joined Goldman Sachs after University of Chicago MBA.", "eventKo": "시카고 대학교 MBA 후 Goldman Sachs 합류.", "whyItMatteredKo": "투자은행 경력 출발선." },
+    { "year": 1996, "age": 38, "event": "Became Goldman Sachs Chicago office head; built Warren Buffett banking relationship.", "eventKo": "Goldman Sachs 시카고 사무소 수장 취임; 워런 버핏 은행 관계 구축.", "whyItMatteredKo": "버핏 신뢰 단계." },
+    { "year": 2009, "age": 51, "event": "Left Goldman Sachs to found BDT & Company — boutique investment bank for family businesses.", "eventKo": "Goldman Sachs 떠나 BDT & Company 창립 — 가족 사업 부티크 투자은행.", "whyItMatteredKo": "독립 단계." },
+    { "year": 2023, "age": 65, "event": "BDT & Company merged with MSD Partners (Michael Dell's family office) to form BDT & MSD Partners.", "eventKo": "BDT & Company가 MSD Partners(마이클 델 가족 사무실)와 합병해 BDT & MSD Partners 형성.", "whyItMatteredKo": "통합 단계." },
+    { "year": 2025, "age": 67, "event": "Personal net worth at $4.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러.", "whyItMatteredKo": "16년 부티크 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 2009, "age": 51, "decisionKo": "Goldman Sachs 떠나 가족 사업 부티크 창립", "alternativeKo": "Goldman 잔류", "outcomeKo": "16년 후 미국 가족 사업 은행 신뢰의 사실상 표준" }],
+  "moneyMechanics": { "primaryRevenueKo": "BDT & MSD Partners 창립자 지분 + 자문 수수료", "industryKo": "투자은행·자산운용", "businessModelKo": "가족 사업 자문 + 부유한 가족 자본 운용", "moatKo": "워런 버핏 신뢰 + 미국 부유 가족 인맥", "luckVsSkillKo": "운(30%): 2008 위기 후 부티크 자문 산업 부상. 실력(70%): 27년 Goldman + 16년 부티크 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of BDT & Company; Warren Buffett's preferred banker for family-business deals; trusted advisor to wealthy family businesses.",
+    "knownForKo": "BDT & Company 창립자; 워런 버핏이 가족 사업 딜에 선호하는 은행가; 부유한 가족 사업의 신뢰받는 자문가.",
+    "philanthropy": "Trott family supports Chicago educational institutions.", "philanthropyKo": "Trott 가족이 시카고 교육 기관 지원.",
+    "controversies": "Limited; standard banker-confidentiality questions on family-business deals.", "controversiesKo": "제한적; 가족 사업 딜에 대한 표준 은행가 기밀 질문."
+  },
+  "characterKo": { "summaryKo": "버핏의 신뢰받는 은행가 + BDT & Company 부티크 창립자.", "tagsKo": ["BDT 창립자", "버핏의 은행가", "가족 사업 자문"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted family-business deal activity; BDT M&A pipeline compressed.", "descriptionKo": "COVID-19이 가족 사업 딜 활동 혼란; BDT M&A 파이프라인 압축.", "lesson": "M&A advisory pro-cyclical with economic activity.", "lessonKo": "M&A 자문은 경제 활동과 순응 사이클." },
+    { "year": 2022, "description": "Rising interest rates compressed deal-making and family-business valuations.", "descriptionKo": "금리 상승으로 딜메이킹·가족 사업 밸류에이션 압축.", "lesson": "Boutique banking sensitive to rate environment.", "lessonKo": "부티크 은행업은 금리 환경에 민감." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.3 }, { "year": 2024, "netWorth": 4.1 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family businesses need bankers who think in decades, not commissions.", "textKo": "가족 사업은 수수료가 아닌 10년 단위로 생각하는 은행가가 필요하다.", "context": "On family-business banking", "contextKo": "가족 사업 은행업에 대해", "source": "https://www.bdtcap.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Chuk day pillar in Hae month — 'yangin-gyeok' or strong root, fitting sharp deal-maker.", "summaryKo": "계축 일주 + 해월 양인격(자신감·결단력 + 강한 자기 자본)은 27년 Goldman + 16년 독립 부티크라는 두 단계의 자기 자본 누적과 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 가족 사업 딜의 정밀 자문과 통하고, 양인격이 평생 큰 딜을 결단해온 경로와 통합니다." }
+}

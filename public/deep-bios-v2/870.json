@@ -1,0 +1,38 @@
+{
+  "id": "870", "name": "Egor Kulkov", "nameKo": "예고르 쿨코프",
+  "netWorth": 4.7, "nationality": "RU", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Russia", "birthPlaceKo": "러시아",
+    "familyBackground": "Born to Russian middle-class family.", "familyBackgroundKo": "러시아 중산층 가정에서 출생.",
+    "education": "Russian higher education.", "educationKo": "러시아 고등교육.",
+    "earlyLife": "Co-founded R-Pharm — major Russian pharmaceutical company; built into vertically integrated pharma manufacturer.",
+    "earlyLifeKo": "R-Pharm 공동 창립 — 주요 러시아 제약 회사; 수직 통합 제약 제조사로 키움.",
+    "source": "https://www.forbes.com/profile/egor-kulkov/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "R-Pharm 25+년 자수성가." },
+  "careerTimeline": [
+    { "year": 2001, "age": 30, "event": "Co-founded R-Pharm in Moscow.", "eventKo": "모스크바에서 R-Pharm 공동 창립.", "whyItMatteredKo": "25+년 자수성가 출발선." },
+    { "year": 2010, "age": 39, "event": "R-Pharm became one of Russia's largest domestic pharma manufacturers.", "eventKo": "R-Pharm이 러시아 최대 국내 제약 제조사 중 하나가 됨.", "whyItMatteredKo": "국내 메이저 단계." },
+    { "year": 2020, "age": 49, "event": "R-Pharm partnered with AstraZeneca on Sputnik V vaccine manufacturing in Russia.", "eventKo": "R-Pharm이 러시아에서 AstraZeneca와 Sputnik V 백신 제조 파트너십.", "whyItMatteredKo": "팬데믹 자본 단계." },
+    { "year": 2025, "age": 54, "event": "Personal net worth at $4.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 47억 달러.", "whyItMatteredKo": "25+년 제약 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2001, "age": 30, "decisionKo": "러시아 제약 회사 공동 창립", "alternativeKo": "정부·직장 경력", "outcomeKo": "25년 후 러시아 제약 메이저 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "R-Pharm(비공개 회사) 공동 창립자 지분", "industryKo": "제약 제조·유통", "businessModelKo": "러시아 시장 약품 제조·라이선스·유통", "moatKo": "러시아 정부 인맥 + 25년 제약 인프라", "luckVsSkillKo": "운(55%): 러시아 시장 보호 + 정부 조달. 실력(45%): 25년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of R-Pharm; major Russian pharmaceutical industrialist.",
+    "knownForKo": "R-Pharm 공동 창립자; 주요 러시아 제약 산업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "R-Pharm Russian government contract scrutiny; Sputnik V production controversies.",
+    "controversiesKo": "R-Pharm 러시아 정부 계약 감시; Sputnik V 생산 논란."
+  },
+  "characterKo": { "summaryKo": "러시아 제약 산업 25년 공동 창립자.", "tagsKo": ["R-Pharm", "러시아 제약", "25년 자수성가"] },
+  "failures": [
+    { "year": 2014, "description": "Russia-Ukraine 2014 sanctions disrupted R-Pharm Western drug-licensing partnerships.", "descriptionKo": "2014 러시아-우크라이나 제재가 R-Pharm 서방 약품 라이선스 파트너십 혼란.", "lesson": "Russian pharma exposed to geopolitical license risk.", "lessonKo": "러시아 제약은 지정학적 라이선스 리스크 노출." },
+    { "year": 2022, "description": "Post-2022 sanctions further restricted R-Pharm's Western partnerships; supply chain compressed.", "descriptionKo": "2022 이후 제재로 R-Pharm 서방 파트너십 추가 제한; 공급망 압축.", "lesson": "Sustained geopolitical exposure compresses cross-border industry.", "lessonKo": "지속적 지정학 노출은 국경 간 산업 압축." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 2.5 }, { "year": 2022, "netWorth": 4.0 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Russia needs Russian medicine production.", "textKo": "러시아는 러시아 의약품 생산이 필요하다.", "context": "On import-substitution strategy", "contextKo": "수입 대체 전략에 대해", "source": "https://www.r-pharm.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-In day pillar in Hae month — 'sanggwan-gyeok', creative output, fitting pharmaceutical co-founder.", "summaryKo": "병인 일주 + 해월 상관격(창의적 결과물·표현)은 25년에 걸쳐 러시아 제약 산업이라는 비전형적 자본 누적 통로를 만든 그의 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 의약품 제조라는 사람을 살리는 산업과 통하고, 인목 일지의 목 기운이 25+년 회사 성장을 가리킵니다." }
+}

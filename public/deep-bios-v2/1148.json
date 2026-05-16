@@ -1,0 +1,39 @@
+{
+  "id": "1148", "name": "Vladimir Litvinenko", "nameKo": "블라디미르 스테파노비치 리트비넨코",
+  "netWorth": 3.6, "nationality": "RU", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Topki, Kemerovo Oblast, USSR", "birthPlaceKo": "소련 케메로보주 톱키",
+    "familyBackground": "Born to working-class Russian family.", "familyBackgroundKo": "노동자 계급 러시아 가정에서 출생.",
+    "education": "Leningrad Mining Institute (now Saint Petersburg Mining University); PhD in geology.", "educationKo": "레닌그라드 광업학교(현 상트페테르부르크 광업대학); 지질학 박사.",
+    "earlyLife": "Joined Saint Petersburg Mining University faculty; became rector in 1994 — built academic career while accumulating PhosAgro fertilizer-company stake.",
+    "earlyLifeKo": "상트페테르부르크 광업대학 교수진 합류; 1994년 총장 취임 — PhosAgro 비료 회사 지분 축적하면서 학문 경력 구축.",
+    "source": "https://en.wikipedia.org/wiki/Vladimir_Litvinenko"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "학문 경력 + PhosAgro 지분 누적." },
+  "careerTimeline": [
+    { "year": 1980, "age": 25, "event": "Began geology research career at Leningrad Mining Institute.", "eventKo": "레닌그라드 광업학교 지질학 연구 경력 시작.", "whyItMatteredKo": "학문 자본 출발선." },
+    { "year": 1994, "age": 39, "event": "Became rector of Saint Petersburg Mining University; held position 30+ years.", "eventKo": "상트페테르부르크 광업대학 총장 취임; 30+년 보유.", "whyItMatteredKo": "장기 학문 권력 단계." },
+    { "year": 2000, "age": 45, "event": "Vladimir Putin (former student) became Russian president; political connections strengthened.", "eventKo": "전 학생 블라디미르 푸틴이 러시아 대통령 취임; 정치 연결 강화.", "whyItMatteredKo": "정치 자본 단계." },
+    { "year": 2011, "age": 56, "event": "PhosAgro IPO on London Stock Exchange; Litvinenko's accumulated stake materialized as billionaire wealth.", "eventKo": "PhosAgro 런던 증시 IPO; 리트비넨코의 누적 지분이 억만장자 부로 실현.", "whyItMatteredKo": "공개 시장 평가 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $3.6B per Forbes Real-Time. Continues as Mining University rector and PhosAgro shareholder.", "eventKo": "포브스 실시간 기준 개인 순자산 36억 달러. 광업대학 총장 + PhosAgro 주주 계속.", "whyItMatteredKo": "학문 + 자본 이중 정체성 정점." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 39, "decisionKo": "광업대학 총장 취임 — 학문에서 정치 자본가로", "alternativeKo": "학자 잔류", "outcomeKo": "30+년 총장 + 정치 인맥 + 비료 회사 지분" }],
+  "moneyMechanics": { "primaryRevenueKo": "PhosAgro(런던·모스크바 증시) 지분 + 광업대학 총장직", "industryKo": "비료 제조 + 학문 권력", "businessModelKo": "비료 광물 수직 통합 + 학문·정치 자본", "moatKo": "30+년 총장직 + 푸틴 정치 인맥", "luckVsSkillKo": "운(60%): 전 학생 푸틴의 대통령 취임. 실력(40%): 30년 학문·자본 일관성." },
+  "personalTraits": {
+    "knownFor": "Long-term rector of Saint Petersburg Mining University; PhosAgro major shareholder; close political ties to Vladimir Putin.",
+    "knownForKo": "장기 상트페테르부르크 광업대학 총장; PhosAgro 주요 주주; 블라디미르 푸틴과 친밀한 정치 연결.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "EU/UK sanctions designations after 2022 over alleged Putin ties; accumulated PhosAgro stake while academic.",
+    "controversiesKo": "2022년 이후 푸틴 연계 의혹으로 EU/영국 제재 지정; 학자 신분으로 PhosAgro 지분 축적."
+  },
+  "characterKo": { "summaryKo": "30년 광업대학 총장 + 푸틴 인맥 + PhosAgro 주주의 이중 정체성.", "tagsKo": ["광업대학 총장", "PhosAgro", "푸틴 인맥"] },
+  "failures": [
+    { "year": 2022, "description": "EU/UK sanctioned Litvinenko personally over alleged Kremlin ties; froze European assets.", "descriptionKo": "EU·영국이 크렘린 연계 의혹으로 리트비넨코 개인 제재; 유럽 자산 동결.", "lesson": "Political proximity creates geopolitical sanction exposure.", "lessonKo": "정치적 근접성이 지정학적 제재 노출 야기." },
+    { "year": 2020, "description": "PhosAgro stock fell during COVID-19 fertilizer-demand uncertainty.", "descriptionKo": "COVID-19 비료 수요 불확실성으로 PhosAgro 주가 하락.", "lesson": "Single-commodity exposure carries cyclical risk.", "lessonKo": "단일 원자재 노출은 사이클 리스크 동반." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 3.4 }, { "year": 2025, "netWorth": 3.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Geology requires patience. So does politics.", "textKo": "지질학은 인내를 요한다. 정치도 그렇다.", "context": "On 30-year rectorship", "contextKo": "30년 총장직에 대해", "source": "https://en.wikipedia.org/wiki/Vladimir_Litvinenko" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Mi day pillar in Shin month — 'jeongin-gyeok', academic-paternal authority, fitting 30-year university rector.", "summaryKo": "정미 일주 + 신월 정인격(공식 교육·학문 자본)은 30년 광업대학 총장직 + 박사 학위로 쌓아온 학문 자본과 정확히 호응합니다. 정인격이 평생 학문·문서·자격증 권위로 부를 짓는 구조라서 학자 신분으로 PhosAgro 지분을 누적한 경로와 통합니다." }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "296", "name": "German Khan", "nameKo": "게르만 칸",
+  "netWorth": 10.5, "nationality": "RU", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "Kyiv, Ukrainian SSR", "birthPlaceKo": "우크라이나 SSR 키예프",
+    "familyBackground": "Born to Jewish family in Soviet Ukraine.", "familyBackgroundKo": "소련 우크라이나 유대인 가정에서 출생.",
+    "education": "Moscow Institute of Steel and Alloys.", "educationKo": "모스크바 철강·합금 학교.",
+    "earlyLife": "Co-founded Alfa Group in 1989 with Mikhail Fridman and Petr Aven; major Russian oil company TNK-BP shareholder.",
+    "earlyLifeKo": "1989년 미하일 프리드만·페트르 아벤과 Alfa Group 공동 창립; 주요 러시아 석유 회사 TNK-BP 주주.",
+    "source": "https://en.wikipedia.org/wiki/German_Khan"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Alfa Group 공동 창립자 + TNK-BP 매각." },
+  "careerTimeline": [
+    { "year": 1989, "age": 28, "event": "Co-founded Alfa Group with Fridman and Aven in Moscow.", "eventKo": "모스크바에서 프리드만·아벤과 Alfa Group 공동 창립.", "whyItMatteredKo": "Alfa 출발선." },
+    { "year": 1995, "age": 34, "event": "Acquired Russian oil company TNK during loans-for-shares auction.", "eventKo": "주식 대출 경매 동안 러시아 석유 회사 TNK 인수.", "whyItMatteredKo": "올리가르히 자본 단계." },
+    { "year": 2003, "age": 42, "event": "Sold 50% of TNK to BP for $7B; formed TNK-BP joint venture.", "eventKo": "TNK 50%를 BP에 70억 달러 매각; TNK-BP 조인트 벤처 형성.", "whyItMatteredKo": "글로벌 자본 단계." },
+    { "year": 2013, "age": 52, "event": "Sold TNK-BP to Rosneft for $55B; Khan's share crystallized $8B+.", "eventKo": "TNK-BP를 Rosneft에 550억 달러 매각; 칸의 지분이 80억 달러+ 결정화.", "whyItMatteredKo": "정점 엑시트." },
+    { "year": 2025, "age": 63, "event": "Personal net worth at $10.5B per Forbes Real-Time. Under EU/UK sanctions since 2022.", "eventKo": "포브스 실시간 기준 개인 순자산 105억 달러. 2022년 이후 EU/영국 제재.", "whyItMatteredKo": "올리가르히 자본 + 제재 잔여." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 34, "decisionKo": "주식 대출 경매에서 TNK 인수", "alternativeKo": "Alfa 은행 집중", "outcomeKo": "올리가르히 + 18년 후 정점 엑시트" }],
+  "moneyMechanics": { "primaryRevenueKo": "TNK-BP 매각 대금 투자 + LetterOne 글로벌 투자 그룹", "industryKo": "석유 매각 후 다각화 투자", "businessModelKo": "TNK-BP 매각 대금 + LetterOne 글로벌 PE·부동산·자원", "moatKo": "올리가르히 자본 + 프리드만·아벤 파트너십", "luckVsSkillKo": "운(60%): 1995 주식 대출 경매 + 2003 BP 진입 타이밍. 실력(40%): Alfa 36년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Alfa Group; former TNK-BP shareholder; LetterOne co-investor; major art collector.",
+    "knownForKo": "Alfa Group 공동 창립자; 전 TNK-BP 주주; LetterOne 공동 투자자; 주요 미술품 수집가.",
+    "philanthropy": "Genesis Philanthropy Group — Jewish-diaspora philanthropy.",
+    "philanthropyKo": "Genesis Philanthropy Group — 유대인 디아스포라 자선.",
+    "controversies": "1995 loans-for-shares acquisitions politically controversial; 2022 EU/UK sanctions over alleged Putin ties.",
+    "controversiesKo": "1995 주식 대출 인수가 정치적 논란; 2022 EU/영국 푸틴 연계 의혹 제재."
+  },
+  "characterKo": { "summaryKo": "Alfa Group 공동 창립자 + TNK-BP 매각 + 제재 직면 올리가르히.", "tagsKo": ["Alfa Group", "TNK-BP", "올리가르히", "제재"] },
+  "failures": [
+    { "year": 2022, "description": "EU/UK sanctioned Khan over alleged Kremlin ties; frozen European assets.", "descriptionKo": "EU·영국이 크렘린 연계 의혹으로 칸 제재; 유럽 자산 동결.", "lesson": "Russian-origin wealth faces geopolitical-sanction risk.", "lessonKo": "러시아 출신 부는 지정학적 제재 리스크 직면." },
+    { "year": 2014, "description": "Russia-Ukraine conflict 2014 onwards created sustained sanctions risk; Crimea response triggered Alfa restructuring.", "descriptionKo": "2014 러시아-우크라이나 분쟁이 지속적 제재 리스크 야기; 크림 반응이 Alfa 재구조화 촉발.", "lesson": "Geopolitics increasingly governs Russian business.", "lessonKo": "지정학이 러시아 사업을 점점 더 지배." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 9.1 }, { "year": 2020, "netWorth": 9.6 }, { "year": 2024, "netWorth": 10.0 }, { "year": 2025, "netWorth": 10.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Russia's 1990s was a window. We climbed through it.", "textKo": "러시아의 1990년대는 창문이었다. 우리는 그 창문을 통해 올랐다.", "context": "On Alfa Group origins", "contextKo": "Alfa Group 기원에 대해", "source": "https://www.alfagroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-In day pillar in Sul month — 'pyeon-in-gyeok', creative-strategic intuition, fitting oligarch turned global investor.", "summaryKo": "경인 일주 + 술월 편인격(독학·창의적 직관)은 소련 붕괴기 비전형적 자본 축적 방식 + 글로벌 다각화로 이어진 그의 경로와 호응합니다. 경금 일간의 단단한 금속·결단력이 1995 주식 대출 경매·2003 BP 거래·2013 매각 같은 큰 결단과 통하고, 인목 일지의 목 기운이 자본 성장 욕구를 가리킵니다." }
+}

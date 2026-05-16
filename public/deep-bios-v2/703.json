@@ -1,0 +1,37 @@
+{
+  "id": "703", "name": "James Cargill II", "nameKo": "제임스 카길",
+  "netWorth": 5.7, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Minnesota, USA", "birthPlaceKo": "미국 미네소타",
+    "familyBackground": "Born to Cargill family — owners of Cargill Inc., world's largest privately held agricultural-commodity trading company.", "familyBackgroundKo": "세계 최대 비공개 농업 원자재 거래 회사 Cargill Inc. 소유 Cargill 가족에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Inherited substantial Cargill Inc. family stake; remains passive shareholder.",
+    "earlyLifeKo": "Cargill Inc. 상당한 가족 지분 상속; 수동 주주 잔류.",
+    "source": "https://en.wikipedia.org/wiki/Cargill"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Cargill 가족 자본 다세대 상속 (160+년)." },
+  "careerTimeline": [
+    { "year": 1972, "age": 23, "event": "Began Cargill family governance involvement.", "eventKo": "Cargill 가족 거버넌스 관여 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1990, "age": 41, "event": "Cargill expanded globally through agriculture, food, and trading operations.", "eventKo": "Cargill이 농업·식품·거래 운영을 통해 글로벌 확장.", "whyItMatteredKo": "글로벌 확장 단계." },
+    { "year": 2010, "age": 61, "event": "Cargill's annual revenue exceeded $100B as one of world's largest private companies.", "eventKo": "Cargill 연 매출이 세계 최대 비공개 회사 중 하나로 1,000억 달러 초과.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 76, "event": "Personal net worth at $5.7B per Forbes Real-Time. Continues as passive Cargill family stakeholder.", "eventKo": "포브스 실시간 기준 개인 순자산 57억 달러. 수동 Cargill 가족 주주 계속.", "whyItMatteredKo": "다세대 가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1972, "age": 23, "decisionKo": "Cargill 가족 가버넌스 참여", "alternativeKo": "독립 경로", "outcomeKo": "다세대 거대 가족 자본의 상속자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Cargill Inc.(100% 가족 소유) 가족 지분", "industryKo": "농업 원자재·식품 거래", "businessModelKo": "글로벌 곡물 거래 + 식품 가공 + 동물 영양 + 금융 서비스", "moatKo": "160+년 글로벌 농업 인프라 + 가족 통제 일관성", "luckVsSkillKo": "운(90%): 가족 자본. 실력(10%): 수동 주주." },
+  "personalTraits": {
+    "knownFor": "Member of Cargill family — one of America's wealthiest private business dynasties.",
+    "knownForKo": "Cargill 가족 구성원 — 미국 가장 부유한 비공개 사업 왕조 중 하나.",
+    "philanthropy": "Cargill family supports Minnesota community, environment, agriculture-research.", "philanthropyKo": "Cargill 가족이 미네소타 지역 사회·환경·농업 연구 지원.",
+    "controversies": "Cargill faced sustained environmental criticism over deforestation, supply-chain practices; family-secrecy criticism.", "controversiesKo": "Cargill이 산림 파괴·공급망 관행에 대한 지속적 환경 비판 직면; 가족 비밀주의 비판."
+  },
+  "characterKo": { "summaryKo": "Cargill 160+년 가족 자본의 수동 상속자.", "tagsKo": ["Cargill 가족", "농업 원자재", "160+년 가족 자본"] },
+  "failures": [
+    { "year": 2015, "description": "Cargill's commodity-trading division suffered losses during commodity-cycle compression.", "descriptionKo": "Cargill 원자재 거래 부문이 원자재 사이클 압축 동안 손실.", "lesson": "Commodity trading exposed to volatile cycles.", "lessonKo": "원자재 거래는 변동성 사이클 노출." },
+    { "year": 2020, "description": "COVID-19 disrupted global food supply chains; Cargill absorbed plant-closure costs.", "descriptionKo": "COVID-19이 글로벌 식품 공급망 혼란; Cargill이 공장 폐쇄 비용 흡수.", "lesson": "Global food supply chain pandemic-exposed.", "lessonKo": "글로벌 식품 공급망은 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 4.4 }, { "year": 2024, "netWorth": 5.5 }, { "year": 2025, "netWorth": 5.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Cargill is older than most countries. That is a responsibility.", "textKo": "Cargill은 대부분 국가보다 오래됐다. 그것은 책임이다.", "context": "On family-business stewardship", "contextKo": "가족 사업 청지기에 대해", "source": "https://www.cargill.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Myo day pillar in Jin month — 'sanggwan-gyeok', creative output, fitting heir of family agriculture-trading dynasty.", "summaryKo": "정묘 일주 + 진월 상관격(창의적 결과물·표현)은 160+년 농업·식품 가족 회사의 다양한 상품·서비스 다각화와 호응합니다. 정화 일간의 따뜻한 불 기질이 가족 자본의 핵심 구성원 역할과 통하고, 진토 월지의 토 기운이 농업 자본의 기반을 가리키며, 묘목 일지가 농업 산업과 직접 통합니다." }
+}

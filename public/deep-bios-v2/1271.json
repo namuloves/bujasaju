@@ -1,0 +1,37 @@
+{
+  "id": "1271", "name": "Liora Ofer", "nameKo": "리오라 오페르",
+  "netWorth": 3.2, "nationality": "IL", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Israel", "birthPlaceKo": "이스라엘",
+    "familyBackground": "Born to Sammy Ofer — Israeli shipping and real-estate magnate. Sister of Eyal Ofer and Idan Ofer.", "familyBackgroundKo": "이스라엘 해운·부동산 거물 새미 오퍼의 딸. 에얄 오퍼와 이단 오퍼의 누이.",
+    "education": "Israeli secondary education.", "educationKo": "이스라엘 중등교육.",
+    "earlyLife": "Inherited substantial stake in the Ofer family business empire after father Sammy's 2011 death.",
+    "earlyLifeKo": "2011년 아버지 새미 사망 후 오퍼 가족 사업 제국의 상당한 지분 상속.",
+    "source": "https://en.wikipedia.org/wiki/Sammy_Ofer"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Ofer 가족 자본 상속." },
+  "careerTimeline": [
+    { "year": 1990, "age": 37, "event": "Began involvement in Ofer family business operations.", "eventKo": "Ofer 가족 사업 운영 관여 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2011, "age": 58, "event": "Father Sammy Ofer died at 89; family wealth divided among heirs including Liora.", "eventKo": "아버지 새미 오퍼 89세에 사망; 가족 부가 리오라 포함 상속자들에 분할.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2015, "age": 62, "event": "Became chair of Melisron Ltd., major Israeli real-estate company controlled by family.", "eventKo": "가족 통제 주요 이스라엘 부동산 회사 Melisron Ltd. 의장 취임.", "whyItMatteredKo": "가족 거버넌스 단계." },
+    { "year": 2025, "age": 72, "event": "Personal net worth at $3.2B per Forbes Real-Time. Continues as Melisron chair.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러. Melisron 의장 계속.", "whyItMatteredKo": "가족 자본 14년 거버넌스 정점." }
+  ],
+  "turningPoints": [{ "year": 2011, "age": 58, "decisionKo": "아버지 사후 Ofer 가족 자본 인수", "alternativeKo": "독립 경로", "outcomeKo": "이스라엘 주요 부동산 회사 의장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Melisron Ltd.(텔아비브 증시) + Ofer 가족 자본", "industryKo": "부동산 + 해운", "businessModelKo": "이스라엘 상업 부동산 + 해운 가족 지분", "moatKo": "Ofer 다세대 가족 자본", "luckVsSkillKo": "운(75%): 가족 자본. 실력(25%): 14년 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Chair of Melisron Ltd.; daughter of Sammy Ofer; sister of Eyal and Idan Ofer.",
+    "knownForKo": "Melisron Ltd. 의장; 새미 오퍼의 딸; 에얄·이단 오퍼의 누이.",
+    "philanthropy": "Ofer family supports Israeli cultural and medical institutions.", "philanthropyKo": "Ofer 가족이 이스라엘 문화·의료 기관 지원.",
+    "controversies": "Limited; standard family-business inheritance scrutiny.", "controversiesKo": "제한적; 표준 가족 사업 상속 감시."
+  },
+  "characterKo": { "summaryKo": "Ofer 가족 부의 상속자 + 이스라엘 부동산 회사 의장.", "tagsKo": ["Ofer 가족", "Melisron 의장", "이스라엘 부동산"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 closed Israeli shopping centers; Melisron rental income compressed.", "descriptionKo": "COVID-19이 이스라엘 쇼핑센터 폐쇄; Melisron 임대 수입 압축.", "lesson": "Commercial real-estate faces pandemic exposure.", "lessonKo": "상업 부동산은 팬데믹 노출 직면." },
+    { "year": 2023, "description": "Israel-Hamas conflict disrupted Israeli commercial real-estate activity in late 2023.", "descriptionKo": "이스라엘-하마스 분쟁이 2023년 말 이스라엘 상업 부동산 활동 혼란.", "lesson": "Single-country real-estate concentration faces geopolitical risk.", "lessonKo": "단일 국가 부동산 집중은 지정학적 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "My father built ships. I build buildings.", "textKo": "아버지는 배를 만들었다. 나는 건물을 만든다.", "context": "On family-business succession", "contextKo": "가족 사업 승계에 대해", "source": "https://www.melisron.co.il" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Mi day pillar in Ja month — 'jeongin-gyeok', maternal-academic support, fitting inherited family-business chair.", "summaryKo": "정미 일주 + 자월 정인격(공식 자격·가족 권위)은 아버지로부터 물려받은 가족 자본 + 의장직 권위와 호응합니다. 자수 월지가 강한 인성을 만들어 평생 가족 자본의 지지를 받는 구조이고, 정인격이 그 안정 기반에서 부동산 회사 거버넌스를 운영하는 경로와 통합니다." }
+}

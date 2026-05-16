@@ -1,0 +1,37 @@
+{
+  "id": "1051", "name": "Alberto Siccardi", "nameKo": "알베르토 시카르디",
+  "netWorth": 3.9, "nationality": "CH", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Italy", "birthPlaceKo": "이탈리아",
+    "familyBackground": "Born to Italian family.", "familyBackgroundKo": "이탈리아 가정에서 출생.",
+    "education": "Italian higher education.", "educationKo": "이탈리아 고등교육.",
+    "earlyLife": "Founded Medacta International in 1999 — Swiss orthopedic-implant manufacturer specializing in minimally invasive surgery.",
+    "earlyLifeKo": "1999년 Medacta International 창립 — 최소 침습 수술 전문 스위스 정형외과 임플란트 제조사.",
+    "source": "https://en.wikipedia.org/wiki/Medacta"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Medacta International 26년 자수성가." },
+  "careerTimeline": [
+    { "year": 1999, "age": 55, "event": "Founded Medacta International in Switzerland.", "eventKo": "스위스에서 Medacta International 창립.", "whyItMatteredKo": "26년 자수성가 출발선." },
+    { "year": 2010, "age": 66, "event": "Medacta expanded globally through orthopedic-surgeon training programs.", "eventKo": "Medacta가 정형외과 의사 훈련 프로그램을 통해 글로벌 확장.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2019, "age": 75, "event": "Medacta IPO on SIX Swiss Exchange; family stake substantially crystallized.", "eventKo": "Medacta SIX 스위스 증시 IPO; 가족 지분 상당히 결정화.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2025, "age": 81, "event": "Personal net worth at $3.9B per Forbes Real-Time. Continues as Medacta chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 39억 달러. Medacta 의장 계속.", "whyItMatteredKo": "26년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 55, "decisionKo": "55세에 스위스로 이주해 정형외과 임플란트 회사 창립", "alternativeKo": "이탈리아 잔류", "outcomeKo": "26년 후 글로벌 정형외과 임플란트 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Medacta International(SIX 상장) 가족 지분", "industryKo": "정형외과 임플란트·의료 기기", "businessModelKo": "엉덩이·무릎 임플란트 + 외과의 훈련 + 글로벌 채널", "moatKo": "26년 외과의 훈련 인프라 + 가족 통제", "luckVsSkillKo": "운(35%): 글로벌 정형외과 시장 성장. 실력(65%): 26년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Medacta International; pioneering minimally-invasive-orthopedic-implant entrepreneur.",
+    "knownForKo": "Medacta International 창립자; 선구적 최소 침습 정형외과 임플란트 기업가.",
+    "philanthropy": "Medacta supports Swiss-Italian orthopedic surgeon training globally.", "philanthropyKo": "Medacta가 스위스·이탈리아 정형외과 의사 글로벌 훈련 지원.",
+    "controversies": "Standard medical-device industry regulatory and FDA scrutiny.", "controversiesKo": "표준 의료 기기 산업 규제·FDA 감시."
+  },
+  "characterKo": { "summaryKo": "55세에 스위스로 이주해 Medacta 글로벌 정형외과 메이저 26년 자수성가.", "tagsKo": ["Medacta", "정형외과 임플란트", "55세 창업"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted elective orthopedic surgeries globally; Medacta revenue briefly compressed.", "descriptionKo": "COVID-19이 글로벌 선택적 정형외과 수술 혼란; Medacta 매출 잠시 압축.", "lesson": "Elective medical devices face pandemic exposure.", "lessonKo": "선택적 의료 기기는 팬데믹 노출 직면." },
+    { "year": 2022, "description": "Post-COVID elective-surgery normalization compressed Medacta growth rate.", "descriptionKo": "팬데믹 후 선택적 수술 정상화로 Medacta 성장률 압축.", "lesson": "Pandemic demand-pull creates post-cycle compression.", "lessonKo": "팬데믹 수요 당김이 사이클 후 압축 야기." }
+  ],
+  "wealthHistory": [{ "year": 2019, "netWorth": 1.6 }, { "year": 2020, "netWorth": 2.3 }, { "year": 2024, "netWorth": 3.7 }, { "year": 2025, "netWorth": 3.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Implants are unfinished until a surgeon learns the technique.", "textKo": "임플란트는 외과의가 기술을 배울 때까지 미완성이다.", "context": "On surgeon training", "contextKo": "외과의 훈련에 대해", "source": "https://www.medacta.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Chuk day pillar in Jin month — 'jeongjae-gyeok', steady accumulation, fitting late-career medical-device founder.", "summaryKo": "을축 일주 + 진월 정재격(고정 자산·꾸준한 매출)은 55세 늦은 창업으로 26년에 걸쳐 의료 기기 시장에서 안정 자본을 누적한 그의 경로와 호응합니다. 을목 일간의 부드러운 식물 기질이 의료 산업의 사람을 돕는 정체성과 통하고, 축토 일지·진토 월지의 토 기운이 26년 회사 자본의 안정 기반을 가리킵니다." }
+}

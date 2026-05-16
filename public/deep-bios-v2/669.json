@@ -1,0 +1,39 @@
+{
+  "id": "669", "name": "Vladimir Kim", "nameKo": "블라디미르 세르게예비치 김",
+  "netWorth": 5.9, "nationality": "KZ", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Kazakhstan", "birthPlaceKo": "카자흐스탄",
+    "familyBackground": "Born to Korean-Kazakh family — descendants of Korean diaspora forcibly relocated to Central Asia under Stalin.", "familyBackgroundKo": "스탈린 하에 중앙아시아로 강제 이주된 한국인 디아스포라 후손인 한국·카자흐 가정에서 출생.",
+    "education": "Soviet Kazakh higher education.", "educationKo": "소련 카자흐 고등교육.",
+    "earlyLife": "Built career in Soviet Kazakhstan's copper-mining industry; rose to control Kazakhmys (now KAZ Minerals) — major Kazakh copper miner.",
+    "earlyLifeKo": "소련 카자흐스탄의 구리 광업 산업 경력 구축; Kazakhmys(현 KAZ Minerals) 통제로 부상 — 주요 카자흐 구리 광부.",
+    "source": "https://en.wikipedia.org/wiki/Vladimir_Kim_(businessman)"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Kazakhmys/KAZ Minerals 누적 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 25, "event": "Began career in Soviet Kazakh mining industry.", "eventKo": "소련 카자흐 광업 산업 경력 시작.", "whyItMatteredKo": "광업 자본 출발선." },
+    { "year": 1995, "age": 35, "event": "Acquired stake in Kazakhmys during Kazakh post-Soviet privatization.", "eventKo": "카자흐 소련 해체 후 민영화 동안 Kazakhmys 지분 인수.", "whyItMatteredKo": "민영화 자본 단계." },
+    { "year": 2005, "age": 45, "event": "Kazakhmys listed on London Stock Exchange; Kim controlled major stake.", "eventKo": "Kazakhmys 런던 증시 상장; 김이 주요 지분 통제.", "whyItMatteredKo": "공개 시장 평가 단계." },
+    { "year": 2014, "age": 54, "event": "Kazakhmys split into KAZ Minerals and Kazakhmys; Kim continued as KAZ chairman.", "eventKo": "Kazakhmys가 KAZ Minerals와 Kazakhmys로 분할; 김이 KAZ 의장 계속.", "whyItMatteredKo": "재구조화 단계." },
+    { "year": 2025, "age": 65, "event": "Personal net worth at $5.9B per Forbes Real-Time. Continues as Kazakh mining magnate.", "eventKo": "포브스 실시간 기준 개인 순자산 59억 달러. 카자흐 광업 거물 계속.", "whyItMatteredKo": "40년 광업 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 35, "decisionKo": "Kazakhmys 민영화 지분 인수", "alternativeKo": "운영 직원 잔류", "outcomeKo": "30년 후 카자흐 구리 광업 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "KAZ Minerals(런던·아스타나 증시) 지분", "industryKo": "구리·아연 광업", "businessModelKo": "카자흐 구리 광산 + 글로벌 원자재 매출", "moatKo": "30년 카자흐 광업 인프라 + 정부 인맥", "luckVsSkillKo": "운(60%): 1995 민영화 + 2000-2010 원자재 슈퍼사이클. 실력(40%): 30년 광업 경영." },
+  "personalTraits": {
+    "knownFor": "Chairman of KAZ Minerals; major Kazakh copper-mining magnate; Korean-Kazakh diaspora businessman.",
+    "knownForKo": "KAZ Minerals 의장; 주요 카자흐 구리 광업 거물; 한국·카자흐 디아스포라 사업가.",
+    "philanthropy": "Supports Kazakh education and Korean-Kazakh diaspora cultural programs.", "philanthropyKo": "카자흐 교육·한국·카자흐 디아스포라 문화 프로그램 지원.",
+    "controversies": "1995 Kazakhmys privatization terms politically scrutinized; sustained environmental criticism over copper mining.",
+    "controversiesKo": "1995 Kazakhmys 민영화 조건이 정치적 감시; 구리 광업에 대한 지속적 환경 비판."
+  },
+  "characterKo": { "summaryKo": "한국 디아스포라 후손이 카자흐 구리 광업 거물로 30년 자수성가.", "tagsKo": ["KAZ Minerals", "카자흐 구리", "한국 디아스포라"] },
+  "failures": [
+    { "year": 2015, "description": "Copper-price crash 2015 collapsed KAZ Minerals stock; major valuation drawdown.", "descriptionKo": "2015 구리 가격 폭락으로 KAZ Minerals 주가 붕괴; 주요 밸류에이션 하락.", "lesson": "Pure-play miner exposed to single-commodity cycle.", "lessonKo": "단일 원자재 광부는 단일 사이클 노출." },
+    { "year": 2020, "description": "COVID-19 disrupted Kazakh mining operations and copper demand temporarily.", "descriptionKo": "COVID-19이 카자흐 광업 운영·구리 수요 일시 혼란.", "lesson": "Commodity miners face pandemic demand-cycle risk.", "lessonKo": "원자재 광부는 팬데믹 수요 사이클 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.6 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 5.7 }, { "year": 2025, "netWorth": 5.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Copper is the bone of every electrical age.", "textKo": "구리는 모든 전기 시대의 뼈다.", "context": "On copper industry", "contextKo": "구리 산업에 대해", "source": "https://www.kazminerals.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-In day pillar in Sul month — 'pyeon-gwan-gyeok', strong external authority, fitting privatization-era mining magnate.", "summaryKo": "경인 일주 + 술월 편관격(강한 외부 압박·권력 충돌)은 소련 해체기·민영화기의 격렬한 권력 환경 안에서 광업 자본을 누적한 그의 경로와 호응합니다. 경금 일간의 단단한 금속·결단력이 구리 광업이라는 금속 자본과 직접 통하고, 인목 일지의 목 기운이 30+년 자본 성장을 가리킵니다." }
+}

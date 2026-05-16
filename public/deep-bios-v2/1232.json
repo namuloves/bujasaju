@@ -1,0 +1,40 @@
+{
+  "id": "1232", "name": "Sean Parker", "nameKo": "션 파커",
+  "netWorth": 3.4, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Virginia, USA", "birthPlaceKo": "미국 버지니아",
+    "familyBackground": "Born to American family; father a US oceanographer.", "familyBackgroundKo": "미국 가정에서 출생; 아버지는 미국 해양학자.",
+    "education": "Self-taught programmer; no college degree.", "educationKo": "독학 프로그래머; 대학 학위 없음.",
+    "earlyLife": "Co-founded Napster file-sharing service at age 19 (1999); later first president of Facebook; founded Plaxo and other ventures.",
+    "earlyLifeKo": "19세에 Napster 파일 공유 서비스 공동 창립(1999); 이후 Facebook 첫 사장; Plaxo·기타 벤처 창립.",
+    "source": "https://en.wikipedia.org/wiki/Sean_Parker"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Facebook 초기 지분 + 다수 벤처 엑시트." },
+  "careerTimeline": [
+    { "year": 1999, "age": 20, "event": "Co-founded Napster with Shawn Fanning; revolutionized music file-sharing.", "eventKo": "숀 패닝과 Napster 공동 창립; 음악 파일 공유 혁명.", "whyItMatteredKo": "기술 산업 출발선." },
+    { "year": 2004, "age": 25, "event": "Became founding president of Facebook; brought in early venture capital.", "eventKo": "Facebook 창립 사장 취임; 초기 벤처 캐피탈 도입.", "whyItMatteredKo": "Facebook 자본 단계." },
+    { "year": 2005, "age": 26, "event": "Forced out of Facebook after personal scandal; kept significant stake.", "eventKo": "개인 스캔들 후 Facebook에서 강제 퇴출; 상당한 지분 유지.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2012, "age": 33, "event": "Facebook IPO crystallized Parker's stake; net worth crossed $2B.", "eventKo": "Facebook IPO로 파커 지분 결정화; 순자산 20억 달러 돌파.", "whyItMatteredKo": "공개 시장 평가 단계." },
+    { "year": 2025, "age": 46, "event": "Personal net worth at $3.4B per Forbes Real-Time. Active in cancer immunotherapy philanthropy.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러. 암 면역 치료 자선 활발.", "whyItMatteredKo": "기술 자본 + 자선가 정점." }
+  ],
+  "turningPoints": [{ "year": 2004, "age": 25, "decisionKo": "Facebook 창립 사장 합류", "alternativeKo": "독립 벤처 잔류", "outcomeKo": "Facebook 초기 지분으로 평생 부 결정화" }],
+  "moneyMechanics": { "primaryRevenueKo": "Facebook 초기 지분 매각 대금 + Founders Fund + 다각화 벤처 투자", "industryKo": "기술 투자·자선", "businessModelKo": "Facebook 매각 대금 + 벤처 투자 + 자선 임팩트 투자", "moatKo": "기술 산업 인맥 + 자선 임팩트", "luckVsSkillKo": "운(50%): 2004 Facebook 초기 합류 타이밍. 실력(50%): Napster + Plaxo + Facebook 연쇄 혁신." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Napster; founding president of Facebook; founder of Parker Institute for Cancer Immunotherapy.",
+    "knownForKo": "Napster 공동 창립자; Facebook 창립 사장; Parker Institute for Cancer Immunotherapy 창립자.",
+    "philanthropy": "Parker Institute funded $250M+ cancer-immunotherapy research consortium; major philanthropic platform.",
+    "philanthropyKo": "Parker Institute가 2억 5,000만 달러+ 암 면역 치료 연구 컨소시엄 자금; 주요 자선 플랫폼.",
+    "controversies": "2005 Facebook ouster over personal scandal; 2013 California wedding environmental violations ($2.5M settlement).",
+    "controversiesKo": "2005 개인 스캔들로 Facebook 퇴출; 2013 캘리포니아 결혼식 환경 위반(250만 달러 합의)."
+  },
+  "characterKo": { "summaryKo": "Napster·Facebook 공동 창립 + Parker Institute 암 면역 자선가.", "tagsKo": ["Napster", "Facebook 창립 사장", "Parker Institute"] },
+  "failures": [
+    { "year": 2005, "description": "Forced out of Facebook after personal drug-arrest scandal; lost operating role.", "descriptionKo": "개인 마약 체포 스캔들 후 Facebook 강제 퇴출; 운영 역할 상실.", "lesson": "Founder personal-conduct risk magnifies in fast-growing companies.", "lessonKo": "창립자 개인 행동 리스크는 빠르게 성장하는 회사에서 증폭된다." },
+    { "year": 2013, "description": "Lavish California redwood-forest wedding violated environmental regulations; $2.5M penalty.", "descriptionKo": "호화로운 캘리포니아 레드우드 숲 결혼식이 환경 규제 위반; 250만 달러 벌금.", "lesson": "High-profile personal events face environmental scrutiny.", "lessonKo": "주목받는 개인 이벤트는 환경 감시 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 2.7 }, { "year": 2024, "netWorth": 3.2 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "A million dollars isn't cool. You know what's cool? A billion dollars.", "textKo": "100만 달러는 멋지지 않다. 뭐가 멋진지 아나? 10억 달러다.", "context": "Famous quote from The Social Network film, attributed to Parker", "contextKo": "영화 'The Social Network'의 유명 인용, 파커에 귀속", "source": "https://en.wikipedia.org/wiki/Sean_Parker" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Hae month — 'pyeon-in-gyeok', creative-strong intuition, fitting serial-founder reinventor.", "summaryKo": "갑진 일주 + 해월 편인격(독학·창의적 직관)은 19세 Napster부터 Facebook·Parker Institute까지 끊임없이 비전형적 결과물을 만들어낸 그의 경로와 호응합니다. 갑목 일간의 큰 나무·기둥 기질이 거대 인터넷 회사들에서의 핵심 역할과 통하고, 진토 일지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

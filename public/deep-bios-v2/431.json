@@ -1,0 +1,39 @@
+{
+  "id": "431", "name": "David Mark Siegel", "nameKo": "데이비드 마크 시겔",
+  "netWorth": 8.0, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Princeton University; MIT PhD in computer science (AI).", "educationKo": "프린스턴 대학교; MIT 컴퓨터 과학 박사(AI).",
+    "earlyLife": "Worked at D.E. Shaw & Co.; co-founded Two Sigma Investments in 2001 with John Overdeck.",
+    "earlyLifeKo": "D.E. Shaw & Co. 근무; 2001년 존 오버덱과 Two Sigma Investments 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/David_Siegel_(computer_scientist)"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Two Sigma Investments 24년 누적 헤지펀드 carry." },
+  "careerTimeline": [
+    { "year": 1991, "age": 30, "event": "Completed MIT PhD in computer science (AI); joined D.E. Shaw & Co.", "eventKo": "MIT 컴퓨터 과학 박사(AI) 완료; D.E. Shaw & Co. 합류.", "whyItMatteredKo": "퀀트 경력 출발선." },
+    { "year": 2001, "age": 40, "event": "Co-founded Two Sigma Investments with John Overdeck.", "eventKo": "존 오버덱과 Two Sigma Investments 공동 창립.", "whyItMatteredKo": "Two Sigma 출발선." },
+    { "year": 2015, "age": 54, "event": "Two Sigma AUM crossed $40B; cemented top quant-fund leadership.", "eventKo": "Two Sigma AUM 400억 달러 돌파; 톱 퀀트 펀드 리더십 굳힘.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2024, "age": 63, "event": "Two Sigma faced internal disputes between Siegel and Overdeck; SEC compliance scrutiny.", "eventKo": "Two Sigma가 시겔과 오버덱 간 내부 분쟁 직면; SEC 컴플라이언스 감시.", "whyItMatteredKo": "거버넌스 분쟁 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $8.0B per Forbes Real-Time. Two Sigma continues as major quant fund despite governance disputes.", "eventKo": "포브스 실시간 기준 개인 순자산 80억 달러. 거버넌스 분쟁에도 Two Sigma가 주요 퀀트 펀드로 계속.", "whyItMatteredKo": "24년 퀀트 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2001, "age": 40, "decisionKo": "D.E. Shaw 떠나 Two Sigma 공동 창립", "alternativeKo": "D.E. Shaw 잔류", "outcomeKo": "24년 후 톱 퀀트 펀드 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Two Sigma Investments 공동 창립자 지분 + 퀀트 펀드 carry", "industryKo": "헤지펀드(퀀트·알고리즘)", "businessModelKo": "글로벌 멀티 전략 퀀트 — 통계 차익 + 머신러닝", "moatKo": "24년 퀀트 인프라 + MIT PhD 인재풀", "luckVsSkillKo": "운(25%): 2001-2025 퀀트 황금기. 실력(75%): MIT + 24년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Two Sigma Investments; pioneering quant-fund founder; MIT-trained computer scientist.",
+    "knownForKo": "Two Sigma Investments 공동 창립자; 선구적 퀀트 펀드 창립자; MIT 훈련 컴퓨터 과학자.",
+    "philanthropy": "Major MIT and Princeton patron; supports STEM education.", "philanthropyKo": "주요 MIT·프린스턴 후원자; STEM 교육 지원.",
+    "controversies": "2024 Two Sigma SEC charges over conflict-of-interest; co-founder governance disputes with Overdeck.",
+    "controversiesKo": "2024 Two Sigma SEC 이해 충돌 혐의; 오버덱과의 공동 창립자 거버넌스 분쟁."
+  },
+  "characterKo": { "summaryKo": "MIT PhD 출신 Two Sigma 공동 창립 — 글로벌 퀀트 펀드 메이저.", "tagsKo": ["Two Sigma", "MIT PhD", "퀀트 펀드"] },
+  "failures": [
+    { "year": 2024, "description": "Two Sigma settled SEC charges with $90M+ for compliance failures; co-founder governance disputes intensified.", "descriptionKo": "Two Sigma가 컴플라이언스 실패로 9,000만 달러+ SEC 합의; 공동 창립자 거버넌스 분쟁 심화.", "lesson": "Quant-fund governance failures carry regulatory tail risk.", "lessonKo": "퀀트 펀드 거버넌스 실패는 규제 잔여 리스크 동반." },
+    { "year": 2022, "description": "Quant-fund sector compression during 2022-2023 created Two Sigma performance challenges.", "descriptionKo": "2022-2023 퀀트 펀드 부문 압축이 Two Sigma 성과 도전 야기.", "lesson": "Quant strategies face market-regime shifts.", "lessonKo": "퀀트 전략은 시장 체제 전환 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.3 }, { "year": 2020, "netWorth": 5.0 }, { "year": 2024, "netWorth": 7.5 }, { "year": 2025, "netWorth": 8.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Algorithms have no opinion. That is their advantage.", "textKo": "알고리즘은 의견이 없다. 그것이 그 장점이다.", "context": "On quantitative investing", "contextKo": "계량 투자에 대해", "source": "https://www.twosigma.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Yu day pillar in Mi month — 'pyeon-gwan-gyeok', strong external authority, fitting institutional quant founder.", "summaryKo": "기유 일주 + 미월 편관격(강한 외부 압박·권력 충돌)은 24년 퀀트 펀드 산업의 규제·시장·인재 영입 압박을 통과한 그의 경로와 호응합니다. 기토 일간의 작은 흙·세밀한 농경 기질이 데이터·통계 분석의 정밀함과 통하고, 유금 일지의 금 기운이 퀀트 알고리즘의 예리한 결단을 가리키며, 미토 월지가 자본의 안정 누적 기반을 강조합니다." }
+}

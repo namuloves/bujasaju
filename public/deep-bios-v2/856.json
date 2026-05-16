@@ -1,0 +1,39 @@
+{
+  "id": "856", "name": "Markus Christoph Blocher", "nameKo": "마르쿠스 크리스토프 블로허",
+  "netWorth": 4.8, "nationality": "CH", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Switzerland", "birthPlaceKo": "스위스",
+    "familyBackground": "Born to Christoph Blocher — Swiss billionaire industrialist and prominent right-wing politician (Swiss People's Party).", "familyBackgroundKo": "스위스 억만장자 산업가·저명 우파 정치인(스위스 인민당) 크리스토프 블로허의 아들.",
+    "education": "Swiss higher education; pursued chemistry doctorate.", "educationKo": "스위스 고등교육; 화학 박사 학위 추구.",
+    "earlyLife": "Took over Dottikon ES — Swiss specialty-chemicals manufacturer; major shareholder of Ems-Chemie family business.",
+    "earlyLifeKo": "Dottikon ES 인수 — 스위스 특수 화학 제조사; Ems-Chemie 가족 사업 주요 주주.",
+    "source": "https://en.wikipedia.org/wiki/Markus_Blocher"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Blocher 가족 자본 + Dottikon 본인 운영." },
+  "careerTimeline": [
+    { "year": 2000, "age": 29, "event": "Began Swiss chemical-industry career.", "eventKo": "스위스 화학 산업 경력 시작.", "whyItMatteredKo": "산업 경력 출발선." },
+    { "year": 2005, "age": 34, "event": "Acquired Dottikon ES from MBO; took control of Swiss specialty-chemicals manufacturer.", "eventKo": "MBO에서 Dottikon ES 인수; 스위스 특수 화학 제조사 통제 인수.", "whyItMatteredKo": "산업 자본가 단계." },
+    { "year": 2015, "age": 44, "event": "Dottikon ES grew as supplier to pharmaceutical industry; stock appreciated substantially.", "eventKo": "Dottikon ES가 제약 산업 공급사로 성장; 주가 상당히 상승.", "whyItMatteredKo": "성장 단계." },
+    { "year": 2020, "age": 49, "event": "Dottikon ES benefitted from pharmaceutical-API demand boom; family wealth grew.", "eventKo": "Dottikon ES가 제약 API 수요 붐 혜택; 가족 부 성장.", "whyItMatteredKo": "팬데믹 자본 단계." },
+    { "year": 2025, "age": 54, "event": "Personal net worth at $4.8B per Forbes Real-Time. Continues as Dottikon ES CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 48억 달러. Dottikon ES CEO 계속.", "whyItMatteredKo": "20+년 화학 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 34, "decisionKo": "Dottikon ES MBO 인수", "alternativeKo": "Ems-Chemie 잔류", "outcomeKo": "20년 후 독립 화학 회사 운영자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Dottikon ES Holding(SIX 상장) 지분 + Ems-Chemie 가족 지분", "industryKo": "특수 화학(제약 API)", "businessModelKo": "제약 API 제조 + 특수 화학 + 정밀 합성", "moatKo": "20+년 화학 노하우 + Blocher 가족 자본", "luckVsSkillKo": "운(55%): 가족 자본 + 제약 API 부상. 실력(45%): 20+년 운영 일관성." },
+  "personalTraits": {
+    "knownFor": "Owner-CEO of Dottikon ES; son of Christoph Blocher; major Swiss specialty-chemicals industrialist.",
+    "knownForKo": "Dottikon ES 소유주·CEO; 크리스토프 블로허의 아들; 주요 스위스 특수 화학 산업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Family political controversies via father Christoph Blocher; standard chemical-industry environmental scrutiny.",
+    "controversiesKo": "아버지 크리스토프 블로허 통한 가족 정치 논란; 표준 화학 산업 환경 감시."
+  },
+  "characterKo": { "summaryKo": "Blocher 가족 + Dottikon 특수 화학 + 제약 API 산업가.", "tagsKo": ["Dottikon ES", "Blocher 가족", "특수 화학"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Dottikon ES demand; chemicals revenue fell.", "descriptionKo": "글로벌 금융위기로 Dottikon ES 수요 압축; 화학 매출 하락.", "lesson": "Specialty chemicals exposed to industrial-cycle compression.", "lessonKo": "특수 화학은 산업 사이클 압축 노출." },
+    { "year": 2022, "description": "Post-COVID API demand normalization compressed Dottikon ES growth.", "descriptionKo": "팬데믹 후 API 수요 정상화로 Dottikon ES 성장 압축.", "lesson": "Pandemic demand-pull creates post-cycle compression.", "lessonKo": "팬데믹 수요 당김이 사이클 후 압축 야기." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.8 }, { "year": 2024, "netWorth": 4.6 }, { "year": 2025, "netWorth": 4.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Specialty chemistry is invisible engineering. Pharma depends on us.", "textKo": "특수 화학은 보이지 않는 엔지니어링이다. 제약이 우리에게 의존한다.", "context": "On specialty chemicals", "contextKo": "특수 화학에 대해", "source": "https://www.dottikon.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Mi day pillar in Jin month — 'sanggwan-gyeok', creative-precise output, fitting precision-chemistry industrialist.", "summaryKo": "신미 일주 + 진월 상관격(창의적 결과물·표현·정밀)은 정밀 화학 합성이라는 창의적 정밀 산업과 호응합니다. 신금 일간의 예리한 금속 기질이 화학 합성의 정밀 분석과 통하고, 미토 일지의 토 기운이 가족 자본의 안정 기반을 가리키며, 진토 월지가 화학 인프라 자본을 강조합니다." }
+}

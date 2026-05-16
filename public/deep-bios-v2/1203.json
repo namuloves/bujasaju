@@ -1,0 +1,37 @@
+{
+  "id": "1203", "name": "Niraj Bajaj", "nameKo": "니라즈 바자지",
+  "netWorth": 3.4, "nationality": "IN", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "India", "birthPlaceKo": "인도",
+    "familyBackground": "Born to Bajaj family — one of India's most powerful business dynasties (Bajaj Auto, Bajaj Finserv, etc.).", "familyBackgroundKo": "인도 가장 강력한 사업 왕조 중 하나(Bajaj Auto·Bajaj Finserv 등)인 Bajaj 가족에서 출생.",
+    "education": "Indian higher education.", "educationKo": "인도 고등교육.",
+    "earlyLife": "Took over Mukand Ltd. — Bajaj family's steel-and-engineering subsidiary; built it into India's specialty-steel producer.",
+    "earlyLifeKo": "Mukand Ltd. 인수 — Bajaj 가족의 철강·엔지니어링 자회사; 인도 특수 강 생산자로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Bajaj_Group"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Bajaj 가족 자본 (Mukand 부문)." },
+  "careerTimeline": [
+    { "year": 1975, "age": 21, "event": "Joined Bajaj family Mukand Ltd. operations.", "eventKo": "Bajaj 가족 Mukand Ltd. 운영 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1990, "age": 36, "event": "Became Mukand Ltd. managing director.", "eventKo": "Mukand Ltd. 상무이사 취임.", "whyItMatteredKo": "운영 단계." },
+    { "year": 2005, "age": 51, "event": "Mukand grew as Indian specialty-steel producer during India's industrial expansion.", "eventKo": "인도 산업 확장 동안 Mukand이 인도 특수 강 생산자로 성장.", "whyItMatteredKo": "산업 확장 단계." },
+    { "year": 2025, "age": 71, "event": "Personal net worth at $3.4B per Forbes Real-Time. Continues as Mukand Ltd. chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러. Mukand Ltd. 의장 계속.", "whyItMatteredKo": "Bajaj 가족 자본의 부문 가부장." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 36, "decisionKo": "Mukand Ltd. 운영 책임 인수", "alternativeKo": "다른 Bajaj 부문", "outcomeKo": "인도 특수 강 부문 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Mukand Ltd.(BSE 상장) + Bajaj 가족 지분", "industryKo": "특수 강 제조 + 다각화", "businessModelKo": "스테인리스 강 + 합금 강 + 엔지니어링 부품", "moatKo": "Bajaj 다세대 인맥 + 50년 가족 자본", "luckVsSkillKo": "운(65%): Bajaj 가족 자본 + 인도 산업 부상. 실력(35%): 35년 부문 운영." },
+  "personalTraits": {
+    "knownFor": "Chairman of Mukand Ltd.; member of Bajaj business family; Indian specialty-steel producer.",
+    "knownForKo": "Mukand Ltd. 의장; Bajaj 사업 가족 구성원; 인도 특수 강 생산자.",
+    "philanthropy": "Bajaj family supports Indian education, rural development.", "philanthropyKo": "Bajaj 가족이 인도 교육·농촌 개발 지원.",
+    "controversies": "Bajaj family internal-succession disputes among multiple heirs.", "controversiesKo": "다수 상속자 간 Bajaj 가족 내부 승계 분쟁."
+  },
+  "characterKo": { "summaryKo": "Bajaj 가족의 Mukand 특수 강 부문 가부장.", "tagsKo": ["Mukand Ltd.", "Bajaj 가족", "인도 특수 강"] },
+  "failures": [
+    { "year": 2015, "description": "Indian steel-industry oversupply and Chinese-import pressure compressed Mukand margins.", "descriptionKo": "인도 철강 산업 공급 과잉·중국 수입 압박으로 Mukand 마진 압축.", "lesson": "Single-country steel producers face import competition.", "lessonKo": "단일 국가 철강 생산자는 수입 경쟁 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Indian industrial supply chains; Mukand orders fell.", "descriptionKo": "COVID-19이 인도 산업 공급망 혼란; Mukand 주문 하락.", "lesson": "Steel demand pro-cyclical with industrial activity.", "lessonKo": "철강 수요는 산업 활동과 순응 사이클." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 3.2 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Steel is the bone of every modern economy.", "textKo": "강은 모든 현대 경제의 뼈다.", "context": "On steel industry", "contextKo": "철강 산업에 대해", "source": "https://www.mukand.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Hae day pillar in Sul month — 'jeonggwan-gyeok', formal authority-system, fitting family-business division chairman.", "summaryKo": "기해 일주 + 술월 정관격(공식 권위·규제 아래에서 일하는 구조)은 Bajaj 가족 자본의 한 부문 책임자로 35년간 운영해온 그의 경로와 호응합니다. 기토 일간의 농경 기질이 가족 자본의 부문 청지기 역할과 통하고, 정관격이 평생 가족 거버넌스·공식 권위 아래에서 일하는 안정 구조와 통합니다." }
+}

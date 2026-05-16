@@ -1,0 +1,39 @@
+{
+  "id": "522", "name": "Daryl Katz", "nameKo": "대릴 앨런 카츠",
+  "netWorth": 7.1, "nationality": "CA", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Edmonton, Alberta, Canada", "birthPlaceKo": "캐나다 앨버타주 에드먼턴",
+    "familyBackground": "Born to Jewish family in Edmonton; father owned small drugstore.", "familyBackgroundKo": "에드먼턴 유대인 가정에서 출생; 아버지가 작은 약국 소유.",
+    "education": "University of Alberta (law).", "educationKo": "앨버타 대학교(법학).",
+    "earlyLife": "Acquired father's small drugstore chain; built into Katz Group — Canada's largest pharmacy chain via Rexall acquisition.",
+    "earlyLifeKo": "아버지의 작은 약국 체인 인수; Rexall 인수를 통해 캐나다 최대 약국 체인 Katz Group으로 키움.",
+    "source": "https://en.wikipedia.org/wiki/Daryl_Katz"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Katz Group 약국 체인 40년 자수성가." },
+  "careerTimeline": [
+    { "year": 1991, "age": 30, "event": "Acquired father's small drugstore chain in Edmonton.", "eventKo": "에드먼턴 아버지의 작은 약국 체인 인수.", "whyItMatteredKo": "약국 자본 출발선." },
+    { "year": 1996, "age": 35, "event": "Acquired Rexall Drug Stores chain; Katz Group became major Canadian pharmacy.", "eventKo": "Rexall Drug Stores 체인 인수; Katz Group이 주요 캐나다 약국이 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2008, "age": 47, "event": "Acquired Edmonton Oilers NHL hockey team for $200M.", "eventKo": "에드먼턴 오일러스 NHL 하키 팀 2억 달러 인수.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 2017, "age": 56, "event": "Opened Rogers Place arena in Edmonton; built ICE District mixed-use complex.", "eventKo": "에드먼턴에 Rogers Place 아레나 개장; ICE District 복합용도 단지 구축.", "whyItMatteredKo": "부동산 다각화." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $7.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 71억 달러.", "whyItMatteredKo": "약국 + 스포츠 + 부동산 정점." }
+  ],
+  "turningPoints": [{ "year": 1996, "age": 35, "decisionKo": "Rexall 체인 인수로 캐나다 약국 메이저", "alternativeKo": "지역 약국 잔류", "outcomeKo": "캐나다 약국 1위 + 스포츠·부동산 다각화" }],
+  "moneyMechanics": { "primaryRevenueKo": "Katz Group(100% 소유) + Edmonton Oilers + ICE District 부동산", "industryKo": "약국·소매 + 스포츠 + 부동산 다각화", "businessModelKo": "Rexall 약국 + NHL 팀 + 도시 중심 부동산", "moatKo": "캐나다 약국 1위 + 에드먼턴 부동산 통제", "luckVsSkillKo": "운(35%): 1990-2010 캐나다 약국 통합. 실력(65%): 40년 다각화 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Katz Group; owner of Edmonton Oilers (NHL); developer of ICE District; pharmacy magnate.",
+    "knownForKo": "Katz Group 창립자; 에드먼턴 오일러스(NHL) 소유주; ICE District 개발자; 약국 거물.",
+    "philanthropy": "Katz Group Charitable Foundation supports Alberta education, healthcare.", "philanthropyKo": "Katz Group 자선 재단이 앨버타 교육·헬스케어 지원.",
+    "controversies": "Multiple Edmonton political donations to fund arena project drew criticism; election donation infractions.",
+    "controversiesKo": "아레나 프로젝트 자금 위한 다수 에드먼턴 정치 기부가 비판 야기; 선거 기부 위반."
+  },
+  "characterKo": { "summaryKo": "Rexall 약국 거물 + Edmonton Oilers 소유주 + ICE District 개발자.", "tagsKo": ["Katz Group", "Edmonton Oilers", "Rexall", "ICE District"] },
+  "failures": [
+    { "year": 2012, "description": "Election Alberta found Katz violated campaign-finance laws with arena-related political donations.", "descriptionKo": "선거 앨버타가 카츠의 아레나 관련 정치 기부 캠페인 자금법 위반 발견.", "lesson": "Business-funded political donations create legal risk.", "lessonKo": "사업 자금 정치 기부는 법적 리스크 야기." },
+    { "year": 2020, "description": "COVID-19 disrupted Edmonton Oilers games and ICE District retail operations.", "descriptionKo": "COVID-19이 에드먼턴 오일러스 경기·ICE District 소매 운영 혼란.", "lesson": "Sports-real-estate complexes face pandemic exposure.", "lessonKo": "스포츠·부동산 복합은 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.5 }, { "year": 2020, "netWorth": 3.8 }, { "year": 2024, "netWorth": 6.8 }, { "year": 2025, "netWorth": 7.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Pharmacies, hockey, downtowns — they all serve a community.", "textKo": "약국·하키·도심 — 모두 지역 사회를 위한 것이다.", "context": "On diversified business", "contextKo": "다각화 사업에 대해", "source": "https://www.katzgroup.ca" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Yu day pillar in Shin month — 'jeongjae-gyeok', steady accumulation, fitting pharmacy-chain builder.", "summaryKo": "정유 일주 + 신월 정재격(고정 자산·꾸준한 매출)은 캐나다 전역 약국 체인의 안정적 처방 매출과 호응합니다. 정화 일간의 따뜻한 불 기질이 지역 약사 + 스포츠 + 도심 부동산이라는 지역 사회 통합 사업과 통하고, 정재격이 약국 처방이라는 반복 매출 구조와 통합니다." }
+}

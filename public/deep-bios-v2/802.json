@@ -1,0 +1,38 @@
+{
+  "id": "802", "name": "Ronald G. Wanek", "nameKo": "로널드 G. 워넥",
+  "netWorth": 5.2, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Iowa, USA", "birthPlaceKo": "미국 아이오와",
+    "familyBackground": "Born to small-town Iowa family.", "familyBackgroundKo": "아이오와 소도시 가정에서 출생.",
+    "education": "Iowa secondary education; pursued furniture business directly.", "educationKo": "아이오와 중등교육; 가구 사업 직접 진입.",
+    "earlyLife": "Founded Ashley Furniture in 1970 — built into America's largest furniture manufacturer.",
+    "earlyLifeKo": "1970년 Ashley Furniture 창립 — 미국 최대 가구 제조사로 성장.",
+    "source": "https://en.wikipedia.org/wiki/Ashley_Furniture_Industries"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Ashley Furniture 55년 자수성가." },
+  "careerTimeline": [
+    { "year": 1970, "age": 29, "event": "Founded Ashley Furniture Industries in Arcadia, Wisconsin.", "eventKo": "위스콘신 아카디아에서 Ashley Furniture Industries 창립.", "whyItMatteredKo": "55년 자수성가 출발선." },
+    { "year": 1997, "age": 56, "event": "Acquired full ownership of Ashley HomeStore retail concept; vertically integrated manufacturing-retail.", "eventKo": "Ashley HomeStore 소매 컨셉 완전 소유; 제조·소매 수직 통합.", "whyItMatteredKo": "수직 통합 단계." },
+    { "year": 2010, "age": 69, "event": "Ashley became America's largest furniture manufacturer; expanded globally.", "eventKo": "Ashley가 미국 최대 가구 제조사가 됨; 글로벌 확장.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $5.2B per Forbes Real-Time. Continues as Ashley Furniture chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 52억 달러. Ashley Furniture 의장 계속.", "whyItMatteredKo": "55년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1970, "age": 29, "decisionKo": "위스콘신에서 가구 제조 회사 창립", "alternativeKo": "지역 가구점 잔류", "outcomeKo": "55년 후 미국 최대 가구 제조사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Ashley Furniture Industries(100% 가족 소유)", "industryKo": "가구 제조·소매", "businessModelKo": "수직 통합 가구 제조 + Ashley HomeStore 글로벌 소매", "moatKo": "55년 가족 통제 + 미국 최대 가구 제조 인프라", "luckVsSkillKo": "운(30%): 미국 교외 주택 시대. 실력(70%): 55년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Ashley Furniture Industries; America's largest furniture manufacturer; Wisconsin/Iowa philanthropist.",
+    "knownForKo": "Ashley Furniture Industries 창립자; 미국 최대 가구 제조사; 위스콘신·아이오와 자선가.",
+    "philanthropy": "Wanek family supports Wisconsin-Iowa community development, education.", "philanthropyKo": "Wanek 가족이 위스콘신·아이오와 지역 사회 개발·교육 지원.",
+    "controversies": "Standard furniture-manufacturing labor and environmental scrutiny; tariff disputes with China imports.",
+    "controversiesKo": "표준 가구 제조 노동·환경 감시; 중국 수입 관세 분쟁."
+  },
+  "characterKo": { "summaryKo": "아이오와 출신 Ashley Furniture 55년 자수성가 — 미국 최대 가구 제조.", "tagsKo": ["Ashley Furniture", "55년 자수성가", "위스콘신 거물"] },
+  "failures": [
+    { "year": 2008, "description": "Housing crash crushed US furniture demand; Ashley absorbed cyclical pressure.", "descriptionKo": "주택 시장 붕괴로 미국 가구 수요 압축; Ashley가 사이클 압박 흡수.", "lesson": "Furniture demand tied to housing cycle.", "lessonKo": "가구 수요는 주택 사이클에 묶임." },
+    { "year": 2018, "description": "Trump-era China tariffs compressed Ashley's import-dependent supply chain.", "descriptionKo": "트럼프 시대 중국 관세가 Ashley의 수입 의존 공급망 압축.", "lesson": "Single-country supply chain creates trade-policy exposure.", "lessonKo": "단일 국가 공급망은 무역 정책 노출 야기." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.4 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Furniture is hard work made beautiful.", "textKo": "가구는 아름답게 만든 고된 일이다.", "context": "On manufacturing", "contextKo": "제조업에 대해", "source": "https://www.ashleyfurniture.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Myo day pillar in Sa month — 'pyeon-gwan-gyeok', strong external authority, fitting decades of supply-chain and trade battles.", "summaryKo": "정묘 일주 + 사월 편관격(강한 외부 압박·권력 충돌)은 55년 가구 산업에서 노동·관세·공급망 등 끊임없는 외부 압박을 통과한 그의 경로와 호응합니다. 정화 일간의 따뜻한 불 기질이 가구 제조라는 손재주 산업과 통하고, 사화 월지의 강한 화 기운이 평생 일하는 에너지를 가리킵니다." }
+}

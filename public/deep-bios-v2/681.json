@@ -1,0 +1,38 @@
+{
+  "id": "681", "name": "Justin Ryan Ishbia", "nameKo": "저스틴 라이언 이시비아",
+  "netWorth": 5.8, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Birmingham, Michigan, USA", "birthPlaceKo": "미국 미시간주 버밍엄",
+    "familyBackground": "Born to Jeffrey Ishbia — co-founder of United Wholesale Mortgage. Brother of Mat Ishbia (UWM CEO and Phoenix Suns owner).", "familyBackgroundKo": "United Wholesale Mortgage 공동 창립자 제프리 이시비아의 아들. 매트 이시비아(UWM CEO·피닉스 선즈 소유주)의 형제.",
+    "education": "Michigan State University; Vanderbilt JD.", "educationKo": "미시간 주립대학교; 밴더빌트 JD.",
+    "earlyLife": "Founded Shore Capital Partners — middle-market private-equity firm focused on healthcare and consumer-services.",
+    "earlyLifeKo": "Shore Capital Partners 창립 — 헬스케어·소비자 서비스 집중 미들 마켓 사모펀드.",
+    "source": "https://en.wikipedia.org/wiki/Justin_Ishbia"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "Ishbia 가족 자본 + Shore Capital Partners 본인 PE 사업." },
+  "careerTimeline": [
+    { "year": 2003, "age": 26, "event": "Began legal career at Kirkland & Ellis (PE-focused law).", "eventKo": "Kirkland & Ellis(PE 집중 법무)에서 법률 경력 시작.", "whyItMatteredKo": "PE 법률 출발선." },
+    { "year": 2009, "age": 32, "event": "Founded Shore Capital Partners in Chicago — middle-market healthcare PE firm.", "eventKo": "시카고에서 Shore Capital Partners 창립 — 미들 마켓 헬스케어 PE 회사.", "whyItMatteredKo": "PE 회사 출발선." },
+    { "year": 2018, "age": 41, "event": "Shore Capital AUM crossed $1B; expanded into other middle-market sectors.", "eventKo": "Shore Capital AUM 10억 달러 돌파; 기타 미들 마켓 부문 확장.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2023, "age": 46, "event": "Acquired minority stake in Phoenix Suns NBA team with brother Mat Ishbia.", "eventKo": "형제 매트 이시비아와 피닉스 선즈 NBA 팀 소수 지분 인수.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 2025, "age": 48, "event": "Personal net worth at $5.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 58억 달러.", "whyItMatteredKo": "PE 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2009, "age": 32, "decisionKo": "법무에서 PE 창업으로 전환", "alternativeKo": "법률 파트너", "outcomeKo": "16년 후 미들 마켓 PE 메이저 + 가족 자본" }],
+  "moneyMechanics": { "primaryRevenueKo": "Shore Capital Partners(헬스케어 PE) carry + Ishbia 가족 자본(UWM)", "industryKo": "사모펀드 + 가족 자본", "businessModelKo": "미들 마켓 헬스케어·소비자 서비스 PE 롤업", "moatKo": "Ishbia 가족 자본 + PE 트랙 레코드", "luckVsSkillKo": "운(45%): 가족 자본 + 미들 마켓 헬스케어 부상. 실력(55%): 16년 PE 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Shore Capital Partners; co-owner of Phoenix Suns; brother of Mat Ishbia.",
+    "knownForKo": "Shore Capital Partners 창립자; 피닉스 선즈 공동 소유주; 매트 이시비아의 형제.",
+    "philanthropy": "Ishbia family supports Michigan State University and Michigan community.", "philanthropyKo": "Ishbia 가족이 미시간 주립대학교·미시간 지역 사회 지원.",
+    "controversies": "Standard PE labor and roll-up consolidation scrutiny.", "controversiesKo": "표준 PE 노동·롤업 통합 감시."
+  },
+  "characterKo": { "summaryKo": "Shore Capital Partners 헬스케어 PE 창립 + Phoenix Suns 공동 소유주.", "tagsKo": ["Shore Capital", "헬스케어 PE", "Phoenix Suns", "Ishbia 형제"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted Shore Capital's healthcare-services portfolio operations; deal pipeline compressed.", "descriptionKo": "COVID-19이 Shore Capital의 헬스케어 서비스 포트폴리오 운영 혼란; 딜 파이프라인 압축.", "lesson": "Healthcare PE exposed to pandemic-services disruption.", "lessonKo": "헬스케어 PE는 팬데믹 서비스 혼란 노출." },
+    { "year": 2022, "description": "Rising interest rates compressed PE valuations and deal activity.", "descriptionKo": "금리 상승으로 PE 밸류에이션·딜 활동 압축.", "lesson": "PE returns sensitive to interest-rate cycle.", "lessonKo": "PE 수익률은 금리 사이클에 민감." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Middle-market healthcare is unglamorous. That's why it pays.", "textKo": "미들 마켓 헬스케어는 매력 없다. 그래서 수익이 된다.", "context": "On middle-market PE", "contextKo": "미들 마켓 PE에 대해", "source": "https://www.shorecp.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-In day pillar in Yu month — 'sanggwan-gyeok', creative-strong expression, fitting PE roll-up entrepreneur.", "summaryKo": "무인 일주 + 유월 상관격(창의적 결과물·표현·권위 충돌)은 16년에 걸쳐 헬스케어 미들 마켓 회사들을 롤업·재구조화한 그의 창의적 자본 누적 방식과 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 PE 회사 운영과 통하고, 인목 일지의 목 기운이 회사 자본의 성장을 가리킵니다." }
+}

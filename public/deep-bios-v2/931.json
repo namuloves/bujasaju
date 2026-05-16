@@ -1,0 +1,40 @@
+{
+  "id": "931", "name": "Gil Shwed", "nameKo": "길 슈웨드",
+  "netWorth": 4.4, "nationality": "IL", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Jerusalem, Israel", "birthPlaceKo": "이스라엘 예루살렘",
+    "familyBackground": "Born to Israeli middle-class family.", "familyBackgroundKo": "이스라엘 중산층 가정에서 출생.",
+    "education": "Self-taught programmer; IDF Unit 8200 intelligence-corps cybersecurity training.", "educationKo": "독학 프로그래머; IDF 8200 부대 정보 부대 사이버보안 훈련.",
+    "earlyLife": "Served in IDF Unit 8200; co-founded Check Point Software Technologies in 1993 — pioneering firewall company.",
+    "earlyLifeKo": "IDF 8200 부대 복무; 1993년 Check Point Software Technologies 공동 창립 — 선구적 방화벽 회사.",
+    "source": "https://en.wikipedia.org/wiki/Gil_Shwed"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Check Point 32년 누적 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1993, "age": 25, "event": "Co-founded Check Point Software Technologies with Marius Nacht and Shlomo Kramer.", "eventKo": "마리우스 나흐트·슐로모 크라머와 Check Point Software Technologies 공동 창립.", "whyItMatteredKo": "방화벽 시대 출발선." },
+    { "year": 1996, "age": 28, "event": "Check Point IPO on Nasdaq; cemented firewall-industry leadership.", "eventKo": "Check Point 나스닥 IPO; 방화벽 산업 리더십 굳힘.", "whyItMatteredKo": "공개 시장 평가 단계." },
+    { "year": 2005, "age": 37, "event": "Acquired Sourcefire IDS technology; expanded into intrusion-detection space.", "eventKo": "Sourcefire IDS 기술 인수; 침입 탐지 공간 확장.", "whyItMatteredKo": "제품 다각화 단계." },
+    { "year": 2024, "age": 56, "event": "Stepped down as CEO of Check Point after 31 years; remained executive chairman.", "eventKo": "31년 후 Check Point CEO에서 사임; 집행 의장 잔류.", "whyItMatteredKo": "장기 CEO 종결 단계." },
+    { "year": 2025, "age": 57, "event": "Personal net worth at $4.4B per Forbes Real-Time. Check Point continues as global cybersecurity major.", "eventKo": "포브스 실시간 기준 개인 순자산 44억 달러. Check Point가 글로벌 사이버보안 메이저로 계속.", "whyItMatteredKo": "32년 단일 회사 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1993, "age": 25, "decisionKo": "IDF에서 사이버보안 스타트업 창립", "alternativeKo": "정부·군 경력 잔류", "outcomeKo": "32년 후 글로벌 방화벽 메이저 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Check Point Software Technologies(NASDAQ 상장) 공동 창립자 지분", "industryKo": "사이버보안", "businessModelKo": "엔터프라이즈 방화벽 + 보안 소프트웨어 라이선스 + 클라우드 보안", "moatKo": "32년 사이버보안 R&D + 글로벌 엔터프라이즈 고객", "luckVsSkillKo": "운(25%): 1990년대 인터넷 시대 + 사이버보안 부상. 실력(75%): 32년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Check Point; invented stateful inspection firewall technology; longtime Israeli tech-industry leader.",
+    "knownForKo": "Check Point 공동 창립자; 상태 점검 방화벽 기술 발명; 장기 이스라엘 기술 산업 리더.",
+    "philanthropy": "Shwed Foundation supports Israeli education and tech-talent development.",
+    "philanthropyKo": "Shwed Foundation이 이스라엘 교육·기술 인재 개발 지원.",
+    "controversies": "Limited; standard tech-industry competition with Palo Alto Networks, Fortinet.",
+    "controversiesKo": "제한적; Palo Alto Networks·Fortinet과의 표준 기술 산업 경쟁."
+  },
+  "characterKo": { "summaryKo": "IDF 8200 부대 출신 Check Point 32년 자수성가.", "tagsKo": ["Check Point", "방화벽 발명자", "IDF 8200", "32년 CEO"] },
+  "failures": [
+    { "year": 2015, "description": "Check Point lost share to next-gen firewall competitors (Palo Alto Networks); growth rate slowed.", "descriptionKo": "Check Point가 차세대 방화벽 경쟁자(Palo Alto Networks)에 점유율 상실; 성장률 둔화.", "lesson": "Cybersecurity leaders face continuous innovation pressure.", "lessonKo": "사이버보안 리더는 지속적 혁신 압박 직면." },
+    { "year": 2022, "description": "Tech stock decline compressed Check Point market cap; AI and cloud competition intensified.", "descriptionKo": "기술주 하락으로 Check Point 시가총액 압축; AI·클라우드 경쟁 심화.", "lesson": "Legacy security platforms face cloud-native disruption.", "lessonKo": "레거시 보안 플랫폼은 클라우드 네이티브 파괴 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.4 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 4.2 }, { "year": 2025, "netWorth": 4.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Defense is the part of innovation that pays in years, not weeks.", "textKo": "방어는 주가 아닌 년 단위로 보수받는 혁신의 부분이다.", "context": "On cybersecurity", "contextKo": "사이버보안에 대해", "source": "https://www.checkpoint.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Chuk day pillar in O month — 'jeonggwan-gyeok', formal authority-system, fitting institutional cybersecurity founder.", "summaryKo": "계축 일주 + 오월 정관격(공식 권위·규제 아래에서 일하는 구조)은 32년 엔터프라이즈 보안 산업이 규제·인증·국가 안보와 결합된 환경과 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 보안 R&D + IDF 8200 출신의 정밀 사고와 통하고, 축토 일지의 토 기운이 32년 단일 회사 안정 기반을 가리킵니다." }
+}
