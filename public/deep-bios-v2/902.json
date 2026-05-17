@@ -1,0 +1,31 @@
+{
+  "id": "902", "name": "Eleanor Butt Crook", "nameKo": "엘리너 벗 크룩",
+  "netWorth": 4.6, "nationality": "US", "industry": "Fashion & Retail",
+  "childhood": { "birthPlace": "Texas, USA", "birthPlaceKo": "미국 텍사스",
+    "familyBackground": "Born to Howard E. Butt Sr. — founder of H-E-B (Texas grocery chain).", "familyBackgroundKo": "H-E-B(텍사스 식료품 체인) 창립자 하워드 E. 벗 시니어의 딸.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Inherited H-E-B family stake; major Texas grocery family heir.",
+    "earlyLifeKo": "H-E-B 가족 지분 상속; 주요 텍사스 식료품 가족 상속자.",
+    "source": "https://en.wikipedia.org/wiki/H-E-B" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "H-E-B 120년 가족 자본." },
+  "careerTimeline": [
+    { "year": 1955, "age": 23, "event": "Began H-E-B family operations.", "eventKo": "H-E-B 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1980, "age": 48, "event": "H-E-B became Texas's largest grocery chain.", "eventKo": "H-E-B가 텍사스 최대 식료품 체인이 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2010, "age": 78, "event": "Continued as H-E-B family stakeholder.", "eventKo": "H-E-B 가족 주주 계속.", "whyItMatteredKo": "다세대 단계." },
+    { "year": 2025, "age": 93, "event": "Personal net worth at $4.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 46억 달러.", "whyItMatteredKo": "H-E-B 자본 정점." }],
+  "turningPoints": [{ "year": 1955, "age": 23, "decisionKo": "H-E-B 가족 운영 참여", "alternativeKo": "독립 경로", "outcomeKo": "다세대 H-E-B 가족 자본의 핵심 주주" }],
+  "moneyMechanics": { "primaryRevenueKo": "H-E-B Grocery(100% 가족 소유) 가족 지분", "industryKo": "식료품 소매", "businessModelKo": "Texas 식료품 체인 + 멕시코 확장", "moatKo": "120년 H-E-B 가족 자본 + Texas 시장 1위", "luckVsSkillKo": "운(90%): 가족 자본. 실력(10%): 가족 거버넌스." },
+  "personalTraits": { "knownFor": "Member of Butt family — H-E-B grocery heir.",
+    "knownForKo": "Butt 가족 구성원 — H-E-B 식료품 상속자.",
+    "philanthropy": "Major Texas philanthropist through H-E-B Foundation.", "philanthropyKo": "H-E-B 재단 통한 주요 텍사스 자선가.",
+    "controversies": "Limited; standard family-business scrutiny.", "controversiesKo": "제한적; 표준 가족 사업 감시." },
+  "characterKo": { "summaryKo": "H-E-B 120년 텍사스 식료품 가족 자본의 상속자.", "tagsKo": ["H-E-B", "Butt 가족", "텍사스 식료품"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Texas grocery sales.", "descriptionKo": "글로벌 금융위기로 텍사스 식료품 매출 압축.", "lesson": "Grocery cyclical.", "lessonKo": "식료품 주기적." },
+    { "year": 2020, "description": "COVID-19 disrupted grocery supply chains briefly.", "descriptionKo": "COVID-19이 식료품 공급망 잠시 혼란.", "lesson": "Grocery pandemic-supply-chain exposed.", "lessonKo": "식료품 팬데믹 공급망 노출." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.8 }, { "year": 2020, "netWorth": 3.6 }, { "year": 2024, "netWorth": 4.4 }, { "year": 2025, "netWorth": 4.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Texas grocery is service. We serve.", "textKo": "텍사스 식료품은 서비스다. 우리가 봉사한다.", "context": "On H-E-B", "contextKo": "H-E-B에 대해", "source": "https://www.heb.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Mi day pillar in Mi month — 'pyeonjae-gyeok' with double earth, fitting grocery-family heir.", "summaryKo": "계미 일주 + 미월 편재격(크고 유동적인 외부 자본)은 텍사스 식료품의 거대 외부 자본 흐름과 호응합니다. 계수 일간의 작은 물 + 일지·월지 모두 미토의 강한 토 기운이 다세대 가족 자본의 안정 기반을 이중으로 강조합니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "720", "name": "Bob Gaglardi", "nameKo": "밥 가글라르디",
+  "netWorth": 5.6, "nationality": "CA", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "British Columbia, Canada", "birthPlaceKo": "캐나다 브리티시 컬럼비아",
+    "familyBackground": "Born to Phil Gaglardi — BC politician (Sons of Freedom era).", "familyBackgroundKo": "BC 정치인 필 가글라르디의 아들.",
+    "education": "Canadian higher education.", "educationKo": "캐나다 고등교육.",
+    "earlyLife": "Founded Northland Properties Corporation — major Canadian hotel and restaurant operator (Sandman Hotels, Moxie's, Denny's Canada).",
+    "earlyLifeKo": "Northland Properties Corporation 창립 — 주요 캐나다 호텔·식당 운영사(Sandman Hotels·Moxie's·Denny's Canada).",
+    "source": "https://www.northland.ca"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Northland Properties 60년 자수성가." },
+  "careerTimeline": [
+    { "year": 1962, "age": 21, "event": "Began Canadian hospitality and real-estate business.", "eventKo": "캐나다 환대·부동산 사업 시작.", "whyItMatteredKo": "60년 자수성가 출발선." },
+    { "year": 1967, "age": 26, "event": "Founded Sandman Hotels in BC.", "eventKo": "BC에서 Sandman Hotels 창립.", "whyItMatteredKo": "Sandman 출발선." },
+    { "year": 1990, "age": 49, "event": "Northland Properties expanded into restaurant chains.", "eventKo": "Northland Properties가 식당 체인 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2010, "age": 69, "event": "Acquired Dallas Stars NHL team in 2011 with son Tom.", "eventKo": "2011 아들 톰과 Dallas Stars NHL 팀 인수.", "whyItMatteredKo": "스포츠 단계." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $5.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 56억 달러.", "whyItMatteredKo": "60년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1967, "age": 26, "decisionKo": "BC에서 Sandman Hotels 창립", "alternativeKo": "지역 사업 잔류", "outcomeKo": "58년 후 캐나다 호텔·식당 메이저 + NHL 소유주" }],
+  "moneyMechanics": { "primaryRevenueKo": "Northland Properties Corporation(100% 가족 소유) + Dallas Stars NHL", "industryKo": "호텔·식당 + 스포츠", "businessModelKo": "Sandman Hotels + Moxie's·Denny's 식당 + NHL 팀", "moatKo": "60년 캐나다 호텔·식당 인프라 + 100% 소유", "luckVsSkillKo": "운(30%): 캐나다 환대 산업 부상. 실력(70%): 60년 단일 비전 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Northland Properties; major Canadian hospitality magnate; co-owner of Dallas Stars NHL.",
+    "knownForKo": "Northland Properties 창립자; 주요 캐나다 환대 거물; Dallas Stars NHL 공동 소유주.",
+    "philanthropy": "Supports BC community and Canadian hospitality education.", "philanthropyKo": "BC 지역 사회·캐나다 환대 교육 지원.",
+    "controversies": "Limited; standard hospitality industry scrutiny.", "controversiesKo": "제한적; 표준 환대 산업 감시."
+  },
+  "characterKo": { "summaryKo": "Sandman Hotels + Dallas Stars 캐나다 환대 60년 자수성가.", "tagsKo": ["Sandman Hotels", "Dallas Stars", "캐나다 환대"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Canadian hospitality demand.", "descriptionKo": "글로벌 금융위기로 캐나다 환대 수요 압축.", "lesson": "Hospitality cyclical with travel.", "lessonKo": "환대는 여행 순응 사이클." },
+    { "year": 2020, "description": "COVID-19 closed Canadian hotels and restaurants; Northland absorbed major losses.", "descriptionKo": "COVID-19이 캐나다 호텔·식당 폐쇄; Northland이 주요 손실 흡수.", "lesson": "Hospitality faces maximum pandemic exposure.", "lessonKo": "환대는 최대 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 5.4 }, { "year": 2025, "netWorth": 5.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Hotels are about being there when guests need a bed.", "textKo": "호텔은 손님이 침대가 필요할 때 거기 있는 것이다.", "context": "On Sandman Hotels", "contextKo": "Sandman Hotels에 대해", "source": "https://www.northland.ca" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Sul day pillar in In month — 'sikshin-gyeok', creative output, fitting hospitality-and-real-estate founder.", "summaryKo": "무술 일주 + 인월 식신격(창의적 결과물·표현)은 60년 호텔·식당이라는 끊임없는 서비스 결과물 창출과 호응합니다. 무토 일간 + 술토 일지의 강한 토 기운이 부동산 자본의 안정 가부장과 통하고, 인목 월지의 목 기운이 회사의 누적 성장을 가리킵니다." }
+}

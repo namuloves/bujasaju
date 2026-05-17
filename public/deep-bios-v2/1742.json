@@ -1,0 +1,39 @@
+{
+  "id": "1742", "name": "Kristo Käärmann", "nameKo": "크리스토 카르만",
+  "netWorth": 2.3, "nationality": "EE", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Estonia", "birthPlaceKo": "에스토니아",
+    "familyBackground": "Born to Estonian family.", "familyBackgroundKo": "에스토니아 가정에서 출생.",
+    "education": "Tartu University; PwC consultant background.", "educationKo": "타르투 대학교; PwC 컨설턴트 출신.",
+    "earlyLife": "Worked at PwC and Deloitte in London; co-founded Wise (formerly TransferWise) in 2011 with Taavet Hinrikus; CEO; Wise IPO on London Stock Exchange 2021.",
+    "earlyLifeKo": "런던에서 PwC·Deloitte 근무; 2011 타베트 힌리쿠스와 Wise(전 TransferWise) 공동 창립; CEO; 2021 Wise 런던 증시 상장.",
+    "source": "https://en.wikipedia.org/wiki/Kristo_K%C3%A4%C3%A4rmann"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Wise 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2006, "age": 26, "event": "Began consulting career at PwC and Deloitte in London.", "eventKo": "런던에서 PwC·Deloitte 컨설팅 경력 시작.", "whyItMatteredKo": "금융 출발선." },
+    { "year": 2011, "age": 31, "event": "Co-founded TransferWise with Taavet Hinrikus.", "eventKo": "타베트 힌리쿠스와 TransferWise 공동 창립.", "whyItMatteredKo": "Wise 출발선." },
+    { "year": 2018, "age": 38, "event": "TransferWise reached profitability — rare among fintech unicorns.", "eventKo": "TransferWise 흑자 도달 — 핀테크 유니콘 중 드문 사례.", "whyItMatteredKo": "수익성 단계." },
+    { "year": 2021, "age": 41, "event": "Wise IPO on London Stock Exchange via direct listing at $11B valuation.", "eventKo": "Wise를 런던 증시 직접 상장 110억 달러 밸류에이션.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2025, "age": 45, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Wise 정점." }
+  ],
+  "turningPoints": [{ "year": 2011, "age": 31, "decisionKo": "은행 송금 수수료 해결 위해 Wise 공동 창립", "alternativeKo": "컨설팅 잔류", "outcomeKo": "14년 후 23억 달러 핀테크 IPO 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Wise 공동 창립자 지분(WISE LSE) + 다각화", "industryKo": "핀테크·국경 간 송금", "businessModelKo": "P2P 통화 환전 + 다중 통화 계좌 + 수수료", "moatKo": "투명 수수료 브랜드 + 글로벌 결제 라이선스 + 200만+ 사용자", "luckVsSkillKo": "운(40%): 핀테크 황금기 + 은행 부실. 실력(60%): 14년 일관성 + 흑자 달성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and CEO of Wise (TransferWise); Estonian fintech pioneer.",
+    "knownForKo": "Wise(TransferWise) 공동 창립자·CEO; 에스토니아 핀테크 선구자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2021 fined £365K by UK HMRC for late personal tax filing; FCA reprimand 2022.",
+    "controversiesKo": "2021 영국 HMRC가 개인 세금 신고 지연으로 36만 5,000 파운드 벌금; 2022 FCA 견책."
+  },
+  "characterKo": { "summaryKo": "Wise 공동 창립 + 런던 IPO 흑자 핀테크.", "tagsKo": ["Wise", "에스토니아 핀테크", "런던 IPO"] },
+  "failures": [
+    { "year": 2021, "description": "UK HMRC fined Käärmann £365K for late tax filing; FCA reprimanded 2022.", "descriptionKo": "영국 HMRC가 세금 신고 지연으로 36만 5,000 파운드 벌금; 2022 FCA 견책.", "lesson": "Fintech CEO personal compliance is corporate reputational risk.", "lessonKo": "핀테크 CEO 개인 컴플라이언스는 회사 평판 리스크." },
+    { "year": 2022, "description": "Wise stock fell after 2021 IPO; fintech selloff compressed valuation.", "descriptionKo": "Wise 주식이 2021 IPO 후 하락; 핀테크 매도세로 밸류에이션 압축.", "lesson": "Direct listings face post-IPO volatility too.", "lessonKo": "직접 상장도 IPO 후 변동성 직면." }
+  ],
+  "wealthHistory": [{ "year": 2022, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.0 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Money should move like email — fast, transparent, near-free.", "textKo": "돈은 이메일처럼 빠르고 투명하고 거의 무료로 이동해야 한다.", "context": "On Wise mission", "contextKo": "Wise 미션에 대해", "source": "https://wise.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Chuk day pillar in Sin month — 'jeongin-gyeok', academic-credential authority, fitting consultant-turned-fintech-founder.", "summaryKo": "정축 일주 + 신월 정인격(공식 자격·학문·문서 권위)은 컨설턴트 출신 + 정밀 금융 규제 통과라는 정통 자격 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 핀테크 정교한 환율 계산과 통하고, 축토 일지의 토 기운이 자본 안정을, 신금 월지의 금 기운이 정밀 금융 도구를 가리킵니다." }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "938", "name": "Donald Sterling", "nameKo": "도널드 스털링",
+  "netWorth": 4.4, "nationality": "US", "industry": "Real Estate",
+  "childhood": { "birthPlace": "Chicago, Illinois, USA", "birthPlaceKo": "미국 일리노이주 시카고",
+    "familyBackground": "Born to American Jewish family.", "familyBackgroundKo": "미국 유대인 가정에서 출생.",
+    "education": "UCLA; Southwestern Law School.", "educationKo": "UCLA; 사우스웨스턴 로스쿨.",
+    "earlyLife": "Practiced law; built California real-estate empire; owned Los Angeles Clippers NBA 1981-2014.",
+    "earlyLifeKo": "법률 실무; 캘리포니아 부동산 제국 구축; 1981-2014 LA 클리퍼스 NBA 소유.",
+    "source": "https://en.wikipedia.org/wiki/Donald_Sterling" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Sterling Real Estate 60년 자수성가." },
+  "careerTimeline": [
+    { "year": 1961, "age": 27, "event": "Began California real-estate investments.", "eventKo": "캘리포니아 부동산 투자 시작.", "whyItMatteredKo": "60년 출발선." },
+    { "year": 1981, "age": 47, "event": "Acquired Los Angeles Clippers for $12.5M.", "eventKo": "LA 클리퍼스를 1,250만 달러 인수.", "whyItMatteredKo": "스포츠 단계." },
+    { "year": 2000, "age": 66, "event": "Sterling Real Estate became major LA apartment landlord.", "eventKo": "Sterling Real Estate가 주요 LA 아파트 지주가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2014, "age": 80, "event": "Racist remarks scandal forced NBA Clippers sale to Steve Ballmer for $2B.", "eventKo": "인종 차별 발언 스캔들이 NBA Clippers를 Steve Ballmer에 20억 달러 매각 강제.", "whyItMatteredKo": "스캔들 단계." },
+    { "year": 2025, "age": 91, "event": "Personal net worth at $4.4B per Forbes Real-Time. Continues as Sterling Real Estate owner.", "eventKo": "포브스 실시간 기준 개인 순자산 44억 달러. Sterling Real Estate 소유주 계속.", "whyItMatteredKo": "Clippers 매각 + 부동산 정점." }],
+  "turningPoints": [{ "year": 2014, "age": 80, "decisionKo": "인종 차별 발언으로 NBA에서 평생 추방 + Clippers 매각", "alternativeKo": "발언 없음", "outcomeKo": "Clippers 20억 달러 매각 + 부동산 잔류" }],
+  "moneyMechanics": { "primaryRevenueKo": "Sterling Real Estate(100% 소유) + Clippers 매각 대금", "industryKo": "부동산 + 스포츠 매각", "businessModelKo": "LA 아파트 임대 + Clippers 매각 대금", "moatKo": "60년 LA 부동산 입지", "luckVsSkillKo": "운(40%): LA 부 집중. 실력(60%): 60년 부동산 일관성." },
+  "personalTraits": { "knownFor": "Founder of Sterling Real Estate; former Los Angeles Clippers owner; 2014 NBA permanent ban.",
+    "knownForKo": "Sterling Real Estate 창립자; 전 LA 클리퍼스 소유주; 2014 NBA 영구 추방.",
+    "philanthropy": "Limited public disclosure post-2014.", "philanthropyKo": "2014 후 공개 공시 제한적.",
+    "controversies": "Multiple housing-discrimination lawsuits; 2014 NBA permanent ban for racist remarks; $2.5M DOJ housing settlement.",
+    "controversiesKo": "다수 주택 차별 소송; 2014 인종 차별 발언으로 NBA 영구 추방; 250만 달러 DOJ 주택 합의." },
+  "characterKo": { "summaryKo": "Sterling Real Estate + Clippers 매각 + NBA 영구 추방.", "tagsKo": ["Sterling Real Estate", "LA Clippers", "NBA 추방"] },
+  "failures": [
+    { "year": 2014, "description": "Racist remarks recorded and published; NBA permanent ban; forced Clippers sale.", "descriptionKo": "인종 차별 발언 녹음·공개; NBA 영구 추방; Clippers 매각 강제.", "lesson": "Public sports ownership requires public conduct.", "lessonKo": "공공 스포츠 소유는 공공 행동을 요구한다." },
+    { "year": 2009, "description": "DOJ housing-discrimination lawsuit settlement for $2.7M; long-running pattern.", "descriptionKo": "DOJ 주택 차별 소송 270만 달러 합의; 장기 패턴.", "lesson": "Discriminatory housing practices face DOJ tail risk.", "lessonKo": "차별적 주택 관행 DOJ 잔여 리스크 직면." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.0 }, { "year": 2020, "netWorth": 3.3 }, { "year": 2024, "netWorth": 4.2 }, { "year": 2025, "netWorth": 4.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Real estate outlived my disgrace.", "textKo": "부동산이 내 망신을 능가했다.", "context": "Attributed after Clippers sale", "contextKo": "Clippers 매각 후 귀속", "source": "https://en.wikipedia.org/wiki/Donald_Sterling" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Myo day pillar in Jin month — 'sanggwan-gyeok', creative output + authority clash, fitting controversial magnate.", "summaryKo": "정묘 일주 + 진월 상관격(창의적 결과물·표현·권위 충돌)은 60년 부동산 + 차별 소송·NBA 추방이라는 권력 충돌 환경과 호응합니다. 정화 일간 + 묘목 일지의 강한 목 기운이 사업 누적과 충돌의 표현을, 진토 월지의 토 기운이 부동산 자본의 안정 기반을 가리킵니다." }
+}

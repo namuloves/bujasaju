@@ -1,0 +1,39 @@
+{
+  "id": "1467", "name": "Frank Slootman", "nameKo": "프랭크 슬루트만",
+  "netWorth": 2.8, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Netherlands", "birthPlaceKo": "네덜란드",
+    "familyBackground": "Born to Dutch family; migrated to US.", "familyBackgroundKo": "네덜란드 가정에서 출생; 미국 이주.",
+    "education": "University of Rotterdam (economics).", "educationKo": "로테르담 대학교(경제학).",
+    "earlyLife": "CEO of Data Domain (sold to EMC for $2.4B), ServiceNow (took to IPO), and Snowflake (took to record-breaking IPO 2020).",
+    "earlyLifeKo": "Data Domain CEO(EMC에 24억 달러 매각)·ServiceNow CEO(IPO 주도)·Snowflake CEO(2020 기록 IPO 주도).",
+    "source": "https://en.wikipedia.org/wiki/Frank_Slootman"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Data Domain + ServiceNow + Snowflake CEO 지분." },
+  "careerTimeline": [
+    { "year": 1981, "age": 23, "event": "Began enterprise IT career.", "eventKo": "엔터프라이즈 IT 경력 시작.", "whyItMatteredKo": "IT 경력 출발선." },
+    { "year": 2003, "age": 45, "event": "Became Data Domain CEO; sold to EMC in 2009 for $2.4B.", "eventKo": "Data Domain CEO 취임; 2009 EMC에 24억 달러 매각.", "whyItMatteredKo": "Data Domain 단계." },
+    { "year": 2011, "age": 53, "event": "Became ServiceNow CEO; led IPO in 2012.", "eventKo": "ServiceNow CEO 취임; 2012 IPO 주도.", "whyItMatteredKo": "ServiceNow 단계." },
+    { "year": 2019, "age": 61, "event": "Became Snowflake CEO; led record-breaking 2020 IPO.", "eventKo": "Snowflake CEO 취임; 기록 깨는 2020 IPO 주도.", "whyItMatteredKo": "Snowflake 단계." },
+    { "year": 2025, "age": 67, "event": "Personal net worth at $2.8B per Forbes Real-Time. Continues active enterprise-tech executive.", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러. 활동적 엔터프라이즈 기술 임원 계속.", "whyItMatteredKo": "삼중 IPO CEO 정점." }
+  ],
+  "turningPoints": [{ "year": 2019, "age": 61, "decisionKo": "ServiceNow에서 Snowflake CEO로 전환", "alternativeKo": "ServiceNow 잔류", "outcomeKo": "6년 후 기록 IPO + 세 번째 메가 캡 CEO" }],
+  "moneyMechanics": { "primaryRevenueKo": "Snowflake(NYSE 상장) CEO 스톡 + ServiceNow + Data Domain 매각 대금", "industryKo": "엔터프라이즈 SaaS", "businessModelKo": "메가 캡 엔터프라이즈 SaaS CEO 보수·스톡", "moatKo": "삼중 메가 캡 CEO 트랙 + 엔터프라이즈 인맥", "luckVsSkillKo": "운(30%): 메가 캡 IPO 타이밍. 실력(70%): 세 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "CEO of three enterprise-tech IPOs (Data Domain, ServiceNow, Snowflake); legendary 'amped' management style.",
+    "knownForKo": "세 엔터프라이즈 기술 IPO CEO(Data Domain·ServiceNow·Snowflake); 전설적 'amped' 경영 스타일.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Snowflake 2024 ServiceNow data-breach lawsuit; aggressive 'amped' culture criticized.",
+    "controversiesKo": "Snowflake 2024 ServiceNow 데이터 침해 소송; 공격적 'amped' 문화 비판."
+  },
+  "characterKo": { "summaryKo": "Data Domain → ServiceNow → Snowflake 삼중 메가 캡 CEO.", "tagsKo": ["Snowflake", "ServiceNow", "Data Domain", "amped"] },
+  "failures": [
+    { "year": 2022, "description": "Snowflake stock fell 60%+ during tech-stock decline; growth concerns.", "descriptionKo": "기술주 하락 동안 Snowflake 주가 60%+ 하락; 성장 우려.", "lesson": "Growth SaaS valuations cyclical.", "lessonKo": "성장 SaaS 밸류에이션 주기적." },
+    { "year": 2024, "description": "Snowflake customer-data breaches drew SEC and customer scrutiny.", "descriptionKo": "Snowflake 고객 데이터 침해가 SEC·고객 감시 야기.", "lesson": "Data platforms face security tail risk.", "lessonKo": "데이터 플랫폼은 보안 잔여 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2021, "netWorth": 3.5 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Amp it up. Boring meetings make boring companies.", "textKo": "활기를 올려라. 지루한 미팅이 지루한 회사를 만든다.", "context": "On 'amped' management book", "contextKo": "'Amp It Up' 경영서에 대해", "source": "https://www.snowflake.com" }],
+  "books": { "authored": [{ "title": "Amp It Up", "year": 2022, "noteKo": "경영 리더십 책." }], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Chuk day pillar in Yu month — 'pyeon-in-gyeok', creative-strategic intuition, fitting serial CEO.", "summaryKo": "계축 일주 + 유월 편인격(독학·창의적 직관)은 세 메가 캡 회사를 연쇄적으로 끌어올린 비전형적 CEO 직관과 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 엔터프라이즈 SaaS의 데이터·시스템 정밀함과 통하고, 축토 일지·유금 월지가 자본 안정 + 결단 정밀함을 가리킵니다." }
+}

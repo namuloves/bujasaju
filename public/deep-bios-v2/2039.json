@@ -1,0 +1,33 @@
+{
+  "id": "2039", "name": "Alberto Alcocer", "nameKo": "알베르토 알코세르",
+  "netWorth": 2.0, "nationality": "ES", "industry": "Finance & Investments",
+  "childhood": { "birthPlace": "Spain", "birthPlaceKo": "스페인",
+    "familyBackground": "Born to Spanish family; cousin of Alberto Cortina; together built Spanish business empire.", "familyBackgroundKo": "스페인 가정에서 출생; 알베르토 코르티나의 사촌; 함께 스페인 사업 제국 구축.",
+    "education": "Spanish higher education.", "educationKo": "스페인 고등교육.",
+    "earlyLife": "With cousin Alberto Cortina built Spanish business empire; major Acciona, Acerinox shareholder.",
+    "earlyLifeKo": "사촌 알베르토 코르티나와 스페인 사업 제국 구축; 주요 Acciona·Acerinox 주주.",
+    "source": "https://www.forbes.com" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Alcocer-Cortina 사촌 스페인 사업 제국." },
+  "careerTimeline": [
+    { "year": 1965, "age": 23, "event": "Began Spanish business career with cousin Cortina.", "eventKo": "사촌 코르티나와 스페인 사업 경력 시작.", "whyItMatteredKo": "사업 출발선." },
+    { "year": 1985, "age": 43, "event": "Acquired stakes in Banesto, Construcciones y Contratas.", "eventKo": "Banesto·Construcciones y Contratas 지분 인수.", "whyItMatteredKo": "스페인 기업 단계." },
+    { "year": 1997, "age": 55, "event": "Acciona built into major Spanish infrastructure conglomerate.", "eventKo": "Acciona를 주요 스페인 인프라 대기업으로 구축.", "whyItMatteredKo": "Acciona 단계." },
+    { "year": 2010, "age": 68, "event": "Acerinox expanded into global stainless-steel.", "eventKo": "Acerinox가 글로벌 스테인리스 강 확장.", "whyItMatteredKo": "Acerinox 단계." },
+    { "year": 2025, "age": 83, "event": "Personal net worth at $2.0B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 20억 달러.", "whyItMatteredKo": "Alcocer 자본 정점." }],
+  "turningPoints": [{ "year": 1985, "age": 43, "decisionKo": "사촌과 Banesto·Acciona 지분 인수", "alternativeKo": "독립 사업", "outcomeKo": "40년 후 스페인 산업·금융 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Acciona + Acerinox + Banesto 잔여 + 다각화", "industryKo": "건설·인프라·금속·금융", "businessModelKo": "Acciona 인프라 + Acerinox 강 + 다각화 투자", "moatKo": "사촌 코르티나 파트너십 + 60년 스페인 자본", "luckVsSkillKo": "운(35%): 스페인 민영화. 실력(65%): 60년 다각화 일관성." },
+  "personalTraits": { "knownFor": "Cousin of Alberto Cortina; major Spanish industrial-and-financial magnate; one of Spain's wealthiest people.",
+    "knownForKo": "알베르토 코르티나의 사촌; 주요 스페인 산업·금융 거물; 스페인 최대 부자 중 한 명.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "1990s Banesto scandal involvement; multiple Spanish business-political disputes.",
+    "controversiesKo": "1990년대 Banesto 스캔들 연루; 다수 스페인 사업·정치 분쟁." },
+  "characterKo": { "summaryKo": "Alcocer-Cortina 사촌 스페인 사업 제국 가부장.", "tagsKo": ["Acciona", "Acerinox", "스페인 산업"] },
+  "failures": [
+    { "year": 1994, "description": "Banesto banking scandal compressed family wealth temporarily.", "descriptionKo": "Banesto 은행 스캔들이 가족 부 일시 압축.", "lesson": "Spanish banking faces sustained scandal cycle.", "lessonKo": "스페인 은행 지속적 스캔들 사이클." },
+    { "year": 2008, "description": "Global financial crisis compressed Spanish industrial demand.", "descriptionKo": "글로벌 금융위기로 스페인 산업 수요 압축.", "lesson": "Spanish industrial cyclical.", "lessonKo": "스페인 산업 주기적." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.4 }, { "year": 2020, "netWorth": 1.7 }, { "year": 2024, "netWorth": 1.9 }, { "year": 2025, "netWorth": 2.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Spanish business runs on cousins and patience.", "textKo": "스페인 사업은 사촌과 인내로 돌아간다.", "context": "On Spanish business", "contextKo": "스페인 사업에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-O day pillar in Hae month — 'jeonggwan-gyeok', formal authority, fitting industrial-banking magnate.", "summaryKo": "갑오 일주 + 해월 정관격(공식 권위·규제 아래에서 일하는 구조)은 스페인 은행·인프라 산업의 규제 환경과 호응합니다. 갑목 일간의 큰 나무 + 오화 일지의 화 기운이 결단의 표현 에너지를, 해수 월지의 강한 수 기운이 자본 유동성을 가리킵니다." }
+}

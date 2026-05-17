@@ -1,0 +1,37 @@
+{
+  "id": "926", "name": "Andreas Martinos", "nameKo": "안드레아스 마르티노스",
+  "netWorth": 4.4, "nationality": "GR", "industry": "Logistics",
+  "childhood": {
+    "birthPlace": "Greece", "birthPlaceKo": "그리스",
+    "familyBackground": "Born to Constantine Martinos — Greek shipping magnate. Member of Martinos shipping dynasty.", "familyBackgroundKo": "그리스 해운 거물 콘스탄틴 마르티노스의 아들. Martinos 해운 왕조 구성원.",
+    "education": "Greek and international maritime education.", "educationKo": "그리스·국제 해양 교육.",
+    "earlyLife": "Inherited Martinos family shipping operations; major Greek shipping family.",
+    "earlyLifeKo": "Martinos 가족 해운 운영 상속; 주요 그리스 해운 가족.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Martinos 가족 해운 자본." },
+  "careerTimeline": [
+    { "year": 1980, "age": 25, "event": "Began Martinos family shipping career.", "eventKo": "Martinos 가족 해운 경력 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2005, "age": 50, "event": "Expanded Martinos family shipping fleet across tankers and dry bulk.", "eventKo": "Martinos 가족 해운 선대를 탱커·건조 벌크 전반 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2022, "age": 67, "event": "Post-COVID shipping boom propelled Martinos shipping revenue to record highs.", "eventKo": "팬데믹 후 해운 붐으로 Martinos 해운 매출 기록 고점.", "whyItMatteredKo": "정점 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $4.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 44억 달러.", "whyItMatteredKo": "Martinos 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1980, "age": 25, "decisionKo": "Martinos 가족 해운 합류", "alternativeKo": "독립 경로", "outcomeKo": "45년 후 그리스 해운 가족 자본 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Martinos 가족 해운(100% 가족 소유) — 탱커·건조 벌크", "industryKo": "해운", "businessModelKo": "탱커 + 건조 벌크 + 가족 통제 선대", "moatKo": "다세대 Martinos 가족 자본 + 그리스 해운 인맥", "luckVsSkillKo": "운(60%): 가족 자본 + 2021-22 해운 슈퍼사이클. 실력(40%): 가족 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Member of Martinos shipping family; major Greek shipping magnate.",
+    "knownForKo": "Martinos 해운 가족 구성원; 주요 그리스 해운 거물.",
+    "philanthropy": "Greek maritime education support.", "philanthropyKo": "그리스 해양 교육 지원.",
+    "controversies": "Standard shipping industry environmental and tax scrutiny.", "controversiesKo": "표준 해운 산업 환경·세금 감시."
+  },
+  "characterKo": { "summaryKo": "Martinos 그리스 해운 가족 자본 가부장.", "tagsKo": ["Martinos 가족", "그리스 해운"] },
+  "failures": [
+    { "year": 2008, "description": "Shipping rates crashed during global financial crisis.", "descriptionKo": "글로벌 금융위기 동안 해운 운임 폭락.", "lesson": "Shipping highly cyclical.", "lessonKo": "해운 매우 주기적." },
+    { "year": 2023, "description": "Post-COVID shipping normalization compressed revenue from record highs.", "descriptionKo": "팬데믹 후 해운 정상화로 매출이 기록 고점에서 압축.", "lesson": "Cyclical industry tops are temporary.", "lessonKo": "주기적 산업 정점은 일시적." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 2.0 }, { "year": 2022, "netWorth": 4.5 }, { "year": 2024, "netWorth": 4.2 }, { "year": 2025, "netWorth": 4.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Greek shipping is centuries old. The ships change. The work doesn't.", "textKo": "그리스 해운은 수세기에 걸쳐 있다. 배는 바뀐다. 일은 그렇지 않다.", "context": "On Greek shipping", "contextKo": "그리스 해운에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Yu day pillar in Shin month — 'jeongjae-gyeok' with triple metal, fitting shipping-family patriarch.", "summaryKo": "신유 일주 + 신월 정재격(고정 자산·꾸준한 매출)은 다세대 가족 해운 자본의 안정 매출 모델과 호응합니다. 신금 일간 + 유금 일지·신금 월지의 강한 금 기운이 해운(금속 선박)의 단단함과 결단의 정밀함을 삼중으로 강조합니다." }
+}

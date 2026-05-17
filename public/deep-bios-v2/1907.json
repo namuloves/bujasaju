@@ -1,0 +1,32 @@
+{
+  "id": "1907", "name": "Marek Dospiva", "nameKo": "마레크 도스피바",
+  "netWorth": 2.1, "nationality": "CZ", "industry": "Finance & Investments",
+  "childhood": { "birthPlace": "Czechoslovakia", "birthPlaceKo": "체코슬로바키아",
+    "familyBackground": "Born to Czechoslovak family.", "familyBackgroundKo": "체코슬로바키아 가정에서 출생.",
+    "education": "Czech higher education.", "educationKo": "체코 고등교육.",
+    "earlyLife": "Co-founded Penta Investments in 1994 — Czech/Slovak private investment firm covering healthcare, retail, real estate, financial services.",
+    "earlyLifeKo": "1994 Penta Investments 공동 창립 — 헬스케어·소매·부동산·금융 서비스 망라하는 체코·슬로바키아 사적 투자 회사.",
+    "source": "https://www.pentainvestments.com" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Penta Investments 31년 자수성가." },
+  "careerTimeline": [
+    { "year": 1994, "age": 25, "event": "Co-founded Penta Investments in Czech Republic.", "eventKo": "체코에서 Penta Investments 공동 창립.", "whyItMatteredKo": "Penta 출발선." },
+    { "year": 2005, "age": 36, "event": "Penta acquired Slovenske Energeticke Strojarne and other CEE assets.", "eventKo": "Penta가 슬로바키아 에너지 스트로야르네·기타 중·동부 유럽 자산 인수.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2015, "age": 46, "event": "Penta diversified into pharmacy (Dr. Max), real estate, media.", "eventKo": "Penta가 약국(Dr. Max)·부동산·미디어 다각화.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 56, "event": "Personal net worth at $2.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 21억 달러.", "whyItMatteredKo": "Penta 자본 정점." }],
+  "turningPoints": [{ "year": 1994, "age": 25, "decisionKo": "체코에서 Penta Investments 공동 창립", "alternativeKo": "직장 잔류", "outcomeKo": "31년 후 중·동부 유럽 PE 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Penta Investments(비공개) 공동 창립자 지분", "industryKo": "사모펀드", "businessModelKo": "체코·슬로바키아 PE + 글로벌 다각화 (Dr. Max pharmacy, real estate)", "moatKo": "31년 중·동부 유럽 PE 트랙 + 가족 인맥", "luckVsSkillKo": "운(40%): 동유럽 민영화 + PE 시기. 실력(60%): 31년 일관성." },
+  "personalTraits": { "knownFor": "Co-founder of Penta Investments; major Czech/Slovak PE investor.",
+    "knownForKo": "Penta Investments 공동 창립자; 주요 체코·슬로바키아 PE 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Penta's role in Slovak political scandals (Gorilla affair); media-influence controversies.",
+    "controversiesKo": "Penta의 슬로바키아 정치 스캔들(Gorilla 사건) 역할; 미디어 영향 논란." },
+  "characterKo": { "summaryKo": "Penta Investments 31년 중·동부 유럽 PE 자수성가.", "tagsKo": ["Penta Investments", "체코 PE", "Gorilla 사건"] },
+  "failures": [
+    { "year": 2011, "description": "Slovak 'Gorilla' political scandal exposed Penta's political connections; sustained criticism.", "descriptionKo": "슬로바키아 'Gorilla' 정치 스캔들이 Penta 정치 연결 폭로; 지속적 비판.", "lesson": "Politically connected PE faces tail risk.", "lessonKo": "정치 연계 PE 잔여 리스크 직면." },
+    { "year": 2022, "description": "Rising European interest rates compressed PE deal flow.", "descriptionKo": "유럽 금리 상승이 PE 딜 플로 압축.", "lesson": "PE sensitive to rates.", "lessonKo": "PE 금리에 민감." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.0 }, { "year": 2025, "netWorth": 2.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "CEE PE rewards patience with local relationships.", "textKo": "중·동부 유럽 PE는 지역 관계와 인내에 보상한다.", "context": "On Penta", "contextKo": "Penta에 대해", "source": "https://www.pentainvestments.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-O day pillar in Mi month — 'jeonggwan-gyeok', formal authority, fitting institutional PE founder.", "summaryKo": "갑오 일주 + 미월 정관격(공식 권위·규제 아래에서 일하는 구조)은 중·동부 유럽 PE의 정부·규제 환경과 호응합니다. 갑목 일간의 큰 나무 + 오화 일지의 화 기운이 PE 결단의 표현 에너지를, 미토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

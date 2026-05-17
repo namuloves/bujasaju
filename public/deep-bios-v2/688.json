@@ -1,0 +1,38 @@
+{
+  "id": "688", "name": "Carl Douglas", "nameKo": "칼튼 조지 더글라스",
+  "netWorth": 5.8, "nationality": "SE", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Sweden", "birthPlaceKo": "스웨덴",
+    "familyBackground": "Born to Gad Rausing — TetraPak family member; grandson of Gad's father Ruben Rausing.", "familyBackgroundKo": "TetraPak 가족 가드 라우징의 아들; 가드의 아버지 루벤 라우징의 손자.",
+    "education": "Swedish higher education.", "educationKo": "스웨덴 고등교육.",
+    "earlyLife": "Inherited Rausing family stake; founded Securitas AB and Assa Abloy expansion (security and locks).",
+    "earlyLifeKo": "Rausing 가족 지분 상속; Securitas AB와 Assa Abloy 확장(보안·잠금장치) 창립.",
+    "source": "https://en.wikipedia.org/wiki/Carl_Douglas"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "Rausing 가족 자본 + Assa Abloy/Securitas 본인 운영." },
+  "careerTimeline": [
+    { "year": 1985, "age": 24, "event": "Began Rausing family operations after education.", "eventKo": "교육 후 Rausing 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1994, "age": 33, "event": "Co-founded Assa Abloy lock-manufacturing company.", "eventKo": "Assa Abloy 잠금장치 제조 회사 공동 창립.", "whyItMatteredKo": "Assa Abloy 출발선." },
+    { "year": 2000, "age": 39, "event": "Helped lead Securitas AB security-services expansion.", "eventKo": "Securitas AB 보안 서비스 확장 주도 도움.", "whyItMatteredKo": "Securitas 단계." },
+    { "year": 2015, "age": 54, "event": "Assa Abloy and Securitas became global leaders in locks and security services.", "eventKo": "Assa Abloy와 Securitas가 잠금장치·보안 서비스 글로벌 리더가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $5.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 58억 달러.", "whyItMatteredKo": "Rausing + Assa Abloy 정점." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 33, "decisionKo": "Assa Abloy 잠금장치 회사 공동 창립", "alternativeKo": "수동 상속자", "outcomeKo": "31년 후 글로벌 잠금장치 + 보안 서비스 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Assa Abloy(스톡홀름 증시) + Securitas AB + Rausing 가족 자본", "industryKo": "보안·잠금장치 + 다각화", "businessModelKo": "글로벌 잠금장치 + 보안 서비스 + 가족 자본", "moatKo": "Rausing 다세대 자본 + Assa Abloy 글로벌 1위", "luckVsSkillKo": "운(55%): 가족 자본. 실력(45%): 31년 Assa Abloy 운영." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Assa Abloy; Rausing family member; major Swedish industrial-and-security investor.",
+    "knownForKo": "Assa Abloy 공동 창립자; Rausing 가족 구성원; 주요 스웨덴 산업·보안 투자자.",
+    "philanthropy": "Supports Swedish heritage and cultural institutions.", "philanthropyKo": "스웨덴 유산·문화 기관 지원.",
+    "controversies": "Limited; standard family-wealth scrutiny.", "controversiesKo": "제한적; 표준 가족 부 감시."
+  },
+  "characterKo": { "summaryKo": "Rausing 가족 + Assa Abloy 글로벌 잠금장치 메이저 공동 창립자.", "tagsKo": ["Assa Abloy", "Securitas", "Rausing 가족"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis briefly compressed Assa Abloy construction-linked demand.", "descriptionKo": "글로벌 금융위기로 Assa Abloy 건설 연계 수요 잠시 압축.", "lesson": "Building-products pro-cyclical.", "lessonKo": "건축 제품 순응 사이클." },
+    { "year": 2020, "description": "COVID-19 disrupted commercial-real-estate security demand temporarily.", "descriptionKo": "COVID-19이 상업 부동산 보안 수요 일시 혼란.", "lesson": "Security services pandemic-exposed.", "lessonKo": "보안 서비스 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.0 }, { "year": 2020, "netWorth": 4.3 }, { "year": 2024, "netWorth": 5.5 }, { "year": 2025, "netWorth": 5.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Locks are trust hardware.", "textKo": "잠금장치는 신뢰 하드웨어다.", "context": "On Assa Abloy", "contextKo": "Assa Abloy에 대해", "source": "https://www.assaabloy.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Sul day pillar in Jin month — 'pyeonjae-gyeok', large external wealth, fitting industrial-magnate heir.", "summaryKo": "무술 일주 + 진월 편재격(크고 유동적인 외부 자본)은 다세대 가족 자본 + 글로벌 산업 회사라는 거대 외부 자본 흐름과 호응합니다. 무토 일간 + 술토 일지·진토 월지의 강한 토 기운이 다세대 가족 자본의 안정 기반을 삼중으로 강조합니다." }
+}

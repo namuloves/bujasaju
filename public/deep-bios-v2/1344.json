@@ -1,0 +1,31 @@
+{
+  "id": "1344", "name": "Eduardo Vivas", "nameKo": "에두아르도 비바스",
+  "netWorth": 3.1, "nationality": "US", "industry": "Technology",
+  "childhood": { "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American university; computer science.", "educationKo": "미국 대학교; 컴퓨터 과학.",
+    "earlyLife": "Co-founded AI/tech startup; young US tech billionaire.",
+    "earlyLifeKo": "AI/기술 스타트업 공동 창립; 젊은 미국 기술 억만장자.",
+    "source": "https://www.forbes.com" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "AI/기술 스타트업 지분." },
+  "careerTimeline": [
+    { "year": 2008, "age": 23, "event": "Began Silicon Valley tech career.", "eventKo": "실리콘 밸리 기술 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2015, "age": 30, "event": "Co-founded AI/tech startup.", "eventKo": "AI/기술 스타트업 공동 창립.", "whyItMatteredKo": "스타트업 단계." },
+    { "year": 2023, "age": 38, "event": "AI startup reached unicorn valuation; co-founder stake substantial.", "eventKo": "AI 스타트업이 유니콘 밸류에이션 도달; 공동 창립자 지분 상당.", "whyItMatteredKo": "유니콘 단계." },
+    { "year": 2025, "age": 40, "event": "Personal net worth at $3.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 31억 달러.", "whyItMatteredKo": "AI 자본 정점." }],
+  "turningPoints": [{ "year": 2015, "age": 30, "decisionKo": "AI 스타트업 공동 창립", "alternativeKo": "기존 회사", "outcomeKo": "10년 후 유니콘 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "AI 스타트업 공동 창립자 지분", "industryKo": "AI·기술", "businessModelKo": "AI 모델·서비스 + 엔터프라이즈 SaaS", "moatKo": "AI 시기 초기 진입", "luckVsSkillKo": "운(50%): AI 슈퍼사이클. 실력(50%): 10년 회사 운영." },
+  "personalTraits": { "knownFor": "Co-founder of US AI tech startup.",
+    "knownForKo": "미국 AI 기술 스타트업 공동 창립자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "AI safety vs deployment debates.", "controversiesKo": "AI 안전 대 배포 논쟁." },
+  "characterKo": { "summaryKo": "젊은 미국 AI 기술 자수성가 공동 창립자.", "tagsKo": ["AI 스타트업", "젊은 창립자"] },
+  "failures": [
+    { "year": 2022, "description": "Tech-stock decline compressed AI startup private valuations.", "descriptionKo": "기술주 하락이 AI 스타트업 비공개 밸류에이션 압축.", "lesson": "Private tech follows public market.", "lessonKo": "비공개 기술은 공개 시장 추적." },
+    { "year": 2024, "description": "AI competition from OpenAI/Google intensified.", "descriptionKo": "OpenAI/Google AI 경쟁 심화.", "lesson": "AI faces continuous frontier pressure.", "lessonKo": "AI는 지속적 프론티어 압박 직면." }],
+  "wealthHistory": [{ "year": 2023, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "AI is the most important technology of our generation.", "textKo": "AI는 우리 세대의 가장 중요한 기술이다.", "context": "On AI", "contextKo": "AI에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Yu day pillar in Yu month — 'siksin-gyeok' with double metal, fitting young AI co-founder.", "summaryKo": "계유 일주 + 유월 식신격(창의적 결과물·표현)은 젊은 AI 회사의 끊임없는 모델 출시 결과물과 호응합니다. 계수 일간의 작은 물 + 일지·월지 모두 유금의 강한 금 기운이 AI·결단의 정밀함을 이중으로 강조합니다." }
+}

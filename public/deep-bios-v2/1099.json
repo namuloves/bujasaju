@@ -1,0 +1,38 @@
+{
+  "id": "1099", "name": "August Troendle", "nameKo": "어거스트 트뢴들",
+  "netWorth": 3.8, "nationality": "US", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Medical training; pharmacology.", "educationKo": "의학 훈련; 약리학.",
+    "earlyLife": "Worked at FDA; founded Medpace in 1992 — clinical-research organization (CRO) for pharmaceutical trials.",
+    "earlyLifeKo": "FDA 근무; 1992 Medpace 창립 — 제약 시험용 임상 연구 기관(CRO).",
+    "source": "https://en.wikipedia.org/wiki/Medpace"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Medpace 33년 자수성가." },
+  "careerTimeline": [
+    { "year": 1985, "age": 29, "event": "Worked as medical reviewer at US FDA.", "eventKo": "미국 FDA 의료 검토자로 근무.", "whyItMatteredKo": "FDA 경력 출발선." },
+    { "year": 1992, "age": 36, "event": "Founded Medpace clinical-research organization in Cincinnati.", "eventKo": "신시내티에서 Medpace 임상 연구 기관 창립.", "whyItMatteredKo": "Medpace 출발선." },
+    { "year": 2014, "age": 58, "event": "Cinven took Medpace private for $915M.", "eventKo": "Cinven이 Medpace를 9억 1,500만 달러에 비공개화.", "whyItMatteredKo": "PE 단계." },
+    { "year": 2016, "age": 60, "event": "Medpace IPO on NASDAQ; growing CRO industry.", "eventKo": "Medpace 나스닥 IPO; 성장하는 CRO 산업.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $3.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 38억 달러.", "whyItMatteredKo": "Medpace 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1992, "age": 36, "decisionKo": "FDA 떠나 CRO 회사 창립", "alternativeKo": "FDA 잔류", "outcomeKo": "33년 후 글로벌 CRO 메이저 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Medpace Holdings(NASDAQ 상장) 창립자 지분", "industryKo": "임상 연구 기관(CRO)", "businessModelKo": "제약·바이오 클라이언트 임상 시험 + FDA 제출 + 글로벌", "moatKo": "33년 CRO 인프라 + FDA 경력 인맥", "luckVsSkillKo": "운(30%): 바이오 임상 부상. 실력(70%): 33년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Medpace; former FDA reviewer; major CRO industry leader.",
+    "knownForKo": "Medpace 창립자; 전 FDA 검토자; 주요 CRO 산업 리더.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard CRO industry regulatory scrutiny.", "controversiesKo": "제한적; 표준 CRO 산업 규제 감시."
+  },
+  "characterKo": { "summaryKo": "FDA 출신 Medpace 33년 CRO 자수성가.", "tagsKo": ["Medpace", "FDA 출신", "CRO"] },
+  "failures": [
+    { "year": 2009, "description": "Global financial crisis compressed pharma R&D spending; CRO industry slowed.", "descriptionKo": "글로벌 금융위기로 제약 R&D 지출 압축; CRO 산업 둔화.", "lesson": "CRO depends on pharma capex cycle.", "lessonKo": "CRO는 제약 설비 투자 사이클에 의존." },
+    { "year": 2022, "description": "Biotech-stock decline reduced clinical-trial sponsor demand.", "descriptionKo": "바이오테크 주식 하락으로 임상 시험 후원자 수요 감소.", "lesson": "CRO sensitive to biotech-funding cycle.", "lessonKo": "CRO는 바이오테크 자금 조달 사이클에 민감." }
+  ],
+  "wealthHistory": [{ "year": 2016, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 3.6 }, { "year": 2025, "netWorth": 3.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Clinical trials are how medicine speaks evidence.", "textKo": "임상 시험은 의학이 증거를 말하는 방식이다.", "context": "On Medpace mission", "contextKo": "Medpace 미션에 대해", "source": "https://www.medpace.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Mi day pillar in Shin month — 'jeonggwan-gyeok', formal-regulatory authority, fitting FDA-trained CRO founder.", "summaryKo": "신미 일주 + 신월 정관격(공식 권위·규제 아래에서 일하는 구조)은 FDA 경력 + 33년 CRO 산업의 규제 환경과 정확히 호응합니다. 신금 일간 + 신금 월지의 강한 금 기운이 임상 시험의 정밀 결단을 가리키고, 미토 일지의 토 기운이 회사 자본의 안정 기반을 가리킵니다." }
+}

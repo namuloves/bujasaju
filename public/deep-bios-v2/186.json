@@ -1,0 +1,40 @@
+{
+  "id": "186", "name": "Xavier Niel", "nameKo": "자비에 니엘",
+  "netWorth": 14.6, "nationality": "FR", "industry": "Telecom",
+  "childhood": {
+    "birthPlace": "Maisons-Alfort, France", "birthPlaceKo": "프랑스 메종-알포르",
+    "familyBackground": "Born to French middle-class family.", "familyBackgroundKo": "프랑스 중산층 가정에서 출생.",
+    "education": "Self-taught coder; no formal higher education.", "educationKo": "독학 코더; 정규 고등교육 없음.",
+    "earlyLife": "Founded Minitel sex chat services; founded Iliad in 1991 — French telecom that launched Free mobile in 2012 disrupting French mobile market.",
+    "earlyLifeKo": "Minitel 성인 채팅 서비스 창립; 1991 Iliad 창립 — 2012 Free 모바일 출시로 프랑스 모바일 시장 파괴한 프랑스 통신사.",
+    "source": "https://en.wikipedia.org/wiki/Xavier_Niel"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Iliad 34년 자수성가." },
+  "careerTimeline": [
+    { "year": 1991, "age": 24, "event": "Founded Iliad as Minitel/internet service provider.", "eventKo": "Iliad를 Minitel·인터넷 서비스 제공사로 창립.", "whyItMatteredKo": "Iliad 출발선." },
+    { "year": 1999, "age": 32, "event": "Launched Free ISP — first major French ADSL competitor.", "eventKo": "Free ISP 출시 — 첫 주요 프랑스 ADSL 경쟁자.", "whyItMatteredKo": "ISP 단계." },
+    { "year": 2012, "age": 45, "event": "Launched Free Mobile at €2/month; disrupted French mobile market.", "eventKo": "Free Mobile을 월 2유로 출시; 프랑스 모바일 시장 파괴.", "whyItMatteredKo": "모바일 단계." },
+    { "year": 2018, "age": 51, "event": "Founded Station F — world's largest startup campus in Paris.", "eventKo": "Station F 창립 — 파리 세계 최대 스타트업 캠퍼스.", "whyItMatteredKo": "스타트업 단계." },
+    { "year": 2025, "age": 58, "event": "Personal net worth at $14.6B per Forbes Real-Time. Took Iliad private in 2021; partial owner of Le Monde.", "eventKo": "포브스 실시간 기준 개인 순자산 146억 달러. 2021 Iliad 비공개화; Le Monde 부분 소유주.", "whyItMatteredKo": "Iliad 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2012, "age": 45, "decisionKo": "Free Mobile 월 2유로 출시로 프랑스 모바일 파괴", "alternativeKo": "기존 가격 유지", "outcomeKo": "13년 후 프랑스 통신·미디어 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Iliad(비공개) 창립자 지분 + Station F + Le Monde 부분", "industryKo": "통신·미디어·인터넷", "businessModelKo": "Iliad 프랑스 통신 + 글로벌 모바일 + 미디어 + 스타트업 인프라", "moatKo": "34년 통신 인프라 + 가격 파괴 노하우", "luckVsSkillKo": "운(30%): 프랑스 모바일 통합 시기. 실력(70%): 34년 단일 비전 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Iliad/Free; disrupted French mobile market; founder of Station F startup campus; partial owner of Le Monde.",
+    "knownForKo": "Iliad/Free 창립자; 프랑스 모바일 시장 파괴; Station F 스타트업 캠퍼스 창립자; Le Monde 부분 소유주.",
+    "philanthropy": "Station F supports French startup ecosystem; Niel funded École 42 free coding school.",
+    "philanthropyKo": "Station F가 프랑스 스타트업 생태계 지원; Niel이 École 42 무료 코딩 학교 자금.",
+    "controversies": "1996 child-prostitution investigation (later dropped); Minitel sex-chat history; Niel-Stéphane Courbit Free Mobile €350M IPO scandal.",
+    "controversiesKo": "1996 미성년자 매춘 조사(이후 기각); Minitel 성인 채팅 역사; Niel-Stéphane Courbit Free Mobile 3억 5,000만 유로 IPO 스캔들."
+  },
+  "characterKo": { "summaryKo": "독학 코더 출신 Iliad/Free 34년 자수성가 — 프랑스 모바일 파괴자.", "tagsKo": ["Iliad", "Free Mobile", "Station F", "Le Monde"] },
+  "failures": [
+    { "year": 1996, "description": "Investigated for involvement in child-prostitution Minitel services; charges later dropped.", "descriptionKo": "Minitel 미성년자 매춘 서비스 연루 조사; 혐의 이후 기각.", "lesson": "Early-internet adult services create lasting reputational risk.", "lessonKo": "초기 인터넷 성인 서비스가 지속적 평판 리스크 야기." },
+    { "year": 2024, "description": "Iliad faced sustained French mobile-price compression; profit growth challenges.", "descriptionKo": "Iliad가 지속적 프랑스 모바일 가격 압축 직면; 이익 성장 도전.", "lesson": "Disrupting on price faces sustained competitive cycle.", "lessonKo": "가격 파괴는 지속적 경쟁 사이클 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 7.5 }, { "year": 2020, "netWorth": 7.1 }, { "year": 2024, "netWorth": 9.3 }, { "year": 2025, "netWorth": 14.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I made telecom cheap so France could afford the internet.", "textKo": "프랑스가 인터넷을 살 수 있게 통신을 저렴하게 만들었다.", "context": "On Free Mobile launch", "contextKo": "Free Mobile 출시에 대해", "source": "https://www.iliad.fr" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Yu day pillar in Shin month — 'jeongin-gyeok' with triple metal, fitting precision-disruptor.", "summaryKo": "신유 일주 + 신월 정인격(공식 자격·학문·문서 권위)은 통신 산업의 라이선스·규제 환경과 호응합니다. 신금 일간 + 유금 일지·신금 월지의 강한 금 기운이 가격 파괴·결단의 예리함을 삼중으로 강조하고, 정인격이 독학 코더가 라이선스 인프라를 통해 부를 만든 구조를 그립니다." }
+}

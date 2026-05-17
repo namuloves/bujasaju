@@ -1,0 +1,39 @@
+{
+  "id": "1018", "name": "Martin Bouygues", "nameKo": "마르탱 부이그",
+  "netWorth": 4.0, "nationality": "FR", "industry": "Construction & Engineering",
+  "childhood": {
+    "birthPlace": "Paris, France", "birthPlaceKo": "프랑스 파리",
+    "familyBackground": "Born to Francis Bouygues — founder of Bouygues Group (French construction conglomerate).", "familyBackgroundKo": "Bouygues Group(프랑스 건설 대기업) 창립자 프랑시스 부이그의 아들.",
+    "education": "École Centrale Paris.", "educationKo": "에콜 상트랄 파리.",
+    "earlyLife": "Joined family Bouygues; became CEO 1989; led TF1 acquisition and Bouygues Telecom expansion.",
+    "earlyLifeKo": "가족 Bouygues 합류; 1989 CEO; TF1 인수와 Bouygues Telecom 확장 주도.",
+    "source": "https://en.wikipedia.org/wiki/Martin_Bouygues"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Bouygues Group 가족 자본." },
+  "careerTimeline": [
+    { "year": 1974, "age": 22, "event": "Joined family Bouygues Group.", "eventKo": "가족 Bouygues Group 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1987, "age": 35, "event": "Bouygues acquired TF1 — France's #1 TV channel.", "eventKo": "Bouygues가 TF1 인수 — 프랑스 1위 TV 채널.", "whyItMatteredKo": "TV 단계." },
+    { "year": 1989, "age": 37, "event": "Became Bouygues Group CEO after father's retirement.", "eventKo": "아버지 은퇴 후 Bouygues Group CEO 취임.", "whyItMatteredKo": "CEO 단계." },
+    { "year": 1996, "age": 44, "event": "Founded Bouygues Telecom — third French mobile carrier.", "eventKo": "Bouygues Telecom 창립 — 프랑스 3대 모바일 통신사.", "whyItMatteredKo": "통신 단계." },
+    { "year": 2025, "age": 73, "event": "Personal net worth at $4.0B per Forbes Real-Time. Continues as Bouygues Group chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 40억 달러. Bouygues Group 의장 계속.", "whyItMatteredKo": "Bouygues 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1989, "age": 37, "decisionKo": "Bouygues Group CEO 인수 + 다각화 주도", "alternativeKo": "건설 잔류", "outcomeKo": "36년 후 글로벌 건설·미디어·통신 메이저 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Bouygues SA(파리 증시) 가족 지분 — 건설·TF1·Bouygues Telecom·Colas", "industryKo": "건설·통신·미디어 다각화", "businessModelKo": "Bouygues 건설 + TF1 TV + Bouygues Telecom + Colas 도로", "moatKo": "다세대 Bouygues 가족 자본 + 다각화 인프라", "luckVsSkillKo": "운(60%): 가족 자본. 실력(40%): 36년 CEO + 다각화 결단." },
+  "personalTraits": {
+    "knownFor": "Chairman of Bouygues Group; French construction-telecom-media patriarch.",
+    "knownForKo": "Bouygues Group 의장; 프랑스 건설·통신·미디어 가부장.",
+    "philanthropy": "Bouygues family supports French education.", "philanthropyKo": "Bouygues 가족이 프랑스 교육 지원.",
+    "controversies": "TF1 political controversies; Bouygues Telecom mobile-market consolidation debates.",
+    "controversiesKo": "TF1 정치 논란; Bouygues Telecom 모바일 시장 통합 논쟁."
+  },
+  "characterKo": { "summaryKo": "Bouygues 다세대 가족 + 36년 CEO + 다각화 가부장.", "tagsKo": ["Bouygues", "TF1", "Bouygues Telecom"] },
+  "failures": [
+    { "year": 2014, "description": "Bouygues Telecom merger with Numericable rejected; multi-year mobile-market consolidation pressure.", "descriptionKo": "Bouygues Telecom의 Numericable 합병 거절; 다년간 모바일 시장 통합 압박.", "lesson": "Telecom mergers face regulatory blocks.", "lessonKo": "통신 합병은 규제 차단 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Bouygues construction operations.", "descriptionKo": "COVID-19이 Bouygues 건설 운영 혼란.", "lesson": "Construction pandemic-exposed.", "lessonKo": "건설 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 3.8 }, { "year": 2025, "netWorth": 4.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Construction is the slowest growth-business in the world. We grew anyway.", "textKo": "건설은 세계에서 가장 느린 성장 사업이다. 그래도 성장했다.", "context": "On Bouygues", "contextKo": "Bouygues에 대해", "source": "https://www.bouygues.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Yu day pillar in Jin month — 'jeonggwan-gyeok', formal authority, fitting regulated-construction-and-telecom patriarch.", "summaryKo": "기유 일주 + 진월 정관격(공식 권위·규제 아래에서 일하는 구조)은 프랑스 건설·통신·미디어 산업의 정부 규제·라이선스 환경과 호응합니다. 기토 일간 + 진토 월지의 토 기운이 건설·인프라 자본의 안정 기반을 가리키고, 유금 일지의 금 기운이 결단의 정밀함을 가리킵니다." }
+}

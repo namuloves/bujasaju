@@ -1,0 +1,31 @@
+{
+  "id": "1495", "name": "Alexandra Daitch", "nameKo": "알렉산드라 다이치",
+  "netWorth": 2.7, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": { "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Cargill-MacMillan family — heirs of Cargill Inc. (world's largest privately held agricultural-commodity trader).", "familyBackgroundKo": "Cargill Inc.(세계 최대 비공개 농업 원자재 거래 회사) 상속자 Cargill-MacMillan 가족에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Inherited Cargill-MacMillan family stake; passive shareholder.",
+    "earlyLifeKo": "Cargill-MacMillan 가족 지분 상속; 수동 주주.",
+    "source": "https://en.wikipedia.org/wiki/Cargill" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Cargill 160+년 가족 자본." },
+  "careerTimeline": [
+    { "year": 1985, "age": 22, "event": "Began Cargill-MacMillan family governance involvement.", "eventKo": "Cargill-MacMillan 가족 거버넌스 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2000, "age": 37, "event": "Cargill global agriculture revenue exceeded $50B.", "eventKo": "Cargill 글로벌 농업 매출이 500억 달러 초과.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2020, "age": 57, "event": "Cargill continued as world's largest privately held food company.", "eventKo": "Cargill이 세계 최대 비공개 식품 회사로 계속.", "whyItMatteredKo": "다세대 단계." },
+    { "year": 2025, "age": 62, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "Cargill 자본 정점." }],
+  "turningPoints": [{ "year": 1985, "age": 22, "decisionKo": "Cargill 가족 거버넌스 참여", "alternativeKo": "독립 경로", "outcomeKo": "160+년 가족 자본 차세대 상속자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Cargill Inc.(100% 가족 소유) 가족 지분", "industryKo": "농업·식품 거래", "businessModelKo": "글로벌 곡물·식품·동물 영양·금융 거래", "moatKo": "160+년 가족 자본 + 글로벌 농업 인프라", "luckVsSkillKo": "운(95%): 가족 자본. 실력(5%): 거버넌스." },
+  "personalTraits": { "knownFor": "Member of Cargill-MacMillan family; major Cargill Inc. shareholder.",
+    "knownForKo": "Cargill-MacMillan 가족 구성원; 주요 Cargill Inc. 주주.",
+    "philanthropy": "Cargill family supports Minnesota community and agriculture research.", "philanthropyKo": "Cargill 가족이 미네소타 지역 사회·농업 연구 지원.",
+    "controversies": "Cargill faces sustained environmental criticism over deforestation.", "controversiesKo": "Cargill이 산림 파괴에 대한 지속적 환경 비판." },
+  "characterKo": { "summaryKo": "Cargill 160+년 가족 자본 차세대 상속자.", "tagsKo": ["Cargill", "Cargill-MacMillan 가족"] },
+  "failures": [
+    { "year": 2015, "description": "Cargill commodity-trading division suffered losses.", "descriptionKo": "Cargill 원자재 거래 부문이 손실.", "lesson": "Commodity cyclical.", "lessonKo": "원자재 주기적." },
+    { "year": 2020, "description": "COVID-19 disrupted global food supply chains.", "descriptionKo": "COVID-19이 글로벌 식품 공급망 혼란.", "lesson": "Food supply chain pandemic-exposed.", "lessonKo": "식품 공급망 팬데믹 노출." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family ownership thinks in centuries.", "textKo": "가족 소유는 세기 단위로 생각한다.", "context": "On Cargill family stewardship", "contextKo": "Cargill 가족 청지기에 대해", "source": "https://www.cargill.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Hae day pillar in Sul month — 'jeongjae-gyeok', steady accumulation, fitting agricultural-dynasty heir.", "summaryKo": "기해 일주 + 술월 정재격(고정 자산·꾸준한 매출)은 160+년 농업 가족 자본의 안정 매출 누적과 호응합니다. 기토 일간의 농경 기질이 농업·식품 산업과 직접 통하고, 해수 일지의 수 기운이 공급망 유동성을, 술토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

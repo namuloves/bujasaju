@@ -1,0 +1,33 @@
+{
+  "id": "1087", "name": "Michael Saylor", "nameKo": "마이클 세일러",
+  "netWorth": 3.8, "nationality": "US", "industry": "Technology",
+  "childhood": { "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family; father an Air Force officer.", "familyBackgroundKo": "미국 가정에서 출생; 아버지가 공군 장교.",
+    "education": "MIT (aeronautics, history of science).", "educationKo": "MIT(항공우주공학·과학사).",
+    "earlyLife": "Co-founded MicroStrategy in 1989 — business intelligence software; pivoted to Bitcoin treasury in 2020.",
+    "earlyLifeKo": "1989 MicroStrategy 공동 창립 — 비즈니스 인텔리전스 소프트웨어; 2020 비트코인 재무 피벗.",
+    "source": "https://en.wikipedia.org/wiki/Michael_Saylor" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "MicroStrategy 36년 + 비트코인 베팅." },
+  "careerTimeline": [
+    { "year": 1989, "age": 24, "event": "Co-founded MicroStrategy at MIT.", "eventKo": "MIT에서 MicroStrategy 공동 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 1998, "age": 33, "event": "MicroStrategy IPO on NASDAQ.", "eventKo": "MicroStrategy 나스닥 IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2000, "age": 35, "event": "Accounting scandal collapsed MicroStrategy stock 99%; Saylor lost $6B in one day.", "eventKo": "회계 스캔들로 MicroStrategy 주가 99% 붕괴; 세일러가 하루에 60억 달러 상실.", "whyItMatteredKo": "위기 단계." },
+    { "year": 2020, "age": 55, "event": "Pivoted MicroStrategy to Bitcoin treasury strategy; acquired $1B+ BTC.", "eventKo": "MicroStrategy를 비트코인 재무 전략으로 피벗; 10억 달러+ BTC 인수.", "whyItMatteredKo": "BTC 피벗 단계." },
+    { "year": 2025, "age": 60, "event": "Personal net worth at $3.8B per Forbes Real-Time. MicroStrategy holds 600K+ BTC.", "eventKo": "포브스 실시간 기준 개인 순자산 38억 달러. MicroStrategy가 60만+ BTC 보유.", "whyItMatteredKo": "BTC 자본 정점." }],
+  "turningPoints": [{ "year": 2020, "age": 55, "decisionKo": "MicroStrategy 현금을 비트코인으로 전환", "alternativeKo": "현금 보유", "outcomeKo": "5년 후 세계 최대 기업 BTC 보유자" }],
+  "moneyMechanics": { "primaryRevenueKo": "MicroStrategy(NASDAQ 상장) CEO 지분 + 개인 비트코인", "industryKo": "기술 + 비트코인", "businessModelKo": "BI 소프트웨어 + 비트코인 재무 전략 + BTC ETF 대체", "moatKo": "비트코인 최대 기업 보유자 + 36년 BI 노하우", "luckVsSkillKo": "운(55%): 2020 BTC 베팅 타이밍. 실력(45%): 36년 MicroStrategy." },
+  "personalTraits": { "knownFor": "Co-founder of MicroStrategy; pioneering corporate Bitcoin treasury strategy; vocal BTC evangelist.",
+    "knownForKo": "MicroStrategy 공동 창립자; 선구적 기업 비트코인 재무 전략; 노골적 BTC 전도사.",
+    "philanthropy": "Saylor Foundation supports MIT and education.", "philanthropyKo": "Saylor Foundation이 MIT·교육 지원.",
+    "controversies": "2000 MicroStrategy SEC accounting fraud case; 2022 DC tax evasion case ($40M settlement); aggressive Bitcoin advocacy.",
+    "controversiesKo": "2000 MicroStrategy SEC 회계 사기 사건; 2022 DC 세금 탈루 사건(4,000만 달러 합의); 공격적 비트코인 옹호." },
+  "characterKo": { "summaryKo": "MicroStrategy 회계 위기 → 비트코인 피벗 → 기업 BTC 보유 1위.", "tagsKo": ["MicroStrategy", "Bitcoin", "BTC 전도사"] },
+  "failures": [
+    { "year": 2000, "description": "MicroStrategy SEC accounting fraud charges; stock collapsed 99% in one day; $6B personal loss.", "descriptionKo": "MicroStrategy SEC 회계 사기 혐의; 주가가 하루에 99% 붕괴; 60억 달러 개인 손실.", "lesson": "Aggressive accounting creates catastrophic tail risk.", "lessonKo": "공격적 회계 재앙적 잔여 리스크." },
+    { "year": 2022, "description": "DC AG sued Saylor for $25M tax evasion; settled for $40M.", "descriptionKo": "DC 검찰총장이 세일러를 2,500만 달러 세금 탈루로 소송; 4,000만 달러로 합의.", "lesson": "Public-figure tax positions face state scrutiny.", "lessonKo": "공인 세금 위치 주 감시 직면." }],
+  "wealthHistory": [{ "year": 2000, "netWorth": 7.0 }, { "year": 2001, "netWorth": 0.3 }, { "year": 2020, "netWorth": 0.3 }, { "year": 2024, "netWorth": 4.6 }, { "year": 2025, "netWorth": 3.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Bitcoin is digital gold for the 21st century.", "textKo": "비트코인은 21세기의 디지털 금이다.", "context": "On Bitcoin advocacy", "contextKo": "비트코인 옹호에 대해", "source": "https://www.microstrategy.com" }],
+  "books": { "authored": [{ "title": "The Mobile Wave", "year": 2012, "noteKo": "모바일 컴퓨팅 책." }], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Chuk day pillar in In month — 'pyeon-in-gyeok', creative intuition, fitting Bitcoin-pivot CEO.", "summaryKo": "기축 일주 + 인월 편인격(독학·창의적 직관)은 BI 소프트웨어에서 비트코인 재무라는 비전형적 자본 통로로의 직관적 결단과 호응합니다. 기토 일간 + 축토 일지의 토 기운이 가족·회사 자본의 안정 기반을, 인목 월지의 목 기운이 회사·BTC 자본의 누적 성장을 가리킵니다." }
+}

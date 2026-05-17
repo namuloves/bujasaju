@@ -1,0 +1,39 @@
+{
+  "id": "770", "name": "Stephen Cohen", "nameKo": "스티븐 코헨",
+  "netWorth": 5.3, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Stanford University (computer science).", "educationKo": "스탠퍼드 대학교(컴퓨터 과학).",
+    "earlyLife": "Co-founded Palantir Technologies in 2003 with Peter Thiel, Alex Karp, Joe Lonsdale, Nathan Gettings; serves as president; major Palantir shareholder.",
+    "earlyLifeKo": "2003 피터 틸·알렉스 카프·조 론스데일·네이선 게팅스와 Palantir Technologies 공동 창립; 사장 역임; Palantir 주요 주주.",
+    "source": "https://en.wikipedia.org/wiki/Stephen_Cohen_(entrepreneur)"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Palantir 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2003, "age": 20, "event": "Co-founded Palantir Technologies as Stanford student.", "eventKo": "스탠퍼드 학생으로 Palantir Technologies 공동 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 2010, "age": 27, "event": "Palantir Gotham deployed by US intelligence agencies; valuation jumped.", "eventKo": "Palantir Gotham을 미국 정보 기관 배치; 밸류에이션 도약.", "whyItMatteredKo": "정부 계약 단계." },
+    { "year": 2020, "age": 37, "event": "Palantir went public via direct listing on NYSE.", "eventKo": "Palantir NYSE 직접 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2023, "age": 40, "event": "Palantir AI Platform (AIP) launch drove stock rally.", "eventKo": "Palantir AI 플랫폼(AIP) 출시가 주가 랠리 견인.", "whyItMatteredKo": "AI 단계." },
+    { "year": 2025, "age": 42, "event": "Personal net worth at $5.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 53억 달러.", "whyItMatteredKo": "Palantir 정점." }
+  ],
+  "turningPoints": [{ "year": 2003, "age": 20, "decisionKo": "20세에 Palantir 공동 창립", "alternativeKo": "전통 기술 경력", "outcomeKo": "22년 후 53억 달러 정부·AI 데이터 기업가" }],
+  "moneyMechanics": { "primaryRevenueKo": "Palantir 공동 창립자 지분(PLTR) + 다각화", "industryKo": "기술·데이터 분석", "businessModelKo": "정부·기업 데이터 분석 SaaS + 공개 주식", "moatKo": "정부 기밀 인증 + AIP AI 플랫폼", "luckVsSkillKo": "운(40%): 9/11 후 정보 분석 수요. 실력(60%): 20세 창립 + 22년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and president of Palantir Technologies; Stanford CS classmate of Peter Thiel circle.",
+    "knownForKo": "Palantir Technologies 공동 창립자·사장; 피터 틸 서클의 스탠퍼드 CS 동기.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Palantir surveillance and ICE contract criticism; civil liberties debates.",
+    "controversiesKo": "Palantir 감시·ICE 계약 비판; 시민 자유 논쟁."
+  },
+  "characterKo": { "summaryKo": "20세 Palantir 공동 창립 + 정부 데이터 분석.", "tagsKo": ["Palantir", "스탠퍼드", "AI 플랫폼"] },
+  "failures": [
+    { "year": 2016, "description": "Palantir valuation cut to $20B from peak $20B+ as private rounds repriced.", "descriptionKo": "Palantir 밸류에이션 정점 200억+에서 200억으로 사적 라운드 가격 재책정.", "lesson": "Private unicorns face down rounds in tighter markets.", "lessonKo": "비공개 유니콘은 긴축 시장에서 다운 라운드 직면." },
+    { "year": 2022, "description": "Palantir stock fell sharply from 2021 highs amid tech-stock decline.", "descriptionKo": "Palantir 주식이 기술주 하락으로 2021 고점에서 급락.", "lesson": "Public tech equity faces volatility cycles.", "lessonKo": "공개 기술 주식은 변동성 주기 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2023, "netWorth": 1.8 }, { "year": 2024, "netWorth": 4.2 }, { "year": 2025, "netWorth": 5.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Software eats government when government finally lets it.", "textKo": "정부가 마침내 허락할 때 소프트웨어가 정부를 먹어치운다.", "context": "On Palantir government contracts", "contextKo": "Palantir 정부 계약에 대해", "source": "https://www.palantir.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Jin day pillar in Yu month — 'sanggwan-gyeok', unconventional creative expression, fitting youngest co-founder of data-analytics company.", "summaryKo": "병진 일주 + 유월 상관격(파격적 표현·기존 권위 도전)은 20세에 정부 데이터 분석이라는 파격 산업을 공동 창립한 그의 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 진토 일지의 토 기운이 자본 안정을, 유금 월지의 금 기운이 정밀 데이터 분석 도구를 가리킵니다." }
+}

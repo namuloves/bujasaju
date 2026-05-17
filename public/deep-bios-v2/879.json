@@ -1,0 +1,40 @@
+{
+  "id": "879", "name": "Hansjoerg Wyss", "nameKo": "한스외르크 비스",
+  "netWorth": 4.7, "nationality": "CH", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Bern, Switzerland", "birthPlaceKo": "스위스 베른",
+    "familyBackground": "Born to Swiss family.", "familyBackgroundKo": "스위스 가정에서 출생.",
+    "education": "ETH Zurich (civil engineering); Harvard MBA.", "educationKo": "ETH 취리히(토목공학); 하버드 MBA.",
+    "earlyLife": "Joined Synthes orthopedic-implant company; built into world's largest orthopedic-trauma implants maker; sold to Johnson & Johnson for $19.7B in 2012.",
+    "earlyLifeKo": "Synthes 정형외과 임플란트 회사 합류; 세계 최대 정형외과 외상 임플란트 제조사로 구축; 2012년 Johnson & Johnson에 197억 달러 매각.",
+    "source": "https://en.wikipedia.org/wiki/Hansj%C3%B6rg_Wyss"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Synthes 매각 + Harvard MBA." },
+  "careerTimeline": [
+    { "year": 1965, "age": 30, "event": "Joined Synthes orthopedic-implant company.", "eventKo": "Synthes 정형외과 임플란트 회사 합류.", "whyItMatteredKo": "Synthes 경력 출발선." },
+    { "year": 1977, "age": 42, "event": "Became Synthes USA president; led North American expansion.", "eventKo": "Synthes USA 사장 취임; 북미 확장 주도.", "whyItMatteredKo": "사장 단계." },
+    { "year": 2007, "age": 72, "event": "Synthes IPO on Swiss Exchange; valuation multiplied.", "eventKo": "Synthes 스위스 증시 IPO; 밸류에이션 배수화.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2012, "age": 77, "event": "Sold Synthes to Johnson & Johnson for $19.7B — one of largest medtech deals.", "eventKo": "Synthes를 Johnson & Johnson에 197억 달러 매각 — 최대 메드테크 거래 중 하나.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2025, "age": 90, "event": "Personal net worth at $4.7B per Forbes Real-Time. Major environmental philanthropist.", "eventKo": "포브스 실시간 기준 개인 순자산 47억 달러. 주요 환경 자선가.", "whyItMatteredKo": "Synthes 자본 + 자선가 정점." }
+  ],
+  "turningPoints": [{ "year": 2012, "age": 77, "decisionKo": "Synthes 197억 달러 매각", "alternativeKo": "독립 운영 잔류", "outcomeKo": "엑시트 + 글로벌 환경 자선가 13년" }],
+  "moneyMechanics": { "primaryRevenueKo": "Synthes 매각 J&J 주식 + Wyss Foundation 환경 투자", "industryKo": "메드테크 매각 + 환경 자선", "businessModelKo": "Synthes 매각 대금 + 글로벌 환경 보전 자선", "moatKo": "Synthes 47년 + 환경 자선 인프라", "luckVsSkillKo": "운(30%): 메드테크 슈퍼사이클. 실력(70%): 47년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Former Synthes USA president; sold Synthes to J&J for $19.7B; major environmental philanthropist (Wyss Foundation, Wyss Institute at Harvard).",
+    "knownForKo": "전 Synthes USA 사장; Synthes를 J&J에 197억 달러 매각; 주요 환경 자선가(Wyss 재단·하버드 Wyss Institute).",
+    "philanthropy": "Wyss Foundation funded $4B+ to environmental conservation, education; signed Giving Pledge.",
+    "philanthropyKo": "Wyss 재단이 환경 보전·교육에 40억 달러+ 자금; Giving Pledge 서명.",
+    "controversies": "Wyss Foundation political-donation controversies in US; Sweden allegations on foreign-funded political activities.",
+    "controversiesKo": "Wyss 재단의 미국 정치 기부 논란; 외국 자금 정치 활동에 대한 스웨덴 의혹."
+  },
+  "characterKo": { "summaryKo": "Synthes 47년 자수성가 → J&J 197억 매각 + 환경 자선가.", "tagsKo": ["Synthes", "Wyss Foundation", "Giving Pledge"] },
+  "failures": [
+    { "year": 2009, "description": "Synthes faced US DOJ off-label criminal investigation; 4 executives convicted, fines.", "descriptionKo": "Synthes가 미국 DOJ 오프라벨 형사 조사 직면; 임원 4명 유죄, 벌금.", "lesson": "Medical-device companies face FDA tail risk.", "lessonKo": "의료 기기 회사는 FDA 잔여 리스크 직면." },
+    { "year": 2022, "description": "Wyss political donations drew sustained scrutiny over foreign influence allegations.", "descriptionKo": "Wyss 정치 기부가 외국 영향 의혹에 대한 지속적 감시 야기.", "lesson": "Cross-border political philanthropy creates exposure.", "lessonKo": "국경 간 정치 자선이 노출 야기." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 11.5 }, { "year": 2020, "netWorth": 5.6 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Wealth without conservation is wealth without purpose.", "textKo": "보전 없는 부는 목적 없는 부다.", "context": "On environmental philanthropy", "contextKo": "환경 자선에 대해", "source": "https://www.wyssfoundation.org" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Sul day pillar in Yu month — 'jeonggwan-gyeok', formal authority, fitting regulated-medtech-and-philanthropy executive.", "summaryKo": "무술 일주 + 유월 정관격(공식 권위·규제 아래에서 일하는 구조)은 47년 메드테크 산업의 FDA 규제 + 글로벌 환경 자선의 정통 거버넌스와 호응합니다. 무토 일간 + 술토 일지의 강한 토 기운이 다세대 안정 가부장과 통하고, 유금 월지의 금 기운이 결단의 정밀함을 가리킵니다." }
+}

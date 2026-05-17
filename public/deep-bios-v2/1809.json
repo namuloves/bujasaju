@@ -1,0 +1,38 @@
+{
+  "id": "1809", "name": "Arnout Schuijff", "nameKo": "아르노우트 스카위프",
+  "netWorth": 2.2, "nationality": "NL", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Netherlands", "birthPlaceKo": "네덜란드",
+    "familyBackground": "Born to Dutch family.", "familyBackgroundKo": "네덜란드 가정에서 출생.",
+    "education": "Dutch higher education in computer science.", "educationKo": "네덜란드 컴퓨터 과학 고등교육.",
+    "earlyLife": "Co-founded Adyen in 2006 with Pieter van der Does — Dutch payment-processing platform.",
+    "earlyLifeKo": "2006년 피터르 판 더르 더스와 Adyen 공동 창립 — 네덜란드 결제 처리 플랫폼.",
+    "source": "https://en.wikipedia.org/wiki/Adyen"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Adyen 공동 창립자 지분 19년 자수성가." },
+  "careerTimeline": [
+    { "year": 1995, "age": 28, "event": "Began Dutch payment-processing career.", "eventKo": "네덜란드 결제 처리 경력 시작.", "whyItMatteredKo": "결제 경력 출발선." },
+    { "year": 2006, "age": 39, "event": "Co-founded Adyen with Pieter van der Does.", "eventKo": "피터르 판 더르 더스와 Adyen 공동 창립.", "whyItMatteredKo": "Adyen 출발선." },
+    { "year": 2018, "age": 51, "event": "Adyen IPO on Euronext Amsterdam; valuation crossed $10B+.", "eventKo": "Adyen Euronext 암스테르담 IPO; 밸류에이션 100억 달러+ 돌파.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2022, "age": 55, "event": "Stepped down as Adyen CTO; remained major shareholder.", "eventKo": "Adyen CTO에서 사임; 주요 주주 잔류.", "whyItMatteredKo": "전환 단계." },
+    { "year": 2025, "age": 58, "event": "Personal net worth at $2.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 22억 달러.", "whyItMatteredKo": "Adyen 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2006, "age": 39, "decisionKo": "Adyen 결제 플랫폼 공동 창립", "alternativeKo": "직장 잔류", "outcomeKo": "19년 후 유럽 최대 결제 처리사 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Adyen(Euronext 상장) 공동 창립자 지분", "industryKo": "결제 처리·핀테크", "businessModelKo": "글로벌 가맹점 결제 처리 + 통합 플랫폼", "moatKo": "19년 글로벌 결제 인프라 + 엔터프라이즈 고객", "luckVsSkillKo": "운(35%): 글로벌 이커머스 부상. 실력(65%): 19년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Adyen; pioneering European payment-processing platform.",
+    "knownForKo": "Adyen 공동 창립자; 선구적 유럽 결제 처리 플랫폼.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard payment-processor regulatory scrutiny.", "controversiesKo": "제한적; 표준 결제 처리사 규제 감시."
+  },
+  "characterKo": { "summaryKo": "Adyen 공동 창립 — 유럽 최대 결제 처리 플랫폼.", "tagsKo": ["Adyen", "결제 처리", "네덜란드 핀테크"] },
+  "failures": [
+    { "year": 2023, "description": "Adyen stock fell 40%+ on US growth-rate slowdown concerns; H1 results disappointed.", "descriptionKo": "Adyen 주가가 미국 성장률 둔화 우려로 40%+ 하락; 상반기 결과 실망.", "lesson": "Payment-processor growth tied to ecommerce cycle.", "lessonKo": "결제 처리 성장은 이커머스 사이클에 묶임." },
+    { "year": 2020, "description": "COVID-19 disrupted travel/airline payment volumes briefly.", "descriptionKo": "COVID-19이 여행·항공 결제 규모 잠시 혼란.", "lesson": "Travel payments pandemic-exposed.", "lessonKo": "여행 결제 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 1.5 }, { "year": 2021, "netWorth": 3.5 }, { "year": 2023, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.0 }, { "year": 2025, "netWorth": 2.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Payments are plumbing. They must work invisibly.", "textKo": "결제는 배관이다. 보이지 않게 작동해야 한다.", "context": "On Adyen mission", "contextKo": "Adyen 미션에 대해", "source": "https://www.adyen.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Chuk day pillar in Sul month — 'jeongin-gyeok', formal authority, fitting payments-infrastructure co-founder.", "summaryKo": "계축 일주 + 술월 정인격(공식 자격·학문·문서 권위)은 결제 인프라의 규제·인증·은행 기반 산업과 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 결제 시스템 정밀함과 통하고, 축토 일지·술토 월지의 토 기운이 결제 인프라 자본의 안정 기반을 가리킵니다." }
+}

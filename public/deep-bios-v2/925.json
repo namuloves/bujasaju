@@ -1,0 +1,31 @@
+{
+  "id": "925", "name": "Anthony Pritzker", "nameKo": "앤서니 프리츠커",
+  "netWorth": 4.4, "nationality": "US", "industry": "Service",
+  "childhood": { "birthPlace": "Chicago, Illinois, USA", "birthPlaceKo": "미국 일리노이주 시카고",
+    "familyBackground": "Born to Pritzker family — Hyatt Hotels owners. Brother of J.B., Penny, and Daniel Pritzker.", "familyBackgroundKo": "Pritzker 가족(Hyatt Hotels 소유주) 출생. J.B.·페니·다니엘 프리츠커의 형제.",
+    "education": "Dartmouth College; University of Chicago MBA.", "educationKo": "다트머스 칼리지; 시카고 대학교 MBA.",
+    "earlyLife": "Inherited Pritzker family stake; co-founded Pritzker Group; major US PE investor.",
+    "earlyLifeKo": "Pritzker 가족 지분 상속; Pritzker Group 공동 창립; 주요 미국 PE 투자자.",
+    "source": "https://en.wikipedia.org/wiki/Pritzker_family" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Pritzker 가족 자본." },
+  "careerTimeline": [
+    { "year": 1985, "age": 24, "event": "Began Pritzker family operations.", "eventKo": "Pritzker 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2002, "age": 41, "event": "Pritzker family wealth restructuring; Anthony received significant stake.", "eventKo": "Pritzker 가족 부 재구조화; 앤서니가 상당한 지분 수령.", "whyItMatteredKo": "재구조화 단계." },
+    { "year": 2010, "age": 49, "event": "Co-founded Pritzker Group with brother J.B. — PE investing.", "eventKo": "동생 J.B.와 Pritzker Group 공동 창립 — PE 투자.", "whyItMatteredKo": "PE 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $4.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 44억 달러.", "whyItMatteredKo": "Pritzker 자본 정점." }],
+  "turningPoints": [{ "year": 2010, "age": 49, "decisionKo": "동생 J.B.와 Pritzker Group PE 공동 창립", "alternativeKo": "수동 상속자", "outcomeKo": "Pritzker 가족 PE 메이저 운영자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Pritzker Group(가족 사무실) + Hyatt 지분", "industryKo": "가족 자본 + PE", "businessModelKo": "Pritzker 신탁 + 중대형 PE 투자", "moatKo": "Pritzker 다세대 가족 자본", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): Pritzker Group PE 운영." },
+  "personalTraits": { "knownFor": "Member of Pritzker family; co-founder of Pritzker Group; major US PE investor.",
+    "knownForKo": "Pritzker 가족 구성원; Pritzker Group 공동 창립자; 주요 미국 PE 투자자.",
+    "philanthropy": "Major Chicago philanthropist; supports education.", "philanthropyKo": "주요 시카고 자선가; 교육 지원.",
+    "controversies": "Pritzker family 2002 inheritance restructuring drew sustained scrutiny.", "controversiesKo": "Pritzker 가족 2002 상속 재구조화 지속적 감시." },
+  "characterKo": { "summaryKo": "Pritzker 가족 + Pritzker Group PE 공동 창립자.", "tagsKo": ["Pritzker 가족", "Pritzker Group"] },
+  "failures": [
+    { "year": 2002, "description": "Pritzker family inheritance restructuring drew multi-year tax-trust scrutiny.", "descriptionKo": "Pritzker 가족 상속 재구조화가 다년간 세금·신탁 감시 야기.", "lesson": "Multi-generational trusts create legal tail.", "lessonKo": "다세대 신탁 법적 잔여 야기." },
+    { "year": 2022, "description": "Rising interest rates compressed PE deal flow.", "descriptionKo": "금리 상승이 PE 딜 플로 압축.", "lesson": "PE rates-sensitive.", "lessonKo": "PE 금리 민감." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.7 }, { "year": 2020, "netWorth": 3.6 }, { "year": 2024, "netWorth": 4.2 }, { "year": 2025, "netWorth": 4.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family capital invested patiently outperforms quarterly capital.", "textKo": "인내심 있게 투자된 가족 자본이 분기 자본을 능가한다.", "context": "On Pritzker Group", "contextKo": "Pritzker Group에 대해", "source": "https://www.pritzkergroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Ja day pillar in Chuk month — 'jeongin-gyeok', maternal-academic foundation, fitting Pritzker family heir-investor.", "summaryKo": "경자 일주 + 축월 정인격(공식 자격·학문·문서 권위)은 다세대 Pritzker 가족 자본의 정통 거버넌스·신탁 기반과 호응합니다. 경금 일간의 단단한 금속 + 자수 일지의 수 기운이 가족 자본의 유동성과 결단 정밀함을, 축토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

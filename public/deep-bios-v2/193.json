@@ -1,0 +1,33 @@
+{
+  "id": "193", "name": "Joseph Lau", "nameKo": "조셉 라우",
+  "netWorth": 14.2, "nationality": "HK", "industry": "Real Estate",
+  "childhood": { "birthPlace": "Hong Kong", "birthPlaceKo": "홍콩",
+    "familyBackground": "Born to Hong Kong family.", "familyBackgroundKo": "홍콩 가정에서 출생.",
+    "education": "University of Windsor (Canada).", "educationKo": "캐나다 윈저 대학교.",
+    "earlyLife": "Joined family ceiling-fan business; transformed Chinese Estates Holdings into major Hong Kong real-estate developer.",
+    "earlyLifeKo": "가족 천장 선풍기 사업 합류; Chinese Estates Holdings를 주요 홍콩 부동산 개발사로 변환.",
+    "source": "https://en.wikipedia.org/wiki/Joseph_Lau" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Chinese Estates Holdings + 미술품·다이아몬드." },
+  "careerTimeline": [
+    { "year": 1973, "age": 22, "event": "Joined family Hong Kong ceiling-fan business.", "eventKo": "가족 홍콩 천장 선풍기 사업 합류.", "whyItMatteredKo": "출발선." },
+    { "year": 1986, "age": 35, "event": "Acquired Chinese Estates Holdings; pivoted to real estate.", "eventKo": "Chinese Estates Holdings 인수; 부동산 피벗.", "whyItMatteredKo": "Chinese Estates 단계." },
+    { "year": 2010, "age": 59, "event": "Chinese Estates became major Hong Kong commercial real-estate.", "eventKo": "Chinese Estates가 주요 홍콩 상업 부동산이 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2014, "age": 63, "event": "Convicted of bribery in Macau; sentenced in absentia; remained in HK.", "eventKo": "마카오에서 뇌물로 유죄; 궐석 선고; 홍콩 잔류.", "whyItMatteredKo": "법적 위기." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $14.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 142억 달러.", "whyItMatteredKo": "Chinese Estates 자본 정점." }],
+  "turningPoints": [{ "year": 1986, "age": 35, "decisionKo": "Chinese Estates Holdings 인수", "alternativeKo": "선풍기 사업 잔류", "outcomeKo": "39년 후 홍콩 부동산 + 미술품 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Chinese Estates Holdings(홍콩 증시) + 미술품·다이아몬드 컬렉션", "industryKo": "부동산 + 미술품 투자", "businessModelKo": "홍콩 상업 부동산 + 거대 미술품·다이아몬드 컬렉션", "moatKo": "39년 홍콩 부동산 입지 + 미술품 자산", "luckVsSkillKo": "운(40%): 홍콩 부동산 부상. 실력(60%): 39년 단일 비전." },
+  "personalTraits": { "knownFor": "Chairman of Chinese Estates Holdings; major Hong Kong real-estate magnate; world-class diamond and art collector.",
+    "knownForKo": "Chinese Estates Holdings 의장; 주요 홍콩 부동산 거물; 세계적 다이아몬드·미술품 수집가.",
+    "philanthropy": "Limited public disclosure post-2014 conviction.", "philanthropyKo": "2014 유죄 후 공개 공시 제한적.",
+    "controversies": "2014 Macau bribery conviction (5 years sentence in absentia); never traveled outside HK since; personal scandals.",
+    "controversiesKo": "2014 마카오 뇌물 유죄(궐석 5년 형); 이후 홍콩 외 여행 한 적 없음; 개인 스캔들." },
+  "characterKo": { "summaryKo": "Chinese Estates 홍콩 부동산 + 미술품 + 마카오 뇌물 유죄.", "tagsKo": ["Chinese Estates", "홍콩 부동산", "마카오 유죄"] },
+  "failures": [
+    { "year": 2014, "description": "Convicted in Macau bribery case; sentenced in absentia; never traveled outside HK since.", "descriptionKo": "마카오 뇌물 사건 유죄; 궐석 선고; 이후 홍콩 외 여행 한 적 없음.", "lesson": "Cross-border business creates legal tail risk.", "lessonKo": "국경 간 사업이 법적 잔여 리스크 야기." },
+    { "year": 2022, "description": "Hong Kong property crisis compressed Chinese Estates valuation.", "descriptionKo": "홍콩 부동산 위기로 Chinese Estates 밸류에이션 압축.", "lesson": "Single-city property cyclical.", "lessonKo": "단일 도시 부동산 주기적." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 13.2 }, { "year": 2020, "netWorth": 14.2 }, { "year": 2024, "netWorth": 13.5 }, { "year": 2025, "netWorth": 14.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Diamonds and properties don't talk back.", "textKo": "다이아몬드와 부동산은 말대꾸하지 않는다.", "context": "On collections and real estate", "contextKo": "컬렉션·부동산에 대해", "source": "https://en.wikipedia.org/wiki/Joseph_Lau" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Sul day pillar in Mi month — 'sanggwan-gyeok' with strong earth, fitting property-and-collector magnate.", "summaryKo": "임술 일주 + 미월 상관격(창의적 결과물·표현·권위 충돌)은 부동산 + 미술품 컬렉션이라는 끊임없는 자본 축적 + 마카오 뇌물 같은 권력 충돌과 호응합니다. 임수 일간의 큰 물 + 술토 일지·미토 월지의 강한 토 기운이 부동산 자본의 안정 기반을 이중으로 강조합니다." }
+}

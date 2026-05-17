@@ -1,0 +1,31 @@
+{
+  "id": "465", "name": "Daniel Tsai", "nameKo": "다니엘 차이",
+  "netWorth": 7.7, "nationality": "TW", "industry": "Finance & Investments",
+  "childhood": { "birthPlace": "Taiwan", "birthPlaceKo": "대만",
+    "familyBackground": "Born to Tsai family — major Taiwan financial-services family (Fubon Group).", "familyBackgroundKo": "주요 대만 금융 서비스 가족 Tsai 가족(Fubon Group) 출생.",
+    "education": "Taiwan and US higher education.", "educationKo": "대만·미국 고등교육.",
+    "earlyLife": "Inherited Fubon Group family stake; major Taiwan banking and insurance heir.",
+    "earlyLifeKo": "Fubon Group 가족 지분 상속; 주요 대만 은행·보험 상속자.",
+    "source": "https://en.wikipedia.org/wiki/Fubon_Financial_Holding" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Tsai 가족 Fubon Group 자본." },
+  "careerTimeline": [
+    { "year": 1980, "age": 24, "event": "Began Tsai family operations.", "eventKo": "Tsai 가족 운영 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2002, "age": 46, "event": "Became Fubon Financial Holding chairman.", "eventKo": "Fubon Financial Holding 의장 취임.", "whyItMatteredKo": "의장 단계." },
+    { "year": 2015, "age": 59, "event": "Fubon became major Asian financial holding; Taiwan #2 financial services.", "eventKo": "Fubon이 주요 아시아 금융 지주가 됨; 대만 2위 금융 서비스.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $7.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 77억 달러.", "whyItMatteredKo": "Fubon 자본 정점." }],
+  "turningPoints": [{ "year": 2002, "age": 46, "decisionKo": "Fubon Financial Holding 의장 인수", "alternativeKo": "기업 잔류", "outcomeKo": "23년 후 대만 2위 금융 메이저 의장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Fubon Financial Holding(타이베이 증시) 가족 지분", "industryKo": "금융·보험·증권", "businessModelKo": "은행 + 보험 + 증권 + 자산운용", "moatKo": "Tsai 가족 자본 + 대만 금융 1·2위", "luckVsSkillKo": "운(70%): 가족 자본. 실력(30%): 23년 거버넌스." },
+  "personalTraits": { "knownFor": "Chairman of Fubon Financial Holding; major Taiwan banking heir.",
+    "knownForKo": "Fubon Financial Holding 의장; 주요 대만 은행 상속자.",
+    "philanthropy": "Fubon supports Taiwanese education and arts.", "philanthropyKo": "Fubon이 대만 교육·예술 지원.",
+    "controversies": "Limited; standard Taiwan financial regulatory scrutiny.", "controversiesKo": "제한적; 표준 대만 금융 규제 감시." },
+  "characterKo": { "summaryKo": "Fubon Group 다세대 대만 금융 가족 자본 가부장.", "tagsKo": ["Fubon Group", "대만 금융", "Tsai 가족"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Asian banking briefly.", "descriptionKo": "글로벌 금융위기로 아시아 은행 잠시 압축.", "lesson": "Banking cyclical.", "lessonKo": "은행 주기적." },
+    { "year": 2020, "description": "COVID-19 disrupted Taiwan financial services.", "descriptionKo": "COVID-19이 대만 금융 서비스 혼란.", "lesson": "Financial services pandemic-exposed.", "lessonKo": "금융 서비스 팬데믹 노출." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.6 }, { "year": 2020, "netWorth": 6.0 }, { "year": 2024, "netWorth": 7.3 }, { "year": 2025, "netWorth": 7.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Taiwanese finance is patience with Asian markets.", "textKo": "대만 금융은 아시아 시장과의 인내다.", "context": "On Fubon", "contextKo": "Fubon에 대해", "source": "https://www.fubon.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Sul day pillar in Jin month — 'pyeon-gwan-gyeok', strong external authority, fitting regulated-finance heir.", "summaryKo": "임술 일주 + 진월 편관격(강한 외부 압박·권력 충돌)은 대만 금융 산업의 정부·규제 환경과 호응합니다. 임수 일간의 큰 물 + 술토 일지·진토 월지의 토 기운이 금융 자본의 안정 기반을 이중으로 강조합니다." }
+}

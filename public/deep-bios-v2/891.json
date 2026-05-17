@@ -1,0 +1,38 @@
+{
+  "id": "891", "name": "Kevin David Lehmann", "nameKo": "케빈 데이비드 레만",
+  "netWorth": 4.6, "nationality": "DE", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Guenther Lehmann — major dm-drogerie markt (German pharmacy/drugstore chain) shareholder. Father gifted Kevin major dm stake when Kevin was 14.", "familyBackgroundKo": "주요 dm-drogerie markt(독일 약국·드러그스토어 체인) 주주 귄터 레만의 아들. 아버지가 케빈 14세 때 주요 dm 지분 선물.",
+    "education": "German secondary education.", "educationKo": "독일 중등교육.",
+    "earlyLife": "Became youngest billionaire after father gifted dm-drogerie markt stake at 14; world's youngest billionaire 2020-2024.",
+    "earlyLifeKo": "14세에 아버지가 dm-drogerie markt 지분 선물 후 최연소 억만장자가 됨; 2020-2024 세계 최연소 억만장자.",
+    "source": "https://en.wikipedia.org/wiki/Kevin_David_Lehmann"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "dm-drogerie markt 가족 자본 14세 선물." },
+  "careerTimeline": [
+    { "year": 2017, "age": 14, "event": "Father gifted major dm-drogerie markt stake; became one of world's youngest billionaires.", "eventKo": "아버지가 주요 dm-drogerie markt 지분 선물; 세계 최연소 억만장자 중 한 명이 됨.", "whyItMatteredKo": "상속 출발선." },
+    { "year": 2020, "age": 17, "event": "Reached billionaire status; world's youngest billionaire (Forbes).", "eventKo": "억만장자 지위 도달; 세계 최연소 억만장자(Forbes).", "whyItMatteredKo": "최연소 억만장자 단계." },
+    { "year": 2023, "age": 20, "event": "Continued as passive dm-drogerie markt family shareholder.", "eventKo": "dm-drogerie markt 가족 수동 주주로 계속.", "whyItMatteredKo": "수동 단계." },
+    { "year": 2025, "age": 22, "event": "Personal net worth at $4.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 46억 달러.", "whyItMatteredKo": "가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 14, "decisionKo": "아버지로부터 14세에 dm-drogerie markt 지분 선물 받음", "alternativeKo": "장기 신탁", "outcomeKo": "최연소 억만장자 정체성" }],
+  "moneyMechanics": { "primaryRevenueKo": "dm-drogerie markt 가족 지분 (50%)", "industryKo": "드러그스토어·약국 소매", "businessModelKo": "독일 #1 드러그스토어 체인 + 유럽 확장", "moatKo": "다세대 dm 가족 자본 + 독일 1위 드러그스토어", "luckVsSkillKo": "운(99%): 가족 자본. 실력(1%): 수동 잔류." },
+  "personalTraits": {
+    "knownFor": "World's youngest billionaire (2020-2024); inherited dm-drogerie markt stake at 14.",
+    "knownForKo": "세계 최연소 억만장자(2020-2024); 14세에 dm-drogerie markt 지분 상속.",
+    "philanthropy": "Limited public disclosure given young age.", "philanthropyKo": "어린 나이 고려 공개 공시 제한적.",
+    "controversies": "Wealth transfer to minor drew sustained German tax-policy debate; passive nature of wealth criticized.",
+    "controversiesKo": "미성년자로의 부 이전이 지속적 독일 세금 정책 논쟁 야기; 부의 수동성 비판."
+  },
+  "characterKo": { "summaryKo": "14세에 dm-drogerie markt 지분 선물받은 세계 최연소 억만장자 출신.", "tagsKo": ["dm-drogerie markt", "최연소 억만장자", "Lehmann 가족"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 temporarily disrupted German drugstore foot traffic.", "descriptionKo": "COVID-19이 독일 드러그스토어 통행 일시 혼란.", "lesson": "Physical drugstore pandemic-exposed.", "lessonKo": "물리 드러그스토어 팬데믹 노출." },
+    { "year": 2017, "description": "Wealth-transfer to minor became target of German tax-policy criticism.", "descriptionKo": "미성년자로의 부 이전이 독일 세금 정책 비판 표적이 됨.", "lesson": "Generational wealth-transfer creates political risk.", "lessonKo": "세대 부 이전이 정치 리스크 야기." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 3.3 }, { "year": 2024, "netWorth": 4.4 }, { "year": 2025, "netWorth": 4.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "My father gave me the stake. I am still learning what to do with it.", "textKo": "아버지가 지분을 줬다. 나는 그것으로 무엇을 할지 아직 배우고 있다.", "context": "On inheritance at 14", "contextKo": "14세 상속에 대해", "source": "https://www.dm-jobs.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Shin day pillar in Shin month — 'pyeon-gwan-gyeok' with strong metal, fitting young heir under structural authority.", "summaryKo": "임신 일주 + 신월 편관격(강한 외부 압박·권력 충돌)은 14세 미성년자로의 거대 부 이전이라는 외부 구조의 강한 영향과 호응합니다. 임수 일간의 큰 물 + 일지·월지 모두 신금의 강한 금 기운이 가족 자본의 단단한 결정성과 정밀한 신탁 구조를 이중으로 강조합니다." }
+}

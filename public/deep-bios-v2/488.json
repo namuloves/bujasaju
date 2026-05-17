@@ -1,0 +1,31 @@
+{
+  "id": "488", "name": "Gianfelice Rocca", "nameKo": "지안펠리체 로카",
+  "netWorth": 7.5, "nationality": "IT", "industry": "Metals & Mining",
+  "childhood": { "birthPlace": "Italy", "birthPlaceKo": "이탈리아",
+    "familyBackground": "Born to Rocca family — owners of Techint Group (Italian-Argentine steel/oil conglomerate).", "familyBackgroundKo": "Techint Group(이탈리아·아르헨티나 강·석유 대기업) 소유 Rocca 가족 출생.",
+    "education": "Politecnico di Milano (nuclear engineering).", "educationKo": "밀란 폴리테크닉(원자력 공학).",
+    "earlyLife": "Joined family Techint Group; chairman of Humanitas Hospitals; brother of Paolo Rocca (Techint CEO).",
+    "earlyLifeKo": "가족 Techint Group 합류; Humanitas 병원 의장; 파올로 로카(Techint CEO)의 형제.",
+    "source": "https://en.wikipedia.org/wiki/Techint" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Techint Group 가족 자본." },
+  "careerTimeline": [
+    { "year": 1975, "age": 27, "event": "Joined family Techint Group.", "eventKo": "가족 Techint Group 합류.", "whyItMatteredKo": "출발선." },
+    { "year": 1995, "age": 47, "event": "Founded Humanitas Hospitals private healthcare group in Italy.", "eventKo": "이탈리아에서 Humanitas 병원 사적 헬스케어 그룹 창립.", "whyItMatteredKo": "Humanitas 단계." },
+    { "year": 2015, "age": 67, "event": "Techint expanded into Tenaris (oil-country tubular goods).", "eventKo": "Techint이 Tenaris(석유 국가 관 제품) 확장.", "whyItMatteredKo": "Tenaris 단계." },
+    { "year": 2025, "age": 77, "event": "Personal net worth at $7.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 75억 달러.", "whyItMatteredKo": "Techint 자본 정점." }],
+  "turningPoints": [{ "year": 1995, "age": 47, "decisionKo": "Humanitas 병원 그룹 창립", "alternativeKo": "Techint만 집중", "outcomeKo": "30년 후 산업·헬스케어 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Techint Group + Humanitas + Tenaris", "industryKo": "강·석유 + 헬스케어", "businessModelKo": "Techint 산업·EPC + Humanitas 병원 + Tenaris 강관", "moatKo": "다세대 Rocca 가족 자본 + 이탈리아·아르헨티나 인맥", "luckVsSkillKo": "운(60%): 가족 자본. 실력(40%): 50년 다각화." },
+  "personalTraits": { "knownFor": "Member of Rocca family; chairman of Humanitas Hospitals; major Italian-Argentine industrial heir.",
+    "knownForKo": "Rocca 가족 구성원; Humanitas 병원 의장; 주요 이탈리아·아르헨티나 산업 상속자.",
+    "philanthropy": "Humanitas University and Italian medical research.", "philanthropyKo": "Humanitas 대학교·이탈리아 의료 연구.",
+    "controversies": "Standard industrial conglomerate environmental scrutiny.", "controversiesKo": "표준 산업 대기업 환경 감시." },
+  "characterKo": { "summaryKo": "Techint Group + Humanitas 헬스케어 다각화 가족 자본 가부장.", "tagsKo": ["Techint Group", "Humanitas", "Tenaris"] },
+  "failures": [
+    { "year": 2015, "description": "Argentine peso crisis compressed Tenaris operations.", "descriptionKo": "아르헨티나 페소 위기로 Tenaris 운영 압축.", "lesson": "Cross-border industrial currency-exposed.", "lessonKo": "국경 간 산업 통화 노출." },
+    { "year": 2020, "description": "COVID-19 disrupted both Techint industrial and Humanitas operations.", "descriptionKo": "COVID-19이 Techint 산업·Humanitas 운영 동시 혼란.", "lesson": "Diversified pandemic multi-exposed.", "lessonKo": "다각화 팬데믹 다중 노출." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.4 }, { "year": 2020, "netWorth": 4.6 }, { "year": 2024, "netWorth": 7.2 }, { "year": 2025, "netWorth": 7.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Industry and health are both about scale of care.", "textKo": "산업과 건강 모두 케어의 규모에 관한 것이다.", "context": "On Techint-Humanitas", "contextKo": "Techint-Humanitas에 대해", "source": "https://www.techintgroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Sul day pillar in In month — 'pyeon-in-gyeok', creative intuition, fitting industrial-and-healthcare patriarch.", "summaryKo": "병술 일주 + 인월 편인격(독학·창의적 직관)은 산업에서 헬스케어로 비전형적 다각화한 직관과 호응합니다. 병화 일간의 큰 불·태양 기질이 다각화 영향력과 통하고, 술토 일지의 토 기운이 가족 자본의 안정 기반을, 인목 월지의 목 기운이 회사 누적 성장을 가리킵니다." }
+}

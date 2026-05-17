@@ -1,0 +1,31 @@
+{
+  "id": "168", "name": "Alejandro Bailleres", "nameKo": "알레한드로 바이예레스 구알",
+  "netWorth": 16.2, "nationality": "MX", "industry": "Diversified",
+  "childhood": { "birthPlace": "Mexico", "birthPlaceKo": "멕시코",
+    "familyBackground": "Born to Alberto Bailleres — Mexican mining-and-financial magnate.", "familyBackgroundKo": "멕시코 광업·금융 거물 알베르토 바이예레스의 아들.",
+    "education": "ITAM Mexico (economics).", "educationKo": "ITAM 멕시코(경제학).",
+    "earlyLife": "Inherited Grupo BAL family conglomerate after father's 2022 death.",
+    "earlyLifeKo": "2022 아버지 사망 후 Grupo BAL 가족 대기업 상속.",
+    "source": "https://en.wikipedia.org/wiki/Alberto_Bailler%C3%A9s" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Grupo BAL 가족 자본 상속." },
+  "careerTimeline": [
+    { "year": 1985, "age": 24, "event": "Began Bailleres family operations.", "eventKo": "Bailleres 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2010, "age": 49, "event": "Grupo BAL expanded into mining (Penoles) + Palacio de Hierro + GNP.", "eventKo": "Grupo BAL이 광업(Penoles)·Palacio de Hierro·GNP 확장.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2022, "age": 61, "event": "Father Alberto Bailleres died; Alejandro became Grupo BAL chairman.", "eventKo": "아버지 알베르토 바이예레스 사망; 알레한드로가 Grupo BAL 의장 취임.", "whyItMatteredKo": "가부장 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $16.2B per Forbes Real-Time. Continues as Grupo BAL chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 162억 달러. Grupo BAL 의장 계속.", "whyItMatteredKo": "Grupo BAL 자본 정점." }],
+  "turningPoints": [{ "year": 2022, "age": 61, "decisionKo": "아버지 사후 Grupo BAL 의장 인수", "alternativeKo": "전문 경영진 위임", "outcomeKo": "3년 후 멕시코 다각화 메이저 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Grupo BAL — Penoles 광업 + Palacio de Hierro 백화점 + GNP 보험 + Profuturo 펜션", "industryKo": "광업·금융·소매 다각화", "businessModelKo": "은·금 광업 + 럭셔리 백화점 + 보험 + 펜션", "moatKo": "다세대 멕시코 자본 + 다각화", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): 거버넌스." },
+  "personalTraits": { "knownFor": "Chairman of Grupo BAL; one of Mexico's wealthiest heirs.",
+    "knownForKo": "Grupo BAL 의장; 멕시코 최대 부 상속자 중 한 명.",
+    "philanthropy": "ITAM Mexico patron; supports Mexican education.", "philanthropyKo": "ITAM 멕시코 후원자; 멕시코 교육 지원.",
+    "controversies": "Penoles mining environmental scrutiny; Palacio de Hierro labor disputes.", "controversiesKo": "Penoles 광업 환경 감시; Palacio de Hierro 노동 분쟁." },
+  "characterKo": { "summaryKo": "Grupo BAL 멕시코 다세대 다각화 가족 자본 가부장.", "tagsKo": ["Grupo BAL", "Penoles", "Palacio de Hierro"] },
+  "failures": [
+    { "year": 2015, "description": "Silver-price crash compressed Penoles mining revenue.", "descriptionKo": "은 가격 폭락이 Penoles 광업 매출 압축.", "lesson": "Precious-metal mining commodity-cycle.", "lessonKo": "귀금속 광업 원자재 사이클." },
+    { "year": 2020, "description": "COVID-19 closed Palacio de Hierro luxury department stores.", "descriptionKo": "COVID-19이 Palacio de Hierro 럭셔리 백화점 폐쇄.", "lesson": "Luxury retail pandemic-exposed.", "lessonKo": "럭셔리 소매 팬데믹 노출." }],
+  "wealthHistory": [{ "year": 2020, "netWorth": 6.0 }, { "year": 2022, "netWorth": 9.4 }, { "year": 2024, "netWorth": 14.5 }, { "year": 2025, "netWorth": 16.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Mexican wealth survives by diversifying across cycles.", "textKo": "멕시코 부는 사이클을 가로질러 다각화함으로써 살아남는다.", "context": "On Grupo BAL", "contextKo": "Grupo BAL에 대해", "source": "https://www.gbal.com.mx" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Shin day pillar in Jin month — 'pyeon-gwan-gyeok', strong external authority, fitting industrial-mining heir.", "summaryKo": "병신 일주 + 진월 편관격(강한 외부 압박·권력 충돌)은 멕시코 광업·금융 산업의 정부·규제 환경과 호응합니다. 병화 일간의 큰 불·태양 기질이 산업 결단의 표현과 통하고, 신금 일지의 금 기운이 금속·결단의 정밀함을, 진토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

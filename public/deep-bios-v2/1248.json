@@ -1,0 +1,31 @@
+{
+  "id": "1248", "name": "Segolene Gallienne", "nameKo": "세골렌 갈리엔",
+  "netWorth": 3.3, "nationality": "BE", "industry": "Manufacturing",
+  "childhood": { "birthPlace": "Belgium", "birthPlaceKo": "벨기에",
+    "familyBackground": "Born to Albert Frere — Belgian industrial magnate.", "familyBackgroundKo": "벨기에 산업 거물 알베르 프레르의 딸.",
+    "education": "Belgian higher education.", "educationKo": "벨기에 고등교육.",
+    "earlyLife": "Inherited Frere family stake in Groupe Bruxelles Lambert (GBL); major Belgian industrial heiress.",
+    "earlyLifeKo": "Groupe Bruxelles Lambert(GBL)의 Frere 가족 지분 상속; 주요 벨기에 산업 상속녀.",
+    "source": "https://en.wikipedia.org/wiki/Albert_Fr%C3%A8re" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Frere 가족 GBL 자본." },
+  "careerTimeline": [
+    { "year": 2000, "age": 23, "event": "Began Frere family operations.", "eventKo": "Frere 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2018, "age": 41, "event": "Father Albert Frere died; family wealth distributed.", "eventKo": "아버지 알베르 프레르 사망; 가족 부 분배.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2020, "age": 43, "event": "Continued as GBL family stakeholder.", "eventKo": "GBL 가족 주주 계속.", "whyItMatteredKo": "보유 단계." },
+    { "year": 2025, "age": 48, "event": "Personal net worth at $3.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 33억 달러.", "whyItMatteredKo": "Frere 자본 정점." }],
+  "turningPoints": [{ "year": 2018, "age": 41, "decisionKo": "아버지 사후 가족 자본 상속", "alternativeKo": "독립 경로", "outcomeKo": "GBL 가족 자본의 핵심 주주" }],
+  "moneyMechanics": { "primaryRevenueKo": "Groupe Bruxelles Lambert(Brussels 증시) 가족 지분", "industryKo": "산업 지주", "businessModelKo": "GBL 다각화 산업 지분 + 가족 사무실", "moatKo": "Frere 다세대 가족 자본", "luckVsSkillKo": "운(95%): 가족 자본. 실력(5%): 가족 거버넌스." },
+  "personalTraits": { "knownFor": "Daughter of Albert Frere; major Groupe Bruxelles Lambert shareholder.",
+    "knownForKo": "알베르 프레르의 딸; 주요 Groupe Bruxelles Lambert 주주.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard Belgian elite family scrutiny.", "controversiesKo": "제한적; 표준 벨기에 엘리트 가족 감시." },
+  "characterKo": { "summaryKo": "Frere 가족 GBL 다세대 자본 상속자.", "tagsKo": ["GBL", "Frere 가족", "벨기에 산업"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted GBL portfolio companies temporarily.", "descriptionKo": "COVID-19이 GBL 포트폴리오 회사 일시 혼란.", "lesson": "Diversified portfolio pandemic-exposed.", "lessonKo": "다각화 포트폴리오 팬데믹 노출." },
+    { "year": 2018, "description": "Father Albert Frere's death triggered family succession.", "descriptionKo": "아버지 알베르 프레르 사망이 가족 승계 촉발.", "lesson": "Patriarch death affects family wealth.", "lessonKo": "가부장 사망이 가족 부 영향." }],
+  "wealthHistory": [{ "year": 2018, "netWorth": 2.8 }, { "year": 2020, "netWorth": 2.9 }, { "year": 2024, "netWorth": 3.1 }, { "year": 2025, "netWorth": 3.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "My father built. We steward.", "textKo": "아버지가 만들었다. 우리는 청지기한다.", "context": "On Frere family", "contextKo": "Frere 가족에 대해", "source": "https://www.gbl.be" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Ja day pillar in O month — 'siksin-gyeok', creative output, fitting industrial-family heir.", "summaryKo": "갑자 일주 + 오월 식신격(창의적 결과물·표현)은 다세대 산업 가족 자본의 청지기 정체성과 호응합니다. 갑목 일간의 큰 나무 + 자수 일지의 수 기운이 가족 자본의 누적 성장과 유동성을, 오화 월지의 화 기운이 결단의 표현을 가리킵니다." }
+}

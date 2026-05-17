@@ -1,0 +1,39 @@
+{
+  "id": "1290", "name": "Frank VanderSloot", "nameKo": "프랭크 레너드 밴더슬루트",
+  "netWorth": 3.2, "nationality": "US", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Idaho, USA", "birthPlaceKo": "미국 아이다호",
+    "familyBackground": "Born to working-class Idaho dairy-farming family.", "familyBackgroundKo": "아이다호 노동자 계급 유제품 농가에서 출생.",
+    "education": "Brigham Young University.", "educationKo": "브리검 영 대학교.",
+    "earlyLife": "Founded Melaleuca in 1985 — direct-sales wellness and household-products company.",
+    "earlyLifeKo": "1985 Melaleuca 창립 — 직접 판매 웰니스·가정용 제품 회사.",
+    "source": "https://en.wikipedia.org/wiki/Frank_VanderSloot"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Melaleuca 40년 자수성가." },
+  "careerTimeline": [
+    { "year": 1985, "age": 37, "event": "Founded Melaleuca in Idaho Falls, Idaho.", "eventKo": "아이다호 아이다호 폴스에서 Melaleuca 창립.", "whyItMatteredKo": "40년 자수성가 출발선." },
+    { "year": 2000, "age": 52, "event": "Melaleuca became major US direct-sales wellness company.", "eventKo": "Melaleuca가 주요 미국 직접 판매 웰니스 회사가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2012, "age": 64, "event": "Became major Republican donor; visible Mormon community leader.", "eventKo": "주요 공화당 기부자가 됨; 두드러진 몰몬 공동체 리더.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2020, "age": 72, "event": "Melaleuca continued growth as wellness-products direct-sales major.", "eventKo": "Melaleuca가 웰니스 제품 직접 판매 메이저로 성장 계속.", "whyItMatteredKo": "성장 단계." },
+    { "year": 2025, "age": 77, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "Melaleuca 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 37, "decisionKo": "아이다호에서 직접 판매 웰니스 회사 창립", "alternativeKo": "지역 사업 잔류", "outcomeKo": "40년 후 주요 미국 직접 판매 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Melaleuca(100% 소유) — 직접 판매 웰니스 제품", "industryKo": "직접 판매·웰니스 제품", "businessModelKo": "MLM 직접 판매 + 정기 회원 + 가정용 제품", "moatKo": "40년 직접 판매 네트워크 + 100% 소유", "luckVsSkillKo": "운(30%): 미국 웰니스 부상. 실력(70%): 40년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Melaleuca; major Republican Party donor; Mormon community leader.",
+    "knownForKo": "Melaleuca 창립자; 주요 공화당 기부자; 몰몬 공동체 리더.",
+    "philanthropy": "VanderSloot family supports Idaho education and conservative causes.", "philanthropyKo": "VanderSloot 가족이 아이다호 교육·보수 사업 지원.",
+    "controversies": "MLM direct-sales business model criticized; LGBT political-donation controversies; defamation lawsuits.",
+    "controversiesKo": "MLM 직접 판매 비즈니스 모델 비판; LGBT 정치 기부 논란; 명예훼손 소송."
+  },
+  "characterKo": { "summaryKo": "Idaho 유제품 농가 출신 Melaleuca 40년 직접 판매 자수성가.", "tagsKo": ["Melaleuca", "직접 판매", "Mormon", "공화당"] },
+  "failures": [
+    { "year": 2012, "description": "MSNBC reporting on VanderSloot's anti-LGBT history drew sustained public criticism.", "descriptionKo": "MSNBC의 VanderSloot 반 LGBT 역사 보도가 지속적 공개 비판 야기.", "lesson": "Political donations create media-narrative tail.", "lessonKo": "정치 기부가 미디어 서사 잔여 야기." },
+    { "year": 2020, "description": "COVID-19 disrupted in-person direct-sales model.", "descriptionKo": "COVID-19이 대면 직접 판매 모델 혼란.", "lesson": "Direct sales pandemic-exposed.", "lessonKo": "직접 판매 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 2.7 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Direct sales is the original gig economy.", "textKo": "직접 판매는 원래 긱 경제다.", "context": "On Melaleuca", "contextKo": "Melaleuca에 대해", "source": "https://www.melaleuca.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Mi day pillar in Shin month — 'yangin-gyeok' with strong metal, fitting decisive direct-sales founder.", "summaryKo": "신미 일주 + 신월 양인격(자신감·결단력 + 강한 자기 자본)은 40년 직접 판매 모델의 강한 결단력과 호응합니다. 신금 일간 + 신금 월지의 강한 금 기운이 결단의 정밀함과 강도를 이중으로 강조하고, 미토 일지의 토 기운이 회사 자본의 안정 기반을 가리킵니다." }
+}

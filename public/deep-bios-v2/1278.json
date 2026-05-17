@@ -1,0 +1,33 @@
+{
+  "id": "1278", "name": "David Zalik", "nameKo": "데이비드 잘릭",
+  "netWorth": 3.2, "nationality": "US", "industry": "Technology",
+  "childhood": { "birthPlace": "Israel", "birthPlaceKo": "이스라엘",
+    "familyBackground": "Born to Israeli family; migrated to US as child.", "familyBackgroundKo": "이스라엘 가정에서 출생; 어린 시절 미국 이주.",
+    "education": "Auburn University (entered at 13 as child genius); dropped out.", "educationKo": "오번 대학교(13세 천재 영재로 입학); 중퇴.",
+    "earlyLife": "Founded GreenSky Credit fintech in 2006 — point-of-sale loan platform for home-improvement.",
+    "earlyLifeKo": "2006 GreenSky Credit 핀테크 창립 — 주택 개선용 판매 시점 대출 플랫폼.",
+    "source": "https://en.wikipedia.org/wiki/David_Zalik" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "GreenSky Credit 19년 자수성가." },
+  "careerTimeline": [
+    { "year": 1989, "age": 15, "event": "Began entrepreneurial pursuits at Auburn University.", "eventKo": "오번 대학교에서 기업가 활동 시작.", "whyItMatteredKo": "조숙한 출발선." },
+    { "year": 2006, "age": 32, "event": "Founded GreenSky Credit in Atlanta.", "eventKo": "애틀랜타에서 GreenSky Credit 창립.", "whyItMatteredKo": "GreenSky 출발선." },
+    { "year": 2018, "age": 44, "event": "GreenSky IPO on NASDAQ; valuation crossed $4B+.", "eventKo": "GreenSky 나스닥 IPO; 밸류에이션 40억 달러+ 돌파.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2022, "age": 48, "event": "Goldman Sachs acquired GreenSky for $2.24B; Zalik exited.", "eventKo": "Goldman Sachs가 GreenSky를 22억 4,000만 달러 인수; 잘릭 퇴장.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2025, "age": 51, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "GreenSky 자본 정점." }],
+  "turningPoints": [{ "year": 2006, "age": 32, "decisionKo": "POS 대출 핀테크 회사 창립", "alternativeKo": "기존 핀테크", "outcomeKo": "19년 후 Goldman Sachs에 22억 달러 매각" }],
+  "moneyMechanics": { "primaryRevenueKo": "GreenSky 매각 대금 + 다각화 투자", "industryKo": "핀테크 매각 후 자산운용", "businessModelKo": "GreenSky 매각 + 부동산 + 다각화", "moatKo": "GreenSky 매각 대금 + 핀테크 노하우", "luckVsSkillKo": "운(35%): 2018 IPO + 2022 Goldman 매각 타이밍. 실력(65%): 19년 핀테크." },
+  "personalTraits": { "knownFor": "Founder of GreenSky Credit; child genius entered Auburn at 13; sold to Goldman Sachs.",
+    "knownForKo": "GreenSky Credit 창립자; 13세에 오번 대학교 입학한 천재; Goldman Sachs에 매각.",
+    "philanthropy": "Supports Auburn University.", "philanthropyKo": "오번 대학교 지원.",
+    "controversies": "GreenSky merchant practices drew CFPB scrutiny; consumer-loan business model criticized.",
+    "controversiesKo": "GreenSky 가맹점 관행이 CFPB 감시 야기; 소비자 대출 비즈니스 모델 비판." },
+  "characterKo": { "summaryKo": "13세 천재가 GreenSky 핀테크 19년 자수성가 → Goldman 매각.", "tagsKo": ["GreenSky", "Goldman Sachs 매각", "13세 천재"] },
+  "failures": [
+    { "year": 2019, "description": "GreenSky stock fell 80%+ after IPO on merchant-practice concerns and growth slowdown.", "descriptionKo": "GreenSky 주가가 IPO 후 가맹점 관행 우려·성장 둔화로 80%+ 하락.", "lesson": "Fintech IPOs face post-IPO compression.", "lessonKo": "핀테크 IPO는 IPO 후 압축 직면." },
+    { "year": 2022, "description": "Goldman Sachs acquired GreenSky at fraction of peak IPO valuation; sale below initial expectations.", "descriptionKo": "Goldman Sachs가 정점 IPO 밸류에이션의 일부에 GreenSky 인수; 초기 예상 이하 매각.", "lesson": "Even strategic exits cap value when timing is wrong.", "lessonKo": "전략적 엑시트도 타이밍 잘못이면 가치 캡." }],
+  "wealthHistory": [{ "year": 2018, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2022, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "POS lending was a niche until it scaled. Then it was an industry.", "textKo": "POS 대출은 확장될 때까지 틈새였다. 그러고 산업이 됐다.", "context": "On GreenSky", "contextKo": "GreenSky에 대해", "source": "https://www.greensky.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Sul day pillar in Chuk month — 'jeongjae-gyeok', steady accumulation, fitting fintech-platform founder.", "summaryKo": "갑술 일주 + 축월 정재격(고정 자산·꾸준한 매출)은 POS 대출이라는 안정 수수료 매출 모델과 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 술토 일지·축토 월지의 토 기운이 자본의 안정 기반을 이중으로 강조합니다." }
+}

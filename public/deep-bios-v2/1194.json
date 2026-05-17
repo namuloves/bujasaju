@@ -1,0 +1,38 @@
+{
+  "id": "1194", "name": "Jacques D'Amours", "nameKo": "자크 다무르",
+  "netWorth": 3.5, "nationality": "CA", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Quebec, Canada", "birthPlaceKo": "캐나다 퀘벡",
+    "familyBackground": "Born to Quebec family.", "familyBackgroundKo": "퀘벡 가정에서 출생.",
+    "education": "Canadian higher education.", "educationKo": "캐나다 고등교육.",
+    "earlyLife": "Co-founded Couche-Tard convenience stores in 1980 with Alain Bouchard; built into global convenience-store chain (Circle K).",
+    "earlyLifeKo": "1980 알랭 부샤르와 Couche-Tard 편의점 공동 창립; 글로벌 편의점 체인(Circle K)으로 구축.",
+    "source": "https://en.wikipedia.org/wiki/Alimentation_Couche-Tard"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Couche-Tard 45년 자수성가." },
+  "careerTimeline": [
+    { "year": 1980, "age": 24, "event": "Co-founded Couche-Tard convenience stores in Quebec with Alain Bouchard.", "eventKo": "알랭 부샤르와 퀘벡에서 Couche-Tard 편의점 공동 창립.", "whyItMatteredKo": "45년 자수성가 출발선." },
+    { "year": 1986, "age": 30, "event": "Couche-Tard IPO on Toronto Stock Exchange.", "eventKo": "Couche-Tard 토론토 증시 IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2003, "age": 47, "event": "Acquired Circle K from ConocoPhillips for $830M; entered US market.", "eventKo": "ConocoPhillips에서 Circle K를 8억 3,000만 달러 인수; 미국 시장 진입.", "whyItMatteredKo": "Circle K 단계." },
+    { "year": 2017, "age": 61, "event": "Acquired CST Brands for $4B; expanded US footprint.", "eventKo": "CST Brands를 40억 달러 인수; 미국 입지 확장.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $3.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 35억 달러.", "whyItMatteredKo": "Couche-Tard 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2003, "age": 47, "decisionKo": "Circle K 인수로 캐나다에서 글로벌 확장", "alternativeKo": "캐나다 잔류", "outcomeKo": "22년 후 글로벌 편의점 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Alimentation Couche-Tard(토론토 증시) 공동 창립자 지분", "industryKo": "편의점·연료 소매", "businessModelKo": "글로벌 편의점(Circle K) + 연료 소매 + M&A 통합", "moatKo": "45년 편의점 인수 통합 + 글로벌 매장", "luckVsSkillKo": "운(30%): 글로벌 편의점 통합. 실력(70%): 45년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Couche-Tard/Circle K; major Canadian convenience-store magnate.",
+    "knownForKo": "Couche-Tard/Circle K 공동 창립자; 주요 캐나다 편의점 거물.",
+    "philanthropy": "Supports Quebec community.", "philanthropyKo": "퀘벡 지역 사회 지원.",
+    "controversies": "Limited; standard convenience-store regulatory scrutiny.", "controversiesKo": "제한적; 표준 편의점 규제 감시."
+  },
+  "characterKo": { "summaryKo": "퀘벡 Couche-Tard → Circle K 글로벌 편의점 45년 자수성가 공동 창립자.", "tagsKo": ["Couche-Tard", "Circle K", "캐나다 편의점"] },
+  "failures": [
+    { "year": 2018, "description": "Australian Caltex acquisition attempt failed after multi-year negotiation.", "descriptionKo": "다년간 협상 후 호주 Caltex 인수 시도 실패.", "lesson": "Cross-border consolidation faces regulatory blocks.", "lessonKo": "국경 간 통합은 규제 차단 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted convenience-store fuel-sales temporarily.", "descriptionKo": "COVID-19이 편의점 연료 매출 일시 혼란.", "lesson": "Travel retail pandemic-exposed.", "lessonKo": "여행 소매 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.3 }, { "year": 2025, "netWorth": 3.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Convenience scaled by buying convenience.", "textKo": "편의는 편의를 사들임으로써 확장됐다.", "context": "On Couche-Tard M&A model", "contextKo": "Couche-Tard M&A 모델에 대해", "source": "https://www.couche-tard.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Yu day pillar in Ja month — 'sanggwan-gyeok', creative output, fitting convenience-store M&A co-founder.", "summaryKo": "기유 일주 + 자월 상관격(창의적 결과물·표현)은 45년에 걸쳐 글로벌 편의점을 인수·통합한 창의적 자본 누적과 호응합니다. 기토 일간의 작은 흙·세밀한 농경 기질이 편의점 운영의 디테일과 통하고, 유금 일지의 금 기운이 결단의 정밀함을, 자수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

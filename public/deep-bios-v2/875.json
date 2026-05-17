@@ -1,0 +1,32 @@
+{
+  "id": "875", "name": "Ben Chestnut", "nameKo": "벤 체스트넛",
+  "netWorth": 4.7, "nationality": "US", "industry": "Technology",
+  "childhood": { "birthPlace": "Hephzibah, Georgia, USA", "birthPlaceKo": "미국 조지아주 헵지바",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Georgia Tech (design).", "educationKo": "조지아 텍(디자인).",
+    "earlyLife": "Co-founded Mailchimp in 2001 with Dan Kurzius — email-marketing platform; sold to Intuit for $12B in 2021.",
+    "earlyLifeKo": "2001 댄 커지어스와 Mailchimp 공동 창립 — 이메일 마케팅 플랫폼; 2021 Intuit에 120억 달러 매각.",
+    "source": "https://en.wikipedia.org/wiki/Mailchimp" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Mailchimp 20년 자수성가 → Intuit 매각." },
+  "careerTimeline": [
+    { "year": 2001, "age": 27, "event": "Co-founded Mailchimp in Atlanta as side project.", "eventKo": "애틀랜타에서 사이드 프로젝트로 Mailchimp 공동 창립.", "whyItMatteredKo": "Mailchimp 출발선." },
+    { "year": 2007, "age": 33, "event": "Mailchimp made full-time business.", "eventKo": "Mailchimp 풀타임 사업 전환.", "whyItMatteredKo": "풀타임 단계." },
+    { "year": 2017, "age": 43, "event": "Mailchimp passed $400M revenue without taking VC funding.", "eventKo": "Mailchimp가 VC 자금 없이 4억 달러 매출 통과.", "whyItMatteredKo": "부트스트랩 단계." },
+    { "year": 2021, "age": 47, "event": "Sold Mailchimp to Intuit for $12B.", "eventKo": "Mailchimp를 Intuit에 120억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2025, "age": 51, "event": "Personal net worth at $4.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 47억 달러.", "whyItMatteredKo": "Mailchimp 자본 정점." }],
+  "turningPoints": [{ "year": 2007, "age": 33, "decisionKo": "Mailchimp 사이드 프로젝트에서 풀타임 전환", "alternativeKo": "에이전시 잔류", "outcomeKo": "14년 후 부트스트랩 120억 달러 매각" }],
+  "moneyMechanics": { "primaryRevenueKo": "Mailchimp 매각 Intuit 주식 + 부동산 + 다각화", "industryKo": "SaaS 매각 후 자산운용", "businessModelKo": "Mailchimp 매각 + Intuit 주식 + 가족 사무실", "moatKo": "부트스트랩 SaaS 매각 명성", "luckVsSkillKo": "운(30%): 부트스트랩 시기. 실력(70%): 20년 단일 회사 일관성." },
+  "personalTraits": { "knownFor": "Co-founder of Mailchimp; bootstrapped to $12B sale without VC; major Atlanta tech entrepreneur.",
+    "knownForKo": "Mailchimp 공동 창립자; VC 없이 120억 달러 매각 부트스트랩; 주요 애틀랜타 기술 기업가.",
+    "philanthropy": "Major Atlanta community patron.", "philanthropyKo": "주요 애틀랜타 지역 사회 후원자.",
+    "controversies": "Limited; standard SaaS competition.", "controversiesKo": "제한적; 표준 SaaS 경쟁." },
+  "characterKo": { "summaryKo": "Mailchimp 20년 부트스트랩 → Intuit 120억 매각.", "tagsKo": ["Mailchimp", "Intuit 매각", "부트스트랩"] },
+  "failures": [
+    { "year": 2009, "description": "Global financial crisis briefly compressed SMB email-marketing demand.", "descriptionKo": "글로벌 금융위기로 SMB 이메일 마케팅 수요 잠시 압축.", "lesson": "SMB SaaS cyclical.", "lessonKo": "SMB SaaS 주기적." },
+    { "year": 2022, "description": "Intuit-Mailchimp integration challenges drew post-sale criticism.", "descriptionKo": "Intuit-Mailchimp 통합 도전이 매각 후 비판 야기.", "lesson": "Post-merger integration uncertain.", "lessonKo": "합병 후 통합 불확실." }],
+  "wealthHistory": [{ "year": 2021, "netWorth": 4.5 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Bootstrapping is permission to think long-term.", "textKo": "부트스트래핑은 장기 사고 허락이다.", "context": "On Mailchimp", "contextKo": "Mailchimp에 대해", "source": "https://mailchimp.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Hae day pillar in O month — 'jeongjae-gyeok', steady accumulation, fitting bootstrap SaaS founder.", "summaryKo": "정해 일주 + 오월 정재격(고정 자산·꾸준한 매출)은 20년 SMB SaaS 구독이라는 안정 누적 모델과 호응합니다. 정화 일간 + 오화 월지의 강한 화 기운이 결단·표현 에너지를 이중으로 강조하고, 해수 일지의 수 기운이 디지털 자본 유동성을 가리킵니다." }
+}

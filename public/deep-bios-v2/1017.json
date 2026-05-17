@@ -1,0 +1,33 @@
+{
+  "id": "1017", "name": "Luciano Benetton", "nameKo": "루치아노 베네통",
+  "netWorth": 4.0, "nationality": "IT", "industry": "Fashion & Retail",
+  "childhood": { "birthPlace": "Treviso, Italy", "birthPlaceKo": "이탈리아 트레비소",
+    "familyBackground": "Born to working-class Italian family.", "familyBackgroundKo": "노동자 계급 이탈리아 가정에서 출생.",
+    "education": "Italian secondary education.", "educationKo": "이탈리아 중등교육.",
+    "earlyLife": "Co-founded Benetton Group with siblings in 1965 — Italian fashion retailer; built global brand.",
+    "earlyLifeKo": "1965 형제들과 Benetton Group 공동 창립 — 이탈리아 패션 소매사; 글로벌 브랜드 구축.",
+    "source": "https://en.wikipedia.org/wiki/Luciano_Benetton" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Benetton Group 60년 자수성가." },
+  "careerTimeline": [
+    { "year": 1965, "age": 30, "event": "Co-founded Benetton Group with siblings in Treviso.", "eventKo": "트레비소에서 형제들과 Benetton Group 공동 창립.", "whyItMatteredKo": "60년 자수성가 출발선." },
+    { "year": 1986, "age": 51, "event": "Benetton IPO on Milan Stock Exchange.", "eventKo": "Benetton 밀란 증시 IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2000, "age": 65, "event": "Benetton expanded into Autogrill, Autostrade highway operations.", "eventKo": "Benetton이 Autogrill·Autostrade 고속도로 운영 확장.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2018, "age": 83, "event": "Genoa Morandi Bridge collapse killed 43; Autostrade family scandal.", "eventKo": "제노바 모란디 다리 붕괴로 43명 사망; Autostrade 가족 스캔들.", "whyItMatteredKo": "스캔들 단계." },
+    { "year": 2025, "age": 90, "event": "Personal net worth at $4.0B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 40억 달러.", "whyItMatteredKo": "Benetton 자본 정점." }],
+  "turningPoints": [{ "year": 2018, "age": 83, "decisionKo": "Morandi Bridge 붕괴 후 가족 위기 관리", "alternativeKo": "Autostrade 매각 회피", "outcomeKo": "스캔들 + Autostrade 결국 매각" }],
+  "moneyMechanics": { "primaryRevenueKo": "Edizione Holding(100% 가족 소유) — Benetton + Autogrill + 다각화", "industryKo": "패션·인프라 다각화", "businessModelKo": "Benetton 패션 + Autogrill 휴게소 + 부동산", "moatKo": "60년 Benetton 브랜드 + 가족 통제", "luckVsSkillKo": "운(35%): 글로벌 패션 부상. 실력(65%): 60년 단일 비전." },
+  "personalTraits": { "knownFor": "Co-founder of Benetton Group; major Italian fashion-and-infrastructure magnate.",
+    "knownForKo": "Benetton Group 공동 창립자; 주요 이탈리아 패션·인프라 거물.",
+    "philanthropy": "Fondazione Benetton supports Italian culture and arts.", "philanthropyKo": "Fondazione Benetton이 이탈리아 문화·예술 지원.",
+    "controversies": "2018 Morandi Bridge collapse killed 43; Autostrade negligence lawsuits; family forced to sell Autostrade.",
+    "controversiesKo": "2018 Morandi Bridge 붕괴 43명 사망; Autostrade 과실 소송; 가족이 Autostrade 매각 강제." },
+  "characterKo": { "summaryKo": "Benetton Group + Autostrade + Morandi Bridge 스캔들.", "tagsKo": ["Benetton", "Autostrade", "Morandi Bridge"] },
+  "failures": [
+    { "year": 2018, "description": "Morandi Bridge collapse in Genoa killed 43; Autostrade Italy forced sale; multi-year prosecution.", "descriptionKo": "제노바 Morandi Bridge 붕괴로 43명 사망; Autostrade Italy 매각 강제; 다년간 기소.", "lesson": "Infrastructure ownership carries safety tail liability.", "lessonKo": "인프라 소유는 안전 잔여 책임 동반." },
+    { "year": 2020, "description": "COVID-19 closed retail and travel-services operations.", "descriptionKo": "COVID-19이 소매·여행 서비스 운영 폐쇄.", "lesson": "Retail and travel pandemic-exposed.", "lessonKo": "소매·여행 팬데믹 노출." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 2.8 }, { "year": 2024, "netWorth": 3.8 }, { "year": 2025, "netWorth": 4.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "United Colors of Benetton was the world before it was a brand.", "textKo": "United Colors of Benetton은 브랜드이기 전에 세계였다.", "context": "On Benetton brand", "contextKo": "Benetton 브랜드에 대해", "source": "https://www.benettongroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Chuk day pillar in Sa month — 'siksin-gyeok', creative output, fitting fashion-brand founder.", "summaryKo": "기축 일주 + 사월 식신격(창의적 결과물·표현)은 60년 패션 브랜드라는 끊임없는 창의적 결과물 창출과 호응합니다. 기토 일간 + 축토 일지의 토 기운이 가족 자본의 안정 기반을, 사화 월지의 화 기운이 패션·표현 결단을 가리킵니다." }
+}

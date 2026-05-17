@@ -1,0 +1,32 @@
+{
+  "id": "1141", "name": "Barry Zekelman", "nameKo": "배리 제켈만",
+  "netWorth": 3.6, "nationality": "CA", "industry": "Manufacturing",
+  "childhood": { "birthPlace": "Canada", "birthPlaceKo": "캐나다",
+    "familyBackground": "Born to Canadian family; brother of Clayton and Alan Zekelman.", "familyBackgroundKo": "캐나다 가정에서 출생; 클레이튼·앨런 제켈만의 형제.",
+    "education": "Canadian higher education.", "educationKo": "캐나다 고등교육.",
+    "earlyLife": "With brothers built Zekelman Industries — major North American steel-pipe and tubing manufacturer.",
+    "earlyLifeKo": "형제들과 Zekelman Industries 구축 — 주요 북미 강관·튜브 제조사.",
+    "source": "https://www.zekelman.com" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Zekelman Industries 형제 자수성가." },
+  "careerTimeline": [
+    { "year": 1985, "age": 18, "event": "Joined family steel-pipe business.", "eventKo": "가족 강관 사업 합류.", "whyItMatteredKo": "출발선." },
+    { "year": 2000, "age": 33, "event": "Began consolidating North American steel-pipe industry.", "eventKo": "북미 강관 산업 통합 시작.", "whyItMatteredKo": "통합 단계." },
+    { "year": 2016, "age": 49, "event": "Zekelman Industries became largest hollow-structural-steel producer in NA.", "eventKo": "Zekelman Industries가 북미 최대 중공 구조강 생산자가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 58, "event": "Personal net worth at $3.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 36억 달러.", "whyItMatteredKo": "Zekelman 자본 정점." }],
+  "turningPoints": [{ "year": 2000, "age": 33, "decisionKo": "북미 강관 산업 통합 시작", "alternativeKo": "단일 공장", "outcomeKo": "25년 후 북미 최대 강관 제조사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Zekelman Industries(100% 가족 소유)", "industryKo": "강관·튜브 제조", "businessModelKo": "북미 강관·튜브 + 산업·건설 공급", "moatKo": "북미 강관 1위 + 가족 통제", "luckVsSkillKo": "운(35%): 미국 인프라 시기. 실력(65%): 25년 통합 일관성." },
+  "personalTraits": { "knownFor": "CEO of Zekelman Industries; major North American steel-pipe producer.",
+    "knownForKo": "Zekelman Industries CEO; 주요 북미 강관 생산자.",
+    "philanthropy": "Supports Canadian Jewish causes.", "philanthropyKo": "캐나다 유대인 사업 지원.",
+    "controversies": "Trump-era tariff political donations; outspoken on US steel-trade policy.",
+    "controversiesKo": "트럼프 시대 관세 정치 기부; 미국 철강 무역 정책 노골적." },
+  "characterKo": { "summaryKo": "Zekelman 형제 북미 강관 25년 자수성가.", "tagsKo": ["Zekelman Industries", "강관·튜브"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed North American construction-steel demand.", "descriptionKo": "글로벌 금융위기로 북미 건설·강 수요 압축.", "lesson": "Steel cyclical with construction.", "lessonKo": "강은 건설 사이클." },
+    { "year": 2020, "description": "COVID-19 disrupted steel demand temporarily.", "descriptionKo": "COVID-19이 강 수요 일시 혼란.", "lesson": "Steel pandemic-exposed.", "lessonKo": "강 팬데믹 노출." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.4 }, { "year": 2025, "netWorth": 3.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Steel pipes are how infrastructure breathes.", "textKo": "강관은 인프라가 숨쉬는 방식이다.", "context": "On Zekelman", "contextKo": "Zekelman에 대해", "source": "https://www.zekelman.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Myo day pillar in Ja month — 'jeongjae-gyeok', steady accumulation, fitting industrial-steel manufacturer.", "summaryKo": "정묘 일주 + 자월 정재격(고정 자산·꾸준한 매출)은 25년 강관 제조의 안정 매출 모델과 호응합니다. 정화 일간 + 묘목 일지의 강한 목 기운이 회사·산업의 누적 성장을, 자수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "1513", "name": "Gabriele Gebauer", "nameKo": "가브리엘레 게바우어",
+  "netWorth": 2.7, "nationality": "DE", "industry": "Manufacturing",
+  "childhood": { "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Quandt family — major German industrial heiress (BMW founders).", "familyBackgroundKo": "Quandt 가족(BMW 창립자) 출생; 주요 독일 산업 상속녀.",
+    "education": "German higher education.", "educationKo": "독일 고등교육.",
+    "earlyLife": "Inherited Quandt family stake; minority but valuable BMW family member.",
+    "earlyLifeKo": "Quandt 가족 지분 상속; 소수지만 가치 있는 BMW 가족 구성원.",
+    "source": "https://en.wikipedia.org/wiki/Quandt_family" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Quandt 가족 자본." },
+  "careerTimeline": [
+    { "year": 1965, "age": 24, "event": "Began Quandt family governance.", "eventKo": "Quandt 가족 거버넌스 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1990, "age": 49, "event": "BMW expanded global luxury automotive presence.", "eventKo": "BMW가 글로벌 럭셔리 자동차 입지 확장.", "whyItMatteredKo": "BMW 단계." },
+    { "year": 2010, "age": 69, "event": "BMW became global top luxury automaker; Quandt family wealth substantial.", "eventKo": "BMW가 글로벌 톱 럭셔리 자동차 제조사; Quandt 가족 부 상당.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "Quandt 자본 정점." }],
+  "turningPoints": [{ "year": 1965, "age": 24, "decisionKo": "Quandt 가족 거버넌스 참여", "alternativeKo": "독립 경로", "outcomeKo": "다세대 BMW 가족 자본 상속자" }],
+  "moneyMechanics": { "primaryRevenueKo": "BMW(프랑크푸르트 증시) 가족 지분", "industryKo": "자동차 제조", "businessModelKo": "BMW 럭셔리 자동차 가족 지분 배당", "moatKo": "다세대 Quandt 가족 자본 + BMW 글로벌 럭셔리 1위", "luckVsSkillKo": "운(95%): 가족 자본. 실력(5%): 거버넌스." },
+  "personalTraits": { "knownFor": "Member of Quandt family; major BMW shareholder.",
+    "knownForKo": "Quandt 가족 구성원; 주요 BMW 주주.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Quandt family Nazi-era forced-labor history (2007 disclosure); ongoing reckoning.",
+    "controversiesKo": "Quandt 가족 나치 시대 강제 노동 역사(2007 공개); 진행 중 청산." },
+  "characterKo": { "summaryKo": "Quandt 가족 BMW 다세대 자본 상속자.", "tagsKo": ["BMW", "Quandt 가족"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted BMW global auto sales.", "descriptionKo": "COVID-19이 BMW 글로벌 자동차 매출 혼란.", "lesson": "Auto pandemic-exposed.", "lessonKo": "자동차 팬데믹 노출." },
+    { "year": 2007, "description": "Quandt family Nazi-era forced-labor history disclosed; reputational reckoning.", "descriptionKo": "Quandt 가족 나치 시대 강제 노동 역사 공개; 평판 청산.", "lesson": "Multi-generational wealth historical tail.", "lessonKo": "다세대 부 역사 잔여." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.4 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family ownership thinks in generations.", "textKo": "가족 소유는 세대로 생각한다.", "context": "On Quandt family", "contextKo": "Quandt 가족에 대해", "source": "https://www.bmwgroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Shin day pillar in Jin month — 'pyeonjae-gyeok', large external wealth, fitting auto-family heir.", "summaryKo": "무신 일주 + 진월 편재격(크고 유동적인 외부 자본)은 글로벌 자동차 가족 자본의 거대 외부 자본 흐름과 호응합니다. 무토 일간 + 진토 월지의 강한 토 기운이 가족 자본의 안정 기반을 가리키고, 신금 일지의 금 기운이 자동차(금속) 산업과 직접 통합니다." }
+}

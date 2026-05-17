@@ -1,0 +1,31 @@
+{
+  "id": "1411", "name": "Gudrun Heine", "nameKo": "구드룬 하이네",
+  "netWorth": 2.9, "nationality": "DE", "industry": "Healthcare",
+  "childhood": { "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Helmig family — German healthcare patriarch Lutz Mario Helmig (Helios Kliniken founder).", "familyBackgroundKo": "독일 헬스케어 가부장 루츠 마리오 헬미히(Helios Kliniken 창립자) Helmig 가족 출생.",
+    "education": "German higher education.", "educationKo": "독일 고등교육.",
+    "earlyLife": "Inherited Helmig family stake; major German healthcare family heir.",
+    "earlyLifeKo": "Helmig 가족 지분 상속; 주요 독일 헬스케어 가족 상속자.",
+    "source": "https://www.forbes.com" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Helmig 가족 자본." },
+  "careerTimeline": [
+    { "year": 1975, "age": 21, "event": "Began Helmig family operations.", "eventKo": "Helmig 가족 운영 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2005, "age": 51, "event": "Helios Kliniken sold to Fresenius for €1.5B; family wealth crystallized.", "eventKo": "Helios Kliniken이 Fresenius에 15억 유로 매각; 가족 부 결정화.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2015, "age": 61, "event": "Continued as Helmig family stakeholder; ATON GmbH holding.", "eventKo": "Helmig 가족 주주 계속; ATON GmbH 지주.", "whyItMatteredKo": "보유 단계." },
+    { "year": 2025, "age": 71, "event": "Personal net worth at $2.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러.", "whyItMatteredKo": "Helmig 자본 정점." }],
+  "turningPoints": [{ "year": 2005, "age": 51, "decisionKo": "Helios Kliniken 가족 매각 참여", "alternativeKo": "운영 잔류", "outcomeKo": "엑시트 + ATON 다각화 자본" }],
+  "moneyMechanics": { "primaryRevenueKo": "ATON GmbH 가족 지분 + Helios 매각 대금", "industryKo": "헬스케어 매각 후 자산운용", "businessModelKo": "ATON 다각화 산업 + 가족 사무실", "moatKo": "Helmig 가족 자본 + 매각 대금", "luckVsSkillKo": "운(85%): 가족 자본. 실력(15%): 거버넌스." },
+  "personalTraits": { "knownFor": "Member of Helmig family; major German healthcare heiress.",
+    "knownForKo": "Helmig 가족 구성원; 주요 독일 헬스케어 상속녀.",
+    "philanthropy": "Helmig family supports German medical education.", "philanthropyKo": "Helmig 가족이 독일 의료 교육 지원.",
+    "controversies": "Limited; standard family wealth scrutiny.", "controversiesKo": "제한적; 표준 가족 부 감시." },
+  "characterKo": { "summaryKo": "Helmig 가족 헬스케어 자본 상속자.", "tagsKo": ["Helmig 가족", "Helios Kliniken", "ATON"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted German healthcare operations.", "descriptionKo": "COVID-19이 독일 헬스케어 운영 혼란.", "lesson": "Healthcare pandemic-exposed.", "lessonKo": "헬스케어 팬데믹 노출." },
+    { "year": 2008, "description": "Global financial crisis briefly compressed hospital demand.", "descriptionKo": "글로벌 금융위기로 병원 수요 잠시 압축.", "lesson": "Hospitals cyclical.", "lessonKo": "병원 주기적." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.7 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family wealth funds patient capital.", "textKo": "가족 부는 인내심 있는 자본을 후원한다.", "context": "On family wealth", "contextKo": "가족 부에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Shin day pillar in Sul month — 'pyeon-gwan-gyeok', strong external authority, fitting healthcare-family heir.", "summaryKo": "무신 일주 + 술월 편관격(강한 외부 압박·권력 충돌)은 독일 헬스케어 산업의 규제·정부 환경과 호응합니다. 무토 일간 + 술토 월지의 강한 토 기운이 가족 자본의 안정 기반을 이중으로 강조하고, 신금 일지의 금 기운이 결단의 정밀함을 가리킵니다." }
+}

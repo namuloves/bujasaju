@@ -1,0 +1,31 @@
+{
+  "id": "1442", "name": "Semahat Sevim Arsel", "nameKo": "세마하트 세빔 아르셀",
+  "netWorth": 2.8, "nationality": "TR", "industry": "Diversified",
+  "childhood": { "birthPlace": "Turkey", "birthPlaceKo": "터키",
+    "familyBackground": "Born to Vehbi Koc — founder of Koc Holding (Turkey's largest conglomerate).", "familyBackgroundKo": "Koc Holding(터키 최대 대기업) 창립자 베흐비 코치의 딸.",
+    "education": "Turkish higher education.", "educationKo": "터키 고등교육.",
+    "earlyLife": "Inherited Koc Holding family stake; major Turkish industrial family member.",
+    "earlyLifeKo": "Koc Holding 가족 지분 상속; 주요 터키 산업 가족 구성원.",
+    "source": "https://en.wikipedia.org/wiki/Vehbi_Ko%C3%A7" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Koc Holding 100년 가족 자본." },
+  "careerTimeline": [
+    { "year": 1950, "age": 22, "event": "Began Koc family operations.", "eventKo": "Koc 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1996, "age": 68, "event": "Father Vehbi Koc died; family wealth distributed.", "eventKo": "아버지 베흐비 코치 사망; 가족 부 분배.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2010, "age": 82, "event": "Koc Holding became Turkey's largest conglomerate.", "eventKo": "Koc Holding이 터키 최대 대기업이 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 97, "event": "Personal net worth at $2.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러.", "whyItMatteredKo": "Koc 자본 정점." }],
+  "turningPoints": [{ "year": 1996, "age": 68, "decisionKo": "아버지 사후 Koc Holding 가족 자본 인수", "alternativeKo": "전문 경영진 위임", "outcomeKo": "다세대 터키 산업 가족 자본의 가부장 중 한 명" }],
+  "moneyMechanics": { "primaryRevenueKo": "Koc Holding(이스탄불 증시) 가족 지분", "industryKo": "에너지·자동차·금융 다각화", "businessModelKo": "Tupras 에너지 + Ford Otosan 자동차 + Yapi Kredi 금융", "moatKo": "100년 Koc 가족 자본 + 터키 최대 대기업", "luckVsSkillKo": "운(90%): 가족 자본. 실력(10%): 가족 거버넌스." },
+  "personalTraits": { "knownFor": "Member of Koc family; major Turkish industrial heiress.",
+    "knownForKo": "Koc 가족 구성원; 주요 터키 산업 상속녀.",
+    "philanthropy": "Vehbi Koc Foundation supports Turkish education, healthcare, culture.", "philanthropyKo": "Vehbi Koc 재단이 터키 교육·헬스케어·문화 지원.",
+    "controversies": "Limited; standard Turkish elite family scrutiny.", "controversiesKo": "제한적; 표준 터키 엘리트 가족 감시." },
+  "characterKo": { "summaryKo": "Koc Holding 100년 터키 산업 가족 자본 상속자.", "tagsKo": ["Koc Holding", "터키 산업"] },
+  "failures": [
+    { "year": 2016, "description": "Turkish lira crisis compressed Koc Holding valuations.", "descriptionKo": "터키 리라 위기로 Koc Holding 밸류에이션 압축.", "lesson": "Single-country conglomerate currency-exposed.", "lessonKo": "단일 국가 대기업 통화 노출." },
+    { "year": 2020, "description": "COVID-19 disrupted Koc auto, energy operations.", "descriptionKo": "COVID-19이 Koc 자동차·에너지 운영 혼란.", "lesson": "Diversified pandemic-exposed.", "lessonKo": "다각화 팬데믹 노출." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.9 }, { "year": 2024, "netWorth": 2.6 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Turkey's economy passes through Koc.", "textKo": "터키 경제는 Koc를 통과한다.", "context": "On Koc Holding", "contextKo": "Koc Holding에 대해", "source": "https://www.koc.com.tr" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Hae day pillar in Shin month — 'yangin-gyeok' with double metal, fitting industrial-dynasty heir.", "summaryKo": "신해 일주 + 신월 양인격(자신감·결단력 + 강한 자기 자본)은 100년 가족 자본의 강한 자기 자본 결단과 호응합니다. 신금 일간 + 신금 월지의 강한 금 기운이 결단의 정밀함을 이중으로 강조하고, 해수 일지의 수 기운이 가족 자본의 유동성을 가리킵니다." }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "1239", "name": "Patrizio Vinciarelli", "nameKo": "파트리치오 빈치아렐리",
+  "netWorth": 3.3, "nationality": "US", "industry": "Technology",
+  "childhood": { "birthPlace": "Italy", "birthPlaceKo": "이탈리아",
+    "familyBackground": "Born to Italian family.", "familyBackgroundKo": "이탈리아 가정에서 출생.",
+    "education": "Princeton PhD in physics.", "educationKo": "프린스턴 물리학 박사.",
+    "earlyLife": "Founded Vicor Corporation in 1981 — power conversion company.",
+    "earlyLifeKo": "1981 Vicor Corporation 창립 — 전력 변환 회사.",
+    "source": "https://en.wikipedia.org/wiki/Vicor_Corporation" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Vicor Corporation 44년 자수성가." },
+  "careerTimeline": [
+    { "year": 1975, "age": 29, "event": "Completed Princeton PhD in physics.", "eventKo": "프린스턴 물리학 박사 학위 완료.", "whyItMatteredKo": "출발선." },
+    { "year": 1981, "age": 35, "event": "Founded Vicor Corporation.", "eventKo": "Vicor Corporation 창립.", "whyItMatteredKo": "Vicor 출발선." },
+    { "year": 2000, "age": 54, "event": "Vicor became major power-conversion supplier for AI data centers.", "eventKo": "Vicor가 AI 데이터센터 주요 전력 변환 공급사가 됨.", "whyItMatteredKo": "AI 단계." },
+    { "year": 2025, "age": 79, "event": "Personal net worth at $3.3B per Forbes Real-Time. Vicor benefited from AI data-center boom.", "eventKo": "포브스 실시간 기준 개인 순자산 33억 달러. Vicor가 AI 데이터센터 붐 혜택.", "whyItMatteredKo": "Vicor 자본 정점." }],
+  "turningPoints": [{ "year": 1981, "age": 35, "decisionKo": "Princeton 떠나 Vicor 창립", "alternativeKo": "학자 잔류", "outcomeKo": "44년 후 AI 전력 변환 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Vicor Corporation(NASDAQ 상장) 창립자 지분", "industryKo": "전력 변환·AI 인프라", "businessModelKo": "고밀도 전력 변환 + AI 데이터센터·HPC 칩", "moatKo": "44년 전력 변환 IP + AI 시기 부상", "luckVsSkillKo": "운(40%): 2020-2025 AI 데이터센터 부상. 실력(60%): 44년 단일 기술 일관성." },
+  "personalTraits": { "knownFor": "Founder and CEO of Vicor Corporation; pioneering power-conversion engineer.",
+    "knownForKo": "Vicor Corporation 창립자·CEO; 선구적 전력 변환 엔지니어.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard semiconductor industry scrutiny.", "controversiesKo": "제한적; 표준 반도체 산업 감시." },
+  "characterKo": { "summaryKo": "Princeton 물리학 박사 출신 Vicor 44년 전력 변환 자수성가.", "tagsKo": ["Vicor", "Princeton 물리학", "AI 전력"] },
+  "failures": [
+    { "year": 2015, "description": "Vicor sustained margin compression during industrial-tech slowdown.", "descriptionKo": "Vicor가 산업 기술 둔화 동안 마진 압축.", "lesson": "Power-conversion industrial cyclical.", "lessonKo": "전력 변환 산업 주기적." },
+    { "year": 2022, "description": "Tech-stock decline briefly compressed Vicor valuation.", "descriptionKo": "기술주 하락이 Vicor 밸류에이션 잠시 압축.", "lesson": "Tech cyclical.", "lessonKo": "기술 주기적." }],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Power is invisible until it isn't.", "textKo": "전력은 사라지기 전까지 보이지 않는다.", "context": "On Vicor", "contextKo": "Vicor에 대해", "source": "https://www.vicorpower.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Yu day pillar in Sul month — 'jeonggwan-gyeok', formal authority, fitting PhD-trained power-conversion founder.", "summaryKo": "계유 일주 + 술월 정관격(공식 권위·규제 아래에서 일하는 구조)은 PhD + 44년 반도체 산업의 학문·규제 기반과 호응합니다. 계수 일간 + 유금 일지의 강한 금 기운이 반도체·결단의 정밀함을, 술토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

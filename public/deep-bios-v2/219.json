@@ -1,0 +1,32 @@
+{
+  "id": "219", "name": "David Reuben", "nameKo": "데이비드 루벤",
+  "netWorth": 13.1, "nationality": "GB", "industry": "Real Estate",
+  "childhood": { "birthPlace": "Mumbai, India", "birthPlaceKo": "인도 뭄바이",
+    "familyBackground": "Born to Iraqi-Jewish family in Mumbai; brother of Simon Reuben.", "familyBackgroundKo": "뭄바이 이라크 유대인 가정에서 출생; 사이먼 루벤의 형제.",
+    "education": "Limited formal education.", "educationKo": "정규 교육 제한적.",
+    "earlyLife": "With brother Simon built Trans-World Group in Russian aluminum; later founded Reuben Brothers private investment group.",
+    "earlyLifeKo": "형 사이먼과 러시아 알루미늄 Trans-World Group 구축; 이후 Reuben Brothers 사적 투자 그룹 창립.",
+    "source": "https://en.wikipedia.org/wiki/Reuben_brothers" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Trans-World + Reuben Brothers 다각화." },
+  "careerTimeline": [
+    { "year": 1955, "age": 17, "event": "Migrated to London with family.", "eventKo": "가족과 런던 이주.", "whyItMatteredKo": "출발선." },
+    { "year": 1990, "age": 52, "event": "With brother Simon acquired Russian aluminum smelters through Trans-World Group.", "eventKo": "형 사이먼과 Trans-World Group 통해 러시아 알루미늄 제련소 인수.", "whyItMatteredKo": "러시아 단계." },
+    { "year": 2000, "age": 62, "event": "Sold Russian aluminum interests; pivoted to UK real estate.", "eventKo": "러시아 알루미늄 지분 매각; 영국 부동산으로 피벗.", "whyItMatteredKo": "재배치 단계." },
+    { "year": 2015, "age": 77, "event": "Reuben Brothers became major UK private investment group.", "eventKo": "Reuben Brothers가 주요 영국 사적 투자 그룹이 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 87, "event": "Personal net worth at $13.1B per Forbes Real-Time. Continues with brother Simon as Reuben Brothers co-leaders.", "eventKo": "포브스 실시간 기준 개인 순자산 131억 달러. 형 사이먼과 Reuben Brothers 공동 리더 계속.", "whyItMatteredKo": "다각화 자본 정점." }],
+  "turningPoints": [{ "year": 2000, "age": 62, "decisionKo": "러시아 알루미늄에서 영국 부동산·글로벌 PE로 피벗", "alternativeKo": "러시아 잔류", "outcomeKo": "25년 후 글로벌 다각화 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Reuben Brothers — 영국 부동산 + 호텔 + 글로벌 PE", "industryKo": "부동산 + PE 다각화", "businessModelKo": "런던 부동산 + 럭셔리 호텔 + 글로벌 PE", "moatKo": "65년 글로벌 인맥 + 형제 파트너십", "luckVsSkillKo": "운(40%): 1990년대 러시아 + 2000년대 영국 부동산. 실력(60%): 65년 일관성." },
+  "personalTraits": { "knownFor": "Co-founder of Reuben Brothers with brother Simon; major UK private investor.",
+    "knownForKo": "형 사이먼과 Reuben Brothers 공동 창립자; 주요 영국 사적 투자자.",
+    "philanthropy": "Reuben Foundation supports UK education; major Oxford University patron.", "philanthropyKo": "Reuben Foundation이 영국 교육 지원; 주요 옥스퍼드 대학교 후원자.",
+    "controversies": "1990s Russian 'Aluminum Wars' violence and legal disputes.", "controversiesKo": "1990년대 러시아 '알루미늄 전쟁' 폭력·법적 분쟁." },
+  "characterKo": { "summaryKo": "뭄바이 출신 Reuben Brothers 65년 글로벌 다각화 자수성가.", "tagsKo": ["Reuben Brothers", "Trans-World Group", "런던 부동산"] },
+  "failures": [
+    { "year": 1995, "description": "Russian 'Aluminum Wars' involved violent disputes; Trans-World personnel killed.", "descriptionKo": "러시아 '알루미늄 전쟁'이 폭력 분쟁 포함; Trans-World 인원 사망.", "lesson": "Russian 1990s carried physical risk.", "lessonKo": "러시아 1990년대 물리적 리스크." },
+    { "year": 2009, "description": "Global financial crisis compressed UK real-estate.", "descriptionKo": "글로벌 금융위기로 영국 부동산 압축.", "lesson": "Real-estate market-cycle.", "lessonKo": "부동산 시장 사이클." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 7.6 }, { "year": 2020, "netWorth": 8.5 }, { "year": 2024, "netWorth": 12.6 }, { "year": 2025, "netWorth": 13.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Trade is patience and brothers.", "textKo": "무역은 인내와 형제다.", "context": "On family-business partnership", "contextKo": "가족 사업 파트너십에 대해", "source": "https://www.reubenbrothers.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Shin day pillar in Shin month — 'pyeonjae-gyeok' with double metal, fitting metals-then-real-estate magnate.", "summaryKo": "병신 일주 + 신월 편재격(크고 유동적인 외부 자본)은 알루미늄 + 부동산이라는 두 거대 외부 자본 산업과 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 회사 가부장과 통하고, 일지·월지 모두 신금의 강한 금 기운이 결단의 정밀함과 금속 산업을 이중으로 강조합니다." }
+}

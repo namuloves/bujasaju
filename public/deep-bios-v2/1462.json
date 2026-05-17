@@ -1,0 +1,39 @@
+{
+  "id": "1462", "name": "Larry Tanenbaum", "nameKo": "로런스 M. 타넨바움",
+  "netWorth": 2.8, "nationality": "CA", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "Toronto, Canada", "birthPlaceKo": "캐나다 토론토",
+    "familyBackground": "Born to Jewish Toronto family.", "familyBackgroundKo": "토론토 유대인 가정에서 출생.",
+    "education": "Cornell University.", "educationKo": "코넬 대학교.",
+    "earlyLife": "Built Kilmer Group construction-and-real-estate business; chair of Maple Leaf Sports & Entertainment (Toronto Maple Leafs, Raptors, FC).",
+    "earlyLifeKo": "Kilmer Group 건설·부동산 사업 구축; Maple Leaf Sports & Entertainment(토론토 메이플 리프스·랩터스·FC) 의장.",
+    "source": "https://en.wikipedia.org/wiki/Larry_Tanenbaum"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Kilmer Group + MLSE 자수성가." },
+  "careerTimeline": [
+    { "year": 1968, "age": 23, "event": "Began Toronto construction-and-real-estate business.", "eventKo": "토론토 건설·부동산 사업 시작.", "whyItMatteredKo": "57년 자수성가 출발선." },
+    { "year": 1996, "age": 51, "event": "Acquired stake in Toronto Raptors NBA team.", "eventKo": "토론토 랩터스 NBA 팀 지분 인수.", "whyItMatteredKo": "스포츠 단계." },
+    { "year": 1998, "age": 53, "event": "Co-acquired Toronto Maple Leafs and Raptors through Maple Leaf Sports & Entertainment.", "eventKo": "Maple Leaf Sports & Entertainment 통해 토론토 메이플 리프스·랩터스 공동 인수.", "whyItMatteredKo": "MLSE 단계." },
+    { "year": 2019, "age": 74, "event": "Toronto Raptors won NBA Championship.", "eventKo": "토론토 랩터스 NBA 챔피언십 우승.", "whyItMatteredKo": "스포츠 정점." },
+    { "year": 2025, "age": 80, "event": "Personal net worth at $2.8B per Forbes Real-Time. Continues as MLSE chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러. MLSE 의장 계속.", "whyItMatteredKo": "MLSE 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1996, "age": 51, "decisionKo": "Toronto Raptors 지분 인수 → MLSE 확장", "alternativeKo": "건설 사업 집중", "outcomeKo": "30년 후 캐나다 스포츠 메이저 의장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Maple Leaf Sports & Entertainment(MLSE) 25% 지분 + Kilmer Group", "industryKo": "스포츠 + 부동산", "businessModelKo": "NHL/NBA/MLS 팀 + 캐나다 부동산", "moatKo": "MLSE 토론토 스포츠 거의 독점", "luckVsSkillKo": "운(35%): MLSE 인수 타이밍. 실력(65%): 30년 스포츠 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Chairman of Maple Leaf Sports & Entertainment; owner of Toronto Maple Leafs, Raptors, Toronto FC.",
+    "knownForKo": "Maple Leaf Sports & Entertainment 의장; 토론토 메이플 리프스·랩터스·토론토 FC 소유주.",
+    "philanthropy": "Tanenbaum-CHAT Jewish education and Toronto philanthropy.", "philanthropyKo": "Tanenbaum-CHAT 유대인 교육·토론토 자선.",
+    "controversies": "MLSE governance disputes; Toronto teams' multi-year performance pressure.",
+    "controversiesKo": "MLSE 거버넌스 분쟁; 토론토 팀 다년간 성과 압박."
+  },
+  "characterKo": { "summaryKo": "Kilmer Group + MLSE 토론토 스포츠 자수성가.", "tagsKo": ["MLSE", "Maple Leafs", "Raptors", "Toronto"] },
+  "failures": [
+    { "year": 2012, "description": "Toronto Maple Leafs missed playoffs for years; fan frustration with management.", "descriptionKo": "토론토 메이플 리프스가 수년간 플레이오프 진출 실패; 관리에 대한 팬 불만.", "lesson": "Sports-team performance affects franchise value.", "lessonKo": "스포츠 팀 성과가 프랜차이즈 가치 영향." },
+    { "year": 2020, "description": "COVID-19 closed NHL/NBA arenas; MLSE revenue compressed.", "descriptionKo": "COVID-19이 NHL/NBA 아레나 폐쇄; MLSE 매출 압축.", "lesson": "Sports pandemic-exposed.", "lessonKo": "스포츠 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.6 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Sports belong to the city. We are temporary stewards.", "textKo": "스포츠는 도시의 것이다. 우리는 일시적 청지기다.", "context": "On MLSE", "contextKo": "MLSE에 대해", "source": "https://www.mlse.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Mi day pillar in O month — 'sanggwan-gyeok', creative output, fitting sports-franchise builder.", "summaryKo": "신미 일주 + 오월 상관격(창의적 결과물·표현)은 다부문 스포츠 자본을 결합한 그의 창의적 자본 누적과 호응합니다. 신금 일간의 예리한 금속 기질이 스포츠 자본 결단의 정밀함과 통하고, 미토 일지의 토 기운이 자본의 안정 기반을, 오화 월지의 강한 화 기운이 스포츠·미디어의 표현 에너지를 가리킵니다." }
+}

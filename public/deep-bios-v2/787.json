@@ -1,0 +1,39 @@
+{
+  "id": "787", "name": "Josh Kushner", "nameKo": "조슈아 쿠슈너",
+  "netWorth": 5.2, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "New Jersey, USA", "birthPlaceKo": "미국 뉴저지",
+    "familyBackground": "Born to Charles Kushner — Kushner Companies real-estate developer; brother of Jared Kushner.", "familyBackgroundKo": "Kushner Companies 부동산 개발자 찰스 쿠슈너의 아들; 재러드 쿠슈너의 형제.",
+    "education": "Harvard University; Harvard Business School.", "educationKo": "하버드 대학교; 하버드 비즈니스 스쿨.",
+    "earlyLife": "Founded Thrive Capital VC firm in 2010 — early Instagram, Stripe, Spotify investor; co-founded Oscar Health insurance.",
+    "earlyLifeKo": "2010년 Thrive Capital VC 회사 창립 — 초기 Instagram·Stripe·Spotify 투자자; Oscar Health 보험 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Joshua_Kushner"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "Kushner 가족 자본 + Thrive Capital VC carry." },
+  "careerTimeline": [
+    { "year": 2008, "age": 23, "event": "Began VC investing through Vostu Latin America gaming venture.", "eventKo": "Vostu 라틴 아메리카 게이밍 벤처 통해 VC 투자 시작.", "whyItMatteredKo": "VC 경력 출발선." },
+    { "year": 2010, "age": 25, "event": "Founded Thrive Capital with $5M from family and investors.", "eventKo": "가족·투자자에서 500만 달러로 Thrive Capital 창립.", "whyItMatteredKo": "Thrive 출발선." },
+    { "year": 2014, "age": 29, "event": "Co-founded Oscar Health insurance company.", "eventKo": "Oscar Health 보험 회사 공동 창립.", "whyItMatteredKo": "Oscar 단계." },
+    { "year": 2021, "age": 36, "event": "Oscar IPO on NYSE; Thrive AUM crossed $5B+.", "eventKo": "Oscar NYSE IPO; Thrive AUM 50억 달러+ 돌파.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2025, "age": 40, "event": "Personal net worth at $5.2B per Forbes Real-Time. Thrive Capital AUM exceeds $15B.", "eventKo": "포브스 실시간 기준 개인 순자산 52억 달러. Thrive Capital AUM이 150억 달러 초과.", "whyItMatteredKo": "Thrive VC 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2010, "age": 25, "decisionKo": "Harvard MBA 졸업 직후 Thrive Capital 창립", "alternativeKo": "Kushner 가족 부동산 합류", "outcomeKo": "15년 후 글로벌 기술 VC 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Thrive Capital 창립자 지분 + Oscar Health + Kushner Companies 가족 지분", "industryKo": "벤처 캐피탈 + 헬스케어", "businessModelKo": "초기·성장 기술 VC + Oscar 헬스케어 + 부동산 가족 자본", "moatKo": "15년 VC 트랙 + Kushner 가족 인맥 + 정치 인맥", "luckVsSkillKo": "운(50%): 2010-2025 기술 VC 황금기 + 가족 자본. 실력(50%): 15년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Thrive Capital; co-founder of Oscar Health; brother of Jared Kushner; major Silicon Valley VC.",
+    "knownForKo": "Thrive Capital 창립자; Oscar Health 공동 창립자; 재러드 쿠슈너의 형제; 주요 실리콘 밸리 VC.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Family ties to Trump administration through brother Jared drew political scrutiny on VC deals.",
+    "controversiesKo": "형제 재러드를 통한 트럼프 행정부와의 가족 연결이 VC 거래 정치 감시 야기."
+  },
+  "characterKo": { "summaryKo": "Kushner 가족 + Thrive Capital VC + Oscar Health 공동 창립.", "tagsKo": ["Thrive Capital", "Oscar Health", "Kushner 가족"] },
+  "failures": [
+    { "year": 2022, "description": "Tech-stock decline compressed Thrive Capital portfolio valuations; Oscar Health stock fell 80%+.", "descriptionKo": "기술주 하락으로 Thrive Capital 포트폴리오 밸류에이션 압축; Oscar Health 주가 80%+ 하락.", "lesson": "Concentrated tech VC face cycle drawdowns.", "lessonKo": "집중 기술 VC는 사이클 하락 직면." },
+    { "year": 2017, "description": "Brother Jared Kushner's White House role drew sustained COI scrutiny on Thrive Capital deals.", "descriptionKo": "형제 재러드 쿠슈너의 백악관 역할이 Thrive Capital 거래 COI 감시 야기.", "lesson": "Political family ties create business COI exposure.", "lessonKo": "정치 가족 인맥이 사업 이해 충돌 노출 야기." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2022, "netWorth": 3.5 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Venture capital is about founders, not technology.", "textKo": "벤처 캐피탈은 기술이 아닌 창립자에 관한 것이다.", "context": "On Thrive Capital strategy", "contextKo": "Thrive Capital 전략에 대해", "source": "https://www.thrivecap.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-O day pillar in O month — 'jeongjae-gyeok', steady accumulation, fitting VC founder with family-capital base.", "summaryKo": "임오 일주 + 오월 정재격(고정 자산·꾸준한 매출)은 가족 부동산 자본 + Thrive VC carry라는 안정 자본 누적 모델과 호응합니다. 임수 일간의 큰 물·유연성이 VC 자본의 유동성과 통하고, 오화 일지·오화 월지의 강한 화 기운이 결단·표현·VC 인맥의 에너지를 이중으로 강조합니다." }
+}

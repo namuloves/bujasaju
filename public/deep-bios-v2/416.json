@@ -1,0 +1,32 @@
+{
+  "id": "416", "name": "Alexei Kuzmichev", "nameKo": "알렉세이 쿠즈미체프",
+  "netWorth": 8.2, "nationality": "RU", "industry": "Energy",
+  "childhood": { "birthPlace": "USSR", "birthPlaceKo": "소련",
+    "familyBackground": "Born to Soviet Russian family.", "familyBackgroundKo": "소련 러시아 가정에서 출생.",
+    "education": "Moscow Institute of Steel and Alloys.", "educationKo": "모스크바 철강·합금 학교.",
+    "earlyLife": "Co-founded Alfa Group in 1989 with Mikhail Fridman and Petr Aven; major Russian oligarch.",
+    "earlyLifeKo": "1989 미하일 프리드만·페트르 아벤과 Alfa Group 공동 창립; 주요 러시아 올리가르히.",
+    "source": "https://en.wikipedia.org/wiki/Alexey_Kuzmichev" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Alfa Group + TNK-BP 매각." },
+  "careerTimeline": [
+    { "year": 1989, "age": 27, "event": "Co-founded Alfa Group with Fridman and Aven.", "eventKo": "프리드만·아벤과 Alfa Group 공동 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 1995, "age": 33, "event": "Acquired Russian oil company TNK in loans-for-shares.", "eventKo": "주식 대출 경매에서 러시아 석유 회사 TNK 인수.", "whyItMatteredKo": "올리가르히 단계." },
+    { "year": 2013, "age": 51, "event": "Sold TNK-BP to Rosneft for $55B.", "eventKo": "TNK-BP를 Rosneft에 550억 달러 매각.", "whyItMatteredKo": "정점 엑시트." },
+    { "year": 2025, "age": 63, "event": "Personal net worth at $8.2B per Forbes Real-Time. Under EU/UK sanctions since 2022.", "eventKo": "포브스 실시간 기준 개인 순자산 82억 달러. 2022 이후 EU/영국 제재.", "whyItMatteredKo": "올리가르히 + 제재 잔여." }],
+  "turningPoints": [{ "year": 1995, "age": 33, "decisionKo": "주식 대출 경매에서 TNK 인수", "alternativeKo": "Alfa 은행", "outcomeKo": "올리가르히 + 18년 후 정점 엑시트" }],
+  "moneyMechanics": { "primaryRevenueKo": "TNK-BP 매각 대금 + LetterOne 글로벌 PE", "industryKo": "석유 매각 후 다각화 투자", "businessModelKo": "TNK-BP 매각 대금 + LetterOne 글로벌 자산", "moatKo": "올리가르히 자본 + 프리드만·아벤 파트너십", "luckVsSkillKo": "운(60%): 1995 주식 대출 + 2013 매각 타이밍. 실력(40%): Alfa 36년 일관성." },
+  "personalTraits": { "knownFor": "Co-founder of Alfa Group; former TNK-BP shareholder; major Russian oligarch.",
+    "knownForKo": "Alfa Group 공동 창립자; 전 TNK-BP 주주; 주요 러시아 올리가르히.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2022 EU/UK sanctions over alleged Kremlin ties; 1995 loans-for-shares acquisitions political.",
+    "controversiesKo": "2022 크렘린 연계 의혹 EU·영국 제재; 1995 주식 대출 인수 정치적." },
+  "characterKo": { "summaryKo": "Alfa Group + TNK-BP 매각 + 제재 직면 올리가르히.", "tagsKo": ["Alfa Group", "TNK-BP", "올리가르히", "제재"] },
+  "failures": [
+    { "year": 2022, "description": "EU/UK sanctioned Kuzmichev over alleged Kremlin ties.", "descriptionKo": "EU·영국이 크렘린 연계 의혹으로 쿠즈미체프 제재.", "lesson": "Russian wealth sanctions risk.", "lessonKo": "러시아 부 제재 리스크." },
+    { "year": 2014, "description": "Russia-Ukraine 2014 sanctions affected Alfa operations.", "descriptionKo": "2014 러시아-우크라이나 제재가 Alfa 운영 영향.", "lesson": "Geopolitics governs Russian business.", "lessonKo": "지정학이 러시아 사업 지배." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 6.4 }, { "year": 2020, "netWorth": 6.4 }, { "year": 2024, "netWorth": 7.5 }, { "year": 2025, "netWorth": 8.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Russia's 1990s was a window for those who climbed through.", "textKo": "러시아의 1990년대는 통과한 자에게 창문이었다.", "context": "On Alfa Group", "contextKo": "Alfa Group에 대해", "source": "https://www.alfagroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Sul day pillar in Sul month — 'pyeonjae-gyeok' with strong earth, fitting oligarch.", "summaryKo": "병술 일주 + 술월 편재격(크고 유동적인 외부 자본)은 러시아 석유·금속이라는 거대 외부 자본 흐름과 호응합니다. 병화 일간의 큰 불·태양 기질이 결단의 표현과 통하고, 일지·월지 모두 술토의 강한 토 기운이 자본의 안정 기반을 이중으로 강조합니다." }
+}

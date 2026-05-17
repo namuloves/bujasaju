@@ -1,0 +1,31 @@
+{
+  "id": "1140", "name": "Roman Trotsenko", "nameKo": "로만 트로첸코",
+  "netWorth": 3.6, "nationality": "RU", "industry": "Logistics",
+  "childhood": { "birthPlace": "Russia", "birthPlaceKo": "러시아",
+    "familyBackground": "Born to Soviet Russian family.", "familyBackgroundKo": "소련 러시아 가정에서 출생.",
+    "education": "Soviet engineering education.", "educationKo": "소련 엔지니어링 교육.",
+    "earlyLife": "Built career in Russian transportation and shipping; AEON Corporation founder; major Russian transport infrastructure investor.",
+    "earlyLifeKo": "러시아 운송·해운 경력 구축; AEON Corporation 창립자; 주요 러시아 운송 인프라 투자자.",
+    "source": "https://www.forbes.com" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "AEON Corporation + 러시아 항구·공항." },
+  "careerTimeline": [
+    { "year": 1995, "age": 25, "event": "Began Russian shipping career.", "eventKo": "러시아 해운 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2008, "age": 38, "event": "Founded AEON Corporation; began Russian transport-asset acquisitions.", "eventKo": "AEON Corporation 창립; 러시아 운송 자산 인수 시작.", "whyItMatteredKo": "AEON 단계." },
+    { "year": 2018, "age": 48, "event": "Major Russian airport and seaport investor.", "eventKo": "주요 러시아 공항·해항 투자자.", "whyItMatteredKo": "인프라 단계." },
+    { "year": 2025, "age": 55, "event": "Personal net worth at $3.6B per Forbes Real-Time. Under EU/UK sanctions since 2022.", "eventKo": "포브스 실시간 기준 개인 순자산 36억 달러. 2022 이후 EU/영국 제재.", "whyItMatteredKo": "AEON 자본 + 제재 잔여." }],
+  "turningPoints": [{ "year": 2008, "age": 38, "decisionKo": "AEON Corporation 창립", "alternativeKo": "직장 잔류", "outcomeKo": "17년 후 러시아 운송 인프라 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "AEON Corporation + 러시아 공항·해항 지분", "industryKo": "운송 인프라(공항·해항)", "businessModelKo": "러시아 공항·해항 양허 + 운송 자산", "moatKo": "러시아 정부 인맥 + 17년 운송 인프라", "luckVsSkillKo": "운(55%): 러시아 민영화 + 정부 조달. 실력(45%): 17년 운영." },
+  "personalTraits": { "knownFor": "Founder of AEON Corporation; major Russian transport-infrastructure investor.",
+    "knownForKo": "AEON Corporation 창립자; 주요 러시아 운송 인프라 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2022 EU/UK sanctions over alleged Kremlin ties.", "controversiesKo": "2022 크렘린 연계 의혹으로 EU·영국 제재." },
+  "characterKo": { "summaryKo": "AEON Corporation 러시아 운송 인프라 자수성가.", "tagsKo": ["AEON Corporation", "러시아 운송 인프라"] },
+  "failures": [
+    { "year": 2014, "description": "Russia-Ukraine 2014 sanctions disrupted Russian transport infrastructure investments.", "descriptionKo": "2014 러시아-우크라이나 제재가 러시아 운송 인프라 투자 혼란.", "lesson": "Russian infrastructure geopolitically exposed.", "lessonKo": "러시아 인프라 지정학 노출." },
+    { "year": 2022, "description": "EU/UK personal sanctions froze European assets.", "descriptionKo": "EU/영국 개인 제재로 유럽 자산 동결.", "lesson": "Russian-tied wealth sanctions risk.", "lessonKo": "러시아 연계 부 제재 리스크." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.6 }, { "year": 2020, "netWorth": 2.4 }, { "year": 2024, "netWorth": 3.4 }, { "year": 2025, "netWorth": 3.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Russian logistics moves slow but accumulates fast.", "textKo": "러시아 물류는 천천히 움직이지만 빠르게 누적된다.", "context": "On AEON Corporation", "contextKo": "AEON Corporation에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Mi day pillar in Yu month — 'pyeon-gwan-gyeok', strong external authority, fitting Russian-infrastructure executive.", "summaryKo": "을미 일주 + 유월 편관격(강한 외부 압박·권력 충돌)은 러시아 정부 인프라 + 서방 제재라는 격렬한 권력 환경과 호응합니다. 을목 일간 + 미토 일지의 토 기운이 인프라 자본의 안정 기반을, 유금 월지의 금 기운이 결단의 정밀함을 가리킵니다." }
+}

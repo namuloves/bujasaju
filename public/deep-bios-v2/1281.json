@@ -1,0 +1,39 @@
+{
+  "id": "1281", "name": "John Tyson", "nameKo": "존 타이슨",
+  "netWorth": 3.2, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Springdale, Arkansas, USA", "birthPlaceKo": "미국 아칸소주 스프링데일",
+    "familyBackground": "Born to Donald Tyson — third-generation owner of Tyson Foods; grandson of John W. Tyson (founder).", "familyBackgroundKo": "Tyson Foods 3세대 소유주 도널드 타이슨의 아들; 존 W. 타이슨(창립자)의 손자.",
+    "education": "University of Arkansas.", "educationKo": "아칸소 대학교.",
+    "earlyLife": "Joined family Tyson Foods business; became CEO 2000-2006 and chairman 1998-2024; led major IBP acquisition 2001 and Hillshire Brands acquisition 2014.",
+    "earlyLifeKo": "가족 Tyson Foods 사업 합류; 2000-2006 CEO, 1998-2024 의장 역임; 2001 주요 IBP 인수와 2014 Hillshire Brands 인수 주도.",
+    "source": "https://en.wikipedia.org/wiki/John_H._Tyson"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Tyson Foods 3세대 가족 자본." },
+  "careerTimeline": [
+    { "year": 1973, "age": 20, "event": "Joined family Tyson Foods.", "eventKo": "가족 Tyson Foods 합류.", "whyItMatteredKo": "3세대 진입." },
+    { "year": 1998, "age": 45, "event": "Became chairman of Tyson Foods.", "eventKo": "Tyson Foods 의장 취임.", "whyItMatteredKo": "지배 단계." },
+    { "year": 2001, "age": 48, "event": "Led Tyson Foods $3.2B acquisition of IBP; created largest US meat processor.", "eventKo": "Tyson Foods가 IBP 32억 달러 인수 주도; 미국 최대 육류 처리 기업 창출.", "whyItMatteredKo": "거대 인수 단계." },
+    { "year": 2014, "age": 61, "event": "Led $7.7B acquisition of Hillshire Brands.", "eventKo": "Hillshire Brands 77억 달러 인수 주도.", "whyItMatteredKo": "Hillshire 인수." },
+    { "year": 2025, "age": 72, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "Tyson Foods 정점." }
+  ],
+  "turningPoints": [{ "year": 2001, "age": 48, "decisionKo": "IBP 32억 달러 인수 주도", "alternativeKo": "닭고기 집중 잔류", "outcomeKo": "24년 후 미국 최대 다종 육류 처리 기업 + 32억 달러 가족 부" }],
+  "moneyMechanics": { "primaryRevenueKo": "Tyson Foods(TSN) 가족 지분 + 다각화", "industryKo": "육류 처리·식품", "businessModelKo": "닭·소·돼지 수직 통합 + 글로벌 배포 + 가공 식품", "moatKo": "미국 최대 육류 처리 + 가족 의결권 + 수직 통합", "luckVsSkillKo": "운(50%): 3세대 가족 자본. 실력(50%): IBP·Hillshire 거대 인수 통합." },
+  "personalTraits": {
+    "knownFor": "Chairman of Tyson Foods; third-generation Tyson family head.",
+    "knownForKo": "Tyson Foods 의장; 타이슨 가족 3세대 가장.",
+    "philanthropy": "Tyson Family Foundation supports Arkansas community and food-security causes.", "philanthropyKo": "Tyson 가족 재단이 아칸소 지역 사회·식량 안보 자선 지원.",
+    "controversies": "Tyson Foods labor and immigration controversies; 2024 step-down following grandson John Randal Tyson DUI arrest issues; bird-flu and chicken-price collusion lawsuits.",
+    "controversiesKo": "Tyson Foods 노동·이민 논쟁; 2024 손자 존 랜달 타이슨 음주 운전 체포 후 의장 사임; 조류 독감·닭고기 가격 담합 소송."
+  },
+  "characterKo": { "summaryKo": "타이슨 3세대 + IBP·Hillshire 거대 인수.", "tagsKo": ["Tyson Foods", "IBP 인수", "3세대"] },
+  "failures": [
+    { "year": 2020, "description": "Tyson Foods COVID-19 outbreaks at plants drew federal scrutiny; 38,000+ workers infected; closures briefly disrupted US meat supply.", "descriptionKo": "Tyson Foods 공장 COVID-19 발병이 연방 감시 야기; 38,000명+ 근로자 감염; 폐쇄가 미국 육류 공급 잠시 혼란.", "lesson": "Meat processing faces pandemic-supply-chain risk.", "lessonKo": "육류 처리는 팬데믹 공급망 리스크 직면." },
+    { "year": 2024, "description": "Stepped down as chairman after CFO grandson John Randal Tyson's DUI and trespassing arrests; family-governance scrutiny intensified.", "descriptionKo": "CFO 손자 존 랜달 타이슨 음주 운전·주거 침입 체포 후 의장 사임; 가족 거버넌스 감시 강화.", "lesson": "Family-controlled public companies face succession scrutiny.", "lessonKo": "가족 통제 공개 회사는 승계 감시 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.1 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Faith, family, and chicken — in that order.", "textKo": "신앙, 가족, 그리고 닭고기 — 그 순서대로.", "context": "On Tyson Foods values", "contextKo": "Tyson Foods 가치에 대해", "source": "https://www.tysonfoods.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Mi day pillar in Sin month — 'sanggwan-gyeok', unconventional output, fitting third-generation patriarch consolidating meat industry.", "summaryKo": "기미 일주 + 신월 상관격(파격적 표현·기존 권위 도전)은 닭고기 회사를 거대 인수 통해 다종 육류 거인으로 재편한 그의 파격 경로와 호응합니다. 기토 일간의 평야·수용 기질이 가족 가부장과 통하고, 미토 일지의 토 기운이 자본 안정을, 신금 월지의 금 기운이 인수 도구를 가리킵니다." }
+}

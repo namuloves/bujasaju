@@ -1,0 +1,32 @@
+{
+  "id": "975", "name": "Antonio Gracias", "nameKo": "안토니오 그라시아스",
+  "netWorth": 4.2, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": { "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Mexican-American family in Texas.", "familyBackgroundKo": "텍사스 멕시코·미국 가정에서 출생.",
+    "education": "University of Chicago; Harvard Law School.", "educationKo": "시카고 대학교; 하버드 로스쿨.",
+    "earlyLife": "Founded Valor Equity Partners in 2001 — major Chicago-based PE firm; long-time Tesla director (2007-2021).",
+    "earlyLifeKo": "2001 Valor Equity Partners 창립 — 주요 시카고 기반 PE 회사; 장기 Tesla 이사(2007-2021).",
+    "source": "https://www.valorequitypartners.com" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Valor Equity Partners + Tesla 초기 투자." },
+  "careerTimeline": [
+    { "year": 1993, "age": 23, "event": "Began Wall Street career.", "eventKo": "월스트리트 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2001, "age": 31, "event": "Founded Valor Equity Partners in Chicago.", "eventKo": "시카고에서 Valor Equity Partners 창립.", "whyItMatteredKo": "Valor 출발선." },
+    { "year": 2007, "age": 37, "event": "Joined Tesla board as early investor and director.", "eventKo": "Tesla 이사회 합류 초기 투자자·이사.", "whyItMatteredKo": "Tesla 단계." },
+    { "year": 2021, "age": 51, "event": "Stepped down from Tesla board after 14-year tenure.", "eventKo": "14년 재임 후 Tesla 이사회에서 사임.", "whyItMatteredKo": "Tesla 엑시트." },
+    { "year": 2025, "age": 55, "event": "Personal net worth at $4.2B per Forbes Real-Time. Valor AUM exceeds $13B.", "eventKo": "포브스 실시간 기준 개인 순자산 42억 달러. Valor AUM 130억 달러 초과.", "whyItMatteredKo": "정점." }],
+  "turningPoints": [{ "year": 2007, "age": 37, "decisionKo": "Tesla 초기 투자 + 이사회 합류", "alternativeKo": "전통 PE 집중", "outcomeKo": "18년 후 거대 Tesla 지분 + Valor PE 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Valor Equity Partners 창립자 지분 + Tesla 초기 지분 + SpaceX 등 Musk 인맥 투자", "industryKo": "사모펀드 + Tesla/SpaceX 투자", "businessModelKo": "PE + Tesla/SpaceX 장기 보유 + Musk 인맥", "moatKo": "Musk 인맥 + 14년 Tesla 이사회", "luckVsSkillKo": "운(40%): Tesla 초기 합류 타이밍. 실력(60%): Valor 24년 일관성." },
+  "personalTraits": { "knownFor": "Founder of Valor Equity Partners; longtime Tesla director; Elon Musk's close friend and investor.",
+    "knownForKo": "Valor Equity Partners 창립자; 장기 Tesla 이사; 일론 머스크의 친한 친구·투자자.",
+    "philanthropy": "Supports University of Chicago.", "philanthropyKo": "시카고 대학교 지원.",
+    "controversies": "Tesla board independence drew SEC scrutiny; Musk relationship COI debates.", "controversiesKo": "Tesla 이사회 독립성이 SEC 감시 야기; Musk 관계 이해 충돌 논쟁." },
+  "characterKo": { "summaryKo": "Valor PE 창립 + Tesla 초기 투자자·이사 + Musk 친구.", "tagsKo": ["Valor Equity Partners", "Tesla 이사", "SpaceX", "Musk 인맥"] },
+  "failures": [
+    { "year": 2018, "description": "Tesla board drew SEC scrutiny over Musk 'funding secured' tweet; Gracias as independent director questioned.", "descriptionKo": "Tesla 이사회가 Musk 'funding secured' 트윗에 대한 SEC 감시; Gracias의 독립 이사 자격 의문.", "lesson": "Board-friend relationships compromise independence.", "lessonKo": "이사회·친구 관계가 독립성 훼손." },
+    { "year": 2022, "description": "Tech-stock decline compressed Valor PE portfolio temporarily.", "descriptionKo": "기술주 하락이 Valor PE 포트폴리오 일시 압축.", "lesson": "Tech-heavy PE cyclical.", "lessonKo": "기술 집중 PE 주기적." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.0 }, { "year": 2025, "netWorth": 4.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Valor is patience with high conviction.", "textKo": "Valor는 강한 확신을 가진 인내다.", "context": "On Valor Equity", "contextKo": "Valor Equity에 대해", "source": "https://www.valorequitypartners.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-In day pillar in Sul month — 'pyeon-gwan-gyeok', strong external authority, fitting Musk-connected PE founder.", "summaryKo": "경인 일주 + 술월 편관격(강한 외부 압박·권력 충돌)은 Tesla 이사회·SEC·Musk 인맥이라는 격렬한 권력 환경과 호응합니다. 경금 일간의 단단한 금속 + 인목 일지의 목 기운이 회사 성장을, 술토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

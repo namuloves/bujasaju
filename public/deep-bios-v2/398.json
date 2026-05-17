@@ -1,0 +1,33 @@
+{
+  "id": "398", "name": "Justin Sun", "nameKo": "저스틴 선",
+  "netWorth": 8.5, "nationality": "ST", "industry": "Finance & Investments",
+  "childhood": { "birthPlace": "Xining, Qinghai, China", "birthPlaceKo": "중국 칭하이성 시닝",
+    "familyBackground": "Born to Chinese middle-class family.", "familyBackgroundKo": "중국 중산층 가정에서 출생.",
+    "education": "Peking University; University of Pennsylvania.", "educationKo": "베이징 대학교; 펜실베이니아 대학교.",
+    "earlyLife": "Founded TRON cryptocurrency platform in 2017; acquired BitTorrent in 2018; major crypto entrepreneur and ambassador to WTO for Grenada.",
+    "earlyLifeKo": "2017 TRON 암호화폐 플랫폼 창립; 2018 BitTorrent 인수; 주요 암호화폐 기업가·그레나다 WTO 대사.",
+    "source": "https://en.wikipedia.org/wiki/Justin_Sun" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "TRON 8년 자수성가." },
+  "careerTimeline": [
+    { "year": 2013, "age": 23, "event": "Joined Ripple Labs; learned cryptocurrency.", "eventKo": "Ripple Labs 합류; 암호화폐 학습.", "whyItMatteredKo": "암호화폐 출발선." },
+    { "year": 2017, "age": 27, "event": "Founded TRON cryptocurrency platform; ICO raised $70M.", "eventKo": "TRON 암호화폐 플랫폼 창립; ICO 7,000만 달러 조달.", "whyItMatteredKo": "TRON 출발선." },
+    { "year": 2018, "age": 28, "event": "Acquired BitTorrent for $140M; integrated with TRON.", "eventKo": "BitTorrent를 1억 4,000만 달러 인수; TRON과 통합.", "whyItMatteredKo": "BitTorrent 단계." },
+    { "year": 2021, "age": 31, "event": "Became Grenada's WTO ambassador; gained Grenada citizenship.", "eventKo": "그레나다 WTO 대사가 됨; 그레나다 시민권 획득.", "whyItMatteredKo": "외교 단계." },
+    { "year": 2025, "age": 35, "event": "Personal net worth at $8.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 85억 달러.", "whyItMatteredKo": "TRON 자본 정점." }],
+  "turningPoints": [{ "year": 2017, "age": 27, "decisionKo": "TRON 암호화폐 ICO 출시", "alternativeKo": "Ripple 잔류", "outcomeKo": "8년 후 주요 암호화폐 플랫폼 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "TRON Foundation 창립자 토큰 + BitTorrent + 다각화 암호화폐", "industryKo": "암호화폐·블록체인", "businessModelKo": "TRON 블록체인 + USDT 스테이블코인 유통 + 인플루언서 마케팅", "moatKo": "TRON 글로벌 사용자 + 스테이블코인 거래량", "luckVsSkillKo": "운(50%): 2017-2021 암호화폐 호황. 실력(50%): TRON 마케팅·운영." },
+  "personalTraits": { "knownFor": "Founder of TRON; outspoken crypto entrepreneur; Grenada's WTO ambassador.",
+    "knownForKo": "TRON 창립자; 노골적 암호화폐 기업가; 그레나다 WTO 대사.",
+    "philanthropy": "$4.5M Warren Buffett lunch winning bid (later canceled).", "philanthropyKo": "워런 버핏 점심 입찰 450만 달러 낙찰(이후 취소).",
+    "controversies": "SEC sued Sun in 2023 over alleged TRON securities fraud and wash trading; multiple cryptocurrency-industry controversies.",
+    "controversiesKo": "SEC가 2023 TRON 증권 사기·세탁 거래 의혹으로 Sun 소송; 다수 암호화폐 산업 논란." },
+  "characterKo": { "summaryKo": "TRON 8년 암호화폐 자수성가 + 그레나다 외교관.", "tagsKo": ["TRON", "BitTorrent", "Grenada 대사"] },
+  "failures": [
+    { "year": 2019, "description": "Cancelled Warren Buffett $4.5M lunch citing health; faced media backlash.", "descriptionKo": "건강 이유로 워런 버핏 450만 달러 점심 취소; 미디어 반발.", "lesson": "Crypto-celebrity stunts create reputational tail.", "lessonKo": "암호화폐 셀러브리티 스턴트 평판 잔여 야기." },
+    { "year": 2023, "description": "SEC sued Sun over alleged TRON securities fraud; ongoing prosecution.", "descriptionKo": "SEC가 TRON 증권 사기 의혹으로 Sun 소송; 진행 중 기소.", "lesson": "Crypto-platforms face US regulatory tail.", "lessonKo": "암호화폐 플랫폼 미국 규제 잔여 직면." }],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2022, "netWorth": 4.0 }, { "year": 2024, "netWorth": 7.7 }, { "year": 2025, "netWorth": 8.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Decentralization is the only way to escape gatekeepers.", "textKo": "탈중앙화는 게이트키퍼를 피하는 유일한 방법이다.", "context": "On TRON mission", "contextKo": "TRON 미션에 대해", "source": "https://www.tron.network" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Shin day pillar in Mi month — 'jeonggwan-gyeok', formal authority through regulated crypto industry.", "summaryKo": "병신 일주 + 미월 정관격(공식 권위·규제 아래에서 일하는 구조)은 암호화폐의 SEC·CFTC·국가 규제 환경과 호응합니다. 병화 일간의 큰 불·태양 기질이 셀러브리티 마케팅의 표현과 통하고, 신금 일지의 금 기운이 결단의 정밀함을, 미토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "767", "name": "Liu Jincheng", "nameKo": "리우 진청",
+  "netWorth": 5.3, "nationality": "CN", "industry": "Manufacturing",
+  "childhood": { "birthPlace": "Hunan, China", "birthPlaceKo": "중국 후난성",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Chinese higher education.", "educationKo": "중국 고등교육.",
+    "earlyLife": "Founded EVE Energy in 2001 — major Chinese battery manufacturer for consumer electronics and EVs.",
+    "earlyLifeKo": "2001 EVE Energy 창립 — 소비자 전자·EV용 주요 중국 배터리 제조사.",
+    "source": "https://www.evebattery.com" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "EVE Energy 24년 자수성가." },
+  "careerTimeline": [
+    { "year": 1990, "age": 26, "event": "Began Chinese battery industry career.", "eventKo": "중국 배터리 산업 경력 시작.", "whyItMatteredKo": "배터리 출발선." },
+    { "year": 2001, "age": 37, "event": "Founded EVE Energy in Guangdong.", "eventKo": "광둥에서 EVE Energy 창립.", "whyItMatteredKo": "EVE 출발선." },
+    { "year": 2009, "age": 45, "event": "EVE Energy IPO on Shenzhen Stock Exchange.", "eventKo": "EVE Energy 선전 증시 IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2020, "age": 56, "event": "EVE expanded into EV batteries; benefited from Chinese EV boom.", "eventKo": "EVE가 EV 배터리 확장; 중국 EV 붐 혜택.", "whyItMatteredKo": "EV 단계." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $5.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 53억 달러.", "whyItMatteredKo": "EVE 자본 정점." }],
+  "turningPoints": [{ "year": 2001, "age": 37, "decisionKo": "광둥에서 EVE Energy 배터리 회사 창립", "alternativeKo": "기존 회사 잔류", "outcomeKo": "24년 후 주요 중국 배터리 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "EVE Energy(선전 증시) 창립자 지분", "industryKo": "배터리 제조(전자·EV)", "businessModelKo": "리튬이온 배터리 + EV 배터리 + 전자 부품", "moatKo": "24년 중국 배터리 제조 + EV 시장 부상", "luckVsSkillKo": "운(40%): 중국 EV·배터리 슈퍼사이클. 실력(60%): 24년 단일 카테고리 일관성." },
+  "personalTraits": { "knownFor": "Founder of EVE Energy; major Chinese battery manufacturer.",
+    "knownForKo": "EVE Energy 창립자; 주요 중국 배터리 제조사.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard battery industry environmental scrutiny; Chinese tech regulatory environment.",
+    "controversiesKo": "표준 배터리 산업 환경 감시; 중국 기술 규제 환경." },
+  "characterKo": { "summaryKo": "EVE Energy 24년 중국 배터리 자수성가.", "tagsKo": ["EVE Energy", "중국 배터리", "EV"] },
+  "failures": [
+    { "year": 2022, "description": "Chinese battery industry overcapacity compressed margins; EV slowdown concerns.", "descriptionKo": "중국 배터리 산업 공급 과잉이 마진 압축; EV 둔화 우려.", "lesson": "Battery industry faces cyclical overcapacity.", "lessonKo": "배터리 산업 주기적 공급 과잉 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Chinese battery supply chains briefly.", "descriptionKo": "COVID-19이 중국 배터리 공급망 잠시 혼란.", "lesson": "Battery supply chain pandemic-exposed.", "lessonKo": "배터리 공급망 팬데믹 노출." }],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2022, "netWorth": 6.0 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Batteries are how this century moves.", "textKo": "배터리는 이번 세기가 움직이는 방식이다.", "context": "On EVE Energy", "contextKo": "EVE Energy에 대해", "source": "https://www.evebattery.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Sul day pillar in Yu month — 'jeongin-gyeok', maternal-academic foundation, fitting battery-industry founder.", "summaryKo": "갑술 일주 + 유월 정인격(공식 자격·학문·문서 권위)은 배터리 산업의 기술·인증 기반과 호응합니다. 갑목 일간의 큰 나무 + 술토 일지의 토 기운이 회사 자본의 안정 기반을, 유금 월지의 금 기운이 배터리(금속) 제조의 정밀함을 가리킵니다." }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "1011", "name": "William Conway Jr.", "nameKo": "윌리엄 콘웨이 주니어",
+  "netWorth": 4.1, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": { "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Dartmouth College; University of Chicago MBA.", "educationKo": "다트머스 칼리지; 시카고 대학교 MBA.",
+    "earlyLife": "Worked at MCI Communications as CFO; co-founded The Carlyle Group in 1987 with David Rubenstein and Daniel D'Aniello.",
+    "earlyLifeKo": "MCI Communications CFO 근무; 1987 데이비드 루벤스타인·대니얼 다니엘로와 Carlyle Group 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/William_Conway_Jr." },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Carlyle Group 공동 창립자 38+년 carry." },
+  "careerTimeline": [
+    { "year": 1981, "age": 32, "event": "Became CFO of MCI Communications.", "eventKo": "MCI Communications CFO 취임.", "whyItMatteredKo": "기업 경력 출발선." },
+    { "year": 1987, "age": 38, "event": "Co-founded Carlyle Group in Washington DC.", "eventKo": "워싱턴 DC에서 Carlyle Group 공동 창립.", "whyItMatteredKo": "Carlyle 출발선." },
+    { "year": 2012, "age": 63, "event": "Carlyle IPO on NASDAQ.", "eventKo": "Carlyle 나스닥 IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2018, "age": 69, "event": "Stepped down as Carlyle co-CEO; remained co-chairman.", "eventKo": "Carlyle 공동 CEO에서 사임; 공동 의장 잔류.", "whyItMatteredKo": "전환 단계." },
+    { "year": 2025, "age": 76, "event": "Personal net worth at $4.1B per Forbes Real-Time. Continues as Carlyle co-chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 41억 달러. Carlyle 공동 의장 계속.", "whyItMatteredKo": "38+년 Carlyle 자본 정점." }],
+  "turningPoints": [{ "year": 1987, "age": 38, "decisionKo": "MCI 떠나 Carlyle 공동 창립", "alternativeKo": "MCI 잔류", "outcomeKo": "38+년 후 세계 톱3 PE 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Carlyle Group(NASDAQ 상장) 공동 창립자 지분 + 38+년 carry", "industryKo": "사모펀드", "businessModelKo": "글로벌 PE + 신용 + 부동산 + 보험 자산운용", "moatKo": "38+년 PE 인맥 + 워싱턴 DC 인프라", "luckVsSkillKo": "운(30%): PE 황금기. 실력(70%): 38+년 일관성." },
+  "personalTraits": { "knownFor": "Co-founder of Carlyle Group; PE pioneer; major Catholic philanthropist.",
+    "knownForKo": "Carlyle Group 공동 창립자; PE 선구자; 주요 가톨릭 자선가.",
+    "philanthropy": "Bedford Falls Foundation funds Catholic education and poverty alleviation.", "philanthropyKo": "Bedford Falls 재단이 가톨릭 교육·빈곤 완화 자금.",
+    "controversies": "Carlyle's George H.W. Bush political ties; 9/11 Saudi-bin-Laden investment scandal; defense-industry investments criticism.",
+    "controversiesKo": "Carlyle의 조지 H.W. 부시 정치 연결; 9/11 사우디·빈라덴 투자 스캔들; 방산 투자 비판." },
+  "characterKo": { "summaryKo": "Carlyle Group 38+년 공동 창립 + 가톨릭 자선가.", "tagsKo": ["Carlyle Group", "Bedford Falls Foundation"] },
+  "failures": [
+    { "year": 2001, "description": "Carlyle's Saudi-bin-Laden ties drew sustained criticism after 9/11.", "descriptionKo": "Carlyle의 사우디·빈라덴 연결이 9/11 후 지속적 비판.", "lesson": "Politically connected PE reputational tail.", "lessonKo": "정치 연계 PE 평판 잔여." },
+    { "year": 2022, "description": "Public PE stocks compressed during cycle.", "descriptionKo": "공개 PE 주식이 사이클 동안 압축.", "lesson": "PE cyclical.", "lessonKo": "PE 주기적." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.6 }, { "year": 2020, "netWorth": 3.2 }, { "year": 2024, "netWorth": 3.9 }, { "year": 2025, "netWorth": 4.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "PE is hard. Doing it for 38 years is harder.", "textKo": "PE는 어렵다. 38년 하는 것은 더 어렵다.", "context": "On Carlyle", "contextKo": "Carlyle에 대해", "source": "https://www.carlyle.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Chuk day pillar in Shin month — 'jeongjae-gyeok', steady accumulation, fitting PE co-founder.", "summaryKo": "기축 일주 + 신월 정재격(고정 자산·꾸준한 매출)은 38+년 PE carry라는 안정 누적 모델과 호응합니다. 기토 일간 + 축토 일지의 강한 토 기운이 다세대 PE 회사 가부장의 안정을, 신금 월지의 금 기운이 결단의 정밀함을 가리킵니다." }
+}

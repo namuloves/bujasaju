@@ -1,0 +1,39 @@
+{
+  "id": "1339", "name": "Barry Sternlicht", "nameKo": "배리 스튜어트 스턴리히트",
+  "netWorth": 3.1, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "New York, USA", "birthPlaceKo": "미국 뉴욕",
+    "familyBackground": "Born to American Jewish family; father was Holocaust survivor.", "familyBackgroundKo": "미국 유대인 가정에서 출생; 아버지는 홀로코스트 생존자.",
+    "education": "Brown University; Harvard Business School MBA.", "educationKo": "브라운 대학교; 하버드 비즈니스 스쿨 MBA.",
+    "earlyLife": "Worked at JMB Realty; founded Starwood Capital Group in 1991; created Starwood Hotels and W Hotel brand; founded Starwood Property Trust 2009.",
+    "earlyLifeKo": "JMB Realty 근무; 1991 Starwood Capital Group 창립; Starwood Hotels와 W 호텔 브랜드 창출; 2009 Starwood Property Trust 창립.",
+    "source": "https://en.wikipedia.org/wiki/Barry_Sternlicht"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Starwood Capital 창립자 지분 + 수수료." },
+  "careerTimeline": [
+    { "year": 1986, "age": 25, "event": "Joined JMB Realty in real-estate investment.", "eventKo": "JMB Realty 부동산 투자에 합류.", "whyItMatteredKo": "부동산 출발선." },
+    { "year": 1991, "age": 30, "event": "Founded Starwood Capital Group; raised first fund.", "eventKo": "Starwood Capital Group 창립; 첫 펀드 조달.", "whyItMatteredKo": "Starwood 출발선." },
+    { "year": 1998, "age": 37, "event": "Created Starwood Hotels & Resorts and launched W Hotels.", "eventKo": "Starwood Hotels & Resorts 창출 W 호텔 출시.", "whyItMatteredKo": "호텔 브랜드 단계." },
+    { "year": 2009, "age": 48, "event": "Founded Starwood Property Trust during financial crisis.", "eventKo": "금융 위기 동안 Starwood Property Trust 창립.", "whyItMatteredKo": "REIT 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $3.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 31억 달러.", "whyItMatteredKo": "Starwood Capital 정점." }
+  ],
+  "turningPoints": [{ "year": 1991, "age": 30, "decisionKo": "1991 Starwood Capital 창립", "alternativeKo": "기존 부동산 회사 잔류", "outcomeKo": "34년 후 31억 달러 부동산 투자 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Starwood Capital 창립자 지분 + Starwood Property Trust(STWD) + 수수료", "industryKo": "부동산 사모펀드·REIT", "businessModelKo": "글로벌 부동산 사모펀드 + REIT + 호텔 브랜드 창출", "moatKo": "1,150억+ AUM + W 호텔 브랜드 창출 노하우", "luckVsSkillKo": "운(35%): 부동산 사이클. 실력(65%): 34년 일관성 + 브랜드 창출." },
+  "personalTraits": {
+    "knownFor": "Founder of Starwood Capital; creator of W Hotels and Starwood Hotels brand; outspoken real-estate investor.",
+    "knownForKo": "Starwood Capital 창립자; W 호텔·Starwood Hotels 브랜드 창출자; 노골적 부동산 투자자.",
+    "philanthropy": "Sternlicht Family Foundation supports Brown University and Jewish causes.", "philanthropyKo": "스턴리히트 가족 재단이 브라운 대학교·유대인 자선 지원.",
+    "controversies": "Outspoken criticism of Fed monetary policy; 2024-25 commercial-real-estate distress comments stirred markets.",
+    "controversiesKo": "연준 통화 정책 노골적 비판; 2024-25 상업 부동산 부실 언급이 시장 동요."
+  },
+  "characterKo": { "summaryKo": "Starwood Capital + W 호텔 + Starwood Property Trust 부동산 거물.", "tagsKo": ["Starwood Capital", "W Hotels", "Property Trust"] },
+  "failures": [
+    { "year": 2008, "description": "Starwood Hotels stock collapsed in 2008 financial crisis; commercial real-estate valuations crashed.", "descriptionKo": "2008 금융 위기로 Starwood Hotels 주식 붕괴; 상업 부동산 밸류에이션 폭락.", "lesson": "Hotels and CRE face sharp recession exposure.", "lessonKo": "호텔·상업 부동산은 급격한 침체 노출." },
+    { "year": 2023, "description": "Starwood Real Estate Income Trust gated redemptions amid CRE distress; investor confidence shaken.", "descriptionKo": "상업 부동산 부실 가운데 Starwood Real Estate Income Trust 환매 제한; 투자자 신뢰 흔들림.", "lesson": "Non-listed REITs face liquidity-cycle mismatch.", "lessonKo": "비상장 REIT는 유동성 사이클 불일치 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.9 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Brand is what's left after the building is gone.", "textKo": "브랜드는 건물이 사라진 후 남는 것이다.", "context": "On hotel brand creation", "contextKo": "호텔 브랜드 창출에 대해", "source": "https://www.starwoodcapital.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Mi day pillar in Hae month — 'pyeonin-gyeok', non-traditional intellectual capital, fitting brand-creating real-estate investor.", "summaryKo": "기미 일주 + 해월 편인격(비전통적 학문·문서 권위)은 W 호텔이라는 비전통적 라이프스타일 브랜드를 부동산 사모펀드에서 창출한 그의 비전형 경로와 호응합니다. 기토 일간의 평야·수용 기질이 다종 부동산 자본을 흡수하고, 미토 일지의 토 기운이 자본 안정을, 해수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

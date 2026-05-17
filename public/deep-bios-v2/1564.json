@@ -1,0 +1,33 @@
+{
+  "id": "1564", "name": "Alex Beard", "nameKo": "알렉산더 프랭크 비어드",
+  "netWorth": 2.6, "nationality": "GB", "industry": "Metals & Mining",
+  "childhood": { "birthPlace": "United Kingdom", "birthPlaceKo": "영국",
+    "familyBackground": "Born to British family.", "familyBackgroundKo": "영국 가정에서 출생.",
+    "education": "Cambridge University.", "educationKo": "케임브리지 대학교.",
+    "earlyLife": "Joined Glencore in 1995; rose to head of oil trading; co-founded Adani-Glencore JV; partner-trader for decades.",
+    "earlyLifeKo": "1995 Glencore 합류; 석유 거래 수장 부상; Adani-Glencore JV 공동 창립; 수십 년 파트너 거래자.",
+    "source": "https://en.wikipedia.org/wiki/Glencore" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Glencore 파트너 30년 자수성가." },
+  "careerTimeline": [
+    { "year": 1990, "age": 23, "event": "Began commodity trading after Cambridge.", "eventKo": "케임브리지 후 원자재 거래 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1995, "age": 28, "event": "Joined Glencore.", "eventKo": "Glencore 합류.", "whyItMatteredKo": "Glencore 단계." },
+    { "year": 2011, "age": 44, "event": "Glencore IPO; Beard's partner stake materialized.", "eventKo": "Glencore IPO; Beard 파트너 지분 실현.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2019, "age": 52, "event": "Continued as Glencore oil-trading head.", "eventKo": "Glencore 석유 거래 수장 계속.", "whyItMatteredKo": "거래 정점." },
+    { "year": 2025, "age": 58, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "Glencore 자본 정점." }],
+  "turningPoints": [{ "year": 1995, "age": 28, "decisionKo": "Glencore 합류", "alternativeKo": "다른 거래사", "outcomeKo": "30년 후 Glencore 파트너 거래자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Glencore plc 파트너 지분", "industryKo": "원자재 거래", "businessModelKo": "석유 거래 + Glencore 글로벌 원자재", "moatKo": "30년 Glencore 거래 인맥", "luckVsSkillKo": "운(35%): 원자재 슈퍼사이클. 실력(65%): 30년 거래 일관성." },
+  "personalTraits": { "knownFor": "Glencore oil-trading head; major partner-trader.",
+    "knownForKo": "Glencore 석유 거래 수장; 주요 파트너 거래자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Glencore DOJ corruption settlement 2022 ($1.5B+); industry-wide scrutiny.",
+    "controversiesKo": "Glencore DOJ 부패 합의 2022(15억 달러+); 산업 전반 감시." },
+  "characterKo": { "summaryKo": "Glencore 30년 석유 거래 파트너.", "tagsKo": ["Glencore", "석유 거래"] },
+  "failures": [
+    { "year": 2015, "description": "Commodity-price crash compressed Glencore stock 70%+.", "descriptionKo": "원자재 가격 폭락이 Glencore 주가 70%+ 압축.", "lesson": "Commodity trader cyclical.", "lessonKo": "원자재 거래자 주기적." },
+    { "year": 2022, "description": "Glencore $1.5B DOJ corruption settlement.", "descriptionKo": "Glencore 15억 달러 DOJ 부패 합의.", "lesson": "Aggressive trading regulatory tail risk.", "lessonKo": "공격적 거래 규제 잔여 리스크." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Oil trading is patience between phone calls.", "textKo": "석유 거래는 전화 사이의 인내다.", "context": "On commodity trading", "contextKo": "원자재 거래에 대해", "source": "https://www.glencore.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Hae day pillar in Mi month — 'pyeon-in-gyeok', creative intuition, fitting commodity-trader partner.", "summaryKo": "기해 일주 + 미월 편인격(독학·창의적 직관)은 30년 원자재 거래라는 직관적 매크로 베팅 환경과 호응합니다. 기토 일간의 농경 기질 + 해수 일지의 강한 수 기운이 자본의 거대 유동성과 통하고, 미토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

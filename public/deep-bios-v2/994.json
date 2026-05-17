@@ -1,0 +1,40 @@
+{
+  "id": "994", "name": "Hubert Burda", "nameKo": "후베르트 부르다",
+  "netWorth": 4.1, "nationality": "DE", "industry": "Media & Entertainment",
+  "childhood": {
+    "birthPlace": "Heidelberg, Germany", "birthPlaceKo": "독일 하이델베르크",
+    "familyBackground": "Born to Senator Franz Burda — founder of Burda Publishing House.", "familyBackgroundKo": "Burda 출판사 창립자 상원의원 프란츠 부르다의 아들.",
+    "education": "University of Munich (art history PhD).", "educationKo": "뮌헨 대학교(미술사 박사).",
+    "earlyLife": "Joined family Burda Holding; took over after father's 1986 death; transformed Burda into multi-media European conglomerate.",
+    "earlyLifeKo": "가족 Burda Holding 합류; 1986년 아버지 사망 후 인수; Burda를 멀티미디어 유럽 대기업으로 변환.",
+    "source": "https://en.wikipedia.org/wiki/Hubert_Burda"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Burda 출판 가족 자본." },
+  "careerTimeline": [
+    { "year": 1965, "age": 25, "event": "Joined family Burda Publishing after PhD.", "eventKo": "박사 학위 후 가족 Burda 출판 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1986, "age": 46, "event": "Father Franz Burda died; Hubert took over Burda Holding.", "eventKo": "아버지 프란츠 부르다 사망; 후베르트가 Burda Holding 인수.", "whyItMatteredKo": "가부장 단계." },
+    { "year": 1998, "age": 58, "event": "Burda invested in early internet ventures including Cyberport, Burda Digital Ventures.", "eventKo": "Cyberport·Burda Digital Ventures 포함 초기 인터넷 벤처 투자.", "whyItMatteredKo": "디지털 단계." },
+    { "year": 2014, "age": 74, "event": "Burda acquired Xing professional-networking; expanded HolidayCheck.", "eventKo": "Xing 전문 네트워킹 인수; HolidayCheck 확장.", "whyItMatteredKo": "디지털 메이저 단계." },
+    { "year": 2025, "age": 85, "event": "Personal net worth at $4.1B per Forbes Real-Time. Continues as Burda Holding chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 41억 달러. Burda Holding 의장 계속.", "whyItMatteredKo": "Burda 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1998, "age": 58, "decisionKo": "전통 출판에서 디지털 인터넷 투자 확장", "alternativeKo": "출판 잔류", "outcomeKo": "27년 후 멀티미디어 디지털 메이저 가족 자본" }],
+  "moneyMechanics": { "primaryRevenueKo": "Burda Holding(100% 가족 소유) — 잡지·디지털·이벤트", "industryKo": "미디어·출판·디지털", "businessModelKo": "Bunte·Focus 잡지 + Cyberport + Xing + HolidayCheck", "moatKo": "다세대 Burda 가족 자본 + 디지털 다각화", "luckVsSkillKo": "운(65%): 가족 자본. 실력(35%): 1998 디지털 피벗 결단." },
+  "personalTraits": {
+    "knownFor": "Chairman of Burda Holding; German media patriarch; major arts patron.",
+    "knownForKo": "Burda Holding 의장; 독일 미디어 가부장; 주요 예술 후원자.",
+    "philanthropy": "Hubert Burda Stiftung supports German arts, journalism, digital media.",
+    "philanthropyKo": "Hubert Burda Stiftung이 독일 예술·저널리즘·디지털 미디어 지원.",
+    "controversies": "Burda magazines drew sustained tabloid-content criticism; Bunte celebrity-coverage debates.",
+    "controversiesKo": "Burda 잡지가 지속적 타블로이드 콘텐츠 비판 야기; Bunte 셀러브리티 보도 논쟁."
+  },
+  "characterKo": { "summaryKo": "Burda 출판 가족 가부장 + 디지털 미디어 다각화.", "tagsKo": ["Burda Holding", "Focus", "Xing", "독일 미디어"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed advertising revenue across Burda print titles.", "descriptionKo": "글로벌 금융위기로 Burda 인쇄 매체 광고 매출 압축.", "lesson": "Print media advertising pro-cyclical.", "lessonKo": "인쇄 미디어 광고 순응 사이클." },
+    { "year": 2020, "description": "COVID-19 disrupted Burda HolidayCheck travel-booking and event operations.", "descriptionKo": "COVID-19이 Burda HolidayCheck 여행 예약·이벤트 운영 혼란.", "lesson": "Travel-media pandemic-exposed.", "lessonKo": "여행 미디어 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.1 }, { "year": 2020, "netWorth": 3.4 }, { "year": 2024, "netWorth": 3.9 }, { "year": 2025, "netWorth": 4.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Magazines tell stories. Digital tells everyone at once.", "textKo": "잡지는 이야기를 전한다. 디지털은 모두에게 한번에 전한다.", "context": "On Burda digital pivot", "contextKo": "Burda 디지털 피벗에 대해", "source": "https://www.hubert-burda-media.de" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-O day pillar in In month — 'pyeon-gwan-gyeok', strong external authority, fitting media-empire patriarch.", "summaryKo": "임오 일주 + 인월 편관격(강한 외부 압박·권력 충돌)은 60년 미디어 산업의 정치·문화·디지털 전환 격렬한 권력 환경과 호응합니다. 임수 일간의 큰 물·유연성이 미디어 자본의 유동성과 통하고, 오화 일지의 화 기운이 미디어·표현 결단을, 인목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

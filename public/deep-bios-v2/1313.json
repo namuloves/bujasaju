@@ -1,0 +1,31 @@
+{
+  "id": "1313", "name": "Todd Wanek", "nameKo": "토드 와넥",
+  "netWorth": 3.1, "nationality": "US", "industry": "Manufacturing",
+  "childhood": { "birthPlace": "Wisconsin, USA", "birthPlaceKo": "미국 위스콘신",
+    "familyBackground": "Born to Ronald Wanek — founder of Ashley Furniture (America's largest furniture manufacturer).", "familyBackgroundKo": "Ashley Furniture(미국 최대 가구 제조사) 창립자 로널드 와넥의 아들.",
+    "education": "Wisconsin higher education.", "educationKo": "위스콘신 고등교육.",
+    "earlyLife": "Joined family Ashley Furniture; became president; led global expansion.",
+    "earlyLifeKo": "가족 Ashley Furniture 합류; 사장이 됨; 글로벌 확장 주도.",
+    "source": "https://en.wikipedia.org/wiki/Ashley_Furniture_Industries" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Ashley Furniture 가족 자본." },
+  "careerTimeline": [
+    { "year": 1985, "age": 21, "event": "Joined family Ashley Furniture.", "eventKo": "가족 Ashley Furniture 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2002, "age": 38, "event": "Became Ashley Furniture president.", "eventKo": "Ashley Furniture 사장 취임.", "whyItMatteredKo": "사장 단계." },
+    { "year": 2015, "age": 51, "event": "Ashley became America's largest furniture manufacturer under his leadership.", "eventKo": "그의 리더십 하에 Ashley가 미국 최대 가구 제조사가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $3.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 31억 달러.", "whyItMatteredKo": "Ashley 자본 정점." }],
+  "turningPoints": [{ "year": 2002, "age": 38, "decisionKo": "Ashley Furniture 사장 인수", "alternativeKo": "독립 경로", "outcomeKo": "23년 후 미국 최대 가구 제조사 사장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Ashley Furniture Industries(100% 가족 소유) 가족 지분", "industryKo": "가구 제조·소매", "businessModelKo": "Ashley HomeStore 수직 통합 가구 제조·소매", "moatKo": "Ashley 가족 통제 + 미국 최대 가구 제조 인프라", "luckVsSkillKo": "운(60%): 가족 자본. 실력(40%): 23년 사장 운영." },
+  "personalTraits": { "knownFor": "CEO of Ashley Furniture; son of Ronald Wanek; America's largest furniture manufacturer leader.",
+    "knownForKo": "Ashley Furniture CEO; 로널드 와넥의 아들; 미국 최대 가구 제조사 리더.",
+    "philanthropy": "Wanek family supports Wisconsin community.", "philanthropyKo": "Wanek 가족이 위스콘신 지역 사회 지원.",
+    "controversies": "Standard furniture industry tariff and labor scrutiny.", "controversiesKo": "표준 가구 산업 관세·노동 감시." },
+  "characterKo": { "summaryKo": "Ashley Furniture 가족 자본 + 23년 사장.", "tagsKo": ["Ashley Furniture", "Wanek 가족"] },
+  "failures": [
+    { "year": 2008, "description": "Housing crash crushed US furniture demand; Ashley absorbed cyclical pressure.", "descriptionKo": "주택 시장 붕괴로 미국 가구 수요 압축; Ashley가 사이클 압박 흡수.", "lesson": "Furniture cyclical with housing.", "lessonKo": "가구는 주택 사이클." },
+    { "year": 2018, "description": "Trump-era China tariffs compressed Ashley supply chain.", "descriptionKo": "트럼프 시대 중국 관세가 Ashley 공급망 압축.", "lesson": "Single-country supply chain creates trade exposure.", "lessonKo": "단일 국가 공급망 무역 노출 야기." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.2 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Furniture made well lasts a generation.", "textKo": "잘 만든 가구는 한 세대를 간다.", "context": "On Ashley", "contextKo": "Ashley에 대해", "source": "https://www.ashleyfurniture.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Ja day pillar in Myo month — 'sanggwan-gyeok', creative output, fitting furniture-manufacturing heir.", "summaryKo": "갑자 일주 + 묘월 상관격(창의적 결과물·표현)은 가족 가구 회사의 글로벌 확장 결과물과 호응합니다. 갑목 일간 + 묘목 월지의 강한 목 기운이 가구(목재) 산업과 직접 이중 통하고, 자수 일지의 수 기운이 자본의 유동성을 가리킵니다." }
+}

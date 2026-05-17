@@ -1,0 +1,31 @@
+{
+  "id": "1029", "name": "Ivar Tollefsen", "nameKo": "이바르 톨레프센",
+  "netWorth": 4.0, "nationality": "NO", "industry": "Real Estate",
+  "childhood": { "birthPlace": "Norway", "birthPlaceKo": "노르웨이",
+    "familyBackground": "Born to Norwegian family.", "familyBackgroundKo": "노르웨이 가정에서 출생.",
+    "education": "Norwegian higher education.", "educationKo": "노르웨이 고등교육.",
+    "earlyLife": "Founded Heimstaden in 1998 — Nordic residential real-estate developer; built largest private residential landlord in Nordics.",
+    "earlyLifeKo": "1998 Heimstaden 창립 — 북유럽 주거 부동산 개발사; 북유럽 최대 사적 주거 지주 구축.",
+    "source": "https://en.wikipedia.org/wiki/Heimstaden_Bostad" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Heimstaden 27년 자수성가." },
+  "careerTimeline": [
+    { "year": 1998, "age": 37, "event": "Founded Heimstaden in Norway.", "eventKo": "노르웨이에서 Heimstaden 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 2010, "age": 49, "event": "Heimstaden expanded across Nordics.", "eventKo": "Heimstaden이 북유럽 전역 확장.", "whyItMatteredKo": "지역 확장 단계." },
+    { "year": 2020, "age": 59, "event": "Acquired Akelius residential portfolio for €9.1B — major Nordic deal.", "eventKo": "Akelius 주거 포트폴리오를 91억 유로 인수 — 주요 북유럽 거래.", "whyItMatteredKo": "메가 인수 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $4.0B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 40억 달러.", "whyItMatteredKo": "Heimstaden 자본 정점." }],
+  "turningPoints": [{ "year": 2020, "age": 59, "decisionKo": "Akelius 91억 유로 인수", "alternativeKo": "단계적 인수", "outcomeKo": "5년 후 북유럽 최대 사적 주거 지주" }],
+  "moneyMechanics": { "primaryRevenueKo": "Heimstaden Bostad(스웨덴 증시) 창립자 지분", "industryKo": "주거 부동산", "businessModelKo": "북유럽 다세대 주거 임대 + 부동산 개발", "moatKo": "27년 북유럽 부동산 1위", "luckVsSkillKo": "운(40%): 북유럽 부동산 부상. 실력(60%): 27년 단일 카테고리." },
+  "personalTraits": { "knownFor": "Founder of Heimstaden Bostad; largest private residential landlord in Nordics.",
+    "knownForKo": "Heimstaden Bostad 창립자; 북유럽 최대 사적 주거 지주.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Akelius deal valued aggressively at peak; subsequent debt-restructuring pressure.", "controversiesKo": "Akelius 거래가 정점에서 공격적 가치 평가; 이후 부채 재구조화 압박." },
+  "characterKo": { "summaryKo": "Heimstaden 북유럽 주거 부동산 27년 자수성가.", "tagsKo": ["Heimstaden", "북유럽 부동산"] },
+  "failures": [
+    { "year": 2022, "description": "Rising European rates compressed residential REIT valuations; Heimstaden debt-restructuring required.", "descriptionKo": "유럽 금리 상승이 주거 REIT 밸류에이션 압축; Heimstaden 부채 재구조화 필요.", "lesson": "Leveraged REITs rate-sensitive.", "lessonKo": "레버리지 REIT 금리 민감." },
+    { "year": 2020, "description": "COVID-19 disrupted Nordic real-estate temporarily.", "descriptionKo": "COVID-19이 북유럽 부동산 일시 혼란.", "lesson": "Real-estate pandemic-exposed.", "lessonKo": "부동산 팬데믹 노출." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.8 }, { "year": 2025, "netWorth": 4.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Nordic apartments are quietest real estate.", "textKo": "북유럽 아파트는 가장 조용한 부동산이다.", "context": "On Heimstaden", "contextKo": "Heimstaden에 대해", "source": "https://www.heimstaden.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Hae day pillar in O month — 'jeongin-gyeok', formal-academic foundation, fitting residential-REIT founder.", "summaryKo": "정해 일주 + 오월 정인격(공식 자격·학문·문서 권위)은 부동산 산업의 인증·금융 기반과 호응합니다. 정화 일간 + 오화 월지의 강한 화 기운이 결단의 표현 에너지를, 해수 일지의 수 기운이 부동산 자본의 유동성을 가리킵니다." }
+}

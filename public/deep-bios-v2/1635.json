@@ -1,0 +1,40 @@
+{
+  "id": "1635", "name": "Charles Bronfman", "nameKo": "찰스 브론프먼",
+  "netWorth": 2.5, "nationality": "CA", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Montreal, Canada", "birthPlaceKo": "캐나다 몬트리올",
+    "familyBackground": "Born to Samuel Bronfman — founder of Seagram distillery empire. Brother of Edgar Bronfman Sr.", "familyBackgroundKo": "Seagram 양조 제국 창립자 새뮤얼 브론프먼의 아들. 에드거 브론프먼 시니어의 형제.",
+    "education": "McGill University.", "educationKo": "맥길 대학교.",
+    "earlyLife": "Joined family Seagram; co-led with brother Edgar; family sold Seagram to Vivendi in 2000 (later disaster).",
+    "earlyLifeKo": "가족 Seagram 합류; 형 에드거와 공동 주도; 가족이 2000년 Seagram을 Vivendi에 매각(이후 재앙).",
+    "source": "https://en.wikipedia.org/wiki/Charles_Bronfman"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Bronfman 가족 자본 + Seagram 매각 잔여." },
+  "careerTimeline": [
+    { "year": 1953, "age": 22, "event": "Joined family Seagram after McGill.", "eventKo": "맥길 후 가족 Seagram 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1968, "age": 37, "event": "Founded Montreal Expos MLB team; first MLB team in Canada.", "eventKo": "몬트리올 엑스포스 MLB 팀 창립; 캐나다 첫 MLB 팀.", "whyItMatteredKo": "스포츠 단계." },
+    { "year": 1991, "age": 60, "event": "Co-founded Birthright Israel program — funded Jewish youth visits to Israel.", "eventKo": "Birthright Israel 프로그램 공동 창립 — 유대인 청소년 이스라엘 방문 자금.", "whyItMatteredKo": "자선 단계." },
+    { "year": 2000, "age": 69, "event": "Seagram sold to Vivendi; later disaster wiped out major Bronfman family wealth.", "eventKo": "Seagram이 Vivendi에 매각; 이후 재앙이 주요 Bronfman 가족 부 박탈.", "whyItMatteredKo": "매각·재앙 단계." },
+    { "year": 2025, "age": 94, "event": "Personal net worth at $2.5B per Forbes Real-Time. Major Birthright Israel and Jewish philanthropy.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러. 주요 Birthright Israel·유대인 자선.", "whyItMatteredKo": "Seagram 잔여 + 자선가 정점." }
+  ],
+  "turningPoints": [{ "year": 1991, "age": 60, "decisionKo": "Birthright Israel 자선 프로그램 공동 창립", "alternativeKo": "수동 상속자", "outcomeKo": "34년 후 유대인 자선 운동의 핵심 후원자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Seagram 매각 잔여 + Andrews/Bronfman 가족 사무실 + Birthright 자선", "industryKo": "주류 매각 후 자선·자산운용", "businessModelKo": "Seagram 매각 대금 + 가족 사무실 + 자선", "moatKo": "Bronfman 가족 자본 + 자선 명성", "luckVsSkillKo": "운(70%): 가족 자본. 실력(30%): 자선 인프라 구축." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Birthright Israel; former Seagram executive; founder of Montreal Expos.",
+    "knownForKo": "Birthright Israel 공동 창립자; 전 Seagram 임원; 몬트리올 엑스포스 창립자.",
+    "philanthropy": "Andrea and Charles Bronfman Philanthropies funded $400M+ to Jewish causes, Birthright Israel.",
+    "philanthropyKo": "Andrea and Charles Bronfman Philanthropies가 유대인 사업·Birthright Israel에 4억 달러+ 자금.",
+    "controversies": "2000 Seagram-Vivendi merger destroyed billions of family wealth; brother Edgar Jr. blamed.",
+    "controversiesKo": "2000 Seagram-Vivendi 합병이 수십억 가족 부 파괴; 동생 에드거 주니어 비난."
+  },
+  "characterKo": { "summaryKo": "Seagram 가족 + Birthright Israel 창립자.", "tagsKo": ["Seagram", "Birthright Israel", "Bronfman 가족"] },
+  "failures": [
+    { "year": 2000, "description": "Seagram-Vivendi merger destroyed approximately $3-5B of Bronfman family wealth.", "descriptionKo": "Seagram-Vivendi 합병이 약 30-50억 달러 Bronfman 가족 부 파괴.", "lesson": "Stock-based mergers can erase generational wealth.", "lessonKo": "주식 기반 합병이 세대 부를 지울 수 있다." },
+    { "year": 2004, "description": "Sold Montreal Expos; team relocated to Washington DC; Canadian baseball ended.", "descriptionKo": "몬트리올 엑스포스 매각; 팀이 워싱턴 DC 이전; 캐나다 야구 종료.", "lesson": "Sports franchises face market-economic risk.", "lessonKo": "스포츠 프랜차이즈는 시장 경제 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.3 }, { "year": 2020, "netWorth": 2.4 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I have lived to see Israel. That is the gift.", "textKo": "나는 이스라엘을 보기 위해 살았다. 그것이 선물이다.", "context": "On Birthright Israel", "contextKo": "Birthright Israel에 대해", "source": "https://www.birthrightisrael.com" }],
+  "books": { "authored": [{ "title": "Distilled: A Memoir of Family, Seagram, Baseball, and Philanthropy", "year": 2016, "noteKo": "회고록." }], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Chuk day pillar in O month — 'sanggwan-gyeok', creative output, fitting family-heir-turned-philanthropist.", "summaryKo": "계축 일주 + 오월 상관격(창의적 결과물·표현)은 가족 자본을 그대로 잇기보다 Birthright Israel 같은 거대 자선으로 표현해온 그의 경로와 호응합니다. 계수 일간 + 축토 일지의 토 기운이 가족 자본의 안정 기반을 가리키고, 오화 월지의 화 기운이 자선·문화의 표현 에너지를 가리킵니다." }
+}

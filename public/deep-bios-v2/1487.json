@@ -1,0 +1,31 @@
+{
+  "id": "1487", "name": "Lina Tombolato", "nameKo": "리나 톰볼라토",
+  "netWorth": 2.7, "nationality": "IT", "industry": "Finance & Investments",
+  "childhood": { "birthPlace": "Italy", "birthPlaceKo": "이탈리아",
+    "familyBackground": "Born to Stevanato family; widow of Sergio Stevanato (Stevanato Group founder).", "familyBackgroundKo": "Stevanato 가족 출생; 세르조 스테바나토(Stevanato Group 창립자)의 미망인.",
+    "education": "Italian higher education.", "educationKo": "이탈리아 고등교육.",
+    "earlyLife": "Inherited Stevanato Group family stake; major Italian pharmaceutical-glass packaging family.",
+    "earlyLifeKo": "Stevanato Group 가족 지분 상속; 주요 이탈리아 제약 유리 포장 가족.",
+    "source": "https://en.wikipedia.org/wiki/Stevanato_Group" },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Stevanato Group 76+년 가족 자본." },
+  "careerTimeline": [
+    { "year": 1975, "age": 28, "event": "Began Stevanato family operations.", "eventKo": "Stevanato 가족 운영 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2000, "age": 53, "event": "Stevanato Group expanded into pharma glass globally.", "eventKo": "Stevanato Group이 글로벌 제약 유리 확장.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2021, "age": 74, "event": "Stevanato Group IPO on NYSE; family stake crystallized.", "eventKo": "Stevanato Group NYSE IPO; 가족 지분 결정화.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "Stevanato 자본 정점." }],
+  "turningPoints": [{ "year": 1975, "age": 28, "decisionKo": "Stevanato 가족 사업 참여", "alternativeKo": "독립 경로", "outcomeKo": "다세대 가족 자본의 핵심 주주" }],
+  "moneyMechanics": { "primaryRevenueKo": "Stevanato Group(NYSE 상장) 가족 지분", "industryKo": "제약 유리 포장", "businessModelKo": "백신·바이오 의약품 유리 + 글로벌 제약사 공급", "moatKo": "76+년 유리 제조 + 글로벌 인증", "luckVsSkillKo": "운(85%): 가족 자본. 실력(15%): 거버넌스." },
+  "personalTraits": { "knownFor": "Member of Stevanato family; major Italian pharma-glass family.",
+    "knownForKo": "Stevanato 가족 구성원; 주요 이탈리아 제약 유리 가족.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard pharmaceutical-supplier scrutiny.", "controversiesKo": "제한적; 표준 제약 공급사 감시." },
+  "characterKo": { "summaryKo": "Stevanato Group 76+년 가족 자본 상속자.", "tagsKo": ["Stevanato Group", "제약 유리"] },
+  "failures": [
+    { "year": 2022, "description": "Post-COVID vaccine demand normalization compressed Stevanato growth.", "descriptionKo": "팬데믹 후 백신 수요 정상화로 Stevanato 성장 압축.", "lesson": "Pandemic demand-pull post-cycle.", "lessonKo": "팬데믹 수요 당김 사이클 후 압축." },
+    { "year": 2020, "description": "Italian COVID-19 lockdown disrupted operations.", "descriptionKo": "이탈리아 COVID-19 봉쇄가 운영 혼란.", "lesson": "Italian manufacturing early-pandemic exposed.", "lessonKo": "이탈리아 제조 초기 팬데믹 노출." }],
+  "wealthHistory": [{ "year": 2021, "netWorth": 3.5 }, { "year": 2022, "netWorth": 2.1 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Glass keeps medicine pure.", "textKo": "유리는 약을 순수하게 유지한다.", "context": "On Stevanato", "contextKo": "Stevanato에 대해", "source": "https://www.stevanatogroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Shin day pillar in Mi month — 'jeongin-gyeok', formal-academic foundation, fitting precision-manufacturing heir.", "summaryKo": "무신 일주 + 미월 정인격(공식 자격·학문·문서 권위)은 76+년 제약 유리 제조의 인증·학문 기반 산업과 호응합니다. 무토 일간 + 미토 월지의 강한 토 기운이 가족 자본의 안정 기반을 이중으로 강조하고, 신금 일지의 금 기운이 정밀 제조와 통합니다." }
+}

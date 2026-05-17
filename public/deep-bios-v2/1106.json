@@ -1,0 +1,33 @@
+{
+  "id": "1106", "name": "Arkady Volozh", "nameKo": "아르카디 볼로시",
+  "netWorth": 3.8, "nationality": "IL", "industry": "Technology",
+  "childhood": { "birthPlace": "Atyrau, Kazakhstan", "birthPlaceKo": "카자흐스탄 아티라우",
+    "familyBackground": "Born to Soviet Russian Jewish family.", "familyBackgroundKo": "소련 러시아 유대인 가정에서 출생.",
+    "education": "Gubkin Russian State University of Oil and Gas.", "educationKo": "구브킨 러시아 국립 석유·가스 대학교.",
+    "earlyLife": "Co-founded Yandex in 1997 with Ilya Segalovich — Russia's largest search engine; left Russia after 2022 invasion of Ukraine.",
+    "earlyLifeKo": "1997 일리야 세갈로비치와 Yandex 공동 창립 — 러시아 최대 검색 엔진; 2022 우크라이나 침공 후 러시아 떠남.",
+    "source": "https://en.wikipedia.org/wiki/Arkady_Volozh" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Yandex 28년 자수성가." },
+  "careerTimeline": [
+    { "year": 1989, "age": 25, "event": "Began Soviet-era tech career.", "eventKo": "소련 시대 기술 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1997, "age": 33, "event": "Co-founded Yandex search engine in Moscow.", "eventKo": "모스크바에서 Yandex 검색 엔진 공동 창립.", "whyItMatteredKo": "Yandex 출발선." },
+    { "year": 2011, "age": 47, "event": "Yandex IPO on NASDAQ; valuation crossed $8B+.", "eventKo": "Yandex 나스닥 IPO; 밸류에이션 80억 달러+ 돌파.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2022, "age": 58, "event": "Left Russia after Ukraine invasion; condemned war; moved to Israel.", "eventKo": "우크라이나 침공 후 러시아 떠남; 전쟁 비난; 이스라엘 이주.", "whyItMatteredKo": "지정학 단계." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $3.8B per Forbes Real-Time. Yandex Russian business spun off.", "eventKo": "포브스 실시간 기준 개인 순자산 38억 달러. Yandex 러시아 사업 분사.", "whyItMatteredKo": "Yandex 자본 정점." }],
+  "turningPoints": [{ "year": 2022, "age": 58, "decisionKo": "러시아 떠남 + 우크라이나 전쟁 비난", "alternativeKo": "러시아 잔류", "outcomeKo": "지정학적 분사 + 이스라엘 거주" }],
+  "moneyMechanics": { "primaryRevenueKo": "Yandex 글로벌(러시아 사업 분사 후) + Nebius (AI 인프라)", "industryKo": "기술 (검색·AI·클라우드)", "businessModelKo": "Yandex 글로벌 비러시아 사업 + AI 클라우드 (Nebius)", "moatKo": "28년 검색 엔진 노하우 + AI 데이터센터", "luckVsSkillKo": "운(40%): 1997 러시아 인터넷 시기. 실력(60%): 28년 단일 회사." },
+  "personalTraits": { "knownFor": "Co-founder of Yandex; one of few Russian tech founders to leave during Ukraine war; founder of Nebius AI.",
+    "knownForKo": "Yandex 공동 창립자; 우크라이나 전쟁 동안 떠난 소수 러시아 기술 창립자; Nebius AI 창립자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Yandex 2022 Russian government cooperation drew Western scrutiny; 2022 voluntary departure restored reputation but lost Russian business.",
+    "controversiesKo": "Yandex 2022 러시아 정부 협력이 서방 감시 야기; 2022 자발적 출국이 평판 회복했지만 러시아 사업 상실." },
+  "characterKo": { "summaryKo": "Yandex 28년 공동 창립 → 우크라이나 전쟁 후 러시아 떠남.", "tagsKo": ["Yandex", "Nebius AI", "러시아 떠남"] },
+  "failures": [
+    { "year": 2022, "description": "Yandex Russian business forcibly spun off; Volozh lost majority of equity in original company.", "descriptionKo": "Yandex 러시아 사업 강제 분사; Volozh가 원래 회사 지분 다수 상실.", "lesson": "Geopolitics destroys cross-border tech companies.", "lessonKo": "지정학이 국경 간 기술 회사를 파괴." },
+    { "year": 2022, "description": "EU sanctions briefly listed Volozh; later removed after public anti-war statements.", "descriptionKo": "EU 제재가 Volozh를 잠시 등재; 공개 반전 성명 후 제거.", "lesson": "Russian-origin tech faces personal sanctions exposure.", "lessonKo": "러시아 출신 기술이 개인 제재 노출 직면." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.3 }, { "year": 2020, "netWorth": 2.9 }, { "year": 2022, "netWorth": 1.7 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I chose tech over country.", "textKo": "나는 나라보다 기술을 선택했다.", "context": "On leaving Russia in 2022", "contextKo": "2022 러시아 떠남에 대해", "source": "https://en.wikipedia.org/wiki/Arkady_Volozh" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-In day pillar in In month — 'pyeon-gwan-gyeok' with strong wood, fitting tech-founder amid geopolitical conflict.", "summaryKo": "경인 일주 + 인월 편관격(강한 외부 압박·권력 충돌)은 러시아 정부·서방 제재·전쟁이라는 격렬한 권력 충돌 환경과 호응합니다. 경금 일간의 단단한 금속 + 일지·월지 모두 인목의 강한 목 기운이 회사·자본의 누적 성장 + 지정학 격변을 이중으로 강조합니다." }
+}

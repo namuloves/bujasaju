@@ -1,0 +1,33 @@
+{
+  "id": "444", "name": "Kelcy Warren", "nameKo": "켈시 리 워렌",
+  "netWorth": 7.9, "nationality": "US", "industry": "Energy",
+  "childhood": { "birthPlace": "Texas, USA", "birthPlaceKo": "미국 텍사스",
+    "familyBackground": "Born to working-class East Texas family; father an oilfield worker.", "familyBackgroundKo": "동부 텍사스 노동자 계급 가정에서 출생; 아버지가 유전 노동자.",
+    "education": "University of Texas at Arlington.", "educationKo": "텍사스 알링턴 대학교.",
+    "earlyLife": "Co-founded Energy Transfer Partners in 1996 — major US pipeline company; built Dakota Access Pipeline.",
+    "earlyLifeKo": "1996 Energy Transfer Partners 공동 창립 — 주요 미국 파이프라인 회사; Dakota Access Pipeline 구축.",
+    "source": "https://en.wikipedia.org/wiki/Kelcy_Warren" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Energy Transfer 29년 자수성가." },
+  "careerTimeline": [
+    { "year": 1979, "age": 24, "event": "Began Texas oil-and-gas pipeline career.", "eventKo": "텍사스 석유·가스 파이프라인 경력 시작.", "whyItMatteredKo": "파이프라인 출발선." },
+    { "year": 1996, "age": 41, "event": "Co-founded Energy Transfer Partners with Ray Davis.", "eventKo": "레이 데이비스와 Energy Transfer Partners 공동 창립.", "whyItMatteredKo": "ETP 출발선." },
+    { "year": 2014, "age": 59, "event": "Energy Transfer announced Dakota Access Pipeline project.", "eventKo": "Energy Transfer가 Dakota Access Pipeline 프로젝트 발표.", "whyItMatteredKo": "DAPL 단계." },
+    { "year": 2017, "age": 62, "event": "Dakota Access Pipeline completed despite Standing Rock protests; massive cash flow.", "eventKo": "Standing Rock 시위에도 불구하고 Dakota Access Pipeline 완공; 거대 현금 흐름.", "whyItMatteredKo": "정점 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $7.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 79억 달러.", "whyItMatteredKo": "Energy Transfer 자본 정점." }],
+  "turningPoints": [{ "year": 1996, "age": 41, "decisionKo": "Ray Davis와 Energy Transfer Partners 공동 창립", "alternativeKo": "직장 잔류", "outcomeKo": "29년 후 미국 메이저 파이프라인 회사 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Energy Transfer LP(NYSE 상장) 공동 창립자 지분", "industryKo": "에너지 인프라(파이프라인)", "businessModelKo": "원유·천연가스·NGL 파이프라인 + 미드스트림 인프라", "moatKo": "29년 미국 파이프라인 인프라 + Dakota Access", "luckVsSkillKo": "운(40%): 미국 셰일 슈퍼사이클. 실력(60%): 29년 일관성." },
+  "personalTraits": { "knownFor": "Co-founder of Energy Transfer Partners; built Dakota Access Pipeline; major Texas Republican donor.",
+    "knownForKo": "Energy Transfer Partners 공동 창립자; Dakota Access Pipeline 구축; 주요 텍사스 공화당 기부자.",
+    "philanthropy": "Supports University of Texas at Arlington and Texas conservation.", "philanthropyKo": "텍사스 알링턴 대학교·텍사스 보전 지원.",
+    "controversies": "Dakota Access Pipeline 2016-2017 Standing Rock protests; environmental criticism; political donor controversies.",
+    "controversiesKo": "Dakota Access Pipeline 2016-2017 Standing Rock 시위; 환경 비판; 정치 기부자 논란." },
+  "characterKo": { "summaryKo": "텍사스 유전공 출신 Energy Transfer 29년 자수성가.", "tagsKo": ["Energy Transfer", "Dakota Access Pipeline", "텍사스 파이프라인"] },
+  "failures": [
+    { "year": 2016, "description": "Standing Rock Sioux protests against Dakota Access Pipeline created massive negative publicity.", "descriptionKo": "Dakota Access Pipeline 반대 Standing Rock 수족 시위가 거대 부정 홍보 야기.", "lesson": "Energy infrastructure faces indigenous-rights backlash.", "lessonKo": "에너지 인프라는 토착민 권리 반발 직면." },
+    { "year": 2020, "description": "COVID-19 collapsed oil demand; Energy Transfer revenue compressed.", "descriptionKo": "COVID-19이 석유 수요 붕괴; Energy Transfer 매출 압축.", "lesson": "Pipeline cyclical with oil demand.", "lessonKo": "파이프라인 석유 수요 사이클." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 7.0 }, { "year": 2025, "netWorth": 7.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Pipelines move energy. We build pipelines.", "textKo": "파이프라인은 에너지를 움직인다. 우리는 파이프라인을 짓는다.", "context": "On Energy Transfer", "contextKo": "Energy Transfer에 대해", "source": "https://www.energytransfer.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Sul day pillar in Hae month — 'sanggwan-gyeok', creative output, fitting pipeline-empire founder.", "summaryKo": "갑술 일주 + 해월 상관격(창의적 결과물·표현·권위 충돌)은 29년에 걸쳐 끊임없이 새 파이프라인을 만든 창의적 자본 누적과 Standing Rock 같은 권력 충돌 경향과 호응합니다. 갑목 일간의 큰 나무 + 술토 일지의 토 기운이 거대 인프라 가부장과 통하고, 해수 월지의 강한 수 기운이 자본·에너지의 거대 유동성을 가리킵니다." }
+}

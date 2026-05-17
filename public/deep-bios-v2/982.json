@@ -1,0 +1,31 @@
+{
+  "id": "982", "name": "David MacNeil", "nameKo": "데이비드 맥닐",
+  "netWorth": 4.2, "nationality": "US", "industry": "Manufacturing",
+  "childhood": { "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Founded WeatherTech in 1989 — car-mat manufacturer; built into major US automotive-accessories brand.",
+    "earlyLifeKo": "1989 WeatherTech 창립 — 자동차 매트 제조사; 주요 미국 자동차 액세서리 브랜드로 구축.",
+    "source": "https://en.wikipedia.org/wiki/WeatherTech" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "WeatherTech 36년 자수성가." },
+  "careerTimeline": [
+    { "year": 1989, "age": 30, "event": "Founded WeatherTech in Illinois.", "eventKo": "일리노이에서 WeatherTech 창립.", "whyItMatteredKo": "36년 자수성가 출발선." },
+    { "year": 2000, "age": 41, "event": "Pioneered laser-measured floor liners; vertical manufacturing.", "eventKo": "레이저 측정 바닥 라이너 개척; 수직 제조.", "whyItMatteredKo": "혁신 단계." },
+    { "year": 2014, "age": 55, "event": "WeatherTech became major US Super Bowl advertiser; brand reach surged.", "eventKo": "WeatherTech가 주요 미국 슈퍼볼 광고주가 됨; 브랜드 도달 급증.", "whyItMatteredKo": "광고 단계." },
+    { "year": 2025, "age": 66, "event": "Personal net worth at $4.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 42억 달러.", "whyItMatteredKo": "WeatherTech 자본 정점." }],
+  "turningPoints": [{ "year": 1989, "age": 30, "decisionKo": "자동차 매트 회사 창립", "alternativeKo": "직장 잔류", "outcomeKo": "36년 후 100% 소유 자동차 액세서리 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "WeatherTech(100% 소유) — 자동차 매트·액세서리", "industryKo": "자동차 액세서리", "businessModelKo": "Made-in-USA 자동차 매트 + 시즌 광고", "moatKo": "36년 WeatherTech 브랜드 + 100% 소유 + 미국 제조", "luckVsSkillKo": "운(25%): 미국 자동차 액세서리 부상. 실력(75%): 36년 단일 카테고리." },
+  "personalTraits": { "knownFor": "Founder of WeatherTech; major US auto-accessories entrepreneur; Made-in-USA advocate.",
+    "knownForKo": "WeatherTech 창립자; 주요 미국 자동차 액세서리 기업가; Made-in-USA 옹호자.",
+    "philanthropy": "Supports US veterans and law enforcement.", "philanthropyKo": "미국 군 참전 용사·법 집행 지원.",
+    "controversies": "Outspoken Trump-era political views.", "controversiesKo": "트럼프 시대 노골적 정치 견해." },
+  "characterKo": { "summaryKo": "WeatherTech 36년 100% 소유 자동차 액세서리 자수성가.", "tagsKo": ["WeatherTech", "Made-in-USA"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed auto-accessories demand briefly.", "descriptionKo": "글로벌 금융위기로 자동차 액세서리 수요 잠시 압축.", "lesson": "Auto-accessories cyclical.", "lessonKo": "자동차 액세서리 주기적." },
+    { "year": 2018, "description": "Trump-era China tariffs raised raw-material costs.", "descriptionKo": "트럼프 시대 중국 관세가 원자재 비용 인상.", "lesson": "Made-in-USA faces input-cost pressure.", "lessonKo": "Made-in-USA 투입 비용 압박 직면." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.4 }, { "year": 2024, "netWorth": 4.0 }, { "year": 2025, "netWorth": 4.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Made in America wins when quality matters.", "textKo": "품질이 중요할 때 Made in America가 이긴다.", "context": "On WeatherTech", "contextKo": "WeatherTech에 대해", "source": "https://www.weathertech.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sul day pillar in Myo month — 'jeonggwan-gyeok', formal authority, fitting US auto-accessories owner.", "summaryKo": "경술 일주 + 묘월 정관격(공식 권위·규제 아래에서 일하는 구조)은 미국 자동차 산업의 NHTSA·규제 환경과 호응합니다. 경금 일간 + 술토 일지의 토 기운이 제조 자본의 안정 기반을, 묘목 월지의 목 기운이 회사 누적 성장을 가리킵니다." }
+}

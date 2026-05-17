@@ -1,0 +1,38 @@
+{
+  "id": "739", "name": "Satyanarayan Nuwal", "nameKo": "사티야나라얀 누왈",
+  "netWorth": 5.5, "nationality": "IN", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Maharashtra, India", "birthPlaceKo": "인도 마하라슈트라",
+    "familyBackground": "Born to Indian family.", "familyBackgroundKo": "인도 가정에서 출생.",
+    "education": "Indian higher education.", "educationKo": "인도 고등교육.",
+    "earlyLife": "Co-founded Solar Industries India in 1995 — Indian explosives and defense manufacturer.",
+    "earlyLifeKo": "1995 Solar Industries India 공동 창립 — 인도 폭발물·방산 제조사.",
+    "source": "https://en.wikipedia.org/wiki/Solar_Industries_India"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Solar Industries India 30년 자수성가." },
+  "careerTimeline": [
+    { "year": 1985, "age": 33, "event": "Began Indian industrial career.", "eventKo": "인도 산업 경력 시작.", "whyItMatteredKo": "산업 출발선." },
+    { "year": 1995, "age": 43, "event": "Co-founded Solar Industries India.", "eventKo": "Solar Industries India 공동 창립.", "whyItMatteredKo": "Solar 출발선." },
+    { "year": 2006, "age": 54, "event": "Solar Industries India IPO on BSE/NSE.", "eventKo": "Solar Industries India BSE/NSE IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2020, "age": 68, "event": "Solar expanded into Indian defense manufacturing (missiles, rockets).", "eventKo": "Solar가 인도 방산 제조(미사일·로켓) 확장.", "whyItMatteredKo": "방산 단계." },
+    { "year": 2025, "age": 73, "event": "Personal net worth at $5.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 55억 달러.", "whyItMatteredKo": "Solar 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 43, "decisionKo": "Solar Industries India 공동 창립", "alternativeKo": "직장 잔류", "outcomeKo": "30년 후 인도 폭발물·방산 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Solar Industries India(BSE/NSE 상장) 공동 창립자 지분", "industryKo": "산업 폭발물·방산", "businessModelKo": "인도 광업 폭발물 + 인도 정부 방산 계약", "moatKo": "30년 인도 폭발물 라이선스 + 정부 방산 인증", "luckVsSkillKo": "운(40%): 인도 방산 자국화. 실력(60%): 30년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Solar Industries India; major Indian defense-and-explosives manufacturer.",
+    "knownForKo": "Solar Industries India 공동 창립자; 주요 인도 방산·폭발물 제조사.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard explosives industry safety scrutiny.", "controversiesKo": "표준 폭발물 산업 안전 감시."
+  },
+  "characterKo": { "summaryKo": "Solar Industries India 30년 폭발물·방산 자수성가.", "tagsKo": ["Solar Industries", "인도 방산", "폭발물"] },
+  "failures": [
+    { "year": 2018, "description": "Indian explosives industry FDA-type incidents pressured safety regulations.", "descriptionKo": "인도 폭발물 산업 사고가 안전 규제 압박.", "lesson": "Explosives manufacturing faces safety-cycle tail risk.", "lessonKo": "폭발물 제조는 안전 사이클 잔여 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Indian mining-explosive demand.", "descriptionKo": "COVID-19이 인도 광업 폭발물 수요 혼란.", "lesson": "Mining-supply industries cyclical.", "lessonKo": "광업 공급 산업 주기적." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 5.2 }, { "year": 2025, "netWorth": 5.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Indian defense needs Indian explosives.", "textKo": "인도 방산은 인도 폭발물이 필요하다.", "context": "On Solar mission", "contextKo": "Solar 미션에 대해", "source": "https://www.solargroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Shin day pillar in Mi month — 'jeongjae-gyeok', steady accumulation, fitting industrial manufacturer.", "summaryKo": "임신 일주 + 미월 정재격(고정 자산·꾸준한 매출)은 30년 인도 정부 조달 폭발물·방산이라는 안정 매출 모델과 호응합니다. 임수 일간 + 신금 일지의 강한 금 기운이 폭발물(금속) 산업과 통하고, 미토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

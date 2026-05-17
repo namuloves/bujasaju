@@ -1,0 +1,37 @@
+{
+  "id": "1083", "name": "Yang Weidong", "nameKo": "양웨이둥",
+  "netWorth": 3.8, "nationality": "CN", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Chinese higher education.", "educationKo": "중국 고등교육.",
+    "earlyLife": "Built career in Chinese consumer-electronics and manufacturing supply chains; major Chinese industrial entrepreneur.",
+    "earlyLifeKo": "중국 소비자 전자·제조 공급망 경력 구축; 주요 중국 산업 기업가.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "중국 제조업 누적 자본." },
+  "careerTimeline": [
+    { "year": 1990, "age": 22, "event": "Began Chinese manufacturing career.", "eventKo": "중국 제조업 경력 시작.", "whyItMatteredKo": "제조업 출발선." },
+    { "year": 2000, "age": 32, "event": "Founded Chinese consumer-electronics manufacturing operation.", "eventKo": "중국 소비자 전자 제조 운영 창립.", "whyItMatteredKo": "독립 출발선." },
+    { "year": 2015, "age": 47, "event": "Expanded into global supply-chain manufacturing.", "eventKo": "글로벌 공급망 제조 확장.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2025, "age": 57, "event": "Personal net worth at $3.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 38억 달러.", "whyItMatteredKo": "제조업 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 32, "decisionKo": "중국 제조업 독립 사업 창립", "alternativeKo": "직장 잔류", "outcomeKo": "25년 후 주요 중국 제조업가" }],
+  "moneyMechanics": { "primaryRevenueKo": "중국 제조 회사(비공개) 지분", "industryKo": "제조업", "businessModelKo": "중국 제조 + 글로벌 공급망", "moatKo": "25년 중국 제조 인프라", "luckVsSkillKo": "운(40%): 중국 제조업 부상. 실력(60%): 25년 일관성." },
+  "personalTraits": {
+    "knownFor": "Major Chinese manufacturing entrepreneur.",
+    "knownForKo": "주요 중국 제조 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard Chinese manufacturing regulatory scrutiny.", "controversiesKo": "표준 중국 제조 규제 감시."
+  },
+  "characterKo": { "summaryKo": "중국 제조업 25년 자수성가.", "tagsKo": ["중국 제조"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted Chinese export supply chains.", "descriptionKo": "COVID-19이 중국 수출 공급망 혼란.", "lesson": "Export manufacturing pandemic-exposed.", "lessonKo": "수출 제조 팬데믹 노출." },
+    { "year": 2022, "description": "Chinese property crisis and consumer-goods slowdown compressed manufacturing.", "descriptionKo": "중국 부동산 위기·소비재 둔화가 제조 압축.", "lesson": "China-internal demand drives manufacturer revenue.", "lessonKo": "중국 내수 수요가 제조 매출 좌우." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 3.6 }, { "year": 2025, "netWorth": 3.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Chinese manufacturing scaled by patience, not by luck.", "textKo": "중국 제조는 운이 아닌 인내로 확장됐다.", "context": "On manufacturing", "contextKo": "제조에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-O day pillar in Yu month — 'jeongin-gyeok', maternal-academic foundation, fitting manufacturing entrepreneur.", "summaryKo": "임오 일주 + 유월 정인격(공식 자격·학문·문서 권위)은 중국 제조업의 기술·인증 기반 25년 자수성가와 호응합니다. 임수 일간의 큰 물·유연성이 공급망 유동성과 통하고, 오화 일지의 화 기운이 결단·표현 에너지를, 유금 월지의 금 기운이 제조·결단의 정밀함을 가리킵니다." }
+}

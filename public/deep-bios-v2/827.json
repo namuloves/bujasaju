@@ -1,0 +1,39 @@
+{
+  "id": "827", "name": "Stephen Feinberg", "nameKo": "스티븐 파인버그",
+  "netWorth": 5.0, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Spring Valley, New York, USA", "birthPlaceKo": "미국 뉴욕주 스프링 밸리",
+    "familyBackground": "Born to American Jewish family.", "familyBackgroundKo": "미국 유대인 가정에서 출생.",
+    "education": "Princeton University.", "educationKo": "프린스턴 대학교.",
+    "earlyLife": "Worked at Drexel Burnham Lambert and Gruntal & Co.; founded Cerberus Capital Management in 1992; built distressed-debt and private-equity giant.",
+    "earlyLifeKo": "Drexel Burnham Lambert·Gruntal & Co. 근무; 1992 Cerberus Capital Management 창립; 부실 채권·사모펀드 거물 구축.",
+    "source": "https://en.wikipedia.org/wiki/Stephen_Feinberg"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Cerberus Capital 창립자 지분 + 수수료." },
+  "careerTimeline": [
+    { "year": 1985, "age": 25, "event": "Joined Drexel Burnham Lambert in distressed-debt trading.", "eventKo": "Drexel Burnham Lambert 부실 채권 거래에 합류.", "whyItMatteredKo": "부실 채권 출발선." },
+    { "year": 1992, "age": 32, "event": "Founded Cerberus Capital Management with $10M.", "eventKo": "Cerberus Capital Management를 1,000만 달러로 창립.", "whyItMatteredKo": "Cerberus 출발선." },
+    { "year": 2007, "age": 47, "event": "Cerberus acquired Chrysler from DaimlerChrysler for $7.4B (later sold).", "eventKo": "Cerberus가 DaimlerChrysler에서 Chrysler를 74억 달러에 인수(이후 매각).", "whyItMatteredKo": "거대 PE 단계." },
+    { "year": 2017, "age": 57, "event": "Appointed by Trump as chair of Intelligence Advisory Board.", "eventKo": "트럼프가 정보 자문위원회 의장으로 임명.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2025, "age": 65, "event": "Trump appointed him Deputy Secretary of Defense; personal net worth at $5B per Forbes Real-Time.", "eventKo": "트럼프가 국방부 부장관으로 임명; 포브스 실시간 기준 개인 순자산 50억 달러.", "whyItMatteredKo": "정부·PE 정점." }
+  ],
+  "turningPoints": [{ "year": 1992, "age": 32, "decisionKo": "Cerberus 1,000만 달러로 창립", "alternativeKo": "대형 은행 잔류", "outcomeKo": "33년 후 50억 달러 부실 채권·PE 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Cerberus Capital 창립자 지분 + 수수료 + 다각화", "industryKo": "사모펀드·부실 채권", "businessModelKo": "부실 자산 인수 + 사모펀드 운영 + 수수료 자본화", "moatKo": "부실 채권 전문성 + 정부·국방 인맥", "luckVsSkillKo": "운(35%): 부실 채권 사이클. 실력(65%): 33년 일관성 + 산업 전환." },
+  "personalTraits": {
+    "knownFor": "Founder of Cerberus Capital; former Chrysler owner; current US Deputy Secretary of Defense.",
+    "knownForKo": "Cerberus Capital 창립자; 전 Chrysler 소유주; 현 미국 국방부 부장관.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2009 Chrysler bankruptcy; defense industry conflict-of-interest questions; gun-manufacturer ownership (Freedom Group/Remington).",
+    "controversiesKo": "2009 Chrysler 파산; 국방 산업 이해 충돌 의문; 총기 제조사 소유(Freedom Group/Remington)."
+  },
+  "characterKo": { "summaryKo": "Cerberus Capital 33년 + 국방부 부장관.", "tagsKo": ["Cerberus Capital", "Chrysler", "국방부 부장관"] },
+  "failures": [
+    { "year": 2009, "description": "Chrysler filed Chapter 11 bankruptcy under Cerberus ownership; equity wiped.", "descriptionKo": "Cerberus 소유 하에 Chrysler가 챕터 11 파산 신청; 지분 소멸.", "lesson": "Auto LBO failed under recession plus credit-crisis combination.", "lessonKo": "자동차 LBO는 경기 침체+신용 위기 결합 하에 실패." },
+    { "year": 2018, "description": "Cerberus-owned Remington filed for Chapter 11 bankruptcy.", "descriptionKo": "Cerberus 소유 Remington이 챕터 11 파산 신청.", "lesson": "Firearms industry faces secular demand and political risk.", "lessonKo": "총기 산업은 구조적 수요·정치 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Distress is opportunity priced by panic.", "textKo": "부실은 패닉이 가격을 매긴 기회다.", "context": "On distressed investing", "contextKo": "부실 투자에 대해", "source": "https://www.cerberus.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Jin day pillar in Myo month — 'sanggwan-gyeok', unconventional power, fitting distressed-debt and defense magnate.", "summaryKo": "병진 일주 + 묘월 상관격(파격적 표현·기존 권위 도전)은 부실 채권·자동차·총기·국방이라는 파격 산업 결합과 호응합니다. 병화 일간의 큰 불·태양 기질이 거대 자본 영향력과 통하고, 진토 일지의 토 기운이 자본 안정을, 묘목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

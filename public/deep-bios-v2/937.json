@@ -1,0 +1,31 @@
+{
+  "id": "937", "name": "Michael Pieper", "nameKo": "마이클 피퍼",
+  "netWorth": 4.4, "nationality": "CH", "industry": "Manufacturing",
+  "childhood": { "birthPlace": "Switzerland", "birthPlaceKo": "스위스",
+    "familyBackground": "Born to Swiss family.", "familyBackgroundKo": "스위스 가정에서 출생.",
+    "education": "Swiss higher education.", "educationKo": "스위스 고등교육.",
+    "earlyLife": "Took over Franke Group in 1989 — Swiss appliance and kitchen/bath manufacturer.",
+    "earlyLifeKo": "1989 Franke Group 인수 — 스위스 가전·주방·욕실 제조사.",
+    "source": "https://en.wikipedia.org/wiki/Franke_(company)" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Franke Group 36년 자수성가." },
+  "careerTimeline": [
+    { "year": 1989, "age": 43, "event": "Took over Franke Group as CEO and owner.", "eventKo": "Franke Group CEO·소유주 인수.", "whyItMatteredKo": "출발선." },
+    { "year": 2005, "age": 59, "event": "Franke became global leader in stainless-steel kitchen sinks.", "eventKo": "Franke가 스테인리스 강 주방 싱크 글로벌 리더가 됨.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2015, "age": 69, "event": "Franke expanded into coffee machines and washroom systems.", "eventKo": "Franke가 커피 머신·세면실 시스템 확장.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 79, "event": "Personal net worth at $4.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 44억 달러.", "whyItMatteredKo": "Franke 자본 정점." }],
+  "turningPoints": [{ "year": 1989, "age": 43, "decisionKo": "Franke Group 인수", "alternativeKo": "직장 잔류", "outcomeKo": "36년 후 글로벌 주방·욕실 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Franke Group(100% 소유) — 주방·욕실·커피 머신", "industryKo": "주방·욕실 제조", "businessModelKo": "스테인리스 주방 싱크 + 커피 머신 + 글로벌 매장", "moatKo": "36년 Franke 브랜드 + 100% 소유", "luckVsSkillKo": "운(30%): 글로벌 건축 부상. 실력(70%): 36년 단일 비전." },
+  "personalTraits": { "knownFor": "Owner of Franke Group; major Swiss kitchen-and-bath manufacturer.",
+    "knownForKo": "Franke Group 소유주; 주요 스위스 주방·욕실 제조사.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard manufacturing scrutiny.", "controversiesKo": "제한적; 표준 제조 감시." },
+  "characterKo": { "summaryKo": "Franke Group 36년 스위스 주방·욕실 자수성가.", "tagsKo": ["Franke Group", "스위스 제조"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed building-products demand.", "descriptionKo": "글로벌 금융위기로 건축 제품 수요 압축.", "lesson": "Building products cyclical.", "lessonKo": "건축 제품 주기적." },
+    { "year": 2020, "description": "COVID-19 disrupted Swiss manufacturing briefly.", "descriptionKo": "COVID-19이 스위스 제조 잠시 혼란.", "lesson": "Manufacturing pandemic-exposed.", "lessonKo": "제조 팬데믹 노출." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.7 }, { "year": 2024, "netWorth": 4.2 }, { "year": 2025, "netWorth": 4.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Kitchens last decades. We make them last longer.", "textKo": "주방은 수십 년을 간다. 우리가 더 오래 가게 만든다.", "context": "On Franke", "contextKo": "Franke에 대해", "source": "https://www.franke.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sul day pillar in In month — 'pyeonjae-gyeok', large external wealth, fitting industrial-manufacturing owner.", "summaryKo": "경술 일주 + 인월 편재격(크고 유동적인 외부 자본)은 36년 글로벌 주방·욕실 제조의 거대 외부 자본 흐름과 호응합니다. 경금 일간 + 술토 일지의 토 기운이 제조 자본의 안정 기반을, 인목 월지의 목 기운이 회사 누적 성장을 가리킵니다." }
+}

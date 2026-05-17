@@ -1,0 +1,38 @@
+{
+  "id": "1402", "name": "John Krystynak", "nameKo": "존 크리스티낙",
+  "netWorth": 2.9, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American university; engineering.", "educationKo": "미국 대학교; 공학.",
+    "earlyLife": "Co-founded Applied Signal Technology and other Silicon Valley tech ventures; major Pure Storage and Nutanix early investor.",
+    "earlyLifeKo": "Applied Signal Technology와 기타 실리콘 밸리 기술 벤처 공동 창립; 주요 Pure Storage·Nutanix 초기 투자자.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Silicon Valley 기술 벤처 + VC 투자." },
+  "careerTimeline": [
+    { "year": 1990, "age": 22, "event": "Began Silicon Valley engineering career.", "eventKo": "실리콘 밸리 엔지니어링 경력 시작.", "whyItMatteredKo": "기술 경력 출발선." },
+    { "year": 2009, "age": 41, "event": "Co-founded Pure Storage; major all-flash storage company.", "eventKo": "Pure Storage 공동 창립; 주요 올플래시 스토리지 회사.", "whyItMatteredKo": "Pure Storage 출발선." },
+    { "year": 2015, "age": 47, "event": "Pure Storage IPO on NYSE; Krystynak's stake materialized.", "eventKo": "Pure Storage NYSE IPO; 크리스티낙 지분 실현.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2020, "age": 52, "event": "Pure Storage benefited from AI/data-center storage demand.", "eventKo": "Pure Storage가 AI·데이터센터 스토리지 수요 혜택.", "whyItMatteredKo": "AI 단계." },
+    { "year": 2025, "age": 57, "event": "Personal net worth at $2.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러.", "whyItMatteredKo": "기술 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2009, "age": 41, "decisionKo": "Pure Storage 올플래시 스토리지 공동 창립", "alternativeKo": "기존 회사 잔류", "outcomeKo": "16년 후 AI 인프라 스토리지 메이저 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Pure Storage 공동 창립자 지분 + 기술 VC 포트폴리오", "industryKo": "엔터프라이즈 스토리지", "businessModelKo": "올플래시 스토리지 + 엔터프라이즈 AI 워크로드", "moatKo": "Pure Storage 16년 + 실리콘 밸리 인맥", "luckVsSkillKo": "운(40%): 2020-2025 AI 스토리지 수요. 실력(60%): 16년 단일 회사." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Pure Storage; Silicon Valley enterprise-storage entrepreneur.",
+    "knownForKo": "Pure Storage 공동 창립자; 실리콘 밸리 엔터프라이즈 스토리지 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard enterprise-storage competition with Dell EMC, NetApp.", "controversiesKo": "제한적; Dell EMC·NetApp과의 표준 엔터프라이즈 스토리지 경쟁."
+  },
+  "characterKo": { "summaryKo": "Pure Storage 16년 자수성가 — 엔터프라이즈 올플래시 스토리지.", "tagsKo": ["Pure Storage", "올플래시", "엔터프라이즈 스토리지"] },
+  "failures": [
+    { "year": 2022, "description": "Tech-stock decline compressed Pure Storage valuation; growth concerns.", "descriptionKo": "기술주 하락으로 Pure Storage 밸류에이션 압축; 성장 우려.", "lesson": "Tech stocks cyclical.", "lessonKo": "기술주 주기적." },
+    { "year": 2020, "description": "Enterprise IT spending paused during COVID-19; storage demand briefly compressed.", "descriptionKo": "COVID-19 동안 엔터프라이즈 IT 지출 멈춤; 스토리지 수요 잠시 압축.", "lesson": "Enterprise tech procyclical.", "lessonKo": "엔터프라이즈 기술 순응 사이클." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.7 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Flash storage was inevitable. Timing was the work.", "textKo": "플래시 스토리지는 불가피했다. 타이밍이 일이었다.", "context": "On Pure Storage", "contextKo": "Pure Storage에 대해", "source": "https://www.purestorage.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Mi day pillar in Jin month — 'jeonggwan-gyeok', formal authority, fitting enterprise-tech co-founder.", "summaryKo": "신미 일주 + 진월 정관격(공식 권위·규제 아래에서 일하는 구조)은 엔터프라이즈 스토리지의 기업·기관 거버넌스 환경과 호응합니다. 신금 일간의 예리한 금속 기질이 스토리지·시스템 결단의 정밀함과 통하고, 미토 일지·진토 월지의 토 기운이 데이터 인프라 자본의 안정 기반을 가리킵니다." }
+}

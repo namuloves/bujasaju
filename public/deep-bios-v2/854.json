@@ -1,0 +1,31 @@
+{
+  "id": "854", "name": "John Catsimatidis", "nameKo": "존 A. 카치마티디스",
+  "netWorth": 4.8, "nationality": "US", "industry": "Energy",
+  "childhood": { "birthPlace": "Greece", "birthPlaceKo": "그리스",
+    "familyBackground": "Born to Greek family; migrated to US in early childhood.", "familyBackgroundKo": "그리스 가정에서 출생; 어린 시절 미국 이주.",
+    "education": "NYU (dropped out).", "educationKo": "NYU(중퇴).",
+    "earlyLife": "Built Red Apple Group grocery chain; acquired United Refining; founder of supermarket and oil-refining empire.",
+    "earlyLifeKo": "Red Apple Group 식료품 체인 구축; United Refining 인수; 슈퍼마켓·정유 제국 창립자.",
+    "source": "https://en.wikipedia.org/wiki/John_Catsimatidis" },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Red Apple Group + United Refining 55+년 자수성가." },
+  "careerTimeline": [
+    { "year": 1969, "age": 20, "event": "Began Red Apple grocery business in NYC.", "eventKo": "뉴욕에서 Red Apple 식료품 사업 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1986, "age": 37, "event": "Acquired United Refining Company.", "eventKo": "United Refining Company 인수.", "whyItMatteredKo": "정유 단계." },
+    { "year": 2013, "age": 64, "event": "Ran for NYC mayor (Republican); lost.", "eventKo": "NYC 시장 출마(공화당); 패배.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2025, "age": 76, "event": "Personal net worth at $4.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 48억 달러.", "whyItMatteredKo": "Red Apple + Refining 정점." }],
+  "turningPoints": [{ "year": 1986, "age": 37, "decisionKo": "United Refining 인수로 식료품에서 정유 다각화", "alternativeKo": "식료품 집중", "outcomeKo": "39년 후 식료품 + 정유 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Red Apple Group + United Refining + Catsimatidis 부동산", "industryKo": "식료품·정유·부동산 다각화", "businessModelKo": "Gristedes 슈퍼마켓 + United 정유 + NYC 부동산", "moatKo": "55+년 NYC 부동산 인맥 + 다각화", "luckVsSkillKo": "운(35%): NYC 부 집중. 실력(65%): 55+년 단일 비전." },
+  "personalTraits": { "knownFor": "Founder of Red Apple Group; major NYC business and political figure; 2013 mayoral candidate.",
+    "knownForKo": "Red Apple Group 창립자; 주요 NYC 사업·정치 인물; 2013 시장 후보.",
+    "philanthropy": "Major Greek-American philanthropist.", "philanthropyKo": "주요 그리스·미국 자선가.",
+    "controversies": "NYC political donor controversies; outspoken political views.", "controversiesKo": "NYC 정치 기부자 논란; 노골적 정치 견해." },
+  "characterKo": { "summaryKo": "그리스 이민자가 NYC 식료품 + 정유 + 부동산 55+년 자수성가.", "tagsKo": ["Red Apple Group", "United Refining", "그리스 이민자"] },
+  "failures": [
+    { "year": 2013, "description": "Lost NYC mayoral primary; political-business overlap criticized.", "descriptionKo": "NYC 시장 예비선거 패배; 정치·사업 중첩 비판.", "lesson": "Self-funded political campaigns limited.", "lessonKo": "자기 자금 정치 캠페인 제한적." },
+    { "year": 2020, "description": "COVID-19 disrupted NYC grocery and refining operations.", "descriptionKo": "COVID-19이 NYC 식료품·정유 운영 혼란.", "lesson": "NYC concentration pandemic-exposed.", "lessonKo": "NYC 집중 팬데믹 노출." }],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.1 }, { "year": 2020, "netWorth": 3.7 }, { "year": 2024, "netWorth": 4.6 }, { "year": 2025, "netWorth": 4.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I came to America with nothing. New York gave me everything.", "textKo": "나는 무일푼으로 미국에 왔다. 뉴욕이 나에게 모든 것을 줬다.", "context": "On American Dream", "contextKo": "아메리칸 드림에 대해", "source": "https://en.wikipedia.org/wiki/John_Catsimatidis" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Mi day pillar in Shin month — 'jeonggwan-gyeok', formal authority, fitting diversified-businessman politician.", "summaryKo": "을미 일주 + 신월 정관격(공식 권위·규제 아래에서 일하는 구조)은 정유·식료품·부동산이라는 정부 규제 산업과 호응합니다. 을목 일간 + 미토 일지의 토 기운이 자본의 안정 기반을, 신금 월지의 금 기운이 결단의 정밀함을 가리킵니다." }
+}
