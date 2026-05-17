@@ -1,0 +1,39 @@
+{
+  "id": "1252", "name": "Jack Gance", "nameKo": "잭 갠스",
+  "netWorth": 3.3, "nationality": "AU", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Australia", "birthPlaceKo": "호주",
+    "familyBackground": "Born to Australian family.", "familyBackgroundKo": "호주 가정에서 출생.",
+    "education": "Australian higher education.", "educationKo": "호주 고등교육.",
+    "earlyLife": "Co-founded Chemist Warehouse with brother Sam Gance and Mario Verrocchi in 2000 — Australia's largest pharmacy retail chain.",
+    "earlyLifeKo": "2000년 동생 샘 갠스·마리오 베로키와 Chemist Warehouse 공동 창립 — 호주 최대 약국 소매 체인.",
+    "source": "https://en.wikipedia.org/wiki/Chemist_Warehouse"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Chemist Warehouse 25년 자수성가." },
+  "careerTimeline": [
+    { "year": 1972, "age": 26, "event": "Began Australian pharmacy career.", "eventKo": "호주 약국 경력 시작.", "whyItMatteredKo": "약국 경력 출발선." },
+    { "year": 2000, "age": 54, "event": "Co-founded Chemist Warehouse with brother Sam Gance and Mario Verrocchi in Melbourne.", "eventKo": "멜버른에서 동생 샘 갠스·마리오 베로키와 Chemist Warehouse 공동 창립.", "whyItMatteredKo": "Chemist Warehouse 출발선." },
+    { "year": 2010, "age": 64, "event": "Chemist Warehouse became Australia's largest pharmacy retailer.", "eventKo": "Chemist Warehouse가 호주 최대 약국 소매상이 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2023, "age": 77, "event": "Chemist Warehouse merged with Sigma Healthcare in $8B deal.", "eventKo": "Chemist Warehouse가 Sigma Healthcare와 80억 달러 거래 합병.", "whyItMatteredKo": "통합 정점 단계." },
+    { "year": 2025, "age": 79, "event": "Personal net worth at $3.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 33억 달러.", "whyItMatteredKo": "Chemist Warehouse 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 54, "decisionKo": "54세에 동생·베로키와 할인 약국 체인 공동 창립", "alternativeKo": "전통 약국 잔류", "outcomeKo": "25년 후 호주 1위 약국 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Chemist Warehouse(Sigma Healthcare 합병 후 ASX 상장) 공동 창립자 지분", "industryKo": "약국 소매·헬스케어", "businessModelKo": "할인 약국 + 처방·OTC + 뷰티 제품", "moatKo": "25년 호주 1위 약국 인지도 + 가격 우위", "luckVsSkillKo": "운(30%): 호주 약국 통합 시기. 실력(70%): 25년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Chemist Warehouse; one of Australia's most successful pharmacy entrepreneurs.",
+    "knownForKo": "Chemist Warehouse 공동 창립자; 호주 가장 성공한 약국 기업가 중 한 명.",
+    "philanthropy": "Supports Australian medical research.", "philanthropyKo": "호주 의료 연구 지원.",
+    "controversies": "Chemist Warehouse aggressive pricing drew Australian Pharmacy Guild opposition.",
+    "controversiesKo": "Chemist Warehouse 공격적 가격 책정이 호주 약사 길드 반대 야기."
+  },
+  "characterKo": { "summaryKo": "Chemist Warehouse 공동 창립 — 호주 1위 약국 25년 자수성가.", "tagsKo": ["Chemist Warehouse", "Sigma Healthcare", "호주 약국"] },
+  "failures": [
+    { "year": 2015, "description": "Australian Pharmacy Guild lobbying restricted Chemist Warehouse pricing/zoning.", "descriptionKo": "호주 약사 길드 로비가 Chemist Warehouse 가격·구역 제한.", "lesson": "Pharmacy retail faces guild-political restrictions.", "lessonKo": "약국 소매는 길드·정치 제한 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Australian pharmacy supply chains briefly.", "descriptionKo": "COVID-19이 호주 약국 공급망 잠시 혼란.", "lesson": "Pharmacy supply chain pandemic-exposed.", "lessonKo": "약국 공급망 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.7 }, { "year": 2024, "netWorth": 3.1 }, { "year": 2025, "netWorth": 3.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Cheap drugs build long lines. Long lines build trust.", "textKo": "저렴한 약품이 긴 줄을 만든다. 긴 줄이 신뢰를 만든다.", "context": "On Chemist Warehouse philosophy", "contextKo": "Chemist Warehouse 철학에 대해", "source": "https://www.chemistwarehouse.com.au" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in Myo month — 'pyeon-in-gyeok', creative intuition, fitting late-career discount-pharmacy founder.", "summaryKo": "계사 일주 + 묘월 편인격(독학·창의적 직관)은 54세 늦은 창업으로 할인 약국이라는 비전형적 카테고리를 만든 직관과 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 약국 가격·재고 정밀함과 통하고, 사화 일지의 화 기운이 결단·표현을, 묘목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

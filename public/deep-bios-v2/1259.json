@@ -1,0 +1,38 @@
+{
+  "id": "1259", "name": "Wolfgang Leitner", "nameKo": "볼프강 라이트너",
+  "netWorth": 3.3, "nationality": "AT", "industry": "Construction & Engineering",
+  "childhood": {
+    "birthPlace": "Austria", "birthPlaceKo": "오스트리아",
+    "familyBackground": "Born to Austrian family.", "familyBackgroundKo": "오스트리아 가정에서 출생.",
+    "education": "Vienna University of Economics and Business.", "educationKo": "비엔나 경제경영대학교.",
+    "earlyLife": "Worked at IPCG; took over Andritz AG (industrial machinery) in 1994; transformed into global hydropower-and-paper-machinery leader.",
+    "earlyLifeKo": "IPCG 근무; 1994년 Andritz AG(산업 기계) 인수; 글로벌 수력 발전·제지 기계 리더로 변환.",
+    "source": "https://en.wikipedia.org/wiki/Andritz_AG"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Andritz AG CEO 31년 자수성가." },
+  "careerTimeline": [
+    { "year": 1980, "age": 27, "event": "Began career at IPCG consulting.", "eventKo": "IPCG 컨설팅 경력 시작.", "whyItMatteredKo": "경영 경력 출발선." },
+    { "year": 1994, "age": 41, "event": "Took over Andritz AG as CEO.", "eventKo": "Andritz AG CEO 인수.", "whyItMatteredKo": "Andritz 출발선." },
+    { "year": 2001, "age": 48, "event": "Andritz IPO on Vienna Stock Exchange.", "eventKo": "Andritz 비엔나 증시 IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2015, "age": 62, "event": "Andritz became global leader in hydropower-equipment and pulp-paper machinery.", "eventKo": "Andritz가 수력 발전 장비·펄프 제지 기계 글로벌 리더가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 72, "event": "Personal net worth at $3.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 33억 달러.", "whyItMatteredKo": "31년 CEO 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 41, "decisionKo": "Andritz CEO 인수 — 컨설팅에서 산업가로", "alternativeKo": "컨설팅 잔류", "outcomeKo": "31년 후 글로벌 산업 기계 메이저 CEO" }],
+  "moneyMechanics": { "primaryRevenueKo": "Andritz AG(비엔나 증시) CEO 지분", "industryKo": "산업 기계(수력·제지)", "businessModelKo": "수력 발전 장비 + 펄프 제지 기계 + 금속 가공", "moatKo": "31년 산업 기계 CEO + 글로벌 라이선스", "luckVsSkillKo": "운(35%): 글로벌 인프라 부상. 실력(65%): 31년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Chairman of Andritz AG; transformed Austrian industrial-machinery company into global hydropower leader.",
+    "knownForKo": "Andritz AG 의장; 오스트리아 산업 기계 회사를 글로벌 수력 발전 리더로 변환.",
+    "philanthropy": "Supports Austrian engineering education.", "philanthropyKo": "오스트리아 엔지니어링 교육 지원.",
+    "controversies": "Limited; standard industrial-machinery competitive scrutiny.", "controversiesKo": "제한적; 표준 산업 기계 경쟁 감시."
+  },
+  "characterKo": { "summaryKo": "Andritz AG 31년 CEO + 오스트리아 산업가.", "tagsKo": ["Andritz AG", "수력 발전 기계", "오스트리아"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed industrial-equipment orders.", "descriptionKo": "글로벌 금융위기로 산업 장비 주문 압축.", "lesson": "Industrial capex cyclical.", "lessonKo": "산업 설비 투자 주기적." },
+    { "year": 2022, "description": "European energy crisis compressed Andritz European operations.", "descriptionKo": "유럽 에너지 위기로 Andritz 유럽 운영 압축.", "lesson": "Energy-intensive manufacturing faces macro shocks.", "lessonKo": "에너지 집약 제조 거시 충격 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.2 }, { "year": 2024, "netWorth": 3.1 }, { "year": 2025, "netWorth": 3.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Industrial machinery is patience converted into steel.", "textKo": "산업 기계는 강철로 변환된 인내다.", "context": "On Andritz business", "contextKo": "Andritz 사업에 대해", "source": "https://www.andritz.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Chuk day pillar in Myo month — 'pyeon-in-gyeok', creative intuition, fitting industrial-CEO turnaround.", "summaryKo": "정축 일주 + 묘월 편인격(독학·창의적 직관)은 컨설턴트에서 산업 기계 CEO로 비전형적 전환한 그의 직관과 호응합니다. 정화 일간의 따뜻한 불 기질이 글로벌 회사 가부장 역할과 통하고, 축토 일지의 토 기운이 산업 자본의 안정 기반을, 묘목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "789", "name": "Mario Verrocchi", "nameKo": "마리오 베로키",
+  "netWorth": 5.2, "nationality": "AU", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Australia", "birthPlaceKo": "호주",
+    "familyBackground": "Born to Italian-Australian family.", "familyBackgroundKo": "이탈리아·호주 가정에서 출생.",
+    "education": "Australian higher education.", "educationKo": "호주 고등교육.",
+    "earlyLife": "Co-founded Chemist Warehouse with Jack and Sam Gance in 2000 — Australia's largest pharmacy retail chain.",
+    "earlyLifeKo": "2000년 잭·샘 갠스와 Chemist Warehouse 공동 창립 — 호주 최대 약국 소매 체인.",
+    "source": "https://en.wikipedia.org/wiki/Chemist_Warehouse"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Chemist Warehouse 25년 자수성가." },
+  "careerTimeline": [
+    { "year": 1990, "age": 33, "event": "Began Australian pharmacy career.", "eventKo": "호주 약국 경력 시작.", "whyItMatteredKo": "약국 경력 출발선." },
+    { "year": 2000, "age": 43, "event": "Co-founded Chemist Warehouse with Jack and Sam Gance in Melbourne.", "eventKo": "멜버른에서 잭·샘 갠스와 Chemist Warehouse 공동 창립.", "whyItMatteredKo": "Chemist Warehouse 출발선." },
+    { "year": 2010, "age": 53, "event": "Chemist Warehouse became Australia's largest pharmacy retailer; expanded with discount model.", "eventKo": "Chemist Warehouse가 호주 최대 약국 소매상이 됨; 할인 모델로 확장.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2023, "age": 66, "event": "Chemist Warehouse merged with Sigma Healthcare in $8B deal; major Australian pharmacy industry consolidation.", "eventKo": "Chemist Warehouse가 Sigma Healthcare와 80억 달러 거래 합병; 주요 호주 약국 산업 통합.", "whyItMatteredKo": "통합 정점 단계." },
+    { "year": 2025, "age": 68, "event": "Personal net worth at $5.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 52억 달러.", "whyItMatteredKo": "Chemist Warehouse 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 43, "decisionKo": "잭·샘 갠스와 할인 약국 체인 공동 창립", "alternativeKo": "전통적 약국 잔류", "outcomeKo": "25년 후 호주 1위 약국 소매상" }],
+  "moneyMechanics": { "primaryRevenueKo": "Chemist Warehouse(Sigma Healthcare 합병 후 ASX 상장) 공동 창립자 지분", "industryKo": "약국 소매·헬스케어", "businessModelKo": "할인 약국 + 처방·OTC + 뷰티 제품", "moatKo": "25년 호주 1위 약국 인지도 + 가격 우위", "luckVsSkillKo": "운(30%): 호주 약국 통합 시기. 실력(70%): 25년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Chemist Warehouse; one of Australia's most successful retail entrepreneurs.",
+    "knownForKo": "Chemist Warehouse 공동 창립자; 호주 가장 성공한 소매 기업가 중 한 명.",
+    "philanthropy": "Supports Australian medical research.", "philanthropyKo": "호주 의료 연구 지원.",
+    "controversies": "Chemist Warehouse aggressive pricing drew Australian Pharmacy Guild opposition; antitrust complaints.",
+    "controversiesKo": "Chemist Warehouse 공격적 가격 책정이 호주 약사 길드 반대 야기; 반독점 불만."
+  },
+  "characterKo": { "summaryKo": "Chemist Warehouse 공동 창립 — 호주 1위 약국 소매 25년 자수성가.", "tagsKo": ["Chemist Warehouse", "Sigma Healthcare", "호주 약국"] },
+  "failures": [
+    { "year": 2015, "description": "Australian Pharmacy Guild lobbying restricted Chemist Warehouse aggressive pricing/zoning.", "descriptionKo": "호주 약사 길드 로비가 Chemist Warehouse 공격적 가격·구역 제한.", "lesson": "Pharmacy retail faces guild-political restrictions.", "lessonKo": "약국 소매는 길드·정치 제한 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Australian pharmacy supply chains briefly.", "descriptionKo": "COVID-19이 호주 약국 공급망 잠시 혼란.", "lesson": "Pharmacy supply chain pandemic-exposed.", "lessonKo": "약국 공급망은 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Pharmacies sell trust as much as products.", "textKo": "약국은 제품만큼 신뢰를 판다.", "context": "On pharmacy retail", "contextKo": "약국 소매에 대해", "source": "https://www.chemistwarehouse.com.au" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Myo day pillar in Mi month — 'pyeonjae-gyeok', large external wealth, fitting discount-pharmacy founder.", "summaryKo": "계묘 일주 + 미월 편재격(크고 유동적인 외부 자본)은 25년에 걸쳐 호주 약국 시장의 거대 외부 자본 흐름을 끌어들인 그의 경로와 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 약국 가격·재고 정밀함과 통하고, 묘목 일지의 목 기운이 회사 성장을, 미토 월지의 토 기운이 매장 자본의 안정 기반을 가리킵니다." }
+}

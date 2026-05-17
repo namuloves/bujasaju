@@ -1,0 +1,40 @@
+{
+  "id": "1010", "name": "Bob Parsons", "nameKo": "로버트 랄프 파슨스",
+  "netWorth": 4.1, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Baltimore, Maryland, USA", "birthPlaceKo": "미국 메릴랜드주 볼티모어",
+    "familyBackground": "Born to working-class Baltimore family.", "familyBackgroundKo": "볼티모어 노동자 계급 가정에서 출생.",
+    "education": "University of Baltimore (accounting); US Marine Corps Vietnam veteran.", "educationKo": "볼티모어 대학교(회계); 미 해병대 베트남 참전 용사.",
+    "earlyLife": "Founded Parsons Technology (sold to Intuit 1994); founded GoDaddy in 1997 — became world's largest domain registrar.",
+    "earlyLifeKo": "Parsons Technology 창립(1994 Intuit에 매각); 1997 GoDaddy 창립 — 세계 최대 도메인 등록사가 됨.",
+    "source": "https://en.wikipedia.org/wiki/Bob_Parsons"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "GoDaddy 28년 자수성가 + Parsons Technology 매각." },
+  "careerTimeline": [
+    { "year": 1984, "age": 33, "event": "Founded Parsons Technology (PC software).", "eventKo": "Parsons Technology(PC 소프트웨어) 창립.", "whyItMatteredKo": "첫 사업 출발선." },
+    { "year": 1994, "age": 43, "event": "Sold Parsons Technology to Intuit for $65M.", "eventKo": "Parsons Technology를 Intuit에 6,500만 달러 매각.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 1997, "age": 46, "event": "Founded GoDaddy as Jomax Technologies (renamed 1999).", "eventKo": "GoDaddy를 Jomax Technologies로 창립(1999 개명).", "whyItMatteredKo": "GoDaddy 출발선." },
+    { "year": 2015, "age": 64, "event": "GoDaddy IPO on NYSE; Parsons stepped down as CEO 2011.", "eventKo": "GoDaddy NYSE IPO; 파슨스가 2011 CEO에서 사임.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $4.1B per Forbes Real-Time. YAM Worldwide diversified investments.", "eventKo": "포브스 실시간 기준 개인 순자산 41억 달러. YAM Worldwide 다각화 투자.", "whyItMatteredKo": "GoDaddy 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1997, "age": 46, "decisionKo": "Parsons Technology 매각 후 GoDaddy 창립", "alternativeKo": "은퇴", "outcomeKo": "28년 후 세계 최대 도메인 등록사" }],
+  "moneyMechanics": { "primaryRevenueKo": "GoDaddy(NYSE 상장) + YAM Worldwide(부동산·골프·기타)", "industryKo": "도메인·웹 호스팅 + 다각화", "businessModelKo": "도메인 등록 + 웹 호스팅 + 다각화 투자", "moatKo": "GoDaddy 도메인 시장 선점", "luckVsSkillKo": "운(35%): 인터넷 도메인 시대. 실력(65%): 28년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of GoDaddy; Marine Corps Vietnam veteran; major Arizona philanthropist.",
+    "knownForKo": "GoDaddy 창립자; 해병대 베트남 참전 용사; 주요 애리조나 자선가.",
+    "philanthropy": "Bob & Renee Parsons Foundation funded $500M+ to veterans, women, and Arizona community.",
+    "philanthropyKo": "Bob & Renee Parsons 재단이 군 참전 용사·여성·애리조나 지역 사회에 5억 달러+ 자금.",
+    "controversies": "GoDaddy Super Bowl ads controversies; 2011 elephant-hunting Africa video drew massive backlash.",
+    "controversiesKo": "GoDaddy 슈퍼볼 광고 논란; 2011 아프리카 코끼리 사냥 영상이 거대 반발 야기."
+  },
+  "characterKo": { "summaryKo": "베트남 참전 GoDaddy 28년 자수성가 + 애리조나 자선가.", "tagsKo": ["GoDaddy", "베트남 참전", "Parsons Foundation"] },
+  "failures": [
+    { "year": 2011, "description": "Bob Parsons elephant-hunting Africa video drew massive boycott and brand-reputation damage.", "descriptionKo": "밥 파슨스 아프리카 코끼리 사냥 영상이 거대 보이콧·브랜드 평판 손상 야기.", "lesson": "Personal-conduct decisions create company-brand exposure.", "lessonKo": "개인 행동 결정이 회사 브랜드 노출 야기." },
+    { "year": 2015, "description": "GoDaddy IPO priced below expectations; growth-rate compression.", "descriptionKo": "GoDaddy IPO가 예상 이하 가격; 성장률 압축.", "lesson": "Mature internet businesses face growth compression.", "lessonKo": "성숙 인터넷 사업은 성장 압축 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.7 }, { "year": 2024, "netWorth": 3.9 }, { "year": 2025, "netWorth": 4.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I learned business in Vietnam — show up, do the job.", "textKo": "베트남에서 사업을 배웠다 — 나타나고 일을 한다.", "context": "On Marine Corps influence", "contextKo": "해병대 영향에 대해", "source": "https://www.bobparsons.com" }],
+  "books": { "authored": [{ "title": "Fire in the Hole!", "year": 2022, "noteKo": "회고록." }], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-In day pillar in Hae month — 'pyeon-gwan-gyeok', strong external authority, fitting Marine-veteran-turned-founder.", "summaryKo": "병인 일주 + 해월 편관격(강한 외부 압박·권력 충돌)은 베트남 참전 + 사업 위기·논란을 통과한 그의 강한 자기 자본 패턴과 호응합니다. 병화 일간의 큰 불·태양 기질이 GoDaddy 브랜드 시각화의 거대 표현과 통하고, 인목 일지·해수 월지가 회사 성장 + 자본 유동성을 가리킵니다." }
+}

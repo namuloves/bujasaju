@@ -1,0 +1,38 @@
+{
+  "id": "1482", "name": "Massimo Doris", "nameKo": "마시모 도리스",
+  "netWorth": 2.7, "nationality": "IT", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Italy", "birthPlaceKo": "이탈리아",
+    "familyBackground": "Born to Ennio Doris — founder of Banca Mediolanum (Italian financial-services group).", "familyBackgroundKo": "Banca Mediolanum(이탈리아 금융 서비스 그룹) 창립자 에니오 도리스의 아들.",
+    "education": "Italian higher education.", "educationKo": "이탈리아 고등교육.",
+    "earlyLife": "Joined family Banca Mediolanum; rose to CEO after father's 2021 death.",
+    "earlyLifeKo": "가족 Banca Mediolanum 합류; 2021년 아버지 사망 후 CEO 부상.",
+    "source": "https://en.wikipedia.org/wiki/Banca_Mediolanum"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Banca Mediolanum 가족 자본." },
+  "careerTimeline": [
+    { "year": 1992, "age": 25, "event": "Joined family Banca Mediolanum operations.", "eventKo": "가족 Banca Mediolanum 운영 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2014, "age": 47, "event": "Became co-CEO of Banca Mediolanum.", "eventKo": "Banca Mediolanum 공동 CEO 취임.", "whyItMatteredKo": "공동 CEO 단계." },
+    { "year": 2021, "age": 54, "event": "Father Ennio Doris died; Massimo became sole CEO.", "eventKo": "아버지 에니오 도리스 사망; 마시모가 단독 CEO가 됨.", "whyItMatteredKo": "단독 가부장 단계." },
+    { "year": 2024, "age": 57, "event": "Banca Mediolanum continued growth in Italian wealth-management.", "eventKo": "Banca Mediolanum이 이탈리아 자산관리에서 성장 계속.", "whyItMatteredKo": "성장 단계." },
+    { "year": 2025, "age": 58, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2021, "age": 54, "decisionKo": "아버지 사후 단독 CEO 인수", "alternativeKo": "전문 경영진 위임", "outcomeKo": "Banca Mediolanum 단독 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Banca Mediolanum(밀라노 증시) 가족 지분", "industryKo": "은행·자산관리", "businessModelKo": "이탈리아 자산관리 + 가족 사무실 어드바이저리", "moatKo": "다세대 Doris 가족 자본 + 이탈리아 자산관리 인프라", "luckVsSkillKo": "운(70%): 가족 자본. 실력(30%): 4년 단독 CEO." },
+  "personalTraits": {
+    "knownFor": "CEO of Banca Mediolanum; son of Ennio Doris; Italian wealth-management heir.",
+    "knownForKo": "Banca Mediolanum CEO; 에니오 도리스의 아들; 이탈리아 자산관리 상속자.",
+    "philanthropy": "Mediolanum Foundation supports Italian education and charity.", "philanthropyKo": "Mediolanum 재단이 이탈리아 교육·자선 지원.",
+    "controversies": "Standard Italian banking regulatory scrutiny.", "controversiesKo": "표준 이탈리아 은행 규제 감시."
+  },
+  "characterKo": { "summaryKo": "Banca Mediolanum 가족 가부장 + 이탈리아 자산관리 메이저.", "tagsKo": ["Banca Mediolanum", "Doris 가족", "이탈리아 은행"] },
+  "failures": [
+    { "year": 2011, "description": "Italian sovereign-debt crisis compressed Italian bank stocks; Banca Mediolanum absorbed cyclical pressure.", "descriptionKo": "이탈리아 국채 위기로 이탈리아 은행주 압축; Banca Mediolanum이 사이클 압박 흡수.", "lesson": "Italian banks exposed to sovereign-cycle.", "lessonKo": "이탈리아 은행은 국가 사이클 노출." },
+    { "year": 2022, "description": "Rising European interest rates compressed wealth-management AUM in Italian asset managers.", "descriptionKo": "유럽 금리 상승이 이탈리아 자산운용사 자산관리 AUM 압축.", "lesson": "Asset managers sensitive to rates.", "lessonKo": "자산운용사는 금리에 민감." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2022, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.6 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Italian families trust banks they know. We are that bank.", "textKo": "이탈리아 가족은 그들이 아는 은행을 신뢰한다. 우리가 그 은행이다.", "context": "On Banca Mediolanum", "contextKo": "Banca Mediolanum에 대해", "source": "https://www.bancamediolanum.it" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in O month — 'siksin-gyeok', creative output, fitting family-bank heir.", "summaryKo": "갑진 일주 + 오월 식신격(창의적 결과물·표현)은 가족 자본을 그대로 잇기보다 자산관리 산업의 새 서비스로 표현해온 그의 경로와 호응합니다. 갑목 일간의 큰 나무·기둥 기질이 가족 은행 가부장 역할과 통하고, 진토 일지의 토 기운이 가족 자본의 안정 기반을, 오화 월지의 화 기운이 자산관리 표현·결단을 가리킵니다." }
+}

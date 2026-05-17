@@ -1,0 +1,37 @@
+{
+  "id": "217", "name": "J. Christopher Reyes", "nameKo": "J. 크리스토퍼 레예스",
+  "netWorth": 13.1, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family; brother of Jude Reyes.", "familyBackgroundKo": "미국 가정에서 출생; 주드 레예스의 형제.",
+    "education": "University of Maryland.", "educationKo": "메릴랜드 대학교.",
+    "earlyLife": "With brother Jude built Reyes Holdings — major US foodservice distribution including largest Coca-Cola distributor.", "earlyLifeKo": "동생 주드와 Reyes Holdings 구축 — 최대 Coca-Cola 유통사 포함 주요 미국 식음 유통.",
+    "source": "https://en.wikipedia.org/wiki/Reyes_Holdings"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Reyes Holdings 49년 자수성가." },
+  "careerTimeline": [
+    { "year": 1976, "age": 22, "event": "Began Reyes family beer-distribution business.", "eventKo": "Reyes 가족 맥주 유통 사업 시작.", "whyItMatteredKo": "49년 자수성가 출발선." },
+    { "year": 1991, "age": 38, "event": "Acquired Coca-Cola distribution franchise; began aggressive consolidation.", "eventKo": "Coca-Cola 유통 프랜차이즈 인수; 공격적 통합 시작.", "whyItMatteredKo": "Coca-Cola 단계." },
+    { "year": 2005, "age": 51, "event": "Reyes Holdings became largest US Coca-Cola distributor.", "eventKo": "Reyes Holdings가 최대 미국 Coca-Cola 유통사가 됨.", "whyItMatteredKo": "Coca-Cola 메이저 단계." },
+    { "year": 2015, "age": 62, "event": "Expanded into Martin Brower (McDonald's distribution) and beer distribution.", "eventKo": "Martin Brower(맥도날드 유통)·맥주 유통 확장.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 71, "event": "Personal net worth at $13.1B per Forbes Real-Time. Reyes Holdings revenue exceeds $40B.", "eventKo": "포브스 실시간 기준 개인 순자산 131억 달러. Reyes Holdings 매출 400억 달러 초과.", "whyItMatteredKo": "Reyes 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1991, "age": 38, "decisionKo": "Coca-Cola 유통 프랜차이즈 인수", "alternativeKo": "맥주 유통 집중", "outcomeKo": "34년 후 미국 최대 Coca-Cola 유통사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Reyes Holdings(100% 가족 소유) — Coca-Cola·McDonald's·맥주 유통", "industryKo": "식음 유통", "businessModelKo": "Coca-Cola 보틀러 + Martin Brower(맥도날드) + 맥주 유통", "moatKo": "49년 식음 유통 인프라 + 100% 가족 소유", "luckVsSkillKo": "운(30%): 미국 식음 유통 통합. 실력(70%): 49년 단일 비전 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-chairman of Reyes Holdings with brother Jude; major US food-and-beverage distributor.",
+    "knownForKo": "동생 주드와 Reyes Holdings 공동 의장; 주요 미국 식음 유통사.",
+    "philanthropy": "Reyes Family Foundation supports US education and Hispanic community.", "philanthropyKo": "Reyes 가족 재단이 미국 교육·히스패닉 공동체 지원.",
+    "controversies": "Limited; standard food-distribution industry scrutiny.", "controversiesKo": "제한적; 표준 식음 유통 산업 감시."
+  },
+  "characterKo": { "summaryKo": "Reyes Holdings 49년 형제 자수성가 — 미국 최대 식음 유통.", "tagsKo": ["Reyes Holdings", "Coca-Cola 유통", "Martin Brower"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed foodservice demand temporarily.", "descriptionKo": "글로벌 금융위기로 식음 서비스 수요 일시 압축.", "lesson": "Food distribution cyclical with restaurant spend.", "lessonKo": "식음 유통은 식당 지출 순응 사이클." },
+    { "year": 2020, "description": "COVID-19 disrupted McDonald's and beer distribution; Reyes absorbed pandemic costs.", "descriptionKo": "COVID-19이 맥도날드·맥주 유통 혼란; Reyes가 팬데믹 비용 흡수.", "lesson": "Foodservice distribution pandemic-exposed.", "lessonKo": "식음 서비스 유통 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.2 }, { "year": 2020, "netWorth": 7.0 }, { "year": 2024, "netWorth": 12.5 }, { "year": 2025, "netWorth": 13.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Distribution is the boring half of brands.", "textKo": "유통은 브랜드의 지루한 절반이다.", "context": "On Reyes business", "contextKo": "Reyes 사업에 대해", "source": "https://www.reyesholdings.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-In day pillar in Ja month — 'jeongin-gyeok', maternal-academic foundation, fitting distribution-empire co-founder.", "summaryKo": "갑인 일주 + 자월 정인격(공식 자격·학문·문서 권위)은 49년 유통 회사의 정통 운영·가족 거버넌스 기반과 호응합니다. 갑목 일간 + 인목 일지의 강한 목 기운이 회사 누적 성장을, 자수 월지의 수 기운이 식음 유통의 거대 유동성을 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "955", "name": "Aristotelis Mistakidis", "nameKo": "아리스토텔리스 미스타키디스",
+  "netWorth": 4.3, "nationality": "GR", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Greece", "birthPlaceKo": "그리스",
+    "familyBackground": "Born to Greek family.", "familyBackgroundKo": "그리스 가정에서 출생.",
+    "education": "Imperial College London (mining engineering).", "educationKo": "임페리얼 칼리지 런던(광업공학).",
+    "earlyLife": "Joined Glencore early; rose through copper-and-zinc trading; one of Glencore's six founding partner-traders during the 2011 IPO.",
+    "earlyLifeKo": "Glencore 일찍 합류; 구리·아연 거래로 부상; 2011 IPO 시 Glencore 6명 창립 파트너 거래자 중 한 명.",
+    "source": "https://en.wikipedia.org/wiki/Glencore"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Glencore 파트너 지분 + 거래 수익." },
+  "careerTimeline": [
+    { "year": 1984, "age": 23, "event": "Joined Marc Rich + Co (later Glencore) as copper trader.", "eventKo": "구리 거래자로 Marc Rich + Co(이후 Glencore) 합류.", "whyItMatteredKo": "원자재 거래 출발선." },
+    { "year": 2003, "age": 42, "event": "Became head of Glencore's copper trading; one of senior partner-traders.", "eventKo": "Glencore 구리 거래 수장 취임; 시니어 파트너 거래자 중 한 명.", "whyItMatteredKo": "파트너 단계." },
+    { "year": 2011, "age": 50, "event": "Glencore IPO on London Stock Exchange and HKEX; Mistakidis's partner stake materialized.", "eventKo": "Glencore 런던 증시·홍콩 증시 IPO; 미스타키디스의 파트너 지분 결정화.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2018, "age": 57, "event": "Retired from Glencore as head of copper; cashed substantial stake.", "eventKo": "Glencore 구리 수장에서 은퇴; 상당한 지분 현금화.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $4.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러.", "whyItMatteredKo": "Glencore 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1984, "age": 23, "decisionKo": "Marc Rich + Co 합류로 원자재 거래 진입", "alternativeKo": "광업공학 경력 잔류", "outcomeKo": "40+년 후 Glencore 파트너 자본가" }],
+  "moneyMechanics": { "primaryRevenueKo": "Glencore plc 파트너 지분(매각 후) + 다각화 투자", "industryKo": "원자재 거래·광업", "businessModelKo": "구리 거래 + Glencore 글로벌 광물 거래", "moatKo": "30+년 글로벌 구리 거래 인맥", "luckVsSkillKo": "운(40%): 1990-2010 구리 슈퍼사이클. 실력(60%): 30+년 거래 일관성." },
+  "personalTraits": {
+    "knownFor": "Former head of copper trading at Glencore; one of Glencore's founding partner-traders; Greek-Imperial-College-trained engineer.",
+    "knownForKo": "전 Glencore 구리 거래 수장; Glencore 창립 파트너 거래자 중 한 명; 그리스·임페리얼 칼리지 출신 엔지니어.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Glencore faced sustained DOJ corruption probes including copper-trading bribery cases; Mistakidis denied personal involvement.",
+    "controversiesKo": "Glencore가 구리 거래 뇌물 사건 포함 지속적 DOJ 부패 조사 직면; 미스타키디스 개인 연루 부인."
+  },
+  "characterKo": { "summaryKo": "Glencore 구리 거래 30+년 수장 — 그리스 출신 글로벌 원자재 거래자.", "tagsKo": ["Glencore", "구리 거래", "Imperial College"] },
+  "failures": [
+    { "year": 2015, "description": "Copper-price crash 2015 collapsed Glencore stock 70%+; Mistakidis stake compressed.", "descriptionKo": "2015 구리 가격 폭락으로 Glencore 주가 70%+ 붕괴; 미스타키디스 지분 압축.", "lesson": "Pure-commodity exposure faces extreme cycle.", "lessonKo": "단일 원자재 노출은 극단적 사이클 직면." },
+    { "year": 2022, "description": "Glencore settled DOJ corruption probes for $1.5B+; lasting reputational scrutiny on copper-trading practices.", "descriptionKo": "Glencore가 DOJ 부패 조사를 15억 달러+로 합의; 구리 거래 관행에 대한 지속적 평판 감시.", "lesson": "Aggressive commodity trading carries regulatory tail risk.", "lessonKo": "공격적 원자재 거래는 규제 잔여 리스크 동반." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.2 }, { "year": 2024, "netWorth": 4.1 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Copper is the bone of every economy.", "textKo": "구리는 모든 경제의 뼈다.", "context": "On commodity trading", "contextKo": "원자재 거래에 대해", "source": "https://www.glencore.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-O day pillar in Hae month — 'pyeonjae-gyeok', large external wealth, fitting commodity-trading partner.", "summaryKo": "무오 일주 + 해월 편재격(크고 유동적인 외부 자본)은 글로벌 구리 거래라는 거대 외부 자본 흐름과 호응합니다. 무토 일간의 큰 산 기질이 거대 거래 회사 파트너 역할과 통하고, 오화 일지의 화 기운이 구리(붉은 금속) 산업과 직접 통하며, 해수 월지의 수 기운이 거대 자본 유동성을 가리킵니다." }
+}

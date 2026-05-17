@@ -1,0 +1,40 @@
+{
+  "id": "1055", "name": "Jed McCaleb", "nameKo": "제드 맥케일럽",
+  "netWorth": 3.9, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "UC Berkeley (computer science, did not complete).", "educationKo": "UC 버클리(컴퓨터 과학, 미완료).",
+    "earlyLife": "Built eDonkey peer-to-peer file-sharing software; founded Mt. Gox bitcoin exchange in 2010; co-founded Ripple (2012) and Stellar (2014).",
+    "earlyLifeKo": "eDonkey P2P 파일 공유 소프트웨어 구축; 2010년 Mt. Gox 비트코인 거래소 창립; Ripple(2012)·Stellar(2014) 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Jed_McCaleb"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Ripple + Stellar 초기 창립자 토큰." },
+  "careerTimeline": [
+    { "year": 2000, "age": 25, "event": "Built eDonkey2000 peer-to-peer file-sharing protocol.", "eventKo": "eDonkey2000 P2P 파일 공유 프로토콜 구축.", "whyItMatteredKo": "기술 경력 출발선." },
+    { "year": 2010, "age": 35, "event": "Founded Mt. Gox bitcoin exchange.", "eventKo": "Mt. Gox 비트코인 거래소 창립.", "whyItMatteredKo": "비트코인 거래소 단계." },
+    { "year": 2012, "age": 37, "event": "Co-founded Ripple Labs; left in 2013 after governance dispute.", "eventKo": "Ripple Labs 공동 창립; 2013년 거버넌스 분쟁 후 떠남.", "whyItMatteredKo": "Ripple 단계." },
+    { "year": 2014, "age": 39, "event": "Co-founded Stellar Development Foundation — open-source cross-border payments network.", "eventKo": "Stellar Development Foundation 공동 창립 — 오픈소스 국경 간 결제 네트워크.", "whyItMatteredKo": "Stellar 단계." },
+    { "year": 2025, "age": 50, "event": "Personal net worth at $3.9B per Forbes Real-Time. Continues as Stellar founder; holds substantial Ripple founder tokens.", "eventKo": "포브스 실시간 기준 개인 순자산 39억 달러. Stellar 창립자 계속; 상당한 Ripple 창립자 토큰 보유.", "whyItMatteredKo": "암호화폐 자본가 정점." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 39, "decisionKo": "Ripple 떠나 Stellar 창립", "alternativeKo": "Ripple 잔류", "outcomeKo": "11년 후 두 주요 암호화폐 네트워크 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Ripple(XRP) 창립자 토큰 + Stellar(XLM) 창립자 토큰 + 다각화", "industryKo": "암호화폐·블록체인", "businessModelKo": "암호화폐 토큰 보유 + Stellar 결제 네트워크", "moatKo": "Ripple + Stellar 두 네트워크 창립 + 1세대 암호화폐 인지도", "luckVsSkillKo": "운(45%): 2010-2017 암호화폐 부상 + Ripple/Stellar 토큰 가치 상승. 실력(55%): 두 주요 네트워크 창립 결단." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Ripple, Stellar; founder of Mt. Gox; serial cryptocurrency entrepreneur.",
+    "knownForKo": "Ripple·Stellar 공동 창립자; Mt. Gox 창립자; 연쇄 암호화폐 기업가.",
+    "philanthropy": "Survival and Flourishing Fund supports existential-risk research and AI safety.",
+    "philanthropyKo": "Survival and Flourishing Fund가 실존 리스크 연구·AI 안전 지원.",
+    "controversies": "Mt. Gox 2014 bankruptcy and $400M+ bitcoin theft scandal (after McCaleb's exit); Ripple SEC lawsuit; Ripple cofounder governance dispute.",
+    "controversiesKo": "맥케일럽 퇴장 후 Mt. Gox 2014 파산·4억 달러+ 비트코인 도난 스캔들; Ripple SEC 소송; Ripple 공동 창립자 거버넌스 분쟁."
+  },
+  "characterKo": { "summaryKo": "Mt. Gox + Ripple + Stellar 1세대 암호화폐 연쇄 창립자.", "tagsKo": ["Ripple 공동 창립", "Stellar 공동 창립", "Mt. Gox", "암호화폐 1세대"] },
+  "failures": [
+    { "year": 2014, "description": "Mt. Gox bankruptcy after McCaleb's exit became major bitcoin-industry crisis; reputational damage.", "descriptionKo": "맥케일럽 퇴장 후 Mt. Gox 파산이 주요 비트코인 산업 위기가 됨; 평판 손상.", "lesson": "Early-stage crypto founder-exit risk magnified.", "lessonKo": "초기 단계 암호화폐 창립자 퇴장 리스크 증폭." },
+    { "year": 2013, "description": "Ripple cofounder dispute; McCaleb forced to leave with token-distribution agreement that drew years of XRP-market controversy.", "descriptionKo": "Ripple 공동 창립자 분쟁; 맥케일럽이 다년간 XRP 시장 논란 야기한 토큰 분배 합의로 떠남.", "lesson": "Crypto founder agreements create market-wide reputational risk.", "lessonKo": "암호화폐 창립자 합의가 시장 전반 평판 리스크 야기." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 2.0 }, { "year": 2021, "netWorth": 3.5 }, { "year": 2024, "netWorth": 3.7 }, { "year": 2025, "netWorth": 3.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I build protocols, not products.", "textKo": "나는 제품이 아닌 프로토콜을 만든다.", "context": "On Stellar mission", "contextKo": "Stellar 미션에 대해", "source": "https://www.stellar.org" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Yu day pillar in O month — 'jeongin-gyeok', maternal-academic foundation, fitting serial protocol founder.", "summaryKo": "을유 일주 + 오월 정인격(공식 자격·학문·문서 권위)은 컴퓨터 과학자가 끊임없이 새 암호화폐 프로토콜을 설계해온 그의 학문·문서 기반 경로와 호응합니다. 을목 일간의 부드러운 식물 + 유금 일지의 금 기운이 코드·암호의 정밀함과 통하고, 오화 월지의 화 기운이 프로토콜 표현 욕구를 가리킵니다." }
+}

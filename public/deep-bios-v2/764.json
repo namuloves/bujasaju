@@ -1,0 +1,39 @@
+{
+  "id": "764", "name": "Michael Intrator", "nameKo": "마이클 인트레이터",
+  "netWorth": 5.4, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Built career in commodity trading and natural-gas finance; co-founded CoreWeave in 2017 — GPU-cloud company that grew to major AI-infrastructure provider.",
+    "earlyLifeKo": "원자재 거래·천연가스 금융 경력 구축; 2017년 CoreWeave 공동 창립 — 주요 AI 인프라 제공자로 성장한 GPU 클라우드 회사.",
+    "source": "https://www.coreweave.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "CoreWeave 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1994, "age": 25, "event": "Began commodities and energy trading career.", "eventKo": "원자재·에너지 거래 경력 시작.", "whyItMatteredKo": "거래 경력 출발선." },
+    { "year": 2005, "age": 36, "event": "Founded Hudson Ridge Asset Management — natural-gas hedge fund.", "eventKo": "Hudson Ridge Asset Management 창립 — 천연가스 헤지펀드.", "whyItMatteredKo": "독립 출발선." },
+    { "year": 2017, "age": 48, "event": "Co-founded CoreWeave with Brian Venturo and Brannin McBee — initially Ethereum-mining GPU operation.", "eventKo": "브라이언 벤투로·브래닌 맥비와 CoreWeave 공동 창립 — 초기 이더리움 채굴 GPU 운영.", "whyItMatteredKo": "CoreWeave 출발선." },
+    { "year": 2022, "age": 53, "event": "Pivoted CoreWeave from crypto-mining to GPU cloud for AI; became major Nvidia GPU customer.", "eventKo": "CoreWeave를 암호화폐 채굴에서 AI용 GPU 클라우드로 피벗; 주요 Nvidia GPU 고객이 됨.", "whyItMatteredKo": "AI 피벗 정점." },
+    { "year": 2025, "age": 56, "event": "Personal net worth at $5.4B per Forbes Real-Time. CoreWeave IPO'd on NASDAQ in 2025.", "eventKo": "포브스 실시간 기준 개인 순자산 54억 달러. CoreWeave가 2025 나스닥 IPO.", "whyItMatteredKo": "AI 자본가 정점." }
+  ],
+  "turningPoints": [{ "year": 2022, "age": 53, "decisionKo": "암호화폐 채굴에서 AI GPU 클라우드로 피벗", "alternativeKo": "암호화폐 채굴 잔류", "outcomeKo": "3년 후 AI 인프라 메이저 CEO" }],
+  "moneyMechanics": { "primaryRevenueKo": "CoreWeave Inc.(NASDAQ 상장) 공동 창립자 지분", "industryKo": "AI 클라우드 인프라", "businessModelKo": "GPU 클라우드 + AI 컴퓨트 임대 + Nvidia 파트너십", "moatKo": "AI 부상 시기 GPU 인프라 1세대 + Nvidia 인맥", "luckVsSkillKo": "운(55%): 2022 AI 부상 + Nvidia GPU 부족. 실력(45%): 30년 거래 경력 + 피벗 결단." },
+  "personalTraits": {
+    "knownFor": "Co-founder and CEO of CoreWeave; pioneering GPU-cloud AI infrastructure entrepreneur.",
+    "knownForKo": "CoreWeave 공동 창립자·CEO; 선구적 GPU 클라우드 AI 인프라 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "CoreWeave heavy debt-financing drew Wall Street scrutiny; AI-cycle concerns.",
+    "controversiesKo": "CoreWeave 고 부채 자금 조달이 월스트리트 감시 야기; AI 사이클 우려."
+  },
+  "characterKo": { "summaryKo": "천연가스 헤지펀드 매니저가 CoreWeave AI GPU 클라우드 CEO로 8년 자수성가.", "tagsKo": ["CoreWeave", "AI GPU 클라우드", "암호화폐→AI 피벗"] },
+  "failures": [
+    { "year": 2021, "description": "Ethereum's 'Merge' to proof-of-stake threatened CoreWeave's original crypto-mining business model.", "descriptionKo": "이더리움 '머지' 지분 증명 전환이 CoreWeave의 원래 암호화폐 채굴 비즈니스 모델 위협.", "lesson": "Crypto-mining infrastructure faces protocol-cycle risk.", "lessonKo": "암호화폐 채굴 인프라는 프로토콜 사이클 리스크 직면." },
+    { "year": 2024, "description": "CoreWeave heavy debt-financing structure drew Wall Street scrutiny; valuation concerns.", "descriptionKo": "CoreWeave의 고 부채 자금 조달 구조가 월스트리트 감시·밸류에이션 우려 야기.", "lesson": "Capital-intensive AI infra carries financing risk.", "lessonKo": "자본 집약 AI 인프라는 자금 조달 리스크 동반." }
+  ],
+  "wealthHistory": [{ "year": 2023, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.8 }, { "year": 2025, "netWorth": 5.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "We built GPU infrastructure for one workload. Then AI showed up.", "textKo": "우리는 한 워크로드용 GPU 인프라를 만들었다. 그러고 AI가 나타났다.", "context": "On AI pivot", "contextKo": "AI 피벗에 대해", "source": "https://www.coreweave.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Myo day pillar in In month — 'jeongin-gyeok', maternal-academic foundation, fitting analytics-driven CEO.", "summaryKo": "기묘 일주 + 인월 정인격(공식 자격·학문·문서 권위)은 천연가스 분석 + 거래 데이터라는 학문 기반 경력에서 AI GPU로의 결단과 호응합니다. 기토 일간의 작은 흙·세밀한 분석 기질이 데이터·트레이딩 정밀함과 통하고, 묘목 일지·인목 월지의 강한 목 기운이 회사·인프라 자본의 누적 성장을 가리킵니다." }
+}

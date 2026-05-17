@@ -1,0 +1,39 @@
+{
+  "id": "1512", "name": "Jeff Sutton", "nameKo": "제프 서턴",
+  "netWorth": 2.7, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Brooklyn, New York, USA", "birthPlaceKo": "미국 뉴욕 브루클린",
+    "familyBackground": "Born to Sephardic Jewish family in Brooklyn.", "familyBackgroundKo": "브루클린 세파르딕 유대인 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Founded Wharton Properties in 1980s — focused on Manhattan high-street retail real estate; major Times Square and 5th Avenue landlord.",
+    "earlyLifeKo": "1980년대 Wharton Properties 창립 — 맨해튼 하이 스트리트 소매 부동산 집중; 주요 타임 스퀘어·5번가 지주.",
+    "source": "https://en.wikipedia.org/wiki/Jeff_Sutton_(real_estate_investor)"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Wharton Properties 40+년 자수성가." },
+  "careerTimeline": [
+    { "year": 1980, "age": 20, "event": "Began Manhattan retail real-estate career.", "eventKo": "맨해튼 소매 부동산 경력 시작.", "whyItMatteredKo": "40+년 자수성가 출발선." },
+    { "year": 1990, "age": 30, "event": "Founded Wharton Properties; began aggressive Manhattan retail acquisitions.", "eventKo": "Wharton Properties 창립; 공격적 맨해튼 소매 인수 시작.", "whyItMatteredKo": "Wharton 출발선." },
+    { "year": 2010, "age": 50, "event": "Acquired major 5th Avenue and Times Square retail properties; became NYC retail landlord.", "eventKo": "주요 5번가·타임 스퀘어 소매 부동산 인수; NYC 소매 지주가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2020, "age": 60, "event": "COVID-19 collapsed NYC retail rents; Wharton portfolio compressed.", "eventKo": "COVID-19이 NYC 소매 임대료 붕괴; Wharton 포트폴리오 압축.", "whyItMatteredKo": "팬데믹 압박 단계." },
+    { "year": 2025, "age": 65, "event": "Personal net worth at $2.7B per Forbes Real-Time. NYC retail recovery resumed.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러. NYC 소매 회복 재개.", "whyItMatteredKo": "40+년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 30, "decisionKo": "Manhattan 소매 부동산 집중", "alternativeKo": "주거 부동산 잔류", "outcomeKo": "35년 후 NYC 하이 스트리트 소매 지주" }],
+  "moneyMechanics": { "primaryRevenueKo": "Wharton Properties(100% 소유) — Manhattan 소매 부동산", "industryKo": "상업 부동산(소매)", "businessModelKo": "5번가·타임 스퀘어·소호 소매 부동산 임대", "moatKo": "40+년 NYC 소매 입지 + 100% 소유 통제", "luckVsSkillKo": "운(40%): NYC 럭셔리 소매 부상. 실력(60%): 40+년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Wharton Properties; one of Manhattan's largest retail-property owners.",
+    "knownForKo": "Wharton Properties 창립자; 맨해튼 최대 소매 부동산 소유주 중 한 명.",
+    "philanthropy": "Supports Jewish-American community and education.", "philanthropyKo": "유대인·미국 공동체·교육 지원.",
+    "controversies": "2020 COVID rent collection disputes with major retailers; lasting NYC retail-tenant pressure.",
+    "controversiesKo": "2020 주요 소매상과의 COVID 임대료 수금 분쟁; 지속적 NYC 소매 테넌트 압박."
+  },
+  "characterKo": { "summaryKo": "Manhattan 소매 부동산 40+년 100% 소유 자수성가.", "tagsKo": ["Wharton Properties", "Manhattan 소매", "100% 소유"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 collapsed NYC retail rents; Wharton portfolio valuations compressed substantially.", "descriptionKo": "COVID-19이 NYC 소매 임대료 붕괴; Wharton 포트폴리오 밸류에이션 상당히 압축.", "lesson": "High-street retail concentrated exposure to pandemic.", "lessonKo": "하이 스트리트 소매가 팬데믹 집중 노출." },
+    { "year": 2023, "description": "E-commerce continued compressing Manhattan retail demand; lasting structural shift.", "descriptionKo": "이커머스가 Manhattan 소매 수요 계속 압축; 지속적 구조적 전환.", "lesson": "Brick-and-mortar retail faces e-commerce structural challenge.", "lessonKo": "오프라인 소매는 이커머스 구조적 도전 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.9 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Manhattan retail is the most valuable square footage in the world.", "textKo": "Manhattan 소매는 세계에서 가장 가치 있는 평방 피트다.", "context": "On NYC retail real estate", "contextKo": "NYC 소매 부동산에 대해", "source": "https://en.wikipedia.org/wiki/Jeff_Sutton_(real_estate_investor)" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Chuk month — 'sanggwan-gyeok', creative output, fitting retail-real-estate strategist.", "summaryKo": "갑진 일주 + 축월 상관격(창의적 결과물·표현)은 40+년에 걸쳐 Manhattan 소매 부동산이라는 도시 단위 자본을 누적해온 창의적 자본 사업과 호응합니다. 갑목 일간의 큰 나무·기둥 기질이 거대 부동산 회사 가부장 역할과 통하고, 진토 일지·축토 월지의 토 기운이 부동산 자본의 안정 기반을 이중으로 강조합니다." }
+}

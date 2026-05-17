@@ -1,0 +1,38 @@
+{
+  "id": "968", "name": "Hamilton James", "nameKo": "해밀턴 제임스",
+  "netWorth": 4.3, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Harvard University; Harvard MBA.", "educationKo": "하버드 대학교; 하버드 MBA.",
+    "earlyLife": "Joined Donaldson, Lufkin & Jenrette (DLJ); rose to chairman; joined Blackstone in 2002; became president and COO.",
+    "earlyLifeKo": "Donaldson, Lufkin & Jenrette(DLJ) 합류; 의장 부상; 2002년 Blackstone 합류; 사장·COO가 됨.",
+    "source": "https://en.wikipedia.org/wiki/Hamilton_E._James"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "DLJ + Blackstone 경력 + 사적 투자." },
+  "careerTimeline": [
+    { "year": 1975, "age": 24, "event": "Joined DLJ after Harvard MBA.", "eventKo": "하버드 MBA 후 DLJ 합류.", "whyItMatteredKo": "월스트리트 경력 출발선." },
+    { "year": 2000, "age": 49, "event": "DLJ acquired by Credit Suisse; James departed.", "eventKo": "DLJ가 Credit Suisse에 인수; 제임스 떠남.", "whyItMatteredKo": "DLJ 매각 단계." },
+    { "year": 2002, "age": 51, "event": "Joined Blackstone Group as president and COO.", "eventKo": "Blackstone Group 사장·COO로 합류.", "whyItMatteredKo": "Blackstone 단계." },
+    { "year": 2018, "age": 67, "event": "Stepped down as Blackstone president; remained executive vice chairman.", "eventKo": "Blackstone 사장에서 사임; 집행 부의장 잔류.", "whyItMatteredKo": "전환 단계." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $4.3B per Forbes Real-Time. Continues as Blackstone EVC.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러. Blackstone 집행 부의장 계속.", "whyItMatteredKo": "Blackstone 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2002, "age": 51, "decisionKo": "DLJ 떠나 Blackstone 합류", "alternativeKo": "독립 회사 창립", "outcomeKo": "23년 후 Blackstone 부의장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Blackstone Group(NYSE 상장) 지분 + 사적 투자", "industryKo": "사모펀드", "businessModelKo": "Blackstone PE carry + 사적 투자", "moatKo": "23년 Blackstone 핵심 임원", "luckVsSkillKo": "운(30%): Blackstone 황금기. 실력(70%): 23년 임원 일관성." },
+  "personalTraits": {
+    "knownFor": "Executive vice chairman of Blackstone Group; former Blackstone president and COO; former DLJ chairman.",
+    "knownForKo": "Blackstone Group 집행 부의장; 전 Blackstone 사장·COO; 전 DLJ 의장.",
+    "philanthropy": "Major Harvard patron; supports criminal-justice reform.", "philanthropyKo": "주요 하버드 후원자; 형사 사법 개혁 지원.",
+    "controversies": "Limited; standard Blackstone PE industry scrutiny.", "controversiesKo": "제한적; 표준 Blackstone PE 산업 감시."
+  },
+  "characterKo": { "summaryKo": "DLJ + Blackstone 50년 월스트리트 베테랑.", "tagsKo": ["Blackstone", "DLJ", "Harvard"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis briefly compressed Blackstone PE valuations.", "descriptionKo": "글로벌 금융위기로 Blackstone PE 밸류에이션 잠시 압축.", "lesson": "PE faces credit-cycle exposure.", "lessonKo": "PE는 신용 사이클 노출." },
+    { "year": 2022, "description": "Rising interest rates compressed Blackstone deal flow and BREIT redemptions.", "descriptionKo": "금리 상승으로 Blackstone 딜 플로·BREIT 환매 압축.", "lesson": "PE sensitive to rate environment.", "lessonKo": "PE는 금리 환경에 민감." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.8 }, { "year": 2020, "netWorth": 2.7 }, { "year": 2024, "netWorth": 4.0 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "PE is about hiring talent that can run companies you bought.", "textKo": "PE는 매수한 회사를 운영할 인재를 채용하는 것이다.", "context": "On Blackstone operations", "contextKo": "Blackstone 운영에 대해", "source": "https://www.blackstone.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Hae day pillar in Mi month — 'pyeonjae-gyeok', large external capital, fitting Blackstone president.", "summaryKo": "을해 일주 + 미월 편재격(크고 유동적인 외부 자본)은 Blackstone이라는 거대 외부 자본 운용 회사의 임원 역할과 호응합니다. 을목 일간 + 해수 일지의 부드러운 식물·수 기운이 자본 유동성과 통하고, 미토 월지의 토 기운이 PE 운용의 안정 기반을 가리킵니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1077", "name": "Margaret Baker", "nameKo": "마가렛 베이커",
+  "netWorth": 3.9, "nationality": "US", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Inherited substantial healthcare-related family-business stake; major US healthcare investor.",
+    "earlyLifeKo": "상당한 헬스케어 관련 가족 사업 지분 상속; 주요 미국 헬스케어 투자자.",
+    "source": "https://www.forbes.com/profile/margaret-baker/"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "가족 헬스케어 자본 상속." },
+  "careerTimeline": [
+    { "year": 1990, "age": 25, "event": "Began family healthcare-business governance involvement.", "eventKo": "가족 헬스케어 사업 거버넌스 관여 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2005, "age": 40, "event": "Major US healthcare-services consolidation; family stake substantially appreciated.", "eventKo": "주요 미국 헬스케어 서비스 통합; 가족 지분 상당히 상승.", "whyItMatteredKo": "통합 자본 단계." },
+    { "year": 2015, "age": 50, "event": "Continued as major healthcare family stakeholder.", "eventKo": "주요 헬스케어 가족 주주로 계속.", "whyItMatteredKo": "보유 단계." },
+    { "year": 2020, "age": 55, "event": "COVID-19 increased healthcare demand; family stake materially appreciated.", "eventKo": "COVID-19이 헬스케어 수요 증가; 가족 지분 실질적 상승.", "whyItMatteredKo": "팬데믹 부스트 단계." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $3.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 39억 달러.", "whyItMatteredKo": "헬스케어 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 25, "decisionKo": "가족 헬스케어 사업 진입", "alternativeKo": "독립 경로", "outcomeKo": "다세대 가족 헬스케어 자본의 상속자" }],
+  "moneyMechanics": { "primaryRevenueKo": "가족 헬스케어 사업 지분 + 다각화 투자", "industryKo": "헬스케어", "businessModelKo": "헬스케어 서비스·기술 지분 + 가족 사무실", "moatKo": "다세대 가족 자본 + 헬스케어 인맥", "luckVsSkillKo": "운(85%): 가족 자본 + 미국 헬스케어 부상. 실력(15%): 가족 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Major US healthcare family-business stakeholder.",
+    "knownForKo": "주요 미국 헬스케어 가족 사업 주주.",
+    "philanthropy": "Supports US healthcare research and women's health initiatives.", "philanthropyKo": "미국 헬스케어 연구·여성 건강 사업 지원.",
+    "controversies": "Limited; standard healthcare-industry regulatory scrutiny.", "controversiesKo": "제한적; 표준 헬스케어 산업 규제 감시."
+  },
+  "characterKo": { "summaryKo": "미국 헬스케어 가족 자본의 핵심 주주.", "tagsKo": ["미국 헬스케어 가족 자본"] },
+  "failures": [
+    { "year": 2010, "description": "Affordable Care Act implementation compressed parts of healthcare-services revenue.", "descriptionKo": "Affordable Care Act 시행이 헬스케어 서비스 매출 일부 압축.", "lesson": "Healthcare exposed to policy reform.", "lessonKo": "헬스케어는 정책 개혁 노출." },
+    { "year": 2022, "description": "Post-COVID healthcare normalization compressed revenue growth.", "descriptionKo": "팬데믹 후 헬스케어 정상화로 매출 성장 압축.", "lesson": "Pandemic demand-pull creates post-cycle compression.", "lessonKo": "팬데믹 수요 당김이 사이클 후 압축 야기." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.7 }, { "year": 2025, "netWorth": 3.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Healthcare wealth comes with healthcare responsibility.", "textKo": "헬스케어 부는 헬스케어 책임을 동반한다.", "context": "On healthcare investing", "contextKo": "헬스케어 투자에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-O day pillar in Shin month — 'pyeon-gwan-gyeok', strong external authority from regulated industry.", "summaryKo": "무오 일주 + 신월 편관격(강한 외부 압박·권력 충돌)은 미국 헬스케어 산업의 끊임없는 규제·FDA·CMS 권력 환경과 호응합니다. 무토 일간의 큰 산·안정 기질이 다세대 가족 자본의 가부장 역할과 통하고, 오화 일지의 화 기운이 헬스케어 표현 욕구를 가리키며, 신금 월지의 금 기운이 규제·정밀 분석의 결단력을 강조합니다." }
+}

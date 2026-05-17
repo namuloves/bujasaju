@@ -1,0 +1,39 @@
+{
+  "id": "1183", "name": "Kommer Damen", "nameKo": "코머르 다멘",
+  "netWorth": 3.5, "nationality": "NL", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Netherlands", "birthPlaceKo": "네덜란드",
+    "familyBackground": "Born to Damen family — Dutch shipbuilding family.", "familyBackgroundKo": "Damen 가족(네덜란드 조선 가족)에서 출생.",
+    "education": "Dutch higher education.", "educationKo": "네덜란드 고등교육.",
+    "earlyLife": "Took over family Damen Shipyards Group in 1969 at age 25; built into one of world's largest privately owned shipbuilders.",
+    "earlyLifeKo": "25세에 가족 Damen Shipyards Group 인수(1969); 세계 최대 비공개 조선사 중 하나로 성장.",
+    "source": "https://en.wikipedia.org/wiki/Damen_Group"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Damen Shipyards 100년 가족 자본 + 본인 56년 운영." },
+  "careerTimeline": [
+    { "year": 1969, "age": 25, "event": "Took over family Damen Shipyards at age 25.", "eventKo": "25세에 가족 Damen Shipyards 인수.", "whyItMatteredKo": "56년 가족 자본 운영 출발선." },
+    { "year": 1990, "age": 46, "event": "Pioneered modular shipbuilding; Damen expanded globally.", "eventKo": "모듈러 조선 개척; Damen 글로벌 확장.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2010, "age": 66, "event": "Damen became one of world's largest privately owned shipbuilders.", "eventKo": "Damen이 세계 최대 비공개 조선사 중 하나가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2020, "age": 76, "event": "Damen continued naval-and-commercial shipbuilding through pandemic.", "eventKo": "Damen이 팬데믹 통해 해군·상업 조선 계속.", "whyItMatteredKo": "팬데믹 단계." },
+    { "year": 2025, "age": 81, "event": "Personal net worth at $3.5B per Forbes Real-Time. Continues as Damen chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 35억 달러. Damen 의장 계속.", "whyItMatteredKo": "56년 운영 정점." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 46, "decisionKo": "모듈러 조선 개척", "alternativeKo": "전통 조선 잔류", "outcomeKo": "35년 후 글로벌 모듈러 조선 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Damen Shipyards Group(100% 가족 소유)", "industryKo": "조선·해군 함정", "businessModelKo": "모듈러 조선 + 해군 함정 + 상업 선박 + 서비스", "moatKo": "100년 가족 자본 + 모듈러 조선 IP", "luckVsSkillKo": "운(60%): 가족 자본. 실력(40%): 56년 모듈러 혁신 + 운영." },
+  "personalTraits": {
+    "knownFor": "Chairman of Damen Shipyards Group; pioneering modular shipbuilder; Dutch family-shipbuilding patriarch.",
+    "knownForKo": "Damen Shipyards Group 의장; 선구적 모듈러 조선업자; 네덜란드 가족 조선 가부장.",
+    "philanthropy": "Supports Dutch maritime education.", "philanthropyKo": "네덜란드 해양 교육 지원.",
+    "controversies": "2017 corruption case in Croatia; Damen settled with €5M fine; reputational damage.",
+    "controversiesKo": "2017 크로아티아 부패 사건; Damen이 500만 유로 벌금으로 합의; 평판 손상."
+  },
+  "characterKo": { "summaryKo": "Damen Shipyards 100년 가족 자본의 가부장 — 56년 운영.", "tagsKo": ["Damen Shipyards", "모듈러 조선", "네덜란드 가족"] },
+  "failures": [
+    { "year": 2017, "description": "Damen Croatia corruption case settled with €5M fine; reputational damage.", "descriptionKo": "Damen 크로아티아 부패 사건이 500만 유로 벌금으로 합의; 평판 손상.", "lesson": "Cross-border shipbuilding faces corruption tail risk.", "lessonKo": "국경 간 조선은 부패 잔여 리스크 직면." },
+    { "year": 2008, "description": "Global financial crisis compressed commercial shipbuilding orders.", "descriptionKo": "글로벌 금융위기로 상업 조선 주문 압축.", "lesson": "Shipbuilding cyclical with trade.", "lessonKo": "조선은 무역 순응 사이클." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.3 }, { "year": 2025, "netWorth": 3.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Modular shipbuilding lets us build ten ships at once.", "textKo": "모듈러 조선은 한 번에 10척의 배를 짓게 해준다.", "context": "On Damen innovation", "contextKo": "Damen 혁신에 대해", "source": "https://www.damen.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in Myo month — 'pyeonjae-gyeok', large external wealth, fitting global-shipbuilding patriarch.", "summaryKo": "계사 일주 + 묘월 편재격(크고 유동적인 외부 자본)은 글로벌 조선 산업의 거대 외부 자본 흐름과 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 모듈러 조선의 정밀 설계와 통하고, 사화 일지의 화 기운이 결단의 표현을, 묘목 월지의 목 기운이 회사 누적 성장을 가리킵니다." }
+}

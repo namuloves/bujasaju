@@ -1,0 +1,39 @@
+{
+  "id": "1370", "name": "Joel Greenberg", "nameKo": "조엘 그린버그",
+  "netWorth": 3.0, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Co-founded Susquehanna International Group (SIG) in 1987 — major quant-trading and options firm.",
+    "earlyLifeKo": "1987년 Susquehanna International Group(SIG) 공동 창립 — 주요 퀀트 거래·옵션 회사.",
+    "source": "https://www.sig.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Susquehanna International Group 38년 누적 자본." },
+  "careerTimeline": [
+    { "year": 1981, "age": 24, "event": "Began options-trading career.", "eventKo": "옵션 거래 경력 시작.", "whyItMatteredKo": "거래 경력 출발선." },
+    { "year": 1987, "age": 30, "event": "Co-founded Susquehanna International Group with Jeff Yass and others.", "eventKo": "제프 야스 등과 Susquehanna International Group 공동 창립.", "whyItMatteredKo": "SIG 출발선." },
+    { "year": 2010, "age": 53, "event": "SIG became major global options market maker.", "eventKo": "SIG가 주요 글로벌 옵션 마켓 메이커가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2020, "age": 63, "event": "SIG benefited from retail options-trading boom; major TikTok investor.", "eventKo": "SIG가 소매 옵션 거래 붐 혜택; 주요 TikTok 투자자.", "whyItMatteredKo": "정점 단계." },
+    { "year": 2025, "age": 68, "event": "Personal net worth at $3.0B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 30억 달러.", "whyItMatteredKo": "SIG 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1987, "age": 30, "decisionKo": "Susquehanna 공동 창립", "alternativeKo": "기존 회사 잔류", "outcomeKo": "38년 후 글로벌 옵션 메이커 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Susquehanna International Group 공동 창립자 지분", "industryKo": "퀀트 거래·옵션 마켓 메이킹", "businessModelKo": "옵션 마켓 메이킹 + 자기 자본 거래 + VC 투자", "moatKo": "38년 퀀트 거래 인프라 + 옵션 마켓 메이킹", "luckVsSkillKo": "운(30%): 1990-2025 옵션 시장 부상. 실력(70%): 38년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Susquehanna International Group; one of largest options market makers; major TikTok early investor.",
+    "knownForKo": "Susquehanna International Group 공동 창립자; 최대 옵션 마켓 메이커 중 하나; 주요 TikTok 초기 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "SIG's TikTok ownership controversy during 2024 US ban debate; private nature drew industry scrutiny.",
+    "controversiesKo": "2024 미국 금지 논쟁 동안 SIG의 TikTok 소유 논란; 비공개 성격이 산업 감시 야기."
+  },
+  "characterKo": { "summaryKo": "Susquehanna International Group 38년 옵션 마켓 메이커 공동 창립자.", "tagsKo": ["Susquehanna", "옵션 마켓 메이킹", "TikTok 투자"] },
+  "failures": [
+    { "year": 2024, "description": "TikTok US ban legislation threatened SIG's significant TikTok stake.", "descriptionKo": "TikTok 미국 금지 법안이 SIG의 상당한 TikTok 지분 위협.", "lesson": "Chinese-tied investments face geopolitical risk.", "lessonKo": "중국 연계 투자는 지정학적 리스크 직면." },
+    { "year": 2022, "description": "Retail options-trading slowdown briefly compressed SIG market-making revenue.", "descriptionKo": "소매 옵션 거래 둔화로 SIG 마켓 메이킹 매출 잠시 압축.", "lesson": "Options-trading revenue volatile.", "lessonKo": "옵션 거래 매출 변동성." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Market making is a business of speed and probability.", "textKo": "마켓 메이킹은 속도와 확률의 사업이다.", "context": "On options trading", "contextKo": "옵션 거래에 대해", "source": "https://www.sig.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Hae day pillar in Shin month — 'jeonggwan-gyeok', formal authority, fitting regulated market maker.", "summaryKo": "계해 일주 + 신월 정관격(공식 권위·규제 아래에서 일하는 구조)은 38년 옵션 마켓 메이킹이라는 SEC·CFTC 규제 환경과 호응합니다. 계수 일간·해수 일지의 강한 수 기운이 자본의 거대 유동성과 통하고, 신금 월지의 금 기운이 거래·결단의 정밀함을 가리킵니다." }
+}

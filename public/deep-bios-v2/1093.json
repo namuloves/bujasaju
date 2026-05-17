@@ -1,0 +1,39 @@
+{
+  "id": "1093", "name": "Margaret Cushing Whitman", "nameKo": "마거릿 쿠싱 휘트먼",
+  "netWorth": 3.8, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Cold Spring Harbor, New York, USA", "birthPlaceKo": "미국 뉴욕 콜드 스프링 하버",
+    "familyBackground": "Born to upper-middle-class American family.", "familyBackgroundKo": "미국 중상위 계급 가정에서 출생.",
+    "education": "Princeton University; Harvard MBA.", "educationKo": "프린스턴 대학교; 하버드 MBA.",
+    "earlyLife": "Worked at Procter & Gamble, Bain, Disney, Stride Rite, FTD; became CEO of eBay in 1998 — grew from $4M to $8B revenue.",
+    "earlyLifeKo": "Procter & Gamble·Bain·Disney·Stride Rite·FTD 근무; 1998년 eBay CEO 취임 — 400만 달러에서 80억 달러 매출 성장.",
+    "source": "https://en.wikipedia.org/wiki/Meg_Whitman"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "eBay 10년 CEO 스톡 옵션 + HP CEO + 다양화." },
+  "careerTimeline": [
+    { "year": 1979, "age": 22, "event": "Joined Procter & Gamble brand management.", "eventKo": "Procter & Gamble 브랜드 관리 합류.", "whyItMatteredKo": "관리 경력 출발선." },
+    { "year": 1998, "age": 41, "event": "Became eBay CEO; led IPO and massive growth to global e-commerce major.", "eventKo": "eBay CEO 취임; IPO와 글로벌 이커머스 메이저로의 거대 성장 주도.", "whyItMatteredKo": "eBay 단계." },
+    { "year": 2010, "age": 53, "event": "Ran for California governor as Republican; lost to Jerry Brown after $144M self-funded campaign.", "eventKo": "공화당으로 캘리포니아 주지사 출마; 1억 4,400만 달러 자기 자금 캠페인 후 제리 브라운에 패배.", "whyItMatteredKo": "정치 시도 단계." },
+    { "year": 2011, "age": 54, "event": "Became Hewlett-Packard CEO; oversaw split into HP Inc. and HPE.", "eventKo": "휴렛-팩커드 CEO 취임; HP Inc.와 HPE 분할 감독.", "whyItMatteredKo": "HP 단계." },
+    { "year": 2025, "age": 68, "event": "Personal net worth at $3.8B per Forbes Real-Time. Served as Ambassador to Kenya 2022-2024.", "eventKo": "포브스 실시간 기준 개인 순자산 38억 달러. 2022-2024 케냐 대사 봉직.", "whyItMatteredKo": "기업·정치 경력 정점." }
+  ],
+  "turningPoints": [{ "year": 1998, "age": 41, "decisionKo": "eBay CEO 인수 — Hasbro에서 스타트업으로 전환", "alternativeKo": "Hasbro 잔류", "outcomeKo": "27년 후 eBay·HP 베테랑 CEO + 정치인 + 대사" }],
+  "moneyMechanics": { "primaryRevenueKo": "eBay 스톡 옵션 + HP CEO 보수 + 정치 + 다각화 투자", "industryKo": "기술 + 정치", "businessModelKo": "기업 CEO 보수 + 자본 투자 + 정치 자금", "moatKo": "eBay·HP CEO 인지도 + 공화당 인맥", "luckVsSkillKo": "운(45%): 1998 eBay CEO 합류 타이밍. 실력(55%): 다회 메가 캡 CEO 일관성." },
+  "personalTraits": {
+    "knownFor": "Former CEO of eBay and Hewlett-Packard; former US Ambassador to Kenya (2022-2024); 2010 California gubernatorial candidate.",
+    "knownForKo": "전 eBay와 휴렛-팩커드 CEO; 전 미국 케냐 대사(2022-2024); 2010 캘리포니아 주지사 후보.",
+    "philanthropy": "Whitman Family Foundation supports Princeton, education.", "philanthropyKo": "Whitman 가족 재단이 프린스턴·교육 지원.",
+    "controversies": "2010 California governor campaign criticized over housekeeper immigration controversy; HP CEO strategic disputes; Quibi 2020 streaming-service failure (raised $1.75B, shut down in 6 months).",
+    "controversiesKo": "2010 캘리포니아 주지사 캠페인이 가사 도우미 이민 논란 비판; HP CEO 전략 분쟁; 2020 Quibi 스트리밍 서비스 실패(17억 5,000만 달러 조달, 6개월 만에 폐쇄)."
+  },
+  "characterKo": { "summaryKo": "eBay·HP CEO 베테랑 + 캘리포니아 정치인 + 케냐 대사.", "tagsKo": ["eBay 전 CEO", "HP 전 CEO", "케냐 대사", "Princeton"] },
+  "failures": [
+    { "year": 2010, "description": "Lost California gubernatorial race to Jerry Brown after $144M self-funded campaign.", "descriptionKo": "1억 4,400만 달러 자기 자금 캠페인 후 제리 브라운에 캘리포니아 주지사 선거 패배.", "lesson": "Money alone does not win Democratic-leaning state politics.", "lessonKo": "돈만으로 민주당 우세 주 정치를 이길 수 없다." },
+    { "year": 2020, "description": "Quibi streaming service shut down after raising $1.75B; lost in 6 months.", "descriptionKo": "Quibi 스트리밍 서비스가 17억 5,000만 달러 조달 후 폐쇄; 6개월에 손실.", "lesson": "Even experienced CEOs face product-market-fit failure.", "lessonKo": "경험 많은 CEO도 제품-시장 적합성 실패 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.9 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 3.6 }, { "year": 2025, "netWorth": 3.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "eBay was the first place where people learned to trust strangers online.", "textKo": "eBay는 사람들이 처음으로 온라인 낯선 사람을 신뢰하는 법을 배운 곳이다.", "context": "On eBay legacy", "contextKo": "eBay 유산에 대해", "source": "https://en.wikipedia.org/wiki/Meg_Whitman" }],
+  "books": { "authored": [{ "title": "The Power of Many", "year": 2010, "noteKo": "리더십 회고록." }], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Myo day pillar in Mi month — 'siksin-gyeok', creative output, fitting CEO-turned-politician-turned-diplomat.", "summaryKo": "계묘 일주 + 미월 식신격(창의적 결과물·표현)은 여러 메가 캡 회사 CEO + 정치인 + 대사라는 끊임없이 변신하는 그녀의 경로와 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 거대 회사 거버넌스의 정밀함과 통하고, 묘목 일지·미토 월지의 목·토 기운이 회사·자본의 누적 성장 + 안정 기반을 가리킵니다." }
+}

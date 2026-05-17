@@ -1,0 +1,39 @@
+{
+  "id": "1591", "name": "Eugene Murtagh", "nameKo": "유진 머타",
+  "netWorth": 2.5, "nationality": "IE", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Kingscourt, Ireland", "birthPlaceKo": "아일랜드 킹스코트",
+    "familyBackground": "Born to Irish farming family.", "familyBackgroundKo": "아일랜드 농가에서 출생.",
+    "education": "Irish higher education.", "educationKo": "아일랜드 고등교육.",
+    "earlyLife": "Founded Kingspan Group in 1965 as insulation and engineered-building-products company.",
+    "earlyLifeKo": "1965년 Kingspan Group을 절연·엔지니어링 건축 제품 회사로 창립.",
+    "source": "https://en.wikipedia.org/wiki/Kingspan_Group"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Kingspan Group 60년 자수성가." },
+  "careerTimeline": [
+    { "year": 1965, "age": 22, "event": "Founded Kingspan Group in Kingscourt, Ireland.", "eventKo": "아일랜드 킹스코트에서 Kingspan Group 창립.", "whyItMatteredKo": "60년 자수성가 출발선." },
+    { "year": 1989, "age": 46, "event": "Kingspan IPO on Dublin Stock Exchange.", "eventKo": "Kingspan 더블린 증시 IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2010, "age": 67, "event": "Kingspan became global leader in building-insulation products.", "eventKo": "Kingspan이 건축 절연 제품 글로벌 리더가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2020, "age": 77, "event": "Grenfell Tower fire inquiry exposed Kingspan's K15 insulation product role.", "eventKo": "Grenfell Tower 화재 조사가 Kingspan K15 절연 제품 역할 폭로.", "whyItMatteredKo": "위기 단계." },
+    { "year": 2025, "age": 82, "event": "Personal net worth at $2.5B per Forbes Real-Time. Continues as Kingspan executive director.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러. Kingspan 집행 이사 계속.", "whyItMatteredKo": "60년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1965, "age": 22, "decisionKo": "아일랜드에서 절연 제품 회사 창립", "alternativeKo": "농가 잔류", "outcomeKo": "60년 후 글로벌 건축 절연 리더" }],
+  "moneyMechanics": { "primaryRevenueKo": "Kingspan Group(더블린·런던 증시) 창립자 지분", "industryKo": "건축 절연·엔지니어링 제품", "businessModelKo": "절연 패널 + 단열 + 건축 외피 + 글로벌 매출", "moatKo": "60년 절연 제품 R&D + 가족 통제", "luckVsSkillKo": "운(25%): 글로벌 건축 효율 부상. 실력(75%): 60년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Kingspan Group; Irish industrial-manufacturing patriarch.",
+    "knownForKo": "Kingspan Group 창립자; 아일랜드 산업 제조 가부장.",
+    "philanthropy": "Murtagh family supports Irish education and rural community.", "philanthropyKo": "Murtagh 가족이 아일랜드 교육·농촌 지역 사회 지원.",
+    "controversies": "2020-2024 Grenfell Tower Inquiry found Kingspan K15 insulation contributed to fire spread; major reputational damage.",
+    "controversiesKo": "2020-2024 Grenfell Tower 조사에서 Kingspan K15 절연이 화재 확산 기여 발견; 주요 평판 손상."
+  },
+  "characterKo": { "summaryKo": "Kingspan Group 60년 자수성가 — 글로벌 건축 절연 + Grenfell 위기.", "tagsKo": ["Kingspan Group", "건축 절연", "Grenfell 조사"] },
+  "failures": [
+    { "year": 2020, "description": "Grenfell Tower Inquiry found Kingspan K15 insulation used in fatal tower fire; multi-year reputational damage.", "descriptionKo": "Grenfell Tower 조사가 치명적 타워 화재에 Kingspan K15 절연 사용 발견; 다년간 평판 손상.", "lesson": "Building-materials face product-safety tail liability.", "lessonKo": "건축 자재는 제품 안전 잔여 책임 직면." },
+    { "year": 2008, "description": "Global financial crisis crushed building-construction demand; Kingspan absorbed cyclical losses.", "descriptionKo": "글로벌 금융위기로 건축 수요 붕괴; Kingspan이 사이클 손실 흡수.", "lesson": "Building products pro-cyclical.", "lessonKo": "건축 제품 순응 사이클." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Insulation is the invisible engineering of buildings.", "textKo": "절연은 건물의 보이지 않는 엔지니어링이다.", "context": "On Kingspan products", "contextKo": "Kingspan 제품에 대해", "source": "https://www.kingspan.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Mi day pillar in O month — 'geollok-gyeok', strong self-energy, fitting industrial-founder patriarch.", "summaryKo": "정미 일주 + 오월 건록격(강한 자기 자본 + 자신감)은 60년 단일 회사 자수성가의 강한 자기 자본 표현과 호응합니다. 정화 일간 + 오화 월지의 강한 화 기운이 결단·표현·에너지의 거대 자아를 가리키고, 미토 일지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

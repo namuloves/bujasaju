@@ -1,0 +1,39 @@
+{
+  "id": "735", "name": "Jayshree V. Ullal", "nameKo": "제이슈리 V. 울랄",
+  "netWorth": 5.5, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "London, United Kingdom", "birthPlaceKo": "영국 런던",
+    "familyBackground": "Born to Indian family in London; raised in India and US.", "familyBackgroundKo": "런던 인도 가정에서 출생; 인도와 미국에서 성장.",
+    "education": "San Francisco State University (electrical engineering); Santa Clara University MBA.", "educationKo": "샌프란시스코 주립대학교(전기공학); 산타클라라 대학교 MBA.",
+    "earlyLife": "Worked at Cisco Systems for 15 years; joined Arista Networks in 2008 as CEO — cloud-networking pioneer.",
+    "earlyLifeKo": "Cisco Systems에서 15년 근무; 2008년 Arista Networks CEO로 합류 — 클라우드 네트워킹 선구자.",
+    "source": "https://en.wikipedia.org/wiki/Jayshree_Ullal"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Cisco 경력 + Arista Networks 17년 CEO 지분." },
+  "careerTimeline": [
+    { "year": 1993, "age": 32, "event": "Joined Cisco Systems; rose to senior vice president.", "eventKo": "Cisco Systems 합류; 시니어 부사장 부상.", "whyItMatteredKo": "Cisco 경력 출발선." },
+    { "year": 2008, "age": 47, "event": "Joined Arista Networks as CEO; pivoted company to cloud-networking focus.", "eventKo": "Arista Networks CEO로 합류; 회사를 클라우드 네트워킹 집중으로 피벗.", "whyItMatteredKo": "Arista 출발선." },
+    { "year": 2014, "age": 53, "event": "Arista Networks IPO on NYSE; cemented cloud-networking leadership.", "eventKo": "Arista Networks NYSE IPO; 클라우드 네트워킹 리더십 굳힘.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2020, "age": 59, "event": "Arista exceeded $2B revenue; major Microsoft, Meta data-center customer.", "eventKo": "Arista가 20억 달러 매출 초과; 주요 Microsoft·Meta 데이터센터 고객.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $5.5B per Forbes Real-Time. Arista benefits from AI data-center buildout.", "eventKo": "포브스 실시간 기준 개인 순자산 55억 달러. Arista가 AI 데이터센터 구축 혜택.", "whyItMatteredKo": "AI 데이터센터 정점." }
+  ],
+  "turningPoints": [{ "year": 2008, "age": 47, "decisionKo": "Cisco 떠나 Arista 합류·CEO 인수", "alternativeKo": "Cisco SVP 잔류", "outcomeKo": "17년 후 클라우드 네트워킹 메이저 CEO" }],
+  "moneyMechanics": { "primaryRevenueKo": "Arista Networks(NYSE 상장) 창립 CEO 지분", "industryKo": "네트워킹·클라우드 인프라", "businessModelKo": "데이터센터·클라우드 스위치 + AI 네트워킹", "moatKo": "17년 클라우드 네트워킹 트랙 + 빅테크 고객", "luckVsSkillKo": "운(30%): 2008-2025 클라우드 부상. 실력(70%): 15년 Cisco + 17년 Arista CEO." },
+  "personalTraits": {
+    "knownFor": "President and CEO of Arista Networks; cloud-networking pioneer; one of US tech's most successful female CEOs.",
+    "knownForKo": "Arista Networks 사장·CEO; 클라우드 네트워킹 선구자; 미국 기술계 가장 성공한 여성 CEO 중 한 명.",
+    "philanthropy": "Supports STEM education and women in tech.", "philanthropyKo": "STEM 교육·기술 여성 지원.",
+    "controversies": "Cisco-Arista patent-infringement lawsuits 2014-2018 ($335M Arista verdict, later overturned).",
+    "controversiesKo": "2014-2018 Cisco-Arista 특허 침해 소송(3억 3,500만 달러 Arista 평결, 이후 뒤집힘)."
+  },
+  "characterKo": { "summaryKo": "Cisco 15년 + Arista Networks 17년 CEO — 클라우드 네트워킹 메이저.", "tagsKo": ["Arista Networks", "Cisco 출신", "클라우드 네트워킹"] },
+  "failures": [
+    { "year": 2014, "description": "Cisco sued Arista Networks for patent infringement; multi-year ITC and federal litigation.", "descriptionKo": "Cisco가 Arista Networks를 특허 침해로 소송; 다년간 ITC·연방 소송.", "lesson": "Networking IP disputes create multi-year overhang.", "lessonKo": "네트워킹 IP 분쟁이 다년간 부담 야기." },
+    { "year": 2022, "description": "Tech-stock decline compressed Arista valuation 40%+ briefly.", "descriptionKo": "기술주 하락으로 Arista 밸류에이션 잠시 40%+ 압축.", "lesson": "High-growth tech valuations cyclical.", "lessonKo": "고성장 기술 밸류에이션은 주기적." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.8 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 5.0 }, { "year": 2025, "netWorth": 5.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Networking is invisible until it fails. Arista makes it not fail.", "textKo": "네트워킹은 실패할 때까지 보이지 않는다. Arista가 실패하지 않게 만든다.", "context": "On Arista mission", "contextKo": "Arista 미션에 대해", "source": "https://www.arista.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Mi day pillar in Myo month — 'siksin-gyeok', creative output, fitting networking-pioneer CEO.", "summaryKo": "기미 일주 + 묘월 식신격(창의적 결과물·표현)은 17년에 걸쳐 클라우드 네트워킹이라는 새 카테고리를 만든 그녀의 창의적 자수성가와 호응합니다. 기토 일간 + 미토 일지의 강한 토 기운이 거대 회사 CEO의 안정 가부장 역할과 통하고, 묘목 월지의 목 기운이 회사·산업의 누적 성장을 가리킵니다." }
+}

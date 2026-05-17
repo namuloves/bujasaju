@@ -1,0 +1,40 @@
+{
+  "id": "187", "name": "Shahid Khan", "nameKo": "샤히드 라피크 칸",
+  "netWorth": 14.5, "nationality": "US", "industry": "Automotive",
+  "childhood": {
+    "birthPlace": "Lahore, Pakistan", "birthPlaceKo": "파키스탄 라호르",
+    "familyBackground": "Born to Pakistani middle-class family; migrated to US at 16.", "familyBackgroundKo": "파키스탄 중산층 가정에서 출생; 16세에 미국 이주.",
+    "education": "University of Illinois Urbana-Champaign (industrial engineering).", "educationKo": "일리노이 어바나-샴페인 대학교(산업공학).",
+    "earlyLife": "Joined Flex-N-Gate auto-parts manufacturer; bought company in 1980; built into global Tier-1 auto-parts supplier; owner of Jacksonville Jaguars NFL and Fulham FC.",
+    "earlyLifeKo": "Flex-N-Gate 자동차 부품 제조사 합류; 1980 회사 매수; 글로벌 1티어 자동차 부품 공급사로 구축; 잭슨빌 재규어스 NFL과 풀럼 FC 소유주.",
+    "source": "https://en.wikipedia.org/wiki/Shahid_Khan"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Flex-N-Gate 45년 자수성가." },
+  "careerTimeline": [
+    { "year": 1971, "age": 20, "event": "Joined Flex-N-Gate as engineer.", "eventKo": "Flex-N-Gate 엔지니어로 합류.", "whyItMatteredKo": "자동차 부품 경력 출발선." },
+    { "year": 1980, "age": 29, "event": "Bought Flex-N-Gate from owner.", "eventKo": "소유주로부터 Flex-N-Gate 매수.", "whyItMatteredKo": "MBO 출발선." },
+    { "year": 2000, "age": 49, "event": "Flex-N-Gate became major global Tier-1 auto-parts supplier (bumpers).", "eventKo": "Flex-N-Gate가 주요 글로벌 1티어 자동차 부품 공급사(범퍼)가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2011, "age": 60, "event": "Acquired Jacksonville Jaguars NFL team for $770M; first Pakistani-American NFL owner.", "eventKo": "잭슨빌 재규어스 NFL 팀을 7억 7,000만 달러 인수; 첫 파키스탄·미국 NFL 소유주.", "whyItMatteredKo": "스포츠 단계." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $14.5B per Forbes Real-Time. Continues Flex-N-Gate, Jaguars, Fulham FC.", "eventKo": "포브스 실시간 기준 개인 순자산 145억 달러. Flex-N-Gate·재규어스·풀럼 FC 계속.", "whyItMatteredKo": "Flex-N-Gate + NFL + EPL 정점." }
+  ],
+  "turningPoints": [{ "year": 1980, "age": 29, "decisionKo": "MBO로 Flex-N-Gate 매수", "alternativeKo": "직장 잔류", "outcomeKo": "45년 후 글로벌 1티어 자동차 부품 + NFL + EPL 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Flex-N-Gate(100% 소유) + Jacksonville Jaguars + Fulham FC", "industryKo": "자동차 부품 + 스포츠", "businessModelKo": "범퍼·차체 부품 OEM 공급 + NFL + EPL 팀", "moatKo": "45년 자동차 OEM 인증 + 100% 소유 회사", "luckVsSkillKo": "운(20%): 미국 이민 + 자동차 산업 부상. 실력(80%): 45년 단일 비전 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Flex-N-Gate; first Pakistani-American NFL team owner; owner of Jacksonville Jaguars and Fulham FC.",
+    "knownForKo": "Flex-N-Gate 창립자; 첫 파키스탄·미국 NFL 팀 소유주; 잭슨빌 재규어스와 풀럼 FC 소유주.",
+    "philanthropy": "Khan Foundation supports Pakistan flood relief, US/Pakistan-American education.",
+    "philanthropyKo": "Khan 재단이 파키스탄 홍수 구호·미국·파키스탄·미국 교육 지원.",
+    "controversies": "Jaguars Saudi Arabia tour controversies; Fulham FC managerial changes; political donor scrutiny.",
+    "controversiesKo": "재규어스 사우디 투어 논란; 풀럼 FC 감독 교체; 정치 기부자 감시."
+  },
+  "characterKo": { "summaryKo": "파키스탄 이민자가 자동차 부품 + NFL + EPL 거물로 45년 자수성가.", "tagsKo": ["Flex-N-Gate", "Jacksonville Jaguars", "Fulham FC", "파키스탄 이민자"] },
+  "failures": [
+    { "year": 2009, "description": "Global financial crisis crashed auto industry; Flex-N-Gate absorbed major Tier-1 supplier crisis.", "descriptionKo": "글로벌 금융위기로 자동차 산업 붕괴; Flex-N-Gate가 주요 1티어 공급사 위기 흡수.", "lesson": "Auto supply chain cyclical with vehicle demand.", "lessonKo": "자동차 공급망은 차량 수요 순응 사이클." },
+    { "year": 2020, "description": "COVID-19 disrupted auto-manufacturing globally; Flex-N-Gate absorbed pandemic costs.", "descriptionKo": "COVID-19이 글로벌 자동차 제조 혼란; Flex-N-Gate가 팬데믹 비용 흡수.", "lesson": "Manufacturing supply chain pandemic-exposed.", "lessonKo": "제조 공급망 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 5.5 }, { "year": 2020, "netWorth": 7.6 }, { "year": 2024, "netWorth": 12.0 }, { "year": 2025, "netWorth": 14.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "America took me in. I owe it the work I do.", "textKo": "미국이 나를 받아줬다. 내가 하는 일은 미국에 빚지고 있다.", "context": "On American Dream", "contextKo": "아메리칸 드림에 대해", "source": "https://en.wikipedia.org/wiki/Shahid_Khan" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-In day pillar in Mi month — 'jeongin-gyeok', formal-academic foundation, fitting engineering-trained MBO founder.", "summaryKo": "갑인 일주 + 미월 정인격(공식 자격·학문·문서 권위)은 산업공학 학위 + 45년 자동차 부품 자수성가라는 학문·정통 기반과 호응합니다. 갑목 일간 + 인목 일지의 강한 목 기운이 회사·자본의 거대 누적 성장을 가리키고, 미토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

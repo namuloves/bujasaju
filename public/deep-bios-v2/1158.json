@@ -1,0 +1,40 @@
+{
+  "id": "1158", "name": "Brian Acton", "nameKo": "브라이언 액턴",
+  "netWorth": 3.6, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Michigan, USA", "birthPlaceKo": "미국 미시간",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Stanford University (computer science).", "educationKo": "스탠퍼드 대학교(컴퓨터 과학).",
+    "earlyLife": "Worked at Yahoo for 11 years; co-founded WhatsApp with Jan Koum in 2009; sold to Facebook for $19B in 2014; left to start Signal Foundation.",
+    "earlyLifeKo": "Yahoo에서 11년 근무; 2009 잔 쿰과 WhatsApp 공동 창립; 2014 Facebook에 190억 달러 매각; 떠나 Signal Foundation 시작.",
+    "source": "https://en.wikipedia.org/wiki/Brian_Acton"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "WhatsApp 공동 창립자 + Facebook 매각." },
+  "careerTimeline": [
+    { "year": 1996, "age": 24, "event": "Joined Yahoo as early employee.", "eventKo": "Yahoo 초기 직원으로 합류.", "whyItMatteredKo": "Yahoo 경력 출발선." },
+    { "year": 2009, "age": 37, "event": "Co-founded WhatsApp with Jan Koum after Facebook rejected both for jobs.", "eventKo": "Facebook이 둘 다 채용 거부 후 잔 쿰과 WhatsApp 공동 창립.", "whyItMatteredKo": "WhatsApp 출발선." },
+    { "year": 2014, "age": 42, "event": "Sold WhatsApp to Facebook for $19B; one of largest tech deals.", "eventKo": "WhatsApp을 Facebook에 190억 달러 매각; 최대 기술 거래 중 하나.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2017, "age": 45, "event": "Left WhatsApp/Facebook over privacy/monetization disputes; founded Signal Foundation with $50M.", "eventKo": "프라이버시·수익화 분쟁으로 WhatsApp/Facebook 떠남; 5,000만 달러로 Signal Foundation 창립.", "whyItMatteredKo": "Signal 단계." },
+    { "year": 2025, "age": 53, "event": "Personal net worth at $3.6B per Forbes Real-Time. Signal Foundation supports private messaging.", "eventKo": "포브스 실시간 기준 개인 순자산 36억 달러. Signal Foundation이 비공개 메시징 지원.", "whyItMatteredKo": "Signal + 자선가 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 45, "decisionKo": "프라이버시 분쟁으로 Facebook 떠남 + Signal 창립", "alternativeKo": "Facebook 잔류", "outcomeKo": "8년 후 비공개 메시징 운동의 자선 후원자" }],
+  "moneyMechanics": { "primaryRevenueKo": "WhatsApp 매각 Facebook 주식 + Signal Foundation", "industryKo": "기술 매각 + 비공개 메시징 자선", "businessModelKo": "Facebook 주식 + Signal 비영리 + 다각화 투자", "moatKo": "WhatsApp 매각 대금 + Signal 프라이버시 브랜드", "luckVsSkillKo": "운(40%): 2014 Facebook 매각 타이밍. 실력(60%): Yahoo + WhatsApp + Signal 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of WhatsApp; founder/funder of Signal Foundation; outspoken privacy advocate.",
+    "knownForKo": "WhatsApp 공동 창립자; Signal Foundation 창립자·자금 제공자; 노골적 프라이버시 옹호자.",
+    "philanthropy": "Signal Foundation funded $50M+ to support encrypted-messaging research and app.",
+    "philanthropyKo": "Signal Foundation이 암호화 메시징 연구·앱 지원에 5,000만 달러+ 자금.",
+    "controversies": "2018 #DeleteFacebook tweet drew sustained criticism; ongoing privacy-vs-Facebook narrative.",
+    "controversiesKo": "2018 #DeleteFacebook 트윗이 지속적 비판 야기; 진행 중 프라이버시 대 Facebook 서사."
+  },
+  "characterKo": { "summaryKo": "WhatsApp 공동 창립 + Signal Foundation 프라이버시 운동 후원자.", "tagsKo": ["WhatsApp", "Signal Foundation", "#DeleteFacebook"] },
+  "failures": [
+    { "year": 2017, "description": "Lost equity vesting by leaving Facebook early over privacy disputes; estimated $850M+ unvested stock forfeited.", "descriptionKo": "프라이버시 분쟁으로 Facebook 일찍 떠나 지분 베스팅 상실; 추정 8억 5,000만 달러+ 미베스트 주식 박탈.", "lesson": "Principles cost real money in tech.", "lessonKo": "기술에서 원칙은 실제 돈이 든다." },
+    { "year": 2020, "description": "Tech regulatory scrutiny pressured encrypted-messaging companies; Signal faced legal pressure.", "descriptionKo": "기술 규제 감시가 암호화 메시징 회사 압박; Signal 법적 압박 직면.", "lesson": "Encrypted messaging faces sustained regulatory tension.", "lessonKo": "암호화 메시징은 지속적 규제 긴장 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.0 }, { "year": 2020, "netWorth": 3.3 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I sold my users' privacy to make a larger profit. I went against my principles.", "textKo": "더 큰 이익을 위해 사용자의 프라이버시를 팔았다. 내 원칙을 거슬렀다.", "context": "On WhatsApp Facebook sale reflection", "contextKo": "WhatsApp Facebook 매각 회고에 대해", "source": "https://signal.org" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-In day pillar in In month — 'pyeonjae-gyeok' with strong wood, fitting tech founder + privacy advocate.", "summaryKo": "무인 일주 + 인월 편재격(크고 유동적인 외부 자본)은 WhatsApp 매각이라는 거대 외부 자본 + 프라이버시 운동이라는 비전형적 자본 통로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 가부장과 통하고, 일지·월지 모두 인목으로 회사·운동의 누적 성장을 이중으로 강조합니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "821", "name": "Robert Faith", "nameKo": "로버트 페이스",
+  "netWorth": 5.0, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Oklahoma, USA", "birthPlaceKo": "미국 오클라호마",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "University of Oklahoma; Harvard MBA.", "educationKo": "오클라호마 대학교; 하버드 MBA.",
+    "earlyLife": "Worked at Trammell Crow; founded Greystar Real Estate Partners in 1993 — largest US multifamily-apartment property manager.",
+    "earlyLifeKo": "Trammell Crow 근무; 1993년 Greystar Real Estate Partners 창립 — 미국 최대 다세대 아파트 부동산 관리사.",
+    "source": "https://www.greystar.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Greystar Real Estate 32년 자수성가." },
+  "careerTimeline": [
+    { "year": 1985, "age": 22, "event": "Joined Trammell Crow Company after Oklahoma; learned real-estate development.", "eventKo": "오클라호마 후 Trammell Crow Company 합류; 부동산 개발 학습.", "whyItMatteredKo": "경력 출발선." },
+    { "year": 1993, "age": 30, "event": "Founded Greystar Real Estate Partners in Charleston, SC.", "eventKo": "사우스캐롤라이나 찰스턴에서 Greystar Real Estate Partners 창립.", "whyItMatteredKo": "32년 자수성가 출발선." },
+    { "year": 2010, "age": 47, "event": "Greystar became largest US multifamily-property manager — 700K+ units.", "eventKo": "Greystar가 미국 최대 다세대 부동산 관리사가 됨 — 70만+ 단위.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2020, "age": 57, "event": "Greystar expanded into student housing, senior living, and global markets.", "eventKo": "Greystar가 학생 주택·시니어 리빙·글로벌 시장 확장.", "whyItMatteredKo": "글로벌 확장 단계." },
+    { "year": 2025, "age": 62, "event": "Personal net worth at $5.0B per Forbes Real-Time. Greystar manages 850K+ apartment units globally.", "eventKo": "포브스 실시간 기준 개인 순자산 50억 달러. Greystar가 글로벌 85만+ 아파트 단위 관리.", "whyItMatteredKo": "32년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1993, "age": 30, "decisionKo": "Trammell Crow 떠나 Greystar 창립", "alternativeKo": "Trammell Crow 잔류", "outcomeKo": "32년 후 미국 최대 다세대 부동산 관리사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Greystar Real Estate Partners(100% 소유) — 부동산 관리 + 개발 + 투자 펀드", "industryKo": "부동산 관리·개발·투자", "businessModelKo": "다세대 아파트 관리 + 개발 + 부동산 펀드 운용", "moatKo": "32년 다세대 부동산 1위 운영 인프라", "luckVsSkillKo": "운(30%): 미국 다세대 아파트 시장 부상. 실력(70%): 32년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Greystar Real Estate Partners; largest US multifamily property manager.",
+    "knownForKo": "Greystar Real Estate Partners 창립자; 미국 최대 다세대 부동산 관리사.",
+    "philanthropy": "Supports Charleston community and University of Oklahoma.", "philanthropyKo": "찰스턴 지역 사회·오클라호마 대학교 지원.",
+    "controversies": "Multi-family rent-increase practices drew sustained criticism; antitrust scrutiny of property-management consolidation.",
+    "controversiesKo": "다세대 임대료 인상 관행이 지속적 비판 야기; 부동산 관리 통합 반독점 감시."
+  },
+  "characterKo": { "summaryKo": "Greystar 32년 자수성가 — 미국 최대 다세대 부동산 관리사.", "tagsKo": ["Greystar", "다세대 부동산", "32년 자수성가"] },
+  "failures": [
+    { "year": 2023, "description": "DOJ investigated multifamily property managers including Greystar for rent-pricing algorithm collusion.", "descriptionKo": "DOJ가 임대료 가격 책정 알고리즘 담합으로 Greystar 포함 다세대 부동산 관리사 조사.", "lesson": "Algorithmic pricing in housing carries antitrust exposure.", "lessonKo": "주택의 알고리즘 가격 책정은 반독점 노출 동반." },
+    { "year": 2020, "description": "COVID-19 disrupted apartment rent collections; eviction moratoriums affected Greystar.", "descriptionKo": "COVID-19이 아파트 임대료 수금 혼란; 퇴거 유예가 Greystar 영향.", "lesson": "Rental real-estate exposed to policy shifts.", "lessonKo": "임대 부동산은 정책 전환 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.7 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.7 }, { "year": 2025, "netWorth": 5.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Multifamily is local. Scale comes from doing local many times.", "textKo": "다세대는 지역적이다. 규모는 지역을 여러 번 함에서 온다.", "context": "On Greystar business", "contextKo": "Greystar 사업에 대해", "source": "https://www.greystar.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Myo day pillar in Yu month — 'siksin-gyeok', creative output, fitting property-management entrepreneur.", "summaryKo": "기묘 일주 + 유월 식신격(창의적 결과물·표현)은 다세대 부동산이라는 매일 새 임차인·매니지먼트 결과물을 만드는 산업과 호응합니다. 기토 일간의 작은 흙·세밀한 농경 기질이 부동산 관리의 정밀함과 통하고, 묘목 일지의 목 기운이 회사 누적 성장을, 유금 월지의 금 기운이 결단의 예리함을 가리킵니다." }
+}

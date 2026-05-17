@@ -1,0 +1,39 @@
+{
+  "id": "1084", "name": "Daniel Sundheim", "nameKo": "다니엘 선드하임",
+  "netWorth": 3.8, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Wharton School (Penn).", "educationKo": "와튼 스쿨(펜).",
+    "earlyLife": "Joined Viking Global Investors after Wharton; rose to CIO; founded D1 Capital Partners in 2018 — hedge-fund/PE hybrid.",
+    "earlyLifeKo": "와튼 후 Viking Global Investors 합류; CIO 부상; 2018년 D1 Capital Partners 창립 — 헤지펀드·PE 하이브리드.",
+    "source": "https://en.wikipedia.org/wiki/Daniel_Sundheim"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Viking 경력 + D1 Capital 7년 자수성가." },
+  "careerTimeline": [
+    { "year": 1999, "age": 22, "event": "Joined Viking Global Investors after Wharton; began equity-research career.", "eventKo": "와튼 후 Viking Global Investors 합류; 주식 리서치 경력 시작.", "whyItMatteredKo": "헤지펀드 경력 출발선." },
+    { "year": 2014, "age": 37, "event": "Promoted to Viking Global CIO; led $30B+ AUM portfolio.", "eventKo": "Viking Global CIO 승진; 300억 달러+ AUM 포트폴리오 주도.", "whyItMatteredKo": "CIO 단계." },
+    { "year": 2018, "age": 41, "event": "Founded D1 Capital Partners — hedge-fund and private-investment hybrid.", "eventKo": "D1 Capital Partners 창립 — 헤지펀드·사적 투자 하이브리드.", "whyItMatteredKo": "독립 출발선." },
+    { "year": 2021, "age": 44, "event": "D1 Capital AUM exceeded $20B; major tech-growth investor.", "eventKo": "D1 Capital AUM 200억 달러 초과; 주요 기술 성장 투자자.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 48, "event": "Personal net worth at $3.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 38억 달러.", "whyItMatteredKo": "D1 Capital 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2018, "age": 41, "decisionKo": "Viking CIO에서 독립 D1 Capital 창립", "alternativeKo": "Viking CIO 잔류", "outcomeKo": "7년 후 200억 달러+ AUM 헤지펀드 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "D1 Capital Partners 창립자 지분 + 헤지펀드 carry", "industryKo": "헤지펀드 + 사적 투자", "businessModelKo": "롱-숏 주식 + 사적 기술 투자 하이브리드", "moatKo": "Viking Tiger Cub 트랙 레코드 + 사적·공적 투자 결합", "luckVsSkillKo": "운(35%): 2018-2021 사적 기술 슈퍼사이클. 실력(65%): Viking + D1 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of D1 Capital Partners; former Viking Global CIO; pioneering public-private hybrid investor.",
+    "knownForKo": "D1 Capital Partners 창립자; 전 Viking Global CIO; 선구적 공적·사적 하이브리드 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "D1 Capital faced 2022 growth-stock losses; Viking-style governance scrutiny.",
+    "controversiesKo": "D1 Capital이 2022 성장주 손실 직면; Viking 스타일 거버넌스 감시."
+  },
+  "characterKo": { "summaryKo": "Viking Global CIO 출신 D1 Capital 창립자 — 공적·사적 하이브리드 펀드.", "tagsKo": ["D1 Capital", "Viking Global", "Tiger Cub", "하이브리드"] },
+  "failures": [
+    { "year": 2022, "description": "D1 Capital suffered 30%+ losses during growth-stock decline; AUM compressed.", "descriptionKo": "D1 Capital이 성장주 하락 동안 30%+ 손실; AUM 압축.", "lesson": "Concentrated growth funds face severe drawdowns.", "lessonKo": "집중된 성장 펀드는 심각한 하락 직면." },
+    { "year": 2023, "description": "Private-investment portfolio markdowns added to D1 Capital pressure.", "descriptionKo": "사적 투자 포트폴리오 가치 절하가 D1 Capital 압박 추가.", "lesson": "Public-private hybrid faces dual-cycle exposure.", "lessonKo": "공적·사적 하이브리드는 이중 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.8 }, { "year": 2021, "netWorth": 3.5 }, { "year": 2024, "netWorth": 3.6 }, { "year": 2025, "netWorth": 3.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Public markets and private companies converge in our heads anyway.", "textKo": "공적 시장과 비공개 회사는 우리 머리에서 어차피 수렴한다.", "context": "On D1 Capital strategy", "contextKo": "D1 Capital 전략에 대해", "source": "https://www.d1capital.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Yu day pillar in Myo month — 'pyeon-in-gyeok', creative intuition, fitting hybrid public-private investor.", "summaryKo": "을유 일주 + 묘월 편인격(독학·창의적 직관)은 공적·사적 시장을 가로지르는 비전형적 하이브리드 펀드 모델을 만든 그의 직관과 호응합니다. 을목 일간 + 묘목 월지의 강한 목 기운이 D1 Capital의 누적 성장을 가리키고, 유금 일지의 금 기운이 펀드 매니저의 정밀 분석 결단을 가리킵니다." }
+}

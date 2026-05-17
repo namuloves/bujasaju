@@ -1,0 +1,40 @@
+{
+  "id": "1567", "name": "Bruce Karsh", "nameKo": "브루스 카시",
+  "netWorth": 2.6, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Duke University; UVA Law School.", "educationKo": "듀크 대학교; 버지니아 대학교 로스쿨.",
+    "earlyLife": "Co-founded Oaktree Capital Management in 1995 with Howard Marks; specialized in distressed-debt investing.",
+    "earlyLifeKo": "1995년 하워드 마크스와 Oaktree Capital Management 공동 창립; 부실 채권 투자 전문.",
+    "source": "https://en.wikipedia.org/wiki/Oaktree_Capital_Management"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Oaktree Capital Management 30년 누적 carry." },
+  "careerTimeline": [
+    { "year": 1985, "age": 30, "event": "Joined TCW Group; began distressed-debt investing career.", "eventKo": "TCW Group 합류; 부실 채권 투자 경력 시작.", "whyItMatteredKo": "거래 경력 출발선." },
+    { "year": 1995, "age": 40, "event": "Co-founded Oaktree Capital Management with Howard Marks.", "eventKo": "하워드 마크스와 Oaktree Capital Management 공동 창립.", "whyItMatteredKo": "Oaktree 출발선." },
+    { "year": 2012, "age": 57, "event": "Oaktree IPO on NYSE; cemented top distressed-debt manager position.", "eventKo": "Oaktree NYSE IPO; 톱 부실 채권 운용사 위치 굳힘.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2019, "age": 64, "event": "Brookfield Asset Management acquired majority of Oaktree for $4.7B.", "eventKo": "Brookfield Asset Management이 Oaktree 다수를 47억 달러 인수.", "whyItMatteredKo": "Brookfield 인수 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $2.6B per Forbes Real-Time. Continues as Oaktree co-chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러. Oaktree 공동 의장 계속.", "whyItMatteredKo": "30년 Oaktree 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 40, "decisionKo": "TCW 떠나 Howard Marks와 Oaktree 공동 창립", "alternativeKo": "TCW 잔류", "outcomeKo": "30년 후 글로벌 부실 채권 메이저 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Oaktree Capital Management 공동 창립자 지분 + 30년 carry", "industryKo": "사모펀드(부실 채권)", "businessModelKo": "부실 채권·고수익·구조 신용 운용", "moatKo": "30년 부실 채권 트랙 레코드 + Brookfield 파트너십", "luckVsSkillKo": "운(30%): 2008-2009 부실 채권 황금기. 실력(70%): 30년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and co-chairman of Oaktree Capital Management; legendary distressed-debt investor.",
+    "knownForKo": "Oaktree Capital Management 공동 창립자·공동 의장; 전설적 부실 채권 투자자.",
+    "philanthropy": "Karsh Family Foundation supports education, especially at Duke University.",
+    "philanthropyKo": "Karsh 가족 재단이 교육 지원, 특히 듀크 대학교.",
+    "controversies": "Limited; standard distressed-debt-investing controversies (vulture-fund criticism).",
+    "controversiesKo": "제한적; 표준 부실 채권 투자 논란(독수리 펀드 비판)."
+  },
+  "characterKo": { "summaryKo": "Oaktree 공동 창립 + 30년 부실 채권 전설.", "tagsKo": ["Oaktree Capital", "부실 채권", "Brookfield 파트너십"] },
+  "failures": [
+    { "year": 2008, "description": "Oaktree absorbed losses during 2008 financial crisis before profiting on recovery distressed deals.", "descriptionKo": "Oaktree가 회복 부실 거래에서 수익화 전 2008 금융위기 동안 손실 흡수.", "lesson": "Distressed-debt investing requires patience through crises.", "lessonKo": "부실 채권 투자는 위기를 통과하는 인내 요구." },
+    { "year": 2019, "description": "Oaktree's Brookfield acquisition drew industry-wide governance scrutiny.", "descriptionKo": "Oaktree의 Brookfield 인수가 산업 전반 거버넌스 감시 야기.", "lesson": "PE-firm consolidation creates governance trade-offs.", "lessonKo": "PE 회사 통합은 거버넌스 트레이드오프 야기." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Distressed debt is patience masquerading as opportunism.", "textKo": "부실 채권은 기회주의를 가장한 인내다.", "context": "On distressed-debt investing", "contextKo": "부실 채권 투자에 대해", "source": "https://www.oaktreecapital.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Sul month — 'siksin-gyeok', creative output, fitting law-trained PE co-founder.", "summaryKo": "갑진 일주 + 술월 식신격(창의적 결과물·표현)은 30년에 걸쳐 부실 채권이라는 비전형적 자본 통로에서 끊임없이 창의적 거래를 만들어낸 그의 경로와 호응합니다. 갑목 일간의 큰 나무·기둥 기질이 거대 PE 회사 공동 의장 역할과 통하고, 진토 일지·술토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

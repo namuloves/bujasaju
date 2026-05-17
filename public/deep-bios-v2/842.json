@@ -1,0 +1,38 @@
+{
+  "id": "842", "name": "Steven Klinsky", "nameKo": "스티븐 클린스키",
+  "netWorth": 4.9, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "University of Michigan; Harvard JD/MBA.", "educationKo": "미시간 대학교; 하버드 JD/MBA.",
+    "earlyLife": "Worked at Forstmann Little; founded New Mountain Capital in 1999 — PE firm focused on growth-buyout and defensive sectors.",
+    "earlyLifeKo": "Forstmann Little 근무; 1999년 New Mountain Capital 창립 — 성장·바이아웃 및 방어 부문 집중 PE 회사.",
+    "source": "https://www.newmountaincapital.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "New Mountain Capital 26년 누적 carry." },
+  "careerTimeline": [
+    { "year": 1981, "age": 25, "event": "Joined Forstmann Little after Harvard JD/MBA.", "eventKo": "하버드 JD/MBA 후 Forstmann Little 합류.", "whyItMatteredKo": "PE 경력 출발선." },
+    { "year": 1999, "age": 43, "event": "Founded New Mountain Capital in NYC.", "eventKo": "뉴욕에서 New Mountain Capital 창립.", "whyItMatteredKo": "독립 출발선." },
+    { "year": 2010, "age": 54, "event": "New Mountain AUM crossed $10B; focused on defensive-growth strategies.", "eventKo": "New Mountain AUM 100억 달러 돌파; 방어 성장 전략 집중.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2020, "age": 64, "event": "New Mountain raised $9.5B Fund VI.", "eventKo": "New Mountain이 95억 달러 펀드 VI 조성.", "whyItMatteredKo": "성장 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $4.9B per Forbes Real-Time. New Mountain AUM exceeds $40B.", "eventKo": "포브스 실시간 기준 개인 순자산 49억 달러. New Mountain AUM이 400억 달러 초과.", "whyItMatteredKo": "26년 PE 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 43, "decisionKo": "Forstmann Little 떠나 New Mountain 창립", "alternativeKo": "Forstmann Little 파트너 잔류", "outcomeKo": "26년 후 PE 메이저 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "New Mountain Capital 창립자 지분 + 26년 carry", "industryKo": "사모펀드(방어·성장)", "businessModelKo": "방어·성장 부문 PE + 인수·운영 + 신용 펀드", "moatKo": "26년 방어 부문 트랙 레코드", "luckVsSkillKo": "운(30%): 1999-2025 PE 황금기. 실력(70%): 26년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of New Mountain Capital; major US PE investor; supports educational philanthropy.",
+    "knownForKo": "New Mountain Capital 창립자; 주요 미국 PE 투자자; 교육 자선 지원.",
+    "philanthropy": "Klinsky Family Foundation supports education and reform.", "philanthropyKo": "Klinsky 가족 재단이 교육·개혁 지원.",
+    "controversies": "Limited; standard PE industry regulatory scrutiny.", "controversiesKo": "제한적; 표준 PE 산업 규제 감시."
+  },
+  "characterKo": { "summaryKo": "Harvard JD/MBA + New Mountain Capital 26년 PE 자수성가.", "tagsKo": ["New Mountain Capital", "Harvard JD/MBA"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis briefly compressed PE portfolio valuations.", "descriptionKo": "글로벌 금융위기로 PE 포트폴리오 밸류에이션 잠시 압축.", "lesson": "Even defensive PE faces crisis.", "lessonKo": "방어 PE도 위기 직면." },
+    { "year": 2022, "description": "Rising interest rates compressed PE deal flow.", "descriptionKo": "금리 상승으로 PE 딜 플로 압축.", "lesson": "PE sensitive to rates.", "lessonKo": "PE는 금리에 민감." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.7 }, { "year": 2025, "netWorth": 4.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Defensive growth is undervalued by markets that chase glamour.", "textKo": "방어 성장은 매력을 쫓는 시장에서 저평가된다.", "context": "On New Mountain strategy", "contextKo": "New Mountain 전략에 대해", "source": "https://www.newmountaincapital.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Yu day pillar in Sa month — 'pyeon-gwan-gyeok', strong external authority, fitting law-trained PE founder.", "summaryKo": "정유 일주 + 사월 편관격(강한 외부 압박·권력 충돌)은 PE 거래의 끊임없는 법적·규제 충돌 환경과 호응합니다. 정화 일간 + 사화 월지의 강한 화 기운이 결단·표현의 에너지를 가리키고, 유금 일지의 금 기운이 거래 분석의 정밀함을 강조합니다." }
+}

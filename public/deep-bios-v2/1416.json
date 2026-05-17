@@ -1,0 +1,40 @@
+{
+  "id": "1416", "name": "Glenn Russell Dubin", "nameKo": "글렌 러셀 듀빈",
+  "netWorth": 2.9, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Brooklyn, New York, USA", "birthPlaceKo": "미국 뉴욕 브루클린",
+    "familyBackground": "Born to working-class Brooklyn family.", "familyBackgroundKo": "브루클린 노동자 계급 가정에서 출생.",
+    "education": "Stony Brook University.", "educationKo": "스토니브룩 대학교.",
+    "earlyLife": "Co-founded Dubin & Swieca; founded Highbridge Capital Management in 1992; sold majority to JPMorgan in 2004.",
+    "earlyLifeKo": "Dubin & Swieca 공동 창립; 1992년 Highbridge Capital Management 창립; 2004년 다수를 JPMorgan에 매각.",
+    "source": "https://en.wikipedia.org/wiki/Glenn_Dubin"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Highbridge Capital + JPMorgan 매각." },
+  "careerTimeline": [
+    { "year": 1978, "age": 21, "event": "Began Wall Street career at Merrill Lynch.", "eventKo": "Merrill Lynch에서 월스트리트 경력 시작.", "whyItMatteredKo": "월스트리트 경력 출발선." },
+    { "year": 1984, "age": 27, "event": "Co-founded Dubin & Swieca with Henry Swieca.", "eventKo": "헨리 스위차와 Dubin & Swieca 공동 창립.", "whyItMatteredKo": "독립 출발선." },
+    { "year": 1992, "age": 35, "event": "Founded Highbridge Capital Management multi-strategy hedge fund.", "eventKo": "Highbridge Capital Management 멀티 전략 헤지펀드 창립.", "whyItMatteredKo": "Highbridge 출발선." },
+    { "year": 2004, "age": 47, "event": "Sold majority stake in Highbridge to JPMorgan for $1.3B.", "eventKo": "Highbridge 다수 지분을 JPMorgan에 13억 달러 매각.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2025, "age": 68, "event": "Personal net worth at $2.9B per Forbes Real-Time. Active in Dubin Family Office and philanthropy.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러. Dubin 가족 사무실·자선 활발.", "whyItMatteredKo": "Highbridge 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2004, "age": 47, "decisionKo": "Highbridge 다수 지분 JPMorgan 매각", "alternativeKo": "운영 잔류", "outcomeKo": "엑시트 + 가족 사무실 + 자선가" }],
+  "moneyMechanics": { "primaryRevenueKo": "Highbridge 매각 대금 + Dubin Family Office", "industryKo": "헤지펀드 매각 후 가족 사무실", "businessModelKo": "Highbridge 매각 대금 + 가족 사무실 다각화", "moatKo": "헤지펀드 트랙 + 가족 사무실 인프라", "luckVsSkillKo": "운(35%): 헤지펀드 황금기 + 정점 매각. 실력(65%): 20년 멀티 전략 운영." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Highbridge Capital Management; sold to JPMorgan for $1.3B; major NYC philanthropist.",
+    "knownForKo": "Highbridge Capital Management 공동 창립자; JPMorgan에 13억 달러 매각; 주요 뉴욕 자선가.",
+    "philanthropy": "Dubin Family Foundation supports education, healthcare, criminal-justice reform.",
+    "philanthropyKo": "Dubin 가족 재단이 교육·헬스케어·형사 사법 개혁 지원.",
+    "controversies": "Dubin's social proximity to Jeffrey Epstein drew sustained scrutiny; testified in Epstein-related civil cases.",
+    "controversiesKo": "Dubin의 제프리 엡스타인과의 사회적 근접이 지속적 감시 야기; 엡스타인 관련 민사 사건 증언."
+  },
+  "characterKo": { "summaryKo": "Highbridge Capital 공동 창립 + 엡스타인 사회적 인맥 논란.", "tagsKo": ["Highbridge Capital", "JPMorgan 매각", "엡스타인 논란"] },
+  "failures": [
+    { "year": 2019, "description": "Jeffrey Epstein social connections drew sustained media scrutiny; reputational damage.", "descriptionKo": "제프리 엡스타인 사회적 연결이 지속적 미디어 감시 야기; 평판 손상.", "lesson": "Personal-network reputational risk extends years.", "lessonKo": "개인 네트워크 평판 리스크는 다년간 확장." },
+    { "year": 2008, "description": "Global financial crisis compressed hedge-fund AUM industry-wide.", "descriptionKo": "글로벌 금융위기로 헤지펀드 AUM 산업 전반 압축.", "lesson": "Hedge funds face crisis-cycle.", "lessonKo": "헤지펀드 위기 사이클 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.8 }, { "year": 2020, "netWorth": 2.3 }, { "year": 2024, "netWorth": 2.7 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Hedging means knowing what you don't know.", "textKo": "헤징은 모르는 것을 아는 것이다.", "context": "On hedge-fund philosophy", "contextKo": "헤지펀드 철학에 대해", "source": "https://en.wikipedia.org/wiki/Glenn_Dubin" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in Jin month — 'jeongjae-gyeok', steady accumulation, fitting HF co-founder.", "summaryKo": "을묘 일주 + 진월 정재격(고정 자산·꾸준한 매출)은 멀티 전략 헤지펀드의 안정 carry 누적과 호응합니다. 을목 일간 + 묘목 일지의 강한 목 기운이 회사·자본의 누적 성장을 가리키고, 진토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

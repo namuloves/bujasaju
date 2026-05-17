@@ -1,0 +1,40 @@
+{
+  "id": "871", "name": "N. Murray Edwards", "nameKo": "노먼 머리 에드워즈",
+  "netWorth": 4.7, "nationality": "CA", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "Calgary, Alberta, Canada", "birthPlaceKo": "캐나다 앨버타주 캘거리",
+    "familyBackground": "Born to Canadian middle-class family.", "familyBackgroundKo": "캐나다 중산층 가정에서 출생.",
+    "education": "University of Saskatchewan; University of Toronto law.", "educationKo": "서스캐처원 대학교; 토론토 대학교 법학.",
+    "earlyLife": "Worked at Calgary law firm; founded Canadian Natural Resources (CNRL) and Ensign Energy Services; major Calgary Flames NHL owner.",
+    "earlyLifeKo": "캘거리 로펌 근무; Canadian Natural Resources(CNRL)와 Ensign Energy Services 창립; 주요 캘거리 플레임스 NHL 소유주.",
+    "source": "https://en.wikipedia.org/wiki/Murray_Edwards"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "CNRL + Ensign Energy 40년 자수성가." },
+  "careerTimeline": [
+    { "year": 1983, "age": 24, "event": "Joined Calgary law firm; began energy-investing career.", "eventKo": "캘거리 로펌 합류; 에너지 투자 경력 시작.", "whyItMatteredKo": "에너지 경력 출발선." },
+    { "year": 1989, "age": 30, "event": "Took control of Canadian Natural Resources; built into Canadian energy major.", "eventKo": "Canadian Natural Resources 통제 인수; 캐나다 에너지 메이저로 구축.", "whyItMatteredKo": "CNRL 출발선." },
+    { "year": 2003, "age": 44, "event": "Acquired Calgary Flames NHL hockey team with consortium.", "eventKo": "컨소시엄과 캘거리 플레임스 NHL 하키 팀 인수.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 2010, "age": 51, "event": "CNRL became one of Canada's largest oil-and-gas producers.", "eventKo": "CNRL이 캐나다 최대 석유·가스 생산자 중 하나가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 66, "event": "Personal net worth at $4.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 47억 달러.", "whyItMatteredKo": "CNRL + Flames 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1989, "age": 30, "decisionKo": "법률 떠나 CNRL 통제 인수", "alternativeKo": "법률 잔류", "outcomeKo": "36년 후 캐나다 에너지 메이저 + NHL 소유주" }],
+  "moneyMechanics": { "primaryRevenueKo": "Canadian Natural Resources(TSX/NYSE 상장) + Ensign Energy + Calgary Flames", "industryKo": "석유·가스 + 스포츠", "businessModelKo": "캐나다 오일샌드 + 시추 서비스 + NHL 팀", "moatKo": "36년 캐나다 에너지 인프라 + Flames 인지도", "luckVsSkillKo": "운(40%): 캐나다 오일샌드 부상. 실력(60%): 36년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Chairman of Canadian Natural Resources; co-owner of Calgary Flames NHL; major Canadian energy magnate.",
+    "knownForKo": "Canadian Natural Resources 의장; 캘거리 플레임스 NHL 공동 소유주; 주요 캐나다 에너지 거물.",
+    "philanthropy": "Major University of Saskatchewan patron; supports Alberta community.",
+    "philanthropyKo": "주요 서스캐처원 대학교 후원자; 앨버타 지역 사회 지원.",
+    "controversies": "Canadian oilsands environmental criticism; Flames stadium funding disputes with Calgary.",
+    "controversiesKo": "캐나다 오일샌드 환경 비판; 캘거리와 Flames 스타디움 자금 조달 분쟁."
+  },
+  "characterKo": { "summaryKo": "CNRL 36년 + 캘거리 플레임스 NHL 자수성가.", "tagsKo": ["CNRL", "Calgary Flames", "캐나다 오일샌드"] },
+  "failures": [
+    { "year": 2015, "description": "Oil-price crash 2014-2016 collapsed CNRL stock 60%+.", "descriptionKo": "2014-2016 유가 폭락으로 CNRL 주가 60%+ 붕괴.", "lesson": "Pure-energy exposure cyclical.", "lessonKo": "단일 에너지 노출 주기적." },
+    { "year": 2020, "description": "COVID-19 crashed oil prices to negative; CNRL absorbed losses.", "descriptionKo": "COVID-19이 유가를 마이너스로 붕괴; CNRL이 손실 흡수.", "lesson": "Oil exposed to demand shocks.", "lessonKo": "석유는 수요 충격 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.4 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Canadian oil is patience converted into barrels.", "textKo": "캐나다 석유는 배럴로 변환된 인내다.", "context": "On CNRL", "contextKo": "CNRL에 대해", "source": "https://www.cnrl.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-In day pillar in Ja month — 'jeonggwan-gyeok', formal authority, fitting regulated-energy executive.", "summaryKo": "병인 일주 + 자월 정관격(공식 권위·규제 아래에서 일하는 구조)은 석유·가스 산업의 정부 라이선스·규제 환경과 호응합니다. 병화 일간의 큰 불·태양 기질이 에너지 산업의 시각화·결단과 통하고, 인목 일지의 목 기운이 회사 누적 성장을, 자수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

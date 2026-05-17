@@ -1,0 +1,37 @@
+{
+  "id": "1112", "name": "Jonathan Kwok", "nameKo": "조너선 곽",
+  "netWorth": 3.7, "nationality": "HK", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Hong Kong", "birthPlaceKo": "홍콩",
+    "familyBackground": "Born to Kwok family — controllers of Sun Hung Kai Properties (Hong Kong's largest real-estate developer).", "familyBackgroundKo": "Sun Hung Kai Properties(홍콩 최대 부동산 개발사) 통제자 Kwok 가족에서 출생.",
+    "education": "British and Hong Kong education.", "educationKo": "영국·홍콩 교육.",
+    "earlyLife": "Inherited substantial Kwok family stake in Sun Hung Kai after father Walter Kwok's 2018 death.",
+    "earlyLifeKo": "2018년 아버지 월터 곽 사망 후 Sun Hung Kai의 Kwok 가족 지분 상당히 상속.",
+    "source": "https://en.wikipedia.org/wiki/Walter_Kwok"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Kwok 가족 자본 — Sun Hung Kai 다세대 상속." },
+  "careerTimeline": [
+    { "year": 2010, "age": 18, "event": "Began Kwok family operations.", "eventKo": "Kwok 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2018, "age": 26, "event": "Father Walter Kwok died; Jonathan and brother Geoffrey inherited family stake.", "eventKo": "아버지 월터 곽 사망; 조너선과 동생 제프리가 가족 지분 상속.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2020, "age": 28, "event": "Continued as Sun Hung Kai family stakeholder during COVID property compression.", "eventKo": "COVID 부동산 압축 동안 Sun Hung Kai 가족 주주로 계속.", "whyItMatteredKo": "팬데믹 단계." },
+    { "year": 2025, "age": 33, "event": "Personal net worth at $3.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러.", "whyItMatteredKo": "젊은 상속자 정점." }
+  ],
+  "turningPoints": [{ "year": 2018, "age": 26, "decisionKo": "아버지 사후 Kwok 가족 자본 지분 상속", "alternativeKo": "독립 경로", "outcomeKo": "홍콩 부동산 메이저 가족 자본의 젊은 상속자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Sun Hung Kai Properties(홍콩 증시) 가족 지분", "industryKo": "부동산 개발", "businessModelKo": "홍콩·중국 본토 주거·상업 부동산 + 호텔", "moatKo": "다세대 Kwok 가족 자본", "luckVsSkillKo": "운(95%): 가족 자본. 실력(5%): 젊은 거버넌스 관여." },
+  "personalTraits": {
+    "knownFor": "Son of Walter Kwok; Kwok family heir of Sun Hung Kai Properties.",
+    "knownForKo": "월터 곽의 아들; Sun Hung Kai Properties의 Kwok 가족 상속자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Kwok family Walter-vs-brothers public family dispute over Sun Hung Kai control was multi-year saga.", "controversiesKo": "Kwok 가족 월터 대 형제들 Sun Hung Kai 통제 공개 가족 분쟁이 다년간 서사."
+  },
+  "characterKo": { "summaryKo": "Sun Hung Kai 가족 자본의 젊은 다세대 상속자.", "tagsKo": ["Sun Hung Kai", "Kwok 가족", "젊은 상속자"] },
+  "failures": [
+    { "year": 2022, "description": "Hong Kong property market crisis compressed Sun Hung Kai valuation; Kwok family stake hit.", "descriptionKo": "홍콩 부동산 시장 위기로 Sun Hung Kai 밸류에이션 압축; Kwok 가족 지분 타격.", "lesson": "Single-city property exposed to local economic cycle.", "lessonKo": "단일 도시 부동산은 지역 경제 사이클 노출." },
+    { "year": 2020, "description": "COVID-19 disrupted Hong Kong commercial real-estate and hotels.", "descriptionKo": "COVID-19이 홍콩 상업 부동산·호텔 혼란.", "lesson": "Hospitality real-estate pandemic-exposed.", "lessonKo": "환대 부동산 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 4.0 }, { "year": 2022, "netWorth": 3.5 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "My father trusted the city. I am learning what trust looks like in Hong Kong.", "textKo": "아버지는 도시를 신뢰했다. 나는 홍콩에서 신뢰가 어떤 모습인지 배우고 있다.", "context": "On inheritance", "contextKo": "상속에 대해", "source": "https://www.shkp.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Ja day pillar in In month — 'pyeon-gwan-gyeok', strong external pressure, fitting heir in cyclical market.", "summaryKo": "병자 일주 + 인월 편관격(강한 외부 압박·권력 충돌)은 홍콩 부동산이라는 정부 규제·시장 사이클·중국 본토 정치 환경의 끊임없는 외부 압박과 호응합니다. 병화 일간의 큰 불·태양 기질이 거대 가족 자본의 시각화·표현과 통하고, 자수 일지의 수 기운이 가족 자본의 유동성을, 인목 월지의 목 기운이 차세대 성장을 가리킵니다." }
+}

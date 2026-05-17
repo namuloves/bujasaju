@@ -1,0 +1,38 @@
+{
+  "id": "889", "name": "Wendy Abrams", "nameKo": "웬디 에이브럼스",
+  "netWorth": 4.6, "nationality": "US", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Inherited substantial family healthcare-related stake; major US healthcare investor and environmental activist.",
+    "earlyLifeKo": "상당한 가족 헬스케어 관련 지분 상속; 주요 미국 헬스케어 투자자·환경 활동가.",
+    "source": "https://www.forbes.com/profile/wendy-abrams/"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "가족 헬스케어 자본 상속." },
+  "careerTimeline": [
+    { "year": 1986, "age": 22, "event": "Began family healthcare-business governance.", "eventKo": "가족 헬스케어 사업 거버넌스 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2000, "age": 36, "event": "Founded Cool Globes — public art environmental awareness project.", "eventKo": "Cool Globes 창립 — 공공 미술 환경 인식 프로젝트.", "whyItMatteredKo": "환경 활동가 단계." },
+    { "year": 2015, "age": 51, "event": "Continued major family healthcare stake; expanded environmental philanthropy.", "eventKo": "주요 가족 헬스케어 지분 계속; 환경 자선 확장.", "whyItMatteredKo": "활동가 단계." },
+    { "year": 2020, "age": 56, "event": "COVID-19 increased healthcare demand; family stake materially appreciated.", "eventKo": "COVID-19이 헬스케어 수요 증가; 가족 지분 실질적 상승.", "whyItMatteredKo": "팬데믹 부스트 단계." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $4.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 46억 달러.", "whyItMatteredKo": "헬스케어 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 36, "decisionKo": "환경 활동가로 정체성 확장", "alternativeKo": "수동 상속자", "outcomeKo": "헬스케어 자본 + 환경 활동가 이중 정체성" }],
+  "moneyMechanics": { "primaryRevenueKo": "가족 헬스케어 사업 지분 + 다각화 투자", "industryKo": "헬스케어 + 환경 자선", "businessModelKo": "헬스케어 가족 자본 + 환경 사업", "moatKo": "다세대 가족 자본", "luckVsSkillKo": "운(85%): 가족 자본. 실력(15%): 환경 활동 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Major US healthcare family stakeholder; founder of Cool Globes environmental art project.",
+    "knownForKo": "주요 미국 헬스케어 가족 주주; Cool Globes 환경 미술 프로젝트 창립자.",
+    "philanthropy": "Supports environmental causes and healthcare research.", "philanthropyKo": "환경 사업·헬스케어 연구 지원.",
+    "controversies": "Limited; standard family-business heir scrutiny.", "controversiesKo": "제한적; 표준 가족 사업 상속자 감시."
+  },
+  "characterKo": { "summaryKo": "헬스케어 가족 자본 상속자 + 환경 활동가.", "tagsKo": ["헬스케어 가족 자본", "Cool Globes", "환경 활동가"] },
+  "failures": [
+    { "year": 2010, "description": "Affordable Care Act compressed parts of healthcare revenue cycle.", "descriptionKo": "Affordable Care Act가 헬스케어 매출 사이클 일부 압축.", "lesson": "Healthcare faces policy reform.", "lessonKo": "헬스케어는 정책 개혁 직면." },
+    { "year": 2022, "description": "Post-COVID healthcare normalization compressed growth.", "descriptionKo": "팬데믹 후 헬스케어 정상화로 성장 압축.", "lesson": "Pandemic demand pull-forward creates cycle.", "lessonKo": "팬데믹 수요 당김은 사이클 야기." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 4.4 }, { "year": 2025, "netWorth": 4.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family wealth carries environmental responsibility.", "textKo": "가족 부는 환경 책임을 동반한다.", "context": "On environmental advocacy", "contextKo": "환경 옹호에 대해", "source": "https://www.coolglobes.org" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Shin day pillar in Hae month — 'pyeon-in-gyeok', creative intuition, fitting heir-activist.", "summaryKo": "갑신 일주 + 해월 편인격(독학·창의적 직관)은 가족 자본을 그대로 잇기보다 환경 활동·미술 프로젝트로 표현한 그녀의 직관과 호응합니다. 갑목 일간의 큰 나무 + 해수 월지의 강한 수 기운이 자본 유동성과 가족 자본의 안정을 가리키고, 신금 일지의 금 기운이 자본 결단의 정밀함을 가리킵니다." }
+}

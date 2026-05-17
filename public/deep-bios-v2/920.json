@@ -1,0 +1,39 @@
+{
+  "id": "920", "name": "James Chao", "nameKo": "제임스 차오",
+  "netWorth": 4.5, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Shanghai, China", "birthPlaceKo": "중국 상하이",
+    "familyBackground": "Born to Chinese family in Shanghai; migrated to US via Taiwan.", "familyBackgroundKo": "상하이 중국 가정에서 출생; 대만 거쳐 미국 이주.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Founded Foremost Group in 1964 — international shipping company; father of US Transportation Secretary Elaine Chao.",
+    "earlyLifeKo": "1964년 Foremost Group 창립 — 국제 해운 회사; 미국 교통장관 일레인 차오의 아버지.",
+    "source": "https://en.wikipedia.org/wiki/James_Chao"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Foremost Group 61년 자수성가." },
+  "careerTimeline": [
+    { "year": 1964, "age": 17, "event": "Founded Foremost Group shipping company in New York.", "eventKo": "뉴욕에서 Foremost Group 해운 회사 창립.", "whyItMatteredKo": "61년 자수성가 출발선." },
+    { "year": 1990, "age": 43, "event": "Foremost expanded into China-related bulk shipping; major Pacific operator.", "eventKo": "Foremost가 중국 관련 벌크 해운 확장; 주요 태평양 운영사.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2017, "age": 70, "event": "Daughter Elaine Chao became US Secretary of Transportation under Trump.", "eventKo": "딸 일레인 차오가 트럼프 하 미국 교통장관이 됨.", "whyItMatteredKo": "정치 인맥 단계." },
+    { "year": 2020, "age": 73, "event": "Foremost Group continued bulk-shipping operations; family wealth grew.", "eventKo": "Foremost Group 벌크 해운 운영 계속; 가족 부 성장.", "whyItMatteredKo": "운영 단계." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $4.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 45억 달러.", "whyItMatteredKo": "61년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1964, "age": 17, "decisionKo": "17세에 뉴욕에서 해운 회사 창립", "alternativeKo": "기존 회사 취업", "outcomeKo": "61년 후 글로벌 벌크 해운 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Foremost Group(100% 가족 소유)", "industryKo": "벌크 해운", "businessModelKo": "건조 벌크 해운 + 중국 관련 화물 + 가족 운영", "moatKo": "61년 가족 자본 + 중국 정부·기업 인맥", "luckVsSkillKo": "운(35%): 1990-2020 중국 해운 슈퍼사이클. 실력(65%): 61년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Foremost Group; father of Elaine Chao (former US Transportation Secretary); Chinese-American shipping magnate.",
+    "knownForKo": "Foremost Group 창립자; 일레인 차오(전 미국 교통장관)의 아버지; 중국·미국 해운 거물.",
+    "philanthropy": "Chao Family Foundation supports Harvard, education.", "philanthropyKo": "Chao 가족 재단이 하버드·교육 지원.",
+    "controversies": "Daughter Elaine Chao's Transportation Secretary tenure drew family-business conflicts-of-interest scrutiny; Mitch McConnell-related controversies.",
+    "controversiesKo": "딸 일레인 차오 교통장관 재임이 가족 사업 이해 충돌 감시 야기; 미치 매코넬 관련 논란."
+  },
+  "characterKo": { "summaryKo": "상하이 출생 미국 이민자 Foremost 해운 61년 자수성가 + Chao 가족.", "tagsKo": ["Foremost Group", "벌크 해운", "Chao 가족"] },
+  "failures": [
+    { "year": 2017, "description": "Elaine Chao's Transportation Secretary appointment created family-business COI scrutiny.", "descriptionKo": "일레인 차오의 교통장관 임명이 가족 사업 이해 충돌 감시 야기.", "lesson": "Government roles for family magnify conflict scrutiny.", "lessonKo": "가족 정부 역할은 충돌 감시 증폭." },
+    { "year": 2020, "description": "COVID-19 disrupted global bulk shipping rates briefly.", "descriptionKo": "COVID-19이 글로벌 벌크 해운 운임 잠시 혼란.", "lesson": "Shipping cyclical.", "lessonKo": "해운은 주기적." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.3 }, { "year": 2025, "netWorth": 4.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Shipping is the silent infrastructure of global trade.", "textKo": "해운은 글로벌 무역의 조용한 인프라다.", "context": "On Foremost shipping", "contextKo": "Foremost 해운에 대해", "source": "https://www.foremostgroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Yu day pillar in Yu month — 'siksin-gyeok' with double metal, fitting shipping-industry founder.", "summaryKo": "정유 일주 + 유월 식신격(창의적 결과물·표현)은 61년에 걸쳐 벌크 해운이라는 글로벌 무역 인프라 결과물을 만들어낸 그의 경로와 호응합니다. 정화 일간의 따뜻한 불 기질이 회사 가부장 역할과 통하고, 일지·월지 모두 유금으로 해운(금속 선박) 산업의 단단한 결단을 이중으로 강조합니다." }
+}

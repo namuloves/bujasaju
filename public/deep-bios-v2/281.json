@@ -1,0 +1,40 @@
+{
+  "id": "281", "name": "Mikhail Prokhorov", "nameKo": "미하일 드미트리예비치 프로호로프",
+  "netWorth": 11.0, "nationality": "RU", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Moscow, USSR", "birthPlaceKo": "소련 모스크바",
+    "familyBackground": "Born to Soviet middle-class Russian family.", "familyBackgroundKo": "소련 중산층 러시아 가정에서 출생.",
+    "education": "Moscow Finance Institute.", "educationKo": "모스크바 금융 학교.",
+    "earlyLife": "Built career in late-Soviet banking; co-founded International Financial Company with Vladimir Potanin; acquired Norilsk Nickel in loans-for-shares; later founded Onexim Group.",
+    "earlyLifeKo": "후기 소련 은행업 경력 구축; 블라디미르 포타닌과 International Financial Company 공동 창립; 주식 대출에서 Norilsk Nickel 인수; 이후 Onexim Group 창립.",
+    "source": "https://en.wikipedia.org/wiki/Mikhail_Prokhorov"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Norilsk Nickel 매각 + Onexim Group + 다각화." },
+  "careerTimeline": [
+    { "year": 1989, "age": 24, "event": "Joined Soviet banking; co-founded International Financial Company.", "eventKo": "소련 은행업 합류; International Financial Company 공동 창립.", "whyItMatteredKo": "올리가르히 경력 출발선." },
+    { "year": 1995, "age": 30, "event": "Acquired Norilsk Nickel in loans-for-shares with Potanin.", "eventKo": "포타닌과 주식 대출 경매에서 Norilsk Nickel 인수.", "whyItMatteredKo": "올리가르히 자본 단계." },
+    { "year": 2007, "age": 42, "event": "Split with Potanin; founded Onexim Group.", "eventKo": "포타닌과 결별; Onexim Group 창립.", "whyItMatteredKo": "독립 단계." },
+    { "year": 2010, "age": 45, "event": "Acquired Brooklyn Nets NBA team; sold in 2019.", "eventKo": "Brooklyn Nets NBA 팀 인수; 2019 매각.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 2025, "age": 60, "event": "Personal net worth at $11.0B per Forbes Real-Time. Under EU/UK sanctions since 2022.", "eventKo": "포브스 실시간 기준 개인 순자산 110억 달러. 2022 이후 EU/영국 제재.", "whyItMatteredKo": "올리가르히 자본 + 제재 잔여." }
+  ],
+  "turningPoints": [{ "year": 2008, "age": 43, "decisionKo": "Norilsk Nickel 지분을 RUSAL에 거의 정점에서 매각", "alternativeKo": "Norilsk 지분 보유", "outcomeKo": "현금화 정점 + Onexim 다각화" }],
+  "moneyMechanics": { "primaryRevenueKo": "Onexim Group 다각화 + 금속·에너지 잔여 지분", "industryKo": "다각화 투자", "businessModelKo": "금속 매각 대금 + 다각화 PE + 부동산", "moatKo": "올리가르히 자본 + 30+년 러시아 인맥", "luckVsSkillKo": "운(50%): 1995 주식 대출 경매. 실력(50%): Norilsk 정점 매각 + 다각화." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Onexim Group; former Norilsk Nickel owner; former Brooklyn Nets owner; major Russian oligarch.",
+    "knownForKo": "Onexim Group 공동 창립자; 전 Norilsk Nickel 소유주; 전 Brooklyn Nets 소유주; 주요 러시아 올리가르히.",
+    "philanthropy": "Mikhail Prokhorov Fund supports Russian arts and contemporary culture.",
+    "philanthropyKo": "Mikhail Prokhorov Fund가 러시아 예술·현대 문화 지원.",
+    "controversies": "2007 Courchevel France detention scandal (released, no charges); 2012 unsuccessful Russian presidential candidate; 2022 EU/UK sanctions over alleged Kremlin ties.",
+    "controversiesKo": "2007 Courchevel 프랑스 구금 스캔들(석방, 무혐의); 2012 실패한 러시아 대통령 후보; 2022 EU/영국 크렘린 연계 의혹 제재."
+  },
+  "characterKo": { "summaryKo": "Norilsk Nickel 올리가르히 + Onexim + 브루클린 네츠 + 정치 야망.", "tagsKo": ["Onexim Group", "Norilsk Nickel", "Brooklyn Nets", "러시아 올리가르히"] },
+  "failures": [
+    { "year": 2012, "description": "Russian presidential campaign as Civic Platform candidate received only 8% — distant third.", "descriptionKo": "Civic Platform 후보로 러시아 대통령 캠페인이 8%만 받음 — 먼 3위.", "lesson": "Oligarch politics limited in Putin-era Russia.", "lessonKo": "올리가르히 정치는 푸틴 시대 러시아에서 제한적." },
+    { "year": 2022, "description": "EU/UK sanctioned Prokhorov personally over alleged Kremlin ties; froze European assets.", "descriptionKo": "EU·영국이 크렘린 연계 의혹으로 프로호로프 개인 제재; 유럽 자산 동결.", "lesson": "Russian-origin wealth faces geopolitical sanction risk.", "lessonKo": "러시아 출신 부는 지정학적 제재 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 9.9 }, { "year": 2020, "netWorth": 9.8 }, { "year": 2024, "netWorth": 10.5 }, { "year": 2025, "netWorth": 11.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Russia is where I made my money. The world is where I spend it.", "textKo": "러시아는 내가 돈을 번 곳이다. 세계는 내가 그것을 쓰는 곳이다.", "context": "On global lifestyle", "contextKo": "글로벌 라이프스타일에 대해", "source": "https://www.onexim.ru" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Sa day pillar in Jin month — 'jeongjae-gyeok', steady accumulation, fitting metals-magnate oligarch.", "summaryKo": "정사 일주 + 진월 정재격(고정 자산·꾸준한 매출)은 금속 자원이라는 거대 안정 자산 누적과 호응합니다. 정화 일간 + 사화 일지의 강한 화 기운이 권력·결단의 표현을 가리키고, 진토 월지의 토 기운이 거대 자본의 안정 기반을 가리킵니다." }
+}

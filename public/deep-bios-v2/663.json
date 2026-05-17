@@ -1,0 +1,39 @@
+{
+  "id": "663", "name": "John Sall", "nameKo": "존 샐",
+  "netWorth": 6.0, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Northern Illinois University; North Carolina State University (statistics).", "educationKo": "노던 일리노이 대학교; 노스캐롤라이나 주립대학교(통계학).",
+    "earlyLife": "Co-founded SAS Institute with Jim Goodnight in 1976 — pioneering statistical-analysis software company.",
+    "earlyLifeKo": "1976년 짐 굿나이트와 SAS Institute 공동 창립 — 선구적 통계 분석 소프트웨어 회사.",
+    "source": "https://en.wikipedia.org/wiki/SAS_Institute"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "SAS Institute 49년 자수성가." },
+  "careerTimeline": [
+    { "year": 1976, "age": 28, "event": "Co-founded SAS Institute with Jim Goodnight at NC State.", "eventKo": "노스캐롤라이나 주립대학교에서 짐 굿나이트와 SAS Institute 공동 창립.", "whyItMatteredKo": "49년 자수성가 출발선." },
+    { "year": 1990, "age": 42, "event": "SAS Institute became dominant statistical-software platform.", "eventKo": "SAS Institute가 지배적 통계 소프트웨어 플랫폼이 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2010, "age": 62, "event": "SAS continued as largest privately-held software company; resisted IPO.", "eventKo": "SAS가 최대 비공개 소프트웨어 회사로 계속; IPO 거부.", "whyItMatteredKo": "비공개 정점." },
+    { "year": 2020, "age": 72, "event": "SAS launched cloud-based Viya platform; AI/ML expansion.", "eventKo": "SAS가 클라우드 기반 Viya 플랫폼 출시; AI/ML 확장.", "whyItMatteredKo": "AI 단계." },
+    { "year": 2025, "age": 77, "event": "Personal net worth at $6.0B per Forbes Real-Time. SAS remains private; possible IPO discussions.", "eventKo": "포브스 실시간 기준 개인 순자산 60억 달러. SAS는 비공개 잔류; IPO 논의 가능성.", "whyItMatteredKo": "49년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1976, "age": 28, "decisionKo": "NC State에서 SAS Institute 공동 창립", "alternativeKo": "학문 경력 잔류", "outcomeKo": "49년 후 최대 비공개 통계 소프트웨어 회사" }],
+  "moneyMechanics": { "primaryRevenueKo": "SAS Institute(비공개) 공동 창립자 지분", "industryKo": "엔터프라이즈 소프트웨어(통계·AI)", "businessModelKo": "엔터프라이즈 통계·AI 소프트웨어 라이선스 + 컨설팅", "moatKo": "49년 통계·분석 사실상 표준 + 비공개 통제", "luckVsSkillKo": "운(20%): 통계 분야 부상. 실력(80%): 49년 단일 회사 + 비공개 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of SAS Institute; pioneering statistical-software entrepreneur; major North Carolina philanthropist.",
+    "knownForKo": "SAS Institute 공동 창립자; 선구적 통계 소프트웨어 기업가; 주요 노스캐롤라이나 자선가.",
+    "philanthropy": "Major patron of environmental conservation, especially in NC; Ellis Lake Resource Center.",
+    "philanthropyKo": "주요 환경 보전 후원자, 특히 노스캐롤라이나; Ellis Lake Resource Center.",
+    "controversies": "Limited; standard enterprise-software industry competition.", "controversiesKo": "제한적; 표준 엔터프라이즈 소프트웨어 산업 경쟁."
+  },
+  "characterKo": { "summaryKo": "SAS Institute 49년 비공개 자수성가 — 통계 소프트웨어 선구자.", "tagsKo": ["SAS Institute", "통계 소프트웨어", "49년 비공개"] },
+  "failures": [
+    { "year": 2010, "description": "SAS lost share to open-source statistical tools (R, Python).", "descriptionKo": "SAS가 오픈소스 통계 도구(R·Python)에 점유율 상실.", "lesson": "Proprietary software faces open-source disruption.", "lessonKo": "독점 소프트웨어는 오픈소스 파괴 직면." },
+    { "year": 2022, "description": "SAS IPO delayed multiple times due to growth-rate concerns.", "descriptionKo": "성장률 우려로 SAS IPO 다수 지연.", "lesson": "Mature software faces growth-cycle compression.", "lessonKo": "성숙 소프트웨어는 성장 사이클 압축 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 5.0 }, { "year": 2020, "netWorth": 6.5 }, { "year": 2024, "netWorth": 5.8 }, { "year": 2025, "netWorth": 6.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Statistics is the language of data. SAS made it operational.", "textKo": "통계는 데이터의 언어다. SAS가 그것을 운영 가능하게 만들었다.", "context": "On SAS mission", "contextKo": "SAS 미션에 대해", "source": "https://www.sas.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Mi day pillar in Myo month — 'pyeon-gwan-gyeok', strong external authority, fitting decades of competitive software.", "summaryKo": "기미 일주 + 묘월 편관격(강한 외부 압박·권력 충돌)은 49년 엔터프라이즈 소프트웨어 산업의 끊임없는 경쟁 환경과 호응합니다. 기토 일간 + 미토 일지의 강한 토 기운이 다세대 안정 회사의 기반을 가리키고, 묘목 월지의 목 기운이 회사의 누적 성장을 강조합니다." }
+}

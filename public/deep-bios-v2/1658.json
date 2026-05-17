@@ -1,0 +1,39 @@
+{
+  "id": "1658", "name": "Manuel Villar", "nameKo": "마누엘 비야르",
+  "netWorth": 2.4, "nationality": "PH", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Manila, Philippines", "birthPlaceKo": "필리핀 마닐라",
+    "familyBackground": "Born to working-class Filipino family in Tondo Manila slums.", "familyBackgroundKo": "마닐라 톤도 슬럼 노동자 계급 필리핀 가정에서 출생.",
+    "education": "University of the Philippines.", "educationKo": "필리핀 대학교.",
+    "earlyLife": "Founded Vista Land in 1975 — mass-housing developer; entered Philippine politics, served as Senate President (2006-2008).",
+    "earlyLifeKo": "1975년 Vista Land 창립 — 대중 주택 개발사; 필리핀 정치 진입, 상원 의장 봉직(2006-2008).",
+    "source": "https://en.wikipedia.org/wiki/Manny_Villar"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Vista Land 50년 자수성가 + 정치 자본." },
+  "careerTimeline": [
+    { "year": 1975, "age": 25, "event": "Founded Vista Land mass-housing development.", "eventKo": "Vista Land 대중 주택 개발 창립.", "whyItMatteredKo": "50년 자수성가 출발선." },
+    { "year": 2001, "age": 51, "event": "Elected Philippine Senator; began political career.", "eventKo": "필리핀 상원의원 당선; 정치 경력 시작.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2006, "age": 56, "event": "Became Philippine Senate President (2006-2008).", "eventKo": "필리핀 상원 의장 취임(2006-2008).", "whyItMatteredKo": "정치 정점 단계." },
+    { "year": 2010, "age": 60, "event": "Lost Philippine presidential election to Benigno Aquino III.", "eventKo": "베니그노 아키노 3세에 필리핀 대통령 선거 패배.", "whyItMatteredKo": "정치 실패 단계." },
+    { "year": 2025, "age": 75, "event": "Personal net worth at $2.4B per Forbes Real-Time. Continues Vista Land family business.", "eventKo": "포브스 실시간 기준 개인 순자산 24억 달러. Vista Land 가족 사업 계속.", "whyItMatteredKo": "Vista Land 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2001, "age": 51, "decisionKo": "Vista Land 사업가에서 정치인으로 확장", "alternativeKo": "사업가 잔류", "outcomeKo": "사업가 + 상원 의장 이중 정체성" }],
+  "moneyMechanics": { "primaryRevenueKo": "Vista Land & Lifescapes(필리핀 증시) 가족 지분", "industryKo": "대중 주택·부동산 개발", "businessModelKo": "필리핀 대중·중산층 주택 + 정치 인맥", "moatKo": "50년 필리핀 주택 시장 입지 + 정치 인맥", "luckVsSkillKo": "운(40%): 필리핀 도시화 + 정치 인맥. 실력(60%): 50년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Vista Land; former Philippine Senate President; 2010 presidential candidate.",
+    "knownForKo": "Vista Land 창립자; 전 필리핀 상원 의장; 2010 대통령 후보.",
+    "philanthropy": "Villar Foundation supports Filipino education.", "philanthropyKo": "Villar 재단이 필리핀 교육 지원.",
+    "controversies": "C5 road extension scandal during Senate tenure; criticized for using political position to benefit Vista Land.",
+    "controversiesKo": "상원 재임 중 C5 도로 확장 스캔들; Vista Land 이익을 위한 정치 위치 사용 비판."
+  },
+  "characterKo": { "summaryKo": "마닐라 슬럼 출신 Vista Land + 필리핀 상원 의장 자수성가.", "tagsKo": ["Vista Land", "상원 의장", "필리핀 대중 주택"] },
+  "failures": [
+    { "year": 2008, "description": "Senate ethics committee investigated C5 road extension benefit to Villar's properties.", "descriptionKo": "상원 윤리 위원회가 C5 도로 확장의 Villar 부동산 혜택 조사.", "lesson": "Political-business conflicts of interest create exposure.", "lessonKo": "정치·사업 이해 충돌이 노출 야기." },
+    { "year": 2010, "description": "Lost Philippine presidential election; political-business strategy didn't translate.", "descriptionKo": "필리핀 대통령 선거 패배; 정치·사업 전략 전환 실패.", "lesson": "Business success does not guarantee political victory.", "lessonKo": "사업 성공이 정치 승리를 보장하지 않는다." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.2 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I built houses for people like me — the ones the elite forgot.", "textKo": "나는 엘리트가 잊은 사람들, 나 같은 사람들을 위해 집을 지었다.", "context": "On Vista Land mission", "contextKo": "Vista Land 미션에 대해", "source": "https://www.vistaland.com.ph" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Chuk day pillar in Ja month — 'pyeon-gwan-gyeok', strong external authority, fitting business-politician.", "summaryKo": "정축 일주 + 자월 편관격(강한 외부 압박·권력 충돌)은 사업가에서 상원 의장으로 정치 권력 환경에 진입한 그의 경로와 호응합니다. 정화 일간의 따뜻한 불 기질이 정치·사업 표현 욕구와 통하고, 축토 일지의 토 기운이 부동산 자본의 안정 기반을, 자수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

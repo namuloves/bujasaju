@@ -1,0 +1,39 @@
+{
+  "id": "832", "name": "Arturo Moreno", "nameKo": "아르투로 모레노",
+  "netWorth": 5.0, "nationality": "US", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "Tucson, Arizona, USA", "birthPlaceKo": "미국 애리조나주 투산",
+    "familyBackground": "Born to Mexican-American family in Tucson.", "familyBackgroundKo": "투산 멕시코·미국 가정에서 출생.",
+    "education": "University of Arizona.", "educationKo": "애리조나 대학교.",
+    "earlyLife": "US Army Vietnam veteran; built outdoor advertising career; co-founded Outdoor Systems; sold to Infinity Broadcasting for $8.7B in 1999; acquired Los Angeles Angels in 2003 — first Hispanic-American MLB team owner.",
+    "earlyLifeKo": "베트남 미군 참전; 옥외 광고 경력 구축; Outdoor Systems 공동 창립; 1999 Infinity Broadcasting에 87억 달러 매각; 2003년 Los Angeles Angels 인수 — 첫 히스패닉·미국 MLB 팀 소유주.",
+    "source": "https://en.wikipedia.org/wiki/Arturo_Moreno"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Outdoor Systems 매각 + LA Angels." },
+  "careerTimeline": [
+    { "year": 1968, "age": 22, "event": "Joined US Army; Vietnam veteran.", "eventKo": "미군 합류; 베트남 참전.", "whyItMatteredKo": "군 경력 출발선." },
+    { "year": 1984, "age": 38, "event": "Co-founded Outdoor Systems outdoor advertising company.", "eventKo": "Outdoor Systems 옥외 광고 회사 공동 창립.", "whyItMatteredKo": "사업 출발선." },
+    { "year": 1999, "age": 53, "event": "Sold Outdoor Systems to Infinity Broadcasting for $8.7B; major exit.", "eventKo": "Outdoor Systems를 Infinity Broadcasting에 87억 달러 매각; 주요 엑시트.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2003, "age": 57, "event": "Acquired Los Angeles Angels for $184M from Walt Disney Company.", "eventKo": "Walt Disney Company에서 Los Angeles Angels을 1억 8,400만 달러에 인수.", "whyItMatteredKo": "스포츠 단계." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $5.0B per Forbes Real-Time. Continues as Angels owner.", "eventKo": "포브스 실시간 기준 개인 순자산 50억 달러. Angels 소유주 계속.", "whyItMatteredKo": "Outdoor + Angels 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 53, "decisionKo": "Outdoor Systems 87억 달러 매각", "alternativeKo": "운영 잔류", "outcomeKo": "엑시트 + LA Angels 첫 히스패닉 MLB 소유주" }],
+  "moneyMechanics": { "primaryRevenueKo": "Outdoor Systems 매각 대금 + Los Angeles Angels", "industryKo": "스포츠 + 광고 매각 후 자본 운용", "businessModelKo": "Outdoor 매각 대금 + MLB 팀 + 다각화 투자", "moatKo": "Outdoor 매각 노하우 + 스포츠 자본", "luckVsSkillKo": "운(40%): 1999 옥외 광고 정점 매각. 실력(60%): 옥외 광고 통합 + Angels 운영." },
+  "personalTraits": {
+    "knownFor": "Owner of Los Angeles Angels MLB team; first Hispanic-American MLB owner; former Outdoor Systems co-founder.",
+    "knownForKo": "Los Angeles Angels MLB 팀 소유주; 첫 히스패닉·미국 MLB 소유주; 전 Outdoor Systems 공동 창립자.",
+    "philanthropy": "Major Tucson and Mexican-American education patron.", "philanthropyKo": "주요 투산·멕시코·미국 교육 후원자.",
+    "controversies": "Angels' multi-year sub-par performance and Albert Pujols/Anthony Rendon underperforming contracts drew fan criticism; 2022-2023 attempted sale of team withdrawn.",
+    "controversiesKo": "Angels의 다년간 부진한 성과·앨버트 푸홀스/앤서니 렌든 미달 계약이 팬 비판 야기; 2022-2023 팀 매각 시도 철회."
+  },
+  "characterKo": { "summaryKo": "베트남 참전 → Outdoor Systems 87억 달러 매각 → LA Angels 첫 히스패닉 MLB 소유주.", "tagsKo": ["Outdoor Systems", "LA Angels", "첫 히스패닉 MLB 소유주"] },
+  "failures": [
+    { "year": 2011, "description": "Albert Pujols 10-year/$240M contract underperformed; major free-agent miss.", "descriptionKo": "앨버트 푸홀스 10년 2억 4,000만 달러 계약 미달; 주요 자유 계약 실수.", "lesson": "Long-term sports contracts age poorly.", "lessonKo": "장기 스포츠 계약은 노화에 취약하다." },
+    { "year": 2023, "description": "Attempted Angels sale collapsed; team value uncertainty.", "descriptionKo": "Angels 매각 시도 붕괴; 팀 가치 불확실성.", "lesson": "Sports-team transactions face buyer-financing constraints.", "lessonKo": "스포츠 팀 거래는 매수자 자금 조달 제약 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 3.3 }, { "year": 2024, "netWorth": 4.8 }, { "year": 2025, "netWorth": 5.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I bought the Angels for the fans. Winning is harder than buying.", "textKo": "팬을 위해 Angels을 샀다. 우승은 사는 것보다 어렵다.", "context": "On Angels ownership", "contextKo": "Angels 소유에 대해", "source": "https://www.mlb.com/angels" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Shin day pillar in Shin month — 'pyeon-gwan-gyeok' with strong metal, fitting military-trained dealmaker.", "summaryKo": "경신 일주 + 신월 편관격(강한 외부 압박·권력 충돌)은 베트남 참전 군 경력에서 큰 사업 결단·스포츠 소유로 이어진 강한 자기 자본 패턴과 호응합니다. 경금 일간 + 일지·월지 모두 신금으로 단단한 금속 자본의 결단력을 삼중으로 강조합니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1143", "name": "Hemant Taneja", "nameKo": "헤만트 타네자",
+  "netWorth": 3.6, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "India", "birthPlaceKo": "인도",
+    "familyBackground": "Born to Indian family; migrated to US.", "familyBackgroundKo": "인도 가정에서 출생; 미국 이주.",
+    "education": "MIT (5 degrees including PhD).", "educationKo": "MIT(박사 포함 5개 학위).",
+    "earlyLife": "Joined General Catalyst as venture investor; rose to managing director and CEO in 2021 — led major US VC firm.",
+    "earlyLifeKo": "General Catalyst 벤처 투자자 합류; 2021년 상무이사·CEO 부상 — 주요 미국 VC 회사 주도.",
+    "source": "https://www.generalcatalyst.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "General Catalyst 25년 VC carry." },
+  "careerTimeline": [
+    { "year": 2002, "age": 27, "event": "Joined General Catalyst as venture investor.", "eventKo": "General Catalyst 벤처 투자자로 합류.", "whyItMatteredKo": "VC 경력 출발선." },
+    { "year": 2011, "age": 36, "event": "Led General Catalyst's healthcare and AI investments — early Stripe, Snap, Airbnb.", "eventKo": "General Catalyst의 헬스케어·AI 투자 주도 — 초기 Stripe·Snap·Airbnb.", "whyItMatteredKo": "포트폴리오 단계." },
+    { "year": 2021, "age": 46, "event": "Became General Catalyst CEO; restructured firm into 'transformation' platform.", "eventKo": "General Catalyst CEO 취임; 회사를 'transformation' 플랫폼으로 재구조화.", "whyItMatteredKo": "CEO 단계." },
+    { "year": 2024, "age": 49, "event": "General Catalyst AUM exceeded $25B; major Silicon Valley VC.", "eventKo": "General Catalyst AUM 250억 달러 초과; 주요 실리콘 밸리 VC.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 50, "event": "Personal net worth at $3.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 36억 달러.", "whyItMatteredKo": "VC 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2021, "age": 46, "decisionKo": "General Catalyst CEO 인수·재구조화", "alternativeKo": "파트너 잔류", "outcomeKo": "4년 후 250억 달러 AUM VC 메이저 CEO" }],
+  "moneyMechanics": { "primaryRevenueKo": "General Catalyst 창립 파트너 지분 + VC carry", "industryKo": "벤처 캐피탈", "businessModelKo": "초기·성장 단계 기술 + 헬스케어 + AI VC", "moatKo": "23+년 General Catalyst 트랙 + MIT 인맥", "luckVsSkillKo": "운(30%): 2010-2025 기술 VC 황금기. 실력(70%): 23+년 일관성." },
+  "personalTraits": {
+    "knownFor": "CEO of General Catalyst; major Silicon Valley VC; early Stripe, Snap, Airbnb investor.",
+    "knownForKo": "General Catalyst CEO; 주요 실리콘 밸리 VC; 초기 Stripe·Snap·Airbnb 투자자.",
+    "philanthropy": "Supports MIT and AI safety research.", "philanthropyKo": "MIT·AI 안전 연구 지원.",
+    "controversies": "General Catalyst 'transformation' restructuring drew industry-wide VC scrutiny; partner-departure disputes.",
+    "controversiesKo": "General Catalyst 'transformation' 재구조화가 산업 전반 VC 감시 야기; 파트너 퇴장 분쟁."
+  },
+  "characterKo": { "summaryKo": "MIT 5개 학위 + General Catalyst 23+년 VC CEO.", "tagsKo": ["General Catalyst", "MIT", "VC CEO"] },
+  "failures": [
+    { "year": 2022, "description": "Tech-stock decline compressed General Catalyst's portfolio valuations 50%+.", "descriptionKo": "기술주 하락으로 General Catalyst 포트폴리오 밸류에이션 50%+ 압축.", "lesson": "VC portfolios highly cyclical.", "lessonKo": "VC 포트폴리오 매우 주기적." },
+    { "year": 2024, "description": "Partner departures during General Catalyst restructuring drew industry scrutiny.", "descriptionKo": "General Catalyst 재구조화 동안 파트너 퇴장이 산업 감시 야기.", "lesson": "VC partner changes signal strategy disputes.", "lessonKo": "VC 파트너 변경은 전략 분쟁 신호." }
+  ],
+  "wealthHistory": [{ "year": 2021, "netWorth": 1.5 }, { "year": 2024, "netWorth": 3.3 }, { "year": 2025, "netWorth": 3.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "VC is now about transformation, not technology.", "textKo": "VC는 이제 기술이 아닌 변혁에 관한 것이다.", "context": "On General Catalyst strategy", "contextKo": "General Catalyst 전략에 대해", "source": "https://www.generalcatalyst.com" }],
+  "books": { "authored": [{ "title": "Intended Consequences", "year": 2022, "noteKo": "임팩트 투자 책." }], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Chuk day pillar in In month — 'jeongin-gyeok', maternal-academic foundation, fitting MIT-trained VC.", "summaryKo": "신축 일주 + 인월 정인격(공식 자격·학문·문서 권위)은 MIT 5개 학위라는 학문 기반에서 출발한 VC 경력과 정확히 호응합니다. 신금 일간의 예리한 금속 + 축토 일지의 토 기운이 VC 결단의 정밀함과 자본 기반을 가리키고, 인목 월지의 목 기운이 회사 성장을 강조합니다." }
+}

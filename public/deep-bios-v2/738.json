@@ -1,0 +1,39 @@
+{
+  "id": "738", "name": "Don Vultaggio", "nameKo": "돈 불타조",
+  "netWorth": 5.5, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Brooklyn, New York, USA", "birthPlaceKo": "미국 뉴욕 브루클린",
+    "familyBackground": "Born to Italian-American working-class family in Brooklyn.", "familyBackgroundKo": "브루클린 이탈리아·미국 노동자 계급 가정에서 출생.",
+    "education": "Limited formal higher education.", "educationKo": "정규 고등교육 제한적.",
+    "earlyLife": "Co-founded AriZona Beverages with John Ferolito in 1971 — initially a beer-distribution business; pivoted to iced-tea brand in 1992.",
+    "earlyLifeKo": "1971년 존 페롤리토와 AriZona Beverages 공동 창립 — 초기 맥주 유통 사업; 1992년 아이스 티 브랜드로 피벗.",
+    "source": "https://en.wikipedia.org/wiki/AriZona_Beverage_Company"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "AriZona Beverages 54년 자수성가." },
+  "careerTimeline": [
+    { "year": 1971, "age": 19, "event": "Co-founded beer-distribution company in Brooklyn with John Ferolito.", "eventKo": "존 페롤리토와 브루클린에서 맥주 유통 회사 공동 창립.", "whyItMatteredKo": "54년 자수성가 출발선." },
+    { "year": 1992, "age": 40, "event": "Launched AriZona Iced Tea — 99-cent tallboy can format; instant national hit.", "eventKo": "AriZona Iced Tea 출시 — 99센트 톨보이 캔 형식; 즉시 전국 히트.", "whyItMatteredKo": "AriZona 출발선." },
+    { "year": 2005, "age": 53, "event": "Bought out partner Ferolito after legal dispute; took 100% ownership.", "eventKo": "법적 분쟁 후 파트너 페롤리토 매수; 100% 소유 인수.", "whyItMatteredKo": "단독 소유 단계." },
+    { "year": 2015, "age": 63, "event": "AriZona maintained 99-cent price point despite inflation; cult-brand status.", "eventKo": "AriZona가 인플레이션에도 99센트 가격 유지; 컬트 브랜드 지위.", "whyItMatteredKo": "가격 유지 단계." },
+    { "year": 2025, "age": 73, "event": "Personal net worth at $5.5B per Forbes Real-Time. Continues as AriZona Beverages 100% owner.", "eventKo": "포브스 실시간 기준 개인 순자산 55억 달러. AriZona Beverages 100% 소유 계속.", "whyItMatteredKo": "54년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1992, "age": 40, "decisionKo": "맥주 유통에서 자체 아이스 티 브랜드로 피벗", "alternativeKo": "맥주 유통 잔류", "outcomeKo": "33년 후 99센트 컬트 브랜드 + 100% 소유" }],
+  "moneyMechanics": { "primaryRevenueKo": "AriZona Beverages(100% 소유)", "industryKo": "음료(아이스 티·에너지 드링크)", "businessModelKo": "99센트 톨보이 + 광고 절감 + 100% 소유로 IPO 없음", "moatKo": "30+년 99센트 가격 유지 + 컬트 팬덤", "luckVsSkillKo": "운(25%): 음료 시장 부상. 실력(75%): 30+년 가격 유지 + 100% 소유 결단." },
+  "personalTraits": {
+    "knownFor": "Founder and 100% owner of AriZona Beverages; legendary 99-cent tallboy iced-tea entrepreneur.",
+    "knownForKo": "AriZona Beverages 창립자·100% 소유주; 전설적 99센트 톨보이 아이스 티 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Long-running partner dispute with John Ferolito (settled); challenged 99-cent price-point pressure from suppliers.",
+    "controversiesKo": "존 페롤리토와의 장기 파트너 분쟁(합의); 공급사로부터의 99센트 가격 압박."
+  },
+  "characterKo": { "summaryKo": "브루클린 출신 AriZona Beverages 54년 100% 소유 자수성가 — 99센트 가격 유지 전설.", "tagsKo": ["AriZona Beverages", "99센트 톨보이", "100% 소유"] },
+  "failures": [
+    { "year": 2005, "description": "Partner dispute with Ferolito triggered years of legal battles before buyout.", "descriptionKo": "페롤리토와의 파트너 분쟁이 매수 전 다년간 법적 다툼 촉발.", "lesson": "Co-founder agreements should anticipate dispute scenarios.", "lessonKo": "공동 창립자 합의는 분쟁 시나리오 예상해야 한다." },
+    { "year": 2022, "description": "Post-COVID inflation in aluminum and ingredients tested AriZona's 99-cent price point.", "descriptionKo": "팬데믹 후 알루미늄·재료 인플레이션이 AriZona의 99센트 가격 시험.", "lesson": "Price-promise products face cost-cycle compression.", "lessonKo": "가격 약속 제품은 비용 사이클 압축 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 2.8 }, { "year": 2024, "netWorth": 5.2 }, { "year": 2025, "netWorth": 5.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "99 cents is a promise. We keep promises.", "textKo": "99센트는 약속이다. 우리는 약속을 지킨다.", "context": "On 99-cent price point", "contextKo": "99센트 가격에 대해", "source": "https://www.drinkarizona.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-In day pillar in In month — 'siksin-gyeok', creative output, fitting beverage brand builder.", "summaryKo": "임인 일주 + 인월 식신격(창의적 결과물·표현)은 99센트 컬트 브랜드라는 끊임없는 창의적 마케팅 표현과 호응합니다. 임수 일간의 큰 물·유연성이 음료 산업과 직접 통하고, 인목 일지·인목 월지의 강한 목 기운이 54년 회사의 자연 성장을 가리키며, 식신격이 평생 창의적 표현으로 부를 짓는 구조와 통합니다." }
+}

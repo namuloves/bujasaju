@@ -1,0 +1,40 @@
+{
+  "id": "640", "name": "Donald John Trump", "nameKo": "도널드 존 트럼프",
+  "netWorth": 6.2, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Queens, New York, USA", "birthPlaceKo": "미국 뉴욕 퀸스",
+    "familyBackground": "Born to Fred Trump — New York real-estate developer.", "familyBackgroundKo": "뉴욕 부동산 개발자 프레드 트럼프의 아들.",
+    "education": "Fordham University; Wharton School (Penn).", "educationKo": "포드햄 대학교; 와튼 스쿨(펜).",
+    "earlyLife": "Joined family Trump Organization; expanded into Manhattan from Queens-and-Brooklyn rentals; television (The Apprentice); twice US President (45th and 47th).",
+    "earlyLifeKo": "가족 Trump Organization 합류; 퀸스·브루클린 임대에서 맨해튼으로 확장; TV(The Apprentice); 미국 2회 대통령(45대·47대).",
+    "source": "https://en.wikipedia.org/wiki/Donald_Trump"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "Trump 가족 자본 + 본인 부동산·브랜드·미디어·정치." },
+  "careerTimeline": [
+    { "year": 1971, "age": 25, "event": "Took over family Trump Organization after Wharton; renamed from Fred's company.", "eventKo": "와튼 후 가족 Trump Organization 인수; 프레드 회사에서 개명.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1983, "age": 37, "event": "Completed Trump Tower on 5th Avenue; became Manhattan brand magnate.", "eventKo": "5번가 Trump Tower 완공; 맨해튼 브랜드 거물이 됨.", "whyItMatteredKo": "브랜드 단계." },
+    { "year": 2004, "age": 58, "event": "Hosted NBC's The Apprentice TV show; became national media figure.", "eventKo": "NBC The Apprentice TV 쇼 진행; 전국 미디어 인물이 됨.", "whyItMatteredKo": "미디어 단계." },
+    { "year": 2017, "age": 70, "event": "Inaugurated as 45th US President (2017-2021).", "eventKo": "미국 45대 대통령 취임(2017-2021).", "whyItMatteredKo": "대통령 단계." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $6.2B per Forbes Real-Time. Inaugurated as 47th US President; Trump Media Technology Group public.", "eventKo": "포브스 실시간 기준 개인 순자산 62억 달러. 미국 47대 대통령 취임; Trump Media Technology Group 공개.", "whyItMatteredKo": "대통령 2회 정점." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 69, "decisionKo": "대통령 출마 결정", "alternativeKo": "사업·미디어 인물 잔류", "outcomeKo": "10년 후 미국 2회 대통령 + 미디어 + 부동산 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Trump Organization + Trump Media Technology Group(NASDAQ) + Trump 브랜드 라이선싱 + 정치 기금", "industryKo": "부동산 + 미디어 + 브랜드 + 정치", "businessModelKo": "맨해튼·플로리다 부동산 + 골프장 + 라이선싱 + 미디어 + 정치 자본", "moatKo": "Trump 브랜드 + 50+년 미디어 인지도 + 대통령직", "luckVsSkillKo": "운(45%): 가족 자본 + 미디어·정치 타이밍. 실력(55%): 50+년 부동산·미디어·정치 일관성." },
+  "personalTraits": {
+    "knownFor": "45th and 47th US President; founder of Trump Organization; host of The Apprentice; major political and business figure.",
+    "knownForKo": "미국 45대·47대 대통령; Trump Organization 창립자; The Apprentice 진행자; 주요 정치·사업 인물.",
+    "philanthropy": "Trump Foundation (dissolved 2018 after NY AG settlement); limited current philanthropy.",
+    "philanthropyKo": "Trump 재단(NY AG 합의 후 2018 해산); 현재 자선 제한적.",
+    "controversies": "Multiple criminal indictments (2023-2024); 4 indictments (NY business records, classified documents, Jan 6); civil fraud judgment $464M (2024, on appeal); Trump University settlement $25M.",
+    "controversiesKo": "다수 형사 기소(2023-2024); 4건 기소(NY 사업 기록·기밀 문서·1월 6일); 4억 6,400만 달러 민사 사기 판결(2024, 항소 중); Trump University 합의 2,500만 달러."
+  },
+  "characterKo": { "summaryKo": "Trump Organization + The Apprentice + 미국 2회 대통령.", "tagsKo": ["Trump Organization", "45대·47대 대통령", "The Apprentice", "Truth Social"] },
+  "failures": [
+    { "year": 1991, "description": "Multiple Atlantic City casino bankruptcies (Trump Taj Mahal, Trump Castle) and personal financial crisis.", "descriptionKo": "다수 애틀랜틱 시티 카지노 파산(Trump Taj Mahal·Trump Castle)과 개인 금융 위기.", "lesson": "Casino industry exposes operators to debt-cycle risk.", "lessonKo": "카지노 산업이 운영자를 부채 사이클 리스크 노출." },
+    { "year": 2024, "description": "NY civil fraud judgment ordered $464M+; multiple criminal indictments; first US president indicted on felony charges.", "descriptionKo": "NY 민사 사기 판결로 4억 6,400만 달러+ 명령; 다수 형사 기소; 중범죄 혐의로 기소된 첫 미국 대통령.", "lesson": "Political prominence magnifies legal exposure.", "lessonKo": "정치적 두드러짐이 법적 노출 증폭." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 7.7 }, { "year": 2025, "netWorth": 6.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "The art of the deal is making the other party think they won.", "textKo": "딜의 예술은 상대방이 이겼다고 생각하게 만드는 것이다.", "context": "On The Art of the Deal", "contextKo": "The Art of the Deal에 대해", "source": "https://www.donaldjtrump.com" }],
+  "books": { "authored": [{ "title": "The Art of the Deal", "year": 1987, "noteKo": "베스트셀러 비즈니스 회고록." }], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Mi day pillar in O month — 'jeonggwan-gyeok', formal authority, fitting president-and-mogul.", "summaryKo": "기미 일주 + 오월 정관격(공식 권위·정치 권력)은 미국 대통령직이라는 공식 최고 권위와 정확히 호응합니다. 기토 일간 + 미토 일지의 강한 토 기운이 50+년 가족 자본·부동산의 안정 기반을 가리키고, 오화 월지의 강한 화 기운이 미디어·표현·정치 결단의 거대 에너지를 가리킵니다." }
+}

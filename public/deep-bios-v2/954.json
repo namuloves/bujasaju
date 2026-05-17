@@ -1,0 +1,39 @@
+{
+  "id": "954", "name": "S. Curtis Johnson", "nameKo": "S. 커티스 존슨",
+  "netWorth": 4.3, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Racine, Wisconsin, USA", "birthPlaceKo": "미국 위스콘신주 라신",
+    "familyBackground": "Born to Sam Johnson — fourth-generation S.C. Johnson Wax family member.", "familyBackgroundKo": "S.C. Johnson Wax 가족 4세대 구성원 샘 존슨의 아들.",
+    "education": "Cornell University.", "educationKo": "코넬 대학교.",
+    "earlyLife": "Joined family S.C. Johnson; led JohnsonDiversey commercial-cleaning business; family stakeholder.",
+    "earlyLifeKo": "가족 S.C. Johnson 합류; JohnsonDiversey 상업 청소 사업 주도; 가족 주주.",
+    "source": "https://en.wikipedia.org/wiki/S._Curtis_Johnson"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "S.C. Johnson 138+년 가족 자본." },
+  "careerTimeline": [
+    { "year": 1977, "age": 22, "event": "Began S.C. Johnson family operations after Cornell.", "eventKo": "코넬 후 S.C. Johnson 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1999, "age": 44, "event": "Took over JohnsonDiversey commercial-cleaning business spin-off.", "eventKo": "JohnsonDiversey 상업 청소 사업 분사 인수.", "whyItMatteredKo": "분사 단계." },
+    { "year": 2011, "age": 56, "event": "S.C. Johnson family sold JohnsonDiversey to Sealed Air for $3B.", "eventKo": "S.C. Johnson 가족이 JohnsonDiversey를 Sealed Air에 30억 달러 매각.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2020, "age": 65, "event": "Continued as senior S.C. Johnson family stakeholder during pandemic.", "eventKo": "팬데믹 동안 시니어 S.C. Johnson 가족 주주로 계속.", "whyItMatteredKo": "팬데믹 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $4.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러.", "whyItMatteredKo": "S.C. Johnson 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 44, "decisionKo": "JohnsonDiversey 분사 운영", "alternativeKo": "S.C. Johnson 본체 잔류", "outcomeKo": "12년 후 30억 달러 매각" }],
+  "moneyMechanics": { "primaryRevenueKo": "S.C. Johnson(가족 통제 비공개) + JohnsonDiversey 매각 대금", "industryKo": "소비재 + 상업 청소", "businessModelKo": "가정용 청소 + 상업 청소 매각 대금", "moatKo": "138+년 Johnson 가족 자본", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): JohnsonDiversey 운영." },
+  "personalTraits": {
+    "knownFor": "Member of S.C. Johnson family (4th generation); former JohnsonDiversey CEO.",
+    "knownForKo": "S.C. Johnson 가족(4세대) 구성원; 전 JohnsonDiversey CEO.",
+    "philanthropy": "Johnson family supports Wisconsin community.", "philanthropyKo": "Johnson 가족이 위스콘신 지역 사회 지원.",
+    "controversies": "2011 Wisconsin arrest over alleged inappropriate contact with minor (charges later resolved); reputational impact.",
+    "controversiesKo": "2011 위스콘신 미성년자 부적절 접촉 의혹 체포(혐의 이후 해결); 평판 영향."
+  },
+  "characterKo": { "summaryKo": "S.C. Johnson 가족 4세대 + JohnsonDiversey 매각.", "tagsKo": ["S.C. Johnson 가족", "JohnsonDiversey", "Sealed Air 매각"] },
+  "failures": [
+    { "year": 2011, "description": "Wisconsin arrest drew sustained reputational damage; charges eventually resolved.", "descriptionKo": "위스콘신 체포가 지속적 평판 손상 야기; 혐의 결국 해결.", "lesson": "Personal-conduct issues affect family business standing.", "lessonKo": "개인 행동 이슈가 가족 사업 위상 영향." },
+    { "year": 2008, "description": "Global financial crisis briefly compressed JohnsonDiversey commercial-cleaning demand.", "descriptionKo": "글로벌 금융위기로 JohnsonDiversey 상업 청소 수요 잠시 압축.", "lesson": "Commercial services pro-cyclical.", "lessonKo": "상업 서비스는 순응 사이클." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.4 }, { "year": 2020, "netWorth": 3.3 }, { "year": 2024, "netWorth": 4.1 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family stewardship outlasts individual reputation.", "textKo": "가족 청지기는 개인 평판보다 오래 간다.", "context": "On family business", "contextKo": "가족 사업에 대해", "source": "https://www.scjohnson.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-In day pillar in Jin month — 'pyeonjae-gyeok', large external wealth, fitting family heir.", "summaryKo": "병인 일주 + 진월 편재격(크고 유동적인 외부 자본)은 다세대 S.C. Johnson 가족 자본의 거대 외부 자본 흐름과 호응합니다. 병화 일간의 큰 불·태양 기질이 가족 자본의 시각화·결단과 통하고, 인목 일지의 목 기운이 회사 누적 성장을, 진토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1139", "name": "John Bicket", "nameKo": "존 비켓",
+  "netWorth": 3.6, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "MIT (computer science).", "educationKo": "MIT(컴퓨터 과학).",
+    "earlyLife": "Co-founded Meraki in 2006 (acquired by Cisco for $1.2B in 2012); co-founded Samsara in 2015 — IoT and fleet-management platform.",
+    "earlyLifeKo": "2006년 Meraki 공동 창립(2012 Cisco가 12억 달러 인수); 2015년 Samsara 공동 창립 — IoT·차량 관리 플랫폼.",
+    "source": "https://en.wikipedia.org/wiki/Samsara_Inc."
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Meraki 매각 + Samsara 10년 누적." },
+  "careerTimeline": [
+    { "year": 2002, "age": 22, "event": "MIT computer-science studies; built wireless mesh-networking research.", "eventKo": "MIT 컴퓨터 과학 연구; 무선 메시 네트워킹 연구 구축.", "whyItMatteredKo": "기술 경력 출발선." },
+    { "year": 2006, "age": 26, "event": "Co-founded Meraki with Sanjit Biswas — cloud-managed networking.", "eventKo": "산짓 비스와스와 Meraki 공동 창립 — 클라우드 관리 네트워킹.", "whyItMatteredKo": "Meraki 출발선." },
+    { "year": 2012, "age": 32, "event": "Cisco acquired Meraki for $1.2B.", "eventKo": "Cisco가 Meraki 12억 달러 인수.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2015, "age": 35, "event": "Co-founded Samsara with Sanjit Biswas — IoT fleet-management SaaS.", "eventKo": "산짓 비스와스와 Samsara 공동 창립 — IoT 차량 관리 SaaS.", "whyItMatteredKo": "Samsara 출발선." },
+    { "year": 2021, "age": 41, "event": "Samsara IPO on NYSE; valuation crossed $14B.", "eventKo": "Samsara NYSE IPO; 밸류에이션 140억 달러 돌파.", "whyItMatteredKo": "공개 시장 단계." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 35, "decisionKo": "Cisco 떠나 Samsara 두 번째 회사 공동 창립", "alternativeKo": "Meraki 매각 후 은퇴", "outcomeKo": "10년 후 IoT 플랫폼 메이저 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Samsara(NYSE 상장) 공동 창립자 지분", "industryKo": "엔터프라이즈 SaaS·IoT", "businessModelKo": "구독 기반 차량·자산 IoT 모니터링", "moatKo": "Meraki + Samsara 두 회사 창립 + MIT 인맥", "luckVsSkillKo": "운(30%): 2010-2020 SaaS·IoT 부상. 실력(70%): MIT + 두 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Meraki and Samsara; serial enterprise-SaaS entrepreneur; MIT-trained computer scientist.",
+    "knownForKo": "Meraki·Samsara 공동 창립자; 연쇄 엔터프라이즈 SaaS 기업가; MIT 컴퓨터 과학자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Standard enterprise-SaaS competition; Samsara growth-rate scrutiny.", "controversiesKo": "표준 엔터프라이즈 SaaS 경쟁; Samsara 성장률 감시."
+  },
+  "characterKo": { "summaryKo": "MIT 출신 Meraki + Samsara 공동 창립자 — 연쇄 SaaS 기업가.", "tagsKo": ["Samsara", "Meraki", "MIT 컴퓨터 과학", "연쇄 창업"] },
+  "failures": [
+    { "year": 2022, "description": "Samsara stock fell 50%+ during tech-stock decline; growth concerns.", "descriptionKo": "기술주 하락 동안 Samsara 주가 50%+ 하락; 성장 우려.", "lesson": "Growth-SaaS valuations highly cyclical.", "lessonKo": "성장 SaaS 밸류에이션은 매우 주기적." },
+    { "year": 2024, "description": "Samsara growth rate slowed as customer fleet-IoT adoption matured.", "descriptionKo": "고객 차량 IoT 도입이 성숙하면서 Samsara 성장률 둔화.", "lesson": "SaaS markets eventually saturate.", "lessonKo": "SaaS 시장은 결국 포화된다." }
+  ],
+  "wealthHistory": [{ "year": 2021, "netWorth": 3.0 }, { "year": 2022, "netWorth": 1.8 }, { "year": 2024, "netWorth": 3.4 }, { "year": 2025, "netWorth": 3.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Networks and fleets are the same kind of problem.", "textKo": "네트워크와 차량은 같은 종류의 문제다.", "context": "On serial-founder pattern", "contextKo": "연쇄 창립자 패턴에 대해", "source": "https://www.samsara.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Jin day pillar in Myo month — 'jeonggwan-gyeok', formal authority, fitting institutional SaaS founder.", "summaryKo": "임진 일주 + 묘월 정관격(공식 권위·규제 아래에서 일하는 구조)은 엔터프라이즈 SaaS의 데이터·규제·기관 인증 환경과 호응합니다. 임수 일간의 큰 물·유연성이 거대 SaaS 회사 가부장 역할과 통하고, 진토 일지의 토 기운이 SaaS 인프라 자본의 안정 기반을 가리키며, 묘목 월지의 목 기운이 회사 성장을 강조합니다." }
+}

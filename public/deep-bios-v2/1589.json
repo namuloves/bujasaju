@@ -1,0 +1,38 @@
+{
+  "id": "1589", "name": "George Joseph", "nameKo": "조지 조지프",
+  "netWorth": 2.5, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Harvard University; Harvard Business School.", "educationKo": "하버드 대학교; 하버드 비즈니스 스쿨.",
+    "earlyLife": "Founded Mercury General Corporation in 1961 — Los Angeles auto-insurance specialist.",
+    "earlyLifeKo": "1961년 Mercury General Corporation 창립 — 로스앤젤레스 자동차 보험 전문.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_General"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Mercury General 64년 자수성가." },
+  "careerTimeline": [
+    { "year": 1948, "age": 27, "event": "Worked as actuary at California insurance firms.", "eventKo": "캘리포니아 보험 회사 보험계리사로 근무.", "whyItMatteredKo": "보험 경력 출발선." },
+    { "year": 1961, "age": 40, "event": "Founded Mercury General Corporation in Los Angeles.", "eventKo": "로스앤젤레스에서 Mercury General Corporation 창립.", "whyItMatteredKo": "64년 자수성가 출발선." },
+    { "year": 1985, "age": 64, "event": "Mercury General IPO on NYSE.", "eventKo": "Mercury General NYSE IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2010, "age": 89, "event": "Mercury became major California auto-insurance writer.", "eventKo": "Mercury가 주요 캘리포니아 자동차 보험 인수자가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2025, "age": 103, "event": "Personal net worth at $2.5B per Forbes Real-Time. Among the oldest active billionaires.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러. 가장 오래된 활동 억만장자 중 한 명.", "whyItMatteredKo": "64년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1961, "age": 40, "decisionKo": "캘리포니아에서 Mercury General 자동차 보험 창립", "alternativeKo": "직장 잔류", "outcomeKo": "64년 후 캘리포니아 자동차 보험 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Mercury General Corporation(NYSE 상장) 창립자 지분", "industryKo": "보험(자동차)", "businessModelKo": "캘리포니아 중심 자동차·기타 P&C 보험 인수", "moatKo": "64년 캘리포니아 자동차 보험 데이터 + 가족 통제", "luckVsSkillKo": "운(25%): 자동차 보험 부상. 실력(75%): 64년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Mercury General Corporation; one of California's largest auto insurers; centenarian active executive.",
+    "knownForKo": "Mercury General Corporation 창립자; 캘리포니아 최대 자동차 보험사 중 하나; 100세 활동 임원.",
+    "philanthropy": "Major Harvard Business School patron.", "philanthropyKo": "주요 하버드 비즈니스 스쿨 후원자.",
+    "controversies": "Limited; standard auto-insurance industry regulatory scrutiny.", "controversiesKo": "제한적; 표준 자동차 보험 산업 규제 감시."
+  },
+  "characterKo": { "summaryKo": "Mercury General 64년 100세 자수성가 — 캘리포니아 자동차 보험.", "tagsKo": ["Mercury General", "캘리포니아 자동차 보험", "100세 현역"] },
+  "failures": [
+    { "year": 1988, "description": "California Proposition 103 rollback compressed Mercury's auto-insurance premiums.", "descriptionKo": "캘리포니아 Proposition 103 롤백이 Mercury 자동차 보험료 압축.", "lesson": "Insurance subject to voter-approved regulation.", "lessonKo": "보험은 유권자 승인 규제 대상." },
+    { "year": 2017, "description": "California wildfires drove Mercury claims spikes.", "descriptionKo": "캘리포니아 산불이 Mercury 청구 급증 야기.", "lesson": "P&C insurance exposed to climate-cycle risk.", "lessonKo": "P&C 보험은 기후 사이클 리스크 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.6 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Insurance is the business of getting boring right.", "textKo": "보험은 지루함을 옳게 하는 사업이다.", "context": "On Mercury General philosophy", "contextKo": "Mercury General 철학에 대해", "source": "https://www.mercuryinsurance.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Chuk day pillar in Yu month — 'pyeonjae-gyeok', large external capital, fitting auto-insurance founder.", "summaryKo": "정축 일주 + 유월 편재격(크고 유동적인 외부 자본)은 자동차 보험이라는 거대 외부 자본 흐름과 호응합니다. 정화 일간의 따뜻한 불 기질이 64년 회사 가부장 역할과 통하고, 축토 일지의 토 기운이 보험 자본의 안정 기반을, 유금 월지의 금 기운이 보험계리·결단의 정밀함을 가리킵니다." }
+}

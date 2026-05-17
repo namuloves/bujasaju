@@ -1,0 +1,40 @@
+{
+  "id": "1162", "name": "Jonathan Milton Nelson", "nameKo": "조너선 밀턴 넬슨",
+  "netWorth": 3.6, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Brown University; Harvard MBA.", "educationKo": "브라운 대학교; 하버드 MBA.",
+    "earlyLife": "Worked at Narragansett Capital; founded Providence Equity Partners in 1989 — pioneering media/communications-focused private-equity firm.",
+    "earlyLifeKo": "Narragansett Capital 근무; 1989년 Providence Equity Partners 창립 — 선구적 미디어·통신 집중 사모펀드 회사.",
+    "source": "https://en.wikipedia.org/wiki/Jonathan_Nelson_(businessman)"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Providence Equity Partners 36년 누적 carry." },
+  "careerTimeline": [
+    { "year": 1983, "age": 27, "event": "Joined Narragansett Capital after Harvard MBA.", "eventKo": "하버드 MBA 후 Narragansett Capital 합류.", "whyItMatteredKo": "PE 경력 출발선." },
+    { "year": 1989, "age": 33, "event": "Founded Providence Equity Partners — first major media/telecom-focused PE firm.", "eventKo": "Providence Equity Partners 창립 — 첫 주요 미디어·통신 집중 PE 회사.", "whyItMatteredKo": "Providence 출발선." },
+    { "year": 2007, "age": 51, "event": "Providence acquired Univision for $13.7B — one of largest US media LBOs.", "eventKo": "Providence가 Univision을 137억 달러 인수 — 최대 미국 미디어 LBO 중 하나.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2018, "age": 62, "event": "Providence raised $7.5B Fund VIII; cemented top media/telecom PE position.", "eventKo": "Providence가 75억 달러 펀드 VIII 조성; 톱 미디어·통신 PE 자리 굳힘.", "whyItMatteredKo": "메이저 정점 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $3.6B per Forbes Real-Time. Continues as Providence Equity Partners founder.", "eventKo": "포브스 실시간 기준 개인 순자산 36억 달러. Providence Equity Partners 창립자 계속.", "whyItMatteredKo": "36년 PE 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1989, "age": 33, "decisionKo": "Narragansett 떠나 미디어 집중 PE 창립", "alternativeKo": "Narragansett 잔류", "outcomeKo": "36년 후 미국 톱 미디어·통신 PE" }],
+  "moneyMechanics": { "primaryRevenueKo": "Providence Equity Partners 창립자 지분 + 36년 carry", "industryKo": "미디어·통신·교육 PE", "businessModelKo": "미디어·통신·교육 LBO + 성장 PE", "moatKo": "36년 미디어·통신 산업 인맥 + 트랙 레코드", "luckVsSkillKo": "운(35%): 2000-2010 미디어 통합기. 실력(65%): 36년 단일 카테고리 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Providence Equity Partners; pioneering media/communications PE; one of original media-LBO architects.",
+    "knownForKo": "Providence Equity Partners 창립자; 선구적 미디어·통신 PE; 원래 미디어 LBO 설계자 중 한 명.",
+    "philanthropy": "Major Brown University patron (Nelson Center for Entrepreneurship); Rhode Island community.",
+    "philanthropyKo": "주요 브라운 대학교 후원자(Nelson Center for Entrepreneurship); 로드아일랜드 지역 사회.",
+    "controversies": "Univision LBO suffered post-2008 cyclical compression; sustained labor and PE-cost criticism.",
+    "controversiesKo": "Univision LBO가 2008 후 사이클 압축 직면; 지속적 노동·PE 비용 비판."
+  },
+  "characterKo": { "summaryKo": "Providence Equity Partners 36년 자수성가 — 미디어·통신 PE 선구자.", "tagsKo": ["Providence Equity", "미디어 PE", "Brown 대학교 후원자"] },
+  "failures": [
+    { "year": 2009, "description": "Providence's $13.7B Univision LBO suffered post-2008 cyclical compression; debt restructuring required.", "descriptionKo": "Providence의 137억 달러 Univision LBO가 2008 후 사이클 압축 직면; 부채 재구조화 필요.", "lesson": "Mega-LBOs face credit-cycle vulnerability.", "lessonKo": "메가 LBO는 신용 사이클 취약성 직면." },
+    { "year": 2022, "description": "Rising interest rates compressed Providence's media-LBO portfolio valuations.", "descriptionKo": "금리 상승으로 Providence의 미디어 LBO 포트폴리오 밸류에이션 압축.", "lesson": "Levered media-PE sensitive to rates.", "lessonKo": "레버리지 미디어 PE는 금리에 민감." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.1 }, { "year": 2020, "netWorth": 2.7 }, { "year": 2024, "netWorth": 3.4 }, { "year": 2025, "netWorth": 3.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Media businesses are content + distribution. Both need patience.", "textKo": "미디어 사업은 콘텐츠 + 유통이다. 둘 다 인내가 필요하다.", "context": "On media PE", "contextKo": "미디어 PE에 대해", "source": "https://www.provequity.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Yu day pillar in Sa month — 'pyeon-in-gyeok', creative intuition, fitting media-PE pioneer.", "summaryKo": "을유 일주 + 사월 편인격(독학·창의적 직관)은 36년 전 미디어·통신이라는 비전형적 PE 카테고리를 개척한 직관과 호응합니다. 을목 일간의 부드러운 식물 + 유금 일지의 금 기운이 미디어 콘텐츠 + PE 결단의 결합과 통하고, 사화 월지의 화 기운이 미디어·표현 산업과 통합니다." }
+}

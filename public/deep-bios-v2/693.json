@@ -1,0 +1,37 @@
+{
+  "id": "693", "name": "Marisa Del Vecchio", "nameKo": "마리사 델 베키오",
+  "netWorth": 5.7, "nationality": "IT", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Italy", "birthPlaceKo": "이탈리아",
+    "familyBackground": "Born to Leonardo Del Vecchio — founder of EssilorLuxottica (Italian eyewear giant).", "familyBackgroundKo": "EssilorLuxottica(이탈리아 안경 거대 기업) 창립자 레오나르도 델 베키오의 딸.",
+    "education": "Italian higher education.", "educationKo": "이탈리아 고등교육.",
+    "earlyLife": "Inherited substantial Del Vecchio family stake in EssilorLuxottica after father's 2022 death.",
+    "earlyLifeKo": "2022년 아버지 사망 후 EssilorLuxottica의 Del Vecchio 가족 지분 상당히 상속.",
+    "source": "https://en.wikipedia.org/wiki/Leonardo_Del_Vecchio"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Del Vecchio 가족 자본 상속." },
+  "careerTimeline": [
+    { "year": 1980, "age": 22, "event": "Began family Del Vecchio operations.", "eventKo": "가족 Del Vecchio 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2018, "age": 60, "event": "EssilorLuxottica formed via Essilor and Luxottica merger.", "eventKo": "Essilor·Luxottica 합병으로 EssilorLuxottica 형성.", "whyItMatteredKo": "글로벌 합병 단계." },
+    { "year": 2022, "age": 64, "event": "Father Leonardo Del Vecchio died; family stake distributed among heirs.", "eventKo": "아버지 레오나르도 델 베키오 사망; 가족 지분이 상속자들에 분배.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2025, "age": 66, "event": "Personal net worth at $5.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 57억 달러.", "whyItMatteredKo": "가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2022, "age": 64, "decisionKo": "아버지 사후 가족 EssilorLuxottica 지분 인수", "alternativeKo": "독립 경로", "outcomeKo": "Del Vecchio 가족 자본의 핵심 주주" }],
+  "moneyMechanics": { "primaryRevenueKo": "EssilorLuxottica(파리·밀라노 증시) 가족 지분 + 부동산", "industryKo": "안경·아이웨어", "businessModelKo": "글로벌 안경 + 가족 다각화 투자", "moatKo": "Del Vecchio 다세대 가족 자본", "luckVsSkillKo": "운(90%): 가족 자본. 실력(10%): 가족 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Daughter of Leonardo Del Vecchio; EssilorLuxottica major family shareholder.",
+    "knownForKo": "레오나르도 델 베키오의 딸; EssilorLuxottica 주요 가족 주주.",
+    "philanthropy": "Del Vecchio family supports Italian education.", "philanthropyKo": "Del Vecchio 가족이 이탈리아 교육 지원.",
+    "controversies": "Del Vecchio inheritance disputes after 2022 patriarch death.", "controversiesKo": "2022 가부장 사망 후 Del Vecchio 상속 분쟁."
+  },
+  "characterKo": { "summaryKo": "Del Vecchio 가족의 EssilorLuxottica 주요 상속자.", "tagsKo": ["EssilorLuxottica", "Del Vecchio 가족"] },
+  "failures": [
+    { "year": 2022, "description": "Del Vecchio family inheritance disputes drew public family conflict.", "descriptionKo": "Del Vecchio 가족 상속 분쟁이 공개 가족 갈등 야기.", "lesson": "Multi-heir inheritance creates legal-narrative exposure.", "lessonKo": "다수 상속자 상속은 법적 서사 노출 야기." },
+    { "year": 2022, "description": "EssilorLuxottica stock fell during global luxury cycle compression.", "descriptionKo": "글로벌 럭셔리 사이클 압축 동안 EssilorLuxottica 주가 하락.", "lesson": "Luxury exposed to wealth cycle.", "lessonKo": "럭셔리는 부 사이클 노출." }
+  ],
+  "wealthHistory": [{ "year": 2022, "netWorth": 5.0 }, { "year": 2024, "netWorth": 5.5 }, { "year": 2025, "netWorth": 5.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "My father built it. I steward it.", "textKo": "아버지가 만드셨다. 나는 청지기한다.", "context": "On inheritance", "contextKo": "상속에 대해", "source": "https://www.essilorluxottica.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Ja day pillar in Mi month — 'yangin-gyeok' or strong-self, fitting inherited heir with leadership profile.", "summaryKo": "무자 일주 + 미월 양인격(자신감·결단력 + 강한 자기 자본)은 다세대 가족 자본의 핵심 상속자로서의 결단 자아와 호응합니다. 무토 일간 + 미토 월지의 강한 토 기운이 가족 자본의 안정 기반을 가리키고, 자수 일지의 수 기운이 거대 가족 자본의 유동성을 가리킵니다." }
+}

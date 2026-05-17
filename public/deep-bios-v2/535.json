@@ -1,0 +1,39 @@
+{
+  "id": "535", "name": "Dario Amodei", "nameKo": "다리오 아모데이",
+  "netWorth": 7.0, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "San Francisco, California, USA", "birthPlaceKo": "미국 캘리포니아 샌프란시스코",
+    "familyBackground": "Born to Italian-American family in San Francisco; father an Italian leatherworker, mother a librarian. Brother of Daniela Amodei.", "familyBackgroundKo": "샌프란시스코 이탈리아·미국 가정에서 출생; 아버지 이탈리아 가죽 장인, 어머니 사서. 다니엘라 아모데이의 형제.",
+    "education": "Stanford BS in physics; Princeton PhD in computational neuroscience.", "educationKo": "스탠퍼드 물리학 학사; 프린스턴 계산 신경과학 박사.",
+    "earlyLife": "Worked at Baidu Research; joined OpenAI as VP of Research; co-founded Anthropic in 2021 with sister Daniela and others.",
+    "earlyLifeKo": "Baidu Research 근무; OpenAI 연구 부사장 합류; 2021년 누이 다니엘라·다른 동료들과 Anthropic 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Dario_Amodei"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Anthropic 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2014, "age": 31, "event": "Joined Baidu Research as part of Andrew Ng's team.", "eventKo": "앤드류 응 팀의 일부로 Baidu Research 합류.", "whyItMatteredKo": "AI 연구 경력 출발선." },
+    { "year": 2018, "age": 35, "event": "Joined OpenAI as VP of Research; led GPT-2 and GPT-3 development.", "eventKo": "OpenAI 연구 부사장으로 합류; GPT-2·GPT-3 개발 주도.", "whyItMatteredKo": "OpenAI 단계." },
+    { "year": 2021, "age": 38, "event": "Co-founded Anthropic with sister Daniela and other ex-OpenAI researchers; CEO.", "eventKo": "누이 다니엘라·다른 전 OpenAI 연구자들과 Anthropic 공동 창립; CEO.", "whyItMatteredKo": "Anthropic 출발선." },
+    { "year": 2023, "age": 40, "event": "Anthropic raised $7B+ from Google, Amazon; valuation crossed $25B.", "eventKo": "Anthropic이 Google·Amazon으로부터 70억+ 조달; 밸류에이션 250억 달러 돌파.", "whyItMatteredKo": "AI 메이저 진입." },
+    { "year": 2025, "age": 42, "event": "Personal net worth at $7.0B per Forbes Real-Time. Anthropic's Claude continues as major AI assistant.", "eventKo": "포브스 실시간 기준 개인 순자산 70억 달러. Anthropic의 Claude가 주요 AI 어시스턴트로 계속.", "whyItMatteredKo": "AI 자본가 단계." }
+  ],
+  "turningPoints": [{ "year": 2021, "age": 38, "decisionKo": "OpenAI 떠나 안전 집중 Anthropic 창립", "alternativeKo": "OpenAI VP 잔류", "outcomeKo": "4년 후 AI 안전 회사 CEO" }],
+  "moneyMechanics": { "primaryRevenueKo": "Anthropic 공동 창립자 지분(비공개 회사)", "industryKo": "인공지능", "businessModelKo": "AI 어시스턴트 + 엔터프라이즈 API + 안전 연구", "moatKo": "안전 집중 AI 브랜드 + Princeton·OpenAI 인재", "luckVsSkillKo": "운(35%): 2020-2025 AI 황금기. 실력(65%): Princeton PhD + AI 연구 + 4년 회사 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Co-founder and CEO of Anthropic; former OpenAI VP of Research; brother of Daniela Amodei.",
+    "knownForKo": "Anthropic 공동 창립자·CEO; 전 OpenAI 연구 부사장; 다니엘라 아모데이의 형제.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Anthropic vs OpenAI AI-safety vs deployment philosophy debates; AI x-risk advocacy controversial in some tech circles.",
+    "controversiesKo": "Anthropic 대 OpenAI AI 안전 대 배포 철학 논쟁; AI 실존 리스크 옹호가 일부 기술계에서 논란."
+  },
+  "characterKo": { "summaryKo": "프린스턴 PhD + OpenAI VP 출신 Anthropic 공동 창립 CEO — AI 안전 연구자.", "tagsKo": ["Anthropic CEO", "Princeton PhD", "AI 안전", "OpenAI 출신"] },
+  "failures": [
+    { "year": 2023, "description": "AI race intensified; OpenAI/Google models compressed Anthropic's lead repeatedly.", "descriptionKo": "AI 경쟁 심화; OpenAI/Google 모델이 Anthropic 리드를 반복적으로 압축.", "lesson": "Frontier AI faces continuous competitive pressure.", "lessonKo": "프론티어 AI는 지속적 경쟁 압박 직면." },
+    { "year": 2024, "description": "AI compute costs and safety-research overhead delayed Anthropic profitability.", "descriptionKo": "AI 컴퓨트 비용·안전 연구 오버헤드가 Anthropic 수익성 지연.", "lesson": "Safety-focused AI faces commercial-pressure tradeoff.", "lessonKo": "안전 집중 AI는 상업 압박 트레이드오프 직면." }
+  ],
+  "wealthHistory": [{ "year": 2023, "netWorth": 3.0 }, { "year": 2024, "netWorth": 5.5 }, { "year": 2025, "netWorth": 7.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "We think AI's biggest risks come from systems we don't yet understand.", "textKo": "AI의 가장 큰 리스크는 우리가 아직 이해하지 못하는 시스템에서 온다고 생각한다.", "context": "On Anthropic safety mission", "contextKo": "Anthropic 안전 미션에 대해", "source": "https://www.anthropic.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Chuk day pillar in Chuk month — 'siksin-gyeok' with double earth, fitting research-grounded AI CEO.", "summaryKo": "신축 일주 + 축월 식신격(창의적 결과물·표현)은 과학 연구라는 끊임없는 창의적 결과물 산출을 통해 AI 회사를 키운 그의 경로와 호응합니다. 신금 일간의 예리한 금속 기질이 PhD + AI 연구의 정밀 분석과 통하고, 일지·월지 모두 축토로 다세대 학문·연구 자본의 안정 기반을 이중으로 강조합니다." }
+}

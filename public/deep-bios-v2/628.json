@@ -1,0 +1,38 @@
+{
+  "id": "628", "name": "Robert Bass", "nameKo": "로버트 배스",
+  "netWorth": 6.3, "nationality": "US", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "Fort Worth, Texas, USA", "birthPlaceKo": "미국 텍사스주 포트워스",
+    "familyBackground": "Born to Perry Bass — Texas oil dynasty heir; great-nephew of Sid Richardson.", "familyBackgroundKo": "텍사스 석유 왕조 상속자 페리 배스의 아들; 시드 리처드슨의 종손.",
+    "education": "Yale University; Stanford MBA.", "educationKo": "예일 대학교; 스탠퍼드 MBA.",
+    "earlyLife": "Joined family Bass Brothers Enterprises; became major US PE investor; founded Robert M. Bass Group (later Keystone Capital).",
+    "earlyLifeKo": "가족 Bass Brothers Enterprises 합류; 주요 미국 PE 투자자가 됨; Robert M. Bass Group(이후 Keystone Capital) 창립.",
+    "source": "https://en.wikipedia.org/wiki/Robert_Bass_(businessman)"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "Bass 가족 자본 + 본인 PE 다각화." },
+  "careerTimeline": [
+    { "year": 1974, "age": 26, "event": "Joined family Bass Brothers Enterprises after Stanford MBA.", "eventKo": "스탠퍼드 MBA 후 가족 Bass Brothers Enterprises 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1988, "age": 40, "event": "Founded Robert M. Bass Group; led American Savings & Loan rescue acquisition with US government.", "eventKo": "Robert M. Bass Group 창립; 미국 정부와 American Savings & Loan 구제 인수 주도.", "whyItMatteredKo": "PE 거래 단계." },
+    { "year": 2003, "age": 55, "event": "Robert M. Bass Group consolidated as Oak Hill Capital Partners and Keystone Group.", "eventKo": "Robert M. Bass Group이 Oak Hill Capital Partners와 Keystone Group으로 통합.", "whyItMatteredKo": "통합 단계." },
+    { "year": 2015, "age": 67, "event": "Continued major PE and energy investments; Bass family wealth grew.", "eventKo": "주요 PE·에너지 투자 계속; Bass 가족 부 성장.", "whyItMatteredKo": "투자가 단계." },
+    { "year": 2025, "age": 77, "event": "Personal net worth at $6.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 63억 달러.", "whyItMatteredKo": "Bass 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1988, "age": 40, "decisionKo": "American Savings & Loan 구제 PE 거래", "alternativeKo": "수동 상속자", "outcomeKo": "PE 메이저 투자자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Oak Hill Capital + Keystone Group + Bass 가족 자본 + 에너지 지분", "industryKo": "PE + 에너지", "businessModelKo": "PE + 사적 투자 + 가족 자본 + 에너지", "moatKo": "Bass 다세대 가족 자본 + PE 트랙 레코드", "luckVsSkillKo": "운(50%): 가족 자본. 실력(50%): 40+년 PE 운영." },
+  "personalTraits": {
+    "knownFor": "Member of Bass family Texas oil dynasty; founder of Oak Hill Capital Partners; major US PE investor.",
+    "knownForKo": "Bass 가족 텍사스 석유 왕조 구성원; Oak Hill Capital Partners 창립자; 주요 미국 PE 투자자.",
+    "philanthropy": "Robert and Anne Bass Foundation supports Yale, Stanford, Texas community.", "philanthropyKo": "Robert와 Anne Bass 재단이 예일·스탠퍼드·텍사스 지역 사회 지원.",
+    "controversies": "1988 American Savings & Loan rescue acquisition drew sustained government-PE controversy.", "controversiesKo": "1988 American Savings & Loan 구제 인수가 지속적 정부·PE 논란 야기."
+  },
+  "characterKo": { "summaryKo": "Bass 가족 + Oak Hill Capital + American Savings & Loan PE 메이저.", "tagsKo": ["Bass 가족", "Oak Hill Capital", "American Savings & Loan"] },
+  "failures": [
+    { "year": 1990, "description": "American Savings & Loan rescue politically controversial; subsequent thrift-crisis criticism.", "descriptionKo": "American Savings & Loan 구제가 정치적 논란; 이후 저축 위기 비판.", "lesson": "Government-funded PE rescues create political tail risk.", "lessonKo": "정부 자금 PE 구제는 정치 잔여 리스크 야기." },
+    { "year": 2008, "description": "Global financial crisis compressed PE portfolio valuations briefly.", "descriptionKo": "글로벌 금융위기로 PE 포트폴리오 밸류에이션 잠시 압축.", "lesson": "PE faces credit-cycle exposure.", "lessonKo": "PE는 신용 사이클 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.7 }, { "year": 2020, "netWorth": 4.3 }, { "year": 2024, "netWorth": 6.0 }, { "year": 2025, "netWorth": 6.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Texas oil taught us patience. PE taught us to be patient with leverage.", "textKo": "텍사스 석유가 인내를 가르쳤다. PE가 레버리지와 함께 인내하는 법을 가르쳤다.", "context": "On Bass family business", "contextKo": "Bass 가족 사업에 대해", "source": "https://www.oakhillcapital.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Myo day pillar in Myo month — 'siksin-gyeok' with double wood, fitting heir-turned-PE-investor.", "summaryKo": "계묘 일주 + 묘월 식신격(창의적 결과물·표현)은 가족 자본을 그대로 잇기보다 American Savings & Loan 거래 같은 비전형적 PE 결과물로 표현한 그의 경로와 호응합니다. 계수 일간의 작은 물·세밀한 분석 기질이 PE 거래의 정밀 평가와 통하고, 묘목 일지·묘목 월지의 강한 목 기운이 가족·자본의 누적 성장을 이중으로 강조합니다." }
+}

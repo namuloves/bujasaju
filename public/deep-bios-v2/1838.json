@@ -1,0 +1,37 @@
+{
+  "id": "1838", "name": "Surya Midha", "nameKo": "수리야 미다",
+  "netWorth": 2.2, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Indian-American family.", "familyBackgroundKo": "인도·미국 가정에서 출생.",
+    "education": "American university; computer science.", "educationKo": "미국 대학교; 컴퓨터 과학.",
+    "earlyLife": "Co-founded AI startup at age 19; became one of youngest US billionaires via early AI investments.",
+    "earlyLifeKo": "19세에 AI 스타트업 공동 창립; 초기 AI 투자로 미국 최연소 억만장자 중 한 명이 됨.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "AI 스타트업 초기 지분." },
+  "careerTimeline": [
+    { "year": 2021, "age": 18, "event": "Began computer-science studies at US university.", "eventKo": "미국 대학교 컴퓨터 과학 공부 시작.", "whyItMatteredKo": "학문 출발선." },
+    { "year": 2022, "age": 19, "event": "Co-founded AI startup with university peers.", "eventKo": "대학 동료들과 AI 스타트업 공동 창립.", "whyItMatteredKo": "AI 출발선." },
+    { "year": 2024, "age": 21, "event": "AI startup raised major funding; valuation crossed billion-dollar mark.", "eventKo": "AI 스타트업이 주요 자금 조달; 밸류에이션 10억 달러 초과.", "whyItMatteredKo": "유니콘 단계." },
+    { "year": 2025, "age": 22, "event": "Personal net worth at $2.2B per Forbes Real-Time. Among youngest US tech billionaires.", "eventKo": "포브스 실시간 기준 개인 순자산 22억 달러. 미국 최연소 기술 억만장자 중 한 명.", "whyItMatteredKo": "젊은 AI 자본가 정점." }
+  ],
+  "turningPoints": [{ "year": 2022, "age": 19, "decisionKo": "19세에 AI 스타트업 창립", "alternativeKo": "전통적 졸업·취업", "outcomeKo": "3년 후 22세 억만장자" }],
+  "moneyMechanics": { "primaryRevenueKo": "AI 스타트업 공동 창립자 지분(비공개)", "industryKo": "인공지능", "businessModelKo": "AI 모델·API·엔터프라이즈 서비스", "moatKo": "AI 시대 초기 진입 + 젊은 창업자 자본", "luckVsSkillKo": "운(70%): 2022-2025 AI 폭발 시기. 실력(30%): 19세 창업 결단." },
+  "personalTraits": {
+    "knownFor": "Co-founder of AI startup; one of youngest US tech billionaires.",
+    "knownForKo": "AI 스타트업 공동 창립자; 미국 최연소 기술 억만장자 중 한 명.",
+    "philanthropy": "Limited public disclosure given young career stage.", "philanthropyKo": "젊은 경력 단계 고려 공개 공시 제한적.",
+    "controversies": "AI safety vs deployment debates; young-founder governance scrutiny.", "controversiesKo": "AI 안전 대 배포 논쟁; 젊은 창립자 거버넌스 감시."
+  },
+  "characterKo": { "summaryKo": "19세에 AI 스타트업 공동 창립한 22세 억만장자.", "tagsKo": ["AI 스타트업", "최연소 억만장자"] },
+  "failures": [
+    { "year": 2024, "description": "AI compute costs and competition intensified; growth concerns.", "descriptionKo": "AI 컴퓨트 비용·경쟁 심화; 성장 우려.", "lesson": "AI startups face capital-intensive scaling.", "lessonKo": "AI 스타트업은 자본 집약 확장 직면." },
+    { "year": 2024, "description": "OpenAI/Google model improvements pressured smaller AI companies.", "descriptionKo": "OpenAI/Google 모델 개선이 소규모 AI 회사 압박.", "lesson": "Frontier AI faces continuous competitive pressure.", "lessonKo": "프론티어 AI는 지속적 경쟁 압박 직면." }
+  ],
+  "wealthHistory": [{ "year": 2024, "netWorth": 1.5 }, { "year": 2025, "netWorth": 2.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "AI is the first industry where being 19 is an advantage.", "textKo": "AI는 19세가 강점인 첫 산업이다.", "context": "On young AI founders", "contextKo": "젊은 AI 창립자에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Mi day pillar in Sa month — 'yangin-gyeok', strong-self decisiveness, fitting young AI founder.", "summaryKo": "정미 일주 + 사월 양인격(자신감·결단력 + 강한 자기 자본)은 19세 창업이라는 강한 결단력과 자기 자본 표현과 호응합니다. 정화 일간 + 사화 월지의 강한 화 기운이 젊은 창립자의 거대 에너지·표현·결단을 가리키고, 미토 일지의 토 기운이 사업 기반을 가리킵니다." }
+}

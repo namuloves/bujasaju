@@ -1,0 +1,39 @@
+{
+  "id": "655", "name": "Robert Hale Jr.", "nameKo": "로버트 헤일 주니어",
+  "netWorth": 6.0, "nationality": "US", "industry": "Telecom",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Connecticut College.", "educationKo": "코네티컷 칼리지.",
+    "earlyLife": "Founded Granite Telecommunications in 2002 — major US business-telecom service provider.",
+    "earlyLifeKo": "2002년 Granite Telecommunications 창립 — 주요 미국 비즈니스 통신 서비스 제공자.",
+    "source": "https://en.wikipedia.org/wiki/Granite_Telecommunications"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Granite Telecommunications 23년 자수성가." },
+  "careerTimeline": [
+    { "year": 1988, "age": 22, "event": "Began telecom-services career.", "eventKo": "통신 서비스 경력 시작.", "whyItMatteredKo": "경력 출발선." },
+    { "year": 2002, "age": 36, "event": "Founded Granite Telecommunications in Quincy, Massachusetts.", "eventKo": "매사추세츠 퀸시에서 Granite Telecommunications 창립.", "whyItMatteredKo": "Granite 출발선." },
+    { "year": 2010, "age": 44, "event": "Granite expanded to serve Fortune 500 multi-location voice/data services.", "eventKo": "Granite가 Fortune 500 다지역 음성·데이터 서비스로 확장.", "whyItMatteredKo": "엔터프라이즈 단계." },
+    { "year": 2020, "age": 54, "event": "Granite continued business-telecom growth; supported COVID remote-work.", "eventKo": "Granite가 비즈니스 통신 성장 계속; COVID 원격 근무 지원.", "whyItMatteredKo": "팬데믹 단계." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $6.0B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 60억 달러.", "whyItMatteredKo": "23년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 2002, "age": 36, "decisionKo": "비즈니스 통신 서비스 회사 창립", "alternativeKo": "직장 잔류", "outcomeKo": "23년 후 미국 주요 비즈니스 통신" }],
+  "moneyMechanics": { "primaryRevenueKo": "Granite Telecommunications(100% 소유)", "industryKo": "비즈니스 통신 서비스", "businessModelKo": "Fortune 500 다지역 음성·데이터 + 클라우드 통신 + 케이블", "moatKo": "23년 Fortune 500 비즈니스 통신 + 100% 소유", "luckVsSkillKo": "운(35%): 비즈니스 통신 부상. 실력(65%): 23년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Granite Telecommunications; major business-telecom entrepreneur; UMass Boston commencement-speaker who gave $1,000 to each graduate (2021).",
+    "knownForKo": "Granite Telecommunications 창립자; 주요 비즈니스 통신 기업가; 졸업생 각자에게 1,000달러 준 UMass Boston 졸업 연사(2021).",
+    "philanthropy": "Major philanthropist; gave $1,000 cash to each UMass Boston graduate 2021; supports New England community.",
+    "philanthropyKo": "주요 자선가; 2021 UMass Boston 졸업생 각자에게 1,000달러 현금 기부; 뉴잉글랜드 지역 사회 지원.",
+    "controversies": "Limited; standard business-telecom industry scrutiny.", "controversiesKo": "제한적; 표준 비즈니스 통신 산업 감시."
+  },
+  "characterKo": { "summaryKo": "Granite Telecommunications 23년 자수성가 + 졸업생 현금 자선가.", "tagsKo": ["Granite Telecommunications", "UMass Boston 자선", "비즈니스 통신"] },
+  "failures": [
+    { "year": 2010, "description": "Granite faced regulatory challenges from Bell-system carrier transitions.", "descriptionKo": "Granite가 Bell 시스템 운영사 전환에서 규제 도전 직면.", "lesson": "Telecom resellers face carrier-regulation cycle.", "lessonKo": "통신 재판매자는 운영사 규제 사이클 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted office-based telecom demand temporarily.", "descriptionKo": "COVID-19이 사무실 기반 통신 수요 일시 혼란.", "lesson": "Office telecom faces remote-work shift.", "lessonKo": "사무실 통신은 원격 근무 전환 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 5.7 }, { "year": 2025, "netWorth": 6.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I gave graduates cash because waiting for opportunity is exhausting.", "textKo": "졸업생들에게 현금을 준 것은 기회를 기다리는 것이 지치기 때문이다.", "context": "On 2021 UMass Boston gift", "contextKo": "2021 UMass Boston 기부에 대해", "source": "https://www.granitenet.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Jin day pillar in Mi month — 'jeonggwan-gyeok', formal authority, fitting regulated-telecom founder.", "summaryKo": "무진 일주 + 미월 정관격(공식 권위·규제 아래에서 일하는 구조)은 23년 비즈니스 통신 산업의 FCC·운영사 규제 환경과 호응합니다. 무토 일간 + 진토 일지·미토 월지의 강한 토 기운이 다세대 회사 가부장의 안정 자아를 이중으로 강조합니다." }
+}

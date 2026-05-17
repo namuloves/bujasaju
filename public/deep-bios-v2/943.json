@@ -1,0 +1,39 @@
+{
+  "id": "943", "name": "Winifred J. Marquart", "nameKo": "위니프레드 J. 마르콰르트",
+  "netWorth": 4.3, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Johnson family — 5th-generation member of S.C. Johnson Wax dynasty founded 1886.", "familyBackgroundKo": "1886 창립 S.C. Johnson Wax 왕조의 5세대 구성원 Johnson 가족에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Joined family S.C. Johnson; rose to executive director of Johnson family foundation; major Racine community leader.",
+    "earlyLifeKo": "가족 S.C. Johnson 합류; Johnson 가족 재단 집행 디렉터 부상; 주요 라신 지역 사회 리더.",
+    "source": "https://en.wikipedia.org/wiki/S._C._Johnson_%26_Son"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "S.C. Johnson 138+년 가족 자본." },
+  "careerTimeline": [
+    { "year": 1982, "age": 22, "event": "Began S.C. Johnson family operations.", "eventKo": "S.C. Johnson 가족 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1995, "age": 36, "event": "Took leadership role in Johnson Family Foundation.", "eventKo": "Johnson 가족 재단 리더십 역할 인수.", "whyItMatteredKo": "재단 단계." },
+    { "year": 2010, "age": 51, "event": "S.C. Johnson family expanded global consumer-products portfolio.", "eventKo": "S.C. Johnson 가족이 글로벌 소비재 포트폴리오 확장.", "whyItMatteredKo": "포트폴리오 단계." },
+    { "year": 2020, "age": 61, "event": "Continued as Johnson family senior leader during pandemic.", "eventKo": "팬데믹 동안 Johnson 가족 시니어 리더로 계속.", "whyItMatteredKo": "팬데믹 거버넌스." },
+    { "year": 2025, "age": 66, "event": "Personal net worth at $4.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러.", "whyItMatteredKo": "138+년 가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 36, "decisionKo": "Johnson 가족 재단 리더십 인수", "alternativeKo": "수동 상속자", "outcomeKo": "가족 자선의 핵심 운영자" }],
+  "moneyMechanics": { "primaryRevenueKo": "S.C. Johnson(가족 통제 비공개) 가족 지분", "industryKo": "소비재 제조", "businessModelKo": "가정용 청소·살충·공기관리 제품 글로벌 판매", "moatKo": "138+년 가족 브랜드 + 가족 통제", "luckVsSkillKo": "운(85%): 가족 자본. 실력(15%): 가족 재단 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Member of S.C. Johnson family (5th generation); executive director of Johnson family foundation.",
+    "knownForKo": "S.C. Johnson 가족(5세대) 구성원; Johnson 가족 재단 집행 디렉터.",
+    "philanthropy": "Johnson Family Foundation supports Wisconsin community, environment, education.",
+    "philanthropyKo": "Johnson 가족 재단이 위스콘신 지역 사회·환경·교육 지원.",
+    "controversies": "Limited; standard family-business heir scrutiny.", "controversiesKo": "제한적; 표준 가족 사업 상속자 감시."
+  },
+  "characterKo": { "summaryKo": "S.C. Johnson 138+년 가족 자본 5세대 + 가족 재단 운영자.", "tagsKo": ["S.C. Johnson 가족", "5세대", "Johnson 재단"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed consumer-products demand briefly.", "descriptionKo": "글로벌 금융위기로 소비재 수요 잠시 압축.", "lesson": "Consumer products face cycle.", "lessonKo": "소비재는 사이클 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted S.C. Johnson supply chains.", "descriptionKo": "COVID-19이 S.C. Johnson 공급망 혼란.", "lesson": "Global supply chain pandemic-exposed.", "lessonKo": "글로벌 공급망 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.4 }, { "year": 2024, "netWorth": 4.1 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family stewardship is invisible work that lasts generations.", "textKo": "가족 청지기는 세대를 가는 보이지 않는 일이다.", "context": "On family stewardship", "contextKo": "가족 청지기에 대해", "source": "https://www.scjohnson.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-O day pillar in Jin month — 'geollok-gyeok', strong self-energy from family capital, fitting 5th-gen heir.", "summaryKo": "무오 일주 + 진월 건록격(강한 자기 자본 + 자신감)은 138+년 Johnson 가족 자본의 5세대 핵심 구성원으로서의 안정 자아와 호응합니다. 무토 일간 + 진토 월지의 강한 토 기운이 다세대 가족 자본의 안정 기반을 가리키고, 오화 일지의 화 기운이 재단·자선 표현을 가리킵니다." }
+}

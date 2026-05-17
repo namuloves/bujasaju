@@ -1,0 +1,39 @@
+{
+  "id": "1142", "name": "Issad Rebrab", "nameKo": "이사드 레브라브",
+  "netWorth": 3.6, "nationality": "DZ", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Algeria", "birthPlaceKo": "알제리",
+    "familyBackground": "Born to Algerian Kabyle Berber family.", "familyBackgroundKo": "알제리 카빌리아 베르베르 가정에서 출생.",
+    "education": "Accountancy training in Algeria.", "educationKo": "알제리 회계 훈련.",
+    "earlyLife": "Founded Cevital in 1971 — Algeria's largest private industrial conglomerate covering food, electronics, automotive, steel.",
+    "earlyLifeKo": "1971년 Cevital 창립 — 식품·전자·자동차·철강을 망라하는 알제리 최대 비공개 산업 대기업.",
+    "source": "https://en.wikipedia.org/wiki/Issad_Rebrab"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Cevital 54년 자수성가." },
+  "careerTimeline": [
+    { "year": 1971, "age": 27, "event": "Founded Cevital food-and-industrial group in Algeria.", "eventKo": "알제리에서 Cevital 식품·산업 그룹 창립.", "whyItMatteredKo": "54년 자수성가 출발선." },
+    { "year": 2000, "age": 56, "event": "Cevital expanded into sugar, oil, water — major Algerian food consolidator.", "eventKo": "Cevital이 설탕·기름·물 확장 — 주요 알제리 식품 통합자.", "whyItMatteredKo": "식품 단계." },
+    { "year": 2014, "age": 70, "event": "Acquired struggling French Brandt home-appliance company and Italian iron-and-steel mill.", "eventKo": "어려움에 처한 프랑스 Brandt 가전 회사·이탈리아 철강 공장 인수.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2019, "age": 75, "event": "Detained in Algeria 8 months over financial allegations during political transition.", "eventKo": "정치 전환 동안 금융 의혹으로 알제리에서 8개월 구금.", "whyItMatteredKo": "구금 단계." },
+    { "year": 2025, "age": 81, "event": "Personal net worth at $3.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 36억 달러.", "whyItMatteredKo": "Cevital 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1971, "age": 27, "decisionKo": "알제리에서 산업 그룹 창립", "alternativeKo": "회계사 잔류", "outcomeKo": "54년 후 알제리 최대 비공개 대기업" }],
+  "moneyMechanics": { "primaryRevenueKo": "Cevital(100% 가족 소유) — 식품·자동차·전자·철강", "industryKo": "식품·다각화 산업", "businessModelKo": "알제리 식품 + 글로벌 산업 인수 다각화", "moatKo": "54년 알제리 식품 1위 + 글로벌 산업 자산", "luckVsSkillKo": "운(40%): 알제리 경제 환경. 실력(60%): 54년 단일 비전 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Cevital; Algeria's wealthiest private industrialist; major Kabyle Berber business figure.",
+    "knownForKo": "Cevital 창립자; 알제리 최대 비공개 산업가; 주요 카빌리아 베르베르 사업 인물.",
+    "philanthropy": "Supports Algerian education and Kabyle cultural causes.", "philanthropyKo": "알제리 교육·카빌리아 문화 사업 지원.",
+    "controversies": "2019 detention in Algeria over import-fraud allegations during Bouteflika transition; political-business tensions.",
+    "controversiesKo": "Bouteflika 전환 동안 수입 사기 의혹으로 2019 알제리 구금; 정치·사업 긴장."
+  },
+  "characterKo": { "summaryKo": "회계사 출신 Cevital 54년 자수성가 — 알제리 최대 비공개 대기업.", "tagsKo": ["Cevital", "알제리 최대 비공개", "카빌리아"] },
+  "failures": [
+    { "year": 2019, "description": "Detained 8 months in Algeria over alleged customs/import-fraud during regime transition.", "descriptionKo": "정권 전환 동안 세관·수입 사기 의혹으로 알제리에서 8개월 구금.", "lesson": "Politically-tied wealth faces regime-cycle risk.", "lessonKo": "정치 연계 부는 정권 사이클 리스크 직면." },
+    { "year": 2015, "description": "French Brandt acquisition struggled with restructuring; Italian steel mill faced losses.", "descriptionKo": "프랑스 Brandt 인수가 재구조화 어려움; 이탈리아 철강 공장 손실 직면.", "lesson": "Cross-border acquisitions need local expertise.", "lessonKo": "국경 간 인수는 지역 전문성 필요." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.7 }, { "year": 2020, "netWorth": 4.4 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Algeria needs private industry. We provided it.", "textKo": "알제리는 비공개 산업이 필요했다. 우리가 제공했다.", "context": "On Cevital", "contextKo": "Cevital에 대해", "source": "https://www.cevital.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Myo day pillar in Sa month — 'pyeon-in-gyeok', creative intuition, fitting first-mover industrialist.", "summaryKo": "신묘 일주 + 사월 편인격(독학·창의적 직관)은 회계 훈련에서 다각화 산업 그룹 가부장으로 전환한 직관적 결단과 호응합니다. 신금 일간의 예리한 금속 기질이 회계·자본 결단의 정밀함과 통하고, 묘목 일지의 목 기운이 다각화 산업 회사의 누적 성장을, 사화 월지의 화 기운이 사업 표현 욕구를 가리킵니다." }
+}

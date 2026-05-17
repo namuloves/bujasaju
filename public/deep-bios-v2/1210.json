@@ -1,0 +1,39 @@
+{
+  "id": "1210", "name": "Bill Alfond", "nameKo": "빌 알폰드",
+  "netWorth": 3.4, "nationality": "US", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Maine, USA", "birthPlaceKo": "미국 메인",
+    "familyBackground": "Born to Harold Alfond — founder of Dexter Shoe Company; brother of Ted Alfond. Family sold Dexter to Berkshire Hathaway for $443M in 1993.", "familyBackgroundKo": "Dexter Shoe Company 창립자 해럴드 알폰드의 아들; 테드 알폰드의 형제. 가족이 1993년 Dexter를 Berkshire Hathaway에 4억 4,300만 달러 매각.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Joined family Dexter Shoe; helped engineer Berkshire Hathaway stock-based sale; family wealth crystallized as Berkshire shares.",
+    "earlyLifeKo": "가족 Dexter Shoe 합류; Berkshire Hathaway 주식 기반 매각 설계 도움; 가족 부가 Berkshire 주식으로 결정화.",
+    "source": "https://en.wikipedia.org/wiki/Harold_Alfond"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Dexter Shoe 매각 → Berkshire Hathaway 주식." },
+  "careerTimeline": [
+    { "year": 1970, "age": 22, "event": "Joined family Dexter Shoe Company.", "eventKo": "가족 Dexter Shoe Company 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1993, "age": 45, "event": "Family sold Dexter Shoe to Berkshire Hathaway for $443M in BRK stock.", "eventKo": "가족이 Dexter Shoe를 Berkshire Hathaway에 4억 4,300만 달러 BRK 주식으로 매각.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2007, "age": 59, "event": "Father Harold Alfond died; family wealth distributed among heirs.", "eventKo": "아버지 해럴드 알폰드 사망; 가족 부가 상속자들에 분배.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2020, "age": 72, "event": "Berkshire Hathaway shares from Dexter sale appreciated substantially over 27 years.", "eventKo": "Dexter 매각 Berkshire Hathaway 주식이 27년에 걸쳐 상당히 상승.", "whyItMatteredKo": "장기 보유 단계." },
+    { "year": 2025, "age": 77, "event": "Personal net worth at $3.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러.", "whyItMatteredKo": "BRK 32년 보유 정점." }
+  ],
+  "turningPoints": [{ "year": 1993, "age": 45, "decisionKo": "Dexter Shoe를 Berkshire 주식으로 매각", "alternativeKo": "현금 매각", "outcomeKo": "32년 후 BRK 주식이 거대 가족 부로 누적" }],
+  "moneyMechanics": { "primaryRevenueKo": "Berkshire Hathaway 주식 가족 지분", "industryKo": "장기 주식 보유", "businessModelKo": "Berkshire Hathaway 장기 보유 + 메인 부동산", "moatKo": "32년 BRK 보유 + Alfond 가족 자본", "luckVsSkillKo": "운(80%): 가족 자본 + BRK 주식 매각 결단. 실력(20%): 32년 장기 보유." },
+  "personalTraits": {
+    "knownFor": "Member of Alfond family — Dexter Shoe heirs; Berkshire Hathaway long-term shareholder.",
+    "knownForKo": "Alfond 가족 구성원 — Dexter Shoe 상속자; Berkshire Hathaway 장기 주주.",
+    "philanthropy": "Major Maine community philanthropist; Harold Alfond Foundation supports Maine education.",
+    "philanthropyKo": "주요 메인 지역 사회 자선가; Harold Alfond 재단이 메인 교육 지원.",
+    "controversies": "Limited; standard family-business heir scrutiny.", "controversiesKo": "제한적; 표준 가족 사업 상속자 감시."
+  },
+  "characterKo": { "summaryKo": "Dexter Shoe 가족 매각 후 Berkshire 주식 장기 보유 가족.", "tagsKo": ["Dexter Shoe", "Berkshire Hathaway", "Alfond 가족"] },
+  "failures": [
+    { "year": 2008, "description": "Berkshire Hathaway stock fell during global financial crisis; family stake compressed.", "descriptionKo": "글로벌 금융위기 동안 Berkshire Hathaway 주가 하락; 가족 지분 압축.", "lesson": "Even Berkshire faces market-cycle exposure.", "lessonKo": "Berkshire도 시장 사이클 노출 직면." },
+    { "year": 2007, "description": "Father Harold Alfond's death triggered multi-year family wealth restructuring.", "descriptionKo": "아버지 해럴드 알폰드 사망으로 다년간 가족 부 재구조화 촉발.", "lesson": "Patriarch death creates extended family-trust process.", "lessonKo": "가부장 사망이 장기 가족 신탁 과정 야기." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.2 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "My father taught us patience pays better than action.", "textKo": "아버지가 행동보다 인내가 더 잘 보상한다고 가르쳤다.", "context": "On long-term Berkshire hold", "contextKo": "장기 Berkshire 보유에 대해", "source": "https://en.wikipedia.org/wiki/Harold_Alfond" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Chuk day pillar in Sa month — 'pyeon-gwan-gyeok', strong external authority, fitting long-term passive stakeholder.", "summaryKo": "신축 일주 + 사월 편관격(강한 외부 압박·권력 충돌)은 장기 Berkshire 주식 보유라는 외부 기업·시장의 흐름에 자본을 맡기는 구조와 호응합니다. 신금 일간의 예리한 금속 + 축토 일지의 토 기운이 가족 자본의 안정 기반과 정밀한 보유 결단을 가리키고, 사화 월지의 화 기운이 매각·결단의 표현을 가리킵니다." }
+}

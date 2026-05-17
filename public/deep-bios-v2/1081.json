@@ -1,0 +1,38 @@
+{
+  "id": "1081", "name": "Edward DeBartolo Jr.", "nameKo": "에드워드 드바르톨로 주니어",
+  "netWorth": 3.9, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Youngstown, Ohio, USA", "birthPlaceKo": "미국 오하이오주 영스타운",
+    "familyBackground": "Born to Edward J. DeBartolo Sr. — pioneering shopping-mall developer; sister Marie Denise DeBartolo York.", "familyBackgroundKo": "선구적 쇼핑몰 개발자 에드워드 J. 드바르톨로 시니어의 아들; 누이 마리 데니스 드바르톨로 요크.",
+    "education": "Notre Dame.", "educationKo": "노트르담 대학교.",
+    "earlyLife": "Inherited family DeBartolo Corporation; owned San Francisco 49ers NFL team 1977-2000; sold shopping-mall portfolio.",
+    "earlyLifeKo": "가족 DeBartolo Corporation 상속; 1977-2000 San Francisco 49ers NFL 팀 소유; 쇼핑몰 포트폴리오 매각.",
+    "source": "https://en.wikipedia.org/wiki/Edward_J._DeBartolo_Jr."
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "DeBartolo 가족 자본 — 쇼핑몰 + 49ers." },
+  "careerTimeline": [
+    { "year": 1968, "age": 22, "event": "Joined family DeBartolo Corporation after Notre Dame.", "eventKo": "노트르담 후 가족 DeBartolo Corporation 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1977, "age": 31, "event": "Acquired San Francisco 49ers NFL team; won 5 Super Bowls under his ownership.", "eventKo": "San Francisco 49ers NFL 팀 인수; 그의 소유 하에 5회 슈퍼볼 우승.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 1996, "age": 50, "event": "Sold majority of shopping-mall portfolio; reduced DeBartolo Realty.", "eventKo": "쇼핑몰 포트폴리오 다수 매각; DeBartolo Realty 축소.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2000, "age": 54, "event": "Sold 49ers to sister Denise York and brother-in-law John York after Louisiana legal issues.", "eventKo": "Louisiana 법적 이슈 후 49ers를 누이 데니스 요크·매형 존 요크에게 매각.", "whyItMatteredKo": "스포츠 엑시트 단계." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $3.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 39억 달러.", "whyItMatteredKo": "DeBartolo 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1977, "age": 31, "decisionKo": "49ers 인수 — 쇼핑몰에서 스포츠 다각화", "alternativeKo": "쇼핑몰 집중", "outcomeKo": "5회 슈퍼볼 + 23년 후 매각" }],
+  "moneyMechanics": { "primaryRevenueKo": "DeBartolo Corporation 가족 자본 + 49ers 매각 대금 + 부동산", "industryKo": "부동산 + 스포츠 매각", "businessModelKo": "쇼핑몰 매각 + 스포츠 매각 + 가족 자본 다각화", "moatKo": "가족 자본 + 49ers 매각 대금", "luckVsSkillKo": "운(60%): 가족 자본. 실력(40%): 49ers 스포츠 운영 + 매각 결단." },
+  "personalTraits": {
+    "knownFor": "Former owner of San Francisco 49ers (1977-2000); inherited DeBartolo Corporation shopping-mall empire.",
+    "knownForKo": "전 San Francisco 49ers 소유주(1977-2000); DeBartolo Corporation 쇼핑몰 제국 상속.",
+    "philanthropy": "DeBartolo Family Foundation supports Notre Dame and Tampa Bay community.", "philanthropyKo": "DeBartolo 가족 재단이 노트르담·탬파 베이 지역 사회 지원.",
+    "controversies": "1998 Louisiana riverboat-casino bribery indictment; pleaded guilty 1999, banned from NFL ownership 1 year; eventually sold 49ers to sister.", "controversiesKo": "1998 Louisiana 리버보트 카지노 뇌물 기소; 1999 유죄 인정, 1년 NFL 소유 금지; 결국 49ers를 누이에 매각."
+  },
+  "characterKo": { "summaryKo": "DeBartolo 가족 + 49ers 5회 슈퍼볼 + Louisiana 뇌물 스캔들.", "tagsKo": ["DeBartolo Corporation", "49ers 5회 슈퍼볼", "Louisiana 스캔들"] },
+  "failures": [
+    { "year": 1998, "description": "Louisiana casino-license bribery indictment; pleaded guilty to felony; banned from NFL ownership.", "descriptionKo": "Louisiana 카지노 라이선스 뇌물 기소; 중범죄 유죄 인정; NFL 소유 금지.", "lesson": "Sports ownership requires unblemished legal record.", "lessonKo": "스포츠 소유는 흠 없는 법적 기록을 요구한다." },
+    { "year": 2000, "description": "Forced to sell 49ers to sister after Louisiana case; effectively exited NFL ownership.", "descriptionKo": "Louisiana 사건 후 49ers를 누이에게 매각 강제; 효과적으로 NFL 소유 퇴장.", "lesson": "Legal issues forfeit cherished assets.", "lessonKo": "법적 이슈가 소중한 자산 박탈." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 3.7 }, { "year": 2025, "netWorth": 3.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Five Super Bowls — that is the answer my obituary will start with.", "textKo": "5회 슈퍼볼 — 그것이 내 부고가 시작할 답이다.", "context": "On 49ers legacy", "contextKo": "49ers 유산에 대해", "source": "https://en.wikipedia.org/wiki/Edward_J._DeBartolo_Jr." }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Shin day pillar in Sul month — 'pyeonjae-gyeok', large external capital, fitting heir-turned-sports-magnate.", "summaryKo": "갑신 일주 + 술월 편재격(크고 유동적인 외부 자본)은 가족 부동산 자본 + 스포츠 팀이라는 거대 외부 자본 흐름과 호응합니다. 갑목 일간의 큰 나무 + 신금 일지의 금 기운이 가족 자본 + 결단의 정밀함과 통하고, 술토 월지의 토 기운이 부동산 자본의 안정 기반을 가리킵니다." }
+}

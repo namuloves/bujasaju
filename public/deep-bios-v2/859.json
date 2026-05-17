@@ -1,0 +1,40 @@
+{
+  "id": "859", "name": "Jorge Mas", "nameKo": "호르헤 마스 산토스",
+  "netWorth": 4.8, "nationality": "US", "industry": "Construction & Engineering",
+  "childhood": {
+    "birthPlace": "Miami, Florida, USA", "birthPlaceKo": "미국 플로리다 마이애미",
+    "familyBackground": "Born to Jorge Mas Canosa — Cuban-American businessman and exile activist; founder of Cuban American National Foundation.", "familyBackgroundKo": "쿠바·미국 사업가·망명 활동가 호르헤 마스 카노사의 아들; Cuban American National Foundation 창립자.",
+    "education": "Miami-based education.", "educationKo": "마이애미 기반 교육.",
+    "earlyLife": "Joined family MasTec — construction services for telecom and energy infrastructure; became CEO; co-owner of Inter Miami MLS team.",
+    "earlyLifeKo": "가족 MasTec 합류 — 텔레콤·에너지 인프라 건설 서비스; CEO 부상; Inter Miami MLS 팀 공동 소유주.",
+    "source": "https://en.wikipedia.org/wiki/Jorge_Mas_Santos"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "MasTec 가족 기반 + 본인 인프라 확장." },
+  "careerTimeline": [
+    { "year": 1985, "age": 22, "event": "Joined family MasTec construction-services business.", "eventKo": "가족 MasTec 건설 서비스 사업 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1997, "age": 34, "event": "Father Jorge Mas Canosa died; Jorge Mas Jr. took control of MasTec.", "eventKo": "아버지 호르헤 마스 카노사 사망; 호르헤 마스 주니어가 MasTec 통제 인수.", "whyItMatteredKo": "가부장 단계." },
+    { "year": 2010, "age": 47, "event": "MasTec became major US telecom-and-energy-infrastructure contractor.", "eventKo": "MasTec가 주요 미국 텔레콤·에너지 인프라 계약자가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2018, "age": 55, "event": "Acquired Inter Miami CF MLS franchise rights with David Beckham.", "eventKo": "데이비드 베컴과 Inter Miami CF MLS 프랜차이즈 권리 인수.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 2025, "age": 62, "event": "Personal net worth at $4.8B per Forbes Real-Time. Continues as MasTec executive chairman, Inter Miami co-owner.", "eventKo": "포브스 실시간 기준 개인 순자산 48억 달러. MasTec 집행 의장·Inter Miami 공동 소유주 계속.", "whyItMatteredKo": "MasTec + 스포츠 정점." }
+  ],
+  "turningPoints": [{ "year": 1997, "age": 34, "decisionKo": "아버지 사후 MasTec 통제 인수", "alternativeKo": "전문 경영진 위임", "outcomeKo": "28년 후 미국 인프라 메이저 + Inter Miami 공동 소유" }],
+  "moneyMechanics": { "primaryRevenueKo": "MasTec Inc.(NYSE 상장) 가족 지분 + Inter Miami MLS", "industryKo": "인프라 건설 서비스 + 스포츠", "businessModelKo": "텔레콤·에너지 인프라 건설 + MLS 팀", "moatKo": "다세대 Mas 가족 + 마이애미 정치·사업 인맥", "luckVsSkillKo": "운(40%): 미국 5G·재생에너지 인프라 부상. 실력(60%): 30+년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Chairman of MasTec; son of Cuban-American activist Jorge Mas Canosa; co-owner of Inter Miami CF with David Beckham.",
+    "knownForKo": "MasTec 의장; 쿠바·미국 활동가 호르헤 마스 카노사의 아들; 데이비드 베컴과 Inter Miami CF 공동 소유주.",
+    "philanthropy": "Cuban American National Foundation supporter; Mas family Miami community patron.",
+    "philanthropyKo": "Cuban American National Foundation 지원자; Mas 가족 마이애미 지역 사회 후원자.",
+    "controversies": "MasTec union and labor disputes; Cuban-American political activism controversies; 2024 Inter Miami signing of Messi drew scrutiny.",
+    "controversiesKo": "MasTec 노조·노동 분쟁; 쿠바·미국 정치 활동 논란; 2024 Inter Miami 메시 영입 감시."
+  },
+  "characterKo": { "summaryKo": "쿠바·미국 활동가 가족의 MasTec 인프라 거물 + Inter Miami 공동 소유.", "tagsKo": ["MasTec", "Inter Miami", "쿠바·미국 가족"] },
+  "failures": [
+    { "year": 2015, "description": "MasTec experienced earnings volatility; SEC investigated accounting practices (cleared 2018).", "descriptionKo": "MasTec가 이익 변동성 경험; SEC가 회계 관행 조사(2018 무혐의).", "lesson": "Cyclical infrastructure exposes earnings to SEC scrutiny.", "lessonKo": "주기적 인프라는 이익을 SEC 감시 노출." },
+    { "year": 2020, "description": "COVID-19 disrupted infrastructure-construction projects briefly.", "descriptionKo": "COVID-19이 인프라 건설 프로젝트 잠시 혼란.", "lesson": "Construction services pandemic-exposed.", "lessonKo": "건설 서비스 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.0 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Infrastructure is the city's nervous system.", "textKo": "인프라는 도시의 신경계다.", "context": "On MasTec business", "contextKo": "MasTec 사업에 대해", "source": "https://www.mastec.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-In day pillar in In month — 'siksin-gyeok', creative-strong expression, fitting infrastructure-and-sports magnate.", "summaryKo": "임인 일주 + 인월 식신격(창의적 결과물·표현)은 텔레콤·에너지 인프라 + Inter Miami MLS라는 두 부문에서 끊임없이 결과물을 만들어내는 그의 경로와 호응합니다. 임수 일간의 큰 물·유연성이 거대 회사 가부장 역할과 통하고, 인목 일지·인목 월지의 강한 목 기운이 인프라 산업의 누적 성장을 가리킵니다." }
+}

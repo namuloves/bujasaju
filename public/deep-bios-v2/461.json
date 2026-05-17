@@ -1,0 +1,39 @@
+{
+  "id": "461", "name": "Jim Kavanaugh", "nameKo": "제임스 P. 캐버노",
+  "netWorth": 7.7, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "St. Louis, Missouri, USA", "birthPlaceKo": "미국 미주리주 세인트루이스",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Saint Louis University; college soccer player.", "educationKo": "세인트루이스 대학교; 대학 축구 선수.",
+    "earlyLife": "Played professional indoor soccer; co-founded World Wide Technology (WWT) in 1990 — IT-systems integrator that grew to $20B+ revenue.",
+    "earlyLifeKo": "실내 축구 프로 선수; 1990년 World Wide Technology(WWT) 공동 창립 — 200억 달러+ 매출로 성장한 IT 시스템 통합사.",
+    "source": "https://en.wikipedia.org/wiki/Jim_Kavanaugh"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "World Wide Technology 35년 자수성가." },
+  "careerTimeline": [
+    { "year": 1990, "age": 28, "event": "Co-founded World Wide Technology in St. Louis with David Steward.", "eventKo": "데이비드 스튜어드와 세인트루이스에서 World Wide Technology 공동 창립.", "whyItMatteredKo": "35년 자수성가 출발선." },
+    { "year": 2000, "age": 38, "event": "WWT became leading IT systems integrator; grew Fortune 500 customer base.", "eventKo": "WWT가 선도적 IT 시스템 통합사가 됨; Fortune 500 고객 베이스 성장.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2014, "age": 52, "event": "Acquired Major League Soccer's St. Louis CITY SC franchise rights.", "eventKo": "MLS의 세인트루이스 CITY SC 프랜차이즈 권리 인수.", "whyItMatteredKo": "스포츠 자본 단계." },
+    { "year": 2023, "age": 61, "event": "St. Louis CITY SC began MLS play; WWT revenue exceeded $20B annually.", "eventKo": "세인트루이스 CITY SC MLS 시즌 시작; WWT 연 매출 200억 달러 초과.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2025, "age": 62, "event": "Personal net worth at $7.7B per Forbes Real-Time. Continues as WWT CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 77억 달러. WWT CEO 계속.", "whyItMatteredKo": "35년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 28, "decisionKo": "프로 축구 떠나 IT 사업 공동 창립", "alternativeKo": "축구 경력 잔류", "outcomeKo": "35년 후 200억 달러+ 매출 IT 통합사 + MLS 팀 소유주" }],
+  "moneyMechanics": { "primaryRevenueKo": "World Wide Technology(가족 통제) + St. Louis CITY SC", "industryKo": "IT 시스템 통합 + 스포츠", "businessModelKo": "엔터프라이즈 IT 인프라 통합·서비스 + MLS 팀", "moatKo": "35년 Fortune 500 고객 베이스 + 가족 통제", "luckVsSkillKo": "운(30%): 1990-2020 미국 IT 부상. 실력(70%): 35년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and CEO of World Wide Technology; owner of St. Louis CITY SC MLS team; former professional soccer player.",
+    "knownForKo": "World Wide Technology 공동 창립자·CEO; 세인트루이스 CITY SC MLS 팀 소유주; 전 프로 축구 선수.",
+    "philanthropy": "Major St. Louis community patron; supports youth soccer and education.",
+    "philanthropyKo": "주요 세인트루이스 지역 사회 후원자; 청소년 축구·교육 지원.",
+    "controversies": "Limited; standard IT-services and MLS-team regulatory scrutiny.", "controversiesKo": "제한적; 표준 IT 서비스·MLS 팀 규제 감시."
+  },
+  "characterKo": { "summaryKo": "프로 축구 선수 출신 WWT 35년 자수성가 + 세인트루이스 CITY SC.", "tagsKo": ["World Wide Technology", "St. Louis CITY SC", "프로 축구 출신"] },
+  "failures": [
+    { "year": 2001, "description": "Dot-com crash compressed enterprise IT spending; WWT growth slowed.", "descriptionKo": "닷컴 붕괴로 엔터프라이즈 IT 지출 압축; WWT 성장 둔화.", "lesson": "Enterprise IT pro-cyclical with capex.", "lessonKo": "엔터프라이즈 IT는 설비 투자 순응 사이클." },
+    { "year": 2020, "description": "COVID-19 disrupted IT supply chains and customer projects briefly.", "descriptionKo": "COVID-19이 IT 공급망·고객 프로젝트 잠시 혼란.", "lesson": "IT services exposed to pandemic operational risk.", "lessonKo": "IT 서비스는 팬데믹 운영 리스크 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.8 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 7.2 }, { "year": 2025, "netWorth": 7.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Soccer taught me teams. WWT proved teams scale.", "textKo": "축구는 팀을 가르쳤다. WWT는 팀이 확장될 수 있음을 증명했다.", "context": "On career origins", "contextKo": "경력 기원에 대해", "source": "https://www.wwt.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Ja day pillar in Sul month — 'siksin-gyeok', creative output, fitting IT-services entrepreneur with sports identity.", "summaryKo": "무자 일주 + 술월 식신격(창의적 결과물·표현)은 IT 시스템 통합 + MLS 팀이라는 두 부문에서 끊임없이 결과물을 만들어내는 그의 경로와 호응합니다. 무토 일간의 큰 산 기질이 거대 IT 회사 가부장과 통하고, 자수 일지·술토 월지가 자본 유동성 + 안정 기반을 가리킵니다." }
+}

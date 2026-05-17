@@ -1,0 +1,40 @@
+{
+  "id": "245", "name": "Pierre Omidyar", "nameKo": "피에르 모라드 오미디아르",
+  "netWorth": 11.9, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Paris, France", "birthPlaceKo": "프랑스 파리",
+    "familyBackground": "Born to Iranian-French family in Paris; migrated to US as child.", "familyBackgroundKo": "파리 이란·프랑스 가정에서 출생; 어린 시절 미국 이주.",
+    "education": "Tufts University (computer science).", "educationKo": "터프츠 대학교(컴퓨터 과학).",
+    "earlyLife": "Worked at Claris and General Magic; founded eBay (originally AuctionWeb) in 1995 — pioneering online auction marketplace.",
+    "earlyLifeKo": "Claris와 General Magic 근무; 1995년 eBay(원래 AuctionWeb) 창립 — 선구적 온라인 경매 마켓플레이스.",
+    "source": "https://en.wikipedia.org/wiki/Pierre_Omidyar"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "eBay 창립자 지분 + 다각화." },
+  "careerTimeline": [
+    { "year": 1995, "age": 28, "event": "Founded AuctionWeb (later eBay) in San Jose, California.", "eventKo": "캘리포니아 산호세에서 AuctionWeb(이후 eBay) 창립.", "whyItMatteredKo": "30년 자수성가 출발선." },
+    { "year": 1998, "age": 31, "event": "eBay IPO on NASDAQ; Omidyar's stake materialized as billionaire wealth.", "eventKo": "eBay 나스닥 IPO; 오미디아르의 지분이 억만장자 부로 실현.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2004, "age": 37, "event": "Founded Omidyar Network — philanthropic investment firm focused on social impact.", "eventKo": "Omidyar Network 창립 — 사회 임팩트 집중 자선 투자 회사.", "whyItMatteredKo": "임팩트 자선가 단계." },
+    { "year": 2013, "age": 46, "event": "Backed The Intercept journalism platform with Glenn Greenwald.", "eventKo": "글렌 그린월드와 The Intercept 저널리즘 플랫폼 후원.", "whyItMatteredKo": "미디어 단계." },
+    { "year": 2025, "age": 58, "event": "Personal net worth at $11.9B per Forbes Real-Time. Active across philanthropy and journalism.", "eventKo": "포브스 실시간 기준 개인 순자산 119억 달러. 자선·저널리즘 전반 활발.", "whyItMatteredKo": "eBay + 자선가 정점." }
+  ],
+  "turningPoints": [{ "year": 2004, "age": 37, "decisionKo": "eBay에서 자선·임팩트 투자가로 전환", "alternativeKo": "수동 기부자", "outcomeKo": "21년 후 글로벌 임팩트 투자가" }],
+  "moneyMechanics": { "primaryRevenueKo": "eBay·PayPal 초기 지분 + Omidyar Network", "industryKo": "기술 매각 + 임팩트 투자", "businessModelKo": "eBay 매각 대금 + 임팩트 자선·투자 + 저널리즘", "moatKo": "eBay 창립자 자본 + 21년 임팩트 인프라", "luckVsSkillKo": "운(45%): 1995 이커머스 시기. 실력(55%): eBay 창립 + 임팩트 자선 구축." },
+  "personalTraits": {
+    "knownFor": "Founder of eBay; founder of Omidyar Network; backer of The Intercept; major impact-investing pioneer.",
+    "knownForKo": "eBay 창립자; Omidyar Network 창립자; The Intercept 후원자; 주요 임팩트 투자 선구자.",
+    "philanthropy": "Omidyar Network funded $1.7B+ across social-impact areas — democracy, financial inclusion, AI ethics, tech accountability.",
+    "philanthropyKo": "Omidyar Network가 사회 임팩트 영역 17억 달러+ 자금 — 민주주의·금융 포용·AI 윤리·기술 책임.",
+    "controversies": "Backing of journalism platforms drew political criticism; impact-investing thesis debates.",
+    "controversiesKo": "저널리즘 플랫폼 후원이 정치 비판 야기; 임팩트 투자 명제 논쟁."
+  },
+  "characterKo": { "summaryKo": "eBay 창립자 + 임팩트 자선·저널리즘 후원자.", "tagsKo": ["eBay 창립자", "Omidyar Network", "The Intercept"] },
+  "failures": [
+    { "year": 2014, "description": "First Look Media journalism platform faced internal conflicts and shutdowns.", "descriptionKo": "First Look Media 저널리즘 플랫폼이 내부 갈등·중단 직면.", "lesson": "Journalism investment requires editorial-independence balance.", "lessonKo": "저널리즘 투자는 편집 독립 균형 요구." },
+    { "year": 2022, "description": "Tech-stock decline compressed eBay-derived portfolio.", "descriptionKo": "기술주 하락으로 eBay 파생 포트폴리오 압축.", "lesson": "Single-stock concentration faces cycle.", "lessonKo": "단일 주식 집중 사이클 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 8.4 }, { "year": 2020, "netWorth": 16.7 }, { "year": 2024, "netWorth": 9.9 }, { "year": 2025, "netWorth": 11.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "People are basically good. eBay was built on that thesis.", "textKo": "사람들은 기본적으로 선하다. eBay는 그 명제 위에 지어졌다.", "context": "On eBay philosophy", "contextKo": "eBay 철학에 대해", "source": "https://www.omidyar.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Jin day pillar in O month — 'yangin-gyeok' or strong-self, fitting founder-turned-impact-investor.", "summaryKo": "병진 일주 + 오월 양인격(자신감·결단력 + 강한 자기 자본)은 eBay 창립과 거대 자선 결단의 강한 자기 자본 표현과 호응합니다. 병화 일간 + 오화 월지의 강한 화 기운이 영향력·표현·결단의 거대 에너지를 가리키고, 진토 일지의 토 기운이 다세대 자본의 안정 기반을 가리킵니다." }
+}

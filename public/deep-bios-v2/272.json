@@ -1,0 +1,39 @@
+{
+  "id": "272", "name": "John Carl Malone", "nameKo": "존 칼 말론",
+  "netWorth": 11.1, "nationality": "US", "industry": "Media & Entertainment",
+  "childhood": {
+    "birthPlace": "Milford, Connecticut, USA", "birthPlaceKo": "미국 코네티컷주 밀퍼드",
+    "familyBackground": "Born to American family; father an engineer.", "familyBackgroundKo": "미국 가정에서 출생; 아버지가 엔지니어.",
+    "education": "Yale University; Johns Hopkins PhD.", "educationKo": "예일 대학교; 존스 홉킨스 박사.",
+    "earlyLife": "Joined Bell Labs and McKinsey; CEO of TCI (Tele-Communications Inc.) 1973-1996; sold TCI to AT&T for $48B; built Liberty Media empire.",
+    "earlyLifeKo": "Bell Labs·맥킨지 합류; 1973-1996 TCI(Tele-Communications Inc.) CEO; TCI를 AT&T에 480억 달러 매각; Liberty Media 제국 구축.",
+    "source": "https://en.wikipedia.org/wiki/John_C._Malone"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "TCI 매각 + Liberty Media 제국 + 미국 토지." },
+  "careerTimeline": [
+    { "year": 1973, "age": 32, "event": "Joined TCI as CEO; transformed Tele-Communications into largest US cable operator.", "eventKo": "TCI CEO 합류; Tele-Communications를 미국 최대 케이블 운영사로 변환.", "whyItMatteredKo": "TCI 출발선." },
+    { "year": 1996, "age": 55, "event": "Sold TCI to AT&T for $48B; major cable-industry merger.", "eventKo": "TCI를 AT&T에 480억 달러 매각; 주요 케이블 산업 합병.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 1998, "age": 57, "event": "Built Liberty Media holding company; began structured-equity engineering.", "eventKo": "Liberty Media 지주 회사 구축; 구조화 주식 엔지니어링 시작.", "whyItMatteredKo": "Liberty 단계." },
+    { "year": 2014, "age": 73, "event": "Liberty Media's structured tracking-stocks and spin-offs created multi-decade wealth.", "eventKo": "Liberty Media 구조화 트래킹 주식·분사가 다세대 부 창출.", "whyItMatteredKo": "엔지니어링 정점." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $11.1B per Forbes Real-Time. Continues as Liberty Media chairman; largest individual private landowner after Turner.", "eventKo": "포브스 실시간 기준 개인 순자산 111억 달러. Liberty Media 의장 계속; 터너 다음 최대 개인 비공개 토지 소유주.", "whyItMatteredKo": "TCI + Liberty + 토지 정점." }
+  ],
+  "turningPoints": [{ "year": 1973, "age": 32, "decisionKo": "TCI CEO 인수", "alternativeKo": "맥킨지 컨설팅 잔류", "outcomeKo": "52년 후 미국 케이블·미디어 전설" }],
+  "moneyMechanics": { "primaryRevenueKo": "Liberty Media + Liberty Broadband + Liberty Global + 미국 토지", "industryKo": "미디어·통신 + 토지", "businessModelKo": "구조화 트래킹 주식 + 케이블·통신 + 220만 에이커 토지", "moatKo": "52년 케이블 노하우 + 구조화 주식 엔지니어링", "luckVsSkillKo": "운(20%): 케이블 시대. 실력(80%): 52년 단일 산업 마스터." },
+  "personalTraits": {
+    "knownFor": "Former TCI CEO; chairman of Liberty Media empire; pioneer of cable-TV consolidation; second-largest private US landowner.",
+    "knownForKo": "전 TCI CEO; Liberty Media 제국 의장; 케이블 TV 통합 선구자; 두 번째 미국 비공개 토지 소유주.",
+    "philanthropy": "Major patron of land conservation, Yale, Johns Hopkins.", "philanthropyKo": "주요 토지 보전·예일·존스 홉킨스 후원자.",
+    "controversies": "TCI faced 1990s antitrust scrutiny over cable bundling; Liberty Media structured stocks criticized as confusing minority investors.",
+    "controversiesKo": "TCI가 1990년대 케이블 번들링 반독점 감시 직면; Liberty Media 구조화 주식이 소액 투자자 혼란 비판."
+  },
+  "characterKo": { "summaryKo": "TCI 케이블 전설 + Liberty Media 구조화 엔지니어링 + 미국 토지 거물.", "tagsKo": ["TCI", "Liberty Media", "케이블 TV 통합 선구자"] },
+  "failures": [
+    { "year": 2001, "description": "Liberty Media tracking stocks confused investors; multi-year structural-engineering criticism.", "descriptionKo": "Liberty Media 트래킹 주식이 투자자 혼란; 다년간 구조 엔지니어링 비판.", "lesson": "Tax-advantaged complexity creates investor confusion.", "lessonKo": "세금 우대 복잡성이 투자자 혼란 야기." },
+    { "year": 2008, "description": "Global financial crisis compressed Liberty Media valuation; complex structure absorbed losses.", "descriptionKo": "글로벌 금융위기로 Liberty Media 밸류에이션 압축; 복잡한 구조가 손실 흡수.", "lesson": "Complex structures still face market cycle.", "lessonKo": "복잡 구조도 시장 사이클 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 7.4 }, { "year": 2020, "netWorth": 7.4 }, { "year": 2024, "netWorth": 10.0 }, { "year": 2025, "netWorth": 11.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Taxes are the biggest expense most investors fail to manage.", "textKo": "세금은 대부분 투자자가 관리 실패하는 가장 큰 비용이다.", "context": "On Liberty Media structure", "contextKo": "Liberty Media 구조에 대해", "source": "https://en.wikipedia.org/wiki/John_C._Malone" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-In day pillar in Myo month — 'jeonggwan-gyeok' with strong wood, fitting cable-empire patriarch.", "summaryKo": "갑인 일주 + 묘월 정관격(공식 권위·규제 아래에서 일하는 구조)은 케이블 TV 산업의 FCC·규제 환경과 호응합니다. 갑목 일간 + 일지·월지 모두 인·묘목으로 강한 목 기운이 52년 회사·자본의 거대 누적 성장을 삼중으로 강조합니다." }
+}

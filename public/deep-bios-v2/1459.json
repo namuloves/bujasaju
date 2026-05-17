@@ -1,0 +1,40 @@
+{
+  "id": "1459", "name": "Ted Turner", "nameKo": "로버트 에드워드 터너 3세",
+  "netWorth": 2.8, "nationality": "US", "industry": "Media & Entertainment",
+  "childhood": {
+    "birthPlace": "Cincinnati, Ohio, USA", "birthPlaceKo": "미국 오하이오주 신시내티",
+    "familyBackground": "Born to Ed Turner — outdoor-advertising businessman; father committed suicide in 1963.", "familyBackgroundKo": "옥외 광고 사업가 에드 터너의 아들; 아버지가 1963년 자살.",
+    "education": "Brown University.", "educationKo": "브라운 대학교.",
+    "earlyLife": "Took over family Turner Outdoor Advertising at 24 after father's suicide; expanded into TV (TBS, CNN, TNT); sold Turner Broadcasting to Time Warner in 1996.",
+    "earlyLifeKo": "아버지 자살 후 24세에 가족 Turner Outdoor Advertising 인수; TV(TBS·CNN·TNT) 확장; 1996년 Turner Broadcasting을 Time Warner에 매각.",
+    "source": "https://en.wikipedia.org/wiki/Ted_Turner"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Turner Broadcasting 매각 + Time Warner 주식 + 토지." },
+  "careerTimeline": [
+    { "year": 1963, "age": 24, "event": "Took over Turner Outdoor Advertising after father's suicide.", "eventKo": "아버지 자살 후 Turner Outdoor Advertising 인수.", "whyItMatteredKo": "Turner Outdoor 출발선." },
+    { "year": 1976, "age": 37, "event": "Founded WTBS — first US 'superstation' satellite-broadcast TV.", "eventKo": "WTBS 창립 — 첫 미국 'superstation' 위성 방송 TV.", "whyItMatteredKo": "TV 단계." },
+    { "year": 1980, "age": 41, "event": "Founded CNN — first 24-hour cable news network.", "eventKo": "CNN 창립 — 첫 24시간 케이블 뉴스 네트워크.", "whyItMatteredKo": "CNN 단계." },
+    { "year": 1996, "age": 57, "event": "Sold Turner Broadcasting to Time Warner for $7.5B; received Time Warner stock.", "eventKo": "Turner Broadcasting을 Time Warner에 75억 달러 매각; Time Warner 주식 수령.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2025, "age": 86, "event": "Personal net worth at $2.8B per Forbes Real-Time. Largest individual private landowner in US (2M+ acres).", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러. 미국 최대 개인 비공개 토지 소유주(200만+ 에이커).", "whyItMatteredKo": "TV 자본 + 토지 정점." }
+  ],
+  "turningPoints": [{ "year": 1980, "age": 41, "decisionKo": "CNN 24시간 뉴스 네트워크 창립 — 당시 비전형적", "alternativeKo": "전통적 TV 프로그래밍 잔류", "outcomeKo": "45년 후 글로벌 뉴스 산업 변환자 + 미디어 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Time Warner(Warner Bros Discovery) 주식 + 200만+ 에이커 토지 + Ted's Montana Grill", "industryKo": "미디어 매각 + 토지 + 식음", "businessModelKo": "Time Warner 주식 + 미국 토지 + 식당 + 자선", "moatKo": "TBS·CNN 매각 대금 + 미국 최대 개인 토지", "luckVsSkillKo": "운(30%): 1980 케이블 시대 + Time Warner 매각 타이밍. 실력(70%): 33년 미디어 자수성가." },
+  "personalTraits": {
+    "knownFor": "Founder of CNN and TBS; sold Turner Broadcasting to Time Warner for $7.5B; largest individual private landowner in US; UN Foundation founder with $1B pledge in 1998.",
+    "knownForKo": "CNN과 TBS 창립자; Turner Broadcasting을 Time Warner에 75억 달러 매각; 미국 최대 개인 비공개 토지 소유주; 1998 10억 달러 약속으로 UN Foundation 창립자.",
+    "philanthropy": "Turner Foundation supports environmental conservation, nuclear-risk reduction (NTI); $1B UN pledge.",
+    "philanthropyKo": "Turner 재단이 환경 보전·핵 리스크 감소(NTI) 지원; 10억 달러 UN 약속.",
+    "controversies": "Bipolar disorder publicly disclosed; multiple marriages including Jane Fonda; 2001 AOL-Time Warner merger wealth destruction; outspoken political views.",
+    "controversiesKo": "공개적 양극성 장애 공개; 제인 폰다 포함 다수 결혼; 2001 AOL-Time Warner 합병 부 파괴; 노골적 정치 견해."
+  },
+  "characterKo": { "summaryKo": "오하이오 옥외 광고 → CNN/TBS → Time Warner 매각 → 미국 최대 개인 토지 소유주.", "tagsKo": ["CNN 창립자", "TBS 창립자", "UN Foundation", "미국 최대 개인 토지"] },
+  "failures": [
+    { "year": 2001, "description": "AOL-Time Warner merger destroyed massive personal wealth; Turner lost ~$8B in stock value.", "descriptionKo": "AOL-Time Warner 합병이 거대 개인 부 파괴; 터너가 약 80억 달러 주식 가치 상실.", "lesson": "Stock-based mergers can destroy founder wealth.", "lessonKo": "주식 기반 합병이 창립자 부를 파괴할 수 있다." },
+    { "year": 2003, "description": "Forced out of Time Warner board; ended active media executive career.", "descriptionKo": "Time Warner 이사회에서 강제 퇴장; 활동적 미디어 임원 경력 종료.", "lesson": "Post-merger founders often face board friction.", "lessonKo": "합병 후 창립자는 종종 이사회 마찰 직면." }
+  ],
+  "wealthHistory": [{ "year": 2000, "netWorth": 10.0 }, { "year": 2005, "netWorth": 1.9 }, { "year": 2015, "netWorth": 2.2 }, { "year": 2020, "netWorth": 2.2 }, { "year": 2024, "netWorth": 2.6 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I'd rather own the network than be on it.", "textKo": "방송에 나가는 것보다 네트워크를 소유하고 싶다.", "context": "On CNN founding", "contextKo": "CNN 창립에 대해", "source": "https://en.wikipedia.org/wiki/Ted_Turner" }],
+  "books": { "authored": [{ "title": "Call Me Ted", "year": 2008, "noteKo": "자서전." }], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in Hae month — 'pyeon-in-gyeok', creative intuition, fitting media-revolutionary founder.", "summaryKo": "을묘 일주 + 해월 편인격(독학·창의적 직관)은 24시간 뉴스 네트워크라는 비전형적 미디어 창립 직관과 호응합니다. 을목 일간 + 묘목 일지의 강한 목 기운이 미디어 산업의 누적 성장을 가리키고, 해수 월지의 강한 수 기운이 자본의 거대 유동성과 통합니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1247", "name": "Brian Venturo", "nameKo": "브라이언 벤투로",
+  "netWorth": 3.3, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Co-founded CoreWeave in 2017 with Michael Intrator and Brannin McBee — GPU-cloud company that grew to major AI-infrastructure provider.",
+    "earlyLifeKo": "2017년 마이클 인트레이터·브래닌 맥비와 CoreWeave 공동 창립 — 주요 AI 인프라 제공자로 성장한 GPU 클라우드 회사.",
+    "source": "https://www.coreweave.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "CoreWeave 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2010, "age": 26, "event": "Began career in commodity trading and crypto-mining.", "eventKo": "원자재 거래·암호화폐 채굴 경력 시작.", "whyItMatteredKo": "거래·채굴 경력 출발선." },
+    { "year": 2017, "age": 33, "event": "Co-founded CoreWeave — initially Ethereum-mining GPU operation.", "eventKo": "CoreWeave 공동 창립 — 초기 이더리움 채굴 GPU 운영.", "whyItMatteredKo": "CoreWeave 출발선." },
+    { "year": 2022, "age": 38, "event": "Pivoted CoreWeave from crypto-mining to GPU cloud for AI workloads.", "eventKo": "CoreWeave를 암호화폐 채굴에서 AI 워크로드용 GPU 클라우드로 피벗.", "whyItMatteredKo": "AI 피벗 단계." },
+    { "year": 2024, "age": 40, "event": "CoreWeave raised funding at $19B valuation; became major Nvidia GPU customer.", "eventKo": "CoreWeave가 190억 달러 밸류에이션 자금 조달; 주요 Nvidia GPU 고객이 됨.", "whyItMatteredKo": "유니콘 정점 단계." },
+    { "year": 2025, "age": 41, "event": "Personal net worth at $3.3B per Forbes Real-Time. CoreWeave IPO'd on NASDAQ in 2025.", "eventKo": "포브스 실시간 기준 개인 순자산 33억 달러. CoreWeave가 2025 나스닥 IPO.", "whyItMatteredKo": "AI 자본가 정점." }
+  ],
+  "turningPoints": [{ "year": 2022, "age": 38, "decisionKo": "암호화폐 채굴에서 AI GPU 클라우드로 피벗", "alternativeKo": "암호화폐 채굴 잔류", "outcomeKo": "3년 후 AI 인프라 메이저 공동 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "CoreWeave Inc.(NASDAQ 상장) 공동 창립자 지분", "industryKo": "AI 클라우드 인프라", "businessModelKo": "GPU 클라우드 + AI 컴퓨트 임대 + Nvidia 파트너십", "moatKo": "AI 부상 시기 GPU 인프라 1세대 + Nvidia 인맥", "luckVsSkillKo": "운(60%): 2022 AI 부상 + Nvidia GPU 부족. 실력(40%): 암호화폐→AI 피벗 결단." },
+  "personalTraits": {
+    "knownFor": "Co-founder of CoreWeave; pioneering GPU-cloud AI infrastructure entrepreneur.",
+    "knownForKo": "CoreWeave 공동 창립자; 선구적 GPU 클라우드 AI 인프라 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "CoreWeave heavy debt-financing model drew Wall Street scrutiny; AI-cycle exposure concerns.",
+    "controversiesKo": "CoreWeave의 고 부채 자금 조달 모델이 월스트리트 감시 야기; AI 사이클 노출 우려."
+  },
+  "characterKo": { "summaryKo": "암호화폐 채굴자가 CoreWeave AI GPU 클라우드 메이저로 8년 자수성가.", "tagsKo": ["CoreWeave", "AI GPU 클라우드", "암호화폐→AI 피벗"] },
+  "failures": [
+    { "year": 2021, "description": "Ethereum mining became unprofitable after Ethereum 'Merge' to proof-of-stake; CoreWeave forced rapid AI pivot.", "descriptionKo": "이더리움 '머지' 후 지분 증명으로 전환되어 채굴 비수익화; CoreWeave가 빠른 AI 피벗 강제.", "lesson": "Crypto-mining infrastructure faces protocol-cycle risk.", "lessonKo": "암호화폐 채굴 인프라는 프로토콜 사이클 리스크 직면." },
+    { "year": 2024, "description": "CoreWeave heavy debt-financing structure drew Wall Street scrutiny; valuation concerns.", "descriptionKo": "CoreWeave의 고 부채 자금 조달 구조가 월스트리트 감시·밸류에이션 우려 야기.", "lesson": "Capital-intensive AI infrastructure carries financing risk.", "lessonKo": "자본 집약 AI 인프라는 자금 조달 리스크 동반." }
+  ],
+  "wealthHistory": [{ "year": 2023, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "GPUs were the same; the workloads changed completely.", "textKo": "GPU는 같았고 워크로드가 완전히 바뀌었다.", "context": "On crypto-to-AI pivot", "contextKo": "암호화폐에서 AI로의 피벗에 대해", "source": "https://www.coreweave.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Ja day pillar in Sul month — 'pyeon-gwan-gyeok', strong external pressure, fitting capital-intensive AI infra founder.", "summaryKo": "무자 일주 + 술월 편관격(강한 외부 압박·권력 충돌)은 자본 집약 AI 인프라 산업의 끊임없는 자금 조달·고객·Nvidia 파트너십 압박과 호응합니다. 무토 일간의 큰 산 기질이 GPU 인프라 가부장 역할과 통하고, 자수 일지·술토 월지가 자본 유동성 + 토지·서버 자산의 토 기반을 가리킵니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "837", "name": "Shen Guojun", "nameKo": "선궈쥔",
+  "netWorth": 4.9, "nationality": "CN", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Chinese higher education.", "educationKo": "중국 고등교육.",
+    "earlyLife": "Founded Yintai Group in 1997 — Chinese department-store and shopping-mall operator; later sold majority to Alibaba; major Chinese real-estate investor.",
+    "earlyLifeKo": "1997년 Yintai Group 창립 — 중국 백화점·쇼핑몰 운영사; 이후 다수를 Alibaba에 매각; 주요 중국 부동산 투자자.",
+    "source": "https://www.forbes.com/profile/shen-guojun/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Yintai Group 28년 자수성가 + Alibaba 매각." },
+  "careerTimeline": [
+    { "year": 1990, "age": 28, "event": "Began Chinese real-estate business.", "eventKo": "중국 부동산 사업 시작.", "whyItMatteredKo": "사업 경력 출발선." },
+    { "year": 1997, "age": 35, "event": "Founded Yintai Group in Beijing.", "eventKo": "베이징에서 Yintai Group 창립.", "whyItMatteredKo": "Yintai 출발선." },
+    { "year": 2007, "age": 45, "event": "Yintai Department Store IPO on Hong Kong Stock Exchange.", "eventKo": "Yintai 백화점 홍콩 증시 IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2017, "age": 55, "event": "Alibaba acquired majority stake in Yintai; Shen retained partial stake.", "eventKo": "Alibaba가 Yintai 다수 지분 인수; 선이 부분 지분 유지.", "whyItMatteredKo": "Alibaba 매각 단계." },
+    { "year": 2025, "age": 63, "event": "Personal net worth at $4.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 49억 달러.", "whyItMatteredKo": "Yintai 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 55, "decisionKo": "Yintai 다수 지분을 Alibaba에 매각", "alternativeKo": "운영 잔류", "outcomeKo": "엑시트 + 다각화 투자가" }],
+  "moneyMechanics": { "primaryRevenueKo": "Yintai Group 잔여 지분 + Alibaba 주식 + 부동산", "industryKo": "소매 매각 후 부동산·투자", "businessModelKo": "Yintai 매각 대금 + Alibaba 주식 + 중국 부동산", "moatKo": "Yintai 매각 대금 + Alibaba 인맥", "luckVsSkillKo": "운(45%): 중국 소매 부상 + Alibaba 매각. 실력(55%): 20년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Yintai Group; sold majority to Alibaba; major Chinese retail-and-real-estate investor.",
+    "knownForKo": "Yintai Group 창립자; 다수를 Alibaba에 매각; 주요 중국 소매·부동산 투자자.",
+    "philanthropy": "Supports Chinese education.", "philanthropyKo": "중국 교육 지원.",
+    "controversies": "Standard Chinese retail/real-estate regulatory scrutiny.", "controversiesKo": "표준 중국 소매·부동산 규제 감시."
+  },
+  "characterKo": { "summaryKo": "Yintai Group 중국 백화점 창립자 + Alibaba 매각.", "tagsKo": ["Yintai Group", "Alibaba 매각", "중국 백화점"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 closed Chinese shopping malls; Yintai retail revenue compressed.", "descriptionKo": "COVID-19이 중국 쇼핑몰 폐쇄; Yintai 소매 매출 압축.", "lesson": "Physical retail pandemic-exposed.", "lessonKo": "물리 소매 팬데믹 노출." },
+    { "year": 2022, "description": "Chinese property crisis compressed Shen's real-estate portfolio.", "descriptionKo": "중국 부동산 위기로 선의 부동산 포트폴리오 압축.", "lesson": "China property exposed to systemic risk.", "lessonKo": "중국 부동산 체계적 리스크 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.0 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 4.7 }, { "year": 2025, "netWorth": 4.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Selling at Alibaba's peak was the right time.", "textKo": "Alibaba 정점에 매각한 것이 적절한 시점이었다.", "context": "On Yintai-Alibaba deal", "contextKo": "Yintai-Alibaba 거래에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-O day pillar in Mi month — 'jeonggwan-gyeok', formal authority, fitting retail-and-property magnate.", "summaryKo": "경오 일주 + 미월 정관격(공식 권위·규제 아래에서 일하는 구조)은 중국 부동산·소매 산업의 규제 환경과 호응합니다. 경금 일간 + 오화 일지의 강한 화 기운이 결단·표현의 에너지를 가리키고, 미토 월지의 토 기운이 부동산 자본의 안정 기반을 가리킵니다." }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "642", "name": "Franz Viegener", "nameKo": "프란츠 비게너",
+  "netWorth": 6.2, "nationality": "DE", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Viegener family — owners of Viega (German pipe-and-fitting company founded 1899).", "familyBackgroundKo": "Viega(1899 창립 독일 파이프·피팅 회사) 소유 Viegener 가족에서 출생.",
+    "education": "German higher education.", "educationKo": "독일 고등교육.",
+    "earlyLife": "Heir to Viega Group; one of several young Viegener heirs after father Walter Viegener's death.",
+    "earlyLifeKo": "Viega Group 상속자; 아버지 발터 비게너 사후 다수 젊은 Viegener 상속자 중 한 명.",
+    "source": "https://en.wikipedia.org/wiki/Viega"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Viega 126년 가족 자본 상속." },
+  "careerTimeline": [
+    { "year": 2005, "age": 22, "event": "Began Viegener family business orientation.", "eventKo": "Viegener 가족 사업 오리엔테이션 시작.", "whyItMatteredKo": "차세대 진입." },
+    { "year": 2015, "age": 32, "event": "Began Viegener family shareholder governance involvement.", "eventKo": "Viegener 가족 주주 거버넌스 관여 시작.", "whyItMatteredKo": "거버넌스 단계." },
+    { "year": 2020, "age": 37, "event": "Continued as Viegener family heir during pandemic.", "eventKo": "팬데믹 동안 Viegener 가족 상속자로 계속.", "whyItMatteredKo": "팬데믹 단계." },
+    { "year": 2025, "age": 42, "event": "Personal net worth at $6.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 62억 달러.", "whyItMatteredKo": "126년 가족 자본 차세대 정점." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 32, "decisionKo": "가족 거버넌스 진입", "alternativeKo": "독립 경로", "outcomeKo": "다세대 Viega 가족 자본의 차세대 핵심 주주" }],
+  "moneyMechanics": { "primaryRevenueKo": "Viega(100% 가족 소유) 가족 지분", "industryKo": "파이프·피팅 제조", "businessModelKo": "독일 프리미엄 배관·HVAC 제품", "moatKo": "126년 누적 독일 제조 인프라 + 가족 통제", "luckVsSkillKo": "운(90%): 가족 자본. 실력(10%): 차세대 거버넌스." },
+  "personalTraits": {
+    "knownFor": "Heir to Viega family fortune — Viegener family member.",
+    "knownForKo": "Viega 가족 부의 상속자 — Viegener 가족 구성원.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard industrial-manufacturer scrutiny.", "controversiesKo": "제한적; 표준 산업 제조사 감시."
+  },
+  "characterKo": { "summaryKo": "Viega 126년 가족 자본의 젊은 차세대 상속자.", "tagsKo": ["Viega", "Viegener 가족", "젊은 상속자"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted construction supply chains; Viega construction-product demand compressed.", "descriptionKo": "COVID-19이 건설 공급망 혼란; Viega 건설 제품 수요 압축.", "lesson": "Manufacturing depends on construction-cycle.", "lessonKo": "제조는 건설 사이클에 의존." },
+    { "year": 2023, "description": "Rising European energy costs pressured German manufacturer margins.", "descriptionKo": "유럽 에너지 비용 상승이 독일 제조사 마진 압박.", "lesson": "Energy-intensive manufacturing faces macro-cost shocks.", "lessonKo": "에너지 집약 제조는 거시 비용 충격 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 4.5 }, { "year": 2024, "netWorth": 5.8 }, { "year": 2025, "netWorth": 6.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Family ownership thinks in generations.", "textKo": "가족 소유는 세대 단위로 생각한다.", "context": "On family stewardship", "contextKo": "가족 청지기에 대해", "source": "https://www.viega.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Jin day pillar in In month — 'pyeon-gwan-gyeok', strong external authority, fitting young heir of long-established family business.", "summaryKo": "무진 일주 + 인월 편관격(강한 외부 압박·권력 충돌)은 다세대 가족 자본의 차세대 거버넌스 압박 환경과 호응합니다. 무토 일간 + 진토 일지의 강한 토 기운이 가족 자본의 안정 기반을 가리키고, 인목 월지의 목 기운이 회사·가족의 누적 성장을 가리킵니다." }
+}

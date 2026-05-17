@@ -1,0 +1,39 @@
+{
+  "id": "1270", "name": "P.V. Ramprasad Reddy", "nameKo": "P.V. 람프라사드 레디",
+  "netWorth": 3.2, "nationality": "IN", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Andhra Pradesh, India", "birthPlaceKo": "인도 안드라 프라데시",
+    "familyBackground": "Born to South Indian Telugu family.", "familyBackgroundKo": "남인도 텔루구 가정에서 출생.",
+    "education": "Indian higher education in pharmacy.", "educationKo": "인도 약학 고등교육.",
+    "earlyLife": "Co-founded Aurobindo Pharma in 1986 — major Indian generic-pharmaceutical manufacturer.",
+    "earlyLifeKo": "1986년 Aurobindo Pharma 공동 창립 — 주요 인도 제네릭 제약 제조사.",
+    "source": "https://en.wikipedia.org/wiki/Aurobindo_Pharma"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Aurobindo Pharma 39년 자수성가." },
+  "careerTimeline": [
+    { "year": 1980, "age": 22, "event": "Began Indian pharmaceutical career.", "eventKo": "인도 제약 경력 시작.", "whyItMatteredKo": "제약 경력 출발선." },
+    { "year": 1986, "age": 28, "event": "Co-founded Aurobindo Pharma in Hyderabad.", "eventKo": "하이데라바드에서 Aurobindo Pharma 공동 창립.", "whyItMatteredKo": "Aurobindo 출발선." },
+    { "year": 1995, "age": 37, "event": "Aurobindo Pharma IPO on BSE/NSE.", "eventKo": "Aurobindo Pharma BSE/NSE IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2010, "age": 52, "event": "Aurobindo became major US generic-drug supplier; FDA approvals.", "eventKo": "Aurobindo가 주요 미국 제네릭 의약품 공급사가 됨; FDA 승인.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2025, "age": 67, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "Aurobindo 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1986, "age": 28, "decisionKo": "하이데라바드에서 제네릭 제약 공동 창립", "alternativeKo": "직장 잔류", "outcomeKo": "39년 후 주요 인도 제네릭 제약" }],
+  "moneyMechanics": { "primaryRevenueKo": "Aurobindo Pharma(BSE/NSE 상장) 공동 창립자 지분", "industryKo": "제네릭 제약", "businessModelKo": "인도 + 미국 + 유럽 제네릭 약품 + 활성 성분 제조", "moatKo": "39년 FDA 승인 트랙 + 글로벌 유통", "luckVsSkillKo": "운(35%): 인도 제네릭 부상. 실력(65%): 39년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Aurobindo Pharma; major Indian generic-pharmaceutical magnate.",
+    "knownForKo": "Aurobindo Pharma 공동 창립자; 주요 인도 제네릭 제약 거물.",
+    "philanthropy": "Supports Telugu community education.", "philanthropyKo": "텔루구 공동체 교육 지원.",
+    "controversies": "FDA warnings to Aurobindo facilities; Indian generic-quality scrutiny.",
+    "controversiesKo": "Aurobindo 시설에 FDA 경고; 인도 제네릭 품질 감시."
+  },
+  "characterKo": { "summaryKo": "Aurobindo Pharma 39년 자수성가 — 인도 주요 제네릭.", "tagsKo": ["Aurobindo Pharma", "인도 제네릭"] },
+  "failures": [
+    { "year": 2015, "description": "FDA warning letter to Aurobindo manufacturing facility; reputational impact.", "descriptionKo": "FDA가 Aurobindo 제조 시설에 경고 서신; 평판 영향.", "lesson": "Generic pharma face FDA quality tail risk.", "lessonKo": "제네릭 제약은 FDA 품질 잔여 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Indian pharma supply chains briefly.", "descriptionKo": "COVID-19이 인도 제약 공급망 잠시 혼란.", "lesson": "Pharma supply chain pandemic-exposed.", "lessonKo": "제약 공급망 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.7 }, { "year": 2020, "netWorth": 2.3 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Generics serve patients who can't afford brand-name drugs.", "textKo": "제네릭은 브랜드 약품을 살 수 없는 환자를 섬긴다.", "context": "On Aurobindo mission", "contextKo": "Aurobindo 미션에 대해", "source": "https://www.aurobindo.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-O day pillar in Myo month — 'jeongin-gyeok', maternal-academic-pharmacy foundation, fitting generic-drug co-founder.", "summaryKo": "병오 일주 + 묘월 정인격(공식 자격·학문·문서 권위)은 인도 약학 학위 + 39년 제네릭 제약 산업의 학문 기반과 호응합니다. 병화 일간 + 오화 일지의 강한 화 기운이 결단·표현 에너지를 가리키고, 묘목 월지의 목 기운이 회사·자본의 누적 성장을 가리킵니다." }
+}

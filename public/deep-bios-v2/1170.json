@@ -1,0 +1,39 @@
+{
+  "id": "1170", "name": "Remo Ruffini", "nameKo": "레모 루피니",
+  "netWorth": 3.5, "nationality": "IT", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Como, Italy", "birthPlaceKo": "이탈리아 코모",
+    "familyBackground": "Born to Italian textile-family in Como; father a textile entrepreneur.", "familyBackgroundKo": "코모 이탈리아 섬유 가족에서 출생; 아버지가 섬유 기업가.",
+    "education": "Italian secondary education.", "educationKo": "이탈리아 중등교육.",
+    "earlyLife": "Worked in family textiles; acquired Moncler in 2003 — rescued French/Italian down-jacket brand; transformed into global luxury brand.",
+    "earlyLifeKo": "가족 섬유에서 근무; 2003년 Moncler 인수 — 프랑스·이탈리아 다운 자켓 브랜드 회생; 글로벌 럭셔리 브랜드로 변환.",
+    "source": "https://en.wikipedia.org/wiki/Moncler"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Moncler 회생 + 22년 자수성가." },
+  "careerTimeline": [
+    { "year": 1984, "age": 23, "event": "Founded New England clothing brand New England in Italy.", "eventKo": "이탈리아에서 New England 의류 브랜드 창립.", "whyItMatteredKo": "패션 경력 출발선." },
+    { "year": 2003, "age": 42, "event": "Acquired distressed Moncler brand; began transformation.", "eventKo": "부실 Moncler 브랜드 인수; 변환 시작.", "whyItMatteredKo": "Moncler 출발선." },
+    { "year": 2013, "age": 52, "event": "Moncler IPO on Milan Stock Exchange.", "eventKo": "Moncler 밀라노 증시 IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2020, "age": 59, "event": "Acquired Stone Island; expanded Moncler Group into multi-brand luxury platform.", "eventKo": "Stone Island 인수; Moncler Group을 다브랜드 럭셔리 플랫폼으로 확장.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $3.5B per Forbes Real-Time. Continues as Moncler Group CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 35억 달러. Moncler Group CEO 계속.", "whyItMatteredKo": "Moncler 22년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 2003, "age": 42, "decisionKo": "부실 Moncler 인수", "alternativeKo": "가족 섬유 잔류", "outcomeKo": "22년 후 글로벌 럭셔리 다운 자켓 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Moncler S.p.A.(밀라노 증시) 주요 주주 지분", "industryKo": "럭셔리 패션", "businessModelKo": "프리미엄 다운 자켓 + 다브랜드 럭셔리 + 글로벌 매장", "moatKo": "22년 Moncler 브랜드 재구축 + 럭셔리 가격 지향", "luckVsSkillKo": "운(35%): 글로벌 럭셔리 시장 부상. 실력(65%): 부실 브랜드 회생 + 22년 일관성." },
+  "personalTraits": {
+    "knownFor": "Chairman and CEO of Moncler Group; transformed distressed Moncler into global luxury brand.",
+    "knownForKo": "Moncler Group 의장·CEO; 부실 Moncler를 글로벌 럭셔리 브랜드로 변환.",
+    "philanthropy": "Moncler Foundation supports cultural initiatives.", "philanthropyKo": "Moncler 재단이 문화 사업 지원.",
+    "controversies": "2014 BBC documentary exposed allegations of live-plucking geese in Moncler down supply chain; subsequent supply-chain reform.",
+    "controversiesKo": "2014 BBC 다큐멘터리가 Moncler 다운 공급망의 거위 생체 발기 의혹 폭로; 이후 공급망 개혁."
+  },
+  "characterKo": { "summaryKo": "이탈리아 섬유 출신 Moncler 22년 자수성가 — 부실 브랜드를 글로벌 럭셔리로.", "tagsKo": ["Moncler", "Stone Island", "브랜드 회생"] },
+  "failures": [
+    { "year": 2014, "description": "BBC documentary on goose-down supply-chain practices forced Moncler to overhaul down sourcing.", "descriptionKo": "거위 다운 공급망 관행에 대한 BBC 다큐멘터리가 Moncler에 다운 조달 개혁 강제.", "lesson": "Luxury brand exposed to supply-chain ethical-narrative risk.", "lessonKo": "럭셔리 브랜드는 공급망 윤리 서사 리스크 노출." },
+    { "year": 2020, "description": "COVID-19 closed luxury retail; Moncler Group revenue compressed temporarily.", "descriptionKo": "COVID-19이 럭셔리 소매 폐쇄; Moncler Group 매출 일시 압축.", "lesson": "Physical-luxury retail face pandemic exposure.", "lessonKo": "물리 럭셔리 소매는 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.3 }, { "year": 2025, "netWorth": 3.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Moncler was a forgotten name. We made it a global story.", "textKo": "Moncler는 잊혀진 이름이었다. 우리가 글로벌 이야기로 만들었다.", "context": "On Moncler revival", "contextKo": "Moncler 부활에 대해", "source": "https://www.monclergroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Jin day pillar in Shin month — 'pyeonjae-gyeok', large external wealth, fitting global luxury brand builder.", "summaryKo": "임진 일주 + 신월 편재격(크고 유동적인 외부 자본)은 22년에 걸쳐 부실 브랜드를 글로벌 럭셔리로 변환해 거대 외부 자본을 끌어들인 그의 경로와 호응합니다. 임수 일간의 큰 물·유연성이 글로벌 럭셔리 시장의 거대 유동성과 통하고, 진토 일지의 토 기운이 브랜드 자본의 안정 기반을 가리키며, 신금 월지의 금 기운이 매장·소매 운영의 정밀함을 강조합니다." }
+}

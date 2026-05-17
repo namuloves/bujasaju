@@ -1,0 +1,39 @@
+{
+  "id": "992", "name": "Penny Sue Pritzker", "nameKo": "페니 수 프리츠커",
+  "netWorth": 4.1, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Chicago, Illinois, USA", "birthPlaceKo": "미국 일리노이주 시카고",
+    "familyBackground": "Born to Donald Pritzker — co-founder of Hyatt Hotels Corporation; sister of J.B. Pritzker.", "familyBackgroundKo": "Hyatt Hotels Corporation 공동 창립자 도널드 프리츠커의 딸; J.B. 프리츠커의 누이.",
+    "education": "Harvard; Stanford JD/MBA.", "educationKo": "하버드; 스탠퍼드 JD/MBA.",
+    "earlyLife": "Joined family Pritzker business; founded PSP Capital and Pritzker Realty Group; served as US Secretary of Commerce (2013-2017).",
+    "earlyLifeKo": "가족 Pritzker 사업 합류; PSP Capital과 Pritzker Realty Group 창립; 미국 상무장관 봉직(2013-2017).",
+    "source": "https://en.wikipedia.org/wiki/Penny_Pritzker"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Pritzker 가족 자본." },
+  "careerTimeline": [
+    { "year": 1984, "age": 25, "event": "Joined family Pritzker business after Stanford JD/MBA.", "eventKo": "스탠퍼드 JD/MBA 후 가족 Pritzker 사업 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2002, "age": 43, "event": "Pritzker family wealth restructuring; Penny received significant stake.", "eventKo": "Pritzker 가족 부 재구조화; 페니가 상당한 지분 수령.", "whyItMatteredKo": "재구조화 단계." },
+    { "year": 2009, "age": 50, "event": "Founded PSP Capital Partners; expanded into PE investing.", "eventKo": "PSP Capital Partners 창립; PE 투자 확장.", "whyItMatteredKo": "PE 단계." },
+    { "year": 2013, "age": 54, "event": "Confirmed as US Secretary of Commerce under Obama; served until 2017.", "eventKo": "오바마 하 미국 상무장관 인준; 2017까지 봉직.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2025, "age": 66, "event": "Personal net worth at $4.1B per Forbes Real-Time. Continues as PSP Capital chair and Harvard Corporation member.", "eventKo": "포브스 실시간 기준 개인 순자산 41억 달러. PSP Capital 의장·Harvard Corporation 구성원 계속.", "whyItMatteredKo": "가족 자본 + 정치·교육 정점." }
+  ],
+  "turningPoints": [{ "year": 2013, "age": 54, "decisionKo": "Obama 행정부 상무장관 인수", "alternativeKo": "사업가 잔류", "outcomeKo": "가족 자본 + 정치인 + 교육 리더 다중 정체성" }],
+  "moneyMechanics": { "primaryRevenueKo": "Pritzker 가족 자본 + PSP Capital + Pritzker Realty Group", "industryKo": "가족 자본 + PE + 부동산", "businessModelKo": "Pritzker 가족 자본 + PSP Capital PE + 부동산", "moatKo": "Pritzker 다세대 가족 자본 + 정치 인맥", "luckVsSkillKo": "운(70%): 가족 자본. 실력(30%): PSP Capital + 정치." },
+  "personalTraits": {
+    "knownFor": "Member of Pritzker family; former US Secretary of Commerce (2013-2017); founder of PSP Capital; current Harvard Corporation president.",
+    "knownForKo": "Pritzker 가족 구성원; 전 미국 상무장관(2013-2017); PSP Capital 창립자; 현 Harvard Corporation 사장.",
+    "philanthropy": "Major Harvard, Chicago patron; supports education and economic-development causes.", "philanthropyKo": "주요 하버드·시카고 후원자; 교육·경제 개발 사업 지원.",
+    "controversies": "Pritzker family 2002 inheritance restructuring multi-year scrutiny; Hyatt labor disputes during Commerce tenure.",
+    "controversiesKo": "Pritzker 가족 2002 상속 재구조화 다년간 감시; 상무 임기 동안 Hyatt 노동 분쟁."
+  },
+  "characterKo": { "summaryKo": "Pritzker 가족 + 전 미국 상무장관 + Harvard Corporation 사장.", "tagsKo": ["Pritzker 가족", "상무장관", "Harvard Corporation"] },
+  "failures": [
+    { "year": 2002, "description": "Pritzker family inheritance restructuring drew multi-year tax-trust scrutiny.", "descriptionKo": "Pritzker 가족 상속 재구조화가 다년간 세금·신탁 감시 야기.", "lesson": "Multi-generational family trusts create legal-narrative tail.", "lessonKo": "다세대 가족 신탁은 법적 서사 잔여 야기." },
+    { "year": 2013, "description": "Commerce Secretary nomination drew Hyatt labor-dispute scrutiny.", "descriptionKo": "상무장관 지명이 Hyatt 노동 분쟁 감시 야기.", "lesson": "Family-business positions face confirmation-process scrutiny.", "lessonKo": "가족 사업 위치는 인준 과정 감시 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.4 }, { "year": 2020, "netWorth": 3.4 }, { "year": 2024, "netWorth": 3.9 }, { "year": 2025, "netWorth": 4.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Service requires more than wealth — it requires showing up.", "textKo": "봉사는 부 이상을 요구한다 — 나타나야 한다.", "context": "On government service", "contextKo": "정부 봉사에 대해", "source": "https://en.wikipedia.org/wiki/Penny_Pritzker" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Shin day pillar in Jin month — 'pyeonjae-gyeok', large external wealth, fitting family-capital + political figure.", "summaryKo": "갑신 일주 + 진월 편재격(크고 유동적인 외부 자본)은 Pritzker 가족 거대 외부 자본 + 정부 봉사라는 외부 권력 환경과 호응합니다. 갑목 일간의 큰 나무 + 진토 월지의 토 기운이 가족 자본의 안정 기반과 가부장 역할을 가리키고, 신금 일지의 금 기운이 결단의 정밀함을 가리킵니다." }
+}

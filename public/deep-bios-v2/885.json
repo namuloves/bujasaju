@@ -1,0 +1,38 @@
+{
+  "id": "885", "name": "Drayton McLane Jr.", "nameKo": "드레이턴 매클레인 주니어",
+  "netWorth": 4.7, "nationality": "US", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Cameron, Texas, USA", "birthPlaceKo": "미국 텍사스주 캐머런",
+    "familyBackground": "Born to McLane family — Texas grocery distributor founders.", "familyBackgroundKo": "텍사스 식료품 유통 창립자 McLane 가족에서 출생.",
+    "education": "Baylor University; Michigan State MBA.", "educationKo": "베일러 대학교; 미시간 주립 MBA.",
+    "earlyLife": "Built family McLane Company grocery distributor; sold to Walmart for $50M in 1990; later acquired Houston Astros MLB team in 1992.",
+    "earlyLifeKo": "가족 McLane Company 식료품 유통 구축; 1990 Walmart에 5,000만 달러 매각; 1992 휴스턴 애스트로스 MLB 팀 인수.",
+    "source": "https://en.wikipedia.org/wiki/Drayton_McLane_Jr."
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "McLane Company 매각 + Astros 매각." },
+  "careerTimeline": [
+    { "year": 1959, "age": 23, "event": "Joined family McLane Company grocery-distribution business.", "eventKo": "가족 McLane Company 식료품 유통 사업 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1990, "age": 54, "event": "Sold McLane Company to Walmart for $50M; received Walmart stock.", "eventKo": "McLane Company를 Walmart에 5,000만 달러 매각; Walmart 주식 수령.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 1992, "age": 56, "event": "Acquired Houston Astros MLB team for $117M.", "eventKo": "휴스턴 애스트로스 MLB 팀을 1억 1,700만 달러 인수.", "whyItMatteredKo": "스포츠 단계." },
+    { "year": 2011, "age": 75, "event": "Sold Houston Astros to Jim Crane for $680M.", "eventKo": "휴스턴 애스트로스를 짐 크레인에 6억 8,000만 달러 매각.", "whyItMatteredKo": "스포츠 엑시트." },
+    { "year": 2025, "age": 88, "event": "Personal net worth at $4.7B per Forbes Real-Time. Continues as Texas philanthropist.", "eventKo": "포브스 실시간 기준 개인 순자산 47억 달러. 텍사스 자선가로 계속.", "whyItMatteredKo": "McLane + Astros 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 54, "decisionKo": "McLane Company를 Walmart에 매각 (주식 결제)", "alternativeKo": "운영 잔류", "outcomeKo": "Walmart 주식 35년 보유로 거대 부 누적" }],
+  "moneyMechanics": { "primaryRevenueKo": "Walmart 주식 (McLane 매각 대금) + Astros 매각 대금 + 다각화", "industryKo": "식료품 매각 + 스포츠 매각 + Walmart 주식", "businessModelKo": "Walmart 장기 보유 + Astros 매각 + 자선", "moatKo": "McLane 매각 대금 + Walmart 주식 복리", "luckVsSkillKo": "운(40%): 1990 Walmart 매각 + 주식 결제. 실력(60%): 30+년 가족 사업 + 매각 결단." },
+  "personalTraits": {
+    "knownFor": "Former owner of McLane Company; former Houston Astros owner; major Baylor University patron.",
+    "knownForKo": "전 McLane Company 소유주; 전 휴스턴 애스트로스 소유주; 주요 베일러 대학교 후원자.",
+    "philanthropy": "Major Baylor University patron ($100M+); supports Texas community.", "philanthropyKo": "주요 베일러 대학교 후원자(1억 달러+); 텍사스 지역 사회 지원.",
+    "controversies": "Astros 2017 sign-stealing scandal occurred under Jim Crane (after McLane's sale).", "controversiesKo": "Astros 2017 사인 훔치기 스캔들은 매클레인 매각 후 짐 크레인 하에서 발생."
+  },
+  "characterKo": { "summaryKo": "McLane Company → Walmart 주식 + 휴스턴 애스트로스 매각 + 베일러 후원자.", "tagsKo": ["McLane Company", "Houston Astros", "Walmart 주식 보유", "베일러 후원자"] },
+  "failures": [
+    { "year": 2008, "description": "Astros team performance declined sharply during McLane's ownership; multi-year struggles.", "descriptionKo": "매클레인 소유 동안 Astros 팀 성과 가파르게 하락; 다년간 어려움.", "lesson": "Sports-team ownership requires patience through losing seasons.", "lessonKo": "스포츠 팀 소유는 패배 시즌 통과 인내 요구." },
+    { "year": 2011, "description": "Sold Astros at $680M; some observers argued sold below peak value.", "descriptionKo": "Astros를 6억 8,000만 달러에 매각; 일부 관찰자가 정점 가치 이하 매각 주장.", "lesson": "Sports-team timing always disputed.", "lessonKo": "스포츠 팀 타이밍은 항상 분쟁." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.7 }, { "year": 2020, "netWorth": 2.6 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Walmart stock was a 35-year gift.", "textKo": "Walmart 주식은 35년 선물이었다.", "context": "On McLane sale", "contextKo": "McLane 매각에 대해", "source": "https://en.wikipedia.org/wiki/Drayton_McLane_Jr." }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Sa day pillar in Mi month — 'pyeonjae-gyeok', large external wealth, fitting distribution-magnate.", "summaryKo": "을사 일주 + 미월 편재격(크고 유동적인 외부 자본)은 식료품 유통이라는 거대 외부 자본 흐름과 호응합니다. 을목 일간 + 사화 일지의 화 기운이 매각 결단의 표현을 가리키고, 미토 월지의 토 기운이 가족 자본의 안정 기반을 가리킵니다." }
+}

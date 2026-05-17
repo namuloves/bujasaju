@@ -1,0 +1,39 @@
+{
+  "id": "985", "name": "Daniel Och", "nameKo": "대니얼 오크",
+  "netWorth": 4.2, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American Jewish family.", "familyBackgroundKo": "미국 유대인 가정에서 출생.",
+    "education": "Wharton (Penn).", "educationKo": "와튼(펜).",
+    "earlyLife": "Worked at Goldman Sachs for 11 years; founded Och-Ziff Capital Management in 1994 — multi-strategy hedge fund (later Sculptor Capital).",
+    "earlyLifeKo": "Goldman Sachs에서 11년 근무; 1994년 Och-Ziff Capital Management 창립 — 멀티 전략 헤지펀드(이후 Sculptor Capital).",
+    "source": "https://en.wikipedia.org/wiki/Daniel_Och"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Och-Ziff 31년 누적 carry." },
+  "careerTimeline": [
+    { "year": 1982, "age": 21, "event": "Joined Goldman Sachs equity arbitrage.", "eventKo": "Goldman Sachs 주식 차익 거래 합류.", "whyItMatteredKo": "월스트리트 경력 출발선." },
+    { "year": 1994, "age": 33, "event": "Founded Och-Ziff Capital Management with Ziff Brothers capital.", "eventKo": "Ziff Brothers 자본으로 Och-Ziff Capital Management 창립.", "whyItMatteredKo": "Och-Ziff 출발선." },
+    { "year": 2007, "age": 46, "event": "Och-Ziff IPO on NYSE; AUM crossed $30B+.", "eventKo": "Och-Ziff NYSE IPO; AUM 300억 달러+ 돌파.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2016, "age": 55, "event": "Och-Ziff settled $412M with DOJ over African bribery allegations; reputational damage.", "eventKo": "Och-Ziff가 아프리카 뇌물 의혹으로 DOJ에 4억 1,200만 달러 합의; 평판 손상.", "whyItMatteredKo": "스캔들 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $4.2B per Forbes Real-Time. Och-Ziff renamed Sculptor Capital; sold to Rithm Capital in 2023.", "eventKo": "포브스 실시간 기준 개인 순자산 42억 달러. Och-Ziff가 Sculptor Capital로 개명; 2023 Rithm Capital에 매각.", "whyItMatteredKo": "헤지펀드 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 33, "decisionKo": "Goldman Sachs 떠나 Och-Ziff 창립", "alternativeKo": "Goldman 파트너 잔류", "outcomeKo": "31년 후 멀티 전략 헤지펀드 메이저 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Sculptor Capital(전 Och-Ziff) 매각 대금 + 헤지펀드 carry", "industryKo": "헤지펀드(멀티 전략)", "businessModelKo": "멀티 전략 헤지펀드 + Sculptor 매각 후 가족 사무실", "moatKo": "31년 헤지펀드 트랙 + Goldman 인맥", "luckVsSkillKo": "운(30%): 1990-2015 헤지펀드 황금기. 실력(70%): 31년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Och-Ziff Capital Management (later Sculptor Capital); former Goldman Sachs arbitrageur.",
+    "knownForKo": "Och-Ziff Capital Management(이후 Sculptor Capital) 창립자; 전 Goldman Sachs 차익 거래자.",
+    "philanthropy": "Och Family Foundation supports Jewish causes and education.", "philanthropyKo": "Och 가족 재단이 유대인 사업·교육 지원.",
+    "controversies": "2016 $412M DOJ settlement over African bribery (Libya, Congo) scheme; one of largest US hedge-fund corruption cases.",
+    "controversiesKo": "2016 아프리카 뇌물(리비아·콩고) 계획으로 4억 1,200만 달러 DOJ 합의; 최대 미국 헤지펀드 부패 사건 중 하나."
+  },
+  "characterKo": { "summaryKo": "Goldman → Och-Ziff 31년 헤지펀드 + DOJ 뇌물 합의 스캔들.", "tagsKo": ["Och-Ziff", "Sculptor Capital", "DOJ 합의"] },
+  "failures": [
+    { "year": 2016, "description": "Och-Ziff $412M DOJ settlement over African bribery scheme; multi-year reputational damage.", "descriptionKo": "Och-Ziff가 아프리카 뇌물 계획으로 4억 1,200만 달러 DOJ 합의; 다년간 평판 손상.", "lesson": "Emerging-market PE/HF carry corruption tail risk.", "lessonKo": "신흥 시장 PE/HF는 부패 잔여 리스크 동반." },
+    { "year": 2023, "description": "Sculptor Capital sold to Rithm Capital after sustained AUM compression.", "descriptionKo": "Sculptor Capital이 지속적 AUM 압축 후 Rithm Capital에 매각.", "lesson": "Even legendary HFs face AUM cycle.", "lessonKo": "전설적 HF도 AUM 사이클 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.4 }, { "year": 2020, "netWorth": 3.6 }, { "year": 2024, "netWorth": 4.0 }, { "year": 2025, "netWorth": 4.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Multi-strategy hedging means you can't lose in one place to gain in another.", "textKo": "멀티 전략 헤징은 한 곳에서 잃어 다른 곳에서 얻을 수 없다는 의미다.", "context": "On Och-Ziff strategy", "contextKo": "Och-Ziff 전략에 대해", "source": "https://en.wikipedia.org/wiki/Daniel_Och" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Shin day pillar in Chuk month — 'jeongin-gyeok', maternal-academic foundation, fitting Wharton-trained HF founder.", "summaryKo": "경신 일주 + 축월 정인격(공식 자격·학문·문서 권위)은 와튼 + Goldman 정통 학문·기관 기반 헤지펀드 경력과 호응합니다. 경금 일간 + 신금 일지의 강한 금 기운이 차익 거래의 정밀 결단을 가리키고, 축토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

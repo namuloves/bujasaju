@@ -1,0 +1,39 @@
+{
+  "id": "323", "name": "Daniel Kretinsky", "nameKo": "다니엘 크르제틴스키",
+  "netWorth": 9.9, "nationality": "CZ", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "Brno, Czech Republic", "birthPlaceKo": "체코 브르노",
+    "familyBackground": "Born to Czech academic family; father a computer-science professor.", "familyBackgroundKo": "체코 학자 가정에서 출생; 아버지가 컴퓨터 과학 교수.",
+    "education": "Charles University Prague (law); Masaryk University.", "educationKo": "프라하 찰스 대학교(법); 마사리크 대학교.",
+    "earlyLife": "Joined J&T Group; founded EPH (Energetický a průmyslový holding) — major Central European energy holding company.",
+    "earlyLifeKo": "J&T Group 합류; EPH(Energetický a průmyslový holding) 창립 — 주요 중부 유럽 에너지 지주 회사.",
+    "source": "https://en.wikipedia.org/wiki/Daniel_K%C5%99et%C3%ADnsk%C3%BD"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "EPH 14년 자수성가 + J&T 경력." },
+  "careerTimeline": [
+    { "year": 1999, "age": 24, "event": "Joined J&T Group law department after Charles University.", "eventKo": "찰스 대학교 후 J&T Group 법무 부서 합류.", "whyItMatteredKo": "법무 경력 출발선." },
+    { "year": 2009, "age": 34, "event": "Founded Czech Coal — early energy-asset acquisition vehicle.", "eventKo": "Czech Coal 창립 — 초기 에너지 자산 인수 비클.", "whyItMatteredKo": "에너지 출발선." },
+    { "year": 2011, "age": 36, "event": "Founded EPH; began aggressive European energy-asset acquisitions.", "eventKo": "EPH 창립; 공격적 유럽 에너지 자산 인수 시작.", "whyItMatteredKo": "EPH 단계." },
+    { "year": 2022, "age": 47, "event": "Acquired Foot Locker stake, Le Monde stake, J Sainsbury stake, Macy's stake; diversified into retail and media.", "eventKo": "Foot Locker·Le Monde·J Sainsbury·Macy's 지분 인수; 소매·미디어 다각화.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 50, "event": "Personal net worth at $9.9B per Forbes Real-Time. Major European energy-and-retail magnate.", "eventKo": "포브스 실시간 기준 개인 순자산 99억 달러. 주요 유럽 에너지·소매 거물.", "whyItMatteredKo": "EPH 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2011, "age": 36, "decisionKo": "EPH 창립으로 유럽 에너지 인수 시작", "alternativeKo": "J&T 잔류", "outcomeKo": "14년 후 유럽 에너지·다각화 메이저 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "EPH(비공개) + 소매·미디어 다각화 지분", "industryKo": "에너지 + 소매 + 미디어 다각화", "businessModelKo": "유럽 발전소 + 가스 인프라 + 소매·미디어 투자", "moatKo": "에너지 인프라 인수 노하우 + 정치 인맥", "luckVsSkillKo": "운(40%): 2022 에너지 위기 + 유럽 자산 매각 기회. 실력(60%): 14년 EPH 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of EPH; major Central European energy magnate; Foot Locker, Le Monde, Sainsbury's, Macy's stakes.",
+    "knownForKo": "EPH 창립자; 주요 중부 유럽 에너지 거물; Foot Locker·Le Monde·Sainsbury's·Macy's 지분.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "EPH coal-and-gas assets drew sustained European climate criticism; Sparta Prague football ownership controversies; Le Monde editorial-independence debates.",
+    "controversiesKo": "EPH 석탄·가스 자산이 지속적 유럽 기후 비판 야기; 스파르타 프라하 축구 소유 논란; Le Monde 편집 독립 논쟁."
+  },
+  "characterKo": { "summaryKo": "체코 법학 출신 EPH 유럽 에너지 거물 + 글로벌 소매·미디어 투자자.", "tagsKo": ["EPH", "Sparta Prague", "Le Monde", "Macy's"] },
+  "failures": [
+    { "year": 2022, "description": "European Green Deal threatened EPH's coal/gas assets long-term.", "descriptionKo": "유럽 그린 딜이 EPH의 석탄·가스 자산을 장기 위협.", "lesson": "Fossil-fuel assets face climate-policy tail risk.", "lessonKo": "화석연료 자산은 기후 정책 잔여 리스크 직면." },
+    { "year": 2024, "description": "Foot Locker stake fell during athletic retail decline.", "descriptionKo": "운동 소매 하락 동안 Foot Locker 지분 하락.", "lesson": "Diversified retail bets face cycle risk.", "lessonKo": "다각화 소매 베팅 사이클 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 5.0 }, { "year": 2022, "netWorth": 9.4 }, { "year": 2024, "netWorth": 9.3 }, { "year": 2025, "netWorth": 9.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Energy needs base-load. Coal and gas provide base-load for now.", "textKo": "에너지는 기저 부하가 필요하다. 석탄과 가스가 현재 기저 부하를 제공한다.", "context": "On EPH energy strategy", "contextKo": "EPH 에너지 전략에 대해", "source": "https://www.epholding.cz" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Jin day pillar in Mi month — 'jeonggwan-gyeok', formal authority, fitting regulated-energy magnate.", "summaryKo": "병진 일주 + 미월 정관격(공식 권위·규제 아래에서 일하는 구조)은 유럽 에너지 산업의 EU 규제·정부 환경과 호응합니다. 병화 일간의 큰 불·태양 기질이 에너지(불) 산업과 직접 통하고, 진토 일지·미토 월지의 토 기운이 에너지 인프라의 안정 기반을 가리킵니다." }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "1119", "name": "Danny Harris", "nameKo": "대니 해리스",
+  "netWorth": 3.7, "nationality": "US", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Built career in US retail and consumer-brand investments; major US consumer-products investor.",
+    "earlyLifeKo": "미국 소매·소비자 브랜드 투자 경력 구축; 주요 미국 소비재 투자자.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "소비재 투자 자본." },
+  "careerTimeline": [
+    { "year": 1995, "age": 23, "event": "Began US retail and consumer-brand investing career.", "eventKo": "미국 소매·소비자 브랜드 투자 경력 시작.", "whyItMatteredKo": "투자 경력 출발선." },
+    { "year": 2005, "age": 33, "event": "Built diversified US consumer-products investment portfolio.", "eventKo": "다각화 미국 소비재 투자 포트폴리오 구축.", "whyItMatteredKo": "포트폴리오 단계." },
+    { "year": 2015, "age": 43, "event": "Continued growth through consumer-cycle investments.", "eventKo": "소비자 사이클 투자 통해 성장 계속.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 53, "event": "Personal net worth at $3.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러.", "whyItMatteredKo": "소비재 투자 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 23, "decisionKo": "소비재 투자 집중", "alternativeKo": "다른 산업", "outcomeKo": "30년 후 미국 주요 소비재 투자자" }],
+  "moneyMechanics": { "primaryRevenueKo": "미국 소비재 브랜드 투자 + 다각화", "industryKo": "소매·소비재 투자", "businessModelKo": "PE·VC 소비재 투자 + 다각화 포트폴리오", "moatKo": "30년 소비재 인맥 + 투자 트랙", "luckVsSkillKo": "운(40%): 미국 소비재 부상. 실력(60%): 30년 투자 일관성." },
+  "personalTraits": {
+    "knownFor": "Major US consumer-products investor.",
+    "knownForKo": "주요 미국 소비재 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard private-investment scrutiny.", "controversiesKo": "제한적; 표준 사적 투자 감시."
+  },
+  "characterKo": { "summaryKo": "미국 소비재 투자 30년 자수성가.", "tagsKo": ["미국 소비재 투자"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed US consumer-products demand.", "descriptionKo": "글로벌 금융위기로 미국 소비재 수요 압축.", "lesson": "Consumer products cyclical.", "lessonKo": "소비재 주기적." },
+    { "year": 2022, "description": "Inflation and rising rates compressed consumer-discretionary spending.", "descriptionKo": "인플레이션·금리 상승이 소비자 재량 지출 압축.", "lesson": "Consumer discretionary inflation-exposed.", "lessonKo": "소비자 재량 지출 인플레이션 노출." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Brands are trust converted to repeat purchases.", "textKo": "브랜드는 반복 구매로 변환된 신뢰다.", "context": "On consumer investing", "contextKo": "소비자 투자에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-O day pillar in Sa month — 'jeongin-gyeok', maternal-academic foundation, fitting consumer-brand investor.", "summaryKo": "병오 일주 + 사월 정인격(공식 자격·학문·문서 권위)은 소비재 브랜드 투자라는 정통 분석·평가 기반과 호응합니다. 병화 일간 + 오화 일지·사화 월지의 강한 화 기운이 결단·표현·에너지의 거대 자아를 가리킵니다." }
+}

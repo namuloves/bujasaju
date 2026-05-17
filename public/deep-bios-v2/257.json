@@ -1,0 +1,40 @@
+{
+  "id": "257", "name": "Ernesto Bertarelli", "nameKo": "에르네스토 베르타렐리",
+  "netWorth": 11.5, "nationality": "CH", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Rome, Italy", "birthPlaceKo": "이탈리아 로마",
+    "familyBackground": "Born to Bertarelli family — founders of Serono pharmaceutical (Swiss-Italian biotech).", "familyBackgroundKo": "Serono 제약(스위스·이탈리아 바이오텍) 창립자 Bertarelli 가족에서 출생.",
+    "education": "Babson College; Harvard MBA.", "educationKo": "뱁슨 칼리지; 하버드 MBA.",
+    "earlyLife": "Joined family Serono; became CEO 1996; sold Serono to Merck KGaA for $13B in 2006; built Alinghi yacht-racing team.",
+    "earlyLifeKo": "가족 Serono 합류; 1996년 CEO 취임; 2006년 Serono를 Merck KGaA에 130억 달러 매각; Alinghi 요트 경주 팀 구축.",
+    "source": "https://en.wikipedia.org/wiki/Ernesto_Bertarelli"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "Serono 가족 자본 + 매각 + 다각화 투자." },
+  "careerTimeline": [
+    { "year": 1985, "age": 20, "event": "Began family Serono operations.", "eventKo": "가족 Serono 운영 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1996, "age": 31, "event": "Became Serono CEO after father; led global pharma expansion.", "eventKo": "아버지 후 Serono CEO 취임; 글로벌 제약 확장 주도.", "whyItMatteredKo": "CEO 단계." },
+    { "year": 2006, "age": 41, "event": "Sold Serono to Merck KGaA for $13B; major exit.", "eventKo": "Serono를 Merck KGaA에 130억 달러 매각; 주요 엑시트.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2010, "age": 45, "event": "Founded Waypoint Capital family office; diversified into PE and life sciences.", "eventKo": "Waypoint Capital 가족 사무실 창립; PE·생명 과학 다각화.", "whyItMatteredKo": "투자가 단계." },
+    { "year": 2025, "age": 60, "event": "Personal net worth at $11.5B per Forbes Real-Time. Continues Waypoint Capital and Alinghi yacht-racing.", "eventKo": "포브스 실시간 기준 개인 순자산 115억 달러. Waypoint Capital과 Alinghi 요트 경주 계속.", "whyItMatteredKo": "Serono 자본 + 투자 정점." }
+  ],
+  "turningPoints": [{ "year": 2006, "age": 41, "decisionKo": "Serono를 130억 달러에 Merck KGaA에 매각", "alternativeKo": "운영 잔류", "outcomeKo": "엑시트 + 19년 후 글로벌 다각화 투자자 가족" }],
+  "moneyMechanics": { "primaryRevenueKo": "Serono 매각 대금 + Waypoint Capital 다각화 투자 + Alinghi", "industryKo": "제약 매각 후 자산운용·요트 경주", "businessModelKo": "Serono 매각 대금 + 글로벌 PE·생명 과학 + 요트 경주", "moatKo": "Serono 가족 자본 + 매각 후 다각화", "luckVsSkillKo": "운(45%): 가족 자본 + 2006 정점 매각. 실력(55%): 10년 CEO + 19년 투자 일관성." },
+  "personalTraits": {
+    "knownFor": "Former CEO of Serono; sold to Merck KGaA for $13B; founder of Alinghi yacht-racing team; major Swiss philanthropist.",
+    "knownForKo": "전 Serono CEO; Merck KGaA에 130억 달러 매각; Alinghi 요트 경주 팀 창립자; 주요 스위스 자선가.",
+    "philanthropy": "Bertarelli Foundation supports marine conservation, life-sciences research.",
+    "philanthropyKo": "Bertarelli 재단이 해양 보전·생명 과학 연구 지원.",
+    "controversies": "Serono Settlement (2005-2006) for US off-label marketing of Serostim ($704M settlement); 2003 Alinghi America's Cup controversy.",
+    "controversiesKo": "Serono Settlement(2005-2006) Serostim 미국 오프라벨 마케팅(7억 4만 달러 합의); 2003 Alinghi 아메리카스 컵 논란."
+  },
+  "characterKo": { "summaryKo": "Serono 가족 가부장 + 130억 달러 매각 + Alinghi 요트 경주.", "tagsKo": ["Serono 매각", "Waypoint Capital", "Alinghi"] },
+  "failures": [
+    { "year": 2005, "description": "Serono settled $704M US DOJ case over off-label marketing of Serostim; reputational damage.", "descriptionKo": "Serono가 Serostim 오프라벨 마케팅 미국 DOJ 사건을 7억 400만 달러로 합의; 평판 손상.", "lesson": "Pharma off-label marketing faces multi-year regulatory tail.", "lessonKo": "제약 오프라벨 마케팅은 다년간 규제 잔여 직면." },
+    { "year": 2010, "description": "Alinghi lost America's Cup to BMW Oracle; expensive racing program.", "descriptionKo": "Alinghi가 아메리카스 컵을 BMW Oracle에 패배; 비싼 경주 프로그램.", "lesson": "Sports-passion projects face competitive uncertainty.", "lessonKo": "스포츠 열정 프로젝트는 경쟁 불확실성 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 11.7 }, { "year": 2020, "netWorth": 8.7 }, { "year": 2024, "netWorth": 11.1 }, { "year": 2025, "netWorth": 11.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Biotech and sailing both reward attention to invisible details.", "textKo": "바이오텍과 항해 모두 보이지 않는 세부 사항에 보상한다.", "context": "On Serono and Alinghi", "contextKo": "Serono와 Alinghi에 대해", "source": "https://www.waypoint.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Myo day pillar in Yu month — 'pyeon-gwan-gyeok', strong external authority, fitting institutional pharma CEO.", "summaryKo": "기묘 일주 + 유월 편관격(강한 외부 압박·권력 충돌)은 제약 산업의 FDA·규제·소송이라는 끊임없는 권력 환경과 호응합니다. 기토 일간의 작은 흙·세밀한 농경 기질이 제약 R&D의 정밀함과 통하고, 묘목 일지의 목 기운이 생명 과학 산업과 직접 통하며, 유금 월지의 금 기운이 결단의 예리함을 강조합니다." }
+}

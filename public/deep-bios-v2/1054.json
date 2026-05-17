@@ -1,0 +1,40 @@
+{
+  "id": "1054", "name": "Ugur Sahin", "nameKo": "우우르 샤힌",
+  "netWorth": 3.9, "nationality": "DE", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Iskenderun, Turkey", "birthPlaceKo": "터키 이스켄데룬",
+    "familyBackground": "Born to Turkish family; family migrated to Germany when he was 4.", "familyBackgroundKo": "터키 가정에서 출생; 4세에 가족 독일 이주.",
+    "education": "University of Cologne (medicine); medical doctor and immunologist.", "educationKo": "쾰른 대학교(의학); 의학 박사·면역학자.",
+    "earlyLife": "Co-founded BioNTech in 2008 with wife Ozlem Tureci — mRNA cancer immunotherapy research; pivoted to COVID-19 vaccine in 2020.",
+    "earlyLifeKo": "2008년 부인 외즐렘 튀레지와 BioNTech 공동 창립 — mRNA 암 면역 치료 연구; 2020년 COVID-19 백신 피벗.",
+    "source": "https://en.wikipedia.org/wiki/U%C4%9Fur_%C5%9Eahin"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "BioNTech 17년 자수성가." },
+  "careerTimeline": [
+    { "year": 1993, "age": 28, "event": "Completed Cologne medical doctorate; began immunology research.", "eventKo": "쾰른 의학 박사 학위 완료; 면역학 연구 시작.", "whyItMatteredKo": "의학 연구 출발선." },
+    { "year": 2001, "age": 36, "event": "Founded Ganymed Pharmaceuticals (cancer antibodies); later sold for $1.4B.", "eventKo": "Ganymed Pharmaceuticals 창립(암 항체); 이후 14억 달러에 매각.", "whyItMatteredKo": "첫 회사 단계." },
+    { "year": 2008, "age": 43, "event": "Co-founded BioNTech with wife Ozlem Tureci — mRNA immunotherapy platform.", "eventKo": "부인 외즐렘 튀레지와 BioNTech 공동 창립 — mRNA 면역 치료 플랫폼.", "whyItMatteredKo": "BioNTech 출발선." },
+    { "year": 2020, "age": 55, "event": "Pivoted BioNTech to develop COVID-19 mRNA vaccine with Pfizer; first authorized COVID vaccine.", "eventKo": "BioNTech를 Pfizer와 COVID-19 mRNA 백신 개발로 피벗; 첫 승인 COVID 백신.", "whyItMatteredKo": "글로벌 정점 단계." },
+    { "year": 2025, "age": 60, "event": "Personal net worth at $3.9B per Forbes Real-Time. Continues BioNTech cancer-immunotherapy pipeline.", "eventKo": "포브스 실시간 기준 개인 순자산 39억 달러. BioNTech 암 면역 치료 파이프라인 계속.", "whyItMatteredKo": "팬데믹 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2020, "age": 55, "decisionKo": "BioNTech mRNA 플랫폼을 COVID-19 백신으로 신속 피벗", "alternativeKo": "암 연구 집중 유지", "outcomeKo": "5년 후 글로벌 백신 메이저 + 다음 단계 암 치료 자금" }],
+  "moneyMechanics": { "primaryRevenueKo": "BioNTech SE(나스닥 상장) 공동 창립자 지분", "industryKo": "바이오테크(mRNA 면역 치료)", "businessModelKo": "mRNA 백신·암 면역 치료 + Pfizer 파트너십", "moatKo": "17년 mRNA R&D + 부부 공동 연구 + Pfizer 인맥", "luckVsSkillKo": "운(40%): 2020 팬데믹 + mRNA 시기. 실력(60%): 20년 mRNA 연구 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of BioNTech; lead inventor of Pfizer-BioNTech COVID-19 mRNA vaccine; immunologist.",
+    "knownForKo": "BioNTech 공동 창립자; Pfizer-BioNTech COVID-19 mRNA 백신 주 발명자; 면역학자.",
+    "philanthropy": "BioNTech committed COVID vaccine doses to low-income countries; supports immunology research.",
+    "philanthropyKo": "BioNTech가 저소득 국가에 COVID 백신 도즈 약속; 면역학 연구 지원.",
+    "controversies": "COVID-vaccine pricing and IP-waiver debates; BioNTech post-COVID growth-rate concerns.",
+    "controversiesKo": "COVID 백신 가격·IP 면제 논쟁; BioNTech 팬데믹 후 성장률 우려."
+  },
+  "characterKo": { "summaryKo": "터키 출생 독일 이민자 의사가 BioNTech mRNA 백신 공동 창립.", "tagsKo": ["BioNTech", "mRNA 백신", "Pfizer 파트너십", "터키·독일"] },
+  "failures": [
+    { "year": 2022, "description": "Post-COVID vaccine demand normalization compressed BioNTech revenue 80%+.", "descriptionKo": "팬데믹 후 백신 수요 정상화로 BioNTech 매출 80%+ 압축.", "lesson": "Pandemic-pull-forward demand creates extreme post-cycle compression.", "lessonKo": "팬데믹 수요 당김은 극단적 사이클 후 압축 야기." },
+    { "year": 2024, "description": "BioNTech cancer-immunotherapy pipeline showed slower-than-expected clinical results.", "descriptionKo": "BioNTech 암 면역 치료 파이프라인이 예상보다 느린 임상 결과.", "lesson": "Pipeline transition from one-hit success faces innovation execution risk.", "lessonKo": "원히트 성공에서 파이프라인 전환은 혁신 실행 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 4.0 }, { "year": 2021, "netWorth": 4.6 }, { "year": 2024, "netWorth": 3.7 }, { "year": 2025, "netWorth": 3.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "mRNA was always about cancer. COVID happened to need it first.", "textKo": "mRNA는 항상 암에 관한 것이었다. COVID가 우연히 먼저 필요로 했다.", "context": "On BioNTech mission", "contextKo": "BioNTech 미션에 대해", "source": "https://www.biontech.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Ja day pillar in Yu month — 'jeongin-gyeok', maternal-academic foundation, fitting MD-researcher founder.", "summaryKo": "병자 일주 + 유월 정인격(공식 자격·학문·문서 권위)은 의학 박사 + 17년 mRNA 연구라는 학문 자본 기반과 호응합니다. 병화 일간의 큰 불·태양 기질이 백신·암 치료 연구의 광범위한 영향과 통하고, 자수 일지의 수 기운이 자본·연구의 거대 유동성을 가리키며, 유금 월지의 금 기운이 연구 결단의 정밀함을 강조합니다." }
+}

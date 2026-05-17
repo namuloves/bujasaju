@@ -1,0 +1,38 @@
+{
+  "id": "1515", "name": "Jay Hennick", "nameKo": "제이 헤닉",
+  "netWorth": 2.7, "nationality": "CA", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Toronto, Canada", "birthPlaceKo": "캐나다 토론토",
+    "familyBackground": "Born to Canadian family.", "familyBackgroundKo": "캐나다 가정에서 출생.",
+    "education": "University of Ottawa law school.", "educationKo": "오타와 대학교 로스쿨.",
+    "earlyLife": "Founded FirstService Corporation in 1989; spun off Colliers International (commercial real estate) — built two NYSE-listed real-estate/property-services majors.",
+    "earlyLifeKo": "1989년 FirstService Corporation 창립; Colliers International(상업 부동산) 분사 — 두 NYSE 상장 부동산·부동산 서비스 메이저 구축.",
+    "source": "https://en.wikipedia.org/wiki/Jay_Hennick"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "FirstService + Colliers 36년 자수성가." },
+  "careerTimeline": [
+    { "year": 1989, "age": 32, "event": "Founded FirstService Corporation in Toronto.", "eventKo": "토론토에서 FirstService Corporation 창립.", "whyItMatteredKo": "36년 자수성가 출발선." },
+    { "year": 1995, "age": 38, "event": "FirstService IPO; began aggressive property-services acquisitions.", "eventKo": "FirstService IPO; 공격적 부동산 서비스 인수 시작.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2004, "age": 47, "event": "Acquired Colliers International; expanded into global commercial real estate.", "eventKo": "Colliers International 인수; 글로벌 상업 부동산 확장.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2015, "age": 58, "event": "Spun off Colliers International from FirstService; both now NYSE-listed independents.", "eventKo": "FirstService에서 Colliers International 분사; 둘 다 NYSE 상장 독립.", "whyItMatteredKo": "분사 단계." },
+    { "year": 2025, "age": 68, "event": "Personal net worth at $2.7B per Forbes Real-Time. Continues as Colliers chairman.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러. Colliers 의장 계속.", "whyItMatteredKo": "36년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 58, "decisionKo": "FirstService와 Colliers 분사로 두 회사 분리 운영", "alternativeKo": "통합 유지", "outcomeKo": "10년 후 두 NYSE 상장 메이저 보유" }],
+  "moneyMechanics": { "primaryRevenueKo": "FirstService Corporation + Colliers International 창립자 지분", "industryKo": "부동산 서비스 + 부동산 자산 관리", "businessModelKo": "주거 부동산 관리 + 상업 부동산 자문·중개", "moatKo": "36년 부동산 서비스 인프라 + 분사된 두 메이저", "luckVsSkillKo": "운(30%): 미국·캐나다 부동산 부상. 실력(70%): 36년 단일 비전 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of FirstService and Colliers International; major Canadian real-estate-services entrepreneur.",
+    "knownForKo": "FirstService와 Colliers International 창립자; 주요 캐나다 부동산 서비스 기업가.",
+    "philanthropy": "Major patron of University of Ottawa.", "philanthropyKo": "주요 오타와 대학교 후원자.",
+    "controversies": "Standard real-estate-services regulatory and acquisition scrutiny.", "controversiesKo": "표준 부동산 서비스 규제·인수 감시."
+  },
+  "characterKo": { "summaryKo": "토론토 변호사 출신 FirstService + Colliers 두 NYSE 상장사 36년 자수성가.", "tagsKo": ["FirstService", "Colliers International", "캐나다 부동산"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed FirstService property-services demand.", "descriptionKo": "글로벌 금융위기로 FirstService 부동산 서비스 수요 압축.", "lesson": "Property services pro-cyclical with real-estate.", "lessonKo": "부동산 서비스는 부동산 사이클 순응." },
+    { "year": 2020, "description": "COVID-19 disrupted commercial real-estate transactions; Colliers revenue compressed.", "descriptionKo": "COVID-19이 상업 부동산 거래 혼란; Colliers 매출 압축.", "lesson": "Commercial real-estate transactions cyclical.", "lessonKo": "상업 부동산 거래는 주기적." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.6 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Two focused companies beat one diversified one.", "textKo": "초점화된 두 회사가 다각화된 한 회사를 이긴다.", "context": "On FirstService-Colliers spin-off", "contextKo": "FirstService-Colliers 분사에 대해", "source": "https://www.colliers.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Jin day pillar in Chuk month — 'jeongin-gyeok', formal-legal foundation, fitting law-trained property entrepreneur.", "summaryKo": "임진 일주 + 축월 정인격(공식 자격·학문·문서 권위)은 법학 학위 + 36년 부동산 서비스라는 법률·문서 기반 산업과 호응합니다. 임수 일간의 큰 물·유연성이 부동산 서비스 회사 가부장 역할과 통하고, 진토 일지·축토 월지의 토 기운이 부동산 자본의 안정 기반을 가리킵니다." }
+}

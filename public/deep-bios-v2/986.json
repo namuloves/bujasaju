@@ -1,0 +1,39 @@
+{
+  "id": "986", "name": "Baiju Bhatt", "nameKo": "바이주 프라풀쿠마르 바트",
+  "netWorth": 4.2, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Poquoson, Virginia, USA", "birthPlaceKo": "미국 버지니아주 포쿼슨",
+    "familyBackground": "Born to Indian immigrant family in Virginia; father a physicist.", "familyBackgroundKo": "버지니아 인도 이민자 가정에서 출생; 아버지가 물리학자.",
+    "education": "Stanford University (physics + mathematics).", "educationKo": "스탠퍼드 대학교(물리학+수학).",
+    "earlyLife": "Co-founded Robinhood with Vladimir Tenev in 2013 — commission-free stock-trading app; revolutionized retail brokerage.",
+    "earlyLifeKo": "2013 블라드 테네프와 Robinhood 공동 창립 — 수수료 없는 주식 거래 앱; 소매 브로커리지 혁명.",
+    "source": "https://en.wikipedia.org/wiki/Baiju_Bhatt"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Robinhood 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2008, "age": 24, "event": "Met Vladimir Tenev at Stanford.", "eventKo": "스탠퍼드에서 블라드 테네프 만남.", "whyItMatteredKo": "공동 창립자 인맥 출발선." },
+    { "year": 2013, "age": 29, "event": "Co-founded Robinhood Markets Inc.", "eventKo": "Robinhood Markets Inc. 공동 창립.", "whyItMatteredKo": "Robinhood 출발선." },
+    { "year": 2020, "age": 36, "event": "COVID-19 retail-trading boom propelled Robinhood; AUM and users surged.", "eventKo": "COVID-19 소매 거래 붐으로 Robinhood 도약; AUM·사용자 급증.", "whyItMatteredKo": "팬데믹 정점." },
+    { "year": 2021, "age": 37, "event": "Robinhood IPO on NASDAQ; valuation crossed $32B.", "eventKo": "Robinhood 나스닥 IPO; 밸류에이션 320억 달러 돌파.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2025, "age": 41, "event": "Personal net worth at $4.2B per Forbes Real-Time. Stepped down as Robinhood chief creative officer; founded Aetherflux satellite-power startup.", "eventKo": "포브스 실시간 기준 개인 순자산 42억 달러. Robinhood 최고 창의 책임자에서 사임; Aetherflux 위성 전력 스타트업 창립.", "whyItMatteredKo": "Robinhood 자본 + 다음 단계." }
+  ],
+  "turningPoints": [{ "year": 2013, "age": 29, "decisionKo": "Stanford 동료와 무수수료 주식 거래 앱 창립", "alternativeKo": "전통적 금융 경력", "outcomeKo": "12년 후 소매 브로커리지 혁명" }],
+  "moneyMechanics": { "primaryRevenueKo": "Robinhood Markets(NASDAQ) 공동 창립자 지분 + Aetherflux", "industryKo": "핀테크 + 위성 전력", "businessModelKo": "Robinhood 결제 흐름 결제(PFOF) 모델 + 신규 스타트업", "moatKo": "12년 Robinhood 트랙 + Stanford 인맥", "luckVsSkillKo": "운(45%): 2020-2021 GameStop·암호화폐 시기. 실력(55%): 12년 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Robinhood; pioneering commission-free retail brokerage; founder of Aetherflux.",
+    "knownForKo": "Robinhood 공동 창립자; 선구적 무수수료 소매 브로커리지; Aetherflux 창립자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2021 GameStop trading-restriction debacle drew massive public criticism; SEC settlements; payment-for-order-flow business model criticism.",
+    "controversiesKo": "2021 GameStop 거래 제한 사태가 거대 공개 비판 야기; SEC 합의; 주문 흐름 결제 비즈니스 모델 비판."
+  },
+  "characterKo": { "summaryKo": "Stanford 물리학자 출신 Robinhood 공동 창립 + Aetherflux 위성 전력.", "tagsKo": ["Robinhood", "Aetherflux", "Stanford", "PFOF"] },
+  "failures": [
+    { "year": 2021, "description": "Robinhood restricted GameStop trading during meme-stock frenzy; massive public criticism; congressional hearings.", "descriptionKo": "Robinhood가 밈 주식 광풍 동안 GameStop 거래 제한; 거대 공개 비판; 의회 청문회.", "lesson": "Retail brokerages face liquidity-vs-customer-trust tension.", "lessonKo": "소매 브로커리지는 유동성 대 고객 신뢰 긴장 직면." },
+    { "year": 2022, "description": "Robinhood stock fell 80%+ during tech-stock decline; retail-trading boom normalized.", "descriptionKo": "기술주 하락 동안 Robinhood 주가 80%+ 하락; 소매 거래 붐 정상화.", "lesson": "Pandemic-boom valuations face post-cycle compression.", "lessonKo": "팬데믹 붐 밸류에이션은 사이클 후 압축 직면." }
+  ],
+  "wealthHistory": [{ "year": 2021, "netWorth": 2.9 }, { "year": 2022, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 4.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Robinhood democratized finance. The fight over what that means continues.", "textKo": "Robinhood가 금융을 민주화했다. 그것이 무엇을 의미하는지에 대한 다툼은 계속된다.", "context": "On Robinhood mission", "contextKo": "Robinhood 미션에 대해", "source": "https://www.robinhood.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Sa day pillar in Sa month — 'pyeonjae-gyeok', large external wealth, fitting retail-brokerage founder.", "summaryKo": "을사 일주 + 사월 편재격(크고 유동적인 외부 자본)은 소매 브로커리지의 거대 사용자 자본 흐름과 호응합니다. 을목 일간 + 일지·월지 모두 사화의 강한 화 기운이 거래·결단·표현의 거대 에너지를 이중으로 강조합니다." }
+}

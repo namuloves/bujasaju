@@ -1,0 +1,39 @@
+{
+  "id": "1221", "name": "Alan Trefler", "nameKo": "앨런 트레플러",
+  "netWorth": 3.4, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Dartmouth College; chess prodigy who tied for world Open Chess Championship in 1975.", "educationKo": "다트머스 칼리지; 1975 세계 오픈 체스 챔피언십에서 동률을 이룬 체스 신동.",
+    "earlyLife": "Founded Pegasystems in 1983 — business-process management and CRM software firm.",
+    "earlyLifeKo": "1983년 Pegasystems 창립 — 비즈니스 프로세스 관리·CRM 소프트웨어 회사.",
+    "source": "https://en.wikipedia.org/wiki/Pegasystems"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Pegasystems 42년 자수성가." },
+  "careerTimeline": [
+    { "year": 1983, "age": 27, "event": "Founded Pegasystems in Cambridge, Massachusetts.", "eventKo": "매사추세츠 케임브리지에서 Pegasystems 창립.", "whyItMatteredKo": "42년 자수성가 출발선." },
+    { "year": 1996, "age": 40, "event": "Pegasystems IPO on NASDAQ.", "eventKo": "Pegasystems 나스닥 IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2010, "age": 54, "event": "Pegasystems pivoted to cloud-based BPM and customer-engagement software.", "eventKo": "Pegasystems가 클라우드 기반 BPM·고객 참여 소프트웨어로 피벗.", "whyItMatteredKo": "클라우드 단계." },
+    { "year": 2020, "age": 64, "event": "Pegasystems revenue exceeded $1B; AI-powered customer-decision platform.", "eventKo": "Pegasystems 매출 10억 달러 초과; AI 기반 고객 결정 플랫폼.", "whyItMatteredKo": "AI 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $3.4B per Forbes Real-Time. Continues as Pegasystems CEO.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러. Pegasystems CEO 계속.", "whyItMatteredKo": "42년 자수성가 정점." }
+  ],
+  "turningPoints": [{ "year": 1983, "age": 27, "decisionKo": "체스 신동에서 소프트웨어 창업으로 전환", "alternativeKo": "체스 또는 다른 경력", "outcomeKo": "42년 후 엔터프라이즈 BPM 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Pegasystems Inc.(NASDAQ 상장) 창립자 지분", "industryKo": "엔터프라이즈 소프트웨어(BPM·CRM)", "businessModelKo": "BPM + 고객 결정 자동화 + AI", "moatKo": "42년 엔터프라이즈 BPM 시장 + 창립자 통제", "luckVsSkillKo": "운(25%): 1980-2020 엔터프라이즈 소프트웨어 부상. 실력(75%): 42년 단일 회사 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of Pegasystems; former co-world Open Chess Champion (1975); enterprise-software pioneer.",
+    "knownForKo": "Pegasystems 창립자·CEO; 전 세계 오픈 체스 공동 챔피언(1975); 엔터프라이즈 소프트웨어 선구자.",
+    "philanthropy": "Trefler Foundation supports global education, especially in Africa.", "philanthropyKo": "Trefler 재단이 글로벌 교육 지원, 특히 아프리카.",
+    "controversies": "2020s patent-infringement litigation against Appian ($2B verdict, later overturned); shareholder activist pressure.",
+    "controversiesKo": "2020년대 Appian에 대한 특허 침해 소송(20억 달러 평결, 이후 뒤집힘); 주주 행동가 압박."
+  },
+  "characterKo": { "summaryKo": "체스 신동 출신 Pegasystems 42년 자수성가 CEO.", "tagsKo": ["Pegasystems", "체스 신동", "42년 CEO"] },
+  "failures": [
+    { "year": 2022, "description": "Appian patent-infringement verdict awarded $2B against Pegasystems (later overturned but lasting reputational damage).", "descriptionKo": "Pegasystems에 20억 달러 평결한 Appian 특허 침해(이후 뒤집힘 — 지속 평판 손상).", "lesson": "Enterprise-software IP litigation creates multi-year overhang.", "lessonKo": "엔터프라이즈 소프트웨어 IP 소송이 다년간 부담 야기." },
+    { "year": 2023, "description": "Pegasystems stock fell 50%+ during tech-stock decline; growth concerns.", "descriptionKo": "기술주 하락 동안 Pegasystems 주가 50%+ 하락; 성장 우려.", "lesson": "Mature enterprise SaaS sensitive to growth-rate cycle.", "lessonKo": "성숙 엔터프라이즈 SaaS는 성장률 사이클에 민감." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.8 }, { "year": 2020, "netWorth": 4.5 }, { "year": 2022, "netWorth": 2.3 }, { "year": 2024, "netWorth": 3.2 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Chess and software both reward planning multiple moves ahead.", "textKo": "체스와 소프트웨어 모두 여러 수 앞을 계획하는 것에 보상한다.", "context": "On chess + software", "contextKo": "체스 + 소프트웨어에 대해", "source": "https://www.pega.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Ja day pillar in Myo month — 'jeongjae-gyeok', steady accumulation, fitting software CEO with strategic mind.", "summaryKo": "병자 일주 + 묘월 정재격(고정 자산·꾸준한 매출)은 42년 엔터프라이즈 소프트웨어 구독 매출이라는 안정 누적 모델과 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 회사 가부장과 통하고, 자수 일지의 수 기운이 자본 유동성을, 묘목 월지의 목 기운이 회사의 누적 성장을 가리킵니다." }
+}

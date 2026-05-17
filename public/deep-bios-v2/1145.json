@@ -1,0 +1,38 @@
+{
+  "id": "1145", "name": "Fernando Chico Pardo", "nameKo": "페르난도 치코 파르도",
+  "netWorth": 3.6, "nationality": "MX", "industry": "Service",
+  "childhood": {
+    "birthPlace": "Mexico", "birthPlaceKo": "멕시코",
+    "familyBackground": "Born to Mexican family.", "familyBackgroundKo": "멕시코 가정에서 출생.",
+    "education": "Mexican higher education.", "educationKo": "멕시코 고등교육.",
+    "earlyLife": "Worked with Carlos Slim at Inbursa; founded ASUR (Mexican airport operator); built private equity firm Promecap.",
+    "earlyLifeKo": "Inbursa에서 카를로스 슬림과 근무; ASUR(멕시코 공항 운영사) 창립; 사모펀드 회사 Promecap 구축.",
+    "source": "https://en.wikipedia.org/wiki/Fernando_Chico_Pardo"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "ASUR + Promecap 30년 자수성가." },
+  "careerTimeline": [
+    { "year": 1980, "age": 28, "event": "Began career at Grupo Inbursa (Carlos Slim's financial group).", "eventKo": "Grupo Inbursa(카를로스 슬림 금융 그룹) 경력 시작.", "whyItMatteredKo": "Slim 인맥 경력." },
+    { "year": 1998, "age": 46, "event": "Founded ASUR — Southeast Mexico airport operator (9 airports including Cancun).", "eventKo": "ASUR 창립 — 남동 멕시코 공항 운영사(칸쿤 포함 9개 공항).", "whyItMatteredKo": "ASUR 출발선." },
+    { "year": 2000, "age": 48, "event": "ASUR IPO on NYSE/BMV.", "eventKo": "ASUR NYSE/BMV IPO.", "whyItMatteredKo": "공개 시장 단계." },
+    { "year": 2010, "age": 58, "event": "Founded Promecap private equity firm; expanded Mexican PE investments.", "eventKo": "Promecap 사모펀드 회사 창립; 멕시코 PE 투자 확장.", "whyItMatteredKo": "PE 단계." },
+    { "year": 2025, "age": 73, "event": "Personal net worth at $3.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 36억 달러.", "whyItMatteredKo": "ASUR + Promecap 정점." }
+  ],
+  "turningPoints": [{ "year": 1998, "age": 46, "decisionKo": "ASUR 멕시코 공항 양허 인수", "alternativeKo": "Slim 그룹 잔류", "outcomeKo": "27년 후 멕시코 공항 1위 운영사 + PE" }],
+  "moneyMechanics": { "primaryRevenueKo": "ASUR(BMV/NYSE 상장) 지분 + Promecap PE", "industryKo": "공항 인프라 + PE", "businessModelKo": "공항 양허 + 면세점 + 멕시코 PE", "moatKo": "27년 ASUR 9개 공항 양허 + Slim 인맥", "luckVsSkillKo": "운(45%): 1998 멕시코 공항 민영화 시기. 실력(55%): 27년 양허 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of ASUR (Mexican airport operator); founder of Promecap PE; former Slim group executive.",
+    "knownForKo": "ASUR(멕시코 공항 운영사) 창립자; Promecap PE 창립자; 전 Slim 그룹 임원.",
+    "philanthropy": "Supports Mexican education.", "philanthropyKo": "멕시코 교육 지원.",
+    "controversies": "Limited; standard Mexican infrastructure-concession scrutiny.", "controversiesKo": "제한적; 표준 멕시코 인프라 양허 감시."
+  },
+  "characterKo": { "summaryKo": "Slim 출신 ASUR + Promecap 27년 자수성가.", "tagsKo": ["ASUR", "Promecap", "멕시코 공항"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 collapsed airport-passenger traffic; ASUR revenue plunged.", "descriptionKo": "COVID-19이 공항 여객 통행량 붕괴; ASUR 매출 급락.", "lesson": "Airport operators face maximum pandemic exposure.", "lessonKo": "공항 운영자는 최대 팬데믹 노출." },
+    { "year": 2017, "description": "Mexican peso volatility affected ASUR dollar-denominated revenue.", "descriptionKo": "멕시코 페소 변동성이 ASUR 달러 표시 매출 영향.", "lesson": "Emerging-market infrastructure faces currency risk.", "lessonKo": "신흥 시장 인프라 통화 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.4 }, { "year": 2025, "netWorth": 3.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Airports are infrastructure that returns to the same place.", "textKo": "공항은 같은 곳으로 돌아오는 인프라다.", "context": "On ASUR business", "contextKo": "ASUR 사업에 대해", "source": "https://www.asur.com.mx" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Shin-Myo day pillar in In month — 'sanggwan-gyeok', creative output, fitting concession-and-PE entrepreneur.", "summaryKo": "신묘 일주 + 인월 상관격(창의적 결과물·표현)은 ASUR 공항 양허 + Promecap PE라는 끊임없는 결과물 창출과 호응합니다. 신금 일간의 예리한 금속 기질이 양허·PE 거래의 정밀함과 통하고, 묘목 일지·인목 월지의 강한 목 기운이 회사·자본의 누적 성장을 가리킵니다." }
+}

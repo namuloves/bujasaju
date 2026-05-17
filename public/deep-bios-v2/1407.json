@@ -1,0 +1,39 @@
+{
+  "id": "1407", "name": "Ge Weidong", "nameKo": "거웨이둥",
+  "netWorth": 2.9, "nationality": "HK", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Chinese higher education.", "educationKo": "중국 고등교육.",
+    "earlyLife": "Founded Shanghai Chaos Investment in 2005 — major Chinese commodity hedge fund and proprietary trader.",
+    "earlyLifeKo": "2005년 상하이 Chaos Investment 창립 — 주요 중국 원자재 헤지펀드·자기 자본 거래.",
+    "source": "https://www.forbes.com/profile/ge-weidong/"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Chaos Investment 20년 자수성가." },
+  "careerTimeline": [
+    { "year": 1990, "age": 21, "event": "Began Chinese commodity-trading career.", "eventKo": "중국 원자재 거래 경력 시작.", "whyItMatteredKo": "거래 출발선." },
+    { "year": 2005, "age": 36, "event": "Founded Shanghai Chaos Investment.", "eventKo": "상하이 Chaos Investment 창립.", "whyItMatteredKo": "Chaos 출발선." },
+    { "year": 2015, "age": 46, "event": "Chaos became major Chinese commodity hedge fund with multi-billion AUM.", "eventKo": "Chaos가 수십억 AUM의 주요 중국 원자재 헤지펀드가 됨.", "whyItMatteredKo": "메이저 단계." },
+    { "year": 2020, "age": 51, "event": "Chinese commodity supercycle boosted Chaos returns; expanded global presence.", "eventKo": "중국 원자재 슈퍼사이클로 Chaos 수익 부스트; 글로벌 입지 확장.", "whyItMatteredKo": "정점 단계." },
+    { "year": 2025, "age": 56, "event": "Personal net worth at $2.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러.", "whyItMatteredKo": "Chaos 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 36, "decisionKo": "Chaos Investment 원자재 헤지펀드 창립", "alternativeKo": "거래자 잔류", "outcomeKo": "20년 후 주요 중국 원자재 헤지펀드 메이저" }],
+  "moneyMechanics": { "primaryRevenueKo": "Shanghai Chaos Investment 창립자 지분 + carry", "industryKo": "헤지펀드(원자재)", "businessModelKo": "중국 원자재 자기 자본 거래 + 헤지펀드", "moatKo": "20년 중국 원자재 거래 인맥", "luckVsSkillKo": "운(40%): 중국 원자재 슈퍼사이클. 실력(60%): 20년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Shanghai Chaos Investment; major Chinese commodity hedge-fund trader.",
+    "knownForKo": "상하이 Chaos Investment 창립자; 주요 중국 원자재 헤지펀드 거래자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Chinese hedge-fund regulatory scrutiny; commodity-market manipulation investigations across industry.",
+    "controversiesKo": "중국 헤지펀드 규제 감시; 산업 전반 원자재 시장 조작 조사."
+  },
+  "characterKo": { "summaryKo": "중국 원자재 거래자 출신 Chaos Investment 20년 자수성가.", "tagsKo": ["Chaos Investment", "중국 원자재 헤지펀드"] },
+  "failures": [
+    { "year": 2015, "description": "Chinese stock-market crash compressed Chaos performance.", "descriptionKo": "중국 주식 시장 붕괴로 Chaos 성과 압축.", "lesson": "Chinese hedge funds face systemic-cycle.", "lessonKo": "중국 헤지펀드는 체계적 사이클 직면." },
+    { "year": 2022, "description": "Chinese commodity-trading regulatory tightening pressured fund operations.", "descriptionKo": "중국 원자재 거래 규제 강화가 펀드 운영 압박.", "lesson": "Chinese commodities face regulatory cycle.", "lessonKo": "중국 원자재 규제 사이클 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2022, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.7 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Chinese commodities move with policy and weather.", "textKo": "중국 원자재는 정책과 날씨와 함께 움직인다.", "context": "On commodity trading", "contextKo": "원자재 거래에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Mi day pillar in Chuk month — 'pyeon-in-gyeok', creative intuition, fitting commodity-trader founder.", "summaryKo": "정미 일주 + 축월 편인격(독학·창의적 직관)은 원자재 거래자에서 헤지펀드 창립자로 전환한 직관적 결단과 호응합니다. 정화 일간의 따뜻한 불 기질이 헤지펀드 결단·표현과 통하고, 미토 일지·축토 월지의 토 기운이 자본의 안정 기반을 가리킵니다." }
+}

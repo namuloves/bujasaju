@@ -1,0 +1,40 @@
+{
+  "id": "726", "name": "Naguib Sawiris", "nameKo": "나기브 온시 사위리스",
+  "netWorth": 5.5, "nationality": "EG", "industry": "Telecom",
+  "childhood": {
+    "birthPlace": "Cairo, Egypt", "birthPlaceKo": "이집트 카이로",
+    "familyBackground": "Born to Onsi Sawiris — Egyptian Christian construction magnate; brother of Nassef and Samih Sawiris.", "familyBackgroundKo": "이집트 기독교인 건설 거물 온시 사위리스의 아들; 나세프·사미흐 사위리스의 형제.",
+    "education": "Cairo American College; ETH Zurich.", "educationKo": "카이로 아메리칸 칼리지; ETH 취리히.",
+    "earlyLife": "Joined family Orascom; built Orascom Telecom Holding (covered Egypt, Algeria, Pakistan, Bangladesh, Tunisia, Zimbabwe); later sold to VimpelCom for $6.6B in 2011.",
+    "earlyLifeKo": "가족 Orascom 합류; Orascom Telecom Holding 구축(이집트·알제리·파키스탄·방글라데시·튀니지·짐바브웨); 2011년 VimpelCom에 66억 달러 매각.",
+    "source": "https://en.wikipedia.org/wiki/Naguib_Sawiris"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Orascom Telecom 매각 + 가족 사업 일부 상속." },
+  "careerTimeline": [
+    { "year": 1979, "age": 25, "event": "Joined family Orascom Construction after ETH Zurich.", "eventKo": "ETH 취리히 후 가족 Orascom Construction 합류.", "whyItMatteredKo": "사업 진입." },
+    { "year": 1998, "age": 44, "event": "Founded Orascom Telecom Holding; began emerging-market mobile expansion.", "eventKo": "Orascom Telecom Holding 창립; 신흥 시장 모바일 확장 시작.", "whyItMatteredKo": "텔레콤 출발선." },
+    { "year": 2011, "age": 57, "event": "Sold Orascom Telecom to VimpelCom for $6.6B; major exit.", "eventKo": "Orascom Telecom을 VimpelCom에 66억 달러 매각; 주요 엑시트.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2014, "age": 60, "event": "Active investor in Egyptian and Italian media; founded Free Egyptians Party.", "eventKo": "이집트·이탈리아 미디어 적극 투자자; Free Egyptians Party 창립.", "whyItMatteredKo": "미디어·정치 단계." },
+    { "year": 2025, "age": 71, "event": "Personal net worth at $5.5B per Forbes Real-Time. Active in mining, media, Egyptian politics.", "eventKo": "포브스 실시간 기준 개인 순자산 55억 달러. 광업·미디어·이집트 정치 활발.", "whyItMatteredKo": "엑시트 + 다각화 정점." }
+  ],
+  "turningPoints": [{ "year": 2011, "age": 57, "decisionKo": "Orascom Telecom 66억 달러 매각", "alternativeKo": "운영 잔류", "outcomeKo": "엑시트 + 정치·미디어 자본가" }],
+  "moneyMechanics": { "primaryRevenueKo": "Orascom Telecom 매각 대금 + La7 미디어 + Endeavour Mining + Orascom 가족 지분", "industryKo": "텔레콤 매각 후 미디어·광업·다각화", "businessModelKo": "Orascom 매각 대금 + 이탈리아·이집트 미디어 + 금광 + 정치", "moatKo": "텔레콤 매각 대금 + Sawiris 가족 인맥", "luckVsSkillKo": "운(40%): 신흥 시장 모바일 부상 + 매각 타이밍. 실력(60%): 신흥 시장 모바일 확장 + 엑시트 결단." },
+  "personalTraits": {
+    "knownFor": "Former CEO of Orascom Telecom; sold to VimpelCom for $6.6B; founder of Free Egyptians Party; major Egyptian media owner.",
+    "knownForKo": "전 Orascom Telecom CEO; VimpelCom에 66억 달러 매각; Free Egyptians Party 창립자; 주요 이집트 미디어 소유주.",
+    "philanthropy": "Sawiris Foundation supports Egyptian Coptic Christian community.",
+    "philanthropyKo": "Sawiris 재단이 이집트 콥트 기독교 공동체 지원.",
+    "controversies": "VimpelCom merger creation called 'global telecom roll-up'; 2011 Egyptian politics divisive; Orascom Construction tax disputes.",
+    "controversiesKo": "VimpelCom 합병이 '글로벌 텔레콤 롤업'으로 불림; 2011 이집트 정치 분열적; Orascom Construction 세금 분쟁."
+  },
+  "characterKo": { "summaryKo": "Sawiris 가족 + Orascom Telecom 66억 달러 매각 + 이집트 정치 활동가.", "tagsKo": ["Orascom Telecom", "Sawiris 가족", "Free Egyptians Party"] },
+  "failures": [
+    { "year": 2011, "description": "Egyptian Arab Spring upended Sawiris political positioning; Free Egyptians Party limited.", "descriptionKo": "이집트 아랍의 봄이 사위리스의 정치 위치 뒤집음; Free Egyptians Party 제한적.", "lesson": "Business-political entanglement faces regime-cycle exposure.", "lessonKo": "사업·정치 얽힘은 정권 사이클 노출 직면." },
+    { "year": 2020, "description": "Endeavour Mining gold-mining investments faced operational disruptions in Africa.", "descriptionKo": "Endeavour Mining 금광 투자가 아프리카 운영 혼란 직면.", "lesson": "Single-region resource exposure faces operational risk.", "lessonKo": "단일 지역 자원 노출은 운영 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.4 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 5.3 }, { "year": 2025, "netWorth": 5.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Emerging markets are not where you wait. They're where you arrive first.", "textKo": "신흥 시장은 기다리는 곳이 아니다. 먼저 도착하는 곳이다.", "context": "On Orascom emerging-market strategy", "contextKo": "Orascom 신흥 시장 전략에 대해", "source": "https://www.orascom.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-In day pillar in O month — 'pyeon-in-gyeok', creative intuition, fitting emerging-market telecom pioneer.", "summaryKo": "임인 일주 + 오월 편인격(독학·창의적 직관)은 비전형적 신흥 시장(파키스탄·짐바브웨 등)에 일찍 진입한 그의 직관적 결단과 호응합니다. 임수 일간의 큰 물·유연성이 글로벌 텔레콤 회사 가부장 역할과 통하고, 인목 일지의 목 기운이 텔레콤 회사의 빠른 성장을 가리키며, 오화 월지의 화 기운이 정치·미디어 표현 욕구를 강조합니다." }
+}

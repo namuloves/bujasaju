@@ -1,0 +1,39 @@
+{
+  "id": "1206", "name": "Ankur Jain", "nameKo": "앙쿠르 자인",
+  "netWorth": 3.4, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Naveen Jain — Indian-American tech entrepreneur (Infospace, Moon Express, Viome).", "familyBackgroundKo": "인도·미국 기술 기업가(Infospace·Moon Express·Viome) 나빈 자인의 아들.",
+    "education": "Wharton (Penn).", "educationKo": "와튼(펜).",
+    "earlyLife": "Built early-career VC/PE; founded Bilt Rewards in 2021 — rent-payment rewards platform; married actress Erika Hammond.",
+    "earlyLifeKo": "초기 경력 VC/PE 구축; 2021 Bilt Rewards 창립 — 임대료 결제 보상 플랫폼; 배우 에리카 해먼드와 결혼.",
+    "source": "https://www.biltrewards.com"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "Naveen Jain 가족 + Bilt Rewards 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2008, "age": 18, "event": "Began Kairos Society young-entrepreneur network at Wharton.", "eventKo": "와튼에서 Kairos Society 젊은 기업가 네트워크 시작.", "whyItMatteredKo": "인맥 출발선." },
+    { "year": 2015, "age": 25, "event": "Joined Tinder as VP; helped scale dating app.", "eventKo": "Tinder VP로 합류; 데이팅 앱 확장 도움.", "whyItMatteredKo": "Tinder 단계." },
+    { "year": 2021, "age": 31, "event": "Founded Bilt Rewards; raised funding at $1.5B+ valuation.", "eventKo": "Bilt Rewards 창립; 15억 달러+ 밸류에이션 자금 조달.", "whyItMatteredKo": "Bilt 출발선." },
+    { "year": 2024, "age": 34, "event": "Bilt valuation crossed $3B; major partnerships with banks and landlords.", "eventKo": "Bilt 밸류에이션 30억 달러 돌파; 은행·지주와 주요 파트너십.", "whyItMatteredKo": "유니콘 단계." },
+    { "year": 2025, "age": 35, "event": "Personal net worth at $3.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러.", "whyItMatteredKo": "Bilt Rewards 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2021, "age": 31, "decisionKo": "Bilt Rewards 임대료 결제 보상 플랫폼 창립", "alternativeKo": "Tinder 잔류", "outcomeKo": "4년 후 30억 달러+ 유니콘 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Bilt Rewards 창립자 지분(비공개) + 다각화 투자", "industryKo": "핀테크·로열티 프로그램", "businessModelKo": "임대료 신용카드 보상 + 은행·지주 파트너십", "moatKo": "임대료 결제 신용카드 시장 선점 + Wells Fargo 파트너십", "luckVsSkillKo": "운(45%): 2021 핀테크 황금기. 실력(55%): Bilt 비즈니스 모델 + 가족 인맥." },
+  "personalTraits": {
+    "knownFor": "Founder of Bilt Rewards; son of Naveen Jain; former Tinder executive; young fintech entrepreneur.",
+    "knownForKo": "Bilt Rewards 창립자; 나빈 자인의 아들; 전 Tinder 임원; 젊은 핀테크 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "WSJ 2024 investigation alleged Bilt was losing money on each transaction; growth-rate sustainability questioned.",
+    "controversiesKo": "WSJ 2024 조사가 Bilt가 거래당 손실 의혹; 성장률 지속 가능성 의문."
+  },
+  "characterKo": { "summaryKo": "Naveen Jain의 아들 + Bilt Rewards 31세 창립.", "tagsKo": ["Bilt Rewards", "Wharton", "젊은 핀테크"] },
+  "failures": [
+    { "year": 2024, "description": "WSJ exposed Bilt's unsustainable unit economics; Wells Fargo partnership questioned.", "descriptionKo": "WSJ가 Bilt의 지속 불가 단위 경제 폭로; Wells Fargo 파트너십 의문.", "lesson": "Loyalty platforms face unit-economics scrutiny.", "lessonKo": "로열티 플랫폼은 단위 경제 감시 직면." },
+    { "year": 2022, "description": "Tech-stock decline compressed private fintech valuations briefly.", "descriptionKo": "기술주 하락으로 비공개 핀테크 밸류에이션 잠시 압축.", "lesson": "Private fintech valuations track public market.", "lessonKo": "비공개 핀테크 밸류에이션은 공개 시장 추적." }
+  ],
+  "wealthHistory": [{ "year": 2023, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Rent is the largest monthly expense most people pay with no rewards.", "textKo": "임대료는 대부분 사람이 보상 없이 지불하는 최대 월간 비용이다.", "context": "On Bilt Rewards", "contextKo": "Bilt Rewards에 대해", "source": "https://www.biltrewards.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-O day pillar in In month — 'siksin-gyeok', creative output, fitting young fintech founder.", "summaryKo": "병오 일주 + 인월 식신격(창의적 결과물·표현)은 임대료 결제 보상이라는 비전형적 핀테크 결과물을 만든 그의 창의성과 호응합니다. 병화 일간 + 오화 일지의 강한 화 기운이 젊은 창립자의 표현·결단 에너지를 가리키고, 인목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}
