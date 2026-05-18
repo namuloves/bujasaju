@@ -23,6 +23,32 @@ function normalizePhotoUrl(url: string | undefined | null, name: string): string
 
 const USD_TO_KRW = 1480.71;
 
+// Five-element gradients keyed by day stem (천간).
+// 목(wood)·화(fire)·토(earth)·금(metal)·수(water).
+const ILJU_GRADIENT: Record<string, string> = {
+  // 목 — 갑·을
+  '갑': 'linear-gradient(116deg, #00C74C 7.97%, #0A9D42 100%)',
+  '을': 'linear-gradient(116deg, #00C74C 7.97%, #0A9D42 100%)',
+  // 화 — 병·정
+  '병': 'linear-gradient(113deg, #D66340 0%, #EF714A 100%)',
+  '정': 'linear-gradient(113deg, #D66340 0%, #EF714A 100%)',
+  // 토 — 무·기
+  '무': 'linear-gradient(105deg, #EC9212 0%, #F2A02C 151.02%)',
+  '기': 'linear-gradient(105deg, #EC9212 0%, #F2A02C 151.02%)',
+  // 금 — 경·신
+  '경': 'linear-gradient(109deg, #A1A1A1 2.57%, #828282 97.43%)',
+  '신': 'linear-gradient(109deg, #A1A1A1 2.57%, #828282 97.43%)',
+  // 수 — 임·계
+  '임': 'linear-gradient(113deg, #005A92 -6.33%, #1B8ACF 116.68%)',
+  '계': 'linear-gradient(113deg, #005A92 -6.33%, #1B8ACF 116.68%)',
+};
+
+const ILJU_TEXT_STYLE = {
+  backgroundClip: 'text',
+  WebkitBackgroundClip: 'text',
+  WebkitTextFillColor: 'transparent',
+} as const;
+
 function shortName(person: EnrichedPerson, isKo: boolean): string {
   const raw = isKo ? (person.nameKo ?? person.name) : person.name;
   const parts = raw.split(' ');
@@ -65,8 +91,22 @@ export default function CleanMiniCard({ person }: Props) {
         />
       </div>
       <div className="mt-2.5 px-0.5">
-        <h4 className="text-[13px] font-semibold text-gray-900 leading-tight truncate">
-          {name}
+        <h4 className="text-[13px] leading-tight truncate">
+          <span className="font-semibold text-gray-900">{name}</span>
+          {person.saju?.ilju && (
+            <>
+              <span className="font-normal text-gray-300"> · </span>
+              <span
+                className="font-semibold"
+                style={{
+                  backgroundImage: ILJU_GRADIENT[person.saju.ilju[0]],
+                  ...ILJU_TEXT_STYLE,
+                }}
+              >
+                {person.saju.ilju}
+              </span>
+            </>
+          )}
         </h4>
         <p className="text-[11px] text-gray-500 mt-0.5 truncate">
           {person.source ? `${person.source} · ` : ''}{netWorth}

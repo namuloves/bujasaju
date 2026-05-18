@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useState, useDeferredValue, type ReactNode } from 'react';
-import { useEnrichedPeople, getUniqueNationalities, getUniqueIndustries } from '@/lib/data/enriched';
+import { useEnrichedPeople, getUniqueNationalities, getUniqueIndustries, getIljusGroupedByStem } from '@/lib/data/enriched';
 import CURATED_SECTIONS, { isMissingOhaeng } from '@/components/browse/curatedSections';
 import type { OHaeng } from '@/lib/saju/types';
 import type { Filters } from '@/components/FilterPanel';
@@ -187,6 +187,7 @@ export default function CleanBrowseView({ nav }: Props = {}) {
         onChange={updateFilters}
         availableNationalities={getUniqueNationalities(people)}
         availableIndustries={getUniqueIndustries(people)}
+        availableIljus={getIljusGroupedByStem(people)}
         filteredCount={inFilteredMode ? filtered.length : people.length}
         totalCount={people.length}
       />

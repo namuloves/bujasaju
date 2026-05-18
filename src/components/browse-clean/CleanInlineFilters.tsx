@@ -18,6 +18,7 @@ interface Props {
   onChange: (next: Filters) => void;
   availableNationalities: string[];
   availableIndustries: string[];
+  availableIljus: Array<{ stem: string; ohaeng: string; iljus: string[] }>;
   filteredCount: number;
   totalCount: number;
 }
@@ -100,9 +101,8 @@ const ILGAN_OPTIONS = [
   { value: '계', label: '계', emoji: '💧' },
 ];
 
-const WOLJI_OPTIONS = [
-  '인', '묘', '진', '사', '오', '미', '신', '유', '술', '해', '자', '축',
-].map((v) => ({ value: v, label: v }));
+// 천간 order for 일주 grouping in the dropdown.
+const ILJU_STEM_ORDER = ['갑', '을', '병', '정', '무', '기', '경', '신', '임', '계'];
 
 const MISSING_OPTIONS = [
   { value: '목', label: '목' },
@@ -117,6 +117,7 @@ export default function CleanInlineFilters({
   onChange,
   availableNationalities,
   availableIndustries,
+  availableIljus,
   filteredCount,
   totalCount,
 }: Props) {
@@ -158,6 +159,16 @@ export default function CleanInlineFilters({
     value: ind,
     label: isKo ? industryToKorean(ind) : ind,
   }));
+
+  // Flatten 일주 options grouped by stem in canonical 천간 order:
+  // 갑 → 을 → 병 → 정 → 무 → 기 → 경 → 신 → 임 → 계, with each
+  // stem's 일주 list kept in 지지 order (provided by availableIljus).
+  const iljuByStem = new Map(availableIljus.map((g) => [g.stem, g]));
+  const iljuOptions = ILJU_STEM_ORDER.flatMap((stem) => {
+    const group = iljuByStem.get(stem);
+    if (!group) return [];
+    return group.iljus.map((ilju) => ({ value: ilju, label: ilju }));
+  });
 
   return (
     <section
@@ -242,13 +253,15 @@ export default function CleanInlineFilters({
             visible={5}
           />
         </div>
-        <div className="flex-[1.1_1.1_0%] min-w-0">
-          <InlineRow
-            label={isKo ? '월지' : 'Branch'}
-            options={WOLJI_OPTIONS}
-            active={filters.wolji}
-            onPick={(v) => update('wolji', v)}
-            visible={6}
+        <div className="flex-[1.1_1.1_0%] min-w-0 flex items-center gap-2">
+          <span className="text-[11px] font-semibold text-gray-500 whitespace-nowrap shrink-0">
+            {isKo ? '일주' : 'Day Pillar'}
+          </span>
+          <InlineDropdown
+            placeholder={isKo ? `전체 ${iljuOptions.length}개 일주` : `All ${iljuOptions.length} day pillars`}
+            value={filters.ilju}
+            options={iljuOptions}
+            onChange={(v) => update('ilju', v)}
           />
         </div>
       </div>
