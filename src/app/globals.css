@@ -68,3 +68,20 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+/* Billionaire ticker marquee — element is rendered twice and we translate by
+   -50% so the wrap-around is seamless. Slower on desktop, faster on small
+   screens where less width is visible at a time. */
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.ticker-marquee {
+  animation: ticker-scroll 75s linear infinite;
+}
+@media (min-width: 640px) {
+  .ticker-marquee { animation-duration: 90s; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker-marquee { animation: none; }
+}
