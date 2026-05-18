@@ -1,0 +1,39 @@
+{
+  "id": "1186", "name": "Palmer Luckey", "nameKo": "파머 프리먼 러키",
+  "netWorth": 3.5, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Long Beach, California, USA", "birthPlaceKo": "미국 캘리포니아주 롱비치",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "California State University Long Beach (left).", "educationKo": "캘리포니아 주립대 롱비치(중퇴).",
+    "earlyLife": "Founded Oculus VR in 2012; sold to Facebook for $2B 2014; fired from Facebook 2017 amid political controversy; founded Anduril Industries defense-tech 2017.",
+    "earlyLifeKo": "2012 Oculus VR 창립; 2014 Facebook에 20억 달러 매각; 2017 정치 논쟁 가운데 Facebook 해고; 2017 Anduril Industries 국방 기술 창립.",
+    "source": "https://en.wikipedia.org/wiki/Palmer_Luckey"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Oculus 매각 + Anduril." },
+  "careerTimeline": [
+    { "year": 2010, "age": 18, "event": "Built VR headset prototypes in parents' garage.", "eventKo": "부모 차고에서 VR 헤드셋 프로토타입 제작.", "whyItMatteredKo": "VR 출발선." },
+    { "year": 2012, "age": 19, "event": "Founded Oculus VR with Brendan Iribe.", "eventKo": "브렌든 이라이브와 Oculus VR 창립.", "whyItMatteredKo": "Oculus 출발선." },
+    { "year": 2014, "age": 21, "event": "Sold Oculus to Facebook for $2B.", "eventKo": "Oculus를 Facebook에 20억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2017, "age": 24, "event": "Fired by Facebook; founded Anduril Industries defense-tech.", "eventKo": "Facebook 해고; Anduril Industries 국방 기술 창립.", "whyItMatteredKo": "Anduril 출발선." },
+    { "year": 2025, "age": 32, "event": "Anduril valued $14B+; personal net worth at $3.5B per Forbes Real-Time.", "eventKo": "Anduril 140억+ 달러 밸류에이션; 포브스 실시간 기준 개인 순자산 35억 달러.", "whyItMatteredKo": "Anduril 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 24, "decisionKo": "Facebook 해고 후 국방 기술 Anduril 창립", "alternativeKo": "전형 기술 잔류", "outcomeKo": "8년 후 35억 달러 + 미국 국방 AI 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Oculus 매각 대금 + Anduril 창립자 지분 + 다각화", "industryKo": "VR + 국방 기술·AI", "businessModelKo": "Oculus 매각 자본 + Anduril 국방 AI·자율 무기 + 미군 계약", "moatKo": "Anduril 국방 AI 시장 선점 + Lattice OS + 미군 인맥", "luckVsSkillKo": "운(35%): VR 부상 시기. 실력(65%): 19세 Oculus + 24세 Anduril 다중 창업." },
+  "personalTraits": {
+    "knownFor": "Founder of Oculus VR; founder/owner of Anduril Industries; outspoken defense-tech entrepreneur.",
+    "knownForKo": "Oculus VR 창립자; Anduril Industries 창립자·소유주; 노골적 국방 기술 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2016-2017 'Nimble America' political-meme funding controversy led to Facebook firing; Anduril border-surveillance criticized.",
+    "controversiesKo": "2016-2017 'Nimble America' 정치 밈 자금 논쟁이 Facebook 해고 야기; Anduril 국경 감시 비판."
+  },
+  "characterKo": { "summaryKo": "Oculus + Anduril 미국 국방 AI 다중 창업.", "tagsKo": ["Oculus VR", "Anduril Industries", "국방 AI"] },
+  "failures": [
+    { "year": 2017, "description": "Fired from Facebook over political-meme controversy; lost VR-platform role.", "descriptionKo": "정치 밈 논쟁으로 Facebook 해고; VR 플랫폼 역할 상실.", "lesson": "Founder political stances can override corporate role.", "lessonKo": "창립자 정치 입장은 기업 역할을 무시할 수 있다." },
+    { "year": 2024, "description": "Anduril Roadrunner missile/drone systems faced US Air Force testing setbacks.", "descriptionKo": "Anduril Roadrunner 미사일·드론 시스템이 미 공군 시험 차질 직면.", "lesson": "Defense-tech faces military-procurement reliability risk.", "lessonKo": "국방 기술은 군 조달 신뢰성 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.7 }, { "year": 2020, "netWorth": 1.0 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Software-defined war is the next decade's defense.", "textKo": "소프트웨어 정의 전쟁은 다음 10년의 국방이다.", "context": "On Anduril mission", "contextKo": "Anduril 미션에 대해", "source": "https://www.anduril.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Sul day pillar in Yu month — 'sanggwan-gyeok', unconventional output, fitting VR-to-defense-AI maverick founder.", "summaryKo": "무술 일주 + 유월 상관격(파격적 표현·기존 권위 도전)은 VR에서 국방 AI라는 파격 전환과 기존 국방 산업 권위에 도전한 그의 경로와 호응합니다. 무토 일간 + 술토 일지의 강한 토 기운이 자본 안정 기반을 이중 강조하고, 유금 월지의 금 기운이 정밀 국방 도구를 가리킵니다." }
+}

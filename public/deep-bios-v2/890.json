@@ -1,0 +1,38 @@
+{
+  "id": "890", "name": "Erwin Franz Mueller", "nameKo": "에르빈 프란츠 뮐러",
+  "netWorth": 4.6, "nationality": "DE", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Ulm, Germany", "birthPlaceKo": "독일 울름",
+    "familyBackground": "Born to German family.", "familyBackgroundKo": "독일 가정에서 출생.",
+    "education": "German vocational training.", "educationKo": "독일 직업 훈련.",
+    "earlyLife": "Took over family barbershop 1953; founded Mueller drugstore chain 1968 in Ulm; expanded to 800+ stores across Germany, Austria, Switzerland, Slovenia.",
+    "earlyLifeKo": "1953 가족 이발소 인수; 1968 울름에서 Mueller 약국 체인 창립; 독일·오스트리아·스위스·슬로베니아 800개+ 매장 확장.",
+    "source": "https://en.wikipedia.org/wiki/M%C3%BCller_(retailer)"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Mueller 약국 체인 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1953, "age": 21, "event": "Took over family barbershop in Ulm.", "eventKo": "울름 가족 이발소 인수.", "whyItMatteredKo": "출발선." },
+    { "year": 1968, "age": 36, "event": "Founded Mueller drugstore in Ulm.", "eventKo": "울름에 Mueller 약국 창립.", "whyItMatteredKo": "Mueller 출발선." },
+    { "year": 1990, "age": 58, "event": "Mueller expanded across Germany; opened Austria stores.", "eventKo": "Mueller 독일 전역 확장; 오스트리아 매장 개장.", "whyItMatteredKo": "독일 1위 확장." },
+    { "year": 2010, "age": 78, "event": "Mueller crossed 500+ stores; expanded into multimedia/toys.", "eventKo": "Mueller 500개+ 매장 돌파; 멀티미디어·완구 확장.", "whyItMatteredKo": "다종 단계." },
+    { "year": 2025, "age": 93, "event": "Personal net worth at $4.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 46억 달러.", "whyItMatteredKo": "Mueller 정점." }
+  ],
+  "turningPoints": [{ "year": 1968, "age": 36, "decisionKo": "이발소에서 약국 체인으로 전환", "alternativeKo": "이발소 잔류", "outcomeKo": "57년 후 800개+ 매장 + 46억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Mueller 사적 가족 지분 + 부동산", "industryKo": "약국·소매", "businessModelKo": "약국·헬스 + 멀티미디어 + 완구 + 자체 부동산", "moatKo": "독일 약국 1위급 + 가족 사적 소유 + 자체 부동산", "luckVsSkillKo": "운(25%): 독일 소비자 성장. 실력(75%): 57년 가족 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Mueller drugstore chain; long-time German retail magnate.",
+    "knownForKo": "Mueller 약국 체인 창립자; 오랜 독일 소매 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2024 Mueller customer-data legal scrutiny; standard private-retail scrutiny.", "controversiesKo": "2024 Mueller 고객 데이터 법적 감시; 표준 사적 소매 감시."
+  },
+  "characterKo": { "summaryKo": "Mueller 57년 + 독일 약국 1위급.", "tagsKo": ["Mueller drugstore", "독일 소매", "사적 가족"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed German consumer-discretionary spending briefly.", "descriptionKo": "글로벌 금융위기로 독일 소비자 재량 지출 잠시 압축.", "lesson": "Even staples-like drugstore faces brief recession exposure.", "lessonKo": "약국 같은 필수도 짧은 침체 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted store traffic briefly; e-commerce shift accelerated.", "descriptionKo": "COVID-19이 매장 통행 잠시 혼란; 전자상거래 이동 가속.", "lesson": "Brick-and-mortar drugstores face e-commerce structural pressure.", "lessonKo": "오프라인 약국은 전자상거래 구조적 압박 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 4.4 }, { "year": 2025, "netWorth": 4.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Customers walk into the same store for fifty years if you keep your promise.", "textKo": "약속을 지키면 고객은 50년간 같은 매장에 걸어 들어온다.", "context": "On Mueller philosophy", "contextKo": "Mueller 철학에 대해", "source": "https://www.mueller.de" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-In day pillar in Sin month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting cycle-tested long-life retail magnate.", "summaryKo": "임인 일주 + 신월 편관격(강한 외부 압박·권력 충돌)은 57년에 걸친 독일 소매 경쟁이라는 강한 외부 압박 환경을 견딘 그의 경로와 호응합니다. 임수 일간의 큰 바다 기질이 거대 자본 유동과 통하고, 인목 일지의 목 기운이 회사 성장을, 신금 월지의 금 기운이 정밀 소매 도구를 가리킵니다." }
+}

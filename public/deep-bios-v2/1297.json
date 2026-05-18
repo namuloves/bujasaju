@@ -1,0 +1,38 @@
+{
+  "id": "1297", "name": "Frank Love", "nameKo": "프랭크 러브",
+  "netWorth": 3.2, "nationality": "US", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Tom Love — founder of Love's Travel Stops & Country Stores.", "familyBackgroundKo": "Love's Travel Stops & Country Stores 창립자 톰 러브의 아들.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Joined family Love's Travel Stops & Country Stores; major shareholder; truck-stop chain across US interstates; 600+ locations.",
+    "earlyLifeKo": "가족 Love's Travel Stops & Country Stores 합류; 주요 주주; 미국 주간고속도로 트럭 정류장 체인; 600개+ 위치.",
+    "source": "https://www.loves.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Love's Travel Stops 가족 자본." },
+  "careerTimeline": [
+    { "year": 1990, "age": 21, "event": "Joined family Love's Travel Stops.", "eventKo": "가족 Love's Travel Stops 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2005, "age": 36, "event": "Love's expanded rapidly across US interstates.", "eventKo": "Love's가 미국 주간고속도로 급속 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2015, "age": 46, "event": "Love's crossed 400+ locations.", "eventKo": "Love's가 400개+ 위치 돌파.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2022, "age": 53, "event": "Love's crossed 600+ locations; major freight-corridor presence.", "eventKo": "Love's가 600개+ 위치 돌파; 주요 화물 통로 존재.", "whyItMatteredKo": "600+ 단계." },
+    { "year": 2025, "age": 56, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "Love's 정점." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 21, "decisionKo": "가족 Love's Travel Stops 합류", "alternativeKo": "외부 경력", "outcomeKo": "35년 후 32억 달러 + 미국 트럭 정류장 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Love's Travel Stops 사적 가족 지분 + 다각화", "industryKo": "트럭 정류장·소매·디젤", "businessModelKo": "주간고속도로 트럭 정류장 + 디젤 + 음식점 + 유지보수", "moatKo": "미국 트럭 정류장 1위급 + 가족 사적 소유 + 토지 보유", "luckVsSkillKo": "운(60%): 가족 자본 + 미국 화물 산업 성장. 실력(40%): 35년 가족 운영." },
+  "personalTraits": {
+    "knownFor": "Love family member; major shareholder of Love's Travel Stops; American truck-stop chain heir.",
+    "knownForKo": "러브 가족 멤버; Love's Travel Stops 주요 주주; 미국 트럭 정류장 체인 상속인.",
+    "philanthropy": "Love Family Foundation supports Oklahoma education and community.", "philanthropyKo": "러브 가족 재단이 오클라호마 교육·지역 사회 자선 지원.",
+    "controversies": "Limited; private family low scrutiny.", "controversiesKo": "제한적; 사적 가족 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Love's Travel Stops 가족 + 미국 트럭 정류장 가부장.", "tagsKo": ["Love's Travel Stops", "트럭 정류장", "오클라호마"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed freight demand briefly; Love's revenue plunged.", "descriptionKo": "금융위기로 화물 수요 잠시 압축; Love's 매출 급락.", "lesson": "Trucking-services face freight-cycle exposure.", "lessonKo": "트럭 서비스는 화물 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted truck-stop foot traffic briefly; fuel demand fell.", "descriptionKo": "COVID-19이 트럭 정류장 통행 잠시 혼란; 연료 수요 하락.", "lesson": "Fuel-retail faces pandemic-mobility risk.", "lessonKo": "연료 소매는 팬데믹 이동성 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Truck stops are the gas stations of America's groceries.", "textKo": "트럭 정류장은 미국 식료품의 주유소다.", "context": "On Love's Travel Stops", "contextKo": "Love's Travel Stops에 대해", "source": "https://www.loves.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-O day pillar in Myo month — 'jeongin-gyeok', formal credential authority, fitting family-business heir-and-operator.", "summaryKo": "병오 일주 + 묘월 정인격(공식 자격·학문·문서 권위)은 가족 회사라는 정통 권위 구조 35년 운영 경로와 호응합니다. 병화 일간 + 오화 일지의 극강 화 기운이 결단·기세를 이중 강조하고, 묘목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

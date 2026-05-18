@@ -1,0 +1,38 @@
+{
+  "id": "1548", "name": "David Hoffmann", "nameKo": "데이비드 호프만",
+  "netWorth": 2.6, "nationality": "US", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Founded DSI (executive search) in 1979; pivoted to diversified investments; built Osprey Capital family office covering aviation, real estate, manufacturing.",
+    "earlyLifeKo": "1979 DSI(임원 채용) 창립; 다각화 투자로 전환; 항공·부동산·제조 포괄 Osprey Capital 가족 사무소 구축.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "DSI 매각 + Osprey Capital 다각화." },
+  "careerTimeline": [
+    { "year": 1975, "age": 23, "event": "Began career in executive recruiting.", "eventKo": "임원 채용 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1979, "age": 27, "event": "Founded DSI (Diversified Search International) executive search.", "eventKo": "DSI(Diversified Search International) 임원 채용 창립.", "whyItMatteredKo": "DSI 출발선." },
+    { "year": 2010, "age": 58, "event": "Sold majority of DSI; pivoted to family-office investments.", "eventKo": "DSI 다수 지분 매각; 가족 사무소 투자로 전환.", "whyItMatteredKo": "투자 전환." },
+    { "year": 2020, "age": 68, "event": "Osprey Capital expanded into aviation services and US real estate.", "eventKo": "Osprey Capital이 항공 서비스·미국 부동산 확장.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 73, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "Osprey 정점." }
+  ],
+  "turningPoints": [{ "year": 2010, "age": 58, "decisionKo": "DSI 매각 후 가족 사무소 다각화", "alternativeKo": "DSI 운영 지속", "outcomeKo": "15년 후 26억 달러 다각화 가족 사무소" }],
+  "moneyMechanics": { "primaryRevenueKo": "DSI 매각 대금 + Osprey Capital 다각화", "industryKo": "다각화 가족 사무소", "businessModelKo": "DSI 매각 자본 + 항공·부동산·제조 다각화", "moatKo": "임원 채용 인맥 + 다각화 운영", "luckVsSkillKo": "운(35%): 다각화 사이클. 실력(65%): DSI 매각 타이밍 + 15년 운용." },
+  "personalTraits": {
+    "knownFor": "Founder of DSI executive search; founder of Osprey Capital family office.",
+    "knownForKo": "DSI 임원 채용 창립자; Osprey Capital 가족 사무소 창립자.",
+    "philanthropy": "Hoffmann Family Foundation supports US arts and education.", "philanthropyKo": "호프만 가족 재단이 미국 예술·교육 지원.",
+    "controversies": "Limited; private family-office low scrutiny.", "controversiesKo": "제한적; 사적 가족 사무소 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "DSI 매각 + Osprey Capital 다각화 가족 사무소.", "tagsKo": ["DSI", "Osprey Capital", "가족 사무소"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis briefly compressed DSI executive-search demand.", "descriptionKo": "글로벌 금융위기로 DSI 임원 채용 수요 잠시 압축.", "lesson": "Executive search faces hiring-cycle exposure.", "lessonKo": "임원 채용은 채용 사이클 노출." },
+    { "year": 2020, "description": "COVID-19 closed travel/hospitality investments briefly.", "descriptionKo": "COVID-19이 여행·접객 투자 잠시 폐쇄.", "lesson": "Diversified portfolios face concentration in cyclical sectors.", "lessonKo": "다각화 포트폴리오도 주기적 부문 집중 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Diversification is humility in portfolio form.", "textKo": "다각화는 포트폴리오 형태의 겸손이다.", "context": "On family-office investing", "contextKo": "가족 사무소 투자에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Yu day pillar in Mi month — 'siksin-gyeok', creative output, fitting executive-search-to-diversified-investments pivot.", "summaryKo": "을유 일주 + 미월 식신격(창의적 결과물·표현)은 임원 채용에서 다각화 가족 사무소로 창의적 자본 표현을 변환한 그의 경로와 호응합니다. 을목 일간의 작은 풀·유연한 적응 기질이 다각화 적응과 통하고, 유금 일지의 금 기운이 정밀 평가 도구를, 미토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

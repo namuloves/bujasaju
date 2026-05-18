@@ -1,0 +1,38 @@
+{
+  "id": "1345", "name": "Alfred Gantner", "nameKo": "알프레드 간트너",
+  "netWorth": 3.1, "nationality": "CH", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Switzerland", "birthPlaceKo": "스위스",
+    "familyBackground": "Born to Swiss family.", "familyBackgroundKo": "스위스 가정에서 출생.",
+    "education": "Brigham Young University.", "educationKo": "브리검 영 대학교.",
+    "earlyLife": "Co-founded Partners Group in 1996 in Zug with Marcel Erni and Urs Wietlisbach; built into one of Europe's largest private-markets investment firms; IPO Zurich 2006.",
+    "earlyLifeKo": "1996 추크에서 마르셀 에르니·우르스 비틀리스바흐와 Partners Group 공동 창립; 유럽 최대 사적 시장 투자 회사 중 하나 구축; 2006 취리히 상장.",
+    "source": "https://en.wikipedia.org/wiki/Partners_Group"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Partners Group 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1992, "age": 24, "event": "Worked at Goldman Sachs in private equity.", "eventKo": "Goldman Sachs 사모펀드 근무.", "whyItMatteredKo": "PE 출발선." },
+    { "year": 1996, "age": 28, "event": "Co-founded Partners Group in Zug.", "eventKo": "추크에서 Partners Group 공동 창립.", "whyItMatteredKo": "Partners 출발선." },
+    { "year": 2006, "age": 38, "event": "Partners Group IPO on SIX Swiss Exchange.", "eventKo": "Partners Group SIX 스위스 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2020, "age": 52, "event": "Partners Group AUM crossed $100B as private markets boomed.", "eventKo": "사적 시장 호황으로 Partners Group AUM 1,000억 달러 돌파.", "whyItMatteredKo": "1,000억 AUM." },
+    { "year": 2025, "age": 57, "event": "Personal net worth at $3.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 31억 달러.", "whyItMatteredKo": "Partners 정점." }
+  ],
+  "turningPoints": [{ "year": 1996, "age": 28, "decisionKo": "Goldman 떠나 Zug에서 Partners Group 공동 창립", "alternativeKo": "Goldman 잔류", "outcomeKo": "29년 후 1,000억+ AUM 사적 시장 거인 + 31억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Partners Group(PGHN.SW) 공동 창립자 지분 + 수수료", "industryKo": "사적 시장 투자", "businessModelKo": "사모펀드·인프라·부동산·사적 신용 펀드 운용 + 수수료 자본화", "moatKo": "스위스 사적 시장 글로벌 1위 + 1,000억+ AUM + 29년 트랙", "luckVsSkillKo": "운(30%): 사적 시장 부상. 실력(70%): 29년 일관성 + 글로벌 확장." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Partners Group; Swiss private-markets pioneer.",
+    "knownForKo": "Partners Group 공동 창립자; 스위스 사적 시장 선구자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; private-markets sector growth scrutiny.", "controversiesKo": "제한적; 사적 시장 부문 성장 감시."
+  },
+  "characterKo": { "summaryKo": "Partners Group 29년 + 사적 시장 거인.", "tagsKo": ["Partners Group", "스위스 PE", "사적 시장"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis halved Partners Group stock briefly.", "descriptionKo": "글로벌 금융위기로 Partners Group 주식 잠시 반토막.", "lesson": "Public PE faces credit-cycle dramatic exposure.", "lessonKo": "공개 PE는 신용 사이클 극적 노출 직면." },
+    { "year": 2022, "description": "Tech selloff and rising rates compressed Partners Group portfolio valuations.", "descriptionKo": "기술 매도세·금리 상승이 Partners Group 포트폴리오 밸류에이션 압축.", "lesson": "Private markets face rate-cycle revaluation.", "lessonKo": "사적 시장은 금리 사이클 재평가 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 2.9 }, { "year": 2025, "netWorth": 3.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Private markets are public markets without the panic.", "textKo": "사적 시장은 패닉이 없는 공개 시장이다.", "context": "On private-markets investing", "contextKo": "사적 시장 투자에 대해", "source": "https://www.partnersgroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Chuk day pillar in Myo month — 'pyeonjae-gyeok', large external capital, fitting global private-markets builder.", "summaryKo": "신축 일주 + 묘월 편재격(크고 유동적인 외부 자본)은 1,000억+ AUM 사적 시장이라는 거대 외부 자본 유동을 다룬 그의 경로와 호응합니다. 신금 일간의 정밀한 보석 기질이 정밀 금융 도구와 통하고, 축토 일지의 토 기운이 자본 안정 기반을, 묘목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

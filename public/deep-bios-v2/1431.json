@@ -1,0 +1,39 @@
+{
+  "id": "1431", "name": "Alpana Dangi", "nameKo": "알파나 단기",
+  "netWorth": 2.8, "nationality": "IN", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "India", "birthPlaceKo": "인도",
+    "familyBackground": "Born to Indian family; married into Adani-affiliated business family.", "familyBackgroundKo": "인도 가정에서 출생; 아다니 계열 사업 가족과 결혼.",
+    "education": "Indian higher education.", "educationKo": "인도 고등교육.",
+    "earlyLife": "Major shareholder via family/marriage of Indian conglomerate stakes; manages diversified family wealth and investments.",
+    "earlyLifeKo": "가족·결혼으로 인도 대기업 지분 주요 주주; 다각화 가족 자산·투자 관리.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "인도 대기업 가족·결혼 지분." },
+  "careerTimeline": [
+    { "year": 1995, "age": 23, "event": "Began family-shareholder role.", "eventKo": "가족 주주 역할 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2005, "age": 33, "event": "Expanded family-investment role across diversified Indian assets.", "eventKo": "다각화 인도 자산 가족 투자 역할 확대.", "whyItMatteredKo": "투자 단계." },
+    { "year": 2015, "age": 43, "event": "Indian asset values appreciated through commodity and stock cycles.", "eventKo": "상품·주식 사이클로 인도 자산 가치 상승.", "whyItMatteredKo": "자산 상승 단계." },
+    { "year": 2023, "age": 51, "event": "Hindenburg Research short report compressed Adani-affiliated valuations.", "eventKo": "힌덴부르크 리서치 공매도 보고서가 아다니 계열 밸류에이션 압축.", "whyItMatteredKo": "Hindenburg 단계." },
+    { "year": 2025, "age": 53, "event": "Personal net worth at $2.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러.", "whyItMatteredKo": "가족 자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 33, "decisionKo": "다각화 인도 자산 가족 투자 확대", "alternativeKo": "단일 자산 집중", "outcomeKo": "20년 후 28억 달러 다각화" }],
+  "moneyMechanics": { "primaryRevenueKo": "다각화 인도 가족 지분", "industryKo": "다각화 가족 투자", "businessModelKo": "가족 신탁 + 인도 대기업 지분 + 다각화", "moatKo": "가족 자본 + 인도 대기업 인맥", "luckVsSkillKo": "운(60%): 가족 자본. 실력(40%): 20년 자산 관리." },
+  "personalTraits": {
+    "knownFor": "Indian family-wealth heiress; Adani-affiliated shareholder.",
+    "knownForKo": "인도 가족 부 상속녀; 아다니 계열 주주.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2023 Hindenburg report scrutiny over Adani-group ownership; SEBI investigations.",
+    "controversiesKo": "2023 힌덴부르크 보고서가 아다니 그룹 소유 감시; SEBI 조사."
+  },
+  "characterKo": { "summaryKo": "인도 가족 자본 + 다각화 투자 가부장.", "tagsKo": ["인도 가족", "아다니 계열", "다각화"] },
+  "failures": [
+    { "year": 2023, "description": "Hindenburg short report on Adani Group compressed family-affiliated valuations sharply.", "descriptionKo": "아다니 그룹 힌덴부르크 공매도 보고서가 가족 계열 밸류에이션 급격 압축.", "lesson": "Concentrated family-conglomerate exposure faces short-attack risk.", "lessonKo": "집중 가족 대기업 노출은 공매도 공격 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Indian businesses; family portfolio compressed briefly.", "descriptionKo": "COVID-19이 인도 사업 혼란; 가족 포트폴리오 잠시 압축.", "lesson": "Indian family wealth faces broad market exposure.", "lessonKo": "인도 가족 부는 광범위 시장 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2023, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.6 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Indian wealth is family wealth — patience compounds in generations.", "textKo": "인도 부는 가족 부다 — 인내는 세대로 복리한다.", "context": "On Indian family wealth", "contextKo": "인도 가족 부에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in Sul month — 'jeongin-gyeok', formal credential/trust authority, fitting family-trust heiress.", "summaryKo": "계사 일주 + 술월 정인격(공식 자격·학문·문서 권위)은 가족 신탁이라는 정통 문서 권위 기반의 자본 관리 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 자본 관리와 통하고, 사화 일지의 강한 화 기운이 결단을, 술토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

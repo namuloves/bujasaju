@@ -1,0 +1,39 @@
+{
+  "id": "1629", "name": "Wesley Edens", "nameKo": "웨슬리 에덴스",
+  "netWorth": 2.5, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Montana, USA", "birthPlaceKo": "미국 몬태나",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Oregon State University.", "educationKo": "오리건 주립 대학교.",
+    "earlyLife": "Worked at Lehman Brothers and BlackRock; co-founded Fortress Investment Group in 1998; led Fortress through 2007 IPO and 2017 SoftBank acquisition; co-owns Milwaukee Bucks NBA.",
+    "earlyLifeKo": "Lehman Brothers·BlackRock 근무; 1998 Fortress Investment Group 공동 창립; 2007 IPO와 2017 SoftBank 인수 통해 Fortress 주도; 밀워키 벅스 NBA 공동 소유.",
+    "source": "https://en.wikipedia.org/wiki/Wesley_Edens"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Fortress 공동 창립자 + SoftBank 매각." },
+  "careerTimeline": [
+    { "year": 1987, "age": 26, "event": "Began at Lehman Brothers.", "eventKo": "Lehman Brothers에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 1998, "age": 37, "event": "Co-founded Fortress Investment Group.", "eventKo": "Fortress Investment Group 공동 창립.", "whyItMatteredKo": "Fortress 출발선." },
+    { "year": 2007, "age": 46, "event": "Fortress IPO on NYSE — first US PE/hedge fund to go public.", "eventKo": "Fortress NYSE 상장 — 미국 최초 PE·헤지펀드 공개 회사.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2014, "age": 53, "event": "Co-bought Milwaukee Bucks NBA franchise for $550M.", "eventKo": "밀워키 벅스 NBA 프랜차이즈를 5억 5,000만 달러에 공동 인수.", "whyItMatteredKo": "스포츠 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $2.5B per Forbes Real-Time; 2021 Bucks won NBA championship.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러; 2021 벅스 NBA 챔피언십 우승.", "whyItMatteredKo": "Fortress + Bucks 정점." }
+  ],
+  "turningPoints": [{ "year": 1998, "age": 37, "decisionKo": "Fortress 공동 창립", "alternativeKo": "BlackRock 잔류", "outcomeKo": "27년 후 25억 달러 PE 거물 + NBA 챔피언" }],
+  "moneyMechanics": { "primaryRevenueKo": "Fortress 지분(SoftBank 매각 잔여) + Milwaukee Bucks + Brightline 철도 + 다각화", "industryKo": "사모펀드·인프라·스포츠", "businessModelKo": "사모펀드 + 인프라(Brightline) + 스포츠 프랜차이즈 + 부동산", "moatKo": "Fortress 다각화 PE + Brightline 미국 민간 철도 노하우", "luckVsSkillKo": "운(35%): 2007 IPO + 2014 Bucks 가격. 실력(65%): 27년 일관성 + Bucks NBA 우승." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Fortress; co-owner of Milwaukee Bucks; founder of Brightline private rail.",
+    "knownForKo": "Fortress 공동 창립자; 밀워키 벅스 공동 소유주; Brightline 민간 철도 창립자.",
+    "philanthropy": "Wes Edens supports Aston Villa FC and Bucks-related community programs.", "philanthropyKo": "웨스 에덴스가 애스턴 빌라 FC와 벅스 관련 지역 사회 프로그램 지원.",
+    "controversies": "Fortress 2008 financial crisis stock crash; Brightline FL train fatalities controversy.",
+    "controversiesKo": "Fortress 2008 금융위기 주가 폭락; Brightline 플로리다 열차 사망 사고 논쟁."
+  },
+  "characterKo": { "summaryKo": "Fortress 공동 창립 + 벅스 NBA 챔피언 + Brightline 철도.", "tagsKo": ["Fortress", "Milwaukee Bucks", "Brightline"] },
+  "failures": [
+    { "year": 2008, "description": "Fortress stock collapsed 95% from 2007 IPO peak during financial crisis.", "descriptionKo": "Fortress 주식이 금융위기 동안 2007 IPO 정점에서 95% 폭락.", "lesson": "Public alternative-asset managers face dramatic mark-to-market swings.", "lessonKo": "공개 대체 자산 운용사는 극심한 시가 평가 변동 직면." },
+    { "year": 2023, "description": "Brightline Florida train involved in multiple pedestrian/vehicle fatalities; safety investigations.", "descriptionKo": "Brightline 플로리다 열차가 여러 보행자·차량 사망 사고 연루; 안전 조사.", "lesson": "Private rail faces grade-crossing safety risk.", "lessonKo": "민간 철도는 평면 교차로 안전 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Infrastructure is the next decade's alpha.", "textKo": "인프라는 다음 10년의 알파다.", "context": "On Brightline strategy", "contextKo": "Brightline 전략에 대해", "source": "https://www.fortress.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Yu day pillar in Sul month — 'sanggwan-gyeok', non-traditional output, fitting public-PE-and-private-rail magnate.", "summaryKo": "정유 일주 + 술월 상관격(파격적 표현·기존 권위 도전)은 미국 최초 공개 PE 회사 + 민간 철도 + NBA 프랜차이즈라는 파격 결합 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정교한 금융 협상과 통하고, 유금 일지의 금 기운이 정밀 금융 도구를, 술토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

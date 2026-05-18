@@ -1,0 +1,38 @@
+{
+  "id": "1667", "name": "James Dinan", "nameKo": "제임스 디넌",
+  "netWorth": 2.4, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Massachusetts, USA", "birthPlaceKo": "미국 매사추세츠",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "University of Pennsylvania (Wharton); Harvard MBA.", "educationKo": "펜실베이니아 대학교(와튼); 하버드 MBA.",
+    "earlyLife": "Worked at Donaldson, Lufkin & Jenrette; co-founded York Capital Management in 1991; built one of largest event-driven hedge funds.",
+    "earlyLifeKo": "Donaldson, Lufkin & Jenrette 근무; 1991 York Capital Management 공동 창립; 최대 이벤트 주도형 헤지펀드 중 하나 구축.",
+    "source": "https://en.wikipedia.org/wiki/James_Dinan"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "York Capital 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 26, "event": "Began at Donaldson, Lufkin & Jenrette in M&A risk arbitrage.", "eventKo": "Donaldson, Lufkin & Jenrette M&A 차익 거래에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 1991, "age": 32, "event": "Co-founded York Capital Management.", "eventKo": "York Capital Management 공동 창립.", "whyItMatteredKo": "York 출발선." },
+    { "year": 2010, "age": 51, "event": "Credit Suisse acquired 35% stake in York; AUM crossed $20B.", "eventKo": "Credit Suisse가 York 35% 지분 인수; AUM 200억 달러 돌파.", "whyItMatteredKo": "Credit Suisse 단계." },
+    { "year": 2020, "age": 61, "event": "Announced York would stop accepting outside capital and convert to family office.", "eventKo": "York이 외부 자본 수용 중단 및 가족 사무소 전환 발표.", "whyItMatteredKo": "패밀리 오피스 전환." },
+    { "year": 2025, "age": 66, "event": "Personal net worth at $2.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 24억 달러.", "whyItMatteredKo": "York 출구 정점." }
+  ],
+  "turningPoints": [{ "year": 2020, "age": 61, "decisionKo": "York 외부 자본 중단 가족 사무소 전환", "alternativeKo": "헤지펀드 운영 지속", "outcomeKo": "5년 후 가족 사무소 + 24억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "York Capital 가족 자본 + 수수료 자본화 + 다각화", "industryKo": "헤지펀드·이벤트 주도", "businessModelKo": "M&A 차익 거래 + 부실 채권 + 이벤트 주도 + 패밀리 오피스", "moatKo": "30년 이벤트 주도 트랙 + 월가 인맥", "luckVsSkillKo": "운(35%): 이벤트 주도 시대. 실력(65%): 30년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of York Capital Management; event-driven hedge fund veteran.",
+    "knownForKo": "York Capital Management 공동 창립자; 이벤트 주도 헤지펀드 베테랑.",
+    "philanthropy": "Dinan Family Foundation supports education and Jewish causes.", "philanthropyKo": "디넌 가족 재단이 교육·유대인 자선 지원.",
+    "controversies": "Limited; standard hedge-fund sector scrutiny.", "controversiesKo": "제한적; 헤지펀드 부문 표준 감시."
+  },
+  "characterKo": { "summaryKo": "York Capital 30년 이벤트 주도 헤지펀드 + 가족 사무소 전환.", "tagsKo": ["York Capital", "이벤트 주도", "패밀리 오피스"] },
+  "failures": [
+    { "year": 2008, "description": "York Capital funds suffered double-digit losses in 2008 financial crisis.", "descriptionKo": "York Capital 펀드가 2008 금융위기에 두 자릿수 손실.", "lesson": "Event-driven strategies face crisis-correlation risk.", "lessonKo": "이벤트 주도 전략은 위기 상관관계 리스크 직면." },
+    { "year": 2018, "description": "Multi-strategy hedge funds compressed by passive-investing rise; York AUM declined.", "descriptionKo": "패시브 투자 부상으로 다전략 헤지펀드 압축; York AUM 감소.", "lesson": "Hedge funds face structural fee compression.", "lessonKo": "헤지펀드는 구조적 수수료 압축 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Events create mispricings; patience converts them to alpha.", "textKo": "이벤트가 잘못된 가격을 만들고, 인내가 그것을 알파로 변환한다.", "context": "On event-driven investing", "contextKo": "이벤트 주도 투자에 대해", "source": "https://www.yorkcapital.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Sa month — 'jeongjae-gyeok', stable wealth, fitting 30-year event-driven hedge fund.", "summaryKo": "갑진 일주 + 사월 정재격(안정적·정직한 부 축적)은 30년 이벤트 주도 헤지펀드를 안정적으로 축적한 그의 경로와 호응합니다. 갑목 일간의 큰 나무·우직한 성장 기질이 회사 성장과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 사화 월지의 강한 화 기운이 결단·표현 에너지를 가리킵니다." }
+}

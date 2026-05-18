@@ -1,0 +1,39 @@
+{
+  "id": "1426", "name": "Hayes Barnard", "nameKo": "헤이스 바너드",
+  "netWorth": 2.9, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "University of Missouri.", "educationKo": "미주리 대학교.",
+    "earlyLife": "Co-founded Paramount Equity 1999 (sold to Loan Genie); founded SolarCity finance unit; founded Loanpal in 2018 (renamed GoodLeap) — solar-and-home-improvement consumer lending platform.",
+    "earlyLifeKo": "1999 Paramount Equity 공동 창립(Loan Genie 매각); SolarCity 금융 부서 창립; 2018 Loanpal 창립(GoodLeap 개명) — 태양광·주택 개량 소비자 대출 플랫폼.",
+    "source": "https://www.goodleap.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "GoodLeap 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1995, "age": 23, "event": "Began at Oracle in sales.", "eventKo": "Oracle 영업 시작.", "whyItMatteredKo": "영업 출발선." },
+    { "year": 1999, "age": 27, "event": "Co-founded Paramount Equity mortgage.", "eventKo": "Paramount Equity 모기지 공동 창립.", "whyItMatteredKo": "Paramount 출발선." },
+    { "year": 2013, "age": 41, "event": "Joined SolarCity to build solar consumer-finance.", "eventKo": "태양광 소비자 금융 구축 위해 SolarCity 합류.", "whyItMatteredKo": "태양광 단계." },
+    { "year": 2018, "age": 46, "event": "Founded Loanpal/GoodLeap solar-finance platform.", "eventKo": "Loanpal/GoodLeap 태양광 금융 플랫폼 창립.", "whyItMatteredKo": "GoodLeap 출발선." },
+    { "year": 2025, "age": 53, "event": "Personal net worth at $2.9B per Forbes Real-Time; GoodLeap valued ~$12B.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러; GoodLeap 약 120억 달러 밸류에이션.", "whyItMatteredKo": "GoodLeap 정점." }
+  ],
+  "turningPoints": [{ "year": 2018, "age": 46, "decisionKo": "태양광 소비자 금융 GoodLeap 창립", "alternativeKo": "SolarCity 잔류", "outcomeKo": "7년 후 29억 달러 + 120억 밸류에이션 핀테크" }],
+  "moneyMechanics": { "primaryRevenueKo": "GoodLeap 창립자 지분 + 다각화", "industryKo": "핀테크·태양광 금융", "businessModelKo": "태양광·주택 개량 소비자 대출 + 채권 패키징", "moatKo": "태양광 설치사 네트워크 + 채권 시장 인맥", "luckVsSkillKo": "운(45%): 미국 태양광 IRA 보조금 시기. 실력(55%): 30년 소비자 금융 트랙." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of GoodLeap; former SolarCity finance head; solar-finance pioneer.",
+    "knownForKo": "GoodLeap 창립자·CEO; 전 SolarCity 금융 책임자; 태양광 금융 선구자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Solar-finance consumer-complaints; 2024 high-rate-loan scrutiny by state regulators.",
+    "controversiesKo": "태양광 금융 소비자 불만; 2024 주 규제 당국 고금리 대출 감시."
+  },
+  "characterKo": { "summaryKo": "Paramount + SolarCity + GoodLeap 태양광 금융 거인.", "tagsKo": ["GoodLeap", "태양광 금융", "Loanpal"] },
+  "failures": [
+    { "year": 2024, "description": "Multiple state regulators investigated GoodLeap solar-finance customer-complaints.", "descriptionKo": "여러 주 규제 당국이 GoodLeap 태양광 금융 고객 불만 조사.", "lesson": "Consumer-finance faces regulatory complaint exposure.", "lessonKo": "소비자 금융은 규제 불만 노출 직면." },
+    { "year": 2023, "description": "Rising rates compressed GoodLeap loan-securitization economics.", "descriptionKo": "금리 상승이 GoodLeap 대출 증권화 경제 압축.", "lesson": "Consumer-loan securitizers face rate-cycle exposure.", "lessonKo": "소비자 대출 증권화는 금리 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.0 }, { "year": 2022, "netWorth": 2.5 }, { "year": 2024, "netWorth": 2.7 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Climate finance must be cheaper than dirty finance.", "textKo": "기후 금융은 더러운 금융보다 저렴해야 한다.", "context": "On GoodLeap mission", "contextKo": "GoodLeap 미션에 대해", "source": "https://www.goodleap.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Ja day pillar in In month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting regulated consumer lender.", "summaryKo": "병자 일주 + 인월 편관격(강한 외부 압박·권력 충돌)은 강한 소비자 금융 규제·태양광 보조금 정책 압박 하의 사업 환경과 호응합니다. 병화 일간의 큰 불·태양 기질이 태양광 산업 자체와 통하고, 자수 일지의 수 기운이 자본 유동성을, 인목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

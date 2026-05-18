@@ -1,0 +1,39 @@
+{
+  "id": "754", "name": "Joseph Grendys", "nameKo": "조셉 그렌디스",
+  "netWorth": 5.4, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Chicago, Illinois, USA", "birthPlaceKo": "미국 일리노이주 시카고",
+    "familyBackground": "Born to American Polish family.", "familyBackgroundKo": "미국 폴란드계 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Joined family Koch Foods (no relation to Koch Industries) in 1985; acquired control in 1995; built into one of largest US chicken processors.",
+    "earlyLifeKo": "1985 가족 Koch Foods(Koch Industries와 무관) 합류; 1995 통제 획득; 미국 최대 닭고기 처리업체 중 하나로 구축.",
+    "source": "https://en.wikipedia.org/wiki/Koch_Foods"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Koch Foods 인수·확장." },
+  "careerTimeline": [
+    { "year": 1985, "age": 24, "event": "Joined Koch Foods in chicken processing.", "eventKo": "닭고기 처리 Koch Foods 합류.", "whyItMatteredKo": "닭고기 출발선." },
+    { "year": 1995, "age": 34, "event": "Acquired control of Koch Foods.", "eventKo": "Koch Foods 통제 획득.", "whyItMatteredKo": "통제 획득." },
+    { "year": 2005, "age": 44, "event": "Major plant acquisitions expanded Koch Foods nationally.", "eventKo": "주요 공장 인수로 Koch Foods 전국 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2018, "age": 57, "event": "Koch Foods became target of chicken-price-collusion class actions.", "eventKo": "Koch Foods가 닭고기 가격 담합 집단 소송 대상이 됨.", "whyItMatteredKo": "소송 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $5.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 54억 달러.", "whyItMatteredKo": "Koch Foods 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 34, "decisionKo": "Koch Foods 통제 획득", "alternativeKo": "직원 잔류", "outcomeKo": "30년 후 54억 달러 미국 닭고기 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Koch Foods 사적 자본", "industryKo": "닭고기 처리·식품", "businessModelKo": "수직 통합 닭고기 + 가공 식품 + 대형 소매·식품 서비스 공급", "moatKo": "미국 닭고기 처리 상위 3 + 사적 가족 소유", "luckVsSkillKo": "운(35%): 미국 닭고기 수요. 실력(65%): 30년 일관 확장." },
+  "personalTraits": {
+    "knownFor": "Owner of Koch Foods; major US private chicken processor.",
+    "knownForKo": "Koch Foods 소유주; 주요 미국 사적 닭고기 처리업체.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2018-ongoing chicken-price-collusion antitrust lawsuits; 2017 ICE immigration raid at Koch Foods plants.",
+    "controversiesKo": "2018-진행 중 닭고기 가격 담합 반독점 소송; 2017 Koch Foods 공장 ICE 이민 단속."
+  },
+  "characterKo": { "summaryKo": "Koch Foods 30년 + 미국 닭고기 거인.", "tagsKo": ["Koch Foods", "닭고기 처리", "사적 가족"] },
+  "failures": [
+    { "year": 2018, "description": "Chicken-price-collusion class actions targeted Koch Foods; multi-million settlements.", "descriptionKo": "닭고기 가격 담합 집단 소송이 Koch Foods 표적; 다백만 달러 합의.", "lesson": "Concentrated food industries face antitrust risk.", "lessonKo": "집중 식품 산업은 반독점 리스크 직면." },
+    { "year": 2017, "description": "ICE raid at Koch Foods plants arrested undocumented workers; corporate scrutiny.", "descriptionKo": "Koch Foods 공장 ICE 단속이 미등록 근로자 체포; 기업 감시.", "lesson": "Meat-processing faces immigration-compliance risk.", "lessonKo": "육류 처리는 이민 컴플라이언스 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.9 }, { "year": 2020, "netWorth": 2.9 }, { "year": 2024, "netWorth": 5.1 }, { "year": 2025, "netWorth": 5.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Chicken feeds America one wing at a time.", "textKo": "닭고기는 미국을 한 날개씩 먹인다.", "context": "On Koch Foods scale", "contextKo": "Koch Foods 규모에 대해", "source": "https://www.kochfoods.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Jin day pillar in Hae month — 'pyeonjae-gyeok', large external capital, fitting industrial-scale food magnate.", "summaryKo": "무진 일주 + 해월 편재격(크고 유동적인 외부 자본)은 미국 거대 식품 공급망이라는 거대 외부 자본·재료 유동을 다룬 그의 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 안정과 통하고, 진토 일지의 토 기운이 자본 안정을, 해수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

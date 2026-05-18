@@ -1,0 +1,38 @@
+{
+  "id": "1060", "name": "Catharina Claas-Muhlhauser", "nameKo": "카타리나 클라스-뮐하우저",
+  "netWorth": 3.9, "nationality": "DE", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Claas family — owners of Claas KGaA German agricultural-machinery manufacturer.", "familyBackgroundKo": "독일 농기계 제조사 Claas KGaA 소유주 클라스 가족 출신.",
+    "education": "German higher education.", "educationKo": "독일 고등교육.",
+    "earlyLife": "Joined family Claas KGaA; chair of supervisory board; 3rd-generation Claas family member; major Claas family stockholder.",
+    "earlyLifeKo": "가족 Claas KGaA 합류; 감사 이사회 의장; 클라스 가족 3세대; 주요 클라스 가족 주주.",
+    "source": "https://www.claas.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Claas KGaA 가족 자본." },
+  "careerTimeline": [
+    { "year": 2000, "age": 25, "event": "Joined family Claas KGaA.", "eventKo": "가족 Claas KGaA 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2010, "age": 35, "event": "Took executive role at Claas.", "eventKo": "Claas 임원 역할.", "whyItMatteredKo": "임원 단계." },
+    { "year": 2017, "age": 42, "event": "Became chair of Claas supervisory board.", "eventKo": "Claas 감사 이사회 의장 취임.", "whyItMatteredKo": "지배 단계." },
+    { "year": 2022, "age": 47, "event": "Claas continued strong performance amid global agriculture machinery demand.", "eventKo": "글로벌 농기계 수요로 Claas 강한 성과 계속.", "whyItMatteredKo": "성과 단계." },
+    { "year": 2025, "age": 50, "event": "Personal net worth at $3.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 39억 달러.", "whyItMatteredKo": "Claas 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 42, "decisionKo": "Claas 감사 이사회 의장 수락", "alternativeKo": "가족 주주 역할 잔류", "outcomeKo": "8년 후 39억 달러 + 3세대 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Claas KGaA 사적 가족 지분 + 다각화", "industryKo": "농기계 제조", "businessModelKo": "콤바인·트랙터·하베스터 + 글로벌 농업 + 가족 사적 소유", "moatKo": "글로벌 콤바인 1위급 + 가족 의결권 + 110년 트랙", "luckVsSkillKo": "운(60%): 가족 자본 + 글로벌 농업 수요. 실력(40%): 25년 가족 운영." },
+  "personalTraits": {
+    "knownFor": "Chair of Claas KGaA supervisory board; 3rd-generation Claas family member.",
+    "knownForKo": "Claas KGaA 감사 이사회 의장; 클라스 가족 3세대.",
+    "philanthropy": "Claas Foundation supports agricultural research and rural communities.", "philanthropyKo": "클라스 재단이 농업 연구·농촌 공동체 자선 지원.",
+    "controversies": "Limited; private-family agricultural-machinery low scrutiny.", "controversiesKo": "제한적; 사적 가족 농기계 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Claas KGaA 3세대 + 농기계 가족 가부장.", "tagsKo": ["Claas", "농기계", "독일 가족"] },
+  "failures": [
+    { "year": 2015, "description": "Commodity-price crash compressed global farm income; Claas demand fell briefly.", "descriptionKo": "상품 가격 폭락으로 글로벌 농업 소득 압축; Claas 수요 잠시 하락.", "lesson": "Agricultural machinery faces commodity-cycle exposure.", "lessonKo": "농기계는 상품 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted supply chain; semiconductor shortage compressed production.", "descriptionKo": "COVID-19이 공급망 혼란; 반도체 부족이 생산 압축.", "lesson": "Capital-goods manufacturers face supply-chain risk.", "lessonKo": "자본재 제조사는 공급망 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.7 }, { "year": 2025, "netWorth": 3.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Combines feed the world one row at a time.", "textKo": "콤바인은 세계를 한 줄씩 먹인다.", "context": "On Claas mission", "contextKo": "Claas 미션에 대해", "source": "https://www.claas.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-In day pillar in Jin month — 'pyeonin-gyeok', non-traditional academic authority, fitting 3rd-generation engineering family matriarch.", "summaryKo": "임인 일주 + 진월 편인격(비전통적 학문·문서 권위)은 3세대 가족이라는 비전통적 학문·기술 권위 승계 경로와 호응합니다. 임수 일간의 큰 바다 기질이 거대 자본 유동과 통하고, 인목 일지의 목 기운이 회사 성장을, 진토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

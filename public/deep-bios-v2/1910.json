@@ -1,0 +1,38 @@
+{
+  "id": "1910", "name": "Mark Hancock", "nameKo": "마크 핸콕",
+  "netWorth": 2.1, "nationality": "US", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American medical/dental education.", "educationKo": "미국 의·치과 교육.",
+    "earlyLife": "Co-founded U.S. Dental Partners later renamed Pacific Dental Services / Heartland Dental affiliate; built one of largest US dental-service organizations.",
+    "earlyLifeKo": "U.S. Dental Partners(이후 Pacific Dental Services·Heartland Dental 계열) 공동 창립; 미국 최대 치과 서비스 조직 중 하나 구축.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "치과 서비스 조직(DSO) 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2000, "age": 25, "event": "Began dental practice and management career.", "eventKo": "치과 진료·경영 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2008, "age": 33, "event": "Built dental-practice management consolidation model.", "eventKo": "치과 진료 관리 통합 모델 구축.", "whyItMatteredKo": "통합 단계." },
+    { "year": 2015, "age": 40, "event": "Major US dental-services company expansion via private-equity backing.", "eventKo": "사모펀드 후원으로 주요 미국 치과 서비스 회사 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2022, "age": 47, "event": "Dental-service organization crossed major scale; valuation expanded.", "eventKo": "치과 서비스 조직 주요 규모 돌파; 밸류에이션 확장.", "whyItMatteredKo": "규모 단계." },
+    { "year": 2025, "age": 50, "event": "Personal net worth at $2.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 21억 달러.", "whyItMatteredKo": "DSO 정점." }
+  ],
+  "turningPoints": [{ "year": 2008, "age": 33, "decisionKo": "치과 진료 통합 DSO 모델 구축", "alternativeKo": "단일 치과 진료 잔류", "outcomeKo": "17년 후 21억 달러 미국 DSO 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "치과 DSO 창립자 지분 + 사적 자본", "industryKo": "치과 서비스 조직·보건", "businessModelKo": "치과 진료 통합 + 후방 사무 운영 + 사모펀드 후원", "moatKo": "DSO 규모 + 운영 효율 + 사적 가족 소유", "luckVsSkillKo": "운(40%): 치과 통합 산업 부상. 실력(60%): 25년 일관 운영." },
+  "personalTraits": {
+    "knownFor": "Founder of major US dental-service organization; American healthcare entrepreneur.",
+    "knownForKo": "주요 미국 치과 서비스 조직 창립자; 미국 보건 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard DSO scrutiny on dentist-employment and quality.", "controversiesKo": "제한적; DSO 치과의사 고용·품질 표준 감시."
+  },
+  "characterKo": { "summaryKo": "치과 DSO 25년 + 미국 보건 통합.", "tagsKo": ["치과 DSO", "보건 통합", "미국 치과"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 closed dental offices for elective procedures; DSO revenue plunged.", "descriptionKo": "COVID-19이 선택 시술 치과 사무실 폐쇄; DSO 매출 급락.", "lesson": "Healthcare services face pandemic exposure for elective care.", "lessonKo": "보건 서비스는 선택 치료에 팬데믹 노출 직면." },
+    { "year": 2018, "description": "DSO industry faced FTC scrutiny over corporate dental practice; some markets restricted.", "descriptionKo": "DSO 산업이 기업 치과 진료 FTC 감시 직면; 일부 시장 제한.", "lesson": "DSO faces state-level corporate-practice-of-dentistry restrictions.", "lessonKo": "DSO는 주 단위 기업 치과 진료 제한 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.0 }, { "year": 2022, "netWorth": 1.5 }, { "year": 2024, "netWorth": 1.9 }, { "year": 2025, "netWorth": 2.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Healthcare scales when back-office heals first.", "textKo": "보건은 후방 사무가 먼저 치유될 때 확장한다.", "context": "On DSO model", "contextKo": "DSO 모델에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Mi day pillar in Jin month — 'jeongjae-gyeok', stable wealth accumulation, fitting healthcare-consolidation founder.", "summaryKo": "정미 일주 + 진월 정재격(안정적·정직한 부 축적)은 치과 진료 통합이라는 안정적 자본 축적 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정밀 보건 운영과 통하고, 미토 일지·진토 월지의 강한 토 기운이 자본 안정 기반을 이중 강조합니다." }
+}

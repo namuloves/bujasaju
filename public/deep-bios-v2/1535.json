@@ -1,0 +1,39 @@
+{
+  "id": "1535", "name": "Andrey Andreev", "nameKo": "안드레이 안드레예프",
+  "netWorth": 2.6, "nationality": "GB", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Moscow, Russia (USSR)", "birthPlaceKo": "소련 모스크바",
+    "familyBackground": "Born to Soviet family.", "familyBackgroundKo": "소련 가정에서 출생.",
+    "education": "Moscow State Institute of International Relations.", "educationKo": "모스크바 국제관계대학교.",
+    "earlyLife": "Founded SpyLOG and Mamba dating apps in Russia; founded Badoo in 2006 — dating app; backed Whitney Wolfe Herd to launch Bumble 2014; sold Magic Lab to Blackstone $3B in 2019; left dating after workplace controversy.",
+    "earlyLifeKo": "러시아에서 SpyLOG·Mamba 데이팅 앱 창립; 2006 Badoo 창립 — 데이팅 앱; 2014 휘트니 울프 허드를 후원하여 Bumble 출시; 2019 Magic Lab을 Blackstone에 30억 달러 매각; 직장 논쟁 후 데이팅 떠남.",
+    "source": "https://en.wikipedia.org/wiki/Andrey_Andreev"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Badoo 매각 + Bumble 지분." },
+  "careerTimeline": [
+    { "year": 1995, "age": 21, "event": "Founded SpyLOG website-analytics in Russia.", "eventKo": "러시아에서 SpyLOG 웹사이트 분석 창립.", "whyItMatteredKo": "기술 출발선." },
+    { "year": 2003, "age": 29, "event": "Founded Mamba — Russia's leading dating site.", "eventKo": "러시아 선도 데이팅 사이트 Mamba 창립.", "whyItMatteredKo": "Mamba 단계." },
+    { "year": 2006, "age": 32, "event": "Founded Badoo in London.", "eventKo": "런던에서 Badoo 창립.", "whyItMatteredKo": "Badoo 출발선." },
+    { "year": 2014, "age": 40, "event": "Backed Whitney Wolfe Herd to launch Bumble.", "eventKo": "휘트니 울프 허드를 후원하여 Bumble 출시.", "whyItMatteredKo": "Bumble 출발선." },
+    { "year": 2019, "age": 45, "event": "Sold Magic Lab (Badoo + Bumble) to Blackstone for ~$3B amid Forbes workplace exposé.", "eventKo": "포브스 직장 폭로 가운데 Magic Lab(Badoo+Bumble)을 Blackstone에 약 30억 달러 매각.", "whyItMatteredKo": "엑시트 정점." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 40, "decisionKo": "Whitney Wolfe Herd Bumble 후원", "alternativeKo": "Badoo만 운영", "outcomeKo": "5년 후 30억 달러 Bumble + Badoo 매각" }],
+  "moneyMechanics": { "primaryRevenueKo": "Magic Lab Blackstone 매각 대금 + 다각화", "industryKo": "데이팅 앱·소비자 기술", "businessModelKo": "데이팅 앱 + 광고·구독 + 매각", "moatKo": "글로벌 데이팅 데이터 + Bumble 여성 우선 모델", "luckVsSkillKo": "운(40%): 2014 Wolfe Herd 베팅 성공. 실력(60%): 25년 데이팅 산업 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Badoo; backer of Bumble; Russian-British dating-app entrepreneur.",
+    "knownForKo": "Badoo 창립자; Bumble 후원자; 러시아·영국 데이팅 앱 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2019 Forbes exposé on misogynistic workplace culture at Badoo; spurred his exit.",
+    "controversiesKo": "2019 포브스가 Badoo 여성 혐오 직장 문화 폭로; 그의 퇴장 촉발."
+  },
+  "characterKo": { "summaryKo": "Badoo 창립 + Bumble 후원 + 30억 달러 매각.", "tagsKo": ["Badoo", "Bumble", "Magic Lab"] },
+  "failures": [
+    { "year": 2019, "description": "Forbes exposé revealed misogynistic workplace culture at Badoo; led to his stepping down.", "descriptionKo": "포브스 폭로가 Badoo 여성 혐오 직장 문화 공개; 그의 사임 야기.", "lesson": "Founder culture surfaces in scaling companies.", "lessonKo": "창립자 문화는 확장하는 회사에서 드러난다." },
+    { "year": 2022, "description": "Bumble stock fell sharply from 2021 IPO peak amid tech-stock decline.", "descriptionKo": "기술주 하락으로 Bumble 주식이 2021 IPO 정점에서 급락.", "lesson": "Dating-app IPOs face engagement-cycle volatility.", "lessonKo": "데이팅 앱 IPO는 참여 사이클 변동성 직면." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 1.5 }, { "year": 2019, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Match someone, change a life; we are the algorithm of intimacy.", "textKo": "누군가를 매칭하고 인생을 바꾼다; 우리는 친밀함의 알고리즘이다.", "context": "On dating apps", "contextKo": "데이팅 앱에 대해", "source": "https://badoo.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Hae day pillar in Chuk month — 'pyeonjae-gyeok', large external capital, fitting dating-platform builder.", "summaryKo": "을해 일주 + 축월 편재격(크고 유동적인 외부 자본)은 글로벌 데이팅이라는 거대 외부 자본·사용자 유동을 다룬 그의 경로와 호응합니다. 을목 일간의 작은 풀·유연한 적응 기질이 글로벌 사용자 적응과 통하고, 해수 일지의 수 기운이 자본 유동성을, 축토 월지의 토 기운이 자본 안정을 가리킵니다." }
+}

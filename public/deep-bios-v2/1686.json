@@ -1,0 +1,38 @@
+{
+  "id": "1686", "name": "Reinfried Pohl Jr", "nameKo": "라인프리트 폴",
+  "netWorth": 2.4, "nationality": "DE", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Reinfried Pohl Sr. — founder of DVAG (Deutsche Vermögensberatung); brother of Andreas Pohl.", "familyBackgroundKo": "DVAG(Deutsche Vermögensberatung) 창립자 라인프리트 폴 시니어의 아들; 안드레아스 폴의 형제.",
+    "education": "German higher education.", "educationKo": "독일 고등교육.",
+    "earlyLife": "Joined family DVAG — Germany's largest financial-advisory firm; co-managed business with brother Andreas after father's death 2014.",
+    "earlyLifeKo": "독일 최대 재무 자문 회사 가족 DVAG 합류; 2014 아버지 사망 후 형제 안드레아스와 사업 공동 경영.",
+    "source": "https://www.dvag.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "DVAG 가족 자본." },
+  "careerTimeline": [
+    { "year": 1985, "age": 26, "event": "Joined family DVAG financial-advisory firm.", "eventKo": "가족 DVAG 재무 자문 회사 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2000, "age": 41, "event": "Took executive role; DVAG expanded across Germany and Austria.", "eventKo": "임원 역할; DVAG 독일·오스트리아 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2014, "age": 55, "event": "Father Reinfried Pohl Sr. died; took co-control of DVAG with brother.", "eventKo": "아버지 라인프리트 폴 시니어 사망; 형제와 DVAG 공동 통제.", "whyItMatteredKo": "지배 단계." },
+    { "year": 2020, "age": 61, "event": "DVAG continued growth as Germany's largest independent financial-advisory firm.", "eventKo": "DVAG가 독일 최대 독립 재무 자문 회사로 성장 계속.", "whyItMatteredKo": "1위 단계." },
+    { "year": 2025, "age": 66, "event": "Personal net worth at $2.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 24억 달러.", "whyItMatteredKo": "DVAG 정점." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 55, "decisionKo": "아버지 사망 후 형제와 DVAG 공동 통제", "alternativeKo": "외부 경영인 위임", "outcomeKo": "11년 후 24억 달러 DVAG 공동 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "DVAG 사적 가족 지분 + 다각화", "industryKo": "재무 자문·보험", "businessModelKo": "독일 보험·뮤추얼 펀드 자문 + 자문 네트워크 + Allianz 파트너십", "moatKo": "독일 최대 재무 자문 회사 + 가족 사적 소유", "luckVsSkillKo": "운(40%): 가족 자본 + 독일 금융 안정. 실력(60%): 25년 사업 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-owner of DVAG; son of DVAG founder; financial-advisory family heir.",
+    "knownForKo": "DVAG 공동 소유주; DVAG 창립자의 아들; 재무 자문 가족 상속인.",
+    "philanthropy": "Reinfried Pohl Foundation supports German cultural causes.", "philanthropyKo": "라인프리트 폴 재단이 독일 문화 자선 지원.",
+    "controversies": "Limited; standard financial-advisory regulatory scrutiny.", "controversiesKo": "제한적; 표준 재무 자문 규제 감시."
+  },
+  "characterKo": { "summaryKo": "DVAG 가족 2세대 + 형제 공동 가부장.", "tagsKo": ["DVAG", "재무 자문", "독일 가족"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis pressured German financial-advisory commissions briefly.", "descriptionKo": "글로벌 금융위기로 독일 재무 자문 수수료 잠시 압박.", "lesson": "Financial advisory faces market-cycle exposure.", "lessonKo": "재무 자문은 시장 사이클 노출 직면." },
+    { "year": 2018, "description": "EU MiFID II regulation pressured commission-based financial-advisory model.", "descriptionKo": "EU MiFID II 규제가 수수료 기반 재무 자문 모델 압박.", "lesson": "Advisory faces regulatory commission-disclosure risk.", "lessonKo": "자문은 규제 수수료 공시 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "German households want one trusted advisor; we are that.", "textKo": "독일 가구는 신뢰할 수 있는 한 명의 자문가를 원한다; 우리가 그것이다.", "context": "On DVAG mission", "contextKo": "DVAG 미션에 대해", "source": "https://www.dvag.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Ja day pillar in Sul month — 'pyeon-gwan-gyeok', strong external authority, fitting heavily-regulated financial-advisory heir.", "summaryKo": "무자 일주 + 술월 편관격(강한 외부 압박·권력 충돌)은 EU 강한 금융 규제 압박 하에 운영되는 재무 자문 가족 가부장 환경과 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 안정과 통하고, 자수 일지의 수 기운이 자본 유동성을, 술토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

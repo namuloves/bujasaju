@@ -1,0 +1,38 @@
+{
+  "id": "1088", "name": "Mitchell Rales", "nameKo": "미첼 레일스",
+  "netWorth": 3.8, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Maryland, USA", "birthPlaceKo": "미국 메릴랜드",
+    "familyBackground": "Born to American family; brother of Steven Rales.", "familyBackgroundKo": "미국 가정에서 출생; 스티븐 레일스의 형제.",
+    "education": "Miami University Ohio.", "educationKo": "오하이오 마이애미 대학교.",
+    "earlyLife": "Co-founded Equity Group Holdings with brother Steven 1979; built Danaher Corporation via Black & Decker tools division acquisition; later spun Fortive, Envista, Vontier; founder of Glenstone Museum.",
+    "earlyLifeKo": "1979 형 스티븐과 Equity Group Holdings 공동 창립; Black & Decker 도구 부서 인수로 Danaher Corporation 구축; 이후 Fortive·Envista·Vontier 분사; Glenstone 미술관 창립자.",
+    "source": "https://en.wikipedia.org/wiki/Mitchell_Rales"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Danaher 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1979, "age": 23, "event": "Co-founded Equity Group Holdings with brother Steven.", "eventKo": "형 스티븐과 Equity Group Holdings 공동 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 1984, "age": 28, "event": "Renamed Equity Group as Danaher Corporation; began industrial LBO strategy.", "eventKo": "Equity Group을 Danaher Corporation으로 개명; 산업 LBO 전략 시작.", "whyItMatteredKo": "Danaher 출발선." },
+    { "year": 2006, "age": 50, "event": "Founded Glenstone Museum in Potomac, Maryland.", "eventKo": "메릴랜드 포토맥에 Glenstone 미술관 창립.", "whyItMatteredKo": "Glenstone 단계." },
+    { "year": 2016, "age": 60, "event": "Spun off Fortive from Danaher; later Envista, Vontier.", "eventKo": "Danaher에서 Fortive 분사; 이후 Envista·Vontier.", "whyItMatteredKo": "분사 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $3.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 38억 달러.", "whyItMatteredKo": "Danaher 정점." }
+  ],
+  "turningPoints": [{ "year": 1984, "age": 28, "decisionKo": "Equity Group → Danaher 산업 LBO 전략", "alternativeKo": "단순 부동산", "outcomeKo": "41년 후 38억 달러 + 산업 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Danaher(DHR) + Fortive(FTV) + Envista(NVST) + Vontier(VNT) 가족 지분", "industryKo": "산업 제조·진단·자동화", "businessModelKo": "Danaher Business System(DBS) + 진단·과학·환경 + 분사 전략", "moatKo": "Danaher Business System 운영 노하우 + 4개 공개 회사 분사 트랙", "luckVsSkillKo": "운(20%): 산업 LBO 시기. 실력(80%): DBS 운영 시스템 + 41년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Danaher; founder of Glenstone Museum; industrial-platform pioneer.",
+    "knownForKo": "Danaher 공동 창립자; Glenstone 미술관 창립자; 산업 플랫폼 선구자.",
+    "philanthropy": "Glenstone Museum free admission; major contemporary-art and education giving.", "philanthropyKo": "Glenstone 미술관 무료 입장; 주요 현대 예술·교육 기부.",
+    "controversies": "Limited; industrial-conglomerate standard scrutiny.", "controversiesKo": "제한적; 산업 대기업 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Danaher 공동 창립 + 4개 분사 + Glenstone 미술관.", "tagsKo": ["Danaher", "Glenstone", "DBS"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Danaher industrial demand briefly.", "descriptionKo": "글로벌 금융위기로 Danaher 산업 수요 잠시 압축.", "lesson": "Industrial conglomerates face cycle exposure.", "lessonKo": "산업 대기업은 사이클 노출 직면." },
+    { "year": 2022, "description": "Post-COVID diagnostics demand normalized; Danaher stock fell from peak.", "descriptionKo": "COVID 후 진단 수요 정상화; Danaher 주식 정점에서 하락.", "lesson": "Pandemic-driven diagnostics face post-event revaluation.", "lessonKo": "팬데믹 주도 진단은 사건 후 재평가 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 3.6 }, { "year": 2025, "netWorth": 3.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Kaizen never quits; neither does compounding.", "textKo": "카이젠은 멈추지 않는다; 복리도 멈추지 않는다.", "context": "On Danaher Business System", "contextKo": "Danaher Business System에 대해", "source": "https://www.danaher.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sin day pillar in Sin month — 'pyeon-gwan-gyeok', strong external authority/discipline, fitting kaizen-driven industrial platform.", "summaryKo": "경신 일주 + 신월 편관격(강한 외부 압박·권력 충돌)은 Danaher Business System이라는 강한 운영 규율을 41년에 걸쳐 견뎌낸 그의 경로와 호응합니다. 경금 일간 + 신금 일지·신금 월지의 극강 금 기운이 정밀 제조·결단을 삼중 강조합니다." }
+}

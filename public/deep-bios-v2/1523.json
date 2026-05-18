@@ -1,0 +1,38 @@
+{
+  "id": "1523", "name": "William Boyd", "nameKo": "윌리엄 보이드",
+  "netWorth": 2.7, "nationality": "US", "industry": "Gambling & Casinos",
+  "childhood": {
+    "birthPlace": "Oklahoma, USA", "birthPlaceKo": "미국 오클라호마",
+    "familyBackground": "Born to Sam Boyd — Nevada casino dealer/operator.", "familyBackgroundKo": "네바다 카지노 딜러·운영자 샘 보이드의 아들.",
+    "education": "University of Utah; University of Utah law.", "educationKo": "유타 대학교; 유타 대학교 법학.",
+    "earlyLife": "Joined family Boyd Gaming after father Sam started Las Vegas casino business; built Boyd Gaming Corporation to publicly-traded multi-property casino operator; founded California Hotel.",
+    "earlyLifeKo": "아버지 샘이 라스베이거스 카지노 사업 시작 후 가족 Boyd Gaming 합류; Boyd Gaming Corporation을 공개 다중 부동산 카지노 운영사로 구축; California Hotel 창립.",
+    "source": "https://en.wikipedia.org/wiki/William_S._Boyd"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Boyd Gaming 가족 자본." },
+  "careerTimeline": [
+    { "year": 1959, "age": 28, "event": "Joined father Sam Boyd's Las Vegas casino business.", "eventKo": "아버지 샘 보이드의 라스베이거스 카지노 사업 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1975, "age": 44, "event": "Opened California Hotel and Casino in downtown Vegas.", "eventKo": "다운타운 베이거스에 California Hotel and Casino 개장.", "whyItMatteredKo": "California Hotel 단계." },
+    { "year": 1993, "age": 62, "event": "Boyd Gaming IPO on NYSE.", "eventKo": "Boyd Gaming NYSE 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2004, "age": 73, "event": "Boyd Gaming acquired Coast Casinos for $1.3B.", "eventKo": "Boyd Gaming이 Coast Casinos를 13억 달러에 인수.", "whyItMatteredKo": "Coast 인수." },
+    { "year": 2025, "age": 94, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "Boyd Gaming 정점." }
+  ],
+  "turningPoints": [{ "year": 1975, "age": 44, "decisionKo": "California Hotel 다운타운 베이거스 개장", "alternativeKo": "스트립 진출", "outcomeKo": "50년 후 27억 달러 + 다중 부동산 카지노 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Boyd Gaming(BYD) 가족 지분 + 다각화", "industryKo": "카지노·게이밍", "businessModelKo": "다중 도시 카지노 + 호텔 + FanDuel 스포츠 베팅 파트너십", "moatKo": "라스베이거스 다운타운 + 지역 카지노 + 가족 의결권", "luckVsSkillKo": "운(40%): 라스베이거스 부상 + 스포츠 베팅 합법화. 실력(60%): 65년 가족 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and chairman emeritus of Boyd Gaming; Las Vegas casino patriarch.",
+    "knownForKo": "Boyd Gaming 공동 창립자·명예 의장; 라스베이거스 카지노 가부장.",
+    "philanthropy": "Boyd School of Law at UNLV; major Las Vegas educational and community giving.", "philanthropyKo": "UNLV 보이드 로스쿨; 주요 라스베이거스 교육·지역 사회 기부.",
+    "controversies": "Las Vegas casino-industry standard labor and gaming-regulation scrutiny.", "controversiesKo": "라스베이거스 카지노 산업 표준 노동·게이밍 규제 감시."
+  },
+  "characterKo": { "summaryKo": "Boyd Gaming 65년 + 라스베이거스 카지노 가부장.", "tagsKo": ["Boyd Gaming", "California Hotel", "Las Vegas"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed Las Vegas gaming revenue; Boyd Gaming stock crashed.", "descriptionKo": "금융위기로 라스베이거스 게이밍 매출 압축; Boyd Gaming 주식 폭락.", "lesson": "Gaming faces deep recession exposure.", "lessonKo": "게이밍은 깊은 침체 노출 직면." },
+    { "year": 2020, "description": "COVID-19 closed Las Vegas casinos; Boyd Gaming revenue plunged.", "descriptionKo": "COVID-19이 라스베이거스 카지노 폐쇄; Boyd Gaming 매출 급락.", "lesson": "Casino-gaming faces pandemic-shock exposure.", "lessonKo": "카지노 게이밍은 팬데믹 충격 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Locals' casinos are the patient capital of Vegas.", "textKo": "지역 주민 카지노는 베이거스의 인내 자본이다.", "context": "On Boyd Gaming strategy", "contextKo": "Boyd Gaming 전략에 대해", "source": "https://www.boydgaming.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Hae day pillar in Sul month — 'jeonggwan-gyeok', formal regulated authority, fitting heavily-regulated gaming patriarch.", "summaryKo": "계해 일주 + 술월 정관격(공식 권위·규제 아래에서 일하는 구조)은 강한 네바다 게이밍 규제 권위 65년 가부장 경로와 호응합니다. 계수 일간 + 해수 일지의 극강 수 기운이 자본 유동성을 이중 강조하고, 술토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1365", "name": "Sergei Popov", "nameKo": "세르게이 포포프",
+  "netWorth": 3.0, "nationality": "RU", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Russia (USSR)", "birthPlaceKo": "소련",
+    "familyBackground": "Born to Soviet family.", "familyBackgroundKo": "소련 가정에서 출생.",
+    "education": "Russian higher education.", "educationKo": "러시아 고등교육.",
+    "earlyLife": "Co-founded Promsvyazbank with brother Dmitry Ananyev (Ananyev brothers); served as major shareholder before management split; built and diversified Russian financial assets.",
+    "earlyLifeKo": "형제 드미트리 아나녜프와 Promsvyazbank 공동 창립(아나녜프 형제); 경영 분리 전 주요 주주 역임; 러시아 금융 자산 구축·다각화.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Promsvyazbank + 다각화." },
+  "careerTimeline": [
+    { "year": 1993, "age": 22, "event": "Began career in post-Soviet Russian finance.", "eventKo": "소련 후 러시아 금융 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1995, "age": 24, "event": "Co-founded Promsvyazbank.", "eventKo": "Promsvyazbank 공동 창립.", "whyItMatteredKo": "Promsvyazbank 출발선." },
+    { "year": 2010, "age": 39, "event": "Built diversified Russian financial portfolio.", "eventKo": "다각화 러시아 금융 포트폴리오 구축.", "whyItMatteredKo": "포트폴리오 단계." },
+    { "year": 2017, "age": 46, "event": "Promsvyazbank nationalized by Russian state amid bank crisis.", "eventKo": "은행 위기 가운데 Promsvyazbank가 러시아 국가에 국유화.", "whyItMatteredKo": "국유화 단계." },
+    { "year": 2025, "age": 54, "event": "Personal net worth at $3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 30억 달러.", "whyItMatteredKo": "Promsvyazbank 후 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 46, "decisionKo": "Promsvyazbank 국유화 후 다각화 자산 관리", "alternativeKo": "은행 재인수 시도", "outcomeKo": "8년 후 30억 달러 다각화 자산" }],
+  "moneyMechanics": { "primaryRevenueKo": "다각화 러시아 자산 + 부동산", "industryKo": "은행 후 다각화", "businessModelKo": "은행 매각 자본 + 부동산 + 다각화 투자", "moatKo": "30년 러시아 금융 인맥 + 다각화", "luckVsSkillKo": "운(45%): 1990년대 러시아 사유화. 실력(55%): 30년 자본 관리." },
+  "personalTraits": {
+    "knownFor": "Former Promsvyazbank shareholder; Russian financial investor.",
+    "knownForKo": "전 Promsvyazbank 주주; 러시아 금융 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2017 Promsvyazbank nationalization amid bank-bailout crisis; brother Dmitry investigated.",
+    "controversiesKo": "2017 은행 구제 위기 가운데 Promsvyazbank 국유화; 형제 드미트리 조사."
+  },
+  "characterKo": { "summaryKo": "Promsvyazbank 공동 창립 + 국유화 + 다각화.", "tagsKo": ["Promsvyazbank", "러시아 은행", "Ananyev brothers"] },
+  "failures": [
+    { "year": 2017, "description": "Promsvyazbank nationalized by Russian state; Popov family lost bank control.", "descriptionKo": "Promsvyazbank가 러시아 국가에 국유화; 포포프 가족 은행 통제 상실.", "lesson": "Russian-bank ownership faces state-takeover risk.", "lessonKo": "러시아 은행 소유는 국가 인수 리스크 직면." },
+    { "year": 2014, "description": "Ruble crash compressed Russian financial-sector values broadly.", "descriptionKo": "루블 폭락이 러시아 금융 부문 가치 광범위 압축.", "lesson": "Russian finance faces currency-crisis exposure.", "lessonKo": "러시아 금융은 통화 위기 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.2 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Russian wealth lives one regulation away from confiscation.", "textKo": "러시아 부는 압류로부터 단 하나의 규제 떨어져 산다.", "context": "On Russian finance", "contextKo": "러시아 금융에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Sa day pillar in Sin month — 'jeongin-gyeok', formal credential authority, fitting regulated-banking-and-diversified investor.", "summaryKo": "기사 일주 + 신월 정인격(공식 자격·학문·문서 권위)은 은행 라이선스라는 정통 금융 자격을 30년 운영한 그의 경로와 호응합니다. 기토 일간의 평야·수용 기질이 다각화 자본 흡수와 통하고, 사화 일지의 강한 화 기운이 결단을, 신금 월지의 금 기운이 정밀 금융 도구를 가리킵니다." }
+}

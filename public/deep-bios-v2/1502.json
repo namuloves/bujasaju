@@ -1,0 +1,39 @@
+{
+  "id": "1502", "name": "Farhad Moshiri", "nameKo": "파르하드 모시리",
+  "netWorth": 2.7, "nationality": "GB", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Tehran, Iran", "birthPlaceKo": "이란 테헤란",
+    "familyBackground": "Born to Iranian family; emigrated to UK.", "familyBackgroundKo": "이란 가정에서 출생; 영국 이주.",
+    "education": "Liverpool John Moores University.", "educationKo": "리버풀 존 무어스 대학교.",
+    "earlyLife": "Partner with Alisher Usmanov in Metalloinvest stake; co-owned Arsenal FC stake (sold 2019); acquired majority of Everton FC 2016; chairman of Everton.",
+    "earlyLifeKo": "Metalloinvest 지분에서 알리셰르 우스마노프와 파트너; 아스널 FC 지분 공동 소유(2019 매각); 2016 에버턴 FC 다수 인수; 에버턴 의장.",
+    "source": "https://en.wikipedia.org/wiki/Farhad_Moshiri"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Usmanov 파트너 + 다각화." },
+  "careerTimeline": [
+    { "year": 1985, "age": 30, "event": "Began career in accounting and corporate finance in UK.", "eventKo": "영국 회계·기업 금융 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2000, "age": 45, "event": "Partnered with Alisher Usmanov in Russian metals/media investments.", "eventKo": "알리셰르 우스마노프와 러시아 금속·미디어 투자 파트너십.", "whyItMatteredKo": "Usmanov 단계." },
+    { "year": 2007, "age": 52, "event": "Acquired Arsenal FC stake (~15%) with Usmanov.", "eventKo": "우스마노프와 아스널 FC 지분(~15%) 인수.", "whyItMatteredKo": "Arsenal 단계." },
+    { "year": 2016, "age": 61, "event": "Acquired majority of Everton FC for ~£200M.", "eventKo": "에버턴 FC 다수 지분을 약 2억 파운드에 인수.", "whyItMatteredKo": "Everton 인수." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $2.7B per Forbes Real-Time; Everton struggled financially.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러; 에버턴 재정 어려움.", "whyItMatteredKo": "다각화 정점." }
+  ],
+  "turningPoints": [{ "year": 2016, "age": 61, "decisionKo": "에버턴 FC 다수 지분 인수", "alternativeKo": "Arsenal 잔류", "outcomeKo": "9년 후 27억 달러 + 에버턴 의장 (재정 어려움)" }],
+  "moneyMechanics": { "primaryRevenueKo": "Metalloinvest 지분 + USM Holdings + Everton FC + 다각화", "industryKo": "금속·축구·다각화", "businessModelKo": "러시아 금속 지분 + 영국 축구 + 부동산", "moatKo": "Usmanov 파트너십 + 영국 축구 자산 + 30년 인맥", "luckVsSkillKo": "운(55%): Usmanov 파트너. 실력(45%): 30년 금융 운영." },
+  "personalTraits": {
+    "knownFor": "Chairman of Everton FC; former Arsenal FC co-owner; Usmanov partner.",
+    "knownForKo": "에버턴 FC 의장; 전 아스널 FC 공동 소유주; 우스마노프 파트너.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Everton FC 2022-2024 Premier League points deductions for financial-fair-play breaches; 2022 EU sanctions on Usmanov complicated partnerships.",
+    "controversiesKo": "에버턴 FC 2022-2024 재정 페어 플레이 위반 프리미어리그 승점 삭감; 2022 우스마노프 EU 제재가 파트너십 복잡화."
+  },
+  "characterKo": { "summaryKo": "Usmanov 파트너 + 에버턴 FC 의장 + 재정 어려움.", "tagsKo": ["Everton FC", "Usmanov", "Metalloinvest"] },
+  "failures": [
+    { "year": 2022, "description": "Everton FC charged with Premier League financial-fair-play breaches; points deductions in 2023-2024.", "descriptionKo": "에버턴 FC가 프리미어리그 재정 페어 플레이 위반 기소; 2023-2024 승점 삭감.", "lesson": "Football-club ownership faces regulator financial-discipline.", "lessonKo": "축구 클럽 소유는 규제 재정 규율 직면." },
+    { "year": 2022, "description": "Usmanov EU sanctions complicated business relationship.", "descriptionKo": "우스마노프 EU 제재가 사업 관계 복잡화.", "lesson": "Partnership wealth faces partner-sanctions risk.", "lessonKo": "파트너십 부는 파트너 제재 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Football is community made global.", "textKo": "축구는 글로벌화된 공동체다.", "context": "On Everton FC", "contextKo": "에버턴 FC에 대해", "source": "https://www.evertonfc.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Myo day pillar in Sa month — 'siksin-gyeok', creative output, fitting metals-football-diversifier.", "summaryKo": "기묘 일주 + 사월 식신격(창의적 결과물·표현)은 러시아 금속·영국 축구라는 창의적 자본 표현 결합과 호응합니다. 기토 일간의 평야·수용 기질이 다각화 자본 흡수와 통하고, 묘목 일지의 목 기운이 회사 성장을, 사화 월지의 강한 화 기운이 결단을 가리킵니다." }
+}

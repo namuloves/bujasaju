@@ -1,0 +1,39 @@
+{
+  "id": "1267", "name": "Gerry Harvey", "nameKo": "게리 하비",
+  "netWorth": 3.2, "nationality": "AU", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Sydney, New South Wales, Australia", "birthPlaceKo": "호주 뉴사우스웨일스 시드니",
+    "familyBackground": "Born to Irish-Australian family.", "familyBackgroundKo": "아일랜드계 호주 가정에서 출생.",
+    "education": "Australian higher education.", "educationKo": "호주 고등교육.",
+    "earlyLife": "Co-founded Norman Ross retail chain 1961 (sold 1982); co-founded Harvey Norman in 1982 with Ian Norman; built Australia's largest electronics/furniture retailer; horse-racing magnate.",
+    "earlyLifeKo": "1961 노먼 로스 소매 체인 공동 창립(1982 매각); 1982 이안 노먼과 Harvey Norman 공동 창립; 호주 최대 전자·가구 소매업체 구축; 경마 거물.",
+    "source": "https://en.wikipedia.org/wiki/Gerry_Harvey"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Harvey Norman 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1961, "age": 22, "event": "Co-founded Norman Ross electrical retailer.", "eventKo": "노먼 로스 전자 소매업체 공동 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 1982, "age": 43, "event": "Sold Norman Ross; founded Harvey Norman with Ian Norman.", "eventKo": "노먼 로스 매각; 이안 노먼과 Harvey Norman 창립.", "whyItMatteredKo": "Harvey Norman 출발선." },
+    { "year": 1987, "age": 48, "event": "Harvey Norman IPO on Australian stock exchange.", "eventKo": "Harvey Norman 호주 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2000, "age": 61, "event": "Expanded internationally to NZ, Ireland, Slovenia, Singapore.", "eventKo": "뉴질랜드·아일랜드·슬로베니아·싱가포르 국제 확장.", "whyItMatteredKo": "국제 단계." },
+    { "year": 2025, "age": 85, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "Harvey Norman 정점." }
+  ],
+  "turningPoints": [{ "year": 1982, "age": 43, "decisionKo": "Norman Ross 매각 후 Harvey Norman 창립", "alternativeKo": "노먼 로스 잔류", "outcomeKo": "43년 후 호주 최대 전자·가구 + 32억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Harvey Norman(HVN.AX) 공동 창립자 지분 + 부동산 + 경마", "industryKo": "전자·가구 소매 + 부동산", "businessModelKo": "프랜차이즈 매장 + 부동산 소유 + 소비자 금융", "moatKo": "호주 매장 부동산 자체 소유 + 프랜차이즈 모델", "luckVsSkillKo": "운(35%): 호주 소비자 호황. 실력(65%): 부동산 자체 소유 통찰 + 43년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and chairman of Harvey Norman; Australian retail icon; thoroughbred-racing magnate.",
+    "knownForKo": "Harvey Norman 공동 창립자·의장; 호주 소매 아이콘; 순종마 경마 거물.",
+    "philanthropy": "Magic Millions yearling sales promotion; horse-racing industry support.", "philanthropyKo": "Magic Millions 한 살 말 경매 진흥; 경마 산업 지원.",
+    "controversies": "2020 JobKeeper subsidies returned partially after profit surge; 2021 outspoken anti-online-retail commentary criticized.",
+    "controversiesKo": "2020 잡키퍼 보조금 이익 급등 후 부분 반환; 2021 노골적 반온라인 소매 발언 비판."
+  },
+  "characterKo": { "summaryKo": "Norman Ross + Harvey Norman 64년 호주 소매 아이콘.", "tagsKo": ["Harvey Norman", "호주 소매", "경마"] },
+  "failures": [
+    { "year": 2011, "description": "Online-retail rise pressured Harvey Norman brick-and-mortar margins.", "descriptionKo": "온라인 소매 부상이 Harvey Norman 오프라인 마진 압박.", "lesson": "Brick-and-mortar retail faces structural e-commerce pressure.", "lessonKo": "오프라인 소매는 구조적 전자상거래 압박 직면." },
+    { "year": 2020, "description": "COVID-19 closed stores briefly; controversy over kept JobKeeper subsidies despite profit surge.", "descriptionKo": "COVID-19이 매장 잠시 폐쇄; 이익 급등에도 잡키퍼 보조금 유지 논쟁.", "lesson": "Pandemic subsidies face post-event public scrutiny.", "lessonKo": "팬데믹 보조금은 사건 후 공공 감시 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Own the building before you sell the fridge.", "textKo": "냉장고를 팔기 전 건물을 소유하라.", "context": "On Harvey Norman model", "contextKo": "Harvey Norman 모델에 대해", "source": "https://www.harveynorman.com.au" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-O day pillar in Yu month — 'jeongjae-gyeok', stable wealth accumulation, fitting 60-year retail-and-property magnate.", "summaryKo": "무오 일주 + 유월 정재격(안정적·정직한 부 축적)은 60년 소매·부동산 자본 축적이라는 정직 안정 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 부동산 자본과 통하고, 오화 일지의 화 기운이 결단·표현을, 유금 월지의 금 기운이 정밀 소매 관리 도구를 가리킵니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1226", "name": "Wilhelm Beier", "nameKo": "빌헬름 바이어",
+  "netWorth": 3.4, "nationality": "DE", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to German family.", "familyBackgroundKo": "독일 가정에서 출생.",
+    "education": "German higher education.", "educationKo": "독일 고등교육.",
+    "earlyLife": "Co-founded asphalt company; later co-founded Athos KGaA family-office investment vehicle; major healthcare and pharma investor.",
+    "earlyLifeKo": "아스팔트 회사 공동 창립; 이후 Athos KGaA 가족 사무소 투자 비클 공동 창립; 주요 보건·제약 투자자.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Athos 가족 사무소 + 보건 투자." },
+  "careerTimeline": [
+    { "year": 1980, "age": 24, "event": "Began career in German construction materials.", "eventKo": "독일 건자재 경력 시작.", "whyItMatteredKo": "건자재 출발선." },
+    { "year": 1995, "age": 39, "event": "Sold construction materials business; pivoted to investments.", "eventKo": "건자재 사업 매각; 투자로 전환.", "whyItMatteredKo": "투자 전환." },
+    { "year": 2005, "age": 49, "event": "Co-founded Athos KGaA family-office investment vehicle.", "eventKo": "Athos KGaA 가족 사무소 투자 비클 공동 창립.", "whyItMatteredKo": "Athos 출발선." },
+    { "year": 2015, "age": 59, "event": "Athos made major healthcare/biotech investments including BioNTech early stake.", "eventKo": "Athos가 BioNTech 초기 지분 포함 주요 보건·바이오텍 투자.", "whyItMatteredKo": "바이오텍 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $3.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러.", "whyItMatteredKo": "Athos 정점." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 49, "decisionKo": "Athos 가족 사무소 창립 + 보건 집중", "alternativeKo": "건자재 잔류", "outcomeKo": "20년 후 34억 달러 보건 투자 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Athos KGaA 보건 지분 + 다각화", "industryKo": "보건·제약 투자", "businessModelKo": "가족 사무소 + 보건·바이오텍 지분 + 부동산", "moatKo": "BioNTech 등 초기 보건 지분 + 가족 자본 인내", "luckVsSkillKo": "운(50%): BioNTech 시기. 실력(50%): 보건 집중 결단." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Athos KGaA family office; major German healthcare investor.",
+    "knownForKo": "Athos KGaA 가족 사무소 공동 창립자; 주요 독일 보건 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; private-investment scrutiny.", "controversiesKo": "제한적; 사적 투자 감시."
+  },
+  "characterKo": { "summaryKo": "Athos 가족 사무소 + BioNTech 초기 후원자.", "tagsKo": ["Athos KGaA", "BioNTech", "보건 투자"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed healthcare-investment valuations briefly.", "descriptionKo": "글로벌 금융위기로 보건 투자 밸류에이션 잠시 압축.", "lesson": "Healthcare not immune to credit-cycle risk.", "lessonKo": "보건도 신용 사이클 리스크에 면역되지 않는다." },
+    { "year": 2022, "description": "Biotech selloff compressed BioNTech and other pandemic-stock valuations sharply.", "descriptionKo": "바이오텍 매도세로 BioNTech 등 팬데믹 주식 밸류에이션 급격 압축.", "lesson": "Pandemic-driven biotech faces post-event revaluation.", "lessonKo": "팬데믹 주도 바이오텍은 사건 후 재평가 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 2.0 }, { "year": 2021, "netWorth": 4.5 }, { "year": 2024, "netWorth": 3.2 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Patient capital is the only kind that survives biotech.", "textKo": "인내 자본만이 바이오텍에서 살아남는 유일한 종류다.", "context": "On biotech investing", "contextKo": "바이오텍 투자에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-O day pillar in Jin month — 'pyeonjae-gyeok', large external capital, fitting healthcare investor.", "summaryKo": "무오 일주 + 진월 편재격(크고 유동적인 외부 자본)은 보건·바이오텍이라는 거대 외부 자본 유동을 운용한 그의 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 인내와 통하고, 오화 일지의 화 기운이 결단을, 진토 월지의 토 기운이 자본 안정을 가리킵니다." }
+}

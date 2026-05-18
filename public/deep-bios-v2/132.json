@@ -1,0 +1,39 @@
+{
+  "id": "132", "name": "Brett Adcock", "nameKo": "브렛 애드콕",
+  "netWorth": 19.1, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family on Illinois farm.", "familyBackgroundKo": "일리노이 농장 미국 가정에서 출생.",
+    "education": "University of Florida.", "educationKo": "플로리다 대학교.",
+    "earlyLife": "Co-founded Vettery hiring marketplace (sold to Adecco $100M 2018); co-founded Archer Aviation electric VTOL (NYSE 2021); founded Figure AI humanoid-robot company 2022.",
+    "earlyLifeKo": "Vettery 채용 마켓플레이스 공동 창립(2018 Adecco에 1억 달러 매각); Archer Aviation 전기 VTOL 공동 창립(2021 NYSE); 2022 Figure AI 휴머노이드 로봇 회사 창립.",
+    "source": "https://en.wikipedia.org/wiki/Brett_Adcock"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Vettery 매각 + Archer + Figure AI." },
+  "careerTimeline": [
+    { "year": 2008, "age": 22, "event": "Co-founded Street of Walls (financial education).", "eventKo": "Street of Walls(금융 교육) 공동 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 2013, "age": 27, "event": "Co-founded Vettery hiring marketplace.", "eventKo": "Vettery 채용 마켓플레이스 공동 창립.", "whyItMatteredKo": "Vettery 출발선." },
+    { "year": 2018, "age": 32, "event": "Sold Vettery to Adecco for $100M; co-founded Archer Aviation.", "eventKo": "Vettery를 Adecco에 1억 달러 매각; Archer Aviation 공동 창립.", "whyItMatteredKo": "엑시트 1 + 다음 단계." },
+    { "year": 2022, "age": 36, "event": "Founded Figure AI; raised $675M at $2.6B valuation 2024.", "eventKo": "Figure AI 창립; 2024 26억 달러 밸류에이션 6억 7,500만 달러 조달.", "whyItMatteredKo": "Figure 출발선." },
+    { "year": 2025, "age": 39, "event": "Figure AI valued $39.5B per fundraising; personal net worth at $19.1B per Forbes Real-Time.", "eventKo": "Figure AI 자금 조달 기준 395억 달러 밸류에이션; 포브스 실시간 기준 개인 순자산 191억 달러.", "whyItMatteredKo": "Figure 정점." }
+  ],
+  "turningPoints": [{ "year": 2022, "age": 36, "decisionKo": "Vettery + Archer 후 휴머노이드 로봇 Figure AI 창립", "alternativeKo": "Archer 잔류", "outcomeKo": "3년 후 395억 달러 밸류에이션 + 191억 달러 부" }],
+  "moneyMechanics": { "primaryRevenueKo": "Figure AI 창립자 지분 + Archer Aviation 지분 + 다각화", "industryKo": "AI·로봇·항공", "businessModelKo": "휴머노이드 로봇 + 전기 항공기 + 채용 매각 자본", "moatKo": "Figure 시장 선점 + 3중 창업 트랙 + AI 투자자 인맥", "luckVsSkillKo": "운(55%): 2024 휴머노이드·AI 호황. 실력(45%): 3중 창업 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Figure AI humanoid robots; co-founder of Archer Aviation; serial founder.",
+    "knownForKo": "Figure AI 휴머노이드 로봇 창립자; Archer Aviation 공동 창립자; 연쇄 창업자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Figure AI safety questions on factory robot trials; Archer-Wisk Aero IP dispute 2021-2023.",
+    "controversiesKo": "Figure AI 공장 로봇 시험 안전 의문; 2021-2023 Archer-Wisk Aero 지식재산권 분쟁."
+  },
+  "characterKo": { "summaryKo": "Vettery + Archer + Figure AI 3중 창업 + 휴머노이드 로봇.", "tagsKo": ["Figure AI", "Archer Aviation", "휴머노이드 로봇"] },
+  "failures": [
+    { "year": 2021, "description": "Archer-Wisk Aero IP dispute alleged stolen trade secrets; settled 2023.", "descriptionKo": "Archer-Wisk Aero 지식재산권 분쟁이 영업 비밀 도용 주장; 2023 해결.", "lesson": "Hot-tech startups face IP-poaching litigation.", "lessonKo": "핫 기술 스타트업은 지식재산권 사칭 소송 직면." },
+    { "year": 2022, "description": "Archer stock fell sharply post-SPAC merger; revenue model questioned.", "descriptionKo": "SPAC 합병 후 Archer 주식 급락; 매출 모델 의문.", "lesson": "Pre-revenue SPAC stocks face skeptical-market exposure.", "lessonKo": "매출 전 SPAC 주식은 회의적 시장 노출." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 0.1 }, { "year": 2023, "netWorth": 2.5 }, { "year": 2024, "netWorth": 8.5 }, { "year": 2025, "netWorth": 19.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Robots will do the dangerous, dull, dirty jobs first.", "textKo": "로봇은 먼저 위험하고 지루하고 더러운 일을 할 것이다.", "context": "On Figure AI mission", "contextKo": "Figure AI 미션에 대해", "source": "https://www.figure.ai" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Jin day pillar in Jin month — 'siksin-gyeok', creative output, fitting humanoid-robot serial founder.", "summaryKo": "경진 일주 + 진월 식신격(창의적 결과물·표현)은 휴머노이드 로봇·전기 항공기·채용 매칭이라는 3중 창의적 표현을 만든 그의 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 로봇 도구와 통하고, 진토 일지·진월 월지의 토 기운이 자본 안정 기반을 이중 강조합니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1390", "name": "Lee Bass", "nameKo": "리 마셜 배스",
+  "netWorth": 2.9, "nationality": "US", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "Fort Worth, Texas, USA", "birthPlaceKo": "미국 텍사스주 포트워스",
+    "familyBackground": "Born to Perry R. Bass — Texas oilman; great-grandson of Sid W. Richardson; brother of Sid R., Edward, Robert M. Bass.", "familyBackgroundKo": "텍사스 석유인 페리 R. 배스의 아들; 시드 W. 리처드슨의 증손자; 시드 R., 에드워드, 로버트 M. 배스의 형제.",
+    "education": "Yale University.", "educationKo": "예일 대학교.",
+    "earlyLife": "Joined family Bass Brothers Enterprises; later founded Lee M. Bass Inc. focused on energy and ranching; Yale benefactor.",
+    "earlyLifeKo": "가족 Bass Brothers Enterprises 합류; 이후 에너지·목장 중심 Lee M. Bass Inc. 창립; 예일 후원자.",
+    "source": "https://en.wikipedia.org/wiki/Bass_family"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Bass 가족 + Sid Richardson 신탁." },
+  "careerTimeline": [
+    { "year": 1980, "age": 24, "event": "Joined family Bass Brothers Enterprises after Yale.", "eventKo": "예일 후 가족 Bass Brothers Enterprises 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1991, "age": 35, "event": "Founded Lee M. Bass Inc. focused on energy and ranching.", "eventKo": "에너지·목장 중심 Lee M. Bass Inc. 창립.", "whyItMatteredKo": "독자 회사 출발선." },
+    { "year": 2000, "age": 44, "event": "Major Yale donations; Western culture initiative caused 1990s controversy.", "eventKo": "주요 예일 기부; 서양 문화 이니셔티브가 1990년대 논쟁 야기.", "whyItMatteredKo": "예일 단계." },
+    { "year": 2015, "age": 59, "event": "Diversified energy and Texas ranching portfolio.", "eventKo": "에너지·텍사스 목장 포트폴리오 다각화.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $2.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러.", "whyItMatteredKo": "Bass 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 1991, "age": 35, "decisionKo": "가족 사업에서 분리하여 Lee M. Bass Inc. 창립", "alternativeKo": "Bass Brothers 잔류", "outcomeKo": "34년 후 29억 달러 독자 에너지·목장 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Bass 신탁 + Lee M. Bass Inc. 에너지·목장 + 다각화", "industryKo": "석유·가스·목장·다각화", "businessModelKo": "에너지 사업 + 텍사스 목장 + 가족 신탁 자본", "moatKo": "Sid Richardson 가족 신탁 + 50년 텍사스 에너지 인맥", "luckVsSkillKo": "운(60%): 가족 신탁 + 시드 리처드슨 유산. 실력(40%): 35년 에너지 운영." },
+  "personalTraits": {
+    "knownFor": "Lee M. Bass Inc. founder; Bass family member; Yale benefactor; brother of Robert M. Bass.",
+    "knownForKo": "Lee M. Bass Inc. 창립자; 배스 가족 멤버; 예일 후원자; 로버트 M. 배스의 형제.",
+    "philanthropy": "Major Yale University, Texas state, and conservation donations.", "philanthropyKo": "주요 예일 대학교·텍사스주·환경 보전 기부.",
+    "controversies": "1995 Yale rejected $20M Lee Bass donation tied to Western Civilization course content; family-political-donation scrutiny.",
+    "controversiesKo": "1995 예일이 서양 문명 코스 내용 연계 2,000만 달러 리 배스 기부 거절; 가족 정치 후원금 감시."
+  },
+  "characterKo": { "summaryKo": "Bass 가족 + Lee M. Bass Inc. + 예일 후원자.", "tagsKo": ["Bass family", "Lee M. Bass Inc.", "예일"] },
+  "failures": [
+    { "year": 1995, "description": "Yale University returned Lee Bass's $20M donation tied to Western Civilization course conditions; public controversy.", "descriptionKo": "예일 대학교가 서양 문명 코스 조건 연계 리 배스 2,000만 달러 기부 반환; 공공 논쟁.", "lesson": "Conditional philanthropy faces academic-freedom resistance.", "lessonKo": "조건부 자선은 학문 자유 저항 직면." },
+    { "year": 2014, "description": "Oil price crash compressed Texas energy revenue; Bass diversification compressed.", "descriptionKo": "유가 폭락으로 텍사스 에너지 매출 압축; 배스 다각화 압축.", "lesson": "Texas energy faces oil-cycle exposure.", "lessonKo": "텍사스 에너지는 석유 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.6 }, { "year": 2020, "netWorth": 1.9 }, { "year": 2024, "netWorth": 2.7 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Texas land doesn't ask politics.", "textKo": "텍사스 토지는 정치를 묻지 않는다.", "context": "On ranching", "contextKo": "목장에 대해", "source": "https://en.wikipedia.org/wiki/Bass_family" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Myo day pillar in Sa month — 'siksin-gyeok', creative output, fitting energy-ranching-philanthropy diversifier.", "summaryKo": "신묘 일주 + 사월 식신격(창의적 결과물·표현)은 에너지·목장·자선이라는 다창의적 표현을 결합한 그의 경로와 호응합니다. 신금 일간의 정밀한 보석 기질이 정밀 자본 협상과 통하고, 묘목 일지의 목 기운이 회사 성장을, 사화 월지의 강한 화 기운이 결단·기세를 가리킵니다." }
+}

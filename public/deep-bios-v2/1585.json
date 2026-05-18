@@ -1,0 +1,38 @@
+{
+  "id": "1585", "name": "Andreas Pohl", "nameKo": "안드레아스 폴",
+  "netWorth": 2.5, "nationality": "DE", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Reinfried Pohl Sr. — founder of DVAG; brother of Reinfried Pohl Jr.", "familyBackgroundKo": "DVAG 창립자 라인프리트 폴 시니어의 아들; 라인프리트 폴 주니어의 형제.",
+    "education": "German higher education.", "educationKo": "독일 고등교육.",
+    "earlyLife": "Joined family DVAG financial-advisory firm; co-managed business with brother Reinfried Jr. after father's death 2014.",
+    "earlyLifeKo": "가족 DVAG 재무 자문 회사 합류; 2014 아버지 사망 후 형제 라인프리트 주니어와 사업 공동 경영.",
+    "source": "https://www.dvag.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "DVAG 가족 자본." },
+  "careerTimeline": [
+    { "year": 1990, "age": 26, "event": "Joined family DVAG financial-advisory firm.", "eventKo": "가족 DVAG 재무 자문 회사 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2005, "age": 41, "event": "Took executive role at DVAG.", "eventKo": "DVAG 임원 역할.", "whyItMatteredKo": "임원 단계." },
+    { "year": 2014, "age": 50, "event": "Father Reinfried Pohl Sr. died; co-led DVAG with brother.", "eventKo": "아버지 라인프리트 폴 시니어 사망; 형제와 DVAG 공동 주도.", "whyItMatteredKo": "지배 단계." },
+    { "year": 2020, "age": 56, "event": "DVAG continued growth as Germany's largest independent financial-advisory firm.", "eventKo": "DVAG가 독일 최대 독립 재무 자문 회사로 성장 계속.", "whyItMatteredKo": "1위 단계." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "DVAG 정점." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 50, "decisionKo": "아버지 사망 후 형제와 DVAG 공동 통제", "alternativeKo": "외부 경영인 위임", "outcomeKo": "11년 후 25억 달러 DVAG 공동 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "DVAG 사적 가족 지분 + 다각화", "industryKo": "재무 자문·보험", "businessModelKo": "독일 보험·뮤추얼 펀드 자문 + 자문 네트워크 + Allianz 파트너십", "moatKo": "독일 최대 재무 자문 회사 + 가족 사적 소유", "luckVsSkillKo": "운(40%): 가족 자본 + 독일 금융 안정. 실력(60%): 30년 사업 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-owner of DVAG; son of DVAG founder; brother of Reinfried Pohl Jr.; financial-advisory family heir.",
+    "knownForKo": "DVAG 공동 소유주; DVAG 창립자의 아들; 라인프리트 폴 주니어의 형제; 재무 자문 가족 상속인.",
+    "philanthropy": "Pohl Family Foundation supports German cultural causes.", "philanthropyKo": "폴 가족 재단이 독일 문화 자선 지원.",
+    "controversies": "Limited; standard financial-advisory regulatory scrutiny.", "controversiesKo": "제한적; 표준 재무 자문 규제 감시."
+  },
+  "characterKo": { "summaryKo": "DVAG 가족 2세대 + 형제 공동 가부장.", "tagsKo": ["DVAG", "재무 자문", "독일 가족"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis pressured German financial-advisory commissions briefly.", "descriptionKo": "글로벌 금융위기로 독일 재무 자문 수수료 잠시 압박.", "lesson": "Financial advisory faces market-cycle exposure.", "lessonKo": "재무 자문은 시장 사이클 노출 직면." },
+    { "year": 2018, "description": "EU MiFID II regulation pressured commission-based financial-advisory model.", "descriptionKo": "EU MiFID II 규제가 수수료 기반 재무 자문 모델 압박.", "lesson": "Advisory faces regulatory commission-disclosure risk.", "lessonKo": "자문은 규제 수수료 공시 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Brothers manage; markets cycle.", "textKo": "형제가 경영하고, 시장이 순환한다.", "context": "On family-business succession", "contextKo": "가족 사업 승계에 대해", "source": "https://www.dvag.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-In day pillar in Mi month — 'sanggwan-gyeok', unconventional path, fitting younger-brother co-CEO governance.", "summaryKo": "무인 일주 + 미월 상관격(파격적 표현·기존 권위 도전)은 아버지 단독 경영에서 형제 공동 경영이라는 파격 거버넌스 변환과 호응합니다. 무토 일간의 큰 산·안정 기질이 가족 자본 안정과 통하고, 인목 일지의 목 기운이 회사 성장을, 미토 월지의 토 기운이 자본 안정을 가리킵니다." }
+}

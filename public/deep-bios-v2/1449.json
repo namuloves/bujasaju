@@ -1,0 +1,38 @@
+{
+  "id": "1449", "name": "Maja Oeri", "nameKo": "마야 외리",
+  "netWorth": 2.8, "nationality": "CH", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Switzerland", "birthPlaceKo": "스위스",
+    "familyBackground": "Born to Hoffmann-Oeri family — heirs of Roche Holding founder Fritz Hoffmann-La Roche.", "familyBackgroundKo": "Roche Holding 창립자 프리츠 호프만-라 로슈의 호프만-외리 가족 후손 출신.",
+    "education": "Swiss higher education.", "educationKo": "스위스 고등교육.",
+    "earlyLife": "Major Roche Holding family heir; longtime board member of Roche; founded Schaulager art museum in Basel.",
+    "earlyLifeKo": "주요 Roche Holding 가족 상속녀; 오랜 Roche 이사회 멤버; 바젤 Schaulager 미술관 창립.",
+    "source": "https://en.wikipedia.org/wiki/Maja_Oeri"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Roche 호프만-외리 가족 자본." },
+  "careerTimeline": [
+    { "year": 1980, "age": 25, "event": "Joined Roche family stockholder pool.", "eventKo": "Roche 가족 주주 풀 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1996, "age": 41, "event": "Took family-board role at Roche Holding.", "eventKo": "Roche Holding 가족 이사회 역할.", "whyItMatteredKo": "이사회 단계." },
+    { "year": 2003, "age": 48, "event": "Founded Schaulager contemporary art museum in Basel.", "eventKo": "바젤에 Schaulager 현대 미술관 창립.", "whyItMatteredKo": "Schaulager 단계." },
+    { "year": 2020, "age": 65, "event": "Roche COVID-19 testing and Actemra COVID treatment boosted family wealth.", "eventKo": "Roche COVID-19 검사·Actemra COVID 치료가 가족 부 증가.", "whyItMatteredKo": "COVID 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $2.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러.", "whyItMatteredKo": "Roche 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 2003, "age": 48, "decisionKo": "Schaulager 현대 미술관 창립으로 자선 강화", "alternativeKo": "Roche만 운영", "outcomeKo": "22년 후 28억 달러 + 바젤 예술 후원자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Roche Holding(ROG.SW) 가족 풀 지분 + 다각화", "industryKo": "제약·예술 자선", "businessModelKo": "Roche 가족 의결권 풀 + 다각화 + 자선", "moatKo": "Roche 가족 의결권 풀 + 1세기 제약 거인", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): 자본 관리·자선." },
+  "personalTraits": {
+    "knownFor": "Roche family stockholder pool member; founder of Schaulager Basel contemporary art museum.",
+    "knownForKo": "Roche 가족 주주 풀 멤버; 바젤 Schaulager 현대 미술관 창립자.",
+    "philanthropy": "Schaulager Basel art museum; major support for contemporary art and Basel cultural causes.", "philanthropyKo": "바젤 Schaulager 미술관; 현대 예술·바젤 문화 자선 주요 지원.",
+    "controversies": "Roche family-pool governance scrutiny.", "controversiesKo": "Roche 가족 풀 거버넌스 감시."
+  },
+  "characterKo": { "summaryKo": "Roche 가족 주주 + Schaulager 미술관 창립자.", "tagsKo": ["Roche family", "Schaulager", "Basel 예술"] },
+  "failures": [
+    { "year": 2022, "description": "Post-COVID Roche stock fell as testing/treatment demand normalized.", "descriptionKo": "COVID 후 검사·치료 수요 정상화로 Roche 주식 하락.", "lesson": "Pandemic-pharma demand normalizes post-event.", "lessonKo": "팬데믹 제약 수요는 사건 후 정상화." },
+    { "year": 2008, "description": "Global financial crisis briefly compressed Roche valuation.", "descriptionKo": "글로벌 금융위기로 Roche 밸류에이션 잠시 압축.", "lesson": "Even defensive pharma faces credit-cycle exposure.", "lessonKo": "방어적 제약도 신용 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 2.7 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Art needs patient walls; pharma needs patient research.", "textKo": "예술은 인내하는 벽이 필요하고, 제약은 인내하는 연구가 필요하다.", "context": "On Schaulager mission", "contextKo": "Schaulager 미션에 대해", "source": "https://www.schaulager.org" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-In day pillar in Sa month — 'sanggwan-gyeok', unconventional output, fitting pharma-heiress-turned-art-museum-founder.", "summaryKo": "무인 일주 + 사월 상관격(파격적 표현·기존 권위 도전)은 제약 가족 상속녀가 현대 미술관 창립이라는 파격 표현으로 자본을 변환한 그의 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 가족 자본 안정과 통하고, 인목 일지의 목 기운이 회사 성장을, 사화 월지의 강한 화 기운이 결단·표현을 가리킵니다." }
+}

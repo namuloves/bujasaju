@@ -1,0 +1,38 @@
+{
+  "id": "1134", "name": "Herbert Wertheim", "nameKo": "허버트 A. 베르트하임",
+  "netWorth": 3.7, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Philadelphia, Pennsylvania, USA", "birthPlaceKo": "미국 펜실베이니아주 필라델피아",
+    "familyBackground": "Born to American Jewish family; father was Holocaust survivor.", "familyBackgroundKo": "미국 유대인 가정에서 출생; 아버지는 홀로코스트 생존자.",
+    "education": "Brevard Community College; Florida Institute of Technology.", "educationKo": "브레바드 커뮤니티 칼리지; 플로리다 공과대학교.",
+    "earlyLife": "Trained as optometrist; founded Brain Power Inc. (BPI) optical-lens-coating chemistry company 1969; sold technology globally; became major long-term stock investor (Apple, Microsoft, Berkshire).",
+    "earlyLifeKo": "검안사 훈련; 1969 Brain Power Inc.(BPI) 안경 렌즈 코팅 화학 회사 창립; 글로벌 기술 매각; 주요 장기 주식 투자자(애플·마이크로소프트·버크셔)가 됨.",
+    "source": "https://en.wikipedia.org/wiki/Herbert_Wertheim"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "BPI 매각 + 장기 주식 투자." },
+  "careerTimeline": [
+    { "year": 1965, "age": 26, "event": "Began optometry practice.", "eventKo": "검안사 진료 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1969, "age": 30, "event": "Founded BPI optical lens-coating chemistry company.", "eventKo": "BPI 안경 렌즈 코팅 화학 회사 창립.", "whyItMatteredKo": "BPI 출발선." },
+    { "year": 1985, "age": 46, "event": "Began long-term buy-and-hold stock investing.", "eventKo": "장기 매수 보유 주식 투자 시작.", "whyItMatteredKo": "투자 단계." },
+    { "year": 2018, "age": 79, "event": "Forbes revealed his hidden $2.3B+ fortune from quiet stock accumulation.", "eventKo": "포브스가 그의 조용한 주식 누적에서 23억+ 달러 숨은 부 공개.", "whyItMatteredKo": "공개 단계." },
+    { "year": 2025, "age": 86, "event": "Personal net worth at $3.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러.", "whyItMatteredKo": "Wertheim 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 46, "decisionKo": "BPI 운영 외 장기 주식 매수 보유 시작", "alternativeKo": "BPI 매각 후 은퇴", "outcomeKo": "40년 후 37억 달러 + 미국 가장 비밀스러운 투자자 한 명" }],
+  "moneyMechanics": { "primaryRevenueKo": "BPI 사적 + Apple·Microsoft·Berkshire·Intel 등 장기 주식", "industryKo": "광학 화학 + 장기 주식 투자", "businessModelKo": "안경 렌즈 코팅 제조 + 절대 매도 없는 장기 매수 보유", "moatKo": "60년 검안사 + 안경 렌즈 코팅 1위 + 장기 주식 인내", "luckVsSkillKo": "운(30%): 1980-90년대 기술주 부상. 실력(70%): 60년 일관 매수 보유 + 안경 렌즈 코팅." },
+  "personalTraits": {
+    "knownFor": "Founder of BPI; one of richest optometrists; quiet long-term investor.",
+    "knownForKo": "BPI 창립자; 가장 부유한 검안사 중 한 명; 조용한 장기 투자자.",
+    "philanthropy": "Wertheim School of Medicine at Florida International University; Wertheim College of Engineering at University of Florida.", "philanthropyKo": "플로리다 국제 대학교 베르트하임 의대; 플로리다 대학교 베르트하임 공과대학.",
+    "controversies": "Limited; private-investment low scrutiny.", "controversiesKo": "제한적; 사적 투자 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "BPI 안경 렌즈 코팅 + 60년 비밀 장기 주식 투자자.", "tagsKo": ["BPI", "Wertheim", "장기 주식 투자"] },
+  "failures": [
+    { "year": 2001, "description": "Dot-com crash compressed his tech-heavy portfolio briefly; held through.", "descriptionKo": "닷컴 폭락이 그의 기술 중심 포트폴리오 잠시 압축; 보유 유지.", "lesson": "Long-term holding requires withstanding deep drawdowns.", "lessonKo": "장기 보유는 깊은 낙폭을 견뎌야 한다." },
+    { "year": 2008, "description": "Financial crisis halved portfolio briefly; held through.", "descriptionKo": "금융위기로 포트폴리오 잠시 반토막; 보유 유지.", "lesson": "Buy-and-hold survives crises through patience.", "lessonKo": "매수 보유는 인내로 위기를 생존한다." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I never sell.", "textKo": "나는 절대 팔지 않는다.", "context": "On long-term investing", "contextKo": "장기 투자에 대해", "source": "https://en.wikipedia.org/wiki/Herbert_Wertheim" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sin day pillar in Sa month — 'jeongin-gyeok', formal credential authority, fitting optometrist-and-credential-investor.", "summaryKo": "경신 일주 + 사월 정인격(공식 자격·학문·문서 권위)은 검안사 자격 + 안경 렌즈 코팅 정통 화학 + 정통 주식 등록이라는 정통 자격·문서 경로와 호응합니다. 경금 일간 + 신금 일지의 강한 금 기운이 정밀 광학·정밀 투자를 이중 강조하고, 사화 월지의 강한 화 기운이 결단을 가리킵니다." }
+}

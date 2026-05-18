@@ -1,0 +1,39 @@
+{
+  "id": "1593", "name": "Tom Ford", "nameKo": "토머스 칼라일 포드",
+  "netWorth": 2.5, "nationality": "US", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Austin, Texas, USA", "birthPlaceKo": "미국 텍사스주 오스틴",
+    "familyBackground": "Born to American family; raised in Texas and New Mexico.", "familyBackgroundKo": "미국 가정에서 출생; 텍사스·뉴멕시코 성장.",
+    "education": "Parsons School of Design (NYC).", "educationKo": "파슨스 디자인 스쿨(뉴욕).",
+    "earlyLife": "Designer at Perry Ellis and Cathy Hardwick; joined Gucci 1990; transformed Gucci into 1990s luxury sensation; launched Tom Ford brand 2005; sold Tom Ford brand to Estée Lauder for $2.8B 2023.",
+    "earlyLifeKo": "페리 엘리스·캐시 하드윅 디자이너; 1990 Gucci 합류; Gucci를 1990년대 럭셔리 센세이션으로 변환; 2005 Tom Ford 브랜드 출시; 2023 Tom Ford 브랜드를 에스티 로더에 28억 달러 매각.",
+    "source": "https://en.wikipedia.org/wiki/Tom_Ford"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Tom Ford 브랜드 + 에스티 로더 매각." },
+  "careerTimeline": [
+    { "year": 1986, "age": 25, "event": "Began at Perry Ellis and Cathy Hardwick in NYC.", "eventKo": "뉴욕 페리 엘리스·캐시 하드윅에서 시작.", "whyItMatteredKo": "패션 출발선." },
+    { "year": 1994, "age": 33, "event": "Became Gucci creative director; transformed sleepy brand into 1990s luxury icon.", "eventKo": "Gucci 크리에이티브 디렉터; 잠잠한 브랜드를 1990년대 럭셔리 아이콘으로 변환.", "whyItMatteredKo": "Gucci 시대." },
+    { "year": 2004, "age": 43, "event": "Left Gucci Group after corporate disputes with PPR (now Kering).", "eventKo": "PPR(현 케어링)과의 분쟁 후 Gucci Group 떠남.", "whyItMatteredKo": "Gucci 탈퇴." },
+    { "year": 2005, "age": 44, "event": "Founded Tom Ford brand; expanded into fragrance, eyewear, menswear.", "eventKo": "Tom Ford 브랜드 창립; 향수·안경·남성복 확장.", "whyItMatteredKo": "Tom Ford 브랜드 출발선." },
+    { "year": 2023, "age": 62, "event": "Sold Tom Ford brand to Estée Lauder for $2.8B.", "eventKo": "Tom Ford 브랜드를 에스티 로더에 28억 달러 매각.", "whyItMatteredKo": "엑시트 정점." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 44, "decisionKo": "Gucci 떠난 후 Tom Ford 브랜드 창립", "alternativeKo": "타 디자인 하우스", "outcomeKo": "18년 후 28억 달러 매각 + 25억 달러 부" }],
+  "moneyMechanics": { "primaryRevenueKo": "Tom Ford 매각 대금 + 다각화 투자", "industryKo": "럭셔리 패션·뷰티", "businessModelKo": "디자이너 명성 + 럭셔리 브랜드 + 향수 라이선스 + 매각", "moatKo": "Tom Ford 개인 브랜드 + Gucci 시대 명성", "luckVsSkillKo": "운(30%): 1990년대 럭셔리 부상. 실력(70%): Gucci·Tom Ford 두 변환." },
+  "personalTraits": {
+    "knownFor": "Designer-founder Tom Ford; former Gucci creative director; film director (A Single Man, Nocturnal Animals).",
+    "knownForKo": "디자이너 창립자 Tom Ford; 전 Gucci 크리에이티브 디렉터; 영화 감독(싱글 맨·녹터널 애니멀스).",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Gucci 'porno chic' 1990s controversies; openly gay luxury designer in conservative era.",
+    "controversiesKo": "Gucci 1990년대 '포르노 시크' 논쟁; 보수 시대 공개적 게이 럭셔리 디자이너."
+  },
+  "characterKo": { "summaryKo": "Gucci 변환자 + Tom Ford 브랜드 + 영화 감독 + 매각.", "tagsKo": ["Tom Ford", "Gucci", "에스티 로더 매각"] },
+  "failures": [
+    { "year": 2004, "description": "Departed Gucci after losing PPR power struggle; lost claim to Gucci legacy.", "descriptionKo": "PPR 권력 투쟁 패배 후 Gucci 떠남; Gucci 유산 청구권 상실.", "lesson": "Designer-vs-conglomerate power struggles favor capital.", "lessonKo": "디자이너 대 대기업 권력 투쟁은 자본에 유리." },
+    { "year": 2020, "description": "COVID-19 closed luxury boutiques globally; Tom Ford revenue plunged before recovery.", "descriptionKo": "COVID-19이 럭셔리 부티크 폐쇄; Tom Ford 매출 회복 전 급락.", "lesson": "Luxury faces brief pandemic-shock exposure.", "lessonKo": "럭셔리는 짧은 팬데믹 충격 노출." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 0.8 }, { "year": 2023, "netWorth": 2.2 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Sex sells. But style endures.", "textKo": "섹스는 팔린다. 그러나 스타일은 지속된다.", "context": "On Gucci marketing", "contextKo": "Gucci 마케팅에 대해", "source": "https://www.tomford.com" }],
+  "books": { "authored": [{ "title": "Tom Ford (Rizzoli)", "year": 2004 }], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Jin day pillar in Sin month — 'pyeonjae-gyeok', large external capital, fitting brand sale to conglomerate.", "summaryKo": "임진 일주 + 신월 편재격(크고 유동적인 외부 자본)은 Gucci 그룹 변환 + Tom Ford 브랜드를 에스티 로더라는 거대 외부 자본에 매각한 그의 경로와 호응합니다. 임수 일간의 큰 바다 기질이 글로벌 럭셔리 자본 유동과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 신금 월지의 금 기운이 정밀 재단·향수 제조 도구를 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1377", "name": "Robert Sands", "nameKo": "로버트 샌즈",
+  "netWorth": 3.0, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Marvin Sands — founder of Constellation Brands; brother of Richard Sands.", "familyBackgroundKo": "Constellation Brands 창립자 마빈 샌즈의 아들; 리처드 샌즈의 형제.",
+    "education": "Bucknell University; University of Pennsylvania Law School.", "educationKo": "버크넬 대학교; 펜실베이니아 대학교 로스쿨.",
+    "earlyLife": "Joined family Constellation Brands as general counsel; rose to CEO 2007-2018; led $5.8B Canopy Growth cannabis investment 2017-2018; brother of Richard Sands.",
+    "earlyLifeKo": "가족 Constellation Brands 법률 고문 합류; 2007-2018 CEO 진급; 2017-2018 Canopy Growth 카나비스 58억 달러 투자 주도; 리처드 샌즈의 형제.",
+    "source": "https://en.wikipedia.org/wiki/Robert_Sands_(businessman)"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Constellation Brands 가족 자본." },
+  "careerTimeline": [
+    { "year": 1986, "age": 28, "event": "Joined family Constellation Brands as general counsel.", "eventKo": "가족 Constellation Brands 법률 고문 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2007, "age": 49, "event": "Became CEO of Constellation Brands.", "eventKo": "Constellation Brands CEO 취임.", "whyItMatteredKo": "CEO 단계." },
+    { "year": 2013, "age": 55, "event": "Constellation acquired Corona/Modelo US rights from AB InBev for $5.3B; transformative deal.", "eventKo": "Constellation이 AB InBev에서 코로나·모델로 미국 권리를 53억 달러에 인수; 변환적 거래.", "whyItMatteredKo": "Modelo 인수." },
+    { "year": 2017, "age": 59, "event": "Invested $4B in Canopy Growth Canadian cannabis company (later expanded to $5.8B).", "eventKo": "캐나다 카나비스 회사 Canopy Growth에 40억 달러 투자(이후 58억 달러로 확장).", "whyItMatteredKo": "Canopy 단계." },
+    { "year": 2025, "age": 67, "event": "Personal net worth at $3B per Forbes Real-Time; Canopy stake written down significantly.", "eventKo": "포브스 실시간 기준 개인 순자산 30억 달러; Canopy 지분 크게 손실 처리.", "whyItMatteredKo": "Constellation + Canopy 정점·손실." }
+  ],
+  "turningPoints": [{ "year": 2013, "age": 55, "decisionKo": "AB InBev에서 코로나·모델로 미국 권리 53억 달러 인수", "alternativeKo": "와인 집중", "outcomeKo": "12년 후 미국 1위 수입 맥주 + 30억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Constellation Brands(STZ) 가족 지분 + 다각화", "industryKo": "주류·맥주·와인", "businessModelKo": "수입 맥주(코로나·모델로) + 와인·증류주 + 카나비스 지분", "moatKo": "미국 1위 수입 맥주 권리 + 가족 의결권", "luckVsSkillKo": "운(50%): 가족 자본 + 2013 AB InBev 매각 강제. 실력(50%): 13년 CEO 일관성." },
+  "personalTraits": {
+    "knownFor": "Former CEO of Constellation Brands; led $5.8B Canopy Growth cannabis bet; brother of Richard Sands.",
+    "knownForKo": "전 Constellation Brands CEO; 58억 달러 Canopy Growth 카나비스 베팅 주도; 리처드 샌즈의 형제.",
+    "philanthropy": "Sands Family Foundation supports Rochester NY area and higher education.", "philanthropyKo": "샌즈 가족 재단이 뉴욕 로체스터 지역·고등 교육 지원.",
+    "controversies": "$5.8B Canopy Growth investment lost ~80%+ value; questioned cannabis-strategy timing.",
+    "controversiesKo": "58억 달러 Canopy Growth 투자가 약 80%+ 가치 손실; 카나비스 전략 타이밍 의문."
+  },
+  "characterKo": { "summaryKo": "Constellation Brands 가족 + Modelo 인수 + Canopy 손실.", "tagsKo": ["Constellation Brands", "Corona", "Canopy Growth"] },
+  "failures": [
+    { "year": 2018, "description": "Canopy Growth $5.8B investment lost 80%+ value as cannabis market disappointed.", "descriptionKo": "카나비스 시장 실망으로 Canopy Growth 58억 달러 투자가 80%+ 가치 손실.", "lesson": "Cross-industry mega-bets face execution and regulatory risk.", "lessonKo": "산업 간 거대 베팅은 실행·규제 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 closed bars/restaurants briefly; on-premise beer demand plunged.", "descriptionKo": "COVID-19이 바·레스토랑 잠시 폐쇄; 영업 매장 맥주 수요 급락.", "lesson": "Alcohol on-premise faces pandemic exposure.", "lessonKo": "주류 영업 매장은 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.8 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Corona's growth proved the immigrant palate is the American palate.", "textKo": "코로나의 성장은 이민자의 입맛이 미국의 입맛임을 증명했다.", "context": "On Constellation strategy", "contextKo": "Constellation 전략에 대해", "source": "https://www.cbrands.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-O day pillar in O month — 'jeongin-gyeok', formal credential authority, fitting Penn-Law-trained CEO.", "summaryKo": "무오 일주 + 오월 정인격(공식 자격·학문·문서 권위)은 펜 법대 자격 + Constellation CEO라는 정통 학문·기관 권위 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 가족 자본 가부장과 통하고, 오화 일지·오월 월지의 극강 화 기운이 결단·표현·기세를 이중 강조합니다." }
+}

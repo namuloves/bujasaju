@@ -1,0 +1,39 @@
+{
+  "id": "1610", "name": "Bret Taylor", "nameKo": "브렛 스티븐 테일러",
+  "netWorth": 2.5, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Stanford University (CS).", "educationKo": "스탠퍼드 대학교(CS).",
+    "earlyLife": "Co-created Google Maps; co-founded FriendFeed (sold to Facebook 2009); Facebook CTO 2009-2012; co-founded Quip (sold to Salesforce 2016); Salesforce co-CEO 2021-2022; co-founded Sierra AI 2023; chair of OpenAI 2023-.",
+    "earlyLifeKo": "Google Maps 공동 창출; FriendFeed 공동 창립(2009 Facebook 매각); 2009-2012 Facebook CTO; Quip 공동 창립(2016 Salesforce 매각); 2021-2022 Salesforce 공동 CEO; 2023 Sierra AI 공동 창립; 2023- OpenAI 의장.",
+    "source": "https://en.wikipedia.org/wiki/Bret_Taylor"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "다중 창업 매각 + Salesforce·OpenAI 임원." },
+  "careerTimeline": [
+    { "year": 2003, "age": 23, "event": "Joined Google; co-created Google Maps.", "eventKo": "Google 합류; Google Maps 공동 창출.", "whyItMatteredKo": "Google Maps 출발선." },
+    { "year": 2007, "age": 27, "event": "Co-founded FriendFeed; sold to Facebook 2009 for $50M.", "eventKo": "FriendFeed 공동 창립; 2009 Facebook에 5,000만 달러 매각.", "whyItMatteredKo": "1차 엑시트." },
+    { "year": 2016, "age": 36, "event": "Sold Quip to Salesforce for $750M.", "eventKo": "Quip을 Salesforce에 7억 5,000만 달러 매각.", "whyItMatteredKo": "2차 엑시트." },
+    { "year": 2022, "age": 42, "event": "Salesforce co-CEO; departed after one year.", "eventKo": "Salesforce 공동 CEO; 1년 후 사임.", "whyItMatteredKo": "Salesforce 단계." },
+    { "year": 2023, "age": 43, "event": "Co-founded Sierra AI; became OpenAI chair after Sam Altman crisis.", "eventKo": "Sierra AI 공동 창립; 샘 올트먼 위기 후 OpenAI 의장.", "whyItMatteredKo": "Sierra + OpenAI 정점." }
+  ],
+  "turningPoints": [{ "year": 2023, "age": 43, "decisionKo": "Sierra AI 창립 + OpenAI 의장 수락", "alternativeKo": "Salesforce 계열 복귀", "outcomeKo": "2년 후 25억 달러 AI 시대 핵심 인물" }],
+  "moneyMechanics": { "primaryRevenueKo": "FriendFeed·Quip 매각 대금 + Salesforce 보상 + Sierra AI 지분", "industryKo": "기술·AI·SaaS", "businessModelKo": "다중 창업 매각 + 임원 보상 + AI 스타트업 지분", "moatKo": "스탠퍼드·실리콘밸리 인맥 + 3회 창업 트랙", "luckVsSkillKo": "운(40%): 2007·2016·2023 정확한 타이밍. 실력(60%): 3회 일관 성공." },
+  "personalTraits": {
+    "knownFor": "Co-creator Google Maps; OpenAI chair; multi-founder serial entrepreneur.",
+    "knownForKo": "Google Maps 공동 창출자; OpenAI 의장; 다중 창업 연쇄 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2022 Salesforce co-CEO short tenure; OpenAI governance reform questions.",
+    "controversiesKo": "2022 Salesforce 공동 CEO 단기 재임; OpenAI 거버넌스 개혁 의문."
+  },
+  "characterKo": { "summaryKo": "Google Maps + FriendFeed + Quip + Salesforce + OpenAI 의장 + Sierra.", "tagsKo": ["Google Maps", "OpenAI 의장", "Sierra AI"] },
+  "failures": [
+    { "year": 2022, "description": "Salesforce co-CEO tenure under one year; left amid activist pressure on costs.", "descriptionKo": "Salesforce 공동 CEO 재임 1년 미만; 비용 액티비스트 압박 가운데 사임.", "lesson": "Co-CEO succession at large public companies is fragile.", "lessonKo": "거대 공개 회사의 공동 CEO 승계는 취약." },
+    { "year": 2023, "description": "OpenAI Sam Altman firing crisis required emergency board reconstitution under his chairmanship.", "descriptionKo": "샘 올트먼 해임 위기로 그의 의장직 하에 긴급 이사회 재구성 필요.", "lesson": "AI governance under crisis tests board chairs.", "lessonKo": "위기 하 AI 거버넌스가 이사회 의장을 시험한다." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 0.5 }, { "year": 2023, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.0 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Build the next layer before the last one finishes shipping.", "textKo": "이전 계층 배송 완료 전 다음 계층을 만들어라.", "context": "On serial founding", "contextKo": "연쇄 창업에 대해", "source": "https://sierra.ai" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Sin day pillar in Mi month — 'jeongin-gyeok', formal academic authority, fitting Stanford-trained CTO and board chair.", "summaryKo": "갑신 일주 + 미월 정인격(공식 자격·학문·문서 권위)은 스탠퍼드 CS 자격 + Facebook CTO + OpenAI 의장이라는 정통 학문·기관 권위 경로와 호응합니다. 갑목 일간의 큰 나무·우직한 성장 기질이 회사 성장과 통하고, 신금 일지의 금 기운이 정밀 기술 도구를, 미토 월지의 토 기운이 자본 안정을 가리킵니다." }
+}

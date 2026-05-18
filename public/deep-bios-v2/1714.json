@@ -1,0 +1,38 @@
+{
+  "id": "1714", "name": "Hans Jakob Limbach", "nameKo": "한스 야콥 림바흐",
+  "netWorth": 2.3, "nationality": "DE", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to German family.", "familyBackgroundKo": "독일 가정에서 출생.",
+    "education": "Medical doctorate in Germany.", "educationKo": "독일 의학 박사.",
+    "earlyLife": "Founded Labor Limbach in 1979 — German medical laboratory chain; built into Germany's largest private medical-lab group; sold majority to Cinven 2019.",
+    "earlyLifeKo": "1979 Labor Limbach 창립 — 독일 의료 실험실 체인; 독일 최대 사적 의료 실험실 그룹 구축; 2019 Cinven에 다수 지분 매각.",
+    "source": "https://www.limbachgruppe.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Labor Limbach 창립자 매각." },
+  "careerTimeline": [
+    { "year": 1973, "age": 26, "event": "Began medical career as pathologist.", "eventKo": "병리학자 의료 경력 시작.", "whyItMatteredKo": "의료 출발선." },
+    { "year": 1979, "age": 32, "event": "Founded Labor Limbach medical laboratory.", "eventKo": "Labor Limbach 의료 실험실 창립.", "whyItMatteredKo": "Limbach 출발선." },
+    { "year": 2000, "age": 53, "event": "Expanded Limbach Group across Germany via lab acquisitions.", "eventKo": "실험실 인수로 Limbach 그룹 독일 전역 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2019, "age": 72, "event": "Sold majority of Limbach Group to Cinven PE for ~€1B.", "eventKo": "Limbach 그룹 다수 지분을 Cinven PE에 약 10억 유로 매각.", "whyItMatteredKo": "엑시트." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Limbach 매각 정점." }
+  ],
+  "turningPoints": [{ "year": 2019, "age": 72, "decisionKo": "Limbach 다수 지분 Cinven에 10억 유로 매각", "alternativeKo": "가족 회사 유지", "outcomeKo": "6년 후 23억 달러 + COVID 임상 검사 호황 시점" }],
+  "moneyMechanics": { "primaryRevenueKo": "Limbach 매각 대금 + 잔여 지분 + 다각화", "industryKo": "의료 진단·실험실", "businessModelKo": "독일 의료 실험실 + 분자 진단 + COVID 검사", "moatKo": "독일 최대 사적 실험실 + 의사 인맥 + 보험 청구 노하우", "luckVsSkillKo": "운(50%): 2019 매각 + COVID 호황. 실력(50%): 40년 의료 실험실 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Limbach Gruppe medical laboratory chain; major German private-medicine entrepreneur.",
+    "knownForKo": "Limbach Gruppe 의료 실험실 체인 창립자; 주요 독일 사적 의료 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; private-laboratory regulatory scrutiny.", "controversiesKo": "제한적; 사적 실험실 규제 감시."
+  },
+  "characterKo": { "summaryKo": "Labor Limbach 40년 + Cinven 매각.", "tagsKo": ["Labor Limbach", "의료 실험실", "Cinven 매각"] },
+  "failures": [
+    { "year": 2008, "description": "German healthcare-budget cuts pressured lab reimbursement rates.", "descriptionKo": "독일 의료 예산 삭감이 실험실 환급률 압박.", "lesson": "Medical labs face government-budget exposure.", "lessonKo": "의료 실험실은 정부 예산 노출 직면." },
+    { "year": 2022, "description": "Post-COVID test-volume normalization compressed Limbach revenue from 2021 peak.", "descriptionKo": "COVID 후 검사량 정상화로 Limbach 매출이 2021 정점에서 압축.", "lesson": "Pandemic-driven labs face post-event normalization.", "lessonKo": "팬데믹 주도 실험실은 사건 후 정상화 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.8 }, { "year": 2019, "netWorth": 1.5 }, { "year": 2021, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Diagnosis precedes treatment; we are the first sentence of medicine.", "textKo": "진단은 치료에 앞선다; 우리는 의학의 첫 문장이다.", "context": "On Limbach mission", "contextKo": "Limbach 미션에 대해", "source": "https://www.limbachgruppe.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Ja day pillar in Sul month — 'siksin-gyeok', creative output, fitting pathologist-turned-lab-chain founder.", "summaryKo": "무자 일주 + 술월 식신격(창의적 결과물·표현)은 병리학자가 의료 실험실 체인이라는 창의적 의료 인프라를 만든 그의 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 안정과 통하고, 자수 일지의 수 기운이 자본 유동성을, 술토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1492", "name": "Bernard Saul II", "nameKo": "버나드 프랜시스 솔",
+  "netWorth": 2.7, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Washington DC, USA", "birthPlaceKo": "미국 워싱턴 DC",
+    "familyBackground": "Born to B.F. Saul — founder of B.F. Saul Company real estate.", "familyBackgroundKo": "B.F. Saul Company 부동산 창립자 B.F. 솔의 아들.",
+    "education": "Georgetown University.", "educationKo": "조지타운 대학교.",
+    "earlyLife": "Joined family B.F. Saul Company; built into major DC-area real estate developer; founded Chevy Chase Bank (sold to Capital One 2009 for $520M).",
+    "earlyLifeKo": "가족 B.F. Saul Company 합류; 주요 DC 지역 부동산 개발사로 구축; Chevy Chase Bank 창립(2009 Capital One에 5억 2,000만 달러 매각).",
+    "source": "https://en.wikipedia.org/wiki/B._F._Saul_II"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "B.F. Saul 가족 자본." },
+  "careerTimeline": [
+    { "year": 1955, "age": 23, "event": "Joined family B.F. Saul Company.", "eventKo": "가족 B.F. Saul Company 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1970, "age": 38, "event": "Took executive role expanding DC-area real estate.", "eventKo": "임원 역할로 DC 지역 부동산 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 1996, "age": 64, "event": "Built Chevy Chase Bank into largest DC-area bank.", "eventKo": "Chevy Chase Bank를 DC 지역 최대 은행으로 구축.", "whyItMatteredKo": "은행 단계." },
+    { "year": 2009, "age": 77, "event": "Sold Chevy Chase Bank to Capital One for $520M.", "eventKo": "Chevy Chase Bank를 Capital One에 5억 2,000만 달러 매각.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2025, "age": 93, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "Saul 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 1996, "age": 64, "decisionKo": "Chevy Chase Bank 구축으로 부동산 + 은행 결합", "alternativeKo": "부동산만 잔류", "outcomeKo": "29년 후 27억 달러 + DC 지역 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "B.F. Saul Company 사적 자본 + Capital One 매각 대금 + 다각화", "industryKo": "부동산·은행 매각·다각화", "businessModelKo": "DC 부동산 + 호텔 + 매각 자본 + 가족 사적 소유", "moatKo": "DC 지역 부동산 + 70년 가족 트랙", "luckVsSkillKo": "운(50%): 가족 자본 + DC 정부 부동산 수요. 실력(50%): 70년 가족 운영." },
+  "personalTraits": {
+    "knownFor": "B.F. Saul family patriarch; former founder of Chevy Chase Bank; DC-area real-estate magnate.",
+    "knownForKo": "B.F. Saul 가족 가부장; 전 Chevy Chase Bank 창립자; DC 지역 부동산 거물.",
+    "philanthropy": "Saul Foundation supports DC-area education and arts.", "philanthropyKo": "솔 재단이 DC 지역 교육·예술 자선 지원.",
+    "controversies": "Limited; private-family scrutiny.", "controversiesKo": "제한적; 사적 가족 감시."
+  },
+  "characterKo": { "summaryKo": "B.F. Saul 70년 + Chevy Chase Bank + DC 부동산.", "tagsKo": ["B.F. Saul", "Chevy Chase Bank", "DC real estate"] },
+  "failures": [
+    { "year": 2008, "description": "Chevy Chase Bank wrote down option-ARM mortgages; forced sale to Capital One 2009.", "descriptionKo": "Chevy Chase Bank가 옵션 ARM 모기지 손실 처리; 2009 Capital One 강제 매각.", "lesson": "Regional banks face mortgage-cycle exposure.", "lessonKo": "지역 은행은 모기지 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted DC commercial real-estate demand briefly.", "descriptionKo": "COVID-19이 DC 상업 부동산 수요 잠시 혼란.", "lesson": "Office real estate faces pandemic exposure.", "lessonKo": "오피스 부동산은 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.7 }, { "year": 2020, "netWorth": 1.9 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Washington land is closest to the printing press.", "textKo": "워싱턴 토지는 인쇄기에 가장 가깝다.", "context": "On DC real estate", "contextKo": "DC 부동산에 대해", "source": "https://en.wikipedia.org/wiki/B._F._Saul_II" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-O day pillar in Jin month — 'pyeonin-gyeok', non-traditional knowledge, fitting real-estate-and-banking diversifier.", "summaryKo": "병오 일주 + 진월 편인격(비전통적 학문·문서 권위)은 부동산 + 은행 + DC 정부 부동산이라는 비전통적 권위 결합 경로와 호응합니다. 병화 일간 + 오화 일지의 극강 화 기운이 결단·기세를 이중 강조하고, 진토 월지의 토 기운이 자본 안정·부동산 기반을 가리킵니다." }
+}

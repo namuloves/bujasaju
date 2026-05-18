@@ -1,0 +1,39 @@
+{
+  "id": "1381", "name": "Dmitry Pumpyansky", "nameKo": "드미트리 알렉산드로비치 품판스키",
+  "netWorth": 3.0, "nationality": "RU", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Ekaterinburg, Russia (USSR)", "birthPlaceKo": "소련 예카테린부르크",
+    "familyBackground": "Born to Soviet family.", "familyBackgroundKo": "소련 가정에서 출생.",
+    "education": "Ural Polytechnic Institute.", "educationKo": "우랄 폴리테크닉 인스티튜트.",
+    "earlyLife": "Built career in Russian metallurgy; founded TMK (Pipe Metallurgical Company) in 2001 — Russia's largest steel pipe producer; sold most assets after 2022 sanctions.",
+    "earlyLifeKo": "러시아 야금 경력 구축; 2001 TMK(파이프 야금 회사) 창립 — 러시아 최대 강관 생산사; 2022 제재 후 대부분 자산 매각.",
+    "source": "https://en.wikipedia.org/wiki/Dmitry_Pumpyansky"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "TMK 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1986, "age": 22, "event": "Began career in Soviet/Russian metallurgy.", "eventKo": "소련·러시아 야금 경력 시작.", "whyItMatteredKo": "야금 출발선." },
+    { "year": 2001, "age": 37, "event": "Founded TMK Pipe Metallurgical Company.", "eventKo": "TMK 파이프 야금 회사 창립.", "whyItMatteredKo": "TMK 출발선." },
+    { "year": 2006, "age": 42, "event": "TMK IPO on London Stock Exchange.", "eventKo": "TMK 런던 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2022, "age": 58, "event": "EU sanctions hit TMK and Pumpyansky personally; divested key assets.", "eventKo": "EU 제재가 TMK·품판스키 개인 타격; 핵심 자산 매각.", "whyItMatteredKo": "제재 단계." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 30억 달러.", "whyItMatteredKo": "TMK 후 정점." }
+  ],
+  "turningPoints": [{ "year": 2001, "age": 37, "decisionKo": "TMK 파이프 야금 회사 창립", "alternativeKo": "야금 컨설팅 잔류", "outcomeKo": "24년 후 30억 달러 + 러시아 강관 1위" }],
+  "moneyMechanics": { "primaryRevenueKo": "TMK 잔여 지분 + 다각화 자산", "industryKo": "강관·야금", "businessModelKo": "러시아 강관 + 석유·가스 산업 공급 + 글로벌 시장", "moatKo": "러시아 최대 강관 생산 + 야금 노하우", "luckVsSkillKo": "운(50%): 러시아 석유·가스 자본 사이클. 실력(50%): 야금 전문성." },
+  "personalTraits": {
+    "knownFor": "Founder of TMK Pipe Metallurgical Company; Russian steel-pipe magnate.",
+    "knownForKo": "TMK 파이프 야금 회사 창립자; 러시아 강관 거물.",
+    "philanthropy": "Sinara Group supports Ekaterinburg cultural and educational causes.", "philanthropyKo": "Sinara Group이 예카테린부르크 문화·교육 자선 지원.",
+    "controversies": "2022 EU and UK sanctions for Ukraine-war related stance; personal assets frozen.",
+    "controversiesKo": "2022 우크라이나 전쟁 관련 입장으로 EU·영국 제재; 개인 자산 동결."
+  },
+  "characterKo": { "summaryKo": "TMK 러시아 강관 1위 + 2022 제재 노출.", "tagsKo": ["TMK", "러시아 강관", "2022 제재"] },
+  "failures": [
+    { "year": 2022, "description": "EU/UK personal sanctions froze assets in Europe; TMK delisted from LSE.", "descriptionKo": "EU·영국 개인 제재가 유럽 자산 동결; TMK가 LSE 상장 폐지.", "lesson": "Russian wealth faces maximum sanctions-exposure post-2022.", "lessonKo": "러시아 부는 2022 후 최대 제재 노출 직면." },
+    { "year": 2015, "description": "Oil-price crash and Crimea sanctions compressed Russian pipe-steel demand.", "descriptionKo": "유가 폭락·크림 제재로 러시아 강관 수요 압축.", "lesson": "Russian metallurgy faces commodity+sanctions exposure.", "lessonKo": "러시아 야금은 상품 + 제재 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Steel pipes carry the bloodstream of energy nations.", "textKo": "강관은 에너지 국가의 혈류를 운반한다.", "context": "On TMK business", "contextKo": "TMK 사업에 대해", "source": "https://en.wikipedia.org/wiki/Dmitry_Pumpyansky" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-O day pillar in Myo month — 'jeonggwan-gyeok', formal regulated authority, fitting heavily-regulated steel-pipe magnate.", "summaryKo": "경오 일주 + 묘월 정관격(공식 권위·규제 아래에서 일하는 구조)은 강한 러시아·EU 규제·제재 권위 환경 하의 강관 산업 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 강철 산업과 통하고, 오화 일지의 화 기운이 결단을, 묘목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

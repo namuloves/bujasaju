@@ -1,0 +1,39 @@
+{
+  "id": "1389", "name": "Nicolas Berggruen", "nameKo": "니콜라스 베르그루엔",
+  "netWorth": 2.9, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Paris, France", "birthPlaceKo": "프랑스 파리",
+    "familyBackground": "Born to Heinz Berggruen — German-Jewish art dealer.", "familyBackgroundKo": "독일·유대인 미술상 하인츠 베르그루엔의 아들.",
+    "education": "NYU.", "educationKo": "뉴욕대학교.",
+    "earlyLife": "Founded Berggruen Holdings hedge fund/family office; called 'homeless billionaire' for decades of hotel living; founded Berggruen Institute (governance think tank); founded Berggruen Prize for Philosophy.",
+    "earlyLifeKo": "Berggruen Holdings 헤지펀드·가족 사무소 창립; 수십 년 호텔 거주로 '집 없는 억만장자' 별명; Berggruen Institute(거버넌스 싱크탱크) 창립; Berggruen 철학 상 창립.",
+    "source": "https://en.wikipedia.org/wiki/Nicolas_Berggruen"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "베르그루엔 가족 + 헤지펀드·PE." },
+  "careerTimeline": [
+    { "year": 1984, "age": 23, "event": "Began at Bass Brothers Enterprises after NYU.", "eventKo": "NYU 후 베이스 브라더스 엔터프라이즈에서 시작.", "whyItMatteredKo": "투자 출발선." },
+    { "year": 1988, "age": 27, "event": "Founded Berggruen Holdings.", "eventKo": "Berggruen Holdings 창립.", "whyItMatteredKo": "Holdings 출발선." },
+    { "year": 2010, "age": 49, "event": "Founded Berggruen Institute think tank focused on governance.", "eventKo": "거버넌스 중심 Berggruen Institute 싱크탱크 창립.", "whyItMatteredKo": "Institute 단계." },
+    { "year": 2016, "age": 55, "event": "Launched Berggruen Prize for Philosophy and Culture ($1M annual).", "eventKo": "Berggruen 철학·문화 상 출시(연 100만 달러).", "whyItMatteredKo": "철학 상 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $2.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러.", "whyItMatteredKo": "Berggruen 정점." }
+  ],
+  "turningPoints": [{ "year": 2010, "age": 49, "decisionKo": "Berggruen Institute 거버넌스 싱크탱크 창립", "alternativeKo": "투자 집중", "outcomeKo": "15년 후 29억 달러 + 글로벌 거버넌스 자선가" }],
+  "moneyMechanics": { "primaryRevenueKo": "Berggruen Holdings + 부동산·PE 지분", "industryKo": "다각화 PE·부동산", "businessModelKo": "글로벌 PE + 부동산 + 미술 + 자선 + 싱크탱크", "moatKo": "글로벌 인맥 + 자선 브랜드 + 다각화", "luckVsSkillKo": "운(30%): 가족 자본 + 호텔 거주 미디어 브랜드. 실력(70%): 37년 다각화 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Berggruen Holdings and Berggruen Institute; 'homeless billionaire'; philanthropist.",
+    "knownForKo": "Berggruen Holdings·Berggruen Institute 창립자; '집 없는 억만장자'; 자선가.",
+    "philanthropy": "Berggruen Institute think tank + Berggruen Prize for Philosophy ($1M annual).", "philanthropyKo": "Berggruen Institute 싱크탱크 + Berggruen 철학 상(연 100만 달러).",
+    "controversies": "2020 reported controversy over Hollywood Hills mega-mansion development opposition; child-having-by-surrogate timing speculation.",
+    "controversiesKo": "2020 할리우드 힐스 메가 맨션 개발 반대 논쟁; 대리모 자녀 출산 타이밍 추측."
+  },
+  "characterKo": { "summaryKo": "Berggruen Holdings + Institute + 철학 상 자선가.", "tagsKo": ["Berggruen Holdings", "Berggruen Institute", "철학 상"] },
+  "failures": [
+    { "year": 2012, "description": "California-government-reform initiative led by Berggruen failed to pass referendum.", "descriptionKo": "베르그루엔 주도 캘리포니아 정부 개혁 이니셔티브가 주민 투표 통과 실패.", "lesson": "Political reform by private capital faces democratic friction.", "lessonKo": "사적 자본의 정치 개혁은 민주적 마찰 직면." },
+    { "year": 2008, "description": "Karstadt acquisition via Berggruen Holdings failed; German retailer filed for insolvency.", "descriptionKo": "Berggruen Holdings 통한 Karstadt 인수가 실패; 독일 소매업체가 파산 신청.", "lesson": "Distressed-retail turnarounds face structural headwind.", "lessonKo": "부실 소매 회생은 구조적 역풍 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I own ideas, not houses.", "textKo": "나는 집이 아니라 아이디어를 소유한다.", "context": "On 'homeless billionaire' nickname", "contextKo": "'집 없는 억만장자' 별명에 대해", "source": "https://berggruen.org" }],
+  "books": { "authored": [{ "title": "Intelligent Governance for the 21st Century (with Nathan Gardels)", "year": 2012 }], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Hae day pillar in Sin month — 'sanggwan-gyeok', unconventional public expression, fitting nomadic-philanthropist-investor.", "summaryKo": "을해 일주 + 신월 상관격(파격적 표현·기존 권위 도전)은 호텔 거주 + 거버넌스 싱크탱크 + 철학 상이라는 파격 자본 표현과 호응합니다. 을목 일간의 작은 풀·유연한 적응 기질이 글로벌 노마드 적응과 통하고, 해수 일지의 수 기운이 자본 유동성을, 신금 월지의 금 기운이 정밀 거버넌스 도구를 가리킵니다." }
+}

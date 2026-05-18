@@ -1,0 +1,39 @@
+{
+  "id": "1384", "name": "Robert Friedland", "nameKo": "로버트 마틴 프리들랜드",
+  "netWorth": 3.0, "nationality": "US", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Chicago, Illinois, USA", "birthPlaceKo": "미국 일리노이주 시카고",
+    "familyBackground": "Born to American family; lived in commune with Steve Jobs at Reed College.", "familyBackgroundKo": "미국 가정에서 출생; 리드 칼리지에서 스티브 잡스와 공동체 생활.",
+    "education": "Reed College.", "educationKo": "리드 칼리지.",
+    "earlyLife": "Befriended Steve Jobs at Reed; built mining-exploration career; discovered Voisey's Bay nickel (sold to Inco for $4.3B 1996); Ivanhoe Mines/Oyu Tolgoi copper; Ivanhoe Capital chairman.",
+    "earlyLifeKo": "리드에서 스티브 잡스 친구; 광산 탐사 경력 구축; Voisey's Bay 니켈 발견(1996 Inco에 43억 달러 매각); Ivanhoe Mines·Oyu Tolgoi 구리; Ivanhoe Capital 의장.",
+    "source": "https://en.wikipedia.org/wiki/Robert_Friedland"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "광산 발견·매각 자본." },
+  "careerTimeline": [
+    { "year": 1979, "age": 29, "event": "Began mining-exploration career.", "eventKo": "광산 탐사 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1994, "age": 44, "event": "Discovered Voisey's Bay nickel deposit in Labrador.", "eventKo": "래브라도에서 Voisey's Bay 니켈 광상 발견.", "whyItMatteredKo": "Voisey's Bay 발견." },
+    { "year": 1996, "age": 46, "event": "Sold Voisey's Bay to Inco for $4.3B; major exit.", "eventKo": "Voisey's Bay를 Inco에 43억 달러 매각; 주요 엑시트.", "whyItMatteredKo": "엑시트 1." },
+    { "year": 2001, "age": 51, "event": "Discovered Oyu Tolgoi giant copper-gold deposit in Mongolia.", "eventKo": "몽골에서 Oyu Tolgoi 거대 구리·금 광상 발견.", "whyItMatteredKo": "Oyu Tolgoi 발견." },
+    { "year": 2025, "age": 75, "event": "Personal net worth at $3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 30억 달러.", "whyItMatteredKo": "Ivanhoe 정점." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 44, "decisionKo": "래브라도 광산 탐사 집중", "alternativeKo": "벤처 캐피털", "outcomeKo": "31년 후 Voisey's Bay + Oyu Tolgoi + 30억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Voisey's Bay 매각 + Ivanhoe Mines(IVN.TO) + Ivanhoe Electric(IE) + 다각화", "industryKo": "광산 탐사·구리·니켈", "businessModelKo": "거대 매장지 탐사 + 메이저 마이너 매각 + 자체 광산 운영", "moatKo": "거대 광상 탐사 트랙 (Voisey's Bay + Oyu Tolgoi + Kamoa-Kakula)", "luckVsSkillKo": "운(55%): 거대 광상 발견 운. 실력(45%): 탐사 자본 조달 노하우." },
+  "personalTraits": {
+    "knownFor": "Founder of Ivanhoe Mines; discoverer of Voisey's Bay, Oyu Tolgoi, Kamoa-Kakula copper; Steve Jobs's Reed College friend.",
+    "knownForKo": "Ivanhoe Mines 창립자; Voisey's Bay·Oyu Tolgoi·Kamoa-Kakula 구리 발견자; 스티브 잡스의 리드 칼리지 친구.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Ivanhoe Mines and Mongolian government Oyu Tolgoi dispute 2012-2022; legendary aggressive mining-promoter style.",
+    "controversiesKo": "2012-2022 Ivanhoe Mines와 몽골 정부 Oyu Tolgoi 분쟁; 전설적 공격적 광산 프로모터 스타일."
+  },
+  "characterKo": { "summaryKo": "스티브 잡스 친구 + Voisey's Bay·Oyu Tolgoi·Kamoa 발견자.", "tagsKo": ["Ivanhoe Mines", "Oyu Tolgoi", "Voisey's Bay"] },
+  "failures": [
+    { "year": 2013, "description": "Mongolian government dispute halted Oyu Tolgoi underground expansion; Ivanhoe stake reduced.", "descriptionKo": "몽골 정부 분쟁으로 Oyu Tolgoi 지하 확장 중단; Ivanhoe 지분 감소.", "lesson": "Single-country mega-mines face sovereign-risk.", "lessonKo": "단일 국가 거대 광산은 주권 리스크 직면." },
+    { "year": 2008, "description": "Global financial crisis cut commodity prices; Ivanhoe stock crashed.", "descriptionKo": "글로벌 금융위기로 상품 가격 폭락; Ivanhoe 주식 폭락.", "lesson": "Mining explorers face commodity-cycle risk.", "lessonKo": "광산 탐사자는 상품 사이클 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.8 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Rocks don't lie; people lie about rocks.", "textKo": "암석은 거짓말하지 않는다; 사람이 암석에 대해 거짓말한다.", "context": "On mining exploration", "contextKo": "광산 탐사에 대해", "source": "https://www.ivanhoemines.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Yu day pillar in Sin month — 'jeonggwan-gyeok', formal regulated authority, fitting heavily-regulated mining magnate.", "summaryKo": "을유 일주 + 신월 정관격(공식 권위·규제 아래에서 일하는 구조)은 광산이라는 강한 주권·환경 규제 산업에서 거대 광상을 발견·운영한 그의 정통 권위 경로와 호응합니다. 을목 일간의 작은 풀·유연한 적응 기질이 험한 광산 협상 적응과 통하고, 유금 일지·신금 월지의 극강 금 기운이 광물 금속을 이중 강조합니다." }
+}

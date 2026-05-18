@@ -1,0 +1,38 @@
+{
+  "id": "1633", "name": "Sam Goi", "nameKo": "샘 고이 셍 후이",
+  "netWorth": 2.5, "nationality": "SG", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Putian, Fujian, China", "birthPlaceKo": "중국 푸젠 푸톈",
+    "familyBackground": "Born to Chinese family; emigrated to Singapore at age 6.", "familyBackgroundKo": "중국 가정에서 출생; 6세에 싱가포르 이주.",
+    "education": "Limited formal education.", "educationKo": "제한적 정식 교육.",
+    "earlyLife": "Founded Tee Yih Jia (TYJ Group) in 1969 in Singapore — frozen Asian foods including 'Spring Home' brand of spring rolls; built into world's largest spring-roll wrapper producer.",
+    "earlyLifeKo": "1969 싱가포르에서 Tee Yih Jia(TYJ Group) 창립 — '스프링 홈' 브랜드 만두피 포함 냉동 아시아 식품; 세계 최대 만두피 생산사로 구축.",
+    "source": "https://en.wikipedia.org/wiki/Sam_Goi"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Tee Yih Jia 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1969, "age": 22, "event": "Founded Tee Yih Jia making spring-roll wrappers.", "eventKo": "만두피 제조 Tee Yih Jia 창립.", "whyItMatteredKo": "TYJ 출발선." },
+    { "year": 1985, "age": 38, "event": "Patented spring-roll-wrapper machine; achieved global manufacturing leadership.", "eventKo": "만두피 기계 특허; 글로벌 제조 리더십 달성.", "whyItMatteredKo": "기계 단계." },
+    { "year": 2000, "age": 53, "event": "Expanded into frozen Asian foods globally.", "eventKo": "글로벌 냉동 아시아 식품 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2018, "age": 71, "event": "Tee Yih Jia acquired Singapore-listed Sino Grandness shares; major Asian food consolidator.", "eventKo": "Tee Yih Jia가 싱가포르 상장 Sino Grandness 주식 인수; 주요 아시아 식품 통합사.", "whyItMatteredKo": "통합 단계." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "TYJ 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 38, "decisionKo": "만두피 기계 특허로 글로벌 제조 리더십", "alternativeKo": "수공 제조 잔류", "outcomeKo": "40년 후 25억 달러 + 세계 만두피 1위" }],
+  "moneyMechanics": { "primaryRevenueKo": "Tee Yih Jia 사적 가족 지분 + 다각화 식품 지분", "industryKo": "냉동 아시아 식품·제조", "businessModelKo": "만두피·딤섬 제조 + 글로벌 수출 + 식품 기업 지분", "moatKo": "세계 1위 만두피 제조 + 기계 특허 + 56년 트랙", "luckVsSkillKo": "운(35%): 글로벌 아시아 식품 부상. 실력(65%): 기계 특허 + 56년 운영." },
+  "personalTraits": {
+    "knownFor": "Founder of Tee Yih Jia; 'Popiah King'; world's largest spring-roll wrapper producer.",
+    "knownForKo": "Tee Yih Jia 창립자; '포피아 왕'; 세계 최대 만두피 생산사.",
+    "philanthropy": "Goi Family Foundation supports Singapore education and Chinese community.", "philanthropyKo": "고이 가족 재단이 싱가포르 교육·중국 커뮤니티 자선 지원.",
+    "controversies": "Limited; standard private-food manufacturer scrutiny.", "controversiesKo": "제한적; 사적 식품 제조사 표준 감시."
+  },
+  "characterKo": { "summaryKo": "'포피아 왕' + 세계 만두피 1위 + 싱가포르 가부장.", "tagsKo": ["Tee Yih Jia", "Spring Home", "Popiah King"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted foodservice exports briefly; retail demand offset.", "descriptionKo": "COVID-19이 식품 서비스 수출 잠시 혼란; 소매 수요 상쇄.", "lesson": "Food manufacturing faces channel-shift pandemic risk.", "lessonKo": "식품 제조는 채널 이동 팬데믹 리스크 직면." },
+    { "year": 2022, "description": "Raw-material (flour, oil) price spikes compressed TYJ margins briefly.", "descriptionKo": "원자재(밀가루·기름) 가격 급등으로 TYJ 마진 잠시 압축.", "lesson": "Food manufacturers face commodity-input volatility.", "lessonKo": "식품 제조사는 상품 투입 변동성 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.4 }, { "year": 2020, "netWorth": 1.6 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "A spring roll is a hug from Asia in one bite.", "textKo": "만두는 한 입의 아시아 포옹이다.", "context": "On Tee Yih Jia products", "contextKo": "Tee Yih Jia 제품에 대해", "source": "https://www.tyj.com.sg" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Ja day pillar in Ja month — 'pyeonjae-gyeok', large external capital flow, fitting global food exporter.", "summaryKo": "병자 일주 + 자월 편재격(크고 유동적인 외부 자본)은 글로벌 식품 수출이라는 거대 외부 자본·물량 유동을 다룬 그의 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 자수 일지·자수 월지의 극강 수 기운이 자본·물량 유동성을 이중 강조합니다." }
+}

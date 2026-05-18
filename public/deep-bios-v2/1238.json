@@ -1,0 +1,39 @@
+{
+  "id": "1238", "name": "William Hockey", "nameKo": "윌리엄 호키",
+  "netWorth": 3.3, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Emory University (Goizueta Business School).", "educationKo": "에머리 대학교(고이주에타 비즈니스 스쿨).",
+    "earlyLife": "Co-founded Plaid with Zach Perret in 2013 — financial API connecting bank accounts; sold Plaid stake in 2021 (Visa deal collapsed 2020, Plaid raised at $13.4B); co-founded Column N.A. national bank 2021.",
+    "earlyLifeKo": "2013 잭 페렛과 Plaid 공동 창립 — 은행 계좌 연결 금융 API; 2021 Plaid 지분(Visa 거래 2020 무산, Plaid 134억 달러 조달); 2021 Column N.A. 국법 은행 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Plaid_Inc."
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Plaid 공동 창립자 지분 + Column N.A." },
+  "careerTimeline": [
+    { "year": 2011, "age": 22, "event": "Began consulting at Bain & Company.", "eventKo": "베인 & 컴퍼니에서 컨설팅 시작.", "whyItMatteredKo": "컨설팅 출발선." },
+    { "year": 2013, "age": 24, "event": "Co-founded Plaid with Zach Perret as financial API.", "eventKo": "잭 페렛과 금융 API로 Plaid 공동 창립.", "whyItMatteredKo": "Plaid 출발선." },
+    { "year": 2020, "age": 31, "event": "Visa $5.3B acquisition of Plaid canceled after DOJ antitrust challenge.", "eventKo": "DOJ 반독점 도전 후 Visa의 Plaid 53억 달러 인수 취소.", "whyItMatteredKo": "M&A 무산." },
+    { "year": 2021, "age": 32, "event": "Left Plaid; co-founded Column N.A. (national bank with API).", "eventKo": "Plaid 떠남; Column N.A.(API 갖춘 국법 은행) 공동 창립.", "whyItMatteredKo": "Column 출발선." },
+    { "year": 2025, "age": 36, "event": "Personal net worth at $3.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 33억 달러.", "whyItMatteredKo": "Plaid + Column 정점." }
+  ],
+  "turningPoints": [{ "year": 2020, "age": 31, "decisionKo": "Visa 매각 무산 후 Plaid 잔류 → Column 창립", "alternativeKo": "Plaid 매각 + 컨설팅 복귀", "outcomeKo": "5년 후 33억 달러 핀테크 + 은행 창립자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Plaid 공동 창립자 지분 + Column N.A. + 다각화", "industryKo": "핀테크·은행 인프라", "businessModelKo": "은행 데이터 API + 국법 은행 API + 핀테크 인프라", "moatKo": "Plaid 시장 선점 + 국법 은행 라이선스 + API 통합 노하우", "luckVsSkillKo": "운(45%): 핀테크 황금기 + Visa 거래. 실력(55%): 24세 창립 + Column 피벗." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Plaid; co-founder of Column N.A. national bank; young fintech infrastructure entrepreneur.",
+    "knownForKo": "Plaid 공동 창립자; Column N.A. 국법 은행 공동 창립자; 젊은 핀테크 인프라 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Plaid faced 2021 class-action over screen-scraping bank data; privacy lawsuits.",
+    "controversiesKo": "Plaid가 2021 은행 데이터 화면 스크래핑 집단 소송 직면; 프라이버시 소송."
+  },
+  "characterKo": { "summaryKo": "Plaid 공동 창립 + Column 국법 은행 창립.", "tagsKo": ["Plaid", "Column N.A.", "핀테크 인프라"] },
+  "failures": [
+    { "year": 2020, "description": "Visa-Plaid $5.3B deal collapsed after DOJ antitrust challenge; lost personal liquidity event.", "descriptionKo": "DOJ 반독점 도전 후 Visa-Plaid 53억 달러 거래 붕괴; 개인 유동성 이벤트 상실.", "lesson": "Antitrust risk can void fintech M&A.", "lessonKo": "반독점 리스크가 핀테크 M&A를 무효화할 수 있다." },
+    { "year": 2022, "description": "Plaid valuation reportedly cut from $13.4B peak amid fintech selloff.", "descriptionKo": "핀테크 매도세 가운데 Plaid 밸류에이션 134억 달러 정점에서 감소 보고.", "lesson": "Private unicorns face down-round risk.", "lessonKo": "비공개 유니콘은 다운 라운드 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2021, "netWorth": 2.5 }, { "year": 2023, "netWorth": 2.8 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "The bank should be the API, not the line at the branch.", "textKo": "은행은 지점의 줄이 아닌 API여야 한다.", "context": "On Column N.A. mission", "contextKo": "Column N.A. 미션에 대해", "source": "https://column.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Sin day pillar in Yu month — 'jeongin-gyeok', formal credential authority, fitting bank-chartered fintech founder.", "summaryKo": "갑신 일주 + 유월 정인격(공식 자격·학문·문서 권위)은 국법 은행 라이선스라는 정통 금융 자격을 핀테크에 결합한 그의 경로와 호응합니다. 갑목 일간의 큰 나무·우직한 성장 기질이 회사 성장과 통하고, 신금 일지·유금 월지의 강한 금 기운이 정밀 금융 도구·은행 라이선스를 가리킵니다." }
+}

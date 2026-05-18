@@ -1,0 +1,39 @@
+{
+  "id": "1025", "name": "Renzo Rosso", "nameKo": "렌조 로소",
+  "netWorth": 4.0, "nationality": "IT", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Brugine, Veneto, Italy", "birthPlaceKo": "이탈리아 베네토 브루지네",
+    "familyBackground": "Born to Italian farming family.", "familyBackgroundKo": "이탈리아 농민 가정에서 출생.",
+    "education": "Industrial textile manufacturing school.", "educationKo": "산업 섬유 제조 학교.",
+    "earlyLife": "Founded Diesel jeans brand in 1978 with $5K; built Diesel into global premium denim brand; founded OTB (Only The Brave) holding 2002 — owns Maison Margiela, Marni, Jil Sander, Viktor & Rolf.",
+    "earlyLifeKo": "1978 5,000달러로 Diesel 청바지 브랜드 창립; Diesel을 글로벌 프리미엄 데님 브랜드로 구축; 2002 OTB(Only The Brave) 지주 창립 — Maison Margiela·Marni·Jil Sander·Viktor & Rolf 소유.",
+    "source": "https://en.wikipedia.org/wiki/Renzo_Rosso"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Diesel + OTB Group 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1978, "age": 23, "event": "Founded Diesel jeans brand in Veneto.", "eventKo": "베네토에서 Diesel 청바지 브랜드 창립.", "whyItMatteredKo": "Diesel 출발선." },
+    { "year": 1985, "age": 30, "event": "Bought out partners; took sole ownership of Diesel.", "eventKo": "파트너 매수; Diesel 단독 소유 인수.", "whyItMatteredKo": "단독 소유 단계." },
+    { "year": 2002, "age": 47, "event": "Founded OTB holding for multi-brand luxury portfolio.", "eventKo": "다브랜드 럭셔리 포트폴리오 위해 OTB 지주 창립.", "whyItMatteredKo": "OTB 단계." },
+    { "year": 2012, "age": 57, "event": "OTB acquired Maison Martin Margiela.", "eventKo": "OTB가 Maison Martin Margiela 인수.", "whyItMatteredKo": "Margiela 인수." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 40억 달러.", "whyItMatteredKo": "OTB 정점." }
+  ],
+  "turningPoints": [{ "year": 2002, "age": 47, "decisionKo": "OTB 다브랜드 럭셔리 그룹 창립", "alternativeKo": "Diesel 단일 브랜드 잔류", "outcomeKo": "23년 후 40억 달러 + 다브랜드 럭셔리 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "OTB Group 사적 가족 지분 + Diesel + Margiela·Marni·Jil Sander", "industryKo": "럭셔리 패션·데님", "businessModelKo": "Diesel 데님 + 다브랜드 럭셔리 + 마케팅 + 글로벌 부티크", "moatKo": "Diesel 47년 브랜드 + 다브랜드 럭셔리 포트폴리오", "luckVsSkillKo": "운(25%): 럭셔리 시장 부상. 실력(75%): 47년 일관성 + 다브랜드 인수." },
+  "personalTraits": {
+    "knownFor": "Founder of Diesel; founder/chairman of OTB; Italian fashion magnate.",
+    "knownForKo": "Diesel 창립자; OTB 창립자·의장; 이탈리아 패션 거물.",
+    "philanthropy": "OTB Foundation supports humanitarian causes in Africa, Asia, Italy.", "philanthropyKo": "OTB 재단이 아프리카·아시아·이탈리아 인도 자선 지원.",
+    "controversies": "Diesel marketing controversies for sexual imagery; 1990s-2000s ads protested by groups.",
+    "controversiesKo": "Diesel 마케팅이 성적 이미지 논쟁; 1990-2000년대 광고가 그룹 시위 야기."
+  },
+  "characterKo": { "summaryKo": "Diesel 47년 + OTB 다브랜드 럭셔리.", "tagsKo": ["Diesel", "OTB Group", "Maison Margiela"] },
+  "failures": [
+    { "year": 2019, "description": "Diesel USA filed Chapter 11 bankruptcy; restructured under Italian parent.", "descriptionKo": "Diesel USA가 챕터 11 파산 신청; 이탈리아 모회사 하에 재구조화.", "lesson": "Regional subsidiaries face local-market exposure independent of parent.", "lessonKo": "지역 자회사는 모회사와 독립된 지역 시장 노출 직면." },
+    { "year": 2020, "description": "COVID-19 closed luxury stores globally; OTB revenue plunged.", "descriptionKo": "COVID-19이 럭셔리 매장 폐쇄; OTB 매출 급락.", "lesson": "Luxury faces pandemic-shock exposure.", "lessonKo": "럭셔리는 팬데믹 충격 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 2.3 }, { "year": 2024, "netWorth": 3.8 }, { "year": 2025, "netWorth": 4.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Diesel is for successful living — for those who dare.", "textKo": "Diesel은 성공한 삶을 위해 — 감히 도전하는 자를 위해.", "context": "On Diesel mission", "contextKo": "Diesel 미션에 대해", "source": "https://www.diesel.com" }],
+  "books": { "authored": [{ "title": "Be Stupid (Diesel marketing manifesto)", "year": 2010 }], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Myo day pillar in Yu month — 'pyeon-gwan-gyeok', strong external authority/conflict, fitting provocative-marketing fashion founder.", "summaryKo": "기묘 일주 + 유월 편관격(강한 외부 압박·권력 충돌)은 도발적 마케팅으로 기존 패션 권위에 도전한 그의 경로와 호응합니다. 기토 일간의 평야·수용 기질이 다브랜드 자본 수용과 통하고, 묘목 일지의 목 기운이 회사 성장을, 유금 월지의 금 기운이 정밀 마케팅 도구를 가리킵니다." }
+}

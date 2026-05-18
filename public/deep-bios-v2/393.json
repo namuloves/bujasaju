@@ -1,0 +1,39 @@
+{
+  "id": "393", "name": "Odd Reitan", "nameKo": "오드 레이탄",
+  "netWorth": 8.7, "nationality": "NO", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Trondheim, Norway", "birthPlaceKo": "노르웨이 트론헤임",
+    "familyBackground": "Born to Norwegian retail family.", "familyBackgroundKo": "노르웨이 소매 가족 출신.",
+    "education": "Norwegian higher education.", "educationKo": "노르웨이 고등교육.",
+    "earlyLife": "Founded REMA 1000 discount-grocery chain in 1979 in Trondheim; expanded to Norway #1; entered Denmark; built Reitan Group covering grocery, convenience, real estate.",
+    "earlyLifeKo": "1979 트론헤임에서 REMA 1000 할인 식료품 체인 창립; 노르웨이 1위 확장; 덴마크 진출; 식료품·편의점·부동산 포괄 Reitan Group 구축.",
+    "source": "https://en.wikipedia.org/wiki/Odd_Reitan"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "REMA 1000 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1972, "age": 21, "event": "Joined family small grocery store in Trondheim.", "eventKo": "트론헤임 가족 작은 식료품점 합류.", "whyItMatteredKo": "출발선." },
+    { "year": 1979, "age": 28, "event": "Founded REMA 1000 — Norwegian discount-grocery franchise.", "eventKo": "REMA 1000 창립 — 노르웨이 할인 식료품 프랜차이즈.", "whyItMatteredKo": "REMA 1000 출발선." },
+    { "year": 1995, "age": 44, "event": "REMA 1000 expanded to Denmark.", "eventKo": "REMA 1000 덴마크 확장.", "whyItMatteredKo": "덴마크 단계." },
+    { "year": 2010, "age": 59, "event": "Reitan Group reorganized into convenience (Narvesen, 7-Eleven Norway), grocery, real estate.", "eventKo": "Reitan Group이 편의점(Narvesen·7-Eleven 노르웨이)·식료품·부동산으로 재편.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $8.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 87억 달러.", "whyItMatteredKo": "Reitan 정점." }
+  ],
+  "turningPoints": [{ "year": 1979, "age": 28, "decisionKo": "REMA 1000 할인 식료품 모델 창립", "alternativeKo": "일반 식료품 잔류", "outcomeKo": "46년 후 87억 달러 노르웨이 1위 + 다각화" }],
+  "moneyMechanics": { "primaryRevenueKo": "Reitan Group 사적 가족 지분 + REMA 1000 + 편의점 + 부동산", "industryKo": "할인 식료품·편의점·부동산", "businessModelKo": "프랜차이즈 식료품 + 편의점 + 노르웨이 부동산 + 가족 통제", "moatKo": "노르웨이 식료품 1위 + 가족 사적 소유 + 46년 트랙", "luckVsSkillKo": "운(30%): 노르웨이 석유 부 + 소비자 호황. 실력(70%): 46년 가족 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of REMA 1000; chair of Reitan Group; Norwegian retail patriarch.",
+    "knownForKo": "REMA 1000 창립자; Reitan Group 의장; 노르웨이 소매 가부장.",
+    "philanthropy": "Reitan Foundation supports Norwegian education and entrepreneurship.", "philanthropyKo": "Reitan 재단이 노르웨이 교육·기업가 정신 지원.",
+    "controversies": "REMA 1000 grocery-pricing controversy in Norway; supplier-power scrutiny.",
+    "controversiesKo": "REMA 1000 노르웨이 식료품 가격 논쟁; 공급자 권력 감시."
+  },
+  "characterKo": { "summaryKo": "REMA 1000 46년 + 노르웨이 식료품 1위 + 다각화.", "tagsKo": ["REMA 1000", "Reitan Group", "노르웨이 소매"] },
+  "failures": [
+    { "year": 2017, "description": "REMA 1000 dropped major supplier; controversy over private-label substitution and supplier coercion.", "descriptionKo": "REMA 1000이 주요 공급자 중단; PB 대체·공급자 강압 논쟁.", "lesson": "Concentrated retail faces supplier-relations risk.", "lessonKo": "집중 소매는 공급자 관계 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted convenience-store demand briefly.", "descriptionKo": "COVID-19이 편의점 수요 잠시 혼란.", "lesson": "Convenience faces pandemic-mobility exposure.", "lessonKo": "편의점은 팬데믹 이동성 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.5 }, { "year": 2020, "netWorth": 6.7 }, { "year": 2024, "netWorth": 8.3 }, { "year": 2025, "netWorth": 8.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Discount is dignity; we sell the same brand for less.", "textKo": "할인은 존엄성이다; 우리는 동일 브랜드를 더 저렴하게 판다.", "context": "On REMA 1000 mission", "contextKo": "REMA 1000 미션에 대해", "source": "https://www.rema1000.no" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-In day pillar in Yu month — 'sanggwan-gyeok', unconventional output, fitting discount-grocery franchise pioneer.", "summaryKo": "갑인 일주 + 유월 상관격(파격적 표현·기존 권위 도전)은 노르웨이라는 고가 시장에서 할인 식료품이라는 파격적 가격 모델을 창출한 그의 경로와 호응합니다. 갑목 일간 + 인목 일지의 강한 목 기운이 회사·프랜차이즈 성장을 이중 강조하고, 유금 월지의 금 기운이 정밀 비용 관리 도구를 가리킵니다." }
+}

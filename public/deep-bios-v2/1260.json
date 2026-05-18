@@ -1,0 +1,38 @@
+{
+  "id": "1260", "name": "Jay Paul", "nameKo": "조지프 폴",
+  "netWorth": 3.3, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Built career in Silicon Valley commercial real estate; founded Jay Paul Company in 1975; major data-center and office developer for Bay Area tech tenants.",
+    "earlyLifeKo": "실리콘밸리 상업 부동산 경력 구축; 1975 Jay Paul Company 창립; 베이 에어리어 기술 임차인 주요 데이터센터·오피스 개발자.",
+    "source": "https://www.jaypaul.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Jay Paul Company 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1969, "age": 22, "event": "Began career in Bay Area commercial real estate.", "eventKo": "베이 에어리어 상업 부동산 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1975, "age": 28, "event": "Founded Jay Paul Company in Palo Alto.", "eventKo": "팰러앨토에 Jay Paul Company 창립.", "whyItMatteredKo": "회사 출발선." },
+    { "year": 1995, "age": 48, "event": "Began aggressive Silicon Valley office expansion during early-dot-com era.", "eventKo": "초기 닷컴 시대 동안 공격적 실리콘밸리 오피스 확장 시작.", "whyItMatteredKo": "닷컴 단계." },
+    { "year": 2015, "age": 68, "event": "Major data-center developments for Google, Apple, Bay Area tech.", "eventKo": "구글·애플·베이 에어리어 기술용 주요 데이터센터 개발.", "whyItMatteredKo": "데이터센터 단계." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $3.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 33억 달러.", "whyItMatteredKo": "Jay Paul 정점." }
+  ],
+  "turningPoints": [{ "year": 1975, "age": 28, "decisionKo": "실리콘밸리 상업 부동산 집중", "alternativeKo": "주거 부동산", "outcomeKo": "50년 후 33억 달러 베이 에어리어 부동산 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Jay Paul Company 사적 자본 + 임대료 + 다각화", "industryKo": "상업 부동산·데이터센터", "businessModelKo": "오피스·데이터센터 개발 + 장기 보유 + 임대료", "moatKo": "실리콘밸리 토지 보유 + 기술 임차인 인맥 + 50년 트랙", "luckVsSkillKo": "운(45%): 실리콘밸리 토지 가치 폭발. 실력(55%): 50년 일관 운영." },
+  "personalTraits": {
+    "knownFor": "Founder of Jay Paul Company; major Silicon Valley commercial real estate magnate.",
+    "knownForKo": "Jay Paul Company 창립자; 주요 실리콘밸리 상업 부동산 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Sunnyvale and Mountain View development opposition from local residents.", "controversiesKo": "써니베일·마운틴뷰 개발에 지역 주민 반대."
+  },
+  "characterKo": { "summaryKo": "Jay Paul Company 50년 실리콘밸리 부동산.", "tagsKo": ["Jay Paul Company", "실리콘밸리 부동산", "데이터센터"] },
+  "failures": [
+    { "year": 2001, "description": "Dot-com crash collapsed Silicon Valley office demand; Jay Paul leasing stalled.", "descriptionKo": "닷컴 폭락으로 실리콘밸리 오피스 수요 붕괴; Jay Paul 임대 정체.", "lesson": "Silicon Valley office faces tech-cycle exposure.", "lessonKo": "실리콘밸리 오피스는 기술 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 remote-work surge questioned long-term office demand.", "descriptionKo": "COVID-19 원격 근무 급증으로 장기 오피스 수요 의문.", "lesson": "Office faces structural remote-work risk.", "lessonKo": "오피스는 구조적 원격 근무 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.1 }, { "year": 2025, "netWorth": 3.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Silicon Valley land doesn't repeat; it just compounds.", "textKo": "실리콘밸리 토지는 반복되지 않는다; 그저 복리한다.", "context": "On Bay Area real estate", "contextKo": "베이 에어리어 부동산에 대해", "source": "https://www.jaypaul.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Ja day pillar in O month — 'pyeonin-gyeok', non-traditional knowledge/intuition, fitting long-cycle real-estate developer.", "summaryKo": "무자 일주 + 오월 편인격(비전통적 학문·문서 권위)은 실리콘밸리라는 비전형 부동산 자본 사이클을 50년 인내한 그의 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 부동산 자본과 통하고, 자수 일지의 수 기운이 자본 유동성을, 오화 월지의 강한 화 기운이 결단·표현 에너지를 가리킵니다." }
+}

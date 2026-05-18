@@ -1,0 +1,39 @@
+{
+  "id": "1619", "name": "John Elkann", "nameKo": "존 필립 제이콥 엘칸",
+  "netWorth": 2.5, "nationality": "IT", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "New York, USA", "birthPlaceKo": "미국 뉴욕",
+    "familyBackground": "Born to Margherita Agnelli — daughter of Gianni Agnelli (Fiat patriarch).", "familyBackgroundKo": "잔니 아넬리(Fiat 가부장)의 딸 마르게리타 아넬리의 아들.",
+    "education": "Polytechnic University of Turin.", "educationKo": "토리노 폴리테크닉 대학교.",
+    "earlyLife": "Heir of Agnelli dynasty (Fiat); chairman of Stellantis (Fiat Chrysler merger), Exor (family holding), Ferrari, Juventus; led 2021 Fiat Chrysler-PSA merger to form Stellantis.",
+    "earlyLifeKo": "아넬리 왕조(Fiat) 상속인; Stellantis(피아트-크라이슬러 합병)·Exor(가족 지주)·페라리·유벤투스 의장; 2021 피아트-크라이슬러-PSA 합병 주도로 Stellantis 형성.",
+    "source": "https://en.wikipedia.org/wiki/John_Elkann"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "아넬리 가족 자본." },
+  "careerTimeline": [
+    { "year": 2000, "age": 24, "event": "Joined family Exor as board member.", "eventKo": "가족 Exor 이사회 멤버 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2010, "age": 34, "event": "Became chairman of Fiat after grandfather Gianni Agnelli's death.", "eventKo": "할아버지 잔니 아넬리 사망 후 Fiat 의장 취임.", "whyItMatteredKo": "Fiat 의장 단계." },
+    { "year": 2014, "age": 38, "event": "Led Fiat Chrysler merger; created FCA.", "eventKo": "Fiat 크라이슬러 합병 주도; FCA 창출.", "whyItMatteredKo": "FCA 합병." },
+    { "year": 2021, "age": 45, "event": "Led FCA-PSA merger to form Stellantis (global #4 automaker group).", "eventKo": "FCA-PSA 합병 주도로 Stellantis(세계 4위 자동차 그룹) 형성.", "whyItMatteredKo": "Stellantis 합병." },
+    { "year": 2025, "age": 49, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "Stellantis + Exor 정점." }
+  ],
+  "turningPoints": [{ "year": 2021, "age": 45, "decisionKo": "FCA-PSA 합병으로 Stellantis 형성", "alternativeKo": "FCA 단독 유지", "outcomeKo": "4년 후 세계 4위 자동차 그룹 + 25억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Exor 가족 지주 + Stellantis(STLA) + Ferrari(RACE) + 다각화", "industryKo": "자동차·다각화 지주", "businessModelKo": "Stellantis·Ferrari·Juventus·CNH 다각화 + 가족 지주", "moatKo": "아넬리 가족 의결권 + 세계 4위 자동차 그룹", "luckVsSkillKo": "운(60%): 아넬리 가족 자본 + 가족 정치 (Margherita 분쟁 통과). 실력(40%): 25년 합병 운영." },
+  "personalTraits": {
+    "knownFor": "Chairman of Stellantis, Exor, Ferrari, Juventus; Agnelli family heir; led FCA-PSA merger.",
+    "knownForKo": "Stellantis·Exor·페라리·유벤투스 의장; 아넬리 가족 상속인; FCA-PSA 합병 주도.",
+    "philanthropy": "Agnelli Foundation supports Italian education and culture.", "philanthropyKo": "아넬리 재단이 이탈리아 교육·문화 자선 지원.",
+    "controversies": "2024 Italian inheritance-tax investigation over family asset transfers; mother Margherita's litigation over inheritance.",
+    "controversiesKo": "2024 가족 자산 이전에 이탈리아 상속세 조사; 어머니 마르게리타의 상속 소송."
+  },
+  "characterKo": { "summaryKo": "아넬리 가족 + Stellantis 합병 + Exor 가족 지주.", "tagsKo": ["Stellantis", "Exor", "Agnelli family"] },
+  "failures": [
+    { "year": 2024, "description": "Italian prosecutors investigated Elkann and family for inheritance-tax evasion.", "descriptionKo": "이탈리아 검찰이 엘칸·가족 상속세 회피 조사.", "lesson": "Multi-generation family wealth faces tax-investigation risk.", "lessonKo": "다세대 가족 부는 세금 조사 리스크 직면." },
+    { "year": 2019, "description": "FCA-Renault merger talks collapsed last-minute due to French government concerns.", "descriptionKo": "프랑스 정부 우려로 FCA-Renault 합병 협상이 막판 붕괴.", "lesson": "Cross-border auto mergers face sovereign-political risk.", "lessonKo": "국경 간 자동차 합병은 주권 정치 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.6 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Cars carry families forward; families carry cars forward.", "textKo": "자동차는 가족을 앞으로 나르고, 가족은 자동차를 앞으로 나른다.", "context": "On Agnelli legacy", "contextKo": "아넬리 유산에 대해", "source": "https://www.stellantis.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in Ja month — 'jeongjae-gyeok', stable wealth accumulation, fitting multi-generation family heir.", "summaryKo": "을묘 일주 + 자월 정재격(안정적·정직한 부 축적)은 아넬리 다세대 가족 자본 안정 축적이라는 정통 안정 경로와 호응합니다. 을목 일간 + 묘목 일지의 강한 목 기운이 가족·회사 성장을 이중 강조하고, 자수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

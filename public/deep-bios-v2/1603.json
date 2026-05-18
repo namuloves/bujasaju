@@ -1,0 +1,38 @@
+{
+  "id": "1603", "name": "Sam Chong", "nameKo": "샘 총",
+  "netWorth": 2.5, "nationality": "AU", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Malaysia", "birthPlaceKo": "말레이시아",
+    "familyBackground": "Born to Malaysian Chinese family; emigrated to Australia.", "familyBackgroundKo": "말레이시아 중국인 가정에서 출생; 호주 이주.",
+    "education": "Australian higher education.", "educationKo": "호주 고등교육.",
+    "earlyLife": "Built career in Australian mining services; founded BSA Limited and mining-services investments; backed iron-ore and gold mining ventures.",
+    "earlyLifeKo": "호주 광산 서비스 경력 구축; BSA Limited와 광산 서비스 투자 창립; 철광석·금광 벤처 후원.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "호주 광산 서비스·투자 자본." },
+  "careerTimeline": [
+    { "year": 1965, "age": 22, "event": "Began career in Australia after emigration.", "eventKo": "호주 이주 후 경력 시작.", "whyItMatteredKo": "호주 출발선." },
+    { "year": 1985, "age": 42, "event": "Built mining-services investment portfolio during Australian resource boom.", "eventKo": "호주 자원 호황 동안 광산 서비스 투자 포트폴리오 구축.", "whyItMatteredKo": "광산 투자 단계." },
+    { "year": 2005, "age": 62, "event": "Major iron-ore and gold-mining stakes during commodity super-cycle.", "eventKo": "상품 슈퍼사이클 동안 철광석·금광 주요 지분.", "whyItMatteredKo": "슈퍼사이클 단계." },
+    { "year": 2020, "age": 77, "event": "Diversified into property and Australian financial assets.", "eventKo": "부동산·호주 금융 자산으로 다각화.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 82, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "광산·투자 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 42, "decisionKo": "호주 광산 서비스 집중 투자", "alternativeKo": "말레이시아 사업 잔류", "outcomeKo": "40년 후 25억 달러 호주 광산 투자자" }],
+  "moneyMechanics": { "primaryRevenueKo": "호주 광산 서비스 지분 + 다각화 투자", "industryKo": "광산 서비스·자원", "businessModelKo": "광산 서비스 + 자원 지분 + 부동산 다각화", "moatKo": "40년 호주 광산 산업 인맥 + 다각화", "luckVsSkillKo": "운(50%): 중국 수요 슈퍼사이클. 실력(50%): 40년 일관 투자." },
+  "personalTraits": {
+    "knownFor": "Australian mining-services investor; Malaysian-Australian magnate.",
+    "knownForKo": "호주 광산 서비스 투자자; 말레이시아·호주 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard mining-services scrutiny.", "controversiesKo": "제한적; 광산 서비스 표준 감시."
+  },
+  "characterKo": { "summaryKo": "말레이시아 출신 호주 광산 서비스 투자자.", "tagsKo": ["호주 광산", "광산 서비스", "다각화"] },
+  "failures": [
+    { "year": 2015, "description": "Iron-ore price crash from $190 to $40 compressed Australian mining-service revenue.", "descriptionKo": "철광석 가격 190달러에서 40달러로 폭락하며 호주 광산 서비스 매출 압축.", "lesson": "Mining services face commodity-cycle exposure.", "lessonKo": "광산 서비스는 상품 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted mining operations briefly; service contracts compressed.", "descriptionKo": "COVID-19이 광산 운영 잠시 혼란; 서비스 계약 압축.", "lesson": "Mining services face pandemic-operational exposure.", "lessonKo": "광산 서비스는 팬데믹 운영 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Mining services pay the same whether iron is $40 or $190.", "textKo": "광산 서비스는 철광석이 40달러든 190달러든 동일 보수다.", "context": "On mining services", "contextKo": "광산 서비스에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Yu day pillar in Ja month — 'jeonggwan-gyeok', formal regulated authority, fitting mining-services investor.", "summaryKo": "정유 일주 + 자월 정관격(공식 권위·규제 아래에서 일하는 구조)은 호주 광산 규제 산업 서비스 투자라는 정통 규제 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 광산 정밀 계산과 통하고, 유금 일지의 금 기운이 광물 금속을, 자수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

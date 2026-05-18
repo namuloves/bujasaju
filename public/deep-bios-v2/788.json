@@ -1,0 +1,39 @@
+{
+  "id": "788", "name": "Andrei Kozitsyn", "nameKo": "안드레이 코지친",
+  "netWorth": 5.2, "nationality": "RU", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Verkhnyaya Pyshma, Russia (USSR)", "birthPlaceKo": "소련 베르흐냐야 피슈마",
+    "familyBackground": "Born to Soviet family.", "familyBackgroundKo": "소련 가정에서 출생.",
+    "education": "Ural Polytechnic Institute.", "educationKo": "우랄 폴리테크닉 인스티튜트.",
+    "earlyLife": "Built career in copper metallurgy; co-founded UGMK (Ural Mining and Metallurgical Company) in 1999 — Russia's #2 copper producer; longtime CEO.",
+    "earlyLifeKo": "구리 야금 경력 구축; 1999 UGMK(우랄 광업·야금 회사) 공동 창립 — 러시아 2위 구리 생산사; 오랜 CEO.",
+    "source": "https://en.wikipedia.org/wiki/UGMK"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "UGMK 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1983, "age": 23, "event": "Began career in copper metallurgy in Urals.", "eventKo": "우랄에서 구리 야금 경력 시작.", "whyItMatteredKo": "야금 출발선." },
+    { "year": 1999, "age": 39, "event": "Co-founded UGMK to consolidate Urals copper assets.", "eventKo": "우랄 구리 자산 통합 위해 UGMK 공동 창립.", "whyItMatteredKo": "UGMK 출발선." },
+    { "year": 2010, "age": 50, "event": "UGMK became Russia's #2 copper producer; vertically integrated to mining-to-cable.", "eventKo": "UGMK가 러시아 2위 구리 생산사; 광산에서 케이블까지 수직 통합.", "whyItMatteredKo": "수직 통합 단계." },
+    { "year": 2022, "age": 62, "event": "EU sanctions targeted Kozitsyn and UGMK over Ukraine war.", "eventKo": "EU 제재가 우크라이나 전쟁 관련 코지친·UGMK 표적.", "whyItMatteredKo": "제재 단계." },
+    { "year": 2025, "age": 65, "event": "Personal net worth at $5.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 52억 달러.", "whyItMatteredKo": "UGMK 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 39, "decisionKo": "우랄 구리 자산 통합 UGMK 창립", "alternativeKo": "독자 야금 경력", "outcomeKo": "26년 후 52억 달러 러시아 2위 구리" }],
+  "moneyMechanics": { "primaryRevenueKo": "UGMK 지분 + 다각화 자산", "industryKo": "구리·야금", "businessModelKo": "구리 광산·제련·케이블 수직 통합", "moatKo": "러시아 2위 구리 + 우랄 광산 인맥", "luckVsSkillKo": "운(45%): 구리 가격 사이클. 실력(55%): 야금 전문성·자본 통합." },
+  "personalTraits": {
+    "knownFor": "Co-founder and CEO of UGMK; Russian copper magnate.",
+    "knownForKo": "UGMK 공동 창립자·CEO; 러시아 구리 거물.",
+    "philanthropy": "UGMK supports Urals cultural and educational causes.", "philanthropyKo": "UGMK가 우랄 문화·교육 자선 지원.",
+    "controversies": "2022 EU sanctions for Ukraine war proximity; 2021 Stadium Construction labor issues.",
+    "controversiesKo": "2022 우크라이나 전쟁 근접 EU 제재; 2021 경기장 건설 노동 문제."
+  },
+  "characterKo": { "summaryKo": "UGMK 25년 + 러시아 2위 구리 + 2022 제재.", "tagsKo": ["UGMK", "러시아 구리", "2022 제재"] },
+  "failures": [
+    { "year": 2022, "description": "EU sanctions froze UGMK and Kozitsyn personal assets in Europe.", "descriptionKo": "EU 제재가 UGMK·코지친 개인 유럽 자산 동결.", "lesson": "Russian metallurgy faces sanctions-induced market loss.", "lessonKo": "러시아 야금은 제재 유발 시장 상실 직면." },
+    { "year": 2015, "description": "Copper-price crash from $3.50/lb to $2/lb compressed UGMK revenue.", "descriptionKo": "구리 가격 폭락(파운드당 3.50달러 → 2달러)으로 UGMK 매출 압축.", "lesson": "Copper miners face deep cycle exposure.", "lessonKo": "구리 광산은 깊은 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 4.9 }, { "year": 2025, "netWorth": 5.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Copper turns light into life.", "textKo": "구리는 빛을 생명으로 바꾼다.", "context": "On copper industry", "contextKo": "구리 산업에 대해", "source": "https://en.wikipedia.org/wiki/UGMK" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Jin day pillar in O month — 'pyeonjae-gyeok', large external capital flow, fitting copper-and-cable vertical magnate.", "summaryKo": "무진 일주 + 오월 편재격(크고 유동적인 외부 자본)은 광산에서 케이블까지의 거대 외부 자본 유동 통합 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 안정과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 오화 월지의 강한 화 기운이 야금 결단·기세를 가리킵니다." }
+}

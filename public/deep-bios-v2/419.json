@@ -1,0 +1,39 @@
+{
+  "id": "419", "name": "Robert Rowling", "nameKo": "로버트 롤링",
+  "netWorth": 8.2, "nationality": "US", "industry": "Service",
+  "childhood": {
+    "birthPlace": "Corpus Christi, Texas, USA", "birthPlaceKo": "미국 텍사스주 코퍼스 크리스티",
+    "familyBackground": "Born to Reese Rowling — Texas oilman.", "familyBackgroundKo": "텍사스 석유인 리스 롤링의 아들.",
+    "education": "University of Texas; Southern Methodist University Law.", "educationKo": "텍사스 대학교; 서던 메소디스트 대학교 법학.",
+    "earlyLife": "Inherited and built family Tana Oil & Gas (sold to Texaco $476M 1989); founded TRT Holdings 1989; owns Omni Hotels, Gold's Gym, ClubCorp/Invited golf clubs.",
+    "earlyLifeKo": "가족 Tana Oil & Gas 상속·구축(1989 Texaco에 4억 7,600만 달러 매각); 1989 TRT Holdings 창립; Omni Hotels·Gold's Gym·ClubCorp/Invited 골프 클럽 소유.",
+    "source": "https://en.wikipedia.org/wiki/Robert_Rowling"
+  },
+  "capitalOrigin": { "typeKo": "mixed", "explanationKo": "Tana Oil 가족 + TRT Holdings 다각화." },
+  "careerTimeline": [
+    { "year": 1976, "age": 23, "event": "Joined family Tana Oil & Gas.", "eventKo": "가족 Tana Oil & Gas 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1989, "age": 36, "event": "Sold Tana Oil & Gas to Texaco for $476M; founded TRT Holdings.", "eventKo": "Tana Oil & Gas를 Texaco에 4억 7,600만 달러 매각; TRT Holdings 창립.", "whyItMatteredKo": "엑시트 + TRT 출발선." },
+    { "year": 1996, "age": 43, "event": "Acquired Omni Hotels for $500M.", "eventKo": "Omni Hotels를 5억 달러에 인수.", "whyItMatteredKo": "Omni 단계." },
+    { "year": 2004, "age": 51, "event": "Acquired Gold's Gym chain.", "eventKo": "Gold's Gym 체인 인수.", "whyItMatteredKo": "Gold's Gym 단계." },
+    { "year": 2025, "age": 72, "event": "Personal net worth at $8.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 82억 달러.", "whyItMatteredKo": "TRT 정점." }
+  ],
+  "turningPoints": [{ "year": 1989, "age": 36, "decisionKo": "Tana Oil Texaco 매각 후 TRT 다각화", "alternativeKo": "석유 사업 잔류", "outcomeKo": "36년 후 82억 달러 호텔·피트니스·골프 다각화" }],
+  "moneyMechanics": { "primaryRevenueKo": "TRT Holdings 사적 자본 + Omni·Gold's Gym·ClubCorp 지분", "industryKo": "호텔·피트니스·골프", "businessModelKo": "Omni 럭셔리 호텔 + Gold's Gym + 골프 클럽 회원제", "moatKo": "다각화 서비스 자산 + 가족 사적 소유 + 럭셔리 브랜드", "luckVsSkillKo": "운(30%): Tana Texaco 매각 타이밍. 실력(70%): 36년 TRT 다각화." },
+  "personalTraits": {
+    "knownFor": "Founder of TRT Holdings; owner of Omni Hotels, Gold's Gym, Invited (ClubCorp).",
+    "knownForKo": "TRT Holdings 창립자; Omni Hotels·Gold's Gym·Invited(ClubCorp) 소유주.",
+    "philanthropy": "Rowling Foundation supports University of Texas and Texas education.", "philanthropyKo": "롤링 재단이 텍사스 대학교·텍사스 교육 지원.",
+    "controversies": "2020 Gold's Gym filed Chapter 11 bankruptcy under COVID; TRT acquired post-bankruptcy.",
+    "controversiesKo": "2020 Gold's Gym이 COVID 하에 챕터 11 파산 신청; TRT가 파산 후 인수."
+  },
+  "characterKo": { "summaryKo": "Tana Oil 매각 + Omni·Gold's·ClubCorp 다각화.", "tagsKo": ["TRT Holdings", "Omni Hotels", "Gold's Gym"] },
+  "failures": [
+    { "year": 2020, "description": "Gold's Gym filed Chapter 11 bankruptcy under COVID gym closures.", "descriptionKo": "Gold's Gym이 COVID 체육관 폐쇄로 챕터 11 파산 신청.", "lesson": "Brick-and-mortar fitness faces pandemic-shock exposure.", "lessonKo": "오프라인 피트니스는 팬데믹 충격 노출." },
+    { "year": 2009, "description": "Financial crisis compressed luxury-hotel demand; Omni revenue plunged briefly.", "descriptionKo": "금융위기로 럭셔리 호텔 수요 압축; Omni 매출 잠시 급락.", "lesson": "Luxury hospitality faces recession exposure.", "lessonKo": "럭셔리 접객은 침체 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 6.7 }, { "year": 2020, "netWorth": 5.0 }, { "year": 2024, "netWorth": 7.8 }, { "year": 2025, "netWorth": 8.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Hospitality is hospitality whether oil, hotels, or gym.", "textKo": "접객은 석유든 호텔이든 체육관이든 접객이다.", "context": "On diversified service businesses", "contextKo": "다각화 서비스 사업에 대해", "source": "https://www.omnihotels.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Jin day pillar in Yu month — 'yangin-gyeok', strong-metal drive, fitting oil-to-luxury-services diversifier.", "summaryKo": "경진 일주 + 유월 양인격(폭발적 추진력·기세)은 석유에서 럭셔리 호텔·피트니스·골프로의 폭발적 다각화 추진과 호응합니다. 경금 일간의 강한 금속·결단 기질 + 유금 월지의 극강 금 기운이 결단력을 이중 강조하고, 진토 일지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

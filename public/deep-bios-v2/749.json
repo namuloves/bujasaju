@@ -1,0 +1,39 @@
+{
+  "id": "749", "name": "Stewart Resnick", "nameKo": "스튜어트 앨런 레즈닉",
+  "netWorth": 5.4, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Newark, New Jersey, USA", "birthPlaceKo": "미국 뉴저지주 뉴어크",
+    "familyBackground": "Born to American Jewish family; father bar owner.", "familyBackgroundKo": "미국 유대인 가정에서 출생; 아버지는 바 소유주.",
+    "education": "UCLA (BA, MBA).", "educationKo": "UCLA(학사·MBA).",
+    "earlyLife": "Co-founded Roll International with wife Lynda Resnick; built Wonderful Company — Fiji Water, POM Wonderful, Wonderful Pistachios, Wonderful Halos mandarins; largest US tree-nut grower.",
+    "earlyLifeKo": "아내 린다 레즈닉과 Roll International 공동 창립; Wonderful Company 구축 — 피지 워터·POM Wonderful·Wonderful Pistachios·Wonderful Halos 만다린; 미국 최대 견과 재배자.",
+    "source": "https://en.wikipedia.org/wiki/Stewart_Resnick"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Wonderful Company 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1962, "age": 26, "event": "Founded janitorial-services company while at UCLA.", "eventKo": "UCLA 재학 중 청소 서비스 회사 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 1979, "age": 43, "event": "Acquired Teleflora flower-delivery network.", "eventKo": "Teleflora 꽃 배송 네트워크 인수.", "whyItMatteredKo": "Teleflora 단계." },
+    { "year": 1985, "age": 49, "event": "Began Paramount Farms — California pistachio orchards.", "eventKo": "Paramount Farms 시작 — 캘리포니아 피스타치오 농장.", "whyItMatteredKo": "농장 단계." },
+    { "year": 2002, "age": 66, "event": "Acquired Fiji Water; launched POM Wonderful.", "eventKo": "피지 워터 인수; POM Wonderful 출시.", "whyItMatteredKo": "Wonderful 브랜드 단계." },
+    { "year": 2025, "age": 89, "event": "Personal net worth at $5.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 54억 달러.", "whyItMatteredKo": "Wonderful 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 49, "decisionKo": "캘리포니아 피스타치오 농장 진입", "alternativeKo": "꽃 배송 집중", "outcomeKo": "40년 후 미국 최대 견과 재배자 + 54억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Wonderful Company 사적 가족 지분 + 농장", "industryKo": "식품·음료·농업", "businessModelKo": "수직 통합 농업 + 브랜드(피지·POM·피스타치오) + 마케팅", "moatKo": "캘리포니아 거대 농장 + 물 권리 + 강력 브랜드 마케팅", "luckVsSkillKo": "운(40%): 캘리포니아 농장 토지 가치 상승. 실력(60%): 마케팅·수직 통합 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Wonderful Company; husband of Lynda Resnick; world's largest pistachio grower.",
+    "knownForKo": "Wonderful Company 공동 창립자; 린다 레즈닉의 남편; 세계 최대 피스타치오 재배자.",
+    "philanthropy": "Resnick family signed Giving Pledge; supports Caltech, Cedars-Sinai, UCLA, environment.", "philanthropyKo": "레즈닉 가족이 Giving Pledge 서명; 캘텍·시더스 사이나이·UCLA·환경 지원.",
+    "controversies": "California water-rights controversy — Wonderful uses huge groundwater in drought-prone California; POM Wonderful 2010 FTC false-advertising case.",
+    "controversiesKo": "캘리포니아 물 권리 논쟁 — Wonderful이 가뭄 위험 캘리포니아에서 거대 지하수 사용; 2010 POM Wonderful FTC 허위 광고 사건."
+  },
+  "characterKo": { "summaryKo": "Wonderful Company + 캘리포니아 견과·물 거인.", "tagsKo": ["Wonderful Company", "피지 워터", "Pistachios"] },
+  "failures": [
+    { "year": 2010, "description": "FTC ruled POM Wonderful made false health claims; brand damaged.", "descriptionKo": "FTC가 POM Wonderful이 허위 건강 주장 결정; 브랜드 손상.", "lesson": "Food brands face health-claim regulatory risk.", "lessonKo": "식품 브랜드는 건강 주장 규제 리스크 직면." },
+    { "year": 2014, "description": "California drought drew sustained criticism for Wonderful water usage.", "descriptionKo": "캘리포니아 가뭄이 Wonderful 물 사용에 지속적 비판 야기.", "lesson": "Water-intensive agriculture faces public-resource scrutiny.", "lessonKo": "물 집약적 농업은 공공 자원 감시 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.4 }, { "year": 2020, "netWorth": 4.5 }, { "year": 2024, "netWorth": 5.2 }, { "year": 2025, "netWorth": 5.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I'm a farmer who happens to do branding.", "textKo": "나는 마침 브랜딩을 하는 농부다.", "context": "On Wonderful philosophy", "contextKo": "Wonderful 철학에 대해", "source": "https://www.wonderful.com" }],
+  "books": { "authored": [{ "title": "Rubies in the Orchard (with Lynda Resnick)", "year": 2008 }], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Jin day pillar in Ja month — 'sanggwan-gyeok', unconventional output, fitting branding-driven food-agriculture magnate.", "summaryKo": "경진 일주 + 자월 상관격(파격적 표현·기존 권위 도전)은 견과·석류 주스·피지 물이라는 평범 농산물을 파격적 럭셔리 브랜드로 변환한 그의 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 마케팅 결단과 통하고, 진토 일지의 토 기운이 농업·토지 자본 기반을, 자수 월지의 수 기운이 물·자본 유동성을 가리킵니다." }
+}

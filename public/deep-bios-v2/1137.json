@@ -1,0 +1,39 @@
+{
+  "id": "1137", "name": "Ralph Dommermuth", "nameKo": "랄프 도머무트",
+  "netWorth": 3.7, "nationality": "DE", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Dahlheim, Germany", "birthPlaceKo": "독일 달하임",
+    "familyBackground": "Born to German family.", "familyBackgroundKo": "독일 가정에서 출생.",
+    "education": "Industrial business management training.", "educationKo": "산업 경영 훈련.",
+    "earlyLife": "Founded 1&1 (one and one) telecommunications in 1988; built United Internet AG — major German ISP and hosting; bought Ionos hosting; 1&1 became Germany's 4th mobile operator 2019.",
+    "earlyLifeKo": "1988 1&1(원앤원) 통신 창립; United Internet AG 구축 — 주요 독일 ISP·호스팅; Ionos 호스팅 매수; 2019 1&1이 독일 4위 이동통신사가 됨.",
+    "source": "https://en.wikipedia.org/wiki/Ralph_Dommermuth"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "United Internet 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1986, "age": 22, "event": "Began career in industrial business management.", "eventKo": "산업 경영 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1988, "age": 24, "event": "Founded 1&1 telecommunications in Montabaur.", "eventKo": "몬타바우어에서 1&1 통신 창립.", "whyItMatteredKo": "1&1 출발선." },
+    { "year": 1998, "age": 34, "event": "1&1 (United Internet) listed on Frankfurt stock exchange.", "eventKo": "1&1(United Internet) 프랑크푸르트 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2019, "age": 55, "event": "1&1 won 5G spectrum license; became Germany's 4th mobile operator.", "eventKo": "1&1이 5G 스펙트럼 라이선스 획득; 독일 4위 이동통신사.", "whyItMatteredKo": "이동통신 단계." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $3.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러.", "whyItMatteredKo": "United Internet 정점." }
+  ],
+  "turningPoints": [{ "year": 2019, "age": 55, "decisionKo": "5G 스펙트럼 라이선스로 4번째 이동통신사 진입", "alternativeKo": "ISP·호스팅 잔류", "outcomeKo": "6년 후 독일 4위 통신사 + 37억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "United Internet AG(UTDI) 창립자 지분 + 1&1 + Ionos", "industryKo": "통신·인터넷 인프라", "businessModelKo": "ISP + 호스팅 + 이동통신 + 클라우드", "moatKo": "독일 1&1 브랜드 + 38년 인터넷 인프라 + 5G 라이선스", "luckVsSkillKo": "운(35%): 독일 인터넷 부상. 실력(65%): 38년 일관성 + 5G 진입." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of United Internet/1&1; German telecom-internet magnate.",
+    "knownForKo": "United Internet/1&1 창립자·CEO; 독일 통신·인터넷 거물.",
+    "philanthropy": "Dommermuth supports German tech-education initiatives.", "philanthropyKo": "도머무트가 독일 기술 교육 이니셔티브 지원.",
+    "controversies": "1&1 5G rollout delays drew German regulator scrutiny; antenna agreement disputes with Vodafone.",
+    "controversiesKo": "1&1 5G 롤아웃 지연이 독일 규제 감시 야기; Vodafone과 안테나 합의 분쟁."
+  },
+  "characterKo": { "summaryKo": "1&1 38년 + 5G 독일 4위 이동통신사.", "tagsKo": ["1&1", "United Internet", "Ionos"] },
+  "failures": [
+    { "year": 2001, "description": "Dot-com crash halved United Internet stock from peak.", "descriptionKo": "닷컴 폭락으로 United Internet 주식 정점에서 반토막.", "lesson": "Internet infrastructure stocks face deep tech-cycle exposure.", "lessonKo": "인터넷 인프라 주식은 깊은 기술 사이클 노출 직면." },
+    { "year": 2023, "description": "1&1 5G rollout delays incurred regulatory fines and stock-price decline.", "descriptionKo": "1&1 5G 롤아웃 지연이 규제 벌금·주가 하락 초래.", "lesson": "Telecom-license obligations face execution risk.", "lessonKo": "통신 라이선스 의무는 실행 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Connectivity is German infrastructure as essential as autobahn.", "textKo": "연결성은 아우토반만큼 필수적인 독일 인프라다.", "context": "On 5G strategy", "contextKo": "5G 전략에 대해", "source": "https://www.united-internet.de" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-In day pillar in Hae month — 'jeonggwan-gyeok', formal regulated authority, fitting telecom-license holder.", "summaryKo": "병인 일주 + 해월 정관격(공식 권위·규제 아래에서 일하는 구조)은 강한 독일 통신 규제 하에 5G 라이선스를 획득한 그의 정통 권위 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 인목 일지의 목 기운이 회사 성장을, 해수 월지의 수 기운이 자본·데이터 유동성을 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1451", "name": "Tim Cook", "nameKo": "티머시 도널드 쿡",
+  "netWorth": 2.8, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Mobile, Alabama, USA", "birthPlaceKo": "미국 앨라배마주 모빌",
+    "familyBackground": "Born to American working-class family; father shipyard worker, mother pharmacist.", "familyBackgroundKo": "미국 노동자 계급 가정에서 출생; 아버지 조선소 근로자, 어머니 약사.",
+    "education": "Auburn University; Duke Fuqua MBA.", "educationKo": "오번 대학교; 듀크 푸쿠아 MBA.",
+    "earlyLife": "Worked at IBM 12 years; Compaq operations; joined Apple 1998 to fix supply chain; succeeded Steve Jobs as CEO 2011; led Apple to $3T+ market cap.",
+    "earlyLifeKo": "IBM 12년 근무; Compaq 운영; 1998 공급망 수리 위해 Apple 합류; 2011 스티브 잡스 후임 CEO; Apple을 3조+ 시가총액으로 주도.",
+    "source": "https://en.wikipedia.org/wiki/Tim_Cook"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Apple CEO 보상 + 주식." },
+  "careerTimeline": [
+    { "year": 1982, "age": 22, "event": "Began at IBM as operations engineer.", "eventKo": "IBM 운영 엔지니어로 시작.", "whyItMatteredKo": "운영 출발선." },
+    { "year": 1998, "age": 38, "event": "Joined Apple as SVP Worldwide Operations under Steve Jobs.", "eventKo": "스티브 잡스 아래 SVP 전세계 운영으로 Apple 합류.", "whyItMatteredKo": "Apple 출발선." },
+    { "year": 2011, "age": 51, "event": "Became Apple CEO upon Steve Jobs's death.", "eventKo": "스티브 잡스 사망 후 Apple CEO 취임.", "whyItMatteredKo": "CEO 단계." },
+    { "year": 2018, "age": 58, "event": "Apple became first US company to reach $1T market cap.", "eventKo": "Apple이 1조 달러 시가총액 도달한 첫 미국 회사가 됨.", "whyItMatteredKo": "1조 달러 단계." },
+    { "year": 2025, "age": 65, "event": "Personal net worth at $2.8B per Forbes Real-Time; Apple over $3.5T market cap.", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러; Apple 3.5조+ 달러 시가총액.", "whyItMatteredKo": "Apple 정점." }
+  ],
+  "turningPoints": [{ "year": 2011, "age": 51, "decisionKo": "잡스 사망 후 Apple CEO 수락", "alternativeKo": "단순 운영 책임자 잔류", "outcomeKo": "14년 후 28억 달러 + 3.5조 달러 시가총액" }],
+  "moneyMechanics": { "primaryRevenueKo": "Apple(AAPL) CEO 주식 보상 + 다각화", "industryKo": "기술·소비자 전자", "businessModelKo": "iPhone·Mac·서비스 + 글로벌 공급망 + 프리미엄 브랜드", "moatKo": "Apple 브랜드 + iOS 생태계 + Cook 공급망 노하우", "luckVsSkillKo": "운(30%): 잡스 후 시기. 실력(70%): 14년 CEO 운영 일관성 + 공급망 천재성." },
+  "personalTraits": {
+    "knownFor": "Apple CEO since 2011; supply-chain operations master; first openly-gay Fortune 500 CEO.",
+    "knownForKo": "2011년부터 Apple CEO; 공급망 운영 마스터; 첫 공개적 게이 포춘 500 CEO.",
+    "philanthropy": "Tim Cook will donate his fortune; supports HRC, anti-AIDS efforts, climate causes.", "philanthropyKo": "팀 쿡이 재산 기부 계획; HRC·에이즈 퇴치·기후 자선 지원.",
+    "controversies": "2024 EU Digital Markets Act forced App Store changes; FTC antitrust scrutiny on Apple's policies; 2014 China supply-chain labor controversies.",
+    "controversiesKo": "2024 EU 디지털 시장법이 App Store 변경 강제; FTC가 Apple 정책 반독점 감시; 2014 중국 공급망 노동 논쟁."
+  },
+  "characterKo": { "summaryKo": "Apple CEO 14년 + 3.5조 달러 시가총액 + 공급망 마스터.", "tagsKo": ["Apple CEO", "공급망", "iPhone"] },
+  "failures": [
+    { "year": 2016, "description": "Apple-FBI San Bernardino encryption case set ongoing privacy-vs-security tension; brand cost.", "descriptionKo": "Apple-FBI 샌버너디노 암호화 사건이 진행 중 프라이버시 대 보안 긴장 설정; 브랜드 비용.", "lesson": "Privacy stance has political cost.", "lessonKo": "프라이버시 입장은 정치 비용이 있다." },
+    { "year": 2024, "description": "Apple Intelligence AI launch widely criticized as behind competitors; brand-innovation concerns.", "descriptionKo": "Apple Intelligence AI 출시가 경쟁사 뒤처진다고 광범위 비판; 브랜드 혁신 우려.", "lesson": "Late-mover AI strategy faces brand-innovation risk.", "lessonKo": "후발 AI 전략은 브랜드 혁신 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.4 }, { "year": 2020, "netWorth": 1.0 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Privacy is a fundamental human right.", "textKo": "프라이버시는 기본 인권이다.", "context": "On Apple privacy stance", "contextKo": "Apple 프라이버시 입장에 대해", "source": "https://www.apple.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in Sul month — 'jeongjae-gyeok', stable wealth accumulation, fitting long-tenured operational CEO.", "summaryKo": "계사 일주 + 술월 정재격(안정적·정직한 부 축적)은 14년 CEO 재임 + 정밀 공급망 + 안정 주식 보상 누적이라는 정직 안정 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 운영과 통하고, 사화 일지의 강한 화 기운이 결단을, 술토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

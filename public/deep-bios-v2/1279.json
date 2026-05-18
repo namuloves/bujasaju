@@ -1,0 +1,39 @@
+{
+  "id": "1279", "name": "John Pritzker", "nameKo": "존 A. 프리츠커",
+  "netWorth": 3.2, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Donald Pritzker — co-founder of Hyatt Hotels; Pritzker family dynasty.", "familyBackgroundKo": "Hyatt Hotels 공동 창립자 도널드 프리츠커의 아들; 프리츠커 가족 왕조.",
+    "education": "Menlo College.", "educationKo": "멘로 칼리지.",
+    "earlyLife": "Joined family Hyatt Hotels; received family trust share in 1990s Pritzker family settlement; founded Geolo Capital — private investment firm focused on hospitality.",
+    "earlyLifeKo": "가족 Hyatt Hotels 합류; 1990년대 프리츠커 가족 합의에서 가족 신탁 지분 수령; 접객 중심 사적 투자 회사 Geolo Capital 창립.",
+    "source": "https://en.wikipedia.org/wiki/John_A._Pritzker"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Pritzker 가족 신탁 자본." },
+  "careerTimeline": [
+    { "year": 1976, "age": 23, "event": "Joined family Hyatt Hotels.", "eventKo": "가족 Hyatt Hotels 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2001, "age": 48, "event": "Family settlement divided Pritzker trust; John received share.", "eventKo": "가족 합의로 프리츠커 신탁 분할; 존 지분 수령.", "whyItMatteredKo": "신탁 분할 단계." },
+    { "year": 2005, "age": 52, "event": "Founded Geolo Capital hospitality-focused private investment.", "eventKo": "접객 중심 사적 투자 Geolo Capital 창립.", "whyItMatteredKo": "Geolo 출발선." },
+    { "year": 2015, "age": 62, "event": "Geolo Capital expanded into Commune Hotels and other hospitality brands.", "eventKo": "Geolo Capital이 Commune Hotels 등 접객 브랜드 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2025, "age": 71, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "Pritzker 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 52, "decisionKo": "가족 신탁 후 Geolo Capital 접객 집중", "alternativeKo": "Hyatt 잔류", "outcomeKo": "20년 후 32억 달러 접객 PE 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Pritzker 가족 신탁 + Geolo Capital + Hyatt 지분", "industryKo": "접객·사모펀드", "businessModelKo": "Hyatt 가족 지분 + 부티크 호텔 PE + 다각화", "moatKo": "Pritzker 가족 자본 + 60년 접객 인맥", "luckVsSkillKo": "운(70%): 가족 신탁. 실력(30%): 20년 Geolo 운영." },
+  "personalTraits": {
+    "knownFor": "Pritzker family member; founder of Geolo Capital; son of Hyatt co-founder.",
+    "knownForKo": "프리츠커 가족 멤버; Geolo Capital 창립자; Hyatt 공동 창립자의 아들.",
+    "philanthropy": "Pritzker family signed Giving Pledge; supports Stanford and arts.", "philanthropyKo": "프리츠커 가족 Giving Pledge 서명; 스탠퍼드·예술 지원.",
+    "controversies": "1995-2001 Pritzker family settlement litigation drew sustained public attention.",
+    "controversiesKo": "1995-2001 프리츠커 가족 합의 소송이 지속적 공공 관심 야기."
+  },
+  "characterKo": { "summaryKo": "Pritzker 가족 + Geolo Capital 접객 PE.", "tagsKo": ["Pritzker family", "Hyatt", "Geolo Capital"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 closed hotels globally; Geolo Capital hospitality portfolio compressed.", "descriptionKo": "COVID-19이 글로벌 호텔 폐쇄; Geolo Capital 접객 포트폴리오 압축.", "lesson": "Hospitality faces pandemic-shock exposure.", "lessonKo": "접객은 팬데믹 충격 노출 직면." },
+    { "year": 2001, "description": "Pritzker family trust-distribution litigation publicly exposed family disputes.", "descriptionKo": "프리츠커 가족 신탁 분배 소송이 가족 분쟁 공공 노출.", "lesson": "Family trusts face succession-conflict risk.", "lessonKo": "가족 신탁은 승계 갈등 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.7 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Hospitality is the family business — patient, hands-on, personal.", "textKo": "접객은 가족 사업이다 — 인내, 직접 손, 개인적.", "context": "On Geolo Capital", "contextKo": "Geolo Capital에 대해", "source": "https://www.geolocap.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in Sin month — 'jeongin-gyeok', formal academic credential, fitting hospitality-trust-family heir.", "summaryKo": "계사 일주 + 신월 정인격(공식 자격·학문·문서 권위)은 가족 신탁이라는 정통 문서 권위 + Geolo Capital 정통 PE 자격 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 자본 관리와 통하고, 사화 일지의 강한 화 기운이 결단을, 신금 월지의 금 기운이 정밀 금융 도구를 가리킵니다." }
+}

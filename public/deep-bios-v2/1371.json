@@ -1,0 +1,39 @@
+{
+  "id": "1371", "name": "Michael S. Smith", "nameKo": "마이클 S. 스미스",
+  "netWorth": 3.0, "nationality": "US", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Founded Cove Point LNG terminal in Maryland; co-founded Freeport LNG (Texas) liquefaction terminal; built US LNG export pioneer.",
+    "earlyLifeKo": "메릴랜드 Cove Point LNG 터미널 창립; Freeport LNG(텍사스) 액화 터미널 공동 창립; 미국 LNG 수출 선구자 구축.",
+    "source": "https://www.freeportlng.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Freeport LNG 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1979, "age": 24, "event": "Began career in US natural gas.", "eventKo": "미국 천연가스 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1994, "age": 39, "event": "Built Cove Point LNG terminal in Maryland.", "eventKo": "메릴랜드 Cove Point LNG 터미널 구축.", "whyItMatteredKo": "Cove Point 단계." },
+    { "year": 2002, "age": 47, "event": "Co-founded Freeport LNG in Texas.", "eventKo": "텍사스에서 Freeport LNG 공동 창립.", "whyItMatteredKo": "Freeport 출발선." },
+    { "year": 2019, "age": 64, "event": "Freeport LNG began full-scale LNG exports; US LNG-export boom.", "eventKo": "Freeport LNG가 본격 LNG 수출 시작; 미국 LNG 수출 호황.", "whyItMatteredKo": "수출 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 30억 달러.", "whyItMatteredKo": "Freeport LNG 정점." }
+  ],
+  "turningPoints": [{ "year": 2002, "age": 47, "decisionKo": "텍사스 Freeport LNG 공동 창립", "alternativeKo": "Cove Point 단일 운영", "outcomeKo": "23년 후 미국 LNG 수출 거인 + 30억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Freeport LNG 사적 지분 + 다각화", "industryKo": "LNG 수출·천연가스", "businessModelKo": "장기 LNG 수출 계약 + 액화 터미널 + 미국 셰일 가스", "moatKo": "미국 LNG 수출 인프라 + 장기 계약 + 셰일 가스 시기", "luckVsSkillKo": "운(50%): 미국 셰일 가스 + 글로벌 LNG 수요. 실력(50%): LNG 수출 인프라 결단." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Freeport LNG; US LNG-export pioneer; chairman.",
+    "knownForKo": "Freeport LNG 공동 창립자; 미국 LNG 수출 선구자; 의장.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Freeport LNG 2022 explosion shut export terminal for 8 months; investigated by federal safety regulators.",
+    "controversiesKo": "Freeport LNG 2022 폭발이 8개월 수출 터미널 폐쇄; 연방 안전 규제 조사."
+  },
+  "characterKo": { "summaryKo": "Cove Point + Freeport LNG 미국 LNG 수출 선구자.", "tagsKo": ["Freeport LNG", "Cove Point", "LNG 수출"] },
+  "failures": [
+    { "year": 2022, "description": "Freeport LNG explosion shut Texas terminal for 8 months; major revenue disruption and federal safety investigation.", "descriptionKo": "Freeport LNG 폭발이 텍사스 터미널 8개월 폐쇄; 주요 매출 혼란·연방 안전 조사.", "lesson": "LNG terminals face fatal-explosion infrastructure risk.", "lessonKo": "LNG 터미널은 치명적 폭발 인프라 리스크 직면." },
+    { "year": 2015, "description": "Oil-price crash compressed LNG project economics briefly.", "descriptionKo": "유가 폭락으로 LNG 프로젝트 경제 잠시 압축.", "lesson": "LNG projects face commodity-cycle exposure.", "lessonKo": "LNG 프로젝트는 상품 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "America found LNG when LNG found America.", "textKo": "LNG가 미국을 찾았을 때 미국이 LNG를 찾았다.", "context": "On US LNG exports", "contextKo": "미국 LNG 수출에 대해", "source": "https://www.freeportlng.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-O day pillar in Sa month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting energy-infrastructure builder.", "summaryKo": "경오 일주 + 사월 편관격(강한 외부 압박·권력 충돌)은 LNG 액화 폭발 리스크와 강한 연방 규제 압박 환경과 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 인프라 도구와 통하고, 오화 일지·사화 월지의 극강 화 기운이 LNG라는 에너지 결합과 결단을 가리킵니다." }
+}

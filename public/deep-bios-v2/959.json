@@ -1,0 +1,39 @@
+{
+  "id": "959", "name": "Maria-Elisabeth Schaeffler-Thumann", "nameKo": "마리아-엘리자베스 쉐플러-투만",
+  "netWorth": 4.3, "nationality": "DE", "industry": "Automotive",
+  "childhood": {
+    "birthPlace": "Vienna, Austria", "birthPlaceKo": "오스트리아 빈",
+    "familyBackground": "Born to Austrian family; married Georg Schaeffler (German industrialist) in 1963.", "familyBackgroundKo": "오스트리아 가정에서 출생; 1963 독일 산업가 게오르크 쉐플러와 결혼.",
+    "education": "Austrian higher education.", "educationKo": "오스트리아 고등교육.",
+    "earlyLife": "Married into Schaeffler family (INA Bearings/FAG); led Schaeffler Group through 2008 Continental acquisition crisis; mother of Georg F.W. Schaeffler.",
+    "earlyLifeKo": "쉐플러 가족(INA Bearings/FAG) 결혼; 2008 Continental 인수 위기 동안 Schaeffler Group 주도; 게오르크 F.W. 쉐플러의 어머니.",
+    "source": "https://en.wikipedia.org/wiki/Maria-Elisabeth_Sch%C3%A4ffler"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Schaeffler 가족 자본." },
+  "careerTimeline": [
+    { "year": 1963, "age": 22, "event": "Married Georg Schaeffler; joined Schaeffler industrial family.", "eventKo": "게오르크 쉐플러와 결혼; 쉐플러 산업 가족 합류.", "whyItMatteredKo": "가족 진입." },
+    { "year": 1996, "age": 55, "event": "Husband Georg died; took over Schaeffler Group with son Georg F.W.", "eventKo": "남편 게오르크 사망; 아들 게오르크 F.W.와 Schaeffler Group 인수.", "whyItMatteredKo": "지배 단계." },
+    { "year": 2008, "age": 67, "event": "Schaeffler attempted hostile $19B acquisition of Continental AG; crisis followed financial-crisis stock crash.", "eventKo": "Schaeffler가 Continental AG 190억 달러 적대적 인수 시도; 금융위기 주가 폭락으로 위기.", "whyItMatteredKo": "Continental 위기." },
+    { "year": 2015, "age": 74, "event": "Schaeffler IPO on Frankfurt stock exchange; debt cleared.", "eventKo": "Schaeffler 프랑크푸르트 상장; 부채 정리.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $4.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러.", "whyItMatteredKo": "Schaeffler 정점." }
+  ],
+  "turningPoints": [{ "year": 2008, "age": 67, "decisionKo": "Continental AG 190억 달러 적대적 인수 시도", "alternativeKo": "기존 사업 집중", "outcomeKo": "17년 후 거대 자동차 부품 그룹 + 43억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Schaeffler AG·Continental AG 가족 지분 + 다각화", "industryKo": "자동차 부품·산업", "businessModelKo": "베어링·정밀 부품 + 자동차 OEM 공급 + 산업 자동화", "moatKo": "Schaeffler·Continental 양대 자동차 부품 거인 + 가족 의결권", "luckVsSkillKo": "운(35%): 자동차 산업 회복. 실력(65%): 2008 위기 통과 + 17년 일관성." },
+  "personalTraits": {
+    "knownFor": "Vice-chair of Schaeffler family holding; widow of Georg Schaeffler; mother of Georg F.W. Schaeffler.",
+    "knownForKo": "Schaeffler 가족 지주 부의장; 게오르크 쉐플러의 미망인; 게오르크 F.W. 쉐플러의 어머니.",
+    "philanthropy": "Maria-Elisabeth Schäffler Foundation supports German cultural and social causes.", "philanthropyKo": "마리아-엘리자베스 쉐플러 재단이 독일 문화·사회 자선 지원.",
+    "controversies": "2008 Continental hostile bid timing during financial crisis; family debt-restructuring scrutiny.",
+    "controversiesKo": "2008 금융위기 동안 Continental 적대적 입찰 타이밍; 가족 부채 재구조화 감시."
+  },
+  "characterKo": { "summaryKo": "Schaeffler 미망인 + 2008 Continental 위기 통과.", "tagsKo": ["Schaeffler", "Continental AG", "가족 산업"] },
+  "failures": [
+    { "year": 2009, "description": "Continental stock crashed 2008-2009 forcing emergency German government and banks intervention to save Schaeffler debt structure.", "descriptionKo": "2008-2009 Continental 주식 폭락으로 독일 정부·은행 긴급 개입이 Schaeffler 부채 구조 구제 강제.", "lesson": "Hostile-takeover leverage faces tail-risk in crisis.", "lessonKo": "적대적 인수 레버리지는 위기에서 꼬리 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 plus auto-industry semiconductor shortage compressed Schaeffler revenue briefly.", "descriptionKo": "COVID-19 + 자동차 반도체 부족이 Schaeffler 매출 잠시 압축.", "lesson": "Auto suppliers face industry-cycle plus supply-chain exposure.", "lessonKo": "자동차 공급사는 산업 사이클 + 공급망 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 5.5 }, { "year": 2020, "netWorth": 3.5 }, { "year": 2024, "netWorth": 4.0 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "A family company survives when the family survives the company.", "textKo": "가족 회사는 가족이 회사를 견딜 때 살아남는다.", "context": "On Schaeffler family", "contextKo": "쉐플러 가족에 대해", "source": "https://www.schaeffler.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Yu day pillar in Sin month — 'jeongjae-gyeok', precise stable wealth, fitting family-industry-precision-bearings matriarch.", "summaryKo": "정유 일주 + 신월 정재격(안정적·정직한 부 축적)은 정밀 베어링 산업 가족 가부장이라는 정확·안정 자본 축적과 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정밀 기계 부품과 통하고, 유금 일지·신금 월지의 극강 금 기운이 베어링이라는 정밀 금속 도구를 이중으로 강조합니다." }
+}

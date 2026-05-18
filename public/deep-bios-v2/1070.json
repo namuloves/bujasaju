@@ -1,0 +1,39 @@
+{
+  "id": "1070", "name": "Patrice Motsepe", "nameKo": "패트리스 틀호파네 모체페",
+  "netWorth": 3.9, "nationality": "ZA", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Soweto, South Africa", "birthPlaceKo": "남아프리카 소웨토",
+    "familyBackground": "Born to ABC Motsepe — black South African school teacher and shop owner; brother-in-law of Cyril Ramaphosa.", "familyBackgroundKo": "흑인 남아프리카 학교 교사·상점 소유주 ABC 모체페의 아들; 시릴 라마포사의 처남.",
+    "education": "University of Witwatersrand (law).", "educationKo": "비트바테르스란트 대학교(법학).",
+    "earlyLife": "First Black-African partner at South African law firm Bowman Gilfillan; founded Future Mining (later African Rainbow Minerals) in 1994 post-apartheid; first Black South African billionaire.",
+    "earlyLifeKo": "남아프리카 법률 회사 Bowman Gilfillan의 첫 흑인 아프리카 파트너; 1994 아파르트헤이트 후 Future Mining(이후 African Rainbow Minerals) 창립; 첫 흑인 남아프리카 억만장자.",
+    "source": "https://en.wikipedia.org/wiki/Patrice_Motsepe"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "African Rainbow Minerals 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1988, "age": 26, "event": "Became first Black-African partner at Bowman Gilfillan law firm.", "eventKo": "Bowman Gilfillan 법률 회사 첫 흑인 아프리카 파트너.", "whyItMatteredKo": "법률 출발선." },
+    { "year": 1994, "age": 32, "event": "Founded Future Mining (later ARM) post-apartheid; acquired marginal mining shafts.", "eventKo": "아파르트헤이트 후 Future Mining(이후 ARM) 창립; 한계 광산 갱구 인수.", "whyItMatteredKo": "ARM 출발선." },
+    { "year": 2008, "age": 46, "event": "Became South Africa's first Black billionaire.", "eventKo": "남아프리카 첫 흑인 억만장자가 됨.", "whyItMatteredKo": "첫 흑인 억만장자." },
+    { "year": 2013, "age": 51, "event": "Signed Giving Pledge — first African to commit.", "eventKo": "Giving Pledge 서명 — 첫 아프리카 서명자.", "whyItMatteredKo": "자선 단계." },
+    { "year": 2025, "age": 63, "event": "Personal net worth at $3.9B per Forbes Real-Time; president of CAF (Confederation of African Football).", "eventKo": "포브스 실시간 기준 개인 순자산 39억 달러; 아프리카 축구 연맹(CAF) 회장.", "whyItMatteredKo": "ARM + CAF 정점." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 32, "decisionKo": "아파르트헤이트 후 법률에서 광산으로 전환", "alternativeKo": "법률 잔류", "outcomeKo": "31년 후 39억 달러 첫 흑인 남아프리카 억만장자" }],
+  "moneyMechanics": { "primaryRevenueKo": "African Rainbow Minerals(ARI.JO) + Harmony Gold + ARC Investments + 다각화", "industryKo": "광산·금융·다각화", "businessModelKo": "백금·금·철광석 광산 + 금융 + Black Economic Empowerment", "moatKo": "BEE 정책 활용 + 30년 광산 인맥 + 라마포사 처남", "luckVsSkillKo": "운(40%): BEE 정책 시기 + 광물 부상. 실력(60%): 법률 + 광산 결단." },
+  "personalTraits": {
+    "knownFor": "First Black South African billionaire; founder of ARM; CAF president; Cyril Ramaphosa's brother-in-law.",
+    "knownForKo": "첫 흑인 남아프리카 억만장자; ARM 창립자; CAF 회장; 시릴 라마포사의 처남.",
+    "philanthropy": "Motsepe Foundation gives half wealth via Giving Pledge; supports education/health.", "philanthropyKo": "Motsepe 재단이 Giving Pledge로 자산 절반 기부; 교육·보건 지원.",
+    "controversies": "Family relations with President Ramaphosa drew political-influence scrutiny; ARM mine labor accidents.",
+    "controversiesKo": "라마포사 대통령과의 가족 관계로 정치 영향력 감시; ARM 광산 노동 사고."
+  },
+  "characterKo": { "summaryKo": "첫 흑인 남아프리카 억만장자 + 광산 + CAF 회장.", "tagsKo": ["African Rainbow Minerals", "BEE", "CAF 회장"] },
+  "failures": [
+    { "year": 2015, "description": "Iron-ore price crash from $190 to $40 compressed ARM revenue.", "descriptionKo": "철광석 가격 190달러에서 40달러로 폭락하며 ARM 매출 압축.", "lesson": "Mining faces commodity-cycle exposure.", "lessonKo": "광산은 상품 사이클 노출 직면." },
+    { "year": 2018, "description": "Lily Mine collapse 2016 killed three; ARM faced industrial-safety scrutiny.", "descriptionKo": "2016 Lily Mine 붕괴로 3명 사망; ARM 산업 안전 감시 직면.", "lesson": "Mining faces fatal-accident reputational risk.", "lessonKo": "광산은 사망 사고 평판 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.4 }, { "year": 2020, "netWorth": 2.3 }, { "year": 2024, "netWorth": 3.7 }, { "year": 2025, "netWorth": 3.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Africa rises when Africans own African resources.", "textKo": "아프리카는 아프리카인이 아프리카 자원을 소유할 때 일어선다.", "context": "On BEE", "contextKo": "BEE에 대해", "source": "https://www.arm.co.za" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-In day pillar in Chuk month — 'jeongjae-gyeok', stable wealth accumulation, fitting post-apartheid mining-empire-builder.", "summaryKo": "병인 일주 + 축월 정재격(안정적·정직한 부 축적)은 아파르트헤이트 후 30년에 걸쳐 광산 자본을 안정 축적한 그의 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 인목 일지의 목 기운이 회사 성장을, 축토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

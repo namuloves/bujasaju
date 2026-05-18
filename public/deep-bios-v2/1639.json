@@ -1,0 +1,38 @@
+{
+  "id": "1639", "name": "Sandeep Engineer", "nameKo": "산딥 엔지니어",
+  "netWorth": 2.5, "nationality": "IN", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Ahmedabad, Gujarat, India", "birthPlaceKo": "인도 구자라트 아마다바드",
+    "familyBackground": "Born to Gujarati Indian family.", "familyBackgroundKo": "인도 구자라트 가정에서 출생.",
+    "education": "BSc Chemistry from Saurashtra University; pharmaceutical engineering background.", "educationKo": "사우라슈트라 대학교 화학 학사; 제약 엔지니어링 배경.",
+    "earlyLife": "Founded Astral Limited (originally Astral Poly Technik) in 1996 with technology partnership from Lubrizol USA; built India's leading CPVC/PVC pipes manufacturer.",
+    "earlyLifeKo": "1996 미국 Lubrizol 기술 파트너십으로 Astral Limited(원래 Astral Poly Technik) 창립; 인도 선도 CPVC·PVC 파이프 제조사 구축.",
+    "source": "https://en.wikipedia.org/wiki/Astral_Limited"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Astral Limited 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 24, "event": "Began career in pharma and chemicals.", "eventKo": "제약·화학 경력 시작.", "whyItMatteredKo": "화학 출발선." },
+    { "year": 1996, "age": 35, "event": "Founded Astral Poly Technik with Lubrizol CPVC technology license.", "eventKo": "Lubrizol CPVC 기술 라이선스로 Astral Poly Technik 창립.", "whyItMatteredKo": "Astral 출발선." },
+    { "year": 2007, "age": 46, "event": "Astral IPO on Indian stock exchange.", "eventKo": "Astral 인도 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2014, "age": 53, "event": "Astral expanded into adhesives via Resinova and Seal It acquisitions.", "eventKo": "Resinova·Seal It 인수로 Astral 접착제 확장.", "whyItMatteredKo": "접착제 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "Astral 정점." }
+  ],
+  "turningPoints": [{ "year": 1996, "age": 35, "decisionKo": "Lubrizol 기술 라이선스로 Astral 창립", "alternativeKo": "기존 화학 잔류", "outcomeKo": "29년 후 인도 선도 파이프 제조사 + 25억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Astral Limited(ASTRAL.NS) 창립자 지분 + 다각화", "industryKo": "건자재·파이프·접착제", "businessModelKo": "CPVC·PVC 파이프 + 접착제 + 인도 인프라 수요", "moatKo": "Lubrizol 기술 라이선스 + 30년 인도 건자재 인맥", "luckVsSkillKo": "운(40%): 인도 건자재 호황. 실력(60%): 기술 라이선스 협상 + 30년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Astral Limited; Gujarati Indian pipes-and-adhesives magnate.",
+    "knownForKo": "Astral Limited 창립자; 인도 구자라트 파이프·접착제 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard Indian-manufacturer scrutiny.", "controversiesKo": "제한적; 인도 제조사 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Lubrizol 기술 라이선스 + 인도 파이프·접착제 거인.", "tagsKo": ["Astral Limited", "CPVC 파이프", "인도 건자재"] },
+  "failures": [
+    { "year": 2008, "description": "Indian real-estate slowdown plus global crisis briefly compressed Astral demand.", "descriptionKo": "인도 부동산 둔화 + 글로벌 위기로 Astral 수요 잠시 압축.", "lesson": "Building-products track real-estate cycle.", "lessonKo": "건자재는 부동산 사이클 추적." },
+    { "year": 2022, "description": "Raw-material (PVC resin) price spike compressed Astral margins briefly.", "descriptionKo": "원자재(PVC 수지) 가격 급등으로 Astral 마진 잠시 압축.", "lesson": "Pipe manufacturers face commodity-input volatility.", "lessonKo": "파이프 제조사는 상품 투입 변동성 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.2 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "A pipe is invisible until it leaks; quality is patience.", "textKo": "파이프는 누수가 있을 때까지 보이지 않는다; 품질은 인내다.", "context": "On Astral mission", "contextKo": "Astral 미션에 대해", "source": "https://www.astralpipes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Sa month — 'jeongin-gyeok', formal credential authority, fitting tech-license-driven manufacturer.", "summaryKo": "갑진 일주 + 사월 정인격(공식 자격·학문·문서 권위)은 Lubrizol 기술 라이선스라는 정통 기술 권위 위에 회사를 세운 그의 경로와 호응합니다. 갑목 일간의 큰 나무·우직한 성장 기질이 회사 성장과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 사화 월지의 강한 화 기운이 결단·표현 에너지를 가리킵니다." }
+}

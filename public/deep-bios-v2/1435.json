@@ -1,0 +1,38 @@
+{
+  "id": "1435", "name": "Lindsay Fox", "nameKo": "린지 에드워드 폭스",
+  "netWorth": 2.8, "nationality": "AU", "industry": "Logistics",
+  "childhood": {
+    "birthPlace": "Melbourne, Australia", "birthPlaceKo": "호주 멜버른",
+    "familyBackground": "Born to working-class Australian family.", "familyBackgroundKo": "호주 노동자 계급 가정에서 출생.",
+    "education": "Left school at 16 to work as truck driver.", "educationKo": "16세에 학교 떠나 트럭 운전사로 일.",
+    "earlyLife": "Founded Linfox in 1956 with one truck at age 19; built into one of largest privately-owned Asia-Pacific logistics groups; major Melbourne real-estate owner.",
+    "earlyLifeKo": "1956 19세에 트럭 한 대로 Linfox 창립; 아시아 태평양 최대 사적 소유 물류 그룹 중 하나 구축; 주요 멜버른 부동산 소유주.",
+    "source": "https://en.wikipedia.org/wiki/Lindsay_Fox"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Linfox 창립자 자본." },
+  "careerTimeline": [
+    { "year": 1956, "age": 19, "event": "Founded Linfox with one truck.", "eventKo": "트럭 한 대로 Linfox 창립.", "whyItMatteredKo": "Linfox 출발선." },
+    { "year": 1980, "age": 43, "event": "Linfox expanded across Australian states.", "eventKo": "Linfox 호주 주 전역 확장.", "whyItMatteredKo": "전국 단계." },
+    { "year": 2000, "age": 63, "event": "Linfox expanded into Southeast Asia.", "eventKo": "Linfox 동남아 확장.", "whyItMatteredKo": "아시아 단계." },
+    { "year": 2015, "age": 78, "event": "Linfox crossed AUD $3B+ revenue; major Melbourne real-estate diversification.", "eventKo": "Linfox 30억+ 호주달러 매출 돌파; 주요 멜버른 부동산 다각화.", "whyItMatteredKo": "부동산 단계." },
+    { "year": 2025, "age": 88, "event": "Personal net worth at $2.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러.", "whyItMatteredKo": "Linfox 정점." }
+  ],
+  "turningPoints": [{ "year": 1956, "age": 19, "decisionKo": "19세에 트럭 한 대로 Linfox 창립", "alternativeKo": "트럭 운전사 잔류", "outcomeKo": "69년 후 28억 달러 호주 물류 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Linfox 사적 자본 + 멜버른 부동산 + 다각화", "industryKo": "물류·부동산", "businessModelKo": "도로 운송 + 창고 + 멜버른 부동산 + 가족 사적 소유", "moatKo": "호주 1위 사적 물류 + 69년 트랙 + 가족 통제", "luckVsSkillKo": "운(20%): 호주 자원·소비자 호황. 실력(80%): 69년 가족 운영 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Linfox; major Australian private logistics tycoon.",
+    "knownForKo": "Linfox 창립자; 주요 호주 사적 물류 거물.",
+    "philanthropy": "Fox Family Foundation supports Australian education and arts.", "philanthropyKo": "폭스 가족 재단이 호주 교육·예술 자선 지원.",
+    "controversies": "Limited; standard private-logistics scrutiny.", "controversiesKo": "제한적; 사적 물류 표준 감시."
+  },
+  "characterKo": { "summaryKo": "19세 트럭 한 대 + 69년 후 호주 물류 거인.", "tagsKo": ["Linfox", "호주 물류", "멜버른 부동산"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Linfox volumes briefly.", "descriptionKo": "글로벌 금융위기로 Linfox 물량 잠시 압축.", "lesson": "Trucking faces broad economic-cycle exposure.", "lessonKo": "트럭 운송은 광범위 경제 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted retail-supply-chain volumes briefly.", "descriptionKo": "COVID-19이 소매 공급망 물량 잠시 혼란.", "lesson": "Logistics faces brief pandemic-shock exposure.", "lessonKo": "물류는 짧은 팬데믹 충격 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.6 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "A truck moves Australia one ton at a time.", "textKo": "트럭은 호주를 한 톤씩 옮긴다.", "context": "On Linfox mission", "contextKo": "Linfox 미션에 대해", "source": "https://www.linfox.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Ja day pillar in Jin month — 'pyeonin-gyeok', non-traditional knowledge/intuition, fitting self-taught trucker-magnate.", "summaryKo": "병자 일주 + 진월 편인격(비전통적 학문·문서 권위)은 16세에 학교 떠난 비전통적 학습 경로에서 거대 물류 가부장이 된 그의 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 자수 일지의 수 기운이 자본·물량 유동성을, 진토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

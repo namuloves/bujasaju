@@ -1,0 +1,39 @@
+{
+  "id": "1255", "name": "Gang Ye", "nameKo": "강 예",
+  "netWorth": 3.3, "nationality": "SG", "industry": "Media & Entertainment",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family; moved to Singapore.", "familyBackgroundKo": "중국 가정에서 출생; 싱가포르 이주.",
+    "education": "Carnegie Mellon University.", "educationKo": "카네기 멜런 대학교.",
+    "earlyLife": "Worked at Morgan Stanley and McKinsey; co-founded Sea Limited (Garena gaming + Shopee e-commerce) 2009 with Forrest Li and David Chen; COO; major Sea Limited shareholder.",
+    "earlyLifeKo": "Morgan Stanley·McKinsey 근무; 2009 포레스트 리·데이비드 첸과 Sea Limited(Garena 게임 + Shopee 전자상거래) 공동 창립; COO; 주요 Sea Limited 주주.",
+    "source": "https://en.wikipedia.org/wiki/Sea_Limited"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Sea Limited 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2003, "age": 23, "event": "Began at Morgan Stanley after Carnegie Mellon.", "eventKo": "카네기 멜런 후 Morgan Stanley에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 2009, "age": 29, "event": "Co-founded Sea Limited (Garena) in Singapore.", "eventKo": "싱가포르에서 Sea Limited(Garena) 공동 창립.", "whyItMatteredKo": "Sea Limited 출발선." },
+    { "year": 2017, "age": 37, "event": "Sea Limited IPO on NYSE.", "eventKo": "Sea Limited NYSE 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2021, "age": 41, "event": "Sea Limited stock peaked $360; Shopee became Southeast Asia #1 e-commerce.", "eventKo": "Sea Limited 주식 360달러 정점; Shopee가 동남아 1위 전자상거래가 됨.", "whyItMatteredKo": "정점 단계." },
+    { "year": 2025, "age": 45, "event": "Personal net worth at $3.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 33억 달러.", "whyItMatteredKo": "Sea Limited 정점." }
+  ],
+  "turningPoints": [{ "year": 2009, "age": 29, "decisionKo": "월가 떠나 싱가포르에서 Sea Limited 공동 창립", "alternativeKo": "월가 잔류", "outcomeKo": "16년 후 33억 달러 + 동남아 1위 전자상거래·게임" }],
+  "moneyMechanics": { "primaryRevenueKo": "Sea Limited(SE) 공동 창립자 지분 + 다각화", "industryKo": "게임·전자상거래·핀테크", "businessModelKo": "Garena 모바일 게임 + Shopee 전자상거래 + SeaMoney 핀테크", "moatKo": "동남아 1위 + Tencent 파트너십 + 16년 트랙", "luckVsSkillKo": "운(35%): 동남아 디지털 부상. 실력(65%): 16년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and COO of Sea Limited; Singapore-based technology entrepreneur.",
+    "knownForKo": "Sea Limited 공동 창립자·COO; 싱가포르 기술 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2022 Sea Limited stock crash from peak; layoffs; questioning fintech-segment costs.",
+    "controversiesKo": "2022 Sea Limited 주식 정점에서 폭락; 정리해고; 핀테크 부문 비용 의문."
+  },
+  "characterKo": { "summaryKo": "Sea Limited 공동 창립 + 동남아 1위 게임·전자상거래.", "tagsKo": ["Sea Limited", "Shopee", "Garena"] },
+  "failures": [
+    { "year": 2022, "description": "Sea Limited stock fell 80% from 2021 peak amid tech selloff.", "descriptionKo": "기술 매도세 가운데 Sea Limited 주식이 2021 정점에서 80% 하락.", "lesson": "Premium-tech stocks face dramatic revaluation cycles.", "lessonKo": "프리미엄 기술 주식은 극적인 재평가 사이클 직면." },
+    { "year": 2022, "description": "Shopee exited multiple Western markets due to high costs.", "descriptionKo": "Shopee가 높은 비용으로 여러 서방 시장 철수.", "lesson": "Geographic expansion faces local-economics constraints.", "lessonKo": "지리적 확장은 지역 경제 제약 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 2.5 }, { "year": 2021, "netWorth": 6.5 }, { "year": 2023, "netWorth": 2.0 }, { "year": 2025, "netWorth": 3.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Southeast Asia is one ocean, many countries; we build the bridges.", "textKo": "동남아는 하나의 바다, 많은 국가다; 우리는 다리를 짓는다.", "context": "On Sea Limited mission", "contextKo": "Sea Limited 미션에 대해", "source": "https://www.seagroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Sa day pillar in Sa month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting hypercompetitive-tech-startup co-founder.", "summaryKo": "을사 일주 + 사월 편관격(강한 외부 압박·권력 충돌)은 동남아 초경쟁 디지털 시장이라는 강한 외부 압박 환경의 핀테크·게임·전자상거래 동시 운영 경로와 호응합니다. 을목 일간의 작은 풀·유연한 적응 기질이 다중 사업 적응과 통하고, 사화 일지·사화 월지의 극강 화 기운이 결단·기세를 이중 강조합니다." }
+}

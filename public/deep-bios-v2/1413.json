@@ -1,0 +1,38 @@
+{
+  "id": "1413", "name": "Don Levin", "nameKo": "돈 레빈",
+  "netWorth": 2.9, "nationality": "US", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Co-founded Ty Inc. (Beanie Babies) and other consumer manufacturing; later focused on Wrigley building developments and Chicago philanthropy.",
+    "earlyLifeKo": "Ty Inc.(Beanie Babies) 등 소비재 제조 공동 창립; 이후 Wrigley 빌딩 개발과 시카고 자선 집중.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Ty Inc. 등 제조 + 시카고 부동산." },
+  "careerTimeline": [
+    { "year": 1973, "age": 22, "event": "Began career in consumer goods manufacturing.", "eventKo": "소비재 제조 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1985, "age": 34, "event": "Built consumer-manufacturing portfolio.", "eventKo": "소비재 제조 포트폴리오 구축.", "whyItMatteredKo": "포트폴리오 단계." },
+    { "year": 2000, "age": 49, "event": "Began pivot to Chicago real estate and philanthropy.", "eventKo": "시카고 부동산·자선으로 전환 시작.", "whyItMatteredKo": "부동산 전환." },
+    { "year": 2015, "age": 64, "event": "Wrigley Building redevelopments in Chicago.", "eventKo": "시카고 Wrigley 빌딩 재개발.", "whyItMatteredKo": "Wrigley 단계." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $2.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러.", "whyItMatteredKo": "다각화 정점." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 49, "decisionKo": "제조에서 시카고 부동산·자선으로 전환", "alternativeKo": "제조 집중", "outcomeKo": "25년 후 29억 달러 다각화" }],
+  "moneyMechanics": { "primaryRevenueKo": "소비재 제조 + 시카고 부동산 + 다각화", "industryKo": "소비재 + 부동산", "businessModelKo": "제조 자본 + 시카고 부동산 + 자선", "moatKo": "다각화 + 50년 일관성", "luckVsSkillKo": "운(40%): 미국 소비자 호황. 실력(60%): 50년 다각화 운영." },
+  "personalTraits": {
+    "knownFor": "Chicago consumer-goods and real-estate magnate.",
+    "knownForKo": "시카고 소비재·부동산 거물.",
+    "philanthropy": "Levin Family Foundation supports Chicago Jewish and education causes.", "philanthropyKo": "레빈 가족 재단이 시카고 유대인·교육 자선 지원.",
+    "controversies": "Limited; private-company low scrutiny.", "controversiesKo": "제한적; 사적 회사 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "소비재 제조 + 시카고 부동산·자선.", "tagsKo": ["시카고 부동산", "소비재 제조", "자선"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Chicago real-estate values.", "descriptionKo": "글로벌 금융위기로 시카고 부동산 가치 압축.", "lesson": "Real estate faces credit-cycle exposure.", "lessonKo": "부동산은 신용 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 pressured Chicago retail real-estate demand.", "descriptionKo": "COVID-19이 시카고 소매 부동산 수요 압박.", "lesson": "Retail real estate faces pandemic exposure.", "lessonKo": "소매 부동산은 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.7 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Chicago rewards patience and punishes shortcuts.", "textKo": "시카고는 인내를 보상하고 지름길을 처벌한다.", "context": "On Chicago real estate", "contextKo": "시카고 부동산에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Hae day pillar in Yu month — 'siksin-gyeok', creative output, fitting consumer-products-to-real-estate diversifier.", "summaryKo": "을해 일주 + 유월 식신격(창의적 결과물·표현)은 소비재 창의 + 시카고 부동산 재개발이라는 창의적 표현 결합과 호응합니다. 을목 일간의 작은 풀·유연한 적응 기질이 다각화 적응과 통하고, 해수 일지의 수 기운이 자본 유동성을, 유금 월지의 금 기운이 정밀 자본 도구를 가리킵니다." }
+}

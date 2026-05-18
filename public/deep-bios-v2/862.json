@@ -1,0 +1,38 @@
+{
+  "id": "862", "name": "Henning Oldendorff", "nameKo": "헤닝 올덴도르프",
+  "netWorth": 4.8, "nationality": "DE", "industry": "Logistics",
+  "childhood": {
+    "birthPlace": "Lübeck, Germany", "birthPlaceKo": "독일 뤼베크",
+    "familyBackground": "Born to Egon Oldendorff family — owner of Oldendorff Carriers shipping group.", "familyBackgroundKo": "Oldendorff Carriers 해운 그룹 소유주 에곤 올덴도르프 가족 출신.",
+    "education": "German higher education.", "educationKo": "독일 고등교육.",
+    "earlyLife": "Joined family Oldendorff Carriers; built one of world's largest dry-bulk shipping companies; transformed Oldendorff into 700+ vessel fleet.",
+    "earlyLifeKo": "가족 Oldendorff Carriers 합류; 세계 최대 건화물 해운사 중 하나 구축; Oldendorff를 700척+ 선대로 변환.",
+    "source": "https://www.oldendorff.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Oldendorff Carriers 가족 자본." },
+  "careerTimeline": [
+    { "year": 1980, "age": 23, "event": "Joined family Oldendorff Carriers.", "eventKo": "가족 Oldendorff Carriers 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1995, "age": 38, "event": "Took executive role; expanded Oldendorff fleet aggressively.", "eventKo": "임원 역할; Oldendorff 선대 공격적 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2010, "age": 53, "event": "Oldendorff Carriers grew to 500+ vessels; became one of largest dry-bulk operators.", "eventKo": "Oldendorff Carriers가 500척+ 성장; 최대 건화물 운영사 중 하나.", "whyItMatteredKo": "글로벌 1위급." },
+    { "year": 2020, "age": 63, "event": "Oldendorff expanded into LNG-fueled vessels; sustainability shift.", "eventKo": "Oldendorff가 LNG 연료 선박으로 확장; 지속 가능성 전환.", "whyItMatteredKo": "친환경 단계." },
+    { "year": 2025, "age": 68, "event": "Personal net worth at $4.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 48억 달러.", "whyItMatteredKo": "Oldendorff 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 38, "decisionKo": "가족 회사 공격적 선대 확장", "alternativeKo": "보수적 운영", "outcomeKo": "30년 후 700척+ 글로벌 해운 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Oldendorff Carriers 가족 지분 + 다각화", "industryKo": "건화물 해운", "businessModelKo": "건화물 장기 용선 + 단기 스팟 + 자체 선대", "moatKo": "700+ 선대 규모 + 90년 가족 브랜드", "luckVsSkillKo": "운(35%): 중국 상품 수요 사이클. 실력(65%): 30년 가족 운영 일관성." },
+  "personalTraits": {
+    "knownFor": "Owner-operator of Oldendorff Carriers; second-generation German shipping magnate.",
+    "knownForKo": "Oldendorff Carriers 소유 운영자; 독일 해운 2세대 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard private-shipping scrutiny.", "controversiesKo": "제한적; 표준 사적 해운 감시."
+  },
+  "characterKo": { "summaryKo": "Oldendorff Carriers 2세대 가족 가부장.", "tagsKo": ["Oldendorff", "건화물 해운", "독일 가족"] },
+  "failures": [
+    { "year": 2016, "description": "Baltic Dry Index crashed to record low; dry-bulk industry distress.", "descriptionKo": "발틱 건화물 지수 사상 최저 폭락; 건화물 산업 부실.", "lesson": "Dry-bulk faces commodity-cycle volatility.", "lessonKo": "건화물은 상품 사이클 변동성 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted global shipping; iron-ore demand briefly collapsed.", "descriptionKo": "COVID-19이 글로벌 해운 혼란; 철광석 수요 잠시 붕괴.", "lesson": "Shipping is global-demand cyclical.", "lessonKo": "해운은 글로벌 수요 주기적." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 2.8 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Shipping is patient capital — the sea doesn't care about quarters.", "textKo": "해운은 인내 자본이다 — 바다는 분기를 신경 쓰지 않는다.", "context": "On shipping cycles", "contextKo": "해운 사이클에 대해", "source": "https://www.oldendorff.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Sa day pillar in O month — 'geollok-gyeok', strong fire and self-driven, fitting family-line shipping magnate.", "summaryKo": "정사 일주 + 오월 건록격(강한 자기 본기·스스로 일어서는 힘)은 가족 해운사를 700척+ 글로벌 1위급으로 자력 확장한 그의 경로와 호응합니다. 정화 일간 + 사화 일지·오화 월지의 극강 화 기운이 강한 결단·기세를 가리키고, 거대 자본 확장의 추진력과 호응합니다." }
+}

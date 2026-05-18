@@ -1,0 +1,39 @@
+{
+  "id": "1191", "name": "Neil Shen", "nameKo": "닐 션",
+  "netWorth": 3.5, "nationality": "CN", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Haining, Zhejiang, China", "birthPlaceKo": "중국 저장성 하이닝",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Shanghai Jiao Tong University; Yale School of Management MBA.", "educationKo": "상하이 자오통 대학교; 예일 경영대학원 MBA.",
+    "earlyLife": "Worked at Citi, Lehman, Deutsche Bank in NY/HK; co-founded Ctrip (Trip.com Group) 1999 and Home Inns 2002; founded Sequoia Capital China (now HongShan) in 2005.",
+    "earlyLifeKo": "뉴욕·홍콩에서 Citi·Lehman·도이체방크 근무; 1999 Ctrip(Trip.com Group)·2002 Home Inns 공동 창립; 2005 Sequoia Capital China(현 HongShan) 창립.",
+    "source": "https://en.wikipedia.org/wiki/Neil_Shen"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Ctrip·Sequoia China 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1992, "age": 24, "event": "Began at Citi in NYC after Jiao Tong + Yale.", "eventKo": "자오통 + 예일 후 뉴욕 Citi에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 1999, "age": 31, "event": "Co-founded Ctrip in Shanghai.", "eventKo": "상하이에서 Ctrip 공동 창립.", "whyItMatteredKo": "Ctrip 출발선." },
+    { "year": 2003, "age": 35, "event": "Ctrip IPO on NASDAQ.", "eventKo": "Ctrip NASDAQ 상장.", "whyItMatteredKo": "Ctrip IPO." },
+    { "year": 2005, "age": 37, "event": "Founded Sequoia Capital China — became #1 China VC.", "eventKo": "Sequoia Capital China 창립 — 중국 1위 VC가 됨.", "whyItMatteredKo": "Sequoia 출발선." },
+    { "year": 2023, "age": 55, "event": "Sequoia Capital separated China unit into HongShan amid US-China tensions.", "eventKo": "미·중 갈등 가운데 Sequoia Capital 중국 부문을 HongShan으로 분리.", "whyItMatteredKo": "HongShan 분리." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 37, "decisionKo": "Ctrip 외 Sequoia China VC 창립", "alternativeKo": "Ctrip CEO 잔류", "outcomeKo": "20년 후 35억 달러 + 중국 1위 VC 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "HongShan(전 Sequoia China) 파트너 지분 + Ctrip + 다각화", "industryKo": "벤처 캐피털·여행", "businessModelKo": "중국 VC 1위 + Ctrip 여행 + 다각화 LP 자본", "moatKo": "중국 1위 VC + Ctrip 트랙 + 미국·중국 양안 인맥", "luckVsSkillKo": "운(40%): 중국 인터넷 부상. 실력(60%): VC + Ctrip 양대 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Sequoia Capital China (HongShan); co-founder of Ctrip; China's most-influential VC.",
+    "knownForKo": "Sequoia Capital China(HongShan) 창립자; Ctrip 공동 창립자; 중국 최영향 VC.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2023 forced Sequoia China separation amid US national-security concerns over China tech.",
+    "controversiesKo": "2023 중국 기술 미국 국가 안보 우려로 Sequoia China 분리 강제."
+  },
+  "characterKo": { "summaryKo": "Ctrip + Sequoia China(HongShan) 중국 1위 VC.", "tagsKo": ["HongShan", "Sequoia China", "Ctrip"] },
+  "failures": [
+    { "year": 2021, "description": "China tech crackdown compressed HongShan portfolio valuations; Didi delisted.", "descriptionKo": "중국 기술 단속이 HongShan 포트폴리오 밸류에이션 압축; Didi 상장 폐지.", "lesson": "China VC faces regulatory-crackdown exposure.", "lessonKo": "중국 VC는 규제 단속 노출 직면." },
+    { "year": 2023, "description": "US-China tensions forced Sequoia to separate China unit; brand cost.", "descriptionKo": "미·중 갈등으로 Sequoia 중국 부문 분리 강제; 브랜드 비용.", "lesson": "Cross-border VC faces geopolitical risk.", "lessonKo": "국경 간 VC는 지정학 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.2 }, { "year": 2025, "netWorth": 3.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Bet on the team, not the slide.", "textKo": "슬라이드가 아닌 팀에 베팅하라.", "context": "On VC philosophy", "contextKo": "VC 철학에 대해", "source": "https://www.hongshan.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-In day pillar in Ja month — 'pyeonin-gyeok', non-traditional knowledge, fitting cross-border tech VC.", "summaryKo": "갑인 일주 + 자월 편인격(비전통적 학문·문서 권위)은 미국 자오통-예일 + 중국 1위 VC라는 비전통적 학문·자본 인맥 경로와 호응합니다. 갑목 일간 + 인목 일지의 강한 목 기운이 회사 성장을 이중 강조하고, 자수 월지의 수 기운이 자본·정보 유동성을 가리킵니다." }
+}

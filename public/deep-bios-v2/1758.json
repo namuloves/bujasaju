@@ -1,0 +1,39 @@
+{
+  "id": "1758", "name": "Christopher Rokos", "nameKo": "크리스토퍼 로코스",
+  "netWorth": 2.3, "nationality": "GB", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "United Kingdom", "birthPlaceKo": "영국",
+    "familyBackground": "Born to British family.", "familyBackgroundKo": "영국 가정에서 출생.",
+    "education": "Pembroke College Oxford (mathematics).", "educationKo": "옥스퍼드 펨브로크 칼리지(수학).",
+    "earlyLife": "Worked at Goldman Sachs and Credit Suisse; co-founded Brevan Howard in 2002 with Alan Howard; left after non-compete dispute; founded Rokos Capital Management in 2015.",
+    "earlyLifeKo": "Goldman Sachs·Credit Suisse 근무; 2002 앨런 하워드와 Brevan Howard 공동 창립; 경업 금지 분쟁 후 떠남; 2015 Rokos Capital Management 창립.",
+    "source": "https://en.wikipedia.org/wiki/Chris_Rokos"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Brevan Howard + Rokos Capital." },
+  "careerTimeline": [
+    { "year": 1992, "age": 22, "event": "Began at Goldman Sachs as macro trader after Oxford.", "eventKo": "옥스퍼드 후 Goldman Sachs 거시 트레이더로 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 2002, "age": 32, "event": "Co-founded Brevan Howard with Alan Howard; star macro trader.", "eventKo": "앨런 하워드와 Brevan Howard 공동 창립; 스타 거시 트레이더.", "whyItMatteredKo": "Brevan Howard 단계." },
+    { "year": 2012, "age": 42, "event": "Left Brevan Howard; entered non-compete dispute (settled 2014).", "eventKo": "Brevan Howard 떠남; 경업 금지 분쟁 진입(2014 해결).", "whyItMatteredKo": "분쟁 단계." },
+    { "year": 2015, "age": 45, "event": "Founded Rokos Capital Management; quickly grew to $10B+ AUM.", "eventKo": "Rokos Capital Management 창립; 빠르게 100억+ AUM 성장.", "whyItMatteredKo": "Rokos 출발선." },
+    { "year": 2025, "age": 55, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Rokos Capital 정점." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 45, "decisionKo": "경업 금지 해결 후 Rokos Capital 창립", "alternativeKo": "은퇴", "outcomeKo": "10년 후 100억+ AUM 거시 헤지펀드 + 23억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Rokos Capital 창립자 지분 + 수수료 + 다각화", "industryKo": "헤지펀드·거시 거래", "businessModelKo": "글로벌 거시 거래 + 채권·통화 + 변동성 포트폴리오", "moatKo": "Brevan Howard + Rokos 거시 트레이딩 트랙", "luckVsSkillKo": "운(30%): 거시 변동성 부활. 실력(70%): 거시 트레이딩 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Rokos Capital; former Brevan Howard partner; star global macro trader.",
+    "knownForKo": "Rokos Capital 창립자; 전 Brevan Howard 파트너; 스타 글로벌 거시 트레이더.",
+    "philanthropy": "Rokos Foundation supports UK education and scientific research.", "philanthropyKo": "Rokos 재단이 영국 교육·과학 연구 지원.",
+    "controversies": "2012-2014 Brevan Howard non-compete legal dispute; high-leverage 2022 UK gilt-crisis exposure.",
+    "controversiesKo": "2012-2014 Brevan Howard 경업 금지 법적 분쟁; 2022 영국 길트 위기 고레버리지 노출."
+  },
+  "characterKo": { "summaryKo": "Brevan Howard 공동 창립 + Rokos Capital 거시 헤지펀드.", "tagsKo": ["Brevan Howard", "Rokos Capital", "글로벌 거시"] },
+  "failures": [
+    { "year": 2022, "description": "Rokos Capital lost reportedly $1B+ in UK gilt crisis around Truss mini-budget.", "descriptionKo": "Rokos Capital이 트러스 미니예산 둘러싼 영국 길트 위기에서 10억+ 달러 손실 보고.", "lesson": "High-leverage macro trading faces sudden rate-volatility losses.", "lessonKo": "고레버리지 거시 거래는 급격한 금리 변동성 손실 직면." },
+    { "year": 2013, "description": "Brevan Howard non-compete dispute delayed Rokos's new fund launch by years.", "descriptionKo": "Brevan Howard 경업 금지 분쟁이 Rokos의 신규 펀드 출시를 수년 지연.", "lesson": "Hedge-fund non-competes can cost years of returns.", "lessonKo": "헤지펀드 경업 금지는 수년의 수익을 비용으로 만들 수 있다." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.0 }, { "year": 2023, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Rates are the music; everything else dances.", "textKo": "금리는 음악이다; 다른 모든 것은 춤춘다.", "context": "On global macro", "contextKo": "글로벌 거시에 대해", "source": "https://www.rokoscapital.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Yu month — 'jeonggwan-gyeok', formal regulated authority, fitting macro hedge-fund magnate.", "summaryKo": "갑진 일주 + 유월 정관격(공식 권위·규제 아래에서 일하는 구조)은 강한 금융 규제 하에 운영되는 거시 헤지펀드 창립의 정통 권위 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 진토 일지의 토 기운이 자본 안정을, 유금 월지의 금 기운이 정밀 금융 도구를 가리킵니다." }
+}

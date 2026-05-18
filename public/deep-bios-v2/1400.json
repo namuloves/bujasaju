@@ -1,0 +1,39 @@
+{
+  "id": "1400", "name": "Tor Peterson", "nameKo": "토르 피터슨",
+  "netWorth": 2.9, "nationality": "US", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Worked at Marc Rich + Co. (now Glencore); rose to senior commodity trader; equity partner in Glencore 2011 IPO; major coal/commodity trader.",
+    "earlyLifeKo": "Marc Rich + Co.(현 Glencore) 근무; 시니어 상품 트레이더 진급; 2011 Glencore 상장 시 주식 파트너; 주요 석탄·상품 트레이더.",
+    "source": "https://en.wikipedia.org/wiki/Glencore"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Glencore 상장 파트너 주식." },
+  "careerTimeline": [
+    { "year": 1986, "age": 22, "event": "Joined Marc Rich + Co. as junior trader.", "eventKo": "Marc Rich + Co. 주니어 트레이더 합류.", "whyItMatteredKo": "Glencore 출발선." },
+    { "year": 1994, "age": 30, "event": "Marc Rich + Co. became Glencore via management buyout.", "eventKo": "경영진 인수로 Marc Rich + Co.가 Glencore가 됨.", "whyItMatteredKo": "Glencore 단계." },
+    { "year": 2002, "age": 38, "event": "Became head of Glencore coal trading.", "eventKo": "Glencore 석탄 트레이딩 책임자.", "whyItMatteredKo": "석탄 책임자." },
+    { "year": 2011, "age": 47, "event": "Glencore IPO on London Stock Exchange; Peterson became billionaire.", "eventKo": "Glencore 런던 증시 상장; 피터슨 억만장자가 됨.", "whyItMatteredKo": "IPO 정점." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $2.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러.", "whyItMatteredKo": "Glencore 정점." }
+  ],
+  "turningPoints": [{ "year": 2002, "age": 38, "decisionKo": "Glencore 석탄 트레이딩 책임자 수락", "alternativeKo": "타 상품으로 전환", "outcomeKo": "23년 후 29억 달러 + 2011 IPO 부자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Glencore(GLEN.L) 주식 + 다각화 투자", "industryKo": "상품 트레이딩·석탄", "businessModelKo": "Glencore 공개 주식 + 상품 트레이더 보너스 자본화 + 다각화", "moatKo": "Glencore 석탄 책임자 경험 + 글로벌 트레이딩 인맥", "luckVsSkillKo": "운(45%): 2011 IPO 정점 타이밍. 실력(55%): 25년 석탄 트레이딩 일관성." },
+  "personalTraits": {
+    "knownFor": "Glencore equity partner; former head of coal trading at Glencore.",
+    "knownForKo": "Glencore 주식 파트너; 전 Glencore 석탄 트레이딩 책임자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2022 US plea deal for bribery in oil-trading scheme; left Glencore amid DOJ scrutiny.",
+    "controversiesKo": "2022 석유 트레이딩 뇌물 스킴 미국 변호 합의; DOJ 감시 가운데 Glencore 떠남."
+  },
+  "characterKo": { "summaryKo": "Glencore 석탄 트레이더 + 2011 IPO 파트너.", "tagsKo": ["Glencore", "석탄 트레이딩", "Marc Rich"] },
+  "failures": [
+    { "year": 2022, "description": "US DOJ guilty plea for bribery in Latin American oil-trading scheme; paid penalties.", "descriptionKo": "라틴 아메리카 석유 트레이딩 스킴 뇌물 미국 DOJ 유죄 인정; 벌금 지불.", "lesson": "Commodity-trading careers face corruption-prosecution risk.", "lessonKo": "상품 트레이딩 경력은 부패 기소 리스크 직면." },
+    { "year": 2015, "description": "Glencore stock crashed ~80% from 2011 IPO peak amid commodity bear market.", "descriptionKo": "상품 약세장 가운데 Glencore 주식이 2011 IPO 정점에서 약 80% 폭락.", "lesson": "Public commodity traders face deep cycle exposure.", "lessonKo": "공개 상품 트레이더는 깊은 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.7 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Commodities move the world; traders just send the bill.", "textKo": "상품이 세상을 움직이고, 트레이더는 청구서를 보낼 뿐이다.", "context": "On commodity trading", "contextKo": "상품 트레이딩에 대해", "source": "https://en.wikipedia.org/wiki/Glencore" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Ja day pillar in Mi month — 'sanggwan-gyeok', unconventional path, fitting Marc Rich-to-Glencore trader career.", "summaryKo": "무자 일주 + 미월 상관격(파격적 표현·기존 권위 도전)은 Marc Rich라는 파격적 상품 트레이더 회사에서 Glencore IPO 파트너로 올라간 그의 비전형 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 안정과 통하고, 자수 일지의 수 기운이 자본 유동성을, 미토 월지의 토 기운이 자본 안정을 가리킵니다." }
+}

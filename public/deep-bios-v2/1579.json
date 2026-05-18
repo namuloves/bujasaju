@@ -1,0 +1,39 @@
+{
+  "id": "1579", "name": "Alexander Svetakov", "nameKo": "알렉산드르 알렉산드로비치 스베타코프",
+  "netWorth": 2.6, "nationality": "RU", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Russia (USSR)", "birthPlaceKo": "소련",
+    "familyBackground": "Born to Soviet family.", "familyBackgroundKo": "소련 가정에서 출생.",
+    "education": "Russian higher education.", "educationKo": "러시아 고등교육.",
+    "earlyLife": "Co-founded Absolut Bank in 1993; sold to KBC of Belgium in 2007 for $1B; founded Absolut Group covering real estate, automotive, kindergartens.",
+    "earlyLifeKo": "1993 Absolut Bank 공동 창립; 2007 벨기에 KBC에 10억 달러 매각; 부동산·자동차·유치원 포괄 Absolut Group 창립.",
+    "source": "https://en.wikipedia.org/wiki/Alexander_Svetakov"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Absolut Bank 매각 + 다각화." },
+  "careerTimeline": [
+    { "year": 1990, "age": 22, "event": "Began Soviet-era business in perestroika opening.", "eventKo": "페레스트로이카 개방에서 소련 시대 사업 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1993, "age": 25, "event": "Co-founded Absolut Bank.", "eventKo": "Absolut Bank 공동 창립.", "whyItMatteredKo": "Absolut 출발선." },
+    { "year": 2007, "age": 39, "event": "Sold Absolut Bank to KBC Belgium for $1B.", "eventKo": "Absolut Bank를 벨기에 KBC에 10억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2010, "age": 42, "event": "Founded Absolut Group covering Russian real estate and other assets.", "eventKo": "러시아 부동산·기타 자산 포괄 Absolut Group 창립.", "whyItMatteredKo": "Group 단계." },
+    { "year": 2025, "age": 57, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "Absolut 정점." }
+  ],
+  "turningPoints": [{ "year": 2007, "age": 39, "decisionKo": "Absolut Bank KBC에 10억 달러 매각", "alternativeKo": "은행 운영 지속", "outcomeKo": "18년 후 26억 달러 + 다각화 부동산" }],
+  "moneyMechanics": { "primaryRevenueKo": "Absolut Bank 매각 대금 + Absolut Group 부동산 + 다각화", "industryKo": "은행 매각 + 부동산·다각화", "businessModelKo": "은행 매각 자본 + 모스크바 부동산 + 농업·교육", "moatKo": "은행 매각 자본 + 18년 다각화", "luckVsSkillKo": "운(45%): 2007 매각 정점 타이밍. 실력(55%): 18년 자본 관리." },
+  "personalTraits": {
+    "knownFor": "Founder of Absolut Group; former Absolut Bank co-founder; Russian diversified investor.",
+    "knownForKo": "Absolut Group 창립자; 전 Absolut Bank 공동 창립자; 러시아 다각화 투자자.",
+    "philanthropy": "Absolut Foundation supports Russian education and culture.", "philanthropyKo": "Absolut 재단이 러시아 교육·문화 자선 지원.",
+    "controversies": "2022 sanctions-era scrutiny on Russian businesspeople; some restrictions on European-asset access.",
+    "controversiesKo": "2022 제재 시대 러시아 사업가 감시; 일부 유럽 자산 접근 제한."
+  },
+  "characterKo": { "summaryKo": "Absolut Bank 매각 + 부동산 다각화.", "tagsKo": ["Absolut Bank", "Absolut Group", "러시아 부동산"] },
+  "failures": [
+    { "year": 2008, "description": "Just after 2007 sale, financial crisis compressed Russian asset values.", "descriptionKo": "2007 매각 직후 금융위기로 러시아 자산 가치 압축.", "lesson": "Post-exit timing matters but markets reset quickly.", "lessonKo": "엑시트 후 타이밍은 중요하지만 시장은 빨리 재설정." },
+    { "year": 2014, "description": "Ruble crash and Crimea sanctions compressed Russian real-estate dollar values.", "descriptionKo": "루블 폭락·크림 제재로 러시아 부동산 달러 가치 압축.", "lesson": "Russian assets face currency volatility.", "lessonKo": "러시아 자산은 통화 변동성 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Banks were the door; real estate is the room.", "textKo": "은행은 문이었고, 부동산은 방이다.", "context": "On post-banking pivot", "contextKo": "탈은행 전환에 대해", "source": "https://en.wikipedia.org/wiki/Alexander_Svetakov" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in In month — 'yangin-gyeok', strong-self drive, fitting bank-builder-and-real-estate magnate.", "summaryKo": "을묘 일주 + 인월 양인격(폭발적 추진력·기세)은 25세 은행 창립 + 18년 부동산 다각화라는 폭발적 자본 추진과 호응합니다. 을목 일간 + 묘목 일지·인목 월지의 극강 목 기운이 회사 성장·결단을 삼중 강조합니다." }
+}

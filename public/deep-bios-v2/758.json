@@ -1,0 +1,39 @@
+{
+  "id": "758", "name": "Ivan Tavrin", "nameKo": "이반 타브린",
+  "netWorth": 5.4, "nationality": "RU", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Russia", "birthPlaceKo": "러시아",
+    "familyBackground": "Born to Russian family.", "familyBackgroundKo": "러시아 가정에서 출생.",
+    "education": "Moscow higher education.", "educationKo": "모스크바 고등교육.",
+    "earlyLife": "Built career in Russian media; led MegaFon and UTH Russia; founded Kismet Capital private-equity fund; major Russian PE investor.",
+    "earlyLifeKo": "러시아 미디어 경력 구축; MegaFon·UTH Russia 경영; Kismet Capital 사모펀드 창립; 러시아 주요 PE 투자자.",
+    "source": "https://en.wikipedia.org/wiki/Ivan_Tavrin"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "MegaFon·미디어 + Kismet Capital." },
+  "careerTimeline": [
+    { "year": 1998, "age": 22, "event": "Began career in Russian media and telecom.", "eventKo": "러시아 미디어·통신 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2012, "age": 36, "event": "Became CEO of MegaFon — Russia's #2 mobile carrier.", "eventKo": "러시아 2위 이동통신사 MegaFon CEO 취임.", "whyItMatteredKo": "통신 경영 단계." },
+    { "year": 2016, "age": 40, "event": "Stepped down from MegaFon; founded Kismet Capital private-equity fund.", "eventKo": "MegaFon 사임; Kismet Capital 사모펀드 창립.", "whyItMatteredKo": "PE 단계." },
+    { "year": 2022, "age": 46, "event": "Kismet Capital acquired major assets from Western firms exiting Russia post-Ukraine sanctions.", "eventKo": "Kismet Capital이 우크라이나 제재 후 러시아 철수 서방 기업 주요 자산 인수.", "whyItMatteredKo": "기회 단계." },
+    { "year": 2025, "age": 49, "event": "Personal net worth at $5.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 54억 달러.", "whyItMatteredKo": "PE 정점." }
+  ],
+  "turningPoints": [{ "year": 2016, "age": 40, "decisionKo": "MegaFon 떠나 Kismet Capital 창립", "alternativeKo": "MegaFon 잔류", "outcomeKo": "9년 후 54억 달러 PE 투자자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Kismet Capital 지분 + 인수 자산 + 다각화", "industryKo": "사모펀드·미디어·통신", "businessModelKo": "러시아 주요 자산 인수 + 사모펀드 운영", "moatKo": "러시아 미디어·통신 인맥 + 서방 철수 기회", "luckVsSkillKo": "운(55%): 2022 서방 철수 기회. 실력(45%): MegaFon 경영 경력." },
+  "personalTraits": {
+    "knownFor": "Former MegaFon CEO; founder of Kismet Capital; major Russian PE investor.",
+    "knownForKo": "전 MegaFon CEO; Kismet Capital 창립자; 러시아 주요 PE 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Acquired Western firms' Russian assets at distressed prices during 2022-2024 sanctions exodus.",
+    "controversiesKo": "2022-2024 제재 철수 동안 서방 기업의 러시아 자산을 부실 가격에 인수."
+  },
+  "characterKo": { "summaryKo": "MegaFon CEO 출신 + Kismet Capital 러시아 PE 거물.", "tagsKo": ["MegaFon", "Kismet Capital", "러시아 PE"] },
+  "failures": [
+    { "year": 2022, "description": "Sanctions exposure limited international expansion of Kismet Capital portfolio.", "descriptionKo": "제재 노출이 Kismet Capital 포트폴리오의 국제 확장 제한.", "lesson": "Russian PE faces sanctions-induced market limits.", "lessonKo": "러시아 PE는 제재 유발 시장 제한 직면." },
+    { "year": 2014, "description": "Ruble crash and Crimea sanctions compressed MegaFon dollar valuation during his tenure.", "descriptionKo": "재임 중 루블 폭락·크림 제재로 MegaFon 달러 환산 밸류에이션 압축.", "lesson": "Russian telecom faces currency and geopolitical exposure.", "lessonKo": "러시아 통신은 통화·지정학 노출." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 2.0 }, { "year": 2023, "netWorth": 3.5 }, { "year": 2024, "netWorth": 4.8 }, { "year": 2025, "netWorth": 5.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Distress is opportunity when geopolitics rewrites prices.", "textKo": "지정학이 가격을 재기록할 때 부실은 기회다.", "context": "On 2022 Russia acquisitions", "contextKo": "2022 러시아 인수에 대해", "source": "https://en.wikipedia.org/wiki/Ivan_Tavrin" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Sa day pillar in Sul month — 'sanggwan-gyeok', unconventional expression, fitting media-to-PE pivot.", "summaryKo": "정사 일주 + 술월 상관격(파격적 표현·기존 권위 도전)은 통신 CEO에서 PE 창립으로의 파격 전환과 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 자본 협상 정밀성과 통하고, 사화 일지의 강한 화 기운이 결단·표현을, 술토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

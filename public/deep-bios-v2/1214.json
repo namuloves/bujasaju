@@ -1,0 +1,38 @@
+{
+  "id": "1214", "name": "Brunello Cucinelli", "nameKo": "브루넬로 쿠치넬리",
+  "netWorth": 3.4, "nationality": "IT", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Castel Rigone, Umbria, Italy", "birthPlaceKo": "이탈리아 움브리아 카스텔 리고네",
+    "familyBackground": "Born to peasant farming family; father worked in factory.", "familyBackgroundKo": "농민 가정에서 출생; 아버지는 공장 근로자.",
+    "education": "Brief engineering studies at Perugia University; left to start fashion.", "educationKo": "페루자 대학교 짧은 공학 공부; 패션 시작 위해 중퇴.",
+    "earlyLife": "Founded Brunello Cucinelli brand in 1978 with $550; pioneered colored cashmere; built 'humanistic capitalism' brand around Solomeo village; IPO Milan 2012.",
+    "earlyLifeKo": "1978 550달러로 Brunello Cucinelli 브랜드 창립; 색상 캐시미어 개척; 솔로메오 마을 중심 '인문주의 자본주의' 브랜드 구축; 2012 밀라노 상장.",
+    "source": "https://en.wikipedia.org/wiki/Brunello_Cucinelli"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Cucinelli 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1978, "age": 25, "event": "Founded Brunello Cucinelli with $550 to dye cashmere in colors.", "eventKo": "캐시미어를 색상으로 염색 위해 550달러로 Brunello Cucinelli 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 1985, "age": 32, "event": "Bought ruined Solomeo castle/village; began rebuilding as 'humanistic enterprise' base.", "eventKo": "폐허 솔로메오 성·마을 매입; '인문주의 기업' 기지로 재건 시작.", "whyItMatteredKo": "솔로메오 단계." },
+    { "year": 2012, "age": 59, "event": "Cucinelli IPO on Borsa Italiana at €7.75; raised ~€158M.", "eventKo": "Cucinelli가 보르사 이탈리아나에 7.75유로로 상장; 약 1억 5,800만 유로 조달.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2020, "age": 67, "event": "Cucinelli stock rebounded post-COVID; pandemic boosted luxury-leisure category.", "eventKo": "Cucinelli 주식 COVID 후 반등; 팬데믹이 럭셔리 레저 카테고리 부양.", "whyItMatteredKo": "팬데믹 부양." },
+    { "year": 2025, "age": 72, "event": "Personal net worth at $3.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러.", "whyItMatteredKo": "Cucinelli 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 32, "decisionKo": "솔로메오 폐허 매입 후 '인문주의 기업' 구축", "alternativeKo": "도시 본사", "outcomeKo": "40년 후 34억 달러 럭셔리 캐시미어 + 마을 재건" }],
+  "moneyMechanics": { "primaryRevenueKo": "Cucinelli(BC.MI) 창립자 지분 + 다각화", "industryKo": "럭셔리 캐시미어 + 의류", "businessModelKo": "고가 캐시미어 + 의류 + 글로벌 부티크 + '인문주의' 브랜드 내러티브", "moatKo": "솔로메오 마을 + 인문주의 브랜드 + 47년 캐시미어 노하우", "luckVsSkillKo": "운(30%): 럭셔리 시장 부상. 실력(70%): 47년 브랜드 + 솔로메오 비전." },
+  "personalTraits": {
+    "knownFor": "Founder of Brunello Cucinelli luxury brand; 'humanistic capitalism' philosopher-entrepreneur; rebuilt Solomeo medieval village.",
+    "knownForKo": "Brunello Cucinelli 럭셔리 브랜드 창립자; '인문주의 자본주의' 철학자 기업가; 솔로메오 중세 마을 재건.",
+    "philanthropy": "Cucinelli Foundation funds Solomeo cultural projects, library, theater, schools of arts.", "philanthropyKo": "Cucinelli 재단이 솔로메오 문화 프로젝트·도서관·극장·예술 학교 자금.",
+    "controversies": "Limited; standard luxury-retail scrutiny on price/quality.", "controversiesKo": "제한적; 럭셔리 소매 가격·품질 표준 감시."
+  },
+  "characterKo": { "summaryKo": "550달러 출발 + 솔로메오 + '인문주의' 럭셔리 캐시미어.", "tagsKo": ["Brunello Cucinelli", "Solomeo", "인문주의 자본주의"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 closed luxury stores globally; Cucinelli revenue briefly plunged before luxury rebound.", "descriptionKo": "COVID-19이 럭셔리 매장 폐쇄; Cucinelli 매출 럭셔리 반등 전 잠시 급락.", "lesson": "Luxury retail faces brief pandemic-shock exposure.", "lessonKo": "럭셔리 소매는 짧은 팬데믹 충격 노출." },
+    { "year": 2018, "description": "Cucinelli stock corrected sharply on margin concerns and slower China growth.", "descriptionKo": "마진 우려·중국 둔화로 Cucinelli 주식 급격 조정.", "lesson": "Single-brand luxury faces concentration risk.", "lessonKo": "단일 브랜드 럭셔리는 집중 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.4 }, { "year": 2020, "netWorth": 1.6 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Profit without dignity is poverty in disguise.", "textKo": "존엄성 없는 이익은 가장된 빈곤이다.", "context": "On humanistic capitalism", "contextKo": "인문주의 자본주의에 대해", "source": "https://www.brunellocucinelli.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Sa day pillar in Sin month — 'jeongjae-gyeok', stable wealth accumulation, fitting humanistic luxury brand.", "summaryKo": "정사 일주 + 신월 정재격(안정적·정직한 부 축적)은 47년간 단일 럭셔리 브랜드를 인문주의 가치 위에 안정적으로 축적한 그의 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 럭셔리 정교한 마감과 통하고, 사화 일지의 강한 화 기운이 결단을, 신금 월지의 금 기운이 정밀한 재단 도구를 가리킵니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1701", "name": "Adebayo Ogunlesi", "nameKo": "아데바요 오군레시",
+  "netWorth": 2.4, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Sokoto, Nigeria", "birthPlaceKo": "나이지리아 소코토",
+    "familyBackground": "Born to Nigerian Yoruba family.", "familyBackgroundKo": "나이지리아 요루바 가정에서 출생.",
+    "education": "Oxford University; Harvard Law/Harvard Business.", "educationKo": "옥스퍼드 대학교; 하버드 로스쿨/하버드 비즈니스.",
+    "earlyLife": "Lawyer at Cravath, Swaine & Moore; rose to Credit Suisse First Boston global head of investment banking; founded Global Infrastructure Partners (GIP) in 2006; sold GIP to BlackRock for $12.5B in 2024.",
+    "earlyLifeKo": "Cravath, Swaine & Moore 변호사; Credit Suisse First Boston 글로벌 투자은행 책임자 진급; 2006 Global Infrastructure Partners(GIP) 창립; 2024 GIP를 BlackRock에 125억 달러 매각.",
+    "source": "https://en.wikipedia.org/wiki/Adebayo_Ogunlesi"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "GIP 공동 창립자 + BlackRock 매각." },
+  "careerTimeline": [
+    { "year": 1980, "age": 26, "event": "Worked at Cravath, Swaine & Moore after Harvard.", "eventKo": "하버드 후 Cravath, Swaine & Moore 근무.", "whyItMatteredKo": "변호사 출발선." },
+    { "year": 1983, "age": 29, "event": "Joined First Boston (later Credit Suisse First Boston).", "eventKo": "First Boston(이후 Credit Suisse First Boston) 합류.", "whyItMatteredKo": "월가 단계." },
+    { "year": 2006, "age": 52, "event": "Founded Global Infrastructure Partners with General Electric and Credit Suisse seed capital.", "eventKo": "General Electric·Credit Suisse 시드 자본으로 Global Infrastructure Partners 창립.", "whyItMatteredKo": "GIP 출발선." },
+    { "year": 2017, "age": 63, "event": "GIP became one of largest global infrastructure fund managers.", "eventKo": "GIP가 글로벌 최대 인프라 펀드 운용사 중 하나가 됨.", "whyItMatteredKo": "GIP 단계." },
+    { "year": 2024, "age": 70, "event": "Sold GIP to BlackRock for $12.5B; joined BlackRock board.", "eventKo": "GIP를 BlackRock에 125억 달러 매각; BlackRock 이사회 합류.", "whyItMatteredKo": "엑시트 정점." }
+  ],
+  "turningPoints": [{ "year": 2006, "age": 52, "decisionKo": "Credit Suisse 떠나 GIP 인프라 펀드 창립", "alternativeKo": "월가 잔류", "outcomeKo": "18년 후 24억 달러 + BlackRock 125억 매각" }],
+  "moneyMechanics": { "primaryRevenueKo": "GIP BlackRock 매각 대금 + BlackRock 주식 + 다각화", "industryKo": "인프라 사모펀드", "businessModelKo": "공항·항만·에너지·디지털 인프라 + 글로벌 인프라 펀드", "moatKo": "GIP 인프라 1위급 + BlackRock 통합 + 변호사·은행 인맥", "luckVsSkillKo": "운(30%): 인프라 PE 부상. 실력(70%): 변호사 + 18년 GIP 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Global Infrastructure Partners; sold GIP to BlackRock; Nigerian-American infrastructure financier.",
+    "knownForKo": "Global Infrastructure Partners 창립자; GIP BlackRock 매각; 나이지리아·미국 인프라 금융가.",
+    "philanthropy": "Ogunlesi Family Foundation supports African education.", "philanthropyKo": "오군레시 가족 재단이 아프리카 교육 자선 지원.",
+    "controversies": "Limited; private-infrastructure scrutiny.", "controversiesKo": "제한적; 사적 인프라 감시."
+  },
+  "characterKo": { "summaryKo": "GIP 18년 + BlackRock 125억 매각 + 나이지리아·미국.", "tagsKo": ["GIP", "BlackRock", "infrastructure PE"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted airport-and-port portfolio operations briefly.", "descriptionKo": "COVID-19이 공항·항만 포트폴리오 운영 잠시 혼란.", "lesson": "Infrastructure faces operational pandemic exposure.", "lessonKo": "인프라는 운영 팬데믹 노출 직면." },
+    { "year": 2015, "description": "London Gatwick Airport (GIP-owned) faced 3rd-runway expansion delays.", "descriptionKo": "런던 가트윅 공항(GIP 소유)이 3차 활주로 확장 지연 직면.", "lesson": "Infrastructure expansion faces political-planning risk.", "lessonKo": "인프라 확장은 정치 계획 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.8 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.2 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Infrastructure is patient capital meeting growing population.", "textKo": "인프라는 늘어나는 인구를 만나는 인내 자본이다.", "context": "On GIP mission", "contextKo": "GIP 미션에 대해", "source": "https://www.globalinfra.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Sa day pillar in Ja month — 'pyeonin-gyeok', non-traditional academic authority, fitting Oxford-Harvard-trained infrastructure investor.", "summaryKo": "을사 일주 + 자월 편인격(비전통적 학문·문서 권위)은 옥스퍼드·하버드·법학·MBA·은행·PE라는 다층 비전통적 자격 누적 경로와 호응합니다. 을목 일간의 작은 풀·유연한 적응 기질이 다양한 환경 적응과 통하고, 사화 일지의 강한 화 기운이 결단을, 자수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

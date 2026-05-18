@@ -1,0 +1,38 @@
+{
+  "id": "1288", "name": "Kamal Ghaffarian", "nameKo": "카말 가파리안",
+  "netWorth": 3.2, "nationality": "US", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "Iran", "birthPlaceKo": "이란",
+    "familyBackground": "Born to Iranian family; emigrated to US.", "familyBackgroundKo": "이란 가정에서 출생; 미국 이주.",
+    "education": "Catholic University; PhD nuclear engineering.", "educationKo": "가톨릭 대학교; 원자력 공학 박사.",
+    "earlyLife": "Co-founded SGT (Stinger Ghaffarian Technologies) NASA contractor; co-founded Axiom Space (commercial space station), Intuitive Machines (lunar landers), X-Energy (nuclear reactors), Quantum Space.",
+    "earlyLifeKo": "SGT(Stinger Ghaffarian Technologies) NASA 계약사 공동 창립; Axiom Space(상업 우주 정거장), Intuitive Machines(달 착륙선), X-Energy(원자로), Quantum Space 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Kamal_Ghaffarian"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "SGT 매각 + 우주·원자력 다중 창업." },
+  "careerTimeline": [
+    { "year": 1985, "age": 27, "event": "Began career as nuclear engineer.", "eventKo": "원자력 엔지니어 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1994, "age": 36, "event": "Co-founded SGT NASA contractor.", "eventKo": "SGT NASA 계약사 공동 창립.", "whyItMatteredKo": "SGT 출발선." },
+    { "year": 2018, "age": 60, "event": "Sold SGT to KBR; co-founded Axiom Space and X-Energy.", "eventKo": "SGT를 KBR에 매각; Axiom Space·X-Energy 공동 창립.", "whyItMatteredKo": "다중 창업." },
+    { "year": 2023, "age": 65, "event": "Intuitive Machines went public via SPAC; Axiom valued $2B+.", "eventKo": "Intuitive Machines SPAC 상장; Axiom 20억+ 달러 밸류에이션.", "whyItMatteredKo": "공개 단계." },
+    { "year": 2025, "age": 67, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "우주·원자력 정점." }
+  ],
+  "turningPoints": [{ "year": 2018, "age": 60, "decisionKo": "SGT 매각 후 우주·원자력 다중 창업", "alternativeKo": "은퇴", "outcomeKo": "7년 후 32억 달러 우주·원자력 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "SGT 매각 + Axiom·Intuitive·X-Energy 지분 + 다각화", "industryKo": "우주·원자력·국방", "businessModelKo": "NASA 계약 + 상업 우주 정거장 + 소형 원자로 + 국방", "moatKo": "NASA 관계 + 원자력 박사 + 다중 우주 회사", "luckVsSkillKo": "운(40%): 상업 우주 시대. 실력(60%): NASA 인맥 + 박사 + 다중 창업." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Axiom Space, Intuitive Machines, X-Energy; former SGT NASA contractor.",
+    "knownForKo": "Axiom Space·Intuitive Machines·X-Energy 공동 창립자; 전 SGT NASA 계약사.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard NASA-contractor scrutiny.", "controversiesKo": "제한적; NASA 계약사 표준 감시."
+  },
+  "characterKo": { "summaryKo": "이란 출신 + NASA 계약 + 우주·원자력 다중 창업.", "tagsKo": ["Axiom Space", "X-Energy", "Intuitive Machines"] },
+  "failures": [
+    { "year": 2024, "description": "Intuitive Machines IM-1 lunar lander tipped over on Moon; mission partial.", "descriptionKo": "Intuitive Machines IM-1 달 착륙선 달 위에서 넘어짐; 미션 부분 성공.", "lesson": "Commercial lunar landing faces high-tech-risk.", "lessonKo": "상업 달 착륙은 높은 기술 리스크 직면." },
+    { "year": 2022, "description": "SPAC selloff compressed Intuitive Machines valuation post-listing.", "descriptionKo": "SPAC 매도세로 Intuitive Machines 상장 후 밸류에이션 압축.", "lesson": "Space-SPAC stocks face post-IPO volatility.", "lessonKo": "우주 SPAC 주식은 IPO 후 변동성 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2023, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Engineers don't dream; they build the dreams of others.", "textKo": "엔지니어는 꿈꾸지 않는다; 그들은 타인의 꿈을 짓는다.", "context": "On commercial space", "contextKo": "상업 우주에 대해", "source": "https://www.axiomspace.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Hae day pillar in Jin month — 'sanggwan-gyeok', unconventional output, fitting space-and-nuclear serial founder.", "summaryKo": "을해 일주 + 진월 상관격(파격적 표현·기존 권위 도전)은 우주 정거장·달 착륙선·소형 원자로라는 파격 분야 다중 창업 경로와 호응합니다. 을목 일간의 작은 풀·유연한 적응 기질이 다중 도전 적응과 통하고, 해수 일지의 수 기운이 자본 유동성을, 진토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

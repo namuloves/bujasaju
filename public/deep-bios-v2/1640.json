@@ -1,0 +1,39 @@
+{
+  "id": "1640", "name": "Egon Durban", "nameKo": "에곤 더반",
+  "netWorth": 2.5, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Georgetown University.", "educationKo": "조지타운 대학교.",
+    "earlyLife": "Worked at Morgan Stanley; joined Silver Lake Partners in 1999; rose to co-CEO of Silver Lake 2020; led Dell privatization 2013 and other tech megadeals.",
+    "earlyLifeKo": "모건 스탠리 근무; 1999 Silver Lake Partners 합류; 2020 Silver Lake 공동 CEO 진급; 2013 Dell 비공개화 등 기술 거대 거래 주도.",
+    "source": "https://en.wikipedia.org/wiki/Egon_Durban"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Silver Lake 파트너 지분." },
+  "careerTimeline": [
+    { "year": 1995, "age": 22, "event": "Began at Morgan Stanley.", "eventKo": "모건 스탠리에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 1999, "age": 26, "event": "Joined Silver Lake Partners as founding employee.", "eventKo": "Silver Lake Partners 창립 직원 합류.", "whyItMatteredKo": "Silver Lake 출발선." },
+    { "year": 2013, "age": 40, "event": "Co-led $24.4B Dell privatization with Michael Dell.", "eventKo": "마이클 델과 244억 달러 Dell 비공개화 공동 주도.", "whyItMatteredKo": "Dell 거래." },
+    { "year": 2020, "age": 47, "event": "Became co-CEO of Silver Lake Partners.", "eventKo": "Silver Lake Partners 공동 CEO 취임.", "whyItMatteredKo": "공동 CEO 단계." },
+    { "year": 2025, "age": 52, "event": "Personal net worth at $2.5B per Forbes Real-Time; co-CEO of Silver Lake $100B+ AUM.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러; Silver Lake 1,000억+ AUM 공동 CEO.", "whyItMatteredKo": "Silver Lake 정점." }
+  ],
+  "turningPoints": [{ "year": 2013, "age": 40, "decisionKo": "Dell 244억 달러 비공개화 공동 주도", "alternativeKo": "전형 PE 거래", "outcomeKo": "12년 후 25억 달러 + Silver Lake 공동 CEO" }],
+  "moneyMechanics": { "primaryRevenueKo": "Silver Lake 파트너 지분 + 수수료 + 다각화", "industryKo": "기술 사모펀드", "businessModelKo": "기술 LBO + 성장 자본 + 1,000억+ AUM 운용", "moatKo": "Silver Lake 기술 PE 1위 + Dell·Skype·Twitter 거래 트랙", "luckVsSkillKo": "운(35%): 기술 PE 부상. 실력(65%): 25년 일관성 + 거대 거래 트랙." },
+  "personalTraits": {
+    "knownFor": "Co-CEO of Silver Lake Partners; led Dell privatization; major tech PE dealmaker.",
+    "knownForKo": "Silver Lake Partners 공동 CEO; Dell 비공개화 주도; 주요 기술 PE 거래자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2021 questioned over Twitter board role amid Elon Musk acquisition; multiple-board-seat scrutiny.",
+    "controversiesKo": "2021 일론 머스크 인수 가운데 Twitter 이사회 역할 의문; 다중 이사회 감시."
+  },
+  "characterKo": { "summaryKo": "Silver Lake 25년 + Dell 비공개화 + 공동 CEO.", "tagsKo": ["Silver Lake", "Dell privatization", "기술 PE"] },
+  "failures": [
+    { "year": 2018, "description": "Silver Lake's Avaya investment soured after 2017 Chapter 11 bankruptcy.", "descriptionKo": "Silver Lake의 Avaya 투자가 2017 챕터 11 파산 후 악화.", "lesson": "Tech-LBO faces operational-execution risk.", "lessonKo": "기술 LBO는 운영 실행 리스크 직면." },
+    { "year": 2021, "description": "Endeavor Group IPO struggled; questions over Silver Lake's promotion of valuation.", "descriptionKo": "Endeavor Group IPO 어려움; Silver Lake의 밸류에이션 홍보 의문.", "lesson": "PE-backed IPOs face post-listing scrutiny.", "lessonKo": "PE 후원 IPO는 상장 후 감시 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Tech is the only sector where the next decade always matters more than the last.", "textKo": "기술은 다음 10년이 항상 지난 10년보다 더 중요한 유일한 부문이다.", "context": "On tech PE", "contextKo": "기술 PE에 대해", "source": "https://www.silverlake.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Myo day pillar in Sin month — 'yangin-gyeok', strong-metal drive, fitting megadeal tech PE dealmaker.", "summaryKo": "신묘 일주 + 신월 양인격(폭발적 추진력·기세)은 244억 달러 Dell 비공개화 같은 거대 기술 PE 거래라는 폭발적 자본 추진과 호응합니다. 신금 일간 + 신금 월지의 극강 금 기운이 정밀 거래 도구·결단력을 이중 강조하고, 묘목 일지의 목 기운이 회사 성장을 가리킵니다." }
+}

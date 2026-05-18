@@ -1,0 +1,39 @@
+{
+  "id": "1765", "name": "Ion Tiriac", "nameKo": "이온 치리아크",
+  "netWorth": 2.3, "nationality": "RO", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Brasov, Romania", "birthPlaceKo": "루마니아 브라쇼브",
+    "familyBackground": "Born to Romanian family.", "familyBackgroundKo": "루마니아 가정에서 출생.",
+    "education": "Romanian sports academy.", "educationKo": "루마니아 스포츠 아카데미.",
+    "earlyLife": "Professional tennis player (Davis Cup); became sports manager for Boris Becker, Guillermo Vilas, Marat Safin; built Romanian business empire post-Communism — Banca Tiriac (now UniCredit Tiriac), Tiriac Group covering insurance, real estate, autos.",
+    "earlyLifeKo": "프로 테니스 선수(데이비스 컵); 보리스 베커·기예르모 빌라스·마라트 사핀 스포츠 매니저; 공산주의 후 루마니아 사업 제국 구축 — Banca Tiriac(현 UniCredit Tiriac), 보험·부동산·자동차 포괄 Tiriac Group.",
+    "source": "https://en.wikipedia.org/wiki/Ion_%C8%9Airiac"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "테니스 + Tiriac Group 다각화." },
+  "careerTimeline": [
+    { "year": 1960, "age": 21, "event": "Began professional tennis career.", "eventKo": "프로 테니스 경력 시작.", "whyItMatteredKo": "테니스 출발선." },
+    { "year": 1980, "age": 41, "event": "Pivoted from player to sports manager (Becker, Vilas).", "eventKo": "선수에서 스포츠 매니저로 전환(베커·빌라스).", "whyItMatteredKo": "매니저 단계." },
+    { "year": 1990, "age": 51, "event": "Returned to post-Communist Romania; founded Banca Tiriac.", "eventKo": "공산주의 후 루마니아 귀국; Banca Tiriac 창립.", "whyItMatteredKo": "Banca Tiriac 출발선." },
+    { "year": 2005, "age": 66, "event": "Sold Banca Tiriac to UniCredit; Tiriac Group expanded diversification.", "eventKo": "Banca Tiriac을 UniCredit에 매각; Tiriac Group 다각화 확장.", "whyItMatteredKo": "매각 단계." },
+    { "year": 2025, "age": 86, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Tiriac 정점." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 51, "decisionKo": "공산주의 후 루마니아 귀국 + Banca Tiriac 창립", "alternativeKo": "스포츠 매니저 잔류", "outcomeKo": "35년 후 23억 달러 + 루마니아 1위 부자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Tiriac Group 사적 자본 + 매각 대금 + 다각화", "industryKo": "은행·보험·자동차·다각화", "businessModelKo": "Banca Tiriac 매각 + 보험·자동차 대리점·부동산", "moatKo": "루마니아 1위 부자 + 35년 다각화 + 글로벌 인맥", "luckVsSkillKo": "운(30%): 공산주의 후 사유화. 실력(70%): 테니스 + 사업 일관성." },
+  "personalTraits": {
+    "knownFor": "Romanian tennis legend; founder of Tiriac Group; founder of Banca Tiriac; Tiriac Open tournament host.",
+    "knownForKo": "루마니아 테니스 전설; Tiriac Group 창립자; Banca Tiriac 창립자; Tiriac Open 토너먼트 호스트.",
+    "philanthropy": "Tiriac Foundation supports Romanian sports and youth.", "philanthropyKo": "치리아크 재단이 루마니아 스포츠·청소년 자선 지원.",
+    "controversies": "1980s Davis Cup coaching controversies; Romanian political-business connections scrutiny.",
+    "controversiesKo": "1980년대 데이비스 컵 코칭 논쟁; 루마니아 정치·사업 인맥 감시."
+  },
+  "characterKo": { "summaryKo": "테니스 전설 + Tiriac Group + 루마니아 1위 부자.", "tagsKo": ["Tiriac Group", "Banca Tiriac", "Davis Cup"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Romanian assets briefly.", "descriptionKo": "글로벌 금융위기로 루마니아 자산 잠시 압축.", "lesson": "Emerging-market faces deep crisis exposure.", "lessonKo": "신흥 시장은 깊은 위기 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Romanian retail and Madrid Open tennis tournament he owned.", "descriptionKo": "COVID-19이 루마니아 소매·그가 소유한 마드리드 오픈 테니스 토너먼트 혼란.", "lesson": "Sports events face pandemic-cancellation risk.", "lessonKo": "스포츠 이벤트는 팬데믹 취소 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.2 }, { "year": 2020, "netWorth": 1.7 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Tennis taught me business: serve hard, return harder.", "textKo": "테니스는 내게 사업을 가르쳤다: 서브를 세게, 리턴을 더 세게.", "context": "On tennis-to-business career", "contextKo": "테니스에서 사업 경력에 대해", "source": "https://en.wikipedia.org/wiki/Ion_%C8%9Airiac" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-O day pillar in Sa month — 'sanggwan-gyeok', unconventional output, fitting tennis-player-turned-business-magnate.", "summaryKo": "병오 일주 + 사월 상관격(파격적 표현·기존 권위 도전)은 프로 테니스에서 은행·보험·자동차 다각화 거인으로의 파격 전환과 호응합니다. 병화 일간 + 오화 일지·사화 월지의 극강 화 기운이 결단·기세·표현을 삼중 강조합니다." }
+}

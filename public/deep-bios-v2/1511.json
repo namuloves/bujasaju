@@ -1,0 +1,39 @@
+{
+  "id": "1511", "name": "Bidzina Ivanishvili", "nameKo": "비드지나 이바니시빌리",
+  "netWorth": 2.7, "nationality": "GE", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Chorvila, Georgia (USSR)", "birthPlaceKo": "소련 조지아 초르빌라",
+    "familyBackground": "Born to Soviet-Georgian peasant family.", "familyBackgroundKo": "소련-조지아 농민 가정에서 출생.",
+    "education": "Tbilisi State University; Moscow Russian Academy of Sciences economics.", "educationKo": "트빌리시 주립 대학교; 모스크바 러시아 과학 아카데미 경제학.",
+    "earlyLife": "Made fortune in Russia 1990s metals/banking/real estate; sold Russian assets in 2000s; returned to Georgia; founded Georgian Dream party; PM of Georgia 2012-2013.",
+    "earlyLifeKo": "1990년대 러시아 금속·은행·부동산 부 축적; 2000년대 러시아 자산 매각; 조지아 귀국; 조지아 드림 당 창립; 2012-2013 조지아 총리.",
+    "source": "https://en.wikipedia.org/wiki/Bidzina_Ivanishvili"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "러시아 1990년대 자본 + 조지아 자산." },
+  "careerTimeline": [
+    { "year": 1990, "age": 34, "event": "Began Moscow trading business in early post-Soviet era.", "eventKo": "초기 소련 후 시대 모스크바 거래 사업 시작.", "whyItMatteredKo": "소련 후 출발선." },
+    { "year": 1996, "age": 40, "event": "Founded Rossiyskiy Kredit Bank; built Russian metals/banking empire.", "eventKo": "Rossiyskiy Kredit 은행 창립; 러시아 금속·은행 제국 구축.", "whyItMatteredKo": "러시아 자본." },
+    { "year": 2005, "age": 49, "event": "Sold most Russian assets; returned to Georgia.", "eventKo": "대부분 러시아 자산 매각; 조지아 귀국.", "whyItMatteredKo": "엑시트." },
+    { "year": 2012, "age": 56, "event": "Founded Georgian Dream party; became Prime Minister of Georgia.", "eventKo": "조지아 드림 당 창립; 조지아 총리 취임.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $2.7B per Forbes Real-Time; informally controls Georgian Dream.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러; 조지아 드림 비공식 통제.", "whyItMatteredKo": "조지아 정치·자본 정점." }
+  ],
+  "turningPoints": [{ "year": 2012, "age": 56, "decisionKo": "조지아 정치 진입 총리 취임", "alternativeKo": "사적 부 잔류", "outcomeKo": "13년 후 27억 달러 + 조지아 정치 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "조지아 자산 + Cartu Bank + 다각화", "industryKo": "은행·다각화·정치", "businessModelKo": "조지아 은행·부동산 + 러시아 자본 잔여 + 정치 영향력", "moatKo": "조지아 최대 부 + Georgian Dream 통제 + 러시아 자본 노하우", "luckVsSkillKo": "운(50%): 1990년대 러시아 사유화 시기. 실력(50%): 자본 적시 매각·정치 전환." },
+  "personalTraits": {
+    "knownFor": "Founder of Georgian Dream party; former PM of Georgia; Georgia's wealthiest person.",
+    "knownForKo": "조지아 드림 당 창립자; 전 조지아 총리; 조지아 최부유.",
+    "philanthropy": "Cartu Charity Foundation supports Georgian cultural and infrastructure causes.", "philanthropyKo": "Cartu 자선 재단이 조지아 문화·인프라 자선 지원.",
+    "controversies": "2024 EU sanctions threatened over anti-democracy laws under Georgian Dream; 2024 protests over foreign-agents law.",
+    "controversiesKo": "2024 조지아 드림 반민주주의 법으로 EU 제재 위협; 2024 외국 대리인법 시위."
+  },
+  "characterKo": { "summaryKo": "러시아 1990년대 자본 + 조지아 총리 + Georgian Dream.", "tagsKo": ["Georgian Dream", "Cartu Bank", "조지아 정치"] },
+  "failures": [
+    { "year": 2024, "description": "Georgian Dream foreign-agents law triggered massive protests; EU sanctions threatened.", "descriptionKo": "조지아 드림 외국 대리인법이 대규모 시위 촉발; EU 제재 위협.", "lesson": "Politics-and-wealth blend faces international democratic pressure.", "lessonKo": "정치와 부 결합은 국제 민주주의 압박 직면." },
+    { "year": 2008, "description": "Russia-Georgia war compressed Georgian asset values briefly.", "descriptionKo": "러시아-조지아 전쟁이 조지아 자산 가치 잠시 압축.", "lesson": "Small-country assets face geopolitical-war risk.", "lessonKo": "소국 자산은 지정학 전쟁 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 4.8 }, { "year": 2020, "netWorth": 4.7 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I returned to Georgia not as a billionaire but as a citizen.", "textKo": "나는 억만장자가 아닌 시민으로 조지아에 돌아왔다.", "context": "On Georgian politics", "contextKo": "조지아 정치에 대해", "source": "https://en.wikipedia.org/wiki/Bidzina_Ivanishvili" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in In month — 'jeonggwan-gyeok', formal authority, fitting PM-turned-power-broker.", "summaryKo": "을묘 일주 + 인월 정관격(공식 권위·규제 아래에서 일하는 구조)은 총리·당 창립자라는 정통 정치 권위 경로와 호응합니다. 을목 일간 + 묘목 일지·인목 월지의 극강 목 기운이 회사·정당 성장과 결단을 삼중 강조합니다." }
+}

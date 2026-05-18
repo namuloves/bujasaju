@@ -1,0 +1,38 @@
+{
+  "id": "1249", "name": "Jack Cockwell", "nameKo": "잭 린 콕웰",
+  "netWorth": 3.3, "nationality": "CA", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "South Africa", "birthPlaceKo": "남아프리카",
+    "familyBackground": "Born to South African family; emigrated to Canada.", "familyBackgroundKo": "남아프리카 가정에서 출생; 캐나다 이주.",
+    "education": "South African chartered accountant.", "educationKo": "남아프리카 공인 회계사.",
+    "earlyLife": "Joined Brascan in Canada 1969; built Brookfield Asset Management (formerly Brascan) with Bruce Flatt; key architect of Brookfield's evolution into world-class alternative asset manager.",
+    "earlyLifeKo": "1969 캐나다 Brascan 합류; 브루스 플랫과 Brookfield Asset Management(전 Brascan) 구축; Brookfield의 세계적 대체 자산 운용사 진화의 핵심 설계자.",
+    "source": "https://en.wikipedia.org/wiki/Jack_Cockwell"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Brookfield 임원 주식 + 다각화." },
+  "careerTimeline": [
+    { "year": 1969, "age": 28, "event": "Joined Brascan in Toronto.", "eventKo": "토론토 Brascan 합류.", "whyItMatteredKo": "Brascan 출발선." },
+    { "year": 1985, "age": 44, "event": "Took chief executive role at Brascan.", "eventKo": "Brascan CEO 역할.", "whyItMatteredKo": "CEO 단계." },
+    { "year": 2002, "age": 61, "event": "Renamed Brascan to Brookfield; began alternative-asset-management focus.", "eventKo": "Brascan을 Brookfield로 개명; 대체 자산 관리 집중 시작.", "whyItMatteredKo": "Brookfield 단계." },
+    { "year": 2020, "age": 79, "event": "Brookfield crossed $600B+ AUM under Bruce Flatt.", "eventKo": "브루스 플랫 아래 Brookfield 6,000억+ AUM 돌파.", "whyItMatteredKo": "AUM 단계." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $3.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 33억 달러.", "whyItMatteredKo": "Brookfield 정점." }
+  ],
+  "turningPoints": [{ "year": 2002, "age": 61, "decisionKo": "Brascan에서 Brookfield 대체 자산 운용사로 변환", "alternativeKo": "전통 대기업 잔류", "outcomeKo": "23년 후 33억 달러 + 6,000억+ AUM 운용사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Brookfield(BN) 임원 주식 + 다각화", "industryKo": "대체 자산 관리", "businessModelKo": "부동산·인프라·재생 에너지·PE·신용 펀드", "moatKo": "Brookfield 글로벌 1위급 대체 자산 + 56년 트랙", "luckVsSkillKo": "운(35%): 대체 자산 부상. 실력(65%): 56년 일관 운영." },
+  "personalTraits": {
+    "knownFor": "Long-time Brookfield architect; mentor to Bruce Flatt; Canadian-South African investor.",
+    "knownForKo": "오랜 Brookfield 설계자; 브루스 플랫의 멘토; 캐나다·남아프리카 투자자.",
+    "philanthropy": "Cockwell Family Foundation supports Canadian education.", "philanthropyKo": "콕웰 가족 재단이 캐나다 교육 자선 지원.",
+    "controversies": "Limited; private-asset-manager scrutiny.", "controversiesKo": "제한적; 사적 자산 운용사 감시."
+  },
+  "characterKo": { "summaryKo": "Brookfield 56년 + Bruce Flatt 멘토 + 대체 자산 거인.", "tagsKo": ["Brookfield", "Brascan", "대체 자산"] },
+  "failures": [
+    { "year": 2008, "description": "Brookfield Real Estate exposure compressed during financial crisis.", "descriptionKo": "금융위기 동안 Brookfield 부동산 노출 압축.", "lesson": "Real-estate platforms face credit-cycle exposure.", "lessonKo": "부동산 플랫폼은 신용 사이클 노출 직면." },
+    { "year": 2023, "description": "Brookfield commercial real-estate stress amid CRE distress; some defaults on office buildings.", "descriptionKo": "상업 부동산 부실 가운데 Brookfield 상업 부동산 스트레스; 일부 오피스 빌딩 디폴트.", "lesson": "Commercial real estate faces structural office-demand challenges.", "lessonKo": "상업 부동산은 구조적 오피스 수요 도전 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.1 }, { "year": 2025, "netWorth": 3.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Patience scales; impatience burns.", "textKo": "인내는 확장하고, 조급함은 태운다.", "context": "On long-term asset management", "contextKo": "장기 자산 관리에 대해", "source": "https://www.brookfield.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sin day pillar in Chuk month — 'jeongin-gyeok', formal academic/credential authority, fitting chartered-accountant-built financial empire.", "summaryKo": "경신 일주 + 축월 정인격(공식 자격·학문·문서 권위)은 공인 회계사 자격을 56년에 걸쳐 Brookfield 거대 자본 운용에 적용한 그의 정통 자격 경로와 호응합니다. 경금 일간 + 신금 일지의 강한 금 기운이 정밀 금융 도구를 이중 강조하고, 축토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

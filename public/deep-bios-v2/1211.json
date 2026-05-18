@@ -1,0 +1,38 @@
+{
+  "id": "1211", "name": "Marc Fielmann", "nameKo": "마르크 필만",
+  "netWorth": 3.4, "nationality": "DE", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Günther Fielmann — founder of Fielmann optical chain.", "familyBackgroundKo": "Fielmann 안경 체인 창립자 귄터 필만의 아들.",
+    "education": "Oxford University (PPE).", "educationKo": "옥스퍼드 대학교(PPE).",
+    "earlyLife": "Joined family Fielmann; became CEO 2018; led Fielmann's European expansion via SeeOptik and Optical88 acquisitions; succeeded father Günther.",
+    "earlyLifeKo": "가족 Fielmann 합류; 2018 CEO 취임; SeeOptik·Optical88 인수로 Fielmann 유럽 확장 주도; 아버지 귄터 승계.",
+    "source": "https://www.fielmann.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Fielmann 가족 자본." },
+  "careerTimeline": [
+    { "year": 2012, "age": 23, "event": "Joined family Fielmann optical group.", "eventKo": "가족 Fielmann 안경 그룹 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2018, "age": 29, "event": "Became CEO of Fielmann; began Europe-wide expansion.", "eventKo": "Fielmann CEO 취임; 유럽 전역 확장 시작.", "whyItMatteredKo": "CEO 단계." },
+    { "year": 2022, "age": 33, "event": "Acquired Italian Optical88 and Spanish SeeOptik chains.", "eventKo": "이탈리아 Optical88·스페인 SeeOptik 체인 인수.", "whyItMatteredKo": "유럽 확장." },
+    { "year": 2024, "age": 35, "event": "Acquired SVS Vision in US — first major US expansion.", "eventKo": "미국 SVS Vision 인수 — 첫 주요 미국 확장.", "whyItMatteredKo": "미국 진출." },
+    { "year": 2025, "age": 36, "event": "Personal net worth at $3.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러.", "whyItMatteredKo": "Fielmann 정점." }
+  ],
+  "turningPoints": [{ "year": 2018, "age": 29, "decisionKo": "Fielmann CEO 취임 후 유럽 확장", "alternativeKo": "독일 집중", "outcomeKo": "7년 후 유럽 1위 안경 체인 + 34억 달러" }],
+  "moneyMechanics": { "primaryRevenueKo": "Fielmann SE 가족 지분 + 다각화", "industryKo": "안경 소매·제조", "businessModelKo": "수직 통합 안경 소매 + 자체 제조 + 유럽·미국 확장", "moatKo": "독일 안경 1위 + 가족 의결권 + 유럽 1,000+ 매장", "luckVsSkillKo": "운(40%): 가족 자본 + 유럽 안경 부상. 실력(60%): 7년 CEO 확장." },
+  "personalTraits": {
+    "knownFor": "CEO of Fielmann SE; son of Günther Fielmann; second-generation optical magnate.",
+    "knownForKo": "Fielmann SE CEO; 귄터 필만의 아들; 안경 2세대 거물.",
+    "philanthropy": "Fielmann Family Foundation supports environmental and German cultural causes.", "philanthropyKo": "필만 가족 재단이 환경·독일 문화 자선 지원.",
+    "controversies": "Limited; standard optical-retail sector scrutiny.", "controversiesKo": "제한적; 안경 소매 부문 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Fielmann 2세대 + 29세 CEO + 유럽·미국 확장.", "tagsKo": ["Fielmann", "안경 소매", "2세대 CEO"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 closed optical stores briefly; Fielmann revenue plunged.", "descriptionKo": "COVID-19이 안경 매장 잠시 폐쇄; Fielmann 매출 급락.", "lesson": "Optical retail faces pandemic-shock exposure.", "lessonKo": "안경 소매는 팬데믹 충격 노출 직면." },
+    { "year": 2023, "description": "Stock fell on margin pressure from European expansion costs.", "descriptionKo": "유럽 확장 비용으로 마진 압박에 주가 하락.", "lesson": "International rollout costs compress near-term margins.", "lessonKo": "국제 롤아웃 비용은 단기 마진 압축." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2022, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.2 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Glasses are not a product; they are a face.", "textKo": "안경은 제품이 아니다; 그것은 얼굴이다.", "context": "On Fielmann philosophy", "contextKo": "Fielmann 철학에 대해", "source": "https://www.fielmann.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Yu day pillar in Mi month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting young CEO under family legacy.", "summaryKo": "을유 일주 + 미월 편관격(강한 외부 압박·권력 충돌)은 29세에 아버지의 거대 가족 회사를 인계받는 강한 외부 압박 환경과 호응합니다. 을목 일간의 작은 풀·유연한 적응 기질이 새 세대 적응과 통하고, 유금 일지의 금 기운이 정밀 안경 도구를, 미토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}
