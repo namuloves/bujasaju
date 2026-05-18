@@ -271,44 +271,59 @@ export async function POST(req: NextRequest) {
     return new Response('Missing user or matches', { status: 400 });
   }
 
-  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-  const prompt = buildPrompt(body);
+  // maxRetries: 0 — when OpenAI rate-limits us, the SDK's default 2 retries
+  // turn every failed call into 3 calls, which is exactly what we don't want
+  // during a rate-limit incident. Surface the 429 immediately instead.
+  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, maxRetries: 0 });
 
-  // Wrap the OpenAI stream in a ReadableStream of plain text deltas.
-  // No SSE framing — the client just reads chunks and appends to state.
-  //
-  // Two things this has to handle correctly:
-  //   1. Client disconnect mid-stream (HMR, navigation, refresh). When this
-  //      happens the downstream ReadableStream is already cancelled, so any
-  //      further `controller.enqueue` throws "Invalid state: Controller is
-  //      already closed". We track a `closed` flag and stop enqueuing.
-  //   2. Aborting the upstream OpenAI call the moment the client goes away,
-  //      so we don't keep billing tokens into a socket nobody's reading.
-  const encoder = new TextEncoder();
+  let prompt: string;
+  try {
+    prompt = buildPrompt(body);
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : 'prompt build failed';
+    console.error('[saju-summary] buildPrompt threw:', msg);
+    return new Response('Could not build prompt from input', { status: 400 });
+  }
+
+  // Open the OpenAI stream BEFORE returning the Response. If this throws
+  // (rate limit, auth, bad request), we can map it to a real HTTP status
+  // — once we hand a ReadableStream to Response, the headers are 200 and
+  // any downstream error becomes a silent broken stream that the client
+  // sees as an empty success.
   const upstreamAbort = new AbortController();
-  let closed = false;
+  req.signal.addEventListener('abort', () => upstreamAbort.abort());
 
-  // Fire upstreamAbort as soon as the client disconnects. `req.signal` is
-  // the incoming request's AbortSignal in Next.js route handlers.
-  req.signal.addEventListener('abort', () => {
-    closed = true;
-    upstreamAbort.abort();
-  });
+  let stream;
+  try {
+    stream = await client.chat.completions.create(
+      {
+        model: 'gpt-4o-mini',
+        max_tokens: 2000,
+        temperature: 0.7,
+        stream: true,
+        messages: [{ role: 'user', content: prompt }],
+      },
+      { signal: upstreamAbort.signal },
+    );
+  } catch (err) {
+    const isAbort = err instanceof Error && err.name === 'AbortError';
+    if (isAbort) return new Response(null, { status: 499 });
+    // OpenAI APIError carries .status — fall through to 502 otherwise.
+    const status =
+      typeof (err as { status?: number })?.status === 'number'
+        ? (err as { status: number }).status
+        : 502;
+    const msg = err instanceof Error ? err.message : 'upstream error';
+    console.error(`[saju-summary] openai create failed (${status}):`, msg);
+    return new Response(status === 429 ? 'Rate limited' : 'Upstream error', { status });
+  }
+
+  const encoder = new TextEncoder();
+  let closed = false;
 
   const readable = new ReadableStream<Uint8Array>({
     async start(controller) {
       try {
-        const stream = await client.chat.completions.create(
-          {
-            model: 'gpt-4o-mini',
-            max_tokens: 2000,
-            temperature: 0.7,
-            stream: true,
-            messages: [{ role: 'user', content: prompt }],
-          },
-          { signal: upstreamAbort.signal },
-        );
-
         for await (const chunk of stream) {
           if (closed) break;
           const delta = chunk.choices[0]?.delta?.content;
@@ -316,40 +331,30 @@ export async function POST(req: NextRequest) {
             controller.enqueue(encoder.encode(delta));
           }
         }
-        // Always close the controller so the client gets a proper stream-end
-        // signal. The `closed` flag only guards `enqueue` (to avoid writing
-        // into a cancelled controller), but we still need to close even if
-        // req.signal fired — the client may still be reading.
-        if (!closed) {
-          closed = true;
-        }
+        closed = true;
         try {
           controller.close();
         } catch {
-          // Controller already closed/errored — nothing to do.
+          // already closed
         }
       } catch (err) {
-        // A client-initiated abort is expected and not worth logging as an
-        // error. Everything else is a real failure the client should fall
-        // back on via its static template.
         const isAbort =
           (err instanceof Error && err.name === 'AbortError') || closed;
         if (!isAbort) {
           const msg = err instanceof Error ? err.message : 'stream error';
-          console.error('[saju-summary] stream failed:', msg);
+          console.error('[saju-summary] mid-stream failed:', msg);
         }
         if (!closed) {
           try {
             controller.error(err);
           } catch {
-            // Controller was already torn down — nothing to do.
+            // already torn down
           }
           closed = true;
         }
       }
     },
     cancel() {
-      // Downstream (the Response body) was cancelled — propagate to upstream.
       closed = true;
       upstreamAbort.abort();
     },
@@ -359,7 +364,6 @@ export async function POST(req: NextRequest) {
     headers: {
       'Content-Type': 'text/plain; charset=utf-8',
       'Cache-Control': 'no-store',
-      // Disable buffering on Vercel edge/node so chunks flush immediately
       'X-Accel-Buffering': 'no',
     },
   });

@@ -684,34 +684,56 @@ export async function POST(req: NextRequest) {
   const bio = canUseHeavy ? await loadV2Bio(body.featured.id) : null;
   const v1Bio = !bio ? await loadV1Bio(body.featured.id) : null;
 
-  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-  const prompt = bio
-    ? buildPrompt(body.user, body.featured, bio)
-    : buildLightPrompt(body.user, body.featured, v1Bio);
+  // maxRetries: 0 — see saju-summary route for rationale (avoid 3× call
+  // amplification during OpenAI rate-limit incidents).
+  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, maxRetries: 0 });
+
+  let prompt: string;
+  try {
+    prompt = bio
+      ? buildPrompt(body.user, body.featured, bio)
+      : buildLightPrompt(body.user, body.featured, v1Bio);
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : 'prompt build failed';
+    console.error('[saju-deep-summary] buildPrompt threw:', msg);
+    return new Response('Could not build prompt from input', { status: 400 });
+  }
   const maxTokens = bio ? 1200 : 1000;
 
-  const encoder = new TextEncoder();
+  // Open the OpenAI stream before returning the Response so we can surface
+  // 429/4xx as real HTTP statuses instead of empty broken streams.
   const upstreamAbort = new AbortController();
-  let closed = false;
+  req.signal.addEventListener('abort', () => upstreamAbort.abort());
 
-  req.signal.addEventListener('abort', () => {
-    closed = true;
-    upstreamAbort.abort();
-  });
+  let stream;
+  try {
+    stream = await client.chat.completions.create(
+      {
+        model: 'gpt-4o-mini',
+        max_tokens: maxTokens,
+        stream: true,
+        messages: [{ role: 'user', content: prompt }],
+      },
+      { signal: upstreamAbort.signal },
+    );
+  } catch (err) {
+    const isAbort = err instanceof Error && err.name === 'AbortError';
+    if (isAbort) return new Response(null, { status: 499 });
+    const status =
+      typeof (err as { status?: number })?.status === 'number'
+        ? (err as { status: number }).status
+        : 502;
+    const msg = err instanceof Error ? err.message : 'upstream error';
+    console.error(`[saju-deep-summary] openai create failed (${status}):`, msg);
+    return new Response(status === 429 ? 'Rate limited' : 'Upstream error', { status });
+  }
+
+  const encoder = new TextEncoder();
+  let closed = false;
 
   const readable = new ReadableStream<Uint8Array>({
     async start(controller) {
       try {
-        const stream = await client.chat.completions.create(
-          {
-            model: 'gpt-4o-mini',
-            max_tokens: maxTokens,
-            stream: true,
-            messages: [{ role: 'user', content: prompt }],
-          },
-          { signal: upstreamAbort.signal },
-        );
-
         for await (const chunk of stream) {
           if (closed) break;
           const delta = chunk.choices[0]?.delta?.content;
@@ -719,7 +741,7 @@ export async function POST(req: NextRequest) {
             controller.enqueue(encoder.encode(delta));
           }
         }
-        if (!closed) closed = true;
+        closed = true;
         try {
           controller.close();
         } catch {
@@ -730,7 +752,7 @@ export async function POST(req: NextRequest) {
           (err instanceof Error && err.name === 'AbortError') || closed;
         if (!isAbort) {
           const msg = err instanceof Error ? err.message : 'stream error';
-          console.error('[saju-deep-summary] stream failed:', msg);
+          console.error('[saju-deep-summary] mid-stream failed:', msg);
         }
         if (!closed) {
           try {
