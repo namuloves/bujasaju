@@ -1,0 +1,38 @@
+{
+  "id": "1298", "name": "Greg Love", "nameKo": "그렉 러브",
+  "netWorth": 3.2, "nationality": "US", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Tom Love — founder of Love's Travel Stops.", "familyBackgroundKo": "Love's Travel Stops 창립자 톰 러브의 아들.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Joined family Love's Travel Stops & Country Stores; co-CEO with brother Frank; major shareholder of US-largest truck-stop chain.",
+    "earlyLifeKo": "가족 Love's Travel Stops & Country Stores 합류; 형제 프랭크와 공동 CEO; 미국 최대 트럭 정류장 체인 주요 주주.",
+    "source": "https://www.loves.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Love's Travel Stops 가족 자본." },
+  "careerTimeline": [
+    { "year": 1985, "age": 24, "event": "Joined family Love's Travel Stops.", "eventKo": "가족 Love's Travel Stops 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2000, "age": 39, "event": "Love's expanded across US interstates.", "eventKo": "Love's가 미국 주간고속도로 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2015, "age": 54, "event": "Became co-CEO with brother Frank.", "eventKo": "형제 프랭크와 공동 CEO 취임.", "whyItMatteredKo": "공동 CEO 단계." },
+    { "year": 2022, "age": 61, "event": "Love's crossed 600+ locations across US.", "eventKo": "Love's가 미국 600개+ 위치 돌파.", "whyItMatteredKo": "600+ 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "Love's 정점." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 54, "decisionKo": "형제 프랭크와 공동 CEO 수락", "alternativeKo": "단일 CEO 위임", "outcomeKo": "10년 후 32억 달러 + 미국 트럭 정류장 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Love's Travel Stops 사적 가족 지분 + 다각화", "industryKo": "트럭 정류장·소매·디젤", "businessModelKo": "주간고속도로 트럭 정류장 + 디젤 + 음식점 + 유지보수", "moatKo": "미국 트럭 정류장 1위급 + 가족 사적 소유", "luckVsSkillKo": "운(60%): 가족 자본 + 미국 화물 산업. 실력(40%): 40년 가족 운영." },
+  "personalTraits": {
+    "knownFor": "Co-CEO of Love's Travel Stops; brother of Frank Love; Love family heir.",
+    "knownForKo": "Love's Travel Stops 공동 CEO; 프랭크 러브의 형제; 러브 가족 상속인.",
+    "philanthropy": "Love Family Foundation supports Oklahoma education and community.", "philanthropyKo": "러브 가족 재단이 오클라호마 교육·지역 사회 자선 지원.",
+    "controversies": "Limited; private family low scrutiny.", "controversiesKo": "제한적; 사적 가족 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Love's 가족 + 형제 공동 CEO.", "tagsKo": ["Love's Travel Stops", "공동 CEO", "오클라호마"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed freight demand briefly; Love's revenue plunged.", "descriptionKo": "금융위기로 화물 수요 잠시 압축; Love's 매출 급락.", "lesson": "Truck-stops face freight-cycle exposure.", "lessonKo": "트럭 정류장은 화물 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted truck-stop traffic briefly.", "descriptionKo": "COVID-19이 트럭 정류장 통행 잠시 혼란.", "lesson": "Fuel-retail faces pandemic exposure.", "lessonKo": "연료 소매는 팬데믹 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Brothers run together; America moves together.", "textKo": "형제가 함께 운영하고, 미국이 함께 움직인다.", "context": "On Love's co-CEO", "contextKo": "Love's 공동 CEO에 대해", "source": "https://www.loves.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Myo day pillar in Yu month — 'pyeonjae-gyeok', large external capital flow, fitting national-truck-stop logistics operator.", "summaryKo": "정묘 일주 + 유월 편재격(크고 유동적인 외부 자본)은 미국 전국 트럭 정류장이라는 거대 외부 자본·연료 유동 운영 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정밀 운영과 통하고, 묘목 일지의 목 기운이 회사 성장을, 유금 월지의 금 기운이 정밀 자본 도구를 가리킵니다." }
+}

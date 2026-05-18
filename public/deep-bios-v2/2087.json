@@ -1,0 +1,39 @@
+{
+  "id": "2087", "name": "P.P. Reddy", "nameKo": "P.P. 레디",
+  "netWorth": 1.9, "nationality": "IN", "industry": "Construction & Engineering",
+  "childhood": {
+    "birthPlace": "Andhra Pradesh, India", "birthPlaceKo": "인도 안드라프라데시",
+    "familyBackground": "Born to Indian family.", "familyBackgroundKo": "인도 가정에서 출생.",
+    "education": "Indian engineering education.", "educationKo": "인도 공학 교육.",
+    "earlyLife": "Co-founded Megha Engineering and Infrastructures (MEIL) in 1989 with brother Krishna Reddy; built MEIL into major Indian infrastructure contractor; politically-connected projects.",
+    "earlyLifeKo": "1989 형제 크리슈나 레디와 Megha Engineering and Infrastructures(MEIL) 공동 창립; MEIL을 주요 인도 인프라 계약사로 구축; 정치 연결 프로젝트.",
+    "source": "https://en.wikipedia.org/wiki/Megha_Engineering_and_Infrastructures"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "MEIL 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 28, "event": "Began Indian infrastructure career.", "eventKo": "인도 인프라 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1989, "age": 32, "event": "Co-founded Megha Engineering and Infrastructures.", "eventKo": "Megha Engineering and Infrastructures 공동 창립.", "whyItMatteredKo": "MEIL 출발선." },
+    { "year": 2010, "age": 53, "event": "MEIL became major Indian infrastructure contractor.", "eventKo": "MEIL이 주요 인도 인프라 계약사가 됨.", "whyItMatteredKo": "주요 단계." },
+    { "year": 2020, "age": 63, "event": "MEIL major Indian government contracts and political connections drew scrutiny.", "eventKo": "MEIL 주요 인도 정부 계약·정치 연결이 감시 야기.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2025, "age": 68, "event": "Personal net worth at $1.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 19억 달러.", "whyItMatteredKo": "MEIL 정점." }
+  ],
+  "turningPoints": [{ "year": 1989, "age": 32, "decisionKo": "MEIL 공동 창립", "alternativeKo": "직원 잔류", "outcomeKo": "36년 후 19억 달러 + 인도 인프라 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "MEIL 사적 가족 지분 + 다각화", "industryKo": "인프라 건설·다각화", "businessModelKo": "관개·도로·수자원 인프라 + 정부 계약 + 다각화", "moatKo": "정부 인맥 + 36년 인프라 트랙", "luckVsSkillKo": "운(45%): 인도 정부 인프라 지출. 실력(55%): 36년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of MEIL; Indian infrastructure-contracting magnate; politically-connected family.",
+    "knownForKo": "MEIL 공동 창립자; 인도 인프라 계약 거물; 정치 연결 가족.",
+    "philanthropy": "MEIL Foundation supports Indian community development.", "philanthropyKo": "MEIL 재단이 인도 지역 사회 개발 자선 지원.",
+    "controversies": "2024 election-bond donations of crore-rupees from MEIL drew sustained Indian political scrutiny.",
+    "controversiesKo": "2024 MEIL의 수십억 루피 선거 채권 기부가 지속적 인도 정치 감시 야기."
+  },
+  "characterKo": { "summaryKo": "MEIL 36년 + 인도 인프라 + 정치 연결.", "tagsKo": ["MEIL", "Megha Engineering", "인도 인프라"] },
+  "failures": [
+    { "year": 2024, "description": "Indian Supreme Court invalidated electoral-bonds scheme; MEIL named as largest donor; political reputational risk.", "descriptionKo": "인도 대법원이 선거 채권 제도 무효화; MEIL이 최대 후원자로 명시; 정치 평판 리스크.", "lesson": "Politically-connected business faces transparency-cycle reputational risk.", "lessonKo": "정치 연결 사업은 투명성 사이클 평판 리스크 직면." },
+    { "year": 2015, "description": "Brother Krishna Reddy stepped back; family business power consolidation.", "descriptionKo": "형제 크리슈나 레디 물러남; 가족 사업 권력 통합.", "lesson": "Family business succession can compress family dynamics.", "lessonKo": "가족 사업 승계는 가족 역학 압축할 수 있다." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.2 }, { "year": 2024, "netWorth": 1.7 }, { "year": 2025, "netWorth": 1.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Indian infrastructure builds Indian future.", "textKo": "인도 인프라가 인도의 미래를 짓는다.", "context": "On MEIL mission", "contextKo": "MEIL 미션에 대해", "source": "https://www.meil.in" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Sul day pillar in Sin month — 'pyeonjae-gyeok', large external capital, fitting infrastructure-contractor under government-contract flows.", "summaryKo": "갑술 일주 + 신월 편재격(크고 유동적인 외부 자본)은 정부 인프라 계약이라는 거대 외부 자본 유동 36년 운영 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 술토 일지의 토 기운이 자본·인프라 안정 기반을, 신금 월지의 금 기운이 정밀 건설 도구를 가리킵니다." }
+}

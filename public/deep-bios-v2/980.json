@@ -1,0 +1,38 @@
+{
+  "id": "980", "name": "Erik Selin", "nameKo": "에릭 셀린",
+  "netWorth": 4.2, "nationality": "SE", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Sweden", "birthPlaceKo": "스웨덴",
+    "familyBackground": "Born to Swedish family.", "familyBackgroundKo": "스웨덴 가정에서 출생.",
+    "education": "Swedish higher education.", "educationKo": "스웨덴 고등교육.",
+    "earlyLife": "Founded Balder real-estate company in 2005 in Gothenburg; built into one of Sweden's largest publicly-traded real-estate companies; CEO.",
+    "earlyLifeKo": "2005 예테보리에서 Balder 부동산 회사 창립; 스웨덴 최대 공개 부동산 회사 중 하나로 구축; CEO.",
+    "source": "https://en.wikipedia.org/wiki/Fastighets_AB_Balder"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Balder 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1992, "age": 25, "event": "Began Swedish real-estate career.", "eventKo": "스웨덴 부동산 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2005, "age": 38, "event": "Founded Fastighets AB Balder in Gothenburg.", "eventKo": "예테보리에 Fastighets AB Balder 창립.", "whyItMatteredKo": "Balder 출발선." },
+    { "year": 2010, "age": 43, "event": "Balder IPO on Stockholm Stock Exchange.", "eventKo": "Balder 스톡홀름 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2018, "age": 51, "event": "Balder major Nordic real-estate consolidator.", "eventKo": "Balder가 주요 북유럽 부동산 통합사가 됨.", "whyItMatteredKo": "북유럽 단계." },
+    { "year": 2025, "age": 58, "event": "Personal net worth at $4.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 42억 달러.", "whyItMatteredKo": "Balder 정점." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 38, "decisionKo": "Balder 부동산 회사 창립", "alternativeKo": "직원 잔류", "outcomeKo": "20년 후 42억 달러 + 스웨덴 부동산 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Fastighets AB Balder(BALD-B.ST) 가족 지분", "industryKo": "부동산·REIT", "businessModelKo": "스웨덴 주거·상업 부동산 + 임대료 + 인수 통합", "moatKo": "스웨덴 부동산 1위급 + 20년 트랙", "luckVsSkillKo": "운(40%): 스웨덴 저금리 부동산 호황. 실력(60%): 20년 일관 인수." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of Fastighets AB Balder; Swedish real-estate magnate.",
+    "knownForKo": "Fastighets AB Balder 창립자·CEO; 스웨덴 부동산 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2023 Swedish property crisis pressured Balder stock significantly.", "controversiesKo": "2023 스웨덴 부동산 위기로 Balder 주식 상당 압박."
+  },
+  "characterKo": { "summaryKo": "Balder 20년 + 스웨덴 부동산 1위급.", "tagsKo": ["Fastighets AB Balder", "스웨덴 부동산", "예테보리"] },
+  "failures": [
+    { "year": 2023, "description": "Swedish property crisis halved Balder stock; commercial-real-estate stress.", "descriptionKo": "스웨덴 부동산 위기로 Balder 주식 반토막; 상업 부동산 스트레스.", "lesson": "Nordic real estate faces rate-cycle exposure dramatically.", "lessonKo": "북유럽 부동산은 금리 사이클 노출 극적 직면." },
+    { "year": 2008, "description": "Global financial crisis compressed early Balder operations.", "descriptionKo": "글로벌 금융위기로 초기 Balder 운영 압축.", "lesson": "Real estate faces credit-cycle exposure.", "lessonKo": "부동산은 신용 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2023, "netWorth": 2.5 }, { "year": 2025, "netWorth": 4.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Real estate compounds quietly; debt compounds loudly.", "textKo": "부동산은 조용히 복리하고, 부채는 시끄럽게 복리한다.", "context": "On Balder strategy", "contextKo": "Balder 전략에 대해", "source": "https://www.balder.se" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Sin day pillar in Sa month — 'sanggwan-gyeok', unconventional output, fitting fast-growing-real-estate-aggressive-acquirer.", "summaryKo": "임신 일주 + 사월 상관격(파격적 표현·기존 권위 도전)은 20년 만에 스웨덴 부동산 1위급으로 공격적 성장한 파격 경로와 호응합니다. 임수 일간의 큰 바다 기질이 거대 자본 유동과 통하고, 신금 일지의 금 기운이 정밀 자본 도구를, 사화 월지의 강한 화 기운이 결단·기세를 가리킵니다." }
+}

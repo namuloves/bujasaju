@@ -1,0 +1,39 @@
+{
+  "id": "1217", "name": "Parker Conrad", "nameKo": "파커 콘래드",
+  "netWorth": 3.4, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Harvard University.", "educationKo": "하버드 대학교.",
+    "earlyLife": "Founded SigFig (financial-tech); founded Zenefits HR-tech (forced out 2016 amid licensing scandal); founded Rippling HR/IT platform 2016; founder/CEO Rippling.",
+    "earlyLifeKo": "SigFig(금융 기술) 창립; Zenefits HR 기술 창립(2016 라이선싱 스캔들 가운데 퇴출); 2016 Rippling HR·IT 플랫폼 창립; Rippling 창립자·CEO.",
+    "source": "https://en.wikipedia.org/wiki/Parker_Conrad"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Rippling 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2002, "age": 22, "event": "Began career after Harvard.", "eventKo": "하버드 후 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2007, "age": 27, "event": "Co-founded SigFig.", "eventKo": "SigFig 공동 창립.", "whyItMatteredKo": "SigFig 출발선." },
+    { "year": 2013, "age": 33, "event": "Founded Zenefits.", "eventKo": "Zenefits 창립.", "whyItMatteredKo": "Zenefits 출발선." },
+    { "year": 2016, "age": 36, "event": "Forced out of Zenefits over insurance-license scandal; founded Rippling same year.", "eventKo": "보험 라이선스 스캔들로 Zenefits 퇴출; 같은 해 Rippling 창립.", "whyItMatteredKo": "Rippling 출발선." },
+    { "year": 2025, "age": 45, "event": "Rippling valued $16.8B+; personal net worth at $3.4B per Forbes Real-Time.", "eventKo": "Rippling 168억+ 달러 밸류에이션; 포브스 실시간 기준 개인 순자산 34억 달러.", "whyItMatteredKo": "Rippling 정점." }
+  ],
+  "turningPoints": [{ "year": 2016, "age": 36, "decisionKo": "Zenefits 퇴출 같은 해 Rippling 창립", "alternativeKo": "스캔들 후 은퇴", "outcomeKo": "9년 후 34억 달러 + 168억 달러 밸류에이션" }],
+  "moneyMechanics": { "primaryRevenueKo": "Rippling 창립자 지분 + 다각화", "industryKo": "HR·IT SaaS", "businessModelKo": "통합 HR + IT + 재무 SaaS + 글로벌 HR", "moatKo": "Rippling 통합 플랫폼 + 168억 밸류에이션", "luckVsSkillKo": "운(35%): SaaS 부상. 실력(65%): Zenefits 학습 + Rippling 재창업." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of Rippling; former Zenefits founder; serial HR-tech entrepreneur.",
+    "knownForKo": "Rippling 창립자·CEO; 전 Zenefits 창립자; 연쇄 HR 기술 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2016 Zenefits insurance-license scandal forced his ouster; 2024 Rippling vs Deel corporate-spy lawsuit.",
+    "controversiesKo": "2016 Zenefits 보험 라이선스 스캔들로 퇴출; 2024 Rippling 대 Deel 기업 스파이 소송."
+  },
+  "characterKo": { "summaryKo": "Zenefits 퇴출 후 Rippling 재창업 성공.", "tagsKo": ["Rippling", "Zenefits", "HR SaaS"] },
+  "failures": [
+    { "year": 2016, "description": "Zenefits insurance-license scandal forced his ouster; equity diluted.", "descriptionKo": "Zenefits 보험 라이선스 스캔들로 퇴출; 지분 희석.", "lesson": "Founder compliance shortcuts can end company role.", "lessonKo": "창립자 컴플라이언스 단축은 회사 역할을 끝낼 수 있다." },
+    { "year": 2024, "description": "Rippling sued Deel alleging corporate spying; protracted litigation.", "descriptionKo": "Rippling이 Deel을 기업 스파이 의혹 제소; 장기 소송.", "lesson": "Hypercompetitive SaaS faces espionage-litigation risk.", "lessonKo": "초경쟁 SaaS는 스파이 소송 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 0.3 }, { "year": 2022, "netWorth": 1.5 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Failure is the best founder education.", "textKo": "실패는 최고의 창립자 교육이다.", "context": "On Zenefits-to-Rippling pivot", "contextKo": "Zenefits-Rippling 전환에 대해", "source": "https://www.rippling.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Jin day pillar in Jin month — 'pyeonjae-gyeok', large external capital, fitting fast-scaling SaaS founder.", "summaryKo": "병진 일주 + 진월 편재격(크고 유동적인 외부 자본)은 168억 달러 밸류에이션 SaaS라는 거대 외부 자본을 유치한 그의 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 진토 일지·진토 월지의 극강 토 기운이 자본 안정·SaaS 인프라 기반을 이중 강조합니다." }
+}

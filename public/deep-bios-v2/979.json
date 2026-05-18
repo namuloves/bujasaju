@@ -1,0 +1,38 @@
+{
+  "id": "979", "name": "Wang Yanqing", "nameKo": "왕옌칭",
+  "netWorth": 4.2, "nationality": "CN", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Chinese higher education.", "educationKo": "중국 고등교육.",
+    "earlyLife": "Co-founded Sanhua Holding Group with brother — major Chinese HVAC components and EV thermal management supplier; major Tesla supplier.",
+    "earlyLifeKo": "형제와 Sanhua Holding Group 공동 창립 — 주요 중국 HVAC 부품·EV 열 관리 공급사; 주요 테슬라 공급사.",
+    "source": "https://www.sanhuagroup.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Sanhua Holding 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1988, "age": 22, "event": "Began career in Chinese HVAC components manufacturing.", "eventKo": "중국 HVAC 부품 제조 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1995, "age": 29, "event": "Co-founded Sanhua Holding Group.", "eventKo": "Sanhua Holding Group 공동 창립.", "whyItMatteredKo": "Sanhua 출발선." },
+    { "year": 2005, "age": 39, "event": "Sanhua Intelligent Controls IPO Shenzhen.", "eventKo": "Sanhua Intelligent Controls 선전 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2018, "age": 52, "event": "Major Tesla EV thermal-management contract awarded.", "eventKo": "주요 테슬라 EV 열 관리 계약 수주.", "whyItMatteredKo": "Tesla 단계." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $4.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 42억 달러.", "whyItMatteredKo": "Sanhua 정점." }
+  ],
+  "turningPoints": [{ "year": 2018, "age": 52, "decisionKo": "Tesla EV 열 관리 공급 계약 수주", "alternativeKo": "전통 HVAC 집중", "outcomeKo": "7년 후 42억 달러 + EV 부품 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Sanhua Intelligent Controls(002050) 가족 지분 + 다각화", "industryKo": "HVAC·EV 열 관리", "businessModelKo": "HVAC 부품 + EV 열 관리 시스템 + 글로벌 OEM 공급", "moatKo": "Tesla 공급사 지위 + 30년 HVAC 트랙", "luckVsSkillKo": "운(45%): EV 산업 부상 + Tesla 계약. 실력(55%): 30년 HVAC 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Sanhua Holding; Chinese HVAC and EV thermal-management magnate.",
+    "knownForKo": "Sanhua Holding 공동 창립자; 중국 HVAC·EV 열 관리 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard Chinese-manufacturer scrutiny.", "controversiesKo": "제한적; 중국 제조사 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Sanhua + Tesla EV 부품 공급 거인.", "tagsKo": ["Sanhua", "EV thermal management", "Tesla 공급"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed HVAC demand briefly.", "descriptionKo": "글로벌 금융위기로 HVAC 수요 잠시 압축.", "lesson": "Building-component manufacturers face cycle exposure.", "lessonKo": "건축 부품 제조사는 사이클 노출 직면." },
+    { "year": 2022, "description": "Tesla deliveries dipped briefly; Sanhua orders compressed.", "descriptionKo": "테슬라 배송 잠시 하락; Sanhua 주문 압축.", "lesson": "EV-component suppliers face concentrated-customer risk.", "lessonKo": "EV 부품 공급사는 집중 고객 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.0 }, { "year": 2025, "netWorth": 4.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "EV thermal control is the next decade's hidden engine.", "textKo": "EV 열 제어는 다음 10년의 숨은 엔진이다.", "context": "On EV components", "contextKo": "EV 부품에 대해", "source": "https://www.sanhuagroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Sin day pillar in Jin month — 'pyeon-gwan-gyeok', strong external pressure/discipline, fitting Tesla-supplier under strict OEM standards.", "summaryKo": "병신 일주 + 진월 편관격(강한 외부 압박·권력 충돌)은 테슬라라는 강한 OEM 기준 외부 압박 환경의 부품 공급사 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 자동차 산업 영향력과 통하고, 신금 일지의 금 기운이 정밀 부품 도구를, 진토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

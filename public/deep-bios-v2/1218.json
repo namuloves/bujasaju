@@ -1,0 +1,38 @@
+{
+  "id": "1218", "name": "Felix Baker", "nameKo": "펠릭스 베이커",
+  "netWorth": 3.4, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family; twin brother Julian Baker.", "familyBackgroundKo": "미국 가정에서 출생; 쌍둥이 형제 줄리안 베이커.",
+    "education": "Stanford BA/PhD biology.", "educationKo": "스탠퍼드 학사·생물학 박사.",
+    "earlyLife": "PhD biologist; co-founded Baker Bros. Advisors in 2000 with twin Julian — biotech-focused hedge fund; became one of most-influential biotech investors.",
+    "earlyLifeKo": "생물학 박사; 2000 쌍둥이 줄리안과 Baker Bros. Advisors 공동 창립 — 바이오텍 중심 헤지펀드; 최영향 바이오텍 투자자 중 하나가 됨.",
+    "source": "https://en.wikipedia.org/wiki/Baker_Bros._Advisors"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Baker Bros. Advisors 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1995, "age": 26, "event": "Worked at Tisch family healthcare investments.", "eventKo": "Tisch 가족 보건 투자 근무.", "whyItMatteredKo": "출발선." },
+    { "year": 2000, "age": 31, "event": "Co-founded Baker Bros. Advisors with twin Julian.", "eventKo": "쌍둥이 줄리안과 Baker Bros. Advisors 공동 창립.", "whyItMatteredKo": "Baker Bros. 출발선." },
+    { "year": 2010, "age": 41, "event": "Baker Bros. crossed $5B+ biotech AUM.", "eventKo": "Baker Bros. 50억+ 바이오텍 AUM 돌파.", "whyItMatteredKo": "AUM 단계." },
+    { "year": 2020, "age": 51, "event": "Pandemic biotech boom drove Baker Bros. portfolio strongly.", "eventKo": "팬데믹 바이오텍 호황으로 Baker Bros. 포트폴리오 강력 견인.", "whyItMatteredKo": "팬데믹 단계." },
+    { "year": 2025, "age": 56, "event": "Personal net worth at $3.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러.", "whyItMatteredKo": "Baker Bros. 정점." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 31, "decisionKo": "쌍둥이와 바이오텍 전용 헤지펀드 창립", "alternativeKo": "일반 헬스케어 잔류", "outcomeKo": "25년 후 34억 달러 + 바이오텍 1위 투자자 가족" }],
+  "moneyMechanics": { "primaryRevenueKo": "Baker Bros. Advisors 파트너 지분 + 다각화", "industryKo": "바이오텍 헤지펀드", "businessModelKo": "장기 집중 바이오텍 + 박사 과학자 투자 + 200억+ AUM", "moatKo": "PhD 생물학 자격 + 25년 바이오텍 트랙 + 200억 AUM", "luckVsSkillKo": "운(30%): 바이오텍 부상. 실력(70%): PhD + 25년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Baker Bros. Advisors; biotech-focused hedge-fund manager; twin of Julian Baker.",
+    "knownForKo": "Baker Bros. Advisors 공동 창립자; 바이오텍 중심 헤지펀드 매니저; 줄리안 베이커의 쌍둥이.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; concentrated biotech-sector cycle risk scrutiny.", "controversiesKo": "제한적; 집중 바이오텍 부문 사이클 리스크 감시."
+  },
+  "characterKo": { "summaryKo": "쌍둥이와 Baker Bros. + 바이오텍 헤지펀드 거인.", "tagsKo": ["Baker Bros. Advisors", "biotech hedge fund", "Baker twins"] },
+  "failures": [
+    { "year": 2022, "description": "Biotech selloff compressed Baker Bros. portfolio 50%+ briefly.", "descriptionKo": "바이오텍 매도세로 Baker Bros. 포트폴리오 50%+ 잠시 압축.", "lesson": "Concentrated biotech faces dramatic cycle exposure.", "lessonKo": "집중 바이오텍은 극적인 사이클 노출 직면." },
+    { "year": 2016, "description": "Drug-pricing political pressure compressed biotech valuations broadly.", "descriptionKo": "약물 가격 정치 압박이 바이오텍 밸류에이션 광범위 압축.", "lesson": "Biotech faces political-headline risk.", "lessonKo": "바이오텍은 정치 헤드라인 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 3.2 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Biology is patient; biotech investors must be too.", "textKo": "생물학은 인내한다; 바이오텍 투자자도 그래야 한다.", "context": "On biotech investing", "contextKo": "바이오텍 투자에 대해", "source": "https://en.wikipedia.org/wiki/Baker_Bros._Advisors" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Myo day pillar in Myo month — 'pyeonjae-gyeok', large external capital, fitting biotech hedge-fund magnate.", "summaryKo": "계묘 일주 + 묘월 편재격(크고 유동적인 외부 자본)은 200억+ AUM 바이오텍 펀드라는 거대 외부 자본 유동 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 과학 분석과 통하고, 묘목 일지·묘목 월지의 극강 목 기운이 회사·과학 성장을 이중 강조합니다." }
+}

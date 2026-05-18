@@ -1,0 +1,39 @@
+{
+  "id": "1360", "name": "Edward Bass", "nameKo": "에드워드 배스",
+  "netWorth": 3.0, "nationality": "US", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "Fort Worth, Texas, USA", "birthPlaceKo": "미국 텍사스주 포트워스",
+    "familyBackground": "Born to Perry R. Bass — Texas oilman; great-grandson of Sid W. Richardson; brother of Sid R., Robert, Lee Bass.", "familyBackgroundKo": "텍사스 석유인 페리 R. 배스의 아들; 시드 W. 리처드슨의 증손자; 시드 R., 로버트, 리 배스의 형제.",
+    "education": "Yale University; Berkeley architecture.", "educationKo": "예일 대학교; 버클리 건축.",
+    "earlyLife": "Bass family heir; major financial backer of Biosphere 2 experiment 1991; environmental conservationist; family Bass Brothers Enterprises stake.",
+    "earlyLifeKo": "배스 가족 상속인; 1991 Biosphere 2 실험 주요 재정 후원자; 환경 보전가; 가족 Bass Brothers Enterprises 지분.",
+    "source": "https://en.wikipedia.org/wiki/Edward_Bass"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Bass 가족 + Sid Richardson 신탁." },
+  "careerTimeline": [
+    { "year": 1970, "age": 25, "event": "Joined family Bass Brothers Enterprises.", "eventKo": "가족 Bass Brothers Enterprises 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1985, "age": 40, "event": "Began funding Biosphere 2 in Arizona.", "eventKo": "애리조나 Biosphere 2 자금 지원 시작.", "whyItMatteredKo": "Biosphere 2 단계." },
+    { "year": 1991, "age": 46, "event": "Biosphere 2 first mission with 8 crew began.", "eventKo": "Biosphere 2 8명 승무원 첫 미션 시작.", "whyItMatteredKo": "Biosphere 미션." },
+    { "year": 2007, "age": 62, "event": "Donated Biosphere 2 to University of Arizona.", "eventKo": "Biosphere 2를 애리조나 대학교에 기증.", "whyItMatteredKo": "기증 단계." },
+    { "year": 2025, "age": 79, "event": "Personal net worth at $3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 30억 달러.", "whyItMatteredKo": "Bass 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 40, "decisionKo": "Biosphere 2 거대 환경 실험 자금 지원", "alternativeKo": "전통 가족 사업 잔류", "outcomeKo": "40년 후 30억 달러 + 환경 자선가 가족" }],
+  "moneyMechanics": { "primaryRevenueKo": "Bass 가족 신탁 + 다각화", "industryKo": "석유·가스·환경 자선", "businessModelKo": "Bass 가족 신탁 + 환경 자선 + 부동산", "moatKo": "Sid Richardson 가족 신탁 + 환경 자선 브랜드", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): 환경 자선 활동." },
+  "personalTraits": {
+    "knownFor": "Bass family member; major Biosphere 2 funder; environmental conservationist.",
+    "knownForKo": "배스 가족 멤버; 주요 Biosphere 2 후원자; 환경 보전가.",
+    "philanthropy": "Major environmental conservation including Biosphere 2 ($150M+); Fort Worth cultural giving.", "philanthropyKo": "Biosphere 2 등 주요 환경 보전(1억 5,000만+ 달러); 포트워스 문화 기부.",
+    "controversies": "1994 Biosphere 2 second mission management dispute and SWAT-team intervention.",
+    "controversiesKo": "1994 Biosphere 2 두 번째 미션 관리 분쟁과 SWAT 팀 개입."
+  },
+  "characterKo": { "summaryKo": "Bass 가족 + Biosphere 2 + 환경 자선가.", "tagsKo": ["Bass family", "Biosphere 2", "환경 자선"] },
+  "failures": [
+    { "year": 1994, "description": "Biosphere 2 second mission ended chaotically; SWAT team intervention; project later donated.", "descriptionKo": "Biosphere 2 두 번째 미션이 혼란스럽게 종료; SWAT 팀 개입; 프로젝트 이후 기증.", "lesson": "Mega-science philanthropy faces operational complexity.", "lessonKo": "거대 과학 자선은 운영 복잡성 직면." },
+    { "year": 2014, "description": "Oil-price crash compressed Bass family energy holdings.", "descriptionKo": "유가 폭락이 배스 가족 에너지 보유 압축.", "lesson": "Energy wealth faces commodity-cycle exposure.", "lessonKo": "에너지 부는 상품 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.7 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Earth is the only biosphere; we must learn it.", "textKo": "지구는 유일한 생물권이다; 우리는 배워야 한다.", "context": "On Biosphere 2", "contextKo": "Biosphere 2에 대해", "source": "https://en.wikipedia.org/wiki/Edward_Bass" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-O day pillar in Yu month — 'sanggwan-gyeok', unconventional output, fitting Biosphere-2-funder environmental philanthropist.", "summaryKo": "임오 일주 + 유월 상관격(파격적 표현·기존 권위 도전)은 Biosphere 2라는 파격 환경 실험 자금 지원이라는 비전형 자본 표현 경로와 호응합니다. 임수 일간의 큰 바다 기질이 환경·생태계 자본과 통하고, 오화 일지의 강한 화 기운이 결단을, 유금 월지의 금 기운이 정밀 자본 도구를 가리킵니다." }
+}

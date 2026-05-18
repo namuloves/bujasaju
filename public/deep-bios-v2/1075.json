@@ -1,0 +1,39 @@
+{
+  "id": "1075", "name": "Ben Lamm", "nameKo": "벤 람",
+  "netWorth": 3.9, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Texas State University.", "educationKo": "텍사스 주립 대학교.",
+    "earlyLife": "Serial entrepreneur — Conversable, Hypergiant, Chaotic Moon (sold to Accenture); co-founded Colossal Biosciences in 2021 with George Church for de-extinction of mammoth, dodo, thylacine.",
+    "earlyLifeKo": "연쇄 기업가 — Conversable·Hypergiant·Chaotic Moon(Accenture 매각); 2021 조지 처치와 매머드·도도새·태즈메이니아 호랑이 부활을 위한 Colossal Biosciences 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Ben_Lamm"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "다중 창업 매각 + Colossal Biosciences." },
+  "careerTimeline": [
+    { "year": 2003, "age": 22, "event": "Began as software engineer in Austin.", "eventKo": "오스틴 소프트웨어 엔지니어로 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2011, "age": 30, "event": "Co-founded Chaotic Moon (sold to Accenture 2015).", "eventKo": "Chaotic Moon 공동 창립(2015 Accenture 매각).", "whyItMatteredKo": "엑시트 1." },
+    { "year": 2018, "age": 37, "event": "Founded Hypergiant (AI for industrials).", "eventKo": "Hypergiant(산업 AI) 창립.", "whyItMatteredKo": "Hypergiant 단계." },
+    { "year": 2021, "age": 40, "event": "Co-founded Colossal Biosciences with George Church.", "eventKo": "조지 처치와 Colossal Biosciences 공동 창립.", "whyItMatteredKo": "Colossal 출발선." },
+    { "year": 2025, "age": 44, "event": "Colossal valued $10B+; personal net worth at $3.9B per Forbes Real-Time.", "eventKo": "Colossal 100억+ 달러 밸류에이션; 포브스 실시간 기준 개인 순자산 39억 달러.", "whyItMatteredKo": "Colossal 정점." }
+  ],
+  "turningPoints": [{ "year": 2021, "age": 40, "decisionKo": "Colossal 매머드 부활 생명공학 창립", "alternativeKo": "AI·SaaS 잔류", "outcomeKo": "4년 후 39억 달러 + 100억 달러 밸류에이션" }],
+  "moneyMechanics": { "primaryRevenueKo": "Colossal Biosciences 공동 창립자 지분 + 다중 매각 자본", "industryKo": "합성 생명공학·AI", "businessModelKo": "유전공학·CRISPR + 매머드·도도·태즈메이니아 호랑이 부활 + 보전 기술 라이선스", "moatKo": "조지 처치 + 다중 창업 트랙 + 100억 밸류에이션", "luckVsSkillKo": "운(45%): 합성 생물학 부상. 실력(55%): 다중 창업 + George Church 파트너십." },
+  "personalTraits": {
+    "knownFor": "CEO of Colossal Biosciences; de-extinction pioneer; serial entrepreneur.",
+    "knownForKo": "Colossal Biosciences CEO; 부활 생명공학 선구자; 연쇄 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "De-extinction ethics debate; questioning conservation-priority of mammoth project.",
+    "controversiesKo": "부활 윤리 논쟁; 매머드 프로젝트의 보전 우선순위 의문."
+  },
+  "characterKo": { "summaryKo": "다중 창업 + Colossal Biosciences 매머드 부활.", "tagsKo": ["Colossal Biosciences", "de-extinction", "synthetic biology"] },
+  "failures": [
+    { "year": 2024, "description": "Colossal mammoth and dodo de-extinction face long-tail technical challenges.", "descriptionKo": "Colossal 매머드·도도 부활이 장기 기술 도전 직면.", "lesson": "Biotech moonshots face execution timelines.", "lessonKo": "바이오텍 문샷은 실행 일정 직면." },
+    { "year": 2023, "description": "Hypergiant Industries faced re-organization amid AI funding tightening.", "descriptionKo": "AI 자금 긴축 가운데 Hypergiant Industries 재편 직면.", "lesson": "Tech startup cycles compress capital.", "lessonKo": "기술 스타트업 사이클은 자본 압축." }
+  ],
+  "wealthHistory": [{ "year": 2021, "netWorth": 1.0 }, { "year": 2023, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Extinction is a problem we can engineer out of.", "textKo": "멸종은 우리가 공학으로 해결할 수 있는 문제다.", "context": "On Colossal mission", "contextKo": "Colossal 미션에 대해", "source": "https://www.colossal.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Jin day pillar in Hae month — 'sanggwan-gyeok', unconventional output, fitting de-extinction-biotech serial founder.", "summaryKo": "병진 일주 + 해월 상관격(파격적 표현·기존 권위 도전)은 매머드 부활이라는 가장 파격적인 생명공학 분야를 만든 그의 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 해수 월지의 수 기운이 자본·생명 유동성을 가리킵니다." }
+}

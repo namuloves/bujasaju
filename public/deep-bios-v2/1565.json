@@ -1,0 +1,39 @@
+{
+  "id": "1565", "name": "Stephan Schmidheiny", "nameKo": "슈테판 에른스트 슈미트하이니",
+  "netWorth": 2.6, "nationality": "CH", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Switzerland", "birthPlaceKo": "스위스",
+    "familyBackground": "Born to Swiss industrial family; Schmidheiny family of Eternit asbestos cement business.", "familyBackgroundKo": "스위스 산업 가족 출신; Eternit 석면 시멘트 사업 슈미트하이니 가족.",
+    "education": "Swiss higher education.", "educationKo": "스위스 고등교육.",
+    "earlyLife": "Inherited Eternit; pivoted family from asbestos to sustainable building; founded GrupoNueva Latin America investments; founded Avina Foundation for sustainability.",
+    "earlyLifeKo": "Eternit 상속; 가족을 석면에서 지속 가능 건축으로 전환; GrupoNueva 라틴 아메리카 투자 창립; 지속 가능성 Avina 재단 창립.",
+    "source": "https://en.wikipedia.org/wiki/Stephan_Schmidheiny"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Eternit 가족 자본." },
+  "careerTimeline": [
+    { "year": 1976, "age": 29, "event": "Inherited family Eternit asbestos cement business.", "eventKo": "가족 Eternit 석면 시멘트 사업 상속.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1985, "age": 38, "event": "Began phasing out asbestos in Eternit operations.", "eventKo": "Eternit 운영에서 석면 단계적 폐지 시작.", "whyItMatteredKo": "석면 폐지." },
+    { "year": 1994, "age": 47, "event": "Founded Avina Foundation for sustainability in Latin America.", "eventKo": "라틴 아메리카 지속 가능성 Avina 재단 창립.", "whyItMatteredKo": "Avina 단계." },
+    { "year": 2012, "age": 65, "event": "Italian court convicted him for asbestos deaths in absentia (later overturned).", "eventKo": "이탈리아 법원이 석면 사망으로 결석 유죄 판결(이후 번복).", "whyItMatteredKo": "법적 단계." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "Schmidheiny 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 38, "decisionKo": "Eternit에서 석면 단계적 폐지 결정", "alternativeKo": "석면 계속 사용", "outcomeKo": "40년 후 26억 달러 + 지속 가능성 자선가" }],
+  "moneyMechanics": { "primaryRevenueKo": "GrupoNueva + Avina Foundation + 가족 사적 자본", "industryKo": "지속 가능 투자·자선·다각화", "businessModelKo": "라틴 아메리카 지속 가능 투자 + Avina 재단 + 다각화", "moatKo": "Eternit 매각 자본 + 지속 가능 브랜드", "luckVsSkillKo": "운(60%): 가족 자본. 실력(40%): 석면 전환 결단." },
+  "personalTraits": {
+    "knownFor": "Former Eternit owner; Avina Foundation founder; sustainability pioneer.",
+    "knownForKo": "전 Eternit 소유주; Avina 재단 창립자; 지속 가능성 선구자.",
+    "philanthropy": "Avina Foundation supports Latin American sustainability and civil society.", "philanthropyKo": "Avina 재단이 라틴 아메리카 지속 가능성·시민 사회 자선 지원.",
+    "controversies": "Italian asbestos-deaths conviction 2012 (overturned 2014); long-running asbestos victim litigation.",
+    "controversiesKo": "2012 이탈리아 석면 사망 유죄 판결(2014 번복); 장기 석면 피해자 소송."
+  },
+  "characterKo": { "summaryKo": "Eternit 상속 + 석면 폐지 + Avina 재단.", "tagsKo": ["Eternit", "Avina Foundation", "지속 가능성"] },
+  "failures": [
+    { "year": 2012, "description": "Italian court convicted Schmidheiny in absentia for asbestos-related deaths.", "descriptionKo": "이탈리아 법원이 석면 관련 사망으로 슈미트하이니에 결석 유죄 판결.", "lesson": "Industrial-legacy faces decades-long liability tail.", "lessonKo": "산업 유산은 수십 년 책임 꼬리 직면." },
+    { "year": 2008, "description": "Global financial crisis compressed Latin America investment portfolio.", "descriptionKo": "글로벌 금융위기로 라틴 아메리카 투자 포트폴리오 압축.", "lesson": "Emerging-market investments face cycle exposure.", "lessonKo": "신흥 시장 투자는 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.2 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Sustainable wealth is wealth that survives its legacy.", "textKo": "지속 가능한 부는 그 유산을 살아남는 부다.", "context": "On Avina mission", "contextKo": "Avina 미션에 대해", "source": "https://www.avina.net" }],
+  "books": { "authored": [{ "title": "Changing Course (1992)", "year": 1992 }], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Sa day pillar in Sul month — 'jeongin-gyeok', formal credential authority, fitting industrial-heir-turned-sustainability-philanthropist.", "summaryKo": "신사 일주 + 술월 정인격(공식 자격·학문·문서 권위)은 가족 산업 유산을 지속 가능성 정통 자격으로 변환한 그의 경로와 호응합니다. 신금 일간의 정밀한 보석 기질이 정밀 자본 관리와 통하고, 사화 일지의 강한 화 기운이 결단을, 술토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

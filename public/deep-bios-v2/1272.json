@@ -1,0 +1,38 @@
+{
+  "id": "1272", "name": "Michiel Le Roux", "nameKo": "미히엘 숄츠 뒤 프레 르 루",
+  "netWorth": 3.2, "nationality": "ZA", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "South Africa", "birthPlaceKo": "남아프리카",
+    "familyBackground": "Born to South African Afrikaner family.", "familyBackgroundKo": "남아프리카 아프리카너 가정에서 출생.",
+    "education": "Stellenbosch University.", "educationKo": "스텔렌보스 대학교.",
+    "earlyLife": "Worked at Boland Bank; founded Capitec Bank in 2001 — South African low-cost retail bank; built into South Africa's largest bank by clients.",
+    "earlyLifeKo": "Boland Bank 근무; 2001 Capitec Bank 창립 — 남아프리카 저비용 소매 은행; 고객 기준 남아프리카 최대 은행으로 구축.",
+    "source": "https://en.wikipedia.org/wiki/Michiel_le_Roux"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Capitec Bank 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1973, "age": 24, "event": "Began South African banking career.", "eventKo": "남아프리카 은행 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1995, "age": 46, "event": "CEO of Boland Bank.", "eventKo": "Boland Bank CEO.", "whyItMatteredKo": "Boland 단계." },
+    { "year": 2001, "age": 52, "event": "Founded Capitec Bank.", "eventKo": "Capitec Bank 창립.", "whyItMatteredKo": "Capitec 출발선." },
+    { "year": 2002, "age": 53, "event": "Capitec IPO on JSE.", "eventKo": "Capitec JSE 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2025, "age": 75, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "Capitec 정점." }
+  ],
+  "turningPoints": [{ "year": 2001, "age": 52, "decisionKo": "Capitec 저비용 디지털 은행 창립", "alternativeKo": "전통 은행 잔류", "outcomeKo": "24년 후 32억 달러 + 남아프리카 최대 은행" }],
+  "moneyMechanics": { "primaryRevenueKo": "Capitec Bank(CPI.JO) 가족 지분 + 다각화", "industryKo": "디지털 은행·소매 금융", "businessModelKo": "저비용 디지털 소매 은행 + 단순한 단일 계좌 + 1,800만+ 고객", "moatKo": "남아프리카 1위 디지털 은행 + 24년 트랙", "luckVsSkillKo": "운(35%): 남아프리카 디지털 금융 부상. 실력(65%): 24년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Capitec Bank; South Africa's largest retail bank by clients.",
+    "knownForKo": "Capitec Bank 창립자; 고객 기준 남아프리카 최대 소매 은행.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2018 Viceroy Research short attack on Capitec; survived and bank prevailed.", "controversiesKo": "2018 Viceroy Research가 Capitec 공매도 공격; 생존하고 은행 우세."
+  },
+  "characterKo": { "summaryKo": "Capitec Bank 24년 + 남아프리카 디지털 은행 1위.", "tagsKo": ["Capitec Bank", "디지털 은행", "남아프리카"] },
+  "failures": [
+    { "year": 2018, "description": "Viceroy Research short attack on Capitec; stock fell 25% but recovered.", "descriptionKo": "Viceroy Research Capitec 공매도 공격; 주식 25% 하락 후 회복.", "lesson": "Banks face short-attack reputational stress.", "lessonKo": "은행은 공매도 공격 평판 스트레스 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted SA consumer finance briefly.", "descriptionKo": "COVID-19이 남아프리카 소비자 금융 잠시 혼란.", "lesson": "Consumer banks face pandemic exposure.", "lessonKo": "소비자 은행은 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Banking should be simple; we made it simpler.", "textKo": "은행 업무는 단순해야 한다; 우리는 더 단순하게 만들었다.", "context": "On Capitec mission", "contextKo": "Capitec 미션에 대해", "source": "https://www.capitecbank.co.za" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sul day pillar in Sa month — 'jeongin-gyeok', formal credential authority, fitting banker-founder.", "summaryKo": "경술 일주 + 사월 정인격(공식 자격·학문·문서 권위)은 정통 은행 자격을 기반으로 한 디지털 은행 창립 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 금융 도구와 통하고, 술토 일지의 토 기운이 자본 안정 기반을, 사화 월지의 강한 화 기운이 결단을 가리킵니다." }
+}

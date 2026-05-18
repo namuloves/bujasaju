@@ -1,0 +1,38 @@
+{
+  "id": "1338", "name": "Stefan Wirtgen", "nameKo": "슈테판 비르트겐",
+  "netWorth": 3.1, "nationality": "DE", "industry": "Construction & Engineering",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Reinhard Wirtgen — founder of Wirtgen Group road-construction machinery.", "familyBackgroundKo": "Wirtgen Group 도로 건설 기계 창립자 라인하르트 비르트겐의 아들.",
+    "education": "German engineering education.", "educationKo": "독일 공학 교육.",
+    "earlyLife": "Joined family Wirtgen Group; led road-construction machinery manufacturer; sold Wirtgen Group to Deere & Company for €4.6B in 2017.",
+    "earlyLifeKo": "가족 Wirtgen Group 합류; 도로 건설 기계 제조사 주도; 2017 Wirtgen Group을 Deere & Company에 46억 유로 매각.",
+    "source": "https://en.wikipedia.org/wiki/Wirtgen_Group"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Wirtgen Group 가족 자본 + Deere 매각." },
+  "careerTimeline": [
+    { "year": 1995, "age": 25, "event": "Joined family Wirtgen Group.", "eventKo": "가족 Wirtgen Group 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2010, "age": 40, "event": "Took executive role at Wirtgen.", "eventKo": "Wirtgen 임원 역할.", "whyItMatteredKo": "임원 단계." },
+    { "year": 2015, "age": 45, "event": "Wirtgen became one of world's largest road-construction machinery producers.", "eventKo": "Wirtgen이 세계 최대 도로 건설 기계 생산사 중 하나가 됨.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2017, "age": 47, "event": "Sold Wirtgen Group to Deere & Company for €4.6B.", "eventKo": "Wirtgen Group을 Deere & Company에 46억 유로 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2025, "age": 55, "event": "Personal net worth at $3.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 31억 달러.", "whyItMatteredKo": "Wirtgen 매각 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 47, "decisionKo": "Wirtgen Group Deere에 46억 유로 매각", "alternativeKo": "가족 회사 유지", "outcomeKo": "8년 후 31억 달러 + 다각화 자산" }],
+  "moneyMechanics": { "primaryRevenueKo": "Wirtgen 매각 대금 + 다각화 가족 사무소", "industryKo": "건설 기계 매각 + 다각화", "businessModelKo": "Deere 매각 자본 + 가족 사무소 + 부동산", "moatKo": "Deere 매각 자본 + 가족 사적 자본 관리", "luckVsSkillKo": "운(60%): 가족 자본 + Deere 매각 정점. 실력(40%): 22년 가족 운영." },
+  "personalTraits": {
+    "knownFor": "Former Wirtgen Group family CEO; sold to Deere & Company; road-machinery family heir.",
+    "knownForKo": "전 Wirtgen Group 가족 CEO; Deere & Company에 매각; 도로 기계 가족 상속인.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; private family-business low scrutiny.", "controversiesKo": "제한적; 사적 가족 사업 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Wirtgen Group 가족 + Deere 46억 유로 매각.", "tagsKo": ["Wirtgen Group", "Deere", "독일 가족"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed construction-machinery demand briefly.", "descriptionKo": "글로벌 금융위기로 건설 기계 수요 잠시 압축.", "lesson": "Capital goods face cycle exposure.", "lessonKo": "자본재는 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted infrastructure projects briefly.", "descriptionKo": "COVID-19이 인프라 프로젝트 잠시 혼란.", "lesson": "Infrastructure machinery faces pandemic-cycle exposure.", "lessonKo": "인프라 기계는 팬데믹 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2017, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.3 }, { "year": 2024, "netWorth": 2.9 }, { "year": 2025, "netWorth": 3.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "German engineering rebuilds the world's roads.", "textKo": "독일 공학이 세계의 도로를 재건한다.", "context": "On Wirtgen mission", "contextKo": "Wirtgen 미션에 대해", "source": "https://en.wikipedia.org/wiki/Wirtgen_Group" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-O day pillar in O month — 'jeongjae-gyeok', stable wealth accumulation, fitting family-engineering magnate.", "summaryKo": "임오 일주 + 오월 정재격(안정적·정직한 부 축적)은 가족 도로 건설 기계 안정 축적 + 정확한 Deere 매각 경로와 호응합니다. 임수 일간의 큰 바다 기질이 거대 자본 유동과 통하고, 오화 일지·오월 월지의 극강 화 기운이 결단·기세를 이중 강조합니다." }
+}

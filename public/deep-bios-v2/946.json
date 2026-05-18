@@ -1,0 +1,38 @@
+{
+  "id": "946", "name": "John Middleton", "nameKo": "존 스토버스 미들턴",
+  "netWorth": 4.3, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Pennsylvania, USA", "birthPlaceKo": "미국 펜실베이니아",
+    "familyBackground": "Born to Herbert Middleton — owner of John Middleton Inc. cigars.", "familyBackgroundKo": "John Middleton Inc. 시가 소유주 허버트 미들턴의 아들.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Joined family John Middleton Inc.; built Black & Mild cigars into iconic brand; sold John Middleton to Altria for $2.9B in 2007; co-owner of Philadelphia Phillies MLB.",
+    "earlyLifeKo": "가족 John Middleton Inc. 합류; Black & Mild 시가를 상징 브랜드로 구축; 2007 John Middleton을 Altria에 29억 달러 매각; 필라델피아 필리스 MLB 공동 소유주.",
+    "source": "https://en.wikipedia.org/wiki/John_S._Middleton"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "John Middleton Altria 매각." },
+  "careerTimeline": [
+    { "year": 1980, "age": 25, "event": "Joined family John Middleton Inc.", "eventKo": "가족 John Middleton Inc. 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1995, "age": 40, "event": "Black & Mild cigars became iconic US brand.", "eventKo": "Black & Mild 시가가 미국 상징 브랜드가 됨.", "whyItMatteredKo": "Black & Mild 단계." },
+    { "year": 2007, "age": 52, "event": "Sold John Middleton to Altria for $2.9B.", "eventKo": "John Middleton을 Altria에 29억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2016, "age": 61, "event": "Became co-owner of Philadelphia Phillies; expanded role.", "eventKo": "필라델피아 필리스 공동 소유주가 됨; 역할 확대.", "whyItMatteredKo": "Phillies 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $4.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러.", "whyItMatteredKo": "Middleton 정점." }
+  ],
+  "turningPoints": [{ "year": 2007, "age": 52, "decisionKo": "John Middleton Altria에 29억 달러 매각", "alternativeKo": "가족 회사 유지", "outcomeKo": "18년 후 43억 달러 + 필리스 소유주" }],
+  "moneyMechanics": { "primaryRevenueKo": "Altria 매각 대금 + Philadelphia Phillies + 다각화", "industryKo": "시가 매각 + MLB", "businessModelKo": "Altria 매각 자본 + 필리스 프랜차이즈 + 다각화", "moatKo": "Altria 매각 자본 + MLB 프랜차이즈", "luckVsSkillKo": "운(50%): 가족 자본. 실력(50%): Black & Mild 브랜드 구축 + 매각 타이밍." },
+  "personalTraits": {
+    "knownFor": "Former owner of John Middleton Inc.; co-owner of Philadelphia Phillies MLB.",
+    "knownForKo": "전 John Middleton Inc. 소유주; 필라델피아 필리스 MLB 공동 소유주.",
+    "philanthropy": "Middleton Family Foundation supports Philadelphia community.", "philanthropyKo": "미들턴 가족 재단이 필라델피아 지역 사회 자선 지원.",
+    "controversies": "Tobacco industry general scrutiny.", "controversiesKo": "담배 산업 일반 감시."
+  },
+  "characterKo": { "summaryKo": "John Middleton Altria 매각 + 필리스 공동 소유.", "tagsKo": ["John Middleton", "Black & Mild", "Philadelphia Phillies"] },
+  "failures": [
+    { "year": 2015, "description": "Tobacco-tax increases pressured Black & Mild margins after sale.", "descriptionKo": "담배세 인상이 매각 후 Black & Mild 마진 압박.", "lesson": "Tobacco faces tax-policy exposure.", "lessonKo": "담배는 세금 정책 노출 직면." },
+    { "year": 2020, "description": "COVID-19 reduced MLB stadium attendance briefly.", "descriptionKo": "COVID-19이 MLB 경기장 관중 잠시 감소.", "lesson": "Sports franchises face pandemic-attendance exposure.", "lessonKo": "스포츠 프랜차이즈는 팬데믹 관중 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 4.1 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "A great cigar is patience compressed into leaf.", "textKo": "위대한 시가는 잎으로 압축된 인내다.", "context": "On cigar business", "contextKo": "시가 사업에 대해", "source": "https://en.wikipedia.org/wiki/John_S._Middleton" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Sul day pillar in In month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting tobacco-magnate-and-MLB-owner.", "summaryKo": "임술 일주 + 인월 편관격(강한 외부 압박·권력 충돌)은 강한 담배·MLB 규제 권위 환경의 가족 자본 운영 경로와 호응합니다. 임수 일간의 큰 바다 기질이 거대 자본 유동과 통하고, 술토 일지의 토 기운이 자본 안정 기반을, 인목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

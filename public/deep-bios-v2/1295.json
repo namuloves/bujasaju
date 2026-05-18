@@ -1,0 +1,39 @@
+{
+  "id": "1295", "name": "Tung Chee Hwa", "nameKo": "둥젠화",
+  "netWorth": 3.2, "nationality": "HK", "industry": "Logistics",
+  "childhood": {
+    "birthPlace": "Shanghai, China", "birthPlaceKo": "중국 상하이",
+    "familyBackground": "Born to C.Y. Tung — founder of Orient Overseas Container Line (OOCL) shipping giant.", "familyBackgroundKo": "Orient Overseas Container Line(OOCL) 해운 거인 창립자 C.Y. 둥의 아들.",
+    "education": "University of Liverpool.", "educationKo": "리버풀 대학교.",
+    "earlyLife": "Joined family OOCL shipping; took over after father's death 1981; nearly went bankrupt 1985-86; rescued via Henry Fok and PRC government; became first Chief Executive of Hong Kong 1997-2005.",
+    "earlyLifeKo": "가족 OOCL 해운 합류; 1981 아버지 사망 후 인수; 1985-86 거의 파산; 헨리 폭과 중국 정부 구제; 1997-2005 홍콩 첫 행정장관.",
+    "source": "https://en.wikipedia.org/wiki/Tung_Chee-hwa"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "OOCL 가족 자본." },
+  "careerTimeline": [
+    { "year": 1969, "age": 32, "event": "Joined family OOCL shipping.", "eventKo": "가족 OOCL 해운 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1985, "age": 48, "event": "OOCL nearly bankrupt amid shipping crisis; rescued by Henry Fok and PRC government.", "eventKo": "해운 위기 가운데 OOCL 거의 파산; 헨리 폭과 중국 정부 구제.", "whyItMatteredKo": "위기 단계." },
+    { "year": 1997, "age": 60, "event": "Became first Chief Executive of Hong Kong post-British handover.", "eventKo": "영국 이양 후 홍콩 첫 행정장관 취임.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2017, "age": 80, "event": "Family sold OOCL to COSCO Shipping for $6.3B.", "eventKo": "가족이 OOCL을 COSCO Shipping에 63억 달러 매각.", "whyItMatteredKo": "매각 정점." },
+    { "year": 2025, "age": 88, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "Tung 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 48, "decisionKo": "헨리 폭·중국 정부 구제 수락", "alternativeKo": "파산", "outcomeKo": "40년 후 32억 달러 + 홍콩 첫 행정장관" }],
+  "moneyMechanics": { "primaryRevenueKo": "OOCL 매각 대금 + 다각화 가족 자산", "industryKo": "해운 매각 + 정치 후 다각화", "businessModelKo": "OOCL 가족 매각 + 부동산 + 자산 관리", "moatKo": "Tung 가족 + 중국 정부 인맥 + 1세기 해운 트랙", "luckVsSkillKo": "운(70%): 가족 자본 + 1985 정치 구제. 실력(30%): 행정 경험." },
+  "personalTraits": {
+    "knownFor": "First Chief Executive of Hong Kong; former OOCL owner; Tung family patriarch.",
+    "knownForKo": "홍콩 첫 행정장관; 전 OOCL 소유주; 둥 가족 가부장.",
+    "philanthropy": "Tung Foundation supports Hong Kong-China relations and education.", "philanthropyKo": "둥 재단이 홍콩-중국 관계·교육 자선 지원.",
+    "controversies": "2003 Article 23 anti-subversion law protests forced him to back down; 2005 health-related resignation.",
+    "controversiesKo": "2003 23조 반전복법 시위로 후퇴; 2005 건강 사유 사임."
+  },
+  "characterKo": { "summaryKo": "OOCL 구제 + 홍콩 첫 행정장관 + 가족 가부장.", "tagsKo": ["OOCL", "Hong Kong CE", "Tung family"] },
+  "failures": [
+    { "year": 1985, "description": "OOCL nearly bankrupt amid shipping-glut crisis; required external rescue.", "descriptionKo": "해운 과잉 위기 가운데 OOCL 거의 파산; 외부 구제 필요.", "lesson": "Shipping faces dramatic capacity-cycle exposure.", "lessonKo": "해운은 극적인 용량 사이클 노출 직면." },
+    { "year": 2003, "description": "Article 23 protests halted anti-subversion law; political setback.", "descriptionKo": "23조 시위로 반전복법 중단; 정치 좌절.", "lesson": "Hong Kong politics faces strong public-protest constraint.", "lessonKo": "홍콩 정치는 강한 공공 시위 제약 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2018, "netWorth": 2.8 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Hong Kong belongs to China and to the world.", "textKo": "홍콩은 중국에 속하고 세계에 속한다.", "context": "On Hong Kong handover", "contextKo": "홍콩 이양에 대해", "source": "https://en.wikipedia.org/wiki/Tung_Chee-hwa" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Mi day pillar in O month — 'sanggwan-gyeok', unconventional path, fitting shipping-magnate-turned-political-executive.", "summaryKo": "을미 일주 + 오월 상관격(파격적 표현·기존 권위 도전)은 해운 거물에서 홍콩 첫 행정장관이라는 파격 정치 권력 전환 경로와 호응합니다. 을목 일간의 작은 풀·유연한 적응 기질이 위기 적응과 통하고, 미토 일지의 토 기운이 자본 안정 기반을, 오화 월지의 강한 화 기운이 결단·정치 기세를 가리킵니다." }
+}

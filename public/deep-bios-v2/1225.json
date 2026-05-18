@@ -1,0 +1,39 @@
+{
+  "id": "1225", "name": "Susan Ocampo", "nameKo": "수전 오캄포",
+  "netWorth": 3.4, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Philippines", "birthPlaceKo": "필리핀",
+    "familyBackground": "Born to Filipino family; married Vahid Manian and later Pete Ocampo; mother of MaxLinear and Skyworks executives.", "familyBackgroundKo": "필리핀 가정에서 출생; 바히드 마니안과 결혼 후 피트 오캄포와 결혼; MaxLinear·스카이웍스 임원의 어머니.",
+    "education": "Limited public disclosure on early education.", "educationKo": "초기 교육 공개 공시 제한적.",
+    "earlyLife": "Co-founded MaxLinear with husband Kishore Seendripu — semiconductor company; major MaxLinear shareholder.",
+    "earlyLifeKo": "남편 키쇼레 신드리푸와 MaxLinear 공동 창립 — 반도체 회사; 주요 MaxLinear 주주.",
+    "source": "https://www.maxlinear.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "MaxLinear 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 27, "event": "Began US tech career.", "eventKo": "미국 기술 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2003, "age": 45, "event": "Co-founded MaxLinear in California.", "eventKo": "캘리포니아에서 MaxLinear 공동 창립.", "whyItMatteredKo": "MaxLinear 출발선." },
+    { "year": 2010, "age": 52, "event": "MaxLinear IPO on NYSE.", "eventKo": "MaxLinear NYSE 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2020, "age": 62, "event": "MaxLinear acquired Intel home-connectivity business for $150M.", "eventKo": "MaxLinear가 Intel 홈 연결 사업을 1억 5,000만 달러 인수.", "whyItMatteredKo": "Intel 인수." },
+    { "year": 2025, "age": 67, "event": "Personal net worth at $3.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러.", "whyItMatteredKo": "MaxLinear 정점." }
+  ],
+  "turningPoints": [{ "year": 2003, "age": 45, "decisionKo": "MaxLinear 반도체 회사 공동 창립", "alternativeKo": "기존 기술 회사 잔류", "outcomeKo": "22년 후 34억 달러 + 반도체 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "MaxLinear(MXL) 공동 창립자 지분 + 다각화", "industryKo": "반도체·홈 연결", "businessModelKo": "통신·홈 연결 반도체 + Intel 인수 통합 + 글로벌 OEM 공급", "moatKo": "통신 반도체 + 22년 트랙", "luckVsSkillKo": "운(40%): 통신 반도체 부상. 실력(60%): 22년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of MaxLinear; Filipino-American semiconductor entrepreneur.",
+    "knownForKo": "MaxLinear 공동 창립자; 필리핀·미국 반도체 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2023 MaxLinear-Silicon Motion deal collapse drew arbitration; semiconductor cycle scrutiny.",
+    "controversiesKo": "2023 MaxLinear-Silicon Motion 거래 붕괴가 중재 야기; 반도체 사이클 감시."
+  },
+  "characterKo": { "summaryKo": "MaxLinear 22년 + 반도체 거인.", "tagsKo": ["MaxLinear", "반도체", "Filipino-American"] },
+  "failures": [
+    { "year": 2023, "description": "MaxLinear-Silicon Motion $3.8B acquisition collapsed; antitrust delays and Silicon Motion termination dispute.", "descriptionKo": "MaxLinear-Silicon Motion 38억 달러 인수 붕괴; 반독점 지연과 Silicon Motion 해지 분쟁.", "lesson": "Semiconductor M&A faces antitrust-and-merger-arbitration risk.", "lessonKo": "반도체 M&A는 반독점·합병 중재 리스크 직면." },
+    { "year": 2022, "description": "Semiconductor downturn compressed MaxLinear stock sharply.", "descriptionKo": "반도체 침체로 MaxLinear 주식 급격 압축.", "lesson": "Semis face cycle exposure.", "lessonKo": "반도체는 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 3.2 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Semiconductors connect everything quietly.", "textKo": "반도체는 모든 것을 조용히 연결한다.", "context": "On MaxLinear products", "contextKo": "MaxLinear 제품에 대해", "source": "https://www.maxlinear.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Yu day pillar in Chuk month — 'pyeonjae-gyeok', large external capital, fitting semiconductor founder.", "summaryKo": "기유 일주 + 축월 편재격(크고 유동적인 외부 자본)은 반도체 글로벌 OEM이라는 거대 외부 자본 유동 환경의 22년 운영 경로와 호응합니다. 기토 일간의 평야·수용 기질이 다양한 기술 흡수와 통하고, 유금 일지의 금 기운이 정밀 반도체 도구를, 축토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

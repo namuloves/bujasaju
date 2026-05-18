@@ -1,0 +1,38 @@
+{
+  "id": "1786", "name": "Hisao Nagata", "nameKo": "나가타 히사오",
+  "netWorth": 2.3, "nationality": "JP", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Japan", "birthPlaceKo": "일본",
+    "familyBackground": "Born to Japanese family.", "familyBackgroundKo": "일본 가정에서 출생.",
+    "education": "Japanese higher education.", "educationKo": "일본 고등교육.",
+    "earlyLife": "Founded Workman — Japanese workwear and outdoor-apparel chain; built into iconic Japanese retail brand serving construction workers and outdoor enthusiasts.",
+    "earlyLifeKo": "Workman 창립 — 일본 작업복·아웃도어 의류 체인; 건설 근로자·아웃도어 애호가에 봉사하는 상징 일본 소매 브랜드로 구축.",
+    "source": "https://www.workman.co.jp"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Workman 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1980, "age": 24, "event": "Began Japanese retail career.", "eventKo": "일본 소매 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1982, "age": 26, "event": "Founded Workman workwear chain.", "eventKo": "Workman 작업복 체인 창립.", "whyItMatteredKo": "Workman 출발선." },
+    { "year": 2000, "age": 44, "event": "Workman expanded to 700+ stores across Japan.", "eventKo": "Workman 일본 전역 700+ 매장 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2018, "age": 62, "event": "Workman launched 'Workman Plus' outdoor-fashion concept; major hit.", "eventKo": "Workman이 'Workman Plus' 아웃도어 패션 컨셉 출시; 주요 히트.", "whyItMatteredKo": "Plus 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Workman 정점." }
+  ],
+  "turningPoints": [{ "year": 2018, "age": 62, "decisionKo": "작업복에서 아웃도어 패션 'Workman Plus' 확장", "alternativeKo": "작업복만 유지", "outcomeKo": "7년 후 23억 달러 + 일본 아웃도어 패션 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Workman(7564) 창립자 지분 + 다각화", "industryKo": "작업복·아웃도어 소매", "businessModelKo": "작업복 + Workman Plus 아웃도어 패션 + 일본 1,000+ 매장", "moatKo": "일본 작업복 1위 + Workman Plus 브랜드 + 43년 트랙", "luckVsSkillKo": "운(30%): 일본 아웃도어 부상. 실력(70%): 43년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Workman; Japanese workwear-and-outdoor retail magnate.",
+    "knownForKo": "Workman 창립자; 일본 작업복·아웃도어 소매 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; standard Japanese-retail scrutiny.", "controversiesKo": "제한적; 일본 소매 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Workman 43년 + 일본 작업복·아웃도어 거인.", "tagsKo": ["Workman", "Workman Plus", "일본 작업복"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Japanese retail demand briefly.", "descriptionKo": "글로벌 금융위기로 일본 소매 수요 잠시 압축.", "lesson": "Retail faces cycle exposure.", "lessonKo": "소매는 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 closed Japanese stores briefly; later boosted via outdoor demand.", "descriptionKo": "COVID-19이 일본 매장 잠시 폐쇄; 이후 아웃도어 수요 부양.", "lesson": "Outdoor retail benefited from pandemic outdoor pivot.", "lessonKo": "아웃도어 소매가 팬데믹 아웃도어 전환으로 혜택." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Workwear became fashion when fashion needed function.", "textKo": "패션이 기능을 필요로 할 때 작업복이 패션이 되었다.", "context": "On Workman Plus", "contextKo": "Workman Plus에 대해", "source": "https://www.workman.co.jp" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Myo day pillar in Sa month — 'siksin-gyeok', creative output, fitting workwear-to-outdoor fashion innovator.", "summaryKo": "신묘 일주 + 사월 식신격(창의적 결과물·표현)은 작업복에서 아웃도어 패션이라는 창의적 변환을 만든 그의 경로와 호응합니다. 신금 일간의 정밀한 보석 기질이 정밀 작업복 도구와 통하고, 묘목 일지의 목 기운이 회사 성장을, 사화 월지의 강한 화 기운이 결단을 가리킵니다." }
+}

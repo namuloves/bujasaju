@@ -1,0 +1,38 @@
+{
+  "id": "1961", "name": "Shuo Wang", "nameKo": "수오 왕",
+  "netWorth": 2.0, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family; moved to US.", "familyBackgroundKo": "중국 가정에서 출생; 미국 이주.",
+    "education": "MIT.", "educationKo": "MIT.",
+    "earlyLife": "Co-founded Deel.com remote-employment platform with Alex Bouaziz and Philippe Bouaziz in 2019; built Deel into global HR-and-payroll unicorn.",
+    "earlyLifeKo": "2019 알렉스 부아지·필립 부아지와 Deel.com 원격 고용 플랫폼 공동 창립; Deel을 글로벌 HR·급여 유니콘으로 구축.",
+    "source": "https://www.deel.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Deel.com 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2011, "age": 22, "event": "Began career as software engineer after MIT.", "eventKo": "MIT 후 소프트웨어 엔지니어 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2017, "age": 28, "event": "Worked at fintech/SaaS startups.", "eventKo": "핀테크·SaaS 스타트업 근무.", "whyItMatteredKo": "스타트업 단계." },
+    { "year": 2019, "age": 30, "event": "Co-founded Deel.com remote-employment platform.", "eventKo": "Deel.com 원격 고용 플랫폼 공동 창립.", "whyItMatteredKo": "Deel 출발선." },
+    { "year": 2022, "age": 33, "event": "Deel valued $12B at peak; one of fastest-growing SaaS.", "eventKo": "Deel이 정점에서 120억 달러 밸류에이션; 가장 빠르게 성장하는 SaaS 중 하나.", "whyItMatteredKo": "유니콘 단계." },
+    { "year": 2025, "age": 36, "event": "Personal net worth at $2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 20억 달러.", "whyItMatteredKo": "Deel 정점." }
+  ],
+  "turningPoints": [{ "year": 2019, "age": 30, "decisionKo": "Deel.com 원격 고용 SaaS 공동 창립", "alternativeKo": "직원 잔류", "outcomeKo": "6년 후 20억 달러 + 120억 SaaS 유니콘" }],
+  "moneyMechanics": { "primaryRevenueKo": "Deel.com 공동 창립자 지분", "industryKo": "HR SaaS·원격 고용", "businessModelKo": "글로벌 EOR·계약자 결제 + 급여 + 컴플라이언스", "moatKo": "글로벌 컴플라이언스 인프라 + COVID 원격 근무 시기", "luckVsSkillKo": "운(50%): 2020 원격 근무 폭발. 실력(50%): MIT + 6년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Deel.com; remote-work SaaS pioneer.",
+    "knownForKo": "Deel.com 공동 창립자; 원격 근무 SaaS 선구자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2024 Deel vs Rippling corporate-spy lawsuit; Deel countersued.", "controversiesKo": "2024 Deel 대 Rippling 기업 스파이 소송; Deel 맞소송."
+  },
+  "characterKo": { "summaryKo": "Deel.com 6년 + 120억 달러 SaaS 유니콘.", "tagsKo": ["Deel.com", "원격 고용", "EOR"] },
+  "failures": [
+    { "year": 2024, "description": "Rippling sued Deel alleging corporate spying; protracted litigation.", "descriptionKo": "Rippling이 Deel을 기업 스파이 의혹 제소; 장기 소송.", "lesson": "Hypercompetitive SaaS faces espionage-litigation risk.", "lessonKo": "초경쟁 SaaS는 스파이 소송 리스크 직면." },
+    { "year": 2022, "description": "Tech-stock decline compressed SaaS valuations broadly; Deel halted some hiring.", "descriptionKo": "기술주 하락이 SaaS 밸류에이션 광범위 압축; Deel 일부 채용 중단.", "lesson": "Premium-SaaS faces rate-cycle revaluation.", "lessonKo": "프리미엄 SaaS는 금리 사이클 재평가 직면." }
+  ],
+  "wealthHistory": [{ "year": 2022, "netWorth": 0.5 }, { "year": 2023, "netWorth": 1.0 }, { "year": 2024, "netWorth": 1.8 }, { "year": 2025, "netWorth": 2.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Work is borderless; payroll should be too.", "textKo": "일에는 국경이 없다; 급여도 그래야 한다.", "context": "On Deel mission", "contextKo": "Deel 미션에 대해", "source": "https://www.deel.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sul day pillar in In month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting global-compliance SaaS founder.", "summaryKo": "경술 일주 + 인월 편관격(강한 외부 압박·권력 충돌)은 글로벌 노동법·세금 규제라는 강한 외부 압박 환경의 EOR SaaS 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 글로벌 규제와 통하고, 술토 일지의 토 기운이 자본 안정 기반을, 인목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

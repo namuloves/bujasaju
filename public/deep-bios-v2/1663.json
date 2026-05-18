@@ -1,0 +1,38 @@
+{
+  "id": "1663", "name": "Anthony Hall", "nameKo": "앤서니 홀",
+  "netWorth": 2.4, "nationality": "AU", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Australia", "birthPlaceKo": "호주",
+    "familyBackground": "Born to Australian family.", "familyBackgroundKo": "호주 가정에서 출생.",
+    "education": "Australian higher education.", "educationKo": "호주 고등교육.",
+    "earlyLife": "Co-founded WiseTech Global with Richard White in 1994; CFO and senior executive of global logistics software firm; built global CargoWise logistics SaaS.",
+    "earlyLifeKo": "1994 리처드 화이트와 WiseTech Global 공동 창립; 글로벌 물류 소프트웨어 회사 CFO·시니어 임원; 글로벌 CargoWise 물류 SaaS 구축.",
+    "source": "https://en.wikipedia.org/wiki/WiseTech_Global"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "WiseTech Global 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1980, "age": 25, "event": "Began Australian software career.", "eventKo": "호주 소프트웨어 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1994, "age": 39, "event": "Co-founded WiseTech Global with Richard White.", "eventKo": "리처드 화이트와 WiseTech Global 공동 창립.", "whyItMatteredKo": "WiseTech 출발선." },
+    { "year": 2016, "age": 61, "event": "WiseTech IPO on Australian Stock Exchange.", "eventKo": "WiseTech 호주 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2021, "age": 66, "event": "WiseTech stock surged as logistics SaaS gained global adoption.", "eventKo": "물류 SaaS 글로벌 도입으로 WiseTech 주식 급등.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $2.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 24억 달러.", "whyItMatteredKo": "WiseTech 정점." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 39, "decisionKo": "WiseTech 공동 창립", "alternativeKo": "직원 잔류", "outcomeKo": "31년 후 24억 달러 + 글로벌 물류 SaaS 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "WiseTech Global(WTC.AX) 공동 창립자 지분", "industryKo": "물류 SaaS", "businessModelKo": "글로벌 화물 운송업체 SaaS + CargoWise 플랫폼 + 인수 통합", "moatKo": "글로벌 화물 운송 SaaS 1위급 + 31년 트랙", "luckVsSkillKo": "운(35%): 글로벌 화물 디지털화. 실력(65%): 31년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of WiseTech Global; Australian logistics-SaaS pioneer.",
+    "knownForKo": "WiseTech Global 공동 창립자; 호주 물류 SaaS 선구자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; WiseTech short-seller attacks 2019 (rebutted).", "controversiesKo": "제한적; 2019 WiseTech 공매도 공격(반박)."
+  },
+  "characterKo": { "summaryKo": "WiseTech Global 31년 + 호주 물류 SaaS.", "tagsKo": ["WiseTech Global", "CargoWise", "호주 SaaS"] },
+  "failures": [
+    { "year": 2019, "description": "J Capital short-seller attack on WiseTech; rebutted but stock fell briefly.", "descriptionKo": "J Capital 공매도 공격이 WiseTech 대상; 반박했지만 주식 잠시 하락.", "lesson": "Public SaaS faces short-seller scrutiny.", "lessonKo": "공개 SaaS는 공매도 감시 직면." },
+    { "year": 2022, "description": "Tech selloff compressed WiseTech stock.", "descriptionKo": "기술 매도세로 WiseTech 주식 압축.", "lesson": "Premium SaaS faces rate-cycle revaluation.", "lessonKo": "프리미엄 SaaS는 금리 사이클 재평가 직면." }
+  ],
+  "wealthHistory": [{ "year": 2017, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.2 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Global freight is the world's most complex supply chain; we tame it with software.", "textKo": "글로벌 화물은 세계에서 가장 복잡한 공급망이다; 우리는 소프트웨어로 길들인다.", "context": "On WiseTech mission", "contextKo": "WiseTech 미션에 대해", "source": "https://www.wisetechglobal.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Mi day pillar in O month — 'jeongjae-gyeok', stable wealth accumulation, fitting patient SaaS-compounder.", "summaryKo": "기미 일주 + 오월 정재격(안정적·정직한 부 축적)은 31년 글로벌 물류 SaaS라는 안정 자본 축적 경로와 호응합니다. 기토 일간의 평야·수용 기질이 다양한 글로벌 화물 환경 흡수와 통하고, 미토 일지의 토 기운이 자본 안정 기반을, 오화 월지의 강한 화 기운이 결단을 가리킵니다." }
+}

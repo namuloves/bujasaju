@@ -1,0 +1,38 @@
+{
+  "id": "1738", "name": "Christine Knauf", "nameKo": "크리스티네 크나우프",
+  "netWorth": 2.3, "nationality": "DE", "industry": "Construction & Engineering",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Knauf family — owners of Knauf gypsum building materials.", "familyBackgroundKo": "Knauf 석고 건자재 소유주 크나우프 가족 출신.",
+    "education": "German higher education.", "educationKo": "독일 고등교육.",
+    "earlyLife": "Knauf family stockholder; 3rd-generation Knauf member; family-share co-holder of world's largest gypsum company.",
+    "earlyLifeKo": "크나우프 가족 주주; 크나우프 가족 3세대; 세계 최대 석고 회사 가족 지분 공동 보유자.",
+    "source": "https://www.knauf.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Knauf 가족 자본." },
+  "careerTimeline": [
+    { "year": 1980, "age": 25, "event": "Joined family Knauf as stockholder.", "eventKo": "주주로 가족 Knauf 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1995, "age": 40, "event": "Knauf expanded across Europe.", "eventKo": "Knauf 유럽 전역 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2010, "age": 55, "event": "Knauf made major emerging-markets investments.", "eventKo": "Knauf 주요 신흥 시장 투자.", "whyItMatteredKo": "신흥 시장." },
+    { "year": 2017, "age": 62, "event": "Knauf acquired USG Corp for $7B.", "eventKo": "Knauf가 USG Corp을 70억 달러 인수.", "whyItMatteredKo": "USG 인수." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Knauf 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 62, "decisionKo": "Knauf USG 인수 가족 의결권 지원", "alternativeKo": "유럽 집중", "outcomeKo": "8년 후 23억 달러 + 글로벌 석고 1위급 가족" }],
+  "moneyMechanics": { "primaryRevenueKo": "Knauf 사적 가족 지분", "industryKo": "건자재·석고", "businessModelKo": "Knauf Gips KG 가족 지분 + 글로벌 석고·단열재", "moatKo": "글로벌 석고 1위급 + 가족 사적 소유", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): 자본 유지." },
+  "personalTraits": {
+    "knownFor": "Knauf family stockholder; major Knauf Gips KG holder.",
+    "knownForKo": "크나우프 가족 주주; 주요 Knauf Gips KG 보유자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Knauf criticized for slow Russia exit post-2022.", "controversiesKo": "Knauf가 2022 후 느린 러시아 철수로 비판."
+  },
+  "characterKo": { "summaryKo": "Knauf 3세대 가족 + USG 인수 후 가부장.", "tagsKo": ["Knauf", "USG Corp", "독일 가족"] },
+  "failures": [
+    { "year": 2022, "description": "Knauf slow Russia exit drew reputational criticism.", "descriptionKo": "Knauf 느린 러시아 철수가 평판 비판 야기.", "lesson": "Russia operations face dramatic reputational risk post-2022.", "lessonKo": "러시아 운영은 2022 후 극적인 평판 리스크 직면." },
+    { "year": 2008, "description": "Global financial crisis compressed building-materials demand.", "descriptionKo": "글로벌 금융위기로 건자재 수요 압축.", "lesson": "Building products face cycle exposure.", "lessonKo": "건축 자재는 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.2 }, { "year": 2020, "netWorth": 1.7 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Gypsum keeps walls; family keeps gypsum.", "textKo": "석고가 벽을 유지하고, 가족이 석고를 유지한다.", "context": "On Knauf family", "contextKo": "크나우프 가족에 대해", "source": "https://www.knauf.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sul day pillar in O month — 'siksin-gyeok', creative output, fitting building-materials family heiress.", "summaryKo": "경술 일주 + 오월 식신격(창의적 결과물·표현)은 가족 건자재라는 창의적 자본 표현 승계 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 건자재 도구와 통하고, 술토 일지의 토 기운이 자본·건축 안정 기반을, 오화 월지의 강한 화 기운이 결단을 가리킵니다." }
+}

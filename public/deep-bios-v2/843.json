@@ -1,0 +1,39 @@
+{
+  "id": "843", "name": "Igor Kesaev", "nameKo": "이고리 알베르토비치 케사예프",
+  "netWorth": 4.9, "nationality": "RU", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "USSR", "birthPlaceKo": "소련",
+    "familyBackground": "Born to Soviet family.", "familyBackgroundKo": "소련 가정에서 출생.",
+    "education": "Russian higher education.", "educationKo": "러시아 고등교육.",
+    "earlyLife": "Built career in Russian post-Soviet trade; founded Mercury Group; major shareholder of Russian tobacco distributor Megapolis; diversified into defense and finance.",
+    "earlyLifeKo": "소련 후 러시아 무역 경력 구축; Mercury Group 창립; 러시아 담배 유통사 Megapolis 주요 주주; 국방·금융 다각화.",
+    "source": "https://en.wikipedia.org/wiki/Igor_Kesaev"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Mercury Group + Megapolis 자본." },
+  "careerTimeline": [
+    { "year": 1988, "age": 22, "event": "Began trading in late Soviet era.", "eventKo": "소련 시대 말 거래 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1995, "age": 29, "event": "Founded Mercury Group.", "eventKo": "Mercury Group 창립.", "whyItMatteredKo": "Mercury 출발선." },
+    { "year": 2005, "age": 39, "event": "Megapolis became Russia's largest tobacco distributor.", "eventKo": "Megapolis가 러시아 최대 담배 유통사가 됨.", "whyItMatteredKo": "Megapolis 단계." },
+    { "year": 2015, "age": 49, "event": "Diversified into defense (Degtyarev Plant); financial assets.", "eventKo": "국방(데그탸레프 공장)·금융 자산 다각화.", "whyItMatteredKo": "국방 단계." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $4.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 49억 달러.", "whyItMatteredKo": "Mercury 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 29, "decisionKo": "Mercury Group 창립 + Megapolis 담배 유통 구축", "alternativeKo": "단일 거래 잔류", "outcomeKo": "30년 후 49억 달러 + 러시아 담배 유통 1위" }],
+  "moneyMechanics": { "primaryRevenueKo": "Mercury Group + Megapolis + 다각화 자산", "industryKo": "담배 유통·국방·다각화", "businessModelKo": "Megapolis 담배 + 국방 + 부동산 + 금융", "moatKo": "러시아 담배 유통 1위 + 다각화 + 30년 트랙", "luckVsSkillKo": "운(45%): 소련 후 사유화 시기. 실력(55%): 30년 일관 운영." },
+  "personalTraits": {
+    "knownFor": "Founder of Mercury Group; major Megapolis tobacco-distribution shareholder.",
+    "knownForKo": "Mercury Group 창립자; 주요 Megapolis 담배 유통 주주.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2022 EU sanctions on Russian businesses; defense-industry connections scrutiny.",
+    "controversiesKo": "2022 러시아 사업 EU 제재; 국방 산업 연결 감시."
+  },
+  "characterKo": { "summaryKo": "Mercury Group + Megapolis 러시아 담배 유통.", "tagsKo": ["Mercury Group", "Megapolis", "러시아 담배"] },
+  "failures": [
+    { "year": 2014, "description": "Ruble crash compressed Mercury dollar valuation.", "descriptionKo": "루블 폭락으로 Mercury 달러 환산 밸류에이션 압축.", "lesson": "Russian wealth faces currency exposure.", "lessonKo": "러시아 부는 통화 노출 직면." },
+    { "year": 2022, "description": "EU sanctions targeted Russian businesses; some assets affected.", "descriptionKo": "EU 제재가 러시아 사업 표적; 일부 자산 영향.", "lesson": "Russian wealth faces sanctions-induced market loss.", "lessonKo": "러시아 부는 제재 유발 시장 상실 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.8 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.5 }, { "year": 2025, "netWorth": 4.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Russia rewards networks before products.", "textKo": "러시아는 제품 이전에 네트워크를 보상한다.", "context": "On Russian business", "contextKo": "러시아 사업에 대해", "source": "https://en.wikipedia.org/wiki/Igor_Kesaev" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Sul day pillar in Sul month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting Russian-tobacco-and-defense magnate under sanctions pressure.", "summaryKo": "임술 일주 + 술월 편관격(강한 외부 압박·권력 충돌)은 러시아 제재·정치 압박 환경의 다각화 자본 30년 운영 경로와 호응합니다. 임수 일간의 큰 바다 기질이 거대 자본 유동과 통하고, 술토 일지·술토 월지의 극강 토 기운이 자본 안정 기반을 이중 강조합니다." }
+}

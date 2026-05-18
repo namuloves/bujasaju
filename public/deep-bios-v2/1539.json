@@ -1,0 +1,39 @@
+{
+  "id": "1539", "name": "Stephan Crétier", "nameKo": "스테판 크레티에",
+  "netWorth": 2.6, "nationality": "CA", "industry": "Service",
+  "childhood": {
+    "birthPlace": "Quebec, Canada", "birthPlaceKo": "캐나다 퀘벡",
+    "familyBackground": "Born to Quebec working-class family.", "familyBackgroundKo": "퀘벡 노동자 계급 가정에서 출생.",
+    "education": "Limited formal higher education.", "educationKo": "제한적 정식 고등 교육.",
+    "earlyLife": "Founded GardaWorld in 1995 with $25K; built into world's largest privately-owned security services company; cash-services and protective services.",
+    "earlyLifeKo": "1995 25,000달러로 GardaWorld 창립; 세계 최대 사적 소유 보안 서비스 회사 구축; 현금 서비스·보호 서비스.",
+    "source": "https://en.wikipedia.org/wiki/GardaWorld"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "GardaWorld 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 22, "event": "Began career in Montreal security.", "eventKo": "몬트리올 보안 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1995, "age": 32, "event": "Founded GardaWorld with $25K.", "eventKo": "25,000달러로 GardaWorld 창립.", "whyItMatteredKo": "GardaWorld 출발선." },
+    { "year": 2012, "age": 49, "event": "Took GardaWorld private via LBO.", "eventKo": "LBO로 GardaWorld 비공개화.", "whyItMatteredKo": "비공개화 단계." },
+    { "year": 2019, "age": 56, "event": "Failed hostile bid for UK's G4S; G4S sold to Allied Universal.", "eventKo": "영국 G4S 적대적 입찰 실패; G4S가 Allied Universal에 매각.", "whyItMatteredKo": "G4S 단계." },
+    { "year": 2025, "age": 62, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "GardaWorld 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 32, "decisionKo": "25,000달러로 GardaWorld 창립", "alternativeKo": "보안 회사 직원 잔류", "outcomeKo": "30년 후 26억 달러 + 세계 최대 사적 보안" }],
+  "moneyMechanics": { "primaryRevenueKo": "GardaWorld 사적 자본 + 다각화", "industryKo": "보안 서비스·현금 처리", "businessModelKo": "보안 인력 + 현금 처리·운송 + 위험 환경 보호", "moatKo": "세계 최대 사적 보안 + 캐나다 본사 + 30년 트랙", "luckVsSkillKo": "운(20%): 보안 산업 성장. 실력(80%): 30년 일관성 + 다중 인수 통합." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of GardaWorld; Canadian security-services magnate.",
+    "knownForKo": "GardaWorld 창립자·CEO; 캐나다 보안 서비스 거물.",
+    "philanthropy": "Crétier supports Quebec social causes and youth.", "philanthropyKo": "크레티에가 퀘벡 사회 자선·청소년 지원.",
+    "controversies": "GardaWorld international high-risk-zone operations (Iraq, Afghanistan) scrutiny.",
+    "controversiesKo": "GardaWorld 국제 고위험 지역 운영(이라크·아프가니스탄) 감시."
+  },
+  "characterKo": { "summaryKo": "GardaWorld 30년 + 세계 최대 사적 보안.", "tagsKo": ["GardaWorld", "보안 서비스", "퀘벡"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 disrupted cash-services demand briefly.", "descriptionKo": "COVID-19이 현금 서비스 수요 잠시 혼란.", "lesson": "Cash services face pandemic-cash-use decline.", "lessonKo": "현금 서비스는 팬데믹 현금 사용 감소 직면." },
+    { "year": 2021, "description": "Failed G4S hostile takeover; lost UK-anchored opportunity.", "descriptionKo": "G4S 적대적 인수 실패; 영국 기반 기회 상실.", "lesson": "Hostile bids face well-capitalized defender risk.", "lessonKo": "적대적 입찰은 자본력 있는 방어자 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.7 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Security is patience priced in vigilance.", "textKo": "보안은 경계로 가격이 매겨진 인내다.", "context": "On GardaWorld mission", "contextKo": "GardaWorld 미션에 대해", "source": "https://www.garda.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Mi day pillar in Mi month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting high-risk-zone security operator.", "summaryKo": "계미 일주 + 미월 편관격(강한 외부 압박·권력 충돌)은 이라크·아프가니스탄 같은 강한 외부 위협 환경의 보안 서비스 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 위험 관리와 통하고, 미토 일지·미토 월지의 극강 토 기운이 자본 안정 기반을 이중 강조합니다." }
+}

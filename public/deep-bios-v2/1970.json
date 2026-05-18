@@ -1,0 +1,39 @@
+{
+  "id": "1970", "name": "Vadim Yakunin", "nameKo": "바딤 야쿠닌",
+  "netWorth": 2.0, "nationality": "RU", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Russia (USSR)", "birthPlaceKo": "소련",
+    "familyBackground": "Born to Soviet family.", "familyBackgroundKo": "소련 가정에서 출생.",
+    "education": "Russian higher education.", "educationKo": "러시아 고등교육.",
+    "earlyLife": "Co-founded Protek Group — Russian pharmaceutical distribution major; major Russian healthcare investor.",
+    "earlyLifeKo": "Protek Group 공동 창립 — 러시아 제약 유통 주요사; 주요 러시아 보건 투자자.",
+    "source": "https://www.protek-group.ru"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Protek Group 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 22, "event": "Began Soviet-era career.", "eventKo": "소련 시대 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1990, "age": 27, "event": "Co-founded Protek Group at end of Soviet era.", "eventKo": "소련 시대 말 Protek Group 공동 창립.", "whyItMatteredKo": "Protek 출발선." },
+    { "year": 2010, "age": 47, "event": "Protek IPO on Moscow Stock Exchange.", "eventKo": "Protek 모스크바 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2020, "age": 57, "event": "Protek benefited from COVID-19 pharma demand.", "eventKo": "Protek이 COVID-19 제약 수요로 혜택.", "whyItMatteredKo": "팬데믹 단계." },
+    { "year": 2025, "age": 62, "event": "Personal net worth at $2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 20억 달러.", "whyItMatteredKo": "Protek 정점." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 27, "decisionKo": "소련 시대 말 Protek 공동 창립", "alternativeKo": "정부 약국 잔류", "outcomeKo": "35년 후 20억 달러 + 러시아 제약 유통" }],
+  "moneyMechanics": { "primaryRevenueKo": "Protek Group(PRTK.MM) 가족 지분", "industryKo": "제약 유통·보건", "businessModelKo": "러시아 제약 유통 + Rigla 약국 + 제약 제조", "moatKo": "러시아 제약 유통 1위급 + 35년 트랙", "luckVsSkillKo": "운(45%): 소련 후 사유화 시기. 실력(55%): 35년 일관 운영." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Protek Group; Russian pharmaceutical distribution magnate.",
+    "knownForKo": "Protek Group 공동 창립자; 러시아 제약 유통 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2022 EU sanctions concerns on Russian businesses; pharma distribution scrutiny.",
+    "controversiesKo": "2022 러시아 사업 EU 제재 우려; 제약 유통 감시."
+  },
+  "characterKo": { "summaryKo": "Protek Group 35년 + 러시아 제약 유통.", "tagsKo": ["Protek Group", "러시아 제약", "Rigla"] },
+  "failures": [
+    { "year": 2014, "description": "Ruble crash compressed Protek dollar valuation.", "descriptionKo": "루블 폭락으로 Protek 달러 환산 밸류에이션 압축.", "lesson": "Russian pharma faces currency exposure.", "lessonKo": "러시아 제약은 통화 노출 직면." },
+    { "year": 2022, "description": "Western pharma exit from Russia disrupted Protek supply chain.", "descriptionKo": "서방 제약 러시아 철수가 Protek 공급망 혼란.", "lesson": "Russian pharma faces geopolitical-supply-chain risk.", "lessonKo": "러시아 제약은 지정학 공급망 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.8 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 1.8 }, { "year": 2025, "netWorth": 2.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Pharma is the slowest essential business.", "textKo": "제약은 가장 느린 필수 사업이다.", "context": "On Protek mission", "contextKo": "Protek 미션에 대해", "source": "https://www.protek-group.ru" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Sin day pillar in Ja month — 'pyeonjae-gyeok', large external capital, fitting pharma-distribution magnate.", "summaryKo": "무신 일주 + 자월 편재격(크고 유동적인 외부 자본)은 러시아 제약 유통이라는 거대 외부 자본·재고 유동을 다룬 그의 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 안정과 통하고, 신금 일지의 금 기운이 정밀 제약 도구를, 자수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

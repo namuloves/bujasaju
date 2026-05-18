@@ -1,0 +1,39 @@
+{
+  "id": "1430", "name": "Craig McCaw", "nameKo": "크레이그 매코",
+  "netWorth": 2.8, "nationality": "US", "industry": "Telecom",
+  "childhood": {
+    "birthPlace": "Seattle, Washington, USA", "birthPlaceKo": "미국 워싱턴주 시애틀",
+    "familyBackground": "Born to Elroy McCaw — Washington state radio entrepreneur.", "familyBackgroundKo": "워싱턴주 라디오 기업가 엘로이 매코의 아들.",
+    "education": "Stanford University.", "educationKo": "스탠퍼드 대학교.",
+    "earlyLife": "Inherited father's small cable business; founded McCaw Cellular Communications; sold to AT&T for $11.5B in 1994; founded Clearwire, Nextel; major US telecom pioneer.",
+    "earlyLifeKo": "아버지의 작은 케이블 사업 상속; McCaw Cellular Communications 창립; 1994 AT&T에 115억 달러 매각; Clearwire·Nextel 창립; 주요 미국 통신 선구자.",
+    "source": "https://en.wikipedia.org/wiki/Craig_McCaw"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "McCaw Cellular AT&T 매각." },
+  "careerTimeline": [
+    { "year": 1969, "age": 20, "event": "Inherited father's cable TV business after father's death.", "eventKo": "아버지 사망 후 아버지의 케이블 TV 사업 상속.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1983, "age": 34, "event": "Bought first cellular license in Seattle.", "eventKo": "시애틀 첫 셀룰러 라이선스 매수.", "whyItMatteredKo": "셀룰러 출발선." },
+    { "year": 1994, "age": 45, "event": "Sold McCaw Cellular to AT&T for $11.5B.", "eventKo": "McCaw Cellular을 AT&T에 115억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2003, "age": 54, "event": "Founded Clearwire wireless broadband.", "eventKo": "Clearwire 무선 광대역 창립.", "whyItMatteredKo": "Clearwire 출발선." },
+    { "year": 2025, "age": 76, "event": "Personal net worth at $2.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러.", "whyItMatteredKo": "통신 정점." }
+  ],
+  "turningPoints": [{ "year": 1983, "age": 34, "decisionKo": "셀룰러 라이선스 매수 (대부분이 무가치하다고 생각)", "alternativeKo": "케이블 잔류", "outcomeKo": "42년 후 28억 달러 + 1994 AT&T 115억 매각" }],
+  "moneyMechanics": { "primaryRevenueKo": "McCaw Cellular 매각 대금 + Clearwire/Nextel + 다각화", "industryKo": "셀룰러·무선 광대역·통신", "businessModelKo": "셀룰러 라이선스 통합 매각 + 무선 광대역 + 위성·우주 통신 투자", "moatKo": "1994 AT&T 매각 자본 + 통신 선구자 인맥", "luckVsSkillKo": "운(40%): 1983 셀룰러 가치 미인식 + 1994 AT&T 매각 타이밍. 실력(60%): 케이블에서 셀룰러 전환." },
+  "personalTraits": {
+    "knownFor": "Founder of McCaw Cellular; sold to AT&T for $11.5B; US wireless pioneer.",
+    "knownForKo": "McCaw Cellular 창립자; AT&T에 115억 달러 매각; 미국 무선 선구자.",
+    "philanthropy": "McCaw Foundation supports marine life and education.", "philanthropyKo": "매코 재단이 해양 생물·교육 자선 지원.",
+    "controversies": "Clearwire 2012 financial restructuring; Nextel 2010s post-acquisition challenges.",
+    "controversiesKo": "Clearwire 2012 재무 재구조화; 2010년대 Nextel 인수 후 도전."
+  },
+  "characterKo": { "summaryKo": "McCaw Cellular AT&T 매각 + 셀룰러 선구자.", "tagsKo": ["McCaw Cellular", "AT&T 매각", "Clearwire"] },
+  "failures": [
+    { "year": 2012, "description": "Clearwire financial restructuring after spectrum monetization struggles.", "descriptionKo": "스펙트럼 수익화 어려움 후 Clearwire 재무 재구조화.", "lesson": "Spectrum-monetization faces patient-capital requirement.", "lessonKo": "스펙트럼 수익화는 인내 자본 요구 직면." },
+    { "year": 2001, "description": "Dot-com crash compressed telecom investments; Nextel Partners struggled.", "descriptionKo": "닷컴 폭락이 통신 투자 압축; Nextel Partners 어려움.", "lesson": "Telecom faces tech-cycle exposure.", "lessonKo": "통신은 기술 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.6 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.6 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Spectrum was worth more than anyone admitted.", "textKo": "스펙트럼은 누구도 인정하지 않은 것보다 가치가 있었다.", "context": "On cellular pioneering", "contextKo": "셀룰러 개척에 대해", "source": "https://en.wikipedia.org/wiki/Craig_McCaw" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Yu day pillar in Sin month — 'jeongin-gyeok', formal credential authority, fitting Stanford-trained spectrum pioneer.", "summaryKo": "계유 일주 + 신월 정인격(공식 자격·학문·문서 권위)은 스탠퍼드 자격 + FCC 스펙트럼 라이선스라는 정통 자격·문서 권위 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 자본 관리와 통하고, 유금 일지·신금 월지의 극강 금 기운이 정밀 통신 도구를 이중 강조합니다." }
+}

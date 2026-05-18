@@ -1,0 +1,39 @@
+{
+  "id": "1067", "name": "Nguyen Thi Phuong Thao", "nameKo": "응우옌 티 프엉 타오",
+  "netWorth": 3.9, "nationality": "VN", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Hanoi, Vietnam", "birthPlaceKo": "베트남 하노이",
+    "familyBackground": "Born to Vietnamese family.", "familyBackgroundKo": "베트남 가정에서 출생.",
+    "education": "Plekhanov Russian University; Moscow State University.", "educationKo": "플레하노프 러시아 대학교; 모스크바 주립 대학교.",
+    "earlyLife": "Built career in Soviet-era Vietnam trading; founded Sovico Holdings, HDBank, VietJet Air; first female billionaire of Vietnam; founder of VietJet — Vietnam's #2 airline.",
+    "earlyLifeKo": "소련 시대 베트남 거래 경력 구축; Sovico Holdings·HDBank·VietJet Air 창립; 베트남 첫 여성 억만장자; 베트남 2위 항공사 VietJet 창립자.",
+    "source": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Th%E1%BB%8B_Ph%C6%B0%C6%A1ng_Th%E1%BA%A3o"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Sovico·HDBank·VietJet 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1988, "age": 18, "event": "Began Soviet-era trading while studying in Moscow.", "eventKo": "모스크바 유학 중 소련 시대 거래 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1992, "age": 22, "event": "Founded Sovico Holdings trading.", "eventKo": "Sovico Holdings 거래 창립.", "whyItMatteredKo": "Sovico 출발선." },
+    { "year": 2007, "age": 37, "event": "Co-founded VietJet Air low-cost carrier.", "eventKo": "VietJet Air 저비용 항공사 공동 창립.", "whyItMatteredKo": "VietJet 출발선." },
+    { "year": 2017, "age": 47, "event": "VietJet IPO; became Vietnam's first female billionaire.", "eventKo": "VietJet 상장; 베트남 첫 여성 억만장자가 됨.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2025, "age": 55, "event": "Personal net worth at $3.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 39억 달러.", "whyItMatteredKo": "Sovico 정점." }
+  ],
+  "turningPoints": [{ "year": 2007, "age": 37, "decisionKo": "VietJet 저비용 항공사 공동 창립", "alternativeKo": "Sovico 단일 거래 잔류", "outcomeKo": "18년 후 39억 달러 + 베트남 첫 여성 억만장자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Sovico Holdings + HDBank(HDB) + VietJet(VJC) 가족 지분", "industryKo": "항공·은행·다각화", "businessModelKo": "저비용 항공 + 디지털 은행 + 부동산 + 골프장", "moatKo": "베트남 다각화 + VietJet 저비용 항공 시장 + HDBank 디지털", "luckVsSkillKo": "운(40%): 베트남 부상. 실력(60%): 33년 다각화 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Sovico, HDBank, VietJet Air; Vietnam's first female billionaire.",
+    "knownForKo": "Sovico·HDBank·VietJet Air 창립자; 베트남 첫 여성 억만장자.",
+    "philanthropy": "Sovico Foundation supports Vietnamese education and women's empowerment.", "philanthropyKo": "Sovico 재단이 베트남 교육·여성 권익 자선 지원.",
+    "controversies": "VietJet 2018 bikini-stewardess marketing controversy; HDBank governance concerns.",
+    "controversiesKo": "VietJet 2018 비키니 승무원 마케팅 논쟁; HDBank 거버넌스 우려."
+  },
+  "characterKo": { "summaryKo": "Sovico·HDBank·VietJet + 베트남 첫 여성 억만장자.", "tagsKo": ["VietJet Air", "HDBank", "Sovico"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 grounded VietJet flights; revenue plunged.", "descriptionKo": "COVID-19이 VietJet 항공편 운항 중단; 매출 급락.", "lesson": "Aviation faces dramatic pandemic exposure.", "lessonKo": "항공은 극적인 팬데믹 노출 직면." },
+    { "year": 2018, "description": "VietJet 'bikini stewardess' marketing drew international criticism.", "descriptionKo": "VietJet '비키니 승무원' 마케팅이 국제 비판 야기.", "lesson": "Aggressive marketing faces cultural-backlash risk.", "lessonKo": "공격적 마케팅은 문화 반발 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2017, "netWorth": 1.6 }, { "year": 2020, "netWorth": 2.4 }, { "year": 2024, "netWorth": 3.6 }, { "year": 2025, "netWorth": 3.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Vietnamese women fly higher when they own the airline.", "textKo": "베트남 여성은 항공사를 소유할 때 더 높이 난다.", "context": "On VietJet mission", "contextKo": "VietJet 미션에 대해", "source": "https://www.vietjetair.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Jin day pillar in Sa month — 'jeongjae-gyeok', stable wealth accumulation, fitting diversified Vietnamese magnate.", "summaryKo": "병진 일주 + 사월 정재격(안정적·정직한 부 축적)은 항공·은행·부동산 다각화 안정 축적 경로와 호응합니다. 병화 일간 + 사화 월지의 극강 화 기운이 결단·기세를 이중 강조하고, 진토 일지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

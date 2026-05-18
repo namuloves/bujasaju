@@ -1,0 +1,39 @@
+{
+  "id": "1303", "name": "Feng Hailiang", "nameKo": "펑하이량",
+  "netWorth": 3.2, "nationality": "CN", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Zhuji, Zhejiang, China", "birthPlaceKo": "중국 저장성 주지",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Chinese higher education.", "educationKo": "중국 고등교육.",
+    "earlyLife": "Founded Hailiang Group in 1989 in Zhuji — major Chinese copper-products manufacturer; later expanded into education (Hailiang Education NASDAQ-listed).",
+    "earlyLifeKo": "1989 주지에서 Hailiang Group 창립 — 주요 중국 구리 제품 제조사; 이후 교육(Hailiang Education NASDAQ 상장) 확장.",
+    "source": "https://www.hailiang.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Hailiang Group 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 25, "event": "Began Chinese metals trading.", "eventKo": "중국 금속 거래 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1989, "age": 29, "event": "Founded Hailiang Group.", "eventKo": "Hailiang Group 창립.", "whyItMatteredKo": "Hailiang 출발선." },
+    { "year": 2008, "age": 48, "event": "Hailiang Co. IPO Shanghai.", "eventKo": "Hailiang Co. 상하이 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2015, "age": 55, "event": "Hailiang Education IPO NASDAQ.", "eventKo": "Hailiang Education NASDAQ 상장.", "whyItMatteredKo": "교육 IPO." },
+    { "year": 2025, "age": 65, "event": "Personal net worth at $3.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 32억 달러.", "whyItMatteredKo": "Hailiang 정점." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 55, "decisionKo": "구리 외 교육 확장 NASDAQ 상장", "alternativeKo": "구리 집중", "outcomeKo": "10년 후 32억 달러 + 다각화 그룹" }],
+  "moneyMechanics": { "primaryRevenueKo": "Hailiang Group(002203) + Hailiang Education(HLG) 가족 지분", "industryKo": "구리·교육·다각화", "businessModelKo": "구리 튜브·파이프 제조 + K-12 사립학교 + 부동산", "moatKo": "중국 구리 제조 + 사립 교육 + 36년 트랙", "luckVsSkillKo": "운(40%): 중국 인프라·교육 부상. 실력(60%): 36년 일관 다각화." },
+  "personalTraits": {
+    "knownFor": "Founder of Hailiang Group; Chinese copper-and-education magnate.",
+    "knownForKo": "Hailiang Group 창립자; 중국 구리·교육 거물.",
+    "philanthropy": "Hailiang Foundation supports Chinese education.", "philanthropyKo": "Hailiang 재단이 중국 교육 자선 지원.",
+    "controversies": "2021 China private-education regulation compressed Hailiang Education stock sharply.",
+    "controversiesKo": "2021 중국 사립 교육 규제로 Hailiang Education 주식 급격 압축."
+  },
+  "characterKo": { "summaryKo": "Hailiang 36년 + 구리·교육 다각화.", "tagsKo": ["Hailiang Group", "구리", "Hailiang Education"] },
+  "failures": [
+    { "year": 2021, "description": "China cracked down on private K-12 tutoring; Hailiang Education stock crashed 80%+.", "descriptionKo": "중국이 사립 K-12 과외 단속; Hailiang Education 주식 80%+ 폭락.", "lesson": "Chinese private education faces sudden regulatory wipeout.", "lessonKo": "중국 사립 교육은 갑작스러운 규제 일소 직면." },
+    { "year": 2018, "description": "Copper price volatility compressed Hailiang manufacturing margins.", "descriptionKo": "구리 가격 변동성이 Hailiang 제조 마진 압축.", "lesson": "Copper manufacturers face commodity-cycle exposure.", "lessonKo": "구리 제조사는 상품 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.0 }, { "year": 2025, "netWorth": 3.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Copper pipes carry water; schools carry minds.", "textKo": "구리 파이프는 물을 운반하고, 학교는 정신을 운반한다.", "context": "On Hailiang diversification", "contextKo": "Hailiang 다각화에 대해", "source": "https://www.hailiang.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Sul day pillar in Yu month — 'sanggwan-gyeok', unconventional output, fitting copper-and-education unusual diversifier.", "summaryKo": "임술 일주 + 유월 상관격(파격적 표현·기존 권위 도전)은 구리 제조와 K-12 사립 교육이라는 파격적 결합 다각화 경로와 호응합니다. 임수 일간의 큰 바다 기질이 거대 자본 유동과 통하고, 술토 일지의 토 기운이 자본 안정 기반을, 유금 월지의 금 기운이 정밀 자본 도구를 가리킵니다." }
+}

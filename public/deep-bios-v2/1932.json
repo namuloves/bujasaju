@@ -1,0 +1,38 @@
+{
+  "id": "1932", "name": "Doug Ostrover", "nameKo": "더그 오스트로버",
+  "netWorth": 2.1, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "University of Pennsylvania.", "educationKo": "펜실베이니아 대학교.",
+    "earlyLife": "Co-founded GSO Capital Partners 2005 (sold to Blackstone $1B+ 2008); co-founded Owl Rock Capital 2016 (now Blue Owl Capital after Dyal Capital merger 2021).",
+    "earlyLifeKo": "2005 GSO Capital Partners 공동 창립(2008 Blackstone에 10억+ 달러 매각); 2016 Owl Rock Capital 공동 창립(2021 Dyal Capital 합병 후 Blue Owl Capital).",
+    "source": "https://en.wikipedia.org/wiki/Blue_Owl_Capital"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "GSO + Blue Owl 공동 창립자." },
+  "careerTimeline": [
+    { "year": 1985, "age": 23, "event": "Began at Drexel Burnham Lambert in high-yield credit.", "eventKo": "Drexel Burnham Lambert 하이일드 신용에서 시작.", "whyItMatteredKo": "신용 출발선." },
+    { "year": 2005, "age": 43, "event": "Co-founded GSO Capital Partners.", "eventKo": "GSO Capital Partners 공동 창립.", "whyItMatteredKo": "GSO 출발선." },
+    { "year": 2008, "age": 46, "event": "Sold GSO to Blackstone for ~$1B (cash + Blackstone stock).", "eventKo": "GSO를 Blackstone에 약 10억 달러(현금+Blackstone 주식) 매각.", "whyItMatteredKo": "엑시트 1." },
+    { "year": 2016, "age": 54, "event": "Co-founded Owl Rock Capital.", "eventKo": "Owl Rock Capital 공동 창립.", "whyItMatteredKo": "Owl Rock 출발선." },
+    { "year": 2025, "age": 63, "event": "Personal net worth at $2.1B per Forbes Real-Time; Blue Owl crossed $250B+ AUM.", "eventKo": "포브스 실시간 기준 개인 순자산 21억 달러; Blue Owl 2,500억+ AUM 돌파.", "whyItMatteredKo": "Blue Owl 정점." }
+  ],
+  "turningPoints": [{ "year": 2016, "age": 54, "decisionKo": "GSO Blackstone 떠나 Owl Rock 재창업", "alternativeKo": "Blackstone 잔류", "outcomeKo": "9년 후 21억 달러 + 2,500억 AUM Blue Owl" }],
+  "moneyMechanics": { "primaryRevenueKo": "Blue Owl Capital(OWL) 공동 창립자 지분 + GSO 매각 잔여", "industryKo": "사적 신용·BDC", "businessModelKo": "직접 대출 + BDC + GP 지분 + 2,500억+ AUM 수수료", "moatKo": "GSO + Owl Rock 재창업 + Dyal 합병 + 2,500억 AUM", "luckVsSkillKo": "운(35%): 사적 신용 부상. 실력(65%): 40년 신용 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of GSO Capital and Blue Owl Capital; private-credit pioneer.",
+    "knownForKo": "GSO Capital·Blue Owl Capital 공동 창립자; 사적 신용 선구자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; private-credit-sector growth scrutiny.", "controversiesKo": "제한적; 사적 신용 부문 성장 감시."
+  },
+  "characterKo": { "summaryKo": "GSO + Blue Owl 사적 신용 거인 + 2개 창업.", "tagsKo": ["GSO Capital", "Blue Owl Capital", "사적 신용"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed credit markets just after GSO sale to Blackstone.", "descriptionKo": "GSO Blackstone 매각 직후 금융위기로 신용 시장 압축.", "lesson": "Even successful sales face immediate cycle exposure.", "lessonKo": "성공적 매각도 즉각적 사이클 노출 직면." },
+    { "year": 2022, "description": "Rising rates pressured private-credit floating portfolio valuations.", "descriptionKo": "금리 상승이 사적 신용 변동 포트폴리오 밸류에이션 압박.", "lesson": "Private credit faces rate-cycle revaluation.", "lessonKo": "사적 신용은 금리 사이클 재평가 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.0 }, { "year": 2024, "netWorth": 1.9 }, { "year": 2025, "netWorth": 2.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Private credit is the next decade's banking system.", "textKo": "사적 신용은 다음 10년의 은행 시스템이다.", "context": "On Blue Owl mission", "contextKo": "Blue Owl 미션에 대해", "source": "https://www.blueowl.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Chuk day pillar in O month — 'geollok-gyeok', strong self-anchored authority, fitting twice-founder private-credit pioneer.", "summaryKo": "정축 일주 + 오월 건록격(강한 자기 본기·스스로 일어서는 힘)은 GSO + Blue Owl이라는 두 번의 자기 본기 창업 경로와 호응합니다. 정화 일간 + 오화 월지의 극강 화 기운이 결단·기세를 이중 강조하고, 축토 일지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1559", "name": "Martin Knauf", "nameKo": "마르틴 크나우프",
+  "netWorth": 2.6, "nationality": "DE", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Knauf family — owners of Knauf gypsum building materials company.", "familyBackgroundKo": "Knauf 석고 건자재 회사 소유주 크나우프 가족 출신.",
+    "education": "German higher education.", "educationKo": "독일 고등교육.",
+    "earlyLife": "3rd-generation Knauf family member; major Knauf Gips KG stockholder; Knauf is one of world's largest gypsum and plasterboard producers.",
+    "earlyLifeKo": "크나우프 가족 3세대; 주요 Knauf Gips KG 주주; Knauf는 세계 최대 석고·석고보드 생산사 중 하나.",
+    "source": "https://www.knauf.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Knauf 가족 자본." },
+  "careerTimeline": [
+    { "year": 2005, "age": 25, "event": "Joined family Knauf Gips KG.", "eventKo": "가족 Knauf Gips KG 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2014, "age": 34, "event": "Took executive role at Knauf.", "eventKo": "Knauf 임원 역할.", "whyItMatteredKo": "임원 단계." },
+    { "year": 2017, "age": 37, "event": "Knauf acquired USG Corp (US gypsum) for $7B.", "eventKo": "Knauf가 USG Corp(미국 석고)을 70억 달러 인수.", "whyItMatteredKo": "USG 인수." },
+    { "year": 2022, "age": 42, "event": "Knauf decided to exit Russian operations after Ukraine invasion.", "eventKo": "우크라이나 침공 후 Knauf 러시아 운영 철수 결정.", "whyItMatteredKo": "러시아 철수." },
+    { "year": 2025, "age": 45, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "Knauf 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 37, "decisionKo": "Knauf USG Corp 70억 달러 인수 결정", "alternativeKo": "유럽 집중", "outcomeKo": "8년 후 26억 달러 + 글로벌 석고 1위급" }],
+  "moneyMechanics": { "primaryRevenueKo": "Knauf Gips KG 사적 가족 지분 + 다각화", "industryKo": "건자재·석고·단열재", "businessModelKo": "석고보드 + 단열재 + 글로벌 공장 + 가족 사적 소유", "moatKo": "글로벌 석고 1위급 + 가족 사적 소유 + USG 통합", "luckVsSkillKo": "운(70%): 가족 자본. 실력(30%): USG 인수 통합." },
+  "personalTraits": {
+    "knownFor": "Third-generation Knauf family member; Knauf Gips KG stockholder.",
+    "knownForKo": "크나우프 가족 3세대; Knauf Gips KG 주주.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Knauf criticized for slow Russia exit post-2022; reputational scrutiny.",
+    "controversiesKo": "Knauf가 2022 후 느린 러시아 철수로 비판; 평판 감시."
+  },
+  "characterKo": { "summaryKo": "Knauf 3세대 + USG 인수 + 글로벌 석고.", "tagsKo": ["Knauf", "USG Corp", "독일 건자재"] },
+  "failures": [
+    { "year": 2022, "description": "Slow Russia exit drew criticism; Knauf brand reputational damage.", "descriptionKo": "느린 러시아 철수로 비판; Knauf 브랜드 평판 손상.", "lesson": "Russia operations face dramatic reputational risk post-2022.", "lessonKo": "러시아 운영은 2022 후 극적인 평판 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted construction-materials demand briefly.", "descriptionKo": "COVID-19이 건자재 수요 잠시 혼란.", "lesson": "Building products face pandemic-cycle exposure.", "lessonKo": "건축 자재는 팬데믹 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Gypsum is patient stone, finishing the world's walls.", "textKo": "석고는 세계의 벽을 마감하는 인내의 돌이다.", "context": "On Knauf mission", "contextKo": "Knauf 미션에 대해", "source": "https://www.knauf.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Mi day pillar in Sul month — 'jeonggwan-gyeok', formal regulated authority, fitting heavily-regulated building-materials heir.", "summaryKo": "신미 일주 + 술월 정관격(공식 권위·규제 아래에서 일하는 구조)은 강한 건자재 규제 권위 환경의 가족 회사 3세대 경로와 호응합니다. 신금 일간의 정밀한 보석 기질이 정밀 건자재 도구와 통하고, 미토 일지·술토 월지의 극강 토 기운이 자본·건축 안정 기반을 이중 강조합니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1208", "name": "Susan Alfond", "nameKo": "수전 알폰드",
+  "netWorth": 3.4, "nationality": "US", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Harold Alfond — founder of Dexter Shoe Company.", "familyBackgroundKo": "Dexter Shoe Company 창립자 해럴드 알폰드의 딸.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Inherited Alfond family shares; father sold Dexter Shoe to Berkshire Hathaway for $433M Berkshire stock 1993 — stake compounded enormously since.",
+    "earlyLifeKo": "알폰드 가족 주식 상속; 아버지가 1993 Dexter Shoe를 Berkshire Hathaway에 4억 3,300만 달러 버크셔 주식 매각 — 지분이 이후 거대하게 복리.",
+    "source": "https://en.wikipedia.org/wiki/Harold_Alfond"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Dexter Shoe Berkshire Hathaway 주식 매각 가족 자본." },
+  "careerTimeline": [
+    { "year": 1967, "age": 22, "event": "Joined family Dexter Shoe.", "eventKo": "가족 Dexter Shoe 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1993, "age": 48, "event": "Father sold Dexter Shoe to Berkshire Hathaway for $433M Berkshire stock.", "eventKo": "아버지가 Dexter Shoe를 Berkshire Hathaway에 4억 3,300만 달러 버크셔 주식 매각.", "whyItMatteredKo": "버크셔 매각 단계." },
+    { "year": 2007, "age": 62, "event": "Father Harold Alfond died; inherited Berkshire stake.", "eventKo": "아버지 해럴드 알폰드 사망; 버크셔 지분 상속.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2020, "age": 75, "event": "Berkshire-Dexter Shoe stock compounded to multi-billion-dollar holding.", "eventKo": "버크셔-Dexter Shoe 주식이 수십억 달러 보유로 복리.", "whyItMatteredKo": "복리 단계." },
+    { "year": 2025, "age": 80, "event": "Personal net worth at $3.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러.", "whyItMatteredKo": "Alfond 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 1993, "age": 48, "decisionKo": "Dexter Shoe Berkshire 주식으로 매각 (현금 거절)", "alternativeKo": "현금 매각", "outcomeKo": "32년 후 34억 달러 + 버크셔 복리 정점" }],
+  "moneyMechanics": { "primaryRevenueKo": "Berkshire Hathaway(BRK.A/B) 가족 지분", "industryKo": "지주 회사 주식", "businessModelKo": "버크셔 매각 주식 복리 보유", "moatKo": "버핏 인내 복리 + 가족 사적 보유", "luckVsSkillKo": "운(90%): 가족 자본 + 버크셔 복리. 실력(10%): 버크셔 매각 결단." },
+  "personalTraits": {
+    "knownFor": "Alfond family heiress; Dexter-Shoe/Berkshire stockholder.",
+    "knownForKo": "알폰드 가족 상속녀; Dexter-Shoe·버크셔 주주.",
+    "philanthropy": "Harold Alfond Foundation supports Maine education and healthcare.", "philanthropyKo": "해럴드 알폰드 재단이 메인주 교육·보건 자선 지원.",
+    "controversies": "Limited; private-family low scrutiny.", "controversiesKo": "제한적; 사적 가족 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Dexter Shoe 매각 → 버크셔 주식 복리 가족.", "tagsKo": ["Dexter Shoe", "Berkshire Hathaway", "Alfond family"] },
+  "failures": [
+    { "year": 1999, "description": "Dexter Shoe lost competitiveness to Asian imports; Buffett later called acquisition a mistake.", "descriptionKo": "Dexter Shoe가 아시아 수입에 경쟁력 상실; 버핏이 이후 인수를 실수로 평가.", "lesson": "But stock-based seller still benefited from Berkshire compound — luck saves seller.", "lessonKo": "그러나 주식 기반 매도자는 버크셔 복리로 혜택 — 운이 매도자를 구한다." },
+    { "year": 2008, "description": "Financial crisis halved Berkshire stock briefly.", "descriptionKo": "금융위기로 버크셔 주식 잠시 반토막.", "lesson": "Even Berkshire faces credit-cycle exposure.", "lessonKo": "버크셔도 신용 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.2 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Sell to Berkshire in stock; let Buffett do the rest.", "textKo": "버크셔에 주식으로 팔라; 나머지는 버핏이 해준다.", "context": "On Dexter Shoe sale", "contextKo": "Dexter Shoe 매각에 대해", "source": "https://en.wikipedia.org/wiki/Harold_Alfond" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Chuk day pillar in Mi month — 'pyeonjae-gyeok', large external capital, fitting Berkshire-stock heiress.", "summaryKo": "기축 일주 + 미월 편재격(크고 유동적인 외부 자본)은 버크셔 해서웨이라는 거대 외부 자본 복리 매개를 통한 부 보유 경로와 호응합니다. 기토 일간의 평야·수용 기질이 거대 자본 흡수와 통하고, 축토 일지·미토 월지의 극강 토 기운이 자본 안정 기반을 이중 강조합니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1827", "name": "Gordon Wu", "nameKo": "고든 우",
+  "netWorth": 2.2, "nationality": "HK", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Hong Kong", "birthPlaceKo": "홍콩",
+    "familyBackground": "Born to Hong Kong family.", "familyBackgroundKo": "홍콩 가정에서 출생.",
+    "education": "Princeton University.", "educationKo": "프린스턴 대학교.",
+    "earlyLife": "Founded Hopewell Holdings in 1972 in Hong Kong; built into major property and infrastructure developer; pioneered build-operate-transfer model in China.",
+    "earlyLifeKo": "1972 홍콩에서 Hopewell Holdings 창립; 주요 부동산·인프라 개발사로 구축; 중국 BOT(건설-운영-이양) 모델 개척.",
+    "source": "https://en.wikipedia.org/wiki/Gordon_Wu"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Hopewell Holdings 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1958, "age": 23, "event": "Returned to Hong Kong after Princeton.", "eventKo": "프린스턴 후 홍콩 귀국.", "whyItMatteredKo": "출발선." },
+    { "year": 1972, "age": 37, "event": "Founded Hopewell Holdings.", "eventKo": "Hopewell Holdings 창립.", "whyItMatteredKo": "Hopewell 출발선." },
+    { "year": 1980, "age": 45, "event": "Pioneered build-operate-transfer (BOT) infrastructure in China.", "eventKo": "중국 BOT(건설-운영-이양) 인프라 개척.", "whyItMatteredKo": "BOT 단계." },
+    { "year": 1997, "age": 62, "event": "Asian financial crisis compressed Hopewell briefly.", "eventKo": "아시아 금융위기로 Hopewell 잠시 압축.", "whyItMatteredKo": "위기 단계." },
+    { "year": 2025, "age": 90, "event": "Personal net worth at $2.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 22억 달러.", "whyItMatteredKo": "Hopewell 정점." }
+  ],
+  "turningPoints": [{ "year": 1980, "age": 45, "decisionKo": "중국 BOT 인프라 모델 개척", "alternativeKo": "홍콩 부동산만 잔류", "outcomeKo": "45년 후 22억 달러 + 중국 인프라 선구자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Hopewell Holdings(0054.HK) + 다각화", "industryKo": "부동산·인프라", "businessModelKo": "홍콩 부동산 + 중국 BOT 고속도로 + 호텔", "moatKo": "프린스턴 + 중국 인프라 선구자 + 53년 트랙", "luckVsSkillKo": "운(35%): 중국 개방 시기. 실력(65%): 53년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Hopewell Holdings; Chinese BOT infrastructure pioneer; Princeton-educated Hong Kong developer.",
+    "knownForKo": "Hopewell Holdings 창립자; 중국 BOT 인프라 선구자; 프린스턴 출신 홍콩 개발자.",
+    "philanthropy": "Wu Family Foundation supports Princeton and Hong Kong education.", "philanthropyKo": "우 가족 재단이 프린스턴·홍콩 교육 자선 지원.",
+    "controversies": "1997 Asian crisis Hopewell debt restructuring; Bangkok elevated railway project disputes.",
+    "controversiesKo": "1997 아시아 위기 Hopewell 부채 재구조화; 방콕 고가 철도 프로젝트 분쟁."
+  },
+  "characterKo": { "summaryKo": "Hopewell 53년 + 중국 BOT 인프라 선구자.", "tagsKo": ["Hopewell Holdings", "중국 BOT", "홍콩"] },
+  "failures": [
+    { "year": 1997, "description": "Asian financial crisis severely compressed Hopewell; debt restructuring required.", "descriptionKo": "아시아 금융위기로 Hopewell 심각 압축; 부채 재구조화 필요.", "lesson": "Asian-leverage faces dramatic regional-crisis exposure.", "lessonKo": "아시아 레버리지는 극적인 지역 위기 노출 직면." },
+    { "year": 2003, "description": "Bangkok elevated-railway project ended in legal disputes; major loss.", "descriptionKo": "방콕 고가 철도 프로젝트가 법적 분쟁으로 종료; 주요 손실.", "lesson": "Cross-border infrastructure faces sovereign-political risk.", "lessonKo": "국경 간 인프라는 주권 정치 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.7 }, { "year": 2024, "netWorth": 2.0 }, { "year": 2025, "netWorth": 2.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Build the bridge first; the traffic will follow.", "textKo": "먼저 다리를 짓고, 교통이 따라온다.", "context": "On BOT infrastructure", "contextKo": "BOT 인프라에 대해", "source": "https://en.wikipedia.org/wiki/Gordon_Wu" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Chuk day pillar in Hae month — 'pyeonjae-gyeok', large external capital flow, fitting BOT-infrastructure-developer.", "summaryKo": "계축 일주 + 해월 편재격(크고 유동적인 외부 자본)은 BOT라는 거대 외부 자본 동원 인프라 모델 53년 운영 경로와 호응합니다. 계수 일간 + 해수 월지의 강한 수 기운이 자본·인프라 유동성을 이중 강조하고, 축토 일지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

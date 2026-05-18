@@ -1,0 +1,38 @@
+{
+  "id": "511", "name": "Sudhir Mehta", "nameKo": "수디르 메타",
+  "netWorth": 7.2, "nationality": "IN", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Gujarat, India", "birthPlaceKo": "인도 구자라트",
+    "familyBackground": "Born to Indian family; brother of Samir Mehta.", "familyBackgroundKo": "인도 가정에서 출생; 사미르 메타의 형제.",
+    "education": "Indian higher education.", "educationKo": "인도 고등교육.",
+    "earlyLife": "Co-founded Torrent Group with brother Samir; chairman emeritus of Torrent Power and Torrent Pharmaceuticals; major Indian power/pharma magnate.",
+    "earlyLifeKo": "형제 사미르와 Torrent Group 공동 창립; Torrent Power·Torrent Pharmaceuticals 명예 의장; 주요 인도 전력·제약 거물.",
+    "source": "https://en.wikipedia.org/wiki/Torrent_Group"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Torrent Group 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1975, "age": 21, "event": "Began career in Indian pharma.", "eventKo": "인도 제약 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1985, "age": 31, "event": "Co-founded Torrent Pharmaceuticals with brother Samir.", "eventKo": "형제 사미르와 Torrent Pharmaceuticals 공동 창립.", "whyItMatteredKo": "Torrent 출발선." },
+    { "year": 2002, "age": 48, "event": "Acquired Ahmedabad Electricity to form Torrent Power.", "eventKo": "Ahmedabad Electricity 인수로 Torrent Power 형성.", "whyItMatteredKo": "Torrent Power 단계." },
+    { "year": 2018, "age": 64, "event": "Torrent Pharma made multiple US/Brazil acquisitions.", "eventKo": "Torrent Pharma가 여러 미국·브라질 인수.", "whyItMatteredKo": "글로벌 단계." },
+    { "year": 2025, "age": 71, "event": "Personal net worth at $7.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 72억 달러.", "whyItMatteredKo": "Torrent 정점." }
+  ],
+  "turningPoints": [{ "year": 2002, "age": 48, "decisionKo": "Ahmedabad Electricity 인수로 전력 진출", "alternativeKo": "제약 집중", "outcomeKo": "23년 후 72억 달러 + 인도 제약·전력 양대" }],
+  "moneyMechanics": { "primaryRevenueKo": "Torrent Pharma(TRP.NS) + Torrent Power(TRPC.NS) 가족 지분", "industryKo": "제약·전력·인프라", "businessModelKo": "인도 제약 + 도시 전력 유통 + 가족 의결권", "moatKo": "Torrent 다각화 + 50년 가족 트랙", "luckVsSkillKo": "운(40%): 인도 제약·전력 호황. 실력(60%): 50년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Torrent Group; chairman emeritus; brother of Samir Mehta.",
+    "knownForKo": "Torrent Group 공동 창립자; 명예 의장; 사미르 메타의 형제.",
+    "philanthropy": "UNM Foundation supports Indian education and healthcare.", "philanthropyKo": "UNM 재단이 인도 교육·보건 자선 지원.",
+    "controversies": "Indian pharma price-and-quality scrutiny standard.", "controversiesKo": "인도 제약 가격·품질 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Torrent Group 공동 창립 + 인도 제약·전력 양대.", "tagsKo": ["Torrent Pharmaceuticals", "Torrent Power", "Mehta brothers"] },
+  "failures": [
+    { "year": 2013, "description": "Indian rupee crash compressed Torrent Pharma dollar valuation.", "descriptionKo": "인도 루피 폭락으로 Torrent Pharma 달러 환산 밸류에이션 압축.", "lesson": "Indian pharma faces currency-volatility.", "lessonKo": "인도 제약은 통화 변동성 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Torrent Power demand briefly; pharma supply-chain stressed.", "descriptionKo": "COVID-19이 Torrent Power 수요 잠시 혼란; 제약 공급망 스트레스.", "lesson": "Conglomerate faces concentrated pandemic exposure.", "lessonKo": "대기업도 집중 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.8 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 6.5 }, { "year": 2025, "netWorth": 7.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Brothers run faster together; we built India.", "textKo": "형제는 함께 더 빨리 달린다; 우리는 인도를 지었다.", "context": "On Torrent partnership", "contextKo": "Torrent 파트너십에 대해", "source": "https://www.torrentpower.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Sin day pillar in Jin month — 'siksin-gyeok', creative output, fitting pharma-and-power diversifier.", "summaryKo": "병신 일주 + 진월 식신격(창의적 결과물·표현)은 제약 + 전력이라는 두 창의적 산업 결합 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 신금 일지의 금 기운이 정밀 제약 도구를, 진토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

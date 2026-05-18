@@ -1,0 +1,38 @@
+{
+  "id": "1330", "name": "Gerald Ford", "nameKo": "제럴드 루돌프 포드 주니어",
+  "netWorth": 3.1, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Pampa, Texas, USA", "birthPlaceKo": "미국 텍사스주 팜파",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Southern Methodist University; SMU Law.", "educationKo": "서던 메소디스트 대학교; SMU 로스쿨.",
+    "earlyLife": "Worked as M&A lawyer at Jenkens & Gilchrist; founded Hunter's Glen/Ford and Ford Financial Fund; acquired First United Bank Group and many community banks; bank-rollup magnate.",
+    "earlyLifeKo": "Jenkens & Gilchrist M&A 변호사 근무; Hunter's Glen/Ford·Ford Financial Fund 창립; First United Bank Group과 많은 지역 은행 인수; 은행 통합 거물.",
+    "source": "https://en.wikipedia.org/wiki/Gerald_J._Ford"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Ford Financial Fund 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1969, "age": 25, "event": "Began as M&A lawyer at Jenkens & Gilchrist.", "eventKo": "Jenkens & Gilchrist M&A 변호사로 시작.", "whyItMatteredKo": "변호사 출발선." },
+    { "year": 1984, "age": 40, "event": "Began bank-rollup strategy in Texas community banks.", "eventKo": "텍사스 지역 은행 통합 전략 시작.", "whyItMatteredKo": "은행 통합 단계." },
+    { "year": 2002, "age": 58, "event": "Sold Golden State Bancorp to Citigroup for $5.8B.", "eventKo": "Golden State Bancorp을 Citigroup에 58억 달러 매각.", "whyItMatteredKo": "Citigroup 매각." },
+    { "year": 2010, "age": 66, "event": "Acquired Pacific Capital Bancorp via FDIC-assisted purchase.", "eventKo": "FDIC 지원 매수로 Pacific Capital Bancorp 인수.", "whyItMatteredKo": "FDIC 단계." },
+    { "year": 2025, "age": 80, "event": "Personal net worth at $3.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 31억 달러.", "whyItMatteredKo": "Ford 정점." }
+  ],
+  "turningPoints": [{ "year": 1984, "age": 40, "decisionKo": "변호사 떠나 텍사스 은행 통합 전략", "alternativeKo": "변호사 잔류", "outcomeKo": "41년 후 31억 달러 + 은행 통합 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Ford Financial Fund + 다각화 은행 + 부동산", "industryKo": "은행 통합·금융", "businessModelKo": "지역 은행 인수 통합 + FDIC 지원 매수 + 부동산", "moatKo": "텍사스 SMU + 변호사 인맥 + 41년 은행 트랙", "luckVsSkillKo": "운(40%): 텍사스·캘리포니아 은행 사이클. 실력(60%): 41년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Ford Financial Fund; major US community-bank consolidator; named after 38th US President.",
+    "knownForKo": "Ford Financial Fund 창립자; 주요 미국 지역 은행 통합사; 미국 38대 대통령의 이름과 같음.",
+    "philanthropy": "Gerald J. Ford Hall at SMU; major SMU donor.", "philanthropyKo": "SMU 제럴드 J. 포드 홀; 주요 SMU 후원자.",
+    "controversies": "Bank-rollup industry standard regulatory scrutiny.", "controversiesKo": "은행 통합 산업 표준 규제 감시."
+  },
+  "characterKo": { "summaryKo": "텍사스 은행 통합 + Golden State Citigroup 매각.", "tagsKo": ["Ford Financial Fund", "Golden State", "은행 통합"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed community-bank valuations; Ford navigated via FDIC purchases.", "descriptionKo": "금융위기로 지역 은행 밸류에이션 압축; 포드가 FDIC 매수로 통과.", "lesson": "Bank rollups face credit-cycle exposure.", "lessonKo": "은행 통합은 신용 사이클 노출 직면." },
+    { "year": 2023, "description": "Regional bank crisis (SVB, Signature) pressured Ford Financial Fund portfolio.", "descriptionKo": "지역 은행 위기(SVB·시그니처)가 Ford Financial Fund 포트폴리오 압박.", "lesson": "Regional banks face rate-and-deposit-flight risk.", "lessonKo": "지역 은행은 금리·예금 이탈 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.9 }, { "year": 2025, "netWorth": 3.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Texas banks are local first, profitable second; both work.", "textKo": "텍사스 은행은 먼저 지역적이고 두 번째로 수익성이 있다; 둘 다 작동한다.", "context": "On bank consolidation", "contextKo": "은행 통합에 대해", "source": "https://en.wikipedia.org/wiki/Gerald_J._Ford" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Ja day pillar in Mi month — 'jeongin-gyeok', formal credential authority, fitting law-degree-trained bank consolidator.", "summaryKo": "경자 일주 + 미월 정인격(공식 자격·학문·문서 권위)은 SMU 법학 자격을 41년에 걸쳐 은행 통합으로 적용한 정통 자격 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 거래 협상과 통하고, 자수 일지의 수 기운이 자본 유동성을, 미토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

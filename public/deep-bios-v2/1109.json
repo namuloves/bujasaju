@@ -1,0 +1,39 @@
+{
+  "id": "1109", "name": "Erman Ilicak", "nameKo": "에르만 일르자크",
+  "netWorth": 3.7, "nationality": "TR", "industry": "Construction & Engineering",
+  "childhood": {
+    "birthPlace": "Turkey", "birthPlaceKo": "튀르키예",
+    "familyBackground": "Born to Turkish family.", "familyBackgroundKo": "튀르키예 가정에서 출생.",
+    "education": "ETH Zurich; civil engineering.", "educationKo": "ETH 취리히; 토목 공학.",
+    "earlyLife": "Joined family Rönesans Holding construction; became chairman; built Rönesans into one of Turkey's largest international construction groups; major hospital and infrastructure builder.",
+    "earlyLifeKo": "가족 Rönesans Holding 건설 합류; 의장이 됨; Rönesans을 튀르키예 최대 국제 건설 그룹 중 하나로 구축; 주요 병원·인프라 건설사.",
+    "source": "https://www.ronesans.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Rönesans Holding 창립·확장." },
+  "careerTimeline": [
+    { "year": 1989, "age": 22, "event": "Began at family Rönesans construction after ETH.", "eventKo": "ETH 후 가족 Rönesans 건설에서 시작.", "whyItMatteredKo": "건설 출발선." },
+    { "year": 1993, "age": 26, "event": "Founded Rönesans Holding to expand internationally.", "eventKo": "국제 확장 위해 Rönesans Holding 창립.", "whyItMatteredKo": "Rönesans 출발선." },
+    { "year": 2005, "age": 38, "event": "Major Russian construction contracts boosted Rönesans growth.", "eventKo": "주요 러시아 건설 계약이 Rönesans 성장 견인.", "whyItMatteredKo": "러시아 단계." },
+    { "year": 2017, "age": 50, "event": "Major Turkish PPP hospital projects awarded to Rönesans.", "eventKo": "Rönesans에 주요 튀르키예 PPP 병원 프로젝트 수주.", "whyItMatteredKo": "PPP 단계." },
+    { "year": 2025, "age": 58, "event": "Personal net worth at $3.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러.", "whyItMatteredKo": "Rönesans 정점." }
+  ],
+  "turningPoints": [{ "year": 1993, "age": 26, "decisionKo": "Rönesans Holding 창립 국제 확장", "alternativeKo": "튀르키예 단일 건설 잔류", "outcomeKo": "32년 후 37억 달러 + 글로벌 건설 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Rönesans Holding 사적 자본 + 다각화", "industryKo": "건설·인프라·부동산", "businessModelKo": "국제 EPC 건설 + PPP 병원 + 부동산 + 화학", "moatKo": "튀르키예·러시아·EU 건설 인맥 + 32년 트랙", "luckVsSkillKo": "운(35%): 튀르키예·러시아 건설 호황. 실력(65%): ETH 자격 + 32년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder and chairman of Rönesans Holding; Turkish international construction magnate.",
+    "knownForKo": "Rönesans Holding 창립자·의장; 튀르키예 국제 건설 거물.",
+    "philanthropy": "Rönesans Foundation supports Turkish education and culture.", "philanthropyKo": "Rönesans 재단이 튀르키예 교육·문화 자선 지원.",
+    "controversies": "Russian-construction-contract scrutiny post-2022 Ukraine sanctions; Turkish PPP hospital pricing scrutiny.",
+    "controversiesKo": "2022 우크라이나 제재 후 러시아 건설 계약 감시; 튀르키예 PPP 병원 가격 감시."
+  },
+  "characterKo": { "summaryKo": "Rönesans Holding 32년 + 국제 건설 + PPP 병원.", "tagsKo": ["Rönesans Holding", "튀르키예 건설", "PPP 병원"] },
+  "failures": [
+    { "year": 2018, "description": "Turkish lira crash compressed Rönesans dollar-revenue.", "descriptionKo": "튀르키예 리라 폭락으로 Rönesans 달러 매출 압축.", "lesson": "Turkish builders face currency-volatility exposure.", "lessonKo": "튀르키예 건설사는 통화 변동성 노출 직면." },
+    { "year": 2022, "description": "Russia sanctions compressed Russian construction contracts.", "descriptionKo": "러시아 제재가 러시아 건설 계약 압축.", "lesson": "Cross-border construction faces geopolitical-sanctions risk.", "lessonKo": "국경 간 건설은 지정학 제재 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Construction is patience priced in steel and time.", "textKo": "건설은 강철과 시간으로 가격이 매겨진 인내다.", "context": "On Rönesans mission", "contextKo": "Rönesans 미션에 대해", "source": "https://www.ronesans.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Ja day pillar in Yu month — 'jeongin-gyeok', formal credential authority, fitting ETH-engineer-turned-builder.", "summaryKo": "경자 일주 + 유월 정인격(공식 자격·학문·문서 권위)은 ETH 토목 공학 자격을 32년에 걸쳐 국제 건설 거인으로 전환한 그의 정통 자격 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 강철·건설 정밀과 통하고, 자수 일지의 수 기운이 자본 유동성을, 유금 월지의 금 기운이 정밀 도구를 가리킵니다." }
+}

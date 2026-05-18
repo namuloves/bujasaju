@@ -1,0 +1,38 @@
+{
+  "id": "1588", "name": "Huijiao Yu", "nameKo": "후이자오 위",
+  "netWorth": 2.5, "nationality": "CN", "industry": "Logistics",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Chinese higher education.", "educationKo": "중국 고등교육.",
+    "earlyLife": "Built Chinese express-delivery/logistics business; co-founded or major shareholder of Chinese delivery firm; benefited from e-commerce boom.",
+    "earlyLifeKo": "중국 택배·물류 사업 구축; 중국 택배 회사 공동 창립 또는 주요 주주; 전자상거래 호황 혜택.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "중국 물류 자본." },
+  "careerTimeline": [
+    { "year": 1990, "age": 24, "event": "Began Chinese logistics career.", "eventKo": "중국 물류 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2000, "age": 34, "event": "Built express-delivery operations.", "eventKo": "택배 운영 구축.", "whyItMatteredKo": "택배 단계." },
+    { "year": 2015, "age": 49, "event": "Chinese e-commerce drove logistics demand sharply higher.", "eventKo": "중국 전자상거래가 물류 수요 급격 견인.", "whyItMatteredKo": "전자상거래 단계." },
+    { "year": 2020, "age": 54, "event": "Logistics IPO secured family wealth.", "eventKo": "물류 IPO가 가족 부 확보.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "물류 정점." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 34, "decisionKo": "중국 택배 사업 구축", "alternativeKo": "전통 운송 잔류", "outcomeKo": "25년 후 25억 달러 + 중국 택배 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "중국 물류 사적 가족 지분", "industryKo": "택배·물류", "businessModelKo": "중국 택배 + 전자상거래 풀필먼트", "moatKo": "중국 물류 네트워크 + 25년 운영", "luckVsSkillKo": "운(50%): 중국 전자상거래 폭발. 실력(50%): 25년 일관성." },
+  "personalTraits": {
+    "knownFor": "Chinese logistics magnate.",
+    "knownForKo": "중국 물류 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; Chinese-logistics worker-conditions scrutiny.", "controversiesKo": "제한적; 중국 물류 근로자 조건 감시."
+  },
+  "characterKo": { "summaryKo": "중국 물류 25년 + 전자상거래 호황 수혜.", "tagsKo": ["중국 물류", "택배", "전자상거래"] },
+  "failures": [
+    { "year": 2021, "description": "Chinese logistics price wars compressed margins.", "descriptionKo": "중국 물류 가격 전쟁이 마진 압축.", "lesson": "Logistics faces commodity-cycle pricing pressure.", "lessonKo": "물류는 상품 사이클 가격 압박 직면." },
+    { "year": 2022, "description": "Chinese COVID-19 lockdowns disrupted logistics operations.", "descriptionKo": "중국 COVID-19 봉쇄가 물류 운영 혼란.", "lesson": "Logistics faces pandemic-mobility exposure.", "lessonKo": "물류는 팬데믹 이동성 노출." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "China ships; the world unwraps.", "textKo": "중국이 배송하고, 세계가 풀어본다.", "context": "On Chinese logistics", "contextKo": "중국 물류에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-In day pillar in Myo month — 'jeongjae-gyeok', stable wealth accumulation, fitting logistics-operator.", "summaryKo": "경인 일주 + 묘월 정재격(안정적·정직한 부 축적)은 25년 중국 물류 안정 축적 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 운영과 통하고, 인목 일지·묘목 월지의 강한 목 기운이 회사·네트워크 성장을 이중 강조합니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1116", "name": "Najib Mikati", "nameKo": "나지브 아즈미 미카티",
+  "netWorth": 3.7, "nationality": "LB", "industry": "Telecom",
+  "childhood": {
+    "birthPlace": "Tripoli, Lebanon", "birthPlaceKo": "레바논 트리폴리",
+    "familyBackground": "Born to Lebanese family; brother of Taha Mikati (M1 Group co-founder).", "familyBackgroundKo": "레바논 가정에서 출생; 타하 미카티(M1 Group 공동 창립자)의 형제.",
+    "education": "American University of Beirut; INSEAD MBA.", "educationKo": "베이루트 미국 대학교; INSEAD MBA.",
+    "earlyLife": "Co-founded M1 Group with brother Taha; built Investcom (sold to MTN for $5.5B 2006); founded telecom holdings in Africa/Middle East; served as Prime Minister of Lebanon multiple times.",
+    "earlyLifeKo": "형제 타하와 M1 Group 공동 창립; Investcom 구축(2006 MTN에 55억 달러 매각); 아프리카·중동 통신 지주 창립; 레바논 총리 여러 차례 역임.",
+    "source": "https://en.wikipedia.org/wiki/Najib_Mikati"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Investcom 매각 + M1 Group." },
+  "careerTimeline": [
+    { "year": 1979, "age": 24, "event": "Co-founded M1 Group with brother Taha in Lebanon.", "eventKo": "레바논에서 형제 타하와 M1 Group 공동 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 1982, "age": 27, "event": "Founded Investcom telecom operator.", "eventKo": "Investcom 통신 운영사 창립.", "whyItMatteredKo": "Investcom 출발선." },
+    { "year": 2006, "age": 51, "event": "Sold Investcom to MTN Group for $5.5B.", "eventKo": "Investcom을 MTN Group에 55억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2011, "age": 56, "event": "First served as Prime Minister of Lebanon.", "eventKo": "레바논 첫 총리 역임.", "whyItMatteredKo": "총리 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $3.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 37억 달러.", "whyItMatteredKo": "M1 + 정치 정점." }
+  ],
+  "turningPoints": [{ "year": 2006, "age": 51, "decisionKo": "Investcom MTN에 55억 달러 매각", "alternativeKo": "통신 운영 지속", "outcomeKo": "19년 후 37억 달러 + 레바논 총리" }],
+  "moneyMechanics": { "primaryRevenueKo": "M1 Group 사적 자본 + Investcom 매각 대금 + 다각화", "industryKo": "통신·다각화·정치", "businessModelKo": "M1 Group 다각화 + 통신 매각 자본 + 부동산 + 패션 라이선스", "moatKo": "M1 Group 인맥 + 정치 영향력 + Investcom 매각 자본", "luckVsSkillKo": "운(40%): 레바논 통신 디스럽트. 실력(60%): 형제 협력 + 정확한 매각 타이밍." },
+  "personalTraits": {
+    "knownFor": "Co-founder of M1 Group; former PM of Lebanon multiple times; Lebanon's wealthiest person.",
+    "knownForKo": "M1 Group 공동 창립자; 레바논 전 총리 여러 차례; 레바논 최부유.",
+    "philanthropy": "Mikati Foundation supports Lebanese education and healthcare.", "philanthropyKo": "미카티 재단이 레바논 교육·보건 자선 지원.",
+    "controversies": "Lebanon political scrutiny on wealth and PM role; 2019-protests over banking crisis; corruption investigations.",
+    "controversiesKo": "부와 총리 역할에 대한 레바논 정치 감시; 2019 은행 위기 시위; 부패 조사."
+  },
+  "characterKo": { "summaryKo": "Investcom MTN 매각 + 레바논 총리 + M1 Group.", "tagsKo": ["M1 Group", "Investcom", "Lebanon PM"] },
+  "failures": [
+    { "year": 2019, "description": "Lebanon banking-system collapse compressed his Lebanon-based wealth significantly.", "descriptionKo": "레바논 은행 시스템 붕괴로 그의 레바논 기반 부 상당히 압축.", "lesson": "Sovereign-wealth concentration faces banking-crisis risk.", "lessonKo": "주권 부 집중은 은행 위기 리스크 직면." },
+    { "year": 2011, "description": "First PM term ended after 18 months amid political deadlock.", "descriptionKo": "정치 교착으로 첫 총리 임기가 18개월 후 종료.", "lesson": "Lebanon politics faces persistent deadlock risk.", "lessonKo": "레바논 정치는 지속적 교착 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.0 }, { "year": 2020, "netWorth": 2.7 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Lebanon's prosperity requires Lebanese leaving and returning.", "textKo": "레바논의 번영은 레바논인이 떠나고 돌아오는 것을 요구한다.", "context": "On Lebanon diaspora", "contextKo": "레바논 디아스포라에 대해", "source": "https://en.wikipedia.org/wiki/Najib_Mikati" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Chuk day pillar in Hae month — 'pyeonin-gyeok', non-traditional academic authority, fitting INSEAD-educated PM-entrepreneur.", "summaryKo": "기축 일주 + 해월 편인격(비전통적 학문·문서 권위)은 INSEAD 자격 + 사업 + 총리라는 비전형 다중 권위 결합 경로와 호응합니다. 기토 일간의 평야·수용 기질이 다양한 환경 적응과 통하고, 축토 일지의 토 기운이 자본 안정 기반을, 해수 월지의 수 기운이 자본·정치 유동성을 가리킵니다." }
+}

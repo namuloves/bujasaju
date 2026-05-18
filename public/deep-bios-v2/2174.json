@@ -1,0 +1,39 @@
+{
+  "id": "2174", "name": "Mario Moretti Polegato", "nameKo": "마리오 모레티 폴레가토",
+  "netWorth": 1.8, "nationality": "IT", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Crocetta del Montello, Veneto, Italy", "birthPlaceKo": "이탈리아 베네토 크로체타 델 몬텔로",
+    "familyBackground": "Born to Italian wine-making family.", "familyBackgroundKo": "이탈리아 와인 제조 가족 출신.",
+    "education": "Italian higher education.", "educationKo": "이탈리아 고등교육.",
+    "earlyLife": "Father owned wine business; founded Geox (breathable shoe company) in 1995 in Treviso; patented breathable-rubber-sole technology; built into global shoe brand.",
+    "earlyLifeKo": "아버지는 와인 사업 소유; 1995 트레비소에서 Geox(통기성 신발 회사) 창립; 통기성 고무 밑창 기술 특허; 글로벌 신발 브랜드로 구축.",
+    "source": "https://en.wikipedia.org/wiki/Mario_Moretti_Polegato"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Geox 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1975, "age": 23, "event": "Began family wine business.", "eventKo": "가족 와인 사업 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1995, "age": 43, "event": "Founded Geox with breathable-shoe patent.", "eventKo": "통기성 신발 특허로 Geox 창립.", "whyItMatteredKo": "Geox 출발선." },
+    { "year": 2004, "age": 52, "event": "Geox IPO on Borsa Italiana.", "eventKo": "Geox 보르사 이탈리아나 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2015, "age": 63, "event": "Geox crossed 1,200 stores globally.", "eventKo": "Geox 글로벌 1,200개 매장 돌파.", "whyItMatteredKo": "1,200 매장." },
+    { "year": 2025, "age": 73, "event": "Personal net worth at $1.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 18억 달러.", "whyItMatteredKo": "Geox 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 43, "decisionKo": "와인에서 통기성 신발 발명 회사 창립", "alternativeKo": "와인 사업 잔류", "outcomeKo": "30년 후 18억 달러 + 글로벌 신발 브랜드" }],
+  "moneyMechanics": { "primaryRevenueKo": "Geox(GEO.MI) 창립자 지분 + 다각화", "industryKo": "패션·신발", "businessModelKo": "통기성 신발 + 글로벌 매장 + 라이프스타일 의류", "moatKo": "통기성 특허 + 30년 트랙 + 1,200 매장", "luckVsSkillKo": "운(35%): 통기성 신발 발견. 실력(65%): 특허·30년 운영." },
+  "personalTraits": {
+    "knownFor": "Founder of Geox; inventor of breathable-shoe technology.",
+    "knownForKo": "Geox 창립자; 통기성 신발 기술 발명자.",
+    "philanthropy": "Geox Foundation supports Italian education and innovation.", "philanthropyKo": "Geox 재단이 이탈리아 교육·혁신 자선 지원.",
+    "controversies": "Geox stock pressured post-2015 by fast-fashion competition; limited recent growth.",
+    "controversiesKo": "2015 후 패스트 패션 경쟁으로 Geox 주식 압박; 제한적 최근 성장."
+  },
+  "characterKo": { "summaryKo": "Geox 30년 + 통기성 신발 발명.", "tagsKo": ["Geox", "통기성 신발", "이탈리아 패션"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed shoe-retail demand briefly.", "descriptionKo": "금융위기로 신발 소매 수요 잠시 압축.", "lesson": "Shoe retail faces cycle exposure.", "lessonKo": "신발 소매는 사이클 노출 직면." },
+    { "year": 2015, "description": "Fast-fashion competition (Zara, H&M) compressed Geox market share.", "descriptionKo": "패스트 패션 경쟁(자라·H&M)이 Geox 시장 점유율 압축.", "lesson": "Specialty shoes face fast-fashion structural pressure.", "lessonKo": "특수 신발은 패스트 패션 구조적 압박 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 1.7 }, { "year": 2025, "netWorth": 1.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "The foot breathes; the shoe must too.", "textKo": "발은 숨쉰다; 신발도 그래야 한다.", "context": "On Geox invention", "contextKo": "Geox 발명에 대해", "source": "https://www.geox.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-O day pillar in Sin month — 'pyeonjae-gyeok', large external capital, fitting patent-and-global-brand magnate.", "summaryKo": "갑오 일주 + 신월 편재격(크고 유동적인 외부 자본)은 통기성 특허라는 거대 외부 자본 유동 + 글로벌 브랜드 결합 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 오화 일지의 강한 화 기운이 결단을, 신금 월지의 금 기운이 정밀 특허·제조 도구를 가리킵니다." }
+}

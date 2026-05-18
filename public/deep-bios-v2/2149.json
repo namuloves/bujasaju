@@ -1,0 +1,39 @@
+{
+  "id": "2149", "name": "Stanley Hubbard", "nameKo": "스탠리 스텁 허버드",
+  "netWorth": 1.9, "nationality": "US", "industry": "Media & Entertainment",
+  "childhood": {
+    "birthPlace": "Minnesota, USA", "birthPlaceKo": "미국 미네소타",
+    "familyBackground": "Born to Stanley E. Hubbard — founder of Hubbard Broadcasting.", "familyBackgroundKo": "Hubbard Broadcasting 창립자 스탠리 E. 허버드의 아들.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Joined family Hubbard Broadcasting; co-founded United States Satellite Broadcasting (USSB) — DBS pioneer sold to DirecTV 1999; chairman of Hubbard Broadcasting.",
+    "earlyLifeKo": "가족 Hubbard Broadcasting 합류; United States Satellite Broadcasting(USSB) 공동 창립 — DBS 선구자 1999 DirecTV 매각; Hubbard Broadcasting 의장.",
+    "source": "https://en.wikipedia.org/wiki/Stanley_S._Hubbard"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Hubbard Broadcasting 가족 자본." },
+  "careerTimeline": [
+    { "year": 1955, "age": 22, "event": "Joined family Hubbard Broadcasting.", "eventKo": "가족 Hubbard Broadcasting 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1981, "age": 48, "event": "Founded United States Satellite Broadcasting (USSB).", "eventKo": "United States Satellite Broadcasting(USSB) 창립.", "whyItMatteredKo": "USSB 출발선." },
+    { "year": 1999, "age": 66, "event": "Sold USSB to DirecTV for $1.3B.", "eventKo": "USSB를 DirecTV에 13억 달러 매각.", "whyItMatteredKo": "엑시트 단계." },
+    { "year": 2010, "age": 77, "event": "Hubbard Broadcasting expanded via station acquisitions.", "eventKo": "Hubbard Broadcasting이 방송국 인수 통해 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2025, "age": 92, "event": "Personal net worth at $1.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 19억 달러.", "whyItMatteredKo": "Hubbard 정점." }
+  ],
+  "turningPoints": [{ "year": 1981, "age": 48, "decisionKo": "USSB DBS 위성 방송 창립", "alternativeKo": "지상파 잔류", "outcomeKo": "44년 후 19억 달러 + 위성 방송 선구자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Hubbard Broadcasting + USSB DirecTV 매각 대금 + 다각화", "industryKo": "방송·위성", "businessModelKo": "TV·라디오 방송국 + USSB 매각 자본 + 다각화", "moatKo": "Hubbard 가족 사적 소유 + 70년 방송 트랙", "luckVsSkillKo": "운(40%): 위성 방송 시기. 실력(60%): 70년 가족 일관성." },
+  "personalTraits": {
+    "knownFor": "Chairman of Hubbard Broadcasting; USSB DBS satellite pioneer; major US Republican political donor.",
+    "knownForKo": "Hubbard Broadcasting 의장; USSB DBS 위성 선구자; 주요 미국 공화당 정치 후원자.",
+    "philanthropy": "Hubbard Foundation supports Minnesota community and broadcasting education.", "philanthropyKo": "허버드 재단이 미네소타 지역 사회·방송 교육 자선 지원.",
+    "controversies": "Major Republican donor drew opposition-party criticism; broadcast-industry regulatory standard scrutiny.",
+    "controversiesKo": "주요 공화당 후원자가 반대당 비판 야기; 방송 산업 규제 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Hubbard Broadcasting 70년 + USSB 위성 매각.", "tagsKo": ["Hubbard Broadcasting", "USSB", "공화당 후원자"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed broadcast advertising revenue.", "descriptionKo": "금융위기로 방송 광고 매출 압축.", "lesson": "Broadcasting faces advertising-cycle exposure.", "lessonKo": "방송은 광고 사이클 노출 직면." },
+    { "year": 2010, "description": "Streaming services began compressing traditional broadcast viewership.", "descriptionKo": "스트리밍 서비스가 전통 방송 시청률 압박 시작.", "lesson": "Broadcast faces structural streaming disruption.", "lessonKo": "방송은 구조적 스트리밍 파괴 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.3 }, { "year": 2024, "netWorth": 1.7 }, { "year": 2025, "netWorth": 1.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Broadcasting is community amplified.", "textKo": "방송은 증폭된 공동체다.", "context": "On Hubbard broadcasting", "contextKo": "Hubbard 방송에 대해", "source": "https://www.hubbardbroadcasting.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-O day pillar in Sa month — 'sanggwan-gyeok', unconventional output, fitting DBS-satellite pioneer.", "summaryKo": "갑오 일주 + 사월 상관격(파격적 표현·기존 권위 도전)은 지상파 시대에 위성 방송이라는 파격을 개척한 그의 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 오화 일지·사화 월지의 극강 화 기운이 결단·기세·표현을 이중 강조합니다." }
+}

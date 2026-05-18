@@ -1,0 +1,38 @@
+{
+  "id": "2126", "name": "Ralph Winterhalter", "nameKo": "랄프 빈터할터",
+  "netWorth": 1.9, "nationality": "DE", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to Winterhalter family — owners of Winterhalter commercial dishwasher company.", "familyBackgroundKo": "Winterhalter 상업 식기세척기 회사 소유주 빈터할터 가족 출신.",
+    "education": "German engineering education.", "educationKo": "독일 공학 교육.",
+    "earlyLife": "Joined family Winterhalter — major German commercial-dishwasher manufacturer; 3rd-generation Winterhalter family member; chairman.",
+    "earlyLifeKo": "가족 Winterhalter 합류 — 주요 독일 상업 식기세척기 제조사; 빈터할터 가족 3세대; 의장.",
+    "source": "https://www.winterhalter.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Winterhalter 가족 자본." },
+  "careerTimeline": [
+    { "year": 2002, "age": 24, "event": "Joined family Winterhalter.", "eventKo": "가족 Winterhalter 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2015, "age": 37, "event": "Took executive role at Winterhalter.", "eventKo": "Winterhalter 임원 역할.", "whyItMatteredKo": "임원 단계." },
+    { "year": 2020, "age": 42, "event": "Pandemic disrupted commercial-dishwasher demand briefly; later recovered.", "eventKo": "팬데믹이 상업 식기세척기 수요 잠시 혼란; 이후 회복.", "whyItMatteredKo": "팬데믹 단계." },
+    { "year": 2022, "age": 44, "event": "Took chairman role; expanded Winterhalter globally.", "eventKo": "의장 역할; Winterhalter 글로벌 확장.", "whyItMatteredKo": "지배 단계." },
+    { "year": 2025, "age": 47, "event": "Personal net worth at $1.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 19억 달러.", "whyItMatteredKo": "Winterhalter 정점." }
+  ],
+  "turningPoints": [{ "year": 2022, "age": 44, "decisionKo": "Winterhalter 의장 수락", "alternativeKo": "전문 경영인 위임", "outcomeKo": "3년 후 19억 달러 + 가족 3세대 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Winterhalter 사적 가족 지분", "industryKo": "상업 식기세척기·주방 기기", "businessModelKo": "상업 식기세척기 + 주방 위생 기기 + 글로벌 외식 공급", "moatKo": "독일 상업 식기세척기 1위급 + 가족 사적 소유", "luckVsSkillKo": "운(75%): 가족 자본. 실력(25%): 가족 운영." },
+  "personalTraits": {
+    "knownFor": "Chairman of Winterhalter; 3rd-generation German dishwasher-family heir.",
+    "knownForKo": "Winterhalter 의장; 독일 식기세척기 가족 3세대 상속인.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; private family low scrutiny.", "controversiesKo": "제한적; 사적 가족 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Winterhalter 3세대 + 독일 상업 식기세척기 가부장.", "tagsKo": ["Winterhalter", "독일 가족", "상업 식기세척기"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 closed restaurants globally; Winterhalter commercial dishwasher demand plunged.", "descriptionKo": "COVID-19이 전 세계 레스토랑 폐쇄; Winterhalter 상업 식기세척기 수요 급락.", "lesson": "Restaurant-equipment faces pandemic-cycle exposure.", "lessonKo": "레스토랑 장비는 팬데믹 사이클 노출 직면." },
+    { "year": 2008, "description": "Financial crisis compressed commercial-kitchen capital spending.", "descriptionKo": "금융위기로 상업 주방 자본 지출 압축.", "lesson": "Capital goods face cycle exposure.", "lessonKo": "자본재는 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.2 }, { "year": 2024, "netWorth": 1.7 }, { "year": 2025, "netWorth": 1.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Clean dishes are the silent foundation of every restaurant.", "textKo": "깨끗한 그릇은 모든 레스토랑의 조용한 기반이다.", "context": "On Winterhalter mission", "contextKo": "Winterhalter 미션에 대해", "source": "https://www.winterhalter.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-O day pillar in Myo month — 'yangin-gyeok', strong-self drive, fitting young chairman of family company.", "summaryKo": "갑오 일주 + 묘월 양인격(폭발적 추진력·기세)은 47세에 가족 회사 의장 수락이라는 폭발적 자기 본기 추진 경로와 호응합니다. 갑목 일간 + 묘목 월지의 강한 목 기운이 회사 성장을 이중 강조하고, 오화 일지의 강한 화 기운이 결단·기세를 가리킵니다." }
+}

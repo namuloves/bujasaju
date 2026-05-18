@@ -1,0 +1,38 @@
+{
+  "id": "1575", "name": "Kathy Britton", "nameKo": "캐시 브리튼",
+  "netWorth": 2.6, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Texas, USA", "birthPlaceKo": "미국 텍사스",
+    "familyBackground": "Born to Texas family; daughter of homebuilder father.", "familyBackgroundKo": "텍사스 가정에서 출생; 주택 건설사 아버지의 딸.",
+    "education": "Texas education.", "educationKo": "텍사스 교육.",
+    "earlyLife": "Founded Perry Homes (Texas homebuilder); built into one of largest privately-owned Texas homebuilders; major Texas residential developer.",
+    "earlyLifeKo": "Perry Homes(텍사스 주택 건설사) 창립; 최대 사적 소유 텍사스 주택 건설사 중 하나로 구축; 주요 텍사스 주거 개발자.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Perry Homes 가족 자본." },
+  "careerTimeline": [
+    { "year": 1990, "age": 21, "event": "Joined family Perry Homes.", "eventKo": "가족 Perry Homes 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2000, "age": 31, "event": "Took executive role at Perry Homes.", "eventKo": "Perry Homes 임원 역할.", "whyItMatteredKo": "임원 단계." },
+    { "year": 2015, "age": 46, "event": "Perry Homes expanded across Texas Sun Belt.", "eventKo": "Perry Homes가 텍사스 선벨트 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2022, "age": 53, "event": "Major Republican political donor; funded Texas GOP campaigns.", "eventKo": "주요 공화당 정치 후원자; 텍사스 공화당 캠페인 자금.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2025, "age": 56, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "Perry Homes 정점." }
+  ],
+  "turningPoints": [{ "year": 1990, "age": 21, "decisionKo": "가족 Perry Homes 합류", "alternativeKo": "외부 경력", "outcomeKo": "35년 후 26억 달러 + 텍사스 주택 건설" }],
+  "moneyMechanics": { "primaryRevenueKo": "Perry Homes 사적 가족 자본", "industryKo": "주택 건설", "businessModelKo": "텍사스 주택 건설 + 사적 가족 소유 + 토지 보유", "moatKo": "텍사스 주택 1위급 사적 + 가족 사적 소유", "luckVsSkillKo": "운(50%): 텍사스 인구 성장. 실력(50%): 35년 가족 운영." },
+  "personalTraits": {
+    "knownFor": "CEO of Perry Homes; Texas private homebuilder; major Republican political donor.",
+    "knownForKo": "Perry Homes CEO; 텍사스 사적 주택 건설사; 주요 공화당 정치 후원자.",
+    "philanthropy": "Perry Homes Family Foundation supports Texas education and conservative causes.", "philanthropyKo": "Perry Homes 가족 재단이 텍사스 교육·보수 자선 지원.",
+    "controversies": "Major Republican political donations drew opposition-party criticism.", "controversiesKo": "주요 공화당 정치 후원이 반대당 비판 야기."
+  },
+  "characterKo": { "summaryKo": "Perry Homes + 텍사스 주택 + 공화당 후원자.", "tagsKo": ["Perry Homes", "텍사스 주택", "공화당 후원자"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis halved Texas homebuilding demand.", "descriptionKo": "금융위기로 텍사스 주택 건설 수요 반토막.", "lesson": "Homebuilders face deep recession exposure.", "lessonKo": "주택 건설사는 깊은 침체 노출 직면." },
+    { "year": 2023, "description": "Rising mortgage rates compressed Texas housing demand briefly.", "descriptionKo": "모기지 금리 상승으로 텍사스 주택 수요 잠시 압축.", "lesson": "Homebuilders face rate-cycle exposure.", "lessonKo": "주택 건설사는 금리 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Texas keeps growing; we keep building.", "textKo": "텍사스는 계속 성장한다; 우리는 계속 짓는다.", "context": "On Texas housing", "contextKo": "텍사스 주택에 대해", "source": "https://www.perryhomes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Sa day pillar in Sin month — 'sanggwan-gyeok', unconventional output, fitting woman-CEO Texas homebuilder and political donor.", "summaryKo": "신사 일주 + 신월 상관격(파격적 표현·기존 권위 도전)은 텍사스 주택 건설이라는 전통 남성 산업에서 여성 CEO + 정치 후원자라는 파격 결합 경로와 호응합니다. 신금 일간 + 신금 월지의 극강 금 기운이 정밀 결단을 이중 강조하고, 사화 일지의 강한 화 기운이 결단·기세를 가리킵니다." }
+}

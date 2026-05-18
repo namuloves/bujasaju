@@ -1,0 +1,39 @@
+{
+  "id": "895", "name": "Hamad bin Jassim bin Jaber Al Thani", "nameKo": "하마드 빈 자심 빈 자베르 알 타니",
+  "netWorth": 4.6, "nationality": "QA", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Doha, Qatar", "birthPlaceKo": "카타르 도하",
+    "familyBackground": "Born to Qatari royal Al Thani family.", "familyBackgroundKo": "카타르 왕실 알 타니 가족 출신.",
+    "education": "Qatari military academy; Sandhurst RMA.", "educationKo": "카타르 군사 아카데미; 샌드허스트 RMA.",
+    "earlyLife": "Qatari prince; served as Foreign Minister 1992-2013, Prime Minister 2007-2013, CEO of Qatar Investment Authority (QIA); known as 'HBJ'; key architect of Qatar global strategy.",
+    "earlyLifeKo": "카타르 왕자; 1992-2013 외교부 장관, 2007-2013 총리, 카타르 투자청(QIA) CEO 역임; 'HBJ'로 알려짐; 카타르 글로벌 전략 핵심 설계자.",
+    "source": "https://en.wikipedia.org/wiki/Hamad_bin_Jassim_bin_Jaber_Al_Thani"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "카타르 왕실 + 정부 지위 + 사적 투자." },
+  "careerTimeline": [
+    { "year": 1982, "age": 23, "event": "Began Qatari government career.", "eventKo": "카타르 정부 경력 시작.", "whyItMatteredKo": "정부 출발선." },
+    { "year": 1992, "age": 33, "event": "Became Qatar's Foreign Minister.", "eventKo": "카타르 외교부 장관 취임.", "whyItMatteredKo": "외교부 단계." },
+    { "year": 2005, "age": 46, "event": "Became CEO of Qatar Investment Authority (QIA).", "eventKo": "카타르 투자청(QIA) CEO 취임.", "whyItMatteredKo": "QIA 단계." },
+    { "year": 2013, "age": 54, "event": "Stepped down from government posts amid Qatar leadership change.", "eventKo": "카타르 리더십 변경 가운데 정부 직책 사임.", "whyItMatteredKo": "사임 단계." },
+    { "year": 2025, "age": 66, "event": "Personal net worth at $4.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 46억 달러.", "whyItMatteredKo": "정부 후 정점." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 46, "decisionKo": "QIA CEO 수락 카타르 글로벌 자본 관리", "alternativeKo": "외교부만 잔류", "outcomeKo": "20년 후 46억 달러 + 카타르 글로벌 영향력" }],
+  "moneyMechanics": { "primaryRevenueKo": "카타르 왕실 + Glendower 사적 투자 + 부동산", "industryKo": "정부·국부펀드 + 사적 투자", "businessModelKo": "QIA CEO 시기 인맥 + Glendower Capital + 글로벌 부동산", "moatKo": "카타르 왕실 + QIA 글로벌 인맥 + 33년 외교 경력", "luckVsSkillKo": "운(70%): 카타르 왕실 + 천연가스 부. 실력(30%): 33년 외교·QIA 관리." },
+  "personalTraits": {
+    "knownFor": "Former Qatari PM and Foreign Minister; former QIA CEO; major sovereign-fund architect.",
+    "knownForKo": "전 카타르 총리·외교부 장관; 전 QIA CEO; 주요 국부 펀드 설계자.",
+    "philanthropy": "Qatar humanitarian initiatives.", "philanthropyKo": "카타르 인도 이니셔티브.",
+    "controversies": "QIA Volkswagen-Porsche litigation; QIA Russian investments during sanctions era; HBJ vs Credit Suisse FX fraud lawsuit.",
+    "controversiesKo": "QIA 폭스바겐-포르쉐 소송; 제재 시대 QIA 러시아 투자; HBJ 대 Credit Suisse 외환 사기 소송."
+  },
+  "characterKo": { "summaryKo": "전 QIA CEO + 카타르 글로벌 자본 설계자.", "tagsKo": ["QIA", "Qatar Royal", "HBJ"] },
+  "failures": [
+    { "year": 2013, "description": "Stepped down from PM/FM/QIA roles amid Qatar leadership transition.", "descriptionKo": "카타르 리더십 전환 가운데 PM·FM·QIA 역할 사임.", "lesson": "Government wealth faces succession-and-political-cycle risk.", "lessonKo": "정부 부는 승계·정치 사이클 리스크 직면." },
+    { "year": 2017, "description": "Qatar diplomatic crisis (Saudi-led blockade) compressed Qatar regional standing.", "descriptionKo": "카타르 외교 위기(사우디 주도 봉쇄)가 카타르 지역 위상 압박.", "lesson": "Gulf wealth faces regional-rivalry risk.", "lessonKo": "걸프 부는 지역 경쟁 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.2 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 4.4 }, { "year": 2025, "netWorth": 4.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Diplomacy and capital travel the same routes.", "textKo": "외교와 자본은 같은 경로를 여행한다.", "context": "On Qatar global strategy", "contextKo": "카타르 글로벌 전략에 대해", "source": "https://en.wikipedia.org/wiki/Hamad_bin_Jassim_bin_Jaber_Al_Thani" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Jin day pillar in Yu month — 'jeonggwan-gyeok', formal authority, fitting prime-minister-and-sovereign-fund-CEO.", "summaryKo": "병진 일주 + 유월 정관격(공식 권위·규제 아래에서 일하는 구조)은 총리·외교부 장관·QIA CEO라는 다층 정통 정부 권위 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 유금 월지의 금 기운이 정밀 외교·금융 도구를 가리킵니다." }
+}

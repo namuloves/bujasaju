@@ -1,0 +1,39 @@
+{
+  "id": "1682", "name": "Fred Ehrsam", "nameKo": "프레데릭 어삼",
+  "netWorth": 2.4, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Duke University.", "educationKo": "듀크 대학교.",
+    "earlyLife": "Worked at Goldman Sachs in foreign exchange; co-founded Coinbase with Brian Armstrong in 2012; left Coinbase 2017; co-founded Paradigm crypto investment firm 2018 with Matt Huang.",
+    "earlyLifeKo": "Goldman Sachs 외환 부서 근무; 2012 브라이언 암스트롱과 Coinbase 공동 창립; 2017 Coinbase 떠남; 2018 매트 황과 Paradigm 암호화폐 투자 회사 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Fred_Ehrsam"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Coinbase + Paradigm 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2010, "age": 22, "event": "Began at Goldman Sachs in FX.", "eventKo": "Goldman Sachs FX 부서에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 2012, "age": 24, "event": "Co-founded Coinbase with Brian Armstrong.", "eventKo": "브라이언 암스트롱과 Coinbase 공동 창립.", "whyItMatteredKo": "Coinbase 출발선." },
+    { "year": 2017, "age": 29, "event": "Left Coinbase board to start own investment vehicle.", "eventKo": "Coinbase 이사회 떠나 자체 투자 비클 창립.", "whyItMatteredKo": "Coinbase 출구." },
+    { "year": 2018, "age": 30, "event": "Co-founded Paradigm crypto investment firm with Matt Huang.", "eventKo": "매트 황과 Paradigm 암호화폐 투자 회사 공동 창립.", "whyItMatteredKo": "Paradigm 출발선." },
+    { "year": 2025, "age": 37, "event": "Personal net worth at $2.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 24억 달러.", "whyItMatteredKo": "Coinbase + Paradigm 정점." }
+  ],
+  "turningPoints": [{ "year": 2018, "age": 30, "decisionKo": "Coinbase 떠나 Paradigm 암호화폐 VC 창립", "alternativeKo": "Coinbase 잔류", "outcomeKo": "7년 후 24억 달러 + 최대 암호화폐 VC" }],
+  "moneyMechanics": { "primaryRevenueKo": "Coinbase(COIN) 지분 + Paradigm 펀드 지분", "industryKo": "암호화폐·VC", "businessModelKo": "Coinbase 주식 + Paradigm 암호화폐 VC + Uniswap 등 토큰 보유", "moatKo": "Coinbase 공동 창립 + Paradigm 최대 암호화폐 VC", "luckVsSkillKo": "운(40%): 암호화폐 부상. 실력(60%): 24세 Coinbase + Paradigm 두 창업." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Coinbase; co-founder of Paradigm crypto investment.",
+    "knownForKo": "Coinbase 공동 창립자; Paradigm 암호화폐 투자 공동 창립자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Paradigm portfolio FTX exposure caused 2022 losses; crypto sector regulatory scrutiny.",
+    "controversiesKo": "Paradigm 포트폴리오 FTX 노출이 2022 손실 야기; 암호화폐 부문 규제 감시."
+  },
+  "characterKo": { "summaryKo": "Coinbase 공동 창립 + Paradigm 암호화폐 VC.", "tagsKo": ["Coinbase", "Paradigm", "암호화폐 VC"] },
+  "failures": [
+    { "year": 2022, "description": "Paradigm wrote down FTX investment ($278M) to zero after collapse.", "descriptionKo": "Paradigm이 FTX 투자(2억 7,800만 달러)를 붕괴 후 영으로 손실 처리.", "lesson": "Crypto VC faces due-diligence and fraud risk.", "lessonKo": "암호화폐 VC는 실사·사기 리스크 직면." },
+    { "year": 2022, "description": "Crypto winter compressed Coinbase stock 80%; Paradigm portfolio fell.", "descriptionKo": "암호화폐 겨울로 Coinbase 주식 80% 압축; Paradigm 포트폴리오 하락.", "lesson": "Crypto-VC face concentrated-sector cycle.", "lessonKo": "암호화폐 VC는 집중 부문 사이클 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 0.5 }, { "year": 2021, "netWorth": 3.5 }, { "year": 2023, "netWorth": 1.5 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Crypto is the internet of money.", "textKo": "암호화폐는 돈의 인터넷이다.", "context": "On crypto vision", "contextKo": "암호화폐 비전에 대해", "source": "https://www.paradigm.xyz" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Chuk day pillar in Sa month — 'siksin-gyeok', creative output, fitting crypto-exchange-and-VC co-founder.", "summaryKo": "을축 일주 + 사월 식신격(창의적 결과물·표현)은 암호화폐 거래소 + VC라는 두 창의적 자본 표현을 결합한 그의 경로와 호응합니다. 을목 일간의 작은 풀·유연한 적응 기질이 두 단계 적응과 통하고, 축토 일지의 토 기운이 자본 안정 기반을, 사화 월지의 강한 화 기운이 결단을 가리킵니다." }
+}

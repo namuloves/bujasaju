@@ -1,0 +1,38 @@
+{
+  "id": "2020", "name": "Gregg Hymowitz", "nameKo": "그렉 S. 하이모위츠",
+  "netWorth": 2.0, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Tulane University; Harvard Law.", "educationKo": "툴레인 대학교; 하버드 로스쿨.",
+    "earlyLife": "Worked at Goldman Sachs; co-founded EnTrust Capital in 1997 (later EnTrustPermal); manages hedge-fund-of-funds; CEO/chair.",
+    "earlyLifeKo": "Goldman Sachs 근무; 1997 EnTrust Capital(이후 EnTrustPermal) 공동 창립; 헤지펀드 펀드 운용; CEO·의장.",
+    "source": "https://www.entrustglobal.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "EnTrust Capital 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1989, "age": 24, "event": "Began at Goldman Sachs after Harvard Law.", "eventKo": "하버드 로스쿨 후 Goldman Sachs에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 1997, "age": 32, "event": "Co-founded EnTrust Capital.", "eventKo": "EnTrust Capital 공동 창립.", "whyItMatteredKo": "EnTrust 출발선." },
+    { "year": 2016, "age": 51, "event": "EnTrust merged with Permal Group to form EnTrustPermal.", "eventKo": "EnTrust가 Permal Group과 합병하여 EnTrustPermal 형성.", "whyItMatteredKo": "합병 단계." },
+    { "year": 2020, "age": 55, "event": "EnTrust Global crossed $20B+ AUM.", "eventKo": "EnTrust Global 200억+ AUM 돌파.", "whyItMatteredKo": "AUM 단계." },
+    { "year": 2025, "age": 60, "event": "Personal net worth at $2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 20억 달러.", "whyItMatteredKo": "EnTrust 정점." }
+  ],
+  "turningPoints": [{ "year": 1997, "age": 32, "decisionKo": "EnTrust 헤지펀드 펀드 창립", "alternativeKo": "Goldman 잔류", "outcomeKo": "28년 후 20억 달러 + 200억 AUM 펀드" }],
+  "moneyMechanics": { "primaryRevenueKo": "EnTrust Capital 공동 창립자 지분 + 수수료", "industryKo": "헤지펀드·펀드 오브 펀드", "businessModelKo": "헤지펀드 펀드 + 대체 투자 + 수수료 자본화", "moatKo": "EnTrust 200억 AUM + 28년 트랙", "luckVsSkillKo": "운(40%): 헤지펀드 시대. 실력(60%): 28년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and CEO of EnTrust Global; hedge-fund-of-funds investor.",
+    "knownForKo": "EnTrust Global 공동 창립자·CEO; 헤지펀드 펀드 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Hedge fund-of-funds structural fee compression scrutiny.", "controversiesKo": "헤지펀드 펀드 구조적 수수료 압축 감시."
+  },
+  "characterKo": { "summaryKo": "EnTrust Capital 28년 + 헤지펀드 펀드 거인.", "tagsKo": ["EnTrust Capital", "Permal", "hedge fund of funds"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed hedge-fund-of-funds; redemptions surged.", "descriptionKo": "금융위기로 헤지펀드 펀드 압축; 환매 급증.", "lesson": "FoF face crisis-redemption exposure.", "lessonKo": "FoF는 위기 환매 노출 직면." },
+    { "year": 2018, "description": "Passive-investing rise compressed hedge-fund-of-funds fees.", "descriptionKo": "패시브 투자 부상이 헤지펀드 펀드 수수료 압축.", "lesson": "FoF face structural fee compression.", "lessonKo": "FoF는 구조적 수수료 압축 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 1.8 }, { "year": 2025, "netWorth": 2.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Diversification is humility in alternative form.", "textKo": "다각화는 대안적 형태의 겸손이다.", "context": "On hedge-fund-of-funds", "contextKo": "헤지펀드 펀드에 대해", "source": "https://www.entrustglobal.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Sul day pillar in Hae month — 'sanggwan-gyeok', unconventional output, fitting hedge-fund-of-funds aggregator.", "summaryKo": "갑술 일주 + 해월 상관격(파격적 표현·기존 권위 도전)은 헤지펀드 펀드라는 파격 다각화 자본 표현 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 술토 일지의 토 기운이 자본 안정 기반을, 해수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

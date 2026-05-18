@@ -1,0 +1,39 @@
+{
+  "id": "1325", "name": "He Xiaopeng", "nameKo": "허샤오펑",
+  "netWorth": 3.1, "nationality": "CN", "industry": "Automotive",
+  "childhood": {
+    "birthPlace": "Hubei, China", "birthPlaceKo": "중국 후베이",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "South China University of Technology.", "educationKo": "남중국 공과대학교.",
+    "earlyLife": "Co-founded UCWeb mobile browser 2004; sold to Alibaba 2014; founded XPeng Motors (Xiaopeng Motors) EV company 2014; CEO/chairman; XPeng IPO 2020.",
+    "earlyLifeKo": "2004 UCWeb 모바일 브라우저 공동 창립; 2014 알리바바 매각; 2014 XPeng Motors(샤오펑 모터스) EV 회사 창립; CEO·의장; 2020 XPeng 상장.",
+    "source": "https://en.wikipedia.org/wiki/He_Xiaopeng"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "UCWeb 매각 + XPeng 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1999, "age": 22, "event": "Began career as software engineer.", "eventKo": "소프트웨어 엔지니어 경력 시작.", "whyItMatteredKo": "기술 출발선." },
+    { "year": 2004, "age": 27, "event": "Co-founded UCWeb mobile browser.", "eventKo": "UCWeb 모바일 브라우저 공동 창립.", "whyItMatteredKo": "UCWeb 출발선." },
+    { "year": 2014, "age": 37, "event": "Sold UCWeb to Alibaba for $4.7B; co-founded XPeng Motors.", "eventKo": "UCWeb을 알리바바에 47억 달러 매각; XPeng Motors 공동 창립.", "whyItMatteredKo": "엑시트 + XPeng 출발선." },
+    { "year": 2020, "age": 43, "event": "XPeng IPO on NYSE.", "eventKo": "XPeng NYSE 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2025, "age": 48, "event": "Personal net worth at $3.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 31억 달러.", "whyItMatteredKo": "XPeng 정점." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 37, "decisionKo": "UCWeb 알리바바 매각 후 XPeng Motors 창립", "alternativeKo": "알리바바 임원 잔류", "outcomeKo": "11년 후 31억 달러 + 중국 EV 신생 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "XPeng(XPEV) 창립자 지분 + UCWeb 매각 대금", "industryKo": "EV·자율주행", "businessModelKo": "중국 EV 제조 + 자율주행 + 글로벌 확장", "moatKo": "XPeng 중국 EV 신생 3개 중 하나 + UCWeb 매각 자본", "luckVsSkillKo": "운(40%): 중국 EV 호황. 실력(60%): UCWeb 매각 + XPeng 창립." },
+  "personalTraits": {
+    "knownFor": "Co-founder of UCWeb (sold to Alibaba); founder/CEO of XPeng Motors.",
+    "knownForKo": "UCWeb 공동 창립자(알리바바 매각); XPeng Motors 창립자·CEO.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "XPeng XPILOT autonomous-driving accidents; 2022 stock crash on slow deliveries.",
+    "controversiesKo": "XPeng XPILOT 자율주행 사고; 2022 느린 배송으로 주가 폭락."
+  },
+  "characterKo": { "summaryKo": "UCWeb + XPeng Motors 중국 EV 신생 거인.", "tagsKo": ["XPeng Motors", "UCWeb", "중국 EV"] },
+  "failures": [
+    { "year": 2022, "description": "XPeng stock fell 80%+ from 2021 peak amid slow delivery and tech selloff.", "descriptionKo": "느린 배송·기술 매도세로 XPeng 주식이 2021 정점에서 80%+ 하락.", "lesson": "EV startups face execution-and-capital exposure.", "lessonKo": "EV 스타트업은 실행·자본 노출 직면." },
+    { "year": 2023, "description": "XPILOT autonomous-driving accidents drew Chinese regulator scrutiny.", "descriptionKo": "XPILOT 자율주행 사고가 중국 규제 감시 야기.", "lesson": "Autonomous-driving faces safety-regulator risk.", "lessonKo": "자율주행은 안전 규제 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.0 }, { "year": 2021, "netWorth": 5.0 }, { "year": 2023, "netWorth": 1.5 }, { "year": 2025, "netWorth": 3.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "EV is the iPhone moment of cars.", "textKo": "EV는 자동차의 아이폰 순간이다.", "context": "On EV industry", "contextKo": "EV 산업에 대해", "source": "https://www.xiaopeng.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Ja day pillar in Sul month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting EV-startup-under-Tesla-pressure founder.", "summaryKo": "갑자 일주 + 술월 편관격(강한 외부 압박·권력 충돌)은 테슬라라는 강한 외부 경쟁 압박 + 중국 EV 규제 환경의 신생 EV 창립자 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 자수 일지의 수 기운이 자본·기술 유동성을, 술토 월지의 토 기운이 자본 안정을 가리킵니다." }
+}

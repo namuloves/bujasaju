@@ -1,0 +1,38 @@
+{
+  "id": "1556", "name": "Jayme Garfinkel", "nameKo": "자이미 브라질 가르핀켈",
+  "netWorth": 2.6, "nationality": "BR", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Brazil", "birthPlaceKo": "브라질",
+    "familyBackground": "Born to Brazilian Jewish family.", "familyBackgroundKo": "브라질 유대인 가정에서 출생.",
+    "education": "Brazilian higher education.", "educationKo": "브라질 고등교육.",
+    "earlyLife": "Founded Porto Seguro insurance company in 1945; built into one of Brazil's largest insurance companies; chair emeritus.",
+    "earlyLifeKo": "1945 Porto Seguro 보험 회사 창립; 브라질 최대 보험 회사 중 하나로 구축; 명예 의장.",
+    "source": "https://www.portoseguro.com.br"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Porto Seguro 가족 자본." },
+  "careerTimeline": [
+    { "year": 1965, "age": 20, "event": "Joined family Porto Seguro insurance.", "eventKo": "가족 Porto Seguro 보험 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1980, "age": 35, "event": "Took executive role at Porto Seguro.", "eventKo": "Porto Seguro 임원 역할.", "whyItMatteredKo": "임원 단계." },
+    { "year": 2004, "age": 59, "event": "Porto Seguro IPO on B3 Brazil stock exchange.", "eventKo": "Porto Seguro B3 브라질 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2015, "age": 70, "event": "Porto Seguro became major Brazilian insurance leader.", "eventKo": "Porto Seguro가 주요 브라질 보험 리더가 됨.", "whyItMatteredKo": "리더 단계." },
+    { "year": 2025, "age": 80, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "Porto Seguro 정점." }
+  ],
+  "turningPoints": [{ "year": 2004, "age": 59, "decisionKo": "Porto Seguro IPO 추진", "alternativeKo": "사적 유지", "outcomeKo": "21년 후 26억 달러 + 브라질 보험 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Porto Seguro(PSSA3) 가족 지분 + 다각화", "industryKo": "보험·금융", "businessModelKo": "자동차·건강·생명 보험 + 가족 의결권", "moatKo": "브라질 보험 1위급 + 가족 사적 통제 + 60년 트랙", "luckVsSkillKo": "운(40%): 브라질 보험 부상. 실력(60%): 60년 가족 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder/chair emeritus of Porto Seguro; Brazilian insurance magnate.",
+    "knownForKo": "Porto Seguro 창립자·명예 의장; 브라질 보험 거물.",
+    "philanthropy": "Porto Seguro supports Brazilian education and culture.", "philanthropyKo": "Porto Seguro가 브라질 교육·문화 자선 지원.",
+    "controversies": "Limited; standard Brazilian-insurance regulatory scrutiny.", "controversiesKo": "제한적; 브라질 보험 규제 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Porto Seguro 60년 + 브라질 보험 1위급.", "tagsKo": ["Porto Seguro", "브라질 보험"] },
+  "failures": [
+    { "year": 2015, "description": "Brazilian recession compressed insurance demand briefly.", "descriptionKo": "브라질 침체로 보험 수요 잠시 압축.", "lesson": "Brazilian insurance faces macro-cycle exposure.", "lessonKo": "브라질 보험은 거시 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 increased insurance claims temporarily; revenue mixed.", "descriptionKo": "COVID-19이 일시적으로 보험 청구 증가; 매출 혼재.", "lesson": "Insurance faces pandemic-claim exposure.", "lessonKo": "보험은 팬데믹 청구 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Insurance is patience priced in actuarial tables.", "textKo": "보험은 계리표로 가격이 매겨진 인내다.", "context": "On Porto Seguro mission", "contextKo": "Porto Seguro 미션에 대해", "source": "https://www.portoseguro.com.br" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Myo day pillar in Hae month — 'pyeonjae-gyeok', large external capital flow, fitting insurance-and-actuarial magnate.", "summaryKo": "계묘 일주 + 해월 편재격(크고 유동적인 외부 자본)은 보험 보험료·청구라는 거대 외부 자본 유동 60년 운영 경로와 호응합니다. 계수 일간 + 해수 월지의 강한 수 기운이 자본·통계 유동성을 이중 강조하고, 묘목 일지의 목 기운이 회사 성장을 가리킵니다." }
+}

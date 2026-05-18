@@ -1,0 +1,38 @@
+{
+  "id": "1818", "name": "Nan Cunhui", "nameKo": "난춘후이",
+  "netWorth": 2.2, "nationality": "CN", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Wenzhou, Zhejiang, China", "birthPlaceKo": "중국 저장성 원저우",
+    "familyBackground": "Born to Chinese working-class family.", "familyBackgroundKo": "중국 노동자 계급 가정에서 출생.",
+    "education": "Limited formal education.", "educationKo": "제한적 정식 교육.",
+    "earlyLife": "Founded Chint Group in 1984 in Wenzhou — China's largest electrical-equipment manufacturer; built into major solar-and-electrical-power group.",
+    "earlyLifeKo": "1984 원저우에서 Chint Group 창립 — 중국 최대 전기 장비 제조사; 주요 태양광·전력 그룹으로 구축.",
+    "source": "https://en.wikipedia.org/wiki/Nan_Cunhui"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Chint Group 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1980, "age": 17, "event": "Began as apprentice in Wenzhou.", "eventKo": "원저우에서 견습생으로 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1984, "age": 21, "event": "Founded Chint Group with $50K.", "eventKo": "Chint Group을 50,000달러로 창립.", "whyItMatteredKo": "Chint 출발선." },
+    { "year": 2008, "age": 45, "event": "Acquired Astroenergy solar panel business.", "eventKo": "Astroenergy 태양광 패널 사업 인수.", "whyItMatteredKo": "태양광 단계." },
+    { "year": 2010, "age": 47, "event": "Chint Electric IPO on Shanghai Stock Exchange.", "eventKo": "Chint Electric 상하이 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2025, "age": 62, "event": "Personal net worth at $2.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 22억 달러.", "whyItMatteredKo": "Chint 정점." }
+  ],
+  "turningPoints": [{ "year": 2008, "age": 45, "decisionKo": "Astroenergy 태양광 인수로 신에너지 전환", "alternativeKo": "전통 전기 잔류", "outcomeKo": "17년 후 22억 달러 + 신에너지 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Chint Group + Chint Electric(601877) + Astroenergy 가족 지분", "industryKo": "전기 장비·태양광", "businessModelKo": "전기 장비 + 태양광 모듈 + 스마트 그리드 + 신에너지 + 글로벌 수출", "moatKo": "중국 전기 장비 1위 + 41년 가족 트랙", "luckVsSkillKo": "운(35%): 중국 인프라 부상. 실력(65%): 41년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Chint Group; Chinese electrical-equipment magnate; Wenzhou self-made entrepreneur.",
+    "knownForKo": "Chint Group 창립자; 중국 전기 장비 거물; 원저우 자수성가 기업가.",
+    "philanthropy": "Chint supports Wenzhou education and Chinese vocational training.", "philanthropyKo": "Chint가 원저우 교육·중국 직업 훈련 자선 지원.",
+    "controversies": "Chinese trade disputes on solar exports (US tariffs).", "controversiesKo": "태양광 수출 중국 무역 분쟁(미국 관세)."
+  },
+  "characterKo": { "summaryKo": "Chint 41년 + 중국 전기 1위 + 태양광 거인.", "tagsKo": ["Chint Group", "Astroenergy", "원저우"] },
+  "failures": [
+    { "year": 2012, "description": "US imposed solar tariffs compressing Chint solar export margins.", "descriptionKo": "미국 태양광 관세 부과로 Chint 태양광 수출 마진 압축.", "lesson": "Solar manufacturers face geopolitical-tariff risk.", "lessonKo": "태양광 제조사는 지정학 관세 리스크 직면." },
+    { "year": 2008, "description": "Global financial crisis briefly compressed Chinese electrical exports.", "descriptionKo": "글로벌 금융위기로 중국 전기 수출 잠시 압축.", "lesson": "Chinese exporters face global-cycle exposure.", "lessonKo": "중국 수출사는 글로벌 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.6 }, { "year": 2024, "netWorth": 2.0 }, { "year": 2025, "netWorth": 2.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Wenzhou taught us to start with nothing and build everything.", "textKo": "원저우는 우리에게 아무것도 없이 시작해 모든 것을 짓는 법을 가르쳤다.", "context": "On Wenzhou spirit", "contextKo": "원저우 정신에 대해", "source": "https://www.chint.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Chuk day pillar in Mi month — 'pyeon-gwan-gyeok', strong external pressure, fitting Wenzhou-self-made manufacturer under regulatory cycles.", "summaryKo": "계축 일주 + 미월 편관격(강한 외부 압박·권력 충돌)은 미국 관세 + 중국 정책이라는 강한 외부 규제 압박 환경의 41년 제조 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 자본 관리와 통하고, 축토 일지·미토 월지의 극강 토 기운이 자본 안정 기반을 이중 강조합니다." }
+}

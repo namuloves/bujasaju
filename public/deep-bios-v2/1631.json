@@ -1,0 +1,39 @@
+{
+  "id": "1631", "name": "Brannin McBee", "nameKo": "브래닌 맥비",
+  "netWorth": 2.5, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Wofford College.", "educationKo": "워포드 칼리지.",
+    "earlyLife": "Co-founded CoreWeave in 2017 — GPU cloud computing company; chief strategy officer; CoreWeave grew to major AI infrastructure provider for OpenAI, Microsoft.",
+    "earlyLifeKo": "2017 CoreWeave 공동 창립 — GPU 클라우드 컴퓨팅 회사; 최고 전략 책임자; CoreWeave가 OpenAI·Microsoft를 위한 주요 AI 인프라 제공자로 성장.",
+    "source": "https://www.coreweave.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "CoreWeave 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2007, "age": 22, "event": "Began commodity trading career.", "eventKo": "상품 거래 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2015, "age": 30, "event": "Began crypto mining with co-founders Michael Intrator and Brian Venturo.", "eventKo": "공동 창립자 마이클 인트레이터·브라이언 벤투로와 암호화폐 채굴 시작.", "whyItMatteredKo": "채굴 단계." },
+    { "year": 2017, "age": 32, "event": "Co-founded CoreWeave pivoting from crypto mining to GPU cloud.", "eventKo": "암호화폐 채굴에서 GPU 클라우드로 전환 CoreWeave 공동 창립.", "whyItMatteredKo": "CoreWeave 출발선." },
+    { "year": 2024, "age": 39, "event": "CoreWeave raised at $19B+ valuation; major OpenAI/Microsoft contracts.", "eventKo": "CoreWeave 190억+ 달러 밸류에이션 조달; 주요 OpenAI·Microsoft 계약.", "whyItMatteredKo": "밸류에이션 단계." },
+    { "year": 2025, "age": 40, "event": "Personal net worth at $2.5B per Forbes Real-Time; CoreWeave NASDAQ IPO.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러; CoreWeave NASDAQ 상장.", "whyItMatteredKo": "IPO 정점." }
+  ],
+  "turningPoints": [{ "year": 2017, "age": 32, "decisionKo": "암호화폐 채굴에서 GPU 클라우드 컴퓨팅으로 전환", "alternativeKo": "암호화폐 채굴 잔류", "outcomeKo": "8년 후 25억 달러 + AI 인프라 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "CoreWeave 공동 창립자 지분 + 다각화", "industryKo": "GPU 클라우드·AI 인프라", "businessModelKo": "Nvidia GPU 클라우드 + OpenAI·Microsoft 장기 계약 + 데이터센터", "moatKo": "Nvidia 우선 공급 관계 + OpenAI 핵심 인프라 + 8년 GPU 전문성", "luckVsSkillKo": "운(60%): AI 인프라 폭발적 부상 시기. 실력(40%): 채굴에서 클라우드 피벗 결단." },
+  "personalTraits": {
+    "knownFor": "Co-founder of CoreWeave; chief strategy officer; AI-infrastructure pioneer.",
+    "knownForKo": "CoreWeave 공동 창립자; 최고 전략 책임자; AI 인프라 선구자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "CoreWeave concentrated-customer (Microsoft) exposure scrutiny; high-debt financing scrutiny.",
+    "controversiesKo": "CoreWeave 집중 고객(Microsoft) 노출 감시; 고부채 금융 감시."
+  },
+  "characterKo": { "summaryKo": "암호화폐 채굴 → CoreWeave AI 인프라 거인.", "tagsKo": ["CoreWeave", "GPU 클라우드", "AI 인프라"] },
+  "failures": [
+    { "year": 2018, "description": "Crypto crash crashed mining economics; pivoted to GPU cloud out of necessity.", "descriptionKo": "암호화폐 폭락이 채굴 경제 붕괴; 필요에 의해 GPU 클라우드 전환.", "lesson": "Crypto-cycle volatility forced pivot — luck favored the pivot.", "lessonKo": "암호화폐 사이클 변동성이 피벗 강제 — 운이 피벗을 도왔다." },
+    { "year": 2025, "description": "Post-IPO CoreWeave stock faced volatility on concentration concerns.", "descriptionKo": "IPO 후 CoreWeave 주식이 집중 우려로 변동성 직면.", "lesson": "AI infrastructure faces concentrated-customer revaluation.", "lessonKo": "AI 인프라는 집중 고객 재평가 직면." }
+  ],
+  "wealthHistory": [{ "year": 2022, "netWorth": 0.3 }, { "year": 2023, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.2 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "AI runs on rented GPUs; we rent the GPUs.", "textKo": "AI는 임대 GPU로 작동한다; 우리가 GPU를 임대한다.", "context": "On CoreWeave model", "contextKo": "CoreWeave 모델에 대해", "source": "https://www.coreweave.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Ja day pillar in Myo month — 'jeongjae-gyeok', stable wealth accumulation, fitting infrastructure-business AI-cloud builder.", "summaryKo": "갑자 일주 + 묘월 정재격(안정적·정직한 부 축적)은 GPU 클라우드라는 안정적 인프라 자본 축적 경로와 호응합니다. 갑목 일간 + 묘목 월지의 강한 목 기운이 회사 성장을 이중 강조하고, 자수 일지의 수 기운이 자본·데이터 유동성을 가리킵니다." }
+}

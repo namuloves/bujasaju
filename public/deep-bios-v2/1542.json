@@ -1,0 +1,38 @@
+{
+  "id": "1542", "name": "Bertil Hult", "nameKo": "베르틸 에리크 훌트",
+  "netWorth": 2.6, "nationality": "SE", "industry": "Service",
+  "childhood": {
+    "birthPlace": "Sweden", "birthPlaceKo": "스웨덴",
+    "familyBackground": "Born to Swedish family.", "familyBackgroundKo": "스웨덴 가정에서 출생.",
+    "education": "Self-educated; dyslexia overcame.", "educationKo": "독학; 난독증 극복.",
+    "earlyLife": "Founded EF Education First in 1965 in Sweden; built into world's largest privately-held language-training company; founder of Hult International Business School.",
+    "earlyLifeKo": "1965 스웨덴에서 EF Education First 창립; 세계 최대 사적 어학 훈련 회사로 구축; Hult International Business School 창립자.",
+    "source": "https://en.wikipedia.org/wiki/Bertil_Hult"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "EF Education First 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1965, "age": 24, "event": "Founded EF Education First in Lund, Sweden.", "eventKo": "스웨덴 룬드에서 EF Education First 창립.", "whyItMatteredKo": "EF 출발선." },
+    { "year": 1985, "age": 44, "event": "EF expanded across Europe and into Asia.", "eventKo": "EF 유럽 전역·아시아 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2003, "age": 62, "event": "Founded Hult International Business School (named after him).", "eventKo": "Hult International Business School 창립(그의 이름).", "whyItMatteredKo": "Hult 단계." },
+    { "year": 2020, "age": 79, "event": "EF benefited from online language learning during pandemic.", "eventKo": "EF가 팬데믹 동안 온라인 어학 학습으로 혜택.", "whyItMatteredKo": "팬데믹 단계." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "EF 정점." }
+  ],
+  "turningPoints": [{ "year": 1965, "age": 24, "decisionKo": "스웨덴에서 EF Education First 창립", "alternativeKo": "전통 직장", "outcomeKo": "60년 후 26억 달러 + 세계 1위 사적 어학" }],
+  "moneyMechanics": { "primaryRevenueKo": "EF Education First 사적 가족 지분 + 다각화", "industryKo": "어학 교육·MBA", "businessModelKo": "어학 코스 + 유학 프로그램 + Hult MBA + 온라인 학습", "moatKo": "세계 1위 사적 어학 + 60년 트랙 + 가족 사적 소유", "luckVsSkillKo": "운(20%): 글로벌 어학 부상. 실력(80%): 60년 일관성 + 난독증 극복." },
+  "personalTraits": {
+    "knownFor": "Founder of EF Education First; founder of Hult International Business School; Swedish education magnate.",
+    "knownForKo": "EF Education First 창립자; Hult International Business School 창립자; 스웨덴 교육 거물.",
+    "philanthropy": "Hult Prize for social entrepreneurship; Hult MBA scholarships.", "philanthropyKo": "사회 기업가 정신 Hult Prize; Hult MBA 장학금.",
+    "controversies": "Limited; private education low scrutiny.", "controversiesKo": "제한적; 사적 교육 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "EF Education First 60년 + Hult MBA + 난독증 극복.", "tagsKo": ["EF Education First", "Hult MBA", "어학 교육"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 closed EF in-person language travel programs briefly.", "descriptionKo": "COVID-19이 EF 대면 어학 여행 프로그램 잠시 폐쇄.", "lesson": "Travel-based education faces pandemic exposure.", "lessonKo": "여행 기반 교육은 팬데믹 노출 직면." },
+    { "year": 2008, "description": "Global financial crisis compressed discretionary education spending.", "descriptionKo": "글로벌 금융위기로 재량 교육 지출 압축.", "lesson": "Education faces credit-cycle exposure.", "lessonKo": "교육은 신용 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Education is travel; travel is education.", "textKo": "교육은 여행이고, 여행은 교육이다.", "context": "On EF mission", "contextKo": "EF 미션에 대해", "source": "https://www.ef.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Chuk day pillar in In month — 'sanggwan-gyeok', unconventional output, fitting dyslexic-founder-of-language-school.", "summaryKo": "기축 일주 + 인월 상관격(파격적 표현·기존 권위 도전)은 난독증을 극복하고 어학 교육이라는 파격적 사업을 만든 그의 경로와 호응합니다. 기토 일간의 평야·수용 기질이 다양한 학습자 흡수와 통하고, 축토 일지의 토 기운이 자본 안정 기반을, 인목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1538", "name": "Bernard Ecclestone", "nameKo": "버니 에클레스턴",
+  "netWorth": 2.6, "nationality": "GB", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "Suffolk, England", "birthPlaceKo": "잉글랜드 서퍽",
+    "familyBackground": "Born to British working-class family; father was fisherman.", "familyBackgroundKo": "영국 노동자 계급 가정에서 출생; 아버지는 어부.",
+    "education": "Limited formal higher education.", "educationKo": "제한적 정식 고등 교육.",
+    "earlyLife": "Used-car dealer; bought Brabham F1 team 1972; built Formula One Management; controlled F1 commercial rights for decades; sold to Liberty Media for $4.4B in 2017.",
+    "earlyLifeKo": "중고차 딜러; 1972 Brabham F1 팀 인수; Formula One Management 구축; 수십 년간 F1 상업 권리 통제; 2017 Liberty Media에 44억 달러 매각.",
+    "source": "https://en.wikipedia.org/wiki/Bernie_Ecclestone"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Formula One Management Liberty 매각." },
+  "careerTimeline": [
+    { "year": 1949, "age": 19, "event": "Began as used-car dealer.", "eventKo": "중고차 딜러로 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1972, "age": 42, "event": "Bought Brabham F1 team.", "eventKo": "Brabham F1 팀 인수.", "whyItMatteredKo": "F1 진입." },
+    { "year": 1978, "age": 48, "event": "Became CEO of Formula One Constructors Association; began commercial control.", "eventKo": "Formula One Constructors Association CEO; 상업 통제 시작.", "whyItMatteredKo": "F1 상업 단계." },
+    { "year": 2017, "age": 87, "event": "Sold F1 commercial rights to Liberty Media for $4.4B.", "eventKo": "F1 상업 권리를 Liberty Media에 44억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2025, "age": 95, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "F1 정점." }
+  ],
+  "turningPoints": [{ "year": 1978, "age": 48, "decisionKo": "F1 상업 권리 통제 시작", "alternativeKo": "Brabham 단일 팀 잔류", "outcomeKo": "47년 후 26억 달러 + F1 글로벌 변환자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Formula One Management 매각 대금 + 다각화 자산", "industryKo": "F1 매각 + 다각화", "businessModelKo": "Liberty Media 매각 자본 + 부동산 + 가족 신탁", "moatKo": "F1 글로벌 변환자 + 47년 트랙", "luckVsSkillKo": "운(35%): F1 글로벌 부상. 실력(65%): 47년 상업 통제." },
+  "personalTraits": {
+    "knownFor": "Former CEO of Formula One Management; F1 commercial-rights builder; 'F1 supremo'.",
+    "knownForKo": "전 Formula One Management CEO; F1 상업 권리 구축자; 'F1 거두'.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2014 German prosecution for bribery (paid €100M settlement); 2023 UK tax-fraud guilty plea; F1 power-control disputes.",
+    "controversiesKo": "2014 독일 뇌물 기소(1억 유로 합의금 지불); 2023 영국 탈세 유죄 인정; F1 권력 통제 분쟁."
+  },
+  "characterKo": { "summaryKo": "F1 47년 상업 변환자 + Liberty 44억 달러 매각.", "tagsKo": ["Formula One", "Brabham", "Liberty Media"] },
+  "failures": [
+    { "year": 2014, "description": "German court accepted €100M payment to end bribery case; reputation damaged.", "descriptionKo": "독일 법원이 뇌물 사건 종결로 1억 유로 지불 수락; 평판 손상.", "lesson": "Long-running business control attracts legal scrutiny.", "lessonKo": "장기 사업 통제는 법적 감시 유발." },
+    { "year": 2023, "description": "Pleaded guilty in UK to fraud over hidden Swiss-bank holdings; £652M settlement.", "descriptionKo": "숨겨진 스위스 은행 보유로 영국 사기 유죄 인정; 6억 5,200만 파운드 합의금.", "lesson": "Hidden assets face decades-later tax-fraud exposure.", "lessonKo": "숨겨진 자산은 수십 년 후 탈세 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.0 }, { "year": 2020, "netWorth": 3.2 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "F1 is theatre at 200 mph; tickets sell.", "textKo": "F1은 시속 200마일 극장이다; 티켓이 팔린다.", "context": "On F1 commercial model", "contextKo": "F1 상업 모델에 대해", "source": "https://en.wikipedia.org/wiki/Bernie_Ecclestone" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Hae day pillar in Sul month — 'jeonggwan-gyeok', formal authority, fitting F1-commercial-control supremo.", "summaryKo": "신해 일주 + 술월 정관격(공식 권위·규제 아래에서 일하는 구조)은 F1이라는 정통 글로벌 스포츠 권위 47년 통제 경로와 호응합니다. 신금 일간의 정밀한 보석 기질이 정밀 협상과 통하고, 해수 일지의 수 기운이 자본·미디어 유동성을, 술토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

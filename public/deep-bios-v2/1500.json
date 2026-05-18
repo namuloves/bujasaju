@@ -1,0 +1,38 @@
+{
+  "id": "1500", "name": "Naomi Azrieli", "nameKo": "나오미 아즈리엘리",
+  "netWorth": 2.7, "nationality": "CA", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Canada", "birthPlaceKo": "캐나다",
+    "familyBackground": "Born to David Azrieli — Polish-Canadian real-estate developer; sister of Sharon Azrieli.", "familyBackgroundKo": "폴란드·캐나다 부동산 개발자 데이비드 아즈리엘리의 딸; 샤론 아즈리엘리의 자매.",
+    "education": "Stanford University; Oxford DPhil.", "educationKo": "스탠퍼드 대학교; 옥스퍼드 박사.",
+    "earlyLife": "Joined family Azrieli Group; chair of Azrieli Foundation; major Canada/Israel real-estate heiress; second-generation patriarch.",
+    "earlyLifeKo": "가족 Azrieli Group 합류; Azrieli 재단 의장; 주요 캐나다·이스라엘 부동산 상속녀; 2세대 가부장.",
+    "source": "https://en.wikipedia.org/wiki/Azrieli_Group"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Azrieli Group 가족 자본." },
+  "careerTimeline": [
+    { "year": 1990, "age": 25, "event": "Joined family Azrieli Group.", "eventKo": "가족 Azrieli Group 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2010, "age": 45, "event": "Azrieli Group IPO on Tel Aviv Stock Exchange.", "eventKo": "Azrieli Group 텔아비브 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2014, "age": 49, "event": "Father David Azrieli died; took chair of Azrieli Foundation.", "eventKo": "아버지 데이비드 아즈리엘리 사망; Azrieli 재단 의장 취임.", "whyItMatteredKo": "재단 단계." },
+    { "year": 2020, "age": 55, "event": "Azrieli Group expanded into data centers (Compass Data Centers stake).", "eventKo": "Azrieli Group이 데이터센터(Compass Data Centers 지분) 확장.", "whyItMatteredKo": "데이터센터 단계." },
+    { "year": 2025, "age": 60, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "Azrieli 정점." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 49, "decisionKo": "아버지 사망 후 Azrieli 재단 의장 수락", "alternativeKo": "독자 학문 경력", "outcomeKo": "11년 후 27억 달러 + 가족 자선 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Azrieli Group(AZRG.TA) 가족 지분 + 다각화", "industryKo": "부동산·데이터센터", "businessModelKo": "이스라엘 쇼핑몰·오피스 + 캐나다 자산 + 데이터센터", "moatKo": "Azrieli 가족 의결권 + 텔아비브 IPO + 데이터센터 확장", "luckVsSkillKo": "운(60%): 가족 자본. 실력(40%): Azrieli 재단·확장 운영." },
+  "personalTraits": {
+    "knownFor": "Chair of Azrieli Foundation; daughter of David Azrieli; Canada/Israel real-estate heiress.",
+    "knownForKo": "Azrieli 재단 의장; 데이비드 아즈리엘리의 딸; 캐나다·이스라엘 부동산 상속녀.",
+    "philanthropy": "Azrieli Foundation supports Holocaust education, fellowships, architecture, neuroscience.", "philanthropyKo": "Azrieli 재단이 홀로코스트 교육·펠로우십·건축·신경과학 자선 지원.",
+    "controversies": "Limited; private-foundation low scrutiny.", "controversiesKo": "제한적; 사적 재단 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Azrieli 2세대 + 캐나다·이스라엘 부동산.", "tagsKo": ["Azrieli Group", "Azrieli Foundation", "Stanford-Oxford"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 closed Israeli shopping malls briefly.", "descriptionKo": "COVID-19이 이스라엘 쇼핑몰 잠시 폐쇄.", "lesson": "Retail real estate faces pandemic-shock exposure.", "lessonKo": "소매 부동산은 팬데믹 충격 노출 직면." },
+    { "year": 2023, "description": "Israel-Gaza war disrupted economic confidence; real-estate values pressured.", "descriptionKo": "이스라엘-가자 전쟁이 경제 신뢰 혼란; 부동산 가치 압박.", "lesson": "Israel real estate faces geopolitical-conflict risk.", "lessonKo": "이스라엘 부동산은 지정학 분쟁 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Architecture and memory live together; we fund both.", "textKo": "건축과 기억은 함께 산다; 우리는 둘 다 자금을 댄다.", "context": "On Azrieli Foundation", "contextKo": "Azrieli 재단에 대해", "source": "https://azrielifoundation.org" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Mi day pillar in Yu month — 'siksin-gyeok', creative output, fitting Holocaust-memory-and-architecture philanthropist.", "summaryKo": "계미 일주 + 유월 식신격(창의적 결과물·표현)은 부동산 + 홀로코스트 기억 + 건축 펠로우십이라는 다중 창의적 표현 결합 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 자본 관리와 통하고, 미토 일지의 토 기운이 자본 안정 기반을, 유금 월지의 금 기운이 정밀 자본 도구를 가리킵니다." }
+}

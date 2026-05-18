@@ -1,0 +1,39 @@
+{
+  "id": "1969", "name": "Tom Werner", "nameKo": "토머스 찰스 워너",
+  "netWorth": 2.0, "nationality": "US", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "New York, USA", "birthPlaceKo": "미국 뉴욕",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Harvard University.", "educationKo": "하버드 대학교.",
+    "earlyLife": "Co-founded Carsey-Werner Productions (Cosby Show, Roseanne); co-owner of Boston Red Sox MLB and Liverpool FC; chairman of Fenway Sports Group.",
+    "earlyLifeKo": "Carsey-Werner Productions(코스비 쇼·로잰) 공동 창립; 보스턴 레드삭스 MLB·리버풀 FC 공동 소유주; Fenway Sports Group 의장.",
+    "source": "https://en.wikipedia.org/wiki/Tom_Werner"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Carsey-Werner + Fenway Sports Group." },
+  "careerTimeline": [
+    { "year": 1976, "age": 26, "event": "Began at ABC programming.", "eventKo": "ABC 프로그래밍에서 시작.", "whyItMatteredKo": "TV 출발선." },
+    { "year": 1981, "age": 31, "event": "Co-founded Carsey-Werner Productions.", "eventKo": "Carsey-Werner Productions 공동 창립.", "whyItMatteredKo": "Carsey-Werner 출발선." },
+    { "year": 2002, "age": 52, "event": "Co-bought Boston Red Sox MLB; chair of MLB team.", "eventKo": "보스턴 레드삭스 MLB 공동 인수; MLB 팀 의장.", "whyItMatteredKo": "Red Sox 단계." },
+    { "year": 2010, "age": 60, "event": "Co-bought Liverpool FC for £300M.", "eventKo": "리버풀 FC를 3억 파운드 공동 인수.", "whyItMatteredKo": "Liverpool 단계." },
+    { "year": 2025, "age": 75, "event": "Personal net worth at $2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 20억 달러.", "whyItMatteredKo": "Fenway 정점." }
+  ],
+  "turningPoints": [{ "year": 2002, "age": 52, "decisionKo": "TV 제작에서 MLB 프랜차이즈 공동 인수", "alternativeKo": "TV 제작 잔류", "outcomeKo": "23년 후 20억 달러 + MLB·Premier League 거물" }],
+  "moneyMechanics": { "primaryRevenueKo": "Fenway Sports Group + Red Sox + Liverpool FC + Carsey-Werner 잔여", "industryKo": "TV 제작·스포츠", "businessModelKo": "MLB·PL·NHL 프랜차이즈 + TV 미디어 + 부동산", "moatKo": "Fenway Sports Group 다중 프랜차이즈 + 47년 미디어 트랙", "luckVsSkillKo": "운(30%): 스포츠 프랜차이즈 가치 상승. 실력(70%): TV 히트·스포츠 운영." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Carsey-Werner; chairman of Fenway Sports Group; co-owner of Red Sox and Liverpool FC.",
+    "knownForKo": "Carsey-Werner 공동 창립자; Fenway Sports Group 의장; 레드삭스·리버풀 FC 공동 소유주.",
+    "philanthropy": "Werner Foundation supports Boston and Liverpool community.", "philanthropyKo": "워너 재단이 보스턴·리버풀 지역 사회 자선 지원.",
+    "controversies": "2021 Liverpool FC participation in Super League announcement triggered fan revolt; quickly reversed.",
+    "controversiesKo": "2021 슈퍼리그 발표에 리버풀 FC 참여가 팬 반발 촉발; 빠르게 번복."
+  },
+  "characterKo": { "summaryKo": "Carsey-Werner + 레드삭스 + 리버풀 FC 다종 미디어·스포츠.", "tagsKo": ["Carsey-Werner", "Boston Red Sox", "Liverpool FC"] },
+  "failures": [
+    { "year": 2021, "description": "Liverpool FC Super League announcement triggered mass fan revolt; FSG reversed within days.", "descriptionKo": "리버풀 FC 슈퍼리그 발표가 대규모 팬 반발 촉발; FSG 며칠 내 번복.", "lesson": "Football-club ownership faces fan-cultural constraint.", "lessonKo": "축구 클럽 소유는 팬 문화 제약 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted MLB and Premier League seasons.", "descriptionKo": "COVID-19이 MLB·프리미어리그 시즌 혼란.", "lesson": "Sports faces pandemic-attendance exposure.", "lessonKo": "스포츠는 팬데믹 관중 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.3 }, { "year": 2024, "netWorth": 1.8 }, { "year": 2025, "netWorth": 2.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Sports outlasts every TV season.", "textKo": "스포츠는 모든 TV 시즌보다 오래 살아남는다.", "context": "On Fenway Sports Group", "contextKo": "Fenway Sports Group에 대해", "source": "https://www.fenwaysportsgroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Chuk day pillar in Jin month — 'jeongjae-gyeok', stable wealth accumulation, fitting TV-and-multi-sport magnate.", "summaryKo": "정축 일주 + 진월 정재격(안정적·정직한 부 축적)은 TV 제작 + 다중 스포츠 프랜차이즈 안정 축적 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정밀 미디어 운영과 통하고, 축토 일지·진토 월지의 강한 토 기운이 자본·프랜차이즈 안정 기반을 이중 강조합니다." }
+}

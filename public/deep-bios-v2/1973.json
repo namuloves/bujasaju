@@ -1,0 +1,38 @@
+{
+  "id": "1973", "name": "Raj Sardana", "nameKo": "라지 사르다나",
+  "netWorth": 2.0, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "India", "birthPlaceKo": "인도",
+    "familyBackground": "Born to Indian family; emigrated to US.", "familyBackgroundKo": "인도 가정에서 출생; 미국 이주.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Founded Innova Solutions IT-services company; built into major US IT-services firm; serial Indian-American entrepreneur.",
+    "earlyLifeKo": "Innova Solutions IT 서비스 회사 창립; 주요 미국 IT 서비스 회사로 구축; 연쇄 인도·미국 기업가.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Innova Solutions 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 25, "event": "Began US IT career after India emigration.", "eventKo": "인도 이주 후 미국 IT 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1998, "age": 38, "event": "Founded Innova Solutions IT-services.", "eventKo": "Innova Solutions IT 서비스 창립.", "whyItMatteredKo": "Innova 출발선." },
+    { "year": 2015, "age": 55, "event": "Innova grew via acquisitions to major US IT-services firm.", "eventKo": "Innova가 인수를 통해 주요 미국 IT 서비스 회사로 성장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2022, "age": 62, "event": "Innova merged with American CyberSystems and Apexon.", "eventKo": "Innova가 American CyberSystems·Apexon과 합병.", "whyItMatteredKo": "합병 단계." },
+    { "year": 2025, "age": 65, "event": "Personal net worth at $2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 20억 달러.", "whyItMatteredKo": "Innova 정점." }
+  ],
+  "turningPoints": [{ "year": 1998, "age": 38, "decisionKo": "Innova Solutions IT 서비스 창립", "alternativeKo": "직원 잔류", "outcomeKo": "27년 후 20억 달러 + 미국 IT 서비스 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Innova Solutions 사적 자본 + 다각화", "industryKo": "IT 서비스·디지털 변환", "businessModelKo": "IT 서비스 + 디지털 변환 + 미국·인도 양안 운영", "moatKo": "Innova 미국·인도 양안 + 27년 트랙", "luckVsSkillKo": "운(35%): 미국 IT 서비스 부상. 실력(65%): 27년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of Innova Solutions; Indian-American IT-services entrepreneur.",
+    "knownForKo": "Innova Solutions 창립자·CEO; 인도·미국 IT 서비스 기업가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; private IT-services low scrutiny.", "controversiesKo": "제한적; 사적 IT 서비스 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Innova Solutions 27년 + 미국·인도 IT 서비스.", "tagsKo": ["Innova Solutions", "IT services", "Indian-American"] },
+  "failures": [
+    { "year": 2001, "description": "Dot-com crash compressed IT-services demand briefly.", "descriptionKo": "닷컴 폭락으로 IT 서비스 수요 잠시 압축.", "lesson": "IT services face tech-cycle exposure.", "lessonKo": "IT 서비스는 기술 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 initially disrupted IT-services; later boosted via remote-work pivot.", "descriptionKo": "COVID-19이 초기 IT 서비스 혼란; 이후 원격 근무 전환 부양.", "lesson": "IT services adapted quickly to pandemic.", "lessonKo": "IT 서비스는 팬데믹 빠른 적응." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.2 }, { "year": 2024, "netWorth": 1.8 }, { "year": 2025, "netWorth": 2.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "IT services connect US ambition to Indian talent.", "textKo": "IT 서비스는 미국의 야망을 인도의 인재에 연결한다.", "context": "On Innova model", "contextKo": "Innova 모델에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Mi day pillar in Myo month — 'pyeonjae-gyeok', large external capital, fitting US-India IT-services bridge.", "summaryKo": "을미 일주 + 묘월 편재격(크고 유동적인 외부 자본)은 미국·인도 양안 IT 서비스라는 거대 외부 자본·인재 유동 결합 경로와 호응합니다. 을목 일간 + 묘목 월지의 강한 목 기운이 회사·인재 성장을 이중 강조하고, 미토 일지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

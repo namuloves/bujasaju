@@ -1,0 +1,39 @@
+{
+  "id": "1747", "name": "Renato dos Santos", "nameKo": "헤나투 두스 산투스",
+  "netWorth": 2.3, "nationality": "BR", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Brazil", "birthPlaceKo": "브라질",
+    "familyBackground": "Born to Brazilian family.", "familyBackgroundKo": "브라질 가정에서 출생.",
+    "education": "Brazilian higher education.", "educationKo": "브라질 고등교육.",
+    "earlyLife": "Co-founded BTG Pactual; rose to partner; major Brazilian investment-banker; significant BTG Pactual partner shareholder.",
+    "earlyLifeKo": "BTG Pactual 공동 창립; 파트너 진급; 주요 브라질 투자은행가; 주요 BTG Pactual 파트너 주주.",
+    "source": "https://www.btgpactual.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "BTG Pactual 파트너 지분." },
+  "careerTimeline": [
+    { "year": 2000, "age": 23, "event": "Began Brazilian investment-banking career.", "eventKo": "브라질 투자은행 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2008, "age": 31, "event": "Joined BTG Pactual.", "eventKo": "BTG Pactual 합류.", "whyItMatteredKo": "BTG 단계." },
+    { "year": 2015, "age": 38, "event": "Esteves arrest crisis; partners consolidated control.", "eventKo": "에스테베스 체포 위기; 파트너들 통제 통합.", "whyItMatteredKo": "위기 단계." },
+    { "year": 2020, "age": 43, "event": "BTG Pactual rebuilt post-Esteves; partners benefited.", "eventKo": "에스테베스 후 BTG Pactual 재건; 파트너들 혜택.", "whyItMatteredKo": "재건 단계." },
+    { "year": 2025, "age": 48, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "BTG 정점." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 38, "decisionKo": "에스테베스 위기 후 BTG 잔류", "alternativeKo": "다른 IB 이직", "outcomeKo": "10년 후 23억 달러 + BTG Pactual 파트너" }],
+  "moneyMechanics": { "primaryRevenueKo": "BTG Pactual(BPAC11) 파트너 지분", "industryKo": "투자은행·자산 관리", "businessModelKo": "라틴 아메리카 IB·자산 관리 파트너 보수", "moatKo": "BTG 라틴 아메리카 1위 IB + 파트너 지분", "luckVsSkillKo": "운(45%): 라틴 아메리카 자본 시장. 실력(55%): 25년 일관성." },
+  "personalTraits": {
+    "knownFor": "BTG Pactual partner; Brazilian investment banker.",
+    "knownForKo": "BTG Pactual 파트너; 브라질 투자은행가.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "BTG Pactual Esteves Lava Jato crisis era 2015-2016.",
+    "controversiesKo": "BTG Pactual 에스테베스 라바 자투 위기 시대 2015-2016."
+  },
+  "characterKo": { "summaryKo": "BTG Pactual 파트너 + 라틴 아메리카 IB.", "tagsKo": ["BTG Pactual", "라틴 아메리카 IB", "브라질 IB"] },
+  "failures": [
+    { "year": 2015, "description": "BTG Pactual Esteves arrest crisis required partner consolidation; brand pressure.", "descriptionKo": "BTG Pactual 에스테베스 체포 위기로 파트너 통합 필요; 브랜드 압박.", "lesson": "Partnership IB faces founder-crisis exposure.", "lessonKo": "파트너십 IB는 창립자 위기 노출 직면." },
+    { "year": 2020, "description": "Brazilian recession + pandemic compressed BTG deal flow briefly.", "descriptionKo": "브라질 침체 + 팬데믹이 BTG 거래 흐름 잠시 압축.", "lesson": "Emerging IB faces macro-cycle exposure.", "lessonKo": "신흥 IB는 거시 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.0 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Partnership banking creates compounding partners.", "textKo": "파트너십 은행은 복리 파트너를 창출한다.", "context": "On BTG partnership model", "contextKo": "BTG 파트너십 모델에 대해", "source": "https://www.btgpactual.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Myo day pillar in Yu month — 'pyeonin-gyeok', non-traditional knowledge, fitting partner-banker.", "summaryKo": "신묘 일주 + 유월 편인격(비전통적 학문·문서 권위)은 파트너십 IB 정통 자격을 결합한 그의 경로와 호응합니다. 신금 일간 + 유금 월지의 극강 금 기운이 정밀 금융 도구를 이중 강조하고, 묘목 일지의 목 기운이 회사 성장을 가리킵니다." }
+}

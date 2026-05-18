@@ -1,0 +1,38 @@
+{
+  "id": "1105", "name": "Yao Liangsong", "nameKo": "야오량쑹",
+  "netWorth": 3.8, "nationality": "CN", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Chinese higher education.", "educationKo": "중국 고등교육.",
+    "earlyLife": "Founded Far East Holding Group — major Chinese cable manufacturer; built into one of China's largest cable producers.",
+    "earlyLifeKo": "Far East Holding Group 창립 — 주요 중국 케이블 제조사; 중국 최대 케이블 생산사 중 하나로 구축.",
+    "source": "https://www.fehg.com.cn"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Far East Holding 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 21, "event": "Began Chinese manufacturing career.", "eventKo": "중국 제조 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1990, "age": 26, "event": "Founded Far East Cable.", "eventKo": "Far East Cable 창립.", "whyItMatteredKo": "Far East 출발선." },
+    { "year": 2005, "age": 41, "event": "Far East became major Chinese cable producer.", "eventKo": "Far East가 주요 중국 케이블 생산사가 됨.", "whyItMatteredKo": "주요 단계." },
+    { "year": 2015, "age": 51, "event": "Far East expanded into smart-grid and EV charging.", "eventKo": "Far East가 스마트 그리드·EV 충전 확장.", "whyItMatteredKo": "스마트 그리드 단계." },
+    { "year": 2025, "age": 61, "event": "Personal net worth at $3.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 38억 달러.", "whyItMatteredKo": "Far East 정점." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 51, "decisionKo": "스마트 그리드·EV 충전 확장", "alternativeKo": "전통 케이블 잔류", "outcomeKo": "10년 후 38억 달러 + 신에너지 인프라" }],
+  "moneyMechanics": { "primaryRevenueKo": "Far East Holding 사적 가족 지분 + 다각화", "industryKo": "케이블·전력 인프라", "businessModelKo": "전력·통신 케이블 + 스마트 그리드 + EV 충전 + 광섬유", "moatKo": "중국 케이블 1위급 + 35년 트랙", "luckVsSkillKo": "운(40%): 중국 인프라 부상. 실력(60%): 35년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Far East Holding Group; Chinese cable and smart-grid magnate.",
+    "knownForKo": "Far East Holding Group 창립자; 중국 케이블·스마트 그리드 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; Chinese cable industry standard scrutiny.", "controversiesKo": "제한적; 중국 케이블 산업 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Far East Cable 35년 + 중국 케이블·스마트 그리드.", "tagsKo": ["Far East Holding", "중국 케이블", "스마트 그리드"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Chinese export demand briefly.", "descriptionKo": "글로벌 금융위기로 중국 수출 수요 잠시 압축.", "lesson": "Chinese cable faces global-cycle exposure.", "lessonKo": "중국 케이블은 글로벌 사이클 노출 직면." },
+    { "year": 2022, "description": "Copper price volatility compressed cable margins.", "descriptionKo": "구리 가격 변동성이 케이블 마진 압축.", "lesson": "Cable faces commodity-input volatility.", "lessonKo": "케이블은 상품 투입 변동성 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.3 }, { "year": 2024, "netWorth": 3.6 }, { "year": 2025, "netWorth": 3.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Cables carry the modern world's nerves.", "textKo": "케이블은 현대 세계의 신경을 운반한다.", "context": "On Far East Cable", "contextKo": "Far East Cable에 대해", "source": "https://www.fehg.com.cn" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-O day pillar in Mi month — 'jeongin-gyeok', formal credential authority, fitting infrastructure-grade Chinese manufacturer.", "summaryKo": "임오 일주 + 미월 정인격(공식 자격·학문·문서 권위)은 강한 전력 인프라 기술 자격 35년 운영 경로와 호응합니다. 임수 일간의 큰 바다 기질이 거대 자본·전력 유동과 통하고, 오화 일지의 강한 화 기운이 결단을, 미토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

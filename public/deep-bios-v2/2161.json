@@ -1,0 +1,39 @@
+{
+  "id": "2161", "name": "Carlie Irsay-Gordon", "nameKo": "칼리 어세이고든",
+  "netWorth": 1.8, "nationality": "US", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Jim Irsay — owner of Indianapolis Colts NFL franchise.", "familyBackgroundKo": "인디애나폴리스 콜츠 NFL 프랜차이즈 소유주 짐 어세이의 딸.",
+    "education": "Skidmore College.", "educationKo": "스키드모어 칼리지.",
+    "earlyLife": "Joined family Indianapolis Colts; vice-chair and owner; took expanded role as father Jim Irsay's health declined.",
+    "earlyLifeKo": "가족 인디애나폴리스 콜츠 합류; 부의장·소유주; 아버지 짐 어세이 건강 악화로 확대 역할.",
+    "source": "https://www.colts.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Indianapolis Colts 가족 자본." },
+  "careerTimeline": [
+    { "year": 2003, "age": 22, "event": "Joined family Indianapolis Colts after Skidmore.", "eventKo": "스키드모어 후 가족 인디애나폴리스 콜츠 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2012, "age": 31, "event": "Became vice-chair of Indianapolis Colts.", "eventKo": "인디애나폴리스 콜츠 부의장 취임.", "whyItMatteredKo": "지배 단계." },
+    { "year": 2020, "age": 39, "event": "Expanded role as father Jim Irsay's health declined.", "eventKo": "아버지 짐 어세이 건강 악화로 역할 확대.", "whyItMatteredKo": "역할 확대." },
+    { "year": 2024, "age": 43, "event": "Father Jim Irsay died; took expanded ownership control.", "eventKo": "아버지 짐 어세이 사망; 확대 소유 통제.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2025, "age": 44, "event": "Personal net worth at $1.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 18억 달러.", "whyItMatteredKo": "Colts 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 2024, "age": 43, "decisionKo": "아버지 사망 후 콜츠 확대 통제 수락", "alternativeKo": "전문 경영인 위임", "outcomeKo": "1년 후 18억 달러 + 콜츠 가족 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Indianapolis Colts 가족 지분", "industryKo": "NFL 프랜차이즈", "businessModelKo": "NFL 미디어 수익 분배 + 입장권 + 부동산", "moatKo": "NFL 프랜차이즈 + 가족 의결권 + 인디애나폴리스 시장", "luckVsSkillKo": "운(85%): 가족 자본. 실력(15%): 22년 가족 운영 경험." },
+  "personalTraits": {
+    "knownFor": "Co-owner of Indianapolis Colts NFL franchise; daughter of Jim Irsay.",
+    "knownForKo": "인디애나폴리스 콜츠 NFL 프랜차이즈 공동 소유주; 짐 어세이의 딸.",
+    "philanthropy": "Indianapolis Colts community programs and youth football.", "philanthropyKo": "인디애나폴리스 콜츠 지역 사회 프로그램·청소년 축구.",
+    "controversies": "Father Jim Irsay's prior arrests and addiction history shadowed family business.",
+    "controversiesKo": "아버지 짐 어세이의 이전 체포·중독 이력이 가족 사업에 그림자."
+  },
+  "characterKo": { "summaryKo": "콜츠 가족 가부장 + 아버지 사망 후 확대 통제.", "tagsKo": ["Indianapolis Colts", "NFL", "Irsay family"] },
+  "failures": [
+    { "year": 2024, "description": "Father Jim Irsay's death triggered succession transition stress.", "descriptionKo": "아버지 짐 어세이 사망이 승계 전환 스트레스 야기.", "lesson": "Family-business succession faces sudden health-event risk.", "lessonKo": "가족 사업 승계는 갑작스러운 건강 사건 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 reduced NFL stadium attendance; revenue compressed briefly.", "descriptionKo": "COVID-19이 NFL 경기장 관중 감소; 매출 잠시 압축.", "lesson": "Sports franchises face pandemic-attendance exposure.", "lessonKo": "스포츠 프랜차이즈는 팬데믹 관중 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.0 }, { "year": 2024, "netWorth": 1.6 }, { "year": 2025, "netWorth": 1.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "A franchise outlives an owner; we steward.", "textKo": "프랜차이즈는 소유주보다 오래 산다; 우리는 청지기다.", "context": "On NFL ownership", "contextKo": "NFL 소유에 대해", "source": "https://www.colts.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Chuk day pillar in In month — 'jeonggwan-gyeok', formal regulated authority, fitting NFL-regulated franchise heiress.", "summaryKo": "을축 일주 + 인월 정관격(공식 권위·규제 아래에서 일하는 구조)은 NFL이라는 강한 리그 규제 권위 환경의 가족 프랜차이즈 가부장 경로와 호응합니다. 을목 일간 + 인목 월지의 강한 목 기운이 회사·프랜차이즈 성장을 이중 강조하고, 축토 일지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

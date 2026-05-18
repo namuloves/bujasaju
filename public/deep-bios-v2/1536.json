@@ -1,0 +1,38 @@
+{
+  "id": "1536", "name": "Henry Swieca", "nameKo": "헨리 알렉산더 스위에카",
+  "netWorth": 2.6, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Polish Holocaust-survivor parents in NYC.", "familyBackgroundKo": "뉴욕 폴란드 홀로코스트 생존자 부모에게서 출생.",
+    "education": "Brooklyn College; NYU Stern MBA.", "educationKo": "브루클린 칼리지; NYU 스턴 MBA.",
+    "earlyLife": "Co-founded Highbridge Capital Management 1992 with Glenn Dubin; sold majority to JPMorgan 2004; founded Talpion Fund Management 2010 as family office.",
+    "earlyLifeKo": "1992 글렌 두빈과 Highbridge Capital Management 공동 창립; 2004 다수 지분을 JPMorgan에 매각; 2010 Talpion Fund Management 가족 사무소 창립.",
+    "source": "https://en.wikipedia.org/wiki/Henry_Swieca"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Highbridge Capital JPMorgan 매각." },
+  "careerTimeline": [
+    { "year": 1983, "age": 26, "event": "Began at Dillon Read after NYU.", "eventKo": "NYU 후 Dillon Read에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 1992, "age": 35, "event": "Co-founded Highbridge Capital with Glenn Dubin.", "eventKo": "글렌 두빈과 Highbridge Capital 공동 창립.", "whyItMatteredKo": "Highbridge 출발선." },
+    { "year": 2004, "age": 47, "event": "Sold Highbridge majority to JPMorgan for $1.3B.", "eventKo": "Highbridge 다수 지분을 JPMorgan에 13억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2010, "age": 53, "event": "Founded Talpion Fund Management family office.", "eventKo": "Talpion Fund Management 가족 사무소 창립.", "whyItMatteredKo": "Talpion 단계." },
+    { "year": 2025, "age": 68, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "Talpion 정점." }
+  ],
+  "turningPoints": [{ "year": 2004, "age": 47, "decisionKo": "Highbridge JPMorgan에 13억 달러 매각", "alternativeKo": "독립 운영 지속", "outcomeKo": "21년 후 26억 달러 + Talpion 가족 사무소" }],
+  "moneyMechanics": { "primaryRevenueKo": "Highbridge 매각 대금 + Talpion 가족 사무소", "industryKo": "헤지펀드·가족 사무소", "businessModelKo": "JPMorgan 매각 자본 + Talpion 패밀리 오피스 + 다각화", "moatKo": "Highbridge 매각 자본 + 33년 헤지펀드 트랙", "luckVsSkillKo": "운(40%): 헤지펀드 시대. 실력(60%): Highbridge 창립 + 매각 타이밍." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Highbridge Capital; founder of Talpion Fund Management.",
+    "knownForKo": "Highbridge Capital 공동 창립자; Talpion Fund Management 창립자.",
+    "philanthropy": "Swieca Family Foundation supports Holocaust education and Jewish causes.", "philanthropyKo": "스위에카 가족 재단이 홀로코스트 교육·유대인 자선 지원.",
+    "controversies": "Limited; private family-office low scrutiny.", "controversiesKo": "제한적; 사적 가족 사무소 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Highbridge Capital + JPMorgan 매각 + Talpion.", "tagsKo": ["Highbridge Capital", "JPMorgan", "Talpion"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed Highbridge funds; redemptions surged.", "descriptionKo": "금융위기로 Highbridge 펀드 압축; 환매 급증.", "lesson": "Hedge funds face crisis-redemption risk.", "lessonKo": "헤지펀드는 위기 환매 리스크 직면." },
+    { "year": 2020, "description": "Pandemic disrupted Talpion portfolio briefly.", "descriptionKo": "팬데믹이 Talpion 포트폴리오 잠시 혼란.", "lesson": "Family offices face broad market exposure.", "lessonKo": "가족 사무소는 광범위 시장 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Sell to a bank; the bank guarantees the price.", "textKo": "은행에 팔라; 은행이 가격을 보장한다.", "context": "On Highbridge sale", "contextKo": "Highbridge 매각에 대해", "source": "https://en.wikipedia.org/wiki/Henry_Swieca" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Sa day pillar in Sa month — 'pyeonjae-gyeok', large external capital, fitting hedge-fund-and-bank-sale magnate.", "summaryKo": "신사 일주 + 사월 편재격(크고 유동적인 외부 자본)은 13억 달러 JPMorgan 매각이라는 거대 외부 자본 유동 결합 경로와 호응합니다. 신금 일간의 정밀한 보석 기질이 정밀 금융 도구와 통하고, 사화 일지·사화 월지의 극강 화 기운이 결단·기세를 이중 강조합니다." }
+}

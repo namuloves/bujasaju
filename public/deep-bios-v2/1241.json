@@ -1,0 +1,38 @@
+{
+  "id": "1241", "name": "Mário Araripe", "nameKo": "마리우 아라리페",
+  "netWorth": 3.3, "nationality": "BR", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "Brazil", "birthPlaceKo": "브라질",
+    "familyBackground": "Born to Brazilian family.", "familyBackgroundKo": "브라질 가정에서 출생.",
+    "education": "Brazilian engineering education.", "educationKo": "브라질 공학 교육.",
+    "earlyLife": "Founded Casa dos Ventos — Brazil's largest privately-owned wind-and-solar developer; pioneered Brazilian renewable energy; sold 49% stake to TotalEnergies 2022 for ~$2B.",
+    "earlyLifeKo": "Casa dos Ventos 창립 — 브라질 최대 사적 소유 풍력·태양광 개발사; 브라질 재생 에너지 개척; 2022 TotalEnergies에 49% 지분 약 20억 달러 매각.",
+    "source": "https://www.casadosventos.com.br"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Casa dos Ventos 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1980, "age": 25, "event": "Began Brazilian energy career.", "eventKo": "브라질 에너지 경력 시작.", "whyItMatteredKo": "에너지 출발선." },
+    { "year": 2006, "age": 51, "event": "Founded Casa dos Ventos wind-energy developer.", "eventKo": "Casa dos Ventos 풍력 에너지 개발사 창립.", "whyItMatteredKo": "Casa dos Ventos 출발선." },
+    { "year": 2015, "age": 60, "event": "Casa dos Ventos became Brazil's largest private renewable developer.", "eventKo": "Casa dos Ventos가 브라질 최대 사적 재생 개발사가 됨.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2022, "age": 67, "event": "Sold 49% stake to TotalEnergies for ~$2B.", "eventKo": "TotalEnergies에 49% 지분 약 20억 달러 매각.", "whyItMatteredKo": "매각 정점." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $3.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 33억 달러.", "whyItMatteredKo": "Casa dos Ventos 정점." }
+  ],
+  "turningPoints": [{ "year": 2022, "age": 67, "decisionKo": "Casa dos Ventos 49% TotalEnergies에 매각", "alternativeKo": "100% 가족 유지", "outcomeKo": "3년 후 33억 달러 + 글로벌 자본 파트너십" }],
+  "moneyMechanics": { "primaryRevenueKo": "Casa dos Ventos 51% 잔여 + TotalEnergies 매각 대금", "industryKo": "재생 에너지·풍력·태양광", "businessModelKo": "브라질 풍력·태양광 개발 + 장기 PPA 계약 + TotalEnergies 파트너십", "moatKo": "브라질 재생 1위 + TotalEnergies 자본 + 19년 풍력 트랙", "luckVsSkillKo": "운(45%): 브라질 재생 호황. 실력(55%): 19년 풍력 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Casa dos Ventos; Brazilian renewable-energy pioneer.",
+    "knownForKo": "Casa dos Ventos 창립자; 브라질 재생 에너지 선구자.",
+    "philanthropy": "Casa dos Ventos community development in Northeast Brazil.", "philanthropyKo": "Casa dos Ventos 브라질 북동부 지역 사회 개발.",
+    "controversies": "Wind-farm community-impact and environmental scrutiny.", "controversiesKo": "풍력 단지 지역 사회 영향·환경 감시."
+  },
+  "characterKo": { "summaryKo": "Casa dos Ventos 19년 + TotalEnergies 매각 + 브라질 재생.", "tagsKo": ["Casa dos Ventos", "TotalEnergies", "브라질 풍력"] },
+  "failures": [
+    { "year": 2015, "description": "Brazilian recession compressed renewable-energy investment.", "descriptionKo": "브라질 침체로 재생 에너지 투자 압축.", "lesson": "Brazilian renewables face macro-cycle exposure.", "lessonKo": "브라질 재생은 거시 사이클 노출 직면." },
+    { "year": 2024, "description": "Brazilian power-grid bottlenecks delayed Casa dos Ventos project completions.", "descriptionKo": "브라질 송전망 병목이 Casa dos Ventos 프로젝트 완공 지연.", "lesson": "Renewables face grid-infrastructure constraints.", "lessonKo": "재생은 송전망 인프라 제약 직면." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 1.0 }, { "year": 2022, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.1 }, { "year": 2025, "netWorth": 3.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Brazilian wind blows free; we harvest it.", "textKo": "브라질 바람은 자유롭게 분다; 우리가 수확한다.", "context": "On Casa dos Ventos", "contextKo": "Casa dos Ventos에 대해", "source": "https://www.casadosventos.com.br" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Sul day pillar in Ja month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting infrastructure-and-major-partnership magnate.", "summaryKo": "경술 일주 + 자월 편관격(강한 외부 압박·권력 충돌)은 강한 재생 에너지 규제 + TotalEnergies 같은 거대 글로벌 파트너십 환경 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 인프라 도구와 통하고, 술토 일지의 토 기운이 자본 안정 기반을, 자수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

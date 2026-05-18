@@ -1,0 +1,39 @@
+{
+  "id": "1326", "name": "Roberto Sallouti", "nameKo": "호베르투 살로우티",
+  "netWorth": 3.1, "nationality": "BR", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Brazil", "birthPlaceKo": "브라질",
+    "familyBackground": "Born to Brazilian family.", "familyBackgroundKo": "브라질 가정에서 출생.",
+    "education": "Wharton (Penn).", "educationKo": "와튼(펜).",
+    "earlyLife": "Joined BTG Pactual; rose to CEO 2016 after Andre Esteves arrest scandal; rebuilt BTG Pactual into Latin America's largest investment bank.",
+    "earlyLifeKo": "BTG Pactual 합류; 2016 안드레 에스테베스 체포 스캔들 후 CEO 진급; BTG Pactual을 라틴 아메리카 최대 투자은행으로 재건.",
+    "source": "https://en.wikipedia.org/wiki/BTG_Pactual"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "BTG Pactual CEO 주식 보상." },
+  "careerTimeline": [
+    { "year": 1995, "age": 23, "event": "Joined BTG Pactual after Wharton.", "eventKo": "와튼 후 BTG Pactual 합류.", "whyItMatteredKo": "BTG 출발선." },
+    { "year": 2005, "age": 33, "event": "Became partner at BTG Pactual.", "eventKo": "BTG Pactual 파트너 취임.", "whyItMatteredKo": "파트너 단계." },
+    { "year": 2015, "age": 43, "event": "Andre Esteves arrested in Operação Lava Jato; BTG crisis.", "eventKo": "안드레 에스테베스가 라바 자투 작전에서 체포; BTG 위기.", "whyItMatteredKo": "위기 단계." },
+    { "year": 2016, "age": 44, "event": "Became CEO of BTG Pactual; rebuilt operations.", "eventKo": "BTG Pactual CEO 취임; 운영 재건.", "whyItMatteredKo": "CEO 단계." },
+    { "year": 2025, "age": 53, "event": "Personal net worth at $3.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 31억 달러.", "whyItMatteredKo": "BTG 정점." }
+  ],
+  "turningPoints": [{ "year": 2016, "age": 44, "decisionKo": "Esteves 체포 후 BTG Pactual CEO 수락 회사 구제", "alternativeKo": "BTG 떠남", "outcomeKo": "9년 후 31억 달러 + 라틴 아메리카 최대 투자은행 CEO" }],
+  "moneyMechanics": { "primaryRevenueKo": "BTG Pactual(BPAC11) CEO 주식 보상 + 파트너 지분", "industryKo": "투자은행·자산 관리", "businessModelKo": "라틴 아메리카 투자은행·자산 관리 + 디지털 뱅킹", "moatKo": "라틴 아메리카 1위 투자은행 + 위기 통과 트랙", "luckVsSkillKo": "운(30%): 라틴 아메리카 자본 시장 부상. 실력(70%): 30년 일관성 + 위기 재건." },
+  "personalTraits": {
+    "knownFor": "CEO of BTG Pactual; rebuilt firm after Esteves crisis; Latin America's #1 IB.",
+    "knownForKo": "BTG Pactual CEO; 에스테베스 위기 후 회사 재건; 라틴 아메리카 1위 IB.",
+    "philanthropy": "BTG Pactual Foundation supports Brazilian education.", "philanthropyKo": "BTG Pactual 재단이 브라질 교육 자선 지원.",
+    "controversies": "BTG faced 2015 Esteves Lava Jato arrest; rebuilt brand under Sallouti.",
+    "controversiesKo": "BTG가 2015 에스테베스 라바 자투 체포 직면; 살로우티 아래 브랜드 재건."
+  },
+  "characterKo": { "summaryKo": "BTG Pactual 30년 + 위기 후 CEO 재건.", "tagsKo": ["BTG Pactual", "Wharton", "라틴 아메리카 IB"] },
+  "failures": [
+    { "year": 2015, "description": "BTG crisis from Esteves Lava Jato arrest required emergency leadership transition.", "descriptionKo": "에스테베스 라바 자투 체포 BTG 위기로 긴급 리더십 전환 필요.", "lesson": "Single-leader IB faces founder-arrest crisis exposure.", "lessonKo": "단일 리더 IB는 창립자 체포 위기 노출 직면." },
+    { "year": 2015, "description": "Brazilian recession compressed BTG investment-banking deal flow briefly.", "descriptionKo": "브라질 침체로 BTG 투자은행 거래 흐름 잠시 압축.", "lesson": "Emerging-market IB faces macro-cycle exposure.", "lessonKo": "신흥 시장 IB는 거시 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.9 }, { "year": 2025, "netWorth": 3.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "A bank survives founders; founders must serve the bank.", "textKo": "은행은 창립자를 살아남는다; 창립자는 은행에 봉사해야 한다.", "context": "On BTG rebuild", "contextKo": "BTG 재건에 대해", "source": "https://www.btgpactual.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Hae day pillar in In month — 'jeonggwan-gyeok', formal regulated authority, fitting Wharton-trained Latin America IB CEO.", "summaryKo": "정해 일주 + 인월 정관격(공식 권위·규제 아래에서 일하는 구조)은 와튼 자격 + 라틴 아메리카 IB CEO라는 정통 권위 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정밀 금융 분석과 통하고, 해수 일지의 수 기운이 자본·자산 유동성을, 인목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

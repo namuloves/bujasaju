@@ -1,0 +1,38 @@
+{
+  "id": "1472", "name": "Mark Leonard", "nameKo": "마크 레너드",
+  "netWorth": 2.8, "nationality": "CA", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Canada", "birthPlaceKo": "캐나다",
+    "familyBackground": "Born to Canadian family.", "familyBackgroundKo": "캐나다 가정에서 출생.",
+    "education": "Canadian higher education.", "educationKo": "캐나다 고등교육.",
+    "earlyLife": "Founded Constellation Software in 1995 — vertical-market software acquirer; built into one of best-performing tech stocks ever; chairman/CEO; famously private.",
+    "earlyLifeKo": "1995 Constellation Software 창립 — 수직 시장 소프트웨어 인수사; 역대 최고 성과 기술 주식 중 하나로 구축; 의장·CEO; 유명한 비공개 인물.",
+    "source": "https://en.wikipedia.org/wiki/Constellation_Software"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Constellation Software 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1980, "age": 24, "event": "Began Canadian venture-capital career.", "eventKo": "캐나다 벤처 캐피털 경력 시작.", "whyItMatteredKo": "VC 출발선." },
+    { "year": 1995, "age": 39, "event": "Founded Constellation Software in Toronto.", "eventKo": "토론토에서 Constellation Software 창립.", "whyItMatteredKo": "Constellation 출발선." },
+    { "year": 2006, "age": 50, "event": "Constellation IPO on Toronto Stock Exchange.", "eventKo": "Constellation 토론토 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2020, "age": 64, "event": "Constellation stock crossed CAD $1,000; one of best-compounding tech stocks.", "eventKo": "Constellation 주식이 1,000 캐나다달러 돌파; 최고 복리 기술 주식 중 하나.", "whyItMatteredKo": "복리 정점." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $2.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러.", "whyItMatteredKo": "Constellation 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 39, "decisionKo": "VC 떠나 수직 소프트웨어 인수사 창립", "alternativeKo": "VC 잔류", "outcomeKo": "30년 후 28억 달러 + 최고 복리 기술 주식" }],
+  "moneyMechanics": { "primaryRevenueKo": "Constellation Software(CSU.TO) 창립자 지분", "industryKo": "수직 시장 소프트웨어", "businessModelKo": "수백 개 소형 수직 소프트웨어 회사 인수 + 분권화 운영 + 자본 재배치", "moatKo": "300+ 회사 인수 트랙 + 분권화 운영 노하우", "luckVsSkillKo": "운(15%): 수직 소프트웨어 부상. 실력(85%): 30년 일관 자본 재배치." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of Constellation Software; vertical-market software roll-up pioneer; famously private and modest CEO.",
+    "knownForKo": "Constellation Software 창립자·CEO; 수직 시장 소프트웨어 통합 선구자; 유명한 비공개·겸손 CEO.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; private and self-effacing approach.", "controversiesKo": "제한적; 비공개·자기 절제 접근."
+  },
+  "characterKo": { "summaryKo": "Constellation Software 30년 + 300+ 인수 + 비공개 CEO.", "tagsKo": ["Constellation Software", "수직 소프트웨어", "버핏 스타일"] },
+  "failures": [
+    { "year": 2022, "description": "Rising rates compressed multi-multiple software acquisitions briefly.", "descriptionKo": "금리 상승이 다중 배수 소프트웨어 인수 잠시 압축.", "lesson": "Roll-up models face cost-of-capital sensitivity.", "lessonKo": "통합 모델은 자본 비용 민감성 직면." },
+    { "year": 2020, "description": "Some Constellation portfolio companies disrupted by COVID.", "descriptionKo": "일부 Constellation 포트폴리오 회사가 COVID로 혼란.", "lesson": "Diversification reduces but does not eliminate concentrated risk.", "lessonKo": "다각화는 집중 리스크를 감소시키지만 제거하지 않는다." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.6 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I am a fan of permanent capital and patient capital.", "textKo": "나는 영구 자본과 인내 자본의 팬이다.", "context": "On Constellation Software", "contextKo": "Constellation Software에 대해", "source": "https://www.csisoftware.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Yu day pillar in Sa month — 'jeongjae-gyeok', stable wealth accumulation, fitting roll-up software patient compounder.", "summaryKo": "계유 일주 + 사월 정재격(안정적·정직한 부 축적)은 300+ 소형 소프트웨어 회사 30년 안정 누적 축적이라는 가장 정통 안정 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 자본 관리와 통하고, 유금 일지의 금 기운이 정밀 자본 도구를, 사화 월지의 강한 화 기운이 결단을 가리킵니다." }
+}

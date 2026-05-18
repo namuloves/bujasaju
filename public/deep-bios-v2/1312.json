@@ -1,0 +1,38 @@
+{
+  "id": "1312", "name": "William Stone", "nameKo": "윌리엄 찰스 스톤",
+  "netWorth": 3.1, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Lehigh University.", "educationKo": "리하이 대학교.",
+    "earlyLife": "Founded SS&C Technologies in 1986 — financial-software platform; led SS&C from startup to NASDAQ-listed firm; CEO and major shareholder.",
+    "earlyLifeKo": "1986 SS&C Technologies 창립 — 금융 소프트웨어 플랫폼; 스타트업에서 NASDAQ 상장 회사로 SS&C 주도; CEO·주요 주주.",
+    "source": "https://en.wikipedia.org/wiki/SS%26C_Technologies"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "SS&C Technologies 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1977, "age": 22, "event": "Began career as KPMG accountant.", "eventKo": "KPMG 회계사 경력 시작.", "whyItMatteredKo": "회계 출발선." },
+    { "year": 1986, "age": 31, "event": "Founded SS&C Technologies in Hartford CT.", "eventKo": "하트퍼드 코네티컷에서 SS&C Technologies 창립.", "whyItMatteredKo": "SS&C 출발선." },
+    { "year": 1996, "age": 41, "event": "SS&C IPO on NASDAQ.", "eventKo": "SS&C NASDAQ 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2015, "age": 60, "event": "Acquired Advent Software for $2.7B; major fund-services scale-up.", "eventKo": "Advent Software를 27억 달러에 인수; 주요 펀드 서비스 규모 확대.", "whyItMatteredKo": "Advent 인수." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $3.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 31억 달러.", "whyItMatteredKo": "SS&C 정점." }
+  ],
+  "turningPoints": [{ "year": 1986, "age": 31, "decisionKo": "KPMG 떠나 금융 소프트웨어 SS&C 창립", "alternativeKo": "회계사 잔류", "outcomeKo": "39년 후 31억 달러 + 금융 SaaS 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "SS&C Technologies(SSNC) 창립자 지분 + 다각화", "industryKo": "금융 기술·SaaS", "businessModelKo": "헤지펀드·뮤추얼펀드 회계 + 보험 + 헬스케어 + 자산 관리 소프트웨어", "moatKo": "금융 SaaS 1위급 + 다중 인수 통합 + 39년 트랙", "luckVsSkillKo": "운(30%): 금융 SaaS 부상. 실력(70%): 39년 일관성 + 다중 인수 통합." },
+  "personalTraits": {
+    "knownFor": "Founder and CEO of SS&C Technologies; financial-SaaS pioneer.",
+    "knownForKo": "SS&C Technologies 창립자·CEO; 금융 SaaS 선구자.",
+    "philanthropy": "Stone Family Foundation supports education.", "philanthropyKo": "스톤 가족 재단이 교육 지원.",
+    "controversies": "Limited; SaaS-acquisition integration challenges.", "controversiesKo": "제한적; SaaS 인수 통합 도전."
+  },
+  "characterKo": { "summaryKo": "SS&C Technologies 39년 + 금융 SaaS 거인.", "tagsKo": ["SS&C Technologies", "금융 SaaS", "Advent"] },
+  "failures": [
+    { "year": 2001, "description": "Dot-com crash compressed SS&C stock briefly.", "descriptionKo": "닷컴 폭락으로 SS&C 주식 잠시 압축.", "lesson": "SaaS-leverage faces tech-cycle exposure.", "lessonKo": "SaaS 레버리지는 기술 사이클 노출 직면." },
+    { "year": 2022, "description": "Rising rates compressed SaaS valuations across industry; SS&C stock fell.", "descriptionKo": "금리 상승이 SaaS 밸류에이션 광범위 압축; SS&C 주식 하락.", "lesson": "SaaS stocks face rate-cycle revaluation.", "lessonKo": "SaaS 주식은 금리 사이클 재평가 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 2.9 }, { "year": 2025, "netWorth": 3.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Financial software is the picks-and-shovels of asset management.", "textKo": "금융 소프트웨어는 자산 관리의 곡괭이와 삽이다.", "context": "On SS&C model", "contextKo": "SS&C 모델에 대해", "source": "https://www.ssctech.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-Ja day pillar in Jin month — 'pyeonin-gyeok', non-traditional knowledge/intuition, fitting accountant-turned-SaaS founder.", "summaryKo": "경자 일주 + 진월 편인격(비전통적 학문·문서 권위)은 회계사 자격을 금융 SaaS라는 비전형 소프트웨어 사업으로 변환한 그의 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 금융 도구와 통하고, 자수 일지의 수 기운이 자본 유동성을, 진토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

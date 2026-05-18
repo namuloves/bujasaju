@@ -1,0 +1,38 @@
+{
+  "id": "2072", "name": "Matthew Roszak", "nameKo": "매튜 로작",
+  "netWorth": 1.9, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Worked at SilverLake; co-founded Bloq blockchain-infrastructure company 2015; major early Bitcoin investor; Tally Capital VC.",
+    "earlyLifeKo": "SilverLake 근무; 2015 Bloq 블록체인 인프라 회사 공동 창립; 주요 초기 비트코인 투자자; Tally Capital VC.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "초기 비트코인 + Bloq + Tally Capital." },
+  "careerTimeline": [
+    { "year": 1995, "age": 23, "event": "Began career in tech and finance.", "eventKo": "기술·금융 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2012, "age": 40, "event": "Began Bitcoin investing.", "eventKo": "비트코인 투자 시작.", "whyItMatteredKo": "Bitcoin 단계." },
+    { "year": 2015, "age": 43, "event": "Co-founded Bloq blockchain-infrastructure with Jeff Garzik.", "eventKo": "제프 가르직과 Bloq 블록체인 인프라 공동 창립.", "whyItMatteredKo": "Bloq 출발선." },
+    { "year": 2021, "age": 49, "event": "Bitcoin price surge inflated Roszak personal net worth.", "eventKo": "비트코인 가격 급등이 로작 개인 순자산 인플레이션.", "whyItMatteredKo": "Bitcoin 정점." },
+    { "year": 2025, "age": 53, "event": "Personal net worth at $1.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 19억 달러.", "whyItMatteredKo": "Crypto 정점." }
+  ],
+  "turningPoints": [{ "year": 2012, "age": 40, "decisionKo": "비트코인 초기 대규모 매수", "alternativeKo": "전통 VC 잔류", "outcomeKo": "13년 후 19억 달러 + 비트코인 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Bitcoin 보유 + Bloq + Tally Capital + 다각화", "industryKo": "암호화폐·블록체인", "businessModelKo": "Bitcoin 보유 + 블록체인 인프라 + 암호화폐 VC", "moatKo": "초기 비트코인 보유 + Bloq 블록체인 트랙", "luckVsSkillKo": "운(60%): 비트코인 부상. 실력(40%): 2012 결단." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Bloq; major early Bitcoin investor; Tally Capital VC.",
+    "knownForKo": "Bloq 공동 창립자; 주요 초기 비트코인 투자자; Tally Capital VC.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Crypto-volatility-cycle wealth volatility scrutiny.", "controversiesKo": "암호화폐 변동성 사이클 부 변동성 감시."
+  },
+  "characterKo": { "summaryKo": "Bitcoin + Bloq + Tally Capital 암호화폐 거인.", "tagsKo": ["Bitcoin", "Bloq", "Tally Capital"] },
+  "failures": [
+    { "year": 2022, "description": "Crypto winter halved Bitcoin price; net worth halved temporarily.", "descriptionKo": "암호화폐 겨울로 비트코인 가격 반토막; 순자산 일시 반토막.", "lesson": "Crypto faces dramatic cycle volatility.", "lessonKo": "암호화폐는 극적인 사이클 변동성 직면." },
+    { "year": 2018, "description": "Crypto bear market compressed Bloq investment portfolio.", "descriptionKo": "암호화폐 약세장이 Bloq 투자 포트폴리오 압축.", "lesson": "Crypto VC face cycle exposure.", "lessonKo": "암호화폐 VC는 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2017, "netWorth": 0.3 }, { "year": 2021, "netWorth": 2.5 }, { "year": 2023, "netWorth": 1.0 }, { "year": 2025, "netWorth": 1.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Bitcoin is the new sound money.", "textKo": "비트코인은 새로운 건전 화폐다.", "context": "On Bitcoin", "contextKo": "비트코인에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Sul day pillar in Ja month — 'pyeonin-gyeok', non-traditional knowledge, fitting early Bitcoin-and-blockchain investor.", "summaryKo": "갑술 일주 + 자월 편인격(비전통적 학문·문서 권위)은 비트코인이라는 비전통적 자본 매개 + 블록체인 정통 지식 결합 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 술토 일지의 토 기운이 자본 안정 기반을, 자수 월지의 수 기운이 자본·데이터 유동성을 가리킵니다." }
+}

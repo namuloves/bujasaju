@@ -1,0 +1,38 @@
+{
+  "id": "1877", "name": "Julio Bozano", "nameKo": "줄리우 하파엘 지 아라강 보자누",
+  "netWorth": 2.2, "nationality": "BR", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Brazil", "birthPlaceKo": "브라질",
+    "familyBackground": "Born to Brazilian family.", "familyBackgroundKo": "브라질 가정에서 출생.",
+    "education": "Brazilian higher education.", "educationKo": "브라질 고등교육.",
+    "earlyLife": "Founded Banco Bozano Simonsen in 1957; sold Bozano Simonsen to Banco Santander 2000 for $1B+; built family-office investment vehicle Bozano Holding.",
+    "earlyLifeKo": "1957 Banco Bozano Simonsen 창립; 2000 Bozano Simonsen을 Banco Santander에 10억+ 달러 매각; Bozano Holding 가족 사무소 투자 비클 구축.",
+    "source": "https://en.wikipedia.org/wiki/Julio_Bozano"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Banco Bozano Simonsen 매각." },
+  "careerTimeline": [
+    { "year": 1955, "age": 19, "event": "Began Brazilian banking career.", "eventKo": "브라질 은행 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1957, "age": 21, "event": "Founded Banco Bozano Simonsen.", "eventKo": "Banco Bozano Simonsen 창립.", "whyItMatteredKo": "Bozano 출발선." },
+    { "year": 1990, "age": 54, "event": "Bozano Simonsen became major Brazilian investment bank.", "eventKo": "Bozano Simonsen이 주요 브라질 투자은행이 됨.", "whyItMatteredKo": "투자은행 단계." },
+    { "year": 2000, "age": 64, "event": "Sold Bozano Simonsen to Banco Santander for $1B+.", "eventKo": "Bozano Simonsen을 Banco Santander에 10억+ 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2025, "age": 89, "event": "Personal net worth at $2.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 22억 달러.", "whyItMatteredKo": "Bozano 정점." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 64, "decisionKo": "Bozano Simonsen Santander에 10억 달러 매각", "alternativeKo": "은행 운영 지속", "outcomeKo": "25년 후 22억 달러 + 다각화 가족 사무소" }],
+  "moneyMechanics": { "primaryRevenueKo": "Bozano Simonsen 매각 대금 + Bozano Holding + 다각화", "industryKo": "은행 매각 + 가족 사무소", "businessModelKo": "Santander 매각 자본 + 가족 사무소 + 브라질 PE 투자", "moatKo": "Santander 매각 자본 + 65년 브라질 금융 인맥", "luckVsSkillKo": "운(40%): 브라질 은행 부상. 실력(60%): 65년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Banco Bozano Simonsen; Brazilian investment-banking pioneer.",
+    "knownForKo": "Banco Bozano Simonsen 창립자; 브라질 투자은행 선구자.",
+    "philanthropy": "Bozano Foundation supports Brazilian education.", "philanthropyKo": "Bozano 재단이 브라질 교육 자선 지원.",
+    "controversies": "Limited; private family-office low scrutiny.", "controversiesKo": "제한적; 사적 가족 사무소 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Bozano Simonsen 43년 + Santander 매각.", "tagsKo": ["Bozano Simonsen", "Santander 매각", "브라질 투자은행"] },
+  "failures": [
+    { "year": 1980, "description": "Brazilian hyperinflation compressed banking sector profitability.", "descriptionKo": "브라질 하이퍼인플레이션이 은행 부문 수익성 압축.", "lesson": "Brazilian banking faces hyperinflation cycle.", "lessonKo": "브라질 은행은 하이퍼인플레이션 사이클 직면." },
+    { "year": 2008, "description": "Global financial crisis briefly compressed family-office portfolio.", "descriptionKo": "글로벌 금융위기로 가족 사무소 포트폴리오 잠시 압축.", "lesson": "Diversified family offices face broad-market exposure.", "lessonKo": "다각화 가족 사무소는 광범위 시장 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.0 }, { "year": 2025, "netWorth": 2.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Brazil rewards patience and timing equally.", "textKo": "브라질은 인내와 타이밍을 동등하게 보상한다.", "context": "On Brazilian banking", "contextKo": "브라질 은행에 대해", "source": "https://en.wikipedia.org/wiki/Julio_Bozano" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Chuk day pillar in Chuk month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting hyperinflation-era Brazilian banker.", "summaryKo": "계축 일주 + 축월 편관격(강한 외부 압박·권력 충돌)은 브라질 하이퍼인플레이션이라는 극도 외부 압박 환경의 은행 운영·매각 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 자본 관리와 통하고, 축토 일지·축토 월지의 극강 토 기운이 자본 안정 기반을 이중 강조합니다." }
+}

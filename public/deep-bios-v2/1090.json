@@ -1,0 +1,39 @@
+{
+  "id": "1090", "name": "Kentaro Ogawa", "nameKo": "오가와 켄타로",
+  "netWorth": 3.8, "nationality": "JP", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Japan", "birthPlaceKo": "일본",
+    "familyBackground": "Born to Japanese family.", "familyBackgroundKo": "일본 가정에서 출생.",
+    "education": "Japanese higher education.", "educationKo": "일본 고등교육.",
+    "earlyLife": "Founded Zensho Holdings in 1982 — Japanese fast-food and family-restaurant operator; built Sukiya beef-bowl chain, Hama Sushi, Coco's; Japan's #1 food-service company.",
+    "earlyLifeKo": "1982 Zensho Holdings 창립 — 일본 패스트푸드·패밀리 레스토랑 운영사; 스키야 소고기 덮밥 체인·하마 스시·Coco's 구축; 일본 1위 식품 서비스 회사.",
+    "source": "https://en.wikipedia.org/wiki/Zensho_Holdings"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Zensho Holdings 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1972, "age": 24, "event": "Began Japanese restaurant career.", "eventKo": "일본 레스토랑 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1982, "age": 34, "event": "Founded Zensho Holdings with Sukiya beef-bowl chain.", "eventKo": "스키야 소고기 덮밥 체인으로 Zensho Holdings 창립.", "whyItMatteredKo": "Zensho 출발선." },
+    { "year": 1997, "age": 49, "event": "Zensho IPO on Tokyo Stock Exchange.", "eventKo": "Zensho 도쿄 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2014, "age": 66, "event": "Zensho became Japan's #1 food-service company by revenue.", "eventKo": "Zensho가 매출 기준 일본 1위 식품 서비스 회사가 됨.", "whyItMatteredKo": "1위 단계." },
+    { "year": 2025, "age": 77, "event": "Personal net worth at $3.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 38억 달러.", "whyItMatteredKo": "Zensho 정점." }
+  ],
+  "turningPoints": [{ "year": 1982, "age": 34, "decisionKo": "Sukiya 소고기 덮밥 체인 창립", "alternativeKo": "단일 레스토랑 잔류", "outcomeKo": "43년 후 38억 달러 + 일본 1위 식품 서비스" }],
+  "moneyMechanics": { "primaryRevenueKo": "Zensho Holdings(7550) 창립자 지분", "industryKo": "패스트푸드·외식", "businessModelKo": "Sukiya·Hama Sushi·Coco's 다중 브랜드 + 일본·아시아 확장", "moatKo": "일본 1위 식품 서비스 + 43년 트랙", "luckVsSkillKo": "운(25%): 일본 외식 성장. 실력(75%): 43년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Zensho Holdings; Japan's largest food-service magnate; Sukiya beef-bowl king.",
+    "knownForKo": "Zensho Holdings 창립자; 일본 최대 식품 서비스 거물; 스키야 소고기 덮밥 왕.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2014 Sukiya labor controversies for understaffing; 2024 mouse-and-bug Sukiya bowl scandals.",
+    "controversiesKo": "2014 인력 부족으로 스키야 노동 논쟁; 2024 스키야 그릇 쥐·벌레 스캔들."
+  },
+  "characterKo": { "summaryKo": "Zensho 43년 + 일본 식품 서비스 1위.", "tagsKo": ["Zensho Holdings", "Sukiya", "일본 외식"] },
+  "failures": [
+    { "year": 2014, "description": "Sukiya labor crisis from understaffing led to mass store closures.", "descriptionKo": "인력 부족 스키야 노동 위기로 대규모 매장 폐쇄.", "lesson": "Mass fast-food faces labor-cost constraint.", "lessonKo": "대중 패스트푸드는 노동 비용 제약 직면." },
+    { "year": 2024, "description": "Sukiya bowl contamination scandals (mouse, insects) forced temporary closures.", "descriptionKo": "스키야 그릇 오염 스캔들(쥐·곤충)로 일시 폐쇄.", "lesson": "Food-service faces food-safety reputational risk.", "lessonKo": "식품 서비스는 식품 안전 평판 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.3 }, { "year": 2024, "netWorth": 3.5 }, { "year": 2025, "netWorth": 3.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Cheap beef bowls feed nations.", "textKo": "저렴한 소고기 덮밥이 국가를 먹인다.", "context": "On Sukiya mission", "contextKo": "스키야 미션에 대해", "source": "https://www.zensho.co.jp" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Hae day pillar in O month — 'sanggwan-gyeok', unconventional output, fitting fast-food disrupter founder.", "summaryKo": "정해 일주 + 오월 상관격(파격적 표현·기존 권위 도전)은 전통 일본 외식에 패스트푸드라는 파격을 도입한 그의 경로와 호응합니다. 정화 일간 + 오화 월지의 극강 화 기운이 결단·기세를 이중 강조하고, 해수 일지의 수 기운이 자본 유동성을 가리킵니다." }
+}

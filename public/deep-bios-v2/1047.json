@@ -1,0 +1,39 @@
+{
+  "id": "1047", "name": "Alexandre Van Damme", "nameKo": "알렉상드르 반 담",
+  "netWorth": 3.9, "nationality": "BE", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Belgium", "birthPlaceKo": "벨기에",
+    "familyBackground": "Born to Van Damme family — Belgian co-founders of Interbrew (now AB InBev).", "familyBackgroundKo": "Interbrew(현 AB InBev) 벨기에 공동 창립자 반 담 가족 출신.",
+    "education": "Belgian higher education.", "educationKo": "벨기에 고등교육.",
+    "earlyLife": "Van Damme family heir of AB InBev (formed via Interbrew + Ambev 2004 + Anheuser-Busch 2008); major AB InBev family stockholder.",
+    "earlyLifeKo": "AB InBev(Interbrew + Ambev 2004 + Anheuser-Busch 2008 합병) 반 담 가족 상속인; 주요 AB InBev 가족 주주.",
+    "source": "https://en.wikipedia.org/wiki/Anheuser-Busch_InBev"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "AB InBev 가족 자본." },
+  "careerTimeline": [
+    { "year": 1985, "age": 23, "event": "Joined family Interbrew (later AB InBev).", "eventKo": "가족 Interbrew(이후 AB InBev) 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2004, "age": 42, "event": "Interbrew merged with Ambev to form InBev.", "eventKo": "Interbrew가 Ambev와 합병하여 InBev 형성.", "whyItMatteredKo": "InBev 합병." },
+    { "year": 2008, "age": 46, "event": "InBev acquired Anheuser-Busch for $52B to form AB InBev.", "eventKo": "InBev가 Anheuser-Busch를 520억 달러 인수하여 AB InBev 형성.", "whyItMatteredKo": "AB 인수." },
+    { "year": 2016, "age": 54, "event": "AB InBev acquired SABMiller for $107B; world's largest beer company.", "eventKo": "AB InBev가 SABMiller를 1,070억 달러 인수; 세계 최대 맥주 회사.", "whyItMatteredKo": "SABMiller 인수." },
+    { "year": 2025, "age": 63, "event": "Personal net worth at $3.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 39억 달러.", "whyItMatteredKo": "AB InBev 정점." }
+  ],
+  "turningPoints": [{ "year": 2008, "age": 46, "decisionKo": "AB 인수로 글로벌 맥주 1위 형성 지지", "alternativeKo": "InBev 단일 유지", "outcomeKo": "17년 후 39억 달러 + 세계 1위 맥주 가족" }],
+  "moneyMechanics": { "primaryRevenueKo": "AB InBev(BUD) 가족 지분", "industryKo": "맥주·주류", "businessModelKo": "Budweiser·Stella Artois·Corona·Bud Light 등 500+ 브랜드", "moatKo": "AB InBev 세계 1위 맥주 + 가족 의결권 + 150년+ 트랙", "luckVsSkillKo": "운(85%): 가족 자본. 실력(15%): 가족 의결권 유지." },
+  "personalTraits": {
+    "knownFor": "AB InBev family stockholder; one of largest Belgian-Brazilian beer dynasty heirs.",
+    "knownForKo": "AB InBev 가족 주주; 벨기에·브라질 맥주 왕조 최대 상속인 중 하나.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "AB InBev 2023 Bud Light Dylan Mulvaney boycott controversy.",
+    "controversiesKo": "AB InBev 2023 Bud Light 딜런 멀베이니 보이콧 논쟁."
+  },
+  "characterKo": { "summaryKo": "AB InBev 가족 주주 + 세계 맥주 1위.", "tagsKo": ["AB InBev", "Budweiser", "Belgian family"] },
+  "failures": [
+    { "year": 2023, "description": "Bud Light boycott over Dylan Mulvaney influencer ad compressed AB InBev US sales sharply.", "descriptionKo": "딜런 멀베이니 인플루언서 광고에 대한 Bud Light 보이콧이 AB InBev 미국 판매 급격 압축.", "lesson": "Mass-market brands face cultural-backlash risk.", "lessonKo": "대중 시장 브랜드는 문화 반발 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 closed bars; AB InBev on-premise sales plunged.", "descriptionKo": "COVID-19이 바 폐쇄; AB InBev 영업 매장 매출 급락.", "lesson": "Beer faces on-premise pandemic exposure.", "lessonKo": "맥주는 영업 매장 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.5 }, { "year": 2020, "netWorth": 4.0 }, { "year": 2024, "netWorth": 3.7 }, { "year": 2025, "netWorth": 3.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Beer is patience fermented.", "textKo": "맥주는 발효된 인내다.", "context": "On AB InBev legacy", "contextKo": "AB InBev 유산에 대해", "source": "https://www.ab-inbev.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Sin day pillar in Mi month — 'jeongjae-gyeok', stable wealth accumulation, fitting multi-generation beer-family heir.", "summaryKo": "임신 일주 + 미월 정재격(안정적·정직한 부 축적)은 150년+ 가족 맥주 자본 안정 축적 경로와 호응합니다. 임수 일간의 큰 바다 기질이 거대 자본·맥주 유동과 통하고, 신금 일지의 금 기운이 정밀 양조 도구를, 미토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

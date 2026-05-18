@@ -1,0 +1,39 @@
+{
+  "id": "1180", "name": "Spiro Latsis", "nameKo": "스피로스 라치스",
+  "netWorth": 3.5, "nationality": "GR", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Athens, Greece", "birthPlaceKo": "그리스 아테네",
+    "familyBackground": "Born to John S. Latsis — Greek shipping tycoon.", "familyBackgroundKo": "그리스 해운 거물 존 S. 라치스의 아들.",
+    "education": "London School of Economics; St. Antony's Oxford DPhil.", "educationKo": "런던 정치경제대학교; 옥스퍼드 세인트 앤터니스 박사.",
+    "earlyLife": "Joined family Latsis Group; took over after father's 2003 death; built diversified Latsis holdings covering shipping, EFG Eurobank, real estate, oil refining.",
+    "earlyLifeKo": "가족 Latsis Group 합류; 2003 아버지 사망 후 인수; 해운·EFG Eurobank·부동산·석유 정제 포괄 다각화 Latsis 지주 구축.",
+    "source": "https://en.wikipedia.org/wiki/Spiro_Latsis"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Latsis 가족 자본." },
+  "careerTimeline": [
+    { "year": 1975, "age": 29, "event": "Joined family Latsis Group after Oxford DPhil.", "eventKo": "옥스퍼드 박사 후 가족 Latsis Group 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1990, "age": 44, "event": "Built EFG Eurobank into major Greek bank.", "eventKo": "EFG Eurobank를 주요 그리스 은행으로 구축.", "whyItMatteredKo": "은행 단계." },
+    { "year": 2003, "age": 57, "event": "Father John Latsis died; took expanded role.", "eventKo": "아버지 존 라치스 사망; 확대 역할.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2010, "age": 64, "event": "Greek debt crisis pressured Latsis bank and asset holdings.", "eventKo": "그리스 부채 위기로 Latsis 은행·자산 보유 압박.", "whyItMatteredKo": "위기 단계." },
+    { "year": 2025, "age": 79, "event": "Personal net worth at $3.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 35억 달러.", "whyItMatteredKo": "Latsis 정점." }
+  ],
+  "turningPoints": [{ "year": 2003, "age": 57, "decisionKo": "아버지 사망 후 가족 그룹 인수", "alternativeKo": "학문 잔류", "outcomeKo": "22년 후 35억 달러 + 그리스 가족 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Latsis Group 사적 가족 + EFG Eurobank + 다각화", "industryKo": "은행·해운·다각화", "businessModelKo": "EFG Eurobank + Hellenic Petroleum + 해운 + 부동산", "moatKo": "그리스 다각화 가족 + 옥스퍼드 박사 학문", "luckVsSkillKo": "운(70%): 가족 자본. 실력(30%): 박사·은행 운영." },
+  "personalTraits": {
+    "knownFor": "Latsis family head; major EFG Eurobank shareholder; Greek diversified-conglomerate heir.",
+    "knownForKo": "Latsis 가족 가장; 주요 EFG Eurobank 주주; 그리스 다각화 대기업 상속인.",
+    "philanthropy": "Latsis Foundation supports Greek education and culture.", "philanthropyKo": "Latsis 재단이 그리스 교육·문화 자선 지원.",
+    "controversies": "Greek debt crisis era EFG Eurobank scrutiny; Latsis political-funding scrutiny.",
+    "controversiesKo": "그리스 부채 위기 시대 EFG Eurobank 감시; Latsis 정치 자금 감시."
+  },
+  "characterKo": { "summaryKo": "Latsis 가족 + EFG Eurobank + 다각화 그리스 가부장.", "tagsKo": ["Latsis Group", "EFG Eurobank", "그리스 가족"] },
+  "failures": [
+    { "year": 2010, "description": "Greek debt crisis severely pressured EFG Eurobank and Latsis assets.", "descriptionKo": "그리스 부채 위기로 EFG Eurobank·Latsis 자산 심각 압박.", "lesson": "Concentrated sovereign exposure faces dramatic crisis exposure.", "lessonKo": "집중 주권 노출은 극적인 위기 노출 직면." },
+    { "year": 2015, "description": "Greek bank capital controls disrupted Latsis bank operations.", "descriptionKo": "그리스 은행 자본 통제가 Latsis 은행 운영 혼란.", "lesson": "Banks face capital-control sovereign risk.", "lessonKo": "은행은 자본 통제 주권 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 3.3 }, { "year": 2025, "netWorth": 3.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Greek wealth weathers Greek crises through patience.", "textKo": "그리스 부는 인내로 그리스 위기를 견딘다.", "context": "On Greek family wealth", "contextKo": "그리스 가족 부에 대해", "source": "https://en.wikipedia.org/wiki/Spiro_Latsis" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Yu day pillar in Sin month — 'jeonggwan-gyeok', formal regulated authority, fitting Oxford-credentialed Greek banking heir.", "summaryKo": "신유 일주 + 신월 정관격(공식 권위·규제 아래에서 일하는 구조)은 옥스퍼드 박사 자격 + 그리스 은행 규제 권위 환경의 가족 가부장 경로와 호응합니다. 신금 일간 + 유금 일지·신금 월지의 극강 금 기운이 정밀 금융·학문을 삼중 강조합니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1617", "name": "Mi Enhua", "nameKo": "미언화",
+  "netWorth": 2.5, "nationality": "CN", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Chinese higher education.", "educationKo": "중국 고등교육.",
+    "earlyLife": "Co-founded Bosideng International — major Chinese down apparel brand; helped build Bosideng into Chinese winter-apparel leader.",
+    "earlyLifeKo": "Bosideng International 공동 창립 — 주요 중국 다운 의류 브랜드; Bosideng을 중국 겨울 의류 리더로 구축 도움.",
+    "source": "https://www.bosideng.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Bosideng 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1980, "age": 22, "event": "Began Chinese textile career.", "eventKo": "중국 섬유 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1992, "age": 34, "event": "Co-founded Bosideng down-apparel brand.", "eventKo": "Bosideng 다운 의류 브랜드 공동 창립.", "whyItMatteredKo": "Bosideng 출발선." },
+    { "year": 2007, "age": 49, "event": "Bosideng IPO on Hong Kong Stock Exchange.", "eventKo": "Bosideng 홍콩 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2018, "age": 60, "event": "Bosideng re-launched as global premium down brand; international expansion.", "eventKo": "Bosideng이 글로벌 프리미엄 다운 브랜드로 재출시; 국제 확장.", "whyItMatteredKo": "재출시 단계." },
+    { "year": 2025, "age": 67, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "Bosideng 정점." }
+  ],
+  "turningPoints": [{ "year": 2018, "age": 60, "decisionKo": "Bosideng 글로벌 프리미엄 재포지셔닝", "alternativeKo": "중국 저가 잔류", "outcomeKo": "7년 후 25억 달러 + 글로벌 프리미엄" }],
+  "moneyMechanics": { "primaryRevenueKo": "Bosideng International(3998.HK) 가족 지분", "industryKo": "패션 소매·다운 의류", "businessModelKo": "중국 다운 의류 1위 + 프리미엄 재포지셔닝 + 글로벌 확장", "moatKo": "중국 다운 의류 1위 + 프리미엄 브랜드 + 33년 트랙", "luckVsSkillKo": "운(35%): 중국 소비자 부상. 실력(65%): 33년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Bosideng International; Chinese down-apparel magnate.",
+    "knownForKo": "Bosideng International 공동 창립자; 중국 다운 의류 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2017 Bosideng faced quality scrutiny; 2022 anti-China clothing boycott pressure briefly.",
+    "controversiesKo": "2017 Bosideng 품질 감시 직면; 2022 반중국 의류 보이콧 압박 잠시."
+  },
+  "characterKo": { "summaryKo": "Bosideng 33년 + 중국 다운 의류 1위.", "tagsKo": ["Bosideng", "다운 의류", "중국 패션"] },
+  "failures": [
+    { "year": 2013, "description": "Bosideng overexpansion led to inventory glut; required closures.", "descriptionKo": "Bosideng 과잉 확장이 재고 과잉 야기; 폐쇄 필요.", "lesson": "Apparel-retail faces inventory-cycle exposure.", "lessonKo": "의류 소매는 재고 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted apparel retail; Bosideng pivoted to e-commerce.", "descriptionKo": "COVID-19이 의류 소매 혼란; Bosideng이 전자상거래 전환.", "lesson": "Retail faces pandemic-shock exposure.", "lessonKo": "소매는 팬데믹 충격 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Down keeps warm; brand keeps loyalty.", "textKo": "다운은 따뜻하게 하고, 브랜드는 충성도를 유지한다.", "context": "On Bosideng strategy", "contextKo": "Bosideng 전략에 대해", "source": "https://www.bosideng.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Sin day pillar in Myo month — 'jeonggwan-gyeok', formal regulated authority, fitting public Hong Kong-listed apparel-magnate.", "summaryKo": "무신 일주 + 묘월 정관격(공식 권위·규제 아래에서 일하는 구조)은 홍콩 상장이라는 정통 금융 규제 권위 환경의 다운 의류 회사 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 자본 안정과 통하고, 신금 일지의 금 기운이 정밀 운영 도구를, 묘목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

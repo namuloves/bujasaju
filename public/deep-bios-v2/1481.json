@@ -1,0 +1,38 @@
+{
+  "id": "1481", "name": "Stein Erik Hagen", "nameKo": "스테인 에리크 하겐",
+  "netWorth": 2.7, "nationality": "NO", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Norway", "birthPlaceKo": "노르웨이",
+    "familyBackground": "Born to Norwegian working-class family.", "familyBackgroundKo": "노르웨이 노동자 계급 가정에서 출생.",
+    "education": "Norwegian higher education.", "educationKo": "노르웨이 고등교육.",
+    "earlyLife": "Founded RIMI discount grocery chain in 1977 (sold to ICA); founded Canica investment company; major shareholder of Orkla, Komplett, Jernia.",
+    "earlyLifeKo": "1977 RIMI 할인 식료품 체인 창립(ICA 매각); Canica 투자 회사 창립; Orkla·Komplett·Jernia 주요 주주.",
+    "source": "https://en.wikipedia.org/wiki/Stein_Erik_Hagen"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "RIMI 매각 + Canica 다각화." },
+  "careerTimeline": [
+    { "year": 1965, "age": 9, "event": "Began working at family grocery store.", "eventKo": "가족 식료품점에서 일 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1977, "age": 21, "event": "Founded RIMI discount grocery chain.", "eventKo": "RIMI 할인 식료품 체인 창립.", "whyItMatteredKo": "RIMI 출발선." },
+    { "year": 1999, "age": 43, "event": "Sold RIMI to ICA Ahold.", "eventKo": "RIMI를 ICA Ahold에 매각.", "whyItMatteredKo": "매각 단계." },
+    { "year": 2005, "age": 49, "event": "Became major Orkla shareholder; diversified investments.", "eventKo": "주요 Orkla 주주가 됨; 다각화 투자.", "whyItMatteredKo": "Orkla 단계." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "Canica 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 43, "decisionKo": "RIMI ICA 매각 후 Canica 다각화", "alternativeKo": "RIMI 운영 지속", "outcomeKo": "26년 후 27억 달러 + 다각화 노르웨이 투자자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Canica + Orkla(ORK.OL) + Komplett 지분", "industryKo": "소매·다각화 투자", "businessModelKo": "RIMI 매각 자본 + Orkla 소비재 + Komplett 전자상거래 + Jernia 하드웨어", "moatKo": "RIMI 매각 자본 + Orkla 25% 의결권", "luckVsSkillKo": "운(35%): 노르웨이 소매 부상. 실력(65%): 21세 RIMI 창립 + 매각 타이밍." },
+  "personalTraits": {
+    "knownFor": "Founder of RIMI; Canica investment vehicle; Orkla major shareholder.",
+    "knownForKo": "RIMI 창립자; Canica 투자 비클; Orkla 주요 주주.",
+    "philanthropy": "Stein Erik Hagen Foundation supports Norwegian entrepreneurship.", "philanthropyKo": "스테인 에리크 하겐 재단이 노르웨이 기업가 정신 자선 지원.",
+    "controversies": "Outspoken right-wing political views drew Norwegian leftist criticism.", "controversiesKo": "노골적 우파 정치 견해가 노르웨이 좌파 비판 야기."
+  },
+  "characterKo": { "summaryKo": "RIMI 창립·매각 + Canica + Orkla 주주.", "tagsKo": ["RIMI", "Canica", "Orkla"] },
+  "failures": [
+    { "year": 2008, "description": "Global financial crisis compressed Norwegian retail demand briefly.", "descriptionKo": "글로벌 금융위기로 노르웨이 소매 수요 잠시 압축.", "lesson": "Retail faces broad-cycle exposure.", "lessonKo": "소매는 광범위 사이클 노출 직면." },
+    { "year": 2015, "description": "Komplett Group online-retail expansion faced execution challenges.", "descriptionKo": "Komplett Group 온라인 소매 확장이 실행 도전 직면.", "lesson": "E-commerce expansion faces operational risk.", "lessonKo": "전자상거래 확장은 운영 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Discount is dignity made affordable.", "textKo": "할인은 저렴하게 만들어진 존엄성이다.", "context": "On RIMI mission", "contextKo": "RIMI 미션에 대해", "source": "https://en.wikipedia.org/wiki/Stein_Erik_Hagen" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-In day pillar in Mi month — 'jeongjae-gyeok', stable wealth accumulation, fitting discount-grocery-and-diversification magnate.", "summaryKo": "경인 일주 + 미월 정재격(안정적·정직한 부 축적)은 9세부터 60년 식료품·다각화라는 안정 자본 축적 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 운영과 통하고, 인목 일지의 목 기운이 회사 성장을, 미토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

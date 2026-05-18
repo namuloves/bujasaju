@@ -1,0 +1,38 @@
+{
+  "id": "1560", "name": "Li Wanqiang", "nameKo": "리완창",
+  "netWorth": 2.6, "nationality": "CN", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "China", "birthPlaceKo": "중국",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Chinese higher education; design.", "educationKo": "중국 고등교육; 디자인.",
+    "earlyLife": "Worked as designer at Kingsoft; co-founded Xiaomi in 2010 with Lei Jun and others; led Xiaomi industrial design; major Xiaomi co-founder.",
+    "earlyLifeKo": "Kingsoft 디자이너 근무; 2010 레이쥔 등과 Xiaomi 공동 창립; Xiaomi 산업 디자인 주도; 주요 Xiaomi 공동 창립자.",
+    "source": "https://www.mi.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Xiaomi 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2000, "age": 23, "event": "Began as designer at Kingsoft.", "eventKo": "Kingsoft 디자이너로 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2010, "age": 33, "event": "Co-founded Xiaomi with Lei Jun.", "eventKo": "레이쥔과 Xiaomi 공동 창립.", "whyItMatteredKo": "Xiaomi 출발선." },
+    { "year": 2018, "age": 41, "event": "Xiaomi IPO on Hong Kong Stock Exchange at $54B valuation.", "eventKo": "Xiaomi 홍콩 증시 540억 달러 밸류에이션 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2024, "age": 47, "event": "Xiaomi SU7 EV launch boosted stock; first auto launch.", "eventKo": "Xiaomi SU7 EV 출시가 주가 부양; 첫 자동차 출시.", "whyItMatteredKo": "EV 단계." },
+    { "year": 2025, "age": 48, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "Xiaomi 정점." }
+  ],
+  "turningPoints": [{ "year": 2010, "age": 33, "decisionKo": "Kingsoft 떠나 Xiaomi 공동 창립", "alternativeKo": "Kingsoft 잔류", "outcomeKo": "15년 후 26억 달러 + Xiaomi 글로벌 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Xiaomi(1810.HK) 공동 창립자 지분 + 다각화", "industryKo": "스마트폰·IoT·EV", "businessModelKo": "Xiaomi 스마트폰 + IoT 생태계 + SU7 EV + 글로벌 확장", "moatKo": "Xiaomi 가격 가치 브랜드 + 15년 트랙 + EV 진출", "luckVsSkillKo": "운(40%): 중국 스마트폰 시대. 실력(60%): 디자인 + 15년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Xiaomi; lead industrial designer; major Xiaomi shareholder.",
+    "knownForKo": "Xiaomi 공동 창립자; 수석 산업 디자이너; 주요 Xiaomi 주주.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Xiaomi US sanctions scrutiny 2021 (later removed); standard Chinese-tech scrutiny.", "controversiesKo": "2021 Xiaomi 미국 제재 감시(이후 해제); 표준 중국 기술 감시."
+  },
+  "characterKo": { "summaryKo": "Xiaomi 공동 창립 + 산업 디자인 + EV 진출.", "tagsKo": ["Xiaomi", "SU7", "Lei Jun"] },
+  "failures": [
+    { "year": 2021, "description": "US Defense Department briefly designated Xiaomi as Chinese-military firm; later removed.", "descriptionKo": "미국 국방부가 Xiaomi를 중국 군부 회사로 잠시 지정; 이후 해제.", "lesson": "Chinese tech faces US national-security designation risk.", "lessonKo": "중국 기술은 미국 국가 안보 지정 리스크 직면." },
+    { "year": 2022, "description": "Chinese smartphone market saturated; Xiaomi sales fell briefly.", "descriptionKo": "중국 스마트폰 시장 포화; Xiaomi 판매 잠시 하락.", "lesson": "Smartphone market faces saturation cycle.", "lessonKo": "스마트폰 시장은 포화 사이클 직면." }
+  ],
+  "wealthHistory": [{ "year": 2018, "netWorth": 1.0 }, { "year": 2021, "netWorth": 3.5 }, { "year": 2023, "netWorth": 1.8 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Design is the difference between commodity and brand.", "textKo": "디자인은 상품과 브랜드의 차이다.", "context": "On Xiaomi design", "contextKo": "Xiaomi 디자인에 대해", "source": "https://www.mi.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-In day pillar in Mi month — 'jeonggwan-gyeok', formal regulated authority, fitting public-tech-and-EV co-founder.", "summaryKo": "경인 일주 + 미월 정관격(공식 권위·규제 아래에서 일하는 구조)은 강한 통신·자동차 규제 권위 환경의 Xiaomi 공동 창립자 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 디자인·자동차와 통하고, 인목 일지의 목 기운이 회사 성장을, 미토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

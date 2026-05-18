@@ -1,0 +1,38 @@
+{
+  "id": "1555", "name": "Hans-Werner Hector", "nameKo": "한스베르너 헥토르",
+  "netWorth": 2.6, "nationality": "DE", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Germany", "birthPlaceKo": "독일",
+    "familyBackground": "Born to German family.", "familyBackgroundKo": "독일 가정에서 출생.",
+    "education": "German higher education; mathematics.", "educationKo": "독일 고등교육; 수학.",
+    "earlyLife": "Co-founded SAP in 1972 with Dietmar Hopp, Hasso Plattner, others; departed SAP 1996; major SAP shareholder + Hector Asset Management; co-founded Hector Foundation for children's medicine.",
+    "earlyLifeKo": "1972 디트마르 호프·하소 플라트너 등과 SAP 공동 창립; 1996 SAP 퇴사; 주요 SAP 주주 + Hector Asset Management; 어린이 의학 Hector 재단 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Hans-Werner_Hector"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "SAP 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1968, "age": 28, "event": "Worked at IBM Germany.", "eventKo": "IBM 독일 근무.", "whyItMatteredKo": "IBM 출발선." },
+    { "year": 1972, "age": 32, "event": "Co-founded SAP in Mannheim.", "eventKo": "만하임에서 SAP 공동 창립.", "whyItMatteredKo": "SAP 출발선." },
+    { "year": 1988, "age": 48, "event": "SAP IPO on Frankfurt Stock Exchange.", "eventKo": "SAP 프랑크푸르트 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 1996, "age": 56, "event": "Departed SAP; retained major shareholder position.", "eventKo": "SAP 퇴사; 주요 주주 지위 유지.", "whyItMatteredKo": "퇴사 단계." },
+    { "year": 2025, "age": 85, "event": "Personal net worth at $2.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 26억 달러.", "whyItMatteredKo": "SAP 정점." }
+  ],
+  "turningPoints": [{ "year": 1996, "age": 56, "decisionKo": "SAP 퇴사하고 주주 + 자선가로 전환", "alternativeKo": "SAP 잔류", "outcomeKo": "29년 후 26억 달러 + 어린이 의학 자선가" }],
+  "moneyMechanics": { "primaryRevenueKo": "SAP(SAP) 주주 지분 + Hector Asset Management", "industryKo": "엔터프라이즈 SaaS·자선", "businessModelKo": "SAP 주식 + Hector Asset Management + Hector Foundation", "moatKo": "SAP 공동 창립 + 53년 트랙", "luckVsSkillKo": "운(40%): SAP·엔터프라이즈 SaaS 시대. 실력(60%): 24년 SAP 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of SAP; founder of Hector Foundation children's medicine; departed SAP 1996.",
+    "knownForKo": "SAP 공동 창립자; Hector 재단 어린이 의학 창립자; 1996 SAP 퇴사.",
+    "philanthropy": "Hector Foundation supports children's medicine and STEM education.", "philanthropyKo": "Hector 재단이 어린이 의학·STEM 교육 자선 지원.",
+    "controversies": "1996 departure from SAP amid power-struggle disputes.", "controversiesKo": "1996 권력 투쟁 분쟁 가운데 SAP 퇴사."
+  },
+  "characterKo": { "summaryKo": "SAP 공동 창립 + Hector Foundation 자선가.", "tagsKo": ["SAP", "Hector Foundation", "어린이 의학"] },
+  "failures": [
+    { "year": 1996, "description": "Departed SAP after disputes with co-founders; lost active role.", "descriptionKo": "공동 창립자와 분쟁 후 SAP 퇴사; 능동 역할 상실.", "lesson": "Co-founder departures from successful companies cost ongoing equity growth.", "lessonKo": "성공한 회사의 공동 창립자 퇴사는 지속 지분 성장 비용." },
+    { "year": 2001, "description": "Dot-com crash compressed SAP stock; family wealth temporarily halved.", "descriptionKo": "닷컴 폭락으로 SAP 주식 압축; 가족 부 일시 반토막.", "lesson": "Enterprise software faces tech-cycle exposure.", "lessonKo": "엔터프라이즈 소프트웨어는 기술 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.7 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.4 }, { "year": 2025, "netWorth": 2.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Software outlasts founders; foundations outlast software.", "textKo": "소프트웨어는 창립자보다 오래 살고, 재단은 소프트웨어보다 오래 산다.", "context": "On Hector Foundation", "contextKo": "Hector 재단에 대해", "source": "https://www.hector-stiftung.de" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Mi day pillar in Chuk month — 'pyeonin-gyeok', non-traditional academic authority, fitting math-trained ERP-software founder.", "summaryKo": "기미 일주 + 축월 편인격(비전통적 학문·문서 권위)은 수학 자격 + ERP 소프트웨어라는 비전형 학문·기술 권위 결합 경로와 호응합니다. 기토 일간의 평야·수용 기질이 다양한 기업 환경 흡수와 통하고, 미토 일지·축토 월지의 극강 토 기운이 자본 안정 기반을 이중 강조합니다." }
+}
