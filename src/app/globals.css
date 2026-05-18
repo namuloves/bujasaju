@@ -85,3 +85,35 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .ticker-marquee { animation: none; }
 }
+
+/* When ProfilePage is rendered inside the intercepted-route modal, hide
+   its self-contained chrome — the modal supplies its own close affordance
+   and the surrounding container already handles backgrounds / spacing.
+   The standalone /profile/[id] route is unaffected. */
+.profile-in-modal .profile-topbar { display: none; }
+.profile-in-modal .profile-page-root {
+  min-height: 0;
+  background: transparent;
+}
+
+/* Profile modal entrance animation. Bottom sheet on mobile, gentle fade-up
+   on desktop. Reduced-motion users get a static panel. */
+@keyframes profileSheetUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+@keyframes profileModalIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to   { opacity: 1; transform: scale(1); }
+}
+.profile-modal-panel {
+  animation: profileSheetUp 220ms ease-out;
+}
+@media (min-width: 640px) {
+  .profile-modal-panel {
+    animation: profileModalIn 180ms ease-out;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .profile-modal-panel { animation: none; }
+}

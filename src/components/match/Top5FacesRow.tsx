@@ -1,15 +1,15 @@
 'use client';
 
 /**
- * Top5FacesRow — 결과 화면 상단의 비슷한 사주 부자 5명 얼굴 줄.
+ * Top5FacesRow — 결과 화면 상단의 비슷한 사주 부자 Top3 row.
  *
  * 디자인:
- *   - 동그란 얼굴 5개 가로 그리드
- *   - 각 얼굴 위 오른쪽에 순위 배지 (1: 금색, 2: 은색, 3: 동색, 4-5: 파란색)
- *   - 사진 아래에 이름·국가·산업·재산
- *   - 클릭하면 onSelect 호출 (부모가 featured 변경)
+ *   - 가로로 한 줄에 한 명 (얼굴 + 이름·국가·회사·간단 소개)
+ *   - 행 전체가 /profile/[id] 로 이동하는 링크
+ *   - 첫 번째 자리는 한국 부자 우선 (pickTop3WithKorean)
  */
 
+import Link from 'next/link';
 import type { EnrichedPerson } from '@/lib/saju/types';
 import { useLanguage } from '@/lib/i18n';
 import { industryToKorean } from '@/components/FilterPanel';
@@ -56,81 +56,276 @@ function normalizePhoto(url: string | undefined | null, name: string): string {
 
 interface Props {
   people: EnrichedPerson[];
-  selectedId: string | null;
-  onSelect: (id: string) => void;
+  /** Optional — when set, the matching row is highlighted (e.g. the featured
+   *  person on the same page). Clicking always navigates to /profile/[id]. */
+  selectedId?: string | null;
 }
 
-export default function Top5FacesRow({ people, selectedId, onSelect }: Props) {
-  const { lang } = useLanguage();
-  const top5 = people.slice(0, 5);
+/**
+ * Sort a Korean billionaire to position 1 if one exists in the match list.
+ * Falls through to the natural match order otherwise. Returns up to 3.
+ */
+export function pickTop3WithKorean(people: EnrichedPerson[]): EnrichedPerson[] {
+  if (people.length === 0) return [];
+  const koreanIdx = people.findIndex((p) => p.nationality === 'KR');
+  if (koreanIdx <= 0) return people.slice(0, 3);
+  const korean = people[koreanIdx];
+  const rest = people.filter((_, i) => i !== koreanIdx);
+  return [korean, ...rest].slice(0, 3);
+}
 
-  if (top5.length === 0) return null;
+/** Industry label → short Korean noun phrase, used in the "how they made
+ *  their money" line under each Top3 row. */
+const INDUSTRY_KO_NOUN: Record<string, string> = {
+  Technology: '기술',
+  Automotive: '자동차',
+  Energy: '에너지',
+  Healthcare: '헬스케어',
+  Pharmaceuticals: '제약',
+  'Real estate': '부동산',
+  Manufacturing: '제조업',
+  Retail: '유통',
+  'Fashion & Retail': '패션·유통',
+  'Media & Entertainment': '미디어·엔터',
+  Media: '미디어',
+  Finance: '금융',
+  'Financial services': '금융',
+  Banking: '은행',
+  'Hedge funds': '헤지펀드',
+  'Private equity': '사모펀드',
+  Investments: '투자',
+  Diversified: '복합 기업',
+  Food: '식품',
+  'Food & Beverage': '식음료',
+  Construction: '건설',
+  Logistics: '물류',
+  Shipping: '해운',
+  Mining: '광업',
+  Chemicals: '화학',
+  Telecom: '통신',
+  Gaming: '게임',
+  Fintech: '핀테크',
+  Insurance: '보험',
+  Semiconductors: '반도체',
+  Software: '소프트웨어',
+  Restaurant: '외식업',
+  'Service': '서비스업',
+};
+
+function industryNounKo(industry: string | undefined | null): string {
+  if (!industry) return '';
+  const key = Object.keys(INDUSTRY_KO_NOUN).find(
+    (k) => k.toLowerCase() === industry.trim().toLowerCase(),
+  );
+  return key ? INDUSTRY_KO_NOUN[key] : industry;
+}
+
+/**
+ * Pick the right Korean object marker (을 / 를) for a noun ending in either
+ * a Korean syllable with/without batchim, or a Latin letter / digit. For
+ * Latin endings we fall back to a phonetic guess: consonant ending → 을,
+ * vowel ending → 를. Good enough for company names like "SK", "Tesla".
+ */
+function objectParticle(noun: string): '을' | '를' {
+  const last = noun.trim().slice(-1);
+  if (!last) return '를';
+  const code = last.charCodeAt(0);
+  // Korean syllable block: 가(0xAC00) - 힣(0xD7A3). Batchim test:
+  // (code - 0xAC00) % 28 !== 0 → has final consonant → 을.
+  if (code >= 0xac00 && code <= 0xd7a3) {
+    return (code - 0xac00) % 28 !== 0 ? '을' : '를';
+  }
+  // Digit: treat as Korean reading of the number, e.g. "3" → "삼" (consonant) → 을.
+  if (/[0-9]/.test(last)) return '을';
+  // Latin letter: rough phonetic heuristic.
+  if (/[a-zA-Z]/.test(last)) {
+    return /[aeiouy]/i.test(last) ? '를' : '을';
+  }
+  return '를';
+}
+
+/**
+ * Pull a clean short company name out of the raw `company` field.
+ * Returns '' when the field is missing, too long, or a sentence-shaped
+ * bio leak ("정몽구는 한국 2위 재벌인 현대자동차…").
+ */
+function cleanCompanyName(raw: string | undefined | null): string {
+  if (!raw) return '';
+  const s = raw.trim();
+  if (s.length === 0 || s.length > 14) return '';
+  // Any sentence punctuation = it's a sentence, not a brand name.
+  if (/[.,;:]|Daughter|son of|sister|brother/i.test(s)) return '';
+  return s;
+}
+
+/**
+ * Drop the middle token(s) from a name with 3+ space-separated parts so
+ * Western "First Middle Last" displays as "First Last" (e.g. "노먼 머리
+ * 에드워즈" → "노먼 에드워즈", "윌리엄 헨리 게이츠 3세" → "윌리엄 게이츠 3세").
+ *
+ * Korean / Chinese / Japanese names are typically one token (성+이름 written
+ * without a space), so they pass through unchanged. 2-token names also
+ * unchanged — those are usually a clean First + Last already.
+ */
+function dropMiddleNames(name: string): string {
+  const parts = name.trim().split(/\s+/);
+  if (parts.length < 3) return name;
+  // Preserve trailing numerals / suffixes like "3세", "Jr", "II" by keeping
+  // them with the last name token. Anything that's clearly a name-like
+  // token stays where it is.
+  const last = parts[parts.length - 1];
+  // If the last token is a suffix and we have at least 3 parts, keep the
+  // real surname (the one before the suffix).
+  const SUFFIX_RE = /^(3세|2세|Jr\.?|II|III|IV)$/i;
+  if (SUFFIX_RE.test(last) && parts.length >= 3) {
+    return `${parts[0]} ${parts[parts.length - 2]} ${last}`;
+  }
+  return `${parts[0]} ${last}`;
+}
+
+/**
+ * Build the small meta line shown under the name: "한국 · 호텔신라" style.
+ * `company` is preferred when it's clean; otherwise we fall back to the
+ * Korean industry label so the row never leaks long bio text into the
+ * place where a brand should be.
+ */
+function metaLineKo(person: EnrichedPerson, lang: string): string {
+  const country = nationalityKo(person.nationality, lang);
+  const company = cleanCompanyName(person.company);
+  const industryKo = lang === 'ko' ? industryToKorean(person.industry) : person.industry;
+  const tag = company || industryKo || '';
+  return [country, tag].filter(Boolean).join(' · ');
+}
+
+/**
+ * Take a bio paragraph and trim it down to one or two sentences fit for
+ * a Top3 row. Returns '' when the source text isn't suitable (empty, or
+ * mostly English when we'd be showing Korean copy).
+ */
+function trimBioForRow(text: string | undefined | null, requireKorean: boolean): string {
+  if (!text) return '';
+  const trimmed = text.trim();
+  if (trimmed.length < 8) return '';
+
+  if (requireKorean) {
+    // Two checks together:
+    //   1) Enough absolute Hangul to be a real Korean sentence.
+    //   2) The Korean is the *dominant* script — bail if Latin letters
+    //      outweigh Hangul, since that means the bio is mostly English
+    //      with a few Korean tokens (e.g. company names).
+    const hangulCount = (trimmed.match(/[가-힣]/g) || []).length;
+    const latinCount = (trimmed.match(/[A-Za-z]/g) || []).length;
+    if (hangulCount < 8) return '';
+    if (latinCount > hangulCount) return '';
+  }
+
+  // Stitch the first few sentences when available. Cap at ~300 chars so
+  // the row stays readable on mobile without truncating mid-sentence
+  // for the typical 2-sentence bio.
+  const parts = trimmed.match(/[^.!?。！？]+[.!?。！？]?/g) ?? [trimmed];
+  let out = parts.slice(0, 3).join('').trim();
+  if (out.length > 300) out = out.slice(0, 298).trimEnd() + '…';
+  return out;
+}
+
+/**
+ * "How they made their money" — prefer the real biography (bioKo first,
+ * then bio) so the row reflects ground truth. Fall back to a generated
+ * sentence built from industry / company only when the bio is unusable.
+ */
+function wealthStoryKo(person: EnrichedPerson, lang: string): string {
+  if (lang !== 'ko') return '';
+
+  // 1) Korean bio — most informative, no translation gymnastics.
+  const fromBioKo = trimBioForRow(person.bioKo, true);
+  if (fromBioKo) return fromBioKo;
+
+  // 2) Some records (e.g. 이명희) park Korean copy in the English `bio`
+  //    field instead of `bioKo`. Reuse it if it's actually Korean.
+  const fromBio = trimBioForRow(person.bio, true);
+  if (fromBio) return fromBio;
+
+  // 3) Generic, fact-light fallback. Keep it neutral — we don't trust
+  //    `wealthOrigin` enough to make self-made / inherited claims here.
+  const industry = industryNounKo(person.industry);
+  const co = cleanCompanyName(person.company);
+
+  const coObj = co ? `${co}${objectParticle(co)}` : '';
+
+  // Neutral fallback — describe the industry / company without claiming
+  // self-made vs inherited. `wealthOrigin` in the dataset is unreliable
+  // (e.g. 이명희 marked self-made though she inherited Samsung lineage),
+  // so we say less rather than say it wrong.
+  if (co && industry)
+    return `${coObj} 중심으로 ${industry} 분야에서 활약하는 부자. 구체적인 부의 형성 과정은 상세 프로필을 참고하세요.`;
+  if (co)
+    return `${co} 관련 사업으로 부를 일군 부자. 자세한 내용은 상세 프로필을 참고하세요.`;
+  if (industry)
+    return `${industry} 분야에서 활약하는 부자. 자세한 내용은 상세 프로필을 참고하세요.`;
+  return '큰 자산을 일군 부자. 자세한 내용은 상세 프로필을 참고하세요.';
+}
+
+export default function Top5FacesRow({ people, selectedId }: Props) {
+  const { lang } = useLanguage();
+  const top3 = pickTop3WithKorean(people);
+
+  if (top3.length === 0) return null;
 
   return (
-    <div className="grid grid-cols-3 sm:grid-cols-5 gap-1 sm:gap-2 max-w-[640px] mx-auto">
-      {top5.map((person, i) => {
-        const isActive = person.id === selectedId;
-        const rank = i + 1;
-        const badgeColor =
-          rank === 1 ? 'bg-amber-500'
-          : rank === 2 ? 'bg-slate-400'
-          : rank === 3 ? 'bg-amber-700'
-          : 'bg-indigo-600';
-        const displayName = lang === 'ko' ? (person.nameKo || person.name) : person.name;
-        const country = nationalityKo(person.nationality, lang);
-        // Prefer the actual company name (bio-extracted) over the industry tag.
-        // Fall back to the industry label so the slot is never blank.
-        const companyOrIndustry =
-          person.company
-          || (lang === 'ko' ? industryToKorean(person.industry) : person.industry);
-
-        // Mobile shows top 3 only; ranks 4 & 5 still render on sm+ screens
-        // where the grid widens to 5 columns. Keeps the data path intact
-        // so the user's "selected" state stays valid across breakpoints.
-        const hiddenOnMobile = i >= 3 ? 'hidden sm:block' : '';
+    <ul className="flex flex-col gap-2 max-w-xl mx-auto">
+      {top3.map((person) => {
+        const isActive = selectedId != null && person.id === selectedId;
+        const displayName = dropMiddleNames(
+          lang === 'ko' ? (person.nameKo || person.name) : person.name,
+        );
+        const meta = metaLineKo(person, lang);
+        const blurb = wealthStoryKo(person, lang);
 
         return (
-          <button
-            key={person.id}
-            type="button"
-            onClick={() => onSelect(person.id)}
-            className={`text-center px-1 py-2 rounded-xl transition-colors ${hiddenOnMobile} ${
-              isActive ? 'bg-indigo-50' : 'hover:bg-gray-50'
-            }`}
-            aria-pressed={isActive}
-          >
-            <div className="relative w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-2">
-              <span
-                className={`absolute -top-1 -right-1 z-10 inline-flex items-center justify-center w-5 h-5 sm:w-[22px] sm:h-[22px] rounded-full text-[10px] sm:text-[11px] font-bold text-white border-2 border-white shadow-sm ${badgeColor}`}
-              >
-                {rank}
-              </span>
-              <div className="w-full h-full rounded-full overflow-hidden bg-gray-200 border-[3px] border-white shadow">
-                <img
-                  src={normalizePhoto(person.photoUrl, person.name)}
-                  alt={person.name}
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=200&background=random&bold=true`;
-                  }}
-                />
+          <li key={person.id}>
+            <Link
+              href={`/profile/${person.id}`}
+              className={`block w-full flex items-start gap-3 text-left px-3 py-2.5 rounded-xl transition-colors ${
+                isActive ? 'bg-gray-100' : 'hover:bg-gray-50'
+              }`}
+            >
+              <div className="relative shrink-0 w-14 h-14 sm:w-16 sm:h-16">
+                <div className="w-full h-full rounded-full overflow-hidden bg-gray-200">
+                  <img
+                    src={normalizePhoto(person.photoUrl, person.name)}
+                    alt={person.name}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=200&background=random&bold=true`;
+                    }}
+                  />
+                </div>
               </div>
-            </div>
-            <p className="text-[11px] sm:text-xs font-semibold text-gray-900 leading-tight truncate">
-              {displayName}
-            </p>
-            {country && (
-              <p className="text-[10px] text-gray-500 truncate">{country}</p>
-            )}
-            <p className="text-[10px] text-gray-500 truncate">{companyOrIndustry}</p>
-            <p className="text-[11px] sm:text-xs font-bold text-indigo-600 mt-0.5">
-              {formatWorthKo(person.netWorth)}
-            </p>
-          </button>
+
+              <div className="min-w-0 flex-1">
+                <div className="flex items-baseline justify-between gap-2">
+                  <p className="text-sm font-semibold text-gray-900 truncate">
+                    {displayName}
+                  </p>
+                  <p className="text-xs font-bold text-gray-900 shrink-0">
+                    {formatWorthKo(person.netWorth)}
+                  </p>
+                </div>
+                <p className="text-[11px] text-gray-500 truncate mt-0.5">
+                  {meta}
+                </p>
+                {blurb && (
+                  <p className="text-[12px] text-gray-600 leading-snug mt-1 line-clamp-6">
+                    {blurb}
+                  </p>
+                )}
+              </div>
+            </Link>
+          </li>
         );
       })}
-    </div>
+    </ul>
   );
 }

@@ -42,8 +42,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  modal,
 }: Readonly<{
   children: React.ReactNode;
+  /** Parallel-route slot used by `app/@modal` to overlay an intercepted
+   *  /profile/[id] view on top of the current page. Renders nothing when
+   *  no intercepted route is active (`app/@modal/default.tsx` returns null). */
+  modal: React.ReactNode;
 }>) {
   return (
     <html
@@ -53,6 +58,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <LanguageProvider>
           {children}
+          {modal}
           <Footer />
         </LanguageProvider>
         <Analytics />

@@ -56,6 +56,9 @@ type Step = 'form' | 'calculating' | 'confirm' | 'revealing' | 'results';
 const CALCULATING_MS = 900;
 
 const STORAGE_KEY = 'bujasaju.matchInput';
+// Separate key so old clients that only know about STORAGE_KEY keep working
+// (they'll just not auto-resume to results).
+const STEP_KEY = 'bujasaju.matchStep';
 
 // Midpoint hour for each 시지 — fed into lunar-javascript so it picks the
 // right 시지 without sitting on a window boundary.
@@ -130,20 +133,42 @@ export default function MatchTab() {
   const [input, setInput] = useState<MatchInput | null>(null);
   const [step, setStep] = useState<Step>('form');
 
-  // On reload, always start fresh at the form. localStorage still holds the
-  // last input so BirthdayForm can pre-fill fields, but the user must
-  // explicitly submit again.
+  // On reload / nav-back, rehydrate the last input AND step. The user
+  // already confirmed their saju once; sending them back to a blank form
+  // and forcing a re-submit feels broken when they came from a profile
+  // page via the browser back button. Calculating/revealing steps are
+  // intermediate animations and shouldn't auto-resume — collapse them
+  // back to 'form' so the next paint is deterministic.
   useEffect(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
-      if (!raw) return;
-      const parsed = JSON.parse(raw) as MatchInput;
-      setInput(parsed);
-      // Stay on 'form' — don't auto-advance.
+      if (raw) {
+        const parsed = JSON.parse(raw) as MatchInput;
+        setInput(parsed);
+      }
+      const savedStep = localStorage.getItem(STEP_KEY) as Step | null;
+      if (savedStep === 'results' || savedStep === 'confirm') {
+        setStep(savedStep);
+      }
     } catch {
       // ignore
     }
   }, []);
+
+  // Persist the current step so a tab switch or profile-page round trip
+  // returns the user to where they left off.
+  useEffect(() => {
+    try {
+      if (step === 'results' || step === 'confirm') {
+        localStorage.setItem(STEP_KEY, step);
+      } else if (step === 'form') {
+        localStorage.removeItem(STEP_KEY);
+      }
+      // calculating / revealing are transient — leave whatever was last saved.
+    } catch {
+      // ignore
+    }
+  }, [step]);
 
   const handleFormSubmit = (next: MatchInput) => {
     setInput(next);
@@ -179,6 +204,7 @@ export default function MatchTab() {
   const handleReset = () => {
     try {
       localStorage.removeItem(STORAGE_KEY);
+      localStorage.removeItem(STEP_KEY);
     } catch {
       // ignore
     }

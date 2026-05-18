@@ -84,11 +84,11 @@ export default function EmailCaptureCard() {
 
   if (status === 'success') {
     return (
-      <div className="rounded-xl border border-indigo-100 bg-indigo-50/40 px-5 py-6 text-center">
+      <div className="rounded-xl border border-gray-200 bg-gray-50 px-5 py-6 text-center">
         <div className="text-2xl mb-2" aria-hidden>
           ✉️
         </div>
-        <p className="text-sm font-medium text-indigo-900">
+        <p className="text-sm font-medium text-gray-900">
           {t.emailCaptureSuccess}
         </p>
       </div>
@@ -120,13 +120,13 @@ export default function EmailCaptureCard() {
             placeholder={t.emailCapturePlaceholder}
             aria-label={t.emailCapturePlaceholder}
             aria-invalid={status === 'error'}
-            className="flex-1 min-w-0 rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-xs text-gray-900 placeholder:text-gray-400 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+            className="flex-1 min-w-0 rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-xs text-gray-900 placeholder:text-gray-400 focus:border-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-200"
             disabled={status === 'submitting'}
           />
           <button
             type="submit"
             disabled={status === 'submitting'}
-            className="rounded-lg bg-indigo-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-indigo-700 disabled:bg-indigo-400 transition-colors"
+            className="rounded-lg bg-gray-900 px-3 py-1.5 text-xs font-semibold text-white hover:bg-gray-800 disabled:bg-gray-400 transition-colors"
           >
             {status === 'submitting' ? t.emailCaptureSubmitting : t.emailCaptureSubmit}
           </button>
@@ -143,7 +143,7 @@ export default function EmailCaptureCard() {
                 setErrorMsg(null);
               }
             }}
-            className="mt-0.5 h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+            className="mt-0.5 h-4 w-4 rounded border-gray-300 text-gray-900 focus:ring-gray-400"
           />
           <span>{t.emailCaptureConsent}</span>
         </label>

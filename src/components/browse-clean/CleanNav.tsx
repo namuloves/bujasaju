@@ -61,7 +61,7 @@ export default function CleanNav({
           <span className="hidden md:inline text-[11px] text-gray-400 font-normal">{sublabel}</span>
         )}
         {active && (
-          <span className="absolute inset-x-0 -bottom-[13px] h-[2px] bg-gray-900" />
+          <span className="absolute left-1 right-1 -bottom-0.5 h-[2px] bg-gray-900" />
         )}
       </button>
     );

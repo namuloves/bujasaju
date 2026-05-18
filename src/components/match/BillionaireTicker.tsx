@@ -75,9 +75,99 @@ const BROKEN_PHOTO_IDS = new Set<string>([
 // "Real estate") rather than the actual company. Override known cases so the
 // ticker shows the household-name brand.
 const SOURCE_OVERRIDES: Record<string, string> = {
-  '7':    'Nvidia',  // Jensen Huang
-  '1518': 'SK',      // 최태원
+  // SK / LG stay as-is — those Latin letters are how Koreans actually write them.
+  '1518': 'SK',          // 최태원
+  '111':  '삼성',         // 이재용 — bio-extracted company started with a date
+  '550':  '현대자동차',     // 정몽구 — bio-extracted company was a long sentence
+  '1':    '테슬라·스페이스X', // 일론 머스크
+  '2':    '구글',          // 래리 페이지
+  '3':    '구글',          // 세르게이 브린
+  '5':    '메타',          // 마크 저커버그 — modernized from "Facebook"
+  '6':    '오라클',         // 래리 엘리슨
+  '7':    '엔비디아',       // 젠슨 황
+  '8':    '델',            // 마이클 델 (also covers "델 테크놀로지스" short form)
+  '19':   '마이크로소프트',  // 빌 게이츠
 };
+
+// English company / industry → Korean. Applied when the display text would
+// otherwise be Latin-only. Covers both well-known brand names and Forbes's
+// industry tags ("Real estate" etc) that leak through for filler entries.
+const EN_TO_KO_LABEL: Record<string, string> = {
+  // Companies
+  'Walmart': '월마트',
+  'Cargill': '카길',
+  'Tesla': '테슬라',
+  'SpaceX': '스페이스X',
+  'Facebook': '페이스북',
+  'Meta': '메타',
+  'Google': '구글',
+  'Nvidia': '엔비디아',
+  'Microsoft': '마이크로소프트',
+  'Oracle': '오라클',
+  'Amazon': '아마존',
+  'Apple': '애플',
+  'Tencent': '텐센트',
+  'Alibaba': '알리바바',
+  'Atlassian': '아틀라시안',
+  // Industries (Forbes "source" sometimes carries these instead of a brand)
+  'Real estate':         '부동산',
+  'Investments':         '투자',
+  'Pharmaceuticals':     '제약',
+  'Private equity':      '사모펀드',
+  'Diversified':         '복합 기업',
+  'Software':            '소프트웨어',
+  'Hedge funds':         '헤지펀드',
+  'Banking':             '은행',
+  'Chemicals':           '화학',
+  'Shipping':            '해운',
+  'Manufacturing':       '제조업',
+  'Semiconductors':      '반도체',
+  'Mining':              '광업',
+  'Consumer goods':      '소비재',
+  'Financial services':  '금융',
+  'Retail':              '소매',
+  'Supermarkets':        '슈퍼마켓',
+  'Medical devices':     '의료기기',
+  'Finance':             '금융',
+  'Fintech':             '핀테크',
+  'Artificial intelligence': 'AI',
+  'Electronics':         '전자',
+  'Construction':        '건설',
+  'Shoes':               '신발',
+  'Cryptocurrency':      '암호화폐',
+  'Steel':               '철강',
+  'Media':               '미디어',
+  'Fashion retail':      '패션',
+  'Restaurant':          '외식업',
+  'Energy':              '에너지',
+  'Technology':          '기술',
+  'Healthcare':          '헬스케어',
+  'Automotive':          '자동차',
+  'Entertainment':       '엔터테인먼트',
+  'Hotels':              '호텔',
+  'Insurance':           '보험',
+  'Logistics':           '물류',
+  'Telecom':             '통신',
+};
+
+function localizeLabel(s: string): string {
+  const trimmed = s.trim();
+  if (!trimmed) return trimmed;
+  if (EN_TO_KO_LABEL[trimmed]) return EN_TO_KO_LABEL[trimmed];
+  // Comma- or slash-separated multi-tags like "Hotels, investments" — try
+  // mapping each part individually, fall back to original if no match.
+  if (/[,/]/.test(trimmed)) {
+    const parts = trimmed.split(/[,/]/).map((p) => p.trim()).filter(Boolean);
+    const mapped = parts.map((p) => {
+      const key = Object.keys(EN_TO_KO_LABEL).find(
+        (k) => k.toLowerCase() === p.toLowerCase(),
+      );
+      return key ? EN_TO_KO_LABEL[key] : p;
+    });
+    return mapped.join('·');
+  }
+  return trimmed;
+}
 
 // 풀네임이 너무 길거나 영문 음차가 어색한 경우 통용 호칭으로 교체.
 // IDs는 public/billionaires.json 기준.
@@ -205,8 +295,11 @@ function Face({ person }: { person: EnrichedPerson }) {
   const stem = stemOf(person);
   // Prefer the bio-extracted `company` field; fall back to Forbes's `source`
   // (which may be an industry tag). SOURCE_OVERRIDES is a small hand-curated
-  // list that takes priority over both.
-  const source = SOURCE_OVERRIDES[person.id] ?? person.company ?? person.source;
+  // list that takes priority over both. `localizeLabel` then maps common
+  // English brand / industry names to Korean so the ticker doesn't mix
+  // scripts mid-row.
+  const rawSource = SOURCE_OVERRIDES[person.id] ?? person.company ?? person.source ?? '';
+  const source = localizeLabel(rawSource);
   return (
     <div className="shrink-0 w-[92px] sm:w-[124px] text-center">
       <img

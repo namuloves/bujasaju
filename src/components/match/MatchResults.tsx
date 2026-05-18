@@ -6,15 +6,13 @@ import { useLanguage } from '@/lib/i18n';
 import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
 import type { EnrichedPerson, SajuResult, CheonGan } from '@/lib/saju/types';
-import MiniPersonCard from '@/components/browse/MiniPersonCard';
 import { hasDeepBioSync } from '@/lib/deepBio';
 import { HeroPillar } from './SajuHero';
 import ShareButtons from './ShareButtons';
 import MatchSummary from './MatchSummary';
 import DeepInterpretation from './DeepInterpretation';
-import Top5FacesRow from './Top5FacesRow';
+import Top5FacesRow, { pickTop3WithKorean } from './Top5FacesRow';
 import EmailCaptureCard from './EmailCaptureCard';
-import ResultsCuratedSections from './ResultsCuratedSections';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
 
@@ -69,26 +67,9 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     [me, enrichedPeople],
   );
 
-  // Rendered sections — 일주-only is intentionally hidden here and surfaced
-  // via a dedicated button below. The tiers are mutually exclusive (each
-  // person lives in exactly one group), so no double-counting. Empty
-  // sections are hidden entirely (including 같은 월주) — an empty-state
-  // card here just adds noise without giving the user anything useful.
-  const sections: Array<{
-    key: string;
-    title: string;
-    medal: string;
-    people: EnrichedPerson[];
-  }> = [
-    { key: 'monthJu', title: t.monthJuTitle, medal: '🥇', people: groups.iljuPlusMonthJu },
-    { key: 'twins', title: t.chartTwinsTitle, medal: '🏅', people: groups.chartTwins },
-    { key: 'g1', title: t.group1Title, medal: '🥈', people: groups.iljuPlusWolji },
-    { key: 'g2', title: t.group2Title, medal: '🥉', people: groups.iljuPlusGyeokguk },
-  ];
-
-  // Summary count covers every rendered section. iljuOnly is behind a
-  // button so it's excluded. All tiers are mutually exclusive now, so
-  // simple addition is correct.
+  // Total matches across all stricter tiers (everyone who shares more than
+  // just 일주). Used for the email-gate copy "+N more billionaires" so the
+  // user knows what's behind the gate.
   const totalMatches =
     groups.iljuPlusMonthJu.length +
     groups.chartTwins.length +
@@ -134,7 +115,6 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
   const usingIljuFallback = stricterMatches.length === 0 && groups.iljuOnly.length > 0;
 
   const sameIljuCount = groups.iljuOnly.length;
-  const [showSameIlju, setShowSameIlju] = useState(false);
 
   if (loading && enrichedPeople.length === 0) {
     return (
@@ -144,12 +124,35 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     );
   }
 
-  // Top 5 — 비슷한 부자 카드 영역
-  const top5 = summaryMatches.slice(0, 5);
-  // Default featured = first with deep bio (or first match)
-  const defaultFeaturedId = (summaryMatches.find(p => hasDeepBioSync(p.id)) || summaryMatches[0])?.id ?? null;
+  // Top 3 — Korean billionaire (if any with matching ilju) pinned to slot 1,
+  // remaining 2 slots from the natural match order. If the strict-tier list
+  // has no Korean, fall back to the broader "same ilju" pool so we still
+  // surface a 같은 일주 한국 부자 whenever one exists in the dataset.
+  const top3 = useMemo(() => {
+    const baseHasKorean = summaryMatches.some((p) => p.nationality === 'KR');
+    if (baseHasKorean) return pickTop3WithKorean(summaryMatches);
+    const koreanFromIljuOnly = groups.iljuOnly.find((p) => p.nationality === 'KR');
+    if (!koreanFromIljuOnly) return summaryMatches.slice(0, 3);
+    return [koreanFromIljuOnly, ...summaryMatches.filter((p) => p.id !== koreanFromIljuOnly.id)].slice(0, 3);
+  }, [summaryMatches, groups.iljuOnly]);
+  // Default featured = Top3 slot 1 (Korean if available), so the big card
+  // matches what the user sees highlighted on the row above.
+  const defaultFeaturedId = top3[0]?.id ?? null;
   const [selectedFeaturedId, setSelectedFeaturedId] = useState<string | null>(defaultFeaturedId);
-  const featuredPerson = summaryMatches.find(p => p.id === selectedFeaturedId) || summaryMatches[0] || null;
+  // Featured lookup spans top3 first so a Korean pulled in from the
+  // broader 일주-only pool can still serve as the featured card.
+  const featuredPool = useMemo(() => {
+    const seen = new Set<string>();
+    const out: EnrichedPerson[] = [];
+    for (const p of [...top3, ...summaryMatches]) {
+      if (seen.has(p.id)) continue;
+      seen.add(p.id);
+      out.push(p);
+    }
+    return out;
+  }, [top3, summaryMatches]);
+  const featuredPerson =
+    featuredPool.find((p) => p.id === selectedFeaturedId) || featuredPool[0] || null;
 
   const featuredHasBio = featuredPerson ? hasDeepBioSync(featuredPerson.id) : false;
   const [showFeaturedBio, setShowFeaturedBio] = useState(false);
@@ -255,7 +258,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
             chart so they know what we found before scrolling into who else
             shares it. Heading is left-aligned to match the other section
             headers; chart cells stay centered for visual weight. */}
-        <div className="mb-6 pb-6 border-b border-gray-100">
+        <div className="mb-4">
           <h3 className="text-sm font-bold text-gray-900 mb-4">당신의 사주</h3>
           <div className="max-w-[420px] mx-auto">
             <div className="flex justify-center gap-2 sm:gap-2.5">
@@ -265,7 +268,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
               <HeroPillar label="年" ju={me.saju.year} ilgan={me.saju.day.stem as CheonGan} large />
             </div>
             <p className="text-[12px] text-gray-400 text-center mt-3">
-              {me.ilju} · {me.wolji} 일주
+              {me.ilju}일주 {me.wolji}월지
             </p>
           </div>
         </div>
@@ -275,22 +278,14 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
             ranks 4-5 on small screens), so the headline count needs to
             switch breakpoints too — using two spans rather than a single
             template string. */}
-        {top5.length > 1 && (
-          <div className="mb-6 pb-6 border-b border-gray-100">
-            <div className="flex items-baseline justify-between mb-3">
-              <h3 className="text-sm font-bold text-gray-900">
-                {usingIljuFallback ? `같은 ${me.ilju} 일주 부자 Top ` : '비슷한 사주 부자 Top '}
-                <span className="sm:hidden">{Math.min(top5.length, 3)}</span>
-                <span className="hidden sm:inline">{top5.length}</span>
-              </h3>
-              <span className="text-xs text-gray-400">
-                {me.ilju}·{me.wolji} 일주
-              </span>
-            </div>
+        {top3.length > 1 && (
+          <div className="mb-4">
+            <h3 className="text-sm font-bold text-gray-900 mb-3">
+              나랑 같은 {me.ilju} 일주를 가진 부자
+            </h3>
             <Top5FacesRow
-              people={top5}
+              people={top3}
               selectedId={featuredPerson?.id ?? null}
-              onSelect={(id) => setSelectedFeaturedId(id)}
             />
           </div>
         )}
@@ -348,7 +343,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
               <button
                 type="button"
                 onClick={() => setShowFeaturedBio(true)}
-                className="w-full text-sm font-medium text-indigo-600 hover:text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg py-2.5 transition-colors"
+                className="w-full text-sm font-medium text-white bg-gray-900 hover:bg-gray-800 rounded-lg py-2.5 transition-colors"
               >
                 {fpName} 부자 자세히 보기 →
               </button>
@@ -358,140 +353,45 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
               </div>
             )}
 
-            {/* Match stats — below 자세히 보기 */}
-            <div className="border-t border-gray-100 pt-5 space-y-2.5">
-              {totalMatches > 0 ? (
-                <p className="text-sm text-gray-600">
-                  <span className="font-semibold text-gray-900">{totalMatches}명</span>의 부자가 비슷한 사주를 가졌습니다
-                </p>
-              ) : usingIljuFallback ? (
-                <p className="text-sm text-gray-600">
-                  같은 <span className="font-semibold text-gray-900">{me.ilju} 일주</span> 부자가 <span className="font-semibold text-gray-900">{sameIljuCount}명</span> 있어요
-                </p>
-              ) : null}
-              {comboStats && comboStats.myCount > 0 && (
-                <p className="text-sm text-gray-500">
-                  당신의 <span className="font-medium text-gray-700">{me.ilju}·{me.wolji}</span> 조합은 전체 {comboStats.totalCombos}개 조합 중{' '}
-                  <span className="font-semibold text-indigo-600">{comboStats.rank}위</span>
-                  {' '}({comboStats.myCount}명)
-                </p>
-              )}
-              <div className="flex justify-center md:justify-start mt-4">
-                <button
-                  type="button"
-                  onClick={onReset}
-                  className="text-sm font-medium text-gray-500 bg-gray-100 hover:bg-gray-200 rounded-lg px-5 py-2 transition-colors inline-flex items-center gap-1.5"
-                >
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                    <path d="M3 3v5h5" />
-                  </svg>
-                  다시 하기
-                </button>
-              </div>
-              {/* Share — mobile only (desktop has it at the bottom) */}
-              <div className="md:hidden pt-2">
-                <ShareButtons title={t.shareTitle} variant="hero" />
-              </div>
-            </div>
+            {/* Match stats — single subtle line under the deep interpretation */}
+            {(totalMatches > 0 || usingIljuFallback) && (
+              <p className="text-xs text-gray-400 text-center md:text-left">
+                {totalMatches > 0
+                  ? `${totalMatches + sameIljuCount}명이 비슷한 사주`
+                  : `같은 ${me.ilju} 일주 부자 ${sameIljuCount}명`}
+                {comboStats && comboStats.myCount > 0 && (
+                  <> · {me.ilju}·{me.wolji} 조합 {comboStats.rank}위/{comboStats.totalCombos}</>
+                )}
+              </p>
+            )}
           </div>
         </div>
       </div>
 
-      {/* Results — continuous grid with section headers */}
-      <div className="min-w-0">
-      {(() => {
-        const featuredId = featuredPerson?.id;
-        const items: Array<{ type: 'header'; medal: string; title: string; count: number } | { type: 'card'; person: EnrichedPerson }> = [];
-        for (const section of sections) {
-          const people = section.people.filter(p => p.id !== featuredId);
-          if (people.length === 0) continue;
-          items.push({ type: 'header', medal: section.medal, title: section.title, count: people.length });
-          for (const person of people) {
-            items.push({ type: 'card', person });
-          }
-        }
-        if (items.length === 0) return null;
-        return (
-          <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3">
-            {items.map((item, i) =>
-              item.type === 'header' ? (
-                <div key={`hdr-${i}`} className="col-span-full flex items-baseline gap-2 pt-4 first:pt-0">
-                  <span className="text-lg">{item.medal}</span>
-                  <h3 className="text-sm font-bold text-gray-900">{item.title}</h3>
-                  <span className="text-xs text-gray-400">{t.countPeople(item.count)}</span>
-                </div>
-              ) : (
-                <MiniPersonCard key={item.person.id} person={item.person} />
-              ),
-            )}
-          </div>
-        );
-      })()}
-
-      {totalMatches === 0 && sameIljuCount === 0 && (
-        <div className="text-center py-16 bg-white rounded-xl border border-gray-200">
-          <p className="text-gray-400 text-lg">{t.groupEmpty}</p>
+      {/* Email gate — "N명 더 있어요 / 이메일로 결과를 받아보세요" 카피는
+          서비스 준비 전까지 숨김. 이메일 캡처 카드 자체는 살려둠. */}
+      {(totalMatches + sameIljuCount) > top3.length && (
+        <div className="rounded-2xl border border-gray-200 bg-gray-50/60 px-5 sm:px-7 py-7 max-w-xl mx-auto">
+          <EmailCaptureCard />
         </div>
       )}
 
-      {/* "같은 일주" group — always visible, blurred preview until expanded.
-          Filter out the featured person to avoid showing them twice when
-          we've promoted a 일주-only match to the hero. */}
-      {(() => {
-        const featuredId = featuredPerson?.id;
-        const sameIljuList = groups.iljuOnly.filter(p => p.id !== featuredId);
-        if (sameIljuList.length === 0) return null;
-        return (
-          <section id="same-ilju-section" className="mt-8">
-            <div className="flex items-baseline gap-2 mb-3">
-              <span className="text-xl">🎖️</span>
-              <h3 className="text-base font-bold text-gray-900">{t.group3Title}</h3>
-              <span className="text-xs text-gray-400">
-                {t.countPeople(sameIljuList.length)}
-              </span>
-            </div>
-            <div className="relative">
-              <div className={`grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3 ${!showSameIlju ? 'max-h-[280px] sm:max-h-[320px] overflow-hidden' : ''}`}>
-                {sameIljuList.map((person) => (
-                  <MiniPersonCard key={person.id} person={person} />
-                ))}
-              </div>
-              {!showSameIlju && sameIljuList.length > 6 && (
-                <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-white via-white/90 to-transparent flex items-end justify-center pb-4">
-                  <button
-                    type="button"
-                    onClick={() => setShowSameIlju(true)}
-                    className="px-6 py-2.5 text-sm font-semibold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-colors shadow-sm"
-                  >
-                    {t.seeSameIljuButton(sameIljuList.length)}
-                  </button>
-                </div>
-              )}
-            </div>
-          </section>
-        );
-      })()}
-
-      {/* Share + email */}
-      <div className="bg-white rounded-2xl px-4 sm:px-6 py-5 mx-auto max-w-xl">
+      {/* Share + reset — minimal footer actions */}
+      <div className="max-w-xl mx-auto pt-4">
         <ShareButtons title={t.shareTitle} variant="hero" />
-        <div className="mt-4">
-          <EmailCaptureCard />
+        <div className="flex justify-center mt-6">
+          <button
+            type="button"
+            onClick={onReset}
+            className="text-sm font-medium text-gray-500 bg-gray-100 hover:bg-gray-200 rounded-lg px-5 py-2 transition-colors inline-flex items-center gap-1.5"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+              <path d="M3 3v5h5" />
+            </svg>
+            다시 하기
+          </button>
         </div>
-      </div>
-
-      {/* Curated themed shelves — "keep browsing" content below the main
-          result. User's 일간 section first, then broad-interest sections,
-          with the rest tucked behind an expander. */}
-      <div className="pt-4">
-        <ResultsCuratedSections
-          me={me}
-          people={enrichedPeople}
-          excludeIds={featuredPerson ? new Set([featuredPerson.id]) : undefined}
-        />
-      </div>
-
       </div>
 
       {/* Deep bio modal for featured person */}
