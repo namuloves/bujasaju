@@ -30,10 +30,13 @@ export default function CleanNav({
   const TabBtn = ({
     value,
     label,
+    labelDesktop,
     sublabel,
   }: {
     value: CleanTab;
     label: string;
+    /** Optional longer label shown at sm+ breakpoints. Falls back to `label`. */
+    labelDesktop?: string;
     sublabel?: string;
   }) => {
     const active = activeTab === value;
@@ -42,13 +45,20 @@ export default function CleanNav({
         type="button"
         onClick={() => onChange(value)}
         aria-pressed={active}
-        className={`relative inline-flex items-baseline gap-1.5 px-1 py-1 text-[14px] font-medium transition-colors ${
+        className={`relative inline-flex items-baseline gap-1.5 px-1 py-1 text-[13px] sm:text-[14px] font-medium transition-colors whitespace-nowrap ${
           active ? 'text-gray-900' : 'text-gray-500 hover:text-gray-900'
         }`}
       >
-        <span>{label}</span>
+        {labelDesktop ? (
+          <>
+            <span className="md:hidden">{label}</span>
+            <span className="hidden md:inline">{labelDesktop}</span>
+          </>
+        ) : (
+          <span>{label}</span>
+        )}
         {sublabel && (
-          <span className="text-[11px] text-gray-400 font-normal">{sublabel}</span>
+          <span className="hidden md:inline text-[11px] text-gray-400 font-normal">{sublabel}</span>
         )}
         {active && (
           <span className="absolute inset-x-0 -bottom-[13px] h-[2px] bg-gray-900" />
@@ -61,13 +71,13 @@ export default function CleanNav({
 
   return (
     <header className="sticky top-0 z-30 bg-white/90 backdrop-blur-md">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center gap-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center gap-3 sm:gap-6">
         {/* Logo + tabs */}
-        <div className="flex items-baseline gap-6 shrink-0">
-          <a href="/" className="text-lg font-semibold tracking-tight text-gray-900">
+        <div className="flex items-baseline gap-3 sm:gap-6 min-w-0 flex-1 sm:flex-none">
+          <a href="/" className="text-lg font-semibold tracking-tight text-gray-900 shrink-0">
             부자사주
           </a>
-          <nav className="flex items-center gap-5" aria-label="primary">
+          <nav className="flex items-center gap-3 sm:gap-5 min-w-0" aria-label="primary">
             <TabBtn
               value="browse"
               label={isKo ? '둘러보기' : 'Browse'}
@@ -75,7 +85,8 @@ export default function CleanNav({
             />
             <TabBtn
               value="match"
-              label={isKo ? '나랑 비슷한 사주의 부자 알아보기' : 'Match quiz'}
+              label={isKo ? '내 사주 알아보기' : 'Match quiz'}
+              labelDesktop={isKo ? '나랑 비슷한 사주의 부자 알아보기' : undefined}
             />
           </nav>
         </div>

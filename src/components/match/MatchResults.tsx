@@ -115,7 +115,10 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
 
   // Flattened list fed to the Claude summary — strongest tiers first so
   // the prompt's "top N" slice naturally picks the most relevant people.
-  const summaryMatches = useMemo(
+  // When stricter tiers are empty (e.g. user's 일주·월지 combo doesn't
+  // exist in the data), fall through to 같은 일주 so the result page
+  // still has a featured person and full hero/풀이 — never a "no match".
+  const stricterMatches = useMemo(
     () => [
       ...groups.iljuPlusMonthJu,
       ...groups.chartTwins,
@@ -124,6 +127,11 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     ],
     [groups],
   );
+  const summaryMatches = useMemo(
+    () => (stricterMatches.length > 0 ? stricterMatches : groups.iljuOnly),
+    [stricterMatches, groups.iljuOnly],
+  );
+  const usingIljuFallback = stricterMatches.length === 0 && groups.iljuOnly.length > 0;
 
   const sameIljuCount = groups.iljuOnly.length;
   const [showSameIlju, setShowSameIlju] = useState(false);
@@ -198,11 +206,10 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     ? (featuredPerson.nameKo ?? featuredPerson.name)
     : '';
 
-  // Empty-match fallback: user's 일주 exists in the data, but no billionaire
-  // shares 월지/월주/격국/차트. We'd otherwise render the hero card with
-  // half its pieces missing (no OG, no 풀이), which looks broken. Show a
-  // small explanatory card instead — the 같은 일주 section below still
-  // gives the user something to look at.
+  // Truly-empty fallback: no billionaire shares the user's 일주 at all
+  // (rare — would require a 일주 we have zero data for). 같은 일주 is
+  // always promoted to the featured tier when stricter ones are empty,
+  // so reaching this branch means iljuOnly is also empty.
   if (!featuredPerson) {
     return (
       <div className="max-w-5xl mx-auto space-y-8">
@@ -211,13 +218,10 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
             {me.ilju} 일주 · {me.wolji} 월지 · {me.gyeokguk}
           </p>
           <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-3">
-            {sameIljuCount > 0
-              ? `딱 맞는 부자는 아직 없지만, 같은 일주 ${sameIljuCount}명은 있어요`
-              : '아직 비슷한 사주의 부자를 못 찾았어요'}
+            아직 비슷한 사주의 부자를 못 찾았어요
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed max-w-md mx-auto">
-            월지·격국까지 같은 부자 데이터는 아직 수집 중이에요.
-            {sameIljuCount > 0 ? ' 일단 같은 일주를 가진 부자들을 아래에서 확인해보세요.' : ''}
+            부자 데이터는 계속 추가되고 있어요. 곧 다시 확인해주세요.
           </p>
           <div className="flex justify-center gap-3 mt-5">
             <button
@@ -236,51 +240,58 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
             <ShareButtons title={t.shareTitle} variant="hero" />
           </div>
         </div>
-
-        {/* Same-일주 list is the only content below — reuse existing rendering */}
-        {sameIljuCount > 0 && (
-          <section id="same-ilju-section">
-            <div className="flex items-baseline gap-2 mb-3">
-              <span className="text-xl">🎖️</span>
-              <h3 className="text-base font-bold text-gray-900">{t.group3Title}</h3>
-              <span className="text-xs text-gray-400">
-                {t.countPeople(sameIljuCount)}
-              </span>
-            </div>
-            <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3">
-              {groups.iljuOnly.map((person) => (
-                <MiniPersonCard key={person.id} person={person} />
-              ))}
-            </div>
-          </section>
-        )}
       </div>
     );
   }
 
   return (
     <div className="max-w-6xl mx-auto space-y-8">
-      {/* Top card: OG image (left) + 풀이 (right) */}
-      <div className="rounded-2xl bg-white border border-gray-200 overflow-hidden p-5 sm:p-6">
+      {/* Top section: OG image (left) + 풀이 (right). The outer card chrome
+          (border + rounded background) was removed — the page itself acts as
+          the container, so an extra grey outline just felt boxy. */}
+      <div className="p-1 sm:p-2">
 
-        {/* 비슷한 사주 부자 Top 5 — 클릭하면 아래 풀이가 그 부자로 전환 */}
+        {/* 1. 당신의 사주 — orientation block. Lead with the user's own
+            chart so they know what we found before scrolling into who else
+            shares it. Heading is left-aligned to match the other section
+            headers; chart cells stay centered for visual weight. */}
+        <div className="mb-6 pb-6 border-b border-gray-100">
+          <h3 className="text-sm font-bold text-gray-900 mb-4">당신의 사주</h3>
+          <div className="max-w-[420px] mx-auto">
+            <div className="flex justify-center gap-2 sm:gap-2.5">
+              <HeroPillar label="時" ju={me.saju.hour} ilgan={me.saju.day.stem as CheonGan} large />
+              <HeroPillar label="日" ju={me.saju.day} ilgan={me.saju.day.stem as CheonGan} isDayPillar large />
+              <HeroPillar label="月" ju={me.saju.month} ilgan={me.saju.day.stem as CheonGan} large />
+              <HeroPillar label="年" ju={me.saju.year} ilgan={me.saju.day.stem as CheonGan} large />
+            </div>
+            <p className="text-[12px] text-gray-400 text-center mt-3">
+              {me.ilju} · {me.wolji} 일주
+            </p>
+          </div>
+        </div>
+
+        {/* 2. 비슷한 사주 부자 Top — 클릭하면 아래 풀이가 그 부자로 전환.
+            We show top 5 on desktop and top 3 on mobile (FacesRow hides
+            ranks 4-5 on small screens), so the headline count needs to
+            switch breakpoints too — using two spans rather than a single
+            template string. */}
         {top5.length > 1 && (
           <div className="mb-6 pb-6 border-b border-gray-100">
-            <div className="max-w-[640px] mx-auto">
-              <div className="flex items-baseline justify-between mb-3">
-                <h3 className="text-sm font-bold text-gray-900">
-                  비슷한 사주 부자 Top {top5.length}
-                </h3>
-                <span className="text-xs text-gray-400">
-                  {me.ilju}·{me.wolji} 일주
-                </span>
-              </div>
-              <Top5FacesRow
-                people={top5}
-                selectedId={featuredPerson?.id ?? null}
-                onSelect={(id) => setSelectedFeaturedId(id)}
-              />
+            <div className="flex items-baseline justify-between mb-3">
+              <h3 className="text-sm font-bold text-gray-900">
+                {usingIljuFallback ? `같은 ${me.ilju} 일주 부자 Top ` : '비슷한 사주 부자 Top '}
+                <span className="sm:hidden">{Math.min(top5.length, 3)}</span>
+                <span className="hidden sm:inline">{top5.length}</span>
+              </h3>
+              <span className="text-xs text-gray-400">
+                {me.ilju}·{me.wolji} 일주
+              </span>
             </div>
+            <Top5FacesRow
+              people={top5}
+              selectedId={featuredPerson?.id ?? null}
+              onSelect={(id) => setSelectedFeaturedId(id)}
+            />
           </div>
         )}
 
@@ -316,63 +327,6 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
                 </>
               )}
 
-              {/* Saju charts side by side */}
-              <div className="w-full grid grid-cols-2 gap-3">
-                {/* 당신의 사주 — matching cells get ring highlight */}
-                <div>
-                  <p className="text-[10px] font-bold text-gray-500 text-center mb-2">당신의 사주</p>
-                  <div className="flex justify-center gap-1">
-                    <HeroPillar label="時" ju={me.saju.hour} ilgan={me.saju.day.stem as CheonGan} compact />
-                    <HeroPillar
-                      label="日" ju={me.saju.day} ilgan={me.saju.day.stem as CheonGan} isDayPillar compact
-                      highlightStem={!!fpSaju && fpSaju.saju.day.stem === me.saju.day.stem}
-                      highlightBranch={!!fpSaju && fpSaju.saju.day.branch === me.saju.day.branch}
-                    />
-                    <HeroPillar
-                      label="月" ju={me.saju.month} ilgan={me.saju.day.stem as CheonGan} compact
-                      highlightStem={!!fpSaju && fpSaju.saju.month.stem === me.saju.month.stem}
-                      highlightBranch={!!fpSaju && fpSaju.saju.month.branch === me.saju.month.branch}
-                    />
-                    <HeroPillar
-                      label="年" ju={me.saju.year} ilgan={me.saju.day.stem as CheonGan} compact
-                      highlightStem={!!fpSaju && fpSaju.saju.year.stem === me.saju.year.stem}
-                      highlightBranch={!!fpSaju && fpSaju.saju.year.branch === me.saju.year.branch}
-                    />
-                  </div>
-                  <p className="text-[9px] text-gray-400 text-center mt-1">
-                    {me.ilju} · {me.wolji}
-                  </p>
-                </div>
-
-                {/* 부자 사주 — matching cells get ring highlight */}
-                {fpSaju && (
-                  <div>
-                    <p className="text-[10px] font-bold text-gray-500 text-center mb-2">{fpName}</p>
-                    <div className="flex justify-center gap-1">
-                      <HeroPillar label="時" ju={null} ilgan={fpSaju.saju.day.stem as CheonGan} compact />
-                      <HeroPillar
-                        label="日" ju={fpSaju.saju.day} ilgan={fpSaju.saju.day.stem as CheonGan} isDayPillar compact
-                        highlightStem={fpSaju.saju.day.stem === me.saju.day.stem}
-                        highlightBranch={fpSaju.saju.day.branch === me.saju.day.branch}
-                      />
-                      <HeroPillar
-                        label="月" ju={fpSaju.saju.month} ilgan={fpSaju.saju.day.stem as CheonGan} compact
-                        highlightStem={fpSaju.saju.month.stem === me.saju.month.stem}
-                        highlightBranch={fpSaju.saju.month.branch === me.saju.month.branch}
-                      />
-                      <HeroPillar
-                        label="年" ju={fpSaju.saju.year} ilgan={fpSaju.saju.day.stem as CheonGan} compact
-                        highlightStem={fpSaju.saju.year.stem === me.saju.year.stem}
-                        highlightBranch={fpSaju.saju.year.branch === me.saju.year.branch}
-                      />
-                    </div>
-                    <p className="text-[9px] text-gray-400 text-center mt-1">
-                      {fpSaju.ilju} · {fpSaju.wolji}
-                    </p>
-                  </div>
-                )}
-              </div>
-
             </div>
           )}
           {/* Right: 풀이 */}
@@ -406,11 +360,15 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
 
             {/* Match stats — below 자세히 보기 */}
             <div className="border-t border-gray-100 pt-5 space-y-2.5">
-              {totalMatches > 0 && (
+              {totalMatches > 0 ? (
                 <p className="text-sm text-gray-600">
                   <span className="font-semibold text-gray-900">{totalMatches}명</span>의 부자가 비슷한 사주를 가졌습니다
                 </p>
-              )}
+              ) : usingIljuFallback ? (
+                <p className="text-sm text-gray-600">
+                  같은 <span className="font-semibold text-gray-900">{me.ilju} 일주</span> 부자가 <span className="font-semibold text-gray-900">{sameIljuCount}명</span> 있어요
+                </p>
+              ) : null}
               {comboStats && comboStats.myCount > 0 && (
                 <p className="text-sm text-gray-500">
                   당신의 <span className="font-medium text-gray-700">{me.ilju}·{me.wolji}</span> 조합은 전체 {comboStats.totalCombos}개 조합 중{' '}
@@ -477,36 +435,43 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
         </div>
       )}
 
-      {/* "같은 일주" group — always visible, blurred preview until expanded */}
-      {sameIljuCount > 0 && (
-        <section id="same-ilju-section" className="mt-8">
-          <div className="flex items-baseline gap-2 mb-3">
-            <span className="text-xl">🎖️</span>
-            <h3 className="text-base font-bold text-gray-900">{t.group3Title}</h3>
-            <span className="text-xs text-gray-400">
-              {t.countPeople(sameIljuCount)}
-            </span>
-          </div>
-          <div className="relative">
-            <div className={`grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3 ${!showSameIlju ? 'max-h-[280px] sm:max-h-[320px] overflow-hidden' : ''}`}>
-              {groups.iljuOnly.map((person) => (
-                <MiniPersonCard key={person.id} person={person} />
-              ))}
+      {/* "같은 일주" group — always visible, blurred preview until expanded.
+          Filter out the featured person to avoid showing them twice when
+          we've promoted a 일주-only match to the hero. */}
+      {(() => {
+        const featuredId = featuredPerson?.id;
+        const sameIljuList = groups.iljuOnly.filter(p => p.id !== featuredId);
+        if (sameIljuList.length === 0) return null;
+        return (
+          <section id="same-ilju-section" className="mt-8">
+            <div className="flex items-baseline gap-2 mb-3">
+              <span className="text-xl">🎖️</span>
+              <h3 className="text-base font-bold text-gray-900">{t.group3Title}</h3>
+              <span className="text-xs text-gray-400">
+                {t.countPeople(sameIljuList.length)}
+              </span>
             </div>
-            {!showSameIlju && sameIljuCount > 6 && (
-              <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-white via-white/90 to-transparent flex items-end justify-center pb-4">
-                <button
-                  type="button"
-                  onClick={() => setShowSameIlju(true)}
-                  className="px-6 py-2.5 text-sm font-semibold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-colors shadow-sm"
-                >
-                  {t.seeSameIljuButton(sameIljuCount)}
-                </button>
+            <div className="relative">
+              <div className={`grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3 ${!showSameIlju ? 'max-h-[280px] sm:max-h-[320px] overflow-hidden' : ''}`}>
+                {sameIljuList.map((person) => (
+                  <MiniPersonCard key={person.id} person={person} />
+                ))}
               </div>
-            )}
-          </div>
-        </section>
-      )}
+              {!showSameIlju && sameIljuList.length > 6 && (
+                <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-white via-white/90 to-transparent flex items-end justify-center pb-4">
+                  <button
+                    type="button"
+                    onClick={() => setShowSameIlju(true)}
+                    className="px-6 py-2.5 text-sm font-semibold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-colors shadow-sm"
+                  >
+                    {t.seeSameIljuButton(sameIljuList.length)}
+                  </button>
+                </div>
+              )}
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Share + email */}
       <div className="bg-white rounded-2xl px-4 sm:px-6 py-5 mx-auto max-w-xl">

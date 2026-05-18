@@ -67,7 +67,7 @@ export default function Top5FacesRow({ people, selectedId, onSelect }: Props) {
   if (top5.length === 0) return null;
 
   return (
-    <div className="grid grid-cols-5 gap-1 sm:gap-2 max-w-[640px] mx-auto">
+    <div className="grid grid-cols-3 sm:grid-cols-5 gap-1 sm:gap-2 max-w-[640px] mx-auto">
       {top5.map((person, i) => {
         const isActive = person.id === selectedId;
         const rank = i + 1;
@@ -78,14 +78,23 @@ export default function Top5FacesRow({ people, selectedId, onSelect }: Props) {
           : 'bg-indigo-600';
         const displayName = lang === 'ko' ? (person.nameKo || person.name) : person.name;
         const country = nationalityKo(person.nationality, lang);
-        const industry = lang === 'ko' ? industryToKorean(person.industry) : person.industry;
+        // Prefer the actual company name (bio-extracted) over the industry tag.
+        // Fall back to the industry label so the slot is never blank.
+        const companyOrIndustry =
+          person.company
+          || (lang === 'ko' ? industryToKorean(person.industry) : person.industry);
+
+        // Mobile shows top 3 only; ranks 4 & 5 still render on sm+ screens
+        // where the grid widens to 5 columns. Keeps the data path intact
+        // so the user's "selected" state stays valid across breakpoints.
+        const hiddenOnMobile = i >= 3 ? 'hidden sm:block' : '';
 
         return (
           <button
             key={person.id}
             type="button"
             onClick={() => onSelect(person.id)}
-            className={`text-center px-1 py-2 rounded-xl transition-colors ${
+            className={`text-center px-1 py-2 rounded-xl transition-colors ${hiddenOnMobile} ${
               isActive ? 'bg-indigo-50' : 'hover:bg-gray-50'
             }`}
             aria-pressed={isActive}
@@ -115,7 +124,7 @@ export default function Top5FacesRow({ people, selectedId, onSelect }: Props) {
             {country && (
               <p className="text-[10px] text-gray-500 truncate">{country}</p>
             )}
-            <p className="text-[10px] text-gray-500 truncate">{industry}</p>
+            <p className="text-[10px] text-gray-500 truncate">{companyOrIndustry}</p>
             <p className="text-[11px] sm:text-xs font-bold text-indigo-600 mt-0.5">
               {formatWorthKo(person.netWorth)}
             </p>

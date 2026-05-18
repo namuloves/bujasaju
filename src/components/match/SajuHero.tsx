@@ -25,6 +25,7 @@ export function HeroPillar({
   ilgan,
   isDayPillar,
   compact,
+  large,
   dimStem,
   dimBranch,
   highlightStem,
@@ -35,6 +36,8 @@ export function HeroPillar({
   ilgan: CheonGan;
   isDayPillar?: boolean;
   compact?: boolean;
+  /** Larger size for the "당신의 사주" hero block on the results page. */
+  large?: boolean;
   /** Grey out the stem cell (천간 doesn't match) */
   dimStem?: boolean;
   /** Grey out the branch cell (지지 doesn't match) */
@@ -44,14 +47,18 @@ export function HeroPillar({
   /** Add ring highlight to the branch cell (matches user) */
   highlightBranch?: boolean;
 }) {
-  const cell = compact
-    ? 'w-7 h-7 rounded-md text-base'
-    : 'w-9 h-9 sm:w-10 sm:h-10 rounded-lg text-xl';
-  const cellEmpty = compact
-    ? 'w-7 h-7 rounded-md text-xs'
-    : 'w-9 h-9 sm:w-10 sm:h-10 rounded-lg text-base';
-  const labelSize = compact ? 'text-[9px]' : 'text-[10px]';
-  const sipsinSize = compact ? 'text-[8px]' : 'text-[9px]';
+  const cell = large
+    ? 'w-12 h-12 sm:w-14 sm:h-14 rounded-xl text-2xl sm:text-3xl'
+    : compact
+      ? 'w-7 h-7 rounded-md text-base'
+      : 'w-9 h-9 sm:w-10 sm:h-10 rounded-lg text-xl';
+  const cellEmpty = large
+    ? 'w-12 h-12 sm:w-14 sm:h-14 rounded-xl text-lg'
+    : compact
+      ? 'w-7 h-7 rounded-md text-xs'
+      : 'w-9 h-9 sm:w-10 sm:h-10 rounded-lg text-base';
+  const labelSize = large ? 'text-[11px] sm:text-[12px]' : compact ? 'text-[9px]' : 'text-[10px]';
+  const sipsinSize = large ? 'text-[10px] sm:text-[11px]' : compact ? 'text-[8px]' : 'text-[9px]';
 
   const dimCell = 'bg-gray-50 text-gray-300 border-gray-200';
 

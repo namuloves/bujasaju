@@ -203,7 +203,10 @@ function Face({ person }: { person: EnrichedPerson }) {
   const display = NAME_OVERRIDES[person.id] ?? person.nameKo ?? person.name;
   const ilju = person.saju?.ilju ?? '';
   const stem = stemOf(person);
-  const source = SOURCE_OVERRIDES[person.id] ?? person.source;
+  // Prefer the bio-extracted `company` field; fall back to Forbes's `source`
+  // (which may be an industry tag). SOURCE_OVERRIDES is a small hand-curated
+  // list that takes priority over both.
+  const source = SOURCE_OVERRIDES[person.id] ?? person.company ?? person.source;
   return (
     <div className="shrink-0 w-[92px] sm:w-[124px] text-center">
       <img

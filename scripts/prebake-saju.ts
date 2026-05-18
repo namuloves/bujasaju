@@ -32,6 +32,7 @@ interface Person {
   id: string; name: string; nameKo?: string; birthday: string;
   netWorth: number; nationality: string; industry: string;
   photoUrl: string; gender: 'M'|'F'; source?: string;
+  company?: string;
   bio?: string; bioKo?: string; wealthOrigin?: string;
 }
 
