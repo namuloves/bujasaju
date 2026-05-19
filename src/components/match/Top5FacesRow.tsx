@@ -534,7 +534,7 @@ function Top3Row({
           href={`/profile/${person.id}`}
           className="block w-full text-center text-[12px] font-medium text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:border-gray-300 rounded-lg py-1.5 transition-colors"
         >
-          {displayName} 부자 일주 보기
+          일주 자세히 보기
         </Link>
       </div>
     </li>
@@ -548,7 +548,7 @@ export default function Top5FacesRow({ people, selectedId }: Props) {
   if (top3.length === 0) return null;
 
   return (
-    <ul className="flex flex-col gap-2 max-w-xl mx-auto">
+    <ul className="flex flex-col gap-2 max-w-xl mx-auto lg:max-w-none lg:mx-0">
       {top3.map((person) => (
         <Top3Row
           key={person.id}

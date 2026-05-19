@@ -116,14 +116,6 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
 
   const sameIljuCount = groups.iljuOnly.length;
 
-  if (loading && enrichedPeople.length === 0) {
-    return (
-      <div className="text-center py-16 text-gray-400 text-sm">
-        부자 데이터를 불러오는 중…
-      </div>
-    );
-  }
-
   // Force a re-render once the deep-bio index has loaded. `hasDeepBioV2Sync`
   // reads from a module-level Set that starts empty (seed list only) and is
   // hydrated by an async fetch — without this trigger, useMemo below caches
@@ -246,6 +238,16 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     ? (featuredPerson.nameKo ?? featuredPerson.name)
     : '';
 
+  // Loading splash — runs AFTER every hook so the hook order is stable
+  // between the loading → loaded transition (Rules of Hooks).
+  if (loading && enrichedPeople.length === 0) {
+    return (
+      <div className="text-center py-16 text-gray-400 text-sm">
+        부자 데이터를 불러오는 중…
+      </div>
+    );
+  }
+
   // Truly-empty fallback: no billionaire shares the user's 일주 at all
   // (rare — would require a 일주 we have zero data for). 같은 일주 is
   // always promoted to the featured tier when stricter ones are empty,
@@ -310,49 +312,56 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
           </div>
         </div>
 
-        {/* 2. 사주 풀이 — comes right after the saju chart so the user
-            sees the interpretation of *their own* saju before scrolling
-            into matches. OG image is hidden in this redesign so we drop
-            the two-column grid and let the body flow full width. */}
-        <div className="space-y-5">
-          <MatchSummary saju={me} matches={summaryMatches} />
-          {featuredPerson && (
-            <div className="border-t border-gray-100 pt-5">
-              <DeepInterpretation
-                saju={me}
-                featured={featuredPerson}
-                userBirthday={userBirthday}
-                userGender={userGender}
+        {/* Two-column layout on desktop:
+              left  = 부자 카드들 (나랑 같은 일주를 가진 부자)
+              right = 사주 풀이 + 심층풀이
+            On mobile/tablet we collapse to one column. DOM order is
+            풀이 → 부자 (the mobile reading order); on desktop the grid
+            uses `lg:order-*` to swap them so 부자 lands on the left. */}
+        <div className="lg:grid lg:grid-cols-2 lg:gap-10 lg:items-start">
+          {/* 풀이 column — first in DOM so mobile reads
+              사주 차트 → 사주 풀이 → 부자 카드. On lg+ this becomes the
+              right column via `lg:order-2`. */}
+          <div className="lg:order-2 space-y-5">
+            <MatchSummary saju={me} matches={summaryMatches} />
+            {featuredPerson && (
+              <div className="border-t border-gray-100 pt-5">
+                <DeepInterpretation
+                  saju={me}
+                  featured={featuredPerson}
+                  userBirthday={userBirthday}
+                  userGender={userGender}
+                />
+              </div>
+            )}
+
+            {/* Match stats — single subtle line under the deep interpretation */}
+            {(totalMatches > 0 || usingIljuFallback) && (
+              <p className="text-xs text-gray-400 text-center">
+                {totalMatches > 0
+                  ? `${totalMatches + sameIljuCount}명이 비슷한 사주`
+                  : `같은 ${me.ilju} 일주 부자 ${sameIljuCount}명`}
+                {comboStats && comboStats.myCount > 0 && (
+                  <> · {me.ilju}·{me.wolji} 조합 {comboStats.rank}위/{comboStats.totalCombos}</>
+                )}
+              </p>
+            )}
+          </div>
+
+          {/* 부자 카드 column — second in DOM (mobile: appears below 풀이),
+              promoted to the left column on lg+ via `lg:order-1`. */}
+          {top3.length > 1 && (
+            <div className="mt-8 lg:mt-0 lg:order-1">
+              <h3 className="text-sm font-bold text-gray-900 mb-3">
+                나랑 같은 {me.ilju} 일주를 가진 부자
+              </h3>
+              <Top5FacesRow
+                people={top3}
+                selectedId={featuredPerson?.id ?? null}
               />
             </div>
           )}
-
-          {/* Match stats — single subtle line under the deep interpretation */}
-          {(totalMatches > 0 || usingIljuFallback) && (
-            <p className="text-xs text-gray-400 text-center">
-              {totalMatches > 0
-                ? `${totalMatches + sameIljuCount}명이 비슷한 사주`
-                : `같은 ${me.ilju} 일주 부자 ${sameIljuCount}명`}
-              {comboStats && comboStats.myCount > 0 && (
-                <> · {me.ilju}·{me.wolji} 조합 {comboStats.rank}위/{comboStats.totalCombos}</>
-              )}
-            </p>
-          )}
         </div>
-
-        {/* 3. 나랑 같은 일주를 가진 부자 — moved below the 풀이 so the page
-            reads as: my saju → interpretation → people who share it. */}
-        {top3.length > 1 && (
-          <div className="mt-8">
-            <h3 className="text-sm font-bold text-gray-900 mb-3">
-              나랑 같은 {me.ilju} 일주를 가진 부자
-            </h3>
-            <Top5FacesRow
-              people={top3}
-              selectedId={featuredPerson?.id ?? null}
-            />
-          </div>
-        )}
 
         {/* Single featured CTA was removed — each Top3 row now carries
             its own "{이름} 부자 일주 보기 →" secondary button so the
