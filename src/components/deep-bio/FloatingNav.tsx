@@ -3,6 +3,28 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 
 /**
+ * Walk up the DOM until we find the nearest scrollable ancestor. We treat
+ * "scrollable" as a vertical scroller (overflow-y is auto/scroll AND the
+ * element actually has more content than fits). Falls back to document
+ * scrolling element when nothing in the tree owns the scroll.
+ */
+function findScrollableAncestor(start: Element): HTMLElement | null {
+  let node: Element | null = start.parentElement;
+  while (node) {
+    if (node instanceof HTMLElement) {
+      const style = window.getComputedStyle(node);
+      const oy = style.overflowY;
+      const canScroll = (oy === 'auto' || oy === 'scroll' || oy === 'overlay');
+      if (canScroll && node.scrollHeight > node.clientHeight + 1) {
+        return node;
+      }
+    }
+    node = node.parentElement;
+  }
+  return null;
+}
+
+/**
  * FloatingNav — vertical pill on the right edge of the deep-bio scroll
  * container that always shows section labels and jumps to anchors on click.
  *
@@ -34,7 +56,26 @@ interface Props {
 }
 
 export default function FloatingNav({ items, scrollRoot, scrollOffset = 80, className, style }: Props) {
+  const navRef = useRef<HTMLElement>(null);
   const [activeId, setActiveId] = useState<string>(items[0]?.id ?? '');
+  // Resolved scroll container — either the prop, or auto-detected after
+  // mount by walking up from the nav element. We keep this in state so
+  // the IO effect re-runs once we know the real container.
+  const [resolvedRoot, setResolvedRoot] = useState<HTMLElement | null>(scrollRoot ?? null);
+
+  useEffect(() => {
+    if (scrollRoot) {
+      setResolvedRoot(scrollRoot);
+      return;
+    }
+    // Look up from the nav element. The first scrollable ancestor that has
+    // actual overflowing content is our scroll root. If nothing matches,
+    // fall back to null which the rest of the code treats as window.
+    if (navRef.current) {
+      setResolvedRoot(findScrollableAncestor(navRef.current));
+    }
+  }, [scrollRoot]);
+
   // Ratios indexed by id — we pick the highest each tick.
   const ratiosRef = useRef<Map<string, number>>(new Map());
 
@@ -64,7 +105,7 @@ export default function FloatingNav({ items, scrollRoot, scrollOffset = 80, clas
         if (bestId) setActiveId(bestId);
       },
       {
-        root: scrollRoot ?? null,
+        root: resolvedRoot ?? null,
         // Crop the top to avoid the sticky header marking a section "active"
         // while it's still hidden under the header.
         rootMargin: `-${scrollOffset}px 0px -40% 0px`,
@@ -77,14 +118,14 @@ export default function FloatingNav({ items, scrollRoot, scrollOffset = 80, clas
       if (el) observer.observe(el);
     }
     return () => observer.disconnect();
-  }, [items, scrollRoot, scrollOffset]);
+  }, [items, resolvedRoot, scrollOffset]);
 
   function jumpTo(id: string) {
     const el = document.getElementById(id);
     if (!el) return;
     // Manual scroll inside the container so we can apply our own offset
     // (scrollIntoView ignores the sticky header height).
-    const root = scrollRoot;
+    const root = resolvedRoot;
     const targetTop = root
       ? el.getBoundingClientRect().top - root.getBoundingClientRect().top + root.scrollTop - scrollOffset
       : el.getBoundingClientRect().top + window.scrollY - scrollOffset;
@@ -112,6 +153,7 @@ export default function FloatingNav({ items, scrollRoot, scrollOffset = 80, clas
 
   return (
     <nav
+      ref={navRef}
       aria-label="섹션 네비게이션"
       className={
         'pointer-events-auto select-none flex flex-col gap-1 rounded-full border border-gray-200 bg-white/90 px-1.5 py-2 shadow-lg backdrop-blur-md ' +

@@ -166,7 +166,6 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
           the scroll container. Only renders if we have 2+ jump targets. */}
       <FloatingNav
         items={navItems}
-        scrollRoot={scrollRoot}
         className="fixed top-1/2 -translate-y-1/2 right-3 z-30"
       />
 
