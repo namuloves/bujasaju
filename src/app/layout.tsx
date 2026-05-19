@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import "./globals.css";
 import { LanguageProvider } from "@/lib/i18n";
@@ -62,18 +63,10 @@ export default function RootLayout({
           <Footer />
         </LanguageProvider>
         <Analytics />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-75TZ2JD6DS"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-75TZ2JD6DS');
-          `}
-        </Script>
+        {/* GA4 via @next/third-parties: handles SPA navigation page_view
+            events automatically and avoids the next/script hydration race
+            that left dataLayer with only [["js"], ["config"]] entries. */}
+        <GoogleAnalytics gaId="G-75TZ2JD6DS" />
         <Script
           id="google-adsense"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3985257665575958"
