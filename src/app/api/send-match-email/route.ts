@@ -1,5 +1,7 @@
 import { Resend } from 'resend';
 import type { NextRequest } from 'next/server';
+import { readFile } from 'node:fs/promises';
+import { join } from 'node:path';
 import { rateLimit, getIp } from '@/lib/rateLimit';
 import MatchUnlockEmail, { type MatchPerson } from '@/emails/MatchUnlockEmail';
 
@@ -92,6 +94,67 @@ function sanitizeMatches(raw: unknown): MatchPerson[] {
   return out;
 }
 
+/**
+ * Read a v2 deep bio file from public/deep-bios-v2/. Returns null when
+ * the person has no enriched bio — caller falls back to the short bioKo.
+ *
+ * We deliberately read from disk (not fetch) so the API route works in
+ * any environment without needing to hit itself over HTTP. The data is
+ * stable at build time so disk reads are fine.
+ */
+async function readDeepBioV2(personId: string): Promise<Record<string, unknown> | null> {
+  try {
+    const path = join(process.cwd(), 'public', 'deep-bios-v2', `${personId}.json`);
+    const raw = await readFile(path, 'utf8');
+    return JSON.parse(raw) as Record<string, unknown>;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Compose a real paragraph from whatever we have. Priority chain:
+ *   1) bioKo (the canonical one-line summary) — always first sentence
+ *   2) childhood.summaryKo — "성장 배경"
+ *      or childhood.earlyLifeKo as fallback
+ *   3) capitalOrigin.explanationKo — "자본의 출처" (often the punchy line)
+ *
+ * We stitch these into a flowing 2-4 sentence paragraph. Sentences that
+ * are already in bioKo get deduped so we don't repeat ourselves.
+ */
+function composeParagraph(bioKo: string | null, deep: Record<string, unknown> | null): string {
+  const fragments: string[] = [];
+  const seen = new Set<string>();
+
+  const add = (raw: string | undefined | null) => {
+    if (!raw) return;
+    const t = raw.trim();
+    if (t.length < 8) return;
+    // Dedup: skip if highly similar to an existing fragment.
+    const key = t.slice(0, 40);
+    if (seen.has(key)) return;
+    seen.add(key);
+    // Ensure trailing period.
+    fragments.push(/[.!?。]$/.test(t) ? t : `${t}.`);
+  };
+
+  add(bioKo);
+
+  if (deep) {
+    const child = deep.childhood as Record<string, unknown> | undefined;
+    add(child?.summaryKo as string | undefined);
+    if (fragments.length < 2) add(child?.earlyLifeKo as string | undefined);
+
+    const cap = deep.capitalOrigin as Record<string, unknown> | undefined;
+    add(cap?.explanationKo as string | undefined);
+  }
+
+  // Cap to keep cards readable (~3 sentences worth).
+  const out = fragments.slice(0, 4).join(' ');
+  if (out.length > 600) return out.slice(0, 598).trimEnd() + '…';
+  return out;
+}
+
 export async function POST(req: NextRequest) {
   // 10 sends per hour per IP — fits a normal user (one unlock per session)
   // and a couple retries, blocks bots cold.
@@ -128,14 +191,32 @@ export async function POST(req: NextRequest) {
   const host = req.headers.get('host') ?? 'bujasaju.com';
   const origin = `${proto}://${host}`;
 
+  // Enrich each match with a real paragraph bio by stitching the short
+  // bioKo together with any v2 deep-bio fields we have on disk. Done in
+  // parallel — typically all 5 reads finish in <30ms.
+  const enrichedMatches: MatchPerson[] = await Promise.all(
+    matches.map(async (m) => {
+      const deep = await readDeepBioV2(m.id);
+      const paragraph = composeParagraph(m.bioKo ?? null, deep);
+      // Stuff the paragraph back into bioKo so the existing email
+      // template renders it. Falls back to the original bioKo if
+      // composition yielded nothing (defensive — should never happen
+      // when bioKo is set).
+      return {
+        ...m,
+        bioKo: paragraph || m.bioKo || null,
+      };
+    }),
+  );
+
   try {
     const resend = getResend();
     await resend.emails.send({
       from: '부자사주 <hello@bujasaju.com>',
       to: email,
       replyTo: 'hello@bujasaju.com',
-      subject: `${ilju} 일주의 부자 ${matches.length}명을 소개해드려요`,
-      react: MatchUnlockEmail({ ilju, matches, origin }),
+      subject: `${ilju} 일주의 부자 ${enrichedMatches.length}명을 소개해드려요`,
+      react: MatchUnlockEmail({ ilju, matches: enrichedMatches, origin }),
       tags: [
         { name: 'source', value: 'unlock-gate' },
         { name: 'ilju', value: ilju },

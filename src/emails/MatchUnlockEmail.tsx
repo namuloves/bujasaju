@@ -215,10 +215,11 @@ export default function MatchUnlockEmail({ ilju, matches, origin = 'https://buja
               ? (p.photoUrl.startsWith('//') ? `https:${p.photoUrl}` : p.photoUrl)
               : `https://ui-avatars.com/api/?name=${encodeURIComponent(p.name)}&size=120&background=random&bold=true`;
             const profileUrl = `${origin}/profile/${p.id}`;
-            // Bio: prefer Korean, fall back to English. Trim a hair so
-            // long bios don't dominate the card on mobile clients.
+            // Bio: prefer Korean, fall back to English. The server route
+            // composes a 2-4 sentence paragraph (bioKo + deep-bio) before
+            // sending — cap is generous so the whole paragraph fits.
             const bioRaw = (p.bioKo || p.bio || '').trim();
-            const bio = bioRaw.length > 220 ? bioRaw.slice(0, 218).trimEnd() + '…' : bioRaw;
+            const bio = bioRaw.length > 700 ? bioRaw.slice(0, 698).trimEnd() + '…' : bioRaw;
 
             return (
               <Link key={p.id} href={profileUrl} style={styles.card}>
