@@ -1,0 +1,38 @@
+{
+  "id": "1723", "name": "Daniel Lubetzky", "nameKo": "대니얼 루베츠키",
+  "netWorth": 2.3, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "Mexico City, Mexico", "birthPlaceKo": "멕시코 멕시코 시티",
+    "familyBackground": "Born to Roman Lubetzky — Holocaust survivor.", "familyBackgroundKo": "홀로코스트 생존자 로만 루베츠키의 아들.",
+    "education": "Trinity University; Stanford Law.", "educationKo": "트리니티 대학교; 스탠퍼드 로스쿨.",
+    "earlyLife": "Founded PeaceWorks Foods; founded KIND Snacks in 2004 — granola/nut bars; sold KIND to Mars 2020 valuation $5B+; Shark Tank investor; founded Empatico.",
+    "earlyLifeKo": "PeaceWorks Foods 창립; 2004 KIND Snacks 창립 — 그래놀라·견과 바; 2020 KIND를 Mars에 50억+ 달러 밸류에이션 매각; 샤크 탱크 투자자; Empatico 창립.",
+    "source": "https://en.wikipedia.org/wiki/Daniel_Lubetzky"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "KIND Snacks Mars 매각." },
+  "careerTimeline": [
+    { "year": 1994, "age": 26, "event": "Founded PeaceWorks Foods after Stanford Law.", "eventKo": "스탠퍼드 로스쿨 후 PeaceWorks Foods 창립.", "whyItMatteredKo": "PeaceWorks 출발선." },
+    { "year": 2004, "age": 36, "event": "Founded KIND Snacks.", "eventKo": "KIND Snacks 창립.", "whyItMatteredKo": "KIND 출발선." },
+    { "year": 2017, "age": 49, "event": "Mars acquired minority stake in KIND at $4B valuation.", "eventKo": "Mars가 KIND 소수 지분을 40억 달러 밸류에이션 인수.", "whyItMatteredKo": "Mars 부분 매각." },
+    { "year": 2020, "age": 52, "event": "Mars acquired remaining KIND; full sale.", "eventKo": "Mars가 잔여 KIND 인수; 완전 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2025, "age": 57, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Lubetzky 정점." }
+  ],
+  "turningPoints": [{ "year": 2004, "age": 36, "decisionKo": "PeaceWorks 외 KIND Snacks 창립", "alternativeKo": "PeaceWorks 집중", "outcomeKo": "21년 후 23억 달러 + KIND 매각" }],
+  "moneyMechanics": { "primaryRevenueKo": "KIND Snacks Mars 매각 대금 + 다각화", "industryKo": "스낵·식품", "businessModelKo": "Mars 매각 자본 + Shark Tank 투자 + Empatico + 사회 사업", "moatKo": "KIND 50억 달러 매각 자본 + 개인 브랜드", "luckVsSkillKo": "운(30%): 건강 스낵 부상. 실력(70%): 21년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of KIND Snacks; sold to Mars; Shark Tank investor; founder of Empatico empathy education.",
+    "knownForKo": "KIND Snacks 창립자; Mars 매각; 샤크 탱크 투자자; 공감 교육 Empatico 창립자.",
+    "philanthropy": "OneVoice Movement for Israeli-Palestinian peace; Empatico empathy education.", "philanthropyKo": "이스라엘-팔레스타인 평화 OneVoice Movement; Empatico 공감 교육.",
+    "controversies": "Limited; positive brand and philanthropy.", "controversiesKo": "제한적; 긍정 브랜드·자선."
+  },
+  "characterKo": { "summaryKo": "KIND Snacks + Mars 매각 + Shark Tank + 평화 자선.", "tagsKo": ["KIND Snacks", "Mars", "Empatico"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis briefly compressed early-stage KIND growth.", "descriptionKo": "금융위기로 초기 KIND 성장 잠시 압축.", "lesson": "Consumer brands face credit-cycle exposure.", "lessonKo": "소비자 브랜드는 신용 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted snack distribution briefly before Mars sale.", "descriptionKo": "Mars 매각 전 COVID-19이 스낵 유통 잠시 혼란.", "lesson": "Even healthy snacks face pandemic-channel risk.", "lessonKo": "건강 스낵도 팬데믹 채널 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Do the kind thing for the right reason; profit follows.", "textKo": "올바른 이유로 친절한 일을 하라; 이익은 따라온다.", "context": "On KIND values", "contextKo": "KIND 가치에 대해", "source": "https://www.kindsnacks.com" }],
+  "books": { "authored": [{ "title": "Do the KIND Thing", "year": 2015 }], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Chuk day pillar in Yu month — 'geollok-gyeok', strong-self drive, fitting purpose-driven food founder.", "summaryKo": "신축 일주 + 유월 건록격(강한 자기 본기·스스로 일어서는 힘)은 KIND라는 자기 본기 강한 가치 기반 브랜드 창립 경로와 호응합니다. 신금 일간 + 유금 월지의 극강 금 기운이 정밀 가치·결단을 이중 강조하고, 축토 일지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1752", "name": "Bill Malhotra", "nameKo": "빌 말호트라",
+  "netWorth": 2.3, "nationality": "CA", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "India", "birthPlaceKo": "인도",
+    "familyBackground": "Born to Indian family; emigrated to Canada 1970s.", "familyBackgroundKo": "인도 가정에서 출생; 1970년대 캐나다 이주.",
+    "education": "Canadian higher education.", "educationKo": "캐나다 고등교육.",
+    "earlyLife": "Founded Claridge Inc. Canadian real-estate developer 1978; built into one of Ottawa's largest apartment-and-condo developers.",
+    "earlyLifeKo": "1978 Claridge Inc. 캐나다 부동산 개발자 창립; 오타와 최대 아파트·콘도 개발자 중 하나로 구축.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Claridge Inc. 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1970, "age": 21, "event": "Emigrated to Canada from India.", "eventKo": "인도에서 캐나다 이주.", "whyItMatteredKo": "이민 출발선." },
+    { "year": 1978, "age": 29, "event": "Founded Claridge Inc. Ottawa real-estate developer.", "eventKo": "오타와 부동산 개발자 Claridge Inc. 창립.", "whyItMatteredKo": "Claridge 출발선." },
+    { "year": 2000, "age": 51, "event": "Claridge became major Ottawa developer.", "eventKo": "Claridge가 주요 오타와 개발자가 됨.", "whyItMatteredKo": "주요 단계." },
+    { "year": 2015, "age": 66, "event": "Expanded condo developments across Canada.", "eventKo": "캐나다 전역 콘도 개발 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2025, "age": 76, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Claridge 정점." }
+  ],
+  "turningPoints": [{ "year": 1978, "age": 29, "decisionKo": "캐나다에서 Claridge 부동산 창립", "alternativeKo": "전형 이민 취업", "outcomeKo": "47년 후 23억 달러 + 캐나다 부동산 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Claridge Inc. 사적 자본 + 다각화 부동산", "industryKo": "주거 부동산", "businessModelKo": "오타와·캐나다 콘도·아파트 + 임대 + 부동산 개발", "moatKo": "오타와 부동산 + 47년 트랙 + 가족 사적 소유", "luckVsSkillKo": "운(35%): 캐나다 부동산 부상. 실력(65%): 47년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Claridge Inc.; Canadian-Indian real-estate magnate.",
+    "knownForKo": "Claridge Inc. 창립자; 캐나다·인도 부동산 거물.",
+    "philanthropy": "Malhotra Family Foundation supports Ottawa.", "philanthropyKo": "말호트라 가족 재단이 오타와 자선 지원.",
+    "controversies": "Limited; private real-estate low scrutiny.", "controversiesKo": "제한적; 사적 부동산 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Claridge Inc. 47년 + 오타와 부동산.", "tagsKo": ["Claridge Inc.", "Ottawa", "Indian-Canadian"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis briefly compressed Canadian real-estate.", "descriptionKo": "금융위기로 캐나다 부동산 잠시 압축.", "lesson": "Canadian real estate faces broad-cycle exposure.", "lessonKo": "캐나다 부동산은 광범위 사이클 노출 직면." },
+    { "year": 2022, "description": "Rising mortgage rates compressed Canadian housing demand.", "descriptionKo": "모기지 금리 상승이 캐나다 주택 수요 압축.", "lesson": "Real estate faces rate-cycle exposure.", "lessonKo": "부동산은 금리 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.7 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Immigrant patience builds Canadian cities.", "textKo": "이민자 인내가 캐나다 도시를 짓는다.", "context": "On Canadian real estate", "contextKo": "캐나다 부동산에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Sin-Chuk day pillar in Sin month — 'sanggwan-gyeok', unconventional output, fitting immigrant-builder-magnate.", "summaryKo": "신축 일주 + 신월 상관격(파격적 표현·기존 권위 도전)은 인도 이민자에서 캐나다 부동산 거인이라는 파격 자본 표현 경로와 호응합니다. 신금 일간 + 신금 월지의 극강 금 기운이 정밀 자본 도구를 이중 강조하고, 축토 일지의 토 기운이 자본·부동산 안정 기반을 가리킵니다." }
+}

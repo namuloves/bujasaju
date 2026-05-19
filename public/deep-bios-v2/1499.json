@@ -1,0 +1,38 @@
+{
+  "id": "1499", "name": "Danna Azrieli", "nameKo": "다나 아즈리엘리",
+  "netWorth": 2.7, "nationality": "IL", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Canada", "birthPlaceKo": "캐나다",
+    "familyBackground": "Born to David Azrieli; sister of Naomi and Sharon Azrieli.", "familyBackgroundKo": "데이비드 아즈리엘리의 딸; 나오미·샤론 아즈리엘리의 자매.",
+    "education": "Israeli higher education.", "educationKo": "이스라엘 고등교육.",
+    "earlyLife": "Azrieli family heir; chair of Azrieli Group; took CEO role; led Israeli real-estate company; Canada-Israel real-estate dynasty.",
+    "earlyLifeKo": "아즈리엘리 가족 상속녀; Azrieli Group 의장; CEO 역할; 이스라엘 부동산 회사 주도; 캐나다·이스라엘 부동산 왕조.",
+    "source": "https://en.wikipedia.org/wiki/Azrieli_Group"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Azrieli Group 가족 자본." },
+  "careerTimeline": [
+    { "year": 1990, "age": 23, "event": "Joined family Azrieli Group.", "eventKo": "가족 Azrieli Group 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2010, "age": 43, "event": "Azrieli Group IPO on Tel Aviv Stock Exchange.", "eventKo": "Azrieli Group 텔아비브 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2014, "age": 47, "event": "Father David Azrieli died; took expanded family role.", "eventKo": "아버지 데이비드 아즈리엘리 사망; 확대 가족 역할.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2020, "age": 53, "event": "Azrieli expanded into data centers (Compass Data Centers stake).", "eventKo": "Azrieli가 데이터센터(Compass Data Centers 지분) 확장.", "whyItMatteredKo": "데이터센터 단계." },
+    { "year": 2025, "age": 58, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "Azrieli 정점." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 47, "decisionKo": "아버지 사망 후 Azrieli Group 확대 역할", "alternativeKo": "독자 경력", "outcomeKo": "11년 후 27억 달러 + Azrieli 가족 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Azrieli Group(AZRG.TA) 가족 지분", "industryKo": "부동산·데이터센터", "businessModelKo": "이스라엘 쇼핑몰·오피스 + 데이터센터", "moatKo": "Azrieli 가족 의결권 + 이스라엘 부동산", "luckVsSkillKo": "운(75%): 가족 자본. 실력(25%): Azrieli 운영." },
+  "personalTraits": {
+    "knownFor": "Chair of Azrieli Group; daughter of David Azrieli; Israel-Canada real-estate heiress.",
+    "knownForKo": "Azrieli Group 의장; 데이비드 아즈리엘리의 딸; 이스라엘·캐나다 부동산 상속녀.",
+    "philanthropy": "Azrieli Foundation supports Holocaust education and architecture.", "philanthropyKo": "Azrieli 재단이 홀로코스트 교육·건축 자선 지원.",
+    "controversies": "2023 Israel-Gaza war pressured Israeli real-estate.", "controversiesKo": "2023 이스라엘-가자 전쟁이 이스라엘 부동산 압박."
+  },
+  "characterKo": { "summaryKo": "Azrieli Group + 이스라엘 부동산 가부장.", "tagsKo": ["Azrieli Group", "Azrieli Foundation", "Israel real estate"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 closed Israeli shopping malls briefly.", "descriptionKo": "COVID-19이 이스라엘 쇼핑몰 잠시 폐쇄.", "lesson": "Retail real estate faces pandemic exposure.", "lessonKo": "소매 부동산은 팬데믹 노출." },
+    { "year": 2023, "description": "Israel-Gaza war disrupted Israeli economic confidence.", "descriptionKo": "이스라엘-가자 전쟁이 이스라엘 경제 신뢰 혼란.", "lesson": "Israel real estate faces geopolitical risk.", "lessonKo": "이스라엘 부동산은 지정학 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Israel rebuilds patiently.", "textKo": "이스라엘은 인내로 재건한다.", "context": "On Israeli real estate", "contextKo": "이스라엘 부동산에 대해", "source": "https://www.azrieligroup.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Sul day pillar in Sa month — 'jeonggwan-gyeok', formal regulated authority, fitting family-real-estate dynasty heiress.", "summaryKo": "무술 일주 + 사월 정관격(공식 권위·규제 아래에서 일하는 구조)은 가족 부동산 + 자선 재단이라는 정통 권위 환경 가부장 경로와 호응합니다. 무토 일간 + 술토 일지의 강한 토 기운이 자본·부동산 안정 기반을 이중 강조하고, 사화 월지의 강한 화 기운이 결단을 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1382", "name": "Zhang Lei", "nameKo": "장레이",
+  "netWorth": 3.0, "nationality": "SG", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Henan, China", "birthPlaceKo": "중국 허난",
+    "familyBackground": "Born to Chinese family.", "familyBackgroundKo": "중국 가정에서 출생.",
+    "education": "Renmin University; Yale MBA/MA.", "educationKo": "런민 대학교; 예일 MBA·MA.",
+    "earlyLife": "Founded Hillhouse Capital in 2005 with Yale endowment seed funding; built into one of Asia's largest investment firms; major Tencent, JD.com, Belle International investor.",
+    "earlyLifeKo": "2005 예일 기금 시드 자금으로 Hillhouse Capital 창립; 아시아 최대 투자 회사 중 하나로 구축; 주요 텐센트·JD.com·Belle International 투자자.",
+    "source": "https://en.wikipedia.org/wiki/Hillhouse_Capital_Group"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Hillhouse Capital 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1998, "age": 26, "event": "Began at Industrial and Commercial Bank of China.", "eventKo": "중국 공상은행에서 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2005, "age": 33, "event": "Founded Hillhouse Capital with $30M Yale endowment seed.", "eventKo": "예일 기금 3,000만 달러 시드로 Hillhouse Capital 창립.", "whyItMatteredKo": "Hillhouse 출발선." },
+    { "year": 2010, "age": 38, "event": "Early Tencent and JD.com investments returned multibillion gains.", "eventKo": "초기 텐센트·JD.com 투자가 수십억 달러 수익.", "whyItMatteredKo": "텐센트·JD 단계." },
+    { "year": 2017, "age": 45, "event": "Hillhouse led $5.5B Belle International take-private; Asia's largest LBO.", "eventKo": "Hillhouse가 Belle International 55억 달러 비공개화 주도; 아시아 최대 LBO.", "whyItMatteredKo": "Belle 단계." },
+    { "year": 2025, "age": 53, "event": "Personal net worth at $3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 30억 달러.", "whyItMatteredKo": "Hillhouse 정점." }
+  ],
+  "turningPoints": [{ "year": 2005, "age": 33, "decisionKo": "Yale 기금 시드로 Hillhouse Capital 창립", "alternativeKo": "은행 잔류", "outcomeKo": "20년 후 30억 달러 + 아시아 최대 PE" }],
+  "moneyMechanics": { "primaryRevenueKo": "Hillhouse Capital 창립자 지분 + 수수료", "industryKo": "사모펀드·헤지펀드", "businessModelKo": "장기 집중 투자 + 중국 + Asia + 글로벌 + 1,000억+ AUM", "moatKo": "Yale 시드 + 텐센트·JD 초기 + 20년 트랙", "luckVsSkillKo": "운(40%): 중국 인터넷 부상. 실력(60%): 20년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Hillhouse Capital; major Chinese tech investor; backed Tencent, JD.com early.",
+    "knownForKo": "Hillhouse Capital 창립자; 주요 중국 기술 투자자; 텐센트·JD.com 초기 후원.",
+    "philanthropy": "Major Yale and Renmin University donations.", "philanthropyKo": "주요 예일·런민 대학교 기부.",
+    "controversies": "2021 China tech crackdown compressed Hillhouse portfolio sharply.",
+    "controversiesKo": "2021 중국 기술 단속이 Hillhouse 포트폴리오 급격 압축."
+  },
+  "characterKo": { "summaryKo": "Hillhouse Capital 20년 + 아시아 최대 PE.", "tagsKo": ["Hillhouse Capital", "Tencent", "JD.com"] },
+  "failures": [
+    { "year": 2021, "description": "China tech crackdown compressed Hillhouse portfolio; Didi delisted.", "descriptionKo": "중국 기술 단속이 Hillhouse 포트폴리오 압축; Didi 상장 폐지.", "lesson": "Chinese-tech investing faces regulatory crackdown.", "lessonKo": "중국 기술 투자는 규제 단속 직면." },
+    { "year": 2022, "description": "Russia-Ukraine war and US-China tensions compressed cross-border Hillhouse activities.", "descriptionKo": "러시아-우크라이나 전쟁·미·중 갈등으로 Hillhouse 국경 간 활동 압축.", "lesson": "Cross-border PE faces geopolitical risk.", "lessonKo": "국경 간 PE는 지정학 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2023, "netWorth": 2.5 }, { "year": 2025, "netWorth": 3.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Invest patiently; the best businesses don't sell.", "textKo": "인내로 투자하라; 최고의 사업은 팔리지 않는다.", "context": "On Hillhouse philosophy", "contextKo": "Hillhouse 철학에 대해", "source": "https://www.hillhouse.com" }],
+  "books": { "authored": [{ "title": "Value (價值)", "year": 2020 }], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-In day pillar in Hae month — 'jeongjae-gyeok', stable wealth accumulation, fitting long-term-investing PE founder.", "summaryKo": "병인 일주 + 해월 정재격(안정적·정직한 부 축적)은 장기 집중 투자라는 정직 안정 자본 축적 20년 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 인목 일지의 목 기운이 회사 성장을, 해수 월지의 수 기운이 자본·정보 유동성을 가리킵니다." }
+}

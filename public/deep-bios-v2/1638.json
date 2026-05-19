@@ -1,0 +1,38 @@
+{
+  "id": "1638", "name": "Alec Gores", "nameKo": "알렉 E. 고어스",
+  "netWorth": 2.5, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Israel", "birthPlaceKo": "이스라엘",
+    "familyBackground": "Born to Greek-Lebanese family in Israel; emigrated to US.", "familyBackgroundKo": "이스라엘에서 그리스·레바논 가족 출생; 미국 이주.",
+    "education": "Western Michigan University.", "educationKo": "웨스턴 미시간 대학교.",
+    "earlyLife": "Founded Gores Group PE in 1987; pioneered technology-focused buyouts; later expanded into SPAC sponsoring (Gores Holdings).",
+    "earlyLifeKo": "1987 Gores Group PE 창립; 기술 중심 인수 개척; 이후 SPAC 후원(Gores Holdings) 확장.",
+    "source": "https://en.wikipedia.org/wiki/Alec_Gores"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Gores Group 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1978, "age": 25, "event": "Founded Executive Business Systems computer dealer.", "eventKo": "Executive Business Systems 컴퓨터 딜러 창립.", "whyItMatteredKo": "출발선." },
+    { "year": 1987, "age": 34, "event": "Founded Gores Group PE.", "eventKo": "Gores Group PE 창립.", "whyItMatteredKo": "Gores 출발선." },
+    { "year": 2010, "age": 57, "event": "Gores Group expanded into multi-sector PE.", "eventKo": "Gores Group 다부문 PE 확장.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2018, "age": 65, "event": "Gores Holdings SPACs took companies public including Hostess, PAE, Verra Mobility.", "eventKo": "Gores Holdings SPAC가 Hostess·PAE·Verra Mobility 등 회사 공개.", "whyItMatteredKo": "SPAC 단계." },
+    { "year": 2025, "age": 72, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "Gores 정점." }
+  ],
+  "turningPoints": [{ "year": 1987, "age": 34, "decisionKo": "컴퓨터 딜러에서 PE Gores Group 창립", "alternativeKo": "딜러 잔류", "outcomeKo": "38년 후 25억 달러 + 기술 PE 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Gores Group 사적 자본 + Gores Holdings SPAC + 다각화", "industryKo": "사모펀드·SPAC", "businessModelKo": "기술 중심 PE + SPAC + 부동산", "moatKo": "Gores Group 38년 + SPAC 트랙", "luckVsSkillKo": "운(30%): PE 산업 부상. 실력(70%): 38년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Gores Group; brother of Tom Gores; SPAC sponsor.",
+    "knownForKo": "Gores Group 창립자; 톰 고어스의 형제; SPAC 후원자.",
+    "philanthropy": "Gores Family Foundation supports Detroit and Michigan.", "philanthropyKo": "고어스 가족 재단이 디트로이트·미시간 자선 지원.",
+    "controversies": "2021-2022 multiple Gores SPACs underperformed post-merger.", "controversiesKo": "2021-2022 여러 Gores SPAC이 합병 후 부진."
+  },
+  "characterKo": { "summaryKo": "Gores Group 38년 + 기술 PE + SPAC.", "tagsKo": ["Gores Group", "SPAC", "기술 PE"] },
+  "failures": [
+    { "year": 2022, "description": "Multiple Gores-sponsored SPACs underperformed; reputation pressure.", "descriptionKo": "여러 Gores 후원 SPAC이 부진; 평판 압박.", "lesson": "SPACs face structural post-merger compression.", "lessonKo": "SPAC은 구조적 합병 후 압축 직면." },
+    { "year": 2008, "description": "Financial crisis compressed Gores PE portfolio.", "descriptionKo": "금융위기로 Gores PE 포트폴리오 압축.", "lesson": "PE faces credit-cycle exposure.", "lessonKo": "PE는 신용 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Buy what others abandon; fix it before they notice.", "textKo": "남들이 버린 것을 사라; 그들이 알아채기 전에 고쳐라.", "context": "On PE turnaround", "contextKo": "PE 회생에 대해", "source": "https://en.wikipedia.org/wiki/Alec_Gores" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Jin day pillar in Myo month — 'jeonggwan-gyeok', formal regulated authority, fitting PE-and-SPAC operator.", "summaryKo": "무진 일주 + 묘월 정관격(공식 권위·규제 아래에서 일하는 구조)은 강한 SEC 규제 권위 환경의 PE·SPAC 38년 운영 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 안정과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 묘목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

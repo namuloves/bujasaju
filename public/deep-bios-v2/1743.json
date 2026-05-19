@@ -1,0 +1,38 @@
+{
+  "id": "1743", "name": "Dermot Desmond", "nameKo": "더모트 데스먼드",
+  "netWorth": 2.3, "nationality": "IE", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Macroom, County Cork, Ireland", "birthPlaceKo": "아일랜드 코크주 매크룸",
+    "familyBackground": "Born to Irish family.", "familyBackgroundKo": "아일랜드 가정에서 출생.",
+    "education": "Marist Brothers Limerick.", "educationKo": "리머릭 마리스트 브라더스.",
+    "earlyLife": "Founded NCB Stockbrokers 1981; sold to Ulster Bank 1994; founded International Investment & Underwriting (IIU); major Celtic FC investor; airport investor (London City Airport).",
+    "earlyLifeKo": "1981 NCB Stockbrokers 창립; 1994 Ulster Bank에 매각; International Investment & Underwriting(IIU) 창립; 주요 셀틱 FC 투자자; 공항 투자자(런던 시티 공항).",
+    "source": "https://en.wikipedia.org/wiki/Dermot_Desmond"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "NCB Stockbrokers 매각 + IIU." },
+  "careerTimeline": [
+    { "year": 1968, "age": 18, "event": "Began Irish banking career.", "eventKo": "아일랜드 은행 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1981, "age": 31, "event": "Founded NCB Stockbrokers.", "eventKo": "NCB Stockbrokers 창립.", "whyItMatteredKo": "NCB 출발선." },
+    { "year": 1994, "age": 44, "event": "Sold NCB to Ulster Bank; founded IIU.", "eventKo": "NCB를 Ulster Bank에 매각; IIU 창립.", "whyItMatteredKo": "엑시트." },
+    { "year": 2006, "age": 56, "event": "Major Celtic FC investor; took board role.", "eventKo": "주요 셀틱 FC 투자자; 이사회 역할.", "whyItMatteredKo": "Celtic 단계." },
+    { "year": 2025, "age": 75, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Desmond 정점." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 44, "decisionKo": "NCB 매각 후 IIU 가족 사무소 창립", "alternativeKo": "은행 운영 지속", "outcomeKo": "31년 후 23억 달러 + 다각화 가족 사무소" }],
+  "moneyMechanics": { "primaryRevenueKo": "IIU + Celtic FC + London City Airport + 다각화", "industryKo": "사적 투자·다각화", "businessModelKo": "Ulster 매각 자본 + 셀틱·공항 + 아일랜드 부동산", "moatKo": "Ulster 매각 자본 + 아일랜드 인맥", "luckVsSkillKo": "운(40%): 1990년대 아일랜드 호황. 실력(60%): 31년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of NCB Stockbrokers; Celtic FC investor; major Irish private investor.",
+    "knownForKo": "NCB Stockbrokers 창립자; 셀틱 FC 투자자; 주요 아일랜드 사적 투자자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; private investment low scrutiny.", "controversiesKo": "제한적; 사적 투자 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "NCB 매각 + IIU + 셀틱 FC + 다각화.", "tagsKo": ["NCB Stockbrokers", "Celtic FC", "IIU"] },
+  "failures": [
+    { "year": 2008, "description": "Irish financial crisis compressed Desmond Irish assets.", "descriptionKo": "아일랜드 금융위기로 데스먼드 아일랜드 자산 압축.", "lesson": "Irish wealth faces sovereign-crisis exposure.", "lessonKo": "아일랜드 부는 주권 위기 노출 직면." },
+    { "year": 2020, "description": "COVID-19 closed London City Airport briefly.", "descriptionKo": "COVID-19이 런던 시티 공항 잠시 폐쇄.", "lesson": "Airport investments face pandemic exposure.", "lessonKo": "공항 투자는 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Ireland rewards patient and Irish capital.", "textKo": "아일랜드는 인내하는 아일랜드 자본을 보상한다.", "context": "On Irish investing", "contextKo": "아일랜드 투자에 대해", "source": "https://en.wikipedia.org/wiki/Dermot_Desmond" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Yu day pillar in O month — 'jeonggwan-gyeok', formal regulated authority, fitting Irish-banking-and-sports magnate.", "summaryKo": "정유 일주 + 오월 정관격(공식 권위·규제 아래에서 일하는 구조)은 강한 아일랜드·EU 금융 규제 환경의 31년 사적 투자 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정밀 금융과 통하고, 유금 일지의 금 기운이 정밀 자본 도구를, 오화 월지의 강한 화 기운이 결단·기세를 가리킵니다." }
+}

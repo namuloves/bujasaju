@@ -1,0 +1,38 @@
+{
+  "id": "2095", "name": "Michael Heine", "nameKo": "마이클 헤인",
+  "netWorth": 1.9, "nationality": "AU", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Australia", "birthPlaceKo": "호주",
+    "familyBackground": "Born to Australian Jewish family.", "familyBackgroundKo": "호주 유대인 가정에서 출생.",
+    "education": "Australian higher education.", "educationKo": "호주 고등교육.",
+    "earlyLife": "Co-founded Heine Brothers Coffee; co-founded Netwealth — Australian wealth-management technology platform; major Netwealth Group shareholder.",
+    "earlyLifeKo": "Heine Brothers Coffee 공동 창립; Netwealth 공동 창립 — 호주 자산 관리 기술 플랫폼; 주요 Netwealth Group 주주.",
+    "source": "https://www.netwealth.com.au"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Netwealth 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1975, "age": 26, "event": "Began Australian finance career.", "eventKo": "호주 금융 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1999, "age": 50, "event": "Co-founded Netwealth wealth-management platform.", "eventKo": "Netwealth 자산 관리 플랫폼 공동 창립.", "whyItMatteredKo": "Netwealth 출발선." },
+    { "year": 2017, "age": 68, "event": "Netwealth IPO on Australian Stock Exchange.", "eventKo": "Netwealth 호주 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2022, "age": 73, "event": "Netwealth crossed AUD $60B+ AUM.", "eventKo": "Netwealth 600억+ 호주달러 AUM 돌파.", "whyItMatteredKo": "AUM 단계." },
+    { "year": 2025, "age": 76, "event": "Personal net worth at $1.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 19억 달러.", "whyItMatteredKo": "Netwealth 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 50, "decisionKo": "50세에 Netwealth 자산 관리 플랫폼 창립", "alternativeKo": "전통 자산 관리 잔류", "outcomeKo": "26년 후 19억 달러 + 호주 자산 관리 플랫폼" }],
+  "moneyMechanics": { "primaryRevenueKo": "Netwealth Group(NWL.AX) 공동 창립자 지분", "industryKo": "자산 관리·핀테크", "businessModelKo": "독립 재무 자문 플랫폼 + 슈퍼 펀드 + 디지털 자산 관리", "moatKo": "Netwealth 600억 AUM + 26년 트랙", "luckVsSkillKo": "운(30%): 호주 자산 관리 부상. 실력(70%): 26년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Netwealth Group; Australian wealth-management technology pioneer.",
+    "knownForKo": "Netwealth Group 공동 창립자; 호주 자산 관리 기술 선구자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; Netwealth fintech industry standard scrutiny.", "controversiesKo": "제한적; Netwealth 핀테크 산업 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Netwealth 공동 창립 + 호주 자산 관리 플랫폼.", "tagsKo": ["Netwealth", "호주 자산 관리", "핀테크"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed wealth-management AUM briefly.", "descriptionKo": "금융위기로 자산 관리 AUM 잠시 압축.", "lesson": "Wealth management faces market-cycle exposure.", "lessonKo": "자산 관리는 시장 사이클 노출 직면." },
+    { "year": 2022, "description": "Tech-stock decline compressed Netwealth stock.", "descriptionKo": "기술주 하락이 Netwealth 주식 압축.", "lesson": "Fintech faces rate-cycle revaluation.", "lessonKo": "핀테크는 금리 사이클 재평가 직면." }
+  ],
+  "wealthHistory": [{ "year": 2017, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.2 }, { "year": 2024, "netWorth": 1.7 }, { "year": 2025, "netWorth": 1.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Wealth management is a platform business in advisor's clothing.", "textKo": "자산 관리는 자문가 옷을 입은 플랫폼 사업이다.", "context": "On Netwealth model", "contextKo": "Netwealth 모델에 대해", "source": "https://www.netwealth.com.au" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Hae month — 'pyeonin-gyeok', non-traditional knowledge, fitting late-stage fintech founder.", "summaryKo": "갑진 일주 + 해월 편인격(비전통적 학문·문서 권위)은 50세에 핀테크 플랫폼이라는 비전통적 후기 창업 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 해수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

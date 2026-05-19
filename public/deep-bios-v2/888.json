@@ -1,0 +1,38 @@
+{
+  "id": "888", "name": "Steven Udvar-Hazy", "nameKo": "스티븐 F. 우드바하지",
+  "netWorth": 4.6, "nationality": "US", "industry": "Service",
+  "childhood": {
+    "birthPlace": "Budapest, Hungary", "birthPlaceKo": "헝가리 부다페스트",
+    "familyBackground": "Born to Hungarian Jewish family; family fled Communism 1958.", "familyBackgroundKo": "헝가리 유대인 가정에서 출생; 가족 1958 공산주의 탈출.",
+    "education": "UCLA.", "educationKo": "UCLA.",
+    "earlyLife": "Co-founded International Lease Finance Corp (ILFC) in 1973 — aircraft-leasing pioneer; sold ILFC to AIG 1990; founded Air Lease Corporation 2010 after ILFC sold to AerCap.",
+    "earlyLifeKo": "1973 International Lease Finance Corp(ILFC) 공동 창립 — 항공기 리스 선구자; 1990 ILFC를 AIG에 매각; ILFC가 AerCap에 매각된 후 2010 Air Lease Corporation 창립.",
+    "source": "https://en.wikipedia.org/wiki/Steven_Udvar-H%C3%A1zy"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "ILFC AIG 매각 + Air Lease 창립." },
+  "careerTimeline": [
+    { "year": 1968, "age": 22, "event": "Worked at International Air Bahama after UCLA.", "eventKo": "UCLA 후 International Air Bahama 근무.", "whyItMatteredKo": "항공 출발선." },
+    { "year": 1973, "age": 27, "event": "Co-founded ILFC; pioneered aircraft-leasing model.", "eventKo": "ILFC 공동 창립; 항공기 리스 모델 개척.", "whyItMatteredKo": "ILFC 출발선." },
+    { "year": 1990, "age": 44, "event": "Sold ILFC to AIG for $1.3B.", "eventKo": "ILFC를 AIG에 13억 달러 매각.", "whyItMatteredKo": "엑시트 1." },
+    { "year": 2010, "age": 64, "event": "Founded Air Lease Corporation; aircraft-leasing pure-play.", "eventKo": "Air Lease Corporation 창립; 항공기 리스 순수 사업.", "whyItMatteredKo": "Air Lease 출발선." },
+    { "year": 2025, "age": 79, "event": "Personal net worth at $4.6B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 46억 달러.", "whyItMatteredKo": "Air Lease 정점." }
+  ],
+  "turningPoints": [{ "year": 2010, "age": 64, "decisionKo": "ILFC 매각 후 Air Lease 재창업", "alternativeKo": "은퇴", "outcomeKo": "15년 후 46억 달러 + 두 번째 항공 리스 회사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Air Lease Corporation(AL) 창립자 지분 + ILFC 매각 잔여", "industryKo": "항공기 리스·항공", "businessModelKo": "글로벌 항공사 항공기 리스 + 보잉·에어버스 주문", "moatKo": "ILFC + Air Lease 50년+ 항공 리스 트랙", "luckVsSkillKo": "운(30%): 항공 산업 부상. 실력(70%): 항공 리스 모델 발명·재창업." },
+  "personalTraits": {
+    "knownFor": "Co-founder of ILFC; founder of Air Lease Corporation; aircraft-leasing industry pioneer.",
+    "knownForKo": "ILFC 공동 창립자; Air Lease Corporation 창립자; 항공기 리스 산업 선구자.",
+    "philanthropy": "Steven F. Udvar-Hazy Center at National Air and Space Museum; major Smithsonian donor.", "philanthropyKo": "국립 항공 우주 박물관 스티븐 F. 우드바하지 센터; 주요 스미스소니언 후원자.",
+    "controversies": "Limited; aircraft-leasing industry general scrutiny.", "controversiesKo": "제한적; 항공기 리스 산업 일반 감시."
+  },
+  "characterKo": { "summaryKo": "ILFC + Air Lease 항공기 리스 선구자.", "tagsKo": ["ILFC", "Air Lease Corporation", "aircraft leasing"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed ILFC (AIG) and aircraft leasing; AIG bailout era.", "descriptionKo": "금융위기로 ILFC(AIG)·항공기 리스 압축; AIG 구제 시대.", "lesson": "Aircraft leasing faces global-cycle exposure.", "lessonKo": "항공기 리스는 글로벌 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 grounded airlines globally; aircraft-leasing payments delayed.", "descriptionKo": "COVID-19이 전 세계 항공사 운항 중단; 항공기 리스 결제 지연.", "lesson": "Aviation leasing faces dramatic pandemic exposure.", "lessonKo": "항공 리스는 극적인 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 3.0 }, { "year": 2024, "netWorth": 4.4 }, { "year": 2025, "netWorth": 4.6 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Airlines don't own; they fly. We own, they fly.", "textKo": "항공사는 소유하지 않는다; 그들은 난다. 우리가 소유하고, 그들이 난다.", "context": "On aircraft leasing", "contextKo": "항공기 리스에 대해", "source": "https://www.airleasecorp.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Jin day pillar in In month — 'siksin-gyeok', creative output, fitting aircraft-leasing-model inventor.", "summaryKo": "무진 일주 + 인월 식신격(창의적 결과물·표현)은 항공기 리스라는 창의적 금융 모델 발명 + 두 번 창업이라는 창의적 표현 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 안정과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 인목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1761", "name": "Carlos March Delgado", "nameKo": "카를로스 마르치 델가도",
+  "netWorth": 2.3, "nationality": "ES", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Spain", "birthPlaceKo": "스페인",
+    "familyBackground": "Born to March family — owners of Banca March; one of Spain's oldest banking dynasties.", "familyBackgroundKo": "스페인 최고 은행 왕조 중 하나 Banca March 소유주 마르치 가족 출신.",
+    "education": "Spanish higher education.", "educationKo": "스페인 고등교육.",
+    "earlyLife": "Joined family Banca March in 1960s; took executive role; major Banca March and Corporación Financiera Alba family stockholder; 3rd-generation March family.",
+    "earlyLifeKo": "1960년대 가족 Banca March 합류; 임원 역할; 주요 Banca March·Corporación Financiera Alba 가족 주주; 마르치 가족 3세대.",
+    "source": "https://en.wikipedia.org/wiki/March_family"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "March 가족 자본." },
+  "careerTimeline": [
+    { "year": 1965, "age": 20, "event": "Joined family Banca March.", "eventKo": "가족 Banca March 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1985, "age": 40, "event": "Took executive role at Banca March.", "eventKo": "Banca March 임원 역할.", "whyItMatteredKo": "임원 단계." },
+    { "year": 2000, "age": 55, "event": "Banca March expanded via Corporación Financiera Alba investments.", "eventKo": "Corporación Financiera Alba 투자로 Banca March 확장.", "whyItMatteredKo": "Alba 단계." },
+    { "year": 2010, "age": 65, "event": "Spanish debt crisis pressured Banca March; family-control retained.", "eventKo": "스페인 부채 위기로 Banca March 압박; 가족 통제 유지.", "whyItMatteredKo": "위기 단계." },
+    { "year": 2025, "age": 80, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "March 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 40, "decisionKo": "Banca March 임원 역할로 가족 자본 통합", "alternativeKo": "독자 경력", "outcomeKo": "40년 후 23억 달러 + 스페인 은행 가족 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Banca March + Corporación Financiera Alba 가족 지분", "industryKo": "은행·다각화 투자", "businessModelKo": "Banca March 사적 은행 + Alba 다각화 투자", "moatKo": "March 100년+ 가족 + 스페인 사적 은행", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): 자본 유지." },
+  "personalTraits": {
+    "knownFor": "March family stockholder; Banca March executive; Spanish banking dynasty heir.",
+    "knownForKo": "마르치 가족 주주; Banca March 임원; 스페인 은행 왕조 상속인.",
+    "philanthropy": "Juan March Foundation supports Spanish cultural and scientific causes.", "philanthropyKo": "후안 마르치 재단이 스페인 문화·과학 자선 지원.",
+    "controversies": "Limited; private banking low scrutiny.", "controversiesKo": "제한적; 사적 은행 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Banca March 60년 + 스페인 사적 은행 가족.", "tagsKo": ["Banca March", "Alba", "March family"] },
+  "failures": [
+    { "year": 2010, "description": "Spanish debt crisis pressured Banca March; capital reserves tested.", "descriptionKo": "스페인 부채 위기로 Banca March 압박; 자본 준비 시험.", "lesson": "Spanish banking faces sovereign-debt-cycle exposure.", "lessonKo": "스페인 은행은 주권 부채 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted banking briefly; Alba portfolio compressed.", "descriptionKo": "COVID-19이 은행 잠시 혼란; Alba 포트폴리오 압축.", "lesson": "Banking faces pandemic-cycle exposure.", "lessonKo": "은행은 팬데믹 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "A century of banking is a century of patience.", "textKo": "한 세기의 은행은 한 세기의 인내다.", "context": "On Banca March", "contextKo": "Banca March에 대해", "source": "https://www.bancamarch.es" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-In day pillar in Sin month — 'pyeon-gwan-gyeok', strong external authority/discipline, fitting century-old family banking heir.", "summaryKo": "갑인 일주 + 신월 편관격(강한 외부 압박·권력 충돌)은 강한 EU 은행 규제 권위 환경의 100년 가족 은행 가부장 경로와 호응합니다. 갑목 일간 + 인목 일지의 강한 목 기운이 회사·가족 성장을 이중 강조하고, 신금 월지의 금 기운이 정밀 금융 도구를 가리킵니다." }
+}

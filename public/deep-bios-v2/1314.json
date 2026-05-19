@@ -1,0 +1,39 @@
+{
+  "id": "1314", "name": "Glen Taylor", "nameKo": "글렌 앨버트 테일러",
+  "netWorth": 3.1, "nationality": "US", "industry": "Service",
+  "childhood": {
+    "birthPlace": "Comfrey, Minnesota, USA", "birthPlaceKo": "미국 미네소타주 컴프리",
+    "familyBackground": "Born to American farming family.", "familyBackgroundKo": "미국 농업 가족 출신.",
+    "education": "Mankato State University.", "educationKo": "맨카토 주립 대학교.",
+    "earlyLife": "Founded Taylor Corporation in 1975 in Minnesota — wedding-stationery printing; built into major commercial-printing conglomerate; owner Minnesota Timberwolves NBA 1994-2024.",
+    "earlyLifeKo": "1975 미네소타에서 Taylor Corporation 창립 — 결혼 문구 인쇄; 주요 상업 인쇄 대기업으로 구축; 1994-2024 미네소타 팀버울브즈 NBA 소유주.",
+    "source": "https://en.wikipedia.org/wiki/Glen_Taylor"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Taylor Corporation 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1965, "age": 24, "event": "Began at Carlson Wedding Service in Mankato.", "eventKo": "맨카토 Carlson Wedding Service에서 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1975, "age": 34, "event": "Bought Carlson Wedding Service; renamed Taylor Corporation.", "eventKo": "Carlson Wedding Service 인수; Taylor Corporation으로 개명.", "whyItMatteredKo": "Taylor 출발선." },
+    { "year": 1994, "age": 53, "event": "Bought Minnesota Timberwolves NBA franchise.", "eventKo": "미네소타 팀버울브즈 NBA 프랜차이즈 인수.", "whyItMatteredKo": "Timberwolves 단계." },
+    { "year": 2024, "age": 83, "event": "Court ruled Timberwolves sale to Rodriguez-Lore had not closed; Taylor regained control.", "eventKo": "법원이 로드리게스-로어에게 팀버울브즈 매각이 완료되지 않았다고 판결; 테일러가 통제 회복.", "whyItMatteredKo": "법원 판결." },
+    { "year": 2025, "age": 84, "event": "Personal net worth at $3.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 31억 달러.", "whyItMatteredKo": "Taylor 정점." }
+  ],
+  "turningPoints": [{ "year": 1994, "age": 53, "decisionKo": "Taylor Corp 외 NBA 프랜차이즈 인수", "alternativeKo": "인쇄 집중", "outcomeKo": "31년 후 31억 달러 + NBA·인쇄 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Taylor Corporation 사적 자본 + Timberwolves 등", "industryKo": "상업 인쇄·NBA", "businessModelKo": "결혼·기념일 인쇄 + 디지털 인쇄 + Star Tribune 신문 + Timberwolves", "moatKo": "Taylor Corp 50년 + 다각화 + 가족 사적 소유", "luckVsSkillKo": "운(35%): 인쇄 산업 부상. 실력(65%): 50년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Taylor Corporation; long-time owner of Minnesota Timberwolves; Minnesota political figure.",
+    "knownForKo": "Taylor Corporation 창립자; 오랜 미네소타 팀버울브즈 소유주; 미네소타 정치 인물.",
+    "philanthropy": "Taylor Family Foundation supports Minnesota education and arts.", "philanthropyKo": "테일러 가족 재단이 미네소타 교육·예술 자선 지원.",
+    "controversies": "2024 Timberwolves sale dispute with Alex Rodriguez and Marc Lore drew sustained attention.",
+    "controversiesKo": "2024 알렉스 로드리게스·마크 로어와 팀버울브즈 매각 분쟁이 지속적 관심 야기."
+  },
+  "characterKo": { "summaryKo": "Taylor Corp 50년 + 팀버울브즈 + 미네소타.", "tagsKo": ["Taylor Corporation", "Minnesota Timberwolves", "Star Tribune"] },
+  "failures": [
+    { "year": 2024, "description": "Timberwolves sale dispute with Rodriguez-Lore went to arbitration; deal collapsed.", "descriptionKo": "로드리게스-로어와 팀버울브즈 매각 분쟁이 중재로; 거래 붕괴.", "lesson": "Sports-franchise sales face complex closing-condition risk.", "lessonKo": "스포츠 프랜차이즈 매각은 복잡한 종결 조건 리스크 직면." },
+    { "year": 2020, "description": "Print industry secular decline pressured Taylor Corp revenues.", "descriptionKo": "인쇄 산업 구조적 하락이 Taylor Corp 매출 압박.", "lesson": "Print faces secular digital disruption.", "lessonKo": "인쇄는 구조적 디지털 파괴 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.7 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 2.9 }, { "year": 2025, "netWorth": 3.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Print taught me everything; basketball taught me patience.", "textKo": "인쇄는 모든 것을 가르쳤고, 농구는 인내를 가르쳤다.", "context": "On Taylor career", "contextKo": "테일러 경력에 대해", "source": "https://www.taylorcorp.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Sul day pillar in Jin month — 'pyeonjae-gyeok', large external capital, fitting multi-industry diversifier.", "summaryKo": "무술 일주 + 진월 편재격(크고 유동적인 외부 자본)은 인쇄·NBA·신문이라는 거대 외부 자본 다각화 50년 운영 경로와 호응합니다. 무토 일간 + 술토 일지·진토 월지의 극강 토 기운이 자본 안정 기반을 삼중 강조합니다." }
+}

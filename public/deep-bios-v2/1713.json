@@ -1,0 +1,39 @@
+{
+  "id": "1713", "name": "Joe Lacob", "nameKo": "조지프 스티븐 라코브",
+  "netWorth": 2.3, "nationality": "US", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "Massachusetts, USA", "birthPlaceKo": "미국 매사추세츠",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "UC Irvine; Stanford MBA.", "educationKo": "UC 어바인; 스탠퍼드 MBA.",
+    "earlyLife": "Worked at Kleiner Perkins VC; led VC investments; co-bought Golden State Warriors NBA franchise 2010 with Peter Guber; co-owner Warriors during 4 championships 2015-2022.",
+    "earlyLifeKo": "Kleiner Perkins VC 근무; VC 투자 주도; 2010 피터 구버와 골든 스테이트 워리어스 NBA 프랜차이즈 공동 인수; 2015-2022 4회 우승 동안 워리어스 공동 소유주.",
+    "source": "https://en.wikipedia.org/wiki/Joe_Lacob"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Kleiner Perkins + Warriors." },
+  "careerTimeline": [
+    { "year": 1981, "age": 25, "event": "Began VC career after Stanford MBA.", "eventKo": "스탠퍼드 MBA 후 VC 경력 시작.", "whyItMatteredKo": "VC 출발선." },
+    { "year": 1987, "age": 31, "event": "Joined Kleiner Perkins as partner.", "eventKo": "Kleiner Perkins 파트너 합류.", "whyItMatteredKo": "Kleiner 단계." },
+    { "year": 2010, "age": 54, "event": "Co-bought Golden State Warriors NBA franchise for $450M.", "eventKo": "골든 스테이트 워리어스 NBA 프랜차이즈를 4억 5,000만 달러 공동 인수.", "whyItMatteredKo": "Warriors 단계." },
+    { "year": 2015, "age": 59, "event": "Warriors won first NBA championship under Lacob ownership.", "eventKo": "라코브 소유 하 워리어스 첫 NBA 챔피언십 우승.", "whyItMatteredKo": "챔피언십 1." },
+    { "year": 2025, "age": 69, "event": "Personal net worth at $2.3B per Forbes Real-Time; Warriors valued $9.4B+.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러; 워리어스 94억+ 달러 밸류에이션.", "whyItMatteredKo": "Warriors 정점." }
+  ],
+  "turningPoints": [{ "year": 2010, "age": 54, "decisionKo": "Kleiner 외 Warriors NBA 인수", "alternativeKo": "VC 집중", "outcomeKo": "15년 후 23억 달러 + 4 NBA 챔피언십" }],
+  "moneyMechanics": { "primaryRevenueKo": "Kleiner Perkins 파트너 + Warriors 가족 지분", "industryKo": "VC·NBA", "businessModelKo": "VC 투자 + NBA 프랜차이즈 + Chase Center", "moatKo": "Warriors NBA + VC 인맥 + Stephen Curry 시대", "luckVsSkillKo": "운(45%): Steph Curry 드래프트 + 채프먼 시기. 실력(55%): 운영·문화 결단." },
+  "personalTraits": {
+    "knownFor": "Co-owner of Golden State Warriors NBA; former Kleiner Perkins VC partner.",
+    "knownForKo": "골든 스테이트 워리어스 NBA 공동 소유주; 전 Kleiner Perkins VC 파트너.",
+    "philanthropy": "Lacob Family Foundation supports Bay Area education and sports.", "philanthropyKo": "라코브 가족 재단이 베이 에어리어 교육·스포츠 자선 지원.",
+    "controversies": "2012 'Light Years Ahead' comments drew NBA peer criticism; 2024 Warriors aging-core strategic challenges.",
+    "controversiesKo": "2012 'Light Years Ahead' 발언이 NBA 동료 비판 야기; 2024 워리어스 노화 코어 전략 도전."
+  },
+  "characterKo": { "summaryKo": "Kleiner Perkins + Warriors 4 NBA 챔피언십.", "tagsKo": ["Golden State Warriors", "Kleiner Perkins", "Stephen Curry"] },
+  "failures": [
+    { "year": 2012, "description": "Mark Jackson fired despite playoff run; controversial decision.", "descriptionKo": "마크 잭슨이 플레이오프 진출에도 해고; 논쟁적 결정.", "lesson": "Sports management requires bold succession decisions.", "lessonKo": "스포츠 경영은 대담한 승계 결정 필요." },
+    { "year": 2020, "description": "Warriors injury-plagued season missed playoffs.", "descriptionKo": "워리어스 부상 시즌이 플레이오프 진출 실패.", "lesson": "Sports faces injury-cycle exposure.", "lessonKo": "스포츠는 부상 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.6 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Sports is data, drama, and dynasty.", "textKo": "스포츠는 데이터, 드라마, 왕조다.", "context": "On Warriors", "contextKo": "워리어스에 대해", "source": "https://www.nba.com/warriors" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Ja day pillar in Chuk month — 'sanggwan-gyeok', unconventional output, fitting VC-to-NBA-owner.", "summaryKo": "병자 일주 + 축월 상관격(파격적 표현·기존 권위 도전)은 VC에서 NBA 소유주라는 파격 전환 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 자수 일지의 수 기운이 자본·정보 유동성을, 축토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

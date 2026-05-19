@@ -1,0 +1,38 @@
+{
+  "id": "1689", "name": "Fiona Geminder", "nameKo": "피오나 제민더",
+  "netWorth": 2.4, "nationality": "AU", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Australia", "birthPlaceKo": "호주",
+    "familyBackground": "Born to Richard Pratt — owner of Visy Industries packaging giant.", "familyBackgroundKo": "Visy Industries 포장 거인 소유주 리처드 프랫의 딸.",
+    "education": "Australian higher education.", "educationKo": "호주 고등교육.",
+    "earlyLife": "Pratt family heir; joined Visy Industries family business; major shareholder; founded Pact Group via family holdings.",
+    "earlyLifeKo": "프랫 가족 상속녀; Visy Industries 가족 사업 합류; 주요 주주; 가족 지주 통한 Pact Group 창립.",
+    "source": "https://en.wikipedia.org/wiki/Pratt_family_(business)"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Pratt 가족 자본." },
+  "careerTimeline": [
+    { "year": 1990, "age": 25, "event": "Joined family Visy Industries.", "eventKo": "가족 Visy Industries 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2002, "age": 38, "event": "Founded Pact Group via family holdings.", "eventKo": "가족 지주 통한 Pact Group 창립.", "whyItMatteredKo": "Pact 출발선." },
+    { "year": 2009, "age": 44, "event": "Father Richard Pratt died; family inheritance.", "eventKo": "아버지 리처드 프랫 사망; 가족 상속.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2013, "age": 49, "event": "Pact Group IPO on Australian Stock Exchange.", "eventKo": "Pact Group 호주 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2025, "age": 60, "event": "Personal net worth at $2.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 24억 달러.", "whyItMatteredKo": "Pratt 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 2002, "age": 38, "decisionKo": "Visy 외 Pact Group 창립", "alternativeKo": "Visy 잔류", "outcomeKo": "23년 후 24억 달러 + Pact + Visy 가족 자본" }],
+  "moneyMechanics": { "primaryRevenueKo": "Pact Group(PGH.AX) + Visy 가족 지분", "industryKo": "포장·제조", "businessModelKo": "Pact 호주 포장 + Visy 가족 지분 + 다각화", "moatKo": "Pratt 가족 + 호주 포장 1위급", "luckVsSkillKo": "운(75%): 가족 자본. 실력(25%): Pact 창립." },
+  "personalTraits": {
+    "knownFor": "Pratt family heir; founder of Pact Group; Visy Industries family stockholder.",
+    "knownForKo": "프랫 가족 상속녀; Pact Group 창립자; Visy Industries 가족 주주.",
+    "philanthropy": "Pratt Foundation supports Australian Jewish and education causes.", "philanthropyKo": "프랫 재단이 호주 유대인·교육 자선 지원.",
+    "controversies": "2009 Visy cardboard cartel scandal; father pleaded guilty before death.", "controversiesKo": "2009 Visy 카드보드 카르텔 스캔들; 아버지 사망 전 유죄 인정."
+  },
+  "characterKo": { "summaryKo": "Pratt 가족 + Pact Group + Visy.", "tagsKo": ["Pratt family", "Pact Group", "Visy Industries"] },
+  "failures": [
+    { "year": 2018, "description": "Pact Group struggled with debt and operational issues; stock fell.", "descriptionKo": "Pact Group이 부채·운영 문제로 어려움; 주식 하락.", "lesson": "Acquisition-heavy packaging faces operational risk.", "lessonKo": "인수 중심 포장은 운영 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Pact Group operations briefly.", "descriptionKo": "COVID-19이 Pact Group 운영 잠시 혼란.", "lesson": "Packaging faces pandemic-supply-chain risk.", "lessonKo": "포장은 팬데믹 공급망 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.2 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Packaging is patient capital, wrapping every Australian product.", "textKo": "포장은 모든 호주 제품을 감싸는 인내 자본이다.", "context": "On Pratt family", "contextKo": "프랫 가족에 대해", "source": "https://en.wikipedia.org/wiki/Pratt_family_(business)" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summaryKo": "갑신 일주 + 해월 편인격(비전통적 학문·문서 권위)은 가족 포장 자본 + 독자 Pact Group 창립이라는 비전형 자본 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 신금 일지의 금 기운이 정밀 자본 도구를, 해수 월지의 수 기운이 자본 유동성을 가리킵니다.", "summary": "Gap-Sin day pillar in Hae month — 'pyeonin-gyeok', non-traditional knowledge, fitting family-and-independent packaging heir." }
+}

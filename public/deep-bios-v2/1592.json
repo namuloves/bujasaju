@@ -1,0 +1,39 @@
+{
+  "id": "1592", "name": "Dmitry Mazepin", "nameKo": "드미트리 아르카디예비치 마제핀",
+  "netWorth": 2.5, "nationality": "RU", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Minsk, Soviet Union", "birthPlaceKo": "소련 민스크",
+    "familyBackground": "Born to Soviet family.", "familyBackgroundKo": "소련 가정에서 출생.",
+    "education": "Moscow State Institute of International Relations.", "educationKo": "모스크바 국제관계대학교.",
+    "earlyLife": "Soviet diplomat; founded Uralchem fertilizer company in 2007; built into major Russian potash/nitrogen fertilizer producer; son Nikita F1 driver.",
+    "earlyLifeKo": "소련 외교관; 2007 Uralchem 비료 회사 창립; 주요 러시아 칼륨·질소 비료 생산사로 구축; 아들 니키타 F1 드라이버.",
+    "source": "https://en.wikipedia.org/wiki/Dmitry_Mazepin"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Uralchem 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1992, "age": 24, "event": "Began Russian business after Soviet diplomacy.", "eventKo": "소련 외교 후 러시아 사업 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2007, "age": 39, "event": "Founded Uralchem fertilizer company.", "eventKo": "Uralchem 비료 회사 창립.", "whyItMatteredKo": "Uralchem 출발선." },
+    { "year": 2013, "age": 45, "event": "Acquired Uralkali potash major stake.", "eventKo": "Uralkali 칼륨 주요 지분 인수.", "whyItMatteredKo": "Uralkali 단계." },
+    { "year": 2022, "age": 54, "event": "EU/UK sanctions on Mazepin; son Nikita lost F1 seat at Haas.", "eventKo": "EU·영국 마제핀 제재; 아들 니키타가 Haas에서 F1 시트 상실.", "whyItMatteredKo": "제재 단계." },
+    { "year": 2025, "age": 57, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "Mazepin 정점." }
+  ],
+  "turningPoints": [{ "year": 2007, "age": 39, "decisionKo": "Uralchem 비료 회사 창립", "alternativeKo": "외교 잔류", "outcomeKo": "18년 후 25억 달러 + 러시아 비료 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Uralchem + Uralkali 가족 지분 + 다각화", "industryKo": "비료·화학", "businessModelKo": "칼륨·질소·인 비료 + 글로벌 수출", "moatKo": "러시아 비료 주요 + 18년 트랙", "luckVsSkillKo": "운(50%): 러시아 비료 부상. 실력(50%): 18년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Uralchem; Uralkali major shareholder; father of F1 driver Nikita Mazepin.",
+    "knownForKo": "Uralchem 창립자; Uralkali 주요 주주; F1 드라이버 니키타 마제핀의 아버지.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2022 EU/UK sanctions for Ukraine-war connection; Nikita lost F1 seat amid public criticism.",
+    "controversiesKo": "2022 우크라이나 전쟁 연결 EU·영국 제재; 니키타가 공공 비판 가운데 F1 시트 상실."
+  },
+  "characterKo": { "summaryKo": "Uralchem + Uralkali + 2022 제재.", "tagsKo": ["Uralchem", "Uralkali", "F1 sanctions"] },
+  "failures": [
+    { "year": 2022, "description": "EU/UK sanctions on Mazepin; son's F1 career ended at Haas.", "descriptionKo": "EU·영국 마제핀 제재; 아들의 Haas F1 경력 종료.", "lesson": "Russian wealth + Western public-figure children face complex sanctions exposure.", "lessonKo": "러시아 부 + 서방 공인 자녀는 복잡한 제재 노출 직면." },
+    { "year": 2014, "description": "Ruble crash + Crimea sanctions compressed Russian fertilizer briefly.", "descriptionKo": "루블 폭락 + 크림 제재로 러시아 비료 잠시 압축.", "lesson": "Russian fertilizer faces sanctions exposure.", "lessonKo": "러시아 비료는 제재 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Fertilizer feeds the world; the world ought to think before sanctioning.", "textKo": "비료가 세상을 먹인다; 세상은 제재 전에 생각해야 한다.", "context": "On Russian fertilizer", "contextKo": "러시아 비료에 대해", "source": "https://en.wikipedia.org/wiki/Dmitry_Mazepin" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-O day pillar in Jin month — 'pyeonin-gyeok', non-traditional knowledge, fitting diplomat-turned-fertilizer-magnate.", "summaryKo": "무오 일주 + 진월 편인격(비전통적 학문·문서 권위)은 외교관에서 비료 거인이라는 비전통적 자본 경로와 호응합니다. 무토 일간 + 진토 월지의 강한 토 기운이 자본·자원 안정 기반을 이중 강조하고, 오화 일지의 강한 화 기운이 결단을 가리킵니다." }
+}

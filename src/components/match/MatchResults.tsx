@@ -6,7 +6,7 @@ import { useLanguage } from '@/lib/i18n';
 import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
 import type { EnrichedPerson, SajuResult, CheonGan } from '@/lib/saju/types';
-import { hasDeepBioSync } from '@/lib/deepBio';
+import { hasDeepBioSync, hasDeepBioV2Sync, loadDeepBioIndex } from '@/lib/deepBio';
 import { HeroPillar } from './SajuHero';
 import ShareButtons from './ShareButtons';
 import MatchSummary from './MatchSummary';
@@ -124,17 +124,54 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     );
   }
 
-  // Top 3 — Korean billionaire (if any with matching ilju) pinned to slot 1,
-  // remaining 2 slots from the natural match order. If the strict-tier list
-  // has no Korean, fall back to the broader "same ilju" pool so we still
-  // surface a 같은 일주 한국 부자 whenever one exists in the dataset.
+  // Force a re-render once the deep-bio index has loaded. `hasDeepBioV2Sync`
+  // reads from a module-level Set that starts empty (seed list only) and is
+  // hydrated by an async fetch — without this trigger, useMemo below caches
+  // an empty result and never recomputes when the index resolves.
+  const [bioIndexReady, setBioIndexReady] = useState(false);
+  useEffect(() => {
+    let cancelled = false;
+    loadDeepBioIndex().then(() => {
+      if (!cancelled) setBioIndexReady(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  // Top 3 — always fills 3 slots (when possible) using only people who
+  // have a v2 deep bio so every row has a real "how they made their
+  // money" story.
+  //
+  // Slot policy:
+  //   1) Korean from same 일주 (if available) wins slot 1.
+  //   2) Remaining slots fill from strictest-first match pool, then
+  //      same-일주 fallback. We dedupe by id so a 한국인 already in slot
+  //      1 doesn't get a second row.
   const top3 = useMemo(() => {
-    const baseHasKorean = summaryMatches.some((p) => p.nationality === 'KR');
-    if (baseHasKorean) return pickTop3WithKorean(summaryMatches);
-    const koreanFromIljuOnly = groups.iljuOnly.find((p) => p.nationality === 'KR');
-    if (!koreanFromIljuOnly) return summaryMatches.slice(0, 3);
-    return [koreanFromIljuOnly, ...summaryMatches.filter((p) => p.id !== koreanFromIljuOnly.id)].slice(0, 3);
-  }, [summaryMatches, groups.iljuOnly]);
+    const hasBio = (p: EnrichedPerson) => hasDeepBioV2Sync(p.id);
+    const summaryWithBio = summaryMatches.filter(hasBio);
+    const iljuOnlyWithBio = groups.iljuOnly.filter(hasBio);
+
+    // Combined candidate pool, strictest matches first then same-ilju
+    // fallback, deduped.
+    const seen = new Set<string>();
+    const ordered: EnrichedPerson[] = [];
+    for (const p of [...summaryWithBio, ...iljuOnlyWithBio]) {
+      if (seen.has(p.id)) continue;
+      seen.add(p.id);
+      ordered.push(p);
+    }
+
+    // Promote a Korean to slot 1 when one exists in the combined pool.
+    const koreanIdx = ordered.findIndex((p) => p.nationality === 'KR');
+    if (koreanIdx > 0) {
+      const [korean] = ordered.splice(koreanIdx, 1);
+      ordered.unshift(korean);
+    }
+
+    return ordered.slice(0, 3);
+  }, [summaryMatches, groups.iljuOnly, bioIndexReady]);
   // Default featured = Top3 slot 1 (Korean if available), so the big card
   // matches what the user sees highlighted on the row above.
   const defaultFeaturedId = top3[0]?.id ?? null;
@@ -273,13 +310,40 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
           </div>
         </div>
 
-        {/* 2. 비슷한 사주 부자 Top — 클릭하면 아래 풀이가 그 부자로 전환.
-            We show top 5 on desktop and top 3 on mobile (FacesRow hides
-            ranks 4-5 on small screens), so the headline count needs to
-            switch breakpoints too — using two spans rather than a single
-            template string. */}
+        {/* 2. 사주 풀이 — comes right after the saju chart so the user
+            sees the interpretation of *their own* saju before scrolling
+            into matches. OG image is hidden in this redesign so we drop
+            the two-column grid and let the body flow full width. */}
+        <div className="space-y-5">
+          <MatchSummary saju={me} matches={summaryMatches} />
+          {featuredPerson && (
+            <div className="border-t border-gray-100 pt-5">
+              <DeepInterpretation
+                saju={me}
+                featured={featuredPerson}
+                userBirthday={userBirthday}
+                userGender={userGender}
+              />
+            </div>
+          )}
+
+          {/* Match stats — single subtle line under the deep interpretation */}
+          {(totalMatches > 0 || usingIljuFallback) && (
+            <p className="text-xs text-gray-400 text-center">
+              {totalMatches > 0
+                ? `${totalMatches + sameIljuCount}명이 비슷한 사주`
+                : `같은 ${me.ilju} 일주 부자 ${sameIljuCount}명`}
+              {comboStats && comboStats.myCount > 0 && (
+                <> · {me.ilju}·{me.wolji} 조합 {comboStats.rank}위/{comboStats.totalCombos}</>
+              )}
+            </p>
+          )}
+        </div>
+
+        {/* 3. 나랑 같은 일주를 가진 부자 — moved below the 풀이 so the page
+            reads as: my saju → interpretation → people who share it. */}
         {top3.length > 1 && (
-          <div className="mb-4">
+          <div className="mt-8">
             <h3 className="text-sm font-bold text-gray-900 mb-3">
               나랑 같은 {me.ilju} 일주를 가진 부자
             </h3>
@@ -290,82 +354,9 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
           </div>
         )}
 
-        <div className="grid md:grid-cols-[minmax(0,360px)_minmax(0,1fr)] gap-10">
-          {/* Left: share image + saju charts */}
-          {featuredPerson && (
-            <div className="flex flex-col items-center md:items-start gap-4">
-              {/* OG image — temporarily hidden in this redesign. Set SHOW_OG_IMAGE = true to restore. */}
-              {SHOW_OG_IMAGE && (
-                <>
-                  <div className="w-[20.16rem] sm:w-[23.04rem] md:w-full rounded-lg overflow-hidden shadow-sm">
-                    <img
-                      src={buildOgUrl(me, featuredPerson)}
-                      alt="사주 매칭 결과"
-                      className="w-full"
-                      loading="eager"
-                    />
-                  </div>
-
-                  {/* Save image button */}
-                  <button
-                    type="button"
-                    onClick={handleSaveImage}
-                    className="w-full text-sm font-medium text-gray-500 hover:text-indigo-600 border border-gray-200 hover:border-indigo-300 rounded-lg py-2 transition-colors flex items-center justify-center gap-1.5"
-                  >
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                      <polyline points="7,10 12,15 17,10" />
-                      <line x1="12" y1="15" x2="12" y2="3" />
-                    </svg>
-                    {saving ? '저장 중…' : '이미지 저장하기'}
-                  </button>
-                </>
-              )}
-
-            </div>
-          )}
-          {/* Right: 풀이 */}
-          <div className="space-y-5">
-            <MatchSummary saju={me} matches={summaryMatches} />
-            {featuredPerson && (
-              <div className="border-t border-gray-100 pt-5">
-                <DeepInterpretation
-                  saju={me}
-                  featured={featuredPerson}
-                  userBirthday={userBirthday}
-                  userGender={userGender}
-                />
-              </div>
-            )}
-
-            {/* 자세히 보기 button — between 심층풀이 and match stats */}
-            {featuredHasBio ? (
-              <button
-                type="button"
-                onClick={() => setShowFeaturedBio(true)}
-                className="w-full text-sm font-medium text-white bg-gray-900 hover:bg-gray-800 rounded-lg py-2.5 transition-colors"
-              >
-                {fpName} 부자 자세히 보기 →
-              </button>
-            ) : (
-              <div className="w-full text-center text-xs text-gray-400 py-1.5">
-                상세 프로필 준비중
-              </div>
-            )}
-
-            {/* Match stats — single subtle line under the deep interpretation */}
-            {(totalMatches > 0 || usingIljuFallback) && (
-              <p className="text-xs text-gray-400 text-center md:text-left">
-                {totalMatches > 0
-                  ? `${totalMatches + sameIljuCount}명이 비슷한 사주`
-                  : `같은 ${me.ilju} 일주 부자 ${sameIljuCount}명`}
-                {comboStats && comboStats.myCount > 0 && (
-                  <> · {me.ilju}·{me.wolji} 조합 {comboStats.rank}위/{comboStats.totalCombos}</>
-                )}
-              </p>
-            )}
-          </div>
-        </div>
+        {/* Single featured CTA was removed — each Top3 row now carries
+            its own "{이름} 부자 일주 보기 →" secondary button so the
+            user has a per-person tap target instead of one global one. */}
       </div>
 
       {/* Email gate — "N명 더 있어요 / 이메일로 결과를 받아보세요" 카피는

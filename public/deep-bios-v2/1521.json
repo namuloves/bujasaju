@@ -1,0 +1,38 @@
+{
+  "id": "1521", "name": "Anu Aga", "nameKo": "아누 아가",
+  "netWorth": 2.7, "nationality": "IN", "industry": "Construction & Engineering",
+  "childhood": {
+    "birthPlace": "Mumbai, India", "birthPlaceKo": "인도 뭄바이",
+    "familyBackground": "Born to Indian Parsi family.", "familyBackgroundKo": "인도 파르시 가정에서 출생.",
+    "education": "Mumbai University; Tata Institute of Social Sciences.", "educationKo": "뭄바이 대학교; 타타 사회과학 연구소.",
+    "earlyLife": "Married Rohinton Aga of Thermax; took over Thermax 1996 after husband's death; built into India's largest energy/environment engineering firm; later non-executive director; daughter Meher Pudumjee took over.",
+    "earlyLifeKo": "Thermax의 로힌톤 아가와 결혼; 1996 남편 사망 후 Thermax 인수; 인도 최대 에너지·환경 엔지니어링 회사로 구축; 이후 비상임 이사; 딸 메허 푸둠지가 인계.",
+    "source": "https://en.wikipedia.org/wiki/Anu_Aga"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Thermax 가족 자본." },
+  "careerTimeline": [
+    { "year": 1965, "age": 22, "event": "Began Thermax family business early roles.", "eventKo": "Thermax 가족 사업 초기 역할 시작.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1996, "age": 53, "event": "Husband Rohinton Aga died; took over Thermax as chairperson.", "eventKo": "남편 로힌톤 아가 사망; Thermax 의장으로 인수.", "whyItMatteredKo": "지배 단계." },
+    { "year": 2002, "age": 59, "event": "Restructured Thermax to focus on energy and environment engineering.", "eventKo": "Thermax를 에너지·환경 엔지니어링 중심 재편.", "whyItMatteredKo": "재편 단계." },
+    { "year": 2012, "age": 69, "event": "Nominated to Rajya Sabha (Indian Parliament); social-causes advocate.", "eventKo": "라자 사바(인도 의회) 지명; 사회 자선 옹호자.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2025, "age": 82, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "Thermax 정점." }
+  ],
+  "turningPoints": [{ "year": 1996, "age": 53, "decisionKo": "남편 사망 후 Thermax 의장 인수", "alternativeKo": "전문 경영인 위임", "outcomeKo": "29년 후 27억 달러 + 인도 에너지 엔지니어링 1위급" }],
+  "moneyMechanics": { "primaryRevenueKo": "Thermax(THERMAX.NS) 가족 지분", "industryKo": "에너지·환경 엔지니어링", "businessModelKo": "보일러·냉방·환경 솔루션·청정 에너지", "moatKo": "인도 에너지 엔지니어링 1위 + 가족 의결권", "luckVsSkillKo": "운(40%): 인도 에너지 부상. 실력(60%): 위기 후 재편 + 사회 가치 통합." },
+  "personalTraits": {
+    "knownFor": "Former chairperson of Thermax; Indian Parsi entrepreneur and social-cause advocate; former Rajya Sabha member.",
+    "knownForKo": "전 Thermax 의장; 인도 파르시 기업가·사회 자선 옹호자; 전 라자 사바 의원.",
+    "philanthropy": "Teach For India founding patron; Aga Family Trust supports education and social causes.", "philanthropyKo": "Teach For India 창립 후원자; 아가 가족 신탁이 교육·사회 자선 지원.",
+    "controversies": "Limited; respected industry-and-philanthropy figure.", "controversiesKo": "제한적; 산업·자선 존경 인물."
+  },
+  "characterKo": { "summaryKo": "남편 사망 후 Thermax 인수 + Teach For India 후원자.", "tagsKo": ["Thermax", "Teach For India", "Parsi"] },
+  "failures": [
+    { "year": 1996, "description": "Sudden CEO transition after husband's death required emergency leadership.", "descriptionKo": "남편 사망 후 갑작스러운 CEO 전환이 긴급 리더십 필요.", "lesson": "Family-business succession can occur via sudden bereavement.", "lessonKo": "가족 사업 승계는 갑작스러운 사별로 발생할 수 있다." },
+    { "year": 2001, "description": "Thermax faced post-dot-com industrial slowdown briefly.", "descriptionKo": "Thermax가 닷컴 후 산업 둔화 잠시 직면.", "lesson": "Capital goods face industrial-cycle exposure.", "lessonKo": "자본재는 산업 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Business has a social conscience; profit without purpose is hollow.", "textKo": "사업에는 사회적 양심이 있다; 목적 없는 이익은 공허하다.", "context": "On business ethics", "contextKo": "사업 윤리에 대해", "source": "https://en.wikipedia.org/wiki/Anu_Aga" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Sul day pillar in Mi month — 'sanggwan-gyeok', unconventional output, fitting widow-turned-engineering-CEO and Parliamentarian.", "summaryKo": "병술 일주 + 미월 상관격(파격적 표현·기존 권위 도전)은 미망인이 엔지니어링 CEO 인수 + 의회 의원이라는 파격 사회 표현 결합 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 인도 영향력과 통하고, 술토 일지·미토 월지의 극강 토 기운이 자본 안정 기반을 이중 강조합니다." }
+}

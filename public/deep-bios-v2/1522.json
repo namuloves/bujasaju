@@ -1,0 +1,39 @@
+{
+  "id": "1522", "name": "Richard LeFrak", "nameKo": "리처드 S. 르프락",
+  "netWorth": 2.7, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "New York, USA", "birthPlaceKo": "미국 뉴욕",
+    "familyBackground": "Born to Samuel LeFrak — founder of LeFrak Organization real estate.", "familyBackgroundKo": "LeFrak Organization 부동산 창립자 사무엘 르프락의 아들.",
+    "education": "Amherst College; Columbia Law.", "educationKo": "애머스트 칼리지; 컬럼비아 로스쿨.",
+    "earlyLife": "Joined family LeFrak Organization 1968; became CEO after father's 2003 death; major NYC real-estate developer; major LeFrak City stake.",
+    "earlyLifeKo": "1968 가족 LeFrak Organization 합류; 2003 아버지 사망 후 CEO 취임; 주요 뉴욕 부동산 개발자; 주요 LeFrak City 지분.",
+    "source": "https://en.wikipedia.org/wiki/Richard_LeFrak"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "LeFrak Organization 가족 자본." },
+  "careerTimeline": [
+    { "year": 1968, "age": 23, "event": "Joined family LeFrak Organization.", "eventKo": "가족 LeFrak Organization 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1985, "age": 40, "event": "Took executive role; expanded NYC real-estate developments.", "eventKo": "임원 역할; 뉴욕 부동산 개발 확장.", "whyItMatteredKo": "임원 단계." },
+    { "year": 2003, "age": 58, "event": "Father Samuel LeFrak died; took expanded CEO control.", "eventKo": "아버지 사무엘 르프락 사망; 확대 CEO 통제.", "whyItMatteredKo": "지배 단계." },
+    { "year": 2020, "age": 75, "event": "Trump administration appointed him infrastructure adviser.", "eventKo": "트럼프 행정부가 인프라 자문으로 임명.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2025, "age": 80, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "LeFrak 정점." }
+  ],
+  "turningPoints": [{ "year": 2003, "age": 58, "decisionKo": "아버지 사망 후 LeFrak Organization CEO 인수", "alternativeKo": "전문 경영인 위임", "outcomeKo": "22년 후 27억 달러 + LeFrak 가족 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "LeFrak Organization 사적 가족 지분", "industryKo": "부동산 개발", "businessModelKo": "NYC 주거·상업 부동산 + LeFrak City + Newport Jersey City", "moatKo": "NYC 부동산 1세기+ 가족 + 가족 사적 소유", "luckVsSkillKo": "운(60%): 가족 자본 + NYC 부동산. 실력(40%): 57년 가족 운영." },
+  "personalTraits": {
+    "knownFor": "Chairman of LeFrak Organization; major NYC real-estate dynast; son of Samuel LeFrak.",
+    "knownForKo": "LeFrak Organization 의장; 주요 뉴욕 부동산 가문; 사무엘 르프락의 아들.",
+    "philanthropy": "LeFrak Foundation supports NYC arts and education.", "philanthropyKo": "LeFrak 재단이 뉴욕 예술·교육 자선 지원.",
+    "controversies": "2017 Trump infrastructure-adviser role drew conflict-of-interest scrutiny.",
+    "controversiesKo": "2017 트럼프 인프라 자문 역할이 이해 충돌 감시 야기."
+  },
+  "characterKo": { "summaryKo": "LeFrak 100년+ 뉴욕 부동산 가족 + 트럼프 자문.", "tagsKo": ["LeFrak Organization", "NYC real estate", "LeFrak family"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis halved NYC real-estate prices; LeFrak holdings compressed.", "descriptionKo": "금융위기로 뉴욕 부동산 가격 반토막; LeFrak 보유 압축.", "lesson": "NYC real estate faces deep cycle exposure.", "lessonKo": "뉴욕 부동산은 깊은 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted NYC commercial real-estate; office demand fell.", "descriptionKo": "COVID-19이 뉴욕 상업 부동산 혼란; 오피스 수요 하락.", "lesson": "Office real estate faces structural remote-work risk.", "lessonKo": "오피스 부동산은 구조적 원격 근무 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.3 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "New York real estate is the longest-running game in America.", "textKo": "뉴욕 부동산은 미국에서 가장 오래 진행 중인 게임이다.", "context": "On NYC real estate", "contextKo": "뉴욕 부동산에 대해", "source": "https://www.lefrak.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-O day pillar in Sin month — 'pyeonjae-gyeok', large external capital, fitting NYC real-estate dynasty.", "summaryKo": "경오 일주 + 신월 편재격(크고 유동적인 외부 자본)은 뉴욕 부동산이라는 거대 외부 자본 유동 가족 가부장 경로와 호응합니다. 경금 일간 + 신금 월지의 극강 금 기운이 정밀 자본 관리를 이중 강조하고, 오화 일지의 강한 화 기운이 결단·기세를 가리킵니다." }
+}

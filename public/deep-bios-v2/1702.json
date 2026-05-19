@@ -1,0 +1,38 @@
+{
+  "id": "1702", "name": "Sam Hupert", "nameKo": "샘 휴퍼트",
+  "netWorth": 2.4, "nationality": "AU", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Australia", "birthPlaceKo": "호주",
+    "familyBackground": "Born to Australian family.", "familyBackgroundKo": "호주 가정에서 출생.",
+    "education": "University of Melbourne (medicine).", "educationKo": "멜버른 대학교(의학).",
+    "earlyLife": "Practicing radiologist; co-founded Pro Medicus in 1983 — medical-imaging software; built into ASX-listed global radiology software leader.",
+    "earlyLifeKo": "임상 방사선과 의사; 1983 Pro Medicus 공동 창립 — 의료 영상 소프트웨어; ASX 상장 글로벌 방사선 소프트웨어 리더로 구축.",
+    "source": "https://en.wikipedia.org/wiki/Pro_Medicus"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Pro Medicus 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1980, "age": 26, "event": "Began radiology career in Melbourne.", "eventKo": "멜버른 방사선과 경력 시작.", "whyItMatteredKo": "방사선 출발선." },
+    { "year": 1983, "age": 29, "event": "Co-founded Pro Medicus.", "eventKo": "Pro Medicus 공동 창립.", "whyItMatteredKo": "Pro Medicus 출발선." },
+    { "year": 2000, "age": 46, "event": "Pro Medicus IPO on Australian Stock Exchange.", "eventKo": "Pro Medicus 호주 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2015, "age": 61, "event": "Pro Medicus won major US hospital contracts; Visage software global adoption.", "eventKo": "Pro Medicus 주요 미국 병원 계약 수주; Visage 소프트웨어 글로벌 도입.", "whyItMatteredKo": "Visage 단계." },
+    { "year": 2025, "age": 71, "event": "Personal net worth at $2.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 24억 달러.", "whyItMatteredKo": "Pro Medicus 정점." }
+  ],
+  "turningPoints": [{ "year": 1983, "age": 29, "decisionKo": "방사선과 + 의료 영상 소프트웨어 결합 창립", "alternativeKo": "방사선과 잔류", "outcomeKo": "42년 후 24억 달러 + 글로벌 의료 영상 SW 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Pro Medicus(PME.AX) 공동 창립자 지분", "industryKo": "의료 영상 SW", "businessModelKo": "Visage 영상 SW + 병원 라이선스 + 클라우드", "moatKo": "Visage 글로벌 의료 영상 1위급 + 42년 트랙", "luckVsSkillKo": "운(35%): 의료 영상 디지털화. 실력(65%): 방사선과 + 42년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder and CEO of Pro Medicus; Australian medical-imaging software pioneer.",
+    "knownForKo": "Pro Medicus 공동 창립자·CEO; 호주 의료 영상 소프트웨어 선구자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; medical SaaS regulatory standard scrutiny.", "controversiesKo": "제한적; 의료 SaaS 규제 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Pro Medicus 42년 + 글로벌 의료 영상 SW.", "tagsKo": ["Pro Medicus", "Visage", "의료 영상"] },
+  "failures": [
+    { "year": 2001, "description": "Dot-com crash compressed Pro Medicus early-stage growth.", "descriptionKo": "닷컴 폭락이 Pro Medicus 초기 성장 압축.", "lesson": "Medical SaaS faces tech-cycle exposure.", "lessonKo": "의료 SaaS는 기술 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted elective imaging briefly.", "descriptionKo": "COVID-19이 선택 영상 잠시 혼란.", "lesson": "Elective medical SaaS faces pandemic exposure.", "lessonKo": "선택 의료 SaaS는 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.0 }, { "year": 2024, "netWorth": 2.2 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Software makes radiology faster and safer.", "textKo": "소프트웨어가 방사선과를 더 빠르고 안전하게 만든다.", "context": "On Pro Medicus mission", "contextKo": "Pro Medicus 미션에 대해", "source": "https://www.promedicus.com.au" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in Ja month — 'sanggwan-gyeok', unconventional output, fitting radiologist-turned-software founder.", "summaryKo": "을묘 일주 + 자월 상관격(파격적 표현·기존 권위 도전)은 방사선과 의사에서 소프트웨어 창립자로 파격 전환한 그의 경로와 호응합니다. 을목 일간 + 묘목 일지의 강한 목 기운이 회사·기술 성장을 이중 강조하고, 자수 월지의 수 기운이 자본·데이터 유동성을 가리킵니다." }
+}

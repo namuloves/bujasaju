@@ -1,0 +1,39 @@
+{
+  "id": "1875", "name": "Roberto Hernandez Ramirez", "nameKo": "로베르토 에르난데스 라미레스",
+  "netWorth": 2.2, "nationality": "MX", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Mexico", "birthPlaceKo": "멕시코",
+    "familyBackground": "Born to Mexican family.", "familyBackgroundKo": "멕시코 가정에서 출생.",
+    "education": "ITAM Mexico.", "educationKo": "멕시코 ITAM.",
+    "earlyLife": "Co-founded Acciones y Valores (Accival); led acquisition of Banamex in 1991 privatization; sold Banamex to Citigroup 2001 for $12.5B; major Mexican philanthropist.",
+    "earlyLifeKo": "Acciones y Valores(Accival) 공동 창립; 1991 Banamex 사유화 인수 주도; 2001 Banamex를 Citigroup에 125억 달러 매각; 주요 멕시코 자선가.",
+    "source": "https://en.wikipedia.org/wiki/Roberto_Hern%C3%A1ndez_Ram%C3%ADrez"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Banamex Citigroup 매각." },
+  "careerTimeline": [
+    { "year": 1972, "age": 30, "event": "Co-founded Acciones y Valores (Accival).", "eventKo": "Acciones y Valores(Accival) 공동 창립.", "whyItMatteredKo": "Accival 출발선." },
+    { "year": 1991, "age": 49, "event": "Led group acquiring Banamex in privatization.", "eventKo": "사유화에서 Banamex 인수 그룹 주도.", "whyItMatteredKo": "Banamex 인수." },
+    { "year": 2001, "age": 59, "event": "Sold Banamex to Citigroup for $12.5B.", "eventKo": "Banamex를 Citigroup에 125억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2015, "age": 73, "event": "Major Mexican environmental and cultural philanthropy.", "eventKo": "주요 멕시코 환경·문화 자선.", "whyItMatteredKo": "자선 단계." },
+    { "year": 2025, "age": 83, "event": "Personal net worth at $2.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 22억 달러.", "whyItMatteredKo": "Hernandez 정점." }
+  ],
+  "turningPoints": [{ "year": 1991, "age": 49, "decisionKo": "Banamex 사유화 인수 주도", "alternativeKo": "Accival 잔류", "outcomeKo": "34년 후 22억 달러 + 멕시코 은행 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Banamex 매각 대금 + 다각화 + Citi 주식", "industryKo": "은행 매각 + 다각화", "businessModelKo": "Banamex 매각 자본 + 부동산 + 환경 자선", "moatKo": "Banamex 매각 자본 + 멕시코 정치 인맥", "luckVsSkillKo": "운(50%): 1991 사유화 시기. 실력(50%): 매각 타이밍." },
+  "personalTraits": {
+    "knownFor": "Former Banamex chairman; sold to Citigroup; Mexican philanthropist.",
+    "knownForKo": "전 Banamex 의장; Citigroup 매각; 멕시코 자선가.",
+    "philanthropy": "Major environmental and cultural philanthropy in Mexico; Mayan World Foundation.", "philanthropyKo": "멕시코 주요 환경·문화 자선; 마야 세계 재단.",
+    "controversies": "1991 Banamex privatization scrutiny; Mexican banking-elite criticism.",
+    "controversiesKo": "1991 Banamex 사유화 감시; 멕시코 은행 엘리트 비판."
+  },
+  "characterKo": { "summaryKo": "Banamex 인수·Citi 매각 + 자선가.", "tagsKo": ["Banamex", "Citigroup", "Mexican philanthropy"] },
+  "failures": [
+    { "year": 1994, "description": "Mexican peso crisis compressed Banamex briefly; bailout-required.", "descriptionKo": "멕시코 페소 위기로 Banamex 잠시 압축; 구제 필요.", "lesson": "Emerging-market banks face currency-crisis exposure.", "lessonKo": "신흥 시장 은행은 통화 위기 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Mexican economic activity broadly.", "descriptionKo": "COVID-19이 멕시코 경제 활동 광범위 혼란.", "lesson": "Diversified wealth faces broad pandemic exposure.", "lessonKo": "다각화 부도 광범위 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.0 }, { "year": 2025, "netWorth": 2.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Mexico's heritage is its wealth.", "textKo": "멕시코의 유산은 그 부다.", "context": "On Mexican philanthropy", "contextKo": "멕시코 자선에 대해", "source": "https://en.wikipedia.org/wiki/Roberto_Hern%C3%A1ndez_Ram%C3%ADrez" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Ja day pillar in Myo month — 'jeonggwan-gyeok', formal regulated authority, fitting privatization-era bank acquirer.", "summaryKo": "병자 일주 + 묘월 정관격(공식 권위·규제 아래에서 일하는 구조)은 멕시코 은행 사유화·정부 규제라는 정통 권위 환경의 Banamex 인수·매각 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 자수 일지의 수 기운이 자본 유동성을, 묘목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

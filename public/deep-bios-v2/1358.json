@@ -1,0 +1,39 @@
+{
+  "id": "1358", "name": "Joe Lonsdale", "nameKo": "조지프 론스데일",
+  "netWorth": 3.0, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Stanford University.", "educationKo": "스탠퍼드 대학교.",
+    "earlyLife": "Co-founded Palantir Technologies in 2003 with Peter Thiel; co-founded Addepar in 2009; co-founded 8VC venture capital firm 2015; founded University of Austin.",
+    "earlyLifeKo": "2003 피터 틸과 Palantir Technologies 공동 창립; 2009 Addepar 공동 창립; 2015 8VC 벤처 캐피털 회사 공동 창립; University of Austin 창립.",
+    "source": "https://en.wikipedia.org/wiki/Joe_Lonsdale"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Palantir + Addepar + 8VC." },
+  "careerTimeline": [
+    { "year": 2003, "age": 21, "event": "Co-founded Palantir Technologies as Stanford student.", "eventKo": "스탠퍼드 학생으로 Palantir Technologies 공동 창립.", "whyItMatteredKo": "Palantir 출발선." },
+    { "year": 2009, "age": 27, "event": "Co-founded Addepar wealth-management technology.", "eventKo": "Addepar 자산 관리 기술 공동 창립.", "whyItMatteredKo": "Addepar 출발선." },
+    { "year": 2015, "age": 33, "event": "Co-founded 8VC venture-capital firm.", "eventKo": "8VC 벤처 캐피털 회사 공동 창립.", "whyItMatteredKo": "8VC 출발선." },
+    { "year": 2021, "age": 39, "event": "Founded University of Austin alternative-higher-education institution.", "eventKo": "University of Austin 대안 고등 교육 기관 창립.", "whyItMatteredKo": "UAustin 단계." },
+    { "year": 2025, "age": 43, "event": "Personal net worth at $3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 30억 달러.", "whyItMatteredKo": "Palantir + 8VC 정점." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 33, "decisionKo": "Palantir 외 8VC 창립으로 VC 진출", "alternativeKo": "Palantir 잔류", "outcomeKo": "10년 후 30억 달러 + 다중 창업·VC" }],
+  "moneyMechanics": { "primaryRevenueKo": "Palantir(PLTR) 공동 창립자 + Addepar + 8VC 펀드", "industryKo": "기술·VC·교육", "businessModelKo": "Palantir 주식 + Addepar SaaS + 8VC VC + UAustin", "moatKo": "Palantir + Addepar + 8VC 다중 트랙", "luckVsSkillKo": "운(40%): 스탠퍼드 + 틸 인맥. 실력(60%): 다중 창업 실행." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Palantir, Addepar, 8VC; founder of University of Austin.",
+    "knownForKo": "Palantir·Addepar·8VC 공동 창립자; University of Austin 창립자.",
+    "philanthropy": "University of Austin alternative education; politically-conservative philanthropy.", "philanthropyKo": "University of Austin 대안 교육; 정치적으로 보수 자선.",
+    "controversies": "2015 Elise Clougherty lawsuit on personal-conduct (settled); outspoken conservative tech advocate.",
+    "controversiesKo": "2015 엘리스 클라우거티의 개인 행동 소송(해결); 노골적 보수 기술 옹호자."
+  },
+  "characterKo": { "summaryKo": "Palantir 공동 창립 + 8VC + UAustin.", "tagsKo": ["Palantir", "8VC", "University of Austin"] },
+  "failures": [
+    { "year": 2015, "description": "Elise Clougherty personal-conduct lawsuit drew sustained criticism; settled.", "descriptionKo": "엘리스 클라우거티 개인 행동 소송이 지속적 비판 야기; 해결.", "lesson": "Founder personal-conduct creates company reputational risk.", "lessonKo": "창립자 개인 행동은 회사 평판 리스크 창출." },
+    { "year": 2022, "description": "Tech-stock decline compressed 8VC portfolio.", "descriptionKo": "기술주 하락이 8VC 포트폴리오 압축.", "lesson": "VC faces tech-cycle exposure.", "lessonKo": "VC는 기술 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.5 }, { "year": 2023, "netWorth": 2.5 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Build, don't talk; ship, don't theorize.", "textKo": "이론화하지 말고 짓고 배송하라.", "context": "On 8VC strategy", "contextKo": "8VC 전략에 대해", "source": "https://www.8vc.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Sul day pillar in Yu month — 'sanggwan-gyeok', unconventional output, fitting multi-founder VC and contrarian higher-ed.", "summaryKo": "무술 일주 + 유월 상관격(파격적 표현·기존 권위 도전)은 다중 창업 + 대안 대학이라는 파격적 자본·교육 표현 경로와 호응합니다. 무토 일간 + 술토 일지의 강한 토 기운이 자본 안정 기반을 이중 강조하고, 유금 월지의 금 기운이 정밀 자본 도구를 가리킵니다." }
+}

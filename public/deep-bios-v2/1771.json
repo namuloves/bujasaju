@@ -1,0 +1,38 @@
+{
+  "id": "1771", "name": "Brett Blundy", "nameKo": "브렛 블런디",
+  "netWorth": 2.3, "nationality": "AU", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Australia", "birthPlaceKo": "호주",
+    "familyBackground": "Born to Australian family.", "familyBackgroundKo": "호주 가정에서 출생.",
+    "education": "Limited formal higher education.", "educationKo": "제한적 정식 고등 교육.",
+    "earlyLife": "Founded Sanity Music Australia 1980; built BB Retail Capital owning Bras N Things, Lovisa, Honey Birdette; Lovisa expanded globally.",
+    "earlyLifeKo": "1980 Sanity Music Australia 창립; BB Retail Capital 구축 — Bras N Things·Lovisa·Honey Birdette 소유; Lovisa 글로벌 확장.",
+    "source": "https://en.wikipedia.org/wiki/Brett_Blundy"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "BB Retail Capital 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1978, "age": 18, "event": "Began Australian retail career.", "eventKo": "호주 소매 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1980, "age": 20, "event": "Founded Sanity Music chain.", "eventKo": "Sanity Music 체인 창립.", "whyItMatteredKo": "Sanity 출발선." },
+    { "year": 1998, "age": 38, "event": "Sold Sanity Music; founded BB Retail Capital.", "eventKo": "Sanity Music 매각; BB Retail Capital 창립.", "whyItMatteredKo": "BB Retail 출발선." },
+    { "year": 2010, "age": 50, "event": "Lovisa fashion-jewelry launched; expanded globally.", "eventKo": "Lovisa 패션 보석 출시; 글로벌 확장.", "whyItMatteredKo": "Lovisa 단계." },
+    { "year": 2025, "age": 65, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "BB Retail 정점." }
+  ],
+  "turningPoints": [{ "year": 2010, "age": 50, "decisionKo": "Lovisa 패션 보석 글로벌 확장", "alternativeKo": "호주 단일 시장", "outcomeKo": "15년 후 23억 달러 + 글로벌 소매 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "BB Retail Capital + Lovisa(LOV.AX) 사적·공개 지분", "industryKo": "소매·패션 보석", "businessModelKo": "Bras N Things·Lovisa·Honey Birdette + 글로벌 확장", "moatKo": "Lovisa 글로벌 패션 보석 + 47년 소매 트랙", "luckVsSkillKo": "운(30%): 글로벌 패션 보석 부상. 실력(70%): 47년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of BB Retail Capital; Australian retail magnate; Lovisa global expansion.",
+    "knownForKo": "BB Retail Capital 창립자; 호주 소매 거물; Lovisa 글로벌 확장.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; private retail low scrutiny.", "controversiesKo": "제한적; 사적 소매 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "BB Retail Capital + Lovisa 글로벌 + 호주 소매.", "tagsKo": ["BB Retail Capital", "Lovisa", "Bras N Things"] },
+  "failures": [
+    { "year": 1998, "description": "Online music streaming pressured Sanity Music; pivoted to fashion retail.", "descriptionKo": "온라인 음악 스트리밍이 Sanity Music 압박; 패션 소매 전환.", "lesson": "Music retail faced structural streaming disruption.", "lessonKo": "음악 소매는 구조적 스트리밍 파괴 직면." },
+    { "year": 2020, "description": "COVID-19 closed Australian retail briefly; Lovisa expanded online quickly.", "descriptionKo": "COVID-19이 호주 소매 잠시 폐쇄; Lovisa 빠르게 온라인 확장.", "lesson": "Retail adapted to pandemic via online pivot.", "lessonKo": "소매가 온라인 전환으로 팬데믹 적응." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Retail is patience and a bag of jewelry.", "textKo": "소매는 인내와 보석 한 봉지다.", "context": "On BB Retail strategy", "contextKo": "BB Retail 전략에 대해", "source": "https://en.wikipedia.org/wiki/Brett_Blundy" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Chuk month — 'sanggwan-gyeok', unconventional output, fitting music-to-fashion serial retailer.", "summaryKo": "갑진 일주 + 축월 상관격(파격적 표현·기존 권위 도전)은 음악에서 패션 보석으로 파격 전환한 47년 소매 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 진토 일지·축토 월지의 강한 토 기운이 자본 안정 기반을 이중 강조합니다." }
+}

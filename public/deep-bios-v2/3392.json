@@ -1,0 +1,77 @@
+{
+  "id": 3392,
+  "name": "Kim Jong-kook",
+  "nameKo": "김종국",
+  "birthday": "1976-04-25",
+  "birthPlace": "Seoul, South Korea",
+  "birthPlaceKo": "대한민국 서울",
+  "netWorth": "$0.05B",
+  "nationality": "KR",
+  "industry": "Entertainment",
+  "gender": "M",
+  "ilju": "정미",
+  "gyeokguk": "정관격",
+  "childhood": {
+    "summaryKo": "1976년 4월 25일 서울에서 태어난 정통 한국 1세대 가수·예능 다각화 본업 정체성의 인물입니다. 강남대 사회복지학과를 졸업한 뒤 1995년 4월 4인조 댄스 그룹 '터보'로 데뷔해 한국 1세대 댄스 가요 본업 매출 카테고리를 잡았습니다. 미혼 상태로 본업 매출 카테고리를 만년까지 본인 자리의 운영 구조로 환원시킨 흐름이 정체성의 특징입니다.",
+    "capitalTypeKo": "직접 본업 자수성가 — 한국 1세대 댄스 가수·솔로 가수·SBS '런닝맨' 16년 고정·유튜브 'GYM JONG KOOK' 운영까지 본업 카테고리를 네 번 환원시킨 자수성가 자본입니다.",
+    "sources": ["https://namu.wiki/w/김종국", "https://ko.wikipedia.org/wiki/김종국_(가수)"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1995년 터보로 데뷔해 1999년 그룹 해체 후 2001년 솔로 가수로 본업 카테고리 환원, 2005~2008년 한국 가요대상 3년 연속 1위, 2010년 SBS '런닝맨' 고정 멤버 합류로 예능 카테고리 정착, 2021년 유튜브 'GYM JONG KOOK' 채널 본격 운영으로 본업 카테고리를 네 번 환원시켰습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://en.wikipedia.org/wiki/Kim_Jong-kook"]
+  },
+  "careerTimeline": [
+    {"year": 1995, "event": "Debuts as member of dance group Turbo (Apr)", "eventKo": "4월 4인조 댄스 그룹 '터보' 데뷔", "whyItMatteredKo": "정관격의 공식 권위(가요 권위) 흐름이 본인 자리의 첫 본업 매출 통로로 환원된 출발점입니다."},
+    {"year": 1999, "event": "Turbo disbands; military service (1999-2001)", "eventKo": "터보 해체 — 군 입대 (1999~2001)", "whyItMatteredKo": "본업 매출 카테고리가 한국 군 복무 사이클로 단기 멈춘 시기입니다."},
+    {"year": 2001, "event": "Solo debut with 'A Man'", "eventKo": "솔로 가수 데뷔 — '한 남자' 발표", "whyItMatteredKo": "정미 일주의 봄 작은 불 일간이 본업 표현 카테고리를 솔로 자리로 환원시킨 분기점입니다."},
+    {"year": 2005, "event": "Wins Korean music awards 3 years in a row (2005-2008)", "eventKo": "한국 가요대상 등 본상 3년 연속 수상 (2005~2008)", "whyItMatteredKo": "본업 매출 카테고리에서 한국 1위 자리로 환원된 시기입니다."},
+    {"year": 2007, "event": "Vocal nodule surgery; brief career pause", "eventKo": "성대 결절 수술 — 본업 매출 통로 단기 멈춤", "whyItMatteredKo": "본업 매출의 가장 큰 음역 한계 사이클이 본인 자리로 환원된 분기점입니다."},
+    {"year": 2010, "event": "Joins SBS 'Running Man' as cast member (Jul)", "eventKo": "7월 SBS '런닝맨' 고정 멤버 합류 — 예능 본업 카테고리 환원", "whyItMatteredKo": "본업 매출 카테고리가 가요에서 예능으로 환원된 결정적 분기점입니다. 16년간 본업 매출의 안정 통로가 됐습니다."},
+    {"year": 2021, "event": "Launches 'GYM JONG KOOK' YouTube channel", "eventKo": "유튜브 'GYM JONG KOOK' 채널 본격 운영 — 피트니스 카테고리 환원", "whyItMatteredKo": "본업 매출 카테고리가 가요·예능에서 디지털 콘텐츠로 환원된 분기점입니다."},
+    {"year": 2024, "event": "GYM JONG KOOK reaches 3M+ subscribers", "eventKo": "유튜브 채널 300만 구독자 돌파 — 본업 디지털 매출 가속", "whyItMatteredKo": "정관격의 본업 매출 카테고리가 디지털 권위로 환원된 만년의 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2001, "eventKo": "솔로 가수 데뷔", "impactKo": "정미 일주의 봄 작은 불 일간이 본업 표현 카테고리를 솔로 자리로 환원시킨 분기점입니다."},
+    {"year": 2010, "eventKo": "SBS '런닝맨' 고정 합류", "impactKo": "정관격의 본업 매출 카테고리가 가요에서 예능으로 환원된 결정적 분기점입니다."},
+    {"year": 2021, "eventKo": "유튜브 'GYM JONG KOOK' 본격 운영", "impactKo": "본업 매출 카테고리가 가요·예능에서 디지털 콘텐츠로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "음원 저작권 누적, SBS '런닝맨' 16년 출연료, 유튜브 'GYM JONG KOOK' 광고 매출, 그리고 행사·콘서트 매출이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2001년 솔로 데뷔, 2005~2008년 가요대상 3연패, 2010년 '런닝맨' 합류, 2021년 유튜브 본격 운영이 자본 가치 가속의 네 단계입니다.",
+    "structuralAdvantagesKo": "한국 1세대 댄스·솔로 가수·예능·유튜브 4중 카테고리 본업 정체성과 16년 '런닝맨' 안정 매출 통로, 그리고 피트니스 카테고리 본인 정체성의 결합이 강점입니다.",
+    "currentAssetAllocationKo": "음원 저작권·런닝맨 출연료·유튜브 광고 매출이 본업 매출의 핵심. 한국 부동산 자산과 광고 후원 자본이 보조 비중입니다."
+  },
+  "failures": [
+    {"year": 2007, "descriptionKo": "성대 결절 수술로 본업 가요 매출 통로가 분기 단위로 멈췄고, 한국 가요 매체는 '본업 음역 한계'를 반복 보도했습니다.", "howTheyOvercameKo": "수술 후 회복과 발성 통로 재훈련으로 본업 매출 카테고리를 회복했고, 2010년 '런닝맨' 합류로 본업 카테고리를 예능으로 환원시켰습니다.", "lessonKo": "가수 본업 카테고리는 성대 한 곳의 운영이 본업 매출 전체를 멈춥니다. 카테고리 환원 결단이 본업 매출 통로입니다."},
+    {"year": 2015, "descriptionKo": "한국 매체에 '런닝맨 폐지설'이 반복 보도되면서 본업 매출 카테고리 안정 통로가 단기 흔들렸고, 멤버 이광수·송지효 하차설 등이 본업 매출 통로의 부담으로 환원됐습니다.", "howTheyOvercameKo": "런닝맨 포맷 개편과 신규 멤버 충원으로 본업 매출 카테고리를 안정적으로 회복했습니다.", "lessonKo": "한국 예능 본업 카테고리는 한 프로그램 시청률 둔화가 본업 매출 통로 전체로 환원됩니다. 포맷 개편이 본업 매출 회복 통로입니다."},
+    {"year": 2023, "descriptionKo": "유튜브 'GYM JONG KOOK' 카테고리에서 도핑(스테로이드) 의혹이 미국 매체에 보도돼 본업 평판 통로가 단기 흔들렸습니다.", "howTheyOvercameKo": "공식 입장과 추가 검사 결과 공개로 의혹을 단계적으로 해명했고, 본업 디지털 콘텐츠 카테고리를 회복했습니다.", "lessonKo": "한 디지털 콘텐츠 카테고리(피트니스)는 본인 신체가 본업 표현이라 한 의혹이 본업 평판으로 직접 환원됩니다. 사실 관계 공개가 본업 평판 통로입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.005B", "sourceKo": "추정 — '런닝맨' 합류 직후"},
+    {"year": 2018, "netWorth": "$0.025B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$0.045B", "sourceKo": "포브스 추정 — 유튜브 가속기"},
+    {"year": 2026, "netWorth": "$0.05B", "sourceKo": "포브스 2026"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["터보 출신 솔로 가수", "런닝맨 16년 고정", "GYM JONG KOOK 유튜버", "피트니스 본업 정체성", "한국 가요대상 3연패"],
+  "characterKo": {
+    "strengths": "1995년 데뷔부터 30년간 가요·솔로·예능·유튜브 4중 카테고리에서 본업 매출 1위 자리를 단계적으로 환원시킨 다각화 결단력과, 본인 신체 정체성(피트니스)을 본업 카테고리로 만든 정체성 운영의 정직성이 강점입니다.",
+    "weaknesses": "성대 결절·디스크 등 본인 신체가 본업 표현이라 분기 단위로 본업 매출 통로가 흔들립니다. 미혼 상태가 한국 매체에서 본인 정체성 본업 부담으로 반복 보도되는 통로입니다.",
+    "motivation": "한국 1세대 댄스·솔로 가수 자리에서 본인 정체성(피트니스·근육·강한 남성)을 본업 표현 카테고리로 환원시키고, 만년에 디지털 콘텐츠 카테고리로 본업 매출 통로를 다시 만들겠다는 본인 정체성 의식이 동력입니다.",
+    "legacy": "한국 1세대 가수가 가요·예능·유튜브 카테고리를 30년간 네 번 환원시킨 본업 다각화의 한 표본입니다. SBS '런닝맨' 16년 고정 자리와 유튜브 '근육맨' 정체성으로 한국 만년 셀럽 모델을 새로 만든 인물입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Jeong-Mi day pillar (spring small fire on sheep earth) and Jin month branch combine into a soft flame nourished by spring soil and shaped by official authority. The Jeong-Gwan format that channels wealth through formal authority matches a 30-year arc from the 1995 Turbo debut to the 2024 YouTube peak.",
+    "summaryKo": "일주는 정미라 봄 작은 불 일간이 여름 흙(양의 자리) 위에 놓인 형국으로, 부드러운 불이 본인 자리의 흙에 받쳐져 본업 표현으로 빛나는 자리입니다. 월지 진은 봄 흙(용의 자리)이라 일간을 본인 자리의 자원으로 받쳐주는 통로입니다. 격국은 정관격(공식 권위와 규범 아래에서 본업 매출이 환원되는 흐름)이라, 1995년 터보 데뷔, 2001년 솔로 데뷔, 2010년 '런닝맨' 고정, 2021년 유튜브 본격 운영까지 모두 '본업 표현이 한국 가요·방송·디지털 권위 무대 위에서 단계적으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://namu.wiki/w/김종국",
+    "https://en.wikipedia.org/wiki/Kim_Jong-kook",
+    "https://ko.wikipedia.org/wiki/김종국_(가수)",
+    "https://www.youtube.com/@gymjongkook",
+    "https://namu.wiki/w/런닝맨"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": 3456,
+  "name": "Lee Boo-sup",
+  "nameKo": "이부섭",
+  "birthday": "1937-11-22",
+  "birthPlace": "Seoul, South Korea",
+  "birthPlaceKo": "대한민국 서울",
+  "netWorth": "$1.2B",
+  "nationality": "KR",
+  "industry": "Chemicals",
+  "gender": "M",
+  "ilju": "계축",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1937년 서울에서 태어나 경기고와 서울대 화학공학과를 졸업한 정통 공학도입니다. 1962년 대한사진화학에서 직장생활을 시작해 한국 정밀화학 1세대 화공 엔지니어 경로를 거쳤습니다. 1966년 자택 연탄창고에서 동진화학공업을 창업한 자수성가형 기술 창업주입니다.",
+    "capitalTypeKo": "공학도 자수성가 — 서울대 화공과를 거친 정통 엔지니어가 자택 연탄창고에서 시작한 화학 소재 기업을 60년 만에 한국 반도체 소재 1위로 키운 본인 운영 자본입니다.",
+    "sources": ["https://www.hankyung.com/article/202502257503i", "https://www.businesspost.co.kr/BP?command=article_view&num=349006"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1966년 동진화학공업 창업 후 발포제 OBSH 세계 1위 자리 확보, 1989년 한국 최초 반도체 감광제(포토레지스트) 자체 개발로 카테고리를 화학 발포제에서 반도체 소재로 환원했습니다. 2019년 일본 소재 수출규제 대응 국산화와 2022년 EUV 포토레지스트 국산화로 동진쎄미켐 주가가 가속됐고, 본인과 가족 보유 지분이 자본 가치의 핵심입니다.",
+    "selfMadeScore": 9,
+    "sources": ["https://www.etnews.com/20250225000318"]
+  },
+  "careerTimeline": [
+    {"year": 1962, "event": "Starts career at Daehan Photo Chemical", "eventKo": "대한사진화학 입사로 정밀화학 엔지니어 경로 시작", "whyItMatteredKo": "편인격의 학습된 권위 흐름이 본인 자리의 첫 운영 통로로 환원된 출발점입니다."},
+    {"year": 1966, "event": "Founds Dongjin Chemical in home coal shed", "eventKo": "자택 연탄창고에서 동진화학공업 창업", "whyItMatteredKo": "계축 일주의 깊고 압축된 물 일간이 본인 자리의 자본을 0에서 만든 결정적 결단입니다."},
+    {"year": 1973, "event": "OBSH foaming agent commercialized — world No.1 share", "eventKo": "발포제 OBSH 양산 시작 — 세계 1위 점유율 확보", "whyItMatteredKo": "한 화학 카테고리에서 세계 1위 자리를 확보한 첫 운영 결과물입니다."},
+    {"year": 1989, "event": "First Korean photoresist developed (4th in world)", "eventKo": "한국 최초·세계 네 번째 반도체 감광제(포토레지스트) 자체 개발", "whyItMatteredKo": "발포제 한 카테고리에서 반도체 소재 카테고리로 매출 통로를 환원한 분기점입니다. 일본 의존 카테고리에 국산 통로를 처음 낸 결단입니다."},
+    {"year": 2019, "event": "Japan export restrictions — Dongjin scales up domestic photoresist", "eventKo": "일본 소부장 수출규제 — 한국 반도체 포토레지스트 국산화 가속의 핵심 주역", "whyItMatteredKo": "거시 충격기에 본업 카테고리가 한국 반도체 자립의 핵심 통로로 환원된 결정적 사건입니다."},
+    {"year": 2022, "event": "First domestic EUV photoresist commercialized", "eventKo": "극자외선(EUV) 포토레지스트 국산화 한국 최초 성공", "whyItMatteredKo": "반도체 최첨단 공정 소재 한 카테고리에서 일본 의존을 본업 매출로 본격 흡수한 만년의 결정적 결단입니다."},
+    {"year": 2025, "event": "Passes away at 88 (Feb 25)", "eventKo": "2월 25일 향년 88세로 별세", "whyItMatteredKo": "본업 카테고리에서 60년간 운영한 화공 엔지니어 정체성이 자본 가치로 정점에서 정리된 분기점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1966, "eventKo": "자택 연탄창고에서 동진화학 창업", "impactKo": "계축 일주의 깊고 압축된 물 일간이 본인 자리의 자본을 0에서 만든 출발점입니다."},
+    {"year": 1989, "eventKo": "한국 최초 포토레지스트 자체 개발", "impactKo": "편인격의 학습된 권위 흐름이 발포제 한 카테고리에서 반도체 소재 카테고리로 환원된 분기점입니다."},
+    {"year": 2019, "eventKo": "일본 수출규제 — 포토레지스트 국산화 가속", "impactKo": "거시 충격기에 본업 카테고리가 한국 반도체 자립의 핵심 통로로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "동진쎄미켐 상장사 가족 보유 지분과 비상장 계열사 가치, 그리고 화학 발포제·반도체 포토레지스트 두 카테고리에서 나오는 본업 매출이 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1973년 OBSH 세계 1위, 1989년 포토레지스트 국산화, 2019~2022년 EUV PR 국산화로 동진쎄미켐 주가가 2018년 약 2조 원에서 2021~2022년 약 7~9조 원 시가총액으로 가속된 흐름이 자본 가치 가속의 핵심입니다.",
+    "structuralAdvantagesKo": "한국 반도체 소재 1세대 엔지니어 정체성과 한국 화학·반도체 산업이 일본 의존에서 벗어나는 30년 흐름이 본업과 정렬된 구조가 강점입니다.",
+    "currentAssetAllocationKo": "동진쎄미켐 지분이 자산의 핵심. 화학 발포제·반도체 포토레지스트 매출 비중이 가족 자본의 통로입니다."
+  },
+  "failures": [
+    {"year": 1997, "descriptionKo": "IMF 외환위기로 화학 원료 수입가가 급등하고 한국 반도체 수요가 단기 위축되면서 동진쎄미켐 매출과 차입 비중이 동시에 흔들렸습니다.", "howTheyOvercameKo": "발포제 세계 1위 매출로 외화를 확보하고, 반도체 소재 라인업을 줄이지 않고 유지해 1999년 반도체 V자 회복기를 잡았습니다.", "lessonKo": "거시 충격기에 R&D 카테고리를 줄이면 다음 회복기 매출 통로가 사라집니다. 본업 R&D는 거시 충격기에도 유지가 통로입니다."},
+    {"year": 2008, "descriptionKo": "글로벌 금융위기로 한국 반도체 가격이 단기 폭락하고 동진쎄미켐 매출이 분기 단위로 흔들렸습니다.", "howTheyOvercameKo": "삼성전자·SK하이닉스 동반 회복기에 매출 통로를 재건했고, 포토레지스트 라인업을 단계적으로 확장했습니다.", "lessonKo": "한국 반도체 한 시장에 매출이 묶이면 거시 충격이 분기 단위로 본업을 흔듭니다."},
+    {"year": 2019, "descriptionKo": "일본 수출규제 직전까지 한국 반도체 포토레지스트 시장은 일본 신에쓰·JSR·TOK 3사가 90% 이상 점유해 동진쎄미켐 본업 카테고리가 일본 의존 구조에 묶여 있었습니다.", "howTheyOvercameKo": "수출규제 이후 1년 만에 양산 통로를 가속해 한국 반도체 자립의 핵심 주역으로 환원됐습니다.", "lessonKo": "한 카테고리가 외국 의존 구조에 묶이면 거시 정치 충격이 직접 본업을 흔듭니다. 사전 국산화가 통로입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$0.3B", "sourceKo": "추정"},
+    {"year": 2018, "netWorth": "$0.5B", "sourceKo": "포브스 추정"},
+    {"year": 2022, "netWorth": "$1.0B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$1.2B", "sourceKo": "포브스 2026"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["동진쎄미켐 창업주", "포토레지스트 국산화", "세계 1위 발포제", "EUV PR 국산화", "한국공학한림원 명예회장"],
+  "characterKo": {
+    "strengths": "1966년 자택 연탄창고에서 시작한 화학 사업을 60년간 한 카테고리(반도체 소재)로 단계적으로 환원시킨 끈기와, 1989년 한국 최초·2022년 EUV 최초 국산화 두 번 다 한국 산업 자립의 첫 통로를 본업으로 만든 결단력이 강점입니다.",
+    "weaknesses": "한국 반도체 한 시장(삼성전자·SK하이닉스)에 매출 비중이 묶여 거시 충격이 분기 단위로 본업을 흔듭니다. 일본 신에쓰·JSR 같은 글로벌 1위 카테고리와의 가격 경쟁 통로가 본업의 만성 부담입니다.",
+    "motivation": "한국 화학·반도체 산업이 일본 의존 구조에서 본인 세대에 벗어나도록 한 카테고리씩 환원시키겠다는 공학도 정체성이 동력입니다.",
+    "legacy": "한국 반도체 소재 국산화의 첫 통로를 만든 인물입니다. 1989년 첫 포토레지스트와 2022년 EUV PR 두 번의 한국 최초 기록이 본인 60년 운영의 정점입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Chuk day pillar (winter small water on ox earth) and Hae month branch combine into a deeply compressed reservoir of learned authority. The Pyeon-In format that channels wealth through technical mastery matches a 60-year arc from the 1966 founding to the 1989 first photoresist and the 2022 EUV breakthrough.",
+    "summaryKo": "일주는 계축이라 겨울 작은 물 일간이 겨울 흙(소의 자리) 위에 놓인 형국으로, 깊고 차분히 압축된 물이 흙에 가둬져 학습과 연구의 형태로 모이는 자리입니다. 월지 해는 한겨울 큰 물의 자리라 일간을 외부 큰 흐름의 자원으로 더 단단히 강화합니다. 격국은 편인격(학습된 권위·기술·연구가 자본의 통로)이라, 1962년 첫 직장, 1966년 동진화학 창업, 1989년 포토레지스트 첫 국산화, 2019년 일본 수출규제 대응, 2022년 EUV PR 국산화까지 모두 '학습된 기술 권위가 본업 카테고리의 한국 최초 통로로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://www.hankyung.com/article/202502257503i",
+    "https://www.etnews.com/20250225000318",
+    "https://www.businesspost.co.kr/BP?command=article_view&num=349006",
+    "https://news.zum.com/articles/96529389",
+    "https://www.edaily.co.kr/News/Read?newsId=03949126642074128",
+    "https://namu.wiki/w/동진쎄미켐"
+  ]
+}

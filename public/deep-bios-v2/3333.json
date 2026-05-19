@@ -1,0 +1,77 @@
+{
+  "id": 3333,
+  "name": "Koo In-hoe",
+  "nameKo": "구인회",
+  "birthday": "1907-08-27",
+  "birthPlace": "Jinju, Gyeongsangnam-do, South Korea",
+  "birthPlaceKo": "대한민국 경상남도 진주",
+  "netWorth": "$0B",
+  "nationality": "KR",
+  "industry": "Electronics",
+  "gender": "M",
+  "ilju": "무신",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1907년 경남 진주군 지수면(현 진주시 지수면)에서 능성구씨 양반가의 장남으로 태어났습니다. 진주 일신학교(현 진주중·고)와 서울 중앙고등학교를 거친 정통 한국 1세대 양반가 학력 경로입니다. 1931년 부친 자본을 빌려 진주에서 구인회상점(포목·잡화) 창업으로 본격 본업 카테고리에 입문했고, 한국 1세대 화학·전자 그룹 창업주 정체성의 인물입니다.",
+    "capitalTypeKo": "재벌 1세대 (자수성가) — 부친 자본을 빌려 본업 카테고리를 시작했지만 1947년 락희화학공업사 창업·1958년 금성사 창업으로 한국 1세대 화학·전자 카테고리를 본인 세대에 만든 정통 자수성가 1세대 회장입니다.",
+    "sources": ["https://namu.wiki/w/구인회", "https://ko.wikipedia.org/wiki/구인회"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1931년 진주에서 구인회상점 창업, 1947년 부산에서 락희화학공업사(현 LG화학) 창업, 1948년 한국 최초 화장품 '럭키 크림' 출범, 1958년 금성사(현 LG전자) 창업, 1959년 한국 최초 진공관 라디오 'A-501' 출범, 1966년 한국 최초 흑백 TV 'VD-191' 출범으로 한국 1세대 화학·전자 카테고리를 본인 자리로 환원시켰습니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.lg.co.kr/about/identity/founders"]
+  },
+  "careerTimeline": [
+    {"year": 1931, "event": "Founds Koo In-hoe Store in Jinju", "eventKo": "진주에서 구인회상점(포목·잡화) 창업 — 부친 자본 차입으로 본업 출범", "whyItMatteredKo": "식신격의 본업 자기 표현 흐름이 본인 자리의 첫 운영 통로로 환원된 출발점입니다."},
+    {"year": 1947, "event": "Founds Lak-Hui Chemical Industries (Jan 5)", "eventKo": "1월 5일 부산에서 락희화학공업사(현 LG화학) 창업 — 광복 후 본업 카테고리 환원", "whyItMatteredKo": "무신 일주의 가을 큰 흙 일간이 본업 카테고리를 포목·잡화에서 화학으로 환원시킨 결정적 분기점입니다."},
+    {"year": 1948, "event": "Launches Korea's first cosmetic 'Lucky Cream'", "eventKo": "한국 최초 자체 화장품 '럭키 크림' 출범 — 한국 1세대 코스메슈티컬 카테고리 진출", "whyItMatteredKo": "본업 매출 카테고리가 한국 최초 화장품 1위 자리로 환원된 분기점입니다."},
+    {"year": 1954, "event": "Launches 'Lucky' toothpaste", "eventKo": "한국 최초 럭키 치약 출범 — 미국 콜게이트 시장 점유율 추월", "whyItMatteredKo": "본업 매출 카테고리에서 한국 1위·외국 브랜드 추월 자리를 본인 자리에서 처음 환원시킨 결정적 분기점입니다."},
+    {"year": 1958, "event": "Founds Goldstar Co. (Oct) — Korea's first electronics", "eventKo": "10월 금성사(현 LG전자) 창업 — 한국 최초 전자 카테고리 환원", "whyItMatteredKo": "식신격의 본업 자기 표현이 한국 최초 전자 산업 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 1959, "event": "Launches Korea's first tube radio 'A-501'", "eventKo": "한국 최초 진공관 라디오 'A-501' 출범 — 한국 1세대 가전 카테고리 정립", "whyItMatteredKo": "본업 매출 카테고리가 한국 최초 가전 1위 자리로 환원된 분기점입니다."},
+    {"year": 1966, "event": "Launches Korea's first black & white TV 'VD-191'", "eventKo": "한국 최초 흑백 TV 'VD-191' 출범 — 한국 가전 카테고리 정점 환원", "whyItMatteredKo": "본업 매출 카테고리가 한국 1세대 TV 1위 자리로 환원된 만년의 결단입니다."},
+    {"year": 1969, "event": "Passes away at 62 (Dec 31)", "eventKo": "12월 31일 향년 62세로 별세", "whyItMatteredKo": "한국 1세대 화학·전자 카테고리에서 운영한 38년의 자본이 다음 세대(장남 구자경)로 환원된 분기점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1947, "eventKo": "락희화학공업사 창업", "impactKo": "무신 일주의 가을 큰 흙 일간이 본업 카테고리를 포목·잡화에서 화학으로 환원시킨 결정적 분기점입니다."},
+    {"year": 1958, "eventKo": "금성사 창업 — 한국 최초 전자", "impactKo": "식신격의 본업 자기 표현이 한국 최초 전자 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 1959, "eventKo": "한국 최초 라디오 'A-501' 출범", "impactKo": "본업 매출 카테고리가 한국 1세대 가전 1위 자리로 환원된 분기점입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "구인회상점 도매 매출, 락희화학 화장품·치약 매출, 금성사 라디오·TV 매출이 본업 매출의 핵심이었습니다. 가족 지분 균등 분배 통로(LG 가문 16개 분파)가 한국 1세대 가문 자본 운영의 표본입니다.",
+    "wealthAcceleratorsKo": "1947년 락희화학 창업, 1958년 금성사 창업, 1959년 한국 최초 라디오, 1966년 한국 최초 흑백 TV가 자본 가치 가속의 네 단계였습니다.",
+    "structuralAdvantagesKo": "능성구씨 진주 양반가 가문 자본과 부친 구재서의 1930년대 한국 1세대 상인 자본 인맥, 그리고 광복 후 미군정·박정희 정부 권력 통로가 강점이었습니다.",
+    "currentAssetAllocationKo": "구인회 가문 자본은 본인 별세 후 장남 구자경(LG그룹 2대 회장)·구자학(아워홈)·구자두(LB 인베스트먼트)·구자일·구자명·구자훈 등 형제 세대로 균등 환원됐고, 1999년 LG·GS 분할·2003년 LIG·2005년 LS·2016년 LX 분할 통로로 16개 분파에 환원됐습니다."
+  },
+  "failures": [
+    {"year": 1950, "descriptionKo": "한국전쟁 발발로 구인회상점·락희화학 본업 카테고리가 분기 단위로 멈췄고, 부산 피난기에 본업 매출 통로가 흔들렸습니다.", "howTheyOvercameKo": "1953년 정전 후 부산에서 락희화학 본업을 회복했고, 1954년 한국 최초 치약 출범으로 본업 매출 통로를 회복했습니다.", "lessonKo": "거시 충격(전쟁)이 한 카테고리 본업 자본을 한 번에 멈춥니다. 광복 후 직접 화학 카테고리 환원이 만년 매출 통로입니다."},
+    {"year": 1958, "descriptionKo": "금성사 창업 직후 한국 시장의 일본 가전 카테고리 의존 통로(소니·도시바·히타치)와 가격 경쟁으로 본업 매출 카테고리가 단기 흔들렸고, 1958년 첫 결산 적자가 발화했습니다.", "howTheyOvercameKo": "1959년 한국 최초 라디오 'A-501' 출범과 박정희 정부 가전 국산화 정책 통로로 본업 매출 카테고리를 단계적으로 회복했습니다.", "lessonKo": "한국 1세대 가전 본업 카테고리는 일본 가전 의존 통로 압박으로 본업 매출이 분기 단위로 흔들렸습니다. 한국 최초 가전 카테고리 환원이 본업 매출 회복 통로입니다."},
+    {"year": 1969, "descriptionKo": "12월 31일 향년 62세로 갑작스럽게 별세하면서 본업 운영권이 장남 구자경(43세)으로 한 세대 빨리 환원돼야 했고, 그룹 운영 통로가 단기 흔들렸습니다.", "howTheyOvercameKo": "장남 구자경이 1970년 2대 회장으로 환원되었고, 1995년 LG로 사명 변경과 2003년 GS 분할까지 단계적으로 가문 자본 통로를 정리했습니다.", "lessonKo": "한국 1세대 가문 자본은 세대 교체가 한 번에 일어나면 본업 운영 통로가 단기 흔들립니다. 단계적 환원이 가문 자본 통로입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 1955, "netWorth": "$0.005B", "sourceKo": "추정 — 락희화학 정착기"},
+    {"year": 1965, "netWorth": "$0.02B", "sourceKo": "추정 — 금성사 정착기"},
+    {"year": 1969, "netWorth": "$0.05B", "sourceKo": "추정 — 별세 직전"},
+    {"year": 2026, "netWorth": "$0B", "sourceKo": "포브스 2026 (별세, 가문 자본 16개 분파 환원)"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["LG 창업 회장", "한국 최초 화장품", "금성사 한국 최초 전자", "한국 최초 라디오·TV", "능성구씨 진주 양반가"],
+  "characterKo": {
+    "strengths": "1931년 포목·잡화에서 1947년 화학·1958년 전자까지 본업 카테고리를 38년간 두 번 환원시킨 결단력과, 한국 최초 화장품·치약·라디오·TV를 본업 카테고리에서 단계적으로 한국 1위 자리로 환원시킨 식신격의 본업 표현 운영의 정직성이 강점이었습니다.",
+    "weaknesses": "한국 1세대 가문 자본의 16개 분파 분할 환원 통로 부담이 만년에 시작됐고, 1969년 향년 62세 갑작스러운 별세로 본업 운영권이 한 세대 빨리 다음 세대로 환원돼야 한 만년 부담이 있었습니다.",
+    "motivation": "능성구씨 진주 양반가 가문 정체성을 본인 세대에 한국 1세대 화학·전자 카테고리로 환원시키고, 한국 산업화 흐름에 본업 카테고리에서 '한국 최초' 자리를 본인 자리로 단계적으로 환원시키겠다는 가문·산업 의식이 동력이었습니다.",
+    "legacy": "한국 1세대 화학·전자 카테고리 창업주의 표본입니다. 한국 최초 화장품·치약·라디오·TV의 4번의 '한국 최초' 자리를 본업 카테고리에서 만든 인물이고, LG·GS·LS·LX·LIG 16개 분파 가문 자본 운영 통로의 한국 1세대 환원 책임자입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Sin day pillar (autumn great earth on monkey metal) and Sin month branch combine into a thick-earth format where wealth is channeled through strong self-expression (sik-sang). The Sik-Sin format that channels wealth through technical self-expression matches a 38-year arc from the 1931 store founding to the 1969 passing.",
+    "summaryKo": "일주는 무신이라 가을 큰 흙 일간이 가을 쇠(원숭이의 자리) 위에 놓인 형국으로, 두꺼운 흙이 강한 외부 식상(자기 표현·기술)의 흐름으로 빛나는 자리입니다. 월지 신은 가을 쇠(원숭이의 자리)라 일간을 외부 식상의 흐름으로 더 강하게 받쳐주는 통로입니다. 격국은 식신격(본업 매출이 본인의 표현·창의로 직접 나오는 흐름)이라, 1931년 구인회상점 창업, 1947년 락희화학 창업, 1948년 한국 최초 화장품, 1958년 금성사 창업, 1959년 한국 최초 라디오, 1966년 한국 최초 흑백 TV까지 모두 '본업의 표현이 한국 최초 카테고리로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://namu.wiki/w/구인회",
+    "https://ko.wikipedia.org/wiki/구인회",
+    "https://www.lg.co.kr/about/identity/founders",
+    "https://en.wikipedia.org/wiki/Koo_In-hwoi",
+    "https://namu.wiki/w/LG그룹"
+  ]
+}

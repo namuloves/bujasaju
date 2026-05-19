@@ -13,28 +13,14 @@ export type Tab = 'story' | 'quotes' | 'books' | 'saju';
 
 // ---------- Tab Bar ----------
 
-export function TabBar({ tab, setTab, lang }: { tab: Tab; setTab: (t: Tab) => void; lang: string }) {
-  return (
-    <div className="flex border-b border-gray-200 shrink-0">
-      {([
-        { key: 'story' as Tab, label: lang === 'ko' ? '스토리' : 'Story' },
-        { key: 'quotes' as Tab, label: lang === 'ko' ? '어록' : 'Quotes' },
-        { key: 'books' as Tab, label: lang === 'ko' ? '도서' : 'Books' },
-      ]).map(t => (
-        <button
-          key={t.key}
-          onClick={() => setTab(t.key)}
-          className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
-            tab === t.key
-              ? 'text-indigo-600 border-b-2 border-indigo-600'
-              : 'text-gray-500 hover:text-gray-700'
-          }`}
-        >
-          {t.label}
-        </button>
-      ))}
-    </div>
-  );
+/**
+ * Tab bar disabled — 어록 / 도서 were removed from the product. Story
+ * is the only surface now, so we drop the bar entirely instead of
+ * showing a single-tab strip that looks broken. The component still
+ * exists with the same signature so call sites don't need to change.
+ */
+export function TabBar(_props: { tab: Tab; setTab: (t: Tab) => void; lang: string }) {
+  return null;
 }
 
 // ---------- Tab Content ----------
@@ -48,12 +34,11 @@ export function TabContent({ bio, tab, unlocked, onUnlock, lang, mobileStoryHead
   /** Rendered only at the top of the mobile Story tab (e.g. a compact saju chart). */
   mobileStoryHeader?: React.ReactNode;
 }) {
+  // Quotes / Books were removed; force the Story view regardless of the
+  // `tab` prop so old persisted state can't surface an empty section.
+  void tab;
   return (
-    <>
-      {tab === 'story' && <StoryTab bio={bio} unlocked={unlocked} onUnlock={onUnlock} lang={lang} mobileHeader={mobileStoryHeader} />}
-      {tab === 'quotes' && <QuotesTab bio={bio} unlocked={unlocked} onUnlock={onUnlock} lang={lang} />}
-      {tab === 'books' && <BooksTab bio={bio} lang={lang} />}
-    </>
+    <StoryTab bio={bio} unlocked={unlocked} onUnlock={onUnlock} lang={lang} mobileHeader={mobileStoryHeader} />
   );
 }
 

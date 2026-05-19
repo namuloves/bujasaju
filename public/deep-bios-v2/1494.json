@@ -1,0 +1,38 @@
+{
+  "id": "1494", "name": "Bernard Lewis", "nameKo": "버나드 루이스",
+  "netWorth": 2.7, "nationality": "GB", "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "East End, London, England", "birthPlaceKo": "잉글랜드 런던 이스트 엔드",
+    "familyBackground": "Born to working-class British Jewish family.", "familyBackgroundKo": "영국 노동자 계급 유대인 가정에서 출생.",
+    "education": "Limited formal higher education.", "educationKo": "제한적 정식 고등 교육.",
+    "earlyLife": "Founded River Island fashion retailer in 1948 (started as Lewis Separates); built into UK and global fashion chain; family-owned.",
+    "earlyLifeKo": "1948 River Island 패션 소매업체 창립(Lewis Separates로 시작); 영국·글로벌 패션 체인으로 구축; 가족 소유.",
+    "source": "https://en.wikipedia.org/wiki/River_Island"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "River Island 창립자 자본." },
+  "careerTimeline": [
+    { "year": 1946, "age": 20, "event": "Began UK fashion retail.", "eventKo": "영국 패션 소매 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1948, "age": 22, "event": "Founded Lewis Separates (later River Island).", "eventKo": "Lewis Separates(이후 River Island) 창립.", "whyItMatteredKo": "River Island 출발선." },
+    { "year": 1988, "age": 62, "event": "Renamed to River Island; modernized brand.", "eventKo": "River Island로 개명; 브랜드 현대화.", "whyItMatteredKo": "리브랜드 단계." },
+    { "year": 2010, "age": 84, "event": "River Island became UK fast-fashion 350+ stores; global presence.", "eventKo": "River Island가 영국 패스트 패션 350+ 매장; 글로벌 존재.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2025, "age": 99, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "River Island 정점." }
+  ],
+  "turningPoints": [{ "year": 1988, "age": 62, "decisionKo": "River Island 리브랜드 현대화", "alternativeKo": "Lewis Separates 유지", "outcomeKo": "37년 후 27억 달러 + 영국 패스트 패션 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "River Island 사적 가족 지분 + 부동산", "industryKo": "패스트 패션·소매", "businessModelKo": "영국 패스트 패션 + 글로벌 매장 + 부동산", "moatKo": "River Island 영국 브랜드 + 77년 가족 트랙", "luckVsSkillKo": "운(25%): 영국 패스트 패션 부상. 실력(75%): 77년 가족 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of River Island; UK fashion retail veteran.",
+    "knownForKo": "River Island 창립자; 영국 패션 소매 베테랑.",
+    "philanthropy": "Lewis Family Foundation supports London Jewish and education causes.", "philanthropyKo": "루이스 가족 재단이 런던 유대인·교육 자선 지원.",
+    "controversies": "Limited; private retail low scrutiny.", "controversiesKo": "제한적; 사적 소매 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "River Island 77년 + 영국 패스트 패션 가부장.", "tagsKo": ["River Island", "영국 패션", "Lewis family"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed UK retail demand briefly.", "descriptionKo": "금융위기로 영국 소매 수요 잠시 압축.", "lesson": "Retail faces cycle exposure.", "lessonKo": "소매는 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 closed UK stores; River Island pivoted to online.", "descriptionKo": "COVID-19이 영국 매장 폐쇄; River Island 온라인 전환.", "lesson": "Retail adapted to pandemic via online pivot.", "lessonKo": "소매가 온라인 전환으로 팬데믹 적응." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.3 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Cheap fashion is dignity affordable.", "textKo": "저렴한 패션은 저렴하게 만들어진 존엄성이다.", "context": "On River Island", "contextKo": "River Island에 대해", "source": "https://www.riverisland.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-O day pillar in In month — 'pyeonjae-gyeok', large external capital, fitting 77-year fast-fashion family retailer.", "summaryKo": "경오 일주 + 인월 편재격(크고 유동적인 외부 자본)은 77년 패스트 패션이라는 거대 외부 자본 유동 가족 운영 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정밀 소매 운영과 통하고, 오화 일지의 강한 화 기운이 결단을, 인목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

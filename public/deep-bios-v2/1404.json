@@ -1,0 +1,38 @@
+{
+  "id": "1404", "name": "Gerald Frere", "nameKo": "제랄드 프레르",
+  "netWorth": 2.9, "nationality": "BE", "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Belgium", "birthPlaceKo": "벨기에",
+    "familyBackground": "Born to Albert Frère — Belgian industrial tycoon.", "familyBackgroundKo": "벨기에 산업 거물 알베르 프레르의 아들.",
+    "education": "Belgian higher education.", "educationKo": "벨기에 고등교육.",
+    "earlyLife": "Joined family Groupe Bruxelles Lambert (GBL); major Belgian/European industrial investor; son of Albert Frère; took expanded role after father's 2018 death.",
+    "earlyLifeKo": "가족 Groupe Bruxelles Lambert(GBL) 합류; 주요 벨기에·유럽 산업 투자자; 알베르 프레르의 아들; 2018 아버지 사망 후 확대 역할.",
+    "source": "https://en.wikipedia.org/wiki/Groupe_Bruxelles_Lambert"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Frère 가족 + GBL 자본." },
+  "careerTimeline": [
+    { "year": 1975, "age": 24, "event": "Joined family GBL.", "eventKo": "가족 GBL 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1985, "age": 34, "event": "Took executive role at GBL.", "eventKo": "GBL 임원 역할.", "whyItMatteredKo": "임원 단계." },
+    { "year": 2005, "age": 54, "event": "GBL major stake in Pernod Ricard, Adidas, LafargeHolcim.", "eventKo": "GBL이 Pernod Ricard·Adidas·LafargeHolcim 주요 지분.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2018, "age": 67, "event": "Father Albert Frère died; took expanded family role.", "eventKo": "아버지 알베르 프레르 사망; 확대 가족 역할.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $2.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러.", "whyItMatteredKo": "Frère 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 2018, "age": 67, "decisionKo": "아버지 사망 후 가족 GBL 역할 확대", "alternativeKo": "전문 경영인 위임", "outcomeKo": "7년 후 29억 달러 + 벨기에 산업 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Groupe Bruxelles Lambert(GBLB.BR) + Frère 가족 지분", "industryKo": "산업 투자·다각화", "businessModelKo": "GBL 다각화 (Pernod Ricard·Adidas·LafargeHolcim·SGS)", "moatKo": "Frère 가족 + GBL 50년 트랙", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): 가족 운영." },
+  "personalTraits": {
+    "knownFor": "Frère family heir; major GBL stockholder; Belgian industrial dynasty.",
+    "knownForKo": "프레르 가족 상속인; 주요 GBL 주주; 벨기에 산업 왕조.",
+    "philanthropy": "Frère-Bourgeois Foundation supports Belgian education and culture.", "philanthropyKo": "프레르-부르주아 재단이 벨기에 교육·문화 자선 지원.",
+    "controversies": "Limited; private family low scrutiny.", "controversiesKo": "제한적; 사적 가족 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Frère 가족 + GBL 다각화 투자.", "tagsKo": ["Groupe Bruxelles Lambert", "Frère family", "벨기에 산업"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed GBL portfolio holdings.", "descriptionKo": "금융위기로 GBL 포트폴리오 보유 압축.", "lesson": "Diversified industrial faces cycle exposure.", "lessonKo": "다각화 산업은 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted GBL portfolio companies briefly.", "descriptionKo": "COVID-19이 GBL 포트폴리오 회사 잠시 혼란.", "lesson": "Diversified holding faces broad pandemic exposure.", "lessonKo": "다각화 지주는 광범위 팬데믹 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 2.2 }, { "year": 2024, "netWorth": 2.7 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Belgian industry is patient capital.", "textKo": "벨기에 산업은 인내 자본이다.", "context": "On GBL strategy", "contextKo": "GBL 전략에 대해", "source": "https://www.gbl.be" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Sa day pillar in Sa month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting industrial-dynasty heir.", "summaryKo": "정사 일주 + 사월 편관격(강한 외부 압박·권력 충돌)은 강한 산업·금융 규제 환경의 다각화 가족 가부장 경로와 호응합니다. 정화 일간 + 사화 일지·사화 월지의 극강 화 기운이 결단·기세를 이중 강조합니다." }
+}

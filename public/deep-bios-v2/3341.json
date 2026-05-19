@@ -1,0 +1,77 @@
+{
+  "id": 3341,
+  "name": "Park In-chon",
+  "nameKo": "박인천",
+  "birthday": "1901-08-18",
+  "birthPlace": "Naju, Jeollanam-do, South Korea",
+  "birthPlaceKo": "대한민국 전라남도 나주",
+  "netWorth": "$0B",
+  "nationality": "KR",
+  "industry": "Chemicals/Tires",
+  "gender": "M",
+  "ilju": "무진",
+  "gyeokguk": "편인격",
+  "childhood": {
+    "summaryKo": "1901년 전남 나주에서 태어났습니다. 일제강점기 광주에서 경찰공무원으로 일한 정통 식민지 시기 한국 1세대 운수·화학 그룹 창업주 정체성의 인물입니다. 식민지 권위 자본에 익숙한 본업 출신이 광복 후 4대 택시 본업을 시작한 운영의 출발점입니다.",
+    "capitalTypeKo": "재벌 1세대 (자수성가) — 일제강점기 경찰 보수와 부인 친정 자본을 합쳐 4대 택시로 본업을 시작한 한국 1세대 운수·화학 그룹 창업주 자본입니다. 1946년 광주택시에서 1960년대 금호타이어까지 본인 세대에 환원시킨 정통 자수성가 1세대 회장입니다.",
+    "sources": ["https://namu.wiki/w/박인천", "https://ko.wikipedia.org/wiki/박인천"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1946년 광주에서 미국 포드 4대 택시로 광주택시 창업, 1948년 광주여객(시외버스) 정립, 1960년 금호고속(고속버스), 1960년 삼양타이어(현 금호타이어) 인수로 본업 카테고리를 운수에서 타이어로 환원시켰습니다. 1971년 한국 1세대 종합무역상사 자리(금호실업)와 항공(아시아나항공) 진출 직전인 1972년 별세 전까지 한국 1세대 호남 재벌의 핵심 가문 자본을 만든 운영형 자본입니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.kumhoasiana.com/about/history/"]
+  },
+  "careerTimeline": [
+    {"year": 1946, "event": "Founds Gwangju Taxi with 4 Ford cars (Aug 9)", "eventKo": "8월 9일 광주택시 창업 — 미국 포드 4대로 출범", "whyItMatteredKo": "편인격의 학습된 권위 흐름이 본인 자리의 첫 본업 운영 통로로 환원된 출발점입니다."},
+    {"year": 1948, "event": "Founds Gwangju Yeogaek (express bus)", "eventKo": "광주여객(시외버스) 정립 — 호남 카테고리 1위 자리", "whyItMatteredKo": "무진 일주의 가을 큰 흙 일간이 본업 카테고리를 택시에서 시외버스로 환원시킨 분기점입니다."},
+    {"year": 1960, "event": "Founds Kumho Industrial (express bus)", "eventKo": "금호실업·금호고속(고속버스) 출범 — 한국 1세대 고속버스 카테고리 진출", "whyItMatteredKo": "본업 매출 카테고리가 호남 시외버스에서 한국 전국 고속버스로 환원된 분기점입니다."},
+    {"year": 1960, "event": "Acquires Samyang Tire (later Kumho Tire)", "eventKo": "삼양타이어(현 금호타이어) 인수 — 한국 1세대 타이어 카테고리 진출", "whyItMatteredKo": "편인격의 본업 카테고리가 운수에서 타이어 화학 카테고리로 환원된 결정적 결단입니다."},
+    {"year": 1965, "event": "Kumho Group officially formed", "eventKo": "금호그룹 공식 출범 — 박인천 회장 환원", "whyItMatteredKo": "본업 운영권이 본인 자리의 그룹 회장직으로 환원된 분기점입니다."},
+    {"year": 1969, "event": "Kumho Tire begins exports to USA", "eventKo": "금호타이어 미국 본격 수출 — 한국 1세대 타이어 글로벌 환원", "whyItMatteredKo": "본업 매출 카테고리가 글로벌 타이어 카테고리로 환원된 분기점입니다."},
+    {"year": 1971, "event": "Kumho Sireup established as trade arm", "eventKo": "금호실업 종합무역 카테고리 정립 — 한국 1세대 무역 카테고리 진출", "whyItMatteredKo": "본업 카테고리가 종합무역으로 환원된 만년의 결단입니다."},
+    {"year": 1972, "event": "Passes away at 70 (Jun 16)", "eventKo": "6월 16일 향년 70세로 별세", "whyItMatteredKo": "한국 1세대 호남 재벌 카테고리에서 운영한 26년의 자본이 다음 세대(장남 박성용)로 환원된 분기점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1946, "eventKo": "광주택시 창업 — 미국 포드 4대로 출범", "impactKo": "편인격의 학습된 권위 흐름이 본인 자리의 첫 본업 운영 통로로 환원된 출발점입니다."},
+    {"year": 1960, "eventKo": "삼양타이어 인수 — 한국 1세대 타이어", "impactKo": "무진 일주의 가을 큰 흙 일간이 본업 카테고리를 운수에서 타이어 화학으로 환원시킨 결정적 결단입니다."},
+    {"year": 1971, "eventKo": "금호실업 종합무역 정립", "impactKo": "편인격의 본업 카테고리가 종합무역으로 환원된 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "광주택시·광주여객 운수 매출, 금호고속 고속버스 매출, 금호타이어 글로벌 타이어 매출, 그리고 금호실업 종합무역 매출이 본업 매출의 핵심이었습니다. 가족 자본 운영 통로(4남 1녀)가 한국 호남 1세대 가문 자본의 만년 환원 통로의 출발점입니다.",
+    "wealthAcceleratorsKo": "1946년 광주택시 창업, 1960년 금호타이어 인수, 1965년 그룹 출범, 1969년 미국 수출이 자본 가치 가속의 네 단계였습니다. 한국 1세대 자동차·운수 사이클이 본업 매출 가속 통로였습니다.",
+    "structuralAdvantagesKo": "일제강점기 광주 경찰 본업 권위 자본과 호남 인맥, 그리고 광복 후 호남 1세대 운수·타이어 카테고리의 선점이 강점이었습니다.",
+    "currentAssetAllocationKo": "박인천 가문 자본은 본인 별세 후 장남 박성용 → 차남 박정구 → 3남 박삼구 → 4남 박찬구 순환 승계 통로로 환원되었고, 2009년 박삼구·박찬구 형제의 난으로 금호아시아나·금호석유화학 두 분파로 분리됐습니다."
+  },
+  "failures": [
+    {"year": 1950, "descriptionKo": "한국전쟁 발발 직후 광주택시·광주여객 본업 카테고리가 분기 단위로 멈췄고, 인민군 점령기에 본업 차량 일부가 징발됐습니다.", "howTheyOvercameKo": "1953년 정전 후 광주택시 본업을 회복했고, 1948년 광주여객(시외버스) 카테고리를 단계적으로 확장했습니다.", "lessonKo": "거시 충격(전쟁)이 한 카테고리(운수) 본업 자본을 한 번에 멈춥니다. 정전 후 카테고리 확장이 만년 본업 매출 통로입니다."},
+    {"year": 1960, "descriptionKo": "삼양타이어 인수 직후 한국 1세대 자동차 산업이 초기 단계라 타이어 본업 매출 카테고리가 분기 단위로 흔들렸고, 일본 브리지스톤·요코하마와 가격 경쟁이 격화됐습니다.", "howTheyOvercameKo": "1969년 미국 시장 본격 수출과 박정희 정부 자동차 국산화 정책 통로로 본업 매출을 단계적으로 회복했습니다.", "lessonKo": "한국 1세대 타이어 본업 카테고리는 일본 가전 의존 통로 압박으로 본업 매출이 분기 단위로 흔들렸습니다. 미국 글로벌 시장 환원이 본업 매출 통로입니다."},
+    {"year": 1972, "descriptionKo": "6월 16일 향년 70세로 별세하면서 본업 운영권이 장남 박성용으로 환원돼야 했고, 호남 1세대 가문 자본의 4남 1녀 운영 통로 정립이 한 번에 시작됐습니다.", "howTheyOvercameKo": "장남 박성용이 그룹 회장으로 환원되고, 4남 1녀 순환 승계 통로로 가문 자본을 단계적으로 환원시켰습니다. 다만 2009년 박삼구·박찬구 형제의 난으로 그룹이 분리됐습니다.", "lessonKo": "한국 1세대 가문 자본은 세대 교체 후 순환 승계 통로 운영이 만년 부담입니다. 가문 자본의 분파 분리 통로가 다음 세대에 만년 부담으로 들어옵니다."}
+  ],
+  "wealthHistory": [
+    {"year": 1955, "netWorth": "$0.003B", "sourceKo": "추정 — 광주여객 정착기"},
+    {"year": 1965, "netWorth": "$0.015B", "sourceKo": "추정 — 금호타이어 정착기"},
+    {"year": 1972, "netWorth": "$0.04B", "sourceKo": "추정 — 별세 직전"},
+    {"year": 2026, "netWorth": "$0B", "sourceKo": "포브스 2026 (별세, 가문 자본 4남 1녀 환원 후 분리)"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["금호아시아나 창업 회장", "광주택시 4대로 출범", "한국 1세대 타이어", "호남 1세대 재벌", "4남 1녀 순환 승계"],
+  "characterKo": {
+    "strengths": "1946년 미국 포드 4대 택시에서 1960년 금호타이어 인수까지 본업 카테고리를 26년간 운수에서 타이어 화학으로 환원시킨 결단력과, 호남 인맥과 일제강점기 경찰 학습된 권위 자본을 한국 1세대 호남 재벌 자리로 환원시킨 가문 운영의 정직성이 강점이었습니다.",
+    "weaknesses": "한국 1세대 운수·타이어 본업 카테고리의 일본 의존 통로 부담과 1972년 향년 70세 별세로 본업 운영권이 한 세대 빨리 다음 세대로 환원돼야 한 만년 부담이 있었습니다. 4남 1녀 순환 승계 통로가 다음 세대에 형제의 난 발화 통로로 환원됐습니다.",
+    "motivation": "광복 후 호남 1세대 운수 카테고리를 본인 자리에서 만들고, 박정희 정부 한국 산업화 흐름에 본업 카테고리에서 타이어·종합무역·항공까지 환원시키겠다는 한국 1세대 호남 재벌 의식이 동력이었습니다.",
+    "legacy": "한국 1세대 호남 재벌 창업주의 표본입니다. 광주택시 4대에서 한국 1세대 타이어·고속버스·종합무역 카테고리까지 환원시킨 한국 산업화 1세대 가문 자본의 모델이고, 4남 1녀 순환 승계 통로가 다음 세대 형제의 난으로 환원된 만년 운영 통로의 사례입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Mu-Jin day pillar (autumn great earth on dragon earth) and Sin month branch combine into a doubly thick-earth format polished by autumn metal (sik-sang) self-expression. The Pyeon-In format that channels wealth through learned authority matches a 26-year arc from the 1946 Gwangju Taxi founding to the 1972 passing.",
+    "summaryKo": "일주는 무진이라 가을 큰 흙 일간이 진토(봄 흙·용의 자리) 위에 놓인 형국으로, 두 흙이 만나 본인 자리에 두텁게 모여 외부 자원을 본인 자리로 끌어들이는 자리입니다. 월지 신은 가을 쇠(원숭이의 자리)라 일간을 외부 식상(자기 표현·기술)의 흐름으로 받쳐주는 통로입니다. 격국은 편인격(학습된 권위·기술·이론으로 자본을 잡는 흐름)이라, 1946년 광주택시 창업, 1960년 금호타이어 인수, 1965년 그룹 출범, 1971년 종합무역 정립까지 모두 '학습된 권위가 본업 카테고리의 단계적 환원으로 이어진다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://namu.wiki/w/박인천",
+    "https://ko.wikipedia.org/wiki/박인천",
+    "https://www.kumhoasiana.com/about/history/",
+    "https://en.wikipedia.org/wiki/Kumho_Asiana_Group",
+    "https://namu.wiki/w/금호아시아나그룹"
+  ]
+}

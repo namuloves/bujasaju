@@ -1,0 +1,39 @@
+{
+  "id": "639", "name": "Florentino Perez", "nameKo": "플로렌티노 페레스 로드리게스",
+  "netWorth": 6.2, "nationality": "ES", "industry": "Construction & Engineering",
+  "childhood": {
+    "birthPlace": "Madrid, Spain", "birthPlaceKo": "스페인 마드리드",
+    "familyBackground": "Born to Spanish family.", "familyBackgroundKo": "스페인 가정에서 출생.",
+    "education": "Polytechnic University of Madrid (civil engineering).", "educationKo": "마드리드 폴리테크닉 대학교(토목 공학).",
+    "earlyLife": "Worked as civil engineer; founded ACS Group via Construcciones Padrós merger 1993; built into Spain's largest construction company; president of Real Madrid CF since 2000.",
+    "earlyLifeKo": "토목 엔지니어 근무; 1993 Construcciones Padrós 합병으로 ACS Group 창립; 스페인 최대 건설 회사로 구축; 2000년부터 레알 마드리드 CF 회장.",
+    "source": "https://en.wikipedia.org/wiki/Florentino_P%C3%A9rez"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "ACS Group 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1971, "age": 24, "event": "Began civil engineering career.", "eventKo": "토목 공학 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1993, "age": 46, "event": "Founded ACS Group via construction merger.", "eventKo": "건설 합병으로 ACS Group 창립.", "whyItMatteredKo": "ACS 출발선." },
+    { "year": 2000, "age": 53, "event": "Became president of Real Madrid CF; signed Galácticos era.", "eventKo": "레알 마드리드 CF 회장 취임; 갈락티코 시대 영입.", "whyItMatteredKo": "레알 마드리드 단계." },
+    { "year": 2018, "age": 71, "event": "ACS acquired Italian Astaldi; major European construction consolidator.", "eventKo": "ACS가 이탈리아 Astaldi 인수; 주요 유럽 건설 통합사.", "whyItMatteredKo": "Astaldi 인수." },
+    { "year": 2025, "age": 78, "event": "Personal net worth at $6.2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 62억 달러.", "whyItMatteredKo": "ACS + 레알 마드리드 정점." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 53, "decisionKo": "레알 마드리드 회장 + ACS CEO 병행", "alternativeKo": "ACS 단일 집중", "outcomeKo": "25년 후 62억 달러 + 스페인 건설·축구 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "ACS Group(ACS.MC) 가족 지분 + 레알 마드리드", "industryKo": "건설·인프라·스포츠", "businessModelKo": "글로벌 건설(HOCHTIEF·CIMIC) + 인프라 양보 + 레알 마드리드 운영", "moatKo": "글로벌 건설 1위급 + 레알 마드리드 + 32년 트랙", "luckVsSkillKo": "운(30%): 스페인 건설 호황. 실력(70%): ACS 합병 + 레알 마드리드 변환." },
+  "personalTraits": {
+    "knownFor": "Founder of ACS Group; president of Real Madrid CF; Spanish construction and football icon.",
+    "knownForKo": "ACS Group 창립자; 레알 마드리드 CF 회장; 스페인 건설·축구 아이콘.",
+    "philanthropy": "Real Madrid Foundation supports global football development.", "philanthropyKo": "레알 마드리드 재단이 글로벌 축구 개발 자선 지원.",
+    "controversies": "2021 European Super League announcement triggered fan revolt; Real Madrid lost trust briefly; ACS political-corruption scrutiny.",
+    "controversiesKo": "2021 유럽 슈퍼리그 발표가 팬 반발 촉발; 레알 마드리드 신뢰 잠시 상실; ACS 정치 부패 감시."
+  },
+  "characterKo": { "summaryKo": "ACS Group + 레알 마드리드 회장 + 갈락티코 시대.", "tagsKo": ["ACS Group", "Real Madrid", "Galácticos"] },
+  "failures": [
+    { "year": 2021, "description": "European Super League announcement triggered mass fan revolt; Real Madrid backed down.", "descriptionKo": "유럽 슈퍼리그 발표가 대규모 팬 반발 촉발; 레알 마드리드 후퇴.", "lesson": "Football-club leadership faces fan-cultural constraint.", "lessonKo": "축구 클럽 리더십은 팬 문화 제약 직면." },
+    { "year": 2008, "description": "Financial crisis compressed Spanish construction; ACS stock crashed.", "descriptionKo": "금융위기로 스페인 건설 압축; ACS 주식 폭락.", "lesson": "Construction faces deep recession exposure.", "lessonKo": "건설은 깊은 침체 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 4.0 }, { "year": 2024, "netWorth": 5.8 }, { "year": 2025, "netWorth": 6.2 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Building cities and building a club share the same patience.", "textKo": "도시를 짓는 것과 클럽을 짓는 것은 같은 인내를 공유한다.", "context": "On ACS and Real Madrid", "contextKo": "ACS와 레알 마드리드에 대해", "source": "https://www.realmadrid.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Sul day pillar in Myo month — 'jeonggwan-gyeok', formal regulated authority, fitting construction-and-football institutional leader.", "summaryKo": "병술 일주 + 묘월 정관격(공식 권위·규제 아래에서 일하는 구조)은 건설·UEFA·스페인 정부라는 강한 정통 권위 환경 32년 운영 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 술토 일지의 토 기운이 자본·건설 안정 기반을, 묘목 월지의 목 기운이 회사·클럽 성장을 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1466", "name": "Amy Adams Strunk", "nameKo": "에이미 애덤스 스트렁크",
+  "netWorth": 2.8, "nationality": "US", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Bud Adams — founder of Tennessee Titans NFL franchise.", "familyBackgroundKo": "테네시 타이탄스 NFL 프랜차이즈 창립자 버드 애덤스의 딸.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Joined family Tennessee Titans; took ownership after father's 2013 death; principal owner of Tennessee Titans.",
+    "earlyLifeKo": "가족 테네시 타이탄스 합류; 2013 아버지 사망 후 소유 인수; 테네시 타이탄스 주요 소유주.",
+    "source": "https://www.tennesseetitans.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Tennessee Titans 가족 자본." },
+  "careerTimeline": [
+    { "year": 1980, "age": 25, "event": "Joined family Adams oil and football businesses.", "eventKo": "가족 애덤스 석유·축구 사업 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2013, "age": 58, "event": "Father Bud Adams died; family inheritance.", "eventKo": "아버지 버드 애덤스 사망; 가족 상속.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2015, "age": 60, "event": "Became controlling owner of Tennessee Titans.", "eventKo": "테네시 타이탄스 통제 소유주.", "whyItMatteredKo": "통제 단계." },
+    { "year": 2023, "age": 68, "event": "Approved new Titans stadium construction.", "eventKo": "신규 타이탄스 경기장 건설 승인.", "whyItMatteredKo": "경기장 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $2.8B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 28억 달러.", "whyItMatteredKo": "Titans 정점." }
+  ],
+  "turningPoints": [{ "year": 2015, "age": 60, "decisionKo": "테네시 타이탄스 통제 소유주 수락", "alternativeKo": "공동 소유 유지", "outcomeKo": "10년 후 28억 달러 + NFL 가족 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Tennessee Titans 가족 지분 + 다각화", "industryKo": "NFL 프랜차이즈", "businessModelKo": "NFL 미디어 분배 + 입장권 + 경기장 + 부동산", "moatKo": "NFL 프랜차이즈 + 가족 사적 소유", "luckVsSkillKo": "운(85%): 가족 자본. 실력(15%): NFL 운영." },
+  "personalTraits": {
+    "knownFor": "Owner of Tennessee Titans NFL franchise; daughter of Bud Adams.",
+    "knownForKo": "테네시 타이탄스 NFL 프랜차이즈 소유주; 버드 애덤스의 딸.",
+    "philanthropy": "Titans Foundation supports Tennessee community.", "philanthropyKo": "타이탄스 재단이 테네시 지역 사회 자선 지원.",
+    "controversies": "Family inheritance disputes after Bud Adams death; Adams family-feud public attention.",
+    "controversiesKo": "버드 애덤스 사망 후 가족 상속 분쟁; 애덤스 가족 불화 공공 관심."
+  },
+  "characterKo": { "summaryKo": "Tennessee Titans 가족 + NFL 가부장.", "tagsKo": ["Tennessee Titans", "NFL", "Adams family"] },
+  "failures": [
+    { "year": 2013, "description": "Father Bud Adams' death triggered family inheritance disputes.", "descriptionKo": "아버지 버드 애덤스 사망이 가족 상속 분쟁 야기.", "lesson": "Sports-franchise succession faces family conflict.", "lessonKo": "스포츠 프랜차이즈 승계는 가족 갈등 직면." },
+    { "year": 2020, "description": "COVID-19 reduced NFL stadium attendance briefly.", "descriptionKo": "COVID-19이 NFL 경기장 관중 잠시 감소.", "lesson": "Sports faces pandemic-attendance exposure.", "lessonKo": "스포츠는 팬데믹 관중 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.6 }, { "year": 2025, "netWorth": 2.8 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "A franchise is a community trust dressed as a business.", "textKo": "프랜차이즈는 사업으로 가장한 공동체 신탁이다.", "context": "On NFL ownership", "contextKo": "NFL 소유에 대해", "source": "https://www.tennesseetitans.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in Yu month — 'siksin-gyeok', creative output, fitting sports-franchise heiress.", "summaryKo": "계사 일주 + 유월 식신격(창의적 결과물·표현)은 NFL 프랜차이즈 운영이라는 창의적 자본 표현 가족 가부장 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 자본 관리와 통하고, 사화 일지의 강한 화 기운이 결단을, 유금 월지의 금 기운이 정밀 자본 도구를 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2002", "name": "Bill Gross", "nameKo": "윌리엄 헌트 그로스",
+  "netWorth": 2.0, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Middletown, Ohio, USA", "birthPlaceKo": "미국 오하이오주 미들타운",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Duke University; UCLA MBA.", "educationKo": "듀크 대학교; UCLA MBA.",
+    "earlyLife": "Co-founded PIMCO 1971; built into world's largest bond manager; nicknamed 'Bond King'; left PIMCO 2014; founded Janus Henderson Global Unconstrained Bond Fund.",
+    "earlyLifeKo": "1971 PIMCO 공동 창립; 세계 최대 채권 운용사로 구축; '채권 왕' 별명; 2014 PIMCO 떠남; Janus Henderson Global Unconstrained Bond Fund 창립.",
+    "source": "https://en.wikipedia.org/wiki/Bill_Gross"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "PIMCO 공동 창립자 + 보너스." },
+  "careerTimeline": [
+    { "year": 1971, "age": 27, "event": "Co-founded PIMCO at Pacific Mutual.", "eventKo": "Pacific Mutual에서 PIMCO 공동 창립.", "whyItMatteredKo": "PIMCO 출발선." },
+    { "year": 1987, "age": 43, "event": "PIMCO became major US bond fund.", "eventKo": "PIMCO가 주요 미국 채권 펀드가 됨.", "whyItMatteredKo": "주요 단계." },
+    { "year": 2000, "age": 56, "event": "Allianz acquired PIMCO; Gross retained CIO role.", "eventKo": "Allianz가 PIMCO 인수; 그로스 CIO 역할 유지.", "whyItMatteredKo": "Allianz 매각." },
+    { "year": 2014, "age": 70, "event": "Departed PIMCO amid public dispute; joined Janus Capital.", "eventKo": "공개 분쟁 가운데 PIMCO 떠남; Janus Capital 합류.", "whyItMatteredKo": "Janus 단계." },
+    { "year": 2025, "age": 81, "event": "Personal net worth at $2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 20억 달러.", "whyItMatteredKo": "Gross 정점." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 70, "decisionKo": "PIMCO 공개 분쟁 후 Janus 이직", "alternativeKo": "PIMCO 잔류", "outcomeKo": "11년 후 20억 달러 + 'Bond King' 전설" }],
+  "moneyMechanics": { "primaryRevenueKo": "PIMCO 보너스 + Janus 보상 + 다각화", "industryKo": "채권·자산 관리", "businessModelKo": "PIMCO 매각 자본 + Janus 펀드 + 사적 투자", "moatKo": "'Bond King' 브랜드 + PIMCO 보너스 자본", "luckVsSkillKo": "운(30%): 1970-2010 채권 강세장. 실력(70%): 40년 PIMCO 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of PIMCO; 'Bond King'; legendary bond-fund manager.",
+    "knownForKo": "PIMCO 공동 창립자; '채권 왕'; 전설적 채권 펀드 매니저.",
+    "philanthropy": "William and Sue Gross Family Foundation supports education and medical research.", "philanthropyKo": "윌리엄·수 그로스 가족 재단이 교육·의학 연구 자선 지원.",
+    "controversies": "2014 PIMCO public dispute with Mohamed El-Erian; 2017 Sue Gross divorce art-theft drama.",
+    "controversiesKo": "2014 PIMCO 모하메드 엘에리언과 공개 분쟁; 2017 수 그로스 이혼 미술 도난 드라마."
+  },
+  "characterKo": { "summaryKo": "PIMCO 'Bond King' + 2014 분쟁 + Janus.", "tagsKo": ["PIMCO", "Bond King", "Janus"] },
+  "failures": [
+    { "year": 2014, "description": "Departed PIMCO amid public power dispute with successor El-Erian.", "descriptionKo": "후임 엘에리언과 공개 권력 분쟁 가운데 PIMCO 떠남.", "lesson": "Co-founder successions face very public dispute risk.", "lessonKo": "공동 창립자 승계는 매우 공개적 분쟁 리스크 직면." },
+    { "year": 2019, "description": "Janus Unconstrained Bond Fund underperformed; closed 2019.", "descriptionKo": "Janus Unconstrained Bond Fund 부진; 2019 폐쇄.", "lesson": "Star manager comebacks face structural cycle.", "lessonKo": "스타 매니저 재기는 구조적 사이클 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 1.9 }, { "year": 2025, "netWorth": 2.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Investing is the search for patient yield.", "textKo": "투자는 인내하는 수익을 찾는 것이다.", "context": "On bond investing", "contextKo": "채권 투자에 대해", "source": "https://en.wikipedia.org/wiki/Bill_Gross" }],
+  "books": { "authored": [{ "title": "Bill Gross on Investing", "year": 1997 }], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Mi day pillar in Jin month — 'sanggwan-gyeok', unconventional output, fitting Bond King's contrarian fixed-income star.", "summaryKo": "정미 일주 + 진월 상관격(파격적 표현·기존 권위 도전)은 '채권 왕'이라는 파격 명성과 PIMCO 공개 분쟁이라는 파격 표현 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정밀 채권 분석과 통하고, 미토 일지·진토 월지의 강한 토 기운이 자본 안정 기반을 이중 강조합니다." }
+}

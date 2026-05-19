@@ -1,0 +1,38 @@
+{
+  "id": "1363", "name": "Rufino Vigil Gonzalez", "nameKo": "루피노 비힐 곤살레스",
+  "netWorth": 3.0, "nationality": "MX", "industry": "Metals & Mining",
+  "childhood": {
+    "birthPlace": "Mexico", "birthPlaceKo": "멕시코",
+    "familyBackground": "Born to Mexican family.", "familyBackgroundKo": "멕시코 가정에서 출생.",
+    "education": "Mexican higher education.", "educationKo": "멕시코 고등교육.",
+    "earlyLife": "Co-founded Industrias CH 1991 — Mexican steel company; built into major Mexican steel producer; CEO and chairman.",
+    "earlyLifeKo": "1991 Industrias CH 공동 창립 — 멕시코 철강 회사; 주요 멕시코 철강 생산사로 구축; CEO·의장.",
+    "source": "https://www.industriasch.com.mx"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Industrias CH 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1971, "age": 23, "event": "Began Mexican steel career.", "eventKo": "멕시코 철강 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1991, "age": 43, "event": "Co-founded Industrias CH.", "eventKo": "Industrias CH 공동 창립.", "whyItMatteredKo": "ICH 출발선." },
+    { "year": 2005, "age": 57, "event": "Industrias CH expanded via acquisitions of Mexican steel mills.", "eventKo": "멕시코 철강 공장 인수로 Industrias CH 확장.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2015, "age": 67, "event": "ICH became Mexico's #2 steel producer.", "eventKo": "ICH가 멕시코 2위 철강 생산사가 됨.", "whyItMatteredKo": "2위 단계." },
+    { "year": 2025, "age": 77, "event": "Personal net worth at $3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 30억 달러.", "whyItMatteredKo": "ICH 정점." }
+  ],
+  "turningPoints": [{ "year": 1991, "age": 43, "decisionKo": "Industrias CH 공동 창립", "alternativeKo": "직원 잔류", "outcomeKo": "34년 후 30억 달러 + 멕시코 철강 2위" }],
+  "moneyMechanics": { "primaryRevenueKo": "Industrias CH(ICH.MX) 가족 지분", "industryKo": "철강·금속", "businessModelKo": "멕시코 철근·강철 + 미국 멕시코 국경 무역", "moatKo": "멕시코 철강 2위급 + 34년 트랙", "luckVsSkillKo": "운(40%): 멕시코 인프라 호황. 실력(60%): 34년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Industrias CH; Mexican steel magnate.",
+    "knownForKo": "Industrias CH 공동 창립자; 멕시코 철강 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Steel industry environmental scrutiny.", "controversiesKo": "철강 산업 환경 감시."
+  },
+  "characterKo": { "summaryKo": "Industrias CH 34년 + 멕시코 철강.", "tagsKo": ["Industrias CH", "멕시코 철강"] },
+  "failures": [
+    { "year": 2015, "description": "Steel-price crash compressed Mexican steel margins.", "descriptionKo": "철강 가격 폭락으로 멕시코 철강 마진 압축.", "lesson": "Steel faces commodity-cycle exposure.", "lessonKo": "철강은 상품 사이클 노출 직면." },
+    { "year": 2018, "description": "Trump steel tariffs threatened Mexican exports.", "descriptionKo": "트럼프 철강 관세가 멕시코 수출 위협.", "lesson": "Cross-border steel faces tariff risk.", "lessonKo": "국경 간 철강은 관세 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.8 }, { "year": 2025, "netWorth": 3.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Mexico builds with Mexican steel.", "textKo": "멕시코는 멕시코 철강으로 짓는다.", "context": "On ICH mission", "contextKo": "ICH 미션에 대해", "source": "https://www.industriasch.com.mx" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Sa day pillar in Sa month — 'yangin-gyeok', strong-fire drive, fitting steel-mill magnate.", "summaryKo": "정사 일주 + 사월 양인격(폭발적 추진력·기세)은 철강 용해로의 폭발적 화력과 호응합니다. 정화 일간 + 사화 일지·사화 월지의 극강 화 기운이 결단·기세·용해를 삼중 강조합니다." }
+}

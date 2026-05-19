@@ -1,0 +1,38 @@
+{
+  "id": "1676", "name": "Michelle Zatlyn", "nameKo": "미셸 자틀린",
+  "netWorth": 2.4, "nationality": "CA", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Saskatchewan, Canada", "birthPlaceKo": "캐나다 서스캐처원",
+    "familyBackground": "Born to Canadian family.", "familyBackgroundKo": "캐나다 가정에서 출생.",
+    "education": "McGill University; Harvard MBA.", "educationKo": "맥길 대학교; 하버드 MBA.",
+    "earlyLife": "Co-founded Cloudflare in 2009 at Harvard Business School with Matthew Prince and Lee Holloway; built Cloudflare into major web-infrastructure company; CEO and COO/President.",
+    "earlyLifeKo": "2009 하버드 비즈니스 스쿨에서 매튜 프린스·리 할로웨이와 Cloudflare 공동 창립; Cloudflare를 주요 웹 인프라 회사로 구축; CEO·COO·사장.",
+    "source": "https://en.wikipedia.org/wiki/Cloudflare"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Cloudflare 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 2003, "age": 24, "event": "Began career at Toshiba.", "eventKo": "도시바에서 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2009, "age": 30, "event": "Co-founded Cloudflare at Harvard Business School.", "eventKo": "하버드 비즈니스 스쿨에서 Cloudflare 공동 창립.", "whyItMatteredKo": "Cloudflare 출발선." },
+    { "year": 2019, "age": 40, "event": "Cloudflare IPO on NYSE.", "eventKo": "Cloudflare NYSE 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2022, "age": 43, "event": "Became Cloudflare president/CEO; first female Cloudflare executive in top role.", "eventKo": "Cloudflare 사장·CEO; 첫 여성 Cloudflare 최고 임원.", "whyItMatteredKo": "CEO 단계." },
+    { "year": 2025, "age": 46, "event": "Personal net worth at $2.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 24억 달러.", "whyItMatteredKo": "Cloudflare 정점." }
+  ],
+  "turningPoints": [{ "year": 2009, "age": 30, "decisionKo": "HBS 재학 중 Cloudflare 공동 창립", "alternativeKo": "전형 졸업 후 취업", "outcomeKo": "16년 후 24억 달러 + 웹 인프라 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Cloudflare(NET) 공동 창립자 지분", "industryKo": "웹 인프라·사이버보안", "businessModelKo": "CDN + DDoS 보호 + Workers serverless + 보안 SaaS", "moatKo": "글로벌 웹 인프라 + 16년 트랙", "luckVsSkillKo": "운(35%): 클라우드·보안 부상. 실력(65%): 16년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Cloudflare; president/CEO; female tech founder.",
+    "knownForKo": "Cloudflare 공동 창립자; 사장·CEO; 여성 기술 창립자.",
+    "philanthropy": "Cloudflare Project Galileo for free service to nonprofits.", "philanthropyKo": "Cloudflare Project Galileo가 비영리에 무료 서비스.",
+    "controversies": "Cloudflare faces hosting-of-objectionable-sites scrutiny (8chan, Kiwi Farms).", "controversiesKo": "Cloudflare가 8chan·Kiwi Farms 등 논란 사이트 호스팅 감시."
+  },
+  "characterKo": { "summaryKo": "Cloudflare 공동 창립 + 웹 인프라 거인.", "tagsKo": ["Cloudflare", "CDN", "사이버보안"] },
+  "failures": [
+    { "year": 2022, "description": "Tech-stock decline halved Cloudflare stock from 2021 peak.", "descriptionKo": "기술주 하락이 Cloudflare 주식 2021 정점에서 반토막.", "lesson": "Premium SaaS faces rate-cycle revaluation.", "lessonKo": "프리미엄 SaaS는 금리 사이클 재평가 직면." },
+    { "year": 2019, "description": "Cloudflare hosted 8chan; ethics debates pressured brand briefly.", "descriptionKo": "Cloudflare가 8chan 호스팅; 윤리 논쟁이 브랜드 잠시 압박.", "lesson": "Web infrastructure faces content-moderation ethical risk.", "lessonKo": "웹 인프라는 콘텐츠 조정 윤리 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2020, "netWorth": 1.0 }, { "year": 2021, "netWorth": 3.5 }, { "year": 2023, "netWorth": 1.8 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "The internet should be safer, faster, more reliable.", "textKo": "인터넷은 더 안전하고, 더 빠르고, 더 신뢰할 수 있어야 한다.", "context": "On Cloudflare mission", "contextKo": "Cloudflare 미션에 대해", "source": "https://www.cloudflare.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Jin day pillar in Mi month — 'jeongin-gyeok', formal academic/credential authority, fitting HBS-credentialed tech-CEO.", "summaryKo": "임진 일주 + 미월 정인격(공식 자격·학문·문서 권위)은 HBS 자격 + Cloudflare CEO라는 정통 학문·기술 권위 결합 경로와 호응합니다. 임수 일간의 큰 바다 기질이 거대 자본·데이터 유동과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 미토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

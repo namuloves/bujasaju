@@ -1,0 +1,38 @@
+{
+  "id": "1777", "name": "Edwin Leong", "nameKo": "에드윈 렁 시우흥",
+  "netWorth": 2.3, "nationality": "HK", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Hong Kong", "birthPlaceKo": "홍콩",
+    "familyBackground": "Born to Hong Kong family.", "familyBackgroundKo": "홍콩 가정에서 출생.",
+    "education": "Limited formal higher education.", "educationKo": "제한적 정식 고등 교육.",
+    "earlyLife": "Founded Tai Hung Fai Enterprise — Hong Kong real-estate company; built major Hong Kong commercial real-estate portfolio.",
+    "earlyLifeKo": "Tai Hung Fai Enterprise 창립 — 홍콩 부동산 회사; 주요 홍콩 상업 부동산 포트폴리오 구축.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Tai Hung Fai 창립자 자본." },
+  "careerTimeline": [
+    { "year": 1971, "age": 20, "event": "Began Hong Kong real-estate career.", "eventKo": "홍콩 부동산 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1981, "age": 30, "event": "Founded Tai Hung Fai Enterprise.", "eventKo": "Tai Hung Fai Enterprise 창립.", "whyItMatteredKo": "Tai Hung Fai 출발선." },
+    { "year": 2000, "age": 49, "event": "Major Hong Kong commercial real-estate acquisitions.", "eventKo": "주요 홍콩 상업 부동산 인수.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2019, "age": 68, "event": "Hong Kong protests pressured property values.", "eventKo": "홍콩 시위가 부동산 가치 압박.", "whyItMatteredKo": "위기 단계." },
+    { "year": 2025, "age": 74, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Leong 정점." }
+  ],
+  "turningPoints": [{ "year": 1981, "age": 30, "decisionKo": "Tai Hung Fai 부동산 창립", "alternativeKo": "직원 잔류", "outcomeKo": "44년 후 23억 달러 + 홍콩 부동산 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Tai Hung Fai Enterprise 사적 자본 + 다각화", "industryKo": "상업 부동산", "businessModelKo": "홍콩 상업 빌딩 임대 + 부동산 개발", "moatKo": "홍콩 부동산 + 44년 트랙 + 가족 사적 소유", "luckVsSkillKo": "운(50%): 홍콩 부동산 부상. 실력(50%): 44년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Tai Hung Fai Enterprise; Hong Kong real-estate magnate.",
+    "knownForKo": "Tai Hung Fai Enterprise 창립자; 홍콩 부동산 거물.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; private Hong Kong real-estate low scrutiny.", "controversiesKo": "제한적; 사적 홍콩 부동산 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Tai Hung Fai 44년 + 홍콩 부동산.", "tagsKo": ["Tai Hung Fai Enterprise", "Hong Kong real estate"] },
+  "failures": [
+    { "year": 1997, "description": "Asian financial crisis compressed Hong Kong real-estate prices.", "descriptionKo": "아시아 금융위기로 홍콩 부동산 가격 압축.", "lesson": "Hong Kong real estate faces regional-crisis exposure.", "lessonKo": "홍콩 부동산은 지역 위기 노출 직면." },
+    { "year": 2022, "description": "China real-estate crisis pressured Hong Kong property values.", "descriptionKo": "중국 부동산 위기가 홍콩 부동산 가치 압박.", "lesson": "Hong Kong real estate faces China-cycle exposure.", "lessonKo": "홍콩 부동산은 중국 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Hong Kong real estate is patience under tight skyline.", "textKo": "홍콩 부동산은 빠듯한 스카이라인 하의 인내다.", "context": "On Hong Kong real estate", "contextKo": "홍콩 부동산에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-In day pillar in Hae month — 'pyeonjae-gyeok', large external capital, fitting Hong Kong real-estate magnate.", "summaryKo": "무인 일주 + 해월 편재격(크고 유동적인 외부 자본)은 홍콩 부동산이라는 거대 외부 자본 유동 44년 운영 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본·부동산 안정과 통하고, 인목 일지의 목 기운이 회사 성장을, 해수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

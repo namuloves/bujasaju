@@ -1,0 +1,39 @@
+{
+  "id": "1587", "name": "Kalanithi Maran", "nameKo": "칼라니티 마란",
+  "netWorth": 2.5, "nationality": "IN", "industry": "Media & Entertainment",
+  "childhood": {
+    "birthPlace": "Chennai, India", "birthPlaceKo": "인도 첸나이",
+    "familyBackground": "Born to Murasoli Maran — DMK politician; family of Tamil Nadu political dynasty.", "familyBackgroundKo": "DMK 정치인 무라솔리 마란의 아들; 타밀나두 정치 왕조 가족.",
+    "education": "Loyola College Chennai; Scranton University MBA.", "educationKo": "첸나이 로욜라 칼리지; 스크랜턴 대학교 MBA.",
+    "earlyLife": "Founded Sun TV Network 1993 — Tamil Nadu media empire; built largest Tamil TV broadcaster; major Tamil Nadu media-politics intersection.",
+    "earlyLifeKo": "1993 Sun TV Network 창립 — 타밀나두 미디어 제국; 최대 타밀 TV 방송사 구축; 타밀나두 미디어·정치 교차점 주요.",
+    "source": "https://en.wikipedia.org/wiki/Kalanithi_Maran"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Sun TV Network 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1985, "age": 20, "event": "Began Tamil media career under family connections.", "eventKo": "가족 인맥으로 타밀 미디어 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1993, "age": 28, "event": "Founded Sun TV Network.", "eventKo": "Sun TV Network 창립.", "whyItMatteredKo": "Sun TV 출발선." },
+    { "year": 2006, "age": 41, "event": "Sun TV Network IPO on Indian stock exchanges.", "eventKo": "Sun TV Network 인도 증시 상장.", "whyItMatteredKo": "IPO 단계." },
+    { "year": 2008, "age": 43, "event": "Launched SpiceJet airline; later sold to Ajay Singh.", "eventKo": "SpiceJet 항공사 출시; 이후 아제이 싱에 매각.", "whyItMatteredKo": "SpiceJet 단계." },
+    { "year": 2025, "age": 60, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "Sun TV 정점." }
+  ],
+  "turningPoints": [{ "year": 1993, "age": 28, "decisionKo": "Sun TV Network 창립", "alternativeKo": "정치 경력", "outcomeKo": "32년 후 25억 달러 + 타밀 미디어 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Sun TV Network(SUNTV.NS) 가족 지분", "industryKo": "TV 미디어·방송", "businessModelKo": "타밀 TV·라디오 + 영화 제작 + IPL Sunrisers Hyderabad", "moatKo": "타밀 미디어 1위 + DMK 정치 인맥 + 32년 트랙", "luckVsSkillKo": "운(45%): 인도 미디어 + DMK 인맥. 실력(55%): 32년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Sun TV Network; Tamil Nadu media magnate; nephew of M. Karunanidhi.",
+    "knownForKo": "Sun TV Network 창립자; 타밀나두 미디어 거물; M. 카루나니디의 조카.",
+    "philanthropy": "Maran Foundation supports Tamil culture and education.", "philanthropyKo": "마란 재단이 타밀 문화·교육 자선 지원.",
+    "controversies": "2G spectrum scandal investigations (later cleared); DMK political-business intersection scrutiny.",
+    "controversiesKo": "2G 스펙트럼 스캔들 조사(이후 무죄); DMK 정치·사업 교차점 감시."
+  },
+  "characterKo": { "summaryKo": "Sun TV Network + 타밀 미디어·정치.", "tagsKo": ["Sun TV Network", "SpiceJet", "Tamil media"] },
+  "failures": [
+    { "year": 2011, "description": "2G spectrum scandal implicated Maran; brother Dayanidhi resigned from cabinet.", "descriptionKo": "2G 스펙트럼 스캔들에 마란 연루; 형제 다야니디가 내각 사임.", "lesson": "Politics-business intersection faces corruption-investigation risk.", "lessonKo": "정치·사업 교차점은 부패 조사 리스크 직면." },
+    { "year": 2015, "description": "SpiceJet financial crisis required Ajay Singh rescue.", "descriptionKo": "SpiceJet 재정 위기로 아제이 싱 구제 필요.", "lesson": "Indian aviation faces low-margin sector exposure.", "lessonKo": "인도 항공은 저마진 부문 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Tamil culture has its own broadcasters and its own audience.", "textKo": "타밀 문화는 자체 방송사와 자체 관객을 가진다.", "context": "On Sun TV", "contextKo": "Sun TV에 대해", "source": "https://en.wikipedia.org/wiki/Kalanithi_Maran" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Myo day pillar in Mi month — 'pyeonjae-gyeok', large external capital, fitting media-and-politics magnate.", "summaryKo": "기묘 일주 + 미월 편재격(크고 유동적인 외부 자본)은 타밀 미디어 + 정치 인맥이라는 거대 외부 자본·정보 유동 결합 경로와 호응합니다. 기토 일간의 평야·수용 기질이 다양한 미디어·정치 흡수와 통하고, 묘목 일지의 목 기운이 회사 성장을, 미토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

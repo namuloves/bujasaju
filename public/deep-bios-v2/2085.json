@@ -1,0 +1,39 @@
+{
+  "id": "2085", "name": "Airat Shaimiev", "nameKo": "아이라트 샤이미예프",
+  "netWorth": 1.9, "nationality": "RU", "industry": "Energy",
+  "childhood": {
+    "birthPlace": "Tatarstan, USSR", "birthPlaceKo": "소련 타타르스탄",
+    "familyBackground": "Born to Mintimer Shaimiev — first President of Tatarstan 1991-2010.", "familyBackgroundKo": "1991-2010 초대 타타르스탄 대통령 민티메르 샤이미예프의 아들.",
+    "education": "Russian higher education.", "educationKo": "러시아 고등교육.",
+    "earlyLife": "Shaimiev family heir; major shareholder of TAIF Group; oil-and-petrochemical conglomerate; major Tatarstan business family.",
+    "earlyLifeKo": "샤이미예프 가족 상속인; TAIF Group 주요 주주; 석유·석유화학 대기업; 타타르스탄 주요 사업 가족.",
+    "source": "https://www.taif.ru"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "TAIF + Shaimiev 가족 자본." },
+  "careerTimeline": [
+    { "year": 1985, "age": 23, "event": "Began Russian business career.", "eventKo": "러시아 사업 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1995, "age": 33, "event": "Joined family TAIF Group.", "eventKo": "가족 TAIF Group 합류.", "whyItMatteredKo": "TAIF 단계." },
+    { "year": 2005, "age": 43, "event": "TAIF became major Russian petrochemical group.", "eventKo": "TAIF가 주요 러시아 석유화학 그룹이 됨.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2021, "age": 59, "event": "TAIF petrochemical assets merged with SIBUR; ownership shifted.", "eventKo": "TAIF 석유화학 자산이 SIBUR과 합병; 소유 이동.", "whyItMatteredKo": "SIBUR 단계." },
+    { "year": 2025, "age": 63, "event": "Personal net worth at $1.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 19억 달러.", "whyItMatteredKo": "Shaimiev 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 2021, "age": 59, "decisionKo": "TAIF 석유화학 SIBUR 합병", "alternativeKo": "독립 유지", "outcomeKo": "4년 후 19억 달러 + SIBUR 주식 보유" }],
+  "moneyMechanics": { "primaryRevenueKo": "TAIF + SIBUR 가족 지분 + 다각화", "industryKo": "석유화학·에너지", "businessModelKo": "Nizhnekamskneftekhim·Kazanorgsintez + SIBUR 합병 후 지분", "moatKo": "Shaimiev 가족 + 타타르스탄 정치 인맥", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): 자본 관리." },
+  "personalTraits": {
+    "knownFor": "Shaimiev family heir; major TAIF Group shareholder.",
+    "knownForKo": "샤이미예프 가족 상속인; 주요 TAIF Group 주주.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2022 sanctions concerns on Russian businesses; politically-connected family scrutiny.",
+    "controversiesKo": "2022 러시아 사업 제재 우려; 정치 연결 가족 감시."
+  },
+  "characterKo": { "summaryKo": "Shaimiev 가족 + TAIF Group + SIBUR.", "tagsKo": ["TAIF Group", "Shaimiev family", "Tatarstan"] },
+  "failures": [
+    { "year": 2014, "description": "Ruble crash compressed TAIF dollar valuation.", "descriptionKo": "루블 폭락으로 TAIF 달러 환산 밸류에이션 압축.", "lesson": "Russian wealth faces currency exposure.", "lessonKo": "러시아 부는 통화 노출 직면." },
+    { "year": 2022, "description": "EU/UK sanctions concerns on Russian politically-connected wealth.", "descriptionKo": "EU·영국 제재가 러시아 정치 연결 부 우려.", "lesson": "Politically-connected Russian wealth faces sanctions exposure.", "lessonKo": "정치 연결 러시아 부는 제재 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.6 }, { "year": 2024, "netWorth": 1.8 }, { "year": 2025, "netWorth": 1.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Tatarstan rewards patient sovereignty.", "textKo": "타타르스탄은 인내하는 주권을 보상한다.", "context": "On Tatar wealth", "contextKo": "타타르 부에 대해", "source": "https://www.taif.ru" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Jin day pillar in Myo month — 'jeongin-gyeok', formal academic/credential authority, fitting politically-connected heir.", "summaryKo": "갑진 일주 + 묘월 정인격(공식 자격·학문·문서 권위)은 타타르스탄 정치 권위 가족 자본 정통 승계 경로와 호응합니다. 갑목 일간 + 묘목 월지의 강한 목 기운이 회사 성장을 이중 강조하고, 진토 일지의 토 기운이 자본·자원 안정 기반을 가리킵니다." }
+}

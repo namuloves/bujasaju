@@ -104,12 +104,12 @@ export default function ProfilePage() {
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto px-6 py-8">
-        {/* Hero: Photo left + Info right */}
-        <div className="flex gap-8 items-start">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        {/* Hero: stacks on mobile (photo on top), splits left/right on sm+. */}
+        <div className="flex flex-col sm:flex-row sm:items-start sm:gap-8 gap-5">
           {/* Portrait photo */}
-          <div className="shrink-0">
-            <div className="w-48 h-60 rounded-2xl overflow-hidden bg-gray-200 shadow-lg">
+          <div className="shrink-0 mx-auto sm:mx-0">
+            <div className="w-32 h-32 sm:w-48 sm:h-60 rounded-full sm:rounded-2xl overflow-hidden bg-gray-200 shadow-lg">
               <img
                 src={normalizePhotoUrl(person.photoUrl, person.name)}
                 alt={person.name}
@@ -123,8 +123,8 @@ export default function ProfilePage() {
           </div>
 
           {/* Bio info */}
-          <div className="flex-1 min-w-0 pt-1">
-            <h1 className="text-3xl font-bold text-gray-900">{displayName}</h1>
+          <div className="flex-1 min-w-0 pt-1 text-center sm:text-left">
+            <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">{displayName}</h1>
             {person.nameKo && lang === 'ko' && (
               <p className="text-sm text-gray-400 mt-1">{person.name}</p>
             )}
@@ -132,44 +132,44 @@ export default function ProfilePage() {
               <p className="text-sm text-gray-400 mt-1">{person.nameKo}</p>
             )}
 
-            <div className="flex items-center gap-3 mt-3 text-sm text-gray-600">
-              <span className="font-semibold text-indigo-600 text-lg">
+            <div className="flex flex-wrap items-baseline justify-center sm:justify-start gap-x-3 gap-y-1 mt-3 text-sm text-gray-600">
+              <span className="font-semibold text-indigo-600 text-lg whitespace-nowrap">
                 {formatNetWorth(person.netWorth, lang === 'ko')}
               </span>
               {person.source && (
                 <>
-                  <span className="text-gray-300">·</span>
-                  <span>{person.source}</span>
+                  <span className="hidden sm:inline text-gray-300">·</span>
+                  <span className="whitespace-nowrap">{person.source}</span>
                 </>
               )}
             </div>
 
-            <div className="mt-4 space-y-1.5 text-sm text-gray-600">
-              <p>
-                <span className="text-gray-400 w-16 inline-block">{lang === 'ko' ? '산업' : 'Industry'}</span>
-                <span className="ml-2">{lang === 'ko' ? industryToKorean(person.industry) : person.industry}</span>
+            <div className="mt-4 space-y-1.5 text-sm text-gray-600 text-left">
+              <p className="flex gap-2">
+                <span className="text-gray-400 w-16 shrink-0">{lang === 'ko' ? '산업' : 'Industry'}</span>
+                <span className="min-w-0">{lang === 'ko' ? industryToKorean(person.industry) : person.industry}</span>
               </p>
-              <p>
-                <span className="text-gray-400 w-16 inline-block">{lang === 'ko' ? '생년월일' : 'Born'}</span>
-                <span className="ml-2">{person.birthday.replace(/-/g, '.')}{person.deathDate ? ` - ${person.deathDate.replace(/-/g, '.')}` : ''}</span>
+              <p className="flex gap-2">
+                <span className="text-gray-400 w-16 shrink-0">{lang === 'ko' ? '생년월일' : 'Born'}</span>
+                <span className="min-w-0">{person.birthday.replace(/-/g, '.')}{person.deathDate ? ` - ${person.deathDate.replace(/-/g, '.')}` : ''}</span>
               </p>
               {bio?.childhood?.birthPlace && (
-                <p>
-                  <span className="text-gray-400 w-16 inline-block">{lang === 'ko' ? '출생지' : 'Birthplace'}</span>
-                  <span className="ml-2">{ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo)}</span>
+                <p className="flex gap-2">
+                  <span className="text-gray-400 w-16 shrink-0">{lang === 'ko' ? '출생지' : 'Birthplace'}</span>
+                  <span className="min-w-0">{ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo)}</span>
                 </p>
               )}
               {bio?.childhood?.education && (
-                <p>
-                  <span className="text-gray-400 w-16 inline-block">{lang === 'ko' ? '학력' : 'Education'}</span>
-                  <span className="ml-2">{ko(lang, bio.childhood.education, bio.childhood.educationKo)}</span>
+                <p className="flex gap-2">
+                  <span className="text-gray-400 w-16 shrink-0">{lang === 'ko' ? '학력' : 'Education'}</span>
+                  <span className="min-w-0">{ko(lang, bio.childhood.education, bio.childhood.educationKo)}</span>
                 </p>
               )}
             </div>
 
             {/* Short bio */}
             {person.bio && (
-              <p className="mt-4 text-sm text-gray-500 leading-relaxed line-clamp-3">
+              <p className="mt-4 text-sm text-gray-500 leading-relaxed line-clamp-3 text-left">
                 {lang === 'ko' ? (person.bioKo ?? person.bio) : person.bio}
               </p>
             )}

@@ -1,0 +1,39 @@
+{
+  "id": "1656", "name": "Thomas Steyer", "nameKo": "토머스 스타이어",
+  "netWorth": 2.4, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "New York, USA", "birthPlaceKo": "미국 뉴욕",
+    "familyBackground": "Born to American Jewish family; father was lawyer.", "familyBackgroundKo": "미국 유대인 가정에서 출생; 아버지는 변호사.",
+    "education": "Yale University; Stanford MBA.", "educationKo": "예일 대학교; 스탠퍼드 MBA.",
+    "earlyLife": "Worked at Goldman Sachs; founded Farallon Capital in 1986 — major hedge fund; departed 2012; founded NextGen America climate-action PAC; ran for 2020 Democratic presidential nomination.",
+    "earlyLifeKo": "Goldman Sachs 근무; 1986 Farallon Capital 창립 — 주요 헤지펀드; 2012 떠남; NextGen America 기후 행동 PAC 창립; 2020 민주당 대통령 경선 출마.",
+    "source": "https://en.wikipedia.org/wiki/Tom_Steyer"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Farallon Capital 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1979, "age": 22, "event": "Began at Morgan Stanley after Yale.", "eventKo": "예일 후 Morgan Stanley에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 1986, "age": 29, "event": "Founded Farallon Capital.", "eventKo": "Farallon Capital 창립.", "whyItMatteredKo": "Farallon 출발선." },
+    { "year": 2012, "age": 55, "event": "Departed Farallon; pivoted to climate-activism.", "eventKo": "Farallon 떠남; 기후 활동으로 전환.", "whyItMatteredKo": "Farallon 떠남." },
+    { "year": 2020, "age": 63, "event": "Ran for Democratic presidential nomination; dropped out.", "eventKo": "민주당 대통령 경선 출마; 사퇴.", "whyItMatteredKo": "대선 단계." },
+    { "year": 2025, "age": 68, "event": "Personal net worth at $2.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 24억 달러.", "whyItMatteredKo": "Farallon + 기후 정점." }
+  ],
+  "turningPoints": [{ "year": 2012, "age": 55, "decisionKo": "Farallon 떠나 기후 활동·정치 전환", "alternativeKo": "헤지펀드 잔류", "outcomeKo": "13년 후 24억 달러 + 기후 활동가" }],
+  "moneyMechanics": { "primaryRevenueKo": "Farallon 매각 잔여 + 다각화 + 임팩트 투자", "industryKo": "헤지펀드 + 기후 정치·임팩트", "businessModelKo": "Farallon 매각 자본 + 기후 정치 + 임팩트 투자", "moatKo": "Farallon 매각 자본 + 정치 영향력", "luckVsSkillKo": "운(35%): 헤지펀드 시대. 실력(65%): 26년 Farallon + 기후 활동." },
+  "personalTraits": {
+    "knownFor": "Founder of Farallon Capital; climate activist; 2020 Democratic presidential candidate.",
+    "knownForKo": "Farallon Capital 창립자; 기후 활동가; 2020 민주당 대통령 후보.",
+    "philanthropy": "TomKat Charitable Trust supports climate action and Democratic causes; NextGen America PAC.", "philanthropyKo": "TomKat 자선 신탁이 기후 행동·민주당 자선 지원; NextGen America PAC.",
+    "controversies": "2020 self-funded presidential campaign spent $250M+ for limited support; Farallon coal investments criticized.",
+    "controversiesKo": "2020 자체 자금 대선 캠페인이 제한적 지지로 2억 5,000만+ 달러 지출; Farallon 석탄 투자 비판."
+  },
+  "characterKo": { "summaryKo": "Farallon Capital + 기후 활동 + 2020 대선.", "tagsKo": ["Farallon Capital", "NextGen America", "기후 활동"] },
+  "failures": [
+    { "year": 2020, "description": "Self-funded $250M+ presidential campaign yielded weak support; dropped out.", "descriptionKo": "자체 자금 2억 5,000만+ 달러 대선 캠페인이 약한 지지; 사퇴.", "lesson": "Wealth alone cannot win political primaries.", "lessonKo": "부 하나로 정치 경선을 이길 수 없다." },
+    { "year": 2008, "description": "Financial crisis compressed Farallon AUM; redemptions surged.", "descriptionKo": "금융위기로 Farallon AUM 압축; 환매 급증.", "lesson": "Hedge funds face crisis-redemption risk.", "lessonKo": "헤지펀드는 위기 환매 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.6 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.2 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Climate is the issue of our generation; money should serve it.", "textKo": "기후는 우리 세대의 이슈다; 돈은 그것에 봉사해야 한다.", "context": "On climate activism", "contextKo": "기후 활동에 대해", "source": "https://nextgenamerica.org" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gyeong-O day pillar in O month — 'pyeon-gwan-gyeok', strong external authority/conflict, fitting hedge-fund-to-political-activist pivot.", "summaryKo": "경오 일주 + 오월 편관격(강한 외부 압박·권력 충돌)은 헤지펀드 + 정치·기후 행동이라는 강한 외부 권력 충돌 환경 결합 경로와 호응합니다. 경금 일간의 강한 금속·결단 기질이 정치·금융 결단과 통하고, 오화 일지·오월 월지의 극강 화 기운이 결단·기세·표현을 이중 강조합니다." }
+}

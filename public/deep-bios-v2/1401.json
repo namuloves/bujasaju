@@ -1,0 +1,38 @@
+{
+  "id": "1401", "name": "Wayne Rothbaum", "nameKo": "웨인 로스바움",
+  "netWorth": 2.9, "nationality": "US", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Founded Quogue Capital biotech-focused investment fund 2000; major early-stage biotech investor; backed companies like Acerta Pharma sold to AstraZeneca $7B 2015.",
+    "earlyLifeKo": "2000 Quogue Capital 바이오텍 중심 투자 펀드 창립; 주요 초기 바이오텍 투자자; Acerta Pharma 같은 회사 후원 2015 AstraZeneca에 70억 달러 매각.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Quogue Capital 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1990, "age": 22, "event": "Began US healthcare investing career.", "eventKo": "미국 보건 투자 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2000, "age": 32, "event": "Founded Quogue Capital biotech fund.", "eventKo": "Quogue Capital 바이오텍 펀드 창립.", "whyItMatteredKo": "Quogue 출발선." },
+    { "year": 2015, "age": 47, "event": "Acerta Pharma sold to AstraZeneca for $7B; major exit.", "eventKo": "Acerta Pharma를 AstraZeneca에 70억 달러 매각; 주요 엑시트.", "whyItMatteredKo": "Acerta 매각." },
+    { "year": 2020, "age": 52, "event": "Pandemic biotech boom inflated Quogue portfolio.", "eventKo": "팬데믹 바이오텍 호황이 Quogue 포트폴리오 인플레이션.", "whyItMatteredKo": "팬데믹 단계." },
+    { "year": 2025, "age": 57, "event": "Personal net worth at $2.9B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러.", "whyItMatteredKo": "Quogue 정점." }
+  ],
+  "turningPoints": [{ "year": 2000, "age": 32, "decisionKo": "Quogue Capital 바이오텍 펀드 창립", "alternativeKo": "일반 헤지펀드", "outcomeKo": "25년 후 29억 달러 + 바이오텍 투자가" }],
+  "moneyMechanics": { "primaryRevenueKo": "Quogue Capital 창립자 지분 + 바이오텍 회사 매각", "industryKo": "바이오텍 투자", "businessModelKo": "초기 바이오텍 베팅 + 후원 회사 매각", "moatKo": "Quogue 25년 + Acerta 매각 트랙", "luckVsSkillKo": "운(40%): 바이오텍 사이클. 실력(60%): 25년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Quogue Capital; biotech-focused investor; backed Acerta Pharma exit.",
+    "knownForKo": "Quogue Capital 창립자; 바이오텍 중심 투자자; Acerta Pharma 매각 후원.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; biotech-sector cycle exposure scrutiny.", "controversiesKo": "제한적; 바이오텍 부문 사이클 노출 감시."
+  },
+  "characterKo": { "summaryKo": "Quogue Capital + Acerta Pharma 매각 + 바이오텍.", "tagsKo": ["Quogue Capital", "Acerta Pharma", "바이오텍"] },
+  "failures": [
+    { "year": 2022, "description": "Biotech selloff compressed Quogue portfolio 50%+ briefly.", "descriptionKo": "바이오텍 매도세로 Quogue 포트폴리오 50%+ 잠시 압축.", "lesson": "Concentrated biotech faces cycle exposure.", "lessonKo": "집중 바이오텍은 사이클 노출 직면." },
+    { "year": 2008, "description": "Financial crisis compressed biotech investments briefly.", "descriptionKo": "금융위기로 바이오텍 투자 잠시 압축.", "lesson": "Biotech faces credit-cycle exposure.", "lessonKo": "바이오텍은 신용 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 2.7 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Biotech rewards conviction, not consensus.", "textKo": "바이오텍은 합의가 아닌 확신을 보상한다.", "context": "On biotech investing", "contextKo": "바이오텍 투자에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Sa day pillar in In month — 'jeongin-gyeok', formal academic authority, fitting science-credentialed biotech investor.", "summaryKo": "정사 일주 + 인월 정인격(공식 자격·학문·문서 권위)은 과학 자격 기반 바이오텍 투자라는 정통 학문 권위 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정밀 과학 분석과 통하고, 사화 일지의 강한 화 기운이 결단을, 인목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

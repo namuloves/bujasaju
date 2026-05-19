@@ -1,0 +1,77 @@
+{
+  "id": 3399,
+  "name": "Ryu Hyun-jin",
+  "nameKo": "류현진",
+  "birthday": "1987-03-25",
+  "birthPlace": "Incheon, South Korea",
+  "birthPlaceKo": "대한민국 인천",
+  "netWorth": "$0B",
+  "nationality": "KR",
+  "industry": "Sports",
+  "gender": "M",
+  "ilju": "계유",
+  "gyeokguk": "식신격",
+  "childhood": {
+    "summaryKo": "1987년 인천에서 태어나 동산고를 졸업한 정통 한국 학원 야구 트랙 출신입니다. 부친의 권유로 어릴 때부터 좌완 투수 트랙을 잡았고, 동산고 시절 부상으로 토미존 수술을 받은 뒤에도 본업 트랙을 유지한 정통 한국 1세대 메이저리그 직행 좌완 투수 정체성의 인물입니다.",
+    "capitalTypeKo": "직접 운동 자수성가 — 부친 코칭과 동산고 야구부 자본 위에서 본업(야구) 매출(연봉·계약금·인센티브)을 본인 자리로 직접 쌓은 한국 1세대 메이저리그 직행 좌완 투수 자본입니다.",
+    "sources": ["https://namu.wiki/w/류현진", "https://en.wikipedia.org/wiki/Ryu_Hyun-jin"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "2006년 한화 이글스 신인 드래프트 2차 1순위, 2006년 신인왕·MVP 동시 수상, 2013년 LA 다저스 6년 6100만 달러 포스팅 직행, 2020년 토론토 블루제이스 4년 8000만 달러 FA 계약, 2024년 한화 이글스 8년 170억 원 복귀 계약이 본업 매출 가속의 단계입니다. 본인 연봉·계약금이 자본의 핵심 통로입니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://en.wikipedia.org/wiki/Ryu_Hyun-jin"]
+  },
+  "careerTimeline": [
+    {"year": 2006, "event": "Hanwha Eagles drafts; wins KBO Rookie of Year + MVP", "eventKo": "한화 이글스 2차 1순위 지명 — KBO 사상 최초 신인왕·MVP 동시 수상, 평균자책 2.23", "whyItMatteredKo": "계유 일주의 겨울 작은 물 일간이 본업 매출을 한국 KBO에서 1위 자리로 환원시킨 출발점입니다."},
+    {"year": 2010, "event": "Guides Hanwha to playoffs; consistent KBO ace", "eventKo": "한화 이글스 에이스 자리 7년 유지 — 통산 KBO 평균자책 2.80 좌완 1위", "whyItMatteredKo": "본업 매출 카테고리에서 한국 1위 자리에 단계적으로 환원된 시기입니다."},
+    {"year": 2012, "event": "Posts to MLB; LA Dodgers wins bid for $25.7M", "eventKo": "11월 메이저리그 포스팅 — 다저스가 2570만 달러 포스팅 비용 낙찰", "whyItMatteredKo": "본업 매출의 카테고리가 KBO에서 MLB로 환원된 결정적 분기점입니다."},
+    {"year": 2013, "event": "Signs 6-year, $36M deal with Dodgers — Korean pitcher direct MLB", "eventKo": "12월 LA 다저스와 6년 3600만 달러 계약 — 한국 투수 사상 첫 메이저리그 직행", "whyItMatteredKo": "식신격의 본업 자기 표현이 메이저리그 무대로 환원된 결정적 결단입니다."},
+    {"year": 2015, "event": "Shoulder labrum surgery (May)", "eventKo": "5월 어깨 관절와순 수술 — 두 시즌 재활", "whyItMatteredKo": "본업 매출 카테고리의 가장 큰 부상 사이클이 본인 자리로 환원된 결정적 분기점입니다."},
+    {"year": 2019, "event": "Finishes 2nd in NL Cy Young (ERA 2.32, MLB-best)", "eventKo": "내셔널리그 평균자책 1위 (2.32), 사이영상 2위", "whyItMatteredKo": "본업 매출 카테고리에서 메이저리그 최정상 자리에 환원된 시기입니다."},
+    {"year": 2020, "event": "Signs 4-year, $80M with Toronto Blue Jays (Dec)", "eventKo": "12월 토론토 블루제이스와 4년 8000만 달러 FA 계약 — 한국 투수 사상 최대 FA 계약", "whyItMatteredKo": "본업 매출 카테고리의 자본 가치 정점이 본인 자리에서 환원된 분기점입니다."},
+    {"year": 2024, "event": "Returns to Hanwha Eagles for 8 years, 17 billion won (Feb)", "eventKo": "2월 한화 이글스로 8년 170억 원 — KBO 사상 최대 FA 계약 복귀", "whyItMatteredKo": "메이저리그 11년 본업 매출 카테고리에서 한국 KBO로 환원된 만년의 결단입니다."}
+  ],
+  "turningPoints": [
+    {"year": 2013, "eventKo": "LA 다저스 6년 3600만 달러 — 한국 투수 메이저리그 첫 직행", "impactKo": "계유 일주의 겨울 작은 물 일간이 본업 카테고리를 KBO에서 MLB로 환원시킨 결정적 분기점입니다."},
+    {"year": 2015, "eventKo": "어깨 관절와순 수술 — 두 시즌 재활", "impactKo": "식신격의 본업 표현 흐름이 가장 큰 부상 사이클로 환원된 결정적 분기점입니다."},
+    {"year": 2024, "eventKo": "한화 이글스 8년 170억 원 복귀", "impactKo": "본업 매출 카테고리를 메이저리그에서 한국 KBO로 환원시킨 만년의 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "한화 이글스 8년 170억 원 FA 계약 연봉과 메이저리그 11년 누적 약 1억 1600만 달러 본업 매출, 그리고 광고 후원·인스타그램 카테고리가 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "2006년 신인왕·MVP, 2013년 다저스 직행, 2019년 사이영상 2위, 2020년 토론토 4년 8000만 달러, 2024년 한화 170억이 자본 가치 가속의 다섯 단계입니다.",
+    "structuralAdvantagesKo": "한국 투수 사상 첫 메이저리그 직행 자리와 좌완 변화구 본업 정체성, 그리고 한국 KBO·MLB 양 카테고리에서 본업 매출 1위 기록이 강점입니다.",
+    "currentAssetAllocationKo": "한화 이글스 연봉이 본업 매출의 핵심. 메이저리그 11년 누적 자본과 광고 후원·국내 부동산 자산이 보조 비중입니다."
+  },
+  "failures": [
+    {"year": 2015, "descriptionKo": "5월 어깨 관절와순 수술로 두 시즌(2015·2016) 한 경기도 출전하지 못했고, 본업 매출 카테고리가 분기 단위로 멈췄습니다.", "howTheyOvercameKo": "단계적 재활과 다저스 5선발 복귀로 본업 매출 통로를 회복했고, 2019년 사이영상 2위로 본업 매출 카테고리의 정점을 본인 자리에서 환원시켰습니다.", "lessonKo": "투수 본업 카테고리는 부상 사이클이 분기 단위로 매출을 한꺼번에 멈춥니다. 단계적 재활과 본업 정체성 유지가 만년 매출 통로입니다."},
+    {"year": 2022, "descriptionKo": "토론토 블루제이스 두 번째 시즌에 팔꿈치 수술(2022년 6월 토미존 수술 두 번째)로 시즌의 절반을 결장했고, 본업 매출 가속이 단기 멈췄습니다.", "howTheyOvercameKo": "2023년 8월 복귀, 2024년 한화 이글스 8년 170억 원 FA로 본업 매출 카테고리를 한국으로 환원시켰습니다.", "lessonKo": "투수 본업 카테고리는 만년에 부상 사이클이 더 잦아집니다. 카테고리 환원(메이저리그 → KBO) 결단이 만년 매출 통로입니다."},
+    {"year": 2024, "descriptionKo": "한화 이글스 복귀 후 첫 시즌 평균자책 3.87로 KBO 시절 본업 매출 통로 대비 마진이 둔화됐고, 한국 매체는 '170억 가치 부담' 보도를 반복했습니다.", "howTheyOvercameKo": "2025 시즌 평균자책 2점대 회복과 한화 이글스 가을야구 진출로 본업 매출 가치를 회복했습니다.", "lessonKo": "만년 매출 카테고리에서 계약 규모가 본업 매출 부담으로 직접 환원됩니다. 단계적 회복이 본업 가치 통로입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2013, "netWorth": "$0.005B", "sourceKo": "추정 — 다저스 입단 직후"},
+    {"year": 2020, "netWorth": "$0.04B", "sourceKo": "포브스 추정"},
+    {"year": 2024, "netWorth": "$0.06B", "sourceKo": "포브스 추정 — 한화 복귀 후"},
+    {"year": 2026, "netWorth": "$0B", "sourceKo": "포브스 2026 (운영 자본 미공개)"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["한국 투수 첫 메이저리그 직행", "다저스 6년 3600만 달러", "토론토 4년 8000만 달러", "사이영상 2위", "한화 8년 170억 복귀"],
+  "characterKo": {
+    "strengths": "2013년 한국 투수 사상 첫 메이저리그 직행이라는 카테고리 환원 결단력과, 2015년 어깨 수술과 2022년 팔꿈치 수술 두 번의 큰 부상 사이클을 모두 본업 매출 통로로 회복시킨 만년 운영의 끈기가 강점입니다.",
+    "weaknesses": "투수 본업 카테고리는 부상 사이클이 분기 단위로 본업 매출을 멈춥니다. 만년에 부상 빈도가 잦아져 본업 매출 마진 변동성이 큽니다.",
+    "motivation": "한국 1세대 메이저리그 직행 투수 자리를 본인 세대에 만들고, 본업 매출 카테고리에서 한국 KBO·메이저리그 양 무대를 모두 본인 자리로 환원시키겠다는 정체성 의식이 동력입니다.",
+    "legacy": "한국 투수 사상 첫 메이저리그 직행과 첫 사이영상 2위 기록의 주인공입니다. KBO·MLB·KBO로 본업 카테고리를 두 번 환원한 한국 좌완 투수의 표본이고, 만년에 한국 야구로 돌아온 모델로 다음 세대 한국 투수들의 운영 통로를 만든 인물입니다."
+  },
+  "sajuConnection": {
+    "summary": "His Gye-Yu day pillar (winter small water on rooster metal) and Myo month branch combine into a clear-spring format polished by autumn metal authority. The Sik-Sin structure that channels wealth through self-expression matches an 18-year arc from the 2006 KBO debut to the 2024 Hanwha return.",
+    "summaryKo": "일주는 계유라 겨울 작은 물 일간이 가을 쇠(닭의 자리) 위에 놓인 형국으로, 맑은 샘물이 단단한 외부 권위(편인·정인 학습된 권위)에 다듬어지는 자리입니다. 월지 묘는 봄 나무(토끼의 자리)라 일간을 외부 식상(자기 표현)의 흐름으로 받쳐주는 통로입니다. 격국은 식신격(본업 매출이 본인의 표현·기술로 직접 나오는 흐름)이라, 2006년 신인왕·MVP, 2013년 다저스 직행, 2015년 어깨 수술 회복, 2020년 토론토 8000만 달러, 2024년 한화 170억 복귀까지 모두 '본업의 자기 표현이 외부 권위 무대를 거쳐 본인 자리로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://namu.wiki/w/류현진",
+    "https://en.wikipedia.org/wiki/Ryu_Hyun-jin",
+    "https://ko.wikipedia.org/wiki/류현진",
+    "https://www.mlb.com/player/hyun-jin-ryu-547943",
+    "https://www.hanwhaeagles.co.kr/player/index.do"
+  ]
+}

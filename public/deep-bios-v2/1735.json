@@ -1,0 +1,39 @@
+{
+  "id": "1735", "name": "John de Mol", "nameKo": "요하네스 헨드리쿠스 후베르트 데 몰",
+  "netWorth": 2.3, "nationality": "NL", "industry": "Media & Entertainment",
+  "childhood": {
+    "birthPlace": "Hilversum, Netherlands", "birthPlaceKo": "네덜란드 힐베르쉼",
+    "familyBackground": "Born to Dutch media family.", "familyBackgroundKo": "네덜란드 미디어 가족 출신.",
+    "education": "Dutch higher education.", "educationKo": "네덜란드 고등교육.",
+    "earlyLife": "Co-founded Endemol Entertainment 1994 — TV format company; created Big Brother, The Voice, Deal or No Deal global formats; sold to Telefonica 2007.",
+    "earlyLifeKo": "1994 Endemol Entertainment 공동 창립 — TV 포맷 회사; 빅브라더·더 보이스·딜 오어 노 딜 글로벌 포맷 창출; 2007 Telefonica 매각.",
+    "source": "https://en.wikipedia.org/wiki/John_de_Mol_Jr."
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Endemol 매각 + 다각화." },
+  "careerTimeline": [
+    { "year": 1975, "age": 20, "event": "Began Dutch TV career.", "eventKo": "네덜란드 TV 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1994, "age": 39, "event": "Co-founded Endemol Entertainment.", "eventKo": "Endemol Entertainment 공동 창립.", "whyItMatteredKo": "Endemol 출발선." },
+    { "year": 1999, "age": 44, "event": "Big Brother format launched; became global TV phenomenon.", "eventKo": "빅브라더 포맷 출시; 글로벌 TV 현상이 됨.", "whyItMatteredKo": "Big Brother 단계." },
+    { "year": 2007, "age": 52, "event": "Sold Endemol to Telefonica for $3.4B.", "eventKo": "Endemol을 Telefonica에 34억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "de Mol 정점." }
+  ],
+  "turningPoints": [{ "year": 2007, "age": 52, "decisionKo": "Endemol Telefonica에 34억 달러 매각", "alternativeKo": "독립 운영", "outcomeKo": "18년 후 23억 달러 + TV 포맷 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Endemol 매각 + Talpa Network + 다각화", "industryKo": "TV·미디어", "businessModelKo": "Telefonica 매각 자본 + Talpa Network 네덜란드 미디어", "moatKo": "Big Brother·The Voice 등 글로벌 포맷 라이브러리", "luckVsSkillKo": "운(35%): 글로벌 TV 포맷 부상. 실력(65%): 32년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Endemol; creator of Big Brother, The Voice global TV formats; founder of Talpa Network.",
+    "knownForKo": "Endemol 공동 창립자; 빅브라더·더 보이스 글로벌 TV 포맷 창출자; Talpa Network 창립자.",
+    "philanthropy": "John de Mol Foundation supports Dutch arts.", "philanthropyKo": "존 데 몰 재단이 네덜란드 예술 자선 지원.",
+    "controversies": "2018 The Voice Netherlands sexual-misconduct scandal; sustained Dutch media controversy.",
+    "controversiesKo": "2018 더 보이스 네덜란드 성추행 스캔들; 지속적 네덜란드 미디어 논쟁."
+  },
+  "characterKo": { "summaryKo": "Endemol + Big Brother + Telefonica 매각.", "tagsKo": ["Endemol", "Big Brother", "Talpa Network"] },
+  "failures": [
+    { "year": 2018, "description": "The Voice Netherlands sexual-misconduct scandal; Talpa brand damaged.", "descriptionKo": "더 보이스 네덜란드 성추행 스캔들; Talpa 브랜드 손상.", "lesson": "Reality-TV faces participant-safety risk.", "lessonKo": "리얼리티 TV는 참가자 안전 리스크 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted TV production briefly.", "descriptionKo": "COVID-19이 TV 제작 잠시 혼란.", "lesson": "TV faces pandemic-production exposure.", "lessonKo": "TV는 팬데믹 제작 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Format is patient capital; cultures translate.", "textKo": "포맷은 인내 자본이다; 문화가 번역된다.", "context": "On TV formats", "contextKo": "TV 포맷에 대해", "source": "https://en.wikipedia.org/wiki/John_de_Mol_Jr." }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Sin day pillar in Myo month — 'jeongjae-gyeok', stable wealth accumulation, fitting TV-format builder.", "summaryKo": "갑신 일주 + 묘월 정재격(안정적·정직한 부 축적)은 TV 포맷이라는 안정적 라이브러리 자본 축적 32년 경로와 호응합니다. 갑목 일간 + 묘목 월지의 강한 목 기운이 회사·포맷 성장을 이중 강조하고, 신금 일지의 금 기운이 정밀 미디어 도구를 가리킵니다." }
+}

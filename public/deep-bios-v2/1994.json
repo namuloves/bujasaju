@@ -1,0 +1,39 @@
+{
+  "id": "1994", "name": "Avram Glazer", "nameKo": "에이브럼 A. 글레이저",
+  "netWorth": 2.0, "nationality": "US", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Malcolm Glazer — owner of Tampa Bay Buccaneers NFL and Manchester United FC.", "familyBackgroundKo": "탬파베이 버커니어스 NFL과 맨체스터 유나이티드 FC 소유주 말콤 글레이저의 아들.",
+    "education": "Washington University in St. Louis; American University Law.", "educationKo": "세인트루이스 워싱턴 대학교; 아메리칸 대학교 법학.",
+    "earlyLife": "Joined family Glazer holdings; co-chair of Manchester United FC; co-owner Tampa Bay Buccaneers NFL.",
+    "earlyLifeKo": "가족 글레이저 지주 합류; 맨체스터 유나이티드 FC 공동 의장; 탬파베이 버커니어스 NFL 공동 소유주.",
+    "source": "https://en.wikipedia.org/wiki/Glazer_ownership_of_Manchester_United"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Glazer 가족 자본." },
+  "careerTimeline": [
+    { "year": 1985, "age": 25, "event": "Joined family Glazer holdings.", "eventKo": "가족 글레이저 지주 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2005, "age": 45, "event": "Family acquired Manchester United FC for £790M LBO.", "eventKo": "가족이 맨체스터 유나이티드 FC를 7억 9,000만 파운드 LBO 인수.", "whyItMatteredKo": "Man United 인수." },
+    { "year": 2014, "age": 54, "event": "Father Malcolm Glazer died; took co-control with brothers.", "eventKo": "아버지 말콤 글레이저 사망; 형제와 공동 통제.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2021, "age": 61, "event": "European Super League announcement triggered massive Man United fan revolt; reversed.", "eventKo": "유럽 슈퍼리그 발표가 거대 맨유 팬 반발 촉발; 번복.", "whyItMatteredKo": "슈퍼리그 단계." },
+    { "year": 2025, "age": 65, "event": "Personal net worth at $2B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 20억 달러.", "whyItMatteredKo": "Glazer 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 2014, "age": 54, "decisionKo": "아버지 사망 후 형제와 가족 공동 통제", "alternativeKo": "전문 경영인 위임", "outcomeKo": "11년 후 20억 달러 + Manchester United 공동 소유" }],
+  "moneyMechanics": { "primaryRevenueKo": "Manchester United(MANU) + Tampa Bay Buccaneers 가족 지분", "industryKo": "스포츠 프랜차이즈", "businessModelKo": "Manchester United FC + Tampa Bay Buccaneers NFL", "moatKo": "가족 자본 + 글로벌 축구 + NFL", "luckVsSkillKo": "운(80%): 가족 자본. 실력(20%): 스포츠 운영." },
+  "personalTraits": {
+    "knownFor": "Co-chair of Manchester United FC; co-owner of Tampa Bay Buccaneers NFL; Glazer family member.",
+    "knownForKo": "맨체스터 유나이티드 FC 공동 의장; 탬파베이 버커니어스 NFL 공동 소유주; 글레이저 가족 멤버.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Manchester United LBO put £790M of debt on club; sustained fan protests; 2021 Super League announcement; team performance decline.",
+    "controversiesKo": "맨체스터 유나이티드 LBO가 클럽에 7억 9,000만 파운드 부채; 지속적 팬 시위; 2021 슈퍼리그 발표; 팀 성과 하락."
+  },
+  "characterKo": { "summaryKo": "Man United + Buccaneers + Glazer 가족.", "tagsKo": ["Manchester United", "Tampa Bay Buccaneers", "Glazer family"] },
+  "failures": [
+    { "year": 2021, "description": "Super League announcement triggered mass fan revolt; quickly reversed.", "descriptionKo": "슈퍼리그 발표가 대규모 팬 반발 촉발; 빠르게 번복.", "lesson": "Football-club ownership faces fan-cultural constraint.", "lessonKo": "축구 클럽 소유는 팬 문화 제약 직면." },
+    { "year": 2023, "description": "Manchester United on-field performance declined; Glazer-out protests sustained.", "descriptionKo": "맨체스터 유나이티드 경기 성과 하락; 글레이저 퇴진 시위 지속.", "lesson": "Sports-franchise ownership faces sporting-result pressure.", "lessonKo": "스포츠 프랜차이즈 소유는 경기 결과 압박 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 1.8 }, { "year": 2025, "netWorth": 2.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Football is more than a business; it's a public institution.", "textKo": "축구는 사업 이상이다; 그것은 공공 기관이다.", "context": "On Manchester United", "contextKo": "맨체스터 유나이티드에 대해", "source": "https://en.wikipedia.org/wiki/Glazer_ownership_of_Manchester_United" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-Ja day pillar in Sul month — 'siksin-gyeok', creative output, fitting sports-family co-owner.", "summaryKo": "병자 일주 + 술월 식신격(창의적 결과물·표현)은 스포츠 프랜차이즈 공동 소유라는 창의적 자본 표현 가족 가부장 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 자수 일지의 수 기운이 자본 유동성을, 술토 월지의 토 기운이 자본·프랜차이즈 안정 기반을 가리킵니다." }
+}

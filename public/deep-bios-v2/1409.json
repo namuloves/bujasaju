@@ -1,0 +1,39 @@
+{
+  "id": "1409", "name": "Safra Catz", "nameKo": "사프라 아다 캐츠",
+  "netWorth": 2.9, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Holon, Israel", "birthPlaceKo": "이스라엘 홀론",
+    "familyBackground": "Born to Israeli family; emigrated to US.", "familyBackgroundKo": "이스라엘 가정에서 출생; 미국 이주.",
+    "education": "University of Pennsylvania (Wharton); Penn Law.", "educationKo": "펜실베이니아 대학교(와튼); 펜 로스쿨.",
+    "earlyLife": "Worked at Donaldson, Lufkin & Jenrette in M&A; joined Oracle 1999; rose through senior roles; CEO of Oracle 2014-present (co-CEO 2014-2019 with Mark Hurd).",
+    "earlyLifeKo": "Donaldson, Lufkin & Jenrette M&A 근무; 1999 Oracle 합류; 시니어 역할 진급; 2014년부터 Oracle CEO(2014-2019 마크 허드와 공동 CEO).",
+    "source": "https://en.wikipedia.org/wiki/Safra_Catz"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Oracle CEO 주식 보상." },
+  "careerTimeline": [
+    { "year": 1986, "age": 25, "event": "Began at Donaldson, Lufkin & Jenrette in M&A.", "eventKo": "Donaldson, Lufkin & Jenrette M&A에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 1999, "age": 38, "event": "Joined Oracle as SVP under Larry Ellison.", "eventKo": "래리 엘리슨 아래 Oracle SVP로 합류.", "whyItMatteredKo": "Oracle 출발선." },
+    { "year": 2005, "age": 44, "event": "Led Oracle PeopleSoft hostile takeover for $10.3B.", "eventKo": "Oracle PeopleSoft 적대적 인수 103억 달러 주도.", "whyItMatteredKo": "PeopleSoft 단계." },
+    { "year": 2014, "age": 53, "event": "Became Oracle co-CEO with Mark Hurd.", "eventKo": "마크 허드와 Oracle 공동 CEO.", "whyItMatteredKo": "CEO 단계." },
+    { "year": 2025, "age": 64, "event": "Personal net worth at $2.9B per Forbes Real-Time; Oracle cloud-AI surge.", "eventKo": "포브스 실시간 기준 개인 순자산 29억 달러; Oracle 클라우드 AI 급등.", "whyItMatteredKo": "Oracle 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 38, "decisionKo": "Wall Street 떠나 Oracle 합류", "alternativeKo": "월가 잔류", "outcomeKo": "26년 후 29억 달러 + Oracle CEO" }],
+  "moneyMechanics": { "primaryRevenueKo": "Oracle(ORCL) CEO 주식 보상 + 다각화", "industryKo": "엔터프라이즈 SaaS·클라우드", "businessModelKo": "Oracle 데이터베이스·클라우드 + AI 데이터센터", "moatKo": "Oracle 26년 + CEO 11년", "luckVsSkillKo": "운(30%): 클라우드·AI 부상. 실력(70%): 26년 일관성 + M&A 전문성." },
+  "personalTraits": {
+    "knownFor": "CEO of Oracle since 2014; Wharton-Law-trained tech executive.",
+    "knownForKo": "2014년부터 Oracle CEO; 와튼 법학 자격 기술 임원.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Trump-transition team member 2016 drew controversy; SEC investigations of Oracle Chinese subsidiary 2022.",
+    "controversiesKo": "2016 트럼프 인수 팀 멤버로 논쟁; 2022 SEC가 Oracle 중국 자회사 조사."
+  },
+  "characterKo": { "summaryKo": "Oracle CEO + M&A 전문가.", "tagsKo": ["Oracle CEO", "PeopleSoft 인수", "와튼 법학"] },
+  "failures": [
+    { "year": 2019, "description": "Co-CEO Mark Hurd died; transition stress.", "descriptionKo": "공동 CEO 마크 허드 사망; 전환 스트레스.", "lesson": "Co-CEO succession faces sudden bereavement risk.", "lessonKo": "공동 CEO 승계는 갑작스러운 사별 리스크 직면." },
+    { "year": 2022, "description": "Oracle Chinese subsidiary FCPA bribery settlement; $23M penalty.", "descriptionKo": "Oracle 중국 자회사 FCPA 뇌물 합의; 2,300만 달러 벌금.", "lesson": "Global enterprise faces FCPA-compliance risk.", "lessonKo": "글로벌 기업은 FCPA 컴플라이언스 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2020, "netWorth": 1.0 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.9 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Numbers don't lie; people do.", "textKo": "숫자는 거짓말하지 않는다; 사람이 거짓말한다.", "context": "On Oracle management", "contextKo": "Oracle 경영에 대해", "source": "https://www.oracle.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Jin day pillar in Hae month — 'pyeonjae-gyeok', large external capital, fitting enterprise-CEO managing global cloud.", "summaryKo": "무진 일주 + 해월 편재격(크고 유동적인 외부 자본)은 Oracle 글로벌 클라우드라는 거대 외부 자본 운용 CEO 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 안정과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 해수 월지의 수 기운이 자본·데이터 유동성을 가리킵니다." }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1516", "name": "Michael Hintze", "nameKo": "마이클 힌체",
+  "netWorth": 2.7, "nationality": "AU", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "China (born to Australian missionaries)", "birthPlaceKo": "중국(호주 선교사 부모)",
+    "familyBackground": "Born to Australian missionary family in China.", "familyBackgroundKo": "중국에서 호주 선교사 가족 출생.",
+    "education": "University of Sydney; Harvard MBA.", "educationKo": "시드니 대학교; 하버드 MBA.",
+    "earlyLife": "Australian Army officer; worked at Salomon Brothers, Goldman Sachs, Credit Suisse; founded CQS Capital hedge fund 1999 in London.",
+    "earlyLifeKo": "호주 육군 장교; Salomon Brothers·Goldman Sachs·Credit Suisse 근무; 1999 런던에서 CQS Capital 헤지펀드 창립.",
+    "source": "https://en.wikipedia.org/wiki/Michael_Hintze"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "CQS Capital 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1981, "age": 28, "event": "Began at Salomon Brothers after Harvard MBA.", "eventKo": "하버드 MBA 후 Salomon Brothers에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 1996, "age": 43, "event": "Joined Credit Suisse as London-based credit trader.", "eventKo": "런던 기반 신용 트레이더로 Credit Suisse 합류.", "whyItMatteredKo": "Credit Suisse 단계." },
+    { "year": 1999, "age": 46, "event": "Founded CQS Capital hedge fund.", "eventKo": "CQS Capital 헤지펀드 창립.", "whyItMatteredKo": "CQS 출발선." },
+    { "year": 2015, "age": 62, "event": "CQS managed $14B+ AUM at peak.", "eventKo": "CQS가 정점에서 140억+ AUM 운용.", "whyItMatteredKo": "정점 단계." },
+    { "year": 2025, "age": 72, "event": "Personal net worth at $2.7B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 27억 달러.", "whyItMatteredKo": "Hintze 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 46, "decisionKo": "Credit Suisse 떠나 CQS Capital 창립", "alternativeKo": "Credit Suisse 잔류", "outcomeKo": "26년 후 27억 달러 + 런던 헤지펀드 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "CQS Capital 창립자 지분 + 수수료", "industryKo": "헤지펀드·신용", "businessModelKo": "신용·전환사채 헤지펀드 + 분기별 수수료", "moatKo": "CQS 26년 트랙 + 신용 시장 전문성", "luckVsSkillKo": "운(35%): 신용 시장 시대. 실력(65%): 26년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of CQS Capital; UK Conservative Party major donor; UK life peer Lord Hintze.",
+    "knownForKo": "CQS Capital 창립자; 영국 보수당 주요 후원자; 영국 종신 귀족 힌체 경.",
+    "philanthropy": "Hintze Family Foundation supports UK arts (Royal Opera House); Catholic causes.", "philanthropyKo": "힌체 가족 재단이 영국 예술(로열 오페라 하우스)·가톨릭 자선 지원.",
+    "controversies": "Major Conservative Party donations drew Labour criticism; CQS Vatican-funds scrutiny.",
+    "controversiesKo": "주요 보수당 후원금이 노동당 비판 야기; CQS 바티칸 펀드 감시."
+  },
+  "characterKo": { "summaryKo": "CQS Capital 26년 + 영국 보수당 후원자.", "tagsKo": ["CQS Capital", "Conservative Party", "Lord Hintze"] },
+  "failures": [
+    { "year": 2020, "description": "COVID-19 credit-market disruption compressed CQS portfolio.", "descriptionKo": "COVID-19 신용 시장 혼란이 CQS 포트폴리오 압축.", "lesson": "Credit hedge funds face liquidity-crisis exposure.", "lessonKo": "신용 헤지펀드는 유동성 위기 노출 직면." },
+    { "year": 2023, "description": "CQS sold to Manulife post-redemption pressures; structural cycle.", "descriptionKo": "환매 압박 후 CQS Manulife 매각; 구조적 사이클.", "lesson": "Hedge funds face structural fee compression.", "lessonKo": "헤지펀드는 구조적 수수료 압축 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.7 }, { "year": 2020, "netWorth": 2.2 }, { "year": 2024, "netWorth": 2.5 }, { "year": 2025, "netWorth": 2.7 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Credit markets reward patience and discipline.", "textKo": "신용 시장은 인내와 규율을 보상한다.", "context": "On credit investing", "contextKo": "신용 투자에 대해", "source": "https://en.wikipedia.org/wiki/Michael_Hintze" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gi-Myo day pillar in Mi month — 'geollok-gyeok', strong-self drive, fitting Army-trained credit-hedge-fund founder.", "summaryKo": "기묘 일주 + 미월 건록격(강한 자기 본기·스스로 일어서는 힘)은 군 + 월가 + CQS 창립이라는 자기 본기 강한 경로와 호응합니다. 기토 일간의 평야·수용 기질이 다양한 환경 적응과 통하고, 묘목 일지의 목 기운이 회사 성장을, 미토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

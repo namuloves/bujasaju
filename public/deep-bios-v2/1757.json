@@ -1,0 +1,39 @@
+{
+  "id": "1757", "name": "Sergei Sudarikov", "nameKo": "세르게이 수다리코프",
+  "netWorth": 2.3, "nationality": "RU", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Russia", "birthPlaceKo": "러시아",
+    "familyBackground": "Born to Russian family.", "familyBackgroundKo": "러시아 가정에서 출생.",
+    "education": "Russian higher education.", "educationKo": "러시아 고등교육.",
+    "earlyLife": "Built Russian financial-services career; founded Region Group — Russian investment-management; major Russian financier.",
+    "earlyLifeKo": "러시아 금융 서비스 경력 구축; Region Group 창립 — 러시아 투자 관리; 주요 러시아 금융가.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Region Group 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1995, "age": 24, "event": "Began Russian financial career.", "eventKo": "러시아 금융 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 2003, "age": 32, "event": "Founded Region Group investment management.", "eventKo": "Region Group 투자 관리 창립.", "whyItMatteredKo": "Region 출발선." },
+    { "year": 2010, "age": 39, "event": "Region Group became major Russian fixed-income manager.", "eventKo": "Region Group이 주요 러시아 채권 운용사가 됨.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2020, "age": 49, "event": "Russian sanctions and pandemic disrupted Russian finance.", "eventKo": "러시아 제재·팬데믹이 러시아 금융 혼란.", "whyItMatteredKo": "위기 단계." },
+    { "year": 2025, "age": 54, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Region 정점." }
+  ],
+  "turningPoints": [{ "year": 2003, "age": 32, "decisionKo": "Region Group 투자 관리 창립", "alternativeKo": "은행 잔류", "outcomeKo": "22년 후 23억 달러 + 러시아 채권 운용사" }],
+  "moneyMechanics": { "primaryRevenueKo": "Region Group 사적 자본", "industryKo": "투자 관리·러시아 금융", "businessModelKo": "러시아 채권·투자 운용 + 사적 자본", "moatKo": "러시아 금융 인맥 + 22년 트랙", "luckVsSkillKo": "운(45%): 러시아 금융 부상. 실력(55%): 22년 일관성." },
+  "personalTraits": {
+    "knownFor": "Founder of Region Group; Russian investment manager.",
+    "knownForKo": "Region Group 창립자; 러시아 투자 관리자.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2022 EU/UK sanctions concerns on Russian financiers; Russian-finance scrutiny.",
+    "controversiesKo": "2022 러시아 금융가 EU·영국 제재 우려; 러시아 금융 감시."
+  },
+  "characterKo": { "summaryKo": "Region Group 22년 + 러시아 투자 관리.", "tagsKo": ["Region Group", "Russian finance"] },
+  "failures": [
+    { "year": 2014, "description": "Ruble crash + Crimea sanctions compressed Russian financial sector.", "descriptionKo": "루블 폭락 + 크림 제재로 러시아 금융 부문 압축.", "lesson": "Russian finance faces currency-and-sanctions exposure.", "lessonKo": "러시아 금융은 통화·제재 노출 직면." },
+    { "year": 2022, "description": "Ukraine war sanctions further compressed Russian assets.", "descriptionKo": "우크라이나 전쟁 제재가 러시아 자산 추가 압축.", "lesson": "Russian wealth faces post-2022 sanctions exposure.", "lessonKo": "러시아 부는 2022 후 제재 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Russian finance is patience under sanctions.", "textKo": "러시아 금융은 제재 하의 인내다.", "context": "On Russian finance", "contextKo": "러시아 금융에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Yu day pillar in Sa month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting Russian-sanctions financier.", "summaryKo": "정유 일주 + 사월 편관격(강한 외부 압박·권력 충돌)은 러시아 제재라는 강한 외부 권력 압박 환경의 금융 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정밀 금융과 통하고, 유금 일지의 금 기운이 정밀 자본 도구를, 사화 월지의 강한 화 기운이 결단을 가리킵니다." }
+}

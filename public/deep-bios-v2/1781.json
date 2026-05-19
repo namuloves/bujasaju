@@ -1,0 +1,39 @@
+{
+  "id": "1781", "name": "Bahaa Hariri", "nameKo": "바하 엘딘 라피크 알하리리",
+  "netWorth": 2.3, "nationality": "LB", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Sidon, Lebanon", "birthPlaceKo": "레바논 시돈",
+    "familyBackground": "Born to Rafic Hariri — former Prime Minister of Lebanon assassinated 2005.", "familyBackgroundKo": "2005 암살된 전 레바논 총리 라피크 하리리의 아들.",
+    "education": "Georgetown University.", "educationKo": "조지타운 대학교.",
+    "earlyLife": "Joined family Hariri business empire (Saudi Oger construction); built independent real-estate investments after sibling-inheritance dispute.",
+    "earlyLifeKo": "가족 하리리 사업 제국(Saudi Oger 건설) 합류; 형제 상속 분쟁 후 독자 부동산 투자 구축.",
+    "source": "https://en.wikipedia.org/wiki/Bahaa_Hariri"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "하리리 가족 자본." },
+  "careerTimeline": [
+    { "year": 1985, "age": 19, "event": "Joined family Saudi Oger construction.", "eventKo": "가족 Saudi Oger 건설 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 2005, "age": 39, "event": "Father Rafic Hariri assassinated in Beirut bombing; family inheritance.", "eventKo": "아버지 라피크 하리리가 베이루트 폭탄 테러로 암살; 가족 상속.", "whyItMatteredKo": "암살 단계." },
+    { "year": 2010, "age": 44, "event": "Sibling inheritance disputes; took independent real-estate path.", "eventKo": "형제 상속 분쟁; 독자 부동산 경로.", "whyItMatteredKo": "분쟁 단계." },
+    { "year": 2020, "age": 54, "event": "Diversified real-estate holdings across Europe and Middle East.", "eventKo": "유럽·중동 부동산 보유 다각화.", "whyItMatteredKo": "다각화 단계." },
+    { "year": 2025, "age": 59, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Hariri 정점." }
+  ],
+  "turningPoints": [{ "year": 2010, "age": 44, "decisionKo": "형제 상속 분쟁 후 독자 부동산 경로", "alternativeKo": "Saudi Oger 잔류", "outcomeKo": "15년 후 23억 달러 + 다각화 부동산" }],
+  "moneyMechanics": { "primaryRevenueKo": "하리리 가족 자본 + 부동산 + 다각화", "industryKo": "부동산·다각화", "businessModelKo": "유럽·중동 부동산 + 가족 자본", "moatKo": "하리리 가족 + 정치 인맥", "luckVsSkillKo": "운(75%): 가족 자본. 실력(25%): 다각화 운영." },
+  "personalTraits": {
+    "knownFor": "Son of assassinated Rafic Hariri; brother of Saad Hariri; Lebanese-Saudi business heir.",
+    "knownForKo": "암살된 라피크 하리리의 아들; 사드 하리리의 형제; 레바논·사우디 사업 상속인.",
+    "philanthropy": "Hariri Foundation supports Lebanese education.", "philanthropyKo": "하리리 재단이 레바논 교육 자선 지원.",
+    "controversies": "2010 Saudi Oger bankruptcy; family inheritance disputes; Lebanese political-funding scrutiny.",
+    "controversiesKo": "2010 Saudi Oger 파산; 가족 상속 분쟁; 레바논 정치 자금 감시."
+  },
+  "characterKo": { "summaryKo": "하리리 가족 + 형제 분쟁 + 부동산 다각화.", "tagsKo": ["Hariri family", "Saudi Oger", "Lebanon"] },
+  "failures": [
+    { "year": 2017, "description": "Saudi Oger collapsed with massive debts; family business empire destroyed.", "descriptionKo": "Saudi Oger이 거대 부채와 함께 붕괴; 가족 사업 제국 파괴.", "lesson": "Politically-connected Saudi construction faces sovereign-favor risk.", "lessonKo": "정치 연결 사우디 건설은 주권 호의 리스크 직면." },
+    { "year": 2005, "description": "Father's assassination triggered Lebanese political crisis; family scattered.", "descriptionKo": "아버지 암살이 레바논 정치 위기 야기; 가족 분산.", "lesson": "Political-figure family wealth faces violent-loss risk.", "lessonKo": "정치 인물 가족 부는 폭력적 손실 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 2.0 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Lebanese wealth lives across continents.", "textKo": "레바논 부는 대륙을 가로질러 산다.", "context": "On Lebanese diaspora", "contextKo": "레바논 디아스포라에 대해", "source": "https://en.wikipedia.org/wiki/Bahaa_Hariri" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in Jin month — 'jeongin-gyeok', formal academic/credential authority, fitting Georgetown-credentialed political-family heir.", "summaryKo": "을묘 일주 + 진월 정인격(공식 자격·학문·문서 권위)은 조지타운 자격 + 정치 가족 정통 권위 결합 경로와 호응합니다. 을목 일간 + 묘목 일지의 강한 목 기운이 가족·자본 성장을 이중 강조하고, 진토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

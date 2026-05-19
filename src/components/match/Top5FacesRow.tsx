@@ -9,10 +9,12 @@
  *   - 첫 번째 자리는 한국 부자 우선 (pickTop3WithKorean)
  */
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import type { EnrichedPerson } from '@/lib/saju/types';
 import { useLanguage } from '@/lib/i18n';
 import { industryToKorean } from '@/components/FilterPanel';
+import { fetchDeepBioV2, hasDeepBioV2Sync } from '@/lib/deepBio';
 
 const USD_TO_KRW = 1480.71;
 function formatWorthKo(netWorthB: number): string {
@@ -229,21 +231,181 @@ function trimBioForRow(text: string | undefined | null, requireKorean: boolean):
 }
 
 /**
+ * Clean a Korean blurb for display in a Top3 row:
+ *  - Strips parenthetical Latin text like "(María Asunción …)" or "(CG)"
+ *    that bilingual records leak into otherwise-Korean copy.
+ *  - Collapses the resulting whitespace.
+ *  - Replaces the person's full Korean / Latin name with the short
+ *    middle-name-dropped display name (e.g. "마리아 아순시온 …" → "마리아 라레기"),
+ *    so we don't repeat a long romanised name inside the blurb.
+ */
+function cleanBlurb(raw: string, person: EnrichedPerson, displayName: string): string {
+  if (!raw) return raw;
+  let s = raw;
+
+  // 1) Drop parens whose contents are mostly Latin / punctuation. These
+  //    are almost always the romanised name or English brand expansion.
+  s = s.replace(/\s*\(([^)]+)\)/g, (_match, inside: string) => {
+    const hangulCount = (inside.match(/[가-힣]/g) || []).length;
+    const latinCount = (inside.match(/[A-Za-z]/g) || []).length;
+    // Keep the parens when they're Korean-dominant (rare — usually a
+    // legitimate clarification). Strip otherwise.
+    return hangulCount > latinCount ? `(${inside})` : '';
+  });
+
+  // 2) Replace the canonical Korean full name with the short display name.
+  //    `dropMiddleNames` already produced the short form upstream, so we
+  //    just match the original `nameKo` text and swap it.
+  if (person.nameKo && person.nameKo !== displayName && person.nameKo.length >= 4) {
+    s = s.split(person.nameKo).join(displayName);
+  }
+
+  // 3) Tidy: collapse runs of spaces, remove space before terminators.
+  s = s.replace(/ {2,}/g, ' ').replace(/\s+([,.])/g, '$1').trim();
+  return s;
+}
+
+/**
+ * Build a Korean blurb from a v2 deep bio.
+ *
+ * v2 records have inconsistent fill levels — some entries have a long
+ * `capitalOrigin.descriptionKo` paragraph (윤동한), others stuff one key
+ * sentence in `capitalOrigin.explanationKo` and leave a much richer
+ * `careerTimeline` (노먼 에드워즈). We walk a priority chain that prefers
+ * paragraph-grade copy first, then stitches a paragraph from the
+ * career timeline when only short keyword copy is available.
+ *
+ * The on-disk records have also drifted from the published TypeScript
+ * schema, so everything is read through `unknown` casts.
+ */
+function blurbFromDeepBioV2(bio: unknown): string {
+  if (!bio || typeof bio !== 'object') return '';
+  const b = bio as Record<string, unknown>;
+  const cap = (s: string) => (s.length > 320 ? s.slice(0, 318).trimEnd() + '…' : s);
+
+  // 1) Paragraph-grade capitalOrigin description (윤동한, 이명희).
+  const co = b.capitalOrigin as Record<string, unknown> | undefined;
+  const coLong = (() => {
+    const desc = (co?.descriptionKo ?? co?.explanationKo) as string | undefined;
+    const trimmed = desc?.trim() ?? '';
+    return trimmed.length >= 50 ? trimmed : '';
+  })();
+  if (coLong) return cap(coLong);
+
+  // 2) Paragraph-grade childhood.summaryKo.
+  const child = b.childhood as Record<string, unknown> | undefined;
+  const childSummary = (child?.summaryKo as string | undefined)?.trim() ?? '';
+  if (childSummary.length >= 50) return cap(childSummary);
+
+  // 3) Stitch a paragraph from careerTimeline + a one-line wrapper.
+  //    e.g. 노먼 → "1983년 캘거리 로펌 합류; 에너지 투자 경력 시작. 1989년 ...
+  //    2010년 CNRL이 캐나다 최대 석유·가스 생산자 중 하나가 됨."
+  const timeline = b.careerTimeline as Array<Record<string, unknown>> | undefined;
+  if (Array.isArray(timeline) && timeline.length > 0) {
+    const sentences: string[] = [];
+    // Up to 4 events, only ones with a Korean event description.
+    for (const e of timeline.slice(0, 4)) {
+      const year = e.year;
+      const ev = (e.eventKo as string | undefined)?.trim();
+      if (!ev) continue;
+      const yearStr = typeof year === 'number' ? `${year}년 ` : '';
+      // Make sure each fragment ends with a period.
+      const punctuated = /[.!?。]$/.test(ev) ? ev : `${ev}.`;
+      sentences.push(`${yearStr}${punctuated}`);
+    }
+    if (sentences.length >= 2) {
+      // Prepend the keyword line from capitalOrigin if it's short — it
+      // often summarises the whole story in 5 words.
+      const coShort = (co?.descriptionKo ?? co?.explanationKo) as string | undefined;
+      const lead = coShort?.trim();
+      const head = lead && lead.length > 0 && lead.length < 50
+        ? (/[.!?。]$/.test(lead) ? `${lead} ` : `${lead}. `)
+        : '';
+      return cap(head + sentences.join(' '));
+    }
+  }
+
+  // 4) Last resort: short capitalOrigin or childhood notes — these are
+  //    barely sentences but better than nothing for sparser records.
+  const coShort = ((co?.descriptionKo ?? co?.explanationKo) as string | undefined)?.trim() ?? '';
+  if (coShort) return coShort;
+  const childEarly = (child?.earlyLifeKo as string | undefined)?.trim() ?? '';
+  if (childEarly) return cap(childEarly);
+  const capType = (child?.capitalTypeKo as string | undefined)?.trim() ?? '';
+  if (capType) return capType;
+
+  return '';
+}
+
+/**
  * "How they made their money" — prefer the real biography (bioKo first,
  * then bio) so the row reflects ground truth. Fall back to a generated
  * sentence built from industry / company only when the bio is unusable.
  */
-function wealthStoryKo(person: EnrichedPerson, lang: string): string {
+/**
+ * Stitch a one-sentence "context" tail onto an enriched bioKo so rows
+ * without a v2 deep bio aren't dramatically shorter than rows that have
+ * one. We add only facts that come straight from the dataset (industry,
+ * birth year, net worth) — never claims like "자수성가" that we can't
+ * verify.
+ */
+function bioContextTailKo(person: EnrichedPerson): string {
+  const fragments: string[] = [];
+
+  const industry = industryNounKo(person.industry);
+  const hasKoIndustry = industry && industry !== person.industry;
+  const year =
+    person.birthday && /^\d{4}/.test(person.birthday)
+      ? Number(person.birthday.slice(0, 4))
+      : null;
+  const validYear = year != null && year > 1900 && year < 2050;
+
+  // "1963년생으로 식음료 분야에서 활동하고 있다."
+  if (validYear && hasKoIndustry) {
+    fragments.push(`${year}년생으로 ${industry} 분야에서 활동하고 있다.`);
+  } else if (hasKoIndustry) {
+    fragments.push(`${industry} 분야에서 활동하고 있다.`);
+  } else if (validYear) {
+    fragments.push(`${year}년생이다.`);
+  }
+
+  if (typeof person.netWorth === 'number' && person.netWorth > 0) {
+    const eok = person.netWorth * 10 * 1480.71;
+    const jo = eok / 10000;
+    const formatted =
+      jo >= 1
+        ? `약 ${jo >= 10 ? Math.round(jo) : jo.toFixed(1)}조 원`
+        : `약 ${Math.round(eok).toLocaleString('ko-KR')}억 원`;
+    fragments.push(`자산 규모는 ${formatted} 수준이다.`);
+  }
+
+  return fragments.join(' ');
+}
+
+function wealthStoryKo(person: EnrichedPerson, lang: string, deepBioV2?: unknown): string {
   if (lang !== 'ko') return '';
 
-  // 1) Korean bio — most informative, no translation gymnastics.
+  // 0) Deep bio v2 (highest fidelity — has founding year, milestones).
+  //    e.g. 윤동한 → "1990년 미국 KOLMAR와 합작으로 '한국콜마' 창업…"
+  const fromDeep = blurbFromDeepBioV2(deepBioV2);
+  if (fromDeep) return fromDeep;
+
+  // 1) Korean bio — most informative for entries without a deep bio.
+  //    We append a one-sentence context tail (industry, birth year,
+  //    net worth) so the row carries comparable weight to a deep-bio row.
   const fromBioKo = trimBioForRow(person.bioKo, true);
-  if (fromBioKo) return fromBioKo;
+  if (fromBioKo) {
+    const tail = bioContextTailKo(person);
+    return tail ? `${fromBioKo} ${tail}` : fromBioKo;
+  }
 
   // 2) Some records (e.g. 이명희) park Korean copy in the English `bio`
   //    field instead of `bioKo`. Reuse it if it's actually Korean.
   const fromBio = trimBioForRow(person.bio, true);
-  if (fromBio) return fromBio;
+  if (fromBio) {
+    const tail = bioContextTailKo(person);
+    return tail ? `${fromBio} ${tail}` : fromBio;
+  }
 
   // 3) Generic, fact-light fallback. Keep it neutral — we don't trust
   //    `wealthOrigin` enough to make self-made / inherited claims here.
@@ -255,14 +417,128 @@ function wealthStoryKo(person: EnrichedPerson, lang: string): string {
   // Neutral fallback — describe the industry / company without claiming
   // self-made vs inherited. `wealthOrigin` in the dataset is unreliable
   // (e.g. 이명희 marked self-made though she inherited Samsung lineage),
-  // so we say less rather than say it wrong.
+  // so we say less rather than say it wrong. We deliberately omit the
+  // "상세 프로필을 참고하세요" tail — pointing users elsewhere from the
+  // result row read as filler.
   if (co && industry)
-    return `${coObj} 중심으로 ${industry} 분야에서 활약하는 부자. 구체적인 부의 형성 과정은 상세 프로필을 참고하세요.`;
+    return `${coObj} 중심으로 ${industry} 분야에서 활약하는 부자.`;
   if (co)
-    return `${co} 관련 사업으로 부를 일군 부자. 자세한 내용은 상세 프로필을 참고하세요.`;
+    return `${co} 관련 사업으로 부를 일군 부자.`;
   if (industry)
-    return `${industry} 분야에서 활약하는 부자. 자세한 내용은 상세 프로필을 참고하세요.`;
-  return '큰 자산을 일군 부자. 자세한 내용은 상세 프로필을 참고하세요.';
+    return `${industry} 분야에서 활약하는 부자.`;
+  return '';
+}
+
+/**
+ * One row in the Top3 list. Split out as its own component so each row
+ * can hold its own deep-bio fetch state without breaking the rules of
+ * hooks (a parent-level useState array would also work but this reads
+ * cleaner).
+ */
+function Top3Row({
+  person,
+  selectedId,
+  lang,
+}: {
+  person: EnrichedPerson;
+  selectedId: string | null | undefined;
+  lang: string;
+}) {
+  const [deepBio, setDeepBio] = useState<unknown>(null);
+
+  // Only kick off the fetch if the index says we have a v2 bio for this
+  // person — saves a 404 round-trip for entries that aren't covered yet.
+  useEffect(() => {
+    let cancelled = false;
+    if (hasDeepBioV2Sync(person.id)) {
+      fetchDeepBioV2(person.id).then((b) => {
+        if (!cancelled) setDeepBio(b);
+      });
+    }
+    return () => {
+      cancelled = true;
+    };
+  }, [person.id]);
+
+  const isActive = selectedId != null && person.id === selectedId;
+  const displayName = dropMiddleNames(
+    lang === 'ko' ? (person.nameKo || person.name) : person.name,
+  );
+  const meta = metaLineKo(person, lang);
+  const rawBlurb = wealthStoryKo(person, lang, deepBio);
+  const blurb = cleanBlurb(rawBlurb, person, displayName);
+
+  return (
+    <li
+      className={`rounded-xl transition-colors ${
+        isActive ? 'bg-gray-100' : 'hover:bg-gray-50'
+      }`}
+    >
+      {/* Two-column card:
+            left  = photo (top) + name/meta/networth (under photo)
+            right = bio paragraph + "부자 일주 보기" CTA
+          Whole card area links to the profile; the CTA is its own anchor
+          so it's a distinct tap target on touch devices. */}
+      <Link
+        href={`/profile/${person.id}`}
+        className="block flex items-start gap-3 text-left px-3 pt-3 pb-2"
+      >
+        {/* Left column — fixed-width photo column with the person's
+            identity stacked below. */}
+        <div className="shrink-0 w-20 sm:w-24 text-center">
+          <div className="relative w-16 h-16 sm:w-20 sm:h-20 mx-auto">
+            <div className="w-full h-full rounded-full overflow-hidden bg-gray-200">
+              <img
+                src={normalizePhoto(person.photoUrl, person.name)}
+                alt={person.name}
+                className="w-full h-full object-cover"
+                loading="lazy"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=200&background=random&bold=true`;
+                }}
+              />
+            </div>
+          </div>
+          <p className="mt-2 text-[13px] font-semibold text-gray-900 leading-tight">
+            {displayName}
+          </p>
+          {meta && (
+            <p className="mt-0.5 text-[10.5px] text-gray-500 leading-tight break-keep">
+              {meta}
+            </p>
+          )}
+          <p className="mt-1 text-[12px] font-bold text-gray-900">
+            {formatWorthKo(person.netWorth)}
+          </p>
+        </div>
+
+        {/* Right column — bio paragraph. Flexes to fill the remaining
+            width and clamps to a tidy block so very long deep-bio paragraphs
+            don't push the card height beyond the photo column. */}
+        <div className="min-w-0 flex-1 pt-1">
+          {blurb ? (
+            <p className="text-[12px] text-gray-700 leading-snug line-clamp-6">
+              {blurb}
+            </p>
+          ) : (
+            <p className="text-[12px] text-gray-400">상세 소개 준비중.</p>
+          )}
+        </div>
+      </Link>
+
+      {/* Per-row secondary CTA — outside the card link so it's a
+          separate clickable target with its own affordance. */}
+      <div className="px-3 pb-3 pt-1">
+        <Link
+          href={`/profile/${person.id}`}
+          className="block w-full text-center text-[12px] font-medium text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:border-gray-300 rounded-lg py-1.5 transition-colors"
+        >
+          {displayName} 부자 일주 보기
+        </Link>
+      </div>
+    </li>
+  );
 }
 
 export default function Top5FacesRow({ people, selectedId }: Props) {
@@ -273,59 +549,14 @@ export default function Top5FacesRow({ people, selectedId }: Props) {
 
   return (
     <ul className="flex flex-col gap-2 max-w-xl mx-auto">
-      {top3.map((person) => {
-        const isActive = selectedId != null && person.id === selectedId;
-        const displayName = dropMiddleNames(
-          lang === 'ko' ? (person.nameKo || person.name) : person.name,
-        );
-        const meta = metaLineKo(person, lang);
-        const blurb = wealthStoryKo(person, lang);
-
-        return (
-          <li key={person.id}>
-            <Link
-              href={`/profile/${person.id}`}
-              className={`block w-full flex items-start gap-3 text-left px-3 py-2.5 rounded-xl transition-colors ${
-                isActive ? 'bg-gray-100' : 'hover:bg-gray-50'
-              }`}
-            >
-              <div className="relative shrink-0 w-14 h-14 sm:w-16 sm:h-16">
-                <div className="w-full h-full rounded-full overflow-hidden bg-gray-200">
-                  <img
-                    src={normalizePhoto(person.photoUrl, person.name)}
-                    alt={person.name}
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=200&background=random&bold=true`;
-                    }}
-                  />
-                </div>
-              </div>
-
-              <div className="min-w-0 flex-1">
-                <div className="flex items-baseline justify-between gap-2">
-                  <p className="text-sm font-semibold text-gray-900 truncate">
-                    {displayName}
-                  </p>
-                  <p className="text-xs font-bold text-gray-900 shrink-0">
-                    {formatWorthKo(person.netWorth)}
-                  </p>
-                </div>
-                <p className="text-[11px] text-gray-500 truncate mt-0.5">
-                  {meta}
-                </p>
-                {blurb && (
-                  <p className="text-[12px] text-gray-600 leading-snug mt-1 line-clamp-6">
-                    {blurb}
-                  </p>
-                )}
-              </div>
-            </Link>
-          </li>
-        );
-      })}
+      {top3.map((person) => (
+        <Top3Row
+          key={person.id}
+          person={person}
+          selectedId={selectedId}
+          lang={lang}
+        />
+      ))}
     </ul>
   );
 }

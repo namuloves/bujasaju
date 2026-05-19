@@ -1,0 +1,39 @@
+{
+  "id": "963", "name": "Carl Icahn", "nameKo": "칼 아이칸",
+  "netWorth": 4.3, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Queens, New York, USA", "birthPlaceKo": "미국 뉴욕주 퀸스",
+    "familyBackground": "Born to American Jewish family; father was cantor.", "familyBackgroundKo": "미국 유대인 가정에서 출생; 아버지는 칸토르(유대교 노래자).",
+    "education": "Princeton University; NYU Medical School (left).", "educationKo": "프린스턴 대학교; NYU 의대(중퇴).",
+    "earlyLife": "Founded Icahn & Co. in 1968; corporate raider in 1980s; famous battles with TWA, Texaco, US Steel; Icahn Enterprises chairman; 1980s shareholder-activism pioneer.",
+    "earlyLifeKo": "1968 Icahn & Co. 창립; 1980년대 기업 약탈자; TWA·Texaco·US Steel과의 유명 전투; Icahn Enterprises 의장; 1980년대 주주 운동 선구자.",
+    "source": "https://en.wikipedia.org/wiki/Carl_Icahn"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Icahn & Co. 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1968, "age": 32, "event": "Founded Icahn & Co. brokerage.", "eventKo": "Icahn & Co. 중개업 창립.", "whyItMatteredKo": "Icahn 출발선." },
+    { "year": 1985, "age": 49, "event": "Hostile takeover of TWA; gained control as corporate raider.", "eventKo": "TWA 적대적 인수; 기업 약탈자로 통제 획득.", "whyItMatteredKo": "TWA 단계." },
+    { "year": 1990, "age": 54, "event": "TWA filed Chapter 11 bankruptcy under Icahn; criticized exit.", "eventKo": "Icahn 아래 TWA가 챕터 11 파산 신청; 비판적 퇴장.", "whyItMatteredKo": "TWA 위기." },
+    { "year": 2017, "age": 81, "event": "Trump appointed him special regulatory adviser; departed amid criticism.", "eventKo": "트럼프가 특별 규제 자문 임명; 비판 가운데 사임.", "whyItMatteredKo": "정치 단계." },
+    { "year": 2025, "age": 89, "event": "Personal net worth at $4.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 43억 달러.", "whyItMatteredKo": "Icahn 정점." }
+  ],
+  "turningPoints": [{ "year": 1985, "age": 49, "decisionKo": "TWA 적대적 인수 + 기업 약탈자 시대", "alternativeKo": "전통 IB", "outcomeKo": "40년 후 43억 달러 + 활동가 투자 선구자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Icahn Enterprises(IEP) 창립자 지분 + 다각화", "industryKo": "활동가 투자·다각화", "businessModelKo": "활동가 헤지펀드 + 다각화 (석유·자동차·식품·금속)", "moatKo": "Icahn 활동가 브랜드 + 56년 트랙", "luckVsSkillKo": "운(25%): 1980년대 기업 약탈자 시대. 실력(75%): 56년 일관 운영." },
+  "personalTraits": {
+    "knownFor": "Founder of Icahn Enterprises; legendary corporate raider; 1980s activist-investing pioneer.",
+    "knownForKo": "Icahn Enterprises 창립자; 전설적 기업 약탈자; 1980년대 활동가 투자 선구자.",
+    "philanthropy": "Icahn School of Medicine at Mount Sinai; Icahn Foundation supports education and medicine.", "philanthropyKo": "마운트 시나이 Icahn 의과대학; Icahn 재단이 교육·의학 자선 지원.",
+    "controversies": "1990 TWA bankruptcy; 2017 Trump regulatory-adviser controversy; 2023 Hindenburg Research short attack on Icahn Enterprises.",
+    "controversiesKo": "1990 TWA 파산; 2017 트럼프 규제 자문 논쟁; 2023 힌덴부르크 리서치 Icahn Enterprises 공매도 공격."
+  },
+  "characterKo": { "summaryKo": "Icahn Enterprises + 기업 약탈자 + 활동가 투자.", "tagsKo": ["Icahn Enterprises", "TWA", "corporate raider"] },
+  "failures": [
+    { "year": 1990, "description": "TWA bankruptcy under his control destroyed airline; 30,000 jobs lost.", "descriptionKo": "그의 통제 하 TWA 파산이 항공사 파괴; 30,000 일자리 상실.", "lesson": "Hostile-takeovers risk destroying acquired businesses.", "lessonKo": "적대적 인수는 인수 사업을 파괴할 리스크." },
+    { "year": 2023, "description": "Hindenburg Research short attack alleged Icahn Enterprises ponzi-like dividend; stock crashed 60%.", "descriptionKo": "힌덴부르크 리서치 공매도 공격이 Icahn Enterprises 폰지 유사 배당 주장; 주식 60% 폭락.", "lesson": "Public PE faces short-seller scrutiny.", "lessonKo": "공개 PE는 공매도 감시 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 21.0 }, { "year": 2020, "netWorth": 16.0 }, { "year": 2023, "netWorth": 5.0 }, { "year": 2025, "netWorth": 4.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I make money by buying stuff people don't want.", "textKo": "나는 사람들이 원하지 않는 것을 매수하여 돈을 번다.", "context": "On activist investing", "contextKo": "활동가 투자에 대해", "source": "https://en.wikipedia.org/wiki/Carl_Icahn" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Mu-Jin day pillar in In month — 'siksin-gyeok', creative output, fitting hostile-takeover-strategist.", "summaryKo": "무진 일주 + 인월 식신격(창의적 결과물·표현)은 1980년대 기업 약탈자라는 파격적이고 창의적인 자본 표현 56년 운영 경로와 호응합니다. 무토 일간의 큰 산·안정 기질이 거대 자본 안정과 통하고, 진토 일지의 토 기운이 자본 안정 기반을, 인목 월지의 목 기운이 회사 성장을 가리킵니다." }
+}

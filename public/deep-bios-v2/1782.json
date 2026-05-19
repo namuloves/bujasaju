@@ -1,0 +1,39 @@
+{
+  "id": "1782", "name": "Kevin Systrom", "nameKo": "케빈 시스트롬",
+  "netWorth": 2.3, "nationality": "US", "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Holliston, Massachusetts, USA", "birthPlaceKo": "미국 매사추세츠주 홀리스턴",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Stanford University.", "educationKo": "스탠퍼드 대학교.",
+    "earlyLife": "Co-founded Instagram in 2010 with Mike Krieger; sold to Facebook for $1B 2012; ousted as CEO 2018; co-founded Artifact news-discovery app 2023.",
+    "earlyLifeKo": "2010 마이크 크리거와 Instagram 공동 창립; 2012 Facebook에 10억 달러 매각; 2018 CEO 축출; 2023 Artifact 뉴스 발견 앱 공동 창립.",
+    "source": "https://en.wikipedia.org/wiki/Kevin_Systrom"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Instagram Facebook 매각." },
+  "careerTimeline": [
+    { "year": 2006, "age": 23, "event": "Worked at Google after Stanford.", "eventKo": "스탠퍼드 후 Google 근무.", "whyItMatteredKo": "출발선." },
+    { "year": 2010, "age": 27, "event": "Co-founded Instagram with Mike Krieger.", "eventKo": "마이크 크리거와 Instagram 공동 창립.", "whyItMatteredKo": "Instagram 출발선." },
+    { "year": 2012, "age": 28, "event": "Sold Instagram to Facebook for $1B.", "eventKo": "Instagram을 Facebook에 10억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2018, "age": 35, "event": "Ousted as Instagram CEO; left Facebook.", "eventKo": "Instagram CEO 축출; Facebook 떠남.", "whyItMatteredKo": "축출 단계." },
+    { "year": 2025, "age": 41, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Systrom 정점." }
+  ],
+  "turningPoints": [{ "year": 2012, "age": 28, "decisionKo": "Instagram Facebook에 10억 달러 매각", "alternativeKo": "독립 IPO", "outcomeKo": "13년 후 23억 달러 + Instagram 매각 자본 보유" }],
+  "moneyMechanics": { "primaryRevenueKo": "Facebook Instagram 매각 대금 (META 주식) + 다각화", "industryKo": "기술·다각화", "businessModelKo": "META 주식 + Artifact + 엔젤 투자", "moatKo": "Instagram 매각 자본 + 기술 산업 인맥", "luckVsSkillKo": "운(45%): Facebook 매각 정점 타이밍. 실력(55%): 26세 Instagram 창립." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Instagram; sold to Facebook for $1B; ousted as CEO 2018; co-founded Artifact.",
+    "knownForKo": "Instagram 공동 창립자; Facebook에 10억 달러 매각; 2018 CEO 축출; Artifact 공동 창립.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2018 ousted by Zuckerberg amid Instagram independence disputes; Artifact closed 2024.",
+    "controversiesKo": "2018 Instagram 독립 분쟁 가운데 저커버그가 축출; 2024 Artifact 폐쇄."
+  },
+  "characterKo": { "summaryKo": "Instagram + Facebook 매각 + 축출 + Artifact.", "tagsKo": ["Instagram", "Facebook 매각", "Artifact"] },
+  "failures": [
+    { "year": 2018, "description": "Ousted as Instagram CEO amid disputes with Zuckerberg.", "descriptionKo": "저커버그와 분쟁 가운데 Instagram CEO 축출.", "lesson": "Acquired-company founders face parent-control loss.", "lessonKo": "인수된 회사 창립자는 모회사 통제 상실 직면." },
+    { "year": 2024, "description": "Artifact news app shut down after 18 months; failed to gain user traction.", "descriptionKo": "Artifact 뉴스 앱이 18개월 후 폐쇄; 사용자 트래픽 획득 실패.", "lesson": "Consumer-app comebacks face user-acquisition challenges.", "lessonKo": "소비자 앱 재기는 사용자 획득 도전 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.5 }, { "year": 2018, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Filters became the universal language of attention.", "textKo": "필터가 주목의 보편 언어가 되었다.", "context": "On Instagram", "contextKo": "Instagram에 대해", "source": "https://en.wikipedia.org/wiki/Kevin_Systrom" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Im-Jin day pillar in Ja month — 'siksin-gyeok', creative output, fitting Instagram creative founder.", "summaryKo": "임진 일주 + 자월 식신격(창의적 결과물·표현)은 Instagram이라는 창의적 사진 표현 플랫폼 결과물 경로와 호응합니다. 임수 일간 + 자수 월지의 극강 수 기운이 자본·정보 유동성을 이중 강조하고, 진토 일지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

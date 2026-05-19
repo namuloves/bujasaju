@@ -1,0 +1,39 @@
+{
+  "id": "1753", "name": "Phillip Frost", "nameKo": "필립 프로스트",
+  "netWorth": 2.3, "nationality": "US", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "Philadelphia, USA", "birthPlaceKo": "미국 필라델피아",
+    "familyBackground": "Born to American Jewish family.", "familyBackgroundKo": "미국 유대인 가정에서 출생.",
+    "education": "University of Pennsylvania; Albert Einstein College of Medicine.", "educationKo": "펜실베이니아 대학교; 알버트 아인슈타인 의과 대학.",
+    "earlyLife": "Trained dermatologist; co-founded Key Pharmaceuticals (sold to Schering-Plough 1986 $836M); founded IVAX Pharmaceuticals (sold to Teva 2006 $7.4B); CEO OPKO Health.",
+    "earlyLifeKo": "피부과 의사 훈련; Key Pharmaceuticals 공동 창립(1986 Schering-Plough에 8억 3,600만 달러 매각); IVAX Pharmaceuticals 창립(2006 Teva에 74억 달러 매각); OPKO Health CEO.",
+    "source": "https://en.wikipedia.org/wiki/Phillip_Frost"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Key + IVAX 매각 + OPKO." },
+  "careerTimeline": [
+    { "year": 1966, "age": 30, "event": "Began dermatology practice.", "eventKo": "피부과 진료 시작.", "whyItMatteredKo": "의학 출발선." },
+    { "year": 1972, "age": 36, "event": "Co-founded Key Pharmaceuticals.", "eventKo": "Key Pharmaceuticals 공동 창립.", "whyItMatteredKo": "Key 출발선." },
+    { "year": 1986, "age": 50, "event": "Sold Key Pharmaceuticals to Schering-Plough for $836M.", "eventKo": "Key Pharmaceuticals를 Schering-Plough에 8억 3,600만 달러 매각.", "whyItMatteredKo": "엑시트 1." },
+    { "year": 2006, "age": 70, "event": "Sold IVAX Pharmaceuticals to Teva for $7.4B.", "eventKo": "IVAX Pharmaceuticals를 Teva에 74억 달러 매각.", "whyItMatteredKo": "엑시트 2." },
+    { "year": 2025, "age": 89, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Frost 정점." }
+  ],
+  "turningPoints": [{ "year": 1986, "age": 50, "decisionKo": "Key 매각 후 IVAX 재창업", "alternativeKo": "Key 매각 후 은퇴", "outcomeKo": "39년 후 23억 달러 + 두 번 제약 매각" }],
+  "moneyMechanics": { "primaryRevenueKo": "Key + IVAX 매각 + OPKO Health + 다각화", "industryKo": "제약·생명공학", "businessModelKo": "Teva 주식 + OPKO Health + 제약 투자", "moatKo": "두 번 제약 매각 + 60년 의약 인맥", "luckVsSkillKo": "운(35%): 제약 시기. 실력(65%): 두 번 창업·매각." },
+  "personalTraits": {
+    "knownFor": "Founder of Key Pharmaceuticals and IVAX; CEO of OPKO Health; major pharmaceutical entrepreneur.",
+    "knownForKo": "Key Pharmaceuticals·IVAX 창립자; OPKO Health CEO; 주요 제약 기업가.",
+    "philanthropy": "Phillip and Patricia Frost Museum of Science Miami; major Florida philanthropist.", "philanthropyKo": "마이애미 필립·퍼트리샤 프로스트 과학 박물관; 주요 플로리다 자선가.",
+    "controversies": "2018 SEC pump-and-dump charges related to OPKO Health; settled 2019 $5.5M.",
+    "controversiesKo": "2018 OPKO Health 관련 SEC 펌프 앤 덤프 기소; 2019 550만 달러 합의."
+  },
+  "characterKo": { "summaryKo": "Key + IVAX 두 번 매각 + OPKO + 마이애미 자선가.", "tagsKo": ["Key Pharmaceuticals", "IVAX", "OPKO Health"] },
+  "failures": [
+    { "year": 2018, "description": "SEC charged Frost with pump-and-dump scheme over OPKO Health; settled 2019.", "descriptionKo": "SEC가 OPKO Health 관련 펌프 앤 덤프 스킴으로 프로스트 기소; 2019 합의.", "lesson": "Promotional pharma faces SEC compliance risk.", "lessonKo": "홍보 제약은 SEC 컴플라이언스 리스크 직면." },
+    { "year": 2008, "description": "Financial crisis compressed OPKO stock briefly.", "descriptionKo": "금융위기로 OPKO 주식 잠시 압축.", "lesson": "Small-cap biotech faces cycle exposure.", "lessonKo": "소형 바이오텍은 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 3.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I never retire; I just buy new companies.", "textKo": "나는 절대 은퇴하지 않는다; 단지 새 회사를 산다.", "context": "On serial pharma", "contextKo": "연쇄 제약에 대해", "source": "https://en.wikipedia.org/wiki/Phillip_Frost" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Yu day pillar in Hae month — 'siksin-gyeok', creative output, fitting serial pharma entrepreneur.", "summaryKo": "정유 일주 + 해월 식신격(창의적 결과물·표현)은 두 번 제약 회사 창립·매각 + OPKO라는 창의적 연쇄 창업 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정밀 의약과 통하고, 유금 일지의 금 기운이 정밀 자본·의약 도구를, 해수 월지의 수 기운이 자본 유동성을 가리킵니다." }
+}

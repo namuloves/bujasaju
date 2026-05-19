@@ -1,0 +1,39 @@
+{
+  "id": "1324", "name": "Eric Sprott", "nameKo": "에릭 스프롯",
+  "netWorth": 3.1, "nationality": "CA", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "Canada", "birthPlaceKo": "캐나다",
+    "familyBackground": "Born to Canadian family.", "familyBackgroundKo": "캐나다 가정에서 출생.",
+    "education": "Carleton University.", "educationKo": "칼턴 대학교.",
+    "earlyLife": "Founded Sprott Securities 1981; built into major Canadian asset manager focused on precious metals; founded Sprott Resource Holdings; known for gold and silver investments.",
+    "earlyLifeKo": "1981 Sprott Securities 창립; 귀금속 중심 주요 캐나다 자산 운용사로 구축; Sprott Resource Holdings 창립; 금·은 투자로 유명.",
+    "source": "https://en.wikipedia.org/wiki/Eric_Sprott"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Sprott Asset Management 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1968, "age": 24, "event": "Began Canadian finance career.", "eventKo": "캐나다 금융 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1981, "age": 37, "event": "Founded Sprott Securities.", "eventKo": "Sprott Securities 창립.", "whyItMatteredKo": "Sprott 출발선." },
+    { "year": 2008, "age": 64, "event": "Gold price surge benefited Sprott precious-metals funds.", "eventKo": "금 가격 급등이 Sprott 귀금속 펀드 혜택.", "whyItMatteredKo": "금 호황." },
+    { "year": 2020, "age": 76, "event": "Pandemic gold/silver surge inflated Sprott portfolio.", "eventKo": "팬데믹 금·은 급등이 Sprott 포트폴리오 인플레이션.", "whyItMatteredKo": "팬데믹 단계." },
+    { "year": 2025, "age": 81, "event": "Personal net worth at $3.1B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 31억 달러.", "whyItMatteredKo": "Sprott 정점." }
+  ],
+  "turningPoints": [{ "year": 1981, "age": 37, "decisionKo": "Sprott Securities 금·은 집중 창립", "alternativeKo": "일반 자산 관리", "outcomeKo": "44년 후 31억 달러 + 캐나다 귀금속 투자 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Sprott Inc.(SII.TO) + Sprott Physical Gold Trust + 다각화", "industryKo": "자산 관리·귀금속", "businessModelKo": "금·은 ETF + 광산 주식 + 자산 관리", "moatKo": "캐나다 귀금속 1위 자산 운용사 + 44년 트랙", "luckVsSkillKo": "운(50%): 금 사이클. 실력(50%): 44년 일관 귀금속 집중." },
+  "personalTraits": {
+    "knownFor": "Founder of Sprott Inc.; Canadian gold and silver investment guru.",
+    "knownForKo": "Sprott Inc. 창립자; 캐나다 금·은 투자 구루.",
+    "philanthropy": "Sprott School of Business at Carleton University; gold-mining philanthropy.", "philanthropyKo": "칼턴 대학교 Sprott 비즈니스 스쿨; 금 광산 자선.",
+    "controversies": "Outspoken gold-bug; predicted multiple market crashes; some viewed as alarmist.",
+    "controversiesKo": "노골적 금 옹호자; 여러 시장 폭락 예측; 일부 경보주의자로 봄."
+  },
+  "characterKo": { "summaryKo": "Sprott Inc. 44년 + 캐나다 귀금속.", "tagsKo": ["Sprott Inc.", "gold", "silver"] },
+  "failures": [
+    { "year": 2013, "description": "Gold-price crash compressed Sprott funds; Sprott Inc. stock fell.", "descriptionKo": "금 가격 폭락이 Sprott 펀드 압축; Sprott Inc. 주식 하락.", "lesson": "Concentrated precious-metals face cycle exposure.", "lessonKo": "집중 귀금속은 사이클 노출 직면." },
+    { "year": 2015, "description": "Mining-sector downturn compressed Sprott Resource Holdings.", "descriptionKo": "광산 부문 침체로 Sprott Resource Holdings 압축.", "lesson": "Mining faces commodity-cycle exposure.", "lessonKo": "광산은 상품 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 2.9 }, { "year": 2025, "netWorth": 3.1 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Gold is the answer; the question is when.", "textKo": "금이 답이다; 질문은 언제다.", "context": "On gold investing", "contextKo": "금 투자에 대해", "source": "https://www.sprott.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-In day pillar in Sul month — 'pyeonin-gyeok', non-traditional knowledge, fitting contrarian gold-investor.", "summaryKo": "병인 일주 + 술월 편인격(비전통적 학문·문서 권위)은 주류 자산 관리에 반대되는 귀금속 집중이라는 비전통적 자본 지식 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 인목 일지의 목 기운이 회사 성장을, 술토 월지의 토 기운이 자본·금속 안정 기반을 가리킵니다." }
+}

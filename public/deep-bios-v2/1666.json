@@ -1,0 +1,38 @@
+{
+  "id": "1666", "name": "John Stanton", "nameKo": "존 W. 스탠턴",
+  "netWorth": 2.4, "nationality": "US", "industry": "Telecom",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Whitman College; Harvard MBA.", "educationKo": "휘트먼 칼리지; 하버드 MBA.",
+    "earlyLife": "Co-founded VoiceStream Wireless 1994 (later T-Mobile USA); sold to Deutsche Telekom 2001 for $35B; founded Trilogy International Partners; co-owner Seattle Mariners MLB.",
+    "earlyLifeKo": "1994 VoiceStream Wireless 공동 창립(이후 T-Mobile USA); 2001 Deutsche Telekom에 350억 달러 매각; Trilogy International Partners 창립; 시애틀 매리너스 MLB 공동 소유주.",
+    "source": "https://en.wikipedia.org/wiki/John_W._Stanton"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "VoiceStream 매각 + Trilogy." },
+  "careerTimeline": [
+    { "year": 1980, "age": 25, "event": "Began at McCaw Cellular after Harvard MBA.", "eventKo": "하버드 MBA 후 McCaw Cellular에서 시작.", "whyItMatteredKo": "McCaw 출발선." },
+    { "year": 1994, "age": 39, "event": "Co-founded VoiceStream Wireless.", "eventKo": "VoiceStream Wireless 공동 창립.", "whyItMatteredKo": "VoiceStream 출발선." },
+    { "year": 2001, "age": 46, "event": "Sold VoiceStream to Deutsche Telekom for $35B; became T-Mobile USA.", "eventKo": "VoiceStream을 Deutsche Telekom에 350억 달러 매각; T-Mobile USA가 됨.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2010, "age": 55, "event": "Founded Trilogy International Partners international wireless.", "eventKo": "Trilogy International Partners 국제 무선 창립.", "whyItMatteredKo": "Trilogy 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $2.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 24억 달러.", "whyItMatteredKo": "Stanton 정점." }
+  ],
+  "turningPoints": [{ "year": 2001, "age": 46, "decisionKo": "VoiceStream Deutsche Telekom에 350억 매각", "alternativeKo": "독립 운영", "outcomeKo": "24년 후 24억 달러 + 통신 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "VoiceStream 매각 + Trilogy + 다각화 + Mariners", "industryKo": "통신·다각화", "businessModelKo": "Deutsche Telekom 매각 자본 + 국제 무선 + MLB", "moatKo": "VoiceStream 매각 자본 + 통신 인맥", "luckVsSkillKo": "운(40%): 1990년대 통신 부상. 실력(60%): 24년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of VoiceStream Wireless; founder of Trilogy International Partners; co-owner Seattle Mariners.",
+    "knownForKo": "VoiceStream Wireless 공동 창립자; Trilogy International Partners 창립자; 시애틀 매리너스 공동 소유주.",
+    "philanthropy": "Stanton Family Foundation supports Seattle.", "philanthropyKo": "스탠턴 가족 재단이 시애틀 자선 지원.",
+    "controversies": "Limited; private and public-sports-team scrutiny.", "controversiesKo": "제한적; 사적·공공 스포츠 팀 감시."
+  },
+  "characterKo": { "summaryKo": "VoiceStream Deutsche 매각 + Trilogy + Mariners.", "tagsKo": ["VoiceStream", "T-Mobile USA", "Seattle Mariners"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed Trilogy international wireless markets briefly.", "descriptionKo": "금융위기로 Trilogy 국제 무선 시장 잠시 압축.", "lesson": "International telecom faces broad cycle exposure.", "lessonKo": "국제 통신은 광범위 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 reduced MLB stadium attendance briefly.", "descriptionKo": "COVID-19이 MLB 경기장 관중 잠시 감소.", "lesson": "Sports faces pandemic-attendance exposure.", "lessonKo": "스포츠는 팬데믹 관중 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.2 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Telecom is patience capital meeting nature spectrum.", "textKo": "통신은 자연 스펙트럼을 만나는 인내 자본이다.", "context": "On telecom", "contextKo": "통신에 대해", "source": "https://en.wikipedia.org/wiki/John_W._Stanton" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in Mi month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting FCC-regulated telecom magnate.", "summaryKo": "계사 일주 + 미월 편관격(강한 외부 압박·권력 충돌)은 FCC라는 강한 통신 규제 권위 환경의 통신 매각·MLB 운영 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 자본 관리와 통하고, 사화 일지의 강한 화 기운이 결단을, 미토 월지의 토 기운이 자본 안정 기반을 가리킵니다." }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1605", "name": "Bennett Dorrance", "nameKo": "베넷 도런스",
+  "netWorth": 2.5, "nationality": "US", "industry": "Food & Beverage",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to John Dorrance II — son of John Dorrance inventor of condensed Campbell's Soup.", "familyBackgroundKo": "캠벨 농축 수프 발명자 존 도런스의 아들 존 도런스 2세의 아들.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Dorrance family heir; major Campbell Soup Company shareholder; board member; major Arizona real-estate developer via DMB Associates.",
+    "earlyLifeKo": "도런스 가족 상속인; 주요 Campbell Soup Company 주주; 이사회 멤버; DMB Associates 통한 주요 애리조나 부동산 개발자.",
+    "source": "https://en.wikipedia.org/wiki/Bennett_Dorrance"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Campbell Soup 가족 자본." },
+  "careerTimeline": [
+    { "year": 1968, "age": 22, "event": "Joined Campbell Soup as family shareholder.", "eventKo": "Campbell Soup 가족 주주로 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1984, "age": 38, "event": "Co-founded DMB Associates Arizona real-estate developer.", "eventKo": "DMB Associates 애리조나 부동산 개발자 공동 창립.", "whyItMatteredKo": "DMB 단계." },
+    { "year": 1989, "age": 43, "event": "Father John Dorrance Jr. died; inherited major Campbell stake.", "eventKo": "아버지 존 도런스 주니어 사망; 주요 Campbell 지분 상속.", "whyItMatteredKo": "상속 단계." },
+    { "year": 2005, "age": 59, "event": "Campbell Soup dual-class share structure preserved family voting power.", "eventKo": "Campbell Soup 이중 등급 주식 구조가 가족 의결권 보존.", "whyItMatteredKo": "가족 통제 단계." },
+    { "year": 2025, "age": 79, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "Campbell 가족 정점." }
+  ],
+  "turningPoints": [{ "year": 1984, "age": 38, "decisionKo": "Campbell 외 DMB 부동산 다각화", "alternativeKo": "Campbell만 잔류", "outcomeKo": "41년 후 25억 달러 + 다각화 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Campbell Soup(CPB) 가족 지분 + DMB Associates", "industryKo": "식품·부동산", "businessModelKo": "Campbell 농축 수프 + 애리조나 부동산", "moatKo": "Campbell 130년+ 가족 자본 + DMB 부동산", "luckVsSkillKo": "운(85%): 가족 자본. 실력(15%): 부동산 다각화." },
+  "personalTraits": {
+    "knownFor": "Dorrance family stockholder; co-founder of DMB Associates; Campbell Soup heir.",
+    "knownForKo": "도런스 가족 주주; DMB Associates 공동 창립자; Campbell Soup 상속인.",
+    "philanthropy": "Dorrance Family Foundation supports Arizona education and arts.", "philanthropyKo": "도런스 가족 재단이 애리조나 교육·예술 자선 지원.",
+    "controversies": "Limited; private family low scrutiny.", "controversiesKo": "제한적; 사적 가족 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Campbell Soup 가족 + DMB 부동산 다각화.", "tagsKo": ["Campbell Soup", "DMB Associates", "Dorrance family"] },
+  "failures": [
+    { "year": 2018, "description": "Campbell Soup activist battle with Third Point; family voting power retained.", "descriptionKo": "Campbell Soup이 Third Point와 활동가 전투; 가족 의결권 유지.", "lesson": "Family-controlled companies face activist challenge.", "lessonKo": "가족 통제 회사는 활동가 도전 직면." },
+    { "year": 2008, "description": "Financial crisis compressed real-estate values briefly.", "descriptionKo": "금융위기로 부동산 가치 잠시 압축.", "lesson": "Real estate faces credit-cycle exposure.", "lessonKo": "부동산은 신용 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.0 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Soup is patient capital in a can.", "textKo": "수프는 캔 속 인내 자본이다.", "context": "On Campbell family", "contextKo": "Campbell 가족에 대해", "source": "https://en.wikipedia.org/wiki/Bennett_Dorrance" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-In day pillar in In month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting activist-pressured family heir.", "summaryKo": "갑인 일주 + 인월 편관격(강한 외부 압박·권력 충돌)은 활동가 투자자라는 강한 외부 압박 환경의 가족 통제 경로와 호응합니다. 갑목 일간 + 인목 일지·인목 월지의 극강 목 기운이 회사·가족 성장을 삼중 강조합니다." }
+}

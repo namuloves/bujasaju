@@ -1,0 +1,76 @@
+{
+  "id": 3435,
+  "name": "Lee Myung-hee",
+  "nameKo": "이명희",
+  "birthday": "1943-09-05",
+  "birthPlace": "Daegu, South Korea",
+  "birthPlaceKo": "대한민국 대구",
+  "netWorth": "$2.5B",
+  "nationality": "KR",
+  "industry": "Retail",
+  "gender": "F",
+  "ilju": "병인",
+  "gyeokguk": "편재격",
+  "childhood": {
+    "summaryKo": "삼성 창업주 호암 이병철의 3남 5녀 중 막내딸로 대구에서 태어났습니다. 이화여대 생활미술학과를 졸업했고, 1967년 정재은 신세계조선호텔 명예회장과 결혼해 정용진·정유경을 두었습니다. 부친 이병철 회장이 직접 사위를 골랐다는 일화로 알려져 있습니다.",
+    "capitalTypeKo": "재벌 2세 — 삼성 창업주 이병철의 막내딸로, 1991년 삼성그룹에서 분리된 신세계그룹을 본인 가문 자본으로 키운 운영형 후계자입니다.",
+    "sources": ["https://namu.wiki/w/이명희(기업인)", "https://ko.wikipedia.org/wiki/이명희_(1943년)"]
+  },
+  "capitalOrigin": {
+    "type": "inherited",
+    "typeKo": "상속",
+    "descriptionKo": "1979년 신세계백화점 영업담당 이사로 경영에 입문했고, 1991년 신세계가 삼성그룹에서 계열 분리될 때 분배받은 신세계 지분이 자본의 출발입니다. 1993년 이마트 1호점(창동) 출범과 2010년대 스타필드·SSG.COM 확장으로 분리 당시 매출 1조 원대 백화점이 매출 30조 원대 유통 그룹으로 성장한 운영 결과물이 본인 자본 가치를 결정했습니다.",
+    "selfMadeScore": 3,
+    "sources": ["https://namu.wiki/w/신세계그룹"]
+  },
+  "careerTimeline": [
+    {"year": 1979, "event": "Joins Shinsegae Department Store as managing director", "eventKo": "신세계백화점 영업담당 이사로 경영 입문", "whyItMatteredKo": "편재격의 큰 외부 자원이 본인 자리의 첫 운영 통로로 환원된 출발점입니다."},
+    {"year": 1991, "event": "Shinsegae separated from Samsung Group", "eventKo": "신세계가 삼성그룹에서 계열 분리, 본인이 그룹 실질 운영 주체로 환원", "whyItMatteredKo": "병인 일주의 봄 불 일간이 학습된 가문 권위에서 본인 자리로 자본을 옮긴 분기점입니다."},
+    {"year": 1993, "event": "E-Mart No.1 Changdong store opens — Korea's first hypermarket", "eventKo": "한국 최초 대형 할인점 이마트 창동 1호점 출범", "whyItMatteredKo": "백화점 한 카테고리에서 할인점 카테고리로 본업 매출을 두 배 키운 결정적 결단입니다."},
+    {"year": 1997, "event": "IMF crisis — accelerates discount store expansion", "eventKo": "IMF 외환위기 — 백화점이 위축됐지만 이마트는 가성비 수요로 V자 가속", "whyItMatteredKo": "거시 충격기에 카테고리 비중을 바꾼 운영 결단입니다. 위기를 본업 매출 가속 통로로 환원했습니다."},
+    {"year": 2011, "event": "Splits Shinsegae and E-Mart into two listed entities", "eventKo": "신세계와 이마트를 인적분할로 두 상장사로 분리, 정용진은 이마트·정유경은 신세계백화점 승계 구도 정립", "whyItMatteredKo": "두 자녀에 카테고리를 나눠 승계 분쟁 가능성을 사전 차단한 운영 결단입니다."},
+    {"year": 2016, "event": "Starfield Hanam opens — Korea's largest shopping mall", "eventKo": "스타필드 하남 출범, 한국 최대 쇼핑몰 카테고리 정립", "whyItMatteredKo": "오프라인 유통 카테고리를 백화점·할인점·쇼핑몰 3축으로 환원한 만년의 결정적 결단입니다."},
+    {"year": 2023, "event": "Steps back as honorary chairwoman; Chung Yong-jin promoted to group chairman", "eventKo": "정용진을 신세계그룹 회장으로 승진시키며 본인은 명예회장으로 일선 후퇴", "whyItMatteredKo": "44년간 본인 자리에서 운영한 카테고리를 다음 세대에 정식 환원한 분기점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1991, "eventKo": "삼성에서 신세계 계열 분리", "impactKo": "병인 일주의 봄 불 일간이 가문 권위에서 본인 자리로 자본을 옮긴 결정적 분기점입니다."},
+    {"year": 1993, "eventKo": "이마트 창동 1호점 출범", "impactKo": "편재격의 큰 외부 자원이 본업 매출의 두 배 카테고리로 환원된 결단입니다."},
+    {"year": 2011, "eventKo": "신세계·이마트 인적분할", "impactKo": "두 자녀에 카테고리를 분배해 가문 자본의 다음 세대 승계 구도를 사전 정립한 결단입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "신세계와 이마트 두 상장사의 본인 명의 지분에서 나오는 배당과 주가 가치, 그리고 스타필드·SSG닷컴·신세계인터내셔날 등 비상장 계열사 가치가 자산의 핵심입니다.",
+    "wealthAcceleratorsKo": "1993년 이마트 창동 1호점, 1997년 IMF 가속, 2016년 스타필드 하남이 자본 가치 가속의 세 단계입니다.",
+    "structuralAdvantagesKo": "삼성 창업주 가문의 인맥과 신세계 백화점 명동 본점이라는 한국 유통 1번지 입지가 강점입니다. 한국 백화점·할인점·쇼핑몰 3대 카테고리를 한 가문이 운영하는 보기 드문 구조입니다.",
+    "currentAssetAllocationKo": "신세계와 이마트 지분이 자산의 핵심. 한남동·용산 부동산과 미술품 보유가 보조 비중으로 추정됩니다."
+  },
+  "failures": [
+    {"year": 1997, "descriptionKo": "IMF 외환위기로 한국 백화점 매출이 단기 반토막 났습니다. 신세계백화점 강남점 출점 계획이 일시 지연됐고, 그룹 차입 부담이 커졌습니다.", "howTheyOvercameKo": "이마트 출점을 가속해 가성비 수요로 매출 통로를 옮겼고, 강남점은 2000년에 정상 출범시켰습니다.", "lessonKo": "한 카테고리(백화점)에 매출이 묶이면 거시 충격이 직접 매출을 흔듭니다. 카테고리 분산이 거시 충격 흡수 통로입니다."},
+    {"year": 2014, "descriptionKo": "이마트 직원 부당해고와 노조 파괴 의혹이 검찰 수사로 비화돼 그룹 평판이 흔들렸습니다. 2017년 정용진 부회장이 국회 청문회에 출석했습니다.", "howTheyOvercameKo": "노조 합의와 상생 협약으로 후속 처리했고, 직원 직접고용 비중을 늘렸습니다.", "lessonKo": "한국 대형 유통 노동 이슈는 비용으로만 보면 결국 그룹 평판으로 돌아옵니다."},
+    {"year": 2024, "descriptionKo": "정용진·정유경 남매간 사업 분담 구도가 갈등설로 한국 경제지에 반복 보도됐고, 신세계와 이마트가 동시에 실적 부진을 겪었습니다.", "howTheyOvercameKo": "2024년 10월 정유경을 신세계 회장으로 승격시키며 백화점·면세점·SSG는 동생, 이마트·스타필드는 형으로 운영 영역을 공식 분리했습니다.", "lessonKo": "재벌가 남매 승계는 사전 분할 구도가 있어도 실적 부진기에 갈등설로 발화합니다. 운영 영역을 명문화하는 것이 통로입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 2010, "netWorth": "$1.0B", "sourceKo": "포브스 추정"},
+    {"year": 2015, "netWorth": "$1.8B", "sourceKo": "포브스 추정"},
+    {"year": 2020, "netWorth": "$2.3B", "sourceKo": "포브스 추정"},
+    {"year": 2026, "netWorth": "$2.5B", "sourceKo": "포브스 2026"}
+  ],
+  "books": [],
+  "personalTraitsKo": ["신세계 명예회장", "이병철 막내딸", "이마트 창업", "스타필드 하남", "두 자녀 카테고리 분할"],
+  "characterKo": {
+    "strengths": "1993년 이마트 출범처럼 백화점 카테고리에 안주하지 않고 카테고리를 두 번 환원시킨 결단력과, 두 자녀에 카테고리를 사전 분할한 승계 운영의 정교함이 강점입니다.",
+    "weaknesses": "한국 오프라인 유통 카테고리에 매출 비중이 묶여 있어 거시·코로나·이커머스 충격이 직접 매출에 들어옵니다. 정용진·정유경 남매간 실적 비교가 가문 평판에 직접 영향을 줍니다.",
+    "motivation": "삼성 창업주 가문의 막내딸이 본인 세대에 백화점 한 카테고리에서 한국 유통 1위 그룹을 만들겠다는 가문 의식이 동력입니다.",
+    "legacy": "한국 백화점·할인점·쇼핑몰 3대 오프라인 유통 카테고리를 한 가문 자본으로 운영하는 구조를 만든 인물입니다. 1991년 분리 당시 매출 1조 원대였던 신세계를 매출 30조 원대 그룹으로 키운 44년의 운영 결과물입니다."
+  },
+  "sajuConnection": {
+    "summary": "Her Byeong-In day pillar (autumn fire on tiger wood) and Sin month branch combine into a wealth-driven format where external resources are channeled through inherited authority. The format matches a 44-year arc from joining Shinsegae in 1979 to handing the chairmanship to her son in 2023.",
+    "summaryKo": "일주는 병인이라 가을 큰 불 일간이 봄 나무(호랑이의 자리) 위에 놓인 형국으로, 학습된 자원 위에서 본업 매출을 빚는 통로가 강합니다. 월지 신은 가을 큰 쇠의 자리라 외부 큰 흐름의 자원이 본업 매출로 잡히는 편재(큰 외부 자원 재물)의 자리입니다. 격국은 편재격으로 큰 외부 자원이 본인 자리로 환원되는 흐름이라, 1979년 입사, 1991년 삼성에서 분리, 1993년 이마트 출범, 2011년 인적분할, 2023년 정용진 회장 승진까지 모두 '학습된 가문 자원이 본업 카테고리 확장으로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://namu.wiki/w/이명희(기업인)",
+    "https://ko.wikipedia.org/wiki/이명희_(1943년)",
+    "https://namu.wiki/w/신세계그룹",
+    "https://www.forbes.com/profile/lee-myung-hee/",
+    "https://www.hankyung.com/economy/article/2023091911281"
+  ]
+}

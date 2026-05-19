@@ -1,0 +1,38 @@
+{
+  "id": "1583", "name": "David Dean Halbert", "nameKo": "데이비드 딘 핼버트",
+  "netWorth": 2.5, "nationality": "US", "industry": "Healthcare",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "American higher education.", "educationKo": "미국 고등교육.",
+    "earlyLife": "Co-founded AdvancePCS pharmacy-benefit manager in 1986; sold to Caremark Rx 2004; founded Genstar Capital; founded Centene CEO; major healthcare-services entrepreneur.",
+    "earlyLifeKo": "1986 AdvancePCS 약국 혜택 관리 공동 창립; 2004 Caremark Rx에 매각; Genstar Capital 창립; Centene CEO; 주요 보건 서비스 기업가.",
+    "source": "https://www.forbes.com"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "AdvancePCS 매각 + 다각화." },
+  "careerTimeline": [
+    { "year": 1980, "age": 25, "event": "Began US healthcare career.", "eventKo": "미국 보건 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1986, "age": 31, "event": "Co-founded AdvancePCS pharmacy-benefit manager.", "eventKo": "AdvancePCS 약국 혜택 관리 공동 창립.", "whyItMatteredKo": "AdvancePCS 출발선." },
+    { "year": 2004, "age": 49, "event": "Sold AdvancePCS to Caremark Rx for ~$6B.", "eventKo": "AdvancePCS를 Caremark Rx에 약 60억 달러 매각.", "whyItMatteredKo": "엑시트 정점." },
+    { "year": 2010, "age": 55, "event": "Built healthcare-services investments via Halbert Capital.", "eventKo": "Halbert Capital 통해 보건 서비스 투자 구축.", "whyItMatteredKo": "투자 단계." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "Halbert 정점." }
+  ],
+  "turningPoints": [{ "year": 2004, "age": 49, "decisionKo": "AdvancePCS Caremark Rx에 60억 달러 매각", "alternativeKo": "독립 PBM 잔류", "outcomeKo": "21년 후 25억 달러 + 보건 투자가" }],
+  "moneyMechanics": { "primaryRevenueKo": "AdvancePCS 매각 + 보건 투자", "industryKo": "보건 서비스·PBM", "businessModelKo": "PBM 매각 자본 + 보건 투자 다각화", "moatKo": "AdvancePCS 매각 자본 + 보건 산업 인맥", "luckVsSkillKo": "운(30%): PBM 산업 통합. 실력(70%): 매각 타이밍 + 다각화." },
+  "personalTraits": {
+    "knownFor": "Co-founder of AdvancePCS; healthcare-services entrepreneur.",
+    "knownForKo": "AdvancePCS 공동 창립자; 보건 서비스 기업가.",
+    "philanthropy": "Halbert Family Foundation supports US education and healthcare.", "philanthropyKo": "핼버트 가족 재단이 미국 교육·보건 자선 지원.",
+    "controversies": "PBM industry standard scrutiny on drug pricing.", "controversiesKo": "PBM 산업 약물 가격 표준 감시."
+  },
+  "characterKo": { "summaryKo": "AdvancePCS Caremark 매각 + 보건 투자.", "tagsKo": ["AdvancePCS", "Caremark", "PBM"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis compressed healthcare investments briefly.", "descriptionKo": "금융위기로 보건 투자 잠시 압축.", "lesson": "Healthcare investments face cycle exposure.", "lessonKo": "보건 투자는 사이클 노출 직면." },
+    { "year": 2020, "description": "Pandemic disrupted some healthcare-services investments.", "descriptionKo": "팬데믹이 일부 보건 서비스 투자 혼란.", "lesson": "Healthcare faces pandemic-cycle exposure.", "lessonKo": "보건은 팬데믹 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Healthcare costs hide patient outcomes; we measured both.", "textKo": "보건 비용은 환자 결과를 숨긴다; 우리는 둘 다 측정했다.", "context": "On PBM strategy", "contextKo": "PBM 전략에 대해", "source": "https://www.forbes.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-In day pillar in Ja month — 'pyeonjae-gyeok', large external capital, fitting PBM-healthcare magnate.", "summaryKo": "갑인 일주 + 자월 편재격(크고 유동적인 외부 자본)은 PBM이라는 거대 약물·자본 유동을 다룬 그의 경로와 호응합니다. 갑목 일간 + 인목 일지의 강한 목 기운이 회사 성장을 이중 강조하고, 자수 월지의 수 기운이 자본·약물 유동성을 가리킵니다." }
+}

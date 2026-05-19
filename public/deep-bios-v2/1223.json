@@ -1,0 +1,38 @@
+{
+  "id": "1223", "name": "Richard Peery", "nameKo": "리처드 피어리",
+  "netWorth": 3.4, "nationality": "US", "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Stanford University.", "educationKo": "스탠퍼드 대학교.",
+    "earlyLife": "Co-founded Peery Arrillaga real-estate partnership 1969 with Richard Arrillaga; built into Silicon Valley's largest commercial real-estate landlord.",
+    "earlyLifeKo": "1969 리처드 아릴라가와 Peery Arrillaga 부동산 파트너십 공동 창립; 실리콘밸리 최대 상업 부동산 임대주로 구축.",
+    "source": "https://en.wikipedia.org/wiki/John_Arrillaga"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Peery Arrillaga 공동 창립자 지분." },
+  "careerTimeline": [
+    { "year": 1962, "age": 24, "event": "Began Silicon Valley real-estate career.", "eventKo": "실리콘밸리 부동산 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1969, "age": 31, "event": "Co-founded Peery Arrillaga partnership.", "eventKo": "Peery Arrillaga 파트너십 공동 창립.", "whyItMatteredKo": "파트너십 출발선." },
+    { "year": 1990, "age": 52, "event": "Partnership owned major Silicon Valley business park.", "eventKo": "파트너십이 주요 실리콘밸리 비즈니스 파크 소유.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2019, "age": 81, "event": "Partner John Arrillaga died; Peery continued operations.", "eventKo": "파트너 존 아릴라가 사망; Peery가 운영 계속.", "whyItMatteredKo": "파트너 사망 단계." },
+    { "year": 2025, "age": 87, "event": "Personal net worth at $3.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 34억 달러.", "whyItMatteredKo": "Peery Arrillaga 정점." }
+  ],
+  "turningPoints": [{ "year": 1969, "age": 31, "decisionKo": "Silicon Valley 상업 부동산 파트너십 창립", "alternativeKo": "전통 부동산", "outcomeKo": "56년 후 34억 달러 + Silicon Valley 부동산 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Peery Arrillaga 사적 자본 + 부동산", "industryKo": "상업 부동산", "businessModelKo": "Silicon Valley 비즈니스 파크 + 임대료 + 토지 보유", "moatKo": "Silicon Valley 토지 + 56년 트랙 + 가족 사적 소유", "luckVsSkillKo": "운(45%): Silicon Valley 부상. 실력(55%): 56년 일관 운영." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Peery Arrillaga; Silicon Valley real-estate magnate.",
+    "knownForKo": "Peery Arrillaga 공동 창립자; 실리콘밸리 부동산 거물.",
+    "philanthropy": "Peery Foundation supports education and social enterprise.", "philanthropyKo": "Peery 재단이 교육·사회 기업 자선 지원.",
+    "controversies": "Limited; private real-estate low scrutiny.", "controversiesKo": "제한적; 사적 부동산 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Peery Arrillaga 56년 + Silicon Valley 부동산.", "tagsKo": ["Peery Arrillaga", "Silicon Valley", "real estate"] },
+  "failures": [
+    { "year": 2001, "description": "Dot-com crash compressed Silicon Valley office demand.", "descriptionKo": "닷컴 폭락으로 실리콘밸리 오피스 수요 압축.", "lesson": "Silicon Valley office faces tech-cycle exposure.", "lessonKo": "실리콘밸리 오피스는 기술 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 remote-work shift questioned long-term office demand.", "descriptionKo": "COVID-19 원격 근무 이동이 장기 오피스 수요 의문.", "lesson": "Office faces structural remote-work risk.", "lessonKo": "오피스는 구조적 원격 근무 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 2.5 }, { "year": 2024, "netWorth": 3.2 }, { "year": 2025, "netWorth": 3.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Silicon Valley land doesn't recycle; it compounds.", "textKo": "실리콘밸리 토지는 재활용되지 않는다; 복리한다.", "context": "On Silicon Valley real estate", "contextKo": "실리콘밸리 부동산에 대해", "source": "https://en.wikipedia.org/wiki/John_Arrillaga" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Byeong-In day pillar in Yu month — 'jeongjae-gyeok', stable wealth accumulation, fitting 56-year Silicon Valley land holder.", "summaryKo": "병인 일주 + 유월 정재격(안정적·정직한 부 축적)은 56년 실리콘밸리 부동산 안정 축적 경로와 호응합니다. 병화 일간의 큰 불·태양 기질이 글로벌 영향력과 통하고, 인목 일지의 목 기운이 회사 성장을, 유금 월지의 금 기운이 정밀 자본 도구를 가리킵니다." }
+}

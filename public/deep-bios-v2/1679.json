@@ -1,0 +1,38 @@
+{
+  "id": "1679", "name": "Sulaiman Al Muhaidib", "nameKo": "술라이만 알 무하이디브",
+  "netWorth": 2.4, "nationality": "SA", "industry": "Diversified",
+  "childhood": {
+    "birthPlace": "Saudi Arabia", "birthPlaceKo": "사우디아라비아",
+    "familyBackground": "Born to Al Muhaidib family; brother of Essam Al Muhaidib.", "familyBackgroundKo": "알 무하이디브 가족 출신; 에삼 알 무하이디브의 형제.",
+    "education": "Saudi higher education.", "educationKo": "사우디 고등교육.",
+    "earlyLife": "Al Muhaidib family leader; major Saudi conglomerate covering food, finance, real estate, construction; chairman of Al Muhaidib Group.",
+    "earlyLifeKo": "알 무하이디브 가족 가장; 식품·금융·부동산·건설 포괄 주요 사우디 대기업; Al Muhaidib Group 의장.",
+    "source": "https://www.muhaidib.com"
+  },
+  "capitalOrigin": { "typeKo": "inherited", "explanationKo": "Al Muhaidib Group 가족 자본." },
+  "careerTimeline": [
+    { "year": 1975, "age": 20, "event": "Joined family Al Muhaidib Group.", "eventKo": "가족 Al Muhaidib Group 합류.", "whyItMatteredKo": "가족 자본 진입." },
+    { "year": 1995, "age": 40, "event": "Al Muhaidib expanded into Savola food group.", "eventKo": "Al Muhaidib이 Savola 식품 그룹 확장.", "whyItMatteredKo": "Savola 단계." },
+    { "year": 2010, "age": 55, "event": "Al Muhaidib became major Saudi diversified conglomerate.", "eventKo": "Al Muhaidib이 주요 사우디 다각화 대기업이 됨.", "whyItMatteredKo": "확장 단계." },
+    { "year": 2020, "age": 65, "event": "Diversified business survived oil-and-COVID disruptions.", "eventKo": "다각화 사업이 석유·COVID 혼란 생존.", "whyItMatteredKo": "위기 통과." },
+    { "year": 2025, "age": 70, "event": "Personal net worth at $2.4B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 24억 달러.", "whyItMatteredKo": "Al Muhaidib 정점." }
+  ],
+  "turningPoints": [{ "year": 1995, "age": 40, "decisionKo": "Savola 식품 그룹 확장", "alternativeKo": "건설 잔류", "outcomeKo": "30년 후 24억 달러 + 사우디 다각화 가부장" }],
+  "moneyMechanics": { "primaryRevenueKo": "Al Muhaidib Group 사적 가족 지분 + Savola 지분", "industryKo": "다각화 (식품·금융·건설)", "businessModelKo": "Savola 식품 + 부동산 + 건설 + 금융", "moatKo": "사우디 다각화 + 가족 사적 소유", "luckVsSkillKo": "운(75%): 가족 자본. 실력(25%): 다각화 운영." },
+  "personalTraits": {
+    "knownFor": "Al Muhaidib family chairman; major Saudi conglomerate leader.",
+    "knownForKo": "알 무하이디브 가족 의장; 주요 사우디 대기업 리더.",
+    "philanthropy": "Al Muhaidib Foundation supports Saudi education.", "philanthropyKo": "알 무하이디브 재단이 사우디 교육 자선 지원.",
+    "controversies": "Limited; private family low scrutiny.", "controversiesKo": "제한적; 사적 가족 낮은 감시."
+  },
+  "characterKo": { "summaryKo": "Al Muhaidib Group + 사우디 다각화 가부장.", "tagsKo": ["Al Muhaidib Group", "Savola", "Saudi Arabia"] },
+  "failures": [
+    { "year": 2014, "description": "Oil-price crash compressed Saudi diversified-conglomerate briefly.", "descriptionKo": "유가 폭락으로 사우디 다각화 대기업 잠시 압축.", "lesson": "Saudi diversified faces oil-cycle exposure.", "lessonKo": "사우디 다각화는 석유 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 + oil-price crash compressed Saudi consumer.", "descriptionKo": "COVID-19 + 유가 폭락이 사우디 소비자 압박.", "lesson": "Saudi consumer faces oil-cycle exposure.", "lessonKo": "사우디 소비자는 석유 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.5 }, { "year": 2020, "netWorth": 1.8 }, { "year": 2024, "netWorth": 2.2 }, { "year": 2025, "netWorth": 2.4 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Saudi families thrive when they diversify across cycles.", "textKo": "사우디 가족은 사이클을 가로질러 다각화할 때 번창한다.", "context": "On Saudi business", "contextKo": "사우디 사업에 대해", "source": "https://www.muhaidib.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Eul-Myo day pillar in In month — 'jeongjae-gyeok', stable wealth accumulation, fitting Saudi-diversified family patriarch.", "summaryKo": "을묘 일주 + 인월 정재격(안정적·정직한 부 축적)은 사우디 가족 다각화 안정 축적 50년 경로와 호응합니다. 을목 일간 + 묘목 일지·인목 월지의 극강 목 기운이 회사·가족 성장을 삼중 강조합니다." }
+}

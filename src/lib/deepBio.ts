@@ -316,7 +316,7 @@ let indexLoadPromise: Promise<void> | null = null;
  * Non-blocking — caller can use sync check immediately and re-render once
  * the index resolves.
  */
-function loadDeepBioIndex(): Promise<void> {
+export function loadDeepBioIndex(): Promise<void> {
   if (indexLoadPromise) return indexLoadPromise;
   // SSR: skip — file system fetch isn't available; rely on seed list.
   if (typeof window === 'undefined') {
@@ -425,19 +425,39 @@ export async function fetchDeepBio(personId: string): Promise<DeepBio | null> {
     return null;
   }
 
-  try {
-    const res = await fetch(`/deep-bios/${personId}.json`);
-    if (!res.ok) {
-      cache.set(personId, null);
-      return null;
+  // Try v1 first; many older entries only exist there.
+  if (v1Set.has(personId)) {
+    try {
+      const res = await fetch(`/deep-bios/${personId}.json`);
+      if (res.ok) {
+        const data: DeepBio = await res.json();
+        cache.set(personId, data);
+        return data;
+      }
+    } catch {
+      // fall through to v2
     }
-    const data: DeepBio = await res.json();
-    cache.set(personId, data);
-    return data;
-  } catch {
-    cache.set(personId, null);
-    return null;
   }
+
+  // v2 fallback. The DeepBioV2 schema is a superset for the fields the
+  // ProfilePage hero actually reads (childhood.birthPlace, education,
+  // birthPlaceKo, educationKo). Cast through the DeepBio shape — any
+  // missing v1-only fields will just render as their empty fallbacks.
+  if (v2Set.has(personId)) {
+    try {
+      const res = await fetch(`/deep-bios-v2/${personId}.json`);
+      if (res.ok) {
+        const data = (await res.json()) as unknown as DeepBio;
+        cache.set(personId, data);
+        return data;
+      }
+    } catch {
+      // ignore
+    }
+  }
+
+  cache.set(personId, null);
+  return null;
 }
 
 // ---------- Full-text search index ----------

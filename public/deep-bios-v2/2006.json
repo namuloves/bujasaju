@@ -1,0 +1,39 @@
+{
+  "id": "2006", "name": "Taylor Swift", "nameKo": "테일러 앨리슨 스위프트",
+  "netWorth": 2.0, "nationality": "US", "industry": "Media & Entertainment",
+  "childhood": {
+    "birthPlace": "West Reading, Pennsylvania, USA", "birthPlaceKo": "미국 펜실베이니아주 웨스트 레딩",
+    "familyBackground": "Born to Scott Swift — Merrill Lynch financial adviser; mother Andrea was finance executive.", "familyBackgroundKo": "Merrill Lynch 재무 자문 스콧 스위프트의 딸; 어머니 안드레아는 금융 임원.",
+    "education": "Belmont University (homeschool); music industry training.", "educationKo": "벨몬트 대학교(홈스쿨); 음악 산업 훈련.",
+    "earlyLife": "Signed Big Machine Records 2005 as teenager; released 11 studio albums; Eras Tour 2023-2024 grossed $2B+ — highest-grossing tour in history.",
+    "earlyLifeKo": "2005 10대에 Big Machine Records 계약; 11개 스튜디오 앨범 발매; 2023-2024 Eras Tour 20억+ 달러 매출 — 역사상 최고 매출 투어.",
+    "source": "https://en.wikipedia.org/wiki/Taylor_Swift"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "음악 + Eras Tour 자본." },
+  "careerTimeline": [
+    { "year": 2005, "age": 15, "event": "Signed Big Machine Records at 15.", "eventKo": "15세에 Big Machine Records 계약.", "whyItMatteredKo": "음악 출발선." },
+    { "year": 2008, "age": 18, "event": "Fearless album released; first major commercial success.", "eventKo": "Fearless 앨범 발매; 첫 주요 상업 성공.", "whyItMatteredKo": "Fearless 단계." },
+    { "year": 2019, "age": 29, "event": "Master recordings sold to Scooter Braun; Swift began re-recording.", "eventKo": "마스터 레코딩이 스쿠터 브라운에게 매각; 스위프트가 재녹음 시작.", "whyItMatteredKo": "마스터 분쟁." },
+    { "year": 2023, "age": 33, "event": "Eras Tour launched; grossed $2B+ globally; highest-grossing tour ever.", "eventKo": "Eras Tour 출시; 글로벌 20억+ 달러 매출; 역대 최고 매출 투어.", "whyItMatteredKo": "Eras Tour 정점." },
+    { "year": 2025, "age": 35, "event": "Personal net worth at $2B per Forbes Real-Time; first billionaire songwriter musician.", "eventKo": "포브스 실시간 기준 개인 순자산 20억 달러; 첫 억만장자 작곡 음악가.", "whyItMatteredKo": "Swift 정점." }
+  ],
+  "turningPoints": [{ "year": 2019, "age": 29, "decisionKo": "마스터 분쟁 후 자체 재녹음 결정", "alternativeKo": "원본 마스터 사용 잔류", "outcomeKo": "6년 후 20억 달러 + 음악 산업 마스터 권리 변환자" }],
+  "moneyMechanics": { "primaryRevenueKo": "Taylor Swift's Version 재녹음 + Eras Tour + 스트리밍 + 자체 레이블", "industryKo": "음악·라이브 엔터테인먼트", "businessModelKo": "자체 레코딩 + Eras Tour 라이브 + 스트리밍 + 굿즈", "moatKo": "Swiftie 팬덤 + Eras Tour 역대 최고 + 자체 마스터", "luckVsSkillKo": "운(35%): 음악 스트리밍 시대. 실력(65%): 20년 일관 창작·팬덤." },
+  "personalTraits": {
+    "knownFor": "11-time Grammy winner; first billionaire musician via her music; Eras Tour highest-grossing ever.",
+    "knownForKo": "그래미 11회 수상; 자신의 음악으로 첫 억만장자 음악가; 역대 최고 매출 Eras Tour.",
+    "philanthropy": "Major disaster-relief and education donations; supports independent music.", "philanthropyKo": "주요 재난 구호·교육 기부; 독립 음악 지원.",
+    "controversies": "2019 master-recordings dispute with Scooter Braun; ongoing celebrity-feud cultural debates.",
+    "controversiesKo": "2019 마스터 레코딩 분쟁 스쿠터 브라운; 진행 중 셀러브리티 불화 문화 논쟁."
+  },
+  "characterKo": { "summaryKo": "Eras Tour 20억 + 첫 음악가 억만장자 + 자체 재녹음.", "tagsKo": ["Eras Tour", "Taylor's Version", "음악가 억만장자"] },
+  "failures": [
+    { "year": 2019, "description": "Master recordings sold to Scooter Braun without her purchase opportunity; bitter dispute.", "descriptionKo": "마스터 레코딩이 그녀의 매수 기회 없이 스쿠터 브라운에게 매각; 격렬한 분쟁.", "lesson": "Music industry asymmetry favors labels; led to re-recording strategy.", "lessonKo": "음악 산업 비대칭이 레이블에 유리; 재녹음 전략으로 이어짐." },
+    { "year": 2020, "description": "COVID-19 cancelled Lover Fest tour; tour revenue lost briefly.", "descriptionKo": "COVID-19이 Lover Fest 투어 취소; 투어 매출 잠시 손실.", "lesson": "Live music faces pandemic-cancellation risk.", "lessonKo": "라이브 음악은 팬데믹 취소 리스크 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 0.2 }, { "year": 2020, "netWorth": 0.4 }, { "year": 2024, "netWorth": 1.6 }, { "year": 2025, "netWorth": 2.0 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "I make patient music for the long run.", "textKo": "나는 장기를 위한 인내 음악을 만든다.", "context": "On music career", "contextKo": "음악 경력에 대해", "source": "https://www.taylorswift.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Jeong-Mi day pillar in Ja month — 'pyeon-gwan-gyeok', strong external authority/pressure, fitting record-label-disputed musician with global fandom power.", "summaryKo": "정미 일주 + 자월 편관격(강한 외부 압박·권력 충돌)은 음악 레이블·미디어 권력과의 강한 외부 압박 환경 + 자체 마스터 회복 경로와 호응합니다. 정화 일간의 촛불·정밀한 빛 기질이 정밀 가사·연주와 통하고, 미토 일지의 토 기운이 자본 안정 기반을, 자수 월지의 수 기운이 자본·음악 유동성을 가리킵니다." }
+}

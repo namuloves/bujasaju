@@ -1,0 +1,39 @@
+{
+  "id": "1732", "name": "Thomas Dundon", "nameKo": "토머스 던던",
+  "netWorth": 2.3, "nationality": "US", "industry": "Sports",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to American family.", "familyBackgroundKo": "미국 가정에서 출생.",
+    "education": "Southern Methodist University.", "educationKo": "서던 메소디스트 대학교.",
+    "earlyLife": "Co-founded Drive Financial Services 1994; sold to Santander 2006; Santander Consumer USA chairman; owner Carolina Hurricanes NHL; founded Top Golf entertainment investment.",
+    "earlyLifeKo": "1994 Drive Financial Services 공동 창립; 2006 Santander 매각; Santander Consumer USA 의장; 캐롤라이나 허리케인스 NHL 소유주; Top Golf 엔터테인먼트 투자 창립.",
+    "source": "https://en.wikipedia.org/wiki/Thomas_Dundon"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Drive Financial 매각 + Hurricanes." },
+  "careerTimeline": [
+    { "year": 1993, "age": 22, "event": "Began Texas auto-finance career.", "eventKo": "텍사스 자동차 금융 경력 시작.", "whyItMatteredKo": "출발선." },
+    { "year": 1994, "age": 23, "event": "Co-founded Drive Financial Services.", "eventKo": "Drive Financial Services 공동 창립.", "whyItMatteredKo": "Drive 출발선." },
+    { "year": 2006, "age": 35, "event": "Sold Drive Financial to Santander; became Santander Consumer USA chairman.", "eventKo": "Drive Financial을 Santander에 매각; Santander Consumer USA 의장.", "whyItMatteredKo": "매각 단계." },
+    { "year": 2018, "age": 47, "event": "Bought Carolina Hurricanes NHL franchise.", "eventKo": "캐롤라이나 허리케인스 NHL 프랜차이즈 인수.", "whyItMatteredKo": "Hurricanes 단계." },
+    { "year": 2025, "age": 54, "event": "Personal net worth at $2.3B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 23억 달러.", "whyItMatteredKo": "Dundon 정점." }
+  ],
+  "turningPoints": [{ "year": 2018, "age": 47, "decisionKo": "Hurricanes NHL 인수 + 스포츠 진출", "alternativeKo": "금융 집중", "outcomeKo": "7년 후 23억 달러 + NHL·금융 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Santander Consumer 매각 잔여 + Carolina Hurricanes + Top Golf", "industryKo": "자동차 금융·스포츠·엔터", "businessModelKo": "Santander 매각 자본 + NHL 프랜차이즈 + Top Golf", "moatKo": "Drive 매각 자본 + Santander 인맥", "luckVsSkillKo": "운(40%): 자동차 금융 시기. 실력(60%): 23년 일관성." },
+  "personalTraits": {
+    "knownFor": "Co-founder of Drive Financial; chairman of Santander Consumer USA; owner Carolina Hurricanes.",
+    "knownForKo": "Drive Financial 공동 창립자; Santander Consumer USA 의장; 캐롤라이나 허리케인스 소유주.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "2018 attempt to buy Carolina Panthers blocked; Santander auto-loan subprime scrutiny.",
+    "controversiesKo": "2018 캐롤라이나 팬서스 인수 시도 차단; Santander 자동차 대출 서브프라임 감시."
+  },
+  "characterKo": { "summaryKo": "Drive Financial + Hurricanes + Top Golf.", "tagsKo": ["Drive Financial", "Carolina Hurricanes", "Top Golf"] },
+  "failures": [
+    { "year": 2008, "description": "Financial crisis tested Santander Consumer USA auto-loan portfolio.", "descriptionKo": "금융위기가 Santander Consumer USA 자동차 대출 포트폴리오 시험.", "lesson": "Auto subprime faces credit-cycle exposure.", "lessonKo": "자동차 서브프라임은 신용 사이클 노출 직면." },
+    { "year": 2020, "description": "COVID-19 disrupted Hurricanes attendance.", "descriptionKo": "COVID-19이 허리케인스 관중 혼란.", "lesson": "Sports faces pandemic-attendance exposure.", "lessonKo": "스포츠는 팬데믹 관중 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.1 }, { "year": 2025, "netWorth": 2.3 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Subprime auto financed America's mobility.", "textKo": "서브프라임 자동차가 미국 이동성에 자금을 댔다.", "context": "On Drive Financial", "contextKo": "Drive Financial에 대해", "source": "https://en.wikipedia.org/wiki/Thomas_Dundon" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gye-Sa day pillar in Sin month — 'jeongjae-gyeok', stable wealth accumulation, fitting auto-finance-to-sports-diversifier.", "summaryKo": "계사 일주 + 신월 정재격(안정적·정직한 부 축적)은 자동차 금융 + NHL이라는 안정 다각화 자본 축적 경로와 호응합니다. 계수 일간의 작은 물 기질이 정밀 자본 관리와 통하고, 사화 일지의 강한 화 기운이 결단을, 신금 월지의 금 기운이 정밀 금융 도구를 가리킵니다." }
+}

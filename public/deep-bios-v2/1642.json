@@ -1,0 +1,38 @@
+{
+  "id": "1642", "name": "Kenneth Hao", "nameKo": "케네스 하오",
+  "netWorth": 2.5, "nationality": "US", "industry": "Finance & Investments",
+  "childhood": {
+    "birthPlace": "USA", "birthPlaceKo": "미국",
+    "familyBackground": "Born to Chinese-American family.", "familyBackgroundKo": "중국·미국 가정에서 출생.",
+    "education": "Harvard University.", "educationKo": "하버드 대학교.",
+    "earlyLife": "Worked at Hambrecht & Quist; joined Silver Lake Partners 1999 founding team; chairman and managing partner of Silver Lake; co-led major tech LBOs.",
+    "earlyLifeKo": "Hambrecht & Quist 근무; 1999 Silver Lake Partners 창립 팀 합류; Silver Lake 의장·매니징 파트너; 주요 기술 LBO 공동 주도.",
+    "source": "https://en.wikipedia.org/wiki/Silver_Lake"
+  },
+  "capitalOrigin": { "typeKo": "self-made", "explanationKo": "Silver Lake 파트너 지분." },
+  "careerTimeline": [
+    { "year": 1991, "age": 23, "event": "Began at Hambrecht & Quist after Harvard.", "eventKo": "하버드 후 Hambrecht & Quist에서 시작.", "whyItMatteredKo": "월가 출발선." },
+    { "year": 1999, "age": 31, "event": "Joined Silver Lake Partners founding team.", "eventKo": "Silver Lake Partners 창립 팀 합류.", "whyItMatteredKo": "Silver Lake 출발선." },
+    { "year": 2013, "age": 45, "event": "Co-led $24.4B Dell privatization.", "eventKo": "244억 달러 Dell 비공개화 공동 주도.", "whyItMatteredKo": "Dell 거래." },
+    { "year": 2020, "age": 52, "event": "Became chairman of Silver Lake.", "eventKo": "Silver Lake 의장 취임.", "whyItMatteredKo": "의장 단계." },
+    { "year": 2025, "age": 57, "event": "Personal net worth at $2.5B per Forbes Real-Time.", "eventKo": "포브스 실시간 기준 개인 순자산 25억 달러.", "whyItMatteredKo": "Silver Lake 정점." }
+  ],
+  "turningPoints": [{ "year": 1999, "age": 31, "decisionKo": "Silver Lake 창립 팀 합류", "alternativeKo": "Hambrecht 잔류", "outcomeKo": "26년 후 25억 달러 + 기술 PE 거인" }],
+  "moneyMechanics": { "primaryRevenueKo": "Silver Lake 파트너 지분 + 수수료", "industryKo": "기술 사모펀드", "businessModelKo": "기술 LBO + Dell·Skype·Twitter + 1,000억+ AUM", "moatKo": "Silver Lake 기술 PE 1위", "luckVsSkillKo": "운(30%): 기술 PE 부상. 실력(70%): 26년 일관성." },
+  "personalTraits": {
+    "knownFor": "Chairman of Silver Lake Partners; tech PE veteran; Chinese-American.",
+    "knownForKo": "Silver Lake Partners 의장; 기술 PE 베테랑; 중국·미국.",
+    "philanthropy": "Limited public disclosure.", "philanthropyKo": "공개 공시 제한적.",
+    "controversies": "Limited; Silver Lake-portfolio standard scrutiny.", "controversiesKo": "제한적; Silver Lake 포트폴리오 표준 감시."
+  },
+  "characterKo": { "summaryKo": "Silver Lake 창립 26년 + 기술 PE.", "tagsKo": ["Silver Lake", "Dell", "tech PE"] },
+  "failures": [
+    { "year": 2018, "description": "Silver Lake's Avaya investment soured after 2017 Chapter 11 bankruptcy.", "descriptionKo": "Silver Lake의 Avaya 투자가 2017 챕터 11 파산 후 악화.", "lesson": "Tech-LBO faces operational risk.", "lessonKo": "기술 LBO는 운영 리스크 직면." },
+    { "year": 2022, "description": "Tech-stock decline compressed Silver Lake portfolio.", "descriptionKo": "기술주 하락이 Silver Lake 포트폴리오 압축.", "lesson": "Tech PE faces cycle exposure.", "lessonKo": "기술 PE는 사이클 노출 직면." }
+  ],
+  "wealthHistory": [{ "year": 2015, "netWorth": 1.0 }, { "year": 2020, "netWorth": 1.5 }, { "year": 2024, "netWorth": 2.3 }, { "year": 2025, "netWorth": 2.5 }],
+  "wealthHistorySource": "Forbes Real-Time Billionaires archive",
+  "quotes": [{ "text": "Tech LBOs reward conviction at scale.", "textKo": "기술 LBO는 규모의 확신을 보상한다.", "context": "On tech PE", "contextKo": "기술 PE에 대해", "source": "https://www.silverlake.com" }],
+  "books": { "authored": [], "recommended": [] },
+  "sajuConnection": { "summary": "Gap-Sin day pillar in Yu month — 'jeonggwan-gyeok', formal regulated authority, fitting public-PE chairman.", "summaryKo": "갑신 일주 + 유월 정관격(공식 권위·규제 아래에서 일하는 구조)은 강한 PE 규제 권위 환경의 Silver Lake 26년 운영 경로와 호응합니다. 갑목 일간의 큰 나무 기질이 회사 성장과 통하고, 신금 일지·유금 월지의 극강 금 기운이 정밀 자본 도구를 이중 강조합니다." }
+}

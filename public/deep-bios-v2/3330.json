@@ -1,0 +1,80 @@
+{
+  "id": 3330,
+  "name": "Park Tae-joon",
+  "nameKo": "박태준",
+  "birthday": "1927-10-24",
+  "birthPlace": "Yangsan, Gyeongsangnam-do, South Korea",
+  "birthPlaceKo": "대한민국 경상남도 양산",
+  "netWorth": "$0B",
+  "nationality": "KR",
+  "industry": "Steel",
+  "gender": "M",
+  "ilju": "신묘",
+  "gyeokguk": "정인격",
+  "childhood": {
+    "summaryKo": "1927년 경남 양산에서 태어났고 일제강점기 어린 시절 일본 이즈하라·후쿠오카에서 자랐습니다. 일본 와세다대 기계공학과를 다니다 광복 후 귀국해 1948년 조선경비사관학교(현 육군사관학교) 6기로 입교한 정통 한국 1세대 군인·엔지니어 정체성의 인물입니다. 박정희와의 육사 인맥이 본업 권위 자본의 출발점입니다.",
+    "capitalTypeKo": "전문경영인 자수성가 (정치 권위 결합) — 군인·정치인 출신으로 학원·재벌 자본 없이 박정희 정부의 일본 청구권 자금을 본인 자리로 환원시켜 포항제철(현 포스코)을 만든 정통 한국 1세대 국영기업 창업자 자본입니다.",
+    "sources": ["https://namu.wiki/w/박태준", "https://ko.wikipedia.org/wiki/박태준_(1927년)"]
+  },
+  "capitalOrigin": {
+    "type": "self-made",
+    "typeKo": "자수성가",
+    "descriptionKo": "1948년 육사 6기로 군 입대, 1961년 5·16 군사정변 후 국가재건최고회의 상공위원, 1968년 포항종합제철주식회사(현 포스코) 사장 취임으로 본업 카테고리의 첫 운영권을 받았습니다. 1970년대 포항제철 1·2·3·4기 단계적 건설과 광양제철소 출범, 1981년 회장 환원으로 한국 1세대 국영 철강 카테고리를 본인 자리에 만든 운영형 자본입니다.",
+    "selfMadeScore": 10,
+    "sources": ["https://www.posco.co.kr/homepage/docs/kor7/jsp/intro/poscohistory/s91a1010030c.jsp"]
+  },
+  "careerTimeline": [
+    {"year": 1948, "event": "Joins Korea Military Academy 6th class", "eventKo": "조선경비사관학교(육사) 6기 입교 — 박정희와 육사 인맥", "whyItMatteredKo": "정인격의 학습된 권위 흐름이 본인 자리의 첫 권위 통로로 환원된 출발점입니다."},
+    {"year": 1961, "event": "Joins Park Chung-hee's 5·16 coup council", "eventKo": "5·16 군사정변 후 국가재건최고회의 상공·재정경제위원", "whyItMatteredKo": "신묘 일주의 가을 작은 쇠 일간이 한국 정부 권위 자리를 본인 자리로 환원시킨 분기점입니다."},
+    {"year": 1964, "event": "Becomes president of Korea Tungsten Mining", "eventKo": "대한중석광업주식회사 사장 취임 — 한국 국영기업 운영 첫 경험", "whyItMatteredKo": "본업 카테고리에서 한국 국영기업 운영 정체성을 본인 자리에서 본격 잡은 시기입니다."},
+    {"year": 1968, "event": "Becomes president of POSCO (Apr 1)", "eventKo": "4월 1일 포항종합제철주식회사(현 포스코) 사장 취임 — 일본 청구권 자금 1억 달러 + IBRD 차관 활용", "whyItMatteredKo": "정인격의 학습된 권위 흐름이 본업 카테고리의 운영 통로로 환원된 결정적 분기점입니다."},
+    {"year": 1973, "event": "POSCO Phase 1 (1.03M tons) completed (Jul 3)", "eventKo": "7월 3일 포항제철 1기 (조강 103만 톤) 완공 — 일본 청구권 자금 활용 한국 첫 일관제철소", "whyItMatteredKo": "본업 매출 카테고리가 한국 1세대 제철 자리로 환원된 결정적 결단입니다."},
+    {"year": 1981, "event": "Becomes chairman of POSCO", "eventKo": "포항제철 회장 취임 — 본업 운영권의 공식 환원", "whyItMatteredKo": "본업 운영권이 본인 자리의 회장직으로 환원된 분기점입니다."},
+    {"year": 1992, "event": "Resigns chairmanship; political rift with Kim Young-sam", "eventKo": "10월 회장 사임 — 김영삼 정부와의 정치적 갈등 통로로 본업 운영권 환원 멈춤", "whyItMatteredKo": "본업 운영권이 거시 정치 충격으로 본인 자리에서 떨어진 결정적 분기점입니다."},
+    {"year": 2000, "event": "Becomes Prime Minister (Jan-May)", "eventKo": "1~5월 제32대 국무총리 취임 — 김대중 정부 DJP 연합", "whyItMatteredKo": "본업 권위 자본이 한국 국정 운영의 정점으로 환원된 만년의 결단입니다."},
+    {"year": 2011, "event": "Passes away at 84 (Dec 13)", "eventKo": "12월 13일 향년 84세로 별세", "whyItMatteredKo": "한국 1세대 국영 철강 카테고리에서 운영한 43년의 자본이 한국 산업 정체성으로 환원된 분기점입니다."}
+  ],
+  "turningPoints": [
+    {"year": 1968, "eventKo": "포항제철 사장 취임", "impactKo": "정인격의 학습된 권위 흐름이 본업 카테고리의 첫 운영 통로로 환원된 결정적 분기점입니다."},
+    {"year": 1973, "eventKo": "포항제철 1기 완공", "impactKo": "신묘 일주의 가을 작은 쇠 일간이 본업 매출 카테고리를 한국 1세대 제철 자리로 환원시킨 결정적 결단입니다."},
+    {"year": 1992, "eventKo": "회장 사임과 정치적 갈등", "impactKo": "본업 운영권이 거시 정치 충격으로 본인 자리에서 떨어진 만년의 분기점입니다."}
+  ],
+  "moneyMechanics": {
+    "primaryIncomeSourceKo": "포항제철 회장 보수와 한국 국무총리·국회의원 활동비, 그리고 박태준 재단을 통한 공익 운영 자본이 본업 매출의 핵심이었습니다. 본인은 한국 1세대 재벌과 달리 가족 지분이 거의 없는 정통 전문경영인·정치인 자본 정체성입니다.",
+    "wealthAcceleratorsKo": "1968년 포항제철 사장 취임, 1973년 1기 완공, 1981년 회장 환원, 2000년 국무총리 취임이 본업 권위 자본 가속의 네 단계였습니다.",
+    "structuralAdvantagesKo": "박정희와의 육사 6기 인맥과 일본 와세다대·일본 청구권 자금 활용 통로, 그리고 한국 1세대 국영기업 창업자 정체성이 강점이었습니다.",
+    "currentAssetAllocationKo": "본인 자본은 재벌 자본이 아닌 한국 1세대 국영기업 회장·국무총리 보수와 박태준 재단(현 청암재단) 출연 자본으로 정리됐습니다."
+  },
+  "failures": [
+    {"year": 1992, "descriptionKo": "10월 김영삼 정부와의 정치적 갈등 통로로 포항제철 회장직에서 사임해야 했고, 본업 운영권이 본인 자리에서 갑작스럽게 떨어졌습니다. 1993년 정치 비자금 조사와 일본 망명을 거쳤습니다.", "howTheyOvercameKo": "1997년 김대중과의 DJP 연합으로 한국 국회의원·국무총리 자리로 본업 권위 자본을 환원시켰습니다.", "lessonKo": "한국 정치 사이클은 한국 1세대 국영기업 회장 본업 운영권을 거시 정치 충격으로 한 번에 멈춥니다. 정치 사이클 흐름 환원이 만년 본업 권위 통로입니다."},
+    {"year": 1993, "descriptionKo": "김영삼 정부의 6공 비리 수사로 박태준 회장의 정치 비자금 의혹과 포항제철 운영 비리 조사가 동시 진행됐고, 본업 평판 통로가 분기 단위로 흔들렸습니다.", "howTheyOvercameKo": "1994년 일본 망명 후 1997년 귀국과 김대중 진영 합류로 본업 권위 자본을 정치 자본으로 환원시켰습니다.", "lessonKo": "한국 1세대 국영기업 회장 본업 평판 통로는 정치 사이클 한 곳의 운영이 본업 평판 전체로 환원됩니다. 정치 자본 환원이 만년 평판 통로입니다."},
+    {"year": 2000, "descriptionKo": "1~5월 국무총리 재직 중 본인 명의 부동산 일부 미신고 논란이 한국 매체에 반복 보도되면서 본업 정치 자본 평판 통로가 단기 흔들렸고, 5월 17일 4개월 만에 국무총리직을 사임해야 했습니다.", "howTheyOvercameKo": "공식 사과와 부동산 정리로 후속 처리했고, 자유민주연합 명예총재 자리로 정치 권위 자본을 만년에 환원시켰습니다.", "lessonKo": "한국 정치 자본 통로는 부동산 한 항목의 운영이 본업 정치 평판 전체로 환원됩니다. 회계 통로 정리가 정치 자본 환원 통로의 입구입니다."}
+  ],
+  "wealthHistory": [
+    {"year": 1973, "netWorth": "$0B", "sourceKo": "추정 — 포철 1기 완공기, 전문경영인 자본"},
+    {"year": 1992, "netWorth": "$0.005B", "sourceKo": "추정 — 회장 사임기"},
+    {"year": 2011, "netWorth": "$0.005B", "sourceKo": "추정 — 별세 직전"},
+    {"year": 2026, "netWorth": "$0B", "sourceKo": "포브스 2026 (별세, 가문 자본 환원)"}
+  ],
+  "books": [
+    {"title": "박태준 평전 (이대환)", "year": 2004, "noteKo": "본인 회고와 평전 — 일본 청구권 자금에서 포항제철까지의 운영 통로 정리"}
+  ],
+  "personalTraitsKo": ["포항제철 창업 회장", "박정희 육사 6기 동지", "일본 청구권 자금 활용", "32대 국무총리", "한국 1세대 국영기업"],
+  "characterKo": {
+    "strengths": "박정희와의 육사 6기 인맥과 일본 와세다대 학력 자본을 일본 청구권 자금 활용 통로로 환원시킨 정치 운영의 정교함과, 1968~1992년 24년간 포항제철 한 카테고리에서 본업 매출 통로를 한국 1세대 제철 1위 자리로 환원시킨 운영의 정직성이 강점입니다.",
+    "weaknesses": "1992년 김영삼 정부와의 정치적 갈등으로 본업 운영권이 거시 정치 충격으로 한 번에 떨어졌고, 한국 정치 자본 통로의 만년 부담이 본인 자리에 직접 들어왔습니다.",
+    "motivation": "한국 1세대 산업화 흐름에 본인 세대가 일본 청구권 자금을 받아 한국 제철 카테고리를 만들겠다는 정체성 의식과, 박정희가 시작한 한국 산업화 과제를 본업 카테고리에서 본인 자리로 완성시키겠다는 정치·산업 책무 의식이 동력이었습니다.",
+    "legacy": "한국 1세대 국영기업 창업자의 표본이고, 일본 청구권 자금 1억 달러를 포항제철 한 카테고리로 환원시킨 한국 산업화 흐름의 핵심 인물입니다. 한국 1세대 전문경영인의 정체성과 정치 자본 환원 통로의 모델로 한국 산업 운영사에 반복 인용됩니다."
+  },
+  "sajuConnection": {
+    "summary": "His Sin-Myo day pillar (autumn small metal on rabbit wood) and Sul month branch combine into a refined metal sharpened by spring wood and grounded in autumn earth. The Jeong-In format that channels wealth through learned authority matches a 43-year arc from the 1948 KMA entry to the 1992 chairmanship resignation and 2000 prime ministership.",
+    "summaryKo": "일주는 신묘라 가을 작은 쇠 일간이 봄 나무(토끼의 자리) 위에 놓인 형국으로, 정밀한 쇠가 부드러운 나무 외부 자원을 다듬는 자리입니다. 월지 술은 가을 흙(개의 자리)이라 일간을 학습된 권위(정인)의 흐름으로 본인 자리에 받쳐주는 통로입니다. 격국은 정인격(학습된 권위·기술·이론으로 자본이 잡히는 흐름)이라, 1948년 육사 6기 입교, 1968년 포항제철 사장, 1973년 1기 완공, 1992년 회장 사임, 2000년 국무총리까지 모두 '학습된 권위가 한국 1세대 산업화 카테고리로 환원된다'는 한 가지 패턴 위에 놓여 있습니다."
+  },
+  "sources": [
+    "https://namu.wiki/w/박태준",
+    "https://ko.wikipedia.org/wiki/박태준_(1927년)",
+    "https://www.posco.co.kr/homepage/docs/kor7/jsp/intro/poscohistory/s91a1010030c.jsp",
+    "https://en.wikipedia.org/wiki/Park_Tae-joon",
+    "https://www.britannica.com/biography/Park-Tae-Joon"
+  ]
+}
