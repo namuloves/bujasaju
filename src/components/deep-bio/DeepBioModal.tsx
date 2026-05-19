@@ -455,7 +455,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
               </div>
             ) : (
               <div className="p-6 pb-10">
-                <DeepBioContent bio={bio} person={person} userSaju={userSaju} lang={lang} />
+                <DeepBioContent bio={bio} person={person} userSaju={userSaju} lang={lang} scrollRoot={scrollRef.current} />
               </div>
             )}
           </div>
@@ -491,7 +491,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
               </div>
             ) : (
               <div className="p-5 pb-10">
-                <DeepBioContent bio={bio} person={person} userSaju={userSaju} lang={lang} mobileHeader={mobileSajuChart} />
+                <DeepBioContent bio={bio} person={person} userSaju={userSaju} lang={lang} mobileHeader={mobileSajuChart} scrollRoot={scrollRef.current} />
               </div>
             )}
           </div>

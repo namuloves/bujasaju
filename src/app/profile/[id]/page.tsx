@@ -6,7 +6,8 @@ import { useLanguage } from '@/lib/i18n';
 import { useEnrichedPeople } from '@/lib/data/enriched';
 import type { DeepBio } from '@/lib/deepBio';
 import { fetchDeepBio } from '@/lib/deepBio';
-import { TabBar, TabContent, LoadingSpinner, EmptyBioState, ko, type Tab } from '@/components/deep-bio/DeepBioTabs';
+import { LoadingSpinner, EmptyBioState, ko } from '@/components/deep-bio/DeepBioTabs';
+import DeepBioContent from '@/components/deep-bio/DeepBioContent';
 import { industryToKorean } from '@/components/FilterPanel';
 
 function normalizePhotoUrl(url: string | undefined | null, name: string): string {
@@ -40,8 +41,6 @@ export default function ProfilePage() {
   const { people, loading: peopleLoading } = useEnrichedPeople();
   const [bio, setBio] = useState<DeepBio | null>(null);
   const [bioLoading, setBioLoading] = useState(true);
-  const [tab, setTab] = useState<Tab>('story');
-  const [unlocked, setUnlocked] = useState(false);
 
   const personId = params.id as string;
   const person = people.find(p => p.id === personId);
@@ -77,9 +76,11 @@ export default function ProfilePage() {
 
   return (
     <div className="min-h-screen bg-gray-50 profile-page-root">
-      {/* Top bar */}
+      {/* Top bar — sticky mini-header. Shows photo + name + worth so the
+          reader always knows whose profile they're on even after scrolling
+          past the hero. */}
       <div className="bg-white border-b border-gray-200 sticky top-0 z-10 profile-topbar">
-        <div className="max-w-4xl mx-auto px-6 py-3 flex items-center gap-3">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-2.5 flex items-center gap-3">
           <button
             onClick={() => {
               // If user came from within the site, go back. Otherwise (direct
@@ -94,13 +95,33 @@ export default function ProfilePage() {
                 router.push('/');
               }
             }}
-            className="text-gray-500 hover:text-gray-800 transition-colors text-sm flex items-center gap-1"
+            className="text-gray-500 hover:text-gray-800 transition-colors text-sm flex items-center gap-1 shrink-0"
+            aria-label={lang === 'ko' ? '돌아가기' : 'Back'}
           >
-            <span className="text-lg">←</span>
-            <span>{lang === 'ko' ? '돌아가기' : 'Back'}</span>
+            <span className="text-lg leading-none">←</span>
+            <span className="hidden sm:inline">{lang === 'ko' ? '돌아가기' : 'Back'}</span>
           </button>
-          <div className="h-4 w-px bg-gray-200" />
-          <span className="text-sm text-gray-400 truncate">{displayName}</span>
+          <div className="h-5 w-px bg-gray-200 shrink-0" />
+          <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-200 shrink-0">
+            <img
+              src={normalizePhotoUrl(person.photoUrl, person.name)}
+              alt={person.name}
+              className="w-full h-full object-cover"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=80&background=random&bold=true`;
+              }}
+            />
+          </div>
+          <div className="flex-1 min-w-0 flex items-baseline gap-2">
+            <span className="text-sm font-semibold text-gray-900 truncate">{displayName}</span>
+            <span className="text-xs text-gray-500 shrink-0">
+              {formatNetWorth(person.netWorth, lang === 'ko')}
+            </span>
+            <span className="text-xs text-gray-400 truncate hidden sm:inline">
+              · {lang === 'ko' ? industryToKorean(person.industry) : person.industry}
+            </span>
+          </div>
         </div>
       </div>
 
@@ -176,19 +197,15 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        {/* Tab content area */}
+        {/* Bio sections — single-scroll layout with right-edge floating nav */}
         <div className="mt-10">
-          <TabBar tab={tab} setTab={setTab} lang={lang} />
-
-          <div className="mt-6">
-            {bioLoading ? (
-              <LoadingSpinner />
-            ) : !bio ? (
-              <EmptyBioState lang={lang} />
-            ) : (
-              <TabContent bio={bio} tab={tab} unlocked={unlocked} onUnlock={() => setUnlocked(true)} lang={lang} />
-            )}
-          </div>
+          {bioLoading ? (
+            <LoadingSpinner />
+          ) : !bio ? (
+            <EmptyBioState lang={lang} />
+          ) : (
+            <DeepBioContent bio={bio} person={person} lang={lang} />
+          )}
         </div>
       </div>
     </div>

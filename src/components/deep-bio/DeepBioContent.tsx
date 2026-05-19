@@ -24,6 +24,7 @@ import type { EnrichedPerson, SajuResult, CheonGan } from '@/lib/saju/types';
 import WealthChart from './WealthChart';
 import { ko } from './DeepBioTabs';
 import { getSipSin } from '@/lib/saju/tenGods';
+import FloatingNav from './FloatingNav';
 
 interface Props {
   bio: DeepBio;
@@ -33,6 +34,9 @@ interface Props {
   lang: string;
   /** Rendered only at the top of the mobile view (e.g. a compact saju chart). */
   mobileHeader?: React.ReactNode;
+  /** Scroll container — used by the floating section nav's IntersectionObserver
+   *  to compute "active" against the visible part of the modal, not the window. */
+  scrollRoot?: HTMLElement | null;
 }
 
 const STEM_TO_OHAENG: Record<string, string> = {
@@ -105,7 +109,7 @@ function buildMatchPoints(userSaju: SajuResult, person: EnrichedPerson, lang: st
   return points;
 }
 
-export default function DeepBioContent({ bio, person, userSaju, lang, mobileHeader }: Props) {
+export default function DeepBioContent({ bio, person, userSaju, lang, mobileHeader, scrollRoot }: Props) {
   const matchPoints = userSaju ? buildMatchPoints(userSaju, person, lang) : [];
 
   // Key facts — childhood에서 추출
@@ -147,9 +151,29 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
   const hasTraits = bio.personalTraits && (bio.personalTraits.knownFor || bio.personalTraits.philanthropy);
   const hasSources = bio.sources && bio.sources.length > 0;
 
+  // Floating section nav. Build the list based on what's actually present
+  // — no point showing an "출처" jump if there are no sources.
+  const navItems = [
+    { id: 'overview', label: lang === 'ko' ? '개요' : 'Overview' },
+    ...(hasTimeline || hasWealth ? [{ id: 'timeline', label: lang === 'ko' ? '타임라인' : 'Timeline' }] : []),
+    ...(hasFailures ? [{ id: 'failures', label: lang === 'ko' ? '실패' : 'Setbacks' }] : []),
+    ...(hasSources ? [{ id: 'sources', label: lang === 'ko' ? '출처' : 'Sources' }] : []),
+  ];
+
   return (
-    <div className="space-y-6">
+    <div className="relative space-y-6">
+      {/* Floating section nav — vertically centered on the right edge of
+          the scroll container. Only renders if we have 2+ jump targets. */}
+      <FloatingNav
+        items={navItems}
+        scrollRoot={scrollRoot}
+        className="fixed top-1/2 -translate-y-1/2 right-3 z-30"
+      />
+
       {mobileHeader && <div className="lg:hidden">{mobileHeader}</div>}
+
+      {/* ───────────── OVERVIEW ───────────── */}
+      <div id="overview" className="space-y-6 scroll-mt-20">
 
       {/* 1. Saju match callout (only when userSaju is provided) */}
       {userSaju && matchPoints.length > 0 && (
@@ -223,6 +247,13 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
         </section>
       )}
 
+      </div>
+      {/* ───────────── /OVERVIEW ───────────── */}
+
+      {/* ───────────── TIMELINE ───────────── */}
+      {(hasWealth || hasTimeline || hasQuotes) && (
+        <div id="timeline" className="space-y-6 scroll-mt-20">
+
       {/* 5. Wealth chart */}
       {hasWealth && (
         <section>
@@ -245,12 +276,12 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
           <h3 className="text-sm font-bold text-gray-900 mb-3">
             {lang === 'ko' ? '📅 커리어 타임라인' : '📅 Career Timeline'}
           </h3>
-          <div className="relative pl-5 border-l-2 border-indigo-100 space-y-3">
+          <div className="relative pl-5 border-l border-gray-200 space-y-3">
             {bio.careerTimeline.map((event, i) => (
               <div key={i} className="relative">
-                <div className="absolute -left-[27px] top-0.5 w-3 h-3 rounded-full bg-indigo-500 border-2 border-white" />
-                <div className="text-[10px] font-bold text-indigo-600">{event.year}</div>
-                <div className="text-[13px] text-gray-700 mt-0.5 leading-snug">
+                <div className="absolute -left-[24px] top-1 w-2.5 h-2.5 rounded-full bg-gray-900 border-2 border-white shadow-[0_0_0_1px_#ddd]" />
+                <div className="text-[11px] font-bold text-gray-900 tracking-wide">{event.year}</div>
+                <div className="text-[13px] text-gray-600 mt-0.5 leading-snug">
                   {ko(lang, event.event, event.eventKo)}
                 </div>
               </div>
@@ -273,24 +304,30 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
         </section>
       )}
 
-      {/* 8. Failures */}
+        </div>
+      )}
+      {/* ───────────── /TIMELINE ───────────── */}
+
+      {/* ───────────── FAILURES ───────────── */}
       {hasFailures && (
-        <section>
+        <section id="failures" className="scroll-mt-20">
           <h3 className="text-sm font-bold text-gray-900 mb-2.5">
             {lang === 'ko' ? '⚠️ 실패와 교훈' : '⚠️ Failures & Lessons'}
           </h3>
-          <div className="space-y-2.5">
+          <div className="space-y-3">
             {bio.failures.map((f, i) => (
-              <div key={i} className="bg-rose-50/60 border border-rose-100 rounded-lg p-3">
-                <div className="text-xs font-bold text-rose-700">{f.year}</div>
-                <p className="text-[13px] text-gray-800 mt-1 leading-snug">
+              <div key={i} className="bg-gray-50 border-l-[3px] border-gray-300 rounded-r-lg rounded-l-sm p-3.5">
+                <div className="text-xs font-bold text-gray-900 tracking-wide">{f.year}</div>
+                <p className="text-[13px] text-gray-700 mt-1.5 leading-snug">
                   {ko(lang, f.description, f.descriptionKo)}
                 </p>
                 {f.lesson && (
-                  <p className="text-xs text-emerald-700 mt-2 pt-2 border-t border-rose-100/60 leading-snug">
-                    <span className="font-semibold">{lang === 'ko' ? '교훈: ' : 'Lesson: '}</span>
-                    {ko(lang, f.lesson, f.lessonKo)}
-                  </p>
+                  <div className="mt-2.5 flex gap-2 items-start bg-white rounded-md px-2.5 py-2 border border-gray-100">
+                    <span className="text-rose-600 font-bold shrink-0 leading-snug">→</span>
+                    <span className="text-[12px] text-gray-700 leading-snug">
+                      {ko(lang, f.lesson, f.lessonKo)}
+                    </span>
+                  </div>
                 )}
               </div>
             ))}
@@ -333,7 +370,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
 
       {/* 10. Sources */}
       {hasSources && (
-        <section>
+        <section id="sources" className="scroll-mt-20">
           <h3 className="text-sm font-bold text-gray-900 mb-2">
             {lang === 'ko' ? '📰 출처' : '📰 Sources'}
           </h3>
