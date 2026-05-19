@@ -118,6 +118,32 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
       // races — the user kept their side of the bargain.
       try { localStorage.setItem(STORAGE_KEY, '1'); } catch { /* ignore */ }
       setUnlocked(true);
+
+      // Fire-and-forget: send the matches via email. We don't await it —
+      // the user already sees their reveal, the mail is a bonus that
+      // arrives in their inbox a few seconds later. Errors are logged
+      // but never block the UX.
+      const slimMatches = lockedPeople.map((p) => ({
+        id: p.id,
+        name: p.name,
+        nameKo: p.nameKo ?? null,
+        photoUrl: p.photoUrl ?? null,
+        nationality: p.nationality,
+        industry: p.industry,
+        netWorth: p.netWorth,
+      }));
+      void fetch('/api/send-match-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: trimmed,
+          ilju,
+          matches: slimMatches,
+          lang,
+        }),
+      }).catch(() => {
+        // Swallow — the unlock already happened, email is the bonus.
+      });
     } catch {
       setStatus('error');
       setErrorMsg(t.emailCaptureErrorGeneric);
@@ -128,15 +154,15 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
 
   const count = lockedPeople.length;
   const headline = unlocked
-    ? (lang === 'ko' ? `+${count}명 더 보기` : `+${count} more matches`)
+    ? (lang === 'ko' ? `잠금 해제됨 — ${count}명 더 보기` : `Unlocked — ${count} more to explore`)
     : (lang === 'ko'
-        ? `${count}명의 부자가 같은 ${ilju} 일주를 가졌어요`
+        ? `같은 ${ilju} 일주의 부자 ${count}명이 더 있어요`
         : `${count} more billionaires share your ${ilju} day-pillar`);
   const subline = unlocked
-    ? (lang === 'ko' ? '잠금이 해제됐어요.' : 'You’ve unlocked them.')
+    ? (lang === 'ko' ? '아래 카드를 눌러서 더 알아보세요.' : 'Tap a card to dive in.')
     : (lang === 'ko'
-        ? '이메일을 남기면 누구인지 보여드릴게요.'
-        : 'Drop your email to see who.');
+        ? '이메일을 남겨주시면 누군지 알려드릴게요'
+        : 'Drop your email and we’ll show you who.');
 
   return (
     <div className="mt-8 rounded-2xl border border-gray-200 bg-gray-50/40 px-4 sm:px-5 py-5">
@@ -180,12 +206,12 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
             >
               {status === 'submitting'
                 ? t.emailCaptureSubmitting
-                : (lang === 'ko' ? '🔓 잠금 해제' : '🔓 Unlock')}
+                : (lang === 'ko' ? '🔓 누구인지 보기' : '🔓 Show me who')}
             </button>
           </div>
           <p className="text-[10.5px] text-gray-400 leading-snug">
             {lang === 'ko'
-              ? '제출 시 마케팅 정보 수신에 동의하는 것으로 간주합니다. 언제든 구독 취소 가능.'
+              ? '제출하시면 새 부자 소식 이메일을 받게 돼요. 언제든 해지 가능합니다.'
               : 'By submitting you agree to receive updates. Unsubscribe anytime.'}
           </p>
           {status === 'error' && errorMsg && (
