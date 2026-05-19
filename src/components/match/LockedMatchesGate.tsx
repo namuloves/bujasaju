@@ -131,6 +131,8 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
         nationality: p.nationality,
         industry: p.industry,
         netWorth: p.netWorth,
+        bioKo: p.bioKo ?? null,
+        bio: p.bio ?? null,
       }));
       void fetch('/api/send-match-email', {
         method: 'POST',

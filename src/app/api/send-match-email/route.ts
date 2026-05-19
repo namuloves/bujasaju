@@ -54,6 +54,8 @@ interface ClientMatch {
   nationality?: unknown;
   industry?: unknown;
   netWorth?: unknown;
+  bioKo?: unknown;
+  bio?: unknown;
 }
 
 function sanitizeString(v: unknown, max: number): string | undefined {
@@ -81,6 +83,10 @@ function sanitizeMatches(raw: unknown): MatchPerson[] {
       nationality: sanitizeString(m.nationality, 4),
       industry: sanitizeString(m.industry, 80),
       netWorth: m.netWorth,
+      // Bio is the longest field — cap generously (1200 chars) so we can
+      // accept the full paragraph but still reject absurd payloads.
+      bioKo: sanitizeString(m.bioKo, 1200) ?? null,
+      bio: sanitizeString(m.bio, 1200) ?? null,
     });
   }
   return out;

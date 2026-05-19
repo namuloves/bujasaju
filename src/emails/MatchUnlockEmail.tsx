@@ -53,6 +53,10 @@ export interface MatchPerson {
   nationality?: string;
   industry?: string;
   netWorth: number;
+  /** One-paragraph Korean bio (~120 chars). Shown under the meta line
+   *  in the card. Falls back to the English `bio` when absent. */
+  bioKo?: string | null;
+  bio?: string | null;
 }
 
 interface Props {
@@ -132,6 +136,14 @@ const styles = {
     color: '#888',
     margin: '2px 0 0',
   },
+  bio: {
+    fontSize: '12.5px',
+    color: '#555',
+    lineHeight: 1.6,
+    margin: '10px 0 0',
+    paddingTop: '10px',
+    borderTop: '1px solid #f0f0f0',
+  },
   worth: {
     fontSize: '15px',
     fontWeight: 700,
@@ -203,6 +215,10 @@ export default function MatchUnlockEmail({ ilju, matches, origin = 'https://buja
               ? (p.photoUrl.startsWith('//') ? `https:${p.photoUrl}` : p.photoUrl)
               : `https://ui-avatars.com/api/?name=${encodeURIComponent(p.name)}&size=120&background=random&bold=true`;
             const profileUrl = `${origin}/profile/${p.id}`;
+            // Bio: prefer Korean, fall back to English. Trim a hair so
+            // long bios don't dominate the card on mobile clients.
+            const bioRaw = (p.bioKo || p.bio || '').trim();
+            const bio = bioRaw.length > 220 ? bioRaw.slice(0, 218).trimEnd() + '…' : bioRaw;
 
             return (
               <Link key={p.id} href={profileUrl} style={styles.card}>
@@ -220,6 +236,7 @@ export default function MatchUnlockEmail({ ilju, matches, origin = 'https://buja
                     </td>
                   </tr>
                 </table>
+                {bio && <Text style={styles.bio}>{bio}</Text>}
               </Link>
             );
           })}
