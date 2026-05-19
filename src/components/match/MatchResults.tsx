@@ -13,6 +13,7 @@ import MatchSummary from './MatchSummary';
 import DeepInterpretation from './DeepInterpretation';
 import Top5FacesRow, { pickTop3WithKorean } from './Top5FacesRow';
 import EmailCaptureCard from './EmailCaptureCard';
+import LockedMatchesGate from './LockedMatchesGate';
 import FeedbackCard from './FeedbackCard';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
@@ -183,6 +184,15 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
   }, [top3, summaryMatches]);
   const featuredPerson =
     featuredPool.find((p) => p.id === selectedFeaturedId) || featuredPool[0] || null;
+
+  // Locked pool — everything past the Top3 row that we hide behind the
+  // unlock gate. Pulled from the same featuredPool (already deduped and
+  // strict-first) so order matches what the user would naturally see if
+  // they scrolled. Capped at 7 to keep the gate visually short.
+  const lockedPool = useMemo(() => {
+    const top3Ids = new Set(top3.map((p) => p.id));
+    return featuredPool.filter((p) => !top3Ids.has(p.id)).slice(0, 7);
+  }, [featuredPool, top3]);
 
   const featuredHasBio = featuredPerson ? hasDeepBioSync(featuredPerson.id) : false;
   const [showFeaturedBio, setShowFeaturedBio] = useState(false);
@@ -360,6 +370,12 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
                 people={top3}
                 selectedId={featuredPerson?.id ?? null}
               />
+
+              {/* Email unlock gate — the rest of the matches, hidden until
+                  the visitor drops an email. Cards still leak country +
+                  industry + 자산 so the gate feels like a real preview,
+                  not just a locked door. */}
+              <LockedMatchesGate lockedPeople={lockedPool} ilju={me.ilju} />
             </div>
           )}
         </div>
