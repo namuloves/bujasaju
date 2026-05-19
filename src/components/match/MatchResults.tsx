@@ -13,6 +13,7 @@ import MatchSummary from './MatchSummary';
 import DeepInterpretation from './DeepInterpretation';
 import Top5FacesRow, { pickTop3WithKorean } from './Top5FacesRow';
 import EmailCaptureCard from './EmailCaptureCard';
+import FeedbackCard from './FeedbackCard';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
 
@@ -375,6 +376,13 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
           <EmailCaptureCard />
         </div>
       )}
+
+      {/* Feedback — quick vote + optional comment, anonymous. Sits right
+          above share/reset so people who scrolled all the way down see it
+          before leaving. */}
+      <div className="max-w-xl mx-auto">
+        <FeedbackCard ilju={me.ilju} />
+      </div>
 
       {/* Share + reset — minimal footer actions */}
       <div className="max-w-xl mx-auto pt-4">

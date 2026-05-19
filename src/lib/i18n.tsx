@@ -117,6 +117,17 @@ type Dict = {
   emailCaptureErrorInvalid: string;
   emailCaptureErrorConsent: string;
   emailCaptureErrorGeneric: string;
+  // Feedback card — quick vote + optional comment, shown above share buttons
+  feedbackPrompt: string;
+  feedbackLike: string;
+  feedbackDislike: string;
+  feedbackThanks: string;
+  feedbackCommentPrompt: string;
+  feedbackCommentPlaceholder: string;
+  feedbackCommentSubmit: string;
+  feedbackCommentSubmitting: string;
+  feedbackCommentSuccess: string;
+  feedbackErrorGeneric: string;
 };
 
 const ko: Dict = {
@@ -224,6 +235,16 @@ const ko: Dict = {
   emailCaptureErrorInvalid: '올바른 이메일 주소를 입력해주세요.',
   emailCaptureErrorConsent: '수신 동의에 체크해주세요.',
   emailCaptureErrorGeneric: '저장에 실패했어요. 잠시 후 다시 시도해주세요.',
+  feedbackPrompt: '풀이 어떠셨어요?',
+  feedbackLike: '👍 재밌어요',
+  feedbackDislike: '👎 별로예요',
+  feedbackThanks: '고마워요! 의견 잘 받았어요.',
+  feedbackCommentPrompt: '한 마디 남기시겠어요? (선택)',
+  feedbackCommentPlaceholder: '자유롭게 적어주세요',
+  feedbackCommentSubmit: '보내기',
+  feedbackCommentSubmitting: '보내는 중…',
+  feedbackCommentSuccess: '코멘트 고마워요 🙌',
+  feedbackErrorGeneric: '저장에 실패했어요. 잠시 후 다시 시도해주세요.',
 };
 
 const en: Dict = {
@@ -332,6 +353,16 @@ const en: Dict = {
   emailCaptureErrorInvalid: 'Please enter a valid email address.',
   emailCaptureErrorConsent: 'Please check the consent box.',
   emailCaptureErrorGeneric: 'Something went wrong. Please try again in a moment.',
+  feedbackPrompt: 'How was the reading?',
+  feedbackLike: '👍 Loved it',
+  feedbackDislike: '👎 Not for me',
+  feedbackThanks: 'Thanks for the feedback!',
+  feedbackCommentPrompt: 'Want to add a comment? (optional)',
+  feedbackCommentPlaceholder: 'Anything you’d like to share',
+  feedbackCommentSubmit: 'Send',
+  feedbackCommentSubmitting: 'Sending…',
+  feedbackCommentSuccess: 'Thanks for the note 🙌',
+  feedbackErrorGeneric: 'Something went wrong. Please try again in a moment.',
 };
 
 const dictionaries: Record<Lang, Dict> = { ko, en };
