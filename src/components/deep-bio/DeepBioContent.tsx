@@ -164,9 +164,12 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
     <div className="relative space-y-6">
       {/* Floating section nav — vertically centered on the right edge of
           the scroll container. Only renders if we have 2+ jump targets. */}
+      {/* FloatingNav hidden until in-page scroll bug is fixed. Re-enable
+          by removing the `hidden` class once the click→scroll path works
+          in production. */}
       <FloatingNav
         items={navItems}
-        className="fixed top-1/2 -translate-y-1/2 right-3 z-30"
+        className="hidden fixed top-1/2 -translate-y-1/2 right-3 z-30"
       />
 
       {mobileHeader && <div className="lg:hidden">{mobileHeader}</div>}
