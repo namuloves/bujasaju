@@ -35,13 +35,14 @@ const nextConfig: NextConfig = {
             //   - Google Analytics (gtag) + Tag Manager
             //   - Google AdSense
             //   - Vercel Analytics (vitals.vercel-analytics.com)
-            "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://pagead2.googlesyndication.com https://*.googlesyndication.com https://va.vercel-scripts.com",
+            "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://pagead2.googlesyndication.com https://*.googlesyndication.com https://va.vercel-scripts.com https://t1.kakaocdn.net https://developers.kakao.com",
             "style-src 'self' 'unsafe-inline'",
             "img-src 'self' https: data:",
             "font-src 'self'",
-            // GA + AdSense need beacon/XHR endpoints; OpenAI is our own API.
-            "connect-src 'self' https://api.openai.com https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net https://pagead2.googlesyndication.com https://*.googlesyndication.com https://vitals.vercel-insights.com",
-            "frame-src https://googleads.g.doubleclick.net https://*.googlesyndication.com",
+            // GA + AdSense need beacon/XHR endpoints; OpenAI is our own API;
+            // Kakao SDK fetches and posts to *.kakao.com / kakaocdn.
+            "connect-src 'self' https://api.openai.com https://www.google-analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net https://pagead2.googlesyndication.com https://*.googlesyndication.com https://vitals.vercel-insights.com https://*.kakao.com https://*.kakaocdn.net",
+            "frame-src https://googleads.g.doubleclick.net https://*.googlesyndication.com https://*.kakao.com",
             "frame-ancestors 'none'",
           ].join('; '),
         },
