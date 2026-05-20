@@ -212,7 +212,12 @@ export async function POST(req: NextRequest) {
   // From address: prefer the custom domain once verified, otherwise fall
   // back to Resend's sandbox sender so we can test before DNS propagates.
   // Override via RESEND_FROM env var (e.g. "부자사주 <hello@bujasaju.com>").
-  const fromAddress = process.env.RESEND_FROM ?? 'onboarding@resend.dev';
+  //
+  // Default uses the sandbox address but with a friendly display name so
+  // the inbox shows "부자사주 <onboarding@resend.dev>" instead of just
+  // "onboarding@resend.dev". Once the custom domain is verified, set
+  // RESEND_FROM in Vercel to switch to the real address.
+  const fromAddress = process.env.RESEND_FROM ?? '부자사주 <onboarding@resend.dev>';
 
   try {
     const resend = getResend();
