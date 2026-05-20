@@ -8,6 +8,8 @@ import type { DeepBio } from '@/lib/deepBio';
 import { fetchDeepBio } from '@/lib/deepBio';
 import { LoadingSpinner, EmptyBioState, ko } from '@/components/deep-bio/DeepBioTabs';
 import DeepBioContent from '@/components/deep-bio/DeepBioContent';
+import { HeroPillar } from '@/components/match/SajuHero';
+import type { CheonGan } from '@/lib/saju/types';
 import { industryToKorean } from '@/components/FilterPanel';
 
 function normalizePhotoUrl(url: string | undefined | null, name: string): string {
@@ -121,6 +123,11 @@ export default function ProfilePage() {
             <span className="text-xs text-gray-400 truncate hidden sm:inline">
               · {lang === 'ko' ? industryToKorean(person.industry) : person.industry}
             </span>
+            {person.saju && (
+              <span className="text-xs text-gray-400 truncate hidden sm:inline">
+                · {person.saju.ilju} 일주
+              </span>
+            )}
           </div>
         </div>
       </div>
@@ -196,6 +203,45 @@ export default function ProfilePage() {
             )}
           </div>
         </div>
+
+        {/* Saju chart — 4 pillars (時·日·月·年) + 일주·월지·격국 메타.
+            Sits below the hero so the chart isn't competing with the photo
+            on mobile, but is one of the first things the reader sees. */}
+        {person.saju && (
+          <section className="mt-8 sm:mt-10 rounded-2xl bg-gray-50 border border-gray-100 px-4 sm:px-6 py-5 sm:py-6">
+            <h2 className="text-sm font-bold text-gray-900 mb-4 text-center">
+              {lang === 'ko' ? `${displayName}의 사주` : `${displayName}'s Saju`}
+            </h2>
+            <div className="max-w-md mx-auto">
+              <div className="flex justify-center gap-2 sm:gap-2.5">
+                <HeroPillar
+                  label="時"
+                  ju={person.saju.saju.hour}
+                  ilgan={person.saju.saju.day.stem as CheonGan}
+                />
+                <HeroPillar
+                  label="日"
+                  ju={person.saju.saju.day}
+                  ilgan={person.saju.saju.day.stem as CheonGan}
+                  isDayPillar
+                />
+                <HeroPillar
+                  label="月"
+                  ju={person.saju.saju.month}
+                  ilgan={person.saju.saju.day.stem as CheonGan}
+                />
+                <HeroPillar
+                  label="年"
+                  ju={person.saju.saju.year}
+                  ilgan={person.saju.saju.day.stem as CheonGan}
+                />
+              </div>
+              <p className="text-[12px] text-gray-500 text-center mt-3">
+                {person.saju.ilju}일주 · {person.saju.wolji}월지 · {person.saju.gyeokguk}
+              </p>
+            </div>
+          </section>
+        )}
 
         {/* Bio sections — single-scroll layout with right-edge floating nav */}
         <div className="mt-10">
