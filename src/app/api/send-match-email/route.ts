@@ -209,10 +209,15 @@ export async function POST(req: NextRequest) {
     }),
   );
 
+  // From address: prefer the custom domain once verified, otherwise fall
+  // back to Resend's sandbox sender so we can test before DNS propagates.
+  // Override via RESEND_FROM env var (e.g. "부자사주 <hello@bujasaju.com>").
+  const fromAddress = process.env.RESEND_FROM ?? 'onboarding@resend.dev';
+
   try {
     const resend = getResend();
-    await resend.emails.send({
-      from: '부자사주 <hello@bujasaju.com>',
+    const result = await resend.emails.send({
+      from: fromAddress,
       to: email,
       replyTo: 'hello@bujasaju.com',
       subject: `${ilju} 일주의 부자 ${enrichedMatches.length}명을 소개해드려요`,
@@ -222,10 +227,20 @@ export async function POST(req: NextRequest) {
         { name: 'ilju', value: ilju },
       ],
     });
+    // The SDK returns { data, error } even on resolved promises — a 4xx
+    // from Resend (e.g. unverified domain) is reported here, not thrown.
+    if (result.error) {
+      console.error('[send-match-email] resend error:', JSON.stringify(result.error));
+      return Response.json(
+        { error: 'resend_rejected', detail: result.error },
+        { status: 502 },
+      );
+    }
+    console.log('[send-match-email] sent', result.data?.id, 'to', email, 'from', fromAddress);
   } catch (err) {
     const msg = err instanceof Error ? err.message : 'send_failed';
     console.error('[send-match-email] failed:', msg);
-    return Response.json({ error: 'send_failed' }, { status: 500 });
+    return Response.json({ error: 'send_failed', detail: msg }, { status: 500 });
   }
 
   return Response.json({ ok: true });

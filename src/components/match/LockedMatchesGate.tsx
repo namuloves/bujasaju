@@ -96,61 +96,61 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
 
     setStatus('submitting');
     setErrorMsg(null);
-    try {
-      // We post-and-forget conceptually, but await the response so we
-      // can show an error if Redis is down. The submission implies
-      // consent because this gate's headline says so.
-      const res = await fetch('/api/subscribe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          email: trimmed,
-          consent: true,
-          lang,
-          source: 'unlock-gate',
-        }),
-      });
-      if (!res.ok) {
-        setStatus('error');
-        setErrorMsg(t.emailCaptureErrorGeneric);
-        return;
-      }
-      // Persist + flip state. We unlock even if the network call later
-      // races — the user kept their side of the bargain.
-      try { localStorage.setItem(STORAGE_KEY, '1'); } catch { /* ignore */ }
-      setUnlocked(true);
 
-      // Fire-and-forget: send the matches via email. We don't await it —
-      // the user already sees their reveal, the mail is a bonus that
-      // arrives in their inbox a few seconds later. Errors are logged
-      // but never block the UX.
-      const slimMatches = lockedPeople.map((p) => ({
-        id: p.id,
-        name: p.name,
-        nameKo: p.nameKo ?? null,
-        photoUrl: p.photoUrl ?? null,
-        nationality: p.nationality,
-        industry: p.industry,
-        netWorth: p.netWorth,
-        bioKo: p.bioKo ?? null,
-        bio: p.bio ?? null,
-      }));
-      void fetch('/api/send-match-email', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          email: trimmed,
-          ilju,
-          matches: slimMatches,
-          lang,
-        }),
-      }).catch(() => {
-        // Swallow — the unlock already happened, email is the bonus.
-      });
-    } catch {
+    // Build the slim match payload once — shared by both subscribe and
+    // the email send.
+    const slimMatches = lockedPeople.map((p) => ({
+      id: p.id,
+      name: p.name,
+      nameKo: p.nameKo ?? null,
+      photoUrl: p.photoUrl ?? null,
+      nationality: p.nationality,
+      industry: p.industry,
+      netWorth: p.netWorth,
+      bioKo: p.bioKo ?? null,
+      bio: p.bio ?? null,
+    }));
+
+    // Fire both requests in parallel. We don't gate the email send on
+    // subscribe success — subscribe can rate-limit (5/hr/IP) or fail if
+    // Redis env vars are missing, and there's no good reason that should
+    // also kill the email-send path.
+    const subscribePromise = fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        email: trimmed,
+        consent: true,
+        lang,
+        source: 'unlock-gate',
+      }),
+    }).catch(() => null);
+
+    const sendEmailPromise = fetch('/api/send-match-email', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        email: trimmed,
+        ilju,
+        matches: slimMatches,
+        lang,
+      }),
+    }).catch(() => null);
+
+    // Await both so we know whether to flip the UI to error or unlocked.
+    const [subRes, mailRes] = await Promise.all([subscribePromise, sendEmailPromise]);
+
+    // If BOTH calls completely fail (network down etc.), surface the
+    // error. Otherwise treat the unlock as successful — the user kept
+    // their side of the bargain and at least one signal landed.
+    if (!subRes && !mailRes) {
       setStatus('error');
       setErrorMsg(t.emailCaptureErrorGeneric);
+      return;
     }
+
+    try { localStorage.setItem(STORAGE_KEY, '1'); } catch { /* ignore */ }
+    setUnlocked(true);
   }
 
   if (lockedPeople.length === 0) return null;
