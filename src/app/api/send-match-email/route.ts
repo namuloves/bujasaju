@@ -222,9 +222,11 @@ export async function POST(req: NextRequest) {
       replyTo: 'hello@bujasaju.com',
       subject: `${ilju} 일주의 부자 ${enrichedMatches.length}명을 소개해드려요`,
       react: MatchUnlockEmail({ ilju, matches: enrichedMatches, origin }),
+      // Resend tag values must be ASCII letters / numbers / _ / - only.
+      // Korean characters in `ilju` (e.g. "갑술") would fail validation —
+      // we only keep the ASCII-safe `source` tag.
       tags: [
         { name: 'source', value: 'unlock-gate' },
-        { name: 'ilju', value: ilju },
       ],
     });
     // The SDK returns { data, error } even on resolved promises — a 4xx
