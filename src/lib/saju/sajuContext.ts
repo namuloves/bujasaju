@@ -53,8 +53,11 @@ interface WoljiEntry {
   hanja: string;
   animal: string;
   element: string;
+  season?: string;
+  month?: string;
   nature: string;
   keyword: string;
+  personality?: string;
   forDayMaster: Record<string, string>;
 }
 
@@ -214,7 +217,9 @@ ${stageData.description}
     const woljiRelation = woljiData.forDayMaster[dayElement] || '';
     sections.push(`# 월지: ${wolji}(${woljiData.hanja}) — ${woljiData.animal}
 ${woljiData.nature}
-${dayElement} 일간과의 관계: ${woljiRelation}`);
+성격: ${woljiData.personality}
+${dayStem} 일간(오행: ${dayElement})과의 관계: ${woljiRelation}
+키워드: ${woljiData.keyword}`);
   }
 
   // 5. 격국

@@ -626,9 +626,15 @@ ${featuredContext}
 - **사주 풀이 반복 금지.** 일주·격국 설명은 위 "사주 풀이"에서 이미 했으니 여기서 다시 하지 말 것.
 - **"당신과의 공통점" 쓰지 말 것.** "재물에 대한 감각과 도전 정신은 당신과의 공통점" 같은 문장 금지. 부자의 사업 스토리만 쓸 것.
 - **"훌륭합니다", "탁월합니다" 같은 올드패션 칭찬 금지.**
+- **번역체·공문서체 금지.** "제공합니다", "확대해줍니다", "부여합니다", "가져다줍니다", "선사합니다", "더해줍니다", "발휘하게 해줍니다", "이끌어내는", "필수적인 요소로 작용합니다", "재물 패턴을 만들어냅니다", "성격을 보완해줍니다", "원활한 소통 덕분에", "순조롭게 풀리는 경향", "수익을 올릴 가능성이 높습니다" 사용 금지.
+- **"만들어냅니다" 패턴 자체 금지.** "X은 Y를 만들어냅니다" 구문 절대 금지.
+- **"하여금", "지닌 만큼" 같은 번역투 금지.** "~인 만큼 ~합니다" 구문 금지.
+- **"~을 추구하며" 식으로 무한히 절을 이어붙이지 말 것.** 짧게 끊어 쓸 것.
+- **"~경향이 있습니다" 금지.** 단정적으로 짧게 쓸 것.
 - **순자산은 반드시 "${netWorthKr}" 그대로.** 변경 금지.
 - **영어 단어 절대 금지.** 회사명/제품명 같은 고유명사만 예외. "Technology 분야", "Real estate로" 같은 일반명사 영어 금지 → "기술 분야", "부동산으로"로.
 - **영한 짬뽕 금지** — "capturable하게", "scalable한" 같은 영단어+한국어 활용 금지.
+- **다른 외국어 절대 금지** — 러시아어(возможность), 일본어, 중국어 한자(漢字) 등 한국어가 아닌 다른 언어 문자 절대 출력 금지. 한국어와 명백한 영어 고유명사만 OK.
 - "null" 금지.
 
 톤: 짧고 읽기 쉬운 한국어. 한 문장에 절(clause) 3개 이상 이어붙이지 말 것. 자연스러운 경어체.`;
@@ -711,8 +717,18 @@ export async function POST(req: NextRequest) {
       {
         model: 'gpt-4o-mini',
         max_tokens: maxTokens,
+        // Lower temp keeps the model on-script and stops the mid-token
+        // language drift we saw with default 1.0 (e.g. "возможность"
+        // appearing in Korean output).
+        temperature: 0.5,
         stream: true,
-        messages: [{ role: 'user', content: prompt }],
+        messages: [
+          {
+            role: 'system',
+            content: 'You are a Korean saju expert. Output ONLY in Korean. Never use Russian, Japanese, Chinese, or any other non-Korean script. The only exception is well-known company/product names in English (e.g. Tesla, Amazon, Google). All other content must be in natural Korean.',
+          },
+          { role: 'user', content: prompt },
+        ],
       },
       { signal: upstreamAbort.signal },
     );
