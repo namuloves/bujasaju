@@ -386,9 +386,10 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
       </div>
 
       {/* Email gate — "N명 더 있어요 / 이메일로 결과를 받아보세요" 카피는
-          서비스 준비 전까지 숨김. 이메일 캡처 카드 자체는 살려둠. */}
+          서비스 준비 전까지 숨김. 이메일 캡처 카드 자체는 살려둠.
+          전체 카드는 현재 뷰에서 숨김 처리 (마크업은 유지). */}
       {(totalMatches + sameIljuCount) > top3.length && (
-        <div className="rounded-2xl border border-gray-200 bg-gray-50/60 px-5 sm:px-7 py-7 max-w-xl mx-auto">
+        <div className="hidden rounded-2xl border border-gray-200 bg-gray-50/60 px-5 sm:px-7 py-7 max-w-xl mx-auto">
           <EmailCaptureCard />
         </div>
       )}

@@ -104,6 +104,7 @@ type Dict = {
   shareSms: string;
   shareInstagram: string;
   shareInstagramHint: string;
+  shareKakao: string;
   shareKakaoNotice: string;
   shareDefaultText: string;
   // Email capture — shown after match results
@@ -223,7 +224,8 @@ const ko: Dict = {
   shareSms: '문자',
   shareInstagram: '인스타그램',
   shareInstagramHint: '링크가 복사됐어요! 인스타 스토리나 DM에 붙여넣기 하세요',
-  shareKakaoNotice: '카카오톡 공유 기능은 추후에 추가될 예정입니다.',
+  shareKakao: '카카오톡',
+  shareKakaoNotice: '',
   shareDefaultText: '내 사주랑 비슷한 부자는? 부자사주에서 확인해 보세요',
   emailCaptureTitle: '새로운 부자가 추가되면 알려드릴까요?',
   emailCaptureSubtitle: '이메일을 남겨주시면 새 기능과 새 부자사주가 업데이트될 때 알려드립니다.',
@@ -341,7 +343,8 @@ const en: Dict = {
   shareSms: 'Text',
   shareInstagram: 'Instagram',
   shareInstagramHint: 'Link copied! Paste it into your Instagram story or DM',
-  shareKakaoNotice: 'KakaoTalk sharing is coming soon.',
+  shareKakao: 'KakaoTalk',
+  shareKakaoNotice: '',
   shareDefaultText: 'Which billionaires share your 사주? Find out on 부자사주',
   emailCaptureTitle: 'Want to know when new billionaires are added?',
   emailCaptureSubtitle: 'Leave your email and I\u2019ll let you know when new features and new billionaire charts are added.',

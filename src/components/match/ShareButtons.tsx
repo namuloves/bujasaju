@@ -3,6 +3,20 @@
 import { useEffect, useState } from 'react';
 import { useLanguage } from '@/lib/i18n';
 
+interface KakaoShare {
+  sendDefault: (opts: unknown) => void;
+}
+interface KakaoSDK {
+  isInitialized: () => boolean;
+  init: (key: string) => void;
+  Share?: KakaoShare;
+}
+declare global {
+  interface Window {
+    Kakao?: KakaoSDK;
+  }
+}
+
 interface Props {
   /** Short label shown above the buttons — e.g. "친구한테 보내기". */
   title?: string;
@@ -16,18 +30,15 @@ interface Props {
  * A small share widget tailored for Korean users.
  *
  * Button order (KR-audience priority):
- *   1. 링크 복사      — works everywhere; the base primitive.
- *   2. 더보기 (native) — `navigator.share`, mobile only.
- *   3. 문자 (SMS)     — `sms:` URI; mobile only (desktop hides it).
- *   4. 인스타그램     — no official web share API, so clicking copies the
+ *   1. 카카오톡       — Kakao JS SDK, loaded in root layout.
+ *   2. 링크 복사      — works everywhere; the base primitive.
+ *   3. 더보기 (native) — `navigator.share`, mobile only.
+ *   4. 문자 (SMS)     — `sms:` URI; mobile only (desktop hides it).
+ *   5. 인스타그램     — no official web share API, so clicking copies the
  *                       link + shows a toast telling the user to paste into
  *                       their story or DM. This is the standard pattern for
  *                       Korean quiz/result sites.
- *   5. X (Twitter)    — web intent URL.
- *
- * 카카오톡 is intentionally omitted for now — it needs a JavaScript key
- * from developers.kakao.com. A small notice below the buttons explains
- * that it's coming soon.
+ *   6. X (Twitter)    — web intent URL.
  */
 export default function ShareButtons({ title, shareText, variant = 'hero' }: Props) {
   const { t } = useLanguage();
@@ -46,6 +57,24 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
     // SMS only makes sense on phones. Use a coarse UA sniff — good enough
     // for deciding whether to show the button.
     setIsMobile(/Mobi|Android|iPhone|iPad/i.test(navigator.userAgent));
+
+    // Initialize Kakao SDK as soon as it's available. The script is loaded
+    // in root layout with strategy="afterInteractive", so it may not be
+    // ready on the first tick — poll briefly then give up.
+    const key = process.env.NEXT_PUBLIC_KAKAO_JS_KEY;
+    if (!key) return;
+    let tries = 0;
+    const id = window.setInterval(() => {
+      tries += 1;
+      const k = window.Kakao;
+      if (k) {
+        if (!k.isInitialized()) k.init(key);
+        window.clearInterval(id);
+      } else if (tries > 40) {
+        window.clearInterval(id);
+      }
+    }, 100);
+    return () => window.clearInterval(id);
   }, []);
 
   const copyToClipboard = async (value: string): Promise<boolean> => {
@@ -86,6 +115,32 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
     }
   };
 
+  const handleKakao = async () => {
+    const k = window.Kakao;
+    if (!k?.Share) {
+      // SDK not ready yet — degrade gracefully by copying the link
+      await copyToClipboard(`${text} ${shareUrl}`);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1800);
+      return;
+    }
+    k.Share.sendDefault({
+      objectType: 'feed',
+      content: {
+        title: t.siteTagline,
+        description: text,
+        imageUrl: 'https://bujasaju.com/opengraph-image',
+        link: { mobileWebUrl: shareUrl, webUrl: shareUrl },
+      },
+      buttons: [
+        {
+          title: t.shareDefaultText,
+          link: { mobileWebUrl: shareUrl, webUrl: shareUrl },
+        },
+      ],
+    });
+  };
+
   const handleInstagram = async () => {
     // Instagram has no public web share URL, so we do the next best thing:
     // copy the link and tell the user to paste it into their story/DM.
@@ -110,6 +165,20 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
         <div className="text-xs font-medium text-gray-500">{title}</div>
       )}
       <div className="flex flex-wrap items-center justify-center gap-2">
+        {/* 카카오톡 */}
+        <button
+          type="button"
+          onClick={handleKakao}
+          className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-[#3a1d1d] rounded-full transition-opacity shadow-sm hover:opacity-90"
+          style={{ background: '#FEE500' }}
+          aria-label={t.shareKakao}
+        >
+          <svg aria-hidden viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+            <path d="M12 3C6.48 3 2 6.58 2 10.99c0 2.84 1.87 5.33 4.7 6.76-.2.71-.74 2.62-.85 3.03-.13.51.19.5.4.36.16-.11 2.6-1.77 3.65-2.49.69.1 1.4.15 2.1.15 5.52 0 10-3.58 10-7.99S17.52 3 12 3z" />
+          </svg>
+          <span>{t.shareKakao}</span>
+        </button>
+
         {/* 링크 복사 */}
         <button
           type="button"
@@ -195,10 +264,6 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
         </div>
       )}
 
-      {/* Kakao coming-soon notice */}
-      <div className="text-[10px] text-gray-400 mt-1">
-        {t.shareKakaoNotice}
-      </div>
     </div>
   );
 }
