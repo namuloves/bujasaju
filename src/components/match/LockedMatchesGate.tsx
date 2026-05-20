@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState, type FormEvent } from 'react';
+import Link from 'next/link';
 import { useLanguage } from '@/lib/i18n';
 import { industryToKorean } from '@/components/FilterPanel';
 import type { EnrichedPerson } from '@/lib/saju/types';
@@ -243,11 +244,14 @@ function LockedRow({
   const worth = formatWorth(person.netWorth, lang);
   const displayName = lang === 'ko' ? (person.nameKo || person.name) : person.name;
 
-  return (
-    <li className="flex items-center gap-3 rounded-xl bg-white border border-gray-100 px-3 py-2.5">
+  // Inner card content is shared between the locked and unlocked states —
+  // only the wrapping element differs (li vs Link inside li) so we factor
+  // it out and let the parent decide.
+  const inner = (
+    <>
       <div className="text-xs font-bold text-gray-400 w-5 shrink-0">#{rank}</div>
 
-      {/* Photo / placeholder. Avatar is always grey until unlocked — we
+      {/* Photo / placeholder. Avatar stays grey until unlocked — we
           never load the real photo before the user submits. */}
       <div className="shrink-0 w-10 h-10 rounded-full overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
         {unlocked ? (
@@ -284,6 +288,34 @@ function LockedRow({
       <div className="text-sm font-bold text-gray-900 shrink-0 tabular-nums">
         {worth}
       </div>
+
+      {/* Tiny chevron — only on unlocked rows so the row reads as a link. */}
+      {unlocked && (
+        <span className="text-gray-400 shrink-0 text-base leading-none" aria-hidden>
+          ›
+        </span>
+      )}
+    </>
+  );
+
+  // Unlocked: whole row is a link to the person's profile page.
+  if (unlocked) {
+    return (
+      <li>
+        <Link
+          href={`/profile/${person.id}`}
+          className="flex items-center gap-3 rounded-xl bg-white border border-gray-100 px-3 py-2.5 transition-colors hover:bg-gray-50 hover:border-gray-200"
+        >
+          {inner}
+        </Link>
+      </li>
+    );
+  }
+
+  // Locked: static row, no link.
+  return (
+    <li className="flex items-center gap-3 rounded-xl bg-white border border-gray-100 px-3 py-2.5">
+      {inner}
     </li>
   );
 }
