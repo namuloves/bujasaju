@@ -165,19 +165,22 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
         <div className="text-xs font-medium text-gray-500">{title}</div>
       )}
       <div className="flex flex-wrap items-center justify-center gap-2">
-        {/* 카카오톡 */}
-        <button
-          type="button"
-          onClick={handleKakao}
-          className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-[#3a1d1d] rounded-full transition-opacity shadow-sm hover:opacity-90"
-          style={{ background: '#FEE500' }}
-          aria-label={t.shareKakao}
-        >
-          <svg aria-hidden viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
-            <path d="M12 3C6.48 3 2 6.58 2 10.99c0 2.84 1.87 5.33 4.7 6.76-.2.71-.74 2.62-.85 3.03-.13.51.19.5.4.36.16-.11 2.6-1.77 3.65-2.49.69.1 1.4.15 2.1.15 5.52 0 10-3.58 10-7.99S17.52 3 12 3z" />
-          </svg>
-          <span>{t.shareKakao}</span>
-        </button>
+        {/* 카카오톡 — 임시 비활성화 (카카오 picker에서 "Failed request" 뜸,
+            원인 디버깅 중). 마크업은 유지 (false 가드만 해제하면 복원). */}
+        {false && (
+          <button
+            type="button"
+            onClick={handleKakao}
+            className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-[#3a1d1d] rounded-full transition-opacity shadow-sm hover:opacity-90"
+            style={{ background: '#FEE500' }}
+            aria-label={t.shareKakao}
+          >
+            <svg aria-hidden viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+              <path d="M12 3C6.48 3 2 6.58 2 10.99c0 2.84 1.87 5.33 4.7 6.76-.2.71-.74 2.62-.85 3.03-.13.51.19.5.4.36.16-.11 2.6-1.77 3.65-2.49.69.1 1.4.15 2.1.15 5.52 0 10-3.58 10-7.99S17.52 3 12 3z" />
+            </svg>
+            <span>{t.shareKakao}</span>
+          </button>
+        )}
 
         {/* 링크 복사 */}
         <button
