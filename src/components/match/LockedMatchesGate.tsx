@@ -123,6 +123,8 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
         consent: true,
         lang,
         source: 'unlock-gate',
+        ilju,
+        matchIds: slimMatches.map((m) => m.id),
       }),
     }).catch(() => null);
 

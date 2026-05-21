@@ -50,6 +50,23 @@ interface SubscribeBody {
   // Optional — lets us tag signups by surface (e.g. "match-results") if
   // we add more capture points later without changing the schema.
   source?: unknown;
+  // Submission context. Stored so we can replay the match email later
+  // if the Resend send failed (or build a re-engagement send).
+  ilju?: unknown;
+  matchIds?: unknown;
+}
+
+const MAX_MATCH_IDS = 10;
+
+function sanitizeMatchIds(raw: unknown): string[] {
+  if (!Array.isArray(raw)) return [];
+  const out: string[] = [];
+  for (const v of raw.slice(0, MAX_MATCH_IDS)) {
+    if (typeof v !== 'string') continue;
+    const trimmed = v.trim().slice(0, 64);
+    if (trimmed) out.push(trimmed);
+  }
+  return out;
 }
 
 export async function POST(req: NextRequest) {
@@ -70,6 +87,8 @@ export async function POST(req: NextRequest) {
   const consent = body.consent === true;
   const lang = body.lang === 'en' ? 'en' : 'ko';
   const source = typeof body.source === 'string' ? body.source.slice(0, 32) : 'match-results';
+  const ilju = typeof body.ilju === 'string' ? body.ilju.trim().slice(0, 4) : '';
+  const matchIds = sanitizeMatchIds(body.matchIds);
 
   if (!rawEmail || !EMAIL_RE.test(rawEmail) || rawEmail.length > 254) {
     return Response.json({ error: 'invalid_email' }, { status: 400 });
@@ -104,9 +123,29 @@ export async function POST(req: NextRequest) {
       lastSeenAt: String(now),
       lastUa: ua.slice(0, 256),
       lastIp: ip.slice(0, 64),
+      // Submission context — overwritten on each submit so the hash always
+      // reflects the *latest* ilju + matches. Full history lives in the
+      // `submissions` list below.
+      lastIlju: ilju,
+      lastMatchIds: matchIds.join(','),
     });
     // Set firstSeenAt only if it doesn't exist yet.
     await redis.hsetnx(`email:${rawEmail}`, 'firstSeenAt', String(now));
+
+    // Append a full submission record so we can replay any specific
+    // attempt later (e.g. if Resend was misconfigured at the time).
+    // Stored as JSON in a Redis list — newest pushed to the head.
+    if (ilju && matchIds.length > 0) {
+      const submission = JSON.stringify({
+        email: rawEmail,
+        ilju,
+        matchIds,
+        lang,
+        source,
+        at: now,
+      });
+      await redis.lpush('submissions', submission);
+    }
   } catch (err) {
     const msg = err instanceof Error ? err.message : 'storage_error';
     console.error('[subscribe] failed to persist:', msg);
