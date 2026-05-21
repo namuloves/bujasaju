@@ -13,6 +13,15 @@ const BRANCH_INDEX = new Map<string, number>(JI_JI.map((b, i) => [b, i]));
 let cachedPromise: Promise<EnrichedPerson[]> | null = null;
 let cachedData: EnrichedPerson[] | null = null;
 
+// Drop entries with netWorth=0 (or missing): mostly deceased founders we kept
+// for historical reasons, plus celebrities who don't belong in a "richest"
+// ranking. Hiding them site-wide keeps matching, browsing, and direct profile
+// links consistent.
+function isVisible(p: EnrichedPerson): boolean {
+  const nw = p.netWorth;
+  return typeof nw === 'number' && nw > 0;
+}
+
 export function loadEnrichedPeople(): Promise<EnrichedPerson[]> {
   if (cachedPromise) return cachedPromise;
   cachedPromise = fetch('/enriched-billionaires.json')
@@ -21,8 +30,9 @@ export function loadEnrichedPeople(): Promise<EnrichedPerson[]> {
       return res.json() as Promise<EnrichedPerson[]>;
     })
     .then((data) => {
-      cachedData = data;
-      return data;
+      const filtered = data.filter(isVisible);
+      cachedData = filtered;
+      return filtered;
     });
   return cachedPromise;
 }
