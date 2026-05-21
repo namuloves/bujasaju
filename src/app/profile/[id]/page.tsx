@@ -9,6 +9,7 @@ import { fetchDeepBio } from '@/lib/deepBio';
 import { LoadingSpinner, EmptyBioState, ko } from '@/components/deep-bio/DeepBioTabs';
 import DeepBioContent from '@/components/deep-bio/DeepBioContent';
 import { HeroPillar } from '@/components/match/SajuHero';
+import DaewoonStrip from '@/components/profile/DaewoonStrip';
 import type { CheonGan } from '@/lib/saju/types';
 import { industryToKorean } from '@/components/FilterPanel';
 
@@ -240,6 +241,15 @@ export default function ProfilePage() {
                 {person.saju.ilju}일주 · {person.saju.wolji}월지 · {person.saju.gyeokguk}
               </p>
             </div>
+          </section>
+        )}
+
+        {/* 대운 strip — 10-year luck periods. Needs birthday + gender, both
+            of which the enriched data set carries. Component handles its own
+            loading/error states (silently hides if data is missing). */}
+        {person.birthday && person.gender && (
+          <section className="mt-6">
+            <DaewoonStrip person={person} />
           </section>
         )}
 
