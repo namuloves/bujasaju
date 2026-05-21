@@ -20,7 +20,7 @@ import type { EnrichedPerson } from '@/lib/saju/types';
  * doubles as the consent moment ("submit to see the rest").
  */
 
-const STORAGE_KEY = 'bujasaju_matches_unlocked';
+const STORAGE_KEY_PREFIX = 'bujasaju_matches_unlocked:';
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const NATIONALITY_KO: Record<string, string> = {
@@ -73,15 +73,17 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
   // Restore unlock state on mount. We deliberately read localStorage in an
   // effect (not lazy initial state) so SSR and the first client render
   // agree — otherwise hydration would mismatch on returning visitors.
+  // Keyed by ilju so unlocking one day-pillar doesn't auto-reveal others.
   useEffect(() => {
+    setUnlocked(false);
     try {
-      if (localStorage.getItem(STORAGE_KEY) === '1') {
+      if (localStorage.getItem(STORAGE_KEY_PREFIX + ilju) === '1') {
         setUnlocked(true);
       }
     } catch {
       // Ignore — private mode, disabled storage, etc.
     }
-  }, []);
+  }, [ilju]);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -151,7 +153,7 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
       return;
     }
 
-    try { localStorage.setItem(STORAGE_KEY, '1'); } catch { /* ignore */ }
+    try { localStorage.setItem(STORAGE_KEY_PREFIX + ilju, '1'); } catch { /* ignore */ }
     setUnlocked(true);
   }
 
