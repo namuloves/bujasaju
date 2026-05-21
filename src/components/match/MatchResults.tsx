@@ -10,6 +10,7 @@ import { hasDeepBioSync, hasDeepBioV2Sync, loadDeepBioIndex } from '@/lib/deepBi
 import { HeroPillar } from './SajuHero';
 import ShareButtons from './ShareButtons';
 import MatchSummary from './MatchSummary';
+import IljuReading from './IljuReading';
 import DeepInterpretation from './DeepInterpretation';
 import Top5FacesRow, { pickTop3WithKorean } from './Top5FacesRow';
 import EmailCaptureCard from './EmailCaptureCard';
@@ -334,7 +335,10 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
               사주 차트 → 사주 풀이 → 부자 카드. On lg+ this becomes the
               right column via `lg:order-2`. */}
           <div className="lg:order-2 space-y-5">
-            <MatchSummary saju={me} matches={summaryMatches} />
+            <IljuReading ilju={me.ilju} userGender={userGender} />
+            <div className="border-t border-gray-100 pt-5">
+              <MatchSummary saju={me} matches={summaryMatches} />
+            </div>
             {featuredPerson && (
               <div className="border-t border-gray-100 pt-5">
                 <DeepInterpretation

@@ -280,8 +280,8 @@ export default function MatchSummary({ saju, matches }: Props) {
   return (
     <div className="relative">
       <div className="flex items-baseline gap-2 mb-3">
-        <span className="text-xl">✨</span>
-        <h3 className="text-base font-bold text-gray-900">사주 풀이</h3>
+        <span className="text-xl">🔎</span>
+        <h3 className="text-base font-bold text-gray-900">매칭 부자 분석</h3>
       </div>
       {showSkeleton ? (
         <div className="space-y-2.5 animate-pulse">
