@@ -82,9 +82,10 @@ export default function DaewoonStrip({ person }: Props) {
     );
   }
 
-  // Show 8 periods starting from the first one. Most lifetimes won't go past
-  // 8 anyway (start age ~5 + 80 years = 85세 covers the whole 8th box).
-  const periods = result.periods.slice(0, 8);
+  // Show 8 periods, but reversed: latest decade on the left, earliest on
+  // the right. Reads like a timeline that grows toward older history as
+  // you scroll right (matches the user's mental model — present-first).
+  const periods = result.periods.slice(0, 8).slice().reverse();
   const currentAge = computeAge(person.birthday);
   const currentIdx = periods.findIndex(
     (p) => currentAge >= p.startAge && currentAge <= p.endAge,
