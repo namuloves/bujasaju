@@ -78,7 +78,7 @@ const TIME_BRANCH_TO_HOUR: Record<JiJi, number> = {
   해: 22,
 };
 
-function computeSaju(input: MatchInput): SajuResult {
+export function computeSaju(input: MatchInput): SajuResult {
   if (input.mode === 'birthday') {
     // New path uses `timeBranch`. Legacy localStorage entries may still have
     // `hour`/`minute` — honor them so saved inputs hydrate cleanly.

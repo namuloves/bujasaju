@@ -10,6 +10,7 @@ import { LoadingSpinner, EmptyBioState, ko } from '@/components/deep-bio/DeepBio
 import DeepBioContent from '@/components/deep-bio/DeepBioContent';
 import { HeroPillar } from '@/components/match/SajuHero';
 import DaewoonStrip from '@/components/profile/DaewoonStrip';
+import CompareWithUser from '@/components/profile/CompareWithUser';
 import type { CheonGan } from '@/lib/saju/types';
 import { industryToKorean } from '@/components/FilterPanel';
 
@@ -204,6 +205,16 @@ export default function ProfilePage() {
             )}
           </div>
         </div>
+
+        {/* Compare-with-user — reads localStorage for the visitor's saju and
+            shows how it relates to this person's. Renders a CTA if the user
+            hasn't entered theirs yet. Placed above the chart so the personal
+            connection lands before the abstract analysis. */}
+        {person.saju && (
+          <div className="mt-6">
+            <CompareWithUser person={person} />
+          </div>
+        )}
 
         {/* Saju chart — 4 pillars (時·日·月·年) + 일주·월지·격국 메타.
             Sits below the hero so the chart isn't competing with the photo
