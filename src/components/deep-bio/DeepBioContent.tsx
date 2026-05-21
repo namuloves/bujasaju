@@ -256,8 +256,8 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {(hasWealth || hasTimeline || hasQuotes) && (
         <div id="timeline" className="space-y-6 scroll-mt-20">
 
-      {/* 5. Wealth chart */}
-      {hasWealth && (
+      {/* 5. Wealth chart — temporarily hidden */}
+      {false && hasWealth && (
         <section>
           <h3 className="text-sm font-bold text-gray-900 mb-2">
             {lang === 'ko' ? '💰 자산 변화' : '💰 Wealth History'}

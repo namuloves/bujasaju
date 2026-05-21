@@ -89,8 +89,8 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
         </section>
       )}
 
-      {/* Mobile: wealth chart */}
-      {bio.wealthHistory.length >= 2 && (
+      {/* Mobile: wealth chart — temporarily hidden */}
+      {false && bio.wealthHistory.length >= 2 && (
         <section className="lg:hidden">
           <h3 className="text-sm font-bold text-gray-900 mb-2">
             {lang === 'ko' ? '💰 자산 변화' : '💰 Wealth History'}
@@ -119,7 +119,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
             </section>
           )}
 
-          {bio.wealthHistory.length >= 2 && (
+          {false && bio.wealthHistory.length >= 2 && (
             <section>
               <h3 className="text-sm font-bold text-gray-900 mb-2">
                 {lang === 'ko' ? '💰 자산 변화' : '💰 Wealth History'}
