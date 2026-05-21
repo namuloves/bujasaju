@@ -166,7 +166,9 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
         ? `같은 ${ilju} 일주의 부자 ${count}명이 더 있어요`
         : `${count} more billionaires share your ${ilju} day-pillar`);
   const subline = unlocked
-    ? (lang === 'ko' ? '아래 카드를 눌러서 더 알아보세요.' : 'Tap a card to dive in.')
+    ? (lang === 'ko'
+        ? '아래 카드를 눌러서 더 알아보세요. 이메일이 안 보이면 스팸함도 확인해주세요.'
+        : 'Tap a card to dive in. If the email isn’t in your inbox, check your spam folder.')
     : (lang === 'ko'
         ? '이메일을 남겨주시면 누군지 알려드릴게요'
         : 'Drop your email and we’ll show you who.');
