@@ -286,7 +286,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
           {person.nameKo && lang !== 'ko' && (
             <p className="text-xs text-gray-400 mt-0.5">{person.nameKo}</p>
           )}
-          <div className="flex items-center gap-2 mt-1.5 text-xs text-gray-600">
+          <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1 mt-1.5 text-xs text-gray-600">
             <span className="font-semibold text-indigo-600">
               {lang === 'ko' ? formatNetWorth(person.netWorth, 'ko') : `$${person.netWorth}B`}
             </span>
@@ -296,7 +296,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             {person.source && person.source !== person.industry && (
               <>
                 <span className="text-gray-300">·</span>
-                <span>{person.source}</span>
+                <span className="min-w-0 break-words">{person.source}</span>
               </>
             )}
           </div>

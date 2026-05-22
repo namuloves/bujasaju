@@ -169,7 +169,10 @@ export default function ProfilePage() {
               {person.source && (
                 <>
                   <span className="hidden sm:inline text-gray-300">·</span>
-                  <span className="whitespace-nowrap">{person.source}</span>
+                  {/* `min-w-0 break-words` lets long source strings (some are
+                       basically mini-bios) wrap inside the flex row instead of
+                       blowing past the card edge. */}
+                  <span className="min-w-0 break-words">{person.source}</span>
                 </>
               )}
             </div>
