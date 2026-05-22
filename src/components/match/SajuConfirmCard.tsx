@@ -52,7 +52,7 @@ export default function SajuConfirmCard({ saju, onConfirm, onEdit }: Props) {
         <button
           type="button"
           onClick={onConfirm}
-          className="px-5 py-2 text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition-colors"
+          className="px-5 py-2 text-sm font-semibold text-white bg-gray-900 hover:bg-black rounded-lg transition-colors"
         >
           {t.seeResults} →
         </button>
