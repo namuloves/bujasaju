@@ -5,20 +5,13 @@ import Link from 'next/link';
 import type { EnrichedPerson, SajuResult, CheonGan } from '@/lib/saju/types';
 import { computeSaju } from '@/components/match/MatchTab';
 import type { MatchInput } from '@/components/match/BirthdayForm';
+import { HeroPillar } from '@/components/match/SajuHero';
 
 const STORAGE_KEY = 'bujasaju.matchInput';
 
 const STEM_TO_OHAENG: Record<string, string> = {
   갑: '목', 을: '목', 병: '화', 정: '화', 무: '토',
   기: '토', 경: '금', 신: '금', 임: '수', 계: '수',
-};
-
-const OHAENG_BG: Record<string, string> = {
-  목: 'bg-emerald-50 text-emerald-700 border-emerald-200',
-  화: 'bg-rose-50 text-rose-700 border-rose-200',
-  토: 'bg-amber-50 text-amber-700 border-amber-200',
-  금: 'bg-slate-100 text-slate-700 border-slate-300',
-  수: 'bg-sky-50 text-sky-700 border-sky-200',
 };
 
 interface Props {
@@ -131,81 +124,144 @@ export default function CompareWithUser({ person }: Props) {
   }
 
   const cmp = deriveComparison(userSaju, person);
-  const userIlju = userSaju.ilju;
-  const userIlgan = userSaju.saju.day.stem as CheonGan;
-  const userOhaeng = STEM_TO_OHAENG[userIlgan];
-  const pIlgan = person.saju.saju.day.stem as CheonGan;
-  const pOhaeng = STEM_TO_OHAENG[pIlgan];
+  const userSj = userSaju.saju;
+  const pSj = person.saju.saju;
+  const userIlgan = userSj.day.stem as CheonGan;
+  const pIlgan = pSj.day.stem as CheonGan;
 
-  const accent =
-    cmp.tier === 'same_ilju'
-      ? 'border-indigo-300 bg-gradient-to-br from-indigo-50 to-purple-50'
-      : cmp.tier === 'same_ilgan'
-      ? 'border-indigo-200 bg-indigo-50/60'
-      : cmp.tier === 'same_ohaeng'
-      ? 'border-gray-200 bg-gray-50'
-      : 'border-gray-200 bg-white';
+  // Which pillars match between user and this person? Year/month/hour/day
+  // each evaluated independently. We highlight the stem and branch cells
+  // separately so partial matches (same stem, different branch) still
+  // surface visually.
+  const matchKey = (a: { stem: string; branch: string } | null | undefined,
+                    b: { stem: string; branch: string } | null | undefined) => ({
+    stem: !!a && !!b && a.stem === b.stem,
+    branch: !!a && !!b && a.branch === b.branch,
+  });
+  const yearM = matchKey(userSj.year, pSj.year);
+  const monthM = matchKey(userSj.month, pSj.month);
+  const dayM = matchKey(userSj.day, pSj.day);
+  const hourM = matchKey(userSj.hour, pSj.hour);
+
+  // Tier 1 (병인↔병인) → soft amber halo on the whole card. Other tiers
+  // stay neutral so we don't over-promise a "match" that's only an 일간.
+  const cardAccent = cmp.tier === 'same_ilju'
+    ? 'border-amber-200 bg-amber-50/40'
+    : 'border-gray-200 bg-white';
+  const badge =
+    cmp.tier === 'same_ilju' ? '완전 일치'
+    : cmp.tier === 'same_ilgan' ? '일간 일치'
+    : cmp.tier === 'same_ohaeng' ? '오행 일치'
+    : null;
+  const personName = person.nameKo ?? person.name;
 
   return (
-    <section className={`rounded-2xl border ${accent} p-4 sm:p-5`}>
-      <div className="flex items-baseline gap-2 mb-3">
+    <section className={`rounded-2xl border ${cardAccent} p-4 sm:p-5`}>
+      {/* Header: 🔮 당신과 {name}님 ............ [badge] */}
+      <div className="flex items-baseline gap-2 mb-4">
         <span className="text-base">🔮</span>
         <h3 className="text-sm font-bold text-gray-900">
-          당신과 {person.nameKo ?? person.name}님
+          당신과 {personName}님
         </h3>
+        {badge && (
+          <span className="ml-auto text-[10px] font-semibold bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full">
+            {badge}
+          </span>
+        )}
       </div>
 
-      {/* Side-by-side pillar comparison */}
-      <div className="grid grid-cols-[1fr_auto_1fr] gap-3 items-center mb-3">
-        {/* User */}
-        <div className="text-center">
-          <div className="text-[11px] text-gray-500 mb-1">나</div>
-          <div className="inline-flex items-baseline gap-1">
-            <span
-              className={`inline-flex items-center justify-center w-9 h-9 rounded-lg border ${
-                OHAENG_BG[userOhaeng] ?? OHAENG_BG['토']
-              } text-lg font-bold`}
-            >
-              {userIlgan}
-            </span>
-            <span className="text-base font-semibold text-gray-400">·</span>
-            <span className="text-sm font-medium text-gray-700">
-              {userIlju}일주
-            </span>
+      {/* Two charts stacked: 나 above, person below. Matching cells get a
+          golden ring via the highlight props on HeroPillar. */}
+      <div className="space-y-3">
+        {/* 나의 사주 */}
+        <div>
+          <div className="text-[11px] font-semibold text-gray-700 text-center mb-2">나의 사주</div>
+          <div className="flex justify-center gap-2 sm:gap-3">
+            <HeroPillar
+              label="時"
+              ju={userSj.hour}
+              ilgan={userIlgan}
+              highlightStem={hourM.stem}
+              highlightBranch={hourM.branch}
+            />
+            <HeroPillar
+              label="日"
+              ju={userSj.day}
+              ilgan={userIlgan}
+              isDayPillar
+              highlightStem={dayM.stem}
+              highlightBranch={dayM.branch}
+            />
+            <HeroPillar
+              label="月"
+              ju={userSj.month}
+              ilgan={userIlgan}
+              highlightStem={monthM.stem}
+              highlightBranch={monthM.branch}
+            />
+            <HeroPillar
+              label="年"
+              ju={userSj.year}
+              ilgan={userIlgan}
+              highlightStem={yearM.stem}
+              highlightBranch={yearM.branch}
+            />
           </div>
         </div>
 
-        <div className="text-gray-300 text-xl font-light">↔</div>
+        {/* ↕ divider that doubles as a visual cue for "compare" */}
+        <div className="flex justify-center text-amber-400 text-lg leading-none">↕</div>
 
-        {/* Person */}
-        <div className="text-center">
-          <div className="text-[11px] text-gray-500 mb-1">
-            {person.nameKo ?? person.name}
+        {/* 인물 사주 — uses person's own ilgan so its sipsin labels stay correct */}
+        <div>
+          <div className="text-[11px] font-semibold text-gray-700 text-center mb-2">
+            {personName}의 사주
           </div>
-          <div className="inline-flex items-baseline gap-1">
-            <span
-              className={`inline-flex items-center justify-center w-9 h-9 rounded-lg border ${
-                OHAENG_BG[pOhaeng] ?? OHAENG_BG['토']
-              } text-lg font-bold`}
-            >
-              {pIlgan}
-            </span>
-            <span className="text-base font-semibold text-gray-400">·</span>
-            <span className="text-sm font-medium text-gray-700">
-              {person.saju.ilju}일주
-            </span>
+          <div className="flex justify-center gap-2 sm:gap-3">
+            <HeroPillar
+              label="時"
+              ju={pSj.hour}
+              ilgan={pIlgan}
+              highlightStem={hourM.stem}
+              highlightBranch={hourM.branch}
+            />
+            <HeroPillar
+              label="日"
+              ju={pSj.day}
+              ilgan={pIlgan}
+              isDayPillar
+              highlightStem={dayM.stem}
+              highlightBranch={dayM.branch}
+            />
+            <HeroPillar
+              label="月"
+              ju={pSj.month}
+              ilgan={pIlgan}
+              highlightStem={monthM.stem}
+              highlightBranch={monthM.branch}
+            />
+            <HeroPillar
+              label="年"
+              ju={pSj.year}
+              ilgan={pIlgan}
+              highlightStem={yearM.stem}
+              highlightBranch={yearM.branch}
+            />
           </div>
         </div>
       </div>
 
-      <p className="text-[14px] font-semibold text-gray-900 leading-snug">
-        {cmp.headline}
-      </p>
-      {cmp.detail && (
-        <p className="mt-1 text-[13px] text-gray-600 leading-relaxed">
-          {cmp.detail}
+      {/* Takeaway sentence underneath the comparison. */}
+      <div className="mt-4 pt-3 border-t border-gray-100">
+        <p className="text-[14px] font-semibold text-gray-900 leading-snug">
+          {cmp.headline}
         </p>
-      )}
+        {cmp.detail && (
+          <p className="mt-1 text-[13px] text-gray-600 leading-relaxed">
+            {cmp.detail}
+          </p>
+        )}
+      </div>
     </section>
   );
 }

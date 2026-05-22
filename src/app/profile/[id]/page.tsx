@@ -49,6 +49,19 @@ export default function ProfilePage() {
   const personId = params.id as string;
   const person = people.find(p => p.id === personId);
 
+  // Visitor saju presence — when set, CompareWithUser renders BOTH charts
+  // (visitor + person) side by side, so the standalone person chart below
+  // becomes redundant. We hydrate from localStorage on mount and use the
+  // flag to hide the duplicate. Browse-only visitors keep seeing it.
+  const [visitorHasSaju, setVisitorHasSaju] = useState(false);
+  useEffect(() => {
+    try {
+      setVisitorHasSaju(!!localStorage.getItem('bujasaju.matchInput'));
+    } catch {
+      setVisitorHasSaju(false);
+    }
+  }, []);
+
   useEffect(() => {
     fetchDeepBio(personId).then(data => {
       setBio(data);
@@ -238,10 +251,11 @@ export default function ProfilePage() {
           </div>
         )}
 
-        {/* Saju chart — 4 pillars (時·日·月·年) + 일주·월지·격국 메타.
-            Sits below the hero so the chart isn't competing with the photo
-            on mobile, but is one of the first things the reader sees. */}
-        {person.saju && (
+        {/* Standalone person chart — only for visitors who haven't entered
+            their saju. Quiz-takers already see this same chart inside
+            CompareWithUser above (alongside their own), so showing it again
+            here would just duplicate the same information. */}
+        {person.saju && !visitorHasSaju && (
           <section className="mt-8 sm:mt-10 rounded-2xl bg-gray-50 border border-gray-100 px-4 sm:px-6 py-5 sm:py-6">
             <h2 className="text-sm font-bold text-gray-900 mb-4 text-center">
               {lang === 'ko' ? `${displayName}의 사주` : `${displayName}'s Saju`}
