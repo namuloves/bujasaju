@@ -335,7 +335,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
               사주 차트 → 사주 풀이 → 부자 카드. On lg+ this becomes the
               right column via `lg:order-2`. */}
           <div className="lg:order-2 space-y-5">
-            <IljuReading ilju={me.ilju} userGender={userGender} />
+            <IljuReading ilju={me.ilju} />
             <div className="border-t border-gray-100 pt-5">
               <MatchSummary saju={me} matches={summaryMatches} />
             </div>

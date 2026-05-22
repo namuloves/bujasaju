@@ -44,10 +44,9 @@ async function loadIljuData(): Promise<IljuDataset> {
 
 interface Props {
   ilju: string;
-  userGender?: 'M' | 'F';
 }
 
-export default function IljuReading({ ilju, userGender }: Props) {
+export default function IljuReading({ ilju }: Props) {
   const [entry, setEntry] = useState<IljuEntry | null>(null);
   const [error, setError] = useState(false);
 
@@ -79,10 +78,6 @@ export default function IljuReading({ ilju, userGender }: Props) {
       </div>
     );
   }
-
-  // Show gender-specific 연애결혼 if we know it; otherwise show both.
-  const showMale = !userGender || userGender === 'M';
-  const showFemale = !userGender || userGender === 'F';
 
   return (
     <div className="space-y-5">
@@ -119,22 +114,6 @@ export default function IljuReading({ ilju, userGender }: Props) {
       <p className="text-[15px] leading-relaxed text-gray-800">
         {entry.종합풀이}
       </p>
-
-      {/* 연애·결혼 */}
-      <Section emoji="💕" title="연애·결혼">
-        {showMale && (
-          <p className="text-[15px] leading-relaxed text-gray-800">
-            <span className="font-semibold text-gray-900">남자.</span>{' '}
-            {entry.연애결혼.남자}
-          </p>
-        )}
-        {showFemale && (
-          <p className="text-[15px] leading-relaxed text-gray-800">
-            <span className="font-semibold text-gray-900">여자.</span>{' '}
-            {entry.연애결혼.여자}
-          </p>
-        )}
-      </Section>
 
       {/* 재물·건강 */}
       <Section emoji="💰" title="재물·건강">
