@@ -1,13 +1,12 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import type { SajuResult, Ju, CheonGan, JiJi } from '@/lib/saju/types';
-import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS, getBongi } from '@/lib/saju/constants';
-import { getSipSin } from '@/lib/saju/tenGods';
+import type { SajuResult, Ju, CheonGan } from '@/lib/saju/types';
 import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
 import { useLanguage } from '@/lib/i18n';
 import { prefetchSajuSummary } from './MatchSummary';
+import { HeroPillar } from './SajuHero';
 
 interface Props {
   saju: SajuResult;
@@ -38,11 +37,10 @@ const RESULTS_DELAY_MS = MATCHING_DELAY_MS + 900;
 const DONE_DELAY_MS = RESULTS_DELAY_MS + 900;
 
 /**
- * Matches the visual language of `SajuConfirmCard` exactly — same cell size,
- * same typography, same sipsin labels — so the user perceives one continuous
- * card while the loading animation plays. The only differences are the
- * staggered reveal animation and the dashed "?" placeholders before each
- * pillar has been "read".
+ * Wraps `HeroPillar` (the same component used on confirm + results) in a
+ * staggered reveal animation. We delegate visuals to HeroPillar so all three
+ * screens (confirm, reveal, results) share one source of truth for chart
+ * styling — gradient cells, sipsin labels, sizing.
  */
 function PillarCard({
   ju,
@@ -54,64 +52,22 @@ function PillarCard({
   ju: Ju | null;
   label: string;
   revealIndex: number;
-  ilgan: CheonGan | null;
+  ilgan: CheonGan;
   isDayPillar?: boolean;
 }) {
   const delay = revealIndex * PILLAR_STAGGER_MS;
-
-  if (!ju) {
-    return (
-      <div
-        className="flex flex-col items-center opacity-0 reveal-pillar"
-        style={{ animationDelay: `${delay}ms` }}
-      >
-        <div className="text-[10px] text-gray-400 mb-1">{label}</div>
-        <div className="text-[10px] text-gray-300 mb-1 h-3">·</div>
-        <div className="w-14 h-14 rounded-lg border border-dashed border-gray-300 flex items-center justify-center text-gray-300 text-xl">
-          ?
-        </div>
-        <div className="w-14 h-14 rounded-lg border border-dashed border-gray-300 mt-1 flex items-center justify-center text-gray-300 text-xl">
-          ?
-        </div>
-        <div className="text-[10px] text-gray-300 mt-1 h-3">·</div>
-      </div>
-    );
-  }
-
-  const stemOh = STEM_TO_OHAENG[ju.stem as CheonGan];
-  const branchOh = BRANCH_TO_OHAENG[ju.branch as JiJi];
-  const stemColor = OHAENG_COLORS[stemOh];
-  const branchColor = OHAENG_COLORS[branchOh];
-
-  // Sipsin labels mirror SajuConfirmCard. ilgan is guaranteed non-null here
-  // because we always pass it from the parent, but we keep the type nullable
-  // so the placeholder branch above can be rendered before saju is ready.
-  const stemSipsin = isDayPillar ? '일간' : ilgan ? getSipSin(ilgan, ju.stem as CheonGan) : '';
-  const branchBongi = getBongi(ju.branch as JiJi);
-  const branchSipsin = ilgan ? getSipSin(ilgan, branchBongi) : '';
-
   return (
     <div
-      className="flex flex-col items-center opacity-0 reveal-pillar"
+      className="opacity-0 reveal-pillar"
       style={{ animationDelay: `${delay}ms` }}
     >
-      <div className="text-[10px] text-gray-400 mb-1">{label}</div>
-      <div className={`text-[10px] mb-1 font-medium ${isDayPillar ? 'text-indigo-500' : 'text-gray-500'}`}>
-        {stemSipsin}
-      </div>
-      <div
-        className={`w-14 h-14 rounded-lg flex items-center justify-center text-2xl font-bold ${stemColor.bg} ${stemColor.text}`}
-      >
-        {ju.stem}
-      </div>
-      <div
-        className={`w-14 h-14 rounded-lg mt-1 flex items-center justify-center text-2xl font-bold ${branchColor.bg} ${branchColor.text}`}
-      >
-        {ju.branch}
-      </div>
-      <div className="text-[10px] text-gray-500 mt-1 font-medium">
-        {branchSipsin}
-      </div>
+      <HeroPillar
+        label={label}
+        ju={ju}
+        ilgan={ilgan}
+        isDayPillar={isDayPillar}
+        large
+      />
     </div>
   );
 }
@@ -234,8 +190,8 @@ export default function RevealAnimation({ saju, onDone }: Props) {
       `}</style>
 
       {/* Pillars row — always mounted so the stagger timing is stable.
-          Sizing/gap mirror SajuConfirmCard so the transition feels seamless. */}
-      <div className="flex justify-center gap-3 sm:gap-4 mb-6 perspective-1000">
+          Same HeroPillar + gap as SajuConfirmCard and SajuHero. */}
+      <div className="flex justify-center gap-2 sm:gap-3 mb-6 perspective-1000">
         {PILLAR_ORDER.map(({ key, label, revealIndex }) => {
           const ju = key === 'hour' ? saju.saju.hour : saju.saju[key];
           return (
