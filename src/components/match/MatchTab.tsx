@@ -142,13 +142,28 @@ export default function MatchTab() {
   useEffect(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
-        const parsed = JSON.parse(raw) as MatchInput;
-        setInput(parsed);
-      }
       const savedStep = localStorage.getItem(STEP_KEY) as Step | null;
-      if (savedStep === 'results' || savedStep === 'confirm') {
-        setStep(savedStep);
+      // Only resume a non-form step if we have BOTH the input and the step.
+      // Without input, the confirm/results render guards (`step === ... && saju`)
+      // collapse to nothing and the page appears blank. This can happen if a
+      // user clears matchInput from devtools, switches browsers mid-session,
+      // or hits a corrupted JSON parse below. In any of those cases reset to
+      // the form so the screen isn't empty.
+      if (raw) {
+        try {
+          const parsed = JSON.parse(raw) as MatchInput;
+          setInput(parsed);
+          if (savedStep === 'results' || savedStep === 'confirm') {
+            setStep(savedStep);
+          }
+        } catch {
+          // Corrupted input — drop the stale step too.
+          localStorage.removeItem(STORAGE_KEY);
+          localStorage.removeItem(STEP_KEY);
+        }
+      } else if (savedStep) {
+        // Orphan step with no input. Wipe it so we don't render a blank screen.
+        localStorage.removeItem(STEP_KEY);
       }
     } catch {
       // ignore
