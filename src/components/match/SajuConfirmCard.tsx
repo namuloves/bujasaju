@@ -54,12 +54,12 @@ function Pillar({
         {stemSipsin}
       </div>
       <div
-        className={`w-14 h-14 rounded-lg border flex items-center justify-center text-2xl font-bold ${stemColor.bg} ${stemColor.text} ${stemColor.border}`}
+        className={`w-14 h-14 rounded-lg flex items-center justify-center text-2xl font-bold ${stemColor.bg} ${stemColor.text}`}
       >
         {ju.stem}
       </div>
       <div
-        className={`w-14 h-14 rounded-lg border mt-1 flex items-center justify-center text-2xl font-bold ${branchColor.bg} ${branchColor.text} ${branchColor.border}`}
+        className={`w-14 h-14 rounded-lg mt-1 flex items-center justify-center text-2xl font-bold ${branchColor.bg} ${branchColor.text}`}
       >
         {ju.branch}
       </div>

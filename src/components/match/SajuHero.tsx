@@ -1,9 +1,20 @@
 'use client';
 
-import type { SajuResult, Ju, CheonGan, JiJi, EnrichedPerson } from '@/lib/saju/types';
-import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS, GYEOKGUK_NAMES, getBongi } from '@/lib/saju/constants';
+import type { SajuResult, Ju, CheonGan, JiJi, EnrichedPerson, OHaeng } from '@/lib/saju/types';
+import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, GYEOKGUK_NAMES, getBongi } from '@/lib/saju/constants';
 import { getSipSin } from '@/lib/saju/tenGods';
 import { useLanguage } from '@/lib/i18n';
+
+// Saturated 오행 gradients — same palette as the 둘러보기 mini cards
+// (CleanMiniCard.tsx) so the saju chart and the browse grid feel
+// visually consistent.
+const OHAENG_GRADIENT: Record<OHaeng, string> = {
+  목: 'linear-gradient(116deg, #00C74C 7.97%, #0A9D42 100%)',
+  화: 'linear-gradient(113deg, #D66340 0%, #EF714A 100%)',
+  토: 'linear-gradient(105deg, #EC9212 0%, #F2A02C 151.02%)',
+  금: 'linear-gradient(109deg, #A1A1A1 2.57%, #828282 97.43%)',
+  수: 'linear-gradient(113deg, #005A92 -6.33%, #1B8ACF 116.68%)',
+};
 
 interface ComboStats {
   myCount: number;   // 이 조합의 부자 수
@@ -79,8 +90,6 @@ export function HeroPillar({
   }
   const stemOh = STEM_TO_OHAENG[ju.stem as CheonGan];
   const branchOh = BRANCH_TO_OHAENG[ju.branch as JiJi];
-  const stemColor = OHAENG_COLORS[stemOh];
-  const branchColor = OHAENG_COLORS[branchOh];
 
   const stemSipsin = isDayPillar
     ? '일간'
@@ -88,12 +97,18 @@ export function HeroPillar({
   const branchBongi = getBongi(ju.branch as JiJi);
   const branchSipsin = getSipSin(ilgan, branchBongi);
 
-  const stemClasses = dimStem
-    ? dimCell
-    : `${stemColor.bg} ${stemColor.text} ${stemColor.border}`;
-  const branchClasses = dimBranch
-    ? dimCell
-    : `${branchColor.bg} ${branchColor.text} ${branchColor.border}`;
+  // Saturated gradient cells (matches 둘러보기 mini cards). When dimmed, fall
+  // back to the muted gray panel. Text is white on the gradient because all
+  // five gradients are dark enough that white wins the contrast check.
+  const stemStyle = dimStem
+    ? undefined
+    : { backgroundImage: OHAENG_GRADIENT[stemOh] };
+  const branchStyle = dimBranch
+    ? undefined
+    : { backgroundImage: OHAENG_GRADIENT[branchOh] };
+
+  const stemClasses = dimStem ? dimCell : 'text-white border-transparent';
+  const branchClasses = dimBranch ? dimCell : 'text-white border-transparent';
 
   return (
     <div className="flex flex-col items-center">
@@ -103,11 +118,13 @@ export function HeroPillar({
       </div>
       <div
         className={`${cell} border flex items-center justify-center font-bold shadow-sm ${stemClasses} ${highlightStem ? 'ring-2 ring-indigo-400 ring-offset-1' : ''}`}
+        style={stemStyle}
       >
         {ju.stem}
       </div>
       <div
         className={`${cell} border mt-1 flex items-center justify-center font-bold shadow-sm ${branchClasses} ${highlightBranch ? 'ring-2 ring-indigo-400 ring-offset-1' : ''}`}
+        style={branchStyle}
       >
         {ju.branch}
       </div>
