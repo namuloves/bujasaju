@@ -1,20 +1,29 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import type { SajuResult, Ju, CheonGan, JiJi, EnrichedPerson, OHaeng } from '@/lib/saju/types';
 import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, GYEOKGUK_NAMES, getBongi } from '@/lib/saju/constants';
 import { getSipSin } from '@/lib/saju/tenGods';
 import { useLanguage } from '@/lib/i18n';
+import { readPalette, gradientFor, subscribeToColorChanges } from '@/components/dev/ColorPicker';
 
-// Saturated 오행 gradients — same palette as the 둘러보기 mini cards
-// (CleanMiniCard.tsx) so the saju chart and the browse grid feel
-// visually consistent.
-const OHAENG_GRADIENT: Record<OHaeng, string> = {
-  목: 'linear-gradient(116deg, #00C74C 7.97%, #0A9D42 100%)',
-  화: 'linear-gradient(113deg, #D66340 0%, #EF714A 100%)',
-  토: 'linear-gradient(105deg, #EC9212 0%, #F2A02C 151.02%)',
-  금: 'linear-gradient(109deg, #A1A1A1 2.57%, #828282 97.43%)',
-  수: 'linear-gradient(113deg, #005A92 -6.33%, #1B8ACF 116.68%)',
-};
+// Subscribe to live color overrides from the ColorPicker dev panel. Falls back
+// to the default palette baked into ColorPicker (DEFAULT_PALETTE) when no
+// overrides are set, so production renders are unaffected.
+function useOhaengGradient(): Record<OHaeng, string> {
+  const [palette, setPalette] = useState(() => readPalette());
+  useEffect(() => {
+    const onChange = () => setPalette(readPalette());
+    return subscribeToColorChanges(onChange);
+  }, []);
+  return {
+    목: gradientFor(palette, '목'),
+    화: gradientFor(palette, '화'),
+    토: gradientFor(palette, '토'),
+    금: gradientFor(palette, '금'),
+    수: gradientFor(palette, '수'),
+  };
+}
 
 interface ComboStats {
   myCount: number;   // 이 조합의 부자 수
@@ -58,6 +67,7 @@ export function HeroPillar({
   /** Add ring highlight to the branch cell (matches user) */
   highlightBranch?: boolean;
 }) {
+  const OHAENG_GRADIENT = useOhaengGradient();
   const cell = large
     ? 'w-12 h-12 sm:w-14 sm:h-14 rounded-xl text-2xl sm:text-3xl'
     : compact

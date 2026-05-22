@@ -6,6 +6,7 @@ import Script from "next/script";
 import "./globals.css";
 import { LanguageProvider } from "@/lib/i18n";
 import Footer from "@/components/Footer";
+import ColorPicker from "@/components/dev/ColorPicker";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -61,6 +62,8 @@ export default function RootLayout({
           {children}
           {modal}
           <Footer />
+          {/* Floating color picker — only renders when URL has ?dev=colors */}
+          <ColorPicker />
         </LanguageProvider>
         <Analytics />
         {/* GA4 via @next/third-parties: handles SPA navigation page_view
