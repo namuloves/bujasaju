@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { useLanguage } from '@/lib/i18n';
 import { useEnrichedPeople } from '@/lib/data/enriched';
@@ -13,6 +13,7 @@ import DaewoonStrip from '@/components/profile/DaewoonStrip';
 import CompareWithUser from '@/components/profile/CompareWithUser';
 import type { CheonGan } from '@/lib/saju/types';
 import { industryToKorean } from '@/components/FilterPanel';
+import { rewriteUsdToKrwInline } from '@/lib/usdToKrw';
 
 function normalizePhotoUrl(url: string | undefined | null, name: string): string {
   if (!url) {
@@ -213,11 +214,13 @@ export default function ProfilePage() {
               )}
             </div>
 
-            {/* Source string as a quoted side-note. break-words keeps long
-                mini-bios from blowing past the card edge. */}
-            {person.source && person.source !== person.industry && (
+            {/* Company quoted side-note — `source` was inconsistent (sometimes
+                a product, sometimes a mini-bio with family relations) so we
+                show `company` instead. The dataset's company field is short
+                and stable (e.g. "신세계그룹", "Tesla, SpaceX"). */}
+            {person.company && person.company !== person.industry && (
               <p className="mt-3 sm:mt-4 pl-3 border-l-2 border-gray-200 text-xs sm:text-sm text-gray-600 leading-relaxed break-words">
-                {person.source}
+                {person.company}
               </p>
             )}
 
@@ -232,11 +235,18 @@ export default function ProfilePage() {
               </p>
             )}
 
-            {/* Short bio */}
+            {/* Short bio — inline USD amounts (e.g. "35억 달러") get rewritten
+                to the same 조원 figure shown in the page header, so the bio
+                and the headline don't disagree about how much the person
+                is worth. English bios are passed through unchanged.
+                Long bios are clamped to 3 lines with a tap-to-expand toggle. */}
             {person.bio && (
-              <p className="mt-4 text-sm text-gray-500 leading-relaxed line-clamp-3 text-left">
-                {lang === 'ko' ? (person.bioKo ?? person.bio) : person.bio}
-              </p>
+              <ExpandableBio
+                text={lang === 'ko'
+                  ? rewriteUsdToKrwInline(person.bioKo ?? person.bio, person.netWorth)
+                  : person.bio}
+                lang={lang}
+              />
             )}
           </div>
         </div>
@@ -311,6 +321,55 @@ export default function ProfilePage() {
           )}
         </div>
       </div>
+    </div>
+  );
+}
+
+/**
+ * Short bio with a 3-line clamp + tap-to-expand toggle. The "더보기"/"접기"
+ * link only renders when the text is actually long enough to be truncated,
+ * so short bios stay clean without a dangling button. Tracks whether the
+ * paragraph overflows via a ref measurement on mount.
+ */
+function ExpandableBio({ text, lang }: { text: string; lang: string }) {
+  const [expanded, setExpanded] = useState(false);
+  const [isClamped, setIsClamped] = useState(false);
+  const ref = useRef<HTMLParagraphElement | null>(null);
+
+  // Detect clamp by comparing the line-clamped height with the unclamped
+  // scrollHeight. Runs on mount and any time the text changes (e.g. after
+  // language toggle).
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    // Brief microtask delay so layout has settled before measuring.
+    const id = requestAnimationFrame(() => {
+      if (!el) return;
+      const clamped = el.scrollHeight > el.clientHeight + 1;
+      setIsClamped(clamped);
+    });
+    return () => cancelAnimationFrame(id);
+  }, [text]);
+
+  return (
+    <div className="mt-4">
+      <p
+        ref={ref}
+        className={`text-sm text-gray-500 leading-relaxed text-left ${expanded ? '' : 'line-clamp-3'}`}
+      >
+        {text}
+      </p>
+      {isClamped && (
+        <button
+          type="button"
+          onClick={() => setExpanded((v) => !v)}
+          className="mt-1.5 text-xs font-medium text-gray-500 hover:text-gray-900 transition-colors"
+        >
+          {expanded
+            ? (lang === 'ko' ? '접기 ↑' : 'Show less ↑')
+            : (lang === 'ko' ? '더보기 ↓' : 'Show more ↓')}
+        </button>
+      )}
     </div>
   );
 }

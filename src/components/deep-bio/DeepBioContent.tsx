@@ -201,7 +201,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {keyFacts.length > 0 && (
         <section>
           <h3 className="text-sm font-bold text-gray-900 mb-2.5">
-            {lang === 'ko' ? '👤 한눈에 보는 정보' : '👤 Key Facts'}
+            {lang === 'ko' ? '한눈에 보는 정보' : 'Key Facts'}
           </h3>
           <dl className="rounded-lg border border-gray-100 divide-y divide-gray-100">
             {keyFacts.map((f, i) => (
@@ -214,15 +214,15 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
         </section>
       )}
 
-      {/* 3. Saju connection (v2 only — type-cast since DeepBio doesn't include this field) */}
+      {/* 3. Saju connection — editorial style, no amber box. Matches the
+          underlined eyebrow headers used by 어록 / 실패와 교훈. */}
       {(() => {
         const sc = (bio as unknown as { sajuConnection?: { summary?: string; summaryKo?: string } }).sajuConnection;
         if (!sc || (!sc.summary && !sc.summaryKo)) return null;
         return (
-          <section className="bg-amber-50/40 border border-amber-100 rounded-xl p-3.5">
-            <h3 className="text-sm font-bold text-amber-900 mb-1.5 flex items-center gap-1.5">
-              <span>🔗</span>
-              <span>{lang === 'ko' ? '사주와 부의 연결' : 'Saju ↔ Wealth'}</span>
+          <section>
+            <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
+              {lang === 'ko' ? '사주와 부의 연결' : 'Saju and Wealth'}
             </h3>
             <p className="text-sm text-gray-800 leading-relaxed">
               {ko(lang, sc.summary ?? '', sc.summaryKo)}
@@ -231,19 +231,26 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
         );
       })()}
 
-      {/* 4. Personal traits — tags */}
+      {/* 4. Personal traits — Known For + optional Philanthropy row. The
+          philanthropy line now hangs off a quiet "자선" label instead of
+          the emerald pill, so it slots into the same visual rhythm as
+          everything else on the page. */}
       {hasTraits && (
         <section>
-          <h3 className="text-sm font-bold text-gray-900 mb-2.5">
-            {lang === 'ko' ? '⭐ 대표 활동' : '⭐ Known For'}
+          <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
+            {lang === 'ko' ? '대표 활동' : 'Known For'}
           </h3>
           <p className="text-sm text-gray-800 leading-relaxed">
             {ko(lang, bio.personalTraits!.knownFor, bio.personalTraits!.knownForKo)}
           </p>
           {bio.personalTraits!.philanthropy && (
-            <div className="mt-2 inline-flex items-start gap-1.5 bg-emerald-50 text-emerald-700 rounded-lg px-2.5 py-1.5 text-xs font-medium">
-              <span>🤝</span>
-              <span className="leading-snug">{ko(lang, bio.personalTraits!.philanthropy, bio.personalTraits!.philanthropyKo)}</span>
+            <div className="mt-3 pt-3 border-t border-gray-100 flex gap-3 items-baseline">
+              <div className="shrink-0 w-12 text-[11px] font-bold text-gray-400 uppercase tracking-[0.06em]">
+                {lang === 'ko' ? '자선' : 'Giving'}
+              </div>
+              <p className="flex-1 text-[13px] text-gray-600 leading-relaxed">
+                {ko(lang, bio.personalTraits!.philanthropy, bio.personalTraits!.philanthropyKo)}
+              </p>
             </div>
           )}
         </section>
@@ -260,7 +267,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {false && hasWealth && (
         <section>
           <h3 className="text-sm font-bold text-gray-900 mb-2">
-            {lang === 'ko' ? '💰 자산 변화' : '💰 Wealth History'}
+            {lang === 'ko' ? '자산 변화' : 'Wealth History'}
           </h3>
           <WealthChart
             data={bio.wealthHistory}
@@ -276,7 +283,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {hasTimeline && (
         <section>
           <h3 className="text-sm font-bold text-gray-900 mb-3">
-            {lang === 'ko' ? '📅 커리어 타임라인' : '📅 Career Timeline'}
+            {lang === 'ko' ? '커리어 타임라인' : 'Career Timeline'}
           </h3>
           <div className="relative pl-5 border-l border-gray-200 space-y-3">
             {bio.careerTimeline.map((event, i) => (
@@ -292,13 +299,13 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
         </section>
       )}
 
-      {/* 7. Quotes */}
+      {/* 7. Quotes — editorial pull-quote style, no boxes */}
       {hasQuotes && (
         <section>
-          <h3 className="text-sm font-bold text-gray-900 mb-2.5">
-            {lang === 'ko' ? '💬 어록' : '💬 Quotes'}
+          <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
+            {lang === 'ko' ? '어록' : 'Quotes'}
           </h3>
-          <div className="space-y-3">
+          <div>
             {bio.quotes.map((q, i) => (
               <QuoteCard key={i} quote={q} lang={lang} />
             ))}
@@ -310,27 +317,31 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       )}
       {/* ───────────── /TIMELINE ───────────── */}
 
-      {/* ───────────── FAILURES ───────────── */}
+      {/* ───────────── FAILURES — editorial, year column + body ───────────── */}
       {hasFailures && (
         <section id="failures" className="scroll-mt-20">
-          <h3 className="text-sm font-bold text-gray-900 mb-2.5">
-            {lang === 'ko' ? '⚠️ 실패와 교훈' : '⚠️ Failures & Lessons'}
+          <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
+            {lang === 'ko' ? '실패와 교훈' : 'Setbacks & Lessons'}
           </h3>
-          <div className="space-y-3">
+          <div>
             {bio.failures.map((f, i) => (
-              <div key={i} className="bg-gray-50 border-l-[3px] border-gray-300 rounded-r-lg rounded-l-sm p-3.5">
-                <div className="text-xs font-bold text-gray-900 tracking-wide">{f.year}</div>
-                <p className="text-[13px] text-gray-700 mt-1.5 leading-snug">
-                  {ko(lang, f.description, f.descriptionKo)}
-                </p>
-                {f.lesson && (
-                  <div className="mt-2.5 flex gap-2 items-start bg-white rounded-md px-2.5 py-2 border border-gray-100">
-                    <span className="text-rose-600 font-bold shrink-0 leading-snug">→</span>
-                    <span className="text-[12px] text-gray-700 leading-snug">
+              <div
+                key={i}
+                className={`flex gap-4 py-3.5 ${i > 0 ? 'border-t border-gray-100' : ''}`}
+              >
+                <div className="shrink-0 w-12 text-[13px] font-bold text-gray-900 tabular-nums leading-snug">
+                  {f.year}
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm text-gray-900 leading-relaxed">
+                    {ko(lang, f.description, f.descriptionKo)}
+                  </p>
+                  {f.lesson && (
+                    <p className="mt-1.5 text-[13px] text-gray-500 leading-relaxed">
                       {ko(lang, f.lesson, f.lessonKo)}
-                    </span>
-                  </div>
-                )}
+                    </p>
+                  )}
+                </div>
               </div>
             ))}
           </div>
@@ -341,7 +352,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {hasBooks && (
         <section>
           <h3 className="text-sm font-bold text-gray-900 mb-2.5">
-            {lang === 'ko' ? '📚 도서' : '📚 Books'}
+            {lang === 'ko' ? '도서' : 'Books'}
           </h3>
           {hasAuthored && (
             <div className="mb-3">
@@ -406,17 +417,24 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
   );
 }
 
+/**
+ * Editorial quote — no box, no gradient. Just the quote in a real
+ * blockquote with a single quiet cite line beneath. Reads like a
+ * newsletter pull-quote, not an AI infobox.
+ */
 function QuoteCard({ quote, lang }: { quote: Quote; lang: string }) {
+  const context = quote.context ? ko(lang, quote.context, quote.contextKo) : '';
+  // Source URLs are noise next to a quote — only show plain text source.
+  const isUrl = quote.source ? /^https?:\/\//i.test(quote.source) : false;
+  const sourceText = quote.source && !isUrl ? quote.source : '';
+  const cite = [context, sourceText].filter(Boolean).join(' · ');
   return (
-    <blockquote className="bg-gray-50 rounded-lg p-3.5 border-l-4 border-indigo-300">
-      <p className="text-sm text-gray-800 font-medium leading-relaxed">
+    <blockquote className="mb-6 last:mb-0">
+      <p className="text-[15px] sm:text-base font-semibold text-gray-900 leading-relaxed">
         &ldquo;{ko(lang, quote.text, quote.textKo)}&rdquo;
       </p>
-      {quote.context && (
-        <p className="text-xs text-gray-500 mt-2">— {ko(lang, quote.context, quote.contextKo)}</p>
-      )}
-      {quote.source && (
-        <p className="text-xs text-gray-400 mt-1">{quote.source}</p>
+      {cite && (
+        <p className="mt-2 text-xs text-gray-500">— {cite}</p>
       )}
     </blockquote>
   );

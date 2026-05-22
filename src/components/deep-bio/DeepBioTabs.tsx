@@ -93,7 +93,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
       {false && bio.wealthHistory.length >= 2 && (
         <section className="lg:hidden">
           <h3 className="text-sm font-bold text-gray-900 mb-2">
-            {lang === 'ko' ? '💰 자산 변화' : '💰 Wealth History'}
+            {lang === 'ko' ? '자산 변화' : 'Wealth History'}
           </h3>
           <WealthChart data={bio.wealthHistory} timeline={bio.careerTimeline} lang={lang} className="bg-gray-50 rounded-xl p-3" source={bio.wealthHistorySource} />
         </section>
@@ -105,7 +105,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
           {bio.careerTimeline.length > 0 && (
             <section>
               <h3 className="text-sm font-bold text-gray-900 mb-3">
-                {lang === 'ko' ? '📈 커리어 타임라인' : '📈 Career Timeline'}
+                {lang === 'ko' ? '커리어 타임라인' : 'Career Timeline'}
               </h3>
               <div className="relative pl-5 border-l-2 border-indigo-100 space-y-3">
                 {bio.careerTimeline.map((event, i) => (
@@ -122,7 +122,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
           {false && bio.wealthHistory.length >= 2 && (
             <section>
               <h3 className="text-sm font-bold text-gray-900 mb-2">
-                {lang === 'ko' ? '💰 자산 변화' : '💰 Wealth History'}
+                {lang === 'ko' ? '자산 변화' : 'Wealth History'}
               </h3>
               <WealthChart data={bio.wealthHistory} timeline={bio.careerTimeline} lang={lang} className="bg-gray-50 rounded-xl p-3" source={bio.wealthHistorySource} />
             </section>
@@ -134,7 +134,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
           {bio.careerTimeline.length > 0 && (
             <section className="lg:hidden">
               <h3 className="text-sm font-bold text-gray-900 mb-3">
-                {lang === 'ko' ? '📈 커리어 타임라인' : '📈 Career Timeline'}
+                {lang === 'ko' ? '커리어 타임라인' : 'Career Timeline'}
               </h3>
               <div className="relative pl-6 border-l-2 border-indigo-100 space-y-4">
                 {bio.careerTimeline.map((event, i) => (
@@ -269,7 +269,7 @@ function BooksTab({ bio, lang }: { bio: DeepBio; lang: string }) {
       {hasAuthored && (
         <section>
           <h3 className="text-sm font-bold text-gray-900 mb-2">
-            {lang === 'ko' ? '✍️ 저서' : '✍️ Authored'}
+            {lang === 'ko' ? '저서' : 'Authored'}
           </h3>
           <div className="space-y-2">
             {bio.books.authored.filter(b => b.title).map((b, i) => (

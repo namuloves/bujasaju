@@ -314,9 +314,9 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
               </span>
             )}
           </div>
-          {person.source && person.source !== person.industry && (
+          {person.company && person.company !== person.industry && (
             <p className="mt-2 pl-2 border-l-2 border-gray-200 text-[11px] text-gray-600 leading-relaxed break-words">
-              {person.source}
+              {person.company}
             </p>
           )}
         </div>
@@ -356,10 +356,10 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             {lang === 'ko' && (
               <span className="text-xs text-gray-400">${person.netWorth}B</span>
             )}
-            {person.source && person.source !== person.industry && (
+            {person.company && person.company !== person.industry && (
               <>
                 <span className="text-gray-300">·</span>
-                <span>{person.source}</span>
+                <span>{person.company}</span>
               </>
             )}
             <span className="text-gray-300">·</span>

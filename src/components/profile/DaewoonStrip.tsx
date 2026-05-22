@@ -1,34 +1,25 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import type { EnrichedPerson } from '@/lib/saju/types';
+import type { EnrichedPerson, OHaeng } from '@/lib/saju/types';
 import { calculateDaeUnClient, type DaeUnResult, type DaeUnPeriod } from '@/lib/saju/daewoon-client';
 
 interface Props {
   person: EnrichedPerson;
 }
 
-// Tailwind color tokens per 오행 — matched to the saju chart for visual continuity.
-const OHAENG_BG: Record<string, string> = {
-  목: 'bg-emerald-50',
-  화: 'bg-rose-50',
-  토: 'bg-amber-50',
-  금: 'bg-slate-50',
-  수: 'bg-sky-50',
-};
-const OHAENG_BORDER: Record<string, string> = {
-  목: 'border-emerald-200',
-  화: 'border-rose-200',
-  토: 'border-amber-200',
-  금: 'border-slate-200',
-  수: 'border-sky-200',
-};
-const OHAENG_TEXT: Record<string, string> = {
-  목: 'text-emerald-700',
-  화: 'text-rose-700',
-  토: 'text-amber-700',
-  금: 'text-slate-700',
-  수: 'text-sky-700',
+/**
+ * Background tints for each pillar cell — 25% mixes of the app's actual
+ * solid gradient colors (DEFAULT_PALETTE in ColorPicker.tsx). Sit at a
+ * matching lightness so 천간 / 지지 cells read as the same visual family
+ * but with distinct hues.
+ */
+const OHAENG_TINT: Record<OHaeng, string> = {
+  목: '#d4efdc',  // 25% mix of #56BD7E
+  화: '#fde1df',  // 25% mix of #F88681 (updated brand color)
+  토: '#fbeacd',  // 25% mix of #EEB059
+  금: '#eaeaea',  // 25% mix of #B8B8B8
+  수: '#c0dcf4',  // 25% mix of #0087DB
 };
 
 function computeAge(birthday: string): number {
@@ -94,13 +85,16 @@ export default function DaewoonStrip({ person }: Props) {
   return (
     <section>
       <div className="flex items-baseline gap-2 mb-3">
-        <h3 className="text-sm font-bold text-gray-900">⏳ 대운 흐름</h3>
+        <h3 className="text-sm font-bold text-gray-900">대운 흐름</h3>
         <span className="text-xs text-gray-500">
           {result.isForward ? '순행' : '역행'} · {result.startAge}세 시작
         </span>
       </div>
 
-      <div className="flex gap-2 overflow-x-auto pb-2 -mx-1 px-1">
+      {/* The current-period ring extends past the box edges, so the scroll
+          container needs vertical breathing room (py-1) on top of horizontal
+          padding (px-1) — otherwise overflow-x-auto clips the ring. */}
+      <div className="flex gap-2 overflow-x-auto overflow-y-visible py-1 -mx-1 px-1">
         {periods.map((p, idx) => (
           <DaewoonBox key={idx} period={p} isCurrent={idx === currentIdx} />
         ))}
@@ -110,26 +104,48 @@ export default function DaewoonStrip({ person }: Props) {
 }
 
 function DaewoonBox({ period, isCurrent }: { period: DaeUnPeriod; isCurrent: boolean }) {
-  const bg = OHAENG_BG[period.stemElement] ?? 'bg-gray-50';
-  const border = OHAENG_BORDER[period.stemElement] ?? 'border-gray-200';
-  const text = OHAENG_TEXT[period.stemElement] ?? 'text-gray-700';
+  // Pull tints once and fall back to a neutral gray if the data ever has
+  // an unexpected ohaeng value.
+  const stemBg = OHAENG_TINT[period.stemElement as OHaeng] ?? '#f3f4f6';
+  const branchBg = OHAENG_TINT[period.branchElement as OHaeng] ?? '#f3f4f6';
+
   return (
     <div
-      className={`flex-shrink-0 w-16 rounded-lg border-2 ${border} ${bg} p-2 text-center ${
-        isCurrent ? 'ring-2 ring-indigo-400 ring-offset-1' : ''
+      // Current period gets a soft blue fill — mirrors the same panel used
+      // on CompareWithUser to mark a matched pillar, so "you are here" reads
+      // the same across screens. Other periods stay neutral.
+      className={`flex-shrink-0 w-[80px] rounded-xl px-1 pt-2 pb-2 text-center ${
+        isCurrent ? 'bg-blue-50' : 'bg-gray-50'
       }`}
     >
-      <div className="text-[10px] font-semibold text-gray-500">
+      <div className="text-[10px] font-medium text-gray-500 mb-2">
         {period.startAge}~{period.endAge}세
       </div>
-      <div className={`mt-1 text-base font-bold ${text} leading-tight`}>
-        {period.stem}
-      </div>
-      <div className={`text-base font-bold ${text} leading-tight`}>
-        {period.branch}
-      </div>
-      <div className="mt-1 text-[10px] text-gray-500">
-        {period.stemElement}/{period.branchElement}
+      <div className="flex flex-col items-center gap-1.5">
+        {/* Stem cell — 천간. Background tint follows the stem's ohaeng. */}
+        <div className="flex flex-col items-center">
+          <div
+            className="w-9 h-9 rounded-lg flex items-center justify-center text-lg font-bold text-gray-900"
+            style={{ background: stemBg }}
+          >
+            {period.stem}
+          </div>
+          <div className="text-[10px] text-gray-400 mt-0.5">
+            {period.stemElement}
+          </div>
+        </div>
+        {/* Branch cell — 지지. Independently colored by its own ohaeng. */}
+        <div className="flex flex-col items-center">
+          <div
+            className="w-9 h-9 rounded-lg flex items-center justify-center text-lg font-bold text-gray-900"
+            style={{ background: branchBg }}
+          >
+            {period.branch}
+          </div>
+          <div className="text-[10px] text-gray-400 mt-0.5">
+            {period.branchElement}
+          </div>
+        </div>
       </div>
     </div>
   );

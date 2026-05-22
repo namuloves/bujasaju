@@ -15,6 +15,7 @@ import type { EnrichedPerson } from '@/lib/saju/types';
 import { useLanguage } from '@/lib/i18n';
 import { industryToKorean } from '@/components/FilterPanel';
 import { fetchDeepBioV2, hasDeepBioV2Sync } from '@/lib/deepBio';
+import { rewriteUsdToKrwInline } from '@/lib/usdToKrw';
 
 const USD_TO_KRW = 1480.71;
 function formatWorthKo(netWorthB: number): string {
@@ -466,77 +467,74 @@ function Top3Row({
   );
   const meta = metaLineKo(person, lang);
   const rawBlurb = wealthStoryKo(person, lang, deepBio);
-  const blurb = cleanBlurb(rawBlurb, person, displayName);
+  const cleaned = cleanBlurb(rawBlurb, person, displayName);
+  // Sync any "$X billion" / "X억 달러" inside the blurb to the same 조원
+  // figure shown next to the photo — keeps the row from contradicting
+  // itself when the LLM-generated bioKo left dollar amounts in place.
+  const blurb = lang === 'ko' ? rewriteUsdToKrwInline(cleaned, person.netWorth) : cleaned;
 
   return (
     <li
-      className={`rounded-xl transition-colors ${
-        isActive ? 'bg-gray-100' : 'hover:bg-gray-50'
+      className={`rounded-2xl border transition-colors ${
+        isActive
+          ? 'bg-gray-50 border-gray-200'
+          : 'bg-white border-gray-100 hover:bg-gray-50'
       }`}
     >
-      {/* Two-column card:
-            left  = photo (top) + name/meta/networth (under photo)
-            right = bio paragraph + "부자 일주 보기" CTA
-          Whole card area links to the profile; the CTA is its own anchor
-          so it's a distinct tap target on touch devices. */}
+      {/* Card structure:
+            - Portrait photo (rounded square) on the left
+            - Header row on the right: name + meta + worth
+            - Bio paragraph spans the full width below the header
+          Whole card is one tap target → profile page. The previous
+          separate "일주 자세히 보기" CTA below each card was removed
+          because it duplicated the card's own affordance and bloated
+          the list visually. */}
       <Link
         href={`/profile/${person.id}`}
-        className="block flex items-start gap-3 text-left px-3 pt-3 pb-2"
+        className="block flex items-start gap-3 sm:gap-4 p-3 sm:p-4"
       >
-        {/* Left column — fixed-width photo column with the person's
-            identity stacked below. */}
-        <div className="shrink-0 w-20 sm:w-24 text-center">
-          <div className="relative w-16 h-16 sm:w-20 sm:h-20 mx-auto">
-            <div className="w-full h-full rounded-full overflow-hidden bg-gray-200">
-              <img
-                src={normalizePhoto(person.photoUrl, person.name)}
-                alt={person.name}
-                className="w-full h-full object-cover"
-                loading="lazy"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=200&background=random&bold=true`;
-                }}
-              />
-            </div>
+        {/* Rounded-square portrait — 4:5 aspect, big enough to feel like
+            a real photo card rather than an avatar chip. */}
+        <div className="shrink-0">
+          {/* 4:5 portrait. Mobile 80×100, larger screens 96×120. */}
+          <div className="w-20 h-[100px] sm:w-24 sm:h-[120px] rounded-2xl overflow-hidden bg-gray-200 shadow-sm">
+            <img
+              src={normalizePhoto(person.photoUrl, person.name)}
+              alt={person.name}
+              className="w-full h-full object-cover"
+              loading="lazy"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=200&background=random&bold=true`;
+              }}
+            />
           </div>
-          <p className="mt-2 text-[13px] font-semibold text-gray-900 leading-tight">
-            {displayName}
-          </p>
+        </div>
+
+        {/* Right side — name/worth row, then meta, then bio paragraph. */}
+        <div className="min-w-0 flex-1">
+          <div className="flex items-baseline justify-between gap-2">
+            <p className="text-[15px] font-bold text-gray-900 leading-tight truncate">
+              {displayName}
+            </p>
+            <p className="text-[14px] font-bold text-gray-900 whitespace-nowrap">
+              {formatWorthKo(person.netWorth)}
+            </p>
+          </div>
           {meta && (
-            <p className="mt-0.5 text-[10.5px] text-gray-500 leading-tight break-keep">
+            <p className="mt-0.5 text-[11px] text-gray-500 leading-tight break-keep">
               {meta}
             </p>
           )}
-          <p className="mt-1 text-[12px] font-bold text-gray-900">
-            {formatWorthKo(person.netWorth)}
-          </p>
-        </div>
-
-        {/* Right column — bio paragraph. Flexes to fill the remaining
-            width and clamps to a tidy block so very long deep-bio paragraphs
-            don't push the card height beyond the photo column. */}
-        <div className="min-w-0 flex-1 pt-1">
           {blurb ? (
-            <p className="text-[12px] text-gray-700 leading-snug line-clamp-6">
+            <p className="mt-2 text-[12.5px] text-gray-600 leading-relaxed line-clamp-4">
               {blurb}
             </p>
           ) : (
-            <p className="text-[12px] text-gray-400">상세 소개 준비중.</p>
+            <p className="mt-2 text-[12.5px] text-gray-400">상세 소개 준비중.</p>
           )}
         </div>
       </Link>
-
-      {/* Per-row secondary CTA — outside the card link so it's a
-          separate clickable target with its own affordance. */}
-      <div className="px-3 pb-3 pt-1">
-        <Link
-          href={`/profile/${person.id}`}
-          className="block w-full text-center text-[12px] font-medium text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:border-gray-300 rounded-lg py-1.5 transition-colors"
-        >
-          일주 자세히 보기
-        </Link>
-      </div>
     </li>
   );
 }
@@ -548,7 +546,7 @@ export default function Top5FacesRow({ people, selectedId }: Props) {
   if (top3.length === 0) return null;
 
   return (
-    <ul className="flex flex-col gap-2 max-w-xl mx-auto lg:max-w-none lg:mx-0">
+    <ul className="flex flex-col gap-2.5 max-w-xl mx-auto lg:max-w-none lg:mx-0">
       {top3.map((person) => (
         <Top3Row
           key={person.id}

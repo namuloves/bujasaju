@@ -10,7 +10,7 @@ const STORAGE_KEY = 'bujasaju.colorOverrides';
 // used in SajuHero. Update this constant when you tune again.
 export const DEFAULT_PALETTE: Record<OHaeng, { from: string; to: string; angle: number }> = {
   목: { from: '#56BD7E', to: '#5EBA82', angle: 116 },
-  화: { from: '#EC714B', to: '#E96A44', angle: 113 },
+  화: { from: '#F88681', to: '#F47873', angle: 113 },
   토: { from: '#EEB059', to: '#F0B25C', angle: 105 },
   금: { from: '#B8B8B8', to: '#B8B8B8', angle: 109 },
   수: { from: '#0087DB', to: '#0B8BDA', angle: 113 },

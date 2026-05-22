@@ -45,7 +45,6 @@ function deriveComparison(userSaju: SajuResult, person: EnrichedPerson): Compari
       userSaju,
       tier: 'same_ilju',
       headline: `${personName}님과 똑같은 ${userIlju}일주예요`,
-      detail: '60갑자 중에서 가장 깊은 사주 연결입니다. 천간·지지 모두 일치.',
     };
   }
 
@@ -129,130 +128,86 @@ export default function CompareWithUser({ person }: Props) {
   const userIlgan = userSj.day.stem as CheonGan;
   const pIlgan = pSj.day.stem as CheonGan;
 
-  // Which pillars match between user and this person? Year/month/hour/day
-  // each evaluated independently. We highlight the stem and branch cells
-  // separately so partial matches (same stem, different branch) still
-  // surface visually.
-  const matchKey = (a: { stem: string; branch: string } | null | undefined,
-                    b: { stem: string; branch: string } | null | undefined) => ({
-    stem: !!a && !!b && a.stem === b.stem,
-    branch: !!a && !!b && a.branch === b.branch,
-  });
-  const yearM = matchKey(userSj.year, pSj.year);
-  const monthM = matchKey(userSj.month, pSj.month);
-  const dayM = matchKey(userSj.day, pSj.day);
-  const hourM = matchKey(userSj.hour, pSj.hour);
+  // Which pillars match between user and this person? A pillar is
+  // considered matched only when BOTH stem and branch are identical —
+  // that's the meaningful unit ("같은 일주", "같은 월주"). Partial
+  // matches (only stem, only branch) are intentionally not highlighted
+  // because they over-promise a connection that isn't really there.
+  const pillarMatch = (a: { stem: string; branch: string } | null | undefined,
+                       b: { stem: string; branch: string } | null | undefined) =>
+    !!a && !!b && a.stem === b.stem && a.branch === b.branch;
+  const yearMatch = pillarMatch(userSj.year, pSj.year);
+  const monthMatch = pillarMatch(userSj.month, pSj.month);
+  const dayMatch = pillarMatch(userSj.day, pSj.day);
+  const hourMatch = pillarMatch(userSj.hour, pSj.hour);
 
-  // Tier 1 (병인↔병인) → soft amber halo on the whole card. Other tiers
-  // stay neutral so we don't over-promise a "match" that's only an 일간.
-  const cardAccent = cmp.tier === 'same_ilju'
-    ? 'border-amber-200 bg-amber-50/40'
-    : 'border-gray-200 bg-white';
-  const badge =
-    cmp.tier === 'same_ilju' ? '완전 일치'
-    : cmp.tier === 'same_ilgan' ? '일간 일치'
-    : cmp.tier === 'same_ohaeng' ? '오행 일치'
-    : null;
+  const cardAccent = 'border-gray-200 bg-white';
   const personName = person.nameKo ?? person.name;
+
+  // Matched pillars get wrapped in a soft blue panel — colour mirrors
+  // `bg-blue-50` (`#eff6ff`). Cool enough to read as "linked" without
+  // shouting at the user the way the previous amber/ring did.
+  const matchPanelClass = 'bg-blue-50 rounded-xl px-1.5 pt-1 pb-2 -mt-1';
 
   return (
     <section className={`rounded-2xl border ${cardAccent} p-4 sm:p-5`}>
-      {/* Header: 🔮 당신과 {name}님 ............ [badge] */}
-      <div className="flex items-baseline gap-2 mb-4">
-        <span className="text-base">🔮</span>
+      {/* Header */}
+      <div className="mb-4">
         <h3 className="text-sm font-bold text-gray-900">
           당신과 {personName}님
         </h3>
-        {badge && (
-          <span className="ml-auto text-[10px] font-semibold bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full">
-            {badge}
-          </span>
-        )}
       </div>
 
-      {/* Two charts stacked: 나 above, person below. Matching cells get a
-          golden ring via the highlight props on HeroPillar. */}
+      {/* Two charts stacked: 나 above, person below. Matched pillars (full
+          stem+branch match) are wrapped in a soft blue panel — no per-cell
+          rings, no amber. */}
       <div className="space-y-3">
         {/* 나의 사주 */}
         <div>
           <div className="text-[11px] font-semibold text-gray-700 text-center mb-2">나의 사주</div>
-          <div className="flex justify-center gap-2 sm:gap-3">
-            <HeroPillar
-              label="時"
-              ju={userSj.hour}
-              ilgan={userIlgan}
-              highlightStem={hourM.stem}
-              highlightBranch={hourM.branch}
-            />
-            <HeroPillar
-              label="日"
-              ju={userSj.day}
-              ilgan={userIlgan}
-              isDayPillar
-              highlightStem={dayM.stem}
-              highlightBranch={dayM.branch}
-            />
-            <HeroPillar
-              label="月"
-              ju={userSj.month}
-              ilgan={userIlgan}
-              highlightStem={monthM.stem}
-              highlightBranch={monthM.branch}
-            />
-            <HeroPillar
-              label="年"
-              ju={userSj.year}
-              ilgan={userIlgan}
-              highlightStem={yearM.stem}
-              highlightBranch={yearM.branch}
-            />
+          <div className="flex justify-center items-start gap-2 sm:gap-3">
+            <div className={hourMatch ? matchPanelClass : undefined}>
+              <HeroPillar label="時" ju={userSj.hour} ilgan={userIlgan} />
+            </div>
+            <div className={dayMatch ? matchPanelClass : undefined}>
+              <HeroPillar label="日" ju={userSj.day} ilgan={userIlgan} isDayPillar />
+            </div>
+            <div className={monthMatch ? matchPanelClass : undefined}>
+              <HeroPillar label="月" ju={userSj.month} ilgan={userIlgan} />
+            </div>
+            <div className={yearMatch ? matchPanelClass : undefined}>
+              <HeroPillar label="年" ju={userSj.year} ilgan={userIlgan} />
+            </div>
           </div>
         </div>
 
-        {/* ↕ divider that doubles as a visual cue for "compare" */}
-        <div className="flex justify-center text-amber-400 text-lg leading-none">↕</div>
+        {/* ↕ divider — neutral grey, no amber */}
+        <div className="flex justify-center text-gray-300 text-lg leading-none">↕</div>
 
-        {/* 인물 사주 — uses person's own ilgan so its sipsin labels stay correct */}
+        {/* 인물 사주 — uses person's own ilgan so sipsin labels stay correct */}
         <div>
           <div className="text-[11px] font-semibold text-gray-700 text-center mb-2">
             {personName}의 사주
           </div>
-          <div className="flex justify-center gap-2 sm:gap-3">
-            <HeroPillar
-              label="時"
-              ju={pSj.hour}
-              ilgan={pIlgan}
-              highlightStem={hourM.stem}
-              highlightBranch={hourM.branch}
-            />
-            <HeroPillar
-              label="日"
-              ju={pSj.day}
-              ilgan={pIlgan}
-              isDayPillar
-              highlightStem={dayM.stem}
-              highlightBranch={dayM.branch}
-            />
-            <HeroPillar
-              label="月"
-              ju={pSj.month}
-              ilgan={pIlgan}
-              highlightStem={monthM.stem}
-              highlightBranch={monthM.branch}
-            />
-            <HeroPillar
-              label="年"
-              ju={pSj.year}
-              ilgan={pIlgan}
-              highlightStem={yearM.stem}
-              highlightBranch={yearM.branch}
-            />
+          <div className="flex justify-center items-start gap-2 sm:gap-3">
+            <div className={hourMatch ? matchPanelClass : undefined}>
+              <HeroPillar label="時" ju={pSj.hour} ilgan={pIlgan} />
+            </div>
+            <div className={dayMatch ? matchPanelClass : undefined}>
+              <HeroPillar label="日" ju={pSj.day} ilgan={pIlgan} isDayPillar />
+            </div>
+            <div className={monthMatch ? matchPanelClass : undefined}>
+              <HeroPillar label="月" ju={pSj.month} ilgan={pIlgan} />
+            </div>
+            <div className={yearMatch ? matchPanelClass : undefined}>
+              <HeroPillar label="年" ju={pSj.year} ilgan={pIlgan} />
+            </div>
           </div>
         </div>
       </div>
 
       {/* Takeaway sentence underneath the comparison. */}
-      <div className="mt-4 pt-3 border-t border-gray-100">
+      <div className="mt-4">
         <p className="text-[14px] font-semibold text-gray-900 leading-snug">
           {cmp.headline}
         </p>
