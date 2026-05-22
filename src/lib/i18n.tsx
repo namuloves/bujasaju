@@ -217,7 +217,7 @@ const ko: Dict = {
   seeSameIljuButton: (n) => `나랑 일주 같은 부자 보기 (${n.toLocaleString('ko-KR')}명)`,
   hideSameIljuButton: '접기',
   heroMatchTagline: '의 부자가 비슷한 사주를 가졌습니다',
-  shareTitle: '친구한테도 가르쳐주기',
+  shareTitle: '도움이 됐다면 친구한테도 알려주세요. 사이트 운영에 도움이 됩니다!',
   shareCopyLink: '링크 복사',
   shareCopied: '복사됨!',
   shareMore: '더보기',
