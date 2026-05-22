@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import type { SajuResult, Ju, CheonGan, JiJi } from '@/lib/saju/types';
-import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS } from '@/lib/saju/constants';
+import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, OHAENG_COLORS, getBongi } from '@/lib/saju/constants';
+import { getSipSin } from '@/lib/saju/tenGods';
 import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
 import { useLanguage } from '@/lib/i18n';
@@ -36,14 +37,25 @@ const MATCHING_DELAY_MS = PILLAR_ORDER.length * PILLAR_STAGGER_MS + 200;
 const RESULTS_DELAY_MS = MATCHING_DELAY_MS + 900;
 const DONE_DELAY_MS = RESULTS_DELAY_MS + 900;
 
+/**
+ * Matches the visual language of `SajuConfirmCard` exactly — same cell size,
+ * same typography, same sipsin labels — so the user perceives one continuous
+ * card while the loading animation plays. The only differences are the
+ * staggered reveal animation and the dashed "?" placeholders before each
+ * pillar has been "read".
+ */
 function PillarCard({
   ju,
   label,
   revealIndex,
+  ilgan,
+  isDayPillar,
 }: {
   ju: Ju | null;
   label: string;
   revealIndex: number;
+  ilgan: CheonGan | null;
+  isDayPillar?: boolean;
 }) {
   const delay = revealIndex * PILLAR_STAGGER_MS;
 
@@ -53,13 +65,15 @@ function PillarCard({
         className="flex flex-col items-center opacity-0 reveal-pillar"
         style={{ animationDelay: `${delay}ms` }}
       >
-        <div className="text-[11px] text-gray-400 mb-1">{label}</div>
-        <div className="w-16 h-16 rounded-lg border border-dashed border-gray-300 flex items-center justify-center text-gray-300 text-2xl">
+        <div className="text-[10px] text-gray-400 mb-1">{label}</div>
+        <div className="text-[10px] text-gray-300 mb-1 h-3">·</div>
+        <div className="w-14 h-14 rounded-lg border border-dashed border-gray-300 flex items-center justify-center text-gray-300 text-xl">
           ?
         </div>
-        <div className="w-16 h-16 rounded-lg border border-dashed border-gray-300 mt-1 flex items-center justify-center text-gray-300 text-2xl">
+        <div className="w-14 h-14 rounded-lg border border-dashed border-gray-300 mt-1 flex items-center justify-center text-gray-300 text-xl">
           ?
         </div>
+        <div className="text-[10px] text-gray-300 mt-1 h-3">·</div>
       </div>
     );
   }
@@ -69,21 +83,34 @@ function PillarCard({
   const stemColor = OHAENG_COLORS[stemOh];
   const branchColor = OHAENG_COLORS[branchOh];
 
+  // Sipsin labels mirror SajuConfirmCard. ilgan is guaranteed non-null here
+  // because we always pass it from the parent, but we keep the type nullable
+  // so the placeholder branch above can be rendered before saju is ready.
+  const stemSipsin = isDayPillar ? '일간' : ilgan ? getSipSin(ilgan, ju.stem as CheonGan) : '';
+  const branchBongi = getBongi(ju.branch as JiJi);
+  const branchSipsin = ilgan ? getSipSin(ilgan, branchBongi) : '';
+
   return (
     <div
       className="flex flex-col items-center opacity-0 reveal-pillar"
       style={{ animationDelay: `${delay}ms` }}
     >
-      <div className="text-[11px] text-gray-400 mb-1">{label}</div>
+      <div className="text-[10px] text-gray-400 mb-1">{label}</div>
+      <div className={`text-[10px] mb-1 font-medium ${isDayPillar ? 'text-indigo-500' : 'text-gray-500'}`}>
+        {stemSipsin}
+      </div>
       <div
-        className={`w-16 h-16 rounded-lg border flex items-center justify-center text-3xl font-bold shadow-sm ${stemColor.bg} ${stemColor.text} ${stemColor.border}`}
+        className={`w-14 h-14 rounded-lg flex items-center justify-center text-2xl font-bold ${stemColor.bg} ${stemColor.text}`}
       >
         {ju.stem}
       </div>
       <div
-        className={`w-16 h-16 rounded-lg border mt-1 flex items-center justify-center text-3xl font-bold shadow-sm ${branchColor.bg} ${branchColor.text} ${branchColor.border}`}
+        className={`w-14 h-14 rounded-lg mt-1 flex items-center justify-center text-2xl font-bold ${branchColor.bg} ${branchColor.text}`}
       >
         {ju.branch}
+      </div>
+      <div className="text-[10px] text-gray-500 mt-1 font-medium">
+        {branchSipsin}
       </div>
     </div>
   );
@@ -187,6 +214,9 @@ export default function RevealAnimation({ saju, onDone }: Props) {
         .reveal-count {
           animation: reveal-count-kf 700ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
         }
+        .reveal-summary {
+          animation: reveal-count-kf 500ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        }
         @keyframes pulse-dot-kf {
           0%, 100% { opacity: 0.3; transform: scale(1); }
           50% { opacity: 1; transform: scale(1.3); }
@@ -203,8 +233,9 @@ export default function RevealAnimation({ saju, onDone }: Props) {
         }
       `}</style>
 
-      {/* Pillars row — always mounted so the stagger timing is stable */}
-      <div className="flex justify-center gap-3 sm:gap-5 mb-8 perspective-1000">
+      {/* Pillars row — always mounted so the stagger timing is stable.
+          Sizing/gap mirror SajuConfirmCard so the transition feels seamless. */}
+      <div className="flex justify-center gap-3 sm:gap-4 mb-6 perspective-1000">
         {PILLAR_ORDER.map(({ key, label, revealIndex }) => {
           const ju = key === 'hour' ? saju.saju.hour : saju.saju[key];
           return (
@@ -213,9 +244,32 @@ export default function RevealAnimation({ saju, onDone }: Props) {
               ju={ju ?? null}
               label={label}
               revealIndex={revealIndex}
+              ilgan={saju.saju.day.stem as CheonGan}
+              isDayPillar={key === 'day'}
             />
           );
         })}
+      </div>
+
+      {/* Ilju / Wolji / Gyeokguk summary, same as SajuConfirmCard. Fades in
+          once all pillars have finished their reveal so it doesn't visually
+          compete with the staggered cards. */}
+      <div
+        className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm mb-6 opacity-0 reveal-summary"
+        style={{ animationDelay: `${PILLAR_ORDER.length * PILLAR_STAGGER_MS}ms` }}
+      >
+        <div>
+          <span className="text-gray-500">{t.yourIlju}: </span>
+          <span className="font-semibold text-indigo-600">{saju.ilju}</span>
+        </div>
+        <div>
+          <span className="text-gray-500">{t.yourWolji}: </span>
+          <span className="font-semibold text-indigo-600">{saju.wolji}</span>
+        </div>
+        <div>
+          <span className="text-gray-500">{t.yourGyeokguk}: </span>
+          <span className="font-semibold text-indigo-600">{saju.gyeokguk}</span>
+        </div>
       </div>
 
       {/* Phase messages */}
