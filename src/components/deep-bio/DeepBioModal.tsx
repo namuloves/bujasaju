@@ -263,10 +263,10 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
         ✕
       </button>
 
-      {/* Mobile/tablet: portrait left + stacked info */}
+      {/* Mobile/tablet: photo left + stacked info (mirrors profile page hero) */}
       <div className="flex gap-4 items-start lg:hidden">
         <div className="shrink-0">
-          <div className="w-24 h-32 rounded-xl overflow-hidden bg-gray-200 shadow">
+          <div className="w-28 h-36 rounded-xl overflow-hidden bg-gray-200 shadow">
             <img
               src={normalizePhotoUrl(person.photoUrl, person.name, 200)}
               alt={person.name}
@@ -286,27 +286,39 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
           {person.nameKo && lang !== 'ko' && (
             <p className="text-xs text-gray-400 mt-0.5">{person.nameKo}</p>
           )}
-          <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1 mt-1.5 text-xs text-gray-600">
-            <span className="font-semibold text-indigo-600">
+          <div className="flex items-baseline gap-2 mt-1.5">
+            <span className="font-bold text-gray-900 text-base">
               {lang === 'ko' ? formatNetWorth(person.netWorth, 'ko') : `$${person.netWorth}B`}
             </span>
             {lang === 'ko' && (
-              <span className="text-[10px] text-gray-400">(${person.netWorth}B)</span>
-            )}
-            {person.source && person.source !== person.industry && (
-              <>
-                <span className="text-gray-300">·</span>
-                <span className="min-w-0 break-words">{person.source}</span>
-              </>
+              <span className="text-[10px] text-gray-400">${person.netWorth}B</span>
             )}
           </div>
-          <div className="mt-1.5 space-y-0.5 text-xs text-gray-600">
-            <p>{lang === 'ko' ? industryToKorean(person.industry) : person.industry}</p>
-            <p>{person.birthday.replace(/-/g, '.')}{person.deathDate ? ` - ${person.deathDate.replace(/-/g, '.')}` : ''}</p>
+          {/* Meta chips */}
+          <div className="flex flex-wrap gap-1 mt-2 text-[10px] text-gray-600">
+            <span className="bg-gray-100 px-1.5 py-0.5 rounded-full">
+              {lang === 'ko' ? industryToKorean(person.industry) : person.industry}
+            </span>
+            <span className="bg-gray-100 px-1.5 py-0.5 rounded-full">
+              {person.birthday.replace(/-/g, '.')}
+              {person.deathDate ? ` – ${person.deathDate.replace(/-/g, '.')}` : ''}
+            </span>
+            {person.saju && (
+              <span className="bg-gray-100 px-1.5 py-0.5 rounded-full">
+                {person.saju.ilju} 일주
+              </span>
+            )}
             {bio?.childhood?.birthPlace && (
-              <p className="text-gray-500">{ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo)}</p>
+              <span className="bg-gray-100 px-1.5 py-0.5 rounded-full">
+                {ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo)}
+              </span>
             )}
           </div>
+          {person.source && person.source !== person.industry && (
+            <p className="mt-2 pl-2 border-l-2 border-gray-200 text-[11px] text-gray-600 leading-relaxed break-words">
+              {person.source}
+            </p>
+          )}
         </div>
       </div>
 
@@ -338,11 +350,11 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             )}
           </div>
           <div className="flex items-center gap-2 mt-1 text-sm text-gray-500 flex-wrap">
-            <span className="font-semibold text-indigo-600">
+            <span className="font-bold text-gray-900 text-lg">
               {lang === 'ko' ? `${formatNetWorth(person.netWorth, 'ko')}` : `$${person.netWorth}B`}
             </span>
             {lang === 'ko' && (
-              <span className="text-xs text-gray-400">(${person.netWorth}B)</span>
+              <span className="text-xs text-gray-400">${person.netWorth}B</span>
             )}
             {person.source && person.source !== person.industry && (
               <>
@@ -354,6 +366,12 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             <span>{lang === 'ko' ? industryToKorean(person.industry) : person.industry}</span>
             <span className="text-gray-300">·</span>
             <span>{person.birthday.replace(/-/g, '.')}{person.deathDate ? ` - ${person.deathDate.replace(/-/g, '.')}` : ''}</span>
+            {person.saju && (
+              <>
+                <span className="text-gray-300">·</span>
+                <span>{person.saju.ilju} 일주</span>
+              </>
+            )}
             {bio?.childhood?.birthPlace && (
               <>
                 <span className="text-gray-300">·</span>

@@ -69,7 +69,7 @@ export default function ProfilePage() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 gap-4">
         <p className="text-gray-500 text-sm">{lang === 'ko' ? '인물을 찾을 수 없습니다.' : 'Person not found.'}</p>
-        <button onClick={() => router.back()} className="text-sm text-indigo-600 hover:text-indigo-800">
+        <button onClick={() => router.back()} className="text-sm text-gray-700 hover:text-black">
           {lang === 'ko' ? '← 돌아가기' : '← Go back'}
         </button>
       </div>
@@ -135,11 +135,15 @@ export default function ProfilePage() {
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
-        {/* Hero: stacks on mobile (photo on top), splits left/right on sm+. */}
-        <div className="flex flex-col sm:flex-row sm:items-start sm:gap-8 gap-5">
-          {/* Portrait photo */}
-          <div className="shrink-0 mx-auto sm:mx-0">
-            <div className="w-32 h-32 sm:w-48 sm:h-60 rounded-full sm:rounded-2xl overflow-hidden bg-gray-200 shadow-lg">
+        {/* Hero: horizontal layout on every breakpoint — photo on left, info
+            on right. The previous design stacked them on mobile (avatar on top,
+            text below) which pushed the important matching card way below the
+            fold. Keeping photo + info side-by-side recovers ~40% of vertical
+            space on phones. */}
+        <div className="flex items-start gap-4 sm:gap-6">
+          {/* Portrait photo — rectangular on all sizes for an info-density feel. */}
+          <div className="shrink-0">
+            <div className="w-32 h-40 sm:w-48 sm:h-60 rounded-2xl overflow-hidden bg-gray-200 shadow-lg">
               <img
                 src={normalizePhotoUrl(person.photoUrl, person.name)}
                 alt={person.name}
@@ -153,52 +157,67 @@ export default function ProfilePage() {
           </div>
 
           {/* Bio info */}
-          <div className="flex-1 min-w-0 pt-1 text-center sm:text-left">
-            <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">{displayName}</h1>
+          <div className="flex-1 min-w-0 pt-0.5">
+            <h1 className="text-xl sm:text-3xl font-bold text-gray-900 leading-tight">{displayName}</h1>
             {person.nameKo && lang === 'ko' && (
-              <p className="text-sm text-gray-400 mt-1">{person.name}</p>
+              <p className="text-xs sm:text-sm text-gray-400 mt-0.5 sm:mt-1">{person.name}</p>
             )}
             {person.nameKo && lang !== 'ko' && (
-              <p className="text-sm text-gray-400 mt-1">{person.nameKo}</p>
+              <p className="text-xs sm:text-sm text-gray-400 mt-0.5 sm:mt-1">{person.nameKo}</p>
             )}
 
-            <div className="flex flex-wrap items-baseline justify-center sm:justify-start gap-x-3 gap-y-1 mt-3 text-sm text-gray-600">
-              <span className="font-semibold text-indigo-600 text-lg whitespace-nowrap">
+            {/* Net worth — big number, USD subscript */}
+            <div className="flex items-baseline gap-2 mt-2 sm:mt-3">
+              <span className="font-bold text-gray-900 text-xl sm:text-2xl whitespace-nowrap">
                 {formatNetWorth(person.netWorth, lang === 'ko')}
               </span>
-              {person.source && (
-                <>
-                  <span className="hidden sm:inline text-gray-300">·</span>
-                  {/* `min-w-0 break-words` lets long source strings (some are
-                       basically mini-bios) wrap inside the flex row instead of
-                       blowing past the card edge. */}
-                  <span className="min-w-0 break-words">{person.source}</span>
-                </>
+              {lang === 'ko' && (
+                <span className="text-[11px] sm:text-xs text-gray-400">
+                  ${person.netWorth}B
+                </span>
               )}
             </div>
 
-            <div className="mt-4 space-y-1.5 text-sm text-gray-600 text-left">
-              <p className="flex gap-2">
-                <span className="text-gray-400 w-16 shrink-0">{lang === 'ko' ? '산업' : 'Industry'}</span>
-                <span className="min-w-0">{lang === 'ko' ? industryToKorean(person.industry) : person.industry}</span>
-              </p>
-              <p className="flex gap-2">
-                <span className="text-gray-400 w-16 shrink-0">{lang === 'ko' ? '생년월일' : 'Born'}</span>
-                <span className="min-w-0">{person.birthday.replace(/-/g, '.')}{person.deathDate ? ` - ${person.deathDate.replace(/-/g, '.')}` : ''}</span>
-              </p>
-              {bio?.childhood?.birthPlace && (
-                <p className="flex gap-2">
-                  <span className="text-gray-400 w-16 shrink-0">{lang === 'ko' ? '출생지' : 'Birthplace'}</span>
-                  <span className="min-w-0">{ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo)}</span>
-                </p>
+            {/* Meta chips — industry / birthday / ilju packed into a single
+                wrappable row so they don't take 4 lines of vertical space. */}
+            <div className="flex flex-wrap gap-1.5 mt-2 sm:mt-3 text-[11px] sm:text-xs text-gray-600">
+              <span className="bg-gray-100 px-2 py-0.5 rounded-full">
+                {lang === 'ko' ? industryToKorean(person.industry) : person.industry}
+              </span>
+              <span className="bg-gray-100 px-2 py-0.5 rounded-full">
+                {person.birthday.replace(/-/g, '.')}
+                {person.deathDate ? ` – ${person.deathDate.replace(/-/g, '.')}` : ''}
+              </span>
+              {person.saju && (
+                <span className="bg-gray-100 px-2 py-0.5 rounded-full">
+                  {person.saju.ilju} 일주
+                </span>
               )}
-              {bio?.childhood?.education && (
-                <p className="flex gap-2">
-                  <span className="text-gray-400 w-16 shrink-0">{lang === 'ko' ? '학력' : 'Education'}</span>
-                  <span className="min-w-0">{ko(lang, bio.childhood.education, bio.childhood.educationKo)}</span>
-                </p>
+              {bio?.childhood?.birthPlace && (
+                <span className="bg-gray-100 px-2 py-0.5 rounded-full">
+                  {ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo)}
+                </span>
               )}
             </div>
+
+            {/* Source string as a quoted side-note. break-words keeps long
+                mini-bios from blowing past the card edge. */}
+            {person.source && person.source !== person.industry && (
+              <p className="mt-3 sm:mt-4 pl-3 border-l-2 border-gray-200 text-xs sm:text-sm text-gray-600 leading-relaxed break-words">
+                {person.source}
+              </p>
+            )}
+
+            {/* Education shows up only when we have it — keep it as a single
+                quiet line below the chips, no row of label/value anymore. */}
+            {bio?.childhood?.education && (
+              <p className="mt-2 text-[11px] sm:text-xs text-gray-500 leading-relaxed">
+                <span className="text-gray-400">
+                  {lang === 'ko' ? '학력 · ' : 'Education · '}
+                </span>
+                {ko(lang, bio.childhood.education, bio.childhood.educationKo)}
+              </p>
+            )}
 
             {/* Short bio */}
             {person.bio && (
