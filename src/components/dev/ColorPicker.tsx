@@ -5,14 +5,15 @@ import type { OHaeng } from '@/lib/saju/types';
 
 const STORAGE_KEY = 'bujasaju.colorOverrides';
 
-// Default palette must mirror OHAENG_GRADIENT in SajuHero.tsx. When this file
-// changes, update SajuHero too (or vice versa).
+// Default palette — tuned via the in-browser ColorPicker. Softer than the
+// original saturated CleanMiniCard pairs to read better at the larger sizes
+// used in SajuHero. Update this constant when you tune again.
 export const DEFAULT_PALETTE: Record<OHaeng, { from: string; to: string; angle: number }> = {
-  목: { from: '#00C74C', to: '#0A9D42', angle: 116 },
-  화: { from: '#D66340', to: '#EF714A', angle: 113 },
-  토: { from: '#EC9212', to: '#F2A02C', angle: 105 },
-  금: { from: '#A1A1A1', to: '#828282', angle: 109 },
-  수: { from: '#005A92', to: '#1B8ACF', angle: 113 },
+  목: { from: '#56BD7E', to: '#5EBA82', angle: 116 },
+  화: { from: '#EC714B', to: '#E96A44', angle: 113 },
+  토: { from: '#EEB059', to: '#F0B25C', angle: 105 },
+  금: { from: '#B8B8B8', to: '#B8B8B8', angle: 109 },
+  수: { from: '#0087DB', to: '#0B8BDA', angle: 113 },
 };
 
 export type Palette = typeof DEFAULT_PALETTE;
