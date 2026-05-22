@@ -69,6 +69,9 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<Status>('idle');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  // Shown only on a fresh successful submit — not when restoring unlock
+  // state from localStorage on revisit. Auto-dismisses on "확인" click.
+  const [showSentDialog, setShowSentDialog] = useState(false);
 
   // Restore unlock state on mount. We deliberately read localStorage in an
   // effect (not lazy initial state) so SSR and the first client render
@@ -155,6 +158,7 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
 
     try { localStorage.setItem(STORAGE_KEY_PREFIX + ilju, '1'); } catch { /* ignore */ }
     setUnlocked(true);
+    setShowSentDialog(true);
   }
 
   if (lockedPeople.length === 0) return null;
@@ -166,9 +170,7 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
         ? `같은 ${ilju} 일주의 부자 ${count}명이 더 있어요`
         : `${count} more billionaires share your ${ilju} day-pillar`);
   const subline = unlocked
-    ? (lang === 'ko'
-        ? '아래 카드를 눌러서 더 알아보세요. 이메일이 안 보이면 스팸함도 확인해주세요.'
-        : 'Tap a card to dive in. If the email isn’t in your inbox, check your spam folder.')
+    ? (lang === 'ko' ? '아래 카드를 눌러서 더 알아보세요.' : 'Tap a card to dive in.')
     : (lang === 'ko'
         ? '이메일을 남겨주시면 누군지 알려드릴게요'
         : 'Drop your email and we’ll show you who.');
@@ -230,6 +232,64 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
           )}
         </form>
       )}
+
+      {showSentDialog && (
+        <SentDialog lang={lang} onClose={() => setShowSentDialog(false)} />
+      )}
+    </div>
+  );
+}
+
+/**
+ * Confirmation dialog shown right after a successful unlock submission.
+ * Sole job is to tell the user the email was sent and nudge them to check
+ * spam — because Resend mail occasionally lands in Gmail/Naver promotions
+ * or spam, and confused users assume nothing happened.
+ *
+ * Closes on backdrop click, Escape key, or the explicit 확인 button.
+ */
+function SentDialog({ lang, onClose }: { lang: string; onClose: () => void }) {
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
+  }, [onClose]);
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="sent-dialog-title"
+      className="fixed inset-0 z-50 flex items-center justify-center px-4"
+    >
+      {/* Backdrop */}
+      <button
+        type="button"
+        aria-label="닫기"
+        className="absolute inset-0 bg-black/40"
+        onClick={onClose}
+      />
+      {/* Card */}
+      <div className="relative w-full max-w-xs rounded-2xl bg-white px-5 py-6 text-center shadow-xl">
+        <div className="text-3xl mb-3" aria-hidden>📬</div>
+        <h4 id="sent-dialog-title" className="text-base font-bold text-gray-900">
+          {lang === 'ko' ? '이메일을 보냈어요!' : 'Email sent!'}
+        </h4>
+        <p className="mt-1.5 text-xs text-gray-500 leading-relaxed">
+          {lang === 'ko'
+            ? '스팸함도 체크해주세요.'
+            : 'Be sure to check your spam folder too.'}
+        </p>
+        <button
+          type="button"
+          onClick={onClose}
+          className="mt-5 w-full rounded-lg bg-gray-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-gray-800 transition-colors"
+        >
+          {lang === 'ko' ? '확인' : 'OK'}
+        </button>
+      </div>
     </div>
   );
 }
