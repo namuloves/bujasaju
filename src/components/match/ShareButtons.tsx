@@ -115,37 +115,54 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
     }
   };
 
-  const handleKakao = async () => {
+  /**
+   * Kakao's share picker opens in a popup, which Chromium / Firefox both
+   * gate behind user-activation: the popup MUST be opened in the same
+   * synchronous tick as the click event, or "Opening multiple popups was
+   * blocked due to lack of user activation" kills it.
+   *
+   * That means this handler can't be async — any `await` before the
+   * `sendDefault` call drops the activation flag. So we build the payload
+   * synchronously and only fall back to clipboard *after* the SDK call
+   * (i.e. when there's no popup to open in the first place).
+   */
+  const handleKakao = () => {
     const k = window.Kakao;
-    if (!k?.Share) {
-      // SDK not ready yet — degrade gracefully by copying the link
-      await copyToClipboard(`${text} ${shareUrl}`);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 1800);
-      return;
-    }
     // Build the share image URL from the current origin so the same code
     // works on production, preview, and localhost without hardcoding a
     // domain. Kakao's image fetcher refuses URLs that don't resolve, so
-    // a stale hardcoded host is the single most common cause of the
-    // "Failed request" picker error.
+    // a stale hardcoded host is one common cause of the "Failed request"
+    // picker error.
     const origin = typeof window !== 'undefined' ? window.location.origin : 'https://bujasaju.com';
     const imageUrl = `${origin}/opengraph-image`;
-    k.Share.sendDefault({
-      objectType: 'feed',
-      content: {
-        title: t.siteTagline,
-        description: text,
-        imageUrl,
-        link: { mobileWebUrl: shareUrl, webUrl: shareUrl },
-      },
-      buttons: [
-        {
-          title: t.shareDefaultText,
+
+    if (k?.Share) {
+      k.Share.sendDefault({
+        objectType: 'feed',
+        content: {
+          title: t.siteTagline,
+          description: text,
+          imageUrl,
           link: { mobileWebUrl: shareUrl, webUrl: shareUrl },
         },
-      ],
-    });
+        buttons: [
+          {
+            title: t.shareDefaultText,
+            link: { mobileWebUrl: shareUrl, webUrl: shareUrl },
+          },
+        ],
+      });
+      return;
+    }
+
+    // SDK not ready yet — degrade gracefully by copying the link.
+    // The await here is fine because we're NOT opening a popup in this
+    // branch, so user-activation doesn't matter.
+    void (async () => {
+      await copyToClipboard(`${text} ${shareUrl}`);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1800);
+    })();
   };
 
   const handleInstagram = async () => {
