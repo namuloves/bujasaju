@@ -88,7 +88,7 @@ export default function IljuReading({ ilju }: Props) {
           <h3 className="text-xl font-bold text-gray-900">{ilju}</h3>
           <span className="text-sm text-gray-500">({entry.한자})</span>
         </div>
-        <p className="mt-2 text-[15px] italic text-gray-700 leading-relaxed">
+        <p className="mt-2 text-[15px] text-gray-700 leading-relaxed">
           {entry.한줄요약}
         </p>
       </div>
@@ -112,41 +112,88 @@ export default function IljuReading({ ilju }: Props) {
         {entry.종합풀이}
       </p>
 
-      {/* 재물·건강 */}
-      <Section title="재물·건강">
-        <p className="text-[15px] leading-relaxed text-gray-800">
-          {entry.재물건강}
-        </p>
-      </Section>
+      {/* 재물·건강 / 주의점 / 개운법 — collapsible on mobile so the
+          downstream "매칭 부자 분석" section doesn't get pushed too far
+          below the fold. On md+ screens these stay open as flat sections
+          since there's enough vertical room.
+          The three sit in their own div so their gap is tight (just the
+          shared border line) without inheriting the parent space-y-5. */}
+      <div className="md:space-y-5">
+        <CollapsibleSection title="재물·건강">
+          <p className="text-[15px] leading-relaxed text-gray-800">
+            {entry.재물건강}
+          </p>
+        </CollapsibleSection>
 
-      {/* 주의점 */}
-      <Section title="주의점">
-        <p className="text-[15px] leading-relaxed text-gray-800">
-          {entry.주의점}
-        </p>
-      </Section>
+        <CollapsibleSection title="주의점">
+          <p className="text-[15px] leading-relaxed text-gray-800">
+            {entry.주의점}
+          </p>
+        </CollapsibleSection>
 
-      {/* 개운법 */}
-      <Section title="개운법">
-        <p className="text-[15px] leading-relaxed text-gray-800">
-          {entry.개운법}
-        </p>
-      </Section>
+        <CollapsibleSection title="개운법">
+          <p className="text-[15px] leading-relaxed text-gray-800">
+            {entry.개운법}
+          </p>
+        </CollapsibleSection>
+      </div>
     </div>
   );
 }
 
-function Section({
+/**
+ * Section that collapses on mobile (closed by default) and stays expanded
+ * on md+ screens. Uses a media-query hook to decide the initial open state
+ * so the server-rendered markup is consistent and the user doesn't see a
+ * flash of the wrong layout. Tap toggles only on mobile — on desktop the
+ * <summary> is non-interactive (cursor: default, no click handler change
+ * because `open` is forced on).
+ */
+function CollapsibleSection({
   title,
   children,
 }: {
   title: string;
   children: React.ReactNode;
 }) {
+  // Match Tailwind's `md` breakpoint (768px). Initialised to false so SSR
+  // sees the collapsed-on-mobile state; the effect bumps to true on
+  // larger viewports after mount.
+  const [isDesktop, setIsDesktop] = useState(false);
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const mq = window.matchMedia('(min-width: 768px)');
+    const apply = () => setIsDesktop(mq.matches);
+    apply();
+    mq.addEventListener('change', apply);
+    return () => mq.removeEventListener('change', apply);
+  }, []);
+
   return (
-    <div className="space-y-2">
-      <h3 className="text-sm font-bold text-gray-900">{title}</h3>
-      {children}
-    </div>
+    <details
+      // Force-open on desktop so the section behaves like a normal block.
+      // On mobile, the user clicks <summary> to toggle.
+      open={isDesktop || undefined}
+      className="border-b border-gray-100 md:border-b-0 [&[open]>summary>span.chev]:rotate-180"
+    >
+      <summary className="flex items-center justify-between py-3 cursor-pointer list-none md:cursor-default md:py-0 [&::-webkit-details-marker]:hidden">
+        <h3 className="text-sm font-bold text-gray-900">{title}</h3>
+        <svg
+          className="chev md:hidden text-gray-400 transition-transform duration-200"
+          width="14"
+          height="14"
+          viewBox="0 0 14 14"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.75"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          aria-hidden
+        >
+          <polyline points="3.5 5.25 7 8.75 10.5 5.25" />
+        </svg>
+      </summary>
+      <div className="pb-3 md:pb-0 md:pt-2">{children}</div>
+    </details>
   );
 }

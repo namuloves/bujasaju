@@ -15,6 +15,7 @@
 
 import { useEffect, useState } from 'react';
 import type { SajuResult, EnrichedPerson } from '@/lib/saju/types';
+import { sanitizeSummaryText } from '@/lib/sanitizeSummary';
 
 interface Props {
   saju: SajuResult;
@@ -242,7 +243,11 @@ export default function DeepInterpretation({
   userBirthday,
   userGender,
 }: Props) {
-  const { text, done, error } = useDeepStream(saju, featured, userBirthday, userGender);
+  const { text: rawText, done, error } = useDeepStream(saju, featured, userBirthday, userGender);
+  // Strip "(정관격의 품위와...)" style jargon asides the LLM sometimes
+  // inserts mid-sentence. The model still emits them despite prompt
+  // tuning, so we always sanitize at render.
+  const text = sanitizeSummaryText(rawText);
 
   if (error && !text) {
     // Silent fail — the existing MatchSummary already gave the user content.

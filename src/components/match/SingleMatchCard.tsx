@@ -10,6 +10,7 @@ import SajuBadge from '@/components/SajuBadge';
 import { hasDeepBioSync } from '@/lib/deepBio';
 import { useLanguage } from '@/lib/i18n';
 import { nationalityToKorean } from '@/components/FilterPanel';
+import { sanitizeSummaryText } from '@/lib/sanitizeSummary';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
 
@@ -67,7 +68,8 @@ export default function SingleMatchCard({ person, saju, matches, onReset, totalM
   const displayBio = lang === 'ko' ? (person.bioKo ?? person.bio) : person.bio;
 
   const isStreaming = summaryState.status === 'streaming';
-  const summaryText = summaryState.status === 'idle' ? '' : summaryState.text;
+  const rawSummary = summaryState.status === 'idle' ? '' : summaryState.text;
+  const summaryText = sanitizeSummaryText(rawSummary);
 
 
   return (

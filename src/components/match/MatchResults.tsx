@@ -80,7 +80,8 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     groups.iljuPlusGyeokguk.length;
 
   // Combo rank: how many billionaires share this 일주·월지 combo, and
-  // what rank is it among all 706 existing combos?
+  // what rank is it among all 706 existing combos? (Kept around in case
+  // we want to surface it again later — not rendered in the UI right now.)
   const comboStats = useMemo(() => {
     if (enrichedPeople.length === 0) return null;
     const counts = new Map<string, number>();
@@ -96,6 +97,21 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     const totalCombos = counts.size;
     return { myCount, rank, totalCombos };
   }, [enrichedPeople, me.ilju, me.wolji]);
+
+  // Day-pillar rank: how does the user's 일주 stack up against the other
+  // 59 in the dataset, ordered by billionaire count desc? Used for the
+  // "병인 일주는 60갑자 중 N위" line under the deep interpretation.
+  const iljuRank = useMemo(() => {
+    if (enrichedPeople.length === 0) return null;
+    const counts = new Map<string, number>();
+    for (const p of enrichedPeople) {
+      counts.set(p.saju.ilju, (counts.get(p.saju.ilju) ?? 0) + 1);
+    }
+    const myCount = counts.get(me.ilju) ?? 0;
+    const sorted = [...new Set(counts.values())].sort((a, b) => b - a);
+    const rank = sorted.indexOf(myCount) + 1;
+    return { rank, myCount };
+  }, [enrichedPeople, me.ilju]);
 
   // Flattened list fed to the Claude summary — strongest tiers first so
   // the prompt's "top N" slice naturally picks the most relevant people.
@@ -350,15 +366,12 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
               </div>
             )}
 
-            {/* Match stats — single subtle line under the deep interpretation */}
-            {(totalMatches > 0 || usingIljuFallback) && (
+            {/* Day-pillar rank — simpler than the old combo line. Reads
+                "병인 일주는 60갑자 중 N위" so the user gets one clean
+                number instead of two layered stats. */}
+            {iljuRank && iljuRank.myCount > 0 && (
               <p className="text-xs text-gray-400 text-center">
-                {totalMatches > 0
-                  ? `${totalMatches + sameIljuCount}명이 비슷한 사주`
-                  : `같은 ${me.ilju} 일주 부자 ${sameIljuCount}명`}
-                {comboStats && comboStats.myCount > 0 && (
-                  <> · {me.ilju}·{me.wolji} 조합 {comboStats.rank}위/{comboStats.totalCombos}</>
-                )}
+                {me.ilju} 일주는 60갑자 중 {iljuRank.rank}위
               </p>
             )}
           </div>

@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { EnrichedPerson, SajuResult } from '@/lib/saju/types';
 import { fetchDeepBio, hasDeepBioSync } from '@/lib/deepBio';
+import { sanitizeSummaryText } from '@/lib/sanitizeSummary';
 
 /**
  * MatchSummary — streams a Claude-generated 사주 summary that describes the
@@ -273,7 +274,10 @@ export default function MatchSummary({ saju, matches }: Props) {
 
   if (state.status === 'idle') return null;
 
-  const text = state.text;
+  // Strip LLM 격국 jargon asides like "(편재격의 외부 자원...)" before
+  // showing the streamed text — the model still emits them despite
+  // prompt tuning, so we always sanitize at render.
+  const text = sanitizeSummaryText(state.text);
   const isStreaming = state.status === 'streaming';
   const showSkeleton = !text;
 
