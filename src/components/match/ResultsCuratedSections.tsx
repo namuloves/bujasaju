@@ -137,12 +137,9 @@ export default function ResultsCuratedSections({ me, people, excludeIds }: Props
 
   return (
     <section className="space-y-10">
-      <div className="flex items-baseline gap-2">
-        <span className="text-xl">🔎</span>
-        <h2 className="text-base font-bold text-gray-900">
-          다른 부자들도 둘러보세요
-        </h2>
-      </div>
+      <h2 className="text-base font-bold text-gray-900">
+        다른 부자들도 둘러보세요
+      </h2>
 
       {topSections.map(({ config, people: sectionPeople, total }) => (
         <CuratedSection

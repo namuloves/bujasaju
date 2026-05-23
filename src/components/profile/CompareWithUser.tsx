@@ -100,23 +100,20 @@ export default function CompareWithUser({ person }: Props) {
   // No saved saju → render a soft CTA inviting the user to enter theirs.
   if (!userSaju) {
     return (
-      <section className="rounded-2xl border border-indigo-100 bg-gradient-to-br from-indigo-50/70 to-white p-4 sm:p-5">
-        <div className="flex items-start gap-3">
-          <span className="text-2xl">🔮</span>
-          <div className="flex-1">
-            <p className="text-sm font-semibold text-gray-900 mb-1">
-              {person.nameKo ?? person.name}님과 사주 궁합을 보고 싶다면
-            </p>
-            <p className="text-[13px] text-gray-600 leading-relaxed mb-3">
-              생년월일만 입력하면 본인의 사주와 어떻게 닮았는지 바로 보여드려요.
-            </p>
-            <Link
-              href="/"
-              className="inline-flex items-center gap-1 text-[13px] font-semibold text-indigo-600 hover:text-indigo-700"
-            >
-              내 사주 입력하기 →
-            </Link>
-          </div>
+      <section className="rounded-2xl border border-gray-200 bg-gray-50 p-4 sm:p-5">
+        <div>
+          <p className="text-sm font-semibold text-gray-900 mb-1">
+            {person.nameKo ?? person.name}님과 사주 궁합을 보고 싶다면
+          </p>
+          <p className="text-[13px] text-gray-600 leading-relaxed mb-3">
+            생년월일만 입력하면 본인의 사주와 어떻게 닮았는지 바로 보여드려요.
+          </p>
+          <Link
+            href="/"
+            className="inline-flex items-center gap-1 text-[13px] font-semibold text-gray-700 hover:text-black"
+          >
+            내 사주 입력하기 →
+          </Link>
         </div>
       </section>
     );

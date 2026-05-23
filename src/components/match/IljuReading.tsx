@@ -83,15 +83,12 @@ export default function IljuReading({ ilju }: Props) {
     <div className="space-y-5">
       {/* Header */}
       <div>
-        <div className="flex items-baseline gap-2 mb-3">
-          <span className="text-xl">✨</span>
-          <h2 className="text-base font-bold text-gray-900">사주 풀이</h2>
-        </div>
+        <h2 className="text-base font-bold text-gray-900 mb-3">사주 풀이</h2>
         <div className="flex items-baseline gap-2">
           <h3 className="text-xl font-bold text-gray-900">{ilju}</h3>
           <span className="text-sm text-gray-500">({entry.한자})</span>
         </div>
-        <p className="mt-2 text-[15px] italic text-indigo-700 leading-relaxed">
+        <p className="mt-2 text-[15px] italic text-gray-700 leading-relaxed">
           {entry.한줄요약}
         </p>
       </div>
@@ -116,21 +113,21 @@ export default function IljuReading({ ilju }: Props) {
       </p>
 
       {/* 재물·건강 */}
-      <Section emoji="💰" title="재물·건강">
+      <Section title="재물·건강">
         <p className="text-[15px] leading-relaxed text-gray-800">
           {entry.재물건강}
         </p>
       </Section>
 
       {/* 주의점 */}
-      <Section emoji="⚠️" title="주의점">
+      <Section title="주의점">
         <p className="text-[15px] leading-relaxed text-gray-800">
           {entry.주의점}
         </p>
       </Section>
 
       {/* 개운법 */}
-      <Section emoji="🌱" title="개운법">
+      <Section title="개운법">
         <p className="text-[15px] leading-relaxed text-gray-800">
           {entry.개운법}
         </p>
@@ -140,20 +137,15 @@ export default function IljuReading({ ilju }: Props) {
 }
 
 function Section({
-  emoji,
   title,
   children,
 }: {
-  emoji: string;
   title: string;
   children: React.ReactNode;
 }) {
   return (
     <div className="space-y-2">
-      <div className="flex items-baseline gap-2">
-        <span className="text-base">{emoji}</span>
-        <h3 className="text-sm font-bold text-gray-900">{title}</h3>
-      </div>
+      <h3 className="text-sm font-bold text-gray-900">{title}</h3>
       {children}
     </div>
   );

@@ -139,7 +139,6 @@ export default function SingleMatchCard({ person, saju, matches, onReset, totalM
         {summaryState.status !== 'idle' && (
           <div className="mb-5">
             <div className="flex items-baseline gap-2 mb-2">
-              <span className="text-lg">✨</span>
               <h4 className="text-sm font-bold text-gray-900">사주 풀이</h4>
               {isStreaming && (
                 <span className="inline-flex gap-1">

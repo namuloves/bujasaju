@@ -257,7 +257,6 @@ export default function DeepInterpretation({
   return (
     <div className="space-y-2">
       <div className="flex items-baseline gap-2">
-        <span className="text-base">🔮</span>
         <h2 className="text-sm font-bold text-gray-900">
           {featuredName}와의 심층 풀이
         </h2>
