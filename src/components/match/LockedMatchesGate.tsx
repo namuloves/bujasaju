@@ -11,17 +11,17 @@ import type { EnrichedPerson } from '@/lib/saju/types';
  *
  * Shows up to N billionaires beyond the Top3 row with the name/photo
  * redacted (country + industry only). An inline email form sits below
- * the locked cards; submitting flips local state to "unlocked" which
- * reveals everything client-side. Persists across reloads via
- * localStorage so we don't keep nagging the same visitor.
+ * the locked cards; submitting fires the email send + subscribe and
+ * shows a "check your inbox" dialog. The on-page cards stay locked —
+ * the full match details only live in the email, which raises the
+ * bar against junk addresses.
  *
  * Posts to /api/subscribe with source: 'unlock-gate' so we can slice
  * signups by surface later. No consent checkbox here — this gate
  * doubles as the consent moment ("submit to see the rest").
  */
 
-const STORAGE_KEY_PREFIX = 'bujasaju_matches_unlocked:';
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // RFC-loose
 
 const NATIONALITY_KO: Record<string, string> = {
   US: '미국', KR: '한국', CN: '중국', JP: '일본', IN: '인도', FR: '프랑스',
@@ -65,28 +65,11 @@ type Status = 'idle' | 'submitting' | 'error';
 
 export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
   const { t, lang } = useLanguage();
-  const [unlocked, setUnlocked] = useState(false);
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<Status>('idle');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
-  // Shown only on a fresh successful submit — not when restoring unlock
-  // state from localStorage on revisit. Auto-dismisses on "확인" click.
+  // Shown after a successful submit. Auto-dismisses on "확인" click.
   const [showSentDialog, setShowSentDialog] = useState(false);
-
-  // Restore unlock state on mount. We deliberately read localStorage in an
-  // effect (not lazy initial state) so SSR and the first client render
-  // agree — otherwise hydration would mismatch on returning visitors.
-  // Keyed by ilju so unlocking one day-pillar doesn't auto-reveal others.
-  useEffect(() => {
-    setUnlocked(false);
-    try {
-      if (localStorage.getItem(STORAGE_KEY_PREFIX + ilju) === '1') {
-        setUnlocked(true);
-      }
-    } catch {
-      // Ignore — private mode, disabled storage, etc.
-    }
-  }, [ilju]);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -111,6 +94,8 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
       photoUrl: p.photoUrl ?? null,
       nationality: p.nationality,
       industry: p.industry,
+      source: p.source ?? null,
+      companyKo: p.companyKo ?? null,
       netWorth: p.netWorth,
       bioKo: p.bioKo ?? null,
       bio: p.bio ?? null,
@@ -156,24 +141,20 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
       return;
     }
 
-    try { localStorage.setItem(STORAGE_KEY_PREFIX + ilju, '1'); } catch { /* ignore */ }
-    setUnlocked(true);
+    setStatus('idle');
+    setEmail('');
     setShowSentDialog(true);
   }
 
   if (lockedPeople.length === 0) return null;
 
   const count = lockedPeople.length;
-  const headline = unlocked
-    ? (lang === 'ko' ? `잠금 해제됨 — ${count}명 더 보기` : `Unlocked — ${count} more to explore`)
-    : (lang === 'ko'
-        ? `같은 ${ilju} 일주의 부자 ${count}명이 더 있어요`
-        : `${count} more billionaires share your ${ilju} day-pillar`);
-  const subline = unlocked
-    ? (lang === 'ko' ? '아래 카드를 눌러서 더 알아보세요.' : 'Tap a card to dive in.')
-    : (lang === 'ko'
-        ? '이메일을 남겨주시면 누군지 알려드릴게요'
-        : 'Drop your email and we’ll show you who.');
+  const headline = lang === 'ko'
+    ? `같은 ${ilju} 일주의 부자 ${count}명이 더 있어요`
+    : `${count} more billionaires share your ${ilju} day-pillar`;
+  const subline = lang === 'ko'
+    ? '이메일을 남겨주시면 결과를 이메일로 보내드릴게요'
+    : 'Drop your email and we’ll send the full results to your inbox.';
 
   return (
     <div className="mt-8 rounded-2xl border border-gray-200 bg-gray-50/40 px-4 sm:px-5 py-5">
@@ -184,12 +165,11 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
 
       <ul className="space-y-2">
         {lockedPeople.map((p, i) => (
-          <LockedRow key={p.id} person={p} unlocked={unlocked} rank={i + 4} lang={lang} />
+          <LockedRow key={p.id} person={p} unlocked={false} rank={i + 4} lang={lang} />
         ))}
       </ul>
 
-      {!unlocked && (
-        <form onSubmit={handleSubmit} className="mt-5 pt-4 border-t border-gray-200 space-y-2" noValidate>
+      <form onSubmit={handleSubmit} className="mt-5 pt-4 border-t border-gray-200 space-y-2" noValidate>
           <div className="flex flex-col sm:flex-row gap-2">
             <input
               type="email"
@@ -217,7 +197,7 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
             >
               {status === 'submitting'
                 ? t.emailCaptureSubmitting
-                : (lang === 'ko' ? '🔓 누구인지 보기' : '🔓 Show me who')}
+                : (lang === 'ko' ? '📬 이메일로 받기' : '📬 Email it to me')}
             </button>
           </div>
           <p className="text-[10.5px] text-gray-400 leading-snug">
@@ -230,8 +210,7 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
               {errorMsg}
             </p>
           )}
-        </form>
-      )}
+      </form>
 
       {showSentDialog && (
         <SentDialog lang={lang} onClose={() => setShowSentDialog(false)} />

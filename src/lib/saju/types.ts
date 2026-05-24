@@ -50,6 +50,7 @@ export interface Person {
   gender: Gender;
   source?: string; // Forbes "source of wealth" — sometimes a company, often an industry tag.
   company?: string; // Best-guess primary company name, extracted from bio when source is industry-y.
+  companyKo?: string; // Korean company name(s), comma-separated. Cleaner than `source`/`industry` for UI. Set for ~340 rows where `source` was a category word; absent otherwise (callers should fall back to `industry`).
   bio?: string; // One-sentence neutral summary of who they are and how they made their fortune
   bioKo?: string; // Korean translation of `bio`. Populated by scripts/translate-bios.ts.
   wealthOrigin?: 'self-made' | 'inherited' | 'mixed'; // mixed = inherited a business and substantially grew it

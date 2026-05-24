@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import {
   Body,
   Container,
@@ -36,6 +37,10 @@ const NATIONALITY_KO: Record<string, string> = {
   ES: '스페인', NL: '네덜란드', CH: '스위스', SG: '싱가포르', HK: '홍콩',
   TW: '대만', TH: '태국', MX: '멕시코', AR: '아르헨티나', NO: '노르웨이',
   ID: '인도네시아', PH: '필리핀', MY: '말레이시아', VN: '베트남',
+  DK: '덴마크', FI: '핀란드', PL: '폴란드', AT: '오스트리아', BE: '벨기에',
+  IE: '아일랜드', PT: '포르투갈', GR: '그리스', CZ: '체코', TR: '튀르키예',
+  IL: '이스라엘', EG: '이집트', NG: '나이지리아', ZA: '남아공', CL: '칠레',
+  CO: '콜롬비아', PE: '페루', NZ: '뉴질랜드',
 };
 
 function nationalityKo(code: string | undefined): string {
@@ -53,18 +58,17 @@ export interface MatchPerson {
   nationality?: string;
   industry?: string;
   netWorth: number;
+  /** Forbes "source of wealth" — sometimes a real company name like
+   *  "Lego" or "NLMK", sometimes a category like "Cryptocurrency".
+   *  Used as fallback subtitle when `companyKo` is absent. */
+  source?: string | null;
+  /** Korean company name(s) — prioritized over `source`/`industry` in the
+   *  meta line when present. Comma-separated for multiple, e.g. "테슬라, 스페이스X". */
+  companyKo?: string | null;
   /** One-paragraph Korean bio (~120 chars). Shown under the meta line
    *  in the card. Falls back to the English `bio` when absent. */
   bioKo?: string | null;
   bio?: string | null;
-}
-
-interface Props {
-  /** User's day-pillar string, e.g. "임진" */
-  ilju: string;
-  matches: MatchPerson[];
-  /** Origin used to build absolute links (since email clients can't resolve relative URLs). */
-  origin?: string;
 }
 
 const styles = {
@@ -184,9 +188,32 @@ const styles = {
   },
 };
 
-export default function MatchUnlockEmail({ ilju, matches, origin = 'https://bujasaju.com' }: Props) {
+interface Props {
+  /** User's day-pillar string, e.g. "임진" */
+  ilju: string;
+  matches: MatchPerson[];
+  /** Origin used to build absolute links (since email clients can't resolve relative URLs). */
+  origin?: string;
+  /** Precomputed rank (1-60) of this ilju among the 60 day-pillars by
+   *  billionaire count. Passed in from the API route so the template
+   *  stays presentation-only. */
+  rank?: number | null;
+  /** Per-ilju trait phrase used in the intro sentence, e.g.
+   *  "중년 이후 큰 결실을 거두는 대기만성형". Looked up from
+   *  public/saju-data/ilju-email-intro.json server-side and passed in. */
+  trait?: string | null;
+}
+
+export default function MatchUnlockEmail({ ilju, matches, origin = 'https://bujasaju.com', rank, trait }: Props) {
   const count = matches.length;
   const preview = `${ilju} 일주의 부자 ${count}명 — ${matches.slice(0, 2).map((m) => m.nameKo || m.name).join(', ')}${count > 2 ? ' 외' : ''}`;
+  const customIntro: ReactNode | null = (rank && trait) ? (
+    <>
+      안녕하세요! <strong>{ilju} 일주</strong> 부자 {count}명을 보내드려요.
+      {' '}{ilju} 일주는 부자사주의 60갑자 랭킹 중 <strong>{rank}위</strong>예요.
+      {' '}{trait} {ilju} 일주 부자를 확인해보세요.
+    </>
+  ) : null;
 
   return (
     <Html lang="ko">
@@ -201,16 +228,25 @@ export default function MatchUnlockEmail({ ilju, matches, origin = 'https://buja
             {ilju} 일주의 부자 {count}명을 소개해드려요
           </Text>
           <Text style={styles.intro}>
-            안녕하세요! 부자사주 결과를 받아주셔서 감사합니다. 당신과 같은
-            <strong> {ilju} 일주</strong>를 가진 부자 {count}명을 정리했어요.
-            누구인지 확인해보세요.
+            {customIntro ?? (
+              <>
+                안녕하세요! 부자사주 결과를 받아주셔서 감사합니다.
+                <strong> {ilju} 일주</strong>를 가진 부자 {count}명을 정리했어요.
+                누구인지 확인해보세요.
+              </>
+            )}
           </Text>
 
           {matches.map((p) => {
             const displayName = p.nameKo || p.name;
             const country = nationalityKo(p.nationality);
-            const industry = p.industry || '';
-            const meta = [country, industry].filter(Boolean).join(' · ');
+            // Subtitle priority: companyKo (cleaned Korean name) →
+            // source (Forbes wealth source, often a real company like
+            // "Lego" or "Pipelines") → industry (broad category like
+            // "Manufacturing", last resort). The first two are usually
+            // more specific than industry.
+            const subtitle = p.companyKo || p.source || p.industry || '';
+            const meta = [country, subtitle].filter(Boolean).join(' · ');
             const photoSrc = p.photoUrl
               ? (p.photoUrl.startsWith('//') ? `https:${p.photoUrl}` : p.photoUrl)
               : `https://ui-avatars.com/api/?name=${encodeURIComponent(p.name)}&size=120&background=random&bold=true`;
