@@ -1,9 +1,9 @@
 'use client';
 
-import React, { useState, lazy, Suspense } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 import Link from 'next/link';
 import type { EnrichedPerson } from '@/lib/saju/types';
-import { hasDeepBioSync } from '@/lib/deepBio';
+import { hasDeepBioSync, hasDeepBioV2Sync, loadDeepBioIndex } from '@/lib/deepBio';
 import { useLanguage } from '@/lib/i18n';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
@@ -75,7 +75,17 @@ export default function CleanMiniCard({ person }: Props) {
   const { lang } = useLanguage();
   const isKo = lang === 'ko';
   const [showBio, setShowBio] = useState(false);
-  const hasBio = hasDeepBioSync(person.id);
+  const [, setBioIndexReady] = useState(false);
+  useEffect(() => {
+    let cancelled = false;
+    loadDeepBioIndex().then(() => {
+      if (!cancelled) setBioIndexReady(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+  const hasBio = hasDeepBioSync(person.id) || hasDeepBioV2Sync(person.id);
   const name = shortName(person, isKo);
   const netWorth = formatNetWorthShort(person.netWorth, isKo);
 

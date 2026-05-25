@@ -211,7 +211,9 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     return featuredPool.filter((p) => !top3Ids.has(p.id)).slice(0, 7);
   }, [featuredPool, top3]);
 
-  const featuredHasBio = featuredPerson ? hasDeepBioSync(featuredPerson.id) : false;
+  const featuredHasBio = featuredPerson
+    ? hasDeepBioSync(featuredPerson.id) || hasDeepBioV2Sync(featuredPerson.id)
+    : false;
   const [showFeaturedBio, setShowFeaturedBio] = useState(false);
 
   // 사용자가 부자를 변경하면 같이 새 default로 — 단 사용자가 클릭으로 바꿨으면 유지
@@ -343,14 +345,37 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
         {/* Two-column layout on desktop:
               left  = 부자 카드들 (나랑 같은 일주를 가진 부자)
               right = 사주 풀이 + 심층풀이
-            On mobile/tablet we collapse to one column. DOM order is
-            풀이 → 부자 (the mobile reading order); on desktop the grid
-            uses `lg:order-*` to swap them so 부자 lands on the left. */}
+            On mobile/tablet we collapse to one column with 부자 → 풀이
+            so visitors see the matched billionaires first. Desktop keeps
+            부자 on the left, 풀이 on the right — same as before. */}
         <div className="lg:grid lg:grid-cols-2 lg:gap-10 lg:items-start">
-          {/* 풀이 column — first in DOM so mobile reads
-              사주 차트 → 사주 풀이 → 부자 카드. On lg+ this becomes the
-              right column via `lg:order-2`. */}
-          <div className="lg:order-2 space-y-5">
+          {/* 부자 카드 column — first in DOM so mobile leads with the
+              matched billionaires. On lg+ this stays the left column. */}
+          {top3.length > 1 && (
+            <div>
+              <h3 className="text-sm font-bold text-gray-900 mb-3">
+                나랑 같은 {me.ilju} 일주를 가진 부자
+              </h3>
+              <Top5FacesRow
+                people={top3}
+                selectedId={featuredPerson?.id ?? null}
+              />
+
+              {/* Email unlock gate (desktop placement) — sits under the
+                  부자 cards in the left column. Mobile hides this copy
+                  and shows the gate below the 풀이 column instead, so
+                  visitors read 부자 → 풀이 → unlock without the gate
+                  cutting the reading flow. */}
+              <div className="hidden lg:block">
+                <LockedMatchesGate lockedPeople={lockedPool} ilju={me.ilju} />
+              </div>
+            </div>
+          )}
+
+          {/* 풀이 column — second in DOM. Mobile reads
+              사주 차트 → 부자 카드 → 사주 풀이. On lg+ this is the
+              right column. */}
+          <div className="mt-8 lg:mt-0 space-y-5">
             <IljuReading ilju={me.ilju} />
             <div className="border-t border-gray-100 pt-5">
               <MatchSummary saju={me} matches={summaryMatches} />
@@ -375,27 +400,17 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
               </p>
             )}
           </div>
-
-          {/* 부자 카드 column — second in DOM (mobile: appears below 풀이),
-              promoted to the left column on lg+ via `lg:order-1`. */}
-          {top3.length > 1 && (
-            <div className="mt-8 lg:mt-0 lg:order-1">
-              <h3 className="text-sm font-bold text-gray-900 mb-3">
-                나랑 같은 {me.ilju} 일주를 가진 부자
-              </h3>
-              <Top5FacesRow
-                people={top3}
-                selectedId={featuredPerson?.id ?? null}
-              />
-
-              {/* Email unlock gate — the rest of the matches, hidden until
-                  the visitor drops an email. Cards still leak country +
-                  industry + 자산 so the gate feels like a real preview,
-                  not just a locked door. */}
-              <LockedMatchesGate lockedPeople={lockedPool} ilju={me.ilju} />
-            </div>
-          )}
         </div>
+
+        {/* Email unlock gate (mobile placement) — below 사주풀이 so the
+            reading isn't interrupted by the gate. Desktop renders the
+            gate inside the left column instead (see `hidden lg:block`
+            sibling above). */}
+        {top3.length > 1 && (
+          <div className="mt-8 lg:hidden">
+            <LockedMatchesGate lockedPeople={lockedPool} ilju={me.ilju} />
+          </div>
+        )}
 
         {/* Single featured CTA was removed — each Top3 row now carries
             its own "{이름} 부자 일주 보기 →" secondary button so the

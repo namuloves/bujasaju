@@ -37,7 +37,7 @@ const RevealAnimation = dynamic(
   },
 );
 const MatchResults = dynamic(
-  () => retryImport(() => import('./MatchResults')),
+  () => retryImport(() => import('./MatchResultsV2')),
   {
     ssr: false,
     loading: () => (

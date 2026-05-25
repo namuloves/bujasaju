@@ -527,11 +527,11 @@ function Top3Row({
             </p>
           )}
           {blurb ? (
-            <p className="mt-2 text-[12.5px] text-gray-600 leading-relaxed line-clamp-4">
+            <p className="mt-2 text-[12.5px] sm:text-[14px] text-gray-600 leading-relaxed line-clamp-4">
               {blurb}
             </p>
           ) : (
-            <p className="mt-2 text-[12.5px] text-gray-400">상세 소개 준비중.</p>
+            <p className="mt-2 text-[12.5px] sm:text-[14px] text-gray-400">상세 소개 준비중.</p>
           )}
         </div>
       </Link>

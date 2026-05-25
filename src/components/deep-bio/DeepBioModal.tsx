@@ -13,7 +13,11 @@ import { getSipSin } from '@/lib/saju/tenGods';
 import type { CheonGan, JiJi, SajuResult } from '@/lib/saju/types';
 import SajuBadge from '../SajuBadge';
 import { HeroPillar } from '../match/SajuHero';
+import DaewoonStrip from '../profile/DaewoonStrip';
 import { industryToKorean } from '../FilterPanel';
+import { JIJANGGAN } from '@/lib/saju/constants';
+import { calculateTwelveStages } from '@/lib/saju/analyzer/twelveStages';
+import { evaluateHyungChungPaHae } from '@/lib/saju/analyzer/hyungChungPaHae';
 
 const USD_TO_KRW = 1480.71;
 const USD_TO_KRW_DATE = '2026.04.09';
@@ -158,62 +162,16 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
         </div>
       </section>
 
-      {/* 사주팔자 Chart */}
+      {/* 사주팔자 Chart — uses HeroPillar to match the results page */}
       <section>
         <h3 className="text-sm font-bold text-gray-900 mb-2">
           {lang === 'ko' ? '사주팔자' : 'Four Pillars'}
         </h3>
-        <div className="border border-gray-200 rounded-xl overflow-hidden">
-          <table className="w-full text-center text-sm">
-            <thead>
-              <tr className="bg-gray-50">
-                <th className="py-2 text-gray-400 font-normal text-xs">{lang === 'ko' ? '시주' : 'Hour'}</th>
-                <th className="py-2 text-gray-400 font-normal text-xs bg-indigo-50">{lang === 'ko' ? '일주' : 'Day'}</th>
-                <th className="py-2 text-gray-400 font-normal text-xs">{lang === 'ko' ? '월주' : 'Month'}</th>
-                <th className="py-2 text-gray-400 font-normal text-xs">{lang === 'ko' ? '년주' : 'Year'}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {/* 십성 row */}
-              <tr>
-                <td className="pt-2 text-[10px] text-gray-400">?</td>
-                <td className="pt-2 text-[10px] text-indigo-500 font-medium bg-indigo-50/30">일간</td>
-                <td className="pt-2 text-[10px] text-gray-500 font-medium">
-                  {getSipSin(saju.saju.day.stem as CheonGan, saju.saju.month.stem as CheonGan)}
-                </td>
-                <td className="pt-2 text-[10px] text-gray-500 font-medium">
-                  {getSipSin(saju.saju.day.stem as CheonGan, saju.saju.year.stem as CheonGan)}
-                </td>
-              </tr>
-              {/* 천간 row */}
-              <tr>
-                <td className="py-2 text-gray-300">?</td>
-                <td className="py-2 bg-indigo-50/30"><SajuBadge stem={saju.saju.day.stem} size="sm" /></td>
-                <td className="py-2"><SajuBadge stem={saju.saju.month.stem} size="sm" /></td>
-                <td className="py-2"><SajuBadge stem={saju.saju.year.stem} size="sm" /></td>
-              </tr>
-              {/* 지지 row */}
-              <tr>
-                <td className="py-2 text-gray-300">?</td>
-                <td className="py-2 bg-indigo-50/30"><SajuBadge branch={saju.saju.day.branch} size="sm" /></td>
-                <td className="py-2"><SajuBadge branch={saju.saju.month.branch} size="sm" /></td>
-                <td className="py-2"><SajuBadge branch={saju.saju.year.branch} size="sm" /></td>
-              </tr>
-              {/* 본기 십성 row */}
-              <tr>
-                <td className="pb-2 text-[10px] text-gray-400">?</td>
-                <td className="pb-2 text-[10px] text-gray-500 font-medium bg-indigo-50/30">
-                  {getSipSin(saju.saju.day.stem as CheonGan, getBongi(saju.saju.day.branch as JiJi))}
-                </td>
-                <td className="pb-2 text-[10px] text-gray-500 font-medium">
-                  {getSipSin(saju.saju.day.stem as CheonGan, getBongi(saju.saju.month.branch as JiJi))}
-                </td>
-                <td className="pb-2 text-[10px] text-gray-500 font-medium">
-                  {getSipSin(saju.saju.day.stem as CheonGan, getBongi(saju.saju.year.branch as JiJi))}
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <div className="flex justify-center gap-1.5">
+          <HeroPillar label="時" ju={null} ilgan={saju.saju.day.stem as CheonGan} />
+          <HeroPillar label="日" ju={saju.saju.day} ilgan={saju.saju.day.stem as CheonGan} isDayPillar />
+          <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} />
+          <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} />
         </div>
       </section>
 
@@ -237,6 +195,9 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
         <HeroPillar label="日" ju={saju.saju.day} ilgan={saju.saju.day.stem as CheonGan} isDayPillar compact />
         <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} compact />
         <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} compact />
+      </div>
+      <div className="mt-4">
+        <DaewoonStrip person={person} />
       </div>
       <p className="text-[10px] text-gray-400 text-center mt-1">
         {saju.ilju} · {saju.wolji} · {saju.gyeokguk}
@@ -322,9 +283,8 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
         </div>
       </div>
 
-      {/* Desktop: photo | bio | saju — three columns */}
-      <div className="hidden lg:flex items-start gap-5 pr-10">
-        {/* Photo */}
+      {/* Desktop: photo | bio info — original layout */}
+      <div className="hidden lg:flex items-start gap-5 pr-24">
         <div className="shrink-0">
           <div className="w-36 h-44 rounded-lg overflow-hidden bg-gray-200 shadow">
             <img
@@ -338,7 +298,6 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             />
           </div>
         </div>
-        {/* Bio info */}
         <div className="flex-1 min-w-0">
           <div className="flex items-baseline gap-3">
             <h2 className="text-xl font-bold text-gray-900">{displayName}</h2>
@@ -351,7 +310,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
           </div>
           <div className="flex items-center gap-2 mt-1 text-sm text-gray-500 flex-wrap">
             <span className="font-bold text-gray-900 text-lg">
-              {lang === 'ko' ? `${formatNetWorth(person.netWorth, 'ko')}` : `$${person.netWorth}B`}
+              {lang === 'ko' ? formatNetWorth(person.netWorth, 'ko') : `$${person.netWorth}B`}
             </span>
             {lang === 'ko' && (
               <span className="text-xs text-gray-400">${person.netWorth}B</span>
@@ -388,57 +347,6 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             </div>
           )}
         </div>
-        {/* Saju mini chart */}
-        <div className="shrink-0 w-52">
-          <div className="border border-gray-200 rounded-lg overflow-hidden">
-            <table className="w-full text-center text-[10px]">
-              <thead>
-                <tr className="bg-gray-50">
-                  <th className="py-1 text-gray-400 font-normal">{lang === 'ko' ? '시' : 'H'}</th>
-                  <th className="py-1 text-gray-400 font-normal bg-indigo-50">{lang === 'ko' ? '일' : 'D'}</th>
-                  <th className="py-1 text-gray-400 font-normal">{lang === 'ko' ? '월' : 'M'}</th>
-                  <th className="py-1 text-gray-400 font-normal">{lang === 'ko' ? '년' : 'Y'}</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="pt-1 text-[9px] text-gray-400">?</td>
-                  <td className="pt-1 text-[9px] text-indigo-500 font-medium bg-indigo-50/30">일간</td>
-                  <td className="pt-1 text-[9px] text-gray-500 font-medium">
-                    {getSipSin(saju.saju.day.stem as CheonGan, saju.saju.month.stem as CheonGan)}
-                  </td>
-                  <td className="pt-1 text-[9px] text-gray-500 font-medium">
-                    {getSipSin(saju.saju.day.stem as CheonGan, saju.saju.year.stem as CheonGan)}
-                  </td>
-                </tr>
-                <tr>
-                  <td className="py-1 text-gray-300 text-xs">?</td>
-                  <td className="py-1 bg-indigo-50/30"><SajuBadge stem={saju.saju.day.stem} size="sm" /></td>
-                  <td className="py-1"><SajuBadge stem={saju.saju.month.stem} size="sm" /></td>
-                  <td className="py-1"><SajuBadge stem={saju.saju.year.stem} size="sm" /></td>
-                </tr>
-                <tr>
-                  <td className="py-1 text-gray-300 text-xs">?</td>
-                  <td className="py-1 bg-indigo-50/30"><SajuBadge branch={saju.saju.day.branch} size="sm" /></td>
-                  <td className="py-1"><SajuBadge branch={saju.saju.month.branch} size="sm" /></td>
-                  <td className="py-1"><SajuBadge branch={saju.saju.year.branch} size="sm" /></td>
-                </tr>
-                <tr>
-                  <td className="pb-1 text-[9px] text-gray-400">?</td>
-                  <td className="pb-1 text-[9px] text-gray-500 font-medium bg-indigo-50/30">
-                    {getSipSin(saju.saju.day.stem as CheonGan, getBongi(saju.saju.day.branch as JiJi))}
-                  </td>
-                  <td className="pb-1 text-[9px] text-gray-500 font-medium">
-                    {getSipSin(saju.saju.day.stem as CheonGan, getBongi(saju.saju.month.branch as JiJi))}
-                  </td>
-                  <td className="pb-1 text-[9px] text-gray-500 font-medium">
-                    {getSipSin(saju.saju.day.stem as CheonGan, getBongi(saju.saju.year.branch as JiJi))}
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
       </div>
     </div>
   );
@@ -472,8 +380,101 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
                 <EmptyBioState lang={lang} />
               </div>
             ) : (
-              <div className="p-6 pb-10">
-                <DeepBioContent bio={bio} person={person} userSaju={userSaju} lang={lang}  />
+              <div className="px-8 pb-12 pt-2 space-y-8">
+                {/* Top row: 사주 차트 (left, fit-to-content) + 한눈에 보는 정보 (right, fills remaining) */}
+                <section className="flex gap-16 items-start">
+                  <div className="shrink-0 w-72">
+                    <h3 className="text-sm font-bold text-gray-900 mb-4">
+                      {lang === 'ko' ? '사주' : 'Saju'}
+                    </h3>
+                    <div className="flex justify-between gap-3">
+                      <HeroPillar label="時" ju={null} ilgan={saju.saju.day.stem as CheonGan} large />
+                      <HeroPillar label="日" ju={saju.saju.day} ilgan={saju.saju.day.stem as CheonGan} isDayPillar large />
+                      <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} large />
+                      <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} large />
+                    </div>
+                    {/* 지장간 — 4 branches × hidden stems (right under the chart, no label) */}
+                    <div className="mt-3 flex justify-between gap-1.5 text-[10px] text-gray-500">
+                      {[
+                        { label: '時', branch: saju.saju.hour?.branch },
+                        { label: '日', branch: saju.saju.day.branch },
+                        { label: '月', branch: saju.saju.month.branch },
+                        { label: '年', branch: saju.saju.year.branch },
+                      ].map((p, i) => (
+                        <div key={i} className="flex-1 text-center">
+                          {p.branch ? JIJANGGAN[p.branch].join(' · ') : '·'}
+                        </div>
+                      ))}
+                    </div>
+                    {/* 12운성 — per-pillar */}
+                    <div className="mt-3 flex justify-between gap-1.5 text-[10px] text-gray-600">
+                      {(() => {
+                        const stages = calculateTwelveStages(saju.saju);
+                        const byPillar = new Map(stages.map(s => [s.pillar, s.stage]));
+                        return ['시', '일', '월', '년'].map((p, i) => (
+                          <div key={i} className="flex-1 text-center">
+                            {byPillar.get(p as '시' | '일' | '월' | '년') ?? '·'}
+                          </div>
+                        ));
+                      })()}
+                    </div>
+                    {/* 형충파해 */}
+                    {(() => {
+                      const matches = evaluateHyungChungPaHae(saju.saju);
+                      if (matches.length === 0) return null;
+                      return (
+                        <div className="mt-3 text-[11px] text-gray-600 text-center">
+                          <span className="text-[9px] text-gray-400 tracking-wide mr-1.5">{lang === 'ko' ? '형충파해' : 'Clashes'}</span>
+                          {matches.map((m, i) => (
+                            <span key={i} className="inline-block mr-1.5">
+                              <span className="font-semibold text-rose-600">{m.kind}</span> {m.a === m.b ? `${m.a}${m.b}` : `${m.a}${m.b}`}
+                            </span>
+                          ))}
+                        </div>
+                      );
+                    })()}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-sm font-bold text-gray-900 mb-3">
+                      {lang === 'ko' ? '한눈에 보는 정보' : 'Key Facts'}
+                    </h3>
+                    <dl className="rounded-lg border border-gray-100 divide-y divide-gray-100">
+                      {bio.childhood?.birthPlace && (
+                        <div className="flex gap-3 px-3 py-2.5">
+                          <dt className="text-xs text-gray-500 font-medium w-20 shrink-0 pt-0.5">{lang === 'ko' ? '출생지' : 'Born'}</dt>
+                          <dd className="text-sm text-gray-800 leading-snug flex-1">{ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo)}</dd>
+                        </div>
+                      )}
+                      {bio.childhood?.familyBackground && (
+                        <div className="flex gap-3 px-3 py-2.5">
+                          <dt className="text-xs text-gray-500 font-medium w-20 shrink-0 pt-0.5">{lang === 'ko' ? '집안' : 'Family'}</dt>
+                          <dd className="text-sm text-gray-800 leading-snug flex-1">{ko(lang, bio.childhood.familyBackground, bio.childhood.familyBackgroundKo)}</dd>
+                        </div>
+                      )}
+                      {bio.childhood?.education && (
+                        <div className="flex gap-3 px-3 py-2.5">
+                          <dt className="text-xs text-gray-500 font-medium w-20 shrink-0 pt-0.5">{lang === 'ko' ? '학력' : 'Education'}</dt>
+                          <dd className="text-sm text-gray-800 leading-snug flex-1">{ko(lang, bio.childhood.education, bio.childhood.educationKo)}</dd>
+                        </div>
+                      )}
+                      {person.wealthOrigin && (
+                        <div className="flex gap-3 px-3 py-2.5">
+                          <dt className="text-xs text-gray-500 font-medium w-20 shrink-0 pt-0.5">{lang === 'ko' ? '부의 출처' : 'Source'}</dt>
+                          <dd className="text-sm text-gray-800 leading-snug flex-1">
+                            {lang === 'ko'
+                              ? (person.wealthOrigin === 'self-made' ? '자수성가' : person.wealthOrigin === 'inherited' ? '상속' : person.wealthOrigin)
+                              : person.wealthOrigin}
+                          </dd>
+                        </div>
+                      )}
+                    </dl>
+                  </div>
+                </section>
+                {/* 대운 흐름 (full-width, below the row) */}
+                <DaewoonStrip person={person} />
+                <div className="pt-2 border-t border-gray-100">
+                  <DeepBioContent bio={bio} person={person} userSaju={userSaju} lang={lang} hideKeyFacts />
+                </div>
               </div>
             )}
           </div>

@@ -109,7 +109,7 @@ function buildMatchPoints(userSaju: SajuResult, person: EnrichedPerson, lang: st
   return points;
 }
 
-export default function DeepBioContent({ bio, person, userSaju, lang, mobileHeader, scrollRoot }: Props) {
+export default function DeepBioContent({ bio, person, userSaju, lang, mobileHeader, scrollRoot, hideKeyFacts }: Props & { hideKeyFacts?: boolean }) {
   const matchPoints = userSaju ? buildMatchPoints(userSaju, person, lang) : [];
 
   // Key facts — childhood에서 추출
@@ -198,7 +198,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       )}
 
       {/* 2. Key Facts (label-value) */}
-      {keyFacts.length > 0 && (
+      {!hideKeyFacts && keyFacts.length > 0 && (
         <section>
           <h3 className="text-sm font-bold text-gray-900 mb-2.5">
             {lang === 'ko' ? '한눈에 보는 정보' : 'Key Facts'}
