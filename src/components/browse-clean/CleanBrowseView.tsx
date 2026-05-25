@@ -10,6 +10,7 @@ import { useLanguage } from '@/lib/i18n';
 import CleanSection from './CleanSection';
 import CleanMiniCard from './CleanMiniCard';
 import CleanInlineFilters from './CleanInlineFilters';
+import { matchesSearch } from "./searchAliases";
 
 interface Props {
   /**
@@ -22,6 +23,7 @@ interface Props {
 
 const CARDS_PER_SECTION = 6;
 const FLAT_PAGE_SIZE = 60;
+
 
 const defaultFilters: Filters = {
   ilgan: '',
@@ -127,14 +129,8 @@ export default function CleanBrowseView({ nav }: Props = {}) {
     const f = deferredFilters;
     const list = people.filter((p) => {
       if (f.search) {
-        const q = f.search.toLowerCase();
-        const en = p.name.toLowerCase();
-        const ko = (p.nameKo ?? '').toLowerCase();
-        const src = (p.source ?? '').toLowerCase();
-        const ind = (p.industry ?? '').toLowerCase();
-        if (!en.includes(q) && !ko.includes(f.search) && !src.includes(q) && !ind.includes(q)) {
-          return false;
-        }
+        const rawQ = f.search.trim();
+        if (!matchesSearch(p, rawQ)) return false;
       }
       if (f.gender && p.gender !== f.gender) return false;
       if (f.ilju && p.saju.ilju !== f.ilju) return false;
@@ -159,8 +155,25 @@ export default function CleanBrowseView({ nav }: Props = {}) {
   }, [people, deferredFilters]);
 
   const sections = useMemo(() => {
+    const byId = new Map(people.map((p) => [String(p.id), p]));
     return CURATED_SECTIONS.map((config) => {
+      // Always compute the underlying filter match so the "더 보기 (총 N명)"
+      // button can still surface the full pool, even for pinned sections.
       const matched = people.filter(config.filter);
+
+      // Editorially-pinned section: render only the listed IDs, in order,
+      // but keep `total` tied to the filter so the CTA still appears.
+      if (config.pinnedIds && config.pinnedIds.length > 0) {
+        const picked = config.pinnedIds
+          .map((id) => byId.get(id))
+          .filter((p): p is typeof people[number] => Boolean(p));
+        return {
+          config,
+          people: picked,
+          total: matched.length,
+        };
+      }
+      // Otherwise sort by net worth and take top N.
       const sorted = [...matched].sort((a, b) => b.netWorth - a.netWorth);
       return {
         config,

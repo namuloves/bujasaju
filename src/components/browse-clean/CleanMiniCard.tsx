@@ -119,7 +119,13 @@ export default function CleanMiniCard({ person }: Props) {
           )}
         </h4>
         <p className="text-[11px] text-gray-500 mt-0.5 truncate">
-          {person.source ? `${person.source} · ` : ''}{netWorth}
+          {/* Prefer company name over source (which is often an industry tag
+              like "Real estate" / "Banking"). Fall back to source only when
+              there's no concrete company name. */}
+          {(person.companyKo || person.company || person.source)
+            ? `${person.companyKo || person.company || person.source} · `
+            : ''}
+          {netWorth}
         </p>
       </div>
     </>

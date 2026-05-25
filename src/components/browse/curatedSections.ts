@@ -27,6 +27,12 @@ export interface CuratedSectionConfig {
   filter: (person: EnrichedPerson) => boolean;
   /** Filter to apply when "더 보기" is clicked. null = no button. */
   applyFilter: Partial<Filters> | null;
+  /**
+   * Optional curated list of person IDs. When set, the section renders these
+   * exact people in this exact order (instead of filter-based, net-worth-sorted
+   * results). Useful for editorially-pinned sections like "대기업 오너".
+   */
+  pinnedIds?: string[];
 }
 
 /** Entertainment sources that indicate a celebrity, not a tech/game CEO */
@@ -61,6 +67,11 @@ const CURATED_SECTIONS: CuratedSectionConfig[] = [
     descriptionEn: 'Korean conglomerate owners',
     filter: isKrChaebol,
     applyFilter: { nationality: 'KR', wealthOrigin: 'inherited' },
+    // Editorially-pinned 6 owners across the major Korean groups, so the
+    // section doesn't read as "Samsung × N" when sorted purely by net worth.
+    // Order: 이재용(삼성), 정의선(현대), 이부진(삼성/호텔신라), 이서현(삼성/제일기획),
+    //        조정호(메리츠), 최태원(SK).
+    pinnedIds: ['111', '675', '417', '455', '467', '1518'],
   },
   {
     id: 'kr-newrich',

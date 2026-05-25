@@ -141,8 +141,18 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
     });
   }
 
-  const hasQuotes = bio.quotes && bio.quotes.length > 0;
-  const hasFailures = bio.failures && bio.failures.length > 0;
+  // Only count quotes/failures that actually carry text in the current
+  // language — otherwise empty 어록 / 실패와 교훈 sections leak through.
+  const hasQuotes = !!(bio.quotes && bio.quotes.some((q) => {
+    const q2 = q as Quote & { quote?: string; quoteKo?: string };
+    return Boolean(ko(lang, q2.text ?? q2.quote ?? '', q2.textKo ?? q2.quoteKo));
+  }));
+  const hasFailures = !!(bio.failures && bio.failures.some((f) => {
+    const f2 = f as (typeof f) & { failure?: string; failureKo?: string };
+    const body = ko(lang, f2.description ?? f2.failure ?? '', f2.descriptionKo ?? f2.failureKo);
+    const lesson = ko(lang, f2.lesson ?? '', f2.lessonKo);
+    return Boolean(body || lesson);
+  }));
   const hasAuthored = bio.books?.authored?.filter(b => b.title).length > 0;
   const hasRecommended = bio.books?.recommended?.length > 0;
   const hasBooks = hasAuthored || hasRecommended;
@@ -317,36 +327,54 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       )}
       {/* ───────────── /TIMELINE ───────────── */}
 
-      {/* ───────────── FAILURES — editorial, year column + body ───────────── */}
-      {hasFailures && (
-        <section id="failures" className="scroll-mt-20">
-          <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
-            {lang === 'ko' ? '실패와 교훈' : 'Setbacks & Lessons'}
-          </h3>
-          <div>
-            {bio.failures.map((f, i) => (
-              <div
-                key={i}
-                className={`flex gap-4 py-3.5 ${i > 0 ? 'border-t border-gray-100' : ''}`}
-              >
-                <div className="shrink-0 w-12 text-[13px] font-bold text-gray-900 tabular-nums leading-snug">
-                  {f.year}
+      {/* ───────────── FAILURES — editorial, year column + body ─────────────
+          v1 used description/descriptionKo + lesson/lessonKo. v2 uses
+          failure/failureKo + lessonKo. Read both shapes so cowork-generated
+          v2 bios actually render. */}
+      {(() => {
+        if (!hasFailures) return null;
+        type V2Failure = (typeof bio.failures[number]) & {
+          failure?: string;
+          failureKo?: string;
+        };
+        const items = (bio.failures as V2Failure[]).map((f) => {
+          const body = ko(
+            lang,
+            f.description ?? f.failure ?? '',
+            f.descriptionKo ?? f.failureKo,
+          );
+          const lesson = ko(lang, f.lesson ?? '', f.lessonKo);
+          return { year: f.year, body, lesson };
+        }).filter(x => x.body || x.lesson);
+        if (items.length === 0) return null;
+        return (
+          <section id="failures" className="scroll-mt-20">
+            <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
+              {lang === 'ko' ? '실패와 교훈' : 'Setbacks & Lessons'}
+            </h3>
+            <div>
+              {items.map((f, i) => (
+                <div
+                  key={i}
+                  className={`flex gap-4 py-3.5 ${i > 0 ? 'border-t border-gray-100' : ''}`}
+                >
+                  <div className="shrink-0 w-12 text-[13px] font-bold text-gray-900 tabular-nums leading-snug">
+                    {f.year}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    {f.body && (
+                      <p className="text-sm text-gray-900 leading-relaxed">{f.body}</p>
+                    )}
+                    {f.lesson && (
+                      <p className="mt-1.5 text-[13px] text-gray-500 leading-relaxed">{f.lesson}</p>
+                    )}
+                  </div>
                 </div>
-                <div className="flex-1 min-w-0">
-                  <p className="text-sm text-gray-900 leading-relaxed">
-                    {ko(lang, f.description, f.descriptionKo)}
-                  </p>
-                  {f.lesson && (
-                    <p className="mt-1.5 text-[13px] text-gray-500 leading-relaxed">
-                      {ko(lang, f.lesson, f.lessonKo)}
-                    </p>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
+              ))}
+            </div>
+          </section>
+        );
+      })()}
 
       {/* 9. Books */}
       {hasBooks && (
@@ -428,10 +456,14 @@ function QuoteCard({ quote, lang }: { quote: Quote; lang: string }) {
   const isUrl = quote.source ? /^https?:\/\//i.test(quote.source) : false;
   const sourceText = quote.source && !isUrl ? quote.source : '';
   const cite = [context, sourceText].filter(Boolean).join(' · ');
+  // v2 bios use `quote`/`quoteKo`; v1 used `text`/`textKo`. Accept either.
+  const q = quote as Quote & { quote?: string; quoteKo?: string };
+  const body = ko(lang, q.text ?? q.quote ?? '', q.textKo ?? q.quoteKo);
+  if (!body) return null;
   return (
     <blockquote className="mb-6 last:mb-0">
       <p className="text-[15px] sm:text-base font-semibold text-gray-900 leading-relaxed">
-        &ldquo;{ko(lang, quote.text, quote.textKo)}&rdquo;
+        &ldquo;{body}&rdquo;
       </p>
       {cite && (
         <p className="mt-2 text-xs text-gray-500">— {cite}</p>

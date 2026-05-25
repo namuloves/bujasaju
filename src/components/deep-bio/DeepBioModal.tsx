@@ -37,6 +37,25 @@ function normalizePhotoUrl(url: string | undefined | null, name: string, size: n
   return normalized;
 }
 
+/**
+ * Compute Korean 만나이. If a death date is provided, age is frozen at the
+ * point of death so we don't show "현재 130세" for historical figures.
+ * Returns null for invalid input.
+ */
+function computeAge(birthday: string | undefined, deathDate?: string | null): number | null {
+  if (!birthday) return null;
+  const birth = new Date(birthday + 'T00:00:00+09:00');
+  if (Number.isNaN(birth.getTime())) return null;
+  const reference = deathDate
+    ? new Date(deathDate + 'T00:00:00+09:00')
+    : new Date();
+  if (Number.isNaN(reference.getTime())) return null;
+  let age = reference.getFullYear() - birth.getFullYear();
+  const m = reference.getMonth() - birth.getMonth();
+  if (m < 0 || (m === 0 && reference.getDate() < birth.getDate())) age--;
+  return age >= 0 ? age : null;
+}
+
 function formatNetWorth(netWorth: number, lang: string): string {
   if (lang === 'ko') {
     // netWorth is in billions USD. 1 billion = 10억 KRW-units.
@@ -242,12 +261,23 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
         </div>
         <div className="flex-1 min-w-0 pt-0.5">
           <h2 className="text-lg font-bold text-gray-900 leading-tight">{displayName}</h2>
-          {person.nameKo && lang === 'ko' && (
-            <p className="text-xs text-gray-400 mt-0.5">{person.name}</p>
-          )}
-          {person.nameKo && lang !== 'ko' && (
-            <p className="text-xs text-gray-400 mt-0.5">{person.nameKo}</p>
-          )}
+          {(() => {
+            const age = computeAge(person.birthday, person.deathDate);
+            const ageLabel = age == null
+              ? null
+              : person.deathDate
+                ? (lang === 'ko' ? `향년 ${age}세` : `aged ${age}`)
+                : (lang === 'ko' ? `${age}세` : `age ${age}`);
+            const altName = person.nameKo
+              ? (lang === 'ko' ? person.name : person.nameKo)
+              : null;
+            if (!altName && !ageLabel) return null;
+            return (
+              <p className="text-xs text-gray-400 mt-0.5">
+                {[altName, ageLabel].filter(Boolean).join(' · ')}
+              </p>
+            );
+          })()}
           <div className="flex items-baseline gap-2 mt-1.5">
             <span className="font-bold text-gray-900 text-base">
               {lang === 'ko' ? formatNetWorth(person.netWorth, 'ko') : `$${person.netWorth}B`}
@@ -308,6 +338,14 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             {person.nameKo && lang !== 'ko' && (
               <span className="text-sm text-gray-400">{person.nameKo}</span>
             )}
+            {(() => {
+              const age = computeAge(person.birthday, person.deathDate);
+              if (age == null) return null;
+              const suffix = person.deathDate
+                ? (lang === 'ko' ? `향년 ${age}세` : `aged ${age}`)
+                : (lang === 'ko' ? `${age}세` : `age ${age}`);
+              return <span className="text-sm text-gray-400">{suffix}</span>;
+            })()}
           </div>
           <div className="flex items-center gap-2 mt-1 text-sm text-gray-500 flex-wrap">
             <span className="font-bold text-gray-900 text-lg">
@@ -316,6 +354,33 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             {lang === 'ko' && (
               <span className="text-xs text-gray-400">${person.netWorth}B</span>
             )}
+            {(() => {
+              // Cite where the net-worth figure comes from. v2 bios stash URLs
+              // in capitalOrigin/moneyMechanics; pick the first reasonable one
+              // and label it by domain (Forbes / Bloomberg / Wikipedia / etc.).
+              const co = (bio as unknown as { capitalOrigin?: { source?: string }; moneyMechanics?: { source?: string } });
+              const raw = co?.capitalOrigin?.source || co?.moneyMechanics?.source;
+              if (!raw) return null;
+              const firstUrl = raw.split(/[\s;,]+/).find(s => /^https?:\/\//.test(s));
+              if (!firstUrl) return null;
+              const host = firstUrl.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0];
+              const label = host.split('.')[0];
+              const display = label.charAt(0).toUpperCase() + label.slice(1);
+              return (
+                <>
+                  <span className="text-gray-300">·</span>
+                  <a
+                    href={firstUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-gray-400 hover:text-gray-700 underline decoration-dotted underline-offset-2"
+                    title={firstUrl}
+                  >
+                    {lang === 'ko' ? `출처 ${display}` : `via ${display}`}
+                  </a>
+                </>
+              );
+            })()}
             {person.company && person.company !== person.industry && (
               <>
                 <span className="text-gray-300">·</span>
@@ -394,8 +459,8 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
                       <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} large />
                       <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} large />
                     </div>
-                    {/* 지장간 — 4 branches × hidden stems (right under the chart, no label) */}
-                    <div className="mt-3 flex justify-between gap-1.5 text-[10px] text-gray-500">
+                    {/* 지장간 — sits right under the sipsin label of each branch cell */}
+                    <div className="-mt-1 flex justify-between gap-1.5 text-[10px] text-gray-500">
                       {[
                         { label: '時', branch: saju.saju.hour?.branch },
                         { label: '日', branch: saju.saju.day.branch },
@@ -408,7 +473,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
                       ))}
                     </div>
                     {/* 12운성 — per-pillar */}
-                    <div className="mt-3 flex justify-between gap-1.5 text-[10px] text-gray-600">
+                    <div className="mt-1.5 flex justify-between gap-1.5 text-[10px] text-gray-600">
                       {(() => {
                         const stages = calculateTwelveStages(saju.saju);
                         const byPillar = new Map(stages.map(s => [s.pillar, s.stage]));
@@ -487,6 +552,20 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
                           </dd>
                         </div>
                       )}
+                      {(() => {
+                        // v2 deep bios carry a richer capitalOrigin.explanationKo
+                        // paragraph describing HOW the wealth was actually formed
+                        // (재벌 승계 사다리 / 창업 자본 등). Surface it as its own row.
+                        const co = (bio as unknown as { capitalOrigin?: { explanationKo?: string; explanation?: string } }).capitalOrigin;
+                        const text = co?.explanationKo || co?.explanation;
+                        if (!text) return null;
+                        return (
+                          <div className="flex gap-3 px-3 py-2.5">
+                            <dt className="text-xs text-gray-500 font-medium w-20 shrink-0 pt-0.5">{lang === 'ko' ? '자본 출처' : 'Capital'}</dt>
+                            <dd className="text-sm text-gray-800 leading-snug flex-1">{text}</dd>
+                          </div>
+                        );
+                      })()}
                       {person.source && (
                         <div className="flex gap-3 px-3 py-2.5">
                           <dt className="text-xs text-gray-500 font-medium w-20 shrink-0 pt-0.5">{lang === 'ko' ? '출처' : 'Provenance'}</dt>

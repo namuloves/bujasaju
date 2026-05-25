@@ -425,29 +425,27 @@ export async function fetchDeepBio(personId: string): Promise<DeepBio | null> {
     return null;
   }
 
-  // Try v1 first; many older entries only exist there.
-  if (v1Set.has(personId)) {
-    try {
-      const res = await fetch(`/deep-bios/${personId}.json`);
-      if (res.ok) {
-        const data: DeepBio = await res.json();
-        cache.set(personId, data);
-        return data;
-      }
-    } catch {
-      // fall through to v2
-    }
-  }
-
-  // v2 fallback. The DeepBioV2 schema is a superset for the fields the
-  // ProfilePage hero actually reads (childhood.birthPlace, education,
-  // birthPlaceKo, educationKo). Cast through the DeepBio shape — any
-  // missing v1-only fields will just render as their empty fallbacks.
+  // Prefer v2 — it's a superset and carries richer fields (capitalOrigin,
+  // turningPoints, moneyMechanics) that the modal surfaces. Fall back to v1
+  // only when v2 isn't available.
   if (v2Set.has(personId)) {
     try {
       const res = await fetch(`/deep-bios-v2/${personId}.json`);
       if (res.ok) {
         const data = (await res.json()) as unknown as DeepBio;
+        cache.set(personId, data);
+        return data;
+      }
+    } catch {
+      // fall through to v1
+    }
+  }
+
+  if (v1Set.has(personId)) {
+    try {
+      const res = await fetch(`/deep-bios/${personId}.json`);
+      if (res.ok) {
+        const data: DeepBio = await res.json();
         cache.set(personId, data);
         return data;
       }

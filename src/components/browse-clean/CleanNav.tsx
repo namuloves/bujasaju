@@ -116,12 +116,26 @@ export default function CleanNav({
               <path d="m21 21-4.3-4.3" />
             </svg>
             <input
-              type="search"
+              type="text"
               value={search ?? ''}
               onChange={(e) => onSearchChange?.(e.target.value)}
               placeholder={isKo ? '이름·회사·산업 검색…' : 'Search…'}
-              className="w-full h-9 pl-9 pr-3 text-[13px] bg-gray-50 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-900/10 focus:border-gray-300 placeholder:text-gray-400"
+              className="w-full h-9 pl-9 pr-9 text-[13px] bg-gray-50 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-900/10 focus:border-gray-300 placeholder:text-gray-400"
             />
+            {/* Clear button — visible only when there's a query */}
+            {search && (
+              <button
+                type="button"
+                onClick={() => onSearchChange?.('')}
+                aria-label={isKo ? '검색어 지우기' : 'Clear search'}
+                className="absolute right-2 top-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center rounded-full text-gray-400 hover:text-gray-700 hover:bg-gray-200 transition-colors"
+              >
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+              </button>
+            )}
           </div>
         )}
       </div>
