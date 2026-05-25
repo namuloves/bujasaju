@@ -29,12 +29,13 @@ export default function BrowseCleanPreview() {
       {tab === 'browse' ? (
         // CleanBrowseView renders its own nav so the inline search can live
         // inside the header alongside the tabs.
-        <CleanBrowseView nav={(search, onSearchChange) => (
+        <CleanBrowseView nav={(search, onSearchChange, peopleCount) => (
           <CleanNav
             activeTab={tab}
             onChange={setTab}
             search={search}
             onSearchChange={onSearchChange}
+            peopleCount={peopleCount}
           />
         )} />
       ) : (

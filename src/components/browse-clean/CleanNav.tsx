@@ -12,6 +12,8 @@ interface Props {
   /** When defined, renders a search input in the header. */
   search?: string;
   onSearchChange?: (v: string) => void;
+  /** Total people count shown as the Browse tab sublabel. */
+  peopleCount?: number;
 }
 
 /**
@@ -23,9 +25,19 @@ export default function CleanNav({
   onChange,
   search,
   onSearchChange,
+  peopleCount,
 }: Props) {
   const { lang } = useLanguage();
   const isKo = lang === 'ko';
+
+  // Format the people count as the Browse sublabel. Fall back to a static
+  // approximation if no count was provided.
+  const browseSublabel = (() => {
+    if (peopleCount == null) return isKo ? '3,300명' : '3.3k';
+    if (isKo) return `${peopleCount.toLocaleString('ko-KR')}명`;
+    if (peopleCount >= 1000) return `${(peopleCount / 1000).toFixed(1).replace(/\.0$/, '')}k`;
+    return String(peopleCount);
+  })();
 
   const TabBtn = ({
     value,
@@ -81,7 +93,7 @@ export default function CleanNav({
             <TabBtn
               value="browse"
               label={isKo ? '둘러보기' : 'Browse'}
-              sublabel={isKo ? '3,300명' : '3.3k'}
+              sublabel={browseSublabel}
             />
             <TabBtn
               value="match"

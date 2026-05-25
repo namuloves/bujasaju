@@ -17,7 +17,7 @@ interface Props {
    * and a setter — lets the host page mount a nav that owns the layout
    * (tabs, branding) while this view contributes the search state.
    */
-  nav?: (search: string, onSearchChange: (v: string) => void) => ReactNode;
+  nav?: (search: string, onSearchChange: (v: string) => void, peopleCount: number) => ReactNode;
 }
 
 const CARDS_PER_SECTION = 6;
@@ -179,7 +179,7 @@ export default function CleanBrowseView({ nav }: Props = {}) {
 
   return (
     <div>
-      {nav?.(filters.search, (v) => updateFilters({ ...filters, search: v }))}
+      {nav?.(filters.search, (v) => updateFilters({ ...filters, search: v }), people.length)}
 
       <main className="max-w-6xl mx-auto px-6 pt-6 pb-24">
       <CleanInlineFilters
