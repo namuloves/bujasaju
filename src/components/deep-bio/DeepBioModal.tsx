@@ -467,6 +467,12 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
                           </dd>
                         </div>
                       )}
+                      {person.source && (
+                        <div className="flex gap-3 px-3 py-2.5">
+                          <dt className="text-xs text-gray-500 font-medium w-20 shrink-0 pt-0.5">{lang === 'ko' ? '출처' : 'Provenance'}</dt>
+                          <dd className="text-sm text-gray-800 leading-snug flex-1">{person.source}</dd>
+                        </div>
+                      )}
                     </dl>
                   </div>
                 </section>
