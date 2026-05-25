@@ -189,7 +189,7 @@ function findClashes(saju: Saju): ChungRelation[] {
   return clashes;
 }
 
-function findHarmonies(saju: Saju): HapRelation[] {
+export function findHarmonies(saju: Saju): HapRelation[] {
   const branches = getPillarBranches(saju);
   const stems = getPillarStems(saju);
   const harmonies: HapRelation[] = [];

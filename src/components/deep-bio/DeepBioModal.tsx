@@ -18,6 +18,7 @@ import { industryToKorean } from '../FilterPanel';
 import { JIJANGGAN } from '@/lib/saju/constants';
 import { calculateTwelveStages } from '@/lib/saju/analyzer/twelveStages';
 import { evaluateHyungChungPaHae } from '@/lib/saju/analyzer/hyungChungPaHae';
+import { findHarmonies } from '@/lib/saju/relationships';
 
 const USD_TO_KRW = 1480.71;
 const USD_TO_KRW_DATE = '2026.04.09';
@@ -428,6 +429,25 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
                           {matches.map((m, i) => (
                             <span key={i} className="inline-block mr-1.5">
                               <span className="font-semibold text-rose-600">{m.kind}</span> {m.a === m.b ? `${m.a}${m.b}` : `${m.a}${m.b}`}
+                            </span>
+                          ))}
+                        </div>
+                      );
+                    })()}
+                    {/* 합 (천간합·육합·삼합·방합) */}
+                    {(() => {
+                      const haps = findHarmonies(saju.saju);
+                      if (haps.length === 0) return null;
+                      // Short type label: 천간합 → 천간, 육합/삼합/방합 그대로
+                      const short = (t: string) => t.replace('합', '');
+                      return (
+                        <div className="mt-2 text-[11px] text-gray-600 text-center">
+                          <span className="text-[9px] text-gray-400 tracking-wide mr-1.5">{lang === 'ko' ? '합' : 'Harmonies'}</span>
+                          {haps.map((h, i) => (
+                            <span key={i} className="inline-block mr-1.5">
+                              <span className="font-semibold text-emerald-600">{short(h.type)}</span>{' '}
+                              {h.elements.join('')}
+                              {h.resultElement ? `→${h.resultElement}` : ''}
                             </span>
                           ))}
                         </div>
