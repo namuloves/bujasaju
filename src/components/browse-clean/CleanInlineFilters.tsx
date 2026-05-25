@@ -187,8 +187,10 @@ export default function CleanInlineFilters({
         </button>
       )}
 
-      {/* Row 1: 국적 · 산업 · 특징 · 성별 (4 columns) */}
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-4 gap-y-2 mb-4">
+      {/* Row 1: 국적 · 산업 · 특징 · 성별
+          Mobile: 2 cols × 2 rows ([국적 산업] / [특징 성별])
+          Desktop (lg+): 4 cols in a single row. */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-2 mb-4">
         <div className="flex items-center gap-2 min-w-0">
           <span className="text-[11px] font-semibold text-gray-500 whitespace-nowrap shrink-0">
             {isKo ? '국적' : 'Country'}
