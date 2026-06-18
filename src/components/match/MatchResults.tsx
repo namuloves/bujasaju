@@ -338,6 +338,9 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
             </div>
             <p className="text-[12px] text-gray-400 text-center mt-3">
               {me.ilju}일주 {me.wolji}월지
+              {iljuRank && iljuRank.myCount > 0 && (
+                <span className="text-gray-300"> · 60갑자 중 {iljuRank.rank}위</span>
+              )}
             </p>
           </div>
         </div>
@@ -391,14 +394,9 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
               </div>
             )}
 
-            {/* Day-pillar rank — simpler than the old combo line. Reads
-                "병인 일주는 60갑자 중 N위" so the user gets one clean
-                number instead of two layered stats. */}
-            {iljuRank && iljuRank.myCount > 0 && (
-              <p className="text-xs text-gray-400 text-center">
-                {me.ilju} 일주는 60갑자 중 {iljuRank.rank}위
-              </p>
-            )}
+            {/* 60갑자 rank moved up next to the chart meta line — keeps a
+                single rank surface instead of repeating it under the
+                풀이. */}
           </div>
         </div>
 

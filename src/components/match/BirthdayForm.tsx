@@ -138,9 +138,9 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
         <p className="text-sm text-gray-500 mt-3 leading-relaxed">
           {lang === 'ko' ? (
             <>
-              생년월일만 알려주시면{' '}
+              생년월일을 알려주시면{' '}
               <br className="sm:hidden" />
-              같은 일주의 부자를 찾아드릴게요
+              같은 일주의 부자를 찾아드려요
             </>
           ) : t.matchSubhead}
         </p>

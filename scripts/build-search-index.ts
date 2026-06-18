@@ -3,7 +3,8 @@
  *
  * Run: npx tsx scripts/build-search-index.ts
  *
- * Reads all public/deep-bios/*.json files and extracts searchable text
+ * Reads public/deep-bios/*.json and public/deep-bios-v2/*.json files.
+ * When both versions exist, v2 wins.
  * into a lightweight map: { [personId]: "concatenated searchable text" }.
  * The output is written to public/deep-bio-search.json for client-side use.
  */
@@ -12,6 +13,7 @@ import fs from 'fs';
 import path from 'path';
 
 const BIOS_DIR = path.join(process.cwd(), 'public', 'deep-bios');
+const BIOS_V2_DIR = path.join(process.cwd(), 'public', 'deep-bios-v2');
 const OUTPUT = path.join(process.cwd(), 'public', 'deep-bio-search.json');
 
 function extractText(bio: Record<string, unknown>): string {
@@ -79,26 +81,57 @@ function extractText(bio: Record<string, unknown>): string {
     }
   }
 
+  // V2-only analysis fields
+  const capital = bio.capitalOrigin as Record<string, string> | undefined;
+  if (capital?.explanationKo) parts.push(capital.explanationKo);
+
+  const turningPoints = bio.turningPoints as Record<string, string>[] | undefined;
+  if (turningPoints) {
+    for (const point of turningPoints) {
+      for (const key of ['decisionKo', 'alternativeKo', 'outcomeKo']) {
+        if (point[key]) parts.push(point[key]);
+      }
+    }
+  }
+
+  const mechanics = bio.moneyMechanics as Record<string, string> | undefined;
+  if (mechanics) {
+    for (const key of ['coreBusinessKo', 'moatKo', 'luckVsSkillKo', 'politicalCapitalKo', 'capitalHistoryKo']) {
+      if (mechanics[key]) parts.push(mechanics[key]);
+    }
+  }
+
+  const character = bio.characterKo as Record<string, string> | undefined;
+  if (character) {
+    for (const key of ['observedTraitsKo', 'leadershipStyleKo', 'conflictBehaviorKo', 'knownQuirksKo']) {
+      if (character[key]) parts.push(character[key]);
+    }
+  }
+
   // Name
   if (bio.name) parts.push(bio.name as string);
+  if (bio.nameKo) parts.push(bio.nameKo as string);
 
   return parts.join(' ').toLowerCase();
 }
 
 function main() {
-  const files = fs.readdirSync(BIOS_DIR).filter(f => f.endsWith('.json') && !f.startsWith('._'));
   const index: Record<string, string> = {};
 
-  for (const file of files) {
-    const id = file.replace('.json', '');
-    const data = JSON.parse(fs.readFileSync(path.join(BIOS_DIR, file), 'utf-8'));
-    index[id] = extractText(data);
+  for (const directory of [BIOS_DIR, BIOS_V2_DIR]) {
+    if (!fs.existsSync(directory)) continue;
+    const files = fs.readdirSync(directory).filter(f => /^\d+\.json$/.test(f));
+    for (const file of files) {
+      const id = file.replace('.json', '');
+      const data = JSON.parse(fs.readFileSync(path.join(directory, file), 'utf-8'));
+      index[id] = extractText(data);
+    }
   }
 
   fs.writeFileSync(OUTPUT, JSON.stringify(index));
 
   const sizeMB = (Buffer.byteLength(JSON.stringify(index)) / 1024 / 1024).toFixed(2);
-  console.log(`✓ Search index built: ${files.length} bios, ${sizeMB} MB → ${OUTPUT}`);
+  console.log(`✓ Search index built: ${Object.keys(index).length} bios, ${sizeMB} MB → ${OUTPUT}`);
 }
 
 main();

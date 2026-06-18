@@ -63,3 +63,13 @@ public/photos-review.html
 .lazyweb/
 .gstack/
 __pycache__/
+
+# cowork/scratch session notes and temp working files
+.cowork/
+.scratch/
+data/
+saju-r*.ts
+calc-*.ts
+*.zip
+public/email-preview.html
+public/saju-data/
