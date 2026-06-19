@@ -172,13 +172,14 @@ export default function ProfilePage() {
 
           {/* Bio info */}
           <div className="flex-1 min-w-0 pt-0.5">
-            <h1 className="text-xl sm:text-3xl font-bold text-gray-900 leading-tight">{displayName}</h1>
-            {person.nameKo && lang === 'ko' && (
-              <p className="text-xs sm:text-sm text-gray-400 mt-0.5 sm:mt-1">{person.name}</p>
-            )}
-            {person.nameKo && lang !== 'ko' && (
-              <p className="text-xs sm:text-sm text-gray-400 mt-0.5 sm:mt-1">{person.nameKo}</p>
-            )}
+            <h1 className="text-xl sm:text-3xl font-bold text-gray-900 leading-tight flex items-baseline gap-2 flex-wrap">
+              {displayName}
+              {person.nameKo && (
+                <span className="text-sm sm:text-base font-normal text-gray-400">
+                  {lang === 'ko' ? person.name : person.nameKo}
+                </span>
+              )}
+            </h1>
 
             {/* Net worth — big number, USD subscript */}
             <div className="flex items-baseline gap-2 mt-2 sm:mt-3">
