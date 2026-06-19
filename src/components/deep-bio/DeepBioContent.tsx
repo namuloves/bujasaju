@@ -241,9 +241,14 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
             <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
               {lang === 'ko' ? '사주와 부의 연결' : 'Saju and Wealth'}
             </h3>
-            <p className="text-sm text-gray-800 leading-relaxed">
-              {ko(lang, sc.summary ?? '', sc.summaryKo)}
-            </p>
+            <div className="text-sm text-gray-800 leading-relaxed space-y-3">
+              {ko(lang, sc.summary ?? '', sc.summaryKo)
+                .split('\n\n')
+                .filter(Boolean)
+                .map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+            </div>
           </section>
         );
       })()}
@@ -387,16 +392,17 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
         type V2Failure = (typeof bio.failures[number]) & {
           failure?: string;
           failureKo?: string;
+          eventKo?: string;
+          howTheyOvercameKo?: string;
         };
         const items = (bio.failures as V2Failure[]).map((f) => {
-          const body = ko(
-            lang,
-            f.description ?? f.failure ?? '',
-            f.descriptionKo ?? f.failureKo,
-          );
+          // v1: description/descriptionKo, v2: eventKo (what happened)
+          const event = ko(lang, f.description ?? f.failure ?? '', f.descriptionKo ?? f.failureKo ?? f.eventKo);
+          // v2: howTheyOvercameKo (how they got through it)
+          const overcome = (f as V2Failure).howTheyOvercameKo && lang === 'ko' ? (f as V2Failure).howTheyOvercameKo! : '';
           const lesson = ko(lang, f.lesson ?? '', f.lessonKo);
-          return { year: f.year, body, lesson };
-        }).filter(x => x.body || x.lesson);
+          return { year: f.year, event, overcome, lesson };
+        }).filter(x => x.event || x.lesson);
         if (items.length === 0) return null;
         return (
           <section id="failures" className="scroll-mt-20">
@@ -409,15 +415,18 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
                   key={i}
                   className={`flex gap-4 py-3.5 ${i > 0 ? 'border-t border-gray-100' : ''}`}
                 >
-                  <div className="shrink-0 w-12 text-[13px] font-bold text-gray-900 tabular-nums leading-snug">
+                  <div className="shrink-0 w-12 text-[13px] font-bold text-gray-900 tabular-nums leading-snug pt-0.5">
                     {f.year}
                   </div>
-                  <div className="flex-1 min-w-0">
-                    {f.body && (
-                      <p className="text-sm text-gray-900 leading-relaxed">{f.body}</p>
+                  <div className="flex-1 min-w-0 space-y-1.5">
+                    {f.event && (
+                      <p className="text-sm text-gray-900 leading-relaxed">{f.event}</p>
+                    )}
+                    {f.overcome && (
+                      <p className="text-[13px] text-gray-600 leading-relaxed">{f.overcome}</p>
                     )}
                     {f.lesson && (
-                      <p className="mt-1.5 text-[13px] text-gray-500 leading-relaxed">{f.lesson}</p>
+                      <p className="text-[13px] text-gray-400 leading-relaxed">{f.lesson}</p>
                     )}
                   </div>
                 </div>

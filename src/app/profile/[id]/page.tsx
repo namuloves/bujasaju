@@ -220,7 +220,7 @@ export default function ProfilePage() {
                 show `company` instead. The dataset's company field is short
                 and stable (e.g. "신세계그룹", "Tesla, SpaceX"). */}
             {person.company && person.company !== person.industry && (
-              <p className="mt-3 sm:mt-4 pl-3 border-l-2 border-gray-200 text-xs sm:text-sm text-gray-600 leading-relaxed break-words">
+              <p className="mt-2 text-xs sm:text-sm text-gray-500">
                 {person.company}
               </p>
             )}

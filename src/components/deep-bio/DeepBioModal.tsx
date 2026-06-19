@@ -193,6 +193,38 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
           <HeroPillar label="月" ju={saju.saju.month} ilgan={saju.saju.day.stem as CheonGan} />
           <HeroPillar label="年" ju={saju.saju.year} ilgan={saju.saju.day.stem as CheonGan} />
         </div>
+        {/* 형충파해 */}
+        {(() => {
+          const matches = evaluateHyungChungPaHae(saju.saju);
+          if (matches.length === 0) return null;
+          return (
+            <div className="mt-3 text-[11px] text-gray-600 text-center">
+              <span className="text-[9px] text-gray-400 tracking-wide mr-1.5">{lang === 'ko' ? '형충파해' : 'Clashes'}</span>
+              {matches.map((m, i) => (
+                <span key={i} className="inline-block mr-1.5">
+                  <span className="font-semibold text-rose-600">{m.kind}</span> {m.a}{m.b}
+                </span>
+              ))}
+            </div>
+          );
+        })()}
+        {/* 합 */}
+        {(() => {
+          const haps = findHarmonies(saju.saju);
+          if (haps.length === 0) return null;
+          const short = (t: string) => t.replace('합', '');
+          return (
+            <div className="mt-2 text-[11px] text-gray-600 text-center">
+              <span className="text-[9px] text-gray-400 tracking-wide mr-1.5">{lang === 'ko' ? '합' : 'Harmonies'}</span>
+              {haps.map((h, i) => (
+                <span key={i} className="inline-block mr-1.5">
+                  <span className="font-semibold text-emerald-600">{short(h.type)}</span>{' '}
+                  {h.elements.join('')}{h.resultElement ? `→${h.resultElement}` : ''}
+                </span>
+              ))}
+            </div>
+          );
+        })()}
       </section>
 
       {/* 일주 */}
@@ -260,24 +292,23 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
           </div>
         </div>
         <div className="flex-1 min-w-0 pt-0.5">
-          <h2 className="text-lg font-bold text-gray-900 leading-tight">{displayName}</h2>
-          {(() => {
-            const age = computeAge(person.birthday, person.deathDate);
-            const ageLabel = age == null
-              ? null
-              : person.deathDate
-                ? (lang === 'ko' ? `향년 ${age}세` : `aged ${age}`)
-                : (lang === 'ko' ? `${age}세` : `age ${age}`);
-            const altName = person.nameKo
-              ? (lang === 'ko' ? person.name : person.nameKo)
-              : null;
-            if (!altName && !ageLabel) return null;
-            return (
-              <p className="text-xs text-gray-400 mt-0.5">
-                {[altName, ageLabel].filter(Boolean).join(' · ')}
-              </p>
-            );
-          })()}
+          <h2 className="text-lg font-bold text-gray-900 leading-tight flex items-baseline gap-2 flex-wrap">
+            {displayName}
+            {(() => {
+              const age = computeAge(person.birthday, person.deathDate);
+              const ageLabel = age == null
+                ? null
+                : person.deathDate
+                  ? (lang === 'ko' ? `향년 ${age}세` : `aged ${age}`)
+                  : (lang === 'ko' ? `${age}세` : `age ${age}`);
+              const altName = person.nameKo
+                ? (lang === 'ko' ? person.name : person.nameKo)
+                : null;
+              const parts = [altName, ageLabel].filter(Boolean).join(' · ');
+              if (!parts) return null;
+              return <span className="text-xs font-normal text-gray-400">{parts}</span>;
+            })()}
+          </h2>
           <div className="flex items-baseline gap-2 mt-1.5">
             <span className="font-bold text-gray-900 text-base">
               {lang === 'ko' ? formatNetWorth(person.netWorth, 'ko') : `$${person.netWorth}B`}
@@ -307,7 +338,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             )}
           </div>
           {person.company && person.company !== person.industry && (
-            <p className="mt-2 pl-2 border-l-2 border-gray-200 text-[11px] text-gray-600 leading-relaxed break-words">
+            <p className="mt-2 text-[11px] text-gray-500">
               {person.company}
             </p>
           )}
