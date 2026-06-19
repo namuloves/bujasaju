@@ -1,0 +1,225 @@
+{
+  "id": "14",
+  "name": "Amancio Ortega",
+  "nameKo": "아만시오 오르테가 가오나",
+  "netWorth": "$131.9B",
+  "nationality": "ES",
+  "industry": "Fashion & Retail",
+  "childhood": {
+    "birthPlace": "Busdongo de Arbas, León, Spain",
+    "birthPlaceKo": "스페인 레온주 부스동고 데 아르바스",
+    "familyBackground": "Youngest of four children of a railway worker and a housemaid; the family moved for work and lived with limited means.",
+    "familyBackgroundKo": "철도 노동자 아버지와 가사노동자 어머니의 네 자녀 중 막내로 태어나 경제적으로 넉넉하지 않은 환경에서 성장했다.",
+    "education": "Left formal schooling at about age fourteen and learned garment work on the job.",
+    "educationKo": "약 14세에 학교를 그만두고 의류점에서 일하며 재단·생산·판매를 현장에서 배웠다.",
+    "earlyLife": "Worked as a shop assistant and garment maker in A Coruña, observing how markups and slow supply chains made clothing expensive.",
+    "earlyLifeKo": "아코루냐의 의류점에서 점원과 제작자로 일하며 높은 유통마진과 느린 공급망이 옷값을 올리는 구조를 관찰했다.",
+    "capitalTypeKo": "가난한 노동자 가정에서 기술과 현금흐름을 직접 축적한 자수성가형",
+    "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "정규 교육과 가문 자본 없이 봉제 경험과 소규모 생산사업에서 시작해 Zara와 Inditex의 통합 공급망으로 재산을 만들었다.",
+    "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+  },
+  "careerTimeline": [
+    {
+      "year": 1963,
+      "age": 27,
+      "event": "Established Confecciones GOA to manufacture garments.",
+      "eventKo": "의류 제조업체 Confecciones GOA를 설립했다.",
+      "whyItMatteredKo": "점포 노동자에서 생산설비와 납기 전체를 통제하는 사업주로 전환했다.",
+      "whatTheyRiskedKo": "축적한 자금과 가족 노동을 주문형 의류 생산에 투입했다.",
+      "whoHelpedKo": "첫 부인 로살리아 메라와 형제자매",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 1970,
+      "age": 34,
+      "event": "Expanded GOA’s garment production with family partners.",
+      "eventKo": "가족 파트너들과 GOA의 의류 생산을 확대했다.",
+      "whyItMatteredKo": "첫 Zara 매장을 열기 전에 생산·원가·납기 통제능력과 초기 자본을 축적했다.",
+      "whatTheyRiskedKo": "주문생산 설비와 인력에 이익을 재투자했다.",
+      "whoHelpedKo": "Rosalía Mera와 가족 구성원",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 1991,
+      "age": 55,
+      "event": "Created Pull&Bear and began acquiring Massimo Dutti.",
+      "eventKo": "Pull&Bear를 만들고 Massimo Dutti 지분 인수를 시작했다.",
+      "whyItMatteredKo": "Zara 단일 브랜드 의존에서 고객층과 가격대를 나눈 다브랜드 전략으로 전환했다.",
+      "whatTheyRiskedKo": "브랜드 수 증가에 따른 조직복잡성과 재고분산 위험을 부담했다.",
+      "whoHelpedKo": "Inditex 브랜드·물류 경영진",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 1975,
+      "age": 39,
+      "event": "Opened the first Zara store in A Coruña.",
+      "eventKo": "아코루냐에 첫 Zara 매장을 열었다.",
+      "whyItMatteredKo": "생산과 소매를 연결해 유행 상품을 빠르고 저렴하게 공급하는 모델을 시험했다.",
+      "whatTheyRiskedKo": "도매 납품보다 재고와 매장 운영 위험을 직접 부담했다.",
+      "whoHelpedKo": "로살리아 메라와 초기 직원들",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 1985,
+      "age": 49,
+      "event": "Created Inditex as the group holding company.",
+      "eventKo": "사업 확장을 위해 지주회사 Inditex를 설립했다.",
+      "whyItMatteredKo": "브랜드·공장·물류를 하나의 운영 시스템으로 묶어 국제 확장이 가능한 구조를 만들었다.",
+      "whatTheyRiskedKo": "지역 사업을 대규모 조직으로 바꾸며 고정비와 복잡성을 늘렸다.",
+      "whoHelpedKo": "호세 마리아 카스테야노 등 전문경영진",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 1988,
+      "age": 52,
+      "event": "Opened Zara’s first international store in Porto, Portugal.",
+      "eventKo": "포르투갈 포르투에 Zara의 첫 해외 매장을 열었다.",
+      "whyItMatteredKo": "스페인에서 검증한 빠른 공급망이 다른 국가에서도 통한다는 것을 확인했다.",
+      "whatTheyRiskedKo": "환율·취향·해외 임대료가 다른 시장에 진입했다.",
+      "whoHelpedKo": "Inditex 물류·매장 운영팀",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 2001,
+      "age": 65,
+      "event": "Listed Inditex on the stock market and developed Pontegadea as the family investment vehicle.",
+      "eventKo": "Inditex를 상장하고 가족 투자회사 Pontegadea를 중심으로 배당 재투자 구조를 만들었다.",
+      "whyItMatteredKo": "의류기업 지분을 유동화하면서도 지배력을 유지하고 배당을 글로벌 부동산으로 분산했다.",
+      "whatTheyRiskedKo": "공개시장 감시와 실적 압력을 받아들였다.",
+      "whoHelpedKo": "Inditex 경영진과 Pontegadea 투자팀",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 2011,
+      "age": 75,
+      "event": "Stepped down as Inditex chairman, succeeded by Pablo Isla.",
+      "eventKo": "Inditex 회장에서 물러나고 파블로 이슬라에게 경영을 넘겼다.",
+      "whyItMatteredKo": "창업자의 상품 감각을 전문경영 시스템과 이사회 구조로 이전했다.",
+      "whatTheyRiskedKo": "창업자 의존도가 높은 조직이 성장 동력을 잃을 가능성이 있었다.",
+      "whoHelpedKo": "파블로 이슬라와 Inditex 이사회",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 2018,
+      "age": 82,
+      "event": "Pontegadea continued large global property and infrastructure investments using Inditex dividends.",
+      "eventKo": "Pontegadea가 Inditex 배당을 활용해 글로벌 부동산·인프라 투자를 확대했다.",
+      "whyItMatteredKo": "창업자의 재산이 패션주식 한 종목에서 장기 임대자산으로 계속 분산됐다.",
+      "whatTheyRiskedKo": "핵심 상업용 부동산 가격과 임차수요 변화에 노출됐다.",
+      "whoHelpedKo": "Pontegadea 투자팀",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 2022,
+      "age": 86,
+      "event": "Marta Ortega became chair of Inditex.",
+      "eventKo": "딸 마르타 오르테가가 Inditex 회장에 취임했다.",
+      "whyItMatteredKo": "전문경영과 가족 지배를 결합한 2세 승계 체제가 공식화됐다.",
+      "whatTheyRiskedKo": "가족 승계가 능력보다 혈연을 우선한다는 시장의 의심을 감수했다.",
+      "whoHelpedKo": "마르타 오르테가와 CEO 오스카르 가르시아 마세이라스",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1975,
+      "age": 39,
+      "decisionKo": "생산업체에 머물지 않고 Zara 소매점을 직접 열었다.",
+      "alternativeKo": "다른 브랜드에 의류를 납품하는 안정적 제조업을 계속할 수 있었다.",
+      "outcomeKo": "고객 반응을 생산계획에 즉시 반영하는 수직통합 모델이 탄생했다.",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 2001,
+      "age": 65,
+      "decisionKo": "Inditex를 상장하고 배당을 Pontegadea의 부동산 자산으로 재투자했다.",
+      "alternativeKo": "의류사업에만 재투자하거나 지분을 매각해 현금화할 수 있었다.",
+      "outcomeKo": "패션 경기 위험을 글로벌 핵심 부동산과 인프라 지분으로 분산했다.",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "매장 판매정보를 디자인·소량생산·물류에 빠르게 반영해 재고 할인율을 낮추는 수직통합 패션 소매업",
+    "moatKo": "스페인 중심의 민첩한 공급망, 주 2회 수준의 상품 교체, 핵심 상권 매장, 고객 데이터 피드백",
+    "luckVsSkillKo": "스페인의 소비 성장과 세계화는 운이었고, 짧은 리드타임과 재고 규율을 조직화한 것은 실력이다.",
+    "politicalCapitalKo": "정부 인맥보다 지역 제조 생태계와 장기 상업용 부동산 관계가 중요했으며 직접적 정치자본 의존은 낮다.",
+    "capitalHistoryKo": "봉제 노동 수입 → GOA 제조이익 → Zara 매장 현금흐름 → Inditex 글로벌 확장·상장 → 배당을 Pontegadea 부동산·인프라에 재투자",
+    "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+  },
+  "failures": [
+    {
+      "year": 2013,
+      "age": 77,
+      "description": "Inditex faced scrutiny after garment workers were found in poor conditions in supplier factories.",
+      "descriptionKo": "일부 공급공장에서 열악한 노동환경이 드러나 Inditex의 공급망 관리가 비판받았다.",
+      "howTheyOvercameKo": "공급업체 감사와 추적, 노동기준 프로그램을 강화하고 관련 내용을 지속가능성 보고서에 공개했다.",
+      "lessonKo": "빠른 납기와 낮은 가격의 비용이 하청 노동자에게 전가되지 않도록 전 공급망을 관리해야 한다.",
+      "source": "https://www.inditex.com/itxcomweb/en/sustainability; https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 2020,
+      "age": 84,
+      "description": "Pandemic lockdowns closed stores and caused Inditex’s first annual loss.",
+      "descriptionKo": "코로나19 봉쇄로 매장이 닫히며 Inditex가 사상 첫 연간 손실을 기록했다.",
+      "howTheyOvercameKo": "온라인 판매와 매장 재고 통합을 가속하고 비효율 점포를 정리해 이후 수익성을 회복했다.",
+      "lessonKo": "오프라인 속도 경쟁력도 디지털 재고·배송망과 결합되지 않으면 충격에 취약하다.",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    },
+    {
+      "year": 2022,
+      "age": 86,
+      "description": "Inditex exited Russia, then one of its largest markets, after the invasion of Ukraine.",
+      "descriptionKo": "우크라이나 침공 뒤 당시 주요 시장이던 러시아에서 철수하며 매장과 매출 기반을 잃었다.",
+      "howTheyOvercameKo": "자산을 정리하고 다른 지역 및 온라인 성장에 자본을 재배치했다.",
+      "lessonKo": "세계화된 소매망은 지정학적 위험으로 한 국가의 사업 전체가 중단될 수 있다.",
+      "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2001,
+      "netWorth": 6.6
+    },
+    {
+      "year": 2010,
+      "netWorth": 25
+    },
+    {
+      "year": 2015,
+      "netWorth": 64.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 55.1
+    },
+    {
+      "year": 2026,
+      "netWorth": 131.9
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Creating Zara’s fast-response supply chain and maintaining an unusually private public profile.",
+    "knownForKo": "Zara의 빠른 반응형 공급망을 만들고 극도로 낮은 대외 노출을 유지한 것으로 유명하다.",
+    "philanthropy": "The Amancio Ortega Foundation supports health, education, and social infrastructure in Spain.",
+    "philanthropyKo": "아만시오 오르테가 재단을 통해 스페인의 의료·교육·복지 인프라를 지원한다.",
+    "controversies": "Fast-fashion labor conditions, environmental impact, and tax-structure criticism.",
+    "controversiesKo": "패스트패션의 노동환경·환경부담·세금구조를 둘러싼 비판이 있다."
+  },
+  "characterKo": {
+    "observedTraitsKo": "현장 관찰과 반복 개선을 중시하고 개인 홍보보다 운영 속도에 집착하는 성향으로 알려졌다.",
+    "leadershipStyleKo": "매장·디자인·물류의 짧은 피드백을 강조하면서 전문경영진에게 규모 확대를 맡기는 방식이다.",
+    "conflictBehaviorKo": "공개 논쟁을 피하고 조직 프로세스와 장기 실적으로 대응한다.",
+    "knownQuirksKo": "정장을 거의 입지 않고 직원 식당을 이용하는 등 평범한 일상과 낮은 공개성을 유지한다.",
+    "source": "https://www.inditex.com/itxcomweb/en/about-us/our-story; https://static.inditex.com/annual_report_2023/en/; https://www.pontegadea.com/"
+  },
+  "sajuConnection": null
+}

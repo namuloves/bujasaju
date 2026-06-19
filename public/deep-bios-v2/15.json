@@ -1,0 +1,215 @@
+{
+  "id": "15",
+  "name": "Carlos Slim Helu",
+  "nameKo": "카를로스 슬림 엘루",
+  "netWorth": "$121.7B",
+  "nationality": "MX",
+  "industry": "Telecom",
+  "childhood": {
+    "birthPlace": "Mexico City, Mexico",
+    "birthPlaceKo": "멕시코 멕시코시티",
+    "familyBackground": "Born to Lebanese-Mexican parents. His father Julián built a successful retail and real-estate business and taught all children bookkeeping and investing.",
+    "familyBackgroundKo": "레바논계 멕시코인 부모 사이에서 태어났다. 아버지 훌리안은 소매·부동산 사업으로 기반을 만들고 자녀들에게 회계와 투자를 가르쳤다.",
+    "education": "Civil engineering degree from the National Autonomous University of Mexico.",
+    "educationKo": "멕시코국립자치대학교에서 토목공학을 전공했다.",
+    "earlyLife": "Kept personal ledgers, bought a government bond at eleven and bank shares at twelve. His father died when he was thirteen.",
+    "earlyLifeKo": "개인 장부를 작성했고 11세에 국채, 12세에 은행주를 샀다. 13세 때 아버지가 사망했다.",
+    "capitalTypeKo": "가족의 사업교육과 초기 자산을 기반으로 했으나 위기기업 인수와 통신 지배력으로 규모를 키운 혼합형",
+    "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+  },
+  "capitalOrigin": {
+    "typeKo": "mixed",
+    "explanationKo": "부유한 사업가 아버지에게 금융교육과 초기 자산을 받았으므로 순수 자수성가는 아니다. 이후 멕시코 위기 때 저평가 기업과 Telmex를 인수해 재산 규모를 크게 확대했다.",
+    "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+  },
+  "careerTimeline": [
+    {
+      "year": 1965,
+      "age": 25,
+      "event": "Established brokerage Inversora Bursátil and acquired early industrial assets.",
+      "eventKo": "증권사 Inversora Bursátil을 세우고 초기 산업자산을 인수했다.",
+      "whyItMatteredKo": "엔지니어에서 자본배분자로 전환해 기업을 사고 재편하는 기반을 만들었다.",
+      "whatTheyRiskedKo": "가족자산과 자신의 투자수익을 변동성 높은 기업 인수에 투입했다.",
+      "whoHelpedKo": "가족의 사업 네트워크와 금융시장 인맥",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    },
+    {
+      "year": 1970,
+      "age": 30,
+      "event": "Built a growing portfolio of real-estate and industrial holdings.",
+      "eventKo": "부동산과 산업기업 보유자산을 꾸준히 확대했다.",
+      "whyItMatteredKo": "단일 증권업 수입을 다양한 실물자산 현금흐름으로 전환했다.",
+      "whatTheyRiskedKo": "멕시코 경기와 인플레이션에 노출된 장기자산을 보유했다.",
+      "whoHelpedKo": "가족 투자회사와 초기 경영진",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    },
+    {
+      "year": 1976,
+      "age": 36,
+      "event": "Expanded acquisitions in construction materials, real estate, and industrial companies.",
+      "eventKo": "건축자재·부동산·산업기업 인수를 확대했다.",
+      "whyItMatteredKo": "1982년 위기 때 더 큰 인수를 실행할 수 있는 다각화 현금흐름과 거래경험을 만들었다.",
+      "whatTheyRiskedKo": "서로 다른 산업의 운영과 경기변동 위험을 동시에 떠안았다.",
+      "whoHelpedKo": "Grupo Carso 전신 기업들의 경영진",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    },
+    {
+      "year": 1982,
+      "age": 42,
+      "event": "Bought distressed Mexican companies during the debt crisis.",
+      "eventKo": "멕시코 외채위기 때 헐값이 된 기업들을 대거 인수했다.",
+      "whyItMatteredKo": "경기 공포기에 현금을 투입하는 역발상 인수전략으로 Grupo Carso의 산업 기반을 넓혔다.",
+      "whatTheyRiskedKo": "통화가치 하락과 국가 채무위기가 계속될 가능성 속에서 자본을 투입했다.",
+      "whoHelpedKo": "Grupo Carso 경영진과 가족 투자회사",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    },
+    {
+      "year": 1990,
+      "age": 50,
+      "event": "Led a consortium that acquired control of privatized Telmex.",
+      "eventKo": "민영화된 Telmex 지배권을 인수하는 컨소시엄을 주도했다.",
+      "whyItMatteredKo": "전국 통신망의 현금흐름과 진입장벽을 확보해 현재 재산의 핵심을 만들었다.",
+      "whatTheyRiskedKo": "대규모 인수자금과 민영화 이후 서비스 개선 의무를 부담했다.",
+      "whoHelpedKo": "Southwestern Bell과 France Télécom",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    },
+    {
+      "year": 2000,
+      "age": 60,
+      "event": "Separated América Móvil to pursue mobile expansion across Latin America.",
+      "eventKo": "América Móvil을 분리해 중남미 이동통신 확장에 나섰다.",
+      "whyItMatteredKo": "유선전화 독점에서 성장성이 높은 이동통신과 다국가 사업으로 중심을 옮겼다.",
+      "whatTheyRiskedKo": "각국 규제·환율·주파수 비용에 노출됐다.",
+      "whoHelpedKo": "가족 경영진과 América Móvil 인수팀",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    },
+    {
+      "year": 2008,
+      "age": 68,
+      "event": "Provided financing to The New York Times Company during the financial crisis.",
+      "eventKo": "금융위기 중 뉴욕타임스컴퍼니에 자금을 제공했다.",
+      "whyItMatteredKo": "위기기업에 유리한 조건으로 장기 자본을 투입하는 전통적 전략을 미국 미디어에 적용했다.",
+      "whatTheyRiskedKo": "신문 광고산업의 구조적 쇠퇴 속에서 자본을 투입했다.",
+      "whoHelpedKo": "가족 투자회사와 금융 자문진",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    },
+    {
+      "year": 2014,
+      "age": 74,
+      "event": "Mexican telecom reform imposed asymmetric regulation on América Móvil.",
+      "eventKo": "멕시코 통신개혁으로 América Móvil에 비대칭 규제가 적용됐다.",
+      "whyItMatteredKo": "장기간의 시장지배력이 규제 비용으로 전환되며 사업모델의 약점이 드러났다.",
+      "whatTheyRiskedKo": "자산 매각과 요금·망 개방 의무로 핵심 수익성이 낮아질 위험이 있었다.",
+      "whoHelpedKo": "América Móvil 법무·규제 대응팀",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    },
+    {
+      "year": 2024,
+      "age": 84,
+      "event": "His family investment vehicle acquired and increased a stake in BT Group.",
+      "eventKo": "가족 투자회사가 영국 BT Group 지분을 취득하고 확대했다.",
+      "whyItMatteredKo": "중남미 중심 통신자산을 유럽의 저평가 통신 인프라로 다각화했다.",
+      "whatTheyRiskedKo": "성장 정체와 대규모 망투자가 필요한 유럽 통신사에 자본을 투입했다.",
+      "whoHelpedKo": "Control Empresarial과 가족 투자팀",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1982,
+      "age": 42,
+      "decisionKo": "멕시코 경제위기 때 자산을 방어하기보다 현금으로 부실기업을 매수했다.",
+      "alternativeKo": "달러나 해외자산으로 도피해 국가위험을 줄일 수 있었다.",
+      "outcomeKo": "경기 회복 뒤 Grupo Carso의 산업·소매 자산가치가 크게 상승했다.",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    },
+    {
+      "year": 1990,
+      "age": 50,
+      "decisionKo": "국영 통신사 Telmex 민영화 입찰에 대규모로 참여했다.",
+      "alternativeKo": "기존 산업·소매 포트폴리오만 운영할 수 있었다.",
+      "outcomeKo": "통신 현금흐름과 América Móvil 확장을 통해 중남미 최대 규모 재산을 형성했다.",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "경제위기 때 저평가 기업을 인수해 현금흐름을 개선하고, 통신망처럼 진입장벽이 높은 자산을 장기간 지배하는 방식",
+    "moatKo": "전국 통신망, 주파수, 방대한 가입자, 규모의 경제, Grupo Carso 계열사 간 자본과 운영의 결합",
+    "luckVsSkillKo": "민영화 시기와 시장 구조는 큰 운이었고, 위기 때 매수할 유동성·원가통제·장기보유는 실력이었다.",
+    "politicalCapitalKo": "Telmex 민영화와 이후 규제환경은 정치와 분리해 설명하기 어렵다. 정부와의 관계 및 제도 변화가 핵심 사업가치에 직접 영향을 줬다.",
+    "capitalHistoryKo": "가족 소매·부동산 자산 → 증권투자와 1960년대 인수 → 1980년대 위기기업 매입 → Telmex 민영화 → América Móvil 현금흐름 → 글로벌 통신·인프라 투자",
+    "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+  },
+  "failures": [
+    {
+      "year": 2007,
+      "age": 67,
+      "description": "CompUSA was liquidated after failing to compete with changing electronics retail models.",
+      "descriptionKo": "CompUSA가 온라인·대형 전자유통 경쟁에 적응하지 못해 대부분의 매장을 청산했다.",
+      "howTheyOvercameKo": "손실 사업을 정리하고 통신·인프라와 다른 장기자산에 자본을 재배치했다.",
+      "lessonKo": "위기기업을 싸게 사더라도 산업 자체가 붕괴하면 운영 개선만으로 회복하기 어렵다.",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    },
+    {
+      "year": 2014,
+      "age": 74,
+      "description": "Telecom reform targeted América Móvil’s dominant market position.",
+      "descriptionKo": "통신개혁이 América Móvil의 시장지배력을 직접 겨냥해 요금·망개방·자산구조에 압박을 가했다.",
+      "howTheyOvercameKo": "멕시코 밖 사업과 데이터·미디어·유럽 통신지분으로 다각화하고 규제요건에 대응했다.",
+      "lessonKo": "독점에 가까운 경쟁우위는 결국 규제기관과 소비자의 반발 비용을 만든다.",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    },
+    {
+      "year": 2020,
+      "age": 80,
+      "description": "Pandemic and market turmoil sharply reduced the value of several industrial and retail holdings.",
+      "descriptionKo": "팬데믹과 시장 충격으로 산업·소매 자산가치가 급락하고 재산도 큰 폭으로 감소했다.",
+      "howTheyOvercameKo": "통신 데이터 수요와 다각화된 현금흐름을 유지하고 장기 보유 전략을 지속했다.",
+      "lessonKo": "다각화는 손실을 없애지 않지만 한 산업 충격이 전체 유동성을 무너뜨리는 것을 막는다.",
+      "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2007,
+      "netWorth": 49
+    },
+    {
+      "year": 2010,
+      "netWorth": 53.5
+    },
+    {
+      "year": 2013,
+      "netWorth": 73
+    },
+    {
+      "year": 2020,
+      "netWorth": 52.1
+    },
+    {
+      "year": 2026,
+      "netWorth": 121.7
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Contrarian acquisitions, cost control, and dominant Latin American telecom holdings.",
+    "knownForKo": "역발상 인수, 비용통제, 중남미 통신지배력으로 알려져 있다.",
+    "philanthropy": "Funds health, education, culture, employment, and disaster response through Fundación Carlos Slim.",
+    "philanthropyKo": "카를로스 슬림 재단을 통해 건강·교육·문화·고용·재난 대응을 지원한다.",
+    "controversies": "Long-running criticism of monopoly power and the terms of Telmex privatization.",
+    "controversiesKo": "독점적 시장지배력과 Telmex 민영화 조건에 대한 비판이 지속돼 왔다."
+  },
+  "characterKo": {
+    "observedTraitsKo": "숫자와 원가를 집요하게 관리하고 공포기에 자산을 사는 장기 역발상 성향이 강하다.",
+    "leadershipStyleKo": "작은 본부와 가족 경영진을 통해 다수 기업의 자본배분을 통제하는 지주회사형이다.",
+    "conflictBehaviorKo": "비판에 공개적으로 반박하기보다 규제 협상과 포트폴리오 조정으로 대응한다.",
+    "knownQuirksKo": "어린 시절부터 모든 거래를 개인 장부에 기록했으며 막대한 부에도 비교적 단순한 생활을 강조한다.",
+    "source": "https://carlosslim.com/biografia.html; https://www.americamovil.com/English/investors/annual-reports-and-sec-filings/default.aspx; https://fundacioncarlosslim.org/"
+  },
+  "sajuConnection": null
+}
