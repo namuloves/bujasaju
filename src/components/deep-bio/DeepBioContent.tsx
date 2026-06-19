@@ -159,6 +159,13 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
   const hasTimeline = bio.careerTimeline && bio.careerTimeline.length > 0;
   const hasWealth = bio.wealthHistory && bio.wealthHistory.length >= 2;
   const hasTraits = bio.personalTraits && (bio.personalTraits.knownFor || bio.personalTraits.philanthropy);
+  // v2 bios store character data in characterKo / personalTraitsKo instead of personalTraits
+  type CharV2A = { strengths?: string; weaknesses?: string; motivation?: string; legacy?: string };
+  type CharV2B = { observedTraitsKo?: string; leadershipStyleKo?: string; conflictBehaviorKo?: string; knownQuirksKo?: string };
+  const charV2 = (bio as unknown as { characterKo?: CharV2A | CharV2B }).characterKo;
+  const traitsV2 = (bio as unknown as { personalTraitsKo?: string[] }).personalTraitsKo;
+  const hasCharV2 = !!(charV2 && Object.values(charV2).some(v => typeof v === 'string' && v.length > 0));
+  const hasTraitsV2 = !!(traitsV2 && traitsV2.length > 0);
   const hasSources = bio.sources && bio.sources.length > 0;
 
   // Floating section nav. Build the list based on what's actually present
@@ -241,10 +248,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
         );
       })()}
 
-      {/* 4. Personal traits — Known For + optional Philanthropy row. The
-          philanthropy line now hangs off a quiet "자선" label instead of
-          the emerald pill, so it slots into the same visual rhythm as
-          everything else on the page. */}
+      {/* 4a. Personal traits — v1 shape: knownFor + philanthropy */}
       {hasTraits && (
         <section>
           <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
@@ -263,6 +267,53 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
               </p>
             </div>
           )}
+        </section>
+      )}
+
+      {/* 4b. v2 character — personalTraitsKo (chip list) + characterKo (strengths/weaknesses/motivation/legacy
+          or observedTraitsKo/leadershipStyleKo/etc). Only renders when v1 personalTraits is absent. */}
+      {!hasTraits && (hasTraitsV2 || hasCharV2) && (
+        <section>
+          <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
+            {lang === 'ko' ? '인물 분석' : 'Character'}
+          </h3>
+
+          {/* Trait chips */}
+          {hasTraitsV2 && (
+            <div className="flex flex-wrap gap-1.5 mb-4">
+              {traitsV2!.map((t, i) => (
+                <span key={i} className="text-xs bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full">{t}</span>
+              ))}
+            </div>
+          )}
+
+          {/* Character rows — handle both schema variants */}
+          {hasCharV2 && (() => {
+            const c = charV2 as Record<string, string>;
+            const LABEL_MAP_KO: Record<string, string> = {
+              strengths: '강점', weaknesses: '약점', motivation: '동기', legacy: '유산',
+              observedTraitsKo: '관찰된 특성', leadershipStyleKo: '리더십 스타일',
+              conflictBehaviorKo: '갈등 방식', knownQuirksKo: '알려진 특이점',
+            };
+            const LABEL_MAP_EN: Record<string, string> = {
+              strengths: 'Strengths', weaknesses: 'Weaknesses', motivation: 'Motivation', legacy: 'Legacy',
+              observedTraitsKo: 'Observed Traits', leadershipStyleKo: 'Leadership Style',
+              conflictBehaviorKo: 'Conflict Style', knownQuirksKo: 'Known Quirks',
+            };
+            const entries = Object.entries(c).filter(([, v]) => typeof v === 'string' && v.length > 0);
+            return (
+              <dl className="space-y-3">
+                {entries.map(([key, value], i) => (
+                  <div key={i} className="flex gap-3">
+                    <dt className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.06em] w-14 shrink-0 pt-0.5">
+                      {(lang === 'ko' ? LABEL_MAP_KO : LABEL_MAP_EN)[key] ?? key}
+                    </dt>
+                    <dd className="flex-1 text-sm text-gray-800 leading-relaxed">{value}</dd>
+                  </div>
+                ))}
+              </dl>
+            );
+          })()}
         </section>
       )}
 
