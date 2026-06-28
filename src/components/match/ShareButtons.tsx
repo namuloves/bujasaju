@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { track } from '@vercel/analytics';
 import { useLanguage } from '@/lib/i18n';
 
 interface KakaoShare {
@@ -14,6 +15,23 @@ interface KakaoSDK {
 declare global {
   interface Window {
     Kakao?: KakaoSDK;
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
+/**
+ * Record one share-button click. Fires a single `share_click` event to both
+ * Vercel Analytics (next to our existing quiz events) and Google Analytics
+ * (GA4, our queryable source of truth). `channel` is attached as a property
+ * for later breakdowns, but the headline metric is just the total count.
+ *
+ * Synchronous and fire-and-forget — safe to call inside handlers that must
+ * preserve user-activation (e.g. the Kakao popup), since neither call awaits.
+ */
+function trackShare(channel: string) {
+  track('share_click', { channel });
+  if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+    window.gtag('event', 'share_click', { channel });
   }
 }
 
@@ -99,6 +117,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
   };
 
   const handleCopy = async () => {
+    trackShare('copy_link');
     const ok = await copyToClipboard(shareUrl);
     if (ok) {
       setCopied(true);
@@ -108,6 +127,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
 
   const handleNativeShare = async () => {
     if (typeof navigator === 'undefined' || !navigator.share) return;
+    trackShare('native');
     try {
       await navigator.share({ title: t.siteTagline, text, url: shareUrl });
     } catch {
@@ -127,6 +147,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
    * (i.e. when there's no popup to open in the first place).
    */
   const handleKakao = () => {
+    trackShare('kakao');
     const k = window.Kakao;
     // Build the share image URL from the current origin so the same code
     // works on production, preview, and localhost without hardcoding a
@@ -166,6 +187,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
   };
 
   const handleInstagram = async () => {
+    trackShare('instagram');
     // Instagram has no public web share URL, so we do the next best thing:
     // copy the link and tell the user to paste it into their story/DM.
     await copyToClipboard(`${text} ${shareUrl}`);
@@ -231,6 +253,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
         {isMobile && (
           <a
             href={smsHref}
+            onClick={() => trackShare('sms')}
             className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-white bg-green-500 hover:bg-green-600 rounded-full transition-colors shadow-sm"
             aria-label={t.shareSms}
           >
@@ -273,6 +296,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
           href={twitterHref}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackShare('x')}
           className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-white bg-black hover:bg-gray-800 rounded-full transition-colors shadow-sm"
           aria-label="X"
         >
