@@ -1,0 +1,225 @@
+{
+  "id": "120",
+  "name": "Ernest Garcia II",
+  "nameKo": "어니스트 가르시아 2세",
+  "netWorth": "$20.6B",
+  "nationality": "US",
+  "industry": "Automotive",
+  "childhood": {
+    "birthPlace": "United States",
+    "birthPlaceKo": "미국",
+    "familyBackground": "Son of Ernest Garcia, who co-owned a liquor store and once served as mayor of Gallup, New Mexico.",
+    "familyBackgroundKo": "리커 스토어를 공동 운영하고 뉴멕시코주 갤럽의 시장을 지낸 어니스트 가르시아의 아들로 태어났다. 평범한 자영업 가정 출신이었다.",
+    "education": "Dropped out of college initially, but eventually earned a bachelor's degree from the University of Arizona.",
+    "educationKo": "처음에는 대학을 중퇴했으나 이후 애리조나 대학교에서 학사 학위를 취득했다.",
+    "earlyLife": "Grew up in a modest business family and started out as a Tucson-based real estate developer in the 1980s.",
+    "earlyLifeKo": "소박한 자영업 가정에서 자랐고, 1980년대에 애리조나주 투손을 기반으로 한 부동산 개발업자로 사회 생활을 시작했다.",
+    "capitalTypeKo": "부동산 개발과 중고차 금융업을 스스로 일군 자수성가형 자본",
+    "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "물려받은 재산 없이 부동산 개발로 시작했고, 1990년 은행 사기 유죄 판결과 파산이라는 밑바닥에서 다시 일어나 중고차 판매·금융 회사를 세워 부를 일궜다. 이후 아들이 창업한 온라인 중고차 업체 카바나의 대주주가 되면서 억만장자에 올랐다.",
+    "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+  },
+  "careerTimeline": [
+    {
+      "year": 1957,
+      "age": 0,
+      "event": "Born to Ernest Garcia, a liquor store co-owner and former mayor of Gallup, New Mexico.",
+      "eventKo": "리커 스토어를 운영하고 뉴멕시코주 갤럽 시장을 지낸 어니스트 가르시아의 아들로 태어났다.",
+      "whyItMatteredKo": "부유하지 않은 자영업 가정에서 출발했다는 점은 훗날 그의 자수성가 서사의 배경이 되었다.",
+      "whatTheyRiskedKo": "물려받을 자산 없이 스스로 길을 개척해야 하는 상황이었다.",
+      "whoHelpedKo": "자영업을 하며 지역사회 활동을 한 아버지가 사업가적 환경을 제공했다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 1966,
+      "age": 9,
+      "event": "Grew up in a modest business family, exposed to his father's liquor-store and civic activities.",
+      "eventKo": "아버지의 리커 스토어와 시장 활동을 곁에서 지켜보며 소박한 자영업 가정에서 자랐다.",
+      "whyItMatteredKo": "어린 시절부터 장사와 지역사회 운영을 접하며 사업가적 감각을 자연스럽게 익혔다.",
+      "whatTheyRiskedKo": "특별한 자산 없이 평범한 환경에서 성장했다.",
+      "whoHelpedKo": "지역사회 활동을 하던 아버지가 사업과 공적 활동의 본보기가 되었다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 1975,
+      "age": 18,
+      "event": "Left college after initially dropping out, before later returning to finish his degree.",
+      "eventKo": "처음 진학한 대학을 중퇴하고 학업을 중단했다가 훗날 다시 돌아왔다.",
+      "whyItMatteredKo": "중퇴라는 이른 좌절을 겪었지만 이를 딛고 학업을 마무리하는 과정은, 이후 파산과 유죄 판결에서도 재기하는 그의 회복탄력성의 원형이 되었다.",
+      "whatTheyRiskedKo": "안정된 학업 경로를 벗어나 불확실한 진로에 놓였다.",
+      "whoHelpedKo": "자영업을 하던 가족이 그의 진로를 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 1979,
+      "age": 22,
+      "event": "Earned a bachelor's degree from the University of Arizona after an earlier dropout.",
+      "eventKo": "한때 대학을 중퇴했다가 애리조나 대학교에서 학사 학위를 취득했다.",
+      "whyItMatteredKo": "중퇴 후 다시 학업을 마친 경험은 그의 끈질긴 재기 성향을 일찌감치 보여주는 대목으로, 이후 사업가로서의 출발 기반이 되었다.",
+      "whatTheyRiskedKo": "중퇴라는 좌절을 딛고 학업으로 되돌아가는 결정을 내렸다.",
+      "whoHelpedKo": "자영업을 하던 가족의 지원이 학업과 사회 진출의 배경이 되었다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 1985,
+      "age": 28,
+      "event": "Worked as a Tucson-based real estate developer in Arizona.",
+      "eventKo": "애리조나주 투손을 기반으로 부동산 개발업에 종사했다.",
+      "whyItMatteredKo": "부동산 개발자로서 쌓은 사업 경험과 인맥이 훗날 금융 사업의 발판이자, 동시에 1990년 사기 사건의 무대가 되었다.",
+      "whatTheyRiskedKo": "부동산 개발에 자본과 신용을 걸었다.",
+      "whoHelpedKo": "지역 금융권과의 관계가 자금 조달에 활용되었다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 1990,
+      "age": 33,
+      "event": "Pleaded guilty to felony bank fraud in the Lincoln Savings and Loan collapse.",
+      "eventKo": "찰스 키팅의 링컨 저축대부조합 붕괴 사건에서 은행 사기 중범죄에 유죄를 인정했다.",
+      "whyItMatteredKo": "'대리 차입자'로서 3천만 달러 신용한도를 부정하게 확보해 링컨이 위험한 사막 토지 소유를 규제당국으로부터 숨기도록 도운 혐의로, 그의 인생 최대의 추락이자 재기의 출발점이 되었다.",
+      "whatTheyRiskedKo": "유죄 판결로 3년간 보호관찰을 받았고, 본인과 회사가 파산했으며 사회적 신용을 모두 잃었다.",
+      "whoHelpedKo": "당시에는 도움보다 스스로 밑바닥에서 재기해야 하는 상황이었다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 1991,
+      "age": 34,
+      "event": "Bought bankrupt car-rental franchise Ugly Duckling for under $1 million.",
+      "eventKo": "파산한 렌터카 프랜차이즈 어글리 덕클링을 100만 달러 미만에 인수했다.",
+      "whyItMatteredKo": "이를 자신의 소규모 금융회사와 합쳐, 신용이 낮은 서브프라임 고객에게 중고차를 팔고 할부금융을 제공하는 사업으로 전환했다. 오늘날 부의 핵심 사업 모델이 탄생한 순간이었다.",
+      "whatTheyRiskedKo": "파산과 유죄 판결 직후 남은 자금을 부실 프랜차이즈 인수에 투입했다.",
+      "whoHelpedKo": "그의 신생 금융회사가 인수와 사업 전환의 기반이 되었다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 1996,
+      "age": 39,
+      "event": "Took Ugly Duckling public on NASDAQ under the ticker 'UGLY'.",
+      "eventKo": "어글리 덕클링을 나스닥에 상장했다(종목 코드 'UGLY').",
+      "whyItMatteredKo": "서브프라임 중고차 금융 모델을 공개 자본시장으로 끌어와 확장 자금을 확보했다.",
+      "whatTheyRiskedKo": "유죄 전력이 있는 창업자로서 시장의 냉정한 검증과 규제를 감수해야 했다.",
+      "whoHelpedKo": "공동 경영진과 투자자들이 상장 과정에 참여했다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 2002,
+      "age": 45,
+      "event": "Took the company private and renamed it DriveTime.",
+      "eventKo": "회사를 다시 비상장으로 전환하고 사명을 드라이브타임으로 바꿨다.",
+      "whyItMatteredKo": "전 CEO 그레고리 설리번과 함께 회사를 인수해 비공개로 운영하며 중고차 판매·금융 제국을 자기 통제 아래 재편했다.",
+      "whatTheyRiskedKo": "상장 폐지에 필요한 대규모 자금과 부채를 감당했다.",
+      "whoHelpedKo": "전 어글리 덕클링 CEO 그레고리 설리번이 공동 경영자로 참여했다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 2012,
+      "age": 55,
+      "event": "Backed his son Ernest Garcia III in founding online used-car retailer Carvana.",
+      "eventKo": "아들 어니스트 가르시아 3세가 창업한 온라인 중고차 소매업체 카바나를 지원했다.",
+      "whyItMatteredKo": "드라이브타임의 인프라와 자본을 기반으로 출발한 카바나는 훗날 상장하며 가르시아 부자의 재산을 폭발적으로 늘린 핵심 자산이 되었다.",
+      "whatTheyRiskedKo": "검증되지 않은 온라인 중고차 판매 모델에 자본과 회사 인프라를 투입했다.",
+      "whoHelpedKo": "아들 어니스트 가르시아 3세가 카바나의 창업자이자 CEO였다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 2017,
+      "age": 60,
+      "event": "Carvana went public, sharply increasing Garcia's net worth.",
+      "eventKo": "카바나가 상장하며 가르시아의 재산이 크게 불어났다.",
+      "whyItMatteredKo": "카바나 대주주로서 그의 재산은 회사 주가와 직결되었고, 이 지분이 억만장자 지위의 핵심이 되었다.",
+      "whatTheyRiskedKo": "재산 대부분이 변동성 큰 단일 종목(카바나 주식)에 집중되는 위험을 안았다.",
+      "whoHelpedKo": "아들 어니스트 가르시아 3세가 이끄는 카바나 경영진이 성장을 주도했다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 2021,
+      "age": 64,
+      "event": "Sold more than $3.6 billion of Carvana stock over the prior year.",
+      "eventKo": "직전 1년간 36억 달러 이상의 카바나 주식을 매각했다.",
+      "whyItMatteredKo": "보유 지분의 약 16%를 현금화하며 카바나 주가 급등의 이익을 실현했다.",
+      "whatTheyRiskedKo": "대량 매도가 시장에 주는 신호와 주가 하락 우려를 감수했다.",
+      "whoHelpedKo": "카바나의 급성장과 높은 주가가 매각 차익의 원천이었다.",
+      "source": "https://www.wsj.com/articles/ceos-dad-gets-a-3-6-billion-stock-windfall-at-carvana-11631791801"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1991,
+      "age": 34,
+      "decisionKo": "파산과 은행 사기 유죄 판결 직후, 파산한 렌터카 프랜차이즈를 사들여 서브프라임 중고차 금융업으로 방향을 틀기로 결정했다.",
+      "alternativeKo": "유죄 전력에 좌절해 사업을 접거나 부동산업에 머물 수도 있었다.",
+      "outcomeKo": "이 결정이 드라이브타임으로 이어지는 중고차 판매·금융 제국의 출발점이 되어 재기에 성공했다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 2012,
+      "age": 55,
+      "decisionKo": "아들이 시작한 온라인 중고차 판매 실험 카바나를 드라이브타임의 인프라와 자본으로 뒷받침하기로 했다.",
+      "alternativeKo": "검증되지 않은 온라인 모델을 외면하고 기존 오프라인 사업에만 집중할 수도 있었다.",
+      "outcomeKo": "카바나가 상장하며 폭발적으로 성장해 가르시아 부자를 억만장자 반열에 올려놓았다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "핵심 사업은 신용이 낮은 서브프라임 고객을 대상으로 한 중고차 판매와 할부금융이다. 오프라인은 드라이브타임(구 어글리 덕클링)이, 온라인은 아들이 이끄는 카바나가 담당하며, 가르시아의 재산은 대부분 카바나 지분에서 나온다.",
+    "moatKo": "서브프라임 자동차 금융에서 수십 년간 축적한 심사·회수 노하우와 데이터, 그리고 드라이브타임과 카바나를 잇는 수직 통합 구조가 경쟁 우위다.",
+    "luckVsSkillKo": "1990년 파산에서 재기한 것과 서브프라임 시장을 개척한 것은 실력이다. 다만 아들이 세운 카바나의 주가가 시장 열기로 급등한 데는 시대적 운도 크게 작용했다.",
+    "politicalCapitalKo": "정치적 배경에 기댄 인물은 아니며, 오히려 1990년 링컨 저축대부조합 사건에서 규제당국을 속인 전력으로 정치·규제 리스크를 안았던 사례에 가깝다.",
+    "capitalHistoryKo": "부동산 개발 → 1990년 파산과 유죄 판결 → 어글리 덕클링 인수로 재기 → 드라이브타임 구축 → 카바나 대주주로 억만장자 등극이라는 극적인 흥망성쇠의 궤적을 밟았다.",
+    "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+  },
+  "failures": [
+    {
+      "year": 1990,
+      "age": 33,
+      "description": "Pleaded guilty to felony bank fraud, was placed on probation, and both he and his firm filed for bankruptcy.",
+      "descriptionKo": "은행 사기 중범죄에 유죄를 인정해 보호관찰을 받았고, 본인과 회사 모두 파산했다.",
+      "howTheyOvercameKo": "밑바닥에서 파산한 렌터카 프랜차이즈를 사들여 서브프라임 중고차 금융업으로 완전히 새 사업을 일으켰다.",
+      "lessonKo": "치명적 실패도 끝이 아니며, 새로운 사업 모델과 끈질긴 재기로 극복할 수 있다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 1999,
+      "age": 42,
+      "description": "Faced six lawsuits alleging he abused his position to profit from a real estate deal, acquiring 17 company properties at a discount.",
+      "descriptionKo": "회사 부동산 17건을 할인가에 취득한 거래에서 지위를 남용해 사익을 취했다는 6건의 소송에 직면했다.",
+      "howTheyOvercameKo": "논란 속에서도 회사를 계속 운영하며 이후 상장 폐지와 드라이브타임 재편으로 사업 통제력을 강화했다.",
+      "lessonKo": "오너의 이해충돌은 언제든 법적·평판 리스크로 돌아오며, 지배구조 신뢰가 중요하다.",
+      "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+    },
+    {
+      "year": 2022,
+      "age": 65,
+      "description": "Carvana's stock collapsed roughly 98% amid rising rates and debt fears, wiping out much of his paper wealth that year.",
+      "descriptionKo": "금리 상승과 부채 우려 속에 카바나 주가가 약 98% 폭락하며 그의 장부상 재산 상당 부분이 증발했다.",
+      "howTheyOvercameKo": "회사가 채무 구조조정과 비용 절감으로 파산을 피했고, 이후 주가가 반등하며 재산도 상당 부분 회복됐다.",
+      "lessonKo": "재산이 단일 종목에 집중되면 시장 변동에 극심하게 노출되며, 사업의 생존력이 곧 부의 생존력이다.",
+      "source": "https://www.forbes.com/profile/ernest-garcia-ii/"
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2021, "netWorth": 15.9 },
+    { "year": 2022, "netWorth": 3 },
+    { "year": 2026, "netWorth": 20.6 }
+  ],
+  "quotes": [],
+  "books": { "authored": [], "recommended": [] },
+  "personalTraits": {
+    "knownFor": "Turning a bank-fraud conviction and bankruptcy into a used-car empire; owner of DriveTime and major shareholder of Carvana.",
+    "knownForKo": "은행 사기 유죄와 파산을 딛고 중고차 제국을 일군 것으로 유명하며, 드라이브타임 소유주이자 카바나의 대주주다.",
+    "philanthropy": "Keeps a low public profile; little is publicly documented about organized philanthropy.",
+    "philanthropyKo": "공개 활동이 적은 편으로, 체계적인 자선 활동에 대해 알려진 바는 많지 않다.",
+    "controversies": "1990 felony bank-fraud guilty plea tied to Charles Keating's Lincoln Savings; later lawsuits over self-dealing real estate transactions.",
+    "controversiesKo": "찰스 키팅의 링컨 저축대부조합과 얽힌 1990년 은행 사기 유죄 인정, 이후 부동산 자기거래를 둘러싼 소송 등이 논란이었다."
+  },
+  "characterKo": {
+    "observedTraitsKo": "밑바닥에서 재기한 강한 회복탄력성과, 서브프라임이라는 남들이 꺼리는 시장을 파고드는 승부사 기질을 지녔다.",
+    "leadershipStyleKo": "회사를 비상장으로 유지하며 자기 통제 아래 운영하는 것을 선호하는 오너형 경영자다.",
+    "conflictBehaviorKo": "유죄 판결과 다수의 소송 등 갈등 국면을 겪으면서도 사업을 접지 않고 밀어붙이는 끈질김을 보였다.",
+    "knownQuirksKo": "언론 노출을 극도로 꺼리는 은둔형 부호로, 뉴욕 트럼프 타워에 아파트를 소유하고 애리조나주 템피에 거주한다.",
+    "source": "https://en.wikipedia.org/wiki/Ernest_Garcia_II"
+  },
+  "sajuConnection": null
+}

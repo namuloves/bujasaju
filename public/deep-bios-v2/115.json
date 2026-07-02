@@ -1,0 +1,216 @@
+{
+  "id": "115",
+  "name": "John Fredriksen",
+  "nameKo": "욘 프레드릭센",
+  "netWorth": "$21B",
+  "nationality": "CY",
+  "industry": "Logistics",
+  "childhood": {
+    "birthPlace": "Eidsvoll / Oslo area, Norway",
+    "birthPlaceKo": "노르웨이 에이스볼(오슬로 인근)",
+    "familyBackground": "Born into a modest Norwegian family; the son of a welder, he grew up in the Oslo area.",
+    "familyBackgroundKo": "노르웨이의 평범한 가정에서 태어났으며, 용접공의 아들로 오슬로 인근에서 자랐다. 상속받은 부 없이 밑바닥에서 시작한 자수성가형이다.",
+    "education": "Left school at 16 to work in shipping",
+    "educationKo": "정규 교육을 오래 받지 않고 16세에 학교를 떠나 해운업에 뛰어들었다.",
+    "earlyLife": "Started as a courier for a shipbroking firm in Oslo before moving into oil trading.",
+    "earlyLifeKo": "오슬로의 한 선박 중개회사에서 심부름꾼(courier)으로 일을 시작한 뒤 석유 트레이딩으로 옮겨갔다.",
+    "capitalTypeKo": "밑바닥 해운업에서 시작해 위험한 유조선 사업으로 부를 일군 순수 자수성가형",
+    "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "프레드릭센은 상속이나 정치적 배경 없이, 16세에 선박 중개회사 심부름꾼으로 시작해 1970년대 베이루트에서 석유 트레이딩으로 초기 부를 쌓았다. 이후 이란-이라크 전쟁 시기 위험한 페르시아만 항로에서 유조선을 운항하며 막대한 이익을 냈고, 프론트라인·시드릴 등을 통해 세계 최대급 유조선 선단을 구축했다. 위험을 무릅쓴 사업 결정으로 스스로 일군 순수 자수성가형이다.",
+    "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+  },
+  "careerTimeline": [
+    {
+      "year": 1961,
+      "age": 16,
+      "event": "Left school and began working as a courier for an Oslo shipbroking firm.",
+      "eventKo": "학교를 떠나 오슬로의 선박 중개회사에서 심부름꾼으로 일을 시작했다.",
+      "whyItMatteredKo": "해운업의 밑바닥에서부터 업계를 익히며 훗날 유조선 제국을 세울 기반을 다진 출발점이다.",
+      "whatTheyRiskedKo": "정규 교육을 포기하고 이른 나이에 생계를 위해 일에 뛰어들었다.",
+      "whoHelpedKo": "그를 채용한 오슬로의 선박 중개회사.",
+      "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+    },
+    {
+      "year": 1969,
+      "age": 24,
+      "event": "Worked his way up in Oslo's shipbroking and shipping trade, learning the chartering business.",
+      "eventKo": "오슬로의 선박 중개·해운업에서 경력을 쌓으며 용선(chartering) 사업의 실무를 익혔다.",
+      "whyItMatteredKo": "훗날 석유 트레이딩과 유조선 사업으로 도약하기 위한 업계 지식과 네트워크를 다진 시기다.",
+      "whatTheyRiskedKo": "학벌이나 배경 없이 실무 경험만으로 업계에서 자리를 잡아야 했다.",
+      "whoHelpedKo": "오슬로 해운업계의 선배와 동료들.",
+      "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+    },
+    {
+      "year": 1973,
+      "age": 28,
+      "event": "Moved into oil trading in Beirut, securing profitable tanker charters during the Yom Kippur War.",
+      "eventKo": "베이루트에서 석유 트레이딩에 뛰어들어, 욤키푸르 전쟁 시기에 수익성 높은 유조선 용선 계약을 확보했다.",
+      "whyItMatteredKo": "1978년까지 약 4천만 달러를 벌며 그의 첫 대형 부의 토대를 마련한 결정적 시기였다.",
+      "whatTheyRiskedKo": "전쟁으로 혼란한 중동 시장에서 큰 자본을 걸고 위험한 거래를 감행했다.",
+      "whoHelpedKo": "중동의 석유·해운 네트워크.",
+      "source": "https://www.forbes.com/sites/christopherhelman/2012/03/21/how-shipping-king-john-fredriksen-found-a-port-in-the-storm/"
+    },
+    {
+      "year": 1978,
+      "age": 33,
+      "event": "Had amassed roughly $40 million in gains from oil trading and tanker chartering.",
+      "eventKo": "석유 트레이딩과 유조선 용선으로 약 4천만 달러의 이익을 쌓았다.",
+      "whyItMatteredKo": "본격적으로 자기 선단을 구축하고 더 큰 위험을 감수할 수 있는 자본 기반이 마련된 시점이다.",
+      "whatTheyRiskedKo": "불안정한 중동 시장의 거래에 계속해서 자본을 재투입했다.",
+      "whoHelpedKo": "중동의 석유·해운 파트너들.",
+      "source": "https://www.forbes.com/sites/christopherhelman/2012/03/21/how-shipping-king-john-fredriksen-found-a-port-in-the-storm/"
+    },
+    {
+      "year": 1985,
+      "age": 40,
+      "event": "Ran supertankers shuttling oil out of Iran's Kharg Island during the Iran–Iraq War, amid rocket attacks on his ships.",
+      "eventKo": "이란-이라크 전쟁 중 이란의 카르그섬에서 석유를 실어 나르는 초대형 유조선을 운항했으며, 그의 선박들은 로켓 공격을 받기도 했다.",
+      "whyItMatteredKo": "누구도 꺼리던 전쟁 지역 항로에서 높은 운임을 받아 막대한 이익을 냈고, 이는 그의 부의 도약대가 되었다.",
+      "whatTheyRiskedKo": "선원의 목숨과 선박이 실제로 공격받는 극도의 물리적·재정적 위험을 감수했다.",
+      "whoHelpedKo": "높은 운임을 지불한 이란 측 화주.",
+      "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+    },
+    {
+      "year": 1990,
+      "age": 45,
+      "event": "Built up one of the world's largest independently owned tanker fleets through his private holdings.",
+      "eventKo": "개인 지주회사를 통해 세계에서 가장 큰 독립 유조선 선단 중 하나를 구축했다.",
+      "whyItMatteredKo": "전시 운항으로 번 자본을 대규모 선단으로 전환하며, 훗날 프론트라인의 토대가 될 자산을 축적했다.",
+      "whatTheyRiskedKo": "운임 사이클이 급변하는 유조선 시장에 자산을 집중했다.",
+      "whoHelpedKo": "그의 투자·지주 조직.",
+      "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+    },
+    {
+      "year": 1996,
+      "age": 51,
+      "event": "His Hemen Holding became majority shareholder of Frontline, later re-domiciled to Bermuda and listed in Oslo.",
+      "eventKo": "그의 헤멘 홀딩이 프론트라인의 최대주주가 되었고, 프론트라인은 이후 버뮤다로 본사를 옮기고 오슬로 증시에 상장했다.",
+      "whyItMatteredKo": "프론트라인은 세계 최대급 유조선 선단을 거느린 그의 기함 회사로 성장하는 발판이 되었다.",
+      "whatTheyRiskedKo": "변동성 큰 유조선 운임 시장에 대규모 자본을 집중 투입했다.",
+      "whoHelpedKo": "그의 투자 지주회사 헤멘 홀딩.",
+      "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+    },
+    {
+      "year": 2005,
+      "age": 60,
+      "event": "Founded offshore drilling contractor Seadrill with a US$200 million equity investment.",
+      "eventKo": "약 2억 달러의 초기 지분 투자로 해양 시추 회사 시드릴을 설립했다.",
+      "whyItMatteredKo": "심해 유전 개발 붐을 예상하고 해운을 넘어 해양 시추로 사업을 확장한 전략적 베팅이었다.",
+      "whatTheyRiskedKo": "유가와 시추 수요에 크게 좌우되는 자본집약적 신사업에 거액을 걸었다.",
+      "whoHelpedKo": "그의 투자회사와 시드릴 초기 경영진.",
+      "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+    },
+    {
+      "year": 2011,
+      "age": 66,
+      "event": "Expanded his empire further into salmon farming (Marine Harvest/Mowi) and dry bulk (Golden Ocean).",
+      "eventKo": "연어 양식(마린 하베스트/모위)과 벌크선(골든 오션)으로 제국을 더욱 다각화했다.",
+      "whyItMatteredKo": "유조선과 시추에 편중된 위험을 분산하며 해양 산업 전반으로 사업을 넓혔다.",
+      "whatTheyRiskedKo": "익숙한 해운을 넘어 양식업 등 새로운 산업에 자본을 투입했다.",
+      "whoHelpedKo": "그의 지주회사 게베란 트레이딩과 헤멘 홀딩.",
+      "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+    },
+    {
+      "year": 2017,
+      "age": 72,
+      "event": "Seadrill filed for Chapter 11 bankruptcy after the oil price collapse; Fredriksen led its restructuring.",
+      "eventKo": "유가 폭락 여파로 시드릴이 챕터 11 파산보호를 신청했고, 프레드릭센이 구조조정을 주도했다.",
+      "whyItMatteredKo": "한때 50억 달러가 넘던 그의 시드릴 지분이 사실상 소멸된, 그의 경력에서 가장 큰 손실 중 하나였다.",
+      "whatTheyRiskedKo": "회생을 위해 추가 자본을 투입하며 이미 거대한 손실 위에 더 큰 위험을 얹었다.",
+      "whoHelpedKo": "채권단과 시드릴 구조조정팀.",
+      "source": "https://gcaptain.com/john-big-wolf-fredriksen-steers-seadrill-back-to-life-after-taking-5-billion-hit/"
+    },
+    {
+      "year": 2018,
+      "age": 73,
+      "event": "Seadrill emerged from bankruptcy with over US$1 billion in new capital; Fredriksen retained about 30% ownership.",
+      "eventKo": "시드릴이 10억 달러 이상의 신규 자본과 함께 파산에서 벗어났고, 프레드릭센은 약 30%의 지분을 유지했다.",
+      "whyItMatteredKo": "거대한 손실 속에서도 회사를 살려내며, 다각화된 해양 제국을 지켜낸 회복력을 보여줬다.",
+      "whatTheyRiskedKo": "회생 지원을 위해 추가 자금을 투입하는 위험을 다시 감수했다.",
+      "whoHelpedKo": "구조조정을 승인한 채권단.",
+      "source": "https://gcaptain.com/john-big-wolf-fredriksen-steers-seadrill-back-to-life-after-taking-5-billion-hit/"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1985,
+      "age": 40,
+      "decisionKo": "전쟁 중인 페르시아만의 카르그섬 항로에 초대형 유조선을 투입하기로 결정했다.",
+      "alternativeKo": "위험을 피해 안전한 항로에서 낮은 운임에 만족할 수도 있었다.",
+      "outcomeKo": "실제 공격으로 선원 사상이 발생하는 극한의 위험을 치르며 막대한 운임 수익을 거둬 부의 도약대를 마련했다.",
+      "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+    },
+    {
+      "year": 2005,
+      "age": 60,
+      "decisionKo": "유조선 사업을 넘어 심해 시추 회사 시드릴을 세워 해양 에너지 서비스로 사업을 다각화하기로 했다.",
+      "alternativeKo": "안정적인 유조선·해운 사업에만 집중할 수도 있었다.",
+      "outcomeKo": "초기에는 큰 성공을 거뒀으나 2014~2017년 유가 폭락으로 시드릴이 파산에 이르며 수십억 달러의 손실을 안았다.",
+      "source": "https://gcaptain.com/john-big-wolf-fredriksen-steers-seadrill-back-to-life-after-taking-5-billion-hit/"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "핵심은 세계 최대급 유조선 선단을 거느린 프론트라인을 중심으로 한 해운업이며, 여기에 해양 시추(시드릴), 벌크선(골든 오션 그룹), 세계 최대 연어 양식기업 모위 등이 더해진 다각화된 해양·물류 제국이다.",
+    "moatKo": "대규모 선단이 주는 규모의 경제, 운임 사이클을 읽는 감각, 그리고 헤멘 홀딩·게베란 트레이딩을 통한 지배 구조가 강력한 진입장벽을 형성한다.",
+    "luckVsSkillKo": "전쟁과 유가 사이클이라는 외부 변수의 행운도 작용했지만, 남들이 꺼리는 위험한 항로와 저점 자산에 과감히 베팅하는 판단력은 명백한 실력이다.",
+    "politicalCapitalKo": "직접적 정치 권력에 기대지는 않았으나, 세금 문제로 노르웨이 국적을 버리고 2006년 키프로스 국적을 취득하는 등 규제·조세 환경을 적극 활용해 왔다.",
+    "capitalHistoryKo": "1970년대 석유 트레이딩과 1980년대 전시 유조선 운항으로 초기 부를 쌓은 뒤, 이를 프론트라인·시드릴 등에 재투자하며 해양 산업 전반으로 복리 확장해 왔다.",
+    "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+  },
+  "failures": [
+    {
+      "year": 2017,
+      "age": 72,
+      "description": "Seadrill filed for Chapter 11 bankruptcy after the 2014–2016 oil price collapse, wiping out a stake once worth more than $5 billion.",
+      "descriptionKo": "2014~2016년 유가 폭락 여파로 시드릴이 챕터 11 파산보호를 신청했고, 한때 50억 달러가 넘던 그의 지분이 사실상 소멸됐다.",
+      "howTheyOvercameKo": "직접 구조조정을 이끌고 추가 자본을 투입해 2018년 회사를 회생시켰으며, 약 30% 지분을 유지했다.",
+      "lessonKo": "자본집약적이고 유가에 극도로 민감한 사업은 사이클 하락기에 거대한 자산도 순식간에 날아갈 수 있음을 보여줬다.",
+      "source": "https://gcaptain.com/john-big-wolf-fredriksen-steers-seadrill-back-to-life-after-taking-5-billion-hit/"
+    },
+    {
+      "year": 1985,
+      "age": 40,
+      "description": "His Kharg Island tanker operations came under rocket attacks during the Iran–Iraq War, killing and wounding crew members.",
+      "descriptionKo": "이란-이라크 전쟁 중 카르그섬 유조선 운항이 로켓 공격을 받아 선원들이 사망하거나 부상당했다.",
+      "howTheyOvercameKo": "위험을 감수하면서도 운항을 이어가 높은 운임 수익을 확보했고, 이를 통해 사업 기반을 키웠다.",
+      "lessonKo": "극한의 위험 항로에서의 수익은 인명과 자산의 실질적 손실이라는 대가를 동반한다는 점을 보여줬다.",
+      "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+    },
+    {
+      "year": 2006,
+      "age": 61,
+      "description": "Faced tax and regulatory pressures in Norway that led him to renounce Norwegian citizenship and take Cypriot citizenship.",
+      "descriptionKo": "노르웨이에서의 조세·규제 압박에 직면해, 결국 노르웨이 국적을 포기하고 키프로스 국적을 취득했다.",
+      "howTheyOvercameKo": "국적과 사업 본거지를 재편해 조세 부담을 낮추고 글로벌 지배 구조를 정비했다.",
+      "lessonKo": "거대한 부에는 국가와의 조세 갈등이 따르며, 때로는 국적까지 바꾸는 결정을 요구한다는 것을 보여줬다.",
+      "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2016, "netWorth": 10.2 },
+    { "year": 2020, "netWorth": 10.9 },
+    { "year": 2025, "netWorth": 17 },
+    { "year": 2026, "netWorth": 21 }
+  ],
+  "quotes": [],
+  "books": { "authored": [], "recommended": [] },
+  "personalTraits": {
+    "knownFor": "Shipping magnate who built the world's largest oil tanker fleet through Frontline.",
+    "knownForKo": "프론트라인을 통해 세계 최대급 유조선 선단을 구축한 해운 거물로 알려져 있다.",
+    "philanthropy": "Low-profile giving; primarily known as a business figure rather than a philanthropist.",
+    "philanthropyKo": "자선 활동은 드러나지 않는 편이며, 주로 사업가로서 알려져 있다.",
+    "controversies": "War-zone tanker operations, renouncing Norwegian citizenship for tax reasons, and hard-driving business tactics.",
+    "controversiesKo": "전쟁 지역 유조선 운항, 세금 문제로 인한 노르웨이 국적 포기, 강경한 사업 방식 등이 논란거리로 거론된다."
+  },
+  "characterKo": {
+    "observedTraitsKo": "위험을 두려워하지 않는 대담함과 운임 사이클을 읽어내는 감각, 그리고 밑바닥에서 시작한 자수성가형 특유의 승부사 기질이 두드러진다.",
+    "leadershipStyleKo": "지주회사를 통해 여러 상장사를 지배하며 큰 방향을 직접 정하는, 강한 통제력의 오너형 리더십을 보인다. 업계에서 '빅 울프(Big Wolf)'로 불린다.",
+    "conflictBehaviorKo": "채권단·정부와의 갈등에서도 물러서기보다 구조조정 주도나 국적 변경 등 과감한 결단으로 정면 돌파하는 성향을 보인다.",
+    "knownQuirksKo": "'해운의 왕' 또는 '빅 울프'라는 별명으로 불리며, 노르웨이 출신이면서 키프로스 국적을 취득하고 아랍에미리트에 거점을 두는 등 글로벌 유목민적 삶으로도 알려져 있다.",
+    "source": "https://en.wikipedia.org/wiki/John_Fredriksen"
+  },
+  "sajuConnection": null
+}
