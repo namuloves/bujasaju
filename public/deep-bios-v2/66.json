@@ -1,0 +1,199 @@
+{
+  "id": "66",
+  "name": "Robert Pera",
+  "nameKo": "로버트 J. 페라",
+  "netWorth": "$31.7B",
+  "nationality": "US",
+  "industry": "Technology",
+  "childhood": {
+    "birthPlace": "St. Louis, Missouri, United States",
+    "birthPlaceKo": "미국 미주리주 세인트루이스",
+    "familyBackground": "Born March 10, 1978 to parents in the business and public relations sectors. Father was involved in business consulting; mother worked in public relations. Grew up in a middle-class professional household that valued education and entrepreneurship. Had an early inclination toward technology and engineering.",
+    "familyBackgroundKo": "1978년 3월 10일 사업 및 홍보 부문의 부모에게 태어남. 아버지는 경영 컨설팅에 종사했고 어머니는 홍보에서 일했다. 교육과 창업을 중시하는 중산층 전문가 가정에서 성장했다. 기술과 엔지니어링에 대한 조기 관심이 있었다.",
+    "education": "Graduated from UC San Diego with dual degrees in Electrical Engineering and Japanese Language, plus a Master's degree in Electrical Engineering. Excelled in academics, particularly in mathematics and physics. Pursued engineering specialization while maintaining interest in languages and international business.",
+    "educationKo": "UC 샌디에이고에서 전기공학과 일본어 이중 학위 및 전기공학 석사학위로 졸업했다. 특히 수학과 물리학에서 학문적 우수성을 입증했다. 언어 및 국제 비즈니스에 관심을 유지하면서 엔지니어링 전문화를 추구했다.",
+    "earlyLife": "Started his first computer services company while still in high school, demonstrating early entrepreneurial drive. Excelled in basketball until a heart condition interrupted his athletic career, forcing him to redirect focus to academics and business. Worked at Apple Inc. after graduation, testing Wi-Fi devices for FCC compliance and identifying market opportunities that would lead to Ubiquiti Networks.",
+    "earlyLifeKo": "고등학교에 있는 동안 첫 번째 컴퓨터 서비스 회사를 시작하여 조기 창업 의욕을 입증했다. 심장 질환이 운동 경력을 중단할 때까지 농구에서 탁월했으며, 학문과 비즈니스에 초점을 재조정하게 됨. 졸업 후 Apple Inc.에서 일했으며, FCC 준수를 위해 Wi-Fi 기기를 테스트하고 Ubiquiti Networks로 이어질 시장 기회를 파악했다.",
+    "capitalTypeKo": "Apple 엔지니어 급여 저축과 신용카드 약 3만 달러로 무선장비 회사를 시작했다.",
+    "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "Apple 엔지니어 급여 저축과 신용카드 약 3만 달러로 무선장비 회사를 시작했다. 현재 부의 핵심은 상장사 Ubiquiti 지분 약 93%와 네트워크 장비 배당·주가 가치이다.",
+    "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+  },
+  "careerTimeline": [
+    {
+      "year": 2000,
+      "age": 22,
+      "event": "Joined Apple Inc. as quality assurance engineer, testing Wi-Fi devices for FCC electromagnetic compliance standards",
+      "eventKo": "Apple Inc.에 품질 보증 엔지니어로 입사, FCC 전자기 규정 준수를 위한 Wi-Fi 기기 테스트",
+      "whyItMatteredKo": "Ubiquiti의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    },
+    {
+      "year": 2004,
+      "age": 26,
+      "event": "Identified the opportunity to increase Wi-Fi transmission range by boosting power output beyond FCC limits, proposed idea to Apple management",
+      "eventKo": "전력 출력을 FCC 제한을 초과하여 증가함으로써 Wi-Fi 전송 범위를 확대할 수 있는 기회를 파악, Apple 경영진에 아이디어 제안",
+      "whyItMatteredKo": "Ubiquiti의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    },
+    {
+      "year": 2005,
+      "age": 27,
+      "event": "Founded Ubiquiti Networks in March 2005 using $30,000 in personal savings and credit card debt after Apple rejected his proposal",
+      "eventKo": "Apple이 제안을 거절한 후 2005년 3월 개인 저축 3만 달러와 신용카드 부채로 Ubiquiti Networks 설립",
+      "whyItMatteredKo": "Ubiquiti의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    },
+    {
+      "year": 2005,
+      "age": 27,
+      "event": "Spent nights and weekends testing prototypes in his apartment before launching the business operationally",
+      "eventKo": "사업 운영을 시작하기 전에 밤과 주말에 자신의 아파트에서 프로토타입을 테스트",
+      "whyItMatteredKo": "Ubiquiti의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    },
+    {
+      "year": 2005,
+      "age": 27,
+      "event": "Received first orders from US wireless Internet service providers, selling 4,000 high-powered radio cards in summer 2005",
+      "eventKo": "미국 무선 인터넷 서비스 제공업체로부터 첫 주문 받음, 2005년 여름에 고출력 라디오 카드 4,000개 판매",
+      "whyItMatteredKo": "Ubiquiti의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    },
+    {
+      "year": 2005,
+      "age": 27,
+      "event": "Faced intellectual property theft of designs, responded by integrating hardware and software into proprietary platform to prevent future piracy",
+      "eventKo": "설계의 지적재산권 도용에 직면, 향후 해적 행위를 방지하기 위해 하드웨어와 소프트웨어를 소유 플랫폼으로 통합하여 대응",
+      "whyItMatteredKo": "Ubiquiti의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    },
+    {
+      "year": 2012,
+      "age": 34,
+      "event": "Purchased Memphis Grizzlies NBA franchise in October 2012 at age 34, becoming youngest controlling owner in NBA history",
+      "eventKo": "2012년 10월 34세의 나이에 Memphis Grizzlies NBA 팀을 인수, NBA 역사상 가장 젊은 통제 소유자가 됨",
+      "whyItMatteredKo": "Ubiquiti의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    },
+    {
+      "year": 2014,
+      "age": 36,
+      "event": "Achieved billionaire status at age 36, ranking among Forbes' youngest billionaires through Ubiquiti Networks stock ownership",
+      "eventKo": "36세의 나이에 억만장자 지위 달성, Ubiquiti Networks 주식 소유권을 통해 Forbes의 가장 젊은 억만장자 중 순위",
+      "whyItMatteredKo": "Ubiquiti의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    },
+    {
+      "year": 2017,
+      "age": 39,
+      "event": "Faced Grizzlies ownership crisis when minority owners triggered buy-sell option, forced to buy out their 30% stake to retain control",
+      "eventKo": "소수 주주들이 매수-매도 옵션을 활성화했을 때 Grizzlies 소유권 위기에 직면, 통제력을 유지하기 위해 그들의 30% 지분을 매수해야 함",
+      "whyItMatteredKo": "Ubiquiti의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 2005,
+      "age": 27,
+      "decisionKo": "Apple이 제안을 거절한 후 2005년 3월 개인 저축 3만 달러와 신용카드 부채로 Ubiquiti Networks 설립",
+      "alternativeKo": "기존 경로를 유지하거나 더 낮은 위험의 선택을 할 수 있었다.",
+      "outcomeKo": "Ubiquiti의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    },
+    {
+      "year": 2012,
+      "age": 34,
+      "decisionKo": "2012년 10월 34세의 나이에 Memphis Grizzlies NBA 팀을 인수, NBA 역사상 가장 젊은 통제 소유자가 됨",
+      "alternativeKo": "확장 속도를 늦추고 기존 사업에 집중할 수 있었다.",
+      "outcomeKo": "Ubiquiti의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "상장사 Ubiquiti 지분 약 93%와 네트워크 장비 배당·주가 가치",
+    "moatKo": "전통 영업조직을 줄인 저비용 유통, 사용자 커뮤니티, 통합 UniFi 제품군과 높은 마진",
+    "luckVsSkillKo": "산업 성장과 시장 시점은 행운이었지만, Ubiquiti의 지분을 확보·유지하고 자본을 재투자한 판단이 부를 복리화했다.",
+    "politicalCapitalKo": "직접 정치자본은 두드러지지 않으며 통신인증·사이버보안·공급망 규제가 핵심이다.",
+    "capitalHistoryKo": "Apple 엔지니어 급여 저축과 신용카드 약 3만 달러로 무선장비 회사를 시작했다. 이후 Ubiquiti의 성장에서 나온 현금흐름과 지분가치가 재투자되며 현재 자산으로 확대됐다.",
+    "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+  },
+  "failures": [
+    {
+      "year": 2005,
+      "age": 27,
+      "description": "Initial intellectual property theft of Ubiquiti's designs by competitors, undermining first-mover advantage and forcing costly redesign and platform integration",
+      "descriptionKo": "경쟁사에 의한 Ubiquiti 설계의 초기 지적재산권 도용, 선점자 이점 훼손 및 비용이 많이 드는 재설계 및 플랫폼 통합 강요",
+      "howTheyOvercameKo": "Ubiquiti의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "지적재산 보호 및 소유 플랫폼 개발의 중대한 중요성에 대해 배움. 방어 가능한 기술 없이는 혁신만으로는 부족하다는 것을 인식.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    },
+    {
+      "year": 2017,
+      "age": 39,
+      "description": "Grizzlies buy-sell agreement crisis forced expensive buyout of minority partners and revealed challenges of absentee ownership, with team missing playoffs",
+      "descriptionKo": "Grizzlies 매수-매도 계약 위기로 소수 파트너의 비용이 많이 드는 매수와 부재 소유의 도전 공개, 팀이 플레이오프 미진출",
+      "howTheyOvercameKo": "Ubiquiti의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "스포츠 프랜차이즈의 주주 분쟁 및 전문 스포츠 팀 소유의 복잡성에 대해 배움. 기술의 재정적 성공이 자동으로 스포츠 관리로 전환되지 않음을 보여줌.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    },
+    {
+      "year": 2017,
+      "age": 39,
+      "description": "Faced criticism for minimal involvement in Memphis Grizzlies operations despite being majority owner, with frequent overseas absences cited. The 2017 buy-sell agreement crisis created public disputes with minority shareholders. Reports of strained relationships with star players and coaching staff. Generally maintains low public profile outside of business circles.",
+      "descriptionKo": "다수 소유자임에도 불구하고 Memphis Grizzlies 운영에 최소한의 개입으로 비판을 받았으며, 해외 빈번한 부재가 지적됨. 2017년 매수-매도 계약 위기는 소수 주주와의 공개적 분쟁을 야기함. 스타 선수 및 코칭 스태프와의 긴장된 관계 보도. 일반적으로 비즈니스 서클 외부에서 낮은 공개 프로필을 유지.",
+      "howTheyOvercameKo": "Ubiquiti의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "대규모 지분과 영향력은 투명한 지배구조와 이해관계자 신뢰를 요구한다.",
+      "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2026,
+      "netWorth": 31.7
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "최소 인력·커뮤니티 유통으로 Ubiquiti를 키우고 Memphis Grizzlies를 인수한 엔지니어",
+    "knownForKo": "최소 인력·커뮤니티 유통으로 Ubiquiti를 키우고 Memphis Grizzlies를 인수한 엔지니어",
+    "philanthropy": "Through Ubiquiti, supports Internet connectivity initiatives in emerging markets and underserved rural areas. Focuses on technology access and bridging the digital divide as core philanthropic mission. As Grizzlies owner, involved in Memphis community initiatives and youth sports development.",
+    "philanthropyKo": "Ubiquiti를 통해 신흥 시장 및 서비스가 부족한 농촌 지역의 인터넷 연결 이니셔티브를 지원. 핵심 자선 미션으로 기술 접근성 및 디지털 격차 해소에 초점. Grizzlies 소유자로서 Memphis 커뮤니티 이니셔티브 및 청소년 스포츠 개발에 참여.",
+    "controversies": "Faced criticism for minimal involvement in Memphis Grizzlies operations despite being majority owner, with frequent overseas absences cited. The 2017 buy-sell agreement crisis created public disputes with minority shareholders. Reports of strained relationships with star players and coaching staff. Generally maintains low public profile outside of business circles.",
+    "controversiesKo": "다수 소유자임에도 불구하고 Memphis Grizzlies 운영에 최소한의 개입으로 비판을 받았으며, 해외 빈번한 부재가 지적됨. 2017년 매수-매도 계약 위기는 소수 주주와의 공개적 분쟁을 야기함. 스타 선수 및 코칭 스태프와의 긴장된 관계 보도. 일반적으로 비즈니스 서클 외부에서 낮은 공개 프로필을 유지."
+  },
+  "characterKo": {
+    "observedTraitsKo": "공개 경력에서는 장기 지분 보유, 높은 통제력, Ubiquiti의 핵심 경쟁력에 집중하는 성향이 관찰된다.",
+    "leadershipStyleKo": "조직을 작게 유지하고 제품·자본배분을 직접 통제하는 극단적 효율 중심형이다.",
+    "conflictBehaviorKo": "공개 논쟁보다 법률·이사회·전문경영진을 통해 대응하며 핵심 소유권은 쉽게 양보하지 않는 편이다.",
+    "knownQuirksKo": "확인되지 않은 일화는 제외했으며, 공개 자료에서 반복적으로 확인되는 낮은 대외 노출과 장기 집중이 특징이다.",
+    "source": "https://en.wikipedia.org/wiki/Robert_Pera"
+  },
+  "sajuConnection": null
+}
