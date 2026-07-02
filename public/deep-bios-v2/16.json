@@ -1,0 +1,199 @@
+{
+  "id": "16",
+  "name": "Steve Ballmer",
+  "nameKo": "스티브 발머",
+  "netWorth": "$121.5B",
+  "nationality": "US",
+  "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Detroit, Michigan, United States",
+    "birthPlaceKo": "미국 미시간주 디트로이트",
+    "familyBackground": "His father was a Swiss immigrant who worked as a Ford manager; his mother was from a Belarusian Jewish family.",
+    "familyBackgroundKo": "스위스계 이민자인 아버지는 포드자동차 관리자였고, 어머니는 벨라루스계 유대인 가정 출신이었다. 집안 창업 자본 없이 성장한 대학 1세대였다.",
+    "education": "BA in applied mathematics and economics, Harvard University; attended Stanford Graduate School of Business.",
+    "educationKo": "하버드대에서 응용수학·경제학 학사를 최우등급으로 마쳤고, 스탠퍼드 경영대학원 MBA 과정에 진학했으나 마이크로소프트 합류를 위해 중퇴했다.",
+    "earlyLife": "He excelled in mathematics, worked on Harvard student publications, and lived near Bill Gates at Harvard.",
+    "earlyLifeKo": "수학 경시대회에서 두각을 나타냈고 하버드 교지 활동을 했다. 같은 기숙사에 살던 빌 게이츠와의 인연이 훗날 경력의 결정적 연결 고리가 됐다.",
+    "capitalTypeKo": "초기 자본은 현금이 아니라 수학·영업 역량, 빌 게이츠와의 신뢰, 그리고 마이크로소프트에서 받은 초기 지분이었다.",
+    "source": "https://en.wikipedia.org/wiki/Steve_Ballmer"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "1980년 마이크로소프트의 첫 사업관리자로 합류해 이익배분 계약을 지분 약 8%로 바꿨다. 이후 회사의 기업용 소프트웨어 판매를 키우며 보유 주식 가치가 복리로 상승했고, 이 지분이 재산의 핵심이 됐다.",
+    "source": "https://en.wikipedia.org/wiki/Steve_Ballmer"
+  },
+  "careerTimeline": [
+    {
+      "year": 1977,
+      "age": 21,
+      "event": "Graduated from Harvard and joined Procter & Gamble.",
+      "eventKo": "하버드대를 졸업하고 프록터앤드갬블(P&G) 제품관리자로 입사했다.",
+      "whyItMatteredKo": "기술만이 아니라 소비재 마케팅과 조직 운영을 배운 경험이 이후 마이크로소프트의 영업 체계를 만드는 토대가 됐다.",
+      "whatTheyRiskedKo": "수학·학계 진로 대신 기업 현장을 택했다.",
+      "whoHelpedKo": "P&G의 제품관리 조직과 동료들이 실무 훈련을 제공했다.",
+      "source": "https://en.wikipedia.org/wiki/Steve_Ballmer"
+    },
+    {
+      "year": 1980,
+      "age": 24,
+      "event": "Left Stanford and joined Microsoft.",
+      "eventKo": "스탠퍼드 MBA를 중퇴하고 마이크로소프트의 30번째 직원이자 첫 사업관리자로 합류했다.",
+      "whyItMatteredKo": "초기 지분을 확보하고 작은 소프트웨어 회사를 대규모 판매 조직으로 키우는 핵심 운영자가 됐다.",
+      "whatTheyRiskedKo": "안정적인 MBA 학위와 대기업 경력 경로를 포기했다.",
+      "whoHelpedKo": "대학 친구 빌 게이츠가 직접 영입했다.",
+      "source": "https://www.microsoft.com/en-us/news/exec/steve/default.aspx"
+    },
+    {
+      "year": 1986,
+      "age": 30,
+      "event": "Microsoft completed its initial public offering.",
+      "eventKo": "마이크로소프트가 기업공개를 마치며 초기 지분이 거래 가능한 대규모 금융자산으로 바뀌었다.",
+      "whyItMatteredKo": "발머가 운영 성장에 기여해 받은 지분이 급여를 훨씬 넘어서는 부의 원천으로 전환됐다.",
+      "whatTheyRiskedKo": "상장기업의 분기 실적과 시장 평가에 경영 성과가 직접 노출됐다.",
+      "whoHelpedKo": "빌 게이츠, 초기 임직원, 투자은행과 공개시장 투자자들이 상장을 완성했다.",
+      "source": "https://en.wikipedia.org/wiki/Microsoft"
+    },
+    {
+      "year": 1992,
+      "age": 36,
+      "event": "Led worldwide sales and support.",
+      "eventKo": "마이크로소프트의 전 세계 영업·지원 부문을 이끌었다.",
+      "whyItMatteredKo": "윈도와 오피스를 기업 표준으로 확산시켜 지분 가치의 기반인 반복 소프트웨어 매출을 키웠다.",
+      "whatTheyRiskedKo": "빠르게 커지는 글로벌 유통망의 실행 실패 책임을 떠안았다.",
+      "whoHelpedKo": "마이크로소프트의 개발 조직과 PC 제조사 파트너들이 성장을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Steve_Ballmer"
+    },
+    {
+      "year": 1998,
+      "age": 42,
+      "event": "Became president of Microsoft.",
+      "eventKo": "마이크로소프트 사장에 올라 일상 경영 전반을 맡았다.",
+      "whyItMatteredKo": "기술 창업자 중심 조직을 대형 상장사의 영업·재무 시스템으로 전환하는 권한을 확보했다.",
+      "whatTheyRiskedKo": "반독점 압박 속에서 회사 운영 성과를 직접 책임졌다.",
+      "whoHelpedKo": "빌 게이츠와 이사회가 경영 권한을 확대했다.",
+      "source": "https://en.wikipedia.org/wiki/Steve_Ballmer"
+    },
+    {
+      "year": 2000,
+      "age": 44,
+      "event": "Succeeded Bill Gates as Microsoft CEO.",
+      "eventKo": "빌 게이츠의 뒤를 이어 마이크로소프트 CEO가 됐다.",
+      "whyItMatteredKo": "14년 동안 매출을 크게 늘리고 서버·기업용 사업을 강화해 기존 지분의 장기 가치를 지켰다.",
+      "whatTheyRiskedKo": "닷컴 붕괴와 반독점 소송 이후의 회사를 맡았다.",
+      "whoHelpedKo": "게이츠가 회장 겸 소프트웨어 설계자로 남아 기술 방향을 지원했다.",
+      "source": "https://en.wikipedia.org/wiki/Steve_Ballmer"
+    },
+    {
+      "year": 2007,
+      "age": 51,
+      "event": "Launched Windows Vista as mobile competition accelerated.",
+      "eventKo": "윈도 비스타를 출시했지만 같은 시기 아이폰이 등장하며 모바일 전환 압력이 커졌다.",
+      "whyItMatteredKo": "PC 지배력만으로는 다음 플랫폼을 장악할 수 없다는 약점이 드러난 시점이었다.",
+      "whatTheyRiskedKo": "윈도 브랜드 신뢰와 모바일 시장의 선점 기회를 잃을 위험이 현실화됐다.",
+      "whoHelpedKo": "기업 고객 기반과 오피스·서버 사업이 실적 하락을 완충했다.",
+      "source": "https://www.tomshardware.com/news/microsoft-longhorn-windows-vista-steve-ballmer-mistake%2C25401.html"
+    },
+    {
+      "year": 2014,
+      "age": 58,
+      "event": "Retired from Microsoft and bought the Los Angeles Clippers.",
+      "eventKo": "마이크로소프트 CEO에서 물러난 뒤 로스앤젤레스 클리퍼스를 20억 달러에 인수했다.",
+      "whyItMatteredKo": "운영 경력을 스포츠 자산으로 옮기면서도 마이크로소프트 주식은 대거 보유해 재산 상승에 계속 참여했다.",
+      "whatTheyRiskedKo": "당시 NBA 구단 사상 최고 수준의 가격을 지불했다.",
+      "whoHelpedKo": "NBA의 매각 승인과 클리퍼스 조직이 새 사업 기반이 됐다.",
+      "source": "https://www.nba.com/clippers/six-things-know-about-steve-ballmer"
+    },
+    {
+      "year": 2024,
+      "age": 68,
+      "event": "Opened Intuit Dome.",
+      "eventKo": "클리퍼스 전용 경기장 인튜이트 돔을 개장했다.",
+      "whyItMatteredKo": "구단을 임차 시설 의존에서 벗어나게 해 경기장 수익과 브랜드 가치를 직접 통제하는 구조를 만들었다.",
+      "whatTheyRiskedKo": "수십억 달러 규모의 장기 건설·운영 자본을 투입했다.",
+      "whoHelpedKo": "클리퍼스 경영진과 잉글우드 지역 파트너들이 사업을 실행했다.",
+      "source": "https://www.nba.com/clippers/intuit-dome"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1980,
+      "age": 24,
+      "decisionKo": "MBA를 포기하고 아직 작은 마이크로소프트에 합류했다.",
+      "alternativeKo": "스탠퍼드 학위를 마치고 전통적 대기업 경영 경로를 택할 수 있었다.",
+      "outcomeKo": "초기 지분과 핵심 운영자 지위를 얻어 세계 최대 소프트웨어 기업의 성장에 직접 참여했다.",
+      "source": "https://en.wikipedia.org/wiki/Steve_Ballmer"
+    },
+    {
+      "year": 2014,
+      "age": 58,
+      "decisionKo": "은퇴 후 현금성 자산에 머물지 않고 LA 클리퍼스를 인수했다.",
+      "alternativeKo": "마이크로소프트 주식과 자선사업만 관리할 수 있었다.",
+      "outcomeKo": "희소한 NBA 프랜차이즈와 전용 경기장을 보유한 스포츠 사업가로 두 번째 경력을 만들었다.",
+      "source": "https://www.nba.com/clippers/six-things-know-about-steve-ballmer"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "재산의 핵심은 창업 초기부터 보유한 마이크로소프트 지분이다. 급여보다 주식 가치 상승과 배당이 부를 만들었고, LA 클리퍼스와 인튜이트 돔이 별도의 스포츠 자산 축을 이룬다.",
+    "moatKo": "마이크로소프트는 윈도·오피스의 전환비용, 개발자 생태계, 기업 판매망을 보유한다. 클리퍼스는 공급이 제한된 NBA 구단이라는 희소성이 방어막이다.",
+    "luckVsSkillKo": "PC 산업 폭발과 게이츠와의 대학 인연은 큰 행운이었다. 그 기회를 지분으로 전환하고 글로벌 영업 조직을 구축한 것은 발머의 실행 역량이었다.",
+    "politicalCapitalKo": "직접적인 정치 권력은 없지만 대형 기술기업 CEO와 프로스포츠 구단주로서 규제기관·지방정부와 협상할 제도적 접근성을 가졌다.",
+    "capitalHistoryKo": "초기 이익배분 계약이 지분으로 바뀌었고, 마이크로소프트의 상장과 장기 성장으로 복리화됐다. 은퇴 후에도 핵심 주식을 보유하면서 일부 자본을 클리퍼스와 경기장에 재배치했다.",
+    "source": "https://en.wikipedia.org/wiki/Steve_Ballmer"
+  },
+  "failures": [
+    {
+      "year": 2007,
+      "age": 51,
+      "description": "Windows Vista suffered poor reception and delays.",
+      "descriptionKo": "윈도 비스타는 개발 지연과 호환성·성능 논란으로 시장의 혹평을 받았고, 발머도 이를 가장 후회하는 결정으로 꼽았다.",
+      "howTheyOvercameKo": "윈도 7로 제품 신뢰를 회복하고 오피스·서버 등 기업 사업의 현금흐름을 유지했다.",
+      "lessonKo": "시장 지배력은 복잡한 제품 개발과 고객 경험 실패를 자동으로 상쇄하지 못한다.",
+      "source": "https://www.tomshardware.com/news/microsoft-longhorn-windows-vista-steve-ballmer-mistake%2C25401.html"
+    },
+    {
+      "year": 2012,
+      "age": 56,
+      "description": "Surface RT inventory led to a major write-down.",
+      "descriptionKo": "서피스 RT 판매 부진으로 마이크로소프트가 대규모 재고 평가손실을 기록했다.",
+      "howTheyOvercameKo": "하드웨어 전략을 중단하지 않고 제품군을 개선해 후속 서피스를 기업용 프리미엄 PC로 재정립했다.",
+      "lessonKo": "플랫폼 방어를 위한 하드웨어 진출도 수요 검증과 앱 생태계가 없으면 자본을 소모한다.",
+      "source": "https://www.microsoft.com/en-us/Investor/earnings/FY-2013-Q4/press-release-webcast"
+    },
+    {
+      "year": 2013,
+      "age": 57,
+      "description": "Microsoft committed to Nokia's phone business after missing the smartphone shift.",
+      "descriptionKo": "스마트폰 전환을 놓친 뒤 노키아 휴대전화 사업 인수를 추진했지만 후임 경영진 시기에 대부분의 인수가가 손상 처리됐다.",
+      "howTheyOvercameKo": "발머는 CEO에서 물러났고, 마이크로소프트는 후임 사티아 나델라 아래 클라우드와 구독 소프트웨어에 집중했다.",
+      "lessonKo": "뒤늦은 대형 인수는 이미 이동한 생태계의 네트워크 효과를 돈만으로 되돌리기 어렵다.",
+      "source": "https://www.computerworld.com/article/3535690/microsoft-acquisitions-a-timeline-of-growth-and-a-few-missteps.html"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2026,
+      "netWorth": 121.5
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "High-energy sales leadership and outspoken enthusiasm.",
+    "knownForKo": "무대 위에서 소리치고 뛰는 강한 에너지, 숫자 중심의 영업 관리, 조직에 대한 노골적인 열정으로 알려졌다.",
+    "philanthropy": "Co-founder of Ballmer Group, focused on improving economic mobility for children and families.",
+    "philanthropyKo": "아내 코니와 발머 그룹을 세워 미국 아동·가족의 경제적 이동성, 교육, 지역사회 지원에 자금을 투입한다.",
+    "controversies": "His CEO tenure is criticized for missing the smartphone transition and several costly product bets.",
+    "controversiesKo": "CEO 재임 중 스마트폰 전환을 놓치고 비스타·서피스 RT·노키아 같은 고비용 판단을 했다는 비판을 받는다."
+  },
+  "characterKo": {
+    "observedTraitsKo": "공개 행동에서 경쟁심, 높은 에너지, 수치에 대한 집착, 조직 충성심이 반복적으로 관찰된다.",
+    "leadershipStyleKo": "개발자형 창업자보다 판매·운영 관리자에 가까우며 목표와 실적을 강하게 밀어붙이는 방식이다.",
+    "conflictBehaviorKo": "경쟁사와 내부 이견을 공개적으로 강하게 표현하지만, 결과가 나쁘면 비스타처럼 자신의 판단 오류를 인정하기도 했다.",
+    "knownQuirksKo": "행사에서 'Developers'를 반복해 외치고 무대를 뛰어다니는 과장된 발표 방식이 상징이 됐다.",
+    "source": "https://en.wikipedia.org/wiki/Steve_Ballmer"
+  },
+  "sajuConnection": null
+}

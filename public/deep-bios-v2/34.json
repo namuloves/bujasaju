@@ -1,0 +1,249 @@
+{
+  "id": "34",
+  "name": "Ma Huateng",
+  "nameKo": "마화텅",
+  "netWorth": "$51.2B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Chaoyang, Shantou / Hainan Province, Guangdong Province, China",
+    "birthPlaceKo": "중국 광둥성 샤오톤/하이난성 차오양",
+    "familyBackground": "Middle-class family; father Ma Chenshu worked as port manager in Shenzhen at state-owned enterprise; mother was an accountant",
+    "familyBackgroundKo": "중산층 가정. 아버지 마 첸슈는 선전의 국영 기업에서 항만 관리자로 근무. 어머니는 회계사",
+    "education": "Enrolled at Shenzhen University in 1989, graduated 1993 with Bachelor of Science degree in Computer Science. Showed early interest in computers and astronomy",
+    "educationKo": "1989년 선전 대학 입학, 1993년 컴퓨터과학 학사학위 졸업. 컴퓨터와 천문학에 조기에 관심을 보임",
+    "earlyLife": "Born October 29, 1971. Family relocated to Shenzhen during childhood when father took port manager position, positioning young Ma in the epicenter of China's technology revolution. Nickname 'Pony' derived from English translation of family name Ma (马 horse)",
+    "earlyLifeKo": "1971년 10월 29일 출생. 아버지가 항만 관리자 직책을 받으면서 어린 시절 선전으로 이주. 젊은 마를 중국 기술 혁명의 중심부에 위치시킴. '포니' 별명은 성씨 마(马, 말)의 영어 번역에서 파생",
+    "capitalTypeKo": "통신 소프트웨어 개발 경험과 네 명의 공동창업자, 초기 투자자 자금이 Tencent의 종잣자본이었다.",
+    "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "통신 소프트웨어 개발 경험과 네 명의 공동창업자, 초기 투자자 자금이 Tencent의 종잣자본이었다. 현재 부의 핵심은 Tencent 창업 지분과 게임·광고·핀테크·클라우드에서 발생하는 이익이다.",
+    "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+  },
+  "careerTimeline": [
+    {
+      "year": 1993,
+      "age": 22,
+      "event": "Graduated from Shenzhen University with BS degree in Computer Science",
+      "eventKo": "선전 대학 컴퓨터과학 학사학위 졸업",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 1993,
+      "age": 22,
+      "event": "Began career as software engineer at China Motion Telecom Development (CMTD) developing pager software",
+      "eventKo": "중국 모션 텔레콤 개발(CMTD)에서 소프트웨어 엔지니어로 경력 시작하여 호출기 소프트웨어 개발",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 1995,
+      "age": 24,
+      "event": "Joined Shenzhen Runxun Communications Co., Ltd., overseeing Internet calling systems and research development",
+      "eventKo": "선전 런쉰 커뮤니케이션즈 유한회사(Shenzhen Runxun Communications Co., Ltd.)에 입사하여 인터넷 통화 시스템 및 연구개발 총괄",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 1998,
+      "age": 27,
+      "event": "Co-founded Tencent Inc. with four classmates from Shenzhen University, pooling 500,000 yuan startup capital",
+      "eventKo": "선전 대학 동급생 4명과 함께 텐센트(Tencent Inc.)를 공동 설립하여 50만 위안의 시작 자본금 확보",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 1999,
+      "age": 28,
+      "event": "Launched OICQ (Open ICQ) in February, a Chinese-interface instant messaging service similar to Israeli ICQ; reached 1 million registered users by year-end",
+      "eventKo": "2월 중국식 인터페이스를 갖춘 인스턴트 메시징 서비스 OICQ(Open ICQ) 출시. 연말까지 100만 명의 가입자 도달",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2000,
+      "age": 29,
+      "event": "Secured $2.2 million investment from US firm IDC and Hong Kong telecom PCCW, which acquired 40% stake in Tencent",
+      "eventKo": "미국 IDC와 홍콩 통신사 PCCW로부터 220만 달러 투자 확보. PCCW가 텐센트 40% 지분 인수",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2001,
+      "age": 30,
+      "event": "Tencent accumulated over $32 million in investment; company becoming dominant instant messaging platform in China",
+      "eventKo": "텐센트가 3,200만 달러 이상의 투자를 확보. 중국 인스턴트 메시징 플랫폼으로 우위를 갖춤",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2004,
+      "age": 33,
+      "event": "Tencent went public on Hong Kong stock exchange; launched online gaming platform same year",
+      "eventKo": "텐센트가 홍콩 증권거래소에 상장. 같은 해 온라인 게임 플랫폼 출시",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2007,
+      "age": 36,
+      "event": "First named by Time magazine as one of the world's most influential people",
+      "eventKo": "타임지 세계 영향력 있는 인물로 처음 선정",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2010,
+      "age": 39,
+      "event": "Assigned two competing teams to work on mobile messaging solution, setting stage for next-generation product",
+      "eventKo": "모바일 메시징 솔루션 개발을 위해 두 개의 경쟁 팀을 배치하여 차세대 제품 출시 준비",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2011,
+      "age": 40,
+      "event": "WeChat launched at start of year after winning internal competition, revolutionizing mobile instant messaging",
+      "eventKo": "연초 내부 경쟁에서 승리한 후 위챗(WeChat) 출시. 모바일 인스턴트 메시징 혁신",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2012,
+      "age": 41,
+      "event": "WeChat reached 100 million users, becoming dominant mobile messaging platform in China",
+      "eventKo": "위챗이 1억 사용자 도달. 중국의 지배적 모바일 메시징 플랫폼이 됨",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2014,
+      "age": 43,
+      "event": "Named again by Time magazine as one of world's most influential people",
+      "eventKo": "타임지 세계 영향력 있는 인물로 다시 선정",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2018,
+      "age": 47,
+      "event": "Named third time by Time magazine as one of world's most influential people",
+      "eventKo": "타임지 세계 영향력 있는 인물로 세 번째 선정",
+      "whyItMatteredKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1998,
+      "age": 27,
+      "decisionKo": "선전 대학 동급생 4명과 함께 텐센트(Tencent Inc.)를 공동 설립하여 50만 위안의 시작 자본금 확보",
+      "alternativeKo": "기존 경로를 유지하거나 더 낮은 위험의 선택을 할 수 있었다.",
+      "outcomeKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2010,
+      "age": 39,
+      "decisionKo": "모바일 메시징 솔루션 개발을 위해 두 개의 경쟁 팀을 배치하여 차세대 제품 출시 준비",
+      "alternativeKo": "확장 속도를 늦추고 기존 사업에 집중할 수 있었다.",
+      "outcomeKo": "Tencent의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "Tencent 창업 지분과 게임·광고·핀테크·클라우드에서 발생하는 이익",
+    "moatKo": "WeChat의 사회관계 네트워크, 게임 콘텐츠, 결제 생태계, 대규모 개발·투자 포트폴리오",
+    "luckVsSkillKo": "산업 성장과 시장 시점은 행운이었지만, Tencent의 지분을 확보·유지하고 자본을 재투자한 판단이 부를 복리화했다.",
+    "politicalCapitalKo": "전국인민대표대회 대표 경력이 있고 중국 인터넷 규제와 긴밀히 조율해야 한다.",
+    "capitalHistoryKo": "통신 소프트웨어 개발 경험과 네 명의 공동창업자, 초기 투자자 자금이 Tencent의 종잣자본이었다. 이후 Tencent의 성장에서 나온 현금흐름과 지분가치가 재투자되며 현재 자산으로 확대됐다.",
+    "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+  },
+  "failures": [
+    {
+      "year": 2000,
+      "age": 29,
+      "description": "America Online (AOL) lawsuit against Tencent for creating OICQ imitation and violating ICQ intellectual property rights; Tencent lost the case",
+      "descriptionKo": "미국 온라인(AOL)이 텐센트를 OICQ 모방 및 ICQ 지적재산권 침해로 고소. 텐센트가 패소",
+      "howTheyOvercameKo": "Tencent의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "지적 재산권 보호와 브랜드 차별화의 중요성을 배움. OICQ를 QQ로 브랜드명 변경을 강요받았으나, 역설적으로 더 좋은 중국 시장 적합성과 브랜딩으로 인해 더욱 성공함",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2005,
+      "age": 34,
+      "description": "Tencent struggled with monetization and profitability in early years despite user growth, facing financial pressures and unclear business model",
+      "descriptionKo": "사용자 증가에도 불구하고 텐센트가 초기 수익화 및 수익성에 애로를 겪음. 재정 압박과 불명확한 사업 모델 직면",
+      "howTheyOvercameKo": "Tencent의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "사용자 기반만으로는 수익성을 보장하지 않음을 이해함. 게임 사업으로 다각화로 이어짐. 게임은 텐센트의 주요 수익 원동력이자 수익성 있는 사업 모델이 됨",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    },
+    {
+      "year": 2015,
+      "age": 44,
+      "description": "Gaming division faced significant competitive pressures with competitors continuously producing new products; Ma publicly acknowledged they 'achieved nothing' despite being flagship business",
+      "descriptionKo": "게임 사업부가 경쟁사들의 계속되는 신제품 출시로 상당한 경쟁 압력 직면. 마 회장이 기함 사업임에도 불구하고 '성과 없음'을 공개적으로 인정",
+      "howTheyOvercameKo": "Tencent의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "지속적 혁신의 필요성과 게임 시장 리더십이 지속적인 제품 갱신을 요구함을 인식. 조직 전반의 혁신 문화 공약으로 영감",
+      "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2026,
+      "netWorth": 51.2
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "QQ와 WeChat을 중심으로 Tencent 생태계를 만든 엔지니어 창업자",
+    "knownForKo": "QQ와 WeChat을 중심으로 Tencent 생태계를 만든 엔지니어 창업자",
+    "philanthropy": "Pledged $2 billion through Tencent Foundation to education, healthcare, and rural development in China. Active in education funding and social causes. Major donor to universities and research institutions",
+    "philanthropyKo": "텐센트 재단을 통해 중국의 교육, 보건, 농촌 개발에 20억 달러 약정. 교육 자금 조성 및 사회 사업에 활동적. 대학 및 연구 기관의 주요 기부자",
+    "controversies": "Faced ICQ intellectual property lawsuit leading to OICQ rebranding; classified as 'copycat' in various ventures; regulatory scrutiny regarding Tencent's market dominance in gaming, fintech, and social media; voluntarily reduced fintech market share to address regulatory concerns and avoid conflict with traditional banking sector",
+    "controversiesKo": "OICQ 브랜드명 변경으로 이어진 ICQ 지적재산권 소송 직면. 여러 사업에서 '카피캣'으로 분류됨. 게임, 핀테크, 소셜 미디어의 텐센트 시장 지배력 관련 규제 감시. 규제 우려 해결 및 전통 금융 부문과의 충돌 회피를 위해 핀테크 시장 점유율 자발적 감소"
+  },
+  "characterKo": {
+    "observedTraitsKo": "공개 경력에서는 장기 지분 보유, 높은 통제력, Tencent의 핵심 경쟁력에 집중하는 성향이 관찰된다.",
+    "leadershipStyleKo": "조용한 제품 중심 리더로, 경쟁 제품을 빠르게 학습하고 생태계로 통합한다.",
+    "conflictBehaviorKo": "공개 논쟁보다 법률·이사회·전문경영진을 통해 대응하며 핵심 소유권은 쉽게 양보하지 않는 편이다.",
+    "knownQuirksKo": "확인되지 않은 일화는 제외했으며, 공개 자료에서 반복적으로 확인되는 낮은 대외 노출과 장기 집중이 특징이다.",
+    "source": "https://en.wikipedia.org/wiki/Pony_Ma"
+  },
+  "sajuConnection": null
+}

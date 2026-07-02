@@ -1,0 +1,229 @@
+{
+  "id": "26",
+  "name": "Zhang Yiming",
+  "nameKo": "장이밍",
+  "netWorth": "$69.3B",
+  "nationality": "CN",
+  "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Longyan, Fujian Province, China",
+    "birthPlaceKo": "중국 푸젠성 룽옌",
+    "familyBackground": "Born on April 1, 1983, to parents who were civil servants. He was an only son, raised in an environment that valued education and hard work.",
+    "familyBackgroundKo": "1983년 4월 1일 공무원 부모에게서 태어났으며, 외아들로서 교육과 근면을 중시하는 환경에서 성장했다.",
+    "education": "Graduated from Nankai University in Tianjin in 2005 with a degree in Software Engineering, after majoring in microelectronics engineering and software engineering.",
+    "educationKo": "천진 난카이 대학교에서 미세전자공학 및 소프트웨어공학을 전공한 후 2005년 소프트웨어공학 학위로 졸업했다.",
+    "earlyLife": "Grew up as an only child with parents who were government officials. His upbringing instilled a strong work ethic and thirst for knowledge, foundational to his future success.",
+    "earlyLifeKo": "정부 관료 부모 아래 외아들로 성장했으며, 그의 양육 환경은 강한 근무 윤리와 지식에 대한 욕구를 심어주었고 이는 훗날 성공의 기초가 되었다.",
+    "capitalTypeKo": "소프트웨어 개발 능력, 이전 스타트업 경험, 초기 투자자 자금이 ByteDance의 종잣자본이었다.",
+    "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "소프트웨어 개발 능력, 이전 스타트업 경험, 초기 투자자 자금이 ByteDance의 종잣자본이었다. 현재 부의 핵심은 ByteDance 창업 지분과 Toutiao·Douyin·TikTok의 광고·커머스·콘텐츠 매출이다.",
+    "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+  },
+  "careerTimeline": [
+    {
+      "year": 2005,
+      "age": 21,
+      "event": "Graduated from Nankai University with a degree in Software Engineering",
+      "eventKo": "난카이 대학교에서 소프트웨어공학 학위로 졸업했다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2009,
+      "age": 25,
+      "event": "Founded 99fang.com, a real estate search portal startup",
+      "eventKo": "부동산 검색 포털 스타트업인 99fang.com을 설립했다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2009,
+      "age": 25,
+      "event": "Worked at Kuxun, a travel startup later acquired by TripAdvisor",
+      "eventKo": "나중에 TripAdvisor에 인수된 여행 스타트업 Kuxun에서 근무했다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2009,
+      "age": 25,
+      "event": "Worked at Fanfou, a Chinese social networking service",
+      "eventKo": "중국 소셜 네트워킹 서비스인 Fanfou에서 근무했다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2010,
+      "age": 26,
+      "event": "Worked at Microsoft",
+      "eventKo": "마이크로소프트에서 근무했다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2011,
+      "age": 27,
+      "event": "Hired a CEO to run 99fang.com, freeing himself to pursue new ventures",
+      "eventKo": "99fang.com을 운영할 CEO를 고용하여 새로운 사업을 추진할 수 있는 여유를 확보했다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2012,
+      "age": 28,
+      "event": "Founded ByteDance with co-founder Liang Rubo in a four-bedroom apartment in March",
+      "eventKo": "공동창업자 량루보(Liang Rubo)와 함께 3월에 4베드룸 아파트에서 바이트댄스(ByteDance)를 설립했다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2012,
+      "age": 28,
+      "event": "Launched Toutiao news app in August; achieved 13 million daily users within two years",
+      "eventKo": "8월에 토타오(Toutiao) 뉴스 앱을 출시했고 2년 내에 일일 1,300만 사용자를 달성했다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2016,
+      "age": 32,
+      "event": "Launched Douyin (domestic version of TikTok) in September, featuring short video creation and AI-driven recommendations",
+      "eventKo": "9월에 도우인(Douyin, 국내 TikTok 버전)을 출시했으며 단편 비디오 창작과 AI 기반 추천 기능을 특징으로 했다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2017,
+      "age": 33,
+      "event": "Launched TikTok internationally in September to expand beyond Chinese market",
+      "eventKo": "9월에 중국 시장을 넘어 확대하기 위해 TikTok을 국제적으로 출시했다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2018,
+      "age": 34,
+      "event": "ByteDance acquired Musical.ly for US$800 million and integrated it into TikTok",
+      "eventKo": "바이트댄스가 Musical.ly를 8억 미국 달러에 인수하여 TikTok에 통합했다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2021,
+      "age": 37,
+      "event": "Stepped down as CEO, transitioning leadership to co-founder Liang Rubo while remaining deeply involved in strategy",
+      "eventKo": "CEO직에서 물러나 공동창업자 량루보에게 경영권을 이양했으나 전략 수립에 깊이 관여하고 있다",
+      "whyItMatteredKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 2009,
+      "age": 25,
+      "decisionKo": "중국 소셜 네트워킹 서비스인 Fanfou에서 근무했다",
+      "alternativeKo": "기존 경로를 유지하거나 더 낮은 위험의 선택을 할 수 있었다.",
+      "outcomeKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2016,
+      "age": 32,
+      "decisionKo": "9월에 도우인(Douyin, 국내 TikTok 버전)을 출시했으며 단편 비디오 창작과 AI 기반 추천 기능을 특징으로 했다",
+      "alternativeKo": "확장 속도를 늦추고 기존 사업에 집중할 수 있었다.",
+      "outcomeKo": "ByteDance의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "ByteDance 창업 지분과 Toutiao·Douyin·TikTok의 광고·커머스·콘텐츠 매출",
+    "moatKo": "대규모 이용자 행동 데이터, 추천 알고리즘, 빠른 앱 실험과 글로벌 배포 역량",
+    "luckVsSkillKo": "산업 성장과 시장 시점은 행운이었지만, ByteDance의 지분을 확보·유지하고 자본을 재투자한 판단이 부를 복리화했다.",
+    "politicalCapitalKo": "중국 콘텐츠 규제와 미국의 국가안보 심사가 핵심 변수이며, 정부와의 관계는 강점이 아니라 지속적 통제 위험이다.",
+    "capitalHistoryKo": "소프트웨어 개발 능력, 이전 스타트업 경험, 초기 투자자 자금이 ByteDance의 종잣자본이었다. 이후 ByteDance의 성장에서 나온 현금흐름과 지분가치가 재투자되며 현재 자산으로 확대됐다.",
+    "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+  },
+  "failures": [
+    {
+      "year": 2009,
+      "age": 25,
+      "description": "99fang.com real estate portal failed to achieve significant market traction and was eventually abandoned after he hired a CEO to run it",
+      "descriptionKo": "99fang.com 부동산 포털은 유의미한 시장 점유율을 확보하지 못했으며, CEO를 고용한 후 결국 중단되었다",
+      "howTheyOvercameKo": "ByteDance의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "초기 사업은 올바른 기회에 자원을 집중시키는 것의 중요성을 가르쳤고, 언제 방향을 바꾸고 더 강한 시장 기회를 추구해야 하는지 인식하게 되었다",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2020,
+      "age": 36,
+      "description": "TikTok faced significant regulatory challenges in India, where the Indian government banned TikTok and several other Chinese apps due to geopolitical tensions",
+      "descriptionKo": "TikTok은 지정학적 긴장으로 인해 인도 정부가 TikTok과 여러 중국 앱을 금지한 인도에서 심각한 규제 문제에 직면했다",
+      "howTheyOvercameKo": "ByteDance의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "지정학적 역학 관계를 이해하는 것의 중요성과 정치적으로 민감한 시장에서 앱 지배력의 한계를 보여주었으며, 기술 혁신만으로는 규제 장벽을 극복할 수 없다는 것을 깨닫게 했다",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    },
+    {
+      "year": 2020,
+      "age": 36,
+      "description": "Faced severe challenges navigating US-China geopolitical tensions, with the US government threatening to ban TikTok unless ByteDance sold it to a US company; Beijing simultaneously restricted ByteDance from selling the company",
+      "descriptionKo": "미국 정부가 바이트댄스가 미국 회사에 TikTok을 판매하지 않는 한 금지하겠다고 위협하는 동시에 베이징은 바이트댄스의 판매를 제한하여 미중 지정학적 긴장 속에서 심각한 도전에 직면했다",
+      "howTheyOvercameKo": "ByteDance의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "초강대국 사이에 낀 기술 기업의 취약성과 여러 방향에서의 전례 없는 정치적 압력에 직면했을 때 순수한 비즈니스 전략의 한계를 드러냈다",
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2026,
+      "netWorth": 69.3
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "추천 알고리즘을 중심으로 ByteDance와 TikTok을 만든 소프트웨어 창업자",
+    "knownForKo": "추천 알고리즘을 중심으로 ByteDance와 TikTok을 만든 소프트웨어 창업자",
+    "philanthropy": "Limited public philanthropic activities compared to other tech billionaires. Focus has been primarily on ByteDance's social responsibility initiatives and impact on digital culture. Maintains low profile in charitable giving, preferring to concentrate on business strategy and innovation.",
+    "philanthropyKo": "다른 기술 재벌들에 비해 제한적인 공개 자선 활동. 주로 바이트댄스의 사회 책임 이니셔티브와 디지털 문화에 미치는 영향에 집중하고 있다. 자선 기부에서 낮은 프로필을 유지하며 사업 전략과 혁신에 집중하는 것을 선호한다.",
+    "controversies": "TikTok ban threats in the United States due to national security concerns and alleged data privacy issues. Geopolitical conflicts between US and China regarding ByteDance ownership and TikTok's algorithm. Allegations of data collection practices and content moderation policies. Criticism from child safety advocates regarding TikTok's impact on youth. Indian government ban in 2020 due to border tensions with China. Controversies regarding app algorithm and youth mental health impacts.",
+    "controversiesKo": "국가 안보 우려와 의혹 있는 데이터 프라이버시 문제로 인한 미국의 TikTok 금지 위협. 바이트댄스 소유권과 TikTok 알고리즘에 관한 미중 지정학적 갈등. 데이터 수집 관행과 콘텐츠 중재 정책에 대한 의혹. TikTok이 청소년에 미치는 영향에 대한 아동 안전 옹호자들의 비판. 중국과의 국경 긴장으로 인한 2020년 인도 정부의 금지. 앱 알고리즘과 청소년 정신 건강 영향에 관한 논쟁."
+  },
+  "characterKo": {
+    "observedTraitsKo": "공개 경력에서는 장기 지분 보유, 높은 통제력, ByteDance의 핵심 경쟁력에 집중하는 성향이 관찰된다.",
+    "leadershipStyleKo": "제품 실험과 데이터에 집착하지만 일상 인사관리보다 장기 기술전략을 선호한다.",
+    "conflictBehaviorKo": "공개 논쟁보다 법률·이사회·전문경영진을 통해 대응하며 핵심 소유권은 쉽게 양보하지 않는 편이다.",
+    "knownQuirksKo": "확인되지 않은 일화는 제외했으며, 공개 자료에서 반복적으로 확인되는 낮은 대외 노출과 장기 집중이 특징이다.",
+    "source": "https://en.wikipedia.org/wiki/Zhang_Yiming"
+  },
+  "sajuConnection": null
+}
