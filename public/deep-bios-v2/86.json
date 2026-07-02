@@ -1,0 +1,199 @@
+{
+  "id": "86",
+  "name": "Andreas von Bechtolsheim",
+  "nameKo": "안드레아스 폰 베흐톨스하임",
+  "netWorth": "$26.6B",
+  "nationality": "DE",
+  "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Hängeberg am Ammersee, Finning, Bavaria, Germany",
+    "birthPlaceKo": "독일 바바리아주 핑닝 행거베르크 암 암머제",
+    "familyBackground": "Born September 30, 1955, as the second of four children to a family of modest means. His father was an elementary school teacher and his mother managed the household. The family lived on a leased farm about a mile from the nearest village, surrounded by meadows, forests, with the Alps visible in the distance, creating an isolated rural environment.",
+    "familyBackgroundKo": "1955년 9월 30일 소박한 가정의 네 자녀 중 둘째로 태어남. 아버지는 초등학교 교사였고 어머니는 가정을 관리했다. 가족은 가장 가까운 마을에서 약 1마일 떨어진 목장에서 살았고, 초원과 숲으로 둘러싸여 있으며 알프스가 거리에 보이는 고립된 시골 환경이었다.",
+    "education": "Attended German international school in Rome, Italy (1963-1968) when family relocated. Later studied electrical engineering at Technical University of Munich with support from German Academic Scholarship Foundation. Won physics prize in Jugend forscht (German young researchers competition) in 1974. Pursued Master's degree in computer engineering from Carnegie Mellon University with Fulbright Scholarship. Completed PhD in electrical engineering and computer science at Stanford University (left in 1982 to co-found Sun).",
+    "educationKo": "가족이 이탈리아 로마로 이주했을 때 독일 국제학교 다님(1963-1968). 이후 독일학문장학재단의 지원으로 뮌헨공과대학교에서 전기공학 전공. 1974년 독일 청년연구자 대회 유젠드 포르슈트에서 물리학상 수상. 풀브라이트 장학금으로 카네기멜론대학교에서 컴퓨터공학 석사 학위 취득. 스탠퍼드대학교에서 전기공학 및 컴퓨터과학 박사 학위 취득(1982년 Sun 공동 설립을 위해 중퇴).",
+    "earlyLife": "From early childhood, displayed fascination with electronics and mechanics. At age 4-5, began disassembling household items like reel-to-reel tape recorders to understand how they worked. By age 6, constructed simple electric motors using scavenged wires and magnets. By late 1960s, progressed to advanced electronics involving transistors. This self-directed technical curiosity, fostered by isolated rural environment, became the foundation for his later innovations.",
+    "earlyLifeKo": "어린 시절부터 전자제품과 기계에 대한 매력을 보임. 4-5세에 릴투릴 테이프 레코더 등 가정용 물품을 분해하여 작동 원리를 이해하기 시작. 6세 때 수집한 전선과 자석으로 간단한 전동기 제작. 1960년대 후반까지 트랜지스터를 포함한 고급 전자제품으로 발전. 시골 고립 환경이 촉진한 이 자기 주도적 기술 호기심은 이후의 혁신을 위한 기초가 됨.",
+    "capitalTypeKo": "스탠퍼드 워크스테이션 설계기술을 Sun 공동창업 지분으로, 매각수익을 Google과 네트워크 스타트업에 재투자했다.",
+    "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "스탠퍼드 워크스테이션 설계기술을 Sun 공동창업 지분으로, 매각수익을 Google과 네트워크 스타트업에 재투자했다. 현재 부의 핵심은 Arista Networks 지분과 Sun·Granite Systems 매각대금, 초기 Google 지분 수익이다.",
+    "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+  },
+  "careerTimeline": [
+    {
+      "year": 1974,
+      "age": 19,
+      "event": "Won physics prize in Jugend forscht German science competition for young researchers after three years of participation",
+      "eventKo": "3년간의 참가 후 독일 청년 과학자 경연대회 유젠드 포르슈트에서 물리학상 수상",
+      "whyItMatteredKo": "Sun Microsystems·Arista·Google 투자의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    },
+    {
+      "year": 1978,
+      "age": 23,
+      "event": "Completed Master's degree in computer engineering from Carnegie Mellon University on Fulbright Scholarship",
+      "eventKo": "풀브라이트 장학금으로 카네기멜론대학교에서 컴퓨터공학 석사 학위 취득",
+      "whyItMatteredKo": "Sun Microsystems·Arista·Google 투자의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    },
+    {
+      "year": 1982,
+      "age": 27,
+      "event": "Co-founded Sun Microsystems with Scott McNealy, Vinod Khosla, and Bill Joy. Served as employee #1 and chief hardware architect. Left Stanford PhD program to launch the company",
+      "eventKo": "스콧 매닐리, 비노드 코슬라, 빌 조이와 함께 Sun Microsystems 공동 설립. 직원 #1로 입사하여 최고 하드웨어 설계자로 활동. 스탠퍼드 박사과정을 떠나 회사 창립",
+      "whyItMatteredKo": "Sun Microsystems·Arista·Google 투자의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    },
+    {
+      "year": 1986,
+      "age": 31,
+      "event": "Sun Microsystems IPO, achieving successful public market debut. Company's workstation-based approach validates Bechtolsheim's hardware vision",
+      "eventKo": "Sun Microsystems 상장으로 성공적인 공모 성공. 회사의 워크스테이션 기반 접근 방식이 베히톨스하임의 하드웨어 비전을 검증",
+      "whyItMatteredKo": "Sun Microsystems·Arista·Google 투자의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    },
+    {
+      "year": 1988,
+      "age": 33,
+      "event": "Sun Microsystems reaches $1 billion in annual sales milestone, becoming major competitor in workstation market",
+      "eventKo": "Sun Microsystems가 연간 매출 10억 달러 이정표 도달, 워크스테이션 시장의 주요 경쟁사가 됨",
+      "whyItMatteredKo": "Sun Microsystems·Arista·Google 투자의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    },
+    {
+      "year": 1995,
+      "age": 40,
+      "event": "Founded Granite Systems, a Gigabit Ethernet startup focused on high-speed network switching technology",
+      "eventKo": "고속 네트워크 스위칭 기술에 중점을 둔 기가비트 이더넷 스타트업 그라나이트 시스템즈 창립",
+      "whyItMatteredKo": "Sun Microsystems·Arista·Google 투자의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    },
+    {
+      "year": 1998,
+      "age": 43,
+      "event": "Made landmark investment of $100,000 in Google alongside David Cheriton when Google had not yet been formally incorporated. This became one of the most valuable angel investments in history",
+      "eventKo": "데이비드 체리톤과 함께 아직 공식적으로 설립되지 않은 Google에 $100,000을 투자. 이것은 역사상 가장 가치 있는 천사 투자 중 하나가 됨",
+      "whyItMatteredKo": "Sun Microsystems·Arista·Google 투자의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    },
+    {
+      "year": 2001,
+      "age": 46,
+      "event": "Founded Kealia with Stanford professor David Cheriton, focused on high-performance server design",
+      "eventKo": "스탠퍼드 교수 데이비드 체리톤과 함께 고성능 서버 설계에 중점을 둔 켈리아(Kealia) 창립",
+      "whyItMatteredKo": "Sun Microsystems·Arista·Google 투자의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    },
+    {
+      "year": 2005,
+      "age": 50,
+      "event": "Co-founded Arista Networks with David Cheriton, revolutionizing cloud networking architecture. Served as chairman initially",
+      "eventKo": "데이비드 체리톤과 함께 클라우드 네트워킹 아키텍처를 혁신한 아리스타 네트웍스(Arista Networks) 공동 설립. 초기에 회장으로 활동",
+      "whyItMatteredKo": "Sun Microsystems·Arista·Google 투자의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "whatTheyRiskedKo": "자본 손실과 실행 실패, 평판 훼손 가능성을 감수했다.",
+      "whoHelpedKo": "공동창업자와 임직원, 고객·투자자가 실행을 뒷받침했다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1982,
+      "age": 27,
+      "decisionKo": "스콧 매닐리, 비노드 코슬라, 빌 조이와 함께 Sun Microsystems 공동 설립. 직원 #1로 입사하여 최고 하드웨어 설계자로 활동. 스탠퍼드 박사과정을 떠나 회사 창립",
+      "alternativeKo": "기존 경로를 유지하거나 더 낮은 위험의 선택을 할 수 있었다.",
+      "outcomeKo": "Sun Microsystems·Arista·Google 투자의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    },
+    {
+      "year": 1998,
+      "age": 43,
+      "decisionKo": "데이비드 체리톤과 함께 아직 공식적으로 설립되지 않은 Google에 $100,000을 투자. 이것은 역사상 가장 가치 있는 천사 투자 중 하나가 됨",
+      "alternativeKo": "확장 속도를 늦추고 기존 사업에 집중할 수 있었다.",
+      "outcomeKo": "Sun Microsystems·Arista·Google 투자의 소유권·경쟁력·자본가치가 형성되는 데 중요한 단계였다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "Arista Networks 지분과 Sun·Granite Systems 매각대금, 초기 Google 지분 수익",
+    "moatKo": "네트워크 하드웨어 설계 IP, 데이터센터 고객 이해, 실리콘밸리 창업·투자 네트워크",
+    "luckVsSkillKo": "산업 성장과 시장 시점은 행운이었지만, Sun Microsystems·Arista·Google 투자의 지분을 확보·유지하고 자본을 재투자한 판단이 부를 복리화했다.",
+    "politicalCapitalKo": "직접 정치자본은 제한적이며 증권규제·반도체 공급망이 핵심 제도 변수다.",
+    "capitalHistoryKo": "스탠퍼드 워크스테이션 설계기술을 Sun 공동창업 지분으로, 매각수익을 Google과 네트워크 스타트업에 재투자했다. 이후 Sun Microsystems·Arista·Google 투자의 성장에서 나온 현금흐름과 지분가치가 재투자되며 현재 자산으로 확대됐다.",
+    "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+  },
+  "failures": [
+    {
+      "year": 1995,
+      "age": 40,
+      "description": "Early Sun Microsystems marketing challenge: attempted to interest other manufacturers in producing Sun workstations but received only lukewarm responses. Sun had to become its own primary manufacturing company",
+      "descriptionKo": "초기 Sun Microsystems 마케팅 문제: 다른 제조업체들이 Sun 워크스테이션을 생산하도록 설득하려 했으나 미지근한 반응만 받음. Sun은 자체 주요 제조 회사가 되어야 했음",
+      "howTheyOvercameKo": "Sun Microsystems·Arista·Google 투자의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "혁신자들도 때로는 수직 통합이 필요할 수 있다. 일부 시장에서는 제조 능력 구축이 기술 혁신만큼 중요하다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    },
+    {
+      "year": 2009,
+      "age": 54,
+      "description": "Oracle's $7.4 billion acquisition of Sun Microsystems forced exit from the company Bechtolsheim co-founded 27 years earlier. Represents loss of independence for the company and its original vision",
+      "descriptionKo": "오라클의 Sun Microsystems $7.4억 인수로 27년 전 공동 설립한 회사에서 강제 퇴출. 회사와 원래 비전의 독립성 상실 의미",
+      "howTheyOvercameKo": "Sun Microsystems·Arista·Google 투자의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "견고한 기술 혁신 위에 설립된 위대한 회사도 더 큰 경쟁사에 독립성을 잃을 수 있다. 시장 역학과 통합이 창업자 영향력을 무시할 수 있다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    },
+    {
+      "year": 2024,
+      "age": 69,
+      "description": "SEC insider trading settlement for $923,740 civil penalty and five-year bar from serving as officer or director of public companies. Represents reputational and legal setback",
+      "descriptionKo": "SEC와 인사이더 거래 합의로 $923,740 민사 벌금 및 공개회사의 임원 또는 이사로 활동하는 5년 제약. 평판과 법적 차질 의미",
+      "howTheyOvercameKo": "Sun Microsystems·Arista·Google 투자의 핵심 현금흐름을 지키고 운영·준법·자본배분 체계를 보완해 대응했다.",
+      "lessonKo": "성공한 투자자와 임원도 거래 위반에 대한 법적 결과에 직면한다. 규제 준수와 윤리 기준은 성공이나 지위와 관계없이 보편적으로 적용된다.",
+      "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+    }
+  ],
+  "wealthHistory": [
+    {
+      "year": 2026,
+      "netWorth": 26.6
+    }
+  ],
+  "quotes": [],
+  "books": {
+    "authored": [],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Sun·Arista 공동창업자이자 Google에 첫 수표를 쓴 하드웨어 설계자",
+    "knownForKo": "Sun·Arista 공동창업자이자 Google에 첫 수표를 쓴 하드웨어 설계자",
+    "philanthropy": "Supports engineering education and technology research. Contributions to Stanford University's computer science program and scholarships for advanced technical education. Focuses on nurturing next generation of innovators",
+    "philanthropyKo": "공학 교육 및 기술 연구 지원. 스탠퍼드대학교의 컴퓨터과학 프로그램과 고급 기술 교육 장학금에 기여. 차세대 혁신가 양성에 집중",
+    "controversies": "2024 SEC insider trading settlement requiring $923,740 civil penalty and five-year bar from serving as officer or director of public companies; reputational impact from legal violation despite earlier philanthropic contributions",
+    "controversiesKo": "SEC 인사이더 거래 합의로 $923,740 민사 벌금 및 공개회사 임원 또는 이사 역할 금지 5년; 초기 자선활동에도 불구하고 법적 위반으로 인한 평판상 피해"
+  },
+  "characterKo": {
+    "observedTraitsKo": "공개 경력에서는 장기 지분 보유, 높은 통제력, Sun Microsystems·Arista·Google 투자의 핵심 경쟁력에 집중하는 성향이 관찰된다.",
+    "leadershipStyleKo": "직접 아키텍처를 설계하고 빠른 프로토타입으로 기술 병목을 해결하는 엔지니어형이다.",
+    "conflictBehaviorKo": "공개 논쟁보다 법률·이사회·전문경영진을 통해 대응하며 핵심 소유권은 쉽게 양보하지 않는 편이다.",
+    "knownQuirksKo": "확인되지 않은 일화는 제외했으며, 공개 자료에서 반복적으로 확인되는 낮은 대외 노출과 장기 집중이 특징이다.",
+    "source": "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
+  },
+  "sajuConnection": null
+}
