@@ -1,0 +1,207 @@
+{
+  "id": "141",
+  "name": "James Ratcliffe",
+  "nameKo": "짐 랫클리프",
+  "netWorth": "$18B",
+  "nationality": "GB",
+  "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Failsworth, Lancashire, England",
+    "birthPlaceKo": "잉글랜드 랭커셔 페일스워스",
+    "familyBackground": "His father worked as a joiner and later ran a factory making laboratory furniture; his mother worked in an accounts office. He was raised in a council house until age 10, when the family moved to East Yorkshire.",
+    "familyBackgroundKo": "아버지는 목수로 일하다 실험실 가구를 만드는 공장을 운영했고, 어머니는 회계 사무실에서 일했다. 10세까지 공영주택(카운슬 하우스)에서 자랐으며, 이후 가족이 이스트요크셔로 이주했다. 비교적 소박한 노동계급 가정 출신이다.",
+    "education": "BSc in chemical engineering from the University of Birmingham (1974); later an MBA from London Business School, funded by Esso.",
+    "educationKo": "비벌리 그래머 스쿨을 거쳐 1974년 버밍엄 대학교에서 화학공학 학사(2:1)를 받았다. 이후 1978~1980년 에소(Esso)의 지원으로 런던 비즈니스 스쿨에서 MBA를 취득했다(2016년 이 학교에 2,500만 파운드를 기부했다).",
+    "earlyLife": "A working-class upbringing in Lancashire and Yorkshire; a lifelong Manchester United fan. After graduating he was fired from BP after just three days due to eczema.",
+    "earlyLifeKo": "랭커셔와 요크셔에서 노동계급으로 자랐으며 어릴 때부터 맨체스터 유나이티드의 열성 팬이었다. 졸업 후 BP에 입사했으나 습진(에크제마) 때문에 유해 화학물질을 다루기 어렵다는 이유로 단 3일 만에 해고되었다.",
+    "capitalTypeKo": "자수성가",
+    "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "랫클리프의 부는 자수성가형이다. 화학공학자이자 회계·경영 경력을 쌓은 뒤, 1992년 집을 담보로 BP 화학 사업부 인수를 주도했고 1998년 INEOS를 창업했다. 고수익 부채(정크본드)를 활용해 ICI·BP 등 대기업이 처분하는 화학 사업부를 저평가 상태에서 사들여 5년 내 이익을 두 배로 키우는 전략으로 INEOS를 세계적 화학 그룹으로 키웠다.",
+    "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+  },
+  "careerTimeline": [
+    {
+      "year": 1974,
+      "age": 22,
+      "event": "Graduated in chemical engineering; briefly worked at BP before being fired",
+      "eventKo": "화학공학 학위 취득 후 BP에 입사했으나 곧 해고됨",
+      "whyItMatteredKo": "습진 때문에 단 3일 만에 해고된 굴욕적 시작이었으나, 이후 회계와 경영으로 방향을 돌리며 새로운 경력을 쌓는 계기가 되었다.",
+      "whatTheyRiskedKo": "안정된 대기업 취업 대신 밑바닥에서 다시 시작해야 하는 불확실성.",
+      "whoHelpedKo": "이후 회계 훈련을 받은 제약회사.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 1980,
+      "age": 28,
+      "event": "Completed MBA at London Business School, funded by Esso",
+      "eventKo": "에소의 지원으로 런던 비즈니스 스쿨에서 MBA 취득",
+      "whyItMatteredKo": "화학 지식에 재무·경영 역량을 더하면서, 훗날 대형 인수를 설계하고 실행할 수 있는 기반을 마련했다.",
+      "whatTheyRiskedKo": "실무 경력 중 학업에 시간을 투자하는 기회비용.",
+      "whoHelpedKo": "고용주 에소(MBA 학비 지원).",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 1989,
+      "age": 37,
+      "event": "Joined US private equity group Advent International",
+      "eventKo": "미국 사모펀드 그룹 어드벤트 인터내셔널에 합류",
+      "whyItMatteredKo": "사모펀드에서 차입 인수(LBO)의 실무를 익히며, 저평가 자산을 부채로 사들여 가치를 키우는 방식을 체득했다. 이는 이후 INEOS의 핵심 전략이 되었다.",
+      "whatTheyRiskedKo": "제조업 경영자에서 금융 투자자로 전환하는 경력상의 도전.",
+      "whoHelpedKo": "어드벤트 인터내셔널.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 1992,
+      "age": 40,
+      "event": "Mortgaged his house to lead a buyout of a BP chemicals business (Inspec)",
+      "eventKo": "집을 담보로 BP 화학 사업부(인스펙) 인수를 주도",
+      "whyItMatteredKo": "자기 재산을 걸고 실행한 첫 대형 인수로, 화학 자산 인수·경영 사업가로서의 출발점이자 훗날 INEOS 창업의 씨앗이 되었다.",
+      "whatTheyRiskedKo": "개인 주택을 담보로 잡히는 매우 큰 개인적·재무적 위험.",
+      "whoHelpedKo": "인수 금융 대주단, 어드벤트에서의 경험.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 1998,
+      "age": 46,
+      "event": "Founded INEOS to buy out Inspec and the Antwerp chemicals site",
+      "eventKo": "INEOS를 창업해 인스펙과 앤트워프 화학 부지를 인수",
+      "whyItMatteredKo": "INEOS 창업은 그의 부의 출발점이다. 작은 기반에서 시작해 정크본드로 자금을 조달하며 인수 행진을 시작했다.",
+      "whatTheyRiskedKo": "고수익 부채에 의존한 공격적 인수 전략의 재무 위험.",
+      "whoHelpedKo": "고수익 채권 투자자, 공동 창업 파트너들.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 2006,
+      "age": 54,
+      "event": "INEOS acquired BP's refining and petrochemical arm Innovene",
+      "eventKo": "INEOS가 BP의 정유·석유화학 부문 이노빈(Innovene)을 인수",
+      "whyItMatteredKo": "이 인수로 INEOS는 스코틀랜드·이탈리아·독일·프랑스·벨기에·캐나다에 정유소와 공장을 확보하며 세계적 화학 대기업으로 도약했다.",
+      "whatTheyRiskedKo": "대규모 차입을 동원한 초대형 인수의 재무·통합 위험.",
+      "whoHelpedKo": "인수 금융 대주단, INEOS 경영진.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 2010,
+      "age": 58,
+      "event": "Moved INEOS's head office to Rolle, Switzerland, cutting its tax bill by ~£100M a year",
+      "eventKo": "INEOS 본사를 스위스 롤(Rolle)로 옮겨 연간 약 1억 파운드의 세금을 절감",
+      "whyItMatteredKo": "2007년 노르스크하이드로 폴리머 인수 등으로 몸집을 키운 뒤 세 부담을 줄이는 결정으로, 이후 논란이 된 조세 전략의 신호탄이 되었다. 2016년에는 영국으로 일부 복귀했다.",
+      "whatTheyRiskedKo": "본사 이전에 따른 평판·정치적 논란과 세무 리스크.",
+      "whoHelpedKo": "INEOS 경영진.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 2018,
+      "age": 66,
+      "event": "Named the richest person in the UK; knighted for services to business",
+      "eventKo": "영국 최고 부자에 오르고 사업 공로로 기사 작위(경) 수여",
+      "whyItMatteredKo": "선데이타임스 부자 순위에서 영국 1위(약 210억 파운드)에 올랐으며, INEOS를 영국 최대 민간 기업 중 하나로 키운 공로를 인정받았다.",
+      "whatTheyRiskedKo": "해당 없음(자산 평가·수훈).",
+      "whoHelpedKo": "INEOS 임직원, 파트너들.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 2024,
+      "age": 71,
+      "event": "Acquired a ~25% stake in Manchester United and took control of football operations",
+      "eventKo": "맨체스터 유나이티드 지분 약 25%를 인수하고 축구 부문 운영권을 확보",
+      "whyItMatteredKo": "어린 시절부터 응원해 온 구단의 경영권을 사실상 확보한 상징적 인수였다. 다만 이후 대규모 인력 감축과 비용 절감으로 팬들의 반발을 사기도 했다.",
+      "whatTheyRiskedKo": "막대한 인수 대금과 명문 구단 운영에 따르는 평판 위험.",
+      "whoHelpedKo": "INEOS 스포츠, 기존 구단주 글레이저 가문.",
+      "source": "https://www.manutd.com/en/news/detail/man-utd-reaches-agreement-for-sir-jim-ratcliffe-to-acquire-25-per-cent-shareholding"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1998,
+      "age": 46,
+      "decisionKo": "안정된 사모펀드·경영자 경력을 뒤로하고, 정크본드에 의존한 공격적 인수 전략으로 INEOS를 창업하기로 결정.",
+      "alternativeKo": "어드벤트 같은 사모펀드에서 안정적으로 투자자 경력을 이어갈 수도 있었다.",
+      "outcomeKo": "INEOS는 대기업이 버린 화학 자산을 사들이며 급성장해 그를 영국 최고 부자로 만들었다.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 2020,
+      "age": 67,
+      "decisionKo": "브렉시트를 지지하던 그가 세금 절감을 위해 조세 거주지를 햄프셔에서 모나코로 옮기기로 결정.",
+      "alternativeKo": "영국에 조세 거주지를 유지하며 애국적 이미지를 지킬 수도 있었다.",
+      "outcomeKo": "약 40억 파운드의 세금을 절감한 것으로 추정되나, 브렉시트 지지 입장과 맞물려 위선 논란을 불러일으켰다.",
+      "source": "https://www.theguardian.com/business/2020/sep/25/sir-jim-ratcliffe-uks-richest-person-moves-to-tax-free-monaco-brexit-ineos-domicile"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "부의 핵심은 그가 창업하고 지배하는 세계적 화학·석유화학 그룹 INEOS다. 폴리머, 석유화학 원료, 특수화학 등 광범위한 화학 제품을 생산하며, INEOS 오토모티브(그레나디어 SUV), 스포츠(맨유·사이클·F1 스폰서십) 등으로도 확장했다.",
+    "moatKo": "해자는 대기업이 처분하는 저평가 화학 자산을 싸게 사들여 원가를 극단적으로 통제하고 효율화하는 능력, 그리고 비상장 구조에서 오는 신속한 의사결정과 규모의 경제다.",
+    "luckVsSkillKo": "습진으로 3일 만에 해고된 출발에서 영국 최고 부자가 되기까지, 저평가 자산을 알아보는 안목과 차입 인수 실행력은 명백한 실력이다. 다만 2000년대의 저금리·풍부한 유동성 환경이 공격적 차입 전략을 뒷받침한 시대적 운도 작용했다.",
+    "politicalCapitalKo": "정치권력에 기대어 부를 쌓지는 않았으나, 브렉시트·규제·이민 등 정치적 사안에 공개적으로 목소리를 내며 논란의 중심에 서 왔다. 규제 완화를 강하게 주장한다.",
+    "capitalHistoryKo": "1992년 집을 담보로 한 BP 화학 사업부 인수가 최초의 큰 도약이었고, 1998년 INEOS 창업 후 이노빈·노르스크하이드로 폴리머 등 연쇄 인수로 부를 폭발적으로 키웠다. 이후 INEOS를 유럽 최대 규모의 민간 화학 기업으로 성장시켰다.",
+    "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+  },
+  "failures": [
+    {
+      "year": 1974,
+      "age": 22,
+      "description": "Fired from BP after just three days on the job because his eczema made him unfit to work around toxic chemicals.",
+      "descriptionKo": "습진 때문에 유해 화학물질을 다루기 어렵다는 이유로 BP 입사 3일 만에 해고되었다.",
+      "howTheyOvercameKo": "제약회사의 회계 견습직으로 방향을 틀어 재무 역량을 쌓았고, 이후 에소에서 MBA를 마치며 경영자로 성장했다.",
+      "lessonKo": "초기의 굴욕적 실패가 오히려 다른 길을 열 수 있다. 한 분야의 문이 닫히면 인접한 강점을 찾아 방향을 바꾸는 것이 중요하다.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 2019,
+      "age": 66,
+      "description": "INEOS threatened to close its Middlesbrough plant over EU pollution rules, and the plant had recorded 176 permit violations between 2014 and 2017.",
+      "descriptionKo": "INEOS가 EU 오염 규제 준수를 이유로 미들즈브러 공장 폐쇄를 위협했고, 이 공장은 2014~2017년 사이 176건의 배출 허가 위반을 기록해 환경 논란에 휩싸였다.",
+      "howTheyOvercameKo": "규제 유예를 요구하며 협상에 나섰으나, 환경단체와 규제당국의 비판에 직면했다. INEOS는 이후 환경·수소 등 저탄소 투자를 늘리며 이미지 개선을 시도했다.",
+      "lessonKo": "비용 절감 중심 경영은 환경·평판 리스크와 충돌할 수 있으며, 규제와 사회적 기대를 무시한 위협 전략은 역풍을 부른다.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 2021,
+      "age": 68,
+      "description": "INEOS Bio's US ethanol venture failed because syngas contained too much hydrogen cyanide for the bacteria to survive, and the plant was sold in 2017. INEOS Team UK also failed in its 2021 America's Cup bid.",
+      "descriptionKo": "INEOS 바이오의 미국 에탄올 사업은 합성가스에 시안화수소가 너무 많아 발효 박테리아가 생존하지 못해 실패했고, 공장은 2017년 매각되었다. 또한 INEOS 팀 UK는 2021년 아메리카스컵 도전에서 실패했다.",
+      "howTheyOvercameKo": "실패한 미국 에탄올 공장을 매각해 손실을 정리했고, 요트·스포츠 투자에서는 이후 INEOS 브리타니아로 재도전을 이어갔다.",
+      "lessonKo": "기술적 난제와 스포츠 승부에는 자본만으로 해결되지 않는 영역이 있으며, 손실은 신속히 인정하고 자원을 재배치해야 한다.",
+      "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+    },
+    {
+      "year": 2026,
+      "age": 73,
+      "description": "In a February 2026 interview Ratcliffe said the UK had been 'colonised by immigrants', drawing widespread condemnation from fans, unions, campaigners and the Prime Minister.",
+      "descriptionKo": "2026년 2월 인터뷰에서 랫클리프는 영국이 '이민자들에 의해 식민화되었다'고 발언해 팬, 노조, 시민단체, 총리를 포함한 정치권으로부터 광범위한 비난을 받았다.",
+      "howTheyOvercameKo": "그는 자신의 '표현이 일부 사람들에게 불쾌감을 준 것'에 대해 사과했으나, '관리된 이민'의 필요성을 제기했다는 취지는 유지했다.",
+      "lessonKo": "막대한 부와 공적 영향력을 가진 인물의 정치적 발언은 사업·구단의 평판과 직결되며, 신중하지 못한 표현은 브랜드에 실질적 타격을 준다.",
+      "source": "https://www.reuters.com/world/uk/uk-billionaire-ratcliffe-says-he-is-sorry-people-were-offended-by-immigration-2026-02-12/"
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2018, "netWorth": 28000000000 },
+    { "year": 2021, "netWorth": 12000000000 },
+    { "year": 2023, "netWorth": 37000000000 },
+    { "year": 2025, "netWorth": 18000000000 }
+  ],
+  "quotes": [
+    "As a business, INEOS supported the common market, but not a United States of Europe."
+  ],
+  "books": { "authored": [], "recommended": [] },
+  "personalTraits": {
+    "knownFor": "Founder, chairman and CEO of the INEOS chemicals group; buyer of a 25% stake in Manchester United; known for buying and turning around unwanted industrial assets.",
+    "knownForKo": "화학 그룹 INEOS의 창업자이자 회장·CEO이며, 맨체스터 유나이티드 지분 25%를 인수한 인물로, 대기업이 버린 산업 자산을 사들여 되살리는 것으로 유명하다.",
+    "philanthropy": "Founded 'Go Run for Fun' to encourage children's fitness and supported the INEOS 1:59 marathon challenge; the Jim Ratcliffe Foundation drew a Charity Commission inquiry over a ski clubhouse donation.",
+    "philanthropyKo": "아동 체력 증진을 위한 자선단체 '고 런 포 펀'을 설립했고, 킵초게의 마라톤 2시간 벽 도전(INEOS 1:59)을 후원했다. 다만 짐 랫클리프 재단은 스키 클럽하우스 기부와 관련해 자선위원회 조사를 받았다.",
+    "controversies": "Moved his tax residence to Monaco despite backing Brexit; INEOS faced pollution and permit-violation criticism; his 2026 anti-immigrant remarks and Manchester United cost-cutting drew backlash.",
+    "controversiesKo": "브렉시트를 지지하면서도 조세 거주지를 모나코로 옮겨 위선 논란을 샀고, INEOS는 오염·허가 위반으로 비판받았다. 2026년 반이민 발언과 맨유 비용 절감 조치도 큰 반발을 불러왔다."
+  },
+  "characterKo": {
+    "observedTraitsKo": "실용적이고 검소하며 위험을 감수하는 사업가다. 화학공학자 출신답게 숫자와 원가에 밝고, 대기업이 놓친 자산의 가치를 알아보는 안목이 뛰어나다.",
+    "leadershipStyleKo": "비상장 오너 경영으로 신속하게 결정하고, 극단적 비용 통제와 효율을 강조한다. 규제와 관료주의를 노골적으로 비판하는 직설적 스타일이다.",
+    "conflictBehaviorKo": "정치인·규제당국과의 대립을 마다하지 않고 공개적으로 강하게 목소리를 내며, 때로 그 직설이 논란과 역풍을 부른다.",
+    "knownQuirksKo": "극한 스포츠와 모험을 즐겨 사하라 사막 마라톤(마라톤 데 사블)을 완주하고 남극·북극 원정을 다녀왔으며, 어릴 때부터 맨체스터 유나이티드의 열성 팬이다.",
+    "source": "https://en.wikipedia.org/wiki/Jim_Ratcliffe"
+  },
+  "sajuConnection": null
+}

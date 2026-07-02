@@ -1,0 +1,197 @@
+{
+  "id": "153",
+  "name": "John Collison",
+  "nameKo": "존 콜리슨",
+  "netWorth": "$17.5B",
+  "nationality": "IE",
+  "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Limerick, Ireland",
+    "birthPlaceKo": "아일랜드 리머릭",
+    "familyBackground": "Younger son of microbiologist Lily and electronic engineer Denis Collison; raised in the village of Dromineer, County Tipperary.",
+    "familyBackgroundKo": "미생물학자인 어머니 릴리와 전자공학 엔지니어인 아버지 데니스 콜리슨의 아들로, 형 패트릭과 함께 티퍼레리주의 작은 마을 드로미니어에서 자랐다.",
+    "education": "Castletroy College; briefly attended Harvard University in 2009 before dropping out.",
+    "educationKo": "캐슬트로이 칼리지를 졸업하고 2009년 하버드 대학교에 입학했으나 이듬해 중퇴했다.",
+    "earlyLife": "A prodigy who, after finishing secondary school, earned eight A1 and two A2 grades in the Irish Leaving Certificate in 2009; also a pilot and pianist.",
+    "earlyLifeKo": "2009년 아일랜드 대학입학 시험(리빙 서티피킷)에서 A1 여덟 개와 A2 두 개를 받은 수재였다. 형과 함께 십대 초반부터 창업에 뛰어들었고, 비행기 조종과 피아노에도 능하다.",
+    "capitalTypeKo": "자수성가형 기술 창업 자본",
+    "source": "https://en.wikipedia.org/wiki/John_Collison"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "아일랜드 시골 가정에서 태어나 열일곱 살에 형과 함께 창업한 Auctomatic을 매각해 첫 부를 얻고, 2010년 스트라이프를 공동 창업해 결제 인프라 강자로 키우며 세계 최연소 자수성가 억만장자 반열에 올랐다. 상속이나 정치적 배경이 아닌 창업으로 부를 이뤘다.",
+    "source": "https://www.forbes.com/sites/ryanmac/2016/11/28/stripe-investment-makes-cofounder-the-worlds-youngest-self-made-billionaire/"
+  },
+  "careerTimeline": [
+    {
+      "year": 2007,
+      "age": 17,
+      "event": "Co-founded software company Shuppa in Limerick with his elder brother Patrick.",
+      "eventKo": "형 패트릭과 함께 리머릭에서 소프트웨어 회사 '슈파(Shuppa)'를 창업했다.",
+      "whyItMatteredKo": "십대에 시작한 첫 창업으로, 이베이용 도구를 만들며 훗날 스트라이프로 이어지는 창업 여정의 출발점이 됐다.",
+      "whatTheyRiskedKo": "고등학교 재학 중임에도 학업과 병행하며 사업에 시간을 쏟았다.",
+      "whoHelpedKo": "형 패트릭, 그리고 관심을 보인 Y컴비네이터.",
+      "source": "https://en.wikipedia.org/wiki/John_Collison"
+    },
+    {
+      "year": 2008,
+      "age": 17,
+      "event": "Auctomatic was acquired for about $5 million; Collison became a millionaire at 17.",
+      "eventKo": "슈파가 발전한 Auctomatic이 약 500만 달러에 매각되며 열일곱 살에 백만장자가 됐다.",
+      "whyItMatteredKo": "첫 엑싯으로 자본과 창업 경험을 확보했고, 이후 학업을 마치고 하버드로 진학할 발판이 됐다.",
+      "whatTheyRiskedKo": "성공 여부가 불확실한 스타트업에 학창 시절을 걸었다.",
+      "whoHelpedKo": "Y컴비네이터, 옥스퍼드 출신 태거 형제와의 합병.",
+      "source": "https://en.wikipedia.org/wiki/John_Collison"
+    },
+    {
+      "year": 2009,
+      "age": 19,
+      "event": "Finished secondary school with top grades and enrolled at Harvard University.",
+      "eventKo": "우수한 성적으로 고등학교를 마치고 하버드 대학교에 입학했다.",
+      "whyItMatteredKo": "성공적 매각 후에도 정규 교육을 마무리하려 했으나, 곧 창업 열정으로 다른 길을 택하게 된다.",
+      "whatTheyRiskedKo": "명문대 학위와 창업 사이에서 선택의 기로에 섰다.",
+      "whoHelpedKo": "가족과 캐슬트로이 칼리지의 학업 지원.",
+      "source": "https://en.wikipedia.org/wiki/John_Collison"
+    },
+    {
+      "year": 2010,
+      "age": 20,
+      "event": "Dropped out of Harvard and co-founded Stripe with brother Patrick.",
+      "eventKo": "하버드를 중퇴하고 형 패트릭과 함께 온라인 결제 스타트업 스트라이프를 공동 창업했다.",
+      "whyItMatteredKo": "개발자가 몇 줄의 코드로 결제를 붙일 수 있게 한다는 아이디어가 인터넷 상거래 인프라의 핵심이 됐다.",
+      "whatTheyRiskedKo": "하버드 학위를 포기하고 규제가 복잡한 결제 시장에 뛰어들었다.",
+      "whoHelpedKo": "Y컴비네이터, 페이팔 창업자 일론 머스크·피터 틸·맥스 레브친, 세쿼이아 캐피털.",
+      "source": "https://en.wikipedia.org/wiki/John_Collison"
+    },
+    {
+      "year": 2011,
+      "age": 21,
+      "event": "Stripe launched publicly with backing from PayPal founders and top VCs.",
+      "eventKo": "스트라이프가 페이팔 창업자들과 주요 벤처캐피털의 투자를 받아 정식 출범했다.",
+      "whyItMatteredKo": "실리콘밸리 최고 투자자들의 신뢰를 얻으며 결제 시장에 본격 진입했다.",
+      "whatTheyRiskedKo": "검증되지 않은 제품으로 유명 투자자들의 기대를 짊어졌다.",
+      "whoHelpedKo": "일론 머스크, 피터 틸, 세쿼이아 캐피털, 안드리센 호로위츠, SV엔젤.",
+      "source": "https://techcrunch.com/2011/03/28/stealth-payment-startup-stripe-paypal"
+    },
+    {
+      "year": 2016,
+      "age": 26,
+      "event": "Became the world's youngest self-made billionaire after Stripe was valued at $9.2 billion.",
+      "eventKo": "스트라이프 기업가치가 92억 달러로 평가되면서 세계 최연소 자수성가 억만장자가 됐다.",
+      "whyItMatteredKo": "26세에 억만장자에 오르며 밀레니얼 세대 창업 성공의 상징이 됐다.",
+      "whatTheyRiskedKo": "높은 기대와 밸류에이션을 뒷받침할 성장 압박을 감수했다.",
+      "whoHelpedKo": "CapitalG(구글 계열)와 제너럴 캐털리스트.",
+      "source": "https://www.forbes.com/sites/ryanmac/2016/11/28/stripe-investment-makes-cofounder-the-worlds-youngest-self-made-billionaire/"
+    },
+    {
+      "year": 2021,
+      "age": 31,
+      "event": "Stripe reached a $95 billion valuation; Collison invested personally in Irish estates.",
+      "eventKo": "스트라이프가 약 950억 달러 밸류에이션에 도달했고, 콜리슨은 아일랜드 라오이스주의 애비레이시 등 사유지를 매입해 복원에 나섰다.",
+      "whyItMatteredKo": "스트라이프가 미국 최고가 비상장 스타트업이 됐고, 콜리슨은 고향 아일랜드에 대한 애착을 재산으로 표현했다.",
+      "whatTheyRiskedKo": "폐허가 된 저택 복원에 수백만 유로를 장기 투입하기로 했다.",
+      "whoHelpedKo": "스트라이프의 급성장한 지분 가치가 개인 투자의 원천이 됐다.",
+      "source": "https://www.laoistoday.ie/2022/02/02/billionaire-brothers-purchase-laois-mansion-and-set-to-spend-e2-million-doing-it-up/"
+    },
+    {
+      "year": 2023,
+      "age": 32,
+      "event": "Stripe's valuation was cut to about $50 billion; Collison said he had 'just lost $4bn'.",
+      "eventKo": "스트라이프 밸류에이션이 약 500억 달러로 하향 조정됐고, 콜리슨은 '방금 40억 달러를 잃었지만 그 어느 때보다 야심차다'고 밝혔다.",
+      "whyItMatteredKo": "장부상 큰 손실에도 불구하고 상장을 서두르지 않고 회사를 재정비하며 장기전을 택했다.",
+      "whatTheyRiskedKo": "순자산이 수십억 달러 줄어드는 것을 감수했다.",
+      "whoHelpedKo": "기존·신규 투자자들이 62억 달러 라운드에 참여했다.",
+      "source": "https://www.thetimes.com/business/technology/article/stripes-john-collison-ive-just-lost-4bn-and-im-more-ambitious-than-ever-6h2ffwft9"
+    },
+    {
+      "year": 2025,
+      "age": 34,
+      "event": "Launched a tech-interview podcast, 'A Cheeky Pint'.",
+      "eventKo": "기술 업계 리더들을 인터뷰하는 팟캐스트 'A Cheeky Pint'를 시작했다.",
+      "whyItMatteredKo": "결제 사업을 넘어 산업 담론의 장을 만들며 개인 브랜드와 영향력을 넓혔다.",
+      "whatTheyRiskedKo": "공개 발언이 늘면서 대외 리스크도 함께 커졌다.",
+      "whoHelpedKo": "스트라이프의 네트워크와 업계 인사들이 게스트로 참여했다.",
+      "source": "https://www.businesspost.ie/uncategorized/post-script-economist-columnist-mangles-teanga-tech-founder-takes-swipe-at-stripe-over-pint/"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 2010,
+      "age": 20,
+      "decisionKo": "하버드 학위를 포기하고 형과 함께 스트라이프 창업에 전념하기로 했다.",
+      "alternativeKo": "하버드를 졸업하고 안정적인 커리어를 밟을 수 있었다.",
+      "outcomeKo": "스트라이프를 세계 최대 비상장 핀테크로 키우며 20대에 억만장자가 됐다.",
+      "source": "https://en.wikipedia.org/wiki/John_Collison"
+    },
+    {
+      "year": 2016,
+      "age": 26,
+      "decisionKo": "회사를 조기에 매각하거나 상장하는 대신 비상장 상태로 장기 성장을 추구했다.",
+      "alternativeKo": "높은 밸류에이션에서 지분 일부를 현금화하거나 IPO를 서두를 수 있었다.",
+      "outcomeKo": "지분을 유지하며 형제가 지배력을 지켰고, 이후 밸류에이션 등락 속에서도 독립 경영을 이어갔다.",
+      "source": "https://www.bloomberg.com/news/features/2017-08-01/how-two-brothers-turned-seven-lines-of-code-into-a-9-2-billion-startup"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "스트라이프는 개발자가 몇 줄의 코드로 온라인 결제를 받을 수 있게 하는 결제 인프라 회사다. 처리하는 거래액에 수수료를 매기는 구조로, 인터넷 상거래의 결제 배관 역할을 한다. 콜리슨은 사장(President)으로서 사업·재무 전반을 총괄한다.",
+    "moatKo": "개발자 친화적 API, 방대한 결제·규제·리스크 인프라, 대형 플랫폼과의 통합, 높은 전환 비용이 진입 장벽을 형성한다.",
+    "luckVsSkillKo": "전자상거래 성장기라는 시기적 이점을 누렸지만, 제품 완성도와 고객 신뢰를 쌓은 실행력이 결정적이었다.",
+    "politicalCapitalKo": "정치적 특혜에 기대지 않았으며, 규제 산업 특성상 각국 금융 당국·은행과의 관계 유지가 사업의 전제다.",
+    "capitalHistoryKo": "십대 창업(Auctomatic) 매각 자금이 첫 종잣돈이었고, 부의 대부분은 스트라이프 지분 가치에서 나온다. 형과 함께 지배 지분을 보유한다.",
+    "source": "https://en.wikipedia.org/wiki/Stripe,_Inc."
+  },
+  "failures": [
+    {
+      "year": 2010,
+      "age": 20,
+      "description": "Dropped out of Harvard, forgoing an elite degree to gamble on a new startup.",
+      "descriptionKo": "새 스타트업에 도전하기 위해 명문 하버드를 중퇴하며 학위를 포기했다.",
+      "howTheyOvercameKo": "학위 대신 스트라이프의 성공으로 자신의 선택이 옳았음을 증명했다.",
+      "lessonKo": "안정된 경로를 버리는 위험이 때로 더 큰 기회로 이어진다.",
+      "source": "https://en.wikipedia.org/wiki/John_Collison"
+    },
+    {
+      "year": 2021,
+      "age": 30,
+      "description": "A Forbes profile denigrating Limerick as a 'warzone' sparked backlash tied to the brothers.",
+      "descriptionKo": "형제를 다룬 포브스 프로필이 고향 리머릭을 '전쟁터'로 묘사해 아일랜드에서 거센 반발을 불렀다.",
+      "howTheyOvercameKo": "콜리슨은 기사를 '터무니없다(daft)'고 공개 비판했고, 결국 포브스는 해당 기사를 삭제했다.",
+      "lessonKo": "명성이 커질수록 자신과 고향에 대한 서사를 스스로 바로잡아야 할 때가 있다.",
+      "source": "https://www.thejournal.ie/forbes-article-limerick-stripe-brother-john-patrick-collison-5405891-Apr2021/"
+    },
+    {
+      "year": 2023,
+      "age": 32,
+      "description": "Stripe's valuation fell from $95B to about $50B, cutting Collison's paper wealth sharply.",
+      "descriptionKo": "스트라이프 밸류에이션이 950억 달러에서 약 500억 달러로 떨어져 장부상 순자산이 급감했다.",
+      "howTheyOvercameKo": "62억 달러를 조달해 초기 직원의 유동성·세금 문제를 해결하고 상장을 서두르지 않으며 회사를 다잡았다.",
+      "lessonKo": "밸류에이션 하락은 위기가 아니라 관리 대상이며, 인재 유지와 현금흐름이 우선이다.",
+      "source": "https://www.thetimes.com/business/technology/article/stripes-john-collison-ive-just-lost-4bn-and-im-more-ambitious-than-ever-6h2ffwft9"
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2016, "netWorth": 1.1 },
+    { "year": 2017, "netWorth": 3.2 },
+    { "year": 2021, "netWorth": 11.5 },
+    { "year": 2023, "netWorth": 8 },
+    { "year": 2026, "netWorth": 17.5 }
+  ],
+  "quotes": [],
+  "books": { "authored": [], "recommended": [] },
+  "personalTraits": {
+    "knownFor": "Co-founder and president of Stripe; was the world's youngest self-made billionaire in 2016; pilot and pianist.",
+    "knownForKo": "스트라이프 공동창업자 겸 사장으로, 2016년 세계 최연소 자수성가 억만장자였다. 비행기 조종과 피아노 실력으로도 알려져 있다.",
+    "philanthropy": "Through Stripe, backed California YIMBY and pro-housing initiatives.",
+    "philanthropyKo": "스트라이프를 통해 주택 공급 운동인 캘리포니아 YIMBY 등 친주택 정책 활동을 후원했다.",
+    "controversies": "Named in a backlash over a 2021 Forbes profile that denigrated Limerick; broadly less controversial than typical billionaires.",
+    "controversiesKo": "2021년 고향 리머릭을 폄하한 포브스 프로필 논란에 연루됐으나, 전반적으로 억만장자 치고 논란이 적은 편이다."
+  },
+  "characterKo": {
+    "observedTraitsKo": "빠른 학습력과 실행력을 갖춘 실무형 경영자로, 형과의 역할 분담 속에서 사업·재무를 조율하는 데 능하다.",
+    "leadershipStyleKo": "겉으로 드러나는 카리스마보다 제품과 고객 신뢰에 집중하는 실용적 리더십을 보인다.",
+    "conflictBehaviorKo": "고향을 폄하한 언론 보도에 '터무니없다'며 직접 반박하는 등 부당하다고 느끼면 공개적으로 대응한다.",
+    "knownQuirksKo": "비행기 조종과 피아노 연주를 즐기고, 폐허가 된 아일랜드 저택을 사들여 장기 복원 프로젝트를 진행한다.",
+    "source": "https://en.wikipedia.org/wiki/John_Collison"
+  },
+  "sajuConnection": null
+}

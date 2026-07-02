@@ -1,0 +1,206 @@
+{
+  "id": "154",
+  "name": "Patrick Collison",
+  "nameKo": "패트릭 콜리슨",
+  "netWorth": "$17.5B",
+  "nationality": "IE",
+  "industry": "Technology",
+  "childhood": {
+    "birthPlace": "Limerick, Ireland",
+    "birthPlaceKo": "아일랜드 리머릭",
+    "familyBackground": "Son of microbiologist Lily and electronic engineer Denis Collison; raised in the village of Dromineer, County Tipperary.",
+    "familyBackgroundKo": "미생물학자인 어머니 릴리와 전자공학 엔지니어인 아버지 데니스 콜리슨의 아들로, 티퍼레리주의 작은 마을 드로미니어에서 자랐다. 삼형제 중 장남이다.",
+    "education": "Gaelscoil Aonach Urmhumhan, Castletroy College, then Massachusetts Institute of Technology (dropped out in 2009).",
+    "educationKo": "네나로의 게일스콜 아나흐 우르후한과 캐슬트로이 칼리지를 거쳐 매사추세츠 공과대학교(MIT)에 진학했으나 2009년 창업을 위해 중퇴했다.",
+    "earlyLife": "Took his first computer course at age eight at the University of Limerick and began programming at ten; won the BT Young Scientist of the Year in 2005 at sixteen with 'Croma', a Lisp-type programming language.",
+    "earlyLifeKo": "여덟 살에 리머릭 대학교에서 첫 컴퓨터 강좌를 들었고 열 살에 프로그래밍을 시작했다. 열여섯 살이던 2005년, 직접 만든 리스프(LISP) 계열 프로그래밍 언어 '크로마(Croma)'로 아일랜드 최고 권위의 청소년 과학 대회인 BT 젊은 과학자상을 수상했다.",
+    "capitalTypeKo": "자수성가형 기술 창업 자본",
+    "source": "https://en.wikipedia.org/wiki/Patrick_Collison"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "평범한 아일랜드 시골 가정에서 태어나 십대 시절 소프트웨어 창업(Auctomatic 매각)으로 첫 부를 쌓고, 2010년 동생 존과 함께 결제 스타트업 스트라이프를 창업해 세계 최대 비상장 핀테크 기업으로 키우며 부를 축적했다. 상속이나 정치적 배경이 아닌 기술 창업으로 자수성가한 대표적 인물이다.",
+    "source": "https://www.forbes.com/sites/ryanmac/2016/11/28/stripe-investment-makes-cofounder-the-worlds-youngest-self-made-billionaire/"
+  },
+  "careerTimeline": [
+    {
+      "year": 2005,
+      "age": 16,
+      "event": "Won BT Young Scientist of the Year with the Croma programming language.",
+      "eventKo": "직접 만든 프로그래밍 언어 '크로마'로 BT 젊은 과학자상 대상을 수상했다.",
+      "whyItMatteredKo": "십대 초반에 이미 언어 설계 수준의 프로그래밍 실력을 입증했고, 콜리슨 본인은 이 수상이 이후 사업 성공의 출발점이었다고 회고한다.",
+      "whatTheyRiskedKo": "학업 대신 밤낮으로 코딩에 몰두하며 또래와 다른 길을 택했다.",
+      "whoHelpedKo": "당시 대통령 메리 매컬리스가 직접 시상했고, 리머릭 대학교의 조기 컴퓨터 교육이 밑바탕이 됐다.",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Collison"
+    },
+    {
+      "year": 2007,
+      "age": 19,
+      "event": "Co-founded software company Shuppa in Limerick with brother John.",
+      "eventKo": "동생 존과 함께 리머릭에서 소프트웨어 회사 '슈파(Shuppa)'를 창업했다.",
+      "whyItMatteredKo": "첫 공동 창업으로, 이후 아일랜드 정부 지원을 못 받자 실리콘밸리 Y컴비네이터로 향하는 계기가 됐다.",
+      "whatTheyRiskedKo": "엔터프라이즈 아일랜드가 자금 지원을 거절하면서 국내 자원 없이 사업을 밀어붙여야 했다.",
+      "whoHelpedKo": "Y컴비네이터가 관심을 보이며 미국행을 이끌었고, 옥스퍼드 출신 태거 형제와 합병했다.",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Collison"
+    },
+    {
+      "year": 2008,
+      "age": 19,
+      "event": "Sold Auctomatic to Live Current Media for about $5 million, becoming a teenage millionaire.",
+      "eventKo": "슈파가 발전한 Auctomatic을 캐나다 라이브 커런트 미디어에 약 500만 달러에 매각해 십대에 백만장자가 됐다.",
+      "whyItMatteredKo": "첫 성공적 엑싯으로 자본과 자신감을 얻었고, 이후 밴쿠버 지사의 엔지니어링 디렉터를 맡았다.",
+      "whatTheyRiskedKo": "MIT 학업을 사실상 접고 사업에 전념하는 선택을 했다.",
+      "whoHelpedKo": "공동창업자 태거 형제, Y컴비네이터 네트워크가 매각을 뒷받침했다.",
+      "source": "https://www.rte.ie/news/2008/0327/collison.html"
+    },
+    {
+      "year": 2010,
+      "age": 22,
+      "event": "Co-founded Stripe with brother John.",
+      "eventKo": "동생 존과 함께 온라인 결제 스타트업 스트라이프를 공동 창업했다.",
+      "whyItMatteredKo": "'몇 줄의 코드'로 개발자가 결제를 붙일 수 있게 한다는 아이디어가 인터넷 상거래 인프라의 표준이 됐다.",
+      "whatTheyRiskedKo": "이미 백만장자였지만 안정 대신 규제와 은행 관계가 얽힌 어려운 결제 시장에 다시 뛰어들었다.",
+      "whoHelpedKo": "Y컴비네이터, 그리고 페이팔 창업자 일론 머스크와 피터 틸이 초기 투자자로 참여했다.",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Collison"
+    },
+    {
+      "year": 2011,
+      "age": 22,
+      "event": "Stripe raised about $2 million from PayPal founders and top VCs.",
+      "eventKo": "스트라이프가 페이팔 창업자들과 세쿼이아·안드리센 호로위츠 등으로부터 약 200만 달러를 유치했다.",
+      "whyItMatteredKo": "실리콘밸리 최고 투자자들의 신뢰를 얻으며 정식으로 시장에 등장했다.",
+      "whatTheyRiskedKo": "제품이 검증되기 전 유명 투자자의 기대를 짊어져야 했다.",
+      "whoHelpedKo": "일론 머스크, 피터 틸, 세쿼이아 캐피털, 안드리센 호로위츠, SV엔젤.",
+      "source": "https://techcrunch.com/2011/03/28/stealth-payment-startup-stripe-paypal"
+    },
+    {
+      "year": 2016,
+      "age": 28,
+      "event": "Became one of the world's youngest self-made billionaires after a funding round valued Stripe at $9.2 billion.",
+      "eventKo": "CapitalG·제너럴 캐털리스트 투자로 스트라이프 기업가치가 92억 달러로 평가되며 형제가 세계 최연소 자수성가 억만장자가 됐다.",
+      "whyItMatteredKo": "십대 창업에서 억만장자까지 이른 상징적 사건으로 스트라이프의 위상을 각인시켰다.",
+      "whatTheyRiskedKo": "높은 밸류에이션에 걸맞은 성장 압박을 감수했다.",
+      "whoHelpedKo": "CapitalG(구글 계열)와 제너럴 캐털리스트.",
+      "source": "https://www.forbes.com/sites/ryanmac/2016/11/28/stripe-investment-makes-cofounder-the-worlds-youngest-self-made-billionaire/"
+    },
+    {
+      "year": 2021,
+      "age": 32,
+      "event": "Stripe reached a $95 billion valuation and Collison co-founded the Arc Institute.",
+      "eventKo": "스트라이프가 약 950억 달러 밸류에이션에 도달했고, 콜리슨은 비영리 생명과학 연구소 아크 인스티튜트를 공동 설립했다.",
+      "whyItMatteredKo": "스트라이프가 미국 최고가 비상장 스타트업 반열에 올랐고, 콜리슨은 과학 진보에 대한 관심을 제도화했다.",
+      "whatTheyRiskedKo": "본업 외 대규모 기초과학 후원에 개인 자원과 시간을 투입했다.",
+      "whoHelpedKo": "아내이자 생화학자 실바나 코네르만, 생명과학자 패트릭 수와 공동 설립했다.",
+      "source": "https://en.wikipedia.org/wiki/Arc_Institute"
+    },
+    {
+      "year": 2023,
+      "age": 34,
+      "event": "Stripe's valuation was cut to about $50 billion amid the tech downturn.",
+      "eventKo": "기술주 침체 속에 스트라이프의 내부 밸류에이션이 약 500억 달러로 하향 조정됐다.",
+      "whyItMatteredKo": "정점 대비 절반 가까이 하락했지만 초기 직원 세금·유동성을 위해 자본을 조달하며 상장 없이 버텼다.",
+      "whatTheyRiskedKo": "장부상 순자산이 수십억 달러 줄어드는 것을 감수하며 회사를 재정비했다.",
+      "whoHelpedKo": "기존 및 신규 투자자들이 62억 달러 규모 라운드에 참여했다.",
+      "source": "https://www.thetimes.com/business/technology/article/stripes-john-collison-ive-just-lost-4bn-and-im-more-ambitious-than-ever-6h2ffwft9"
+    },
+    {
+      "year": 2025,
+      "age": 36,
+      "event": "Joined the board of directors of Meta Platforms.",
+      "eventKo": "메타 플랫폼스 이사회에 합류했다.",
+      "whyItMatteredKo": "실리콘밸리 최대 기업의 이사로서 그의 영향력이 결제 산업을 넘어 확장됐음을 보여준다.",
+      "whatTheyRiskedKo": "스트라이프 경영 외 추가 책임과 이해상충 관리 부담을 안았다.",
+      "whoHelpedKo": "메타 창업자 마크 저커버그가 이사로 영입했다.",
+      "source": "https://www.independent.ie/irish-news/meta-adds-stripe-ceo-patrick-collison-to-board-of-directors/a1025719872.html"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 2007,
+      "age": 19,
+      "decisionKo": "아일랜드 정부 지원이 끊기자 회사를 접는 대신 미국 Y컴비네이터로 옮겨 실리콘밸리에서 승부하기로 했다.",
+      "alternativeKo": "국내에 남아 제한된 자원으로 사업을 이어가거나 학업에만 집중할 수도 있었다.",
+      "outcomeKo": "Auctomatic 매각과 스트라이프 창업으로 이어지는 실리콘밸리 커리어의 출발점이 됐다.",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Collison"
+    },
+    {
+      "year": 2010,
+      "age": 22,
+      "decisionKo": "이미 매각 수익으로 여유가 있었음에도 규제가 복잡한 결제 시장에 뛰어들어 스트라이프를 창업했다.",
+      "alternativeKo": "안정적으로 투자하거나 학업으로 돌아가 편안한 삶을 택할 수 있었다.",
+      "outcomeKo": "스트라이프는 세계 최대 비상장 핀테크로 성장해 형제를 억만장자로 만들었다.",
+      "source": "https://www.bloomberg.com/news/features/2017-08-01/how-two-brothers-turned-seven-lines-of-code-into-a-9-2-billion-startup"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "스트라이프는 개발자가 단 몇 줄의 코드로 온라인 결제를 받을 수 있게 해주는 결제 인프라 회사다. 거래액에 수수료를 부과하는 구조로, 전 세계 인터넷 상거래의 '배관' 역할을 한다.",
+    "moatKo": "개발자 친화적 API, 방대한 결제·리스크·규제 인프라, 대형 플랫폼(아마존·구글 등)과의 통합, 그리고 한번 붙이면 바꾸기 어려운 전환 비용이 강력한 해자를 형성한다.",
+    "luckVsSkillKo": "전자상거래 폭발과 개발자 중심 시대라는 시기적 행운을 탔지만, 제품 완성도와 개발자 경험에 집착한 실행력이 성공의 핵심이었다.",
+    "politicalCapitalKo": "정치적 특혜에 의존하지 않았으나, 규제 산업 특성상 각국 금융 당국·은행과의 관계 관리가 사업의 전제 조건이다.",
+    "capitalHistoryKo": "십대 창업(Auctomatic) 매각 자금이 초기 종잣돈이었고, 이후 스트라이프 지분 가치 상승이 부의 대부분을 차지한다. 형제가 함께 지배 지분을 보유한다.",
+    "source": "https://en.wikipedia.org/wiki/Stripe,_Inc."
+  },
+  "failures": [
+    {
+      "year": 2007,
+      "age": 19,
+      "description": "Enterprise Ireland declined to fund Shuppa, the brothers' first startup.",
+      "descriptionKo": "형제의 첫 창업 회사 슈파는 아일랜드 국가기관 엔터프라이즈 아일랜드로부터 자금 지원을 거절당했다.",
+      "howTheyOvercameKo": "국내에 머무는 대신 Y컴비네이터의 관심을 받아들여 실리콘밸리로 이주하고 Auctomatic으로 방향을 틀었다.",
+      "lessonKo": "한 곳의 거절이 끝이 아니며, 자원이 있는 생태계로 옮기는 것이 때로 최선의 선택임을 보여준다.",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Collison"
+    },
+    {
+      "year": 2010,
+      "age": 21,
+      "description": "Dropped out of MIT to pursue entrepreneurship, forgoing an elite degree.",
+      "descriptionKo": "명문 MIT를 중퇴하고 창업에 전념하기로 하면서 학위를 포기했다.",
+      "howTheyOvercameKo": "학위 대신 스트라이프라는 회사를 성공시켜 자신의 판단이 옳았음을 입증했다.",
+      "lessonKo": "제도적 인증보다 실제 문제를 푸는 실행이 더 큰 가치를 만들 수 있다.",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Collison"
+    },
+    {
+      "year": 2023,
+      "age": 34,
+      "description": "Stripe's valuation fell from a $95B peak to about $50B during the tech downturn.",
+      "descriptionKo": "기술주 침체로 스트라이프의 밸류에이션이 정점인 950억 달러에서 약 500억 달러로 급락했다.",
+      "howTheyOvercameKo": "상장을 서두르지 않고 62억 달러를 조달해 초기 직원의 유동성·세금 문제를 해결하며 회사를 다잡았다.",
+      "lessonKo": "밸류에이션은 오르내리며, 위기에는 장부상 손실보다 현금흐름과 인재 유지가 중요하다.",
+      "source": "https://www.thetimes.com/business/technology/article/stripes-john-collison-ive-just-lost-4bn-and-im-more-ambitious-than-ever-6h2ffwft9"
+    },
+    {
+      "year": 2024,
+      "age": 36,
+      "description": "Faced boycott calls after posting an image with the Israeli flag during the Gaza war.",
+      "descriptionKo": "가자 전쟁 중 이스라엘 국기가 담긴 사진을 올린 뒤 스트라이프 불매 요구에 직면했다.",
+      "howTheyOvercameKo": "논란 속에서도 사업 운영과 회사 성장에 집중하며 대응했다.",
+      "lessonKo": "공적 영향력이 큰 창업자의 개인 발언은 브랜드 리스크로 직결될 수 있다.",
+      "source": "https://www.independent.ie/business/stripe-faces-boycott-calls-after-patrick-collison-says-great-to-be-back-in-israel/a1755605975.html"
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2016, "netWorth": 1.1 },
+    { "year": 2017, "netWorth": 3.2 },
+    { "year": 2021, "netWorth": 11.5 },
+    { "year": 2023, "netWorth": 8 },
+    { "year": 2026, "netWorth": 17.5 }
+  ],
+  "quotes": [],
+  "books": { "authored": [], "recommended": [] },
+  "personalTraits": {
+    "knownFor": "Co-founder and CEO of Stripe; advocate of 'Progress Studies'; voracious reader.",
+    "knownForKo": "스트라이프 공동창업자 겸 CEO로, '진보 연구(Progress Studies)'를 주창하고 방대한 독서로도 유명하다.",
+    "philanthropy": "Co-founded Fast Grants to fund COVID-19 science and the nonprofit Arc Institute; Stripe funded California YIMBY.",
+    "philanthropyKo": "코로나19 과학 연구를 신속 지원하는 Fast Grants와 비영리 연구소 아크 인스티튜트를 공동 설립했고, 스트라이프를 통해 주택 공급 운동 캘리포니아 YIMBY를 후원했다.",
+    "controversies": "Faced boycott calls in 2024 over a pro-Israel social media post during the Gaza war.",
+    "controversiesKo": "2024년 가자 전쟁 중 친이스라엘 성향의 SNS 게시물로 불매 요구 논란에 휘말렸다."
+  },
+  "characterKo": {
+    "observedTraitsKo": "지적 호기심이 강하고 과학·역사·철학까지 폭넓게 탐구하며, 자신의 독서 목록을 공개할 만큼 학습 지향적이다.",
+    "leadershipStyleKo": "제품 완성도와 개발자 경험에 집착하는 장인형 리더로, 조용하고 분석적이며 겸손한 태도로 알려져 있다.",
+    "conflictBehaviorKo": "리머릭을 폄하한 포브스 기사에 '무언가를 극복했다는 발상 자체가 이상하다'며 공개적으로 반박하는 등 원칙에는 분명히 대응한다.",
+    "knownQuirksKo": "개인 웹사이트에 읽은 책 목록을 공개하고, '진보 연구'라는 새로운 학문 분야를 제안할 만큼 지적 프로젝트를 즐긴다.",
+    "source": "https://en.wikipedia.org/wiki/Patrick_Collison"
+  },
+  "sajuConnection": null
+}
