@@ -1,0 +1,237 @@
+{
+  "id": "159",
+  "name": "Stephen Ross",
+  "nameKo": "스티븐 로스",
+  "netWorth": "$17B",
+  "nationality": "US",
+  "industry": "Real Estate",
+  "childhood": {
+    "birthPlace": "Detroit, Michigan, U.S.",
+    "birthPlaceKo": "미국 미시간주 디트로이트",
+    "familyBackground": "Grew up in a Jewish family in Detroit; nephew of businessman Max Fisher, whom Ross called his most important role model.",
+    "familyBackgroundKo": "디트로이트의 유대인 가정에서 자랐다. 사업가 맥스 피셔(Max Fisher)의 조카로, 로스는 그를 인생에서 가장 중요한 롤모델이자 영감의 원천이라고 불렀다.",
+    "education": "Earned a BBA from the University of Michigan (1962), a JD from Wayne State University (1965), and an LLM in Taxation from NYU School of Law (1966).",
+    "educationKo": "미시간대학교에서 경영학 학사(1962), 웨인주립대학교에서 법학 박사(JD, 1965), 뉴욕대(NYU) 로스쿨에서 세법 석사(LLM, 1966) 학위를 받았다.",
+    "earlyLife": "Attended Mumford High School in Detroit and later Miami Beach Senior High; his later law degrees were financed by a loan from his uncle Max Fisher.",
+    "earlyLifeKo": "디트로이트의 멈포드 고등학교를 다니다 마이애미비치 고등학교를 졸업했다. 이후 법학 학위 과정은 삼촌 맥스 피셔가 빌려준 자금으로 마쳤다.",
+    "capitalTypeKo": "self-made",
+    "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "로스는 부유한 상속인이 아니었다. 1972년 회사에서 해고된 뒤 어머니가 빌려준 1만 달러로 시작해, 세법 지식을 활용한 연방 보조 저소득 주택 개발 딜로 자수성가했다. 이후 리레이티드 컴퍼니스(Related Companies)를 창업해 허드슨 야드 등 미국 최대 규모의 부동산 개발 사업을 일궈냈다.",
+    "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+  },
+  "careerTimeline": [
+    {
+      "year": 1966,
+      "age": 26,
+      "event": "Completed an LLM in Taxation at NYU and began his career as a tax attorney at Coopers & Lybrand in Detroit.",
+      "eventKo": "NYU에서 세법 석사(LLM)를 마치고 디트로이트의 회계법인 쿠퍼스 앤 라이브랜드에서 세무 변호사로 경력을 시작했다.",
+      "whyItMatteredKo": "세법 전문 지식은 훗날 부동산 개발 딜을 설계하는 핵심 무기가 되었다.",
+      "whatTheyRiskedKo": "안정적 전문직 경로를 택했으나, 이는 그의 진정한 야망과는 맞지 않는 자리였다.",
+      "whoHelpedKo": "삼촌 맥스 피셔(학업 자금 지원).",
+      "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+    },
+    {
+      "year": 1968,
+      "age": 28,
+      "event": "Moved to New York City, working in real estate at Laird Inc. and then in corporate finance at Bear Stearns.",
+      "eventKo": "뉴욕으로 이주해 레어드(Laird Inc.)의 부동산 부문과 이후 베어스턴스의 기업금융 부서에서 일했다.",
+      "whyItMatteredKo": "월가에서 부동산 금융과 자본 구조를 배우며 창업의 밑거름을 쌓았다.",
+      "whatTheyRiskedKo": "디트로이트를 떠나 경쟁이 치열한 뉴욕 금융계에 뛰어드는 위험을 감수했다.",
+      "whoHelpedKo": "레어드와 베어스턴스의 동료들.",
+      "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+    },
+    {
+      "year": 1972,
+      "age": 32,
+      "event": "Fired from Bear Stearns after clashing with a superior; founded Related Companies with $10,000 lent by his mother.",
+      "eventKo": "상사와의 갈등으로 베어스턴스에서 해고된 뒤, 어머니가 빌려준 1만 달러로 리레이티드 컴퍼니스를 창업했다.",
+      "whyItMatteredKo": "이 해고와 창업은 그의 인생을 바꾼 전환점으로, 로스는 훗날 '해고당한 것이 내게 일어난 최고의 일'이라고 회고했다.",
+      "whatTheyRiskedKo": "실직 상태에서 어머니의 소액 대출에 의존해 무자본에 가깝게 사업을 시작했다.",
+      "whoHelpedKo": "어머니(1만 달러 대출)와 세법 지식을 원하던 부유한 투자자들.",
+      "source": "https://money.cnn.com/2018/04/16/news/companies/stephen-ross-rebound/index.html"
+    },
+    {
+      "year": 1972,
+      "age": 32,
+      "event": "Related began as Related Housing Companies, building thousands of federally subsidized low- and moderate-income apartments.",
+      "eventKo": "리레이티드는 초기에 '리레이티드 하우징 컴퍼니스'로 출발해 연방 보조 저·중소득층 아파트 수천 채를 전국에 건설했다.",
+      "whyItMatteredKo": "연방 세제 혜택을 활용한 보조 주택 개발은 로스가 첫해에 15만 달러를 벌며 초기 자본을 축적한 사업 모델이었다.",
+      "whatTheyRiskedKo": "복잡한 세제·규제에 의존하는 사업 구조의 위험을 안았다.",
+      "whoHelpedKo": "세금 절감을 원한 부유한 투자자들과 연방 주택 보조 프로그램.",
+      "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+    },
+    {
+      "year": 1980,
+      "age": 40,
+      "event": "Shifted Related toward higher-profile market-rate and luxury projects in New York.",
+      "eventKo": "1980년대 들어 리레이티드를 뉴욕의 고급·시장가 부동산 등 더 큰 프로젝트로 전환했다.",
+      "whyItMatteredKo": "저소득 주택 개발업체에서 프리미엄 부동산 개발사로 도약하는 전략적 방향 전환이었다.",
+      "whatTheyRiskedKo": "안정적 보조 주택 사업에서 벗어나 경기 변동에 민감한 고급 시장에 뛰어들었다.",
+      "whoHelpedKo": "건축가 로버트 A.M. 스턴 등 협력자들.",
+      "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+    },
+    {
+      "year": 1990,
+      "age": 50,
+      "event": "Hired architect Robert A.M. Stern to design The Chatham on Manhattan's Upper East Side, marking Related's move into high-profile luxury residential development.",
+      "eventKo": "건축가 로버트 A.M. 스턴을 영입해 맨해튼 어퍼이스트사이드의 고급 주거 건물 '더 채텀(The Chatham)'을 설계하게 하며, 리레이티드가 고급 주거 개발로 본격 진입했다.",
+      "whyItMatteredKo": "저소득 보조 주택 개발사에서 프리미엄 부동산 브랜드로 도약하는 상징적 프로젝트였다.",
+      "whatTheyRiskedKo": "고급 부동산 시장의 경기 민감성과 대규모 개발 비용 위험을 감수했다.",
+      "whoHelpedKo": "건축가 로버트 A.M. 스턴.",
+      "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+    },
+    {
+      "year": 1998,
+      "age": 58,
+      "event": "Related expanded into large-scale luxury rental developments, becoming one of the largest owners of luxury residential rentals in the U.S.",
+      "eventKo": "리레이티드가 대규모 고급 임대 주택 개발로 사업을 확장하며 미국 최대 규모의 고급 주거 임대 자산 보유사 중 하나로 성장했다.",
+      "whyItMatteredKo": "안정적인 임대 수익 기반을 구축하며 이후 초대형 복합개발에 나설 재무적 토대를 마련했다.",
+      "whatTheyRiskedKo": "대규모 임대 자산 보유에 따르는 부동산 경기·금리 변동 위험을 감수했다.",
+      "whoHelpedKo": "리레이티드 개발·금융팀.",
+      "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+    },
+    {
+      "year": 2003,
+      "age": 63,
+      "event": "Related completed the Time Warner Center (later Deutsche Bank Center) at Columbus Circle, a landmark mixed-use project.",
+      "eventKo": "리레이티드가 컬럼버스서클에 복합용도 랜드마크인 타임워너 센터(훗날 도이체방크 센터)를 완공했다.",
+      "whyItMatteredKo": "뉴욕 도심 한복판의 대형 복합개발을 성공시키며 리레이티드가 초대형 프로젝트 개발사로 도약하는 계기가 되었다.",
+      "whatTheyRiskedKo": "맨해튼 최고가 부지에서 대규모 자금을 투입하는 개발 위험을 감수했다.",
+      "whoHelpedKo": "리레이티드 개발팀과 주요 앵커 테넌트.",
+      "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+    },
+    {
+      "year": 2004,
+      "age": 64,
+      "event": "Donated $100 million to the University of Michigan, which renamed its business school the Ross School of Business.",
+      "eventKo": "미시간대학교에 1억 달러를 기부했고, 대학은 경영대학원 명칭을 '로스 경영대학원(Ross School of Business)'으로 바꿨다.",
+      "whyItMatteredKo": "당시 대학 역사상 최대 규모 단일 기부로, 로스가 이룬 부의 규모와 모교에 대한 헌신을 상징했다.",
+      "whatTheyRiskedKo": "해당 없음(자선 기부).",
+      "whoHelpedKo": "미시간대학교.",
+      "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+    },
+    {
+      "year": 2009,
+      "age": 69,
+      "event": "Completed purchase of 95% of the Miami Dolphins and Hard Rock Stadium in a deal valued at about $1.1 billion.",
+      "eventKo": "약 11억 달러 규모의 거래로 마이애미 돌핀스와 하드록 스타디움 지분 95%를 최종 인수했다.",
+      "whyItMatteredKo": "부동산 거물에서 NFL 구단주로 영역을 넓히며 스포츠·엔터테인먼트 자산가로 자리매김했다.",
+      "whatTheyRiskedKo": "10억 달러대의 대규모 자본을 변동성 큰 프로 스포츠 자산에 투입했다.",
+      "whoHelpedKo": "전 구단주 웨인 후이젠가(매도자).",
+      "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+    },
+    {
+      "year": 2019,
+      "age": 79,
+      "event": "Opened the first phase of Hudson Yards, the largest and most expensive private real-estate development in U.S. history.",
+      "eventKo": "미국 역사상 최대·최고가 민간 부동산 개발 프로젝트인 허드슨 야드의 1단계를 개장했다.",
+      "whyItMatteredKo": "맨해튼 서편에 도시 하나 규모의 복합단지를 건설하며 로스의 개발업 경력의 정점을 찍었다.",
+      "whatTheyRiskedKo": "에이커당 약 10억 달러에 달하는 천문학적 비용과 복잡한 자금 조달 위험을 감수했다.",
+      "whoHelpedKo": "공동 개발사 옥스퍼드 프로퍼티스와 앵커 테넌트들.",
+      "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+    },
+    {
+      "year": 2024,
+      "age": 84,
+      "event": "Stepped down as chairman of Related Companies to focus on Related Ross (West Palm Beach), the Dolphins, and F1.",
+      "eventKo": "리레이티드 컴퍼니스 회장직에서 물러나(비상임 회장 유지), 웨스트팜비치 개발 사업(Related Ross)과 돌핀스, F1에 집중하기로 했다.",
+      "whyItMatteredKo": "84세에 웨스트팜비치를 금융 허브로 만들겠다는 100억 달러 규모의 '제2막'을 시작하며 여전히 야심찬 개발자로 활동함을 보여주었다.",
+      "whatTheyRiskedKo": "고령에 새로운 지역과 대규모 신규 투자에 자본과 명성을 다시 걸었다.",
+      "whoHelpedKo": "리레이티드 로스와 웨스트팜비치 개발 파트너들.",
+      "source": "https://www.wsj.com/real-estate/stephen-ross-is-launching-his-second-act-at-84-a-new-florida-real-estate-firm-68d340d7"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1972,
+      "age": 32,
+      "decisionKo": "베어스턴스에서 해고된 뒤 재취업 대신 세법 지식을 무기로 어머니의 1만 달러 대출로 자기 사업을 창업하기로 결정했다.",
+      "alternativeKo": "다른 금융회사에 재취업해 안정적인 봉급 생활자로 남을 수도 있었다.",
+      "outcomeKo": "리레이티드 컴퍼니스를 창업해 미국 최대 부동산 개발사 중 하나로 키우며 억만장자가 되었다.",
+      "source": "https://money.cnn.com/2018/04/16/news/companies/stephen-ross-rebound/index.html"
+    },
+    {
+      "year": 2008,
+      "age": 68,
+      "decisionKo": "2008년 금융위기 국면에서 마이애미 돌핀스 지분을 매입하고 이후 95%까지 확대해 NFL 구단주가 되기로 했다.",
+      "alternativeKo": "부동산 개발에만 집중하고 변동성 큰 프로 스포츠 투자를 피할 수도 있었다.",
+      "outcomeKo": "돌핀스는 이후 80억 달러대 가치로 평가받는 자산이 되었고, 로스의 사업 영역을 스포츠·엔터테인먼트로 확장했다.",
+      "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "리레이티드 컴퍼니스를 통한 복합용도·주거·상업 부동산 개발(허드슨 야드, 도이체방크 센터 등)이 핵심이며, 마이애미 돌핀스와 하드록 스타디움, F1 마이애미 그랑프리, RSE 벤처스 등 스포츠·엔터테인먼트 자산도 보유한다.",
+    "moatKo": "진입장벽이 높은 프리미엄 시장에서의 대규모 복합개발 역량, 600억 달러 이상 규모의 부동산 포트폴리오, 그리고 정·재계와의 광범위한 네트워크가 경쟁 우위다.",
+    "luckVsSkillKo": "1970년대 연방 세제 혜택이라는 시대적 기회를 포착한 행운도 있었지만, 세법 지식을 활용해 딜을 설계하고 허드슨 야드 같은 초대형 프로젝트를 성사시킨 것은 뛰어난 협상·개발 역량의 결과다.",
+    "politicalCapitalKo": "정치적 자본을 적극 활용한 인물이다. 민주·공화 양당에 거액을 기부했고, 2019년에는 트럼프 재선 캠프 후원 행사를 열었으며, 2021년 슈퍼팩 'Common Sense NYC'로 뉴욕 시의회 선거에 개입했다.",
+    "capitalHistoryKo": "어머니가 빌려준 1만 달러로 시작해 연방 보조 주택 개발로 초기 자본을 축적했고, 1980년대 고급 부동산으로 전환한 뒤 허드슨 야드로 정점에 올랐다. 부동산 개발 이익과 돌핀스 등 자산 가치 상승이 부의 원천이다.",
+    "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+  },
+  "failures": [
+    {
+      "year": 1972,
+      "age": 32,
+      "description": "Was fired from Bear Stearns after clashing with a superior, leaving him unemployed.",
+      "descriptionKo": "상사와의 충돌 끝에 베어스턴스에서 해고되어 실직 상태에 놓였다.",
+      "howTheyOvercameKo": "재취업 대신 세법 전문성을 살려 어머니의 1만 달러 대출로 리레이티드 컴퍼니스를 창업했다.",
+      "lessonKo": "해고 같은 좌절이 오히려 스스로 사업을 일으키는 최고의 계기가 될 수 있다. 로스 본인이 '해고가 최고의 일'이었다고 회고했다.",
+      "source": "https://money.cnn.com/2018/04/16/news/companies/stephen-ross-rebound/index.html"
+    },
+    {
+      "year": 2013,
+      "age": 73,
+      "description": "Florida lawmakers rejected his request for public funds to renovate Hard Rock Stadium.",
+      "descriptionKo": "플로리다 주 의회가 하드록 스타디움 개보수를 위한 공적 자금 지원 요청을 거부했다.",
+      "howTheyOvercameKo": "공적 자금 대신 자기 돈 약 5억 달러를 들여 스타디움을 직접 리모델링했다.",
+      "lessonKo": "외부 지원이 막히면 자기 자본으로 정면 돌파하는 결단이 장기적으로 슈퍼볼·F1 유치 같은 더 큰 성과로 이어질 수 있다.",
+      "source": "https://www.palmbeachpost.com/story/business/real-estate/2020/01/31/super-bowl-2020-stiff-armed-in-search-for-public-funds-stephen-ross-opened-checkbook-landed-big-prize/112225926/"
+    },
+    {
+      "year": 2019,
+      "age": 79,
+      "description": "Faced widespread boycott calls against Equinox and SoulCycle after hosting a Trump 2020 fundraiser at his Hamptons home.",
+      "descriptionKo": "햄프턴스 자택에서 트럼프 2020 재선 후원 행사를 열자, 그가 관여한 이퀴녹스와 소울사이클에 대한 광범위한 불매운동 요구에 직면했다.",
+      "howTheyOvercameKo": "이퀴녹스·소울사이클 측이 '회사 이익은 정치인 후원에 쓰이지 않는다'며 행사와의 선을 그어 브랜드 피해를 완화했다.",
+      "lessonKo": "공개적 정치 참여는 사업 브랜드에 직접적 반발과 불매 리스크를 불러올 수 있음을 보여준다.",
+      "source": "https://www.cnn.com/2019/08/07/politics/equinox-soulcycle-trump-fundraiser-boycott-trnd/index.html"
+    },
+    {
+      "year": 2022,
+      "age": 82,
+      "description": "The NFL fined Ross $1.5M, suspended him, and stripped the Dolphins of draft picks for tampering with Tom Brady and Sean Payton.",
+      "descriptionKo": "NFL은 톰 브래디·션 페이튼과의 부정 접촉(탬퍼링)을 이유로 로스에게 150만 달러 벌금과 출장 정지를 부과하고, 돌핀스의 드래프트 지명권을 박탈했다.",
+      "howTheyOvercameKo": "제재 기간을 소화하고 구단 운영을 지속하며, 2024년 아레스 매니지먼트 등에 지분을 매각해 구단 가치를 재확인했다.",
+      "lessonKo": "규정을 어긴 공격적 경영은 무거운 제재와 평판 손상으로 되돌아온다.",
+      "source": "https://www.espn.com/nfl/story/_/id/34334514/nfl-strips-miami-dolphins-2023-first-round-pick-fines-stephen-ross-15m-tampering-tom-brady-sean-payton"
+    }
+  ],
+  "wealthHistory": [
+    { "year": 2020, "netWorth": 10.1 },
+    { "year": 2022, "netWorth": 11.6 },
+    { "year": 2024, "netWorth": 11.6 },
+    { "year": 2025, "netWorth": 17 }
+  ],
+  "quotes": [
+    "Getting fired was the best thing that ever happened to me."
+  ],
+  "books": { "authored": [], "recommended": [] },
+  "personalTraits": {
+    "knownFor": "Founder and chairman of Related Companies, developer of Hudson Yards, and principal owner of the Miami Dolphins.",
+    "knownForKo": "리레이티드 컴퍼니스의 창업자이자 회장, 허드슨 야드의 개발자, 마이애미 돌핀스의 대주주로 알려져 있다.",
+    "philanthropy": "The largest donor in University of Michigan history (over $378M in lifetime giving); founded RISE against racism in sports and funded the WRI Ross Center for Sustainable Cities.",
+    "philanthropyKo": "미시간대학교 역사상 최대 기부자(생애 3억 7,800만 달러 이상)다. 스포츠계 인종차별에 맞서는 RISE를 설립하고, WRI 로스 지속가능도시센터에 1억 달러를 기부했다.",
+    "controversies": "2019 Trump fundraiser boycott; 2022 NFL tampering penalties; the Brian Flores lawsuit alleging he offered bonuses for losses (which Ross denied).",
+    "controversiesKo": "2019년 트럼프 후원 행사 불매 논란, 2022년 NFL 탬퍼링 제재, 그리고 브라이언 플로레스 감독이 '패배 시 보너스를 제안했다'고 주장한 소송(로스는 부인) 등이 있다."
+  },
+  "characterKo": {
+    "observedTraitsKo": "집요하고 야심찬 개발자로, 84세에도 100억 달러 규모의 새 프로젝트를 시작할 만큼 왕성한 추진력을 보인다.",
+    "leadershipStyleKo": "직접 딜을 설계하고 세제·자금 구조를 파고드는 실무형 리더로, 앵커 테넌트를 끌어들이기 위해 아트리움을 짓는 등 세밀한 협상까지 챙긴다.",
+    "conflictBehaviorKo": "공적 자금 지원이 막히면 자기 돈으로 정면 돌파하고, NFL 제재나 소송 같은 갈등에도 사업을 밀어붙이는 강경한 태도를 보인다.",
+    "knownQuirksKo": "삼촌 맥스 피셔를 평생의 롤모델로 꼽으며, 스포츠(돌핀스·F1)와 부동산을 결합한 자산 포트폴리오를 즐겨 구축한다.",
+    "source": "https://en.wikipedia.org/wiki/Stephen_M._Ross"
+  },
+  "sajuConnection": null
+}
