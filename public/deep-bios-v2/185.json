@@ -1,0 +1,211 @@
+{
+  "id": "185",
+  "name": "James Dyson",
+  "nameKo": "제임스 다이슨",
+  "netWorth": "$14.7B",
+  "nationality": "GB",
+  "industry": "Manufacturing",
+  "childhood": {
+    "birthPlace": "Cromer, Norfolk, England",
+    "birthPlaceKo": "영국 노퍽주 크로머",
+    "familyBackground": "Son of a schoolteacher; his father died of prostate cancer when James was nine years old, shaping his early self-reliance.",
+    "familyBackgroundKo": "교사 집안에서 태어났으며, 아버지가 제임스가 아홉 살 때 전립선암으로 세상을 떠나 어린 시절부터 자립심을 키웠습니다.",
+    "education": "Attended Byam Shaw School of Art, then studied furniture and interior design at the Royal College of Art (1966–1970).",
+    "educationKo": "바이엄 쇼 미술학교를 다닌 뒤 왕립예술대학(RCA)에서 1966년부터 1970년까지 가구·인테리어 디자인을 공부했습니다.",
+    "earlyLife": "Grew up in Norfolk and lost his father young; trained as a designer at the Royal College of Art before moving into engineering.",
+    "earlyLifeKo": "노퍽에서 자라며 어린 나이에 아버지를 잃었고, 왕립예술대학에서 디자이너로 훈련받은 뒤 엔지니어링으로 방향을 틀었습니다.",
+    "capitalTypeKo": "맨몸 자수성가 — 수천 번의 실패 끝에 발명품으로 부를 일군 인물입니다.",
+    "source": "https://en.wikipedia.org/wiki/James_Dyson"
+  },
+  "capitalOrigin": {
+    "typeKo": "self-made",
+    "explanationKo": "물려받은 사업 없이 디자이너·엔지니어로 출발해 씨트럭, 볼배로 등 초기 제품과 5,127개의 진공청소기 시제품을 거쳐 사이클론 방식의 봉투 없는 진공청소기를 완성했습니다. 특허와 자체 브랜드 다이슨을 통제하며 세운 대표적 자수성가형 자본입니다.",
+    "source": "https://en.wikipedia.org/wiki/James_Dyson"
+  },
+  "careerTimeline": [
+    {
+      "year": 1970,
+      "age": 23,
+      "event": "Joins Rotork and helps develop the Sea Truck landing craft",
+      "eventKo": "로토크에 합류해 씨트럭 상륙정 개발에 참여",
+      "whyItMatteredKo": "디자인 전공자에서 실제 엔지니어링 제품을 만드는 실무자로 전환한 첫 경험이었습니다.",
+      "whatTheyRiskedKo": "안정된 디자인 경력 대신 성패가 불확실한 신제품 개발에 뛰어들었습니다.",
+      "whoHelpedKo": "로토크의 파격적 회장 제러미 프라이가 그를 이끌었습니다.",
+      "source": "https://www.britannica.com/money/James-Dyson"
+    },
+    {
+      "year": 1974,
+      "age": 27,
+      "event": "Founds his own company to make the Ballbarrow wheelbarrow",
+      "eventKo": "볼배로(공 바퀴 손수레)를 만들기 위해 자신의 회사를 설립",
+      "whyItMatteredKo": "처음으로 자기 이름의 발명 사업을 시작하며 창업가로서의 길을 열었습니다.",
+      "whatTheyRiskedKo": "안정된 직장을 떠나 검증되지 않은 소비재 발명에 자본과 시간을 걸었습니다.",
+      "whoHelpedKo": "초기 사업 파트너들.",
+      "source": "https://www.britannica.com/money/James-Dyson"
+    },
+    {
+      "year": 1979,
+      "age": 32,
+      "event": "Begins developing a bagless cyclonic vacuum cleaner",
+      "eventKo": "봉투 없는 사이클론 진공청소기 개발 착수",
+      "whyItMatteredKo": "성능이 떨어지는 후버 진공청소기에 좌절한 뒤, 사이클론 분리 방식을 청소기에 적용하겠다는 결정적 발상을 시작했습니다.",
+      "whatTheyRiskedKo": "볼배로 회사에서 밀려나 빚을 진 상태로 수년간 시제품 제작에 매달렸습니다.",
+      "whoHelpedKo": "가족의 지지와 아내 디어드리의 미술 교사 수입이 생계를 지탱했습니다.",
+      "source": "https://en.wikipedia.org/wiki/James_Dyson"
+    },
+    {
+      "year": 1983,
+      "age": 36,
+      "event": "Completes the 'G-Force' cleaner after about 5,127 prototypes",
+      "eventKo": "약 5,127개의 시제품 끝에 'G-포스' 청소기 완성",
+      "whyItMatteredKo": "5년, 5,127번의 시도라는 집요한 반복 끝에 사이클론 청소기를 완성한 상징적 순간입니다.",
+      "whatTheyRiskedKo": "5,126번의 실패와 막대한 개인 부채를 감수했습니다.",
+      "whoHelpedKo": "가족과 소수의 후원자.",
+      "source": "https://en.wikipedia.org/wiki/James_Dyson"
+    },
+    {
+      "year": 1991,
+      "age": 44,
+      "event": "Licenses the cleaner in Japan as the 'G-Force' via catalogue sales",
+      "eventKo": "일본에서 'G-포스'를 카탈로그 판매 방식으로 라이선스",
+      "whyItMatteredKo": "영국 제조·유통사들이 봉투 교체 시장을 지키려 제품을 거부하자, 일본 시장에서 먼저 성공을 거두며 자금을 확보했습니다.",
+      "whatTheyRiskedKo": "본국 시장에서 외면당한 채 낯선 해외 시장에 사업의 사활을 걸었습니다.",
+      "whoHelpedKo": "일본 라이선스 파트너.",
+      "source": "https://en.wikipedia.org/wiki/James_Dyson"
+    },
+    {
+      "year": 1993,
+      "age": 46,
+      "event": "Launches the Dyson Dual Cyclone (DC01) under his own brand",
+      "eventKo": "자체 브랜드로 다이슨 듀얼 사이클론(DC01) 출시",
+      "whyItMatteredKo": "특허를 직접 쥐고 자기 공장에서 제품을 생산해 영국에서 역대 가장 빠르게 팔린 진공청소기가 되었습니다.",
+      "whatTheyRiskedKo": "라이선스 대신 직접 제조·판매를 택하며 자본을 전면 투입했습니다.",
+      "whoHelpedKo": "다이슨 연구·엔지니어링 팀.",
+      "source": "https://en.wikipedia.org/wiki/James_Dyson"
+    },
+    {
+      "year": 2002,
+      "age": 55,
+      "event": "Dyson enters the U.S. market and expands globally with its cyclonic cleaners",
+      "eventKo": "다이슨이 미국 시장에 진출하며 사이클론 청소기로 세계 시장을 확장",
+      "whyItMatteredKo": "영국을 넘어 미국 등 해외로 사업을 넓히며 글로벌 프리미엄 가전 브랜드로 도약했습니다.",
+      "whatTheyRiskedKo": "경쟁이 치열한 미국 가전 시장에 프리미엄 가격으로 진입하는 위험을 감수했습니다.",
+      "whoHelpedKo": "다이슨 글로벌 판매·엔지니어링 팀.",
+      "source": "https://www.britannica.com/money/James-Dyson"
+    },
+    {
+      "year": 2011,
+      "age": 64,
+      "event": "Dyson diversifies into digital-motor products like the Air Multiplier fan and hand dryers",
+      "eventKo": "다이슨이 에어 멀티플라이어 선풍기·핸드 드라이어 등 디지털 모터 제품으로 다각화",
+      "whyItMatteredKo": "진공청소기를 넘어 독자 디지털 모터 기술을 다양한 제품군으로 확장하며 성장 동력을 넓혔습니다.",
+      "whatTheyRiskedKo": "핵심 청소기 사업을 넘어 신제품 카테고리에 대규모 연구개발을 투자했습니다.",
+      "whoHelpedKo": "다이슨 연구개발 조직.",
+      "source": "https://en.wikipedia.org/wiki/James_Dyson"
+    },
+    {
+      "year": 2016,
+      "age": 69,
+      "event": "Publicly backs Brexit as one of the UK's most prominent business leaders",
+      "eventKo": "영국의 대표적 기업인으로서 브렉시트를 공개 지지",
+      "whyItMatteredKo": "국민투표 전 브렉시트를 지지하며 정치·경제 논쟁의 중심에 섰습니다.",
+      "whatTheyRiskedKo": "기업 브랜드에 대한 정치적 논란과 여론 반발 위험을 감수했습니다.",
+      "whoHelpedKo": "해당 없음(개인적 정치 입장).",
+      "source": "https://en.wikipedia.org/wiki/James_Dyson"
+    },
+    {
+      "year": 2026,
+      "age": 78,
+      "event": "Forbes 2026: net worth around $14.7B in Manufacturing",
+      "eventKo": "포브스 2026 — 제조 부문 약 147억 달러로 등재",
+      "whyItMatteredKo": "다이슨의 진공청소기·헤어드라이어·공기청정기 등 제품군과 대규모 농지 자산이 반영된 순자산 규모입니다.",
+      "whatTheyRiskedKo": "가전에서 전기차 등 신사업으로 확장을 시도하며 실패도 감수했습니다.",
+      "whoHelpedKo": "다이슨 가족 소유 지주회사와 경영진.",
+      "source": "https://www.forbes.com/profile/james-dyson/"
+    }
+  ],
+  "turningPoints": [
+    {
+      "year": 1979,
+      "age": 32,
+      "decisionKo": "볼배로에서 밀려난 뒤 봉투 없는 사이클론 청소기 개발에 모든 것을 걸기로 결정",
+      "alternativeKo": "안정된 직장으로 돌아가 발명을 포기할 수도 있었습니다.",
+      "outcomeKo": "5년간 5,127개의 시제품 끝에 청소기를 완성하며 다이슨 제국의 토대를 만들었습니다.",
+      "source": "https://en.wikipedia.org/wiki/James_Dyson"
+    },
+    {
+      "year": 1993,
+      "age": 46,
+      "decisionKo": "특허를 넘기지 않고 자체 브랜드로 직접 제조·판매하기로 결정",
+      "alternativeKo": "대기업에 특허를 라이선스해 안전하게 로열티만 받을 수도 있었습니다.",
+      "outcomeKo": "다이슨 브랜드가 영국 최고 인기 청소기가 되며 막대한 부를 직접 소유하게 되었습니다.",
+      "source": "https://en.wikipedia.org/wiki/James_Dyson"
+    }
+  ],
+  "moneyMechanics": {
+    "coreBusinessKo": "가족 소유 다이슨의 진공청소기·헤어드라이어·공기청정기 등 고마진 프리미엄 가전이 부의 핵심이며, 영국 최대급 농지를 보유한 비스왁스 다이슨 파밍 등 부동산 자산도 상당합니다.",
+    "moatKo": "강력한 특허 포트폴리오, 사이클론·디지털 모터 등 독자 엔지니어링 기술, 그리고 프리미엄 브랜드 파워가 진입 장벽을 형성합니다.",
+    "luckVsSkillKo": "행운보다 5,127번의 반복이라는 집요한 실력이 부의 원천이지만, 봉투 시장에 갇힌 경쟁사들의 안일함이라는 시장 공백이 기회를 열어줬습니다.",
+    "politicalCapitalKo": "브렉시트 지지로 정치적 목소리를 냈으나, 부 자체는 정치 권력이 아니라 제품과 특허에서 나옵니다.",
+    "capitalHistoryKo": "1974년 볼배로 → 1983년 사이클론 청소기 완성 → 1991년 일본 라이선스 → 1993년 자체 브랜드 → 이후 헤어드라이어·모터·농지로 자산을 확장했습니다.",
+    "source": "https://en.wikipedia.org/wiki/James_Dyson"
+  },
+  "failures": [
+    {
+      "year": 1979,
+      "age": 32,
+      "description": "Dyson was ousted from his own Ballbarrow company after management disputes, and because he had assigned the patent to the company, he was left with nothing.",
+      "descriptionKo": "경영 분쟁 끝에 자신이 세운 볼배로 회사에서 쫓겨났고, 특허를 회사 명의로 넘겨두었던 탓에 빈손으로 나와야 했습니다.",
+      "howTheyOvercameKo": "이 뼈아픈 경험을 교훈 삼아 이후 다이슨에서는 특허와 지분을 철저히 본인이 통제했습니다.",
+      "lessonKo": "발명가는 지식재산권을 절대 남에게 넘겨서는 안 된다는 것을 배웠습니다.",
+      "source": "https://www.britannica.com/money/James-Dyson"
+    },
+    {
+      "year": 1983,
+      "age": 36,
+      "description": "No UK manufacturer or distributor would handle his bagless cleaner, since it threatened the lucrative replacement dust-bag market.",
+      "descriptionKo": "봉투 없는 청소기가 수익성 높은 먼지봉투 교체 시장을 위협했기 때문에, 영국의 어떤 제조사나 유통사도 그의 제품을 받아주지 않았습니다.",
+      "howTheyOvercameKo": "영국 대신 일본에서 카탈로그 판매로 라이선스해 자금을 만들고, 이후 자체 브랜드로 영국 시장에 직접 진입했습니다.",
+      "lessonKo": "기존 시장의 이해관계에 막히면 우회로를 찾아 스스로 시장을 만들어야 합니다.",
+      "source": "https://en.wikipedia.org/wiki/James_Dyson"
+    },
+    {
+      "year": 2019,
+      "age": 72,
+      "description": "Dyson scrapped its electric car project after investing heavily, concluding it was not commercially viable.",
+      "descriptionKo": "다이슨은 막대한 자금을 투입한 전기차 프로젝트를 상업성이 없다고 판단해 전면 백지화했습니다.",
+      "howTheyOvercameKo": "전기차 개발에서 얻은 배터리·모터 기술을 다른 제품과 연구에 활용하며 손실을 흡수했습니다.",
+      "lessonKo": "손실을 키우기 전에 실패한 사업을 과감히 접는 결단도 필요합니다.",
+      "source": "https://www.fastcompany.com/90681619/from-nearly-1-million-in-debt-to-a-household-name-james-dyson-dishes-on-his-biggest-hits-and-misses"
+    }
+  ],
+  "wealthHistory": [
+    {"year": 2020, "netWorth": 16000000000},
+    {"year": 2023, "netWorth": 13000000000},
+    {"year": 2025, "netWorth": 13300000000},
+    {"year": 2026, "netWorth": 14700000000}
+  ],
+  "quotes": [
+    "I made 5,127 prototypes of my vacuum before I got it right. There were 5,126 failures. But I learned from each one. That's how I came up with a solution."
+  ],
+  "books": {
+    "authored": ["Against the Odds: An Autobiography (1997)", "Invention: A Life (2021)"],
+    "recommended": []
+  },
+  "personalTraits": {
+    "knownFor": "Inventor of the bagless cyclonic vacuum cleaner and founder of Dyson; celebrated for perseverance through 5,127 prototypes.",
+    "knownForKo": "봉투 없는 사이클론 진공청소기의 발명가이자 다이슨 창업주로, 5,127개의 시제품을 만든 끈기로 유명합니다.",
+    "philanthropy": "Founded the James Dyson Foundation and the Dyson Institute of Engineering and Technology to support engineering education.",
+    "philanthropyKo": "제임스 다이슨 재단과 다이슨 엔지니어링·기술 연구소를 설립해 공학 교육을 후원하고 있습니다.",
+    "controversies": "His public support for Brexit while later expanding manufacturing and headquarters ties to Singapore drew criticism, as did his status as one of the UK's largest landowners.",
+    "controversiesKo": "브렉시트를 공개 지지하면서도 이후 생산과 본사 기능을 싱가포르와 연계해 확장한 점, 그리고 영국 최대급 지주라는 점이 비판을 받았습니다."
+  },
+  "characterKo": {
+    "observedTraitsKo": "실패를 학습의 도구로 여기는 집요함과 완벽주의적 엔지니어 기질이 두드러집니다.",
+    "leadershipStyleKo": "디자인과 엔지니어링을 직접 챙기며 반복 실험과 원칙 있는 문제 해결을 강조하는 창업가형 리더십을 보입니다.",
+    "conflictBehaviorKo": "특허·지식재산권 침해에 대해서는 소송도 불사하며 단호하게 대응합니다.",
+    "knownQuirksKo": "가전 제국을 세운 발명가이면서도 영국 최대급 농지를 사들여 농업 사업가로도 활동하는 이중적 면모가 있습니다.",
+    "source": "https://en.wikipedia.org/wiki/James_Dyson"
+  },
+  "sajuConnection": null
+}
