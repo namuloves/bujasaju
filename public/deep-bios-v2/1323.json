@@ -5,7 +5,6 @@
   "netWorth": 3.1,
   "nationality": "DE",
   "industry": "Manufacturing",
-
   "childhood": {
     "birthPlace": "Germany",
     "birthPlaceKo": "독일",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "독일에서 다수의 4세대 Stihl 가족 구성원 중 한 명으로 성장. 회사를 비공개·가족 통제로 유지하는 Stihl 가족의 전통이 4세대에 걸친 장기 안정 부 제공.",
     "source": "https://en.wikipedia.org/wiki/Stihl ; https://www.forbes.com/profile/selina-stihl/"
   },
-
   "capitalOrigin": {
     "typeKo": "inherited",
     "explanationKo": "100% 상속. 1926년 증조부 안드레아스 슈틸이 창립한 Andreas Stihl AG & Co. KG의 4세대 가족 지분. 회사가 4세대에 걸쳐 100% 가족 통제 비공개 운영을 유지 — 가족 자본의 안정성이 그녀의 부의 핵심 토대.",
     "source": "https://en.wikipedia.org/wiki/Stihl"
   },
-
   "careerTimeline": [
     {
       "year": 2010,
@@ -114,7 +111,6 @@
       "source": "https://www.stihl.com"
     }
   ],
-
   "turningPoints": [
     {
       "year": 2010,
@@ -133,7 +129,6 @@
       "source": "https://www.stihl.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Andreas Stihl AG & Co. KG(100% 비공개 가족 소유, 4세대 다수 가족 구성원 합산) — 세계 최대 체인톱·실외 동력 장비 제조사. 연 매출 55억 유로+. 본인 자산은 가족 합산이 아닌 본인 직접 가족 신탁 지분.",
     "industryKo": "실외 동력 장비 제조(체인톱·잔디깎이·블로워·배터리 도구)",
@@ -141,7 +136,6 @@
     "moatKo": "① 1926년 이후 99년 누적된 체인톱 기술·브랜드 자산. ② 비공개 가족 소유의 다년간 R&D 시야. ③ 글로벌 제조 시설 네트워크. ④ 4세대 가족 거버넌스의 안정성.",
     "luckVsSkillKo": "운(60%): 증조부가 1926년 체인톱 산업에 진입한 가족 자본 운, Stihl 브랜드가 글로벌 실외 동력 장비 카테고리의 사실상 동의어가 된 거시 환경, 2020 COVID-19 실외 활동 부스트. 실력(40%): 4세대 가족 거버넌스의 무갈등 유지, 가솔린에서 배터리로의 R&D 전환 결단, 비공개 100% 가족 소유의 일관성."
   },
-
   "personalTraits": {
     "knownFor": "Fourth-generation member of the Stihl family — owners of Andreas Stihl AG & Co. KG, the world's leading chainsaw and outdoor power equipment manufacturer; one of the most low-profile German industrial heir billionaires; multi-generational stewardship of one of Germany's most stable family companies.",
     "knownForKo": "세계 최대 체인톱·실외 동력 장비 제조사 Andreas Stihl AG & Co. KG의 4세대 Stihl 가족 구성원. 가장 노출 적은 독일 산업 상속자 억만장자 중 한 명. 독일 가장 안정적인 가족 회사 중 하나의 다세대 관리.",
@@ -150,12 +144,16 @@
     "controversies": "Limited public controversies due to extremely low public profile; Stihl Group has faced occasional environmental and emissions debates typical of gasoline-powered outdoor equipment manufacturers; no major personal scandals.",
     "controversiesKo": "극단적 비공개로 공개 논란 제한적. Stihl Group이 가솔린 동력 실외 장비 제조사의 표준 환경·배출 논쟁에 간헐적 직면. 본인 개인 스캔들 없음."
   },
-
   "characterKo": {
     "summaryKo": "독일 4세대 가족 산업가의 비공개 일관성을 대표하는 사례. 동료들이 말하는 가장 두드러진 특성은 '본인 인터뷰가 사실상 0에 가까운 비공개 일관성'과 '4세대 가족 구성원으로서 분담 거버넌스 안에서 정중한 역할 유지'. 독일 사설 가족 자본 전통의 모범.",
-    "tagsKo": ["4세대 산업 상속자", "100% 가족 소유", "비공개 일관성", "독일 뷔르템베르크 가문", "장기 R&D 시야"]
+    "tagsKo": [
+      "4세대 산업 상속자",
+      "100% 가족 소유",
+      "비공개 일관성",
+      "독일 뷔르템베르크 가문",
+      "장기 R&D 시야"
+    ]
   },
-
   "failures": [
     {
       "year": 2008,
@@ -163,7 +161,8 @@
       "descriptionKo": "Stihl Group 매출이 2008-2009 글로벌 금융위기 동안 건설·실외 서비스 수요 하락으로 잠시 위축 — 가족 통제 회사가 구조조정 없이 사이클 압박 흡수했지만 일부 생산 능력 확장 계획 지연 필요.",
       "lesson": "Even family-controlled industrial companies absorb cyclical demand shocks; private structure protects against forced restructuring but not against demand cycles.",
       "lessonKo": "가족 통제 산업 회사도 사이클 수요 충격을 흡수한다. 사설 구조는 강제 구조조정에서 보호하지만 수요 사이클에서는 보호하지 못한다.",
-      "source": "https://www.stihl.com"
+      "source": "https://www.stihl.com",
+      "age": 31
     },
     {
       "year": 2020,
@@ -171,19 +170,33 @@
       "descriptionKo": "Stihl Group이 많은 독일 산업 회사처럼 2020-2021년 반도체 부족·운송 병목으로 상당한 공급망 혼란 — 배터리 동력 장비 생산이 특히 영향.",
       "lesson": "Global manufacturing supply chains expose even well-managed family companies to unprecedented bottleneck risks during macro shocks; supply-chain resilience must be built into multi-generational planning.",
       "lessonKo": "글로벌 제조 공급망은 잘 관리된 가족 회사도 거시 충격 시 전례 없는 병목 리스크에 노출시킨다. 공급망 회복력은 다세대 계획에 내장되어야 한다.",
-      "source": "https://www.stihl.com"
+      "source": "https://www.stihl.com",
+      "age": 43
     }
   ],
-
   "wealthHistory": [
-    { "year": 2020, "netWorth": 1.6 },
-    { "year": 2022, "netWorth": 2.8 },
-    { "year": 2023, "netWorth": 2.9 },
-    { "year": 2024, "netWorth": 3.0 },
-    { "year": 2025, "netWorth": 3.1 }
+    {
+      "year": 2020,
+      "netWorth": 1.6
+    },
+    {
+      "year": 2022,
+      "netWorth": 2.8
+    },
+    {
+      "year": 2023,
+      "netWorth": 2.9
+    },
+    {
+      "year": 2024,
+      "netWorth": 3
+    },
+    {
+      "year": 2025,
+      "netWorth": 3.1
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "We do not sell shares. We do not list on the market. We pass the company forward.",
@@ -193,12 +206,10 @@
       "source": "https://www.stihl.com"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "Her Gap-O day pillar in a Mi month forms a 'sanggwan-gyeok' chart — tall wood expressing creative strength under summer earth, fitting a fourth-generation heir who quietly carries multi-generational industrial capital with strong creative-output potential within structured family governance.",
     "summaryKo": "갑오 일주가 미월에 자리잡은 상관격(자기 표현·창의력이 정해진 권위를 넘어 흘러가는 구조)은 4세대 가족 자본 거버넌스 안에서 잠재적 창의 출력 능력을 가진 그녀의 정체성과 호응합니다. 갑목 일간은 큰 나무·기둥의 기질로 가족 산업의 안정적 가지 역할과 잘 맞고, 일지·월지의 오화·미토가 식상(자기 표현)·정재(안정 자본)의 결합으로 — 4세대 자본 보존 + 창의적 활용 가능성이 동시에 작용하는 구조. 약점은 상관격이 너무 강하면 가족 정관(거버넌스)과 충돌할 수 있다는 점이지만, 그녀의 정체성은 4세대 가족 거버넌스의 안정성 안에서 유지됨."

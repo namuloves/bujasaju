@@ -120,21 +120,24 @@
       "ageAtTime": 29,
       "decisionKo": "가문 보석업에서 떨어져 나와 첫 부동산 베팅",
       "alternativeKo": "Aspial 가문 사업에 머물렀다면 형 코 위 셍이 운영하는 회사의 일원으로 끝났을 것.",
-      "outcomeKo": "본인 단독 트랙으로 33년 누적해 $21억 자산."
+      "outcomeKo": "본인 단독 트랙으로 33년 누적해 $21억 자산.",
+      "age": 29
     },
     {
       "year": 1995,
       "ageAtTime": 32,
       "decisionKo": "디벨로퍼에서 호텔 운영자로 카테고리 확장",
       "alternativeKo": "토지 매매·디벨롭에 머물렀다면 운영 마진의 누적이 없었을 것.",
-      "outcomeKo": "프래그런스 호텔 체인 + 영국·호주 호텔 인수로 글로벌 호텔 자본가."
+      "outcomeKo": "프래그런스 호텔 체인 + 영국·호주 호텔 인수로 글로벌 호텔 자본가.",
+      "age": 32
     },
     {
       "year": 2021,
       "ageAtTime": 58,
       "decisionKo": "팬데믹 와중 런던 켄싱턴 포럼 호텔 S$23.2억 인수",
       "alternativeKo": "팬데믹으로 매수를 미뤘다면 단일 메가 자산 기회를 놓쳤을 것.",
-      "outcomeKo": "본인 평생 최대 단일 인수 + 영국 호텔 자산 핵심."
+      "outcomeKo": "본인 평생 최대 단일 인수 + 영국 호텔 자산 핵심.",
+      "age": 58
     }
   ],
   "moneyMechanics": {
@@ -171,7 +174,8 @@
       "descriptionKo": "1992년 첫 부동산 매입($49만, 5000제곱피트) 자금을 위해 은행 대출 신청했지만, 은행이 '경험·학력 부족'을 이유로 거절. 굴욕적이지만 평생 정체성을 형성한 초기 실패.",
       "lesson": "Institutional gatekeepers underestimate self-taught operators. The rejection itself can be a valuable signal of where the moats actually are.",
       "lessonKo": "제도적 관문은 자력 학습자를 과소평가합니다. 거절 자체가 해자가 어디에 있는지를 알려주는 신호가 됩니다.",
-      "source": "https://medium.com/spiking-com/sophisticated-investor-profile-koh-wee-meng-67ece563a61f"
+      "source": "https://medium.com/spiking-com/sophisticated-investor-profile-koh-wee-meng-67ece563a61f",
+      "age": 29
     },
     {
       "year": 2020,
@@ -179,7 +183,8 @@
       "descriptionKo": "COVID-19 팬데믹으로 글로벌 호텔 객실 점유율 붕괴. 프래그런스 그룹의 영국·호주 호텔이 분기 단위로 매출 폭락, 싱가포르 포트폴리오도 관광 부재로 타격.",
       "lesson": "Hotel businesses look like real estate but trade like discretionary services. A pandemic separates the two cleanly.",
       "lessonKo": "호텔 사업은 부동산처럼 보이지만 실제로는 재량 소비 서비스로 거래됩니다. 팬데믹은 둘을 깔끔하게 분리합니다.",
-      "source": "https://www.tatlerasia.com/people/koh-wee-meng"
+      "source": "https://www.tatlerasia.com/people/koh-wee-meng",
+      "age": 57
     },
     {
       "year": 2017,
@@ -187,13 +192,26 @@
       "descriptionKo": "멜버른 프리미어 타워(79층 복합)는 다년간 건설 지연과 설계 논란으로, 코의 호주 포트폴리오에서 깔끔한 승리가 아닌 길게 끄는 프로젝트가 됨.",
       "lesson": "Skyline-defining megaprojects in foreign markets are political, not just financial. Local consent costs can dwarf the construction budget.",
       "lessonKo": "외국 시장의 스카이라인 대형 프로젝트는 재무가 아니라 정치입니다. 지역 동의 비용이 공사 예산을 압도할 수 있습니다.",
-      "source": "https://www.tatlerasia.com/people/koh-wee-meng"
+      "source": "https://www.tatlerasia.com/people/koh-wee-meng",
+      "age": 54
     }
   ],
   "wealthHistory": [
-    {"year": 2014, "netWorth": "태즈메이니아 섬 인수 — 자산 $1B 추정", "sourceKo": "Home & Decor 2014"},
-    {"year": 2021, "netWorth": "런던 호텔 인수 — 자산 $2-3B대", "sourceKo": "Tatler Asia"},
-    {"year": 2025, "netWorth": "$2.1B (Forbes 2026)", "sourceKo": "Forbes Real-Time Billionaires 2026"}
+    {
+      "year": 2014,
+      "netWorth": "태즈메이니아 섬 인수 — 자산 $1B 추정",
+      "sourceKo": "Home & Decor 2014"
+    },
+    {
+      "year": 2021,
+      "netWorth": "런던 호텔 인수 — 자산 $2-3B대",
+      "sourceKo": "Tatler Asia"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$2.1B (Forbes 2026)",
+      "sourceKo": "Forbes Real-Time Billionaires 2026"
+    }
   ],
   "quotes": [],
   "books": {
@@ -206,9 +224,18 @@
     "summaryKo": "코 위 멩의 사주는 을목(작은 풀·갈대) 일간이 사화(여름 뱀·강한 불) 위에 놓인 을사 일주입니다. 작은 풀이 큰 불의 열기 위에 놓인 형상이라, 본인이 큰 사건과 큰 자산 안에서 끈질기게 자기 자리를 만드는 결입니다. 격국이 정재격(끈기·실용·꾸준한 누적으로 부를 쌓는 형식)이라, 1992년 $49만 첫 토지에서 시작해 33년 누적으로 $21억 자산까지 만든 흐름이 사주의 정해진 길입니다. 월지 오화는 한여름의 큰 불로 을목에게 식상(자기 표현·결과물)의 작용을 하는데, 부동산 디벨로퍼 + 호텔 운영자 + 글로벌 자본가로 본인 결과물을 카테고리마다 새로 펼쳐낸 패턴과 호응합니다. 가문 보석업(형의 트랙)에서 떨어져 나와 본인 별도 트랙을 만든 결정도, 정재격이 본인 손으로 직접 만든 자산을 신뢰하는 결과 일치합니다.",
     "interpretationKo": "을사 일주는 큰 불 위의 작은 풀이라, 한 자리에 머물지 않고 큰 사건 안에서 끈질기게 자기 자리를 만드는 결. 정재격은 본인이 직접 쌓아 올린 매출·자산의 누적이 곧 부가 되는 패턴이라, 33년의 부동산 누적 흐름이 자연스럽게 풀립니다.",
     "keyEvents": [
-      {"year": 1992, "eventKo": "첫 토지 매입 — 정재격 누적의 시작"},
-      {"year": 1995, "eventKo": "프래그런스 호텔 출범 — 정재격이 운영 마진으로 확장"},
-      {"year": 2021, "eventKo": "런던 메가 인수 — 33년 누적의 정점 결단"}
+      {
+        "year": 1992,
+        "eventKo": "첫 토지 매입 — 정재격 누적의 시작"
+      },
+      {
+        "year": 1995,
+        "eventKo": "프래그런스 호텔 출범 — 정재격이 운영 마진으로 확장"
+      },
+      {
+        "year": 2021,
+        "eventKo": "런던 메가 인수 — 33년 누적의 정점 결단"
+      }
     ]
   },
   "sources": [

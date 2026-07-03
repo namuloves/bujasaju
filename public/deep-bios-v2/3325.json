@@ -34,43 +34,50 @@
       "year": 1981,
       "event": "Became chairman of Korea Explosives Group (later Hanwha) at age 29 after father's death",
       "eventKo": "부친 별세로 29세에 한국화약그룹(후 한화) 회장 취임",
-      "whyItMatteredKo": "20대에 대기업 총수 승계. 화약·방산 기업의 전환 경영 시작."
+      "whyItMatteredKo": "20대에 대기업 총수 승계. 화약·방산 기업의 전환 경영 시작.",
+      "age": 29
     },
     {
       "year": 2002,
       "event": "Acquired Daehan Life Insurance (now Hanwha Life) — entered financial services",
       "eventKo": "대한생명(현 한화생명) 인수 — 금융업 진출",
-      "whyItMatteredKo": "방산·화학 중심에서 금융·보험으로 사업 확장. 종합 대기업 도약."
+      "whyItMatteredKo": "방산·화학 중심에서 금융·보험으로 사업 확장. 종합 대기업 도약.",
+      "age": 50
     },
     {
       "year": 2015,
       "event": "Acquired Samsung's defense (Samsung Techwin) and chemical (Samsung Total) subsidiaries",
       "eventKo": "삼성 방산(삼성테크윈)·화학(삼성토탈) 계열사 인수",
-      "whyItMatteredKo": "한화의 방산·에너지 역량 획기적 강화. 삼성에서 방산·화학 사업 인계받아 규모 확대."
+      "whyItMatteredKo": "한화의 방산·에너지 역량 획기적 강화. 삼성에서 방산·화학 사업 인계받아 규모 확대.",
+      "age": 63
     },
     {
       "year": 2022,
       "event": "Hanwha became major global defense contractor; Hanwha Aerospace and Hanwha Ocean boomed with K-defense exports",
       "eventKo": "한화 글로벌 방산 대기업으로 부상; 한화에어로스페이스·한화오션 K-방산 수출 급증",
-      "whyItMatteredKo": "K-방산 글로벌 붐. 폴란드 등 대규모 방산 수출 계약. 한화 시가총액 급등."
+      "whyItMatteredKo": "K-방산 글로벌 붐. 폴란드 등 대규모 방산 수출 계약. 한화 시가총액 급등.",
+      "age": 70
     },
     {
       "year": 2025,
       "event": "Forbes net worth $1.5B; three sons completing management succession; Hanwha ranks among global top defense firms",
       "eventKo": "Forbes 순자산 $15억; 3아들 경영 승계 완료; 한화 글로벌 방산 상위 기업",
-      "whyItMatteredKo": "화약 회사→글로벌 방산·에너지·금융 대기업. 3세 승계 완료. 연봉 248억원(재계 1위)."
+      "whyItMatteredKo": "화약 회사→글로벌 방산·에너지·금융 대기업. 3세 승계 완료. 연봉 248억원(재계 1위).",
+      "age": 73
     }
   ],
   "turningPoints": [
     {
       "year": 2015,
       "eventKo": "삼성 방산·화학 계열사 인수",
-      "impactKo": "한화 방산·에너지 역량 대폭 강화. 삼성 방산 DNA 흡수. K-방산 붐의 기반."
+      "impactKo": "한화 방산·에너지 역량 대폭 강화. 삼성 방산 DNA 흡수. K-방산 붐의 기반.",
+      "age": 63
     },
     {
       "year": 2022,
       "eventKo": "K-방산 글로벌 수출 급증 — 폴란드 등 대규모 계약",
-      "impactKo": "한화에어로스페이스·한화오션 시가총액 폭등. 한화그룹 재계 순위 급상승."
+      "impactKo": "한화에어로스페이스·한화오션 시가총액 폭등. 한화그룹 재계 순위 급상승.",
+      "age": 70
     }
   ],
   "moneyMechanics": {
@@ -94,25 +101,47 @@
       "year": 2007,
       "descriptionKo": "청계산 보복 폭행 사건 — 아들을 폭행한 유흥업소 직원들을 조직원을 동원해 보복 폭행. 징역 3년 실형",
       "howTheyOvercameKo": "복역 후 특별사면. 경영 복귀. 한화그룹 성장으로 이미지 회복 시도.",
-      "lessonKo": "재벌 총수의 사적 폭력은 그룹 전체 이미지에 치명적 타격. 법적 처벌 불가피."
+      "lessonKo": "재벌 총수의 사적 폭력은 그룹 전체 이미지에 치명적 타격. 법적 처벌 불가피.",
+      "age": 55
     },
     {
       "year": 2012,
       "descriptionKo": "횡령·배임 혐의 추가 유죄 — 재벌 총수 법적 리스크 반복",
       "howTheyOvercameKo": "사면 후 복귀. 삼성 방산 인수·K-방산 성공으로 그룹 성장에 집중.",
-      "lessonKo": "한국 재벌 총수의 반복적 법적 리스크는 기업 가치에 할인 요인. 그러나 사업 성과가 이를 상쇄."
+      "lessonKo": "한국 재벌 총수의 반복적 법적 리스크는 기업 가치에 할인 요인. 그러나 사업 성과가 이를 상쇄.",
+      "age": 60
     }
   ],
   "wealthHistory": [
-    {"year": 2015, "netWorth": "약 5,000억원", "sourceKo": "추정"},
-    {"year": 2020, "netWorth": "약 8,000억원", "sourceKo": "Forbes Korea"},
-    {"year": 2025, "netWorth": "$1.5B (약 2.2조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2015,
+      "netWorth": "약 5,000억원",
+      "sourceKo": "추정"
+    },
+    {
+      "year": 2020,
+      "netWorth": "약 8,000억원",
+      "sourceKo": "Forbes Korea"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$1.5B (약 2.2조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [
-    {"textKo": "미래 선도기술 확보가 100년 한화 경쟁력이다.", "context": "2025년 신년사"}
+    {
+      "textKo": "미래 선도기술 확보가 100년 한화 경쟁력이다.",
+      "context": "2025년 신년사"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["공격적 M&A", "방산 전문", "미국 인맥", "논란의 총수"],
+  "personalTraitsKo": [
+    "공격적 M&A",
+    "방산 전문",
+    "미국 인맥",
+    "논란의 총수"
+  ],
   "characterKo": {
     "strengths": "화약 회사를 글로벌 방산·에너지·금융 대기업으로 변모. 삼성 방산 인수 등 공격적 M&A. K-방산 글로벌 성공. 빌 클린턴·트럼프 취임식 초대 등 미국 인맥.",
     "weaknesses": "청계산 보복 폭행 사건(징역 3년). 횡령·배임 유죄. 반복적 법적 리스크. 오너 리스크 전형.",

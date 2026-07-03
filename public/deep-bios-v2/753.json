@@ -5,7 +5,6 @@
   "netWorth": 5.4,
   "nationality": "GB",
   "industry": "Fashion & Retail",
-
   "childhood": {
     "birthPlace": "Burnham, Buckinghamshire, England",
     "birthPlaceKo": "잉글랜드 버킹엄셔 번햄",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "18세인 1982년 부모의 1만 파운드 대출로 메이든헤드에서 첫 작은 스포츠 용품 가게 개업. 1980년대에 걸쳐 공격적 할인 소매 전술과 그런 작은 운영자에게서 거대 경쟁사들이 예상한 것보다 더 좋은 도매 조건을 확보하면서 사업 구축.",
     "source": "https://en.wikipedia.org/wiki/Mike_Ashley_(businessman) ; https://www.frasersgroup.com ; https://www.forbes.com/profile/mike-ashley/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본 없음(부모 1만 파운드 대출 외). 첫 자본은 1982년 18세 첫 스포츠 가게 개업 후 30년 누적된 Sports Direct(2007년 IPO)·House of Fraser·Frasers Group의 가치 상승에서 발생. 영국 노동자 계급에서 가장 부유한 자수성가 사업가 중 한 명.",
     "source": "https://en.wikipedia.org/wiki/Mike_Ashley_(businessman)"
   },
-
   "careerTimeline": [
     {
       "year": 1982,
@@ -123,7 +120,6 @@
       "source": "https://www.theguardian.com"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1982,
@@ -150,7 +146,6 @@
       "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Frasers Group plc(런던 증시 상장, 약 73% 지분) — Sports Direct·House of Fraser·Flannels·Game Digital·기타 영국·유럽 소매 자산. 본인 자산의 거의 전부가 Frasers Group 시가총액에 묶임.",
     "industryKo": "소매(스포츠 용품·패션·백화점)",
@@ -158,7 +153,6 @@
     "moatKo": "① 1982년 이후 43년 누적된 영국 소매 도매 협상력. ② Sports Direct의 영국 스포츠 용품 카테고리 사실상 동의어. ③ 부실 자산 매수의 운영 노하우(House of Fraser 등). ④ 73% 가족 통제의 의사결정 속도.",
     "luckVsSkillKo": "운(35%): 1982년 영국 소매 산업이 통합·할인 시대 직전이었던 타이밍, 2007년 IPO가 시장 정점이었던 점, 2021 Newcastle 매각이 사우디 PIF가 영국 축구 진입하던 사이클. 실력(65%): 16세 중퇴자의 43년 단일 산업 집중, 공격적 도매 협상 능력, 부실 자산 매수의 사이클 감각, 사위 통한 가족 거버넌스 설계."
   },
-
   "personalTraits": {
     "knownFor": "Founder of Frasers Group (formerly Sports Direct) — one of the UK's largest retail groups; former owner of Newcastle United Football Club (2007-2021) during one of the most controversial Premier League ownership tenures; British retailing maverick known for aggressive cost-cutting and confrontation with regulators, fans, and unions.",
     "knownForKo": "Frasers Group(이전 Sports Direct) 창립자 — 영국 최대 소매 그룹 중 하나. 가장 논란이 된 프리미어 리그 소유 재임 중 하나인 2007-2021 Newcastle United 축구 클럽 전 소유주. 공격적 비용 감축과 규제기관·팬·노조와의 대립으로 알려진 영국 소매 매버릭.",
@@ -167,12 +161,16 @@
     "controversies": "Major controversies through career: Sports Direct's 2016 UK parliamentary investigation over Shirebrook warehouse working conditions (zero-hour contracts, alleged below-minimum-wage practices); 14 years of Newcastle United fan protests and underinvestment criticism; multiple FCA and FRC compliance issues; public spat with multiple regulators and media outlets; standard retail-industry labor and supplier debates.",
     "controversiesKo": "경력 동안 주요 논란: Sports Direct의 2016 Shirebrook 창고 근로 조건(영시간 계약·최저임금 미만 관행 의혹)에 대한 영국 의회 조사; 14년 Newcastle United 팬 시위·저투자 비판; 다수의 FCA·FRC 준수 문제; 다수 규제기관·미디어와의 공개 다툼; 표준 소매 산업 노동·공급자 논쟁."
   },
-
   "characterKo": {
     "summaryKo": "영국 노동자 계급 자수성가 사업가의 매버릭 정체성을 43년 유지한 사례. 동료들이 말하는 가장 두드러진 특성은 '미디어·규제기관과의 대립을 회피하지 않는 결단력'과 '16세 중퇴자의 정체성을 60대까지 의도적으로 유지하는 일관성'. 영국 소매 산업의 가장 논란 많은 가부장.",
-    "tagsKo": ["16세 중퇴자", "Newcastle United 14년", "매버릭 사업가", "영국 소매 통합자", "노동 논란 가부장"]
+    "tagsKo": [
+      "16세 중퇴자",
+      "Newcastle United 14년",
+      "매버릭 사업가",
+      "영국 소매 통합자",
+      "노동 논란 가부장"
+    ]
   },
-
   "failures": [
     {
       "year": 2016,
@@ -180,7 +178,8 @@
       "descriptionKo": "Sports Direct의 Shirebrook 창고 근로 조건이 Guardian 조사로 폭로 — 영시간 계약·최저임금 미만 관행 의혹·빅토리아 시대 근로자 대우 포함. 애슐리가 영국 의회 사업위원회 앞에 소환되어 지속적 공개 비판 직면.",
       "lesson": "Discount retail models built on labor cost compression accumulate political-narrative liabilities that compound across years; cost discipline must include labor-policy investment to be sustainable.",
       "lessonKo": "노동 비용 압축에 기반한 할인 소매 모델은 수년에 걸쳐 누적되는 정치 서사 부담을 동반한다. 비용 규율은 지속 가능하려면 노동 정책 투자를 포함해야 한다.",
-      "source": "https://www.theguardian.com"
+      "source": "https://www.theguardian.com",
+      "age": 52
     },
     {
       "year": 2021,
@@ -188,7 +187,8 @@
       "descriptionKo": "14년 Newcastle United 소유가 지속적 팬 시위·저투자 비판으로 끝남 — 애슐리가 사우디 PIF 컨소시엄에 3.05억 파운드에 매각했지만 팬 관계 손상은 다세대 — Newcastle 소유가 그의 사업 경력의 최악 장으로 광범위 평가.",
       "lesson": "Sports-team ownership combines emotional fan stakeholders with financial discipline that does not work in normal businesses; treating a football club like a discount retail operation is a category error.",
       "lessonKo": "스포츠 팀 소유는 일반 사업에서 작동하지 않는 재무 규율을 정서적 팬 이해관계자와 결합한다. 축구 클럽을 할인 소매 운영처럼 다루는 것은 카테고리 오류이다.",
-      "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+      "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
+      "age": 57
     },
     {
       "year": 2018,
@@ -196,21 +196,41 @@
       "descriptionKo": "2018년 House of Fraser 관리에서 인수가 연금 부채·매장 임대 의무·고립된 재고 등 거대 유산 문제 상속 — 통합 도전이 다수 매장 폐쇄·운영 구조조정으로 2024년까지 지속.",
       "lesson": "Buying out-of-administration retailers acquires not just assets but legacy obligations that often exceed acquisition price; bankruptcy purchases require deeper post-deal capital than the headline transaction suggests.",
       "lessonKo": "관리에서 소매업체를 매수하면 단지 자산뿐만 아니라 종종 인수 가격을 초과하는 유산 의무도 상속한다. 파산 매수는 헤드라인 거래가 시사하는 것보다 깊은 매각 후 자본을 요구한다.",
-      "source": "https://en.wikipedia.org/wiki/House_of_Fraser"
+      "source": "https://en.wikipedia.org/wiki/House_of_Fraser",
+      "age": 54
     }
   ],
-
   "wealthHistory": [
-    { "year": 2010, "netWorth": 1.9 },
-    { "year": 2015, "netWorth": 2.8 },
-    { "year": 2018, "netWorth": 2.0 },
-    { "year": 2021, "netWorth": 4.5 },
-    { "year": 2023, "netWorth": 4.5 },
-    { "year": 2024, "netWorth": 5.0 },
-    { "year": 2025, "netWorth": 5.4 }
+    {
+      "year": 2010,
+      "netWorth": 1.9
+    },
+    {
+      "year": 2015,
+      "netWorth": 2.8
+    },
+    {
+      "year": 2018,
+      "netWorth": 2
+    },
+    {
+      "year": 2021,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2024,
+      "netWorth": 5
+    },
+    {
+      "year": 2025,
+      "netWorth": 5.4
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "I left school at 16 with one pound in my pocket. Forty years later I bought a department store.",
@@ -220,12 +240,10 @@
       "source": "https://en.wikipedia.org/wiki/Mike_Ashley_(businessman)"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Gap-Ja day pillar in a Yu month forms a 'jeongin-gyeok' chart — tall wood drawing water under autumn metal authority, fitting a self-taught operator who built capital under sustained regulatory, public, and labor-relations pressure.",
     "summaryKo": "갑자 일주가 유월에 자리잡은 정인격(어머니·학문·인내·간접 자본의 구조)은 16세 중퇴자가 부모 대출 1만 파운드로 시작해 43년 단일 산업 누적의 인생과 호응합니다. 갑목 일간은 큰 나무·기둥의 기질로 영국 소매 산업의 지배적 가부장 역할과 잘 맞고, 일지 자수가 정인(어머니·학문)으로 부모 대출이 출발 자본이었던 점을 그대로 그려냅니다. 월지 유금이 정관(공식 권위·규제)으로 — 의회·FCA·미디어 같은 공식 권위 환경과의 평생 충돌. 약점은 정인격이 정관과 충돌할 때 평판 손상이 누적된다는 점인데, 2016 Shirebrook 사건과 Newcastle 팬 갈등이 그 표면화로 읽힙니다."

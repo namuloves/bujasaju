@@ -5,7 +5,6 @@
   "netWorth": 5.3,
   "nationality": "TW",
   "industry": "Manufacturing",
-
   "childhood": {
     "birthPlace": "Taipei, Taiwan (Japanese colonial period)",
     "birthPlaceKo": "일본 식민지 시기 대만 타이베이",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "일본 식민지 시기 대만과 1945년 이후 중화민국 통치 전환의 격동기에 청년기. 기술 학교 졸업 후 신생 대만 화학 산업에서 잠시 근무, 1949년 두 친구와 Chang Chun 공동 창업 — 당시 대만은 국내 화학 산업이 거의 없고 전적으로 수입에 의존하던 시점.",
     "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group ; https://www.ccp.com.tw"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1949년 세 청년 친구가 모은 작은 종잣돈으로 시작한 Chang Chun Group의 75년 누적 가치. 대만 화학 산업이 0에서 시작해 글로벌 메이저로 성장한 한 세대 결과.",
     "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
   },
-
   "careerTimeline": [
     {
       "year": 1949,
@@ -115,7 +112,6 @@
       "source": "https://www.forbes.com/profile/lin-shu-hong/"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1949,
@@ -142,7 +138,6 @@
       "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Chang Chun Group(비공개 가족 지주 + 일부 상장 자회사 Chang Chun Petrochemical 등) — 산하 다양한 화학·플라스틱·동박 사업. 세 창업자 가족이 합산 지배 지분 보유. 본인 자산은 가족 합산이 아닌 본인 직접·신탁 지분.",
     "industryKo": "화학(아세트산·포름알데히드·비닐 아세테이트·에폭시 수지·동박)",
@@ -150,7 +145,6 @@
     "moatKo": "① 75년 누적된 화학 공정 노하우와 IP. ② 글로벌 반도체 산업 공급망에서의 핵심 공급자 지위. ③ 동박·에폭시 등 고부가가치 제품에서의 글로벌 점유율. ④ 75년 무갈등 3인 창업자 거버넌스.",
     "luckVsSkillKo": "운(40%): 1949년 대만 신생 산업에 1세대 토착 자본가로 진입한 타이밍, 1980년대 대만 전자 산업 부상, 2020년대 반도체·5G 붐이 동박 수요를 폭증시킨 거시 환경. 실력(60%): 75년 동안 분쟁 없이 유지된 3인 동료 거버넌스, 다각화 결정의 산업 사이클 감각, 한 회사·한 도시에 평생 머문 일관성, 90대까지 회사 전략에 관여한 운영 깊이."
   },
-
   "personalTraits": {
     "knownFor": "Co-founder of Chang Chun Group (1949), one of Taiwan's largest chemical companies and a critical supplier to global semiconductor and electronics manufacturing; one of the three co-founders who all reached their 90s with the partnership intact; briefly ranked as Taiwan's richest person in 2021.",
     "knownForKo": "1949년 창립된 대만 최대 화학 회사 중 하나 Chang Chun Group의 공동 창업자 — 글로벌 반도체·전자 제조의 핵심 공급자. 세 공동 창업자 모두 90대까지 파트너십 무결성 유지. 2021년 잠시 대만 부자 1위에 등극.",
@@ -159,12 +153,16 @@
     "controversies": "Limited public controversies due to extremely low public profile across his 75+ year career; standard environmental regulatory issues for a large Taiwan chemical company; no major personal scandals.",
     "controversiesKo": "75년+ 경력에 걸친 극단적 비공개로 공개 논란 제한적. 대만 대형 화학 회사의 표준 환경 규제 문제. 본인 개인 스캔들 없음."
   },
-
   "characterKo": {
     "summaryKo": "75년 한 회사·한 도시·두 동료에 머문 동아시아 1세대 토착 자본가의 가장 오래 지속된 사례. 동료들이 말하는 가장 두드러진 특성은 '90대에도 회사 핵심 결정 회의에 참석하는 운영 깊이'와 '세 창업자가 평생 갈등 없이 분담 거버넌스를 유지한 미덕'. 미디어 노출이 거의 없고 본인 인터뷰가 극히 드문 비공개 일관성.",
-    "tagsKo": ["75년 3인 공동 경영", "한 회사 한 인생", "대만 1세대 산업가", "비공개 일관성", "90대 현역"]
+    "tagsKo": [
+      "75년 3인 공동 경영",
+      "한 회사 한 인생",
+      "대만 1세대 산업가",
+      "비공개 일관성",
+      "90대 현역"
+    ]
   },
-
   "failures": [
     {
       "year": 2008,
@@ -172,7 +170,8 @@
       "descriptionKo": "Chang Chun Group의 화학 수출이 2008 글로벌 금융위기로 잠시 타격 — 일부 제품 라인이 수요 위축. 다양한 화학 카테고리에 걸친 그룹의 다각화 포트폴리오가 완충 역할이었지만 1년간 마진 압박.",
       "lesson": "Even a 60-year diversified chemical group cannot fully avoid cyclical demand shocks; resilience comes from multi-product diversification across customer industries, not from product margin alone.",
       "lessonKo": "60년 다각화 화학 그룹도 사이클 수요 충격을 완전히 피할 수 없다. 회복력은 제품 마진만이 아니라 다양한 고객 산업에 걸친 다제품 다각화에서 온다.",
-      "source": "https://www.ccp.com.tw"
+      "source": "https://www.ccp.com.tw",
+      "age": 80
     },
     {
       "year": 2014,
@@ -180,21 +179,41 @@
       "descriptionKo": "2010년대 대만 첨단·화학 산업 환경 감시 강화 — Chang Chun의 노후 시설이 업그레이드 요구와 잠시 생산 라인 중단 직면. 그룹은 환경 업그레이드 투자했지만 비평가들은 글로벌 표준 대비 속도가 느리다고 지적.",
       "lesson": "Long-duration chemical operations accumulate environmental liabilities that intensify as regulation evolves; upgrade investments must be paced ahead of regulatory cycles rather than reactively.",
       "lessonKo": "장기간 화학 운영은 규제가 진화함에 따라 강화되는 환경 부담을 누적한다. 업그레이드 투자는 반응적이 아니라 규제 사이클보다 앞서 진행되어야 한다.",
-      "source": "https://www.taipeitimes.com"
+      "source": "https://www.taipeitimes.com",
+      "age": 86
     }
   ],
-
   "wealthHistory": [
-    { "year": 2017, "netWorth": 1.4 },
-    { "year": 2019, "netWorth": 2.1 },
-    { "year": 2021, "netWorth": 9.7 },
-    { "year": 2022, "netWorth": 7.4 },
-    { "year": 2023, "netWorth": 5.0 },
-    { "year": 2024, "netWorth": 5.1 },
-    { "year": 2025, "netWorth": 5.3 }
+    {
+      "year": 2017,
+      "netWorth": 1.4
+    },
+    {
+      "year": 2019,
+      "netWorth": 2.1
+    },
+    {
+      "year": 2021,
+      "netWorth": 9.7
+    },
+    {
+      "year": 2022,
+      "netWorth": 7.4
+    },
+    {
+      "year": 2023,
+      "netWorth": 5
+    },
+    {
+      "year": 2024,
+      "netWorth": 5.1
+    },
+    {
+      "year": 2025,
+      "netWorth": 5.3
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "Three friends started a small chemical workshop in 1949. We are still three friends today.",
@@ -204,12 +223,10 @@
       "source": "https://en.wikipedia.org/wiki/Chang_Chun_Group"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Gye-Yu day pillar in a Mi month forms a 'pyeon-gwan-gyeok' chart — small water under summer earth and metal, fitting a life of patient industrial accumulation under sustained pressure from a single environment over many decades.",
     "summaryKo": "계유 일주가 미월에 자리잡은 편관격(강한 외부 권위·압박이 평생 자기 자본을 둘러싸는 구조)은 76년 한 도시·한 회사·두 동료와 머문 인내의 인생과 호응합니다. 계수 일간은 작은 흐름의 물·세부의 기질로 화학공학자의 정밀한 운영 본능을 깔고 있고, 일지 유금의 신금이 편인(어머니·학문)으로 평생 화학공학 학문 자본을 토대로 한 점을 그대로 그려냅니다. 월지 미토 안의 정화·기토·을목이 편재·편관·식상으로 외부 자본(매출)·규제 권위(환경·산업 규제)·자기 표현(R&D)이 동시에 작용하는 구조. 월간 기토가 편관으로 거듭 — 평생 외부 압력 환경 속에서 자본을 만든 패턴이 사주에 새겨져 있습니다. 연주 무진의 무토·진토가 정관으로 또 — 대만 정부 산업 정책 환경 안에서 일관되게 움직인 그의 정체성. 약점은 편관격이 너무 강하면 자기 자아가 압축된다는 점인데, 75년 동안 본인 인터뷰가 한 자리 수에 그치고 75년 동안 두 동료를 한 번도 떠나지 않은 비공개 일관성이 그 그늘로 읽힙니다."

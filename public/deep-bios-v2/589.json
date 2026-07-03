@@ -5,7 +5,6 @@
   "netWorth": 6.5,
   "nationality": "US",
   "industry": "Fashion & Retail",
-
   "childhood": {
     "birthPlace": "Grand Rapids, Michigan, USA",
     "birthPlaceKo": "미국 미시간주 그랜드래피즈",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "미국 하이퍼마켓 개척자 가족의 2세대로 성장 — 할아버지 헨드릭이 1962년 그랜드래피즈 Meijer Thrifty Acres에서 슈퍼마켓+할인점 결합 형식('하이퍼마켓')을 창안, 월마트 슈퍼센터보다 수십 년 앞선 모델. 아버지 프레드가 회사를 미시간 핵심 시기에 운영. 행크는 임원 이전에 작가·역사학자로 훈련됨.",
     "source": "https://en.wikipedia.org/wiki/Meijer ; https://www.meijer.com/about.html ; https://en.wikipedia.org/wiki/Frederik_Meijer"
   },
-
   "capitalOrigin": {
     "typeKo": "inherited",
     "explanationKo": "출발 자본은 할아버지·아버지가 1934-2011년 일군 Meijer Inc 가족 소유 슈퍼마켓·하이퍼마켓 체인. 본인은 2세대 후계자로 운영을 인수받아 형제 둘과 공동 의장으로 확장. 비공개 가족 소유 구조 유지, 외부 자본 도입 거부 — 80년 다세대 가족 자본의 모범 사례.",
     "source": "https://en.wikipedia.org/wiki/Meijer"
   },
-
   "careerTimeline": [
     {
       "year": 1973,
@@ -106,7 +103,6 @@
       "source": "https://www.forbes.com/profile/hank-meijer/"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1979,
@@ -133,7 +129,6 @@
       "source": "https://www.amazon.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Meijer Inc(100% 비공개 가족 소유) — 미국 중서부 6개 주의 약 270개 슈퍼센터 + Meijer Grocery 소형 매장. 연 매출 약 200억 달러+. 100% 직영, 프랜차이즈 없음. 가족 합산 자산의 거의 전부가 회사 가치.",
     "industryKo": "슈퍼마켓·하이퍼마켓 소매",
@@ -141,7 +136,6 @@
     "moatKo": "① 1962년 하이퍼마켓 포맷의 선점 우위 — 90년 누적된 운영 데이터. ② 미시간 중심 6개 주 클러스터의 입지 우위. ③ 비공개 가족 소유의 장기 시야. ④ 3세대·4세대로 이어지는 다세대 거버넌스 안정성.",
     "luckVsSkillKo": "운(40%): 할아버지가 1934년 식료품점, 1962년 하이퍼마켓을 발명한 가족 자본 운, 미국 중서부가 안정적 인구 기반을 유지한 거시 환경. 실력(60%): 50년 형제 공동 경영의 일관성, 비공개 가족 소유 유지 결단, 2020 COVID 대응의 운영 규율, 다세대 가족 정체성 관리."
   },
-
   "personalTraits": {
     "knownFor": "Co-chairman of Meijer Inc — the family-owned American supercenter chain that pioneered the hypermarket format in 1962; historian and author who wrote the definitive biography of his immigrant grandfather; one of the most low-profile billionaires among US retail dynasties.",
     "knownForKo": "1962년 하이퍼마켓 포맷을 개척한 가족 소유 미국 슈퍼센터 체인 Meijer Inc 공동 의장. 이민자 할아버지의 권위 전기를 직접 쓴 역사가·작가. 미국 소매 가문 억만장자 중 가장 노출 적은 인물 중 한 명.",
@@ -150,12 +144,16 @@
     "controversies": "Limited public controversies due to private operating model and low family profile; some labor-relations issues around wages and unionization typical of large US retailers; environmental questions over hypermarket parking lots and runoff in some Midwest sites; no major personal scandals.",
     "controversiesKo": "비공개 운영과 낮은 가족 프로필로 공개 논란 제한적. 대형 미국 소매업체 일반적 수준의 임금·노조화 노동 관계 문제. 일부 중서부 부지의 주차장·유출수 관련 환경 문제. 본인 개인 스캔들은 없음."
   },
-
   "characterKo": {
     "summaryKo": "역사학자·작가 정체성을 끝까지 유지한 미국 소매 가문 후계자. 동료들이 말하는 가장 두드러진 특성은 '회사 의사결정에 다세대 시야를 늘 가져온다는 점'과 '본인이 직접 가족 역사 책을 쓸 만큼 가족 정체성에 진지하다는 점'. 형 더그·동생 마크와의 50년 공동 경영이 갈등 한 번 없이 유지된 사례.",
-    "tagsKo": ["역사학자형 후계자", "3형제 공동 의장", "다세대 가족 자본", "비공개 운영", "중서부 가부장"]
+    "tagsKo": [
+      "역사학자형 후계자",
+      "3형제 공동 의장",
+      "다세대 가족 자본",
+      "비공개 운영",
+      "중서부 가부장"
+    ]
   },
-
   "failures": [
     {
       "year": 2008,
@@ -163,7 +161,8 @@
       "descriptionKo": "2008 금융위기와 미시간 자동차 산업 붕괴가 마이저의 핵심 시장을 비정상적으로 타격 — 디트로이트 일부 매장이 수년간 매출 위축. 공개 시장 자본 조달 옵션 없이 지속적 마진 압박 흡수.",
       "lesson": "Private family ownership trades public-market access for governance control; in regional recessions that capital trade-off becomes acute.",
       "lessonKo": "사설 가족 소유는 거버넌스 통제와 공개 시장 접근을 맞바꾸는 구조 — 지역 침체기에는 그 자본 트레이드오프가 첨예해진다.",
-      "source": "https://en.wikipedia.org/wiki/Meijer"
+      "source": "https://en.wikipedia.org/wiki/Meijer",
+      "age": 56
     },
     {
       "year": 2017,
@@ -171,20 +170,37 @@
       "descriptionKo": "아마존의 Whole Foods 인수와 공격적인 온라인 식료품 진출이 모든 미국 지역 슈퍼마켓 체인 압박 — 마이저의 디지털 인프라가 수년간 경쟁사 대비 뒤처짐, 상당한 추격 투자 필요.",
       "lesson": "A regional clustering moat can become a digital handicap when the rules shift to national online platforms; investments in digital must be made before they appear urgent.",
       "lessonKo": "지역 클러스터링 해자는 규칙이 전국 온라인 플랫폼으로 바뀔 때 디지털 약점으로 전환된다. 디지털 투자는 시급해 보이기 전에 해 둬야 한다.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 65
     }
   ],
-
   "wealthHistory": [
-    { "year": 2015, "netWorth": 5.6 },
-    { "year": 2018, "netWorth": 6.5 },
-    { "year": 2020, "netWorth": 6.0 },
-    { "year": 2022, "netWorth": 7.0 },
-    { "year": 2024, "netWorth": 6.8 },
-    { "year": 2025, "netWorth": 6.5 }
+    {
+      "year": 2015,
+      "netWorth": 5.6
+    },
+    {
+      "year": 2018,
+      "netWorth": 6.5
+    },
+    {
+      "year": 2020,
+      "netWorth": 6
+    },
+    {
+      "year": 2022,
+      "netWorth": 7
+    },
+    {
+      "year": 2024,
+      "netWorth": 6.8
+    },
+    {
+      "year": 2025,
+      "netWorth": 6.5
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "My grandfather wrote a customer letter every day for forty years. We still try to write to one another like that.",
@@ -194,14 +210,16 @@
       "source": "https://www.meijer.com/about.html"
     }
   ],
-
   "books": {
     "authored": [
-      { "title": "Thrifty Years: The Life of Hendrik Meijer", "year": 1984, "noteKo": "할아버지 헨드릭 마이저의 권위 전기 — 본인이 직접 집필." }
+      {
+        "title": "Thrifty Years: The Life of Hendrik Meijer",
+        "year": 1984,
+        "noteKo": "할아버지 헨드릭 마이저의 권위 전기 — 본인이 직접 집필."
+      }
     ],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Sin-Myo day pillar in an In month forms a 'sanggwan-gyeok' chart — refined metal seeking spring wood, fitting a writer-historian who inherited and preserved a multi-generational family enterprise through quiet creative expression rather than dominance.",
     "summaryKo": "신묘 일주가 인월에 자리잡은 상관격(자기 표현·창의·문예가 외부 자본 위에서 흘러가는 구조)은 작가·역사학자 정체성을 유지하면서도 다세대 가족 자본을 조용히 보존한 그의 인생과 호응합니다. 신금 일간은 정련된 금속·정밀의 기질이고, 일지 묘목·월지 인목 모두 편재(외부 재물)로 깔려 있어 — 슈퍼마켓 매출이라는 외부 흐름이 평생의 자본 토대임을 그대로 그려냅니다. 월간 임수가 상관(자기 표현)으로 그의 작가·역사가 본능을 설명하고, 연주 임진의 임수·진토가 또 식상·정인으로 거듭 — 글쓰기와 학문이 평생 자본의 한 축을 이루는 구조. 약점은 상관격이 너무 강하면 정관(공식 권위)과 충돌할 수 있는데, 그의 인생에선 가족 안에서 형제 공동 경영으로 정관을 분산시켜 그 충돌을 피한 것으로 읽힙니다."

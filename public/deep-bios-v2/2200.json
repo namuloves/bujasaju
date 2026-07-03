@@ -34,43 +34,50 @@
       "year": 1985,
       "event": "Joined LG Group (then Lucky-Goldstar) after studying at University of Michigan",
       "eventKo": "미시간대학교 유학 후 LG그룹(당시 럭키금성) 입사",
-      "whyItMatteredKo": "재벌 3세 경영 수업 시작. LG그룹 내 경영 경험 축적."
+      "whyItMatteredKo": "재벌 3세 경영 수업 시작. LG그룹 내 경영 경험 축적.",
+      "age": 27
     },
     {
       "year": 2000,
       "event": "Served as executive at Heesung Group (희성그룹) subsidiaries",
       "eventKo": "희성그룹 계열사 임원 역임",
-      "whyItMatteredKo": "LG 본가(구본무 라인)와 분리된 희성그룹 계열에서 독자 경영권 구축."
+      "whyItMatteredKo": "LG 본가(구본무 라인)와 분리된 희성그룹 계열에서 독자 경영권 구축.",
+      "age": 42
     },
     {
       "year": 2018,
       "event": "Brother Koo Bon-moo (LG Group chairman) passed away; nephew Koo Kwang-mo became LG chairman",
       "eventKo": "형 구본무 LG그룹 회장 별세; 조카 구광모 LG 회장 승계",
-      "whyItMatteredKo": "LG 본가 경영권이 조카 구광모에게. 구본식은 별도 계열 독립 경영 가속."
+      "whyItMatteredKo": "LG 본가 경영권이 조카 구광모에게. 구본식은 별도 계열 독립 경영 가속.",
+      "age": 60
     },
     {
       "year": 2024,
       "event": "Became chairman of LT Group — rebranded from Heesung to establish independent identity",
       "eventKo": "LT그룹 회장 취임 — 희성에서 LT로 리브랜딩, 독립 정체성 확립",
-      "whyItMatteredKo": "LG 가문 내 독자 기업 집단으로 공식 독립. LT(Leading Technology)로 기술 중심 정체성 선언."
+      "whyItMatteredKo": "LG 가문 내 독자 기업 집단으로 공식 독립. LT(Leading Technology)로 기술 중심 정체성 선언.",
+      "age": 66
     },
     {
       "year": 2025,
       "event": "Forbes net worth $1.8B; LT Group operates in electronics materials, chemicals, and technology",
       "eventKo": "Forbes 순자산 $18억; LT그룹 전자소재·화학·기술 분야 운영",
-      "whyItMatteredKo": "LG 가문 분가 중 독자 억만장자. LT그룹으로 재벌 가문 내 독립 위치 확립."
+      "whyItMatteredKo": "LG 가문 분가 중 독자 억만장자. LT그룹으로 재벌 가문 내 독립 위치 확립.",
+      "age": 67
     }
   ],
   "turningPoints": [
     {
       "year": 2018,
       "eventKo": "형 구본무 별세 — LG 본가 경영권 조카 구광모에게 이동",
-      "impactKo": "구본식 독자 경영 가속. LG 가문 내 별도 기업 집단 구축의 결정적 계기."
+      "impactKo": "구본식 독자 경영 가속. LG 가문 내 별도 기업 집단 구축의 결정적 계기.",
+      "age": 60
     },
     {
       "year": 2024,
       "eventKo": "희성그룹 → LT그룹 리브랜딩, 회장 취임",
-      "impactKo": "LG 가문에서 공식 독립. 독자 정체성으로 전자소재·기술 기업 집단 운영."
+      "impactKo": "LG 가문에서 공식 독립. 독자 정체성으로 전자소재·기술 기업 집단 운영.",
+      "age": 66
     }
   ],
   "moneyMechanics": {
@@ -92,16 +99,30 @@
       "year": 2018,
       "descriptionKo": "형 구본무 별세 후 LG 본가 경영권 승계에서 배제 — 조카 구광모가 LG그룹 회장 승계",
       "howTheyOvercameKo": "LG 본가와의 경영권 분쟁 대신 희성그룹 계열 독자 경영 선택. 2024년 LT그룹으로 독립 리브랜딩.",
-      "lessonKo": "재벌 가문 내 경영권 승계에서 밀려도 독자 경영으로 가치 창출 가능."
+      "lessonKo": "재벌 가문 내 경영권 승계에서 밀려도 독자 경영으로 가치 창출 가능.",
+      "age": 60
     }
   ],
   "wealthHistory": [
-    {"year": 2020, "netWorth": "약 1조원", "sourceKo": "추정"},
-    {"year": 2025, "netWorth": "$1.8B (약 2.6조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2020,
+      "netWorth": "약 1조원",
+      "sourceKo": "추정"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$1.8B (약 2.6조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": [],
-  "personalTraitsKo": ["재벌 3세", "독자 경영", "기술 중심", "LG 가문"],
+  "personalTraitsKo": [
+    "재벌 3세",
+    "독자 경영",
+    "기술 중심",
+    "LG 가문"
+  ],
   "characterKo": {
     "strengths": "LG 가문 본가와의 갈등 없이 독자 기업 집단 구축. 희성→LT 리브랜딩으로 독립 정체성 확립. 전자소재·화학 분야 기술 사업 집중.",
     "weaknesses": "LG 본가 대비 기업 규모·인지도 제한적. 독립 이후 성장 동력 확보 과제. 재벌 3세로서 자수성가 서사 부재.",

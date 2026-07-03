@@ -2,10 +2,9 @@
   "id": "1024",
   "name": "Mohamed Mansour",
   "nameKo": "모하메드 만수르",
-  "netWorth": 4.0,
+  "netWorth": 4,
   "nationality": "EG",
   "industry": "Diversified",
-
   "childhood": {
     "birthPlace": "Alexandria, Egypt",
     "birthPlaceKo": "이집트 알렉산드리아",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "아버지 Loutfy의 사업이 1960년대 가말 압델 나세르의 아랍 사회주의 정부에 의해 국유화 — 정의적인 가족 트라우마. Mansour 형제가 안와르 사다트의 1970년대 경제 개방(인피타) 후 가족 사업 재건, 모하메드가 자동차 유통으로의 가족 확장 주도.",
     "source": "https://en.wikipedia.org/wiki/Mohamed_Mansour ; https://en.wikipedia.org/wiki/Mansour_Group ; https://www.forbes.com/profile/mohamed-mansour/"
   },
-
   "capitalOrigin": {
     "typeKo": "mixed",
     "explanationKo": "아버지 Loutfy의 1세대 사업이 1960년대 국유화로 부분 손실됐고, 1970년대 사다트 경제 개방 후 형제들이 재건. 본격적인 부는 모하메드가 1975년 General Motors의 이집트 독점 유통권을 확보한 후 Al-Mansour Automotive를 거대 자동차 유통 회사로 키운 데서 발생.",
     "source": "https://en.wikipedia.org/wiki/Mansour_Group"
   },
-
   "careerTimeline": [
     {
       "year": 1975,
@@ -114,7 +111,6 @@
       "source": "https://en.wikipedia.org/wiki/Mansour_Group"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1975,
@@ -141,7 +137,6 @@
       "source": "https://www.mancapital.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Mansour Group(비공개 가족 그룹) — Al-Mansour Automotive(GM·메르세데스-벤츠·Caterpillar 등 이집트 독점 유통), 소비재, 농업, 부동산. Man Capital(런던 기반 글로벌 가족 투자 부문). 본인 자산은 가족 합산이 아닌 본인·자녀 직접 지분.",
     "industryKo": "자동차 유통, 중장비 유통, 소비재, 글로벌 투자, 부동산",
@@ -149,7 +144,6 @@
     "moatKo": "① 1975년 GM 이집트 프랜차이즈의 50년 영구 자산. ② Caterpillar·메르세데스 같은 추가 글로벌 브랜드 프랜차이즈. ③ Man Capital을 통한 이집트 외 글로벌 다각화. ④ 60년 이집트 정치 환경 변화 통과의 거버넌스 노하우. ⑤ 세 형제 다세대 분담 거버넌스.",
     "luckVsSkillKo": "운(45%): 1975년 사다트 경제 개방이 GM·CAT 프랜차이즈 기회 창출, 2011 혁명에서 가족 사업이 국유화·압수 회피한 정치적 운, 2014 영국 정치 환경이 글로벌 정치 후원자 자리 허용. 실력(55%): 1960년대 국유화 트라우마에서 학습한 다각화 본능, 50년 GM 프랜차이즈 관리의 일관성, 정치 변화 환경에서 가족 자본 보호 거버넌스, Man Capital 글로벌 다각화 결단."
   },
-
   "personalTraits": {
     "knownFor": "Chairman of Mansour Group — one of Egypt's most important business families; holder of one of the world's largest GM automotive distribution franchises; former Egyptian Minister of Transport (2006-2009); founder of Man Capital, the family's London-based global investment arm; major UK political donor.",
     "knownForKo": "이집트 가장 중요한 사업 가족 중 하나 Mansour Group 의장. 세계 최대 GM 자동차 유통 프랜차이즈 중 하나 보유. 전 이집트 교통부 장관(2006-2009). 가족의 런던 기반 글로벌 투자 부문 Man Capital 창립자. 주요 영국 정치 기부자.",
@@ -158,12 +152,16 @@
     "controversies": "Egyptian Transport Ministry rail accidents during his 2006-2009 tenure remained politically sensitive; UK political donations (one of the largest single donors to the Conservative Party) drew media scrutiny over the appropriateness of foreign-citizen major donations; 1960s family-business nationalization context periodically resurfaces in Egyptian political debate.",
     "controversiesKo": "2006-2009 재임 중 이집트 교통부 철도 사고가 정치적으로 민감하게 유지. 영국 정치 기부(보수당의 최대 단일 기부자 중 하나)가 외국 시민의 대규모 기부의 적절성에 대한 미디어 감시. 1960년대 가족 사업 국유화 맥락이 주기적으로 이집트 정치 논쟁에서 재부상."
   },
-
   "characterKo": {
     "summaryKo": "60년 정치 격동기를 거친 이집트 사업 가부장의 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '1960년대 국유화 트라우마가 평생 다각화 본능으로 결실한 학습'과 '이집트·영국·글로벌 정치 자본가 정체성을 동시에 유지하는 일관성'. 다세대 가족 자본 거버넌스의 모범.",
-    "tagsKo": ["국유화 트라우마", "GM 50년 프랜차이즈", "전 이집트 교통부 장관", "영국 정치 후원자", "다세대 가족 가부장"]
+    "tagsKo": [
+      "국유화 트라우마",
+      "GM 50년 프랜차이즈",
+      "전 이집트 교통부 장관",
+      "영국 정치 후원자",
+      "다세대 가족 가부장"
+    ]
   },
-
   "failures": [
     {
       "year": 2009,
@@ -171,7 +169,8 @@
       "descriptionKo": "재임 동안(2006-2009) 이집트 교통부에서 다수의 치명적 철도 사고 발생 — 20명+ 사망한 2009년 충돌 포함. 만수르가 철도 안전에 대한 공개 비판 가운데 사임. 정치 경험이 사적 사업 복귀에도 지속적인 평판 비용을 남김.",
       "lesson": "Government service exposes private-sector wealth to operational risks the family business never faced; succession of fatal incidents under a minister's watch creates reputational damage that lasts decades.",
       "lessonKo": "정부 봉사는 사적 부문 부가 가족 사업이 결코 직면하지 않은 운영 리스크에 노출시킨다. 장관의 감시 아래 치명적 사고가 연이어 발생하면 수십 년 지속되는 평판 손상을 만든다.",
-      "source": "https://www.nytimes.com"
+      "source": "https://www.nytimes.com",
+      "age": 61
     },
     {
       "year": 2011,
@@ -179,7 +178,8 @@
       "descriptionKo": "2011 이집트 혁명과 무바라크 정부의 후속 전복이 모하메드의 장관 역할을 통해 이전 정권과 가깝게 식별된 Mansour 가족에 상당한 정치·운영 불확실성 창출 — 혁명 후 격동의 다년간 통과.",
       "lesson": "Political-business identity creates regime-change exposure that family-business identity alone does not; multi-generational wealth must be designed to survive multiple political cycles.",
       "lessonKo": "정치-사업 정체성은 가족 사업 정체성만으로는 만들지 않는 정권 교체 노출을 만든다. 다세대 부는 다수의 정치 사이클을 견디도록 설계되어야 한다.",
-      "source": "https://en.wikipedia.org/wiki/Egyptian_revolution_of_2011"
+      "source": "https://en.wikipedia.org/wiki/Egyptian_revolution_of_2011",
+      "age": 63
     },
     {
       "year": 2022,
@@ -187,21 +187,41 @@
       "descriptionKo": "Mansour의 영국 보수당에 대한 상당한 기부 — 현대 영국 정치 역사상 최대 단일 기부자 기여 중 — 가 외국 시민의 영국 정당에 대한 대규모 기부의 적절성에 대한 지속적 미디어·정치 감시를 받음.",
       "lesson": "Political donations across national jurisdictions create cross-border reputation risk that compounds with each new election cycle; private wealth and political visibility have asymmetric costs in different countries.",
       "lessonKo": "국가 관할권에 걸친 정치 기부는 각 새 선거 사이클과 누적되는 국경 간 평판 리스크를 만든다. 사적 부와 정치 가시성은 다른 국가에서 비대칭 비용을 갖는다.",
-      "source": "https://www.theguardian.com"
+      "source": "https://www.theguardian.com",
+      "age": 74
     }
   ],
-
   "wealthHistory": [
-    { "year": 2010, "netWorth": 1.5 },
-    { "year": 2015, "netWorth": 2.5 },
-    { "year": 2018, "netWorth": 2.7 },
-    { "year": 2021, "netWorth": 2.6 },
-    { "year": 2023, "netWorth": 3.2 },
-    { "year": 2024, "netWorth": 3.7 },
-    { "year": 2025, "netWorth": 4.0 }
+    {
+      "year": 2010,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2018,
+      "netWorth": 2.7
+    },
+    {
+      "year": 2021,
+      "netWorth": 2.6
+    },
+    {
+      "year": 2023,
+      "netWorth": 3.2
+    },
+    {
+      "year": 2024,
+      "netWorth": 3.7
+    },
+    {
+      "year": 2025,
+      "netWorth": 4
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "Nasser took our business. Sadat opened the door. We learned to never depend on one country.",
@@ -211,12 +231,10 @@
       "source": "https://en.wikipedia.org/wiki/Mansour_Group"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Jeong-Mi day pillar in a Chuk month forms a 'pyeon-gwan-gyeok' chart — candle-flame under winter earth and authority, fitting a multi-generational family steward who navigated nationalization, revolution, and ministerial service under sustained external pressure.",
     "summaryKo": "정미 일주가 축월에 자리잡은 편관격(강한 외부 권력·압박이 평생 자기 자본을 둘러싸는 구조)은 이집트 사회주의 국유화·2011 혁명·장관직·영국 정치 후원이라는 다중 외부 권력 환경 안에서 60년 가족 자본을 관리한 그의 인생과 호응합니다. 정화 일간은 등불·문헌의 빛이라 분석·세밀의 본능을 깔고 있고, 일지 미토·월지 축토가 식상·정관·정인을 한 자리에 묶어 — 자기 표현(사업 결정)·공식 권위(정부·정치)·학문(미국 대학원 학위)이 동시에 작용하는 구조를 그대로 그려냅니다. 약점은 편관격이 너무 강하면 자기 자아가 압축된다는 점인데, 2009년 장관직 사임과 2011 혁명 같은 권력 환경 변화의 시험이 그 표면화로 읽힙니다."

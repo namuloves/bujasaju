@@ -120,21 +120,24 @@
       "ageAtTime": 30,
       "decisionKo": "광둥에서 싱가포르로 이주, 싱가포르 시민권 취득",
       "alternativeKo": "광둥에 머물렀다면 중국 부동산 1선 도시 진입은 했어도 싱가포르 SGX 상장이라는 자본 통로는 없었을 것.",
-      "outcomeKo": "싱가포르 자본 시장 + 중국 본토 사업의 이중 거점 확보."
+      "outcomeKo": "싱가포르 자본 시장 + 중국 본토 사업의 이중 거점 확보.",
+      "age": 30
     },
     {
       "year": 1993,
       "ageAtTime": 35,
       "decisionKo": "무역·제조업에서 부동산으로 카테고리 전환",
       "alternativeKo": "무역에 머물렀다면 1990년대 중국 부동산 1세대 진입의 큰 마진을 놓쳤을 것.",
-      "outcomeKo": "중국 1선 도시 고급 부동산 1세대 자수성가 + 30년 압도적 지분 보유."
+      "outcomeKo": "중국 1선 도시 고급 부동산 1세대 자수성가 + 30년 압도적 지분 보유.",
+      "age": 35
     },
     {
       "year": 2006,
       "ageAtTime": 48,
       "decisionKo": "중국 본토 부동산 회사를 싱가포르 SGX 상장",
       "alternativeKo": "중국 본토 시장 상장이었다면 정치 사이클 노출도가 더 컸을 것.",
-      "outcomeKo": "싱가포르 자본 시장의 공시 표준 + 본인 지분 시장 가치화."
+      "outcomeKo": "싱가포르 자본 시장의 공시 표준 + 본인 지분 시장 가치화.",
+      "age": 48
     }
   ],
   "moneyMechanics": {
@@ -171,7 +174,8 @@
       "descriptionKo": "2020-2021년 중국의 '삼도홍선' 정책(부동산 부채 3대 한계선)으로 중국 부동산 디벨로퍼 위기 본격화 — 헝다·컨트리가든·롱푸 등. 옌로드의 1선 도시 고급 포지셔닝이 일부 방어막이었지만 중국 부동산 평가가치 환경 자체가 붕괴.",
       "lesson": "Even a high-end positioning can't fully shield a single-country, single-category developer when the entire industry's regulatory environment changes.",
       "lessonKo": "고급 포지셔닝도 단일 국가·단일 카테고리 디벨로퍼를 산업 전체 규제 환경 변화로부터 완전히 보호하지는 못합니다.",
-      "source": "https://www.tatlerasia.com/people/zhong-sheng-jian"
+      "source": "https://www.tatlerasia.com/people/zhong-sheng-jian",
+      "age": 63
     },
     {
       "year": 2023,
@@ -179,7 +183,8 @@
       "descriptionKo": "옌로드 주가가 중국 부동산 섹터와 함께 급격히 압축. 옌로드의 상대적으로 깨끗한 대차대조표에도 시장은 중국 노출 부동산을 모두 같은 시각으로.",
       "lesson": "Capital markets paint with broad brushes during sector crises. Being the cleanest house in a bad neighborhood still gets you the neighborhood discount.",
       "lessonKo": "자본 시장은 섹터 위기 때 넓은 붓으로 그립니다. 나쁜 동네의 가장 깨끗한 집도 동네 할인을 함께 받습니다.",
-      "source": "https://www.tatlerasia.com/people/zhong-sheng-jian"
+      "source": "https://www.tatlerasia.com/people/zhong-sheng-jian",
+      "age": 65
     },
     {
       "year": 2024,
@@ -187,12 +192,21 @@
       "descriptionKo": "옌로드 평가 변동에 따라 본인 자산이 2010년대 정점의 더 높은 Forbes 순위에서 2026년 #2712까지 변동. 단일 자산 70% 보유는 창업자 자산이 자산과 1:1로 움직임을 의미.",
       "lesson": "Concentrated ownership amplifies upside and downside symmetrically. Diversification has costs but the costs you don't see are the volatility you don't have.",
       "lessonKo": "집중 소유는 상승과 하락을 대칭으로 증폭합니다. 분산은 비용이 있지만 보이지 않는 비용은 겪지 않는 변동성입니다.",
-      "source": "http://www.yanlordland.com/leader/mr-zhong-sheng-jian/"
+      "source": "http://www.yanlordland.com/leader/mr-zhong-sheng-jian/",
+      "age": 66
     }
   ],
   "wealthHistory": [
-    {"year": 2006, "netWorth": "옌로드 SGX 상장 — 자산 시장 가치화", "sourceKo": "옌로드 SGX IPO"},
-    {"year": 2025, "netWorth": "$1.2B (Forbes #2712)", "sourceKo": "Forbes Real-Time Billionaires 2026"}
+    {
+      "year": 2006,
+      "netWorth": "옌로드 SGX 상장 — 자산 시장 가치화",
+      "sourceKo": "옌로드 SGX IPO"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$1.2B (Forbes #2712)",
+      "sourceKo": "Forbes Real-Time Billionaires 2026"
+    }
   ],
   "quotes": [],
   "books": {
@@ -205,9 +219,18 @@
     "summaryKo": "중성젠의 사주는 기토(작은 흙·평야) 일간이 묘목(봄의 어린 가지·토끼) 위에 놓인 기묘 일주입니다. 작은 흙이 새 가지에 뿌리내리는 형상이라, 토양을 새 카테고리에 옮겨 심는 결입니다. 격국이 정관격(체계·전통·제도화된 권위로 자기 자리를 만드는 형식)이라, 1988년 광둥에서 싱가포르로 이주해 시민권을 취득하고 2006년 SGX 상장으로 회사를 제도화한 흐름이 사주의 정해진 길입니다. 월지 인목은 봄의 호랑이로 기토에게는 정관(전통 권위)의 작용을 하는데, 1990년대 중국 부동산 1세대 진입이라는 큰 흐름을 그가 일찍 읽고 자기 카테고리로 만든 것과 닿습니다. 사주에 토 + 목 구조가 안정적이라 30년간 한 회사를 약 70% 단독 보유하는 정관격의 일관성이 자연스러운 발현입니다.",
     "interpretationKo": "기묘 일주는 작은 흙이 새 가지에 뿌리내리는 형상으로, 토양을 새 곳에 옮겨 심는 결. 정관격은 본인 정체성을 제도(시민권·상장·명예 시민권)에 단단히 묶어 자기 자리를 만드는 패턴이라, 화교에서 싱가포르 시민으로, 중국 본토 사업가에서 SGX 상장 경영자로 정체성을 옮긴 흐름이 자연스럽습니다.",
     "keyEvents": [
-      {"year": 1988, "eventKo": "싱가포르 시민권 취득 — 정관격이 새 제도로 정체성 이전"},
-      {"year": 1993, "eventKo": "옌로드 창업 — 새 카테고리에 뿌리내림"},
-      {"year": 2006, "eventKo": "SGX 상장 — 정관격이 자본을 제도화"}
+      {
+        "year": 1988,
+        "eventKo": "싱가포르 시민권 취득 — 정관격이 새 제도로 정체성 이전"
+      },
+      {
+        "year": 1993,
+        "eventKo": "옌로드 창업 — 새 카테고리에 뿌리내림"
+      },
+      {
+        "year": 2006,
+        "eventKo": "SGX 상장 — 정관격이 자본을 제도화"
+      }
     ]
   },
   "sources": [

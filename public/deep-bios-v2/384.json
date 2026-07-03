@@ -5,7 +5,6 @@
   "netWorth": 8.8,
   "nationality": "AU",
   "industry": "Finance & Investments",
-
   "childhood": {
     "birthPlace": "Filakovo, Czechoslovakia (now Slovakia)",
     "birthPlaceKo": "체코슬로바키아 필라코보(현 슬로바키아)",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "1945년 헝가리 해방 후 폐허 유럽을 가로질러 난민 캠프로 이동. 1946년 영국 위임통치령 팔레스타인에 난민선으로 불법 입국, 1947-48년 하가나(이스라엘 민병대)와 골라니 여단 갈릴리 전투 복무. 1952년 시드니의 생존 친척에게 합류. 영어와 호주 상업 문화를 배우는 동안 델리·샌드위치 배달 운전기사로 일함.",
     "source": "https://en.wikipedia.org/wiki/Frank_Lowy ; https://www.lowyinstitute.org/about/lowy"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 홀로코스트 생존 난민으로 호주 도착 시 자본 없음. 첫 자본은 1955년 시드니에서 동료 홀로코스트 생존자 존 손더스와 함께 시작한 작은 식료품·델리 사업의 누적 수익. 본격적인 부는 1959년 시드니 블랙타운에서 호주 최초의 미국식 쇼핑센터 'Westfield Place'를 열면서 발생, 이후 60년에 걸쳐 Westfield Group이 글로벌 쇼핑센터 기업으로 성장.",
     "source": "https://en.wikipedia.org/wiki/Westfield_Corporation"
   },
-
   "careerTimeline": [
     {
       "year": 1955,
@@ -132,7 +129,6 @@
       "source": "https://www.forbes.com/profile/frank-lowy/"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1946,
@@ -167,7 +163,6 @@
       "source": "https://en.wikipedia.org/wiki/Westfield_Corporation"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Lowy Family Group(비공개 사설 투자 사무소)이 2018년 Westfield Corporation 매각 대금과 Scentre Group 지분, 글로벌 부동산·금융 자산 운영. Westfield Corporation 매각 대금의 절반은 현금, 절반은 Unibail-Rodamco-Westfield 주식 — 이후 가치 변동 노출.",
     "industryKo": "부동산(쇼핑센터, 글로벌), 금융 자산 운용, 자선·정책 싱크탱크",
@@ -175,7 +170,6 @@
     "moatKo": "① 60년 누적된 쇼핑센터 입지 데이터와 임차인 네트워크. ② 호주·미국·영국 자본 시장 동시 신뢰. ③ 두 명의 홀로코스트 생존자 동업이 32년 무갈등 유지된 거버넌스 전설. ④ Lowy Institute를 통한 호주 외교·정책 영향력.",
     "luckVsSkillKo": "운(30%): 1946년 팔레스타인 행 난민선의 생존, 1952년 호주 정착 시기가 마침 전후 부동산 붐 직전, 2018년 글로벌 쇼핑몰 매각이 이커머스 폭발 직전의 정점 타이밍. 실력(70%): 60년 일관된 카테고리 집중, 동업 파트너십 32년 유지, 한 세대를 거쳐 매각 사이클 정점을 식별, 다세대 가족 사무소로 자본 변환."
   },
-
   "personalTraits": {
     "knownFor": "Founder of Westfield Corporation, the global shopping-center empire; one of Australia's most prominent business figures of the 20th century; Holocaust survivor who became a billionaire and major philanthropist; founder of the Lowy Institute, a leading Asia-Pacific foreign-policy think tank.",
     "knownForKo": "글로벌 쇼핑센터 제국 Westfield Corporation 창업자. 20세기 호주의 가장 두드러진 사업 인물 중 하나. 홀로코스트 생존자에서 억만장자·주요 자선가로 변신. 아시아·태평양 주요 외교정책 싱크탱크 Lowy Institute 설립자.",
@@ -184,12 +178,16 @@
     "controversies": "Named in 2014 Senate inquiry into offshore tax structures over a Liechtenstein family trust (LGT bank data leak); Lowy maintained the trust was disclosed under Australian law. Disputes over Football Federation Australia governance during his 2003-2015 chairmanship. No criminal proceedings.",
     "controversiesKo": "2014년 호주 상원 해외 조세 구조 조사에서 가족의 리히텐슈타인 신탁(LGT 은행 데이터 유출 관련) 명단 등재 — 로위는 호주 법에 따라 공시했다고 주장. 2003-2015 호주 축구연맹 회장 시절 거버넌스 분쟁. 형사 처벌 없음."
   },
-
   "characterKo": {
     "summaryKo": "홀로코스트 트라우마와 이민자 정체성이 평생 경영 결정의 심리적 동력이었다는 점이 모든 측근의 공통 증언. '월요일 아침이면 다시 부다페스트에서 도망치는 14세가 된다'는 자기 표현이 자주 인용됨. 동업자 손더스와의 32년 동업, 가족 4세대 자본 설계, 호주 외교정책 후원까지 — 모두 '안전한 다세대 정체성'을 만들려는 일관된 충동.",
-    "tagsKo": ["홀로코스트 생존자", "이민자 정체성", "32년 동업 파트너", "사이클 정점 매각", "외교정책 후원자"]
+    "tagsKo": [
+      "홀로코스트 생존자",
+      "이민자 정체성",
+      "32년 동업 파트너",
+      "사이클 정점 매각",
+      "외교정책 후원자"
+    ]
   },
-
   "failures": [
     {
       "year": 1990,
@@ -197,7 +195,8 @@
       "descriptionKo": "Westfield Holdings가 1980년대 후반 LBO 붐 시기 공격적 인수를 단행. 1990-1991 호주 경기침체와 미국 부동산 폭락이 다수 Westfield 자산을 동시 타격 — 재무구조 조정 강제, 수년간 확장 둔화.",
       "lesson": "Even disciplined operators get caught by cyclical leverage when global property markets correct simultaneously; family-control companies need permanent capital reserves to survive multi-year downturns.",
       "lessonKo": "규율 있는 운영자도 글로벌 부동산 시장이 동시에 조정되면 사이클 레버리지에 잡힌다. 가족 지배 회사는 다년간 침체를 견딜 영구 자본 비축이 필요하다.",
-      "source": "https://en.wikipedia.org/wiki/Westfield_Corporation"
+      "source": "https://en.wikipedia.org/wiki/Westfield_Corporation",
+      "age": 60
     },
     {
       "year": 2018,
@@ -205,7 +204,8 @@
       "descriptionKo": "Westfield Corporation 매각 대금의 절반이 Unibail-Rodamco-Westfield(URW) 주식. URW 주가는 2018-2020년 유럽 몰 평가와 COVID 결합으로 70% 이상 하락 — 로위 가문이 일부 매각했지만 거래 주식 부분에서 상당한 평가손 흡수.",
       "lesson": "Even at a perfect cycle-top sale, accepting acquirer stock instead of full cash transfers a portion of the cycle risk back onto the seller; future generational sales should weight cash much more heavily.",
       "lessonKo": "완벽한 사이클 정점 매각에서도 인수자 주식을 받으면 사이클 리스크의 일부가 매도자로 되돌아온다. 다세대 매각에서는 현금 비중을 훨씬 더 높여야 한다.",
-      "source": "https://www.afr.com ; https://www.urw.com"
+      "source": "https://www.afr.com ; https://www.urw.com",
+      "age": 88
     },
     {
       "year": 2014,
@@ -213,21 +213,41 @@
       "descriptionKo": "2008년 LGT 리히텐슈타인 은행 데이터 유출에서 약 7,000만 달러 규모 리히텐슈타인 가족 재단 보유자로 등재 — 2014년 호주 상원이 신탁의 투명성에 대해 조사. 로위는 재단이 공시·세무 준수됐다고 주장 — 비판은 위법성보다 해외 구조 자체에 집중.",
       "lesson": "Offshore family-foundation structures designed in the mid-20th century carry reputational tails into the 21st-century transparency era; multi-generational wealth needs to be restructured for current disclosure norms rather than legacy ones.",
       "lessonKo": "20세기 중반 설계된 해외 가족 재단 구조는 21세기 투명성 시대에 평판 부담을 남긴다. 다세대 자산은 과거 공시 기준이 아니라 현재 기준에 맞게 재구조화해야 한다.",
-      "source": "https://www.smh.com.au ; https://en.wikipedia.org/wiki/Frank_Lowy"
+      "source": "https://www.smh.com.au ; https://en.wikipedia.org/wiki/Frank_Lowy",
+      "age": 84
     }
   ],
-
   "wealthHistory": [
-    { "year": 2005, "netWorth": 2.7 },
-    { "year": 2010, "netWorth": 4.0 },
-    { "year": 2015, "netWorth": 5.3 },
-    { "year": 2018, "netWorth": 6.6 },
-    { "year": 2020, "netWorth": 5.5 },
-    { "year": 2023, "netWorth": 7.4 },
-    { "year": 2025, "netWorth": 8.8 }
+    {
+      "year": 2005,
+      "netWorth": 2.7
+    },
+    {
+      "year": 2010,
+      "netWorth": 4
+    },
+    {
+      "year": 2015,
+      "netWorth": 5.3
+    },
+    {
+      "year": 2018,
+      "netWorth": 6.6
+    },
+    {
+      "year": 2020,
+      "netWorth": 5.5
+    },
+    {
+      "year": 2023,
+      "netWorth": 7.4
+    },
+    {
+      "year": 2025,
+      "netWorth": 8.8
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "I arrived in Australia with nothing. The country gave me everything. I owe it everything back.",
@@ -244,14 +264,16 @@
       "source": "https://en.wikipedia.org/wiki/Frank_Lowy"
     }
   ],
-
   "books": {
     "authored": [
-      { "title": "Frank Lowy: A Second Life", "year": 2015, "noteKo": "Jill Margo의 그에 대한 권위 있는 전기 — 본인이 협력했고 후고 로위 추모를 헌정한 책." }
+      {
+        "title": "Frank Lowy: A Second Life",
+        "year": 2015,
+        "noteKo": "Jill Margo의 그에 대한 권위 있는 전기 — 본인이 협력했고 후고 로위 추모를 헌정한 책."
+      }
     ],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Eul-Sa day pillar in a Sul month forms a 'sanggwan-gyeok' chart — creative-expressive energy under the heat of constant authority and tradition, fitting a life that built a category from nothing while carrying the weight of survivor identity.",
     "summaryKo": "을사 일주가 술월에 자리잡은 상관격(자기 표현·창의·재능이 관습보다 앞서 나가는 구조)은 14세 도망자가 호주에 새 카테고리(미국식 쇼핑센터)를 정의해 낸 그의 인생과 거의 그대로 호응합니다. 을목 일간은 작은 풀·꽃·문예적 기질로, 그가 60년에 걸쳐 다듬은 쇼핑센터라는 '도시의 디자인된 공간'을 만든 본능과 맞물립니다. 일지 사화가 상관(자기 표현·창의)으로 깔려 있어, 이민자 사업가가 정통이 아닌 새 카테고리로 자기 자리를 만든 패턴을 그대로 그려냅니다. 월지 술토 안의 정화·신금·무토가 식상·편관·정재를 한 자리에 묶어 — 창의(식상)·권력 환경(편관)·자본(정재) 세 요소가 동시에 작용하는 구조가 호주·미국·영국 시장 동시 운영의 다중 자본을 설명합니다. 연주 경오의 경금은 정관(공식 권위)으로, 호주 시민권·왕실 훈장·외교정책 후원 같은 정관 활동이 평생 그를 안정시키는 자리. 약점은 상관격이 너무 강할 때 정관과 충돌할 수 있다는 점인데, 2014년 해외 신탁 조사와 호주 축구연맹 분쟁이 그 상관-정관 충돌의 표면화로 읽힙니다."

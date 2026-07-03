@@ -37,54 +37,63 @@
       "year": 1972,
       "event": "Founded Hansae Trading after Wharton MBA",
       "eventKo": "와튼 MBA 후 한세통상 창업",
-      "whyItMatteredKo": "27세에 본인 회사. 한국 와튼 MBA 1세대."
+      "whyItMatteredKo": "27세에 본인 회사. 한국 와튼 MBA 1세대.",
+      "age": 27
     },
     {
       "year": 1979,
       "event": "Hansae Trading went bankrupt",
       "eventKo": "한세통상 부도",
-      "whyItMatteredKo": "본인 인생 첫 큰 실패. 후일 재기의 동기."
+      "whyItMatteredKo": "본인 인생 첫 큰 실패. 후일 재기의 동기.",
+      "age": 34
     },
     {
       "year": 1982,
       "event": "Re-founded as Hansae Industries — apparel OEM focused",
       "eventKo": "한세실업 재창립 — 의류 OEM 전문",
-      "whyItMatteredKo": "본인 인생 두 번째 창업. 평생 사업의 출발점."
+      "whyItMatteredKo": "본인 인생 두 번째 창업. 평생 사업의 출발점.",
+      "age": 37
     },
     {
       "year": 2003,
       "event": "Acquired YES24 Internet bookstore — diversification",
       "eventKo": "예스24 인터넷 서점 인수 — 사업 다각화",
-      "whyItMatteredKo": "의류에서 인터넷 유통으로 영역 확장."
+      "whyItMatteredKo": "의류에서 인터넷 유통으로 영역 확장.",
+      "age": 58
     },
     {
       "year": 2009,
       "event": "Acquired Donga Publishing",
       "eventKo": "동아출판 인수",
-      "whyItMatteredKo": "출판업 진출."
+      "whyItMatteredKo": "출판업 진출.",
+      "age": 64
     },
     {
       "year": 2025,
       "event": "Returned to Hansae Industries CEO after 18 years; 3-CEO structure",
       "eventKo": "18년 만에 한세실업 대표이사 경영 복귀; 3인 각자대표 체제",
-      "whyItMatteredKo": "80세에 직접 운영 복귀. 자녀 후계 정리 + 본인 장수 경영."
+      "whyItMatteredKo": "80세에 직접 운영 복귀. 자녀 후계 정리 + 본인 장수 경영.",
+      "age": 80
     }
   ],
   "turningPoints": [
     {
       "year": 1979,
       "eventKo": "한세통상 부도",
-      "impactKo": "본인 인생 첫 큰 실패."
+      "impactKo": "본인 인생 첫 큰 실패.",
+      "age": 34
     },
     {
       "year": 1982,
       "eventKo": "한세실업 재창립",
-      "impactKo": "본인 평생 사업의 출발점."
+      "impactKo": "본인 평생 사업의 출발점.",
+      "age": 37
     },
     {
       "year": 2003,
       "eventKo": "예스24 인수",
-      "impactKo": "의류에서 유통으로 다각화."
+      "impactKo": "의류에서 유통으로 다각화.",
+      "age": 58
     }
   ],
   "moneyMechanics": {
@@ -106,15 +115,26 @@
       "year": 1979,
       "descriptionKo": "한세통상 부도",
       "howTheyOvercameKo": "1982년 한세실업으로 재창립.",
-      "lessonKo": "첫 부도가 두 번째 성공의 학습."
+      "lessonKo": "첫 부도가 두 번째 성공의 학습.",
+      "age": 34
     }
   ],
   "wealthHistory": [
-    {"year": 2025, "netWorth": "$0.4B (약 0.56조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2025,
+      "netWorth": "$0.4B (약 0.56조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": [],
-  "personalTraitsKo": ["와튼 MBA 1세대", "부도 후 재기", "의류 + 도서 다각화", "80세 경영 복귀", "두 아들 분업"],
+  "personalTraitsKo": [
+    "와튼 MBA 1세대",
+    "부도 후 재기",
+    "의류 + 도서 다각화",
+    "80세 경영 복귀",
+    "두 아들 분업"
+  ],
   "characterKo": {
     "strengths": "와튼 MBA의 학구적 신뢰성. 부도 후 재기의 회복력. 의류 OEM + 인터넷 서점의 다각화 감각.",
     "weaknesses": "OEM의 본질적 마진 정체. 80세 경영 복귀의 직접 운영 한계.",

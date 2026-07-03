@@ -120,21 +120,24 @@
       "ageAtTime": 35,
       "decisionKo": "죽세공 공장에서 교육 학습 도구로 사업 전환",
       "alternativeKo": "죽세공만 했다면 지역 중소기업으로 끝났을 것.",
-      "outcomeKo": "8년 적자 → 1990년 국가 인증 → 중국 최대 교육 학습 도구 제조사."
+      "outcomeKo": "8년 적자 → 1990년 국가 인증 → 중국 최대 교육 학습 도구 제조사.",
+      "age": 35
     },
     {
       "year": 1999,
       "ageAtTime": 54,
       "decisionKo": "교육 제품 제조사에서 직접 학교 운영자로 진입",
       "alternativeKo": "제조업에 머물렀다면 교육 산업의 부가가치 사슬 상위로 못 올라갔을 것.",
-      "outcomeKo": "저장성 1급 중점 고교 + 외국어 교육 커리큘럼의 글로벌 인지."
+      "outcomeKo": "저장성 1급 중점 고교 + 외국어 교육 커리큘럼의 글로벌 인지.",
+      "age": 54
     },
     {
       "year": 2008,
       "ageAtTime": 63,
       "decisionKo": "본인 보유 지분 77.83%를 가족 신탁에 영구 이전",
       "alternativeKo": "본인 직접 보유했다면 가족 갈등·후계 위험이 더 컸을 것.",
-      "outcomeKo": "중국 1세대 가족 신탁 사례 — 후대 다툼의 구조적 차단."
+      "outcomeKo": "중국 1세대 가족 신탁 사례 — 후대 다툼의 구조적 차단.",
+      "age": 63
     }
   ],
   "moneyMechanics": {
@@ -171,7 +174,8 @@
       "descriptionKo": "1980년 교육 학습 도구 사업 진출 후 1988년까지 8년 연속 손실. 당시 중국의 입시 위주 교육 정책 아래서 그가 만드는 '소질 교육' 도구는 시장이 아직 열리지 않은 상태.",
       "lesson": "Markets that depend on policy change can't be willed into existence — but waiting 8 years through losses for the policy turn is itself the moat.",
       "lessonKo": "정책이 바뀌어야 열리는 시장은 의지만으로 만들 수 없습니다. 그러나 정책 전환을 8년간 적자로 버티는 것 자체가 진입 장벽이 됩니다.",
-      "source": "https://baike.baidu.com/en/item/Xu%20Wanmao/889174"
+      "source": "https://baike.baidu.com/en/item/Xu%20Wanmao/889174",
+      "age": 35
     },
     {
       "year": 1971,
@@ -179,7 +183,8 @@
       "descriptionKo": "문화대혁명기 학교 운영 공장 체제에서 출발. 1971-1976년 정치 환경이 사기업적 운영을 매우 취약하게 만들었고, '화마오 전신'은 학교 부설 단위로 독립 기업이 아니었습니다.",
       "lesson": "Some founders' first decade is purely political survival. The decade of seeming 'wasted years' often builds the network and patience the next decade needs.",
       "lessonKo": "어떤 창업자에겐 첫 10년이 순수한 정치 생존입니다. '낭비된 것 같은' 그 10년이 다음 10년에 필요한 네트워크와 인내심을 만듭니다.",
-      "source": "https://www.nbhis.com/huamao-story-2/"
+      "source": "https://www.nbhis.com/huamao-story-2/",
+      "age": 26
     },
     {
       "year": 2021,
@@ -187,21 +192,46 @@
       "descriptionKo": "2021년 중국의 '쌍감' 정책(사교육 단속)으로 사교육 단속이 강화되며 교육 산업 전반이 위축. 화마오 제품 라인은 사교육과 다르지만, 업계 전반 규제 한파가 기업가치와 Forbes 순위에 부담.",
       "lesson": "Even policy-aligned education businesses suffer when the regulator chills the entire vertical. Diversification across education sub-segments matters.",
       "lessonKo": "정책에 부합하는 교육 사업도 규제가 산업 전체를 얼리면 함께 흔들립니다. 교육 내 세부 영역 다각화가 중요합니다.",
-      "source": "https://www.hurun.net/en-us/info/detail?num=8AF475DC1457"
+      "source": "https://www.hurun.net/en-us/info/detail?num=8AF475DC1457",
+      "age": 76
     }
   ],
   "wealthHistory": [
-    {"year": 2019, "netWorth": "¥7.78B (Forbes China 400 #353)", "sourceKo": "Forbes China 400 Rich List 2019"},
-    {"year": 2020, "netWorth": "$1B (Forbes #1990)", "sourceKo": "Forbes World's Billionaires 2020"},
-    {"year": 2021, "netWorth": "$1.5B (Forbes #2035)", "sourceKo": "Forbes World's Billionaires 2021"},
-    {"year": 2023, "netWorth": "¥10B (Hurun #2191)", "sourceKo": "Hurun Global Rich List 2023"},
-    {"year": 2025, "netWorth": "$1.2B / 가문 ¥9B (Hurun #807)", "sourceKo": "Hurun Rich List 2025 + Forbes Real-Time"}
+    {
+      "year": 2019,
+      "netWorth": "¥7.78B (Forbes China 400 #353)",
+      "sourceKo": "Forbes China 400 Rich List 2019"
+    },
+    {
+      "year": 2020,
+      "netWorth": "$1B (Forbes #1990)",
+      "sourceKo": "Forbes World's Billionaires 2020"
+    },
+    {
+      "year": 2021,
+      "netWorth": "$1.5B (Forbes #2035)",
+      "sourceKo": "Forbes World's Billionaires 2021"
+    },
+    {
+      "year": 2023,
+      "netWorth": "¥10B (Hurun #2191)",
+      "sourceKo": "Hurun Global Rich List 2023"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$1.2B / 가문 ¥9B (Hurun #807)",
+      "sourceKo": "Hurun Rich List 2025 + Forbes Real-Time"
+    }
   ],
   "quotes": [],
   "books": {
     "authored": [],
     "recommended": [
-      {"title": "쉬완마오와 화마오 그룹 — 사업 성공의 숨은 길", "author": "정쭤스(Zheng Zuoshi)", "whyKo": "쉬완마오의 신유상 경영을 다룬 중국어 전기."}
+      {
+        "title": "쉬완마오와 화마오 그룹 — 사업 성공의 숨은 길",
+        "author": "정쭤스(Zheng Zuoshi)",
+        "whyKo": "쉬완마오의 신유상 경영을 다룬 중국어 전기."
+      }
     ]
   },
   "sajuConnection": {
@@ -210,9 +240,18 @@
     "summaryKo": "쉬완마오의 사주는 임수(큰 강) 일간이 인목(봄의 호랑이) 위에 놓인 임인 일주입니다. 큰 강이 호랑이를 만나 멀리 흐르는 결이라, 산골 빈민 가정에서 출발해 중국 전국 학생 1억 명에게 물처럼 흘러간 그의 인생과 정확히 호응합니다. 격국이 정관격(체계·책임·전통적 권위로 자기 자리를 만드는 형식)이라, 1971년 학교 운영 공장 → 1978년 정식 경영자 → 1990년 교육부 인증 → 1999년 학교 설립 → 2005년 국제 교육 포럼 → 2008년 가족 신탁 이전으로 이어지는 그의 30년 흐름은 정관격의 교과서입니다. 월지 미토는 늦여름 마른 흙으로 임수에게는 정관(제도화된 권위)의 작용을 하는데, 본인이 '신유상' 정체성으로 교육·학문·전통을 모두 끌어안은 행보가 그 결과 입니다. 1980-88년 8년 적자 인내는 정관격 특유의 끈기 — 책임을 짊어진 자가 시간을 버티는 패턴 — 의 가장 또렷한 발현입니다.",
     "interpretationKo": "임인 일주는 큰 강이 호랑이를 만난 형상으로, 흐름과 결단이 함께 있는 결. 정관격은 본인이 만든 것이 아닌 주어진 자리·책임을 도구로 쓰는 패턴이라, 학교 운영 공장이라는 외부 체계를 본인 인생의 출발점으로 받아들인 흐름이 자연스럽습니다.",
     "keyEvents": [
-      {"year": 1971, "eventKo": "학교 운영 공장 합류 — 정관격의 체계 안에서 출발"},
-      {"year": 1990, "eventKo": "교육부 인증 — 정관격의 제도적 승인"},
-      {"year": 2008, "eventKo": "가족 신탁 이전 — 정관격이 자산을 제도로 굳힘"}
+      {
+        "year": 1971,
+        "eventKo": "학교 운영 공장 합류 — 정관격의 체계 안에서 출발"
+      },
+      {
+        "year": 1990,
+        "eventKo": "교육부 인증 — 정관격의 제도적 승인"
+      },
+      {
+        "year": 2008,
+        "eventKo": "가족 신탁 이전 — 정관격이 자산을 제도로 굳힘"
+      }
     ]
   },
   "sources": [

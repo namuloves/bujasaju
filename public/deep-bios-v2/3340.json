@@ -36,37 +36,43 @@
       "year": 1986,
       "event": "Appointed CEO of Halla Air Conditioning",
       "eventKo": "한라공조 대표이사",
-      "whyItMatteredKo": "31세에 첫 대표이사."
+      "whyItMatteredKo": "31세에 첫 대표이사.",
+      "age": 31
     },
     {
       "year": 1997,
       "event": "Became Chairman of Halla Group; IMF crisis sold Mando",
       "eventKo": "한라그룹 회장 취임; IMF로 만도 매각",
-      "whyItMatteredKo": "IMF 시 가문 핵심 자산 만도 매각 — 본인 인생 최대 위기."
+      "whyItMatteredKo": "IMF 시 가문 핵심 자산 만도 매각 — 본인 인생 최대 위기.",
+      "age": 42
     },
     {
       "year": 2008,
       "event": "Reacquired Mando — major comeback",
       "eventKo": "만도 재인수 — 그룹 재건",
-      "whyItMatteredKo": "8년 만에 핵심 자산 회수. 한국 재벌 그룹 재건의 모범 사례."
+      "whyItMatteredKo": "8년 만에 핵심 자산 회수. 한국 재벌 그룹 재건의 모범 사례.",
+      "age": 53
     },
     {
       "year": 2022,
       "event": "Renamed Halla Group to HL Group",
       "eventKo": "9월 한라그룹을 HL그룹으로 사명 변경",
-      "whyItMatteredKo": "본인 시대 정체성 재정비."
+      "whyItMatteredKo": "본인 시대 정체성 재정비.",
+      "age": 67
     }
   ],
   "turningPoints": [
     {
       "year": 1997,
       "eventKo": "IMF 만도 매각",
-      "impactKo": "본인 인생 최대 위기."
+      "impactKo": "본인 인생 최대 위기.",
+      "age": 42
     },
     {
       "year": 2008,
       "eventKo": "만도 재인수",
-      "impactKo": "한국 재벌 그룹 재건의 모범 사례."
+      "impactKo": "한국 재벌 그룹 재건의 모범 사례.",
+      "age": 53
     }
   ],
   "moneyMechanics": {
@@ -88,16 +94,31 @@
       "year": 1997,
       "descriptionKo": "IMF 시 만도 매각 — 가문 핵심 자산 손실",
       "howTheyOvercameKo": "8년 후 재인수로 회복.",
-      "lessonKo": "IMF 같은 외부 위기에서 핵심 자산 매각은 후일 더 비싼 가격으로 재인수해야 한다."
+      "lessonKo": "IMF 같은 외부 위기에서 핵심 자산 매각은 후일 더 비싼 가격으로 재인수해야 한다.",
+      "age": 42
     }
   ],
   "wealthHistory": [
-    {"year": 2010, "netWorth": "약 3,000억원", "sourceKo": "만도 재인수 직후"},
-    {"year": 2025, "netWorth": "$0.5B (약 0.7조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2010,
+      "netWorth": "약 3,000억원",
+      "sourceKo": "만도 재인수 직후"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$0.5B (약 0.7조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": [],
-  "personalTraitsKo": ["현대 가문 4세", "IMF 만도 매각의 아픔", "8년 후 재인수의 영광", "HL 사명 변경", "아이스하키 명예의 전당"],
+  "personalTraitsKo": [
+    "현대 가문 4세",
+    "IMF 만도 매각의 아픔",
+    "8년 후 재인수의 영광",
+    "HL 사명 변경",
+    "아이스하키 명예의 전당"
+  ],
   "characterKo": {
     "strengths": "USC MBA의 학구적 신뢰성. 만도 매각·재인수의 그룹 재건 결단력. 본인 28% 단독 의사결정 구조.",
     "weaknesses": "IMF 시 만도 매각이 평판 손상. 자동차 부품 단일 산업 의존도.",

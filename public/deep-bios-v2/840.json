@@ -5,7 +5,6 @@
   "netWorth": 4.9,
   "nationality": "US",
   "industry": "Technology",
-
   "childhood": {
     "birthPlace": "United States",
     "birthPlaceKo": "미국",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "스마트폰 시대에 청년기. Tufts 졸업 후 iOS 앱 스토어 생태계가 형성되던 시기 초기 모바일 앱·광고 기술 산업에 진입. 미래 공동창업자 애덤 포로기와 만나 2008년 Social Hour 공동 창업 — 모바일 소셜 마케팅 집중.",
     "source": "https://en.wikipedia.org/wiki/Andrew_Karam ; https://en.wikipedia.org/wiki/AppLovin ; https://www.forbes.com/profile/andrew-karam/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 2012년 Social Hour의 PlayPhone 매각(5,150만 달러 주식)에서 발생. 본격적인 부는 2012년 AppLovin 공동 창업 후 2021년 나스닥 IPO(240억 달러 평가가치)와 AppLovin이 AI 광고 플랫폼으로 변환되면서 발생한 다년간 주가 폭증에서 발생.",
     "source": "https://en.wikipedia.org/wiki/AppLovin"
   },
-
   "careerTimeline": [
     {
       "year": 2004,
@@ -124,7 +121,6 @@
       "source": "https://en.wikipedia.org/wiki/AppLovin"
     }
   ],
-
   "turningPoints": [
     {
       "year": 2008,
@@ -159,7 +155,6 @@
       "source": "https://www.insidertrades.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "잔여 AppLovin 주식 + 2024년 지분 매각 대금 + Social Hour 매각 대금의 가족 사무소 운용. 사적 투자 포트폴리오(주식·채권·벤처·부동산).",
     "industryKo": "모바일 광고 기술(과거 자본 토대), 자산 운용(현재)",
@@ -167,7 +162,6 @@
     "moatKo": "① 17년 누적된 AppLovin 지분의 단일 자본 토대. ② 2008년 이후 모바일 광고 기술 산업 노하우. ③ 실리콘밸리 1티어 VC·테크 네트워크. ④ 가족 사무소 사적 운영의 일관성.",
     "luckVsSkillKo": "운(50%): 2008년 스마트폰 혁명 직전 산업 진입의 시기, 2016 CFIUS 차단이 매각을 강제로 지연시킨 점, 2021 IPO 시장 사이클, 2023-2024 AI 광고 부상. 실력(50%): 17년 단일 카테고리 집중, 2012 Social Hour 매각 직후 AppLovin 즉시 재투입, KKR 자본 유치, IPO 후 회사 운영 안정성, 정점에 지분 감소 결정."
   },
-
   "personalTraits": {
     "knownFor": "Co-founder of AppLovin (2012) — one of the world's largest mobile ad-tech platforms and a top-performing 2021 tech IPO; co-founder of Social Hour (sold 2012); reduced AppLovin stake in late 2024 to focus on philanthropy and private investing.",
     "knownForKo": "AppLovin(2012) 공동 창립자 — 세계 최대 모바일 광고 기술 플랫폼 중 하나, 2021 톱 성과 기술 IPO. Social Hour 공동 창립자(2012 매각). 2024년 후반 AppLovin 지분 감소로 자선·사적 투자 집중 전환.",
@@ -176,12 +170,16 @@
     "controversies": "AppLovin has faced regulatory scrutiny over user data and child-targeted advertising in the mobile-app ecosystem; some analyst criticism of the company's aggressive ad-targeting practices; standard Silicon Valley tech-founder commentary; no major personal scandals.",
     "controversiesKo": "AppLovin이 모바일 앱 생태계의 사용자 데이터·어린이 표적 광고에 대한 규제 감시 직면. 회사의 공격적 광고 타깃팅 관행에 대한 일부 애널리스트 비판. 표준 실리콘밸리 기술 창업자 코멘터리. 본인 개인 스캔들 없음."
   },
-
   "characterKo": {
     "summaryKo": "밀레니얼 세대 모바일 앱 시대 자수성가의 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '17년 한 카테고리에 집중한 일관성'과 '2024년 정점에 지분을 줄이고 떠난 결단력'. 공동창업자 포로기보다 미디어 노출이 훨씬 적은 비공개 일관성.",
-    "tagsKo": ["밀레니얼 자수성가", "모바일 앱 17년", "공동창업자형", "정점 출구 감각", "사적 운영"]
+    "tagsKo": [
+      "밀레니얼 자수성가",
+      "모바일 앱 17년",
+      "공동창업자형",
+      "정점 출구 감각",
+      "사적 운영"
+    ]
   },
-
   "failures": [
     {
       "year": 2022,
@@ -189,7 +187,8 @@
       "descriptionKo": "AppLovin 주가가 광범위한 기술 매도 속에서 2021 고점에서 80%+ 하락 — 카람의 서류상 부가 회사가 거시 역풍과 광범위한 광고 기술 경쟁 대비 핵심 사업 모델에 대한 의문에 직면하면서 2022-2023년 가파르게 감소.",
       "lesson": "Tech IPO valuations set during low-rate cycles get repriced rapidly when conditions change; founder paper wealth based on a single-stock position is structurally volatile.",
       "lessonKo": "저금리 사이클 동안 책정된 기술 IPO 평가는 조건 변화 시 빠르게 재가격된다. 단일 주식 포지션에 기반한 창업자 서류상 부는 구조적으로 변동성이 크다.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 40
     },
     {
       "year": 2023,
@@ -197,19 +196,33 @@
       "descriptionKo": "AppLovin의 모바일 광고 사업이 Apple의 개인정보 변경(ATT)·TikTok 성장·Meta의 광고 타깃팅 회복으로부터 지속적 경쟁 압박 직면 — 회사가 성장 유지를 위해 AI 기반 광고 타깃팅에 대규모 투자 필요.",
       "lesson": "Mobile-ad-tech businesses are exposed to platform-policy changes that can compress margins regardless of operational execution; pivot to AI was necessary survival.",
       "lessonKo": "모바일 광고 기술 사업은 운영 실행과 무관하게 마진을 압축할 수 있는 플랫폼 정책 변경에 노출된다. AI 전환이 필요한 생존이었다.",
-      "source": "https://www.applovin.com"
+      "source": "https://www.applovin.com",
+      "age": 41
     }
   ],
-
   "wealthHistory": [
-    { "year": 2021, "netWorth": 3.5 },
-    { "year": 2022, "netWorth": 1.4 },
-    { "year": 2023, "netWorth": 2.5 },
-    { "year": 2024, "netWorth": 7.8 },
-    { "year": 2025, "netWorth": 4.9 }
+    {
+      "year": 2021,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2022,
+      "netWorth": 1.4
+    },
+    {
+      "year": 2023,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2024,
+      "netWorth": 7.8
+    },
+    {
+      "year": 2025,
+      "netWorth": 4.9
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "We built a mobile platform when most people thought mobile was just a smaller version of the web.",
@@ -219,12 +232,10 @@
       "source": "https://en.wikipedia.org/wiki/AppLovin"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Byeong-In day pillar in an In month forms a 'pyeon-gwan-gyeok' chart — fire on tiger wood under spring wood authority, fitting a high-energy founder who navigated tech-platform power dynamics through repeated reinvention.",
     "summaryKo": "병인 일주가 인월에 자리잡은 편관격(강한 외부 권력·압박이 평생 자기 자본을 둘러싸는 구조)은 Apple·Google·중국 인수자·SEC 같은 거대 외부 환경을 통과한 17년 모바일 광고 기술 사업의 인생과 호응합니다. 병화 일간은 태양·공개적 빛으로 미디어·앱 플랫폼이라는 가시적 영역에 자연스럽고, 일지 인목 안의 갑목·병화·무토가 편인·비견·식상으로 학문(Tufts 듀얼 학위)·공동창업자·자기 표현이 한 자리에 묶여 있는 구조. 월지 인목이 같은 비견·편인으로 — 17년 단일 카테고리·공동창업자 협력의 자리가 사주에 새겨져 있음."

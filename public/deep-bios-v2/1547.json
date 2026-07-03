@@ -119,21 +119,24 @@
       "ageAtTime": 57,
       "decisionKo": "도매상에 머물지 않고 본인 브랜드 제조사로 전환",
       "alternativeKo": "나이키·아디다스 유통대리만 했다면 마진은 좋지만 사업 가치는 작았을 것.",
-      "outcomeKo": "26년 후 $68억 비상장 거래의 주인공이 되는 회사 탄생."
+      "outcomeKo": "26년 후 $68억 비상장 거래의 주인공이 되는 회사 탄생.",
+      "age": 57
     },
     {
       "year": 2004,
       "ageAtTime": 70,
       "decisionKo": "70세에 직영 소매 진출 — 위탁 매장에서 직접 매장으로 전환",
       "alternativeKo": "도매 모델만 유지했다면 매장 3만개 + 22% 점유율은 불가능.",
-      "outcomeKo": "오프라인 시대 중국 1위 여성 신발 회사."
+      "outcomeKo": "오프라인 시대 중국 1위 여성 신발 회사.",
+      "age": 70
     },
     {
       "year": 2017,
       "ageAtTime": 83,
       "decisionKo": "e-커머스 압박 속에 회사를 PE에 통째로 매각하고 떠남",
       "alternativeKo": "버티며 디지털 변신을 직접 시도했다면 가족 경영자로 더 오래 남았겠지만 회사 가치는 더 떨어졌을 가능성.",
-      "outcomeKo": "$10억+ 깔끔히 회수, 가문 자본가로 전환."
+      "outcomeKo": "$10억+ 깔끔히 회수, 가문 자본가로 전환.",
+      "age": 83
     }
   ],
   "moneyMechanics": {
@@ -170,7 +173,8 @@
       "descriptionKo": "Belle은 2014년부터 13분기 연속 동일점포 매출 감소를 기록. 티몰·JD닷컴 등 중국 e-커머스가 여성 신발 카테고리를 흡수하는 동안, 3만+ 오프라인 매장에 의존하며 디지털 전환이 늦어졌습니다.",
       "lesson": "Dominance in physical retail can become a liability when distribution shifts. Scale that took 26 years to build can erode in 3 years.",
       "lessonKo": "오프라인 점유율 1위가 유통 패러다임 변화에서는 부채가 됩니다. 26년에 걸쳐 쌓은 규모도 3년이면 무너집니다.",
-      "source": "https://www.caixinglobal.com/2017-09-06/shoe-king-belle-down-on-its-heels-101141402.html"
+      "source": "https://www.caixinglobal.com/2017-09-06/shoe-king-belle-down-on-its-heels-101141402.html",
+      "age": 80
     },
     {
       "year": 2017,
@@ -178,7 +182,8 @@
       "descriptionKo": "Belle은 IPO 이후 첫 영업이익 감소를 기록 — FY2016-17 순이익이 18.1% 하락한 24억 위안. 이사회가 비상장 매각에 동의했지만, 22% 시장 점유율 1위 회사 매각가로는 낮다는 평가도 있었습니다.",
       "lesson": "Selling at the bottom of an unfinished decline locks in the loss. But for an 83-year-old founder, certainty of cash sometimes beats fighting another decade.",
       "lessonKo": "끝나지 않은 하락의 바닥에서 매각하면 손실이 고정됩니다. 그러나 83세 창업자에겐 현금의 확실성이 10년 더 싸우는 것보다 나을 수도 있습니다.",
-      "source": "https://www.financeasia.com/article/hong-kongs-belle-epoque-ends/438152"
+      "source": "https://www.financeasia.com/article/hong-kongs-belle-epoque-ends/438152",
+      "age": 83
     },
     {
       "year": 2017,
@@ -186,14 +191,31 @@
       "descriptionKo": "비상장 후 Belle 신발 사업은 정점을 회복하지 못함. 2024년 Belle Fashion Group이 다시 IPO를 신청한 것은 $68억 PE 자본과 힐하우스 주도의 구조조정에도 브랜드 프리미엄 회복이 쉽지 않음을 보여줍니다.",
       "lesson": "Once a brand loses its distribution moat, capital alone cannot rebuild it. Tang's clean exit was, in retrospect, the right call.",
       "lessonKo": "유통 해자를 잃은 브랜드는 자본만으로는 복원되지 않습니다. 탕유의 깔끔한 엑싯은 사후 평가로는 옳은 결정이었습니다.",
-      "source": "https://thebambooworks.com/belle-fashion-back-in-vogue-or-yesterdays-shoes-in-new-wrapping/"
+      "source": "https://thebambooworks.com/belle-fashion-back-in-vogue-or-yesterdays-shoes-in-new-wrapping/",
+      "age": 83
     }
   ],
   "wealthHistory": [
-    {"year": 2015, "netWorth": "$3.5B", "sourceKo": "Forbes 2015 정점"},
-    {"year": 2017, "netWorth": "$1B+ Belle 매각 회수", "sourceKo": "Hillhouse·CDH $68억 비상장 매각"},
-    {"year": 2021, "netWorth": "$2.2B", "sourceKo": "Forbes 2021"},
-    {"year": 2025, "netWorth": "$2.6B", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2015,
+      "netWorth": "$3.5B",
+      "sourceKo": "Forbes 2015 정점"
+    },
+    {
+      "year": 2017,
+      "netWorth": "$1B+ Belle 매각 회수",
+      "sourceKo": "Hillhouse·CDH $68억 비상장 매각"
+    },
+    {
+      "year": 2021,
+      "netWorth": "$2.2B",
+      "sourceKo": "Forbes 2021"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$2.6B",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": {
@@ -206,9 +228,18 @@
     "summaryKo": "탕유의 사주는 임수(큰 강) 일간이 인목(봄의 호랑이) 위에 놓인 임인 일주입니다. 큰 강이 호랑이를 만나 멀리 흐르는 형상이라, 한 분야를 길게 파고들어 멀리 가는 결이 강합니다. 격국이 정재격(끈기·실용·꾸준한 누적으로 부를 쌓는 형식)이라, 47세에 도매상으로 시작해 26년 후 IPO까지 끌고 간 그의 사업 흐름은 정재격의 교과서입니다. 월지 묘목은 이른 봄 어린 가지로 임수에게 자기 에너지를 내보내는 식상의 결인데, Teenmix·Staccato·Mirabell·Fato 같은 브랜드를 끊임없이 새로 펼쳐낸 패턴과 호응합니다. 2017년 83세에 e-커머스 압박을 읽고 회사를 통째 매각한 결단은 임수 일간의 큰 흐름 인식 + 정재격의 실용성이 결합한 결과로 읽힙니다.",
     "interpretationKo": "임인 일주는 큰 강이 호랑이를 만난 형상으로, 흐름과 결단이 동시에 있는 결. 정재격은 본인이 쌓아 올린 매출·매장·SKU의 누적이 곧 자산이 되는 패턴이라, 36년간 한 산업을 깊게 판 그의 행보가 자연스럽습니다.",
     "keyEvents": [
-      {"year": 1981, "eventKo": "47세 도매상 시작 — 정재격의 늦깎이 출발"},
-      {"year": 2007, "eventKo": "Belle IPO — 정재격 26년 누적의 결실"},
-      {"year": 2017, "eventKo": "PE 매각 $68억 — 임수의 큰 흐름 읽기"}
+      {
+        "year": 1981,
+        "eventKo": "47세 도매상 시작 — 정재격의 늦깎이 출발"
+      },
+      {
+        "year": 2007,
+        "eventKo": "Belle IPO — 정재격 26년 누적의 결실"
+      },
+      {
+        "year": 2017,
+        "eventKo": "PE 매각 $68억 — 임수의 큰 흐름 읽기"
+      }
     ]
   },
   "sources": [

@@ -37,37 +37,43 @@
       "year": 1973,
       "event": "Joined Miwon Group",
       "eventKo": "미원그룹 입사",
-      "whyItMatteredKo": "24세에 가문 회사 시작."
+      "whyItMatteredKo": "24세에 가문 회사 시작.",
+      "age": 24
     },
     {
       "year": 1987,
       "event": "Became Chairman of Miwon Group",
       "eventKo": "미원그룹 회장 취임",
-      "whyItMatteredKo": "38세에 회장 — 본격 그룹 운영."
+      "whyItMatteredKo": "38세에 회장 — 본격 그룹 운영.",
+      "age": 38
     },
     {
       "year": 1997,
       "event": "Renamed to Daesang Group",
       "eventKo": "그룹명 미원→대상으로 변경",
-      "whyItMatteredKo": "본인 시대 정체성 재정비."
+      "whyItMatteredKo": "본인 시대 정체성 재정비.",
+      "age": 48
     },
     {
       "year": 2024,
       "event": "Daughters Lim Se-ryung + Lim Sang-min effectively running 3rd-gen management",
       "eventKo": "두 딸 임세령·임상민이 사실상 3세 경영 운영",
-      "whyItMatteredKo": "본격 3세 시대 진입."
+      "whyItMatteredKo": "본격 3세 시대 진입.",
+      "age": 75
     }
   ],
   "turningPoints": [
     {
       "year": 1987,
       "eventKo": "미원그룹 회장 취임",
-      "impactKo": "본격 그룹 운영."
+      "impactKo": "본격 그룹 운영.",
+      "age": 38
     },
     {
       "year": 1997,
       "eventKo": "사명 대상으로 변경",
-      "impactKo": "본인 시대 정체성 재정비."
+      "impactKo": "본인 시대 정체성 재정비.",
+      "age": 48
     }
   ],
   "moneyMechanics": {
@@ -85,11 +91,19 @@
   },
   "failures": [],
   "wealthHistory": [
-    {"year": 2025, "netWorth": "$0.4B (약 0.56조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2025,
+      "netWorth": "$0.4B (약 0.56조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": [],
-  "personalTraitsKo": ["미원→대상 사명 변경자", "두 딸 분업 후계", "청정원·종갓집·미원 보유"],
+  "personalTraitsKo": [
+    "미원→대상 사명 변경자",
+    "두 딸 분업 후계",
+    "청정원·종갓집·미원 보유"
+  ],
   "characterKo": {
     "strengths": "와세다 석사의 학구적 신뢰성. 미원→대상 사명 변경의 정체성 재정비. 두 딸 분업 후계.",
     "weaknesses": "본인 직접 사업 창출보다 가문 자산 운영. 식품 시장 정체.",

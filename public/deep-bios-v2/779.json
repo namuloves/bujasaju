@@ -5,7 +5,6 @@
   "netWorth": 5.3,
   "nationality": "SE",
   "industry": "Diversified",
-
   "childhood": {
     "birthPlace": "Sweden",
     "birthPlaceKo": "스웨덴",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "스웨덴에서 국가 가장 중요한 산업 투자자 중 한 명의 딸로 성장. 아버지 멜커 쇠를링이 중형주 스웨덴 회사들의 지배 지분을 매수하고 전문 경영진을 장기 자본으로 지원하는 모델로 산업 그룹 구축 — 마르타와 자매가 상속한 모델.",
     "source": "https://en.wikipedia.org/wiki/Melker_Sch%C3%B6rling ; https://www.forbes.com/profile/marta-schorling-andreen/"
   },
-
   "capitalOrigin": {
     "typeKo": "inherited",
     "explanationKo": "100% 상속. 아버지 멜커 쇠를링이 일군 Melker Schörling AB 가족 지주 자산을 자매 두 명이 분할 상속. 본인 자산은 가족 지주를 통한 Securitas·Loomis·Assa Abloy·Hexagon·Hexpol 등 다수 스웨덴 상장사 지분의 가족 합산 + 본인 직접 지분.",
     "source": "https://en.wikipedia.org/wiki/Melker_Sch%C3%B6rling_AB"
   },
-
   "careerTimeline": [
     {
       "year": 2010,
@@ -106,7 +103,6 @@
       "source": "https://en.wikipedia.org/wiki/Melker_Sch%C3%B6rling_AB"
     }
   ],
-
   "turningPoints": [
     {
       "year": 2010,
@@ -133,7 +129,6 @@
       "source": "https://www.bloomberg.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Melker Schörling AB(비공개 가족 지주, 자매와 분할 소유) — Securitas·Loomis·Hexagon·Hexpol 등 스웨덴 상장사 다수 지배 지분. 본인 자산의 거의 전부가 가족 지주를 통한 이 회사들의 시가총액에 묶임. Assa Abloy는 가족 관계자(가족 친인척)의 별도 지분.",
     "industryKo": "산업 지주(보안 서비스·디지털 솔루션·산업 제조)",
@@ -141,7 +136,6 @@
     "moatKo": "① 1세대 아버지가 40년에 걸쳐 누적한 산업 포트폴리오. ② Securitas·Hexagon·Loomis 같은 글로벌 카테고리 리더 회사의 영구 자산 가치. ③ 자매 자매 공동 거버넌스의 안정성. ④ 스웨덴 사업 공동체의 다세대 사회 자본.",
     "luckVsSkillKo": "운(60%): 아버지가 1970-2000년대 스웨덴 산업 통합 사이클에 진입한 가족 자본 운, Securitas·Hexagon 등이 글로벌 카테고리 리더가 된 거시 환경. 실력(40%): 자매와의 분쟁 없는 공동 가부장 거버넌스, 다세대 포트폴리오 접근법 유지, 단기 변동성에 장기 시야로 대응."
   },
-
   "personalTraits": {
     "knownFor": "Chairperson of Melker Schörling AB; second-generation heir of one of Sweden's most powerful industrial portfolios including controlling stakes in Securitas, Loomis, Hexagon, and Hexpol; one of Sweden's most powerful female industrial heir billionaires; sister of Sofia Schörling Högfeldt.",
     "knownForKo": "Melker Schörling AB 의장 — Securitas·Loomis·Hexagon·Hexpol 등의 지배 지분을 포함한 스웨덴 가장 강력한 산업 포트폴리오 중 하나의 2세대 상속자. 스웨덴 가장 강력한 여성 산업 상속자 억만장자 중 한 명. 소피아 쇠를링 호그펠트의 자매.",
@@ -150,12 +144,16 @@
     "controversies": "Limited public controversies due to extremely low public profile; some portfolio companies (Securitas in particular) have faced labor-relations debates typical of global security services industry; standard Swedish industrial-heir tax-domicile commentary.",
     "controversiesKo": "극단적 비공개로 공개 논란 제한적. 일부 포트폴리오 회사(특히 Securitas)가 글로벌 보안 서비스 산업의 표준 노동 관계 논쟁에 직면. 스웨덴 산업 상속자의 표준 세금 거주지 코멘터리."
   },
-
   "characterKo": {
     "summaryKo": "스웨덴 2세대 산업 가족 자본의 가부장 정체성을 30대 후반에 인수받은 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '아버지 사망 후 즉시 가족 자본의 가장 시니어 거버넌스 자리에 단호하게 진입한 결단력'과 '자매와의 분담 거버넌스 안에서 정중한 역할 유지'. 스웨덴 사업 공동체의 다세대 정체성을 가시화.",
-    "tagsKo": ["2세대 산업 가부장", "자매 공동 거버넌스", "스웨덴 다세대 자본", "비공개 일관성", "Hexagon·Securitas 지주"]
+    "tagsKo": [
+      "2세대 산업 가부장",
+      "자매 공동 거버넌스",
+      "스웨덴 다세대 자본",
+      "비공개 일관성",
+      "Hexagon·Securitas 지주"
+    ]
   },
-
   "failures": [
     {
       "year": 2022,
@@ -163,7 +161,8 @@
       "descriptionKo": "Hexagon AB 주가가 글로벌 산업 SW 수요 약세와 통화 환산이 스웨덴 산업 회사 평가를 타격하면서 2022-2023년 상당한 하락 경험 — Melker Schörling AB 포트폴리오 가치가 서류상 상당히 감소.",
       "lesson": "Multi-generational family portfolios accept paper-value volatility as the price of long-term operational stewardship; the goal is multi-decade compounding, not quarterly mark-to-market optimization.",
       "lessonKo": "다세대 가족 포트폴리오는 장기 운영 관리의 대가로 서류상 가치 변동성을 받아들인다. 목표는 분기 시가 평가 최적화가 아니라 수십 년 복리.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 38
     },
     {
       "year": 2024,
@@ -171,20 +170,37 @@
       "descriptionKo": "Securitas AB가 2023-2024년 여러 글로벌 시장에서 노조 분쟁·운영 도전 직면 — 가족의 최대 포트폴리오 회사가 글로벌 보안 서비스의 표준 사이클·정치 압박 흡수.",
       "lesson": "Even essential-service portfolio companies face labor-relations and political-environment risk; family ownership models must adapt to global labor-rights expectations.",
       "lessonKo": "필수 서비스 포트폴리오 회사도 노동 관계·정치 환경 리스크에 직면한다. 가족 소유 모델은 글로벌 노동권 기대에 적응해야 한다.",
-      "source": "https://en.wikipedia.org/wiki/Securitas_AB"
+      "source": "https://en.wikipedia.org/wiki/Securitas_AB",
+      "age": 40
     }
   ],
-
   "wealthHistory": [
-    { "year": 2019, "netWorth": 4.0 },
-    { "year": 2020, "netWorth": 4.6 },
-    { "year": 2021, "netWorth": 6.2 },
-    { "year": 2022, "netWorth": 5.0 },
-    { "year": 2024, "netWorth": 5.2 },
-    { "year": 2025, "netWorth": 5.3 }
+    {
+      "year": 2019,
+      "netWorth": 4
+    },
+    {
+      "year": 2020,
+      "netWorth": 4.6
+    },
+    {
+      "year": 2021,
+      "netWorth": 6.2
+    },
+    {
+      "year": 2022,
+      "netWorth": 5
+    },
+    {
+      "year": 2024,
+      "netWorth": 5.2
+    },
+    {
+      "year": 2025,
+      "netWorth": 5.3
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "My father bought companies. My sister and I keep them. The work is the same but it is also different.",
@@ -194,12 +210,10 @@
       "source": "https://www.melkerschorling.se"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "Her Jeong-Mi day pillar in a Sa month forms a 'siksin-gyeok' chart — a candle-flame under summer fire producing steady creative output, fitting a second-generation industrial heir who quietly stewards multi-generational family capital through structured corporate governance.",
     "summaryKo": "정미 일주가 사월에 자리잡은 식신격(일간이 만들어 내는 식상 에너지가 안정적으로 재물을 생산하는 구조)은 다세대 가족 자본을 구조화된 기업 거버넌스로 조용히 관리하는 그녀의 정체성과 호응합니다. 정화 일간은 등불·문헌의 빛이라 분석·세밀의 본능을 깔고 있고, 일지 미토 안의 정화·기토·을목이 비견·식상·편인으로 — 자매(비견)·자기 표현(식상)·학문(편인)이 한 자리에 묶여 있는 구조를 그대로 그려냅니다. 월지 사화 안의 병화·무토·경금이 겁재·식상·정재로 동료·생산·안정 자본의 결합을 그림. 약점은 식신격이 강할 때 정관(공식 권위)이 약해질 수 있다는 점이지만, 그녀의 정체성은 가족 거버넌스 구조(아버지가 만든 시스템)에 안정적으로 자리잡음."

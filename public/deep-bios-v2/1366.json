@@ -14,27 +14,82 @@
   "childhood": {
     "summaryKo": "광둥성에서 태어났습니다. 학력은 화남이공대 화학 전공 학사입니다. 1988년부터 1992년까지 둥관의 셩이 일렉트로닉스(중국 PCB 기판 1세대 회사)에서 엔지니어로 근무했고, 1992년 부인 류진찬과 함께 첫 사업을 시작했습니다.",
     "capitalTypeKo": "맨몸 자수성가 — 셩이 엔지니어 출신이 부부 공동 창업으로 글로벌 PCB 회사를 만든 인물입니다.",
-    "sources": ["https://realtimebillionaires.de/profile/xiao-hongxing"]
+    "sources": [
+      "https://realtimebillionaires.de/profile/xiao-hongxing"
+    ]
   },
   "capitalOrigin": {
     "type": "self-made",
     "typeKo": "자수성가",
     "descriptionKo": "1992년 셩이 일렉트로닉스를 떠나 부인 류진찬과 첫 사업을 시작했고, 2002년 광저우에서 델튼 테크놀로지를 창업했습니다. 2024년 선전증권거래소 상장과 2026년 3월 홍콩증권거래소 이중 상장으로 자본 가치가 폭발했습니다.",
     "selfMadeScore": 8,
-    "sources": ["https://www.bloomberg.com/profile/person/22068878"]
+    "sources": [
+      "https://www.bloomberg.com/profile/person/22068878"
+    ]
   },
   "careerTimeline": [
-    {"year": 1988, "event": "Engineer at Shengyi Electronics, Dongguan", "eventKo": "둥관 셩이 일렉트로닉스 엔지니어 입사 — 4년간 PCB 기판 산업 학습", "whyItMatteredKo": "중국 PCB 기판 1세대 회사에서 산업의 기초를 익힌 시기입니다. 비전형 학습 경로에서 첫 자본을 쌓은 출발점입니다."},
-    {"year": 1992, "event": "Leaves Shengyi to start first venture with wife Liu Jinchan", "eventKo": "셩이 퇴사 후 부인 류진찬과 첫 사업 시작", "whyItMatteredKo": "부부 공동 창업의 시작입니다. 자본 없이 기술과 영업 경험만으로 진입한 결단입니다."},
-    {"year": 2002, "event": "Founds Delton Technology in Guangzhou", "eventKo": "광저우에서 델튼 테크놀로지 창업 — 멀티레이어 PCB 전문", "whyItMatteredKo": "단일 카테고리(고밀도 PCB)에 22년 동안 집중하는 흐름의 출발점입니다."},
-    {"year": 2024, "event": "Delton Technology IPOs on Shenzhen Stock Exchange main board", "eventKo": "선전증권거래소 메인보드 상장", "whyItMatteredKo": "22년 누적 결과물이 처음 자본 시장 가치로 환원된 분기점입니다."},
-    {"year": 2025, "event": "AI capex boom drives PCB demand; net worth climbs", "eventKo": "AI 서버 캐펙스 폭증으로 PCB 수요 급등, 자산 20억 달러 돌파", "whyItMatteredKo": "단일 카테고리 집중이 AI 트렌드 직격 수혜로 이어진 시기입니다."},
-    {"year": 2026, "event": "HK dual listing on March 20", "eventKo": "3월 20일 홍콩증권거래소 이중 상장 — IPO 33.1억 홍콩달러 조달, 첫날 +33.6%", "whyItMatteredKo": "본거지 선전 + 글로벌 자본 홍콩의 이중 거점 구조가 완성된 결정적 사건입니다."}
+    {
+      "year": 1988,
+      "event": "Engineer at Shengyi Electronics, Dongguan",
+      "eventKo": "둥관 셩이 일렉트로닉스 엔지니어 입사 — 4년간 PCB 기판 산업 학습",
+      "whyItMatteredKo": "중국 PCB 기판 1세대 회사에서 산업의 기초를 익힌 시기입니다. 비전형 학습 경로에서 첫 자본을 쌓은 출발점입니다.",
+      "age": 21
+    },
+    {
+      "year": 1992,
+      "event": "Leaves Shengyi to start first venture with wife Liu Jinchan",
+      "eventKo": "셩이 퇴사 후 부인 류진찬과 첫 사업 시작",
+      "whyItMatteredKo": "부부 공동 창업의 시작입니다. 자본 없이 기술과 영업 경험만으로 진입한 결단입니다.",
+      "age": 25
+    },
+    {
+      "year": 2002,
+      "event": "Founds Delton Technology in Guangzhou",
+      "eventKo": "광저우에서 델튼 테크놀로지 창업 — 멀티레이어 PCB 전문",
+      "whyItMatteredKo": "단일 카테고리(고밀도 PCB)에 22년 동안 집중하는 흐름의 출발점입니다.",
+      "age": 35
+    },
+    {
+      "year": 2024,
+      "event": "Delton Technology IPOs on Shenzhen Stock Exchange main board",
+      "eventKo": "선전증권거래소 메인보드 상장",
+      "whyItMatteredKo": "22년 누적 결과물이 처음 자본 시장 가치로 환원된 분기점입니다.",
+      "age": 57
+    },
+    {
+      "year": 2025,
+      "event": "AI capex boom drives PCB demand; net worth climbs",
+      "eventKo": "AI 서버 캐펙스 폭증으로 PCB 수요 급등, 자산 20억 달러 돌파",
+      "whyItMatteredKo": "단일 카테고리 집중이 AI 트렌드 직격 수혜로 이어진 시기입니다.",
+      "age": 58
+    },
+    {
+      "year": 2026,
+      "event": "HK dual listing on March 20",
+      "eventKo": "3월 20일 홍콩증권거래소 이중 상장 — IPO 33.1억 홍콩달러 조달, 첫날 +33.6%",
+      "whyItMatteredKo": "본거지 선전 + 글로벌 자본 홍콩의 이중 거점 구조가 완성된 결정적 사건입니다.",
+      "age": 59
+    }
   ],
   "turningPoints": [
-    {"year": 1992, "eventKo": "셩이 퇴사 후 부인과 부부 공동 창업", "impactKo": "비전형 진입 경로(부부 공동 창업)로 자본을 시작한 분기점입니다."},
-    {"year": 2002, "eventKo": "델튼 테크놀로지 창업 — 단일 카테고리 22년 집중", "impactKo": "을미 일주의 부드러운 끈기가 좁고 깊은 한 카테고리에 집중된 결정입니다."},
-    {"year": 2026, "eventKo": "홍콩증권거래소 이중 상장", "impactKo": "단일 회사가 두 자본 시장에서 동시 평가받는 구조로 도약한 결정적 결단입니다."}
+    {
+      "year": 1992,
+      "eventKo": "셩이 퇴사 후 부인과 부부 공동 창업",
+      "impactKo": "비전형 진입 경로(부부 공동 창업)로 자본을 시작한 분기점입니다.",
+      "age": 25
+    },
+    {
+      "year": 2002,
+      "eventKo": "델튼 테크놀로지 창업 — 단일 카테고리 22년 집중",
+      "impactKo": "을미 일주의 부드러운 끈기가 좁고 깊은 한 카테고리에 집중된 결정입니다.",
+      "age": 35
+    },
+    {
+      "year": 2026,
+      "eventKo": "홍콩증권거래소 이중 상장",
+      "impactKo": "단일 회사가 두 자본 시장에서 동시 평가받는 구조로 도약한 결정적 결단입니다.",
+      "age": 59
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "선전 상장사 델튼 테크놀로지 본인·부인 류진찬 공동 지분에서 나오는 주가 가치가 핵심입니다. AI 서버, 5G 기지국, 자동차 전자 PCB가 매출의 주요 축입니다.",
@@ -43,16 +98,48 @@
     "currentAssetAllocationKo": "델튼 테크놀로지 본인·부인 지분이 자산의 절대 비중입니다."
   },
   "failures": [
-    {"year": 2024, "descriptionKo": "회사 매출의 절반 이상이 AI 서버 PCB 트렌드에 묶여 있어 엔비디아·하이퍼스케일러 캐펙스 변동에 직접 노출됩니다.", "howTheyOvercameKo": "5G 기지국과 자동차 전자 PCB 다각화로 트렌드 의존도를 줄이는 작업을 진행 중입니다.", "lessonKo": "단일 트렌드 직격은 호황엔 폭리지만 사이클이 식으면 가장 먼저 흔들립니다."},
-    {"year": 2026, "descriptionKo": "이미 5년간 137% 오른 주식이 홍콩 이중 상장 시점에 추가 평가를 받아 고점 리스크가 있습니다.", "howTheyOvercameKo": "이중 상장으로 유동성을 확보하고 본인은 매도 압력을 자제하는 방식으로 시장 신뢰를 유지하고 있습니다.", "lessonKo": "고점에서 새 자본 시장에 들어가는 결정은 신주 가치보다 모회사 신뢰가 더 중요한 변수가 됩니다."},
-    {"year": 2026, "descriptionKo": "고층 PCB는 AI 서버, 5G, 자동차 ADAS 모두 미국 수출 통제 사정권에 있습니다.", "howTheyOvercameKo": "고객 다변화와 비미국 시장 확장으로 정책 리스크를 분산하는 방향으로 갑니다.", "lessonKo": "AI 공급망 회사는 기술보다 지정학이 더 큰 변수입니다."}
+    {
+      "year": 2024,
+      "descriptionKo": "회사 매출의 절반 이상이 AI 서버 PCB 트렌드에 묶여 있어 엔비디아·하이퍼스케일러 캐펙스 변동에 직접 노출됩니다.",
+      "howTheyOvercameKo": "5G 기지국과 자동차 전자 PCB 다각화로 트렌드 의존도를 줄이는 작업을 진행 중입니다.",
+      "lessonKo": "단일 트렌드 직격은 호황엔 폭리지만 사이클이 식으면 가장 먼저 흔들립니다.",
+      "age": 57
+    },
+    {
+      "year": 2026,
+      "descriptionKo": "이미 5년간 137% 오른 주식이 홍콩 이중 상장 시점에 추가 평가를 받아 고점 리스크가 있습니다.",
+      "howTheyOvercameKo": "이중 상장으로 유동성을 확보하고 본인은 매도 압력을 자제하는 방식으로 시장 신뢰를 유지하고 있습니다.",
+      "lessonKo": "고점에서 새 자본 시장에 들어가는 결정은 신주 가치보다 모회사 신뢰가 더 중요한 변수가 됩니다.",
+      "age": 59
+    },
+    {
+      "year": 2026,
+      "descriptionKo": "고층 PCB는 AI 서버, 5G, 자동차 ADAS 모두 미국 수출 통제 사정권에 있습니다.",
+      "howTheyOvercameKo": "고객 다변화와 비미국 시장 확장으로 정책 리스크를 분산하는 방향으로 갑니다.",
+      "lessonKo": "AI 공급망 회사는 기술보다 지정학이 더 큰 변수입니다.",
+      "age": 59
+    }
   ],
   "wealthHistory": [
-    {"year": 2025, "netWorth": "$2.1B", "sourceKo": "포브스 신규 등재"},
-    {"year": 2026, "netWorth": "$3B", "sourceKo": "포브스 2026 빌리어네어즈, 홍콩 IPO 후 약 47억 달러로 추가 상승"}
+    {
+      "year": 2025,
+      "netWorth": "$2.1B",
+      "sourceKo": "포브스 신규 등재"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$3B",
+      "sourceKo": "포브스 2026 빌리어네어즈, 홍콩 IPO 후 약 47억 달러로 추가 상승"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["부부 공동 창업", "단일 카테고리 22년", "AI 트렌드 직격", "이중 상장 구조", "셩이 출신"],
+  "personalTraitsKo": [
+    "부부 공동 창업",
+    "단일 카테고리 22년",
+    "AI 트렌드 직격",
+    "이중 상장 구조",
+    "셩이 출신"
+  ],
   "characterKo": {
     "strengths": "셩이 출신 PCB 산업 이해도, 부부 공동 창업의 안정적 지배 구조, 그리고 AI 트렌드를 본업이 직접 받는 카테고리 위치가 강점입니다.",
     "weaknesses": "AI 서버 PCB 단일 트렌드 의존도가 매우 높고, 미국 수출 통제 사정권에 있는 고층 PCB 카테고리라는 지정학 변수가 만년의 가장 큰 위험입니다.",

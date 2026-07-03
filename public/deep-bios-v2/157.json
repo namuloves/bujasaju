@@ -5,7 +5,6 @@
   "netWorth": 17.2,
   "nationality": "IN",
   "industry": "Fashion & Retail",
-
   "childhood": {
     "birthPlace": "Bikaner, Rajasthan, India (raised in Mumbai)",
     "birthPlaceKo": "인도 라자스탄주 비카네르 출생, 뭄바이에서 성장",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "달랄 스트리트 인근 마르와리 상인 공동체 한복판에서 어린 시절 보냄. 십대 후반부터 가족의 작은 중개회사에서 주식 매매. 20대 초반 아버지 사망으로 사업 인수, 정규 훈련 없이 시작. 봄베이 증시 링의 규율을 더 나이 든 마르와리 트레이더들에게 직접 도제식으로 배움.",
     "source": "https://en.wikipedia.org/wiki/Radhakishan_Damani ; https://www.forbes.com/profile/radhakishan-damani/ ; https://www.bloomberg.com"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "사실상 100% 자수성가. 출발 자본은 아버지가 운영하던 작은 봄베이 주식 중개 사업의 잔여 가치였지만 부친 사망 시점에 거의 자본 없음. 본격적인 부는 1980-90년대 봄베이 증시 차익 거래와 가치 투자, 2002년 DMart(Avenue Supermarts) 창업과 2017년 IPO에서 발생.",
     "source": "https://en.wikipedia.org/wiki/Radhakishan_Damani"
   },
-
   "careerTimeline": [
     {
       "year": 1974,
@@ -124,7 +121,6 @@
       "source": "https://www.forbes.com/profile/radhakishan-damani/"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1980,
@@ -159,7 +155,6 @@
       "source": "https://www.moneycontrol.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Avenue Supermarts(DMart, BSE/NSE 상장) 지분 약 75%(가족 합산) 보유 — 시가총액 약 700-800억 달러대. 부차적으로 HDFC 은행·VST Industries·India Cements 등 장기 주식 포지션, 뭄바이 부동산(Bright Star Investments), Radisson Blu 호텔.",
     "industryKo": "가치 소매(대형마트), 가치 주식 투자, 부동산",
@@ -167,7 +162,6 @@
     "moatKo": "① DMart의 매장 부동산 소유 — 임대료 인플레이션 회피, 신규 진입자 대비 영구 단위경제 우위. ② 한정 SKU와 공급업체 빠른 결제로 가격 협상력. ③ Mumbai·Maharashtra·Gujarat 클러스터의 압축적 운영. ④ 50년 누적 인도 가치 투자 평판과 종목 분석 능력.",
     "luckVsSkillKo": "운(30%): 1992년 Harshad Mehta 스캠과 1999년 인도 은행 자유화 사이클에 정확히 베팅한 타이밍, 2017년 DMart IPO가 인도 IPO 시장의 가장 좋은 사이클에 상장. 실력(70%): 50년 일관된 가치 투자 규율, 매장 소유라는 비표준 소매 모델 설계, 23년 비공개 운영 유지 후 정확한 상장 타이밍, 클러스터 전략 깊이의 인내, 비공개 운영의 일관성."
   },
-
   "personalTraits": {
     "knownFor": "Founder and chairman of Avenue Supermarts (DMart), India's most valuable listed retailer; legendary Mumbai value investor and mentor to Rakesh Jhunjhunwala; 'Mr. White and White' for his trademark plain white shirt-and-trouser attire; one of India's most reclusive billionaires.",
     "knownForKo": "Avenue Supermarts(DMart) — 인도 최고 가치 상장 소매기업 창업자 겸 회장. 전설적인 뭄바이 가치 투자자, 고 라케시 준준왈라의 멘토. 시그니처인 순백색 셔츠·바지 차림으로 'Mr. White and White' 별명. 인도에서 가장 노출 적은 억만장자 중 하나.",
@@ -176,12 +170,16 @@
     "controversies": "Limited public controversies due to extreme privacy; DMart's slow e-commerce response criticized by analysts during 2020-2022 lockdown periods; supplier-payment-discount model occasionally raised competition-policy concerns from smaller retailers; no personal scandals in public record.",
     "controversiesKo": "극단적 비공개 운영으로 공개 논란 적음. 2020-2022 봉쇄 기간 DMart의 느린 이커머스 대응을 애널리스트들이 비판; 공급업체 빠른 결제·단가 인하 모델이 중소 소매상들로부터 경쟁 정책 우려 제기; 본인 개인 스캔들은 공식 기록 없음."
   },
-
   "characterKo": {
     "summaryKo": "공개 등장이 사실상 0에 가까운 인도 자본가의 가장 극단적 사례. 동료들이 말하는 가장 두드러진 특성은 '회의에서 5분 만에 거래의 단위경제를 손으로 직접 계산해 결론을 내리는 속도', '평생 같은 흰 셔츠·흰 바지 차림으로 매장 시찰을 직접 한다는 점'. 라케시 준준왈라가 공개·미디어형이었던 반면 다마니는 평생 그 반대 노선을 일관되게 유지.",
-    "tagsKo": ["흰옷 시그니처", "극단적 비공개", "단위경제 광신", "장기 보유 가치 투자", "매장 직접 시찰"]
+    "tagsKo": [
+      "흰옷 시그니처",
+      "극단적 비공개",
+      "단위경제 광신",
+      "장기 보유 가치 투자",
+      "매장 직접 시찰"
+    ]
   },
-
   "failures": [
     {
       "year": 2008,
@@ -189,7 +187,8 @@
       "descriptionKo": "DMart의 느린 전국 확장 전략이 2007-2010년 Reliance Retail·Future Group·Aditya Birla More가 공격적으로 인도 전역 확장하던 시기 인도 소매 애널리스트들로부터 강한 비판. 수년간 DMart이 '전국 입지 선점'에서 뒤처지는 것처럼 보임.",
       "lesson": "Cluster discipline beats land-grab in retail unit economics over long timeframes — but founders must absorb several years of consensus-against-them criticism to prove it.",
       "lessonKo": "소매업 단위경제에서 클러스터 규율은 장기적으로 입지 선점을 이긴다 — 다만 창업자는 그 결과를 입증할 때까지 수년의 시장 합의 반대 비판을 흡수해야 한다.",
-      "source": "https://www.livemint.com ; https://www.outlookbusiness.com"
+      "source": "https://www.livemint.com ; https://www.outlookbusiness.com",
+      "age": 54
     },
     {
       "year": 2020,
@@ -197,7 +196,8 @@
       "descriptionKo": "COVID-19 봉쇄로 DMart의 이커머스 인프라가 Reliance JioMart·Amazon Fresh 대비 미흡함이 노출됨. DMart Ready 출시가 경쟁사 디지털 경험에 뒤처지며 회사는 이미 규모를 갖춘 경쟁사를 뒤쫓아 디지털 자본 투자를 가속해야 했음.",
       "lesson": "An offline-only model with superb unit economics is still vulnerable when a pandemic-scale shock collapses the foot-traffic channel; digital capacity needs to be built before it is needed, not when it is needed.",
       "lessonKo": "단위경제가 뛰어난 오프라인 단일 모델도 팬데믹급 충격이 오프라인 채널을 무너뜨릴 때 취약하다. 디지털 역량은 필요해진 시점이 아니라 그 전에 만들어 둬야 한다.",
-      "source": "https://www.livemint.com ; https://www.bloomberg.com"
+      "source": "https://www.livemint.com ; https://www.bloomberg.com",
+      "age": 66
     },
     {
       "year": 2022,
@@ -205,21 +205,41 @@
       "descriptionKo": "2021-2022 사이클에서 인도 성장주·디지털 IPO 프리미엄이 시장을 지배하며 다마니의 조용한 가치 포지션이 일시적으로 가려짐. Zomato·Paytm·Nykaa의 서사 주도 가치평가가 그의 종목들을 밀어냄(이후 대부분 폭락).",
       "lesson": "Even disciplined value investors must accept multi-year periods of being out of fashion; portfolio narrative cycles are independent of underlying business fundamentals on shorter timeframes.",
       "lessonKo": "규율 있는 가치 투자자도 수년간 유행에서 밀려나는 기간을 받아들여야 한다. 포트폴리오 서사 사이클은 짧은 기간에 기업 펀더멘털과 독립적으로 움직인다.",
-      "source": "https://www.outlookbusiness.com ; https://www.bloomberg.com"
+      "source": "https://www.outlookbusiness.com ; https://www.bloomberg.com",
+      "age": 68
     }
   ],
-
   "wealthHistory": [
-    { "year": 2017, "netWorth": 6.0 },
-    { "year": 2019, "netWorth": 11.7 },
-    { "year": 2021, "netWorth": 18.5 },
-    { "year": 2022, "netWorth": 19.3 },
-    { "year": 2023, "netWorth": 15.5 },
-    { "year": 2024, "netWorth": 17.6 },
-    { "year": 2025, "netWorth": 17.2 }
+    {
+      "year": 2017,
+      "netWorth": 6
+    },
+    {
+      "year": 2019,
+      "netWorth": 11.7
+    },
+    {
+      "year": 2021,
+      "netWorth": 18.5
+    },
+    {
+      "year": 2022,
+      "netWorth": 19.3
+    },
+    {
+      "year": 2023,
+      "netWorth": 15.5
+    },
+    {
+      "year": 2024,
+      "netWorth": 17.6
+    },
+    {
+      "year": 2025,
+      "netWorth": 17.2
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "I do not understand luxury. I understand stores and balance sheets.",
@@ -229,12 +249,10 @@
       "source": "https://www.outlookbusiness.com"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Gyeong-O day pillar in a Myo month forms a 'jeonggwan-gyeok' chart — a metallic, disciplined nature held under the consistent authority of structure and rules, fitting a 50-year career of regulated capital markets and disciplined unit economics.",
     "summaryKo": "경오 일주가 묘월에 자리잡은 정관격(공식 권위·규율·구조 아래 안정적으로 자기 자본을 만들어 가는 구조)은 50년에 걸친 인도 자본 시장 규율과 DMart의 단위경제 규율에 그대로 호응합니다. 경금 일간은 정련된 금속·칼·규율의 기질을 깔고 있어, 도제식으로 봄베이 증시 링에서 매매 규율을 배운 그의 출발과 호응. 일지 오화 안에 정화·기토가 있어 정관(공식 권위·구조)과 정인(학문·멘토 자본)이 함께 들어와, 챤드라칸트 삼팟이라는 멘토에게서 학습한 가치 투자 학문이 평생 자본 운용의 토대가 됨을 그대로 그려냅니다. 월지 묘목의 을목은 정재(고정 자본·재고)로, DMart 매장 부동산을 임대 대신 소유하는 그의 보유형 전략과 정확히 맞물립니다. 연주 갑오의 갑목은 편재(외부 큰 자본)로 50년 누적된 시장 자본을 본인 자산으로 흡수한 흐름을 보여주고, 월간 정화는 정관(공식 권위)으로 인도 자본 시장 규제 환경 안에서 움직인 그의 정체성. 약점은 정관격이 너무 강할 때 식상(자기 표현·공개)을 압축한다는 점인데, 평생 인터뷰가 한 자리 수에 그치고 흰옷 한 벌로 자기 정체성을 압축한 점이 그 그늘로 읽힙니다."

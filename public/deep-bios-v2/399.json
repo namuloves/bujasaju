@@ -5,7 +5,6 @@
   "netWorth": 8.5,
   "nationality": "US",
   "industry": "Sports",
-
   "childhood": {
     "birthPlace": "Youngstown, Ohio, USA",
     "birthPlaceKo": "미국 오하이오주 영스타운",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "20세기 중반 미국 가장 강력한 부동산 개발자의 딸로 영스타운에서 성장. 20대부터 가족 사업(Pittsburgh Penguins NHL 포함·다양한 DeBartolo Corp 벤처)에서 활동. 방사선과 의사 존 C. 요크와 결혼 — 부부는 현 49ers CEO 제드 요크를 포함해 자녀 넷.",
     "source": "https://en.wikipedia.org/wiki/Denise_DeBartolo_York ; https://en.wikipedia.org/wiki/San_Francisco_49ers ; https://www.forbes.com/profile/denise-york/"
   },
-
   "capitalOrigin": {
     "typeKo": "inherited",
     "explanationKo": "출발 자본은 아버지 에드워드 J. 디바톨로 시니어가 20세기 중후반 일군 The Edward J. DeBartolo Corporation 미국 최대 쇼핑몰 개발 자산. 1990년대 후반 형제와의 분쟁 후 그녀가 San Francisco 49ers를 인수받은 것이 평생 부의 핵심 자산.",
     "source": "https://en.wikipedia.org/wiki/Edward_J._DeBartolo_Corporation"
   },
-
   "careerTimeline": [
     {
       "year": 1977,
@@ -114,7 +111,6 @@
       "source": "https://en.wikipedia.org/wiki/Leeds_United_F.C."
     }
   ],
-
   "turningPoints": [
     {
       "year": 1998,
@@ -141,7 +137,6 @@
       "source": "https://en.wikipedia.org/wiki/Levi%27s_Stadium"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "San Francisco 49ers NFL 구단(가족 소유 약 90%) — 추정 가치 60억 달러+. Levi's Stadium 운영 수익, NFL 중계권 수익 가족 몫. 부차적으로 Leeds United, 49ers Enterprises 통한 글로벌 스포츠 자산.",
     "industryKo": "프로 스포츠 구단 운영, 부동산(잔여)",
@@ -149,7 +144,6 @@
     "moatKo": "① NFL 32개 구단 중 하나의 영구 라이선스. ② Levi's Stadium의 실리콘밸리 한복판 입지. ③ 1990년대 후반부터 누적된 가족 거버넌스의 다세대 안정성. ④ 49ers 프랜차이즈의 5번 슈퍼볼 우승 역사 평판 자본.",
     "luckVsSkillKo": "운(50%): 1998년 형 에디의 형사 사건이 그녀에게 49ers 단독 소유를 가져온 강제 환경, 2014년 Levi's Stadium 개장이 NFL 평가 사이클 정점에 들어맞은 타이밍, 2020·2024 슈퍼볼 진출이 다세대 거버넌스를 검증. 실력(50%): 강제 상속 후 30년 안정 운영의 거버넌스 규율, 다세대 가족 구단주 모델의 일관성, 슈퍼볼 진출까지 끌어올린 운영 결정."
   },
-
   "personalTraits": {
     "knownFor": "Principal owner of the San Francisco 49ers (NFL); daughter of shopping-mall pioneer Edward DeBartolo Sr.; sister of former 49ers owner Eddie DeBartolo Jr.; assumed ownership in 2000 after her brother's NFL suspension; matriarch of the York family ownership era that has included two Super Bowl appearances (2020, 2024).",
     "knownForKo": "San Francisco 49ers(NFL) 최대 소유주. 쇼핑몰 개척자 에드워드 디바톨로 시니어의 딸. 전 49ers 소유주 에디 디바톨로 주니어의 자매. 형의 NFL 정지 후 2000년 소유권 인수. 슈퍼볼 진출 2회(2020·2024)를 포함한 요크 가족 소유 시대의 가부장.",
@@ -158,12 +152,16 @@
     "controversies": "1998 family settlement that transferred 49ers ownership to her resulted from her brother Eddie's felony plea — the underlying scandal cast a long shadow over the DeBartolo family name; Levi's Stadium financing drew local political debate over public bonds and parking issues; 2017 head-coach firing and front-office turmoil drew media criticism of family decision-making.",
     "controversiesKo": "1998년 49ers 소유권을 그녀에게 이전한 가족 합의는 형 에디의 중죄 유죄 인정에서 비롯 — 근본 스캔들이 디바톨로 가문 이름에 긴 그림자. Levi's Stadium 자금 조달이 공공 채권·주차 문제로 지역 정치 논쟁. 2017년 감독 해고·프런트오피스 혼란이 가족 의사결정에 대한 미디어 비판."
   },
-
   "characterKo": {
     "summaryKo": "1세대 부동산 가문의 딸로 자라 강제 상황에서 NFL 구단 최대 소유주가 된 보기 드운 여성 자본가. 동료들이 말하는 가장 두드러진 특성은 '매주 49ers 경기장에 직접 등장하면서도 미디어 발언은 최소화한다는 점'과 '아들 제드에 일상 운영을 위임하면서도 핵심 거버넌스 결정은 본인이 유지한다는 점'. 가족 가부장 정체성의 표현.",
-    "tagsKo": ["강제 상속자", "NFL 여성 소유주", "다세대 거버넌스", "오하이오-실리콘밸리", "비공개 가부장"]
+    "tagsKo": [
+      "강제 상속자",
+      "NFL 여성 소유주",
+      "다세대 거버넌스",
+      "오하이오-실리콘밸리",
+      "비공개 가부장"
+    ]
   },
-
   "failures": [
     {
       "year": 1998,
@@ -171,7 +169,8 @@
       "descriptionKo": "형 에디 디바톨로 주니어의 가족 스캔들 — 루이지애나 주지사 도박 면허 관련 중죄 — 49ers 소유권을 데니스에게 이전한 가족 수준 재편 강제. 가족 평판이 안정되기까지 수년 타격.",
       "lesson": "Multi-generational family wealth must be designed to survive individual family-member legal exposure; succession architecture should not depend on one branch staying out of trouble.",
       "lessonKo": "다세대 가족 부는 개별 가족 구성원의 법적 노출을 견딜 수 있도록 설계되어야 한다. 승계 구조는 한 갈래가 곤란을 피해 가는 데 의존해서는 안 된다.",
-      "source": "https://en.wikipedia.org/wiki/Edward_DeBartolo_Jr."
+      "source": "https://en.wikipedia.org/wiki/Edward_DeBartolo_Jr.",
+      "age": 48
     },
     {
       "year": 2017,
@@ -179,7 +178,8 @@
       "descriptionKo": "수년간 49ers 부진과 감독 해고(짐 하버 2014·짐 톰술라 2015·칩 켈리 2016) 후 가족 프런트오피스 결정이 지속적 미디어 비판 받음. 감독과 가족 소유 간 신뢰가 회복까지 수년 소요.",
       "lesson": "Family-controlled sports franchises accumulate culture cost when coaching turnover is high; long-term football operations require head-coach stability that family politics can disrupt.",
       "lessonKo": "가족 통제 스포츠 프랜차이즈는 감독 회전율이 높을 때 문화 비용을 누적한다. 장기 미식축구 운영은 감독 안정성을 요구하지만 가족 정치가 이를 방해할 수 있다.",
-      "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers"
+      "source": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+      "age": 67
     },
     {
       "year": 2024,
@@ -187,20 +187,37 @@
       "descriptionKo": "5년 만에 두 번째 슈퍼볼 패배(Super Bowl LVIII 캔자스시티 치프스에 연장전 패배) — 프랜차이즈가 가족 소유 아래 NFL 정점에 반복 진출하면서도 챔피언십 격차를 메우지 못함. 'NFL 2위'의 정서적·경쟁적 비용.",
       "lesson": "Reaching the championship final repeatedly is hard; winning it requires marginal advantages that ownership cannot directly control, only enable through long-term roster and coaching investments.",
       "lessonKo": "챔피언십 결승에 반복 진출하는 것은 어렵다. 우승은 소유주가 직접 통제할 수 없는 마진의 이점을 요구하며, 장기 로스터·감독 투자로만 가능하게 할 수 있다.",
-      "source": "https://en.wikipedia.org/wiki/Super_Bowl_LVIII"
+      "source": "https://en.wikipedia.org/wiki/Super_Bowl_LVIII",
+      "age": 74
     }
   ],
-
   "wealthHistory": [
-    { "year": 2015, "netWorth": 1.7 },
-    { "year": 2018, "netWorth": 3.2 },
-    { "year": 2020, "netWorth": 3.5 },
-    { "year": 2022, "netWorth": 5.0 },
-    { "year": 2024, "netWorth": 8.5 },
-    { "year": 2025, "netWorth": 8.5 }
+    {
+      "year": 2015,
+      "netWorth": 1.7
+    },
+    {
+      "year": 2018,
+      "netWorth": 3.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2022,
+      "netWorth": 5
+    },
+    {
+      "year": 2024,
+      "netWorth": 8.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 8.5
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "I did not ask for this team. The family asked me to take it. I have run it like a mother runs a household — with everyone in mind.",
@@ -210,12 +227,10 @@
       "source": "https://www.forbes.com/profile/denise-york/"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "Her Gi-Chuk day pillar in a Sul month forms a 'jeongin-gyeok' chart — patient earth holding deep mineral support, fitting a life that inherited massive family resources and quietly stewarded them across generations.",
     "summaryKo": "기축 일주가 술월에 자리잡은 정인격(어머니·가족·인내·지원 자본이 평생 자본의 근간이 되는 구조)은 강제 상속받은 NFL 자산을 30년 안정적으로 관리한 그녀의 인생과 호응합니다. 기토 일간은 평지의 부드러운 흙 — 어머니·가정 정체성과 잘 어울리는 기질입니다. 일지·월지의 축토·술토 모두 정인·비견의 자리 — 어머니 자본과 가족 동료의 토대가 평생 강한 지지를 한 점을 그대로 그려냅니다. 술토 안의 정화·신금·무토가 편인·식상·겁재로 학문·자기 표현·형제 자본을 한 자리에 묶어 — 형 에디와의 관계, 아들 제드 양육, 49ers 일상 운영을 동시에 그립니다. 연주 경인의 경금·인목이 상관·정관으로 자기 표현(가족 가부장 역할)과 공식 권위(NFL 규제) 자리. 약점은 정인격이 너무 강하면 결정의 적극성이 약해질 수 있다는 점인데, 2014-2017 감독 회전기에 가족 프런트오피스가 미디어 비판을 받은 점이 그 그늘로 읽힙니다."

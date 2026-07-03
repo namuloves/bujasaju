@@ -5,7 +5,6 @@
   "netWorth": 5.4,
   "nationality": "ES",
   "industry": "Construction & Engineering",
-
   "childhood": {
     "birthPlace": "Madrid, Spain",
     "birthPlaceKo": "스페인 마드리드",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "다수 형제자매 중 한 명으로 마드리드 Ferrovial 가족 환경에서 성장. 아버지 라파엘 델 피노 이 모레노가 Ferrovial를 1990-2000년대 적극 경영에서 물러나기 전 스페인 최대 건설 회사이자 글로벌 인프라 운영자로 키움. 마리아의 역할은 주로 Ferrovial 운영 경영보다는 가족 부 거버넌스·자선.",
     "source": "https://en.wikipedia.org/wiki/Ferrovial ; https://en.wikipedia.org/wiki/Rafael_del_Pino_y_Moreno ; https://www.forbes.com/profile/maria-del-pino/"
   },
-
   "capitalOrigin": {
     "typeKo": "inherited",
     "explanationKo": "100% 상속. 아버지 라파엘 델 피노 이 모레노가 1952년 창립한 Ferrovial 가족 지분의 다섯째 정도 분할 지분. 가족 신탁·지주 회사(Rijn Capital·Pontegadea 같은 비공개 가족 사무소)를 통해 다세대 가족 자본으로 관리.",
     "source": "https://en.wikipedia.org/wiki/Ferrovial"
   },
-
   "careerTimeline": [
     {
       "year": 1980,
@@ -114,7 +111,6 @@
       "source": "https://en.wikipedia.org/wiki/407_ETR"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1999,
@@ -149,7 +145,6 @@
       "source": "https://en.wikipedia.org/wiki/Ferrovial"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Ferrovial(암스테르담 유로넥스트·NYSE 상장, 가족 합산 통제 지분) — 글로벌 인프라 운영자(캐나다 407 ETR 유료 도로·호주·미국 공항·인프라 양보). 본인 자산의 거의 전부가 가족 지분과 신탁을 통한 Ferrovial 가치.",
     "industryKo": "건설·인프라 운영(공항·도로·양보)",
@@ -157,7 +152,6 @@
     "moatKo": "① 1952년 이후 70년 누적된 글로벌 인프라 양보 자산. ② 407 ETR 같은 영구 양보 자산의 다세대 현금흐름. ③ 마드리드-암스테르담-NYSE 3중 시장 노출. ④ 다세대 가족 거버넌스의 일관성.",
     "luckVsSkillKo": "운(50%): 아버지가 1952년 스페인 건설에 진입한 가족 자본 운, 1999-2006년 스페인 IPO + BAA 인수 사이클이 마침 글로벌 인프라 통합 사이클과 맞물림. 실력(50%): 다세대 가족 자본의 무갈등 승계 거버넌스, 글로벌 자본 시장 접근의 단계적 확장, 자선 자본의 일관된 운영."
   },
-
   "personalTraits": {
     "knownFor": "Member of the del Pino family — owners of Ferrovial, one of Spain's largest construction and global infrastructure companies; daughter of Ferrovial founder Rafael del Pino y Moreno; major philanthropist through Fundación Rafael del Pino; one of multiple billionaire siblings in the family.",
     "knownForKo": "del Pino 가족의 일원 — 스페인 최대 건설·글로벌 인프라 회사 Ferrovial 소유. Ferrovial 창립자 라파엘 델 피노 이 모레노의 딸. Fundación Rafael del Pino 통한 주요 자선가. 가족 내 다수 억만장자 형제자매 중 한 명.",
@@ -166,12 +160,16 @@
     "controversies": "Ferrovial's 2023 headquarters relocation from Spain to Netherlands drew sustained political backlash from Spanish government and labor unions; family-business decisions occasionally drew internal disagreement; standard infrastructure-sector political and environmental scrutiny.",
     "controversiesKo": "Ferrovial의 2023년 본사 스페인에서 네덜란드 이전이 스페인 정부·노조의 지속적 정치적 반발을 받음. 가족 사업 결정이 간헐적 내부 의견 불일치. 인프라 부문 표준 정치·환경 감시."
   },
-
   "characterKo": {
     "summaryKo": "다세대 스페인 인프라 가족의 비공개·자선 중심 정체성을 유지한 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '형 라파엘이 Ferrovial 운영을 맡는 동안 본인은 가족 자선·문화 자본에 집중한 분담의 일관성'과 '미디어 노출이 매우 적은 비공개 일관성'.",
-    "tagsKo": ["스페인 인프라 가문", "비공개 가부장", "자선 중심", "다세대 가족 자본", "분담 거버넌스"]
+    "tagsKo": [
+      "스페인 인프라 가문",
+      "비공개 가부장",
+      "자선 중심",
+      "다세대 가족 자본",
+      "분담 거버넌스"
+    ]
   },
-
   "failures": [
     {
       "year": 2023,
@@ -179,7 +177,8 @@
       "descriptionKo": "Ferrovial의 스페인에서 네덜란드로의 기업 본거지 이전이 페드로 산체스 스페인 총리·노조의 발언 등 상당한 정치적 반발 촉발 — 가족이 이전의 재무적 논리에도 스페인 기업 시민권 상실에 대한 지속적 공개 비판 흡수 필요.",
       "lesson": "Multi-generational family-controlled corporations are also political identities; relocating for financial gain creates national-narrative liabilities that compound across generations.",
       "lessonKo": "다세대 가족 통제 기업도 정치적 정체성이다. 재무적 이익을 위한 이전은 세대를 가로질러 누적되는 국가 서사 부담을 만든다.",
-      "source": "https://www.elpais.com"
+      "source": "https://www.elpais.com",
+      "age": 67
     },
     {
       "year": 2008,
@@ -187,20 +186,37 @@
       "descriptionKo": "Ferrovial의 2006년 100억 파운드 BAA 인수가 글로벌 금융위기 시작과 맞물림 — BAA의 무거운 부채가 Ferrovial 전반 재무구조를 수년간 압박, 가족이 위기 동안 재금융 지원 필요. 일부 주변 BAA 자산은 향후 매각해 레버리지 감소.",
       "lesson": "Top-of-cycle infrastructure acquisitions financed with debt are particularly vulnerable to immediate macro shocks; family-controlled groups must hold permanent capital buffer to absorb post-deal stress.",
       "lessonKo": "부채로 자금 조달된 사이클 정점 인프라 인수는 직접적 거시 충격에 특히 취약하다. 가족 통제 그룹은 거래 후 스트레스를 흡수할 영구 자본 버퍼를 보유해야 한다.",
-      "source": "https://en.wikipedia.org/wiki/Ferrovial"
+      "source": "https://en.wikipedia.org/wiki/Ferrovial",
+      "age": 52
     }
   ],
-
   "wealthHistory": [
-    { "year": 2015, "netWorth": 1.0 },
-    { "year": 2018, "netWorth": 1.7 },
-    { "year": 2021, "netWorth": 2.8 },
-    { "year": 2023, "netWorth": 3.6 },
-    { "year": 2024, "netWorth": 4.7 },
-    { "year": 2025, "netWorth": 5.4 }
+    {
+      "year": 2015,
+      "netWorth": 1
+    },
+    {
+      "year": 2018,
+      "netWorth": 1.7
+    },
+    {
+      "year": 2021,
+      "netWorth": 2.8
+    },
+    {
+      "year": 2023,
+      "netWorth": 3.6
+    },
+    {
+      "year": 2024,
+      "netWorth": 4.7
+    },
+    {
+      "year": 2025,
+      "netWorth": 5.4
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "Father built the company. Our job is to make sure the next generation receives more than just shares — values too.",
@@ -210,12 +226,10 @@
       "source": "https://www.frdelpino.es"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "Her Eul-Yu day pillar in a Myo month forms a 'pyeon-gwan-gyeok' chart — slender wood between spring wood and autumn metal, fitting a multi-generational steward of a family infrastructure fortune who maintains identity quietly under sustained external authority.",
     "summaryKo": "을유 일주가 묘월에 자리잡은 편관격(강한 외부 권력·압박이 평생 자기 자본을 둘러싸는 구조)은 글로벌 인프라 양보·정부 규제·가족 거버넌스라는 세 정관 환경 안에서 다세대 가족 자본을 조용히 관리한 그녀의 인생과 호응합니다. 을목 일간은 작은 풀·꽃·문예의 기질로 가족·자선 중심의 부드러운 정체성을 깔고 있고, 일지 유금이 편관(외부 권력·압박)으로 평생 인프라 산업·정치 환경의 압박을 흡수한 패턴. 월지 묘목은 비견(같은 목)으로 형제자매와의 다세대 공동 거버넌스 자리. 약점은 편관격이 너무 강하면 본인의 정체성이 가족·외부 환경에 의해 정의된다는 점인데, 그녀의 공개 발언이 매우 적고 본인 인터뷰가 거의 없는 비공개 일관성이 그 그늘로 읽힙니다."

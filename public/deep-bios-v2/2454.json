@@ -14,27 +14,82 @@
   "childhood": {
     "summaryKo": "쓰촨성에서 태어났습니다. 학력은 창강경영대학원 EMBA로 사업 안정기 후 취득한 비전형 학력 트랙입니다. 청년기에 출납원과 건설팀장 같은 평범한 일에서 시작했습니다.",
     "capitalTypeKo": "맨몸 자수성가 — 출납원·건설팀장 출신이 판즈화 바나듐·티타늄 자철광 채굴 1위 회사를 만든 인물입니다.",
-    "sources": ["https://www.bloomberg.com/profile/person/20411364"]
+    "sources": [
+      "https://www.bloomberg.com/profile/person/20411364"
+    ]
   },
   "capitalOrigin": {
     "type": "self-made",
     "typeKo": "자수성가",
     "descriptionKo": "1990년대 후반 출납원과 건설팀장 경력 후 자기 사업을 시작해 2000년대에 쓰촨 안닝을 설립, 판즈화에서 바나듐·티타늄 자철광 채굴에 진출했습니다. 2018년 IPO 1차 시도 후 2020년 4월 선전증권거래소 SME 보드 상장(판즈화 1호 상장사)에 성공했습니다.",
     "selfMadeScore": 9,
-    "sources": ["https://realtimebillionaires.de/profile/luo-yangyong-1"]
+    "sources": [
+      "https://realtimebillionaires.de/profile/luo-yangyong-1"
+    ]
   },
   "careerTimeline": [
-    {"year": 1995, "event": "Works as cashier and construction team leader before starting business", "eventKo": "1990년대 후반 출납원·건설팀장 경력 시작", "whyItMatteredKo": "기묘 일주의 부드러운 흙이 평범한 자리에서 학습 자본을 쌓은 출발점입니다."},
-    {"year": 2005, "event": "Establishes Sichuan Anning, enters vanadium-titanium mining", "eventKo": "2000년대 쓰촨 안닝 설립, 판즈화 바나듐·티타늄 자철광 채굴 진출", "whyItMatteredKo": "자기가 만들어낸 결과물의 흐름이 본거지 자원 활용으로 발현된 분기점입니다."},
-    {"year": 2018, "event": "First Shenzhen IPO attempt for $158M", "eventKo": "선전거래소 IPO 1차 신청 — 약 1.58억 달러 조달 목표", "whyItMatteredKo": "초기 자본 시장 진입 시도가 다년간의 prospectus 보완 과정을 거친 시기입니다."},
-    {"year": 2020, "event": "Listed on Shenzhen SME board, Panzhihua's first listed company", "eventKo": "4월 선전거래소 SME 상장 (판즈화 1호 상장사)", "whyItMatteredKo": "본거지 자원 활용이 자본 시장 가치로 환원된 결정적 결단입니다."},
-    {"year": 2024, "event": "Pursues acquisition of CNNC Hua Yuan Titanium Dioxide assets", "eventKo": "CNNC 화위안 티타늄 다이옥사이드 자산 인수 추진 — 우편저축은행 150억 위안 신용 한도 확보", "whyItMatteredKo": "단일 광종 의존을 다운스트림 다각화로 옮기는 만년의 결단입니다."},
-    {"year": 2025, "event": "Net worth approaches $1.5B on commodity cycle", "eventKo": "원자재 사이클로 자산 약 15억 달러 도달", "whyItMatteredKo": "본업 누적이 글로벌 원자재 사이클 직격 수혜로 환원된 시기입니다."}
+    {
+      "year": 1995,
+      "event": "Works as cashier and construction team leader before starting business",
+      "eventKo": "1990년대 후반 출납원·건설팀장 경력 시작",
+      "whyItMatteredKo": "기묘 일주의 부드러운 흙이 평범한 자리에서 학습 자본을 쌓은 출발점입니다.",
+      "age": 20
+    },
+    {
+      "year": 2005,
+      "event": "Establishes Sichuan Anning, enters vanadium-titanium mining",
+      "eventKo": "2000년대 쓰촨 안닝 설립, 판즈화 바나듐·티타늄 자철광 채굴 진출",
+      "whyItMatteredKo": "자기가 만들어낸 결과물의 흐름이 본거지 자원 활용으로 발현된 분기점입니다.",
+      "age": 30
+    },
+    {
+      "year": 2018,
+      "event": "First Shenzhen IPO attempt for $158M",
+      "eventKo": "선전거래소 IPO 1차 신청 — 약 1.58억 달러 조달 목표",
+      "whyItMatteredKo": "초기 자본 시장 진입 시도가 다년간의 prospectus 보완 과정을 거친 시기입니다.",
+      "age": 43
+    },
+    {
+      "year": 2020,
+      "event": "Listed on Shenzhen SME board, Panzhihua's first listed company",
+      "eventKo": "4월 선전거래소 SME 상장 (판즈화 1호 상장사)",
+      "whyItMatteredKo": "본거지 자원 활용이 자본 시장 가치로 환원된 결정적 결단입니다.",
+      "age": 45
+    },
+    {
+      "year": 2024,
+      "event": "Pursues acquisition of CNNC Hua Yuan Titanium Dioxide assets",
+      "eventKo": "CNNC 화위안 티타늄 다이옥사이드 자산 인수 추진 — 우편저축은행 150억 위안 신용 한도 확보",
+      "whyItMatteredKo": "단일 광종 의존을 다운스트림 다각화로 옮기는 만년의 결단입니다.",
+      "age": 49
+    },
+    {
+      "year": 2025,
+      "event": "Net worth approaches $1.5B on commodity cycle",
+      "eventKo": "원자재 사이클로 자산 약 15억 달러 도달",
+      "whyItMatteredKo": "본업 누적이 글로벌 원자재 사이클 직격 수혜로 환원된 시기입니다.",
+      "age": 50
+    }
   ],
   "turningPoints": [
-    {"year": 2005, "eventKo": "쓰촨 안닝 설립으로 판즈화 자원 활용 시작", "impactKo": "기묘 일주의 부드러운 흙이 본거지 자원이라는 외부 흐름을 본인 결과물로 변환한 결정적 결단입니다."},
-    {"year": 2020, "eventKo": "선전 SME 보드 상장 — 판즈화 1호 상장사", "impactKo": "자기가 만든 결과물의 흐름이 자본 시장 가치로 환원된 분기점입니다."},
-    {"year": 2024, "eventKo": "CNNC 화위안 인수로 다운스트림 다각화", "impactKo": "단일 광종 의존을 줄이는 만년의 결정적 결단입니다."}
+    {
+      "year": 2005,
+      "eventKo": "쓰촨 안닝 설립으로 판즈화 자원 활용 시작",
+      "impactKo": "기묘 일주의 부드러운 흙이 본거지 자원이라는 외부 흐름을 본인 결과물로 변환한 결정적 결단입니다.",
+      "age": 30
+    },
+    {
+      "year": 2020,
+      "eventKo": "선전 SME 보드 상장 — 판즈화 1호 상장사",
+      "impactKo": "자기가 만든 결과물의 흐름이 자본 시장 가치로 환원된 분기점입니다.",
+      "age": 45
+    },
+    {
+      "year": 2024,
+      "eventKo": "CNNC 화위안 인수로 다운스트림 다각화",
+      "impactKo": "단일 광종 의존을 줄이는 만년의 결정적 결단입니다.",
+      "age": 49
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "선전 상장사 쓰촨 안닝 철·티타늄(002978) 본인 약 72% 지분에서 나오는 주가 가치가 핵심입니다. 티타늄 정광과 바나듐·티타늄·철 정광이 매출의 양대 축입니다.",
@@ -43,18 +98,58 @@
     "currentAssetAllocationKo": "쓰촨 안닝 본인 지분이 자산의 절대 비중. 단일 회사 의존도가 매우 높습니다."
   },
   "failures": [
-    {"year": 2018, "descriptionKo": "선전 IPO 1차 시도가 prospectus 보완으로 약 2년 추가 소요됐습니다.", "howTheyOvercameKo": "보완 작업을 마무리하고 2020년 4월 정식 상장에 성공했습니다.", "lessonKo": "자본 시장 진입은 운영 회사보다 보완에 시간이 더 걸립니다."},
-    {"year": 2022, "descriptionKo": "단일 광종(바나듐·티타늄) 의존도가 위험으로 노출됐습니다.", "howTheyOvercameKo": "2024년 CNNC 화위안 인수로 다운스트림 다각화를 시도하고 있습니다.", "lessonKo": "단일 자원 의존은 다운스트림 인수합병으로만 풀립니다."},
-    {"year": 2023, "descriptionKo": "판즈화 바나듐 광산 채굴 환경 오염 이슈가 상존합니다.", "howTheyOvercameKo": "공정 광물학 연구 다수 발표로 환경 처리 기술을 단계적으로 개선하고 있습니다.", "lessonKo": "광산업의 환경 규제는 R&D 투자로만 풀립니다."}
+    {
+      "year": 2018,
+      "descriptionKo": "선전 IPO 1차 시도가 prospectus 보완으로 약 2년 추가 소요됐습니다.",
+      "howTheyOvercameKo": "보완 작업을 마무리하고 2020년 4월 정식 상장에 성공했습니다.",
+      "lessonKo": "자본 시장 진입은 운영 회사보다 보완에 시간이 더 걸립니다.",
+      "age": 43
+    },
+    {
+      "year": 2022,
+      "descriptionKo": "단일 광종(바나듐·티타늄) 의존도가 위험으로 노출됐습니다.",
+      "howTheyOvercameKo": "2024년 CNNC 화위안 인수로 다운스트림 다각화를 시도하고 있습니다.",
+      "lessonKo": "단일 자원 의존은 다운스트림 인수합병으로만 풀립니다.",
+      "age": 47
+    },
+    {
+      "year": 2023,
+      "descriptionKo": "판즈화 바나듐 광산 채굴 환경 오염 이슈가 상존합니다.",
+      "howTheyOvercameKo": "공정 광물학 연구 다수 발표로 환경 처리 기술을 단계적으로 개선하고 있습니다.",
+      "lessonKo": "광산업의 환경 규제는 R&D 투자로만 풀립니다.",
+      "age": 48
+    }
   ],
   "wealthHistory": [
-    {"year": 2020, "netWorth": "$0.5B", "sourceKo": "IPO 시점"},
-    {"year": 2023, "netWorth": "$1.1B", "sourceKo": "포브스 추정"},
-    {"year": 2024, "netWorth": "$1.3B", "sourceKo": "후룬 글로벌 95억 위안"},
-    {"year": 2026, "netWorth": "$1.6B", "sourceKo": "포브스 2026 빌리어네어즈"}
+    {
+      "year": 2020,
+      "netWorth": "$0.5B",
+      "sourceKo": "IPO 시점"
+    },
+    {
+      "year": 2023,
+      "netWorth": "$1.1B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2024,
+      "netWorth": "$1.3B",
+      "sourceKo": "후룬 글로벌 95억 위안"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$1.6B",
+      "sourceKo": "포브스 2026 빌리어네어즈"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["출납원·건설팀장 출신", "판즈화 1호 상장", "단일 광종 1위", "다운스트림 다각화 시도", "강한 지배 구조"],
+  "personalTraitsKo": [
+    "출납원·건설팀장 출신",
+    "판즈화 1호 상장",
+    "단일 광종 1위",
+    "다운스트림 다각화 시도",
+    "강한 지배 구조"
+  ],
   "characterKo": {
     "strengths": "출납원·건설팀장 같은 평범한 자리에서 시작해 단일 광종 채굴 1위 회사를 만든 끈기와, 약 72%의 강한 지배 구조가 강점입니다.",
     "weaknesses": "단일 광종 의존도가 매우 높고, 환경 규제 강화에 매출이 직접 노출되는 구조입니다.",

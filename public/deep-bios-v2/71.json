@@ -14,27 +14,82 @@
   "childhood": {
     "summaryKo": "1945년 인도 타밀나두 티루첸두르의 중산층 가정에서 태어났습니다. 정통 학력은 공학 트랙으로, PSG 공과대학 전기공학 학위를 거친 정통 인도 1세대 IT 자수성가 인재 트랙입니다.",
     "capitalTypeKo": "1세대 자수성가 — 인도 1세대 IT 가문 창업주 (HCL Technologies 정립)입니다.",
-    "sources": ["https://en.wikipedia.org/wiki/Shiv_Nadar"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Shiv_Nadar"
+    ]
   },
   "capitalOrigin": {
     "type": "self-made",
     "typeKo": "자수성가",
     "descriptionKo": "1976년 동기 6인과 함께 'Hindustan Computers Limited' (HCL) 정립으로 본업을 시작했고, 1991년 'HCL Technologies' IT 서비스 카테고리로 본업 카테고리를 환원했습니다. 본업은 인도 4대 IT 서비스 회사 HCL이고, 1999년 인도 증시 상장 후 자본 시장 가치 정점에 도달했습니다.",
     "selfMadeScore": 10,
-    "sources": ["https://www.hcltech.com"]
+    "sources": [
+      "https://www.hcltech.com"
+    ]
   },
   "careerTimeline": [
-    {"year": 1976, "event": "Co-founds HCL with 6 colleagues", "eventKo": "동기 6인과 함께 HCL 정립", "whyItMatteredKo": "무자 일주의 늦봄 큰 흙 일간이 외부 자원의 큰 흐름을 본인 자리로 환원한 출발점입니다."},
-    {"year": 1991, "event": "Founds HCL Technologies IT services", "eventKo": "HCL Technologies IT 서비스 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
-    {"year": 1999, "event": "HCL Technologies IPOs on Indian exchanges", "eventKo": "HCL Technologies 인도 증시 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 결단입니다."},
-    {"year": 2008, "event": "HCL acquires Axon Group for global expansion", "eventKo": "HCL Axon Group 인수로 글로벌 카테고리 확장", "whyItMatteredKo": "본업 카테고리 글로벌 확장이 진행된 결정적 결단입니다."},
-    {"year": 2022, "event": "Post-pandemic IT services demand peaks", "eventKo": "포스트 코로나 글로벌 IT 서비스 회복기 본업 매출 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."},
-    {"year": 2026, "event": "Forbes 2026: $30.5B in Technology", "eventKo": "포브스 2026 — 테크놀로지 산업 305억 달러로 등재", "whyItMatteredKo": "HCL Technologies·HCL Group 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+    {
+      "year": 1976,
+      "event": "Co-founds HCL with 6 colleagues",
+      "eventKo": "동기 6인과 함께 HCL 정립",
+      "whyItMatteredKo": "무자 일주의 늦봄 큰 흙 일간이 외부 자원의 큰 흐름을 본인 자리로 환원한 출발점입니다.",
+      "age": 31
+    },
+    {
+      "year": 1991,
+      "event": "Founds HCL Technologies IT services",
+      "eventKo": "HCL Technologies IT 서비스 정립",
+      "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다.",
+      "age": 46
+    },
+    {
+      "year": 1999,
+      "event": "HCL Technologies IPOs on Indian exchanges",
+      "eventKo": "HCL Technologies 인도 증시 상장",
+      "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 결단입니다.",
+      "age": 54
+    },
+    {
+      "year": 2008,
+      "event": "HCL acquires Axon Group for global expansion",
+      "eventKo": "HCL Axon Group 인수로 글로벌 카테고리 확장",
+      "whyItMatteredKo": "본업 카테고리 글로벌 확장이 진행된 결정적 결단입니다.",
+      "age": 63
+    },
+    {
+      "year": 2022,
+      "event": "Post-pandemic IT services demand peaks",
+      "eventKo": "포스트 코로나 글로벌 IT 서비스 회복기 본업 매출 정점",
+      "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다.",
+      "age": 77
+    },
+    {
+      "year": 2026,
+      "event": "Forbes 2026: $30.5B in Technology",
+      "eventKo": "포브스 2026 — 테크놀로지 산업 305억 달러로 등재",
+      "whyItMatteredKo": "HCL Technologies·HCL Group 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다.",
+      "age": 81
+    }
   ],
   "turningPoints": [
-    {"year": 1976, "eventKo": "HCL 정립", "impactKo": "무자 일주의 늦봄 큰 흙 일간이 외부 자원의 큰 흐름을 본인 자리로 환원한 출발점입니다."},
-    {"year": 1991, "eventKo": "HCL Technologies IT 서비스 정립", "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다."},
-    {"year": 1999, "eventKo": "HCL Technologies 인도 증시 상장", "impactKo": "본업 매출이 자본 시장 가치로 환원된 결정적 결단입니다."}
+    {
+      "year": 1976,
+      "eventKo": "HCL 정립",
+      "impactKo": "무자 일주의 늦봄 큰 흙 일간이 외부 자원의 큰 흐름을 본인 자리로 환원한 출발점입니다.",
+      "age": 31
+    },
+    {
+      "year": 1991,
+      "eventKo": "HCL Technologies IT 서비스 정립",
+      "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다.",
+      "age": 46
+    },
+    {
+      "year": 1999,
+      "eventKo": "HCL Technologies 인도 증시 상장",
+      "impactKo": "본업 매출이 자본 시장 가치로 환원된 결정적 결단입니다.",
+      "age": 54
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "HCL Technologies(NSE: HCLTECH) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
@@ -43,18 +98,58 @@
     "currentAssetAllocationKo": "HCL Technologies 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
   },
   "failures": [
-    {"year": 2001, "descriptionKo": "닷컴 버블 붕괴로 글로벌 IT 서비스 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 거시 사이클기에 마진이 가장 먼저 흔들립니다."},
-    {"year": 2008, "descriptionKo": "글로벌 금융위기로 글로벌 IT 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "글로벌 거시 사이클은 IT 서비스 매출에 직접 노출됩니다."},
-    {"year": 2023, "descriptionKo": "글로벌 IT 서비스 사이클 침체로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 사이클기에 마진이 가장 먼저 흔들립니다."}
+    {
+      "year": 2001,
+      "descriptionKo": "닷컴 버블 붕괴로 글로벌 IT 서비스 매출이 단기 위축됐습니다.",
+      "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.",
+      "lessonKo": "단일 카테고리 의존은 거시 사이클기에 마진이 가장 먼저 흔들립니다.",
+      "age": 56
+    },
+    {
+      "year": 2008,
+      "descriptionKo": "글로벌 금융위기로 글로벌 IT 매출이 단기 위축됐습니다.",
+      "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.",
+      "lessonKo": "글로벌 거시 사이클은 IT 서비스 매출에 직접 노출됩니다.",
+      "age": 63
+    },
+    {
+      "year": 2023,
+      "descriptionKo": "글로벌 IT 서비스 사이클 침체로 본업 마진이 단기 압박을 받았습니다.",
+      "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.",
+      "lessonKo": "단일 카테고리 의존은 가격 사이클기에 마진이 가장 먼저 흔들립니다.",
+      "age": 78
+    }
   ],
   "wealthHistory": [
-    {"year": 2010, "netWorth": "$5B", "sourceKo": "포브스 추정"},
-    {"year": 2018, "netWorth": "$14.4B", "sourceKo": "포브스 추정"},
-    {"year": 2023, "netWorth": "$28.7B", "sourceKo": "포브스 추정"},
-    {"year": 2026, "netWorth": "$30.5B", "sourceKo": "포브스 2026 빌리어네어즈"}
+    {
+      "year": 2010,
+      "netWorth": "$5B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2018,
+      "netWorth": "$14.4B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2023,
+      "netWorth": "$28.7B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$30.5B",
+      "sourceKo": "포브스 2026 빌리어네어즈"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["HCL Technologies 창업주", "인도 4대 IT 서비스", "정통 PSG 공과대학 인재", "Shiv Nadar Foundation 자선 정체성", "인도 1세대 IT 자수성가"],
+  "personalTraitsKo": [
+    "HCL Technologies 창업주",
+    "인도 4대 IT 서비스",
+    "정통 PSG 공과대학 인재",
+    "Shiv Nadar Foundation 자선 정체성",
+    "인도 1세대 IT 자수성가"
+  ],
   "characterKo": {
     "strengths": "1976년 본업 시작 후 49년 동안 인도 1세대 IT 자수성가의 한 축으로 자리잡은 끈기와, 1991년 HCL Technologies 정립, 1999년 인도 증시 상장으로 본업을 인도 IT 서비스 카테고리 1위급으로 환원시킨 결단력이 강점입니다.",
     "weaknesses": "글로벌 IT 서비스 사이클과 인도 단일 시장 의존도에 본업 매출이 직접 노출됩니다.",

@@ -119,21 +119,24 @@
       "ageAtTime": 30,
       "decisionKo": "가업 직진 대신 본인이 APAR Infotech를 별도 공동 창업",
       "alternativeKo": "곧바로 APAR Industries에 들어갔다면 단순 후계자였을 가능성.",
-      "outcomeKo": "7년 만에 NASDAQ 상장 후 가업 복귀 — '본인의 회사를 상장시킨 후계자'라는 정체성 확보."
+      "outcomeKo": "7년 만에 NASDAQ 상장 후 가업 복귀 — '본인의 회사를 상장시킨 후계자'라는 정체성 확보.",
+      "age": 30
     },
     {
       "year": 2008,
       "ageAtTime": 41,
       "decisionKo": "글로벌 금융위기 직전 Uniflex Cables 인수",
       "alternativeKo": "경기 침체 우려로 미뤘다면 케이블 사업부 자체가 없었을 것.",
-      "outcomeKo": "이후 15년간 25% CAGR로 성장, 인도 5위 케이블 제조사 + 신재생 케이블 1위 수출."
+      "outcomeKo": "이후 15년간 25% CAGR로 성장, 인도 5위 케이블 제조사 + 신재생 케이블 1위 수출.",
+      "age": 41
     },
     {
       "year": 2015,
       "ageAtTime": 48,
       "decisionKo": "MD·CEO 직접 취임으로 일선 운영 책임",
       "alternativeKo": "전문경영인에게 맡겼다면 가문 자본가에 머물렀을 것.",
-      "outcomeKo": "8년 만에 본인 자산 +276% 폭증, Forbes 빌리어네어 데뷔."
+      "outcomeKo": "8년 만에 본인 자산 +276% 폭증, Forbes 빌리어네어 데뷔.",
+      "age": 48
     }
   ],
   "moneyMechanics": {
@@ -170,7 +173,8 @@
       "descriptionKo": "APAR Infotech를 NASDAQ에 상장시킨 후 본인은 IT 사업에서 손을 떼고 가업 산업으로 복귀했습니다. 이후 APAR Infotech는 글로벌 IT 회사로의 모멘텀을 잃었고, 데사이의 정체성은 IT가 아닌 전선·케이블에 국한됐습니다.",
       "lesson": "Founders who hand off too early lose long-term ownership of the narrative — even when the listing was a clean win.",
       "lessonKo": "상장이라는 단기 성공으로 일찍 손을 떼면, 회사의 장기 서사에 대한 권리도 함께 사라집니다.",
-      "source": "https://apar.com/management/"
+      "source": "https://apar.com/management/",
+      "age": 37
     },
     {
       "year": 2014,
@@ -178,7 +182,8 @@
       "descriptionKo": "쿠샬이 2015년 CEO를 맡기 전, APAR Industries는 60년 업력에도 마진 부진을 겪고 있었습니다. Business Today는 회사를 '수익 가능한 궤도로 밀어 올려야 했던' 상태로 묘사 — 이전 경영의 장기 정체기를 시사.",
       "lesson": "Inherited family businesses can stagnate even after generations of effort. The 3rd-generation operator has to act, not steward.",
       "lessonKo": "여러 세대를 이어 온 가업도 정체합니다. 3세 경영인은 관리자가 아닌 행위자여야 합니다.",
-      "source": "https://www.businesstoday.in/magazine/corporate/story/how-kushal-n-desai-pushed-apar-industries-on-to-a-profitable-path-424293-2024-04-04"
+      "source": "https://www.businesstoday.in/magazine/corporate/story/how-kushal-n-desai-pushed-apar-industries-on-to-a-profitable-path-424293-2024-04-04",
+      "age": 47
     },
     {
       "year": 2022,
@@ -186,13 +191,26 @@
       "descriptionKo": "알루미늄·기유 가격 변동이 APAR의 전선·POWEROIL 마진을 직격. 원자재 가격이 즉시 분기 실적에 반영되는 구조라 분석가들의 상시 우려 포인트.",
       "lesson": "Commodity-linked industrial companies can be punished even when management executes well — hedging and value-add segments matter.",
       "lessonKo": "원자재 연동 산업체는 운영을 잘해도 가격 사이클에 매를 맞습니다. 헤징과 부가가치 세그먼트가 결정적입니다.",
-      "source": "https://www.business-standard.com/markets/capital-market-news/apar-inds-rises-over-15-in-two-days-on-strong-q4-results-125051501104_1.html"
+      "source": "https://www.business-standard.com/markets/capital-market-news/apar-inds-rises-over-15-in-two-days-on-strong-q4-results-125051501104_1.html",
+      "age": 55
     }
   ],
   "wealthHistory": [
-    {"year": 2023, "netWorth": "Hurun India 자산 +276% YoY", "sourceKo": "360 ONE Hurun India Rich List 2023"},
-    {"year": 2024, "netWorth": "$1.4B (Forbes 데뷔)", "sourceKo": "Forbes World's Billionaires List 2024"},
-    {"year": 2025, "netWorth": "$1.2B", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2023,
+      "netWorth": "Hurun India 자산 +276% YoY",
+      "sourceKo": "360 ONE Hurun India Rich List 2023"
+    },
+    {
+      "year": 2024,
+      "netWorth": "$1.4B (Forbes 데뷔)",
+      "sourceKo": "Forbes World's Billionaires List 2024"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$1.2B",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": {
@@ -205,9 +223,18 @@
     "summaryKo": "쿠샬 데사이의 사주는 병화(태양 같은 양화) 일간이 진토(물기 머금은 옥토) 위에 놓인 병진 일주입니다. 병진은 태양이 윤택한 농지를 비추는 형상이라 자본을 농경처럼 길러내는 결이 강합니다. 격국이 편관격(시련·권위·압박을 권력으로 바꾸는 형식)이라, 가업이라는 압박 속에서 본인 정체성을 새로 만들어내는 과정이 사주의 정해진 길이었습니다. 1997년 별도 회사를 창업해 NASDAQ 상장까지 끌어올린 30대 결단, 2008년 글로벌 금융위기 직전의 Uniflex 인수 베팅, 2015년 CEO 직접 취임으로 가업을 본인 통치하에 다시 정렬한 흐름이 모두 편관격의 전형입니다. 월지 인목(이른 봄·새 성장)은 병화에게 새 동력의 계절이라, 케이블·신재생 같은 새 카테고리를 회사에 이식한 행보와도 호응합니다.",
     "interpretationKo": "병진 일주는 태양이 윤택한 옥토를 비추는 그림이라, 자본을 가꿔 자라게 하는 운영자형. 편관격은 가문이라는 압박 자체를 권위로 전환하는 패턴이라, 3세 후계자가 단순 관리자가 아닌 행위자가 되도록 사주가 밀어붙입니다.",
     "keyEvents": [
-      {"year": 1997, "eventKo": "APAR Infotech 별도 창업 — 편관격이 가업 압박을 본인 트랙으로 전환"},
-      {"year": 2008, "eventKo": "Uniflex 인수 — 진토(자본 흙)에 새 사업 종자"},
-      {"year": 2015, "eventKo": "MD·CEO 직접 취임 — 병화 일간의 단독 통치"}
+      {
+        "year": 1997,
+        "eventKo": "APAR Infotech 별도 창업 — 편관격이 가업 압박을 본인 트랙으로 전환"
+      },
+      {
+        "year": 2008,
+        "eventKo": "Uniflex 인수 — 진토(자본 흙)에 새 사업 종자"
+      },
+      {
+        "year": 2015,
+        "eventKo": "MD·CEO 직접 취임 — 병화 일간의 단독 통치"
+      }
     ]
   },
   "sources": [

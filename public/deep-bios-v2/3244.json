@@ -119,21 +119,24 @@
       "ageAtTime": 23,
       "decisionKo": "슐룸베르거 정규직 1년 만에 그만두고 핀테크 창업",
       "alternativeKo": "엔지니어 트랙을 계속했다면 평범한 IIT 출신 직장인으로 끝났을 가능성.",
-      "outcomeKo": "11년 만에 인도 최연소 빌리어네어 + 인도 핀테크 톱."
+      "outcomeKo": "11년 만에 인도 최연소 빌리어네어 + 인도 핀테크 톱.",
+      "age": 23
     },
     {
       "year": 2015,
       "ageAtTime": 24,
       "decisionKo": "Y Combinator 입성과 함께 미국 도메사일 선택",
       "alternativeKo": "인도 도메사일 유지였다면 글로벌 VC 자본 유치가 어려웠을 것.",
-      "outcomeKo": "글로벌 VC 자본 + 그 후 인도 IPO를 위한 reverse flip 필요."
+      "outcomeKo": "글로벌 VC 자본 + 그 후 인도 IPO를 위한 reverse flip 필요.",
+      "age": 24
     },
     {
       "year": 2023,
       "ageAtTime": 32,
       "decisionKo": "$1.5억 세금 비용을 감수하고 본사를 미국에서 인도로 되돌림",
       "alternativeKo": "미국 도메사일 유지 시 인도 IPO 길이 막혔을 가능성.",
-      "outcomeKo": "인도 자본 시장 IPO 길 + 인도 사용자·규제와의 정렬 강화."
+      "outcomeKo": "인도 자본 시장 IPO 길 + 인도 사용자·규제와의 정렬 강화.",
+      "age": 32
     }
   ],
   "moneyMechanics": {
@@ -170,7 +173,8 @@
       "descriptionKo": "2022년 말 인도 중앙은행(RBI)이 Razorpay 등 결제 집합업자에게 라이선스 심사 중 신규 가맹점 모집 중단 명령. 라이선스 명확화까지 수개월간 성장 정체.",
       "lesson": "Fintech depends on regulatory grace as much as product. A regulator's pause button can freeze growth without firing anyone.",
       "lessonKo": "핀테크는 제품만큼 규제 호의에 의존합니다. 규제의 일시 정지 버튼은 한 명도 해고하지 않고 성장을 얼립니다.",
-      "source": "https://www.5paisa.com/finschool/harshil-mathur-co-founder-of-razorpay/"
+      "source": "https://www.5paisa.com/finschool/harshil-mathur-co-founder-of-razorpay/",
+      "age": 31
     },
     {
       "year": 2024,
@@ -178,7 +182,8 @@
       "descriptionKo": "본사를 미국에서 인도로 되돌리는 reverse flip 과정에서 약 $1.5억 세금 발생 — 회사 대차대조표에서 직접 빠져나간 비용으로 미·인도 세제 정렬에 사용.",
       "lesson": "Choosing US domicile for early VC access is cheap; reversing it later for an India IPO is expensive. The right domicile is part of the founding decision, not a deferrable.",
       "lessonKo": "초기 VC 자본 유치를 위한 미국 도메사일 선택은 싸지만, 인도 IPO를 위해 되돌리는 비용은 큽니다. 도메사일은 창업 단계 결정이지 미룰 수 있는 것이 아닙니다.",
-      "source": "https://theheadandtale.com/to-the-point/razorpay-completes-reverse-flip-tax-cost-may-be-as-high-as-400-million/"
+      "source": "https://theheadandtale.com/to-the-point/razorpay-completes-reverse-flip-tax-cost-may-be-as-high-as-400-million/",
+      "age": 33
     },
     {
       "year": 2023,
@@ -186,13 +191,26 @@
       "descriptionKo": "Razorpay 평가가치가 2021년 시리즈 F의 $75억에서 하향 조정 — 글로벌 핀테크 멀티플 압축 영향. IPO 목표 $50-60억은 2021년 정점 미달.",
       "lesson": "Pandemic-era valuations don't survive normalization. Targeting an IPO at last-round valuation is a way to ensure you never IPO.",
       "lessonKo": "팬데믹 시기 평가가치는 정상화에서 살아남지 않습니다. 직전 라운드 평가가치로 IPO를 목표하는 것은 IPO를 안 하기로 하는 방법입니다.",
-      "source": "https://www.ipoguru.in/blog/razorpay-eyes-5-to-6-billion-valuation-in-upcoming-ipo"
+      "source": "https://www.ipoguru.in/blog/razorpay-eyes-5-to-6-billion-valuation-in-upcoming-ipo",
+      "age": 32
     }
   ],
   "wealthHistory": [
-    {"year": 2020, "netWorth": "유니콘 진입 — 본인 자산 $0.1-0.2B 추정", "sourceKo": "Razorpay $1B 평가"},
-    {"year": 2021, "netWorth": "$0.5B 추정 (시리즈 F $7.5B 평가 기준)", "sourceKo": "Razorpay 시리즈 F"},
-    {"year": 2025, "netWorth": "$1B (Hurun Global)", "sourceKo": "Hurun Global Rich List 2025"}
+    {
+      "year": 2020,
+      "netWorth": "유니콘 진입 — 본인 자산 $0.1-0.2B 추정",
+      "sourceKo": "Razorpay $1B 평가"
+    },
+    {
+      "year": 2021,
+      "netWorth": "$0.5B 추정 (시리즈 F $7.5B 평가 기준)",
+      "sourceKo": "Razorpay 시리즈 F"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$1B (Hurun Global)",
+      "sourceKo": "Hurun Global Rich List 2025"
+    }
   ],
   "quotes": [
     {
@@ -213,9 +231,18 @@
     "summaryKo": "하르실 마투르의 사주는 신금(작은 쇠·보석·정밀 도구) 일간이 축토(겨울 진흙·소) 위에 놓인 신축 일주입니다. 보석이 차가운 흙 안에 묻혀 있는 형상이라, 디테일·정밀·결제 시스템 같은 정교한 분야에서 빛나는 결입니다. 격국이 편인격(정통이 아닌 경로의 학습·기술·자원으로 자기 자리를 만드는 형식)이라, 야금공학 IIT 학력 트랙에서 뜬금없이 핀테크로 옮겨가 11년 만에 인도 최연소 빌리어네어가 된 그의 행보가 사주의 결입니다. 월지 축토는 일주와 같은 축토라 본인 정체성이 한 자리에 깊이 박히는 결인데, 사샹크 쿠마르와 11년 공동 창업자 동행, Razorpay라는 한 회사에 본인 인생 전부를 건 패턴과 호응합니다. 사주에 토 + 금이 누적되어(축토 두 개 + 신금 일간 + 경금 연간) 한 분야의 정밀 도구로 굳어지는 결이 강해, 결제 게이트웨이라는 표준 도구를 만든 그의 사업 정체성과 일치합니다.",
     "interpretationKo": "신축 일주는 차가운 흙 안의 보석이라, 디테일과 정밀로 빛나는 결. 편인격은 정통 트랙이 아닌 경로에서 자원을 만드는 패턴이라, 야금공학에서 핀테크로의 카테고리 전환과 Y Combinator라는 비정형 액셀러레이터 트랙 진입이 자연스럽게 풀립니다.",
     "keyEvents": [
-      {"year": 2014, "eventKo": "Razorpay 공동 창업 — 편인격 비정통 트랙 진입"},
-      {"year": 2015, "eventKo": "Y Combinator 입성 — 편인격 비전통 자본 트랙"},
-      {"year": 2025, "eventKo": "Reverse Flip 완료 — 신금이 본래 흙으로 회귀"}
+      {
+        "year": 2014,
+        "eventKo": "Razorpay 공동 창업 — 편인격 비정통 트랙 진입"
+      },
+      {
+        "year": 2015,
+        "eventKo": "Y Combinator 입성 — 편인격 비전통 자본 트랙"
+      },
+      {
+        "year": 2025,
+        "eventKo": "Reverse Flip 완료 — 신금이 본래 흙으로 회귀"
+      }
     ]
   },
   "sources": [

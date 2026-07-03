@@ -5,7 +5,6 @@
   "netWorth": 7.3,
   "nationality": "BR",
   "industry": "Healthcare",
-
   "childhood": {
     "birthPlace": "Rio de Janeiro, Brazil",
     "birthPlaceKo": "브라질 리우데자네이루",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "1960-70년대 리우데자네이루에서 심장 전문의로 훈련; 초기 경력은 사업이 아니라 임상. 30대에 브라질 사기업 의료의 비효율적이고 분절된 상태를 보고 통합 네트워크를 만들기로 결정하면서 헬스케어 기업가 정체성으로 전환.",
     "source": "https://en.wikipedia.org/wiki/Jorge_Moll_Filho ; https://www.rededor.com.br ; https://www.forbes.com/profile/jorge-moll-filho/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1970년대 심장 전문의 임상 수익과 1977년부터 시작한 리우데자네이루 클리닉·실험실 인수의 누적 수익. 본격적인 부는 2000년대 Rede D'Or 통합 + 2010년 GIC·BTG Pactual 투자 + 2020년 IPO에서 발생.",
     "source": "https://en.wikipedia.org/wiki/Jorge_Moll_Filho"
   },
-
   "careerTimeline": [
     {
       "year": 1977,
@@ -123,7 +120,6 @@
       "source": "https://www.forbes.com/profile/jorge-moll-filho/"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1977,
@@ -158,7 +154,6 @@
       "source": "https://en.wikipedia.org/wiki/Rede_D%27Or_S%C3%A3o_Luiz"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Rede D'Or São Luiz(브라질 B3 상장, 가족 약 72%) — 브라질 최대 통합 헬스케어 네트워크. 12,000+ 병상의 병원 네트워크 + SulAmérica 건강보험 + 실험실·종양학·외래. 본인 자산의 거의 전부가 회사 시가총액에 묶임.",
     "industryKo": "헬스케어(병원·보험·실험실·종양학)",
@@ -166,7 +161,6 @@
     "moatKo": "① 브라질 12,000+ 병상의 영구적 인프라. ② SulAmérica 통합으로 의료-보험 통합 모델 — 브라질에서 독특. ③ 호텔→병원 전환의 50년 누적 노하우. ④ 임상의 출신 창업자의 의료 신뢰 평판. ⑤ GIC·BTG Pactual 같은 글로벌·브라질 기관 자본 관계.",
     "luckVsSkillKo": "운(40%): 1977년 브라질 사기업 의료가 통합 직전이었던 시기에 진입한 타이밍, 2010년대 브라질 헬스케어 통합 사이클, 2020년 IPO가 COVID-19 의료 수요 정점과 맞물림. 실력(60%): 임상의에서 사업가로의 정체성 전환의 결단, 호텔-병원 전환의 자본 효율적 모델, 50년 일관된 통합 전략, 다세대 가족 거버넌스 + 기관 자본 결합."
   },
-
   "personalTraits": {
     "knownFor": "Founder and principal owner of Rede D'Or São Luiz — Brazil's largest integrated healthcare network with over 12,000 hospital beds; cardiologist-turned-entrepreneur who built the network through aggressive acquisitions starting in 1977; in 2022 added SulAmérica health insurance to create a unique integrated provider-payer model in Brazil.",
     "knownForKo": "12,000+ 병상의 브라질 최대 통합 헬스케어 네트워크 Rede D'Or São Luiz 창립자·최대 소유주. 1977년부터 공격적 인수를 통해 네트워크를 구축한 심장 전문의 출신 기업가. 2022년 SulAmérica 건강보험을 추가해 브라질에서 독특한 통합 의료-보험 모델 창출.",
@@ -175,12 +169,16 @@
     "controversies": "Rede D'Or has faced periodic scrutiny over hospital pricing practices and the political-economic influence of healthcare consolidation in Brazil; SulAmérica acquisition raised competition-policy concerns reviewed by Brazilian regulators (CADE) before approval; some labor-relations issues at consolidated hospital sites typical of the industry.",
     "controversiesKo": "Rede D'Or는 병원 가격 관행과 브라질 헬스케어 통합의 정치·경제 영향력에 대한 주기적 감시 받음. SulAmérica 인수가 브라질 규제기관(CADE) 승인 전 경쟁 정책 우려 제기. 통합 병원 부지의 산업 일반적 노동 관계 문제."
   },
-
   "characterKo": {
     "summaryKo": "심장 전문의 정체성을 평생 유지하면서 48년에 걸쳐 브라질 최대 헬스케어 그룹을 일군 보기 드운 임상의 출신 자본가. 동료들이 말하는 가장 두드러진 특성은 '병원 운영 회의에서 임상 디테일까지 본인이 직접 검토한다는 운영 깊이'와 '미디어 노출이 매우 적지만 의료 학회에는 정기적으로 등장한다는 점'. 가족 + 기관 자본 결합 거버넌스의 균형.",
-    "tagsKo": ["심장 전문의 출신", "호텔-병원 전환자", "48년 통합 전략", "의료-보험 수직 통합", "브라질 헬스케어 1세대"]
+    "tagsKo": [
+      "심장 전문의 출신",
+      "호텔-병원 전환자",
+      "48년 통합 전략",
+      "의료-보험 수직 통합",
+      "브라질 헬스케어 1세대"
+    ]
   },
-
   "failures": [
     {
       "year": 2017,
@@ -188,7 +186,8 @@
       "descriptionKo": "2015-2017년 브라질 경기침체와 병원 가격 관행에 대한 광범위한 헬스케어 부문 논쟁이 Rede D'Or 확장 속도에 압박 — 금융 조건 강화로 일부 지역 인수 대상이 구조조정 또는 부분 매각 필요.",
       "lesson": "Healthcare consolidation depends on stable financing conditions; aggressive growth strategies must be paced to credit-cycle realities.",
       "lessonKo": "헬스케어 통합은 안정적 금융 조건에 의존한다. 공격적 성장 전략은 신용 사이클 현실에 맞춰 페이스를 조정해야 한다.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 72
     },
     {
       "year": 2020,
@@ -196,7 +195,8 @@
       "descriptionKo": "COVID-19 팬데믹이 비범한 수요(중환자실 병상·인공호흡기)와 운영 위기(PPE 부족·직원 질병·위기 중 환자 가격에 대한 규제 감시)를 동시에 창출. 브라질의 가장 심한 팬데믹 기간 거대 운영 전환 필요.",
       "lesson": "Pandemic-scale health crises test the limits of even the most integrated healthcare network; capacity planning must build in buffers that look excessive during normal times.",
       "lessonKo": "팬데믹 규모 보건 위기는 가장 통합된 헬스케어 네트워크의 한계도 시험한다. 수용 계획은 평시에 과도해 보이는 버퍼를 만들어야 한다.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 75
     },
     {
       "year": 2022,
@@ -204,21 +204,41 @@
       "descriptionKo": "Rede D'Or São Luiz 주가가 IPO 고점에서 2021-2022년 크게 부진 — 브라질 금리 급등과 헬스케어 부문 평가 압축. SulAmérica 통합이 추가 실행 리스크 창출.",
       "lesson": "IPO valuations set during low-rate macro conditions get repriced when rates normalize; multi-year operational execution must compensate for compressed multiples.",
       "lessonKo": "저금리 거시 조건에서 책정된 IPO 평가는 금리 정상화 시 재가격된다. 다년간 운영 실행이 압축된 배수를 보상해야 한다.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 77
     }
   ],
-
   "wealthHistory": [
-    { "year": 2015, "netWorth": 1.5 },
-    { "year": 2018, "netWorth": 3.0 },
-    { "year": 2020, "netWorth": 9.0 },
-    { "year": 2022, "netWorth": 7.7 },
-    { "year": 2023, "netWorth": 6.4 },
-    { "year": 2024, "netWorth": 7.4 },
-    { "year": 2025, "netWorth": 7.3 }
+    {
+      "year": 2015,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2018,
+      "netWorth": 3
+    },
+    {
+      "year": 2020,
+      "netWorth": 9
+    },
+    {
+      "year": 2022,
+      "netWorth": 7.7
+    },
+    {
+      "year": 2023,
+      "netWorth": 6.4
+    },
+    {
+      "year": 2024,
+      "netWorth": 7.4
+    },
+    {
+      "year": 2025,
+      "netWorth": 7.3
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "I am a cardiologist first. Every hospital we run starts with that question — what does the patient need?",
@@ -228,12 +248,10 @@
       "source": "https://www.gemway.com"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Im-Jin day pillar in a Chuk month forms a 'jeongjae-gyeok' chart — abundant water held in deep winter earth, fitting a clinician-entrepreneur who patiently accumulated a single category of asset (healthcare facilities) across five decades.",
     "summaryKo": "임진 일주가 축월에 자리잡은 정재격(정해진 자리에서 꾸준히 누적되는 재물 구조)은 1977년 한 클리닉부터 시작해 48년에 걸쳐 한 카테고리(헬스케어)에 누적 자본을 일군 그의 인생과 거의 그대로 호응합니다. 임수 일간은 큰 흐름의 물·끊임없는 흐름의 기질로 환자 흐름·자본 흐름을 모두 다루는 헬스케어 자본가의 본능과 맞물립니다. 일지 진토 안의 무토·을목·계수가 편관·식상·겁재로 권력 환경(브라질 보건 규제)·자기 표현(임상 정체성)·동료(가족·기관 파트너) 세 요소가 동시에 작용하는 구조를 그대로 그려냅니다. 월지 축토의 기토·신금·계수가 정관·정인·겁재로 또 — 공식 권위(보건 규제)·학문(의학)·동료(기관 자본)가 한 자리에 묶여 있는 구조. 월간 정화가 정재로 안정된 재물 누적의 자리. 연주 갑신의 갑목·신금이 식상·편인으로 자기 표현과 학문 자본을 거듭. 약점은 정재격이 사이클 변화에 느리게 반응한다는 점인데, 2021-2022 금리 상승기에 IPO 가치가 크게 압축된 점이 그 그늘로 읽힙니다."

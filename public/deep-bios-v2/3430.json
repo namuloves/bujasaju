@@ -14,27 +14,82 @@
   "childhood": {
     "summaryKo": "1967년 대한민국에서 태어났습니다. 정통 학력은 경영 트랙으로, 한국 동국제약 가문의 후계자 정체성을 유년기부터 형성했다고 전해집니다. 부친 권동일 회장이 정립한 동국제약 가문의 2세대 후계자입니다.",
     "capitalTypeKo": "재벌 후계자 — 한국 동국제약 그룹의 운영형 후계자 (동국제약·동국생명과학 회장)입니다.",
-    "sources": ["https://en.wikipedia.org/wiki/Dongkook_Pharmaceutical"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dongkook_Pharmaceutical"
+    ]
   },
   "capitalOrigin": {
     "type": "inherited",
     "typeKo": "상속",
     "descriptionKo": "1990년대 가족 동국제약 합류로 본업을 잇기 시작했고, 2005년 대표이사 자리 도약 후 2014년 회장에 취임했습니다. 2018년 동국제약 합병·분할과 동국생명과학 정립으로 본업 자본을 재편성했고, 한국 제약 카테고리 운영의 한 축으로 자리잡았습니다.",
     "selfMadeScore": 5,
-    "sources": ["https://www.dkpharm.co.kr"]
+    "sources": [
+      "https://www.dkpharm.co.kr"
+    ]
   },
   "careerTimeline": [
-    {"year": 1995, "event": "Joins family Dongkook Pharmaceutical", "eventKo": "가족 동국제약 합류 (추정)", "whyItMatteredKo": "병술 일주의 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
-    {"year": 2005, "event": "Becomes President of Dongkook Pharmaceutical", "eventKo": "동국제약 대표이사 사장 취임", "whyItMatteredKo": "본업 자리의 카테고리 통로가 만들어진 시기입니다."},
-    {"year": 2014, "event": "Becomes Chairman of Dongkook Pharmaceutical", "eventKo": "동국제약 회장 취임", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다."},
-    {"year": 2018, "event": "Restructures group via merger/split", "eventKo": "동국제약 그룹 합병·분할로 본업 자본 재편", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 시기입니다."},
-    {"year": 2022, "event": "Post-pandemic premium pharma demand peaks", "eventKo": "포스트 코로나 프리미엄 제약 정점기", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
-    {"year": 2026, "event": "Forbes 2026: $0.2B in Pharmaceuticals", "eventKo": "포브스 2026 — 제약 2억 달러로 등재", "whyItMatteredKo": "동국제약 본인 보유 지분이 본업 자본 가치로 환원된 시기입니다."}
+    {
+      "year": 1995,
+      "event": "Joins family Dongkook Pharmaceutical",
+      "eventKo": "가족 동국제약 합류 (추정)",
+      "whyItMatteredKo": "병술 일주의 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다.",
+      "age": 28
+    },
+    {
+      "year": 2005,
+      "event": "Becomes President of Dongkook Pharmaceutical",
+      "eventKo": "동국제약 대표이사 사장 취임",
+      "whyItMatteredKo": "본업 자리의 카테고리 통로가 만들어진 시기입니다.",
+      "age": 38
+    },
+    {
+      "year": 2014,
+      "event": "Becomes Chairman of Dongkook Pharmaceutical",
+      "eventKo": "동국제약 회장 취임",
+      "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다.",
+      "age": 47
+    },
+    {
+      "year": 2018,
+      "event": "Restructures group via merger/split",
+      "eventKo": "동국제약 그룹 합병·분할로 본업 자본 재편",
+      "whyItMatteredKo": "본업 카테고리 다각화가 진행된 시기입니다.",
+      "age": 51
+    },
+    {
+      "year": 2022,
+      "event": "Post-pandemic premium pharma demand peaks",
+      "eventKo": "포스트 코로나 프리미엄 제약 정점기",
+      "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다.",
+      "age": 55
+    },
+    {
+      "year": 2026,
+      "event": "Forbes 2026: $0.2B in Pharmaceuticals",
+      "eventKo": "포브스 2026 — 제약 2억 달러로 등재",
+      "whyItMatteredKo": "동국제약 본인 보유 지분이 본업 자본 가치로 환원된 시기입니다.",
+      "age": 59
+    }
   ],
   "turningPoints": [
-    {"year": 1995, "eventKo": "가족 동국제약 합류", "impactKo": "병술 일주의 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
-    {"year": 2014, "eventKo": "동국제약 회장 취임", "impactKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 분기점입니다."},
-    {"year": 2018, "eventKo": "그룹 합병·분할로 본업 자본 재편", "impactKo": "본업 카테고리 다각화가 진행된 만년의 결단입니다."}
+    {
+      "year": 1995,
+      "eventKo": "가족 동국제약 합류",
+      "impactKo": "병술 일주의 작은 불 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다.",
+      "age": 28
+    },
+    {
+      "year": 2014,
+      "eventKo": "동국제약 회장 취임",
+      "impactKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 분기점입니다.",
+      "age": 47
+    },
+    {
+      "year": 2018,
+      "eventKo": "그룹 합병·분할로 본업 자본 재편",
+      "impactKo": "본업 카테고리 다각화가 진행된 만년의 결단입니다.",
+      "age": 51
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "동국제약(KRX: 086450), 동국생명과학(KRX: 086450) 등 본인 보유 지분 가치와 배당이 자산의 핵심입니다.",
@@ -43,18 +98,58 @@
     "currentAssetAllocationKo": "동국제약 본인 및 가족 지분이 자산의 핵심. 한국 부동산이 보조적 비중으로 추정됩니다."
   },
   "failures": [
-    {"year": 2008, "descriptionKo": "글로벌 금융위기로 한국 제약 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 제약 매출에 분기 단위로 영향을 줍니다."},
-    {"year": 2018, "descriptionKo": "그룹 합병·분할 과정에서 거버넌스 사이클이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 그룹 재편으로 통과했습니다.", "lessonKo": "재벌 가문 거버넌스는 한 번의 합병·분할에 본업 자본이 흔들릴 수 있습니다."},
-    {"year": 2023, "descriptionKo": "한국 제약 가격 협상 정책으로 본업 마진이 단기 압박을 받았습니다.", "howTheyOvercameKo": "고부가 카테고리 비중 강화로 통과했습니다.", "lessonKo": "본토 의존 카테고리는 정책 사이클에 직접 노출됩니다."}
+    {
+      "year": 2008,
+      "descriptionKo": "글로벌 금융위기로 한국 제약 매출이 단기 위축됐습니다.",
+      "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.",
+      "lessonKo": "거시 충격은 제약 매출에 분기 단위로 영향을 줍니다.",
+      "age": 41
+    },
+    {
+      "year": 2018,
+      "descriptionKo": "그룹 합병·분할 과정에서 거버넌스 사이클이 단기 시험받았습니다.",
+      "howTheyOvercameKo": "단계적 그룹 재편으로 통과했습니다.",
+      "lessonKo": "재벌 가문 거버넌스는 한 번의 합병·분할에 본업 자본이 흔들릴 수 있습니다.",
+      "age": 51
+    },
+    {
+      "year": 2023,
+      "descriptionKo": "한국 제약 가격 협상 정책으로 본업 마진이 단기 압박을 받았습니다.",
+      "howTheyOvercameKo": "고부가 카테고리 비중 강화로 통과했습니다.",
+      "lessonKo": "본토 의존 카테고리는 정책 사이클에 직접 노출됩니다.",
+      "age": 56
+    }
   ],
   "wealthHistory": [
-    {"year": 2015, "netWorth": "$0.08B", "sourceKo": "포브스 추정"},
-    {"year": 2020, "netWorth": "$0.13B", "sourceKo": "포브스 추정"},
-    {"year": 2024, "netWorth": "$0.18B", "sourceKo": "포브스 추정"},
-    {"year": 2026, "netWorth": "$0.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+    {
+      "year": 2015,
+      "netWorth": "$0.08B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2020,
+      "netWorth": "$0.13B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2024,
+      "netWorth": "$0.18B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$0.2B",
+      "sourceKo": "포브스 2026 빌리어네어즈"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["동국제약 회장", "동국제약 가문 2세대", "동국생명과학 회장", "한국 일반의약품 정체성", "정통 후계자"],
+  "personalTraitsKo": [
+    "동국제약 회장",
+    "동국제약 가문 2세대",
+    "동국생명과학 회장",
+    "한국 일반의약품 정체성",
+    "정통 후계자"
+  ],
   "characterKo": {
     "strengths": "1995년 가족 합류 후 30년 동안 한국 동국제약 가문의 한 축으로 자리잡은 끈기와, 2014년 회장 취임 후 2018년 그룹 합병·분할로 본업 자본을 재편한 결단력이 강점입니다.",
     "weaknesses": "한국 제약 정책 사이클과 가문 거버넌스 사이클에 본업 매출이 직접 노출됩니다.",

@@ -14,27 +14,82 @@
   "childhood": {
     "summaryKo": "1945년 대한민국에서 태어났습니다. 정통 학력은 경영 트랙으로, 한국 1세대 방문판매·교육 카테고리 자수성가형 인물입니다. 1980년 'Woongjin' 출판사 정립으로 본업을 만든 한국 1세대 방문판매·정수기·교육 자수성가의 표본입니다.",
     "capitalTypeKo": "맨몸 자수성가 — 한국 1세대 방문판매·교육 자수성가형 인물 (Woongjin Group 회장)입니다.",
-    "sources": ["https://en.wikipedia.org/wiki/Woongjin_Group"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Woongjin_Group"
+    ]
   },
   "capitalOrigin": {
     "type": "self-made",
     "typeKo": "자수성가",
     "descriptionKo": "1980년 'Woongjin'(웅진) 출판사 정립으로 본업을 만들었고, 1989년 'Coway'(코웨이) 정수기 사업 진입으로 한국 정수기 카테고리 1위 회사를 만들었습니다. 2008년 글로벌 금융위기와 그룹 채무 사태 후 2012년 워크아웃 신청, 2013년 코웨이 매각, 그리고 2017년 회장 복귀까지 굴곡의 자수성가 정체성을 보유한 인물입니다.",
     "selfMadeScore": 9,
-    "sources": ["https://www.woongjin.com"]
+    "sources": [
+      "https://www.woongjin.com"
+    ]
   },
   "careerTimeline": [
-    {"year": 1980, "event": "Founds Woongjin publishing in Seoul", "eventKo": "서울에서 'Woongjin' 출판사 정립, 한국 출판·교육 카테고리 진입", "whyItMatteredKo": "기축 일주의 겨울 끝 작은 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다."},
-    {"year": 1989, "event": "Launches Coway water purifier business", "eventKo": "코웨이 정수기 사업 진입, 한국 방문판매·정수기 카테고리 정립", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
-    {"year": 1998, "event": "Launches rental subscription model for water purifiers", "eventKo": "정수기 렌탈 구독 모델 한국 정립", "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다."},
-    {"year": 2012, "event": "Woongjin Group files for workout", "eventKo": "Woongjin Group 워크아웃 신청", "whyItMatteredKo": "외부 압력이 본인 자리의 결단으로 환원된 결정적 시험기입니다."},
-    {"year": 2017, "event": "Returns as Chairman of Woongjin Group", "eventKo": "Woongjin Group 회장 복귀, 본업 자리 환원", "whyItMatteredKo": "본인 자리의 권위가 다시 환원된 만년의 결정적 결단입니다."},
-    {"year": 2026, "event": "Forbes 2026: $0.2B in Education", "eventKo": "포브스 2026 — 교육 2억 달러로 등재", "whyItMatteredKo": "Woongjin Group 본인 보유 지분이 본업 자본 가치로 환원된 시기입니다."}
+    {
+      "year": 1980,
+      "event": "Founds Woongjin publishing in Seoul",
+      "eventKo": "서울에서 'Woongjin' 출판사 정립, 한국 출판·교육 카테고리 진입",
+      "whyItMatteredKo": "기축 일주의 겨울 끝 작은 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다.",
+      "age": 35
+    },
+    {
+      "year": 1989,
+      "event": "Launches Coway water purifier business",
+      "eventKo": "코웨이 정수기 사업 진입, 한국 방문판매·정수기 카테고리 정립",
+      "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다.",
+      "age": 44
+    },
+    {
+      "year": 1998,
+      "event": "Launches rental subscription model for water purifiers",
+      "eventKo": "정수기 렌탈 구독 모델 한국 정립",
+      "whyItMatteredKo": "본업 매출이 카테고리 1위 자리로 환원된 시기입니다.",
+      "age": 53
+    },
+    {
+      "year": 2012,
+      "event": "Woongjin Group files for workout",
+      "eventKo": "Woongjin Group 워크아웃 신청",
+      "whyItMatteredKo": "외부 압력이 본인 자리의 결단으로 환원된 결정적 시험기입니다.",
+      "age": 67
+    },
+    {
+      "year": 2017,
+      "event": "Returns as Chairman of Woongjin Group",
+      "eventKo": "Woongjin Group 회장 복귀, 본업 자리 환원",
+      "whyItMatteredKo": "본인 자리의 권위가 다시 환원된 만년의 결정적 결단입니다.",
+      "age": 72
+    },
+    {
+      "year": 2026,
+      "event": "Forbes 2026: $0.2B in Education",
+      "eventKo": "포브스 2026 — 교육 2억 달러로 등재",
+      "whyItMatteredKo": "Woongjin Group 본인 보유 지분이 본업 자본 가치로 환원된 시기입니다.",
+      "age": 81
+    }
   ],
   "turningPoints": [
-    {"year": 1980, "eventKo": "Woongjin 출판사 정립", "impactKo": "기축 일주의 겨울 끝 작은 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
-    {"year": 1989, "eventKo": "코웨이 정수기 사업 진입", "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다."},
-    {"year": 2017, "eventKo": "회장 복귀", "impactKo": "본인 자리의 권위가 다시 환원된 만년의 결정적 결단입니다."}
+    {
+      "year": 1980,
+      "eventKo": "Woongjin 출판사 정립",
+      "impactKo": "기축 일주의 겨울 끝 작은 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다.",
+      "age": 35
+    },
+    {
+      "year": 1989,
+      "eventKo": "코웨이 정수기 사업 진입",
+      "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다.",
+      "age": 44
+    },
+    {
+      "year": 2017,
+      "eventKo": "회장 복귀",
+      "impactKo": "본인 자리의 권위가 다시 환원된 만년의 결정적 결단입니다.",
+      "age": 72
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "Woongjin Group 비상장 본인 및 가족 보유 지분, Woongjin Coway 매각 후 자본, 그리고 한국 부동산 보유분이 자산의 핵심입니다.",
@@ -43,18 +98,58 @@
     "currentAssetAllocationKo": "Woongjin Group 본인 지분이 자산의 핵심. 한국 부동산이 보조적 비중으로 추정됩니다."
   },
   "failures": [
-    {"year": 2008, "descriptionKo": "글로벌 금융위기로 Woongjin Group 채무 부담이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 그룹 재편을 시도했습니다.", "lessonKo": "거시 충격은 다각화 그룹 자본에 분기 단위로 영향을 줍니다."},
-    {"year": 2012, "descriptionKo": "Woongjin Group 워크아웃 신청, 본업 자리가 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 그룹 재편과 코웨이 매각으로 통과했습니다.", "lessonKo": "다각화 그룹 부채 사이클은 본인 자리에 한 번에 큰 영향을 줍니다."},
-    {"year": 2013, "descriptionKo": "코웨이 매각으로 본업 카테고리 한 축이 흔들렸습니다.", "howTheyOvercameKo": "출판·교육 카테고리 비중 강화와 단계적 회복으로 통과했습니다.", "lessonKo": "재무 위기는 본업 카테고리 한 축을 한 번에 빼앗아 갈 수 있습니다."}
+    {
+      "year": 2008,
+      "descriptionKo": "글로벌 금융위기로 Woongjin Group 채무 부담이 단기 시험받았습니다.",
+      "howTheyOvercameKo": "단계적 그룹 재편을 시도했습니다.",
+      "lessonKo": "거시 충격은 다각화 그룹 자본에 분기 단위로 영향을 줍니다.",
+      "age": 63
+    },
+    {
+      "year": 2012,
+      "descriptionKo": "Woongjin Group 워크아웃 신청, 본업 자리가 단기 마비됐습니다.",
+      "howTheyOvercameKo": "단계적 그룹 재편과 코웨이 매각으로 통과했습니다.",
+      "lessonKo": "다각화 그룹 부채 사이클은 본인 자리에 한 번에 큰 영향을 줍니다.",
+      "age": 67
+    },
+    {
+      "year": 2013,
+      "descriptionKo": "코웨이 매각으로 본업 카테고리 한 축이 흔들렸습니다.",
+      "howTheyOvercameKo": "출판·교육 카테고리 비중 강화와 단계적 회복으로 통과했습니다.",
+      "lessonKo": "재무 위기는 본업 카테고리 한 축을 한 번에 빼앗아 갈 수 있습니다.",
+      "age": 68
+    }
   ],
   "wealthHistory": [
-    {"year": 2010, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
-    {"year": 2012, "netWorth": "$0.1B", "sourceKo": "워크아웃 직후 추정"},
-    {"year": 2020, "netWorth": "$0.15B", "sourceKo": "포브스 추정"},
-    {"year": 2026, "netWorth": "$0.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+    {
+      "year": 2010,
+      "netWorth": "$1.2B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2012,
+      "netWorth": "$0.1B",
+      "sourceKo": "워크아웃 직후 추정"
+    },
+    {
+      "year": 2020,
+      "netWorth": "$0.15B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$0.2B",
+      "sourceKo": "포브스 2026 빌리어네어즈"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["Woongjin Group 회장", "한국 1세대 방문판매·정수기", "Coway 창업주 (이후 매각)", "굴곡 후 회장 복귀", "정통 자수성가"],
+  "personalTraitsKo": [
+    "Woongjin Group 회장",
+    "한국 1세대 방문판매·정수기",
+    "Coway 창업주 (이후 매각)",
+    "굴곡 후 회장 복귀",
+    "정통 자수성가"
+  ],
   "characterKo": {
     "strengths": "1980년 Woongjin 출판사 정립과 1989년 코웨이 정수기 사업으로 한국 방문판매·정수기 카테고리 1위 회사를 만든 카테고리 도약 본능과, 2012년 워크아웃 후 2017년 회장 복귀로 본인 자리를 환원시킨 끈기가 강점입니다.",
     "weaknesses": "한국 단일 시장 의존도와 다각화 그룹 부채 사이클에 본업 매출이 직접 노출됩니다.",

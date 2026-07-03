@@ -5,7 +5,6 @@
   "netWorth": 4.5,
   "nationality": "CN",
   "industry": "Manufacturing",
-
   "childhood": {
     "birthPlace": "China",
     "birthPlaceKo": "중국",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "중국 개혁·개방기에 청년기. 란저우 대학교 시절과 그 이후 기술·공학 역할로 근무한 후 30대에 2000년 Longi(LONGi Green Energy Technology) 공동 창업으로 태양광 제조 기업가 전환.",
     "source": "https://en.wikipedia.org/wiki/LONGi ; https://www.bloomberg.com/billionaires/profiles/chunan-li/ ; https://www.forbes.com/profile/li-chunan/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1990년대 후반 엔지니어·기술 사업가로서의 누적 수익. 본격적인 부는 2000년 Longi(LONGi Green Energy Technology) 공동 창업 후 회사가 글로벌 최대 태양광 모듈·웨이퍼 제조사로 성장하면서 발생, 추가로 Linton Technologies(반도체·태양광 장비 제조사) 회장직.",
     "source": "https://en.wikipedia.org/wiki/LONGi"
   },
-
   "careerTimeline": [
     {
       "year": 1990,
@@ -115,7 +112,6 @@
       "source": "https://en.wikipedia.org/wiki/LONGi"
     }
   ],
-
   "turningPoints": [
     {
       "year": 2000,
@@ -142,7 +138,6 @@
       "source": "https://www.bloomberg.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "LONGi Green Energy Technology(상하이 증시 상장, 가족 합산 지분 약 5%대) — 세계 최대 태양광 모듈·웨이퍼 제조사. Linton Technologies(반도체·태양광 장비 제조사) 회장 지분. 본인 자산의 거의 전부가 두 회사 시가총액에 묶임.",
     "industryKo": "태양광 제조(단결정 실리콘 웨이퍼·셀·모듈), 반도체 장비",
@@ -150,7 +145,6 @@
     "moatKo": "① 2006년 단결정 베팅의 25년 누적 R&D·제조 노하우. ② 글로벌 출하 1위의 규모 경제. ③ 말레이시아·베트남 우회 제조 시설로 미국 시장 접근. ④ Linton 통한 장비 가치 사슬 통제.",
     "luckVsSkillKo": "운(40%): 2000년 중국 태양광 산업 형성 직전 진입 타이밍, 2010년대 글로벌 태양광 보조금 사이클이 단결정 베팅을 결정적으로 검증, 2020년대 초 글로벌 신재생 에너지 자본 유입. 실력(60%): 산업 다수 의견과 반대로 단결정 베팅한 결단, 25년 일관된 R&D 깊이, 글로벌 무역 환경 변화 사전 대응(말레이시아 시설), 다세대 가족 자본 비공개 운영."
   },
-
   "personalTraits": {
     "knownFor": "Co-founder of LONGi Green Energy Technology — the world's largest solar wafer and module manufacturer; chairman of Linton Technologies; one of the most low-profile billionaires among China's solar-industry leaders.",
     "knownForKo": "세계 최대 태양광 웨이퍼·모듈 제조사 LONGi Green Energy Technology 공동 창립자. Linton Technologies 회장. 중국 태양광 산업 리더 중 가장 노출 적은 억만장자 중 한 명.",
@@ -159,12 +153,16 @@
     "controversies": "LONGi has faced US Uyghur Forced Labor Prevention Act scrutiny over its supply chain — some Chinese solar products faced US import detentions through 2022-2024; broader Chinese solar industry oversupply and dumping debates; Linton Technologies operating in semiconductor equipment area faces US export-control concerns.",
     "controversiesKo": "LONGi가 공급망에 대한 미국 위구르 강제 노동 방지법 감시 — 일부 중국 태양광 제품이 2022-2024년 미국 수입 억류. 광범위한 중국 태양광 산업 과잉 공급·덤핑 논쟁. Linton Technologies가 반도체 장비 영역에서 미국 수출 통제 우려에 직면."
   },
-
   "characterKo": {
     "summaryKo": "비공개 일관성을 25년 유지한 중국 1세대 글로벌 산업가의 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '본인 인터뷰가 사실상 0에 가까운 비공개 일관성'과 '엔지니어 출신답게 R&D·제조 디테일에 직접 관여하는 운영 깊이'. 공동창업자 3인 중 가장 미디어 노출이 적은 인물.",
-    "tagsKo": ["비공개 일관성", "엔지니어형 창업자", "단결정 25년 베팅", "글로벌 태양광 1위", "수직 통합 산업가"]
+    "tagsKo": [
+      "비공개 일관성",
+      "엔지니어형 창업자",
+      "단결정 25년 베팅",
+      "글로벌 태양광 1위",
+      "수직 통합 산업가"
+    ]
   },
-
   "failures": [
     {
       "year": 2008,
@@ -172,7 +170,8 @@
       "descriptionKo": "Longi의 초기 단결정 전략이 훨씬 늦게야 상업적으로 검증됨 — 2006년 전환 후 거의 10년 동안 다결정 웨이퍼가 태양광 산업 경제를 지배, Longi는 분석가·고객들의 자기 베팅에 대한 지속적 의심 흡수 필요.",
       "lesson": "Contrarian technology bets in capital-intensive industries require multi-year patience capital and the discipline to not pivot back to consensus when it would have been easier.",
       "lessonKo": "자본 집약적 산업에서 반대 기술 베팅은 다년간 인내 자본과 더 쉬웠을 합의로 돌아가지 않는 규율을 요구한다.",
-      "source": "https://en.wikipedia.org/wiki/LONGi"
+      "source": "https://en.wikipedia.org/wiki/LONGi",
+      "age": 40
     },
     {
       "year": 2023,
@@ -180,7 +179,8 @@
       "descriptionKo": "중국 생산 능력 확장 주도 글로벌 태양광 과잉 공급이 많은 제조사의 생산 비용 아래로 태양광 모듈 가격 끌어내림 — LONGi 시가가 가파르게 하락, 다수 중국 태양광 제조사가 2024년까지 손실 영역 진입.",
       "lesson": "Vertical integration and global scale do not protect against industry-level overcapacity cycles; even category leaders absorb cyclical pain when supply outruns demand.",
       "lessonKo": "수직 통합과 글로벌 규모는 산업 수준 과잉 생산 능력 사이클로부터 보호하지 않는다. 카테고리 리더도 공급이 수요를 앞지를 때 사이클 고통을 흡수한다.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 55
     },
     {
       "year": 2022,
@@ -188,20 +188,37 @@
       "descriptionKo": "LONGi 태양광 모듈이 위구르 강제 노동 방지법 아래 미 세관·국경 보호국에 의해 억류된 중국 태양광 제품에 포함됨 — 회사가 출하 통관을 위해 공급망 투명성·추적가능성에 상당한 투자 필요.",
       "lesson": "Global solar manufacturing supply chains carry deep geopolitical liability around Chinese raw material sourcing; trade-policy risk must be priced before sales rather than after detentions.",
       "lessonKo": "글로벌 태양광 제조 공급망은 중국 원자재 조달에 대한 깊은 지정학적 부담을 동반한다. 무역 정책 리스크는 억류 후가 아니라 판매 전에 가격에 반영해야 한다.",
-      "source": "https://www.cbp.gov"
+      "source": "https://www.cbp.gov",
+      "age": 54
     }
   ],
-
   "wealthHistory": [
-    { "year": 2018, "netWorth": 1.2 },
-    { "year": 2020, "netWorth": 3.5 },
-    { "year": 2021, "netWorth": 8.4 },
-    { "year": 2022, "netWorth": 6.1 },
-    { "year": 2024, "netWorth": 4.0 },
-    { "year": 2025, "netWorth": 4.5 }
+    {
+      "year": 2018,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 3.5
+    },
+    {
+      "year": 2021,
+      "netWorth": 8.4
+    },
+    {
+      "year": 2022,
+      "netWorth": 6.1
+    },
+    {
+      "year": 2024,
+      "netWorth": 4
+    },
+    {
+      "year": 2025,
+      "netWorth": 4.5
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "We bet on monocrystalline when the industry said polycrystalline. Time made the bet right.",
@@ -211,12 +228,10 @@
       "source": "https://en.wikipedia.org/wiki/LONGi"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Gye-Chuk day pillar in a Sul month forms a 'jeonggwan-gyeok' chart — small water sheltered by autumn earth and authority, fitting a quiet engineer who made a contrarian technology bet under sustained pressure from industry consensus and regulators.",
     "summaryKo": "계축 일주가 술월에 자리잡은 정관격(공식 권위·규제·구조 아래 자기 자본을 만들어 가는 구조)은 중국 산업 규제·글로벌 무역 정책·기술 합의라는 세 정관 환경 안에서 단결정 베팅을 25년 유지한 그의 인생과 호응합니다. 계수 일간은 작은 흐름의 물·세부의 기질로 엔지니어의 정밀한 본능을 깔고 있고, 일지·월지의 축토·술토가 정관(공식 권위)을 거듭 강화 — 평생 외부 권위(규제·산업 합의) 환경 속에서 자본을 만든 패턴을 그대로 그려냅니다. 약점은 정관격이 너무 강하면 식상(자기 표현·창의)을 압축하는 점인데, 본인 인터뷰가 거의 없고 공동창업자 3인 중 가장 노출 적은 비공개 일관성이 그 그늘로 읽힙니다."

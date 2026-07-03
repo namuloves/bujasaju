@@ -5,7 +5,6 @@
   "netWorth": 11.4,
   "nationality": "IL",
   "industry": "Technology",
-
   "childhood": {
     "birthPlace": "Tel Aviv, Mandatory Palestine (now Israel)",
     "birthPlaceKo": "위임통치령 팔레스타인(현 이스라엘) 텔아비브",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "두드러진 건국 세대 사업 가족의 아들로 초기 이스라엘에서 청년기. 20대에 호텔 경영·광범위한 사업 운영 훈련 후 가족 Dan Hotels 합류, 이후 이스라엘 최대 방산 전자 회사 Elbit Systems의 지배 주주가 된 Federmann Enterprises로 확장.",
     "source": "https://en.wikipedia.org/wiki/Michael_Federmann ; https://en.wikipedia.org/wiki/Elbit_Systems ; https://www.forbes.com/profile/michael-federmann/"
   },
-
   "capitalOrigin": {
     "typeKo": "inherited",
     "explanationKo": "아버지 예쿠티엘 페더만이 1947년 창립한 Dan Hotels 가족 지분이 출발 토대. 본격적인 부는 1996년 Federmann Enterprises가 Elbit Systems(이스라엘 최대 방산 전자 회사)의 지배 지분을 인수하면서 발생, 이후 Elbit가 30년에 걸쳐 글로벌 톱티어 방산 회사로 성장.",
     "source": "https://en.wikipedia.org/wiki/Federmann_Enterprises"
   },
-
   "careerTimeline": [
     {
       "year": 1970,
@@ -114,7 +111,6 @@
       "source": "https://en.wikipedia.org/wiki/Israel_Prize"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1988,
@@ -141,7 +137,6 @@
       "source": "https://www.bloomberg.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Federmann Enterprises(비공개 가족 지주, 가족 합산) — Elbit Systems Ltd(NASDAQ·TASE 상장, 약 44% 지분)·Dan Hotels(이스라엘 호텔 체인) 등 통제. 본인 자산의 거의 전부가 Elbit 가치에 묶임.",
     "industryKo": "방산 전자(Elbit Systems), 호텔(Dan Hotels)",
@@ -149,7 +144,6 @@
     "moatKo": "① Elbit Systems의 이스라엘 방산 산업 사실상 핵심 위치. ② 1996년 이후 30년 누적된 글로벌 방산 계약·고객 관계. ③ Dan Hotels의 이스라엘 호텔 자산. ④ 78년 누적 가족 정치·사회 자본.",
     "luckVsSkillKo": "운(50%): 1947년 가족이 이스라엘 건국 직후 호텔에 진입한 가족 자본 운, 1996년 이스라엘 방산 민영화 사이클, 2022-2024 러-우 전쟁·이스라엘-하마스 전쟁이 방산 수요 폭증시킨 거시 환경. 실력(50%): 1세대에서 2세대로 분쟁 없는 승계, 호텔에서 방산으로의 자본 재배치 결단, 30년 단일 회사 운영의 일관성."
   },
-
   "personalTraits": {
     "knownFor": "Chairman of Elbit Systems Ltd — Israel's largest defense electronics company; chairman of Federmann Enterprises; chairman of Dan Hotels; recipient of the Israel Prize for industry (2005); one of Israel's most prominent multi-generational business heirs.",
     "knownForKo": "이스라엘 최대 방산 전자 회사 Elbit Systems Ltd 의장. Federmann Enterprises 의장. Dan Hotels 의장. 산업 부문 이스라엘 상 수상자(2005). 이스라엘 가장 두드러진 다세대 사업 상속자 중 한 명.",
@@ -158,12 +152,16 @@
     "controversies": "Elbit Systems has faced sustained criticism from human-rights groups over its supply of military equipment used in Israeli operations in Palestinian territories and Lebanon; some UN reports and BDS campaigns have targeted the company; standard defense-industry export-licensing scrutiny across multiple jurisdictions.",
     "controversiesKo": "Elbit Systems가 팔레스타인 영토·레바논에서의 이스라엘 작전에 사용된 군 장비 공급에 대한 인권 단체들의 지속적 비판 직면. 일부 UN 보고서·BDS 캠페인이 회사 표적. 다수 관할권에 걸친 방산 산업 수출 라이선스 표준 감시."
   },
-
   "characterKo": {
     "summaryKo": "건국 세대 이스라엘 가족 자본가의 정점 사례. 동료들이 말하는 가장 두드러진 특성은 '이스라엘 국가 안보와 가족 사업의 동시 정체성을 60년 유지한 일관성'과 '미디어 노출이 매우 적은 비공개 일관성'. 1세대 호텔리어의 아들이 78년 후 이스라엘 방산 산업의 가장 큰 단일 가족 자본가가 됨.",
-    "tagsKo": ["이스라엘 건국 가문", "호텔-방산 변환자", "비공개 일관성", "다세대 가부장", "Elbit 글로벌 방산"]
+    "tagsKo": [
+      "이스라엘 건국 가문",
+      "호텔-방산 변환자",
+      "비공개 일관성",
+      "다세대 가부장",
+      "Elbit 글로벌 방산"
+    ]
   },
-
   "failures": [
     {
       "year": 2002,
@@ -171,7 +169,8 @@
       "descriptionKo": "Elbit의 2000년대 초 공격적 국제 인수가 여러 시장에서 통합 도전 직면 — 일부 비이스라엘 포트폴리오 사업이 부진하며 다년간 운영 재정렬 필요.",
       "lesson": "Israeli defense-tech companies' global expansion confronts national-security and political-export-licensing barriers that pure commercial M&A logic cannot solve.",
       "lessonKo": "이스라엘 방산 기술 회사의 글로벌 확장은 순수 상업적 M&A 논리로 해결할 수 없는 국가 안보·정치 수출 라이선스 장벽에 직면한다.",
-      "source": "https://en.wikipedia.org/wiki/Elbit_Systems"
+      "source": "https://en.wikipedia.org/wiki/Elbit_Systems",
+      "age": 59
     },
     {
       "year": 2019,
@@ -179,20 +178,37 @@
       "descriptionKo": "Elbit Systems가 이스라엘 작전 군 장비 공급에 대한 지속적인 인권·BDS 캠페인 비판 직면 — 다수 UN 보고서·학술 기관 매각 논쟁이 회사에 장기 정치적 압박.",
       "lesson": "Defense-industry profits create asymmetric political costs as the human-rights conversation around national-security operations evolves; multi-decade business identity must absorb these tails.",
       "lessonKo": "방산 산업 이익은 국가 안보 작전 주변의 인권 대화가 진화하면서 비대칭 정치 비용을 만든다. 다세대 사업 정체성은 이 잔여를 흡수해야 한다.",
-      "source": "https://www.un.org"
+      "source": "https://www.un.org",
+      "age": 76
     }
   ],
-
   "wealthHistory": [
-    { "year": 2015, "netWorth": 1.4 },
-    { "year": 2018, "netWorth": 2.5 },
-    { "year": 2021, "netWorth": 3.0 },
-    { "year": 2023, "netWorth": 5.8 },
-    { "year": 2024, "netWorth": 9.7 },
-    { "year": 2025, "netWorth": 11.4 }
+    {
+      "year": 2015,
+      "netWorth": 1.4
+    },
+    {
+      "year": 2018,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2021,
+      "netWorth": 3
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.8
+    },
+    {
+      "year": 2024,
+      "netWorth": 9.7
+    },
+    {
+      "year": 2025,
+      "netWorth": 11.4
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "My father built hotels. I built defense. Israel needed both at different times.",
@@ -202,12 +218,10 @@
       "source": "https://en.wikipedia.org/wiki/Michael_Federmann"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Gyeong-O day pillar in a Yu month forms a 'yangin-gyeok' chart — refined metal under autumn metal blade authority, fitting a defense-industry steward who built capital under decades of sustained external power dynamics.",
     "summaryKo": "경오 일주가 유월에 자리잡은 양인격(일간이 강한 가운데 칼날 같은 양인이 함께 있는 구조)은 방산 산업이라는 정확히 양인의 영역에서 30년 가족 자본을 일군 그의 인생과 호응합니다. 경금 일간은 정련된 금속·칼·규율의 기질로 방산 전자의 정밀함과 직접 대응. 일지·월지의 오화·유금이 정관·양인을 한 자리에 묶어 — 공식 권위(이스라엘 정부)와 강한 자기 의지(가부장 결단)가 동시에 작용하는 구조를 그대로 그려냅니다. 약점은 양인격이 너무 강하면 인권·평판 논쟁과 충돌한다는 점인데, BDS·UN 보고서 같은 비판이 그 표면화로 읽힙니다."

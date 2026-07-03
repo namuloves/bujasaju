@@ -120,21 +120,24 @@
       "ageAtTime": 25,
       "decisionKo": "교수 진로 대신 무명 회사 영업사원으로 입사",
       "alternativeKo": "안정적 대학 교수 트랙을 갔다면 평생 학자로 남았을 가능성.",
-      "outcomeKo": "5년 만에 PC 사업부 총책임자, 12년 만에 그룹 CEO."
+      "outcomeKo": "5년 만에 PC 사업부 총책임자, 12년 만에 그룹 CEO.",
+      "age": 25
     },
     {
       "year": 2005,
       "ageAtTime": 41,
       "decisionKo": "이사회 다수 반대 속에 IBM PC 사업 단독 인수 강행",
       "alternativeKo": "내부 성장 위주로 갔다면 중국 내수 PC 1위에 머물렀을 것.",
-      "outcomeKo": "10년 만에 글로벌 PC 점유율 2.3% → 20%, 매출 13배 성장으로 세계 1위."
+      "outcomeKo": "10년 만에 글로벌 PC 점유율 2.3% → 20%, 매출 13배 성장으로 세계 1위.",
+      "age": 41
     },
     {
       "year": 2009,
       "ageAtTime": 45,
       "decisionKo": "서구 CEO 체제 포기하고 본인이 직접 CEO 복귀",
       "alternativeKo": "추가 외부 영입을 시도했다면 경영 공백이 더 길어졌을 가능성.",
-      "outcomeKo": "이듬해 흑자 전환, 이후 글로벌 PC 1위 안착."
+      "outcomeKo": "이듬해 흑자 전환, 이후 글로벌 PC 1위 안착.",
+      "age": 45
     }
   ],
   "moneyMechanics": {
@@ -171,7 +174,8 @@
       "descriptionKo": "레노버 2008년 4분기 $9700만 적자. 서구 CEO 윌리엄 아멜리오의 3년 계약 갱신 거절. 아멜리오는 퇴임하면서 레노버의 '네, 네, 네' 문화를 공개 비판.",
       "lesson": "Trusting Western CEOs alone to globalize a Chinese company doesn't work — the founder-track operator has to stay involved in core decisions.",
       "lessonKo": "서구 CEO 한 명에게 글로벌화를 통째로 맡기는 방식은 통하지 않습니다. 창업 트랙 운영자가 핵심 의사결정에 계속 들어가야 합니다.",
-      "source": "https://www.chinatechnews.com/2009/02/05/8670-lenovo-founder-returns-after-company-disappoints-with-declining-computer-sales-and-loss"
+      "source": "https://www.chinatechnews.com/2009/02/05/8670-lenovo-founder-returns-after-company-disappoints-with-declining-computer-sales-and-loss",
+      "age": 45
     },
     {
       "year": 2016,
@@ -179,7 +183,8 @@
       "descriptionKo": "모토로라 통합 실패로 레노버 6년 만의 연간 적자. 모바일 부문만 $4억 6900만 손실. 양위안칭 본인이 '문화와 비즈니스 모델의 차이를 과소평가했다'고 공개 인정.",
       "lesson": "PC acquisition success doesn't transfer to smartphones. Brand, distribution, and developer ecosystems require different playbooks.",
       "lessonKo": "PC 인수 성공 공식이 스마트폰에는 그대로 옮겨지지 않습니다. 브랜드·유통·개발자 생태계가 다르게 작동합니다.",
-      "source": "https://www.gsmarena.com/lenovo_didnt_know_what_they_were_doing_when_they_bought_motorola-news-22803.php"
+      "source": "https://www.gsmarena.com/lenovo_didnt_know_what_they_were_doing_when_they_bought_motorola-news-22803.php",
+      "age": 52
     },
     {
       "year": 2020,
@@ -187,13 +192,26 @@
       "descriptionKo": "공매도 리서치 부세팔러스가 레노버 분식회계 의혹 보고서 발표. 회사는 부인했지만 주가는 직후 11% 하락.",
       "lesson": "A long-listed Chinese tech major remains a perpetual short-seller target. Disclosure quality and investor relations need to be at the top tier.",
       "lessonKo": "장기 상장된 중국 IT 대형주는 공매도의 상시 표적입니다. 공시 수준과 IR이 최상위여야 합니다.",
-      "source": "https://www.yicaiglobal.com/news/lenovo-shares-tumble-on-alleged-accounting-fraud"
+      "source": "https://www.yicaiglobal.com/news/lenovo-shares-tumble-on-alleged-accounting-fraud",
+      "age": 56
     }
   ],
   "wealthHistory": [
-    {"year": 2015, "netWorth": "Forbes 빌리어네어 진입", "sourceKo": "Forbes 2015"},
-    {"year": 2019, "netWorth": "$0.6B", "sourceKo": "Hurun Report 2019"},
-    {"year": 2025, "netWorth": "$1.3B", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2015,
+      "netWorth": "Forbes 빌리어네어 진입",
+      "sourceKo": "Forbes 2015"
+    },
+    {
+      "year": 2019,
+      "netWorth": "$0.6B",
+      "sourceKo": "Hurun Report 2019"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$1.3B",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [
     {
@@ -221,9 +239,18 @@
     "summaryKo": "양위안칭의 사주는 갑목(큰 나무) 천간이 연·월·일에 세 번 겹친 매우 강한 일간입니다. 월지가 술토(늦가을 흙)인 편재격(움직이는 큰 재물·딜·기회로 부를 만드는 형식)은 안정적 봉급보다 큰 자산을 직접 인수해 부를 키우는 패턴인데, 2005년 IBM PC 인수와 2014년 모토로라·IBM 서버 동시 인수가 정확히 이 결을 따라갑니다. 일지의 인목(범)은 결단력과 도약을 상징해, 이사회 반대 속에서도 IBM 딜을 밀어붙인 41세 결단과 호응합니다. 갑목 셋이 나란히 선 형상은 동료를 거느리고 함께 큰 숲을 이루는 그림이라, 본인 보너스 $300만을 일반직원 1만 명에게 두 차례 분배한 행동도 이 사주의 자연스러운 발현으로 읽힙니다.",
     "interpretationKo": "갑인 일주는 큰 나무가 봄의 어린 호랑이 위에 놓인 형상으로, 조용하지만 결정적 순간에 큰 결단을 내리는 리더형입니다. 편재격은 사색형 학자보다 자본을 움직이는 딜메이커 쪽으로 그를 이끌었고, 술월의 늦가을 흙은 큰 자산을 흡수·정리하는 시즌이라 IBM PC와 모토로라 같은 큰 자산 인수의 무대가 됐습니다.",
     "keyEvents": [
-      {"year": 2005, "eventKo": "IBM PC 인수 — 편재격의 큰 자산 흡수 패턴 발현"},
-      {"year": 2009, "eventKo": "CEO 복귀 — 갑목 일간의 단독 통솔 회귀"},
-      {"year": 2014, "eventKo": "모토로라·IBM 서버 동시 인수 — 편재격 딜메이킹 정점"}
+      {
+        "year": 2005,
+        "eventKo": "IBM PC 인수 — 편재격의 큰 자산 흡수 패턴 발현"
+      },
+      {
+        "year": 2009,
+        "eventKo": "CEO 복귀 — 갑목 일간의 단독 통솔 회귀"
+      },
+      {
+        "year": 2014,
+        "eventKo": "모토로라·IBM 서버 동시 인수 — 편재격 딜메이킹 정점"
+      }
     ]
   },
   "sources": [

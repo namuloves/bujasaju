@@ -120,21 +120,24 @@
       "ageAtTime": 36,
       "decisionKo": "남편과 함께 우타르프라데시주 작은 단위에서 강관 제조사 공동 창업",
       "alternativeKo": "단순 가정 주부로 머물렀다면 인도 1세대 여성 빌리어네어 진입 자체가 없었을 것.",
-      "outcomeKo": "38년 후 인도 1위 구조용 강관 제조사 + 본인 빌리어네어 진입."
+      "outcomeKo": "38년 후 인도 1위 구조용 강관 제조사 + 본인 빌리어네어 진입.",
+      "age": 36
     },
     {
       "year": 2008,
       "ageAtTime": 58,
       "decisionKo": "남편 별세 후 회사를 매각하지 않고 아들에게 경영권 이양",
       "alternativeKo": "회사를 다른 자본에 매각했다면 단기 현금은 더 컸을 수 있으나 가문 사업의 장기 자본화는 불가능했을 것.",
-      "outcomeKo": "아들 산자이가 25년+ 경영, 회사를 인도 1위로 키움 — 가족 자본의 장기 누적."
+      "outcomeKo": "아들 산자이가 25년+ 경영, 회사를 인도 1위로 키움 — 가족 자본의 장기 누적.",
+      "age": 58
     },
     {
       "year": 2010,
       "ageAtTime": 60,
       "decisionKo": "DFT(Direct Forming Technology) 도입 결정 — 가족 회사의 기술 베팅",
       "alternativeKo": "기존 공구 기반 생산에 머물렀다면 인도 강관 시장에서 가격 경쟁에 그쳤을 것.",
-      "outcomeKo": "인도 강관 산업의 기술 표준 재정립 + 시장 1위 자리 확보."
+      "outcomeKo": "인도 강관 산업의 기술 표준 재정립 + 시장 1위 자리 확보.",
+      "age": 60
     }
   ],
   "moneyMechanics": {
@@ -171,7 +174,8 @@
       "descriptionKo": "남편 S. K. 굽타(평생 사업 파트너이자 공동 창업자) 별세. 회사가 갑작스럽게 아직 경영 경력을 쌓고 있던 아들로 관리 이양.",
       "lesson": "Family-business succession often arrives unprepared. The contingency plan has to live in the company structure, not in the founder's head.",
       "lessonKo": "가족 사업 계승은 종종 준비되지 않은 채로 옵니다. 비상 계획은 창업자의 머릿속이 아닌 회사 구조 안에 살아야 합니다.",
-      "source": "https://admin.aplapollo.com/uploads/Observer_Dawn_Magazine_Article_abd9980ed4.pdf"
+      "source": "https://admin.aplapollo.com/uploads/Observer_Dawn_Magazine_Article_abd9980ed4.pdf",
+      "age": 58
     },
     {
       "year": 2018,
@@ -179,7 +183,8 @@
       "descriptionKo": "APL 아폴로의 인도 인프라 사이클 의존도가 높아, 원자재 가격 변동(철강) + 인프라 지출 일시 중단(예: 화폐 개혁 후폭풍, GST 전환)이 2016-2018년 마진을 반복 압박.",
       "lesson": "Cyclical industrial businesses look great at the top of the cycle and brutal in the trough. Cash buffer through the down years is the moat.",
       "lessonKo": "사이클 산업체는 사이클 정점에선 멋져 보이지만 골에선 가혹합니다. 침체 사이클을 건너는 현금 버퍼가 진짜 해자입니다.",
-      "source": "https://stock-financials.valuestocks.in/en/apl-apollo-company-history"
+      "source": "https://stock-financials.valuestocks.in/en/apl-apollo-company-history",
+      "age": 68
     },
     {
       "year": 2024,
@@ -187,12 +192,21 @@
       "descriptionKo": "APL 아폴로의 인도 구조용 강관 1위 점유율에도, 중소 경쟁사와 중국산 수입품이 가격 압박. 2021-2022년에는 2세대 형제간 관계자 거래 관련 공개 분쟁도 발생.",
       "lesson": "Market leadership doesn't immunize a steel business from import pressure. And family disputes published in the press hurt the family's brand premium too.",
       "lessonKo": "시장 선두 자리도 강관 사업을 수입 압박으로부터 보호하지 못합니다. 그리고 언론에 공개된 가족 분쟁은 가문 브랜드 프리미엄에도 타격을 줍니다.",
-      "source": "https://www.careratings.com/upload/CompanyFiles/PR/202503130317_APL_Apollo_Tubes_Limited.pdf"
+      "source": "https://www.careratings.com/upload/CompanyFiles/PR/202503130317_APL_Apollo_Tubes_Limited.pdf",
+      "age": 74
     }
   ],
   "wealthHistory": [
-    {"year": 2020, "netWorth": "APL 아폴로 시가총액 5000억 루피 — 가족 자산 빌리어네어 진입", "sourceKo": "Forbes 2020"},
-    {"year": 2025, "netWorth": "$1.7B (Forbes #2052)", "sourceKo": "Forbes Real-Time Billionaires 2026"}
+    {
+      "year": 2020,
+      "netWorth": "APL 아폴로 시가총액 5000억 루피 — 가족 자산 빌리어네어 진입",
+      "sourceKo": "Forbes 2020"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$1.7B (Forbes #2052)",
+      "sourceKo": "Forbes Real-Time Billionaires 2026"
+    }
   ],
   "quotes": [],
   "books": {
@@ -205,9 +219,18 @@
     "summaryKo": "사로지 라니 굽타의 사주는 신금(작은 쇠·보석·정밀 도구) 일간이 축토(겨울 진흙·소) 위에 놓인 신축 일주입니다. 차가운 흙 안의 보석이라, 디테일과 정밀로 빛나는 결인데, 강관(정밀 강철 튜브) 산업과 직결되는 형상입니다. 격국이 상관격(틀을 깨는 재능·말솜씨·기술 혁신으로 자기 자리를 만드는 형식)이라, 1986년 작은 도시 시칸드라바드에서 부부가 강관 회사를 시작해 38년 만에 인도 1위로 키운 흐름과 호응합니다. 월지 오화는 한여름의 큰 불로 신금에게는 정관(전통 권위·체계)의 작용을 하는데, 인도 인프라·건설이라는 거시 사이클의 흐름 안에서 가족 회사가 자리를 잡은 것과 닿습니다. 2008년 남편 별세 후 회사를 아들에게 이양한 결정도 상관격이 일선 운영보다 자본·기술의 흐름을 자식에게 넘기는 패턴과 일치합니다.",
     "interpretationKo": "신축 일주는 차가운 흙 안의 보석이라, 정밀과 디테일로 빛나는 결. 상관격은 정통 트랙이 아닌 본인의 손과 재능으로 새 길을 만드는 패턴이라, 평범한 가정 주부에서 인도 1위 강관 회사 가문의 모친으로 정체성을 만든 흐름이 자연스럽습니다.",
     "keyEvents": [
-      {"year": 1986, "eventKo": "비하르 튜브스 공동 창업 — 신금 보석이 흙에 박히는 시작"},
-      {"year": 2008, "eventKo": "남편 별세 후 가족 회사 이양 — 상관격이 자식에게 흐름을 넘김"},
-      {"year": 2024, "eventKo": "APL 아폴로 매출 1.9조 루피 — 38년 누적의 결실"}
+      {
+        "year": 1986,
+        "eventKo": "비하르 튜브스 공동 창업 — 신금 보석이 흙에 박히는 시작"
+      },
+      {
+        "year": 2008,
+        "eventKo": "남편 별세 후 가족 회사 이양 — 상관격이 자식에게 흐름을 넘김"
+      },
+      {
+        "year": 2024,
+        "eventKo": "APL 아폴로 매출 1.9조 루피 — 38년 누적의 결실"
+      }
     ]
   },
   "sources": [

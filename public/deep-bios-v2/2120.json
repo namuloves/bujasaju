@@ -120,21 +120,24 @@
       "ageAtTime": 38,
       "decisionKo": "친구의 신생 팜유 회사에 본인 자산 대부분을 베팅",
       "alternativeKo": "분산 투자만 했다면 빌리어네어 진입은 불가능했을 것.",
-      "outcomeKo": "20년 보유 후 $15억 회수 — 본인 인생을 바꾼 단일 베팅."
+      "outcomeKo": "20년 보유 후 $15억 회수 — 본인 인생을 바꾼 단일 베팅.",
+      "age": 38
     },
     {
       "year": 2010,
       "ageAtTime": 57,
       "decisionKo": "Wilmar 정점에서 깔끔히 매도",
       "alternativeKo": "버텼다면 팜유 가격 하락 사이클에서 자산 일부 잃었을 가능성.",
-      "outcomeKo": "$15억 현금 확보 → 헬스케어·스포츠·부동산 분산의 자본 기반."
+      "outcomeKo": "$15억 현금 확보 → 헬스케어·스포츠·부동산 분산의 자본 기반.",
+      "age": 57
     },
     {
       "year": 2014,
       "ageAtTime": 61,
       "decisionKo": "본인 사업 영역과 무관한 발렌시아 CF 인수",
       "alternativeKo": "스포츠를 건너뛰고 자산 운용에만 집중했다면 평판 리스크 자체가 없었을 것.",
-      "outcomeKo": "10년 후 발렌시아 팬 'Lim Out' 시위가 본인 글로벌 평판의 핵심 이슈."
+      "outcomeKo": "10년 후 발렌시아 팬 'Lim Out' 시위가 본인 글로벌 평판의 핵심 이슈.",
+      "age": 61
     }
   ],
   "moneyMechanics": {
@@ -171,7 +174,8 @@
       "descriptionKo": "2014년 부흥 약속과 함께 인수한 발렌시아 CF가 경기력에서 꾸준히 추락. 팬들은 메스타야 경기장 밖에서 'Lim go home' 현수막을 들고 정기 시위. 챔피언스리그 진출권과 코파델레이 우승을 다투던 클럽이 강등권 다툼으로.",
       "lesson": "Buying a famous sports club doesn't transfer business credibility — football clubs run on supporter trust, which can't be acquired with cash.",
       "lessonKo": "유명 스포츠 클럽 인수가 사업 신뢰를 옮겨 주지는 않습니다. 축구 클럽은 팬 신뢰로 움직이고, 그건 현금으로 살 수 없습니다.",
-      "source": "https://www.espn.com/soccer/story/_/id/41931765/las-palmas-win-valencia-home-fans-protest-singapore-owner"
+      "source": "https://www.espn.com/soccer/story/_/id/41931765/las-palmas-win-valencia-home-fans-protest-singapore-owner",
+      "age": 65
     },
     {
       "year": 2023,
@@ -179,7 +183,8 @@
       "descriptionKo": "발렌시아가 1986년 이래 첫 강등 위기. 림 매도 요구가 사상 최고조. 메스타야 외곽에서 반-림 시위 중 경찰 충돌까지 발생.",
       "lesson": "When the supporter base believes the owner is hostile to the club's heritage, the financial value of the asset dies before the asset itself does.",
       "lessonKo": "팬덤이 오너를 클럽 유산의 적대자로 인식하면, 자산 자체가 죽기 전에 자산 가치가 먼저 죽습니다.",
-      "source": "https://mothership.sg/2023/02/valencia-protests-peter-lim-again/"
+      "source": "https://mothership.sg/2023/02/valencia-protests-peter-lim-again/",
+      "age": 70
     },
     {
       "year": 2024,
@@ -187,13 +192,26 @@
       "descriptionKo": "팬들은 림 인수 10주년을 매도 요구로 맞이. 림은 신축 누 메스타야 경기장 프로젝트 완공 전까지 매도 거부 입장 — 팬·미디어·채권자 모두 교착 상태.",
       "lesson": "Holding an asset 'until conditions improve' can become a euphemism for losing money slowly. Identifying the exit point is part of the original investment thesis.",
       "lessonKo": "'조건이 좋아질 때까지' 보유는 천천히 잃는 일의 다른 이름이 될 수 있습니다. 엑싯 시점을 잡는 것도 원래 투자 논리의 일부입니다.",
-      "source": "https://www.scmp.com/sport/football/article/3265306/spanish-la-liga-valencia-fans-mark-10th-year-singaporean-peter-lims-ownership-new-calls-him-sell"
+      "source": "https://www.scmp.com/sport/football/article/3265306/spanish-la-liga-valencia-fans-mark-10th-year-singaporean-peter-lims-ownership-new-calls-him-sell",
+      "age": 71
     }
   ],
   "wealthHistory": [
-    {"year": 2010, "netWorth": "$1.5B+ (Wilmar 회수)", "sourceKo": "Wilmar 매각 회수금"},
-    {"year": 2024, "netWorth": "$1.75B", "sourceKo": "Forbes Singapore 50 Richest 2024 (#26)"},
-    {"year": 2025, "netWorth": "$1.9B", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2010,
+      "netWorth": "$1.5B+ (Wilmar 회수)",
+      "sourceKo": "Wilmar 매각 회수금"
+    },
+    {
+      "year": 2024,
+      "netWorth": "$1.75B",
+      "sourceKo": "Forbes Singapore 50 Richest 2024 (#26)"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$1.9B",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": {
@@ -206,9 +224,18 @@
     "summaryKo": "피터 림의 사주는 계수(작은 물·이슬·새벽 안개) 일간이 미토(늦여름 마른 흙·양) 위에 놓인 계미 일주입니다. 마른 땅을 적시는 이슬이라 작지만 끈질긴 자원의 결인데, 부키트호스웨 공공임대주택의 노동자 아들이 호주에서 택시·웨이터로 학비를 벌며 인생을 시작한 이미지와 정확히 호응합니다. 격국이 편재격(움직이는 큰 자본·중개·딜로 부를 만드는 형식)이라, 1980년대 인도네시아 큰손 고객을 상대한 레미시어 킹 시기, 1991년 친구 회사에 단일 베팅으로 $1000만을 넣어 19년 후 $15억으로 회수한 흐름, 2014년 발렌시아 CF 같은 큰 자산을 사고팔려는 시도가 모두 편재격의 결입니다. 다만 월지가 사화(여름 불)이고 일지가 미토라 화·토가 강해 본인 계수는 약하기에, 발렌시아 인수처럼 본인 직접 운영이 필요한 자산에서는 운영력이 떨어지는 약점도 사주에 함께 새겨져 있습니다.",
     "interpretationKo": "계미 일주는 마른 흙 위의 이슬이라, 작은 자원이 큰 자산을 적셔 살리는 결. 편재격은 본인 노동보다 자본의 흐름을 읽어 큰 자산을 흡수·매도하는 패턴이라, 림의 평생 패턴인 '단일 베팅 + 정점 매도'와 구조적으로 같습니다.",
     "keyEvents": [
-      {"year": 1991, "eventKo": "Wilmar $1000만 베팅 — 편재격 단일 자본 흡수의 시작"},
-      {"year": 2010, "eventKo": "Wilmar $15억 회수 — 편재격의 정점 매도 패턴"},
-      {"year": 2014, "eventKo": "발렌시아 CF 인수 — 편재격이 운영력 약한 자산을 만진 사례"}
+      {
+        "year": 1991,
+        "eventKo": "Wilmar $1000만 베팅 — 편재격 단일 자본 흡수의 시작"
+      },
+      {
+        "year": 2010,
+        "eventKo": "Wilmar $15억 회수 — 편재격의 정점 매도 패턴"
+      },
+      {
+        "year": 2014,
+        "eventKo": "발렌시아 CF 인수 — 편재격이 운영력 약한 자산을 만진 사례"
+      }
     ]
   },
   "sources": [

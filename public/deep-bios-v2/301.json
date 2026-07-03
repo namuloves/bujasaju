@@ -5,7 +5,6 @@
   "netWorth": 10.4,
   "nationality": "US",
   "industry": "Construction & Engineering",
-
   "childhood": {
     "birthPlace": "San Francisco, California, USA",
     "birthPlaceKo": "미국 캘리포니아주 샌프란시스코",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "샌프란시스코 베이 에어리어에서 4세대 벡텔로 성장; 아버지 스티븐 벡텔 주니어가 채널 터널·보스턴 빅 디그 같은 주요 프로젝트 동안 회사 운영. 라일리가 로스쿨 졸업 후 1981년 Bechtel 합류 — 1990년 CEO가 되기 전 법무·프로젝트 관리·임원 직책을 거침.",
     "source": "https://en.wikipedia.org/wiki/Riley_P._Bechtel ; https://en.wikipedia.org/wiki/Bechtel ; https://www.forbes.com/profile/riley-bechtel/"
   },
-
   "capitalOrigin": {
     "typeKo": "inherited",
     "explanationKo": "100% 상속. 증조부 워런 A. 벡텔이 1898년 창립한 Bechtel Corporation 가족 지분의 4세대 분할. 회사가 4세대 가족 통제·비공개 운영을 100% 유지 — 가족 자본의 다세대 안정성이 그의 부의 핵심 토대.",
     "source": "https://en.wikipedia.org/wiki/Bechtel"
   },
-
   "careerTimeline": [
     {
       "year": 1981,
@@ -106,7 +103,6 @@
       "source": "https://en.wikipedia.org/wiki/Hong_Kong_International_Airport"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1990,
@@ -133,7 +129,6 @@
       "source": "https://en.wikipedia.org/wiki/Bechtel"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Bechtel Group(100% 비공개 가족 소유, 4·5세대 다수 가족 구성원 합산) — 글로벌 공학·건설 회사. 연 매출 약 150-200억 달러. 본인 자산은 가족 합산이 아닌 본인 직접 + 신탁 지분.",
     "industryKo": "공학·건설(인프라·에너지·국방·반도체 fabs)",
@@ -141,7 +136,6 @@
     "moatKo": "① 1898년 이후 127년 누적된 거대 프로젝트 운영 노하우. ② 미국 정부·NATO·글로벌 거대 인프라 시장의 영구적 자리. ③ 100% 가족 소유의 의사결정 일관성. ④ 4·5세대 다세대 거버넌스의 안정성. ⑤ 반도체 fabs·LNG 같은 새 산업 전환의 핵심 자리.",
     "luckVsSkillKo": "운(45%): 1898년 가족이 미국 인프라 시대 직전 진입한 가족 자본 운, 미국이 20세기 글로벌 인프라 시장의 가장 큰 자금원이었던 거시 환경, 21세기 반도체·에너지 전환이 EPC 회사 수요 폭증시킨 사이클. 실력(55%): 4세대 가족 거버넌스의 무갈등 유지, 25년 CEO·25년+ 의장의 일관성, 100% 비공개 가족 소유의 거버넌스 규율."
   },
-
   "personalTraits": {
     "knownFor": "Chairman of Bechtel Group — one of the world's largest privately held engineering, procurement, and construction (EPC) companies; fourth-generation Bechtel family leader; led the company as CEO from 1990 to 2014; major patron of ALS research after his 2018 diagnosis.",
     "knownForKo": "세계 최대 사설 공학·조달·건설(EPC) 회사 중 하나 Bechtel Group 의장. 4세대 Bechtel 가족 리더. 1990-2014 회사 CEO 재임. 2018 ALS 진단 후 ALS 연구의 주요 후원자.",
@@ -150,12 +144,16 @@
     "controversies": "Bechtel's 2003-2007 Iraq reconstruction contracts drew sustained criticism over no-bid awards and project execution; some Bechtel projects (Big Dig in Boston, certain LNG facilities) faced cost-overrun and safety controversies; family's relationship with US Republican administrations through multiple decades has drawn periodic political-business interface debate.",
     "controversiesKo": "Bechtel의 2003-2007 이라크 재건 계약이 비입찰 수주·프로젝트 실행에 대한 지속적 비판 받음. 일부 Bechtel 프로젝트(보스턴 빅 디그·특정 LNG 시설)가 비용 초과·안전 논란 직면. 다수 수십 년에 걸친 미국 공화당 행정부와의 가족 관계가 주기적 정치-사업 인터페이스 논쟁."
   },
-
   "characterKo": {
     "summaryKo": "127년 가족 회사의 4세대 가부장 정체성을 25년 CEO·25년+ 의장으로 유지한 미국 사설 가족 건설업의 모범. 동료들이 말하는 가장 두드러진 특성은 '스탠퍼드 JD+MBA 학문 자본의 분석가형 운영'과 '미디어 노출이 매우 적은 비공개 일관성'. ALS 진단 후에도 가족 자본 거버넌스 유지.",
-    "tagsKo": ["4세대 건설 가부장", "스탠퍼드 JD+MBA", "비공개 일관성", "127년 가족 회사", "ALS 후원자"]
+    "tagsKo": [
+      "4세대 건설 가부장",
+      "스탠퍼드 JD+MBA",
+      "비공개 일관성",
+      "127년 가족 회사",
+      "ALS 후원자"
+    ]
   },
-
   "failures": [
     {
       "year": 2003,
@@ -163,7 +161,8 @@
       "descriptionKo": "Bechtel의 USAID 이라크 재건 계약이 비입찰 과정·비용 초과 의혹·제한된 프로젝트 완료에 대한 지속적 비판 받음 — 일부 프로젝트(상수·전력 인프라 포함)가 보안 조건으로 Bechtel의 2007 철수 전 완전 완료되지 않음.",
       "lesson": "Government-contractor wealth comes with multi-year political-narrative liability that no operational excellence can offset; large EPC firms must price the reputational tail of war-zone work.",
       "lessonKo": "정부 계약자 부는 어떤 운영 우수성도 상쇄할 수 없는 다년간 정치 서사 부담을 동반한다. 대형 EPC 회사는 전쟁 지역 작업의 평판 잔여를 가격에 반영해야 한다.",
-      "source": "https://en.wikipedia.org/wiki/Bechtel"
+      "source": "https://en.wikipedia.org/wiki/Bechtel",
+      "age": 51
     },
     {
       "year": 2018,
@@ -171,21 +170,41 @@
       "descriptionKo": "라일리의 개인 ALS 진단이 상당한 가족 사업 거버넌스 도전 — 의장이 진행성 질병에 직면한 동안 회사가 전환을 관리해야 했음. 가족이 전환을 통한 안정적 운영 유지로 회복력 입증.",
       "lesson": "Family-business governance must include continuity plans for unexpected personal-health events affecting the chairman or CEO; resilience comes from prior succession architecture, not from reactive measures.",
       "lessonKo": "가족 사업 거버넌스는 의장·CEO에 영향을 미치는 예상치 못한 개인 건강 사건에 대한 연속성 계획을 포함해야 한다. 회복력은 반응적 조치가 아니라 사전 승계 구조에서 온다.",
-      "source": "https://en.wikipedia.org/wiki/Riley_P._Bechtel"
+      "source": "https://en.wikipedia.org/wiki/Riley_P._Bechtel",
+      "age": 66
     }
   ],
-
   "wealthHistory": [
-    { "year": 2010, "netWorth": 3.3 },
-    { "year": 2015, "netWorth": 3.1 },
-    { "year": 2018, "netWorth": 2.9 },
-    { "year": 2021, "netWorth": 3.0 },
-    { "year": 2023, "netWorth": 7.8 },
-    { "year": 2024, "netWorth": 9.9 },
-    { "year": 2025, "netWorth": 10.4 }
+    {
+      "year": 2010,
+      "netWorth": 3.3
+    },
+    {
+      "year": 2015,
+      "netWorth": 3.1
+    },
+    {
+      "year": 2018,
+      "netWorth": 2.9
+    },
+    {
+      "year": 2021,
+      "netWorth": 3
+    },
+    {
+      "year": 2023,
+      "netWorth": 7.8
+    },
+    {
+      "year": 2024,
+      "netWorth": 9.9
+    },
+    {
+      "year": 2025,
+      "netWorth": 10.4
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "We have built things for 125 years. Privately. Quietly. By the next generation.",
@@ -195,12 +214,10 @@
       "source": "https://www.bechtel.com"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Gyeong-O day pillar in a Myo month forms a 'sanggwan-gyeok' chart — refined metal expressing creative output under spring wood, fitting a fourth-generation engineer-lawyer who quietly stewards multi-generational industrial capital with disciplined analytical creativity.",
     "summaryKo": "경오 일주가 묘월에 자리잡은 상관격(자기 표현·창의력이 정해진 권위를 넘어 흘러가는 구조)은 125년 가족 회사의 4세대 가부장으로서 스탠퍼드 JD+MBA 학문 자본을 운영에 적용한 그의 인생과 호응합니다. 경금 일간은 정련된 금속·규율의 기질로 건설 산업의 정밀함과 잘 맞고, 일지 오화·월지 묘목이 정관·정재의 결합으로 공식 권위(미국 정부 계약·NATO·글로벌 인프라 규제)와 안정 자본(127년 회사)이 한 자리에 묶여 있는 구조. 약점은 상관격이 정관과 충돌할 수 있다는 점인데, 2003 이라크 계약의 정치적 비판이 그 표면화로 읽힙니다."

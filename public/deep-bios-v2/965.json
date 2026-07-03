@@ -5,7 +5,6 @@
   "netWorth": 4.3,
   "nationality": "US",
   "industry": "Healthcare",
-
   "childhood": {
     "birthPlace": "New York City, USA",
     "birthPlaceKo": "미국 뉴욕시",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "퀸스의 작은 Kinray 창고에서 여름·방과 후 일하며 성장. 20대에 아버지의 일선 활동이 줄어들면서 Kinray 인수, 결국 파트너 지분 매입. 수십 년에 걸쳐 Kinray를 지역 → 전국 주요 의약품 도매업체로 키움.",
     "source": "https://en.wikipedia.org/wiki/Stewart_Rahr ; https://www.forbes.com/profile/stewart-rahr/"
   },
-
   "capitalOrigin": {
     "typeKo": "mixed",
     "explanationKo": "아버지 잭 라흐르가 1944년 창업한 Kinray Inc를 사실상 상속에 가까운 형태로 인수했지만 회사 규모가 매우 작았기에 그가 키운 가치가 거의 전부. 본격적인 부는 2010년 Cardinal Health에 Kinray를 13억 달러에 매각하면서 발생.",
     "source": "https://en.wikipedia.org/wiki/Stewart_Rahr"
   },
-
   "careerTimeline": [
     {
       "year": 1968,
@@ -107,7 +104,6 @@
       "source": "https://www.forbes.com/profile/stewart-rahr/"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1980,
@@ -134,7 +130,6 @@
       "source": "https://www.forbes.com/profile/stewart-rahr/"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "2010년 Kinray Inc 매각 대금 13억 달러를 핵심 자본으로 한 비공개 가족 사무소. 자본 운용은 주식·채권·부동산·사모 투자 등 전통 가족 사무소 포트폴리오. 부의 절대다수가 2010년 매각 대금에 기반.",
     "industryKo": "자산 운용(매각 후), 자선, 의약품 도매(과거)",
@@ -142,7 +137,6 @@
     "moatKo": "① 1968-2010년 누적된 Kinray 도매 평판이 매각 가치를 설명. ② Cardinal Health 매각 대금의 단일 자본 토대. ③ Giving Pledge 서명자로서의 자선 가시성. ④ 뉴욕·팜비치 사회 자본 네트워크.",
     "luckVsSkillKo": "운(50%): 1944년 아버지가 의약품 도매에 진입한 가족 자본 운, 1990년대-2000년대 미국 의약품 도매 산업의 통합 사이클이 Kinray 가치를 끌어올림, 2010년 Cardinal Health 매각이 산업 통합 정점이었던 타이밍. 실력(50%): 거대 도매업체와 정면 경쟁하지 않은 차별화 전략, 30년 비공개 가족 소유 유지, 매각 가치를 극대화한 협상 능력, 인생 후반 정체성 재설계의 즉시성."
   },
-
   "personalTraits": {
     "knownFor": "Former owner of Kinray Inc — built into the largest privately held US pharmaceutical wholesaler before selling to Cardinal Health for $1.3B in 2010; high-profile post-retirement billionaire socialite known by the nickname 'Stewie Rah Rah'; Giving Pledge signatory and major medical-research philanthropist.",
     "knownForKo": "Kinray Inc 전 소유주 — 미국 최대 비공개 의약품 도매업체로 키워 2010년 Cardinal Health에 13억 달러 매각. 'Stewie Rah Rah' 별명으로 알려진 은퇴 후 고프로필 억만장자 소셜라이트. Giving Pledge 서명자이자 주요 의료 연구 자선가.",
@@ -151,12 +145,16 @@
     "controversies": "2013-2014 misdemeanor harassment conviction involving a knife threat to his ex-girlfriend — received probation; his post-retirement Instagram and party lifestyle drew media criticism as undignified for a major philanthropist; family ownership history of Kinray included occasional partner disputes that were settled privately.",
     "controversiesKo": "2013-2014년 전 여자친구에 대한 칼 위협 경범죄 괴롭힘 유죄 — 보호관찰. 은퇴 후 인스타그램·파티 라이프스타일이 주요 자선가에 부적절하다는 미디어 비판. Kinray의 가족 소유 역사에 간헐적 파트너 분쟁이 사적으로 합의."
   },
-
   "characterKo": {
     "summaryKo": "30년 비공개 도매업자에서 셀러브리티-자선가로 완전히 전환한 미국 자수성가의 보기 드운 변종. 동료들이 말하는 가장 두드러진 특성은 '매각 직후 정체성을 즉시 180도 전환한 결단'과 '진지한 의료 자선과 화려한 소셜 노출을 동시에 운영하는 이중 정체성'. 미국 미디어에 자주 등장하는 셀러브리티 억만장자 모형의 한 케이스.",
-    "tagsKo": ["퀸스 도매업자", "매각 후 셀러브리티", "Giving Pledge", "이중 정체성", "1세대 자수성가"]
+    "tagsKo": [
+      "퀸스 도매업자",
+      "매각 후 셀러브리티",
+      "Giving Pledge",
+      "이중 정체성",
+      "1세대 자수성가"
+    ]
   },
-
   "failures": [
     {
       "year": 2014,
@@ -164,7 +162,8 @@
       "descriptionKo": "전 여자친구에 대한 칼 위협 사건으로 경범죄 괴롭힘 유죄, 보호관찰 — 형사 사건이 잠시 자선 이미지를 손상, 미국 타블로이드·사회 언론에 광범위 보도.",
       "lesson": "Choosing a high-public-profile post-retirement identity exposes private behavior to the same level of scrutiny as the public persona; reputation management for celebrity-philanthropists requires multi-decade behavioral discipline.",
       "lessonKo": "은퇴 후 고프로필 정체성을 선택하면 사적 행동이 공개 인격과 같은 수준의 감시에 노출된다. 셀러브리티-자선가의 평판 관리는 수십 년 행동 규율을 요구한다.",
-      "source": "https://www.nydailynews.com"
+      "source": "https://www.nydailynews.com",
+      "age": 68
     },
     {
       "year": 2008,
@@ -172,21 +171,41 @@
       "descriptionKo": "Kinray 사업이 2008 금융위기 기간 잠시 부진 — 핵심 고객인 일부 독립 약국이 폐점 또는 체인에 흡수, 매출 성장 정체 후 재개. 독립 약국 유통의 구조적 압박을 보여줌.",
       "lesson": "Niche distribution moats can be eroded by chain consolidation in the customer base; even differentiation strategies need to anticipate downstream channel evolution.",
       "lessonKo": "틈새 유통 해자는 고객 기반의 체인 통합으로 잠식될 수 있다. 차별화 전략도 하류 채널 진화를 예측해야 한다.",
-      "source": "https://en.wikipedia.org/wiki/Kinray"
+      "source": "https://en.wikipedia.org/wiki/Kinray",
+      "age": 62
     }
   ],
-
   "wealthHistory": [
-    { "year": 2010, "netWorth": 1.2 },
-    { "year": 2014, "netWorth": 1.5 },
-    { "year": 2018, "netWorth": 1.4 },
-    { "year": 2021, "netWorth": 3.7 },
-    { "year": 2023, "netWorth": 4.1 },
-    { "year": 2024, "netWorth": 4.2 },
-    { "year": 2025, "netWorth": 4.3 }
+    {
+      "year": 2010,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2014,
+      "netWorth": 1.5
+    },
+    {
+      "year": 2018,
+      "netWorth": 1.4
+    },
+    {
+      "year": 2021,
+      "netWorth": 3.7
+    },
+    {
+      "year": 2023,
+      "netWorth": 4.1
+    },
+    {
+      "year": 2024,
+      "netWorth": 4.2
+    },
+    {
+      "year": 2025,
+      "netWorth": 4.3
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "I built a quiet business for forty years. Now I get to be loud. Both are mine.",
@@ -196,12 +215,10 @@
       "source": "https://www.forbes.com/profile/stewart-rahr/"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Gye-Hae day pillar in an In month forms a 'jeongin-gyeok' chart — small water drawing from spring wood, fitting a life of patient quiet enterprise that was then transformed by a single decision into loud philanthropy and visibility.",
     "summaryKo": "계해 일주가 인월에 자리잡은 정인격(어머니·학문·가족 토대 자본이 평생 자본의 근간이 되는 구조)은 아버지 잭의 작은 Kinray를 토대로 평생을 조용히 키운 후 단일 결정(2010 매각)으로 인생을 180도 전환한 그의 인생과 호응합니다. 계수 일간은 작은 흐름의 물·세부의 기질로 도매업자의 일관된 운영 규율을 깔고 있고, 일지·월지 모두 인목·해수의 인성 자리에 가까워 평생 가족 자본(아버지의 회사)이 핵심 토대라는 점을 그대로 그려냅니다. 연주 병술의 병화·술토가 정재(고정 자본)·정관(공식 권위)으로 의약품 도매 규제 산업 안에서 일관되게 자본을 누적한 패턴을 설명. 월간 경금이 정인으로 가족·아버지 자본을 거듭 강화. 약점은 정인격이 사이클 변화에 느리게 반응한다는 점인데, 2010년 매각 후 갑작스러운 인격 전환과 2014년 형사 사건이 그 그늘로 읽힙니다."

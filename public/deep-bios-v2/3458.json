@@ -36,37 +36,43 @@
       "year": 1981,
       "event": "Founded Wonik Trading at age 27",
       "eventKo": "27세에 원익통상 설립",
-      "whyItMatteredKo": "본인 사업 출발."
+      "whyItMatteredKo": "본인 사업 출발.",
+      "age": 27
     },
     {
       "year": 1985,
       "event": "Acquired Korea QME — entered semiconductor parts business",
       "eventKo": "한국QME 인수 — 반도체 부품 사업 진출",
-      "whyItMatteredKo": "본업 전환의 결정적 계기. 삼성 하청업체에서 시작."
+      "whyItMatteredKo": "본업 전환의 결정적 계기. 삼성 하청업체에서 시작.",
+      "age": 31
     },
     {
       "year": 2010,
       "event": "Wonik IPS leading domestic semiconductor equipment supplier",
       "eventKo": "원익IPS 한국 반도체 장비 1위급",
-      "whyItMatteredKo": "삼성·SK하이닉스 직거래 핵심 공급자."
+      "whyItMatteredKo": "삼성·SK하이닉스 직거래 핵심 공급자.",
+      "age": 56
     },
     {
       "year": 2024,
       "event": "Wonik Group total revenue ~KRW 2.5 trillion; 2nd-gen succession in progress",
       "eventKo": "원익그룹 총매출 약 2.5조원; 2세 경영 진입",
-      "whyItMatteredKo": "본인 70세에 그룹 매출 2.5조원. 자녀 3명 핵심 임원 진입."
+      "whyItMatteredKo": "본인 70세에 그룹 매출 2.5조원. 자녀 3명 핵심 임원 진입.",
+      "age": 70
     }
   ],
   "turningPoints": [
     {
       "year": 1985,
       "eventKo": "한국QME 인수 — 반도체 부품 진출",
-      "impactKo": "본업 전환의 결정적 계기."
+      "impactKo": "본업 전환의 결정적 계기.",
+      "age": 31
     },
     {
       "year": 2024,
       "eventKo": "2세 경영 진입",
-      "impactKo": "후계 작업 본격화."
+      "impactKo": "후계 작업 본격화.",
+      "age": 70
     }
   ],
   "moneyMechanics": {
@@ -86,12 +92,25 @@
   },
   "failures": [],
   "wealthHistory": [
-    {"year": 2024, "netWorth": "약 8,000억원", "sourceKo": "Forbes Korea"},
-    {"year": 2025, "netWorth": "$0.6B (약 0.85조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2024,
+      "netWorth": "약 8,000억원",
+      "sourceKo": "Forbes Korea"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$0.6B (약 0.85조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": [],
-  "personalTraitsKo": ["반도체 부품 1세대", "삼성 하청에서 대기업으로", "원익그룹 창업주", "2세 경영 진입"],
+  "personalTraitsKo": [
+    "반도체 부품 1세대",
+    "삼성 하청에서 대기업으로",
+    "원익그룹 창업주",
+    "2세 경영 진입"
+  ],
   "characterKo": {
     "strengths": "삼성 하청업체에서 시작해 매출 2.5조원 그룹으로 키운 자수성가. 반도체 장비·소재 풀 라인업. 자녀 3명의 분업 경영.",
     "weaknesses": "단일 산업(반도체) 의존도. 글로벌 경쟁. 후계 작업의 시간 필요.",

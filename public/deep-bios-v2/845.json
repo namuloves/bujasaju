@@ -5,7 +5,6 @@
   "netWorth": 4.9,
   "nationality": "US",
   "industry": "Finance & Investments",
-
   "childhood": {
     "birthPlace": "United States",
     "birthPlaceKo": "미국",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "초기 경력으로 매킨지 매니지먼트 컨설팅, 이후 Summit Partners 사모펀드 근무. 2000년대 초 소프트웨어·기술 부문 투자 전문성 구축. 2005년 Thoma Bravo(당시 Thoma Cressey Bravo) 합류 — Orlando Bravo가 회사의 소프트웨어 중심 PE 전환을 시작한 직후.",
     "source": "https://www.thomabravo.com ; https://www.forbes.com/profile/seth-boro/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 McKinsey·Summit Partners 시기의 시니어 보수. 본격적인 부는 2005년 Thoma Bravo 합류 후 회사가 글로벌 톱티어 소프트웨어 중심 사모펀드로 변환되면서 누적된 다년간 carry — Thoma Bravo의 펀드들이 1,000억 달러+ AUM 규모로 성장하면서 매니징 파트너 carry가 거대해짐.",
     "source": "https://www.thomabravo.com"
   },
-
   "careerTimeline": [
     {
       "year": 1997,
@@ -122,7 +119,6 @@
       "source": "https://www.thomabravo.com"
     }
   ],
-
   "turningPoints": [
     {
       "year": 2005,
@@ -149,7 +145,6 @@
       "source": "https://www.thomabravo.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Thoma Bravo(비공개 SW 중심 사모펀드 회사) 매니징 파트너 carry — 다수 vintage 펀드(XI: 76억 달러 · XII: 126억 달러 · XIV: 178억 달러 · XV: 243억 달러 등)의 carry 누적. 회사 AUM 1,300억 달러+. 본인 자산의 거의 전부가 누적 carry + GP commitment.",
     "industryKo": "사모펀드(소프트웨어·기술 중심 바이아웃)",
@@ -157,7 +152,6 @@
     "moatKo": "① 20년 누적된 SW PE 거래·운영 노하우. ② Thoma Bravo의 글로벌 SW PE 톱티어 평판. ③ 1,300억 달러+ AUM의 규모 우위. ④ Orlando Bravo·Lee Mitchell 등과의 매니징 파트너 분담 거버넌스.",
     "luckVsSkillKo": "운(35%): 2005년 SW PE 전략 직전 합류한 시기, 2010년대 SW 산업이 메가 사이클이었던 거시 환경, 매수 → IPO/매각 사이클이 모두 자신에게 유리하게 작동. 실력(65%): 20년 단일 회사·단일 산업 집중, 매니징 파트너로의 승진 결정의 일관성, 거대 거래 주도 능력, SW 산업 깊이의 전문성."
   },
-
   "personalTraits": {
     "knownFor": "Managing Partner at Thoma Bravo — one of the world's largest software-focused private equity firms; key dealmaker on transactions including Anaplan, Coupa Software, Compuware, and Dynatrace; one of the largest accumulated-carry PE professionals among non-founders.",
     "knownForKo": "세계 최대 SW 중심 사모펀드 회사 중 하나 Thoma Bravo의 매니징 파트너. Anaplan·Coupa Software·Compuware·Dynatrace 등 거래의 핵심 거래자. 비창립자 PE 전문가 중 최대 누적 carry 보유자 중 한 명.",
@@ -166,12 +160,16 @@
     "controversies": "Thoma Bravo's aggressive software-LBO model has faced criticism from US tech labor advocates over post-acquisition headcount reductions at portfolio companies; standard PE-industry critiques over leverage levels and exit returns; no major personal controversies.",
     "controversiesKo": "Thoma Bravo의 공격적 SW LBO 모델이 포트폴리오 회사의 인수 후 인력 감축에 대한 미국 기술 노동 옹호자들의 비판을 받음. 레버리지 수준·매각 수익에 대한 표준 PE 산업 비판. 본인 주요 논란 없음."
   },
-
   "characterKo": {
     "summaryKo": "20년 단일 PE 회사 매니징 파트너 trajectory의 가장 성공적인 사례 중 한 명. 동료들이 말하는 가장 두드러진 특성은 'SW 산업의 거래 디테일에 대한 깊은 운영 지식'과 '미디어 노출이 매우 적은 비공개 일관성'. Thoma Bravo 매니징 파트너 그룹 내에서 가장 활발한 거래 주도자 중 한 명.",
-    "tagsKo": ["20년 매니징 파트너", "SW PE 전문가", "비공개 일관성", "거대 거래 주도자", "carry 누적 전형"]
+    "tagsKo": [
+      "20년 매니징 파트너",
+      "SW PE 전문가",
+      "비공개 일관성",
+      "거대 거래 주도자",
+      "carry 누적 전형"
+    ]
   },
-
   "failures": [
     {
       "year": 2020,
@@ -179,7 +177,8 @@
       "descriptionKo": "2020-2022 인수 파동 동안 일부 Thoma Bravo 포트폴리오 회사들(Anaplan·Coupa 포함)이 기술 부문 압축 직전 SW 평가 정점에서 인수됐다는 비판 — 회사가 2023-2024년 매각 타이밍을 신중히 관리 필요.",
       "lesson": "Even disciplined PE firms can buy at cyclical peaks; exit timing across multiple cycles is its own discipline separate from acquisition acumen.",
       "lessonKo": "규율 있는 PE 회사도 사이클 정점에 매수할 수 있다. 다수 사이클에 걸친 매각 타이밍은 인수 안목과 별개의 규율이다.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 45
     },
     {
       "year": 2022,
@@ -187,18 +186,29 @@
       "descriptionKo": "연준이 금리를 빠르게 인상하면서 기술 부문 LBO 부채 비용 크게 증가 — Thoma Bravo의 레버리지 SW 포트폴리오가 부채 서비스 비용으로부터 마진 압박 흡수, 포트폴리오 회사의 운영 효율성 증가 필요.",
       "lesson": "LBO leverage that was prudent in low-rate environments becomes structurally risky when rates rise; rate-cycle risk is the second-largest variable in PE returns after acquisition pricing.",
       "lessonKo": "저금리 환경에서 신중했던 LBO 레버리지는 금리 상승 시 구조적으로 위험해진다. 금리 사이클 리스크는 인수 가격 후 PE 수익의 두 번째로 큰 변수이다.",
-      "source": "https://www.ft.com"
+      "source": "https://www.ft.com",
+      "age": 47
     }
   ],
-
   "wealthHistory": [
-    { "year": 2022, "netWorth": 1.2 },
-    { "year": 2023, "netWorth": 3.0 },
-    { "year": 2024, "netWorth": 4.5 },
-    { "year": 2025, "netWorth": 4.9 }
+    {
+      "year": 2022,
+      "netWorth": 1.2
+    },
+    {
+      "year": 2023,
+      "netWorth": 3
+    },
+    {
+      "year": 2024,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2025,
+      "netWorth": 4.9
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "Software is the only industry where the asset improves while you own it. PE in software is patient capital meeting product economics.",
@@ -208,12 +218,10 @@
       "source": "https://www.thomabravo.com"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Byeong-In day pillar in a Yu month forms a 'jeongin-gyeok' chart — fire on tiger wood drawing from autumn metal, fitting a software-focused PE managing partner who built carry through 20 years of disciplined deal work within a single firm.",
     "summaryKo": "병인 일주가 유월에 자리잡은 정인격(어머니·학문·인내·지원 자본이 평생 자본의 근간이 되는 구조)은 Harvard MBA + 20년 단일 회사(Thoma Bravo) 누적 carry라는 학문 + 인내 자본의 결합을 그대로 그려냅니다. 병화 일간은 태양·공개적 빛이지만, 일지 인목과 월지 유금의 조합이 편인·정관으로 사적 운영과 공식 권위 환경(LP·SEC·자본 시장 규제)을 동시에 그림. 약점은 정인격이 너무 강하면 자기 표현·미디어 노출이 압축된다는 점인데, 본인 인터뷰가 거의 없는 비공개 일관성이 그 그늘로 읽힙니다."

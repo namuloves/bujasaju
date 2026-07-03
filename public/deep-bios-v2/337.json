@@ -5,7 +5,6 @@
   "netWorth": 9.6,
   "nationality": "NZ",
   "industry": "Finance & Investments",
-
   "childhood": {
     "birthPlace": "Auckland, New Zealand",
     "birthPlaceKo": "뉴질랜드 오클랜드",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "아버지와 함께 견인 트럭 운전사로 일하다 패널 비터(자동차 외판 수리공)로 전환, 20대에 작은 인쇄·문구 사업 시작. 작은 부실 사업을 사 구조조정 후 차익에 매각하는 방식으로 초기 자본 축적 — 향후 수십억 달러 글로벌 사모펀드로 확장될 플레이북.",
     "source": "https://en.wikipedia.org/wiki/Graeme_Hart ; https://www.forbes.com/profile/graeme-hart/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본 없음, 16세 학교 중퇴. 첫 자본은 1980-90년대 뉴질랜드 소규모 사업 인수·구조조정·매각의 누적 수익. 본격적인 부는 1997년 Whitcoulls 인수에서 시작, 이후 Burns Philp(2003), Carter Holt Harvey(2006), Reynolds Group/Pactiv·SIG Combibloc 같은 글로벌 포장재 인수에서 발생.",
     "source": "https://en.wikipedia.org/wiki/Graeme_Hart"
   },
-
   "careerTimeline": [
     {
       "year": 1971,
@@ -115,7 +112,6 @@
       "source": "https://en.wikipedia.org/wiki/Graham_Packaging"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1971,
@@ -150,7 +146,6 @@
       "source": "https://www.bloomberg.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Rank Group(비공개 가족 지주 — 가족 합산 99%+) — Reynolds Consumer Products·Pactiv Evergreen·기타 글로벌 포장 자산. 본인 자산의 거의 전부가 Rank Group 가치. 부차적으로 뉴질랜드 부동산, 글로벌 사모 투자.",
     "industryKo": "포장재(알루미늄 호일·식품 포장·플라스틱 용기), 가족 지주 운영",
@@ -158,7 +153,6 @@
     "moatKo": "① 25년 누적된 LBO·구조조정 노하우. ② 글로벌 포장 산업의 가족 통합 자산. ③ Rank Group 비공개 구조의 의사결정 속도. ④ 다세대 자녀들이 운영에 참여하면서도 본인이 핵심 거래 결정 유지.",
     "luckVsSkillKo": "운(30%): 2010년 Reynolds·Pactiv가 매물로 나온 사이클, 글로벌 포장 산업 통합 트렌드의 거시 환경, 2018-2020년 자산 매각 시점이 사이클 정점이었던 타이밍. 실력(70%): 16세 노동자에서 글로벌 자본가로 변환의 결단, 25년 일관된 LBO 플레이북, 단일 가족 비공개 구조의 의사결정 규율, 매수-구조조정-매각 사이클의 완벽한 집행."
   },
-
   "personalTraits": {
     "knownFor": "Founder and principal of Rank Group; New Zealand's wealthiest person for many years; built the world's largest privately owned packaging empire through serial leveraged buyouts of Reynolds, Pactiv, SIG Combibloc, Graham Packaging, and other major packaging companies; school dropout at 16 who later returned to earn an MBA.",
     "knownForKo": "Rank Group 창립자·주역. 수년간 뉴질랜드 최고 부자. Reynolds·Pactiv·SIG Combibloc·Graham Packaging 등 주요 포장 회사의 연속 차입 매수를 통해 세계 최대 사설 포장 제국 구축. 16세 학교 중퇴 후 훗날 MBA 취득.",
@@ -167,12 +161,16 @@
     "controversies": "Reynolds Group debt levels in the 2010s drew bond-market and rating-agency scrutiny; some LBO targets faced workforce reductions and operational changes that drew union and community criticism in the US and Europe; New Zealand wealth-concentration debate periodically focuses on Hart given his dominance in NZ rich lists.",
     "controversiesKo": "2010년대 Reynolds Group 부채 수준이 채권 시장·신용 평가 기관 감시 받음. 일부 LBO 대상이 미국·유럽에서 노조·지역 사회 비판을 받은 인력 감축·운영 변경. 뉴질랜드 부 집중 논쟁이 NZ 부자 명단에서의 그의 지배력 때문에 주기적으로 그를 표적."
   },
-
   "characterKo": {
     "summaryKo": "노동자 출신의 LBO 거래자가 비공개 일관성을 25년 유지한 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '인터뷰가 사실상 0에 가까운 비공개 일관성'과 '거대 거래의 모든 디테일을 본인이 직접 검토하는 운영 깊이'. 뉴질랜드 자본가로서의 정체성을 의도적으로 유지.",
-    "tagsKo": ["16세 중퇴자", "25년 LBO 거래자", "비공개 일관성", "글로벌 포장 통합자", "뉴질랜드 자수성가"]
+    "tagsKo": [
+      "16세 중퇴자",
+      "25년 LBO 거래자",
+      "비공개 일관성",
+      "글로벌 포장 통합자",
+      "뉴질랜드 자수성가"
+    ]
   },
-
   "failures": [
     {
       "year": 2013,
@@ -180,7 +178,8 @@
       "descriptionKo": "Reynolds Group 부채가 정점에 190억 달러 초과 — 반복적 신용 등급 강등과 차입 구조 지속가능성에 대한 채권 시장 우려. 레버리지를 관리 가능한 수준으로 가져오는 데 수년의 재금융·선별적 자산 매각 필요.",
       "lesson": "Aggressive LBO leverage that worked through one credit cycle becomes structurally fragile through the next; multi-year debt management is its own discipline separate from acquisition skill.",
       "lessonKo": "한 신용 사이클을 통과한 공격적 LBO 레버리지는 다음 사이클을 통해 구조적으로 취약해진다. 다년간 부채 관리는 인수 능력과 별개의 규율이다.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 58
     },
     {
       "year": 2017,
@@ -188,7 +187,8 @@
       "descriptionKo": "미국 일부 Pactiv 공장이 인력 감축·통합 압박에 직면 — 노조 반대와 정치적 비판(특히 중서부 제조 공동체). 효율성 주도 통합의 LBO 플레이북은 예측 가능한 노동 비용을 동반.",
       "lesson": "Industrial consolidation creates community-level political costs that are not priced in standard LBO models; these costs return as future regulatory and ESG headwinds.",
       "lessonKo": "산업 통합은 표준 LBO 모델에 가격 책정되지 않은 공동체 수준의 정치적 비용을 만든다. 이 비용은 미래 규제·ESG 역풍으로 돌아온다.",
-      "source": "https://www.reuters.com"
+      "source": "https://www.reuters.com",
+      "age": 62
     },
     {
       "year": 2020,
@@ -196,21 +196,41 @@
       "descriptionKo": "Reynolds Consumer Products 2020년 1월 IPO가 가격 범위 하단에서 책정 — 포장 부문 평가 압축으로 첫 18개월 동안 동종 대비 부진. 성공적인 운영도 공개 시장 매각에 시장 타이밍 리스크에 직면함을 입증.",
       "lesson": "An IPO is a single trading day's pricing; underlying business value can be uncorrelated to that pricing for months or years; multi-stage exit strategy must price in market-timing variance.",
       "lessonKo": "IPO는 단일 거래일의 가격 결정이다. 기저 사업 가치는 그 가격과 수개월 또는 수년 동안 비상관일 수 있다. 다단계 매각 전략은 시장 타이밍 변동성을 가격에 반영해야 한다.",
-      "source": "https://en.wikipedia.org/wiki/Reynolds_Consumer_Products"
+      "source": "https://en.wikipedia.org/wiki/Reynolds_Consumer_Products",
+      "age": 65
     }
   ],
-
   "wealthHistory": [
-    { "year": 2010, "netWorth": 5.5 },
-    { "year": 2015, "netWorth": 7.3 },
-    { "year": 2018, "netWorth": 8.0 },
-    { "year": 2021, "netWorth": 9.6 },
-    { "year": 2023, "netWorth": 9.0 },
-    { "year": 2024, "netWorth": 11.7 },
-    { "year": 2025, "netWorth": 9.6 }
+    {
+      "year": 2010,
+      "netWorth": 5.5
+    },
+    {
+      "year": 2015,
+      "netWorth": 7.3
+    },
+    {
+      "year": 2018,
+      "netWorth": 8
+    },
+    {
+      "year": 2021,
+      "netWorth": 9.6
+    },
+    {
+      "year": 2023,
+      "netWorth": 9
+    },
+    {
+      "year": 2024,
+      "netWorth": 11.7
+    },
+    {
+      "year": 2025,
+      "netWorth": 9.6
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "I left school at 16. The school of leveraged buyouts teaches everything else.",
@@ -220,12 +240,10 @@
       "source": "https://www.forbes.com/profile/graeme-hart/"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Mu-Sul day pillar in a Sa month forms a 'sanggwan-gyeok' chart — vast earth under summer fire authority, fitting a self-taught operator who built a global empire through aggressive yet patient creative restructuring across multiple market cycles.",
     "summaryKo": "무술 일주가 사월에 자리잡은 상관격(자기 표현·창의력이 정해진 권위를 넘어 흘러가는 구조)은 16세 중퇴자가 LBO라는 비정통 경로로 글로벌 포장 제국을 구축한 그의 인생과 호응합니다. 무토 일간은 큰 산·안정된 흙의 기질로 거대 자산 인수의 든든한 토대 역할과 잘 맞고, 일지·월지의 술토·사화 안에 정관·정인·상관의 결합이 있어 — 공식 권위(자본 시장 규제)·학문(MBA)·자기 표현(LBO 거래 디자인)이 한 자리에 묶여 있는 구조를 그대로 그려냅니다. 월간 신금이 상관으로 자기 표현(거래 구조 설계)의 강한 동력. 연주 을미의 을목·미토가 정관·겁재로 공식 권위 환경과 동료(가족·운영진)의 자리. 약점은 상관격이 너무 강하면 정관(공식 권위)과 충돌할 수 있다는 점인데, 2013년 Reynolds 부채 수준에 대한 신용 평가·채권 시장 감시가 그 표면화로 읽힙니다."

@@ -14,27 +14,82 @@
   "childhood": {
     "summaryKo": "1981년 홍콩에서 태어났습니다. 부친은 신훙지 부동산 2세대 토머스 쾅의 친척이고, 본인은 가문 3세대 후계자입니다. 영국 유학을 거친 정통 후계자 트랙입니다.",
     "capitalTypeKo": "재벌 3세대 — 신훙지 부동산 가족 자본을 잇는 운영형 후계자입니다.",
-    "sources": ["https://en.wikipedia.org/wiki/Sun_Hung_Kai_Properties"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sun_Hung_Kai_Properties"
+    ]
   },
   "capitalOrigin": {
     "type": "inherited",
     "typeKo": "상속",
     "descriptionKo": "2010년대 신훙지 부동산 합류, 2014년 부친 토머스 쾅 5년형 확정 직후 가족 자본 운영의 한 축으로 자리잡았습니다. 2018년 이후 신훙지 임원으로 가족 자본 운영을 분담하고 있습니다.",
     "selfMadeScore": 2,
-    "sources": ["https://www.shkp.com"]
+    "sources": [
+      "https://www.shkp.com"
+    ]
   },
   "careerTimeline": [
-    {"year": 2008, "event": "Joins Sun Hung Kai Properties", "eventKo": "신훙지 부동산 가족 사업 합류 (추정)", "whyItMatteredKo": "기유 일주의 작은 흙 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 출발점입니다."},
-    {"year": 2014, "event": "Father Thomas Kwok convicted; family role solidifies", "eventKo": "부친 토머스 쾅 5년형 확정 직후 가족 운영의 한 축으로 부상", "whyItMatteredKo": "외부 시스템(법·규제)이 본인 결단의 정점으로 환원된 결정적 분기점입니다."},
-    {"year": 2018, "event": "Becomes director at SHKP", "eventKo": "신훙지 이사 정식 취임", "whyItMatteredKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 결정적 결단입니다."},
-    {"year": 2019, "event": "Father Thomas released from prison", "eventKo": "부친 토머스 쾅 출소, 가족 자본 운영 정상화", "whyItMatteredKo": "외부 시스템과의 충돌이 단계적으로 통과된 시기입니다."},
-    {"year": 2022, "event": "Hong Kong property cycle tests SHKP valuations", "eventKo": "홍콩 부동산 사이클 다운으로 신훙지 시가총액 시험기", "whyItMatteredKo": "본업이 거시 사이클의 시험을 받은 시기입니다."},
-    {"year": 2024, "event": "Family wealth maintained amid recovery", "eventKo": "신훙지 가족 자본 안정 유지", "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다."}
+    {
+      "year": 2008,
+      "event": "Joins Sun Hung Kai Properties",
+      "eventKo": "신훙지 부동산 가족 사업 합류 (추정)",
+      "whyItMatteredKo": "기유 일주의 작은 흙 일간이 외부에 자기 결과물을 발산하는 흐름을 본인 사업으로 환원한 출발점입니다.",
+      "age": 27
+    },
+    {
+      "year": 2014,
+      "event": "Father Thomas Kwok convicted; family role solidifies",
+      "eventKo": "부친 토머스 쾅 5년형 확정 직후 가족 운영의 한 축으로 부상",
+      "whyItMatteredKo": "외부 시스템(법·규제)이 본인 결단의 정점으로 환원된 결정적 분기점입니다.",
+      "age": 33
+    },
+    {
+      "year": 2018,
+      "event": "Becomes director at SHKP",
+      "eventKo": "신훙지 이사 정식 취임",
+      "whyItMatteredKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 결정적 결단입니다.",
+      "age": 37
+    },
+    {
+      "year": 2019,
+      "event": "Father Thomas released from prison",
+      "eventKo": "부친 토머스 쾅 출소, 가족 자본 운영 정상화",
+      "whyItMatteredKo": "외부 시스템과의 충돌이 단계적으로 통과된 시기입니다.",
+      "age": 38
+    },
+    {
+      "year": 2022,
+      "event": "Hong Kong property cycle tests SHKP valuations",
+      "eventKo": "홍콩 부동산 사이클 다운으로 신훙지 시가총액 시험기",
+      "whyItMatteredKo": "본업이 거시 사이클의 시험을 받은 시기입니다.",
+      "age": 41
+    },
+    {
+      "year": 2024,
+      "event": "Family wealth maintained amid recovery",
+      "eventKo": "신훙지 가족 자본 안정 유지",
+      "whyItMatteredKo": "외부 압력을 자본으로 변환하는 만년 흐름이 정점에 도달한 시기입니다.",
+      "age": 43
+    }
   ],
   "turningPoints": [
-    {"year": 2014, "eventKo": "부친 토머스 쾅 5년형 확정", "impactKo": "기유 일주의 작은 흙 일간이 외부 시스템(법·규제)을 본인 결단의 정점으로 환원한 결정적 결단입니다."},
-    {"year": 2018, "eventKo": "신훙지 이사 정식 취임", "impactKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 분기점입니다."},
-    {"year": 2019, "eventKo": "부친 출소", "impactKo": "외부 시스템과의 충돌이 단계적으로 통과된 만년의 결단입니다."}
+    {
+      "year": 2014,
+      "eventKo": "부친 토머스 쾅 5년형 확정",
+      "impactKo": "기유 일주의 작은 흙 일간이 외부 시스템(법·규제)을 본인 결단의 정점으로 환원한 결정적 결단입니다.",
+      "age": 33
+    },
+    {
+      "year": 2018,
+      "eventKo": "신훙지 이사 정식 취임",
+      "impactKo": "안정 자산 축적의 흐름이 본인 운영 자본으로 정식 환원된 분기점입니다.",
+      "age": 37
+    },
+    {
+      "year": 2019,
+      "eventKo": "부친 출소",
+      "impactKo": "외부 시스템과의 충돌이 단계적으로 통과된 만년의 결단입니다.",
+      "age": 38
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "홍콩 상장사 신훙지 부동산(0016) 가족 신탁 본인 지분에서 나오는 주가 가치와 배당이 자산의 핵심입니다.",
@@ -43,18 +98,58 @@
     "currentAssetAllocationKo": "신훙지 가족 신탁 본인 지분이 자산의 절대 비중. 가족 공동 보유 구조입니다."
   },
   "failures": [
-    {"year": 2014, "descriptionKo": "부친 토머스 쾅의 ICAC 5년형 확정으로 가족 자본의 운영자 정체성이 시험받았습니다.", "howTheyOvercameKo": "본인이 가족 운영의 한 축으로 자리잡고 단계적 통과로 회복했습니다.", "lessonKo": "외부 시스템(법·규제)은 가족 자본의 한 부분을 직접 시험할 수 있습니다."},
-    {"year": 2020, "descriptionKo": "코로나로 홍콩 도심 부동산 임대 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "장기 임대 비중 강화로 통과했습니다.", "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다."},
-    {"year": 2022, "descriptionKo": "홍콩 부동산 사이클 다운으로 신훙지 시가총액이 정점 대비 큰 폭으로 조정됐습니다.", "howTheyOvercameKo": "다중 자산 보유와 단계적 회복으로 통과 중입니다.", "lessonKo": "단일 시장 의존은 정책 사이클 한 번에 자본 가치가 흔들립니다."}
+    {
+      "year": 2014,
+      "descriptionKo": "부친 토머스 쾅의 ICAC 5년형 확정으로 가족 자본의 운영자 정체성이 시험받았습니다.",
+      "howTheyOvercameKo": "본인이 가족 운영의 한 축으로 자리잡고 단계적 통과로 회복했습니다.",
+      "lessonKo": "외부 시스템(법·규제)은 가족 자본의 한 부분을 직접 시험할 수 있습니다.",
+      "age": 33
+    },
+    {
+      "year": 2020,
+      "descriptionKo": "코로나로 홍콩 도심 부동산 임대 수요가 단기 위축됐습니다.",
+      "howTheyOvercameKo": "장기 임대 비중 강화로 통과했습니다.",
+      "lessonKo": "거시 충격은 본업 매출 카테고리 구성에 따라 차별화됩니다.",
+      "age": 39
+    },
+    {
+      "year": 2022,
+      "descriptionKo": "홍콩 부동산 사이클 다운으로 신훙지 시가총액이 정점 대비 큰 폭으로 조정됐습니다.",
+      "howTheyOvercameKo": "다중 자산 보유와 단계적 회복으로 통과 중입니다.",
+      "lessonKo": "단일 시장 의존은 정책 사이클 한 번에 자본 가치가 흔들립니다.",
+      "age": 41
+    }
   ],
   "wealthHistory": [
-    {"year": 2014, "netWorth": "$1B", "sourceKo": "가족 운영 합류 시기 추정"},
-    {"year": 2018, "netWorth": "$1.8B", "sourceKo": "이사 취임 후 추정"},
-    {"year": 2022, "netWorth": "$1.9B", "sourceKo": "포브스 추정"},
-    {"year": 2026, "netWorth": "$2.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+    {
+      "year": 2014,
+      "netWorth": "$1B",
+      "sourceKo": "가족 운영 합류 시기 추정"
+    },
+    {
+      "year": 2018,
+      "netWorth": "$1.8B",
+      "sourceKo": "이사 취임 후 추정"
+    },
+    {
+      "year": 2022,
+      "netWorth": "$1.9B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$2.2B",
+      "sourceKo": "포브스 2026 빌리어네어즈"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["신훙지 이사", "쾅 가문 3세대", "토머스 쾅 가족", "1981년생 후계자", "재벌 3세대"],
+  "personalTraitsKo": [
+    "신훙지 이사",
+    "쾅 가문 3세대",
+    "토머스 쾅 가족",
+    "1981년생 후계자",
+    "재벌 3세대"
+  ],
   "characterKo": {
     "strengths": "2008년 신훙지 합류 후 부친 ICAC 사건 통과와 함께 가족 자본의 한 축으로 자리잡은 끈기와, 영국 학습 깊이를 본업 운영의 토대로 결합한 협상력이 강점입니다.",
     "weaknesses": "외부 시스템(법·규제)과의 충돌이 가족 자본의 운영자 정체성을 한 번에 시험한 위험으로 만년에 현실화됐습니다.",

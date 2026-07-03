@@ -5,7 +5,6 @@
   "netWorth": 6.6,
   "nationality": "US",
   "industry": "Technology",
-
   "childhood": {
     "birthPlace": "United States",
     "birthPlaceKo": "미국",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "스탠퍼드 재학 중 1980년대 후반 실리콘밸리 붐 동안 청년기. 대학 과제·그룹 프로젝트의 일환으로 첫 소프트웨어 프로토타입 구축 — CPQ(configure-price-quote) 소프트웨어 개념이 스탠퍼드 학부 시절 개발됐고 Trilogy의 토대가 됨.",
     "source": "https://en.wikipedia.org/wiki/Joe_Liemandt ; https://en.wikipedia.org/wiki/Trilogy_(software_company) ; https://www.forbes.com/profile/joe-liemandt/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1989년 Trilogy Software 창업 후 1990년대 후반 엔터프라이즈 소프트웨어 붐 시기의 회사 가치 폭증. 본격적인 부는 2000년대 ESW Capital(Enterprise Software Acquisitions)로 회사를 변환해 부실 엔터프라이즈 SW 회사를 인수·통합하는 사모펀드 모델로 누적된 부.",
     "source": "https://en.wikipedia.org/wiki/Trilogy_(software_company)"
   },
-
   "careerTimeline": [
     {
       "year": 1989,
@@ -114,7 +111,6 @@
       "source": "https://en.wikipedia.org/wiki/Joe_Liemandt"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1989,
@@ -149,7 +145,6 @@
       "source": "https://www.crossover.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "ESW Capital(100% 비공개 리맨트 단독 소유) — 75+ 인수 엔터프라이즈 SW 회사 포트폴리오. 회사 합산 매출 10억 달러+ 연. Crossover Workplace 글로벌 원격 인재 플랫폼이 운영의 핵심 차별화.",
     "industryKo": "엔터프라이즈 소프트웨어 인수·운영(사모펀드 스타일)",
@@ -157,7 +152,6 @@
     "moatKo": "① 75+ 회사 누적된 인수·운영 노하우. ② Crossover Workplace의 글로벌 인재 풀 — 신규 진입자가 따라잡기 어려움. ③ 비공개 단독 소유의 의사결정 속도와 인내. ④ 36년 누적된 엔터프라이즈 SW 산업 지식.",
     "luckVsSkillKo": "운(30%): 1989년 엔터프라이즈 SW 산업이 통합 직전이었던 타이밍, 2001 닷컴 붕괴가 부실 자산 매수 기회 창출, 2020 COVID이 Crossover 원격 모델 검증. 실력(70%): 21세 스탠퍼드 중퇴의 결단, 1995 오스틴 이전의 반대 베팅, 2001 사업 모델 변환의 결정, 36년 비공개 일관성, Crossover 글로벌 인재 플랫폼 설계."
   },
-
   "personalTraits": {
     "knownFor": "Founder of Trilogy Software (1989) and ESW Capital — a private enterprise software holding company that has acquired and operated 75+ enterprise SW companies; founder of Crossover Workplace, a global remote-work talent platform that anticipated the post-2020 remote-work shift by a decade; one of America's most low-profile self-made billionaires.",
     "knownForKo": "Trilogy Software(1989)와 ESW Capital 창립자 — 75+ 엔터프라이즈 SW 회사를 인수·운영한 사설 엔터프라이즈 SW 지주 회사. 2020년 후 원격 근무 전환을 10년 일찍 예측한 글로벌 원격 근무 인재 플랫폼 Crossover Workplace 창립자. 미국 가장 노출 적은 자수성가 억만장자 중 한 명.",
@@ -166,12 +160,16 @@
     "controversies": "Trilogy's aggressive workplace culture in the 1990s and Crossover's global wage-arbitrage model drew criticism from US tech labor advocates over offshoring; portfolio companies have occasionally faced customer-relationship issues during cost-reduction transitions; standard enterprise-SW industry consolidation debates.",
     "controversiesKo": "Trilogy의 1990년대 공격적 일터 문화와 Crossover의 글로벌 임금 차익 모델이 오프쇼어링에 대한 미국 기술 노동 옹호자들의 비판을 받음. 포트폴리오 회사들이 비용 감소 전환 동안 간헐적 고객 관계 문제. 표준 엔터프라이즈 SW 산업 통합 논쟁."
   },
-
   "characterKo": {
     "summaryKo": "36년 비공개 일관성을 유지한 단일 창업자 사모펀드 운영자의 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '본인 인터뷰가 사실상 0에 가까운 비공개 일관성'과 '21세 스탠퍼드 중퇴 결정의 동력이 36년 후에도 운영 결정의 일관성으로 남아 있는 점'. 오스틴 기술 생태계의 가장 비공개적인 거물 중 한 명.",
-    "tagsKo": ["스탠퍼드 중퇴자", "오스틴 비공개 거물", "75+ SW 인수자", "원격 근무 10년 선구자", "단독 가족 사모펀드"]
+    "tagsKo": [
+      "스탠퍼드 중퇴자",
+      "오스틴 비공개 거물",
+      "75+ SW 인수자",
+      "원격 근무 10년 선구자",
+      "단독 가족 사모펀드"
+    ]
   },
-
   "failures": [
     {
       "year": 2001,
@@ -179,7 +177,8 @@
       "descriptionKo": "Trilogy Software 평가가치가 닷컴 버블 붕괴 동안 10억 달러+에서 일부 분의 1로 붕괴 — 회사의 1990년대 후반 엔터프라이즈 고객들이 예산을 가파르게 감축, 리맨트가 상당한 평가절하·정리해고 흡수 필요.",
       "lesson": "Even successful enterprise SW companies are exposed to customer-budget cycles; the lesson taught Liemandt to pivot from product business to acquisition-platform business that benefits from downturns.",
       "lessonKo": "성공적인 엔터프라이즈 SW 회사도 고객 예산 사이클에 노출된다. 그 교훈이 리맨트를 제품 사업에서 침체기에 이익을 얻는 인수 플랫폼 사업으로 전환시켰다.",
-      "source": "https://en.wikipedia.org/wiki/Trilogy_(software_company)"
+      "source": "https://en.wikipedia.org/wiki/Trilogy_(software_company)",
+      "age": 33
     },
     {
       "year": 2015,
@@ -187,20 +186,37 @@
       "descriptionKo": "일부 ESW Capital 포트폴리오 회사들의 공격적 비용 감소가 고객 관계 손상·품질 우려 야기 — 특정 시장에서 모델이 엔터프라이즈 SW 고객을 포로 매출 추출 표적으로 다룬다는 산업 비판을 받음.",
       "lesson": "Aggressive operational cost-cutting in acquired enterprise software companies creates customer-base attrition risk that erodes long-term cash-flow value; financial discipline and customer trust are not always aligned.",
       "lessonKo": "인수된 엔터프라이즈 SW 회사의 공격적 운영 비용 감소는 장기 현금 흐름 가치를 잠식하는 고객 베이스 마모 리스크를 만든다. 재무 규율과 고객 신뢰가 늘 정렬되지는 않는다.",
-      "source": "https://www.esw.com"
+      "source": "https://www.esw.com",
+      "age": 47
     }
   ],
-
   "wealthHistory": [
-    { "year": 2015, "netWorth": 2.0 },
-    { "year": 2018, "netWorth": 3.2 },
-    { "year": 2020, "netWorth": 4.0 },
-    { "year": 2022, "netWorth": 5.0 },
-    { "year": 2024, "netWorth": 6.2 },
-    { "year": 2025, "netWorth": 6.6 }
+    {
+      "year": 2015,
+      "netWorth": 2
+    },
+    {
+      "year": 2018,
+      "netWorth": 3.2
+    },
+    {
+      "year": 2020,
+      "netWorth": 4
+    },
+    {
+      "year": 2022,
+      "netWorth": 5
+    },
+    {
+      "year": 2024,
+      "netWorth": 6.2
+    },
+    {
+      "year": 2025,
+      "netWorth": 6.6
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "I dropped out of Stanford one semester before graduation. The cost was a degree. The gain was 35 years of compounding.",
@@ -210,12 +226,10 @@
       "source": "https://en.wikipedia.org/wiki/Joe_Liemandt"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Jeong-Mi day pillar in a Mi month forms a 'siksin-gyeok' chart — a candle-flame in summer earth producing steady creative output, fitting a one-founder operator who turned a college dropout decision into a 36-year compounded software-acquisition machine.",
     "summaryKo": "정미 일주가 미월에 자리잡은 식신격(일간이 만들어 내는 식상 에너지가 안정적으로 재물을 생산하는 구조)은 21세 스탠퍼드 중퇴 결정을 36년 복리 소프트웨어 인수 머신으로 변환한 그의 인생과 거의 그대로 호응합니다. 정화 일간은 등불·문헌의 빛이라 분석·문헌·세밀한 빛의 본능을 깔고 있고, 일지·월지의 미토가 식상(자기 표현·생산)을 거듭 — 36년 일관된 SW 인수·운영의 자기 표현이 사주 자체에 새겨져 있습니다. 약점은 식신격이 너무 강하면 정관(공식 권위)과 충돌할 수 있다는 점이지만, 비공개 사적 운영의 일관성이 그 충돌을 피한 패턴으로 읽힙니다."

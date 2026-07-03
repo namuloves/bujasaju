@@ -36,60 +36,70 @@
       "year": 1980,
       "event": "Joined Cheil Industries (Samsung) after Middlebury College",
       "eventKo": "미들베리대 졸업 후 제일제당(삼성) 입사",
-      "whyItMatteredKo": "삼성 외가에서 본격 경력 시작."
+      "whyItMatteredKo": "삼성 외가에서 본격 경력 시작.",
+      "age": 30
     },
     {
       "year": 1990,
       "event": "Joined Hansol Group when mother Lee In-hee spun off from Samsung",
       "eventKo": "모친 이인희가 삼성에서 분가해 만든 한솔그룹에 합류",
-      "whyItMatteredKo": "한솔 4세로의 본격 진입."
+      "whyItMatteredKo": "한솔 4세로의 본격 진입.",
+      "age": 40
     },
     {
       "year": 1997,
       "event": "Led financial business expansion; failed during IMF crisis — pushed out of main succession",
       "eventKo": "금융사업 주도 → IMF로 실패 → 한솔그룹 본가 승계 중심에서 밀려남",
-      "whyItMatteredKo": "본인 인생 최대 좌절. 후일 한솔케미칼 단독 운영의 출발점."
+      "whyItMatteredKo": "본인 인생 최대 좌절. 후일 한솔케미칼 단독 운영의 출발점.",
+      "age": 47
     },
     {
       "year": 2000,
       "event": "Took over Hansol Chemical (한솔케미칼) as Chairman",
       "eventKo": "한솔케미칼 회장 취임",
-      "whyItMatteredKo": "한솔 본가에서 분리된 케미칼 사업 단독 책임."
+      "whyItMatteredKo": "한솔 본가에서 분리된 케미칼 사업 단독 책임.",
+      "age": 50
     },
     {
       "year": 2018,
       "event": "Daughter Cho Yeon-ju (조연주) appointed as Vice President of Hansol Chemical — first Samsung 4th-gen to enter management front",
       "eventKo": "장녀 조연주 한솔케미칼 부사장 취임 — 삼성 4세 중 가장 먼저 경영 전면",
-      "whyItMatteredKo": "장녀 후계 트랙. 한솔 케미칼 차세대 경영의 출발점."
+      "whyItMatteredKo": "장녀 후계 트랙. 한솔 케미칼 차세대 경영의 출발점.",
+      "age": 68
     },
     {
       "year": 2019,
       "event": "Mother Lee In-hee died (age 91)",
       "eventKo": "모친 이인희 작고 (91세)",
-      "whyItMatteredKo": "한솔그룹 분가 1세대 어른의 별세. 가문 후계 구도 본격화."
+      "whyItMatteredKo": "한솔그룹 분가 1세대 어른의 별세. 가문 후계 구도 본격화.",
+      "age": 69
     },
     {
       "year": 2024,
       "event": "Hansol Chemical revenue ~KRW 1 trillion; Cho Yeon-ju promoted to Vice Chairman; Cho Dong-hyuk reportedly considering retirement",
       "eventKo": "한솔케미칼 매출 약 1조원; 조연주 부회장 승진; 조동혁 회장 은퇴 수순 거론",
-      "whyItMatteredKo": "딸 후계 작업 본격화. 본인 인생 후반의 정리 단계."
+      "whyItMatteredKo": "딸 후계 작업 본격화. 본인 인생 후반의 정리 단계.",
+      "age": 74
     }
   ],
   "turningPoints": [
     {
       "year": 1997,
       "eventKo": "IMF 시 금융사업 실패 + 본가 승계 탈락",
-      "impactKo": "본인 인생 최대 좌절. 후일 한솔케미칼 단독 운영의 출발점."
+      "impactKo": "본인 인생 최대 좌절. 후일 한솔케미칼 단독 운영의 출발점.",
+      "age": 47
     },
     {
       "year": 2000,
       "eventKo": "한솔케미칼 회장 취임",
-      "impactKo": "분가의 분가 — 본인 단독 사업 시작."
+      "impactKo": "분가의 분가 — 본인 단독 사업 시작.",
+      "age": 50
     },
     {
       "year": 2018,
       "eventKo": "장녀 조연주 부사장 취임",
-      "impactKo": "삼성가 4세 중 가장 먼저 경영 전면. 후계 작업의 출발점."
+      "impactKo": "삼성가 4세 중 가장 먼저 경영 전면. 후계 작업의 출발점.",
+      "age": 68
     }
   ],
   "moneyMechanics": {
@@ -111,16 +121,31 @@
       "year": 1997,
       "descriptionKo": "IMF 금융사업 실패 — 한솔그룹 본가 승계 중심에서 밀려남",
       "howTheyOvercameKo": "한솔케미칼 단독 운영으로 자기 영역 확보. 24년 운영으로 매출 1조원 회사로 키움.",
-      "lessonKo": "재벌 가문 승계 탈락은 자기만의 영역을 만들어 회복할 수 있다."
+      "lessonKo": "재벌 가문 승계 탈락은 자기만의 영역을 만들어 회복할 수 있다.",
+      "age": 47
     }
   ],
   "wealthHistory": [
-    {"year": 2010, "netWorth": "약 2,000억원", "sourceKo": "한솔케미칼 시총 상승 시점"},
-    {"year": 2025, "netWorth": "$0.5B (약 0.7조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2010,
+      "netWorth": "약 2,000억원",
+      "sourceKo": "한솔케미칼 시총 상승 시점"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$0.5B (약 0.7조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": [],
-  "personalTraitsKo": ["삼성 외가 4세", "한솔 분가의 분가", "IMF 승계 탈락의 회복", "장녀 조연주 후계", "한솔케미칼 24년 운영"],
+  "personalTraitsKo": [
+    "삼성 외가 4세",
+    "한솔 분가의 분가",
+    "IMF 승계 탈락의 회복",
+    "장녀 조연주 후계",
+    "한솔케미칼 24년 운영"
+  ],
   "characterKo": {
     "strengths": "삼성 외가 4세의 정통성. IMF 승계 탈락 후 한솔케미칼 단독 운영으로 매출 1조원 회사로 키운 회복력. 장녀 조연주의 차세대 경영 안정.",
     "weaknesses": "IMF 금융사업 실패의 평판 손상. 한솔 본가 분가의 외부자 위치. 단일 카테고리(반도체 화학) 의존도.",

@@ -5,7 +5,6 @@
   "netWorth": 5.4,
   "nationality": "US",
   "industry": "Logistics",
-
   "childhood": {
     "birthPlace": "Heber Springs, Arkansas, USA",
     "birthPlaceKo": "미국 아칸소주 헤버 스프링스",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "남편 J.B.가 쌀겨 사업 등 다양한 직업에 종사하던 동안 농촌 아칸소에서 결혼 초년 보냄. J.B.와 함께 1961년 J.B. Hunt Transport Services 공동 창립 — 초기 쌀겨 트럭킹, 이후 일반 화물로 확장. 조넬이 회사 사무실 운영·부기 책임, J.B.가 트럭킹 담당.",
     "source": "https://en.wikipedia.org/wiki/Johnnie_Bryan_Hunt ; https://en.wikipedia.org/wiki/J.B._Hunt_Transport_Services ; https://www.forbes.com/profile/johnelle-hunt/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1961년 남편 J.B.와 공동 창립한 트럭킹 회사의 누적 수익. 본격적인 부는 1983년 J.B. Hunt Transport Services의 NYSE 상장과 1990-2010년대 글로벌 인터모달·트럭킹 회사로의 성장에서 발생.",
     "source": "https://en.wikipedia.org/wiki/J.B._Hunt_Transport_Services"
   },
-
   "careerTimeline": [
     {
       "year": 1961,
@@ -114,7 +111,6 @@
       "source": "https://en.wikipedia.org/wiki/J.B._Hunt_Transport_Services"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1961,
@@ -133,7 +129,6 @@
       "source": "https://en.wikipedia.org/wiki/Johnnie_Bryan_Hunt"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "J.B. Hunt Transport Services(NASDAQ 상장, 가족 합산 약 20% 지분) — 미국 톱티어 물류 회사. 연 매출 약 120억 달러. 본인 자산은 가족 합산 + 본인 직접 + 신탁 지분.",
     "industryKo": "물류·운송(인터모달·트럭킹·전용 계약·최종 마일)",
@@ -141,7 +136,6 @@
     "moatKo": "① 1989년 인터모달 트럭킹 개척의 30+년 누적 노하우. ② J.B. Hunt 브랜드의 미국 화물 운송 산업 사실상 동의어. ③ 60년 가족 통제의 다세대 안정성. ④ 미국 전국 인프라(트럭 + 철도 연결).",
     "luckVsSkillKo": "운(40%): 1961년 미국 트럭킹 산업이 통합 직전이었던 타이밍, 1989년 인터모달이 미국 화물 운송의 표준이 된 거시 환경, COVID-19 후 이커머스 물류 수요 부스트. 실력(60%): 부부 공동 경영 45년의 일관성, 1989 인터모달 전략 결단, 사후 남편의 가족 거버넌스 단독 유지, 다세대 승계 설계."
   },
-
   "personalTraits": {
     "knownFor": "Co-founder of J.B. Hunt Transport Services (1961) — one of America's largest logistics companies; widow of Johnnie Bryan Hunt; one of America's wealthiest woman billionaires; major patron of Arkansas higher education (University of Arkansas Sam M. Walton College of Business).",
     "knownForKo": "J.B. Hunt Transport Services(1961) 공동 창립자 — 미국 최대 물류 회사 중 하나. 고 조니 브라이언 헌트의 부인. 미국 가장 부유한 여성 억만장자 중 한 명. 아칸소 고등교육(아칸소 대학교 Sam M. Walton 비즈니스 칼리지) 주요 후원자.",
@@ -150,12 +144,16 @@
     "controversies": "Limited public controversies due to her low-profile role through husband's lifetime and continued reserved profile afterward; J.B. Hunt Transport Services has faced standard trucking-industry labor and safety debates; no major personal scandals.",
     "controversiesKo": "남편 평생의 저자세 역할과 이후 지속된 신중한 프로필로 공개 논란 제한적. J.B. Hunt Transport Services가 표준 트럭킹 산업 노동·안전 논쟁 직면. 본인 개인 스캔들 없음."
   },
-
   "characterKo": {
     "summaryKo": "미국 노동자 계급 여성 자수성가의 가장 오래 지속된 사례 중 한 명. 동료들이 말하는 가장 두드러진 특성은 '남편과의 45년 공동 경영의 일관성'과 '남편 사망 후에도 90대까지 가족 자본의 단독 가부장 정체성 유지'. 아칸소 농촌 출신 비서가 미국 최대 물류 회사 가부장이 된 사례.",
-    "tagsKo": ["여성 자수성가", "60+년 가족 회사", "남편 사망 후 단독 가부장", "아칸소 농촌 출신", "비서에서 가부장으로"]
+    "tagsKo": [
+      "여성 자수성가",
+      "60+년 가족 회사",
+      "남편 사망 후 단독 가부장",
+      "아칸소 농촌 출신",
+      "비서에서 가부장으로"
+    ]
   },
-
   "failures": [
     {
       "year": 2008,
@@ -163,7 +161,8 @@
       "descriptionKo": "J.B. Hunt Transport Services가 화물량이 가파르게 위축되면서 2008 금융위기 동안 잠시 부진 — 회사가 사이클 압박 흡수했지만 회복 후 빠르게 성장 재개.",
       "lesson": "Logistics is structurally exposed to economic cycles; even category-leading companies absorb temporary margin compression during macro shocks.",
       "lessonKo": "물류는 경제 사이클에 구조적으로 노출된다. 카테고리 선도 회사도 거시 충격 시 일시적 마진 압축을 흡수한다.",
-      "source": "https://en.wikipedia.org/wiki/J.B._Hunt_Transport_Services"
+      "source": "https://en.wikipedia.org/wiki/J.B._Hunt_Transport_Services",
+      "age": 76
     },
     {
       "year": 2023,
@@ -171,20 +170,37 @@
       "descriptionKo": "팬데믹 후 화물 침체로 화물량 정상화·트럭킹 용량이 수요 초과하면서 2023-2024년 J.B. Hunt 매출 성장과 인터모달 가격이 압축됨.",
       "lesson": "Even pioneer logistics firms face capacity-cycle downturns following demand surges.",
       "lessonKo": "개척자 물류 회사도 수요 급증 후 용량 사이클 침체를 직면한다.",
-      "source": "https://www.jbhunt.com"
+      "source": "https://www.jbhunt.com",
+      "age": 91
     }
   ],
-
   "wealthHistory": [
-    { "year": 2010, "netWorth": 1.8 },
-    { "year": 2015, "netWorth": 2.4 },
-    { "year": 2018, "netWorth": 3.0 },
-    { "year": 2022, "netWorth": 4.5 },
-    { "year": 2024, "netWorth": 5.4 },
-    { "year": 2025, "netWorth": 5.4 }
+    {
+      "year": 2010,
+      "netWorth": 1.8
+    },
+    {
+      "year": 2015,
+      "netWorth": 2.4
+    },
+    {
+      "year": 2018,
+      "netWorth": 3
+    },
+    {
+      "year": 2022,
+      "netWorth": 4.5
+    },
+    {
+      "year": 2024,
+      "netWorth": 5.4
+    },
+    {
+      "year": 2025,
+      "netWorth": 5.4
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "We started with one truck and a load of rice hulls. Sixty years later you cannot drive across America without seeing our name.",
@@ -194,12 +210,10 @@
       "source": "https://www.jbhunt.com"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "Her Gap-Ja day pillar in a Ja month forms a 'pyeon-gwan-gyeok' chart — tall wood drawing deep winter water under sustained authority, fitting a working-class entrepreneur who co-built one of America's largest logistics companies through 60 years of disciplined operation.",
     "summaryKo": "갑자 일주가 자월에 자리잡은 편관격(강한 외부 권력·압박이 평생 자기 자본을 둘러싸는 구조)은 60+년 트럭킹·물류 산업의 규제·노조·경제 사이클 환경 안에서 가족 자본을 일군 그녀의 인생과 호응합니다. 갑목 일간은 큰 나무·기둥의 기질로 거대 가족 회사의 안정적 가부장 역할과 잘 맞고, 일지·월지 모두 자수(정인)로 어머니·인내·가족 토대 자본이 평생 강한 지지를 한 점을 그대로 그려냅니다. 약점은 편관격이 너무 강하면 자기 자아가 압축된다는 점인데, 남편 평생의 저자세 역할과 90대까지 비공개 일관성이 그 그늘로 읽힙니다."

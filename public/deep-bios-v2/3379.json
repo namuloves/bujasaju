@@ -127,21 +127,24 @@
       "ageAtTime": 22,
       "decisionKo": "씨름 정상에서 은퇴 → 코미디언 전향",
       "alternativeKo": "씨름 코치·감독 트랙으로 갔다면 한 종목 명예 인사로 끝났을 것.",
-      "outcomeKo": "한국 예능 30년 톱 MC. 본인 자산 ₩300억대로 도약."
+      "outcomeKo": "한국 예능 30년 톱 MC. 본인 자산 ₩300억대로 도약.",
+      "age": 22
     },
     {
       "year": 2011,
       "ageAtTime": 41,
       "decisionKo": "탈세 의혹 직후 즉시 잠정은퇴 발표",
       "alternativeKo": "버티며 해명만 했다면 신뢰 회복까지 더 오래 걸렸을 가능성.",
-      "outcomeKo": "1년여 자숙 후 무혐의 + 점진적 복귀, 4년 만에 아는 형님·신서유기로 3차 정점."
+      "outcomeKo": "1년여 자숙 후 무혐의 + 점진적 복귀, 4년 만에 아는 형님·신서유기로 3차 정점.",
+      "age": 41
     },
     {
       "year": 2018,
       "ageAtTime": 48,
       "decisionKo": "출연료 누적 자산을 부동산으로 본격 전환",
       "alternativeKo": "현금·금융자산만 들고 있었다면 강남 시세 상승분 놓침.",
-      "outcomeKo": "신사동 빌딩 6년 운용 — 시세차익은 났지만 임대 사이클은 어려움."
+      "outcomeKo": "신사동 빌딩 6년 운용 — 시세차익은 났지만 임대 사이클은 어려움.",
+      "age": 48
     }
   ],
   "moneyMechanics": {
@@ -178,7 +181,8 @@
       "descriptionKo": "탈세 의혹(후일 무혐의) + 평창 동계올림픽 확정 전 평창 토지 매입 의혹이 겹쳐, 2011년 9월 9일 기자회견에서 잠정은퇴 선언. 1박 2일·무릎팍도사 등 모든 프로그램 동시 하차.",
       "lesson": "Public figures pay double for tax mistakes — once legally, twice in trust. Quick exit can preserve long-term comeback option.",
       "lessonKo": "공인의 세금 실수는 비용이 두 배 — 법적 책임 한 번, 신뢰 손실 한 번. 빠른 자숙이 장기 복귀 옵션을 살리는 길입니다.",
-      "source": "https://news.sbs.co.kr/news/endPage.do?news_id=N1000985975"
+      "source": "https://news.sbs.co.kr/news/endPage.do?news_id=N1000985975",
+      "age": 41
     },
     {
       "year": 2024,
@@ -186,7 +190,8 @@
       "descriptionKo": "2018년 141억에 산 신사동 가로수길 빌딩을 2024년 166억에 매각. 메트로시티 앵커 임대 만료 후 전층 공실. 취득세 6.48억 + 연 보유비용을 빼면 실수익은 미미 — '공실 폭탄 손절'로 평가됨.",
       "lesson": "Single-tenant prime retail buildings can become dead weight overnight when the anchor tenant leaves. Rental income — not capital appreciation alone — has to underwrite the carry.",
       "lessonKo": "단일 임차 핵심 상권 빌딩은 앵커가 떠나면 하룻밤 만에 부담이 됩니다. 시세차익만이 아니라 임대수익이 보유 비용을 받쳐줘야 합니다.",
-      "source": "https://news.mt.co.kr/mtview.php?no=2024121616200437220"
+      "source": "https://news.mt.co.kr/mtview.php?no=2024121616200437220",
+      "age": 54
     },
     {
       "year": 2014,
@@ -194,13 +199,26 @@
       "descriptionKo": "2018년 평창 동계올림픽이 다가오면서 평창 토지 투기 의혹이 미디어에 반복 등장 — 법적 결론과 별개로 본인 이미지 복원에 부담.",
       "lesson": "Acquired-asset paper trails follow celebrities for decades. The optics of a 'speculation' label outlive the legal verdict.",
       "lessonKo": "보유 자산의 페이퍼 트레일은 셀럽을 수십 년 따라다닙니다. '투기'라는 인식의 부담은 법적 결론보다 오래 갑니다.",
-      "source": "http://weekly.khan.co.kr/khnm.html?artid=201403111619471&mode=view"
+      "source": "http://weekly.khan.co.kr/khnm.html?artid=201403111619471&mode=view",
+      "age": 44
     }
   ],
   "wealthHistory": [
-    {"year": 2018, "netWorth": "신사동 빌딩 141억 매입 — 자산 200억대 추정", "sourceKo": "오토트리뷴 2020"},
-    {"year": 2024, "netWorth": "신사동 빌딩 166억 매각 + 출연료 누적", "sourceKo": "머니투데이 2024"},
-    {"year": 2025, "netWorth": "$0.22B (약 300억원)", "sourceKo": "공시 + 추정"}
+    {
+      "year": 2018,
+      "netWorth": "신사동 빌딩 141억 매입 — 자산 200억대 추정",
+      "sourceKo": "오토트리뷴 2020"
+    },
+    {
+      "year": 2024,
+      "netWorth": "신사동 빌딩 166억 매각 + 출연료 누적",
+      "sourceKo": "머니투데이 2024"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$0.22B (약 300억원)",
+      "sourceKo": "공시 + 추정"
+    }
   ],
   "quotes": [],
   "books": {
@@ -213,9 +231,18 @@
     "summaryKo": "강호동의 사주는 을목(작은 풀·갈대) 일간이 미토(늦여름의 마른 흙·양) 위에 놓인 을미 일주입니다. 갈대 같은 부드러움 + 흙심이 결합한 결이라, 1989년 씨름 천하장사 시절의 부드러운 손기술과 30년 후 MC로서 게스트들을 다루는 솜씨가 같은 결에서 나왔다고 읽힙니다. 격국이 편인격(비전통 영역에서 자기 정체성을 만드는 형식)이라, 씨름 → 코미디언 → MC → 부동산 자본가로 네 차례 정체성을 갈아탄 인생 자체가 편인격의 교과서입니다. 월지 미토는 식상의 무덤이자 재물의 창고라, 본인의 '말'(식상)이 깊게 박혀 30년 톱 MC가 된 것과, 그 출연료가 부동산(재고)으로 굳어진 흐름이 동시에 설명됩니다. 2011년 탈세 의혹 잠정은퇴는 편인격 운로의 명예 시험으로, 무혐의 + 4년 후 3차 정점은 편인격이 위기 후 더 단단해지는 패턴과 호응합니다.",
     "interpretationKo": "을미 일주는 마른 흙 위의 갈대로, 부드러운 적응력과 굳센 뿌리를 함께 가진 결. 편인격은 정형 학력·정통 트랙이 아닌 비전통 영역에서 본인 자리를 만드는 패턴이라, 씨름 → 예능 → 자본의 다중 변신이 자연스럽게 풀립니다.",
     "keyEvents": [
-      {"year": 1989, "eventKo": "백두장사 데뷔 — 을목의 부드러움과 미토의 끈기 결합"},
-      {"year": 1993, "eventKo": "코미디언 전향 — 편인격 비전통 정체성 발현"},
-      {"year": 2011, "eventKo": "잠정은퇴·무혐의 — 편인격 명예 시험과 회복"}
+      {
+        "year": 1989,
+        "eventKo": "백두장사 데뷔 — 을목의 부드러움과 미토의 끈기 결합"
+      },
+      {
+        "year": 1993,
+        "eventKo": "코미디언 전향 — 편인격 비전통 정체성 발현"
+      },
+      {
+        "year": 2011,
+        "eventKo": "잠정은퇴·무혐의 — 편인격 명예 시험과 회복"
+      }
     ]
   },
   "sources": [

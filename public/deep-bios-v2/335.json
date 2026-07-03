@@ -5,7 +5,6 @@
   "netWorth": 9.7,
   "nationality": "RU",
   "industry": "Metals & Mining",
-
   "childhood": {
     "birthPlace": "Bukhara, Uzbek SSR, Soviet Union (now Uzbekistan)",
     "birthPlaceKo": "소비에트연방 우즈벡 SSR 부하라(현 우즈베키스탄)",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "소비에트 외무역 조직의 통역사로 경력 시작 — 1980년대 초 리비아 근무 포함. 다국어 능력과 중앙아시아-아랍 사업 중개 경험이 훗날 포스트소비에트 민영화 기회의 토대 네트워크 형성.",
     "source": "https://en.wikipedia.org/wiki/Iskander_Makhmudov ; https://www.forbes.com/profile/iskander-makhmudov/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가 (다만 1990년대 러시아 민영화 환경 수혜자). 출발 자본 없음. 첫 자본은 1980년대 후반-1990년대 초 우즈베키스탄·러시아의 원자재 수출 거래 중개 수익. 본격적인 부는 1999년 우랄 광산-야금학 회사(UMMC, Ural Mining and Metallurgical Company) 창립 후 러시아 구리·아연 산업 수직 통합 통제권 확보.",
     "source": "https://en.wikipedia.org/wiki/Iskander_Makhmudov"
   },
-
   "careerTimeline": [
     {
       "year": 1985,
@@ -116,7 +113,6 @@
       "source": "https://en.wikipedia.org/wiki/UMMC"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1991,
@@ -151,7 +147,6 @@
       "source": "https://www.consilium.europa.eu"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "UMMC(Ural Mining and Metallurgical Company, 비공개) — 러시아 최대 비철금속(구리·아연) 통합 생산자 + 쿠즈바스 석탄. Transmashholding(비공개) — 러시아 최대 철도기계 제조사. 부차적으로 Aeroexpress 등 운송 인프라 자산.",
     "industryKo": "금속·광업(구리·아연·석탄), 운송기계 제조, 인프라",
@@ -159,7 +154,6 @@
     "moatKo": "① 러시아 우랄·시베리아 광산의 수직 통합 운영 — 신규 진입자가 따라잡기 매우 어려움. ② Transmashholding의 러시아 철도 시장 독점적 공급자 지위. ③ 정부 인프라 조달과의 25년 관계. ④ 비공개 운영으로 정치 노출 최소화 (2022 제재 전까지).",
     "luckVsSkillKo": "운(45%): 1991년 소련 붕괴가 그의 다국어 통역사 배경에 정확히 들어맞는 무역 기회 창출, 1999년 우랄 광산 자산이 매물로 나온 사이클, 2008·2014·2020 위기마다 부실 자산 가격 하락. 실력(55%): 1세대 거래자에서 산업 운영자로의 전환 결단, 다각화(금속+운송) 설계, 정치적 거리 두기로 2022년까지 개인 제재 회피, 위기 사이클마다 자산 통합."
   },
-
   "personalTraits": {
     "knownFor": "Co-founder and principal owner of UMMC (Ural Mining and Metallurgical Company), Russia's largest non-Norilsk copper and zinc producer; principal owner of Transmashholding, Russia's largest railway machinery manufacturer; under EU and UK sanctions since 2022 for Ukraine war.",
     "knownForKo": "Norilsk Nickel 외 러시아 최대 구리·아연 생산자 UMMC(Ural Mining and Metallurgical Company) 공동 창립자·최대 소유주. 러시아 최대 철도기계 제조사 Transmashholding 최대 소유주. 우크라이나 전쟁 관련 2022년부터 EU·영국 제재.",
@@ -168,12 +162,16 @@
     "controversies": "Multiple Western press investigations over the years into UMMC's privatization-era acquisitions in the 1990s; EU and UK sanctions (2022) for alleged support of the Russian government and economy benefitting from the Ukraine war; ongoing journalistic scrutiny of family ownership transfers and offshore structures.",
     "controversiesKo": "1990년대 UMMC 민영화 시기 인수에 대한 서방 언론 조사. 우크라이나 전쟁 수혜 러시아 정부·경제 지원 의혹으로 EU·영국 제재(2022). 가족 소유 이전과 해외 구조에 대한 지속적 언론 감시."
   },
-
   "characterKo": {
     "summaryKo": "1990년대 러시아 자본가 중 가장 노출 적은 인물 중 한 명. 동료들이 말하는 가장 두드러진 특성은 '인터뷰가 거의 없고 사진도 드문 비공개 일관성'과 '다국어 능력을 사업 협상에 늘 직접 활용한다는 점'. 우즈베크-러시아 이중 정체성이 유럽계 러시아 올리가르히와의 차별점.",
-    "tagsKo": ["비공개 일관성", "다국어 협상가", "우즈베크-러시아", "위기 통합자", "다각화 산업가"]
+    "tagsKo": [
+      "비공개 일관성",
+      "다국어 협상가",
+      "우즈베크-러시아",
+      "위기 통합자",
+      "다각화 산업가"
+    ]
   },
-
   "failures": [
     {
       "year": 2018,
@@ -181,7 +179,8 @@
       "descriptionKo": "2014년 크림 합병 이후 UMMC·Transmashholding 법인이 다양한 OFAC·EU 제재 논쟁에 이름이 올랐지만 마흐무도프 본인은 초기 개인 제재에서 벗어남. 러시아 핵심 산업 운영의 평판 부담이 2010년대 후반 미-러 긴장 기간 지속.",
       "lesson": "Russian industrial holdings carry permanent geopolitical tail risk; even disciplined private operation cannot fully insulate against state-level sanctions logic.",
       "lessonKo": "러시아 산업 보유는 영구적 지정학적 리스크를 동반한다. 규율 있는 비공개 운영도 국가 차원의 제재 논리로부터 완전히 보호되지 않는다.",
-      "source": "https://home.treasury.gov ; https://www.consilium.europa.eu"
+      "source": "https://home.treasury.gov ; https://www.consilium.europa.eu",
+      "age": 55
     },
     {
       "year": 2022,
@@ -189,21 +188,41 @@
       "descriptionKo": "마흐무도프 개인 EU·영국 제재로 서방 금융 시스템에서 차단, 다양한 해외 자산 동결. 러시아 관할권 아래 UMMC·Transmashholding 운영 통제 보존을 위한 가족 단위 소유 재편 필요.",
       "lesson": "An industrial empire built on Russian privatization is structurally vulnerable to coordinated Western sanctions; ownership structures designed for one era of geopolitics must be redesigned for another.",
       "lessonKo": "러시아 민영화에 기반한 산업 제국은 조정된 서방 제재에 구조적으로 취약하다. 한 시대 지정학에 설계된 소유 구조는 다른 시대를 위해 재설계되어야 한다.",
-      "source": "https://www.gov.uk ; https://www.consilium.europa.eu"
+      "source": "https://www.gov.uk ; https://www.consilium.europa.eu",
+      "age": 59
     }
   ],
-
   "wealthHistory": [
-    { "year": 2010, "netWorth": 8.0 },
-    { "year": 2015, "netWorth": 5.6 },
-    { "year": 2018, "netWorth": 7.3 },
-    { "year": 2021, "netWorth": 9.1 },
-    { "year": 2023, "netWorth": 7.5 },
-    { "year": 2024, "netWorth": 8.8 },
-    { "year": 2025, "netWorth": 9.7 }
+    {
+      "year": 2010,
+      "netWorth": 8
+    },
+    {
+      "year": 2015,
+      "netWorth": 5.6
+    },
+    {
+      "year": 2018,
+      "netWorth": 7.3
+    },
+    {
+      "year": 2021,
+      "netWorth": 9.1
+    },
+    {
+      "year": 2023,
+      "netWorth": 7.5
+    },
+    {
+      "year": 2024,
+      "netWorth": 8.8
+    },
+    {
+      "year": 2025,
+      "netWorth": 9.7
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "Industry is built in the Urals. Politics changes; the metal in the ground does not.",
@@ -213,12 +232,10 @@
       "source": "https://www.forbes.ru"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Im-O day pillar in a Hae month forms a 'geollok-gyeok' chart — abundant water rooted in deep winter, fitting a life of self-reliant capital accumulation through sustained industrial control and disciplined invisibility.",
     "summaryKo": "임오 일주가 해월에 자리잡은 건록격(일간과 같은 오행이 월지에 정좌해 자기 주체성·독립성이 강한 구조)은 1990년대 자본 축적 1세대로서 가족 자본 없이 평생 산업 통제를 누적해 온 그의 인생과 호응합니다. 임수 일간은 큰 흐름의 물·끊임없는 흐름의 기질로, 다국어 통역사에서 시작된 글로벌 네트워크형 본능을 깔고 있습니다. 일지 오화 안의 정화·기토가 정재(고정 자본)·정관(공식 권위)으로 평생 정부 조달과의 관계를 그리고, 월지 해수가 비견으로 임수와 거듭 — 자기 자본 의존이 강한 명조. 연주 계묘의 계수·묘목이 겁재·상관으로 형제·동료(공동창업자 Kozitsyn)와 자기 표현의 자리. 약점은 건록격이 너무 강한 자아를 만들 때 정관(공식 권위)이 반발할 수 있다는 점인데, 2022년 EU·영국 개인 제재가 그 표면화로 읽힙니다."

@@ -5,7 +5,6 @@
   "netWorth": 10.6,
   "nationality": "US",
   "industry": "Finance & Investments",
-
   "childhood": {
     "birthPlace": "United States",
     "birthPlaceKo": "미국",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "1980년대 Intel Corporation에서 엔지니어로 근무 — 평생 경력을 정의할 반도체 산업의 형성적 경험. Intel 시기가 칩 설계·제조 경제학·실리콘밸리 반도체 1세대 창업자들에 대한 직접 노출을 줌.",
     "source": "https://en.wikipedia.org/wiki/Mark_Stevens_(venture_capitalist) ; https://www.forbes.com/profile/mark-stevens/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1980년대 Intel 엔지니어 봉급과 하버드 MBA 후 시니어 IB 보수. 본격적인 부는 1989년 Sequoia Capital 파트너 합류 후 Google·Yahoo·NVIDIA·YouTube·Cisco·PayPal 등 시그니처 투자의 carry로부터 발생, 특히 NVIDIA 초기 투자의 다세대 누적 수익이 평생 부의 핵심.",
     "source": "https://en.wikipedia.org/wiki/Mark_Stevens_(venture_capitalist)"
   },
-
   "careerTimeline": [
     {
       "year": 1980,
@@ -122,7 +119,6 @@
       "source": "https://viterbischool.usc.edu"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1989,
@@ -157,7 +153,6 @@
       "source": "https://www.nba.com/warriors"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "S-Cubed Capital(비공개 가족 사무소) — NVIDIA 장기 포지션이 자산의 가장 큰 단일 부분. 부차적으로 Golden State Warriors 약 6% 지분, Sequoia 시기 누적 carry, 기타 기술주·사모 투자.",
     "industryKo": "벤처 캐피탈·가족 사무소, 스포츠 구단(소수)",
@@ -165,7 +160,6 @@
     "moatKo": "① 1993년 NVIDIA 초기 베팅의 30년 누적 결과 — 단일 결정이 평생 부의 거의 전부 설명. ② NVIDIA 이사회 자리의 영구적 정보·관계 자본. ③ Sequoia 23년 파트너십 누적 인맥. ④ Golden State Warriors 다이내스티 평판 자본.",
     "luckVsSkillKo": "운(50%): 1993년 NVIDIA 창업자들이 마침 Sequoia에 자금을 받으러 온 타이밍, 1989년 Sequoia가 마침 새 파트너를 영입하던 시점, 2010-2020년대 AI/GPU 수요 폭증의 거시 환경. 실력(50%): 엔지니어 출신 VC의 기술 평가 능력, 30년 동안 NVIDIA 포지션을 매도하지 않은 보유 규율, Sequoia에서 S-Cubed로의 전환 사이클 감각, 다양한 vintage VC 펀드의 누적 carry 운용."
   },
-
   "personalTraits": {
     "knownFor": "Founder of S-Cubed Capital family office; former general partner at Sequoia Capital for 23 years (1989-2012); led Sequoia's 1993 investment in NVIDIA and remained on its board for over 30 years; minority owner of the NBA Golden State Warriors.",
     "knownForKo": "S-Cubed Capital 가족 사무소 창립자. Sequoia Capital의 전 제너럴 파트너(1989-2012, 23년). Sequoia의 1993 NVIDIA 투자 주도 + 30년 이상 이사회 멤버. NBA Golden State Warriors 소수 소유주.",
@@ -174,12 +168,16 @@
     "controversies": "2019 NBA Finals incident where he shoved Kyle Lowry led to $500K fine and one-year team-event suspension; his family-foundation contributions to political causes have drawn occasional progressive criticism; the cultural concentration of Silicon Valley wealth around a handful of NVIDIA-era VCs has invited general critique.",
     "controversiesKo": "2019년 NBA 결승 카일 라우리 사건으로 50만 달러 벌금·1년 팀 행사 정지. 가족 재단의 정치적 기부가 간헐적 진보주의 비판. NVIDIA 시대 VC 소수에 집중된 실리콘밸리 부의 문화적 집중에 대한 일반적 비판."
   },
-
   "characterKo": {
     "summaryKo": "Intel 엔지니어 출신의 분석가형 VC가 30년 한 회사(NVIDIA)에 대한 베팅으로 평생 부의 거의 전부를 만든 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 'NVIDIA 이사회 회의의 디테일을 30년간 본인이 직접 검토했다는 운영 깊이'와 '스포츠 행사에서의 감정 분출과 평소의 비공개 일관성이 대조된다는 점'.",
-    "tagsKo": ["엔지니어형 VC", "30년 단일 포지션 보유", "NVIDIA 이사회", "가족 사무소", "NBA 소수 소유주"]
+    "tagsKo": [
+      "엔지니어형 VC",
+      "30년 단일 포지션 보유",
+      "NVIDIA 이사회",
+      "가족 사무소",
+      "NBA 소수 소유주"
+    ]
   },
-
   "failures": [
     {
       "year": 2000,
@@ -187,7 +185,8 @@
       "descriptionKo": "2000 닷컴 버블 붕괴가 Sequoia의 1990년대 후반 투자 다수를 심하게 타격 — NVIDIA·Google·기타 일부는 생존·성장했지만 광범위한 포트폴리오가 상당한 평가절하 흡수, 회사는 자본 반환 필요. 그 빈티지에서 스티븐스의 개인 carry 급감.",
       "lesson": "VC vintage-year returns can swing wildly with macro cycles; even the most successful firms have vintages that earn carry only from a few outsized winners.",
       "lessonKo": "VC 빈티지 연도 수익은 거시 사이클과 함께 크게 변동할 수 있다. 가장 성공적인 회사도 소수의 비대한 승자에서만 carry를 얻는 빈티지를 가진다.",
-      "source": "https://en.wikipedia.org/wiki/Sequoia_Capital"
+      "source": "https://en.wikipedia.org/wiki/Sequoia_Capital",
+      "age": 40
     },
     {
       "year": 2019,
@@ -195,7 +194,8 @@
       "descriptionKo": "2019년 NBA 결승전 3차전에서 스티븐스가 코트사이드 자리에서 몸을 기울여 라우리가 그의 줄에 부딪힌 후 토론토 랩터스 선수 카일 라우리를 밀침. NBA가 50만 달러 벌금·2019-2020 시즌 팀 시설·행사 출입 금지 — 전 세계로 방송된 굴욕적 평판의 순간.",
       "lesson": "Owners with public-facing roles in major leagues operate as the league's image whether they want to or not; a single emotional moment broadcast globally can undo decades of careful professional reputation.",
       "lessonKo": "메이저 리그에서 공개 역할을 가진 소유주는 원하든 원치 않든 리그의 이미지로 작동한다. 전 세계로 방송된 단일 감정의 순간이 수십 년의 신중한 직업적 평판을 무효화할 수 있다.",
-      "source": "https://globalnews.ca/news/5363479/mark-stevens-warriors-kyle-lowry/"
+      "source": "https://globalnews.ca/news/5363479/mark-stevens-warriors-kyle-lowry/",
+      "age": 59
     },
     {
       "year": 2018,
@@ -203,20 +203,37 @@
       "descriptionKo": "스티븐스의 2012 이후 Sequoia 기관 구조 외부 개인 투자 일부가 Sequoia 시기 트랙 레코드 대비 부진 — 기관 VC에서 가족 사무소 투자로의 이동은 경험 있는 GP도 거치는 학습 곡선.",
       "lesson": "Institutional VC success depends on the firm's deal-flow and partnership voting; transitioning to family-office investing requires re-building deal-flow on solo terms and accepting that some firm-level edges are not transferable.",
       "lessonKo": "기관 VC의 성공은 회사의 거래 흐름과 파트너십 투표에 달려 있다. 가족 사무소 투자로 전환은 단독으로 거래 흐름을 다시 만들고 일부 회사 단위의 우위가 이전되지 않음을 받아들이는 것을 요구한다.",
-      "source": "http://www.scubedcap.com"
+      "source": "http://www.scubedcap.com",
+      "age": 58
     }
   ],
-
   "wealthHistory": [
-    { "year": 2018, "netWorth": 1.6 },
-    { "year": 2020, "netWorth": 2.5 },
-    { "year": 2021, "netWorth": 4.0 },
-    { "year": 2023, "netWorth": 4.7 },
-    { "year": 2024, "netWorth": 9.4 },
-    { "year": 2025, "netWorth": 10.6 }
+    {
+      "year": 2018,
+      "netWorth": 1.6
+    },
+    {
+      "year": 2020,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2021,
+      "netWorth": 4
+    },
+    {
+      "year": 2023,
+      "netWorth": 4.7
+    },
+    {
+      "year": 2024,
+      "netWorth": 9.4
+    },
+    {
+      "year": 2025,
+      "netWorth": 10.6
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "I bought NVIDIA in 1993 and I never sold. Compounding works if you stay out of its way.",
@@ -226,12 +243,10 @@
       "source": "https://www.craincurrency.com"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Eul-Hae day pillar in an In month forms a 'jeongjae-gyeok' chart — slender wood drawing patient water from spring roots, fitting a VC who held one investment (NVIDIA) for 30 years across multiple market cycles.",
     "summaryKo": "을해 일주가 인월에 자리잡은 정재격(정해진 자리에서 꾸준히 누적되는 재물 구조)은 1993년 NVIDIA 한 자산을 30년간 매도하지 않고 보유한 그의 인생과 거의 그대로 호응합니다. 을목 일간은 작은 풀·꽃·문예의 기질로 분석가형 VC의 디테일 본능을 깔고 있고, 일지 해수가 정인(어머니·학문·인내)으로 평생 학문 자본(USC·하버드)과 인내심의 토대를 그대로 그려냅니다. 월지 인목이 비견(같은 목)으로 — 평생 한 카테고리(반도체·기술)에 집중한 자기 정체성의 자리. 연주 경자의 경금이 정관(공식 권위)으로 Sequoia 파트너십·NVIDIA 이사회·NBA 거버넌스라는 세 가지 공식 권위 환경에서 움직인 그의 정체성. 약점은 정재격이 너무 강하면 식상(자기 표현·감정)을 압축한다는 점인데, 2019년 카일 라우리 사건에서 평소 비공개 일관성의 반대편이 폭발한 패턴이 그 그늘로 읽힙니다."

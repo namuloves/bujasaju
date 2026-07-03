@@ -37,54 +37,63 @@
       "year": 1977,
       "event": "Joined World Bank as economist (1977-1983)",
       "eventKo": "세계은행(IBRD) 이코노미스트(1977~1983)",
-      "whyItMatteredKo": "한국 재벌 후계 중 매우 이례적인 세계은행 6년 경력."
+      "whyItMatteredKo": "한국 재벌 후계 중 매우 이례적인 세계은행 6년 경력.",
+      "age": 28
     },
     {
       "year": 1986,
       "event": "Joined Samsung Corning as Director — entered family business",
       "eventKo": "삼성코닝 상무 — 가문 사업 합류",
-      "whyItMatteredKo": "37세에 가문 회사. 삼성-중앙일보 결합의 본격 진입."
+      "whyItMatteredKo": "37세에 가문 회사. 삼성-중앙일보 결합의 본격 진입.",
+      "age": 37
     },
     {
       "year": 1995,
       "event": "Promoted to President of JoongAng Ilbo (March)",
       "eventKo": "3월 중앙일보 사장 승진",
-      "whyItMatteredKo": "한국 1위급 신문사 사장."
+      "whyItMatteredKo": "한국 1위급 신문사 사장.",
+      "age": 46
     },
     {
       "year": 1999,
       "event": "Spun off JoongAng Ilbo from Samsung; became Chairman",
       "eventKo": "삼성그룹에서 중앙일보 계열분리, 회장 취임",
-      "whyItMatteredKo": "본인 단독 그룹 운영 시작."
+      "whyItMatteredKo": "본인 단독 그룹 운영 시작.",
+      "age": 50
     },
     {
       "year": 2011,
       "event": "Concurrent Chairman of JTBC at launch",
       "eventKo": "JTBC 출범 시 대표이사 회장 겸임",
-      "whyItMatteredKo": "한국 종편 4사 중 핵심 — 중앙일보 미디어 그룹의 결정적 확장."
+      "whyItMatteredKo": "한국 종편 4사 중 핵심 — 중앙일보 미디어 그룹의 결정적 확장.",
+      "age": 62
     },
     {
       "year": 2014,
       "event": "Stepped down as CEO of JTBC",
       "eventKo": "JTBC 대표이사에서 물러남",
-      "whyItMatteredKo": "장남 홍정도 등 차세대 경영 진입."
+      "whyItMatteredKo": "장남 홍정도 등 차세대 경영 진입.",
+      "age": 65
     }
   ],
   "turningPoints": [
     {
       "year": 1995,
       "eventKo": "중앙일보 사장 승진",
-      "impactKo": "한국 1위급 신문사 사장."
+      "impactKo": "한국 1위급 신문사 사장.",
+      "age": 46
     },
     {
       "year": 1999,
       "eventKo": "삼성에서 중앙일보 계열분리",
-      "impactKo": "본인 단독 그룹 운영 시작."
+      "impactKo": "본인 단독 그룹 운영 시작.",
+      "age": 50
     },
     {
       "year": 2011,
       "eventKo": "JTBC 출범",
-      "impactKo": "한국 종편 미디어 그룹의 결정적 확장."
+      "impactKo": "한국 종편 미디어 그룹의 결정적 확장.",
+      "age": 62
     }
   ],
   "moneyMechanics": {
@@ -104,11 +113,24 @@
   },
   "failures": [],
   "wealthHistory": [
-    {"year": 2025, "netWorth": "$0.4B (약 0.56조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2025,
+      "netWorth": "$0.4B (약 0.56조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
-  "books": ["우리가 있기에 내가 있다 (홍석현, 2014)", "30년 전쟁 (홍석현, 2018)"],
-  "personalTraitsKo": ["스탠퍼드 박사", "세계은행 이코노미스트", "JTBC 출범 회장", "삼성가 처남", "한국 언론 핵심 인물"],
+  "books": [
+    "우리가 있기에 내가 있다 (홍석현, 2014)",
+    "30년 전쟁 (홍석현, 2018)"
+  ],
+  "personalTraitsKo": [
+    "스탠퍼드 박사",
+    "세계은행 이코노미스트",
+    "JTBC 출범 회장",
+    "삼성가 처남",
+    "한국 언론 핵심 인물"
+  ],
   "characterKo": {
     "strengths": "스탠퍼드 박사 + 세계은행 6년의 가장 정통적 학력. JTBC 출범의 한국 미디어 산업 결정적 기여. 삼성가 처남이라는 한국 재계 핵심 인맥.",
     "weaknesses": "본인 직접 사업 창출보다 가문 자산 운영. JTBC 시청률 변동성.",

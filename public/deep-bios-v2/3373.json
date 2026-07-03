@@ -36,54 +36,63 @@
       "year": 1996,
       "event": "Appointed Chairman of Hyundai Motor Company at age 34",
       "eventKo": "1월 현대자동차 회장 취임 — 34세 매우 이례적",
-      "whyItMatteredKo": "본인 30대에 현대차 회장 — 매우 빠른 후계 트랙."
+      "whyItMatteredKo": "본인 30대에 현대차 회장 — 매우 빠른 후계 트랙.",
+      "age": 34
     },
     {
       "year": 1999,
       "event": "Hyundai Motor reverted to Chung Mong-koo line; Mong-gyu moved to Hyundai Industrial Development with father",
       "eventKo": "3월 현대차가 정몽구 라인으로 회귀; 정몽규는 부친과 함께 현대산업개발로 이동",
-      "whyItMatteredKo": "현대차 회장에서 강제 이동 — 본인 인생 결정적 분기점. 후일 HDC 단독 운영의 토대."
+      "whyItMatteredKo": "현대차 회장에서 강제 이동 — 본인 인생 결정적 분기점. 후일 HDC 단독 운영의 토대.",
+      "age": 37
     },
     {
       "year": 2013,
       "event": "Elected Chairman of Korea Football Association (KFA)",
       "eventKo": "대한축구협회 회장 선임",
-      "whyItMatteredKo": "한국 축구계 회장 시작. 후일 3선까지."
+      "whyItMatteredKo": "한국 축구계 회장 시작. 후일 3선까지.",
+      "age": 51
     },
     {
       "year": 2018,
       "event": "Promoted to Chairman of HDC Group",
       "eventKo": "5월 HDC그룹 회장 취임",
-      "whyItMatteredKo": "HDC 지주사 체제 + 그룹 회장 등극."
+      "whyItMatteredKo": "HDC 지주사 체제 + 그룹 회장 등극.",
+      "age": 56
     },
     {
       "year": 2022,
       "event": "Gwangju Hwajeong I-Park collapse (Jan 11) — KFA controversy",
       "eventKo": "1월 11일 광주 화정아이파크 외벽 붕괴 사고 — 평판 영구 손상",
-      "whyItMatteredKo": "본인 회사가 시공한 건물 붕괴. 한국 건설사 사상 최대 사고 중 하나."
+      "whyItMatteredKo": "본인 회사가 시공한 건물 붕괴. 한국 건설사 사상 최대 사고 중 하나.",
+      "age": 60
     },
     {
       "year": 2024,
       "event": "Re-elected as KFA Chairman for 4th term despite controversy",
       "eventKo": "대한축구협회 회장 4선 — 광주 사고에도 불구하고 재선",
-      "whyItMatteredKo": "축구계 영향력 유지. 그러나 사회적 비판 누적."
+      "whyItMatteredKo": "축구계 영향력 유지. 그러나 사회적 비판 누적.",
+      "age": 62
     }
   ],
   "turningPoints": [
     {
       "year": 1996,
       "eventKo": "34세 현대자동차 회장 취임",
-      "impactKo": "매우 빠른 후계 트랙. 그러나 3년 후 강제 이동."
+      "impactKo": "매우 빠른 후계 트랙. 그러나 3년 후 강제 이동.",
+      "age": 34
     },
     {
       "year": 1999,
       "eventKo": "현대차에서 HDC로 강제 이동",
-      "impactKo": "본인 인생 결정적 분기점. 후일 HDC 단독 운영의 토대."
+      "impactKo": "본인 인생 결정적 분기점. 후일 HDC 단독 운영의 토대.",
+      "age": 37
     },
     {
       "year": 2022,
       "eventKo": "광주 화정아이파크 붕괴 사고",
-      "impactKo": "본인 회사 시공 건물 붕괴. 평판 영구 손상."
+      "impactKo": "본인 회사 시공 건물 붕괴. 평판 영구 손상.",
+      "age": 60
     }
   ],
   "moneyMechanics": {
@@ -105,22 +114,38 @@
       "year": 1999,
       "descriptionKo": "현대자동차 회장에서 강제 이동 — 정몽구 라인으로 회귀",
       "howTheyOvercameKo": "부친과 함께 현대산업개발로 분가. 본인만의 영역 확보.",
-      "lessonKo": "한국 재벌 가문 후계는 가문 정치에 따라 급변할 수 있다."
+      "lessonKo": "한국 재벌 가문 후계는 가문 정치에 따라 급변할 수 있다.",
+      "age": 37
     },
     {
       "year": 2022,
       "descriptionKo": "광주 화정아이파크 외벽 붕괴 사고 — 한국 건설사 사상 최대 사고 중 하나",
       "howTheyOvercameKo": "공식 사과 + 재시공 발표. 그러나 평판 영구 손상.",
-      "lessonKo": "건설사 회장은 시공 사고에 대한 영구적 책임을 진다."
+      "lessonKo": "건설사 회장은 시공 사고에 대한 영구적 책임을 진다.",
+      "age": 60
     }
   ],
   "wealthHistory": [
-    {"year": 2010, "netWorth": "약 3,000억원", "sourceKo": "Forbes Korea"},
-    {"year": 2025, "netWorth": "$0.47B (약 0.66조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2010,
+      "netWorth": "약 3,000억원",
+      "sourceKo": "Forbes Korea"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$0.47B (약 0.66조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": [],
-  "personalTraitsKo": ["현대 가문 4세", "34세 현대차 회장의 짧은 영광", "HDC 분가 회장", "축구협회 4선", "광주 아이파크 붕괴의 그림자"],
+  "personalTraitsKo": [
+    "현대 가문 4세",
+    "34세 현대차 회장의 짧은 영광",
+    "HDC 분가 회장",
+    "축구협회 4선",
+    "광주 아이파크 붕괴의 그림자"
+  ],
   "characterKo": {
     "strengths": "옥스퍼드 정치학 석사의 학구적 신뢰성. 34세 현대차 회장의 빠른 트랙. 분가 후 HDC 단독 운영. 축구협회 4선의 사회적 영향력.",
     "weaknesses": "광주 아이파크 붕괴 사고의 영구 평판 손상. 현대차에서 강제 이동의 가문 분쟁 그림자. 축구협회 회장직 집착으로 본업 집중 부족 비판.",

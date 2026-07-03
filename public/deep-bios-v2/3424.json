@@ -14,27 +14,82 @@
   "childhood": {
     "summaryKo": "1953년 6월 9일 한국에서 태어났습니다. 학력은 경기고 졸업, 미국 SUNY 회계학 학사, 코넬대 MBA로 한국 경영자 중에서도 드문 미국식 학력 트랙입니다.",
     "capitalTypeKo": "전문 경영인 — 본인 회사를 만든 적 없고 P&G·해태제과·LG생활건강 CEO 자리에서 자본을 만든 운영형 인물입니다. 빌리어네어 임계치 미달입니다.",
-    "sources": ["https://ko.wikipedia.org/wiki/%EC%B0%A8%EC%84%9D%EC%9A%A9"]
+    "sources": [
+      "https://ko.wikipedia.org/wiki/%EC%B0%A8%EC%84%9D%EC%9A%A9"
+    ]
   },
   "capitalOrigin": {
     "type": "self-made",
     "typeKo": "자수성가",
     "descriptionKo": "1985년 P&G 미국에 입사해 14년 만에 한국 P&G 사장으로 올라간 첫 한국인이었습니다. 2001년 해태제과 CEO로 옮겨 구조 조정 시기 회생을 주도했고, 2005년 1월 1일 구본무 LG그룹 회장의 직접 영입으로 LG생활건강 CEO 자리에 올라 18년간 17년 연속 매출·영업이익 성장이라는 한국 거래소 사상 보기 드문 기록을 만들었습니다.",
     "selfMadeScore": 9,
-    "sources": ["https://namu.wiki/w/LG%EC%83%9D%ED%99%9C%EA%B1%B4%EA%B0%95"]
+    "sources": [
+      "https://namu.wiki/w/LG%EC%83%9D%ED%99%9C%EA%B1%B4%EA%B0%95"
+    ]
   },
   "careerTimeline": [
-    {"year": 1985, "event": "Joins Procter & Gamble (P&G) USA", "eventKo": "미국 P&G 입사", "whyItMatteredKo": "코넬 MBA 한국인이 글로벌 컨슈머 컴퍼니에서 운영 트랙을 시작한 출발점입니다."},
-    {"year": 1999, "event": "Becomes first Korean to lead P&G Korea", "eventKo": "한국 P&G 사장 취임 — 첫 한국인 사장", "whyItMatteredKo": "P&G 글로벌 시스템 안에서 한국 컨트리 유닛을 본인 손으로 운영한 분기점입니다."},
-    {"year": 2001, "event": "Moves to Haitai Confectionery as CEO", "eventKo": "해태제과 CEO 이직 — 어려운 구조 조정 시기 회생", "whyItMatteredKo": "글로벌 회사에서 한국 가족 회사로 정체성을 옮긴 결정적 결단입니다."},
-    {"year": 2005, "event": "Recruited by Koo Bon-moo to be CEO of LG Household & Health Care", "eventKo": "1월 1일 LG생활건강 CEO 취임 — 구본무 회장의 직접 영입", "whyItMatteredKo": "LG 그룹 안의 한 자회사를 18년간 한국 컨슈머 1위로 만들기 시작한 출발점입니다."},
-    {"year": 2010, "event": "Acquires The Face Shop, anchoring mass cosmetics arm", "eventKo": "더페이스샵 인수 — 대중 화장품 카테고리 정착", "whyItMatteredKo": "차석용 매직의 핵심 K뷰티 인수합병이 본격화된 시기입니다."},
-    {"year": 2022, "event": "Steps down November 2022 after 18-year tenure", "eventKo": "11월 2022년 18년 임기 후 자진 사임 — 이정애 후임", "whyItMatteredKo": "LG생활건강 17년 연속 매출 성장 기록을 끝낸 시기입니다. 만년의 결정적 결단입니다."}
+    {
+      "year": 1985,
+      "event": "Joins Procter & Gamble (P&G) USA",
+      "eventKo": "미국 P&G 입사",
+      "whyItMatteredKo": "코넬 MBA 한국인이 글로벌 컨슈머 컴퍼니에서 운영 트랙을 시작한 출발점입니다.",
+      "age": 32
+    },
+    {
+      "year": 1999,
+      "event": "Becomes first Korean to lead P&G Korea",
+      "eventKo": "한국 P&G 사장 취임 — 첫 한국인 사장",
+      "whyItMatteredKo": "P&G 글로벌 시스템 안에서 한국 컨트리 유닛을 본인 손으로 운영한 분기점입니다.",
+      "age": 46
+    },
+    {
+      "year": 2001,
+      "event": "Moves to Haitai Confectionery as CEO",
+      "eventKo": "해태제과 CEO 이직 — 어려운 구조 조정 시기 회생",
+      "whyItMatteredKo": "글로벌 회사에서 한국 가족 회사로 정체성을 옮긴 결정적 결단입니다.",
+      "age": 48
+    },
+    {
+      "year": 2005,
+      "event": "Recruited by Koo Bon-moo to be CEO of LG Household & Health Care",
+      "eventKo": "1월 1일 LG생활건강 CEO 취임 — 구본무 회장의 직접 영입",
+      "whyItMatteredKo": "LG 그룹 안의 한 자회사를 18년간 한국 컨슈머 1위로 만들기 시작한 출발점입니다.",
+      "age": 52
+    },
+    {
+      "year": 2010,
+      "event": "Acquires The Face Shop, anchoring mass cosmetics arm",
+      "eventKo": "더페이스샵 인수 — 대중 화장품 카테고리 정착",
+      "whyItMatteredKo": "차석용 매직의 핵심 K뷰티 인수합병이 본격화된 시기입니다.",
+      "age": 57
+    },
+    {
+      "year": 2022,
+      "event": "Steps down November 2022 after 18-year tenure",
+      "eventKo": "11월 2022년 18년 임기 후 자진 사임 — 이정애 후임",
+      "whyItMatteredKo": "LG생활건강 17년 연속 매출 성장 기록을 끝낸 시기입니다. 만년의 결정적 결단입니다.",
+      "age": 69
+    }
   ],
   "turningPoints": [
-    {"year": 1999, "eventKo": "한국 P&G 사장 취임", "impactKo": "신묘 일주의 부드러운 쇠 기질이 글로벌 시스템 안에서 학습 자본을 결과물로 환원하기 시작한 출발점입니다."},
-    {"year": 2005, "eventKo": "LG생활건강 CEO 취임으로 18년 임기 시작", "impactKo": "학습과 가문 자산을 잇는 흐름이 LG 그룹 자본을 본인 운영으로 환원하기 시작한 결정적 결단입니다."},
-    {"year": 2022, "eventKo": "18년 임기 후 자진 사임", "impactKo": "외부 시스템(LG 그룹) 자본을 다음 세대로 깔끔히 흘려보낸 만년 마무리의 결단입니다."}
+    {
+      "year": 1999,
+      "eventKo": "한국 P&G 사장 취임",
+      "impactKo": "신묘 일주의 부드러운 쇠 기질이 글로벌 시스템 안에서 학습 자본을 결과물로 환원하기 시작한 출발점입니다.",
+      "age": 46
+    },
+    {
+      "year": 2005,
+      "eventKo": "LG생활건강 CEO 취임으로 18년 임기 시작",
+      "impactKo": "학습과 가문 자산을 잇는 흐름이 LG 그룹 자본을 본인 운영으로 환원하기 시작한 결정적 결단입니다.",
+      "age": 52
+    },
+    {
+      "year": 2022,
+      "eventKo": "18년 임기 후 자진 사임",
+      "impactKo": "외부 시스템(LG 그룹) 자본을 다음 세대로 깔끔히 흘려보낸 만년 마무리의 결단입니다.",
+      "age": 69
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "전문 경영인 보수와 LG생활건강 18년 누적 보수·스톡 인센티브가 자산의 핵심입니다. 본인 회사 지분이 아닌 보상 베이스 구조라 빌리어네어 임계치 미달입니다.",
@@ -43,18 +98,58 @@
     "currentAssetAllocationKo": "퇴직 후 LG 그룹 시니어 어드바이저 보수와 누적 자산 운용이 자산의 양대 비중입니다."
   },
   "failures": [
-    {"year": 2022, "descriptionKo": "후 럭셔리와 면세 채널이 2022~2023년 중국 소비 둔화와 궈차오 민족주의 소비 흐름으로 무너졌습니다. 2022년 3분기 누적 매출이 전년 동기 대비 11% 감소, 영업이익이 44% 감소하며 17년 성장 기록이 임기 마지막 해에 끝났습니다.", "howTheyOvercameKo": "11월 자진 사임으로 후임에게 새 카테고리 결단권을 넘겼습니다.", "lessonKo": "단일 시장(중국) 의존도는 정치·소비 트렌드 한 번에 17년 기록을 무너뜨립니다."},
-    {"year": 2025, "descriptionKo": "후임 팀이 모멘텀 회복에 어려움을 겪었고 화장품 사업이 2025년 2분기 20년 만의 첫 분기 영업 손실을 기록했습니다.", "howTheyOvercameKo": "본인은 LG 시니어 어드바이저로서 카테고리 전환 자문을 이어가는 방식으로 통과했습니다.", "lessonKo": "과도한 CEO 중심 경영은 후임에게 운영 공백을 남깁니다."},
-    {"year": 2019, "descriptionKo": "에이본 재팬 등 일부 인수 자산이 기대 대비 부진해 영업권 상각이 발생했습니다.", "howTheyOvercameKo": "잘 안 되는 자산은 단계적으로 정리하고 후 럭셔리에 자본을 다시 집중했습니다.", "lessonKo": "20여 건의 인수합병 중 일부는 결과적으로 영업권 부담이 됩니다."}
+    {
+      "year": 2022,
+      "descriptionKo": "후 럭셔리와 면세 채널이 2022~2023년 중국 소비 둔화와 궈차오 민족주의 소비 흐름으로 무너졌습니다. 2022년 3분기 누적 매출이 전년 동기 대비 11% 감소, 영업이익이 44% 감소하며 17년 성장 기록이 임기 마지막 해에 끝났습니다.",
+      "howTheyOvercameKo": "11월 자진 사임으로 후임에게 새 카테고리 결단권을 넘겼습니다.",
+      "lessonKo": "단일 시장(중국) 의존도는 정치·소비 트렌드 한 번에 17년 기록을 무너뜨립니다.",
+      "age": 69
+    },
+    {
+      "year": 2025,
+      "descriptionKo": "후임 팀이 모멘텀 회복에 어려움을 겪었고 화장품 사업이 2025년 2분기 20년 만의 첫 분기 영업 손실을 기록했습니다.",
+      "howTheyOvercameKo": "본인은 LG 시니어 어드바이저로서 카테고리 전환 자문을 이어가는 방식으로 통과했습니다.",
+      "lessonKo": "과도한 CEO 중심 경영은 후임에게 운영 공백을 남깁니다.",
+      "age": 72
+    },
+    {
+      "year": 2019,
+      "descriptionKo": "에이본 재팬 등 일부 인수 자산이 기대 대비 부진해 영업권 상각이 발생했습니다.",
+      "howTheyOvercameKo": "잘 안 되는 자산은 단계적으로 정리하고 후 럭셔리에 자본을 다시 집중했습니다.",
+      "lessonKo": "20여 건의 인수합병 중 일부는 결과적으로 영업권 부담이 됩니다.",
+      "age": 66
+    }
   ],
   "wealthHistory": [
-    {"year": 2005, "netWorth": "$0.005B", "sourceKo": "LG생활건강 CEO 합류 시점 추정"},
-    {"year": 2015, "netWorth": "$0.02B", "sourceKo": "한국 공시 연 보수 20~30억 원"},
-    {"year": 2022, "netWorth": "$0.04B", "sourceKo": "퇴임 시점 누적 보수 추정"},
-    {"year": 2026, "netWorth": "$0B", "sourceKo": "포브스 빌리어네어즈 미등재"}
+    {
+      "year": 2005,
+      "netWorth": "$0.005B",
+      "sourceKo": "LG생활건강 CEO 합류 시점 추정"
+    },
+    {
+      "year": 2015,
+      "netWorth": "$0.02B",
+      "sourceKo": "한국 공시 연 보수 20~30억 원"
+    },
+    {
+      "year": 2022,
+      "netWorth": "$0.04B",
+      "sourceKo": "퇴임 시점 누적 보수 추정"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$0B",
+      "sourceKo": "포브스 빌리어네어즈 미등재"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["전문 경영인", "차석용 매직", "K뷰티 인수합병 거장", "17년 연속 성장", "후 럭셔리 2조"],
+  "personalTraitsKo": [
+    "전문 경영인",
+    "차석용 매직",
+    "K뷰티 인수합병 거장",
+    "17년 연속 성장",
+    "후 럭셔리 2조"
+  ],
   "characterKo": {
     "strengths": "P&G 14년 글로벌 컨슈머 시스템 학습과, 화장품·생활용품·음료 3축으로 카운터 사이클 매출을 만든 차석용 매직 운영 모델, 그리고 20여 건 인수합병 거장이라는 운영 자본이 강점입니다.",
     "weaknesses": "본인 회사 지분이 없는 전문 경영인 모델이라 자산 자체는 빌리어네어 임계치 미달이고, 단일 시장(중국) 의존도가 임기 마지막 해에 17년 기록을 무너뜨렸습니다.",

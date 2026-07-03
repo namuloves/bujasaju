@@ -34,43 +34,50 @@
       "year": 2009,
       "event": "Joined Hyundai Heavy Industries planning/finance team after Stanford MBA",
       "eventKo": "스탠퍼드 MBA 후 현대중공업 기획실 재무팀 입사",
-      "whyItMatteredKo": "3세 경영 수업 시작. 12년간 내부 성장 경로."
+      "whyItMatteredKo": "3세 경영 수업 시작. 12년간 내부 성장 경로.",
+      "age": 27
     },
     {
       "year": 2021,
       "event": "Appointed CEO and president of HD Hyundai and HD Korea Shipbuilding",
       "eventKo": "HD현대·HD한국조선해양 대표이사 사장 선임",
-      "whyItMatteredKo": "3세 경영 전면 등장. 세계 최대 조선 그룹 경영권 장악."
+      "whyItMatteredKo": "3세 경영 전면 등장. 세계 최대 조선 그룹 경영권 장악.",
+      "age": 39
     },
     {
       "year": 2023,
       "event": "Led digital transformation — autonomous ships, robotics, AI-powered shipbuilding",
       "eventKo": "디지털 전환 주도 — 자율운항선박·로보틱스·AI 조선",
-      "whyItMatteredKo": "전통 조선업에 첨단 기술 접목. '스마트 조선소' 비전."
+      "whyItMatteredKo": "전통 조선업에 첨단 기술 접목. '스마트 조선소' 비전.",
+      "age": 41
     },
     {
       "year": 2024,
       "event": "HD Hyundai Marine Solution IPO — market cap exceeded KRW 10 trillion",
       "eventKo": "HD현대마린솔루션 IPO — 시총 10조원 돌파",
-      "whyItMatteredKo": "선박 애프터서비스를 독립 상장. 조선업 밸류체인 확장. 정기선 주도 사업."
+      "whyItMatteredKo": "선박 애프터서비스를 독립 상장. 조선업 밸류체인 확장. 정기선 주도 사업.",
+      "age": 42
     },
     {
       "year": 2025,
       "event": "Promoted to chairman of HD Hyundai at age 43 — 3rd generation management era begins; 37 years since last owner-chairman",
       "eventKo": "43세에 HD현대 회장 승진 — 3세 경영 시대 개막; 오너 회장 37년 만에 복귀",
-      "whyItMatteredKo": "정주영 이후 37년 만의 오너 회장. 세계 최대 조선 그룹의 3세 경영 시대."
+      "whyItMatteredKo": "정주영 이후 37년 만의 오너 회장. 세계 최대 조선 그룹의 3세 경영 시대.",
+      "age": 43
     }
   ],
   "turningPoints": [
     {
       "year": 2021,
       "eventKo": "대표이사 사장 선임 — 3세 경영 전면 등장",
-      "impactKo": "12년 내부 경험 후 경영 전면. 자율선박·로보틱스 신사업 추진."
+      "impactKo": "12년 내부 경험 후 경영 전면. 자율선박·로보틱스 신사업 추진.",
+      "age": 39
     },
     {
       "year": 2025,
       "eventKo": "HD현대 회장 승진 — 37년 만의 오너 경영 복귀",
-      "impactKo": "정주영 이후 37년 만에 오너가 직접 회장. 세계 최대 조선 그룹의 3세 시대 개막."
+      "impactKo": "정주영 이후 37년 만에 오너가 직접 회장. 세계 최대 조선 그룹의 3세 시대 개막.",
+      "age": 43
     }
   ],
   "moneyMechanics": {
@@ -94,17 +101,35 @@
       "year": 2020,
       "descriptionKo": "대우조선해양 인수 시도 실패 — EU 경쟁당국 불허로 M&A 무산",
       "howTheyOvercameKo": "유기적 성장으로 전환. HD현대마린솔루션 IPO 등 신사업으로 성장 동력 확보.",
-      "lessonKo": "초대형 M&A는 글로벌 규제 리스크. 자체 성장과 신사업이 대안."
+      "lessonKo": "초대형 M&A는 글로벌 규제 리스크. 자체 성장과 신사업이 대안.",
+      "age": 38
     }
   ],
   "wealthHistory": [
-    {"year": 2021, "netWorth": "약 5,000억원", "sourceKo": "추정"},
-    {"year": 2024, "netWorth": "약 1.5조원", "sourceKo": "Forbes Korea"},
-    {"year": 2025, "netWorth": "$1.2B (약 1.7조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2021,
+      "netWorth": "약 5,000억원",
+      "sourceKo": "추정"
+    },
+    {
+      "year": 2024,
+      "netWorth": "약 1.5조원",
+      "sourceKo": "Forbes Korea"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$1.2B (약 1.7조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": [],
-  "personalTraitsKo": ["3세 경영", "디지털 전환", "자율선박", "스탠퍼드 MBA"],
+  "personalTraitsKo": [
+    "3세 경영",
+    "디지털 전환",
+    "자율선박",
+    "스탠퍼드 MBA"
+  ],
   "characterKo": {
     "strengths": "현대 3세로 12년 내부 경험 후 회장 승진. 전통 조선업에 자율선박·로보틱스·AI 도입. 스탠퍼드 MBA 글로벌 감각. HD현대마린솔루션 IPO 주도.",
     "weaknesses": "3세 경영의 정당성 논란. 대우조선 인수 실패. 전통 조선업의 사이클 리스크.",

@@ -32,42 +32,49 @@
       "year": 2015,
       "event": "Enters Li Auto",
       "eventKo": "리오토 정립으로 중국 EV 본업 시작",
-      "whyItMatteredKo": "본업 카테고리의 출발점으로, 일간의 표현력이 본인 자리로 환원되는 결정적 결단입니다."
+      "whyItMatteredKo": "본업 카테고리의 출발점으로, 일간의 표현력이 본인 자리로 환원되는 결정적 결단입니다.",
+      "age": 34
     },
     {
       "year": 2015,
       "event": "Capital value accelerates with category expansion",
       "eventKo": "본업 카테고리 글로벌·지역 확장으로 자본 가치 가속",
-      "whyItMatteredKo": "본업 매출이 단계적 도약으로 환원된 결정적 결단입니다."
+      "whyItMatteredKo": "본업 매출이 단계적 도약으로 환원된 결정적 결단입니다.",
+      "age": 34
     },
     {
       "year": 2020,
       "event": "Tests the business through global pandemic shock",
       "eventKo": "코로나 사이클기 본업 카테고리 단계적 시험과 회복",
-      "whyItMatteredKo": "외부 충격기 본업 자본의 재정비가 진행된 시기입니다."
+      "whyItMatteredKo": "외부 충격기 본업 자본의 재정비가 진행된 시기입니다.",
+      "age": 39
     },
     {
       "year": 2026,
       "event": "Forbes 2026: $4.3B in Automotive",
       "eventKo": "포브스 2026 — 리오토(이상자동차) 자산 가치 43억 달러로 등재",
-      "whyItMatteredKo": "리오토(이상자동차) 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."
+      "whyItMatteredKo": "리오토(이상자동차) 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다.",
+      "age": 45
     }
   ],
   "turningPoints": [
     {
       "year": 2015,
       "eventKo": "리오토 정립으로 중국 EV 본업 시작",
-      "impactKo": "일주 임자의 자리가 본업 자본의 출발점으로 환원된 분기점입니다."
+      "impactKo": "일주 임자의 자리가 본업 자본의 출발점으로 환원된 분기점입니다.",
+      "age": 34
     },
     {
       "year": 2015,
       "eventKo": "리오토(이상자동차) 카테고리 단계적 확장",
-      "impactKo": "본업 매출이 글로벌·지역 카테고리로 환원된 분기점입니다."
+      "impactKo": "본업 매출이 글로벌·지역 카테고리로 환원된 분기점입니다.",
+      "age": 34
     },
     {
       "year": 2020,
       "eventKo": "코로나 사이클기 본업 재정비",
-      "impactKo": "외부 충격기 본업 자본의 통과 분기점입니다."
+      "impactKo": "외부 충격기 본업 자본의 통과 분기점입니다.",
+      "age": 39
     }
   ],
   "moneyMechanics": {
@@ -81,19 +88,22 @@
       "year": 2008,
       "descriptionKo": "글로벌 금융위기로 본업 자동차 매출이 단기 시험받았습니다.",
       "howTheyOvercameKo": "단계적 재정비와 카테고리 환원으로 통과했습니다.",
-      "lessonKo": "자동차 매출은 거시 사이클 영향이 직접적입니다."
+      "lessonKo": "자동차 매출은 거시 사이클 영향이 직접적입니다.",
+      "age": 27
     },
     {
       "year": 2020,
       "descriptionKo": "코로나·반도체 수급으로 본업 생산이 단기 시험받았습니다.",
       "howTheyOvercameKo": "단계적 재정비와 카테고리 환원으로 통과했습니다.",
-      "lessonKo": "자동차 생산은 공급망 충격기 가장 먼저 흔들립니다."
+      "lessonKo": "자동차 생산은 공급망 충격기 가장 먼저 흔들립니다.",
+      "age": 39
     },
     {
       "year": 2023,
       "descriptionKo": "자동차 카테고리 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.",
       "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.",
-      "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."
+      "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다.",
+      "age": 42
     }
   ],
   "wealthHistory": [

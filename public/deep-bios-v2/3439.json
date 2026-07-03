@@ -37,31 +37,36 @@
       "year": 1974,
       "event": "Appointed CEO of Hyundai Department Store at age 32",
       "eventKo": "32세에 현대백화점 대표이사 사장 취임",
-      "whyItMatteredKo": "본인 평생 사업의 출발점. 한국 백화점업 1세대."
+      "whyItMatteredKo": "본인 평생 사업의 출발점. 한국 백화점업 1세대.",
+      "age": 32
     },
     {
       "year": 1987,
       "event": "Promoted to Chairman of Hyundai Department Store",
       "eventKo": "현대백화점 회장 취임",
-      "whyItMatteredKo": "그룹 본격 형성."
+      "whyItMatteredKo": "그룹 본격 형성.",
+      "age": 45
     },
     {
       "year": 2007,
       "event": "Stepped down as Chairman; passed role to son Chung Ji-sun (정지선)",
       "eventKo": "12월 명예회장 용퇴, 장남 정지선에게 회장직 승계",
-      "whyItMatteredKo": "65세 명예회장 전환. 한국 재벌 회장의 자발적 조기 용퇴."
+      "whyItMatteredKo": "65세 명예회장 전환. 한국 재벌 회장의 자발적 조기 용퇴.",
+      "age": 65
     }
   ],
   "turningPoints": [
     {
       "year": 1974,
       "eventKo": "현대백화점 사장 취임",
-      "impactKo": "한국 백화점업 1세대의 출발점."
+      "impactKo": "한국 백화점업 1세대의 출발점.",
+      "age": 32
     },
     {
       "year": 2007,
       "eventKo": "장남 정지선에게 회장직 승계",
-      "impactKo": "한국 재벌 회장의 자발적 조기 용퇴."
+      "impactKo": "한국 재벌 회장의 자발적 조기 용퇴.",
+      "age": 65
     }
   ],
   "moneyMechanics": {
@@ -80,11 +85,20 @@
   },
   "failures": [],
   "wealthHistory": [
-    {"year": 2025, "netWorth": "$0.4B (약 0.56조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2025,
+      "netWorth": "$0.4B (약 0.56조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": [],
-  "personalTraitsKo": ["정주영 3남", "현대백화점 창업주", "65세 자발적 용퇴", "장남 정지선 후계"],
+  "personalTraitsKo": [
+    "정주영 3남",
+    "현대백화점 창업주",
+    "65세 자발적 용퇴",
+    "장남 정지선 후계"
+  ],
   "characterKo": {
     "strengths": "정주영 3남으로 한국 백화점업 1세대 사실상 창업. 65세 자발적 용퇴의 결단력. 장남 정지선 후계 안정.",
     "weaknesses": "백화점업의 구조적 한계. 본인 직접 사업 창출보다 가문 자산 운영.",

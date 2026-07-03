@@ -5,7 +5,6 @@
   "netWorth": 8.9,
   "nationality": "US",
   "industry": "Healthcare",
-
   "childhood": {
     "birthPlace": "Port Elizabeth, Eastern Cape, South Africa",
     "birthPlaceKo": "남아프리카공화국 동케이프주 포트엘리자베스",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "어릴 적부터 아버지 한약방에서 환자를 도우며 일반 의료에 접근하지 못하는 사람들을 관찰. 23세에 의사 자격을 땄지만 아파르트헤이트 남아공에서 '비백인'이라 대부분 백인 병원에서 근무가 불가능 — 1977년 캐나다로, 1980년 미국으로 이주.",
     "source": "https://en.wikipedia.org/wiki/Patrick_Soon-Shiong ; https://www.forbes.com/profile/patrick-soon-shiong/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본은 아버지의 작은 한약방이 전부였고, 의사 봉급과 자기 특허(Abraxane, 알부민 결합 파클리탁셀) 라이선스·매각 대금이 모든 자본의 원천. 2010년 Abraxis를 셀진(Celgene)에 29억 달러, APP Pharmaceuticals를 프레제니우스에 46억 달러에 매각하며 약 70억 달러 규모 현금을 단번에 확보, 이것이 NantWorks 제국의 종잣돈.",
     "source": "https://en.wikipedia.org/wiki/Patrick_Soon-Shiong"
   },
-
   "careerTimeline": [
     {
       "year": 1980,
@@ -116,7 +113,6 @@
       "source": "https://www.forbes.com/profile/patrick-soon-shiong/ ; https://www.latimes.com"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1977,
@@ -151,7 +147,6 @@
       "source": "https://www.nytimes.com/2018/02/07/business/media/tronc-la-times-soon-shiong.html"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "ImmunityBio(NASDAQ:IBRX) 지분 약 80% 보유 — 자산 대부분이 이 회사 시가총액에 묶임. Anktiva(N-803) 매출과 후속 파이프라인 가치가 핵심 변수. 부차적으로 NantHealth·NantOmics·LA 타임스 등 NantWorks 산하 자산.",
     "industryKo": "헬스케어(암 면역치료·약물 전달 기술), 미디어",
@@ -159,7 +154,6 @@
     "moatKo": "① 본인이 발명자인 약물 전달 플랫폼(알부민 결합 나노입자)의 특허 누적. ② FDA·EMA 임상 데이터셋. ③ LA 타임스 등 미디어를 통한 의료·정치 담론 영향력. ④ 외과 의사로서 임상 신뢰성 — 마케팅 발언과 임상 데이터 사이를 본인이 직접 연결.",
     "luckVsSkillKo": "운(35%): 1990년대 후반 알부민 결합 기술이 마침 FDA 승인 패스가 열린 시기에 들어맞음, 2008-2010년 두 차례 매각이 금융위기 직전·직후 절묘한 타이밍, 2024년 Anktiva 승인이 ImmunityBio가 자본 소진 직전에 발표됨. 실력(65%): 30년에 걸친 일관된 IP 축적, 외과의 출신의 임상 데이터 해독 능력, 자회사 분리·재합병의 자본 구조 설계, 정치·미디어·의료 자본의 동시 운용 능력."
   },
-
   "personalTraits": {
     "knownFor": "Surgeon-inventor turned biotech billionaire; invented Abraxane (nab-paclitaxel); founder of NantWorks/ImmunityBio; owner of the Los Angeles Times; minority owner of the LA Lakers.",
     "knownForKo": "외과의 출신 발명가-바이오 억만장자. 항암제 Abraxane 발명. NantWorks/ImmunityBio 설립자. LA 타임스 소유주. LA 레이커스 소수 지분 보유.",
@@ -168,12 +162,16 @@
     "controversies": "Accused of self-dealing through his foundation in a 2017 STAT News investigation; whistleblower lawsuits over NantHealth contracts with the University of Utah; criticism that NantKwest/ImmunityBio public-market communications repeatedly outpaced clinical data; LA Times newsroom layoffs and political tensions; 2020 COVID-19 vaccine candidate marketing criticized as overstated.",
     "controversiesKo": "2017년 STAT News 조사에서 본인 재단을 통한 자기거래 의혹; NantHealth-유타대 계약 관련 내부고발 소송; NantKwest/ImmunityBio의 시장 커뮤니케이션이 임상 데이터보다 앞서간다는 비판 반복; LA 타임스 인력 감축·편집 갈등; 2020년 COVID-19 백신 후보 마케팅 과장 비판."
   },
-
   "characterKo": {
     "summaryKo": "외과의 특유의 정밀함과 사업가의 광범위한 베팅 본능을 한 몸에 가진 사람. 인터뷰·기자회견에서 환자 사례를 본인 입으로 직접 설명할 때와 시장 발표를 할 때의 어조가 거의 다르지 않다는 점이 동료들의 공통 증언. 한 분야 깊이 파기보단 의료·데이터·미디어·스포츠를 동시에 통합하려는 플랫폼적 야망이 강함.",
-    "tagsKo": ["외과의-발명가", "수직 통합 야망", "미디어 자본가", "이민자 정체성", "1인 다 직책"]
+    "tagsKo": [
+      "외과의-발명가",
+      "수직 통합 야망",
+      "미디어 자본가",
+      "이민자 정체성",
+      "1인 다 직책"
+    ]
   },
-
   "failures": [
     {
       "year": 2016,
@@ -181,7 +179,8 @@
       "descriptionKo": "NantHealth가 14달러에 상장 후 18개월 내 80% 이상 하락 — 유타대 등 핵심 고객이 계약 해지하며 매출 미달, STAT News는 그의 재단 기부금이 본인 영리회사로 환류되는 자기거래 의혹을 보도.",
       "lesson": "Vertically integrating personal philanthropy, public-market entities, and private holdings invites disclosure scrutiny that no amount of communications can fully neutralize.",
       "lessonKo": "개인 재단·상장사·비상장 지주를 수직 통합하면 어떤 커뮤니케이션으로도 완전히 무마할 수 없는 공시·이해상충 감시가 따라붙는다.",
-      "source": "https://www.statnews.com/2016/12/19/soon-shiong-nanthealth-foundation/"
+      "source": "https://www.statnews.com/2016/12/19/soon-shiong-nanthealth-foundation/",
+      "age": 64
     },
     {
       "year": 2018,
@@ -189,7 +188,8 @@
       "descriptionKo": "NantKwest/ImmunityBio의 N-803(훗날 Anktiva) 임상 일정이 2018-2023년 사이 반복 지연 — FDA가 시험 설계 변경 요구. 최종 2024년 승인 전까지 주가가 여러 차례 폭락.",
       "lesson": "Public-market biotech valuations cannot survive repeated FDA timeline misses; outside-in market communication must align with inside-out clinical reality on a one-trial-at-a-time basis.",
       "lessonKo": "공개 시장 바이오 기업의 가치는 반복적인 FDA 일정 지연을 버틸 수 없다. 시장 커뮤니케이션은 임상 현실과 한 시험 단위로 정확히 맞춰야 한다.",
-      "source": "https://en.wikipedia.org/wiki/ImmunityBio ; https://www.fiercebiotech.com"
+      "source": "https://en.wikipedia.org/wiki/ImmunityBio ; https://www.fiercebiotech.com",
+      "age": 66
     },
     {
       "year": 2020,
@@ -197,21 +197,41 @@
       "descriptionKo": "ImmunityBio의 COVID-19 백신 후보를 화이자·모더나 mRNA 대비 차별적 장점이 있다고 공개적으로 홍보 — 백신은 미국 승인까지 가지 못하고 임상이 조용히 종료, 팬데믹 시기 과장 마케팅이라는 비판 누적.",
       "lesson": "A founder-CEO doubling as the public face of clinical optimism becomes a regulatory and reputational liability when timelines slip; clinical communication should be delegated to data, not personality.",
       "lessonKo": "창업자 CEO가 임상 낙관론의 얼굴을 직접 맡으면 일정이 미끄러질 때 규제·평판 모두에서 부담이 커진다. 임상 메시지는 인격이 아니라 데이터에 위임해야 한다.",
-      "source": "https://www.statnews.com ; https://www.latimes.com"
+      "source": "https://www.statnews.com ; https://www.latimes.com",
+      "age": 68
     }
   ],
-
   "wealthHistory": [
-    { "year": 2010, "netWorth": 7.0 },
-    { "year": 2015, "netWorth": 11.7 },
-    { "year": 2018, "netWorth": 7.8 },
-    { "year": 2021, "netWorth": 7.1 },
-    { "year": 2023, "netWorth": 5.9 },
-    { "year": 2024, "netWorth": 7.4 },
-    { "year": 2025, "netWorth": 8.9 }
+    {
+      "year": 2010,
+      "netWorth": 7
+    },
+    {
+      "year": 2015,
+      "netWorth": 11.7
+    },
+    {
+      "year": 2018,
+      "netWorth": 7.8
+    },
+    {
+      "year": 2021,
+      "netWorth": 7.1
+    },
+    {
+      "year": 2023,
+      "netWorth": 5.9
+    },
+    {
+      "year": 2024,
+      "netWorth": 7.4
+    },
+    {
+      "year": 2025,
+      "netWorth": 8.9
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "I want to be the architect of the next generation of healthcare. The patient must be at the center.",
@@ -228,12 +248,10 @@
       "source": "https://www.forbes.com/profile/patrick-soon-shiong/"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Byeong-Ja day pillar with a Mi-month frame sits in 'sanggwan-gyeok' — a chart where personal creative expression and intellectual force outrun convention, which matches an inventor-surgeon-turned-platform-builder.",
     "summaryKo": "병자 일주가 미월에 자리잡은 상관격(자기 창조성과 표현 욕구가 관습보다 앞서는 구조)은 외과의이자 발명가, 거기에 미디어·스포츠까지 묶는 그의 다중 정체성과 정확히 호응합니다. 병화 일간은 태양·공개적 빛이라 환자·기자·투자자 앞에서 직접 말하는 성향을 자연스럽게 끌어내고, 일지 자수에 계수가 정관(공식 권위)으로 숨어 있어 의사 면허·FDA 같은 제도 권위와 평생 협상하는 명조입니다. 월간 정화가 비겁(같은 불)으로 가까이 있어 본인이 회사들의 얼굴 역할을 떠맡고, 월지 미토 안의 정화·기토·을목 조합이 식상·재성·인성이 한 자리에 모인 형태라 '연구 → 환자 사례 → 자본 → 다시 연구'로 순환하는 그의 경력을 도식 그대로 보여줍니다. 약점은 상관격이 공식 제도(정관)와 부딪힐 때 — 2016년 STAT News 조사, 2020년 COVID 백신 과장 비판이 정관 충돌이 표면화한 시점입니다."

@@ -14,27 +14,82 @@
   "childhood": {
     "summaryKo": "1973년 중국 저장성에서 태어났습니다. 정통 학력은 경영 트랙으로, 푸단대 경영학과 학사를 거친 정통 본토 신세대 게임 인재 트랙입니다. 1999년 26세에 'Shanda Networking' 정립으로 본업을 만든 1세대 자수성가형 인물입니다.",
     "capitalTypeKo": "맨몸 자수성가 — 본토 1세대 모바일·온라인 게임 자수성가형 인물 (Shanda Group 회장)입니다.",
-    "sources": ["https://en.wikipedia.org/wiki/Tianqiao_Chen"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tianqiao_Chen"
+    ]
   },
   "capitalOrigin": {
     "type": "self-made",
     "typeKo": "자수성가",
     "descriptionKo": "1999년 상하이에서 'Shanda Networking' 정립으로 본업을 만들었고, 본토 온라인 게임 카테고리에서 1위급으로 도약했습니다. 2004년 나스닥 상장 후 2012년 본인 자발적 상장 폐지, 2014년 'Shanda Group'으로 환원해 본인 자본을 글로벌 투자 자본으로 환원했습니다.",
     "selfMadeScore": 10,
-    "sources": ["https://en.wikipedia.org/wiki/Shanda_Group"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Shanda_Group"
+    ]
   },
   "careerTimeline": [
-    {"year": 1999, "event": "Founds Shanda Networking in Shanghai", "eventKo": "상하이에서 'Shanda Networking' 정립", "whyItMatteredKo": "임자 일주의 큰 물 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다."},
-    {"year": 2004, "event": "Shanda IPOs on NASDAQ", "eventKo": "Shanda 나스닥 상장, 글로벌 자본 시장 환원", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
-    {"year": 2012, "event": "Voluntarily takes Shanda private", "eventKo": "Shanda 자발적 상장 폐지, 본인 자본 통합", "whyItMatteredKo": "본업 자본이 본인 자본 통합으로 환원된 결정적 결단입니다."},
-    {"year": 2014, "event": "Reorganizes as Shanda Group, pivots to global investments", "eventKo": "'Shanda Group' 환원, 글로벌 투자 자본 카테고리 전환", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
-    {"year": 2020, "event": "Invests in global biotech and brain research", "eventKo": "글로벌 바이오·뇌과학 투자 카테고리 확장", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."},
-    {"year": 2026, "event": "Forbes 2026: $1.2B in Technology", "eventKo": "포브스 2026 — 테크놀로지 12억 달러로 등재", "whyItMatteredKo": "Shanda Group 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+    {
+      "year": 1999,
+      "event": "Founds Shanda Networking in Shanghai",
+      "eventKo": "상하이에서 'Shanda Networking' 정립",
+      "whyItMatteredKo": "임자 일주의 큰 물 일간이 자기 표현의 결과물을 본인 사업으로 환원한 출발점입니다.",
+      "age": 26
+    },
+    {
+      "year": 2004,
+      "event": "Shanda IPOs on NASDAQ",
+      "eventKo": "Shanda 나스닥 상장, 글로벌 자본 시장 환원",
+      "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다.",
+      "age": 31
+    },
+    {
+      "year": 2012,
+      "event": "Voluntarily takes Shanda private",
+      "eventKo": "Shanda 자발적 상장 폐지, 본인 자본 통합",
+      "whyItMatteredKo": "본업 자본이 본인 자본 통합으로 환원된 결정적 결단입니다.",
+      "age": 39
+    },
+    {
+      "year": 2014,
+      "event": "Reorganizes as Shanda Group, pivots to global investments",
+      "eventKo": "'Shanda Group' 환원, 글로벌 투자 자본 카테고리 전환",
+      "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다.",
+      "age": 41
+    },
+    {
+      "year": 2020,
+      "event": "Invests in global biotech and brain research",
+      "eventKo": "글로벌 바이오·뇌과학 투자 카테고리 확장",
+      "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다.",
+      "age": 47
+    },
+    {
+      "year": 2026,
+      "event": "Forbes 2026: $1.2B in Technology",
+      "eventKo": "포브스 2026 — 테크놀로지 12억 달러로 등재",
+      "whyItMatteredKo": "Shanda Group 본인 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다.",
+      "age": 53
+    }
   ],
   "turningPoints": [
-    {"year": 1999, "eventKo": "Shanda Networking 정립", "impactKo": "임자 일주의 큰 물 일간이 자기 표현의 결과물을 본인 사업으로 환원한 결정적 결단입니다."},
-    {"year": 2004, "eventKo": "Shanda 나스닥 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
-    {"year": 2014, "eventKo": "Shanda Group 글로벌 투자 자본 환원", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다."}
+    {
+      "year": 1999,
+      "eventKo": "Shanda Networking 정립",
+      "impactKo": "임자 일주의 큰 물 일간이 자기 표현의 결과물을 본인 사업으로 환원한 결정적 결단입니다.",
+      "age": 26
+    },
+    {
+      "year": 2004,
+      "eventKo": "Shanda 나스닥 상장",
+      "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다.",
+      "age": 31
+    },
+    {
+      "year": 2014,
+      "eventKo": "Shanda Group 글로벌 투자 자본 환원",
+      "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결정적 결단입니다.",
+      "age": 41
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "Shanda Group 비상장 본인 보유 지분, 글로벌 바이오·뇌과학·테크 투자 자본이 자산의 핵심입니다.",
@@ -43,18 +98,58 @@
     "currentAssetAllocationKo": "Shanda Group 본인 지분과 글로벌 투자 자본이 자산의 핵심입니다."
   },
   "failures": [
-    {"year": 2009, "descriptionKo": "글로벌 금융위기 시기 Shanda 본업 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "단계적 사업 모델 재편으로 V자 회복했습니다.", "lessonKo": "글로벌 게임 사이클은 거시 충격에 직접 노출됩니다."},
-    {"year": 2012, "descriptionKo": "Shanda 자발적 상장 폐지 협상기 본업 자본이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 상장 폐지 진행으로 통과했습니다.", "lessonKo": "비상장 환원 사이클은 본업 자본 평가에 한 번에 큰 영향을 줍니다."},
-    {"year": 2021, "descriptionKo": "본토 게임 카테고리 규제 강화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "글로벌 투자 카테고리 비중 강화로 통과했습니다.", "lessonKo": "본토 의존 카테고리는 정책 사이클에 직접 노출됩니다."}
+    {
+      "year": 2009,
+      "descriptionKo": "글로벌 금융위기 시기 Shanda 본업 매출이 단기 위축됐습니다.",
+      "howTheyOvercameKo": "단계적 사업 모델 재편으로 V자 회복했습니다.",
+      "lessonKo": "글로벌 게임 사이클은 거시 충격에 직접 노출됩니다.",
+      "age": 36
+    },
+    {
+      "year": 2012,
+      "descriptionKo": "Shanda 자발적 상장 폐지 협상기 본업 자본이 단기 시험받았습니다.",
+      "howTheyOvercameKo": "단계적 상장 폐지 진행으로 통과했습니다.",
+      "lessonKo": "비상장 환원 사이클은 본업 자본 평가에 한 번에 큰 영향을 줍니다.",
+      "age": 39
+    },
+    {
+      "year": 2021,
+      "descriptionKo": "본토 게임 카테고리 규제 강화로 본업 매출이 단기 시험받았습니다.",
+      "howTheyOvercameKo": "글로벌 투자 카테고리 비중 강화로 통과했습니다.",
+      "lessonKo": "본토 의존 카테고리는 정책 사이클에 직접 노출됩니다.",
+      "age": 48
+    }
   ],
   "wealthHistory": [
-    {"year": 2005, "netWorth": "$1.5B", "sourceKo": "포브스 추정"},
-    {"year": 2014, "netWorth": "$2B", "sourceKo": "비상장 환원 후 추정"},
-    {"year": 2023, "netWorth": "$1B", "sourceKo": "포브스 추정"},
-    {"year": 2026, "netWorth": "$1.2B", "sourceKo": "포브스 2026 빌리어네어즈"}
+    {
+      "year": 2005,
+      "netWorth": "$1.5B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2014,
+      "netWorth": "$2B",
+      "sourceKo": "비상장 환원 후 추정"
+    },
+    {
+      "year": 2023,
+      "netWorth": "$1B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$1.2B",
+      "sourceKo": "포브스 2026 빌리어네어즈"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["Shanda Group 회장", "본토 1세대 온라인 게임 자수성가", "글로벌 바이오·뇌과학 투자자", "자발적 상장 폐지", "1세대 자수성가"],
+  "personalTraitsKo": [
+    "Shanda Group 회장",
+    "본토 1세대 온라인 게임 자수성가",
+    "글로벌 바이오·뇌과학 투자자",
+    "자발적 상장 폐지",
+    "1세대 자수성가"
+  ],
   "characterKo": {
     "strengths": "1999년 Shanda 정립으로 본토 온라인 게임 카테고리 1위급 회사를 만든 카테고리 도약 본능과, 2014년 Shanda Group 환원으로 본업을 글로벌 투자 자본으로 환원시킨 결단력이 강점입니다.",
     "weaknesses": "본토 정책 사이클과 글로벌 게임 사이클에 본업 매출이 직접 노출됩니다.",

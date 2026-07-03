@@ -120,21 +120,24 @@
       "ageAtTime": 34,
       "decisionKo": "남편 별세 후 가업을 처분하지 않고 본인이 직접 인수해 경영",
       "alternativeKo": "회사를 매각하고 평범한 미망인으로 살았다면 한국 최초 여성 CEO도 애경그룹도 없었을 것.",
-      "outcomeKo": "비누 회사 1곳 → 41개 계열사·6조원 그룹. 한국 1세대 여성 기업가의 표준 모델."
+      "outcomeKo": "비누 회사 1곳 → 41개 계열사·6조원 그룹. 한국 1세대 여성 기업가의 표준 모델.",
+      "age": 34
     },
     {
       "year": 2005,
       "ageAtTime": 69,
       "decisionKo": "비누·화장품 회사가 제주특별자치도와 합작해 항공사 설립",
       "alternativeKo": "기존 생활화학·유통에 집중했다면 항공 사고 리스크 자체가 없었을 것.",
-      "outcomeKo": "한국 1위 LCC로 성장 + 19년 후 그룹 사상 최대 비극의 진앙."
+      "outcomeKo": "한국 1위 LCC로 성장 + 19년 후 그룹 사상 최대 비극의 진앙.",
+      "age": 69
     },
     {
       "year": 2024,
       "ageAtTime": 88,
       "decisionKo": "은둔 모드를 깨고 88세에 직접 대국민 공식 사과",
       "alternativeKo": "장남 채형석 부회장에게 사과를 일임했다면 오너 책임 회피 비판이 더 컸을 것.",
-      "outcomeKo": "그룹 위기 한가운데 직접 책임지는 모습 — 평가는 진행형."
+      "outcomeKo": "그룹 위기 한가운데 직접 책임지는 모습 — 평가는 진행형.",
+      "age": 88
     }
   ],
   "moneyMechanics": {
@@ -171,7 +174,8 @@
       "descriptionKo": "남편 채몽인의 갑작스런 심장마비. 34세 평범한 주부에 4자녀를 둔 채로 비누 회사 단독 운영자가 됐습니다. 본인의 준비된 결정이 아닌 운명의 압박.",
       "lesson": "Sometimes the founder's role isn't chosen — it's inherited overnight. The ability to operate without preparation is itself a competitive moat.",
       "lessonKo": "창업자 자리가 본인 선택이 아니라 하룻밤 만에 떨어지기도 합니다. 준비 없이 운영해내는 능력 자체가 경쟁우위가 됩니다.",
-      "source": "https://www.businesspost.co.kr/BP?command=print&idxno=36492"
+      "source": "https://www.businesspost.co.kr/BP?command=print&idxno=36492",
+      "age": 34
     },
     {
       "year": 2024,
@@ -179,7 +183,8 @@
       "descriptionKo": "2024년 12월 29일 제주항공 7C2216편 무안 참사. 181명 중 179명 사망. AK홀딩스가 제주항공 50.37% 지배. 평소 은둔하던 88세 회장이 직접 대국민 공식 사과. 애경 불매운동까지 확산되며 그룹 평판이 한순간에 붕괴.",
       "lesson": "A 50-year operating record can be eclipsed by a single low-probability tail event in a side business. Diversification into safety-critical industries (aviation) raises the cost of failure across the entire group.",
       "lessonKo": "50년 운영 실적도 부속 사업 한 건의 꼬리 사건으로 가려질 수 있습니다. 안전 중심 산업(항공)으로의 다각화는 실패 비용을 그룹 전체로 확장합니다.",
-      "source": "https://www.bizhankook.com/bk/article/28863"
+      "source": "https://www.bizhankook.com/bk/article/28863",
+      "age": 88
     },
     {
       "year": 2024,
@@ -187,11 +192,16 @@
       "descriptionKo": "참사 이전부터 애경 실적은 흑자 1년 만에 반 토막. 애경산업·AK플라자 동시 부진. 위기가 이미 깊어지던 상황에서 참사가 덮친 구조.",
       "lesson": "When the operating cycle is already weak, an external shock has nothing to absorb the blow. Cash and resilience must be built before the storm.",
       "lessonKo": "운영 사이클이 이미 약할 때 외부 충격은 흡수될 곳이 없습니다. 현금과 회복력은 폭풍 전에 쌓아둬야 합니다.",
-      "source": "https://www.sisajournal.com/news/articleView.html?idxno=329737"
+      "source": "https://www.sisajournal.com/news/articleView.html?idxno=329737",
+      "age": 88
     }
   ],
   "wealthHistory": [
-    {"year": 2025, "netWorth": "$0.3B (약 0.4조원)", "sourceKo": "Forbes 추정 — 본인 직접 보유분 기준"}
+    {
+      "year": 2025,
+      "netWorth": "$0.3B (약 0.4조원)",
+      "sourceKo": "Forbes 추정 — 본인 직접 보유분 기준"
+    }
   ],
   "quotes": [
     {
@@ -212,9 +222,18 @@
     "summaryKo": "장영신의 사주는 정화(작은 등불) 일간이 해수(큰 물) 위에 놓인 정해 일주입니다. 큰 물 위의 작은 등불은 어둠 속에서 멀리 가는 빛을 의미해, 평범한 주부였던 그녀가 1970년 남편 별세 후 어둠 같은 가업을 50년간 비추며 끌어가는 모습과 정확히 호응합니다. 격국이 정관격(체계·책임·전통적 권위로 자리를 만드는 형식)이라, 한국 최초 여성 CEO·여성경제인협회 초대 회장 같은 '제도화된 책임'의 길을 걸은 것이 사주의 결입니다. 월지 진토는 봄의 마지막 흙으로 큰 물을 가두는 둑 역할을 하니, 비누·화장품·항공·유통이라는 다각화된 자산을 한 그룹으로 묶어내는 그릇 역할을 그녀가 해낸 것과 닿습니다. 다만 정관격은 책임을 끝까지 떠안는 형식이라, 88세에 직면한 제주항공 참사 또한 사주가 마지막까지 묻는 책임의 시험으로 읽힙니다.",
     "interpretationKo": "정해 일주는 큰 물 위의 등불이라 작지만 멀리 비추는 빛의 결을 가집니다. 정관격은 주어진 자리·책임을 도구로 쓰는 패턴이라, 본인 선택이 아닌 운명으로 떨어진 가업을 50년 동안 책임지고 키워낸 흐름과 일치합니다.",
     "keyEvents": [
-      {"year": 1970, "eventKo": "남편 별세 — 정관격이 짊어진 첫 책임"},
-      {"year": 1972, "eventKo": "한국 최초 여성 CEO — 등불이 처음 점화된 시점"},
-      {"year": 2024, "eventKo": "제주항공 참사 — 정관격이 마지막에 떠안은 책임"}
+      {
+        "year": 1970,
+        "eventKo": "남편 별세 — 정관격이 짊어진 첫 책임"
+      },
+      {
+        "year": 1972,
+        "eventKo": "한국 최초 여성 CEO — 등불이 처음 점화된 시점"
+      },
+      {
+        "year": 2024,
+        "eventKo": "제주항공 참사 — 정관격이 마지막에 떠안은 책임"
+      }
     ]
   },
   "sources": [

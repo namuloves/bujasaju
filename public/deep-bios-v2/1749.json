@@ -14,27 +14,82 @@
   "childhood": {
     "summaryKo": "1972년 인도 우타라칸드 하리드와르의 네팔계 가난한 가정에서 태어났습니다. 정통 학력은 아유르베다 트랙으로, 어린 시절부터 요가 스승 람데브와 함께 자란 정통 인도 1세대 아유르베다 자수성가 트랙입니다.",
     "capitalTypeKo": "1세대 자수성가 — 인도 1세대 아유르베다 식음료 가문 창업주 (Patanjali Ayurved 정립)입니다.",
-    "sources": ["https://en.wikipedia.org/wiki/Acharya_Balkrishna"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Acharya_Balkrishna"
+    ]
   },
   "capitalOrigin": {
     "type": "self-made",
     "typeKo": "자수성가",
     "descriptionKo": "1995년 람데브와 함께 'Divya Yog Mandir Trust' 정립으로 본업을 시작했고, 2006년 'Patanjali Ayurved' 정립으로 본업 카테고리를 환원했습니다. 본업은 인도 아유르베다 식음료·소비재 회사이고, 2015~2024년 인도 아유르베다·내수 소비 호황기에 본업 자본이 정점에 도달했습니다.",
     "selfMadeScore": 9,
-    "sources": ["https://www.patanjaliayurved.org"]
+    "sources": [
+      "https://www.patanjaliayurved.org"
+    ]
   },
   "careerTimeline": [
-    {"year": 1995, "event": "Founds Divya Yog Mandir Trust with Ramdev", "eventKo": "람데브와 함께 'Divya Yog Mandir Trust' 정립", "whyItMatteredKo": "정사 일주의 한여름 작은 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
-    {"year": 2006, "event": "Founds Patanjali Ayurved consumer goods", "eventKo": "Patanjali Ayurved 정립, 본업 카테고리 환원", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다."},
-    {"year": 2016, "event": "Patanjali revenue exceeds Rs 100 billion", "eventKo": "Patanjali 매출 1000억 루피 돌파", "whyItMatteredKo": "본업 매출이 인도 1위급 소비재 카테고리로 환원된 결정적 결단입니다."},
-    {"year": 2019, "event": "Acquires Ruchi Soya for edible oil category", "eventKo": "Ruchi Soya 인수로 식용유 카테고리 진출", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
-    {"year": 2022, "event": "Patanjali Foods IPO Indian market", "eventKo": "Patanjali Foods 인도 증시 재상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."},
-    {"year": 2026, "event": "Forbes 2026: $2.3B in F&B", "eventKo": "포브스 2026 — 식음료 산업 23억 달러로 등재", "whyItMatteredKo": "Patanjali·Ruchi Soya 본인·단체 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+    {
+      "year": 1995,
+      "event": "Founds Divya Yog Mandir Trust with Ramdev",
+      "eventKo": "람데브와 함께 'Divya Yog Mandir Trust' 정립",
+      "whyItMatteredKo": "정사 일주의 한여름 작은 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다.",
+      "age": 23
+    },
+    {
+      "year": 2006,
+      "event": "Founds Patanjali Ayurved consumer goods",
+      "eventKo": "Patanjali Ayurved 정립, 본업 카테고리 환원",
+      "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 결정적 결단입니다.",
+      "age": 34
+    },
+    {
+      "year": 2016,
+      "event": "Patanjali revenue exceeds Rs 100 billion",
+      "eventKo": "Patanjali 매출 1000억 루피 돌파",
+      "whyItMatteredKo": "본업 매출이 인도 1위급 소비재 카테고리로 환원된 결정적 결단입니다.",
+      "age": 44
+    },
+    {
+      "year": 2019,
+      "event": "Acquires Ruchi Soya for edible oil category",
+      "eventKo": "Ruchi Soya 인수로 식용유 카테고리 진출",
+      "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다.",
+      "age": 47
+    },
+    {
+      "year": 2022,
+      "event": "Patanjali Foods IPO Indian market",
+      "eventKo": "Patanjali Foods 인도 증시 재상장",
+      "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다.",
+      "age": 50
+    },
+    {
+      "year": 2026,
+      "event": "Forbes 2026: $2.3B in F&B",
+      "eventKo": "포브스 2026 — 식음료 산업 23억 달러로 등재",
+      "whyItMatteredKo": "Patanjali·Ruchi Soya 본인·단체 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다.",
+      "age": 54
+    }
   ],
   "turningPoints": [
-    {"year": 1995, "eventKo": "Divya Yog Mandir Trust 정립", "impactKo": "정사 일주의 한여름 작은 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다."},
-    {"year": 2006, "eventKo": "Patanjali Ayurved 정립", "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다."},
-    {"year": 2022, "eventKo": "Patanjali Foods 인도 증시 재상장", "impactKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다."}
+    {
+      "year": 1995,
+      "eventKo": "Divya Yog Mandir Trust 정립",
+      "impactKo": "정사 일주의 한여름 작은 불 일간이 자기 표현의 결과물을 본인 자리로 환원한 출발점입니다.",
+      "age": 23
+    },
+    {
+      "year": 2006,
+      "eventKo": "Patanjali Ayurved 정립",
+      "impactKo": "본업 매출의 카테고리 통로가 만들어진 분기점입니다.",
+      "age": 34
+    },
+    {
+      "year": 2022,
+      "eventKo": "Patanjali Foods 인도 증시 재상장",
+      "impactKo": "본업 매출이 자본 시장 가치로 환원된 만년의 결정적 결단입니다.",
+      "age": 50
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "Patanjali Foods(NSE: PATANJALI), Patanjali Ayurved 비상장 본인 및 단체 보유 지분 가치와 배당이 자산의 핵심입니다.",
@@ -43,18 +98,58 @@
     "currentAssetAllocationKo": "Patanjali·Ruchi Soya 본인·단체 지분이 자산의 절대 비중. 단체 신탁 안정 구조입니다."
   },
   "failures": [
-    {"year": 2017, "descriptionKo": "Patanjali 매출 둔화로 본업 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "카테고리 재편으로 V자 회복했습니다.", "lessonKo": "단일 카테고리 의존은 경쟁기에 마진이 가장 먼저 흔들립니다."},
-    {"year": 2019, "descriptionKo": "Ruchi Soya 인수 부채 부담으로 본업이 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 인수 부채 사이클에 직접 영향을 줍니다."},
-    {"year": 2023, "descriptionKo": "Patanjali 광고 규제로 본업 매출이 단기 압박을 받았습니다.", "howTheyOvercameKo": "단계적 정책 협의로 통과했습니다.", "lessonKo": "정책 한 번에 식음료 매출이 흔들립니다."}
+    {
+      "year": 2017,
+      "descriptionKo": "Patanjali 매출 둔화로 본업 매출이 단기 시험받았습니다.",
+      "howTheyOvercameKo": "카테고리 재편으로 V자 회복했습니다.",
+      "lessonKo": "단일 카테고리 의존은 경쟁기에 마진이 가장 먼저 흔들립니다.",
+      "age": 45
+    },
+    {
+      "year": 2019,
+      "descriptionKo": "Ruchi Soya 인수 부채 부담으로 본업이 단기 시험받았습니다.",
+      "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.",
+      "lessonKo": "단일 카테고리 의존은 인수 부채 사이클에 직접 영향을 줍니다.",
+      "age": 47
+    },
+    {
+      "year": 2023,
+      "descriptionKo": "Patanjali 광고 규제로 본업 매출이 단기 압박을 받았습니다.",
+      "howTheyOvercameKo": "단계적 정책 협의로 통과했습니다.",
+      "lessonKo": "정책 한 번에 식음료 매출이 흔들립니다.",
+      "age": 51
+    }
   ],
   "wealthHistory": [
-    {"year": 2015, "netWorth": "$2.5B", "sourceKo": "포브스 추정"},
-    {"year": 2018, "netWorth": "$5B", "sourceKo": "포브스 추정"},
-    {"year": 2023, "netWorth": "$2.1B", "sourceKo": "포브스 추정"},
-    {"year": 2026, "netWorth": "$2.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+    {
+      "year": 2015,
+      "netWorth": "$2.5B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2018,
+      "netWorth": "$5B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2023,
+      "netWorth": "$2.1B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$2.3B",
+      "sourceKo": "포브스 2026 빌리어네어즈"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["Patanjali Ayurved 창업주", "인도 1세대 아유르베다 자수성가", "람데브 동지", "Patanjali Foods 회장", "정통 아유르베다 정체성"],
+  "personalTraitsKo": [
+    "Patanjali Ayurved 창업주",
+    "인도 1세대 아유르베다 자수성가",
+    "람데브 동지",
+    "Patanjali Foods 회장",
+    "정통 아유르베다 정체성"
+  ],
   "characterKo": {
     "strengths": "1995년 본업 시작 후 30년 동안 인도 1세대 아유르베다 자수성가의 한 축으로 자리잡은 끈기와, 2006년 Patanjali 정립, 2022년 Patanjali Foods 상장으로 본업을 인도 아유르베다 카테고리 1위급으로 환원시킨 결단력이 강점입니다.",
     "weaknesses": "인도 단일 시장 의존도와 정책·광고 규제 사이클에 본업 매출이 직접 노출됩니다.",

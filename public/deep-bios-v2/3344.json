@@ -36,49 +36,57 @@
       "year": 1985,
       "event": "Joined Hyundai Electronics (현 SK하이닉스); quit after 8 months",
       "eventKo": "현대전자(현 SK하이닉스) 입사, 8개월 만에 퇴사",
-      "whyItMatteredKo": "한국 반도체의 해외 장비 의존 현실에 좌절. 후일 본인 사업의 동기."
+      "whyItMatteredKo": "한국 반도체의 해외 장비 의존 현실에 좌절. 후일 본인 사업의 동기.",
+      "age": 26
     },
     {
       "year": 1986,
       "event": "Joined ASM Korea office as technical support",
       "eventKo": "ASM 한국 대리점 기술지원 입사",
-      "whyItMatteredKo": "반도체 장비 정비·수리 경험 축적. 후일 본인 사업의 토대."
+      "whyItMatteredKo": "반도체 장비 정비·수리 경험 축적. 후일 본인 사업의 토대.",
+      "age": 27
     },
     {
       "year": 1993,
       "event": "Founded Jusung Engineering when ASM Korea pulled out",
       "eventKo": "ASM 한국지사 철수 시 주성엔지니어링 창업 — 34세",
-      "whyItMatteredKo": "본인 회사 출범. 한국 반도체 장비 국산화의 출발점."
+      "whyItMatteredKo": "본인 회사 출범. 한국 반도체 장비 국산화의 출발점.",
+      "age": 34
     },
     {
       "year": 1996,
       "event": "Successfully developed Korean deposition equipment — first localization",
       "eventKo": "창업 3년 만에 증착장비 국산화 성공",
-      "whyItMatteredKo": "한국 반도체 장비 사상 첫 국산화. 본인 사업의 결정적 결실."
+      "whyItMatteredKo": "한국 반도체 장비 사상 첫 국산화. 본인 사업의 결정적 결실.",
+      "age": 37
     },
     {
       "year": 2010,
       "event": "Jusung listed on KOSDAQ (036930)",
       "eventKo": "주성엔지니어링 코스닥 상장",
-      "whyItMatteredKo": "본인 지분 가치 가시화."
+      "whyItMatteredKo": "본인 지분 가치 가시화.",
+      "age": 51
     },
     {
       "year": 2024,
       "event": "Choi Kyu-ok (Osstem) invested KRW 100 billion as 2nd largest shareholder; Hwang declared 'KRW 50T market cap in 5 years' goal",
       "eventKo": "최규옥 전 오스템 회장이 1,000억원 투자해 2대 주주; '5년 내 시총 50조원' 목표 발표",
-      "whyItMatteredKo": "외부 자본 유치 + 큰 비전 발표. 본인 30년 사업의 정점 추진."
+      "whyItMatteredKo": "외부 자본 유치 + 큰 비전 발표. 본인 30년 사업의 정점 추진.",
+      "age": 65
     }
   ],
   "turningPoints": [
     {
       "year": 1985,
       "eventKo": "현대전자 8개월 퇴사",
-      "impactKo": "한국 반도체 해외 의존에 좌절 — 후일 본인 사업의 동기."
+      "impactKo": "한국 반도체 해외 의존에 좌절 — 후일 본인 사업의 동기.",
+      "age": 26
     },
     {
       "year": 1993,
       "eventKo": "주성엔지니어링 창업",
-      "impactKo": "한국 반도체 장비 국산화의 출발점."
+      "impactKo": "한국 반도체 장비 국산화의 출발점.",
+      "age": 34
     }
   ],
   "moneyMechanics": {
@@ -97,15 +105,35 @@
   },
   "failures": [],
   "wealthHistory": [
-    {"year": 2010, "netWorth": "약 1,500억원", "sourceKo": "코스닥 상장 직후"},
-    {"year": 2025, "netWorth": "$0.5B (약 0.7조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2010,
+      "netWorth": "약 1,500억원",
+      "sourceKo": "코스닥 상장 직후"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$0.5B (약 0.7조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [
-    {"textKo": "AI가 99% 분석해도 1% 결정은 사람의 몫이다.", "context": "2024 서울경제 인터뷰"},
-    {"textKo": "혁신으로 세계 최초를 기록해야 한다.", "context": "2024 전자신문 인터뷰"}
+    {
+      "textKo": "AI가 99% 분석해도 1% 결정은 사람의 몫이다.",
+      "context": "2024 서울경제 인터뷰"
+    },
+    {
+      "textKo": "혁신으로 세계 최초를 기록해야 한다.",
+      "context": "2024 전자신문 인터뷰"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["반도체 장비 국산화 1세대", "고졸 출신 자수성가", "현대전자 8개월 퇴사", "30년 기술 인내", "5년 내 시총 50조 비전"],
+  "personalTraitsKo": [
+    "반도체 장비 국산화 1세대",
+    "고졸 출신 자수성가",
+    "현대전자 8개월 퇴사",
+    "30년 기술 인내",
+    "5년 내 시총 50조 비전"
+  ],
   "characterKo": {
     "strengths": "현대전자 8개월 퇴사 후 본인 사업으로 한국 반도체 장비 국산화 1세대. 30년간 한 카테고리에 집중한 장인 의식. 외부 자본(최규옥) 유치 결단력.",
     "weaknesses": "반도체 장비 단일 산업 의존도. 글로벌 경쟁(ASML·LAM·AMAT). 5년 내 시총 50조원 비전의 실현 부담.",

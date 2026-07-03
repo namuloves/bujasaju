@@ -32,48 +32,56 @@
       "year": 2000,
       "event": "Enters AT Capital Group",
       "eventKo": "에너지·인프라 투자 그룹 본업 정립",
-      "whyItMatteredKo": "본업 카테고리의 출발점으로, 일간의 표현력이 본인 자리로 환원되는 결정적 결단입니다."
+      "whyItMatteredKo": "본업 카테고리의 출발점으로, 일간의 표현력이 본인 자리로 환원되는 결정적 결단입니다.",
+      "age": 30
     },
     {
       "year": 2008,
       "event": "Scales AT Capital Group into a leading position",
       "eventKo": "AT 캐피털 그룹 본업이 카테고리 1위 자리로 단계적 도약",
-      "whyItMatteredKo": "본업 매출의 카테고리 통로가 단단해진 결정적 결단입니다."
+      "whyItMatteredKo": "본업 매출의 카테고리 통로가 단단해진 결정적 결단입니다.",
+      "age": 38
     },
     {
       "year": 2015,
       "event": "Capital value accelerates with category expansion",
       "eventKo": "본업 카테고리 글로벌·지역 확장으로 자본 가치 가속",
-      "whyItMatteredKo": "본업 매출이 단계적 도약으로 환원된 결정적 결단입니다."
+      "whyItMatteredKo": "본업 매출이 단계적 도약으로 환원된 결정적 결단입니다.",
+      "age": 45
     },
     {
       "year": 2020,
       "event": "Tests the business through global pandemic shock",
       "eventKo": "코로나 사이클기 본업 카테고리 단계적 시험과 회복",
-      "whyItMatteredKo": "외부 충격기 본업 자본의 재정비가 진행된 시기입니다."
+      "whyItMatteredKo": "외부 충격기 본업 자본의 재정비가 진행된 시기입니다.",
+      "age": 50
     },
     {
       "year": 2026,
       "event": "Forbes 2026: $3.1B in Energy",
       "eventKo": "포브스 2026 — AT 캐피털 그룹 자산 가치 31억 달러로 등재",
-      "whyItMatteredKo": "AT 캐피털 그룹 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."
+      "whyItMatteredKo": "AT 캐피털 그룹 본인·가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다.",
+      "age": 56
     }
   ],
   "turningPoints": [
     {
       "year": 2000,
       "eventKo": "에너지·인프라 투자 그룹 본업 정립",
-      "impactKo": "일주 계유의 자리가 본업 자본의 출발점으로 환원된 분기점입니다."
+      "impactKo": "일주 계유의 자리가 본업 자본의 출발점으로 환원된 분기점입니다.",
+      "age": 30
     },
     {
       "year": 2015,
       "eventKo": "AT 캐피털 그룹 카테고리 단계적 확장",
-      "impactKo": "본업 매출이 글로벌·지역 카테고리로 환원된 분기점입니다."
+      "impactKo": "본업 매출이 글로벌·지역 카테고리로 환원된 분기점입니다.",
+      "age": 45
     },
     {
       "year": 2020,
       "eventKo": "코로나 사이클기 본업 재정비",
-      "impactKo": "외부 충격기 본업 자본의 통과 분기점입니다."
+      "impactKo": "외부 충격기 본업 자본의 통과 분기점입니다.",
+      "age": 50
     }
   ],
   "moneyMechanics": {
@@ -87,19 +95,22 @@
       "year": 2014,
       "descriptionKo": "글로벌 유가 급락으로 본업 자산 가치가 단기 시험받았습니다.",
       "howTheyOvercameKo": "단계적 재정비와 카테고리 환원으로 통과했습니다.",
-      "lessonKo": "에너지 매출은 글로벌 가격 사이클에 직접 노출됩니다."
+      "lessonKo": "에너지 매출은 글로벌 가격 사이클에 직접 노출됩니다.",
+      "age": 44
     },
     {
       "year": 2020,
       "descriptionKo": "코로나 수요 충격으로 본업 자산이 단기 시험받았습니다.",
       "howTheyOvercameKo": "단계적 재정비와 카테고리 환원으로 통과했습니다.",
-      "lessonKo": "에너지 자산 가치는 거시 충격기 단기 변동성이 큽니다."
+      "lessonKo": "에너지 자산 가치는 거시 충격기 단기 변동성이 큽니다.",
+      "age": 50
     },
     {
       "year": 2023,
       "descriptionKo": "에너지 카테고리 경쟁 격화로 본업 마진이 단기 압박을 받았습니다.",
       "howTheyOvercameKo": "단계적 회복과 카테고리 재편으로 통과했습니다.",
-      "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."
+      "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다.",
+      "age": 53
     }
   ],
   "wealthHistory": [

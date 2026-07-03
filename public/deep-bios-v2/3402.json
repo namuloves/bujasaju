@@ -36,66 +36,77 @@
       "year": 2001,
       "event": "Debuted as commercial model",
       "eventKo": "광고 모델로 데뷔",
-      "whyItMatteredKo": "21세에 본인 경력 시작. 한국 톱 여배우의 출발점."
+      "whyItMatteredKo": "21세에 본인 경력 시작. 한국 톱 여배우의 출발점.",
+      "age": 21
     },
     {
       "year": 2003,
       "event": "Starred in 'Stairway to Heaven' (천국의 계단) — became top Korean actress",
       "eventKo": "'천국의 계단' 출연으로 한국 톱 여배우 도약",
-      "whyItMatteredKo": "본인 인생 결정적 작품. 한국 1세대 한류 드라마."
+      "whyItMatteredKo": "본인 인생 결정적 작품. 한국 1세대 한류 드라마.",
+      "age": 23
     },
     {
       "year": 2009,
       "event": "Starred in 'IRIS' — Korean spy drama hit",
       "eventKo": "'아이리스' 출연 — 한국 스파이 드라마 히트",
-      "whyItMatteredKo": "비(Rain)와 첫 만남. 후일 결혼의 토대."
+      "whyItMatteredKo": "비(Rain)와 첫 만남. 후일 결혼의 토대.",
+      "age": 29
     },
     {
       "year": 2017,
       "event": "Married Rain (정지훈) on January 19; first daughter born October 25",
       "eventKo": "1월 19일 비와 결혼; 10월 25일 첫째 딸 출생",
-      "whyItMatteredKo": "한국 연예계 최대 결혼 이벤트. 후일 부부 부동산 자산의 토대."
+      "whyItMatteredKo": "한국 연예계 최대 결혼 이벤트. 후일 부부 부동산 자산의 토대.",
+      "age": 37
     },
     {
       "year": 2019,
       "event": "Second daughter born September 19",
       "eventKo": "9월 19일 둘째 딸 출생",
-      "whyItMatteredKo": "두 딸 출생으로 가족 안정. 본인 연기 활동 일부 축소."
+      "whyItMatteredKo": "두 딸 출생으로 가족 안정. 본인 연기 활동 일부 축소.",
+      "age": 39
     },
     {
       "year": 2021,
       "event": "Couple bought Seocho-dong Gangnam Daero building for KRW 92 billion (Rain 60% + Kim's company 40%)",
       "eventKo": "부부가 서초구 강남대로변 빌딩을 920억원에 매입 (비 60% + 김태희 법인 40%)",
-      "whyItMatteredKo": "한국 연예인 부동산 매입 사상 최대급. 후일 본인 자산의 핵심."
+      "whyItMatteredKo": "한국 연예인 부동산 매입 사상 최대급. 후일 본인 자산의 핵심.",
+      "age": 41
     },
     {
       "year": 2022,
       "event": "Attempted to sell building at KRW 1.4 trillion — withdrew amid market chatter",
       "eventKo": "건물 1,400억원에 매각 추진했으나 철회 — 화제",
-      "whyItMatteredKo": "1년 만에 매입가의 50% 이상 상승. 매각 철회로 더 큰 가치 상승 노림."
+      "whyItMatteredKo": "1년 만에 매입가의 50% 이상 상승. 매각 철회로 더 큰 가치 상승 노림.",
+      "age": 42
     },
     {
       "year": 2024,
       "event": "Building valuation reached KRW 1.4 trillion+ (3-year value increase ~KRW 480 billion); Rain bought additional Apgujeong building for KRW 15.8 billion",
       "eventKo": "강남 빌딩 평가액 1,400억원+ (3년 평가차익 약 480억원); 비가 별도 압구정 빌딩 158억 매입",
-      "whyItMatteredKo": "부부 부동산 자산 약 1,600억원+ 도달. Forbes 빌리어네어 진입의 결정적 자산."
+      "whyItMatteredKo": "부부 부동산 자산 약 1,600억원+ 도달. Forbes 빌리어네어 진입의 결정적 자산.",
+      "age": 44
     }
   ],
   "turningPoints": [
     {
       "year": 2003,
       "eventKo": "천국의 계단 출연",
-      "impactKo": "한국 톱 여배우 도약. 후일 광고·드라마 누적 수입의 토대."
+      "impactKo": "한국 톱 여배우 도약. 후일 광고·드라마 누적 수입의 토대.",
+      "age": 23
     },
     {
       "year": 2017,
       "eventKo": "비와 결혼",
-      "impactKo": "한국 연예계 최대 결혼. 후일 부부 부동산 자산의 토대."
+      "impactKo": "한국 연예계 최대 결혼. 후일 부부 부동산 자산의 토대.",
+      "age": 37
     },
     {
       "year": 2021,
       "eventKo": "강남대로 920억 빌딩 매입",
-      "impactKo": "본인 자산의 결정적 형성. 3년 만에 480억원+ 평가차익."
+      "impactKo": "본인 자산의 결정적 형성. 3년 만에 480억원+ 평가차익.",
+      "age": 41
     }
   ],
   "moneyMechanics": {
@@ -115,16 +126,41 @@
   },
   "failures": [],
   "wealthHistory": [
-    {"year": 2017, "netWorth": "약 200억원", "sourceKo": "결혼 시점 추정"},
-    {"year": 2021, "netWorth": "약 500억원", "sourceKo": "강남 빌딩 매입 시점"},
-    {"year": 2024, "netWorth": "약 800억원", "sourceKo": "건물 평가 1,400억원 + 누적"},
-    {"year": 2025, "netWorth": "$0.6B (약 0.85조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2017,
+      "netWorth": "약 200억원",
+      "sourceKo": "결혼 시점 추정"
+    },
+    {
+      "year": 2021,
+      "netWorth": "약 500억원",
+      "sourceKo": "강남 빌딩 매입 시점"
+    },
+    {
+      "year": 2024,
+      "netWorth": "약 800억원",
+      "sourceKo": "건물 평가 1,400억원 + 누적"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$0.6B (약 0.85조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [
-    {"textKo": "배우는 작품으로 말한다.", "context": "본인 평소 인터뷰"}
+    {
+      "textKo": "배우는 작품으로 말한다.",
+      "context": "본인 평소 인터뷰"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["서울대 출신 톱 여배우", "비와의 결혼", "강남 빌딩 920억 매입", "건물 평가차익 480억", "두 딸 엄마"],
+  "personalTraitsKo": [
+    "서울대 출신 톱 여배우",
+    "비와의 결혼",
+    "강남 빌딩 920억 매입",
+    "건물 평가차익 480억",
+    "두 딸 엄마"
+  ],
   "characterKo": {
     "strengths": "서울대 의류학과 출신의 학력 신뢰성. 25년 한국 톱 여배우의 안정적 평판. 비(남편)와의 부부 자산 결합으로 부동산 매입 자본 확보. 강남대로 핵심 부동산 매입의 사이클 감각.",
     "weaknesses": "출연 작품 수가 결혼·출산 후 감소. 부동산 일변도 자산 구조. 매각 추진 후 철회의 시장 잡음.",
@@ -136,7 +172,11 @@
     "geokguk": "편재격",
     "interpretationKo": "신축 일주는 잘 다듬어진 보석·칼이 진흙·옥토 위에 놓인 형상으로, '예리한 도구가 단단한 외부 환경에서 정교하게 가공되는' 본질을 가진다. 편재격은 외부의 큰 자원·부동산을 끌어다 쓰는 사업가형 본능. 김태희 배우의 인생 — 톱 여배우 → 결혼 → 강남 빌딩 매입 → 평가차익 — 는 편재격이 연예인 부동산 투자에서 발현된 사례다.",
     "keyEvents": [
-      {"year": 2021, "saju": "정유 대운(편관+비견)", "interpretationKo": "편관 대운에 외부 큰 자산 매입. 강남 빌딩 920억 매입과 호응."}
+      {
+        "year": 2021,
+        "saju": "정유 대운(편관+비견)",
+        "interpretationKo": "편관 대운에 외부 큰 자산 매입. 강남 빌딩 920억 매입과 호응."
+      }
     ]
   },
   "sources": [

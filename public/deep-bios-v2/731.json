@@ -5,7 +5,6 @@
   "netWorth": 5.5,
   "nationality": "US",
   "industry": "Healthcare",
-
   "childhood": {
     "birthPlace": "United States",
     "birthPlaceKo": "미국",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "의료 제품 유통의 Mills 가족 사업 환경에서 청년기. Kellogg MBA 후 Medline 합류 — 제품 부서·마케팅 역할을 거친 후 1997년 사장 승진.",
     "source": "https://en.wikipedia.org/wiki/Medline_Industries ; https://www.medline.com/about-us/history/ ; https://www.forbes.com/profile/andy-mills/"
   },
-
   "capitalOrigin": {
     "typeKo": "inherited",
     "explanationKo": "100% 상속. Mills 가족이 1960년대 창립한 Medline Industries 가족 지분의 분할. 본격적인 부는 2021년 가족이 Medline의 79% 지분을 Blackstone·Carlyle·Hellman & Friedman 컨소시엄에 약 340억 달러 평가에 매각한 데서 발생.",
     "source": "https://en.wikipedia.org/wiki/Medline_Industries"
   },
-
   "careerTimeline": [
     {
       "year": 1985,
@@ -107,7 +104,6 @@
       "source": "https://en.wikipedia.org/wiki/Medline_Industries"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1997,
@@ -134,7 +130,6 @@
       "source": "https://en.wikipedia.org/wiki/Medline_Industries"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Medline Industries 잔여 21% 가족 지분 + 2021 매각 대금 약 270억 달러+를 핵심 자본으로 한 Mills 가족 사무소. Vivo Foundation 자선 자본. 본인 자산은 가족 합산이 아닌 본인 개인 + 신탁 지분.",
     "industryKo": "헬스케어 제품(과거 자본 토대), 자산 운용·자선(현재)",
@@ -142,7 +137,6 @@
     "moatKo": "① Medline 매각 대금 270억 달러+의 단일 자본 토대. ② 60년 누적된 의료 제품 산업 노하우. ③ 4·5세대 다세대 가족 거버넌스. ④ Vivo Foundation의 자선 자본 인프라.",
     "luckVsSkillKo": "운(45%): 가족이 1960년대 의료 제품 산업에 진입한 가족 자본 운, 2020 COVID-19이 회사 가치를 폭증시킨 거시 환경, 2021 PE 시장이 헬스케어 메가 거래에 우호적이었던 사이클. 실력(55%): 26년 사장 재임의 일관성, 유통에서 제조로의 사업 모델 변환, 매각 타이밍 결정의 사이클 감각, 매각 후 자선·가족 사무소 정체성 설계."
   },
-
   "personalTraits": {
     "knownFor": "Former President of Medline Industries (1997-2023) — fourth-generation Mills family leader of the largest US-based privately held medical products manufacturer/distributor; oversaw the 2021 sale of 79% of Medline to Blackstone/Carlyle/Hellman & Friedman for ~$34B; co-founder of Vivo Foundation with his wife Nancy.",
     "knownForKo": "Medline Industries 전 사장(1997-2023) — 미국 최대 사설 의료 제품 제조·유통 회사의 4세대 Mills 가족 리더. 2021년 Medline의 79%를 Blackstone/Carlyle/Hellman & Friedman에 약 340억 달러에 매각 감독. 부인 낸시와 Vivo Foundation 공동 창립자.",
@@ -151,12 +145,16 @@
     "controversies": "Medline Industries has faced labor-relations and product-quality issues typical of large medical-products distributors; the 2021 PE buyout drew industry-wide commentary about healthcare consolidation and pricing implications; no major personal scandals.",
     "controversiesKo": "Medline Industries가 대형 의료 제품 유통자의 표준 노동 관계·제품 품질 문제 직면. 2021 PE 바이아웃이 헬스케어 통합·가격 함의에 대한 산업 전반 코멘터리 야기. 본인 개인 스캔들 없음."
   },
-
   "characterKo": {
     "summaryKo": "4세대 미국 사설 가족 의료 사업의 운영 가부장에서 매각 후 자선·자산 운용 가문으로의 변환을 성공적으로 이뤄낸 사례. 동료들이 말하는 가장 두드러진 특성은 '26년 사장 재임의 일관성'과 '미디어 노출이 매우 적은 비공개 일관성'. Vivo Foundation을 통한 매각 후 자선 정체성 즉시 구축.",
-    "tagsKo": ["4세대 의료 가족 가부장", "26년 사장", "340억 달러 매각", "Vivo Foundation", "다세대 자본 변환자"]
+    "tagsKo": [
+      "4세대 의료 가족 가부장",
+      "26년 사장",
+      "340억 달러 매각",
+      "Vivo Foundation",
+      "다세대 자본 변환자"
+    ]
   },
-
   "failures": [
     {
       "year": 2010,
@@ -164,7 +162,8 @@
       "descriptionKo": "Medline이 유통 센터·제조 시설에서 다년간 미국 노동 관계 분쟁 직면 — 회사 성장이 인력 확장을 요구하면서 때로 노사 인프라를 앞질러 노조 압박·운영 혼란 야기.",
       "lesson": "Rapid growth in distribution-heavy businesses requires labor-management investment that scales ahead of capacity expansion; reactive labor relations create operational tail risk.",
       "lessonKo": "유통 집약 사업의 빠른 성장은 수용 능력 확장보다 앞서 확장되는 노사 관리 투자를 요구한다. 반응적 노사 관계는 운영 잔여 리스크를 만든다.",
-      "source": "https://en.wikipedia.org/wiki/Medline_Industries"
+      "source": "https://en.wikipedia.org/wiki/Medline_Industries",
+      "age": 49
     },
     {
       "year": 2021,
@@ -172,19 +171,33 @@
       "descriptionKo": "2021 Medline의 79% PE 매각이 매각 후 비용 압박·병원 가격 영향·헬스케어 공급망의 광범위한 PE 통합 트렌드에 대한 산업 전반 우려 야기 — Mills 가족 평판이 장기 사설 소유의 매각에 대한 일부 비판 직면.",
       "lesson": "Family-business sales to PE create multi-year reputational tails as the acquired company's post-buyout actions reflect on the seller's stewardship legacy; family wealth is also family identity.",
       "lessonKo": "가족 사업의 PE 매각은 인수된 회사의 매각 후 행동이 매도자의 관리 유산을 반영하면서 다년간 평판 잔여를 만든다. 가족 부는 또한 가족 정체성이다.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 60
     }
   ],
-
   "wealthHistory": [
-    { "year": 2018, "netWorth": 1.6 },
-    { "year": 2020, "netWorth": 2.6 },
-    { "year": 2022, "netWorth": 5.1 },
-    { "year": 2024, "netWorth": 5.4 },
-    { "year": 2025, "netWorth": 5.5 }
+    {
+      "year": 2018,
+      "netWorth": 1.6
+    },
+    {
+      "year": 2020,
+      "netWorth": 2.6
+    },
+    {
+      "year": 2022,
+      "netWorth": 5.1
+    },
+    {
+      "year": 2024,
+      "netWorth": 5.4
+    },
+    {
+      "year": 2025,
+      "netWorth": 5.5
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "We ran Medline for 60 years as a family. After 2021, the family had to redefine what we were building together.",
@@ -194,12 +207,10 @@
       "source": "https://www.fa-mag.com"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Gap-Ja day pillar in a Myo month forms a 'jeonggwan-gyeok' chart — tall wood drawing water under spring wood authority, fitting a fourth-generation family-business operator who built capital under sustained healthcare-industry regulation before pivoting to philanthropy.",
     "summaryKo": "갑자 일주가 묘월에 자리잡은 정관격(공식 권위·규제·구조 아래 자기 자본을 만들어 가는 구조)은 60년 헬스케어 규제 환경에서 가족 회사를 26년 운영한 그의 인생과 호응합니다. 갑목 일간은 큰 나무·기둥의 기질로 거대 가족 사업의 안정적 가부장 역할과 잘 맞고, 일지 자수가 정인(어머니·학문)으로 Kellogg MBA 학문 자본을 깔고 있음. 월지 묘목이 비견(같은 목)으로 — 가족 형제·자매와의 협력 자리. 약점은 정관격이 너무 강하면 식상(자기 표현)을 압축한다는 점인데, 본인 인터뷰가 매우 적은 비공개 일관성이 그 그늘로 읽힙니다."

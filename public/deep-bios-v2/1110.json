@@ -14,27 +14,82 @@
   "childhood": {
     "summaryKo": "1957년 인도 라자스탄주의 마르와리 상인 가문에서 태어났습니다. 정통 학력보다 가문 사업 실무 경험이 토대인 1세대 자수성가형 인물로, 1980년대 가문 폭약·산업용 화약 사업에 합류했습니다.",
     "capitalTypeKo": "맨몸 자수성가·가족 자본 결합 — 인도 1세대 산업용 폭약 자수성가형 인물 (Solar Industries 공동 창업)입니다.",
-    "sources": ["https://en.wikipedia.org/wiki/Solar_Industries_India"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Solar_Industries_India"
+    ]
   },
   "capitalOrigin": {
     "type": "self-made",
     "typeKo": "자수성가",
     "descriptionKo": "1995년 형 사트야나라얀 누왈과 함께 'Solar Industries India' 공동 창업해 인도 산업용 폭약·국방 카테고리에서 본업을 만들었습니다. 2006년 인도 증권거래소 상장으로 본격 자본 시장 가치를 환원했고, 2010~2020년대 인도 국방 자급률 정책 흐름으로 본업 매출이 가속됐습니다.",
     "selfMadeScore": 8,
-    "sources": ["https://www.solargroup.com"]
+    "sources": [
+      "https://www.solargroup.com"
+    ]
   },
   "careerTimeline": [
-    {"year": 1995, "event": "Co-founds Solar Industries India with brother", "eventKo": "형과 함께 'Solar Industries India' 공동 창업, 인도 산업용 폭약 카테고리 진입", "whyItMatteredKo": "기묘 일주의 가을 작은 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다."},
-    {"year": 2000, "event": "Builds first explosives plant in Nagpur", "eventKo": "나그푸르 1공장 가동, 본업 생산 토대 형성", "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다."},
-    {"year": 2006, "event": "Solar Industries IPOs on Indian stock exchange", "eventKo": "Solar Industries 인도 증권거래소 상장", "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다."},
-    {"year": 2014, "event": "Expands into defense products", "eventKo": "국방 제품 카테고리 진입, 본업 다각화", "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다."},
-    {"year": 2022, "event": "India defense self-reliance policy drives revenue", "eventKo": "인도 국방 자급률 정책 가속으로 본업 매출 가속", "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다."},
-    {"year": 2026, "event": "Forbes 2026: $3.7B in Manufacturing", "eventKo": "포브스 2026 — 제조업 37억 달러로 등재", "whyItMatteredKo": "Solar Industries 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+    {
+      "year": 1995,
+      "event": "Co-founds Solar Industries India with brother",
+      "eventKo": "형과 함께 'Solar Industries India' 공동 창업, 인도 산업용 폭약 카테고리 진입",
+      "whyItMatteredKo": "기묘 일주의 가을 작은 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 출발점입니다.",
+      "age": 38
+    },
+    {
+      "year": 2000,
+      "event": "Builds first explosives plant in Nagpur",
+      "eventKo": "나그푸르 1공장 가동, 본업 생산 토대 형성",
+      "whyItMatteredKo": "본업 매출의 카테고리 통로가 만들어진 시기입니다.",
+      "age": 43
+    },
+    {
+      "year": 2006,
+      "event": "Solar Industries IPOs on Indian stock exchange",
+      "eventKo": "Solar Industries 인도 증권거래소 상장",
+      "whyItMatteredKo": "본업 매출이 자본 시장 가치로 환원된 결정적 분기점입니다.",
+      "age": 49
+    },
+    {
+      "year": 2014,
+      "event": "Expands into defense products",
+      "eventKo": "국방 제품 카테고리 진입, 본업 다각화",
+      "whyItMatteredKo": "본업 카테고리 다각화가 진행된 결정적 결단입니다.",
+      "age": 57
+    },
+    {
+      "year": 2022,
+      "event": "India defense self-reliance policy drives revenue",
+      "eventKo": "인도 국방 자급률 정책 가속으로 본업 매출 가속",
+      "whyItMatteredKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 시기입니다.",
+      "age": 65
+    },
+    {
+      "year": 2026,
+      "event": "Forbes 2026: $3.7B in Manufacturing",
+      "eventKo": "포브스 2026 — 제조업 37억 달러로 등재",
+      "whyItMatteredKo": "Solar Industries 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다.",
+      "age": 69
+    }
   ],
   "turningPoints": [
-    {"year": 1995, "eventKo": "Solar Industries 공동 창업", "impactKo": "기묘 일주의 가을 작은 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다."},
-    {"year": 2006, "eventKo": "Solar 인도 상장", "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다."},
-    {"year": 2022, "eventKo": "인도 국방 자급률 정책 가속", "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다."}
+    {
+      "year": 1995,
+      "eventKo": "Solar Industries 공동 창업",
+      "impactKo": "기묘 일주의 가을 작은 흙 일간이 학습된 권위의 흐름을 본인 사업으로 환원한 결정적 결단입니다.",
+      "age": 38
+    },
+    {
+      "year": 2006,
+      "eventKo": "Solar 인도 상장",
+      "impactKo": "본업 매출이 자본 시장 가치로 한 번에 환원된 분기점입니다.",
+      "age": 49
+    },
+    {
+      "year": 2022,
+      "eventKo": "인도 국방 자급률 정책 가속",
+      "impactKo": "외부 자원의 큰 흐름이 본인 자본의 단계적 도약으로 환원된 만년의 결단입니다.",
+      "age": 65
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "Solar Industries India(NSE: SOLARINDS) 본인 및 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
@@ -43,18 +98,58 @@
     "currentAssetAllocationKo": "Solar Industries 본인·가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
   },
   "failures": [
-    {"year": 2008, "descriptionKo": "글로벌 금융위기로 인도 산업 자재 수요가 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 산업 카테고리 매출에 분기 단위로 영향을 줍니다."},
-    {"year": 2018, "descriptionKo": "본토 화학 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.", "howTheyOvercameKo": "고부가 카테고리 비중 강화로 통과했습니다.", "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다."},
-    {"year": 2020, "descriptionKo": "코로나로 인도 산업 활동이 단기 마비됐습니다.", "howTheyOvercameKo": "단계적 회복과 국방 카테고리 비중 강화로 통과했습니다.", "lessonKo": "거시 충격은 산업 카테고리 매출에 분기 단위로 영향을 줍니다."}
+    {
+      "year": 2008,
+      "descriptionKo": "글로벌 금융위기로 인도 산업 자재 수요가 단기 위축됐습니다.",
+      "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.",
+      "lessonKo": "거시 충격은 산업 카테고리 매출에 분기 단위로 영향을 줍니다.",
+      "age": 51
+    },
+    {
+      "year": 2018,
+      "descriptionKo": "본토 화학 가격 경쟁 격화로 본업 마진이 단기 시험받았습니다.",
+      "howTheyOvercameKo": "고부가 카테고리 비중 강화로 통과했습니다.",
+      "lessonKo": "단일 카테고리 의존은 가격 경쟁기에 마진이 가장 먼저 흔들립니다.",
+      "age": 61
+    },
+    {
+      "year": 2020,
+      "descriptionKo": "코로나로 인도 산업 활동이 단기 마비됐습니다.",
+      "howTheyOvercameKo": "단계적 회복과 국방 카테고리 비중 강화로 통과했습니다.",
+      "lessonKo": "거시 충격은 산업 카테고리 매출에 분기 단위로 영향을 줍니다.",
+      "age": 63
+    }
   ],
   "wealthHistory": [
-    {"year": 2015, "netWorth": "$0.5B", "sourceKo": "포브스 추정"},
-    {"year": 2020, "netWorth": "$1.2B", "sourceKo": "포브스 추정"},
-    {"year": 2024, "netWorth": "$3B", "sourceKo": "포브스 추정"},
-    {"year": 2026, "netWorth": "$3.7B", "sourceKo": "포브스 2026 빌리어네어즈"}
+    {
+      "year": 2015,
+      "netWorth": "$0.5B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2020,
+      "netWorth": "$1.2B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2024,
+      "netWorth": "$3B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$3.7B",
+      "sourceKo": "포브스 2026 빌리어네어즈"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["Solar Industries 공동 창업", "인도 산업용 폭약 1위", "마르와리 가문", "인도 국방 자급률 수혜", "1세대 자수성가"],
+  "personalTraitsKo": [
+    "Solar Industries 공동 창업",
+    "인도 산업용 폭약 1위",
+    "마르와리 가문",
+    "인도 국방 자급률 수혜",
+    "1세대 자수성가"
+  ],
   "characterKo": {
     "strengths": "1995년 Solar Industries 공동 창업으로 인도 산업용 폭약 카테고리 1위 회사를 만든 카테고리 도약 본능과, 2022년 국방 자급률 정책 흐름을 본인 자본 가치 가속으로 환원시킨 흐름 감각이 강점입니다.",
     "weaknesses": "인도 산업 사이클과 글로벌 화학 가격 경쟁 사이클에 본업 매출이 직접 노출됩니다.",

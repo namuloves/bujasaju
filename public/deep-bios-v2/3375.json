@@ -36,37 +36,43 @@
       "year": 1985,
       "event": "Joined Hyundai Trading after MA",
       "eventKo": "현대종합상사 입사",
-      "whyItMatteredKo": "30세에 가문 회사 시작."
+      "whyItMatteredKo": "30세에 가문 회사 시작.",
+      "age": 30
     },
     {
       "year": 1996,
       "event": "Chairman of Hyundai Installment Finance",
       "eventKo": "현대할부금융 대표이사 회장",
-      "whyItMatteredKo": "본격 금융업 진출."
+      "whyItMatteredKo": "본격 금융업 진출.",
+      "age": 41
     },
     {
       "year": 2001,
       "event": "Returned as Chairman of Hyundai Marine & Fire Insurance",
       "eventKo": "현대해상화재보험 회장 재취임",
-      "whyItMatteredKo": "본인 평생 사업의 정착."
+      "whyItMatteredKo": "본인 평생 사업의 정착.",
+      "age": 46
     },
     {
       "year": 2024,
       "event": "Son Chung Kyung-sun (정경선) appointed Vice Chairman — succession track",
       "eventKo": "장남 정경선 부회장 취임 — 후계 트랙",
-      "whyItMatteredKo": "본격 3세 경영 진입."
+      "whyItMatteredKo": "본격 3세 경영 진입.",
+      "age": 69
     }
   ],
   "turningPoints": [
     {
       "year": 2001,
       "eventKo": "현대해상 회장 재취임",
-      "impactKo": "본인 평생 사업의 정착."
+      "impactKo": "본인 평생 사업의 정착.",
+      "age": 46
     },
     {
       "year": 2024,
       "eventKo": "장남 정경선 부회장 취임",
-      "impactKo": "본격 3세 경영 진입."
+      "impactKo": "본격 3세 경영 진입.",
+      "age": 69
     }
   ],
   "moneyMechanics": {
@@ -84,11 +90,20 @@
   },
   "failures": [],
   "wealthHistory": [
-    {"year": 2025, "netWorth": "$0.36B (약 0.5조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2025,
+      "netWorth": "$0.36B (약 0.5조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [],
   "books": [],
-  "personalTraitsKo": ["정주영 7남", "현대해상 단독 회장", "야구협회장", "장남 정경선 후계"],
+  "personalTraitsKo": [
+    "정주영 7남",
+    "현대해상 단독 회장",
+    "야구협회장",
+    "장남 정경선 후계"
+  ],
   "characterKo": {
     "strengths": "정주영 7남 정통성. 현대해상 24년 회장의 안정적 운영. 한국 손해보험 빅3 지위 유지.",
     "weaknesses": "본인 직접 사업 창출보다 가문 자산 운영. 보험업의 구조적 정체.",

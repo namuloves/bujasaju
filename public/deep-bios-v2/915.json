@@ -5,7 +5,6 @@
   "netWorth": 4.5,
   "nationality": "US",
   "industry": "Energy",
-
   "childhood": {
     "birthPlace": "Vernon, Texas, USA",
     "birthPlaceKo": "미국 텍사스주 버넌",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "1980년대에 걸쳐 텍사스 소규모 정유 사업·석유 거래 사업에서 초기 경력. 1993년 작은 엘 패소 지역 Chaparral 정유 사업 인수 — 훗날 Western Refining으로 확장될 토대.",
     "source": "https://en.wikipedia.org/wiki/Paul_L._Foster ; https://en.wikipedia.org/wiki/Western_Refining ; https://www.forbes.com/profile/paul-foster/"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "100% 자수성가. 가족 자본 없음. 첫 자본은 1980년대 텍사스 정유 사업 누적 수익. 본격적인 부는 1993년 Chaparral 정유 인수로 시작해 Western Refining으로 키운 후 2006년 IPO와 2016년 Tesoro에 65억 달러+ 매각에서 발생.",
     "source": "https://en.wikipedia.org/wiki/Western_Refining"
   },
-
   "careerTimeline": [
     {
       "year": 1993,
@@ -115,7 +112,6 @@
       "source": "https://en.wikipedia.org/wiki/Western_Refining"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1993,
@@ -142,7 +138,6 @@
       "source": "https://www.bloomberg.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "Franklin Mountain Investments(비공개 가족 사무소) — 2016년 Western Refining 매각 대금 약 10억 달러+를 핵심 자본으로 한 다각화 가족 사무소. 신재생 에너지·부동산·엘 패소 지역 개발, 텍사스 사모 투자 등.",
     "industryKo": "자산 운용(매각 후), 부동산, 신재생 에너지, 자선·교육",
@@ -150,7 +145,6 @@
     "moatKo": "① Western Refining 매각 대금 10억 달러+의 단일 자본 토대. ② 23년 누적된 정유·에너지 산업 노하우. ③ 텍사스 정치·교육 자본 (UT Regents 등). ④ 엘 패소 지역 도시 자본.",
     "luckVsSkillKo": "운(45%): 1993년 미국 정유 산업이 통합 직전이었던 타이밍, 2000년대 초중반 유가 강세 사이클이 Western Refining 가치 폭증, 2016년 Tesoro 매각이 정유 통합 사이클 정점이었던 점. 실력(55%): 23년 단일 회사 운영의 일관성, 거대 메이저 무시한 지역 시장의 차별화 전략, 위기 사이클(2008-2009) 통과의 운영 규율, 매각 후 자산 운용·자선 정체성 설계."
   },
-
   "personalTraits": {
     "knownFor": "Founder of Western Refining; built it from a single small El Paso refinery (1993) into a multi-state refining-and-retail operator that was sold to Tesoro for $6.4B in 2016-2017; major Texas philanthropist and former University of Texas System Regent; significant El Paso community patron.",
     "knownForKo": "Western Refining 창립자 — 단일 작은 엘 패소 정유 시설(1993)을 2016-2017년 Tesoro에 64억 달러 매각된 다주 정유-소매 운영자로 키움. 주요 텍사스 자선가이자 전 University of Texas System Regent. 주요 엘 패소 지역 사회 후원자.",
@@ -159,12 +153,16 @@
     "controversies": "Western Refining occasionally faced EPA and Texas environmental compliance issues typical of independent refiners; political donations to Republican causes drew criticism from progressive groups; standard refining-industry safety incidents at individual plants.",
     "controversiesKo": "Western Refining이 독립 정유사의 표준 EPA·텍사스 환경 준수 문제에 간헐적 직면. 공화당 활동에 대한 정치 기부가 진보 단체로부터 비판. 개별 공장의 정유 산업 표준 안전 사고."
   },
-
   "characterKo": {
     "summaryKo": "텍사스 지역 자수성가 정유 사업가의 모범 사례. 동료들이 말하는 가장 두드러진 특성은 '23년 한 회사·한 산업·한 지역에 집중한 일관성'과 '매각 후에도 엘 패소·텍사스 지역 정체성을 의도적으로 유지하는 점'. 거대 메이저 정유사가 아닌 독립 지역 사업가 정체성의 가장 깨끗한 사례.",
-    "tagsKo": ["텍사스 지역 사업가", "독립 정유사 자수성가", "23년 단일 회사", "엘 패소 지역 후원자", "공화당 정치 자본"]
+    "tagsKo": [
+      "텍사스 지역 사업가",
+      "독립 정유사 자수성가",
+      "23년 단일 회사",
+      "엘 패소 지역 후원자",
+      "공화당 정치 자본"
+    ]
   },
-
   "failures": [
     {
       "year": 2009,
@@ -172,7 +170,8 @@
       "descriptionKo": "Western Refining 주가가 2008-2009 금융위기 동안 2007 고점에서 약 75% 하락 — 정유 마진 붕괴와 수요 하락. 포스터의 서류상 부가 2009년까지 가파르게 감소, 회사가 부채 약정 준수에 집중 필요.",
       "lesson": "Independent refining is structurally exposed to oil-price and demand cycles; even excellent operators absorb 50%+ paper-wealth declines during macro shocks.",
       "lessonKo": "독립 정유는 유가·수요 사이클에 구조적으로 노출된다. 우수한 운영자도 거시 충격 시 50%+ 서류상 부 감소를 흡수한다.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 52
     },
     {
       "year": 2017,
@@ -180,20 +179,37 @@
       "descriptionKo": "Tesoro의 Western Refining 인수가 2017년 중반 미국 정유 산업 과잉 공급 파동이 시작될 때 종결 — 일부 애널리스트는 포스터가 출구 타이밍이 좋았다고 주장하지만 Tesoro 주주들이 후속 운영 통합 도전 흡수.",
       "lesson": "Sellers benefit from the timing of cycle inflections; buyers absorb the subsequent operational stress — exit timing is a discipline separate from operational excellence.",
       "lessonKo": "매도자는 사이클 변곡점 타이밍의 이익을 누린다. 매수자는 후속 운영 스트레스를 흡수 — 출구 타이밍은 운영 우수성과 별개의 규율이다.",
-      "source": "https://www.bloomberg.com"
+      "source": "https://www.bloomberg.com",
+      "age": 60
     }
   ],
-
   "wealthHistory": [
-    { "year": 2015, "netWorth": 1.6 },
-    { "year": 2018, "netWorth": 2.8 },
-    { "year": 2020, "netWorth": 2.5 },
-    { "year": 2022, "netWorth": 4.0 },
-    { "year": 2024, "netWorth": 4.3 },
-    { "year": 2025, "netWorth": 4.5 }
+    {
+      "year": 2015,
+      "netWorth": 1.6
+    },
+    {
+      "year": 2018,
+      "netWorth": 2.8
+    },
+    {
+      "year": 2020,
+      "netWorth": 2.5
+    },
+    {
+      "year": 2022,
+      "netWorth": 4
+    },
+    {
+      "year": 2024,
+      "netWorth": 4.3
+    },
+    {
+      "year": 2025,
+      "netWorth": 4.5
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "I bought one small refinery in El Paso. The rest is just discipline and time.",
@@ -203,12 +219,10 @@
       "source": "https://www.forbes.com/profile/paul-foster/"
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Gye-Chuk day pillar in a Yu month forms a 'pyeon-gwan-gyeok' chart — small water under autumn metal authority, fitting a one-industry operator who built a single refining asset patiently under sustained regulatory, market, and macro pressure.",
     "summaryKo": "계축 일주가 유월에 자리잡은 편관격(강한 외부 권력·압박이 평생 자기 자본을 둘러싸는 구조)은 EPA·유가·금융위기 같은 거대 외부 환경의 압박을 23년 견딘 그의 인생과 호응합니다. 계수 일간은 작은 흐름의 물·세부의 기질로 정유 산업의 정밀한 운영 본능을 깔고 있고, 일지·월지의 축토·유금이 정관·편인을 거듭 — 평생 외부 권위(에너지 규제·금융 시장)와 학문(베일러 경영학) 환경 속에서 자본을 만든 패턴. 약점은 편관격이 너무 강하면 운영 안정성에도 거시 충격에 노출된다는 점인데, 2008-2009년 주가 75% 하락이 그 표면화로 읽힙니다."

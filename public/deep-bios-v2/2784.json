@@ -14,27 +14,83 @@
   "childhood": {
     "summaryKo": "구자라트 쿠치의 상인 집안에서 태어났습니다. 학력은 봄베이대 화학 학사로, 1950년대 인도 화학 산업이 사실상 비어 있던 시절 화학 전공이라는 흔치 않은 선택을 했습니다.",
     "capitalTypeKo": "맨몸 자수성가 — 36세에 자본금 약 4만 달러로 창업해 53년 만에 글로벌 5대 농약 회사를 만든 인물입니다.",
-    "sources": ["https://en.wikipedia.org/wiki/Rajnikant_Shroff", "https://en.wikipedia.org/wiki/UPL_(company)"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rajnikant_Shroff",
+      "https://en.wikipedia.org/wiki/UPL_(company)"
+    ]
   },
   "capitalOrigin": {
     "type": "self-made",
     "typeKo": "자수성가",
     "descriptionKo": "1957년 수은염 제조 공법을 직접 개발해 영국 기업으로부터 로열티를 받은 것이 첫 자본 축적입니다. 1969년 36세에 UPL을 설립했고, 1994년 NSE 상장, 2018년 일본 아리스타 라이프사이언스 42억 달러 인수로 글로벌 5위에 올랐습니다.",
     "selfMadeScore": 9,
-    "sources": ["https://www.upl-ltd.com/rajjushroff"]
+    "sources": [
+      "https://www.upl-ltd.com/rajjushroff"
+    ]
   },
   "careerTimeline": [
-    {"year": 1957, "event": "Develops mercury salts process; British company pays royalty", "eventKo": "수은염 제조 공법 개발, 영국 기업으로부터 로열티 수령", "whyItMatteredKo": "독립 직후 인도인이 영국 화학사에 기술 라이선스를 판 사례입니다. 자수성가의 첫 자본이 만들어진 시점입니다."},
-    {"year": 1969, "event": "Founds UPL in Mumbai", "eventKo": "36세에 뭄바이에서 UPL 설립, 인도 최초 적인 국산화", "whyItMatteredKo": "인디라 간디 정부의 수입 대체 정책과 맞물린 진입입니다. 안정적으로 자산을 쌓는 격국이 안정적 수익 자산을 쌓기 시작한 분기점입니다."},
-    {"year": 1994, "event": "UPL lists on Indian stock exchanges", "eventKo": "UPL이 인도 NSE·BSE 상장", "whyItMatteredKo": "1991년 자유화 직후 자본을 본격 조달해 농약 글로벌 진출의 화약을 마련한 시점입니다."},
-    {"year": 2005, "event": "Acquires UK's MTM Agrochemicals", "eventKo": "영국 MTM 애그로케미컬스 인수", "whyItMatteredKo": "글로벌 농약 빅5에 도전하는 신호탄입니다."},
-    {"year": 2018, "event": "UPL acquires Arysta LifeScience for $4.2B", "eventKo": "85세에 일본계 아리스타 라이프사이언스 42억 달러 인수 — 인도 농화학 사상 최대 M&A", "whyItMatteredKo": "회사 시가총액보다 큰 빅딜로 글로벌 5위에 올린 결단입니다. 만년 안정적으로 자산을 쌓는 격국의 마지막 큰 베팅입니다."},
-    {"year": 2022, "event": "Steps down as Chairman; becomes Chairman Emeritus", "eventKo": "회장직 사임, 명예회장으로 전환. 장남 자이데브가 그룹 CEO 승계", "whyItMatteredKo": "53년간 단일인 통치를 마감한 결정입니다."}
+    {
+      "year": 1957,
+      "event": "Develops mercury salts process; British company pays royalty",
+      "eventKo": "수은염 제조 공법 개발, 영국 기업으로부터 로열티 수령",
+      "whyItMatteredKo": "독립 직후 인도인이 영국 화학사에 기술 라이선스를 판 사례입니다. 자수성가의 첫 자본이 만들어진 시점입니다.",
+      "age": 24
+    },
+    {
+      "year": 1969,
+      "event": "Founds UPL in Mumbai",
+      "eventKo": "36세에 뭄바이에서 UPL 설립, 인도 최초 적인 국산화",
+      "whyItMatteredKo": "인디라 간디 정부의 수입 대체 정책과 맞물린 진입입니다. 안정적으로 자산을 쌓는 격국이 안정적 수익 자산을 쌓기 시작한 분기점입니다.",
+      "age": 36
+    },
+    {
+      "year": 1994,
+      "event": "UPL lists on Indian stock exchanges",
+      "eventKo": "UPL이 인도 NSE·BSE 상장",
+      "whyItMatteredKo": "1991년 자유화 직후 자본을 본격 조달해 농약 글로벌 진출의 화약을 마련한 시점입니다.",
+      "age": 61
+    },
+    {
+      "year": 2005,
+      "event": "Acquires UK's MTM Agrochemicals",
+      "eventKo": "영국 MTM 애그로케미컬스 인수",
+      "whyItMatteredKo": "글로벌 농약 빅5에 도전하는 신호탄입니다.",
+      "age": 72
+    },
+    {
+      "year": 2018,
+      "event": "UPL acquires Arysta LifeScience for $4.2B",
+      "eventKo": "85세에 일본계 아리스타 라이프사이언스 42억 달러 인수 — 인도 농화학 사상 최대 M&A",
+      "whyItMatteredKo": "회사 시가총액보다 큰 빅딜로 글로벌 5위에 올린 결단입니다. 만년 안정적으로 자산을 쌓는 격국의 마지막 큰 베팅입니다.",
+      "age": 85
+    },
+    {
+      "year": 2022,
+      "event": "Steps down as Chairman; becomes Chairman Emeritus",
+      "eventKo": "회장직 사임, 명예회장으로 전환. 장남 자이데브가 그룹 CEO 승계",
+      "whyItMatteredKo": "53년간 단일인 통치를 마감한 결정입니다.",
+      "age": 89
+    }
   ],
   "turningPoints": [
-    {"year": 1969, "eventKo": "36세에 자본금 4만 달러로 UPL 설립, 인도 최초 적인 국산화", "impactKo": "안정적으로 자산을 쌓는 격국이 안정적 수익 자산을 쌓기 시작한 분기점입니다. 53년 통치의 출발점입니다."},
-    {"year": 2018, "eventKo": "85세에 회사 시총보다 큰 42억 달러 아리스타 인수", "impactKo": "안정적으로 자산을 쌓는 격국의 마지막 큰 베팅입니다. 만년에도 베팅 본능이 살아 있던 결단입니다."},
-    {"year": 2022, "eventKo": "53년 만에 회장직 사임, 장남 자이데브에게 그룹 CEO 이양", "impactKo": "안정적으로 자산을 쌓는 격국이 안정적 자산을 다음 세대로 흘려보낸 만년 마무리입니다."}
+    {
+      "year": 1969,
+      "eventKo": "36세에 자본금 4만 달러로 UPL 설립, 인도 최초 적인 국산화",
+      "impactKo": "안정적으로 자산을 쌓는 격국이 안정적 수익 자산을 쌓기 시작한 분기점입니다. 53년 통치의 출발점입니다.",
+      "age": 36
+    },
+    {
+      "year": 2018,
+      "eventKo": "85세에 회사 시총보다 큰 42억 달러 아리스타 인수",
+      "impactKo": "안정적으로 자산을 쌓는 격국의 마지막 큰 베팅입니다. 만년에도 베팅 본능이 살아 있던 결단입니다.",
+      "age": 85
+    },
+    {
+      "year": 2022,
+      "eventKo": "53년 만에 회장직 사임, 장남 자이데브에게 그룹 CEO 이양",
+      "impactKo": "안정적으로 자산을 쌓는 격국이 안정적 자산을 다음 세대로 흘려보낸 만년 마무리입니다.",
+      "age": 89
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "UPL 가족 지분 약 26%에서 나오는 배당과 주가 가치가 핵심입니다.",
@@ -43,18 +99,58 @@
     "currentAssetAllocationKo": "UPL 지분과 인도·첸나이·뭄바이 부동산이 자산의 양대 비중입니다."
   },
   "failures": [
-    {"year": 1972, "descriptionKo": "1969년 설립 후 초창기 3년간 적인 사업이 기술 결함과 화재 사고로 거듭 좌초했습니다. 부인 샌드라가 패물을 팔아 운영 자금을 댄 시기입니다.", "howTheyOvercameKo": "안전·품질을 자본보다 우선시하는 운영 원칙을 세우고 단계적 확장으로 자본 잠식 위기를 넘겼습니다.", "lessonKo": "기술 의존형 진입은 안전·품질이 자본보다 먼저입니다."},
-    {"year": 1990, "descriptionKo": "1980년대 후반 발전기·전기제품 사업에 진출했으나 시장 조사 부족과 유통망 부재로 실패해 철수했습니다.", "howTheyOvercameKo": "이후 UPL은 농약 + 특수화학으로만 사업을 한정했습니다.", "lessonKo": "본업에서 멀어진 다각화는 자본을 갉아먹습니다."},
-    {"year": 2023, "descriptionKo": "아리스타 인수 차입 약 30억 달러가 2022년 농약 시황 하락과 맞물려 EBITDA 마진을 잠식, 2023~2024 회계연도 순손실로 전환했습니다.", "howTheyOvercameKo": "장남 자이데브가 대규모 자산 매각과 구조조정을 단행 중입니다.", "lessonKo": "고령에 단행한 빅딜은 본인이 끝까지 소화하지 못합니다."}
+    {
+      "year": 1972,
+      "descriptionKo": "1969년 설립 후 초창기 3년간 적인 사업이 기술 결함과 화재 사고로 거듭 좌초했습니다. 부인 샌드라가 패물을 팔아 운영 자금을 댄 시기입니다.",
+      "howTheyOvercameKo": "안전·품질을 자본보다 우선시하는 운영 원칙을 세우고 단계적 확장으로 자본 잠식 위기를 넘겼습니다.",
+      "lessonKo": "기술 의존형 진입은 안전·품질이 자본보다 먼저입니다.",
+      "age": 39
+    },
+    {
+      "year": 1990,
+      "descriptionKo": "1980년대 후반 발전기·전기제품 사업에 진출했으나 시장 조사 부족과 유통망 부재로 실패해 철수했습니다.",
+      "howTheyOvercameKo": "이후 UPL은 농약 + 특수화학으로만 사업을 한정했습니다.",
+      "lessonKo": "본업에서 멀어진 다각화는 자본을 갉아먹습니다.",
+      "age": 57
+    },
+    {
+      "year": 2023,
+      "descriptionKo": "아리스타 인수 차입 약 30억 달러가 2022년 농약 시황 하락과 맞물려 EBITDA 마진을 잠식, 2023~2024 회계연도 순손실로 전환했습니다.",
+      "howTheyOvercameKo": "장남 자이데브가 대규모 자산 매각과 구조조정을 단행 중입니다.",
+      "lessonKo": "고령에 단행한 빅딜은 본인이 끝까지 소화하지 못합니다.",
+      "age": 90
+    }
   ],
   "wealthHistory": [
-    {"year": 2010, "netWorth": "$0.7B", "sourceKo": "포브스 추정"},
-    {"year": 2018, "netWorth": "$2.5B", "sourceKo": "아리스타 인수 직후"},
-    {"year": 2022, "netWorth": "$1.8B", "sourceKo": "포브스 추정"},
-    {"year": 2026, "netWorth": "$1.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+    {
+      "year": 2010,
+      "netWorth": "$0.7B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2018,
+      "netWorth": "$2.5B",
+      "sourceKo": "아리스타 인수 직후"
+    },
+    {
+      "year": 2022,
+      "netWorth": "$1.8B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$1.3B",
+      "sourceKo": "포브스 2026 빌리어네어즈"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["수입 대체 1세대", "단계적 인수 본능", "노년 빅베팅", "장남 후계 안정", "구자라트 상인 정신"],
+  "personalTraitsKo": [
+    "수입 대체 1세대",
+    "단계적 인수 본능",
+    "노년 빅베팅",
+    "장남 후계 안정",
+    "구자라트 상인 정신"
+  ],
   "characterKo": {
     "strengths": "53년간 한 회사를 끌고 온 인내력과, 85세에 회사 시총보다 큰 빅딜을 단행한 베팅 본능이 강점입니다. 화학 학사 출신의 산업 이해도도 핵심 자산입니다.",
     "weaknesses": "고령 빅딜의 부채 부담이 후계자에게 그대로 넘어갔습니다. 단일 산업 의존도가 높습니다.",

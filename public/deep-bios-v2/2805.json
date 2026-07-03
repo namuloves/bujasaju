@@ -14,27 +14,82 @@
   "childhood": {
     "summaryKo": "1958년 일본에서 태어났습니다. 정통 학력은 경영 트랙으로, 일본 1세대 리테일 가문(Seven & i Holdings) 후계자 정체성을 유년기부터 형성한 정통 일본 1세대 리테일 후계자 트랙입니다. 부친 이토 마사토시(세븐일레븐 일본 창업주)의 후계자입니다.",
     "capitalTypeKo": "재벌 후계자 — 일본 1세대 리테일 가문 후계자 (Seven & i Holdings 임원)입니다.",
-    "sources": ["https://en.wikipedia.org/wiki/Seven_%26_i_Holdings"]
+    "sources": [
+      "https://en.wikipedia.org/wiki/Seven_%26_i_Holdings"
+    ]
   },
   "capitalOrigin": {
     "type": "inherited",
     "typeKo": "상속",
     "descriptionKo": "1980년대 가족 'Ito-Yokado' 그룹 합류로 본업을 잇기 시작했고, 2005년 'Seven & i Holdings' 그룹 재편 후 임원 자리에 도약했습니다. 본업은 일본 세븐일레븐 편의점 1위 회사이고, 2010~2020년대 글로벌 7-Eleven 호황기에 본업 자본이 정점에 도달했습니다.",
     "selfMadeScore": 4,
-    "sources": ["https://www.7andi.com"]
+    "sources": [
+      "https://www.7andi.com"
+    ]
   },
   "careerTimeline": [
-    {"year": 1985, "event": "Joins family Ito-Yokado business", "eventKo": "가족 Ito-Yokado 사업 합류", "whyItMatteredKo": "임술 일주의 큰 물 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
-    {"year": 2005, "event": "Seven & i Holdings group reorganization", "eventKo": "Seven & i Holdings 그룹 재편", "whyItMatteredKo": "본인 자리의 카테고리 통로가 만들어진 시기입니다."},
-    {"year": 2015, "event": "Becomes Senior Officer of Seven & i Holdings", "eventKo": "Seven & i Holdings 임원 자리 도약", "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다."},
-    {"year": 2021, "event": "7-Eleven acquires Speedway for $21B", "eventKo": "7-Eleven 미국 스피드웨이 210억 달러 인수, 글로벌 카테고리 정점", "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다."},
-    {"year": 2024, "event": "Couche-Tard makes takeover bid for Seven & i", "eventKo": "쿠시-타드 Seven & i 인수 시도, 가족 거버넌스 시험기", "whyItMatteredKo": "외부 압력이 본인 자리의 결단으로 환원된 만년의 결정적 결단입니다."},
-    {"year": 2026, "event": "Forbes 2026: $1.3B in Fashion & Retail", "eventKo": "포브스 2026 — 패션·리테일 13억 달러로 등재", "whyItMatteredKo": "Seven & i Holdings 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다."}
+    {
+      "year": 1985,
+      "event": "Joins family Ito-Yokado business",
+      "eventKo": "가족 Ito-Yokado 사업 합류",
+      "whyItMatteredKo": "임술 일주의 큰 물 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다.",
+      "age": 27
+    },
+    {
+      "year": 2005,
+      "event": "Seven & i Holdings group reorganization",
+      "eventKo": "Seven & i Holdings 그룹 재편",
+      "whyItMatteredKo": "본인 자리의 카테고리 통로가 만들어진 시기입니다.",
+      "age": 47
+    },
+    {
+      "year": 2015,
+      "event": "Becomes Senior Officer of Seven & i Holdings",
+      "eventKo": "Seven & i Holdings 임원 자리 도약",
+      "whyItMatteredKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 결정적 결단입니다.",
+      "age": 57
+    },
+    {
+      "year": 2021,
+      "event": "7-Eleven acquires Speedway for $21B",
+      "eventKo": "7-Eleven 미국 스피드웨이 210억 달러 인수, 글로벌 카테고리 정점",
+      "whyItMatteredKo": "외부 자원의 큰 흐름이 본업 매출 가속으로 환원된 시기입니다.",
+      "age": 63
+    },
+    {
+      "year": 2024,
+      "event": "Couche-Tard makes takeover bid for Seven & i",
+      "eventKo": "쿠시-타드 Seven & i 인수 시도, 가족 거버넌스 시험기",
+      "whyItMatteredKo": "외부 압력이 본인 자리의 결단으로 환원된 만년의 결정적 결단입니다.",
+      "age": 66
+    },
+    {
+      "year": 2026,
+      "event": "Forbes 2026: $1.3B in Fashion & Retail",
+      "eventKo": "포브스 2026 — 패션·리테일 13억 달러로 등재",
+      "whyItMatteredKo": "Seven & i Holdings 가족 보유 지분이 본업 자본 가치 정점으로 환원된 시기입니다.",
+      "age": 68
+    }
   ],
   "turningPoints": [
-    {"year": 1985, "eventKo": "가족 Ito-Yokado 합류", "impactKo": "임술 일주의 큰 물 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다."},
-    {"year": 2015, "eventKo": "Seven & i Holdings 임원 자리", "impactKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 분기점입니다."},
-    {"year": 2024, "eventKo": "쿠시-타드 인수 시도", "impactKo": "외부 압력이 본인 자리의 결단으로 환원된 만년의 결정적 결단입니다."}
+    {
+      "year": 1985,
+      "eventKo": "가족 Ito-Yokado 합류",
+      "impactKo": "임술 일주의 큰 물 일간이 외부 권위·시스템과 결합하는 흐름을 본인 자리로 환원한 출발점입니다.",
+      "age": 27
+    },
+    {
+      "year": 2015,
+      "eventKo": "Seven & i Holdings 임원 자리",
+      "impactKo": "본인 자리의 권위가 그룹 운영 정점 트랙으로 환원된 분기점입니다.",
+      "age": 57
+    },
+    {
+      "year": 2024,
+      "eventKo": "쿠시-타드 인수 시도",
+      "impactKo": "외부 압력이 본인 자리의 결단으로 환원된 만년의 결정적 결단입니다.",
+      "age": 66
+    }
   ],
   "moneyMechanics": {
     "primaryIncomeSourceKo": "Seven & i Holdings(TSE: 3382) 가족 보유 지분 가치와 배당이 자산의 핵심입니다.",
@@ -43,18 +98,58 @@
     "currentAssetAllocationKo": "Seven & i Holdings 가족 지분이 자산의 절대 비중. 가족 신탁 안정 구조입니다."
   },
   "failures": [
-    {"year": 2008, "descriptionKo": "글로벌 금융위기로 일본 리테일 매출이 단기 위축됐습니다.", "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.", "lessonKo": "거시 충격은 리테일 매출에 분기 단위로 영향을 줍니다."},
-    {"year": 2020, "descriptionKo": "코로나로 일본·글로벌 편의점 매출이 단기 시험받았습니다.", "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.", "lessonKo": "거시 충격은 리테일 매출에 분기 단위로 직접 영향을 줍니다."},
-    {"year": 2024, "descriptionKo": "쿠시-타드 인수 시도로 가족 거버넌스가 단기 시험받았습니다.", "howTheyOvercameKo": "단계적 가족 거버넌스 협의로 통과하고 있습니다.", "lessonKo": "글로벌 인수 시도는 가족 거버넌스에 한 번에 큰 영향을 줍니다."}
+    {
+      "year": 2008,
+      "descriptionKo": "글로벌 금융위기로 일본 리테일 매출이 단기 위축됐습니다.",
+      "howTheyOvercameKo": "본토 매출 비중 강화로 V자 회복했습니다.",
+      "lessonKo": "거시 충격은 리테일 매출에 분기 단위로 영향을 줍니다.",
+      "age": 50
+    },
+    {
+      "year": 2020,
+      "descriptionKo": "코로나로 일본·글로벌 편의점 매출이 단기 시험받았습니다.",
+      "howTheyOvercameKo": "디지털 채널 강화와 단계적 회복으로 V자 회복했습니다.",
+      "lessonKo": "거시 충격은 리테일 매출에 분기 단위로 직접 영향을 줍니다.",
+      "age": 62
+    },
+    {
+      "year": 2024,
+      "descriptionKo": "쿠시-타드 인수 시도로 가족 거버넌스가 단기 시험받았습니다.",
+      "howTheyOvercameKo": "단계적 가족 거버넌스 협의로 통과하고 있습니다.",
+      "lessonKo": "글로벌 인수 시도는 가족 거버넌스에 한 번에 큰 영향을 줍니다.",
+      "age": 66
+    }
   ],
   "wealthHistory": [
-    {"year": 2010, "netWorth": "$0.5B", "sourceKo": "포브스 추정"},
-    {"year": 2018, "netWorth": "$0.9B", "sourceKo": "포브스 추정"},
-    {"year": 2023, "netWorth": "$1.1B", "sourceKo": "포브스 추정"},
-    {"year": 2026, "netWorth": "$1.3B", "sourceKo": "포브스 2026 빌리어네어즈"}
+    {
+      "year": 2010,
+      "netWorth": "$0.5B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2018,
+      "netWorth": "$0.9B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2023,
+      "netWorth": "$1.1B",
+      "sourceKo": "포브스 추정"
+    },
+    {
+      "year": 2026,
+      "netWorth": "$1.3B",
+      "sourceKo": "포브스 2026 빌리어네어즈"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["Seven & i Holdings 가족", "일본 1세대 리테일 가문 후계자", "세븐일레븐 정체성", "글로벌 편의점 1위", "정통 후계자"],
+  "personalTraitsKo": [
+    "Seven & i Holdings 가족",
+    "일본 1세대 리테일 가문 후계자",
+    "세븐일레븐 정체성",
+    "글로벌 편의점 1위",
+    "정통 후계자"
+  ],
   "characterKo": {
     "strengths": "1985년 가족 사업 합류 후 40년 동안 일본 1세대 리테일 가문의 한 축으로 자리잡은 끈기와, 2015년 임원 자리 도약으로 본인 자리를 그룹 운영 정점 트랙으로 환원시킨 결단력이 강점입니다.",
     "weaknesses": "일본·글로벌 리테일 사이클과 가족 거버넌스 사이클에 본업 매출이 직접 노출됩니다.",

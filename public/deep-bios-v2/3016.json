@@ -37,48 +37,56 @@
       "year": 2010,
       "event": "Joined Hanwha as Manager after military service",
       "eventKo": "통역장교 복무 후 한화 차장 입사",
-      "whyItMatteredKo": "27세에 가문 회사 후계자 코스 시작."
+      "whyItMatteredKo": "27세에 가문 회사 후계자 코스 시작.",
+      "age": 27
     },
     {
       "year": 2014,
       "event": "Promoted to President of Hanwha Solar (태양광)",
       "eventKo": "한화솔라원(한화솔루션 전신) 사장 — 30대 초반 사장",
-      "whyItMatteredKo": "본인이 직접 태양광 사업 책임. 한화 미래 사업의 출발점."
+      "whyItMatteredKo": "본인이 직접 태양광 사업 책임. 한화 미래 사업의 출발점.",
+      "age": 31
     },
     {
       "year": 2022,
       "event": "Promoted to Vice Chairman (Aug 29); concurrent CEO of 4 strategic divisions",
       "eventKo": "8월 29일 부회장 승진; 한화·한화솔루션·한화에어로스페이스 등 4개 전략부문 대표 겸직",
-      "whyItMatteredKo": "차기 총수 지위 공식화. 39세 부회장."
+      "whyItMatteredKo": "차기 총수 지위 공식화. 39세 부회장.",
+      "age": 39
     },
     {
       "year": 2024,
       "event": "Hanwha Aerospace global K-defense exports surge — Poland K9 등 누적 수주 30조원+",
       "eventKo": "한화에어로스페이스 K-방산 글로벌 수출 급증 — 폴란드 K9 등 누적 수주 30조원+",
-      "whyItMatteredKo": "본인 시대 한화 방산의 글로벌 폭발. 차기 총수의 결정적 트랙 레코드."
+      "whyItMatteredKo": "본인 시대 한화 방산의 글로벌 폭발. 차기 총수의 결정적 트랙 레코드.",
+      "age": 41
     },
     {
       "year": 2025,
       "event": "Launched 'MASGA' vision (Make America's Space Great Again); Hanwha Aerospace selected as 'CEO of the Year' by Hankyung Magazine",
       "eventKo": "'MASGA' 비전 발표 — 미국 우주·방산 시장 진출; 한경매거진 '2025 올해의 CEO' 선정",
-      "whyItMatteredKo": "본인 글로벌 비전의 본격 가시화. 차기 총수로서의 사회적 영향력 정점."
+      "whyItMatteredKo": "본인 글로벌 비전의 본격 가시화. 차기 총수로서의 사회적 영향력 정점.",
+      "age": 42
     }
   ],
   "turningPoints": [
     {
       "year": 2014,
       "eventKo": "30대 초반 한화솔라원 사장",
-      "impactKo": "본인이 직접 태양광 사업 책임. 한화 미래 사업의 출발점."
+      "impactKo": "본인이 직접 태양광 사업 책임. 한화 미래 사업의 출발점.",
+      "age": 31
     },
     {
       "year": 2022,
       "eventKo": "39세 부회장 승진 + 4계 계열사 겸직",
-      "impactKo": "차기 총수 지위 공식화. 한화 3세 본격 시대."
+      "impactKo": "차기 총수 지위 공식화. 한화 3세 본격 시대.",
+      "age": 39
     },
     {
       "year": 2024,
       "eventKo": "K-방산 글로벌 수출 30조원+",
-      "impactKo": "본인 시대 한화의 결정적 트랙 레코드."
+      "impactKo": "본인 시대 한화의 결정적 트랙 레코드.",
+      "age": 41
     }
   ],
   "moneyMechanics": {
@@ -99,15 +107,36 @@
   },
   "failures": [],
   "wealthHistory": [
-    {"year": 2022, "netWorth": "약 3,000억원", "sourceKo": "부회장 승진 시점"},
-    {"year": 2024, "netWorth": "약 5,000억원", "sourceKo": "K-방산 폭증 후"},
-    {"year": 2025, "netWorth": "$0.42B (약 0.59조원)", "sourceKo": "Forbes Real-Time Billionaires 2025"}
+    {
+      "year": 2022,
+      "netWorth": "약 3,000억원",
+      "sourceKo": "부회장 승진 시점"
+    },
+    {
+      "year": 2024,
+      "netWorth": "약 5,000억원",
+      "sourceKo": "K-방산 폭증 후"
+    },
+    {
+      "year": 2025,
+      "netWorth": "$0.42B (약 0.59조원)",
+      "sourceKo": "Forbes Real-Time Billionaires 2025"
+    }
   ],
   "quotes": [
-    {"textKo": "MASGA — Make America's Space Great Again.", "context": "2025 미국 우주·방산 비전 발표"}
+    {
+      "textKo": "MASGA — Make America's Space Great Again.",
+      "context": "2025 미국 우주·방산 비전 발표"
+    }
   ],
   "books": [],
-  "personalTraitsKo": ["한화 3세 차기 총수", "하버드 정치학", "K-방산 글로벌화", "MASGA 비전", "39세 부회장"],
+  "personalTraitsKo": [
+    "한화 3세 차기 총수",
+    "하버드 정치학",
+    "K-방산 글로벌화",
+    "MASGA 비전",
+    "39세 부회장"
+  ],
   "characterKo": {
     "strengths": "하버드 정치학의 학구적 신뢰성. 30대 초반 한화솔라원 사장의 빠른 트랙. K-방산 슈퍼사이클을 본인 시대에 정확히 잡은 사이클 감각. 동생들과의 분업 구조.",
     "weaknesses": "후계자라는 정체성의 한계. 본인 직접 사업 창출보다 가문 자산 운영. 단일 그룹 의존도.",

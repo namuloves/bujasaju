@@ -5,7 +5,6 @@
   "netWorth": 5.6,
   "nationality": "BR",
   "industry": "Food & Beverage",
-
   "childhood": {
     "birthPlace": "Anápolis, Goiás, Brazil",
     "birthPlaceKo": "브라질 고이아스주 아나폴리스",
@@ -17,13 +16,11 @@
     "earlyLifeKo": "아나폴리스 JBS 도축장 단지에서 어린 시절·청소년기 보냄. 형제가 아버지로부터 소 조달·도축·가공·유통의 운영 디테일 학습. 1980-90년대에 걸쳐 형 웨슬리와 초기 브라질 사업 구축 — 2000년대 중반부터 공격적 글로벌 확장 시작.",
     "source": "https://en.wikipedia.org/wiki/Joesley_Batista ; https://en.wikipedia.org/wiki/JBS_S.A. ; https://www.forbes.com/profile/joesley-batista/"
   },
-
   "capitalOrigin": {
     "typeKo": "inherited",
     "explanationKo": "1953년 아버지가 시작한 가족 도축장 사업을 1990년대부터 형제 둘이서 인수·키움. 첫 1세대 자본은 미미했지만 2007년 JBS의 BOVESPA(상파울루 증시) IPO와 2007-2010년 미국 Pilgrim's Pride·Swift·Smithfield 등 거대 인수를 통한 글로벌 메이저 변환이 본격 부의 토대.",
     "source": "https://en.wikipedia.org/wiki/JBS_S.A."
   },
-
   "careerTimeline": [
     {
       "year": 1992,
@@ -123,7 +120,6 @@
       "source": "https://en.wikipedia.org/wiki/JBS_S.A."
     }
   ],
-
   "turningPoints": [
     {
       "year": 2007,
@@ -158,7 +154,6 @@
       "source": "https://www.jbsfoodsgroup.com"
     }
   ],
-
   "moneyMechanics": {
     "primaryRevenueKo": "J&F Investimentos(비공개 가족 지주, 형 웨슬리와 합산) — JBS S.A.(세계 최대 식품 회사) + Eldorado Brasil(펄프)·Banco Original(은행)·Flora(화장품)·Vigor(유제품) 등. 본인 자산의 거의 전부가 가족 지주 통한 JBS 지분.",
     "industryKo": "육류 가공(소·돼지·닭), 펄프, 은행, 화장품, 유제품",
@@ -166,7 +161,6 @@
     "moatKo": "① 글로벌 4대륙 육류 가공 인프라의 영구 자산. ② 1953년 이후 71년 누적된 소·육류 거래 노하우. ③ 80억 달러+ 매출 규모의 운영 우위. ④ 형 웨슬리와의 형제 공동 거버넌스 60년+.",
     "luckVsSkillKo": "운(40%): 1953년 아버지의 도축장 창업의 가족 자본 운, 2000년대 원자재 슈퍼 사이클이 IPO·인수와 맞물림, 2017년 스캔들 후에도 가족 자본 회복할 수 있게 한 브라질·미국 법적 환경. 실력(60%): 형제 공동 경영 30년+, 글로벌 인수 통합 능력, 스캔들 위기 관리, 2024년 NYSE 이중 상장 결정의 사이클 감각."
   },
-
   "personalTraits": {
     "knownFor": "Co-controller (with elder brother Wesley) of JBS S.A. — the world's largest meat company, processing beef, pork, and chicken across 4 continents; key figure in the 2017 Brazilian political corruption scandal that toppled allies of President Michel Temer; controlling shareholder of J&F Investimentos diversified family holding.",
     "knownForKo": "JBS S.A.(4대륙에서 소고기·돼지고기·닭고기 가공하는 세계 최대 육류 회사)의 공동 통제자(형 웨슬리와). 미셸 테메르 대통령 동맹을 무너뜨린 2017 브라질 정치 부패 스캔들의 핵심 인물. J&F Investimentos 다각화 가족 지주의 지배 주주.",
@@ -175,12 +169,16 @@
     "controversies": "Central figure in Brazil's largest political-corruption scandal of the 2010s — confessed to paying bribes to Brazilian politicians including President Michel Temer (2017); $3.16B leniency agreement with Brazilian prosecutors; 6-month prison sentence (2017-2018); JBS USA $256M DOJ FCPA settlement (2020); ongoing media scrutiny of family-business political relationships in Brazil.",
     "controversiesKo": "2010년대 브라질 최대 정치 부패 스캔들의 핵심 인물 — 미셸 테메르 대통령 등 브라질 정치인들에게 뇌물 지급 자백(2017); 브라질 검찰과 31.6억 달러 관용 협정; 6개월 징역(2017-2018); JBS USA 25.6억 달러 DOJ FCPA 합의(2020); 브라질의 가족-사업 정치 관계에 대한 지속적 미디어 감시."
   },
-
   "characterKo": {
     "summaryKo": "1953년 가족 도축장에서 시작해 71년 후 세계 최대 식품 회사를 만든 형제 공동 경영의 보기 드운 사례. 동료들이 말하는 가장 두드러진 특성은 '형 웨슬리와의 분담 거버넌스의 일관성'과 '2017 스캔들·투옥에도 가족 자본 회복의 결단력'. 정치-사업 인터페이스의 극한 결과를 직접 경험.",
-    "tagsKo": ["형제 공동 경영", "세계 최대 육류 회사", "정치 스캔들 회복", "다세대 가족 가부장", "글로벌 4대륙 운영"]
+    "tagsKo": [
+      "형제 공동 경영",
+      "세계 최대 육류 회사",
+      "정치 스캔들 회복",
+      "다세대 가족 가부장",
+      "글로벌 4대륙 운영"
+    ]
   },
-
   "failures": [
     {
       "year": 2017,
@@ -188,7 +186,8 @@
       "descriptionKo": "조에슬리 바티스타의 미셸 테메르 대통령 등 브라질 정치인들에게 뇌물 지급 자백이 현대 브라질 역사상 최대 정치-사업 스캔들 촉발 — JBS 그룹이 관용 협정에서 31.6억 달러 지급, 조에슬리가 약 6개월 투옥, 가족 평판에 거대 손상.",
       "lesson": "Political-business interfaces built through bribery create catastrophic single-event liability that no amount of operational excellence can offset; legal exposure across multiple jurisdictions compounds across years.",
       "lessonKo": "뇌물을 통해 구축된 정치-사업 인터페이스는 어떤 운영 우수성도 상쇄할 수 없는 재앙적 단일 사건 부담을 만든다. 다수 관할권에 걸친 법적 노출이 수년 동안 누적된다.",
-      "source": "https://www.reuters.com ; https://en.wikipedia.org/wiki/Operation_Car_Wash"
+      "source": "https://www.reuters.com ; https://en.wikipedia.org/wiki/Operation_Car_Wash",
+      "age": 45
     },
     {
       "year": 2020,
@@ -196,7 +195,8 @@
       "descriptionKo": "JBS USA가 J&F 뇌물 스킴 관련 DOJ FCPA 합의 아래 25.6억 달러 민사 벌금 지급 — 다수의 미국 측 시행 조치가 2017 스캔들의 법적 잔여를 다년간 준수·평판 비용으로 확장.",
       "lesson": "FCPA exposure compounds across years even after initial leniency; the cost of cross-border political-business operations is paid in installments through multiple jurisdictions.",
       "lessonKo": "FCPA 노출은 초기 관용 후에도 수년 동안 누적된다. 국경 간 정치-사업 운영의 비용은 다수 관할권을 통해 할부로 지급된다.",
-      "source": "https://www.justice.gov"
+      "source": "https://www.justice.gov",
+      "age": 48
     },
     {
       "year": 2021,
@@ -204,21 +204,41 @@
       "descriptionKo": "JBS USA가 2021년 5-6월 다수 미국 공장에서 소고기·돼지고기 생산을 일시 중단시킨 주요 사이버보안 랜섬웨어 공격 — 회사가 1,100만 달러 몸값 지급, 광범위한 운영 혼란 직면. 글로벌 육류 운영의 시스템적 IT 보안 리스크 입증.",
       "lesson": "Global industrial operations face cyber-attack risk that compounds across jurisdictions; meat-processing companies' IT infrastructure is now a critical industrial asset requiring deep investment.",
       "lessonKo": "글로벌 산업 운영은 관할권에 걸쳐 누적되는 사이버 공격 리스크에 직면한다. 육류 가공 회사의 IT 인프라는 이제 깊은 투자가 필요한 핵심 산업 자산이다.",
-      "source": "https://www.cnn.com"
+      "source": "https://www.cnn.com",
+      "age": 49
     }
   ],
-
   "wealthHistory": [
-    { "year": 2010, "netWorth": 3.0 },
-    { "year": 2015, "netWorth": 2.7 },
-    { "year": 2017, "netWorth": 1.7 },
-    { "year": 2020, "netWorth": 3.0 },
-    { "year": 2022, "netWorth": 4.6 },
-    { "year": 2024, "netWorth": 5.0 },
-    { "year": 2025, "netWorth": 5.6 }
+    {
+      "year": 2010,
+      "netWorth": 3
+    },
+    {
+      "year": 2015,
+      "netWorth": 2.7
+    },
+    {
+      "year": 2017,
+      "netWorth": 1.7
+    },
+    {
+      "year": 2020,
+      "netWorth": 3
+    },
+    {
+      "year": 2022,
+      "netWorth": 4.6
+    },
+    {
+      "year": 2024,
+      "netWorth": 5
+    },
+    {
+      "year": 2025,
+      "netWorth": 5.6
+    }
   ],
   "wealthHistorySource": "Forbes Real-Time Billionaires archive",
-
   "quotes": [
     {
       "text": "Our father started with $40 and a slaughterhouse. We did what we had to do to make it the biggest food company in the world.",
@@ -228,12 +248,10 @@
       "source": "https://en.wikipedia.org/wiki/JBS_S.A."
     }
   ],
-
   "books": {
     "authored": [],
     "recommended": []
   },
-
   "sajuConnection": {
     "summary": "His Byeong-In day pillar in a Chuk month forms a 'jeongjae-gyeok' chart — fire on tiger wood in winter earth, fitting a high-energy operator who built steady industrial wealth under sustained external authority and political pressure.",
     "summaryKo": "병인 일주가 축월에 자리잡은 정재격(정해진 자리에서 꾸준히 누적되는 재물 구조)은 1953년 아버지의 도축장에서 시작해 71년 누적된 단일 카테고리(육류 가공) 가족 자본의 인생과 호응합니다. 병화 일간은 태양·공개적 빛의 기질로 거대 회사의 가시적 가부장 역할과 맞물리고, 일지 인목 안의 갑목·병화·무토가 편인·비견·식상으로 가족·동료(형 웨슬리)·자기 표현이 한 자리에 묶여 있는 구조. 약점은 정재격이 정치-사업 인터페이스에서 부주의할 수 있다는 점인데, 2017 뇌물 스캔들이 그 표면화로 읽힙니다."
