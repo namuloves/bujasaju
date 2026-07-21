@@ -5,6 +5,7 @@ import { promises as fs } from 'fs';
 export const maxDuration = 60;
 import path from 'path';
 import { rateLimit, getIp } from '@/lib/rateLimit';
+import { cacheKey, getCached, setCached, cachedStreamResponse } from '@/lib/aiCache';
 import { analyzeSaju } from '@/lib/saju/relationships';
 import { buildSajuContext } from '@/lib/saju/sajuContext';
 import { calculateDaeUn, getDaeUnSipSin } from '@/lib/saju/daewoon';
@@ -667,10 +668,6 @@ async function loadV1Bio(personId: string): Promise<any | null> {
 
 export async function POST(req: NextRequest) {
   const ip = getIp(req);
-  const { allowed } = await rateLimit('saju-deep-summary', ip, 10, 60);
-  if (!allowed) {
-    return new Response('Too many requests — please wait a moment', { status: 429 });
-  }
   if (!process.env.OPENAI_API_KEY) {
     return new Response('OPENAI_API_KEY not configured', { status: 500 });
   }
@@ -707,6 +704,28 @@ export async function POST(req: NextRequest) {
     return new Response('Could not build prompt from input', { status: 400 });
   }
   const maxTokens = bio ? 1200 : 1000;
+
+  // Cache on the fully-built prompt rather than the raw request body: the
+  // prompt is the only thing that actually determines the output, and it
+  // already folds in the bio/heavy-vs-light branch above. Two requests whose
+  // bodies differ in a field the prompt ignores will (correctly) share a hit.
+  const key = cacheKey('deep-summary', { prompt, maxTokens });
+  const cached = await getCached(key);
+  if (cached) {
+    return cachedStreamResponse(cached);
+  }
+
+  // Rate limit deliberately sits AFTER the cache lookup: it exists to cap
+  // paid OpenAI calls, and a cache hit costs nothing. Checking it earlier
+  // would 429 a legitimate user re-reading an already-generated result.
+  // Everything above this point is local work (file reads + string building).
+  //
+  // 3/min per IP — the old 10/min permitted 600 paid calls per hour from a
+  // single address. A real user generates one reading; 3 allows for retries.
+  const { allowed } = await rateLimit('saju-deep-summary', ip, 3, 60);
+  if (!allowed) {
+    return new Response('Too many requests — please wait a moment', { status: 429 });
+  }
 
   // Open the OpenAI stream before returning the Response so we can surface
   // 429/4xx as real HTTP statuses instead of empty broken streams.
@@ -749,6 +768,12 @@ export async function POST(req: NextRequest) {
   const encoder = new TextEncoder();
   let closed = false;
 
+  // Accumulate the generation so a fully-completed stream can be cached.
+  // Only written on clean completion — a client that disconnects mid-read
+  // (cancel()) leaves this partial, and caching a truncated reading would
+  // serve that fragment to everyone afterwards.
+  let accumulated = '';
+
   const readable = new ReadableStream<Uint8Array>({
     async start(controller) {
       try {
@@ -756,14 +781,21 @@ export async function POST(req: NextRequest) {
           if (closed) break;
           const delta = chunk.choices[0]?.delta?.content;
           if (delta) {
+            accumulated += delta;
             controller.enqueue(encoder.encode(delta));
           }
         }
+        const completed = !closed;
         closed = true;
         try {
           controller.close();
         } catch {
           // already closed
+        }
+        // Cache only a stream that ran to completion. Awaited so the write
+        // can't be cut short when the serverless function freezes on return.
+        if (completed) {
+          await setCached(key, accumulated);
         }
       } catch (err) {
         const isAbort =

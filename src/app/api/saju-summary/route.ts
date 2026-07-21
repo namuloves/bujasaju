@@ -1,6 +1,7 @@
 import OpenAI from 'openai';
 import type { NextRequest } from 'next/server';
 import { rateLimit, getIp } from '@/lib/rateLimit';
+import { cacheKey, getCached, setCached, cachedStreamResponse } from '@/lib/aiCache';
 
 export const maxDuration = 60;
 import { analyzeSaju } from '@/lib/saju/relationships';
@@ -240,12 +241,7 @@ ${deepBioSection}
 }
 
 export async function POST(req: NextRequest) {
-  // Rate limit: 10 requests per minute per IP
   const ip = getIp(req);
-  const { allowed } = await rateLimit('saju-summary', ip, 10, 60);
-  if (!allowed) {
-    return new Response('Too many requests — please wait a moment', { status: 429 });
-  }
 
   if (!process.env.OPENAI_API_KEY) {
     console.error('[saju-summary] OPENAI_API_KEY not configured');
@@ -275,6 +271,25 @@ export async function POST(req: NextRequest) {
     const msg = err instanceof Error ? err.message : 'prompt build failed';
     console.error('[saju-summary] buildPrompt threw:', msg);
     return new Response('Could not build prompt from input', { status: 400 });
+  }
+
+  // Serve an identical prior generation without paying OpenAI again. The
+  // prompt captures every input that affects the output, so it's the key.
+  const key = cacheKey('summary', { prompt });
+  const cached = await getCached(key);
+  if (cached) {
+    return cachedStreamResponse(cached);
+  }
+
+  // Rate limit sits AFTER the cache lookup: it caps paid OpenAI calls, and
+  // a cache hit costs nothing, so checking earlier would 429 a legitimate
+  // user re-reading an existing result. Everything above is local work.
+  //
+  // 3/min per IP — the old 10/min permitted 600 paid calls per hour from a
+  // single address.
+  const { allowed } = await rateLimit('saju-summary', ip, 3, 60);
+  if (!allowed) {
+    return new Response('Too many requests — please wait a moment', { status: 429 });
   }
 
   // Open the OpenAI stream BEFORE returning the Response. If this throws
@@ -322,6 +337,11 @@ export async function POST(req: NextRequest) {
   const encoder = new TextEncoder();
   let closed = false;
 
+  // Accumulate so a fully-completed generation can be cached. Only written
+  // on clean completion — caching a stream cut short by a client disconnect
+  // would serve that truncated text to everyone afterwards.
+  let accumulated = '';
+
   const readable = new ReadableStream<Uint8Array>({
     async start(controller) {
       try {
@@ -329,14 +349,19 @@ export async function POST(req: NextRequest) {
           if (closed) break;
           const delta = chunk.choices[0]?.delta?.content;
           if (delta) {
+            accumulated += delta;
             controller.enqueue(encoder.encode(delta));
           }
         }
+        const completed = !closed;
         closed = true;
         try {
           controller.close();
         } catch {
           // already closed
+        }
+        if (completed) {
+          await setCached(key, accumulated);
         }
       } catch (err) {
         const isAbort =
