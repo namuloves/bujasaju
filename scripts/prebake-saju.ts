@@ -3,9 +3,9 @@
  *
  * Run: npx tsx scripts/prebake-saju.ts
  *
- * Reads public/billionaires.json, runs the same enrichment pipeline
+ * Reads private-data/billionaires.json, runs the same enrichment pipeline
  * (de-dup, filter, saju calculation, sort), then writes the result to
- * public/enriched-billionaires.json so the browser never has to run
+ * private-data/enriched-billionaires.json so the browser never has to run
  * lunar-javascript at load time.
  */
 
@@ -128,8 +128,8 @@ const { nameKoMap } = require('../src/lib/data/nameKoMap');
 // ---- Main ----
 
 const ROOT = path.resolve(__dirname, '..');
-const INPUT  = path.join(ROOT, 'public', 'billionaires.json');
-const OUTPUT = path.join(ROOT, 'public', 'enriched-billionaires.json');
+const INPUT  = path.join(ROOT, 'private-data', 'billionaires.json');
+const OUTPUT = path.join(ROOT, 'private-data', 'enriched-billionaires.json');
 
 console.log('📖 Reading billionaires.json …');
 const raw: Person[] = JSON.parse(fs.readFileSync(INPUT, 'utf8'));
@@ -169,4 +169,4 @@ console.log(`💾 Writing enriched-billionaires.json … (${enriched.length} rec
 fs.writeFileSync(OUTPUT, JSON.stringify(enriched), 'utf8');
 
 const sizeKB = Math.round(fs.statSync(OUTPUT).size / 1024);
-console.log(`✅ Done — ${sizeKB} KB written to public/enriched-billionaires.json`);
+console.log(`✅ Done — ${sizeKB} KB written to private-data/enriched-billionaires.json`);

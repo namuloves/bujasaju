@@ -3,18 +3,18 @@
  *
  * Run: npx tsx scripts/build-search-index.ts
  *
- * Reads public/deep-bios/*.json and public/deep-bios-v2/*.json files.
+ * Reads private-data/deep-bios/*.json and private-data/deep-bios-v2/*.json files.
  * When both versions exist, v2 wins.
  * into a lightweight map: { [personId]: "concatenated searchable text" }.
- * The output is written to public/deep-bio-search.json for client-side use.
+ * The output is written to private-data/deep-bio-search.json, served via /api/search.
  */
 
 import fs from 'fs';
 import path from 'path';
 
-const BIOS_DIR = path.join(process.cwd(), 'public', 'deep-bios');
-const BIOS_V2_DIR = path.join(process.cwd(), 'public', 'deep-bios-v2');
-const OUTPUT = path.join(process.cwd(), 'public', 'deep-bio-search.json');
+const BIOS_DIR = path.join(process.cwd(), 'private-data', 'deep-bios');
+const BIOS_V2_DIR = path.join(process.cwd(), 'private-data', 'deep-bios-v2');
+const OUTPUT = path.join(process.cwd(), 'private-data', 'deep-bio-search.json');
 
 function extractText(bio: Record<string, unknown>): string {
   const parts: string[] = [];

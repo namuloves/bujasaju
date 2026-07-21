@@ -1,7 +1,7 @@
 /**
  * Build deep-bio ID indexes from disk.
  *
- * Scans public/deep-bios/ and public/deep-bios-v2/, extracts IDs from
+ * Scans private-data/deep-bios/ and private-data/deep-bios-v2/, extracts IDs from
  * filenames, and writes them to public/deep-bio-index.json.
  *
  * The runtime (src/lib/deepBio.ts) fetches this file at startup so the
@@ -15,8 +15,8 @@ import fs from 'fs';
 import path from 'path';
 
 const ROOT = process.cwd();
-const V1_DIR = path.join(ROOT, 'public', 'deep-bios');
-const V2_DIR = path.join(ROOT, 'public', 'deep-bios-v2');
+const V1_DIR = path.join(ROOT, 'private-data', 'deep-bios');
+const V2_DIR = path.join(ROOT, 'private-data', 'deep-bios-v2');
 const OUTPUT = path.join(ROOT, 'public', 'deep-bio-index.json');
 
 function listIds(dir: string): string[] {
