@@ -67,7 +67,10 @@ __pycache__/
 # cowork/scratch session notes and temp working files
 .cowork/
 .scratch/
-data/
+# Leading slash: match ONLY the top-level scratch dir. Without it this also
+# matched src/lib/data/, which silently dropped new files there from commits
+# (git add reports nothing) and broke the build with "Can't resolve ./paths".
+/data/
 saju-r*.ts
 calc-*.ts
 *.zip
