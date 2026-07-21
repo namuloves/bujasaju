@@ -2,6 +2,7 @@
 
 import { useState, type FormEvent } from 'react';
 import { useLanguage } from '@/lib/i18n';
+import { EMAIL_RE } from '@/lib/email';
 
 /**
  * EmailCaptureCard — asks the user to save their email for updates.
@@ -21,7 +22,6 @@ import { useLanguage } from '@/lib/i18n';
 
 // Mirrors the regex in src/app/api/subscribe/route.ts so rejects are
 // consistent on both sides.
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 type Status = 'idle' | 'submitting' | 'success' | 'error';
 

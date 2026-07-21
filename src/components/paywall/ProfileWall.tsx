@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from 'react';
 import { useLanguage } from '@/lib/i18n';
 import { FREE_PROFILE_VIEWS } from '@/lib/paywall';
+import { EMAIL_RE } from '@/lib/email';
 
 /**
  * ProfileWall — shown in place of a profile once the free sample is used up.
@@ -16,7 +17,6 @@ import { FREE_PROFILE_VIEWS } from '@/lib/paywall';
  * capture points behave identically.
  */
 
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 type Status = 'idle' | 'submitting' | 'error';
 

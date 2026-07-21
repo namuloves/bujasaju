@@ -8,7 +8,8 @@
     "deep-bio-index": "tsx scripts/build-deep-bio-index.ts",
     "build": "tsx scripts/prebake-saju.ts && tsx scripts/build-deep-bio-index.ts && tsx scripts/build-search-index.ts && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@fullstackfamily/manseryeok": "^1.0.8",

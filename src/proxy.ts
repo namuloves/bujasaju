@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { Redis } from '@upstash/redis';
+import { getRedis } from './lib/redis';
 import {
   UNLOCK_COOKIE,
   VIEWS_COOKIE,
@@ -102,16 +102,6 @@ const BLOCKED_UA_FRAGMENTS = [
 /** Requests per window, per IP. See the leniency note above. */
 const RATE_LIMIT_MAX = 60;
 const RATE_LIMIT_WINDOW_SECONDS = 60;
-
-let _redis: Redis | null = null;
-function getRedis(): Redis | null {
-  if (_redis) return _redis;
-  const url = process.env.KV_REST_API_URL;
-  const token = process.env.KV_REST_API_TOKEN;
-  if (!url || !token) return null;
-  _redis = new Redis({ url, token });
-  return _redis;
-}
 
 function getIp(req: NextRequest): string {
   return (

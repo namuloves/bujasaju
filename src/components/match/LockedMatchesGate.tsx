@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useLanguage } from '@/lib/i18n';
 import { industryToKorean } from '@/components/FilterPanel';
 import type { EnrichedPerson } from '@/lib/saju/types';
+import { EMAIL_RE } from '@/lib/email';
 
 /**
  * LockedMatchesGate — email-capture incentive on the results page.
@@ -21,7 +22,6 @@ import type { EnrichedPerson } from '@/lib/saju/types';
  * doubles as the consent moment ("submit to see the rest").
  */
 
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // RFC-loose
 
 const NATIONALITY_KO: Record<string, string> = {
   US: '미국', KR: '한국', CN: '중국', JP: '일본', IN: '인도', FR: '프랑스',

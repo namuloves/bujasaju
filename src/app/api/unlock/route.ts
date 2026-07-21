@@ -1,7 +1,8 @@
 import type { NextRequest } from 'next/server';
-import { Redis } from '@upstash/redis';
+import { getRedis } from '@/lib/redis';
 import { rateLimit, getIp } from '@/lib/rateLimit';
 import { UNLOCK_COOKIE, UNLOCK_MAX_AGE } from '@/lib/paywall';
+import { EMAIL_RE } from '@/lib/email';
 
 /**
  * POST /api/unlock
@@ -24,17 +25,6 @@ import { UNLOCK_COOKIE, UNLOCK_MAX_AGE } from '@/lib/paywall';
 
 export const runtime = 'nodejs';
 
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-let _redis: Redis | null = null;
-function getRedis(): Redis | null {
-  if (_redis) return _redis;
-  const url = process.env.KV_REST_API_URL;
-  const token = process.env.KV_REST_API_TOKEN;
-  if (!url || !token) return null;
-  _redis = new Redis({ url, token });
-  return _redis;
-}
 
 interface UnlockBody {
   email?: unknown;

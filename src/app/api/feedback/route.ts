@@ -1,4 +1,4 @@
-import { Redis } from '@upstash/redis';
+import { getRedis } from '@/lib/redis';
 import type { NextRequest } from 'next/server';
 import { rateLimit, getIp } from '@/lib/rateLimit';
 
@@ -24,17 +24,6 @@ import { rateLimit, getIp } from '@/lib/rateLimit';
 
 export const runtime = 'nodejs';
 
-let _redis: Redis | null = null;
-function getRedis(): Redis {
-  if (_redis) return _redis;
-  const url = process.env.KV_REST_API_URL;
-  const token = process.env.KV_REST_API_TOKEN;
-  if (!url || !token) {
-    throw new Error('KV_REST_API_URL / KV_REST_API_TOKEN not configured');
-  }
-  _redis = new Redis({ url, token });
-  return _redis;
-}
 
 const VOTE_VALUES = new Set(['like', 'dislike']);
 const MAX_COMMENT_LEN = 2000;
@@ -78,7 +67,10 @@ export async function POST(req: NextRequest) {
   const ua = req.headers.get('user-agent')?.slice(0, 256) ?? '';
 
   try {
+    // Fails CLOSED like /api/subscribe: recording the feedback is the whole
+    // point, so a missing client becomes a 500 rather than a silent no-op.
     const redis = getRedis();
+    if (!redis) throw new Error('KV_REST_API_URL / KV_REST_API_TOKEN not configured');
 
     if (vote) {
       await redis.hincrby('feedback:counters', vote, 1);

@@ -3,7 +3,6 @@ import type { NextRequest } from 'next/server';
 import { promises as fs } from 'fs';
 
 export const maxDuration = 60;
-import path from 'path';
 import { rateLimit, getIp } from '@/lib/rateLimit';
 import { cacheKey, getCached, setCached, cachedStreamResponse } from '@/lib/aiCache';
 import { deepBioV1Path, deepBioV2Path } from '@/lib/data/paths';

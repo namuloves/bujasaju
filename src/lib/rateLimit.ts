@@ -11,17 +11,7 @@
  *   if (!allowed) return new Response('Too many requests', { status: 429 });
  */
 
-import { Redis } from '@upstash/redis';
-
-let _redis: Redis | null = null;
-function getRedis(): Redis {
-  if (_redis) return _redis;
-  const url = process.env.KV_REST_API_URL;
-  const token = process.env.KV_REST_API_TOKEN;
-  if (!url || !token) return null as unknown as Redis;
-  _redis = new Redis({ url, token });
-  return _redis;
-}
+import { getRedis } from './redis';
 
 export async function rateLimit(
   route: string,

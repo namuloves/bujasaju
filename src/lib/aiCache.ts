@@ -20,7 +20,7 @@
  */
 
 import { createHash } from 'node:crypto';
-import { Redis } from '@upstash/redis';
+import { getRedis } from './redis';
 
 /**
  * 30 days. Long enough that repeat visitors and crawler replays are free,
@@ -43,16 +43,6 @@ const MIN_CACHEABLE_LENGTH = 80;
  * 1200 max_tokens of Korean is comfortably under this.
  */
 const MAX_CACHEABLE_LENGTH = 32_000;
-
-let _redis: Redis | null = null;
-function getRedis(): Redis | null {
-  if (_redis) return _redis;
-  const url = process.env.KV_REST_API_URL;
-  const token = process.env.KV_REST_API_TOKEN;
-  if (!url || !token) return null;
-  _redis = new Redis({ url, token });
-  return _redis;
-}
 
 /**
  * Build a stable cache key from arbitrary request input.

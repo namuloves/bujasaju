@@ -1,6 +1,7 @@
-import { Redis } from '@upstash/redis';
+import { getRedis } from '@/lib/redis';
 import type { NextRequest } from 'next/server';
 import { rateLimit, getIp } from '@/lib/rateLimit';
+import { EMAIL_RE } from '@/lib/email';
 
 /**
  * POST /api/subscribe
@@ -26,22 +27,10 @@ export const runtime = 'nodejs';
 
 // Lazy-init so module import doesn't crash if env vars are momentarily
 // missing during cold start on a misconfigured preview deploy.
-let _redis: Redis | null = null;
-function getRedis(): Redis {
-  if (_redis) return _redis;
-  const url = process.env.KV_REST_API_URL;
-  const token = process.env.KV_REST_API_TOKEN;
-  if (!url || !token) {
-    throw new Error('KV_REST_API_URL / KV_REST_API_TOKEN not configured');
-  }
-  _redis = new Redis({ url, token });
-  return _redis;
-}
 
 // Permissive but sane email check. We don't need RFC 5322 — we need
 // "won't obviously bounce and isn't a typo". The server is the source
 // of truth; the client does the same regex for immediate feedback.
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 interface SubscribeBody {
   email?: unknown;
@@ -106,7 +95,11 @@ export async function POST(req: NextRequest) {
     '';
 
   try {
+    // Unlike most callers, this route fails CLOSED: its entire purpose is to
+    // persist the signup, so silently succeeding without storage would lose
+    // the address. The catch below turns this into a 500.
     const redis = getRedis();
+    if (!redis) throw new Error('KV_REST_API_URL / KV_REST_API_TOKEN not configured');
     // ZADD with NX: only set the score if the member doesn't already
     // exist. That way the score == first signup timestamp, even on
     // repeat submissions.

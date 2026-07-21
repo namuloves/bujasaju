@@ -6,6 +6,7 @@ import { rateLimit, getIp } from '@/lib/rateLimit';
 import { recordSend, getSuppression } from '@/lib/emailLog';
 import { deepBioV2Path, enrichedBillionairesPath } from '@/lib/data/paths';
 import MatchUnlockEmail, { type MatchPerson } from '@/emails/MatchUnlockEmail';
+import { EMAIL_RE } from '@/lib/email';
 
 /**
  * POST /api/send-match-email
@@ -40,7 +41,6 @@ function getResend(): Resend {
   return _resend;
 }
 
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MAX_MATCHES = 10;
 
 interface SendBody {

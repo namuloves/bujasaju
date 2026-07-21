@@ -30,17 +30,7 @@
  * to fail a user-facing send. Failures are logged to console and swallowed.
  */
 
-import { Redis } from '@upstash/redis';
-
-let _redis: Redis | null = null;
-function getRedis(): Redis | null {
-  if (_redis) return _redis;
-  const url = process.env.KV_REST_API_URL;
-  const token = process.env.KV_REST_API_TOKEN;
-  if (!url || !token) return null;
-  _redis = new Redis({ url, token });
-  return _redis;
-}
+import { getRedis } from './redis';
 
 export interface SendRecord {
   /** Resend message id. Absent only if the send failed before Resend replied. */
