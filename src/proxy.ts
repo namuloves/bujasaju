@@ -1,6 +1,14 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { Redis } from '@upstash/redis';
+import {
+  UNLOCK_COOKIE,
+  VIEWS_COOKIE,
+  VIEWS_MAX_AGE,
+  evaluateAccess,
+  parseViewedIds,
+  serializeViewedIds,
+} from './lib/paywall';
 
 /**
  * Bot and scraper blocking.
@@ -169,10 +177,49 @@ export async function proxy(req: NextRequest) {
     }
   } catch {
     // Fail open on any Redis error — see note above.
+    return meteredResponse(req);
+  }
+
+  return meteredResponse(req);
+}
+
+/**
+ * Advance the metered-profile counter.
+ *
+ * This lives in proxy.ts because Next only allows cookies to be written from
+ * a Route Handler, Server Action, or proxy — never while rendering. The
+ * profile layout reads the counter and decides what to show; this is what
+ * moves it.
+ *
+ * Only distinct profile IDs count, so refreshes and back-navigation don't
+ * burn quota. Once the free sample is used up we stop appending, so the
+ * cookie can't grow without bound.
+ */
+function meteredResponse(req: NextRequest): NextResponse {
+  const match = /^\/profile\/(\d{1,12})\/?$/.exec(req.nextUrl.pathname);
+  if (!match) return NextResponse.next();
+
+  const profileId = match[1];
+  if (req.cookies.get(UNLOCK_COOKIE)?.value === '1') {
     return NextResponse.next();
   }
 
-  return NextResponse.next();
+  const viewedIds = parseViewedIds(req.cookies.get(VIEWS_COOKIE)?.value);
+  const { nextViewedIds } = evaluateAccess({ profileId, viewedIds, unlocked: false });
+
+  // Nothing changed (already-seen profile, or already at the limit).
+  if (nextViewedIds.length === viewedIds.length) {
+    return NextResponse.next();
+  }
+
+  const res = NextResponse.next();
+  res.cookies.set(VIEWS_COOKIE, serializeViewedIds(nextViewedIds), {
+    path: '/',
+    maxAge: VIEWS_MAX_AGE,
+    httpOnly: true,
+    sameSite: 'lax',
+  });
+  return res;
 }
 
 export const config = {

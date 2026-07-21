@@ -1,5 +1,13 @@
 import type { Metadata } from 'next';
+import { cookies } from 'next/headers';
 import { getEnrichedPersonById } from '@/lib/data/enriched-server';
+import {
+  UNLOCK_COOKIE,
+  VIEWS_COOKIE,
+  evaluateAccess,
+  parseViewedIds,
+} from '@/lib/paywall';
+import ProfileWall from '@/components/paywall/ProfileWall';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -82,6 +90,22 @@ export default async function ProfileLayout({ params, children }: Props) {
       }
     : null;
 
+  // Metered access. Evaluated on the server so it can't be bypassed by
+  // disabling JS — the walled profile's content is never sent to the client.
+  //
+  // The quota applies to crawlers too (Google's "flexible sampling"): serving
+  // bots unlimited pages while walling humans is cloaking. Googlebot indexes
+  // the free sample, and the JSON-LD below is emitted either way so a walled
+  // page still carries its structured data.
+  //
+  // NOTE: the cookie can only be *written* in a Route Handler or Server
+  // Action, not while rendering. The counter is therefore advanced by
+  // proxy.ts on navigation; here we only read it and decide.
+  const cookieStore = await cookies();
+  const unlocked = cookieStore.get(UNLOCK_COOKIE)?.value === '1';
+  const viewedIds = parseViewedIds(cookieStore.get(VIEWS_COOKIE)?.value);
+  const { allowed } = evaluateAccess({ profileId: id, viewedIds, unlocked });
+
   return (
     <>
       {jsonLd && (
@@ -90,7 +114,11 @@ export default async function ProfileLayout({ params, children }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       )}
-      {children}
+      {allowed ? (
+        children
+      ) : (
+        <ProfileWall personName={person ? person.nameKo || person.name : undefined} />
+      )}
     </>
   );
 }
