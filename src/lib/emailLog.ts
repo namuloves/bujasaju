@@ -130,6 +130,52 @@ export async function recordSend(rec: SendRecord): Promise<void> {
   }
 }
 
+/**
+ * Why we refuse to send to an address, or null when it's fine to send.
+ *
+ *   'bounced'    — a previous send hard-failed. The mailbox doesn't exist or
+ *                  rejected us; retrying damages our sender reputation and
+ *                  can get the domain blocked outright.
+ *   'complained' — the recipient marked us as spam. Mailing them again is
+ *                  the single fastest way to land in spam folders globally,
+ *                  and in most jurisdictions it's also a legal problem.
+ */
+export type SuppressionReason = 'bounced' | 'complained';
+
+/**
+ * Check whether an address is suppressed.
+ *
+ * Fails OPEN: if Redis is unreachable we return null and let the send
+ * proceed. A storage outage silently blocking every email would be a worse
+ * failure than occasionally mailing one bounced address — and the webhook
+ * will have recorded the bounce again anyway.
+ *
+ * Both lookups run in one pipeline, so this costs a single round-trip
+ * (~10-20ms) on the send path.
+ */
+export async function getSuppression(email: string): Promise<SuppressionReason | null> {
+  const redis = getRedis();
+  if (!redis) return null;
+
+  const addr = email.trim().toLowerCase();
+  try {
+    const pipe = redis.pipeline();
+    pipe.zscore('sent:bounced', addr);
+    pipe.zscore('sent:complained', addr);
+    const [bounced, complained] = (await pipe.exec()) as [number | null, number | null];
+
+    // Complaint outranks bounce: it's the more serious signal, and an
+    // address can legitimately be in both sets.
+    if (complained !== null && complained !== undefined) return 'complained';
+    if (bounced !== null && bounced !== undefined) return 'bounced';
+    return null;
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    console.error('[emailLog] suppression check failed (allowing send):', msg);
+    return null;
+  }
+}
+
 /** Resend webhook event types we care about. */
 export type EmailEventType =
   | 'email.sent'

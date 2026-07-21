@@ -3,7 +3,7 @@ import type { NextRequest } from 'next/server';
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { rateLimit, getIp } from '@/lib/rateLimit';
-import { recordSend } from '@/lib/emailLog';
+import { recordSend, getSuppression } from '@/lib/emailLog';
 import { deepBioV2Path, enrichedBillionairesPath } from '@/lib/data/paths';
 import MatchUnlockEmail, { type MatchPerson } from '@/emails/MatchUnlockEmail';
 
@@ -353,6 +353,23 @@ export async function POST(req: NextRequest) {
   }
   if (matches.length === 0) {
     return Response.json({ error: 'no_matches' }, { status: 400 });
+  }
+
+  // Never re-mail an address that hard-bounced or reported us as spam.
+  // Resend's webhook feeds these sets; until now we recorded them and then
+  // cheerfully mailed the same people again, which is exactly how a sending
+  // domain gets throttled or blocked.
+  //
+  // Checked here — after validation, before the deep-bio reads and the
+  // Resend call — so a suppressed address costs nothing.
+  //
+  // Returns 200, not an error: the caller is a fire-and-forget client that
+  // shows "email sent!" on success, and a spam-complainer doesn't need to be
+  // told we're honouring their complaint. `suppressed` is there for logs.
+  const suppression = await getSuppression(email);
+  if (suppression) {
+    console.log(`[send-match-email] suppressed (${suppression}):`, email);
+    return Response.json({ ok: true, suppressed: suppression });
   }
 
   // Build absolute origin so links inside the email work. Falls back to
