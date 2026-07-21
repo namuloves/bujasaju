@@ -3,6 +3,7 @@ import type { NextRequest } from 'next/server';
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { rateLimit, getIp } from '@/lib/rateLimit';
+import { recordSend } from '@/lib/emailLog';
 import MatchUnlockEmail, { type MatchPerson } from '@/emails/MatchUnlockEmail';
 
 /**
@@ -406,13 +407,15 @@ export async function POST(req: NextRequest) {
   const trait = intros[ilju] ?? null;
   const rank = ranks.get(ilju)?.rank ?? null;
 
+  const subject = `${ilju} 일주의 부자 ${enrichedMatches.length}명을 소개해드려요`;
+
   try {
     const resend = getResend();
     const result = await resend.emails.send({
       from: fromAddress,
       to: email,
       replyTo: 'hello@bujasaju.com',
-      subject: `${ilju} 일주의 부자 ${enrichedMatches.length}명을 소개해드려요`,
+      subject,
       react: MatchUnlockEmail({ ilju, matches: enrichedMatches, origin, rank, trait }),
       // Resend tag values must be ASCII letters / numbers / _ / - only.
       // Korean characters in `ilju` (e.g. "갑술") would fail validation —
@@ -425,15 +428,51 @@ export async function POST(req: NextRequest) {
     // from Resend (e.g. unverified domain) is reported here, not thrown.
     if (result.error) {
       console.error('[send-match-email] resend error:', JSON.stringify(result.error));
+      // Log the attempt anyway — a rejected send still proves we held this
+      // address and tried to mail it. Resend's dashboard would show nothing.
+      await recordSend({
+        email,
+        from: fromAddress,
+        subject,
+        template: 'match-unlock',
+        status: 'failed',
+        error: JSON.stringify(result.error).slice(0, 500),
+        meta: { ilju, matchCount: enrichedMatches.length },
+      });
       return Response.json(
         { error: 'resend_rejected', detail: result.error },
         { status: 502 },
       );
     }
+
+    // Permanent record of the send. Awaited (not fire-and-forget) because
+    // this route runs on a serverless function that can be frozen the
+    // instant we return — a dangling promise would silently never run.
+    // Two extra Redis round-trips (~20ms) is a fine price for not losing
+    // the address, and the caller already treats this send as async.
+    await recordSend({
+      messageId: result.data?.id ?? null,
+      email,
+      from: fromAddress,
+      subject,
+      template: 'match-unlock',
+      status: 'sent',
+      meta: { ilju, matchCount: enrichedMatches.length },
+    });
+
     console.log('[send-match-email] sent', result.data?.id, 'to', email, 'from', fromAddress);
   } catch (err) {
     const msg = err instanceof Error ? err.message : 'send_failed';
     console.error('[send-match-email] failed:', msg);
+    await recordSend({
+      email,
+      from: fromAddress,
+      subject,
+      template: 'match-unlock',
+      status: 'failed',
+      error: msg,
+      meta: { ilju, matchCount: enrichedMatches.length },
+    });
     return Response.json({ error: 'send_failed', detail: msg }, { status: 500 });
   }
 
