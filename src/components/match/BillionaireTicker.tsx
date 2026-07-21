@@ -32,7 +32,7 @@ const STEM_GRADIENT: Record<Stem, string> = {
 
 // Famous billionaires we want guaranteed in the ticker if their data is loaded.
 // Matched by `id` against the enriched dataset; missing ones are silently
-// skipped. IDs come from public/billionaires.json (numeric strings).
+// skipped. IDs come from private-data/billionaires.json (numeric strings).
 //
 // Heavy Korean weighting on purpose — this is a Korean product and same-country
 // faces feel more relatable than a sea of Walton heirs.
@@ -170,7 +170,7 @@ function localizeLabel(s: string): string {
 }
 
 // 풀네임이 너무 길거나 영문 음차가 어색한 경우 통용 호칭으로 교체.
-// IDs는 public/billionaires.json 기준.
+// IDs는 private-data/billionaires.json 기준.
 const NAME_OVERRIDES: Record<string, string> = {
   '2':  '래리 페이지',     // Lawrence Edward Page
   '3':  '세르게이 브린',   // Sergey Mikhailovich Brin

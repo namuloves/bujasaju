@@ -4,6 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { rateLimit, getIp } from '@/lib/rateLimit';
 import { recordSend } from '@/lib/emailLog';
+import { deepBioV2Path, enrichedBillionairesPath } from '@/lib/data/paths';
 import MatchUnlockEmail, { type MatchPerson } from '@/emails/MatchUnlockEmail';
 
 /**
@@ -128,7 +129,7 @@ let _iljuRanks: Map<string, { rank: number; count: number }> | null = null;
 async function getIljuRanks(): Promise<Map<string, { rank: number; count: number }>> {
   if (_iljuRanks) return _iljuRanks;
   try {
-    const raw = await readFile(join(process.cwd(), 'public', 'enriched-billionaires.json'), 'utf8');
+    const raw = await readFile(enrichedBillionairesPath(), 'utf8');
     const people = JSON.parse(raw) as Array<{ saju?: { ilju?: string } }>;
     const counts = new Map<string, number>();
     for (const p of people) {
@@ -161,7 +162,7 @@ let _enrichedCache: Array<Record<string, unknown>> | null = null;
 async function getKoreanBillionairesForIlju(ilju: string, limit: number): Promise<MatchPerson[]> {
   if (!_enrichedCache) {
     try {
-      const raw = await readFile(join(process.cwd(), 'public', 'enriched-billionaires.json'), 'utf8');
+      const raw = await readFile(enrichedBillionairesPath(), 'utf8');
       _enrichedCache = JSON.parse(raw) as Array<Record<string, unknown>>;
     } catch {
       _enrichedCache = [];
@@ -191,7 +192,7 @@ async function getKoreanBillionairesForIlju(ilju: string, limit: number): Promis
 }
 
 /**
- * Read a v2 deep bio file from public/deep-bios-v2/. Returns null when
+ * Read a v2 deep bio file from private-data/deep-bios-v2/. Returns null when
  * the person has no enriched bio — caller falls back to the short bioKo.
  *
  * We deliberately read from disk (not fetch) so the API route works in
@@ -200,8 +201,7 @@ async function getKoreanBillionairesForIlju(ilju: string, limit: number): Promis
  */
 async function readDeepBioV2(personId: string): Promise<Record<string, unknown> | null> {
   try {
-    const path = join(process.cwd(), 'public', 'deep-bios-v2', `${personId}.json`);
-    const raw = await readFile(path, 'utf8');
+    const raw = await readFile(deepBioV2Path(personId), 'utf8');
     return JSON.parse(raw) as Record<string, unknown>;
   } catch {
     return null;

@@ -1,6 +1,6 @@
 import fs from 'fs';
-import path from 'path';
 import type { EnrichedPerson } from '@/lib/saju/types';
+import { enrichedBillionairesPath } from './paths';
 
 let _people: EnrichedPerson[] | null = null;
 let _byId: Map<string, EnrichedPerson> | null = null;
@@ -15,8 +15,7 @@ function isVisible(p: EnrichedPerson): boolean {
 
 function load() {
   if (_people) return;
-  const filePath = path.join(process.cwd(), 'public', 'enriched-billionaires.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
+  const raw = fs.readFileSync(enrichedBillionairesPath(), 'utf-8');
   const all = JSON.parse(raw) as EnrichedPerson[];
   _people = all.filter(isVisible);
   _byId = new Map(_people.map((p) => [p.id, p]));

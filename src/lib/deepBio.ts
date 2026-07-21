@@ -1,7 +1,7 @@
 /**
  * Deep biography types and data loading.
  *
- * Deep bios are stored as individual JSON files in public/deep-bios/
+ * Deep bios are stored as individual JSON files in private-data/deep-bios/
  * and lazily fetched when a user opens a person's full profile.
  */
 
@@ -108,7 +108,7 @@ export interface DeepBioSource {
 //   - careerTimeline[i].age + whyItMatteredKo + whatTheyRiskedKo + whoHelpedKo
 //   - failures[i].age + howTheyOvercameKo
 //
-// v2 bios live at public/deep-bios-v2/{id}.json. They are generated via
+// v2 bios live at private-data/deep-bios-v2/{id}.json. They are generated via
 // Cowork (scripts/deep-bio-v2-prompt.md) and accumulated incrementally.
 
 export interface DeepBioV2CareerEvent {
@@ -221,7 +221,7 @@ const cacheV2 = new Map<string, DeepBioV2 | null>();
 export async function fetchDeepBioV2(personId: string): Promise<DeepBioV2 | null> {
   if (cacheV2.has(personId)) return cacheV2.get(personId) ?? null;
   try {
-    const res = await fetch(`/deep-bios-v2/${personId}.json`);
+    const res = await fetch(`/api/deep-bio/${personId}?v=2`);
     if (!res.ok) {
       cacheV2.set(personId, null);
       return null;
@@ -236,7 +236,7 @@ export async function fetchDeepBioV2(personId: string): Promise<DeepBioV2 | null
 }
 
 /**
- * IDs of billionaires that have v2 deep bios in public/deep-bios-v2/.
+ * IDs of billionaires that have v2 deep bios in private-data/deep-bios-v2/.
  *
  * Auto-populated at build time from `scripts/build-deep-bio-index.ts` which
  * scans the directory and writes `public/deep-bio-index.json`. The index is
@@ -352,7 +352,7 @@ export function hasDeepBioV2Sync(personId: string): boolean {
 const cache = new Map<string, DeepBio | null>();
 
 /**
- * IDs of billionaires that have v1 deep bio files in public/deep-bios/.
+ * IDs of billionaires that have v1 deep bio files in private-data/deep-bios/.
  *
  * The hardcoded list below is a seed — the auto-loaded index from
  * /deep-bio-index.json overrides it at runtime. To refresh, run:
@@ -430,7 +430,7 @@ export async function fetchDeepBio(personId: string): Promise<DeepBio | null> {
   // only when v2 isn't available.
   if (v2Set.has(personId)) {
     try {
-      const res = await fetch(`/deep-bios-v2/${personId}.json`);
+      const res = await fetch(`/api/deep-bio/${personId}?v=2`);
       if (res.ok) {
         const data = (await res.json()) as unknown as DeepBio;
         cache.set(personId, data);
@@ -443,7 +443,7 @@ export async function fetchDeepBio(personId: string): Promise<DeepBio | null> {
 
   if (v1Set.has(personId)) {
     try {
-      const res = await fetch(`/deep-bios/${personId}.json`);
+      const res = await fetch(`/api/deep-bio/${personId}`);
       if (res.ok) {
         const data: DeepBio = await res.json();
         cache.set(personId, data);
@@ -458,23 +458,16 @@ export async function fetchDeepBio(personId: string): Promise<DeepBio | null> {
   return null;
 }
 
-// ---------- Full-text search index ----------
-
-type SearchIndex = Record<string, string>; // { personId: "all searchable text" }
-let searchIndexPromise: Promise<SearchIndex> | null = null;
-
-/**
- * Lazily fetch the deep-bio search index.
- * Called once on first search; cached for the session.
- */
-export function fetchSearchIndex(): Promise<SearchIndex> {
-  if (!searchIndexPromise) {
-    searchIndexPromise = fetch('/deep-bio-search.json')
-      .then(res => res.ok ? res.json() as Promise<SearchIndex> : {})
-      .catch(() => ({}));
-  }
-  return searchIndexPromise;
-}
+// ---------- Full-text search ----------
+//
+// `fetchSearchIndex()` used to live here, pulling the entire 7.1MB
+// deep-bio-search.json corpus into the browser so BrowseTab could test
+// `index[personId].includes(query)` locally. That file was the largest
+// content leak on the site — one unauthenticated static request returned the
+// full searchable text of every deep bio.
+//
+// The corpus now stays in private-data/ and is queried by /api/search, which
+// returns matching IDs only. See BrowseTab.tsx for the client side.
 
 /**
  * Check if a deep bio exists (preflight, no full fetch).
@@ -485,7 +478,7 @@ export async function hasDeepBio(personId: string): Promise<boolean> {
   if (!v1Set.has(personId)) return false;
   if (cache.has(personId)) return cache.get(personId) !== null;
   try {
-    const res = await fetch(`/deep-bios/${personId}.json`, { method: 'HEAD' });
+    const res = await fetch(`/api/deep-bio/${personId}`, { method: 'HEAD' });
     return res.ok;
   } catch {
     return false;

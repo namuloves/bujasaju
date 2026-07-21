@@ -28,7 +28,7 @@ function getOpenAI(): OpenAI {
   return _openai;
 }
 
-const BILLIONAIRES_PATH = 'public/billionaires.json';
+const BILLIONAIRES_PATH = 'private-data/billionaires.json';
 const PROGRESS_PATH = 'scripts/enrich-bio-progress.json';
 
 // ---------- CLI args ----------

@@ -24,7 +24,9 @@ function isVisible(p: EnrichedPerson): boolean {
 
 export function loadEnrichedPeople(): Promise<EnrichedPerson[]> {
   if (cachedPromise) return cachedPromise;
-  cachedPromise = fetch('/enriched-billionaires.json')
+  // Served by /api/people rather than a file in public/: static assets bypass
+  // proxy.ts entirely, so the raw JSON was downloadable with no rate limit.
+  cachedPromise = fetch('/api/people')
     .then((res) => {
       if (!res.ok) throw new Error(`Failed to load enriched billionaires: ${res.status}`);
       return res.json() as Promise<EnrichedPerson[]>;

@@ -1,11 +1,37 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  allowedDevOrigins: ['[::1]'],
+  experimental: {
+    // The persistent Turbopack cache is corrupted on this workspace path and
+    // prevents `next dev` from staying online. Disable it for reliable local
+    // development; production builds keep their normal cache behavior.
+    turbopackFileSystemCacheForDev: false,
+  },
   // Pin the Turbopack workspace root to this project. Without this, Next 16
   // climbs up looking for a lockfile and finds the worktree-parent's, which
   // breaks the persistence cache ("Failed to open database").
   turbopack: {
     root: process.cwd(),
+  },
+  // The bulk dataset lives in private-data/ (not public/) so it is never
+  // web-served — see src/lib/data/paths.ts. Next traces static fs reads
+  // automatically, but the deep-bio routes build their paths dynamically
+  // (`${id}.json`), which tracing cannot follow. Without these globs those
+  // files are missing from the serverless bundle and every bio 404s IN
+  // PRODUCTION ONLY — local dev reads straight from the working tree and
+  // looks perfectly fine. Verify on a preview deploy, not just localhost.
+  outputFileTracingIncludes: {
+    '/api/deep-bio/[id]': ['./private-data/deep-bios/**', './private-data/deep-bios-v2/**'],
+    '/api/saju-deep-summary': ['./private-data/deep-bios/**', './private-data/deep-bios-v2/**'],
+    '/api/send-match-email': [
+      './private-data/deep-bios-v2/**',
+      './private-data/enriched-billionaires.json',
+    ],
+    '/api/people': ['./private-data/enriched-billionaires.json'],
+    '/api/search': ['./private-data/enriched-billionaires.json'],
+    '/profile/[id]': ['./private-data/enriched-billionaires.json'],
+    '/sitemap.xml': ['./private-data/enriched-billionaires.json'],
   },
   images: {
     remotePatterns: [

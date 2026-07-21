@@ -28,7 +28,7 @@ const OHAENG_TEXT: Record<string, string> = {
 const iljuColor = (ilju: string) =>
   OHAENG_TEXT[STEM_TO_OHAENG[ilju[0]] ?? '토'];
 
-// ilju values come from public/enriched-billionaires.json — precomputed.
+// ilju values come from private-data/enriched-billionaires.json — precomputed.
 const FACES: { name: string; company: string; ilju: string; photo: string }[] = [
   {
     name: '일론 머스크',

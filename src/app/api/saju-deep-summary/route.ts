@@ -6,6 +6,7 @@ export const maxDuration = 60;
 import path from 'path';
 import { rateLimit, getIp } from '@/lib/rateLimit';
 import { cacheKey, getCached, setCached, cachedStreamResponse } from '@/lib/aiCache';
+import { deepBioV1Path, deepBioV2Path } from '@/lib/data/paths';
 import { analyzeSaju } from '@/lib/saju/relationships';
 import { buildSajuContext } from '@/lib/saju/sajuContext';
 import { calculateDaeUn, getDaeUnSipSin } from '@/lib/saju/daewoon';
@@ -647,8 +648,7 @@ ${featuredContext}
 
 async function loadV2Bio(personId: string): Promise<DeepBioV2 | null> {
   try {
-    const filePath = path.join(process.cwd(), 'public', 'deep-bios-v2', `${personId}.json`);
-    const raw = await fs.readFile(filePath, 'utf8');
+    const raw = await fs.readFile(deepBioV2Path(personId), 'utf8');
     return JSON.parse(raw) as DeepBioV2;
   } catch {
     return null;
@@ -658,8 +658,7 @@ async function loadV2Bio(personId: string): Promise<DeepBioV2 | null> {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function loadV1Bio(personId: string): Promise<any | null> {
   try {
-    const filePath = path.join(process.cwd(), 'public', 'deep-bios', `${personId}.json`);
-    const raw = await fs.readFile(filePath, 'utf8');
+    const raw = await fs.readFile(deepBioV1Path(personId), 'utf8');
     return JSON.parse(raw);
   } catch {
     return null;

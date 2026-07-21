@@ -7,6 +7,14 @@ import "./globals.css";
 import { LanguageProvider } from "@/lib/i18n";
 import Footer from "@/components/Footer";
 import ColorPicker from "@/components/dev/ColorPicker";
+import dynamic from "next/dynamic";
+import "css-spec/style.css";
+
+// Dev-only css-spec overlay — toggle with ⌥D. Tree-shaken in production.
+const DesignSpecOverlay =
+  process.env.NODE_ENV !== "production"
+    ? dynamic(() => import("css-spec/client").then((m) => m.DesignSpecOverlay))
+    : () => null;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -86,6 +94,8 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+      
+        <DesignSpecOverlay />
       </body>
     </html>
   );

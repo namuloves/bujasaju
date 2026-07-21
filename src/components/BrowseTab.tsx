@@ -11,7 +11,6 @@ import {
   getUniqueGyeokguks,
   getIljusGroupedByStem,
 } from '@/lib/data/enriched';
-import { fetchSearchIndex } from '@/lib/deepBio';
 import CuratedBrowseView from '@/components/browse/CuratedBrowseView';
 import { isMissingOhaeng } from '@/components/browse/curatedSections';
 import type { OHaeng } from '@/lib/saju/types';
@@ -260,12 +259,41 @@ export default function BrowseTab() {
   const [filters, setFiltersState] = useState<Filters>(defaultFilters);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const { people: enrichedPeople, loading } = useEnrichedPeople();
-  const [deepSearchIndex, setDeepSearchIndex] = useState<Record<string, string>>({});
+  // IDs whose deep-bio text matches the current query, from /api/search.
+  //
+  // This used to be the entire 7.1MB deep-bio corpus downloaded on mount and
+  // searched in the browser. The text now stays server-side and we only
+  // receive matching IDs. Name/company/short-bio matching below is still
+  // local (those fields ride along in /api/people), so typing stays instant
+  // and this only widens the result set as responses land.
+  const [deepMatchIds, setDeepMatchIds] = useState<Set<string>>(new Set());
 
-  // Preload the deep-bio search index on mount so it's ready when user types
+  const searchTerm = filters.search;
+
   useEffect(() => {
-    fetchSearchIndex().then(setDeepSearchIndex);
-  }, []);
+    const q = searchTerm.trim();
+    if (q.length < 2) {
+      setDeepMatchIds(new Set());
+      return;
+    }
+    // Debounced so a keystroke doesn't equal a request.
+    let cancelled = false;
+    const timer = setTimeout(() => {
+      fetch(`/api/search?q=${encodeURIComponent(q)}`)
+        .then((res) => (res.ok ? res.json() : { ids: [] }))
+        .then((data: { ids?: string[] }) => {
+          if (!cancelled) setDeepMatchIds(new Set(data.ids ?? []));
+        })
+        .catch(() => {
+          // Non-fatal: local name/bio matching still applies.
+          if (!cancelled) setDeepMatchIds(new Set());
+        });
+    }, 250);
+    return () => {
+      cancelled = true;
+      clearTimeout(timer);
+    };
+  }, [searchTerm]);
 
   // Hydrate filters from URL on mount, and listen to back/forward nav so
   // the user's browser history restores the previous curated/flat view.
@@ -337,8 +365,9 @@ export default function BrowseTab() {
               : searchable.includes(term)
           ) &&
           !chosungMatch &&
-          // Deep bio full-text search (career, quotes, childhood, etc.)
-          !(deepSearchIndex[person.id]?.includes(q))
+          // Deep bio full-text search (career, quotes, childhood, etc.),
+          // resolved server-side via /api/search — see deepMatchIds above.
+          !deepMatchIds.has(person.id)
         )
           return false;
       }
@@ -369,7 +398,9 @@ export default function BrowseTab() {
         break;
     }
     return sorted;
-  }, [deferredFilters, enrichedPeople]);
+    // deepMatchIds arrives asynchronously from /api/search, so it must be a
+    // dependency — otherwise deep-bio matches never appear in the results.
+  }, [deferredFilters, enrichedPeople, deepMatchIds]);
 
   return (
     <div className="flex flex-col lg:flex-row gap-6">

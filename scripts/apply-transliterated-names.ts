@@ -16,7 +16,7 @@ interface TransliterationResult {
   nameKo: string;
 }
 
-const dataPath = path.join(process.cwd(), 'public', 'billionaires.json');
+const dataPath = path.join(process.cwd(), 'private-data', 'billionaires.json');
 const transliterationsPath = path.join(process.cwd(), 'scripts', 'transliterated-names.json');
 
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));

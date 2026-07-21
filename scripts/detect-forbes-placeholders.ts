@@ -15,7 +15,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 const ROOT = path.resolve(__dirname, '..');
-const BILLIONAIRES_JSON = path.join(ROOT, 'public', 'billionaires.json');
+const BILLIONAIRES_JSON = path.join(ROOT, 'private-data', 'billionaires.json');
 const OUT = path.join(ROOT, 'scripts', 'forbes-placeholder-ids.json');
 
 const PLACEHOLDER_MAX_BYTES = 6000;
