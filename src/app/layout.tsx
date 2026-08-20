@@ -93,22 +93,32 @@ export default function RootLayout({
       </body>
       {/* Google AdSense.
        *
-       * `beforeInteractive` (rather than `afterInteractive` like the tags
-       * above) puts this in the server-rendered <head>. That placement is
-       * load-bearing, not cosmetic: AdSense's site-verification crawler
-       * looks for the snippet in <head> and reports the site as "not ready"
-       * when it only appears in <body>, which is what an afterInteractive
-       * tag does — it injects at the end of <body> after hydration.
+       * A plain <script>, NOT next/script — deliberately, and this is the
+       * second attempt. React 19 hoists an `async` script into <head> and
+       * emits it as a real tag in the server-rendered HTML, which is what
+       * AdSense's verification crawler reads.
        *
-       * Next only honours this strategy in the root layout, and the docs
-       * place the tag as a sibling of <body>. Do not move it inside <body>.
+       * Neither next/script strategy works here:
+       *   - `afterInteractive` injects at the end of <body> after hydration,
+       *     so the raw HTML has no tag at all.
+       *   - `beforeInteractive` looks right but emits only
+       *     `<link rel="preload" as="script">` in <head>. The actual script
+       *     is added later by Next's client runtime. A crawler that parses
+       *     HTML without executing JS sees a preload hint and no snippet,
+       *     and verification fails with "Couldn't verify your site" — which
+       *     is exactly what happened on the first attempt.
+       *
+       * Verified against the built output: this renders
+       * `<script async src="…" crossorigin="anonymous">` inside <head>.
+       * If you change this, re-check with `curl -s https://bujasaju.com/ |
+       * grep -o '<script[^>]*adsbygoogle[^>]*>'` — a match is required, and
+       * a <link rel=preload> is not a substitute.
        *
        * The publisher ID here must match the one in public/ads.txt.
        */}
-      <Script
-        id="google-adsense"
+      <script
+        async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5850602718784942"
-        strategy="beforeInteractive"
         crossOrigin="anonymous"
       />
     </html>
