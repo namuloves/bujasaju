@@ -21,7 +21,15 @@
 
 import type { DeepBio, Quote, Book, SajuConnection, SajuClaim } from '@/lib/deepBio';
 import { hasStructuredReading } from '@/lib/deepBio';
-import type { EnrichedPerson, SajuResult, CheonGan } from '@/lib/saju/types';
+import type { EnrichedPerson, SajuResult, CheonGan, JiJi, OHaeng } from '@/lib/saju/types';
+// Aliased: this file already declares its own local STEM_TO_OHAENG (a loose
+// Record<string, string> used by buildMatchPoints). Importing under the same
+// name would shadow it and change that function's typing, so the canonical
+// maps come in under distinct names and the local one is left alone.
+import {
+  STEM_TO_OHAENG as CANON_STEM_OHAENG,
+  BRANCH_TO_OHAENG as CANON_BRANCH_OHAENG,
+} from '@/lib/saju/constants';
 import WealthChart from './WealthChart';
 import { ko } from './DeepBioTabs';
 import { getSipSin } from '@/lib/saju/tenGods';
@@ -303,11 +311,16 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
                     <div className="space-y-3">
                       {sc.daeunKo.map((d, i) => (
                         <div key={i} className="flex gap-3">
-                          <div className="w-24 shrink-0">
-                            <div className="text-xs font-semibold text-gray-900">{d.pillar}</div>
-                            <div className="text-[11px] text-gray-400">
+                          <div className="w-[104px] shrink-0">
+                            <DaeunPillarCells pillar={d.pillar} />
+                            <div className="text-[11px] text-gray-400 mt-1">
                               {d.range}
-                              {d.years ? ` · ${d.years}` : ''}
+                              {d.years ? (
+                                <>
+                                  <br />
+                                  {d.years}
+                                </>
+                              ) : null}
                             </div>
                           </div>
                           <div className="flex-1">
@@ -624,6 +637,61 @@ function BookCard({ book, lang }: { book: Book; lang: string }) {
           </div>
         )}
       </div>
+    </div>
+  );
+}
+
+/**
+ * The two coloured 간지 cells for one 대운 decade.
+ *
+ * Deliberately reuses the tints and cell geometry from
+ * components/profile/DaewoonStrip — the 대운 흐름 strip higher up the same
+ * page. The reading and the strip describe the same ten years, so a reader
+ * scanning between them matches on colour before they read a word; two
+ * different palettes for the same 간지 would actively mislead.
+ *
+ * `pillar` arrives as a two-character string from the data ('임진'), not as
+ * typed stem/branch fields, so it is split here and each half coloured by
+ * its own 오행 — the same way the strip colours 천간 and 지지 independently.
+ * Anything that isn't a clean two-character 간지 falls back to plain text
+ * rather than rendering a broken cell.
+ */
+const DAEUN_TINT: Record<OHaeng, string> = {
+  목: '#d4efdc',
+  화: '#fde1df',
+  토: '#fbeacd',
+  금: '#eaeaea',
+  수: '#c0dcf4',
+};
+
+function DaeunPillarCells({ pillar }: { pillar: string }) {
+  const chars = [...(pillar ?? '')];
+  if (chars.length !== 2) {
+    return <div className="text-xs font-semibold text-gray-900">{pillar}</div>;
+  }
+  const [stem, branch] = chars;
+  const stemOh = CANON_STEM_OHAENG[stem as CheonGan];
+  const branchOh = CANON_BRANCH_OHAENG[branch as JiJi];
+  if (!stemOh || !branchOh) {
+    return <div className="text-xs font-semibold text-gray-900">{pillar}</div>;
+  }
+
+  const Cell = ({ ch, oh }: { ch: string; oh: OHaeng }) => (
+    <div className="flex flex-col items-center">
+      <div
+        className="w-8 h-8 rounded-lg flex items-center justify-center text-base font-bold text-gray-900"
+        style={{ background: DAEUN_TINT[oh] }}
+      >
+        {ch}
+      </div>
+      <div className="text-[10px] text-gray-400 mt-0.5">{oh}</div>
+    </div>
+  );
+
+  return (
+    <div className="flex items-start gap-1.5">
+      <Cell ch={stem} oh={stemOh} />
+      <Cell ch={branch} oh={branchOh} />
     </div>
   );
 }
