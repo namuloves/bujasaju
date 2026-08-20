@@ -209,7 +209,92 @@ export interface DeepBioV2 {
   quotes?: Quote[];
   books?: { authored: Book[]; recommended: Book[] };
   personalTraits?: DeepBio['personalTraits'];
-  sajuConnection?: unknown;
+  sajuConnection?: SajuConnection;
+}
+
+/**
+ * One claim in a reading, plus the chart characters it rests on.
+ *
+ * `basis` is the point of the whole schema. A claim that cannot name the
+ * pillars it came from is a claim about nobody in particular, and that is
+ * what the first pass produced: prose that fit any chart because it was
+ * derived from none. Naming the characters forces specificity, and lets
+ * scripts/verify-saju.ts check afterwards that every character cited is
+ * actually in that person's chart. A basis that does not verify marks a
+ * fabricated reading — we have already shipped one round of fabricated saju
+ * fields (commit 40578a8), and this is the guard against a second.
+ */
+export interface SajuClaim {
+  textKo: string;
+  /** e.g. ['월지 해', '월간 정화'] */
+  basis: string[];
+}
+
+/** One decade of the 대운 cycle, tied to events already on record. */
+export interface SajuDaeun {
+  /** Age span, e.g. '41~50'. */
+  range: string;
+  /** 간지 for the decade, e.g. '임진'. */
+  pillar: string;
+  /** Calendar years covered, e.g. '2001~2010'. */
+  years?: string;
+  textKo: string;
+  /**
+   * Events drawn from this person's own careerTimeline / failures. Limiting
+   * citations to events already recorded in the file is what stops a
+   * generator from inventing history that flatters the chart.
+   */
+  linkedEvents?: string[];
+}
+
+/**
+ * The per-person reading.
+ *
+ * Two shapes coexist on purpose. `summary`/`summaryKo` is the original
+ * single-paragraph form, still on ~1,300 records; the structured fields
+ * replace it. Renderers prefer the structured fields and fall back to the
+ * paragraph, so records migrate in batches rather than one flag-day rewrite.
+ */
+export interface SajuConnection {
+  /** Legacy single-paragraph form. Superseded by the fields below. */
+  summary?: string;
+  summaryKo?: string;
+
+  /** Chart the reading was generated from, stored so it can be verified. */
+  chart?: {
+    ilgan?: string;
+    ilju?: string;
+    wolji?: string;
+    gyeokguk?: string;
+    pillars?: { year?: string; month?: string; day?: string; hour?: string | null };
+  };
+
+  /** 조후 — season against day master. The axis that most separates two
+   *  people sharing an 일주, and the one the old form always omitted. */
+  johuKo?: SajuClaim;
+  /** 격국 · 신강신약 · 오행 과다/부족. */
+  structureKo?: SajuClaim;
+  /** Where the money sits in the chart (재성). */
+  wealthKo?: SajuClaim;
+  /** Structural liability — 관·살·충. */
+  riskKo?: SajuClaim;
+  /** Decade by decade, matched against the documented timeline. */
+  daeunKo?: SajuDaeun[];
+  /** One-sentence hook. */
+  oneLineKo?: string;
+}
+
+/** True when any structured field is populated. */
+export function hasStructuredReading(sc: SajuConnection | undefined): boolean {
+  if (!sc) return false;
+  return !!(
+    sc.johuKo ||
+    sc.structureKo ||
+    sc.wealthKo ||
+    sc.riskKo ||
+    sc.oneLineKo ||
+    (sc.daeunKo && sc.daeunKo.length > 0)
+  );
 }
 
 const cacheV2 = new Map<string, DeepBioV2 | null>();

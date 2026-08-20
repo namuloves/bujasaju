@@ -19,7 +19,8 @@
  *   9. 출처
  */
 
-import type { DeepBio, Quote, Book } from '@/lib/deepBio';
+import type { DeepBio, Quote, Book, SajuConnection, SajuClaim } from '@/lib/deepBio';
+import { hasStructuredReading } from '@/lib/deepBio';
 import type { EnrichedPerson, SajuResult, CheonGan } from '@/lib/saju/types';
 import WealthChart from './WealthChart';
 import { ko } from './DeepBioTabs';
@@ -232,23 +233,98 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       )}
 
       {/* 3. Saju connection — editorial style, no amber box. Matches the
-          underlined eyebrow headers used by 어록 / 실패와 교훈. */}
+          underlined eyebrow headers used by 어록 / 실패와 교훈.
+
+          Two shapes render here. Structured readings (johuKo/structureKo/…)
+          are preferred; the legacy single paragraph is the fallback for the
+          ~1,300 records not yet migrated. See SajuConnection in lib/deepBio. */}
       {(() => {
-        const sc = (bio as unknown as { sajuConnection?: { summary?: string; summaryKo?: string } }).sajuConnection;
-        if (!sc || (!sc.summary && !sc.summaryKo)) return null;
+        const sc = (bio as { sajuConnection?: SajuConnection }).sajuConnection;
+        if (!sc) return null;
+
+        const structured = hasStructuredReading(sc);
+        const legacyText = ko(lang, sc.summary ?? '', sc.summaryKo);
+        if (!structured && !legacyText) return null;
+
+        const claims: Array<{ label: string; claim?: SajuClaim }> = [
+          { label: lang === 'ko' ? '조후' : 'Season', claim: sc.johuKo },
+          { label: lang === 'ko' ? '구조' : 'Structure', claim: sc.structureKo },
+          { label: lang === 'ko' ? '재물' : 'Wealth', claim: sc.wealthKo },
+          { label: lang === 'ko' ? '리스크' : 'Risk', claim: sc.riskKo },
+        ];
+
         return (
           <section>
             <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
               {lang === 'ko' ? '사주와 부의 연결' : 'Saju and Wealth'}
             </h3>
-            <div className="text-sm text-gray-800 leading-relaxed space-y-3">
-              {ko(lang, sc.summary ?? '', sc.summaryKo)
-                .split('\n\n')
-                .filter(Boolean)
-                .map((para, i) => (
-                  <p key={i}>{para}</p>
-                ))}
-            </div>
+
+            {!structured ? (
+              <div className="text-sm text-gray-800 leading-relaxed space-y-3">
+                {legacyText
+                  .split('\n\n')
+                  .filter(Boolean)
+                  .map((para, i) => (
+                    <p key={i}>{para}</p>
+                  ))}
+              </div>
+            ) : (
+              <div className="space-y-5">
+                {sc.oneLineKo && (
+                  <p className="text-[15px] font-semibold text-gray-900 leading-relaxed border-l-2 border-gray-900 pl-3">
+                    {sc.oneLineKo}
+                  </p>
+                )}
+
+                {claims
+                  .filter((c) => c.claim?.textKo)
+                  .map(({ label, claim }) => (
+                    <div key={label}>
+                      <div className="flex items-baseline gap-2 mb-1">
+                        <span className="text-[11px] font-bold text-gray-900">{label}</span>
+                        {/* The chart characters the claim rests on. Shown, not
+                            hidden: it is the difference between a reading and
+                            a horoscope, and it lets a reader check the work. */}
+                        {claim!.basis?.length > 0 && (
+                          <span className="text-[11px] text-gray-400">
+                            {claim!.basis.join(' · ')}
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-sm text-gray-800 leading-relaxed">{claim!.textKo}</p>
+                    </div>
+                  ))}
+
+                {sc.daeunKo && sc.daeunKo.length > 0 && (
+                  <div>
+                    <div className="text-[11px] font-bold text-gray-900 mb-2">
+                      {lang === 'ko' ? '대운' : 'Luck cycles'}
+                    </div>
+                    <div className="space-y-3">
+                      {sc.daeunKo.map((d, i) => (
+                        <div key={i} className="flex gap-3">
+                          <div className="w-24 shrink-0">
+                            <div className="text-xs font-semibold text-gray-900">{d.pillar}</div>
+                            <div className="text-[11px] text-gray-400">
+                              {d.range}
+                              {d.years ? ` · ${d.years}` : ''}
+                            </div>
+                          </div>
+                          <div className="flex-1">
+                            <p className="text-sm text-gray-800 leading-relaxed">{d.textKo}</p>
+                            {d.linkedEvents && d.linkedEvents.length > 0 && (
+                              <p className="mt-1 text-[11px] text-gray-400">
+                                {d.linkedEvents.join(' · ')}
+                              </p>
+                            )}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
           </section>
         );
       })()}
