@@ -5,7 +5,6 @@
   "netWorth": "$8.2B",
   "nationality": "KR",
   "industry": "Hospitality / Retail",
-
   "childhood": {
     "birthPlace": "Seoul, South Korea",
     "birthPlaceKo": "대한민국 서울",
@@ -18,13 +17,11 @@
     "capitalTypeKo": "inherited. 명백한 한국 재벌 3세 상속형. 1995년 삼성복지재단 입사 후 단계적 승진, 2010년 호텔신라 사장. 본인 종잣돈은 부친 증여 + 1999년 삼성SDS 신주인수권부사채(BW) 저가 인수(이재용·이서현과 동일 패턴). Forbes self-made score 1/10. 다만 2010년 이후 호텔신라 면세점 사업을 인천공항·홍콩·싱가포르 등 글로벌로 확장한 운영 기여는 인정됨.",
     "source": "https://en.wikipedia.org/wiki/Lee_Boo-jin ; https://www.scmp.com/magazines/style/news-trends/article/3135600/samsung-heir-lee-boo-jin-hotel-shilla-ceo-finalised"
   },
-
   "capitalOrigin": {
     "typeKo": "inherited",
     "explanationKo": "한국 재벌 3세 상속형. 부친 이건희로부터 1995-99년 사이 삼성SDS 신주인수권부사채(BW), 삼성에버랜드 전환사채 등 비상장 계열사 지분을 헐값에 인수하여 자본 형성 — 오빠 이재용과 동일한 승계 사다리 구조. 2010년 호텔신라 사장 취임 후에는 본인 운영 책임 영역에서 면세점 사업을 글로벌로 확장. Forbes self-made score 1/10.",
     "source": "https://www.forbes.com/profile/lee-boo-jin/ ; https://en.wikipedia.org/wiki/Lee_Boo-jin"
   },
-
   "careerTimeline": [
     {
       "year": 1995,
@@ -119,7 +116,6 @@
       "source": "https://www.thefoodandbeveragepeople.com/news/shilla-duty-free-2024-results"
     }
   ],
-
   "turningPoints": [
     {
       "age": 29,
@@ -143,7 +139,6 @@
       "whyKo": "5년 이혼 분쟁의 종결 + 가문 어른의 부재가 동시에 도래. 50세 시점에서 본인이 가족 운영의 중심에 서야 한다는 책임 인수의 분기점."
     }
   ],
-
   "moneyMechanics": {
     "primaryIncomeSource": "Samsung Group equity inherited from father Lee Kun-hee (Samsung Electronics ~0.92%, Samsung Life ~6.92%, Samsung C&T ~5.55%, Samsung SDS ~3.9%) + Hotel Shilla CEO compensation (~₩2.7B/year). Samsung group dividend income to Lee Boo-jin estimated at ₩100-150B annually post-inheritance.",
     "primaryIncomeSourceKo": "부친 이건희로부터 상속받은 삼성그룹 지분(삼성전자 약 0.92%, 삼성생명 약 6.92%, 삼성물산 약 5.55%, 삼성SDS 약 3.9%) + 호텔신라 CEO 보수(연 약 27억 원). 상속 후 삼성그룹 배당 수입 추정 연 1,000-1,500억 원.",
@@ -169,7 +164,6 @@
     "currentAssetAllocationKo": "순자산 대부분 삼성그룹 주식(삼성전자·삼성생명·삼성물산·삼성SDS), 상당 부분이 상속세 대출 담보로 묶임. 호텔신라 지분(CEO지만 소액 보유). 한남동 자택 등 부동산. 적극적 미술 수집가지만 모친 홍라희나 동생 이서현보다는 신중.",
     "source": "https://www.forbes.com/profile/lee-boo-jin/ ; http://m.theinvestor.co.kr/people_detail.php?q=Lee+Boo-jin&mode=rich&num=12 ; https://en.wikipedia.org/wiki/Hotel_Shilla"
   },
-
   "failures": [
     {
       "year": 2014,
@@ -199,17 +193,50 @@
       "source": "https://en.wikipedia.org/wiki/Hotel_Shilla"
     }
   ],
-
   "wealthHistory": [
-    { "year": 1999, "age": 29, "netWorthUSD": 50000000, "note": "삼성SDS BW 인수 추정 가치" },
-    { "year": 2010, "age": 40, "netWorthUSD": 800000000, "note": "호텔신라 CEO 취임, Forbes 첫 등재" },
-    { "year": 2015, "age": 45, "netWorthUSD": 1500000000, "note": "삼성물산-제일모직 합병 후" },
-    { "year": 2020, "age": 50, "netWorthUSD": 1800000000, "note": "이혼 합의 + 코로나 직전" },
-    { "year": 2021, "age": 51, "netWorthUSD": 4500000000, "note": "부친 상속 후, 상속세 미공제" },
-    { "year": 2024, "age": 54, "netWorthUSD": 7200000000, "note": "호텔신라 회복 + 삼성전자 AI 호황" },
-    { "year": 2026, "age": 56, "netWorthUSD": 8200000000, "note": "현재 — 면세점 회복 + 삼성그룹 지분 가치 상승" }
+    {
+      "year": 1999,
+      "age": 29,
+      "netWorthUSD": 50000000,
+      "note": "삼성SDS BW 인수 추정 가치"
+    },
+    {
+      "year": 2010,
+      "age": 40,
+      "netWorthUSD": 800000000,
+      "note": "호텔신라 CEO 취임, Forbes 첫 등재"
+    },
+    {
+      "year": 2015,
+      "age": 45,
+      "netWorthUSD": 1500000000,
+      "note": "삼성물산-제일모직 합병 후"
+    },
+    {
+      "year": 2020,
+      "age": 50,
+      "netWorthUSD": 1800000000,
+      "note": "이혼 합의 + 코로나 직전"
+    },
+    {
+      "year": 2021,
+      "age": 51,
+      "netWorthUSD": 4500000000,
+      "note": "부친 상속 후, 상속세 미공제"
+    },
+    {
+      "year": 2024,
+      "age": 54,
+      "netWorthUSD": 7200000000,
+      "note": "호텔신라 회복 + 삼성전자 AI 호황"
+    },
+    {
+      "year": 2026,
+      "age": 56,
+      "netWorthUSD": 8200000000,
+      "note": "현재 — 면세점 회복 + 삼성그룹 지분 가치 상승"
+    }
   ],
-
   "quotes": [
     {
       "quote": "현장이 답이다.",
@@ -224,12 +251,20 @@
       "source": "https://www.scmp.com/magazines/style/news-trends/article/3135600/samsung-heir-lee-boo-jin-hotel-shilla-ceo-finalised"
     }
   ],
-
   "books": [
-    { "title": "이부진 스타일", "author": "박상하", "year": 2014, "noteKo": "이부진의 호텔신라 경영과 리더십 스타일을 분석한 한국어 평전." },
-    { "title": "Samsung Rising", "author": "Geoffrey Cain", "year": 2020, "noteKo": "삼성가 4남매 후계 구도와 이부진의 위치를 다룬 영문 평전." }
+    {
+      "title": "이부진 스타일",
+      "author": "박상하",
+      "year": 2014,
+      "noteKo": "이부진의 호텔신라 경영과 리더십 스타일을 분석한 한국어 평전."
+    },
+    {
+      "title": "Samsung Rising",
+      "author": "Geoffrey Cain",
+      "year": 2020,
+      "noteKo": "삼성가 4남매 후계 구도와 이부진의 위치를 다룬 영문 평전."
+    }
   ],
-
   "personalTraits": [
     "Father resemblance — 외모·성격·경영 스타일 모두 이건희와 가장 닮아 '리틀 이건희'",
     "Operational hands-on — 호텔 객실·면세점 매장 직접 시찰 빈번",
@@ -240,13 +275,90 @@
     "Style icon — 한국 패션 미디어가 자주 다루는 50대 여성 스타일 아이콘",
     "Yonsei loyalty — 모교 연세대 후원 지속"
   ],
-
   "characterKo": {
     "strengths": "1999년 부친 반대를 무릅쓴 결혼, 2014-2020년 5년 이혼 분쟁을 견뎌낸 의지력. 2010년 호텔신라 CEO 취임 후 14년간 단일 회사를 글로벌 면세점 거대 기업으로 변모시킨 지속적 운영 능력. 부친 이건희와 가장 닮은 '현장 경영' 스타일 — 직원·고객·정부와의 직접 소통. 이혼 시 본인 자산을 14% 손실로 방어한 협상력.",
     "weaknesses": "1999년 결혼 결정의 신중함 부족 — 결과적으로 5년 격렬한 이혼 분쟁과 1,410억 원 손실 + 가문 명예 손상. 2017년 사드 위기, 2020년 코로나 위기 등 거시 충격 시 호텔신라의 단일 시장 의존 구조 노출. 자산 형성의 출발점이 1996-99년 비상장사 BW·CB 저가 인수라는 정당성 결여 평생 따라옴. 동생 이서현·오빠 이재용과의 관계는 표면상 협력적이나 향후 가문 자산 분쟁 가능성.",
     "motivation": "부친 이건희와 가장 닮은 후계자라는 자기 인식과 그 닮음을 운영 성과로 증명하려는 욕구. 1999년 결혼·2014년 이혼이라는 비전형적 인생 경로를 통해 '재벌 딸이 아닌 한 인간으로서의 의지'를 사회에 입증하려는 동기. 호텔신라를 본인 단일 책임 영역으로 14년 운영하며 '나는 상속만 받은 것이 아니다'라는 정당성 확보.",
     "legacy": "한국 재벌가에서 처음으로 비재벌 출신과 결혼·이혼한 여성 후계자의 사례. 호텔신라 14년 CEO로 한국 면세점 산업의 글로벌화를 주도. 부친의 '현장 경영' 스타일을 한국 호스피탈리티 산업에 이식. 2020년 부친 사망과 이혼 종결로 50세 시점에서 가족·가문 운영의 중심에 서게 된 인물 — 향후 10년 호텔신라의 글로벌 1위 도전 여부가 본인 평가의 핵심."
   },
-
-  "sajuConnection": null
+  "sajuConnection": {
+    "chart": {
+      "ilgan": "기",
+      "ilju": "기미",
+      "wolji": "유",
+      "gyeokguk": "식신격",
+      "pillars": {
+        "year": "경술",
+        "month": "을유",
+        "day": "기미",
+        "hour": null
+      }
+    },
+    "johuKo": {
+      "textKo": "동생 이서현과 일주도 기미, 월지도 유, 격국도 식신격으로 똑같습니다. 그런데 읽어보면 전혀 다른 사주입니다. 같은 일주라도 나머지 글자가 다르면 다른 사람이 된다는 것을 이만큼 잘 보여주는 사례가 드뭅니다. 가을 논밭의 흙이 금으로 설기되는 뼈대는 같지만, 이쪽에는 동생에게 없는 것이 하나 있습니다.",
+      "basis": [
+        "일간 기",
+        "월지 유",
+        "일지 미"
+      ]
+    },
+    "structureKo": {
+      "textKo": "월간 을목 편관입니다. 동생의 원국에는 관이 없고 이쪽에는 편관이 천간에 떠 있습니다. 편관은 나를 누르는 힘이자 남편이고 직책이며 감당해야 할 무게입니다. 같은 자매인데 한 사람은 문화와 명예 쪽으로 흐르고 한 사람은 현장의 경영과 법정으로 간 갈림길이, 이 한 글자 차이에서 갈립니다.",
+      "basis": [
+        "월간 을",
+        "일간 기",
+        "월지 유"
+      ]
+    },
+    "wealthKo": {
+      "textKo": "재성인 수(水)가 원국에 한 글자도 없습니다. 동생에게는 년간 계수 편재가 있었지만 이쪽에는 없습니다. 대신 년간 경금 상관과 월지 유금 식신으로 식상이 매우 강합니다. 물려받은 재물을 그대로 쥐는 형태가 아니라 직접 운영해서 만들어내야 하는 구조라, 호텔과 면세점처럼 매일 굴려야 하는 사업과 맞물립니다.",
+      "basis": [
+        "년간 경",
+        "월지 유",
+        "일간 기"
+      ]
+    },
+    "riskKo": {
+      "textKo": "년간 경금과 월간 을목이 을경합(乙庚合)을 이룹니다. 상관이 편관을 붙잡아 묶는, 명리에서 상관합살(傷官合殺)이라 부르는 구조입니다. 나를 누르는 힘을 내 힘으로 제압하는 배치라 웬만한 압박에 굴하지 않습니다. 다만 그 대상이 남편의 자리이기도 해서, 관을 제압하는 힘이 곧 관계를 정리하는 힘으로도 작동합니다. 여기에 일지 미토와 년지 술토가 형(刑)으로 얽혀 가문 안의 마찰이 상수로 놓입니다.",
+      "basis": [
+        "년간 경",
+        "월간 을",
+        "일지 미",
+        "년지 술"
+      ]
+    },
+    "daeunKo": [
+      {
+        "range": "29~38",
+        "pillar": "임오",
+        "years": "1999~2008",
+        "textKo": "임수 정재가 처음 들어옵니다. 원국에 없던 재성이 대운으로 오는 자리라 실무와 재물이 함께 시작되고, 오화 정인이 흙을 데워 자리를 잡아줍니다. 결혼과 입사가 이 구간 앞뒤에 놓입니다.",
+        "linkedEvents": [
+          "1999 결혼",
+          "2001 호텔신라 입사"
+        ]
+      },
+      {
+        "range": "39~48",
+        "pillar": "신사",
+        "years": "2009~2018",
+        "textKo": "신금 식신에 사화가 붙어 사유 반합으로 금이 더 강해집니다. 만들어내는 힘이 최대가 되는 구간이라 경영 일선의 정점이 여기이고, 동시에 상관이 왕해지면 관을 치므로 관계의 정리도 이 구간에서 시작됩니다.",
+        "linkedEvents": [
+          "2010 호텔신라 사장 취임",
+          "2014 이혼 소송 제기"
+        ]
+      },
+      {
+        "range": "49~58",
+        "pillar": "경진",
+        "years": "2019~2028",
+        "textKo": "경금 상관이 천간에 다시 뜨고 진토 겁재가 붙습니다. 상관이 관을 완전히 밀어내는 자리라 소송이 마무리되고, 겁재의 구간이라 가문 안에서의 몫과 역할이 다시 정리됩니다.",
+        "linkedEvents": [
+          "2020 이혼 확정",
+          "2020 코로나 팬데믹 충격"
+        ]
+      }
+    ],
+    "oneLineKo": "동생과 일주도 월지도 격국도 같은 사주. 천간의 편관 한 글자가 두 사람의 인생을 갈라놓았다."
+  }
 }
