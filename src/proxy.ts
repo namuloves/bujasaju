@@ -270,10 +270,13 @@ export const config = {
    *   - `_next/*`    — build assets, served from CDN.
    *   - `robots.txt`, `sitemap.xml` — must stay reachable by crawlers, and
    *                    blocking them would defeat the robots.txt policy.
+   *   - `ads.txt`    — same reasoning. Google's ads.txt fetcher must always
+   *                    reach it; if the file 403s, AdSense treats the site's
+   *                    inventory as unauthorized and demand drops.
    *   - static files — images/fonts/etc. don't need bot checks and would
    *                    multiply Redis calls per page view.
    */
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|woff|woff2|ttf|otf|css|js)$).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|ads.txt|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|woff|woff2|ttf|otf|css|js)$).*)',
   ],
 };

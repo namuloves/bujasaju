@@ -84,12 +84,6 @@ export default function RootLayout({
             that left dataLayer with only [["js"], ["config"]] entries. */}
         <GoogleAnalytics gaId="G-75TZ2JD6DS" />
         <Script
-          id="google-adsense"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3985257665575958"
-          strategy="afterInteractive"
-          crossOrigin="anonymous"
-        />
-        <Script
           src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js"
           crossOrigin="anonymous"
           strategy="afterInteractive"
@@ -97,6 +91,26 @@ export default function RootLayout({
       
         <DesignSpecOverlay />
       </body>
+      {/* Google AdSense.
+       *
+       * `beforeInteractive` (rather than `afterInteractive` like the tags
+       * above) puts this in the server-rendered <head>. That placement is
+       * load-bearing, not cosmetic: AdSense's site-verification crawler
+       * looks for the snippet in <head> and reports the site as "not ready"
+       * when it only appears in <body>, which is what an afterInteractive
+       * tag does — it injects at the end of <body> after hydration.
+       *
+       * Next only honours this strategy in the root layout, and the docs
+       * place the tag as a sibling of <body>. Do not move it inside <body>.
+       *
+       * The publisher ID here must match the one in public/ads.txt.
+       */}
+      <Script
+        id="google-adsense"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5850602718784942"
+        strategy="beforeInteractive"
+        crossOrigin="anonymous"
+      />
     </html>
   );
 }
