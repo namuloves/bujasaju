@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
-import { track } from '@vercel/analytics';
+import { trackEvent } from '@/lib/analytics';
 import BirthdayForm, { MatchInput } from './BirthdayForm';
 import SajuConfirmCard from './SajuConfirmCard';
 import { calculateSaju } from '@/lib/saju/index';
@@ -187,6 +187,11 @@ export default function MatchTab() {
 
   const handleFormSubmit = (next: MatchInput) => {
     setInput(next);
+    // Top of the quiz funnel. Fired on submit rather than on first render of
+    // the form, so it counts people who actually entered a birthday instead
+    // of everyone who loaded the homepage. The gap between this and
+    // `quiz_confirmed` is the drop-off on the confirm card.
+    trackEvent('quiz_started', { mode: next.mode });
     setStep('calculating');
     // Short beat before landing on the confirm card so users feel the
     // system "doing something" with their birthday.
@@ -201,7 +206,7 @@ export default function MatchTab() {
       // ignore
     }
     if (saju) {
-      track('quiz_confirmed', {
+      trackEvent('quiz_confirmed', {
         ilju: saju.ilju,
         wolji: saju.wolji,
         gyeokguk: saju.gyeokguk,

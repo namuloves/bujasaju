@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { track } from '@vercel/analytics';
+import { trackEvent } from '@/lib/analytics';
 import { useLanguage } from '@/lib/i18n';
 
 interface KakaoShare {
@@ -15,24 +15,18 @@ interface KakaoSDK {
 declare global {
   interface Window {
     Kakao?: KakaoSDK;
-    gtag?: (...args: unknown[]) => void;
   }
 }
 
 /**
- * Record one share-button click. Fires a single `share_click` event to both
- * Vercel Analytics (next to our existing quiz events) and Google Analytics
- * (GA4, our queryable source of truth). `channel` is attached as a property
- * for later breakdowns, but the headline metric is just the total count.
+ * Record one share-button click. `channel` is attached as a property for
+ * later breakdowns, but the headline metric is just the total count.
  *
- * Synchronous and fire-and-forget — safe to call inside handlers that must
- * preserve user-activation (e.g. the Kakao popup), since neither call awaits.
+ * The dual Vercel + GA4 dispatch this used to do inline now lives in
+ * `lib/analytics.ts`, shared with the quiz events.
  */
 function trackShare(channel: string) {
-  track('share_click', { channel });
-  if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-    window.gtag('event', 'share_click', { channel });
-  }
+  trackEvent('share_click', { channel });
 }
 
 interface Props {

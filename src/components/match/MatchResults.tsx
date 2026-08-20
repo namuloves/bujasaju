@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState, useCallback, lazy, Suspense } from 'react';
-import { track } from '@vercel/analytics';
+import { trackEvent } from '@/lib/analytics';
 import { useLanguage } from '@/lib/i18n';
 import { useEnrichedPeople } from '@/lib/data/enriched';
 import { matchBillionaires } from '@/lib/saju/match';
@@ -229,7 +229,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     const key = `${me.ilju}|${me.wolji}|${featuredPerson?.id ?? 'none'}`;
     if (tracked.current === key) return;
     tracked.current = key;
-    track('quiz_results_shown', {
+    trackEvent('quiz_results_shown', {
       ilju: me.ilju,
       wolji: me.wolji,
       gyeokguk: me.gyeokguk,
