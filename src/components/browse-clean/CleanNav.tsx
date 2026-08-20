@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useLanguage } from '@/lib/i18n';
 
 /** Tab keys are kept identical to the legacy TabBar so existing
@@ -7,8 +8,18 @@ import { useLanguage } from '@/lib/i18n';
 export type CleanTab = 'browse' | 'match';
 
 interface Props {
-  activeTab: CleanTab;
-  onChange: (tab: CleanTab) => void;
+  /**
+   * Which tab is currently showing. Omit on standalone pages (/about,
+   * /privacy, /terms) — none of the tabs is "current" there, so none gets
+   * the underline.
+   */
+  activeTab?: CleanTab;
+  /**
+   * Tab click handler. Omit on standalone pages: without it the tabs render
+   * as plain links to `/?tab=…` instead of buttons, because there is no tab
+   * state on those pages to switch. See the TabBtn comment.
+   */
+  onChange?: (tab: CleanTab) => void;
   /** When defined, renders a search input in the header. */
   search?: string;
   onSearchChange?: (v: string) => void;
@@ -19,6 +30,13 @@ interface Props {
 /**
  * Top navigation. Logo + tabs on the left, search input in the middle.
  * Everything in one horizontal row to minimise vertical real estate.
+ *
+ * Serves two cases:
+ *   - The tabbed pages (/ and /browse-clean) pass activeTab + onChange and
+ *     get interactive tab buttons.
+ *   - Standalone pages pass neither and get the same bar with link tabs, so
+ *     the site header is consistent everywhere and there is always a way
+ *     back into the app.
  */
 export default function CleanNav({
   activeTab,
@@ -52,15 +70,9 @@ export default function CleanNav({
     sublabel?: string;
   }) => {
     const active = activeTab === value;
-    return (
-      <button
-        type="button"
-        onClick={() => onChange(value)}
-        aria-pressed={active}
-        className={`relative inline-flex items-baseline gap-1.5 px-1 py-1 text-[13px] sm:text-[14px] font-medium transition-colors whitespace-nowrap ${
-          active ? 'text-gray-900' : 'text-gray-500 hover:text-gray-900'
-        }`}
-      >
+
+    const inner = (
+      <>
         {labelDesktop ? (
           <>
             <span className="md:hidden">{label}</span>
@@ -75,6 +87,33 @@ export default function CleanNav({
         {active && (
           <span className="absolute left-1 right-1 -bottom-0.5 h-[2px] bg-gray-900" />
         )}
+      </>
+    );
+
+    const className = `relative inline-flex items-baseline gap-1.5 px-1 py-1 text-[13px] sm:text-[14px] font-medium transition-colors whitespace-nowrap ${
+      active ? 'text-gray-900' : 'text-gray-500 hover:text-gray-900'
+    }`;
+
+    // No onChange means there is no tab state to flip — we're on a
+    // standalone page. Render a real link so the tab navigates home to the
+    // right tab (and so it middle-clicks and right-clicks like a link
+    // should). `?tab=` is read by getInitialTab() in app/page.tsx.
+    if (!onChange) {
+      return (
+        <Link href={`/?tab=${value}`} className={className}>
+          {inner}
+        </Link>
+      );
+    }
+
+    return (
+      <button
+        type="button"
+        onClick={() => onChange(value)}
+        aria-pressed={active}
+        className={className}
+      >
+        {inner}
       </button>
     );
   };
