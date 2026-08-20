@@ -27,6 +27,14 @@ import {
  *      what the UA claims. This is what stops the real-world case we saw
  *      in the Vercel logs: ~15 profile requests inside one second.
  *
+ * Layer 1 is split by path. Two of the agents we block are *user-initiated*
+ * — ChatGPT-User and Claude-Web fire when a real person asks an assistant to
+ * go read a page, unlike GPTBot/ClaudeBot which harvest in bulk for training.
+ * Blocking those two on the marketing pages cost us referral traffic and
+ * protected nothing, so they are now allowed on public pages and blocked
+ * only on `/profile/*`. See ASSISTANT_UA_FRAGMENTS for why the profile
+ * carve-out has to stay.
+ *
  * Layer 2 is deliberately tuned LENIENTLY (60 req/min). Korean mobile
  * carriers NAT large numbers of users behind a single IP, and that is our
  * core audience — a strict threshold would block real people. A human
@@ -55,13 +63,16 @@ import {
  *   - twitterbot / facebookexternalhit / slackbot — link preview cards
  *   - oai-searchbot — ChatGPT search citations (links back to us)
  *   - vercel — deployment/monitoring checks
+ *   - go-http-client — the Go stdlib default UA. Scrapers use it, but so do
+ *     uptime monitors, webhook senders and link-unfurlers; too broad to be
+ *     worth the false positives.
+ *   - chatgpt-user / claude-web — see ASSISTANT_UA_FRAGMENTS, they are
+ *     blocked on profile routes only rather than site-wide.
  */
 const BLOCKED_UA_FRAGMENTS = [
   // AI training crawlers
   'gptbot',
-  'chatgpt-user',
   'claudebot',
-  'claude-web',
   'anthropic-ai',
   'google-extended',
   'ccbot',
@@ -93,11 +104,30 @@ const BLOCKED_UA_FRAGMENTS = [
   'httrack',
   'wget/',
   'libwww-perl',
-  'go-http-client',
   'node-fetch',
   'axios/',
   'curl/',
 ];
+
+/**
+ * User-initiated assistant fetchers — allowed on public pages, blocked on
+ * `/profile/*`.
+ *
+ * These fire when a person asks ChatGPT or Claude to go look at a page, so
+ * there is a real human behind them and the assistant links back to us.
+ * That is worth having on the marketing pages.
+ *
+ * They stay blocked on profiles because the metered paywall is enforced with
+ * a cookie (VIEWS_COOKIE) and these fetchers do not carry cookies between
+ * requests. Every fetch would look like a brand-new visitor with a fresh
+ * free allowance, so a person could read the dataset profile by profile
+ * through the assistant and never hit the meter. The block is what makes the
+ * meter mean anything.
+ */
+const ASSISTANT_UA_FRAGMENTS = ['chatgpt-user', 'claude-web'];
+
+/** Routes the metered paywall protects. Assistant fetchers are refused here. */
+const METERED_PATH = /^\/profile\//;
 
 /** Requests per window, per IP. See the leniency note above. */
 const RATE_LIMIT_MAX = 60;
@@ -111,10 +141,15 @@ function getIp(req: NextRequest): string {
   );
 }
 
-function blocked(reason: string): NextResponse {
-  return new NextResponse(null, {
+const DEFAULT_BLOCK_MESSAGE = 'Automated access to this page is not allowed.';
+
+function blocked(reason: string, message = DEFAULT_BLOCK_MESSAGE): NextResponse {
+  // A short body rather than an empty one: anything caught here as a false
+  // positive would otherwise see a blank white page with no explanation.
+  return new NextResponse(`${message}\n`, {
     status: 403,
     headers: {
+      'Content-Type': 'text/plain; charset=utf-8',
       // Belt and braces: if a search engine somehow lands here, don't index
       // the error page.
       'X-Robots-Tag': 'noindex, nofollow',
@@ -139,6 +174,18 @@ export async function proxy(req: NextRequest) {
   // browser sends one. Cheap win, no Redis round-trip needed.
   if (!ua.trim()) {
     return blocked('no-ua');
+  }
+
+  // --- Layer 1b: assistant fetchers, metered routes only ------------------
+  if (METERED_PATH.test(req.nextUrl.pathname)) {
+    for (const fragment of ASSISTANT_UA_FRAGMENTS) {
+      if (uaLower.includes(fragment)) {
+        return blocked(
+          'ua-assistant',
+          'Profile pages are limited to a few free views per visitor and cannot be read by an assistant. Please open bujasaju.com directly.',
+        );
+      }
+    }
   }
 
   // --- Layer 2: per-IP rate limit ----------------------------------------
