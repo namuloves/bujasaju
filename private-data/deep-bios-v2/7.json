@@ -5,7 +5,6 @@
   "netWorth": "$153.7B",
   "nationality": "US",
   "industry": "Technology",
-
   "childhood": {
     "birthPlace": "Tainan, Taiwan",
     "birthPlaceKo": "대만 타이난",
@@ -18,13 +17,11 @@
     "capitalTypeKo": "self-made. 대만 이민 중산층 엔지니어 가정, 9세에 미국에 혼자 보내져 켄터키 교화 기숙학교에서 화장실 청소. AMD·LSI 월급쟁이 칩 설계자로 시작해 1993년 Denny's 부스에서 Nvidia 창업. 집안 자본 0, 커리어 100% 본인 기술력.",
     "source": "https://en.wikipedia.org/wiki/Jensen_Huang ; https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution"
   },
-
   "capitalOrigin": {
     "typeKo": "self-made",
     "explanationKo": "자수성가 전형. 대만 이민 1세대 엔지니어 가정에서 자라 9세에 혼자 미국에 보내져 교화 기숙학교 화장실 청소. AMD·LSI Logic 월급쟁이 칩 설계자로 10년 근무 후 1993년 California Denny's 부스에서 두 동료(Chris Malachowsky, Curtis Priem)와 Nvidia 공동창업. 초기 자본 $40,000(세 명 각자 출자) + Sequoia Don Valentine의 시드 $2M. Forbes self-made score 8/10.",
     "source": "https://www.forbes.com/profile/jensen-huang/ ; https://en.wikipedia.org/wiki/Nvidia"
   },
-
   "careerTimeline": [
     {
       "year": 1983,
@@ -146,7 +143,6 @@
       "source": "https://www.cnbc.com/2024/06/18/nvidia-passes-microsoft-in-market-cap-to-become-most-valuable-public-company.html"
     }
   ],
-
   "turningPoints": [
     {
       "age": 9,
@@ -177,7 +173,6 @@
       "whyKo": "고독한 장기 베팅의 교과서. 2006년 시점에선 '그래픽 회사가 왜 CUDA에 수십억을?' 비판 속에서 꾸준히 투자, 결과적으로 현대 AI 인프라의 독점 표준 확보."
     }
   ],
-
   "moneyMechanics": {
     "primaryIncomeSource": "Nvidia Corporation (NASDAQ: NVDA) founder-CEO equity stake (~3.5% ownership) plus CEO compensation package. Nvidia FY2024 revenue $60.9B, net income $29.8B, data center segment >75% of revenue from AI GPUs (H100, Blackwell B100/B200).",
     "primaryIncomeSourceKo": "Nvidia Corporation(NASDAQ: NVDA) 창업자 CEO 지분(약 3.5%) + CEO 보상 패키지. FY2024 매출 $60.9B, 순이익 $29.8B, 데이터센터 부문이 매출 75%+ 차지(AI GPU H100, Blackwell B100/B200).",
@@ -207,7 +202,6 @@
     "currentAssetAllocationKo": "순자산 대부분 NVDA 보통주(회사 지분 약 3.5%, 액면분할 후 약 8,600만 주). 캘리포니아 Los Altos Hills 자택, $150B+ 자산가 치곤 검소한 생활 양식. 2022년 아내 Lori와 함께 Giving Pledge 서명. Jensen & Lori Huang Foundation 기부 총액 $750M+, 오리건 주립대에 $50M 기부하여 본인 이름을 딴 공대 복합동 건립.",
     "source": "https://www.forbes.com/profile/jensen-huang/ ; https://investor.nvidia.com/financial-info/financial-reports/ ; https://givingpledge.org/pledger?pledgerId=406"
   },
-
   "failures": [
     {
       "year": 1972,
@@ -246,18 +240,56 @@
       "source": "https://www.reuters.com/technology/nvidia-softbank-deal-arm-over-ft-2022-02-07/"
     }
   ],
-
   "wealthHistory": [
-    { "year": 1993, "age": 30, "netWorthUSD": 40000, "note": "Nvidia 공동창업 시 개인 출자 $40,000" },
-    { "year": 1999, "age": 36, "netWorthUSD": 50000000, "note": "NVDA IPO 후 지분 가치, Forbes 추정" },
-    { "year": 2007, "age": 44, "netWorthUSD": 1600000000, "note": "CUDA 출시 초기, Forbes 첫 빌리어네어 등재" },
-    { "year": 2013, "age": 50, "netWorthUSD": 1200000000, "note": "AlexNet 직후, AI 가치 아직 미반영" },
-    { "year": 2020, "age": 57, "netWorthUSD": 12000000000, "note": "코로나 데이터센터 수요 급증, Mellanox 인수" },
-    { "year": 2023, "age": 60, "netWorthUSD": 44000000000, "note": "ChatGPT-H100 붐 초기, Nvidia $1T 시총 돌파" },
-    { "year": 2024, "age": 61, "netWorthUSD": 117000000000, "note": "Nvidia 세계 시총 1위 일시 등극, Blackwell 발표" },
-    { "year": 2026, "age": 63, "netWorthUSD": 153700000000, "note": "현재 — Blackwell 양산 및 생성형 AI 수요 지속" }
+    {
+      "year": 1993,
+      "age": 30,
+      "netWorthUSD": 40000,
+      "note": "Nvidia 공동창업 시 개인 출자 $40,000"
+    },
+    {
+      "year": 1999,
+      "age": 36,
+      "netWorthUSD": 50000000,
+      "note": "NVDA IPO 후 지분 가치, Forbes 추정"
+    },
+    {
+      "year": 2007,
+      "age": 44,
+      "netWorthUSD": 1600000000,
+      "note": "CUDA 출시 초기, Forbes 첫 빌리어네어 등재"
+    },
+    {
+      "year": 2013,
+      "age": 50,
+      "netWorthUSD": 1200000000,
+      "note": "AlexNet 직후, AI 가치 아직 미반영"
+    },
+    {
+      "year": 2020,
+      "age": 57,
+      "netWorthUSD": 12000000000,
+      "note": "코로나 데이터센터 수요 급증, Mellanox 인수"
+    },
+    {
+      "year": 2023,
+      "age": 60,
+      "netWorthUSD": 44000000000,
+      "note": "ChatGPT-H100 붐 초기, Nvidia $1T 시총 돌파"
+    },
+    {
+      "year": 2024,
+      "age": 61,
+      "netWorthUSD": 117000000000,
+      "note": "Nvidia 세계 시총 1위 일시 등극, Blackwell 발표"
+    },
+    {
+      "year": 2026,
+      "age": 63,
+      "netWorthUSD": 153700000000,
+      "note": "현재 — Blackwell 양산 및 생성형 AI 수요 지속"
+    }
   ],
-
   "quotes": [
     {
       "quote": "Our company is thirty days from going out of business.",
@@ -278,12 +310,20 @@
       "source": "https://www.nytimes.com/2023/11/29/technology/jensen-huang-nvidia-ai.html"
     }
   ],
-
   "books": [
-    { "title": "The Nvidia Way", "author": "Tae Kim", "year": 2024, "noteKo": "Jensen Huang과 Nvidia 30년 공식 평전, Barron's 기자 Tae Kim 저술." },
-    { "title": "The Thinking Machine", "author": "Stephen Witt", "year": 2025, "noteKo": "AI 시대 Nvidia의 부상을 다룬 내러티브 저널리즘." }
+    {
+      "title": "The Nvidia Way",
+      "author": "Tae Kim",
+      "year": 2024,
+      "noteKo": "Jensen Huang과 Nvidia 30년 공식 평전, Barron's 기자 Tae Kim 저술."
+    },
+    {
+      "title": "The Thinking Machine",
+      "author": "Stephen Witt",
+      "year": 2025,
+      "noteKo": "AI 시대 Nvidia의 부상을 다룬 내러티브 저널리즘."
+    }
   ],
-
   "personalTraits": [
     "Paranoid urgency — 30년간 '30일 후 망한다' 반복",
     "Long-term technology betting — CUDA에 6-17년 인내",
@@ -294,13 +334,101 @@
     "Family loyalty — 아내 Lori는 오리건 주립대 공대 동창, 1985년 결혼 후 현재까지",
     "Signature leather jacket — 20년 이상 동일 스타일 유지하는 개인 브랜드"
   ],
-
   "characterKo": {
     "strengths": "극단적 위기 의식과 편집증적 규율이 대기업이 되어도 스타트업 속도를 유지하게 함. 10년 단위 기술 베팅(CUDA)을 분기 실적 압박에 굴하지 않고 지킨 장기 의지. 플랫 조직·실시간 정보 공유로 60명 직속 부하를 개인기 없이 운영하는 구조적 리더십. 이민 1.5세대의 고통을 감추지 않고 서사로 승화시키는 정서적 투명성.",
     "weaknesses": "편집증적 성격이 때로 조직에 과도한 긴장감과 번아웃을 유발. 기술적 자존심으로 NV1 같은 아키텍처 베팅 실패 전력. 거대 M&A(Arm $40B) 실패 — 규제 환경 판단 부족. 본인이 모든 기술 디테일에 관여하는 스타일이 승계 계획의 리스크로 남음.",
     "motivation": "'환경이 나를 규정하지 않는다'는 9세 켄터키 체험의 재확인 동기. 칩 회사를 넘어 '컴퓨팅의 본질'을 재정의하려는 기술적 욕망. 대만-미국 이민자의 정체성 증명 욕구가 검소한 생활 양식과 공격적 기부(Giving Pledge)로 표출.",
     "legacy": "반도체를 '부품'에서 'AI 인프라 플랫폼'으로 재정의한 경영자. CUDA 생태계를 통해 AI 연구의 표준 하드웨어 공급자 지위를 30년간 유지. 창업자-CEO의 10년 단위 기술 베팅이 상장기업에서도 가능함을 입증한 드문 사례. 대만계 미국 이민자 기업가의 글로벌 롤 모델."
   },
-
-  "sajuConnection": null
+  "sajuConnection": {
+    "chart": {
+      "ilgan": "신",
+      "ilju": "신묘",
+      "wolji": "인",
+      "gyeokguk": "정재격",
+      "pillars": {
+        "year": "계묘",
+        "month": "갑인",
+        "day": "신묘",
+        "hour": null
+      }
+    },
+    "johuKo": {
+      "textKo": "무신사 조만호와 똑같은 신묘일주인데 계절이 정반대입니다. 그쪽은 신월(申月) 가을이라 금이 힘을 얻었고, 이쪽은 인월(寅月) 이른 봄이라 금이 가장 약해지는 자리입니다. 같은 보석이라도 제철에 난 것과 철 지나 난 것은 다릅니다. 년간 계수 식신이 그 보석을 씻어주는 유일한 물입니다.",
+      "basis": [
+        "일간 신",
+        "월지 인",
+        "년간 계"
+      ]
+    },
+    "structureKo": {
+      "textKo": "이 사주의 전부는 재성입니다. 월간 갑목 정재, 월지 인목 정재, 년지 묘목 편재, 일지 묘목 편재까지 네 글자가 모두 재물입니다. 그런데 그것을 벨 신금은 하나뿐이고, 그마저 봄이라 힘이 약합니다. 명리에서 재다신약(財多身弱)의 극단이라 부르는 배치입니다. 눈앞에 시장이 통째로 펼쳐져 있는데 그것을 가져올 힘이 오래도록 모자란 상태입니다.",
+      "basis": [
+        "월간 갑",
+        "월지 인",
+        "년지 묘",
+        "일지 묘"
+      ]
+    },
+    "wealthKo": {
+      "textKo": "재다신약 사주의 재물은 늦게 옵니다. 그리고 올 때는 한꺼번에 옵니다. 일간이 힘을 얻는 시점, 곧 금이 왕해지는 대운에 이르러서야 사방의 재물이 비로소 자기 것이 됩니다. 서른에 창업하고 서른여섯에 상장했는데 자산의 대부분이 예순 넘어 만들어진 곡선이, 이 구조의 교과서적인 사례입니다.",
+      "basis": [
+        "일간 신",
+        "월지 인",
+        "일지 묘"
+      ]
+    },
+    "riskKo": {
+      "textKo": "년간 계수 식신이 유일한 출구입니다. 씻을 물이 하나뿐이라, 기술의 방향을 한 번 정하면 바꾸기 어렵습니다. 첫 제품이 업계 표준과 다른 길을 갔다가 회사가 무너질 뻔한 일도, 하나의 통로에 전부를 실은 구조에서 나옵니다. 재성이 넷이라 밖의 유혹은 늘 많고, 그때마다 흔들릴 위험도 함께 있습니다.",
+      "basis": [
+        "년간 계",
+        "월지 인",
+        "일지 묘"
+      ]
+    },
+    "daeunKo": [
+      {
+        "range": "24~33",
+        "pillar": "신해",
+        "years": "1987~1996",
+        "textKo": "신금 비견이 약한 일간에 힘을 보태고 해수 상관이 보석을 씻습니다. 처음으로 자기 힘이 붙는 구간이고, 서른 생일에 회사를 세우는 일이 정확히 여기 놓입니다.",
+        "linkedEvents": [
+          "1993 엔비디아 창업",
+          "1995 첫 제품 NV1 실패"
+        ]
+      },
+      {
+        "range": "34~43",
+        "pillar": "경술",
+        "years": "1997~2006",
+        "textKo": "경금 겁재와 술토 정인이 옵니다. 금이 계속 보강되는 자리라 실패를 뒤집는 제품이 나오고 상장까지 갑니다. 다만 겁재의 구간이라 경쟁자도 같은 속도로 자랍니다.",
+        "linkedEvents": [
+          "1997 RIVA 128 출시",
+          "1999 나스닥 상장"
+        ]
+      },
+      {
+        "range": "44~53",
+        "pillar": "기유",
+        "years": "2007~2016",
+        "textKo": "유금이 원국의 묘목 둘을 묘유충(卯酉沖)으로 칩니다. 재성이 정면으로 충을 맞는 자리라, 시장이 흔들리고 실적이 눌리는 구간입니다. 금은 강해지는데 재물은 깨지는, 힘은 붙지만 열매는 아직인 십 년입니다.",
+        "linkedEvents": []
+      },
+      {
+        "range": "54~63",
+        "pillar": "무신",
+        "years": "2017~2026",
+        "textKo": "무토 정인에 신금 겁재가 더해져 금이 마침내 왕해집니다. 평생의 과제였던 재다신약이 해소되는 자리이고, 사방에 널려 있던 재물이 비로소 자기 것이 됩니다. 이 사주에서 자산이 폭발하는 이유를 다른 데서 찾을 필요가 없습니다. 신금이 월지 인목과 인신충을 일으키니 시장의 판도 자체가 뒤집히는 형태로 옵니다.",
+        "linkedEvents": []
+      },
+      {
+        "range": "64~73",
+        "pillar": "정미",
+        "years": "2027~2036",
+        "textKo": "정화 편관과 미토 편인이 옵니다. 편관은 왕해진 금을 제련하는 불이라, 규모가 아니라 형태를 다듬는 국면으로 읽습니다.",
+        "linkedEvents": []
+      }
+    ],
+    "oneLineKo": "철 지나 태어난 보석 하나가 재물 넷에 둘러싸인 사주. 벨 힘이 붙기까지 오십사 년이 걸렸고, 붙은 뒤에는 한꺼번에 왔다."
+  }
 }

@@ -5,7 +5,6 @@
   "netWorth": "$809B",
   "nationality": "US",
   "industry": "Technology",
-
   "childhood": {
     "birthPlace": "Pretoria, Transvaal, South Africa",
     "birthPlaceKo": "남아프리카공화국 트란스발주 프리토리아",
@@ -18,13 +17,11 @@
     "capitalTypeKo": "mixed → self-made 중심. 가족은 중상류층이었고 아버지가 남아공 에메랄드 광산 지분을 잠시 보유했다는 주장(에롤 증언, 일론은 부인)이 있으나, 실제 사업 초기 자본은 동생 킴벌과 함께 학자금·투자자 자금으로 조달. 대부분의 부는 Zip2·PayPal 매각 대금을 재투자해 쌓음.",
     "source": "https://en.wikipedia.org/wiki/Elon_Musk ; Ashlee Vance, 'Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future' (Ecco, 2015); https://www.biography.com/business-leaders/elon-musk"
   },
-
   "capitalOrigin": {
     "typeKo": "mixed",
     "explanationKo": "자수성가 비중이 절대적이지만 100% self-made는 아님. 남아공 백인 중상류층 출신, 아버지가 일부 투자 기회(광산 지분 주장 포함)를 제공한 이력, 펜실베이니아/스탠포드로 진입할 수 있었던 교육·이민 자본 등 무형 자본이 기반. 그 위에 Zip2 → PayPal 매각 대금 약 $1.8억을 2002~2008년 SpaceX·Tesla·SolarCity에 집중 재투자해 현재의 거대 자산을 구축. Forbes는 self-made score 8/10으로 평가.",
     "source": "https://en.wikipedia.org/wiki/Wealth_of_Elon_Musk ; https://www.forbes.com/profile/elon-musk/"
   },
-
   "careerTimeline": [
     {
       "year": 1995,
@@ -140,7 +137,6 @@
       "source": "https://thehill.com/business/5779004-elon-musk-still-worlds-richest-man-on-forbes-billionaires-list/ ; https://www.techi.com/elon-musk-net-worth/"
     }
   ],
-
   "turningPoints": [
     {
       "year": 1995,
@@ -175,7 +171,6 @@
       "source": "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk"
     }
   ],
-
   "moneyMechanics": {
     "coreBusinessKo": "Tesla(전기차·에너지·자율주행 소프트웨어) 지분 약 13%, SpaceX(발사·위성통신 Starlink) 지분 약 42%, xAI·X(소셜미디어·AI) 지배 지분, The Boring Company, Neuralink 등. 순자산의 약 65%가 SpaceX-xAI 비상장 평가에서 발생.",
     "moatKo": "① 재사용 로켓 기술 10년 선행(Falcon 9/Starship) → 글로벌 발사 시장 점유율 80% 이상. ② Tesla의 수직 통합(배터리·칩·소프트웨어·슈퍼차저 네트워크). ③ Starlink 저궤도 위성 선점(4,000기 이상). ④ X 플랫폼의 실시간 담론 독점. 이들 각각이 타 진입자가 수십억 달러로도 따라잡기 어려운 자본·규제·기술 해자.",
@@ -184,7 +179,6 @@
     "capitalHistoryKo": "1999 Zip2 매각 $22M → 2002 PayPal 매각 $175.8M → 2002-2008 SpaceX·Tesla·SolarCity 자기자본 전액 투입 → 2010 Tesla IPO → 2012·2018 CEO 성과 옵션(잠재가치 $1,100억+) → 2021 Tesla 주가 10배 상승 → 2022 트위터 인수용 Tesla 주식 $23B 매각+부채 $13B → 2025 SpaceX·xAI 비상장 평가 급등으로 개인 $500B 돌파",
     "source": "https://en.wikipedia.org/wiki/Wealth_of_Elon_Musk ; https://www.forbes.com/profile/elon-musk/ ; https://investormint.com/investing/elon-musk-net-worth"
   },
-
   "failures": [
     {
       "year": 2000,
@@ -223,26 +217,53 @@
       "source": "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk ; https://time.com/6170834/elon-musk-business-timeline-twitter/"
     }
   ],
-
   "wealthHistory": [
-    { "year": 2012, "netWorth": 2.0 },
-    { "year": 2015, "netWorth": 13.2 },
-    { "year": 2018, "netWorth": 19.9 },
-    { "year": 2020, "netWorth": 167.0 },
-    { "year": 2021, "netWorth": 273.0 },
-    { "year": 2022, "netWorth": 219.0 },
-    { "year": 2023, "netWorth": 180.0 },
-    { "year": 2024, "netWorth": 251.0 },
-    { "year": 2025, "netWorth": 500.0 },
-    { "year": 2026, "netWorth": 809.0 }
+    {
+      "year": 2012,
+      "netWorth": 2.0
+    },
+    {
+      "year": 2015,
+      "netWorth": 13.2
+    },
+    {
+      "year": 2018,
+      "netWorth": 19.9
+    },
+    {
+      "year": 2020,
+      "netWorth": 167.0
+    },
+    {
+      "year": 2021,
+      "netWorth": 273.0
+    },
+    {
+      "year": 2022,
+      "netWorth": 219.0
+    },
+    {
+      "year": 2023,
+      "netWorth": 180.0
+    },
+    {
+      "year": 2024,
+      "netWorth": 251.0
+    },
+    {
+      "year": 2025,
+      "netWorth": 500.0
+    },
+    {
+      "year": 2026,
+      "netWorth": 809.0
+    }
   ],
-
   "quotes": [
     "When something is important enough, you do it even if the odds are not in your favor.",
     "Failure is an option here. If things are not failing, you are not innovating enough.",
     "I would like to die on Mars. Just not on impact."
   ],
-
   "books": {
     "authored": [],
     "recommended": [
@@ -253,7 +274,6 @@
       "Benjamin Franklin: An American Life — Walter Isaacson"
     ]
   },
-
   "personalTraits": {
     "knownFor": "Serial founder-CEO of SpaceX, Tesla, xAI, X; popularized private spaceflight and mainstream EVs; master of equity-funded long-horizon capital allocation; polarizing political figure post-2022.",
     "knownForKo": "SpaceX·Tesla·xAI·X의 연쇄 창업자 겸 CEO. 민간 우주 비행과 전기차 대중화의 아이콘. 장기 호흡의 주식 기반 자본 배분 능력이 탁월. 2022년 이후 정치적으로 극단 분열을 일으키는 인물.",
@@ -262,7 +282,6 @@
     "controversies": "SEC fraud settlement (2018); sexual misconduct allegation settled by SpaceX (2018); attacks on journalists and public figures on X; amplification of antisemitic content (2023); large political donations; DOGE conflicts of interest; multiple custody disputes.",
     "controversiesKo": "2018년 SEC 증권사기 합의; 2018년 SpaceX 여승무원 성추문 합의; X에서 기자·공인 공격; 2023년 반유대주의 게시물 증폭 논란; 대규모 정치 기부; 2025년 DOGE의 이해충돌; 다수의 자녀 양육권 분쟁."
   },
-
   "characterKo": {
     "observedTraitsKo": "극단적 리스크 허용량, 공학적 디테일 집착(제1원리 사고), 잠을 줄이고 일하는 지구력, 감정 기복 큼(공적 분노·유머·냉소 교차), 권위·규제에 대한 반항심, 밈과 트롤링을 전략적으로 활용",
     "leadershipStyleKo": "'하드코어 모드' 장시간 노동 강제, 공장·발사장 현장 상주형, 중간 관리자 축소하고 CEO가 말단 엔지니어와 직결, 실패한 프로젝트·팀을 공개적으로 해체, 매주 상위 목표를 본인이 재정의",
@@ -270,6 +289,95 @@
     "knownQuirksKo": "수면 부족을 자주 호소하면서도 심야 트윗 폭발. 밈 계정과 직접 상호작용. 자녀 이름을 X Æ A-Xii 등으로 명명. 화성 이주를 진지한 장기 목표로 반복 선언. 하루 9~10개 회의를 5분 단위로 끊어서 진행한다고 알려짐.",
     "source": "Walter Isaacson, 'Elon Musk' (Simon & Schuster, 2023); Ashlee Vance 전기; https://en.wikipedia.org/wiki/Elon_Musk"
   },
-
-  "sajuConnection": null
+  "sajuConnection": {
+    "chart": {
+      "ilgan": "갑",
+      "ilju": "갑신",
+      "wolji": "오",
+      "gyeokguk": "상관격",
+      "pillars": {
+        "year": "신해",
+        "month": "갑오",
+        "day": "갑신",
+        "hour": null
+      }
+    },
+    "johuKo": {
+      "textKo": "이재용과 똑같이 갑목이 오월(午月) 한여름에 난 상관격입니다. 그런데 발밑이 정반대입니다. 그쪽은 일지가 자수 정인이라 물 위에 서 있고, 이쪽은 일지가 신금 편관이라 도끼 위에 서 있습니다. 같은 여름 나무인데 한 사람은 마르지 않으려 버티고 한 사람은 잘리지 않으려 버팁니다. 유일한 물인 년지 해수는 여덟 글자 중 가장 먼 자리에 있어 손이 잘 닿지 않습니다.",
+      "basis": [
+        "일간 갑",
+        "월지 오",
+        "일지 신",
+        "년지 해"
+      ]
+    },
+    "structureKo": {
+      "textKo": "상관격에 관살이 둘입니다. 년간 신금 정관과 일지 신금 편관이 함께 있는 관살혼잡이고, 여기에 오화 상관이 정면으로 맞섭니다. 명리에서 상관견관(傷官見官)은 가장 시끄러운 조합인데 이 사주는 그것을 두 겹으로 갖고 있습니다. 자동차, 우주, 금융처럼 국가가 가장 강하게 규율하는 영역만 골라 들어가 매번 규제와 부딪히는 이력이, 취향이 아니라 원국의 설계입니다.",
+      "basis": [
+        "년간 신",
+        "일지 신",
+        "월지 오"
+      ]
+    },
+    "wealthKo": {
+      "textKo": "재성인 토(土)가 원국에 한 글자도 없습니다. 벌어들일 재물이 타고난 자리에 없다는 뜻이고, 실제로 이 사람의 자산은 월급이나 매출이 아니라 지분의 평가액으로만 존재합니다. 재성이 대운에서 들어올 때 자산이 폭발하고, 그 전까지는 아무리 크게 벌여도 손에 쥐는 것이 없습니다.",
+      "basis": [
+        "일간 갑",
+        "월지 오",
+        "년지 해"
+      ]
+    },
+    "riskKo": {
+      "textKo": "일지가 편관이라는 것은 자기를 치는 힘 위에 스스로 앉아 있다는 뜻입니다. 밖에서 위험이 찾아오는 것이 아니라 위험한 자리를 직접 고릅니다. 로켓과 전기차처럼 실패 확률이 높은 쪽을 반복해서 택하고, 파산 직전까지 갔다가 살아나는 패턴이 반복되는 이유가 여기 있습니다. 월간 갑목 비견은 함께 시작한 사람들이지만, 비견은 갈라서기도 쉽습니다.",
+      "basis": [
+        "일지 신",
+        "년간 신",
+        "월간 갑"
+      ]
+    },
+    "daeunKo": [
+      {
+        "range": "17~26",
+        "pillar": "임진",
+        "years": "1988~1997",
+        "textKo": "임수 편인에 수의 창고인 진토가 붙습니다. 멀리 있던 물이 가까이 오는 자리라 마른 나무가 처음 숨을 쉽니다. 유학과 첫 창업이 이 구간입니다.",
+        "linkedEvents": [
+          "1995 Zip2 창업"
+        ]
+      },
+      {
+        "range": "27~36",
+        "pillar": "신묘",
+        "years": "1998~2007",
+        "textKo": "신금 정관이 대운으로 또 옵니다. 원국의 관살에 관이 하나 더해지는 자리라, 매각으로 큰돈을 만지는 동시에 자기가 만든 회사에서 밀려나고 로켓이 연달아 실패합니다. 관이 많으면 성과와 축출이 함께 옵니다.",
+        "linkedEvents": [
+          "1999 Zip2 매각",
+          "2000 PayPal 축출",
+          "2002 SpaceX 설립",
+          "2006~2007 팰컨1 연속 실패"
+        ]
+      },
+      {
+        "range": "37~46",
+        "pillar": "경인",
+        "years": "2008~2017",
+        "textKo": "경금 편관에 인목이 붙어 일지 신금과 인신충(寅申沖)을 일으킵니다. 자기가 앉은 도끼를 정면으로 치는 자리라 파산 직전까지 갑니다. 동시에 인목은 월지 오화와 반합해 불을 키우니, 같은 구간에서 첫 발사 성공과 상장이 나옵니다. 최대의 위기와 최대의 도약이 한 충 위에 있습니다.",
+        "linkedEvents": [
+          "2008 팰컨1 발사 성공",
+          "2010 테슬라 나스닥 상장",
+          "2012 Model S 인도"
+        ]
+      },
+      {
+        "range": "47~56",
+        "pillar": "기축",
+        "years": "2018~2027",
+        "textKo": "기토 정재가 일간 갑목과 갑기합(甲己合)을 이룹니다. 원국에 한 글자도 없던 재성이 대운으로 와서 일간과 직접 손을 잡는 자리입니다. 이 사주의 자산이 폭발하는 유일한 구조적 이유가 여기이고, 축토는 습토라 한여름의 열기까지 식혀줍니다. 다만 정재는 규범의 재물이라, 규범을 어기는 방식과는 계속 부딪힙니다.",
+        "linkedEvents": [
+          "2018 상장폐지 트윗 사건"
+        ]
+      }
+    ],
+    "oneLineKo": "도끼 위에 선 여름 나무. 벌 재물이 원국에 없어, 마흔일곱에 재성과 손을 잡기 전까지는 크게 벌이고도 손에 쥔 것이 없었다."
+  }
 }

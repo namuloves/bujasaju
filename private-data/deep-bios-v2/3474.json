@@ -255,5 +255,83 @@
     "knownQuirksKo": "고등학생 운동화 마니아가 만든 긴 이름의 사진 커뮤니티가 회사명 ‘무신사’의 기원이 됐다.",
     "source": "https://www.koreajoongangdaily.com/business/how-musinsas-founder-built-a-fashion-empire/12724269; https://www.mk.co.kr/en/business/10977399; https://www.bloomberg.com/news/articles/2025-08-18/kkr-backed-korea-fashion-retailer-musinsa-considering-ipo; https://www.bondweb.co.kr/_research/downloadPage.asp?number=852026&gn=1; https://www.businessoffashion.com/news/retail/korean-fashion-retailer-musinsa-seeking-68-billion-valuation-with-ipo/"
   },
-  "sajuConnection": null
+  "sajuConnection": {
+    "chart": {
+      "ilgan": "신",
+      "ilju": "신묘",
+      "wolji": "신",
+      "gyeokguk": "양인격",
+      "pillars": {
+        "year": "계해",
+        "month": "경신",
+        "day": "신묘",
+        "hour": null
+      }
+    },
+    "johuKo": {
+      "textKo": "신금은 다듬어진 보석입니다. 그 보석이 신월(申月) 초가을, 금이 힘을 얻는 계절에 났고 월간 경금까지 더해져 금이 왕합니다. 보석에게 필요한 것은 물로 씻어 빛을 내는 일인데, 년주에 계수 식신과 해수 상관이 나란히 있습니다. 씻을 물을 처음부터 갖추고 태어난 사주입니다.",
+      "basis": [
+        "일간 신",
+        "월지 신",
+        "년간 계",
+        "년지 해"
+      ]
+    },
+    "structureKo": {
+      "textKo": "금이 물을 낳고 물이 다시 일지 묘목 재성을 살립니다. 감각을 콘텐츠로 바꾸고 그 콘텐츠가 거래로 이어지는 흐름이 원국 안에 그대로 있습니다. 고등학생 때 만든 사진 커뮤니티가 웹진이 되고 다시 상거래가 된 순서가, 이 사주에서는 사업 전략이 아니라 타고난 배치입니다.",
+      "basis": [
+        "년간 계",
+        "년지 해",
+        "일지 묘"
+      ]
+    },
+    "wealthKo": {
+      "textKo": "일지 묘목이 편재입니다. 재물이 내 발밑에 있고, 년지 해수와 해묘 반합으로 목이 강화됩니다. 씻어낸 물이 그대로 재물로 모이는 구조라, 이 사주의 재물은 유통이나 중개처럼 흐름 위에서 값이 붙는 형태로 들어옵니다.",
+      "basis": [
+        "일지 묘",
+        "년지 해",
+        "년간 계"
+      ]
+    },
+    "riskKo": {
+      "textKo": "월간 경금과 월지 신금이 모두 겁재입니다. 나와 같은 쇠붙이가 옆에 둘 있는 자리라, 같은 판에서 경쟁자가 계속 생깁니다. 플랫폼 사업에서 후발 주자와 자체 브랜드가 끊임없이 부딪히는 구조가 여기에 해당하고, 고객 사이의 갈등이 크게 번지는 것도 겁재의 성질입니다.",
+      "basis": [
+        "월간 경",
+        "월지 신",
+        "일간 신"
+      ]
+    },
+    "daeunKo": [
+      {
+        "range": "18~27",
+        "pillar": "무오",
+        "years": "2001~2010",
+        "textKo": "무토 정인과 오화 편관이 함께 옵니다. 인성은 배우고 모으는 자리이고, 취미로 시작한 것이 형태를 갖춰 상거래로 넘어가는 구간입니다.",
+        "linkedEvents": [
+          "2001 커뮤니티 개설",
+          "2009 무신사 스토어 개설"
+        ]
+      },
+      {
+        "range": "28~37",
+        "pillar": "정사",
+        "years": "2011~2020",
+        "textKo": "정화 편관과 사화 정관이 이어져 관성이 왕해집니다. 관은 조직이고 제도입니다. 플랫폼이 회사가 되고 투자를 받아 공인되는 자리이지만, 관이 강해지면 밖에서 오는 비판도 함께 커집니다.",
+        "linkedEvents": [
+          "2019 유니콘 평가",
+          "2021 쿠폰 차별 논란"
+        ]
+      },
+      {
+        "range": "38~47",
+        "pillar": "병진",
+        "years": "2021~2030",
+        "textKo": "병화 정관에 진토가 붙습니다. 관이 이어지는 구간이라 확장보다 체계를 세우는 쪽으로 무게가 옮겨갑니다.",
+        "linkedEvents": [
+          "2022 계열 플랫폼 부진"
+        ]
+      }
+    ],
+    "oneLineKo": "씻을 물을 처음부터 갖고 태어난 보석. 취미가 콘텐츠가 되고 콘텐츠가 시장이 되는 길이 원국에 이미 나 있었다."
+  }
 }
