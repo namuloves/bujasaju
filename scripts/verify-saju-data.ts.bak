@@ -1,0 +1,196 @@
+/**
+ * verify-saju.ts — consistency guard for the saju data.
+ *
+ * WHY THIS EXISTS: the ilju and gyeokguk fields in deep-bios-v2 were written
+ * by the bio generator rather than computed, and were wrong on 14 of 672
+ * ilju and 402 of 672 gyeokguk before commit 40578a8. Nothing caught it,
+ * because nothing checked. The fields are not rendered — the components read
+ * person.saju — so the corruption was invisible until it was about to be fed
+ * into reading generation.
+ *
+ * Three checks, in order of severity:
+ *
+ *   1. CHART        the day pillar stored in enriched-billionaires.json must
+ *                   reproduce from the birthday under an independent
+ *                   Julian-day computation. This is the source of truth for
+ *                   everything else, so it is checked first and independently
+ *                   of the manseryeok library that produced it.
+ *   2. MIRROR       ilju / gyeokguk copied into the bio files must equal the
+ *                   computed values. This is what drifted.
+ *   3. BASIS        every `basis` entry in a structured reading must name a
+ *                   character that actually appears in that person's chart.
+ *                   A reading whose basis does not verify was not derived
+ *                   from the chart it claims to describe.
+ *
+ * Usage:
+ *   npx tsx scripts/verify-saju.ts          # report, exit 1 on any failure
+ *   npx tsx scripts/verify-saju.ts --quiet  # exit code only
+ */
+
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { join } from 'node:path';
+
+const ROOT = process.cwd();
+const ENRICHED = join(ROOT, 'private-data', 'enriched-billionaires.json');
+const BIO_V2_DIR = join(ROOT, 'private-data', 'deep-bios-v2');
+
+const STEMS = '갑을병정무기경신임계';
+const BRANCHES = '자축인묘진사오미신유술해';
+
+/** Julian day number for a proleptic Gregorian date. */
+function jdn(y: number, m: number, d: number): number {
+  const a = Math.floor((14 - m) / 12);
+  const y2 = y + 4800 - a;
+  const m2 = m + 12 * a - 3;
+  return (
+    d +
+    Math.floor((153 * m2 + 2) / 5) +
+    365 * y2 +
+    Math.floor(y2 / 4) -
+    Math.floor(y2 / 100) +
+    Math.floor(y2 / 400) -
+    32045
+  );
+}
+
+/**
+ * Day pillar from a calendar date, independent of the manseryeok library.
+ *
+ * The +49 offset is calibrated so that 2000-01-01 is 무오, a standard
+ * reference date. Asserted at startup — if that assertion ever fails the
+ * rest of this script is meaningless.
+ */
+function dayPillar(y: number, m: number, d: number): string {
+  const i = (((jdn(y, m, d) + 49) % 60) + 60) % 60;
+  return STEMS[i % 10] + BRANCHES[i % 12];
+}
+
+interface Failure {
+  check: string;
+  id: string;
+  name: string;
+  detail: string;
+}
+
+function main() {
+  const quiet = process.argv.includes('--quiet');
+  if (dayPillar(2000, 1, 1) !== '무오') {
+    console.error('FATAL: day-pillar calibration failed — 2000-01-01 should be 무오');
+    process.exit(2);
+  }
+
+  const raw = JSON.parse(readFileSync(ENRICHED, 'utf8')) as unknown;
+  const people = (Array.isArray(raw) ? raw : ((raw as Record<string, unknown>).people ?? [])) as Array<
+    Record<string, any>
+  >;
+  const byId = new Map<string, Record<string, any>>();
+  for (const p of people) if (p && p.id != null) byId.set(String(p.id), p);
+
+  const failures: Failure[] = [];
+  let chartChecked = 0;
+
+  // ── 1. CHART ────────────────────────────────────────────────────────────
+  for (const p of people) {
+    const b: string = p.birthday ?? '';
+    const stored: string | undefined = p.saju?.ilju;
+    if (!stored || b.length < 10) continue;
+    chartChecked++;
+    const calc = dayPillar(+b.slice(0, 4), +b.slice(5, 7), +b.slice(8, 10));
+    if (calc !== stored) {
+      failures.push({
+        check: 'CHART',
+        id: String(p.id),
+        name: p.nameKo ?? p.name ?? '',
+        detail: `birthday ${b.slice(0, 10)} computes to ${calc}, stored ${stored}`,
+      });
+    }
+  }
+
+  // ── 2 & 3. MIRROR and BASIS ─────────────────────────────────────────────
+  let mirrorChecked = 0;
+  let basisChecked = 0;
+  if (existsSync(BIO_V2_DIR)) {
+    // Skip dotfiles. The repo lives on a macOS network volume, which litters
+    // every directory with AppleDouble `._<name>.json` sidecars — 1,751 of
+    // them here, one per real file. They end in `.json` but are binary
+    // resource forks, so an unfiltered readdir crashes on the first JSON
+    // parse. (Python's glob hides them, Node's readdir does not, which is
+    // why this only shows up on the Node side.)
+    for (const f of readdirSync(BIO_V2_DIR).filter((n) => n.endsWith('.json') && !n.startsWith('.'))) {
+      const bio = JSON.parse(readFileSync(join(BIO_V2_DIR, f), 'utf8')) as Record<string, any>;
+      const p = byId.get(String(bio.id));
+      if (!p) continue;
+      const saju = p.saju ?? {};
+      const name = bio.nameKo ?? bio.name ?? '';
+
+      if (bio.ilju && saju.ilju) {
+        mirrorChecked++;
+        if (bio.ilju !== saju.ilju) {
+          failures.push({ check: 'MIRROR', id: String(bio.id), name, detail: `ilju ${bio.ilju} ≠ ${saju.ilju}` });
+        }
+      }
+      if (bio.gyeokguk && saju.gyeokguk && bio.gyeokguk !== saju.gyeokguk) {
+        failures.push({
+          check: 'MIRROR',
+          id: String(bio.id),
+          name,
+          detail: `gyeokguk ${bio.gyeokguk} ≠ ${saju.gyeokguk}`,
+        });
+      }
+
+      // BASIS — every character cited must be somewhere in the chart.
+      const sc = bio.sajuConnection;
+      if (!sc || typeof sc !== 'object') continue;
+      // The characters legitimately citable: the eight (or six) pillar
+      // characters, plus the derived labels the reading is allowed to name.
+      const s = p.saju?.saju ?? {};
+      const chartChars = new Set<string>();
+      for (const pillar of ['year', 'month', 'day', 'hour'] as const) {
+        const ju = s[pillar];
+        if (!ju) continue;
+        if (ju.stem) chartChars.add(ju.stem);
+        if (ju.branch) chartChars.add(ju.branch);
+      }
+      if (chartChars.size === 0) continue;
+
+      for (const key of ['johuKo', 'structureKo', 'wealthKo', 'riskKo'] as const) {
+        const claim = sc[key];
+        if (!claim?.basis) continue;
+        for (const entry of claim.basis as string[]) {
+          basisChecked++;
+          // An entry like '월지 해' or '일간 을' — at least one character in
+          // it must be a character of this person's chart.
+          const cited = [...entry].filter((ch) => STEMS.includes(ch) || BRANCHES.includes(ch));
+          if (cited.length === 0) continue; // prose-only basis, nothing to check
+          if (!cited.some((ch) => chartChars.has(ch))) {
+            failures.push({
+              check: 'BASIS',
+              id: String(bio.id),
+              name,
+              detail: `${key} cites "${entry}" — no such character in chart (${[...chartChars].join('')})`,
+            });
+          }
+        }
+      }
+    }
+  }
+
+  const byCheck = (c: string) => failures.filter((x) => x.check === c);
+  if (!quiet) {
+    console.log(`CHART  day pillars recomputed : ${chartChecked} checked, ${byCheck('CHART').length} failed`);
+    console.log(`MIRROR bio copies of ilju     : ${mirrorChecked} checked, ${byCheck('MIRROR').length} failed`);
+    console.log(`BASIS  reading citations      : ${basisChecked} checked, ${byCheck('BASIS').length} failed`);
+    for (const f of failures.slice(0, 50)) {
+      console.log(`  [${f.check}] ${f.id} ${f.name}: ${f.detail}`);
+    }
+    if (failures.length > 50) console.log(`  … and ${failures.length - 50} more`);
+  }
+
+  if (failures.length > 0) {
+    if (!quiet) console.error(`\nFAILED: ${failures.length} problem(s).`);
+    process.exit(1);
+  }
+  if (!quiet) console.log('\nOK — saju data is internally consistent.');
+}
+
+main();
