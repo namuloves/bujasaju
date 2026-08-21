@@ -4,6 +4,10 @@ import { useState, type FormEvent } from 'react';
 import { useLanguage } from '@/lib/i18n';
 import { FREE_PROFILE_VIEWS } from '@/lib/paywall';
 import { EMAIL_RE } from '@/lib/email';
+import {
+  emailFailureReasonForStatus,
+  useEmailCaptureAnalytics,
+} from '@/lib/emailCaptureAnalytics';
 
 /**
  * ProfileWall — shown in place of a profile once the free sample is used up.
@@ -25,15 +29,26 @@ export default function ProfileWall({ personName }: { personName?: string }) {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<Status>('idle');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const {
+    gateRef,
+    trackFormStarted,
+    trackSignupCompleted,
+    trackSignupFailed,
+  } = useEmailCaptureAnalytics({
+    captureSource: 'profile-wall',
+    language: lang,
+  });
 
   const ko = lang === 'ko';
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (status === 'submitting') return;
+    trackFormStarted();
 
     const trimmed = email.trim();
     if (!EMAIL_RE.test(trimmed)) {
+      trackSignupFailed('invalid_email');
       setStatus('error');
       setErrorMsg(ko ? '이메일 주소를 확인해주세요.' : 'Please check your email address.');
       return;
@@ -42,30 +57,50 @@ export default function ProfileWall({ personName }: { personName?: string }) {
     setStatus('submitting');
     setErrorMsg(null);
 
+    let res: Response;
     try {
-      const res = await fetch('/api/unlock', {
+      res = await fetch('/api/unlock', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ email: trimmed, lang, source: 'profile-wall' }),
       });
-      if (!res.ok) {
-        const data = (await res.json().catch(() => ({}))) as { error?: string };
-        throw new Error(data.error ?? 'failed');
-      }
-      // The unlock cookie is set by the server on this response. Reload so
-      // the page re-renders with full access rather than trying to patch
-      // state in place.
-      window.location.reload();
     } catch {
+      trackSignupFailed('network_error');
       setStatus('error');
       setErrorMsg(
         ko ? '잠시 후 다시 시도해주세요.' : 'Something went wrong — please try again.',
       );
+      return;
     }
+
+    if (!res.ok) {
+      trackSignupFailed(emailFailureReasonForStatus(res.status), res.status);
+      setStatus('error');
+      setErrorMsg(
+        ko ? '잠시 후 다시 시도해주세요.' : 'Something went wrong — please try again.',
+      );
+      return;
+    }
+
+    const data = (await res.json().catch(() => ({}))) as {
+      captured?: boolean;
+      isNewSubscriber?: boolean;
+    };
+
+    if (data.captured === false) {
+      trackSignupFailed('storage_error');
+    } else {
+      trackSignupCompleted(data.isNewSubscriber !== false);
+    }
+
+    // The unlock cookie is set by the server on this response. Reload so
+    // the page re-renders with full access rather than trying to patch
+    // state in place.
+    window.location.reload();
   }
 
   return (
-    <div className="max-w-lg mx-auto px-5 py-16 sm:py-24 text-center">
+    <div ref={gateRef} className="max-w-lg mx-auto px-5 py-16 sm:py-24 text-center">
       <div className="rounded-2xl border border-gray-200 bg-white p-7 sm:p-9 shadow-sm">
         <p className="text-[11px] font-medium uppercase tracking-wider text-gray-400">
           {ko ? '무료 열람을 모두 사용했어요' : 'Free preview used up'}
@@ -92,6 +127,7 @@ export default function ProfileWall({ personName }: { personName?: string }) {
               autoComplete="email"
               required
               value={email}
+              onFocus={trackFormStarted}
               onChange={(e) => {
                 setEmail(e.target.value);
                 if (status === 'error') setStatus('idle');

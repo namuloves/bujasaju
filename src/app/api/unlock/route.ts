@@ -55,6 +55,8 @@ export async function POST(req: NextRequest) {
   const lang = body.lang === 'en' ? 'en' : 'ko';
   const source = typeof body.source === 'string' ? body.source.slice(0, 32) : 'profile-wall';
   const now = Date.now();
+  let captured = false;
+  let isNewSubscriber = false;
 
   // Persist before unlocking, but never block access on a storage failure:
   // a Redis outage shouldn't wall a visitor who has done what we asked.
@@ -62,7 +64,8 @@ export async function POST(req: NextRequest) {
   if (redis) {
     try {
       // NX so the score stays at first-ever signup for repeat visitors.
-      await redis.zadd('emails', { nx: true }, { score: now, member: email });
+      const added = await redis.zadd('emails', { nx: true }, { score: now, member: email });
+      isNewSubscriber = added === 1;
       await redis.hset(`email:${email}`, {
         email,
         lang,
@@ -71,6 +74,7 @@ export async function POST(req: NextRequest) {
         lastIp: getIp(req).slice(0, 64),
       });
       await redis.hsetnx(`email:${email}`, 'firstSeenAt', String(now));
+      captured = true;
     } catch (err) {
       const msg = err instanceof Error ? err.message : 'storage error';
       console.error('[api/unlock] failed to persist email:', msg);
@@ -79,7 +83,7 @@ export async function POST(req: NextRequest) {
     console.warn('[api/unlock] Redis not configured — email NOT recorded:', email);
   }
 
-  const res = Response.json({ ok: true });
+  const res = Response.json({ ok: true, captured, isNewSubscriber });
   // httpOnly so page scripts can't read it; the server is the only consumer.
   // sameSite=lax keeps it attached on normal navigations from search results.
   res.headers.append(

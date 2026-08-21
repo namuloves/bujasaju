@@ -6,6 +6,10 @@ import { useLanguage } from '@/lib/i18n';
 import { industryToKorean } from '@/components/FilterPanel';
 import type { EnrichedPerson } from '@/lib/saju/types';
 import { EMAIL_RE } from '@/lib/email';
+import {
+  emailFailureReasonForStatus,
+  useEmailCaptureAnalytics,
+} from '@/lib/emailCaptureAnalytics';
 
 /**
  * LockedMatchesGate — email-capture incentive on the results page.
@@ -70,13 +74,24 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   // Shown after a successful submit. Auto-dismisses on "확인" click.
   const [showSentDialog, setShowSentDialog] = useState(false);
+  const {
+    gateRef,
+    trackFormStarted,
+    trackSignupCompleted,
+    trackSignupFailed,
+  } = useEmailCaptureAnalytics({
+    captureSource: 'unlock-gate',
+    language: lang,
+  });
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (status === 'submitting') return;
+    trackFormStarted();
 
     const trimmed = email.trim();
     if (!EMAIL_RE.test(trimmed)) {
+      trackSignupFailed('invalid_email');
       setStatus('error');
       setErrorMsg(t.emailCaptureErrorInvalid);
       return;
@@ -132,10 +147,25 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
     // Await both so we know whether to flip the UI to error or unlocked.
     const [subRes, mailRes] = await Promise.all([subscribePromise, sendEmailPromise]);
 
-    // If BOTH calls completely fail (network down etc.), surface the
-    // error. Otherwise treat the unlock as successful — the user kept
-    // their side of the bargain and at least one signal landed.
-    if (!subRes && !mailRes) {
+    const subscribeSucceeded = subRes?.ok === true;
+    const mailSucceeded = mailRes?.ok === true;
+
+    if (subscribeSucceeded) {
+      const data = (await subRes.json().catch(() => ({}))) as {
+        isNewSubscriber?: boolean;
+      };
+      trackSignupCompleted(data.isNewSubscriber !== false);
+    } else {
+      trackSignupFailed(
+        subRes ? emailFailureReasonForStatus(subRes.status) : 'network_error',
+        subRes?.status,
+      );
+    }
+
+    // Surface an error only when neither backend accepted its request.
+    // Otherwise the user either joined the list or received the promised
+    // result email, so the confirmation remains truthful.
+    if (!subscribeSucceeded && !mailSucceeded) {
       setStatus('error');
       setErrorMsg(t.emailCaptureErrorGeneric);
       return;
@@ -157,7 +187,7 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
     : 'Drop your email and we’ll send the full results to your inbox.';
 
   return (
-    <div className="mt-8 rounded-2xl border border-gray-200 bg-gray-50/40 px-4 sm:px-5 py-5">
+    <div ref={gateRef} className="mt-8 rounded-2xl border border-gray-200 bg-gray-50/40 px-4 sm:px-5 py-5">
       <div className="text-center mb-4">
         <h3 className="text-sm font-bold text-gray-900">{headline}</h3>
         <p className="text-xs text-gray-500 mt-1">{subline}</p>
@@ -177,6 +207,7 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
               autoComplete="email"
               required
               value={email}
+              onFocus={trackFormStarted}
               onChange={(e) => {
                 setEmail(e.target.value);
                 if (status === 'error') {

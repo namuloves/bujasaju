@@ -3,6 +3,10 @@
 import { useState, type FormEvent } from 'react';
 import { useLanguage } from '@/lib/i18n';
 import { EMAIL_RE } from '@/lib/email';
+import {
+  emailFailureReasonForStatus,
+  useEmailCaptureAnalytics,
+} from '@/lib/emailCaptureAnalytics';
 
 /**
  * EmailCaptureCard — asks the user to save their email for updates.
@@ -31,18 +35,30 @@ export default function EmailCaptureCard() {
   const [consent, setConsent] = useState(false);
   const [status, setStatus] = useState<Status>('idle');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const {
+    gateRef,
+    trackFormStarted,
+    trackSignupCompleted,
+    trackSignupFailed,
+  } = useEmailCaptureAnalytics({
+    captureSource: 'match-results',
+    language: lang,
+  });
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (status === 'submitting') return;
+    trackFormStarted();
 
     const trimmed = email.trim();
     if (!EMAIL_RE.test(trimmed)) {
+      trackSignupFailed('invalid_email');
       setStatus('error');
       setErrorMsg(t.emailCaptureErrorInvalid);
       return;
     }
     if (!consent) {
+      trackSignupFailed('consent_required');
       setStatus('error');
       setErrorMsg(t.emailCaptureErrorConsent);
       return;
@@ -71,12 +87,18 @@ export default function EmailCaptureCard() {
         } catch {
           // ignore parse failure, keep generic message
         }
+        trackSignupFailed(emailFailureReasonForStatus(res.status), res.status);
         setStatus('error');
         setErrorMsg(err);
         return;
       }
+      const data = (await res.json().catch(() => ({}))) as {
+        isNewSubscriber?: boolean;
+      };
+      trackSignupCompleted(data.isNewSubscriber !== false);
       setStatus('success');
     } catch {
+      trackSignupFailed('network_error');
       setStatus('error');
       setErrorMsg(t.emailCaptureErrorGeneric);
     }
@@ -84,7 +106,7 @@ export default function EmailCaptureCard() {
 
   if (status === 'success') {
     return (
-      <div className="rounded-xl border border-gray-200 bg-gray-50 px-5 py-6 text-center">
+      <div ref={gateRef} className="rounded-xl border border-gray-200 bg-gray-50 px-5 py-6 text-center">
         <div className="text-2xl mb-2" aria-hidden>
           ✉️
         </div>
@@ -96,7 +118,7 @@ export default function EmailCaptureCard() {
   }
 
   return (
-    <div>
+    <div ref={gateRef}>
       <h3 className="text-sm font-bold text-gray-900">
         {t.emailCaptureTitle}
       </h3>
@@ -110,6 +132,7 @@ export default function EmailCaptureCard() {
             autoComplete="email"
             required
             value={email}
+            onFocus={trackFormStarted}
             onChange={(e) => {
               setEmail(e.target.value);
               if (status === 'error') {
@@ -136,6 +159,7 @@ export default function EmailCaptureCard() {
           <input
             type="checkbox"
             checked={consent}
+            onFocus={trackFormStarted}
             onChange={(e) => {
               setConsent(e.target.checked);
               if (status === 'error') {

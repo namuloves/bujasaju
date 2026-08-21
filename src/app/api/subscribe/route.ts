@@ -66,6 +66,8 @@ export async function POST(req: NextRequest) {
   }
 
   let body: SubscribeBody;
+  let isNewSubscriber = false;
+
   try {
     body = (await req.json()) as SubscribeBody;
   } catch {
@@ -103,7 +105,8 @@ export async function POST(req: NextRequest) {
     // ZADD with NX: only set the score if the member doesn't already
     // exist. That way the score == first signup timestamp, even on
     // repeat submissions.
-    await redis.zadd('emails', { nx: true }, { score: now, member: rawEmail });
+    const added = await redis.zadd('emails', { nx: true }, { score: now, member: rawEmail });
+    isNewSubscriber = added === 1;
     // Per-email metadata. `hset` merges, so we write first-seen once
     // (via hsetnx-style pattern by checking existence would cost an
     // extra roundtrip; instead, just always write last-seen and let
@@ -145,5 +148,5 @@ export async function POST(req: NextRequest) {
     return Response.json({ error: 'storage_error' }, { status: 500 });
   }
 
-  return Response.json({ ok: true });
+  return Response.json({ ok: true, isNewSubscriber });
 }
