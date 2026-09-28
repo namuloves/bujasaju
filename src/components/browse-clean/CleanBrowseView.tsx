@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState, useDeferredValue, type ReactNode } from 'react';
+import { useEffect, useMemo, useState, useDeferredValue, type ReactNode } from 'react';
 import { useEnrichedPeople, getUniqueNationalities, getUniqueIndustries, getIljusGroupedByStem } from '@/lib/data/enriched';
 import CURATED_SECTIONS, { isMissingOhaeng } from '@/components/browse/curatedSections';
 import type { OHaeng } from '@/lib/saju/types';
@@ -121,6 +121,23 @@ export default function CleanBrowseView({ nav }: Props = {}) {
   const isKo = lang === 'ko';
 
   const [filters, setFilters] = useState<Filters>(defaultFilters);
+
+  // Deep links from profile pages ("같은 경신 일주 부자 → 더 보기") arrive as
+  // /?tab=browse&ilju=경신. Read the filter keys once on mount; the view
+  // otherwise owns its state and doesn't write back to the URL.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    const next: Partial<Filters> = {};
+    for (const key of ACTIVE_FILTER_KEYS) {
+      const v = params.get(key);
+      if (v) (next as Record<string, string>)[key] = v;
+    }
+    // Post-mount read of window is the only way to keep the SSR markup and
+    // the first client render identical (same pattern as CompareWithUser).
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    if (Object.keys(next).length > 0) setFilters((f) => ({ ...f, ...next }));
+  }, []);
   const [visibleCount, setVisibleCount] = useState(FLAT_PAGE_SIZE);
 
   const deferredFilters = useDeferredValue(filters);

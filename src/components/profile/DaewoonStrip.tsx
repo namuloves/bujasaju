@@ -84,11 +84,20 @@ export default function DaewoonStrip({ person }: Props) {
 
   return (
     <section>
-      <div className="flex items-baseline gap-2 mb-3">
-        <h3 className="text-sm font-bold text-gray-900">대운 흐름</h3>
-        <span className="text-xs text-gray-500">
-          {result.isForward ? '순행' : '역행'} · {result.startAge}세 시작
-        </span>
+      <div className="mb-3">
+        <div className="flex items-baseline gap-2">
+          <h3 className="text-sm font-bold text-gray-900">대운 흐름</h3>
+          <span className="text-xs text-gray-500">
+            {result.isForward ? '순행' : '역행'} · {result.startAge}세 시작
+          </span>
+        </div>
+        {/* One line for the first-time reader: what a 대운 is and how to
+            read the strip. Regulars skip it; newcomers otherwise see eight
+            boxes of hanja with no way in. */}
+        <p className="text-[11px] text-gray-400 mt-1 leading-relaxed">
+          대운(大運)은 10년마다 바뀌는 운의 계절입니다. 왼쪽이 최근, 오른쪽이 어린 시절이고,
+          {currentIdx >= 0 ? ' 파란 칸이 지금 지나고 있는 10년입니다.' : ' 각 칸의 색은 천간·지지의 오행입니다.'}
+        </p>
       </div>
 
       {/* The current-period ring extends past the box edges, so the scroll

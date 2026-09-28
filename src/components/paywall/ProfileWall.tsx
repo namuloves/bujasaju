@@ -13,9 +13,9 @@ import {
  * ProfileWall — shown in place of a profile once the free sample is used up.
  *
  * Asks for an email rather than a password: there is no account system, and
- * this reuses /api/subscribe (the same endpoint behind the match gate), so a
- * visitor is one field away from continuing. On success the server sets the
- * unlock cookie and we reload so the profile renders normally.
+ * this uses the shared /api/unlock entitlement, so a visitor is one field
+ * away from continuing everywhere. On success the server sets the unlock
+ * cookie and we reload so the profile renders normally.
  *
  * Mirrors EmailCaptureCard's state machine and validation regex so the two
  * capture points behave identically.
@@ -27,6 +27,7 @@ type Status = 'idle' | 'submitting' | 'error';
 export default function ProfileWall({ personName }: { personName?: string }) {
   const { lang } = useLanguage();
   const [email, setEmail] = useState('');
+  const [marketingConsent, setMarketingConsent] = useState(false);
   const [status, setStatus] = useState<Status>('idle');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const {
@@ -62,7 +63,12 @@ export default function ProfileWall({ personName }: { personName?: string }) {
       res = await fetch('/api/unlock', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ email: trimmed, lang, source: 'profile-wall' }),
+        body: JSON.stringify({
+          email: trimmed,
+          lang,
+          source: 'profile-wall',
+          marketingConsent,
+        }),
       });
     } catch {
       trackSignupFailed('network_error');
@@ -84,13 +90,18 @@ export default function ProfileWall({ personName }: { personName?: string }) {
 
     const data = (await res.json().catch(() => ({}))) as {
       captured?: boolean;
+      isNewContact?: boolean;
       isNewSubscriber?: boolean;
     };
 
     if (data.captured === false) {
       trackSignupFailed('storage_error');
     } else {
-      trackSignupCompleted(data.isNewSubscriber !== false);
+      trackSignupCompleted(
+        data.isNewContact !== false,
+        marketingConsent,
+        data.isNewSubscriber === true,
+      );
     }
 
     // The unlock cookie is set by the server on this response. Reload so
@@ -119,7 +130,7 @@ export default function ProfileWall({ personName }: { personName?: string }) {
           {personName ? (ko ? ` ${personName}님의 분석도 바로 이어서 볼 수 있어요.` : ` Including ${personName}.`) : ''}
         </p>
 
-        <form onSubmit={handleSubmit} className="mt-6">
+        <form onSubmit={handleSubmit} className="mt-6 space-y-3">
           <div className="flex flex-col sm:flex-row gap-2">
             <input
               type="email"
@@ -143,20 +154,36 @@ export default function ProfileWall({ personName }: { personName?: string }) {
             >
               {status === 'submitting'
                 ? ko ? '확인 중…' : 'Checking…'
-                : ko ? '계속 보기' : 'Continue'}
+                : ko ? '전체 프로필 열기' : 'Unlock all profiles'}
             </button>
           </div>
 
+          <label className="flex items-start gap-2 text-left text-xs text-gray-600 cursor-pointer select-none">
+            <input
+              type="checkbox"
+              checked={marketingConsent}
+              onFocus={trackFormStarted}
+              onChange={(e) => setMarketingConsent(e.target.checked)}
+              className="mt-0.5 h-4 w-4 shrink-0 rounded border-gray-300 text-gray-900 focus:ring-gray-400"
+              disabled={status === 'submitting'}
+            />
+            <span>
+              {ko
+                ? '새로운 부자 사주 분석도 받아보기 (선택)'
+                : 'Send me new billionaire saju analyses (optional)'}
+            </span>
+          </label>
+
           {errorMsg && (
-            <p role="alert" className="mt-2.5 text-xs text-red-600">
+            <p role="alert" className="text-xs text-red-600">
               {errorMsg}
             </p>
           )}
 
-          <p className="mt-3 text-[11px] leading-relaxed text-gray-400">
+          <p className="text-[11px] leading-relaxed text-gray-400">
             {ko
-              ? '새로운 부자 사주 분석 소식을 보내드려요. 언제든 수신 거부할 수 있어요.'
-              : 'We send occasional updates on new saju readings. Unsubscribe anytime.'}
+              ? '이메일은 전체 열람을 활성화하는 데 사용됩니다. 새 소식 수신은 선택사항입니다.'
+              : 'Your email activates full access. Product updates are optional.'}
           </p>
         </form>
       </div>

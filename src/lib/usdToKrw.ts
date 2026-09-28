@@ -45,9 +45,8 @@ export function formatKrwApprox(netWorthBillions: number): string {
 }
 
 /**
- * Rewrite USD mentions inside a Korean text blob to the won figure derived
- * from `netWorthBillions`. Conservative — only touches patterns that are
- * clearly stating a net-worth-like amount in dollars:
+ * Rewrite USD mentions inside a Korean text blob to won. Conservative —
+ * only touches patterns that are clearly stating a dollar amount:
  *
  *   "$3.5 billion"        / "$3.5B"          / "$3.5 billion 달러"
  *   "35억 달러"           / "약 35억 달러"   / "350억 달러"
@@ -56,34 +55,47 @@ export function formatKrwApprox(netWorthBillions: number): string {
  * Anything that doesn't match these patterns is left alone, so prose like
  * "수십억 달러 규모" or "$10 million" stays as written.
  *
- * The replacement always uses the person's headline net worth — this is
- * intentional: a bio that says "재산이 35억 달러" but where the person's
- * record net worth is 5.2조원 should sync to 5.2조원, not "약 4.7조원"
- * (the literal 35억$ figure). The whole point is to stop the bio and the
- * header from disagreeing.
+ * Each amount is converted on its own. When the amount is within ±10% of
+ * the person's headline net worth it is treated as the net worth being
+ * restated and snaps to the exact headline figure, so a bio saying "재산이
+ * 35억 달러" and a header saying 5.2조원 don't disagree. Any other amount —
+ * a deal size, a contract, a sale price — converts at face value: "87억
+ * 달러에 매각" must not come out as the person's net worth (it did, before
+ * this: the old version replaced every match with the headline figure, so
+ * a bio with two different deals showed the same number three times).
  */
 export function rewriteUsdToKrwInline(text: string, netWorthBillions: number): string {
   if (!text || !Number.isFinite(netWorthBillions) || netWorthBillions <= 0) return text;
-  const krw = formatKrwApprox(netWorthBillions);
+  const headline = formatKrwApprox(netWorthBillions);
+
+  const toKrw = (amountBillions: number): string => {
+    if (!Number.isFinite(amountBillions) || amountBillions <= 0) return headline;
+    const ratio = amountBillions / netWorthBillions;
+    if (ratio >= 0.9 && ratio <= 1.1) return headline;
+    return formatKrwApprox(amountBillions);
+  };
+  const num = (raw: string): number => Number(raw.replace(/,/g, ''));
 
   // Each pattern is anchored with optional "약 " prefix so we don't double
   // up the modifier (the replacement always carries its own "약 ").
-  const patterns: RegExp[] = [
+  // Capture group 1 is the numeral; the unit decides the multiplier into
+  // billions USD.
+  const patterns: Array<[RegExp, (n: number) => number]> = [
     // "$3.5 billion" / "$3.5B" / "US$3.5 billion"
-    /(?:약\s*)?(?:US\s*)?\$\s*[\d.,]+\s*(?:billion|B)\b\s*달러?/gi,
+    [/(?:약\s*)?(?:US\s*)?\$\s*([\d.,]+)\s*(?:billion|B)\b(?:\s*달러)?/gi, (n) => n],
     // "$3.5 trillion" / "$3.5T"
-    /(?:약\s*)?(?:US\s*)?\$\s*[\d.,]+\s*(?:trillion|T)\b\s*달러?/gi,
-    // "35억 달러" / "약 35억 달러"
-    /(?:약\s*)?[\d.,]+\s*억\s*달러/g,
-    // "1.5조 달러" / "약 1.5조 달러"
-    /(?:약\s*)?[\d.,]+\s*조\s*달러/g,
+    [/(?:약\s*)?(?:US\s*)?\$\s*([\d.,]+)\s*(?:trillion|T)\b(?:\s*달러)?/gi, (n) => n * 1000],
+    // "35억 달러" / "약 35억 달러"  (1억 달러 = $100M = 0.1B)
+    [/(?:약\s*)?([\d.,]+)\s*억\s*달러/g, (n) => n / 10],
+    // "1.5조 달러" / "약 1.5조 달러"  (1조 달러 = $1T = 1000B)
+    [/(?:약\s*)?([\d.,]+)\s*조\s*달러/g, (n) => n * 1000],
     // "1.5십억 달러" — old translation artifact for "1.5 billion"
-    /(?:약\s*)?[\d.,]+\s*십억\s*달러/g,
+    [/(?:약\s*)?([\d.,]+)\s*십억\s*달러/g, (n) => n],
   ];
 
   let out = text;
-  for (const re of patterns) {
-    out = out.replace(re, krw);
+  for (const [re, scale] of patterns) {
+    out = out.replace(re, (_m, raw: string) => toKrw(scale(num(raw))));
   }
   return out;
 }

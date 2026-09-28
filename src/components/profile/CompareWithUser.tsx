@@ -99,14 +99,20 @@ export default function CompareWithUser({ person }: Props) {
 
   // No saved saju → render a soft CTA inviting the user to enter theirs.
   if (!userSaju) {
+    // Copy names the person's actual chart so the ask reads as specific to
+    // this page ("경신 일주 · 건록격과 겹치는 데가 있을까?") rather than the
+    // same generic card on every profile.
+    const name = person.nameKo ?? person.name;
+    const { ilju, gyeokguk } = person.saju;
     return (
       <section className="rounded-2xl border border-gray-200 bg-gray-50 p-4 sm:p-5">
         <div>
           <p className="text-sm font-semibold text-gray-900 mb-1">
-            {person.nameKo ?? person.name}님과 사주 궁합을 보고 싶다면
+            {name}님은 {ilju} 일주 · {gyeokguk} — 내 사주와 어디가 겹칠까?
           </p>
           <p className="text-[13px] text-gray-600 leading-relaxed mb-3">
-            생년월일만 입력하면 본인의 사주와 어떻게 닮았는지 바로 보여드려요.
+            생년월일만 입력하면 일간·일주·오행이 {name}님과 어떻게 닮았는지 바로 보여드려요.
+            같은 일주일 확률은 60분의 1이에요.
           </p>
           <Link
             href="/"

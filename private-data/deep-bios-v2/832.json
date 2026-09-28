@@ -55,6 +55,13 @@
       "event": "Personal net worth at $5.0B per Forbes Real-Time. Continues as Angels owner.",
       "eventKo": "포브스 실시간 기준 개인 순자산 50억 달러. Angels 소유주 계속.",
       "whyItMatteredKo": "Outdoor + Angels 정점."
+    },
+    {
+      "year": 2026,
+      "age": 80,
+      "event": "Agreed to sell the Los Angeles Angels to Rams owner Stan Kroenke for a reported MLB-record ~$4B; retains a minority stake. Closing expected Q1 2027 pending MLB approval.",
+      "eventKo": "Los Angeles Angels를 LA 램스 구단주 스탠 크론키에게 약 40억 달러(MLB 사상 최고가)에 매각 합의; 소수 지분은 유지. 2027년 1분기 MLB 승인 후 종결 예정.",
+      "whyItMatteredKo": "23년 소유 종료 — 1억 8,400만 달러에 산 구단을 약 21배에 매각."
     }
   ],
   "turningPoints": [
@@ -64,6 +71,13 @@
       "decisionKo": "Outdoor Systems 87억 달러 매각",
       "alternativeKo": "운영 잔류",
       "outcomeKo": "엑시트 + LA Angels 첫 히스패닉 MLB 소유주"
+    },
+    {
+      "year": 2026,
+      "age": 80,
+      "decisionKo": "에인절스 약 40억 달러 매각 합의",
+      "alternativeKo": "소유 지속",
+      "outcomeKo": "MLB 사상 최고가 매각 + 소수 지분 유지"
     }
   ],
   "moneyMechanics": {
@@ -74,19 +88,20 @@
     "luckVsSkillKo": "운(40%): 1999 옥외 광고 정점 매각. 실력(60%): 옥외 광고 통합 + Angels 운영."
   },
   "personalTraits": {
-    "knownFor": "Owner of Los Angeles Angels MLB team; first Hispanic-American MLB owner; former Outdoor Systems co-founder.",
-    "knownForKo": "Los Angeles Angels MLB 팀 소유주; 첫 히스패닉·미국 MLB 소유주; 전 Outdoor Systems 공동 창립자.",
+    "knownFor": "Former owner of the Los Angeles Angels (2003–2026); first Hispanic-American MLB owner; co-founder of Outdoor Systems; agreed to sell the Angels for a reported MLB-record ~$4B in 2026.",
+    "knownForKo": "전 Los Angeles Angels 구단주(2003~2026); 첫 히스패닉계 MLB 구단주; Outdoor Systems 공동 창립자; 2026년 구단을 MLB 사상 최고가인 약 40억 달러에 매각 합의.",
     "philanthropy": "Major Tucson and Mexican-American education patron.",
     "philanthropyKo": "주요 투산·멕시코·미국 교육 후원자.",
     "controversies": "Angels' multi-year sub-par performance and Albert Pujols/Anthony Rendon underperforming contracts drew fan criticism; 2022-2023 attempted sale of team withdrawn.",
-    "controversiesKo": "Angels의 다년간 부진한 성과·앨버트 푸홀스/앤서니 렌든 미달 계약이 팬 비판 야기; 2022-2023 팀 매각 시도 철회."
+    "controversiesKo": "Angels의 다년간 부진한 성과·앨버트 푸홀스/앤서니 렌든 미달 계약이 팬 비판 야기; 2022-2023 팀 매각 시도 철회. 2026년 매각 발표 때 팬들이 홈구장에서 '잘가라 아르테'를 연호할 만큼 인기 없는 구단주로 남음."
   },
   "characterKo": {
-    "summaryKo": "베트남 참전 → Outdoor Systems 87억 달러 매각 → LA Angels 첫 히스패닉 MLB 소유주.",
+    "summaryKo": "베트남 참전 → Outdoor Systems 87억 달러 매각 → LA Angels 첫 히스패닉 MLB 구단주 → 2026년 약 40억 달러에 매각.",
     "tagsKo": [
       "Outdoor Systems",
       "LA Angels",
-      "첫 히스패닉 MLB 소유주"
+      "첫 히스패닉 MLB 구단주",
+      "2026 에인절스 매각"
     ]
   },
   "failures": [
@@ -101,7 +116,7 @@
     {
       "year": 2023,
       "description": "Attempted Angels sale collapsed; team value uncertainty.",
-      "descriptionKo": "Angels 매각 시도 붕괴; 팀 가치 불확실성.",
+      "descriptionKo": "Angels 매각 시도 붕괴; 팀 가치 불확실성. (2026년 스탠 크론키에게 약 40억 달러로 매각 합의하며 마무리)",
       "lesson": "Sports-team transactions face buyer-financing constraints.",
       "lessonKo": "스포츠 팀 거래는 매수자 자금 조달 제약 직면.",
       "age": 77
@@ -140,7 +155,120 @@
     "recommended": []
   },
   "sajuConnection": {
-    "summary": "Gyeong-Shin day pillar in Shin month — 'pyeon-gwan-gyeok' with strong metal, fitting military-trained dealmaker.",
-    "summaryKo": "경신 일주 + 신월 편관격(강한 외부 압박·권력 충돌)은 베트남 참전 군 경력에서 큰 사업 결단·스포츠 소유로 이어진 강한 자기 자본 패턴과 호응합니다. 경금 일간 + 일지·월지 모두 신금으로 단단한 금속 자본의 결단력을 삼중으로 강조합니다."
-  }
+    "chart": {
+      "ilgan": "경",
+      "ilju": "경신",
+      "wolji": "신",
+      "gyeokguk": "건록격",
+      "pillars": {
+        "year": "병술",
+        "month": "병신",
+        "day": "경신",
+        "hour": null
+      }
+    },
+    "johuKo": {
+      "textKo": "경금은 원석 그대로의 쇳덩이이고, 신월(申月)은 그 쇠가 가장 단단해지는 초가을입니다. 일지에도 신금이 다시 와서 일간·월지·일지가 모두 금이니 여섯 글자 중 셋이 한 금속으로 굳어 있습니다. 경금은 본래 정화(丁火)로 달구고 임수(壬水)로 씻어야 쓸모가 생기는데, 이 사주에는 물이 한 글자도 없고 불은 년간과 월간의 병화(丙火) 두 개, 그것도 녹이는 불이 아니라 내리쬐는 태양입니다. 쇠를 깎아 다듬는 대신 쇠 위에 강한 조명이 두 개 켜져 있는 형국이라, 이 사람은 세련되게 표현하기보다 단단하게 버티는 쪽으로 평생을 씁니다. 년지 술토(戌土)만이 그 태양 아래에서 흙으로 금을 받쳐 줍니다.",
+      "basis": [
+        "일간 경",
+        "월지 신",
+        "일지 신",
+        "년간 병",
+        "월간 병",
+        "년지 술"
+      ]
+    },
+    "structureKo": {
+      "textKo": "건록격(建祿格)입니다. 월지 신금이 일간 경금의 녹(祿)이라 태어난 계절 자체가 자기 힘입니다. 여기에 일지 비견까지 겹쳐 신강한 사주인데, 그 강한 금을 누르는 것이 천간에 나란히 뜬 병화 편관(偏官) 둘입니다. 편관은 군대·조직·여론처럼 밖에서 오는 압박이고, 그 압박이 년지 술토 편인(偏印)을 거쳐 일간을 생하는 살인상생(殺印相生)이 이 사주의 뼈대입니다. 베트남 참전으로 시작해 옥외광고 회사를 세우고 프로야구단을 산 경로가 그대로 이 구조입니다 — 외부의 압력을 피하지 않고 조직과 자산으로 바꿔 자기 것으로 삼는 사람입니다. 다만 물(식상)이 없어 그 과정을 설명하거나 부드럽게 전달하는 힘이 약하고, 그래서 성과와 별개로 '말이 통하지 않는 구단주'라는 인상이 굳어집니다.",
+      "basis": [
+        "월지 신",
+        "일지 신",
+        "년간 병",
+        "월간 병",
+        "년지 술",
+        "일간 경"
+      ]
+    },
+    "wealthKo": {
+      "textKo": "이 사주에는 재성(財星)인 목(木)이 원국에 한 글자도 없습니다. 무재(無財) 사주는 매달 들어오는 현금흐름으로 부자가 되는 것이 아니라, 대운에서 재성이 올 때 한 번에 자산을 사고팔아 부를 확정합니다. 실제로 이 사람의 돈은 두 번의 매각에서 나왔습니다. 1999년 Outdoor Systems를 87억 달러에 넘겼고, 2026년 1억 8,400만 달러에 산 에인절스를 40억 달러에 넘겼습니다. 두 번 다 운영으로 번 돈이 아니라 오래 쥐고 있던 것을 놓는 순간 생긴 돈입니다. 비견이 둘이라 혼자 하기보다 공동 창업·공동 소유 형태를 취하고, 그 지분을 나눠 파는 방식이 이 사주에 맞습니다.",
+      "basis": [
+        "일간 경",
+        "월지 신",
+        "일지 신",
+        "년지 술"
+      ]
+    },
+    "riskKo": {
+      "textKo": "가장 큰 약점은 물이 없다는 것입니다. 식상(食傷)이 없으면 강한 금을 밖으로 흘려보낼 출구가 없어, 압박이 오면 설명하기보다 버티고 지갑을 닫습니다. 편관이 둘인데 식상이 없으니 식신제살(食神制殺)이 되지 않고, 여론과 팬이라는 편관을 실력으로 제압하는 대신 그대로 받아냅니다. 또 하나는 월지와 일지의 신금이 복음(伏吟)처럼 겹쳐 있다는 점입니다. 같은 글자가 두 번 오면 대운에서 그 글자를 충(沖)하거나 원진(怨嗔)하는 글자가 올 때 한 번이 아니라 두 번 맞습니다. 인목이 오면 인신충이 두 겹, 묘목이 오면 묘신 원진이 두 겹입니다. 재성인 목이 올 때마다 자기 자리와 부딪히는 구조라, 돈이 커질수록 자기 뜻대로 하기가 어려워집니다.",
+      "basis": [
+        "년간 병",
+        "월간 병",
+        "월지 신",
+        "일지 신",
+        "일간 경"
+      ]
+    },
+    "daeunKo": [
+      {
+        "range": "18~27",
+        "pillar": "무술",
+        "years": "1964~1973",
+        "textKo": "무토 편인과 술토 편인, 년지 술과 같은 글자가 대운에 다시 오는 복음(伏吟)입니다. 편인은 조직 안에서 배우는 자리이고, 살인상생의 인성 축이 두 배로 강해지는 10년입니다. 군대라는 편관의 압박을 편인으로 받아낸 시기이며, 이때 몸에 밴 조직 감각이 뒤의 사업 방식이 됩니다.",
+        "linkedEvents": [
+          "1968 미군 합류; 베트남 참전"
+        ]
+      },
+      {
+        "range": "38~47",
+        "pillar": "경자",
+        "years": "1984~1993",
+        "textKo": "경금 비견이 오고, 원국에 없던 자수(子水) 상관이 처음 들어옵니다. 물이 없던 쇠에 물이 닿아 비로소 밖으로 표현하는 일이 생기는데, 그것이 옥외광고입니다. 비견 대운답게 혼자가 아니라 공동 창업이고, 상관이라 남의 메시지를 크게 내거는 사업입니다.",
+        "linkedEvents": [
+          "1984 Outdoor Systems 옥외 광고 회사 공동 창립"
+        ]
+      },
+      {
+        "range": "48~57",
+        "pillar": "신축",
+        "years": "1994~2003",
+        "textKo": "신금 겁재와 축토 정인입니다. 축토는 금의 고지(庫地)이자 년지 술토와 축술형(丑戌刑)을 이룹니다. 형은 갈아내는 것이라, 오래 쌓은 것을 깨서 현금으로 바꾸는 운입니다. 1999년 회사를 87억 달러에 매각한 것이 그 형이고, 겁재가 재를 나누듯 공동 창업자와 매각 대금을 나눴습니다. 대운 마지막 해에 그 돈으로 야구단을 사면서 다음 10년의 그릇을 준비합니다.",
+        "linkedEvents": [
+          "1999 Outdoor Systems를 Infinity Broadcasting에 87억 달러 매각",
+          "2003 Walt Disney Company에서 Los Angeles Angels을 1억 8,400만 달러에 인수"
+        ]
+      },
+      {
+        "range": "58~67",
+        "pillar": "임인",
+        "years": "2004~2013",
+        "textKo": "임수 식신과 인목 편재, 원국에 없던 물과 나무가 한꺼번에 옵니다. 경금이 오래 기다린 임수가 와서 구단주로서 가장 활발히 움직인 10년이지만, 인목 편재는 월지·일지의 신금과 인신충(寅申沖)을 두 겹으로 이룹니다. 재성이 오되 자기 자리와 부딪히니 돈을 쓰는 결정이 뜻대로 되지 않습니다. 인목이 년지 술과 인오술 화국을 반쯤 이뤄 편관의 불도 커져, 큰돈을 쓴 계약이 오히려 비판의 근거가 됩니다.",
+        "linkedEvents": [
+          "2011 앨버트 푸홀스 10년 2억 4,000만 달러 계약 미달"
+        ]
+      },
+      {
+        "range": "68~77",
+        "pillar": "계묘",
+        "years": "2014~2023",
+        "textKo": "계수 상관과 묘목 정재입니다. 묘목은 월지·일지 신금과 묘신 원진(卯申怨嗔)을 두 겹으로 이룹니다. 원진은 오래된 관계가 원한으로 바뀌는 글자라, 20년을 함께한 팬과 구단주 사이가 이 10년에 돌아섭니다. 계수 상관은 병화 편관을 극하는 상관견관(傷官見官)이라 리그·여론과의 마찰이 표면화되고, 팀을 팔려다 거두어들인 일도 원진의 결과입니다 — 놓고 싶은데 놓아지지 않는 관계입니다.",
+        "linkedEvents": [
+          "2023 Angels 매각 시도 붕괴"
+        ]
+      },
+      {
+        "range": "78~87",
+        "pillar": "갑진",
+        "years": "2024~2033",
+        "textKo": "갑목 편재와 진토 편인입니다. 진토는 년지 술토와 진술충(辰戌沖)을 이루어 사주의 뿌리인 년주를 흔들고, 동시에 월지·일지 신금과 신진(申辰) 반합으로 없던 수(水)를 만듭니다. 23년 쥐고 있던 자산이 충으로 떨어져 나가고, 합으로 생긴 물이 그것을 흐르는 돈으로 바꾸는 운입니다. 2026년 병오년은 편관·정관이 함께 들어와 관살이 정점을 찍는 해로, 팬의 압박이 가장 거센 순간에 매각이 이루어졌습니다. 무재 사주가 편재 대운 첫머리에 사상 최고가로 재물을 확정한 셈입니다.",
+        "linkedEvents": [
+          "2026 Los Angeles Angels를 스탠 크론키에게 약 40억 달러에 매각 합의"
+        ]
+      }
+    ],
+    "oneLineKo": "물 없는 쇠 위에 태양이 두 개 켜진 사주 — 압박을 조직과 자산으로 바꿔 버티다가, 재성이 없는 원국에 편재 대운이 오는 여든에 23년 쥔 구단을 사상 최고가로 놓은 사람."
+  },
+  "aliasesKo": [
+    "아르테 모레노"
+  ],
+  "updatedAt": "2026-09-28"
 }

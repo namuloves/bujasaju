@@ -84,15 +84,21 @@ export function HeroPillar({
   const dimCell = 'bg-gray-50 text-gray-300 border-gray-200';
 
   if (!ju) {
+    // Unknown pillar (almost always 時 — birth time isn't public). Two
+    // dashed boxes with "?" read as a broken render, so say what it is: the
+    // sipsin slot carries "미상" and the cells stay quiet dashes.
     return (
-      <div className="flex flex-col items-center">
+      <div
+        className="flex flex-col items-center"
+        title={label === '時' ? '출생 시각이 알려지지 않아 시주는 표시하지 않습니다' : undefined}
+      >
         <div className={`${labelSize} text-gray-400 mb-1 font-medium`}>{label}</div>
-        <div className={`${sipsinSize} text-gray-300 mb-0.5 h-3`}>·</div>
-        <div className={`${cellEmpty} border border-dashed border-gray-300 flex items-center justify-center text-gray-300`}>
-          ?
+        <div className={`${sipsinSize} text-gray-400 mb-0.5 h-3`}>미상</div>
+        <div className={`${cellEmpty} border border-dashed border-gray-200 flex items-center justify-center text-gray-300`}>
+          –
         </div>
-        <div className={`${cellEmpty} border border-dashed border-gray-300 mt-1 flex items-center justify-center text-gray-300`}>
-          ?
+        <div className={`${cellEmpty} border border-dashed border-gray-200 mt-1 flex items-center justify-center text-gray-300`}>
+          –
         </div>
         <div className={`${sipsinSize} text-gray-300 mt-0.5 h-3`}>·</div>
       </div>

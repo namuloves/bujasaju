@@ -83,10 +83,19 @@ export function useEmailCaptureAnalytics({
   }, [eventContext]);
 
   const trackSignupCompleted = useCallback(
-    (isNewSubscriber: boolean) => {
-      trackEvent(isNewSubscriber ? 'sign_up' : 'email_signup_repeated', {
+    (
+      isNewContact: boolean,
+      marketingConsent = true,
+      isNewSubscriber = isNewContact,
+    ) => {
+      const isNewConversion = marketingConsent ? isNewSubscriber : isNewContact;
+      trackEvent(isNewConversion ? 'sign_up' : 'email_signup_repeated', {
         ...eventContext(),
-        subscriber_status: isNewSubscriber ? 'new' : 'returning',
+        contact_status: isNewContact ? 'new' : 'returning',
+        subscriber_status: marketingConsent
+          ? isNewSubscriber ? 'new' : 'returning'
+          : 'not_subscribed',
+        marketing_consent: marketingConsent,
       });
     },
     [eventContext],

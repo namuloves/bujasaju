@@ -83,6 +83,16 @@ export interface DeepBio {
 
   /** Optional source citations shown at the bottom of the bio. */
   sources?: DeepBioSource[];
+
+  /**
+   * ISO date (YYYY-MM-DD) of the last editorial pass over this file. Shown
+   * next to the net-worth figure so a stale number under a news spike reads
+   * as "as of <date>" rather than as a claim about today. Absent on files
+   * that have never been revisited since generation.
+   */
+  updatedAt?: string;
+  /** See Person.aliasesKo. */
+  aliasesKo?: string[];
 }
 
 export interface DeepBioSource {
@@ -210,6 +220,9 @@ export interface DeepBioV2 {
   books?: { authored: Book[]; recommended: Book[] };
   personalTraits?: DeepBio['personalTraits'];
   sajuConnection?: SajuConnection;
+  /** See DeepBio.updatedAt / Person.aliasesKo. */
+  updatedAt?: string;
+  aliasesKo?: string[];
 }
 
 /**

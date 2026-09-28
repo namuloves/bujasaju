@@ -11,6 +11,7 @@ import DeepBioContent from '@/components/deep-bio/DeepBioContent';
 import { HeroPillar } from '@/components/match/SajuHero';
 import DaewoonStrip from '@/components/profile/DaewoonStrip';
 import CompareWithUser from '@/components/profile/CompareWithUser';
+import RelatedPeople from '@/components/profile/RelatedPeople';
 import type { CheonGan } from '@/lib/saju/types';
 import { industryToKorean } from '@/components/FilterPanel';
 import { rewriteUsdToKrwInline } from '@/lib/usdToKrw';
@@ -91,6 +92,22 @@ export default function ProfilePage() {
   }
 
   const displayName = lang === 'ko' ? (person.nameKo || person.name) : person.name;
+
+  const knownFor = bio?.personalTraits
+    ? ko(lang, bio.personalTraits.knownFor, bio.personalTraits.knownForKo)
+    : null;
+
+  // "As of" for the headline number: the last editorial pass on the bio
+  // when there is one, else the latest year in the wealth history.
+  const asOfLabel = (() => {
+    if (bio?.updatedAt) {
+      const d = bio.updatedAt.replace(/-/g, '.');
+      return lang === 'ko' ? `${d} 업데이트` : `updated ${d}`;
+    }
+    const last = bio?.wealthHistory?.[bio.wealthHistory.length - 1]?.year;
+    if (last) return lang === 'ko' ? `${last}년 포브스 기준` : `Forbes, ${last}`;
+    return null;
+  })();
 
   return (
     <div className="min-h-screen bg-gray-50 profile-page-root">
@@ -181,14 +198,31 @@ export default function ProfilePage() {
               )}
             </h1>
 
-            {/* Net worth — big number, USD subscript */}
-            <div className="flex items-baseline gap-2 mt-2 sm:mt-3">
+            {/* One-line "who is this" — pulled up from the bio's 대표 활동 so
+                a visitor arriving from a search result gets the answer
+                before the number. Renders once the bio has loaded. */}
+            {knownFor && (
+              <p className="mt-1.5 text-[13px] sm:text-sm text-gray-700 leading-snug">
+                {knownFor}
+              </p>
+            )}
+
+            {/* Net worth — big number, USD subscript, and the date the
+                figure is good for. A Forbes number can sit for months, and
+                under a news spike (a sale, a listing) "as of" is the
+                difference between a stale figure and a wrong one. */}
+            <div className="flex items-baseline gap-2 mt-2 sm:mt-3 flex-wrap">
               <span className="font-bold text-gray-900 text-xl sm:text-2xl whitespace-nowrap">
                 {formatNetWorth(person.netWorth, lang === 'ko')}
               </span>
               {lang === 'ko' && (
                 <span className="text-[11px] sm:text-xs text-gray-400">
                   ${person.netWorth}B
+                </span>
+              )}
+              {asOfLabel && (
+                <span className="text-[11px] sm:text-xs text-gray-400">
+                  · {asOfLabel}
                 </span>
               )}
             </div>
@@ -218,8 +252,9 @@ export default function ProfilePage() {
             {/* Company quoted side-note — `source` was inconsistent (sometimes
                 a product, sometimes a mini-bio with family relations) so we
                 show `company` instead. The dataset's company field is short
-                and stable (e.g. "신세계그룹", "Tesla, SpaceX"). */}
-            {person.company && person.company !== person.industry && (
+                and stable (e.g. "신세계그룹", "Tesla, SpaceX"). Hidden once the
+                bio's knownFor line is up — it repeats the same names. */}
+            {person.company && person.company !== person.industry && !knownFor && (
               <p className="mt-2 text-xs sm:text-sm text-gray-500">
                 {person.company}
               </p>
@@ -298,6 +333,13 @@ export default function ProfilePage() {
               <p className="text-[12px] text-gray-500 text-center mt-3">
                 {person.saju.ilju}일주 · {person.saju.wolji}월지 · {person.saju.gyeokguk}
               </p>
+              {!person.saju.saju.hour && (
+                <p className="text-[11px] text-gray-400 text-center mt-1">
+                  {lang === 'ko'
+                    ? '출생 시각이 공개되지 않아 시주(時柱)는 제외한 세 기둥 기준입니다.'
+                    : 'Birth time is not public, so the hour pillar is omitted.'}
+                </p>
+              )}
             </div>
           </section>
         )}
@@ -321,6 +363,10 @@ export default function ProfilePage() {
             <DeepBioContent bio={bio} person={person} lang={lang} />
           )}
         </div>
+
+        {/* Where next — same 일주 / same field. Sits after the bio so it's the
+            last thing a reader sees before the footer. */}
+        <RelatedPeople person={person} people={people} />
       </div>
     </div>
   );

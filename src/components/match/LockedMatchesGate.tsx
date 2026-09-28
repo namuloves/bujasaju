@@ -16,14 +16,13 @@ import {
  *
  * Shows up to N billionaires beyond the Top3 row with the name/photo
  * redacted (country + industry only). An inline email form sits below
- * the locked cards; submitting fires the email send + subscribe and
- * shows a "check your inbox" dialog. The on-page cards stay locked —
- * the full match details only live in the email, which raises the
- * bar against junk addresses.
+ * the locked cards; submitting exchanges the address for the same global
+ * entitlement used by the profile wall, reveals the cards immediately, and
+ * sends a portable copy of the result by email.
  *
- * Posts to /api/subscribe with source: 'unlock-gate' so we can slice
- * signups by surface later. No consent checkbox here — this gate
- * doubles as the consent moment ("submit to see the rest").
+ * Marketing consent is optional and separate from transactional result
+ * delivery. The access email is always recorded in `access:emails`; only an
+ * affirmative checkbox adds it to the marketing `emails` list.
  */
 
 
@@ -66,11 +65,17 @@ interface Props {
 }
 
 type Status = 'idle' | 'submitting' | 'error';
+type DeliveryStatus = 'idle' | 'sending' | 'sent' | 'failed' | 'suppressed';
 
 export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
   const { t, lang } = useLanguage();
   const [email, setEmail] = useState('');
+  const [marketingConsent, setMarketingConsent] = useState(false);
   const [status, setStatus] = useState<Status>('idle');
+  const [accessChecked, setAccessChecked] = useState(false);
+  const [unlocked, setUnlocked] = useState(false);
+  const [deliveryStatus, setDeliveryStatus] = useState<DeliveryStatus>('idle');
+  const [lastSubmittedEmail, setLastSubmittedEmail] = useState('');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   // Shown after a successful submit. Auto-dismisses on "확인" click.
   const [showSentDialog, setShowSentDialog] = useState(false);
@@ -83,6 +88,79 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
     captureSource: 'unlock-gate',
     language: lang,
   });
+
+  // The entitlement cookie is httpOnly, so ask the shared endpoint whether
+  // this browser already unlocked via a profile wall or an earlier result.
+  useEffect(() => {
+    const controller = new AbortController();
+    void fetch('/api/unlock', {
+      method: 'GET',
+      cache: 'no-store',
+      signal: controller.signal,
+    })
+      .then(async (res) => {
+        if (!res.ok) return;
+        const data = (await res.json()) as { unlocked?: boolean };
+        if (data.unlocked) setUnlocked(true);
+      })
+      .catch(() => {
+        // A status-check failure should never block a fresh unlock attempt.
+      })
+      .finally(() => {
+        if (!controller.signal.aborted) setAccessChecked(true);
+      });
+    return () => controller.abort();
+  }, []);
+
+  function emailMatchesPayload() {
+    return lockedPeople.map((p) => ({
+      id: p.id,
+      name: p.name,
+      nameKo: p.nameKo ?? null,
+      photoUrl: p.photoUrl ?? null,
+      nationality: p.nationality,
+      industry: p.industry,
+      source: p.source ?? null,
+      companyKo: p.companyKo ?? null,
+      netWorth: p.netWorth,
+      bioKo: p.bioKo ?? null,
+      bio: p.bio ?? null,
+    }));
+  }
+
+  async function sendResultEmail(recipient: string): Promise<boolean> {
+    setDeliveryStatus('sending');
+    try {
+      const res = await fetch('/api/send-match-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: recipient,
+          ilju,
+          matches: emailMatchesPayload(),
+          lang,
+        }),
+      });
+      const data = (await res.json().catch(() => ({}))) as {
+        ok?: boolean;
+        suppressed?: string;
+      };
+      if (data.suppressed) {
+        setDeliveryStatus('suppressed');
+        return false;
+      }
+      if (!res.ok || data.ok !== true) {
+        setDeliveryStatus('failed');
+        return false;
+      }
+      setDeliveryStatus('sent');
+      setShowSentDialog(true);
+      return true;
+    } catch {
+      setDeliveryStatus('failed');
+      return false;
+    }
+  }
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -100,106 +178,117 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
     setStatus('submitting');
     setErrorMsg(null);
 
-    // Build the slim match payload once — shared by both subscribe and
-    // the email send.
-    const slimMatches = lockedPeople.map((p) => ({
-      id: p.id,
-      name: p.name,
-      nameKo: p.nameKo ?? null,
-      photoUrl: p.photoUrl ?? null,
-      nationality: p.nationality,
-      industry: p.industry,
-      source: p.source ?? null,
-      companyKo: p.companyKo ?? null,
-      netWorth: p.netWorth,
-      bioKo: p.bioKo ?? null,
-      bio: p.bio ?? null,
-    }));
-
-    // Fire both requests in parallel. We don't gate the email send on
-    // subscribe success — subscribe can rate-limit (5/hr/IP) or fail if
-    // Redis env vars are missing, and there's no good reason that should
-    // also kill the email-send path.
-    const subscribePromise = fetch('/api/subscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        email: trimmed,
-        consent: true,
-        lang,
-        source: 'unlock-gate',
-        ilju,
-        matchIds: slimMatches.map((m) => m.id),
-      }),
-    }).catch(() => null);
-
-    const sendEmailPromise = fetch('/api/send-match-email', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        email: trimmed,
-        ilju,
-        matches: slimMatches,
-        lang,
-      }),
-    }).catch(() => null);
-
-    // Await both so we know whether to flip the UI to error or unlocked.
-    const [subRes, mailRes] = await Promise.all([subscribePromise, sendEmailPromise]);
-
-    const subscribeSucceeded = subRes?.ok === true;
-    const mailSucceeded = mailRes?.ok === true;
-
-    if (subscribeSucceeded) {
-      const data = (await subRes.json().catch(() => ({}))) as {
-        isNewSubscriber?: boolean;
-      };
-      trackSignupCompleted(data.isNewSubscriber !== false);
-    } else {
-      trackSignupFailed(
-        subRes ? emailFailureReasonForStatus(subRes.status) : 'network_error',
-        subRes?.status,
-      );
-    }
-
-    // Surface an error only when neither backend accepted its request.
-    // Otherwise the user either joined the list or received the promised
-    // result email, so the confirmation remains truthful.
-    if (!subscribeSucceeded && !mailSucceeded) {
+    let unlockRes: Response;
+    try {
+      unlockRes = await fetch('/api/unlock', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: trimmed,
+          lang,
+          source: 'unlock-gate',
+          marketingConsent,
+          ilju,
+          matchIds: lockedPeople.map((person) => person.id),
+        }),
+      });
+    } catch {
+      trackSignupFailed('network_error');
       setStatus('error');
       setErrorMsg(t.emailCaptureErrorGeneric);
       return;
     }
 
+    if (!unlockRes.ok) {
+      trackSignupFailed(emailFailureReasonForStatus(unlockRes.status), unlockRes.status);
+      setStatus('error');
+      setErrorMsg(t.emailCaptureErrorGeneric);
+      return;
+    }
+
+    const unlockData = (await unlockRes.json().catch(() => ({}))) as {
+      captured?: boolean;
+      isNewContact?: boolean;
+      isNewSubscriber?: boolean;
+    };
+    if (unlockData.captured === false) {
+      trackSignupFailed('storage_error');
+    } else {
+      trackSignupCompleted(
+        unlockData.isNewContact !== false,
+        marketingConsent,
+        unlockData.isNewSubscriber === true,
+      );
+    }
+
+    // Access is the primary promise. Reveal immediately after the shared
+    // entitlement succeeds; email delivery follows and gets its own status.
+    setUnlocked(true);
+    setLastSubmittedEmail(trimmed);
     setStatus('idle');
     setEmail('');
-    setShowSentDialog(true);
+    await sendResultEmail(trimmed);
+  }
+
+  async function handleRetryEmail() {
+    if (!lastSubmittedEmail || deliveryStatus === 'sending') return;
+    await sendResultEmail(lastSubmittedEmail);
   }
 
   if (lockedPeople.length === 0) return null;
 
+  // Avoid flashing a gate (and recording a false gate impression) for a
+  // browser that already holds the global entitlement cookie.
+  if (!accessChecked) {
+    return (
+      <div
+        className="mt-8 h-28 animate-pulse rounded-2xl border border-gray-100 bg-gray-50/60"
+        aria-hidden
+      />
+    );
+  }
+
   const count = lockedPeople.length;
-  const headline = lang === 'ko'
-    ? `같은 ${ilju} 일주의 부자 ${count}명이 더 있어요`
-    : `${count} more billionaires share your ${ilju} day-pillar`;
-  const subline = lang === 'ko'
-    ? '이메일을 남겨주시면 결과를 이메일로 보내드릴게요'
-    : 'Drop your email and we’ll send the full results to your inbox.';
+  const headline = unlocked
+    ? (lang === 'ko' ? '전체 결과가 열렸어요' : 'Your full results are unlocked')
+    : (lang === 'ko'
+      ? `같은 ${ilju} 일주의 부자 ${count}명이 더 있어요`
+      : `${count} more billionaires share your ${ilju} day-pillar`);
+  const subline = unlocked
+    ? (lang === 'ko'
+      ? '이제 모든 부자 프로필을 자유롭게 볼 수 있어요'
+      : 'You can now explore every billionaire profile')
+    : (lang === 'ko'
+      ? '이메일로 전체 결과를 열고, 다시 볼 수 있게 보내드릴게요'
+      : 'Unlock the full result and receive a copy by email.');
 
   return (
-    <div ref={gateRef} className="mt-8 rounded-2xl border border-gray-200 bg-gray-50/40 px-4 sm:px-5 py-5">
+    <div
+      ref={gateRef}
+      className={`mt-8 rounded-2xl border px-4 sm:px-5 py-5 transition-colors ${
+        unlocked
+          ? 'border-emerald-200 bg-emerald-50/35'
+          : 'border-gray-200 bg-gray-50/40'
+      }`}
+    >
       <div className="text-center mb-4">
+        {unlocked && (
+          <div className="mx-auto mb-2 flex h-7 w-7 items-center justify-center rounded-full bg-emerald-100 text-sm font-bold text-emerald-700" aria-hidden>
+            ✓
+          </div>
+        )}
         <h3 className="text-sm font-bold text-gray-900">{headline}</h3>
         <p className="text-xs text-gray-500 mt-1">{subline}</p>
       </div>
 
       <ul className="space-y-2">
         {lockedPeople.map((p, i) => (
-          <LockedRow key={p.id} person={p} unlocked={false} rank={i + 4} lang={lang} />
+          <LockedRow key={p.id} person={p} unlocked={unlocked} rank={i + 4} lang={lang} />
         ))}
       </ul>
 
-      <form onSubmit={handleSubmit} className="mt-5 pt-4 border-t border-gray-200 space-y-2" noValidate>
+      {!unlocked && (
+        <form onSubmit={handleSubmit} className="mt-5 pt-4 border-t border-gray-200 space-y-3" noValidate>
           <div className="flex flex-col sm:flex-row gap-2">
             <input
               type="email"
@@ -228,20 +317,69 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
             >
               {status === 'submitting'
                 ? t.emailCaptureSubmitting
-                : (lang === 'ko' ? '📬 이메일로 받기' : '📬 Email it to me')}
+                : (lang === 'ko' ? '전체 결과 열기' : 'Unlock full results')}
             </button>
           </div>
+
+          <label className="flex items-start gap-2 text-xs text-gray-600 cursor-pointer select-none">
+            <input
+              type="checkbox"
+              checked={marketingConsent}
+              onFocus={trackFormStarted}
+              onChange={(e) => setMarketingConsent(e.target.checked)}
+              className="mt-0.5 h-4 w-4 shrink-0 rounded border-gray-300 text-gray-900 focus:ring-gray-400"
+              disabled={status === 'submitting'}
+            />
+            <span>
+              {lang === 'ko'
+                ? `새로운 ${ilju} 일주 부자 분석도 받아보기 (선택)`
+                : `Send me new ${ilju} billionaire analyses (optional)`}
+            </span>
+          </label>
+
           <p className="text-[10.5px] text-gray-400 leading-snug">
             {lang === 'ko'
-              ? '제출하시면 새 부자 소식 이메일을 받게 돼요. 언제든 해지 가능합니다.'
-              : 'By submitting you agree to receive updates. Unsubscribe anytime.'}
+              ? '전체 결과 이메일은 바로 보내드려요. 새 소식 수신은 선택사항입니다.'
+              : 'We send your result immediately. Product updates are optional.'}
           </p>
           {status === 'error' && errorMsg && (
             <p role="alert" className="text-xs text-red-600">
               {errorMsg}
             </p>
           )}
-      </form>
+        </form>
+      )}
+
+      {unlocked && deliveryStatus === 'failed' && (
+        <div className="mt-4 flex flex-col gap-2 rounded-xl border border-amber-200 bg-amber-50 px-3.5 py-3 sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-xs leading-relaxed text-amber-800">
+            {lang === 'ko'
+              ? '전체 결과는 열렸지만 이메일을 보내지 못했어요.'
+              : 'Your results are unlocked, but the email could not be sent.'}
+          </p>
+          <button
+            type="button"
+            onClick={handleRetryEmail}
+            className="shrink-0 rounded-lg border border-amber-300 bg-white px-3 py-1.5 text-xs font-semibold text-amber-900 hover:bg-amber-100"
+          >
+            {lang === 'ko' ? '이메일 다시 보내기' : 'Retry email'}
+          </button>
+        </div>
+      )}
+
+      {unlocked && deliveryStatus === 'suppressed' && (
+        <p className="mt-4 rounded-xl border border-gray-200 bg-white px-3.5 py-3 text-xs leading-relaxed text-gray-600">
+          {lang === 'ko'
+            ? '이 이메일 주소로는 결과를 다시 보낼 수 없지만, 전체 프로필 열람은 활성화됐어요.'
+            : 'We cannot resend to this address, but full profile access is active.'}
+        </p>
+      )}
+
+      {unlocked && deliveryStatus === 'sending' && (
+        <p className="mt-3 text-center text-xs text-gray-500" role="status">
+          {lang === 'ko' ? '저장된 결과를 이메일로 보내는 중…' : 'Emailing your saved result…'}
+        </p>
+      )}
 
       {showSentDialog && (
         <SentDialog lang={lang} onClose={() => setShowSentDialog(false)} />
@@ -251,10 +389,9 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
 }
 
 /**
- * Confirmation dialog shown right after a successful unlock submission.
- * Sole job is to tell the user the email was sent and nudge them to check
- * spam — because Resend mail occasionally lands in Gmail/Naver promotions
- * or spam, and confused users assume nothing happened.
+ * Confirmation dialog shown after both access and transactional delivery
+ * succeed. It reinforces the site-wide entitlement and nudges the visitor to
+ * check spam because Gmail/Naver may route a first message away from inbox.
  *
  * Closes on backdrop click, Escape key, or the explicit 확인 button.
  */
@@ -285,12 +422,12 @@ function SentDialog({ lang, onClose }: { lang: string; onClose: () => void }) {
       <div className="relative w-full max-w-xs rounded-2xl bg-white px-5 py-6 text-center shadow-xl">
         <div className="text-3xl mb-3" aria-hidden>📬</div>
         <h4 id="sent-dialog-title" className="text-base font-bold text-gray-900">
-          {lang === 'ko' ? '이메일을 보냈어요!' : 'Email sent!'}
+          {lang === 'ko' ? '전체 결과가 열렸어요!' : 'Your full results are unlocked!'}
         </h4>
         <p className="mt-1.5 text-xs text-gray-500 leading-relaxed">
           {lang === 'ko'
-            ? '스팸함도 체크해주세요.'
-            : 'Be sure to check your spam folder too.'}
+            ? '저장된 결과도 이메일로 보냈어요. 보이지 않으면 스팸함을 확인해주세요.'
+            : 'We also emailed your saved result. Check spam if you do not see it.'}
         </p>
         <button
           type="button"

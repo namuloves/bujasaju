@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { cookies } from 'next/headers';
 import { getEnrichedPersonById } from '@/lib/data/enriched-server';
+import { getDeepBioV2ById } from '@/lib/data/deep-bio-server';
+import { hasStructuredReading } from '@/lib/deepBio';
 import {
   UNLOCK_COOKIE,
   VIEWS_COOKIE,
@@ -32,16 +34,50 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const displayName = person.nameKo || person.name;
-  const title = `${displayName}의 사주 분석 | 부자사주`;
-  const description =
-    person.bioKo || person.bio || `${displayName} - ${person.industry}, 순자산 $${person.netWorth}B`;
+  const bio = getDeepBioV2ById(id);
+  const aliases = person.aliasesKo ?? bio?.aliasesKo ?? [];
+
+  // Title carries the press spelling when there is one, so a query on
+  // "아르테 모레노" matches the title and not just a body the crawler may
+  // never render. Kept to the first alias — titles get clipped ~60 chars.
+  const title = aliases[0]
+    ? `${displayName}(${aliases[0]}) 사주 분석 | 부자사주`
+    : `${displayName}의 사주 분석 | 부자사주`;
+
+  // Description: lead with the chart, because "경신 일주 · 건록격" is what a
+  // saju reader is searching for and what no news article has; then the
+  // reading's one-line hook when a hand-written one exists, else the
+  // Korean bio. The Forbes fallback is last — "852위에 올랐다" tells a
+  // visitor nothing they came for.
+  const chartLead = person.saju
+    ? `${person.saju.ilju} 일주 · ${person.saju.gyeokguk}`
+    : null;
+  const sc = bio?.sajuConnection;
+  const body =
+    (hasStructuredReading(sc) && sc?.oneLineKo) ||
+    person.bioKo ||
+    bio?.personalTraits?.knownForKo ||
+    person.bio ||
+    `${displayName} - ${person.industry}, 순자산 $${person.netWorth}B`;
+  const description = chartLead ? `${chartLead}. ${body}` : body;
   const truncatedDesc = description.length > 160 ? description.slice(0, 157) + '...' : description;
 
   const photoUrl = normalizePhotoForSchema(person.photoUrl);
 
+  const keywords = [
+    displayName,
+    ...aliases,
+    person.name,
+    `${displayName} 사주`,
+    ...aliases.map((a) => `${a} 사주`),
+    ...(person.saju ? [`${person.saju.ilju} 일주`, person.saju.gyeokguk] : []),
+    '부자 사주',
+  ].filter((k): k is string => !!k);
+
   return {
     title,
     description: truncatedDesc,
+    keywords,
     alternates: {
       canonical: `/profile/${id}`,
     },
@@ -67,12 +103,20 @@ export default async function ProfileLayout({ params, children }: Props) {
 
   // Person JSON-LD — helps Google/Bing understand the page is about a specific
   // real person. Enables richer snippets (photo + birthday + occupation).
+  const bio = person ? getDeepBioV2ById(id) : null;
+  const alternateNames = person
+    ? [person.nameKo, ...(person.aliasesKo ?? bio?.aliasesKo ?? [])].filter(
+        (n): n is string => !!n,
+      )
+    : [];
   const jsonLd = person
     ? {
         '@context': 'https://schema.org',
         '@type': 'Person',
         name: person.name,
-        ...(person.nameKo ? { alternateName: person.nameKo } : {}),
+        ...(alternateNames.length
+          ? { alternateName: alternateNames.length === 1 ? alternateNames[0] : alternateNames }
+          : {}),
         url: `${SITE_URL}/profile/${id}`,
         ...(normalizePhotoForSchema(person.photoUrl)
           ? { image: normalizePhotoForSchema(person.photoUrl) }

@@ -57,6 +57,13 @@ export interface Person {
   deathDate?: string; // YYYY-MM-DD, for deceased persons
   /** True when netWorth is an unofficial press estimate (e.g. for celebrities not on Forbes). */
   netWorthEstimated?: boolean;
+  /**
+   * Other Korean spellings the person is searched under, e.g. the press
+   * writes "아르테 모레노" while Forbes' transliteration is "아르투로 모레노".
+   * Used for <title>/description/keywords, JSON-LD alternateName and site
+   * search, so a news-driven query on the press spelling still lands here.
+   */
+  aliasesKo?: string[];
 }
 
 export interface EnrichedPerson extends Person {

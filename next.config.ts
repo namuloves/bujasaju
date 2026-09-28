@@ -30,7 +30,11 @@ const nextConfig: NextConfig = {
     ],
     '/api/people': ['./private-data/enriched-billionaires.json'],
     '/api/search': ['./private-data/enriched-billionaires.json'],
-    '/profile/[id]': ['./private-data/enriched-billionaires.json'],
+    '/profile/[id]': [
+      './private-data/enriched-billionaires.json',
+      // generateMetadata reads the v2 bio from disk for title/description.
+      './private-data/deep-bios-v2/**',
+    ],
     '/sitemap.xml': ['./private-data/enriched-billionaires.json'],
   },
   images: {

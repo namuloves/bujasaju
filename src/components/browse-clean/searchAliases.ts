@@ -56,6 +56,7 @@ export function matchesSearch(person: EnrichedPerson, rawQuery: string): boolean
   const hay = [
     person.name,
     person.nameKo,
+    ...(person.aliasesKo ?? []),
     person.source,
     person.industry,
     person.company,

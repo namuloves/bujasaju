@@ -111,6 +111,7 @@ function extractText(bio: Record<string, unknown>): string {
   // Name
   if (bio.name) parts.push(bio.name as string);
   if (bio.nameKo) parts.push(bio.nameKo as string);
+  if (Array.isArray(bio.aliasesKo)) parts.push(...(bio.aliasesKo as string[]));
 
   return parts.join(' ').toLowerCase();
 }
