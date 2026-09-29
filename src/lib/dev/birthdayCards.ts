@@ -123,15 +123,19 @@ function pillarView(label: PillarView['label'], ju: Ju, ilgan: CheonGan, isDay: 
   };
 }
 
-/** Year · Month · Day pillars (hour is never public), left-to-right for display. */
+/**
+ * 日 · 月 · 年 pillars, left-to-right — the same order the app's SajuHero
+ * uses (時 日 月 年, day pillar leftmost after the unknown hour). Hour is
+ * never public so it is omitted.
+ */
 export function pillarsFor(p: EnrichedPerson): PillarView[] | null {
   const s = p.saju?.saju;
   if (!s?.year || !s?.month || !s?.day) return null;
   const ilgan = s.day.stem;
   return [
-    pillarView('年', s.year, ilgan, false),
-    pillarView('月', s.month, ilgan, false),
     pillarView('日', s.day, ilgan, true),
+    pillarView('月', s.month, ilgan, false),
+    pillarView('年', s.year, ilgan, false),
   ];
 }
 
