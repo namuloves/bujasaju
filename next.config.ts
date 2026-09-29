@@ -36,6 +36,9 @@ const nextConfig: NextConfig = {
       './private-data/deep-bios-v2/**',
     ],
     '/sitemap.xml': ['./private-data/enriched-billionaires.json'],
+    // Internal marketing tool (오늘 태어난 부자 cards).
+    '/api/dev/birthday-card': ['./private-data/enriched-billionaires.json', './public/fonts/**'],
+    '/dev/birthday-cards': ['./private-data/enriched-billionaires.json'],
   },
   images: {
     remotePatterns: [
