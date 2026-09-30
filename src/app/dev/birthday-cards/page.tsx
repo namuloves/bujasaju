@@ -49,6 +49,10 @@ export default async function BirthdayCardsPage({ searchParams }: { searchParams
   const dayPng = `/api/dev/birthday-card?date=${mmdd}&n=${n}${keyQ}`;
   const personPng = (id: string) => `/api/dev/birthday-card?id=${id}${keyQ}`;
   const post = draftPost(mmdd, people, n);
+  // Individual cards render server-side (~2–3s each), so default to the
+  // people on the day card; ?all=1 renders everyone born that day.
+  const showAll = one(sp.all) === '1';
+  const cardPeople = showAll ? people : people.slice(0, n);
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-8 text-gray-900">
@@ -56,7 +60,7 @@ export default async function BirthdayCardsPage({ searchParams }: { searchParams
         <div>
           <p className="text-xs font-medium uppercase tracking-wide text-gray-400">internal · 오늘 태어난 부자</p>
           <h1 className="text-3xl font-bold">{mmDdLabel(mmdd)}</h1>
-          <p className="text-sm text-gray-500">{people.length}명 · 자산순</p>
+          <p className="text-sm text-gray-500">{people.length}명 · 자산순 · <a href="#cards" className="text-indigo-600 underline">개별 카드로 ↓</a></p>
         </div>
         <form className="flex items-center gap-2" action="/dev/birthday-cards" method="get">
           <Link href={href(shiftMmDd(mmdd, -1))} className="rounded-lg border px-3 py-1.5 text-sm hover:bg-gray-50">← 전날</Link>
@@ -106,10 +110,18 @@ export default async function BirthdayCardsPage({ searchParams }: { searchParams
         </div>
       </section>
 
-      <section className="mt-12">
-        <h2 className="mb-3 text-sm font-semibold text-gray-500">개별 카드 (1200×1200)</h2>
+      <section id="cards" className="mt-12 scroll-mt-6">
+        <div className="mb-3 flex items-center gap-3">
+          <h2 className="text-sm font-semibold text-gray-500">개별 카드 (1200×1200) · {cardPeople.length}명</h2>
+          {!showAll && people.length > n && (
+            <Link href={`${href(mmdd)}&all=1`} className="text-sm text-indigo-600 underline">전체 {people.length}명 보기</Link>
+          )}
+          {showAll && (
+            <Link href={href(mmdd)} className="text-sm text-indigo-600 underline">상위 {n}명만</Link>
+          )}
+        </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {people.map((p) => (
+          {cardPeople.map((p) => (
             <div key={p.id} className="rounded-2xl border p-3">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={personPng(p.id)} alt="" className="w-full rounded-xl" loading="lazy" />
