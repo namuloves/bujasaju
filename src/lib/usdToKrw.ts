@@ -23,7 +23,11 @@
  * exact problem we're solving.)
  */
 
-const USD_TO_KRW = 1480.71;
+/**
+ * The one USD→KRW rate used everywhere on the site. Change it here only —
+ * it used to be copy-pasted into 16 files.
+ */
+export const USD_TO_KRW = 1480.71;
 
 /**
  * Format a net-worth value (in billions USD) as a "X.X조원" / "X억원"

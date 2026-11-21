@@ -169,7 +169,7 @@ export default function FloatingNav({ items, scrollRoot, scrollOffset = 80, clas
             type="button"
             onClick={() => jumpTo(it.id)}
             className={
-              'flex items-center gap-1.5 rounded-full whitespace-nowrap text-[11px] font-semibold transition-colors px-2.5 py-1.5 ' +
+              'flex items-center gap-1.5 rounded-full whitespace-nowrap text-[11px] font-medium transition-colors px-2.5 py-1.5 ' +
               (active
                 ? 'bg-gray-900 text-white'
                 : 'text-gray-500 hover:bg-gray-100 hover:text-gray-900')

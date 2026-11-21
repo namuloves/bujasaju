@@ -14,7 +14,7 @@ import CompareWithUser from '@/components/profile/CompareWithUser';
 import RelatedPeople from '@/components/profile/RelatedPeople';
 import type { CheonGan } from '@/lib/saju/types';
 import { industryToKorean } from '@/components/FilterPanel';
-import { rewriteUsdToKrwInline } from '@/lib/usdToKrw';
+import { rewriteUsdToKrwInline, USD_TO_KRW } from '@/lib/usdToKrw';
 
 function normalizePhotoUrl(url: string | undefined | null, name: string): string {
   if (!url) {
@@ -25,7 +25,6 @@ function normalizePhotoUrl(url: string | undefined | null, name: string): string
   return url;
 }
 
-const USD_TO_KRW = 1480.71;
 
 function formatNetWorth(netWorthB: number, isKo: boolean): string {
   if (isKo) {
@@ -83,7 +82,7 @@ export default function ProfilePage() {
   if (!person) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 gap-4">
-        <p className="text-gray-500 text-sm">{lang === 'ko' ? '인물을 찾을 수 없습니다.' : 'Person not found.'}</p>
+        <p className="text-gray-500 text-sm">{lang === 'ko' ? '인물을 찾을 수 없어요.' : 'Person not found.'}</p>
         <button onClick={() => router.back()} className="text-sm text-gray-700 hover:text-black">
           {lang === 'ko' ? '← 돌아가기' : '← Go back'}
         </button>
@@ -149,7 +148,7 @@ export default function ProfilePage() {
             />
           </div>
           <div className="flex-1 min-w-0 flex items-baseline gap-2">
-            <span className="text-sm font-semibold text-gray-900 truncate">{displayName}</span>
+            <span className="text-sm font-medium text-gray-900 truncate">{displayName}</span>
             <span className="text-xs text-gray-500 shrink-0">
               {formatNetWorth(person.netWorth, lang === 'ko')}
             </span>
@@ -178,6 +177,8 @@ export default function ProfilePage() {
               <img
                 src={normalizePhotoUrl(person.photoUrl, person.name)}
                 alt={person.name}
+                // Largest image above the fold — ask the browser to fetch it first.
+                fetchPriority="high"
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
@@ -189,7 +190,7 @@ export default function ProfilePage() {
 
           {/* Bio info */}
           <div className="flex-1 min-w-0 pt-0.5">
-            <h1 className="text-xl sm:text-3xl font-bold text-gray-900 leading-tight flex items-baseline gap-2 flex-wrap">
+            <h1 className="text-xl sm:text-3xl font-medium text-gray-900 leading-tight flex items-baseline gap-2 flex-wrap">
               {displayName}
               {person.nameKo && (
                 <span className="text-sm sm:text-base font-normal text-gray-400">
@@ -212,7 +213,7 @@ export default function ProfilePage() {
                 under a news spike (a sale, a listing) "as of" is the
                 difference between a stale figure and a wrong one. */}
             <div className="flex items-baseline gap-2 mt-2 sm:mt-3 flex-wrap">
-              <span className="font-bold text-gray-900 text-xl sm:text-2xl whitespace-nowrap">
+              <span className="font-medium text-gray-900 text-xl sm:text-2xl whitespace-nowrap">
                 {formatNetWorth(person.netWorth, lang === 'ko')}
               </span>
               {lang === 'ko' && (
@@ -303,7 +304,7 @@ export default function ProfilePage() {
             here would just duplicate the same information. */}
         {person.saju && !visitorHasSaju && (
           <section className="mt-8 sm:mt-10 rounded-2xl bg-gray-50 border border-gray-100 px-4 sm:px-6 py-5 sm:py-6">
-            <h2 className="text-sm font-bold text-gray-900 mb-4 text-center">
+            <h2 className="text-sm font-medium text-gray-900 mb-4 text-center">
               {lang === 'ko' ? `${displayName}의 사주` : `${displayName}'s Saju`}
             </h2>
             <div className="max-w-md mx-auto">

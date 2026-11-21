@@ -54,7 +54,7 @@ function deriveComparison(userSaju: SajuResult, person: EnrichedPerson): Compari
       userSaju,
       tier: 'same_ilgan',
       headline: `${personName}님과 같은 ${userIlgan}(${userIlganOhaeng}) 일간을 공유해요`,
-      detail: '본질적 기질·성격의 뼈대가 같습니다. 일지가 다르니 발현 방식만 달라요.',
+      detail: '본질적 기질·성격의 뼈대가 같아요. 일지가 다르니 발현 방식만 달라요.',
     };
   }
 
@@ -73,7 +73,7 @@ function deriveComparison(userSaju: SajuResult, person: EnrichedPerson): Compari
     userSaju,
     tier: 'different',
     headline: `${personName}님과는 다른 결의 사주예요`,
-    detail: `당신은 ${userIlganOhaeng} 일간, ${personName}님은 ${pIlganOhaeng} 일간 — 부의 작동 방식이 다릅니다.`,
+    detail: `당신은 ${userIlganOhaeng} 일간, ${personName}님은 ${pIlganOhaeng} 일간 — 부의 작동 방식이 달라요.`,
   };
 }
 
@@ -107,7 +107,7 @@ export default function CompareWithUser({ person }: Props) {
     return (
       <section className="rounded-2xl border border-gray-200 bg-gray-50 p-4 sm:p-5">
         <div>
-          <p className="text-sm font-semibold text-gray-900 mb-1">
+          <p className="text-sm font-medium text-gray-900 mb-1">
             {name}님은 {ilju} 일주 · {gyeokguk} — 내 사주와 어디가 겹칠까?
           </p>
           <p className="text-[13px] text-gray-600 leading-relaxed mb-3">
@@ -116,7 +116,7 @@ export default function CompareWithUser({ person }: Props) {
           </p>
           <Link
             href="/"
-            className="inline-flex items-center gap-1 text-[13px] font-semibold text-gray-700 hover:text-black"
+            className="inline-flex items-center gap-1 text-[13px] font-medium text-gray-700 hover:text-black"
           >
             내 사주 입력하기 →
           </Link>
@@ -156,7 +156,7 @@ export default function CompareWithUser({ person }: Props) {
     <section className={`rounded-2xl border ${cardAccent} p-4 sm:p-5`}>
       {/* Header */}
       <div className="mb-4">
-        <h3 className="text-sm font-bold text-gray-900">
+        <h3 className="text-sm font-medium text-gray-900">
           당신과 {personName}님
         </h3>
       </div>
@@ -167,7 +167,7 @@ export default function CompareWithUser({ person }: Props) {
       <div className="space-y-3">
         {/* 나의 사주 */}
         <div>
-          <div className="text-[11px] font-semibold text-gray-700 text-center mb-2">나의 사주</div>
+          <div className="text-[11px] font-medium text-gray-700 text-center mb-2">나의 사주</div>
           <div className="flex justify-center items-start gap-2 sm:gap-3">
             <div className={hourMatch ? matchPanelClass : undefined}>
               <HeroPillar label="時" ju={userSj.hour} ilgan={userIlgan} />
@@ -189,7 +189,7 @@ export default function CompareWithUser({ person }: Props) {
 
         {/* 인물 사주 — uses person's own ilgan so sipsin labels stay correct */}
         <div>
-          <div className="text-[11px] font-semibold text-gray-700 text-center mb-2">
+          <div className="text-[11px] font-medium text-gray-700 text-center mb-2">
             {personName}의 사주
           </div>
           <div className="flex justify-center items-start gap-2 sm:gap-3">
@@ -211,7 +211,7 @@ export default function CompareWithUser({ person }: Props) {
 
       {/* Takeaway sentence underneath the comparison. */}
       <div className="mt-4">
-        <p className="text-[14px] font-semibold text-gray-900 leading-snug">
+        <p className="text-[14px] font-medium text-gray-900 leading-snug">
           {cmp.headline}
         </p>
         {cmp.detail && (

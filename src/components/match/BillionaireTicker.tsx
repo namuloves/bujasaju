@@ -309,7 +309,7 @@ function Face({ person }: { person: EnrichedPerson }) {
         decoding="async"
         className="w-[92px] h-[92px] sm:w-[124px] sm:h-[124px] object-cover rounded-2xl bg-gray-100"
       />
-      <div className="mt-2 text-[12px] sm:text-[13px] font-semibold text-gray-900 truncate">
+      <div className="mt-2 text-[12px] sm:text-[13px] font-medium text-gray-900 truncate">
         {display}
       </div>
       {source && (
@@ -318,13 +318,8 @@ function Face({ person }: { person: EnrichedPerson }) {
         </div>
       )}
       <div
-        className="mt-0.5 text-[11px] sm:text-[12px] font-semibold tracking-wide"
-        style={{
-          backgroundImage: STEM_GRADIENT[stem],
-          backgroundClip: 'text',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-        }}
+        className="mt-0.5 text-[11px] sm:text-[12px] font-medium tracking-wide bg-clip-text text-transparent"
+        style={{ backgroundImage: STEM_GRADIENT[stem] }}
       >
         {ilju}
       </div>

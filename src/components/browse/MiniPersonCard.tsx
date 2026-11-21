@@ -5,6 +5,7 @@ import Link from 'next/link';
 import type { EnrichedPerson } from '@/lib/saju/types';
 import { hasDeepBioSync, hasDeepBioV2Sync, loadDeepBioIndex } from '@/lib/deepBio';
 import { useLanguage } from '@/lib/i18n';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
 
@@ -23,7 +24,6 @@ function normalizePhotoUrl(url: string | undefined | null, name: string): string
   return normalized;
 }
 
-const USD_TO_KRW = 1480.71;
 
 /**
  * Short display name — drops middle names for both Korean and English.
@@ -83,7 +83,7 @@ function CardInner({
       {/* Text overlay */}
       <div className="absolute bottom-0 left-0 right-0 px-2.5 py-2 flex items-end justify-between gap-1">
         <div className="min-w-0">
-          <h4 className="text-white text-[11px] font-bold leading-tight whitespace-nowrap">
+          <h4 className="text-white text-[11px] font-medium leading-tight whitespace-nowrap">
             {shortName(person, isKo)}
           </h4>
           {person.source && (
@@ -100,7 +100,7 @@ function CardInner({
             )}
           </p>
         </div>
-        <p className="text-white/90 text-[10px] font-semibold shrink-0">
+        <p className="text-white/90 text-[10px] font-medium shrink-0">
           {person.saju.ilju}
         </p>
       </div>
@@ -136,7 +136,7 @@ export default function MiniPersonCard({ person, categoryLabel, reserveLabelSpac
     <>
       <div className="flex flex-col">
         {false && (categoryLabel || reserveLabelSpace) && (
-          <p className={`text-sm font-bold mb-2 truncate ${categoryLabel ? 'text-gray-900' : 'invisible'}`}>
+          <p className={`text-sm font-medium mb-2 truncate ${categoryLabel ? 'text-gray-900' : 'invisible'}`}>
             {categoryLabel || '\u00A0'}
           </p>
         )}

@@ -76,3 +76,6 @@ calc-*.ts
 *.zip
 public/email-preview.html
 public/saju-data/
+
+# Files moved aside for deletion (deleting is off in the agent sandbox)
+/_to_delete/

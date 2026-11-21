@@ -119,7 +119,7 @@ export default function EmailCaptureCard() {
 
   return (
     <div ref={gateRef}>
-      <h3 className="text-sm font-bold text-gray-900">
+      <h3 className="text-sm font-medium text-gray-900">
         {t.emailCaptureTitle}
       </h3>
       <p className="mt-0.5 text-xs text-gray-500">{t.emailCaptureSubtitle}</p>
@@ -149,7 +149,7 @@ export default function EmailCaptureCard() {
           <button
             type="submit"
             disabled={status === 'submitting'}
-            className="rounded-lg bg-gray-900 px-3 py-1.5 text-xs font-semibold text-white hover:bg-gray-800 disabled:bg-gray-400 transition-colors"
+            className="rounded-lg bg-gray-900 px-3 py-1.5 text-xs font-medium text-white hover:bg-gray-800 disabled:bg-gray-400 transition-colors"
           >
             {status === 'submitting' ? t.emailCaptureSubmitting : t.emailCaptureSubmit}
           </button>

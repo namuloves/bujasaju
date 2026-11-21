@@ -117,7 +117,7 @@ export default function ProfileWall({ personName }: { personName?: string }) {
           {ko ? '무료 열람을 모두 사용했어요' : 'Free preview used up'}
         </p>
 
-        <h2 className="mt-3 text-xl sm:text-2xl font-bold text-gray-900 leading-snug">
+        <h2 className="mt-3 text-xl sm:text-2xl font-medium text-gray-900 leading-snug">
           {ko
             ? '이메일만 남기면 계속 볼 수 있어요'
             : 'Enter your email to keep reading'}
@@ -150,7 +150,7 @@ export default function ProfileWall({ personName }: { personName?: string }) {
             <button
               type="submit"
               disabled={status === 'submitting'}
-              className="rounded-lg bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90 disabled:opacity-50"
+              className="rounded-lg bg-gray-900 px-5 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90 disabled:opacity-50"
             >
               {status === 'submitting'
                 ? ko ? '확인 중…' : 'Checking…'
@@ -182,7 +182,7 @@ export default function ProfileWall({ personName }: { personName?: string }) {
 
           <p className="text-[11px] leading-relaxed text-gray-400">
             {ko
-              ? '이메일은 전체 열람을 활성화하는 데 사용됩니다. 새 소식 수신은 선택사항입니다.'
+              ? '이메일은 전체 열람을 여는 데만 써요. 새 소식 수신은 선택이에요.'
               : 'Your email activates full access. Product updates are optional.'}
           </p>
         </form>

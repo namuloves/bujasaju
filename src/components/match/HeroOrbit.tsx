@@ -188,10 +188,10 @@ export default function HeroOrbit() {
               }}
             />
           </div>
-          <div className="bg-white/95 backdrop-blur-sm rounded-lg px-2 py-1 border border-gray-100/60 whitespace-nowrap" style={{ boxShadow: '0 2px 12px rgba(0,0,0,0.04)' }}>
-            <p className="text-[10px] font-bold text-gray-800 leading-tight">{person.name}</p>
+          <div className="bg-white/95 backdrop-blur-sm rounded-lg px-2 py-1 border border-gray-100/60 whitespace-nowrap shadow-[0_2px_12px_rgba(0,0,0,0.04)]">
+            <p className="text-[10px] font-medium text-gray-800 leading-tight">{person.name}</p>
             <p className="text-[8px] text-gray-400 leading-tight">{person.source} · {person.netWorth}</p>
-            <p className="text-[8px] font-semibold text-indigo-500 leading-tight">{person.ilju}</p>
+            <p className="text-[8px] font-medium text-indigo-500 leading-tight">{person.ilju}</p>
           </div>
         </div>
       ))}

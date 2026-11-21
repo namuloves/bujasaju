@@ -22,6 +22,40 @@ function isVisible(p: EnrichedPerson): boolean {
   return typeof nw === 'number' && nw > 0;
 }
 
+// Bios (`bio` / `bioKo`) arrive in a second request — see /api/people/bios.
+// Keeping them out of the first response roughly halves what the home page
+// has to download before it can render. Once they land they're merged into
+// the same person objects and every useEnrichedPeople() caller re-renders.
+let biosPromise: Promise<void> | null = null;
+const bioListeners = new Set<() => void>();
+
+function loadBios(people: EnrichedPerson[]): Promise<void> {
+  if (biosPromise) return biosPromise;
+  biosPromise = fetch('/api/people/bios')
+    .then((res) => {
+      if (!res.ok) throw new Error(`Failed to load bios: ${res.status}`);
+      return res.json() as Promise<Record<string, [string | null, string | null]>>;
+    })
+    .then((map) => {
+      for (const p of people) {
+        const b = map[p.id];
+        if (!b) continue;
+        if (b[0]) p.bio = b[0];
+        if (b[1]) p.bioKo = b[1];
+      }
+      // New array identity so hooks/memos keyed on `people` recompute.
+      cachedData = [...people];
+      bioListeners.forEach((fn) => fn());
+    })
+    .catch((err: unknown) => {
+      // Bios are an enhancement — cards just render without them. Allow a
+      // retry on the next ensureBios() call.
+      biosPromise = null;
+      console.warn('[enriched] bios unavailable:', err);
+    });
+  return biosPromise;
+}
+
 export function loadEnrichedPeople(): Promise<EnrichedPerson[]> {
   if (cachedPromise) return cachedPromise;
   // Served by /api/people rather than a file in public/: static assets bypass
@@ -34,9 +68,19 @@ export function loadEnrichedPeople(): Promise<EnrichedPerson[]> {
     .then((data) => {
       const filtered = data.filter(isVisible);
       cachedData = filtered;
+      void loadBios(filtered);
       return filtered;
     });
   return cachedPromise;
+}
+
+/**
+ * Resolves once bios are merged in (or failed to load). Await this before
+ * sending a person's bio somewhere it can't be filled in later — e.g. the
+ * AI summary request or the results email.
+ */
+export function ensureBios(): Promise<void> {
+  return loadEnrichedPeople().then((people) => loadBios(people));
 }
 
 /**
@@ -44,26 +88,27 @@ export function loadEnrichedPeople(): Promise<EnrichedPerson[]> {
  * while loading so callers can render skeletons / spinners.
  *
  * Once any component has kicked off the fetch, further `useEnrichedPeople`
- * calls resolve instantly from the module cache.
+ * calls resolve instantly from the module cache. When bios arrive the hook
+ * returns a new array so consumers re-render with them.
  */
 export function useEnrichedPeople(): { people: EnrichedPerson[]; loading: boolean } {
   const [people, setPeople] = useState<EnrichedPerson[]>(() => cachedData ?? []);
   const [loading, setLoading] = useState<boolean>(() => cachedData === null);
 
   useEffect(() => {
-    if (cachedData) {
-      setPeople(cachedData);
-      setLoading(false);
-      return;
-    }
+    const onBios = () => {
+      if (cachedData) setPeople(cachedData);
+    };
+    bioListeners.add(onBios);
     let cancelled = false;
-    loadEnrichedPeople().then((data) => {
-      if (cancelled) return;
-      setPeople(data);
+    loadEnrichedPeople().then(() => {
+      if (cancelled || !cachedData) return;
+      setPeople(cachedData);
       setLoading(false);
     });
     return () => {
       cancelled = true;
+      bioListeners.delete(onBios);
     };
   }, []);
 

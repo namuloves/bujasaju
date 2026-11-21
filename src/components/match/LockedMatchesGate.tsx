@@ -6,10 +6,12 @@ import { useLanguage } from '@/lib/i18n';
 import { industryToKorean } from '@/components/FilterPanel';
 import type { EnrichedPerson } from '@/lib/saju/types';
 import { EMAIL_RE } from '@/lib/email';
+import { ensureBios } from '@/lib/data/enriched';
 import {
   emailFailureReasonForStatus,
   useEmailCaptureAnalytics,
 } from '@/lib/emailCaptureAnalytics';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 /**
  * LockedMatchesGate — email-capture incentive on the results page.
@@ -45,7 +47,6 @@ function nationalityKo(code: string | undefined, lang: string): string {
   return NATIONALITY_KO[code] || code;
 }
 
-const USD_TO_KRW = 1480.71;
 function formatWorth(netWorthB: number, lang: string): string {
   if (lang === 'ko') {
     const eok = netWorthB * 10 * USD_TO_KRW;
@@ -131,6 +132,8 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
   async function sendResultEmail(recipient: string): Promise<boolean> {
     setDeliveryStatus('sending');
     try {
+      // Bios arrive in a second request; the email shows them.
+      await ensureBios();
       const res = await fetch('/api/send-match-email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -273,11 +276,11 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
     >
       <div className="text-center mb-4">
         {unlocked && (
-          <div className="mx-auto mb-2 flex h-7 w-7 items-center justify-center rounded-full bg-emerald-100 text-sm font-bold text-emerald-700" aria-hidden>
+          <div className="mx-auto mb-2 flex h-7 w-7 items-center justify-center rounded-full bg-emerald-100 text-sm font-medium text-emerald-700" aria-hidden>
             ✓
           </div>
         )}
-        <h3 className="text-sm font-bold text-gray-900">{headline}</h3>
+        <h3 className="text-sm font-medium text-gray-900">{headline}</h3>
         <p className="text-xs text-gray-500 mt-1">{subline}</p>
       </div>
 
@@ -313,7 +316,7 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
             <button
               type="submit"
               disabled={status === 'submitting'}
-              className="rounded-lg bg-gray-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800 disabled:bg-gray-400 transition-colors whitespace-nowrap"
+              className="rounded-lg bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-gray-800 disabled:bg-gray-400 transition-colors whitespace-nowrap"
             >
               {status === 'submitting'
                 ? t.emailCaptureSubmitting
@@ -339,7 +342,7 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
 
           <p className="text-[10.5px] text-gray-400 leading-snug">
             {lang === 'ko'
-              ? '전체 결과 이메일은 바로 보내드려요. 새 소식 수신은 선택사항입니다.'
+              ? '전체 결과 이메일은 바로 보내드려요. 새 소식 수신은 선택이에요.'
               : 'We send your result immediately. Product updates are optional.'}
           </p>
           {status === 'error' && errorMsg && (
@@ -360,7 +363,7 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
           <button
             type="button"
             onClick={handleRetryEmail}
-            className="shrink-0 rounded-lg border border-amber-300 bg-white px-3 py-1.5 text-xs font-semibold text-amber-900 hover:bg-amber-100"
+            className="shrink-0 rounded-lg border border-amber-300 bg-white px-3 py-1.5 text-xs font-medium text-amber-900 hover:bg-amber-100"
           >
             {lang === 'ko' ? '이메일 다시 보내기' : 'Retry email'}
           </button>
@@ -421,7 +424,7 @@ function SentDialog({ lang, onClose }: { lang: string; onClose: () => void }) {
       {/* Card */}
       <div className="relative w-full max-w-xs rounded-2xl bg-white px-5 py-6 text-center shadow-xl">
         <div className="text-3xl mb-3" aria-hidden>📬</div>
-        <h4 id="sent-dialog-title" className="text-base font-bold text-gray-900">
+        <h4 id="sent-dialog-title" className="text-base font-medium text-gray-900">
           {lang === 'ko' ? '전체 결과가 열렸어요!' : 'Your full results are unlocked!'}
         </h4>
         <p className="mt-1.5 text-xs text-gray-500 leading-relaxed">
@@ -432,7 +435,7 @@ function SentDialog({ lang, onClose }: { lang: string; onClose: () => void }) {
         <button
           type="button"
           onClick={onClose}
-          className="mt-5 w-full rounded-lg bg-gray-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-gray-800 transition-colors"
+          className="mt-5 w-full rounded-lg bg-gray-900 px-4 py-2.5 text-sm font-medium text-white hover:bg-gray-800 transition-colors"
         >
           {lang === 'ko' ? '확인' : 'OK'}
         </button>
@@ -462,7 +465,7 @@ function LockedRow({
   // it out and let the parent decide.
   const inner = (
     <>
-      <div className="text-xs font-bold text-gray-400 w-5 shrink-0">#{rank}</div>
+      <div className="text-xs font-medium text-gray-400 w-5 shrink-0">#{rank}</div>
 
       {/* Photo / placeholder. Avatar stays grey until unlocked — we
           never load the real photo before the user submits. */}
@@ -485,11 +488,11 @@ function LockedRow({
 
       <div className="flex-1 min-w-0">
         {unlocked ? (
-          <p className="text-sm font-semibold text-gray-900 leading-tight truncate">
+          <p className="text-sm font-medium text-gray-900 leading-tight truncate">
             {displayName}
           </p>
         ) : (
-          <p className="text-sm font-semibold text-gray-300 leading-tight tracking-wider select-none">
+          <p className="text-sm font-medium text-gray-300 leading-tight tracking-wider select-none">
             ███████
           </p>
         )}
@@ -498,7 +501,7 @@ function LockedRow({
         </p>
       </div>
 
-      <div className="text-sm font-bold text-gray-900 shrink-0 tabular-nums">
+      <div className="text-sm font-medium text-gray-900 shrink-0 tabular-nums">
         {worth}
       </div>
 

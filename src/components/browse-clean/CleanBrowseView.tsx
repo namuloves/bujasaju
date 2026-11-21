@@ -229,7 +229,7 @@ export default function CleanBrowseView({ nav }: Props = {}) {
       ) : inFilteredMode ? (
         <section className="mb-20">
           <header className="mb-6">
-            <h2 className="text-[22px] sm:text-[26px] font-semibold tracking-tight text-gray-900 leading-tight">
+            <h2 className="text-[22px] sm:text-[26px] font-medium tracking-tight text-gray-900 leading-tight">
               {filters.search && countActiveFilters(filters) === 0
                 ? (isKo ? `"${filters.search}" 검색 결과` : `Search: "${filters.search}"`)
                 : humanFilterTitle(filters, isKo)}

@@ -11,6 +11,7 @@ import {
   Section,
   Text,
 } from '@react-email/components';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 /**
  * MatchUnlockEmail — sent after a visitor unlocks the gate on the match
@@ -21,7 +22,6 @@ import {
  * styles only, no external CSS.
  */
 
-const USD_TO_KRW = 1480.71;
 
 function formatWorthKrw(netWorthB: number): string {
   const eok = netWorthB * 10 * USD_TO_KRW;

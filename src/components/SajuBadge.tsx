@@ -25,14 +25,14 @@ export default function SajuBadge({ stem, branch, size = 'md' }: SajuBadgeProps)
     <span className="inline-flex gap-0.5">
       {stem && (
         <span
-          className={`inline-block rounded-l border font-bold ${sizeClasses[size]} ${getOhaengStyle(STEM_TO_OHAENG[stem])}`}
+          className={`inline-block rounded-l border font-medium ${sizeClasses[size]} ${getOhaengStyle(STEM_TO_OHAENG[stem])}`}
         >
           {stem}
         </span>
       )}
       {branch && (
         <span
-          className={`inline-block ${stem ? 'rounded-r' : 'rounded'} border font-bold ${sizeClasses[size]} ${getOhaengStyle(BRANCH_TO_OHAENG[branch])}`}
+          className={`inline-block ${stem ? 'rounded-r' : 'rounded'} border font-medium ${sizeClasses[size]} ${getOhaengStyle(BRANCH_TO_OHAENG[branch])}`}
         >
           {branch}
         </span>

@@ -15,7 +15,7 @@ export default function SajuConfirmCard({ saju, onConfirm, onEdit }: Props) {
 
   return (
     <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8">
-      <h2 className="text-lg font-bold text-center text-gray-900 mb-6">
+      <h2 className="text-lg font-medium text-center text-gray-900 mb-6">
         {t.confirmTitle}
       </h2>
 
@@ -29,15 +29,15 @@ export default function SajuConfirmCard({ saju, onConfirm, onEdit }: Props) {
       <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm mb-6">
         <div>
           <span className="text-gray-500">{t.yourIlju}: </span>
-          <span className="font-semibold text-indigo-600">{saju.ilju}</span>
+          <span className="font-medium text-indigo-600">{saju.ilju}</span>
         </div>
         <div>
           <span className="text-gray-500">{t.yourWolji}: </span>
-          <span className="font-semibold text-indigo-600">{saju.wolji}</span>
+          <span className="font-medium text-indigo-600">{saju.wolji}</span>
         </div>
         <div>
           <span className="text-gray-500">{t.yourGyeokguk}: </span>
-          <span className="font-semibold text-indigo-600">{saju.gyeokguk}</span>
+          <span className="font-medium text-indigo-600">{saju.gyeokguk}</span>
         </div>
       </div>
 
@@ -45,14 +45,14 @@ export default function SajuConfirmCard({ saju, onConfirm, onEdit }: Props) {
         <button
           type="button"
           onClick={onEdit}
-          className="px-5 py-2 text-sm font-semibold text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
+          className="px-5 py-2 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
         >
           {t.edit}
         </button>
         <button
           type="button"
           onClick={onConfirm}
-          className="px-5 py-2 text-sm font-semibold text-white bg-gray-900 hover:bg-black rounded-lg transition-colors"
+          className="px-5 py-2 text-sm font-medium text-white bg-gray-900 hover:bg-black rounded-lg transition-colors"
         >
           {t.seeResults} →
         </button>

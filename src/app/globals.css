@@ -1,31 +1,11 @@
 @import "tailwindcss";
 
-/* Pretendard — Korean font loaded from jsDelivr CDN.
-   Only the weights actually used in the UI are included. */
-@font-face {
-  font-family: 'Pretendard';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Pretendard';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Pretendard';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Pretendard';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-display: swap;
-}
+/* Pretendard (Korean) is self-hosted: src/styles/pretendard is imported in
+   app/layout.tsx. It's the variable dynamic-subset build — 92 woff2 slices
+   split by unicode-range, so a page only downloads the glyph groups it
+   actually renders. Do NOT point this back at a CDN: the CSP in
+   next.config.ts only allows font-src 'self', so external fonts get
+   blocked in production and Korean text silently falls back. */
 
 :root {
   --background: #ffffff;
@@ -35,7 +15,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans), 'Pretendard', sans-serif;
+  --font-sans: var(--font-geist-sans), 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
   --font-mono: var(--font-geist-mono);
 
   /* Brand color scale (base: #0C45A7) — overrides Tailwind's indigo palette */
@@ -50,16 +30,28 @@
   --color-indigo-900: #051e4a;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Light-only for now. A dark `prefers-color-scheme` block used to flip
+   just the page background to near-black while every card stayed
+   bg-white/text-gray-*, so dark-mode visitors got a half-dark page.
+   `color-scheme: light` also keeps native form controls and scrollbars
+   light. Add a real dark theme (dark: variants) before bringing it back. */
+:root {
+  color-scheme: light;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+/* Emphasis uses the medium weight (500); the design avoids 600/700. Tailwind's
+   preflight sets `bolder` (700) on these, so pin them here. In the base layer
+   so any font-* utility still wins. */
+@layer base {
+  b,
+  strong {
+    font-weight: 500;
+  }
 }
 
 /* Hide native scrollbars for horizontal chip rows / similar utility scrollers. */

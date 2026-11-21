@@ -7,6 +7,7 @@ export const maxDuration = 60;
 import { analyzeSaju } from '@/lib/saju/relationships';
 import { buildSajuContext } from '@/lib/saju/sajuContext';
 import type { SajuResult, CheonGan, JiJi } from '@/lib/saju/types';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 /**
  * POST /api/saju-summary
@@ -125,11 +126,11 @@ function translateIndustry(s: string | undefined | null): string {
 }
 
 // Format a USD billion net worth into Korean won (조/억 원).
-// Uses 1 USD = 1480.71 KRW to match MatchResults' USD_TO_KRW client-side,
+// Uses the shared USD_TO_KRW rate (src/lib/usdToKrw.ts), same as the client,
 // so OG image and prompt output agree on the same figure.
 function formatKrw(netWorthUsdB: number): string {
-  // $1B = 10억 USD × 1480.71 KRW/USD = 14,807.1억 원
-  const eokWon = netWorthUsdB * 14807.1; // in 억 원
+  // $1B = 10억 USD × USD_TO_KRW = ~14,807억 원
+  const eokWon = netWorthUsdB * 10 * USD_TO_KRW; // in 억 원
   if (eokWon >= 10000) {
     const jo = eokWon / 10000;
     return `${jo.toFixed(1).replace(/\.0$/, '')}조 원`;
@@ -233,7 +234,7 @@ ${deepBioSection}
 톤:
 - 자연스러운 한국어 산문, 마크다운 없음.
 - 짧은 문장으로 끊어 쓰기 — 한 문장에 절 3개 넘기지 말 것.
-- 단정형 ~합니다/입니다 기반. "~예요/이에요" 어미는 전체에서 1번 이하.
+- 합쇼체로 통일: 모든 문장은 ~습니다/~입니다/~합니다로 끝낼 것. "~예요/이에요/~해요" 같은 해요체, "~다" 해라체, "~함/~음" 어미는 쓰지 말 것.
 - 번역체 금지 — "제공합니다", "선사합니다", "이끌어냅니다", "만들어냅니다", "~경향이 있습니다" 등 사용 불가.
 - "훌륭합니다", "탁월합니다" 같은 오글거리는 칭찬 금지. "많습니다", "두드러집니다", "압도적입니다" 같은 평이한 표현 사용.
 

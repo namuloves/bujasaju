@@ -1,17 +1,11 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import CleanNav, { CleanTab } from '@/components/browse-clean/CleanNav';
+import CleanNav from '@/components/browse-clean/CleanNav';
+import MatchTab from '@/components/match/MatchTab';
 import { loadEnrichedPeople } from '@/lib/data/enriched';
-
-// Match tab carries the legacy MatchTab (unchanged).
-const MatchTab = dynamic(() => import('@/components/match/MatchTab'), {
-  ssr: false,
-  loading: () => (
-    <div className="text-center py-16 text-sm text-gray-400">불러오는 중…</div>
-  ),
-});
+import { setUrlTab, useUrlTab } from '@/lib/useUrlTab';
 
 // Browse tab is the redesigned CleanBrowseView. It receives the nav as a
 // render-prop so the inline search lives inside the header.
@@ -35,29 +29,14 @@ const CleanBrowseView = dynamic(
   },
 );
 
-function getInitialTab(): CleanTab {
-  if (typeof window === 'undefined') return 'match';
-  const params = new URLSearchParams(window.location.search);
-  return params.get('tab') === 'browse' ? 'browse' : 'match';
-}
-
 export default function Home() {
-  const [tab, setTab] = useState<CleanTab>('match');
+  const tab = useUrlTab();
 
   useEffect(() => {
-    setTab(getInitialTab());
     // Pre-warm the 2MB billionaire payload so it's already loaded by the
     // time the user switches to Browse or hits "결과 보기" on Match.
     void loadEnrichedPeople();
   }, []);
-
-  const handleChangeTab = (next: CleanTab) => {
-    setTab(next);
-    if (typeof window === 'undefined') return;
-    const url = new URL(window.location.href);
-    url.searchParams.set('tab', next);
-    window.history.replaceState({}, '', url.toString());
-  };
 
   if (tab === 'browse') {
     // CleanBrowseView owns its own <main> and renders the nav with the
@@ -68,7 +47,7 @@ export default function Home() {
           nav={(search, onSearchChange) => (
             <CleanNav
               activeTab={tab}
-              onChange={handleChangeTab}
+              onChange={setUrlTab}
               search={search}
               onSearchChange={onSearchChange}
             />
@@ -80,7 +59,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white">
-      <CleanNav activeTab={tab} onChange={handleChangeTab} />
+      <CleanNav activeTab={tab} onChange={setUrlTab} />
       <main className="max-w-6xl mx-auto px-6 pt-6 pb-24">
         <MatchTab />
       </main>

@@ -2,6 +2,7 @@ import type { CheonGan, EnrichedPerson, JiJi, Ju, OHaeng } from '@/lib/saju/type
 import { STEM_TO_OHAENG, BRANCH_TO_OHAENG, getBongi } from '@/lib/saju/constants';
 import { getSipSin } from '@/lib/saju/tenGods';
 import { getAllEnrichedPeople, getEnrichedPersonById } from '@/lib/data/enriched-server';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 // Mirrors DEFAULT_PALETTE in components/dev/ColorPicker.tsx (a 'use client'
 // module, so it can't be imported here). Keep the two in sync.
@@ -18,7 +19,6 @@ const PALETTE: Record<OHaeng, { from: string; to: string; angle: number }> = {
  * (/dev/birthday-cards page and /api/dev/birthday-card PNG route).
  */
 
-const USD_TO_KRW = 1480.71;
 
 export const NAT_KO: Record<string, string> = {
   US: '미국', KR: '한국', CN: '중국', JP: '일본', IN: '인도', FR: '프랑스',

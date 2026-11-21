@@ -5,6 +5,7 @@ import Link from 'next/link';
 import type { EnrichedPerson } from '@/lib/saju/types';
 import { hasDeepBioSync, hasDeepBioV2Sync, loadDeepBioIndex } from '@/lib/deepBio';
 import { useLanguage } from '@/lib/i18n';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
 
@@ -21,7 +22,6 @@ function normalizePhotoUrl(url: string | undefined | null, name: string): string
   return normalized;
 }
 
-const USD_TO_KRW = 1480.71;
 
 // Five-element gradients keyed by day stem (천간).
 // 목(wood)·화(fire)·토(earth)·금(metal)·수(water).
@@ -42,12 +42,6 @@ const ILJU_GRADIENT: Record<string, string> = {
   '임': 'linear-gradient(113deg, #005A92 -6.33%, #1B8ACF 116.68%)',
   '계': 'linear-gradient(113deg, #005A92 -6.33%, #1B8ACF 116.68%)',
 };
-
-const ILJU_TEXT_STYLE = {
-  backgroundClip: 'text',
-  WebkitBackgroundClip: 'text',
-  WebkitTextFillColor: 'transparent',
-} as const;
 
 function shortName(person: EnrichedPerson, isKo: boolean): string {
   const raw = isKo ? (person.nameKo ?? person.name) : person.name;
@@ -102,16 +96,13 @@ export default function CleanMiniCard({ person }: Props) {
       </div>
       <div className="mt-2.5 px-0.5">
         <h4 className="text-[13px] leading-tight truncate">
-          <span className="font-semibold text-gray-900">{name}</span>
+          <span className="font-medium text-gray-900">{name}</span>
           {person.saju?.ilju && (
             <>
               <span className="font-normal text-gray-300"> · </span>
               <span
-                className="font-semibold"
-                style={{
-                  backgroundImage: ILJU_GRADIENT[person.saju.ilju[0]],
-                  ...ILJU_TEXT_STYLE,
-                }}
+                className="font-medium bg-clip-text text-transparent"
+                style={{ backgroundImage: ILJU_GRADIENT[person.saju.ilju[0]] }}
               >
                 {person.saju.ilju}
               </span>

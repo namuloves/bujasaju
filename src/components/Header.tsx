@@ -24,7 +24,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between gap-4">
           <div className="min-w-0">
-            <h1 className="text-xl font-bold text-gray-900">
+            <h1 className="text-xl font-medium text-gray-900">
               <a href="/" className="hover:text-indigo-700 transition-colors">
                 부자사주 <span className="text-indigo-600">富者四柱</span>
               </a>

@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Script from 'next/script';
 import { trackEvent } from '@/lib/analytics';
 import { useLanguage } from '@/lib/i18n';
 
@@ -42,7 +43,7 @@ interface Props {
  * A small share widget tailored for Korean users.
  *
  * Button order (KR-audience priority):
- *   1. 카카오톡       — Kakao JS SDK, loaded in root layout.
+ *   1. 카카오톡       — Kakao JS SDK, lazy-loaded by this component.
  *   2. 링크 복사      — works everywhere; the base primitive.
  *   3. 더보기 (native) — `navigator.share`, mobile only.
  *   4. 문자 (SMS)     — `sms:` URI; mobile only (desktop hides it).
@@ -69,25 +70,17 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
     // SMS only makes sense on phones. Use a coarse UA sniff — good enough
     // for deciding whether to show the button.
     setIsMobile(/Mobi|Android|iPhone|iPad/i.test(navigator.userAgent));
-
-    // Initialize Kakao SDK as soon as it's available. The script is loaded
-    // in root layout with strategy="afterInteractive", so it may not be
-    // ready on the first tick — poll briefly then give up.
-    const key = process.env.NEXT_PUBLIC_KAKAO_JS_KEY;
-    if (!key) return;
-    let tries = 0;
-    const id = window.setInterval(() => {
-      tries += 1;
-      const k = window.Kakao;
-      if (k) {
-        if (!k.isInitialized()) k.init(key);
-        window.clearInterval(id);
-      } else if (tries > 40) {
-        window.clearInterval(id);
-      }
-    }, 100);
-    return () => window.clearInterval(id);
   }, []);
+
+  // The Kakao SDK used to load on every page from the root layout. It is
+  // only needed here, so it now loads with this component, during browser
+  // idle time. onReady fires once the script is loaded — and again on every
+  // remount if it's already cached — so no polling is needed.
+  const initKakao = () => {
+    const key = process.env.NEXT_PUBLIC_KAKAO_JS_KEY;
+    const k = window.Kakao;
+    if (key && k && !k.isInitialized()) k.init(key);
+  };
 
   const copyToClipboard = async (value: string): Promise<boolean> => {
     try {
@@ -201,6 +194,12 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
 
   return (
     <div className={containerClass}>
+      <Script
+        src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js"
+        crossOrigin="anonymous"
+        strategy="lazyOnload"
+        onReady={initKakao}
+      />
       {title && (
         <div className="text-xs font-medium text-gray-500">{title}</div>
       )}
@@ -209,8 +208,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
         <button
           type="button"
           onClick={handleKakao}
-          className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-[#3a1d1d] rounded-full transition-opacity shadow-sm hover:opacity-90"
-          style={{ background: '#FEE500' }}
+          className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-[#3a1d1d] rounded-full transition-opacity shadow-sm hover:opacity-90 bg-[#FEE500]"
           aria-label={t.shareKakao}
         >
           <svg aria-hidden viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
@@ -223,7 +221,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
         <button
           type="button"
           onClick={handleCopy}
-          className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-200 rounded-full transition-colors shadow-sm"
+          className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-gray-700 bg-white hover:bg-gray-50 border border-gray-200 rounded-full transition-colors shadow-sm"
           aria-label={t.shareCopyLink}
         >
           <span aria-hidden>{copied ? '✓' : '🔗'}</span>
@@ -235,7 +233,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
           <button
             type="button"
             onClick={handleNativeShare}
-            className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-200 rounded-full transition-colors shadow-sm"
+            className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-gray-700 bg-white hover:bg-gray-50 border border-gray-200 rounded-full transition-colors shadow-sm"
             aria-label={t.shareMore}
           >
             <span aria-hidden>📤</span>
@@ -248,7 +246,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
           <a
             href={smsHref}
             onClick={() => trackShare('sms')}
-            className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-white bg-green-500 hover:bg-green-600 rounded-full transition-colors shadow-sm"
+            className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-white bg-green-500 hover:bg-green-600 rounded-full transition-colors shadow-sm"
             aria-label={t.shareSms}
           >
             <span aria-hidden>💬</span>
@@ -260,11 +258,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
         <button
           type="button"
           onClick={handleInstagram}
-          className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-white rounded-full transition-opacity shadow-sm hover:opacity-90"
-          style={{
-            background:
-              'linear-gradient(45deg, #F58529 0%, #DD2A7B 45%, #8134AF 75%, #515BD4 100%)',
-          }}
+          className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-white rounded-full transition-opacity shadow-sm hover:opacity-90 bg-[linear-gradient(45deg,#F58529_0%,#DD2A7B_45%,#8134AF_75%,#515BD4_100%)]"
           aria-label={t.shareInstagram}
         >
           <svg
@@ -291,10 +285,10 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => trackShare('x')}
-          className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-white bg-black hover:bg-gray-800 rounded-full transition-colors shadow-sm"
+          className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-white bg-black hover:bg-gray-800 rounded-full transition-colors shadow-sm"
           aria-label="X"
         >
-          <span aria-hidden className="font-bold">𝕏</span>
+          <span aria-hidden className="font-medium">𝕏</span>
           <span>X</span>
         </a>
       </div>

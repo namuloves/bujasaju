@@ -4,6 +4,7 @@ import Link from 'next/link';
 import type { EnrichedPerson } from '@/lib/saju/types';
 import { useLanguage } from '@/lib/i18n';
 import { industryToKorean } from '@/components/FilterPanel';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 /**
  * "Where next" for a visitor who landed on a profile from a search or a
@@ -19,7 +20,6 @@ import { industryToKorean } from '@/components/FilterPanel';
  * is a category of one) are skipped rather than padded.
  */
 
-const USD_TO_KRW = 1480.71;
 
 function worthShort(netWorthB: number, isKo: boolean): string {
   if (isKo) {
@@ -115,7 +115,7 @@ function Row({
     <div>
       <div className="flex items-baseline justify-between gap-3 mb-3">
         <div className="min-w-0">
-          <h3 className="text-sm font-bold text-gray-900">{title}</h3>
+          <h3 className="text-sm font-medium text-gray-900">{title}</h3>
           {hint && <p className="text-[11px] text-gray-400 mt-0.5">{hint}</p>}
         </div>
         <Link href={href} className="text-xs text-gray-500 hover:text-gray-900 shrink-0">
@@ -142,7 +142,7 @@ function Row({
                   }}
                 />
               </div>
-              <div className="mt-1.5 text-[13px] font-semibold text-gray-900 truncate">{name}</div>
+              <div className="mt-1.5 text-[13px] font-medium text-gray-900 truncate">{name}</div>
               <div className="text-[11px] text-gray-500 truncate">
                 {worthShort(p.netWorth, isKo)}
                 {p.saju && ` · ${p.saju.ilju}`}

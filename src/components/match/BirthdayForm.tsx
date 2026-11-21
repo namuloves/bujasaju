@@ -1,7 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useLanguage } from '@/lib/i18n';
+import { useCurrentYear } from '@/lib/useCurrentYear';
 
 import BillionaireTicker from './BillionaireTicker';
 import { CHEON_GAN, JI_JI } from '@/lib/saju/constants';
@@ -61,13 +62,17 @@ interface Props {
   onSubmit: (input: MatchInput) => void;
 }
 
-const CURRENT_YEAR = new Date().getFullYear();
-const YEARS = Array.from({ length: CURRENT_YEAR - 1900 + 1 }, (_, i) => CURRENT_YEAR - i);
+const FIRST_YEAR = 1900;
 const MONTHS = Array.from({ length: 12 }, (_, i) => i + 1);
 const DAYS = Array.from({ length: 31 }, (_, i) => i + 1);
 
 export default function BirthdayForm({ initial, onSubmit }: Props) {
   const { t, lang } = useLanguage();
+  const currentYear = useCurrentYear();
+  const years = useMemo(
+    () => Array.from({ length: currentYear - FIRST_YEAR + 1 }, (_, i) => currentYear - i),
+    [currentYear],
+  );
 
   // Birthday mode state. The time-of-birth field was removed from the UI —
   // matching is by 일주 only, which is derived from year/month/day. The
@@ -127,11 +132,11 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
 
       <div className="text-center mt-4 sm:mt-6 mb-6 sm:mb-8 px-6">
         {lang === 'ko' ? (
-          <h2 className="text-[22px] sm:text-[34px] font-extrabold tracking-tight text-gray-900 leading-tight">
+          <h2 className="text-[22px] sm:text-[34px] font-medium tracking-tight text-gray-900 leading-tight">
             나와 같은 사주 일주를<br />가진 부자 찾기
           </h2>
         ) : (
-          <h2 className="text-[22px] sm:text-[34px] font-extrabold tracking-tight text-gray-900 leading-tight">
+          <h2 className="text-[22px] sm:text-[34px] font-medium tracking-tight text-gray-900 leading-tight">
             {t.matchHeadline}
           </h2>
         )}
@@ -150,19 +155,19 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
         <div className="max-w-xl mx-auto border border-gray-200 rounded-2xl p-5 sm:p-7 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
           <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-4">
             <label className="flex flex-col">
-              <span className="text-[11px] font-semibold text-gray-500 mb-1.5">{t.year}</span>
+              <span className="text-[11px] font-medium text-gray-500 mb-1.5">{t.year}</span>
               <select
                 value={year}
                 onChange={(e) => setYear(Number(e.target.value))}
                 className="h-11 px-3 text-sm text-gray-900 border border-gray-200 rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
               >
-                {YEARS.map((y) => (
+                {years.map((y) => (
                   <option key={y} value={y}>{y}</option>
                 ))}
               </select>
             </label>
             <label className="flex flex-col">
-              <span className="text-[11px] font-semibold text-gray-500 mb-1.5">{t.month}</span>
+              <span className="text-[11px] font-medium text-gray-500 mb-1.5">{t.month}</span>
               <select
                 value={month}
                 onChange={(e) => setMonth(Number(e.target.value))}
@@ -174,7 +179,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
               </select>
             </label>
             <label className="flex flex-col">
-              <span className="text-[11px] font-semibold text-gray-500 mb-1.5">{t.day}</span>
+              <span className="text-[11px] font-medium text-gray-500 mb-1.5">{t.day}</span>
               <select
                 value={day}
                 onChange={(e) => setDay(Number(e.target.value))}
@@ -189,7 +194,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
 
           <button
             type="submit"
-            className="group w-full h-[52px] inline-flex items-center justify-center gap-2 bg-gray-900 hover:bg-black text-white text-[15px] font-semibold rounded-xl transition-transform hover:-translate-y-[1px]"
+            className="group w-full h-[52px] inline-flex items-center justify-center gap-2 bg-gray-900 hover:bg-black text-white text-[15px] font-medium rounded-xl transition-transform hover:-translate-y-[1px]"
           >
             {ctaCopy}
             <span className="transition-transform group-hover:translate-x-1">→</span>
@@ -283,7 +288,7 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
                 type="button"
                 onClick={handleDirectSubmit}
                 disabled={!directFormValid}
-                className="px-5 py-2 text-sm font-semibold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                className="px-5 py-2 text-sm font-medium text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 {t.submit}
               </button>

@@ -137,7 +137,7 @@ export default function ResultsCuratedSections({ me, people, excludeIds }: Props
 
   return (
     <section className="space-y-10">
-      <h2 className="text-base font-bold text-gray-900">
+      <h2 className="text-base font-medium text-gray-900">
         다른 부자들도 둘러보세요
       </h2>
 
@@ -160,7 +160,7 @@ export default function ResultsCuratedSections({ me, people, excludeIds }: Props
           <button
             type="button"
             onClick={() => setExpanded(true)}
-            className="text-sm font-semibold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg px-5 py-2.5 transition-colors"
+            className="text-sm font-medium text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-lg px-5 py-2.5 transition-colors"
           >
             더 많은 테마 보기 ({restSections.length})
           </button>

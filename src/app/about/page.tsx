@@ -14,7 +14,7 @@ export default function AboutPage() {
           render as links back into the app. */}
       <CleanNav />
       <main className="max-w-3xl mx-auto px-4 sm:px-6 pt-12 pb-16">
-        <h1 className="text-3xl font-bold tracking-tight text-gray-900">소개</h1>
+        <h1 className="text-3xl font-medium tracking-tight text-gray-900">소개</h1>
         <p className="mt-2 text-sm text-gray-500">부자사주 富者四柱</p>
 
         <div className="mt-10 space-y-6 text-[15px] leading-7 text-gray-700">

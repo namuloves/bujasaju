@@ -204,7 +204,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
                 onMouseEnter={() => setActiveIdx(i)}
                 onMouseLeave={() => setActiveIdx(null)}
                 onClick={() => setActiveIdx(prev => prev === i ? null : i)}
-                style={{ cursor: 'pointer' }}
+                className="cursor-pointer"
               />
               {/* Visible dot */}
               <circle
@@ -214,7 +214,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
                 fill={color}
                 stroke="white"
                 strokeWidth="1.5"
-                style={{ pointerEvents: 'none', transition: 'r 0.15s' }}
+                className="pointer-events-none [transition:r_0.15s]"
               />
               {/* Tooltip */}
               {isActive && (() => {
@@ -236,7 +236,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
                       y={ty + 15}
                       textAnchor="middle"
                       fontSize="11"
-                      fontWeight="600"
+                      fontWeight="500"
                       fill="white"
                     >
                       {label}
@@ -290,7 +290,7 @@ export default function WealthChart({ data, timeline = [], lang = 'en', classNam
             const eventText = rawText.length > 40 ? rawText.slice(0, 40) + '…' : rawText;
             return (
               <div key={i} className={`${bg} rounded-md px-2.5 py-1.5 flex items-start gap-1.5`}>
-                <span className={`${color} text-[11px] font-bold shrink-0 mt-px`}>{arrow} {ann.year}</span>
+                <span className={`${color} text-[11px] font-medium shrink-0 mt-px`}>{arrow} {ann.year}</span>
                 <span className="text-xs text-gray-600 leading-snug">{eventText}</span>
               </div>
             );

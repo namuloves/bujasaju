@@ -25,7 +25,7 @@ export default function CleanSection({ config, people, totalInSection, onShowMor
   return (
     <section className="mb-12">
       <header className="mb-6">
-        <h2 className="text-[22px] sm:text-[26px] font-semibold tracking-tight text-gray-900 leading-tight">
+        <h2 className="text-[22px] sm:text-[26px] font-medium tracking-tight text-gray-900 leading-tight">
           {label}
         </h2>
         {/* Description on the left, "전체 N명 보기" on the right, on the same line. */}

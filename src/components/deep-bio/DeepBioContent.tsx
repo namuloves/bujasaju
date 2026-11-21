@@ -206,14 +206,14 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {/* 1. Saju match callout (only when userSaju is provided) */}
       {userSaju && matchPoints.length > 0 && (
         <section className="bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-100 rounded-xl p-4">
-          <h3 className="text-sm font-bold text-indigo-900 mb-2.5 flex items-center gap-1.5">
+          <h3 className="text-sm font-medium text-indigo-900 mb-2.5 flex items-center gap-1.5">
             <span>🔮</span>
             <span>{lang === 'ko' ? '당신과 닮은 점' : 'Your Connection'}</span>
           </h3>
           <ul className="space-y-1.5 text-sm">
             {matchPoints.map((p, i) => (
               <li key={i} className="flex gap-2 leading-relaxed">
-                <span className={p.type === 'match' ? 'text-emerald-600 font-bold shrink-0' : 'text-rose-500 font-bold shrink-0'}>
+                <span className={p.type === 'match' ? 'text-emerald-600 font-medium shrink-0' : 'text-rose-500 font-medium shrink-0'}>
                   {p.type === 'match' ? '✓' : '✗'}
                 </span>
                 <span className="text-gray-800">{p.text}</span>
@@ -226,7 +226,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {/* 2. Key Facts (label-value) */}
       {!hideKeyFacts && keyFacts.length > 0 && (
         <section>
-          <h3 className="text-sm font-bold text-gray-900 mb-2.5">
+          <h3 className="text-sm font-medium text-gray-900 mb-2.5">
             {lang === 'ko' ? '한눈에 보는 정보' : 'Key Facts'}
           </h3>
           <dl className="rounded-lg border border-gray-100 divide-y divide-gray-100">
@@ -263,7 +263,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
 
         return (
           <section>
-            <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
+            <h3 className="text-[11px] font-medium text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
               {lang === 'ko' ? '사주와 부의 연결' : 'Saju and Wealth'}
             </h3>
 
@@ -279,7 +279,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
             ) : (
               <div className="space-y-5">
                 {sc.oneLineKo && (
-                  <p className="text-[15px] font-semibold text-gray-900 leading-relaxed border-l-2 border-gray-900 pl-3">
+                  <p className="text-[15px] font-medium text-gray-900 leading-relaxed border-l-2 border-gray-900 pl-3">
                     {sc.oneLineKo}
                   </p>
                 )}
@@ -289,7 +289,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
                   .map(({ label, claim }) => (
                     <div key={label}>
                       <div className="flex items-baseline gap-2 mb-1">
-                        <span className="text-[11px] font-bold text-gray-900">{label}</span>
+                        <span className="text-[11px] font-medium text-gray-900">{label}</span>
                         {/* The chart characters the claim rests on. Shown, not
                             hidden: it is the difference between a reading and
                             a horoscope, and it lets a reader check the work. */}
@@ -305,7 +305,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
 
                 {sc.daeunKo && sc.daeunKo.length > 0 && (
                   <div>
-                    <div className="text-[11px] font-bold text-gray-900 mb-2">
+                    <div className="text-[11px] font-medium text-gray-900 mb-2">
                       {lang === 'ko' ? '대운' : 'Luck cycles'}
                     </div>
                     <div className="space-y-3">
@@ -345,7 +345,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {/* 4a. Personal traits — v1 shape: knownFor + philanthropy */}
       {hasTraits && (
         <section>
-          <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
+          <h3 className="text-[11px] font-medium text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
             {lang === 'ko' ? '대표 활동' : 'Known For'}
           </h3>
           <p className="text-sm text-gray-800 leading-relaxed">
@@ -353,7 +353,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
           </p>
           {bio.personalTraits!.philanthropy && (
             <div className="mt-3 pt-3 border-t border-gray-100 flex gap-3 items-baseline">
-              <div className="shrink-0 w-12 text-[11px] font-bold text-gray-400 uppercase tracking-[0.06em]">
+              <div className="shrink-0 w-12 text-[11px] font-medium text-gray-400 uppercase tracking-[0.06em]">
                 {lang === 'ko' ? '자선' : 'Giving'}
               </div>
               <p className="flex-1 text-[13px] text-gray-600 leading-relaxed">
@@ -368,7 +368,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
           or observedTraitsKo/leadershipStyleKo/etc). Only renders when v1 personalTraits is absent. */}
       {!hasTraits && (hasTraitsV2 || hasCharV2) && (
         <section>
-          <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
+          <h3 className="text-[11px] font-medium text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
             {lang === 'ko' ? '인물 분석' : 'Character'}
           </h3>
 
@@ -399,7 +399,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
               <dl className="space-y-3">
                 {entries.map(([key, value], i) => (
                   <div key={i} className="flex gap-3">
-                    <dt className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.06em] w-14 shrink-0 pt-0.5">
+                    <dt className="text-[11px] font-medium text-gray-400 uppercase tracking-[0.06em] w-14 shrink-0 pt-0.5">
                       {(lang === 'ko' ? LABEL_MAP_KO : LABEL_MAP_EN)[key] ?? key}
                     </dt>
                     <dd className="flex-1 text-sm text-gray-800 leading-relaxed">{value}</dd>
@@ -421,7 +421,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {/* 5. Wealth chart — temporarily hidden */}
       {false && hasWealth && (
         <section>
-          <h3 className="text-sm font-bold text-gray-900 mb-2">
+          <h3 className="text-sm font-medium text-gray-900 mb-2">
             {lang === 'ko' ? '자산 변화' : 'Wealth History'}
           </h3>
           <WealthChart
@@ -437,14 +437,14 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {/* 6. Career timeline */}
       {hasTimeline && (
         <section>
-          <h3 className="text-sm font-bold text-gray-900 mb-3">
+          <h3 className="text-sm font-medium text-gray-900 mb-3">
             {lang === 'ko' ? '커리어 타임라인' : 'Career Timeline'}
           </h3>
           <div className="relative pl-5 border-l border-gray-200 space-y-3">
             {bio.careerTimeline.map((event, i) => (
               <div key={i} className="relative">
                 <div className="absolute -left-[24px] top-1 w-2.5 h-2.5 rounded-full bg-gray-900 border-2 border-white shadow-[0_0_0_1px_#ddd]" />
-                <div className="text-[11px] font-bold text-gray-900 tracking-wide">{event.year}</div>
+                <div className="text-[11px] font-medium text-gray-900 tracking-wide">{event.year}</div>
                 <div className="text-[13px] text-gray-600 mt-0.5 leading-snug">
                   {ko(lang, event.event, event.eventKo)}
                 </div>
@@ -457,7 +457,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {/* 7. Quotes — editorial pull-quote style, no boxes */}
       {hasQuotes && (
         <section>
-          <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
+          <h3 className="text-[11px] font-medium text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
             {lang === 'ko' ? '어록' : 'Quotes'}
           </h3>
           <div>
@@ -495,7 +495,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
         if (items.length === 0) return null;
         return (
           <section id="failures" className="scroll-mt-20">
-            <h3 className="text-[11px] font-bold text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
+            <h3 className="text-[11px] font-medium text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
               {lang === 'ko' ? '실패와 교훈' : 'Setbacks & Lessons'}
             </h3>
             <div>
@@ -504,7 +504,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
                   key={i}
                   className={`flex gap-4 py-3.5 ${i > 0 ? 'border-t border-gray-100' : ''}`}
                 >
-                  <div className="shrink-0 w-12 text-[13px] font-bold text-gray-900 tabular-nums leading-snug pt-0.5">
+                  <div className="shrink-0 w-12 text-[13px] font-medium text-gray-900 tabular-nums leading-snug pt-0.5">
                     {f.year}
                   </div>
                   <div className="flex-1 min-w-0 space-y-1.5">
@@ -528,7 +528,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {/* 9. Books */}
       {hasBooks && (
         <section>
-          <h3 className="text-sm font-bold text-gray-900 mb-2.5">
+          <h3 className="text-sm font-medium text-gray-900 mb-2.5">
             {lang === 'ko' ? '도서' : 'Books'}
           </h3>
           {hasAuthored && (
@@ -561,7 +561,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       {/* 10. Sources */}
       {hasSources && (
         <section id="sources" className="scroll-mt-20">
-          <h3 className="text-sm font-bold text-gray-900 mb-2">
+          <h3 className="text-sm font-medium text-gray-900 mb-2">
             {lang === 'ko' ? '📰 출처' : '📰 Sources'}
           </h3>
           <ul className="text-xs text-gray-600 space-y-1.5">
@@ -611,7 +611,7 @@ function QuoteCard({ quote, lang }: { quote: Quote; lang: string }) {
   if (!body) return null;
   return (
     <blockquote className="mb-6 last:mb-0">
-      <p className="text-[15px] sm:text-base font-semibold text-gray-900 leading-relaxed">
+      <p className="text-[15px] sm:text-base font-medium text-gray-900 leading-relaxed">
         &ldquo;{body}&rdquo;
       </p>
       {cite && (
@@ -667,19 +667,19 @@ const DAEUN_TINT: Record<OHaeng, string> = {
 function DaeunPillarCells({ pillar }: { pillar: string }) {
   const chars = [...(pillar ?? '')];
   if (chars.length !== 2) {
-    return <div className="text-xs font-semibold text-gray-900">{pillar}</div>;
+    return <div className="text-xs font-medium text-gray-900">{pillar}</div>;
   }
   const [stem, branch] = chars;
   const stemOh = CANON_STEM_OHAENG[stem as CheonGan];
   const branchOh = CANON_BRANCH_OHAENG[branch as JiJi];
   if (!stemOh || !branchOh) {
-    return <div className="text-xs font-semibold text-gray-900">{pillar}</div>;
+    return <div className="text-xs font-medium text-gray-900">{pillar}</div>;
   }
 
   const Cell = ({ ch, oh }: { ch: string; oh: OHaeng }) => (
     <div className="flex flex-col items-center">
       <div
-        className="w-8 h-8 rounded-lg flex items-center justify-center text-base font-bold text-gray-900"
+        className="w-8 h-8 rounded-lg flex items-center justify-center text-base font-medium text-gray-900"
         style={{ background: DAEUN_TINT[oh] }}
       >
         {ch}

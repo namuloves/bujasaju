@@ -465,7 +465,7 @@ export default function BrowseTab() {
                 <button
                   type="button"
                   onClick={() => setVisibleCount((v) => v + PAGE_SIZE)}
-                  className="px-6 py-2.5 bg-white border border-gray-200 hover:border-gray-300 text-sm font-semibold text-gray-700 rounded-lg transition-colors"
+                  className="px-6 py-2.5 bg-white border border-gray-200 hover:border-gray-300 text-sm font-medium text-gray-700 rounded-lg transition-colors"
                 >
                   더 보기 ({filteredPeople.length - visibleCount}명 남음)
                 </button>

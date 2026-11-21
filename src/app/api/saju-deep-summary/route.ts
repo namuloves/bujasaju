@@ -22,6 +22,7 @@ import type {
   OHaeng,
 } from '@/lib/saju/types';
 import { getFailureKo, type DeepBioV2 } from '@/lib/deepBio';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 /**
  * POST /api/saju-deep-summary
@@ -204,11 +205,11 @@ function buildSajuResult(
   };
 }
 
-// 1 USD = 1480.71 KRW to match MatchResults' client-side USD_TO_KRW,
+// Uses the shared USD_TO_KRW rate (src/lib/usdToKrw.ts), same as the client,
 // so OG image and prompt output agree on the same figure.
 function formatKrw(netWorthUsdB: number): string {
-  // $1B = 10억 USD × 1480.71 KRW/USD = 14,807.1억 원
-  const eokWon = netWorthUsdB * 14807.1; // in 억 원
+  // $1B = 10억 USD × USD_TO_KRW = ~14,807억 원
+  const eokWon = netWorthUsdB * 10 * USD_TO_KRW; // in 억 원
   if (eokWon >= 10000) {
     const jo = eokWon / 10000;
     return `약 ${jo.toFixed(1).replace(/\.0$/, '')}조 원`;
@@ -477,8 +478,8 @@ ${wealthHistory}
 
 - **영어 단어 절대 금지.** 회사명/제품명 같은 고유명사 외에는 무조건 한국어. "PayPal 인수" 같은 회사명은 허용, "Technology 분야" 같은 일반명사는 금지 → "기술 분야"로.
 - **영한 짬뽕 금지.** "capturable하게", "scalable한" 같은 영단어+한국어 활용 형태 절대 금지. 순한국어로 풀어쓰기.
-- **번역체 금지.** "제공합니다", "부여합니다", "가져다줍니다" 금지 → "있어요", "돼요", "거든요" 같은 자연스러운 표현.
-- **톤**: 자연스러운 한국어 경어체 (~합니다/~습니다). 마크다운 헤딩(##)으로 섹션 구분.
+- **번역체 금지.** "제공합니다", "부여합니다", "가져다줍니다" 금지 → "있습니다", "됩니다", "~이기 때문입니다" 같은 평이한 표현.
+- **톤**: 자연스러운 한국어 합쇼체. **모든 문장은 ~습니다/~입니다/~합니다로 끝낼 것.** ~요(해요체), ~다(해라체), ~함/~음(개조식) 어미를 섞지 말 것. 마크다운 헤딩(##)으로 섹션 구분.
 - "null" 금지.
 - **전체 6-8문장 이내.** 섹션 1은 2문장, 섹션 2는 3-4문장. 이상 금지.
 
@@ -640,7 +641,7 @@ ${featuredContext}
 - **다른 외국어 절대 금지** — 러시아어(возможность), 일본어, 중국어 한자(漢字) 등 한국어가 아닌 다른 언어 문자 절대 출력 금지. 한국어와 명백한 영어 고유명사만 OK.
 - "null" 금지.
 
-톤: 짧고 읽기 쉬운 한국어. 한 문장에 절(clause) 3개 이상 이어붙이지 말 것. 자연스러운 경어체.`;
+톤: 짧고 읽기 쉬운 한국어. 한 문장에 절(clause) 3개 이상 이어붙이지 말 것. 합쇼체로 통일 — 모든 문장은 ~습니다/~입니다로 끝낼 것. ~요, ~다, ~함 어미 섞지 말 것.`;
 }
 
 // ─── Route handler ───

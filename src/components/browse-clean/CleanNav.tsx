@@ -125,7 +125,7 @@ export default function CleanNav({
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center gap-3 sm:gap-6">
         {/* Logo + tabs */}
         <div className="flex items-baseline gap-3 sm:gap-6 min-w-0 flex-1 sm:flex-none">
-          <a href="/" className="text-lg font-semibold tracking-tight text-gray-900 shrink-0">
+          <a href="/" className="text-lg font-medium tracking-tight text-gray-900 shrink-0">
             부자사주
           </a>
           <nav className="flex items-center gap-3 sm:gap-5 min-w-0" aria-label="primary">

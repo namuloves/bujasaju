@@ -19,27 +19,25 @@ interface IljuEntry {
   출처: string[];
 }
 
-type IljuDataset = Record<string, IljuEntry>;
+// One small request per 일주 (~6KB) instead of the full 348KB dataset.
+// Cached per page load so revisiting a result doesn't refetch.
+const cache = new Map<string, Promise<IljuEntry | null>>();
 
-let cached: IljuDataset | null = null;
-let inflight: Promise<IljuDataset> | null = null;
-
-async function loadIljuData(): Promise<IljuDataset> {
-  if (cached) return cached;
-  if (inflight) return inflight;
-  inflight = fetch('/saju-data/ilju-summary.json')
+function loadIljuEntry(ilju: string): Promise<IljuEntry | null> {
+  const hit = cache.get(ilju);
+  if (hit) return hit;
+  const p = fetch(`/api/ilju-summary/${encodeURIComponent(ilju)}`)
     .then((r) => {
+      if (r.status === 404) return null;
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      return r.json() as Promise<IljuDataset>;
+      return r.json() as Promise<IljuEntry>;
     })
-    .then((d) => {
-      cached = d;
-      return d;
-    })
-    .finally(() => {
-      inflight = null;
+    .catch((err: unknown) => {
+      cache.delete(ilju); // allow a retry on transient failures
+      throw err;
     });
-  return inflight;
+  cache.set(ilju, p);
+  return p;
 }
 
 interface Props {
@@ -52,10 +50,9 @@ export default function IljuReading({ ilju }: Props) {
 
   useEffect(() => {
     let cancelled = false;
-    loadIljuData()
-      .then((data) => {
+    loadIljuEntry(ilju)
+      .then((found) => {
         if (cancelled) return;
-        const found = data[ilju];
         if (!found) setError(true);
         else setEntry(found);
       })
@@ -83,9 +80,9 @@ export default function IljuReading({ ilju }: Props) {
     <div className="space-y-5">
       {/* Header */}
       <div>
-        <h2 className="text-base font-bold text-gray-900 mb-3">사주 풀이</h2>
+        <h2 className="text-base font-medium text-gray-900 mb-3">사주 풀이</h2>
         <div className="flex items-baseline gap-2">
-          <h3 className="text-xl font-bold text-gray-900">{ilju}</h3>
+          <h3 className="text-xl font-medium text-gray-900">{ilju}</h3>
           <span className="text-sm text-gray-500">({entry.한자})</span>
         </div>
         <p className="mt-2 text-[15px] text-gray-700 leading-relaxed">
@@ -177,7 +174,7 @@ function CollapsibleSection({
       className="border-b border-gray-100 md:border-b-0 [&[open]>summary>span.chev]:rotate-180"
     >
       <summary className="flex items-center justify-between py-3 cursor-pointer list-none md:cursor-default md:py-0 [&::-webkit-details-marker]:hidden">
-        <h3 className="text-sm font-bold text-gray-900">{title}</h3>
+        <h3 className="text-sm font-medium text-gray-900">{title}</h3>
         <svg
           className="chev md:hidden text-gray-400 transition-transform duration-200"
           width="14"

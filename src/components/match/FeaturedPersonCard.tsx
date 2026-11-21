@@ -5,10 +5,10 @@ import type { EnrichedPerson } from '@/lib/saju/types';
 import { hasDeepBioSync } from '@/lib/deepBio';
 import { useLanguage } from '@/lib/i18n';
 import { nationalityToKorean } from '@/components/FilterPanel';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
 
-const USD_TO_KRW = 1480.71;
 
 function formatNetWorthKrw(netWorthBillionsUsd: number): string {
   const eokKrw = netWorthBillionsUsd * 10 * USD_TO_KRW;
@@ -70,16 +70,16 @@ export default function FeaturedPersonCard({ person }: Props) {
       <div className="mt-3">
         {person.nameKo ? (
           <>
-            <h4 className="text-base font-bold text-gray-900">{person.nameKo}</h4>
+            <h4 className="text-base font-medium text-gray-900">{person.nameKo}</h4>
             <p className="text-sm text-gray-400">{person.name}</p>
           </>
         ) : (
-          <h4 className="text-base font-bold text-gray-900">{person.name}</h4>
+          <h4 className="text-base font-medium text-gray-900">{person.name}</h4>
         )}
         <p className="text-sm text-gray-500 mt-1">
           {person.source || person.industry}
         </p>
-        <p className="text-sm font-semibold text-gray-700 mt-1">
+        <p className="text-sm font-medium text-gray-700 mt-1">
           {lang === 'ko' ? formatNetWorthKrw(person.netWorth) : formatNetWorthUsd(person.netWorth)}
         </p>
         <p className="text-xs text-gray-400 mt-0.5">
@@ -98,7 +98,7 @@ export default function FeaturedPersonCard({ person }: Props) {
       {hasDeepBioSync(person.id) && (
         <button
           onClick={() => setShowDeepBio(true)}
-          className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-600 hover:text-indigo-700 transition-colors"
+          className="mt-3 inline-flex items-center gap-1.5 text-xs font-medium text-indigo-600 hover:text-indigo-700 transition-colors"
         >
           {lang === 'ko' ? '자세히 보기 →' : 'View profile →'}
         </button>

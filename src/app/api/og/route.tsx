@@ -1,5 +1,6 @@
 import { ImageResponse } from '@vercel/og';
 import type { NextRequest } from 'next/server';
+import { OG_FONT_CHARS, OG_FONT_UNAVAILABLE_CHARS } from '@/lib/og/fontCoverage';
 
 export const runtime = 'edge';
 
@@ -22,6 +23,56 @@ const NAT_KO: Record<string, string> = {
   NZ: '뉴질랜드', NG: '나이지리아', EG: '이집트', GE: '조지아', LB: '레바논',
 };
 
+/**
+ * Fonts. The full NotoSansKR Bold + Regular are ~9.4MB, but the card only
+ * draws a few strings, so by default we load small subsets (~235KB each,
+ * built by scripts/subset-og-fonts.py). If the text contains a character the
+ * subsets lack — e.g. a rare Hangul syllable in a new name — we load the full
+ * fonts instead so it still renders. Each edge isolate fetches a variant once
+ * and reuses it.
+ */
+type FontVariant = 'subset' | 'full';
+type FontSet = { bold: ArrayBuffer; regular: ArrayBuffer };
+
+const FONT_FILES: Record<FontVariant, { bold: string; regular: string }> = {
+  subset: { bold: 'og/NotoSansKR-Bold.subset.woff', regular: 'og/NotoSansKR-Regular.subset.woff' },
+  full: { bold: 'NotoSansKR-Bold.ttf', regular: 'NotoSansKR-Regular.ttf' },
+};
+
+const SUBSET_CHARS = new Set(OG_FONT_CHARS);
+const UNAVAILABLE_CHARS = new Set(OG_FONT_UNAVAILABLE_CHARS);
+
+/** True when the full fonts could render a character the subsets cannot. */
+function needsFullFonts(texts: string[]): boolean {
+  for (const text of texts) {
+    for (const ch of text) {
+      if (!SUBSET_CHARS.has(ch) && !UNAVAILABLE_CHARS.has(ch)) return true;
+    }
+  }
+  return false;
+}
+
+const fontCache = new Map<FontVariant, Promise<FontSet>>();
+
+function loadFonts(variant: FontVariant, base: string): Promise<FontSet> {
+  const cached = fontCache.get(variant);
+  if (cached) return cached;
+  const get = (file: string) =>
+    fetch(new URL(`/fonts/${file}`, base)).then((r) => {
+      if (!r.ok) throw new Error(`font ${file}: HTTP ${r.status}`);
+      return r.arrayBuffer();
+    });
+  const files = FONT_FILES[variant];
+  const pending = Promise.all([get(files.bold), get(files.regular)])
+    .then(([bold, regular]) => ({ bold, regular }))
+    .catch((err: unknown) => {
+      fontCache.delete(variant); // don't cache a failure
+      throw err;
+    });
+  fontCache.set(variant, pending);
+  return pending;
+}
+
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const ilju = searchParams.get('ilju') || '갑자';
@@ -34,10 +85,19 @@ export async function GET(req: NextRequest) {
   const rawNat = searchParams.get('featuredNat') || '';
   const featuredNat = NAT_KO[rawNat] || rawNat;
 
-  const [fontBold, fontRegular] = await Promise.all([
-    fetch(new URL('/fonts/NotoSansKR-Bold.ttf', req.url)).then(r => r.arrayBuffer()),
-    fetch(new URL('/fonts/NotoSansKR-Regular.ttf', req.url)).then(r => r.arrayBuffer()),
-  ]);
+  // Every user-supplied string drawn on the card. The static copy needs no
+  // check: scripts/subset-og-fonts.py reads its Hangul straight from this file.
+  const variant: FontVariant = needsFullFonts([
+    ilju,
+    featuredName,
+    featuredNameEn,
+    featuredSource,
+    featuredWorth,
+    featuredNat,
+  ])
+    ? 'full'
+    : 'subset';
+  const { bold: fontBold, regular: fontRegular } = await loadFonts(variant, req.url);
 
   return new ImageResponse(
     (
@@ -151,6 +211,11 @@ export async function GET(req: NextRequest) {
         { name: 'NotoSansKR', data: fontBold, weight: 700 as const, style: 'normal' as const },
         { name: 'NotoSansKR', data: fontRegular, weight: 400 as const, style: 'normal' as const },
       ],
+      // Same query string → same image, so let browsers, Kakao/X crawlers
+      // and the Vercel edge reuse it instead of re-rendering every hit.
+      headers: {
+        'Cache-Control': 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=2592000',
+      },
     },
   );
 }

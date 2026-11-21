@@ -19,7 +19,7 @@ export default function TabBar({ activeTab, onChange }: Props) {
         type="button"
         onClick={() => onChange(value)}
         aria-pressed={isActive}
-        className={`relative px-4 py-3 text-sm font-semibold transition-colors ${
+        className={`relative px-4 py-3 text-sm font-medium transition-colors ${
           isActive
             ? 'text-indigo-600'
             : 'text-gray-500 hover:text-gray-800'

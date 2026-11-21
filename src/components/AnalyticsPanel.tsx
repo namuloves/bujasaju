@@ -246,7 +246,7 @@ export default function AnalyticsPanel({
   return (
     <div className="bg-white rounded-xl border border-gray-200 p-5 sm:p-6 mb-4">
       <div className="flex items-center justify-between mb-1">
-        <div className="text-sm font-semibold text-gray-900">{headline}</div>
+        <div className="text-sm font-medium text-gray-900">{headline}</div>
         {hasFilter && (
           <button onClick={clearAll} className="text-xs text-gray-400 hover:text-indigo-600 transition-colors">
             {lang === 'ko' ? '필터 초기화' : 'Reset filters'}
@@ -496,29 +496,25 @@ function PieChart({ title, items, onClick, activeKey }: PieChartProps) {
                     onClick={() => onClick(item.key)}
                   >
                     <tspan
-                      style={{ fontSize: 13, fontVariantNumeric: 'tabular-nums' }}
-                      className="fill-gray-400"
+                      className="fill-gray-400 text-[13px] tabular-nums"
                     >
                       {rankByKey.get(item.key)}.
                     </tspan>
                     <tspan
                       dx={3}
-                      style={{ fontSize: 15, fontWeight: 600 }}
-                      className={isActive ? 'fill-indigo-700' : 'fill-gray-800'}
+                      className={`text-[15px] font-medium ${isActive ? 'fill-indigo-700' : 'fill-gray-800'}`}
                     >
                       {item.label}
                     </tspan>
                     <tspan
                       dx={4}
-                      style={{ fontSize: 14, fontVariantNumeric: 'tabular-nums' }}
-                      className="fill-gray-500"
+                      className="fill-gray-500 text-sm tabular-nums"
                     >
                       {item.count}
                     </tspan>
                     <tspan
                       dx={3}
-                      style={{ fontSize: 14, fontVariantNumeric: 'tabular-nums' }}
-                      className="fill-gray-400"
+                      className="fill-gray-400 text-sm tabular-nums"
                     >
                       · {pct}%
                     </tspan>
@@ -595,7 +591,7 @@ function FullListModal({ title, items, onClick, activeKey, onClose, total }: Ful
     >
       <div className="bg-white rounded-2xl shadow-2xl w-[90vw] max-w-sm max-h-[80vh] flex flex-col overflow-hidden">
         <div className="flex items-center justify-between px-5 py-3 border-b border-gray-200 shrink-0">
-          <h3 className="text-sm font-bold text-gray-900">{title}</h3>
+          <h3 className="text-sm font-medium text-gray-900">{title}</h3>
           <button
             onClick={onClose}
             className="w-7 h-7 flex items-center justify-center rounded-full bg-gray-100 text-gray-500 hover:bg-gray-200 transition-colors"

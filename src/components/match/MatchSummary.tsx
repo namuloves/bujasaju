@@ -177,7 +177,7 @@ function cacheKey(
  */
 function staticFallback(user: UseSummaryArgs['user'], matches: EnrichedPerson[]): string {
   if (matches.length === 0) {
-    return `${user.ilju} 일주인 당신의 사주 구조와 정확히 일치하는 부자는 아직 데이터에 없네요. 다른 기운의 매칭을 살펴보세요.`;
+    return `${user.ilju} 일주인 당신의 사주 구조와 정확히 일치하는 부자는 아직 데이터에 없습니다. 다른 기운의 매칭을 살펴보세요.`;
   }
   const top = matches[0];
   const industries = new Set(matches.slice(0, 8).map((m) => m.industry));
@@ -283,7 +283,7 @@ export default function MatchSummary({ saju, matches }: Props) {
 
   return (
     <div className="relative">
-      <h3 className="text-base font-bold text-gray-900 mb-3">매칭 부자 분석</h3>
+      <h3 className="text-base font-medium text-gray-900 mb-3">매칭 부자 분석</h3>
       {showSkeleton ? (
         <div className="space-y-2.5 animate-pulse">
           <div className="h-3.5 bg-gray-100 rounded w-full" />

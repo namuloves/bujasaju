@@ -6,6 +6,7 @@ import type { CuratedSectionConfig } from './curatedSections';
 import { hasDeepBioSync } from '@/lib/deepBio';
 import MiniPersonCard from './MiniPersonCard';
 import { useLanguage } from '@/lib/i18n';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
 
@@ -25,7 +26,6 @@ function normalizePhotoUrl(url: string | undefined | null, name: string): string
   return normalized;
 }
 
-const USD_TO_KRW = 1480.71;
 
 /**
  * Short display name — drops middle names for both Korean and English.
@@ -79,7 +79,7 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
       {/* Section header */}
       <div className="flex items-baseline justify-between mb-3">
         <div>
-          <h3 className="text-lg font-bold text-gray-900">
+          <h3 className="text-lg font-medium text-gray-900">
             {label}
           </h3>
           <p className="text-xs text-gray-400 mt-0.5">
@@ -122,7 +122,7 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
             {/* Text overlay */}
             <div className="absolute bottom-0 left-0 right-0 px-2.5 py-2 flex items-end justify-between gap-1">
               <div className="min-w-0">
-                <h4 className="text-white text-[11px] font-bold leading-tight whitespace-nowrap">
+                <h4 className="text-white text-[11px] font-medium leading-tight whitespace-nowrap">
                   {shortName(cover, isKo)}
                 </h4>
                 {cover.source && (
@@ -139,7 +139,7 @@ export default function CuratedSection({ config, people, totalInSection, onShowM
                   )}
                 </p>
               </div>
-              <p className="text-white/90 text-[10px] font-semibold shrink-0">
+              <p className="text-white/90 text-[10px] font-medium shrink-0">
                 {cover.saju.ilju}
               </p>
             </div>

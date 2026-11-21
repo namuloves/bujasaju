@@ -138,7 +138,7 @@ export default function FeedbackCard({ ilju }: Props) {
           <button
             type="submit"
             disabled={status === 'submitting-comment' || comment.trim().length === 0}
-            className="rounded-lg bg-gray-900 px-4 py-1.5 text-xs font-semibold text-white hover:bg-gray-800 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
+            className="rounded-lg bg-gray-900 px-4 py-1.5 text-xs font-medium text-white hover:bg-gray-800 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
           >
             {status === 'submitting-comment' ? t.feedbackCommentSubmitting : t.feedbackCommentSubmit}
           </button>

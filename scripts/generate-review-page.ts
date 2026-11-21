@@ -1,6 +1,6 @@
 /**
  * Generates an interactive review page for the REVIEW-flagged candidates
- * from the Serper results. Output: public/photos-review.html
+ * from the Serper results. Output: .scratch/photos-review.html
  *
  * Features:
  *  - Only shows entries where autoApply=false (needs eyeball)
@@ -18,7 +18,9 @@
 import * as fs from 'fs';
 
 const RESULTS_PATH = '/Users/namu_1/sajubuja/scripts/photos-serper-results.json';
-const OUTPUT_PATH = '/Users/namu_1/sajubuja/public/photos-review.html';
+// Internal review page — written to .scratch/ (gitignored), NOT public/,
+// so it never gets deployed and served to the world.
+const OUTPUT_PATH = `${process.cwd()}/.scratch/photos-review.html`;
 
 interface RankedImage {
   title?: string;

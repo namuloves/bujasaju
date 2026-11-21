@@ -11,12 +11,14 @@ import { getAllEnrichedPeople } from '@/lib/data/enriched-server';
  * user-agent check and no rate limit, making the bot-blocking layer moot.
  * Serving the same data through a route puts it back behind those controls.
  *
- * On the payload: bios stay in. They look like an easy 1.1MB saving (39% of
- * the response), but they are genuinely rendered — PersonCard.tsx:152,
- * SingleMatchCard.tsx:68, Top5FacesRow.tsx:397 and profile/[id]/page.tsx:244
- * all display them, and PersonCard has a toggle that expands the full text.
- * Dropping or truncating them would blank out visible UI. What we DO drop is
- * `netWorth <= 0` rows, matching the filter the client already applied.
+ * On the payload: this is the LITE list — everything except `bio` and
+ * `bioKo`. Those two fields were ~1.1MB of the ~2.9MB response (≈650KB →
+ * ≈315KB gzipped without them) and nothing needs them for the first paint.
+ * They are still rendered (PersonCard, SingleMatchCard, FeaturedPersonCard,
+ * Top5FacesRow) and searched (searchAliases), so the client fetches them
+ * from /api/people/bios right after this list arrives and merges them in —
+ * see src/lib/data/enriched.ts. We also drop `netWorth <= 0` rows, matching
+ * the filter the client already applied.
  *
  * Cost: the CDN carries this, not the function. `s-maxage` lets Vercel serve
  * repeat requests from the edge, so going from a static file to a route
@@ -36,7 +38,8 @@ function getPayload(): string {
   if (_payload) return _payload;
   // getAllEnrichedPeople() already filters netWorth <= 0 and caches the
   // parsed array for the process lifetime.
-  _payload = JSON.stringify(getAllEnrichedPeople());
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  _payload = JSON.stringify(getAllEnrichedPeople().map(({ bio, bioKo, ...rest }) => rest));
   return _payload;
 }
 
@@ -48,8 +51,10 @@ export async function GET() {
         'Content-Type': 'application/json; charset=utf-8',
         // Public + immutable-ish: same bytes for every visitor. A day of edge
         // caching with a long SWR window means near-zero function invocations
-        // while still picking up a redeploy's data within a day.
-        'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate=604800',
+        // while still picking up a redeploy's data within a day. `max-age`
+        // lets the browser reuse it for an hour, so navigating back to the
+        // home page or reopening it doesn't re-download the list.
+        'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800',
       },
     });
   } catch (err) {

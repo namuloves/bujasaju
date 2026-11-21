@@ -2,19 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
-import Script from "next/script";
+import "@/styles/pretendard/pretendardvariable-dynamic-subset.css";
 import "./globals.css";
 import { LanguageProvider } from "@/lib/i18n";
 import Footer from "@/components/Footer";
-import ColorPicker from "@/components/dev/ColorPicker";
-import dynamic from "next/dynamic";
-import "css-spec/style.css";
-
-// Dev-only css-spec overlay — toggle with ⌥D. Tree-shaken in production.
-const DesignSpecOverlay =
-  process.env.NODE_ENV !== "production"
-    ? dynamic(() => import("css-spec/client").then((m) => m.DesignSpecOverlay))
-    : () => null;
+import DevTools from "@/components/dev/DevTools";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,10 +26,10 @@ export const metadata: Metadata = {
     },
   },
   title: "부자사주 富者四柱 - 세계 부자들의 사주 분석",
-  description: "세계 부자 500명의 사주 팔자를 분석합니다. 일주, 격국, 월지로 검색해 보세요.",
+  description: "세계 부자 3,000명의 사주 팔자를 분석해요. 일주, 격국, 월지로 검색해 보세요.",
   openGraph: {
     title: "부자사주 富者四柱 - 세계 부자들의 사주 분석",
-    description: "세계 부자 500명의 사주 팔자를 분석합니다. 일주, 격국, 월지로 검색해 보세요.",
+    description: "세계 부자 3,000명의 사주 팔자를 분석해요. 일주, 격국, 월지로 검색해 보세요.",
     url: '/',
     siteName: '부자사주 富者四柱',
     locale: 'ko_KR',
@@ -46,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "부자사주 富者四柱 - 세계 부자들의 사주 분석",
-    description: "세계 부자 500명의 사주 팔자를 분석합니다. 일주, 격국, 월지로 검색해 보세요.",
+    description: "세계 부자 3,000명의 사주 팔자를 분석해요. 일주, 격국, 월지로 검색해 보세요.",
   },
 };
 
@@ -75,21 +67,15 @@ export default function RootLayout({
           {children}
           {modal}
           <Footer />
-          {/* Floating color picker — only renders when URL has ?dev=colors */}
-          <ColorPicker />
+          {/* ?dev=colors color picker + dev-only css-spec overlay (⌥D).
+              Both are lazy chunks — nothing ships to regular visitors. */}
+          <DevTools />
         </LanguageProvider>
         <Analytics />
         {/* GA4 via @next/third-parties: handles SPA navigation page_view
             events automatically and avoids the next/script hydration race
             that left dataLayer with only [["js"], ["config"]] entries. */}
         <GoogleAnalytics gaId="G-75TZ2JD6DS" />
-        <Script
-          src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
-      
-        <DesignSpecOverlay />
       </body>
       {/* Google AdSense.
        *

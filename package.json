@@ -6,10 +6,11 @@
     "dev": "next dev",
     "prebake": "tsx scripts/prebake-saju.ts",
     "deep-bio-index": "tsx scripts/build-deep-bio-index.ts",
-    "build": "tsx scripts/prebake-saju.ts && tsx scripts/build-deep-bio-index.ts && tsx scripts/build-search-index.ts && next build",
+    "build": "tsx scripts/check-korean-style.ts && tsx scripts/prebake-saju.ts && tsx scripts/build-deep-bio-index.ts && tsx scripts/build-search-index.ts && next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "check:ko": "tsx scripts/check-korean-style.ts"
   },
   "dependencies": {
     "@fullstackfamily/manseryeok": "^1.0.8",

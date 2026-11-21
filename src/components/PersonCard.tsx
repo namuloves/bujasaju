@@ -11,6 +11,7 @@ import type { CheonGan, JiJi } from '@/lib/saju/types';
 import SajuBadge from './SajuBadge';
 import { useLanguage } from '@/lib/i18n';
 import { nationalityToKorean } from './FilterPanel';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 interface PersonCardProps {
   person: EnrichedPerson;
@@ -57,7 +58,6 @@ function normalizePhotoUrl(url: string | undefined | null, name: string): string
   return normalized;
 }
 
-const USD_TO_KRW = 1480.71;
 const USD_TO_KRW_DATE = '2026.04.09';
 
 function formatNetWorthUsd(netWorth: number): string {
@@ -185,11 +185,11 @@ export default function PersonCard({ person, defaultShowChart = false }: PersonC
       <div className="p-3">
         {person.nameKo ? (
           <>
-            <h3 className="font-semibold text-gray-900 text-sm truncate">{person.nameKo}</h3>
+            <h3 className="font-medium text-gray-900 text-sm truncate">{person.nameKo}</h3>
             <p className="text-[11px] text-gray-400 truncate">{person.name}</p>
           </>
         ) : (
-          <h3 className="font-semibold text-gray-900 text-sm truncate">{person.name}</h3>
+          <h3 className="font-medium text-gray-900 text-sm truncate">{person.name}</h3>
         )}
         {/* Source */}
         <p className="text-xs text-gray-500 truncate mt-0.5">

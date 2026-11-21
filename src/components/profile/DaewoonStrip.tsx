@@ -86,7 +86,7 @@ export default function DaewoonStrip({ person }: Props) {
     <section>
       <div className="mb-3">
         <div className="flex items-baseline gap-2">
-          <h3 className="text-sm font-bold text-gray-900">대운 흐름</h3>
+          <h3 className="text-sm font-medium text-gray-900">대운 흐름</h3>
           <span className="text-xs text-gray-500">
             {result.isForward ? '순행' : '역행'} · {result.startAge}세 시작
           </span>
@@ -134,7 +134,7 @@ function DaewoonBox({ period, isCurrent }: { period: DaeUnPeriod; isCurrent: boo
         {/* Stem cell — 천간. Background tint follows the stem's ohaeng. */}
         <div className="flex flex-col items-center">
           <div
-            className="w-9 h-9 rounded-lg flex items-center justify-center text-lg font-bold text-gray-900"
+            className="w-9 h-9 rounded-lg flex items-center justify-center text-lg font-medium text-gray-900"
             style={{ background: stemBg }}
           >
             {period.stem}
@@ -146,7 +146,7 @@ function DaewoonBox({ period, isCurrent }: { period: DaeUnPeriod; isCurrent: boo
         {/* Branch cell — 지지. Independently colored by its own ohaeng. */}
         <div className="flex flex-col items-center">
           <div
-            className="w-9 h-9 rounded-lg flex items-center justify-center text-lg font-bold text-gray-900"
+            className="w-9 h-9 rounded-lg flex items-center justify-center text-lg font-medium text-gray-900"
             style={{ background: branchBg }}
           >
             {period.branch}

@@ -15,9 +15,8 @@ import type { EnrichedPerson } from '@/lib/saju/types';
 import { useLanguage } from '@/lib/i18n';
 import { industryToKorean } from '@/components/FilterPanel';
 import { fetchDeepBioV2, hasDeepBioV2Sync } from '@/lib/deepBio';
-import { rewriteUsdToKrwInline } from '@/lib/usdToKrw';
+import { rewriteUsdToKrwInline, USD_TO_KRW } from '@/lib/usdToKrw';
 
-const USD_TO_KRW = 1480.71;
 function formatWorthKo(netWorthB: number): string {
   const eok = netWorthB * 10 * USD_TO_KRW;
   const jo = eok / 10000;
@@ -361,23 +360,23 @@ function bioContextTailKo(person: EnrichedPerson): string {
       : null;
   const validYear = year != null && year > 1900 && year < 2050;
 
-  // "1963년생으로 식음료 분야에서 활동하고 있다."
+  // "1963년생으로 식음료 분야에서 활동하고 있습니다." (합쇼체, to match bioKo)
   if (validYear && hasKoIndustry) {
-    fragments.push(`${year}년생으로 ${industry} 분야에서 활동하고 있다.`);
+    fragments.push(`${year}년생으로 ${industry} 분야에서 활동하고 있습니다.`);
   } else if (hasKoIndustry) {
-    fragments.push(`${industry} 분야에서 활동하고 있다.`);
+    fragments.push(`${industry} 분야에서 활동하고 있습니다.`);
   } else if (validYear) {
-    fragments.push(`${year}년생이다.`);
+    fragments.push(`${year}년생입니다.`);
   }
 
   if (typeof person.netWorth === 'number' && person.netWorth > 0) {
-    const eok = person.netWorth * 10 * 1480.71;
+    const eok = person.netWorth * 10 * USD_TO_KRW;
     const jo = eok / 10000;
     const formatted =
       jo >= 1
         ? `약 ${jo >= 10 ? Math.round(jo) : jo.toFixed(1)}조 원`
         : `약 ${Math.round(eok).toLocaleString('ko-KR')}억 원`;
-    fragments.push(`자산 규모는 ${formatted} 수준이다.`);
+    fragments.push(`자산 규모는 ${formatted} 수준입니다.`);
   }
 
   return fragments.join(' ');
@@ -514,10 +513,10 @@ function Top3Row({
         {/* Right side — name/worth row, then meta, then bio paragraph. */}
         <div className="min-w-0 flex-1">
           <div className="flex items-baseline justify-between gap-2">
-            <p className="text-[15px] font-bold text-gray-900 leading-tight truncate">
+            <p className="text-[15px] font-medium text-gray-900 leading-tight truncate">
               {displayName}
             </p>
-            <p className="text-[14px] font-bold text-gray-900 whitespace-nowrap">
+            <p className="text-[14px] font-medium text-gray-900 whitespace-nowrap">
               {formatWorthKo(person.netWorth)}
             </p>
           </div>

@@ -216,15 +216,15 @@ export default function RevealAnimation({ saju, onDone }: Props) {
       >
         <div>
           <span className="text-gray-500">{t.yourIlju}: </span>
-          <span className="font-semibold text-indigo-600">{saju.ilju}</span>
+          <span className="font-medium text-indigo-600">{saju.ilju}</span>
         </div>
         <div>
           <span className="text-gray-500">{t.yourWolji}: </span>
-          <span className="font-semibold text-indigo-600">{saju.wolji}</span>
+          <span className="font-medium text-indigo-600">{saju.wolji}</span>
         </div>
         <div>
           <span className="text-gray-500">{t.yourGyeokguk}: </span>
-          <span className="font-semibold text-indigo-600">{saju.gyeokguk}</span>
+          <span className="font-medium text-indigo-600">{saju.gyeokguk}</span>
         </div>
       </div>
 
@@ -248,7 +248,7 @@ export default function RevealAnimation({ saju, onDone }: Props) {
         )}
         {phase === 'results' && (
           <div className="reveal-count text-center">
-            <div className="text-2xl sm:text-3xl font-bold text-gray-900">
+            <div className="text-2xl sm:text-3xl font-medium text-gray-900">
               {t.revealFound(totalMatches)}
             </div>
           </div>

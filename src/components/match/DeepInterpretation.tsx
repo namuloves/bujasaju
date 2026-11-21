@@ -16,6 +16,7 @@
 import { useEffect, useState } from 'react';
 import type { SajuResult, EnrichedPerson } from '@/lib/saju/types';
 import { sanitizeSummaryText } from '@/lib/sanitizeSummary';
+import { ensureBios } from '@/lib/data/enriched';
 
 interface Props {
   saju: SajuResult;
@@ -78,6 +79,9 @@ function streamFor(
   (async () => {
     try {
       const fSaju = featured.saju;
+      // Bios load in a second request; make sure they're merged before
+      // we hand the featured person's bio to the model.
+      await ensureBios();
       const res = await fetch('/api/saju-deep-summary', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -188,7 +192,7 @@ function renderInline(text: string): React.ReactNode {
     if (match.index > lastIndex) {
       parts.push(text.slice(lastIndex, match.index));
     }
-    parts.push(<strong key={`b${i++}`} className="font-semibold text-gray-900">{match[1]}</strong>);
+    parts.push(<strong key={`b${i++}`} className="font-medium text-gray-900">{match[1]}</strong>);
     lastIndex = match.index + match[0].length;
   }
   if (lastIndex < text.length) parts.push(text.slice(lastIndex));
@@ -223,7 +227,7 @@ function renderMarkdown(text: string): React.ReactNode {
     b.kind === 'h2' ? (
       <h3
         key={idx}
-        className="mt-5 mb-2 text-sm font-bold text-indigo-700 first:mt-0"
+        className="mt-5 mb-2 text-sm font-medium text-indigo-700 first:mt-0"
       >
         {renderInline(b.content)}
       </h3>
@@ -262,7 +266,7 @@ export default function DeepInterpretation({
   return (
     <div className="space-y-2">
       <div className="flex items-baseline gap-2">
-        <h2 className="text-sm font-bold text-gray-900">
+        <h2 className="text-sm font-medium text-gray-900">
           {featuredName}와의 심층 풀이
         </h2>
       </div>

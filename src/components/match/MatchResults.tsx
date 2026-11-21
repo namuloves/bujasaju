@@ -16,6 +16,7 @@ import Top5FacesRow, { pickTop3WithKorean } from './Top5FacesRow';
 import EmailCaptureCard from './EmailCaptureCard';
 import LockedMatchesGate from './LockedMatchesGate';
 import FeedbackCard from './FeedbackCard';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
 
@@ -25,7 +26,6 @@ const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
  */
 const SHOW_OG_IMAGE = false;
 
-const USD_TO_KRW = 1480.71;
 function formatWorthKrwShort(netWorthB: number): string {
   const eok = netWorthB * 10 * USD_TO_KRW;
   const jo = eok / 10000;
@@ -289,7 +289,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
           <p className="text-sm text-gray-500 mb-1">
             {me.ilju} 일주 · {me.wolji} 월지 · {me.gyeokguk}
           </p>
-          <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-3">
+          <h2 className="text-lg sm:text-xl font-medium text-gray-900 mb-3">
             아직 비슷한 사주의 부자를 못 찾았어요
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed max-w-md mx-auto">
@@ -328,7 +328,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
             shares it. Heading is left-aligned to match the other section
             headers; chart cells stay centered for visual weight. */}
         <div className="mb-4">
-          <h3 className="text-sm font-bold text-gray-900 mb-4">당신의 사주</h3>
+          <h3 className="text-sm font-medium text-gray-900 mb-4">당신의 사주</h3>
           <div className="max-w-[420px] mx-auto">
             <div className="flex justify-center gap-2 sm:gap-2.5">
               <HeroPillar label="時" ju={me.saju.hour} ilgan={me.saju.day.stem as CheonGan} large />
@@ -356,7 +356,7 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
               matched billionaires. On lg+ this stays the left column. */}
           {top3.length > 1 && (
             <div>
-              <h3 className="text-sm font-bold text-gray-900 mb-3">
+              <h3 className="text-sm font-medium text-gray-900 mb-3">
                 나랑 같은 {me.ilju} 일주를 가진 부자
               </h3>
               <Top5FacesRow

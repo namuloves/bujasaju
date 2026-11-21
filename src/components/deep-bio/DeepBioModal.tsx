@@ -19,8 +19,8 @@ import { JIJANGGAN } from '@/lib/saju/constants';
 import { calculateTwelveStages } from '@/lib/saju/analyzer/twelveStages';
 import { evaluateHyungChungPaHae } from '@/lib/saju/analyzer/hyungChungPaHae';
 import { findHarmonies } from '@/lib/saju/relationships';
+import { USD_TO_KRW } from '@/lib/usdToKrw';
 
-const USD_TO_KRW = 1480.71;
 const USD_TO_KRW_DATE = '2026.04.09';
 
 /** Normalize photo URL, proxying Wikimedia hotlinks (blocked by browser ORB). */
@@ -173,18 +173,18 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
     <div className="space-y-6">
       {/* 격국 */}
       <section>
-        <h3 className="text-sm font-bold text-gray-900 mb-2">
+        <h3 className="text-sm font-medium text-gray-900 mb-2">
           {lang === 'ko' ? '격국 (格局)' : 'Pattern (격국)'}
         </h3>
         <div className="bg-gray-50 rounded-xl p-4 flex items-center gap-3">
-          <span className="text-lg font-bold text-indigo-600">{saju.gyeokguk}</span>
+          <span className="text-lg font-medium text-indigo-600">{saju.gyeokguk}</span>
           {hanja && <span className="text-sm text-gray-400">{hanja}</span>}
         </div>
       </section>
 
       {/* 사주팔자 Chart — uses HeroPillar to match the results page */}
       <section>
-        <h3 className="text-sm font-bold text-gray-900 mb-2">
+        <h3 className="text-sm font-medium text-gray-900 mb-2">
           {lang === 'ko' ? '사주팔자' : 'Four Pillars'}
         </h3>
         <div className="flex justify-center gap-1.5">
@@ -202,7 +202,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
               <span className="text-[9px] text-gray-400 tracking-wide mr-1.5">{lang === 'ko' ? '형충파해' : 'Clashes'}</span>
               {matches.map((m, i) => (
                 <span key={i} className="inline-block mr-1.5">
-                  <span className="font-semibold text-rose-600">{m.kind}</span> {m.a}{m.b}
+                  <span className="font-medium text-rose-600">{m.kind}</span> {m.a}{m.b}
                 </span>
               ))}
             </div>
@@ -218,7 +218,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
               <span className="text-[9px] text-gray-400 tracking-wide mr-1.5">{lang === 'ko' ? '합' : 'Harmonies'}</span>
               {haps.map((h, i) => (
                 <span key={i} className="inline-block mr-1.5">
-                  <span className="font-semibold text-emerald-600">{short(h.type)}</span>{' '}
+                  <span className="font-medium text-emerald-600">{short(h.type)}</span>{' '}
                   {h.elements.join('')}{h.resultElement ? `→${h.resultElement}` : ''}
                 </span>
               ))}
@@ -229,7 +229,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
 
       {/* 일주 */}
       <section>
-        <h3 className="text-sm font-bold text-gray-900 mb-2">
+        <h3 className="text-sm font-medium text-gray-900 mb-2">
           {lang === 'ko' ? '일주 (日柱)' : 'Day Pillar (일주)'}
         </h3>
         <div className="bg-gray-50 rounded-xl p-4 flex items-center gap-2">
@@ -283,6 +283,10 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             <img
               src={normalizePhotoUrl(person.photoUrl, person.name, 200)}
               alt={person.name}
+              // Lazy so the copy hidden at this breakpoint (display:none) is never
+              // downloaded; the visible one is in view and loads right away.
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
@@ -292,7 +296,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
           </div>
         </div>
         <div className="flex-1 min-w-0 pt-0.5">
-          <h2 className="text-lg font-bold text-gray-900 leading-tight flex items-baseline gap-2 flex-wrap">
+          <h2 className="text-lg font-medium text-gray-900 leading-tight flex items-baseline gap-2 flex-wrap">
             {displayName}
             {(() => {
               const age = computeAge(person.birthday, person.deathDate);
@@ -310,7 +314,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             })()}
           </h2>
           <div className="flex items-baseline gap-2 mt-1.5">
-            <span className="font-bold text-gray-900 text-base">
+            <span className="font-medium text-gray-900 text-base">
               {lang === 'ko' ? formatNetWorth(person.netWorth, 'ko') : `$${person.netWorth}B`}
             </span>
             {lang === 'ko' && (
@@ -352,6 +356,10 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             <img
               src={normalizePhotoUrl(person.photoUrl, person.name, 400)}
               alt={person.name}
+              // Lazy so the copy hidden at this breakpoint (display:none) is never
+              // downloaded; the visible one is in view and loads right away.
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
@@ -362,7 +370,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex items-baseline gap-3">
-            <h2 className="text-xl font-bold text-gray-900">{displayName}</h2>
+            <h2 className="text-xl font-medium text-gray-900">{displayName}</h2>
             {person.nameKo && lang === 'ko' && (
               <span className="text-sm text-gray-400">{person.name}</span>
             )}
@@ -379,7 +387,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
             })()}
           </div>
           <div className="flex items-center gap-2 mt-1 text-sm text-gray-500 flex-wrap">
-            <span className="font-bold text-gray-900 text-lg">
+            <span className="font-medium text-gray-900 text-lg">
               {lang === 'ko' ? formatNetWorth(person.netWorth, 'ko') : `$${person.netWorth}B`}
             </span>
             {lang === 'ko' && (
@@ -458,15 +466,9 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
       {isDesktop ? (
         /* ---- Desktop: centered modal ---- */
         <div
-          className={`bg-white rounded-2xl flex flex-col overflow-hidden shadow-2xl transition-all duration-300 ease-out ${
+          className={`bg-white rounded-2xl flex flex-col overflow-hidden shadow-2xl transition-all duration-300 ease-out w-[75vw] max-w-[1100px] h-[92vh] max-h-[92vh] ${
             visible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
           }`}
-          style={{
-            width: '75vw',
-            maxWidth: '1100px',
-            height: '92vh',
-            maxHeight: '92vh',
-          }}
         >
           {header}
           <div ref={scrollRef} className="flex-1 overflow-y-auto">
@@ -481,7 +483,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
                 {/* Top row: 사주 차트 (left, fit-to-content) + 한눈에 보는 정보 (right, fills remaining) */}
                 <section className="flex gap-16 items-start">
                   <div className="shrink-0 w-72">
-                    <h3 className="text-sm font-bold text-gray-900 mb-4">
+                    <h3 className="text-sm font-medium text-gray-900 mb-4">
                       {lang === 'ko' ? '사주' : 'Saju'}
                     </h3>
                     <div className="flex justify-between gap-3">
@@ -524,7 +526,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
                           <span className="text-[9px] text-gray-400 tracking-wide mr-1.5">{lang === 'ko' ? '형충파해' : 'Clashes'}</span>
                           {matches.map((m, i) => (
                             <span key={i} className="inline-block mr-1.5">
-                              <span className="font-semibold text-rose-600">{m.kind}</span> {m.a === m.b ? `${m.a}${m.b}` : `${m.a}${m.b}`}
+                              <span className="font-medium text-rose-600">{m.kind}</span> {m.a === m.b ? `${m.a}${m.b}` : `${m.a}${m.b}`}
                             </span>
                           ))}
                         </div>
@@ -541,7 +543,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
                           <span className="text-[9px] text-gray-400 tracking-wide mr-1.5">{lang === 'ko' ? '합' : 'Harmonies'}</span>
                           {haps.map((h, i) => (
                             <span key={i} className="inline-block mr-1.5">
-                              <span className="font-semibold text-emerald-600">{short(h.type)}</span>{' '}
+                              <span className="font-medium text-emerald-600">{short(h.type)}</span>{' '}
                               {h.elements.join('')}
                               {h.resultElement ? `→${h.resultElement}` : ''}
                             </span>
@@ -551,7 +553,7 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
                     })()}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-sm font-bold text-gray-900 mb-3">
+                    <h3 className="text-sm font-medium text-gray-900 mb-3">
                       {lang === 'ko' ? '한눈에 보는 정보' : 'Key Facts'}
                     </h3>
                     <dl className="rounded-lg border border-gray-100 divide-y divide-gray-100">
@@ -618,12 +620,10 @@ export default function DeepBioModal({ person, onClose, userSaju }: Props) {
       ) : (
         /* ---- Mobile: bottom sheet ---- */
         <div
-          className={`absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl flex flex-col overflow-hidden ${
+          className={`absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl flex flex-col overflow-hidden h-[98dvh] max-h-[98dvh] ${
             !dragging ? 'transition-transform duration-300 ease-out' : ''
           }`}
           style={{
-            height: '98dvh',
-            maxHeight: '98dvh',
             transform: visible ? `translateY(${dragY}px)` : 'translateY(100%)',
           }}
           onTouchStart={handleTouchStart}

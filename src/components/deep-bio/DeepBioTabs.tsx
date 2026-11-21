@@ -58,7 +58,7 @@ export function EmptyBioState({ lang }: { lang: string }) {
       <div className="text-3xl mb-3">🔒</div>
       <p className="text-sm text-gray-500">
         {lang === 'ko'
-          ? '이 인물의 상세 프로필은 준비 중입니다.'
+          ? '이 인물의 상세 프로필은 준비 중이에요.'
           : 'Detailed profile for this person is coming soon.'}
       </p>
     </div>
@@ -76,7 +76,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
       {/* Mobile: early life section (on desktop it's in the modal header) */}
       {bio.childhood && (
         <section className="lg:hidden">
-          <h3 className="text-sm font-bold text-gray-900 mb-2">
+          <h3 className="text-sm font-medium text-gray-900 mb-2">
             {lang === 'ko' ? '🧒 성장 배경' : '🧒 Early Life'}
           </h3>
           <div className="text-sm text-gray-700 space-y-2">
@@ -92,7 +92,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
       {/* Mobile: wealth chart — temporarily hidden */}
       {false && bio.wealthHistory.length >= 2 && (
         <section className="lg:hidden">
-          <h3 className="text-sm font-bold text-gray-900 mb-2">
+          <h3 className="text-sm font-medium text-gray-900 mb-2">
             {lang === 'ko' ? '자산 변화' : 'Wealth History'}
           </h3>
           <WealthChart data={bio.wealthHistory} timeline={bio.careerTimeline} lang={lang} className="bg-gray-50 rounded-xl p-3" source={bio.wealthHistorySource} />
@@ -104,14 +104,14 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
         <div className="hidden lg:grid lg:grid-cols-2 lg:gap-6">
           {bio.careerTimeline.length > 0 && (
             <section>
-              <h3 className="text-sm font-bold text-gray-900 mb-3">
+              <h3 className="text-sm font-medium text-gray-900 mb-3">
                 {lang === 'ko' ? '커리어 타임라인' : 'Career Timeline'}
               </h3>
               <div className="relative pl-5 border-l-2 border-indigo-100 space-y-3">
                 {bio.careerTimeline.map((event, i) => (
                   <div key={i} className="relative">
                     <div className="absolute -left-[27px] top-0.5 w-3 h-3 rounded-full bg-indigo-500 border-2 border-white" />
-                    <div className="text-[10px] font-bold text-indigo-600">{event.year}</div>
+                    <div className="text-[10px] font-medium text-indigo-600">{event.year}</div>
                     <div className="text-[13px] text-gray-700 mt-0.5">{ko(lang, event.event, event.eventKo)}</div>
                   </div>
                 ))}
@@ -121,7 +121,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
 
           {false && bio.wealthHistory.length >= 2 && (
             <section>
-              <h3 className="text-sm font-bold text-gray-900 mb-2">
+              <h3 className="text-sm font-medium text-gray-900 mb-2">
                 {lang === 'ko' ? '자산 변화' : 'Wealth History'}
               </h3>
               <WealthChart data={bio.wealthHistory} timeline={bio.careerTimeline} lang={lang} className="bg-gray-50 rounded-xl p-3" source={bio.wealthHistorySource} />
@@ -133,14 +133,14 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
       {/* Mobile: career timeline */}
           {bio.careerTimeline.length > 0 && (
             <section className="lg:hidden">
-              <h3 className="text-sm font-bold text-gray-900 mb-3">
+              <h3 className="text-sm font-medium text-gray-900 mb-3">
                 {lang === 'ko' ? '커리어 타임라인' : 'Career Timeline'}
               </h3>
               <div className="relative pl-6 border-l-2 border-indigo-100 space-y-4">
                 {bio.careerTimeline.map((event, i) => (
                   <div key={i} className="relative">
                     <div className="absolute -left-[31px] top-1 w-3 h-3 rounded-full bg-indigo-500 border-2 border-white" />
-                    <div className="text-xs font-bold text-indigo-600">{event.year}</div>
+                    <div className="text-xs font-medium text-indigo-600">{event.year}</div>
                     <div className="text-[15px] leading-snug text-gray-700 mt-0.5">{ko(lang, event.event, event.eventKo)}</div>
                   </div>
                 ))}
@@ -150,13 +150,13 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
 
           {bio.failures.length > 0 && (
             <section>
-              <h3 className="text-sm font-bold text-gray-900 mb-2">
+              <h3 className="text-sm font-medium text-gray-900 mb-2">
                 {lang === 'ko' ? '💥 실패와 역경' : '💥 Failures & Setbacks'}
               </h3>
               <div className="space-y-3">
                 {bio.failures.map((f, i) => (
                   <div key={i} className="bg-amber-50 rounded-lg p-3">
-                    <div className="text-xs font-bold text-amber-700">{f.year}</div>
+                    <div className="text-xs font-medium text-amber-700">{f.year}</div>
                     <p className="text-[13px] text-gray-700 mt-1">{ko(lang, f.description, f.descriptionKo)}</p>
                     {f.lesson && (
                       <p className="text-xs text-amber-600 mt-1.5 italic">→ {ko(lang, f.lesson, f.lessonKo)}</p>
@@ -169,7 +169,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
 
           {bio.personalTraits && (
             <section>
-              <h3 className="text-sm font-bold text-gray-900 mb-2">
+              <h3 className="text-sm font-medium text-gray-900 mb-2">
                 {lang === 'ko' ? '🧬 특징' : '🧬 Traits'}
               </h3>
               <div className="text-sm text-gray-700 space-y-1.5">
@@ -183,7 +183,7 @@ function StoryTab({ bio, unlocked, onUnlock, lang, mobileHeader }: { bio: DeepBi
 
           {bio.sources && bio.sources.length > 0 && (
             <section>
-              <h3 className="text-sm font-bold text-gray-900 mb-2">
+              <h3 className="text-sm font-medium text-gray-900 mb-2">
                 {lang === 'ko' ? '📰 출처' : '📰 Sources'}
               </h3>
               <ul className="text-xs text-gray-600 space-y-1.5">
@@ -222,7 +222,7 @@ function QuotesTab({ bio, unlocked, onUnlock, lang }: { bio: DeepBio; unlocked: 
   if (bio.quotes.length === 0) {
     return (
       <div className="text-center py-12 text-sm text-gray-400">
-        {lang === 'ko' ? '등록된 어록이 없습니다.' : 'No quotes available.'}
+        {lang === 'ko' ? '등록된 어록이 없어요.' : 'No quotes available.'}
       </div>
     );
   }
@@ -259,7 +259,7 @@ function BooksTab({ bio, lang }: { bio: DeepBio; lang: string }) {
   if (!hasAuthored && !hasRecommended) {
     return (
       <div className="text-center py-12 text-sm text-gray-400">
-        {lang === 'ko' ? '등록된 도서 정보가 없습니다.' : 'No book information available.'}
+        {lang === 'ko' ? '등록된 도서 정보가 없어요.' : 'No book information available.'}
       </div>
     );
   }
@@ -268,7 +268,7 @@ function BooksTab({ bio, lang }: { bio: DeepBio; lang: string }) {
     <div className="space-y-6">
       {hasAuthored && (
         <section>
-          <h3 className="text-sm font-bold text-gray-900 mb-2">
+          <h3 className="text-sm font-medium text-gray-900 mb-2">
             {lang === 'ko' ? '저서' : 'Authored'}
           </h3>
           <div className="space-y-2">
@@ -280,7 +280,7 @@ function BooksTab({ bio, lang }: { bio: DeepBio; lang: string }) {
       )}
       {hasRecommended && (
         <section>
-          <h3 className="text-sm font-bold text-gray-900 mb-2">
+          <h3 className="text-sm font-medium text-gray-900 mb-2">
             {lang === 'ko' ? '📖 추천 도서' : '📖 Recommended'}
           </h3>
           <div className="space-y-2">
@@ -313,7 +313,7 @@ export function PaywallGate({ onUnlock, lang, extra }: { onUnlock: () => void; l
       <div className="absolute inset-x-0 top-0 h-12 bg-gradient-to-b from-white to-transparent z-10 pointer-events-none" />
       <div className="bg-gradient-to-b from-gray-50 to-white rounded-xl border border-gray-200 p-6 text-center">
         <div className="text-2xl mb-2">🔐</div>
-        <h4 className="text-sm font-bold text-gray-900">
+        <h4 className="text-sm font-medium text-gray-900">
           {lang === 'ko' ? '더 알아보기' : 'See more'}
           {extra && <span className="text-indigo-500 ml-1">{extra}</span>}
         </h4>
@@ -324,7 +324,7 @@ export function PaywallGate({ onUnlock, lang, extra }: { onUnlock: () => void; l
         </p>
         <button
           onClick={onUnlock}
-          className="px-5 py-2 text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition-colors"
+          className="px-5 py-2 text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition-colors"
         >
           {lang === 'ko' ? '잠금 해제 (준비 중)' : 'Unlock (Coming Soon)'}
         </button>

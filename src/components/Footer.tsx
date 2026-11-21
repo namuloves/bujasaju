@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
           <div>
-            <a href="/" className="text-base font-semibold tracking-tight text-gray-900">
+            <a href="/" className="text-base font-medium tracking-tight text-gray-900">
               부자사주 <span className="text-indigo-600">富者四柱</span>
             </a>
             <p className="mt-2 text-xs text-gray-500">

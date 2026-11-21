@@ -42,7 +42,7 @@ function InlineRow({ label, options, active, onPick, visible = 4 }: InlineRowPro
 
   return (
     <div className="flex items-center gap-2 min-w-0">
-      <span className="text-[11px] font-semibold text-gray-500 whitespace-nowrap shrink-0">
+      <span className="text-[11px] font-medium text-gray-500 whitespace-nowrap shrink-0">
         {label}
       </span>
       <div className="flex flex-wrap items-center gap-1 min-w-0">
@@ -192,7 +192,7 @@ export default function CleanInlineFilters({
           Desktop (lg+): 4 cols in a single row. */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-2 mb-4">
         <div className="flex items-center gap-2 min-w-0">
-          <span className="text-[11px] font-semibold text-gray-500 whitespace-nowrap shrink-0">
+          <span className="text-[11px] font-medium text-gray-500 whitespace-nowrap shrink-0">
             {isKo ? '국적' : 'Country'}
           </span>
           <InlineDropdown
@@ -203,7 +203,7 @@ export default function CleanInlineFilters({
           />
         </div>
         <div className="flex items-center gap-2 min-w-0">
-          <span className="text-[11px] font-semibold text-gray-500 whitespace-nowrap shrink-0">
+          <span className="text-[11px] font-medium text-gray-500 whitespace-nowrap shrink-0">
             {isKo ? '산업' : 'Industry'}
           </span>
           <InlineDropdown
@@ -256,7 +256,7 @@ export default function CleanInlineFilters({
           />
         </div>
         <div className="flex-[1.1_1.1_0%] min-w-0 flex items-center gap-2">
-          <span className="text-[11px] font-semibold text-gray-500 whitespace-nowrap shrink-0">
+          <span className="text-[11px] font-medium text-gray-500 whitespace-nowrap shrink-0">
             {isKo ? '일주' : 'Day Pillar'}
           </span>
           <InlineDropdown

@@ -2,6 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: ['[::1]'],
+  // Year the bundle was built. Pages are prerendered, so anything that needs
+  // "the current year" must render this on the server and only switch to the
+  // real clock after hydration (see src/lib/useCurrentYear.ts).
+  env: {
+    NEXT_PUBLIC_BUILD_YEAR: String(new Date().getFullYear()),
+  },
   experimental: {
     // The persistent Turbopack cache is corrupted on this workspace path and
     // prevents `next dev` from staying online. Disable it for reliable local
@@ -29,12 +35,14 @@ const nextConfig: NextConfig = {
       './private-data/enriched-billionaires.json',
     ],
     '/api/people': ['./private-data/enriched-billionaires.json'],
+    '/api/people/bios': ['./private-data/enriched-billionaires.json'],
     '/api/search': ['./private-data/enriched-billionaires.json'],
     '/profile/[id]': [
       './private-data/enriched-billionaires.json',
       // generateMetadata reads the v2 bio from disk for title/description.
       './private-data/deep-bios-v2/**',
     ],
+    '/api/ilju-summary/[ilju]': ['./public/saju-data/ilju-summary.json'],
     '/sitemap.xml': ['./private-data/enriched-billionaires.json'],
     // Internal marketing tool (오늘 태어난 부자 cards).
     '/api/dev/birthday-card': ['./private-data/enriched-billionaires.json', './public/fonts/**'],

@@ -133,13 +133,13 @@ export function HeroPillar({
         {stemSipsin}
       </div>
       <div
-        className={`${cell} border flex items-center justify-center font-bold shadow-sm ${stemClasses} ${highlightStem ? 'ring-2 ring-indigo-400 ring-offset-1' : ''}`}
+        className={`${cell} border flex items-center justify-center font-medium shadow-sm ${stemClasses} ${highlightStem ? 'ring-2 ring-indigo-400 ring-offset-1' : ''}`}
         style={stemStyle}
       >
         {ju.stem}
       </div>
       <div
-        className={`${cell} border mt-1 flex items-center justify-center font-bold shadow-sm ${branchClasses} ${highlightBranch ? 'ring-2 ring-indigo-400 ring-offset-1' : ''}`}
+        className={`${cell} border mt-1 flex items-center justify-center font-medium shadow-sm ${branchClasses} ${highlightBranch ? 'ring-2 ring-indigo-400 ring-offset-1' : ''}`}
         style={branchStyle}
       >
         {ju.branch}
@@ -161,7 +161,7 @@ export default function SajuHero({ saju, totalMatches, onReset, featuredPerson, 
       <div className="px-4 sm:px-6 py-5 sm:py-6">
         {/* Headline */}
         <div className="text-center mb-3">
-          <div className="text-xs font-bold text-gray-600">
+          <div className="text-xs font-medium text-gray-600">
             {t.yourSaju}
           </div>
         </div>
@@ -179,17 +179,17 @@ export default function SajuHero({ saju, totalMatches, onReset, featuredPerson, 
           <div>
             <span className="text-gray-500">{t.yourIlju}</span>
             <span className="mx-1.5 text-gray-300">·</span>
-            <span className="font-bold text-indigo-600">{saju.ilju}</span>
+            <span className="font-medium text-indigo-600">{saju.ilju}</span>
           </div>
           <div>
             <span className="text-gray-500">{t.yourWolji}</span>
             <span className="mx-1.5 text-gray-300">·</span>
-            <span className="font-bold text-indigo-600">{saju.wolji}</span>
+            <span className="font-medium text-indigo-600">{saju.wolji}</span>
           </div>
           <div>
             <span className="text-gray-500">{t.yourGyeokguk}</span>
             <span className="mx-1.5 text-gray-300">·</span>
-            <span className="font-bold text-indigo-600">
+            <span className="font-medium text-indigo-600">
               {saju.gyeokguk}
               {hanja && <span className="text-gray-400 font-normal ml-1">{hanja}</span>}
             </span>
@@ -200,7 +200,7 @@ export default function SajuHero({ saju, totalMatches, onReset, featuredPerson, 
         {fpSaju && (
           <div className="mb-4 mt-8">
             <div className="text-center mb-3">
-              <div className="text-xs font-bold text-gray-600">
+              <div className="text-xs font-medium text-gray-600">
                 {lang === 'ko'
                   ? `${featuredPerson!.nameKo ?? featuredPerson!.name}의 사주`
                   : `${featuredPerson!.name}'s Saju`}
@@ -216,17 +216,17 @@ export default function SajuHero({ saju, totalMatches, onReset, featuredPerson, 
               <div>
                 <span className="text-gray-500">{t.yourIlju}</span>
                 <span className="mx-1.5 text-gray-300">·</span>
-                <span className="font-bold text-indigo-600">{fpSaju.ilju}</span>
+                <span className="font-medium text-indigo-600">{fpSaju.ilju}</span>
               </div>
               <div>
                 <span className="text-gray-500">{t.yourWolji}</span>
                 <span className="mx-1.5 text-gray-300">·</span>
-                <span className="font-bold text-indigo-600">{fpSaju.wolji}</span>
+                <span className="font-medium text-indigo-600">{fpSaju.wolji}</span>
               </div>
               <div>
                 <span className="text-gray-500">{t.yourGyeokguk}</span>
                 <span className="mx-1.5 text-gray-300">·</span>
-                <span className="font-bold text-indigo-600">
+                <span className="font-medium text-indigo-600">
                   {fpSaju.gyeokguk}
                   {GYEOKGUK_NAMES[fpSaju.gyeokguk] && (
                     <span className="text-gray-400 font-normal ml-1">{GYEOKGUK_NAMES[fpSaju.gyeokguk]}</span>
@@ -242,7 +242,7 @@ export default function SajuHero({ saju, totalMatches, onReset, featuredPerson, 
           <div className="inline-flex items-center gap-2 py-2 bg-white rounded-full">
             <span className="text-indigo-400">✨</span>
             <span className="text-sm">
-              <span className="font-bold text-indigo-600">
+              <span className="font-medium text-indigo-600">
                 {t.countPeople(totalMatches)}
               </span>
               <span className="text-gray-500">
@@ -256,7 +256,7 @@ export default function SajuHero({ saju, totalMatches, onReset, featuredPerson, 
               {lang === 'ko' ? (
                 <>
                   당신의 사주 조합({saju.ilju}·{saju.wolji})은 전체 {comboStats.totalCombos}개 조합 중{' '}
-                  <span className="font-semibold text-gray-600">
+                  <span className="font-medium text-gray-600">
                     {comboStats.rank === 1
                       ? '1위'
                       : `${comboStats.rank}위`}
@@ -266,7 +266,7 @@ export default function SajuHero({ saju, totalMatches, onReset, featuredPerson, 
               ) : (
                 <>
                   Your combo ({saju.ilju}·{saju.wolji}) ranks{' '}
-                  <span className="font-semibold text-gray-600">
+                  <span className="font-medium text-gray-600">
                     #{comboStats.rank}
                   </span>{' '}
                   out of {comboStats.totalCombos} — {comboStats.myCount} billionaires share it
