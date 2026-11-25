@@ -30,6 +30,27 @@ function trackShare(channel: string) {
   trackEvent('share_click', { channel });
 }
 
+/**
+ * Tag a shared link with the channel it was shared through, so visits
+ * from it show up by channel in GA. KakaoTalk and X open links in in-app
+ * browsers that usually drop the referrer, which otherwise files these
+ * visits under "Direct". Uses the same channel names as `share_click`.
+ */
+function withShareUtm(url: string, channel: string): string {
+  try {
+    const u = new URL(url);
+    // Replace any tags the sharer arrived with — this is a new share.
+    for (const key of ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term']) {
+      u.searchParams.delete(key);
+    }
+    u.searchParams.set('utm_source', channel);
+    u.searchParams.set('utm_medium', 'share');
+    return u.toString();
+  } catch {
+    return url;
+  }
+}
+
 interface Props {
   /** Short label shown above the buttons — e.g. "친구한테 보내기". */
   title?: string;
@@ -105,7 +126,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
 
   const handleCopy = async () => {
     trackShare('copy_link');
-    const ok = await copyToClipboard(shareUrl);
+    const ok = await copyToClipboard(withShareUtm(shareUrl, 'copy_link'));
     if (ok) {
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
@@ -116,7 +137,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
     if (typeof navigator === 'undefined' || !navigator.share) return;
     trackShare('native');
     try {
-      await navigator.share({ title: t.siteTagline, text, url: shareUrl });
+      await navigator.share({ title: t.siteTagline, text, url: withShareUtm(shareUrl, 'native') });
     } catch {
       // User cancelled — no-op
     }
@@ -143,6 +164,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
     // picker error.
     const origin = typeof window !== 'undefined' ? window.location.origin : 'https://bujasaju.com';
     const imageUrl = `${origin}/opengraph-image`;
+    const kakaoUrl = withShareUtm(shareUrl, 'kakao');
 
     if (k?.Share) {
       k.Share.sendDefault({
@@ -151,12 +173,12 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
           title: t.siteTagline,
           description: text,
           imageUrl,
-          link: { mobileWebUrl: shareUrl, webUrl: shareUrl },
+          link: { mobileWebUrl: kakaoUrl, webUrl: kakaoUrl },
         },
         buttons: [
           {
             title: t.shareDefaultText,
-            link: { mobileWebUrl: shareUrl, webUrl: shareUrl },
+            link: { mobileWebUrl: kakaoUrl, webUrl: kakaoUrl },
           },
         ],
       });
@@ -167,7 +189,7 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
     // The await here is fine because we're NOT opening a popup in this
     // branch, so user-activation doesn't matter.
     void (async () => {
-      await copyToClipboard(`${text} ${shareUrl}`);
+      await copyToClipboard(`${text} ${kakaoUrl}`);
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
     })();
@@ -177,15 +199,15 @@ export default function ShareButtons({ title, shareText, variant = 'hero' }: Pro
     trackShare('instagram');
     // Instagram has no public web share URL, so we do the next best thing:
     // copy the link and tell the user to paste it into their story/DM.
-    await copyToClipboard(`${text} ${shareUrl}`);
+    await copyToClipboard(`${text} ${withShareUtm(shareUrl, 'instagram')}`);
     setInstaHintShown(true);
     setTimeout(() => setInstaHintShown(false), 3200);
   };
 
   const twitterHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
     text,
-  )}&url=${encodeURIComponent(shareUrl)}`;
-  const smsHref = `sms:?body=${encodeURIComponent(`${text} ${shareUrl}`)}`;
+  )}&url=${encodeURIComponent(withShareUtm(shareUrl, 'x'))}`;
+  const smsHref = `sms:?body=${encodeURIComponent(`${text} ${withShareUtm(shareUrl, 'sms')}`)}`;
 
   const containerClass =
     variant === 'hero'

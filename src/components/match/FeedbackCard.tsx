@@ -2,6 +2,7 @@
 
 import { useState, type FormEvent } from 'react';
 import { useLanguage } from '@/lib/i18n';
+import { trackEvent } from '@/lib/analytics';
 
 /**
  * FeedbackCard — anonymous thumbs up/down + optional free-text comment,
@@ -39,6 +40,7 @@ export default function FeedbackCard({ ilju }: Props) {
     if (status !== 'idle') return;
     setVote(v);
     setStatus('voted');
+    trackEvent('feedback_vote', { vote: v, ilju: ilju ?? null });
     // Fire and forget the vote — UI flips immediately. If the network
     // call fails the vote is lost, which is acceptable for an anonymous
     // signal (we'd rather not block the UI on a counter).
@@ -72,6 +74,7 @@ export default function FeedbackCard({ ilju }: Props) {
         return;
       }
       setStatus('commented');
+      trackEvent('feedback_comment', { vote, ilju: ilju ?? null });
     } catch {
       setStatus('error');
       setErrorMsg(t.feedbackErrorGeneric);

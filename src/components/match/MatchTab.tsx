@@ -132,6 +132,9 @@ export function computeSaju(input: MatchInput): SajuResult {
 export default function MatchTab() {
   const [input, setInput] = useState<MatchInput | null>(null);
   const [step, setStep] = useState<Step>('form');
+  // Results restored from localStorage on a return visit, as opposed to
+  // reached by finishing the quiz in this session. Analytics only.
+  const [resultsRestored, setResultsRestored] = useState(false);
 
   // On reload / nav-back, rehydrate the last input AND step. The user
   // already confirmed their saju once; sending them back to a blank form
@@ -155,6 +158,7 @@ export default function MatchTab() {
           setInput(parsed);
           if (savedStep === 'results' || savedStep === 'confirm') {
             setStep(savedStep);
+            setResultsRestored(savedStep === 'results');
           }
         } catch {
           // Corrupted input — drop the stale step too.
@@ -205,6 +209,7 @@ export default function MatchTab() {
     } catch {
       // ignore
     }
+    setResultsRestored(false);
     if (saju) {
       trackEvent('quiz_confirmed', {
         ilju: saju.ilju,
@@ -256,6 +261,7 @@ export default function MatchTab() {
         <MatchResults
           me={saju}
           onReset={handleReset}
+          restored={resultsRestored}
           userBirthday={
             input?.mode === 'birthday'
               ? `${input.year}-${String(input.month).padStart(2, '0')}-${String(input.day).padStart(2, '0')}`

@@ -60,6 +60,17 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Short link for the daily "오늘 태어난 부자" X posts. A full UTM URL looks
+  // messy in a tweet, so the post links to bujasaju.com/x and the tags are
+  // added here — GA then credits those visits to X instead of "Direct"
+  // (X's in-app browser usually drops the referrer).
+  redirects: async () => [
+    {
+      source: '/x',
+      destination: '/?utm_source=x&utm_medium=social&utm_campaign=born_today',
+      permanent: false,
+    },
+  ],
   headers: async () => [
     {
       source: '/(.*)',

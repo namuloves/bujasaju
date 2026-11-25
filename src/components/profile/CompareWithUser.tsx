@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { trackEvent } from '@/lib/analytics';
 import type { EnrichedPerson, SajuResult, CheonGan } from '@/lib/saju/types';
 import { computeSaju } from '@/components/match/MatchTab';
 import type { MatchInput } from '@/components/match/BirthdayForm';
@@ -116,6 +117,11 @@ export default function CompareWithUser({ person }: Props) {
           </p>
           <Link
             href="/"
+            // Most visitors land on a profile from search, not on the
+            // homepage — this measures how many of them go on to the quiz.
+            onClick={() =>
+              trackEvent('cta_click', { cta: 'profile_compare', person_id: person.id })
+            }
             className="inline-flex items-center gap-1 text-[13px] font-medium text-gray-700 hover:text-black"
           >
             내 사주 입력하기 →

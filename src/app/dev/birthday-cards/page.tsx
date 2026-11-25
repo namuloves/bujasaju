@@ -92,7 +92,7 @@ export default async function BirthdayCardsPage({ searchParams }: { searchParams
           <textarea readOnly value={post} rows={12} className="w-full rounded-xl border bg-gray-50 p-3 font-mono text-sm" />
           <div className="mt-2 flex items-center gap-2">
             <CopyButton text={post} />
-            <CopyButton text={'생일 입력하면 나랑 같은 일주 부자 바로 나와요\nhttps://bujasaju.com'} label="답글 복사" />
+            <CopyButton text={'생일 입력하면 나랑 같은 일주 부자 바로 나와요\nhttps://bujasaju.com/x'} label="답글 복사" />
           </div>
 
           <h2 className="mb-2 mt-8 text-sm font-semibold text-gray-500">전체 명단</h2>

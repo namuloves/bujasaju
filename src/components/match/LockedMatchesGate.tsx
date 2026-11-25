@@ -88,6 +88,10 @@ export default function LockedMatchesGate({ lockedPeople, ilju }: Props) {
   } = useEmailCaptureAnalytics({
     captureSource: 'unlock-gate',
     language: lang,
+    // The real gate only renders after the unlock check finishes (a
+    // placeholder shows until then), and an already-unlocked gate isn't
+    // asking for anything — count a view only for the locked gate.
+    enabled: accessChecked && !unlocked,
   });
 
   // The entitlement cookie is httpOnly, so ask the shared endpoint whether

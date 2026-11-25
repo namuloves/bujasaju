@@ -59,9 +59,15 @@ interface Props {
    */
   userBirthday?: string;
   userGender?: 'M' | 'F';
+  /**
+   * True when these results were restored from localStorage on a later
+   * visit rather than reached by finishing the quiz just now. Restored
+   * results send `results_revisited` instead of `quiz_results_shown`.
+   */
+  restored?: boolean;
 }
 
-export default function MatchResults({ me, onReset, userBirthday, userGender }: Props) {
+export default function MatchResults({ me, onReset, userBirthday, userGender, restored = false }: Props) {
   const { t } = useLanguage();
   const { people: enrichedPeople, loading } = useEnrichedPeople();
 
@@ -223,13 +229,19 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
     }
   }, [defaultFeaturedId, selectedFeaturedId]);
 
+  // One results event per quiz. It waits for both the people data and the
+  // deep-bio index, because until both have loaded the featured person is
+  // still settling (it can change once or twice) — keying on the featured
+  // person used to re-send the event on every change. Results restored on
+  // a later visit send `results_revisited`, so `quiz_results_shown` lines
+  // up with `quiz_confirmed`.
   const tracked = useRef<string | null>(null);
   useEffect(() => {
-    if (loading) return;
-    const key = `${me.ilju}|${me.wolji}|${featuredPerson?.id ?? 'none'}`;
+    if (loading || !bioIndexReady) return;
+    const key = `${me.ilju}|${me.wolji}`;
     if (tracked.current === key) return;
     tracked.current = key;
-    trackEvent('quiz_results_shown', {
+    trackEvent(restored ? 'results_revisited' : 'quiz_results_shown', {
       ilju: me.ilju,
       wolji: me.wolji,
       gyeokguk: me.gyeokguk,
@@ -238,11 +250,13 @@ export default function MatchResults({ me, onReset, userBirthday, userGender }: 
       featuredId: featuredPerson?.id ?? null,
       featuredName: featuredPerson?.name ?? null,
     });
-  }, [loading, me.ilju, me.wolji, me.gyeokguk, featuredPerson?.id, featuredPerson?.name, totalMatches, sameIljuCount]);
+  }, [loading, bioIndexReady, restored, me.ilju, me.wolji, me.gyeokguk, featuredPerson?.id, featuredPerson?.name, totalMatches, sameIljuCount]);
 
   const [saving, setSaving] = useState(false);
   const handleSaveImage = useCallback(async () => {
     if (!featuredPerson || saving) return;
+    // Counted as a share: the saved card is what people post to stories.
+    trackEvent('share_click', { channel: 'save_image' });
     setSaving(true);
     try {
       const url = buildOgUrl(me, featuredPerson);

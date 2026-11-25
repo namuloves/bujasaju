@@ -18,13 +18,23 @@ interface EmailCaptureAnalyticsOptions {
   captureSource: EmailCaptureSource;
   language: 'ko' | 'en';
   experimentVariant?: string;
+  /**
+   * Whether the gate is currently on screen and asking for an email.
+   * Pass false while the real gate hasn't rendered yet (e.g. a loading
+   * placeholder) or when it is showing an already-unlocked state. The
+   * impression observer attaches when this turns true, so a gate that
+   * mounts late is still counted. Defaults to true.
+   */
+  enabled?: boolean;
 }
 
 /**
  * Tracks the email funnel consistently across every capture surface.
  *
  * The impression uses IntersectionObserver instead of component mount so
- * responsive duplicates hidden with CSS do not inflate gate views. All
+ * responsive duplicates hidden with CSS do not inflate gate views. The
+ * observer waits for `enabled`, so a gate that first renders a placeholder
+ * is observed once the real element exists, not skipped for good. All
  * properties are intentionally low-cardinality and contain no email address
  * or other user-provided PII.
  */
@@ -32,6 +42,7 @@ export function useEmailCaptureAnalytics({
   captureSource,
   language,
   experimentVariant = 'baseline',
+  enabled = true,
 }: EmailCaptureAnalyticsOptions) {
   const gateRef = useRef<HTMLDivElement>(null);
   const gateViewed = useRef(false);
@@ -48,6 +59,7 @@ export function useEmailCaptureAnalytics({
   );
 
   useEffect(() => {
+    if (!enabled) return;
     const element = gateRef.current;
     if (!element || gateViewed.current) return;
 
@@ -74,7 +86,7 @@ export function useEmailCaptureAnalytics({
 
     observer.observe(element);
     return () => observer.disconnect();
-  }, [eventContext]);
+  }, [enabled, eventContext]);
 
   const trackFormStarted = useCallback(() => {
     if (formStarted.current) return;
