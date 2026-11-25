@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className="mt-24 border-t border-gray-100 bg-white">
@@ -19,6 +21,9 @@ export default function Footer() {
             <a href="/browse-clean" className="hover:text-gray-900 transition-colors">
               부자 사주 둘러보기
             </a>
+            <Link href="/family" className="hover:text-gray-900 transition-colors">
+              재벌가 사주
+            </Link>
             <a href="/about" className="hover:text-gray-900 transition-colors">
               소개
             </a>

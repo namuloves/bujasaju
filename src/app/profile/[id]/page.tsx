@@ -12,6 +12,7 @@ import { HeroPillar } from '@/components/match/SajuHero';
 import DaewoonStrip from '@/components/profile/DaewoonStrip';
 import CompareWithUser from '@/components/profile/CompareWithUser';
 import RelatedPeople from '@/components/profile/RelatedPeople';
+import FamilyLink from '@/components/profile/FamilyLink';
 import type { CheonGan } from '@/lib/saju/types';
 import { industryToKorean } from '@/components/FilterPanel';
 import { rewriteUsdToKrwInline, USD_TO_KRW } from '@/lib/usdToKrw';
@@ -367,6 +368,8 @@ export default function ProfilePage() {
 
         {/* Where next — same 일주 / same field. Sits after the bio so it's the
             last thing a reader sees before the footer. */}
+        {/* Business-family members link to their family comparison page. */}
+        <FamilyLink personId={person.id} />
         <RelatedPeople person={person} people={people} />
       </div>
     </div>

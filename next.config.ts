@@ -44,6 +44,8 @@ const nextConfig: NextConfig = {
     ],
     '/api/ilju-summary/[ilju]': ['./public/saju-data/ilju-summary.json'],
     '/sitemap.xml': ['./private-data/enriched-billionaires.json'],
+    '/family': ['./private-data/enriched-billionaires.json'],
+    '/family/[slug]': ['./private-data/enriched-billionaires.json'],
     // Internal marketing tool (오늘 태어난 부자 cards).
     '/api/dev/birthday-card': ['./private-data/enriched-billionaires.json', './public/fonts/**'],
     '/dev/birthday-cards': ['./private-data/enriched-billionaires.json'],

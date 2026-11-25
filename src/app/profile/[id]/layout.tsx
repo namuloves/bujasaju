@@ -25,6 +25,56 @@ function normalizePhotoForSchema(url: string | undefined | null): string | undef
   return url;
 }
 
+/** True/false for a Hangul syllable's final consonant; null if not Hangul. */
+function hasFinalConsonant(word: string): boolean | null {
+  const code = word.trim().slice(-1).charCodeAt(0);
+  if (Number.isNaN(code) || code < 0xac00 || code > 0xd7a3) return null;
+  return (code - 0xac00) % 28 !== 0;
+}
+
+const PARTICLE_PAIRS: Record<string, [string, string]> = {
+  은: ['은', '는'],
+  는: ['은', '는'],
+  이: ['이', '가'],
+  가: ['이', '가'],
+};
+
+/**
+ * Swap the first mention of `from` names for `to`, re-picking the subject
+ * particle that follows (은/는, 이/가) for the new name's last syllable —
+ * "Behdad Eghbali는" → "베흐다드 에그발리는", "윌리엄 헨리 게이츠 3세는" →
+ * "빌 게이츠는".
+ */
+function swapName(text: string, from: (string | undefined)[], to: string): string {
+  for (const name of from) {
+    if (!name || name === to) continue;
+    const at = text.indexOf(name);
+    if (at === -1) continue;
+    let rest = text.slice(at + name.length);
+    const pair = PARTICLE_PAIRS[rest[0]];
+    const final = hasFinalConsonant(to);
+    if (pair && final !== null && (rest[1] === ' ' || rest[1] === ',')) {
+      rest = (final ? pair[0] : pair[1]) + rest.slice(1);
+    }
+    return text.slice(0, at) + to + rest;
+  }
+  return text;
+}
+
+/**
+ * "Who is this" opener for a foreign profile's description: the Korean bio's
+ * first sentence (two if the first is short), naming the person as Korean
+ * searchers write them.
+ */
+function whoLine(person: { bioKo?: string; nameKo?: string; name: string }, proseName: string): string | null {
+  if (!person.bioKo) return null;
+  const text = swapName(person.bioKo.trim(), [person.nameKo, person.name], proseName);
+  const sentences = text.split(/(?<=[.!?])\s+/);
+  let out = sentences[0] ?? '';
+  if (out.length < 40 && sentences[1]) out = `${out} ${sentences[1]}`;
+  return out || null;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params;
   const person = getEnrichedPersonById(id);
@@ -37,12 +87,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const bio = getDeepBioV2ById(id);
   const aliases = person.aliasesKo ?? bio?.aliasesKo ?? [];
 
-  // Title carries the press spelling when there is one, so a query on
-  // "아르테 모레노" matches the title and not just a body the crawler may
-  // never render. Kept to the first alias — titles get clipped ~60 chars.
-  const title = aliases[0]
-    ? `${displayName}(${aliases[0]}) 사주 분석 | 부자사주`
-    : `${displayName}의 사주 분석 | 부자사주`;
+  // Title leads with the name people actually search, so it matches
+  // "[이름] 사주" queries: the common Korean name where `nameKo` is the long
+  // legal form ("테일러 스위프트", not "테일러 앨리슨 스위프트"), else the
+  // press spelling in brackets when there is one ("아르테 모레노"). Then the
+  // day pillar — what no news article has. Titles get clipped ~60 chars,
+  // so nothing else goes in.
+  const proseName = person.commonNameKo ?? displayName;
+  const searchName =
+    person.commonNameKo ??
+    (aliases[0] ? `${displayName}(${aliases[0]})` : displayName);
+  const title = person.saju
+    ? `${searchName} 사주 분석 · ${person.saju.ilju} 일주 | 부자사주`
+    : `${searchName} 사주 분석 | 부자사주`;
 
   // Description: lead with the chart, because "경신 일주 · 건록격" is what a
   // saju reader is searching for and what no news article has; then the
@@ -59,7 +116,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     bio?.personalTraits?.knownForKo ||
     person.bio ||
     `${displayName} - ${person.industry}, 순자산 $${person.netWorth}B`;
-  const description = chartLead ? `${chartLead}. ${body}` : body;
+  // Foreign billionaires are mostly searched by name alone ("디터 뮐러") —
+  // people looking up who someone is. A chart-first snippet showed up for
+  // those searches but got no clicks, so foreign profiles lead with who the
+  // person is and put the chart second. Korean profiles keep the chart
+  // first: their searches are "[이름] 사주".
+  const who = person.nationality !== 'KR' ? whoLine(person, proseName) : null;
+  const description = who
+    ? person.saju
+      ? `${who} 사주는 ${person.saju.ilju} 일주, ${person.saju.gyeokguk}.`
+      : who
+    : chartLead
+      ? `${chartLead}. ${body}`
+      : body;
   const truncatedDesc = description.length > 160 ? description.slice(0, 157) + '...' : description;
 
   const photoUrl = normalizePhotoForSchema(person.photoUrl);

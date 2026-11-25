@@ -64,6 +64,14 @@ export interface Person {
    * search, so a news-driven query on the press spelling still lands here.
    */
   aliasesKo?: string[];
+  /**
+   * The name as Korean press and searchers write it — "테일러 스위프트",
+   * not the full legal "테일러 앨리슨 스위프트" in `nameKo`. Set only where
+   * the two differ (from private-data/common-names-ko.json, merged in by
+   * enriched-server). Leads the profile <title> so it matches "[이름] 사주"
+   * searches, and is also added to `aliasesKo` for site search.
+   */
+  commonNameKo?: string;
 }
 
 export interface EnrichedPerson extends Person {
