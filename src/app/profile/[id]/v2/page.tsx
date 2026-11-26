@@ -264,8 +264,8 @@ export default function ProfilePageV2() {
         {/* Hero — two type sizes for text (name, net worth) plus one body
             size (14px), and two text grays: gray-900 for content, gray-500
             for labels and secondary info.
-            Top: names with 생일 · 일주 · 출생지 in one wrapping row under
-            them. Below: net worth, who they are, education, short bio. On
+            Top: names, then 생일 · 일주 · 출생지 in one wrapping row and
+            학력 on the row after. Below: net worth, who they are, short bio. On
             phones the photo sits next to the names and the rest runs full
             width below. */}
         <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[192px_1fr] gap-x-4 sm:gap-x-8 gap-y-5">
@@ -305,13 +305,6 @@ export default function ProfilePageV2() {
               {(knownFor || (person.company && person.company !== person.industry)) && (
                 <p className="mt-3 text-sm text-gray-900 leading-relaxed">
                   {knownFor ?? person.company}
-                </p>
-              )}
-
-              {bio?.childhood?.education && (
-                <p className="mt-2 text-sm text-gray-900 leading-relaxed">
-                  <span className="text-gray-500">{lang === 'ko' ? '학력 ' : 'Education '}</span>
-                  {ko(lang, bio.childhood.education, bio.childhood.educationKo)}
                 </p>
               )}
 
@@ -438,7 +431,7 @@ export default function ProfilePageV2() {
 }
 
 /** 생일 · 일주 · 출생지 as one horizontal row of label + value pairs
- *  (wraps on narrow screens). */
+ *  (wraps on narrow screens), then 학력 on the next row. */
 function HeroFacts({ person, bio, lang }: { person: EnrichedPerson; bio: DeepBio | null; lang: string }) {
   const rows: { label: string; value: string }[] = [
     {
@@ -456,13 +449,26 @@ function HeroFacts({ person, bio, lang }: { person: EnrichedPerson; bio: DeepBio
     });
   }
   return (
-    <dl className="flex flex-wrap gap-x-5 gap-y-1 text-sm">
-      {rows.map((r) => (
-        <div key={r.label} className="flex gap-1.5 min-w-0">
-          <dt className="text-gray-500 shrink-0">{r.label}</dt>
-          <dd className="text-gray-900">{r.value}</dd>
+    <dl className="text-sm">
+      <div className="flex flex-wrap gap-x-5 gap-y-1">
+        {rows.map((r) => (
+          <div key={r.label} className="flex gap-1.5 min-w-0">
+            <dt className="text-gray-500 shrink-0">{r.label}</dt>
+            <dd className="text-gray-900">{r.value}</dd>
+          </div>
+        ))}
+      </div>
+      {/* 학력 gets its own row under 생일 · 일주 · 출생지 — it is often a
+          full sentence, so it wraps under its label instead of sharing the
+          row. */}
+      {bio?.childhood?.education && (
+        <div className="mt-1.5 flex gap-1.5">
+          <dt className="text-gray-500 shrink-0">{lang === 'ko' ? '학력' : 'Education'}</dt>
+          <dd className="text-gray-900 leading-relaxed">
+            {ko(lang, bio.childhood.education, bio.childhood.educationKo)}
+          </dd>
         </div>
-      ))}
+      )}
     </dl>
   );
 }
