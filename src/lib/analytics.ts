@@ -51,6 +51,7 @@ const VERCEL_PROPS: Record<string, readonly string[]> = {
   share_click: ['channel'],
   feedback_vote: ['vote', 'ilju'],
   feedback_comment: ['vote'],
+  interest_pick: ['interest', 'ilju'],
   email_gate_viewed: ['capture_source', 'ui_language'],
   email_form_started: ['capture_source', 'ui_language'],
   sign_up: ['capture_source', 'subscriber_status'],

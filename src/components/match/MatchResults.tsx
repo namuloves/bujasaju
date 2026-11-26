@@ -16,6 +16,7 @@ import Top5FacesRow, { pickTop3WithKorean } from './Top5FacesRow';
 import EmailCaptureCard from './EmailCaptureCard';
 import LockedMatchesGate from './LockedMatchesGate';
 import FeedbackCard from './FeedbackCard';
+import InterestCard from './InterestCard';
 import { USD_TO_KRW } from '@/lib/usdToKrw';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
@@ -438,10 +439,12 @@ export default function MatchResults({ me, onReset, userBirthday, userGender, re
         </div>
       )}
 
-      {/* Feedback — quick vote + optional comment, anonymous. Sits right
+      {/* Interest + feedback — one-tap "가장 궁금한 건?" then a quick vote
+          with optional comment, both anonymous. Sits right
           above share/reset so people who scrolled all the way down see it
           before leaving. */}
-      <div className="max-w-xl mx-auto">
+      <div className="max-w-xl mx-auto space-y-3">
+        <InterestCard ilju={me.ilju} />
         <FeedbackCard ilju={me.ilju} />
       </div>
 

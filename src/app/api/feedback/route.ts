@@ -13,11 +13,16 @@ import { rateLimit, getIp } from '@/lib/rateLimit';
  *   - `feedback:comments` (list): LPUSH of {vote, comment, ilju, lang, at, ua}
  *     when the user leaves a comment. Capped at 1000 entries via LTRIM so the
  *     list can't grow unbounded.
+ *   - `feedback:interest` (hash): { wealth, career, love, timing } — HINCRBY
+ *     on each "가장 궁금한 건?" pick from InterestCard
+ *   - `feedback:interest_log` (list): LPUSH of {interest, ilju, lang, at},
+ *     capped at 5000, so picks can be sliced by 일주 later
  *
  * Two valid request shapes:
  *   { vote: 'like' | 'dislike' }                    — vote only
  *   { vote, comment: string }                       — vote + comment
  *   { comment: string, refVote?: 'like'|'dislike' } — comment after a prior vote
+ *   { interest: 'wealth'|'career'|'love'|'timing' } — interest pick
  *
  * Response: { ok: true } on success.
  */
@@ -28,10 +33,13 @@ export const runtime = 'nodejs';
 const VOTE_VALUES = new Set(['like', 'dislike']);
 const MAX_COMMENT_LEN = 2000;
 const MAX_COMMENTS_KEPT = 1000;
+const INTEREST_VALUES = new Set(['wealth', 'career', 'love', 'timing']);
+const MAX_INTEREST_LOG_KEPT = 5000;
 
 interface FeedbackBody {
   vote?: unknown;
   comment?: unknown;
+  interest?: unknown;
   ilju?: unknown;
   lang?: unknown;
 }
@@ -56,10 +64,14 @@ export async function POST(req: NextRequest) {
     : null;
   const comment =
     typeof body.comment === 'string' ? body.comment.trim().slice(0, MAX_COMMENT_LEN) : '';
+  const interest =
+    typeof body.interest === 'string' && INTEREST_VALUES.has(body.interest)
+      ? body.interest
+      : null;
   const ilju = typeof body.ilju === 'string' ? body.ilju.slice(0, 8) : '';
   const lang = body.lang === 'en' ? 'en' : 'ko';
 
-  if (!vote && !comment) {
+  if (!vote && !comment && !interest) {
     return Response.json({ error: 'empty_feedback' }, { status: 400 });
   }
 
@@ -74,6 +86,15 @@ export async function POST(req: NextRequest) {
 
     if (vote) {
       await redis.hincrby('feedback:counters', vote, 1);
+    }
+
+    if (interest) {
+      await redis.hincrby('feedback:interest', interest, 1);
+      await redis.lpush(
+        'feedback:interest_log',
+        JSON.stringify({ interest, ilju, lang, at: now }),
+      );
+      await redis.ltrim('feedback:interest_log', 0, MAX_INTEREST_LOG_KEPT - 1);
     }
 
     if (comment) {

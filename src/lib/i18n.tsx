@@ -129,6 +129,13 @@ type Dict = {
   feedbackCommentSubmitting: string;
   feedbackCommentSuccess: string;
   feedbackErrorGeneric: string;
+  // Interest card — one-tap "what are you most curious about?" on results
+  interestPrompt: string;
+  interestWealth: string;
+  interestCareer: string;
+  interestLove: string;
+  interestTiming: string;
+  interestThanks: string;
 };
 
 const ko: Dict = {
@@ -247,6 +254,12 @@ const ko: Dict = {
   feedbackCommentSubmitting: '보내는 중…',
   feedbackCommentSuccess: '코멘트 고마워요 🙌',
   feedbackErrorGeneric: '저장에 실패했어요. 잠시 후 다시 시도해주세요.',
+  interestPrompt: '가장 궁금한 건 뭐예요?',
+  interestWealth: '재물운',
+  interestCareer: '직업',
+  interestLove: '연애',
+  interestTiming: '투자 타이밍',
+  interestThanks: '고마워요! 앞으로 풀이를 만들 때 참고할게요.',
 };
 
 const en: Dict = {
@@ -366,6 +379,12 @@ const en: Dict = {
   feedbackCommentSubmitting: 'Sending…',
   feedbackCommentSuccess: 'Thanks for the note 🙌',
   feedbackErrorGeneric: 'Something went wrong. Please try again in a moment.',
+  interestPrompt: 'What are you most curious about?',
+  interestWealth: 'Wealth',
+  interestCareer: 'Career',
+  interestLove: 'Love',
+  interestTiming: 'Investment timing',
+  interestThanks: 'Thanks! We\u2019ll use this to shape future readings.',
 };
 
 const dictionaries: Record<Lang, Dict> = { ko, en };
