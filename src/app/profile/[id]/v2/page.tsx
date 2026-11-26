@@ -264,9 +264,10 @@ export default function ProfilePageV2() {
         {/* Hero — two type sizes for text (name, net worth) plus one body
             size (14px), and two text grays: gray-900 for content, gray-500
             for labels and secondary info.
-            Top row: names | 생일 · 일주 · 출생지. Below: net worth, who
-            they are, education, short bio. On phones the photo sits next
-            to the names and everything else runs full width below. */}
+            Top: names with 생일 · 일주 · 출생지 in one wrapping row under
+            them. Below: net worth, who they are, education, short bio. On
+            phones the photo sits next to the names and the rest runs full
+            width below. */}
         <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[192px_1fr] gap-x-4 sm:gap-x-8 gap-y-5">
           <Portrait
             person={person}
@@ -274,29 +275,23 @@ export default function ProfilePageV2() {
             textClass="text-2xl sm:text-4xl"
           />
 
-          {/* Top row */}
-          <div className="self-center sm:self-start sm:grid sm:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] sm:gap-8 sm:pt-1">
-            <div className="min-w-0">
-              <h1 className="text-2xl sm:text-3xl font-medium text-gray-900 leading-tight break-keep">
-                {displayName}
-              </h1>
-              {person.nameKo && (
-                <p className="mt-1 text-sm text-gray-500">
-                  {lang === 'ko' ? person.name : person.nameKo}
-                </p>
-              )}
-            </div>
-            <div className="hidden sm:block">
+          {/* Top: names, then 생일 · 일주 · 출생지 in one row under them */}
+          <div className="self-center sm:self-start sm:pt-1 min-w-0">
+            <h1 className="text-2xl sm:text-3xl font-medium text-gray-900 leading-tight break-keep">
+              {displayName}
+            </h1>
+            {person.nameKo && (
+              <p className="mt-1 text-sm text-gray-500">
+                {lang === 'ko' ? person.name : person.nameKo}
+              </p>
+            )}
+            <div className="mt-3">
               <HeroFacts person={person} bio={bio} lang={lang} />
             </div>
           </div>
 
           {/* Below */}
           <div className="col-span-2 sm:col-span-1 sm:col-start-2 min-w-0">
-            <div className="sm:hidden mb-5">
-              <HeroFacts person={person} bio={bio} lang={lang} />
-            </div>
-
             <div className="border-t border-gray-200 pt-5">
               <div className="flex items-baseline gap-x-2 gap-y-1 flex-wrap">
                 <span className="text-xl font-medium text-gray-900 whitespace-nowrap">
@@ -442,7 +437,8 @@ export default function ProfilePageV2() {
   );
 }
 
-/** 생일 · 일주 · 출생지 as label/value rows (hero, second column). */
+/** 생일 · 일주 · 출생지 as one horizontal row of label + value pairs
+ *  (wraps on narrow screens). */
 function HeroFacts({ person, bio, lang }: { person: EnrichedPerson; bio: DeepBio | null; lang: string }) {
   const rows: { label: string; value: string }[] = [
     {
@@ -460,11 +456,11 @@ function HeroFacts({ person, bio, lang }: { person: EnrichedPerson; bio: DeepBio
     });
   }
   return (
-    <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm">
+    <dl className="flex flex-wrap gap-x-5 gap-y-1 text-sm">
       {rows.map((r) => (
-        <div key={r.label} className="contents">
-          <dt className="text-gray-500">{r.label}</dt>
-          <dd className="text-gray-900 min-w-0">{r.value}</dd>
+        <div key={r.label} className="flex gap-1.5 min-w-0">
+          <dt className="text-gray-500 shrink-0">{r.label}</dt>
+          <dd className="text-gray-900">{r.value}</dd>
         </div>
       ))}
     </dl>
