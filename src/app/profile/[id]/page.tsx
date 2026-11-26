@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { useLanguage } from '@/lib/i18n';
 import { useEnrichedPeople } from '@/lib/data/enriched';
@@ -15,30 +15,9 @@ import RelatedPeople from '@/components/profile/RelatedPeople';
 import FamilyLink from '@/components/profile/FamilyLink';
 import type { CheonGan } from '@/lib/saju/types';
 import { industryToKorean } from '@/components/FilterPanel';
-import { rewriteUsdToKrwInline, USD_TO_KRW } from '@/lib/usdToKrw';
-
-function normalizePhotoUrl(url: string | undefined | null, name: string): string {
-  if (!url) {
-    return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=400&background=random&bold=true`;
-  }
-  if (url.startsWith('//')) return `https:${url}`;
-  if (url.startsWith('http://')) return url.replace(/^http:/, 'https:');
-  return url;
-}
-
-
-function formatNetWorth(netWorthB: number, isKo: boolean): string {
-  if (isKo) {
-    const eok = netWorthB * 10 * USD_TO_KRW; // 10억 달러 단위 → 억원 단위
-    const jo = eok / 10000;
-    if (jo >= 1) {
-      return `${jo >= 10 ? Math.round(jo) : jo.toFixed(1)}조원`;
-    }
-    return `${Math.round(eok).toLocaleString('ko-KR')}억원`;
-  }
-  if (netWorthB >= 1) return `$${netWorthB.toFixed(1)}B`;
-  return `$${(netWorthB * 1000).toFixed(0)}M`;
-}
+import { rewriteUsdToKrwInline } from '@/lib/usdToKrw';
+import ExpandableBio from '@/components/profile/ExpandableBio';
+import { formatNetWorth, netWorthAsOfLabel, normalizePhotoUrl, uiAvatarUrl } from '@/components/profile/format';
 
 export default function ProfilePage() {
   const params = useParams();
@@ -97,17 +76,8 @@ export default function ProfilePage() {
     ? ko(lang, bio.personalTraits.knownFor, bio.personalTraits.knownForKo)
     : null;
 
-  // "As of" for the headline number: the last editorial pass on the bio
-  // when there is one, else the latest year in the wealth history.
-  const asOfLabel = (() => {
-    if (bio?.updatedAt) {
-      const d = bio.updatedAt.replace(/-/g, '.');
-      return lang === 'ko' ? `${d} 업데이트` : `updated ${d}`;
-    }
-    const last = bio?.wealthHistory?.[bio.wealthHistory.length - 1]?.year;
-    if (last) return lang === 'ko' ? `${last}년 포브스 기준` : `Forbes, ${last}`;
-    return null;
-  })();
+  const asOfLabel = netWorthAsOfLabel(bio, lang);
+  const photoSrc = normalizePhotoUrl(person.photoUrl) ?? uiAvatarUrl(person.name, 400);
 
   return (
     <div className="min-h-screen bg-gray-50 profile-page-root">
@@ -139,12 +109,12 @@ export default function ProfilePage() {
           <div className="h-5 w-px bg-gray-200 shrink-0" />
           <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-200 shrink-0">
             <img
-              src={normalizePhotoUrl(person.photoUrl, person.name)}
+              src={photoSrc}
               alt={person.name}
               className="w-full h-full object-cover"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
-                target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=80&background=random&bold=true`;
+                target.src = uiAvatarUrl(person.name, 80);
               }}
             />
           </div>
@@ -176,14 +146,14 @@ export default function ProfilePage() {
           <div className="shrink-0">
             <div className="w-32 h-40 sm:w-48 sm:h-60 rounded-2xl overflow-hidden bg-gray-200 shadow-lg">
               <img
-                src={normalizePhotoUrl(person.photoUrl, person.name)}
+                src={photoSrc}
                 alt={person.name}
                 // Largest image above the fold — ask the browser to fetch it first.
                 fetchPriority="high"
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=400&background=random&bold=true`;
+                  target.src = uiAvatarUrl(person.name, 400);
                 }}
               />
             </div>
@@ -372,55 +342,6 @@ export default function ProfilePage() {
         <FamilyLink personId={person.id} />
         <RelatedPeople person={person} people={people} />
       </div>
-    </div>
-  );
-}
-
-/**
- * Short bio with a 3-line clamp + tap-to-expand toggle. The "더보기"/"접기"
- * link only renders when the text is actually long enough to be truncated,
- * so short bios stay clean without a dangling button. Tracks whether the
- * paragraph overflows via a ref measurement on mount.
- */
-function ExpandableBio({ text, lang }: { text: string; lang: string }) {
-  const [expanded, setExpanded] = useState(false);
-  const [isClamped, setIsClamped] = useState(false);
-  const ref = useRef<HTMLParagraphElement | null>(null);
-
-  // Detect clamp by comparing the line-clamped height with the unclamped
-  // scrollHeight. Runs on mount and any time the text changes (e.g. after
-  // language toggle).
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    // Brief microtask delay so layout has settled before measuring.
-    const id = requestAnimationFrame(() => {
-      if (!el) return;
-      const clamped = el.scrollHeight > el.clientHeight + 1;
-      setIsClamped(clamped);
-    });
-    return () => cancelAnimationFrame(id);
-  }, [text]);
-
-  return (
-    <div className="mt-4">
-      <p
-        ref={ref}
-        className={`text-sm text-gray-500 leading-relaxed text-left ${expanded ? '' : 'line-clamp-3'}`}
-      >
-        {text}
-      </p>
-      {isClamped && (
-        <button
-          type="button"
-          onClick={() => setExpanded((v) => !v)}
-          className="mt-1.5 text-xs font-medium text-gray-500 hover:text-gray-900 transition-colors"
-        >
-          {expanded
-            ? (lang === 'ko' ? '접기 ↑' : 'Show less ↑')
-            : (lang === 'ko' ? '더보기 ↓' : 'Show more ↓')}
-        </button>
-      )}
     </div>
   );
 }
