@@ -8,7 +8,9 @@
  * What changed vs v1 (see the design review, Nov 2026):
  *   1. Faint gray text raised to gray-500 for contrast (scoped CSS in
  *      globals.css under `.profile-v2`, so reused components follow).
- *   2. Quiz CTA is a real button on a white card; bigger back-button target.
+ *   2. Bigger back-button target. (Quiz CTA paused for now; the comparison
+ *      card still shows for quiz-takers.)
+ *  10. Left-margin section nav (xl+) that jumps to each section.
  *   3. Reading moved up: chart → reading → 대운 → background → rest of bio.
  *      Facts already shown in the hero are not repeated.
  *   4. Chart card is white and, on desktop, carries the one-line reading.
@@ -34,6 +36,7 @@ import CompareWithUser from '@/components/profile/CompareWithUser';
 import RelatedPeople from '@/components/profile/RelatedPeople';
 import FamilyLink from '@/components/profile/FamilyLink';
 import { SajuReadingV2, DaeunReadingList, startAgeFromReading } from '@/components/profile-v2/SajuReadingV2';
+import SectionNavV2, { type SectionNavItem } from '@/components/profile-v2/SectionNavV2';
 import type { CheonGan, EnrichedPerson } from '@/lib/saju/types';
 import { industryToKorean } from '@/components/FilterPanel';
 import { rewriteUsdToKrwInline, USD_TO_KRW } from '@/lib/usdToKrw';
@@ -46,6 +49,33 @@ function normalizePhotoUrl(url: string | undefined | null): string | null {
 }
 
 const noopSubscribe = () => () => {};
+
+/** Left-margin section nav. Stable references (module scope) so the nav's
+ *  effects don't re-run every render. Only sections that rendered show. */
+const NAV_ITEMS: Record<'ko' | 'en', SectionNavItem[]> = {
+  ko: [
+    { id: 'saju', label: '사주' },
+    { id: 'reading', label: '사주 풀이' },
+    { id: 'daeun', label: '대운' },
+    { id: 'background', label: '배경' },
+    { id: 'overview', label: '인물' },
+    { id: 'timeline', label: '타임라인' },
+    { id: 'failures', label: '실패와 교훈' },
+    { id: 'sources', label: '출처' },
+    { id: 'related', label: '비슷한 부자' },
+  ],
+  en: [
+    { id: 'saju', label: 'Saju' },
+    { id: 'reading', label: 'Reading' },
+    { id: 'daeun', label: 'Luck cycles' },
+    { id: 'background', label: 'Background' },
+    { id: 'overview', label: 'Character' },
+    { id: 'timeline', label: 'Timeline' },
+    { id: 'failures', label: 'Setbacks' },
+    { id: 'sources', label: 'Sources' },
+    { id: 'related', label: 'Similar people' },
+  ],
+};
 function readVisitorHasSaju(): boolean {
   try {
     return !!localStorage.getItem('bujasaju.matchInput');
@@ -224,7 +254,13 @@ export default function ProfilePageV2() {
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+      <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        {/* Section elevator in the left margin — desktop only (xl+), where
+            there is room beside the 896px column. */}
+        <div className="hidden xl:block absolute right-full top-0 bottom-0 mr-4 w-36">
+          <SectionNavV2 items={NAV_ITEMS[lang === 'ko' ? 'ko' : 'en']} lang={lang} rescanKey={bio} />
+        </div>
+
         {/* Hero — same structure as v1. */}
         <div className="flex items-start gap-4 sm:gap-6">
           <div className="shrink-0">
@@ -305,8 +341,10 @@ export default function ProfilePageV2() {
           </div>
         </div>
 
-        {/* Quiz CTA — real button. */}
-        {person.saju && (
+        {/* Comparison with the visitor's own chart — quiz-takers only.
+            The "내 사주 입력하기" CTA for everyone else is paused for now;
+            drop the `visitorHasSaju &&` to bring it back (button style). */}
+        {person.saju && visitorHasSaju && (
           <div className="mt-6">
             <CompareWithUser person={person} ctaStyle="button" />
           </div>
@@ -315,7 +353,7 @@ export default function ProfilePageV2() {
         {/* Chart card — white like the CTA card. On desktop the one-line
             reading sits beside the chart so the card carries content. */}
         {showChartCard && (
-          <section className="mt-6 rounded-2xl bg-white border border-gray-200 px-4 sm:px-6 py-5 sm:py-6">
+          <section id="saju" className="scroll-mt-20 mt-6 rounded-2xl bg-white border border-gray-200 px-4 sm:px-6 py-5 sm:py-6">
             <div className={showChart && oneLine ? 'grid gap-6 md:grid-cols-[auto_1fr] md:items-center md:gap-10' : ''}>
               {showChart && (
                 <div className={oneLine ? '' : 'max-w-md mx-auto'}>
@@ -352,7 +390,7 @@ export default function ProfilePageV2() {
 
         {/* Reading — moved up, right under the chart. */}
         {structured && (
-          <div className="mt-10">
+          <div id="reading" className="scroll-mt-20 mt-10">
             <SajuReadingV2 sc={sc!} lang={lang} />
           </div>
         )}
@@ -360,7 +398,7 @@ export default function ProfilePageV2() {
         {/* 대운 — strip and the period-by-period reading together, with the
             strip's ages taken from the reading so the two agree. */}
         {person.birthday && person.gender && (
-          <section className="mt-10">
+          <section id="daeun" className="scroll-mt-20 mt-10">
             <DaewoonStrip
               person={person}
               rounding="round"
@@ -378,7 +416,7 @@ export default function ProfilePageV2() {
 
         {/* Background — only facts not already in the hero. */}
         {backgroundRows.length > 0 && (
-          <section className="mt-10">
+          <section id="background" className="scroll-mt-20 mt-10">
             <h2 className="text-base font-medium text-gray-900 mb-3">{lang === 'ko' ? '배경' : 'Background'}</h2>
             <dl className="rounded-xl border border-gray-200 bg-white divide-y divide-gray-100">
               {backgroundRows.map((f, i) => (
@@ -402,8 +440,10 @@ export default function ProfilePageV2() {
           )}
         </div>
 
-        <FamilyLink personId={person.id} />
-        <RelatedPeople person={person} people={people} />
+        <div id="related" className="scroll-mt-20">
+          <FamilyLink personId={person.id} />
+          <RelatedPeople person={person} people={people} />
+        </div>
       </div>
     </div>
   );
