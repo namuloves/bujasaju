@@ -17,6 +17,9 @@ const STEM_TO_OHAENG: Record<string, string> = {
 
 interface Props {
   person: EnrichedPerson;
+  /** 'link' (default) is the original text link. 'button' renders the CTA
+   *  as a full button on a white card (profile v2). */
+  ctaStyle?: 'link' | 'button';
 }
 
 interface Comparison {
@@ -78,7 +81,7 @@ function deriveComparison(userSaju: SajuResult, person: EnrichedPerson): Compari
   };
 }
 
-export default function CompareWithUser({ person }: Props) {
+export default function CompareWithUser({ person, ctaStyle = 'link' }: Props) {
   const [userSaju, setUserSaju] = useState<SajuResult | null>(null);
   const [hydrated, setHydrated] = useState(false);
 
@@ -106,7 +109,7 @@ export default function CompareWithUser({ person }: Props) {
     const name = person.nameKo ?? person.name;
     const { ilju, gyeokguk } = person.saju;
     return (
-      <section className="rounded-2xl border border-gray-200 bg-gray-50 p-4 sm:p-5">
+      <section className={`rounded-2xl border border-gray-200 p-4 sm:p-5 ${ctaStyle === 'button' ? 'bg-white' : 'bg-gray-50'}`}>
         <div>
           <p className="text-sm font-medium text-gray-900 mb-1">
             {name}님은 {ilju} 일주 · {gyeokguk} — 내 사주와 어디가 겹칠까?
@@ -122,7 +125,9 @@ export default function CompareWithUser({ person }: Props) {
             onClick={() =>
               trackEvent('cta_click', { cta: 'profile_compare', person_id: person.id })
             }
-            className="inline-flex items-center gap-1 text-[13px] font-medium text-gray-700 hover:text-black"
+            className={ctaStyle === 'button'
+              ? 'inline-flex items-center justify-center gap-1 h-11 px-5 rounded-xl bg-gray-900 text-sm font-medium text-white hover:bg-gray-800 transition-colors'
+              : 'inline-flex items-center gap-1 text-[13px] font-medium text-gray-700 hover:text-black'}
           >
             내 사주 입력하기 →
           </Link>

@@ -1,11 +1,20 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { EnrichedPerson, OHaeng } from '@/lib/saju/types';
-import { calculateDaeUnClient, type DaeUnResult, type DaeUnPeriod } from '@/lib/saju/daewoon-client';
+import { calculateDaeUnClient, type DaeUnResult, type DaeUnPeriod, type DaeUnRounding } from '@/lib/saju/daewoon-client';
 
 interface Props {
   person: EnrichedPerson;
+  /** Start-age rounding. Defaults to the original 'floor'. */
+  rounding?: DaeUnRounding;
+  /** Use this start age instead of the computed one (e.g. taken from the
+   *  person's hand-written reading so the strip and reading agree). */
+  startAgeOverride?: number;
+  /** Show the calendar year each period starts under its age range. */
+  showYears?: boolean;
+  /** Scroll the strip so the current period is in view on narrow screens. */
+  autoScrollToCurrent?: boolean;
 }
 
 /**
@@ -31,7 +40,8 @@ function computeAge(birthday: string): number {
   return age;
 }
 
-export default function DaewoonStrip({ person }: Props) {
+export default function DaewoonStrip({ person, rounding = 'floor', startAgeOverride, showYears = false, autoScrollToCurrent = false }: Props) {
+  const scrollerRef = useRef<HTMLDivElement | null>(null);
   const [result, setResult] = useState<DaeUnResult | null>(null);
   const [error, setError] = useState(false);
 
@@ -47,9 +57,23 @@ export default function DaewoonStrip({ person }: Props) {
       gyeokguk: person.saju.gyeokguk,
       ilju: person.saju.ilju,
       wolji: person.saju.wolji,
-    })
+    }, 100, rounding)
       .then((r) => {
-        if (!cancelled) setResult(r);
+        if (cancelled) return;
+        if (startAgeOverride !== undefined && startAgeOverride !== r.startAge) {
+          // Same pillar sequence, shifted ages.
+          setResult({
+            ...r,
+            startAge: startAgeOverride,
+            periods: r.periods.map((p, i) => ({
+              ...p,
+              startAge: startAgeOverride + i * 10,
+              endAge: startAgeOverride + i * 10 + 9,
+            })),
+          });
+        } else {
+          setResult(r);
+        }
       })
       .catch(() => {
         if (!cancelled) setError(true);
@@ -57,7 +81,17 @@ export default function DaewoonStrip({ person }: Props) {
     return () => {
       cancelled = true;
     };
-  }, [person.birthday, person.gender, person.saju]);
+  }, [person.birthday, person.gender, person.saju, rounding, startAgeOverride]);
+
+  // Keep the current period in view on narrow screens. Runs after the
+  // strip renders; scrolls only the strip, never the page.
+  useEffect(() => {
+    if (!autoScrollToCurrent || !result) return;
+    const el = scrollerRef.current;
+    const cur = el?.querySelector<HTMLElement>('[data-current="true"]');
+    if (!el || !cur) return;
+    el.scrollLeft = cur.offsetLeft - el.clientWidth / 2 + cur.clientWidth / 2;
+  }, [autoScrollToCurrent, result]);
 
   if (error) return null;
   if (!result) {
@@ -103,16 +137,21 @@ export default function DaewoonStrip({ person }: Props) {
       {/* The current-period ring extends past the box edges, so the scroll
           container needs vertical breathing room (py-1) on top of horizontal
           padding (px-1) — otherwise overflow-x-auto clips the ring. */}
-      <div className="flex gap-2 overflow-x-auto overflow-y-visible py-1 -mx-1 px-1">
+      <div ref={scrollerRef} className="relative flex gap-2 overflow-x-auto overflow-y-visible py-1 -mx-1 px-1">
         {periods.map((p, idx) => (
-          <DaewoonBox key={idx} period={p} isCurrent={idx === currentIdx} />
+          <DaewoonBox
+            key={idx}
+            period={p}
+            isCurrent={idx === currentIdx}
+            startYear={showYears ? Number(person.birthday.slice(0, 4)) + p.startAge : undefined}
+          />
         ))}
       </div>
     </section>
   );
 }
 
-function DaewoonBox({ period, isCurrent }: { period: DaeUnPeriod; isCurrent: boolean }) {
+function DaewoonBox({ period, isCurrent, startYear }: { period: DaeUnPeriod; isCurrent: boolean; startYear?: number }) {
   // Pull tints once and fall back to a neutral gray if the data ever has
   // an unexpected ohaeng value.
   const stemBg = OHAENG_TINT[period.stemElement as OHaeng] ?? '#f3f4f6';
@@ -123,13 +162,17 @@ function DaewoonBox({ period, isCurrent }: { period: DaeUnPeriod; isCurrent: boo
       // Current period gets a soft blue fill — mirrors the same panel used
       // on CompareWithUser to mark a matched pillar, so "you are here" reads
       // the same across screens. Other periods stay neutral.
+      data-current={isCurrent ? 'true' : undefined}
       className={`flex-shrink-0 w-[80px] rounded-xl px-1 pt-2 pb-2 text-center ${
         isCurrent ? 'bg-blue-50' : 'bg-gray-50'
       }`}
     >
-      <div className="text-[10px] font-medium text-gray-500 mb-2">
+      <div className={`text-[10px] font-medium text-gray-500 ${startYear ? 'mb-0.5' : 'mb-2'}`}>
         {period.startAge}~{period.endAge}세
       </div>
+      {startYear !== undefined && (
+        <div className="text-[10px] text-gray-500 mb-2 tabular-nums">{startYear}~</div>
+      )}
       <div className="flex flex-col items-center gap-1.5">
         {/* Stem cell — 천간. Background tint follows the stem's ohaeng. */}
         <div className="flex flex-col items-center">

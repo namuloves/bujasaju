@@ -111,3 +111,24 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .profile-modal-panel { animation: none; }
 }
+/* ── Profile v2 preview (/profile/[id]/v2) ─────────────────────────────
+   Scoped to `.profile-v2` so v1 and every other page are untouched. These
+   let components shared with v1 (DeepBioContent, DaewoonStrip, HeroPillar,
+   RelatedPeople) pick up the v2 fixes without forking them. Existing color
+   variables only; no new tokens. Fold into the components if v2 ships. */
+@layer utilities {
+  /* Contrast: gray-400 on gray-50 is ~2.5:1; gray-500 clears 4.5:1. */
+  :where(.profile-v2) .text-gray-400 { color: var(--color-gray-500); }
+  /* Tiny labels: 9–10px → 11px. */
+  :where(.profile-v2) .text-\[9px\],
+  :where(.profile-v2) .text-\[10px\] { font-size: 11px; }
+  /* One heading style for every section: 16px, weight 500, dark. */
+  :where(.profile-v2) h3.uppercase,
+  :where(.profile-v2) h3.text-sm.font-medium {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--color-gray-900);
+    letter-spacing: normal;
+    text-transform: none;
+  }
+}

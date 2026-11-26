@@ -10,10 +10,11 @@ import type { Gender, SajuResult } from './types';
 import {
   calculateDaeUn as calculateDaeUnCore,
   type DaeUnResult,
+  type DaeUnRounding,
   type SolarTermsData,
 } from './daewoon-core';
 
-export type { DaeUnPeriod, DaeUnResult } from './daewoon-core';
+export type { DaeUnPeriod, DaeUnResult, DaeUnRounding } from './daewoon-core';
 
 let cached: SolarTermsData | null = null;
 let inflight: Promise<SolarTermsData> | null = null;
@@ -41,7 +42,8 @@ export async function calculateDaeUnClient(
   gender: Gender,
   sajuResult: SajuResult,
   maxAge: number = 100,
+  rounding: DaeUnRounding = 'floor',
 ): Promise<DaeUnResult> {
   const solarTerms = await loadSolarTerms();
-  return calculateDaeUnCore(solarTerms, birthday, gender, sajuResult, maxAge);
+  return calculateDaeUnCore(solarTerms, birthday, gender, sajuResult, maxAge, rounding);
 }

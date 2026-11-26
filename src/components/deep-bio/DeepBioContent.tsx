@@ -118,7 +118,7 @@ function buildMatchPoints(userSaju: SajuResult, person: EnrichedPerson, lang: st
   return points;
 }
 
-export default function DeepBioContent({ bio, person, userSaju, lang, mobileHeader, scrollRoot, hideKeyFacts }: Props & { hideKeyFacts?: boolean }) {
+export default function DeepBioContent({ bio, person, userSaju, lang, mobileHeader, scrollRoot, hideKeyFacts, hideSajuConnection }: Props & { hideKeyFacts?: boolean; hideSajuConnection?: boolean }) {
   const matchPoints = userSaju ? buildMatchPoints(userSaju, person, lang) : [];
 
   // Key facts — childhood에서 추출
@@ -248,7 +248,7 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
           ~1,300 records not yet migrated. See SajuConnection in lib/deepBio. */}
       {(() => {
         const sc = (bio as { sajuConnection?: SajuConnection }).sajuConnection;
-        if (!sc) return null;
+        if (!sc || hideSajuConnection) return null;
 
         const structured = hasStructuredReading(sc);
         const legacyText = ko(lang, sc.summary ?? '', sc.summaryKo);
@@ -664,7 +664,7 @@ const DAEUN_TINT: Record<OHaeng, string> = {
   수: '#c0dcf4',
 };
 
-function DaeunPillarCells({ pillar }: { pillar: string }) {
+export function DaeunPillarCells({ pillar }: { pillar: string }) {
   const chars = [...(pillar ?? '')];
   if (chars.length !== 2) {
     return <div className="text-xs font-medium text-gray-900">{pillar}</div>;

@@ -88,13 +88,24 @@ export function isDaeUnForward(yearStem: CheonGan, gender: Gender): boolean {
   return false;
 }
 
+/**
+ * How the 대운 start age is rounded.
+ * - 'floor' (default): floor(days / 3) from midnight KST, can be 0. Used by
+ *   every existing caller.
+ * - 'round': max(1, round(days / 3)) from noon KST. Matches
+ *   scripts/daeun-helper.py, which the hand-written readings in
+ *   deep-bios-v2 were computed with, so ages line up with those readings.
+ */
+export type DaeUnRounding = 'floor' | 'round';
+
 function calculateStartAge(
   solarTerms: SolarTermsData,
   birthday: string,
   yearStem: CheonGan,
   gender: Gender,
+  rounding: DaeUnRounding = 'floor',
 ): number {
-  const birthDate = new Date(birthday + 'T00:00:00+09:00');
+  const birthDate = new Date(birthday + (rounding === 'round' ? 'T12:00:00+09:00' : 'T00:00:00+09:00'));
   const birthTimestamp = birthDate.getTime();
   const isForward = isDaeUnForward(yearStem, gender);
 
@@ -105,6 +116,9 @@ function calculateStartAge(
   if (targetTimestamp === null) return 5;
 
   const diffDays = Math.abs(targetTimestamp - birthTimestamp) / (1000 * 60 * 60 * 24);
+  if (rounding === 'round') {
+    return Math.max(1, Math.min(10, Math.round(diffDays / 3)));
+  }
   const years = Math.floor(diffDays / 3);
   return Math.max(0, Math.min(10, years));
 }
@@ -115,13 +129,14 @@ export function calculateDaeUn(
   gender: Gender,
   sajuResult: SajuResult,
   maxAge: number = 100,
+  rounding: DaeUnRounding = 'floor',
 ): DaeUnResult {
   const yearStem = sajuResult.saju.year.stem;
   const monthStem = sajuResult.saju.month.stem;
   const monthBranch = sajuResult.saju.month.branch;
 
   const isForward = isDaeUnForward(yearStem, gender);
-  const startAge = calculateStartAge(solarTerms, birthday, yearStem, gender);
+  const startAge = calculateStartAge(solarTerms, birthday, yearStem, gender, rounding);
 
   const monthStemIdx = STEMS.indexOf(monthStem);
   const monthBranchIdx = BRANCHES.indexOf(monthBranch);
