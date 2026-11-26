@@ -261,83 +261,76 @@ export default function ProfilePageV2() {
           <SectionNavV2 items={NAV_ITEMS[lang === 'ko' ? 'ko' : 'en']} lang={lang} rescanKey={bio} />
         </div>
 
-        {/* Hero — same structure as v1. */}
-        <div className="flex items-start gap-4 sm:gap-6">
-          <div className="shrink-0">
-            <Portrait
-              person={person}
-              className="w-32 h-40 sm:w-48 sm:h-60 rounded-2xl overflow-hidden shadow-lg"
-              textClass="text-3xl sm:text-4xl"
-            />
+        {/* Hero — two type sizes for text (name, net worth) plus one body
+            size (14px), and two text grays: gray-900 for content, gray-500
+            for labels and secondary info.
+            Top row: names | 생일 · 일주 · 출생지. Below: net worth, who
+            they are, education, short bio. On phones the photo sits next
+            to the names and everything else runs full width below. */}
+        <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[192px_1fr] gap-x-4 sm:gap-x-8 gap-y-5">
+          <Portrait
+            person={person}
+            className="w-24 h-30 sm:w-48 sm:h-60 sm:row-span-2 rounded-2xl overflow-hidden shadow-lg"
+            textClass="text-2xl sm:text-4xl"
+          />
+
+          {/* Top row */}
+          <div className="self-center sm:self-start sm:grid sm:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] sm:gap-8 sm:pt-1">
+            <div className="min-w-0">
+              <h1 className="text-2xl sm:text-3xl font-medium text-gray-900 leading-tight break-keep">
+                {displayName}
+              </h1>
+              {person.nameKo && (
+                <p className="mt-1 text-sm text-gray-500">
+                  {lang === 'ko' ? person.name : person.nameKo}
+                </p>
+              )}
+            </div>
+            <div className="hidden sm:block">
+              <HeroFacts person={person} bio={bio} lang={lang} />
+            </div>
           </div>
 
-          <div className="flex-1 min-w-0 pt-0.5">
-            <h1 className="text-xl sm:text-3xl font-medium text-gray-900 leading-tight flex items-baseline gap-2 flex-wrap">
-              {displayName}
-              {person.nameKo && (
-                <span className="text-sm sm:text-base font-normal text-gray-500">
-                  {lang === 'ko' ? person.name : person.nameKo}
-                </span>
-              )}
-            </h1>
-
-            {knownFor && (
-              <p className="mt-1.5 text-[13px] sm:text-sm text-gray-700 leading-snug">
-                {knownFor}
-              </p>
-            )}
-
-            <div className="flex items-baseline gap-2 mt-2 sm:mt-3 flex-wrap">
-              <span className="font-medium text-gray-900 text-xl sm:text-2xl whitespace-nowrap">
-                {formatNetWorth(person.netWorth, lang === 'ko')}
-              </span>
-              {lang === 'ko' && (
-                <span className="text-[11px] sm:text-xs text-gray-500">${person.netWorth}B</span>
-              )}
-              {asOfLabel && (
-                <span className="text-[11px] sm:text-xs text-gray-500">· {asOfLabel}</span>
-              )}
+          {/* Below */}
+          <div className="col-span-2 sm:col-span-1 sm:col-start-2 min-w-0">
+            <div className="sm:hidden mb-5">
+              <HeroFacts person={person} bio={bio} lang={lang} />
             </div>
 
-            <div className="flex flex-wrap gap-1.5 mt-2 sm:mt-3 text-[11px] sm:text-xs text-gray-600">
-              <span className="bg-gray-100 px-2 py-0.5 rounded-full">
-                {lang === 'ko' ? industryToKorean(person.industry) : person.industry}
-              </span>
-              <span className="bg-gray-100 px-2 py-0.5 rounded-full">
-                {person.birthday.replace(/-/g, '.')}
-                {person.deathDate ? ` – ${person.deathDate.replace(/-/g, '.')}` : ''}
-              </span>
-              {person.saju && (
-                <span className="bg-gray-100 px-2 py-0.5 rounded-full">{person.saju.ilju} 일주</span>
-              )}
-              {bio?.childhood?.birthPlace && (
-                <span className="bg-gray-100 px-2 py-0.5 rounded-full">
-                  {ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo)}
+            <div className="border-t border-gray-200 pt-5">
+              <div className="flex items-baseline gap-x-2 gap-y-1 flex-wrap">
+                <span className="text-xl font-medium text-gray-900 whitespace-nowrap">
+                  {formatNetWorth(person.netWorth, lang === 'ko')}
                 </span>
+                <span className="text-sm text-gray-500">
+                  {[lang === 'ko' ? `$${person.netWorth}B` : null, asOfLabel].filter(Boolean).join(' · ')}
+                </span>
+              </div>
+
+              {(knownFor || (person.company && person.company !== person.industry)) && (
+                <p className="mt-3 text-sm text-gray-900 leading-relaxed">
+                  {knownFor ?? person.company}
+                </p>
+              )}
+
+              {bio?.childhood?.education && (
+                <p className="mt-2 text-sm text-gray-900 leading-relaxed">
+                  <span className="text-gray-500">{lang === 'ko' ? '학력 ' : 'Education '}</span>
+                  {ko(lang, bio.childhood.education, bio.childhood.educationKo)}
+                </p>
+              )}
+
+              {/* The short dataset bio mostly restates the one-line summary
+                  above, so it only shows when there is no summary. */}
+              {person.bio && !knownFor && (
+                <ExpandableBio
+                  text={lang === 'ko'
+                    ? rewriteUsdToKrwInline(person.bioKo ?? person.bio, person.netWorth)
+                    : person.bio}
+                  lang={lang}
+                />
               )}
             </div>
-
-            {person.company && person.company !== person.industry && !knownFor && (
-              <p className="mt-2 text-xs sm:text-sm text-gray-500">{person.company}</p>
-            )}
-
-            {bio?.childhood?.education && (
-              <p className="mt-2 text-[11px] sm:text-xs text-gray-600 leading-relaxed">
-                <span className="text-gray-500">{lang === 'ko' ? '학력 · ' : 'Education · '}</span>
-                {ko(lang, bio.childhood.education, bio.childhood.educationKo)}
-              </p>
-            )}
-
-            {/* The short dataset bio mostly restates the one-line summary
-                above, so it only shows when there is no summary. */}
-            {person.bio && !knownFor && (
-              <ExpandableBio
-                text={lang === 'ko'
-                  ? rewriteUsdToKrwInline(person.bioKo ?? person.bio, person.netWorth)
-                  : person.bio}
-                lang={lang}
-              />
-            )}
           </div>
         </div>
 
@@ -449,6 +442,35 @@ export default function ProfilePageV2() {
   );
 }
 
+/** 생일 · 일주 · 출생지 as label/value rows (hero, second column). */
+function HeroFacts({ person, bio, lang }: { person: EnrichedPerson; bio: DeepBio | null; lang: string }) {
+  const rows: { label: string; value: string }[] = [
+    {
+      label: lang === 'ko' ? (person.deathDate ? '생몰' : '생일') : (person.deathDate ? 'Lived' : 'Born'),
+      value: person.birthday.replace(/-/g, '.') + (person.deathDate ? ` – ${person.deathDate.replace(/-/g, '.')}` : ''),
+    },
+  ];
+  if (person.saju) {
+    rows.push({ label: lang === 'ko' ? '일주' : 'Day pillar', value: `${person.saju.ilju} 일주` });
+  }
+  if (bio?.childhood?.birthPlace) {
+    rows.push({
+      label: lang === 'ko' ? '출생지' : 'Birthplace',
+      value: ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo),
+    });
+  }
+  return (
+    <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm">
+      {rows.map((r) => (
+        <div key={r.label} className="contents">
+          <dt className="text-gray-500">{r.label}</dt>
+          <dd className="text-gray-900 min-w-0">{r.value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
 function ExpandableBio({ text, lang }: { text: string; lang: string }) {
   const [expanded, setExpanded] = useState(false);
   const [isClamped, setIsClamped] = useState(false);
@@ -465,15 +487,15 @@ function ExpandableBio({ text, lang }: { text: string; lang: string }) {
   }, [text]);
 
   return (
-    <div className="mt-4">
-      <p ref={ref} className={`text-sm text-gray-600 leading-relaxed text-left ${expanded ? '' : 'line-clamp-3'}`}>
+    <div className="mt-3">
+      <p ref={ref} className={`text-sm text-gray-900 leading-relaxed text-left ${expanded ? '' : 'line-clamp-3'}`}>
         {text}
       </p>
       {isClamped && (
         <button
           type="button"
           onClick={() => setExpanded((v) => !v)}
-          className="mt-1 -ml-2 h-11 px-2 rounded-lg text-xs font-medium text-gray-600 hover:text-gray-900 transition-colors"
+          className="mt-1 -ml-2 h-11 px-2 rounded-lg text-sm text-gray-500 hover:text-gray-900 transition-colors"
         >
           {expanded
             ? (lang === 'ko' ? '접기 ↑' : 'Show less ↑')
