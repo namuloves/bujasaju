@@ -271,7 +271,7 @@ export default function ProfilePageV2() {
         <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[192px_1fr] gap-x-4 sm:gap-x-8 gap-y-5">
           <Portrait
             person={person}
-            className="w-24 h-30 sm:w-48 sm:h-60 sm:row-span-2 rounded-2xl overflow-hidden shadow-lg"
+            className="w-24 h-30 sm:w-48 sm:h-60 sm:row-span-2 rounded-lg overflow-hidden"
             textClass="text-2xl sm:text-4xl"
           />
 
