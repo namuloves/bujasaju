@@ -195,7 +195,10 @@ export default function MatchTab() {
     // the form, so it counts people who actually entered a birthday instead
     // of everyone who loaded the homepage. The gap between this and
     // `quiz_confirmed` is the drop-off on the confirm card.
-    trackEvent('quiz_started', { mode: next.mode });
+    trackEvent('quiz_started', {
+      mode: next.mode,
+      gender: next.mode === 'birthday' ? (next.gender ?? null) : null,
+    });
     setStep('calculating');
     // Short beat before landing on the confirm card so users feel the
     // system "doing something" with their birthday.
@@ -267,10 +270,10 @@ export default function MatchTab() {
               ? `${input.year}-${String(input.month).padStart(2, '0')}-${String(input.day).padStart(2, '0')}`
               : undefined
           }
-          // NOTE: BirthdayForm doesn't yet collect gender; default to 'M' so
-          // the v2 deep interpretation can run. Follow-up task: add a gender
-          // toggle to BirthdayForm and pass it through here.
-          userGender={input?.mode === 'birthday' ? 'M' : undefined}
+          // Gender sets the direction of 대운. Inputs saved before the form
+          // asked for it have none: the deep interpretation then takes its
+          // light path (no 대운) rather than guessing.
+          userGender={input?.mode === 'birthday' ? input.gender : undefined}
         />
       )}
     </div>

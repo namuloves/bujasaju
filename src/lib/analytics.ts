@@ -43,7 +43,7 @@ export type EventProps = Record<string, string | number | boolean | null>;
  */
 const VERCEL_MAX_PROPS = 2;
 const VERCEL_PROPS: Record<string, readonly string[]> = {
-  quiz_started: ['mode'],
+  quiz_started: ['mode', 'gender'],
   quiz_confirmed: ['ilju', 'mode'],
   quiz_results_shown: ['ilju', 'gyeokguk'],
   results_revisited: ['ilju'],

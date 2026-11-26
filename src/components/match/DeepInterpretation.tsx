@@ -38,12 +38,20 @@ interface InFlight {
 const inflight = new Map<string, InFlight>();
 const cache = new Map<string, string>();
 
-function keyFor(saju: SajuResult, featuredId: string, birthday: string | undefined): string {
+function keyFor(
+  saju: SajuResult,
+  featuredId: string,
+  birthday: string | undefined,
+  gender: 'M' | 'F' | undefined,
+): string {
   return [
     saju.ilju,
     saju.wolji,
     saju.gyeokguk,
     birthday ?? '',
+    // 대운 runs the other way for the other gender, so a reading cached for
+    // one must not be shown for the other.
+    gender ?? '',
     featuredId,
   ].join('|');
 }
@@ -153,7 +161,7 @@ function useDeepStream(
   userBirthday: string | undefined,
   userGender: 'M' | 'F' | undefined
 ) {
-  const key = keyFor(saju, featured.id, userBirthday);
+  const key = keyFor(saju, featured.id, userBirthday, userGender);
   const [, force] = useState(0);
 
   // Subscribe via useSyncExternalStore semantics (manual to keep it simple)

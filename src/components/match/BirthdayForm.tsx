@@ -36,6 +36,11 @@ export interface BirthdayInput {
   // hour+minute fields; those are still accepted from legacy localStorage
   // entries and migrated in MatchTab.
   timeBranch?: JiJi | null;
+  // 성별. Sets the direction of 대운 (forward/backward depends on the year
+  // stem's 음양 and gender), so the in-depth reading needs it. Optional in
+  // the type only because results saved before it was asked have none —
+  // those fall back to the reading without 대운.
+  gender?: 'M' | 'F';
   // Legacy fields — no longer written by this form, but may appear in
   // saved state from older versions of the app.
   hour?: number | null;
@@ -82,6 +87,8 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
   const [year, setYear] = useState<number>(birthInit?.year ?? 1990);
   const [month, setMonth] = useState<number>(birthInit?.month ?? 1);
   const [day, setDay] = useState<number>(birthInit?.day ?? 1);
+  const [gender, setGender] = useState<'M' | 'F' | null>(birthInit?.gender ?? null);
+  const [genderMissing, setGenderMissing] = useState(false);
 
   // Direct mode state — 4 pillars in 시주/일주/월주/년주 order
   const directInit = initial?.mode === 'direct' ? initial : null;
@@ -96,7 +103,11 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
 
   const handleBirthdaySubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onSubmit({ mode: 'birthday', year, month, day, timeBranch: null });
+    if (!gender) {
+      setGenderMissing(true);
+      return;
+    }
+    onSubmit({ mode: 'birthday', year, month, day, timeBranch: null, gender });
   };
 
   // Validation: day/month/year pillars are required; hour is optional (empty = unknown).
@@ -190,6 +201,47 @@ export default function BirthdayForm({ initial, onSubmit }: Props) {
                 ))}
               </select>
             </label>
+          </div>
+
+          {/* 성별 — sets the direction of 대운 in the in-depth reading. */}
+          <div className="mb-4" role="radiogroup" aria-label={lang === 'ko' ? '성별' : 'Gender'}>
+            <span className="block text-[11px] font-medium text-gray-500 mb-1.5">
+              {lang === 'ko' ? '성별' : 'Gender'}
+            </span>
+            <div className="grid grid-cols-2 gap-2 sm:gap-3">
+              {([
+                ['F', lang === 'ko' ? '여성' : 'Female'],
+                ['M', lang === 'ko' ? '남성' : 'Male'],
+              ] as const).map(([value, label]) => {
+                const selected = gender === value;
+                return (
+                  <button
+                    key={value}
+                    type="button"
+                    role="radio"
+                    aria-checked={selected}
+                    onClick={() => {
+                      setGender(value);
+                      setGenderMissing(false);
+                    }}
+                    className={`h-11 rounded-xl border text-sm transition-colors ${
+                      selected
+                        ? 'border-gray-900 bg-gray-900 text-white'
+                        : genderMissing
+                          ? 'border-red-300 bg-white text-gray-700 hover:border-gray-400'
+                          : 'border-gray-200 bg-white text-gray-700 hover:border-gray-400'
+                    }`}
+                  >
+                    {label}
+                  </button>
+                );
+              })}
+            </div>
+            {genderMissing && (
+              <p className="mt-1.5 text-[12px] text-red-500">
+                {lang === 'ko' ? '성별을 선택해 주세요' : 'Please choose one'}
+              </p>
+            )}
           </div>
 
           <button
