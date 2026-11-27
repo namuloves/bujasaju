@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import { cookies } from 'next/headers';
-import { getEnrichedPersonById } from '@/lib/data/enriched-server';
+import { notFound } from 'next/navigation';
+import { getAllEnrichedPeople, getEnrichedPersonById } from '@/lib/data/enriched-server';
+import { relatedPeople } from '@/lib/relatedPeople';
+import type { EnrichedPerson } from '@/lib/saju/types';
 import { getDeepBioV2ById } from '@/lib/data/deep-bio-server';
 import { hasStructuredReading } from '@/lib/deepBio';
 import {
@@ -10,6 +13,7 @@ import {
   parseViewedIds,
 } from '@/lib/paywall';
 import ProfileWall from '@/components/paywall/ProfileWall';
+import { EnrichedSeedProvider } from '@/lib/data/enriched';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -170,6 +174,11 @@ export default async function ProfileLayout({ params, children }: Props) {
   const { id } = await params;
   const person = getEnrichedPersonById(id);
 
+  // Unknown or hidden (netWorth 0) IDs used to answer 200 with a client-side
+  // "인물을 찾을 수 없어요" page, a soft 404 that search engines keep as a thin
+  // duplicate. A real 404 lets them drop it.
+  if (!person) notFound();
+
   // Person JSON-LD — helps Google/Bing understand the page is about a specific
   // real person. Enables richer snippets (photo + birthday + occupation).
   const bio = person ? getDeepBioV2ById(id) : null;
@@ -219,6 +228,22 @@ export default async function ProfileLayout({ params, children }: Props) {
   const viewedIds = parseViewedIds(cookieStore.get(VIEWS_COOKIE)?.value);
   const { allowed } = evaluateAccess({ profileId: id, viewedIds, unlocked });
 
+  // First-render data for the client page: this person, plus the people
+  // RelatedPeople will show, so the server HTML carries real <a href> links
+  // to other profiles. Crawlers find pages through those links
+  // (https://searchadvisor.naver.com/guide/resource-and-link); before this,
+  // the HTML of a profile linked to no other profile at all. Bios are
+  // dropped from the related cards to keep the payload small; they don't
+  // show them.
+  const { sameIlju, sameIndustry } = relatedPeople(getAllEnrichedPeople(), person);
+  const related = new Map<string, EnrichedPerson>();
+  for (const p of [...sameIlju, ...sameIndustry]) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { bio: _bio, bioKo: _bioKo, ...card } = p;
+    related.set(p.id, card);
+  }
+  const seed = [person, ...related.values()];
+
   return (
     <>
       {jsonLd && (
@@ -228,7 +253,9 @@ export default async function ProfileLayout({ params, children }: Props) {
         />
       )}
       {allowed ? (
-        children
+        // Seeding the person lets the client page server-render its hero
+        // (name, bio, chart) instead of a spinner. See EnrichedSeedProvider.
+        <EnrichedSeedProvider people={seed}>{children}</EnrichedSeedProvider>
       ) : (
         <ProfileWall personName={person ? person.nameKo || person.name : undefined} />
       )}
