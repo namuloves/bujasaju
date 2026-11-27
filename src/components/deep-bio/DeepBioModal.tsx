@@ -10,7 +10,7 @@
  * keeps focus inside while open and returns it to the opener on close.
  *
  * Content: the profile v2 layout (ProfileTopBarV2 + ProfileBodyV2), the
- * same components as /profile/[id]/v2. The desktop panel is as wide as the
+ * same components as /profile/[id]. The desktop panel is as wide as the
  * v2 page column (max-w-4xl) so it lays out exactly like the page. No
  * section nav here: the page shows it only in the xl left margin, which a
  * panel doesn't have, and the overlay is the quick read — "전체 페이지"
@@ -26,10 +26,9 @@ import { fetchDeepBio } from '@/lib/deepBio';
 import ProfileTopBarV2 from '../profile-v2/ProfileTopBarV2';
 import ProfileBodyV2 from '../profile-v2/ProfileBodyV2';
 
-/** "전체 페이지" target. Points at the v2 page while v2 is in preview so
- *  the overlay and the page it opens look the same; change back to
- *  `/profile/${id}` when v2 replaces v1 there. */
-const fullPageHref = (id: string) => `/profile/${id}/v2`;
+/** "전체 페이지" target — the profile page, same v2 design as the overlay.
+ *  A plain <a>, so the full load goes through the free-view meter. */
+const fullPageHref = (id: string) => `/profile/${id}`;
 
 const FOCUSABLE =
   'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';

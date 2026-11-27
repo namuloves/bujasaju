@@ -2,7 +2,7 @@
 
 /**
  * Profile v2 — everything below the top bar, from the hero down to the
- * sources. Shared by the full page (/profile/[id]/v2) and the profile
+ * sources. Shared by the full page (/profile/[id]) and the profile
  * overlay (DeepBioModal), so both always show the same sections in the
  * same order with the same styles.
  *

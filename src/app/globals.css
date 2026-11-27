@@ -80,7 +80,7 @@ body {
   .ticker-marquee { animation: none; }
 }
 
-/* ── Profile v2 (/profile/[id]/v2 and the profile overlay) ─────────────
+/* ── Profile v2 (/profile/[id] and the profile overlay) ──────────────────
    Scoped to `.profile-v2` so v1 and every other page are untouched. These
    let components shared with v1 (DeepBioContent, DaewoonStrip, HeroPillar,
    RelatedPeople) pick up the v2 fixes without forking them. Existing color

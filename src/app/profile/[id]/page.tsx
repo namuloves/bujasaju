@@ -1,23 +1,46 @@
 'use client';
 
+/**
+ * Profile page (/profile/[id]) — the v2 design, promoted from the
+ * /profile/[id]/v2 preview (which now redirects here, see next.config.ts).
+ *
+ * The layout (./layout.tsx) handles metadata, JSON-LD, the free-view meter
+ * and real 404s, and seeds this person plus their related people into the
+ * first render so the server HTML carries the hero, chart and related
+ * links for crawlers.
+ *
+ * Design (approved Nov 2026):
+ *   - Hero: three text sizes, two text grays; names with 생일 · 일주 · 출생지
+ *     and 학력 under them, then net worth and who they are. Photo has 8px
+ *     corners and no shadow; no-photo profiles get a gray initials tile.
+ *   - Order: chart → reading → 대운 → background → rest of the bio. Facts
+ *     already in the hero are not repeated.
+ *   - Chart card is white and carries the one-line reading on desktop.
+ *   - 대운 strip takes its start age from the reading (so the two agree),
+ *     shows start years and scrolls to the current period on phones; the
+ *     period paragraphs stack on phones.
+ *   - Left-margin section nav (xl+).
+ *   - Quiz CTA paused; the comparison card still shows for quiz-takers.
+ *   - Contrast, 11px minimum labels and one heading style come from scoped
+ *     `.profile-v2` CSS in globals.css, so shared components follow.
+ *
+ * Hero → sources is ProfileBodyV2, shared with the profile overlay
+ * (DeepBioModal); this page adds the top bar, section nav and related people.
+ */
+
 import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { useLanguage } from '@/lib/i18n';
 import { useEnrichedPeople } from '@/lib/data/enriched';
 import type { DeepBio } from '@/lib/deepBio';
 import { fetchDeepBio } from '@/lib/deepBio';
-import { LoadingSpinner, EmptyBioState, ko } from '@/components/deep-bio/DeepBioTabs';
-import DeepBioContent from '@/components/deep-bio/DeepBioContent';
-import { HeroPillar } from '@/components/match/SajuHero';
-import DaewoonStrip from '@/components/profile/DaewoonStrip';
-import CompareWithUser from '@/components/profile/CompareWithUser';
+import { LoadingSpinner } from '@/components/deep-bio/DeepBioTabs';
 import RelatedPeople from '@/components/profile/RelatedPeople';
 import FamilyLink from '@/components/profile/FamilyLink';
-import type { CheonGan } from '@/lib/saju/types';
-import { industryToKorean } from '@/components/FilterPanel';
-import { rewriteUsdToKrwInline } from '@/lib/usdToKrw';
-import ExpandableBio from '@/components/profile/ExpandableBio';
-import { formatNetWorth, netWorthAsOfLabel, normalizePhotoUrl, uiAvatarUrl } from '@/components/profile/format';
+import ProfileTopBarV2 from '@/components/profile-v2/ProfileTopBarV2';
+import ProfileBodyV2 from '@/components/profile-v2/ProfileBodyV2';
+import SectionNavV2 from '@/components/profile-v2/SectionNavV2';
+import { NAV_ITEMS, SECTION } from '@/components/profile-v2/sections';
 
 export default function ProfilePage() {
   const params = useParams();
@@ -30,19 +53,6 @@ export default function ProfilePage() {
   const personId = params.id as string;
   const person = people.find(p => p.id === personId);
 
-  // Visitor saju presence — when set, CompareWithUser renders BOTH charts
-  // (visitor + person) side by side, so the standalone person chart below
-  // becomes redundant. We hydrate from localStorage on mount and use the
-  // flag to hide the duplicate. Browse-only visitors keep seeing it.
-  const [visitorHasSaju, setVisitorHasSaju] = useState(false);
-  useEffect(() => {
-    try {
-      setVisitorHasSaju(!!localStorage.getItem('bujasaju.matchInput'));
-    } catch {
-      setVisitorHasSaju(false);
-    }
-  }, []);
-
   useEffect(() => {
     fetchDeepBio(personId).then(data => {
       setBio(data);
@@ -50,7 +60,6 @@ export default function ProfilePage() {
     });
   }, [personId]);
 
-  // Full-page loading
   if (peopleLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
@@ -72,275 +81,25 @@ export default function ProfilePage() {
 
   const displayName = lang === 'ko' ? (person.nameKo || person.name) : person.name;
 
-  const knownFor = bio?.personalTraits
-    ? ko(lang, bio.personalTraits.knownFor, bio.personalTraits.knownForKo)
-    : null;
-
-  const asOfLabel = netWorthAsOfLabel(bio, lang);
-  const photoSrc = normalizePhotoUrl(person.photoUrl) ?? uiAvatarUrl(person.name, 400);
-
   return (
-    <div className="min-h-screen bg-gray-50 profile-page-root">
-      {/* Top bar — sticky mini-header. Shows photo + name + worth so the
-          reader always knows whose profile they're on even after scrolling
-          past the hero. */}
-      <div className="bg-white border-b border-gray-200 sticky top-0 z-10 profile-topbar">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-2.5 flex items-center gap-3">
-          <button
-            onClick={() => {
-              // If user came from within the site, go back. Otherwise (direct
-              // landing via search / share link), send them to the home page
-              // so they can actually explore bujasaju rather than hit an
-              // empty history that does nothing.
-              if (typeof document !== 'undefined' &&
-                  document.referrer &&
-                  new URL(document.referrer).origin === window.location.origin) {
-                router.back();
-              } else {
-                router.push('/');
-              }
-            }}
-            className="text-gray-500 hover:text-gray-800 transition-colors text-sm flex items-center gap-1 shrink-0"
-            aria-label={lang === 'ko' ? '돌아가기' : 'Back'}
-          >
-            <span className="text-lg leading-none">←</span>
-            <span className="hidden sm:inline">{lang === 'ko' ? '돌아가기' : 'Back'}</span>
-          </button>
-          <div className="h-5 w-px bg-gray-200 shrink-0" />
-          <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-200 shrink-0">
-            <img
-              src={photoSrc}
-              alt={person.name}
-              className="w-full h-full object-cover"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.src = uiAvatarUrl(person.name, 80);
-              }}
-            />
-          </div>
-          <div className="flex-1 min-w-0 flex items-baseline gap-2">
-            <span className="text-sm font-medium text-gray-900 truncate">{displayName}</span>
-            <span className="text-xs text-gray-500 shrink-0">
-              {formatNetWorth(person.netWorth, lang === 'ko')}
-            </span>
-            <span className="text-xs text-gray-400 truncate hidden sm:inline">
-              · {lang === 'ko' ? industryToKorean(person.industry) : person.industry}
-            </span>
-            {person.saju && (
-              <span className="text-xs text-gray-400 truncate hidden sm:inline">
-                · {person.saju.ilju} 일주
-              </span>
-            )}
-          </div>
-        </div>
-      </div>
+    <div className="min-h-screen bg-gray-50 profile-page-root profile-v2">
+      <ProfileTopBarV2 person={person} displayName={displayName} lang={lang} />
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
-        {/* Hero: horizontal layout on every breakpoint — photo on left, info
-            on right. The previous design stacked them on mobile (avatar on top,
-            text below) which pushed the important matching card way below the
-            fold. Keeping photo + info side-by-side recovers ~40% of vertical
-            space on phones. */}
-        <div className="flex items-start gap-4 sm:gap-6">
-          {/* Portrait photo — rectangular on all sizes for an info-density feel. */}
-          <div className="shrink-0">
-            <div className="w-32 h-40 sm:w-48 sm:h-60 rounded-2xl overflow-hidden bg-gray-200 shadow-lg">
-              <img
-                src={photoSrc}
-                alt={person.name}
-                // Largest image above the fold — ask the browser to fetch it first.
-                fetchPriority="high"
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = uiAvatarUrl(person.name, 400);
-                }}
-              />
-            </div>
-          </div>
-
-          {/* Bio info */}
-          <div className="flex-1 min-w-0 pt-0.5">
-            <h1 className="text-xl sm:text-3xl font-medium text-gray-900 leading-tight flex items-baseline gap-2 flex-wrap">
-              {displayName}
-              {person.nameKo && (
-                <span className="text-sm sm:text-base font-normal text-gray-400">
-                  {lang === 'ko' ? person.name : person.nameKo}
-                </span>
-              )}
-            </h1>
-
-            {/* One-line "who is this" — pulled up from the bio's 대표 활동 so
-                a visitor arriving from a search result gets the answer
-                before the number. Renders once the bio has loaded. */}
-            {knownFor && (
-              <p className="mt-1.5 text-[13px] sm:text-sm text-gray-700 leading-snug">
-                {knownFor}
-              </p>
-            )}
-
-            {/* Net worth — big number, USD subscript, and the date the
-                figure is good for. A Forbes number can sit for months, and
-                under a news spike (a sale, a listing) "as of" is the
-                difference between a stale figure and a wrong one. */}
-            <div className="flex items-baseline gap-2 mt-2 sm:mt-3 flex-wrap">
-              <span className="font-medium text-gray-900 text-xl sm:text-2xl whitespace-nowrap">
-                {formatNetWorth(person.netWorth, lang === 'ko')}
-              </span>
-              {lang === 'ko' && (
-                <span className="text-[11px] sm:text-xs text-gray-400">
-                  ${person.netWorth}B
-                </span>
-              )}
-              {asOfLabel && (
-                <span className="text-[11px] sm:text-xs text-gray-400">
-                  · {asOfLabel}
-                </span>
-              )}
-            </div>
-
-            {/* Meta chips — industry / birthday / ilju packed into a single
-                wrappable row so they don't take 4 lines of vertical space. */}
-            <div className="flex flex-wrap gap-1.5 mt-2 sm:mt-3 text-[11px] sm:text-xs text-gray-600">
-              <span className="bg-gray-100 px-2 py-0.5 rounded-full">
-                {lang === 'ko' ? industryToKorean(person.industry) : person.industry}
-              </span>
-              <span className="bg-gray-100 px-2 py-0.5 rounded-full">
-                {person.birthday.replace(/-/g, '.')}
-                {person.deathDate ? ` – ${person.deathDate.replace(/-/g, '.')}` : ''}
-              </span>
-              {person.saju && (
-                <span className="bg-gray-100 px-2 py-0.5 rounded-full">
-                  {person.saju.ilju} 일주
-                </span>
-              )}
-              {bio?.childhood?.birthPlace && (
-                <span className="bg-gray-100 px-2 py-0.5 rounded-full">
-                  {ko(lang, bio.childhood.birthPlace, bio.childhood.birthPlaceKo)}
-                </span>
-              )}
-            </div>
-
-            {/* Company quoted side-note — `source` was inconsistent (sometimes
-                a product, sometimes a mini-bio with family relations) so we
-                show `company` instead. The dataset's company field is short
-                and stable (e.g. "신세계그룹", "Tesla, SpaceX"). Hidden once the
-                bio's knownFor line is up — it repeats the same names. */}
-            {person.company && person.company !== person.industry && !knownFor && (
-              <p className="mt-2 text-xs sm:text-sm text-gray-500">
-                {person.company}
-              </p>
-            )}
-
-            {/* Education shows up only when we have it — keep it as a single
-                quiet line below the chips, no row of label/value anymore. */}
-            {bio?.childhood?.education && (
-              <p className="mt-2 text-[11px] sm:text-xs text-gray-500 leading-relaxed">
-                <span className="text-gray-400">
-                  {lang === 'ko' ? '학력 · ' : 'Education · '}
-                </span>
-                {ko(lang, bio.childhood.education, bio.childhood.educationKo)}
-              </p>
-            )}
-
-            {/* Short bio — inline USD amounts (e.g. "35억 달러") get rewritten
-                to the same 조원 figure shown in the page header, so the bio
-                and the headline don't disagree about how much the person
-                is worth. English bios are passed through unchanged.
-                Long bios are clamped to 3 lines with a tap-to-expand toggle. */}
-            {person.bio && (
-              <ExpandableBio
-                text={lang === 'ko'
-                  ? rewriteUsdToKrwInline(person.bioKo ?? person.bio, person.netWorth)
-                  : person.bio}
-                lang={lang}
-              />
-            )}
-          </div>
+      <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        {/* Section nav in the left margin — xl+ only, where there is room
+            beside the 896px column. */}
+        <div className="hidden xl:block absolute right-full top-0 bottom-0 mr-4 w-36">
+          <SectionNavV2 items={NAV_ITEMS[lang === 'ko' ? 'ko' : 'en']} lang={lang} rescanKey={bio} />
         </div>
 
-        {/* Compare-with-user — reads localStorage for the visitor's saju and
-            shows how it relates to this person's. Renders a CTA if the user
-            hasn't entered theirs yet. Placed above the chart so the personal
-            connection lands before the abstract analysis. */}
-        {person.saju && (
-          <div className="mt-6">
-            <CompareWithUser person={person} />
-          </div>
-        )}
+        {/* Hero → chart → reading → 대운 → background → rest of the bio.
+            Shared with the profile overlay (DeepBioModal). */}
+        <ProfileBodyV2 person={person} bio={bio} bioLoading={bioLoading} displayName={displayName} lang={lang} />
 
-        {/* Standalone person chart — only for visitors who haven't entered
-            their saju. Quiz-takers already see this same chart inside
-            CompareWithUser above (alongside their own), so showing it again
-            here would just duplicate the same information. */}
-        {person.saju && !visitorHasSaju && (
-          <section className="mt-8 sm:mt-10 rounded-2xl bg-gray-50 border border-gray-100 px-4 sm:px-6 py-5 sm:py-6">
-            <h2 className="text-sm font-medium text-gray-900 mb-4 text-center">
-              {lang === 'ko' ? `${displayName}의 사주` : `${displayName}'s Saju`}
-            </h2>
-            <div className="max-w-md mx-auto">
-              <div className="flex justify-center gap-2 sm:gap-2.5">
-                <HeroPillar
-                  label="時"
-                  ju={person.saju.saju.hour}
-                  ilgan={person.saju.saju.day.stem as CheonGan}
-                />
-                <HeroPillar
-                  label="日"
-                  ju={person.saju.saju.day}
-                  ilgan={person.saju.saju.day.stem as CheonGan}
-                  isDayPillar
-                />
-                <HeroPillar
-                  label="月"
-                  ju={person.saju.saju.month}
-                  ilgan={person.saju.saju.day.stem as CheonGan}
-                />
-                <HeroPillar
-                  label="年"
-                  ju={person.saju.saju.year}
-                  ilgan={person.saju.saju.day.stem as CheonGan}
-                />
-              </div>
-              <p className="text-[12px] text-gray-500 text-center mt-3">
-                {person.saju.ilju}일주 · {person.saju.wolji}월지 · {person.saju.gyeokguk}
-              </p>
-              {!person.saju.saju.hour && (
-                <p className="text-[11px] text-gray-400 text-center mt-1">
-                  {lang === 'ko'
-                    ? '출생 시각이 공개되지 않아 시주(時柱)는 제외한 세 기둥 기준입니다.'
-                    : 'Birth time is not public, so the hour pillar is omitted.'}
-                </p>
-              )}
-            </div>
-          </section>
-        )}
-
-        {/* 대운 strip — 10-year luck periods. Needs birthday + gender, both
-            of which the enriched data set carries. Component handles its own
-            loading/error states (silently hides if data is missing). */}
-        {person.birthday && person.gender && (
-          <section className="mt-6">
-            <DaewoonStrip person={person} />
-          </section>
-        )}
-
-        {/* Bio sections — single-scroll layout with right-edge floating nav */}
-        <div className="mt-10">
-          {bioLoading ? (
-            <LoadingSpinner />
-          ) : !bio ? (
-            <EmptyBioState lang={lang} />
-          ) : (
-            <DeepBioContent bio={bio} person={person} lang={lang} />
-          )}
+        <div id={SECTION.related} className="scroll-mt-20">
+          <FamilyLink personId={person.id} />
+          <RelatedPeople person={person} people={people} />
         </div>
-
-        {/* Where next — same 일주 / same field. Sits after the bio so it's the
-            last thing a reader sees before the footer. */}
-        {/* Business-family members link to their family comparison page. */}
-        <FamilyLink personId={person.id} />
-        <RelatedPeople person={person} people={people} />
       </div>
     </div>
   );

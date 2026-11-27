@@ -67,6 +67,14 @@ const nextConfig: NextConfig = {
   // added here — GA then credits those visits to X instead of "Direct"
   // (X's in-app browser usually drops the referrer).
   redirects: async () => [
+    // The v2 profile was previewed at /profile/[id]/v2 before it replaced
+    // /profile/[id]; keep old links (and anything indexed) landing on the
+    // real page.
+    {
+      source: '/profile/:id/v2',
+      destination: '/profile/:id',
+      permanent: true,
+    },
     {
       source: '/x',
       destination: '/?utm_source=x&utm_medium=social&utm_campaign=born_today',
