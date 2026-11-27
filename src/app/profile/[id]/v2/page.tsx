@@ -19,28 +19,24 @@
  *   - Quiz CTA paused; the comparison card still shows for quiz-takers.
  *   - Contrast, 11px minimum labels and one heading style come from scoped
  *     `.profile-v2` CSS in globals.css, so shared components follow.
+ *
+ * Hero → sources is ProfileBodyV2, shared with the profile overlay
+ * (DeepBioModal); this page adds the top bar, section nav and related people.
  */
 
 import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { useLanguage } from '@/lib/i18n';
 import { useEnrichedPeople } from '@/lib/data/enriched';
-import type { DeepBio, SajuConnection } from '@/lib/deepBio';
-import { fetchDeepBio, hasStructuredReading } from '@/lib/deepBio';
-import { LoadingSpinner, EmptyBioState, ko } from '@/components/deep-bio/DeepBioTabs';
-import DeepBioContent from '@/components/deep-bio/DeepBioContent';
-import DaewoonStrip from '@/components/profile/DaewoonStrip';
-import CompareWithUser from '@/components/profile/CompareWithUser';
+import type { DeepBio } from '@/lib/deepBio';
+import { fetchDeepBio } from '@/lib/deepBio';
+import { LoadingSpinner } from '@/components/deep-bio/DeepBioTabs';
 import RelatedPeople from '@/components/profile/RelatedPeople';
 import FamilyLink from '@/components/profile/FamilyLink';
 import ProfileTopBarV2 from '@/components/profile-v2/ProfileTopBarV2';
-import ProfileHeroV2 from '@/components/profile-v2/ProfileHeroV2';
-import SajuChartCardV2 from '@/components/profile-v2/SajuChartCardV2';
-import BackgroundV2 from '@/components/profile-v2/BackgroundV2';
+import ProfileBodyV2 from '@/components/profile-v2/ProfileBodyV2';
 import SectionNavV2 from '@/components/profile-v2/SectionNavV2';
-import { SajuReadingV2, DaeunReadingList, startAgeFromReading } from '@/components/profile-v2/SajuReadingV2';
 import { NAV_ITEMS, SECTION } from '@/components/profile-v2/sections';
-import { useVisitorHasSaju } from '@/components/profile-v2/useVisitorHasSaju';
 
 export default function ProfilePageV2() {
   const params = useParams();
@@ -49,7 +45,6 @@ export default function ProfilePageV2() {
   const { people, loading: peopleLoading } = useEnrichedPeople();
   const [bio, setBio] = useState<DeepBio | null>(null);
   const [bioLoading, setBioLoading] = useState(true);
-  const visitorHasSaju = useVisitorHasSaju();
 
   const personId = params.id as string;
   const person = people.find(p => p.id === personId);
@@ -81,14 +76,6 @@ export default function ProfilePageV2() {
   }
 
   const displayName = lang === 'ko' ? (person.nameKo || person.name) : person.name;
-  const knownFor = bio?.personalTraits
-    ? ko(lang, bio.personalTraits.knownFor, bio.personalTraits.knownForKo)
-    : null;
-
-  // sajuConnection lives on the v2 bio shape; DeepBio doesn't declare it.
-  const sc = (bio as { sajuConnection?: SajuConnection } | null)?.sajuConnection;
-  const reading = sc && hasStructuredReading(sc) ? sc : null;
-  const daeunItems = reading?.daeunKo ?? [];
 
   return (
     <div className="min-h-screen bg-gray-50 profile-page-root profile-v2">
@@ -101,62 +88,9 @@ export default function ProfilePageV2() {
           <SectionNavV2 items={NAV_ITEMS[lang === 'ko' ? 'ko' : 'en']} lang={lang} rescanKey={bio} />
         </div>
 
-        <ProfileHeroV2 person={person} bio={bio} displayName={displayName} knownFor={knownFor} lang={lang} />
-
-        {/* Comparison with the visitor's own chart — quiz-takers only. The
-            "내 사주 입력하기" CTA for everyone else is paused; remove the
-            `visitorHasSaju &&` to bring it back (button style). */}
-        {person.saju && visitorHasSaju && (
-          <div className="mt-6">
-            <CompareWithUser person={person} ctaStyle="button" />
-          </div>
-        )}
-
-        <SajuChartCardV2
-          id={SECTION.saju}
-          person={person}
-          displayName={displayName}
-          showChart={!visitorHasSaju}
-          oneLine={reading?.oneLineKo}
-          lang={lang}
-        />
-
-        {reading && (
-          <div id={SECTION.reading} className="scroll-mt-20 mt-10">
-            <SajuReadingV2 sc={reading} lang={lang} />
-          </div>
-        )}
-
-        {/* 대운 — strip and the period-by-period reading together. */}
-        {person.birthday && person.gender && (
-          <section id={SECTION.daeun} className="scroll-mt-20 mt-10">
-            <DaewoonStrip
-              person={person}
-              rounding="round"
-              startAgeOverride={startAgeFromReading(daeunItems)}
-              showYears
-              autoScrollToCurrent
-            />
-            {daeunItems.length > 0 && (
-              <div className="mt-6">
-                <DaeunReadingList items={daeunItems} lang={lang} />
-              </div>
-            )}
-          </section>
-        )}
-
-        <BackgroundV2 id={SECTION.background} person={person} bio={bio} lang={lang} />
-
-        {/* Rest of the bio — character, timeline, setbacks, sources. */}
-        <div className="mt-10">
-          {bioLoading ? (
-            <LoadingSpinner />
-          ) : !bio ? (
-            <EmptyBioState lang={lang} />
-          ) : (
-            <DeepBioContent bio={bio} person={person} lang={lang} hideKeyFacts hideSajuConnection={!!reading} />
-          )}
-        </div>
+        {/* Hero → chart → reading → 대운 → background → rest of the bio.
+            Shared with the profile overlay (DeepBioModal). */}
+        <ProfileBodyV2 person={person} bio={bio} bioLoading={bioLoading} displayName={displayName} lang={lang} />
 
         <div id={SECTION.related} className="scroll-mt-20">
           <FamilyLink personId={person.id} />

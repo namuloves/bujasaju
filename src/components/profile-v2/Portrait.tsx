@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import type { EnrichedPerson } from '@/lib/saju/types';
-import { normalizePhotoUrl } from '@/components/profile/format';
+import { normalizePhotoUrl, proxyWikimedia } from '@/components/profile/format';
 
 function initialsOf(name: string): string {
   const words = name.split(/\s+/).filter(Boolean);
@@ -23,7 +23,7 @@ interface Props {
 /** Photo, or a neutral gray tile with initials when there is no photo or
  *  it fails to load. Existing gray tokens only. */
 export default function Portrait({ person, className, textClass }: Props) {
-  const src = normalizePhotoUrl(person.photoUrl);
+  const src = proxyWikimedia(normalizePhotoUrl(person.photoUrl));
   const [failed, setFailed] = useState(false);
 
   if (!src || failed) {

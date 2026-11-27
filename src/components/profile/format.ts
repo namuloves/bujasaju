@@ -41,6 +41,15 @@ export function normalizePhotoUrl(url: string | undefined | null): string | null
   return url;
 }
 
+/** Wikimedia hotlinks → our /api/wiki-image proxy (browser ORB and hotlink
+ *  rate limits), as the cards and the old overlay do. Other URLs unchanged. */
+export function proxyWikimedia(url: string | null): string | null {
+  if (url && url.includes('upload.wikimedia.org/')) {
+    return `/api/wiki-image?url=${encodeURIComponent(url)}`;
+  }
+  return url;
+}
+
 /** Generated initials avatar (ui-avatars.com) — v1's no-photo fallback. */
 export function uiAvatarUrl(name: string, size: number): string {
   return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=${size}&background=random&bold=true`;
