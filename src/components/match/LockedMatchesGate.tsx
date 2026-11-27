@@ -12,6 +12,7 @@ import {
   useEmailCaptureAnalytics,
 } from '@/lib/emailCaptureAnalytics';
 import { USD_TO_KRW } from '@/lib/usdToKrw';
+import Portrait from '@/components/profile-v2/Portrait';
 
 /**
  * LockedMatchesGate — email-capture incentive on the results page.
@@ -472,23 +473,21 @@ function LockedRow({
       <div className="text-xs font-medium text-gray-400 w-5 shrink-0">#{rank}</div>
 
       {/* Photo / placeholder. Avatar stays grey until unlocked — we
-          never load the real photo before the user submits. */}
-      <div className="shrink-0 w-10 h-10 rounded-full overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
-        {unlocked ? (
-          <img
-            src={person.photoUrl ?? `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=80&background=random&bold=true`}
-            alt={person.name}
-            className="w-full h-full object-cover"
-            loading="lazy"
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-              target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=80&background=random&bold=true`;
-            }}
-          />
-        ) : (
+          never load the real photo before the user submits. Both states
+          share the profile v2 photo shape (8px corners, no shadow), so the
+          row doesn't shift on unlock. */}
+      {unlocked ? (
+        <Portrait
+          person={person}
+          lazy
+          className="shrink-0 w-10 h-10 rounded-lg overflow-hidden bg-gray-100"
+          textClass="text-xs"
+        />
+      ) : (
+        <div className="shrink-0 w-10 h-10 rounded-lg overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
           <span className="text-base" aria-hidden>🔒</span>
-        )}
-      </div>
+        </div>
+      )}
 
       <div className="flex-1 min-w-0">
         {unlocked ? (

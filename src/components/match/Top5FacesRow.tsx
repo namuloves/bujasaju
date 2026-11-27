@@ -16,6 +16,7 @@ import { useLanguage } from '@/lib/i18n';
 import { industryToKorean } from '@/components/FilterPanel';
 import { fetchDeepBioV2, hasDeepBioV2Sync } from '@/lib/deepBio';
 import { rewriteUsdToKrwInline, USD_TO_KRW } from '@/lib/usdToKrw';
+import Portrait from '@/components/profile-v2/Portrait';
 
 function formatWorthKo(netWorthB: number): string {
   const eok = netWorthB * 10 * USD_TO_KRW;
@@ -41,19 +42,6 @@ function nationalityKo(code: string | undefined, lang: string): string {
   if (!code) return '';
   if (lang !== 'ko') return code;
   return NATIONALITY_KO[code] || code;
-}
-
-function normalizePhoto(url: string | undefined | null, name: string): string {
-  if (!url) {
-    return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=200&background=random&bold=true`;
-  }
-  let normalized = url;
-  if (normalized.startsWith('//')) normalized = `https:${normalized}`;
-  if (normalized.startsWith('http://')) normalized = normalized.replace(/^http:/, 'https:');
-  if (normalized.includes('upload.wikimedia.org/')) {
-    return `/api/wiki-image?url=${encodeURIComponent(normalized)}`;
-  }
-  return normalized;
 }
 
 interface Props {
@@ -492,22 +480,16 @@ function Top3Row({
         href={`/profile/${person.id}`}
         className="block flex items-start gap-3 sm:gap-4 p-3 sm:p-4"
       >
-        {/* Rounded-square portrait — 4:5 aspect, big enough to feel like
-            a real photo card rather than an avatar chip. */}
+        {/* 4:5 portrait, profile v2 style: 8px corners, no shadow, gray
+            initials tile when there is no photo. Mobile 80×100, larger
+            screens 96×120. */}
         <div className="shrink-0">
-          {/* 4:5 portrait. Mobile 80×100, larger screens 96×120. */}
-          <div className="w-20 h-[100px] sm:w-24 sm:h-[120px] rounded-2xl overflow-hidden bg-gray-200 shadow-sm">
-            <img
-              src={normalizePhoto(person.photoUrl, person.name)}
-              alt={person.name}
-              className="w-full h-full object-cover"
-              loading="lazy"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=200&background=random&bold=true`;
-              }}
-            />
-          </div>
+          <Portrait
+            person={person}
+            lazy
+            className="w-20 h-[100px] sm:w-24 sm:h-[120px] rounded-lg overflow-hidden bg-gray-100"
+            textClass="text-2xl"
+          />
         </div>
 
         {/* Right side — name/worth row, then meta, then bio paragraph. */}
