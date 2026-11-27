@@ -8,6 +8,11 @@ import { LanguageProvider } from "@/lib/i18n";
 import Footer from "@/components/Footer";
 import DevTools from "@/components/dev/DevTools";
 
+/** True only on the production deployment (bujasaju.com). Vercel sets
+ *  VERCEL_ENV to 'production' | 'preview' | 'development'; local `next dev`
+ *  leaves it unset. */
+const IS_PRODUCTION = process.env.VERCEL_ENV === 'production';
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -74,8 +79,11 @@ export default function RootLayout({
         <Analytics />
         {/* GA4 via @next/third-parties: handles SPA navigation page_view
             events automatically and avoids the next/script hydration race
-            that left dataLayer with only [["js"], ["config"]] entries. */}
-        <GoogleAnalytics gaId="G-75TZ2JD6DS" />
+            that left dataLayer with only [["js"], ["config"]] entries.
+            Production only: preview deployments and local dev (including
+            automated screenshot runs) used to be counted as real visitors —
+            on 2026-11-26 they made active users look ~2-3x higher. */}
+        {IS_PRODUCTION && <GoogleAnalytics gaId="G-75TZ2JD6DS" />}
       </body>
       {/* Google AdSense.
        *
