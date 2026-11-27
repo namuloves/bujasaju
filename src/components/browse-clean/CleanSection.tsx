@@ -3,7 +3,7 @@
 import type { EnrichedPerson } from '@/lib/saju/types';
 import type { CuratedSectionConfig } from '@/components/browse/curatedSections';
 import { useLanguage } from '@/lib/i18n';
-import CleanMiniCard from './CleanMiniCard';
+import CleanMiniCard, { CARD_GRID_CLASS } from './CleanMiniCard';
 
 interface Props {
   config: CuratedSectionConfig;
@@ -45,7 +45,7 @@ export default function CleanSection({ config, people, totalInSection, onShowMor
         </div>
       </header>
 
-      <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-x-5 gap-y-8">
+      <div className={CARD_GRID_CLASS}>
         {people.map((person) => (
           <CleanMiniCard key={person.id} person={person} />
         ))}

@@ -6,48 +6,28 @@ import type { EnrichedPerson } from '@/lib/saju/types';
 import { hasDeepBioSync, hasDeepBioV2Sync, loadDeepBioIndex } from '@/lib/deepBio';
 import { useLanguage } from '@/lib/i18n';
 import { USD_TO_KRW } from '@/lib/usdToKrw';
+import Portrait from '@/components/profile-v2/Portrait';
 
 const DeepBioModal = lazy(() => import('@/components/deep-bio/DeepBioModal'));
 
-function normalizePhotoUrl(url: string | undefined | null, name: string): string {
-  if (!url) {
-    return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=400&background=f3f4f6&color=9ca3af&bold=true`;
-  }
-  let normalized = url;
-  if (normalized.startsWith('/')) normalized = `https:${normalized}`;
-  if (normalized.startsWith('http://')) normalized = normalized.replace(/^http:/, 'https:');
-  if (normalized.includes('upload.wikimedia.org/')) {
-    return `/api/wiki-image?url=${encodeURIComponent(normalized)}`;
-  }
-  return normalized;
-}
+/**
+ * Card grid — shared by the curated sections and the filtered results so
+ * both line up the same. 2 / 3 / 6 columns divide the 6-card sections and
+ * the 60-card pages evenly, so no row is left half empty.
+ */
+export const CARD_GRID_CLASS =
+  'grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-x-4 gap-y-6 sm:gap-x-5 sm:gap-y-8';
 
+/** Generational suffixes that belong with the surname, not instead of it. */
+const NAME_SUFFIX = /^(jr\.?|sr\.?|ii|iii|iv|주니어|시니어|[2-4]세)$/i;
 
-// Five-element gradients keyed by day stem (천간).
-// 목(wood)·화(fire)·토(earth)·금(metal)·수(water).
-const ILJU_GRADIENT: Record<string, string> = {
-  // 목 — 갑·을
-  '갑': 'linear-gradient(116deg, #00C74C 7.97%, #0A9D42 100%)',
-  '을': 'linear-gradient(116deg, #00C74C 7.97%, #0A9D42 100%)',
-  // 화 — 병·정
-  '병': 'linear-gradient(113deg, #D66340 0%, #EF714A 100%)',
-  '정': 'linear-gradient(113deg, #D66340 0%, #EF714A 100%)',
-  // 토 — 무·기
-  '무': 'linear-gradient(105deg, #EC9212 0%, #F2A02C 151.02%)',
-  '기': 'linear-gradient(105deg, #EC9212 0%, #F2A02C 151.02%)',
-  // 금 — 경·신
-  '경': 'linear-gradient(109deg, #A1A1A1 2.57%, #828282 97.43%)',
-  '신': 'linear-gradient(109deg, #A1A1A1 2.57%, #828282 97.43%)',
-  // 수 — 임·계
-  '임': 'linear-gradient(113deg, #005A92 -6.33%, #1B8ACF 116.68%)',
-  '계': 'linear-gradient(113deg, #005A92 -6.33%, #1B8ACF 116.68%)',
-};
-
+/** First name + surname ("윌리엄 게이츠 3세", not "윌리엄 3세"). */
 function shortName(person: EnrichedPerson, isKo: boolean): string {
   const raw = isKo ? (person.nameKo ?? person.name) : person.name;
   const parts = raw.split(' ');
-  if (parts.length <= 2) return raw;
-  return `${parts[0]} ${parts[parts.length - 1]}`;
+  const suffix = parts.length > 2 && NAME_SUFFIX.test(parts[parts.length - 1]) ? parts.pop() : null;
+  const short = parts.length <= 2 ? parts.join(' ') : `${parts[0]} ${parts[parts.length - 1]}`;
+  return suffix ? `${short} ${suffix}` : short;
 }
 
 function formatNetWorthShort(netWorthB: number, isKo: boolean): string {
@@ -83,42 +63,29 @@ export default function CleanMiniCard({ person }: Props) {
   const name = shortName(person, isKo);
   const netWorth = formatNetWorthShort(person.netWorth, isKo);
 
+  // One line of key facts: net worth · 일주 · company. Company goes last
+  // so it is what truncates on narrow cards.
+  const company = person.companyKo || person.company || person.source;
+  const facts = [netWorth, person.saju?.ilju, company].filter(Boolean).join(' · ');
+  const fullName = isKo ? (person.nameKo ?? person.name) : person.name;
+
+  // Profile v2 language: photo (8px corners, no shadow, initials when there
+  // is none), name, one gray line. Single-line text keeps every card in a
+  // row the same height.
   const body = (
     <>
-      <div className="aspect-square relative overflow-hidden rounded-lg bg-gray-50">
-        <img
-          src={normalizePhotoUrl(person.photoUrl, person.name)}
-          alt={person.name}
-          className={`w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.03] ${hasBio ? '' : 'grayscale opacity-60'}`}
-          loading="lazy"
-          decoding="async"
-        />
-      </div>
-      <div className="mt-2.5 px-0.5">
-        <h4 className="text-[13px] leading-tight truncate">
-          <span className="font-medium text-gray-900">{name}</span>
-          {person.saju?.ilju && (
-            <>
-              <span className="font-normal text-gray-300"> · </span>
-              <span
-                className="font-medium bg-clip-text text-transparent"
-                style={{ backgroundImage: ILJU_GRADIENT[person.saju.ilju[0]] }}
-              >
-                {person.saju.ilju}
-              </span>
-            </>
-          )}
-        </h4>
-        <p className="text-[11px] text-gray-500 mt-0.5 truncate">
-          {/* Prefer company name over source (which is often an industry tag
-              like "Real estate" / "Banking"). Fall back to source only when
-              there's no concrete company name. */}
-          {(person.companyKo || person.company || person.source)
-            ? `${person.companyKo || person.company || person.source} · `
-            : ''}
-          {netWorth}
-        </p>
-      </div>
+      <Portrait
+        person={person}
+        lazy
+        className={`aspect-square w-full rounded-lg overflow-hidden bg-gray-100 ${
+          hasBio ? 'transition-opacity group-hover:opacity-90' : 'grayscale opacity-60'
+        }`}
+        textClass="text-3xl"
+      />
+      <p className="mt-2 text-sm font-medium text-gray-900 truncate" title={fullName !== name ? fullName : undefined}>
+        {name}
+      </p>
+      <p className="mt-0.5 text-xs text-gray-500 truncate">{facts}</p>
     </>
   );
 

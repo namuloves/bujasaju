@@ -18,11 +18,13 @@ interface Props {
   className: string;
   /** Font size for the initials fallback. */
   textClass: string;
+  /** Load the photo only near the viewport — for long card grids. */
+  lazy?: boolean;
 }
 
 /** Photo, or a neutral gray tile with initials when there is no photo or
  *  it fails to load. Existing gray tokens only. */
-export default function Portrait({ person, className, textClass }: Props) {
+export default function Portrait({ person, className, textClass, lazy = false }: Props) {
   const src = proxyWikimedia(normalizePhotoUrl(person.photoUrl));
   const [failed, setFailed] = useState(false);
 
@@ -36,7 +38,14 @@ export default function Portrait({ person, className, textClass }: Props) {
   return (
     <div className={className}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={src} alt={person.name} className="w-full h-full object-cover" onError={() => setFailed(true)} />
+      <img
+        src={src}
+        alt={person.name}
+        className="w-full h-full object-cover"
+        loading={lazy ? 'lazy' : undefined}
+        decoding={lazy ? 'async' : undefined}
+        onError={() => setFailed(true)}
+      />
     </div>
   );
 }

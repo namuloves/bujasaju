@@ -8,7 +8,7 @@ import type { Filters } from '@/components/FilterPanel';
 import { nationalityToKorean, industryToKorean } from '@/components/FilterPanel';
 import { useLanguage } from '@/lib/i18n';
 import CleanSection from './CleanSection';
-import CleanMiniCard from './CleanMiniCard';
+import CleanMiniCard, { CARD_GRID_CLASS } from './CleanMiniCard';
 import CleanInlineFilters from './CleanInlineFilters';
 import { matchesSearch } from "./searchAliases";
 
@@ -247,7 +247,7 @@ export default function CleanBrowseView({ nav }: Props = {}) {
             </p>
           ) : (
             <>
-              <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-x-5 gap-y-8">
+              <div className={CARD_GRID_CLASS}>
                 {filtered.slice(0, visibleCount).map((person) => (
                   <CleanMiniCard key={person.id} person={person} />
                 ))}
