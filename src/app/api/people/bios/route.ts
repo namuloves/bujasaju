@@ -32,6 +32,8 @@ export async function GET() {
         'Content-Type': 'application/json; charset=utf-8',
         // Same caching policy as /api/people — identical bytes for everyone.
         'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800',
+        // Crawlers may fetch this to render profiles; don't index the JSON.
+        'X-Robots-Tag': 'noindex',
       },
     });
   } catch (err) {

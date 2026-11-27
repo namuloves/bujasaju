@@ -5,6 +5,7 @@ import type { EnrichedPerson } from '@/lib/saju/types';
 import { useLanguage } from '@/lib/i18n';
 import { industryToKorean } from '@/components/FilterPanel';
 import { USD_TO_KRW } from '@/lib/usdToKrw';
+import { relatedPeople } from '@/lib/relatedPeople';
 
 /**
  * "Where next" for a visitor who landed on a profile from a search or a
@@ -41,18 +42,6 @@ function photo(url: string | undefined | null, name: string): string {
   return url;
 }
 
-function pick(
-  people: EnrichedPerson[],
-  self: EnrichedPerson,
-  pred: (p: EnrichedPerson) => boolean,
-  limit = 6,
-): EnrichedPerson[] {
-  return people
-    .filter((p) => p.id !== self.id && pred(p))
-    .sort((a, b) => b.netWorth - a.netWorth)
-    .slice(0, limit);
-}
-
 interface Props {
   person: EnrichedPerson;
   people: EnrichedPerson[];
@@ -62,10 +51,7 @@ export default function RelatedPeople({ person, people }: Props) {
   const { lang } = useLanguage();
   const isKo = lang === 'ko';
 
-  const sameIlju = person.saju
-    ? pick(people, person, (p) => p.saju?.ilju === person.saju.ilju)
-    : [];
-  const sameIndustry = pick(people, person, (p) => p.industry === person.industry);
+  const { sameIlju, sameIndustry } = relatedPeople(people, person);
 
   if (sameIlju.length === 0 && sameIndustry.length === 0) return null;
 

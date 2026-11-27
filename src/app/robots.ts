@@ -77,9 +77,21 @@ export default function robots(): MetadataRoute.Robots {
       // API routes have no SEO value and some make outbound calls
       // (/api/wiki-image proxies Wikimedia), so crawling them burns our
       // function invocations and our upstream reputation for nothing.
+      //
+      // Two exceptions: the read-only data routes the profile page loads
+      // its content from (/api/people, /api/people/bios, /api/deep-bio/*).
+      // A crawler that renders JS (Googlebot, and Naver's Yeti per
+      // https://searchadvisor.naver.com/guide/seo-advanced-javascript) must
+      // be able to fetch them, or the rendered profile has no bio in it.
+      // Naver's guide names exactly this case, a page allowed but the
+      // resources it needs disallowed, as a reason for incomplete indexing
+      // (https://searchadvisor.naver.com/guide/resource-and-link). This
+      // gives scrapers nothing: they ignore robots.txt anyway, and the
+      // routes keep their own rate limits. The longer Allow path beats the
+      // shorter Disallow, and the AI group below still gets nothing.
       {
         userAgent: '*',
-        allow: '/',
+        allow: ['/', '/api/people', '/api/deep-bio/'],
         disallow: ['/api/', '/dev/'],
       },
       // AI trainers and scrapers: nothing at all.
