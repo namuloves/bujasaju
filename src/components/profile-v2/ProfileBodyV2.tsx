@@ -103,7 +103,15 @@ export default function ProfileBodyV2({ person, bio, bioLoading, displayName, la
         ) : !bio ? (
           <EmptyBioState lang={lang} />
         ) : (
-          <DeepBioContent bio={bio} person={person} lang={lang} hideKeyFacts hideSajuConnection={!!reading} />
+          <DeepBioContent
+            bio={bio}
+            person={person}
+            lang={lang}
+            hideKeyFacts
+            hideSajuConnection={!!reading}
+            // The hero already shows this exact line under the name.
+            hideKnownFor={!!knownFor}
+          />
         )}
       </div>
     </>

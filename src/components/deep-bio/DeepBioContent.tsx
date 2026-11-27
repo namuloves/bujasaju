@@ -118,7 +118,13 @@ function buildMatchPoints(userSaju: SajuResult, person: EnrichedPerson, lang: st
   return points;
 }
 
-export default function DeepBioContent({ bio, person, userSaju, lang, mobileHeader, scrollRoot, hideKeyFacts, hideSajuConnection }: Props & { hideKeyFacts?: boolean; hideSajuConnection?: boolean }) {
+export default function DeepBioContent({ bio, person, userSaju, lang, mobileHeader, scrollRoot, hideKeyFacts, hideSajuConnection, hideKnownFor }: Props & {
+  hideKeyFacts?: boolean;
+  hideSajuConnection?: boolean;
+  /** The one-line summary (personalTraits.knownFor) is already shown above,
+   *  e.g. in the profile v2 hero: leave it out of 대표 활동. */
+  hideKnownFor?: boolean;
+}) {
   const matchPoints = userSaju ? buildMatchPoints(userSaju, person, lang) : [];
 
   // Key facts — childhood에서 추출
@@ -168,6 +174,14 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
   const hasTimeline = bio.careerTimeline && bio.careerTimeline.length > 0;
   const hasWealth = bio.wealthHistory && bio.wealthHistory.length >= 2;
   const hasTraits = bio.personalTraits && (bio.personalTraits.knownFor || bio.personalTraits.philanthropy);
+  // 대표 활동 without the summary when it's shown elsewhere; the section
+  // goes away entirely if that leaves nothing. hasTraits still decides
+  // whether the v2 character section below may render, as before.
+  const knownForText = bio.personalTraits
+    ? ko(lang, bio.personalTraits.knownFor, bio.personalTraits.knownForKo)
+    : '';
+  const showKnownFor = !!knownForText && !hideKnownFor;
+  const showTraits = !!hasTraits && (showKnownFor || !!bio.personalTraits?.philanthropy);
   // v2 bios store character data in characterKo / personalTraitsKo instead of personalTraits
   type CharV2A = { strengths?: string; weaknesses?: string; motivation?: string; legacy?: string };
   type CharV2B = { observedTraitsKo?: string; leadershipStyleKo?: string; conflictBehaviorKo?: string; knownQuirksKo?: string };
@@ -343,16 +357,16 @@ export default function DeepBioContent({ bio, person, userSaju, lang, mobileHead
       })()}
 
       {/* 4a. Personal traits — v1 shape: knownFor + philanthropy */}
-      {hasTraits && (
+      {showTraits && (
         <section>
           <h3 className="text-[11px] font-medium text-gray-500 tracking-[0.08em] uppercase border-b border-gray-200 pb-2 mb-4">
             {lang === 'ko' ? '대표 활동' : 'Known For'}
           </h3>
-          <p className="text-sm text-gray-800 leading-relaxed">
-            {ko(lang, bio.personalTraits!.knownFor, bio.personalTraits!.knownForKo)}
-          </p>
+          {showKnownFor && (
+            <p className="text-sm text-gray-800 leading-relaxed">{knownForText}</p>
+          )}
           {bio.personalTraits!.philanthropy && (
-            <div className="mt-3 pt-3 border-t border-gray-100 flex gap-3 items-baseline">
+            <div className={`flex gap-3 items-baseline ${showKnownFor ? 'mt-3 pt-3 border-t border-gray-100' : ''}`}>
               <div className="shrink-0 w-12 text-[11px] font-medium text-gray-400 uppercase tracking-[0.06em]">
                 {lang === 'ko' ? '자선' : 'Giving'}
               </div>
