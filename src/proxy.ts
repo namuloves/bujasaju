@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { getRedis } from './lib/redis';
+import { isSearchCrawlerIp } from './lib/searchCrawlers';
 import {
   UNLOCK_COOKIE,
   VIEWS_COOKIE,
@@ -200,6 +201,16 @@ export async function proxy(req: NextRequest) {
         );
       }
     }
+  }
+
+  // --- Layer 1c: search engine crawlers skip the rate limit ---------------
+  // Naver's Yeti crawls from a few hundred IPs, so walking the 3,000+
+  // sitemap URLs can push one of them past 60/min, and the blocked response
+  // carries `X-Robots-Tag: noindex`. The check is on the IP, against the
+  // ranges Naver/Google/Bing publish, never on the UA, which anyone can
+  // fake. See lib/searchCrawlers.ts. Layer 1 still applies to them.
+  if (isSearchCrawlerIp(getIp(req))) {
+    return NextResponse.next();
   }
 
   // --- Layer 2: per-IP rate limit ----------------------------------------

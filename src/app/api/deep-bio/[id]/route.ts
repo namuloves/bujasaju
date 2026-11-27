@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 import type { NextRequest } from 'next/server';
 import { rateLimit, getIp } from '@/lib/rateLimit';
 import { deepBioV1Path, deepBioV2Path } from '@/lib/data/paths';
+import { isSearchCrawlerIp } from '@/lib/searchCrawlers';
 
 /**
  * GET /api/deep-bio/[id]?v=2
@@ -41,6 +42,19 @@ const WINDOW_SECONDS = 60;
  */
 const ID_RE = /^\d{1,12}$/;
 
+/**
+ * Per-IP limit, skipped for search engine crawlers (by published IP range,
+ * never by UA; see lib/searchCrawlers.ts). robots.txt lets them fetch this
+ * route to render profile pages, and a crawler working through thousands of
+ * profiles from a few IPs would otherwise get 429s instead of the bio.
+ */
+async function withinLimit(req: NextRequest): Promise<boolean> {
+  const ip = getIp(req);
+  if (isSearchCrawlerIp(ip)) return true;
+  const { allowed } = await rateLimit('deep-bio', ip, MAX_PER_WINDOW, WINDOW_SECONDS);
+  return allowed;
+}
+
 async function loadBio(id: string, wantV2: boolean): Promise<string | null> {
   try {
     return await readFile(wantV2 ? deepBioV2Path(id) : deepBioV1Path(id), 'utf8');
@@ -56,8 +70,7 @@ export async function GET(req: NextRequest, ctx: { params: Promise<{ id: string 
     return Response.json({ error: 'invalid_id' }, { status: 400 });
   }
 
-  const { allowed } = await rateLimit('deep-bio', getIp(req), MAX_PER_WINDOW, WINDOW_SECONDS);
-  if (!allowed) {
+  if (!(await withinLimit(req))) {
     return Response.json({ error: 'too_many_requests' }, { status: 429 });
   }
 
@@ -73,6 +86,8 @@ export async function GET(req: NextRequest, ctx: { params: Promise<{ id: string 
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
       'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate=604800',
+      // Crawlers may fetch this to render profiles; don't index the JSON.
+      'X-Robots-Tag': 'noindex',
     },
   });
 }
@@ -82,8 +97,7 @@ export async function HEAD(req: NextRequest, ctx: { params: Promise<{ id: string
   const { id } = await ctx.params;
   if (!ID_RE.test(id)) return new Response(null, { status: 400 });
 
-  const { allowed } = await rateLimit('deep-bio', getIp(req), MAX_PER_WINDOW, WINDOW_SECONDS);
-  if (!allowed) return new Response(null, { status: 429 });
+  if (!(await withinLimit(req))) return new Response(null, { status: 429 });
 
   const wantV2 = req.nextUrl.searchParams.get('v') === '2';
   const raw = await loadBio(id, wantV2);

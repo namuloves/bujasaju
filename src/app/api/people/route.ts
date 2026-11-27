@@ -55,6 +55,9 @@ export async function GET() {
         // lets the browser reuse it for an hour, so navigating back to the
         // home page or reopening it doesn't re-download the list.
         'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800',
+        // robots.txt lets search crawlers fetch this so they can render
+        // profiles; this keeps the raw JSON itself out of their index.
+        'X-Robots-Tag': 'noindex',
       },
     });
   } catch (err) {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { createContext, createElement, useContext, useEffect, useState, type ReactNode } from 'react';
 import { EnrichedPerson } from '../saju/types';
 import { CHEON_GAN, JI_JI, STEM_TO_OHAENG } from '../saju/constants';
 
@@ -84,16 +84,62 @@ export function ensureBios(): Promise<void> {
 }
 
 /**
+ * People the server already has, handed to the first render.
+ *
+ * Without this, a hard load of /profile/[id] server-renders only a spinner:
+ * the dataset comes from /api/people in an effect, and effects don't run on
+ * the server. Crawlers that read HTML (Naver's Yeti for one: its guide asks
+ * for the main content to be server-rendered,
+ * https://searchadvisor.naver.com/guide/seo-advanced-javascript) saw a page
+ * with no name, bio or chart in it. robots.txt also keeps them off /api/,
+ * so even a crawler that runs JS could not fetch the data.
+ *
+ * The profile layout wraps the page in this provider with that one person.
+ * The server render and hydration both start from the seed, so they match;
+ * the full list still loads in the background and replaces it.
+ */
+const EnrichedSeedContext = createContext<EnrichedPerson[] | null>(null);
+
+export function EnrichedSeedProvider({
+  people,
+  children,
+}: {
+  people: EnrichedPerson[];
+  children: ReactNode;
+}) {
+  return createElement(EnrichedSeedContext.Provider, { value: people }, children);
+}
+
+/**
+ * The /api/people list has no bios (they follow from /api/people/bios), but
+ * seeded people arrive with theirs. Copy them across so the profile's bio
+ * doesn't vanish between the list landing and the bios landing.
+ */
+function keepSeedBios(seed: EnrichedPerson[], people: EnrichedPerson[]): void {
+  for (const s of seed) {
+    if (!s.bio && !s.bioKo) continue;
+    const p = people.find((x) => x.id === s.id);
+    if (!p) continue;
+    if (!p.bio && s.bio) p.bio = s.bio;
+    if (!p.bioKo && s.bioKo) p.bioKo = s.bioKo;
+  }
+}
+
+/**
  * React hook: fetch + enrich billionaires on mount. Returns an empty array
- * while loading so callers can render skeletons / spinners.
+ * while loading so callers can render skeletons / spinners, or the seeded
+ * people when an EnrichedSeedProvider is above (see its note).
  *
  * Once any component has kicked off the fetch, further `useEnrichedPeople`
  * calls resolve instantly from the module cache. When bios arrive the hook
  * returns a new array so consumers re-render with them.
  */
 export function useEnrichedPeople(): { people: EnrichedPerson[]; loading: boolean } {
-  const [people, setPeople] = useState<EnrichedPerson[]>(() => cachedData ?? []);
-  const [loading, setLoading] = useState<boolean>(() => cachedData === null);
+  const seed = useContext(EnrichedSeedContext);
+  const [people, setPeople] = useState<EnrichedPerson[]>(() => cachedData ?? seed ?? []);
+  const [loading, setLoading] = useState<boolean>(
+    () => cachedData === null && !(seed && seed.length > 0),
+  );
 
   useEffect(() => {
     const onBios = () => {
@@ -103,6 +149,7 @@ export function useEnrichedPeople(): { people: EnrichedPerson[]; loading: boolea
     let cancelled = false;
     loadEnrichedPeople().then(() => {
       if (cancelled || !cachedData) return;
+      if (seed) keepSeedBios(seed, cachedData);
       setPeople(cachedData);
       setLoading(false);
     });
@@ -110,7 +157,7 @@ export function useEnrichedPeople(): { people: EnrichedPerson[]; loading: boolea
       cancelled = true;
       bioListeners.delete(onBios);
     };
-  }, []);
+  }, [seed]);
 
   return { people, loading };
 }
