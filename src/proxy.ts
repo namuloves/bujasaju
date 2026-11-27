@@ -143,20 +143,34 @@ function getIp(req: NextRequest): string {
 
 const DEFAULT_BLOCK_MESSAGE = 'Automated access to this page is not allowed.';
 
-function blocked(reason: string, message = DEFAULT_BLOCK_MESSAGE): NextResponse {
+/**
+ * Shown when the per-IP rate limit trips. Unlike the UA checks, this one can
+ * hit a real person (shared carrier IPs, very fast browsing), so it says what
+ * happened and that it clears on its own — in Korean first, for our audience.
+ */
+const RATE_LIMIT_MESSAGE =
+  '잠깐 사이에 요청이 너무 많았어요. 1분 뒤 새로고침해 주세요.\n' +
+  'Too many requests in a short time. Please refresh in a minute.';
+
+function blocked(
+  reason: string,
+  message = DEFAULT_BLOCK_MESSAGE,
+  status = 403,
+): NextResponse {
   // A short body rather than an empty one: anything caught here as a false
   // positive would otherwise see a blank white page with no explanation.
-  return new NextResponse(`${message}\n`, {
-    status: 403,
-    headers: {
-      'Content-Type': 'text/plain; charset=utf-8',
-      // Belt and braces: if a search engine somehow lands here, don't index
-      // the error page.
-      'X-Robots-Tag': 'noindex, nofollow',
-      'Cache-Control': 'no-store',
-      'X-Block-Reason': reason,
-    },
-  });
+  const headers: Record<string, string> = {
+    'Content-Type': 'text/plain; charset=utf-8',
+    // Belt and braces: if a search engine somehow lands here, don't index
+    // the error page.
+    'X-Robots-Tag': 'noindex, nofollow',
+    'Cache-Control': 'no-store',
+    'X-Block-Reason': reason,
+  };
+  // 429 + Retry-After tells well-behaved crawlers to back off and retry
+  // rather than treating the page as forbidden.
+  if (status === 429) headers['Retry-After'] = String(RATE_LIMIT_WINDOW_SECONDS);
+  return new NextResponse(`${message}\n`, { status, headers });
 }
 
 export async function proxy(req: NextRequest) {
@@ -203,14 +217,19 @@ export async function proxy(req: NextRequest) {
     // INCR + EXPIRE is one round-trip via pipeline and far cheaper than the
     // sorted-set sliding window in lib/rateLimit.ts. This runs on every page
     // request, so the fixed window is the right tradeoff here.
+    //
+    // EXPIRE ... NX sets the TTL only when the window opens. A plain EXPIRE
+    // re-armed the full 60s on every request, so anyone over the limit who
+    // kept loading pages (each blocked request still counted) never got
+    // unblocked until they went completely idle for a minute.
     const pipe = redis.pipeline();
     pipe.incr(key);
-    pipe.expire(key, RATE_LIMIT_WINDOW_SECONDS);
+    pipe.expire(key, RATE_LIMIT_WINDOW_SECONDS, 'NX');
     const results = (await pipe.exec()) as [number, number];
     const count = results[0];
 
     if (count > RATE_LIMIT_MAX) {
-      return blocked('rate');
+      return blocked('rate', RATE_LIMIT_MESSAGE, 429);
     }
   } catch {
     // Fail open on any Redis error — see note above.
@@ -275,8 +294,33 @@ export const config = {
    *                    inventory as unauthorized and demand drops.
    *   - static files — images/fonts/etc. don't need bot checks and would
    *                    multiply Redis calls per page view.
+   *   - router prefetches — <Link> prefetches every profile link that
+   *                    scrolls into view. Counting them tripped the rate
+   *                    limit for ordinary visitors browsing the card grid
+   *                    (then the next real page load got blocked), and
+   *                    metering them used up a visitor's free profile views
+   *                    before they had opened a single profile. A real
+   *                    router prefetch carries BOTH `next-router-prefetch`
+   *                    and `rsc`; only that pair skips the proxy. A request
+   *                    sending `next-router-prefetch` alone (a scraper
+   *                    trying to get full HTML past the limit) still matches
+   *                    the second entry and is checked as usual.
+   *
+   * Proxy strips these Flight headers from `request.headers`, so this can
+   * only be decided here in the matcher, not inside proxy(). Matcher values
+   * must be literals (statically analysed), hence the repeated pattern.
    */
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|ads.txt|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|woff|woff2|ttf|otf|css|js)$).*)',
+    {
+      source:
+        '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|ads.txt|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|woff|woff2|ttf|otf|css|js)$).*)',
+      missing: [{ type: 'header', key: 'next-router-prefetch' }],
+    },
+    {
+      source:
+        '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|ads.txt|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|woff|woff2|ttf|otf|css|js)$).*)',
+      has: [{ type: 'header', key: 'next-router-prefetch' }],
+      missing: [{ type: 'header', key: 'rsc' }],
+    },
   ],
 };

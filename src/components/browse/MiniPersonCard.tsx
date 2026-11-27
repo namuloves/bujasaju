@@ -147,6 +147,10 @@ export default function MiniPersonCard({ person, categoryLabel, reserveLabelSpac
         {hasBio ? (
           <Link
             href={`/profile/${person.id}`}
+            // A plain click opens the overlay, never this route, so
+            // prefetching it only burned requests (and the rate limit) for
+            // every card scrolled past. See config.matcher in src/proxy.ts.
+            prefetch={false}
             onClick={(e) => {
               // Let cmd/ctrl/shift/middle-click go through to full page.
               if (e.metaKey || e.ctrlKey || e.shiftKey) return;

@@ -127,6 +127,10 @@ export default function CleanMiniCard({ person }: Props) {
       {hasBio ? (
         <Link
           href={`/profile/${person.id}`}
+          // A plain click opens the overlay, never this route, so
+          // prefetching it only burned requests (and the rate limit) for
+          // every card scrolled past. See config.matcher in src/proxy.ts.
+          prefetch={false}
           onClick={(e) => {
             if (e.metaKey || e.ctrlKey || e.shiftKey) return;
             e.preventDefault();
